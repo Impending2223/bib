@@ -1,0 +1,3128 @@
+# Kind bands for elections and newspapers (the owner, Nov. 6, 2026: "Elections are late evening or night events
+# in the constituency where they're held"; newspapers "early morning events in the location where published").
+# range_basis: kind; nothing added to n. Elections from the polls' closing by law (sources/poll-hours.yaml,
+# pollhours.closing) to the band's end, the clock from sources/daylight-time.yaml; else the band. Built by
+# kindbands.py and build_patch.py in the session's scratch directory.
+patch: kind-bands
+by: 'Claude (kind bands: elections and newspapers; dayorder STYLE 5, KINDS_PLACE)'
+ops:
+- edit:
+    id: cal.1960-01-09.governors-la
+    base: 2035a655
+    set:
+      time_range:
+      - 1960-01-10T02:00Z
+      - 1960-01-10T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-03-08.elections-1960
+    base: d5092186
+    set:
+      time_range:
+      - 1960-03-09T01:00Z
+      - 1960-03-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-03-08.specials
+    base: 2829e6ca
+    set:
+      time_range:
+      - 1960-03-09T01:00Z
+      - 1960-03-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-03-15.japan-and-korea
+    base: b0cfddff
+    set:
+      time_range:
+      - 1960-03-15T11:30Z
+      - 1960-03-15T17:30Z
+      time_band: election night
+      time_zone: Asia/Seoul
+      range_basis: kind
+- edit:
+    id: cal.1960-04-05.elections-1960
+    base: ecf475a8
+    set:
+      time_range:
+      - 1960-04-06T02:00Z
+      - 1960-04-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-04-05.elections-1960-kennedy
+    base: 13d1b9f1
+    set:
+      time_range:
+      - 1960-04-06T02:00Z
+      - 1960-04-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-04-05.mayors-milwaukee
+    base: 4a238064
+    set:
+      time_range:
+      - 1960-04-06T02:00Z
+      - 1960-04-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-04-12.elections-1960
+    base: 7dce77bb
+    set:
+      time_range:
+      - 1960-04-13T00:00Z
+      - 1960-04-13T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-04-12.governors-il
+    base: 8aa0f8f7
+    set:
+      time_range:
+      - 1960-04-13T00:00Z
+      - 1960-04-13T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-04-19.elections-1960
+    base: 8fa92ed5
+    set:
+      time_range:
+      - 1960-04-20T01:00Z
+      - 1960-04-20T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-04-19.governors-la
+    base: a55e8d12
+    set:
+      time_range:
+      - 1960-04-20T02:00Z
+      - 1960-04-20T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-04-26.elections-1960
+    base: 949ab92c
+    set:
+      time_range:
+      - 1960-04-27T00:00Z
+      - 1960-04-27T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-04-26.specials
+    base: 6d94b40c
+    set:
+      time_range:
+      - 1960-04-27T00:00Z
+      - 1960-04-27T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-04-26.specials-2
+    base: 81733f7d
+    set:
+      time_range:
+      - 1960-04-27T00:00Z
+      - 1960-04-27T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-03.alabama-al
+    base: ffbc1e8f
+    set:
+      time_range:
+      - 1960-05-04T01:00Z
+      - 1960-05-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-05-03.elections-1960
+    base: 005ba2a5
+    set:
+      time_range:
+      - 1960-05-03T22:30Z
+      - 1960-05-04T08:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-03.governors-fl
+    base: 9d8b38f2
+    set:
+      time_range:
+      - 1960-05-04T01:00Z
+      - 1960-05-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-05-07.governors-tx
+    base: 1f40b649
+    set:
+      time_range:
+      - 1960-05-08T03:00Z
+      - 1960-05-08T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-05-10.elections-1960
+    base: 49c4dd55
+    set:
+      time_range:
+      - 1960-05-11T00:00Z
+      - 1960-05-11T09:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-10.elections-1960-primaries
+    base: 1e264778
+    set:
+      time_range:
+      - 1960-05-11T00:00Z
+      - 1960-05-11T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-10.governors-ne
+    base: 0f86f2d4
+    set:
+      time_range:
+      - 1960-05-11T03:00Z
+      - 1960-05-11T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-05-10.governors-nm
+    base: 579724de
+    set:
+      time_range:
+      - 1960-05-11T02:00Z
+      - 1960-05-11T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-05-10.governors-wv
+    base: aa037fd5
+    set:
+      time_range:
+      - 1960-05-11T00:00Z
+      - 1960-05-11T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-17.elections-1960
+    base: f6054ca8
+    set:
+      time_range:
+      - 1960-05-17T23:00Z
+      - 1960-05-18T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-20.elections-1960
+    base: b384b4c9
+    set:
+      time_range:
+      - 1960-05-21T03:00Z
+      - 1960-05-21T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1960-05-24.elections-1960
+    base: 0bfb8fb5
+    set:
+      time_range:
+      - 1960-05-25T01:00Z
+      - 1960-05-25T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-05-24.governors-fl
+    base: 45a60352
+    set:
+      time_range:
+      - 1960-05-25T01:00Z
+      - 1960-05-25T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-05-28.governors-nc
+    base: 12e123eb
+    set:
+      time_range:
+      - 1960-05-28T23:30Z
+      - 1960-05-29T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-05-31.alabama-al
+    base: c6cd941f
+    set:
+      time_range:
+      - 1960-06-01T01:00Z
+      - 1960-06-01T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-06-06.governors-ia
+    base: 72ce9760
+    set:
+      time_range:
+      - 1960-06-07T01:00Z
+      - 1960-06-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-06-07.elections-1960
+    base: 9d48034f
+    set:
+      time_range:
+      - 1960-06-08T02:00Z
+      - 1960-06-08T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-06-07.governors-mt
+    base: 812719ba
+    set:
+      time_range:
+      - 1960-06-08T02:00Z
+      - 1960-06-08T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-06-07.mississippi-ms
+    base: 19a9a220
+    set:
+      time_range:
+      - 1960-06-08T02:00Z
+      - 1960-06-08T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-06-25.governors-nc
+    base: 6c854c29
+    set:
+      time_range:
+      - 1960-06-25T23:30Z
+      - 1960-06-26T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-06-25.specials
+    base: 5481fc7c
+    set:
+      time_range:
+      - 1960-06-25T23:30Z
+      - 1960-06-26T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-06-28.governors-nd
+    base: 3e424357
+    set:
+      time_range:
+      - 1960-06-29T01:00Z
+      - 1960-06-29T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-06-28.specials
+    base: 0a86a5b1
+    set:
+      time_range:
+      - 1960-06-29T01:00Z
+      - 1960-06-29T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-06-28.state-constitutions-nd
+    base: 3713bc9b
+    set:
+      time_range:
+      - 1960-06-29T01:00Z
+      - 1960-06-29T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-07-05.state-constitutions-ok
+    base: 4c0a2c60
+    set:
+      time_range:
+      - 1960-07-06T02:00Z
+      - 1960-07-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-07-26.governors-ar
+    base: fbd92378
+    set:
+      time_range:
+      - 1960-07-27T00:30Z
+      - 1960-07-27T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-07-26.state-constitutions-ok
+    base: 2910bd27
+    set:
+      time_range:
+      - 1960-07-27T02:00Z
+      - 1960-07-27T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-08-02.governors-ks
+    base: e24d4dd9
+    set:
+      time_range:
+      - 1960-08-03T02:00Z
+      - 1960-08-03T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-08-02.governors-mi
+    base: 184b5e6a
+    set:
+      time_range:
+      - 1960-08-03T02:00Z
+      - 1960-08-03T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1960-08-02.governors-mo
+    base: ffb01067
+    set:
+      time_range:
+      - 1960-08-03T01:00Z
+      - 1960-08-03T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-09-13.governors-ma
+    base: 7b1d2acd
+    set:
+      time_range:
+      - 1960-09-14T00:00Z
+      - 1960-09-14T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-09-13.governors-mn
+    base: d8b1fd97
+    set:
+      time_range:
+      - 1960-09-14T02:00Z
+      - 1960-09-14T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-09-13.governors-nh
+    base: cea37fc1
+    set:
+      time_range:
+      - 1960-09-14T00:00Z
+      - 1960-09-14T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-09-13.governors-ut
+    base: a7857671
+    set:
+      time_range:
+      - 1960-09-14T03:00Z
+      - 1960-09-14T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-09-13.governors-vt
+    base: '18975101'
+    set:
+      time_range:
+      - 1960-09-14T00:00Z
+      - 1960-09-14T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-09-13.governors-wa
+    base: d1cb0c9a
+    set:
+      time_range:
+      - 1960-09-14T04:00Z
+      - 1960-09-14T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1960-09-20.state-constitutions-ok
+    base: 6585591f
+    set:
+      time_range:
+      - 1960-09-21T02:00Z
+      - 1960-09-21T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-09-28.governors-ri
+    base: d2c92b13
+    set:
+      time_range:
+      - 1960-09-29T00:00Z
+      - 1960-09-29T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.elections-1960
+    base: 88c2692b
+    set:
+      time_range:
+      - 1960-11-08T23:00Z
+      - 1960-11-09T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.elections-1960-10
+    base: c8ce5075
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors
+    base: 9b5a5b95
+    set:
+      time_range:
+      - 1960-11-08T23:00Z
+      - 1960-11-09T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-il
+    base: 83f67a1b
+    set:
+      time_range:
+      - 1960-11-09T00:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-ks
+    base: 7101f90e
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-ma
+    base: afaf20d4
+    set:
+      time_range:
+      - 1960-11-09T01:00Z
+      - 1960-11-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-mn
+    base: 2d91fac9
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-mt
+    base: c4b7ae7a
+    set:
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-nm
+    base: 19186eed
+    set:
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-ri
+    base: 8cc41f32
+    set:
+      time_range:
+      - 1960-11-09T01:00Z
+      - 1960-11-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.governors-sd
+    base: f5e48da7
+    set:
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.legislatures-ca
+    base: 7613b2f6
+    set:
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.legislatures-us
+    base: 6e954385
+    set:
+      time_range:
+      - 1960-11-08T23:00Z
+      - 1960-11-09T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.mississippi-ms
+    base: f00d0129
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.specials
+    base: 012d9b8e
+    set:
+      time_range:
+      - 1960-11-09T01:00Z
+      - 1960-11-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-ca
+    base: 000f8ca1
+    set:
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-ky
+    base: 8d668ebc
+    set:
+      time_range:
+      - 1960-11-08T23:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-md
+    base: ef0d8a13
+    set:
+      time_range:
+      - 1960-11-09T00:00Z
+      - 1960-11-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-mi
+    base: 41f55a78
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-mo
+    base: 8f87b4a4
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-ok
+    base: 0c22411d
+    set:
+      time_range:
+      - 1960-11-09T02:00Z
+      - 1960-11-09T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1960-11-08.state-constitutions-tx
+    base: 1bf3b2fb
+    set:
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1960-11-20.japan-and-korea
+    base: 4b19e760
+    set:
+      time_range:
+      - 1960-11-20T11:00Z
+      - 1960-11-20T17:00Z
+      time_band: election night
+      time_zone: Asia/Tokyo
+      range_basis: kind
+- edit:
+    id: cal.1961-04-03.states-and-cities
+    base: d1c8a92f
+    set:
+      time_range:
+      - 1961-04-04T02:00Z
+      - 1961-04-04T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1961-04-04.mayors-los-angeles
+    base: e999e308
+    set:
+      time_range:
+      - 1961-04-05T04:00Z
+      - 1961-04-05T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1961-04-04.mayors-st-louis
+    base: 20a01dc3
+    set:
+      time_range:
+      - 1961-04-05T02:00Z
+      - 1961-04-05T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1961-04-04.states-and-cities
+    base: 855562fb
+    set:
+      time_range:
+      - 1961-04-05T03:00Z
+      - 1961-04-05T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1961-04-18.governors-nj
+    base: 28937c91
+    set:
+      time_range:
+      - 1961-04-19T01:00Z
+      - 1961-04-19T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-04-18.specials
+    base: e5eb89e1
+    set:
+      time_range:
+      - 1961-04-19T00:30Z
+      - 1961-04-19T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1961-05-02.specials
+    base: b1b83242
+    set:
+      time_range:
+      - 1961-05-03T02:00Z
+      - 1961-05-03T09:00Z
+      time_band: election night
+      time_zone: America/Phoenix
+      range_basis: kind
+- edit:
+    id: cal.1961-05-16.specials
+    base: 776014b9
+    set:
+      time_range:
+      - 1961-05-17T00:00Z
+      - 1961-05-17T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-05-16.specials-2
+    base: 103b28c5
+    set:
+      time_range:
+      - 1961-05-17T00:00Z
+      - 1961-05-17T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-05-27.states-and-cities
+    base: 6d4ab0d0
+    set:
+      time_range:
+      - 1961-05-28T03:00Z
+      - 1961-05-28T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1961-05-31.states-and-cities
+    base: 3ec3cfb9
+    set:
+      time_range:
+      - 1961-06-01T03:00Z
+      - 1961-06-01T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1961-06-13.mayors-minneapolis
+    base: df9eff9e
+    set:
+      time_range:
+      - 1961-06-14T01:00Z
+      - 1961-06-14T07:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1961-07-11.governors-va
+    base: 9ff1a8ec
+    set:
+      time_range:
+      - 1961-07-12T00:00Z
+      - 1961-07-12T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-09-07.states-and-cities
+    base: cc335fb0
+    set:
+      time_range:
+      - 1961-09-08T00:00Z
+      - 1961-09-08T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-09-12.state-constitutions-ok
+    base: 3a5cf830
+    set:
+      time_range:
+      - 1961-09-13T01:00Z
+      - 1961-09-13T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1961-09-13.georgia-atlanta
+    base: af7b278f
+    set:
+      time_range:
+      - 1961-09-14T01:00Z
+      - 1961-09-14T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-09-22.georgia-atlanta
+    base: 254d1df4
+    set:
+      time_range:
+      - 1961-09-23T01:00Z
+      - 1961-09-23T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-10-15.europe-and-the-alliance
+    base: bdd12319
+    set:
+      time_range:
+      - 1961-10-15T18:00Z
+      - 1961-10-16T00:00Z
+      time_band: election night
+      time_zone: Europe/Istanbul
+      range_basis: kind
+- edit:
+    id: cal.1961-11-04.specials
+    base: d7c907a0
+    set:
+      time_range:
+      - 1961-11-05T02:00Z
+      - 1961-11-05T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.governors-nj
+    base: a57586db
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.governors-va
+    base: bc1b8fa3
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.mayors-cleveland
+    base: aed87ba3
+    set:
+      time_range:
+      - 1961-11-07T23:30Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.mayors-detroit
+    base: add9c9eb
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/Detroit
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.mayors-louisville
+    base: e6cdeefd
+    set:
+      time_range:
+      - 1961-11-07T22:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/Kentucky/Louisville
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.mayors-ny
+    base: d6607d7f
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.mayors-pittsburgh
+    base: 297b9aa7
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.mayors-springfield
+    base: b1c8d2e9
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.specials
+    base: 11fefd47
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/Detroit
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.state-constitutions
+    base: a8c4a5ab
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.state-constitutions-nyc
+    base: d9e22c14
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-11-07.states-and-cities
+    base: 2b1e68f4
+    set:
+      time_range:
+      - 1961-11-08T01:00Z
+      - 1961-11-08T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-12-19.specials
+    base: c5cd3ff7
+    set:
+      time_range:
+      - 1961-12-20T02:00Z
+      - 1961-12-20T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-01-27.mayors-new-orleans
+    base: 7cc244f0
+    set:
+      time_range:
+      - 1962-01-28T02:00Z
+      - 1962-01-28T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-01-27.specials
+    base: 1b3f6bb1
+    set:
+      time_range:
+      - 1962-01-28T02:00Z
+      - 1962-01-28T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-01-30.specials
+    base: 238c7f1f
+    set:
+      time_range:
+      - 1962-01-31T02:00Z
+      - 1962-01-31T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-02-13.specials
+    base: 861d4c03
+    set:
+      time_range:
+      - 1962-02-14T01:00Z
+      - 1962-02-14T07:00Z
+      time_band: election night
+      time_zone: America/Detroit
+      range_basis: kind
+- edit:
+    id: cal.1962-02-20.specials
+    base: eb9bca17
+    set:
+      time_range:
+      - 1962-02-21T01:00Z
+      - 1962-02-21T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-03-03.mayors-new-orleans
+    base: 2182b133
+    set:
+      time_range:
+      - 1962-03-04T02:00Z
+      - 1962-03-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-03-06.state-constitutions-mo
+    base: 44162bbc
+    set:
+      time_range:
+      - 1962-03-07T02:00Z
+      - 1962-03-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-04-10.specials
+    base: 4d47c46e
+    set:
+      time_range:
+      - 1962-04-11T01:00Z
+      - 1962-04-11T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-05-01.alabama-al
+    base: ab9b4f85
+    set:
+      time_range:
+      - 1962-05-01T23:30Z
+      - 1962-05-02T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-05-01.governors-ok
+    base: d0498881
+    set:
+      time_range:
+      - 1962-05-02T01:00Z
+      - 1962-05-02T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-05-01.state-constitutions-ok
+    base: 49838b77
+    set:
+      time_range:
+      - 1962-05-02T01:00Z
+      - 1962-05-02T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-05-05.elections-1962
+    base: 46a05bba
+    set:
+      time_range:
+      - 1962-05-06T03:00Z
+      - 1962-05-06T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-05-08.governors-oh
+    base: 7834992a
+    set:
+      time_range:
+      - 1962-05-08T22:30Z
+      - 1962-05-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-05-08.mayors-newark
+    base: 05d828b3
+    set:
+      time_range:
+      - 1962-05-09T01:00Z
+      - 1962-05-09T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-05-15.governors-md
+    base: 82339a85
+    set:
+      time_range:
+      - 1962-05-15T23:00Z
+      - 1962-05-16T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-05-15.governors-ne
+    base: bac8ad8d
+    set:
+      time_range:
+      - 1962-05-16T03:00Z
+      - 1962-05-16T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-05-15.governors-pa
+    base: 5c197c7a
+    set:
+      time_range:
+      - 1962-05-16T01:00Z
+      - 1962-05-16T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-05-18.governors-or
+    base: f88584ab
+    set:
+      time_range:
+      - 1962-05-19T03:00Z
+      - 1962-05-19T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-05-22.governors-ok
+    base: 32bb159f
+    set:
+      time_range:
+      - 1962-05-23T01:00Z
+      - 1962-05-23T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-05-22.state-constitutions-ok
+    base: c9fefa5a
+    set:
+      time_range:
+      - 1962-05-23T01:00Z
+      - 1962-05-23T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-05-29.elections-1962
+    base: d89f0aac
+    set:
+      time_range:
+      - 1962-05-29T23:30Z
+      - 1962-05-30T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-06-02.governors-tx
+    base: d697f83b
+    set:
+      time_range:
+      - 1962-06-03T03:00Z
+      - 1962-06-03T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-06-04.governors-ia
+    base: df5eaeec
+    set:
+      time_range:
+      - 1962-06-05T01:00Z
+      - 1962-06-05T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-06-05.elections-1962
+    base: a618fe9a
+    set:
+      time_range:
+      - 1962-06-06T03:00Z
+      - 1962-06-06T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-06-05.governors-id
+    base: 4e55aa6a
+    set:
+      time_range:
+      - 1962-06-06T03:00Z
+      - 1962-06-06T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-06-05.mississippi-ms
+    base: c7f2e614
+    set:
+      time_range:
+      - 1962-06-06T02:00Z
+      - 1962-06-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-06-12.south-carolina-sc
+    base: 5d2230e9
+    set:
+      time_range:
+      - 1962-06-13T01:00Z
+      - 1962-06-13T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-06-18.governors-me
+    base: ec8ff97a
+    set:
+      time_range:
+      - 1962-06-19T00:00Z
+      - 1962-06-19T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-06-28.states-and-cities-nashville
+    base: f85b385b
+    set:
+      time_range:
+      - 1962-06-29T01:00Z
+      - 1962-06-29T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-07-31.elections-1962
+    base: 427c54dc
+    set:
+      time_range:
+      - 1962-08-01T00:30Z
+      - 1962-08-01T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-07-31.governors-ar
+    base: 46fb6729
+    set:
+      time_range:
+      - 1962-08-01T00:30Z
+      - 1962-08-01T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-08-02.governors-tn
+    base: 66c9d821
+    set:
+      time_range:
+      - 1962-08-03T01:00Z
+      - 1962-08-03T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-08-07.governors-ks
+    base: 460683f7
+    set:
+      time_range:
+      - 1962-08-08T02:00Z
+      - 1962-08-08T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-08-07.state-constitutions-mo
+    base: 1bae6cd8
+    set:
+      time_range:
+      - 1962-08-08T01:00Z
+      - 1962-08-08T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-08-14.governors-ak
+    base: b01c31f8
+    set:
+      time_range:
+      - 1962-08-15T06:00Z
+      - 1962-08-15T12:00Z
+      time_band: election night
+      time_zone: America/Anchorage
+      range_basis: kind
+- edit:
+    id: cal.1962-09-04.governors-nv
+    base: c2a2d8ae
+    set:
+      time_range:
+      - 1962-09-05T02:00Z
+      - 1962-09-05T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.elections-1962
+    base: 0798aa5d
+    set:
+      time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T09:00Z
+      time_band: election night
+      time_zone: America/Phoenix
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.governors-az
+    base: bec0c952
+    set:
+      time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T09:00Z
+      time_band: election night
+      time_zone: America/Phoenix
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.governors-co
+    base: f0045e2d
+    set:
+      time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.governors-mn
+    base: 258d01f3
+    set:
+      time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.governors-nh
+    base: ddbfc520
+    set:
+      time_range:
+      - 1962-09-12T00:00Z
+      - 1962-09-12T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.governors-ri
+    base: 649236f5
+    set:
+      time_range:
+      - 1962-09-12T00:00Z
+      - 1962-09-12T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-09-11.governors-wi
+    base: 859b93b2
+    set:
+      time_range:
+      - 1962-09-12T01:00Z
+      - 1962-09-12T07:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-09-12.georgia-ga
+    base: 7aedba5d
+    set:
+      time_range:
+      - 1962-09-13T01:00Z
+      - 1962-09-13T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-09-18.elections-1962
+    base: 6b94e5b9
+    set:
+      time_range:
+      - 1962-09-19T00:00Z
+      - 1962-09-19T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-09-18.governors-ma
+    base: b65eafbc
+    set:
+      time_range:
+      - 1962-09-19T00:00Z
+      - 1962-09-19T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-09-18.states-and-cities-ma
+    base: 5a7d4706
+    set:
+      time_range:
+      - 1962-09-19T00:00Z
+      - 1962-09-19T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-10-02.mayors-cleveland
+    base: e6d118e0
+    set:
+      time_range:
+      - 1962-10-02T22:30Z
+      - 1962-10-03T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-10-06.governors-hi
+    base: 8b9f2443
+    set:
+      time_range:
+      - 1962-10-07T03:30Z
+      - 1962-10-07T12:00Z
+      time_band: election night
+      time_zone: Pacific/Honolulu
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.alabama-al
+    base: 83565b95
+    set:
+      time_range:
+      - 1962-11-07T00:30Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.alabama-birmingham
+    base: 62dc1c58
+    set:
+      time_range:
+      - 1962-11-07T00:30Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.antisubversion-ca
+    base: 9e54c272
+    set:
+      time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.elections-1962
+    base: 4ed5e455
+    set:
+      time_range:
+      - 1962-11-06T23:00Z
+      - 1962-11-07T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.elections-1962-2
+    base: f1082893
+    set:
+      time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.georgia-ga
+    base: 495ecf66
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors
+    base: a8dddc74
+    set:
+      time_range:
+      - 1962-11-06T23:00Z
+      - 1962-11-07T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ca
+    base: 24a1a167
+    set:
+      time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-co
+    base: 6a3d376a
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-hi
+    base: 0df952da
+    set:
+      time_range:
+      - 1962-11-07T03:30Z
+      - 1962-11-07T12:00Z
+      time_band: election night
+      time_zone: Pacific/Honolulu
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ia
+    base: db987436
+    set:
+      time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ma
+    base: 691d7151
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-me
+    base: 10741ea2
+    set:
+      time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-mi
+    base: c7813ff7
+    set:
+      time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-mn
+    base: f5270cf4
+    set:
+      time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ne
+    base: 81744fe7
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-nh
+    base: b4196d60
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-nm
+    base: 12453c98
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ny
+    base: 3b857c20
+    set:
+      time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-oh
+    base: 5849446d
+    set:
+      time_range:
+      - 1962-11-06T23:30Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ok
+    base: 104fa16d
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-pa
+    base: 5cef71ea
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-ri
+    base: e0c6fb40
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-tx
+    base: a776c8c5
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-vt
+    base: 7ffe0798
+    set:
+      time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.governors-wy
+    base: 411bd272
+    set:
+      time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.legislatures-ca
+    base: 757e3bf4
+    set:
+      time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.legislatures-us
+    base: 1c613f57
+    set:
+      time_range:
+      - 1962-11-06T23:00Z
+      - 1962-11-07T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.mayors-cleveland
+    base: 0c3e44b0
+    set:
+      time_range:
+      - 1962-11-06T23:30Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.south-carolina-sc
+    base: b60b97ca
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-co
+    base: 1556c08c
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-il
+    base: da8d29e9
+    set:
+      time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-md
+    base: 35a763f6
+    set:
+      time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-mo
+    base: 6c202f44
+    set:
+      time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-ne
+    base: 1b43175b
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-ok
+    base: 61678c09
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-or
+    base: c1c2926d
+    set:
+      time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-tx
+    base: 0aceb741
+    set:
+      time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.state-constitutions-wa
+    base: a6de0d50
+    set:
+      time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1962-11-06.states-and-cities-ma
+    base: 4496e910
+    set:
+      time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1962-12-20.latin-america
+    base: ad8ce0d4
+    set:
+      time_range:
+      - 1962-12-21T01:00Z
+      - 1962-12-21T07:00Z
+      time_band: election night
+      time_zone: America/Santo_Domingo
+      range_basis: kind
+- edit:
+    id: cal.1963-01-22.specials
+    base: 4348a6e0
+    set:
+      time_range:
+      - 1963-01-23T04:00Z
+      - 1963-01-23T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-01-26.middle-east
+    base: 2c24b5e8
+    set:
+      time_range:
+      - 1963-01-26T16:30Z
+      - 1963-01-26T22:30Z
+      time_band: election night
+      time_zone: Asia/Tehran
+      range_basis: kind
+- edit:
+    id: cal.1963-03-05.alabama-birmingham
+    base: 347f0f24
+    set:
+      time_range:
+      - 1963-03-06T00:30Z
+      - 1963-03-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-03-05.mayors-baltimore
+    base: fd4798e0
+    set:
+      time_range:
+      - 1963-03-06T00:00Z
+      - 1963-03-06T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-04-02.alabama-birmingham
+    base: 4886449f
+    set:
+      time_range:
+      - 1963-04-03T00:30Z
+      - 1963-04-03T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-04-02.mayors-chicago
+    base: de0570a6
+    set:
+      time_range:
+      - 1963-04-03T00:00Z
+      - 1963-04-03T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-04-02.mayors-los-angeles
+    base: da4c98f7
+    set:
+      time_range:
+      - 1963-04-03T04:00Z
+      - 1963-04-03T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-04-02.states-and-cities-tx
+    base: 4aaf38ea
+    set:
+      time_range:
+      - 1963-04-03T02:00Z
+      - 1963-04-03T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-05-07.mayors-baltimore
+    base: c8466fa2
+    set:
+      time_range:
+      - 1963-05-07T23:00Z
+      - 1963-05-08T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-05-21.mayors-philadelphia
+    base: 2df3575b
+    set:
+      time_range:
+      - 1963-05-22T01:00Z
+      - 1963-05-22T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-05-28.governors-ky
+    base: f99a8a2c
+    set:
+      time_range:
+      - 1963-05-28T22:00Z
+      - 1963-05-29T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-06-11.mayors-minneapolis
+    base: ee7d7d04
+    set:
+      time_range:
+      - 1963-06-12T01:00Z
+      - 1963-06-12T07:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-06-11.specials
+    base: 6a9d9df4
+    set:
+      time_range:
+      - 1963-06-12T03:00Z
+      - 1963-06-12T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-06-11.state-and-city-finance-nv
+    base: 25f274c6
+    set:
+      time_range:
+      - 1963-06-12T02:00Z
+      - 1963-06-12T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-07-17.state-constitutions-nd
+    base: d514ff51
+    set:
+      time_range:
+      - 1963-07-18T03:00Z
+      - 1963-07-18T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1963-07-30.specials
+    base: 4e9ec612
+    set:
+      time_range:
+      - 1963-07-31T00:00Z
+      - 1963-07-31T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-08-06.mississippi-ms
+    base: 185b5e89
+    set:
+      time_range:
+      - 1963-08-07T02:00Z
+      - 1963-08-07T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-08-27.mississippi-ms
+    base: 4a873c53
+    set:
+      time_range:
+      - 1963-08-28T02:00Z
+      - 1963-08-28T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-09-17.mayors-san-diego
+    base: 1af32c1b
+    set:
+      time_range:
+      - 1963-09-18T03:00Z
+      - 1963-09-18T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-09-24.mayors-boston
+    base: bc0e6051
+    set:
+      time_range:
+      - 1963-09-25T00:00Z
+      - 1963-09-25T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-10-01.desegregation-public-places-cambridge
+    base: ce9e3bc9
+    set:
+      time_range:
+      - 1963-10-01T23:00Z
+      - 1963-10-02T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-10-15.japan-and-korea
+    base: 08bdff55
+    set:
+      time_range:
+      - 1963-10-15T11:00Z
+      - 1963-10-15T17:00Z
+      time_band: election night
+      time_zone: Asia/Seoul
+      range_basis: kind
+- edit:
+    id: cal.1963-10-15.state-and-city-finance-or
+    base: 3a5cd292
+    set:
+      time_range:
+      - 1963-10-16T03:00Z
+      - 1963-10-16T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-10-22.specials
+    base: 03c52d6e
+    set:
+      time_range:
+      - 1963-10-23T03:00Z
+      - 1963-10-23T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mayors-boston
+    base: a6dcc725
+    set:
+      time_range:
+      - 1963-11-06T01:00Z
+      - 1963-11-06T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mayors-cleveland
+    base: 6a3ffdc0
+    set:
+      time_range:
+      - 1963-11-05T23:30Z
+      - 1963-11-06T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mayors-indianapolis
+    base: 59ef10be
+    set:
+      time_range:
+      - 1963-11-05T23:00Z
+      - 1963-11-06T07:00Z
+      time_band: election night
+      time_zone: America/Indiana/Indianapolis
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mayors-philadelphia
+    base: 2343e201
+    set:
+      time_range:
+      - 1963-11-06T01:00Z
+      - 1963-11-06T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mayors-san-diego
+    base: 6300d73e
+    set:
+      time_range:
+      - 1963-11-06T04:00Z
+      - 1963-11-06T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mayors-san-francisco
+    base: 810f69e8
+    set:
+      time_range:
+      - 1963-11-06T04:00Z
+      - 1963-11-06T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.mississippi-ms
+    base: f950a535
+    set:
+      time_range:
+      - 1963-11-06T02:00Z
+      - 1963-11-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.specials
+    base: 804cde83
+    set:
+      time_range:
+      - 1963-11-06T01:00Z
+      - 1963-11-06T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-11-05.states-and-cities
+    base: 82fc37b7
+    set:
+      time_range:
+      - 1963-11-05T23:00Z
+      - 1963-11-06T10:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-11-09.state-constitutions-tx
+    base: ffc2addb
+    set:
+      time_range:
+      - 1963-11-10T03:00Z
+      - 1963-11-10T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1963-12-03.legislatures-ia
+    base: 956ec1f2
+    set:
+      time_range:
+      - 1963-12-04T02:00Z
+      - 1963-12-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-12-03.state-constitutions-ok
+    base: f516fe21
+    set:
+      time_range:
+      - 1963-12-04T01:00Z
+      - 1963-12-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-12-07.governors-la
+    base: ccd6f2e6
+    set:
+      time_range:
+      - 1963-12-08T02:00Z
+      - 1963-12-08T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-12-21.specials
+    base: 59d12448
+    set:
+      time_range:
+      - 1963-12-22T02:00Z
+      - 1963-12-22T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-01-11.governors-la
+    base: 41b51776
+    set:
+      time_range:
+      - 1964-01-12T02:00Z
+      - 1964-01-12T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-02-12.open-housing-tacoma
+    base: cb11e98c
+    set:
+      time_range:
+      - 1964-02-13T04:00Z
+      - 1964-02-13T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-02-18.specials
+    base: 995db000
+    set:
+      time_range:
+      - 1964-02-19T04:00Z
+      - 1964-02-19T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-03-03.governors-la
+    base: b1d2f511
+    set:
+      time_range:
+      - 1964-03-04T02:00Z
+      - 1964-03-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-03-10.goldwater
+    base: 592028e0
+    set:
+      time_range:
+      - 1964-03-11T01:00Z
+      - 1964-03-11T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-03-10.mayors-seattle
+    base: 79d84cc9
+    set:
+      time_range:
+      - 1964-03-11T04:00Z
+      - 1964-03-11T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-03-10.open-housing-seattle
+    base: 2b721e11
+    set:
+      time_range:
+      - 1964-03-11T04:00Z
+      - 1964-03-11T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-03-10.specials
+    base: d4b9b781
+    set:
+      time_range:
+      - 1964-03-11T01:00Z
+      - 1964-03-11T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-04-07.elections-1964
+    base: 7b38ad78
+    set:
+      time_range:
+      - 1964-04-08T02:00Z
+      - 1964-04-08T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-04-07.mayors-milwaukee
+    base: e400e429
+    set:
+      time_range:
+      - 1964-04-08T02:00Z
+      - 1964-04-08T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-04-14.conservative-movement
+    base: 93f03df7
+    set:
+      time_range:
+      - 1964-04-15T00:00Z
+      - 1964-04-15T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-04-14.elections-1964
+    base: 3141cd62
+    set:
+      time_range:
+      - 1964-04-15T00:00Z
+      - 1964-04-15T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-04-21.elections-1964
+    base: 90a55099
+    set:
+      time_range:
+      - 1964-04-22T01:00Z
+      - 1964-04-22T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-04-28.elections-1964
+    base: bd0b7224
+    set:
+      time_range:
+      - 1964-04-29T00:00Z
+      - 1964-04-29T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-04-28.specials
+    base: '80650650'
+    set:
+      time_range:
+      - 1964-04-29T00:00Z
+      - 1964-04-29T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-05-02.elections-1964
+    base: ceb70f17
+    set:
+      time_range:
+      - 1964-05-03T02:00Z
+      - 1964-05-03T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-05-02.governors-tx
+    base: b09adba5
+    set:
+      time_range:
+      - 1964-05-03T02:00Z
+      - 1964-05-03T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-05-05.alabama
+    base: 1d165abc
+    set:
+      time_range:
+      - 1964-05-05T23:30Z
+      - 1964-05-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-05.elections-1964
+    base: 3397582e
+    set:
+      time_range:
+      - 1964-05-05T22:30Z
+      - 1964-05-06T08:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-05-05.elections-1964-ok
+    base: bcc3a3d8
+    set:
+      time_range:
+      - 1964-05-06T01:00Z
+      - 1964-05-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-05.governors-fl
+    base: 74a5e2c5
+    set:
+      time_range:
+      - 1964-05-06T01:00Z
+      - 1964-05-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-05.state-constitutions-ok
+    base: 193ecf5b
+    set:
+      time_range:
+      - 1964-05-06T01:00Z
+      - 1964-05-06T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-12.elections-1964
+    base: 6e085186
+    set:
+      time_range:
+      - 1964-05-12T23:30Z
+      - 1964-05-13T09:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-05-12.governors-ne
+    base: 2f54b5b4
+    set:
+      time_range:
+      - 1964-05-13T03:00Z
+      - 1964-05-13T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-05-12.governors-wv
+    base: 007a9737
+    set:
+      time_range:
+      - 1964-05-12T23:30Z
+      - 1964-05-13T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-05-19.elections-1964
+    base: f4cb3ba3
+    set:
+      time_range:
+      - 1964-05-19T23:00Z
+      - 1964-05-20T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-05-19.republican-party-congress
+    base: 475dd586
+    set:
+      time_range:
+      - 1964-05-19T23:00Z
+      - 1964-05-20T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-05-26.elections-1964
+    base: 7d1e62c3
+    set:
+      time_range:
+      - 1964-05-27T01:00Z
+      - 1964-05-27T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-26.elections-1964-ok
+    base: 6a890d4b
+    set:
+      time_range:
+      - 1964-05-27T01:00Z
+      - 1964-05-27T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-26.governors-fl
+    base: d3fac268
+    set:
+      time_range:
+      - 1964-05-27T01:00Z
+      - 1964-05-27T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-26.state-constitutions-ok
+    base: 2440ceba
+    set:
+      time_range:
+      - 1964-05-27T01:00Z
+      - 1964-05-27T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-05-30.governors-nc
+    base: d80ae6c5
+    set:
+      time_range:
+      - 1964-05-30T23:30Z
+      - 1964-05-31T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-06-02.alabama
+    base: c8841779
+    set:
+      time_range:
+      - 1964-06-02T23:30Z
+      - 1964-06-03T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-06-02.elections-1964-2
+    base: 1345f2f1
+    set:
+      time_range:
+      - 1964-06-03T00:00Z
+      - 1964-06-03T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-06-02.elections-1964-ca
+    base: 5523debc
+    set:
+      time_range:
+      - 1964-06-03T03:00Z
+      - 1964-06-03T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-06-02.governors-mt
+    base: 7d72aad3
+    set:
+      time_range:
+      - 1964-06-03T02:00Z
+      - 1964-06-03T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-06-02.governors-sd
+    base: 04b88f51
+    set:
+      time_range:
+      - 1964-06-03T02:00Z
+      - 1964-06-03T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-06-06.elections-1964-tx
+    base: 8398b60a
+    set:
+      time_range:
+      - 1964-06-07T02:00Z
+      - 1964-06-07T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-06-27.governors-nc
+    base: 382cc098
+    set:
+      time_range:
+      - 1964-06-27T23:30Z
+      - 1964-06-28T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-06-30.governors-nd
+    base: b9a9f9cc
+    set:
+      time_range:
+      - 1964-07-01T03:00Z
+      - 1964-07-01T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-07-28.governors-ar
+    base: '47778291'
+    set:
+      time_range:
+      - 1964-07-29T00:30Z
+      - 1964-07-29T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-08-04.governors-ks
+    base: fb29698d
+    set:
+      time_range:
+      - 1964-08-05T02:00Z
+      - 1964-08-05T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-08-04.governors-mo
+    base: 3984a81f
+    set:
+      time_range:
+      - 1964-08-05T01:00Z
+      - 1964-08-05T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-08-11.governors-ut
+    base: 8922e1c4
+    set:
+      time_range:
+      - 1964-08-12T03:00Z
+      - 1964-08-12T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-09-01.elections-1964-2
+    base: d5991066
+    set:
+      time_range:
+      - 1964-09-02T01:00Z
+      - 1964-09-02T07:00Z
+      time_band: election night
+      time_zone: America/Detroit
+      range_basis: kind
+- edit:
+    id: cal.1964-09-01.governors-mi
+    base: 557e9860
+    set:
+      time_range:
+      - 1964-09-02T02:00Z
+      - 1964-09-02T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1964-09-01.open-housing-detroit
+    base: 4bc1ff80
+    set:
+      time_range:
+      - 1964-09-02T01:00Z
+      - 1964-09-02T07:00Z
+      time_band: election night
+      time_zone: America/Detroit
+      range_basis: kind
+- edit:
+    id: cal.1964-09-04.latin-america
+    base: 78e1a455
+    set:
+      time_range:
+      - 1964-09-05T00:00Z
+      - 1964-09-05T06:00Z
+      time_band: election night
+      time_zone: America/Santiago
+      range_basis: kind
+- edit:
+    id: cal.1964-09-08.governors-az
+    base: 29c18038
+    set:
+      time_range:
+      - 1964-09-09T02:00Z
+      - 1964-09-09T09:00Z
+      time_band: election night
+      time_zone: America/Phoenix
+      range_basis: kind
+- edit:
+    id: cal.1964-09-08.governors-nh
+    base: 045f4368
+    set:
+      time_range:
+      - 1964-09-09T00:00Z
+      - 1964-09-09T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-09-08.governors-vt
+    base: b630d88e
+    set:
+      time_range:
+      - 1964-09-08T23:00Z
+      - 1964-09-09T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-09-08.governors-wi
+    base: 759550aa
+    set:
+      time_range:
+      - 1964-09-09T01:00Z
+      - 1964-09-09T07:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-09-15.governors-ma
+    base: ede1b392
+    set:
+      time_range:
+      - 1964-09-16T00:00Z
+      - 1964-09-16T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-09-15.governors-wa
+    base: 206e3421
+    set:
+      time_range:
+      - 1964-09-16T03:00Z
+      - 1964-09-16T09:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-09-17.governors-ri
+    base: '76360606'
+    set:
+      time_range:
+      - 1964-09-18T00:00Z
+      - 1964-09-18T06:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-09-29.legislatures-ok
+    base: 78b8f651
+    set:
+      time_range:
+      - 1964-09-30T01:00Z
+      - 1964-09-30T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.alabama
+    base: 1ea6417b
+    set:
+      time_range:
+      - 1964-11-04T00:30Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.cities-and-housing
+    base: 4e64b888
+    set:
+      time_range:
+      - 1964-11-04T04:00Z
+      - 1964-11-04T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.elections-1964-2
+    base: d5d3d8f0
+    set:
+      time_range:
+      - 1964-11-03T23:30Z
+      - 1964-11-04T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.elections-1964-3
+    base: c7522cc1
+    set:
+      time_range:
+      - 1964-11-04T00:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.elections-1964-dc
+    base: d43b142b
+    set:
+      time_range:
+      - 1964-11-04T01:00Z
+      - 1964-11-04T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.elections-1964-new-york
+    base: 9400e341
+    set:
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors
+    base: 108c32c0
+    set:
+      time_range:
+      - 1964-11-03T23:30Z
+      - 1964-11-04T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-az
+    base: 304dbee8
+    set:
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T09:00Z
+      time_band: election night
+      time_zone: America/Phoenix
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-il
+    base: 907d6849
+    set:
+      time_range:
+      - 1964-11-04T00:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-ma
+    base: 0893e1df
+    set:
+      time_range:
+      - 1964-11-04T01:00Z
+      - 1964-11-04T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-mi
+    base: d1e8f160
+    set:
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-ut
+    base: bbdc9e52
+    set:
+      time_range:
+      - 1964-11-04T03:00Z
+      - 1964-11-04T09:00Z
+      time_band: election night
+      time_zone: America/Denver
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-wa
+    base: ba83ee91
+    set:
+      time_range:
+      - 1964-11-04T04:00Z
+      - 1964-11-04T10:00Z
+      time_band: election night
+      time_zone: America/Los_Angeles
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.governors-wi
+    base: e5c8accd
+    set:
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.legislatures
+    base: f4192203
+    set:
+      time_range:
+      - 1964-11-04T00:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.legislatures-il
+    base: 273e8f75
+    set:
+      time_range:
+      - 1964-11-04T00:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.legislatures-mi
+    base: c05a2237
+    set:
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Menominee
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.legislatures-ny
+    base: bed7b0ba
+    set:
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.legislatures-us
+    base: e51defed
+    set:
+      time_range:
+      - 1964-11-03T23:30Z
+      - 1964-11-04T12:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.open-housing-akron
+    base: 7ef9dc13
+    set:
+      time_range:
+      - 1964-11-03T23:30Z
+      - 1964-11-04T07:00Z
+      time_band: election night
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-11-03.specials
+    base: 814b1faf
+    set:
+      time_range:
+      - 1964-11-04T01:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind

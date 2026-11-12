@@ -124,10 +124,12 @@ These rows were passed over at first and are now entries in `inbox/2026-10-29-b3
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-chester-melodrama; done Nov. 10, 2026). The two rows ruled social read again off the owner's copy (Drive `12zMqX6m96ObRFw0ho-YDEzKZDUpKgXnv`, printed page = PDF page − 20; pp. 394 and 767 checked on the page images). Patch `inbox/2026-11-06-b6-chester-melodrama.yaml` (2 entries). No witnesses: the pages name no source for either. The press row (592–93) and the authors' analysis (404) are not this batch's grounds and stand.
+
 The format is page | date | event | why.
 
-- 394 | June 21, 1968 | Bailey's exchange with Arthur Miller and Styron at McCarthy's party in Hartford | social banter with no bearing.
-- 767 | November 1968 | Key Biscayne, the houses of Smathers and Rebozo | social.
+- 394 | June 21, 1968 | Bailey's exchange with Arthur Miller and Styron at McCarthy's party in Hartford | re-ruled: entered as cal.1968-06-21.elections-1968-state-conventions (394–95: the national chairman at the insurgents' party the night before the State convention, a social occasion among the principals of a pending contest).
+- 767 | November 1968 | Key Biscayne, the houses of Smathers and Rebozo | re-ruled: entered as cal.1968-11-07.transition-and-staff (767: the morning of Nov. 7, Nixon's call to Humphrey inviting the meeting, and the day at Rebozo's). The description of the place and of Smathers's and Rebozo's careers (766–68) is no event.
 - 592–93 | Aug. 30, Sept. 3, 1968 | the *Times*'s editorial on Daley and Kraft's column | press commentary; no act.
 - 404 | June 1968 | "the strategy decision" before Humphrey | the authors' analysis, not an event.
 

@@ -69,6 +69,8 @@ The book has full notes (pp. 411–464): archives (the SANE, WILPF, FOR, AFSC, W
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows below ruled minor, private or a comment are ruled again in "Batch 6: the private and minor rows re-ruled", after the Leads.
+
 How the list was made: every dated event in pp. 38–239 noted in a running list as read, then each held against the calendar (`./bib find`, `ledger find`), the ledger of new entries, and this patch. An event in the calendar is cited there (above), not listed here. The book also names, in passing, the large events of the span (the U-2, the Bay of Pigs, Vienna, the wall, the missile crisis, Birmingham, the March on Washington, Tonkin, Pleiku, Selma, the Dominican landing, the July 1965 decision, Ia Drang, Tet, New Hampshire, Mar. 31, King's and Kennedy's deaths, Chicago, the election): those are in the calendar on fuller sources; the book's sentence adds nothing to them and they are not cited. The rows below are events the book treats and I did not enter; "lead" means the book treats the event and dates it to no month (R44, R50).
 
 | page | date | event | why |
@@ -174,3 +176,27 @@ National:
 - The CIA's report of Nov. 15, 1967, reprinted in full in DeBenedetti, *Peace and Change* 9 (Spring 1983), 35–39 (205 n.9): an open copy would let the entry's quotations be read off the document; a "Made public" line for the owner to weigh.
 - The press figures the book treats with no Part III entry, for R13: François Sully (*Newsweek*, Saigon), Jack Newfield (*Village Voice*), Max Lerner (*New York Post*), Calvin Trillin (*New Yorker*); *Christian Century* and *Commonweal* as voices (R13's "two works" test). Homer Bigart, Neil Sheehan, John Chancellor and David Brinkley have name entries.
 - The notes to chapters 2–4 and the rest of chapters 5–8: witnesses not yet registered (above).
+
+## Batch 6: the private and minor rows re-ruled (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-06-b6-debenedetti-american-ordeal.yaml` (9 ops: 9 new entries, claimed in the ledger). Witnesses: 9 new rows, `inbox/witnesses/2026-11-06-b6-debenedetti-american-ordeal.yaml`; 9 edges added to `sources/witnesses/by-work/debenedetti-american-ordeal.yaml` (61 n.25, 63 n.34, 174 n.22, 175 n.23, 199 nn.126–128, 204 n.5, 219 n.55), each entry's map carrying its `via` row; all `read: false`, not held. `./bib patch-check`: 0 errors. The copy: the owner's PDF in Drive (1_nFvLjPMNdauVsL3WsIYu9-TbnYGBEou), downloaded again into the scratchpad, the offsets as above (− 22 to p. 78; − 34 for pp. 81–138; − 52 from p. 141); pp. 61, 63 and 199 and the notes to pp. 61–66 read off the page images (p. 63's text layer is garbled); deleted when done.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 61 | Oct. 26, 1962 | demonstrators in Washington hear a rumor that Cuba is to be bombed; most stay | entered, `cal.1962-10-26.missile-crisis-12` (an organized interest's act in the crisis; n.25, WSP's National Information Memo no. 15) |
+| 63 | Sept. 2, 1963 | Stone: "a Rip Van Winkle ... pleasantly awakened" | entered, `cal.1963-09-02.testing` (the press, R13: Stone's paper a voice in two works read, this and Zaroulis and Sullivan; the day from n.34) |
+| 71 | 1963 | Norman Thomas to an Indian journalist | lead: the year only (the note, n.55, gives no source dated for the remark) |
+| 122–24 | by late July 1965 | Fulbright's estrangement after the Dominican inquiry | still passed over: no act or word dated, a change of mind as the book tells it; Lubell's soundings a lead (no month) |
+| 174 | Apr. 14–16, 1967 | Bevel on NBC's news: "genocide" | entered, `cal.1967-04-14.war-opposition` (n.22: the broadcasts of Apr. 14, 15, 16; Check: the day) |
+| 175 | Feb. 24, 1967 | Women Strike for Peace declines the Mobilization | entered, `cal.1967-02-24.war-opposition` (n.23; the FOR's and SANE's refusals with it, Check: their days) |
+| 199 | Nov.–Dec. 1967 | Forest, Harrington, Davidson and Rubin on tactics | entered: Rubin, `cal.1967-11-06.war-opposition` (n.128); Harrington, `cal.1967-12-01.war-opposition` (n.127); Forest to Daniel Berrigan, `cal.1967-12-05.war-opposition` (n.126); Davidson's words a lead (the note quotes them from Bacciocco, undated) |
+| 203–04 | fall 1967 | Salisbury on the vanished hecklers; Hoopes's sense of a shift | still passed over: not events (Salisbury's later oral history of the fall's audiences; Hoopes's impression, from his book) |
+| 204 | Jan. 1968 | *Good Housekeeping*'s readers' poll | entered, `cal.1968-01.opinion` (n.5; Check: the day and the figures) |
+| 219 | May 1968 | Ruether, Hassler and McReynolds against Catonsville | lead: undated |
+| 219 | May 31, 1968 | Dorothy Day's letter to Daniel Berrigan | entered, `cal.1968-05-31.war-opposition` (n.55), with a Check on the book's eighteen years for Philip Berrigan's Baltimore sentence |
+
+Not borne out: none. Not settled: the leads above.
+
+### Leads (batch 6)
+
+- National: Norman Thomas to an Indian journalist, 1963 (71): the day and the source. Carl Davidson's "what we have to do at this time is to destroy," 1967 (199; quoted by Bacciocco, *New Left in America*, 197): the day. Ruether, Hassler and McReynolds on Catonsville, May 1968 (219): the days. Philip Berrigan's sentence for the Baltimore draft files (219: "eighteen years," a week after Catonsville): the court's record.

@@ -59,6 +59,24 @@ Logged in `sources/cited-records/kallina-kennedy-v-nixon.yaml`, each tied to its
 
 ## Passed over
 
+**Batch 9: the "already in" rows read against the calendar, Nov. 12, 2026** (group 2 with Drea and Goldberg; patch `inbox/2026-11-12-b9-group-2.yaml`: 12 entries, 28 cites, 3 variants, 3 checks across the three works). The copy: the owner's Drive file, by the Drive connector's download (the public link answers with the sign-in page); printed page = PDF page − 15, checked on pp. 53, 55, 67, 89, 93, 100, 102–03, 128.
+
+| Page | Row | Ruling |
+|---|---|---|
+| 53 | Jan. 2, Kennedy announces | cited under `cal.1960-01-14.elections-1960` ('?': "formally announced his candidacy" Jan. 2, not the speech). The announcement itself, Jan. 2, 1960, is before the span (Jan. 6): not entered (a ledger line claimed and marked not used). |
+| 55 | Jan. 21, Wisconsin and Nebraska | cited under `cal.1960-01-21.elections-1960` ('?'). |
+| 67 | May 10, 17, 20 | cited under `cal.1960-05-10.elections-1960` (D, Nebraska at 89 percent), `cal.1960-05-17.elections-1960` (A, Maryland), `cal.1960-05-20.elections-1960` (A, Oregon); no figures on the page. |
+| 89 | spring, the foreign events | the Rhee overthrow cited under `cal.1960-04-26.japan-and-korea` ('?'); the U-2, Paris, Turkey and the Japan trip are named in a summary with no day or act told: not cited. |
+| 93 | *Conscience of a Conservative* | cited under `cal.1960-04-07.conservative-movement` ('?': "the spring of 1960"). |
+| 100 | Sept. 5, Detroit | cited under `cal.1960-09-05.elections-1960` ('?'). |
+| 102–03 | West Coast trip; speech coaches | speech coaches as before (`cal.1960-09.elections-1960-kennedy-4`); the trip cited under `cal.1960-09-06.elections-1960` ('?': the advance work "atrocious", California a "failure"; the Nov. 6 ruling "not cited" reversed: the page says the trip went badly, though it names no stop or day). |
+| 128 | invasion target dates; Eisenhower holds off | not borne out as "already in": the calendar holds no entry for the plan's target dates (September, then October 1960) or for Eisenhower's refusal to proceed before a government-in-exile. Lead (R50, no day): National, "Kallina": the decision's date, Eisenhower, fall 1960, to look in FRUS 1958–60, VI and Jones, *Bay of Pigs*. |
+
+Where batch 9 stopped: all eight rows done.
+
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, Nov. 10, 2026). The copy: the owner's Drive file (1gOKSo-mP-2XQZ2FU9W9kw5IGd1JVOOAR) is not in the shared folder, so the direct route answers with the sign-in page; fetched instead by the Drive connector's download (its output saved to a file and decoded into the scratchpad), the same publisher's PDF, printed page = PDF page − 15 (checked on pp. 61, 77, 124, 180); the pages cited read off their images at 45 dpi as well as the text. Patch `inbox/2026-11-06-b6-kallina-kennedy-v-nixon.yaml` (22 entries, 2 cites); witnesses `inbox/witnesses/2026-11-06-b6-kallina-kennedy-v-nixon.yaml` (9), edges in the by-work file. The rows that were leads or journalism only are left as they were.
+
 Page | date | event | why. (Not the background before 1960.)
 
 | Page | Date | Event | Why |
@@ -69,24 +87,24 @@ Page | date | event | why. (Not the background before 1960.)
 | 57 | late Mar. | anti-Catholic mailings; the Square Deal for Humphrey advertisement; Heaney's call for an investigation | undated: to leads |
 | 57, 59 | Apr. 3, 6–7 | the *Milwaukee Journal*'s analysis; the papers' verdicts on Wisconsin | journalism, no act |
 | 60 | Apr. | Freeman: Humphrey "won a victory in Wisconsin" | undated: to leads |
-| 61 | Apr. 5 | Kennedy to his sister: "do it all over again" | private, minor |
+| 61 | Apr. 5 | Kennedy to his sister: "do it all over again" | re-ruled Nov. 6: entered as `cal.1960-04-05.elections-1960-kennedy` |
 | 64 | Apr. | Kennedy in West Virginia: "Nobody asked me if I was a Catholic when I joined the United States Navy" | undated (his first appearance in April): to leads |
 | 65 | Apr.–May | Franklin D. Roosevelt Jr.'s charge on Humphrey's war record; Kennedy's warning through Eugene McCarthy | undated: to leads |
 | 65–66 | Apr.–May | Alsop's columns; the papers' forecasts | journalism |
-| 66 | May 7–8 | Sorensen to Michigan politicians, "we don't know" | minor |
+| 66 | May 7–8 | Sorensen to Michigan politicians, "we don't know" | re-ruled Nov. 6: entered as `cal.1960-05-07.elections-1960-primaries` (Check: the day) |
 | 67 | May 10, 17, 20 | the Nebraska, Maryland, Oregon primaries | already in |
 | 68 | spring | Rowe to Mansfield on the eve of Montana's convention | undated: to leads |
 | 70–71 | spring | Kennedy's arrangement with Brown | undated: to leads |
 | 71 | early July | *Time*'s and *Newsweek*'s covers | journalism |
 | 72 | July 8–13 | Daley's formal support; Docking and Loveless out as favorite sons; Brown releases his delegates | undated within the week: to leads |
 | 72 | July | Johnson on Joseph Kennedy ("I wasn't any Chamberlain"); a Johnson aide's Addison's charge | undated: to leads |
-| 72 | July 13 | Robert Kennedy to his workers, "We can't miss a trick" | minor |
-| 77–78 | July 14 | Kerr and Baker; Lady Bird Johnson and Rayburn won over; Bartlett's dinner | in `cal.1960-07-14.elections-1960`; private |
+| 72 | July 13 | Robert Kennedy to his workers, "We can't miss a trick" | re-ruled Nov. 6: already in since, `cal.1960-07-13.elections-1960-3`; Kallina cited at 72 for its unit B |
+| 77 | July 14 | Kerr and Baker; Lady Bird Johnson and Rayburn won over; Bartlett's dinner | re-ruled Nov. 6: entered as `cal.1960-07-14.elections-1960-los-angeles-7` (the Texans' anger, not in the day's entry) and `-8` (Bartlett's dinner with the Kennedys) |
 | 78 | after the convention | Talmadge to Johnson; Goldwater's note, "I'm nauseated" | undated: to leads |
-| 80 | July 15 | Eleanor Roosevelt leaves in tears; Russell: "the worst platform" | Russell's word undated: to leads; the rest minor |
+| 80 | July 15 | Eleanor Roosevelt leaves in tears; Russell: "the worst platform" | re-ruled Nov. 6: entered as `cal.1960-07-15.elections-1960-los-angeles` (her leaving; she, Truman and Russell absent from the acceptance; Check: the day she left); Russell's word undated: still a lead |
 | 85 | Dec. 26, 1959 | Rockefeller withdraws | before the span (in `cal.1960-01-09.elections-1960`) |
 | 85–86 | 1960 | Rockefeller tells Eisenhower of his stand on medical care for the aged | undated in the text (233 n.11 cites a memorandum of May 4, 1960): to leads |
-| 86 | Apr. 1 | McCrary to Eisenhower on photographs with Nixon | private, minor |
+| 86 | Apr. 1 | McCrary to Eisenhower on photographs with Nixon | re-ruled Nov. 6: entered as `cal.1960-04-01.elections-1960-nixon` (dated by the letter, 86 n.12) |
 | 87 | early 1960 | Eisenhower urges Anderson and Gruenther to run | undated: to leads |
 | 88 | Apr.–May | Rockefeller's talk of a draft | undated: to leads |
 | 88 | June–July | Rockefeller for medical care, $3 billion more for defense, $500 million for civil defense | undated: to leads |
@@ -101,9 +119,9 @@ Page | date | event | why. (Not the background before 1960.)
 | 98 | Aug. | Truman, Stevenson and Eleanor Roosevelt reconciled; their speeches | undated: to leads |
 | 99–100 | — | Robert Kennedy to New York officials; Joseph Kennedy calls Notre Dame's president for Wofford | undated: to leads |
 | 100 | Sept. 5 | Detroit, Labor Day | already in |
-| 103–04 | early Sept. | the West Coast trip; speech coaches | undated; minor |
+| 102–03 | early Sept. | the West Coast trip; speech coaches | re-ruled Nov. 6: the speech coaches entered as `cal.1960-09.elections-1960-kennedy-4` (Check: the month); the trip in the calendar already (`cal.1960-09-06.elections-1960`), Kallina's page only a judgment of it (the advance work, the speeches): not cited |
 | 106 | early Sept. | Nixon proposes both campaigns drop religion | undated: to leads |
-| 111 | spring | Harlow with Nixon in Illinois, the press conference | undated, minor |
+| 111 | spring | Harlow with Nixon in Illinois, the press conference | re-ruled Nov. 6: entered as `cal.1960-04.elections-1960-nixon` (Check: the month) |
 | 112–13 | Sept.–Oct. | reporters' partisanship (McClendon to Johnson, Sept. 25; Wicker; Woods and Lawrence) | journalists' conduct, no act |
 | 113 | before Sept. 26 | a reporter tips Kennedy's headquarters on the debate questions | undated (Alcorn to Kallina, 1974): to leads |
 | 116 | Sept. 25 | Gallup | entered (`cal.1960-09-25.opinion`) |
@@ -111,8 +129,8 @@ Page | date | event | why. (Not the background before 1960.)
 | 120 | Aug. 1, Sept. 1 | Claude Robinson to Nixon on the debates | dated only in the notes: to leads |
 | 121 | — | NBC's invitation; Reinsch, "Accept at once" | undated: to leads |
 | 124 | after Sept. 26 | ten of eleven Southern governors endorse Kennedy | undated: to leads |
-| 124–25 | Sept. 27 | Eisenhower, Montgomery and Hagerty view the tape; Julius Klein's letter; Lodge's reaction | undated; private, minor |
-| 126 | after Oct. 7 | Reston; Robinson and Harris each say their man won | journalism; minor |
+| 123–24 | Sept. 27 | Eisenhower, Montgomery and Hagerty view the tape; Julius Klein's letter; Lodge's reaction | re-ruled Nov. 6: entered as `cal.1960-09-27.elections-1960-debates` (the viewing; Check: the day), `-2` (Klein's letter) and `-3` (the memorandum on Lodge's reaction), dated by the records Kallina cites (124 nn.20–21) |
+| 126 | after Oct. 7 | Reston; Robinson and Harris each say their man won | re-ruled Nov. 6: Harris's analysis entered as `cal.1960-10-11.elections-1960-debates`, Robinson's evaluation as `cal.1960-10-13.elections-1960-debates`, dated by the papers Kallina cites (126 n.25); Reston's report stays journalism (R13: a lead for that reader) |
 | 127 | after Oct. 13 | Kennedy's people ask Herter to have Nixon drop Quemoy | undated: to leads |
 | 127 | late Sept. | Kennedy's "bellicose" Cuba speech; Riesman's letter | undated: to leads |
 | 128 | Sept.–Oct. | the invasion's target dates; Eisenhower holds off | already in (Cuba) |
@@ -121,7 +139,7 @@ Page | date | event | why. (Not the background before 1960.)
 | 133 | mid-Oct. | Robinson's evaluation of Oct. 13 | to leads (the Oct. 21 one entered) |
 | 139 | before June 23 | Kennedy and Belafonte | undated: to leads |
 | 139 | June | Kennedy before the Michigan delegation | undated: to leads |
-| 140 | July | Robert Kennedy, "Negroes alone?" | undated, minor |
+| 140 | July | Robert Kennedy, "Negroes alone?" | re-ruled Nov. 6: entered as `cal.1960-07.elections-1960-king` (Check: the day) |
 | 140 | July 16? | Kennedy and the Negro delegates "the morning after the convention"; boos at a Los Angeles rally | the day uncertain (the note cites the *Post* of July 11): to leads |
 | 142 | July 27? | Morrow's speech at Chicago cut by the networks | undated: to leads |
 | 143 | mid-1960 | Wilkins praises Nixon's record | undated (the note: *NYT*, June 21, 1960): to leads |
@@ -136,9 +154,9 @@ Page | date | event | why. (Not the background before 1960.)
 | 155 | early Nov. | the "blue bomb" leaflets | undated: to leads |
 | 155–56 | late Oct. | Morrow and Jackie Robinson try to reach Nixon; the Justice Department's draft; Rogers to Hagerty | undated: to leads |
 | 158 | late Oct. | the *Herald Tribune*'s and *Daily News*'s electoral counts | journalism |
-| 159 | Nov. 5 | Kennedy's motorcade lost in the Bronx | minor |
-| 159–60 | Oct. 28–Nov. 2 | Stevenson's letter; Alsop's column; the aides' pool | private; journalism; minor |
-| 162 | mid-Aug. | Eisenhower to the legislative leaders: "I'm getting darned political" | minor (a remark) |
+| 159 | Nov. 5 | Kennedy's motorcade lost in the Bronx | re-ruled Nov. 6: entered as `cal.1960-11-05.elections-1960-kennedy` |
+| 159–60 | Oct. 28–Nov. 2 | Stevenson's letter; Alsop's column; the aides' pool | re-ruled Nov. 6: the pool entered as `cal.1960-11.elections-1960-kennedy-2` (Check: the day); Stevenson's letter to Lady Barbara Jackson, Oct. 28, not borne out as an event: the page does not tell it, only the note cites it (160 n.5); Alsop's column stays journalism |
+| 161–62 | mid-Aug. | Eisenhower to the legislative leaders: "I'm getting darned political" | re-ruled Nov. 6: entered as `cal.1960-08.elections-1960-nixon-2` (Check: the day; the note for the remark not settled) |
 | 162 | Oct. 1–21 | Eisenhower's speeches against "fear mongering" | undated (the note: *NYT*, Oct. 11–21): to leads |
 | 163 | Sept. 1966 | Lewis's column; Robinson's letter; Eisenhower's reply | after the span (the column in the Oct. 31 entry's "Made public") |
 | 164 | ~Nov. 2 | Kennedy to Red Fay, "with every word he utters" | undated: to leads |
@@ -153,11 +171,11 @@ Page | date | event | why. (Not the background before 1960.)
 | 174 | Nov. 2–4 | Harris's final State surveys | to leads |
 | 175 | Oct. 28 | Robinson's evaluation as of Oct. 22 | to leads (Oct. 21 and Nov. 5 entered) |
 | 176 | Nov. 7 | *Time*'s, *Newsweek*'s, *U.S. News*'s forecasts | journalism |
-| 177–78 | Nov. 8 | Nixon to Tijuana and San Juan Capistrano | private, minor |
+| 177–78 | Nov. 8 | Nixon to Tijuana and San Juan Capistrano | re-ruled Nov. 6: already in since, `cal.1960-11-08.elections-1960-7`; Kallina cited at 177–78 |
 | 178–79 | Nov. 8–9 | the networks' computers; the *Times*'s editions | journalism |
-| 179–80 | Nov. 8 | Jacqueline Kennedy, "you're president, now"; Scott's estimate; Dreiske's call | minor |
+| 179–80 | Nov. 8 | Jacqueline Kennedy, "you're president, now"; Scott's estimate; Dreiske's call | re-ruled Nov. 6: entered as `cal.1960-11-08.elections-1960-count` (Hyannis Port, 10:30 p.m.), `-count-2` (Scott's figure and Philadelphia) and `-count-3` (Dreiske's call; the talk of conceding) |
 | 181 | Nov. | Democrats weigh challenging California's absentee ballots | undated (the note: Leventhal to Robert Kennedy, Dec. 7): to leads |
-| 182 | Nov. 16 | Harlow: "eviscerated, lacerated and obliterated" | private, minor |
+| 182 | Nov. 16 | Harlow: "eviscerated, lacerated and obliterated" | re-ruled Nov. 6: entered as `cal.1960-11-16.republican-party` (Harlow to Victor Emanuel, 182 n.15) |
 | 183 | Nov. | Eisenhower asks Flemming who ran the campaign | undated: to leads |
 | 183 | Nov. 11 | Durham, of the Committee for Honest Elections, charges fraud | not a party, its officer or a member; the charge entered with Connell's, Nov. 13 |
 | 184–85 | Nov. 22–24 | the *Houston Chronicle*'s articles; the *Tribune*'s editorial | journalism (Texas to leads) |
@@ -166,6 +184,6 @@ Page | date | event | why. (Not the background before 1960.)
 | 196 | — | Kennedy and Johnson in Byrd's office | undated: to leads |
 | 196–97 | Aug. 11 | Tydings's report on Florida | dated only in the note: to leads |
 | 203–04 | Nov.–Dec. | Harris, DiSalle, Muskie: religion cost Kennedy votes | undated: to leads |
-| 207 | Dec. 21 | Hillings to Nixon: "stolen" | private letter, minor |
+| 207 | Dec. 21 | Hillings to Nixon: "stolen" | re-ruled Nov. 6: entered as `cal.1960-12-21.elections-1960-count` |
 | 209–10 | Feb.–Apr. 1961 | Chicago's official recount; Wexler's report, Apr. 13, 1961; the election judges indicted | after Jan. 20, 1961, outside this reading: to leads |
 | 252 n.21 | Dec. 12 | Texas: the Republicans' suit dismissed | in a note only: to leads |

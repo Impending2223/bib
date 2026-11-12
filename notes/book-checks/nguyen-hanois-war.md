@@ -71,6 +71,8 @@ Twenty-four, in `sources/cited-records/nguyen-hanois-war.yaml`: seven found and 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; read Nov. 10, 2026, from the owner's PDF on Drive, 1hSxASRSXx_2Pls5rP_dPBkpUTr9u-SST, printed page = PDF page − 17, p. 87 read off the page image). Patch `inbox/2026-11-06-b6-nguyen-hanois-war.yaml`; witness `inbox/witnesses/2026-11-06-b6-nguyen-hanois-war.yaml` (Lê Hải Triều's life of Thanh, 88 n.3, not held). The one private row is entered; the rows ruled "out of the brief" for Hanoi's, Peking's and Moscow's own acts are not this batch's (R10 now admits them: a later reader's).
+
 Made by a script over the text layer, pp. 1–312 (150 mentions with a day, 368 with a year), judged against `./bib find`. Passed over as classes: chapters 5–8 and the epilogue (1969–75, after the span); chapter 1 (to 1959); the dates of the sources; the undated "in 1966" kind. "Out of the brief": Hanoi's, Peking's or Moscow's own decision with no trace in Washington found.
 
 | Page | Date | Event | Why |
@@ -86,7 +88,7 @@ Made by a script over the text layer, pp. 1–312 (150 mentions with a day, 368 
 | 75–76 | Feb., May 1965 | Lê Duẩn's letters to Thanh | out of the brief |
 | 76 | Apr. 1965 | the Three Readiness campaign | out of the brief |
 | 77 | Feb. 1966 | Thọ on dissent in the party | out of the brief |
-| 87 | July 5, 1967 | Thanh with Hồ and Giáp, the eve of his death | minor (private) |
+| 87 | July 5, 1967 | Thanh with Hồ and Giáp, the eve of his death | re-ruled Nov. 6 (batch 6): entered as `cal.1967-07-05.vietnam-hanoi` (the lunch with Hồ, his message to the South) and `cal.1967-07-05.vietnam-hanoi-2` (West Lake and the dinner at Giáp's), read off the page image of p. 87 |
 | 92 | Oct. 30, 1967 | the Assembly's Standing Committee decree on counterrevolutionary crimes | to leads (its text and day) |
 | 95 | early Apr. 1967 | Giáp and Phạm Văn Đồng in Peking | out of the brief |
 | 99 | June 14–16, 1966 | the Politburo's military subcommittee; Giáp on the cities | out of the brief |

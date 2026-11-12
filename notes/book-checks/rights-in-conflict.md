@@ -114,6 +114,10 @@ Patch: `inbox/2026-11-01-walker-rights-in-conflict.yaml`: 84 new entries (each c
 | cal.1968-07.war-opposition | Early July | Hayden in Paris, two weeks: consultations with the North Vietnamese.… | 25 |
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended.
+
+Batch 6 (Nov. 10–11, 2026): the owner's scan again (Drive id 1h0Esp_F_jOi8nBmcPKFx_LQM6kSMyqUj, 488 PDF pages, text layer; p. 211 = PDF 331), read on the text and the page image, deleted after. The one row ruled private re-ruled and entered: patch `inbox/2026-11-06-b6-rights-in-conflict.yaml`, one new entry claimed in the ledger. The report has no notes: no witnesses. The rows ruled minor as press items quoted, incidents without consequence and a unit's routine are not of this batch's grounds and stand as they were, for the owner.
+
 Made by reading the report's dated sentences page by page (every sentence naming a month, a weekday or a clock time, pp. 13–358, extracted from the text layer and read in place), and the narrative of each day's sections. Each dated event within the span not entered is a row. "Lead" here means an event that is an entry under R5–R16 and was not entered for want of time on this run: the next reader of this card should enter it from the page given.
 
 | Page | Date | Event | Why |
@@ -178,7 +182,7 @@ Made by reading the report's dated sentences page by page (every sentence naming
 | 188 | Aug. 27, 1968, 7 p.m. | the Emergency Citizens Committee's rally at the Academy of Sciences; its meeting with the commander | lead |
 | 204 | Aug. 27, 1968, 1:50 p.m. | the Poor People's Campaign's mule train at the Hilton | lead |
 | 205 | Aug. 27, 1968 | a man with mace arrested near the Hilton; a disturbance in Maddox's campaign suite | minor: incidents the report gives no consequence |
-| 211 | Aug. 28, 1968, about 2 a.m. | Peter, Paul and Mary sing in Grant Park | minor: private performance |
+| 211 | Aug. 28, 1968, about 2 a.m. | Peter, Paul and Mary sing in Grant Park | re-ruled: entered as cal.1968-08-28.elections-1968-chicago-streets (at the demonstrators' stand, to ease the tension: a part of the night's events, R16, not private) |
 | 214 | Aug. 28, 1968, 4:30 a.m. | Hayden at the microphone: "gone underground" | lead |
 | 216 | Aug. 28, 1968 | the police relieve the Guard at the Hilton, 9:45 a.m.; the Guard's post on the Field Museum | lead |
 | 240 | Aug. 30, 1968 | three women arrested for stench bombs at the Hilton | lead |

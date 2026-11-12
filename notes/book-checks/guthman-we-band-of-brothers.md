@@ -16,6 +16,19 @@ The dated sentences of chs. 5–14 (pp. 71–330; 261 of them) were drawn out by
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`, no op for this book; the copy: the owner's Drive scan, printed page = PDF page − 16).** Rows ruled, all already cited with their pages (the "not pinned" notes are out of date):
+
+| Row | Ruling | Entry |
+|---|---|---|
+| 207 | already cited | `cal.1963-04-25.alabama` (207–9) |
+| 263–64 | already cited | `cal.1966-12.robert-kennedy-6` (263–64) |
+| 265 | already cited | `cal.1963-09-25.robert-kennedy` (265) |
+| 324 | already cited | `cal.1968-02-28.elections-1968` (324) |
+
+Leads from the pages (undated): Hundley's talk with Robert Kennedy in his Senate office, 1966 ("why the devil didn't you tell me?", 264); Miller, Hundley and Guthman put Valachi's disclosure to two FBI assistant directors, 1963 (265); Kennedy's reading of Romney's withdrawal as cinching Nixon's nomination (324–25).
+
+Where batch 9 stopped: all four rows done.
+
 From the dated passages; page | date | event | why.
 
 | page | date | event | why |

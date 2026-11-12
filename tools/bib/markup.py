@@ -66,8 +66,16 @@ def to_html(text, resolve=None):
             out = html.escape(shown or eid, quote=False)
         return hold(out)
 
+    def link(m):                             # a Public Papers cite takes its APP document after it (ppp.py, STYLE 5)
+        url = m.group(2)
+        after = ""
+        if "/pkg/PPP-" in url:
+            from . import ppp
+            after = ppp.note_paren(url, m.group(1), m.string[:m.start()], m.string[m.end():])
+        return hold(f'<a href="{html.escape(url)}">{_inline(m.group(1))}</a>' + after)
+
     t = REF_RE.sub(ref, text)
-    t = LINK_RE.sub(lambda m: hold(f'<a href="{html.escape(m.group(2))}">{_inline(m.group(1))}</a>'), t)
+    t = LINK_RE.sub(link, t)
     t = _inline(t)
     return re.sub(r"\x00(\d+)\x00", lambda m: held[int(m.group(1))], t)
 

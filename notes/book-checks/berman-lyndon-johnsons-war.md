@@ -45,6 +45,27 @@ Fourteen entries had Berman behind "To check:". Held, pinned (with parenthetical
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; `2026-11-12-b9-group-1`).** The same Drive copy (280 PDF pages; printed = PDF − 22), the rows below read against what batch 7 merged (`2026-11-10-b7-berman`).
+
+| page | row | ruling |
+|---|---|---|
+| 10 | Fulbright's hearings, Gavin, Kennan | already cited: cal.1966-02-03.vietnam-3, cal.1966-02-08.vietnam-hearings, cal.1966-02-10.vietnam-hearings (10) |
+| 57 | summer approval polls | not borne out: "all showed a decline," no figure, no day |
+| 60 | Gallup, August | already entered: cal.1967-08.opinion (60) |
+| 119 | Gallup and Harris, end of November | already cited: cal.1967-11-27.opinion (119) |
+| 166 | Gallup, early February: 41 percent, seven points down from January | entered: cal.1968-02.opinion (new; checked on the page image) |
+| 60 | Newark and Detroit | already cited: cal.1967-07-17.civil-disorders-newark (variant, Check), cal.1967-07-23.civil-disorders, cal.1967-07-24.civil-disorders-detroit |
+| 79 | Thiệu's division in the coup | already entered: cal.1963-11-01.vietnam-saigon-3 |
+| 87 | Fortas's nomination | already cited: cal.1965-07-28.vietnam (87) |
+| 119 | McCarthy's announcement | already cited: cal.1967-11-30.elections-1968 (119) |
+| 123 | Holt lost | already cited: cal.1967-12-17.vietnam-2 (123) |
+| 139-40 | the buildup; Khe Sanh shelled | already entered and cited: cal.1968-01-11.vietnam-khe-sanh; cal.1968-01-21.vietnam (140) |
+| 144-45 | the *Pueblo* | the seizure already cited: cal.1968-01-23.japan-and-korea (144, variant on the miles). Rusk's "cool it," Bucher's confession, the reservists, Bates, Church: no day given by Berman, left leads |
+| 185, 202 | Gallup 49 percent; Harris 57 in April | already cited: cal.1968-03-10.opinion (185, 202); cal.1968-04.opinion entered (202) |
+| 186-87 | New Hampshire; Robert Kennedy's announcement | already: variants on cal.1968-03-12.elections-1968, cite and variant on -2 (186); cal.1968-03-14.robert-kennedy (187) |
+
+Where batch 9 stopped: all fourteen rows of this work ruled.
+
 Made by reading the book page by page against the calendar, a row for every dated event it treats and not entered or cited.
 
 | page | date | event | why |

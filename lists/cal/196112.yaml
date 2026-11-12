@@ -9,7 +9,7 @@ entries:
     thread: mississippi
     also: [freedom-rides, press-and-broadcasting]
     c: McComb. Riders from New Orleans at the Greyhound station, forty FBI agents and the police present; three minutes in the waiting room. A white mob of some five hundred beats the reporters. The *New York Times*, Dec. 7, in an editorial, outraged.
-    n: '[[w.branch-parting-the-waters]], 559. To check: Time, Dec. 8, 1961, 25; Newsweek, Dec. 11, 1961, 30–31 (cited by [[w.branch-parting-the-waters]], 559 n.6); New York Times, Dec. 7, 1961, 42 (editorial) (cited by [[w.branch-parting-the-waters]], 559 n.7). See [[cal.1961-10-04.mississippi]].'
+    n: '[[w.branch-parting-the-waters]], 559. To check: *Time*, Dec. 8, 1961, at 25; *Newsweek*, Dec. 11, 1961, at 30–31 (cited by [[w.branch-parting-the-waters]], 559 n.6); [*New York Times*, Dec. 7, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/07/issue.html), at 42 (editorial) (cited by [[w.branch-parting-the-waters]], 559 n.7). See [[cal.1961-10-04.mississippi]].'
     src:
       c: f84287b9
       rows:
@@ -68,6 +68,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-12-01.china
+    when: Dec. 1
+    date: '1961-12-01'
+    thread: china
+    also: [berlin-and-vienna]
+    c: 'Peking. The East German ambassador, Hegen, to the Polish minister counselor: the Chinese wonder why Khrushchev has not shown the courage of 1956. At Suez "the Soviet ultimatum, which was taken seriously, scared the imperialists"; his retreat now will "only induce the adversary to even firmer policies, to greater demands, and to stronger provocations."'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 411 ("at the end of 1961"). To check: memorandum of conversation, Hegen with the Polish minister counselor, Dec. 1, 1961, cited in [[w.harrison-driving-the-soviets-up]], 240 (cited by [[w.fursenko-khrushchevs-cold-war]], 411 n.7). Names: Khrushchev.'
+    src:
+      c: f6de3c07
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 411: all'
+        - 'via w.fursenko-khrushchevs-cold-war 411 n.7: all'
+    tags: [name:khrushchev-nikita-s]
   - id: cal.1961-12-02.cuba
     when: Dec. 2
     date: '1961-12-02'
@@ -181,7 +194,7 @@ entries:
     date: '1961-12-05'
     thread: africa
     c: 'The NSC on the Volta dam. Rusk: the United States committed by the letter of June 29. Kennedy: no support to be had in Congress; decide, then explain; how to justify help to Nkrumah, given his course at home and abroad? The decision deferred for a legal report.'
-    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). [[w.ball-past-has-another-pattern]], 186 (Randall''s report; the NSC); [[w.rusk-as-i-saw-it-1990]], 275 (Rusk for keeping the pledge). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah. Check: Ball (186) has the NSC of Nov. 28; FRUS''s record of action is of Dec. 5. Check: Rusk has Robert Kennedy against the dam at the meeting (275); his memorandum: [[cal.1961-12-07.africa]].'
+    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). [[w.ball-past-has-another-pattern]], 186 (Randall''s report; the NSC); [[w.rusk-as-i-saw-it-1990]], 275 (Rusk for keeping the pledge); [[w.schlesinger-robert-kennedy-and-his]], 560 (the NSC faced the Volta decision on Dec. 5, 1961; Robert Kennedy, an NSC regular since the Bay of Pigs, sat along the wall; the President: "The Attorney General has not yet spoken but I can feel the cold wind of his disapproval on the back of my neck"; the President "resolved to go ahead," against the unit''s deferral; not Rusk, Congress or the legal report). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah. Check: Ball (186) has the NSC of Nov. 28; FRUS''s record of action is of Dec. 5. Check: Rusk has Robert Kennedy against the dam at the meeting (275); his memorandum: [[cal.1961-12-07.africa]].'
     src:
       c: 32672fce
       rows:
@@ -190,6 +203,7 @@ entries:
         - 'w.ball-past-has-another-pattern 186: A'
         - 'w.rusk-as-i-saw-it-1990 275: A-B'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A-B'
+        - 'w.schlesinger-robert-kennedy-and-his 560: A'
     tags: [name:kennedy-john-f, name:rusk-dean, name:nkrumah-kwame]
     time_range:
       - 1961-12-05T14:00Z
@@ -197,6 +211,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: F
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: The President resolved to go ahead (the National Security Council faced the decision on December 5, 1961)
+        at: '560'
   - id: cal.1961-12-05.crime-and-hijacking
     when: Dec. 5
     date: '1961-12-05'
@@ -406,13 +425,14 @@ entries:
     date: '1961-12-08'
     thread: vietnam
     c: State's white paper on Hanoi's direction of the insurgency.
-    n: '[FRUS 1961–63, I, doc. 315](https://history.state.gov/historicaldocuments/frus1961-63v01/d315). [[w.gibbons-u-s-government-and]], II, 103. To check: [[w.state-threat-to-the-peace]]. See [[cal.1961-01-28.vietnam]].'
+    n: '[FRUS 1961–63, I, doc. 315](https://history.state.gov/historicaldocuments/frus1961-63v01/d315). [[w.gibbons-u-s-government-and]], II, 103; [[w.selverstone-kennedy-withdrawal]], 48 (the State Department "White Paper," compiled by Jorden, released Dec. 8). To check: [[w.state-threat-to-the-peace]]. See [[cal.1961-01-28.vietnam]].'
     src:
       c: 5e546e13
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d315: all'
         - 'w.gibbons-u-s-government-and II, 103: all'
         - 'via w.gibbons-u-s-government-and II, 103 n.66: all'
+        - 'w.selverstone-kennedy-withdrawal 48: A'
   - id: cal.1961-12-08.opinion
     when: Dec. 8
     date: '1961-12-08'
@@ -461,7 +481,7 @@ entries:
     date: '1961-12-10'
     thread: georgia-albany
     c: Freedom riders from Atlanta arrested at the Albany station. Marches; hundreds jailed.
-    n: '[[w.garrow-bearing-the-cross]], 179–81. [[w.branch-parting-the-waters]], 533–37. To check: Albany Herald, Dec. 11, 1961, 1; Burke Marshall to J. Edgar Hoover, Dec. 14, 1961, FBI file 157-492-X; Charles Jones to James Forman, Dec. 7, 1961, SNCC Papers, box 15, King Center (cited by [[w.garrow-bearing-the-cross]], 180 n.7); Albany Herald, Dec. 12, 1961, 1; Dec. 13, 1961, 1; Atlanta Constitution, Dec. 13, 1961, 1; Dec. 14, 1961, 1; New York Times, Dec. 13, 1961, 51; Dec. 14, 1961, 47; Edward P. Morgan, ABC, Dec. 13, 1961, King Center; SNCC press release, Dec. 13, 1961, National Catholic Conference for Interracial Justice Papers, box 20, folder 17, Marquette University (cited by [[w.garrow-bearing-the-cross]], 180 n.8); New York Times, Dec. 13, 1961, 51; Atlanta Constitution, Dec. 13, 1961, 1 (cited by [[w.branch-parting-the-waters]], 536 n.1); New York Times, Dec. 14, 1961, 47 (cited by [[w.branch-parting-the-waters]], 537 n.1); Watters, *Down to Now*, 157ff; David L. Lewis, *King*, 145–46; interviews: Charles Sherrod, Jan. 23, 1986; Charles Jones, Nov. 23, 1986 (Branch); interviews: Rutha Harris, Jan. 23, 1986 (Branch); interviews: McCree Harris, Jan. 24, 1986 (Branch); interviews: A. C. Searles, July 1, 1985 (Branch); New York Times, Dec. 11, 1961, 40; Atlanta Constitution, Dec. 11, 1961, 30; [[w.zinn-albany]], 12ff; [[w.forman-making-of-black-revolutionaries]], 252–53 (cited by [[w.branch-parting-the-waters]], 534 n.2); [[w.zinn-albany]], 14; [[w.forman-making-of-black-revolutionaries]], 253 (cited by [[w.branch-parting-the-waters]], 536 n.1). See [[cal.1961-11-17.albany]].'
+    n: '[[w.garrow-bearing-the-cross]], 179–81. [[w.branch-parting-the-waters]], 533–37. To check: *Albany Herald*, Dec. 11, 1961, at 1; Burke Marshall to J. Edgar Hoover, Dec. 14, 1961, FBI file 157-492-X; Charles Jones to James Forman, Dec. 7, 1961, SNCC Papers, box 15, King Center (cited by [[w.garrow-bearing-the-cross]], 180 n.7); *Albany Herald*, Dec. 12 at 1 and Dec. 13, 1961, at 1; *Atlanta Constitution*, Dec. 13 at 1 and Dec. 14, 1961, at 1; *New York Times*, [Dec. 13 at 51](https://timesmachine.nytimes.com/timesmachine/1961/12/13/issue.html) and [Dec. 14, 1961, at 47](https://timesmachine.nytimes.com/timesmachine/1961/12/14/issue.html); Edward P. Morgan, ABC, Dec. 13, 1961, King Center; SNCC press release, Dec. 13, 1961, National Catholic Conference for Interracial Justice Papers, box 20, folder 17, Marquette University (cited by [[w.garrow-bearing-the-cross]], 180 n.8); [*New York Times*, Dec. 13, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/13/issue.html), at 51; *Atlanta Constitution*, Dec. 13, 1961, at 1 (cited by [[w.branch-parting-the-waters]], 536 n.1); [*New York Times*, Dec. 14, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/14/issue.html), at 47 (cited by [[w.branch-parting-the-waters]], 537 n.1); Watters, *Down to Now*, 157ff; David L. Lewis, *King*, 145–46; interviews: Charles Sherrod, Jan. 23, 1986; Charles Jones, Nov. 23, 1986 (Branch); interviews: Rutha Harris, Jan. 23, 1986 (Branch); interviews: McCree Harris, Jan. 24, 1986 (Branch); interviews: A. C. Searles, July 1, 1985 (Branch); [*New York Times*, Dec. 11, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/11/issue.html), at 40; *Atlanta Constitution*, Dec. 11, 1961, at 30; [[w.zinn-albany]], 12ff; [[w.forman-making-of-black-revolutionaries]], 252–53 (cited by [[w.branch-parting-the-waters]], 534 n.2); [[w.zinn-albany]], 14; [[w.forman-making-of-black-revolutionaries]], 253 (cited by [[w.branch-parting-the-waters]], 536 n.1). See [[cal.1961-11-17.albany]].'
     src:
       c: 9854acd1
       rows:
@@ -527,13 +547,14 @@ entries:
     date: '1961-12-11'
     thread: vietnam
     c: USNS *Core* docks at Saigon with two Army helicopter companies.
-    n: 'FRUS 1961–63, I, docs. [314](https://history.state.gov/historicaldocuments/frus1961-63v01/d314), [334](https://history.state.gov/historicaldocuments/frus1961-63v01/d334). [[w.marolda-united-states-navy-and]], 219 (the Core at Saigon); [[w.moyar-triumph-forsaken]], 145–46. To check: [[w.spector-united-states-army-in]]. See [[cal.1961-01-28.vietnam]].'
+    n: 'FRUS 1961–63, I, docs. [314](https://history.state.gov/historicaldocuments/frus1961-63v01/d314), [334](https://history.state.gov/historicaldocuments/frus1961-63v01/d334). [[w.marolda-united-states-navy-and]], 219 (the Core at Saigon); [[w.moyar-triumph-forsaken]], 145–46; [[w.schlesinger-robert-kennedy-and-his]], 706 ("On December 11, 1961, the Times reported the arrival of two U.S. Army helicopter companies in Saigon," "the first direct military support by the United States for South Vietnam''s war against Communist guerrilla forces" (n.25 cites the Times of Dec. 12); the day of the report, not of the docking or the ship). To check: [[w.spector-united-states-army-in]]. See [[cal.1961-01-28.vietnam]].'
     src:
       c: fd842251
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d314: all'
         - 'w.marolda-united-states-navy-and 219: A'
         - 'w.moyar-triumph-forsaken 145–46: A'
+        - 'w.schlesinger-robert-kennedy-and-his 706: ?'
     tags: [place:saigon]
   - id: cal.1961-12-11.court
     when: Dec. 11
@@ -647,6 +668,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-12-12.robert-kennedy
+    when: Dec. 12
+    date: '1961-12-12'
+    thread: robert-kennedy
+    also: [civil-rights-the-executive]
+    c: Schlesinger to Robert Kennedy, sending an editorial in a Catholic magazine against racial discrimination in private clubs.
+    n: '[[w.thomas-robert-kennedy]], 127. To check: Schlesinger to Robert Kennedy, Dec. 12, 1961, Name File, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 415). Reply: [[cal.1961-12-21.robert-kennedy]]. Names: Schlesinger, Robert Kennedy.'
+    src:
+      c: c7584e2c
+      rows:
+        - 'w.thomas-robert-kennedy 127: all'
+        - 'via x.1961-12-12.schlesinger-to-robert-kennedy-private-clubs: all'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
   - id: cal.1961-12-13.opinion
     when: Dec. 13
     date: '1961-12-13'
@@ -798,12 +832,39 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1961-12-14.king
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: king
+    c: 'King to Edward D. Ball, by letter, citing Du Bois''s application to the Communist Party, Oct. 1, as the act of "one of the most brilliant Negro scholars in America": "There can be no doubt that if the problem of racial discrimination is not solved in the not too distant future, some Negroes, out of frustration, discontent, and despair, will turn to some other ideology."'
+    n: '[[w.branch-parting-the-waters]], 563. To check: King to Edward D. Ball, Dec. 14, 1961, King Papers, KP17, folder 1 (cited by [[w.branch-parting-the-waters]], 563 n.3); Du Bois to Gus Hall, Oct. 1, 1961, King Papers, KP8, folder 36; *Jet*, Dec. 7, 1961, at 5 (cited by [[w.branch-parting-the-waters]], 563 n.2). Names: Martin Luther King.'
+    src:
+      c: a79453ae
+      rows:
+        - 'w.branch-parting-the-waters 563: all'
+        - 'via w.branch-parting-the-waters 563 n.3: all'
+        - 'via w.branch-parting-the-waters 563 n.2a: all'
+        - 'via w.branch-parting-the-waters 563 n.2b: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1961-12-14.robert-kennedy
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: robert-kennedy
+    also: [press-and-broadcasting]
+    c: 'Robert Kennedy to Edward Kennedy, on *Redbook*''s profile of him: a detailed list of changes to ask for. "You will want to have them eliminate the quote on what Joan said about ''never meeting a Jew''"; on page 24, the sentence "Ted loves his family but there are times when he likes to be away from them."'
+    n: '[[w.thomas-robert-kennedy]], 114–15. To check: Robert Kennedy to Edward Kennedy, Dec. 14, 1961, RFK Papers, JFK Library (cited by [[w.thomas-robert-kennedy]], 412). Names: Robert Kennedy, Edward Kennedy.'
+    src:
+      c: 0f799283
+      rows:
+        - 'w.thomas-robert-kennedy 114–15: all'
+        - 'via x.1961-12-14.robert-kennedy-to-edward-kennedy-redbook: all'
+    tags: [name:kennedy-robert-f, name:kennedy-edward-m]
   - id: cal.1961-12-15.vietnam
     when: Dec. 15
     date: '1961-12-15'
     thread: vietnam
     c: Diệm's request and Kennedy's pledge of more aid published.
-    n: '[FRUS 1961–63, I, doc. 322](https://history.state.gov/historicaldocuments/frus1961-63v01/d322). [[w.gibbons-u-s-government-and]], II, 103 (the letters; Kennedy''s dated Dec. 14); [[w.taylor-swords-and-plowshares]], 248–49 (Diệm''s resistance; his agreement cabled by Nolting Dec. 4; the letters a few days later, Diệm''s "the gravest crisis in Vietnamese history"). [[w.sorensen-kennedy]], 655. To check: State to Saigon 635, Nov. 17, 1961, the draft of Diệm''s letter, NSF, Country File, Vietnam, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 103 n.67). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
+    n: '[FRUS 1961–63, I, doc. 322](https://history.state.gov/historicaldocuments/frus1961-63v01/d322). [[w.gibbons-u-s-government-and]], II, 103 (the letters; Kennedy''s dated Dec. 14); [[w.taylor-swords-and-plowshares]], 248–49 (Diệm''s resistance; his agreement cabled by Nolting Dec. 4; the letters a few days later, Diệm''s "the gravest crisis in Vietnamese history"); [[w.reeves-president-kennedy]], 262. [[w.sorensen-kennedy]], 655. To check: State to Saigon 635, Nov. 17, 1961, the draft of Diệm''s letter, NSF, Country File, Vietnam, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 103 n.67). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
     src:
       c: 9616bad2
       rows:
@@ -813,6 +874,7 @@ entries:
         - 'via w.gibbons-u-s-government-and II, 103 n.67b: A'
         - 'w.sorensen-kennedy 655: all'
         - 'w.taylor-swords-and-plowshares 248–49: A'
+        - 'w.reeves-president-kennedy 262: A'
     tags: [name:kennedy-john-f, name:ngo-dinh-diem]
   - id: cal.1961-12-15.albany
     when: Dec. 15–18
@@ -820,7 +882,7 @@ entries:
     thread: georgia-albany
     also: [king]
     c: 'King in Albany. Arrested Dec. 16; refuses bail. Dec. 18: a truce; King out.'
-    n: '[[w.garrow-bearing-the-cross]], 183–87; [[w.young-easy-burden]], 167–69. [[w.branch-parting-the-waters]], 544–56. To check: Albany Herald, Dec. 16, 1961, 1; Dec. 17, 1961, 1; Atlanta Journal, Dec. 16, 1961, 20; Atlanta Journal-Constitution, Dec. 17, 1961; Asa Kelley to William G. Anderson, Dec. 16, 1961, Albany City Files, Albany, Ga.; SAC Atlanta to Director, Dec. 17, 1961; McGowan to Rosen, Dec. 17, 1961; Rosen to Belmont, Dec. 18, 1961, FBI file 157-6-2-225, 229, 231; Afro-American, Dec. 23, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 184 n.10); Atlanta Journal-Constitution, Dec. 17, 1961, 1; Atlanta Constitution, Dec. 18, 1961, 1; SCLC press release, "Abernathy Issues Call . . .," Dec. 17, 1961, King Center; New York Times, Dec. 18, 1961, 1; New York Herald Tribune, Dec. 18, 1961, 1; Albany Herald, Dec. 18, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 185 n.11); untitled handwritten chronology; memorandum signed "M. S. Page"; draft, "10:30 A.M., 12/18/61", Albany City Files, Albany, Ga.; "Report of Telephone Conversation Between Ruby Hurley, Vernon Jordan & Gloster Current," Dec. 18, 1961, and "Transcript . . .," 3:30 p.m., Dec. 18, 1961, NAACP Papers, Library of Congress; SAC Atlanta to Director, Dec. 19, 1961, FBI file 157-6-2-232X1 (cited by [[w.garrow-bearing-the-cross]], 186 n.12); Atlanta Journal, Dec. 18, 1961, 1; Dec. 19, 1961, 10; SAC Atlanta to Director, Dec. 18, 1961 (two), FBI file 157-6-2-219, 223; New York Times, Dec. 19, 1961, 1; Afro-American, Dec. 30, 1961, 8 (cited by [[w.garrow-bearing-the-cross]], 186 n.13); New York Times, Dec. 17, 1961, 1, 46 (cited by [[w.branch-parting-the-waters]], 548 n.1); The city''s terms, headed "10:30 a.m., December 18, 1961", City Records, Albany, Ga; New York Times, Dec. 16, 1961, 18; David L. Lewis, *King*, 148 (cited by [[w.branch-parting-the-waters]], 545 n.1); Watters, *Down to Now*, 14 (cited by [[w.branch-parting-the-waters]], 546 n.1); Watters, *Down to Now*, 15; interviews: C. B. King, July 10, 1985 (Branch); interviews: McCree Harris, Jan. 24, 1986 (Branch) (cited by [[w.branch-parting-the-waters]], 546 n.2); Albany draft restraining order, Dec. 15, 1961 (probably misdated from the 16th), CRA; Oates, *Let the Trumpet Sound*, 190 (cited by [[w.branch-parting-the-waters]], 547 n.1); Atlanta Journal, Dec. 17, 1961, 1; Newsweek, Dec. 25, 1961, 17–18 (cited by [[w.branch-parting-the-waters]], 548 n.3); Atlanta Journal, Dec. 18, 1961, 10 (cited by [[w.branch-parting-the-waters]], 551 n.2); Jet, Dec. 28, 1961, 6 (cited by [[w.branch-parting-the-waters]], 551 n.3); Atlanta Journal, Dec. 18, 1961, 1, 10 (cited by [[w.branch-parting-the-waters]], 555 n.3); Unsigned note, Dec. 18, 1961, CRA (cited by [[w.branch-parting-the-waters]], 555 n.5). (cited by [[w.branch-parting-the-waters]], 555 n.4); New York Times, Dec. 19, 1961, 1, 24 (cited by [[w.branch-parting-the-waters]], 556 n.1). See [[cal.1961-11-17.albany]]. Names: King. Check: Branch, 543, misdates the Friday "December 16"; it has King arrested Saturday, Dec. 16, and freed Monday, Dec. 18, on the city''s oral terms.'
+    n: '[[w.garrow-bearing-the-cross]], 183–87; [[w.young-easy-burden]], 167–69. [[w.branch-parting-the-waters]], 544–56. To check: *Albany Herald*, Dec. 16 at 1 and Dec. 17, 1961, at 1; *Atlanta Journal*, Dec. 16, 1961, at 20; *Atlanta Journal-Constitution*, Dec. 17, 1961; Asa Kelley to William G. Anderson, Dec. 16, 1961, Albany City Files, Albany, Ga.; SAC Atlanta to Director, Dec. 17, 1961; McGowan to Rosen, Dec. 17, 1961; Rosen to Belmont, Dec. 18, 1961, FBI file 157-6-2-225, 229, 231; *Afro-American*, Dec. 23, 1961, at 1 (cited by [[w.garrow-bearing-the-cross]], 184 n.10); *Atlanta Journal-Constitution*, Dec. 17, 1961, at 1; *Atlanta Constitution*, Dec. 18, 1961, at 1; SCLC press release, "Abernathy Issues Call . . .," Dec. 17, 1961, King Center; [*New York Times*, Dec. 18, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/18/issue.html), at 1; *New York Herald Tribune*, Dec. 18, 1961, at 1; *Albany Herald*, Dec. 18, 1961, at 1 (cited by [[w.garrow-bearing-the-cross]], 185 n.11); untitled handwritten chronology; memorandum signed "M. S. Page"; draft, "10:30 A.M., 12/18/61", Albany City Files, Albany, Ga.; "Report of Telephone Conversation Between Ruby Hurley, Vernon Jordan & Gloster Current," Dec. 18, 1961, and "Transcript . . .," 3:30 p.m., Dec. 18, 1961, NAACP Papers, Library of Congress; SAC Atlanta to Director, Dec. 19, 1961, FBI file 157-6-2-232X1 (cited by [[w.garrow-bearing-the-cross]], 186 n.12); *Atlanta Journal*, Dec. 18 at 1 and Dec. 19, 1961, at 10; SAC Atlanta to Director, Dec. 18, 1961 (two), FBI file 157-6-2-219, 223; [*New York Times*, Dec. 19, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/19/issue.html), at 1; *Afro-American*, Dec. 30, 1961, at 8 (cited by [[w.garrow-bearing-the-cross]], 186 n.13); [*New York Times*, Dec. 17, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/17/issue.html), at 1, 46 (cited by [[w.branch-parting-the-waters]], 548 n.1); The city''s terms, headed "10:30 a.m., December 18, 1961", City Records, Albany, Ga; [*New York Times*, Dec. 16, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/16/issue.html), at 18; David L. Lewis, *King*, 148 (cited by [[w.branch-parting-the-waters]], 545 n.1); Watters, *Down to Now*, 14 (cited by [[w.branch-parting-the-waters]], 546 n.1); Watters, *Down to Now*, 15; interviews: C. B. King, July 10, 1985 (Branch); interviews: McCree Harris, Jan. 24, 1986 (Branch) (cited by [[w.branch-parting-the-waters]], 546 n.2); Albany draft restraining order, Dec. 15, 1961 (probably misdated from the 16th), CRA; Oates, *Let the Trumpet Sound*, 190 (cited by [[w.branch-parting-the-waters]], 547 n.1); *Atlanta Journal*, Dec. 17, 1961, at 1; *Newsweek*, Dec. 25, 1961, at 17–18 (cited by [[w.branch-parting-the-waters]], 548 n.3); *Atlanta Journal*, Dec. 18, 1961, at 10 (cited by [[w.branch-parting-the-waters]], 551 n.2); *Jet*, Dec. 28, 1961, at 6 (cited by [[w.branch-parting-the-waters]], 551 n.3); *Atlanta Journal*, Dec. 18, 1961, at 1, 10 (cited by [[w.branch-parting-the-waters]], 555 n.3); Unsigned note, Dec. 18, 1961, CRA (cited by [[w.branch-parting-the-waters]], 555 n.5). (cited by [[w.branch-parting-the-waters]], 555 n.4); [*New York Times*, Dec. 19, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/19/issue.html), at 1, 24 (cited by [[w.branch-parting-the-waters]], 556 n.1). See [[cal.1961-11-17.albany]]. Names: King. Check: Branch, 543, misdates the Friday "December 16"; it has King arrested Saturday, Dec. 16, and freed Monday, Dec. 18, on the city''s oral terms.'
     src:
       c: d30419dd
       rows:
@@ -884,6 +946,17 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Paris
     range_basis: kind
+  - id: cal.1961-12-15.latin-america-dominican-republic
+    when: Dec. 15
+    date: '1961-12-15'
+    thread: latin-america-dominican-republic
+    c: 'San Juan, La Fortaleza, the evening. Kennedy, stopping in Puerto Rico on his way to Venezuela, with Goodwin, Woodward, Bowles, Hill and Morales-Carrión on the Dominican Republic: a personal appeal to Balaguer and Rodríguez Echavarría.'
+    n: '[[w.schlesinger-thousand-days-1965]], 772. Names: Kennedy, Goodwin, Woodward, Bowles, Morales-Carrión, Balaguer.'
+    src:
+      c: 4d76cabe
+      rows:
+        - 'w.schlesinger-thousand-days-1965 772: all'
+    tags: [name:kennedy-john-f, name:goodwin-richard-n, name:woodward-robert-f, name:bowles-chester, name:morales-carrion-arturo, name:balaguer-joaquin-videla]
   - id: cal.1961-12-16.latin-america
     when: Dec. 16–17
     date: '1961-12-16'
@@ -949,7 +1022,7 @@ entries:
     thread: democratic-party
     also: [georgia-albany]
     c: 'James Gray, chairman of the Georgia Democratic Party, owner of the *Albany Herald* and the town''s television station, on television: a "cell of professional agitators" whose rebellion "smacks more of Lenin and Stalin than of George Washington"; King has "learned that martyrdom can be a highly productive practice for the acquisition of a buck." Segregation "peaceful and rewarding": "What we need is tolerance, not tantrum."'
-    n: '[[w.branch-parting-the-waters]], 553–54. To check: New York Times, Dec. 18, 1961, 31 (cited by [[w.branch-parting-the-waters]], 554 n.1); Atlanta Journal, Dec. 18, 1961, 10 (cited by [[w.branch-parting-the-waters]], 554 n.2). See [[cal.1961-12-15.albany]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 553–54. To check: [*New York Times*, Dec. 18, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/18/issue.html), at 31 (cited by [[w.branch-parting-the-waters]], 554 n.1); *Atlanta Journal*, Dec. 18, 1961, at 10 (cited by [[w.branch-parting-the-waters]], 554 n.2). See [[cal.1961-12-15.albany]]. Names: Martin Luther King.'
     src:
       c: 487b532e
       rows:
@@ -999,7 +1072,7 @@ entries:
     thread: robert-kennedy
     also: [georgia-albany]
     c: 'Robert Kennedy, White and Marshall at the Justice Department through the morning: Albany "number one" on his agenda, advice ready if either side asks. Within an hour of the truce Kennedy telephones Mayor Kelley to congratulate the city on preventing violence, by Kelley''s announcement.'
-    n: '[[w.branch-parting-the-waters]], 555–56. To check: New York Times, Dec. 19, 1961, 1, 24 (the note''s "Ibid.") (cited by [[w.branch-parting-the-waters]], 556 n.2); Atlanta Journal, Dec. 19, 1961, 7 (cited by [[w.branch-parting-the-waters]], 555 n.1). See [[cal.1961-12-15.albany]]. Names: Robert Kennedy, Byron White, Burke Marshall.'
+    n: '[[w.branch-parting-the-waters]], 555–56. To check: [*New York Times*, Dec. 19, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/19/issue.html), at 1, 24 (the note''s "Ibid.") (cited by [[w.branch-parting-the-waters]], 556 n.2); *Atlanta Journal*, Dec. 19, 1961, at 7 (cited by [[w.branch-parting-the-waters]], 555 n.1). See [[cal.1961-12-15.albany]]. Names: Robert Kennedy, Byron White, Burke Marshall.'
     src:
       c: f8c30814
       rows:
@@ -1053,11 +1126,13 @@ entries:
     date: '1961-12-19'
     thread: transition-and-staff
     c: Joseph P. Kennedy's stroke at Palm Beach. Speechless thereafter.
-    n: '[[w.thomas-robert-kennedy]], 164–65 (the stroke; Robert Kennedy calls the President; the brothers fly to Palm Beach; "No, no, no, no"). To check: [[w.nasaw-patriarch]]. Names: Joseph P. Kennedy.'
+    n: '[[w.thomas-robert-kennedy]], 164–65 (the stroke; Robert Kennedy calls the President; the brothers fly to Palm Beach; "No, no, no, no"); [[w.reeves-president-kennedy]], 272 (the stroke on the golf course at Palm Beach); [[w.schlesinger-robert-kennedy-and-his]], 586–87 (on Dec. 19, 1961, playing golf at Palm Beach, Joseph P. Kennedy fell sick; an intracranial thrombosis, paralyzing his right leg, arm and face and the hemisphere governing speech; Ann Gargan drove him home, he said "Don''t call any doctors," and he was rushed to the hospital). Check: the day; Reeves, 272, has the President back at the White House on the morning after his return of the 19th, called from the Cabinet Room with the news. To check: [[w.nasaw-patriarch]]. Names: Joseph P. Kennedy.'
     src:
       c: 94ee50a3
       rows:
         - 'w.thomas-robert-kennedy 164–65: A-B'
+        - 'w.reeves-president-kennedy 272: A'
+        - 'w.schlesinger-robert-kennedy-and-his 586–87: A'
     tags: [name:kennedy-joseph-p]
     short: Joseph Kennedy's stroke
   - id: cal.1961-12-19.specials
@@ -1067,6 +1142,12 @@ entries:
     c: Louisiana 4th, special. Waggonner (D) over Lyons (R), 33,892 to 28,250, 54.5 percent, for Overton Brooks's seat. Swing 20.3 to R.
     n: 'Votes: CQ Guide 6th (2010) 1266. See [[cal.1961-04-04.states-and-cities]]. Names: Waggonner, Lyons.'
     tags: [special:1961-12-19-h-LA-4, name:waggonner-joseph-d-jr, name:brooks-overton, name:lyons-charlton-h-sr]
+    time_range:
+      - 1961-12-20T02:00Z
+      - 1961-12-20T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1961-12-19.robert-kennedy
     when: Dec. 19
     date: '1961-12-19'
@@ -1114,13 +1195,19 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 234: all'
     tags: [name:nixon-richard-m, name:tshombe-moise]
+    time_range:
+      - 1961-12-19T10:00Z
+      - 1961-12-19T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-12-19.georgia-albany
     when: Dec. 19
     date: '1961-12-19'
     thread: georgia-albany
     also: [press-and-broadcasting]
     c: 'The *New York Herald Tribune* on the Albany truce: "a devastating loss of face" for King, "one of the most stunning defeats" of his career. Pritchett denies the city granted a point; the charges stand. Albany''s leaders give the white reporters a steak dinner at the Radium Springs club; Mayor Kelley: Robert Kennedy called within the hour of the truce to congratulate the city.'
-    n: '[[w.branch-parting-the-waters]], 556–57. To check: New York Herald Tribune, Dec. 19, 1961 (cited by [[w.branch-parting-the-waters]], 557 n.1); New York Times, Dec. 19, 1961, 1, 24; Albany Journal, Dec. 19, 1961, 1, 7, 10, 11 (cited by [[w.branch-parting-the-waters]], 556 n.1). See [[cal.1961-12-15.albany]]. Names: Martin Luther King, Robert Kennedy.'
+    n: '[[w.branch-parting-the-waters]], 556–57. To check: *New York Herald Tribune*, Dec. 19, 1961 (cited by [[w.branch-parting-the-waters]], 557 n.1); [*New York Times*, Dec. 19, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/19/issue.html), at 1, 24; *Albany Journal*, Dec. 19, 1961, at 1, 7, 10, 11 (cited by [[w.branch-parting-the-waters]], 556 n.1). See [[cal.1961-12-15.albany]]. Names: Martin Luther King, Robert Kennedy.'
     src:
       c: b346bdf6
       rows:
@@ -1128,6 +1215,12 @@ entries:
         - 'via w.branch-parting-the-waters 557 n.1: A'
         - 'via w.branch-parting-the-waters 556 n.1: B-C'
     tags: [name:king-martin-luther-jr, name:kennedy-robert-f, state:ga, city:albany-ga]
+    time_range:
+      - 1961-12-19T10:00Z
+      - 1961-12-19T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-12-19.press-and-broadcasting
     when: Dec. 19
     date: '1961-12-19'
@@ -1141,6 +1234,12 @@ entries:
         - 'w.anderson-confronting-the-color-line 88, 349: all'
         - 'via w.anderson-confronting-the-color-line 88 n.41: all'
     tags: [state:il, city:chicago]
+    time_range:
+      - 1961-12-19T18:00Z
+      - 1961-12-20T00:00Z
+    time_band: afternoon
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1961-12-20.middle-east-johnson-plan
     when: Dec. 20
     date: '1961-12-20'
@@ -1202,6 +1301,30 @@ entries:
       c: a52fa056
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 370: all'
+  - id: cal.1961-12-20.press-and-broadcasting
+    when: Dec. 20
+    date: '1961-12-20'
+    thread: press-and-broadcasting
+    also: [elections-1964]
+    c: 'London, the *Evening Standard*. Lady Jeanne Campbell names Happy Murphy as the woman in Rockefeller''s life: "young, in her early 30s, and a country loving girl."'
+    n: '[[w.smith-on-his-own-terms]], 377 n. ("five days before Christmas 1961"). Names: Margaretta Rockefeller, Rockefeller.'
+    src:
+      c: 44464bc9
+      rows:
+        - 'w.smith-on-his-own-terms 377: all'
+    tags: [name:rockefeller-margaretta-fitler, name:rockefeller-nelson]
+  - id: cal.1961-12-20.vietnam
+    when: Dec. 20
+    date: '1961-12-20'
+    thread: vietnam
+    c: The *New York Times* reports uniformed American advisers "operating in battle areas with South Vietnamese forces," authorized, though not in combat, to fire back if fired on.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 706 (n.26: the Times, Dec. 20, 1961; "No newspaper, no member of Congress, raised questions"). To check: [*New York Times*, Dec. 20, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/20/issue.html) (cited by [[w.schlesinger-robert-kennedy-and-his]], 706 n.26). See [[cal.1961-12-11.vietnam]].'
+    time_range:
+      - 1961-12-20T10:00Z
+      - 1961-12-20T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-12-21.congo
     when: Dec. 21
     date: '1961-12-21'
@@ -1233,12 +1356,30 @@ entries:
         - 'w.reeves-president-kennedy 272–73: A'
     tags: [name:kennedy-john-f, name:macmillan-harold, name:de-gaulle-charles]
     short: Bermuda
+  - id: cal.1961-12-21.robert-kennedy
+    when: Dec. 21
+    date: '1961-12-21'
+    thread: robert-kennedy
+    also: [civil-rights-the-executive]
+    c: 'Robert Kennedy to Schlesinger, on the editorial against discrimination in private clubs: "We Catholics are really coming along nicely, don''t you think?"'
+    n: '[[w.thomas-robert-kennedy]], 127. To check: Robert Kennedy to Schlesinger, Dec. 21, 1961, Name File, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 415). See [[cal.1961-12-12.robert-kennedy]]. Names: Robert Kennedy, Schlesinger.'
+    src:
+      c: d21e3d08
+      rows:
+        - 'w.thomas-robert-kennedy 127: all'
+        - 'via x.1961-12-21.robert-kennedy-to-schlesinger-private-clubs: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
   - id: cal.1961-12-22.vietnam
     when: Dec. 22
     date: '1961-12-22'
     thread: vietnam
     c: Specialist James T. Davis killed in an ambush west of Saigon. Later counted the first American battle death.
-    n: 'See [[cal.1961-01-28.vietnam]]. Names: Davis.'
+    n: '[[w.reeves-president-kennedy]], 262 (Davis killed in the jungle; "He was the first"); [[w.schlesinger-robert-kennedy-and-his]], 706 ("Three days before Christmas, Specialist Fourth Class James Thomas Davis of Livingston, Tennessee, became the first American soldier to die in Vietnam"; not the ambush or the place of death). See [[cal.1961-01-28.vietnam]]. Names: Davis.'
+    src:
+      c: 38eb7e68
+      rows:
+        - 'w.reeves-president-kennedy 262: A, B'
+        - 'w.schlesinger-robert-kennedy-and-his 706: ?'
     tags: [name:davis-james-t, place:saigon]
   - id: cal.1961-12-22.congo
     when: Dec. 22
@@ -1330,13 +1471,13 @@ entries:
     thread: civil-rights-organizations
     also: [georgia-albany, press-and-broadcasting]
     c: 'Sitton in the Sunday *New York Times*, "Rivalries Beset Integration Campaign": the quarrels among the organizations at Albany, traced to the sit-ins of 1960.'
-    n: '[[w.branch-parting-the-waters]], 557. To check: Sitton, "Rivalries Beset Integration Campaign," New York Times, Dec. 24, 1961, E5 (cited by [[w.branch-parting-the-waters]], 557 n.4); Vernon Jordan''s reports and the NAACP officers'' calls, Oct.–Dec. 1961, NAACP Papers, Library of Congress (cited by [[w.branch-parting-the-waters]], 557 n.2). See [[cal.1961-12-15.albany]].'
+    n: '[[w.branch-parting-the-waters]], 557. To check: Sitton, "Rivalries Beset Integration Campaign," [*New York Times*, Dec. 24, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/24/issue.html), at E5 (cited by [[w.branch-parting-the-waters]], 557 n.4); Vernon Jordan''s reports and the NAACP officers'' calls, Oct.–Dec. 1961, NAACP Papers, Library of Congress (cited by [[w.branch-parting-the-waters]], 557 n.2). See [[cal.1961-12-15.albany]]. Names: Sitton.'
     src:
       c: 48b51d2b
       rows:
         - 'w.branch-parting-the-waters 557: all'
         - 'via w.branch-parting-the-waters 557 n.4: all'
-    tags: [state:ga, city:albany-ga]
+    tags: [state:ga, city:albany-ga, name:sitton-claude]
   - id: cal.1961-12-26.robert-kennedy
     when: Dec. 26
     date: '1961-12-26'
@@ -1524,7 +1665,7 @@ entries:
     thread: mississippi
     also: [freedom-rides]
     c: 'Judge Mize enjoins further Freedom Rides at McComb. Judge Cox upholds and extends the order: the ICC''s ruling applies to Negroes, the injunction only to agitators. Burke Marshall seeks reversal.'
-    n: '[[w.branch-parting-the-waters]], 559–60. To check: New York Times, Dec. 23, 1961, 26 (cited by [[w.branch-parting-the-waters]], 559 n.9). Check: the days of both orders. See [[cal.1961-12-01.mississippi]]. Names: Mize, Cox, Burke Marshall.'
+    n: '[[w.branch-parting-the-waters]], 559–60. To check: [*New York Times*, Dec. 23, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/23/issue.html), at 26 (cited by [[w.branch-parting-the-waters]], 559 n.9). Check: the days of both orders. See [[cal.1961-12-01.mississippi]]. Names: Mize, Cox, Burke Marshall.'
     src:
       c: e38aeb1a
       rows:
@@ -1663,7 +1804,7 @@ entries:
         - 'via x.1962-01-03.bcgh-visit-of-chinese-military-delegation: B'
         - 'via x.1995.tin-following-ho-chi-minh-45: C'
         - 'via x.1962-01-03.bcgh-visit-of-chinese-military-delegation: D'
-    tags: [name:yeh-chien-ying, name:bui-tin, name:vo-nguyen-giap, place:hanoi]
+    tags: [name:ye-jianying, name:bui-tin, name:vo-nguyen-giap, place:hanoi]
   - id: cal.1961-12.vietnam-hanoi-2
     when: Dec.
     date: 1961-12
@@ -1826,7 +1967,7 @@ entries:
     date: 1961-12
     thread: desegregation-schools
     c: Chicago. The Board of Education votes $100,000 for an independent survey of the schools by three experts; a transfer plan, from classes averaging over forty to those under thirty, the pupils to pay their own way; and mobile classrooms for the overcrowded schools, 150 in service by the end of 1962 ("Willis Wagons").
-    n: '[[w.anderson-confronting-the-color-line]], 88–89, 101. Check: the day. To check: Mary J. Herrick, The Chicago Schools: A Social and Political History (Beverly Hills: Sage, 1971), p. 326; Willis quoted in Chicago Tribune, 17 October 1961; Chicago Sun-Times, 22, 28 December 1961 (cited by [[w.anderson-confronting-the-color-line]], 88 n.42).'
+    n: '[[w.anderson-confronting-the-color-line]], 88–89, 101. Check: the day. To check: Mary J. Herrick, The Chicago Schools: A Social and Political History (Beverly Hills: Sage, 1971), p. 326; Willis quoted in *Chicago Tribune*, 17 October 1961; *Chicago Sun-Times*, 22, 28 December 1961 (cited by [[w.anderson-confronting-the-color-line]], 88 n.42).'
     src:
       c: 7d57ce6f
       rows:
@@ -1874,7 +2015,7 @@ entries:
     thread: press-and-broadcasting
     also: [elections-1962]
     c: 'The New York *Daily News*: Rockefeller on the brink of resignation; unsourced reports that he will not run again in 1962.'
-    n: '[[w.smith-on-his-own-terms]], 370. To check: *New York Times*, Dec. 13, 1961 (cited by [[w.smith-on-his-own-terms]], 370). Check: the day. Names: Rockefeller.'
+    n: '[[w.smith-on-his-own-terms]], 370. To check: [*New York Times*, Dec. 13, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/13/issue.html) (cited by [[w.smith-on-his-own-terms]], 370). Check: the day. Names: Rockefeller.'
     src:
       c: 46a8e954
       rows:
@@ -1886,10 +2027,47 @@ entries:
     date: 1961-12
     thread: elections-1962
     c: Rockefeller denies the reports that he will resign or not run again; he lays them to Wagner. He presides at the Legislature's holiday dinners and holds the New Year's open house at the Executive Mansion.
-    n: '[[w.smith-on-his-own-terms]], 370. To check: *New York Times*, Dec. 13, 1961 (cited by [[w.smith-on-his-own-terms]], 370). Check: the day. Names: Rockefeller, Wagner.'
+    n: '[[w.smith-on-his-own-terms]], 370. To check: [*New York Times*, Dec. 13, 1961](https://timesmachine.nytimes.com/timesmachine/1961/12/13/issue.html) (cited by [[w.smith-on-his-own-terms]], 370). Check: the day. Names: Rockefeller, Wagner.'
     src:
       c: 4029ab59
       rows:
         - 'w.smith-on-his-own-terms 370: all'
         - 'via x.1961-12-13.new-york-times-dec-13-1961-rockefeller: A'
     tags: [name:rockefeller-nelson, name:wagner-robert-f-jr, state:ny]
+  - id: cal.1961-12.vietnam
+    when: Dec.
+    date: 1961-12
+    thread: vietnam
+    also: [europe-and-the-alliance]
+    c: 'Brussels. Rusk, briefing the NATO foreign ministers in secret on Southeast Asia: "We will honor our commitments."'
+    n: '[[w.reeves-president-kennedy]], 261. To check: Dean Rusk, interview by Reeves (cited by [[w.reeves-president-kennedy]], 261). Check: the day; Reeves puts it after Kennedy''s decision to exceed the Geneva limit of 685 advisers. Names: Rusk.'
+    src:
+      c: d81013ef
+      rows:
+        - 'w.reeves-president-kennedy 261: all'
+        - 'via w.reeves-president-kennedy 261 n.rusk-agreed: all'
+    tags: [name:rusk-dean]
+  - id: cal.1961-12.transition-and-staff-2
+    when: Dec.
+    date: 1961-12
+    thread: transition-and-staff
+    c: Kennedy opens an address to historians meeting in Washington with Churchill's prediction that history would be kind to him, "Because I intend to write it!"
+    n: '[[w.reeves-president-kennedy]], 278. To check: Arthur Schlesinger, interview by Reeves (cited by [[w.reeves-president-kennedy]], 278). Check: the day; Reeves: "As 1961 ended"; the address not found among the Public Papers'' items of December 1961 by title. Names: Kennedy.'
+    src:
+      c: e8bfcc82
+      rows:
+        - 'w.reeves-president-kennedy 278: all'
+        - 'via w.reeves-president-kennedy 278 n.because-i-intend: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-12.elections-1964
+    when: Dec., by the 28th
+    date: 1961-12
+    thread: elections-1964
+    c: 'Kennedy to Katharine Graham, in private, told that Rockefeller sought the divorce: "I don''t believe it. No man would ever love love more than he loves politics."'
+    n: '[[w.smith-on-his-own-terms]], 365. To check: Drew Pearson diary, Dec. 28, 1961 (cited by [[w.smith-on-his-own-terms]], 365 n.). Check: the day. Names: Kennedy, Graham, Rockefeller.'
+    src:
+      c: ff6e1b74
+      rows:
+        - 'w.smith-on-his-own-terms 365: all'
+        - 'via x.1961-12-28.pearson-diary-dec-28-1961: all'
+    tags: [name:kennedy-john-f, name:graham-katharine, name:rockefeller-nelson]

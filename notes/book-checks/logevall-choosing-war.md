@@ -61,6 +61,65 @@ The merge flags as possible duplicates the new entries that share a day and thre
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7); the 50 rows still open then, read Nov. 10–11 (batch 8), patch `inbox/2026-11-11-b8-logevall.yaml`:
+
+| Row | Ruling |
+|---|---|
+| 82-83, Dec. 7, 1963, Mansfield's memorandum to Johnson | cited under cal.1963-12-07.vietnam (B-D; not the copies to Kennedy or Cambodia) |
+| 91, Dec. 27, 1963, Rusk's memorandum delivered at the ranch; Johnson's letters to Lodge and Minh | cited under cal.1964-01-01.vietnam (A, C; the personnel and matériel not borne out) |
+| 91-93, Jan. 6, 1964, Mansfield's memorandum; Bundy's of Jan. 6 and 9; McNamara's, Rusk's, Rostow's answers | cited under cal.1964-01-06.vietnam (B, C); Bundy's memoranda of Jan. 6 and 9, McNamara's and Rusk's cited under cal.1964-01-09.vietnam (B-D, F) |
+| 98, Jan. 27, 1964, McNamara before House Armed Services | cited under cal.1964-01-27.vietnam-congress (A, in part) |
+| 115, Feb. 20, 1964, the NSC; Johnson at UCLA, Feb. 21 | cited under cal.1964-02-20.vietnam (A) and cal.1964-02-21.vietnam (A) |
+| 128, Mar. 16, 1964, McNamara's report; NSAM 288, Mar. 17 | cited under cal.1964-03-16.vietnam (B, D); NSAM 288, Mar. 17, under cal.1964-03-17.vietnam (A) |
+| 136-37, Mar. 10, 1964, Morse's and Gruening's speeches | cited under cal.1964-03-10.vietnam (D, with the speech's gist in the parenthetical) |
+| 138, May 27, 1964, Russell and Johnson, by telephone | cited under cal.1964-05-27.vietnam (E, F; the day not given, "late May") |
+| 139, Mar. 25, 1964, Fulbright's "Old Myths and New Realities" | cited under cal.1964-03-25.latin-america (A, E) |
+| 149, June 15, 1964, the resolution shelved | cited under cal.1964-06-15.vietnam (B, in part) |
+| 164, June 20, 1964, Westmoreland succeeds Harkins; Taylor named, June 23 | cited under cal.1964-06-23.vietnam (A, B, D); Westmoreland's command held there |
+| 168, June 15, 1964, Rusk and Sullivan before Foreign Relations | cited under cal.1964-06-15.vietnam-congress (A-C); Check on D (Morse at the session of June 30) |
+| 169-70, June 23, 1964, Church in the Senate; Humphrey the same day | cited under cal.1964-06-23.vietnam-congress (E-I, the day not given) |
+| 170-71, June 29, 1964, Ford's thirteen House Republicans | cited under cal.1964-06-29.republican-party-congress (B, C) |
+| 198-200, Aug. 4, 1964, the second attack reported; the leaders; Goldwater | cited under cal.1964-08-04.elections-1964 and cal.1964-08-04.goldwater (C); also cal.1964-08-04.vietnam (A, B, E; Check 11:37) and cal.1964-08-04.vietnam-congress-2 (A, L, N; Check Mansfield's words) |
+| 203-04, Aug. 6, 1964, the hearings; the votes, Aug. 7 | cited under cal.1964-08-06.vietnam (B) and cal.1964-08-06.vietnam-congress (Q; Check on P, O); the votes under cal.1964-08-07.vietnam (A, B) |
+| 214, Aug. 10, 1964, Taylor's mission report; William Bundy's "Next Courses," Aug. 13 | not borne out for cal.1964-08-10.vietnam-commitments (the page treats Taylor's report and Bundy's paper, not the Cabinet Room meeting); Taylor's report entered as cal.1964-08-10.vietnam-6; Bundy's paper cited under cal.1964-08-13.vietnam-2 (A) |
+| 233-35, Sept. 7, 1964, the principals without the President; Sept. 9, the meeting | cited under cal.1964-09-09.vietnam (A, B); the principals' meeting of Sept. 7 not entered (a lead: the day's entries not read against it) |
+| 239, Sept. 13, 1964, Phát's coup | cited under cal.1964-09-13.vietnam (B); Check added (the embassy's support for Khánh) |
+| 250, Nov. 1, 1964, Biên Hòa | cal.1964-11-01.vietnam already cited (250, 255); cal.1964-11-01.elections-1964 not borne out (Goldwater's speech not treated) |
+| 251-55, Nov. 3, 1964, the Working Group | cited under cal.1964-11-03.vietnam (A; 251, 255); the options and the paper on later pages, not read for this row |
+| 265-66, Nov. 19, 1964, the White House meeting on the Working Group's options | cited under cal.1964-11-19.vietnam (A, D) |
+| 268-70, Dec. 1, 1964, the principals with Johnson: "Johnson City boys" | cited under cal.1964-12-01.vietnam (A, B); Check added (phase two after thirty days; "Johnson City boys") |
+| 279, Dec. 7, 1964, Wilson in Washington | cited under cal.1964-12-07.europe-and-the-alliance (A, in part); Johnson's request for British troops entered as cal.1964-12-07.vietnam-commitments |
+| 285, Dec. 3, 1964, Taylor before Foreign Relations | cited under cal.1964-12-03.vietnam-congress (A, B) |
+| 285, Dec. 9, 1964, Mansfield's memorandum | cited under cal.1964-12-09.vietnam (A, D; "early December") |
+| 287, Dec. 26, 1964, Church's interview | cited under cal.1964-12-26.vietnam-congress (A, B); Check added (Ramparts) |
+| 292-93, Dec. 20, 1964, the coup of the young officers; Taylor's anger | cited under cal.1964-12-20.vietnam (B, C) |
+| 293-94, Dec. 24, 1964, the Brink Hotel; no reprisal | cited under cal.1964-12-24.vietnam (A, B, C) |
+| 298-99, Dec. 30, 1964, Johnson to Taylor: "I have never felt that this war will be won from the air" | cited under cal.1964-12-24.vietnam (D, E; the memorandum of Dec. 30) |
+| 302-03, Dec. 28, 1964, Bình Giã | cited under cal.1964-12-28.vietnam-operations (A, D); Check added (forty miles, four helicopters) |
+| 308, Jan. 8, 1965, Rusk and William Bundy before Foreign Relations | cited under cal.1965-01-08.vietnam-congress (A-C) |
+| 309, Jan. 26, 1965, Nixon: "surrender on the installment plan" | cited under cal.1965-01-26.vietnam (B, C, in part) |
+| 309, Jan. 15, 1965, McGovern in the Senate | cited under cal.1965-01-15.vietnam (A, B) |
+| 314-15, Jan. 21, 1965, Johnson with the congressional leaders | cited under cal.1965-01-21.vietnam (A); B and C not borne out |
+| 322-23, Feb. 6, 1965, Kosygin in Hanoi | cited under cal.1965-02-06.soviet-union (A, in part) |
+| 328-31, Feb. 7, 1965, Bundy's report | cited under cal.1965-02-07.vietnam-2 (A-C); cal.1965-02-07.vietnam already cited (324-27), pp. 328-31 treat the report, not Pleiku |
+| 331, Feb. 8, 1965, Mansfield's memorandum | cited under cal.1965-02-08.vietnam (A) |
+| 336-37, Jan. 1965, Satō in Washington; Pearson at the ranch | cited under cal.1965-01-12.japan-and-korea (A, the day not given); Satō's remarks to reporters left a lead (the day); cal.1965-01-16.trade not borne out (the page treats the Ranch talks, not the agreement), the talks entered as cal.1965-01-16.vietnam-commitments |
+| 339-40, Feb. 10, 1965, Wilson and Johnson, by telephone | cited under cal.1965-02-10.europe-and-the-alliance (A, C); Check added (Johnson's words) |
+| 344, Feb. 13, 1965, Rolling Thunder approved; the Ball-Thompson memorandum | cited under cal.1965-02-13.vietnam (A); Check added (the Chiefs' plan) |
+| 347, Feb. 17, 1965, Humphrey's memorandum | cited under cal.1965-02-17.vietnam-4 (A, B; 356 D) |
+| 349-51, Feb. 17, 1965, the Senate's debate; the Republican leaders; Eisenhower; the NICB speech | cited under cal.1965-02-17.republican-party-congress (B) and cal.1965-02-17.vietnam (A); also vietnam-2 (A-D), vietnam-3 (A, D), vietnam-6 (A-C) |
+| 356, Feb. 18, 1965, Johnson with Church, an hour | cited under cal.1965-02-18.vietnam-congress (A); cal.1965-02-18.vietnam not borne out (Dirksen not treated) |
+| 358, Feb. 27, 1965, the white paper; Mansfield for it; Morse, "a Swiss cheese" | cited under cal.1965-02-27.vietnam (A, the paper only); Morse's and Mansfield's words entered as cal.1965-02-27.vietnam-congress-2 |
+| 360, Feb. 16, 1965, Gallup, 67 percent for the strikes; Chase on the mail | cited under cal.1965-02-16.opinion (B) |
+| 362-63, Feb. 26, 1965, the Marines for Đà Nẵng; Rolling Thunder, Mar. 2 | cited under cal.1965-02-26.vietnam (A) |
+| 371, Apr. 3, 1965, Pearson at Camp David | cited under cal.1965-04-03.vietnam-pause (A, B); Check added (an eyewitness's account) |
+| 371, Apr. 5, 1965, Shastri's and Ayub's visits put off | cited under cal.1965-04-15.south-asia (A, in part) |
+| 372, Apr. 17, 1965, SDS's march | cited under cal.1965-04-17.students (B); cal.1965-04-17.vietnam not borne out (Johnson's statement not treated) |
+
+Where batch 8 stopped: all 50 rows read; none left open. Four entries added (cal.1964-08-10.vietnam-6, cal.1964-12-07.vietnam-commitments, cal.1965-01-16.vietnam-commitments, cal.1965-02-27.vietnam-congress-2). Leads noted, not entered: Satō's remarks to reporters (mid-January 1965, the day); Rusk with de Gaulle and Lippmann with him in Paris, mid-December 1964 (280); Fulbright's call for a bombing halt, Apr. 17, 1965 (372); the principals without the President, Sept. 7, 1964 (233-34).
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; Nov. 10, 2026): no row here is ruled private, social, personal, family, trivia, a draft or "minor", so none is re-ruled; the copy was not fetched. The rows ruled "below the calendar's level" (staff memoranda, routine cables and conversations), "undated" for an event the page dates to a month ("in July", "late October"), and "a journalist's column, no act" are other grounds that R8, R15 and R13 (Oct. 29–Nov. 1) have since made entries: for a later run, not this batch.
+
 How the list was made: the book read through in twelve-page passages, pp. 1–413, every dated event (a day or a month) noted with its page and note as it came; each then looked for in the calendar on its day (the calendar's dated entries, all threads, dumped Oct. 28 and again Oct. 29) and, where in, named by its id. Not listed: events before Aug. 1963 that the opening chapters recount in passing (the Kennedy years, 1961–63, as background), the British, French, Canadian, Soviet, Chinese and North Vietnamese governments' internal deliberations, which are out of the brief unless an American act or a meeting with Americans is dated, and newspaper editorials and columns that carried no act. "Below the calendar's level": staff and interagency memoranda that set no decision, an ambassador's or adviser's routine cable or conversation. "A lead": a dated event whose record the page does not give enough of to enter, or whose record was not read; the leads are in `notes/leads.md` (National; Foreign).
 
 | Page | Date | Event | Why |
@@ -248,3 +307,9 @@ How the list was made: the book read through in twelve-page passages, pp. 1–41
 ## Leads
 
 Written into `notes/leads.md`: Nixon back from Saigon, early April 1964, calling the policy "soft" (135); the war game Sigma II-64, Sept. 8–17, 1964 (242); Hanoi's assent to Thant's talks, mid-September 1964, and the administration's silence (212–13); the White House meeting of Jan. 6, 1965 (FRUS 1964–68, II, doc. 17); Thant's news conference of Feb. 12, 1965; Johnson with the Joint Chiefs, Mar. 15, 1965 ("Kill more Vietcong"); Gromyko and Rusk, Dec. 9, 1964; Goldwater's charge, late August 1964, that the Matthias memorandum showed a secret plan to negotiate (228, undated).
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the principals without the President, Sept. 7, 1964 (233–34): entered as `cal.1964-09-07.vietnam-air-war`.
+- Lead: Rusk with de Gaulle, mid-December 1964 (280): entered as `cal.1964-12.europe-and-the-alliance-france` (month only; Check: the day, n.49 has Dec. 16 and 17); Lippmann's summons to the Oval Office on his return entered as `cal.1964-12.vietnam-diplomacy`.
+- Lead: Satō's remarks to reporters, mid-January 1965 (337): entered as `cal.1965-01.japan` (month only, Check: the day).
+- Lead: Fulbright's call for a bombing halt, Apr. 17, 1965 (372): entered as `cal.1965-04-17.vietnam-congress`; Cooper's memorandum of Apr. 21, which reports it, entered as `cal.1965-04-21.vietnam-4`.

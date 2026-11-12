@@ -442,3 +442,82 @@ Copied Oct. 30, 2026, from the session's transcript, for the provenance table of
 
 > Yes, please write the fix.
 
+
+2026-11-10 (evening, Pacific), session "1968 series", on Humphrey's memoir, p. 285 (June 17, 1964: the call about his son's cancer during the civil rights debate; the pilot entered it, the audit would pass it over, the lead's view an entry):
+
+> Agreed on Humphrey's son's cancer.
+
+2026-11-11 (morning, Pacific, during the weekday pause, the owner's exception), session "1968 series":
+
+> I approve all requested splits.
+
+> I approve all the press list, with the exception of the holds, which are passed over, and accept the check likes.
+
+> Pick up the pace with 1–4, as suggested.
+
+> Every cite, everywhere.
+
+> Put the outstanding work, the work that's left, on the queue.
+
+2026-11-11 (morning, Pacific; the owner's exception), session "1968 series", on visibility (the spec: notes/proposals/visibility-spec.md):
+
+> Public at the time, with a pin date to override it.
+
+> I'd have you write it now and get started on the operations work and the readers in the evening.
+
+> International organizations are "inter-national". The provenance and address of the interested state-parties should be filleted out.
+> The USSR delegate in a colloquy with the US delegate is "USSR: public-PA" and "US: public-PA".
+> A conference of NATO or the EEC takes the provenance and address of the relevant state parties unless and until there's an "EEC:nonpublic-P" that's not also nonpublic P to any state party.
+
+> Defaults on the other three.
+> Shouldn't we put this ahead of the readers yet-to-be started? Or were they not on the queue at all?
+
+## Nov. 11, 2026 (evening), on the kind bands, the prototype and the NLF
+
+"Yes, foreign elections should be placed by their own election night.
+
+Press items should be placed at the time of their first public distribution or release. If that's afternoon, afternoon. If that's evening, then evening.
+
+I would have ended the election range at the time of the poll closing. This rule of thumb seems more true to "when the results were known" of contested elections in my lifetime, but I'm not sure what was known when in this time period, or what the evidentiary or reasoned basis of this rule of thumb was. If it's entirely ad hoc, I'd put the event at "one minute before midnight", so the headline dates line upm
+
+I don't have the April 14 entries in front of me. Enlighten me.
+
+The visibility setup looks good to go.
+
+Question re: the NLF, though. Does it make sense to consider it anything besides "agents of the DRV operating inside SVN"? Was there anything "nonpublic" to the NLF? Did the NLF ever exercise sovereignty, in the sense that they made decisions that the DRV/VWP would have countermanded but did not and could not? I'm skeptical."
+
+## Nov. 11, 2026 (evening, later)
+
+"No, no, keep the range, report the poll closing. "Polls close XYZ." But leave the pin one minute before midnight. We can hammer down "when the results were known" for at least some of these races.
+
+Can we put the Percy nomination speech as a "follows"? That should trump the range time, right?
+
+Please do fold the NLF into the DRV, with the reservation that nearly all(?) NLF events are going to be located in SVN, so by our territorial rule they're RVN:public-P by default. Should we reverse that presumption here? Or should we ask every reader to sort every NLF entry into either "public in SVN (and hence DRV:nonpublic-P and RVN:public-PA)" or "nonpublic in SVN (and hence only DRV:nonpublic-P)"?
+
+The early morning rule for newspapers was because they come in the... morning mail, right? Once we know the release dates of the National Guardian and the Amsterdam News, they'll be early morning too, no?
+
+Default to morning editions where the edition isn't known.
+
+The NYT thing is striking, but... when was the NYT first distributed in D.C.? (We're treating the NYT as a national paper, most interesting for what it says on national politics, so its distribution in its home isn't as interesting to us as its distribution in the District.) Does that push us over the midnight line?"
+
+## Nov. 11, 2026 (night)
+
+"Reverse the presumption, as you recommend.
+
+Please do get started on your other items for tonight. Feel free to PR and merge when appropriate.
+
+Are we not ready to go forward on any other reader batches, besides the Pike material? (Is that what the "round-4 list and the batch-6 questions are"?) I'm about to go to sleep for the night."
+
+## Nov. 11, 2026 (night, later)
+
+"We should probably give the foreign names entries, just so we have a bucket to start filling with events.
+
+Yes on the Post.
+
+The National Guardian should go on the press day. (What a bizarre strategy! Although I suppose newsmagazines do this all the time.)
+
+Thank you re Chang and Halliday. But I'll probably give you Pantsov or what have you first. Is Chen Jian on Zhou Enlai good? Chen Jian's good, and I've heard the book is good. Should I give you that?"
+
+## Nov. 11, 2026 (late night)
+
+"Alright, I've given you a handful more books on China. Night now."

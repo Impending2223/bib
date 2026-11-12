@@ -53,6 +53,23 @@ Several entries are Goldwater's words dated by the newspaper Goldberg cites, the
 
 ## Passed over
 
+**Batch 9: the "already in" rows read against the calendar, Nov. 12, 2026** (group 2 with Drea and Goldberg; patch `inbox/2026-11-12-b9-group-2.yaml`: 12 entries, 28 cites, 3 variants, 3 checks across the three works). The copy: the owner's Drive file (1meBgl58QAEq3I6H4-Vn58GLs5XeScZck); printed page = PDF page − 26 to p. 178, − 42 after; checked on pp. 176, 188, 199, 211–14, 231, 253, 255 (image).
+
+| Page | Row | Ruling |
+|---|---|---|
+| 176 | Sept.–Oct. 1963, ten-State swing | not cited: the page says only that he "scheduled" the swing, naming six States and no stop or day; the calendar holds the stops. |
+| 188 | late Feb. 1964, Oklahoma, North Carolina | cited under `cal.1964-02-29.elections-1964-state-conventions` and `...-conventions-2` ('?'). |
+| 199 | June 16, 1964, Texas; Dirksen | Texas cited under `cal.1964-06-16.elections-1964-state-conventions` ('?'). Dirksen's "as tight as wallpaper" (Illinois delegates) has no day or month on the page: lead (R50), National, "Goldberg": date it from the *Chicago Tribune* or Dirksen's papers. |
+| 211–14 | the 1964 campaign | cited: Harlem (`cal.1964-07-18.states-and-cities`), Rochester (`cal.1964-07-24.states-and-cities`), Wallace's withdrawal (`cal.1964-07-19.elections-1964`), the bodies found (`cal.1964-08-04.mississippi`), each '?'. Not cited: the economy and the Heller–Porter column (no day), Operation Plan 34A (the entry of Jan. 24 is another record), the Tonkin Gulf (214 breaks off; p. 215 not read). |
+| 231 | Oct. 18, 1964 | cited under `cal.1964-10-18.soviet-union` ('?'). |
+| 253 | Aug. 8, 1968, the acceptance | cited under `cal.1968-08-08.elections-1968-miami` (D, the "forgotten Americans" words; no day). |
+| 255–56 | Nov. 1968 returns | cited under `cal.1968-11-05.elections-1968` ('?') with a variant and a Check: Goldberg's "301 to 197 electoral-college triumph" against Humphrey's 191. |
+
+Where batch 9 stopped: all seven rows done.
+
+
+Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inbox/2026-11-06-b6-goldberg-barry-goldwater.yaml`; witnesses `inbox/witnesses/2026-11-06-b6-goldberg-barry-goldwater.yaml`): the rows ruled minor, family or a remark were read again in the same copy (Drive id 1meBgl58QAEq3I6H4-Vn58GLs5XeScZck; offsets unchanged, PDF less 26 to p. 178, less 42 after), the text layer and the page images of pp. 146, 156, 182, 193, 248 and 252, and ruled again; with them three rows marked "a lead" that are private words on politics the page dates (156, 193, 252). Each ends "Re-ruled: ...". The page image of p. 156 shows Goldwater's private urging on Cuba under note 37 (the *New York Times*, Aug. 2, 1971), not note 38; the O'Brien letter of May 9, 1961, is in note 38, with the boycott and the "do-nothing" policy of 1962. The other leads stand.
+
 Made by reading pp. 136-257 page by page and listing every dated event; those already in the calendar took a cite, those not entered are below.
 
 | page | date | event | why |
@@ -62,30 +79,30 @@ Made by reading pp. 136-257 page by page and listing every dated event; those al
 | 143 | 1960 | Goldwater on the Senate floor against Eisenhower's medical care for the aged, "socialized medicine," a "dime store new deal" | a lead: no day (Goldberg's note cites the *New York Times*, May 8, 1960, 32, among others) |
 | 144 | spring 1960 | Arizona and Louisiana pledge to Goldwater; Texas names him for Vice President | a lead: no days; raw material in cal.1960-03-31.goldwater's note |
 | 144 | 1960 | Goldwater on Nixon's list of possible running mates | a lead: no day |
-| 146 | July 27, 1960 | Peggy Goldwater: "Daddy, next time will it be for real?" | minor: family |
+| 146 | July 27, 1960 | Peggy Goldwater: "Daddy, next time will it be for real?" | minor: family Re-ruled: entered as cal.1960-07-27.goldwater (said in private about a career in politics: his run of 1964). |
 | 149 | 1961 | 225 engagements; 1962, 200 in nine months; 800 speeches, 1960-63 | figures, put in cal.1961-01.republican-party-congress's parenthetical |
 | 152 | 1961 | Goldwater on the New Frontier, "socialism of some order"; on aid to depressed areas; on the minimum wage | a lead: no days (Bell, *Mr. Conservative*, 148; Record, June 12, 1961, 9955; Wood and Smith, 170) |
 | 152 | 1961 | Goldwater misses 65 of 207 roll calls | a figure for the year |
-| 156 | 1961 | Goldwater privately urges Kennedy to invade Cuba; O'Brien to Goldwater, May 9, 1961 | a lead: the letter's matter not given |
+| 156 | 1961 | Goldwater privately urges Kennedy to invade Cuba; O'Brien to Goldwater, May 9, 1961 | a lead: the letter's matter not given Re-ruled: entered as cal.1961-04.cuba-bay-of-pigs-8 (Check: the day; the page dates it "in the wake of the Bay of Pigs"; its source note 37, the Times of Aug. 2, 1971; the O'Brien letter is note 38's and does not bear on it). |
 | 156 | 1961 | Goldwater: the Berlin wall should be torn down | a lead: no day |
 | 157 | 1961 | Wyoming's legislature for repeal of the income tax amendment | a lead: the year only |
 | 160 | 1962 | the Birch Society at 60,000 in forty-eight States, 300 California chapters | a figure for the year |
 | 164 | 1962 | Proxmire on Goldwater buttons in Wisconsin | a lead: no day |
 | 170 | 1963 | Goldwater for de-emphasizing the moon landing | a lead: no day (notes 117: *Times*, Apr. 24, 26, July 16, 1963) |
 | 170 | 1963 | the Missouri and Illinois county chairmen two to one; the *Atlanta Constitution*'s 250 of 350; 100,000 Californians' petitions | a lead: no days |
-| 172 | 1963 | "He might as well [have] take[n] the gaspipe" (*Business Week*, May 5, 1963) | minor: an unnamed politician's remark |
+| 172 | 1963 | "He might as well [have] take[n] the gaspipe" (*Business Week*, May 5, 1963) | minor: an unnamed politician's remark Re-ruled: passed over: an unnamed politician's remark in print (Business Week, May 5, 1963), no person's word; the reaction to the remarriage is in the calendar. |
 | 176 | fall 1963 | thirty-five State committees; New England's 134 of 179 leaders | figures, no days |
 | 176 | Sept.-Oct. 1963 | Goldwater's ten-State swing | already in, stop by stop |
 | 177 | fall 1963 | Kennedy: "Barry won't last a month" | a lead: no day |
 | 178 | Oct. 9, 1963 | Salinger to Schreth on filing Goldwater's statements | a lead: the letter's matter not given |
 | 179 | Nov.-Dec. 1963 | the hate mail; Burch's fear of "some nut with a Goldwater sticker" | a lead: no days |
-| 182 | Jan. 3, 1964 | Kleindienst, offered the post two hours before: "What the hell's that?" | minor: the remark; the appointment is in cal.1964-01-03 |
+| 182 | Jan. 3, 1964 | Kleindienst, offered the post two hours before: "What the hell's that?" | minor: the remark; the appointment is in cal.1964-01-03 Re-ruled: already cited (181-82) under cal.1964-01-03.elections-1964, which names Kleindienst's post; the remark adds nothing to its matter (a repetition). |
 | 186 | Jan. 1964 | Rockefeller at Concord on the United Nations and nuclear weapons; the *Union-Leader*'s "wife-swapper" | a lead: no days |
 | 188 | late Feb. 1964 | Oklahoma's 22 delegates; North Carolina's 25 of 26 | already in (the State conventions); cite to add |
 | 189 | mid-May 1964 | 555 delegates firm or leaning; Scranton 63, Lodge 43 (*Newsweek*, May 18) | a figure; a lead for a press entry |
 | 189 | 1964 | Spencer: "We had to destroy Barry Goldwater as a member of the human race" | later recollection (1992), no event |
 | 191 | 1964 | the bomb threats; the placards | a lead: no days |
-| 193 | May 30, 1964 | Nixon's meeting with his advisers on his options | a lead: Goldberg alone, no more |
+| 193 | May 30, 1964 | Nixon's meeting with his advisers on his options | a lead: Goldberg alone, no more Re-ruled: cited under cal.1964-05-30.elections-1964-3 (193, the meeting to review his options), the meeting the calendar holds from White and Novak. |
 | 197 | June 1964 | Goldwater's advisers: he would enforce the act "better" than Johnson | a lead: no day |
 | 197 | 1964 | Goldwater to a North Carolina meeting on the States' right to judge voters' qualifications | a lead: the day (the *Times*, Mar. 1, 1964, 61) |
 | 197 | May, July 1964 | the Field Poll's 79 percent on integration; Harris's backlash figures | figures; a lead for opinion entries |
@@ -106,10 +123,10 @@ Made by reading pp. 136-257 page by page and listing every dated event; those al
 | 245 | 1965 | Goldwater's first tour of Vietnam; Safer's account | a lead: the dates (Safer, *Flashbacks*, 140) |
 | 245 | 1967 | Goldwater's MARS station, 200,000 calls | a lead: no day |
 | 246 | 1966 | Goldwater on King, "ninety miles an hour toward anarchy"; his role-play | a lead: the days (notes 29-30) |
-| 248 | 1966-67 | his mother's death; his retirement from the Air Force Reserve; CBS's *Barry Goldwater's Arizona*; Camelback Mountain | minor (family), or a lead (the special's day) |
+| 248 | 1966-67 | his mother's death; his retirement from the Air Force Reserve; CBS's *Barry Goldwater's Arizona*; Camelback Mountain | minor (family), or a lead (the special's day) Re-ruled: the mother's death passed over: a family matter with no bearing on public business; the retirement from the Reserve passed over: a personal career matter, undated within the year, with no bearing on public business or politics; the CBS special stays a lead (no day). |
 | 248 | 1967-68 | Southern Rhodesia and South Africa; his words on apartheid | a lead: the dates |
 | 251 | 1966-67 | Nixon's endorsements by Tower, Thurmond, Buckley, Ashbrook and O'Donnell | a lead: their days |
-| 252 | Aug. 1968 | Nixon to Goldwater: "Barry, if there is ever anything you want, just ask it" | a lead: the day |
+| 252 | Aug. 1968 | Nixon to Goldwater: "Barry, if there is ever anything you want, just ask it" | a lead: the day Re-ruled: entered as cal.1968-08.elections-1968-nixon-2 (said in private about the campaign; Check: the day). |
 | 253 | Aug. 8, 1968 | Nixon's acceptance, the "forgotten Americans" | already in; cite to add |
 | 255-56 | Nov. 1968 | the national returns; Goldwater's analysis | already in (cal.1968-11-05.elections-1968) |
 
@@ -131,6 +148,7 @@ Made by reading pp. 136-257 page by page and listing every dated event; those al
 
 National:
 - The items of the Passed over table marked "a lead," each with Goldberg's page and note.
+- Batch 6 (Nov. 10-11, 2026): the Goldwaters' trip to Asia, Taiwan, Vietnam, Japan and Thailand, Goldwater with Chiang Kai-shek, "1967 and 1968" (248): no year or month; and his tours of Southern Rhodesia and South Africa (248). Met on p. 252 and cited: Nixon's calls on Goldwater, Tower and Thurmond at Miami Beach, under cal.1968-08-07.elections-1968.
 - Eisenhower's telephone log, June-July 1964 (Appointment Book Series, Eisenhower Library; Goldberg 200 n.127): an entry a call.
 - Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections: none open here.
 

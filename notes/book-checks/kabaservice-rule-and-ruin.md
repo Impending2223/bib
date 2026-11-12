@@ -70,6 +70,14 @@ Four events this run had drafted are added in other pending patches; the Kabaser
 
 ## Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 242 (the owner's Drive copy, PDF = printed + 23; page image read): Thurmond to White, "we just cain't take that chance and let Rockefeller slip in": entered as `cal.1968-08-05.elections-1968-miami-13` (White's recalled exchange, Kabaservice n.83, F. Clifton White, *Politics as a Noble Calling*, 177; card `w.white-politics-as-a-noble` made; "Check: the day"). The "already in" was wrong: the Aug. 7 entry cites 242-43 for the Southern delegations and Bergen County, not this exchange.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 | page | date | event | why |
 |---|---|---|---|
 | 27 | Dec. 1959 | Rockefeller will not challenge Nixon | out of the span |
@@ -197,8 +205,23 @@ The rest of that table stands: Womey, Gerald A. Smith, Crangle, Lawrence and Bea
 
 ### Passed over (second run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 | page | date | event | why |
 |---|---|---|---|
 | 159 | Aug. 1965 | Dumont demands that Hughes fire Genovese; Hughes refuses | a lead: no day (the *Times*, Aug. 12, 1965, 159 n.163) |
 | 166 | 1966 | Price takes Greeley's portrait from the editorial room | minor |
 | 230 | fall 1967 | a poll, Johnson two points ahead of Stassen | a lead: no day or pollster |
+
+## Batch 6 (Nov. 6, 2026, run Nov. 10–11)
+
+The rows passed over as social, private or minor, ruled again under R18 as amended Nov. 6. No patch: nothing to enter.
+
+The copy: the same Drive file (11m7KXywDzwh-lkFWKjhjznKCsgG1sQvI), by the direct route, 505 PDF pages, printed page = PDF page − 23; p. 166 read. Deleted at the end.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 196 | Feb. 1967 | Buckley and Gilder a weekend at Goldwater's; dinner with the Luces | already entered by the second run: cal.1967-02.conservative-movement |
+| 166 | 1966 | Price takes Greeley's portrait from the *Herald Tribune*'s editorial room | passed over: a keepsake, with no bearing on public business or politics (and no month) |
+
+The rows of correspondents with no public role (Womey, Gerald A. Smith, Crangle, Lawrence and Beal, Woods, Pillsbury, Dionne) are not this batch's grounds and stand.

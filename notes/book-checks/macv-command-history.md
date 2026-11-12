@@ -232,12 +232,20 @@ Every dated event the volume treats that the calendar lacks, the chronology's (1
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- pp. 189-93 (1964 chronology; the owner's Drive copy, PDF = printed + 10; each page read as an image, the OCR's figures corrected by it: Sept. 14 not 16): already citing the chronology and confirmed: Jan. 14 (the Check in `cal.1964-01-27.vietnam`), Jan. 30, May 12 (the jets), Aug. 16, 25, 27, Sept. 13, 20, Oct. 24, Nov. 1, Dec. 20. Cited now: Mar. 8 (`cal.1964-03-08.vietnam`), May 12 (McNamara's visit, `cal.1964-05-12.vietnam`), June 20, June 23, July 27, Aug. 2, Aug. 5 (`cal.1964-08-05.vietnam`), Sept. 18, Dec. 24, each '?' with what the line bears. Variants: July 27 ("Pentagon announces," not Saigon), Sept. 18 ("DRV PT boats attack destroyers Edwards and Morton" against "No attack proven"), Oct. 24 (Huong Prime Minister under Oct. 24), Dec. 24 (the chronology: Dec. 25, 108 wounded). Maps narrowed, a chronology line bearing no place, name or detail beyond its words: Jan. 30 (B), Aug. 16, 25, 27 (B), Sept. 13, Oct. 24, Dec. 20 (edits of `src`). Sept. 15 (Khanh arrests five coup leaders) and Oct. 20 (the constitution, in the Oct. 24 entry) are the chronology's, not this row's.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026: the 1964 volume again, the owner's Drive copy 1qOJyn0edA9EzhtMmuZCdkxRb2sSl2iJs, printed page = PDF page − 10, p. 161 read off the page image; deleted when done). The one row ruled a draft (the J5's plan of Aug. 5) is a completed plan shelved, so a paper of government (R8): entered; patch `inbox/2026-11-06-b6-macv-command-history.yaml` (1 entry), witness `inbox/witnesses/2026-11-06-b6-macv-command-history.yaml` (1), edge 161 n.28. No other row of the four volumes' Passed over is ruled private, social, family or a draft.
+
 What is left after the rulings of Oct. 28.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 189-93 | Jan. 14, 30; Mar. 8; May 12; June 20, 23; July 27; Aug. 2, 5, 16, 25, 27; Sept. 13-14, 18, 20; Oct. 20, 24; Nov. 1; Dec. 20, 24-25 | Westmoreland named deputy (the Jan. 27 entry's Check); Khánh's coup; McNamara's visits; Harkins leaves; Lodge resigns; the advisers; the Gulf of Tonkin; Khánh's presidency and the triumvirate; the coup of Sept. 13; the Montagnards; the charter; Sửu and Hương; Biên Hòa; the generals' coup; the Brink | already in, or in a pending patch (b3-westmoreland: May 12, June 20, Sept. 20) |
-| 160-61 | Aug. 5 | The J5's outline plan against a surprise attack on Huế | a draft not sent: shelved, never forwarded to the High Command |
+| 160-61 | Aug. 5 | The J5's outline plan against a surprise attack on Huế | a draft not sent: shelved, never forwarded to the High Command — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-08-05.vietnam-macv: a completed planning paper (R8), shelved, not a draft; read again on p. 161 (the page image), n.28 registered |
 | 99-100 | July 30-Dec. 26; Nov. 14, 30 | JRATA's searchlight platoon, its equipment and training; booby-trapped munitions; the 25th Division's language students | an office's routine (test and evaluation) |
 | 116-20; 156-57; 176-78 | year | Training; the evacuation plan's changes; the suggestion program; communications (the Mark IV terminal, Oct. 3; Wetwash, Jan. 1, 1965) | an office's routine |
 | 64 | Dec. 17 | The RVNAF memorandum on the deficiencies Westmoreland listed (n.38), Khánh's order to the corps commanders | not yet entered: a dated paper for the next run |
@@ -630,7 +638,7 @@ Each dated paragraph of the pages read, not entered, a row. The first run's rows
 | 176 | June 15; Nov.; Dec. 24-26 | Armed Forces Radio's surveys; its studio after the Brink | minor |
 | 178 | — | Northern Toll, the proposed microwave system north of Saigon | no date: a lead |
 | 179 | 1964 | the aircraft radio retrofit completed | dated to the year only: a lead |
-| 160-61 | Aug. 5 | the J5's outline plan against a surprise attack on Huế | a draft not sent (as ruled before) |
+| 160-61 | Aug. 5 | the J5's outline plan against a surprise attack on Huế | a draft not sent (as ruled before) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-08-05.vietnam-macv (see the row above) |
 
 ## 1965 (`w.macv-command-history-1965`), second reading
 

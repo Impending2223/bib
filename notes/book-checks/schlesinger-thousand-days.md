@@ -54,22 +54,24 @@ Patch `inbox/2026-10-29-backfill-thousand-days-vantage.yaml` (patch `backfill-th
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inbox/2026-11-06-b6-schlesinger-thousand-days.yaml`): every row below ruled minor, private or below the calendar's level was read again on its page, in the same copy (Drive id 1qXnVNlznVuhjXcjc_UexWd59eE2jVLln, the PDF the first run read; printed page = PDF page less 18, checked again on the page images of pp. 70-73, 141, 269, 292, 339, 493-94, 772, 787, 799-800, 858-59, 909, 989), and ruled again; each such row ends "Re-ruled: ...". The leads and the rows out of the brief are not this batch's. The book gives no notes for these passages (Schlesinger's account, from his journal): no witnesses registered but Haynes Johnson's book behind p. 269 (an edge in the by-work file). Added besides, met on the pages re-read: the launching of the Committee of Arts, Letters and Sciences, Oct. 13, 1960 (71: cal.1960-10-13.elections-1960-kennedy); Kennedy's luncheon with Amery on Skybolt, Jan. 1962 (858: cal.1962-01.europe-and-the-alliance); Schlesinger, 72, cited under cal.1960-10-20.cuba.
+
 How the list was made: every day-dated mention in the text (a regular expression over the PDF's text, 247 mentions), each held against the calendar's days and searched by its words; checked by hand. Not listed: events the calendar holds (most of them), citations of publications, dates used as terms or deadlines ("set for April 17"), repeats of a date already ruled, and month-only mentions. Reasons as the brief gives them; "lead" also in the leads below.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 33 | 1960-07-09 | Schlesinger reaches Los Angeles | minor (private) |
-| 70 | 1960-10-11 | Lunch with Kennedy on his staff | minor (private) |
-| 72–73 | 1960-10-20, 23 | Kennedy's remarks to Schlesinger | minor (private) |
-| 141 | 1960-12-07 | Rusk dines at Bowles's house | minor (private, before office) |
+| 33 | 1960-07-09 | Schlesinger reaches Los Angeles | minor (private) Re-ruled: passed over: a supporter's arrival; Galbraith's report of a remark at a party (34) has no bearing on the convention's business. |
+| 70 | 1960-10-11 | Lunch with Kennedy on his staff | minor (private) Re-ruled: entered as cal.1960-10-11.elections-1960-kennedy (Kennedy on his campaign staff, said in private about public business). |
+| 72–73 | 1960-10-20, 23 | Kennedy's remarks to Schlesinger | minor (private) Re-ruled: entered as cal.1960-10-20.elections-1960-kennedy and cal.1960-10-23.elections-1960-kennedy; with them, from the same pages, the lunch of Oct. 13 (cal.1960-10-13.elections-1960-kennedy-2) and Goodwin's drafting of the Cuba statement, Oct. 19 (cal.1960-10-19.elections-1960-kennedy: a principal's statement in draft). |
+| 141 | 1960-12-07 | Rusk dines at Bowles's house | minor (private, before office) Re-ruled: entered as cal.1960-12-07.transition-and-staff-cabinet-2 (an appointment in the making, talked over in private). |
 | 157, 195 | 1960-11-18 | Kennedy's letter to Sharon proposing more task forces | lead |
 | 221 | 1959 | Bonsal's requests to see Castro | out of span |
 | 222 | 1960-03-17 | Dorticós rejects the last American overture | lead |
 | 243 | 1961-03-14 | The Chiefs examine the Zapata plan | lead (FRUS X) |
 | 267 | 1961-04-14 | Hawkins's evaluation reaches the White House | lead (FRUS X doc. 98 prints the cable) |
-| 269 | 1961-04-10–14 | The Brigade moves to Puerto Cabezas and boards | below the calendar's level |
+| 269 | 1961-04-10–14 | The Brigade moves to Puerto Cabezas and boards | below the calendar's level Re-ruled: entered as cal.1961-04-10.cuba-bay-of-pigs and cal.1961-04-14.cuba-bay-of-pigs (the operation's days, R14, R16; "below the level" now means only a unit's routine). |
 | 286 | 1961-04-21, 22 | Fair Play for Cuba rallies, New York and San Francisco | lead |
-| 292, 339 | 1961-05-03 | Kennedy's remarks to Schlesinger | minor (private) |
+| 292, 339 | 1961-05-03 | Kennedy's remarks to Schlesinger | minor (private) Re-ruled: entered as cal.1961-05-03.cuba-bay-of-pigs (Kennedy on the poll and on Laos, said in private about public business). |
 | 330 | 1961-02-19 | The King of Laos's statement | lead |
 | 331 | 1961-03-15 | Press conference on Laos | lead (Public Papers) |
 | 334 | 1961-03-27 | SEATO at Bangkok; troop pledges | lead |
@@ -79,30 +81,30 @@ How the list was made: every day-dated mention in the text (a regular expression
 | 343 | 1961-05-12 | Khrushchev's reply reopening Vienna | lead |
 | 398 | 1961-08-24 | Soviet note on the air corridors | lead |
 | 454 | 1961-06-21 | Khrushchev on testing | lead |
-| 493 | 1962-01-12 | Bundy and Schlesinger on State's draft | minor |
+| 493 | 1962-01-12 | Bundy and Schlesinger on State's draft | minor Re-ruled: entered as cal.1962-01-12.testing (the drafting of the President's reply to Macmillan, a principal's message). |
 | 496 | 1962-02-27 | Kennedy tells Macmillan of the address on testing | lead |
 | 516 | 1962-06-12 | The Laos coalition formed (the calendar: June 23) | lead (Check) |
 | 524 | 1961-11-05–07 | Nehru in New York and Washington | lead |
 | 529 | 1961-10-23 | Nehru at Bombay | out of the brief |
 | 657 | 1961-02-28, 03-09, 03-16, 04-13 | Messages on highways, housing, agriculture, the regulatory agencies | lead (Public Papers) |
-| 772 | 1961-12-15 | Kennedy at Puerto Rico | minor (the trip is in) |
+| 772 | 1961-12-15 | Kennedy at Puerto Rico | minor (the trip is in) Re-ruled: entered as cal.1961-12-15.latin-america-dominican-republic (the meeting at La Fortaleza and the decision to appeal to Balaguer: the informal record, not the trip). |
 | 787 | 1962-07-23 | Haya's general strike in Peru | out of the brief |
-| 787 | 1963-08-01 | Schlesinger to Kennedy on Peru | minor |
+| 787 | 1963-08-01 | Schlesinger to Kennedy on Peru | minor Re-ruled: entered as cal.1962-08-01.latin-america-peru: the page dates the talk Aug. 1 of 1962, after the coup of July 18 and Haya's strike of July 23, 1962; the row's year was wrong. |
 | 788 | 1962-03-13 | The Alliance's anniversary address | lead (Public Papers) |
 | 795 | 1962-07-02 | Raúl Castro in Moscow | lead |
-| 799 | 1962-09-13 | Schlesinger to Kennedy on Cuba | minor |
+| 799 | 1962-09-13 | Schlesinger to Kennedy on Cuba | minor Re-ruled: entered as cal.1962-09-13.cuba-2 (a staff officer's advice to the President, the informal record). |
 | 800 | 1962-10-10 | The U-2 flight approved | lead |
 | 808 | 1962-10-19 | Stevenson calls Schlesinger to Washington | lead |
-| 832 | 1962-10-30 | Kennedy to Mrs. Mellon | minor (private) |
+| 832 | 1962-10-30 | Kennedy to Mrs. Mellon | minor (private) Re-ruled: passed over: a note of thanks for the Rose Garden, with no bearing on public business. |
 | 839 | 1962-12-21 | Donovan and Castro sign the agreement | lead |
-| 858 | 1962-11-06 | Hawthorne's warning on Skybolt | minor |
+| 858 | 1962-11-06 | Hawthorne's warning on Skybolt | minor Re-ruled: entered as cal.1962-11-06.europe-and-the-alliance (said in private about Skybolt). |
 | 859 | 1963-11-15, 20 | Neustadt's Skybolt report; Kennedy to Bundy | lead |
 | 866 | 1963-01-05 | Bohlen with de Gaulle | lead |
 | 886 | 1963-06-03, 21 | John XXIII's death; Paul VI elected | out of the brief |
 | 886 | 1963-07-01–02 | Kennedy in Rome | lead |
 | 904 | 1963-07-02 | Khrushchev at Berlin on the test ban | lead |
 | 905 | 1963-07-05–20, 14 | The Sino-Soviet talks; the Central Committee's letter | out of the brief |
-| 909 | 1963-07-28 | Harriman back in Washington | minor |
+| 909 | 1963-07-28 | Harriman back in Washington | minor Re-ruled: entered as cal.1963-07-28.testing (Harriman's report to Kennedy at Hyannis Port; Check: its day). |
 | 914–15 | 1963-07-19, 26; 08-04 | Khrushchev's statements; a rejection of Kennedy's offer | lead |
 | 921 | 1963-03-08 | Khrushchev to the artists | out of the brief |
 | 941 | 1962-09-22 | The Emancipation centennial at the Lincoln Memorial | lead |
@@ -111,7 +113,7 @@ How the list was made: every day-dated mention in the text (a regular expression
 | 964 | 1963-05-21 | The court orders the University of Alabama to admit | lead |
 | 973 | 1963-11-20 | House Judiciary reports the civil rights bill | lead |
 | 986 | 1963-04-22 | Rusk's speech in New York on Vietnam | lead |
-| 989 | 1963-07-11 | Nolting back in Saigon | minor |
+| 989 | 1963-07-11 | Nolting back in Saigon | minor Re-ruled: entered as cal.1963-07-11.vietnam-saigon (an ambassador's return to post, R15, and his views). |
 | 997 | 1963-11-01 | Lodge takes Felt to call on Diệm | lead |
 | 999 | 1963-11-18 | Address at Miami on Cuba | lead (Public Papers) |
 

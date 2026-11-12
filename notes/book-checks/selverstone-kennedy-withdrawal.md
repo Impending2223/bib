@@ -42,7 +42,20 @@ Each was compared with every entry of its day. Three share day and thread with a
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
+
 How the list was made: the date scan above. Each dated mention not cited by an entry was read in its paragraph and set against the entries of its day (±3 days). "Already in as" names the entry that has it: cited where Selverstone adds something, otherwise left. "Minor" means only what the brief's rule says. Page | date | event | why.
+
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7), and again by the reader's card, Nov. 11, 2026 (batch 8; patch `inbox/2026-11-11-b8-selverstone.yaml`). Rulings, page by entry:
+
+- Cited under the entry: p. 20 (Jan. 6, 1961, berlin-and-vienna); 21 (Jan. 30, program); 29 (May 25, space); 31 (Aug. 13, berlin-and-vienna); 36 (Oct. 11, vietnam); 38 (Oct. 18, vietnam); 48 (Dec. 8, vietnam); 52 (Jan. 11, 1962, program); 55 (Feb. 8, vietnam); 57 (Feb. 14, vietnam); 58 (Feb. 20, vietnam-congress); 63-64 (Feb. 27, vietnam); 98 (Jan. 2, 1963, vietnam); 118 (May 8, vietnam); 126 (May 12, vietnam); 133 (June 11, vietnam); 142 (Aug. 21, vietnam); 143 (Aug. 28, vietnam); 143-44 (Aug. 29, vietnam; the row's p. 146 is de Gaulle's Aug. 29 statement, not Kennedy); 150 (Sept. 5, vietnam-congress); 147-48, 152 (Sept. 9, vietnam; and 152 under vietnam-saigon, Lodge with Diem); 154 (Sept. 10, vietnam); 158 (Sept. 15, alabama); 158-59 (Sept. 17, vietnam; the row's p. 158 is the sending of McNamara and Taylor); 163 (Sept. 26, vietnam-congress); 196 (Nov. 1, vietnam); 217 (Jan. 30, 1964, vietnam); 218 (Jan. 16, 1964, vietnam, the approval; 34A from Feb. 1); 219 (Feb. 21, 1964, vietnam).
+- Variant and Check on: Aug. 21, 1963 (p. 142 puts the raids and martial law on the night of Aug. 21); May 8, 1963 (p. 118: "over twenty" killed and injured, against eight killed). Variant already on Mar. 24, 1963, foreign-aid (p. 111: the Clay report "Released on March 22"): no cite, the page disputes the unit.
+- Not borne out (no cite): Apr. 29, 1961, laos (p. 24 treats the NSC meeting of that day, entered as cal.1961-04-29.vietnam by the batch 8 Reeves patch; the entry is Rusk's meeting at State); Oct. 1, 1963, vietnam-saigon (p. 136: Oct. 1 is Felt's earliest date for the decision, a planning date; the entry is Taylor's call on Minh); Oct. 30, 1963, vietnam (p. 153: the troop peak of 16,732 by Oct. 30; the entry is Lodge's cable).
+- Background rows, no single entry and nothing on the page the series rests on: Bay of Pigs (p. 23, two sentences); the missile crisis (p. 96); Dallas (pp. 203, 233). On p. 203 Kennedy's remarks prepared for the Trade Mart, Nov. 22 ("key role," "we dare not weary of the task"): not in `c` of the assassination entry, which cites the Public Papers text; a possible entry for the owner.
+- Notes not read: the cited records behind these pages are not added under "To check:" in this patch.
+
+Where batch 8 stopped: all 36 rows ruled; none left open.
+
 
 | page | date | event | why |
 |---|---|---|---|
@@ -114,6 +127,23 @@ How the list was made: the date scan above. Each dated mention not cited by an e
 | 219 | 1964-02-21 | Johnson at Los Angeles | already in as cal.1964-02-21.vietnam |
 | 221 | 1964-02-15 | Felt: the planning assumption "no longer valid" | lead: Felt's message (JCS files; Selverstone 221 n.85) |
 | 236–241 | 2001–2009 | Sept. 11; Iraq; Obama's Afghanistan decision | out of the brief |
+
+## Batch 6: the rows re-ruled (Nov. 10–11, 2026)
+
+The owner's copy again (Drive 1knBIhZOfZe3OXNlKBtBKn-CXqFoKXt4C, the publisher's PDF, by the direct route into the scratchpad; deleted after): printed page = PDF page − 10 held (pp. 64, 69, 105, 191–193 and the note pages 264, 266, 275, 293 read on their images as well as the text). Patch `inbox/2026-11-06-b6-selverstone.yaml` (7 entries added, their claim-map rows); witnesses `inbox/witnesses/2026-11-06-b6-selverstone.yaml` (7 rows and one amendment: the memorandum of Oct. 7, 1963, read); 8 edges appended to `sources/witnesses/by-work/selverstone-kennedy-withdrawal.yaml`. Three records read in FRUS and cited first: 1961–63, III, doc. 23; IV, docs. 187, 201. Re-ruled: the rows ruled minor for staff, a draft, a magazine's story, or "an operation below the level" (R18 as amended: "below the level" means only a unit's routine; the planning of communications is R7's).
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 64 | Mar. 29, 1962 | Clifton to Bundy: prod McNamara on the plan (the note's date) | entered, `cal.1962-03-29.vietnam-force-levels` (Check: whose words) |
+| 69 | Mar. 16, 1962 | *Life*'s "Story of the Week" | entered, `cal.1962-03-16.press-and-broadcasting` (R13: *Life*) |
+| 69 | Apr. 26, 1962 | Ball and Bundy by telephone on the speech; Kennedy's guidance (not logged before) | entered, `cal.1962-04-26.vietnam` |
+| 69 | Apr. 30, 1962 | Higgins on Ball's speech | already in: `cal.1962-05-01.vietnam` carries the *Herald Tribune*'s reading |
+| 105 | Jan. 21, 1963 | press and liaison officials plan "favorable accounts" | entered, `cal.1963-01-21.vietnam` (FRUS 1961–63, III, doc. 23) |
+| 191 | Oct. 7, 1963 | Bundy at the staff meeting: "pollyana-ish" | entered, `cal.1963-10-07.vietnam-force-levels` (FRUS IV, doc. 187) |
+| 192 | Oct. 18, 1963 | the draft press release, 16,730 | entered, `cal.1963-10-18.vietnam-force-levels` (FRUS IV, doc. 201: Kattenburg to Hilsman on the proposed release) |
+| 193 | Oct. 19–21, 1963 | the 16,500 figure to be leaked | entered, `cal.1963-10-19.vietnam-force-levels` (the telegram's day; the leak set for Oct. 21) |
+| 126, 139, 188 | June 5, Oct. 20, Nov. 15, 1963 | the deadlines (the cost study, the Chiefs' decision, the CPSVN's revision) | still passed over: a deadline set is no event; the papers that set them are the entries already cited |
+| 136 | Oct. 1, 1963 | "not before Oct. 1" | still passed over: a planning date, no event |
 
 ## Leads
 

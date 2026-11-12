@@ -190,6 +190,13 @@ def cmd_show(series, a):
             print(f"# {cid}: {plain(series.works.render(cid)) if card else 'NO SUCH CARD'}")
             if card and card.get("n"):
                 print(f"#   card note: {plain(card['n'])}")
+        if l.kind == "calendar" and not e["id"].startswith(f"{l.key}.thread.") and isinstance(e.get("c"), str):
+            from . import vis                # each claim's visibility at the time (tools/bib/vis.py)
+            try:
+                for ln in vis.show_lines(series, l, e):
+                    print(ln)
+            except Exception as x:
+                print(f"# visibility: failed ({type(x).__name__}: {x})")
         print(store._emit([store.stored_form(e)], 0))
         print()
 
@@ -255,7 +262,8 @@ def cmd_check(series, a):
 
 
 def cmd_build(series, a):
-    from . import build, check
+    from . import build, check, vis, vispage
+    vis.keep(series)                     # the claims computed once, for the check and the pages (vispage.py, STYLE 1)
     if not a.force:
         errs = [p for p in check.run(series) if p[0] == check.ERROR]
         if errs:
@@ -264,6 +272,8 @@ def cmd_build(series, a):
             return 1
     for p in build.run(series, a.which):
         print(os.path.relpath(p, HERE), f"{os.path.getsize(p) // 1024} KB")
+    if vispage.STATS["entries"]:
+        print(vispage.report())
 
 
 def cmd_hearings(series, a):
@@ -756,7 +766,7 @@ def cmd_works(series, a):
                     print(f"{h}   {plain(fresh.render(h))}")
                 raise SystemExit("works new: a card already matches (above): cite it; --force --why '...' if it is another work")
             card = {k: v for k, v in f.items() if not k.startswith("_")}
-            card["id"] = works.new_id(works.fields_of(card["c"]) if card.get("c") and not card.get("title") else card,
+            card["id"] = works.new_id((works.fields_of(card["c"]) or card) if card.get("c") and not card.get("title") else card,
                                       set(fresh.cards) | set(fresh.alias))
             if f.get("_force") and not why:
                 raise SystemExit("works new --force: say why it is another work (--why '...')")
@@ -809,8 +819,10 @@ def cmd_works_find(series, a):
 def cmd_new_id(series, a):
     l = resolve_list(series, a.list)
     base = f"{l.key}." + ".".join(store.slug(x, 6) for x in a.words)
+    from . import ledger                 # an id another reader has claimed in the ledger is taken too
+    claimed = {r["id"] for r in ledger.rows()}
     eid, n = base, 2
-    while series.get(eid):
+    while series.get(eid) or eid in claimed:
         eid, n = f"{base}-{n}", n + 1
     print(eid)
 

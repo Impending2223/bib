@@ -42,7 +42,7 @@ entries:
     date: '1962-02-01'
     thread: robert-kennedy
     c: Robert Kennedy leaves on a month's tour around the world. Byron White Acting Attorney General.
-    n: '[[w.branch-parting-the-waters]], 564, 566; [[w.thomas-robert-kennedy]], 166 (the three-week tour). To check: New York Times, Feb. 2, 1962, 1 (cited by [[w.branch-parting-the-waters]], 566 n.2). Names: Robert Kennedy, Byron White.'
+    n: '[[w.branch-parting-the-waters]], 564, 566; [[w.thomas-robert-kennedy]], 166 (the three-week tour). To check: [*New York Times*, Feb. 2, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/02/issue.html), at 1 (cited by [[w.branch-parting-the-waters]], 566 n.2). Names: Robert Kennedy, Byron White.'
     src:
       c: c5084018
       rows:
@@ -92,6 +92,25 @@ entries:
       c: b1780a96
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 468: all'
+  - id: cal.1962-02-01.elections-1964
+    when: Feb. 1
+    date: '1962-02-01'
+    thread: elections-1964
+    c: 'Rockefeller''s wife leaves for Reno, the Donner Trail Guest Ranch, booked as Mrs. Clark: six weeks'' residence for a Nevada divorce, New York''s law allowing none but for adultery.'
+    n: '[[w.smith-on-his-own-terms]], 376. To check: Mary Todhunter Rockefeller to Blanchette Rockefeller, Jan. 23, 1962, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 376 n.). The divorce: [[cal.1962-03-16.elections-1964]]. Check: Smith sets her letter on the eve of her departure; his note dates it Jan. 23. Names: Rockefeller.'
+    src:
+      c: 463b7a92
+      rows:
+        - 'w.smith-on-his-own-terms 376: all'
+        - 'via x.1962-01-23.tod-rockefeller-to-blanchette-rockefeller: A'
+    tags: [name:rockefeller-nelson]
+  - id: cal.1962-02-01.republican-party-congress
+    when: Feb. 1
+    date: '1962-02-01'
+    thread: republican-party-congress
+    c: 'Senate Republican conference, twenty-two present, 9:27 to 10 a.m. Carlson, acting for Schoeppel, reports assignments for the vacancies after the deaths of Bridges and Schoeppel; approved. Aiken says a member has waited for Commerce and Judiciary; Williams: stop assigning a third committee until every Senator has two major ones.'
+    n: '[[w.wolff-minutes-of-the-senate]], 903–05. See [[cal.1962-01-31.republican-party-congress]]. Names: Carlson, Bridges, Schoeppel, Aiken, Williams.'
+    tags: [name:carlson-frank, name:aiken-george-d, name:williams-john-j, name:bridges-henry-s, name:schoeppel-andrew-f]
   - id: cal.1962-02-02.vietnam
     when: Feb. 2
     date: '1962-02-02'
@@ -180,12 +199,13 @@ entries:
     date: '1962-02-03'
     thread: cuba
     c: Embargo on trade with Cuba proclaimed, in force Feb. 7. Food and medicine excepted.
-    n: '[Proclamation No. 3447](https://www.presidency.ucsb.edu/documents/proclamation-3447-embargo-all-trade-with-cuba), [27 Fed. Reg. 1085](https://www.govinfo.gov/app/details/FR-1962-02-07) (1962). [[w.paterson-contesting-castro]], 259 (most imports banned). See [[cal.1961-04-15.cuba]].'
+    n: '[Proclamation No. 3447](https://www.presidency.ucsb.edu/documents/proclamation-3447-embargo-all-trade-with-cuba), [27 Fed. Reg. 1085](https://www.govinfo.gov/app/details/FR-1962-02-07) (1962). [[w.paterson-contesting-castro]], 259 (most imports banned); [[w.jones-bay-of-pigs]], 159 (the embargo, February 1962). See [[cal.1961-04-15.cuba]].'
     src:
       c: 37a0e3e9
       rows:
         - 'https://www.presidency.ucsb.edu/documents/proclamation-3447-embargo-all-trade-with-cuba: all'
         - 'w.paterson-contesting-castro 259: A'
+        - 'w.jones-bay-of-pigs 159: A'
     tags: [name:kennedy-john-f]
     time_range:
       - 1962-02-03T14:00Z
@@ -338,13 +358,19 @@ entries:
     thread: press-and-broadcasting
     also: [robert-kennedy]
     c: 'The *Wall Street Journal*, front page, Beecher, "Brother Bobby": Robert Kennedy at all the key meetings; his direct line to the President; a "sharp step-up" against Castro.'
-    n: '[[w.shesol-mutual-contempt]], 71–73. To check: *Wall Street Journal*, Feb. 6, 1962, 1 (cited by [[w.shesol-mutual-contempt]], 71–73). Names: Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 71–73. To check: *Wall Street Journal*, Feb. 6, 1962, at 1 (cited by [[w.shesol-mutual-contempt]], 71–73). Names: Robert Kennedy.'
     src:
       c: 5f710aa6
       rows:
         - 'w.shesol-mutual-contempt 71–73: all'
         - 'via w.shesol-mutual-contempt 71 n.key-meetings: all'
     tags: [name:kennedy-robert-f]
+    time_range:
+      - 1962-02-06T10:00Z
+      - 1962-02-06T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-02-06.king
     when: Feb. 6
     date: '1962-02-06'
@@ -397,6 +423,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-02-06.congress
+    when: Feb. 6
+    date: '1962-02-06'
+    thread: congress
+    also: [cities-and-housing, school-aid]
+    c: 'Kennedy''s breakfast with the congressional leaders: urban affairs, the Easter recess, the week''s programs, the education bill. By O''Brien''s account, the urban affairs department no "political plot on his part"; its civil rights aspect "had not occurred to him." He is sending a message on education and is "not giving up" on the general bill.'
+    n: '[[w.ritchie-minutes-of-the-senate]], 591–93 (Mansfield''s report to the Senate Democratic Conference, Feb. 7, 1962, 591–92; O''Brien''s account, 592–93). Names: Kennedy, O''Brien.'
+    tags: [name:kennedy-john-f, name:obrien-lawrence-f]
   - id: cal.1962-02-07.crime-and-hijacking
     when: Feb. 7
     date: '1962-02-07'
@@ -496,7 +530,7 @@ entries:
     date: '1962-02-07'
     thread: school-aid
     c: 'Cardinal Spellman to the New York Archdiocesan Teachers Institute: the President''s school proposals would mean "the end of our parochial schools"; to leave them out a "terrible crime."'
-    n: '[[w.graham-uncertain-triumph]], 30. To check: *New York Times*, Feb. 8, 1962 (cited by [[w.graham-uncertain-triumph]], 30 n.9). Names: Spellman.'
+    n: '[[w.graham-uncertain-triumph]], 30. To check: [*New York Times*, Feb. 8, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/08/issue.html) (cited by [[w.graham-uncertain-triumph]], 30 n.9). Names: Spellman.'
     src:
       c: 4a9c19fd
       rows:
@@ -516,13 +550,21 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=180: all'
         - 'w.graham-uncertain-triumph 30: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-02-07.congress
+    when: Feb. 7
+    date: '1962-02-07'
+    thread: congress
+    also: [democratic-party]
+    c: Senate Democrats, an informal conference. Mansfield reports the President's breakfast with the leaders Feb. 6; O'Brien's account of it supplied. Randolph raises the offices' clerical funds, left short by the House; Morse proposes lend-lease of staff and more live pairs for Senators up for reelection; Sparkman for the live pairs.
+    n: '[[w.ritchie-minutes-of-the-senate]], 591–93 (the minutes'' own words, 591–92; O''Brien''s account, 592–93). See [[cal.1962-02-06.congress]]. Names: Mansfield, O''Brien, Randolph, Morse, Sparkman.'
+    tags: [name:mansfield-mike, name:obrien-lawrence-f, name:morse-wayne, name:randolph-jennings, name:sparkman-john]
   - id: cal.1962-02-08.vietnam
     when: Feb. 8
     date: '1962-02-08'
     time: 1962-02-08T16:00Z
     thread: vietnam
     c: MACV established. Harkins commands.
-    n: '[FRUS 1961–63, II, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v02/d53). [[w.gibbons-u-s-government-and]], II, 103 (February 1962; not the day); [[w.marolda-united-states-navy-and]], 220; [[w.futrell-united-states-air-force]], 97; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 274; [[w.taylor-swords-and-plowshares]], 250 (Harkins in command in February; his directive). To check: [[w.cosmas-united-states-army-in]]; CNO, minutes of meeting, Thursday, 4 Jan 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2a); CNO, minutes of meeting, Thursday, 16 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2b); CNO, minutes of meeting, Friday, 24 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2c); msgs, CP 141212Z Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2d); JCS 282248Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2e); CP 290301Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2f); 081600Z Feb 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2g); CINCPAC, Command History, 1962, p. 154 (cited by [[w.marolda-united-states-navy-and]], 220 n.2h); memos, Shoup to Anderson, of 18 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2i); OP-60 to CNO, ser BM727-61 of 22 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2j); Military Assistant to SECDEF to SECARM/SECNAV/SECAF/CHJCS, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2k); OSD, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2l); Msg, PACAF to 13th AF and 2d ADVON, Feb 20, 1962 (cited by [[w.futrell-united-states-air-force]], 97 n.20). See [[cal.1961-01-28.vietnam]]. Names: Harkins.'
+    n: '[FRUS 1961–63, II, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v02/d53). [[w.gibbons-u-s-government-and]], II, 103 (February 1962; not the day); [[w.marolda-united-states-navy-and]], 220; [[w.futrell-united-states-air-force]], 97; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 274; [[w.taylor-swords-and-plowshares]], 250 (Harkins in command in February; his directive); [[w.reeves-president-kennedy]], 283; [[w.selverstone-kennedy-withdrawal]], 55 (MACV comes into existence Feb. 8; Harkins raised to four stars). Check: the day; Reeves, 283, has the MAAG upgraded to MACV, with Harkins in command, on Feb. 2. To check: [[w.cosmas-united-states-army-in]]; CNO, minutes of meeting, Thursday, 4 Jan 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2a); CNO, minutes of meeting, Thursday, 16 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2b); CNO, minutes of meeting, Friday, 24 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2c); msgs, CP 141212Z Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2d); JCS 282248Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2e); CP 290301Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2f); 081600Z Feb 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2g); CINCPAC, Command History, 1962, p. 154 (cited by [[w.marolda-united-states-navy-and]], 220 n.2h); memos, Shoup to Anderson, of 18 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2i); OP-60 to CNO, ser BM727-61 of 22 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2j); Military Assistant to SECDEF to SECARM/SECNAV/SECAF/CHJCS, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2k); OSD, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2l); Msg, PACAF to 13th AF and 2d ADVON, Feb 20, 1962 (cited by [[w.futrell-united-states-air-force]], 97 n.20). See [[cal.1961-01-28.vietnam]]. Names: Harkins.'
     src:
       c: b1e548d7
       rows:
@@ -545,6 +587,8 @@ entries:
         - 'w.gibbons-u-s-government-and II, 103: A-B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 274: all'
         - 'w.taylor-swords-and-plowshares 250: A-B'
+        - 'w.reeves-president-kennedy 283: A, B'
+        - 'w.selverstone-kennedy-withdrawal 55: A, B'
     tags: [name:harkins-paul-d]
     short: MACV
   - id: cal.1962-02-08.soviet-union
@@ -670,7 +714,7 @@ entries:
     thread: school-aid
     also: [press-and-broadcasting]
     c: 'Hechinger in the *Times*: the education message "clearly upset some of the estimates of his own supporters"; some educators dismayed that the President seems "reconciled to settling for the other parts of the package," without the public schools.'
-    n: '[[w.graham-uncertain-triumph]], 29–30. To check: *New York Times*, Feb. 11, 1962 (cited by [[w.graham-uncertain-triumph]], 30 n.8).'
+    n: '[[w.graham-uncertain-triumph]], 29–30. To check: [*New York Times*, Feb. 11, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/11/issue.html) (cited by [[w.graham-uncertain-triumph]], 30 n.8).'
     src:
       c: a942ba4c
       rows:
@@ -725,6 +769,13 @@ entries:
     c: Michigan 14th, special. Harold Ryan (D) holds Rabaut's seat over Waldron (R), 30,367 to 29,600, 50.5 percent, a 767-vote margin. Swing 12.1 to R.
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt2/pdf/GPO-CRECB-1962-pt2-10-1.pdf) (1962) (Ryan sworn). Votes: CQ Guide 6th (2010) 1268. See [[cal.1961-04-04.states-and-cities]]. Names: Ryan, Rabaut, Waldron. Check: the page.'
     tags: [special:1962-02-13-h-MI-14, name:ryan-harold-m, name:rabaut-louis-c, name:waldron-robert-e]
+    time_range:
+      - 1962-02-14T01:00Z
+      - 1962-02-14T07:00Z
+    time_band: election night
+    time_zone: America/Detroit
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56) (1967).'
   - id: cal.1962-02-13.middle-east
     when: Feb. 13
     date: '1962-02-13'
@@ -763,7 +814,7 @@ entries:
     thread: republican-party
     also: [vietnam]
     c: 'The Republican National Committee''s publication: Kennedy "less than candid" with the American people on how deeply the United States is involved in Vietnam. By the *New York Times*''s report, it asks whether 4,000 Americans are there, not the 685 the administration admits. Kennedy to "drop the pretense that the United States is merely acting as military adviser to South Vietnam." By Mann''s account the weekly *Battle Line*: "Is the country moving toward another Korea which might embroil the entire East?" The people not to wait "until American casualty lists are posted."'
-    n: 'The charge as put to Kennedy the next day: The President''s News Conference of February 14, 1962, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962), question 9. [[w.moyar-triumph-forsaken]], 145 n.85, 443 (the charge; the 4,000 and the 685). [[w.selverstone-kennedy-withdrawal]], 60 (the charge and the call, as the *New York Times* reported them). [[w.mann-grand-delusion]], 257 (*Battle Line*; the questions). To check: [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html) (cited by [[w.moyar-triumph-forsaken]], 145 n.85); Jack Raymond, "G.O.P. Asks Candor on Vietnam War," [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html), 1; James Reston, "The Undeclared War in South Vietnam," [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html), 34 (cited by [[w.selverstone-kennedy-withdrawal]], 60 n.44); *Newsweek*, Feb. 26, 1962 (cited by [[w.mann-grand-delusion]], 257 n.9). Reply: [[cal.1962-02-14.vietnam]]. Check: the publication''s title and day. Check: the day (Selverstone gives Feb. 13; the *Times* reports it Feb. 14). Check: Mann names the weekly *Battle Line*, of "the day before" Reston''s article of Feb. 14.'
+    n: 'The charge as put to Kennedy the next day: The President''s News Conference of February 14, 1962, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962), question 9. [[w.moyar-triumph-forsaken]], 145 n.85, 443 (the charge; the 4,000 and the 685). [[w.selverstone-kennedy-withdrawal]], 60 (the charge and the call, as the *New York Times* reported them). [[w.mann-grand-delusion]], 257 (*Battle Line*; the questions). To check: [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html) (cited by [[w.moyar-triumph-forsaken]], 145 n.85); Jack Raymond, "G.O.P. Asks Candor on Vietnam War," [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html), at 1; James Reston, "The Undeclared War in South Vietnam," [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html), at 34 (cited by [[w.selverstone-kennedy-withdrawal]], 60 n.44); *Newsweek*, Feb. 26, 1962 (cited by [[w.mann-grand-delusion]], 257 n.9). Reply: [[cal.1962-02-14.vietnam]]. Check: the publication''s title and day. Check: the day (Selverstone gives Feb. 13; the *Times* reports it Feb. 14). Check: Mann names the weekly *Battle Line*, of "the day before" Reston''s article of Feb. 14.'
     src:
       c: 2e1a6bb9
       rows:
@@ -847,7 +898,7 @@ entries:
     time: 1962-02-14T16:00Z
     thread: vietnam
     c: 'Press conference. The advisers fire if fired on; not combat troops "in the generally understood sense of the word." Asked of the Republican charge: the leaders of both parties told in early January, Rusk and McNamara before the committees.'
-    n: 'News Conference, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962). [[w.gibbons-u-s-government-and]], II, 109 (the question on Congress; "not ... in the generally understood sense"; not the firing); [[w.mann-grand-delusion]], 257 (the Republican charge; the leaders informed). See [[cal.1961-01-28.vietnam]], [[cal.1962-02-13.republican-party]] (the question). Names: Kennedy.'
+    n: 'News Conference, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962). [[w.gibbons-u-s-government-and]], II, 109 (the question on Congress; "not ... in the generally understood sense"; not the firing); [[w.mann-grand-delusion]], 257 (the Republican charge; the leaders informed); [[w.selverstone-kennedy-withdrawal]], 57 (the news conference: "not sent combat troops in the generally understood sense of the word"; members of both parties briefed on the advisers). See [[cal.1961-01-28.vietnam]], [[cal.1962-02-13.republican-party]] (the question). Names: Kennedy.'
     src:
       c: 6edb2fea
       rows:
@@ -855,6 +906,7 @@ entries:
         - 'w.gibbons-u-s-government-and II, 109: A, C'
         - 'via w.gibbons-u-s-government-and II, 109 n.84: A, C'
         - 'w.mann-grand-delusion 257: A, C-D'
+        - 'w.selverstone-kennedy-withdrawal 57: A, C'
     tags: [name:kennedy-john-f, name:rusk-dean, name:mcnamara-robert-s]
   - id: cal.1962-02-14.indonesia
     when: Feb. 14
@@ -1044,7 +1096,7 @@ entries:
     thread: vietnam
     also: [robert-kennedy]
     c: 'Robert Kennedy at the Saigon airport, a refueling stop between Djakarta and Bangkok. A statement cleared with the State Department: "a new kind of war, but war it is in a very real sense of the word"; Hanoi''s guilt "clear"; Diệm "brave and patriotic." To the press: "We are going to win in Vietnam. We will remain here until we do win." A war? "A struggle short of war." Nhu present.'
-    n: '["Robert Kennedy Assures Vietnam,"](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html) [*New York Times*, Feb. 19, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html), 1, 10. Morse''s question and the State Department''s answer: [FRUS 1961–63, II, doc. 108](https://history.state.gov/historicaldocuments/frus1961-63v02/d108) (Mar. 14, 1962). [[w.schlesinger-robert-kennedy-and-his]], 712–13 (the airport; the words to the press); [[w.gibbons-u-s-government-and]], II, 110 (in Saigon, Feb. 18: "We are going to win"; quoted in the Foreign Relations Committee, Feb. 20). [[w.reeves-president-kennedy]], 284 (the airport; "We are going to win"). To check: *Time*, May 11, 1962 (cited by [[w.reeves-president-kennedy]], 284). See [[cal.1961-01-28.vietnam]]; the trip, [[cal.1962-02-06.robert-kennedy]]. Names: Robert F. Kennedy, Diệm, Nhu.'
+    n: '["Robert Kennedy Assures Vietnam,"](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html) [*New York Times*, Feb. 19, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html), at 1, 10. Morse''s question and the State Department''s answer: [FRUS 1961–63, II, doc. 108](https://history.state.gov/historicaldocuments/frus1961-63v02/d108) (Mar. 14, 1962). [[w.schlesinger-robert-kennedy-and-his]], 712–13 (the airport; the words to the press); [[w.gibbons-u-s-government-and]], II, 110 (in Saigon, Feb. 18: "We are going to win"; quoted in the Foreign Relations Committee, Feb. 20). [[w.reeves-president-kennedy]], 284 (the airport; "We are going to win"). To check: *Time*, May 11, 1962 (cited by [[w.reeves-president-kennedy]], 284). See [[cal.1961-01-28.vietnam]]; the trip, [[cal.1962-02-06.robert-kennedy]]. Names: Robert F. Kennedy, Diệm, Nhu.'
     src:
       c: 87bb52ae
       rows:
@@ -1101,7 +1153,7 @@ entries:
     thread: press-and-broadcasting
     also: [robert-kennedy]
     c: '*U.S. News & World Report*, "''Bobby'' Kennedy: Is He the ''Assistant President''?": his hand in diplomacy, counterintelligence, military strategy, politics, even agriculture; his name mentioned in Washington for the Democratic nomination of 1968; his image "building" as a traveling statesman.'
-    n: '[[w.shesol-mutual-contempt]], 74. To check: *U.S. News & World Report*, Feb. 19, 1962, 49, 51–52 (cited by [[w.shesol-mutual-contempt]], 74). Names: Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 74. To check: *U.S. News & World Report*, Feb. 19, 1962, at 49, 51–52 (cited by [[w.shesol-mutual-contempt]], 74). Names: Robert Kennedy.'
     src:
       c: 93f2426b
       rows:
@@ -1133,7 +1185,7 @@ entries:
     thread: court
     also: [civil-rights-organizations, alabama]
     c: The Supreme Court refuses to move *Sullivan v. New York Times*, as against the four SCLC ministers, to the federal courts. The cars of Shuttlesworth, Abernathy and Lowery sold at a State-ordered auction; Seay's real estate attached; a lien on the land Abernathy inherited.
-    n: '[[w.branch-parting-the-waters]], 579–80. To check: New York Times, Feb. 20, 1962, 13 (cited by [[w.branch-parting-the-waters]], 580 n.1). Check: the day of the order and of the auction. Names: Shuttlesworth, Abernathy.'
+    n: '[[w.branch-parting-the-waters]], 579–80. To check: [*New York Times*, Feb. 20, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/20/issue.html), at 13 (cited by [[w.branch-parting-the-waters]], 580 n.1). Check: the day of the order and of the auction. Names: Shuttlesworth, Abernathy.'
     src:
       c: 0f2a875a
       rows:
@@ -1152,7 +1204,7 @@ entries:
     thread: right-and-the-military
     also: [goldwater]
     c: '*Newsweek* quotes Goldwater on Welch: "I wish he would step out so the fine, responsible people who are members could take charge."'
-    n: '[[w.goldberg-barry-goldwater]], 160; the issue by the note, "Newsmakers," *Newsweek*, Feb. 19, 1962, 57 (160 n.62). See [[cal.1962-01.conservative-movement]]. Names: Goldwater, Welch.'
+    n: '[[w.goldberg-barry-goldwater]], 160; the issue by the note, "Newsmakers," *Newsweek*, Feb. 19, 1962, at 57 (160 n.62). See [[cal.1962-01.conservative-movement]]. Names: Goldwater, Welch.'
     src:
       c: 9a35f73b
       rows:
@@ -1200,6 +1252,12 @@ entries:
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt3/pdf/GPO-CRECB-1962-pt3-3-1.pdf) (1962) (Rosenthal sworn). Votes: CQ Guide 6th (2010) 1269. See [[cal.1961-04-04.states-and-cities]]. Names: Rosenthal, Holtzman, Galvin. Check: the page.'
     tags: [special:1962-02-20-h-NY-6, name:rosenthal-benjamin-s, name:holtzman-lester, name:galvin-thomas-f]
     short: Rosenthal by 264 votes
+    time_range:
+      - 1962-02-21T01:00Z
+      - 1962-02-21T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-02-20.economy-debt-limit
     when: Feb. 20
     date: '1962-02-20'
@@ -1223,7 +1281,7 @@ entries:
       c: f2d82a59
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d304: all'
-        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=154: all'
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=154: ?'
         - 'w.schlesinger-robert-kennedy-and-his 477: all'
         - 'via w.schlesinger-robert-kennedy-and-his 477 n.34: all'
         - 'w.paterson-contesting-castro 259–60 n.35: A'
@@ -1241,7 +1299,7 @@ entries:
     thread: vietnam-congress
     also: [laos]
     c: 'Harriman before Foreign Relations in executive session, on Laos and Vietnam. Morse: "grave doubts as to the constitutionality of the President''s course"; Gore uneasy at Robert Kennedy''s "We are going to win." Fulbright asks after an alternative to Diệm; Harriman: not the American part "to make or break governments." No confidence Hanoi will keep the Laos terms.'
-    n: '[[w.gibbons-u-s-government-and]], II, 110, 113–14; [[w.mann-grand-delusion]], 259–60 (Harriman''s "no combat forces, as such"; Morse; Gore). To check: the Foreign Relations Committee''s executive session transcript, Feb. 20, 1962 (cited by [[w.gibbons-u-s-government-and]], II, 110 n.88, 113 n.99; printed, *Executive Sessions*, XIV, 189–213, cited by [[w.mann-grand-delusion]], 259 n.14). Names: Harriman, Morse, Gore, Robert Kennedy, Fulbright, Ngô Đình Diệm.'
+    n: '[[w.gibbons-u-s-government-and]], II, 110, 113–14; [[w.mann-grand-delusion]], 259–60 (Harriman''s "no combat forces, as such"; Morse; Gore); [[w.selverstone-kennedy-withdrawal]], 58 (Harriman before Foreign Relations in executive session, Feb. 20: no combat troops in Vietnam; Morse and Gore uncomfortable). To check: the Foreign Relations Committee''s executive session transcript, Feb. 20, 1962 (cited by [[w.gibbons-u-s-government-and]], II, 110 n.88, 113 n.99; printed, *Executive Sessions*, XIV, 189–213, cited by [[w.mann-grand-delusion]], 259 n.14). Names: Harriman, Morse, Gore, Robert Kennedy, Fulbright, Ngô Đình Diệm.'
     src:
       c: c1388fea
       rows:
@@ -1250,6 +1308,7 @@ entries:
         - 'via w.gibbons-u-s-government-and II, 113 n.99: all'
         - 'w.mann-grand-delusion 259–60: A-C'
         - 'via w.mann-grand-delusion 259 n.14: A-C'
+        - 'w.selverstone-kennedy-withdrawal 58: A, B'
     tags: [name:harriman-w-averell, name:morse-wayne, name:gore-albert-sr, name:kennedy-robert-f, name:fulbright-j-william, name:ngo-dinh-diem]
     time_range:
       - 1962-02-20T14:00Z
@@ -1275,6 +1334,18 @@ entries:
     time_band: workday daytime
     time_zone: Europe/London
     range_basis: kind
+  - id: cal.1962-02-20.congress
+    when: Feb. 20
+    date: '1962-02-20'
+    time: 1962-02-20T14:00Z
+    thread: congress
+    c: 'The Cabinet Room, 9 a.m. Kennedy, standing, with the Democratic congressional leaders, a silent television showing Glenn''s rocket on the pad: the administration''s bills in committee at the start of the second session.'
+    n: '[[w.reeves-president-kennedy]], 286. See [[cal.1962-02-20.space]]. Names: Kennedy.'
+    src:
+      c: 3988fcbd
+      rows:
+        - 'w.reeves-president-kennedy 286: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1962-02-21.program
     when: Feb. 21
     date: '1962-02-21'
@@ -1362,20 +1433,38 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 150: all'
         - 'via w.fursenko-one-hell-of-a 150 n.9: all'
-    tags: [name:gromyko-andrei, name:malinovsky-rodion-yakovlevich, name:kennedy-john-f]
+    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:kennedy-john-f]
     time_range:
       - 1962-02-21T06:00Z
       - 1962-02-21T14:00Z
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1962-02-21.robert-kennedy
+    when: Feb. 21
+    date: '1962-02-21'
+    thread: robert-kennedy
+    c: 'On the plane from India to Europe, Robert Kennedy to Schlesinger: in Japan and Indonesia America can reach the young and the intellectuals only as a progressive nation. "I kept asking myself what a conservative could possibly say to these people. ... Can you imagine — Barry Goldwater in Indonesia?" By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 573. To check: Schlesinger, journal, Feb. 21, 1962, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 573 n.59). See [[cal.1962-02-06.robert-kennedy]]. Names: Robert Kennedy, Schlesinger, Goldwater.'
+    src:
+      c: 872a1e33
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 573: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 573 n.59: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:goldwater-barry-m]
   - id: cal.1962-02-22.robert-kennedy-trip
     when: Feb. 22–24
     date: '1962-02-22'
     thread: robert-kennedy
     also: [berlin-and-vienna]
     c: Robert Kennedy in Germany. West Berlin, from the steps of the City Hall and at the Free University, Feb. 22; Bonn, Feb. 24.
-    n: '[Berlin City Hall](https://www.justice.gov/ag/rfkspeeches/1962/02-22-1962a.pdf), [Free University of Berlin](https://www.justice.gov/ag/rfkspeeches/1962/02-22-1962b.pdf) (Feb. 22, 1962); ["The New Frontier and the New Europe," Bonn](https://www.justice.gov/ag/rfkspeeches/1962/02-24-1962.pdf) (Feb. 24, 1962). See [[cal.1962-02-06.robert-kennedy]]. Names: Robert Kennedy.'
+    n: '[Berlin City Hall](https://www.justice.gov/ag/rfkspeeches/1962/02-22-1962a.pdf), [Free University of Berlin](https://www.justice.gov/ag/rfkspeeches/1962/02-22-1962b.pdf) (Feb. 22, 1962); ["The New Frontier and the New Europe," Bonn](https://www.justice.gov/ag/rfkspeeches/1962/02-24-1962.pdf) (Feb. 24, 1962). [[w.schlesinger-robert-kennedy-and-his]], 574 (Berlin: the motorcade to the Rathaus; the Ernst Reuter Lecture at the Free University that evening). See [[cal.1962-02-06.robert-kennedy]]. Names: Robert Kennedy.'
+    src:
+      c: 2892276e
+      rows:
+        - 'https://www.justice.gov/ag/rfkspeeches/1962/02-22-1962a.pdf: all'
+        - 'https://www.justice.gov/ag/rfkspeeches/1962/02-24-1962.pdf: all'
+        - 'w.schlesinger-robert-kennedy-and-his 574: A-B'
     tags: [name:kennedy-robert-f]
   - id: cal.1962-02-22.cuba
     when: Feb. 22
@@ -1439,6 +1528,19 @@ entries:
     time_band: workday daytime
     time_zone: Pacific/Honolulu
     range_basis: kind
+  - id: cal.1962-02-22.robert-kennedy
+    when: Feb. 22
+    date: '1962-02-22'
+    thread: robert-kennedy
+    also: [berlin-and-vienna]
+    c: 'West Berlin, Brandt''s dinner, Edward Kennedy''s thirtieth birthday. Brandt toasts "the President, government and people of the United States." Robert Kennedy: "That''s the three of us — the President, that''s my brother; the government, that''s me; and [looking hard at Teddy] you''re the people." Brandt, in his memoirs: it made him "regard the family''s political expansion with disquiet."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 574. To check: Willy Brandt, *Begegnungen und Einsichten* (1976), as reported in the [*New York Times*, Aug. 18, 1976](https://timesmachine.nytimes.com/timesmachine/1976/08/18/issue.html) (cited by [[w.schlesinger-robert-kennedy-and-his]], 574 n.60). See [[cal.1962-02-22.robert-kennedy-trip]]. Names: Brandt, Robert Kennedy, Edward Kennedy.'
+    src:
+      c: de257e2b
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 574: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 574 n.60: C'
+    tags: [name:brandt-willy, name:kennedy-robert-f, name:kennedy-edward-m]
   - id: cal.1962-02-23.opinion
     when: Feb. 23
     date: '1962-02-23'
@@ -1470,7 +1572,7 @@ entries:
     thread: press-and-broadcasting
     also: [transition-and-staff]
     c: '*Time*, "LBJ''s Changed Role": Kennedy "tireless in his efforts to keep Lyndon Johnson busy—and happy. ... going out of his way to please and placate Johnson."'
-    n: '[[w.shesol-mutual-contempt]], 75, 78. To check: *Time*, Feb. 23, 1962, 25 (cited by [[w.shesol-mutual-contempt]], 78). Names: Kennedy, Johnson.'
+    n: '[[w.shesol-mutual-contempt]], 75, 78. To check: *Time*, Feb. 23, 1962, at 25 (cited by [[w.shesol-mutual-contempt]], 78). Names: Kennedy, Johnson.'
     src:
       c: 1076651b
       rows:
@@ -1607,7 +1709,7 @@ entries:
     time: 1962-02-26T23:15Z
     thread: vietnam
     c: Two South Vietnamese pilots bomb Independence Palace. Diệm and Nhu unhurt; Madame Nhu slightly wounded.
-    n: 'FRUS 1961–63, II, docs. [87](https://history.state.gov/historicaldocuments/frus1961-63v02/d87), [88](https://history.state.gov/historicaldocuments/frus1961-63v02/d88); [93](https://history.state.gov/historicaldocuments/frus1961-63v02/d93) (Diệm to Nolting at Gia Long Palace, Mar. 1, on the attack, cited by [[w.schulimson-joint-chiefs-of-staff]], 187 nn.48–49); [96](https://history.state.gov/historicaldocuments/frus1961-63v02/d96) (the Embassy, Mar. 2: the casualties, the two pilots, cited by Schulimson, 187 nn.48–49). [[w.miller-misalliance]], 280 (the attempt on Diệm); [[w.schulimson-joint-chiefs-of-staff]], 186–187; [[w.marolda-united-states-navy-and]], 272 (the bombing); [[w.futrell-united-states-air-force]], 129 (the two pilots divert their AD-6s from a strike in the delta; two flights of AD-6s scrambled; one attacker downed and captured, the other crash-lands at Phnom Penh; a vendetta against Nhu; Diệm grounds the air force, then allows only 20-mm ammunition). Marolda dates it Feb. 26, Washington''s day: the CIA station''s flash, 7:35 a.m. Feb. 27 Saigon time, was received in Washington at 8 p.m. Feb. 26 (doc. 87); [[w.moyar-triumph-forsaken]], 151–52 (7:15 a.m., two AD-6s; one pilot taken, the other to Phnom Penh; the Nhus'' wing struck, a maid killed). Check: Futrell dates it the morning of Feb. 26 (129). See [[cal.1961-01-28.vietnam]]. Names: Ngô Đình Diệm, Ngô Đình Nhu, Trần Lệ Xuân.'
+    n: 'FRUS 1961–63, II, docs. [87](https://history.state.gov/historicaldocuments/frus1961-63v02/d87), [88](https://history.state.gov/historicaldocuments/frus1961-63v02/d88); [93](https://history.state.gov/historicaldocuments/frus1961-63v02/d93) (Diệm to Nolting at Gia Long Palace, Mar. 1, on the attack, cited by [[w.schulimson-joint-chiefs-of-staff]], 187 nn.48–49); [96](https://history.state.gov/historicaldocuments/frus1961-63v02/d96) (the Embassy, Mar. 2: the casualties, the two pilots, cited by Schulimson, 187 nn.48–49). [[w.miller-misalliance]], 280 (the attempt on Diệm); [[w.schulimson-joint-chiefs-of-staff]], 186–187; [[w.marolda-united-states-navy-and]], 272 (the bombing); [[w.futrell-united-states-air-force]], 129 (the two pilots divert their AD-6s from a strike in the delta; two flights of AD-6s scrambled; one attacker downed and captured, the other crash-lands at Phnom Penh; a vendetta against Nhu; Diệm grounds the air force, then allows only 20-mm ammunition); [[w.selverstone-kennedy-withdrawal]], 63–64 (two South Vietnamese air force pilots bomb the Independence Palace, Feb. 27; Diệm survives). Marolda dates it Feb. 26, Washington''s day: the CIA station''s flash, 7:35 a.m. Feb. 27 Saigon time, was received in Washington at 8 p.m. Feb. 26 (doc. 87); [[w.moyar-triumph-forsaken]], 151–52 (7:15 a.m., two AD-6s; one pilot taken, the other to Phnom Penh; the Nhus'' wing struck, a maid killed). Check: Futrell dates it the morning of Feb. 26 (129). See [[cal.1961-01-28.vietnam]]. Names: Ngô Đình Diệm, Ngô Đình Nhu, Trần Lệ Xuân.'
     src:
       c: 7125e96a
       rows:
@@ -1625,6 +1727,7 @@ entries:
         - 'via w.miller-misalliance 280 n.2: A'
         - 'w.moyar-triumph-forsaken 151–52: A-B'
         - 'w.futrell-united-states-air-force 129: ?'
+        - 'w.selverstone-kennedy-withdrawal 63–64: A'
     tags: [name:ngo-dinh-diem, name:ngo-dinh-nhu, name:tran-le-xuan, place:saigon]
   - id: cal.1962-02-27.medicare
     when: Feb. 27
@@ -1646,7 +1749,7 @@ entries:
     thread: transition-and-staff
     also: [crime-and-hijacking, robert-kennedy]
     c: 'Hoover to Robert Kennedy and O''Donnell, the same memorandum: the FBI''s investigation of Rosselli shows him in touch with Judith Campbell, a friend of the President; she keeps up an association with Giancana, "a prominent Chicago underworld figure"; the toll calls from her residence include calls to the White House. Evelyn Lincoln, given a copy, believed she would have shown it to the President.'
-    n: '[S. Rep. No. 94-465, 129 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3): the friend unnamed; the White House telephone logs, 70 contacts with her, from the end of 1960 to mid-1962. [[w.schlesinger-robert-kennedy-and-his]], 494–95 (Hoover''s memorandum, the Giancana tie); [[w.branch-parting-the-waters]], 566–68 (the memorandum''s matter; the copy to O''Donnell, 568); [[w.thomas-robert-kennedy]], 166–67 (Hoover''s two memoranda of Feb. 27, to O''Donnell and to Robert Kennedy). Check: Branch, 566–67, gives the investigation as one of the Las Vegas wiretap on Phyllis McGuire, Maheu''s and Giancana''s, and the memorandum as counting some seventy calls by Campbell to the White House; Rosselli unnamed. To check: [[w.gage-g-man]]. See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975, without her name; her name in the press, Dec. 1975. Check the date. Names: Hoover, Campbell, Giancana, Robert Kennedy, O''Donnell, Lincoln, Rosselli.'
+    n: '[S. Rep. No. 94-465, 129 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3): the friend unnamed; the White House telephone logs, 70 contacts with her, from the end of 1960 to mid-1962. [[w.schlesinger-robert-kennedy-and-his]], 494–95 (Hoover''s memorandum, the Giancana tie); [[w.branch-parting-the-waters]], 566–68 (the memorandum''s matter; the copy to O''Donnell, 568); [[w.thomas-robert-kennedy]], 166–67 (Hoover''s two memoranda of Feb. 27, to O''Donnell and to Robert Kennedy); [[w.reeves-president-kennedy]], 288 (the identical memoranda to Robert Kennedy and O''Donnell: Campbell "a regular companion" of Giancana and Roselli). Check: Branch, 566–67, gives the investigation as one of the Las Vegas wiretap on Phyllis McGuire, Maheu''s and Giancana''s, and the memorandum as counting some seventy calls by Campbell to the White House; Rosselli unnamed. To check: [[w.gage-g-man]]. See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975, without her name; her name in the press, Dec. 1975. Check the date. Names: Hoover, Campbell, Giancana, Robert Kennedy, O''Donnell, Lincoln, Rosselli.'
     src:
       c: 9988d14a
       rows:
@@ -1656,6 +1759,7 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 495 n.97: A-B'
         - 'w.branch-parting-the-waters 566–68: A-C'
         - 'w.thomas-robert-kennedy 166–67: A-C'
+        - 'w.reeves-president-kennedy 288: A, B'
     tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:odonnell-kenneth-p, name:lincoln-evelyn, name:campbell-judith, name:giancana-sam, name:rosselli-john]
     time_range:
       - 1962-02-27T14:00Z
@@ -1917,7 +2021,7 @@ entries:
     thread: civil-rights-the-executive
     also: [alabama-birmingham, press-and-broadcasting]
     c: Burke Marshall to Negro reporters, asked why the FBI was not set on the Birmingham church bombings. The Department does not let the Bureau take the initiative in such cases; he is reviewing the policy, inherited from the Eisenhower administration.
-    n: '[[w.branch-parting-the-waters]], 572. To check: Jet, Mar. 1, 1962, 3f. (cited by [[w.branch-parting-the-waters]], 572 n.1). Check: the day. See [[cal.1962-01-16.alabama-birmingham]]. Names: Burke Marshall.'
+    n: '[[w.branch-parting-the-waters]], 572. To check: *Jet*, Mar. 1, 1962, at 3f. (cited by [[w.branch-parting-the-waters]], 572 n.1). Check: the day. See [[cal.1962-01-16.alabama-birmingham]]. Names: Burke Marshall.'
     src:
       c: bf1712be
       rows:
@@ -1930,7 +2034,7 @@ entries:
     thread: king
     also: [voting-rights, mississippi]
     c: 'King''s "People-to-People" tour, from a rally at the First Baptist Church of Clarksdale, Miss.: three days in the Delta''s Third District, country stores and churches, Jonestown and Sherard among the stops, Walker and Dorothy Cotton with him; some 150 recruited for Septima Clark''s school. Then South Carolina and Georgia.'
-    n: '[[w.branch-parting-the-waters]], 577–78. To check: Aaron Henry to Walker, Feb. 10, 1962, SCLC Papers, box 35; King, "Nonviolence on Tour," Mar. 17, 1962; King, "Pathos and Hope," New York Amsterdam News, Mar. 3, 1962; Jet, Feb. 22, 1962, 4, and Mar. 8, 1962, 14–16 (cited by [[w.branch-parting-the-waters]], 577 n.3). Check: the days; after Feb. 2. See [[cal.1962-02-02.civil-rights-organizations]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 577–78. To check: Aaron Henry to Walker, Feb. 10, 1962, SCLC Papers, box 35; King, "Nonviolence on Tour," Mar. 17, 1962; King, "Pathos and Hope," *New York Amsterdam News*, Mar. 3, 1962; *Jet*, Feb. 22 at 4 and Mar. 8, 1962, at 14–16 (cited by [[w.branch-parting-the-waters]], 577 n.3). Check: the days; after Feb. 2. See [[cal.1962-02-02.civil-rights-organizations]]. Names: Martin Luther King.'
     src:
       c: 31a88d5d
       rows:
@@ -1985,12 +2089,13 @@ entries:
     thread: laos
     also: [foreign-aid]
     c: 'Boun Oum refusing more meetings with the princes, Harriman holds back the money for Phoumi''s troop payroll. The Chiefs ask the MAAG to judge the sanctions; the CIA: operations could go on only 45 days, "the more opportunistic" commanders might go over to the Pathet Lao.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 253. To check: JCSM-110-62, Lemnitzer for SecDef, Feb. 14, 1962, fldr 350.5-680 Laos 1962, box 45, ISA files, Acc 65A-3501 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 253 n.97). Names: Boun Oum na Champassak, Harriman, Phoumi Nosavan.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 253; [[w.moyar-triumph-forsaken]], 162 (Kennedy, at Harriman''s recommendation, cuts aid to the royal Laotian government, and within a few weeks Phoumi agrees to a coalition under Souvanna; dated April; not Boun Oum, the payroll, the Chiefs or the CIA). Check: the month: [[w.moyar-triumph-forsaken]], 162, has Kennedy cut aid to the royal government "In April, at Harriman''s recommendation"; the entry has the money held back in February, by Kaplan; whether one act or two. To check: JCSM-110-62, Lemnitzer for SecDef, Feb. 14, 1962, fldr 350.5-680 Laos 1962, box 45, ISA files, Acc 65A-3501 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 253 n.97). Names: Boun Oum na Champassak, Harriman, Phoumi Nosavan.'
     src:
       c: 677e2b79
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 253: all'
         - 'via x.1962-02-14.jcsm-110-62-lemnitzer-for-secdef-feb: B'
+        - 'w.moyar-triumph-forsaken 162: ?'
     tags: [name:boun-oum-na-champassak, name:harriman-w-averell, name:phoumi-nosavan]
   - id: cal.1962-02.laos-2
     when: Feb.
@@ -2103,7 +2208,7 @@ entries:
     date: 1962-02
     thread: desegregation-schools
     c: Chicago. Willis refusing to release an inventory of the city's classrooms, Woodlawn parents form a "truth squad" to count the empty rooms in nearby white schools; arrested.
-    n: '[[w.ralph-northern-protest]], 17; [[w.anderson-confronting-the-color-line]], 89 (four mothers at the Kellogg branch arrested on the principal''s complaint). To check: Chicago Sun-Times, 6 June 1962 (cited by [[w.anderson-confronting-the-color-line]], 89 n.44). See [[cal.1961-11.desegregation-schools]]. Names: Willis.'
+    n: '[[w.ralph-northern-protest]], 17; [[w.anderson-confronting-the-color-line]], 89 (four mothers at the Kellogg branch arrested on the principal''s complaint). To check: *Chicago Sun-Times*, 6 June 1962 (cited by [[w.anderson-confronting-the-color-line]], 89 n.44). See [[cal.1961-11.desegregation-schools]]. Names: Willis.'
     src:
       c: f9c26354
       rows:
@@ -2116,7 +2221,7 @@ entries:
     date: 1962-02
     thread: desegregation-schools
     c: Chicago. The Chatham–Avalon Park Community Council's conference, "Segregation in the Chicago Public Schools."
-    n: '[[w.ralph-northern-protest]], 17; [[w.cohen-american-pharaoh]], 285; [[w.anderson-confronting-the-color-line]], 89. Check: the day. To check: Chicago Sun-Times, 19 February 1962 (cited by [[w.anderson-confronting-the-color-line]], 89 n.45).'
+    n: '[[w.ralph-northern-protest]], 17; [[w.cohen-american-pharaoh]], 285; [[w.anderson-confronting-the-color-line]], 89. Check: the day. To check: *Chicago Sun-Times*, 19 February 1962 (cited by [[w.anderson-confronting-the-color-line]], 89 n.45).'
     src:
       c: 34047b29
       rows:
@@ -2156,3 +2261,49 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 429: all'
         - 'via w.fursenko-khrushchevs-cold-war 429 n.54: all'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1962-02.robert-kennedy
+    when: Feb.
+    date: 1962-02
+    thread: robert-kennedy
+    c: 'Honolulu, at the start of the trip round the world. Robert and Ethel Kennedy call on Galbraith, the ambassador to India, in hospital; their dinghy has tipped over outside Pearl Harbor. Galbraith: say an enemy destroyer cut them down and Bob saved the crew; "He could then be President." By Galbraith''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 563. Check: the day. To check: [[w.galbraith-ambassadors-journal]], 303 (cited by [[w.schlesinger-robert-kennedy-and-his]], 563 n.12). See [[cal.1962-02-06.robert-kennedy]]. Names: Robert Kennedy, Galbraith.'
+    src:
+      c: d687b9a2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 563: all'
+    tags: [name:kennedy-robert-f, name:galbraith-john-kenneth]
+  - id: cal.1962-02.press-and-broadcasting
+    when: Feb.
+    date: 1962-02
+    thread: press-and-broadcasting
+    also: [elections-1964]
+    c: 'Drew Pearson''s column: the Murphys back from a cruise to Bermuda with their children, a hint of reconciliation.'
+    n: '[[w.smith-on-his-own-terms]], 376. Check: the day. Names: Pearson, Margaretta Rockefeller.'
+    src:
+      c: aab2d180
+      rows:
+        - 'w.smith-on-his-own-terms 376: all'
+    tags: [name:pearson-drew, name:rockefeller-margaretta-fitler]
+  - id: cal.1962-02.robert-kennedy-2
+    when: Feb., Djakarta
+    date: 1962-02
+    thread: robert-kennedy
+    also: [indonesia]
+    c: Djakarta, a state dinner, the Kennedys' tour. After a long display of Indonesian dance, Robert Kennedy announces the Americans will show one of their native dances and has Brandon Grove, the Foreign Service officer escorting him, do the Charleston with Susie Wilson, without music.
+    n: '[[w.thomas-robert-kennedy]], 181 (by Grove''s account). Check: the day. See [[cal.1962-02-14.robert-kennedy-trip]]. Names: Robert Kennedy.'
+    src:
+      c: 96da256b
+      rows:
+        - 'w.thomas-robert-kennedy 181: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1962-02.latin-america-3
+    when: Feb.
+    date: 1962-02
+    thread: latin-america
+    c: 'Kennedy, on reading a State Department official''s statement condemning the expropriation of an ITT subsidiary at Porto Alegre and its harm to private investment and American aid, calls the Assistant Secretary for Inter-American Affairs: "Who is trying to undermine my Alliance?"'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 580 n. (by Lincoln Gordon''s account; "shortly before Goulart''s visit"; the day not given). To check: Lincoln Gordon, interview by the author, Oct. 17, 1974 (cited by [[w.schlesinger-robert-kennedy-and-his]], 580 n.). See [[cal.1961-08-25.latin-america]]. Names: Kennedy. Check: the month; the book has only "shortly before Goulart''s visit" of April 1962.'
+    src:
+      c: 9ce5b42d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 580 n.: all'
+    tags: [name:kennedy-john-f]

@@ -56,9 +56,14 @@ STYLE
     Cities (the populations the UN Demographic Yearbook printed, 1960–68, each cited by page). The thematic layers
     mute the tints. The credits under the map name every source shown; the page's Sources gives them in full.
  8. In the calendar (the owner, Nov. 4, 2026): titled "Southeast Asia 1966" (contents' small capitals, no comma before
-    the year); its caption no second title, the year's count alone. Set immediately above the year's first Southeast
-    Asia table (tools/bib/wartable.py), a day block's anchor (contents.day_mark, the Vietnam thread); in a year without
-    such a table, at the end of the year's first entry placed in the RVN (anchors), as before.
+    the year); its caption no second title, the year's count alone. Set on the year's first Monday (the owner, Nov. 11,
+    2026: "on the first Monday of the first week of the year"): the first Monday in January (in 1963 and 1964 the
+    MMWR week 1 opens in December, so its Monday is the year before: the year's own first Monday is taken), or, where
+    the calendar does not hold that day (Jan. 4, 1960, before the span), the first Monday it holds in the year;
+    after the day's entries, at its day block's place (dayblocks.marker), a day block's anchor (contents.day_mark, the
+    Vietnam thread). Before Nov. 11 it stood above the year's first Southeast Asia table (tools/bib/wartable.py), which
+    put 1961's in Week 49; in a year whose Monday the page lacks, at the end of the year's first entry placed in the RVN
+    (anchors), as before.
 """
 import hashlib
 import json
@@ -469,6 +474,20 @@ def full_figure(series):
             f'<script type="application/json" class="vnm-d">{_data({"y": "all", "ys": ys}, ents)}</script></figure>')
 
 
+def first_mondays(held):
+    """{year: day}: the day each year's map stands on (STYLE 8), 1960–68, from the held days (dayblocks.held_days)."""
+    import datetime
+    out = {}
+    for y in range(1960, 1969):
+        d = datetime.date(y, 1, 1)
+        d += datetime.timedelta(days=(7 - d.weekday()) % 7)      # the year's first Monday
+        while d.year == y and d.isoformat() not in held:
+            d += datetime.timedelta(days=7)
+        if d.year == y:
+            out[str(y)] = d.isoformat()
+    return out
+
+
 def above_tables(series):
     """{year: day}: the day of the year's first Southeast Asia table the calendar shows (STYLE 8)."""
     from . import dayblocks, wartable
@@ -481,10 +500,10 @@ def above_tables(series):
 def inject(page, series):
     from . import dayblocks, wartable
     used = False
-    tables = above_tables(series)
+    tables = first_mondays(dayblocks.held_days(series))
     for y, eid in anchors(series).items():
         d = tables.get(y)
-        if d:                                   # above the year's first Southeast Asia table (STYLE 8)
+        if d:                                   # on the year's first Monday (STYLE 8)
             mark = dayblocks.MARK.format(d)
             if mark in page:
                 page = page.replace(mark, contents.day_mark("vnmap", y, d, wartable.THREADS) + block(series, y) + mark, 1)

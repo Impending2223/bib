@@ -41,6 +41,12 @@ Entries mapped: 28; records logged: 57 (found and read 38, found and not read or
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 87: already cited under cal.1961-06-03.berlin-and-vienna ('Laos the only agreement'); nothing added. Not downloaded.
+- p. 393: already cited under cal.1963-11-01.vietnam-saigon (Lodge and Felt with Diệm) and cal.1963-11-01.vietnam; nothing added. Not downloaded.
+- Where batch 9 stopped: all this work's rows ruled.
+
 Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
 
 | Page | Date | Event | Why |

@@ -118,6 +118,10 @@ Mills, the committee and the administration's dealings with them, by day or mont
 
 ### Passed over
 
+The 'already in' rows read against the calendar, Nov. 10, 2026 (batch 7): each ruled, and moved from this table to the section "Batch 7: the 'already in' rows read against the calendar" below.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows below ruled "below the calendar's level" are ruled again in "Batch 6: the rows below the level re-ruled", at the end.
+
 How the list was made: a script over the text layer of chs. 6–9 (pp. 179–311) listed every mention of a month and day, and of a month and year, 899 in all; the footnotes' (archival dates, the press) were set aside by their words (box, file, papers, interview, the newspapers' names), leaving 144, each with its page, an inferred year and the calendar's entries of that day (±1); each was read in context and judged against the calendar; the footnotes were then read for dated meetings, calls and statements the text gives without a date. Classes passed over without a row: dates outside the span (1969 and after, the 1950s); the footnotes' dates of staff memoranda and estimates (the JCIRT's, the SSA's, Cohen's and Myers's), "below the calendar's level" unless the text gives their matter; the dates of the entries Zelizer is already cited for.
 
 | Page | Date | Event | Why |
@@ -127,7 +131,6 @@ How the list was made: a script over the text layer of chs. 6–9 (pp. 179–311
 | 186 | July 1961 | the Treasury's liberalized depreciation | already in as cal.1962-07-11.economy (the guidelines of July 1962; Zelizer's year is wrong) |
 | 188 | mid-Mar. and Mar. 22, 1962 | Ways and Means reports the Revenue Act of 1962; Kennedy's letter of thanks to Mills | a lead: the act's course in the House (passed Mar. 29) is not in the calendar; the letter, JFK Library, POF, Box 50 |
 | 188 | May, Sept. 1962 | the conference on H.R. 10650 | a lead: the conference's days (Martin's notes, RG 233) |
-| 193 | Jan. 1962 | the standby authority asked | already in as cal.1962-01-11.program |
 | 194–95 | July–Aug. 1962 | the meetings on a temporary cut; the off-the-record meeting of Aug. 6 | already in as cal.1962-08-06.economy, cal.1962-08-13.economy |
 | 198 | Dec. 11–13, 1962 | the *Post*'s "Blow Dealt 1963 Tax Cut Plan," its editorial, "President Still Resolved" | out of the brief (press reports, no act) |
 | 201 | Feb. 25, 1963 | Barr to Desautels on the committee's staff | below the calendar's level (a liaison's memorandum on the hearings) |
@@ -151,12 +154,10 @@ How the list was made: a script over the text layer of chs. 6–9 (pp. 179–311
 | 241–42 | Mar. 2 and 5, 1965 | Cohen to the President; Cohen to O'Brien | below the calendar's level (in cal.1965-03-02.medicare's To check) |
 | 245–47 | Mar. 12–22, 1965 | the committee's executive sessions on costs; Mills on cost control, Mar. 17–18; the draft finished Mar. 22 | already in, in sum, as cal.1965-03-23.medicare |
 | 249 | Mar. 31, 1965 | Mills asks Myers for the actuarial assumptions | below the calendar's level (a request to the committee's actuary) |
-| 250 | Apr. 8, June 1965 | the House passes H.R. 6675; the excise cut | already in as cal.1965-04-08.medicare, cal.1965-06-21.economy |
 | 252 | July 10–21, 1965 | Myers's report; the conference agrees; Cohen to O'Brien | already in, in sum, as cal.1965-07-30.medicare |
 | 256 | Aug. 27, 1968 | Mills to the Chamber of Commerce | a lead: the speech's words not given (Mills Papers, Box 420) |
 | 258 | Jan. 1967 | the 6 percent surcharge proposed | already in as cal.1967-01-10.economy |
 | 262 | Dec. 10, 1968 | Mills to the National Association of Accountants' Central Arkansas Chapter | a lead (the same) |
-| 263 | Sept. 1967 | Mills: choose guns or butter on television | already in as cal.1967-09-13.economy-surcharge |
 | 264 | Oct. 9, 1967 | Mills's interview in *U.S. News*: "He knows my number" | a lead: Zelizer's note gives the interview and Fowler's oral history for the words |
 | 269 | Dec. 4, 1967 | "Chairman Mills—He Wouldn't Budge When LBJ Pushed" | out of the brief (a magazine's piece) |
 | 271 | Feb. 11, 1968 | Mills on ABC's *Issues and Answers* | a lead: the transcript (LBJ Library, WHCF, Box 53), its words not given |
@@ -175,3 +176,35 @@ National:
 - The Ways and Means Republicans' paper of Oct. 1, 1962, "Reasons for a Vote Against: The Medicare Program" (JMIC); their statement against the investment credit, 1961 (JFK Library, POF, Box 107).
 - Mills's speeches whose words Zelizer does not give: Pulaski County Bar, Oct. 30, 1964; Chamber of Commerce, Aug. 27, 1968; National Association of Accountants, Dec. 10, 1968 (Mills Papers); his *Issues and Answers* of Feb. 11, 1968 (transcript, LBJ Library); his *U.S. News* interview of Oct. 9, 1967.
 - Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for July 1962); Dillon's warning (Nov. 24 in the text, Nov. 25 in the note); the conference vote of June 20, 1968 (268–159; Voteview 268–150).
+
+## Batch 6: the rows below the level re-ruled (Nov. 10–11, 2026)
+
+R18 now has "below the level" mean only a unit's routine, and the staff paper is an entry (R8); private talk of public business is the informal record (R7). Patch `inbox/2026-11-06-b6-zelizer-taxing-america.yaml` (5 ops: 3 new entries, claimed in the ledger; a `to-check` and a `src` on `cal.1968-04-23.economy-surcharge`). Witnesses: 14 new rows, `inbox/witnesses/2026-11-06-b6-zelizer-taxing-america.yaml`; 17 edges added to `sources/witnesses/by-work/zelizer-taxing-america.yaml` (201 n.87; 201 n.90a–k, lettered in the note's order, the repeated items g, h, j edges to the same witnesses as c, f, d; 249 n.171; 274 n.84b–e). The copy: the owner's PDF in Drive (1BCvZSJpgN7arSqP6GfJX4JQnQQ944VD3), downloaded again; printed page = PDF page − 20, as above, checked on the image of p. 201 (the notes' numbers read off it); deleted when done.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 200–201 | Feb. 25, 1963 | Barr to Desautels on the committee and its staff | entered, `cal.1963-02-25.economy-2` (n.87) |
+| 201 | May 1963 | Surrey's memoranda: Mills presses for rates of 15 to 65 percent | entered, `cal.1963-05.economy` (n.90; Check: the days) |
+| 241–42 | Mar. 2 and 5, 1965 | Cohen to the President; Cohen to O'Brien | the first in already, `cal.1965-03-02.medicare-2`; the second (n.127) a report of the session of Mar. 2 that gives no matter of its own: still passed over, a repetition, its record in `cal.1965-03-02.medicare`'s To check |
+| 249 | Mar. 31, 1965 | Mills asks Myers for the actuarial assumptions | entered, `cal.1965-03-31.medicare` (n.171) |
+| 274 | Apr. 24–May 3, 1968 | Fowler's, Zwick's and Sanders's memoranda on Mills's terms | in already: Mills's terms are `cal.1968-04-23.economy-surcharge` and `cal.1968-04-24.economy-surcharge`; the page gives the four memoranda's matter together, not one by one, so they join the To check of `cal.1968-04-23.economy-surcharge` with `via` rows (n.84b–e), and an entry each waits on their texts (lead) |
+
+Not borne out: none. Noted: the edge `274 n.84a` (an earlier run) names the *Wall Street Journal* of Apr. 24, which is the sixth item of n.84, not the first; the new letters b–e follow it rather than rename it (R35). The rows ruled "out of the brief (press reports, no act)" (198, 269) and the class passed over without a row ("the footnotes' dates of staff memoranda and estimates") were not ruled again here: the first is R13's question, the second a blanket exclusion (R48) for a later reading.
+
+### Leads (batch 6)
+
+- National: Fowler to Johnson, Apr. 24 and 26, 1968; Zwick to Johnson, Apr. 24, 1968; Sanders to Johnson, May 3, 1968 (LBJ Library; Zelizer, 274 n.84): each memorandum's matter, for an entry each.
+
+## Batch 7: the 'already in' rows read against the calendar (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-10-b7-zelizer.yaml` (12 ops: 3 cites, 2 variants, 2 checks, 2 to-check, 3 src). Witnesses: 2 new rows, `inbox/witnesses/2026-11-10-b7-zelizer.yaml` (Surrey to Heller, Jan. 24, 1962; the Ways and Means hearings on the 1967 tax proposals); 3 edges appended to `sources/witnesses/by-work/zelizer-taxing-america.yaml` (193 n.51a; 263 n.36a, Matusow's card; 263 n.36b). `./bib patch-check`: 0 errors, 0 warnings. The copy: the owner's PDF in Drive (1BCvZSJpgN7arSqP6GfJX4JQnQQ944VD3), downloaded again; printed page = PDF page − 20, as above; pp. 192–94, 249–51, 262–64 read off the text layer, pp. 193, 250 and 263 against the page images (the notes' numbers read off them); deleted when done. The by-work file's earlier letters at 250 n.175 kept as they stand (n.175a is Dale's "Smaller Tax Drag"). Martin, *Shifting the Burden*, which 193 n.51 points to "for an excellent discussion," is not a ground for the unit and has no card: not registered.
+
+| page | row | ruling |
+|---|---|---|
+| 193 | the standby authority asked, Jan. 1962 | cited under `cal.1962-01-11.program` (B: "a failed proposal in January 1962 for presidential authority to reduce tax rates"); its record, Surrey to Heller of Jan. 24, 1962, to check (193 n.51a) |
+| 250 | the House passes H.R. 6675; the excise cut | `cal.1965-04-08.medicare` already cited (249–50); cited under `cal.1965-06-21.economy` (A), with a variant and Check: Zelizer gives $4.8 billion |
+| 263 | Mills: choose guns or butter on television | cited under `cal.1967-09-13.economy-surcharge` (A), with a variant and Check: Zelizer has Mills tell the President himself, the entry Treasury's liaison by Sanders's memorandum; Matusow and the Ways and Means hearings to check (263 n.36) |
+
+Not borne out: none. Not settled: whom Mills told (263), Johnson or Treasury's liaison.
+
+Where this run stopped (batch 7): complete; every row read and ruled, Nov. 11, 2026.

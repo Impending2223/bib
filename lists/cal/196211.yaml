@@ -83,7 +83,7 @@ entries:
     time: 1962-11-02T22:30Z
     thread: missile-crisis
     c: 'Kennedy reports the bases being dismantled. Mikoyan in Havana three weeks: inspection, the IL-28s.'
-    n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s); [[w.fursenko-khrushchevs-cold-war]], 495 (Mikoyan to Havana Nov. 2; the same day Stevenson names the Il-28s); [[w.sorensen-kennedy]], 720 (the bases dismantled, the crates counted at sea; Mikoyan with Castro, a week of argument, ten days ignored). [[w.fursenko-one-hell-of-a]], 290–315 (Mikoyan''s mission). To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
+    n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s); [[w.fursenko-khrushchevs-cold-war]], 495 (Mikoyan to Havana Nov. 2; the same day Stevenson names the Il-28s); [[w.sorensen-kennedy]], 720 (the bases dismantled, the crates counted at sea; Mikoyan with Castro, a week of argument, ten days ignored); [[w.rusk-as-i-saw-it-1990]], 245 (Mikoyan sent to Cuba just after the crisis to pacify Castro; not the inspection or the Il-28s); [[w.schlesinger-robert-kennedy-and-his]], 525 (Castro refused UN verification of the missiles'' removal and refused to yield the IL-28s; Khrushchev sent Mikoyan to Havana, where Castro kept him waiting so long that Stevenson said Donovan might be sent to get him out; not the day, the length of the stay or the talks). [[w.fursenko-one-hell-of-a]], 290–315 (Mikoyan''s mission). Check: Rusk, 245, has Mikoyan stay in Cuba almost two weeks. To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
     src:
       c: 7e49123a
       rows:
@@ -93,7 +93,14 @@ entries:
         - 'w.fursenko-one-hell-of-a 290–315: B'
         - 'w.fursenko-khrushchevs-cold-war 495: B'
         - 'w.sorensen-kennedy 720: A-B'
+        - 'w.rusk-as-i-saw-it-1990 245: ?'
+        - 'w.schlesinger-robert-kennedy-and-his 525: ?'
     tags: [name:kennedy-john-f, name:mikoyan-anastas]
+    variants:
+      - unit: B
+        witness: w.rusk-as-i-saw-it-1990
+        reads: Mikoyan stayed almost two weeks
+        at: '245'
   - id: cal.1962-11-02.middle-east
     when: Nov. 2
     date: '1962-11-02'
@@ -156,7 +163,7 @@ entries:
     thread: china
     also: [cuba]
     c: Peking. The first of four days of marches on the Cuban Embassy, tens of thousands a day by Reuters' count, three hundred thousand by the official one; Zhou Enlai reaffirms support of Cuba.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 496. To check: "Chinese Marchers Back Cuba" (Reuters) and "Chou Reaffirms Support of Cuba," New York Times, Nov. 4, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.12). Names: Zhou Enlai.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 496. To check: "Chinese Marchers Back Cuba" (Reuters) and "Chou Reaffirms Support of Cuba," [*New York Times*, Nov. 4, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/04/issue.html) (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.12). Names: Zhou Enlai.'
     src:
       c: c642f8e9
       rows:
@@ -192,6 +199,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-03.china-2
+    when: Nov. 3
+    date: '1962-11-03'
+    thread: china
+    c: 'Mao Zedong approves Luo Ruiqing''s proposal of a special committee under the Center for the atomic industry: it is to tackle its work "by going all out in coordination."'
+    n: '[[w.jian-zhou-enlai]], 515–16. Made public: Check (2013 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 167 (cited by [[w.jian-zhou-enlai]], 767 n.100). See [[cal.1962-10-30.china]]. Names: Mao Zedong, Luo Ruiqing.'
+    tags: [name:mao-zedong, name:luo-ruiqing, polity:prc]
   - id: cal.1962-11-04.missile-crisis
     when: Nov. 4
     date: '1962-11-04'
@@ -222,6 +236,14 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 384: all'
     tags: [name:rockefeller-nelson, name:morgenthau-robert-m, state:ny]
+  - id: cal.1962-11-04.south-asia
+    when: Nov. 4
+    date: '1962-11-04'
+    thread: south-asia
+    also: [china]
+    c: 'Zhou Enlai to Nehru, by letter, again: a call to reopen talks on the boundary.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("十一月四日，周恩来总理再次写信给尼赫鲁总理，呼吁重开谈判解决中印边界问题"). To check: the letter''s text. See [[cal.1962-10-24.south-asia-3]]. Names: Zhou Enlai, Nehru.'
+    tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-11-05.cuba
     when: Nov. 5
     date: '1962-11-05'
@@ -247,12 +269,18 @@ entries:
     thread: south-asia
     also: [soviet-union, china]
     c: '*Pravda* reverses the Soviet line on the border war, saying nothing of Peking''s claims: "It is necessary to cease fire and sit down at the round table of negotiations without setting any terms." The MiG-21s for India to be delivered after all, and 1.5 million tons of refined petroleum.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 497. To check: Seymour Topping, "Soviet Indicates a Return to Neutrality on India," New York Times, Nov. 6, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 497 n.24).'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 497. To check: Seymour Topping, "Soviet Indicates a Return to Neutrality on India," [*New York Times*, Nov. 6, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/06/issue.html) (cited by [[w.fursenko-khrushchevs-cold-war]], 497 n.24).'
     src:
       c: 036521a4
       rows:
         - 'w.fursenko-khrushchevs-cold-war 497: all'
         - 'via x.2006.kcw-p497-south-asia: all'
+    time_range:
+      - 1962-11-05T02:00Z
+      - 1962-11-05T05:00Z
+    time_band: early morning
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-11-05.missile-crisis
     when: Nov. 5
     date: '1962-11-05'
@@ -265,7 +293,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 311: all'
         - 'via w.fursenko-one-hell-of-a 311 n.94: all'
-    tags: [name:malinovsky-rodion-yakovlevich]
+    tags: [name:malinovsky-rodion-y]
   - id: cal.1962-11-05.governors-ny
     when: Nov. 5
     date: '1962-11-05'
@@ -331,18 +359,45 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-05.press-and-broadcasting
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: press-and-broadcasting
+    also: [soviet-union]
+    c: Joseph Alsop's column in the *Washington Post* exposes Bolshakov's role with Robert Kennedy. The Kremlin, by Schlesinger's account, decides his usefulness in Washington is over and recalls him.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 527 & n.130. Check: the day of the recall; and the column, against Dobrynin''s account of the article by Bartlett and Stewart Alsop: see [[cal.1962-12.robert-kennedy]]. To check: *Washington Post*, Nov. 5, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 527 n.130). Names: Joseph Alsop, Bolshakov, Robert Kennedy.'
+    src:
+      c: bf8bde47
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 527 & n.130: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 527 n.130b: A'
+    tags: [name:alsop-joseph, name:bolshakov-georgi, name:kennedy-robert-f]
+    time_range:
+      - 1962-11-05T10:00Z
+      - 1962-11-05T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
     date: '1962-11-06'
     thread: elections-1962
     c: Midterms. Democrats lose a few House seats, gain in the Senate. Brown beats Nixon. Romney, Scranton, Rockefeller elected governor; Edward Kennedy, McGovern, Bayh to the Senate.
-    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963). [[w.sorensen-kennedy]], 354 (the House and Senate results). See [[cal.1962-05-05.elections-1962]]. Names: Brown, Nixon, Romney, Scranton, Rockefeller, Edward M. Kennedy, McGovern, Bayh.'
+    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963). [[w.sorensen-kennedy]], 354 (the House and Senate results); [[w.young-two-suns-of-the]], 61–62 (Democrats up two in the Senate, down four in the House; Nixon beaten in California; Rockefeller re-elected, Romney and Scranton elected); [[w.reeves-president-kennedy]], 429–32 (Edward Kennedy and Bayh; McGovern not named). See [[cal.1962-05-05.elections-1962]]. Names: Brown, Nixon, Romney, Scranton, Rockefeller, Edward M. Kennedy, McGovern, Bayh.'
     src:
       c: 7eadd919
       rows:
         - 'https://clerk.house.gov/member_info/electionInfo/1962election.pdf: all'
         - 'w.sorensen-kennedy 354: A-B'
+        - 'w.young-two-suns-of-the 61–62: A-D'
+        - 'w.reeves-president-kennedy 429–32: A, B, C, E'
     tags: [election:1962, name:nixon-richard-m, name:scranton-william-w, name:rockefeller-nelson, name:kennedy-edward-m, name:mcgovern-george, name:bayh-birch, name:brown-edmund-g, name:romney-george-w]
+    time_range:
+      - 1962-11-06T23:00Z
+      - 1962-11-07T12:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.governors
     when: Nov. 6
     date: '1962-11-06'
@@ -352,20 +407,34 @@ entries:
     n: '[Wikipedia, "1962 United States gubernatorial elections"](https://en.wikipedia.org/wiki/1962_United_States_gubernatorial_elections); each race''s figures as its article gives them, with the source it cites (the table). To check: [[w.sabato-goodbye-to-good-time]]. See [[cal.1962-11-06.elections-1962]]. Names: Brown, Swainson, DiSalle, Nixon, Rockefeller, Romney, Scranton, Rhodes, Bellmon.'
     tags: [governors:1962-11-06, name:brown-edmund-g, name:nixon-richard-m, name:rockefeller-nelson, name:romney-george-w, name:scranton-william-w, name:rhodes-james-a, name:bellmon-henry, name:swainson-john-b, name:disalle-michael-v]
     short: Romney, Scranton, Rhodes
+    time_range:
+      - 1962-11-06T23:00Z
+      - 1962-11-07T12:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.alabama-al
     when: Nov. 6
     date: '1962-11-06'
     thread: alabama
     also: [elections-1962]
     c: 'Alabama. Hill (D) re-elected to the Senate over James D. Martin (R) of Gadsden, 201,937 to 195,134, 50.9 percent. Wallace elected governor without a Republican opponent. A constitutional amendment adopted, 138,211 to 32,212, 81.1 percent: a voter who moves within his county in the three months before an election may vote where he moved from.'
-    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963), 2. The amendment: *Alabama Official and Statistical Register, 1963* (Ala. Dept. of Archives and History), [783](https://archive.org/details/alabama-official-statistical-register-1963/page/n782) (Act No. 641, 1961). [[w.goldberg-barry-goldwater]], 166 (Martin, a "Goldwaterite," 49 percent, within 6,800 votes). To check: [[w.bartley-southern-politics-and-the]]; [[w.bass-transformation-of-southern-politics-1976]]; [[w.peirce-deep-south-states-of]]. See [[cal.1962-11-06.elections-1962]]. Names: Hill, Martin, Wallace.'
+    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963), 2. The amendment: *Alabama Official and Statistical Register, 1963* (Ala. Dept. of Archives and History), [783](https://archive.org/details/alabama-official-statistical-register-1963/page/n782) (Act No. 641, 1961). [[w.goldberg-barry-goldwater]], 166 (Martin, a "Goldwaterite," 49 percent, within 6,800 votes); [[w.young-two-suns-of-the]], 61–62 (Martin within 6,800 votes of Hill). To check: [[w.bartley-southern-politics-and-the]]; [[w.bass-transformation-of-southern-politics-1976]]; [[w.peirce-deep-south-states-of]]. See [[cal.1962-11-06.elections-1962]]. Names: Hill, Martin, Wallace.'
     src:
       c: a5bd877d
       rows:
         - 'https://clerk.house.gov/member_info/electionInfo/1962election.pdf: all'
         - 'https://archive.org/details/alabama-official-statistical-register-1963/page/n782: all'
         - 'w.goldberg-barry-goldwater 166: A'
+        - 'w.young-two-suns-of-the 61–62: B'
     tags: [state:al, name:hill-lister, name:martin-james-d, name:wallace-george-c]
+    time_range:
+      - 1962-11-07T00:30Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35) (1967).'
   - id: cal.1962-11-06.alabama-birmingham
     when: Nov. 6
     date: '1962-11-06'
@@ -381,6 +450,13 @@ entries:
         - 'w.branch-parting-the-waters 674: A'
     tags: [state:al, city:birmingham, name:connor-eugene]
     short: Birmingham's mayor and council
+    time_range:
+      - 1962-11-07T00:30Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35) (1967).'
   - id: cal.1962-11-06.governors-ny
     when: Nov. 6
     date: '1962-11-06'
@@ -398,6 +474,13 @@ entries:
         - 'w.novak-agony-of-the-g 84 & n.2: A-B, D'
         - 'w.white-making-of-the-president-1965 77: B-C'
     tags: [state:ny, name:rockefeller-nelson, name:morgenthau-robert-m, name:jaquith-david-h, name:javits-jacob-k, name:donovan-james-b, name:odoherty-kieran]
+    time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 7 p.m. EST: Kingston Daily Freeman, Nov. 5, 1962, [1](https://archive.org/details/kingston-daily-freeman-1962-11-05/page/n0/mode/1up).'
   - id: cal.1962-11-06.georgia-ga
     when: Nov. 6
     date: '1962-11-06'
@@ -407,6 +490,12 @@ entries:
     n: '[Wikipedia, "1962 Georgia State Senate election"](https://en.wikipedia.org/wiki/1962_Georgia_State_Senate_election), from the *Atlanta Constitution*, Nov. 8, 1962, and the *Atlanta Journal*, Nov. 10, 1962. To check: [[w.carter-turning-point]]; [[w.tuck-beyond-atlanta]]; [[w.bartley-creation-of-modern-georgia]]. See [[cal.1962-09-27.georgia-ga]]. Names: Leroy Johnson, Carter.'
     tags: [name:johnson-leroy-r, name:carter-jimmy, state:ga, city:atlanta]
     short: Leroy Johnson to the Senate
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.south-carolina-sc
     when: Nov. 6
     date: '1962-11-06'
@@ -416,6 +505,13 @@ entries:
     n: '[Clerk, *Statistics of the Presidential and Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf). To check: [[w.kalk-origins-of-the-southern]]; [[w.black-rise-of-southern-republicans]]. See [[cal.1962-06-12.south-carolina-sc]]; [[cal.1962-11-06.governors]]. Names: Johnston, Workman, Russell.'
     tags: [name:johnston-olin-d, name:workman-william-d-jr, name:russell-donald-s, state:sc]
     short: Johnston over Workman
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72) (1967).'
   - id: cal.1962-11-06.state-constitutions-il
     when: Nov. 6
     date: '1962-11-06'
@@ -425,6 +521,13 @@ entries:
     n: 'Votes: [Ill. *Official Vote*, 1962, p. 24](https://archive.org/details/officialvoteofst1962illi/page/n25). Check the article''s text and its effective date: Illinois Constitution of 1870, art. VI (1962). To check: [[w.peirce-megastates-of-america]].'
     tags: [state:il]
     short: Illinois's Judicial Article
+    time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50) (1967).'
   - id: cal.1962-11-06.governors-mi
     when: Nov. 6
     date: '1962-11-06'
@@ -438,6 +541,13 @@ entries:
         - 'https://en.wikipedia.org/wiki/1962_Michigan_gubernatorial_election: all'
         - 'w.novak-agony-of-the-g 93: A-B'
     tags: [state:mi, name:romney-george-w, name:swainson-john-b]
+    time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Menominee
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56) (1967).'
   - id: cal.1962-11-06.governors-oh
     when: Nov. 6
     date: '1962-11-06'
@@ -446,15 +556,29 @@ entries:
     c: Ohio. Rhodes (R) over Governor DiSalle (D), 1,836,432 to 1,280,521, 58.9 percent. DiSalle had raised taxes and opposed the death penalty, commuting death sentences.
     n: 'Votes: [Wikipedia, "1962 Ohio gubernatorial election"](https://en.wikipedia.org/wiki/1962_Ohio_gubernatorial_election), from the Secretary of State''s official results (Check: [*Ohio Election Statistics*, 1961–1962](https://catalog.hathitrust.org/Record/000546832)). To check: [[w.diemer-james-a-rhodes-ohio]]; [[w.disalle-power-of-life-or]]; [[w.peirce-megastates-of-america]]. See [[cal.1962-05-08.governors-oh]]; [[cal.1962-11-06.elections-1962]]. Names: Rhodes, DiSalle.'
     tags: [state:oh, name:rhodes-james-a, name:disalle-michael-v]
+    time_range:
+      - 1962-11-06T23:30Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19) (1967).'
   - id: cal.1962-11-06.mayors-cleveland
     when: Nov. 6
     date: '1962-11-06'
     thread: mayors
     also: [elections-1962]
     c: Cleveland. Locher elected for the rest of Celebrezze's term, some three to one.
-    n: '*Plain Dealer*, Nov. 7, 1962, pp. A1, A12 (Check the figures). See [[cal.1962-10-02.mayors-cleveland]]. Names: Locher, Celebrezze.'
+    n: '*Plain Dealer*, Nov. 7, 1962, at A1, A12 (Check the figures). See [[cal.1962-10-02.mayors-cleveland]]. Names: Locher, Celebrezze.'
     tags: [state:oh, city:cleveland, name:locher-ralph-s, name:celebrezze-anthony-j]
     short: Locher after Celebrezze
+    time_range:
+      - 1962-11-06T23:30Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19) (1967).'
   - id: cal.1962-11-06.governors-tx
     when: Nov. 6
     date: '1962-11-06'
@@ -463,6 +587,12 @@ entries:
     c: Texas. Connally (D) elected governor over Jack Cox (R), 847,035 to 714,995, 54.2 percent of the two. No Republican for governor had polled so large a share since 1869.
     n: 'Votes: the joint session''s canvass, [*House Journal*, 58th Leg., Reg. Sess. 49 (1963)](https://lrl.texas.gov/scanned/Housejournals/58/H_58_0.pdf). The comparison: [Wikipedia, "1962 Texas gubernatorial election"](https://en.wikipedia.org/wiki/1962_Texas_gubernatorial_election). To check: [[w.knaggs-two-party-texas]]; [[w.black-rise-of-southern-republicans]]; [[w.cunningham-cowboy-conservatism]]. See [[cal.1962-06-02.governors-tx]]; [[cal.1962-11-06.governors]]. Names: Connally, Cox.'
     tags: [state:tx, name:connally-john, name:cox-jack]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.state-constitutions-tx
     when: Nov. 6
     date: '1962-11-06'
@@ -471,6 +601,12 @@ entries:
     c: 'Texas votes on fourteen amendments; ten adopted. The ceiling on State funds for the needy aged, blind and children raised from $47 million to $52 million, 677,770 to 430,494, 61.2 percent; aid to the disabled limited to $2.5 million a year. Hospital districts; workmen''s compensation for employees of political subdivisions, 543,868 to 540,475, 50.2 percent; continuity of government after enemy attack; water storage; zoning in the Gulf counties; Dallas County school taxes kept through boundary changes. Refused: trials de novo on appeals from agencies; county retirement; State employees on advisory boards; a Titus County home for the aged.'
     n: '[Tex. Legis. Ref. Library, Constitutional amendments, election of Nov. 6, 1962](https://lrl.texas.gov/legis/ConstAmends/results.cfm?electionDate=1962-11-06). To check: [[w.may-texas-state-constitution]]. See [[cal.1960-11-08.state-constitutions-tx]].'
     tags: [state:tx]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.governors-ok
     when: Nov. 6
     date: '1962-11-06'
@@ -485,6 +621,13 @@ entries:
         - 'w.peirce-great-plains-states-of 258: B'
     tags: [state:ok, name:bellmon-henry, name:atkinson-w-p-bill]
     short: Bellmon, Oklahoma's first Republican
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67) (1967).'
   - id: cal.1962-11-06.state-constitutions-ok
     when: Nov. 6
     date: '1962-11-06'
@@ -493,6 +636,13 @@ entries:
     c: 'Oklahoma. An initiative to enforce the constitution''s apportionment formulas by a commission of the Attorney General, Secretary of State and Treasurer, 335,045 to 273,287, 55.1 percent: short of the 362,488, a majority of all votes cast, needed. Governor Edmondson proclaims it adopted; the State Supreme Court holds it failed. An amendment on liquor wholesalers'' prices, 319,809 to 307,861, 51.0 percent, also short.'
     n: '[Okla. State Election Bd., *Election Results, 1958–1966*, p. 38](https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=38); *Allen v. Burkhart*, [377 P.2d 821](https://static.case.law/p2d/377/case-pdfs/0821-01.pdf) (Okla. 1963); *Moss v. Burkhart*, [220 F. Supp. 149](https://static.case.law/f-supp/220/case-pdfs/0149-01.pdf) (W.D. Okla. 1963), recites both. To check: [[w.dixon-democratic-representation]]. See [[cal.1962-06-19.legislatures-ok]]. Names: Edmondson.'
     tags: [state:ok, name:edmondson-james-h]
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67) (1967).'
   - id: cal.1962-11-06.state-constitutions-wa
     when: Nov. 6
     date: '1962-11-06'
@@ -502,6 +652,12 @@ entries:
     n: '[Wash. Legislature, Oral History Program, "Redistricting: 1962"](https://app.leg.wa.gov/oralhistory/redistricting2/1960s/1962/); [the voters'' pamphlet](https://www.sos.wa.gov/_assets/elections/voters''%20pamphlet%201962.pdf). Votes: Wash. Secretary of State, [Election Results Archive](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive) ("1962 General", Initiative Measure 211), and [Wikipedia, "List of Washington (state) ballot measures"](https://en.wikipedia.org/wiki/List_of_Washington_(state)_ballot_measures), alike; Check: Wash. *Abstract of Votes*, Nov. 6, 1962. To check: [[w.politics-of-reapportionment]]; [[w.dixon-democratic-representation]]. See [[cal.1962-03-26.court]].'
     tags: [state:wa]
     short: the apportionment initiatives in Washington, Oregon and Colorado
+    time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+    time_band: election night
+    time_zone: America/Los_Angeles
+    range_basis: kind
   - id: cal.1962-11-06.state-constitutions-or
     when: Nov. 6
     date: '1962-11-06'
@@ -510,6 +666,13 @@ entries:
     c: Oregon. Measure 8, an initiated amendment of the constitution on the apportionment of the legislature, refused, 197,322 to 325,182, 37.8 percent.
     n: 'Votes: [Wikipedia, "List of Oregon ballot measures"](https://en.wikipedia.org/wiki/List_of_Oregon_ballot_measures); Check: [Or. *Official Abstract of Votes, General Election, November 6, 1962*](https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411022/File/document). To check: [[w.politics-of-reapportionment]]. See [[cal.1962-03-26.court]].'
     tags: [state:or]
+    time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+    time_band: election night
+    time_zone: America/Los_Angeles
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68) (1967).'
   - id: cal.1962-11-06.governors-wy
     when: Nov. 6
     date: '1962-11-06'
@@ -523,6 +686,13 @@ entries:
         - 'https://en.wikipedia.org/wiki/1962_Wyoming_gubernatorial_election: all'
         - 'w.peirce-mountain-states-of-america 81: B'
     tags: [state:wy, name:hansen-clifford-p, name:gage-jack-r]
+    time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
+    polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [16 (Table A), 75](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=79) (1967).'
   - id: cal.1962-11-06.governors-co
     when: Nov. 6
     date: '1962-11-06'
@@ -536,6 +706,12 @@ entries:
         - 'https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=14: all'
         - 'w.peirce-mountain-states-of-america 58: B'
     tags: [state:co, name:love-john-a, name:mcnichols-stephen-l-r]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.state-constitutions-co
     when: Nov. 6
     date: '1962-11-06'
@@ -551,6 +727,12 @@ entries:
         - 'https://static.case.law/f-supp/219/case-pdfs/0922-01.pdf#page=10: C, D'
         - 'w.peirce-mountain-states-of-america 62: B, C'
     tags: [state:co]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.governors-nm
     when: Nov. 6
     date: '1962-11-06'
@@ -559,6 +741,12 @@ entries:
     c: New Mexico. Campbell (D) governor over Mechem (R), 130,933 to 116,174, 53.0 percent.
     n: 'Votes: [Wikipedia, "1962 New Mexico gubernatorial election"](https://en.wikipedia.org/wiki/1962_New_Mexico_gubernatorial_election); Check: N.M., *Canvass of Returns of General Election Held November 6, 1962*. To check: [[w.peirce-mountain-states-of-america]]. See [[cal.1962-05.governors-nm]]. Names: Campbell, Mechem.'
     tags: [state:nm, name:campbell-jack-m, name:mechem-edwin-l]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.governors-hi
     when: Nov. 6
     date: '1962-11-06'
@@ -567,6 +755,13 @@ entries:
     c: Hawaii. Burns (D) governor over Quinn (R), the first governor of the State, 114,308 to 81,707, 58.3 percent.
     n: '[Haw. *Result of Votes Cast, General Election*, Nov. 6, 1962, recapitulation](https://archive.org/download/HI-hist/1962_General.pdf#page=35). To check: [[w.boylan-john-a-burns]]; [[w.coffman-island-edge-of-america]]. See [[cal.1962-10-06.governors-hi]]. Names: Burns, Quinn.'
     tags: [state:hi, name:burns-john-a, name:quinn-william-f]
+    time_range:
+      - 1962-11-07T03:30Z
+      - 1962-11-07T12:00Z
+    time_band: election night
+    time_zone: Pacific/Honolulu
+    range_basis: kind
+    polls_close: 'Polls close 5:30 p.m. HST: *Projections—Predictions* Hearings, [14 (Table A), 45](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=49) (1967).'
   - id: cal.1962-11-06.governors-pa
     when: Nov. 6
     date: '1962-11-06'
@@ -580,6 +775,13 @@ entries:
         - 'https://en.wikipedia.org/wiki/1962_Pennsylvania_gubernatorial_election: all'
         - 'w.novak-agony-of-the-g 98: A-B'
     tags: [state:pa, name:scranton-william-w, name:dilworth-richardson, name:shafer-raymond-p]
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69) (1967).'
   - id: cal.1962-11-06.state-constitutions-md
     when: Nov. 6
     date: '1962-11-06'
@@ -588,6 +790,13 @@ entries:
     c: 'Maryland. Amendments: legislators'' pay from $1,800 to $3,000 rejected, 124,323 to 212,608, 36.9 percent; more signers needed to refer an act to the voters, 193,840 to 124,600, 60.9 percent; a decree for an illegitimate child''s support enforceable by imprisonment, 280,651 to 59,329, 82.5 percent; quick-taking of land in Baltimore City and Montgomery County. Referenda: the act of 1961 redrawing the congressional districts for an eighth seat rejected, 115,557 to 211,904, 35.3 percent, the eighth elected at large; the unemployment insurance act of 1961 approved, 242,895 to 185,010, 56.8 percent.'
     n: '*Maryland Manual*, 1963–64, [pp. 459–63](https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000171/html/am171--459.html), [238](https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000171/html/am171--238.html), [244](https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000171/html/am171--244.html). To check: [[w.callcott-maryland-and-america-1940]]. See [[cal.1960-11-08.state-constitutions-md]].'
     tags: [state:md, city:baltimore]
+    time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55) (1967).'
   - id: cal.1962-11-06.governors-ca
     when: Nov. 6
     date: '1962-11-06'
@@ -602,6 +811,13 @@ entries:
         - 'w.novak-agony-of-the-g 86–87: A-B'
     tags: [state:ca, name:brown-edmund-g, name:nixon-richard-m]
     short: Brown over Nixon
+    time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+    time_band: election night
+    time_zone: America/Los_Angeles
+    range_basis: kind
+    polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41) (1967).'
   - id: cal.1962-11-06.legislatures-ca
     when: Nov. 6
     date: '1962-11-06'
@@ -610,6 +826,13 @@ entries:
     c: California. Proposition 23, an initiative constitutional amendment to reapportion the State Senate, fails, 2,181,758 to 2,495,440, 46.6 percent.
     n: 'Votes: [Cal. *Statement of Vote*, Nov. 6, 1962, p. 33](https://archive.org/details/castatem196264cali/page/n40). Measure: [UC Law SF, California Ballot Propositions, 1962](https://repository.uclawsf.edu/ca_ballot_props/654/). To check: [[w.dixon-democratic-representation]]. See [[cal.1960-11-08.legislatures-ca]].'
     tags: [state:ca]
+    time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+    time_band: election night
+    time_zone: America/Los_Angeles
+    range_basis: kind
+    polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41) (1967).'
   - id: cal.1962-11-06.antisubversion-ca
     when: Nov. 6
     date: '1962-11-06'
@@ -619,6 +842,13 @@ entries:
     n: 'Votes: [Cal. *Statement of Vote*, Nov. 6, 1962, p. 34](https://archive.org/details/castatem196264cali/page/n41). Measure: [UC Law SF, California Ballot Propositions, 1962](https://repository.uclawsf.edu/ca_ballot_props/655/). To check: [[w.heale-mccarthys-americans]]; [[w.schuparra-triumph-of-the-right]].'
     tags: [state:ca]
     short: Proposition 24 refused
+    time_range:
+      - 1962-11-07T04:00Z
+      - 1962-11-07T10:00Z
+    time_band: election night
+    time_zone: America/Los_Angeles
+    range_basis: kind
+    polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41) (1967).'
   - id: cal.1962-11-06.governors-mn
     when: Nov. 6
     date: '1962-11-06'
@@ -628,6 +858,13 @@ entries:
     n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface and the statement on the ten counties. Iric Nathanson, ["Gubernatorial Election Recount, 1962"](https://www.mnopedia.org/event/gubernatorial-election-recount-1962), *MNopedia*. To check: [[w.stinnett-recount]]; [[w.andersen-mans-reach]]. See [[cal.1962-11-06.governors]]. Names: Rolvaag, Andersen.'
     tags: [state:mn, name:rolvaag-karl-f, name:andersen-elmer-l]
     short: Minnesota to a recount
+    time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56) (1967).'
   - id: cal.1962-11-06.middle-east-yemen
     when: Nov. 6
     date: '1962-11-06'
@@ -648,6 +885,13 @@ entries:
         - 'https://sos.iowa.gov/elections/pdf/results/60s/1962gencanv.pdf: all'
         - 'w.peirce-great-plains-states-of 94–95: all'
     tags: [state:ia, name:hughes-harold-e, name:erbe-norman-a]
+    time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 48](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52) (1967).'
   - id: cal.1962-11-06.state-constitutions-mo
     when: Nov. 6
     date: '1962-11-06'
@@ -656,6 +900,12 @@ entries:
     c: Missouri refuses all four amendments. No. 4, by initiative, the Borough Plan, uniting St. Louis city, St. Louis County and its municipalities and districts, schools excepted, under one new government, 217,744 to 633,011, 25.6 percent; the city 55,160 to 67,321, 45.0 percent, the county 47,432 to 180,661, 20.8 percent. No. 1, school taxes in St. Louis and the charter counties, 292,318 to 527,611, 35.7 percent; No. 2, legislative review of regulations, 255,981 to 510,471, 33.4 percent; No. 3, charter county powers, 279,290 to 503,208, 35.7 percent. A constitutional convention, the question put every twenty years, refused, 295,972 to 519,499, 36.3 percent.
     n: '[*Official Manual, State of Missouri, 1963–1964*, 1177–1179](https://mdh.contentdm.oclc.org/digital/collection/bluebook/id/36497). Tucker opposed the Borough Plan: City of St. Louis, ["Raymond R. Tucker"](https://www.stlouis-mo.gov/government/about/history/mayors/mayor.cfm?id=987). To check: [[w.gordon-mapping-decline]]. See [[cal.1960-11-08.state-constitutions-mo]].'
     tags: [state:mo, city:st-louis]
+    time_range:
+      - 1962-11-07T02:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1962-11-06.governors-ne
     when: Nov. 6
     date: '1962-11-06'
@@ -664,6 +914,12 @@ entries:
     c: Nebraska. Governor Morrison (D) re-elected over Seaton (R), 242,669 to 221,885, 52.2 percent.
     n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1962*](https://govdocs.nebraska.gov/epubs/S1200/S001-1962prim_gen.pdf). See [[cal.1962-05-15.governors-ne]]; [[cal.1962-11-06.governors]]. Names: Morrison, Seaton.'
     tags: [state:ne, name:morrison-frank-b, name:seaton-fred-a]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.state-constitutions-ne
     when: Nov. 6
     date: '1962-11-06'
@@ -672,6 +928,12 @@ entries:
     c: Nebraska adopts amendments from the 1961 legislature. No. 7, reapportionment of legislative districts, 218,019 to 175,313, 55.4 percent. No. 4, four-year terms for governor and lieutenant governor, 198,601 to 195,177, 50.4 percent. No. 6, appointment of the judges of the supreme and district courts, 220,181 to 150,212, 59.4 percent. No. 5, four-year terms for legislators, 214,651 to 163,618, 56.7 percent.
     n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1962*](https://govdocs.nebraska.gov/epubs/S1200/S001-1962prim_gen.pdf), p. 15. To check: [[w.peirce-great-plains-states-of]].'
     tags: [state:ne]
+    time_range:
+      - 1962-11-07T03:00Z
+      - 1962-11-07T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-11-06.legislatures-us
     when: Nov. 6
     date: '1962-11-06'
@@ -681,6 +943,12 @@ entries:
     n: '[[w.klarner-state-partisan-balance-data]]: the sessions of 1962 and 1963 (Check against the *Book of the States*, 1962–63 and 1964–65). To check: [[w.baker-reapportionment-revolution]]. See [[cal.1962-11-06.elections-1962]]; [[cal.1962-12-13.legislatures-us]].'
     tags: [legislatures:1963, state:pa, state:mn, state:co, state:md, state:fl, state:in, state:ak, state:hi, state:ut]
     short: the Republicans' gains
+    time_range:
+      - 1962-11-06T23:00Z
+      - 1962-11-07T12:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.governors-ma
     when: Nov. 6
     date: '1962-11-06'
@@ -689,6 +957,13 @@ entries:
     c: Massachusetts. Peabody (D) over Volpe (R), 1,053,322 to 1,047,891, 49.9 percent, a 5,431-vote margin. A recount; Volpe concedes Dec. 20 (Check).
     n: '[Mass. *Election Statistics*, 1962 (P.D. 43), p. 9](https://archive.org/details/electionstatisti19611963mass/page/n86). [Wikipedia, "1962 Massachusetts gubernatorial election"](https://en.wikipedia.org/wiki/1962_Massachusetts_gubernatorial_election). See [[cal.1962-09-18.governors-ma]]; [[cal.1962-11-06.governors]]. Names: Peabody, Volpe.'
     tags: [state:ma, name:peabody-endicott, name:volpe-john-a]
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56) (1967).'
   - id: cal.1962-11-06.states-and-cities-ma
     when: Nov. 6
     date: '1962-11-06'
@@ -698,6 +973,13 @@ entries:
     n: '[Mass. *Election Statistics*, 1962 (P.D. 43), p. 9](https://archive.org/details/electionstatisti19611963mass/page/n86). See [[cal.1962-09-18.states-and-cities-ma]]. Names: Brooke, Kelly.'
     tags: [state:ma, name:brooke-edward-w, name:kelly-francis-e]
     short: Brooke attorney general
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56) (1967).'
   - id: cal.1962-11-06.governors-ri
     when: Nov. 6
     date: '1962-11-06'
@@ -706,6 +988,12 @@ entries:
     c: Rhode Island. Chafee (R) over Notte (D), the governor, 163,952 to 163,554, 50.1 percent, a 398-vote margin in the Board's final count.
     n: '[R.I. Board of Elections, *Official Count*, 1962, pp. 35, 270](https://elections.ri.gov/sites/g/files/xkgbur756/files/publications/Election_Publications/Countbooks/1962-Count-Book.pdf#page=270). To check: [[w.moakley-rhode-island-politics-and]]. See [[cal.1962-09-11.governors-ri]]; [[cal.1962-11-06.governors]]. Names: Chafee, Notte.'
     tags: [state:ri, name:chafee-john-h, name:notte-john-a-jr]
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.governors-nh
     when: Nov. 6
     date: '1962-11-06'
@@ -714,6 +1002,12 @@ entries:
     c: 'New Hampshire. King (D) over Pillsbury (R), 135,481 to 94,567, 58.9 percent: the first Democrat elected governor since 1922. McIntyre (D) takes Bridges''s Senate seat.'
     n: '[N.H. *Manual for the General Court*, no. 38 (1963), p. 406](https://archive.org/details/manualforgeneral38newh/page/n437). See [[cal.1962-09-11.governors-nh]]; [[cal.1961-11-26.states-and-cities-nh]]; [[cal.1962-11-06.governors]]. Names: King, Pillsbury, McIntyre, Bridges.'
     tags: [state:nh, name:king-john-w, name:pillsbury-john, name:mcintyre-thomas-j, name:bridges-henry-s]
+    time_range:
+      - 1962-11-07T01:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-11-06.governors-vt
     when: Nov. 6
     date: '1962-11-06'
@@ -723,6 +1017,13 @@ entries:
     n: '[Vt. Secretary of State, "Governor, 1789–" (stoff1gov.pdf)](https://web.archive.org/web/20141130162743/https://www.sec.state.vt.us/media/308153/stoff1gov.pdf); [Wikipedia, "1962 Vermont gubernatorial election"](https://en.wikipedia.org/wiki/1962_Vermont_gubernatorial_election). Check against the *Legislative Directory*, 1963. To check: [[w.hand-democrat-who-took-vermont]]; [[w.hand-star-that-set]]; [[w.peirce-new-england-states]]. See [[cal.1960-09-13.governors-vt]]; [[cal.1962-11-06.governors]]. Names: Hoff, Keyser.'
     tags: [state:vt, name:hoff-philip-h, name:keyser-f-ray-jr]
     short: Hoff and King in New England
+    time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 3–7 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 72](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76) (1967).'
   - id: cal.1962-11-06.governors-me
     when: Nov. 6
     date: '1962-11-06'
@@ -731,6 +1032,13 @@ entries:
     c: Maine. Reed (R), the governor, over Dolloff (D), 146,604 to 146,121, 50.1 percent, a 483-vote margin.
     n: '[Maine, "1962 General Election: Governor"](https://digitalmaine.com/tabulations_for_elections_1960s/22). [Wikipedia, "1962 Maine gubernatorial election"](https://en.wikipedia.org/wiki/1962_Maine_gubernatorial_election). To check: [[w.palmer-maine-politics-and-government]]. See [[cal.1962-06-18.governors-me]]; [[cal.1962-11-06.governors]]. Names: Reed, Dolloff.'
     tags: [state:me, name:reed-john-h, name:dolloff-maynard-c]
+    time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
+    polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A)](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18) (1967).'
   - id: cal.1962-11-06.africa
     when: Nov. 6
     date: '1962-11-06'
@@ -767,13 +1075,19 @@ entries:
     thread: china
     also: [cuba]
     c: 'The *People''s Daily* likens Khrushchev''s course to Munich: "The attempt to play the Munich scheme against the Cuban people who have already stood on their own feet is doomed to complete failure."'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 496. Check: the day; the *Washington Post* reports it Nov. 6. To check: John Roderick, "Chinese Liken Soviet Action on Cuba to Munich Appeasement," Washington Post, Nov. 6, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.13). Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 496. Check: the day; the *Washington Post* reports it Nov. 6. To check: John Roderick, "Chinese Liken Soviet Action on Cuba to Munich Appeasement," *Washington Post*, Nov. 6, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.13). Names: Khrushchev.'
     src:
       c: fe665842
       rows:
         - 'w.fursenko-khrushchevs-cold-war 496: all'
         - 'via x.2006.kcw-p496-china: all'
     tags: [name:khrushchev-nikita-s]
+    time_range:
+      - 1962-11-05T21:00Z
+      - 1962-11-06T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+    range_basis: kind
   - id: cal.1962-11-06.missile-crisis-2
     when: Nov. 6
     date: '1962-11-06'
@@ -814,6 +1128,24 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 291: all'
     tags: [state:il, name:dirksen-everett, name:yates-sidney-r, name:daley-richard-j]
+    time_range:
+      - 1962-11-07T00:00Z
+      - 1962-11-07T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50) (1967).'
+  - id: cal.1962-11-06.europe-and-the-alliance
+    when: Nov. 6
+    date: '1962-11-06'
+    thread: europe-and-the-alliance
+    c: 'Election night, Schlesinger''s house. William R. Hawthorne of Cambridge, a close associate of Zuckerman''s, takes Schlesinger aside on Skybolt: deep concern over difficulties between the two countries; the importance of the United States taking the initiative in devising a substitute.'
+    n: '[[w.schlesinger-thousand-days-1965]], 858–59 (Schlesinger''s account). The decision: [[cal.1962-11-07.europe-and-the-alliance]]. Names: Schlesinger.'
+    src:
+      c: c76d3b1c
+      rows:
+        - 'w.schlesinger-thousand-days-1965 858–59: all'
+    tags: [name:schlesinger-arthur-m-jr]
   - id: cal.1962-11-07.middle-east-yemen
     when: Nov. 7
     date: '1962-11-07'
@@ -904,7 +1236,7 @@ entries:
     thread: china
     also: [soviet-union]
     c: Peking, the reception for the October Revolution's anniversary. The Soviet Ambassador toasts Khrushchev; his Chinese guests silent.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 496. To check: Adam Kellet-Long, "Soviet Envoy''s Praise of Khrushchev Meets Silence at Peking Celebration," Washington Post and Times Herald, Nov. 7, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.14). Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 496. To check: Adam Kellet-Long, "Soviet Envoy''s Praise of Khrushchev Meets Silence at Peking Celebration," *Washington Post and Times Herald*, Nov. 7, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.14). Names: Khrushchev.'
     src:
       c: 45d666a8
       rows:
@@ -923,7 +1255,7 @@ entries:
     thread: soviet-union
     also: [missile-crisis]
     c: 'Albania''s radio: Khrushchev''s "contemporary revisionism"; communism cannot prevail over capitalism "by bargaining and making concessions to imperialism."'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 496. Check: the day; the *Washington Post* reports it Nov. 8. To check: "Soviet Policy on Cuba Is Attacked by Albania," Washington Post and Times Herald, Nov. 8, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.15). Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 496. Check: the day; the *Washington Post* reports it Nov. 8. To check: "Soviet Policy on Cuba Is Attacked by Albania," *Washington Post and Times Herald*, Nov. 8, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.15). Names: Khrushchev.'
     src:
       c: e378da44
       rows:
@@ -1181,6 +1513,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-09.japan
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: japan
+    also: [china]
+    c: Liao Chengzhi and Tatsunosuke Takasaki sign a trade memorandum, the ground of what became the L-T trade agreement.
+    n: '[[w.jian-zhou-enlai]], 505. To check: [[w.zhonghua-renmin-gongheguo-jingji]], 432–33, 469–71 (cited by [[w.jian-zhou-enlai]], 766 n.50). See [[cal.1962-10.japan]].'
+    tags: [polity:prc, polity:japan]
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -1511,6 +1851,27 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 499: all'
         - 'via x.2006.kcw-p499-bundy: all'
     tags: [name:bundy-mcgeorge, name:kennedy-john-f, name:kennedy-robert-f]
+  - id: cal.1962-11-14.cuba
+    when: Nov. 14
+    date: '1962-11-14'
+    thread: cuba
+    also: [missile-crisis-settlement]
+    c: 'Havana. The Cubans set no meetings with Mikoyan for Wednesday or Thursday. He sends Alekseyev to Dorticós: the Cubans angry that the draft Kuznetsov gave Stevenson differs from the one Castro approved. After consulting Castro, Dorticós agrees Castro will dine at the embassy, 8 p.m. Thursday.'
+    n: '[[w.fursenko-one-hell-of-a]], 304 & nn.61–62. To check: Mikoyan to Khrushchev, Nov. 17, 1962, f. 3, op. 65, d. 911, 100–103, APRF (cited by [[w.fursenko-one-hell-of-a]], 304 n.61). Made public: [[w.fursenko-one-hell-of-a]] (1997). Names: Mikoyan, Dorticós, Kuznetsov, Stevenson, Castro.'
+    src:
+      c: e0d9a82e
+      rows:
+        - 'w.fursenko-one-hell-of-a 304: all'
+        - 'via x.1962-11-17.mikoyan-to-khrushchev: all'
+    tags: [name:mikoyan-anastas, name:dorticos-torrado-osvaldo, name:kuznetsov-vasily-v, name:stevenson-adlai-e, name:castro-fidel]
+  - id: cal.1962-11-14.china
+    when: Nov. 14
+    date: '1962-11-14'
+    thread: china
+    also: [south-asia]
+    c: 'The Central Committee''s notice on the border clashes and relations with India: the war has exposed "the true face of Indian reactionaries" and shown "the power and reputation of the Chinese military and the motherland."'
+    n: '[[w.jian-zhou-enlai]], 484. Made public: Check. To check: the Central Committee''s Notice on the Chinese-Indian Border Clashes and Questions Concerning Chinese-Indian Relations, Nov. 14, 1962, 855-6-2288-4, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.91).'
+    tags: [polity:prc, polity:india]
   - id: cal.1962-11-15.missile-crisis
     when: Nov. 15
     date: '1962-11-15'
@@ -1530,13 +1891,13 @@ entries:
     thread: georgia-albany
     also: [civil-rights-the-executive, press-and-broadcasting]
     c: 'The Southern Regional Council''s study of Albany, for the movement''s first anniversary. Sitton in the *New York Times*, on the front page: "President Chided Over Albany, Ga.: Fails to Guard Negro Rights." The government "has hovered about Albany from the beginning. Incredibly, in this whole time, it has not acted"; it "will not move in racial controversies unless there is uncontrolled violence."'
-    n: '[[w.branch-parting-the-waters]], 680–81, 683. To check: Sitton, New York Times, Nov. 15, 1962 (cited by [[w.branch-parting-the-waters]], 680 n.5); interviews: Leslie Dunbar, May 12, 1986 (cited by [[w.branch-parting-the-waters]], 683 n.1). See [[cal.1962-08-10.albany]]. Names: Kennedy.'
+    n: '[[w.branch-parting-the-waters]], 680–81, 683. To check: Sitton, [*New York Times*, Nov. 15, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/15/issue.html) (cited by [[w.branch-parting-the-waters]], 680 n.5); interviews: Leslie Dunbar, May 12, 1986 (cited by [[w.branch-parting-the-waters]], 683 n.1). See [[cal.1962-08-10.albany]]. Names: Kennedy, Sitton.'
     src:
       c: 3e3d0b88
       rows:
         - 'w.branch-parting-the-waters 680–81, 683: all'
         - 'via w.branch-parting-the-waters 680 n.5: all'
-    tags: [name:kennedy-john-f, state:ga, city:albany-ga]
+    tags: [name:kennedy-john-f, state:ga, city:albany-ga, name:sitton-claude]
   - id: cal.1962-11-15.missile-crisis-2
     when: Nov. 15
     date: '1962-11-15'
@@ -1606,6 +1967,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-15.missile-crisis-settlement
+    when: Nov. 15
+    date: '1962-11-15'
+    thread: missile-crisis-settlement
+    c: 'Robert Kennedy with Dobrynin, after the Russians reject his proposal on the IL-28s: "the most unpleasant conversation I have had with Dobrynin. It made it seem that perhaps I had seen him too frequently."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 526 (by Kennedy''s memorandum; "Three days after the Bolshoi evening"; he told the President the next day that such talks were good but not "in every day exchanges"). To check: RFK, memorandum, Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 526 n.126). See [[cal.1962-11-12.missile-crisis]], [[cal.1962-11-15.missile-crisis]]. Names: Robert Kennedy, Dobrynin, Kennedy. Check: the day, three days after the Bolshoi evening of Nov. 12; whether this is the talk in which the message of [[cal.1962-11-15.missile-crisis]] was given: Schlesinger does not say what was said, and FRUS 1961–63, VI, doc. 78 has a written copy given to Dobrynin without saying by whom.'
+    src:
+      c: 72dd20e2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 526: all'
+    tags: [name:kennedy-robert-f, name:dobrynin-anatoly, name:kennedy-john-f]
   - id: cal.1962-11-16.economy
     when: Nov. 16
     date: '1962-11-16'
@@ -1626,7 +1998,7 @@ entries:
     thread: soviet-union
     also: [missile-crisis, cuba]
     c: 'The Presidium, on Castro''s letter to U Thant and his order to fire on American planes. Khrushchev: Castro''s position "just shouting and unreasonable"; "Either they will cooperate or we will recall our personnel." Agreement to remove the Il-28s to go to Kennedy orally; then held a few days, Mikoyan to offer Castro three plans of inspection.'
-    n: '[[w.fursenko-one-hell-of-a]], 306–307; [[w.fursenko-khrushchevs-cold-war]], 502–03 (Castro''s order for Nov. 17 or 18; the announcement held; every nuclear warhead to come out, the Lunas and some FKRs left without them); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 66). To check: Malin''s notes, Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.73); Presidium resolution, "Regarding Instructions to Mikoyan," Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.74, n.75, 307 n.76). See [[cal.1962-11-10.soviet-union]]. Names: Castro, U Thant, Khrushchev, Kennedy, Mikoyan.'
+    n: '[[w.fursenko-one-hell-of-a]], 306–307; [[w.fursenko-khrushchevs-cold-war]], 502–03 (Castro''s order for Nov. 17 or 18; the announcement held; every nuclear warhead to come out, the Lunas and some FKRs left without them); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 66); [[w.prezidium-tsk-kpss-1954]], III, 392–98 (the instructions to Mikoyan, P 66/I). Check: the instructions (III, 392–98) have the Cubans'' protest to the Security Council on the overflights, with the warning that the planes will be shot down (394); an oral assurance to Kennedy on the Il-28s if he lifts the quarantine (396); the Cubans to choose U Thant''s men, the five Latin American ambassadors or the nine neutrals (396); without Cuba''s cooperation, conclusions "in regard to our people who are in Cuba" (397); nothing of the assurance held a few days. See [[cal.1962-11-10.soviet-union]]. Names: Castro, U Thant, Khrushchev, Kennedy, Mikoyan.'
     src:
       c: 1db077a8
       rows:
@@ -1637,6 +2009,8 @@ entries:
         - 'via x.2006.kcw-p503-presidium: A-C, E'
         - 'w.prezidium-tsk-kpss-1954 I, 646: B-D'
         - 'via x.1962-11-16.malins-notes-nov-16-1962: B-D'
+        - 'w.prezidium-tsk-kpss-1954 III, 392–98: A, C-E'
+        - 'via x.1962-11-16.presidium-resolution-regarding-instructions-to-mikoyan: A, C-E'
     tags: [name:castro-fidel, name:u-thant, name:khrushchev-nikita-s, name:mikoyan-anastas, name:kennedy-john-f]
     time_range:
       - 1962-11-16T06:00Z
@@ -1649,7 +2023,7 @@ entries:
     date: '1962-11-16'
     thread: mississippi-ole-miss
     c: A Lafayette County grand jury indicts Chief Marshal McShane for inciting the riot.
-    n: '[[w.branch-parting-the-waters]], 670. To check: New York Times, Nov. 17, 1962, 1 (cited by [[w.branch-parting-the-waters]], 670 n.6). Check: the day.'
+    n: '[[w.branch-parting-the-waters]], 670. To check: [*New York Times*, Nov. 17, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/17/issue.html), at 1 (cited by [[w.branch-parting-the-waters]], 670 n.6). Check: the day.'
     src:
       c: dab25411
       rows:
@@ -1693,11 +2067,33 @@ entries:
     date: '1962-11-16'
     thread: south-asia
     c: The Chinese break the lull and drive the Indians back on both fronts; by Nov. 19 within thirty miles of the Assam plains.
-    n: '[[w.poole-joint-chiefs-of-staff]], 267. See [[cal.1962-11-19.india-and-china]].'
+    n: '[[w.poole-joint-chiefs-of-staff]], 267; [[w.mao-zedong-zhuan]], V, ch. 71 (India''s troops attack again, Nov. 14–16; China''s second phase, Nov. 16–21, on both fronts: in the east to near the traditional line south of the McMahon line, in the west every Indian post in Aksai Chin cleared; not the Assam plains). [[w.jian-zhou-enlai]], 482 (India''s offensive at Walong, Nov. 14; China''s counteroffensive two days later; not both fronts or the Assam plains). See [[cal.1962-11-19.india-and-china]].'
     src:
       c: 4dfbf60e
       rows:
         - 'w.poole-joint-chiefs-of-staff 267: all'
+        - 'w.mao-zedong-zhuan V, ch. 71: ?'
+        - 'w.jian-zhou-enlai 482: ?'
+    variants:
+      - unit: A
+        witness: w.mao-zedong-zhuan
+        reads: 十一月十四日至十六日，又一次向中国军队发起猛烈进攻。在这种情况下，中国边防军发起了第二阶段自卫反击战，从十一月十六日起
+        at: V, ch. 71
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Indian troops launched a major offensive in the Walong area on November 14. Two days later, the Chinese began a powerful counteroffensive
+        at: '482'
+  - id: cal.1962-11-16.missile-crisis-settlement
+    when: Nov. 16
+    date: '1962-11-16'
+    thread: missile-crisis-settlement
+    c: 'Robert Kennedy to the President, after his talk with Dobrynin: good that he can do this, "but certainly not in every day exchanges nor developing a familiarity which made statements by me at critical times less effective."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 526 (by Kennedy''s memorandum: "the next day"). To check: Robert F. Kennedy, memorandum, Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 526 n.126). See [[cal.1962-11-15.missile-crisis-settlement]]. Names: Robert Kennedy, Kennedy, Dobrynin. Check: the day, the day after the talk.'
+    src:
+      c: e0157d46
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 526: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:dobrynin-anatoly]
   - id: cal.1962-11-17.robert-kennedy
     when: Nov. 17
     date: '1962-11-17'
@@ -1752,6 +2148,25 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-17.goldwater
+    when: Nov. 17
+    date: '1962-11-17'
+    thread: goldwater
+    c: 'J. D. Stetson Coleman, a Goldwater supporter and Republican pollster, to Goldwater: "You will definitely carry the South if you campaign down there properly." Rockefeller "couldn''t carry the South. I have polled this question in all of the southern states."'
+    n: '[[w.young-two-suns-of-the]], 60–61. To check: Coleman to Goldwater, Nov. 17, 1962, "Draft Goldwater (Chicago Meeting)," box 119, Barry M. Goldwater Papers, Arizona State University (cited by [[w.young-two-suns-of-the]], 61 n.25a). Names: Goldwater, Rockefeller.'
+    src:
+      c: 6a230b23
+      rows:
+        - 'w.young-two-suns-of-the 60–61: all'
+        - 'via x.1962-11-17.coleman-to-goldwater: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson]
+  - id: cal.1962-11-17.china
+    when: Nov. 17
+    date: '1962-11-17'
+    thread: china
+    c: The special committee on the atomic industry formally established, Zhou Enlai at its head.
+    n: '[[w.jian-zhou-enlai]], 516 (it meets three times before the month is out). Made public: Check (2013 at the latest). To check: [[w.zhonggong-zhongyang-wenjian-xuanji]], XLI, 426–27 (cited by [[w.jian-zhou-enlai]], 767 n.101). See [[cal.1962-11-03.china-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
   - id: cal.1962-11-18.missile-crisis
     when: Nov. 18
     date: '1962-11-18'
@@ -1794,7 +2209,7 @@ entries:
     thread: king
     also: [antisubversion, press-and-broadcasting]
     c: 'King preaches at Riverside Church, New York. Afterward, to a *Times* reporter, on the Council''s study: "One of the great problems we face with the FBI in the South is that the agents are white Southerners who have been influenced by the mores of the community. ... Every time I saw FBI men in Albany, they were with the local police force." The *Times*, Nov. 19: "Dr. King Says F.B.I. in Albany, Ga., Favors Segregationists."'
-    n: '[[w.branch-parting-the-waters]], 681. To check: New York Times, Nov. 19, 1962, 21; Pittsburgh Courier, Dec. 1, 1962 (cited by [[w.branch-parting-the-waters]], 681 n.1). See [[cal.1962-11-15.georgia-albany]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 681. To check: [*New York Times*, Nov. 19, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/19/issue.html), at 21; *Pittsburgh Courier*, Dec. 1, 1962 (cited by [[w.branch-parting-the-waters]], 681 n.1). See [[cal.1962-11-15.georgia-albany]]. Names: Martin Luther King.'
     src:
       c: 2c172f84
       rows:
@@ -1807,7 +2222,7 @@ entries:
     thread: south-asia
     also: [china]
     c: 'Nehru asks for American air squadrons. Arms already flying; Harriman''s mission to New Delhi. Nov. 21: China''s cease-fire and withdrawal.'
-    n: 'FRUS 1961–63, XIX, docs. [203](https://history.state.gov/historicaldocuments/frus1961-63v19/d203), [205](https://history.state.gov/historicaldocuments/frus1961-63v19/d205). News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.sorensen-kennedy]], 663; [[w.poole-joint-chiefs-of-staff]], 267–68 (Kennedy announces Harriman''s mission, Nov. 20; the Chinese announce at midnight Nov. 20–21 a cease-fire 24 hours later and a withdrawal from Dec. 1). To check: [[w.galbraith-ambassadors-journal]]; [[w.riedel-jfks-forgotten-crisis]]. See [[cal.1961-12-18.india-and-china]]. Names: Nehru, Harriman, Galbraith.'
+    n: 'FRUS 1961–63, XIX, docs. [203](https://history.state.gov/historicaldocuments/frus1961-63v19/d203), [205](https://history.state.gov/historicaldocuments/frus1961-63v19/d205). News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.sorensen-kennedy]], 663; [[w.poole-joint-chiefs-of-staff]], 267–68 (Kennedy announces Harriman''s mission, Nov. 20; the Chinese announce at midnight Nov. 20–21 a cease-fire 24 hours later and a withdrawal from Dec. 1); [[w.mao-zedong-zhuan]], V, ch. 71, and n.4 (the government''s statement, 0:00, Nov. 21: a cease-fire along the whole line from 0:00, Nov. 22; from Dec. 1 a withdrawal twenty kilometers behind the line of actual control of Nov. 7, 1959; checkpoints with civil police on China''s side; the right of self-defense kept). [[w.jian-zhou-enlai]], 482 (announced Nov. 21: the fighting to stop from 12:00 a.m., Nov. 22; from Dec. 1 a withdrawal twenty kilometers behind the line of Nov. 7, 1959). To check: [[w.galbraith-ambassadors-journal]]; [[w.riedel-jfks-forgotten-crisis]]; *Renmin ribao*, Nov. 22, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.4). See [[cal.1961-12-18.india-and-china]]. Names: Nehru, Harriman, Galbraith.'
     src:
       c: 026a4da5
       rows:
@@ -1815,6 +2230,8 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
         - 'w.sorensen-kennedy 663: B, C'
         - 'w.poole-joint-chiefs-of-staff 267–68: ?'
+        - 'w.mao-zedong-zhuan V, ch. 71, and n.4: D'
+        - 'w.jian-zhou-enlai 482: D'
     tags: [name:harriman-w-averell, name:nehru-jawaharlal, name:galbraith-john-kenneth]
     short: Nehru's request, Harriman's mission, China's cease-fire
   - id: cal.1962-11-19.oil
@@ -1934,6 +2351,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-19.china
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: china
+    also: [south-asia]
+    c: Zhongnanhai. Mao Zedong twice calls Zhou Enlai and others to meetings at his residence.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71; [[w.jian-zhou-enlai]], 482 (Nov. 18: Zhou "rushed to Mao''s residence half an hour" after Mao''s note, and told him this was something new). Made public: Check (2011 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 169; [[w.zhou-enlai-nianpu-1949]], II, 513–14 (cited by [[w.jian-zhou-enlai]], 764 n.85). Names: Mao Zedong, Zhou Enlai. Check: the day (Chen: Nov. 18).'
+    tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
+  - id: cal.1962-11-19.south-asia
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: south-asia
+    also: [china]
+    c: 'Afternoon. Mao Zedong reads in *Cankao ziliao* that India''s Prime Minister and President spoke on Nov. 18 of a peaceful settlement. His note: "突然大谈和平解决。送总理阅。请外交部研究一下，印度领导人过去几天，是否有过十八日这种论调" (suddenly a great deal of talk of a peaceful settlement. To the Premier to read. The Foreign Ministry to look into whether India''s leaders talked this way in the days before the 18th).'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("同一天下午"); [[w.jian-zhou-enlai]], 482 (Nov. 18; the President, Radhakrishnan, alone; Chen''s translation: "Why suddenly talk so loudly about a peaceful settlement? Please read this. The Foreign Ministry should study whether other Indian leaders have made similar comments in the past several days"). Made public: Check (2011 at the latest). To check: Mao''s note on *Cankao ziliao*, no. 5406, manuscript, Nov. 19, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.3); [[w.zedong-mao-zedong-nianpu]], V, 169 (cited by [[w.jian-zhou-enlai]], 764 n.84). See [[cal.1962-11-19.china]]. Names: Mao Zedong. Check: the day: Chen has Nov. 18.'
+    tags: [name:mao-zedong, polity:prc, polity:india]
+  - id: cal.1962-11-19.south-asia-2
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: south-asia
+    also: [china]
+    c: 'Zhou Enlai and Chen Yi see P. K. Banerjee, India''s chargé d''affaires: "中印两国应该友好下去。我们应该向远处看" (China and India should stay friends. We should look far ahead); Zhou ready to go to Delhi to settle the boundary by talks.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("随后", after Mao''s meetings); [[w.jian-zhou-enlai]], 482 (at midnight, after Mao''s note of Nov. 18; Zhou alone: he agrees with Radhakrishnan, talks to resume at once; "I have been to New Delhi four times. I am willing to go there a fifth time"; Banerjee to report to Nehru at once). Made public: Check (1990 at the latest). To check: [[w.zhou-enlai-nianpu-1949]], II, 513–14; [[w.zedong-mao-zedong-nianpu]], V, 169; [[w.banerjee-my-peking-memoire-of]], 72 (cited by [[w.jian-zhou-enlai]], 764 n.86). See [[cal.1962-11-19.south-asia]]. Names: Zhou Enlai, Chen Yi. Check: the day (Chen: midnight, after Nov. 18).'
+    tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:india]
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
@@ -1986,7 +2427,7 @@ entries:
     follows:
       - cal.1962-11-20.missile-crisis
     c: 'Same press conference: the housing order. No discrimination in federally aided housing, prospectively.'
-    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679. At the news conference, 6 p.m.: [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679; [[w.reeves-president-kennedy]], 432 (Executive Order 11063 announced at the news conference); [[w.wofford-of-kennedys-and-kings]], 169–70 (the housing order announced the evening of Nov. 20, 1962, between statements on Soviet bombers leaving Cuba and the India–China border; by Sorensen; "scope more limited" than the Commission asked); [[w.robert-kennedy-in-his]], 368–69 (Martin dates the signing Nov. 20; Kennedy: the order "covered future housing," not all housing; the delay, and the northern Congressmen who did not want it; not the press conference). At the news conference, 6 p.m.: [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
     src:
       c: 670b394e
       rows:
@@ -1994,6 +2435,9 @@ entries:
         - 'w.sorensen-kennedy 482: all'
         - 'w.mann-walls-of-jericho 335: all'
         - 'w.branch-parting-the-waters 679: B'
+        - 'w.reeves-president-kennedy 432: A, B'
+        - 'w.wofford-of-kennedys-and-kings 169–70: ?'
+        - 'w.robert-kennedy-in-his 368–69: B'
     tags: [name:kennedy-john-f, name:weaver-robert-c]
   - id: cal.1962-11-20.missile-crisis-3
     when: Nov. 20
@@ -2127,6 +2571,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-20.south-asia
+    when: Nov. 20
+    date: '1962-11-20'
+    thread: south-asia
+    also: [china]
+    c: Mao Zedong, Liu Shaoqi, Zhou Enlai and others decide to move first and take the initiative to ease the tension on the border.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("先走一步，主动采取积极的步骤"; the decision: a cease-fire along the whole line and a withdrawal, unasked). Made public: Check (2011 at the latest). See [[cal.1962-11-19.south-asia-2]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:prc, polity:india]
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'
@@ -2174,7 +2626,7 @@ entries:
     thread: laos
     also: [soviet-union]
     c: 'The Presidium, on the Pathet Lao''s request for arms: Khrushchev ends the Soviet airlift. "What is most important now is peace"; "If they want a war, it will be their own affair."'
-    n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II). To check: Malin''s notes, "Regarding Instructions to the Soviet Ambassador in Laos," Protocol 68, Nov. 21, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 323 n.19). Names: Khrushchev.'
+    n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II). Names: Khrushchev.'
     src:
       c: 153f0f72
       rows:
@@ -2227,13 +2679,15 @@ entries:
     thread: soviet-union
     also: [missile-crisis]
     c: 'On Mikoyan''s report of the Cuban Foreign Ministry''s cable to Lechuga, "we still have tactical atomic weapons," the Presidium: every nuclear weapon to come out of Cuba; "The weapons are ours, they remain in our hands"; the Cubans, as the Americans, to be told all are gone.'
-    n: '[[w.fursenko-one-hell-of-a]], 311–13. To check: Mikoyan to Khrushchev, Nov. 22, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 312 n.95); Gromyko''s notes, Protocol 68, Presidium, Nov. 22, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 313 n.99). See [[cal.1962-11-20.missile-crisis-3]]. Names: Mikoyan, Lechuga.'
+    n: '[[w.fursenko-one-hell-of-a]], 311–13; [[w.prezidium-tsk-kpss-1954]], III, 403–04 (the additional instructions to Mikoyan, P 68/V). Check: the instructions (III, 403–04) quote the Cuban Foreign Ministry''s directive to Lechuga, "У нас есть тактическое атомное оружие, которое нужно сохранить" (we have tactical atomic weapons, which must be kept); all nuclear weapons, "as we told the Americans," already "вывезено" (removed) from Cuba, not yet to come out; the telegram sent Nov. 22 (Gromyko''s note to Malin, Nov. 26, 403). The volume prints RGANI''s copy (f. 3, op. 18, d. 108); Fursenko and Naftali cite APRF''s (f. 3, op. 65, d. 912). To check: Mikoyan to Khrushchev, Nov. 22, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 312 n.95); Gromyko''s notes, Protocol 68, Presidium, Nov. 22, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 313 n.99). See [[cal.1962-11-20.missile-crisis-3]]. Names: Mikoyan, Lechuga.'
     src:
       c: 4448f601
       rows:
         - 'w.fursenko-one-hell-of-a 311–13: all'
         - 'via w.fursenko-one-hell-of-a 312 n.95: A'
         - 'via w.fursenko-one-hell-of-a 313 n.99: A-C'
+        - 'w.prezidium-tsk-kpss-1954 III, 403–04: B-C'
+        - 'via x.1962-11-22.presidium-resolution-p68-v-instructions-to-mikoyan: B-C'
     tags: [name:mikoyan-anastas, name:lechuga-carlos]
     time_range:
       - 1962-11-22T06:00Z
@@ -2241,6 +2695,11 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+    variants:
+      - unit: A
+        witness: x.1962-11-22.presidium-resolution-p68-v-instructions-to-mikoyan
+        reads: с Кубы же, как мы заявили американцам, все ядерное оружие вывезено (from Cuba, as we told the Americans, all nuclear weapons have been removed)
+        at: III, 404
   - id: cal.1962-11-22.india-and-china
     when: Nov. 22
     date: '1962-11-22'
@@ -2257,7 +2716,7 @@ entries:
     date: '1962-11-22'
     thread: school-aid
     c: Miami. Hecht explains the committee's plan to the annual meeting of the Council of Chief State School Officers, its executive secretary, Edgar Fuller, one of the committee.
-    n: '[[w.graham-uncertain-triumph]], 41. To check: *New York Times*, Nov. 23, 1962 (cited by [[w.graham-uncertain-triumph]], 41 n.37).'
+    n: '[[w.graham-uncertain-triumph]], 41. To check: [*New York Times*, Nov. 23, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/23/issue.html) (cited by [[w.graham-uncertain-triumph]], 41 n.37).'
     src:
       c: 67f1c83f
       rows:
@@ -2275,7 +2734,7 @@ entries:
     thread: sit-ins
     also: [civil-rights-organizations]
     c: Thanksgiving weekend. SNCC's Southwide conference at Nashville; then sit-ins against the city's last segregated places. The Tic-Toc Restaurant's owner sprays Sam Block in the face with a fire extinguisher; a week later two policemen drag John Lewis from the same restaurant to jail.
-    n: '[[w.branch-parting-the-waters]], 679–80. To check: Jet, Dec. 20, 1962, 6–7; Nashville Tennessean, Nov. 25 and Dec. 2, 1962 (cited by [[w.branch-parting-the-waters]], 680 n.1). Check: the days. Names: Lewis.'
+    n: '[[w.branch-parting-the-waters]], 679–80. To check: *Jet*, Dec. 20, 1962, at 6–7; *Nashville Tennessean*, Nov. 25 and Dec. 2, 1962 (cited by [[w.branch-parting-the-waters]], 680 n.1). Check: the days. Names: Lewis.'
     src:
       c: b79c9296
       rows:
@@ -2355,6 +2814,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-24.china
+    when: Nov. 24
+    date: '1962-11-24'
+    thread: china
+    also: [south-asia]
+    c: 'Zhou Enlai to the National People''s Congress Standing Committee: Nehru unwilling to let go of "his vision of a great Indian empire"; "we needed to fight the war and to fight a big war, as a small war would not work"; the troops pulled back because "we fought the war for justice, not to change the status quo, which can only be changed through negotiation."'
+    n: '[[w.jian-zhou-enlai]], 484 (Chen''s translation; "People''s Congress leaders"). Made public: Check. To check: Zhou''s speech at a meeting of the Standing Committee of the People''s Congress, Nov. 24, 1962, 1057-8-44, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.94). Names: Zhou Enlai, Nehru. Check: the day (Chen''s text dates none; his note dates the speech Nov. 24).'
+    tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-11-25.school-aid
     when: Nov. 25
     date: '1962-11-25'
@@ -2431,6 +2898,28 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=901: C'
         - 'w.taylor-swords-and-plowshares 274: A-B, D-E'
     tags: [name:kennedy-john-f, name:dennison-robert-l]
+  - id: cal.1962-11-26.elections-1964
+    when: Nov. 26
+    date: '1962-11-26'
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Philadelphia, the Army-Navy game. Kennedy, beside Gilpatric, who has known the Rockefeller brothers since childhood, questions him about Nelson Rockefeller: the family, their homes, the foundations, his private life.'
+    n: '[[w.reeves-president-kennedy]], 435. To check: Roswell Gilpatric, interview by Reeves; Gilpatric oral history, 93–94, JFK Library (cited by [[w.reeves-president-kennedy]], 435). Names: Kennedy, Gilpatric, Nelson Rockefeller.'
+    src:
+      c: 5f04c043
+      rows:
+        - 'w.reeves-president-kennedy 435: all'
+        - 'via w.reeves-president-kennedy 435 n.kennedy-sat-with-roswell-gilpatric.a: all'
+        - 'via w.reeves-president-kennedy 435 n.kennedy-sat-with-roswell-gilpatric.b: all'
+    tags: [name:kennedy-john-f, name:gilpatric-roswell-l, name:rockefeller-nelson]
+  - id: cal.1962-11-26.china
+    when: Nov. 26
+    date: '1962-11-26'
+    thread: china
+    also: [south-asia]
+    c: 'Zhou Enlai, by letter, to the leaders of the "Colombo Six": Ceylon, Indonesia, Burma, Cambodia, the United Arab Republic and Ghana, on the war with India.'
+    n: '[[w.jian-zhou-enlai]], 485 (after the cease-fire and withdrawal; Zhou hopes they will support China or at least be neutral). Made public: Check. To check: Zhou''s letter to the leaders of the Colombo Six, Nov. 26, 1962, 105-01786-04, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 764 n.96, "for example"). See [[cal.1962-10-26.china-2]]. Names: Zhou Enlai. Check: the day (Chen''s text dates none; his note dates this letter Nov. 26).'
+    tags: [name:zhou-enlai, polity:prc, polity:india, polity:ceylon, polity:indonesia, polity:burma, polity:cambodia, polity:uar, polity:ghana]
   - id: cal.1962-11-27.states-and-cities
     when: Nov. 27
     date: '1962-11-27'
@@ -2730,7 +3219,7 @@ entries:
     thread: antisubversion
     also: [king]
     c: After King tells the *Atlanta Constitution* that FBI agents are often Southern-born and friends of the local police, Hoover has DeLoach call him to set him straight. King does not return the call; DeLoach calls him "a vicious liar" who "constantly associates with and takes instructions from [a] ... member of the Communist Party."
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 353; [[w.branch-parting-the-waters]], 681–82 (the remarks, to the New York Times; DeLoach''s calls); [[w.kotz-judgment-days]], 78 (King''s criticism of the FBI''s agents in the South, close to the local police; DeLoach''s call not returned). Check: Branch, 681–82, gives the remarks to the New York Times after Riverside Church, Nov. 18, printed Nov. 19, not to the Atlanta Constitution; Rosen read them as Communist "domination" (Garrow, FBI, 55); DeLoach called King''s office and then the Atlanta SAC for an appointment for himself and Sullivan. Check: Kotz, 78, dates King''s public criticism of the FBI January 1962 (the Church committee''s bk. III, 89–91, cited 78 n.50). To check: Church committee, *Final Report*, bk. III, 82, 87–91 (1976) (cited by [[w.schlesinger-robert-kennedy-and-his]], 353 n.48). Made public: the Church committee''s report (1976). Check: the day. See [[cal.1962-10.king]]. Names: King, Hoover, DeLoach.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 353; [[w.branch-parting-the-waters]], 681–82 (the remarks, to the *New York Times*; DeLoach''s calls); [[w.kotz-judgment-days]], 78 (King''s criticism of the FBI''s agents in the South, close to the local police; DeLoach''s call not returned). Check: Branch, 681–82, gives the remarks to the *New York Times* after Riverside Church, Nov. 18, printed Nov. 19, not to the *Atlanta Constitution*; Rosen read them as Communist "domination" (Garrow, FBI, 55); DeLoach called King''s office and then the Atlanta SAC for an appointment for himself and Sullivan. Check: Kotz, 78, dates King''s public criticism of the FBI January 1962 (the Church committee''s bk. III, 89–91, cited 78 n.50). To check: Church committee, *Final Report*, bk. III, 82, 87–91 (1976) (cited by [[w.schlesinger-robert-kennedy-and-his]], 353 n.48). Made public: the Church committee''s report (1976). Check: the day. See [[cal.1962-10.king]]. Names: King, Hoover, DeLoach.'
     src:
       c: 7e0ee65a
       rows:
@@ -2849,7 +3338,7 @@ entries:
     thread: king
     also: [civil-rights-the-executive]
     c: 'King on the housing order, its reach cut far below the "stroke of a pen": it "carries the whole nation forward to the realization of the American dream."'
-    n: '[[w.branch-parting-the-waters]], 679. To check: Jet, Dec. 6, 1962, 7 (cited by [[w.branch-parting-the-waters]], 679 n.4). Check: the day. See [[cal.1962-11-20.civil-rights-the-executive]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 679. To check: *Jet*, Dec. 6, 1962, at 7 (cited by [[w.branch-parting-the-waters]], 679 n.4). Check: the day. See [[cal.1962-11-20.civil-rights-the-executive]]. Names: Martin Luther King.'
     src:
       c: 62e6edb2
       rows:
@@ -2862,7 +3351,7 @@ entries:
     thread: georgia-albany
     also: [king]
     c: 'The Albany Movement''s anniversary, a week of nightly meetings. King at Third Kiokee Baptist: a boycott of segregated businesses "on the national economic level." "I am willing to come back to Albany and go to jail, if necessary."'
-    n: '[[w.branch-parting-the-waters]], 680. To check: Laurie Pritchett, memorandum, Nov. 10, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 680 n.3); Atlanta Constitution, Nov. 16, 1962, 5 (cited by [[w.branch-parting-the-waters]], 680 n.4). Check: the day; Pritchett''s memorandum Nov. 10, the Constitution''s report Nov. 16. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 680. To check: Laurie Pritchett, memorandum, Nov. 10, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 680 n.3); *Atlanta Constitution*, Nov. 16, 1962, at 5 (cited by [[w.branch-parting-the-waters]], 680 n.4). Check: the day; Pritchett''s memorandum Nov. 10, the Constitution''s report Nov. 16. Names: Martin Luther King.'
     src:
       c: c05918b7
       rows:
@@ -2975,7 +3464,7 @@ entries:
     thread: south-asia
     also: [soviet-union, china]
     c: 'Khrushchev to Nehru, a public letter: Moscow must go on supporting the Chinese position on the border.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 497. Check: the day: the *Times* reported it Nov. 4 (497 n.23). To check: A. M. Rosenthal, "India''s Hope for Support by Soviet All but Ended," *New York Times*, Nov. 4, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 497 n.23). See [[cal.1962-10.south-asia]]. Names: Khrushchev, Nehru.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 497. Check: the day: the *Times* reported it Nov. 4 (497 n.23). To check: A. M. Rosenthal, "India''s Hope for Support by Soviet All but Ended," [*New York Times*, Nov. 4, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/04/issue.html) (cited by [[w.fursenko-khrushchevs-cold-war]], 497 n.23). See [[cal.1962-10.south-asia]]. Names: Khrushchev, Nehru.'
     src:
       c: 120b8d3d
       rows:
@@ -2998,10 +3487,63 @@ entries:
     date: 1962-11
     thread: elections-1962
     c: The Bronx, on street corners. Rockefeller's fifteen-point program to make "all the people well housed, well clothed, well fed, well educated and well protected from adversity."
-    n: '[[w.smith-on-his-own-terms]], 382 (and, of the campaign: "We''re not going to raise taxes again," wherever he went). To check: *New York Times*, Nov. 3, 1962 (cited by [[w.smith-on-his-own-terms]], 382). Check: the day. Names: Rockefeller.'
+    n: '[[w.smith-on-his-own-terms]], 382 (and, of the campaign: "We''re not going to raise taxes again," wherever he went). To check: [*New York Times*, Nov. 3, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/03/issue.html) (cited by [[w.smith-on-his-own-terms]], 382). Check: the day. Names: Rockefeller.'
     src:
       c: e34d4e7e
       rows:
         - 'w.smith-on-his-own-terms 382: all'
         - 'via x.1962-11-03.new-york-times-nov-3-1962-bronx: all'
     tags: [name:rockefeller-nelson, state:ny, city:nyc]
+  - id: cal.1962-11.missile-crisis-settlement
+    when: Nov.
+    date: 1962-11
+    thread: missile-crisis-settlement
+    c: 'Kennedy to his negotiators at the UN, after one of many long sessions, half in jest: "we seem to be spending as much time negotiating with you as you are negotiating with the Soviets." By Sorensen''s account.'
+    n: '[[w.sorensen-kennedy]], 720. Check: the day. Names: Kennedy.'
+    src:
+      c: fe9d1f08
+      rows:
+        - 'w.sorensen-kennedy 720: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1962-11.republican-party-4
+    when: Nov., late, the Thanksgiving holidays
+    date: 1962-11
+    thread: republican-party
+    c: Nassau, after some days in Miami with Rebozo, Nixon's wife and daughters joining them for Thanksgiving. Elmer Bobst, of Warner-Lambert, urges Nixon to leave California for New York. By Nixon's account, the move would rule him out for 1964 and for any office in New York; his family for it.
+    n: '[[w.nixon-rn]], 247–48. The move: [[cal.1963-05.republican-party-2]]. Check: the days. Names: Nixon, Rebozo.'
+    src:
+      c: a9c794b1
+      rows:
+        - 'w.nixon-rn 247–48: all'
+    tags: [name:nixon-richard-m, name:rebozo-charles-g]
+  - id: cal.1962-11.missile-crisis-settlement-2
+    when: Nov.
+    date: 1962-11
+    thread: missile-crisis-settlement
+    c: 'After the crisis, Rusk to Robert Kennedy: his part in the Executive Committee was to keep it from moving too far or too fast; he had played "the ''dumb dodo''" for that reason. Robert Kennedy: "a strange way of putting it." By Robert Kennedy''s memorandum of Nov. 30.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 507. Check: the day; the memorandum is dictated Nov. 30. To check: Robert Kennedy, memorandum dictated Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 507 n.37). Names: Rusk, Robert Kennedy.'
+    src:
+      c: 96ee0ecf
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 507: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 507 n.37: all'
+    tags: [name:rusk-dean, name:kennedy-robert-f]
+  - id: cal.1962-11.elections-1962-2
+    when: Nov., after the election
+    date: 1962-11
+    thread: elections-1962
+    c: 'Rockefeller''s press conference after his re-election: he spars with reporters over the size of his win and the Republicans'' prospects of taking back the White House in 1964.'
+    n: '[[w.smith-on-his-own-terms]], 384 (the final margin 529,000; Jaquith and the Conservatives 141,000). See [[cal.1962-11-06.governors-ny]]. Check: the day. Names: Rockefeller.'
+    src:
+      c: c4b6fa99
+      rows:
+        - 'w.smith-on-his-own-terms 384: all'
+    tags: [name:rockefeller-nelson, state:ny]
+  - id: cal.1962-11.cuba
+    when: Nov.
+    date: 1962-11
+    thread: cuba
+    also: [soviet-union]
+    c: 'Mikoyan, on his way home through Washington, to an American official: Castro "is crazy"; he kept Mikoyan "waiting for ten days without seeing me." Cuba: "We have been waiting all our lives for a country to go Communist without the Red Army, and it happened in Cuba. It makes us feel like boys again!"'
+    n: '[[w.rusk-as-i-saw-it-1990]], 245 (told "one of our people"; Rusk''s account). See [[cal.1962-11-29.missile-crisis]]; [[cal.1962-11-03.cuba]]. Names: Mikoyan, Castro. Check: the day and the hearer; Rusk gives only "just after the missile crisis," almost two weeks in Cuba, and "on his way home"; Mikoyan was with Kennedy in Washington Nov. 29.'
+    tags: [name:mikoyan-anastas, name:castro-fidel]

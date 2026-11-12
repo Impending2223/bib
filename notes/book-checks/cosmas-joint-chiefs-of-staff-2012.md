@@ -64,12 +64,15 @@ Entries mapped: 51; records logged: 88 (found and read 45, found and not read or
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7): the five rows ruled "already in" without a cite (10, 120, 121, 134, 189) are now ruled in "Already in, read against the calendar (batch 7, Nov. 10, 2026)" at the end of this file, and moved out of this list.
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor, here and in the military re-read's list, in "Re-ruled under R18 as amended (b6)" before the Leads (read Nov. 10, 2026).
+
 Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". The military re-read of Nov. 5, 2026 (below) read the whole volume for operations, actions, incidents, orders and deployments and re-ruled the rows of that kind; its own rows follow the first pass's.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 7 | Dec. 6, 1963 | Rusk, McNamara, Taylor, McCone and others at the White House on Southeast Asia | lead: no entry; the meeting's record not read |
-| 10 | Dec. 21, 1963 | McNamara to Johnson after Saigon, "very disturbing" | already in under cal.1963-12-21.vietnam |
 | 11 | Dec. 23, 1963 | Lodge: the government's machinery "decelerated greatly" | minor |
 | 11 | Jan. 23, 1964 | Lodge and Harkins tour provinces with Minh | minor |
 | 11 | Jan. 28, 1964 | Khánh tells his senior adviser of a plot, two days before his coup | lead: the coup is in; the warning not |
@@ -82,18 +85,14 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 | 83 | June 19, 1964 | Lodge's letter of resignation | already in under cal.1964-06-23.vietnam |
 | 83 | July 3, 1964 | Wheeler takes office as Chairman; Harold K. Johnson Army Chief of Staff | entered (military re-read): cal.1964-07-03.defense |
 | 106 | Aug. 3, 1964 | Hanoi's protest through the ICC | already in under cal.1964-08-02.vietnam (Aug. 2–3) |
-| 120 | Aug. 29, 1964 | Khánh steps aside for an acting premier | already in under cal.1964-08-27.vietnam |
-| 121 | Sept. 19–20, 1964 | the Montagnard CIDG revolt at four camps | already in under cal.1964-09-20.vietnam |
 | 133 | Sept. 15, 1964 | the DESOTO patrol resumed | already in under cal.1964-09-18.vietnam |
 | 133 | Sept. 19, 1964 | CINCPAC told to prepare strikes on five targets | already in under cal.1964-09-18.vietnam (strikes prepared, then called off); the suspension of the patrols entered, cal.1964-09-19.vietnam-tonkin |
-| 134 | Sept. 30, 1964 | the Joint Chiefs for T-28 strikes in Laos | lead: a JCS paper on operations in Laos (R8); the strikes themselves already in under cal.1964-10-13.laos |
 | 146, 150 | Oct. 7 and 28, 1964 | the Joint Chiefs' instructions on reprisal for a Desoto incident; CINCPAC's revised mission orders, never executed | lead: orders (R14), to enter with JCS 2343/476 and CINCPAC's order of Oct. 28 read (146 nn.9–10) |
 | 157 | Oct. 27, Nov. 14, 1964 | the Joint Chiefs on the enemy's reactions to strikes on the North | minor: staff papers |
 | 158 | Nov. 18, 1964 | the Joint Chiefs' second statement to the working group | lead |
 | 161 | Nov. 10, 1964 | Taylor's Mission Council on the minimum government needed | minor |
 | 162 | Nov. 16, 1964 | Rostow to McNamara on the aim of bombing | minor |
 | 180–82 | Nov. 29–Dec. 3, 1964 | the principals' meetings and the President's approval of the program | already in under cal.1964-12-01.vietnam |
-| 189 | Dec. 12, 1964 | the principals approve the first Barrel Roll missions, napalm excluded | already in under cal.1964-12-12.laos |
 | 196 | Dec. 26 and 30, 1964 | Sharp for reprisal; the strike planned for Dec. 30 and not executed | already in under cal.1964-12-24.vietnam |
 | 198 | Jan. 6, 1965 | Taylor on the number of American advisers | minor |
 | 206 | Feb. 21, 1965 | the Armed Forces Council ousts Khánh | already in under cal.1965-02-19.vietnam |
@@ -175,9 +174,40 @@ Every dated military event of the volume not entered and not already in, a row e
 | 518 | Dec. 2, 4, 13–14, 1966 | Yên Viên and Văn Điển struck | already in under cal.1966-12-02.vietnam-marigold and cal.1966-12-13.vietnam-air-war |
 | 520 | Jan. 24, 1967 | Rolling Thunder 53 approved | lead |
 
+## Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+The copy: DTIC's scan on archive.org, DTIC_ADA557393, its OCR text (`_djvu.txt`), split into pages by the printed folios at each page's foot, the endnotes looked up by chapter and number; downloaded into the scratchpad and deleted after. The FRUS documents the notes name read in `sources/frus-text/` (1964–68, I, docs. 409, 411, 412). Patch: `inbox/2026-11-06-b6-cosmas-joint-chiefs.yaml` (b6-cosmas-joint-chiefs: 9 entries added, 1 cite, 1 map row). Witnesses: `inbox/witnesses/2026-11-06-b6-cosmas-joint-chiefs.yaml` (9), edges in the by-work file (10). "Minor" no longer covers a commander's, an ambassador's or a staff's paper (R8) or a trip (R15): each row below is now an entry or in one.
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 11 | Dec. 23, 1963 | "decelerated greatly" | entered, `cal.1963-12-21.vietnam-3`; not Lodge's, as the row had it, but Krulak's report as the Chiefs' special assistant, dated Dec. 23 in the text and Dec. 21 in the note's memorandum (n.15): the entry takes the paper's date, a Check giving the text's |
+| 11 | Jan. 23, 1964 | Lodge and Harkins tour provinces with Minh | entered, `cal.1964-01-23.vietnam` (the tour and Lodge's report, Saigon 1374) |
+| 32 | Mar. 6, 1964 | the Joint Staff's study of a blockade | entered, `cal.1964-03-06.vietnam` |
+| 46 | May 20, 1964 | VNAF mine-laying training to resume; A-1s on schedule | entered within the memorandum that gives it, JCSM-445-64 of May 23: `cal.1964-05-23.vietnam` |
+| 157 | Oct. 27, Nov. 14, 1964 | the Chiefs on the enemy's reactions | Oct. 27 already in (`cal.1964-10-27.vietnam`, JCSM-902-64); Nov. 14 entered, `cal.1964-11-14.vietnam-2` (FRUS 1964–68, I, doc. 411, read) |
+| 161 | Nov. 10, 1964 | Taylor's Mission Council on the minimum government | entered, `cal.1964-11-10.vietnam-2` (FRUS 1964–68, I, doc. 409, read) |
+| 162 | Nov. 16, 1964 | Rostow to McNamara on the signal | entered, `cal.1964-11-16.vietnam-2` (FRUS 1964–68, I, doc. 412, read) |
+| 198 | Jan. 6, 1965 | Taylor on the number of advisers | already in (`cal.1965-01-06.vietnam`): cited, 198–99, unit F, its record (198 n.40) mapped |
+| 365 | May 22, 1965 | the Chiefs for CINCPAC's concept | entered, `cal.1965-05-22.vietnam-air-war-3`; McNamara's disapproval of June 22 (on the page, not listed before) entered, `cal.1965-06-22.vietnam-air-war` |
+
+Seen on the pages read and not listed before, for the next reading: 365–66, Taylor's proposal of May 13, 1965 to vary the pattern of strikes, and Sharp's objection (365 n.15).
+
 ## Leads
 
 National:
 - The JCS records the notes cite by JMF and OCJCS file (RG 218, National Archives): every JCS, CINCPAC and COMUSMACV message of the new entries; and the CINCPAC Command Histories of 1964–66, the MACV Command Histories of 1965–66 and the SAC History of 1965–66 by page. Where found open, read them against the entries' "To check:".
 - Places for the gazetteer (`sources/vn-provinces-1966/places.json`), for the tags: Phúc Yên airfield, Tuy Hòa, the Quảng Khê naval base, Xóm Bàng, Đồng Tâm. Settled Nov. 5, 2026: Phúc Yên, Tuy Hòa and Đồng Tâm added and their entries tagged; Quảng Khê and Xóm Bàng have no Wikipedia coordinates found (notes/leads.md, Foreign).
 - Name entries proposed (Part III): Paul R. Ignatius (the air munitions task force, 1966), David A. Burchinal (Director, Joint Staff, 1965), Carroll H. Dunn (MACV's construction director, 1966), Norvell G. Ward (Naval Forces, Vietnam, 1966). Settled Nov. 5, 2026: Ignatius, Burchinal and Dunn had name entries (the Executive roster) and are now tagged; Ward added to Viet. III.D and tagged.
+
+
+## Already in, read against the calendar (batch 7, Nov. 10, 2026)
+
+The five rows the first pass (Oct. 29) passed over as "already in" without citing the volume under the entry, read again under R44 (an event already in takes its cite) and R8 (a staff paper is an entry). The copy: DTIC's scan on archive.org, DTIC_ADA557393, its OCR text (`_djvu.txt`), split into pages by the printed folios at each page's foot, the endnotes by chapter and number; downloaded into the scratchpad and deleted after; p. 120 checked against its page image (leaf n130). Patch: `inbox/2026-11-10-b7-cosmas-joint-chiefs.yaml` (b7-cosmas-joint-chiefs: 5 cites, 1 variant, 1 Check, 1 entry added, 4 map ops, 3 To checks). Witnesses: `inbox/witnesses/2026-11-10-b7-cosmas-joint-chiefs.yaml` (9 new), edges in the by-work file (12: 11 n.14; 120 n.2e, h, i; 121 n.5a-d; 135 n.27; 190 n.12a-c), the McNamara memorandum (FRUS 1961–63, IV, doc. 374) and the NSC principals' record of Dec. 12, 1964 already registered and taking the edges.
+
+| Page | Date | Event | Ruling |
+|---|---|---|---|
+| 10–11 | Dec. 21, 1963 | McNamara to Johnson after Saigon, "very disturbing" | cited under `cal.1963-12-21.vietnam` (A-C), note 14's memorandum by a `via` row |
+| 120 | Aug. 29, 1964 | Khánh steps aside for an acting premier | the row named the wrong entry: cited under `cal.1964-08-29.vietnam-saigon` (A-B: Oánh's appointment; Khánh ill), which holds the day; note 2's Saigon 684, the *Times* and CINCPAC's history by `via` rows and To check |
+| 121 | Sept. 19–20, 1964 | the Montagnard CIDG revolt at four camps | cited under `cal.1964-09-20.vietnam` (B); variant and Check on A: Cosmas gives about forty Vietnamese killed, the entry seventy-three; note 5's three Saigon telegrams by `via` rows (B) and To check, its MACV history an edge to the card |
+| 134–35 | Sept. 30, 1964 | the Joint Chiefs for T-28 strikes in Laos | the "lead" was a paper of government (R8), in no entry: entered as `cal.1964-09-30.laos` (JCSM-835-64: the air strike plan and the ground incursions); the October strikes cited under `cal.1964-10-13.laos` (135, A) |
+| 189–90 | Dec. 12, 1964 | the principals approve the first Barrel Roll missions, napalm excluded | cited under `cal.1964-12-12.laos` (A-C; the first mission Dec. 14 in the parenthetical, as the entry's Check gives it from Anthony); note 12's record of the meeting and JCS 2883 by `via` rows and To check |

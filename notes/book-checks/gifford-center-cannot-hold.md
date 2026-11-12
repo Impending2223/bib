@@ -72,6 +72,12 @@ Claim maps: 69 entries (53 new, 16 edited), 29 of them finer than the whole entr
 
 ## Passed over
 
+Batch 9 (Nov. 11–12, 2026): the "already in" rows read again from the owner's copy (Drive 1MNuABSuml4ne3RlmYmr7p3YukbJ6mpzV; printed = PDF − 14 held; p. 190 checked on its page image). Patch `inbox/2026-11-12-b9-group-3.yaml` (batch 9, group 3). Rulings: p. 43 (Mar. 8: already cited, the Check on 65,077 to 2,890; Apr. 5, May 20: cited under `cal.1960-04-05.elections-1960`, `cal.1960-05-20.elections-1960`); p. 47 (already cited, 46–48, under `cal.1960-06-08.elections-1960`; the row's id was the call of June 11, which Gifford does not treat); p. 76 (cited under `cal.1960-07-24.elections-1960`, the floor fight; the press release of July 23, n.58, to To check); p. 79 (cited under `cal.1960-08-02.elections-1960`); pp. 86–87 (cited under `cal.1960-10-19.king`, `cal.1960-10-25.king`; Check on Oct. 19: students freed Oct. 24); p. 190 (cited under `cal.1960-10-07.elections-1960` with a Check: Gifford calls the second debate the foreign-policy one; `cal.1960-10-13.elections-1960`; `cal.1960-10-21.elections-1960-2`, Robinson's polling data, n.62, to To check).
+
+Where batch 9 stopped: all six rows ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled below the level (and the letters among them), in "Re-ruled under R18 as amended (b6)" before the Leads (read Nov. 10, 2026). "Below the level" now means a unit's routine only; the papers of a candidate's staff, a party's officers and its allied groups are the informal record (R7, R9).
+
 Made by reading every page of the chapters and listing each event the book dates in Jan. 6, 1960–Jan. 20, 1969; the background before 1960 (the 1958 elections, Rockefeller's fall of 1959 and withdrawal of Dec. 26, 1959, *National Review* in 1958–59, the Young Republicans of 1959) is not listed. "Below the level the calendar records" is the definition of minor (CLAUDE.md, "The parties and the members").
 
 | Page | Date | Event | Why |
@@ -170,6 +176,50 @@ Made by reading every page of the chapters and listing each event the book dates
 | 200 | July 4, 1963; Jan. 1964; July 1964 | the Armory rally; Goldwater declares; the San Francisco convention | already in (`cal.1963-07-04.elections-1964`, edited; the 1964 entries) |
 
 92 rows. By reason: below the level, 35; to leads, 24 (most undated in the book); press, a column or a journal's comment, 15; already in (or in an entry made here), 12; undated, 10; a repetition, 4; a poll the Opinion thread does not keep, 2; out of the brief, 1 (some rows give two reasons).
+
+## Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy (the same Drive file, 264 PDF pages, the scan's OCR layer, downloaded into the scratchpad and deleted after; printed page = PDF page − 14; p. 155 checked against its page image, PDF 169, its note numbers 42–43 with it). Each note read for the passage it grounds (pp. 205–29). Patch: `inbox/2026-11-06-b6-gifford-center-cannot.yaml` (b6-gifford-center-cannot: 53 entries added). Witnesses: `inbox/witnesses/2026-11-06-b6-gifford-center-cannot.yaml` (53 new; the *Times* of Sept. 4, 1960 already registered and reused), edges in the by-work file. A private person's letter (to a candidate, a committee or a journal) is not an act of anyone with a public role, a party or its allied groups (R7, R9): those rows stay passed over, each named below.
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 39 | Jan. 5 | Halpern to Rockefeller; Blum to the committee | out of the brief: before Jan. 6, 1960 (the calendar's first day); Blum's letter the same day, a private person's |
+| 40 | Jan. 11 | Boland's digest of the press | entered, `cal.1960-01-11.elections-1960-rockefeller` |
+| 41 | Jan. 6–7 | Hinman: the Dakotas; a Pennsylvania Lincoln Day invitation | entered, `cal.1960-01-06.elections-1960-rockefeller`, `cal.1960-01-07.elections-1960-rockefeller` |
+| 43 | Feb., Apr. | Carter to Morhouse: Hermann and Hall fear for Nixon; "the panic button" | entered, `cal.1960-02-29.elections-1960-rockefeller`, `cal.1960-04-17.elections-1960-rockefeller` (the days by the note) |
+| 46, 49, 74 | May 25–June 16 | letters and telegrams to Rockefeller (Blough, Walker, Fay, Greenbaum; Davenport, June 10) | passed over: private persons' letters, no act of anyone with a public role, a party or its allied groups; Rockefeller's form reply undated |
+| 50 | May 2, June 17 | the staff's counts of delegates | entered, `cal.1960-05-02.elections-1960-rockefeller`, `cal.1960-06-17.elections-1960-rockefeller` |
+| 50 | July 5 | lodging for Rockefeller's people at Chicago | passed over: a unit's routine (rooms and their cost) |
+| 54 | Sept. 27, Oct. 6, Oct. 26 | Hinman, Hughes, Perkins to Rockefeller | entered, `cal.1960-09-27.elections-1960-rockefeller`, `cal.1960-10-06.elections-1960-rockefeller`, `cal.1960-10-26.elections-1960-rockefeller` |
+| 70 | Mar.–Apr. | the polls at Tuskegee and Galveston | entered, `cal.1960-03.opinion`, `cal.1960-04.opinion` (Check: the day) |
+| 71 | Mar. 8 | McWhorter on Clarence Mitchell | entered, `cal.1960-03-08.elections-1960-nixon` |
+| 71 | Apr. 25 | Cunningham to Nixon | entered, `cal.1960-04-25.elections-1960-nixon` |
+| 73 | Mar. 29 | Graves to Nixon | entered, `cal.1960-03-29.elections-1960-nixon` (an editor and columnist to the candidate, R13) |
+| 83 | Aug. 18, Sept. 2 | Nixon's letters to Fuller, Sevelle, Walker; Sevelle's answer | entered, `cal.1960-08-18.elections-1960-nixon`, `cal.1960-09-02.elections-1960-nixon` |
+| 85 | Sept. 19, 30 | Lodge at the *Defender*; Hillings on Lodge's use | entered, `cal.1960-09.elections-1960-nixon` (Check: the day), `cal.1960-09-30.elections-1960-nixon` |
+| 86 | mid-Oct. | the Cleveland poll | entered, `cal.1960-10.opinion` (Check: the day) |
+| 88–89 | Apr. 18, May 25, 1961 | Morrow and Robinson to Nixon | entered, `cal.1961-04-18.republican-party`, `cal.1961-05-25.republican-party` |
+| 114 | Mar. | Goldsmith's letters against Nixon | entered, `cal.1960-03.elections-1960-rockefeller-2` (by *National Review*'s report; Check: the day) |
+| 118 | Aug.–Sept. | readers' letters to *NR* | passed over: private persons' letters printed by a journal, no act of the journal (R13) or of anyone with a public role |
+| 120 | May 10 | Meyer's memorandum to the editors | entered, `cal.1960-05-10.conservative-movement` (the journal's deliberation, R13) |
+| 130–31 | Jan. | Ivy League students plan a write-in for Rockefeller | entered, `cal.1960-01.elections-1960-rockefeller` (Check: the day) |
+| 134 | June 9, mid-July | Youth for Goldwater's mail; 65 schools; the Young Republicans' poll | entered, `cal.1960-06-09.conservative-movement`, `cal.1960-07.conservative-movement-2`, `cal.1960-07.opinion` |
+| 136 | Aug. 15 | Kolbe's letter | entered, `cal.1960-08-15.conservative-movement` |
+| 139–41 | Apr. 23–Aug. 22 | mock conventions, campus clubs, College Youth for Nixon's newsletters; Abstine's, Stricklin's and Dawson's memoranda | Abstine (May 21), Dawson (Aug. 16), Stricklin (Aug. 22) entered: `cal.1960-05-21.elections-1960-nixon`, `cal.1960-08-16.elections-1960-nixon`, `cal.1960-08-22.elections-1960-nixon`; the mock conventions (Northwestern, Apr. 23, and others): passed over, students' exercises, no act of a party, its allied groups or anyone with a public role; the spring campus polls and the May newsletter: lead, no day |
+| 143–44 | 1961 | Harvard's student council and Young Republicans; Phillips | passed over: a student government's matters, no bearing on public business; the contest for the college Young Republicans' chairmanship and Buckley's column on it: lead, no month |
+| 151, 155 | Mar. 21; July 21, 24 | Waring's and Wannamaker's letters to Workman | Waring's: already in, the matter of `cal.1960-03-26.elections-1960` and its Check; Wannamaker's entered, `cal.1960-07-21.elections-1960-chicago`, `cal.1960-07-24.elections-1960-chicago` |
+| 157 | Aug.–Nov. | "Goldwater Speaks" luncheons | lead: a series of local clubs' luncheons, no day |
+| 161 | Oct. 3 | Shorey to Bassett | entered, `cal.1960-10-03.south-carolina` |
+| 164–65 | Sept. 23–Nov. 10 | Thurmond's reply to a constituent; letters to Byrnes | Thurmond's (Nov. 3) entered, `cal.1960-11-03.south-carolina`; the letters to Byrnes: passed over, private persons' letters |
+| 166 | Nov. 1, Nov. | Fernald to Mrs. Duffy; Greenville's "G.O.P. News" | entered, `cal.1960-11-01.republican-party`, `cal.1960-11.south-carolina` |
+| 180–81 | Aug. 22, 27 | McCaffrey's plan of a Labor Day meeting | entered, `cal.1960-08-22.elections-1960-nixon-2`, `cal.1960-08-27.elections-1960-nixon` (the planning of a principal's campaign, R7; no record the meetings took place, said in the entry) |
+| 181–82 | Sept. 1, 4–5 | Rodman Rockefeller in Spanish Harlem; Lodge in the Catskills and at Coney Island | entered, `cal.1960-09-01.elections-1960-nixon`, `cal.1960-09-04.elections-1960-nixon` (R16) |
+| 182–83, 186 | Sept. 12, 23, 24 | Richardson's and McKeldin's letters and reports | entered, `cal.1960-09-12.elections-1960-nixon`, `cal.1960-09-23.elections-1960-nixon`, `cal.1960-09-24.elections-1960-nixon` |
+| 187–89 | Apr.–Nov. | the nationality press and advertisements; Knezevich; Valiukas | the advertisements entered: `cal.1960-10-28.elections-1960-nixon` (the ANNL's, Oct. 28–Nov. 3), `cal.1960-11-04.elections-1960-nixon` (the New York Republicans', Nov. 4–6); Valiukas's letters entered, `cal.1960-10-02.elections-1960-nixon`, `cal.1960-10-11.elections-1960-nixon` (with the campaign's memorandum of Oct. 24); Knezevich's advertisement (Sept. 7) and letter to Nixon (Sept. 13): passed over, a private publisher's; the nationality papers' reports (*Lithuanian Days*, *Pacific Citizen*): press, lead for the daily list |
+| 190–91 | Oct. 30 | Remo to the Republicans | entered, `cal.1960-10-30.elections-1960-nixon` |
+| 193–95 | Nov. 19, 1960–Mar. 15, 1961 | Valiukas, Nicolai, Borshy on the defeat; Bridges's remark | entered, `cal.1960-11-19.republican-party` (Nicolai), `cal.1961-01-01.republican-party` (Valiukas to Hermann), `cal.1961-03-15.republican-party` (Borshy); Bridges's remark: lead, undated |
+
+Already in, seen again on these pages: Hermann's memorandum of Aug. 9, 1960 (`cal.1960-08-09.republican-party`), Shorey to McWhorter, Oct. 17 (`cal.1960-10-17.republican-party`), Henderson's telegram of Oct. 26 (`cal.1960-10-26.elections-1960`), Richardson's report of Dec. 22 (`cal.1960-12-22.republican-party`).
 
 ## Leads (for `notes/leads.md`, National)
 

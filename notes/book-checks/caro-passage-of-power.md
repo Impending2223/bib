@@ -145,21 +145,44 @@ Fifteen: the informal record Caro dates to the day, and the members' word (the o
 
 ### Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7; the 25 rows still open, read Nov. 11, batch 8, patch `inbox/2026-11-11-b8-caro.yaml`; printed page = PDF page - 24 to p. 210, - 40 to p. 426, - 58 after, by the running folios). Rulings:
+
+- 84, Apr. 5 (Wisconsin): cited under `cal.1960-04-05.elections-1960` (A, C; not the figures). 84, May 10 (West Virginia): cited under `cal.1960-05-10.elections-1960` (D; pp. 84-87, "more than 60 percent").
+- 105, July 13: cited under `cal.1960-07-13.elections-1960` (107: the roll call; A); entered as `cal.1960-07-13.elections-1960-los-angeles-2` (Rayburn's nominating speech) and `-3` (Johnson asks Collins, through Connally, to postpone the voting).
+- 150, Nov. 8 (Texas's vote): not borne out under `cal.1960-11-08.elections-1960`; the page gives Texas's own count (1,167,932 to 1,121,699), which the national entry does not carry; no cite.
+- 154, Dec. 19: cited under `cal.1960-12-19.elections-1960` (A, in passing).
+- 190, Aug. 16: entered as `cal.1961-08-16.rules` (Rayburn tells the House); cited under `cal.1961-08-31.rules` (A) with a Check: Caro has the leaving "a few more days" after Aug. 16.
+- 211, Oct. 20: cited under `cal.1962-10-20.missile-crisis` (A, B). 213, Oct. 24: cited under `cal.1962-10-24.missile-crisis` (A; not Rusk's words).
+- 215: cited under `cal.1962-10-22.missile-crisis-4` (B, C); entered as `cal.1962-10-22.missile-crisis-31` (Johnson's silence and complaints after the meetings, Oct. 22-26, a Check of the days). 218: already cited (`cal.1962-10-27.missile-crisis-4`, 216-21).
+- 242, May 14, 1964: cited under `cal.1964-05-14.robert-kennedy` (242-43; A; not "last session").
+- 257, May 12, 1963: cited under `cal.1963-05-11.alabama` (A, D). 262, June 22: cited under `cal.1963-06-22.civil-rights-bill` (A), Check added (Johnson presiding; Robert Kennedy and Louis Martin). 266, June 13 [11]: cited under `cal.1963-06-11.civil-rights-bill` (A, B), Check: Caro prints June 13.
+- 403: `cal.1963-11-26.vietnam` already cited; cited under `cal.1963-11-20.vietnam` (A, Honolulu).
+- 463, Nov. 21: cited under `cal.1963-11-21.civil-rights-bill` (A), Check on `cal.1963-11-20.civil-rights-bill` (Caro dates the report Nov. 21); nothing under `cal.1963-10-29.civil-rights-bill` (no vote on the page; not borne out); entered as `cal.1963-11-22.civil-rights-bill-2` (McCormack asks Smith).
+- 506: cited under `cal.1963-12-28.europe-and-the-alliance` (A; not the terms). 533: cited under `cal.1963-12-23.vietnam` (A, B, D; a variant on D: "you've") and `cal.1964-01-06.vietnam` (A, B).
+- 557 (Jan. 28 and Feb. 7): cited under `cal.1964-02-07.economy` (A, B). 561: cited under `cal.1964-02-26.civil-rights-bill` (C, E; 54-37), Check: Caro has the bill arrive Feb. 10 (the entry has it read Feb. 17); `cal.1964-02-10.crb` is not an id (the Feb. 10 entry is `cal.1964-02-10.civil-rights-bill`, which cites 558-60).
+- 563: cited under `cal.1964-03-30.civil-rights-bill` (A). 568: cited under `cal.1964-06-10.civil-rights-bill` (A), Check: Caro puts Dirksen's "idea whose time has come" May 20. 569: cited under `cal.1964-07-02.civil-rights-bill` (A, B); `cal.1964-06-30.civil-rights-bill` already cited.
+- 583: cited under `cal.1964-03-10.elections-1964` (A; the Corbin write-in; not the returns); Feb. 11 (Corbin) already cited (583-84). 593-94: `cal.1964-03-19.transition-and-staff` already cited; cited under `cal.1964-08-04.congress` (593 n.; A, B).
+
+Where batch 8 stopped: all 25 rows ruled; patch in `inbox/` for the lead to merge. Not entered, undated (leads): Johnson's Oval Office lecture to Humphrey on the Senate's rules (563, before Mar. 30, 1964); Johnson's word to O'Brien after Feb. 26, 1964 that no other bills go to the Senate (561); Johnson-McCormack, Nov. 29, 1963, on Smith (463).
+
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-caro-passage; done Nov. 10, 2026). The rows ruled minor (a private remark, travel, social, domestic, a private suit, a journal), and two ruled "below the calendar's level" that the amended rule names (Johnson's request of June 1, 1963, a favour asked; Rayburn's letter), read again off the owner's copy (Drive `19Tm9abYodiQs-2w_CYyuVLp8vftswPUM`; printed page = PDF page − 24 to p. 210, − 40 to p. 498, − 58 after, by the running folios; p. 500 checked on the page image). Patch `inbox/2026-11-06-b6-caro-passage.yaml`: 12 entries, 3 cites (one on the Whalen reader's pending cal.1963-12-07.succession), 1 check, 1 to-check; witnesses `inbox/witnesses/2026-11-06-b6-caro-passage.yaml` (the two Jenkins transcripts, Herring's interview, Schlesinger's journal of Dec. 30, the two recordings); cards made for Lincoln's *Kennedy and Johnson*, West's *Upstairs at the White House* and Schlesinger's *Journals*. The rows ruled "below the calendar's level" (a staff memorandum, a supporter's report, a columnist's call on Reedy, the budget's deadlines) are R8's and R13's matter, not this batch's: for a later run. The repetition (June 4, 1964) stands.
+
 How the list was made: a script over the text layer (pp. 1–628) listed every mention of a month and day, 286 in all, with its page, an inferred year and the calendar's entries of that month and day in every year; those on a page an entry already cites for that day (74) were set aside; the remaining 201 (page, date) pairs were read in context, their years put right by hand (the inferred year runs wrong across the book's returns to 1960 and its notes), and judged against the calendar. Classes passed over without a row: births and dates outside the span; dates named only as deadlines (the budget's calendar, fiscal years, the convention's opening as a target); the dates of the records themselves (the Secret Service reports, the files' spans). Months alone were not listed. "Minor" is used only as the owner's rule of Oct. 29 allows; "below the calendar's level" marks staff memoranda and the like; "not an entry (a column)" a column that carried no act.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 74 | Jan. 25, 1960 | Ely to Jenkins on California's delegates | minor (a supporter's private remark) |
+| 74 | Jan. 25, 1960 | Ely to Jenkins on California's delegates | re-ruled: entered as cal.1960-01-25.elections-1960 (said in private about politics; the transcript behind To check) |
 | 77 | Mar. 6, 1960 | Reston: Johnson has lost liberal support | not an entry (a column, no act) |
 | 78 | Mar. 28, 1960 | Johnson with reporters in a Detroit hotel room (Broder) | a lead: Johnson's talk with reporters, Broder's account; its matter not given on the page |
 | 78 | May 29, 1960 | Wilkins to the American Jewish Congress | a lead: Wilkins's speech, not read |
-| 82 | Mar. 23, 1960 | a supporter's call to Jenkins | minor (a supporter's private remark) |
+| 82 | Mar. 23, 1960 | a supporter's call to Jenkins | re-ruled: entered as cal.1960-03-23.elections-1960-2 (Herring, a Texas State Senator; the transcript behind To check) |
 | 84 | Apr. 5, 1960 | Wisconsin primary | already in as cal.1960-04-05.elections-1960 |
 | 84 | May 10, 1960 | West Virginia primary | already in as cal.1960-05-10.elections-1960 |
 | 91 | June 23, 1960 | report to Jenkins by telephone from Montana | below the calendar's level (a supporter's report) |
 | 91 | June 27, 1960 | Montana's Democratic convention, Helena | a lead: the convention's choice of delegates (conventions.yaml), not given on the page |
 | 96 | June 27, 1960 | Spivack's column | not an entry (a column, no act) |
-| 98 | July 8, 1960 | Johnson flies to Los Angeles | minor (travel; the convention is in) |
+| 98 | July 8, 1960 | Johnson flies to Los Angeles | re-ruled: the flight cited under cal.1960-07-08.elections-1960-2 (98, A); his words to his campaign workers on arriving entered as cal.1960-07-08.elections-1960-los-angeles (Herring's account; Check: the day) |
 | 105 | July 13, 1960 | the convention's nominating session | already in as cal.1960-07-13.elections-1960 |
 | 149 | Oct. 18, 1960 | Johnson to Connally, by letter: "deeply disturbed about Texas" | entered as cal.1960-10-18.elections-1960 |
 | 150 | Nov. 8, 1960 | Texas's vote | already in as cal.1960-11-08.elections-1960 |
@@ -170,24 +193,24 @@ How the list was made: a script over the text layer (pp. 1–628) listed every m
 | 181 | Mar. 19, 1962 | Wicker's column on Johnson's eclipse | not an entry (a column, no act) |
 | 190 | Aug. 16, 1961 | Rayburn tells the House he is going home for treatment | already in as cal.1961-08-31.rules (its Check of the date: Caro gives the announcement Aug. 16 and the leaving "a few more days" after) |
 | 190 | Aug. 18-20, 1961 | Johnson in Berlin | already in as cal.1961-08-19.berlin-and-vienna |
-| 191 | Aug. 30, 1961 | Rayburn's letter to Mrs. Johnson | below the calendar's level |
-| 197 | Nov. 11, 1961 | the third White House dinner-dance | minor (social) |
+| 191 | Aug. 30, 1961 | Rayburn's letter to Mrs. Johnson | below the calendar's level; re-ruled, still passed over: remarks with no bearing on public business (a letter of thanks to Lady Bird Johnson) |
+| 197 | Nov. 11, 1961 | the third White House dinner-dance | re-ruled, still passed over: family and social matters with no bearing on public business (Johnson's fall dancing; no pending matter among those there) |
 | 211 | Oct. 20, 1962 | ExComm chooses the quarantine; Kennedy back from Chicago | already in as cal.1962-10-20.missile-crisis |
 | 212 | Oct. 21, 1962 | McCone briefs Johnson at The Elms (McCone's memorandum of Oct. 22) | entered as cal.1962-10-21.missile-crisis |
 | 213 | Oct. 24, 1962 | ships at the quarantine line, the ExComm | already in as cal.1962-10-24.missile-crisis |
 | 215, 218 | Oct. 22-26, 1962 | ExComm's meetings, Johnson silent | already in under the missile crisis's entries (Johnson's part not an event of its own) |
 | 224 | Dec. 17, 1962 | Bundy's office sets Johnson's briefing for the next morning | below the calendar's level |
-| 225 | May 29, 1963 | Kennedy's surprise birthday party, Johnson not asked | minor (social) |
+| 225 | May 29, 1963 | Kennedy's surprise birthday party, Johnson not asked | re-ruled: entered as cal.1963-05-29.transition-and-staff (a social occasion among the principals; the Vice President left out) |
 | 242 | May 14, 1964 | Robert Kennedy's interview with Martin | already in as cal.1964-05-14.robert-kennedy |
 | 250 | Mar. 1, 1963 | Robert Kennedy "emphatically not" a candidate for 1968 | a lead: the year of the denial, and its source, not given on the page |
 | 251-53 | Mar. 11, 1963 | Johnson at St. Augustine, the banquet integrated at his insistence | entered as cal.1963-03-11.civil-rights-the-executive |
 | 257 | May 12, 1963 | Kennedy back from Camp David on Birmingham, Johnson not there | already in as cal.1963-05-11.alabama |
-| 258 | June 1, 1963 | Johnson asks O'Donnell for fifteen minutes alone with Kennedy | below the calendar's level (the request; the meeting of June 3 is in as cal.1963-06-03.civil-rights-bill) |
+| 258 | June 1, 1963 | Johnson asks O'Donnell for fifteen minutes alone with Kennedy | re-ruled: entered as cal.1963-06-01.civil-rights-bill-2 (a favour asked of an officeholder) |
 | 262 | June 22, 1963 | the civil rights leaders in the Cabinet Room | already in as cal.1963-06-22.civil-rights-bill |
 | 263 | July 18, 1963 | the equal employment committee, Robert Kennedy and Webb | already in as cal.1963-07-18.civil-rights-the-executive |
 | 266 | June 13 [11], 1963 | Kennedy's civil rights address | already in as cal.1963-06-11.civil-rights-bill (Caro prints June 13) |
 | 268 | Oct. 2, 1961 | UPI on Texas conservatives leaving the party | undated (a report of a trend) |
-| 276 | Sept. 9, 1963 | Ralph Hill's suit against Baker and Serv-U | minor (a private suit; the Baker thread opens with the resignation, cal.1963-10-07.baker) |
+| 276 | Sept. 9, 1963 | Ralph Hill's suit against Baker and Serv-U | re-ruled: entered as cal.1963-09-09.baker (the suit that opens the affair; Check: the docket) |
 | 282-87 | Oct. 6, 1963 | the *Post*'s story naming Reynolds | not an entry (a news story, no act) |
 | 288 | Oct. 4, 1963 | Mansfield to reporters: Baker not asked to resign | entered as cal.1963-10-04.baker |
 | 290 | Oct. 26-27, 1963 | the Carroll Arms stories | not an entry (news stories, no act) |
@@ -195,10 +218,10 @@ How the list was made: a script over the text layer (pp. 1–628) listed every m
 | 296 | Nov. 15, 1963 | Young and Burdick tell reporters of Baker's part in the committee assignments of 1961 | entered as cal.1963-11-15.baker |
 | 296 | Nov. 18, 1963 | a *Daily News* column on Baker | not an entry (a column, no act) |
 | 298 | Nov. 11-18, 1963 | *Life*'s team on Johnson's money | a lead: the unpublished story; Caro from Sackett and Lambert |
-| 299 | Nov. 15, 1963 | Johnson flies to the ranch | minor (travel) |
+| 299 | Nov. 15, 1963 | Johnson flies to the ranch | re-ruled: entered as cal.1963-11-15.assassination (a trip, R15; the preparations for the Kennedys' visit) |
 | 346 | Oct. 15, 1963 | Byrd's Finance Committee opens hearings on the tax bill | entered as cal.1963-10-15.economy |
 | 347 | Nov. 14, 1963 | Kennedy's last news conference: an "eighteen-month delivery" | a lead: the news conference (Public Papers), not yet entered |
-| 388 | Dec. 6-7, 1963 | Mrs. Kennedy moves out; the Johnsons into the White House | minor (domestic) |
+| 388 | Dec. 6-7, 1963 | Mrs. Kennedy moves out; the Johnsons into the White House | re-ruled: cited under cal.1963-12-07.succession, the entry the Whalen reader claimed in the ledger (500; Check: 388 gives Dec. 6 for Mrs. Kennedy's leaving, 500 the morning of Dec. 7) |
 | 398 | Nov. 21, 1963 | the leaders' breakfast: Kennedy wants Mundt's ban on wheat credits defeated | entered as cal.1963-11-21.trade |
 | 403 | Nov. 20-21, 1963 | Honolulu; Bundy's draft of NSAM 273 | already in as cal.1963-11-20.vietnam and cal.1963-11-26.vietnam |
 | 460 | June 18, 1963 | the House passes an appropriation bill held since in the Senate | a lead: which bill Caro means, not named on the page |
@@ -213,12 +236,12 @@ How the list was made: a script over the text layer (pp. 1–628) listed every m
 | 481 | Dec. 10-11, 1963 | Finance on Long's oil amendment | a lead: the committee's votes, not read |
 | 497 | Jan. 9, 1964 | the date set for the Rules hearings | already in as cal.1964-01-09.civil-rights-bill |
 | 498 | Dec. 5-6, 1963 | Smith's surrender; Byrd's lunch; the headlines | already in as cal.1963-12-05.civil-rights-bill and cal.1963-12-05.economy |
-| 500 | Nov. 26, 1963 | Mrs. Johnson asks the chief usher to The Elms | minor (domestic) |
+| 500 | Nov. 26, 1963 | Mrs. Johnson asks the chief usher to The Elms | re-ruled: entered as cal.1963-11-26.succession-3 (the move planned, the restored rooms kept; for the merger: list it also in `white-house`, the thread the Clifford patch of this batch makes, by an `also` op once that patch lands) |
 | 501 | Dec. 16-21, 1963 | the House's Mundt amendment on the aid appropriation; the conferees drop it | already in as cal.1963-12-23.foreign-aid (the appropriation's course) |
 | 506 | Dec. 28, 1963 | Erhard at the ranch | already in as cal.1963-12-28.europe-and-the-alliance |
 | 512, 598 | Jan. 8, 1964 | State of the Union | already in as cal.1964-01-08.program |
 | 517 | Dec. 30, 1963 | McNamara and the Joint Chiefs at the ranch on the defense budget | entered as cal.1963-12-30.defense |
-| 521, 527 | Dec. 17, 1963-Feb. 9, 1964 | the *Chronicle* and the bank merger: the letter, the calls to Jackson, Thomas, Valenti | already in as cal.1964-01-02.press-and-broadcasting, cal.1964-01-04.press-and-broadcasting and cal.1964-01-08.press-and-broadcasting; the calls of Jan. 20 and Feb. 9 minor |
+| 521, 527 | Dec. 17, 1963-Feb. 9, 1964 | the *Chronicle* and the bank merger: the letter, the calls to Jackson, Thomas, Valenti | already in as cal.1964-01-02.press-and-broadcasting, cal.1964-01-04.press-and-broadcasting and cal.1964-01-08.press-and-broadcasting; the calls of Jan. 20 and Feb. 9 minor; re-ruled: the calls of Jan. 20 and Feb. 9 entered as cal.1964-01-20.press-and-broadcasting and cal.1964-02-09.press-and-broadcasting (527; the recordings behind To check) |
 | 533 | Dec. 23, 1963 | Johnson asks Valeo for another memorandum from Mansfield on Vietnam | already in as the request behind cal.1964-01-06.vietnam |
 | 535 | Jan. 2-Feb. 1, 1964 | the Krulak committee's plan, received, approved, begun | already in as cal.1964-01-16.vietnam |
 | 535 | Mar. 2, 1964 | Bundy asks Johnson his "own internal thinking" on Vietnam | a lead: the day's calls of Johnson and Bundy (12:35, 5:20, 5:22 p.m., Miller Center); Caro's source not matched to one |
@@ -241,11 +264,11 @@ How the list was made: a script over the text layer (pp. 1–628) listed every m
 | 568 | May 20, 1964 | Dirksen after the Republican conference: "an idea whose time has come" | entered as cal.1964-05-20.civil-rights-bill |
 | 568 | June 4, 1964 | Humphrey: more time for the cloture votes | minor (the same position again) |
 | 568 | June 10, 1964 | cloture | already in as cal.1964-06-10.civil-rights-bill |
-| 569 | June 30-July 2, 1964 | Rules releases the Senate's bill; the House passes it; the signing | already in as cal.1964-07-02.civil-rights-bill (Rules's step minor) |
+| 569 | June 30-July 2, 1964 | Rules releases the Senate's bill; the House passes it; the signing | already in as cal.1964-07-02.civil-rights-bill; Rules's step, once "minor", re-ruled: cited under cal.1964-06-30.civil-rights-bill (569, D) |
 | 570 | Dec. 2, 1963 | the call to Bolling | already in as cal.1963-12-02.civil-rights-bill |
-| 574 | Dec. 5, 1963 | Schlesinger asks Robert Kennedy about Oswald | minor (Schlesinger's journal) |
+| 574 | Dec. 5, 1963 | Schlesinger asks Robert Kennedy about Oswald | re-ruled: entered as cal.1963-12-05.assassination-3 (said in private about public business) |
 | 583 | Mar. 10, 1964 | New Hampshire primary | already in as cal.1964-03-10.elections-1964 |
-| 588 | Dec. 30, 1963 | Schlesinger's journal on Johnson | minor (a diary entry) |
+| 588 | Dec. 30, 1963 | Schlesinger's journal on Johnson | re-ruled: entered as cal.1963-12-30.transition-and-staff (a special assistant's private judgment of the President's handling of policy) |
 | 589 | Nov. 27, 1963 | Johnson and Sorensen on Galbraith's draft of the address | already in as the drafting of cal.1963-11-27.succession |
 | 590 | Jan. 15-Feb. 29, 1964 | Sorensen's resignation | already in as cal.1964-01-15.transition-and-staff |
 | 593-94 | Mar. 19, 1964; July 30-Aug. 4, 1964 | Salinger resigns to run; Engle's death; Salinger appointed | already in as cal.1964-03-19.transition-and-staff and cal.1964-08-04.congress |
@@ -260,3 +283,6 @@ National:
 - Kennedy's last news conference (Nov. 14, 1963) and statement on the tax bill (Nov. 16); Johnson's news conferences of Jan. 25 and Mar. 7, 1964: the Public Papers.
 - The agreement on Dirksen's amendments, May 12–13, 1964, and the Republican conference of May 19–20; the Leadership Conference's prayer services and the Interreligious Convocation of Apr. 28, 1964.
 - Montana's Democratic convention, June 27, 1960, and its delegation (Caro 91, 96).
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: Johnson–McCormack, Nov. 29, 1963, on Smith (463): entered as `cal.1963-11-29.civil-rights-bill-3` (the hour, 12:04, from the transcript's heading in the note, Check).

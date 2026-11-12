@@ -22,6 +22,31 @@ The rest hold for the units their maps give; where the page bears out only part 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended.
+
+Batch 6 (Nov. 10–11, 2026): the scan on archive.org again (DTIC_ADA328596, no text layer; leaf = PDF page; folio 731 = PDF 770, by archive.org's page-number file and the page images of 730 and 731), p. 731 and its note 2 (Notes to Pages 731–, PDF 991) OCR'd afresh from the page images (tesseract) and deleted after. The one row of the grounds re-ruled: the event already in the calendar, cited. Patch `inbox/2026-11-06-b6-watson-into-the-missile.yaml`: one cite (unit A) and its `via` row; one edge added to the by-work file (731 n.2, Goodpaster's memorandum, a registered witness). The other rows are not private, social or draft rows and stand as they were.
+
+Batch 9 (Nov. 11, 2026, evening): the scan on archive.org again (DTIC_ADA328596, PDF; no text layer, OCR by tesseract of the pages needed, each read off the page image). Leaf minus folio: 28 at 396–97 (the page-number file is a leaf off there), 39 from 628 on (checked on 628, 638, 654, 719, 760, 762, 770); the notes, "Notes to Pages 650–54" at PDF 976 on. The "already in" rows, ruled:
+
+| Row | Ruling |
+|---|---|
+| 397, Jan. 14, 1960, the transfer to NASA | cited under `cal.1960-01-14.space` (A, in part: the announcement of the transfer of the Development Operations Division; not Huntsville, Saturn, B or C) |
+| 763, Jan. 25, 1960, Castro a "madman" | cited under `cal.1960-01-25.cuba` (B, in part: Watson's words, not Goodpaster's) |
+| 629, Apr. 27, 1960, Rhee resigns | cited under `cal.1960-04-26.japan-and-korea` (E) |
+| 720–24, May 1960, the U-2, Paris | cited under `cal.1960-05-15.soviet-union` (722: B, C in part; 723: D, E in part, F). The other May entries of the thread (May 1–17) not cited from these pages |
+| 639, June 1960, the treaty with Japan | cited under `cal.1960-06-22.japan-and-korea` (A, C in part); variant on B (Watson: the upper house "ratified the treaty," June 18–19; the entry: the upper house not having voted) |
+| 769, June 8, 1960, Rockefeller | cited under `cal.1960-06-08.elections-1960` (B, in part: "$3 billion") |
+| 761, July 12–14, 1960, the Congo | cited under `cal.1960-07-13.congo` (A, in part); variant on `cal.1960-07-12.congo-2` A (Watson: the units within 50 hours; the entry, 30; the entry's map row for 761 reads "all" and should be '?'). `cal.1960-07-12.congo` B already cites 761 |
+| 764, Aug. 18, 1960, the Cuba budget | cited under `cal.1960-08-18.cuba` (B, in part: "approximately $13 million"; no U.S. military personnel in a combat role) |
+| 749, Nov. 16, 1960, the balance of payments | cited under `cal.1960-11-16.economy` (B, C); entered as `cal.1960-11-09.economy` (the meeting of Nov. 9, FRUS 1958–60, IV, doc. 57) and `cal.1960-11-15.economy` (Augusta, doc. 58), neither in the calendar |
+| 771, Dec. 13, 1960, McNamara | cited under `cal.1960-12-13.transition-and-staff-cabinet` (A) |
+| 655, Jan. 2–7, 1961, Laos | cited under `cal.1961-01-02.laos` (A, D in part: the assembly's recognition Jan. 3, no vote); entered as `cal.1961-01-02.laos-2` (the Defense Department's announcement), `cal.1961-01-04.laos-2` (the SEATO Council), `cal.1961-01-07.laos-3` (the Chiefs' authority for the airlift and the armed T-6s). `cal.1961-01-12.laos` and `-13` already cite 655 |
+
+Patch `inbox/2026-11-12-b9-watson.yaml`: 14 cites, 2 variants, 5 new entries. Leads (not entered): Gates to the Cabinet, Nov. 9, 1960, "no mandate" (771 n.180); Gates and McNamara, Dec. 9 and 21, 1960 (771); Sarasin's statement after the SEATO Council of Jan. 4 (no day, 655 n.153); the U-2 pages' other days (May 3, 5, 7, 9, 24, 25: 721–24).
+
+Where batch 9 stopped: all 11 rows ruled.
+
+
 Dated events of Jan. 6, 1960–Jan. 20, 1961 in the volume that the calendar does not take, a row each, for the owner to rule on. Every dated mention of the period was listed by script (about 500) and set against the calendar's entries of the day and the days around it; the rows below are the events. The military re-read of Nov. 5, 2026 (below) took the operations, deployments, orders and program decisions the first pass had left out, and listed the rest row by row: the hearings, the services' proposals, the Planning Board's and the Council's papers, the AFPC, NATO's staff papers. A row "lead" names an event the calendar should take once its record is read (R6, R8); the record is named. The volume's mentions of earlier years carried forward (the 1958 reorganization, Khrushchev's visit of 1959) are out of the span.
 
 | Page | Date | Event | Why |
@@ -51,7 +76,7 @@ Dated events of Jan. 6, 1960–Jan. 20, 1961 in the volume that the calendar doe
 | 645 | July 21, 1960 | the NSC approves the revised Far East policy | lead (R8: NSC 6012; the NSC's record of action) |
 | 375 | July 25, 1960 | the NSC: Burke on 40 Polaris submarines as the goal | lead (the 453d NSC's memorandum of discussion; the calendar has the meeting's Cuba matter, cal.1960-07-25.cuba) |
 | 678 | Aug. 1, 1960 | Dillon's report on military aid to the NSC, the President's decision | to leads (the aid policy's turn, FRUS 1958–60, IV) |
-| 731 | Aug. 1, 1960 | Eisenhower to the NSC: the world in "a kind of ferment" | a passed-over paper (private remarks, with nothing new) |
+| 731 | Aug. 1, 1960 | Eisenhower to the NSC: the world in "a kind of ferment" | re-ruled: already in the calendar as cal.1960-08-01.africa (Eisenhower to his foreign policy advisers, Goodpaster's memorandum, FRUS 1958–60, XIV, doc. 157: the record Watson's note 2 cites, not an NSC meeting); Watson, 731, cited under it for unit A |
 | 552 | Aug. 2, 1960 | State-Defense meeting: Twining proposes five Polaris submarines for NATO | lead (R7: the meeting's memorandum; the proposal's course in cal.1960-12-16.europe-and-the-alliance) |
 | 744 | Aug. 3, 1960 | the interdepartmental study of limited war reports | to leads (the study's record and the meeting of Oct. 4, p. 748) |
 | 377 | Aug. 8, 1960 | Eisenhower informs Congress five Polaris submarines to be begun in fiscal 1961 | to leads (the document: not the message of cal.1960-08-08.congress) |
@@ -133,3 +158,8 @@ Foreign
 - Diệm's decree of Oct. 7, 1960, on an internal security council (Watson 648): FRUS 1958–60, I.
 - The airlift of the UN force to the Congo, July 1960: its first day (Watson 761 gives none).
 - Gates to Herter, Oct. 4, 1960, on Guantanamo: FRUS 1958–60, VI, doc. 586, not read.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the U-2 pages' other days, May 1960 (721–24): the May 9 statement and NSC, the May 15–17 meetings and the May 25 broadcast already cited; Gates's alert of May 15 cited under `cal.1960-05-15.soviet-union` (722–23); the NSC of May 24 entered as `cal.1960-05-24.soviet-union-u2`.
+- Lead: Gates to the Cabinet, Nov. 9, 1960, 'no mandate' (771 n.180): entered as `cal.1960-11-09.elections-1960-count-3` (the note not read).
+- Lead: Gates and McNamara, Dec. 9 and 21, 1960 (771): passed over, already in and citing 771 (`cal.1960-12-09.transition-and-staff-2`, `cal.1960-12-21.transition-and-staff-2`).

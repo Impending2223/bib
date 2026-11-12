@@ -69,6 +69,39 @@ Primary records cited first: the Public Papers for the special message of Mar. 1
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor (private remarks, social, routine) are ruled again in "Re-ruled under R18 as amended (b6)" below the table (read Nov. 10, 2026).
+
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7; no Wofford patch was made in batch 7). Batch 8, Nov. 11, 2026 (patch `2026-11-11-b8-wofford`, from the same Drive copy, printed page = PDF page − 12, checked at pp. 154, 157, 178 and 186 on the page image; the other quotations from the text layer): 24 rows ruled, 4 new entries, 52 cites, 14 Checks. Rulings:
+
+| Row (pages) | Ruling |
+|---|---|
+| 20 | cited under `cal.1960-10-25.elections-1960-5` (20, the draft; not Walsh); Check: Rogers recommended the action |
+| 49–50 | cited under `cal.1960-07-02.elections-1960-2` and `cal.1960-07-04.elections-1960` (C); Check: Lincoln's reply, not the words in D |
+| 53 | cited under `cal.1960-07-13.elections-1960-los-angeles` (53); Check: Marion Davies' villa, Santa Monica; Illinois 61½ not in the nomination entry's units, not cited |
+| 62–63 | cited under `cal.1960-09-26.elections-1960` and `cal.1960-10-07.elections-1960`, each with a Check (the Negro baby; "one stroke of the pen") |
+| 64 | cited under `cal.1960-10-20.cuba` and `cal.1960-10-21.elections-1960` (the gist, not the words) |
+| 67 | cited under `cal.1960-11-09.transition-and-staff` (67) |
+| 71–72 | cited under `cal.1960-12-08.transition-and-staff-cabinet-2`, `cal.1960-12-13.transition-and-staff-cabinet` (McNamara) and `cal.1960-12.transition-and-staff-cabinet-3` (B, Bell) |
+| 76 | not entered: Galbraith and Schlesinger against Dillon, undated even to the month (a lead); the entries on Dillon hold Gore, not this |
+| 82–83 | cited under `cal.1960-12-01.transition-and-staff-cabinet-2` (Fulbright); entered as `cal.1960-11-30.transition-and-staff-cabinet` (Bowles's breakfast) and `cal.1960-11.transition-and-staff-cabinet-4` (Stevenson offered the UN); `cal.1960-12-04.transition-and-staff-cabinet` already cites 83 |
+| 98 | cited under `cal.1961-01-19.laos` (B, D, E) |
+| 139 | Check on `cal.1961-01-11.rules` (no presidential pressure; "early February"); the page gives nothing the entry's vote rests on, no cite |
+| 141 | cited under `cal.1961-01.transition-and-staff-2` (141) |
+| 152–57 | cited under `cal.1961-05-19.robert-kennedy`, `cal.1961-05-21.freedom-rides` (Check), `cal.1961-05-22.robert-kennedy-2` (D; Check), `cal.1961-05-28.opinion` (Check: 63 percent), `cal.1961-09-22.freedom-rides`; already cited: `cal.1961-05-14`, `-15.robert-kennedy`, `-20`, `-24` (two), `-24.freedom-rides-3`, `-25`, `-29`, `cal.1961-05.freedom-rides-2` and `-3`. Leads, not entered: the Eastland–Marshall assurance of arrest at Jackson (155), the July 19 press conference (157) |
+| 158 | cited under `cal.1961-05-25.space` (158); Check: "State of the Union" |
+| 167–77 | cited under `cal.1962-09-30.mississippi-ole-miss`, `cal.1962-11-20.civil-rights-the-executive`, `cal.1962-03-20.court`, `cal.1961-06.civil-rights-the-executive`, `cal.1963-02-28.voting-rights`, `cal.1963-05-24.civil-rights-the-executive`, `cal.1963-06-11.alabama`, `cal.1963-06-11.civil-rights-bill`, `cal.1963-08-28.march-on-washington`, `cal.1963-09-15.alabama`, `cal.1963-11-21.civil-rights-bill`; entered as `cal.1963-05-13.civil-rights-the-executive` (Louis Martin to Robert Kennedy) and `cal.1963-06-12.civil-rights-bill-4` (Kennedy to Eisenhower). Leads, not entered: Hodges's recollection (172), Kennedy's last press conference before Texas (175), King's *Nation* article (170), the Ethiopian press (170) |
+| 178–200 | cited under `cal.1965-03-05.voting-rights` (Check: two and a half hours), `cal.1965-03-07.voting-rights` (Check: some 500) and `cal.1965-03-15.voting-rights` (B, D); the march entries of Mar. 21–25 already cite 186–98. Not read against every other Selma entry (88 in March); Reeb's beating (185) and Forman's speech (184) not matched |
+| 201–03 | cited under `cal.1968-04-03.king` (C), `cal.1968-04-04.robert-kennedy`, `cal.1968-04-05.king-4`, `cal.1968-04-08.king`, `cal.1968-04-09.king` (B, D) |
+| 204–24 | cited under `cal.1963-10-10.king` and `cal.1963-10-21.king` (207, 217). The rest (Hoover, Feb. and May 1962; the December 1963 conference; the Church committee's findings) not matched to entries: secondhand, not settled |
+| 275 | cited under `cal.1961-08-30.peace-corps` (A) |
+| 286–98 | cited under `cal.1964-02-01.transition-and-staff` (286), `cal.1964-02-04.poverty` (293) and `cal.1963-10-29.poverty` (290); pp. 287–92, 294–98 (Heller's planning, the bill's passage, the Shriver ultimatum of August) not matched |
+| 314–16 | already cited, 314 (`cal.1966-05-18.defense`) and 315 (`cal.1966-07-02.defense`); cited under `cal.1967-03-06.draft` (315, the report) |
+| 339–83 | cited under `cal.1960-11-18.cuba` (Check: Nov. 27), `cal.1961-04-04.cuba` (B, C; Check), `cal.1961-04-20.cuba-bay-of-pigs`; already cited: Bowles, 366–74 (`cal.1961-07-15`, `-07-17`, `-07`, `-07-2`, `cal.1961-11-26.transition-and-staff`, `cal.1961-05-31.latin-america-2`). Bowles's mid-March meeting on Laos (366) still a lead; Apr. 14–15 (346–48) not matched |
+| 427–52 | cited under `cal.1968-08-28.elections-1968` (E) and `cal.1968-08-26.elections-1968-chicago-6`; Wofford's night in jail (442–43) is already cited under `cal.1968-08-30.elections-1968-chicago-streets-2`; Hayden (436, 451–52) not matched |
+| 461–84 | out of the brief: the Commission's work of 1957–59; no passage dated in 1960 or later found |
+
+Where batch 8 stopped: all 24 rows ruled; the broad rows named above as "not matched" are the part left unread against the calendar (Selma's other days, the FBI pages' secondhand dates, the poverty bill's passage, Bay of Pigs Apr. 14–15, Hayden).
+
 Made from the reading notes, page by page: every dated event the book treats within the span, not entered and not already in the calendar.
 
 | Page | Date | Event | Why |
@@ -153,6 +186,23 @@ Made from the reading notes, page by page: every dated event the book treats wit
 | 427–52 | 1968-08 | Chicago: Hayden, Lincoln Park, the cells | already in the calendar but for Wofford's night in jail (442–43), minor |
 | 461–84 | 1957–60 | The appendix: the Commission's hearings and reports | out of the brief: before Jan. 6, 1960, but for its 1960 passages, already in the calendar |
 
+### Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy (the same Drive file, 520 PDF pages with a text layer, downloaded into the scratchpad and deleted after; offset unchanged, printed page = PDF page − 12; p. 442 checked against its page image, PDF 454). Patch: `inbox/2026-11-06-b6-wofford-of-kennedys.yaml` (b6-wofford-of-kennedys: 7 entries added). A by-work file made for the one work the text quotes as its ground for a re-ruled passage: `sources/witnesses/by-work/wofford-of-kennedys-and-kings.yaml` (26, Nixon's *Six Crises*, the chauffeur).
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 26 | 1960-11-10 | Nixon's chauffeur; Nixon: "it was mine" | entered, `cal.1960-11-10.elections-1960-nixon` (Nixon's account, quoted; *Six Crises* to check) |
+| 43–44 | 1960-05 | Sorensen to Wofford at lunch: Goodwin; Shriver "the house Communist"; good and bad | entered, `cal.1960-05.elections-1960-kennedy` (Check: the day) |
+| 65 | 1960-11-08 | Raymond Jones to Wofford on election day | entered, `cal.1960-11-08.elections-1960-king` |
+| 65–66 | 1960-11-09 | "I'm hungry" | passed over: a remark with no bearing on public business |
+| 74 | 1960-11/12 | Kennedy's call to the talent search on the leaks | entered, `cal.1960-12.transition-and-staff-5` (Check: the month) |
+| 79–80 | 1960-11 | Wofford with Stevenson on the Field Foundation's Georgia tour | entered, `cal.1960-11.transition-and-staff-cabinet-3` (a party figure's tour and his talk of the State Department; Check: the day) |
+| 95 | 1961-01-19 | the talent search's files to the White House | entered, `cal.1961-01-19.transition-and-staff` |
+| 441–43 | 1968-08-30 | Wofford's night in jail; the night court, about 3 a.m. | entered, `cal.1968-08-30.elections-1968-chicago-streets-2` (the arrest itself already in, `cal.1968-08-29.elections-1968-chicago-5`) |
+
+Not ruled again: p. 20 (Justice's draft statement for Eisenhower, already in the calendar) and p. 51 (Bowles's draft of the platform, a lead for the day). Seen on the pages read and not listed before, for the next reading: p. 74, Kennedy to Neustadt, "I don't want you to relate to Clark Clifford" (the transition, undated: lead). (Kempton's columns of 1968, p. 442, are already in: `cal.1968-03.press-and-broadcasting-2`, `cal.1968-06.press-and-broadcasting`.)
+
 ## The press
 
 | Date | Outlet | Item | Page |
@@ -173,3 +223,4 @@ National:
 - Wofford's memorandums and letters to the President, 1960–62: Wofford Papers, JFK Library, not read.
 - Louis Martin, Mildred Jeffrey, Warren Wiggins, William Josephson, Franklin Williams, Thomas Farmer: no name entries; each acts in the new entries.
 - The Senate Foreign Relations hearing on the Peace Corps Act, 1961, Shriver's testimony on his return (274): govinfo.
+- (b6) Kennedy to Neustadt, "I don't want you to relate to Clark Clifford," the transition (74): the day.

@@ -72,12 +72,18 @@ entries:
     thread: school-aid
     also: [press-and-broadcasting]
     c: 'The *Times* again: the amended NDEA "was the ransom; and so the public-school bill ought to be ... liberated from the Rules Committee, where it has unconscionably been held by a strange coalition."'
-    n: '[[w.graham-uncertain-triumph]], 22. To check: *New York Times*, July 3, 1961 (cited by [[w.graham-uncertain-triumph]], 22 n.57).'
+    n: '[[w.graham-uncertain-triumph]], 22. To check: [*New York Times*, July 3, 1961](https://timesmachine.nytimes.com/timesmachine/1961/07/03/issue.html) (cited by [[w.graham-uncertain-triumph]], 22 n.57).'
     src:
       c: b1328e31
       rows:
         - 'w.graham-uncertain-triumph 22: all'
         - 'via w.graham-uncertain-triumph 22 n.57: all'
+    time_range:
+      - 1961-07-03T09:00Z
+      - 1961-07-03T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-07-04.vietnam-hanoi
     when: July 4
     date: '1961-07-04'
@@ -152,12 +158,24 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 394: all'
         - 'via w.fursenko-khrushchevs-cold-war 394 n.32: all'
     tags: [name:chen-yi, name:gromyko-andrei]
+  - id: cal.1961-07-05.defense-2
+    when: July 5
+    date: '1961-07-05'
+    thread: defense
+    c: 'Kennedy to Bundy: have the civil defense people come in next week with an emergency plan; what could be done in six months to improve the population''s chance of surviving a war; what citizens should be asked to do.'
+    n: '[[w.reeves-president-kennedy]], 180. To check: Kennedy to Bundy, July 5, 1961, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 180). Names: Kennedy, Bundy.'
+    src:
+      c: 7a6d4646
+      rows:
+        - 'w.reeves-president-kennedy 180: all'
+        - 'via w.reeves-president-kennedy 180 n.i-think-we-should-ask: all'
+    tags: [name:kennedy-john-f, name:bundy-mcgeorge]
   - id: cal.1961-07-06.berlin-and-vienna
     when: July 6
     date: '1961-07-06'
     thread: berlin-and-vienna
     c: Raskin, of the NSC staff, to McGeorge Bundy, on Germany.
-    n: '[[w.bird-color-of-truth]], 212 n.* (in passing). Names: Raskin, McGeorge Bundy.'
+    n: '[[w.bird-color-of-truth]], 212 n.∗ (in passing). Names: Raskin, McGeorge Bundy.'
     src:
       c: e659fc23
       rows:
@@ -331,11 +349,12 @@ entries:
     date: '1961-07-09'
     thread: conservative-movement
     c: Whittaker Chambers dies, at sixty.
-    n: '[[w.nixon-six-crises]], 61 (his last years on his farm at Westminster, Md., where he wrote *Witness*).'
+    n: '[[w.nixon-six-crises]], 61 (his last years on his farm at Westminster, Md., where he wrote *Witness*); [[w.nixon-rn]], 238 (Rose Woods tells Nixon of the death on the afternoon of July 11).'
     src:
       c: c0b798e2
       rows:
         - 'w.nixon-six-crises 61: all'
+        - 'w.nixon-rn 238: A'
   - id: cal.1961-07-09.vietnam-operations
     when: July 9
     date: '1961-07-09'
@@ -371,7 +390,7 @@ entries:
     thread: press-and-broadcasting
     also: [robert-kennedy]
     c: '*U.S. News & World Report*, "Role of Robert Kennedy: No. 2 Man in Washington": "second only to the president in power and ... influence."'
-    n: '[[w.shesol-mutual-contempt]], 74. To check: *U.S. News & World Report*, July 10, 1961, 43 (cited by [[w.shesol-mutual-contempt]], 74). Names: Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 74. To check: *U.S. News & World Report*, July 10, 1961, at 43 (cited by [[w.shesol-mutual-contempt]], 74). Names: Robert Kennedy.'
     src:
       c: 5a057efd
       rows:
@@ -396,6 +415,21 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-10.republican-party-congress
+    when: July 10
+    date: '1961-07-10'
+    thread: republican-party-congress
+    also: [berlin-and-vienna]
+    c: 'Dirksen and Halleck call on Eisenhower. By Dirksen''s account to the Senate Republicans next day: a number of subjects discussed; Eisenhower "not too communicative on the Berlin matter."'
+    n: '[[w.wolff-minutes-of-the-senate]], 890 (Dirksen''s report to the conference, July 11, 1961, of the visit "on yesterday"; the minutes'' words). Names: Dirksen, Halleck, Eisenhower.'
+    tags: [name:dirksen-everett, name:halleck-charles-a, name:eisenhower-dwight-d]
+  - id: cal.1961-07-10.republican-party-congress-2
+    when: July 10
+    date: '1961-07-10'
+    thread: republican-party-congress
+    c: 'The Senate Republicans'' Committee on Committees, 10:05 to 10:20 a.m., on Tower''s assignments: Commerce, promised him in the campaign, cannot be had. Banking and Currency and Labor for Tower, Interior for Dirksen, Judiciary for Fong, on Carlson''s motion, unanimous. Javits on the seniority rule''s cost in campaigns.'
+    n: '[[w.wolff-minutes-of-the-senate]], 886–87. Names: Tower, Dirksen, Fong, Carlson, Javits.'
+    tags: [name:tower-john-g, name:dirksen-everett, name:fong-hiram-l, name:carlson-frank, name:javits-jacob-k]
   - id: cal.1961-07-11.governors-va
     when: July 11
     date: '1961-07-11'
@@ -404,6 +438,12 @@ entries:
     c: 'Virginia, Democratic primary for governor: Harrison, the attorney general, the Byrd organization''s candidate, over Stephens, the lieutenant governor, running against the organization, 199,519 to 152,639, 56.7 percent.'
     n: 'Votes: Wikipedia, ["1961 Virginia gubernatorial election"](https://en.wikipedia.org/wiki/1961_Virginia_gubernatorial_election), from Our Campaigns. [State Board of Elections, *Statement of the Vote*, Democratic Primary, July 11, 1961](https://va2.elstats2.civera.com/eng/files/serve/1111#page=3) (the Department of Elections'' historical database). To check: [[w.wilkinson-harry-byrd-and-the]]; [[w.heinemann-harry-byrd-of-virginia]]; [[w.ely-crisis-of-conservative-virginia]]. Names: Harrison, Stephens, Byrd.'
     tags: [state:va, name:harrison-albertis-s-jr, name:stephens-a-e-s, name:byrd-harry-f]
+    time_range:
+      - 1961-07-12T00:00Z
+      - 1961-07-12T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-07-11.right-and-the-military
     when: July 11
     date: '1961-07-11'
@@ -429,6 +469,37 @@ entries:
       - 1961-07-11T21:00Z
       - 1961-07-12T04:00Z
     time_zone: America/New_York
+  - id: cal.1961-07-11.foreign-aid
+    when: July 11–13
+    date: '1961-07-11'
+    thread: foreign-aid
+    also: [japan]
+    c: Tokyo. The meeting that makes the Development Assistance Group the Development Assistance Committee, Ball there. Between sessions Ball sounds the delegations, one by one, for Japan's membership in the OECD, and reviews with Japanese ministers the trade problems between the two governments. By Ball's account.
+    n: '[[w.ball-past-has-another-pattern]], 195–97. See [[cal.1961-07-01.japan]]. Names: Ball.'
+    src:
+      c: 33aa3313
+      rows:
+        - 'w.ball-past-has-another-pattern 195–97: all'
+    tags: [name:ball-george-w]
+  - id: cal.1961-07-11.japan
+    when: July 11–13
+    date: '1961-07-11'
+    thread: japan
+    c: 'Tokyo, Geihinkan, the government guesthouse. Ikeda''s party for Ball and his wife, the first high official of the Kennedy administration to visit Japan: a Japanese and a Western dinner, Noh and Kabuki. Ikeda later attacked in the Diet for the extravagance. By Ball''s account.'
+    n: '[[w.ball-past-has-another-pattern]], 197. Check: the day; Ball: during the DAC''s meeting, July 11–13. See [[cal.1961-07-11.foreign-aid]]. Names: Ikeda, Ball.'
+    src:
+      c: a21bac6e
+      rows:
+        - 'w.ball-past-has-another-pattern 197: all'
+    tags: [name:ikeda-hayato, name:ball-george-w]
+  - id: cal.1961-07-11.republican-party-congress
+    when: July 11
+    date: '1961-07-11'
+    thread: republican-party-congress
+    also: [berlin-and-vienna]
+    c: Senate Republican conference, thirty present, 9:37 to 10:33 a.m. On Schoeppel's motion it assigns Dirksen, Fong and Tower to committees; on the leaders' recommendation it enlarges the Policy Committee to sixteen for the 87th and names Tower to it. Dirksen reports his and Halleck's visit to Eisenhower the day before; on the U.N., a possible trade of Outer Mongolia's admission for Mauritania's; on Laos "the best judgment was to protect Viet-Nam and Thailand"; on Berlin, firmness. Javits proposes a task force of Senators and outsiders for a Republican statement on Berlin; Kuchel adds nuclear testing.
+    n: '[[w.wolff-minutes-of-the-senate]], 888–92 (the assignments, 888–89; Tower and the Policy Committee, 889–90; Dirksen''s report, 890–91; Javits and Kuchel, 891); the minutes'' account of Dirksen, not his words. See [[cal.1961-07-10.republican-party-congress]]. Names: Schoeppel, Dirksen, Fong, Tower, Halleck, Eisenhower, Javits, Kuchel.'
+    tags: [name:fong-hiram-l, name:tower-john-g, name:dirksen-everett, name:halleck-charles-a, name:eisenhower-dwight-d, name:javits-jacob-k, name:kuchel-thomas-h, name:schoeppel-andrew-f]
   - id: cal.1961-07-12.opinion
     when: July 12
     date: '1961-07-12'
@@ -447,12 +518,13 @@ entries:
     thread: berlin-and-vienna
     also: [defense]
     c: 'Lemnitzer to McNamara: 559,000 more men, half of them Army, would not change the strategy of the United States or NATO, still anchored to a nuclear response; partial mobilization might show the West''s determination and set back a Soviet timetable.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 155. To check: JCSM-476-61, Lemnitzer for SecDef, July 12, 1961, fldr 092 Germany (Berlin) Jul 61, box 51, ISA files, Acc 64A-2382 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 155 n.54). See [[cal.1961-07-06.berlin-and-vienna-2]]. Names: Lemnitzer, McNamara.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 155; [[w.poole-joint-chiefs-of-staff]], 145–46 & n.28 (the JCS proposals to McNamara of July 12: the division-size probe, the corps-size thrust, a program built around a 559,000-man expansion; NATO''s "main reliance" on nuclear weapons; partial mobilization "would not generate enough conventional forces" for non-nuclear combat "on a broad scale"; the Joint Chiefs, not Lemnitzer alone; Poole cites JCSM-461-61, Kaplan JCSM-476-61, perhaps another paper of the day; not the Army''s half or the Soviet timetable). To check: JCSM-476-61, Lemnitzer for SecDef, July 12, 1961, fldr 092 Germany (Berlin) Jul 61, box 51, ISA files, Acc 64A-2382 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 155 n.54). See [[cal.1961-07-06.berlin-and-vienna-2]]. Names: Lemnitzer, McNamara.'
     src:
       c: c9e2be00
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 155: all'
         - 'via x.1961-07-12.jcsm-476-61-lemnitzer-for-secdef-july: all'
+        - 'w.poole-joint-chiefs-of-staff 145–46 & n.28: ?'
     tags: [name:lemnitzer-lyman-l, name:mcnamara-robert-s]
     time_range:
       - 1961-07-12T13:00Z
@@ -707,6 +779,13 @@ entries:
       c: a570647a
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 269: all'
+  - id: cal.1961-07-14.berlin-and-vienna-4
+    when: July 14
+    date: '1961-07-14'
+    thread: berlin-and-vienna
+    c: 'Kennedy asks for an interagency evaluation of two requests to Congress: $1 to $1.5 billion at once, without controls or taxes; $4 to $5 billion in two or three weeks, with controls, taxes and a declaration of national emergency.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 146 & n.29. To check: FRUS 1961–1963, XIV, *Berlin Crisis, 1961–1962*, 197–98 (cited by [[w.poole-joint-chiefs-of-staff]], 146 n.29). See [[cal.1961-07-14.berlin-and-vienna-3]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-07-15.berlin-and-vienna
     when: July 15
     date: '1961-07-15'
@@ -733,7 +812,7 @@ entries:
     thread: goldwater
     also: [cuba]
     c: 'Goldwater: Kennedy''s foreign policy "outmoded" and "weak-kneed," Cuba the chief example.'
-    n: '[[w.goldberg-barry-goldwater]], 155; the day by the note, the [*New York Times*, July 15, 1961](https://timesmachine.nytimes.com/timesmachine/1961/07/15/issue.html), 12 (155 n.33). Check: the day of the words. Names: Goldwater, Kennedy.'
+    n: '[[w.goldberg-barry-goldwater]], 155; the day by the note, the [*New York Times*, July 15, 1961](https://timesmachine.nytimes.com/timesmachine/1961/07/15/issue.html), at 12 (155 n.33). Check: the day of the words. Names: Goldwater, Kennedy.'
     src:
       c: 21a7b88e
       rows:
@@ -824,6 +903,12 @@ entries:
         - 'w.wofford-of-kennedys-and-kings 371: C-D'
     tags: [name:bowles-chester, name:kennedy-john-f, name:rusk-dean]
     short: Bowles
+    time_range:
+      - 1961-07-17T09:00Z
+      - 1961-07-17T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-07-17.trade
     when: July 17
     date: '1961-07-17'
@@ -901,7 +986,7 @@ entries:
     date: '1961-07-18'
     thread: school-aid
     c: House Rules Committee votes 8–7 to hold the school bills. Delaney, a Catholic Democrat, joins the conservatives over parochial aid. The enlarged committee fails its first test.
-    n: 'News Conference, [1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571) (July 19, 1961). [[w.sorensen-kennedy]], 361; [[w.sundquist-politics-and-policy]], 192 (the vote; Delaney); [[w.graham-uncertain-triumph]], 22 (Smith, Colmer and Delaney with the five Republicans; the public school bill, the NDEA bill and the college bill). To check: [[w.mcandrews-broken-ground]]. See [[cal.1961-02-20.school-aid]]. Names: Delaney, Smith.'
+    n: 'News Conference, [1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571) (July 19, 1961). [[w.sorensen-kennedy]], 361; [[w.sundquist-politics-and-policy]], 192 (the vote; Delaney); [[w.graham-uncertain-triumph]], 22 (Smith, Colmer and Delaney with the five Republicans; the public school bill, the NDEA bill and the college bill); [[w.mcpherson-political-education]], 195–96 (the bishops against the bill, Spellman "would not have it"; Delaney joins Smith and the conservatives in killing it in the Rules Committee). To check: [[w.mcandrews-broken-ground]]. See [[cal.1961-02-20.school-aid]]. Names: Delaney, Smith.'
     src:
       c: 84fec4ac
       rows:
@@ -909,6 +994,7 @@ entries:
         - 'w.sorensen-kennedy 361: all'
         - 'w.sundquist-politics-and-policy 192: A-B'
         - 'w.graham-uncertain-triumph 22: A, B'
+        - 'w.mcpherson-political-education 195–96: A-B'
     tags: [name:delaney-james-j, name:smith-howard-w]
     short: the Rules Committee's 8–7
     time_range:
@@ -989,13 +1075,35 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-18.berlin-and-vienna-2
+    when: July 18
+    date: '1961-07-18'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'The Joint Chiefs to McNamara on the $4 to $5 billion proposal, repeating their memorandum of July 12. The issues "in their simplest form": a decision to stay in Berlin "at all costs and risks"; a willingness to accept general war, made clear to the Soviets; prompt measures to deter Soviet trouble-making; partial mobilization to raise credibility and the capability for conventional and nuclear conflict.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 146 & n.29 ("Their answer, dated 18 July"). To check: JCSM-486-61, JCS to McNamara, July 18, 1961, JCS 1907/329, JMF 9172 Berlin/3100 (14 Jul 61) sec. 2 (cited by [[w.poole-joint-chiefs-of-staff]], 146 n.29). See [[cal.1961-07-14.berlin-and-vienna-4]]. Names: McNamara.'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1961-07-18.berlin-and-vienna-3
+    when: July 18
+    date: '1961-07-18'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'Kennedy confers with the Joint Chiefs. He says, and they agree, that a declaration of national emergency can be postponed. Could NATO''s air forces follow a ground probe with non-nuclear air action? LeMay: yes, if NATO members acted together and took the initiative. Could added US divisions be used if the allies add none? Lemnitzer: no, but more US forces with added allied strength would widen the non-nuclear options.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 147 & n.31. To check: FRUS 1961–1963, XIV, *Berlin Crisis, 1961–1962*, 216–17 (cited by [[w.poole-joint-chiefs-of-staff]], 147 n.31). See [[cal.1961-07-18.berlin-and-vienna-2]]. Names: Kennedy, LeMay, Lemnitzer.'
+    tags: [name:kennedy-john-f, name:lemay-curtis-e, name:lemnitzer-lyman-l]
   - id: cal.1961-07-19.africa
     when: July 19–22
     date: '1961-07-19'
     thread: africa
     also: [europe-and-the-alliance]
     c: 'Bizerte. Tunisia blockades the French naval base; French paratroops land, and the town is fought over. The United States and Britain urge a cease-fire on France and Tunisia. Security Council, July 22, Resolution 164, 10–0, France not voting: an immediate cease-fire, the forces back to their former positions.'
-    n: '[S.C. Res. 164](https://undocs.org/S/RES/164(1961)) (July 22, 1961). FRUS 1961–63, XXI, docs. [165](https://history.state.gov/historicaldocuments/frus1961-63v21/d165), [166](https://history.state.gov/historicaldocuments/frus1961-63v21/d166), [167](https://history.state.gov/historicaldocuments/frus1961-63v21/d167). To check: [[w.muehlenbeck-betting-on-the-africans]].'
+    n: '[S.C. Res. 164](https://undocs.org/S/RES/164(1961)) (July 22, 1961). FRUS 1961–63, XXI, docs. [165](https://history.state.gov/historicaldocuments/frus1961-63v21/d165), [166](https://history.state.gov/historicaldocuments/frus1961-63v21/d166), [167](https://history.state.gov/historicaldocuments/frus1961-63v21/d167). [[w.sorensen-kennedy]], 293 (July 19, fighting between France and Tunisia over the base at Bizerte). To check: [[w.muehlenbeck-betting-on-the-africans]].'
+    src:
+      c: fc2d7554
+      rows:
+        - 'https://undocs.org/S/RES/164(1961: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d165: all'
+        - 'w.sorensen-kennedy 293: A-C'
     short: Bizerte
   - id: cal.1961-07-19.transition-and-staff
     when: July 19
@@ -1038,7 +1146,7 @@ entries:
     date: '1961-07-19'
     thread: berlin-and-vienna
     c: 'The NSC on Berlin, the Cabinet Room, after four; the Steering Group first, in the President''s study. McNamara: no declaration of national emergency before Sept. 1 at the earliest, a limited call-up of reserves by authority of Congress; no fixed date for the larger call-up. Acheson, for an early decision, accepts the flexible timetable. Kennedy: unwise to add $3.5 billion without asking for taxes, though the recovery may suffer. The decisions to stress a "capability," not a present decision to deploy.'
-    n: '[FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77) (Bundy''s minutes). [[w.reeves-president-kennedy]], 195–96 (the NSC; no national emergency); [[w.preston-war-council]], 67 (Bundy''s advice before the meetings: serious military preparations); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 153 (the declaration of national emergency "allowed to die a quiet death"; Acheson agreeing to McNamara''s flexible timetable). [[w.sorensen-kennedy]], 590. See [[cal.1961-07-13.berlin-and-vienna]]. Names: McNamara, Acheson, Kennedy.'
+    n: '[FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77) (Bundy''s minutes). [[w.reeves-president-kennedy]], 195–96 (the NSC; no national emergency); [[w.preston-war-council]], 67 (Bundy''s advice before the meetings: serious military preparations); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 153 (the declaration of national emergency "allowed to die a quiet death"; Acheson agreeing to McNamara''s flexible timetable); [[w.poole-joint-chiefs-of-staff]], 147 (the NSC, "next day" after July 18: Acheson for a declaration of national emergency and a reserve call-up by September; McNamara''s flexible timetable, six Army and two Marine divisions in an active reserve, six divisions deployable to Europe by Jan. 1, 1962, without a national emergency or mobilizing major ground units; not the hour, the Steering Group, Acheson''s assent, Kennedy on taxes or the decisions). [[w.sorensen-kennedy]], 590. See [[cal.1961-07-13.berlin-and-vienna]]. Names: McNamara, Acheson, Kennedy.'
     src:
       c: 4384210c
       rows:
@@ -1050,6 +1158,7 @@ entries:
         - 'w.preston-war-council 67: A-B'
         - 'via w.preston-war-council 67 n.38g: A-B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 153: A, E'
+        - 'w.poole-joint-chiefs-of-staff 147: ?'
     tags: [name:mcnamara-robert-s, name:acheson-dean-g, name:kennedy-john-f, name:bundy-mcgeorge]
     time_range:
       - 1961-07-19T20:00Z
@@ -1097,7 +1206,7 @@ entries:
     date: '1961-07-19'
     thread: berlin-and-vienna
     c: David Riesman and Erich Fromm, a letter to the *New York Times* on Germany, unpublished. In July they press Kaysen to change the policy on Germany.
-    n: '[[w.bird-color-of-truth]], 212 n.*. Names: Kaysen. Check: the letter, unpublished; where Bird read it.'
+    n: '[[w.bird-color-of-truth]], 212 n.∗. Names: Kaysen. Check: the letter, unpublished; where Bird read it.'
     src:
       c: df7f06a4
       rows:
@@ -1216,7 +1325,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 374: all'
         - 'via w.fursenko-khrushchevs-cold-war 374 n.38: all'
-    tags: [name:shelepin-alexandr-n, name:khrushchev-nikita-s]
+    tags: [name:shelepin-aleksandr-n, name:khrushchev-nikita-s]
     time_range:
       - 1961-07-20T06:00Z
       - 1961-07-20T14:00Z
@@ -1242,6 +1351,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-20.berlin-and-vienna-2
+    when: July 20
+    date: '1961-07-20'
+    thread: berlin-and-vienna
+    also: [europe-and-the-alliance]
+    c: 'Kennedy to Macmillan on Berlin: the central problem to protect the allies'' vital interests without war if possible, and to be in the best position if war is forced on them.'
+    n: '[[w.reeves-president-kennedy]], 198. To check: Kennedy to Macmillan, July 20, 1961, Berlin papers, National Security Archive (cited by [[w.reeves-president-kennedy]], 198). Check: the day; Reeves''s text gives the day before the address of July 25, his note July 20. Names: Kennedy, Macmillan.'
+    src:
+      c: '65794717'
+      rows:
+        - 'w.reeves-president-kennedy 198: all'
+        - 'via w.reeves-president-kennedy 198 n.our-central-problem: all'
+    tags: [name:kennedy-john-f, name:macmillan-harold]
   - id: cal.1961-07-21.space
     when: July 21
     date: '1961-07-21'
@@ -1294,6 +1416,12 @@ entries:
         - 'via x.1961-07-21.fulbright-thurmond-letters: B-C'
         - 'via x.1988-10-12.woods-interview-yingling: B'
     tags: [name:fulbright-j-william, name:thurmond-strom]
+    time_range:
+      - 1961-07-21T09:00Z
+      - 1961-07-21T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-07-21.testing
     when: July 21
     date: '1961-07-21'
@@ -1311,6 +1439,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-21.cuba
+    when: July 21
+    date: '1961-07-21'
+    thread: cuba
+    c: The Special Group agrees that "the basic objective toward Cuba was to provide support to a U.S. program to develop opposition to Castro and to help bring about a regime acceptable to the U.S."
+    n: '[[w.sen-church-alleged-assassination-plots]], 135–36 (Memo for the Record, July 21, 1961; occasional harassment operations through the summer, "no overall strategy and little activity"). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memo for the Record, July 21, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 136). Names: Castro. Check: the day (the memorandum''s, not the meeting''s).'
+    tags: [name:castro-fidel]
+  - id: cal.1961-07-22.berlin-and-vienna
+    when: July 22
+    date: '1961-07-22'
+    thread: berlin-and-vienna
+    c: 'Rusk to Dowling at Bonn, copies to London, Paris and Moscow: the Soviets the ones with a problem in Berlin; two contingencies, East German controls on travel to stop the refugees, or disorder in the zone.'
+    n: '[[w.reeves-president-kennedy]], 198. To check: Rusk to Dowling, July 22, 1961, as reprinted in [[w.catudal-kennedy-and-the-berlin]], app. V, 305 (cited by [[w.reeves-president-kennedy]], 198). Names: Rusk, Dowling.'
+    src:
+      c: 3421541a
+      rows:
+        - 'w.reeves-president-kennedy 198: all'
+    tags: [name:rusk-dean, name:dowling-walter-c]
   - id: cal.1961-07-23.berlin-and-vienna
     when: July 23
     date: '1961-07-23'
@@ -1402,12 +1548,13 @@ entries:
     thread: berlin-and-vienna
     also: [defense]
     c: 'NSAM 62, after the NSC of July 19. A prompt strengthening of the forces: every step, without a present call of major reserve or Guard ground units, to make it possible to deploy as many as six more divisions and supporting air units to Europe any time after Jan. 1, 1962; Congress to be asked for $3.2 billion more, without a declaration of national emergency.'
-    n: '[FRUS 1961–63, XIV: Berlin Crisis, 1961–1962, doc. 80](https://history.state.gov/historicaldocuments/frus1961-63v14/d80). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 153 (the six divisions after Jan. 1, 1962). See [[cal.1961-07-19.berlin-and-vienna]].'
+    n: '[FRUS 1961–63, XIV: Berlin Crisis, 1961–1962, doc. 80](https://history.state.gov/historicaldocuments/frus1961-63v14/d80). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 153 (the six divisions after Jan. 1, 1962); [[w.poole-joint-chiefs-of-staff]], 147 (NSAM No. 62, July 24, adopting McNamara''s approach of July 19: six divisions and supporting air units deployable to Europe by Jan. 1, 1962, without a national emergency or mobilizing major ground units; $3.2 billion in new obligational authority asked of Congress). See [[cal.1961-07-19.berlin-and-vienna]].'
     src:
       c: f1df059d
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d80: all'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 153: B'
+        - 'w.poole-joint-chiefs-of-staff 147: A-C'
     tags: [name:kennedy-john-f]
     time_range:
       - 1961-07-24T13:00Z
@@ -1422,7 +1569,7 @@ entries:
     thread: berlin-and-vienna
     also: [defense, economy]
     c: 'Report to the nation on Berlin. $3.25 billion more for defense; reserves to be called; draft calls tripled; fallout shelters. No new taxes: a temporary increase, which Kennedy had favored, dropped after Heller and Samuelson argued it would choke the recovery. No direct challenge to the Soviet zone.'
-    n: 'Radio and Television Report to the American People on the Berlin Crisis, [1961 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=591) (July 25, 1961). [[w.schlesinger-thousand-days-1965]], 391–92 (the requests); [[w.sorensen-kennedy]], 399–400, 591 (the tax increase dropped on the economic advisers'' case; the drafting); [[w.sundquist-politics-and-policy]], 39 (the tax increase dropped); [[w.fursenko-khrushchevs-cold-war]], 372, 376–77 ($3.25 billion; "And so was Bastogne"; the handwritten close; the Oval Office "like an oven"); [[w.sorensen-kennedy]], 590–92 (the decisions of July 19; the drafting); [[w.sorensen-kennedy]], 614; [[w.poole-joint-chiefs-of-staff]], 66 ($3.2 billion asked, to deploy as many as six more divisions to Europe). The taxes: NSC minutes, July 19, 1961, [FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77); [[w.stein-fiscal-revolution-in-america]], 391, 403 (the tax increase considered and dropped on the economists'' advice). The Republican leaders on Berlin and the budget: Joint Senate–House Republican Leadership minutes, July 27, 1961 (Dirksen Congressional Center; Opp. II.J). [[w.fursenko-one-hell-of-a]], 137–38. Check: Poole, 66, dates the request July 26. To check: [[w.heller-new-dimensions-of-political]], 32. See [[cal.1961-06-03.berlin-and-vienna]]. Recording (K–J Adm. II.I). Names: Kennedy, Heller, Samuelson, Nitze, Acheson. Check: who argued against the tax increase.'
+    n: 'Radio and Television Report to the American People on the Berlin Crisis, [1961 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=591) (July 25, 1961). [[w.schlesinger-thousand-days-1965]], 391–92 (the requests); [[w.sorensen-kennedy]], 399–400, 591 (the tax increase dropped on the economic advisers'' case; the drafting); [[w.sundquist-politics-and-policy]], 39 (the tax increase dropped); [[w.fursenko-khrushchevs-cold-war]], 372, 376–77 ($3.25 billion; "And so was Bastogne"; the handwritten close; the Oval Office "like an oven"); [[w.sorensen-kennedy]], 590–92 (the decisions of July 19; the drafting); [[w.sorensen-kennedy]], 614; [[w.poole-joint-chiefs-of-staff]], 66 ($3.2 billion asked, to deploy as many as six more divisions to Europe); [[w.reeves-president-kennedy]], 199 (the address that night, before 10 p.m.; its contents not given); [[w.poole-joint-chiefs-of-staff]], 147 (the televised address "the next evening" after NSAM 62, quoted: West Berlin "the great testing place of Western courage and will"; not the figures). The taxes: NSC minutes, July 19, 1961, [FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77); [[w.stein-fiscal-revolution-in-america]], 391, 403 (the tax increase considered and dropped on the economists'' advice). The Republican leaders on Berlin and the budget: Joint Senate–House Republican Leadership minutes, July 27, 1961 (Dirksen Congressional Center; Opp. II.J). [[w.fursenko-one-hell-of-a]], 137–38. Check: Poole, 66, dates the request July 26. To check: [[w.heller-new-dimensions-of-political]], 32. See [[cal.1961-06-03.berlin-and-vienna]]. Recording (K–J Adm. II.I). Names: Kennedy, Heller, Samuelson, Nitze, Acheson. Check: who argued against the tax increase.'
     src:
       c: 5b1e7338
       rows:
@@ -1438,6 +1585,8 @@ entries:
         - 'w.sorensen-kennedy 590–92: A, B, C'
         - 'w.sorensen-kennedy 614: D'
         - 'w.poole-joint-chiefs-of-staff 66: A'
+        - 'w.reeves-president-kennedy 199: A'
+        - 'w.poole-joint-chiefs-of-staff 147: ?'
     tags: [name:kennedy-john-f, name:nitze-paul, name:acheson-dean-g, name:heller-walter-w, name:samuelson-paul-a]
     aliases: [cal.1961-07-25.economy]
   - id: cal.1961-07-25.press-and-broadcasting
@@ -1459,6 +1608,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-25.berlin-and-vienna-2
+    when: July 25
+    date: '1961-07-25'
+    thread: berlin-and-vienna
+    c: 'The White House pool, almost an hour, Kennedy with Sidey of *Time*, on Berlin and the speech that night: "That son of a bitch won''t pay any attention to words. He has to see you move."'
+    n: '[[w.reeves-president-kennedy]], 199. See [[cal.1961-07-25.berlin-and-vienna]]. Names: Sidey, Kennedy.'
+    tags: [name:kennedy-john-f, name:sidey-hugh]
   - id: cal.1961-07-26.berlin-and-vienna
     when: July 26–27
     date: '1961-07-26'
@@ -1577,6 +1733,23 @@ entries:
         - 'w.thomas-robert-kennedy 138: all'
         - 'via x.1961-07-27.higgins-new-york-herald-tribune-nonaggression: all'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
+    time_range:
+      - 1961-07-27T09:00Z
+      - 1961-07-27T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
+  - id: cal.1961-07-28.defense
+    when: July 27–28
+    date: '1961-07-27'
+    thread: defense
+    also: [congress, berlin-and-vienna]
+    c: The Senate and House Armed Services Committees, July 27 and 28, authorize $958.57 million more for aircraft, missiles and naval vessels, on top of the $12.571 billion authorized before.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 68.'
+    src:
+      c: 1761ab06
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 68: all'
   - id: cal.1961-07-28.laos
     when: July 28
     date: '1961-07-28'
@@ -1593,17 +1766,6 @@ entries:
         - 'w.preston-war-council 85–86: A'
         - 'via w.preston-war-council 86 n.29: A'
     tags: [name:rusk-dean, name:johnson-u-alexis, name:steeves-john-m, name:taylor-maxwell, name:bundy-mcgeorge, name:rostow-walt-w, name:ball-george-w, name:kennedy-john-f]
-  - id: cal.1961-07-28.defense
-    when: July 27–28
-    date: '1961-07-27'
-    thread: defense
-    also: [congress, berlin-and-vienna]
-    c: The Senate and House Armed Services Committees, July 27 and 28, authorize $958.57 million more for aircraft, missiles and naval vessels, on top of the $12.571 billion authorized before.
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 68.'
-    src:
-      c: 1761ab06
-      rows:
-        - 'w.kaplan-mcnamara-ascendancy-1961-1965 68: all'
   - id: cal.1961-07-28.testing
     when: July 28
     date: '1961-07-28'
@@ -1692,6 +1854,32 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1961-07-29.berlin-and-vienna-3
+    when: July 29
+    date: '1961-07-29'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'The Joint Chiefs to McNamara on the Berlin planning: more weight to how nuclear and non-nuclear forces bear on each other, and to Berlin among actions world-wide. Even by mid-1962, conventional forces could not reopen the ground access against Soviet forces in strength. They set out again the sequences of July 12 and 18.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 147–48. Poole cites JCSM-508-61, July 29, 1961 (148 n.34); the brief paper of planning guidance the Chiefs also sent is JCSM-515-61, Aug. 3, by the same note. See [[cal.1961-07-12.berlin-and-vienna]]. Names: McNamara.'
+    src:
+      c: df416f98
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 147–48: all'
+        - 'via x.1961-07-29.jcsm-508-61-berlin-planning: all'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1961-07-29.berlin-and-vienna-4
+    when: July 29
+    date: '1961-07-29'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'The Joint Chiefs answer McNamara''s question of May on supporting guerrillas should uprisings follow American action at Berlin: fourteen Special Forces detachments in West Germany, six in West Berlin, 23 at home; European Command could supply 82,500 rebels for thirty days. A guerrilla campaign could grow into general war; conventional operations probably needed too; decide first to do whatever success requires.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 148. Poole cites JCSM-502-61, July 29, 1961 (148 n.36). Names: McNamara.'
+    src:
+      c: 46c555c2
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 148: all'
+        - 'via x.1961-07-29.jcsm-502-61-guerrillas: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1961-07-30.berlin-and-vienna
     when: July 30
     date: '1961-07-30'
@@ -1814,6 +2002,12 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 42: all'
     tags: [name:kennedy-robert-f]
+    time_range:
+      - 1961-07-31T09:00Z
+      - 1961-07-31T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-07.cuba
     when: July
     date: 1961-07
@@ -2046,3 +2240,24 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 388: all'
         - 'via w.fursenko-khrushchevs-cold-war 388 n.5: all'
     tags: [name:spaak-paul-henri]
+  - id: cal.1961-07.press-and-broadcasting
+    when: July
+    date: 1961-07
+    thread: press-and-broadcasting
+    also: [robert-kennedy]
+    c: Hyannis Port, the Fourth of July weekend. The President lets Stanley Tretick of *Look* photograph his children at play, though he forbids pictures of his quarters in Air Force One, lest voters think it "a rich man's plane." Mrs. Kennedy objects; Robert Kennedy asks Tretick not to publish the pictures. They appear a year later.
+    n: '[[w.thomas-robert-kennedy]], 190–91 (by Tretick''s and Bergquist''s accounts). To check: Stanley Tretick OH; Laura Bergquist Knebel OH, JFK Library (cited by [[w.thomas-robert-kennedy]], 428). Check: the day of Kennedy''s request. Names: Kennedy, Jacqueline Kennedy, Robert Kennedy.'
+    src:
+      c: 0d990487
+      rows:
+        - 'w.thomas-robert-kennedy 190–91: all'
+        - 'via x.undated.stanley-tretick-oral-history-jfk-library: all'
+        - 'via x.undated.laura-bergquist-knebel-oral-history-jfk-library: all'
+    tags: [name:kennedy-john-f, name:kennedy-jacqueline, name:kennedy-robert-f]
+  - id: cal.1961-07.vietnam
+    when: July
+    date: 1961-07
+    thread: vietnam
+    c: 'Working paper for the President by the interim Southeast Asia Task Force, Steeves chairman: covert action against the supply lines from North Vietnam; if that fails, Hanoi warned that the next step is military retaliation against the North.'
+    n: '[[w.reeves-president-kennedy]], 220. Check: the day. See [[cal.1961-07-28.laos]]. Names: Steeves.'
+    tags: [name:steeves-john-m]

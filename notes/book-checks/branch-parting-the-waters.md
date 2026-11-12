@@ -23,6 +23,8 @@ What the notes do not settle:
 - cal.1961-12-18.king (555): no note on p. 555 gives Walker's telegram of Dec. 18; the entry has no witness from Branch. cal.1960-07.elections-1960 (314): no note on p. 314 gives the Kennedy–Robinson meeting. cal.1960-11-09.transition-and-staff (379 n.1, Schlesinger, *Robert Kennedy*, 238, "Winston Churchill") not tied: not checked against the page in this run.
 - cal.1964-08-06 and 1964-08-14 cite *Pillar of Fire*; their "408–9", "413" are that book's notes, not these.
 
+Done in the run of Nov. 10–11, 2026 (b6-branch-ptw, batch 6): the Passed over rows ruled private, social, personal, family, trivia or the book's business, re-ruled under R18 as amended Nov. 6 (the informal record, R7: private talk of public business, a principal's drafting of a publication). A fresh download of the same copy (Drive, the direct route); the offsets held (PDF 597 = p. 563, 634 = 600, 767 = 717, 800 = 750, 854 = 804, 920 = 870, 967 = 917); every page cited was read off its image as well as the text layer (pp. 563, 596, 600, 626, 634, 695, 717, 725, 742, 745, 750, 804, 812, 816, 817, 829, 831, 849, 857, 859, 862, 863, 870, 887, 898, 900, 904, 910, 917, 918) and the notes page PDF 1044 (817 n.1b reads "FLNY-7-441"). The copy was deleted at the end of the run. Patch `inbox/2026-11-06-b6-branch-ptw.yaml` (40 ops: 33 new entries; edits of cal.1962-03-26.king, which takes the Walker remark of the same microphone record, and of cal.1963-11-25.king and cal.1963-12-03.king, the note numbers of p. 918 put right; a Check on cal.1963-05.civil-rights-the-executive-3; a cite, a Check and a map row on cal.1963-11-20.robert-kennedy, the Kotz reader's pending entry). Witnesses: 30 new rows in `inbox/witnesses/2026-11-06-b6-branch-ptw.yaml`; 44 edges appended to `sources/witnesses/by-work/branch-parting-the-waters.yaml`. Numbering: the edges of p. 918 had skipped the first note ("Chinese wing," Wiretap, Nov. 26, 1963, FLNY-7-617a): the LHM of Nov. 30 is 918 n.2 and Jet of Dec. 19 is 918 n.3; renumbered in the by-work file and in the two entries that cite them. The edges of p. 862 skip its first note too ("taking the active part," SAC Los Angeles to Director, Aug. 15, 1963): the edge "862 n.1" ([deleted] to SAC Los Angeles, Nov. 20) is printed n.2 and "862 n.2" (Marshall to Robert Kennedy, Aug. 7) is n.3. Left as they are, since cal.1963-08-15.march-on-washington and cal.1963-08-07.king print them in their notes; to be put right by an edit of those two entries and the by-work file together. The new Niebuhr edge is 862 n.4, as printed. Not settled: the via rows through a card (750 n.4, Forman; 849 n.2, Farmer; 859 n.2, Garrow, *FBI*) are refused by patch-check ("a record sources/witnesses/ does not hold at that note") though the edges stand; the cards stand behind "To check:" and the maps carry no via row for them. 717 n.2 (Ponder's report on Mississippi, Sept. 1963, SC155, folder 26) is taken as the registered "1963 report on LeFlore County" in the same folder. At the merge, 16 of the new entries will be flagged as possible duplicates of entries on the same day or month in the same thread (cal.1963-02.king-2, cal.1963-04.alabama-birmingham-2 and -3, cal.1963-05.king-3, cal.1963-05.civil-rights-the-executive-4 and -5, cal.1963-05-31.mississippi-2, cal.1963-06-16.civil-rights-organizations-2, cal.1963-07-24.king-2, cal.1963-07.civil-rights-organizations-2, cal.1963-08.king-2, cal.1963-08-21.king-2, cal.1963-08-28.march-on-washington-4, cal.1963-09.king-2, cal.1963-10.king-3, and the -3 of April): each was compared with those entries and is a distinct event; `--take keep`. The run is complete; nothing is left to read.
+
 ## Rulings on the cites already made (R33)
 
 Every cite to Branch the calendar held for Dec. 1961–Jan. 1963 was read against the page; where the entry's claim and Branch differ, the patch adds a `check` naming Branch's version and page, the cite pinned only to the units Branch bears out. The rows:
@@ -97,12 +99,16 @@ Every cite to Branch the calendar held for Dec. 1961–Jan. 1963 was read agains
 
 ## Passed over
 
+The 'already in' rows read against the calendar, Nov. 10, 2026 (batch 7): each ruled, and moved from this table to the section "Batch 7: the 'already in' rows read against the calendar" below.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10–11, 2026, b6-branch-ptw): every row ruled private, social, personal, family, trivia, a private remark or letter, or the book's business, read again on the page and its image; the ruling stands in the row's last cell, "re-ruled:". Rows ruled on other grounds (a lead, no day given, out of the brief, a repetition) are left as they were.
+
 Made page by page as the text was read: each dated event within the span Branch treats that was not entered or cited, with the reason. The events of 1960–61 (pp. 271–555) the first run read are not listed here. The run of Nov. 4 added its rows for pp. 729–922 the same way, page by page, after the rows of pp. 556–729.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 562 | 1962 | the year's culture: Glenn's "four beautiful sunsets," Mantle, Steinbeck's Nobel, the Royal College's warning on cigarettes, Ford's small car dropped, the Pietà and the Mona Lisa lent, "The Beverly Hillbillies" | out of the brief (no bearing on politics or policy as Branch gives them; Glenn's flight is in the calendar) |
-| 563 | Dec. 14, 1961 | King to Edward D. Ball, citing Du Bois's defection as a warning | passed-over paper (private remarks) |
+| 563 | Dec. 14, 1961 | King to Edward D. Ball, citing Du Bois's defection as a warning | re-ruled: entered, cal.1961-12-14.king (a letter on public business, R7) |
 | 563–64 | 1961–62 | Robert Kennedy's wish to move the FBI from domestic security to organized crime; a dozen agents on organized crime, a thousand on security | lead (no dated act) |
 | 566 | Apr. 1962 | Robert Kennedy: "There wasn't one area of the world that I visited ... that I wasn't asked about the question of civil rights" (NYT, Apr. 24, 1962) | lead (the occasion and day not given) |
 | 568 | May 20, 1954 | Brownell's memorandum on microphone surveillance | out of the brief (before the span) |
@@ -110,26 +116,25 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 569 | 1941 | Hoover's warning on motels | out of the brief (before the span) |
 | 583 | Mar.–Apr. 1962 | Levison's talk overheard: real estate, donor lists, test mailings, the Atlanta office's failings | minor (no dated event beyond those entered) |
 | 587 | 1962 | the "Ink for Jack" pens mailed to the White House; the surplus given to a home | lead (no month given) |
-| 590 | May 18, 1962 | Jones and Levison, overheard, on the unions' gifts to the Gandhi Society | minor (repetition of the purpose already entered) |
-| 591 | Nov. 1961 | Michael Rockefeller's drowning off New Guinea | minor (family) |
+| 591 | Nov. 1961 | Michael Rockefeller's drowning off New Guinea | re-ruled: passed over, family (a son's death; no bearing on public business as Branch gives it) |
 | 591 | 1962 | Mrs. Rockefeller's divorce in Nevada | lead (no date given) |
 | 591 | June 3, 1962 | the Air France crash near Paris, more than a hundred Atlantans killed | out of the brief (no bearing on politics or policy) |
 | 591 | June 4, 1962 | Eleanor Roosevelt at Atlanta University's commencement; Harvard's president honored at Morehouse | minor (no word given) |
 | 592 | spring 1962 | Atlanta's integration under Allen: the fountains at city hall, the first integrated game at Ponce de Leon park; the Birmingham Barons disbanded | lead (no dates given; Allen, *Mayor*, 84–85) |
-| 596–97 | Mar. 26, 1962 | Levison to Jones, overheard: Walker "more advanced than Martin," "emotionally immature even though he is brilliant" | minor (private remarks) |
-| 600 | July 10, 1962 | Dora McDonald's report of the calls to King's office; the Press Club's official asks why King did not wait until after July 19 | minor (the cancellation itself not dated) |
+| 596–97 | Mar. 26, 1962 | Levison to Jones, overheard: Walker "more advanced than Martin," "emotionally immature even though he is brilliant" | re-ruled: entered in cal.1962-03-26.king, by an edit (the Misur record of that day, 596 n.2; the "emotionally immature" of the spring in its Check) |
+| 600 | July 10, 1962 | Dora McDonald's report of the calls to King's office; the Press Club's official asks why King did not wait until after July 19 | re-ruled: entered, cal.1962-07-10.king (a staff report on public business) |
 | 616 | July 23, 1962 | C. B. King refuses a civil suit against the Camilla officers | minor (a decision not to act; noted in the entry's Check) |
 | 620 | July 1962 | the New York Times's profile of Pritchett | lead (the day not given) |
-| 623 | July 29, 1962 | the President's sloop aground in Lewis Bay, Jacqueline Kennedy's birthday | minor (private and social) |
-| 626 | Aug. 1962 | King's devotions in jail; work on *Strength to Love*; Elliott's hearings attended | minor (no dated act beyond those entered) |
+| 623 | July 29, 1962 | the President's sloop aground in Lewis Bay, Jacqueline Kennedy's birthday | re-ruled: passed over, family and social (a birthday sail; no bearing on public business) |
+| 626 | Aug. 1962 | King's devotions in jail; work on *Strength to Love*; Elliott's hearings attended | re-ruled: the book entered, cal.1962-08.king (a principal's publication drafted, R18 as amended); the devotions passed over (religious observance, no bearing on public business); Elliott's hearings in the Albany entries |
 | 626–27 | Aug. 4–5, 1962 | Marilyn Monroe's death; Robert Kennedy at Mass at Gilroy, Calif. | out of the brief (no bearing as Branch gives it) |
-| 627 | Aug. 6, 1962 | Schlesinger's journal on Monroe | minor (private remarks) |
-| 627 | Aug. 8, 1962 | Dora McDonald to King on Monroe | minor (private remarks) |
+| 627 | Aug. 6, 1962 | Schlesinger's journal on Monroe | re-ruled: passed over, social (Monroe at the birthday party of May; no bearing on public business) |
+| 627 | Aug. 8, 1962 | Dora McDonald to King on Monroe | re-ruled: passed over, a private remark with no bearing on public business |
 | 627 | Aug. 1962 | Kunstler's habeas corpus motion; the recorder's court sets the trial for Aug. 10 | lead (the days not given) |
 | 628 | Aug. 1962 | Walker's plan for a Mothers' March | minor (a plan not carried out) |
 | 631 | Aug. 1962 | Ruby Hurley: "Albany was successful only if the objective was to go to jail" (Lewis, *King*, 169) | lead (the day not given) |
 | 632 | 1962 | King to his staff: "I don't want to be a fireman anymore" | lead (the day not given) |
-| 634 | July 16, 1962 | Block to SCLC: "this is my school book" | minor (private remarks) |
+| 634 | July 16, 1962 | Block to SCLC: "this is my school book" | re-ruled: entered, cal.1962-07-16.mississippi (a worker's letter on the registration program) |
 | 637 | Sept. 1962 | Elliott's refusal of the Justice Department's injunction against Mathews | lead (the day not given; named in the entry of Sept. 9) |
 | 640 | 1961–62 | Murrow's urging of a second emancipation proclamation (Golden, *Mr. Kennedy*, 123–24) | lead (no day given) |
 | 643 | 1962 | the boycott's 40 percent loss in downtown sales; the parks closed, the Barons gone | minor (no dated act) |
@@ -137,29 +142,28 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 674 | Oct. 22, 1962 | Vaughn Meader's *The First Family* recorded | out of the brief (no bearing as Branch gives it) |
 | 675–76 | July 30, 1958 | O'Dell before the House Un-American Activities Committee | out of the brief (before the span) |
 | 683 | Dec. 9, 1962 | King's installation sermon for the Reverend John Porter in Birmingham | minor (named in the entry of Dec. 11) |
-| 685 | Dec. 3, 1962 | Ishmael Flory of the African-American Heritage Association to the President for an emancipation proclamation | minor (a repetition of the request already entered) |
 | 689 | Jan. 1, 1961 | King's "The Negro and the American Dream" at First African Baptist, Savannah | lead (the first run's span; check the calendar for Jan. 1, 1961) |
 | 695 | Dec. 27, 1962 | King at Nashville, "An Analysis of the Ethical Demands of Integration" | minor (a repetition of positions entered) |
-| 695 | Feb. 1963 | King preaches for Powell in New York; a vacation in Jamaica | minor (private and social) |
+| 695 | Feb. 1963 | King preaches for Powell in New York; a vacation in Jamaica | re-ruled: entered, cal.1963-02.king-2 (a principal with a member; the vacation the pretext for declining the White House's reception) |
 | 699 | 1962–63 | Randolph and Rustin talk of reviving the march on Washington of 1942 (Gentile, *March on Washington*, 14–15; Jet, Mar. 21, 1963) | lead (no dated act in Branch here; the March on Washington thread) |
 | 699 | 1962–63 | Clarence Mitchell's hints that the NAACP might turn to the Republicans; rumors of a feud with Wilkins | lead (no dated act) |
 | 700–702 | Mar. 3 and 10, 1963 | King's sermons at Ebenezer on evil; "Segregation After Death" | minor (the sermon of Mar. 3 entered; Mar. 10 repeats) |
 | 703 | Mar. 3, 1963 | King preaches in Birmingham for the Reverend Nelson Smith | minor (no word given) |
-| 705 | Mar. 27–29, 1963 | Bernice King born; King back in Birmingham Mar. 29 | minor (family; the return named in the campaign's entries) |
+| 705 | Mar. 27–29, 1963 | Bernice King born; King back in Birmingham Mar. 29 | re-ruled: passed over, family (the return named in the campaign's entries) |
 | 713–14 | winter 1962–63 | Leflore and Sunflower counties stop distributing the surplus food | lead (Branch gives no day; Dittmer to read) |
-| 717 | Feb. 21, 1963 | Andrew Young to the Bevels against a citizenship center in Mississippi; Annell Ponder to Greenwood, Bernice Robinson to the State | minor (staff placements; no public act) |
+| 717 | Feb. 21, 1963 | Andrew Young to the Bevels against a citizenship center in Mississippi; Annell Ponder to Greenwood, Bernice Robinson to the State | re-ruled: entered, cal.1963-02-21.mississippi (the letter) and cal.1963-03.mississippi (Ponder and Robinson into Mississippi, "within a week" of Feb. 28) |
 | 725 | Apr. 1963 | Doar and Moses in Greenwood after the settlement; Walker turns Forman away in Birmingham; Mayor Sampson's bus to the registrar | lead (no days given) |
 | 725 | Apr.–Oct. 1963 | 1,500 tested in Leflore County, fifty registered (Ponder's report) | lead (a figure for a period; for the voting-rights thread) |
-| 725 | Apr. 1963 | Branton blames King for Greenwood's collapse | minor (private remarks) |
+| 725 | Apr. 1963 | Branton blames King for Greenwood's collapse | re-ruled: entered, cal.1963-04.voting-rights (said in private about public business, R7) |
 | 731 | Apr. 12, 1963 | Pope John XXIII strikes "perfidious Jews" from the Good Friday liturgy; *Pacem in Terris* of Apr. 11 named | out of the brief (a liturgical change; no bearing on politics or policy as Branch gives it) |
-| 733-34 | Apr. 12-14, 1963 | Sherrod's crisis of shame at Gammon Seminary; chairs thrown in the workshops | minor (private) |
-| 742 | Apr. 1963 | King orders Hosea Williams and his party out of the Gaston Motel | minor (staff housekeeping) |
-| 742 | July 22, 1960 | Scarlett to Carpenter: "an opportunity of a hundred years" | minor (private letter) |
-| 745 | Apr. 1963 | Bishop Carpenter reads King's letter: "You get it from both sides" | minor (private remarks) |
+| 733-34 | Apr. 12-14, 1963 | Sherrod's crisis of shame at Gammon Seminary; chairs thrown in the workshops | re-ruled: passed over, personal (a private crisis; the thrown chairs trivia) |
+| 742 | Apr. 1963 | King orders Hosea Williams and his party out of the Gaston Motel | re-ruled: entered, cal.1963-04.alabama-birmingham-2 (the campaign's staff ordered out, R7: personnel) |
+| 742 | July 22, 1960 | Scarlett to Carpenter: "an opportunity of a hundred years" | re-ruled: entered, cal.1960-07-22.alabama (a private letter on segregation to the bishop who signed the clergymen's statement) |
+| 745 | Apr. 1963 | Bishop Carpenter reads King's letter: "You get it from both sides" | re-ruled: entered, cal.1963-04.alabama-birmingham-3 (said in private about public business) |
 | 748 | 1963 | Toledo high school students protest an assistant principal's "black students" | lead (no date given; Jet, Oct. 3, 1963, 48) |
 | 749 | Apr. 24, 1963 | The press on Moore's past: the mental hospital, *The Mind in Chains* | minor (routine coverage) |
-| 750 | Apr. 24, 1963 | Forman calls Moore's widow on taking up the walk | minor (a condolence call; the walk entered May 1) |
-| 752-53 | Apr. 1963 | Bevel's and Diane Nash's workshops recruit the high school elite; the Drews send their son to prep school | minor (no dated act; private) |
+| 750 | Apr. 24, 1963 | Forman calls Moore's widow on taking up the walk | re-ruled: entered, cal.1963-04-24.civil-rights-organizations (a call on taking up the walk, not a condolence only) |
+| 752-53 | Apr. 1963 | Bevel's and Diane Nash's workshops recruit the high school elite; the Drews send their son to prep school | re-ruled: the Drews' son passed over, family; the workshops left as ruled (no dated act) |
 | 753 | Apr. 28, 1963 | *Birmingham News*, "Greenwood Rolled with Punch, And Won" | minor (routine coverage; in The press) |
 | 755 | Apr. 30-May 1, 1963 | "Tall Paul," the disc jockey, announces the "big party" Thursday at Kelly Ingram Park | lead (no day; Gardner interview) |
 | 762 | May 3, 1963 | Judge Talbot Ellis: those who "misled these kids" "ought to be put under the jail" | entered with Boutwell's statement (cal.1963-05-03.alabama-birmingham-3) |
@@ -172,31 +176,31 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 789 | May 4, 1963 | Rockefeller's marriage to Happy Murphy | in the calendar (cal.1963-05-04.elections-1964), not cited: Branch names it in passing |
 | 789 | May 1963 | Rockefeller's drop of thirteen points in the Gallup poll within a week of his marriage | lead (the poll's date; Chicago Sun-Times, May 26, 1963, 5; noted in cal.1963-05-10.alabama-birmingham) |
 | 792 | May 1963 | "Supersonic Attractions" concert, Ponce de Leon Park, Atlanta | out of the brief (no bearing on politics or policy) |
-| 801 | May 13, 1963 | King loses at pool to a hustler on his tour | minor (private) |
-| 804 | May 18-24, 1963 | Levison maneuvers Kunstler aside from a joint book with King; a publisher suggests *Why We Can't Wait* | minor (the book's private business; witnesses registered, 804 n.7) |
-| 804 | May 1963 | Clarence Jones's campaign against wildcat printings of the Letter | minor (copyright business) |
+| 801 | May 13, 1963 | King loses at pool to a hustler on his tour | re-ruled: passed over, private trivia |
+| 804 | May 18-24, 1963 | Levison maneuvers Kunstler aside from a joint book with King; a publisher suggests *Why We Can't Wait* | re-ruled: entered, cal.1963-05-18.king (a principal's publication arranged, R18 as amended) |
+| 804 | May 1963 | Clarence Jones's campaign against wildcat printings of the Letter | re-ruled: entered, cal.1963-05.king-3 (the Letter's publication; Check: the day) |
 | 806 | May 1963 | Atlantic City promised Abernathy, gets Fireball Smith; Walker's speeches in Albany (May 20) and San Francisco (May 25) | minor (speakers' bookings) |
 | 806 | May 1963 | Bernard Lee speaks in Greenwood; Ponder to King, May 26: "He whooped" | minor (a speech with no word given) |
 | 806 | May 1963 | Rallies for Birmingham in Birmingham, England, and Havana; Greenwich, Conn., clergymen against segregation; Duke admits its first Negro students | lead (no days given; Chicago Defender, May 11, 1963, 4) |
 | 806 | May 1963 | 34 arrested in Raleigh, nearly 100 in Albany, 1,000 in Durham | lead (no days given; New York Times, May 15, 1963, 26, May 21, 1963, 19; SAC Atlanta to Director, May 31, 1963, FBI file 157-4-2, serial 168) |
 | 807 | May 1963 | An airman marches for Birmingham at an Air Force base in South Dakota; the President to Lee White: "How the hell did this happen?" | lead (no day given; Lee White's oral history) |
-| 812 | May 1963 | Robert Kennedy, from the FBI's reports on the Baldwin guests, on the three married to whites | minor (private remarks; Robert Kennedy's oral history, Apr. 30, 1964, registered, 812 n.3) |
-| 812 | June 1963 | Robert Kennedy to Guthman: perhaps he would feel so against his country had he grown up a Negro | minor (private remarks) |
+| 812 | May 1963 | Robert Kennedy, from the FBI's reports on the Baldwin guests, on the three married to whites | re-ruled: entered, cal.1963-05.civil-rights-the-executive-4 (said in private about public business); a Check added to cal.1963-05.civil-rights-the-executive-3 on Kennedy's note to Marshall |
+| 812 | June 1963 | Robert Kennedy to Guthman: perhaps he would feel so against his country had he grown up a Negro | re-ruled: entered, cal.1963-05.civil-rights-the-executive-5 |
 | 812 | 1963 | Robert Kennedy authorizes wiretaps on Clarence Jones's home "some weeks later" | lead (the day; the wiretap's authorization, in the King thread later) |
 | 813 | June 1963 | Robert Kennedy's tongue-lashings of Johnson at interagency meetings on Negro hiring | lead (no day given; Schlesinger, *Robert Kennedy and His Times*, 360-61) |
 | 814 | May 1963 | Evers's mass meetings through May; Thompson's committee of Negroes of his own choosing; the NAACP boycott of Citizens Council advertisers | lead (no days given; Evers, *For Us, the Living*) |
-| 816 | May-June 1963 | King consults Evers covertly; Evers calls Wilkins | minor (no day given) |
-| 817 | June 2-3, 1963 | Levison to Ann and Clarence Jones: "you tingled"; "a step behind Martin" | minor (private remarks; named in the check on cal.1963-06-01.march-on-washington) |
-| 817 | June 1963 | Evers stalks his house with a rifle and finds his son | minor (private) |
-| 818 | May 14, 1963 | Doar's son born | minor (family) |
-| 820 | June 9, 1963 | West Hunter's "Tribute to Our Pastor and First Lady," Abernathy's anniversary | minor (social) |
+| 816 | May-June 1963 | King consults Evers covertly; Evers calls Wilkins | re-ruled: entered, cal.1963-05-31.mississippi-2 (a private consultation on public business, loosely dated: R7, R50) |
+| 817 | June 2-3, 1963 | Levison to Ann and Clarence Jones: "you tingled"; "a step behind Martin" | re-ruled: entered, cal.1963-06-02.march-on-washington |
+| 817 | June 1963 | Evers stalks his house with a rifle and finds his son | re-ruled: passed over, personal (no bearing on public business) |
+| 818 | May 14, 1963 | Doar's son born | re-ruled: passed over, family |
+| 820 | June 9, 1963 | West Hunter's "Tribute to Our Pastor and First Lady," Abernathy's anniversary | re-ruled: passed over, social (a church's anniversary week; no principals of a pending matter meeting on it) |
 | 822 | June 11, 1963 | The front pages: twenty-five arrests at the courthouse in Cambridge, Md. | lead (Branch gives no source; the Cambridge thread to check) |
 | 825 | June 1963 | 758 demonstrations and 14,733 arrests in 186 cities in ten weeks (Fleming, Daedalus) | minor (a count for a period; witness registered, 825 n.3) |
 | 825 | June 1963 | Two men chain themselves to the Ohio legislature's gallery; an Alabama mob stones a white preacher's home | lead (New York Times, June 14, 1963, 16; June 15, 1963, 9) |
 | 825 | June 1963 | Greenwood's workshop: twelve more registration teachers | minor (no dated act) |
-| 827 | June 1963 | Doar's son named from a hat | minor (family) |
-| 829-30 | June 14, 1963 | Levison to Frank Montero, overheard, his longest outburst against Wilkins and the NAACP | named in cal.1963-06-13.civil-rights-organizations (minor: private remarks) |
-| 830-31 | June 16, 1963 | Wilkins to his nephew Roger in Washington: "Can you imagine it?" | minor (private remarks) |
+| 827 | June 1963 | Doar's son named from a hat | re-ruled: passed over, family |
+| 829-30 | June 14, 1963 | Levison to Frank Montero, overheard, his longest outburst against Wilkins and the NAACP | re-ruled: entered, cal.1963-06-14.civil-rights-organizations |
+| 830-31 | June 16, 1963 | Wilkins to his nephew Roger in Washington: "Can you imagine it?" | re-ruled: entered, cal.1963-06-16.civil-rights-organizations-2 |
 | 831 | June 1963 | Robert Kennedy and then the President receive the Jackson NAACP preachers at the White House; Robert Kennedy presses Thompson | lead (no days given) |
 | 833 | June 1963 | Dennis and Tim Jenkins on organizational rivalry; Jerome Smith at Canton, Miss. | lead (no days given; Tape 4817, Pacifica Radio Archive) |
 | 834 | June 1963 | Dirksen against public accommodations as a violation of property rights | in the calendar (cal.1963-06-18.republican-party-congress); Branch gives no day (New York Times, June 18, 1963, 1) |
@@ -204,35 +208,35 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 834 | June 1963 | A money quarrel in Birmingham; Atlanta's Funtown closes against integrated patrons | lead (Garrow, *Bearing the Cross*, 271; Atlanta Constitution, June 17, 1963, 5) |
 | 841-42 | June 22-26, 1963 | The President's trip to Germany, Bundy on television, Frankfurt, "Ich bin ein Berliner" | in the calendar (the Kennedy in Europe entries); Branch's account is a summary, not cited |
 | 842 | June 1963 | The Detroit feud: Franklin's people call the NAACP "a bunch of Uncle Toms" | named in the check on cal.1963-06-23.king-detroit |
-| 849 | July 1963 | Wilkins and King's banter: "a few human hearts" | minor (private remarks; Farmer, *Lay Bare the Heart*, 216) |
+| 849 | July 1963 | Wilkins and King's banter: "a few human hearts" | re-ruled: entered, cal.1963-07.civil-rights-organizations-2 |
 | 851 | July 1963 | O'Dell joins the staff of *Freedomways* | lead (no day given) |
 | 851 | July 1963 | The military coup in Ecuador against President Carlos Arosemena, Levison in Quito | lead (Branch gives no day; New York Times, July 12, 1963, 1; a thread for Ecuador to check) |
-| 857 | July 21, 1963 | Levison back from Ecuador | minor (travel, private) |
-| 857 | July 24, 1963 | Levison, overheard, chuckling at the President's fear of him | minor (private remarks) |
-| 859 | Aug. 1963 | King asks Jones whether Levison understands why he does not call: "he would be rather upset if you did" | minor (private remarks) |
-| 860 | Aug. 1963 | King's private life as Jones knew it | minor (private) |
-| 862-63 | Nov. 11, 1963 | Niebuhr to Scarlett: "Your former choir boy, Barry Goldwater, is cutting a wide swath" | minor (private letter) |
-| 863 | 1963 | King to Jones, overheard: "the Goldwater surge pushes Kennedy more and more to the right" | minor (private remarks; FBI letterhead memorandum, Oct. 30, 1963) |
+| 857 | July 21, 1963 | Levison back from Ecuador | re-ruled: passed over, personal travel (the son's illness) |
+| 857 | July 24, 1963 | Levison, overheard, chuckling at the President's fear of him | re-ruled: entered, cal.1963-07-24.king-2 |
+| 859 | Aug. 1963 | King asks Jones whether Levison understands why he does not call: "he would be rather upset if you did" | re-ruled: entered, cal.1963-08.king-2 (the drafting of the book itself in cal.1963-08-05.king) |
+| 860 | Aug. 1963 | King's private life as Jones knew it | re-ruled: passed over, private (no bearing on public business) |
+| 862-63 | Nov. 11, 1963 | Niebuhr to Scarlett: "Your former choir boy, Barry Goldwater, is cutting a wide swath" | re-ruled: entered, cal.1963-11-11.elections-1964 (a private letter on the Republican race) |
+| 863 | 1963 | King to Jones, overheard: "the Goldwater surge pushes Kennedy more and more to the right" | re-ruled: entered, cal.1963-10-30.king (dated by the memorandum; Check: the day of the talk) |
 | 864 | Aug. 1963 | Stories that the President would send Johnson to Scandinavia during the march | lead (New York Times, Aug. 5, 1963; Johnson's trip to check) |
 | 866 | Nov. 1963 | A federal court order ends the Americus sedition charges | lead (the day not given) |
 | 868 | Nov. 1963 | The first convictions in the Albany Nine cases | lead (the day not given) |
-| 869 | Aug. 24, 1963 | John Lewis in a tanning chair in a Westchester pool, a call from a Southern jail | minor (private) |
-| 870 | Aug. 21, 1963 | Clarence Jones to Levison from a pay phone on the book; the FBI matches the voice | minor (the book's business; witness registered, 870 n.1) |
+| 869 | Aug. 24, 1963 | John Lewis in a tanning chair in a Westchester pool, a call from a Southern jail | re-ruled: passed over, trivia; Lewis's drafting of his speech is in cal.1963-08.march-on-washington-3 |
+| 870 | Aug. 21, 1963 | Clarence Jones to Levison from a pay phone on the book; the FBI matches the voice | re-ruled: entered, cal.1963-08-21.king-2 (a principal's publication drafted) |
 | 878 | Aug. 27, 1963 | Du Bois dies in Ghana; Wilkins announces it at the march | named in the check on cal.1963-08-28.march-on-washington |
 | 886 | Aug. 1963 | Motown's album of the march; bootleg records; Jones's suit for King | lead (no days given; King Papers, KP13, folder 15, KP16, folder 37) |
-| 886-87 | Aug. 28, 1963 | Levison, overheard, on King's speech: "the man of the hour for everybody" | minor (private remarks; witness registered, 886 n.4) |
-| 898-900 | Sept. 24-27, 1963 | Walker's demand for a raise; Abernathy's elevator scuffle and Septima Clark's rebuke; Walker's dismissals and first resignation; Boyte's office campaign | minor (staff and private matters) |
-| 901-2 | Oct. 1963 | Eskridge sent to find Vernon Johns at Petersburg, Va., for his sermon notebooks | minor (private) |
-| 904 | Sept. 30, 1963 | SCLC aides, overheard: O'Dell left them "high and dry," taking the mailing lists | minor (private remarks) |
+| 886-87 | Aug. 28, 1963 | Levison, overheard, on King's speech: "the man of the hour for everybody" | re-ruled: entered, cal.1963-08-28.march-on-washington-4 |
+| 898-900 | Sept. 24-27, 1963 | Walker's demand for a raise; Abernathy's elevator scuffle and Septima Clark's rebuke; Walker's dismissals and first resignation; Boyte's office campaign | re-ruled: entered, cal.1963-09-24.civil-rights-organizations (Walker's raise, dismissals and resignation: SCLC's personnel, R7, R11); Abernathy's scuffle and Clark's rebuke passed over, personal conduct; Boyte's office campaign passed over, an office's housekeeping |
+| 901-2 | Oct. 1963 | Eskridge sent to find Vernon Johns at Petersburg, Va., for his sermon notebooks | re-ruled: passed over, a private errand (no bearing on public business) |
+| 904 | Sept. 30, 1963 | SCLC aides, overheard: O'Dell left them "high and dry," taking the mailing lists | re-ruled: entered, cal.1963-09-30.king |
 | 906 | 1963 | The FBI's view of Rometsch as a possible East German spy | named in cal.1963-08.baker (lead: the Bureau's papers) |
-| 910-11 | Sept.-Oct. 1963 | Levison back in the work on King's book: new writers, Joan Daves's complaints | minor (the book's business; FBI intercepts registered, 911 n.1) |
+| 910-11 | Sept.-Oct. 1963 | Levison back in the work on King's book: new writers, Joan Daves's complaints | re-ruled: entered, cal.1963-09.king-2 and cal.1963-10.king-3 (a principal's publication drafted, R18 as amended) |
 | 914 | Oct. 1963 | The President to reporters of Hoover: "Boy, the dirt he has on those senators" | lead (no day given; Bradlee, *Conversations with Kennedy*, 228) |
 | 914 | May-Nov. 1963 | Hue, Quang Duc, the coup of Nov. 1 and Diệm's death | in the calendar (the Vietnam entries); Branch's paragraph a summary, not cited |
 | 916 | Nov. 1963 | Danville's planning: Greenberg to King, Nov. 7; Chase and King to W. J. Irwin of Dan River Mills, Nov. 18; Shuttlesworth to King, Nov. 7 | lead (letters only cited; the Danville thread to check) |
-| 916 | Nov. 16, 1963 | King to Jones: perpetual hiccoughs | minor (private) |
-| 917 | Nov. 20, 1963 | Robert Kennedy's birthday party at Justice | minor (social) |
-| 917-18 | Nov. 24-26, 1963 | Levison, overheard, on the funeral, Ruby and Oswald, and Johnson | minor (private remarks) |
-| 921-22 | Oct.-Dec. 1963 | SCLC's credit cards canceled; Mahalia Jackson's dentist bill | minor (housekeeping) |
+| 916 | Nov. 16, 1963 | King to Jones: perpetual hiccoughs | re-ruled: passed over, private |
+| 917 | Nov. 20, 1963 | Robert Kennedy's birthday party at Justice | re-ruled: cited under cal.1963-11-20.robert-kennedy, the Kotz reader's pending entry (b6-kotz-judgment-days): a cite for unit A, a Check giving Branch's version of the talk, and its witness |
+| 917-18 | Nov. 24-26, 1963 | Levison, overheard, on the funeral, Ruby and Oswald, and Johnson | re-ruled: entered, cal.1963-11-24.king and cal.1963-11-26.king |
+| 921-22 | Oct.-Dec. 1963 | SCLC's credit cards canceled; Mahalia Jackson's dentist bill | re-ruled: passed over, housekeeping (a dentist's bill private) |
 
 ## The press
 
@@ -337,3 +341,16 @@ Made page by page as the text was read: each dated event within the span Branch 
 ### Foreign
 - Ecuador: the military coup against President Carlos Arosemena, July 1963 (New York Times, July 12, 1963, 1, cited by Branch, 851 n.2); no thread for Ecuador found.
 - Rallies for Birmingham in Birmingham, England, and Havana, May 1963 (Chicago Defender, May 11, 1963, 4, cited by Branch, 806 n.9).
+
+## Batch 7: the 'already in' rows read against the calendar (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-10-b7-branch-ptw.yaml` (2 new entries, claimed in the ledger). No new witnesses: both records were registered by the run of Nov. 5 (`x.1962-05-18.handwritten-microphone-notes-jones-levison-discussion`, the edge 590 n.3; `x.1962-12-03.ishmael-flory-to-kennedy-dec-3`, 685 n.3); the new entries' maps carry `via` rows to them. `./bib patch-check`: 0 errors, 0 warnings. The copy: the owner's PDF in Drive (1l7D-yekFQPD_jSriaoHbXlRgA44Co0tD), downloaded again; PDF 624 = p. 590 and PDF 719 = p. 685 (offset 34 on both, checked on the running heads); both pages read off the text layer and the page images, and their notes (PDF 990–1060) off the text layer; deleted when done.
+
+| page | row | ruling |
+|---|---|---|
+| 590 | May 18, 1962: Jones and Levison, overheard, on the unions' gifts to the Gandhi Society | not a repetition: the entry of May 17 (`cal.1962-05-17.civil-rights-the-executive`) holds the founding and the proclamation, not the talk nor the unions' money. The informal record (R7) of an organization's funding (R11): entered, `cal.1962-05-18.king` (Check: where and when the microphone notes were made public) |
+| 685 | Dec. 3, 1962: Ishmael Flory of the African-American Heritage Association to the President for an emancipation proclamation | not a repetition: another organization's letter to the President (R11); entered, `cal.1962-12-03.civil-rights-the-executive` |
+
+Not borne out: none. Not settled: none.
+
+Where this run stopped (batch 7): complete; every row read and ruled, Nov. 11, 2026.

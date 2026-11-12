@@ -192,6 +192,10 @@ Reagan's testimony of July 31 is therefore left out of this patch's entry for th
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended.
+
+Batch 6 (Nov. 10–11, 2026): the owner's scan again (Drive id 1jmkLlnOF9Ge-xkwVWYLVt8BLsTRi97eV, 81 PDF pages, no text layer; printed = PDF + 2014), p. 2069 (PDF 55) OCR'd afresh from its page image (tesseract, 3,000 px) and deleted after. One row of the grounds re-ruled (family), entered: patch `inbox/2026-11-06-b6-cq-weekly-report-1968-08-02.yaml`, one new entry claimed in the ledger. The *Weekly Report* has no notes: no witnesses. The other "minor" rows (an office's count, a statement to the reporter, a consultant's paper, observances, housekeeping, a condolence) are not private, social, family or draft rows and stand as they were, for the owner.
+
 Every dated event the issue treats that is not entered and not already in the calendar, read page by page through the issue (the Boxscore's and the vote charts' tables excepted, which date steps already entered).
 
 | Page | Date | Event | Why |
@@ -232,7 +236,7 @@ Every dated event the issue treats that is not entered and not already in the ca
 | 2058 | July 1968 | Friedheim's *Where Are the Voters?* published | out of the brief: a book, no act |
 | 2063 | Feb. 16 | Johnson ends most graduate and occupational deferments | lead: not checked against the calendar of February |
 | 2064 | June 11 | The Peace Corps counts 490 "serious draft problems" | minor: an office's count, given to CQ |
-| 2069 | July 26–27 | Teresa McGovern arrested in Rapid City, released on bond | minor: family |
+| 2069 | July 26–27 | Teresa McGovern arrested in Rapid City, released on bond | re-ruled: entered as cal.1968-07-26.elections-1968-6 (CQ reports it among McGovern's political news, "a related development"; the ruling leans in) |
 | 2073–74 | July 1968 | Crank and Whitbeck's charges; Crank on Rockefeller and the Uniroyal plant; Jim Johnson's attacks on Fulbright, "Hanoi's pinup boy" | lead: undated ("late campaign") |
 | 2072 | before Aug. 2 | Pecot dismissed from the New Orleans police | lead: undated |
 | 2073 | before Aug. 2 | James N. Lee's race for Louisiana's supreme court | lead: undated |

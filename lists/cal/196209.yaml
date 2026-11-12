@@ -85,6 +85,13 @@ entries:
         - 'https://www.leg.state.nv.us/Division/Research/Publications/PHoN/PHoN.pdf#page=512: all'
         - 'w.peirce-mountain-states-of-america 170: B'
     tags: [state:nv, city:las-vegas, name:gragson-oran-k, name:greenspun-hank, name:sawyer-grant]
+    time_range:
+      - 1962-09-05T02:00Z
+      - 1962-09-05T09:00Z
+    time_band: election night
+    time_zone: America/Los_Angeles
+    range_basis: kind
+    polls_close: 'Polls close 6–7 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 56](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60) (1967).'
   - id: cal.1962-09-04.oil
     when: Sept. 4
     date: '1962-09-04'
@@ -169,6 +176,16 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-05.missile-crisis-warnings
+    when: Sept. 5
+    date: '1962-09-05'
+    thread: missile-crisis-warnings
+    c: From Sept. 5, U-2s and other reconnaissance aircraft fly only peripheral missions around Cuba, the State Department fearing a shoot-down over the island.
+    n: '[[w.poole-joint-chiefs-of-staff]], 163–64. Check: the day of the decision; Poole: "After 5 September." Check: the record of the decision (State, the Special Group).'
+    src:
+      c: 6b8bd563
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 163–64: all'
   - id: cal.1962-09-06.soviet-union
     when: Sept. 6
     date: '1962-09-06'
@@ -257,7 +274,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 210 n.43: B, D'
         - 'via w.fursenko-one-hell-of-a 211 n.46: B-C'
         - 'w.fursenko-khrushchevs-cold-war 455–56: A-B, D'
-    tags: [name:malinovsky-rodion-yakovlevich, name:khrushchev-nikita-s]
+    tags: [name:malinovsky-rodion-y, name:khrushchev-nikita-s]
     time_range:
       - 1962-09-07T05:00Z
       - 1962-09-07T13:00Z
@@ -323,13 +340,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-07.cuba-3
+    when: Sept. 7
+    date: '1962-09-07'
+    thread: cuba
+    c: 'Miami. Harvey meets Rosselli, the first of two meetings (the second Sept. 11). Reported at them: the Cuban preparing another three-man team to penetrate Castro''s bodyguard; the pills, "the medicine," still "safe" in Cuba. Harvey, 1975: by this time he had grave doubts, and told Rosselli "there''s not much likelihood that this is going anyplace, or that it should be continued."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 84 (I.G. Report, 51; Harvey, testimony, June 25, 1975, 103–4; the report gives the two meetings together). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Inspector General''s Report, 1967, 51 (cited by [[w.sen-church-alleged-assassination-plots]], 84). See [[cal.1962-06.cuba-2]]. Names: Harvey, Rosselli, Castro. Check: which of the two meetings.'
+    tags: [name:harvey-william-k, name:rosselli-john, name:castro-fidel]
   - id: cal.1962-09-09.georgia
     when: Sept. 9
     date: '1962-09-09'
     thread: georgia
     also: [voting-rights]
     c: 'Terrell County. The Mount Mary and Mount Olive Baptist churches, both used for registration meetings, burned to the ground. Sheriff Mathews: no evidence of arson; the FBI finds it. A drunken bystander, Virgil Puckett, swings at an agent in the ruins and is arrested for assault. Judge Elliott had already refused the Justice Department''s injunction on Mathews''s raid of July.'
-    n: '[[w.branch-parting-the-waters]], 637. To check: New York Times, Sept. 10, 1962, 1 (cited by [[w.branch-parting-the-waters]], 637 n.1). Check: the day of Elliott''s ruling, and of Puckett''s arrest. See [[cal.1962-07-25.voting-rights]]. Names: Elliott.'
+    n: '[[w.branch-parting-the-waters]], 637. To check: [*New York Times*, Sept. 10, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/10/issue.html), at 1 (cited by [[w.branch-parting-the-waters]], 637 n.1). Check: the day of Elliott''s ruling, and of Puckett''s arrest. See [[cal.1962-07-25.voting-rights]]. Names: Elliott.'
     src:
       c: e94223de
       rows:
@@ -342,12 +366,13 @@ entries:
     thread: cuba
     also: [robert-kennedy, missile-crisis]
     c: 'A White House meeting on Cuba. Robert Kennedy''s notes: McNamara: Cuba has substantial offensive capability, sixty MiGs; "Surface to Surface. Invasion," the last underscored.'
-    n: '[[w.thomas-robert-kennedy]], 204. To check: Cuba ExCom Meeting, RFK Notes, Sept. 9, 1962, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 204 n.). Names: Robert Kennedy, McNamara.'
+    n: '[[w.thomas-robert-kennedy]], 204; [[w.sen-church-alleged-assassination-plots]], 147 n.1 (the record of the Special Group (Augmented)''s meeting of Sept. 9, 1962: "It was suggested that the matter of attacking and harassing of Soviet personnel within Cuba should be considered"; not the place, McNamara or Robert Kennedy''s notes). To check: Cuba ExCom Meeting, RFK Notes, Sept. 9, 1962, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 204 n.). Names: Robert Kennedy, McNamara.'
     src:
       c: f30b40c9
       rows:
         - 'w.thomas-robert-kennedy 204: all'
         - 'via x.1962-09-09.cuba-excom-meeting-robert-kennedy-notes: all'
+        - 'w.sen-church-alleged-assassination-plots 147 n.1: ?'
     tags: [name:kennedy-robert-f, name:mcnamara-robert-s]
     time_range:
       - 1962-09-09T13:00Z
@@ -410,7 +435,7 @@ entries:
     thread: mississippi
     also: [voting-rights]
     c: 'Ruleville, Miss., night. Shots into two of the three homes sheltering SNCC''s volunteers; at Herman and Hattie Sisson''s two college girls wounded, one critically. Mayor Dorrough to the sheriff: "Bob Moses is the cause of all of it." A SNCC volunteer arrested at the hospital, charged with the shooting as a stunt.'
-    n: '[[w.branch-parting-the-waters]], 637–38. To check: New York Times, Sept. 11, 1962, 20; Jet, Sept. 27, 1962, 14–21 (cited by [[w.branch-parting-the-waters]], 637 n.2). Check: the day; Branch, the night after the Terrell County burnings. Names: Moses.'
+    n: '[[w.branch-parting-the-waters]], 637–38. To check: [*New York Times*, Sept. 11, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/11/issue.html), at 20; *Jet*, Sept. 27, 1962, at 14–21 (cited by [[w.branch-parting-the-waters]], 637 n.2). Check: the day; Branch, the night after the Terrell County burnings. Names: Moses.'
     src:
       c: 2f803356
       rows:
@@ -473,6 +498,12 @@ entries:
         - 'https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=11: all'
         - 'w.peirce-mountain-states-of-america 58: B'
     tags: [state:co, name:love-john-a, name:hamil-david-a, name:mcnichols-stephen-l-r]
+    time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T09:00Z
+    time_band: election night
+    time_zone: America/Denver
+    range_basis: kind
   - id: cal.1962-09-11.governors-az
     when: Sept. 11
     date: '1962-09-11'
@@ -481,6 +512,13 @@ entries:
     c: 'Arizona''s primary. Democratic, for governor: Goddard over Haldiman, 91,661 to 41,645, 59.8 percent. Republican: Governor Fannin unopposed.'
     n: 'Votes: [Wikipedia, "1962 Arizona gubernatorial election"](https://en.wikipedia.org/wiki/1962_Arizona_gubernatorial_election); Check: [Ariz. *Official Canvass, Primary Election, September 11, 1962*](https://azmemory.azlibrary.gov/nodes/view/102658). To check: [[w.shermer-sunbelt-capitalism]]; [[w.peirce-mountain-states-of-america]]. Names: Goddard, Haldiman, Fannin.'
     tags: [state:az, name:goddard-samuel-p-jr, name:haldiman-joe-c, name:fannin-paul-j]
+    time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T09:00Z
+    time_band: election night
+    time_zone: America/Phoenix
+    range_basis: kind
+    polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38) (1967).'
   - id: cal.1962-09-11.governors-wi
     when: Sept. 11
     date: '1962-09-11'
@@ -489,6 +527,12 @@ entries:
     c: 'Wisconsin, governor. Republican primary: Kuehn over Renk, 250,539 to 199,616, 53.9 percent; one other 14,952, 3.2 percent. Reynolds, the attorney general, the Democratic nominee unopposed; Nelson running for the Senate.'
     n: 'Votes: [Wikipedia, "1962 Wisconsin gubernatorial election"](https://en.wikipedia.org/wiki/1962_Wisconsin_gubernatorial_election), from the *Wisconsin Blue Book 1964* (Check). To check: [[w.thompson-history-of-wisconsin-volume]]; [[w.peirce-great-lakes-states-of]]. Names: Kuehn, Renk, Reynolds, Nelson.'
     tags: [state:wi, name:kuehn-philip-g, name:renk-wilbur-n, name:reynolds-john-w-jr, name:nelson-gaylord-a]
+    time_range:
+      - 1962-09-12T01:00Z
+      - 1962-09-12T07:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1962-09-11.governors-mn
     when: Sept. 11
     date: '1962-09-11'
@@ -497,6 +541,13 @@ entries:
     c: 'Minnesota, governor. DFL primary: Lieutenant Governor Rolvaag over one other, 271,818 to 22,042, 92.5 percent. Governor Andersen unopposed.'
     n: '[*Report of the State Canvassing Board, Primary Election, September 11, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232069/1962.pdf). Votes: [Wikipedia, "1962 Minnesota gubernatorial election"](https://en.wikipedia.org/wiki/1962_Minnesota_gubernatorial_election). To check: [[w.andersen-mans-reach]]; [[w.stinnett-recount]]. Names: Rolvaag, Andersen.'
     tags: [state:mn, name:rolvaag-karl-f, name:andersen-elmer-l]
+    time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56) (1967).'
   - id: cal.1962-09-11.governors-ri
     when: Sept. 11
     date: '1962-09-11'
@@ -505,6 +556,12 @@ entries:
     c: 'Rhode Island''s primaries for governor. Democratic: Notte over Coleman, 49,204 to 41,658, 53.1 percent; one other. Republican: Chafee, minority leader of the Rhode Island House, over Jackvony, 17,756 to 10,459, 62.5 percent.'
     n: '[R.I. Board of Elections, *Official Count*, 1962, pp. 6, 16](https://elections.ri.gov/sites/g/files/xkgbur756/files/publications/Election_Publications/Countbooks/1962-Count-Book.pdf#page=6). See [[cal.1960-11-08.governors-ri]]. Names: Notte, Coleman, Jackvony, Chafee.'
     tags: [state:ri, name:notte-john-a-jr, name:coleman-kevin-k, name:chafee-john-h, name:jackvony-louis-v]
+    time_range:
+      - 1962-09-12T00:00Z
+      - 1962-09-12T06:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-09-11.governors-nh
     when: Sept. 11
     date: '1962-09-11'
@@ -513,6 +570,12 @@ entries:
     c: New Hampshire's Republican primary for governor. Pillsbury over Powell, the governor, 55,784 to 42,005, 56.4 percent. King the Democrat.
     n: '[N.H. *Manual for the General Court*, no. 38 (1963), p. 284](https://archive.org/details/manualforgeneral38newh/page/n313). See [[cal.1960-09-13.governors-nh]]. Names: Pillsbury, Powell, King.'
     tags: [state:nh, name:pillsbury-john, name:powell-wesley, name:king-john-w]
+    time_range:
+      - 1962-09-12T00:00Z
+      - 1962-09-12T06:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-09-11.elections-1962
     when: Sept. 11
     date: '1962-09-11'
@@ -526,6 +589,13 @@ entries:
         - 'w.goldberg-barry-goldwater 167: all'
         - 'via x.1986.shadegg-arizona-politics-struggle-end-one-party: A'
     tags: [name:mecham-evan, name:shadegg-stephen, name:goldwater-barry-m, name:hayden-carl, state:az]
+    time_range:
+      - 1962-09-12T02:00Z
+      - 1962-09-12T09:00Z
+    time_band: election night
+    time_zone: America/Phoenix
+    range_basis: kind
+    polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38) (1967).'
   - id: cal.1962-09-11.berlin-and-vienna
     when: Sept. 11
     date: '1962-09-11'
@@ -558,6 +628,24 @@ entries:
         - 'w.woods-fulbright 270–71: all'
         - 'via x.1962-09-11.jones-asks-fulbright-answers: all'
     tags: [name:fulbright-j-william, state:ar]
+  - id: cal.1962-09-11.cuba
+    when: Sept. 11
+    date: '1962-09-11'
+    thread: cuba
+    c: 'Robert Kennedy, in a memorandum, on the ransom for the Bay of Pigs prisoners: "virtually impossible for us to send $60 million worth of equipment to Cuba with part of our population and a number of political leaders calling for an invasion of Cuba"; $25 million perhaps, not $60 million.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 470–71 ("In September"; the day by the note; Soviet arms shipments to Cuba frightening some Americans). To check: Robert F. Kennedy, memorandum dictated Sept. 11, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 471 n.11). See [[cal.1962-07-03.cuba]]. Names: Robert Kennedy.'
+    src:
+      c: df2ae6ea
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 470–71: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1962-09-11.cuba-2
+    when: Sept. 11
+    date: '1962-09-11'
+    thread: cuba
+    c: Miami. Harvey meets Rosselli again, the second of two meetings.
+    n: '[[w.sen-church-alleged-assassination-plots]], 84 (I.G. Report, 51). Made public: the Church Committee''s interim report, Nov. 20, 1975. See [[cal.1962-09-07.cuba-3]]. Names: Harvey, Rosselli.'
+    tags: [name:harvey-william-k, name:rosselli-john]
   - id: cal.1962-09-12.space
     when: Sept. 12
     date: '1962-09-12'
@@ -580,6 +668,12 @@ entries:
     c: 'Georgia''s Democratic primary for governor, the first without the county unit: Sanders, of Augusta, president pro tempore of the State Senate, over Griffin, governor 1955–59, 494,978 to 332,746, 58.1 percent; three others.'
     n: '[Ga. *Official and Statistical Register*, 1961–62, p. 1436](https://dlg.galileo.usg.edu/data/dlg/sreg/pdfs/dlg_sreg_1961.pdf#page=1443), as [Wikipedia](https://en.wikipedia.org/wiki/1962_Georgia_gubernatorial_election) gives it. To check: [[w.cook-carl-sanders]]; [[w.bartley-from-thurmond-to-wallace]]; [[w.black-southern-governors-and-civil]]. See [[cal.1962-04-28.georgia-ga]]. Names: Griffin, Sanders.'
     tags: [name:sanders-carl-e, name:griffin-marvin, state:ga]
+    time_range:
+      - 1962-09-13T01:00Z
+      - 1962-09-13T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-09-12.economy
     when: Sept. 12
     date: '1962-09-12'
@@ -617,6 +711,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-12.cuba
+    when: Sept. 12
+    date: '1962-09-12'
+    thread: cuba
+    c: 'Lansdale to Taylor, Rusk and McNamara: the Special Group, as a means of "emphasizing such activity," has replaced the task with one to "cause actions by Cubans against Bloc personnel," and noted that "consideration will be given to provoking and conducting physical attacks on Bloc personnel."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 147 n.1 (Memo to Taylor, Rusk, and McNamara, from Lansdale, Sept. 12, 1962, 1–2). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memo, Lansdale to Taylor, Rusk and McNamara, Sept. 12, 1962 (cited by [[w.sen-church-alleged-assassination-plots]], 147 n.1). See [[cal.1962-08-31.cuba]]; [[cal.1962-09-09.cuba]]. Names: Lansdale, Taylor, Rusk, McNamara. Check: the day of the Group''s decision.'
+    tags: [name:lansdale-edward-g, name:taylor-maxwell, name:rusk-dean, name:mcnamara-robert-s]
   - id: cal.1962-09-13.mississippi-ole-miss
     when: Sept. 13
     date: '1962-09-13'
@@ -636,7 +737,7 @@ entries:
     thread: missile-crisis-warnings
     also: [voting-rights, georgia, mississippi]
     c: 'Press conference. The warning repeated. Asked of King''s telegrams on the terror in the South: the burning of two churches for Negroes'' efforts to register, "I don''t know any more outrageous action which I have seen occur in this country for a good many months or years"; the shootings in Mississippi "cowardly as well as outrageous." Those registering "deserve the protection of the United States Government," and "if it requires extra legislation and extra force, we shall do that."'
-    n: 'News Conference, [1962 Pub. Papers 674](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=734) (Sept. 13, 1962), 676–77 (item 6). [[w.sorensen-kennedy]], 671 (the warning); [[w.branch-parting-the-waters]], 638–39 (the churches). To check: New York Times, Sept. 14, 1962, 1, 12 (cited by [[w.branch-parting-the-waters]], 638 n.6). See [[cal.1962-05-24.missile-crisis]]; [[cal.1962-09-09.georgia]]. Names: Kennedy, Martin Luther King.'
+    n: 'News Conference, [1962 Pub. Papers 674](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=734) (Sept. 13, 1962), 676–77 (item 6). [[w.sorensen-kennedy]], 671 (the warning); [[w.branch-parting-the-waters]], 638–39 (the churches); [[w.reeves-president-kennedy]], 352 (the news conference; the statement on Cuba). To check: [*New York Times*, Sept. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/14/issue.html), at 1, 12 (cited by [[w.branch-parting-the-waters]], 638 n.6). See [[cal.1962-05-24.missile-crisis]]; [[cal.1962-09-09.georgia]]. Names: Kennedy, Martin Luther King.'
     src:
       c: dbeb28f4
       rows:
@@ -644,6 +745,7 @@ entries:
         - 'w.sorensen-kennedy 671: A-B'
         - 'w.branch-parting-the-waters 638–39: C-D'
         - 'via w.branch-parting-the-waters 638 n.6: C-D'
+        - 'w.reeves-president-kennedy 352: A, B'
     tags: [name:kennedy-john-f, name:king-martin-luther-jr]
   - id: cal.1962-09-13.conservation
     when: Sept. 13
@@ -733,6 +835,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-13.cuba-2
+    when: Sept. 13
+    date: '1962-09-13'
+    thread: cuba
+    c: 'Schlesinger to Kennedy, by his own account, on the Soviet arms in Cuba: relatively a hard-liner; the State Department should tell the Soviet Ambassador, coldly and toughly, that persistence in arming Cuba would bring a larger defense budget and a surge of national indignation coloring every other issue between the two countries.'
+    n: '[[w.schlesinger-thousand-days-1965]], 799–800 (and, at Bundy''s staff meeting, undated, the question put to him: "OK, but how far would you carry it if they keep on doing what you object to?"). Names: Schlesinger, Kennedy.'
+    src:
+      c: 5aaafdbe
+      rows:
+        - 'w.schlesinger-thousand-days-1965 799–800: all'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f]
   - id: cal.1962-09-14.soviet-union
     when: Sept. 14
     date: '1962-09-14'
@@ -771,7 +884,7 @@ entries:
     thread: georgia
     also: [king, voting-rights]
     c: 'Night. King leads a car caravan from Albany to a prayer service at the ruins of Mount Olive: "We appreciate the strong and forthright words from the President of our nation. ... We are praying that these words will be translated into powerful action." Rockefeller has pledged $10,000 to rebuild the three burned churches; SCLC gives each pastor $1,000.'
-    n: '[[w.branch-parting-the-waters]], 639. To check: New York Times, Sept. 15, 1962, 12 (cited by [[w.branch-parting-the-waters]], 639 n.1). See [[cal.1962-09-13.missile-crisis]]. Names: Martin Luther King, Rockefeller.'
+    n: '[[w.branch-parting-the-waters]], 639. To check: [*New York Times*, Sept. 15, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/15/issue.html), at 12 (cited by [[w.branch-parting-the-waters]], 639 n.1). See [[cal.1962-09-13.missile-crisis]]. Names: Martin Luther King, Rockefeller.'
     src:
       c: 2f9674ed
       rows:
@@ -848,6 +961,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-14.cuba-2
+    when: Sept. 14
+    date: '1962-09-14'
+    thread: cuba
+    c: The Special Group (Augmented) approves in principle a proposed set of operations. Bundy "made it clear that this did not constitute a blanket approval of every item in the paper and that sensitive ones such as sabotage, for example, will have to be presented in more detail on a case by case basis."
+    n: '[[w.sen-church-alleged-assassination-plots]], 146 (Memo of SGA Meeting, Sept. 14, 1962, 1). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memo of Special Group (Augmented) Meeting, Sept. 14, 1962 (cited by [[w.sen-church-alleged-assassination-plots]], 146). See [[cal.1962-08-10.cuba]]. Names: Bundy.'
+    tags: [name:bundy-mcgeorge]
   - id: cal.1962-09-15.cuba
     when: Sept. 15
     date: '1962-09-15'
@@ -905,13 +1025,21 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 456, 462: all'
         - 'via x.2006.kcw-p462-indigirka: all'
+  - id: cal.1962-09-16.japan
+    when: Sept. 16–19
+    date: '1962-09-16'
+    thread: japan
+    also: [china]
+    c: 'Zhou Enlai to Kenzo Matsumura, of the Liberal Democratic Party: the two countries should "not be bound by things of the past ... but should look forward with a farsighted vision"; "the promotional and gradual method"; relations to improve on the three political principles, the three trade principles and the nonseparability of politics and the economy.'
+    n: '[[w.jian-zhou-enlai]], 504–05 (Chen''s translation; "that month," the month of the Tenth Plenum). Made public: Check. To check: Zhou''s and Chen Yi''s conversations with Matsumura, Sept. 16–19, 1962, 105-01152-04, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 766 n.49). Names: Zhou Enlai. Check: the day (Chen''s text has "that month"; his note dates the conversations, Zhou''s and Chen Yi''s, Sept. 16–19).'
+    tags: [name:zhou-enlai, polity:prc, polity:japan]
   - id: cal.1962-09-17.governors-ny
     when: Sept. 17–19
     date: '1962-09-17'
     thread: governors
     also: [elections-1962]
     c: 'New York''s conventions. Democrats at Syracuse, Sept. 17: Morgenthau, United States Attorney in Manhattan, nominated for governor on the second ballot, over O''Connor, Stratton, Samuels, Beame and others. Sept. 18: Donovan for the Senate against Javits; Edward R. Dudley, Manhattan''s borough president, a Negro, for attorney general. Sept. 19, Republicans at Buffalo renominate Rockefeller and Javits; the Liberals endorse the Democrats'' ticket.'
-    n: '[*New York Times*, Sept. 18, 1962](https://select.nytimes.com/gst/abstract.html?res=FB0610FA355C137A93CAA81782D85F468685F9); [Sept. 19](https://www.nytimes.com/1962/09/19/archives/democrats-name-dudley-a-negro-to-state-ticket-donovan-to-oppose.html); [Sept. 20](https://www.nytimes.com/1962/09/20/archives/governor-vows-hard-campaign-is-renominated-cheering-republican.html). [[w.schlesinger-robert-kennedy-and-his]], 370–71 (Morgenthau over O''Connor; Robert Kennedy''s part, Buckley turned from O''Connor); [[w.smith-on-his-own-terms]], 379 (the Harris poll for Morgenthau at Kennedy''s behest; Syracuse, Buckley of the Bronx needed; "Down with the bosses!"; Morgenthau on the second ballot at four in the morning; Donovan against Javits); [[w.smith-on-his-own-terms]], 379–80 (the footnote: Donovan for the Senate; Dudley the first Negro nominated for statewide office in New York); [[w.smith-on-his-own-terms]], 380 (Sept. 19, Buffalo: Rockefeller renominated by acclamation; "stifled in Syracuse"); [[w.novak-agony-of-the-g]], 81–82 (Morgenthau nominated in September; Harris''s survey for the party: a Democrat in Lehman''s mold; Wagner a major force for him). To check: [[w.persico-imperial-rockefeller]]; [[w.connery-rockefeller-of-new-york]]; [[w.underwood-governor-rockefeller-in-new]]. Names: Morgenthau, O''Connor, Stratton, Samuels, Beame, Donovan, Javits, Dudley, Rockefeller.'
+    n: '[*New York Times*, Sept. 18, 1962](https://select.nytimes.com/gst/abstract.html?res=FB0610FA355C137A93CAA81782D85F468685F9); [Sept. 19](https://www.nytimes.com/1962/09/19/archives/democrats-name-dudley-a-negro-to-state-ticket-donovan-to-oppose.html); [Sept. 20](https://www.nytimes.com/1962/09/20/archives/governor-vows-hard-campaign-is-renominated-cheering-republican.html). [[w.schlesinger-robert-kennedy-and-his]], 370–71 (Morgenthau over O''Connor; Robert Kennedy''s part, Buckley turned from O''Connor); [[w.smith-on-his-own-terms]], 379 (the Harris poll for Morgenthau at Kennedy''s behest; Syracuse, Buckley of the Bronx needed; "Down with the bosses!"; Morgenthau on the second ballot at four in the morning; Donovan against Javits); [[w.smith-on-his-own-terms]], 379–80 (the footnote: Donovan for the Senate; Dudley the first Negro nominated for statewide office in New York); [[w.smith-on-his-own-terms]], 380 (Sept. 19, Buffalo: Rockefeller renominated by acclamation; "stifled in Syracuse"); [[w.novak-agony-of-the-g]], 81–82 (Morgenthau nominated in September; Harris''s survey for the party: a Democrat in Lehman''s mold; Wagner a major force for him); [[w.schlesinger-robert-kennedy-and-his]], 471 (Donovan became the Democratic Senate candidate against Javits; Robert Kennedy thought he should retire from the race, other Democrats that he should campaign more; not the day or the convention). To check: [[w.persico-imperial-rockefeller]]; [[w.connery-rockefeller-of-new-york]]; [[w.underwood-governor-rockefeller-in-new]]. Names: Morgenthau, O''Connor, Stratton, Samuels, Beame, Donovan, Javits, Dudley, Rockefeller.'
     src:
       c: b5e12596
       rows:
@@ -923,6 +1051,7 @@ entries:
         - 'w.smith-on-his-own-terms 379–80: C-D'
         - 'w.smith-on-his-own-terms 380: E'
         - 'w.novak-agony-of-the-g 81–82: B'
+        - 'w.schlesinger-robert-kennedy-and-his 471: ?'
     tags: [state:ny, name:morgenthau-robert-m, name:oconnor-frank-d, name:stratton-samuel-s, name:samuels-howard-j, name:beame-abraham-d, name:donovan-james-b, name:javits-jacob-k, name:dudley-edward-r, name:rockefeller-nelson]
   - id: cal.1962-09-17.mississippi-ole-miss
     when: Sept. 17
@@ -976,6 +1105,12 @@ entries:
         - 'w.cq-weekly-report June 7, 1968, 1396: A-C'
         - 'w.sorensen-kennedy 354–55: B'
     tags: [name:kennedy-edward-m, name:lodge-george-c, name:mccormack-edward-j-jr, state:ma]
+    time_range:
+      - 1962-09-19T00:00Z
+      - 1962-09-19T06:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-09-18.governors-ma
     when: Sept. 18
     date: '1962-09-18'
@@ -984,6 +1119,12 @@ entries:
     c: Massachusetts primary. Peabody, once of the Governor's Council, Democratic nominee for governor over one opponent, 596,553 to 149,499, 80.0 percent. Volpe renominated without opposition.
     n: '[Mass. *Election Statistics*, 1962 (P.D. 43), p. 161](https://archive.org/details/electionstatisti19611963mass/page/n238). The opponent''s votes: [Wikipedia, "1962 Massachusetts gubernatorial election"](https://en.wikipedia.org/wiki/1962_Massachusetts_gubernatorial_election). See [[cal.1962-09-18.elections-1962]]. Names: Peabody, Volpe.'
     tags: [state:ma, name:peabody-endicott, name:volpe-john-a]
+    time_range:
+      - 1962-09-19T00:00Z
+      - 1962-09-19T06:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-09-18.states-and-cities-ma
     when: Sept. 18
     date: '1962-09-18'
@@ -992,6 +1133,12 @@ entries:
     c: Massachusetts. Brooke, chairman of the Boston Finance Commission, Republican nominee for attorney general over Richardson, 238,147 to 195,791, 54.9 percent.
     n: '[Mass. *Election Statistics*, 1962 (P.D. 43), p. 65](https://archive.org/details/electionstatisti19611963mass/page/n142). To check: [[w.brooke-bridging-the-divide]]; [[w.rigueur-loneliness-of-the-black]]. Names: Brooke, Richardson.'
     tags: [state:ma, name:brooke-edward-w, name:richardson-elliot-l]
+    time_range:
+      - 1962-09-19T00:00Z
+      - 1962-09-19T06:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-09-18.middle-east
     when: Sept. 18–20
     date: '1962-09-18'
@@ -1075,7 +1222,7 @@ entries:
     thread: georgia
     also: [civil-rights-the-executive]
     c: 'The FBI, by press release in Robert Kennedy''s name: after the burning of the I Hope Baptist Church near Dawson early that day, it has given the local authorities its facts on four Terrell County men seen near the church.'
-    n: '[[w.navasky-kennedy-justice]], 119–20, 129 (the release quoted; Hoover in 1963: the four arrested and convicted in the State''s court); [[w.branch-parting-the-waters]], 639 (the release quoted). Check: Branch, 639, has the church burned by a kerosene bomb three nights after Sept. 14, the four arsonists found by the FBI watching, drinking beer, and confessing; the Department''s statement: they "did not burn the church specifically to intimidate Negroes from registering to vote"; the four later convicted in the State''s court (New York Times, Sept. 18, 1962, 1, 26; Navasky, 119–20). Names: Robert Kennedy, Hoover. Check: the arrests'' and the trial''s days.'
+    n: '[[w.navasky-kennedy-justice]], 119–20, 129 (the release quoted; Hoover in 1963: the four arrested and convicted in the State''s court); [[w.branch-parting-the-waters]], 639 (the release quoted). Check: Branch, 639, has the church burned by a kerosene bomb three nights after Sept. 14, the four arsonists found by the FBI watching, drinking beer, and confessing; the Department''s statement: they "did not burn the church specifically to intimidate Negroes from registering to vote"; the four later convicted in the State''s court ([*New York Times*, Sept. 18, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/18/issue.html), at 1, 26; Navasky, 119–20). Names: Robert Kennedy, Hoover. Check: the arrests'' and the trial''s days.'
     src:
       c: 9e7a10ae
       rows:
@@ -1190,7 +1337,7 @@ entries:
     date: '1962-09-19'
     thread: missile-crisis-warnings
     c: 'SNIE 85-3-62: offensive missiles in Cuba unlikely. McCone, on his honeymoon, dissents by cable.'
-    n: '[FRUS 1961–63, X, doc. 433](https://history.state.gov/historicaldocuments/frus1961-63v10/d433) (the estimate); [FRUS 1961–63, X, doc. 433](https://history.state.gov/historicaldocuments/frus1961-63v10/d433) (the estimate); [vol. 10](https://history.state.gov/historicaldocuments/frus1961-63v10). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 202 (the estimate); [[w.poole-joint-chiefs-of-staff]], 163 (the estimate). To check: [[w.robarge-john-mccone-as-director]]. See [[cal.1962-05-24.missile-crisis]]. Names: McCone.'
+    n: '[FRUS 1961–63, X, doc. 433](https://history.state.gov/historicaldocuments/frus1961-63v10/d433) (the estimate); [FRUS 1961–63, X, doc. 433](https://history.state.gov/historicaldocuments/frus1961-63v10/d433) (the estimate); [vol. 10](https://history.state.gov/historicaldocuments/frus1961-63v10). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 202 (the estimate); [[w.poole-joint-chiefs-of-staff]], 163 (the estimate); [[w.reeves-president-kennedy]], 354 (the estimate, Sept. 19; McCone''s dissent not mentioned). To check: [[w.robarge-john-mccone-as-director]]. See [[cal.1962-05-24.missile-crisis]]. Names: McCone.'
     src:
       c: 3993600f
       rows:
@@ -1201,6 +1348,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d433: A'
         - 'w.poole-joint-chiefs-of-staff 163: A'
         - 'via w.poole-joint-chiefs-of-staff 163 n.20: A'
+        - 'w.reeves-president-kennedy 354: A'
     tags: [name:mccone-john-a]
     time_range:
       - 1962-09-19T13:00Z
@@ -1304,6 +1452,14 @@ entries:
       - 1962-09-19T16:00Z
       - 1962-09-19T21:52Z
     time_zone: America/New_York
+  - id: cal.1962-09-19.japan
+    when: Sept. 19
+    date: '1962-09-19'
+    thread: japan
+    also: [china]
+    c: 'Liao Chengzhi and Kenzo Matsumura sign a trade agreement: Chinese-Japanese trade to grow by barter, delayed payment and long-term agreements.'
+    n: '[[w.jian-zhou-enlai]], 505. See [[cal.1962-09-16.japan]].'
+    tags: [polity:prc, polity:japan]
   - id: cal.1962-09-20.school-aid
     when: Sept. 20
     date: '1962-09-20'
@@ -1589,13 +1745,21 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-24.china
+    when: Sept. 24
+    date: '1962-09-24'
+    thread: china
+    also: [japan]
+    c: 'The Tenth Plenum opens. Mao Zedong, interrupting Chen Boda on the revisionists'' blockade: "日本还卖给我们化肥，卖给我们特殊钢，卖给我们农药，还准备卖给我们生产维尼纶的世界第一流的设备，而社会主义国家不卖给我们。大概下个月他们的代表就要来了，叫高崎达之助" (Japan still sells us chemical fertilizer, special steel and pesticides, and is ready to sell us the world''s finest vinylon plant, which the socialist countries will not sell us. Their representative, Takasaki Tatsunosuke, will probably come next month); "要利用资本主义国家的技术" (we must use the capitalist countries'' technology).'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 70 (the plenum Sept. 24–27; Mao''s speech, then Chen Boda''s, the same day); [[w.jian-zhou-enlai]], 504 (Mao''s words at the Tenth Plenum, in Chen''s translation; not the day; Chen places the plenum "in the spring of 1962"). Made public: Check (2003 at the latest). To check: *Mao Zedong zhuan, 1949–1976* (2003), 1256 (cited by [[w.jian-zhou-enlai]], 766 n.44). Names: Mao Zedong, Chen Boda.'
+    tags: [name:mao-zedong, name:chen-boda, polity:prc, polity:japan]
   - id: cal.1962-09-25.mississippi-ole-miss
     when: Sept. 25
     date: '1962-09-25'
     thread: mississippi-ole-miss
     also: [mississippi]
     c: Barnett refuses Meredith again, at Jackson.
-    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). [[w.navasky-kennedy-justice]], 185 (the trustees kept by Barnett from registering Meredith at the capitol; the order to show cause that night); [[w.mann-walls-of-jericho]], 328 (the college board''s offices at Jackson); [[w.branch-parting-the-waters]], 647–49; [[w.thomas-robert-kennedy]], 196 (Barnett: "Which one is Meredith?"; the proclamation as a souvenir). Check: Branch, 647–49, has McShane and Doar bring Meredith from New Orleans in a Border Patrol Cessna; the trustees, at the Woolfolk State Office Building, not the Federal Building; Barnett in the door of Room 1007 reading his second proclamation of interposition: "hereby finally deny you admission to the University of Mississippi" (Lord, *The Past That Would Not Die*, 139–43; Meredith, *Three Years in Mississippi*, 193–97; [[w.navasky-kennedy-justice]], 185–92, 199–204). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Meredith.'
+    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). [[w.navasky-kennedy-justice]], 185 (the trustees kept by Barnett from registering Meredith at the capitol; the order to show cause that night); [[w.mann-walls-of-jericho]], 328 (the college board''s offices at Jackson); [[w.branch-parting-the-waters]], 647–49; [[w.thomas-robert-kennedy]], 196 (Barnett: "Which one is Meredith?"; the proclamation as a souvenir); [[w.reeves-president-kennedy]], 355. Check: Branch, 647–49, has McShane and Doar bring Meredith from New Orleans in a Border Patrol Cessna; the trustees, at the Woolfolk State Office Building, not the Federal Building; Barnett in the door of Room 1007 reading his second proclamation of interposition: "hereby finally deny you admission to the University of Mississippi" (Lord, *The Past That Would Not Die*, 139–43; Meredith, *Three Years in Mississippi*, 193–97; [[w.navasky-kennedy-justice]], 185–92, 199–204). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Meredith.'
     src:
       c: e6f2121b
       rows:
@@ -1606,6 +1770,7 @@ entries:
         - 'via w.branch-parting-the-waters 647 n.3a: A'
         - 'via w.branch-parting-the-waters 647 n.3d: A'
         - 'w.thomas-robert-kennedy 196: A'
+        - 'w.reeves-president-kennedy 355: A'
     tags: [name:barnett-ross-r, name:meredith-james-h]
     time_range:
       - 1962-09-25T14:00Z
@@ -1723,7 +1888,7 @@ entries:
     thread: mississippi-ole-miss
     also: [mississippi]
     c: Lieutenant Governor Johnson turns Meredith back at the gate at Oxford, Miss.
-    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). [[w.navasky-kennedy-justice]], 208 (Johnson and eighty-two sheriffs at the university; McShane, Doar and Meredith); [[w.mann-walls-of-jericho]], 328–29; [[w.branch-parting-the-waters]], 649–50. Check: Branch, 649–50, has the three flown to Oxford without troops, the highway patrol''s escort leaving them near the gates; McShane, told the Mississippians might yield to a show of force: "I''m sorry, Governor, that I have to do this, but I''m going in," then rebuffed (New York Times, Sept. 27, 1962, 1). See [[cal.1962-06-25.mississippi]]. Names: Johnson, Meredith.'
+    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). [[w.navasky-kennedy-justice]], 208 (Johnson and eighty-two sheriffs at the university; McShane, Doar and Meredith); [[w.mann-walls-of-jericho]], 328–29; [[w.branch-parting-the-waters]], 649–50. Check: Branch, 649–50, has the three flown to Oxford without troops, the highway patrol''s escort leaving them near the gates; McShane, told the Mississippians might yield to a show of force: "I''m sorry, Governor, that I have to do this, but I''m going in," then rebuffed ([*New York Times*, Sept. 27, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/27/issue.html), at 1). See [[cal.1962-06-25.mississippi]]. Names: Johnson, Meredith.'
     src:
       c: 50f8921d
       rows:
@@ -1783,6 +1948,14 @@ entries:
         - 'w.branch-parting-the-waters 650: all'
         - 'via w.branch-parting-the-waters 650 n.2: B-C'
     tags: [name:king-martin-luther-jr, name:shuttlesworth-fred, state:al, city:birmingham]
+  - id: cal.1962-09-26.china
+    when: Sept. 26
+    date: '1962-09-26'
+    thread: china
+    also: [south-asia]
+    c: 'The Tenth Plenum. Zhou Enlai''s speech: if China is forced to fight a war with India, it will be "for [the sake of] opening the path toward negotiation."'
+    n: '[[w.jian-zhou-enlai]], 483. Made public: Check. To check: Zhou''s speech at the Tenth Plenum of the Eighth Central Committee, Sept. 26, 1962, 855-6-2008-14, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.87). See [[cal.1962-09-24.china]]. Names: Zhou Enlai. Check: the day (Chen''s text has "At the Tenth Plenum"; his note dates the speech Sept. 26). Check: Chen cites the same speech (764 n.89) for words he places "when the war began" (483): "this war, first and foremost, is a political battle."'
+    tags: [name:zhou-enlai, polity:prc, polity:india]
   - id: cal.1962-09-27.program
     when: Sept. 27
     date: '1962-09-27'
@@ -2022,7 +2195,7 @@ entries:
     thread: civil-rights-organizations
     also: [mississippi-ole-miss, georgia-albany]
     c: SCLC's convention closes at Birmingham, three hundred delegates. Resolutions call on the Justice Department to mend its lapses in protecting constitutional rights around Albany and commend Meredith's courage.
-    n: '[[w.branch-parting-the-waters]], 653. To check: New York Times, Sept. 28, 1962, 23 (cited by [[w.branch-parting-the-waters]], 653 n.4). See [[cal.1962-09-24.alabama-birmingham]]. Names: Meredith.'
+    n: '[[w.branch-parting-the-waters]], 653. To check: [*New York Times*, Sept. 28, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/28/issue.html), at 23 (cited by [[w.branch-parting-the-waters]], 653 n.4). See [[cal.1962-09-24.alabama-birmingham]]. Names: Meredith.'
     src:
       c: '34154208'
       rows:
@@ -2188,7 +2361,7 @@ entries:
     thread: press-and-broadcasting
     also: [king]
     c: The reporters gone to Ole Miss, Walker finds a young *New York Times* reporter willing to write the story of the attack on King under a Birmingham dateline; the attacker a "self-styled Nazi."
-    n: '[[w.branch-parting-the-waters]], 655. To check: New York Times, Sept. 29, 1962, 9; Peter Kihss to Walker, Oct. 4, 1962, and Walker to Kihss, Oct. 10, 1962, SCLC Papers, box 33 (cited by [[w.branch-parting-the-waters]], 655 n.1). See [[cal.1962-09-28.king]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 655. To check: [*New York Times*, Sept. 29, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/29/issue.html), at 9; Peter Kihss to Walker, Oct. 4, 1962, and Walker to Kihss, Oct. 10, 1962, SCLC Papers, box 33 (cited by [[w.branch-parting-the-waters]], 655 n.1). See [[cal.1962-09-28.king]]. Names: Martin Luther King.'
     src:
       c: 8d3920d3
       rows:
@@ -2232,7 +2405,7 @@ entries:
     thread: mississippi-ole-miss
     also: [mississippi, robert-kennedy]
     c: Meredith flown to Oxford; marshals at the Lyceum; riot overnight. Guihard, a French reporter, and Gunter, a local man, killed. Kennedy on television during it.
-    n: '[Meeting on Civil Rights, 10:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-civil-rights), Tapes 26 and 26A (Miller Center), Sept. 30; [Robert Kennedy and Vance, 12:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-oval-office-between-robert-kennedy-and-cyrus), Dictabelt 4F3, Cassette A (Miller Center), Oct. 1. Radio and Television Report to the Nation on the Situation at the University of Mississippi, [1962 Pub. Papers 726](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=786) (Sept. 30, 1962). [Proclamation No. 3497](https://www.presidency.ucsb.edu/documents/proclamation-3497-obstructions-justice-the-state-mississippi), [27 Fed. Reg. 9681](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). [Exec. Order No. 11,053](https://www.presidency.ucsb.edu/documents/executive-order-11053-providing-assistance-for-the-removal-unlawful-obstructions-justice), [27 Fed. Reg. 9693](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). Address on Mississippi (K–J Adm. II.I). [[w.sorensen-kennedy]], 484–87; [[w.mann-walls-of-jericho]], 330–32 (the address about 10 p.m.; the riot; two dead; 166 marshals hurt, 28 by gunfire); [[w.branch-parting-the-waters]], 661–69; [[w.thomas-robert-kennedy]], 199–203 (Meredith at Oxford about 6:30 p.m.; the marshals at the Lyceum; the state police withdrawn at 7:25; the riot; the President''s address; the tape in the Cabinet Room; 160 marshals hurt, 28 by gunfire; a French reporter and a local man killed). Check: Branch, 661–69: Meredith at Baxter Hall by 6:30 p.m. Mississippi time; State Senator George Yarbrough, with Barnett''s proclamation, takes command of the highway patrol; its withdrawal order heard by the FBI at 7:25; tear gas at 7:58; the President on the air at 10 p.m. Washington time; Guihard killed; 160 marshals hurt, 28 by gunfire (Lord, *The Past That Would Not Die*, 180–204; [[w.guthman-we-band-of-brothers]], 200–205; Audiotapes 26 and 26A, JFK Library). See [[cal.1962-06-25.mississippi]]. Names: Meredith, Guihard, Gunter, John F. Kennedy, Robert F. Kennedy, Katzenbach, Marshall.'
+    n: '[Meeting on Civil Rights, 10:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-civil-rights), Tapes 26 and 26A (Miller Center), Sept. 30; [Robert Kennedy and Vance, 12:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-oval-office-between-robert-kennedy-and-cyrus), Dictabelt 4F3, Cassette A (Miller Center), Oct. 1. Radio and Television Report to the Nation on the Situation at the University of Mississippi, [1962 Pub. Papers 726](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=786) (Sept. 30, 1962). [Proclamation No. 3497](https://www.presidency.ucsb.edu/documents/proclamation-3497-obstructions-justice-the-state-mississippi), [27 Fed. Reg. 9681](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). [Exec. Order No. 11,053](https://www.presidency.ucsb.edu/documents/executive-order-11053-providing-assistance-for-the-removal-unlawful-obstructions-justice), [27 Fed. Reg. 9693](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). Address on Mississippi (K–J Adm. II.I). [[w.sorensen-kennedy]], 484–87; [[w.mann-walls-of-jericho]], 330–32 (the address about 10 p.m.; the riot; two dead; 166 marshals hurt, 28 by gunfire); [[w.branch-parting-the-waters]], 661–69; [[w.thomas-robert-kennedy]], 199–203 (Meredith at Oxford about 6:30 p.m.; the marshals at the Lyceum; the state police withdrawn at 7:25; the riot; the President''s address; the tape in the Cabinet Room; 160 marshals hurt, 28 by gunfire; a French reporter and a local man killed); [[w.wofford-of-kennedys-and-kings]], 167–68 (Sept. 30–Oct. 1, Kennedy and the Attorney General up all night; hundreds of marshals, then thousands of troops to Oxford; Kennedy on the air; not the dead). Check: Branch, 661–69: Meredith at Baxter Hall by 6:30 p.m. Mississippi time; State Senator George Yarbrough, with Barnett''s proclamation, takes command of the highway patrol; its withdrawal order heard by the FBI at 7:25; tear gas at 7:58; the President on the air at 10 p.m. Washington time; Guihard killed; 160 marshals hurt, 28 by gunfire (Lord, *The Past That Would Not Die*, 180–204; [[w.guthman-we-band-of-brothers]], 200–205; Audiotapes 26 and 26A, JFK Library). See [[cal.1962-06-25.mississippi]]. Names: Meredith, Guihard, Gunter, John F. Kennedy, Robert F. Kennedy, Katzenbach, Marshall.'
     src:
       c: 95ecd139
       rows:
@@ -2250,6 +2423,7 @@ entries:
         - 'w.thomas-robert-kennedy 199–203: A-E'
         - 'via w.thomas-robert-kennedy 200 n.riot-described: A-D'
         - 'via w.thomas-robert-kennedy 200 n.throwing-iron-spikes: E'
+        - 'w.wofford-of-kennedys-and-kings 167–68: ?'
     tags: [name:kennedy-john-f, name:meredith-james-h, name:guihard-paul, name:gunter-ray, name:kennedy-robert-f, name:katzenbach-nicholas, name:marshall-burke]
     short: Meredith at Oxford
   - id: cal.1962-09-30.mississippi-ole-miss-2
@@ -2327,7 +2501,7 @@ entries:
     thread: mississippi-ole-miss
     also: [alabama, democratic-party]
     c: 'Birmingham, days before the Oxford riot. Russell to Alabama Democrats: Barnett the "great and courageous governor of Mississippi"; as governor he would stand as Barnett does. "It is regretful that we have no one in the Supreme Court that recognizes the fundamentals of democracy."'
-    n: '[[w.mann-walls-of-jericho]], 332–33. To check: Thomasville Times-Enterprise, Sept. 28, 1962 (cited by [[w.mann-walls-of-jericho]], 332). Check: the day. See [[cal.1962-06-25.mississippi]]. Names: Russell, Barnett.'
+    n: '[[w.mann-walls-of-jericho]], 332–33. To check: *Thomasville Times-Enterprise*, Sept. 28, 1962 (cited by [[w.mann-walls-of-jericho]], 332). Check: the day. See [[cal.1962-06-25.mississippi]]. Names: Russell, Barnett.'
     src:
       c: 48f01b2f
       rows:
@@ -2340,7 +2514,7 @@ entries:
     thread: mississippi-ole-miss
     also: [republican-party]
     c: 'Eisenhower, of Barnett''s refusal to admit Meredith: "absolutely unconscionable and indefensible."'
-    n: '[[w.mann-walls-of-jericho]], 333. To check: CQ Weekly Report, Oct. 5, 1962, 1809 (cited by [[w.mann-walls-of-jericho]], 333). Check: the day. See [[cal.1962-06-25.mississippi]]. Names: Eisenhower, Barnett, Meredith.'
+    n: '[[w.mann-walls-of-jericho]], 333. To check: *CQ Weekly Report*, Oct. 5, 1962, at 1809 (cited by [[w.mann-walls-of-jericho]], 333). Check: the day. See [[cal.1962-06-25.mississippi]]. Names: Eisenhower, Barnett, Meredith.'
     src:
       c: f03fc7af
       rows:
@@ -2401,7 +2575,7 @@ entries:
     thread: civil-rights-the-executive
     also: [voting-rights]
     c: 'Burke Marshall, in private, to Shuttlesworth and other leaders: the Justice Department gives no "protection guarantees" to those running registration programs; federal powers are limited. They answer that he steered them into registration as the field of clearest federal authority.'
-    n: '[[w.branch-parting-the-waters]], 640. To check: Jet, Oct. 4, 1962, 3–4 (cited by [[w.branch-parting-the-waters]], 640 n.1). Check: the day. Names: Burke Marshall, Shuttlesworth.'
+    n: '[[w.branch-parting-the-waters]], 640. To check: *Jet*, Oct. 4, 1962, at 3–4 (cited by [[w.branch-parting-the-waters]], 640 n.1). Check: the day. Names: Burke Marshall, Shuttlesworth.'
     src:
       c: 03a362e6
       rows:
@@ -2413,7 +2587,7 @@ entries:
     date: 1962-09
     thread: georgia
     c: Four more Negro churches burned in Georgia in the ten days after I Hope.
-    n: '[[w.branch-parting-the-waters]], 640. To check: New York Times, Sept. 26, 1962, 23 (cited by [[w.branch-parting-the-waters]], 640 n.2). Check: the days and the churches. See [[cal.1962-09-18.georgia]].'
+    n: '[[w.branch-parting-the-waters]], 640. To check: [*New York Times*, Sept. 26, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/26/issue.html), at 23 (cited by [[w.branch-parting-the-waters]], 640 n.2). Check: the days and the churches. See [[cal.1962-09-18.georgia]].'
     src:
       c: d9d961bc
       rows:
@@ -2689,7 +2863,7 @@ entries:
     date: 1962-09
     thread: desegregation-schools
     c: Chicago. Daley names the Cook County Physicians Association to the Advisory Commission on School Board Nominations, the first Negro body among those represented.
-    n: '[[w.anderson-confronting-the-color-line]], 91, 107. Check: the day. To check: Chicago Sun-Times, 12 September 1962 (cited by [[w.anderson-confronting-the-color-line]], 91 n.53). Names: Daley.'
+    n: '[[w.anderson-confronting-the-color-line]], 91, 107. Check: the day. To check: *Chicago Sun-Times*, 12 September 1962 (cited by [[w.anderson-confronting-the-color-line]], 91 n.53). Names: Daley.'
     src:
       c: 42c5fd06
       rows:
@@ -2702,7 +2876,7 @@ entries:
     thread: school-aid
     also: [press-and-broadcasting]
     c: 'The *Times*, editorially: the President, who called school aid perhaps the most important domestic legislation, "has lapsed into a strange silence"; his lieutenants "as remote from the issue as former Secretary Ribicoff"; its supporters "in retreat or in hiding."'
-    n: '[[w.graham-uncertain-triumph]], 38. Check: the day; Graham, 236 n.31, gives Sept. 4, but sets the editorial after the House''s vote of Sept. 20. To check: *New York Times*, Sept. 4, 1962 (cited by [[w.graham-uncertain-triumph]], 38 n.31). Names: Ribicoff.'
+    n: '[[w.graham-uncertain-triumph]], 38. Check: the day; Graham, 236 n.31, gives Sept. 4, but sets the editorial after the House''s vote of Sept. 20. To check: [*New York Times*, Sept. 4, 1962](https://timesmachine.nytimes.com/timesmachine/1962/09/04/issue.html) (cited by [[w.graham-uncertain-triumph]], 38 n.31). Names: Ribicoff.'
     src:
       c: 22c447d6
       rows:
@@ -2779,3 +2953,57 @@ entries:
       - 1962-09-30T23:00Z
       - 1962-10-01T09:00Z
     time_zone: America/Chicago
+  - id: cal.1962-09.press-and-broadcasting
+    when: Sept.
+    date: 1962-09
+    thread: press-and-broadcasting
+    c: Newport, at the America's Cup. Kennedy has Ben Bradlee of *Newsweek* shown the family's files and the FBI's reports to knock down a story that he had married before; Bradlee, cleared by his editors, gives him a veto over the article's wording. Kennedy keeps him from the day's race.
+    n: '[[w.reeves-president-kennedy]], 348. To check: Benjamin Bradlee, interview by Reeves; [[w.bradlee-conversations-with-kennedy]], 45–49, 115–117; [[w.parmet-jfk]], 112–114 (cited by [[w.reeves-president-kennedy]], 348). Check: the day. Names: Kennedy, Bradlee.'
+    src:
+      c: 12e507eb
+      rows:
+        - 'w.reeves-president-kennedy 348: all'
+        - 'via w.reeves-president-kennedy 348 n.johns-other-wife.a: all'
+    tags: [name:kennedy-john-f, name:bradlee-benjamin-c]
+  - id: cal.1962-09.south-asia-2
+    when: Sept.
+    date: 1962-09
+    thread: south-asia
+    c: Ayub Khan in Washington. One afternoon, at Kennedy's request, Taylor takes him by helicopter to Glen Ora, the Kennedys' farm in Virginia, to call on Jacqueline Kennedy and see the saddle horse he had given her; Ayub, in white wool chaps over his striped trousers, rides off with her.
+    n: '[[w.taylor-swords-and-plowshares]], 259 (Taylor''s account; a social errand, by his telling, chosen to talk with Ayub). Check: the day. See [[cal.1962-09.south-asia]]. Names: Ayub Khan, John F. Kennedy, Taylor, Jacqueline Kennedy.'
+    src:
+      c: 7aa1117b
+      rows:
+        - 'w.taylor-swords-and-plowshares 259: all'
+    tags: [name:ayub-khan-mohammad, name:kennedy-john-f, name:taylor-maxwell, name:kennedy-jacqueline]
+  - id: cal.1962-09.mississippi-ole-miss-4
+    when: Sept.
+    date: 1962-09
+    thread: mississippi-ole-miss
+    also: [robert-kennedy]
+    c: 'Meredith says he will drive to Ole Miss in his new gold Thunderbird. Burke Marshall advises him to think again. Robert Kennedy, later: "Boy, that''s all we needed was to have him arrive on the campus with a gold Thunderbird."'
+    n: '[[w.thomas-robert-kennedy]], 195. To check: [[w.robert-kennedy-in-his]], 195–96 (cited by Thomas, 430). Check: the day. Names: Meredith, Burke Marshall, Robert Kennedy.'
+    src:
+      c: 57a6083a
+      rows:
+        - 'w.thomas-robert-kennedy 195: all'
+    tags: [name:meredith-james-h, name:marshall-burke, name:kennedy-robert-f]
+  - id: cal.1962-09-30.mississippi-ole-miss-5
+    when: Sept. 30
+    date: '1962-09-30'
+    thread: mississippi-ole-miss
+    c: 'The Justice Department, the afternoon. After Barnett''s call, Robert Kennedy throws together the team for Oxford: lawyers drafted in the hall, Dean Markham, Harold Reis of the Office of Legal Counsel. To Katzenbach as he leaves: "Hey, Nick, don''t worry if you get shot. The president needs a moral issue." At the Lyceum one of Katzenbach''s men calls the Department collect from the pay telephone.'
+    n: '[[w.thomas-robert-kennedy]], 199. See [[cal.1962-09-30.mississippi-ole-miss-2]]. Names: Robert Kennedy, Katzenbach.'
+    src:
+      c: 8cff3cb4
+      rows:
+        - 'w.thomas-robert-kennedy 199: all'
+    tags: [name:kennedy-robert-f, name:katzenbach-nicholas]
+  - id: cal.1962-09.south-asia-3
+    when: Sept., early
+    date: 1962-09
+    thread: south-asia
+    also: [china]
+    c: The Central Military Commission orders the troops on the western and eastern sectors of the border with India not to retreat when Indian troops push forward in a standoff; still not to fire the first shot unless the supreme leadership orders it.
+    n: '[[w.jian-zhou-enlai]], 479. Made public: Check (1997 at the latest). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 159–60; [[w.zhou-enlai-nianpu-1949]], II, 496 n. (cited by [[w.jian-zhou-enlai]], 763 n.67). Check: the day.'
+    tags: [polity:prc, polity:india]

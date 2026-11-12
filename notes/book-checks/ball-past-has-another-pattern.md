@@ -35,6 +35,26 @@ New rows in `inbox/witnesses/2026-11-03-b3-ball-2.yaml` (20); the edges in `sour
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7), the eleven still open read again Nov. 11, 2026 (batch 8, patch `2026-11-11-b8-ball`; the page images read for the dates, numbers and quotations cited):
+
+| p. | Row | Ruling |
+|---|---|---|
+| 159 | the convention, McCarthy's speech, the demonstration | cited under `cal.1960-07-13.elections-1960` |
+| 170 | Bowles lets it be known | entered as `cal.1961-04.cuba-3` (month, "Check: the day") |
+| 172 | Rusk telephones Ball at Geneva | already cited (172, `cal.1961-11-26.transition-and-staff`) |
+| 180 | the inaugural address from the steps | cited under `cal.1961-01-20.transition-and-staff` |
+| 197 | Ikeda's dinner; the soundings | already cited (197, `cal.1961-07-11.japan`; 195-97, `cal.1961-07-11.foreign-aid`) |
+| 225-28 | the Congo | cited under `cal.1960-06-30.congo`, `-07-10`, `-07-11`, `-07-13`, `-08-01` (Check: Ball's Aug. 3 and 8), `-08-12`, `-09-05`, `-09-14`, `cal.1961-02-13.congo`; Check on `cal.1961-02-15.congo` (Ball's Feb. 25); Sept. 18 already cited. Not entered: Gizenga's Stanleyville government, Lumumba's repulse in Katanga (no day) |
+| 275 | Kennedy asks Ball to see Salazar and Ayub | cited under `cal.1963-08-28.africa`, with a Check ("early fall"; Ball left Aug. 28) |
+| 327-29 | the Dominican Republic | cited under `cal.1962-12-20.latin-america`, `cal.1965-04-24`, `-04-25`, `-04-28` (the junta, the "critic" message), `-04-28` Cabinet Room meeting, `-04-30` (Martin), `-05-15` (Fortas), `-05-16`, `cal.1965-06-01`, `cal.1966-06-01`; Sept. 25, 1963 already cited. Lead: Ball's lunch with Bosch in Washington "just before he took office" (undated even to the month) |
+| 361-64 | Laos to 1961 | cited under `cal.1961-01-19.laos`, `cal.1960-08-09.laos`, `-09-10`, `cal.1960-12-13.laos`, `cal.1961-03-23.laos`; Kennedy's 1956 speech before the span. Leads: Rostow's twenty-five thousand troops, Kennedy's urging the British to an International Control Commission (spring 1961, no day) |
+| 370 | the Buddhist crisis | cited under `cal.1963-05-08.vietnam` (Check: nine killed against eight), `cal.1963-06-11.vietnam`, `cal.1963-08-21.vietnam`; Mme Nhu's "bonze barbecue" and the seven suicides undated (leads) |
+| 432 | Ball's resignation | cited under `cal.1966-09-21.transition-and-staff` (432, beside 425) |
+
+Where batch 8 stopped: all eleven rows read; none left.
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor (private, social, no public business, a routine), in "Batch 6" at the end of this file.
+
 Every dated event within the span on the pages read this run (step 1 above) that is not entered and not already in the calendar; the first run's passes over the cited pages were not logged and are not repeated here.
 
 | Page | Date | Event | Ruling |
@@ -100,3 +120,18 @@ Every dated event within the span on the pages read this run (step 1 above) that
 - National: Kennedy's letter to the chiefs of mission, 1961 (Ball 171; the day); Fowler Hamilton named to AID (184); the Cabinet Committee on Textiles and the defense mobilization finding (188-89); Herter and Blumenthal named, Nov. 1962 (198-99); the Balance of Payments Committee (204-05); Kennedy's press conference of July 17, 1963 (374; the Papers); Johnson's "devil's advocate" (384); Alsop's column of Nov. 23, 1964 (384: the paper and page); Clifford's statement of Dec. 29, 1968 (414: the occasion; the daybook's Sunday programs that day have Rostow and McGovern, not Clifford); Ball's promise to Humphrey (451).
 - Foreign: the OECD's ratification, Mar. 16, 1961 (221); the political union scheme, Apr. 1962 (260); Mikoyan to Havana, Nov. 2, 1962 (308); the Congo of 1963-64 (322); Makarios's proposals, Nov. 1963 (338); Johnson at Honolulu, Feb. 1966 (427); Macmillan to Eisenhower, 1960, on a "peripheral alliance" (209: the record, FRUS 1958-60).
 - Sources not held: Weintal and Bartlett, *Facing the Brink* (1967), and Abel, *The Missile Crisis* (1966), cited by Ball and by Rusk's list of works (Rusk, 641), have no cards; Radvanyi, *Delusion and Reality* (1978), neither.
+
+## Batch 6 (Nov. 10–11, 2026): the private, social and minor rows re-ruled (b6-ball-past)
+
+The same copy fetched again from Drive (the direct download, 50 MB), printed = PDF − 18; pp. 169, 171–72, 195–97 and 448–49 read off the text, p. 196 (PDF 214) off the page image (the DAC's days, July 11–13, 1961; the text layer had "July 1"); deleted when done. Ball gives no notes for these pages: no witnesses to register. Patch `inbox/2026-11-06-b6-ball-past.yaml` (b6-ball-past: 7 entries added; patch-check 0 errors, 2 warnings, a same-day flag of distinct events, read).
+
+| Page | Date | Row | Ruling |
+|---|---|---|---|
+| 169 | early 1961 | Battle tells Ball Rusk wondered what Ball was doing; their talks thereafter | entered, `cal.1961-03.transition-and-staff-2` (said in private about the Department's business; Check: the day, "my first months in the Department") |
+| 171 | late summer 1961 | (on the same page, not listed before) Rusk to Ball: "Chet isn't up to it" | entered, `cal.1961-08.transition-and-staff` |
+| 171 | Oct.–Nov. 1961 | Ball shown Rusk's daily reports of the Gromyko talks | entered, `cal.1961-10.berlin-and-vienna` (the Secretary's sharing of the talks with his Under Secretary for economic affairs, the informal record, not a unit's routine) |
+| 197 | July 1961 | Ikeda's dinner for Ball at Geihinkan; Ball's soundings of the DAC delegations | entered, `cal.1961-07-11.japan` (a social occasion among the principals of a pending matter, Japan in the OECD and the trade problems) and the DAC's meeting itself, which the calendar did not hold, `cal.1961-07-11.foreign-aid` (the first run's "already in" pointed at the Okinawa entry, `cal.1961-07-01.japan`) |
+| 448–49 | Nov. 1968–Jan. 1969 | six weeks in France and Spain; Christmas in Florida; back to Lehman Brothers | Ball to Arthur Sulzberger aboard the *France* on Nixon's election entered, `cal.1968-11-08.elections-1968-2` (Check: the day); the return to Lehman Brothers and the boards that dropped him over his attacks on Nixon entered, `cal.1969-01.transition-and-staff` (Check: whether before Jan. 20); the crossing, the six weeks in France and Spain and Christmas in Florida passed over: family and social matters with no bearing on public business or politics |
+
+Rows not re-ruled here (out of the brief by date, the leads): as written above.
+

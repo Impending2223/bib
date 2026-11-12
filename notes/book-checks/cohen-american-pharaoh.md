@@ -71,6 +71,8 @@ Results without counts ("Check: the counts"): the Cook County returns of 1962, 1
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled private, social, trivia or "minor" read again from the owner's copy (the same Drive file and offsets; checked against the images at folio 470 and the notes pages 582, 583, 587); patch `inbox/2026-11-06-b6-cohen-american.yaml` (b6-cohen-american: 4 entries), witnesses `inbox/witnesses/2026-11-06-b6-cohen-american.yaml` (5), edges in the by-work file (6). The rows ruled a repetition (312, 372, 440) stand: R18 still passes over a repetition.
+
 The list made by going through my reading notes, folio by folio, and checking every dated event against the tree, the ledger and my patch. Each row: page | date | event | why.
 
 | Page | Date | Event | Why |
@@ -92,7 +94,7 @@ The list made by going through my reading notes, folio by folio, and checking ev
 | 283 | 1960 | CORE and NAACP Youth picket Woolworth's | lead: undated |
 | 286 | late 1962 | The Civil Rights Commission's report on Chicago's schools | lead: undated |
 | 287 | 1961–62 | Benjamin Lewis made the 24th Ward's committeeman; Simon slated for the county board | lead: undated |
-| 289 | May 1962 | A Girl Scout, mayor for a day: "Beware of the press, Mayor" | minor: social |
+| 289 | May 1962 | A Girl Scout, mayor for a day: "Beware of the press, Mayor" | Re-ruled Nov. 6: passed over still: a ceremony and a quip, no bearing on public business |
 | 289–90 | 1962 | Daley buries a resolution congratulating the *Tribune*'s Pulitzer; his lecture on the price of newspapers | lead: undated |
 | 290 | 1962 | Tagge on Keane; six Republican judicial losers on Daley's slate; Bacon chosen at the Sanitary District | lead: undated |
 | 291 | fall 1962 | Dawson falters introducing Yates; Adamowski's voting-machine devices; the 11th Ward's circus; the Morrison luncheon | lead: undated within the campaign |
@@ -107,7 +109,7 @@ The list made by going through my reading notes, folio by folio, and checking ev
 | 319 | 1964 | The Chicago Committee on Urban Opportunity established, Deton Brooks its director | lead: undated |
 | 321 | 1964 | The truck-rental and flower scandals | lead: undated |
 | 323 | Oct. 1964 | The Republicans' Operation Double Check, 4,000 complaints; Daley: "a worn-out issue" | lead: undated |
-| 324 | Nov. 21, 1964 | Mary Carol Daley's wedding | minor: private |
+| 324 | Nov. 21, 1964 | Mary Carol Daley's wedding | Re-ruled Nov. 6: entered as `cal.1964-11-21.mayors` (the officials there and Johnson's telegram; 324 nn.78–79) |
 | 324 | 1964 | The budget for 1965; the fire underwriters' upgrade | lead: undated |
 | 325 | | The FBI's report of a politician's talk with Giancana on Daley | lead: undated |
 | 326–27 | 1965 | Hauser against Willis; the Tribute to Dr. Benjamin Willis Committee; Drieske's column | lead: undated |
@@ -122,10 +124,10 @@ The list made by going through my reading notes, folio by folio, and checking ev
 | 354 | 1965 | The "D" tickets in Traffic Court; Daley: "might mean 'dog'" | lead: undated |
 | 361–62 | 1966 | King's tours of Lawndale's tenements | lead: undated |
 | 364 | 1966 | Despres's resolution to hear King sent to subcommittee; Daley's emissaries to the neighborhoods | lead: undated |
-| 368 | Mar. 17, 1966 | St. Patrick's Day parade, 70,000 | minor: social |
+| 368 | Mar. 17, 1966 | St. Patrick's Day parade, 70,000 | Re-ruled Nov. 6: entered as `cal.1966-03-17.mayors` (the machine's politicians, Douglas among them; 368–69 n.20) |
 | 370 | 1966 | Daley's Operation Lite | lead: undated |
 | 372 | Mar. 28, 1966 | $250,000 more for the war on rats | minor: a repetition (the rat program, Mar. 16) |
-| 373 | 1966 | The cleanest-city award luncheon | minor: social |
+| 373 | 1966 | The cleanest-city award luncheon | Re-ruled Nov. 6: passed over still: a civic award, no act on public business |
 | 377–78 | 1966 | Three white men to the school board; Redmond hired | lead: undated |
 | 380–81 | May–July 1966 | SNCC's election of Carmichael (May 14), CORE at Baltimore (July 1–4), Lillian Smith (July 5), the NAACP at Los Angeles and Humphrey (July 5–9) | not checked against the tree: the book's summary of others' work, not its subject; a lead for the merger to hold up |
 | 383 | July 1966 | King to the *New York Times*: Daley "trying to stay ahead of us" | lead: the interview undated |
@@ -143,7 +145,7 @@ The list made by going through my reading notes, folio by folio, and checking ev
 | 440 | July 12, 1967 | McCormick Place to be rebuilt in eighteen months | minor: a repetition (Jan. 17) |
 | 442–43 | 1967 | The Green amendment; Shriver to France | not checked against the tree: national, outside the book's subject |
 | 445 | 1966 | O'Brien's memo; Daley at the White House: "a losing hand in poker" | lead: undated |
-| 446 | May 1967 | Joseph McKeon killed in Vietnam | minor: private |
+| 446 | May 1967 | Joseph McKeon killed in Vietnam | Re-ruled Nov. 6: passed over still: a private death; no act on public business |
 | 451–52 | Mar. 1968 | The Kerner report | not checked against the tree: national |
 | 451 | Apr. 1968 | Daley with Barr, Tate and Cavanagh on holding back | lead: undated |
 | 456 | Apr. 1968 | Reilly: mail 15 to 1; Bush: "printed what he meant"; the curfew lifted | lead: undated |
@@ -151,7 +153,7 @@ The list made by going through my reading notes, folio by folio, and checking ev
 | 462–64 | 1968 | The taxi strike; the Department of Investigation's agents in New York (Clarke's statement, released a decade later); the Red Squad; the Black Turks; Gale Sayers's program | lead: undated |
 | 465 | 1968 | $500,000 for housing in the suburbs | lead: undated |
 | 468 | Aug. 1968 | Daley: "a vicious attack on this city" | lead: undated |
-| 470 | Aug. 1968 | Johnson's birthday cake and party | minor: social |
+| 470 | Aug. 1968 | Johnson's birthday cake and party | Re-ruled Nov. 6: entered as `cal.1968-08.elections-1968-chicago-4` (Daley's preparations, 470 n.21); Johnson's address at San Marcos, Aug. 24, the same page, entered as `cal.1968-08-24.elections-1968-johnson` (1968–69 Pub. Papers 910) |
 | 481–82 | Aug.–Sept. 1968 | The *Washington Post*'s and *Daily News*'s editorials, McGrory, Wicker, Terkel | the press: below |
 | 483 | Sept. 1968 | *What Trees Do They Plant?*; the networks' refusal; NBC's offer; the mail, 60,000 to 4,000 | lead: undated |
 | 484 | Nov. 1968 | Daley to Ogilvie's threat: "You try it!" | lead: undated |

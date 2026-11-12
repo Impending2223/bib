@@ -1,0 +1,1343 @@
+# Daylight saving time and the standard zones: the register (kept by hand). For each State and D.C., 1960-68, whether
+# and when it kept daylight saving time: the State's law, the local option where the State had none, the dates
+# observed each year where a source gives them; the Federal law (the Standard Time Act of 1918, the Uniform Time Act of
+# 1966 and its effective date, the States' exemptions under it); the zone boundaries where a State lay in two zones; and
+# the IANA tz database's history set against the law and practice read, for the zones the series uses. Begun Nov. 10,
+# 2026, at the owner's request (Nov. 6, 2026: "... to find the State and Federal adoption of daylight time"). The hours
+# of the polls: sources/poll-hours.yaml. The memo: notes/extensions/memos/poll-hours.md. Checks: tools/bib/pollhours.py.
+#
+# Sources, by key (each row's `sources` names its page and copy):
+#   DOANE     Doris Chase Doane, *Time Changes in the U.S.A.* (1966), with its *Supplement ... 1966 through 1969*
+#             (1969), an astrologers' reference (Professional Astrologers Inc.): a State a section, the standard time
+#             adopted and "Daylight (or War) Time Observed", statewide and by local ordinance, with a table of dates; its
+#             "1966 Time Picture" (pp. 168-70) and the Supplement's "Daylight Saving Time Observance", 1967-72 (pp.
+#             3-4). Its sources are named only in general ("Suggested Time Reference Sources", p. 172); it warns
+#             "Check with local authorities" throughout. archive.org, time-changes-in-usa-1966 (open; the leaf is the
+#             printed page plus one in the main text). A compilation, not law: its rows say "observed", not "enacted".
+#   CTU-1963-S  the Committee for Time Uniformity's "Extent of Observance in 1963 of Daylight Saving Time in the United
+#             States", "derived from 1962 reports received from the individual States, as adjusted by 1963 reports
+#             received as of Apr. 25, 1963", printed in *Uniform Time Legislation: Hearings Before the S. Comm. on
+#             Commerce*, 88th Cong. 21-22 (1963) (govinfo CHRG-89shrg98118; PDF page = printed + 6)
+#   CTU-1963-H  the Committee's table of the same title, "derived from 1963 reports received from official sources
+#             within the individual States", attached to Rep. Fulton's statement, *Uniform Time: Hearings Before the
+#             Subcomm. on Commerce and Finance of the H. Comm. on Interstate and Foreign Commerce*, 88th Cong. 37-38
+#             (1964) (CHRG-88hhrg36471; PDF page = printed + 6). It differs from CTU-1963-S for Colorado, Michigan and
+#             Oklahoma.
+#   CTU-1965  the Committee's "Extent of Observance in 1965 ...", "derived from 1965 reports received from State
+#             officials and other sources", *Uniform Time: Hearing Before the H. Comm. on Interstate and Foreign
+#             Commerce*, 89th Cong. 71-73 (1966) (CHRG-89hhrg58797; PDF page = printed + 6)
+#   S-1965    the Committee's "Background on the Snarls in Time Observance", *Uniform Time Legislation: Hearing Before
+#             the S. Comm. on Commerce*, 89th Cong. 25-30 (1965) (CHRG-89shrg47149; PDF page = printed + 6)
+#   The witnesses' and the Committee's statements of a State's law are `cited` grounds (the law not read here).
+#
+# Top level: federal (the Federal law, a row an act or order), states (a row a State), zones_split (the States in two
+# zones), tz (the comparison).
+#   federal    {act, cite, url, does, effective, sources}
+#   states     st, name, zones (the IANA zones the series uses for its places), law (optional: the State's own law as a
+#              source states it, or as read), years, surveys, leads (optional)
+#     years    a list, each {span 'YYYY..YYYY', observed, dates (optional), places (optional), sources, check
+#              (optional)}; observed is one of
+#                none       no daylight time kept in the State (local exceptions, if any, in places)
+#                local      kept by local option or ordinance only, in places named or not
+#                most       kept statewide but in places named (places)
+#                statewide  kept by State law or throughout the State
+#                federal    the Uniform Time Act's advanced time (1967-68), the State not exempt
+#                exempt     the State exempt by its law under § 3(a) of the Act
+#              dates, a list of 'YYYY-MM-DD..YYYY-MM-DD', the first and last days of advanced time (the change at
+#              2 a.m. unless a source says otherwise), for the statewide (or main) observance only
+#     surveys  {CTU-1963-S, CTU-1963-H, CTU-1965, DOANE-1966}: the category each puts the State in (statewide, local,
+#              none, reverse: the Committee's "in reverse", a place keeping the zone to its west all year)
+#   zones_split  {st, zones, line, sources}: where the boundary ran, as the rules read give it
+#   tz         {zone, places (the series' States or places it stands for), years, tz (what the database gives),
+#              read (what the sources read give), agrees (yes | no | partly), note}
+federal:
+- act: 'An Act to save daylight and to provide standard time for the United States (the Standard Time Act), as amended'
+  cite: 'Act of Mar. 19, 1918, ch. 24, 40 Stat. 450; 15 U.S.C. §§ 261-264 (1964)'
+  url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg107.pdf'
+  does: 'five zones (eastern, central, mountain, Pacific, Alaska), their limits defined by the Interstate Commerce Commission; the zone''s standard time governs the common carriers and the acts of Federal officers. Its daylight saving was repealed in 1919; from 1946 to 1966 no Federal law advanced the clock, the States and localities choosing'
+  sources:
+  - {ref: 'Uniform Time Act of 1966, § 2 (recites the 1918 act, 40 Stat. 450; 15 U.S.C. 261-264, and the 1921 act)', page: '80 Stat. 107', url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg107.pdf', ground: seen}
+  - {ref: 'S-1965 (the Commission''s statement: "the decision to adopt daylight saving time or to remain on standard time is left to the States and local communities")', page: '14', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=20', ground: seen}
+- act: 'An Act to transfer the Panhandle and Plains section of Texas and Oklahoma to the United States standard central time zone'
+  cite: 'Act of Mar. 4, 1921, 41 Stat. 1446; 15 U.S.C. § 265 (1964)'
+  url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg107.pdf'
+  does: 'all of Texas and Oklahoma in the central zone (El Paso and Hudspeth Counties kept mountain time all year: CTU-1965; the line moved to them in 1970: zones_split)'
+  sources:
+  - {ref: 'Uniform Time Act of 1966, § 2', page: '80 Stat. 107', url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg107.pdf', ground: seen}
+- act: 'Uniform Time Act of 1966'
+  cite: 'Pub. L. 89-387, 80 Stat. 107 (Apr. 13, 1966); 15 U.S.C. §§ 260-267'
+  url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg107.pdf'
+  does: '§ 3(a): the standard time of each zone advanced one hour from 2 a.m. on the last Sunday of April to 2 a.m. on the last Sunday of October, "except that any State may by law exempt itself ... but only if such law provides that the entire State (including all political subdivisions thereof) shall observe the standard time"; § 3(b): State and local laws providing other advances or dates superseded; § 3(c): the ICC to enforce by injunction; § 4: eight zones (Atlantic, eastern, central, mountain, Pacific, Yukon, Alaska-Hawaii, Bering), their limits by ICC order; § 6: effective Apr. 1, 1967, but a place keeping daylight time in 1966 to keep it from 2 a.m. on the last Sunday in April 1966 to the last Sunday in October'
+  effective: '1967-04-01'
+  sources:
+  - {ref: '80 Stat. 107-109', page: '107-109', url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg107.pdf', ground: seen}
+- act: 'Department of Transportation Act, § 6(e)(5): the ICC''s functions under the 1918 and 1921 acts and the Uniform Time Act transferred to the Secretary of Transportation'
+  cite: 'Pub. L. 89-670, § 6(e)(5), 80 Stat. 931, 939-940 (Oct. 15, 1966); § 15(a), 80 Stat. 949 (effective ninety days after the Secretary first took office, or earlier by the President''s order)'
+  url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg931.pdf#page=10'
+  does: 'the zones and the Act''s enforcement the Department''s from its opening (Apr. 1, 1967: check, the executive order fixing the day not read)'
+  sources:
+  - {ref: '80 Stat. 939-940, 949', page: '939-940, 949', url: 'https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg931.pdf#page=10', ground: seen}
+- act: 'Standard time zone boundaries: Atlantic standard time zone (OST Docket No. 10, Amdt. 1), amending Part 239 (formerly Part 139) of 49 C.F.R.'
+  cite: '32 Fed. Reg. 16,162-64 (Nov. 25, 1967), effective Dec. 23, 1967'
+  url: 'https://www.govinfo.gov/content/pkg/FR-1967-11-25/pdf/FR-1967-11-25.pdf#page=22'
+  does: 'the Atlantic zone created (Puerto Rico, the Virgin Islands; not Maine); the zones'' definitions renumbered under the Uniform Time Act. The ICC''s zone rules were Part 139 before the Department''s Part 239'
+  sources:
+  - {ref: '32 Fed. Reg. 16,162-64', page: '16162-64', url: 'https://www.govinfo.gov/content/pkg/FR-1967-11-25/pdf/FR-1967-11-25.pdf#page=22', ground: seen}
+- act: 'Standard time zone boundaries, recodified (49 C.F.R. pt. 71)'
+  cite: '35 Fed. Reg. 12,317-24 (Aug. 1, 1970), effective July 31, 1970'
+  url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=7'
+  does: 'the zones as the Department and the ICC had amended them, recodified "but no substantive changes"; the lines below (zones_split) are read from it, a text after the span: a line moved between 1960 and 1970 is a lead'
+  sources:
+  - {ref: '35 Fed. Reg. 12,317-24', page: '12317-12324', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=7', ground: seen}
+zones_split:
+- st: FL
+  zones: [America/New_York, America/Chicago]
+  line: 'west of the Apalachicola River (from the Jim Woodruff Dam to the Gulf) central; Apalachicola itself eastern'
+  sources:
+  - {ref: '49 C.F.R. § 71.5(f), 35 Fed. Reg. 12,319 (1970)', page: '12319', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=8', ground: seen}
+  - {ref: 'DOANE, Florida (central west of River Junction, Apalachicola on EST)', page: '30', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n31/mode/1up', ground: seen}
+- st: GA
+  zones: [America/New_York]
+  line: 'all eastern; the State line with Alabama the boundary (Phenix City, Ala., and its neighbors kept eastern time by custom: tz)'
+  sources:
+  - {ref: '49 C.F.R. § 71.5(e), 35 Fed. Reg. 12,319 (1970)', page: '12319', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=8', ground: seen}
+  - {ref: 'DOANE, Georgia (all of the State eastern from Nov. 23, 1941)', page: '31', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n32/mode/1up', ground: seen}
+- st: IN
+  zones: [America/Indiana/Indianapolis, America/Chicago]
+  line: '1970: central in the northwest (Lake, Porter, La Porte, Newton, Jasper, Starke and their neighbors to the line) and the southwest (Gibson, Posey, Vanderburgh, Warrick, Spencer and Pike''s line); the rest eastern. Before Jan. 1, 1969 (DOANE''s Supplement: "29 counties observed CST and 43, EST"), the line ran farther east'
+  sources:
+  - {ref: '49 C.F.R. § 71.5(b), 35 Fed. Reg. 12,319 (1970)', page: '12319', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=8', ground: seen}
+  - {ref: 'DOANE, Supplement, II (Indiana, 1969, 1/1)', page: '3', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+- st: KY
+  zones: [America/Kentucky/Louisville, America/New_York, America/Chicago]
+  line: 'eastern east of the line along the west lines of Meade and Hardin, the south lines of Hardin and Larue, Taylor''s, and the west and south lines of Casey, Pulaski and McCreary; central west of it'
+  sources:
+  - {ref: '49 C.F.R. § 71.5(c), 35 Fed. Reg. 12,319 (1970)', page: '12319', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=8', ground: seen}
+- st: TN
+  zones: [America/Chicago, America/New_York]
+  line: 'eastern east of the west lines of Scott, Morgan, Roane (north), Rhea and Hamilton Counties (Knoxville, Chattanooga); central west of it'
+  sources:
+  - {ref: '49 C.F.R. § 71.5(d), 35 Fed. Reg. 12,319 (1970)', page: '12319', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=8', ground: seen}
+- st: MI
+  zones: [America/Detroit, America/Menominee]
+  line: '1970: all of Michigan eastern (the line the State''s western boundary). Dickinson, Gogebic, Iron and Menominee Counties kept central time in the 1960s (tz; DOANE: Dickinson County''s daylight time 1960-65)'
+  sources:
+  - {ref: '49 C.F.R. § 71.5(a), 35 Fed. Reg. 12,319 (1970)', page: '12319', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=8', ground: seen}
+- st: ND
+  zones: [America/Chicago, America/Denver]
+  line: 'mountain in the southwest, west of the line by the Missouri, the Little Missouri and the Heart Rivers and township lines (1970); "most of the area of North Dakota west and south of the Missouri River is located in the central standard time zone" in 1965 and kept mountain time all year (CTU-1965 n. 2); the line moved east Nov. 25, 1967 (DOANE, Supplement)'
+  sources:
+  - {ref: '49 C.F.R. § 71.7(a), 35 Fed. Reg. 12,320-21 (1970)', page: '12320-21', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=9', ground: seen}
+  - {ref: CTU-1965, page: '72 n. 2', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+- st: SD
+  zones: [America/Chicago, America/Denver]
+  line: 'mountain west of the Missouri River from the North Dakota line to near Pierre, then the range line in Jones County and the west line of Tripp County'
+  sources:
+  - {ref: '49 C.F.R. § 71.7(b), 35 Fed. Reg. 12,321 (1970)', page: '12321', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=10', ground: seen}
+- st: NE
+  zones: [America/Chicago, America/Denver]
+  line: 'mountain in the west, the line along county lines (Thomas, McPherson, Keith, Lincoln, Hayes, Hitchcock) from Jan. 1, 1968 (DOANE, Supplement: the line had split counties)'
+  sources:
+  - {ref: '49 C.F.R. § 71.7(c), 35 Fed. Reg. 12,321 (1970)', page: '12321', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=10', ground: seen}
+  - {ref: 'DOANE, Supplement, II (Nebraska, 1968, 1/1)', page: '3', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+- st: KS
+  zones: [America/Chicago, America/Denver]
+  line: 'mountain in Sherman, Wallace, Greeley and Hamilton Counties and part of Kearny (1970)'
+  sources:
+  - {ref: '49 C.F.R. § 71.7(d), 35 Fed. Reg. 12,321 (1970)', page: '12321', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=10', ground: seen}
+  check: 'DOANE''s Supplement (II, p. 3) has the line moved to the State''s western boundary Nov. 25, 1967; the 1970 rule keeps four counties in the mountain zone; the Federal Register of June 22, 1968 has the Department''s proceeding on it'
+- st: TX
+  zones: [America/Chicago, America/Denver]
+  line: 'all central by the act of 1921 until 1970; the 1970 rule puts Hudspeth and El Paso Counties in the mountain zone (El Paso kept mountain time throughout: CTU-1965 n. 3; DOANE, Supplement: "El Paso adopted Mountain Standard Time May 17, 1970")'
+  sources:
+  - {ref: '49 C.F.R. § 71.7(e), 35 Fed. Reg. 12,321 (1970)', page: '12321', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=10', ground: seen}
+  - {ref: CTU-1965, page: '72 n. 3', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+- st: ID
+  zones: [America/Boise, America/Los_Angeles]
+  line: 'Pacific north of the Salmon River (the line from the Idaho-Montana boundary along the Idaho-Lemhi county line to the river and down it to Oregon); mountain south'
+  sources:
+  - {ref: '49 C.F.R. § 71.9(a), 35 Fed. Reg. 12,322 (1970)', page: '12322', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=11', ground: seen}
+- st: OR
+  zones: [America/Los_Angeles, America/Boise]
+  line: 'mountain in Malheur County north of T. 35 S.; the rest Pacific'
+  sources:
+  - {ref: '49 C.F.R. § 71.9(a), 35 Fed. Reg. 12,322 (1970)', page: '12322', url: 'https://www.govinfo.gov/content/pkg/FR-1970-08-01/pdf/FR-1970-08-01.pdf#page=11', ground: seen}
+- st: AK
+  zones: [America/Anchorage]
+  line: 'four zones until Nov. 25, 1967 (Pacific, Yukon, Alaska, Bering); then Yukon (127°30''-141° W.), Alaska-Hawaii (141°-157°30'' W.) and Bering (157°30''-172°30'' W.) (DOANE, Supplement)'
+  sources:
+  - {ref: 'DOANE, Supplement, II (Alaska, 1967, 11/25)', page: '3', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  - {ref: 'PPH (the projections hearing, sources/poll-hours.yaml: "6 hours earlier than western Alaska")', page: '2', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=6', ground: seen}
+  check: 'the ICC''s Alaska lines before 1967 not read'
+states:
+- st: AL
+  name: Alabama
+  zones: [America/Chicago]
+  law: '"the only reference in State laws is to ''standard railroad central time''" (S-1965 29, a Committee statement)'
+  years:
+  - span: '1960..1965'
+    observed: local
+    places: 'Huntsville (Madison County) 1958-60, 1960 Apr. 24-Sept. 25 (DOANE); "the State had daylight saving time for the first time in 1964 -- in one city and for 1 week" (S-1965 29); in 1965 communities in Chambers and Lee Counties and Fort Rucker (CTU-1965)'
+    sources:
+    - {ref: DOANE, page: '20', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n21/mode/1up', ground: seen}
+    - {ref: S-1965, page: '29', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=35', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+    check: 'DOANE has Huntsville''s daylight time 1958-60 and none 1961-65; S-1965 has none before 1964'
+  - span: '1966..1966'
+    observed: local
+    places: 'communities in Chambers and Lee Counties, and Fort Rucker in Coffee and Dale Counties'
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III (no exemption named)', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+- st: AK
+  name: Alaska
+  zones: [America/Anchorage]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: 'DOANE ("No Daylight Time observed")', page: '21', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n22/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: exempt
+    sources:
+    - {ref: 'DOANE, Supplement, III ("ALASKA, HAWAII and MICHIGAN remained on Standard Time", 1967; "ALASKA, ARIZONA and HAWAII", 1968)', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+    check: 'the Alaska act exempting the State not read'
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+  leads:
+  - 'Alaska''s exemption under the Uniform Time Act (Session Laws of Alaska 1967)'
+- st: AZ
+  name: Arizona
+  zones: [America/Phoenix]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '22', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n23/mode/1up', ground: seen}
+  - span: '1967..1967'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29']
+    sources:
+    - {ref: 'DOANE, Supplement, III (Arizona not among the States remaining on standard time in 1967)', page: '3', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  - span: '1968..1968'
+    observed: exempt
+    sources:
+    - {ref: 'DOANE, Supplement, III (1968)', page: '4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n181/mode/1up', ground: seen}
+    - {ref: 'IANA tz, northamerica (America/Phoenix: "Arizona Laws 1968, ch. 183 (effective 1968-03-21) repealed DST", from the Arizona State Library)', page: 'America/Phoenix', url: 'https://github.com/eggert/tz/blob/main/northamerica', ground: cited}
+    check: 'Arizona Laws 1968, ch. 183 not read'
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: AR
+  name: Arkansas
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '23', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n24/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: CA
+  name: California
+  zones: [America/Los_Angeles]
+  law: 'by the people''s vote: Proposition 12 of 1949 (last Sunday in April to last Sunday in September), amended by Proposition 6 of 1962 (to the last Sunday in October) (tz''s note, from the propositions'' texts)'
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-09-25', '1961-04-30..1961-09-24', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: DOANE, page: '24', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n25/mode/1up', ground: seen}
+    - {ref: 'IANA tz, northamerica (America/Los_Angeles: Propositions 12, 1949, and 6, 1962)', page: 'America/Los_Angeles', url: 'https://github.com/eggert/tz/blob/main/northamerica', ground: cited}
+    check: 'DOANE: the spring change at 1 a.m. by tz''s rule, at 2 a.m. by DOANE''s heading'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: CO
+  name: Colorado
+  zones: [America/Denver]
+  law: 'a law of 1965 putting daylight time on the ballot of 1966, "the first time in history we have had a statewide opportunity to vote on it" (Sen. Dominick, S-1965 19)'
+  years:
+  - span: '1960..1964'
+    observed: local
+    places: 'Aspen 1964, May 2-Sept. 27 (DOANE); in 1963, Aspen from May 26 (CTU-1963-H)'
+    sources:
+    - {ref: DOANE, page: '25', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n26/mode/1up', ground: seen}
+    - {ref: CTU-1963-H, page: '38', url: 'https://www.govinfo.gov/content/pkg/CHRG-88hhrg36471/pdf/CHRG-88hhrg36471.pdf#page=44', ground: seen}
+  - span: '1965..1966'
+    observed: statewide
+    dates: ['1965-04-25..1965-10-31', '1966-04-24..1966-10-30']
+    sources:
+    - {ref: DOANE, page: '25, 168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n26/mode/1up', ground: seen}
+    - {ref: S-1965, page: '19', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=25', ground: seen}
+    check: 'the 1965 act and the referendum of Nov. 8, 1966 not read'
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: local, CTU-1965: statewide, DOANE-1966: statewide}
+- st: CT
+  name: Connecticut
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1938 To 1965 Observed state-wide")', page: '26', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n27/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: DE
+  name: Delaware
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1960 To 1965 Observed state-wide")', page: '27', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n28/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: DC
+  name: District of Columbia
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1947 To 1965 Observed")', page: '29', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n30/mode/1up', ground: seen}
+    - {ref: 'CTU-1965 n. 4 ("The District of Columbia also observed daylight saving time in 1965 between the last Sunday of April and the last Sunday in October")', page: '73', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=79', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1965: statewide, DOANE-1966: statewide}
+  leads:
+  - 'the District''s authority for daylight time 1947-66 (the Commissioners'' orders) not read'
+- st: FL
+  name: Florida
+  zones: [America/New_York, America/Chicago]
+  years:
+  - span: '1960..1965'
+    observed: local
+    places: 'Pensacola (central zone), 1956-65, and Eglin Air Force Base, 1946-65, by DOANE''s table: 1960 Apr. 24-Oct. 30 ... 1965 Apr. 25-Oct. 31'
+    sources:
+    - {ref: DOANE, page: '30', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n31/mode/1up', ground: seen}
+    check: 'the Committee''s tables (CTU-1963-S, -H, CTU-1965) and DOANE''s own 1966 list put Florida among the States keeping no daylight time; DOANE''s Florida section gives Pensacola''s'
+  - span: '1966..1966'
+    observed: none
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: GA
+  name: Georgia
+  zones: [America/New_York]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: 'DOANE ("1946 To 1965 Not observed")', page: '31', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n32/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture (among the 14 States not observing)', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+  leads:
+  - 'Albany, Atlanta and their neighbors kept daylight time 1938-40, "dates vary widely" (DOANE 31); nothing after 1945 in any source read. The calendar''s hours at Albany (July-Aug. 1962) and Atlanta read at Eastern daylight time are, by these, Eastern standard'
+- st: HI
+  name: Hawaii
+  zones: [Pacific/Honolulu]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '32-33', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n33/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: exempt
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+    check: 'the Hawaii act exempting the State (1967) not read'
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: ID
+  name: Idaho
+  zones: [America/Boise, America/Los_Angeles]
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'communities north of the Salmon River (Pacific zone), varying dates; DOANE lists southern places too, 1961-63 (Blackfoot, Idaho Falls, Emmett, Declo, Ashton) and 1964-65; Coeur d''Alene and Moscow in 1966'
+    sources:
+    - {ref: DOANE, page: '34-35', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n35/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: IL
+  name: Illinois
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1963-04-28..1963-10-27', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1959 To 1965 Observed state-wide. Refer to Table I for dates")', page: '36-37', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n37/mode/1up', ground: seen}
+    - {ref: 'CTU-1963-S (statewide, the last Sundays of April and October)', page: '21-22', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg98118/pdf/CHRG-89shrg98118.pdf#page=27', ground: seen}
+    - {ref: 'CTU-1965 (among the 16 keeping the last Sundays of April and October)', page: '73', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=79', ground: seen}
+    check: 'the dates of 1960-62 and 1964 in DOANE''s Table I not transcribed (the OCR''s columns)'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: IN
+  name: Indiana
+  zones: [America/Indiana/Indianapolis, America/Chicago]
+  law: '"There is no official State time in Indiana" (S-1965 26); "State law called for CST all year, but business establishments ... opened and closed one hour" earlier, 1957-65 (DOANE 50-51); in 1967 a statute "prohibited the 43 counties in the Eastern Time Zone from observing Daylight Saving Time" (DOANE, Supplement)'
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'county by county and town by town; more and more communities kept eastern standard time all year (DOANE''s maps, fall-winter 1955-56 to 1964-65); in 1966, 49 western counties on central daylight time, the State "on equivalent of Eastern Standard Time" (DOANE 169)'
+    sources:
+    - {ref: DOANE, page: '50-63', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n51/mode/1up', ground: seen}
+    - {ref: S-1965, page: '26', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=32', ground: seen}
+  - span: '1967..1968'
+    observed: local
+    places: 'the 43 eastern-zone counties on eastern standard time all year by State statute; central-zone counties partly on daylight time, Lake County among them (DOANE, Supplement: 1967, and 1968 "a schedule similar")'
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+    - {ref: 'Sen. Bayh''s statement: in 1967 Indiana "was bisected almost in half"; the lines since moved west, 80 counties eastern; the General Assembly''s exemption of 1969 vetoed, the veto overridden in 1971 (Amendments to the Uniform Time Act: Hearing Before the S. Comm. on Commerce, 92d Cong. 12 (1971), CHRG-92shrg59246O)', page: '12', url: 'https://www.govinfo.gov/content/pkg/CHRG-92shrg59246O/pdf/CHRG-92shrg59246O.pdf#page=18', ground: seen}
+    - {ref: 'Rep. Hamilton''s statement, quoting: "the Department of Transportation, in 1968, moved the line to the Indiana-Illinois border" but for two pockets (the same hearing)', page: '13', url: 'https://www.govinfo.gov/content/pkg/CHRG-92shrg59246O/pdf/CHRG-92shrg59246O.pdf#page=19', ground: seen}
+    check: 'the Indiana statute of 1967 not read; under § 3(a) a State could exempt only as a whole'
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: IA
+  name: Iowa
+  zones: [America/Chicago]
+  law: '"Iowa in early 1965 enacted a law providing for statewide DST between Memorial Day and Labor Day" (CTU-1965 72)'
+  years:
+  - span: '1960..1964'
+    observed: local
+    places: '"Local option by communities and varying dates of observance presents a picture of utter confusion" (DOANE); in 1964 eastern Iowa generally from Apr. 26 to August-October; 23 combinations of dates (S-1965 26)'
+    sources:
+    - {ref: DOANE, page: '64-65', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n65/mode/1up', ground: seen}
+    - {ref: S-1965, page: '26', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=32', ground: seen}
+  - span: '1965..1965'
+    observed: statewide
+    dates: ['1965-05-30..1965-09-06']
+    sources:
+    - {ref: DOANE, page: '64', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n65/mode/1up', ground: seen}
+    - {ref: 'CTU-1965 ("officially began on Saturday before Memorial Day"; resumed standard time on Labor Day)', page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+    check: 'the first day: DOANE May 30; CTU-1965 the Saturday before Memorial Day (May 29)'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: statewide, DOANE-1966: statewide}
+- st: KS
+  name: Kansas
+  zones: [America/Chicago, America/Denver]
+  years:
+  - span: '1960..1965'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '66', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n67/mode/1up', ground: seen}
+    check: 'CTU-1965 has portions of 24 counties and Hamilton and Kearny Counties on daylight time in 1965; DOANE none'
+  - span: '1966..1966'
+    observed: local
+    places: 'all or portions of 25 counties in the northwest'
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+- st: KY
+  name: Kentucky
+  zones: [America/Kentucky/Louisville, America/New_York, America/Chicago]
+  law: 'the election law''s "Standard Time" (sources/poll-hours.yaml, KRS 118.040)'
+  years:
+  - span: '1960..1965'
+    observed: local
+    places: 'fifteen central Kentucky communities kept daylight time all year 1957-60; 1961-65 western communities from Apr. 30 to Sept. 4, Sept. 24 or Oct. 29; 1964 Calhoun, Madisonville and Owensboro (DOANE)'
+    sources:
+    - {ref: DOANE, page: '67-68', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n68/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: local
+    places: 'a number of communities in the northwest, Owensboro among them'
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+  - span: '1967..1967'
+    observed: local
+    places: '"In 1967, State got a year of grace because its legislature had not met since the Uniform Time Act was passed ... Some towns observed Daylight Saving Time voluntarily" (DOANE, Supplement)'
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n181/mode/1up', ground: seen}
+    check: 'no exemption was in force (the legislature had not met); DOANE''s "year of grace" is practice, not law'
+  - span: '1968..1968'
+    observed: federal
+    dates: ['1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III (Kentucky not among the States remaining on standard time in 1968)', page: '4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n181/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+- st: LA
+  name: Louisiana
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: 'DOANE (local only in 1946: Kenner, New Orleans)', page: '69', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n70/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: ME
+  name: Maine
+  zones: [America/New_York]
+  law: 'liquor stores open and close on standard time (S-1965 29)'
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1963-04-28..1963-10-27', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1955 To 1965 Adopted state-wide")', page: '70', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n71/mode/1up', ground: seen}
+    - {ref: 'CTU-1963-S (statewide; the last Sundays of April and October, Oregon, West Virginia and Wisconsin excepted)', page: '21-22', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg98118/pdf/CHRG-89shrg98118.pdf#page=27', ground: seen}
+    - {ref: CTU-1965, page: '73', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=79', ground: seen}
+    check: 'the dates of 1960-62 and 1964 in DOANE''s table not transcribed'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: MD
+  name: Maryland
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1959 To 1965 Observed state-wide")', page: '74', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n75/mode/1up', ground: seen}
+    check: 'the Committee''s tables call Maryland''s observance not statewide (1963, 1965); DOANE prints 1963 as "4/28-9/27", read as 10/27; the Salisbury bus (S-1965 26) shows towns changing on May 30 and Sept. 3'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: statewide}
+- st: MA
+  name: Massachusetts
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1946 To 1965 Observed state-wide")', page: '78', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n79/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: MI
+  name: Michigan
+  zones: [America/Detroit, America/Menominee]
+  law: 'the election law''s "eastern standard time" (sources/poll-hours.yaml); "this State voted exemption from Daylight Saving Time" in 1967, then "after a long battle" adopted it June 14, 1967 (DOANE, Supplement); the referendum of Nov. 5, 1968 on the daylight time law (the calendar: cal.1968-11-05.state-constitutions-mi)'
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'Dickinson County (central zone) 1960-64, 1965 but Breen, Felch and West Branch; Upper Peninsula communities, Ironwood among them, in 1966; isolated places all year (DOANE; CTU-1963-H)'
+    sources:
+    - {ref: DOANE, page: '79-83', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n80/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+    check: 'CTU-1965 counts Michigan''s observance among the 16 using the last Sundays of April and October; the places are not named'
+  - span: '1967..1967'
+    observed: federal
+    dates: ['1967-06-14..1967-10-29']
+    places: '"State adopted Daylight Saving Time at 12:01 a.m., June 14, 1967. But the Upper Peninsula rebelled and kept to Standard Time, except the county of Chippewa" (DOANE, Supplement)'
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n181/mode/1up', ground: seen}
+    - {ref: 'IANA tz, northamerica (America/Detroit: DST from 1967-06-14 00:01, after "a complicated set of legal maneuvers"; the Detroit Free Press, June 14, 1967)', page: 'America/Detroit', url: 'https://github.com/eggert/tz/blob/main/northamerica', ground: cited}
+    check: 'the act of 1967 and the court or petition that suspended it not read'
+  - span: '1968..1968'
+    observed: federal
+    dates: ['1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III (Michigan not among the States remaining on standard time in 1968)', page: '4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n181/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: MN
+  name: Minnesota
+  zones: [America/Chicago]
+  law: '"DST legalized state-wide from the fourth Sunday in May to Tuesday following Labor Day", 1959-65; border municipalities allowed the neighboring States'' dates (DOANE); the election law lets the judges agree on "some standard of time" (sources/poll-hours.yaml)'
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-05-22..1960-09-06', '1961-05-28..1961-09-05', '1962-05-27..1962-09-04', '1963-05-26..1963-09-03', '1964-05-24..1964-09-08', '1965-05-23..1965-09-07']
+    places: 'border municipalities by local option (Duluth, Hibbing and others: 1965 from Apr. 25 or May 9 to Oct. 31)'
+    sources:
+    - {ref: DOANE, page: '84-85', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n85/mode/1up', ground: seen}
+    - {ref: 'CTU-1965 (statewide but the border municipalities, from the fourth Sunday in May)', page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+    - {ref: 'the Minneapolis Chamber of Commerce''s report, 1965 (May 23 to Tuesday, Sept. 7, 1965)', page: '34', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=40', ground: seen}
+    check: 'the change on the Tuesday after Labor Day at 2 a.m.: the hour not read'
+  - span: '1966..1966'
+    observed: most
+    places: 'statewide but a few communities on the western border'
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: MS
+  name: Mississippi
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '86', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n87/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: MO
+  name: Missouri
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'St. Louis and some fifty eastern communities (DOANE''s Table I: the last Sundays of April and October; Table II: to the last Sunday in September)'
+    sources:
+    - {ref: DOANE, page: '87-88', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n88/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: MT
+  name: Montana
+  zones: [America/Denver]
+  law: 'fishing licenses on standard time throughout (S-1965 26, 29)'
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'Butte and Anaconda (Silver Bow and Deer Lodge Counties) from Memorial Day: 1960 May 29-Sept. 6, 1961 May 30-Sept. 4, 1962 May 30-Sept. 5, 1963 May 30-Sept. 2, 1965 May 30-Sept. 8; Billings 1963, Bozeman and Livingston 1964 (DOANE)'
+    sources:
+    - {ref: DOANE, page: '89', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n90/mode/1up', ground: seen}
+    - {ref: CTU-1963-S, page: '21', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg98118/pdf/CHRG-89shrg98118.pdf#page=27', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: NE
+  name: Nebraska
+  zones: [America/Chicago, America/Denver]
+  years:
+  - span: '1960..1965'
+    observed: none
+    places: 'Ainsworth and Valentine kept daylight time all year 1955-56 (DOANE)'
+    sources:
+    - {ref: DOANE, page: '90-91', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n91/mode/1up', ground: seen}
+    check: 'CTU-1965 counts Nebraska among the States observing locally in 1965, switching the last Sunday in April'
+  - span: '1966..1966'
+    observed: local
+    places: 'several southwestern counties on mountain standard time all year (DOANE 169)'
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+- st: NV
+  name: Nevada
+  zones: [America/Los_Angeles]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-09-25', '1961-04-30..1961-09-24', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    places: 'White Pine and Lincoln Counties on Pacific daylight time all year (CTU-1965)'
+    sources:
+    - {ref: DOANE, page: '92', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n93/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: NH
+  name: New Hampshire
+  zones: [America/New_York]
+  years:
+  - span: '1960..1966'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31', '1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE ("1946 To 1965 Observed state-wide")', page: '93', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n94/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: NJ
+  name: New Jersey
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1963-04-28..1963-10-27', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE (the communities, 1946-66)', page: '94-96', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n95/mode/1up', ground: seen}
+    - {ref: CTU-1963-S, page: '21-22', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg98118/pdf/CHRG-89shrg98118.pdf#page=27', ground: seen}
+    - {ref: CTU-1965, page: '73', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=79', ground: seen}
+    check: 'DOANE''s statewide statement and table not read in the OCR; the dates of 1960-62 and 1964'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: NM
+  name: New Mexico
+  zones: [America/Denver]
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'Los Alamos County (DOANE''s table: 1960 Apr. 24-Sept. 25 ... 1965 Apr. 25-Sept. 26) and communities in Quay County (CTU-1965; DOANE 169)'
+    sources:
+    - {ref: DOANE, page: '97', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n98/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: NY
+  name: New York
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1955 To 1965 Observed state-wide")', page: '98', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n99/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: NC
+  name: North Carolina
+  zones: [America/New_York]
+  law: 'the election law''s "Eastern Standard Time" to 1967 (sources/poll-hours.yaml)'
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: 'DOANE (local observances of 1946 only)', page: '110', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n111/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: ND
+  name: North Dakota
+  zones: [America/Chicago, America/Denver]
+  law: '1961-65: "Daylight Savings Time prohibited by" State law (DOANE 112, the statement cut in the OCR)'
+  years:
+  - span: '1960..1960'
+    observed: local
+    sources:
+    - {ref: DOANE, page: '112-113', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n113/mode/1up', ground: seen}
+  - span: '1961..1966'
+    observed: none
+    places: 'the southwest kept mountain time all year, "daylight saving time in reverse" (CTU-1965; DOANE 170)'
+    sources:
+    - {ref: DOANE, page: '112', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n113/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+    check: 'the prohibiting act (1961?) not read'
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: reverse, DOANE-1966: none}
+- st: OH
+  name: Ohio
+  zones: [America/New_York]
+  law: 'liquor stores on standard time in the communities keeping daylight time (S-1965 29)'
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'about 240 communities in 1966, in some 18 northeastern counties (Akron, Canton, Cleveland, Youngstown) and the east and southeast; the counties keeping it switched back the fourth Sunday in October (CTU-1963-H); Gallipolis all year (CTU-1965)'
+    sources:
+    - {ref: DOANE, page: '114-121', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n115/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture (the Ohio Chamber of Commerce''s map, 1966)', page: '169', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n170/mode/1up', ground: seen}
+    - {ref: CTU-1963-H, page: '38', url: 'https://www.govinfo.gov/content/pkg/CHRG-88hhrg36471/pdf/CHRG-88hhrg36471.pdf#page=44', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: OK
+  name: Oklahoma
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '122', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n123/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+    check: 'CTU-1963-S counts Oklahoma among the States observing locally (returning to standard time in September), CTU-1963-H among those not observing'
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: OR
+  name: Oregon
+  zones: [America/Los_Angeles, America/Boise]
+  years:
+  - span: '1960..1962'
+    observed: local
+    sources:
+    - {ref: 'DOANE ("1952 To 1962 Not observed state-wide. See Local Ordinance Listing")', page: '123', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n124/mode/1up', ground: seen}
+    check: 'CTU-1963-S (Apr. 1963) counts Oregon statewide, returning on the fourth Saturday of September'
+  - span: '1963..1965'
+    observed: statewide
+    dates: ['1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    places: 'part of Malheur County (mountain zone) apart (CTU-1965)'
+    sources:
+    - {ref: 'DOANE ("1963 To 1965 Observed state-wide")', page: '123', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n124/mode/1up', ground: seen}
+    check: 'CTU-1963-S has Oregon resume standard time "on the fourth Saturday of September" 1963; DOANE Oct. 27'
+  - span: '1966..1966'
+    observed: most
+    places: 'all of the State but a small area at the eastern border on mountain standard time'
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '170', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n171/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: local, DOANE-1966: local}
+- st: PA
+  name: Pennsylvania
+  zones: [America/New_York]
+  law: '"State law requires that all official business be conducted on eastern standard time" (S-1965 29), and the election law''s "Eastern Standard Time" (sources/poll-hours.yaml); "a bill, later signed by the Governor, which provided for statewide daylight-saving time", enacted "only a few months" before Feb. 1966 (Redding, CTU-1965''s volume, 85: PDF page 91)'
+  years:
+  - span: '1960..1964'
+    observed: local
+    places: 'more than 600 communities, all but Yatesville by 1964 (DOANE; S-1965 29), most from the last Sunday in April to the last Sunday in October (DOANE''s Table I), some to the last Sunday in September (Table II)'
+    sources:
+    - {ref: DOANE, page: '128-140', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n129/mode/1up', ground: seen}
+    - {ref: S-1965, page: '29', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=35', ground: seen}
+  - span: '1965..1966'
+    observed: statewide
+    dates: ['1965-04-25..1965-10-31', '1966-04-24..1966-10-30']
+    sources:
+    - {ref: DOANE, page: '128, 168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n129/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '71, 73', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=77', ground: seen}
+    check: 'the act of 1965 not read'
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: statewide, DOANE-1966: statewide}
+- st: RI
+  name: Rhode Island
+  zones: [America/New_York]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1949 To 1965 Observed state-wide")', page: '141', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n142/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: SC
+  name: South Carolina
+  zones: [America/New_York]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: 'DOANE ("1946 To 1965 Not observed")', page: '142', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n143/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+- st: SD
+  name: South Dakota
+  zones: [America/Chicago, America/Denver]
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'portions of Mellette, Stanley and Todd Counties, half of Hayes among them (CTU-1965; DOANE 170)'
+    sources:
+    - {ref: DOANE, page: '143, 170', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n144/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+- st: TN
+  name: Tennessee
+  zones: [America/Chicago, America/New_York]
+  law: '"in Tennessee during the last few years you have outlawed daylight-saving time" (Rep. Long to Rep. Fulton, 1964 House hearing, 38): a State law against daylight time, not read'
+  years:
+  - span: '1960..1966'
+    observed: local
+    places: 'a portion of Marion County (CTU-1965; DOANE 170)'
+    sources:
+    - {ref: DOANE, page: '144-145', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n145/mode/1up', ground: seen}
+    - {ref: '1964 House hearing (CTU-1963-H''s volume), Long and Fulton', page: '38', url: 'https://www.govinfo.gov/content/pkg/CHRG-88hhrg36471/pdf/CHRG-88hhrg36471.pdf#page=44', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+  leads:
+  - 'the Tennessee act against daylight time (1960s) and its repeal or supersession'
+- st: TX
+  name: Texas
+  zones: [America/Chicago, America/Denver]
+  years:
+  - span: '1960..1966'
+    observed: none
+    places: 'El Paso, Hudspeth and part of Culberson County kept mountain standard time all year (CTU-1965 n. 3)'
+    sources:
+    - {ref: DOANE, page: '146', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n147/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: reverse, DOANE-1966: none}
+- st: UT
+  name: Utah
+  zones: [America/Denver]
+  years:
+  - span: '1960..1966'
+    observed: none
+    places: 'the portion of the State in the Pacific zone, in 1965 (CTU-1965) and 1966 (DOANE 170)'
+    sources:
+    - {ref: DOANE, page: '147', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n148/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: local, DOANE-1966: local}
+- st: VT
+  name: Vermont
+  zones: [America/New_York]
+  years:
+  - span: '1960..1966'
+    observed: statewide
+    dates: ['1960-04-24..1960-10-30', '1961-04-30..1961-10-29', '1962-04-29..1962-10-28', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31', '1966-04-24..1966-10-30']
+    sources:
+    - {ref: DOANE, page: '148', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n149/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: VA
+  name: Virginia
+  zones: [America/New_York]
+  law: '"As a result of 1962 legislative action" (CTU-1963-S''s witness, p. 19) the State kept daylight time from the Sunday after Memorial Day to the Sunday after Labor Day, the counties and cities near Washington from the last Sunday in April to the last Sunday in October, Bristol none (S-1965 29); Va. Code § 1-15, named in the election law (sources/poll-hours.yaml)'
+  years:
+  - span: '1960..1961'
+    observed: local
+    places: 'Arlington, Fairfax, Alexandria and Falls Church with Washington (DOANE''s Table I) and others to the last Sunday in September (Table II)'
+    sources:
+    - {ref: DOANE, page: '152-153', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n153/mode/1up', ground: seen}
+  - span: '1962..1965'
+    observed: most
+    places: 'Arlington and Fairfax Counties and Alexandria and Falls Church from the last Sunday in April to the last Sunday in October; the rest from Memorial Day''s week to Labor Day''s; Bristol and the 10th election district apart; eight southwestern counties none (1965)'
+    sources:
+    - {ref: DOANE, page: '152-153', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n153/mode/1up', ground: seen}
+    - {ref: S-1965, page: '29', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=35', ground: seen}
+    - {ref: CTU-1965, page: '72', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=78', ground: seen}
+    check: 'the 1962 act (Acts 1962) not read; the exact dates by year'
+  - span: '1966..1966'
+    observed: most
+    places: 'all but eight southwestern counties (Buchanan, Dickenson, Lee, Russell, Scott, Smyth, Washington, Wise), on eastern standard time'
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '170', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n171/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: local, CTU-1963-H: local, CTU-1965: local, DOANE-1966: local}
+- st: WA
+  name: Washington
+  zones: [America/Los_Angeles]
+  years:
+  - span: '1960..1960'
+    observed: none
+    sources:
+    - {ref: 'DOANE ("1957 To 1960 Not observed")', page: '154', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n155/mode/1up', ground: seen}
+  - span: '1961..1965'
+    observed: statewide
+    dates: ['1961-04-30..1961-09-24', '1962-04-29..1962-09-30', '1963-04-28..1963-10-27', '1964-04-26..1964-10-25', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1961 To 1965 Observed state-wide")', page: '154', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n155/mode/1up', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: WV
+  name: West Virginia
+  zones: [America/New_York]
+  years:
+  - span: '1960..1962'
+    observed: local
+    sources:
+    - {ref: 'DOANE ("1946 To 1962 Not observed state-wide")', page: '156', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n157/mode/1up', ground: seen}
+  - span: '1963..1965'
+    observed: statewide
+    dates: ['1963-04-28..1963-09-29', '1964-04-26..1964-09-27', '1965-04-25..1965-09-26']
+    places: 'the northern and eastern panhandles to the last Sunday of October (CTU-1965); "varying dates ... the same dates as in the nearest" State (DOANE)'
+    sources:
+    - {ref: 'DOANE ("1963 To 1965 Observed state-wide, varying dates")', page: '156', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n157/mode/1up', ground: seen}
+    - {ref: CTU-1965, page: '73', url: 'https://www.govinfo.gov/content/pkg/CHRG-89hhrg58797/pdf/CHRG-89hhrg58797.pdf#page=79', ground: seen}
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: WI
+  name: Wisconsin
+  zones: [America/Chicago]
+  years:
+  - span: '1960..1965'
+    observed: statewide
+    dates: ['1960-04-24..1960-09-25', '1961-04-30..1961-09-24', '1962-04-29..1962-09-30', '1963-04-28..1963-09-29', '1964-04-26..1964-09-27', '1965-04-25..1965-10-31']
+    sources:
+    - {ref: 'DOANE ("1957 To 1965 Observed state-wide")', page: '158', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n159/mode/1up', ground: seen}
+    - {ref: 'S-1965 ("Milwaukee and the rest of Wisconsin observes daylight saving time between the last Sundays of April and September", 1965)', page: '29', url: 'https://www.govinfo.gov/content/pkg/CHRG-89shrg47149/pdf/CHRG-89shrg47149.pdf#page=35', ground: seen}
+    check: '1965''s end: DOANE and CTU-1965 the last Sunday in October; the Times article reprinted in S-1965 the last Sunday in September'
+  - span: '1966..1966'
+    observed: statewide
+    dates: ['1966-04-24..1966-10-30']
+    sources:
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: statewide, CTU-1963-H: statewide, CTU-1965: statewide, DOANE-1966: statewide}
+- st: WY
+  name: Wyoming
+  zones: [America/Denver]
+  years:
+  - span: '1960..1966'
+    observed: none
+    sources:
+    - {ref: DOANE, page: '159', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n160/mode/1up', ground: seen}
+    - {ref: 'DOANE, 1966 Time Picture', page: '168', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n169/mode/1up', ground: seen}
+  - span: '1967..1968'
+    observed: federal
+    dates: ['1967-04-30..1967-10-29', '1968-04-28..1968-10-27']
+    sources:
+    - {ref: 'DOANE, Supplement, III', page: '3-4', url: 'https://archive.org/details/time-changes-in-usa-1966/page/n180/mode/1up', ground: seen}
+  surveys: {CTU-1963-S: none, CTU-1963-H: none, CTU-1965: none, DOANE-1966: none}
+tz:
+- zone: America/New_York
+  places: 'New York, the New England States, New Jersey, Delaware, Maryland, D.C.'
+  years: '1960..1968'
+  tz: 'daylight time each year from the last Sunday in April to the last Sunday in October (NYC rule 1955-66; US rule 1967-)'
+  read: 'the same dates for these places (DOANE''s tables; CTU)'
+  agrees: 'yes'
+  note: 'Maryland 1963 as DOANE prints it (Sept. 27) a misprint, read as Oct. 27'
+- zone: America/New_York
+  places: 'Georgia, Florida''s eastern zone, North Carolina, South Carolina'
+  years: '1960..1966'
+  tz: 'daylight time April-October (the New York rule)'
+  read: 'no daylight time in these States (DOANE; CTU-1963-S, -H, CTU-1965; DOANE 1966)'
+  agrees: 'no'
+  note: 'every hour the series reads off a summer clock in these States, 1960-66, is standard time: Albany and Atlanta (Georgia), Raleigh, Charleston, Tallahassee, Miami. A range drawn with America/New_York is an hour early in UTC'
+- zone: America/New_York
+  places: 'Virginia'
+  years: '1960..1965'
+  tz: 'daylight time April-October'
+  read: 'none outside northern Virginia in 1960-61; Memorial Day to Labor Day in most of the State 1962-65; April-October only in Arlington, Fairfax, Alexandria and Falls Church; none in the southwest'
+  agrees: 'partly'
+- zone: America/New_York
+  places: 'West Virginia, Ohio, Pennsylvania'
+  years: '1960..1966'
+  tz: 'daylight time April-October'
+  read: 'West Virginia local to 1962, statewide to the last Sunday of September 1963-65 (the panhandles to October); Ohio local (about 240 communities, mostly northeast); Pennsylvania local to 1964 (most communities, some ending in September), statewide 1965-66'
+  agrees: 'partly'
+- zone: America/New_York
+  places: 'Kentucky''s and Tennessee''s eastern zones, Indiana''s eastern counties not under America/Indiana/*'
+  years: '1960..1967'
+  tz: 'daylight time April-October (1967 the US rule)'
+  read: 'no daylight time but in scattered communities; Kentucky''s "year of grace" in 1967 (DOANE)'
+  agrees: 'no'
+- zone: America/Chicago
+  places: 'Illinois'
+  years: '1960..1968'
+  tz: 'daylight time April-October'
+  read: 'statewide 1959-65 (DOANE), the last Sundays of April and October (CTU 1963, 1965)'
+  agrees: 'yes'
+- zone: America/Chicago
+  places: 'Alabama, Arkansas, Louisiana, Mississippi, Texas, Oklahoma, Kansas, Nebraska, the Dakotas, western Tennessee, western Kentucky'
+  years: '1960..1966'
+  tz: 'daylight time April-October (the Chicago rule)'
+  read: 'none statewide; a few places (Huntsville 1958-60; Owensboro and western Kentucky towns; northwest Kansas 1966; parts of South Dakota and Tennessee)'
+  agrees: 'no'
+  note: 'the series already reads Texas on standard time before 1967 (the Ranch''s hours)'
+- zone: America/Chicago
+  places: 'Minnesota'
+  years: '1960..1965'
+  tz: 'daylight time April-October'
+  read: 'from the fourth Sunday in May to the Tuesday after Labor Day (DOANE; the 1965 Minneapolis report)'
+  agrees: 'partly'
+- zone: America/Chicago
+  places: 'Wisconsin'
+  years: '1960..1964'
+  tz: 'daylight time to the last Sunday in October'
+  read: 'to the last Sunday in September (DOANE; CTU-1963)'
+  agrees: 'partly'
+- zone: America/Chicago
+  places: 'Iowa, Missouri'
+  years: '1960..1965'
+  tz: 'daylight time April-October'
+  read: 'local option, many dates (Iowa); St. Louis and some fifty communities (Missouri); Iowa statewide May 30-Sept. 6, 1965'
+  agrees: 'partly'
+- zone: America/Chicago
+  places: 'the Florida panhandle'
+  years: '1960..1966'
+  tz: 'daylight time April-October'
+  read: 'Pensacola and Eglin Air Force Base kept it 1956-65 (DOANE), the rest none'
+  agrees: 'partly'
+- zone: America/Denver
+  places: 'Colorado'
+  years: '1960..1968'
+  tz: 'no daylight time before 1965; April-October 1965-66 (the Denver rule) and 1967-'
+  read: 'none statewide to 1964 (Aspen 1964); statewide 1965-66 (DOANE)'
+  agrees: 'yes'
+- zone: America/Denver
+  places: 'Utah, Wyoming, New Mexico, Montana'
+  years: '1965..1966'
+  tz: 'daylight time April-October 1965-66 (the Denver rule)'
+  read: 'none in Wyoming and Utah (but Utah''s Pacific-zone corner); Los Alamos County and parts of Quay County, New Mexico, to September; Butte and Anaconda, Montana, Memorial Day to Labor Day'
+  agrees: 'no'
+- zone: America/Los_Angeles
+  places: 'California, Nevada'
+  years: '1960..1968'
+  tz: 'the California rule: to the last Sunday in September through 1961, October from 1962'
+  read: 'the same dates (DOANE)'
+  agrees: 'yes'
+- zone: America/Los_Angeles
+  places: 'Washington, Oregon'
+  years: '1960..1962'
+  tz: 'the California rule'
+  read: 'Washington none in 1960, statewide from 1961, to Sept. 24, 1961 and Sept. 30, 1962; Oregon local only 1952-62 (DOANE)'
+  agrees: 'partly'
+- zone: America/Detroit
+  places: 'Michigan''s lower peninsula'
+  years: '1960..1968'
+  tz: 'no daylight time 1949-66; from June 14, 1967; 1968 the US rule'
+  read: 'none statewide 1946-65 (DOANE); 1967 from June 14 (DOANE, Supplement); 1968 observed'
+  agrees: 'yes'
+  note: 'CTU-1963-S and DOANE''s 1966 list put Michigan''s observance in the Upper Peninsula'
+- zone: America/Menominee
+  places: 'the Upper Peninsula''s central-time counties (Dickinson, Gogebic, Iron, Menominee)'
+  years: '1960..1968'
+  tz: 'no daylight time but 1966 (Apr. 24-Oct. 30); none 1967-68'
+  read: 'Dickinson County on daylight time 1960-65 (DOANE); 1967 "the Upper Peninsula rebelled and kept to Standard Time, except the county of Chippewa" (DOANE, Supplement)'
+  agrees: 'partly'
+- zone: America/Kentucky/Louisville
+  places: 'Louisville and Jefferson County'
+  years: '1960..1968'
+  tz: 'central zone with daylight time to July 23, 1961; then eastern standard time all year to 1968; 1968 the US rule'
+  read: 'DOANE''s Kentucky local listing (Jefferson County 1958, Apr. 27-June 19 ...) not transcribed; Kentucky''s 1967 "year of grace"'
+  agrees: 'partly'
+  note: 'tz''s 1961 move of Louisville to the eastern zone not checked against the ICC''s order'
+- zone: America/Indiana/Indianapolis
+  places: 'Indianapolis and central Indiana'
+  years: '1960..1968'
+  tz: 'eastern standard time all year, 1958-68'
+  read: 'State law called for central standard time all year, 1957-65, business in many towns on the hour earlier (DOANE 50-51); 1967-68 the eastern-zone counties on eastern standard time all year by State statute (DOANE, Supplement)'
+  agrees: 'partly'
+- zone: America/Boise
+  places: 'southern Idaho'
+  years: '1960..1966'
+  tz: 'mountain standard time all year'
+  read: 'southern communities on daylight time 1961-63 (Blackfoot, Idaho Falls, Emmett, Declo: DOANE''s local listing)'
+  agrees: 'partly'
+- zone: America/Phoenix
+  places: Arizona
+  years: '1960..1968'
+  tz: 'no daylight time but 1967; standard time from Mar. 21, 1968'
+  read: 'the same (DOANE; tz''s citation of Laws 1968, ch. 183)'
+  agrees: 'yes'
+- zone: Pacific/Honolulu
+  places: Hawaii
+  years: '1960..1968'
+  tz: 'no daylight time'
+  read: 'none; exempt 1967-68 (DOANE)'
+  agrees: 'yes'
+- zone: America/Anchorage
+  places: Alaska
+  years: '1960..1968'
+  tz: 'no daylight time (Alaska standard time, then AHST from 1967)'
+  read: 'none; standard time 1967-68 (DOANE)'
+  agrees: 'yes'

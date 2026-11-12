@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vnmap
+from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vispage, vnmap
 from . import conventions
 from . import oilworld
 from . import budgets
@@ -263,9 +263,16 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         body = text_html(year_qualified(series, c, year), "c")
         if is_thread and i == 0:
             body = thread_person(series, body)
+        elif lst.kind == "calendar" and i == 0:   # its claims, a span each (tools/bib/vispage.py, STYLE 2)
+            spans = vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
+            if spans is not None:
+                body = spans
+                extra_attrs += ' data-cl="1"'
         parts.append(f'<span class="c">{lead}{body}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
+    if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
+        parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works
@@ -300,6 +307,21 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         elif e.get("thread"):
             extra_attrs += f' data-threads="{attr(" ".join(entry_threads(lst, e)))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
+
+
+def _unit_renderer(series, text_html, year):
+    """A claim's unit rendered as the entry's `c` is, the renderer's link count put back (vispage.py, STYLE 2)."""
+    lk = getattr(text_html, "linker", None)
+
+    def render(t):
+        if lk is None:
+            return text_html(year_qualified(series, t, year), "c")
+        n = lk.links
+        try:
+            return text_html(year_qualified(series, t, year), "c")
+        finally:
+            lk.links = n
+    return render
 
 
 def ghost_thread_html(lst, e):
@@ -521,12 +543,14 @@ def build_list(series, key, linker=None, half=None):
         main.extend(cal_index(lst))
     elif lst.kind == "calendar":           # the threads, the month grid, the tables and maps (tools/bib/contents.py)
         main.append(contents.nav(lst, half_sections(lst, half), half))
+        main.append(vispage.MARK)            # the visibility panel, under the contents (tools/bib/vispage.py, STYLE 4)
+        vispage.begin()
     else:
         main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
     for s in (half_sections(lst, half) if half != 0 else []):
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))
     page = open(os.path.join(TEMPLATES, "list.html"), encoding="utf-8").read()
-    page = page.replace("{{page_title}}", esc(data["page_title"])).replace("{{main}}", "\n".join(main))
+    page = page.replace("{{page_title}}", esc(data["page_title"])).replace("{{main}}", vispage.fill("\n".join(main)))
     return page.replace("<head>", "<head>\n" + source_note(series, f"lists/{key}/"), 1)
 
 
@@ -997,6 +1021,7 @@ class Linker:
                 pieces.append("".join(sub))
             return lead + to_html("".join(pieces), resolve)
 
+        render.linker = self             # its link count, put back after a claim's units are rendered (vispage.py)
         return render
 
     def elsewhere(self, lst, sec, e):
@@ -1084,10 +1109,13 @@ def build_series(series):
             def li_extra(sec, e):
                 return f' data-sec="{linker.sec_id(sec)}"', linker.elsewhere(lst, sec, e)
 
+            if lst.kind == "calendar":       # the block's visibility panel, above its threads (vispage.py, STYLE 4)
+                out.append(vispage.MARK)
+                vispage.begin()
             for s in half_sections(lst, half):
                 out.extend(_section_series(series, lst, s, linker, li_extra))
             out.append("</section>")
-            body.append("\n".join(out))
+            body.append(vispage.fill("\n".join(out), f"{key}--"))
     calsplit.CUR.update(half=None, mode="list")
     meta["home"] = {"abbr": "Series", "title": series.data["title"], "span": "", "group": ""}
     meta["nx"] = {"abbr": "Names", "title": series.data["names_index"]["title"], "span": "", "group": ""}
@@ -1264,6 +1292,7 @@ def run(series, which=None):
                 if half:
                     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
                     page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
+                page = vispage.inject(page)              # the panel's style and script (tools/bib/vispage.py)
             if whole:
                 held.append((half, name, path, page))
                 continue
@@ -1297,6 +1326,7 @@ def run(series, which=None):
             page = contents.finish(page, cal, None)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
         page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
+        page = vispage.inject(page)                  # the panel's style and script (tools/bib/vispage.py)
         path = os.path.join(OUT, "series.html")
         page = lazydays.split(page, "series", OUT)   # the days' blocks, a file a month (tools/bib/lazydays.py)
         smart.write(path, page)

@@ -1,0 +1,30 @@
+patch: 2026-11-10-b7-poole
+by: 'Claude (batch 7: Poole, The Joint Chiefs of Staff and National Policy, 1965–1968, the "already in" rows read against the calendar), Nov. 10, 2026'
+ops:
+- add:
+    entry:
+      id: cal.1968-01-08.japan-and-korea-pueblo
+      when: Jan. 8
+      date: '1968-01-08'
+      thread: japan-and-korea-pueblo
+      c: The *Pueblo* leaves Japan, under radio silence until it is taken under surveillance.
+      n: '[[w.poole-joint-chiefs-of-staff-2012]], 237–38. Check: the day; Bernstein has the *Pueblo* off Wonsan Jan. 2 ([[cal.1968-01-02.japan-and-korea-pueblo]]). To check: Henry Millington, the *Pueblo* monograph for the National Security Agency; Statement by the Secretary of Defense, "The Pueblo Incident," Tab 3 to "Ball Committee Briefing Book," Joint History Office (cited by [[w.poole-joint-chiefs-of-staff-2012]], 238 n.54). See [[cal.1967-12-29.japan-and-korea-pueblo]].'
+      src:
+        c: '55d63e35'
+        rows:
+        - 'w.poole-joint-chiefs-of-staff-2012 237–38: all'
+        - 'via w.poole-joint-chiefs-of-staff-2012 238 n.54a: all'
+        - 'via w.poole-joint-chiefs-of-staff-2012 238 n.54b: all'
+- cite:
+    id: cal.1968-01-21.japan-and-korea
+    item: '[[w.poole-joint-chiefs-of-staff-2012]], 237 (a team of 31, under orders "to chop off President Park Chung Hee''s head," within 800 meters of the Blue House; nearly all killed or captured)'
+    units: A-B
+- variant:
+    id: cal.1968-01-02.japan-and-korea-pueblo
+    unit: A
+    witness: w.poole-joint-chiefs-of-staff-2012
+    reads: The USS Pueblo left Japan on 8 January ... a North Korean subchaser appeared on 22 January
+    at: '237'
+- check:
+    id: cal.1968-01-02.japan-and-korea-pueblo
+    text: 'Check: Poole (237) has the *Pueblo* leave Japan Jan. 8, its first message sent when a North Korean subchaser appears Jan. 22.'

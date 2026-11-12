@@ -67,7 +67,8 @@ STYLE:
     New York Times are not daily materials: they stay under the date, in neither block.
  13. The President's documents: APP's list of the day, each title linked to the Public Papers where an item of GPO's
     volume matches (tools/bib/ppp.py, STYLE 3), its first page, the cite in grey ("1961 Pub. Papers 1", the volume
-    and item on hover); APP's link and "APP" where none does (the executive orders, the proclamations, the campaign
+    and item on hover), then " (APP)", the word linked to the row's own APP document (ppp.py, STYLE 5; the owner,
+    Nov. 6, 2026); APP's link and "APP" where none does (the executive orders, the proclamations, the campaign
     of 1960).
  14. The two blocks are filled when opened (tools/bib/lazydays.py): the page keeps each day's closed summaries and
     a file a month beside it holds their contents (build/days/<page>-<YYYY-MM>-<hash>.json), fetched once at the first
@@ -386,6 +387,8 @@ def doc_html(x, ab):
     else:
         src, hover = frus_cite(x), "Foreign Relations of the United States"
     bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>'] if src else []
+    if pp and bits:                          # the cite, then its APP document (ppp.py, STYLE 5)
+        bits[0] = bits[0][:-len("</span>")] + ppp.app_paren(x.get("url")) + "</span>"
     if x.get("time"):
         bits.append(f'<span class="src">{esc(x["time"])}</span>')
     if x["src"] in ("prde", "mc"):             # the tape cite, and PRDE's page (STYLE 7)

@@ -23,6 +23,18 @@ STYLE:
     orders and proclamations (the volumes list them in an appendix and do not print them), the campaign of 1960,
     Nixon's first days, an item the OCR lost.
  4. A page marker in a text ("[p. 123]") shows as a small muted "p. 123" linked to its PDF page.
+ 5. The APP document after the cite (the owner, Nov. 6, 2026: "After each Public Papers link, give a parenthetical
+    ' (APP)' hyperlinked to the coordinate document in the American Presidency Project"): wherever a Papers cite is
+    linked to GPO's volume, " (APP)" follows it, the word linked to the APP document the item matches
+    (sources/ppp-matches.json; where two share an item, the first by address): "Inaugural Address, [1961 Pub. Papers
+    1](…) (APP) (Jan. 20, 1961)". Made at render, never written into the data, from one place: a note's link
+    (markup.to_html calls `note_paren`), the daybook's President list (the row's own APP document), the Names'
+    presidential documents, the Executive roster's APP sources (`link_html`), the ebooks' items (`app_paren`). In a
+    note the item is the one whose first page the link names (its volume and PDF page, the cite's printed page);
+    where several begin on that page, the one whose title the words before the link give ("Title, [cite](…)"), else
+    the one the date after it gives; where nothing settles it, or no APP document matches the item, nothing is
+    added; nor where the note already gives an APP link right after the cite (its date's parenthetical between).
+    `check` warns on a Papers link in a list whose page is no item's first page [ppp-app].
 """
 import glob
 import html
@@ -98,10 +110,103 @@ def pdf_page(pkg, page):
     return None
 
 
-def link_html(it, label=None, cls=None):
-    """The item's cite (or label), linked to its first page (STYLE 2)."""
+def link_html(it, label=None, cls=None, app=None):
+    """The item's cite (or label), linked to its first page (STYLE 2), then its APP document (STYLE 5): `app` the
+    APP address the row itself carries, else the item's match; app=False, none."""
     c = f' class="{cls}"' if cls else ""
-    return f'<a{c} href="{esc(it["url"])}" title="{esc(it["hover"])}">{esc(label or it["cite"])}</a>'
+    out = f'<a{c} href="{esc(it["url"])}" title="{esc(it["hover"])}">{esc(label or it["cite"])}</a>'
+    return out + (app_paren(app or app_of(it["pkg"], it["n"])) if app is not False else "")
+
+
+# ---------------------------------------------------------------- the APP document after the cite (STYLE 5)
+
+APP_HOVER = "The American Presidency Project: the same document"
+PDF_LINK = re.compile(r"^https://www\.govinfo\.gov/content/pkg/(PPP-\d{4}-book\d)/pdf/[^#\s]*#page=(\d+)$")
+CITE_PAGE = re.compile(r"Pub\. Papers (\d+)\s*$")
+
+
+def app_of(pkg, n):
+    """The APP address matched to the item, or None (the first in order where several share it)."""
+    if "rev" not in _cache:
+        rev = {}
+        for u, (p, k) in sorted((data().get("matches") or {}).items()):
+            rev.setdefault((p, int(k)), u)
+        _cache["rev"] = rev
+    return _cache["rev"].get((pkg, int(n)))
+
+
+def app_paren(url):
+    """' (APP)', the word linked to the APP document; '' without one."""
+    return f' (<a href="{esc(url)}" title="{esc(APP_HOVER)}">APP</a>)' if url else ""
+
+
+def _by_pdf():
+    if "pdf" not in _cache:
+        out = {}
+        for pkg, v in (data().get("volumes") or {}).items():
+            for n, x in v["items"].items():
+                out.setdefault((pkg, x[4]), []).append((int(n), x))
+        _cache["pdf"] = out
+    return _cache["pdf"]
+
+
+def _words(t):
+    t = (t or "").lower().replace("’", "'").replace("''", "'")
+    t = re.sub(r"\bthe president'?s?\b|\bpresident'?s\b", " ", t)
+    return {w for w in re.findall(r"[a-z0-9]+", t)
+            if w not in {"the", "of", "a", "an", "and", "to", "on", "in", "for", "at", "by", "with", "upon", "s"}}
+
+
+DAY = re.compile(r"^\s*\((Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)\.? (\d{1,2})\b")
+MON = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "June": 6, "July": 7, "Aug": 8, "Sept": 9, "Oct": 10,
+       "Nov": 11, "Dec": 12}
+
+
+def at_link(url, label="", before="", after=""):
+    """The item a Papers link in a note names (STYLE 5): by the volume and PDF page of its address and the printed page
+    of its cite, the item beginning there; where several begin there, the one whose title the words before the link
+    give (the note's "Title, [cite](…)"), else the one the date after it gives ("(Feb. 8, 1961)"); None where the
+    address is no item's first page or nothing settles which."""
+    m = PDF_LINK.match(url or "")
+    if not m:
+        return None
+    pkg, pdf = m.group(1), int(m.group(2))
+    cs = _by_pdf().get((pkg, pdf), [])
+    pg = CITE_PAGE.search(label or "") or re.fullmatch(r"\s*(\d+)\s*", label or "")    # "[284](…)": a run's later page
+    if pg:
+        cs = [c for c in cs if c[1][2] == int(pg.group(1))]
+    if len(cs) > 1:
+        seg = re.split(r"\]\([^)]*\)|\x00\d+\x00|;\s|^n:\s", before)[-1]
+        lab = re.sub(r",?\s*\d{4}(?:–\d{2})? Pub\. Papers \d+\s*$", "", label or "")
+        sw = _words(seg[-300:] + " " + lab)
+        scored = []
+        for n, x in cs:
+            tw = _words(x[0])
+            hit = len(sw & tw)
+            scored.append(((hit / max(1, len(tw)) + hit / max(1, len(sw))) / 2 if sw else 0, n, x))
+        scored.sort(key=lambda z: -z[0])
+        if scored[0][0] >= 0.3 and scored[0][0] - scored[1][0] >= 0.15:
+            cs = [(scored[0][1], scored[0][2])]
+        else:
+            dm = DAY.match(after or "")
+            if dm:
+                md = f"-{MON[dm.group(1)]:02d}-{int(dm.group(2)):02d}"
+                byday = [c for c in cs if (c[1][1] or "").endswith(md)]
+                if len(byday) == 1:
+                    cs = byday
+    return item(pkg, cs[0][0]) if len(cs) == 1 else None
+
+
+HAS_APP = re.compile(r"^\s*(?:\([^()]*\)\s*)?[,;]?\s*\(?\s*\[[^\]]*\]\(https?://(?:www\.)?presidency\.ucsb\.edu/")
+
+
+def note_paren(url, label, before, after):
+    """What follows a Papers link in a note's HTML: ' (APP)' for its item's APP document; '' where nothing matches,
+    no item is settled, or the note already gives an APP link right after it (the date's parenthetical between)."""
+    if "PPP-" not in (url or "") or HAS_APP.match(after or ""):
+        return ""
+    it = at_link(url, label, before, after)
+    return app_paren(app_of(it["pkg"], it["n"])) if it else ""
 
 
 # ---------------------------------------------------------------- the texts (the ebooks)
@@ -209,3 +314,24 @@ def problems():
         errs.append(("sources/ppp-matches.json", "volumes not in sources/ppp-text: "
                      + ", ".join(sorted(set(m["volumes"]) - names))))
     return errs, warns
+
+
+def app_problems():
+    """The lists' Papers links (check [ppp-app], STYLE 5): warnings [(where, message)] for a link whose page is no
+    item's first page, and for one whose page several items begin on and nothing before or after it settles."""
+    warns = []
+    rx = re.compile(r"\[([^\[\]]+)\]\((https://www\.govinfo\.gov/content/pkg/PPP-[^)\s]+)\)")
+    for p in sorted(glob.glob(os.path.join(store.ROOT, "lists", "*", "*.yaml"))):
+        t = open(p, encoding="utf-8").read()
+        if "/pkg/PPP-" not in t:
+            continue
+        for m in rx.finditer(t):
+            where = f"{os.path.relpath(p, store.ROOT)}:{t.count(chr(10), 0, m.start()) + 1}"
+            u = PDF_LINK.match(m.group(2))
+            if not u or not _by_pdf().get((u.group(1), int(u.group(2)))):
+                warns.append((where, f"a Public Papers link whose page is no item's first page: {m.group(2)}"))
+            elif not at_link(m.group(2), m.group(1), t[t.rfind(chr(10), 0, m.start()) + 1:m.start()],
+                             t[m.end():m.end() + 40]):
+                warns.append((where, f"several items begin on the page of [{m.group(1)}]: put the title before the"
+                                     " cite, so its APP document can follow it"))
+    return warns

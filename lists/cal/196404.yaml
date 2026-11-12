@@ -109,6 +109,12 @@ entries:
         - 'w.woods-fulbright 336–37: all'
         - 'via x.1964-04-01.krock-fulbright-has-started-debate: all'
     tags: [name:krock-arthur, name:fulbright-j-william]
+    time_range:
+      - 1964-04-01T10:00Z
+      - 1964-04-01T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-01.vietnam-34a
     when: Apr. 1
     date: '1964-04-01'
@@ -146,6 +152,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-01.cuba
+    when: Apr. 1
+    date: '1964-04-01'
+    thread: cuba
+    also: [defense]
+    c: Guantánamo. Construction begins on the base's own desalination plant, after Cuba's cutting off of the water; finished by early December. The Cuban work force, 2,000, released within the year.
+    n: '[[w.johnson-vantage-point]], 186. See [[cal.1964-02-06.cuba]].'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 186: all'
+      c: aa84bf99
   - id: cal.1964-04-02.vietnam-congress
     when: Apr. 2
     date: '1964-04-02'
@@ -182,6 +199,16 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-02.civil-rights-bill
+    when: Apr. 2–3
+    date: '1964-04-02'
+    thread: civil-rights-bill
+    c: The bill explained title by title to a near-empty chamber; the Southerners suggest the absence of a quorum. Apr. 2, twenty-two minutes before a majority answers; Apr. 3, more than an hour.
+    n: '[[w.whalen-longest-debate]], 157. See [[cal.1964-03-30.civil-rights-bill]].'
+    src:
+      c: 1d13ac23
+      rows:
+        - 'w.whalen-longest-debate 157: all'
   - id: cal.1964-04-03.latin-america
     when: Apr. 3
     date: '1964-04-03'
@@ -291,7 +318,7 @@ entries:
     date: '1964-04-04'
     thread: civil-rights-bill
     c: 'Saturday. A quorum call forty minutes after the Senate meets: forty-one present, twenty-five absent of them Northern Democrats. Mansfield: "a travesty on the legislative process"; the Senate in recess to Monday, [27–14](https://voteview.com/rollcall/RS0880290). Humphrey gives the press the absentees'' names.'
-    n: '[110 Cong. Rec. 6862–63](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2) (1964) (Apr. 4, 1964). [[w.mann-walls-of-jericho]], 407–8; [[w.whalen-longest-debate]], 157–58 (Humphrey''s telegrams to the missing Democrats). Check: Whalen, 157, gives thirty-nine answering, 23 Democrats and 16 Republicans (110 Cong. Rec. 6862–63, cited 261). To check: New York Times, Apr. 5, 1964 (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-03-30.civil-rights-bill]]. Names: Mansfield, Humphrey.'
+    n: '[110 Cong. Rec. 6862–63](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2) (1964) (Apr. 4, 1964). [[w.mann-walls-of-jericho]], 407–8; [[w.whalen-longest-debate]], 157–58 (Humphrey''s telegrams to the missing Democrats). Check: Whalen, 157, gives thirty-nine answering, 23 Democrats and 16 Republicans (110 Cong. Rec. 6862–63, cited 261). To check: [*New York Times*, Apr. 5, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/05/issue.html) (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-03-30.civil-rights-bill]]. Names: Mansfield, Humphrey.'
     src:
       c: cfd46711
       rows:
@@ -340,12 +367,13 @@ entries:
     date: '1964-04-04'
     thread: civil-rights-bill
     c: 'Synon, director of the Coordinating Committee for Fundamental American Freedoms, to Kempton of the *New Republic*, the mail turned: "We''ve shot our wad."'
-    n: '[[w.whalen-longest-debate]], 158. Check: the day. To check: Kempton, *New Republic*, Apr. 4, 1964 (cited by [[w.whalen-longest-debate]], 261).'
+    n: '[[w.whalen-longest-debate]], 158. Check: the day. To check: Kempton, *New Republic*, Apr. 4, 1964 (cited by [[w.whalen-longest-debate]], 261). Names: Kempton.'
     src:
       c: db251326
       rows:
         - 'w.whalen-longest-debate 158: all'
         - 'via x.1964-04-04.kempton-new-republic: all'
+    tags: [name:kempton-murray]
   - id: cal.1964-04-05.opinion
     when: Apr. 5
     date: '1964-04-05'
@@ -493,6 +521,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-06.republican-party-congress
+    when: Apr. 6
+    date: '1964-04-06'
+    thread: republican-party-congress
+    also: [civil-rights-bill]
+    c: 'Dirksens notebook, the factors favoring cloture: "log-jam legislation"; "1964 an election year. Members will want some time to campaign"; the Republican convention, July 13, "Hope it not necessary to dispose of unfinished business after convention"; "Factor of weariness"; "Group pressures—emotionalism."'
+    n: '[[w.whalen-longest-debate]], 158–59. To check: Dirksen, notebook entry for Apr. 6, 1964, Notebooks, 1932–1969, folder 207, Dirksen Congressional Center (cited by [[w.whalen-longest-debate]], 261). Names: Dirksen.'
+    src:
+      c: 051a6b08
+      rows:
+        - 'w.whalen-longest-debate 158–59: all'
+        - 'via x.1964-04-06.dirksen-notebook-entry: all'
+    tags: [name:dirksen-everett]
   - id: cal.1964-04-07.elections-1964
     when: Apr. 7
     date: '1964-04-07'
@@ -507,6 +548,12 @@ entries:
         - 'w.white-suite-3505 304–05: A'
         - 'w.bernstein-guns-or-butter 137: C'
     tags: [primary:1964-04-07, name:wallace-george-c, name:byrnes-john-w, name:reynolds-john-w-jr]
+    time_range:
+      - 1964-04-08T02:00Z
+      - 1964-04-08T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1964-04-07.desegregation-schools-cleveland
     when: Apr. 7
     date: '1964-04-07'
@@ -524,6 +571,12 @@ entries:
     c: Milwaukee re-elects Maier mayor, a second term.
     n: '[Wikipedia, "Henry Maier"](https://en.wikipedia.org/wiki/Henry_Maier) (Check: the opponent and the vote, from the city''s canvass). See [[cal.1960-04-05.mayors-milwaukee]]. Names: Maier.'
     tags: [state:wi, city:milwaukee, name:maier-henry-w]
+    time_range:
+      - 1964-04-08T02:00Z
+      - 1964-04-08T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1964-04-07.state-constitutions-kansas-city
     when: Apr. 7
     date: '1964-04-07'
@@ -555,13 +608,14 @@ entries:
     date: '1964-04-07'
     thread: cuba
     c: 'The White House, on the covert program against Cuba: Johnson, Rusk, McNamara, Vance, Taylor, McCone, Helms, FitzGerald, Bundy and others. Bundy''s paper: intelligence, propaganda, economic denial, contacts with dissidents and indirect sabotage to go on; CIA-controlled raids and autonomous operations for discussion. The CIA''s briefing paper: some 7,000 Soviet troops still in Cuba, the SA-2 sites soon to be handed over.'
-    n: 'FRUS 1964–68, XXXII, docs. [259](https://history.state.gov/historicaldocuments/frus1964-68v32/d259); [258](https://history.state.gov/historicaldocuments/frus1964-68v32/d258) (the briefing paper). [[w.jones-bay-of-pigs]], 166 (FitzGerald on a penetration of the army). See [[cal.1963-11-22.cuba]]. Names: Johnson, Rusk, McNamara, Vance, Taylor, McCone, Helms, FitzGerald, McGeorge Bundy.'
+    n: 'FRUS 1964–68, XXXII, docs. [259](https://history.state.gov/historicaldocuments/frus1964-68v32/d259); [258](https://history.state.gov/historicaldocuments/frus1964-68v32/d258) (the briefing paper). [[w.jones-bay-of-pigs]], 166 (FitzGerald on a penetration of the army); [[w.sen-church-alleged-assassination-plots]], 177 (Special Group meeting, Apr. 7, 1964: Johnson "decided to discontinue the use of CIA-controlled sabotage raids against Cuba"; Rusk opposed them, a "high noise level"; McCone disagreed; Bundy''s memorandum of Apr. 7 lists seven aspects of the program "in effect"; not C or D). See [[cal.1963-11-22.cuba]]. Names: Johnson, Rusk, McNamara, Vance, Taylor, McCone, Helms, FitzGerald, McGeorge Bundy.'
     src:
       c: 8a683e42
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d259: A-C'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d258: D'
         - 'w.jones-bay-of-pigs 166: A'
+        - 'w.sen-church-alleged-assassination-plots 177: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:vance-cyrus, name:taylor-maxwell, name:mccone-john-a, name:helms-richard, name:fitzgerald-desmond, name:bundy-mcgeorge]
     time_range:
       - 1964-04-07T14:00Z
@@ -597,11 +651,12 @@ entries:
     date: '1964-04-07'
     thread: farm
     c: 'Night. A barrage of calls from the White House: seven liberal House Democrats brought round to give the farm bill its margin. Daley had already put the Chicago delegation behind it.'
-    n: '[[w.kotz-judgment-days]], 135 (no note). Check: the day of the House vote. See [[cal.1964-03-10.farm]]. Names: Daley.'
+    n: '[[w.kotz-judgment-days]], 135 (no note); [[w.johnson-white-house-diary]], 101–02 (her entry of Apr. 8, of "last night," after the North Carolina reception: Johnson in the little room with staff, O''Brien going through a list of House members, committed, against, shaky, absent and pairable; Johnson making call after call; "The Food Stamp plan was tied in with it"; she has "The bill passed" that night: the House''s votes, cal.1964-04-08.farm, are of Apr. 8). Check: the day of the House vote. See [[cal.1964-03-10.farm]]. Names: Daley.'
     src:
       c: cc204894
       rows:
         - 'w.kotz-judgment-days 135: all'
+        - 'w.johnson-white-house-diary 101–02: ?'
     tags: [name:johnson-lyndon-b, name:daley-richard-j]
     time_range:
       - 1964-04-07T23:00Z
@@ -713,13 +768,14 @@ entries:
     thread: republican-party-congress
     also: [civil-rights-bill]
     c: 'Dirksen''s Title VII amendments before the Republican conference. To the press: "This is a vulnerable section. I''d like to strike it altogether." His aim: "first to get a bill, second to get an acceptable bill, third to get a workable bill, and finally to get an equitable bill."'
-    n: '[[w.mann-walls-of-jericho]], 410–11; [[w.whalen-longest-debate]], 159–60 (the forty amendments at the Policy Committee''s luncheon, Tuesday, Apr. 7, and the words to the press after; the conference Thursday, Apr. 9). Check: Whalen, 159–60, has the luncheon and the words to the press Tuesday, Apr. 7, the conference Thursday, Apr. 9 (minutes of the Senate Republican Conference, Apr. 9, cited 261). To check: Time, Apr. 24, 1964 (cited by [[w.mann-walls-of-jericho]], 410). Check: the day of the press conference and of the "polestar" remark. See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
+    n: '[[w.mann-walls-of-jericho]], 410–11; [[w.whalen-longest-debate]], 159–60 (the forty amendments at the Policy Committee''s luncheon, Tuesday, Apr. 7, and the words to the press after; the conference Thursday, Apr. 9); [[w.wolff-minutes-of-the-senate]], 975–76 (the Senate Republican Conference, Thursday, Apr. 9, 1964, 9:27 a.m. to noon, twenty-nine present; Dirksen explaining forty-odd amendments to Title VII; Margaret Chase Smith asking about striking the word "sex"; the chair: not binding; not the words to the press). Check: Whalen, 159–60, has the luncheon and the words to the press Tuesday, Apr. 7, the conference Thursday, Apr. 9 (minutes of the Senate Republican Conference, Apr. 9, cited 261). To check: *Time*, Apr. 24, 1964 (cited by [[w.mann-walls-of-jericho]], 410). Check: the day of the press conference and of the "polestar" remark. See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
     src:
       c: abe9956a
       rows:
         - 'w.mann-walls-of-jericho 410–11: all'
         - 'w.whalen-longest-debate 159–60: A-B'
         - 'via x.1964-04-24.time: A-B'
+        - 'w.wolff-minutes-of-the-senate 975–76: ?'
     tags: [name:dirksen-everett]
     time_range:
       - 1964-04-08T14:00Z
@@ -727,6 +783,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.wolff-minutes-of-the-senate
+        reads: the conference called for Thursday, April 9, 1964
+        at: '975'
   - id: cal.1964-04-08.civil-rights-bill
     when: Apr. 8
     date: '1964-04-08'
@@ -779,12 +840,39 @@ entries:
         - 'w.taking-charge 311–312: all'
         - 'via x.1964-04-08.johnson-lawrence-o-brien-telephone-1214: all'
     tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:brademas-john]
+  - id: cal.1964-04-08.cuba
+    when: Apr. 8
+    date: '1964-04-08'
+    thread: cuba
+    c: 'McCone''s memorandum, the day after Johnson decided to stop CIA-controlled sabotage operations: "the real issue to be considered at the meeting and by the President was a question of whether we wished to implement the policy (outlined in certain memoranda) or abandon the basic objective of bringing about the liquidation of the Castro Communist entourage and the elimination of Communist presence in Cuba and thus rely on future events of an undisclosed nature which might accomplish this objective." The "future events": "extreme economic distress caused by a sharp drop in sugar prices" and "other external factors."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 177 n.2 (Memorandum by McCone, Apr. 8, 1964, 1, 8; McCone, testimony, June 6, 1975, 32). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memorandum by McCone, Apr. 8, 1964 (cited by [[w.sen-church-alleged-assassination-plots]], 177 n.2). See [[cal.1964-04-07.cuba]]. Names: Johnson, McCone, Castro.'
+    tags: [name:johnson-lyndon-b, name:mccone-john-a, name:castro-fidel]
+  - id: cal.1964-04-08.succession
+    when: Apr. 8
+    date: '1964-04-08'
+    thread: succession
+    c: 'Union Station and the Capitol. Funeral of General Douglas MacArthur. Johnson and Mrs. Johnson board the train to greet Mrs. MacArthur and the family, among them Ambassador Douglas MacArthur and General Courtney Whitney. The casket goes by caisson to the Capitol; the House and Senate adjourned, the Rotunda full of their members; the two chaplains pray and Johnson places a wreath. Robert Kennedy, beside Mrs. Johnson: "We seem always to be meeting at funerals ... There''ve been a lot of them these last four months." And: "You''re doing a wonderful job. Everybody says so ... and so is your husband."'
+    n: '[[w.johnson-white-house-diary]], 102–03 (Lady Bird Johnson''s account; Johnson on the ride tells Lynda Bird of the Silver Star MacArthur gave him in New Guinea). Names: Johnson, Lady Bird Johnson, Robert Kennedy.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:kennedy-robert-f]
+  - id: cal.1964-04-08.press-and-broadcasting
+    when: Apr. 8
+    date: '1964-04-08'
+    thread: press-and-broadcasting
+    c: Lippmann on television, an hour. On foreign aid, by Mrs. Johnson's account, ammunition for those against it; of the Vice Presidency, it makes no difference whom Johnson asks, for he does not need the help; McNamara, once a registered Republican, put aside.
+    n: '[[w.johnson-white-house-diary]], 104 (Lady Bird Johnson''s account). Names: Lippmann, Johnson, McNamara.'
+    tags: [name:lippmann-walter, name:johnson-lyndon-b, name:mcnamara-robert-s]
   - id: cal.1964-04-09.railroads
     when: Apr. 9
     date: '1964-04-09'
     thread: railroads
     c: Rail work rules. The carriers' new rules due at 12:01 a.m. Apr. 10; the five operating brotherhoods' strike called against the Illinois Central. Johnson asks both sides to hold off twenty days; after four hours at the White House with him and Wirtz they agree to fifteen. Talks in the Cabinet Room from Apr. 10.
-    n: 'Statement by the President on the Eve of a National Railroad Strike, [1963–64 Pub. Papers 451](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535) (Apr. 9, 1964); Radio and Television Statement Announcing a Moratorium in the Railroad Labor Dispute, [1963–64 Pub. Papers 451](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535) (Apr. 9, 1964); Remarks at the Opening of Final Negotiations in the Railroad Dispute, [1963–64 Pub. Papers 452](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=536) (Apr. 10, 1964). The range: the negotiators called to the White House by 7:46 p.m. (Johnson to Mansfield); the moratorium broadcast from the Fish Room at 11:05 p.m. (1963–64 Pub. Papers 451). To check: [[w.kaufman-railroad-labor-dispute]]; [[w.cullen-national-emergency-strikes]]. See [[cal.1963-08-27.railroads]]. Names: Johnson, Wirtz.'
+    n: 'Statement by the President on the Eve of a National Railroad Strike, [1963–64 Pub. Papers 451](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535) (Apr. 9, 1964); Radio and Television Statement Announcing a Moratorium in the Railroad Labor Dispute, [1963–64 Pub. Papers 451](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535) (Apr. 9, 1964); Remarks at the Opening of Final Negotiations in the Railroad Dispute, [1963–64 Pub. Papers 452](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=536) (Apr. 10, 1964). The range: the negotiators called to the White House by 7:46 p.m. (Johnson to Mansfield); the moratorium broadcast from the Fish Room at 11:05 p.m. (1963–64 Pub. Papers 451). [[w.johnson-white-house-diary]], 106 (the diary: Johnson, who told her at breakfast of the railroad strike due that night, has asked the Brotherhood and the railroads to meet with him; he stays at the office until midnight). To check: [[w.kaufman-railroad-labor-dispute]]; [[w.cullen-national-emergency-strikes]]. See [[cal.1963-08-27.railroads]]. Names: Johnson, Wirtz.'
+    src:
+      c: 3b8275c8
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=536: all'
+        - 'w.johnson-white-house-diary 106: ?'
     tags: [name:johnson-lyndon-b, name:wirtz-w-willard]
     short: the moratorium
     time_range:
@@ -971,6 +1059,25 @@ entries:
         - 'w.taking-charge 315–316: all'
         - 'via x.1964-04-09.johnson-mike-mansfield-telephone-1946: all'
     tags: [name:johnson-lyndon-b, name:mansfield-mike]
+  - id: cal.1964-04-09.civil-rights-bill-3
+    when: Apr. 9
+    date: '1964-04-09'
+    thread: civil-rights-bill
+    c: 'Humphrey''s bipartisan civil rights newsletter, to each of the bill''s Senators each morning: Title II, public accommodations, today, Magnuson and Hruska responsible. Floor captains, Clark, Bayh, Muskie and Moss for the Democrats in turn, Javits and Allott for the Republicans all day.'
+    n: '[[w.mann-walls-of-jericho]], 397. To check: the newsletter of Apr. 9, as printed at 110 Cong. Rec. 8369 (Apr. 18, 1964); [[w.humphrey-education-of-a-public-1976]], 206–07; [[w.loevy-to-end-all-segregation]], 144 (cited by [[w.mann-walls-of-jericho]], 397). See [[cal.1964-03-30.civil-rights-bill]]. Names: Humphrey, Magnuson, Hruska, Clark, Bayh, Muskie, Moss, Javits, Allott.'
+    src:
+      c: bc8c2dc4
+      rows:
+        - 'w.mann-walls-of-jericho 397: all'
+        - 'via w.mann-walls-of-jericho 397 n.the-april-9-newsletter: all'
+    tags: [name:humphrey-hubert-h, name:magnuson-warren-g, name:hruska-roman-l, name:clark-joseph-s, name:bayh-birch, name:muskie-edmund-s, name:moss-frank-e, name:javits-jacob-k, name:allott-gordon-l]
+  - id: cal.1964-04-09.succession
+    when: Apr. 9
+    date: '1964-04-09'
+    thread: succession
+    c: New York Hilton. The first anniversary luncheon of the Eleanor Roosevelt Memorial Foundation, 2,800 at $12.50, to raise $100,000, Jean Kintner its organizer. Mrs. Johnson, Mrs. Kintner and Anna Rosenberg Hoffman receive donors of $1,000. Stevenson introduces Mrs. Johnson, who speaks of Mrs. Roosevelt at a benefit luncheon in 1939 and of her speaking out. Marian Anderson reads from Mrs. Roosevelt's book.
+    n: '[[w.johnson-white-house-diary]], 105–06 (Lady Bird Johnson''s account; she speaks from a draft she wrote with Hester Provenson). Names: Lady Bird Johnson, Stevenson.'
+    tags: [name:johnson-lady-bird, name:stevenson-adlai-e]
   - id: cal.1964-04-10.opinion
     when: Apr. 10
     date: '1964-04-10'
@@ -1067,6 +1174,52 @@ entries:
         - 'w.taking-charge 316–318: all'
         - 'via x.1964-04-10.johnson-marshall-mcneil-telephone-1840: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1964-04-10.civil-rights-bill
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: civil-rights-bill
+    c: 'Humphrey''s newsletter: "Quorum scoreboard: There were two quorum calls yesterday. The first one took nineteen minutes and the second was made in twenty minutes." His Democrats in two platoons of about twenty-five, one on duty each day for the quorum calls; Kuchel''s Republicans about sixteen.'
+    n: '[[w.mann-walls-of-jericho]], 397–98. To check: 110 Cong. Rec. 8369 (Apr. 18, 1964); CQ, June 19, 1964, 1205–06 (cited by [[w.mann-walls-of-jericho]], 397–98). See [[cal.1964-04-09.civil-rights-bill-3]]. Names: Humphrey, Kuchel.'
+    src:
+      c: d4cb95b4
+      rows:
+        - 'w.mann-walls-of-jericho 397–98: all'
+        - 'via w.mann-walls-of-jericho 398 n.humphrey-addressed-the-quorum-problem.a: all'
+        - 'via w.mann-walls-of-jericho 398 n.humphrey-addressed-the-quorum-problem.b: B'
+    tags: [name:humphrey-hubert-h, name:kuchel-thomas-h]
+  - id: cal.1964-04-10.civil-rights-bill-2
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: civil-rights-bill
+    c: 'Senate. The Southerners speeches broken off for the Cherry Blossom Festival: a quorum call set for 10 a.m. Saturday, so that senators may go to the parade; Johnston: Ervin to have the floor after it. Humphrey will be present, "adding the factor of duty." Dirksen: "Do I take prunes or South Carolina peaches?"'
+    n: '[[w.whalen-longest-debate]], 161–62. To check: 110 Cong. Rec. 7589 (Apr. 10, 1964) (cited by [[w.whalen-longest-debate]], 262). Names: Johnston, Ervin, Humphrey, Dirksen.'
+    src:
+      c: b7019adb
+      rows:
+        - 'w.whalen-longest-debate 161–62: all'
+        - 'via x.1964-04-10.congressional-record-7589: all'
+    tags: [name:johnston-olin-d, name:ervin-sam-j-jr, name:humphrey-hubert-h, name:dirksen-everett]
+  - id: cal.1964-04-10.program
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: program
+    c: 'The White House, 2:30 p.m. Mrs. Johnson receives Carl Sandburg, his wife and Edward Steichen and Mrs. Steichen, brought by Udall and Mrs. Udall. In the Lincoln Room Sandburg signs her books on Lincoln; Johnson joins; Sandburg: "You look like you could take care of yourself." Tea in the Yellow Room. Then Johnson takes them into the Cabinet Room to see the railroad leaders: "some tough men operating . . . men who can throw several million people out of work."'
+    n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account). See [[cal.1964-04-09.railroads]]. Names: Lady Bird Johnson, Johnson, Udall.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:udall-stewart-l]
+  - id: cal.1964-04-10.press-and-broadcasting
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: press-and-broadcasting
+    c: 'The Truman Balcony. Johnson takes Sandburg and Steichen out on the balcony and shouts back and forth with reporters in the Rose Garden. The Associated Press: "President Johnson staged a balcony scene."'
+    n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account, quoting the AP and the Herald Tribune). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1964-04-10.transition-and-staff
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: transition-and-staff
+    c: 'The home of Mr. and Mrs. Dillon. Dinner in honor of Under Secretary Fowler and Mrs. Fowler, who is leaving government for the third time; toasts. Johnson''s toast: "Go off and get rich and have a good time—for about ninety days."'
+    n: '[[w.johnson-white-house-diary]], 108–09 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Dillon, Fowler.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:dillon-c-douglas, name:fowler-henry-h]
   - id: cal.1964-04-11.farm
     when: Apr. 11
     date: '1964-04-11'
@@ -1125,18 +1278,32 @@ entries:
         - 'w.smith-on-his-own-terms 432–33: all'
         - 'via x.1964-04-11.price-to-moore: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1964-04-11.civil-rights-bill
+    when: Apr. 11
+    date: '1964-04-11'
+    thread: civil-rights-bill
+    c: Saturday, a week after the quorum failed. Humphrey's side makes a quorum in less than ten minutes.
+    n: '[[w.mann-walls-of-jericho]], 408. To check: Humphrey, memorandum to the file, 1964, HHH Vice Presidential Papers, Civil and Human Rights, Box 821, Minnesota Historical Society; *Time*, Apr. 24, 1964; *Newsweek*, Apr. 27, 1964; CQ, Apr. 17, 1964, 717 (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-04-04.civil-rights-bill]]. Names: Humphrey.'
+    src:
+      c: 8efdda3f
+      rows:
+        - 'w.mann-walls-of-jericho 408: all'
+        - 'via w.mann-walls-of-jericho 408 n.by-april-11.a: all'
+        - 'via w.mann-walls-of-jericho 408 n.by-april-11.b: all'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1964-04-12.opinion
     when: Apr. 12
     date: '1964-04-12'
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, Mar. 27–Apr. 1, Democrats'' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Shriver 7, Brown 3, Fulbright 3, Wagner 2; others, no preference 7. Kennedy in the East 55; in the South 38.'
-    n: '[[w.gallup-poll]], III, 1874–75; [[w.bernstein-guns-or-butter]], 134 ("in April"). Names: Robert Kennedy, Stevenson, Humphrey, Shriver, Brown, Wagner, Fulbright.'
+    n: '[[w.gallup-poll]], III, 1874–75; [[w.bernstein-guns-or-butter]], 134 ("in April"); [[w.schlesinger-robert-kennedy-and-his]], 652 (the Gallup poll "in April": Kennedy the vice presidential choice of 47 percent of Democratic voters, Stevenson 18, Humphrey 10; not the dates of the poll, the other names or the regions). Names: Robert Kennedy, Stevenson, Humphrey, Shriver, Brown, Wagner, Fulbright.'
     src:
       c: baba1fd9
       rows:
         - 'w.gallup-poll III, 1874–75: all'
         - 'w.bernstein-guns-or-butter 134: A'
+        - 'w.schlesinger-robert-kennedy-and-his 652: ?'
     tags: [name:kennedy-robert-f, name:stevenson-adlai-e, name:humphrey-hubert-h, name:shriver-r-sargent, name:brown-edmund-g, name:fulbright-j-william, name:wagner-robert-f-jr]
   - id: cal.1964-04-12.black-nationalism
     when: Apr. 12
@@ -1199,7 +1366,7 @@ entries:
     time_approx: true
     thread: civil-rights-bill
     c: 'The Senators'' opening game, Johnson throwing out the first ball, Senators of both parties with him. Between the third and fourth innings, about 2:20 p.m., the public address: "All U.S. Senators are requested to return to the chamber." A quorum call; Russell stays in his seat. The Leadership Conference''s four limousines carry them the mile in some eight minutes; the quorum made just after 2:30. Humphrey: "We have returned!"'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 110–11; [[w.whalen-longest-debate]], 162 (seventeen Senators at the game; the call at the end of the third inning). To check: Tom Wicker, "Johnson, in Debut, Lasts Nine Innings of Baseball and Two of Politics," [*New York Times*, Apr. 14, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/14/issue.html); John H. Averill, "Senators Rush from Ball Game," *Los Angeles Times*, Apr. 14, 1964; Maire McNair, "The Real Senators Lost Game First," *Washington Post*, Apr. 15, 1964 (cited by [[w.zelizer-fierce-urgency-of-now]], 110–11 nn.53–55). See [[cal.1964-03-30.civil-rights-bill]]. Names: Johnson, Russell, Humphrey.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 110–11; [[w.whalen-longest-debate]], 162 (seventeen Senators at the game; the call at the end of the third inning); [[w.mann-walls-of-jericho]], 408 (Humphrey, Mansfield, Dirksen and Russell at the game; the call barely three innings in, Gartner to telephone the stadium, the message Humphrey''s; Russell "never moved"). To check: Tom Wicker, "Johnson, in Debut, Lasts Nine Innings of Baseball and Two of Politics," [*New York Times*, Apr. 14, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/14/issue.html); John H. Averill, "Senators Rush from Ball Game," *Los Angeles Times*, Apr. 14, 1964; Maire McNair, "The Real Senators Lost Game First," *Washington Post*, Apr. 15, 1964 (cited by [[w.zelizer-fierce-urgency-of-now]], 110–11 nn.53–55). See [[cal.1964-03-30.civil-rights-bill]]. Names: Johnson, Russell, Humphrey.'
     src:
       c: a3f9dc0d
       rows:
@@ -1207,6 +1374,7 @@ entries:
         - 'via w.zelizer-fierce-urgency-of-now 110 n.53: all'
         - 'via w.zelizer-fierce-urgency-of-now 111 n.55: all'
         - 'w.whalen-longest-debate 162: A-D'
+        - 'w.mann-walls-of-jericho 408: A, B, C, D'
     tags: [name:johnson-lyndon-b, name:russell-richard-b, name:humphrey-hubert-h]
   - id: cal.1964-04-14.elections-1964
     when: Apr. 14
@@ -1223,6 +1391,13 @@ entries:
         - 'w.goldberg-barry-goldwater 188, 188 n.47: A'
         - 'w.novak-agony-of-the-g 362–64: A-B'
     tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m]
+    time_range:
+      - 1964-04-15T00:00Z
+      - 1964-04-15T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50) (1967).'
   - id: cal.1964-04-14.governors-il
     when: Apr. 14
     date: '1964-04-14'
@@ -1236,6 +1411,13 @@ entries:
         - 'https://archive.org/details/officialvoteof1964illi/page/n176: all'
         - 'w.novak-agony-of-the-g 361–62: A-B'
     tags: [state:il, name:percy-charles-h, name:scott-william-j, name:kerner-otto]
+    time_range:
+      - 1964-04-15T00:00Z
+      - 1964-04-15T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50) (1967).'
   - id: cal.1964-04-14.middle-east
     when: Apr. 14–15
     date: '1964-04-14'
@@ -1299,6 +1481,13 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 346: all'
     tags: [name:schlafly-phyllis, state:il]
+    time_range:
+      - 1964-04-15T00:00Z
+      - 1964-04-15T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50) (1967).'
   - id: cal.1964-04-14.civil-rights-bill
     when: Apr. 14
     date: '1964-04-14'
@@ -1343,6 +1532,27 @@ entries:
         - 'w.taking-charge 319–320: all'
         - 'via x.1964-04-14.johnson-mcgeorge-bundy-telephone-1300: all'
     tags: [name:johnson-lyndon-b, name:bundy-mcgeorge, name:nixon-richard-m, name:lippmann-walter]
+  - id: cal.1964-04-14.middle-east-2
+    when: Apr. 14
+    date: '1964-04-14'
+    thread: middle-east
+    c: The White House, 11:30 a.m. King Hussein of Jordan arrives by helicopter on the South Lawn, with his brother Prince Hassan; Johnson's welcome and the King's response on the North Portico. Johnson, to the surprise of the Secret Service, rides with him to Blair House and walks back, shaking hands and signing autographs.
+    n: '[[w.johnson-white-house-diary]], 109 (Lady Bird Johnson''s account; Johnson told her to appear). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:hussein-ibn-talal]
+  - id: cal.1964-04-14.consumers
+    when: Apr. 14
+    date: '1964-04-14'
+    thread: consumers
+    c: The Department of Agriculture. Mrs. Johnson opens the Food and Home Fair for Consumers, Jane and Orville Freeman, Esther Peterson and Mrs. John G. Lee of the Consumer Advisory Council receiving her; a few words as the family's "purchasing agent."
+    n: '[[w.johnson-white-house-diary]], 109–10 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Freeman, Esther Peterson.'
+    tags: [name:johnson-lady-bird, name:freeman-orville-l, name:peterson-esther]
+  - id: cal.1964-04-14.middle-east-3
+    when: Apr. 14
+    date: '1964-04-14'
+    thread: middle-east
+    c: 'The White House, State dinner for King Hussein, about 150 guests. In the Yellow Oval Room, gifts: from the Johnsons a gold clock, a pen stand and a book of Johnson''s speeches; from the King two bracelets of Abraham''s time, a lamp, and a Bible in mother-of-pearl. The guests include Warren, Ball, the Dukes, Hoover, Najeeb Halaby, Helen Thomas of UPI. Hussein tells Mrs. Johnson that many of the Jordan''s springs rise in Israel; he piloted his own 707; the Dave Brubeck Quartet plays.'
+    n: '[[w.johnson-white-house-diary]], 110–12 (Lady Bird Johnson''s account; Hoover "never goes to affairs of this sort"). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein, Warren, Ball, Duke, Hoover.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:hussein-ibn-talal, name:warren-earl, name:ball-george-w, name:duke-angier-b, name:hoover-j-edgar]
   - id: cal.1964-04-15.vietnam-congress
     when: Apr. 15
     date: '1964-04-15'
@@ -1562,13 +1772,27 @@ entries:
     thread: civil-rights-bill
     also: [civil-disorders]
     c: 'News conference. On civil disobedience: "We do not, of course, condone violence or taking the law into your own hands ... You really do the civil rights cause no good when you go to this extent." Congress to act "to bring these disturbances from the streets and the alleys into the courts where they belong."'
-    n: 'The President''s News Conference, [1963–64 Pub. Papers 467](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=551), 469, 472 (Apr. 16, 1964). [[w.kotz-judgment-days]], 124. To check: *New York Times*, Apr. 17, 1964, p. 1 (cited by [[w.kotz-judgment-days]], 124 n.29). Names: Johnson.'
+    n: 'The President''s News Conference, [1963–64 Pub. Papers 467](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=551), 469, 472 (Apr. 16, 1964). [[w.kotz-judgment-days]], 124. To check: [*New York Times*, Apr. 17, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/17/issue.html), at 1 (cited by [[w.kotz-judgment-days]], 124 n.29). Names: Johnson.'
     src:
       c: 11be5794
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=551: all'
         - 'w.kotz-judgment-days 124: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1964-04-16.white-house
+    when: Apr. 16
+    date: '1964-04-16'
+    thread: white-house
+    c: The White House, afternoon. Johnson brings some forty Texas newspaper editors and their wives to the Oval Room for refreshments, among them Hobby, Mayborn and Humphrey; Jenkins, Cliff Carter and Valenti help; Johnson shows them the gardens from the Truman Balcony.
+    n: '[[w.johnson-white-house-diary]], 112 (Lady Bird Johnson''s account; the names are hers). Names: Johnson, Lady Bird Johnson, Jenkins, Valenti.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:jenkins-walter-w, name:valenti-jack]
+  - id: cal.1964-04-16.program
+    when: Apr. 16
+    date: '1964-04-16'
+    thread: program
+    c: 'The White House, dinner. Barbara Ward (Lady Jackson), staying on the third floor writing memoranda and speech material, and Dr. Willis Hurst with the Johnsons. Lady Jackson: the money saved and men put out of work by McNamara''s base closings might serve a pilot program in urban renewal, a model city; automation can be a blessing. Johnson listens.'
+    n: '[[w.johnson-white-house-diary]], 112–13 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, McNamara.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:mcnamara-robert-s]
   - id: cal.1964-04-17.mississippi
     when: Apr. 17
     date: '1964-04-17'
@@ -1608,6 +1832,27 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-17.democratic-party
+    when: Apr. 17
+    date: '1964-04-17'
+    time: 1964-04-17T20:52Z
+    thread: democratic-party
+    c: 'Johnson to Truman by telephone, 3:52 p.m., before Truman''s visit to Washington: Blair House his, a car to meet him; "burn it down if you want to."'
+    n: '[Johnson and Harry Truman, 3:52 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-harry-truman-and-office-conversation-april-17), Conversation WH6404-10-3053 (Miller Center). [[w.taking-charge]], 320–321. Names: Johnson, Truman.'
+    src:
+      c: c9e0b9a0
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-harry-truman-and-office-conversation-april-17: A'
+        - 'w.taking-charge 320–321: all'
+        - 'via x.1964-04-17.johnson-harry-truman-telephone-1552: all'
+    tags: [name:johnson-lyndon-b, name:truman-harry-s]
+  - id: cal.1964-04-17.press-and-broadcasting
+    when: Apr. 17
+    date: '1964-04-17'
+    thread: press-and-broadcasting
+    c: 'The Rose Garden and South Lawn, 5:30 p.m. Reception for the American Society of Newspaper Editors, 1,200. Mrs. Johnson and Lynda Bird welcome them; Johnson speaks: the President''s duties, civil rights, the war on poverty, "turning tax eaters into tax payers," 49 percent of draftees unfit, Medicare, the pay bill, the railroad talks; and "we must either love each other or we must die." Food in the State Dining Room, dancing in the East Room; Miles Wolff and Herbert Brucker of the Society with them.'
+    n: '[[w.johnson-white-house-diary]], 113–14 (Lady Bird Johnson''s account). To check: the Public Papers, remarks to the American Society of Newspaper Editors, Apr. 17, 1964. Names: Johnson, Lady Bird Johnson.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1964-04-18.defense
     when: Apr. 18
     date: '1964-04-18'
@@ -1675,7 +1920,7 @@ entries:
     date: '1964-04-18'
     thread: civil-rights-bill
     c: 'Russell to *Business Week*: "President Kennedy didn''t have to pass a strong bill to prove anything. President Johnson does." And: "there is no case in history of a mongrel race preserving a civilization, much less creating one."'
-    n: '[[w.mann-walls-of-jericho]], 393, 402. To check: Business Week, Apr. 18, 1964 (cited by [[w.mann-walls-of-jericho]], 392, 402). See [[cal.1964-03-30.civil-rights-bill]]. Names: Russell, Kennedy, Johnson.'
+    n: '[[w.mann-walls-of-jericho]], 393, 402. To check: *Business Week*, Apr. 18, 1964 (cited by [[w.mann-walls-of-jericho]], 392, 402). See [[cal.1964-03-30.civil-rights-bill]]. Names: Russell, Kennedy, Johnson.'
     src:
       c: 852b356d
       rows:
@@ -1758,13 +2003,20 @@ entries:
         - 'w.mann-walls-of-jericho 411: all'
         - 'via w.mann-walls-of-jericho 411 n.amendments-sparked-a-vigorous-debate: all'
     tags: [name:case-clifford-p]
+  - id: cal.1964-04-19.white-house
+    when: Apr. 19
+    date: '1964-04-19'
+    thread: white-house
+    c: Johnson and Mrs. Johnson to St. Mark's Church with Dillon and Mrs. Dillon and Stevenson, who had come about 10:15 to talk a little business; Johnson shakes hands with tourists at the gate. Lunch with the Dillons and the McNamaras.
+    n: '[[w.johnson-white-house-diary]], 114–15 (Lady Bird Johnson''s account; she does not say what Stevenson''s business was). Names: Johnson, Lady Bird Johnson, Dillon, Stevenson, McNamara.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:dillon-c-douglas, name:stevenson-adlai-e, name:mcnamara-robert-s]
   - id: cal.1964-04-20.testing
     when: Apr. 20
     date: '1964-04-20'
     time: 1964-04-20T18:00Z
     thread: testing
     c: 'Johnson to the Associated Press in New York: a further cut in enriched uranium over four years; with the earlier cuts, plutonium production down 20 percent, enriched uranium 40. Khrushchev the same hour: two plutonium reactors not to be built, U-235 production cut. Douglas-Home consulted.'
-    n: 'Remarks on Foreign Affairs at the Associated Press Luncheon in New York City, [1963–64 Pub. Papers 493](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=577) (Apr. 20, 1964); White House Statement following a Review of Implementation of the Limited Test Ban Treaty Safeguards, [1963–64 Pub. Papers 502](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=586) (Apr. 20, 1964). [FRUS 1964–68, XI: Arms Control and Disarmament, doc. 25](https://history.state.gov/historicaldocuments/frus1964-68v11/d25) (the announcements, Douglas-Home consulted; not the reactors). [[w.poole-joint-chiefs-of-staff]], 88–89 (the two announcements); [[w.dobrynin-in-confidence]], 124 ("A joint statement to that effect was soon made"). To check: [[w.seaborg-stemming-the-tide]]. See [[cal.1963-10-07.testing]]; [[cal.1964-01-08.program]]. Names: Johnson, Khrushchev, Douglas-Home.'
+    n: 'Remarks on Foreign Affairs at the Associated Press Luncheon in New York City, [1963–64 Pub. Papers 493](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=577) (Apr. 20, 1964); White House Statement following a Review of Implementation of the Limited Test Ban Treaty Safeguards, [1963–64 Pub. Papers 502](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=586) (Apr. 20, 1964). [FRUS 1964–68, XI: Arms Control and Disarmament, doc. 25](https://history.state.gov/historicaldocuments/frus1964-68v11/d25) (the announcements, Douglas-Home consulted; not the reactors). [[w.poole-joint-chiefs-of-staff]], 88–89 (the two announcements); [[w.dobrynin-in-confidence]], 124 ("A joint statement to that effect was soon made"); [[w.schwartz-lyndon-johnson-and-europe]], 41 (the speech''s multilateral-force line, "nations that wish to participate," where the Pub. Papers have "which desire"; Schwartz''s "to newspaper editors": Johnson spoke to the editors Apr. 17 and to the AP, "their bosses," Apr. 20; not the uranium cuts, Khrushchev or Douglas-Home). To check: [[w.seaborg-stemming-the-tide]]; Barnet, *The Alliance*, 240 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 263 n.132). See [[cal.1963-10-07.testing]]; [[cal.1964-01-08.program]]. Names: Johnson, Khrushchev, Douglas-Home.'
     src:
       c: 8b5c5a9f
       rows:
@@ -1774,6 +2026,7 @@ entries:
         - 'via w.poole-joint-chiefs-of-staff 89 n.26: A, C'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v11/d25: A-B, D'
         - 'w.dobrynin-in-confidence 124: A, C'
+        - 'w.schwartz-lyndon-johnson-and-europe 41: ?'
     tags: [name:johnson-lyndon-b, name:khrushchev-nikita-s, name:douglas-home-alec]
   - id: cal.1964-04-20.desegregation-schools-cleveland
     when: Apr. 20
@@ -1828,7 +2081,7 @@ entries:
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'Forrestal to Bundy: Kleiman of the *Times* writing an editorial against "the concept of total victory in Vietnam"; told that "To talk irresponsibly of neutralization now is not only unrealistic, but positively dangerous." "I am somewhat afraid that the editorial ... will not be helpful."'
-    n: '[[w.preston-war-council]], 139. To check: Forrestal to Bundy, Apr. 20, 1964, NSF, Country File, Vietnam, box 3, LBJ Library (cited by [[w.preston-war-council]], 139 n.26); "Johnson''s Way," [*New York Times*, Apr. 26, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/26/issue.html), E1 (the editorial; cited by [[w.preston-war-council]], 139 n.26). See [[cal.1963-11-13.vietnam-2]]. Names: Forrestal, Bundy.'
+    n: '[[w.preston-war-council]], 139. To check: Forrestal to Bundy, Apr. 20, 1964, NSF, Country File, Vietnam, box 3, LBJ Library (cited by [[w.preston-war-council]], 139 n.26); "Johnson''s Way," [*New York Times*, Apr. 26, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/26/issue.html), at E1 (the editorial; cited by [[w.preston-war-council]], 139 n.26). See [[cal.1963-11-13.vietnam-2]]. Names: Forrestal, Bundy.'
     src:
       c: 2d8ba00d
       rows:
@@ -1858,18 +2111,39 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-20.democratic-party
+    when: Apr. 20
+    date: '1964-04-20'
+    time: 1964-04-20T23:45Z
+    thread: democratic-party
+    c: 'Brooks, back from Texas, to Johnson by telephone, 6:45 p.m.: Connally''s hand still disabled from Dallas; Brooks stayed with him to "manage him." Johnson asks him to dinner: Mrs. Johnson''s plane to Cleveland struck by lightning that day; she is driving back.'
+    n: '[Johnson and Jack Brooks, 6:45 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-jack-brooks-april-20-1964), Conversation WH6404-10-3068 (Miller Center). [[w.taking-charge]], 321 & nn.1–2. Names: Brooks, Johnson, Connally, Lady Bird Johnson.'
+    src:
+      c: c9b91f0f
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-jack-brooks-april-20-1964: A'
+        - 'w.taking-charge 321 & nn.1–2: all'
+        - 'via x.1964-04-20.johnson-jack-brooks-telephone-1845: all'
+    tags: [name:brooks-jack-b, name:johnson-lyndon-b, name:connally-john, name:johnson-lady-bird]
   - id: cal.1964-04-21.elections-1964
     when: Apr. 21
     date: '1964-04-21'
     thread: elections-1964-primaries
     c: 'New Jersey primary. Republican: Lodge (write-in) over Goldwater (write-in), 7,896 to 5,309, 41.7 percent. Democratic: Johnson (write-in) over Wallace (write-in), 4,863 to 491, 82.3 percent.'
-    n: '[N.J. Secretary of State, *Results of the Primary Election Held April 21st, 1964*, "Choice for President"](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1964-primary-election.pdf#page=2). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 312–13 (the delegates: Anton and Fernald with the organization''s slate; the dissidents beaten). See [[cal.1964-03-10.elections-1964]]. Names: Wallace, Lodge, Goldwater, Johnson.'
+    n: '[N.J. Secretary of State, *Results of the Primary Election Held April 21st, 1964*, "Choice for President"](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1964-primary-election.pdf#page=2). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 312–13 (the delegates: Anton and Fernald with the organization''s slate; the dissidents beaten); [[w.young-two-suns-of-the]], 81 (Rockefeller last, with 3.2 percent). See [[cal.1964-03-10.elections-1964]]. Names: Wallace, Lodge, Goldwater, Johnson.'
     src:
       c: ad40deec
       rows:
         - 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1964-primary-election.pdf#page=2: all'
         - 'w.white-suite-3505 312–13: A'
+        - 'w.young-two-suns-of-the 81: A'
     tags: [primary:1964-04-21, name:wallace-george-c, name:lodge-henry-cabot, name:johnson-lyndon-b, name:goldwater-barry-m]
+    time_range:
+      - 1964-04-22T01:00Z
+      - 1964-04-22T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-21.civil-rights-organizations
     when: Apr. 21
     date: '1964-04-21'
@@ -1909,7 +2183,7 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: Goldwater wonders aloud how Johnson amassed a personal fortune in public service.
-    n: '[[w.goldberg-barry-goldwater]], 188; the quotation by the note from the [*New York Times*, Apr. 21, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/21/issue.html), 23 (188 n.46). Check: the day of the words. Names: Goldwater, Johnson.'
+    n: '[[w.goldberg-barry-goldwater]], 188; the quotation by the note from the [*New York Times*, Apr. 21, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/21/issue.html), at 23 (188 n.46). Check: the day of the words. Names: Goldwater, Johnson.'
     src:
       c: 237d5341
       rows:
@@ -2013,6 +2287,12 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 189: all'
         - 'via x.1964-04-21.nhan-dan-21-april-1964: all'
+    time_range:
+      - 1964-04-20T22:00Z
+      - 1964-04-21T01:00Z
+    time_band: early morning
+    time_zone: Asia/Bangkok
+    range_basis: kind
   - id: cal.1964-04-21.civil-rights-organizations-2
     when: Apr. 21
     date: '1964-04-21'
@@ -2045,6 +2325,12 @@ entries:
         - 'w.whalen-longest-debate 181: all'
         - 'via x.1964-04-21.evans-novak-washington-post: all'
     tags: [name:evans-rowland-jr, name:novak-robert-d]
+    time_range:
+      - 1964-04-21T10:00Z
+      - 1964-04-21T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-21.baker
     when: Apr. 21
     date: '1964-04-21'
@@ -2060,18 +2346,37 @@ entries:
         - 'w.taking-charge 321–322: all'
         - 'via x.1964-04-21.johnson-cyrus-vance-telephone-1955: all'
     tags: [name:johnson-lyndon-b, name:vance-cyrus]
+  - id: cal.1964-04-25.draft
+    when: Apr. 21
+    date: '1964-04-21'
+    thread: draft
+    also: [war-opposition]
+    c: 'The *National Guardian* prints an advertisement signed by 87 young men, at Harvard, Columbia, Wisconsin, Haverford and New York University among others: they will refuse to fight in South Vietnam, "we see no justification for our involvement." Many of the Progressive Labor Movement.'
+    n: '[[w.zaroulis-who-spoke-up]], 19; [[w.debenedetti-american-ordeal]], 97 (eighty-seven of the New Haven conference, after the French students'' letter on Algeria). Check: the release day; the issue of Apr. 25, 1964, by its cover date; the paper went to press on the Tuesday before its date (the owner, Nov. 11: "on the press day"; notes/extensions/memos/press-hours.md).'
+    src:
+      c: e676ca6c
+      rows:
+        - 'w.zaroulis-who-spoke-up 19: all'
+        - 'w.debenedetti-american-ordeal 97: ?'
+    time_range:
+      - 1964-04-21T10:00Z
+      - 1964-04-21T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-22.railroads
     when: Apr. 22
     date: '1964-04-22'
     time: 1964-04-22T23:55Z
     thread: railroads
     c: 'Johnson announces the settlement on television: "4 1/2 years of conflict" ended. Agreement in principle, subject to ratification: the 100-mile unit of a day''s work kept; yard wages raised; paid holidays; allowances for crews laid over away from home. Wirtz presided.'
-    n: 'Radio and Television Statement Announcing the Settlement of the Railroad Dispute, [1963–64 Pub. Papers 517](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=601) (Apr. 22, 1964). [[w.branch-pillar-of-fire]], 290. See [[cal.1964-04-09.railroads]]. Names: Johnson, Wirtz.'
+    n: 'Radio and Television Statement Announcing the Settlement of the Railroad Dispute, [1963–64 Pub. Papers 517](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=601) (Apr. 22, 1964). [[w.branch-pillar-of-fire]], 290; [[w.johnson-white-house-diary]], 116–17 (Johnson comes out of the elevator with the men for the Yellow Room, about twenty, among them Dr. William J. Taylor of the mediators; later, thumb and forefinger raised to Mrs. Johnson as a sign of success; the announcement on television on the David Brinkley show, with a word for Taylor, whose wife was in surgery; not the terms). See [[cal.1964-04-09.railroads]]. Names: Johnson, Wirtz.'
     src:
       c: 454e70c8
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=601: all'
         - 'w.branch-pillar-of-fire 290: A'
+        - 'w.johnson-white-house-diary 116–17: ?'
     tags: [name:johnson-lyndon-b, name:wirtz-w-willard]
     short: the settlement
   - id: cal.1964-04-22.civil-rights-organizations-nyc
@@ -2080,13 +2385,14 @@ entries:
     thread: civil-rights-organizations
     also: [states-and-cities]
     c: Queens. The New York World's Fair opens; Johnson speaks at the opening, hecklers in the crowd (Check). Brooklyn CORE's "stall-in" on the highways to the fair, disowned by CORE's national office, stops few cars; Farmer and other demonstrators arrested at the pavilions (Check).
-    n: 'Remarks at the Opening of the New York World''s Fair, [1963–64 Pub. Papers 515](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=599) (Apr. 22, 1964). [[w.branch-pillar-of-fire]], 290; [[w.bernstein-guns-or-butter]], 79 (demonstrators shout the President down). To check: [[w.purnell-fighting-jim-crow-in]]; [[w.biondi-to-stand-and-fight]]. Names: Johnson, Farmer.'
+    n: 'Remarks at the Opening of the New York World''s Fair, [1963–64 Pub. Papers 515](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=599) (Apr. 22, 1964). [[w.branch-pillar-of-fire]], 290; [[w.bernstein-guns-or-butter]], 79 (demonstrators shout the President down); [[w.johnson-white-house-diary]], 115 (Johnson off by helicopter in the morning "to open the World''s Fair in New York"; not the speech, the hecklers or the stall-in). To check: [[w.purnell-fighting-jim-crow-in]]; [[w.biondi-to-stand-and-fight]]. Names: Johnson, Farmer.'
     src:
       c: bfcceab4
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=599: all'
         - 'w.branch-pillar-of-fire 290: A-B, D'
         - 'w.bernstein-guns-or-butter 79: B-C'
+        - 'w.johnson-white-house-diary 115: B'
     tags: [state:ny, city:nyc, name:johnson-lyndon-b, name:farmer-james]
   - id: cal.1964-04-22.amendments
     when: Apr. 22
@@ -2126,6 +2432,12 @@ entries:
       rows:
         - 'w.white-suite-3505 360: all'
     tags: [name:scranton-william-w, state:pa, city:pittsburgh]
+    time_range:
+      - 1964-04-22T10:00Z
+      - 1964-04-22T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-22.laos
     when: Apr. 22
     date: '1964-04-22'
@@ -2169,13 +2481,34 @@ entries:
         - 'w.taking-charge 322–323: all'
         - 'via x.1964-04-22.johnson-robert-kennedy-telephone-1629: all'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1964-04-22.railroads-3
+    when: Apr. 22
+    date: '1964-04-22'
+    time: 1964-04-23T00:47Z
+    thread: railroads
+    c: 'Mrs. Johnson to Johnson by telephone, 7:47 p.m., after his broadcast of the railroad settlement: "well delivered and a great victory." Johnson to tape more statements for the cameras, then sign the mail.'
+    n: '[Johnson and Lady Bird Johnson, 7:47 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-lady-bird-johnson-april-23-1964), Conversation WH6404-11-3109 (Miller Center). [[w.taking-charge]], 323 & n.2. See [[cal.1964-04-22.railroads]]. Names: Lady Bird Johnson, Johnson.'
+    src:
+      c: c6a2c8e2
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-lady-bird-johnson-april-23-1964: A'
+        - 'w.taking-charge 323 & n.2: all'
+        - 'via x.1964-04-22.johnson-lady-bird-johnson-telephone-1947: all'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
+  - id: cal.1964-04-22.white-house
+    when: Apr. 22
+    date: '1964-04-22'
+    thread: white-house
+    c: The White House, 4 p.m. Mrs. Johnson receives about 200 Daughters of the American Revolution, the State Regents and national officers, the first First Lady's reception for them in eleven years; Mrs. Duncan, the president, brings two pairs of white gloves.
+    n: '[[w.johnson-white-house-diary]], 115–16 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird]
   - id: cal.1964-04-23.king
     when: Apr. 23
     date: '1964-04-23'
     thread: king
     also: [civil-rights-the-executive]
     c: 'King answers Hoover''s testimony of January to a House subcommittee, reported the day before, that Communist influence is in the civil rights movement: Hoover aids the right-wing extremists; it is "difficult to accept the word of the FBI on communistic infiltration in the civil rights movement when it has been so completely ineffectual in protecting the Negro from brutality in the Deep South." The statement drafted by Clarence Jones.'
-    n: '[[w.garrow-bearing-the-cross]], 321–22; [[w.branch-pillar-of-fire]], 294–95; [[w.kotz-judgment-days]], 129–30 (the press conference, Apr. 23: "if Mr. Hoover and the FBI would be as diligent in apprehending those responsible for bombing churches"). Check: Kotz has the subcommittee make Hoover''s testimony public Apr. 16, the day after Alsop''s column (129). To check: New York Times, Apr. 22, 1964, 30; King, "Statement . . .," Apr. 23, 1964, King Papers, King Center; San Francisco Examiner, Apr. 24, 1964, 1; San Francisco Chronicle, Apr. 24, 1964, 1; SAC New York to Director, Apr. 21 and 22, 1964; SAC Atlanta to Director, Apr. 22, 1964, FBI file 100-3-116-1294, 1285, 1322 (cited by [[w.garrow-bearing-the-cross]], 322 n.31); SAC, San Francisco, to Director, April 23, 1964, FK-NR (cited by [[w.branch-pillar-of-fire]], 294); Sullivan to Belmont, April 23, 1964, FK-352 (cited by [[w.branch-pillar-of-fire]], 294); King statement "in response to a recent article written by Mr. Joseph Alsop and Mr. J. Edgar Hoover''s charge," April 23, 1964, p. 3, A/KS (cited by [[w.branch-pillar-of-fire]], 295). Names: King, Hoover.'
+    n: '[[w.garrow-bearing-the-cross]], 321–22; [[w.branch-pillar-of-fire]], 294–95; [[w.kotz-judgment-days]], 129–30 (the press conference, Apr. 23: "if Mr. Hoover and the FBI would be as diligent in apprehending those responsible for bombing churches"). Check: Kotz has the subcommittee make Hoover''s testimony public Apr. 16, the day after Alsop''s column (129). To check: [*New York Times*, Apr. 22, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/22/issue.html), at 30; King, "Statement . . .," Apr. 23, 1964, King Papers, King Center; *San Francisco Examiner*, Apr. 24, 1964, at 1; *San Francisco Chronicle*, Apr. 24, 1964, at 1; SAC New York to Director, Apr. 21 and 22, 1964; SAC Atlanta to Director, Apr. 22, 1964, FBI file 100-3-116-1294, 1285, 1322 (cited by [[w.garrow-bearing-the-cross]], 322 n.31); SAC, San Francisco, to Director, April 23, 1964, FK-NR (cited by [[w.branch-pillar-of-fire]], 294); Sullivan to Belmont, April 23, 1964, FK-352 (cited by [[w.branch-pillar-of-fire]], 294); King statement "in response to a recent article written by Mr. Joseph Alsop and Mr. J. Edgar Hoover''s charge," April 23, 1964, p. 3, A/KS (cited by [[w.branch-pillar-of-fire]], 295). Names: King, Hoover.'
     src:
       c: 97e9b5e8
       rows:
@@ -2304,7 +2637,7 @@ entries:
     date: '1964-04-24'
     thread: poverty
     c: 'Johnson in the depressed areas: South Bend, Studebaker''s plant closed; Pittsburgh; Paintsville and Inez, Ky.; Huntington, W. Va., with the Appalachian governors. Apr. 28, the Appalachian bill to Congress, with the regional commission''s report: 2,350 miles of development highways, $920 million; water projects; timber, mineral and land programs.'
-    n: 'Remarks at the Lulu V. Cline School, South Bend, Indiana, [1963–64 Pub. Papers 532](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=616); Remarks at the Johnson County Courthouse, Paintsville, Kentucky, [1963–64 Pub. Papers 543](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=627); Remarks at the Airport, Huntington, West Virginia, Upon Departing for Washington, [1963–64 Pub. Papers 545](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=629) (Apr. 24, 1964); The President''s News Conference, [1963–64 Pub. Papers 547](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=631) (Apr. 25, 1964); Letter to the President of the Senate and to the Speaker of the House Transmitting the Bill for the Appalachian Region, [1963–64 Pub. Papers 586](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=670) (Apr. 28, 1964). [[w.branch-pillar-of-fire]], 290–91; [[w.sundquist-politics-and-policy]], 103 (Huntington, the governors; the commission''s report, April, and the bill three weeks later); [[w.zelizer-fierce-urgency-of-now]], 115–16 (Pittsburgh: the bill "if it takes all summer"); [[w.bernstein-guns-or-butter]], 106 (the tour of Appalachia in one day; Tom Fletcher, an unemployed sawmill worker in eastern Kentucky, father of eight). Check: Bernstein, 106, has "a whirlwind tour of five states in Appalachia in one day," repeated "soon afterward.". To check: [[w.caudill-night-comes-to-the]]; [[w.eller-uneven-ground]]; [[w.commission-appalachia]]. See [[cal.1964-03-16.poverty]]. Names: Johnson.'
+    n: 'Remarks at the Lulu V. Cline School, South Bend, Indiana, [1963–64 Pub. Papers 532](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=616); Remarks at the Johnson County Courthouse, Paintsville, Kentucky, [1963–64 Pub. Papers 543](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=627); Remarks at the Airport, Huntington, West Virginia, Upon Departing for Washington, [1963–64 Pub. Papers 545](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=629) (Apr. 24, 1964); The President''s News Conference, [1963–64 Pub. Papers 547](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=631) (Apr. 25, 1964); Letter to the President of the Senate and to the Speaker of the House Transmitting the Bill for the Appalachian Region, [1963–64 Pub. Papers 586](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=670) (Apr. 28, 1964). [[w.branch-pillar-of-fire]], 290–91; [[w.sundquist-politics-and-policy]], 103 (Huntington, the governors; the commission''s report, April, and the bill three weeks later); [[w.zelizer-fierce-urgency-of-now]], 115–16 (Pittsburgh: the bill "if it takes all summer"); [[w.bernstein-guns-or-butter]], 106 (the tour of Appalachia in one day; Tom Fletcher, an unemployed sawmill worker in eastern Kentucky, father of eight); [[w.johnson-white-house-diary]], 117–23 (the day from Chicago, 5:30 a.m.: South Bend, the Cline School, some 15,000, Studebaker''s 8,700 out of work since Christmas Eve, Johnson''s speech from the athletic field; Bunker Hill Air Force Base; Pittsburgh, the League of Women Voters'' convention, Wirtz having brought Johnson along, and the motorcade, a quarter of a million by the police; Inez, Ky., Tom Fletcher''s porch; Paintsville, the courthouse speech; Huntington, nearly two hours with Welsh, Breathitt, Barron and Scranton''s representative on the Appalachian plan, about $3 billion over five years, then the televised speech; with Wirtz, Hodges, Franklin Roosevelt Jr. and Celebrezze; all day, "We are going to have a Civil Rights Bill if it takes all summer"; not the bill of Apr. 28). Check: Bernstein, 106, has "a whirlwind tour of five states in Appalachia in one day," repeated "soon afterward.". To check: [[w.caudill-night-comes-to-the]]; [[w.eller-uneven-ground]]; [[w.commission-appalachia]]. See [[cal.1964-03-16.poverty]]. Names: Johnson.'
     src:
       c: c3b50cc2
       rows:
@@ -2318,6 +2651,7 @@ entries:
         - 'w.sundquist-politics-and-policy 103: D-E'
         - 'w.zelizer-fierce-urgency-of-now 115–16: ?'
         - 'w.bernstein-guns-or-butter 106: C'
+        - 'w.johnson-white-house-diary 117–23: A-D'
     tags: [name:johnson-lyndon-b]
     short: the poverty tours
   - id: cal.1964-04-24.legislatures-ks
@@ -2419,6 +2753,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-24.poverty-4
+    when: Apr. 24
+    date: '1964-04-24'
+    thread: poverty
+    also: [elections-1964-johnson]
+    c: Pittsburgh, David McDonald Hall, the Steelworkers' home local. McDonald, introducing Johnson, pledges "that the Union shall do all of the down-to-earth work that is possible to elect you this November." Mrs. Johnson speaks a minute.
+    n: '[[w.johnson-white-house-diary]], 119–20 (Lady Bird Johnson''s account: "the first really outspoken assumption that Lyndon is running"). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson, David McDonald.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:mcdonald-david-l]
   - id: cal.1964-04-25.vietnam
     when: Apr. 25
     date: '1964-04-25'
@@ -2475,25 +2817,34 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1964-04-25.draft
+  - id: cal.1964-04-25.succession
     when: Apr. 25
     date: '1964-04-25'
-    thread: draft
-    also: [war-opposition]
-    c: 'The *National Guardian* prints an advertisement signed by 87 young men, at Harvard, Columbia, Wisconsin, Haverford and New York University among others: they will refuse to fight in South Vietnam, "we see no justification for our involvement." Many of the Progressive Labor Movement.'
-    n: '[[w.zaroulis-who-spoke-up]], 19; [[w.debenedetti-american-ordeal]], 97 (eighty-seven of the New Haven conference, after the French students'' letter on Algeria).'
-    src:
-      c: e676ca6c
-      rows:
-        - 'w.zaroulis-who-spoke-up 19: all'
-        - 'w.debenedetti-american-ordeal 97: ?'
+    thread: succession
+    c: The White House, morning. Johnson holds a brief press conference in his office, 60 to 70 reporters in a half circle, with Truman on his right and J. Frank Dobie, the Texas folklorist, a guest at the White House, on his left.
+    n: 'The President''s News Conference, [1963–64 Pub. Papers 547](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=631) (Apr. 25, 1964). [[w.johnson-white-house-diary]], 123–24 (Lady Bird Johnson''s account, from Dobie''s description; she gives no subject). Names: Johnson, Truman.'
+    tags: [name:johnson-lyndon-b, name:truman-harry-s]
+  - id: cal.1964-04-25.succession-2
+    when: Apr. 25
+    date: '1964-04-25'
+    thread: succession
+    c: 'The White House, lunch after 2 p.m. Johnson with Truman, Dobie and the editors Walker Stone and Bill Steven; Lynda Bird and a friend. Truman on the decision to use the bomb: told it would end the war in days, he asked Marshall and Bradley the cost of an invasion, 200,000 to 250,000 lives; "there was nothing to do but drop it." His hard decisions all made the same way, and he sleeps. Dobie reports Truman as saying, "Lyndon Johnson may be the greatest President since Lincoln," from the railroad settlement.'
+    n: '[[w.johnson-white-house-diary]], 124 (Lady Bird Johnson''s account; the Lincoln remark is Dobie''s report). Names: Johnson, Truman, Marshall, Bradley.'
+    tags: [name:johnson-lyndon-b, name:truman-harry-s, name:marshall-george-c, name:bradley-omar-n]
+  - id: cal.1964-04-25.succession-3
+    when: Apr. 25
+    date: '1964-04-25'
+    thread: succession
+    c: The Gridiron Dinner, Washington. Johnson attends in white tie, a stag dinner; Dobie goes with Walker Stone.
+    n: '[[w.johnson-white-house-diary]], 124–25 (Lady Bird Johnson''s account; she records only that he goes). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1964-04-26.civil-rights-organizations
     when: Apr. 26
     date: '1964-04-26'
     thread: civil-rights-organizations
     also: [mississippi]
     c: Jackson. A COFO meeting founds the Mississippi Freedom Democratic Party, open to all, and elects a temporary State Executive Committee. Its precinct and county meetings to follow the regular party's rules; its delegates to contest the regulars' seats at Atlantic City.
-    n: 'SNCC Digital Gateway, [Mississippi Freedom Democratic Party (MFDP) founded](https://snccdigital.org/events/mfdp-founded/) (K–J Cong. II.L). King Institute, [Mississippi Freedom Democratic Party (MFDP)](https://kinginstitute.stanford.edu/mississippi-freedom-democratic-party-mfdp). [[w.dittmer-local-people]], 236–37; [[w.branch-pillar-of-fire]], 296–97. To check: [[w.payne-ive-got-the-light]]; [[w.mcadam-freedom-summer]]; [[w.carson-in-struggle]]; [[w.mills-this-little-light-of]]; *Mississippi Free Press*, Apr. 11, 1964 (cited by [[w.dittmer-local-people]], 237 n.51). See [[cal.1962-02.civil-rights-organizations]].'
+    n: 'SNCC Digital Gateway, [Mississippi Freedom Democratic Party (MFDP) founded](https://snccdigital.org/events/mfdp-founded/) (K–J Cong. II.L). King Institute, [Mississippi Freedom Democratic Party (MFDP)](https://kinginstitute.stanford.edu/mississippi-freedom-democratic-party-mfdp). [[w.dittmer-local-people]], 236–37; [[w.branch-pillar-of-fire]], 296–97; [[w.young-two-suns-of-the]], 129–30 (founded in April 1964, the political arm of SNCC and COFO; Aaron Henry a co-founder). To check: [[w.payne-ive-got-the-light]]; [[w.mcadam-freedom-summer]]; [[w.carson-in-struggle]]; [[w.mills-this-little-light-of]]; *Mississippi Free Press*, Apr. 11, 1964 (cited by [[w.dittmer-local-people]], 237 n.51). See [[cal.1962-02.civil-rights-organizations]].'
     src:
       c: 4e46ad85
       rows:
@@ -2502,6 +2853,8 @@ entries:
         - 'w.dittmer-local-people 236–37: all'
         - 'via w.dittmer-local-people 237 n.51b: B'
         - 'w.branch-pillar-of-fire 296–97: all'
+        - 'w.young-two-suns-of-the 129–30: B'
+        - 'via w.young-two-suns-of-the 130 n.51a: B'
     time_range:
       - 1964-04-26T14:00Z
       - 1964-04-26T23:00Z
@@ -2617,6 +2970,27 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 433 n.: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1964-04-27.south-asia
+    when: Apr. 27
+    date: '1964-04-27'
+    thread: south-asia
+    c: 'The White House, 11 a.m. Mrs. Johnson has coffee with Indira Gandhi, Mrs. Avtar Dhar of the Indian Embassy and Mrs. Rusk; Mrs. Gandhi: the health of Nehru is steadily improving. Mrs. Johnson thinks that with Nehru gone Mrs. Gandhi may be the leading influence in India.'
+    n: '[[w.johnson-white-house-diary]], 125 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Indira Gandhi, Rusk.'
+    tags: [name:johnson-lady-bird, name:gandhi-indira, name:rusk-dean]
+  - id: cal.1964-04-27.white-house
+    when: Apr. 27
+    date: '1964-04-27'
+    thread: white-house
+    c: 'Georgetown. Mrs. Johnson asks Mrs. Kennedy to attend the meeting of the Committee for the Preservation of the White House and the tea on May 7. Mrs. Kennedy: "I cannot return to the White House"; she asks Mrs. Johnson to tell them she sends her best wishes. Mrs. Johnson shows her the East Room drapery fabric, chosen last summer from Boudin.'
+    n: '[[w.johnson-white-house-diary]], 125–27 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Jacqueline Kennedy.'
+    tags: [name:johnson-lady-bird, name:kennedy-jacqueline]
+  - id: cal.1964-04-27.labor
+    when: Apr. 27
+    date: '1964-04-27'
+    thread: labor
+    c: The White House. Johnson's impromptu reception for labor newspaper editors, nominally stag; Johnson sends for Mrs. Johnson because some of the editors are women.
+    n: '[[w.johnson-white-house-diary]], 127 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1964-04-28.elections-1964
     when: Apr. 28
     date: '1964-04-28'
@@ -2630,6 +3004,12 @@ entries:
         - 'w.white-suite-3505 314–15: A'
         - 'w.novak-agony-of-the-g 364–66: A-C'
     tags: [primary:1964-04-28, name:lodge-henry-cabot, name:johnson-lyndon-b, name:scranton-william-w]
+    time_range:
+      - 1964-04-29T00:00Z
+      - 1964-04-29T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-28.specials
     when: Apr. 28
     date: '1964-04-28'
@@ -2637,6 +3017,12 @@ entries:
     c: Pennsylvania 5th, special. William J. Green III (D), 25, holds his father's seat over Rovner (R), 30,904 to 21,832, 58.6 percent; Green died Dec. 21. Swing 2.7 to D.
     n: 'Votes: CQ Guide 6th (2010) 1275. Check: *Pa. Manual*, 1965–66. See [[cal.1961-04-04.states-and-cities]]. Names: William J. Green, William J. Green Jr..'
     tags: [special:1964-04-28-h-PA-5, name:green-william-j, name:green-william-j-jr]
+    time_range:
+      - 1964-04-29T00:00Z
+      - 1964-04-29T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-04-28.civil-rights-bill
     when: Apr. 28
     date: '1964-04-28'
@@ -2799,6 +3185,13 @@ entries:
         - 'w.taking-charge 330–331: all'
         - 'via x.1964-04-28.johnson-john-mccormack-telephone-1918: all'
     tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:oneill-thomas-p-jr, name:mcnamara-robert-s, city:boston]
+  - id: cal.1964-04-28.program
+    when: Apr. 28
+    date: '1964-04-28'
+    thread: program
+    c: The White House, black-tie dinner for business leaders. Batten of J. C. Penney, Blough of U.S. Steel, Busch, Donald David of the Ford Foundation, Henry Ford II, Greenewalt of du Pont, Kappel, McCabe of Scott Paper, David and James Rockefeller and Touhy of the C&O among them. Mrs. Johnson, at Johnson's note passed by Valenti, proposes a toast "on behalf of a grateful nation to the leaders of business in this generous country, who have done so much for so many, and in the doing, have made us great"; dancing in the East Room.
+    n: '[[w.johnson-white-house-diary]], 127–28 (Lady Bird Johnson''s account; she does not give the guests as a list of the whole). Names: Johnson, Lady Bird Johnson, Blough, Henry Ford II, Kappel, David Rockefeller, Valenti.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:blough-roger-m, name:ford-henry-ii, name:kappel-frederick-r, name:rockefeller-david, name:valenti-jack]
   - id: cal.1964-04-29.opinion
     when: Apr. 29
     date: '1964-04-29'
@@ -2985,7 +3378,7 @@ entries:
     time: 1964-04-29T18:30Z
     thread: civil-rights-bill
     c: '2:30 p.m., the Southern caucus, seventy-five minutes: no agreement to allow a vote on the jury trial amendment. Russell tells Dirksen; the two go arm in arm to Mansfield''s office; twenty minutes, nothing settled.'
-    n: '[[w.whalen-longest-debate]], 172. To check: Russell''s date book, Apr. 29, 1964, Russell Library; *New York Times*, Apr. 30, 1964, 1, 20 (cited by [[w.whalen-longest-debate]], 263). Names: Russell, Dirksen, Mansfield.'
+    n: '[[w.whalen-longest-debate]], 172. To check: Russell''s date book, Apr. 29, 1964, Russell Library; [*New York Times*, Apr. 30, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/30/issue.html), at 1, 20 (cited by [[w.whalen-longest-debate]], 263). Names: Russell, Dirksen, Mansfield.'
     src:
       c: 7d4dac0f
       rows:
@@ -3181,7 +3574,7 @@ entries:
     thread: civil-rights-bill
     also: [georgia]
     c: 'Russell again proposes federal aid to move Southern Negroes to other States. The *Atlanta Constitution*: Negroes "moved about like chess pawns." Georgia State Senator Lamar Plunkett: "Those who are not thoroughly conversant with it may lose the beat."'
-    n: '[[w.mann-walls-of-jericho]], 402. To check: The Reporter, May 21, 1964 (cited by [[w.mann-walls-of-jericho]], 402). Check: the day, and the bill. See [[cal.1964-03-30.civil-rights-bill]]. Names: Russell.'
+    n: '[[w.mann-walls-of-jericho]], 402. To check: *The Reporter*, May 21, 1964 (cited by [[w.mann-walls-of-jericho]], 402). Check: the day, and the bill. See [[cal.1964-03-30.civil-rights-bill]]. Names: Russell.'
     src:
       c: 68759e77
       rows:
@@ -3345,7 +3738,7 @@ entries:
       c: d58b6e09
       rows:
         - 'w.fursenko-khrushchevs-cold-war 533–34: all'
-    tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:shelepin-alexandr-n, name:khrushchev-nikita-s]
+    tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:shelepin-aleksandr-n, name:khrushchev-nikita-s]
   - id: cal.1964-04.program
     when: Apr., early
     date: 1964-04
@@ -3535,7 +3928,7 @@ entries:
     date: 1964-04
     thread: civil-rights-bill
     c: 'Ervin of North Carolina on the House''s bill: "a monstrous blueprint as full of legal tricks as a mangy hound dog is of fleas."'
-    n: '[[w.kotz-judgment-days]], 134. To check: *New York Times*, Apr. 12, 1964, p. 41 (cited by [[w.kotz-judgment-days]], 134 n.70). Check: the day; Kotz''s note cites the *Times* of Apr. 12. Names: Ervin.'
+    n: '[[w.kotz-judgment-days]], 134. To check: [*New York Times*, Apr. 12, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/12/issue.html), at 41 (cited by [[w.kotz-judgment-days]], 134 n.70). Check: the day; Kotz''s note cites the *Times* of Apr. 12. Names: Ervin.'
     src:
       c: 1cf7a5ab
       rows:
@@ -3611,3 +4004,70 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 433: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1964-04.robert-kennedy
+    when: Apr.
+    date: 1964-04
+    thread: robert-kennedy
+    c: 'Johnson to Salinger, on a cross-eyed boy he knew in Texas, God''s mark on the bad: "when you remember the assassination of Trujillo and the assassination of Diem, what happened to Kennedy may have been divine retribution." Robert Kennedy, told of it, repeats it to Schlesinger: "You know the worst thing that Johnson has said?"'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 649 & n.∗. Check: the month; the book has "that spring," and Robert Kennedy told it to John Bartlow Martin on Apr. 13. To check: Schlesinger, journal, July 23, 1964, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 649 n.∗a); Robert Kennedy, interview by John Bartlow Martin, Apr. 13, 1964, II, 57–58, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 649 n.∗). Names: Johnson, Salinger, Trujillo, Ngô Đình Diệm, Kennedy, Robert Kennedy, Schlesinger.'
+    src:
+      c: 9545f16d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 649 & n.*: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 649 n.*a: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 649 n.*b: all'
+    tags: [name:johnson-lyndon-b, name:salinger-pierre, name:trujillo-rafael, name:ngo-dinh-diem, name:kennedy-john-f, name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
+  - id: cal.1964-04.states-and-cities
+    when: Apr.–May, a Friday night
+    date: 1964-04
+    thread: states-and-cities
+    also: [elections-1964-primaries]
+    c: On the plane back from Portland, about one in the morning, by Deardourff's account. Rockefeller, in his bathrobe, spreads out the plans for the Albany mall and talks of them for two hours.
+    n: '[[w.smith-on-his-own-terms]], 434. To check: John Deardourff, interview by Smith (cited by [[w.smith-on-his-own-terms]], 434 n.). Check: the day. Names: Rockefeller.'
+    src:
+      c: 66bb2aa2
+      rows:
+        - 'w.smith-on-his-own-terms 434: all'
+        - 'via x.undated.deardourff-interview-by-smith: all'
+    tags: [name:rockefeller-nelson, state:ny]
+  - id: cal.1964-04.robert-kennedy-2
+    when: Apr.
+    date: 1964-04
+    thread: robert-kennedy
+    also: [democratic-party]
+    c: 'Hickory Hill, changing for tennis. Rowland Evans tells Robert Kennedy that Corbin is causing him more trouble than he is worth. Kennedy: "When I want your advice, I''ll ask for it."'
+    n: '[[w.thomas-robert-kennedy]], 291 (by Evans''s account). Check: the day; Thomas: "in the early spring of 1964." Names: Evans, Robert Kennedy, Corbin.'
+    src:
+      c: c5a7598d
+      rows:
+        - 'w.thomas-robert-kennedy 291: all'
+        - 'via x.undated.rowland-evans-interview-thomas: all'
+    tags: [name:evans-rowland-jr, name:kennedy-robert-f]
+  - id: cal.1964-04-30.white-house
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: white-house
+    c: The Sheraton Park, the Congressional Club's annual breakfast in honor of the First Lady, about a thousand women; the president Carrie Davis. Mrs. Johnson recalls her first, in 1938, with Eleanor Roosevelt as guest.
+    n: '[[w.johnson-white-house-diary]], 128–29 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird]
+  - id: cal.1964-04-30.program-2
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: program
+    c: 'Winchester, Va. Johnson drives to the Shenandoah Apple Blossom Festival for the crowning of Luci Johnson as queen by General LeMay on the steps of the high school: "She''s always been a Queen to me." His telegram to the festival''s officials warns the city of Winchester "is in danger of being taken over by a new monarch."'
+    n: '[[w.johnson-white-house-diary]], 129–30 (Lady Bird Johnson''s account; she saw the photograph and read the telegram). Names: Johnson, Lady Bird Johnson, LeMay.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:lemay-curtis-e]
+  - id: cal.1964-04-30.japan-and-korea-far-east
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: japan-and-korea-far-east
+    c: The White House, Blue Room. Mrs. Johnson, at the State Department's request, receives eleven visiting Japanese Governors and their wives; Duke and Mrs. Ball for the department.
+    n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Duke.'
+    tags: [name:johnson-lady-bird, name:duke-angier-b]
+  - id: cal.1964-04-30.democratic-party
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: democratic-party
+    c: 'The Sheraton Park, evening. Johnson addresses the Democratic Women''s Conference, 3,000, Margaret Price introducing him; jokes, then women in government jobs: "I promise this tonight not because you need jobs but because the country needs you." Mrs. Johnson takes a bow.'
+    n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird]

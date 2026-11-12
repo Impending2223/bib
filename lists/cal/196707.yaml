@@ -30,12 +30,13 @@ entries:
     date: '1967-07-01'
     thread: vietnam
     c: 'Rostow to Johnson: "Viet-Nam situation is not a stalemate"; "We are moving slowly but steadily"; the enemy "moving downhill, paying a heavy price for aggression."'
-    n: '[[w.mann-grand-delusion]], 547. Check: the day, from Mann''s note; his text gives "July." To check: Rostow to Johnson, July 1, 1967, NSF, Country File, Vietnam, Box 55, LBJ Library (cited by [[w.mann-grand-delusion]], 547 n.18). Names: Rostow, Johnson.'
+    n: '[[w.mann-grand-delusion]], 547; [[w.dallek-flawed-giant]], 471 (Rostow''s memo that "the Viet-Nam situation is not a stalemate," "moving uphill—slowly but steadily," the enemy "paying an increasingly heavy price for his aggression"; not the day). Check: the day, from Mann''s note; his text gives "July." To check: Rostow to Johnson, July 1, 1967, NSF, Country File, Vietnam, Box 55, LBJ Library (cited by [[w.mann-grand-delusion]], 547 n.18). Check: Dallek has Rostow''s memo "the following day" after Humphrey''s report of July 6, and his note 76 dates Rostow''s memoranda July 7 and 8, 1967 ([[w.dallek-flawed-giant]], 471 n.76), the second summarizing Helms''s report; July 1 is Mann''s day. Names: Rostow, Johnson.'
     src:
       c: ad363ddd
       rows:
         - 'w.mann-grand-delusion 547: all'
         - 'via w.mann-grand-delusion 547 n.18: all'
+        - 'w.dallek-flawed-giant 471: A'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b]
     time_range:
       - 1967-07-01T13:00Z
@@ -43,6 +44,15 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.dallek-flawed-giant
+        reads: '"We are moving uphill—slowly but steadily"'
+        at: '471'
+      - unit: C
+        witness: w.dallek-flawed-giant
+        reads: '"The enemy is moving downhill, paying an increasingly heavy price for his aggression"'
+        at: '471'
   - id: cal.1967-07-01.elections-1968
     when: July 1
     date: '1967-07-01'
@@ -243,6 +253,32 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+  - id: cal.1967-07-05.vietnam-hanoi
+    when: July 5
+    date: '1967-07-05'
+    thread: vietnam-hanoi
+    c: Nguyễn Chí Thanh, commander of COSVN, due to return South the next day, lunches with Hồ Chí Minh, who is ill. Hồ asks him to tell the southern revolutionaries that the South is always in his heart.
+    n: '[[w.nguyen-hanois-war]], 87. Nguyen''s account, from Vietnamese works; the passage''s note, 88 n.3, cites Lê Hải Triều''s life of Thanh, 35–37. See [[cal.1967-07-06.vietnam]]. Names: Nguyễn Chí Thanh, Hồ Chí Minh.'
+    src:
+      rows:
+        - 'w.nguyen-hanois-war 87: all'
+        - 'via x.undated.le-hai-trieu-dai-tuong-nguyen-chi-thanh: all'
+      c: ca1781f5
+    tags: [name:nguyen-chi-thanh, name:ho-chi-minh]
+  - id: cal.1967-07-05.vietnam-hanoi-2
+    when: July 5
+    date: '1967-07-05'
+    thread: vietnam-hanoi
+    follows:
+      - cal.1967-07-05.vietnam-hanoi
+    c: 'Thanh and Võ Nguyên Giáp walk round West Lake with their wives, then dine without them at Giáp''s house: Thanh''s send-off before the front. Thanh home about 11 p.m.'
+    n: '[[w.nguyen-hanois-war]], 87 (after the lunch with Hồ: "his next appointment"). The passage''s note, 88 n.3, cites Lê Hải Triều''s life of Thanh, 35–37. See [[cal.1967-07-06.vietnam]]. Names: Nguyễn Chí Thanh, Võ Nguyên Giáp.'
+    src:
+      rows:
+        - 'w.nguyen-hanois-war 87: all'
+        - 'via x.undated.le-hai-trieu-dai-tuong-nguyen-chi-thanh: all'
+      c: 31e22080
+    tags: [name:nguyen-chi-thanh, name:vo-nguyen-giap]
   - id: cal.1967-07-06.congo
     when: July 6–8
     date: '1967-07-06'
@@ -311,13 +347,21 @@ entries:
       c: 086abc96
       rows:
         - 'w.staaveren-u-s-air-force 270–71: all'
+  - id: cal.1967-07-06.vietnam-2
+    when: July 6
+    date: '1967-07-06'
+    thread: vietnam
+    also: [korea]
+    c: 'Humphrey, back from Korea, where he discussed Vietnam with Korean, Japanese and Vietnamese leaders: all optimistic about the future of East Asia, and believing "that the military defeat of the United States/South Vietnam forces is no longer a possibility."'
+    n: '[[w.dallek-flawed-giant]], 471 (the report; not the day). To check: Humphrey to LBJ, July 6, 1967, Humphrey Papers (cited by [[w.dallek-flawed-giant]], 471 n.76). See [[cal.1967-07-01.vietnam]]. Names: Humphrey. Check: the day, from Dallek''s note 76; his text has "returned from a trip to Korea."'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1967-07-07.vietnam
     when: July 7–11
     date: '1967-07-07'
     thread: vietnam-program-5
     also: [defense]
     c: 'McNamara, Katzenbach and Wheeler in Vietnam, to settle the next increase, Program 5. MACV''s briefings: a main-force war, the North''s part in it growing. McNamara holds the increase within a ceiling of 525,000. July 11, with Bunker, to Nguyễn Văn Thiệu and Nguyễn Cao Kỳ, Johnson''s message: the elections must be honest and seen to be.'
-    n: '[FRUS 1964–68, V, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v05/d233); [doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v05/d236). [[w.westmoreland-soldier-reports]], 230 (McNamara in Saigon in July); [[w.mcnamara-in-retrospect]], ch. 10 at n.8 (with Katzenbach and Wheeler; optimistic briefings from Westmoreland and Bunker). Made public: [[w.pentagon-papers]], IV, 515–528 (1971); FRUS 1964–68, V (2002). [[w.mcnamara-in-retrospect]], 283; [[w.gibbons-u-s-government-and]], IV, 725–29 (the mission; the briefings; the 525,000; not the message of July 11); [[w.cosmas-joint-chiefs-of-staff]], 62–63 (the mission; the 525,000); [[w.herring-lbj-and-vietnam]], 115 (McNamara and Katzenbach in Vietnam in July); [[w.berman-lyndon-johnsons-war]], 54–55 (the arrival in the morning at Tan Son Nhut; ten hours in the "High Noon Conference Room"; two days of briefings, then the field and the Delta; Westmoreland: "The war is not a stalemate. We are winning slowly but steadily"); [[w.macv-command-history-1967]], 147–48 (July 11, Westmoreland''s deputy gives McNamara, on his ninth visit, and Wheeler five force packages, without the reserves or longer tours; the fifth approved, 19 of the 21 battalions asked; the ceiling of 525,000); [[w.drea-mcnamara-clifford-and-the-2011]], 140 (arrival at Tân Sơn Nhứt July 7, five days, Program 5). See [[cal.1967-05-19.vietnam]]. Names: McNamara, Katzenbach, Wheeler, Bunker, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Johnson.'
+    n: '[FRUS 1964–68, V, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v05/d233); [doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v05/d236). [[w.westmoreland-soldier-reports]], 230 (McNamara in Saigon in July); [[w.mcnamara-in-retrospect]], ch. 10 at n.8 (with Katzenbach and Wheeler; optimistic briefings from Westmoreland and Bunker). Made public: [[w.pentagon-papers]], IV, 515–528 (1971); FRUS 1964–68, V (2002). [[w.mcnamara-in-retrospect]], 283; [[w.gibbons-u-s-government-and]], IV, 725–29 (the mission; the briefings; the 525,000; not the message of July 11); [[w.cosmas-joint-chiefs-of-staff]], 62–63 (the mission; the 525,000); [[w.herring-lbj-and-vietnam]], 115 (McNamara and Katzenbach in Vietnam in July); [[w.berman-lyndon-johnsons-war]], 54–55 (the arrival in the morning at Tan Son Nhut; ten hours in the "High Noon Conference Room"; two days of briefings, then the field and the Delta; Westmoreland: "The war is not a stalemate. We are winning slowly but steadily"); [[w.macv-command-history-1967]], 147–48 (July 11, Westmoreland''s deputy gives McNamara, on his ninth visit, and Wheeler five force packages, without the reserves or longer tours; the fifth approved, 19 of the 21 battalions asked; the ceiling of 525,000); [[w.drea-mcnamara-clifford-and-the-2011]], 140 (arrival at Tân Sơn Nhứt July 7, five days, Program 5); [[w.dallek-flawed-giant]], 471 (during McNamara''s visit Westmoreland: "The situation is not a stalemate. We are winning slowly but steadily"; Bunker echoes him; not the purpose, the ceiling or Thiệu and Kỳ). See [[cal.1967-05-19.vietnam]]. Names: McNamara, Katzenbach, Wheeler, Bunker, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Johnson.'
     src:
       c: 436583cc
       rows:
@@ -338,6 +382,7 @@ entries:
         - 'w.macv-command-history-1967 147–48: C'
         - 'via w.macv-command-history-1967 148 n.23: C'
         - 'w.drea-mcnamara-clifford-and-the-2011 140: ?'
+        - 'w.dallek-flawed-giant 471: ?'
     tags: [name:mcnamara-robert-s, name:katzenbach-nicholas, name:wheeler-earle, name:bunker-ellsworth, name:nguyen-van-thieu, name:nguyen-cao-ky, name:johnson-lyndon-b]
   - id: cal.1967-07-07.elections-1968
     when: July 7
@@ -375,6 +420,13 @@ entries:
     time_band: workday daytime
     time_zone: America/Los_Angeles
     range_basis: kind
+  - id: cal.1967-07-07.conservation
+    when: July 7
+    date: '1967-07-07'
+    thread: conservation
+    c: 'Lady Bird Johnson tours the old Tenth Congressional District for "grass-roots beautification and restoration": Lockhart, where the townspeople raised six thousand dollars to light the Court House square; Praha; La Grange, where she plants a pine; Winedale, with Ima Hogg; Round Top. Pickle is her guide; the temperature 98; Head Start children at several stops.'
+    n: '[[w.johnson-white-house-diary]], 543–48. Names: Lady Bird Johnson, Pickle.'
+    tags: [name:johnson-lady-bird, name:pickle-james-j, state:tx, city:lockhart]
   - id: cal.1967-07-08.congo
     when: July 8
     date: '1967-07-08'
@@ -625,6 +677,12 @@ entries:
     c: 'Oklahoma, special election, after the bribery of the Supreme Court: a new judicial article, the justices of the peace abolished, judges elected without party, 90,167 to 73,919, 55.0 percent; the justices of the Supreme Court and the Court of Criminal Appeals chosen from a Judicial Nominating Commission''s names and kept by retention votes, 86,183 to 79,280, 52.1 percent.'
     n: '[Okla. State Election Bd., *Election Results, 1958–1966*, p. 71](https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=71) (State Questions 447, 448). To check: [[w.morgan-oklahoma-politics-and-policies]]. See [[cal.1965-01-21.states-and-cities-ok]].'
     tags: [state:ok]
+    time_range:
+      - 1967-07-12T01:00Z
+      - 1967-07-12T07:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1967-07-11.vietnam-congress
     when: July 11
     date: '1967-07-11'
@@ -666,7 +724,7 @@ entries:
     thread: civil-disorders-newark
     also: [states-and-cities]
     c: 'Newark. July 12, evening: a Negro cab driver, arrested after a traffic stop, is seen dragged into the Fourth Precinct station; a crowd gathers, rocks and fire bombs. Looting and fires the next night.'
-    n: '[[w.report-of-the-national]], [56–69](https://archive.org/details/reportofnation00unit/page/n84/mode/1up) (Bantam ed.). [[w.califano-triumph-and-tragedy-of]], 209 (the arrest of a cab driver, the rumor, the rioting; Hughes: "criminal insurrection"); [[w.branch-at-canaans-edge]], 630–31 (John Smith; 1,200 jailed, six hundred hurt, twenty-three dead); [[w.bernstein-guns-or-butter]], 418 (26 dead, 1,500 injured); [[w.zelizer-fierce-urgency-of-now]], 273 (the cab driver arrested; the residents of the project across the street); [[w.graham-uncertain-triumph]], 162 (Newark, July 12–17). To check: [[w.hayden-rebellion-in-newark]]; [[w.mumford-newark]]; [[w.tuttle-how-newark-became-newark]]; [[w.mclaughlin-long-hot-summer-of]]; Kerner, *Report* (n.d.), 60–62 (cited by [[w.branch-at-canaans-edge]], 630); New York Times, July 13, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 630); Kerner, *Report* (n.d.), 56–59 (cited by [[w.branch-at-canaans-edge]], 630); "Newark''s Mayor Calls in Guard as Riots Spread," NYT, July 14, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 630); New York Times, July 15, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 630); New York Times, July 19, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 630); Kerner, *Report* (n.d.), 66–69 (cited by [[w.branch-at-canaans-edge]], 630).'
+    n: '[[w.report-of-the-national]], [56–69](https://archive.org/details/reportofnation00unit/page/n84/mode/1up) (Bantam ed.). [[w.califano-triumph-and-tragedy-of]], 209 (the arrest of a cab driver, the rumor, the rioting; Hughes: "criminal insurrection"); [[w.branch-at-canaans-edge]], 630–31 (John Smith; 1,200 jailed, six hundred hurt, twenty-three dead); [[w.bernstein-guns-or-butter]], 418 (26 dead, 1,500 injured); [[w.zelizer-fierce-urgency-of-now]], 273 (the cab driver arrested; the residents of the project across the street); [[w.graham-uncertain-triumph]], 162 (Newark, July 12–17); [[w.white-making-of-the-president-1969]], 202 (July 12: a Negro taxi driver arrested and dragged to a police station; a crowd; a Molotov cocktail; the next night, Thursday, July 13, looting on a larger scale; not the precinct or the traffic stop). To check: [[w.hayden-rebellion-in-newark]]; [[w.mumford-newark]]; [[w.tuttle-how-newark-became-newark]]; [[w.mclaughlin-long-hot-summer-of]]; Kerner, *Report* (n.d.), 60–62 (cited by [[w.branch-at-canaans-edge]], 630); [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630); Kerner, *Report* (n.d.), 56–59 (cited by [[w.branch-at-canaans-edge]], 630); "Newark''s Mayor Calls in Guard as Riots Spread," [*New York Times*, July 14, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630); [*New York Times*, July 15, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/15/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630); [*New York Times*, July 19, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/19/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630); Kerner, *Report* (n.d.), 66–69 (cited by [[w.branch-at-canaans-edge]], 630).'
     src:
       c: bcca9b03
       rows:
@@ -681,6 +739,7 @@ entries:
         - 'w.bernstein-guns-or-butter 418: A'
         - 'w.zelizer-fierce-urgency-of-now 273: B-C'
         - 'w.graham-uncertain-triumph 162: A'
+        - 'w.white-making-of-the-president-1969 202: ?'
     tags: [state:nj, city:newark]
     short: Newark
   - id: cal.1967-07-12.opinion
@@ -710,7 +769,7 @@ entries:
     date: '1967-07-12'
     thread: vietnam-program-5
     c: 'McNamara''s report at the White House; to the press: "some more U.S. military personnel will be required. I am not sure how many." McNamara to Johnson: "There is not a military stalemate." Wheeler: "There is no military stalemate"; "There are no great military problems in sight."'
-    n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238). [[w.gibbons-u-s-government-and]], IV, 731–33; [[w.mcnamara-in-retrospect]], ch. 10 at n.9 (Johnson: "Are we going to be able to win this goddamned war?"). [[w.mann-grand-delusion]], 547 (McNamara and Wheeler to Johnson); [[w.berman-lyndon-johnsons-war]], 55 (McNamara: "there is not a military stalemate"). [[w.clifford-counsel-to-the-president-2]], 447 (McNamara: "there is no military stalemate"; Clifford asks whether the war can be won; McNamara: "if we follow the same program we will win the war"; Johnson writes it down). To check: Tom Johnson''s notes of the meeting of 2:50 p.m., LBJ Library; Taylor''s memorandum for the record, Taylor Papers, National Defense University; [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 731 n.63, 733 n.66). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Johnson, Wheeler.'
+    n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238). [[w.gibbons-u-s-government-and]], IV, 731–33; [[w.mcnamara-in-retrospect]], ch. 10 at n.9 (Johnson: "Are we going to be able to win this goddamned war?"). [[w.mann-grand-delusion]], 547 (McNamara and Wheeler to Johnson); [[w.berman-lyndon-johnsons-war]], 55 (McNamara: "there is not a military stalemate"); [[w.dallek-flawed-giant]], 470–71 (McNamara back July 11, Johnson: "Are we going to be able to win this goddamned war?"; the White House meeting of July 12: McNamara''s recollection of the optimistic briefings in Saigon; Wheeler, "an unbroken series of military successes," "no great military problems in sight"; Katzenbach; not the press statement or the exact words of C to E). [[w.clifford-counsel-to-the-president-2]], 447 (McNamara: "there is no military stalemate"; Clifford asks whether the war can be won; McNamara: "if we follow the same program we will win the war"; Johnson writes it down). To check: Tom Johnson''s notes of the meeting of 2:50 p.m., LBJ Library; Taylor''s memorandum for the record, Taylor Papers, National Defense University; [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 731 n.63, 733 n.66). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Johnson, Wheeler.'
     src:
       c: 5a3afade
       rows:
@@ -728,6 +787,7 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 10 at n.9: A'
         - 'w.berman-lyndon-johnsons-war 55: C'
         - 'via x.1967-07-12.report-of-the-presidents-meeting-in: C'
+        - 'w.dallek-flawed-giant 470–71: A'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b, name:wheeler-earle, name:clifford-clark]
     time_range:
       - 1967-07-12T13:00Z
@@ -748,7 +808,7 @@ entries:
     time: 1967-07-12T17:05Z
     thread: vietnam-force-levels
     c: 'The Cabinet Room, 1:05–2:38 p.m. McNamara, back from Vietnam: "There is not a military stalemate"; Wheeler: "There is no stalemate"; the Chiefs'' request trimmed by 100,000. July 13, the residence: Johnson polls McNamara and the Chiefs before the photographers, "a meeting of the minds."'
-    n: '[[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (McNamara back, ambivalent; July 13, Johnson with McNamara, Wheeler and Westmoreland for an increase). To check: Meeting notes, Cabinet Room, 1:05-2:38 p.m., July 12, 1967, "Literally Eyes Only," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 628); "Joint Chiefs Back Troop Rise Asked by Westmoreland," NYT, July 3, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 628); "Generals Agree with President on Build-up Issue," NYT, July 14, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 630). Names: McNamara, Wheeler, Johnson.'
+    n: '[[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (McNamara back, ambivalent; July 13, Johnson with McNamara, Wheeler and Westmoreland for an increase); [[w.westmoreland-soldier-reports]], 230 (the next day''s news conference: "we have reached a meeting of the minds"); [[w.dallek-flawed-giant]], 471 (the July 12 meeting: the absence of a stalemate stressed by Wheeler; not the hours, the room, the 100,000 or July 13). Check: Westmoreland has himself, after his mother''s funeral at Columbia on July 12, with the National Security Council in the Cabinet Room, and Johnson deciding then for the lesser of his two packages, cut to just over 47,000 more men under a ceiling of 525,000 (230); whether this meeting. To check: Meeting notes, Cabinet Room, 1:05-2:38 p.m., July 12, 1967, "Literally Eyes Only," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 628); "Joint Chiefs Back Troop Rise Asked by Westmoreland," [*New York Times*, July 3, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/03/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 628); "Generals Agree with President on Build-up Issue," [*New York Times*, July 14, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630). Names: McNamara, Wheeler, Johnson.'
     src:
       c: b270275a
       rows:
@@ -757,6 +817,8 @@ entries:
         - 'via x.1967-07-03.joint-chiefs-back-troop-rise-asked: all'
         - 'via x.1967-07-14.generals-agree-with-president-on-build: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 141: ?'
+        - 'w.westmoreland-soldier-reports 230: E'
+        - 'w.dallek-flawed-giant 471: ?'
     tags: [name:mcnamara-robert-s, name:wheeler-earle, name:johnson-lyndon-b]
   - id: cal.1967-07-12.poverty
     when: July 12
@@ -822,7 +884,7 @@ entries:
     time: 1967-07-13T18:10Z
     thread: vietnam-program-5
     c: 'Johnson''s news conference with McNamara and Westmoreland: Westmoreland to have the troops he needs.'
-    n: '[FRUS 1964–68, V, doc. 239](https://history.state.gov/historicaldocuments/frus1964-68v05/d239); [doc. 240](https://history.state.gov/historicaldocuments/frus1964-68v05/d240). The President''s News Conference, [1967 Pub. Papers 690](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=82) (July 13, 1967). [[w.gibbons-u-s-government-and]], IV, 734–35; [[w.berman-lyndon-johnsons-war]], 55–56 (from the second-floor sitting room; "We have reached a meeting of minds"; Westmoreland, Wheeler and McNamara each "Yes, sir"; the number when the allies'' share is known; no reserves for now; Westmoreland: the stalemate "complete fiction"; Clifford and Taylor to the allies). [[w.westmoreland-soldier-reports]], 230 (the National Security Council before it, Westmoreland come from his mother''s funeral: the smaller package cut almost in half, just over 47,000 men, a ceiling of 525,000; "we have reached a meeting of the minds"). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Westmoreland, Johnson.'
+    n: '[FRUS 1964–68, V, doc. 239](https://history.state.gov/historicaldocuments/frus1964-68v05/d239); [doc. 240](https://history.state.gov/historicaldocuments/frus1964-68v05/d240). The President''s News Conference, [1967 Pub. Papers 690](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=82) (July 13, 1967). [[w.gibbons-u-s-government-and]], IV, 734–35; [[w.berman-lyndon-johnsons-war]], 55–56 (from the second-floor sitting room; "We have reached a meeting of minds"; Westmoreland, Wheeler and McNamara each "Yes, sir"; the number when the allies'' share is known; no reserves for now; Westmoreland: the stalemate "complete fiction"; Clifford and Taylor to the allies); [[w.barrett-uncertain-warriors]], 104 (the press conference with McNamara, Wheeler and Westmoreland: "some additional troops are going to be needed and are going to be supplied"). [[w.westmoreland-soldier-reports]], 230 (the National Security Council before it, Westmoreland come from his mother''s funeral: the smaller package cut almost in half, just over 47,000 men, a ceiling of 525,000; "we have reached a meeting of the minds"). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Westmoreland, Johnson.'
     src:
       c: 73d7fcc2
       rows:
@@ -836,6 +898,7 @@ entries:
         - 'w.westmoreland-soldier-reports 230: A'
         - 'via x.1967-07-13.the-presidents-news-conference-july-13: A'
         - 'w.berman-lyndon-johnsons-war 55–56: A'
+        - 'w.barrett-uncertain-warriors 104: A'
     tags: [name:mcnamara-robert-s, name:westmoreland-william, name:johnson-lyndon-b]
   - id: cal.1967-07-13.vietnam-congress
     when: July 13
@@ -924,12 +987,13 @@ entries:
     thread: civil-disorders-newark
     also: [states-and-cities]
     c: Newark. 2 to 2:30 a.m., Addonizio asks Hughes for the State Police and the National Guard. Sniper reports; Guardsmen and police fire into the Central Ward.
-    n: '[[w.report-of-the-national]], [64](https://archive.org/details/reportofnation00unit/page/n92/mode/1up) (Bantam ed.). [[w.zelizer-fierce-urgency-of-now]], 273 (Addonizio''s call to Hughes at 2:30 a.m.: his "city was burning down"). Check: the governor''s proclamation. Check: Zelizer, 273, from Hughes''s oral history (1969), puts the call "a day after the violence began" (273 n.17). See [[cal.1967-07-12.civil-disorders]]. Names: Addonizio, Hughes.'
+    n: '[[w.report-of-the-national]], [64](https://archive.org/details/reportofnation00unit/page/n92/mode/1up) (Bantam ed.). [[w.zelizer-fierce-urgency-of-now]], 273 (Addonizio''s call to Hughes at 2:30 a.m.: his "city was burning down"); [[w.white-making-of-the-president-1969]], 202 ("by two in the morning the mayor had called for New Jersey''s National Guard"; by Friday the Guard, the State Police and the City Police in place, and firing; not the hour''s half, Hughes, or the sniper reports). Check: the governor''s proclamation. Check: Zelizer, 273, from Hughes''s oral history (1969), puts the call "a day after the violence began" (273 n.17). See [[cal.1967-07-12.civil-disorders]]. Names: Addonizio, Hughes.'
     src:
       c: cf7b48a4
       rows:
         - 'https://archive.org/details/reportofnation00unit/page/n92/mode/1up: all'
         - 'w.zelizer-fierce-urgency-of-now 273: B'
+        - 'w.white-making-of-the-president-1969 202: ?'
     tags: [name:addonizio-hugh-j, name:hughes-richard-j, state:nj, city:newark]
   - id: cal.1967-07-14.vietnam
     when: July 14
@@ -1202,6 +1266,13 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 273: all'
         - 'via w.zelizer-fierce-urgency-of-now 273 n.18: all'
     tags: [name:johnson-lyndon-b, name:goldberg-arthur-j]
+  - id: cal.1967-07-15.vietnam-air-war
+    when: July 15
+    date: '1967-07-15'
+    thread: vietnam-air-war
+    c: 'Johnson to Rostow: "How could our bombing of the North Vietnamese transport system be intensified without excessive public clamor here and abroad?"'
+    n: '[[w.dallek-flawed-giant]], 476. To check: Rostow to LBJ, July 15, 1967, NSF: Memos to the Pres. (cited by [[w.dallek-flawed-giant]], 476 n.90). Names: Johnson, Rostow.'
+    tags: [name:johnson-lyndon-b, name:rostow-walt-w]
   - id: cal.1967-07-16.jobs-and-wages
     when: July 16–17
     date: '1967-07-16'
@@ -1251,14 +1322,20 @@ entries:
     thread: civil-disorders-newark
     also: [states-and-cities]
     c: 'Newark. The State Police and the Guard withdrawn. Twenty-three dead, the Kerner Commission counted: a white detective, a white fireman, 21 Negroes.'
-    n: '[[w.report-of-the-national]], [68–69](https://archive.org/details/reportofnation00unit/page/n96/mode/1up) (Bantam ed.). The President''s News Conference, [1967 Pub. Papers 699](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=91) (July 18, 1967), item 6. [[w.zelizer-fierce-urgency-of-now]], 273 (the riots ended July 17). Check: Zelizer, 273, gives twenty-six dead. See [[cal.1967-07-12.civil-disorders]]. Names: Hughes.'
+    n: '[[w.report-of-the-national]], [68–69](https://archive.org/details/reportofnation00unit/page/n96/mode/1up) (Bantam ed.). The President''s News Conference, [1967 Pub. Papers 699](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=91) (July 18, 1967), item 6. [[w.zelizer-fierce-urgency-of-now]], 273 (the riots ended July 17); [[w.white-making-of-the-president-1969]], 202 (July 17, the National Guard withdrawn; twenty-three killed, among them a white detective, a white fireman, six Negro women and two Negro children; not the State Police or the Kerner Commission as source). Check: Zelizer, 273, gives twenty-six dead. Check: Berman, 60, gives twenty-six dead too, and puts the rioting in late July. See [[cal.1967-07-12.civil-disorders]]. Names: Hughes.'
     src:
       c: cd866df2
       rows:
         - 'https://archive.org/details/reportofnation00unit/page/n96/mode/1up: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=91: all'
         - 'w.zelizer-fierce-urgency-of-now 273: A-B'
+        - 'w.white-making-of-the-president-1969 202: ?'
     tags: [name:hughes-richard-j, state:nj, city:newark]
+    variants:
+      - unit: C
+        witness: w.berman-lyndon-johnsons-war
+        reads: Rioting in late July left 26 dead in Newark
+        at: '60'
   - id: cal.1967-07-17.vietnam
     when: July 17–18
     date: '1967-07-17'
@@ -1328,7 +1405,7 @@ entries:
     thread: republican-party
     also: [conservative-movement]
     c: 'Huebner, the Ripon Society''s president, "The Conservative Battle Plan," in the *New Leader*: the moderates "too busy, too tired, or just plain too moderate" to match the conservatives'' organization; they "must somehow inspire men and women to be more than moderate in their commitment."'
-    n: '[[w.kabaservice-rule-and-ruin]], 211. To check: Lee W. Huebner, "The Conservative Battle Plan," *New Leader*, July 17, 1967, 5 (cited by [[w.kabaservice-rule-and-ruin]], 211 n.83). Names: Huebner.'
+    n: '[[w.kabaservice-rule-and-ruin]], 211. To check: Lee W. Huebner, "The Conservative Battle Plan," *New Leader*, July 17, 1967, at 5 (cited by [[w.kabaservice-rule-and-ruin]], 211 n.83). Names: Huebner.'
     src:
       c: f05472e0
       rows:
@@ -1382,6 +1459,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-07-17.vietnam-air-war
+    when: July 17
+    date: '1967-07-17'
+    thread: vietnam-air-war
+    c: 'Rostow to Johnson: "As you know, our military feel that they have achieved real momentum in their attack on the northern part of North Vietnam."'
+    n: '[[w.dallek-flawed-giant]], 476. To check: Rostow to LBJ, July 17, 1967, NSF: Memos to the Pres. (cited by [[w.dallek-flawed-giant]], 476 n.89). See [[cal.1967-07-15.vietnam-air-war]]. Names: Rostow, Johnson.'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1967-07-18.conservation
     when: July 18
     date: '1967-07-18'
@@ -1454,6 +1538,18 @@ entries:
       - 1967-07-19T05:00Z
     time_zone: America/Chicago
     range_basis: record
+  - id: cal.1967-07-18.press-and-broadcasting
+    when: July 18
+    date: '1967-07-18'
+    thread: press-and-broadcasting
+    also: [vietnam-support]
+    c: 'McPherson to George Christian: the Huntley-Brinkley report from Vietnam tonight "devastating," Marines sent to the DMZ where at the present rate more than half would be wounded or killed; another story of bewildered, depressed men.'
+    n: '[[w.dallek-flawed-giant]], 473. Names: McPherson, Christian.'
+    src:
+      c: 913abde7
+      rows:
+        - 'w.dallek-flawed-giant 473: all'
+    tags: [name:mcpherson-harry, name:christian-george]
   - id: cal.1967-07-19.civil-disorders
     when: July 19
     date: '1967-07-19'
@@ -1528,12 +1624,13 @@ entries:
     thread: transition-and-staff
     also: [defense]
     c: McNaughton killed in a plane crash.
-    n: '[[w.herring-lbj-and-vietnam]], 53 (the death, one of those most committed to a review of the war); [[w.bernstein-guns-or-butter]], 355. Check: where, and the office he held or had been named to. Names: McNaughton.'
+    n: '[[w.herring-lbj-and-vietnam]], 53 (the death, one of those most committed to a review of the war); [[w.bernstein-guns-or-butter]], 355; [[w.drea-mcnamara-clifford-and-the-2011]], 173 (a commercial airliner, in North Carolina; McNaughton the Assistant Secretary for ISA). Check: where, and the office he held or had been named to. Names: McNaughton.'
     src:
       c: 5031a432
       rows:
         - 'w.herring-lbj-and-vietnam 53: all'
         - 'w.bernstein-guns-or-butter 355: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 173: all'
     tags: [name:mcnaughton-john-t]
   - id: cal.1967-07-19.civil-disorders-3
     when: July 19
@@ -1541,12 +1638,13 @@ entries:
     thread: civil-disorders
     also: [cities-and-housing, vietnam]
     c: 'The Cabinet: "When members complain about riots, ask them what they''re doing to build programs like model cities and rent supplements"; "We are not getting our story over"; a group under Humphrey on the cities. Then Wilkins and Whitney Young: "I''m a progressive. I''m not a liberal"; "You know the difference between cannibals and liberals? Cannibals eat only their enemies." That evening Califano''s summary of the task force on the cities: by 1983 the major cities 40 percent Negro and 40 percent poor.'
-    n: '[[w.califano-triumph-and-tragedy-of]], 210–12; [[w.berman-lyndon-johnsons-war]], 55 (McNamara to the Cabinet, July 19: "there is no evidence of a stalemate"). Names: Johnson, Humphrey, Wilkins, Whitney Young, Califano.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 210–12; [[w.berman-lyndon-johnsons-war]], 55 (McNamara to the Cabinet, July 19: "there is no evidence of a stalemate"); [[w.dallek-flawed-giant]], 413, 476 (the Humphrey Cabinet group; the cannibals remark to Wilkins and Young, "in July"; at the Cabinet of July 19, Johnson reads aloud an air force general''s memorandum that "the effectiveness of the air bombing in North Vietnam has increased"; not A, B or F). Names: Johnson, Humphrey, Wilkins, Whitney Young, Califano.'
     src:
       c: ab3722b9
       rows:
         - 'w.califano-triumph-and-tragedy-of 210–12: all'
         - 'w.berman-lyndon-johnsons-war 55: ?'
+        - 'w.dallek-flawed-giant 413, 476: C, E'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:wilkins-roy, name:young-whitney-m-jr, name:califano-joseph-a-jr]
     time_range:
       - 1967-07-19T13:00Z
@@ -1593,7 +1691,7 @@ entries:
     thread: cities-and-housing
     also: [poverty]
     c: 'The House refuses the rule for H.R. 11000, the Rat Extermination Act, [176–207](https://voteview.com/rollcall/RH0900097): grants to cities for rat control, $20 million a year asked. Christian reads Johnson''s statement: "a cruel blow to the poor children of America."'
-    n: 'Statement by the President on the Failure of the House To Act on the Rat Extermination Act, [1967 Pub. Papers 710](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=102) (July 20, 1967). [[w.dallek-flawed-giant]], 415 (the bill''s ridicule in the House; Johnson''s answer, July 27); [[w.califano-triumph-and-tragedy-of]], 212–13 (the "civil rats bill," "buy a lot of cats"; Johnson''s statement, "a cruel blow to the poor children of America"; Califano shows the press pictures of bitten babies; the program added to the Partnership for Health Act, Dec. 4); [[w.zelizer-fierce-urgency-of-now]], 276 (207–176, Republicans 148 and Democrats 59 against; Johnson: "cruel blow to the poor children of America"); [[w.bernstein-guns-or-butter]], 418 (207 to 176; the "civil rats bill"; passed Dec. 4). Names: Christian, Johnson.'
+    n: 'Statement by the President on the Failure of the House To Act on the Rat Extermination Act, [1967 Pub. Papers 710](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=102) (July 20, 1967). [[w.dallek-flawed-giant]], 415 (the bill''s ridicule in the House; Johnson''s answer, July 27); [[w.califano-triumph-and-tragedy-of]], 212–13 (the "civil rats bill," "buy a lot of cats"; Johnson''s statement, "a cruel blow to the poor children of America"; Califano shows the press pictures of bitten babies; the program added to the Partnership for Health Act, Dec. 4); [[w.zelizer-fierce-urgency-of-now]], 276 (207–176, Republicans 148 and Democrats 59 against; Johnson: "cruel blow to the poor children of America"); [[w.bernstein-guns-or-butter]], 418 (207 to 176; the "civil rats bill"; passed Dec. 4); [[w.zaroulis-who-spoke-up]], 120 (the rat bill, laughed out of court, congressmen voting nay). Names: Christian, Johnson.'
     src:
       c: 9a0436a3
       rows:
@@ -1602,6 +1700,7 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 212–13: ?'
         - 'w.zelizer-fierce-urgency-of-now 276: ?'
         - 'w.bernstein-guns-or-butter 418: A'
+        - 'w.zaroulis-who-spoke-up 120: ?'
     tags: [name:christian-george, name:johnson-lyndon-b]
     short: the rat bill refused a rule
     time_range:
@@ -1610,6 +1709,11 @@ entries:
     time_band: workday afternoon
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.zaroulis-who-spoke-up
+        reads: a bill would have appropriated the relatively small sum of $4 million to eradicate the rats
+        at: '120'
   - id: cal.1967-07-20.black-nationalism
     when: July 20–23
     date: '1967-07-20'
@@ -1834,7 +1938,7 @@ entries:
     thread: civil-disorders-detroit
     also: [states-and-cities, elections-1968]
     c: Detroit. A police raid on an after-hours club at 12th Street and Clairmount, early in the morning, sets off five days of rioting; Romney calls out the Michigan National Guard. Forty-three dead, more than 7,200 arrested.
-    n: '[[w.report-of-the-national]], [84–108](https://archive.org/details/reportofnation00unit/page/n112/mode/1up) (Bantam ed.). [[w.branch-at-canaans-edge]], 631–33 (forty-three killed; 205 bullets fired by the paratroopers); [[w.bernstein-guns-or-butter]], 418; [[w.zelizer-fierce-urgency-of-now]], 273–75 (the raid on the after-hours club, eighty-two arrested, the crowd: "Black power. Don''t let them take our people away"; forty-three dead, more than a thousand hurt, almost seven thousand arrested); [[w.graham-uncertain-triumph]], 162 (Detroit, July 23–28). Check: the governor''s proclamation. To check: [[w.fine-violence-in-the-model]]; [[w.locke-detroit-riot-of-1967]]; [[w.hersey-algiers-motel-incident]]; [[w.sugrue-origins-of-the-urban]]; [[w.thompson-whose-detroit]]; [[w.mclaughlin-long-hot-summer-of]]; Kerner, *Report* (n.d.), 84–94 (cited by [[w.branch-at-canaans-edge]], 631); New York Times, July 24, 1967, p. 15 (cited by [[w.branch-at-canaans-edge]], 631); "The Detroit Riots Chronology," Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 631); "Notes of the President''s Activities During the Detroit Crisis, Crisis Period, 10 p.m. to 12:30 a.m., July 24, 1967," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Hoover to Tolson, DeLoach, and Sullivan, July 25, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 632); "Army''s Entry into Detroit (cited by [[w.branch-at-canaans-edge]], 632); How Decision Was Made," NYT, July 30, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 632); "Romney Accuses Johnson on Riots," NYT, Aug. 1, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:30 p.m., Aug. 2, 1967, Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:55 p.m., Sept. 11, 1967, with attached report of Vance to McNamara, Box 56, WHCE, LBJ (cited by [[w.branch-at-canaans-edge]], 632); [[w.dallek-flawed-giant]], 414–15 (cited by [[w.branch-at-canaans-edge]], 632); Califano, Triumph, pp (cited by [[w.branch-at-canaans-edge]], 632); New York Times, July 25, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 632); Kerner, *Report* (n.d.), 100–108 (cited by [[w.branch-at-canaans-edge]], 632). Names: Romney.'
+    n: '[[w.report-of-the-national]], [84–108](https://archive.org/details/reportofnation00unit/page/n112/mode/1up) (Bantam ed.). [[w.branch-at-canaans-edge]], 631–33 (forty-three killed; 205 bullets fired by the paratroopers); [[w.bernstein-guns-or-butter]], 418; [[w.zelizer-fierce-urgency-of-now]], 273–75 (the raid on the after-hours club, eighty-two arrested, the crowd: "Black power. Don''t let them take our people away"; forty-three dead, more than a thousand hurt, almost seven thousand arrested); [[w.graham-uncertain-triumph]], 162 (Detroit, July 23–28); [[w.berman-lyndon-johnsons-war]], 60 (the rioting, late July; over 7,000 arrested); [[w.dallek-flawed-giant]], 413 (Detroit erupts July 23, "the country''s worst rioting since 1943"; not the raid, the guard or the count); [[w.white-making-of-the-president-1969]], 202 (July 23, Detroit; City Police, National Guard, State Police and the Army; 43 killed, 33 black and 10 white; property damage some $45,000,000; not the raid, Romney or the arrests). Check: the governor''s proclamation. Check: Berman, 60, gives forty killed. To check: [[w.fine-violence-in-the-model]]; [[w.locke-detroit-riot-of-1967]]; [[w.hersey-algiers-motel-incident]]; [[w.sugrue-origins-of-the-urban]]; [[w.thompson-whose-detroit]]; [[w.mclaughlin-long-hot-summer-of]]; Kerner, *Report* (n.d.), 84–94 (cited by [[w.branch-at-canaans-edge]], 631); [*New York Times*, July 24, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/24/issue.html), at 15 (cited by [[w.branch-at-canaans-edge]], 631); "The Detroit Riots Chronology," Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 631); "Notes of the President''s Activities During the Detroit Crisis, Crisis Period, 10 p.m. to 12:30 a.m., July 24, 1967," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Hoover to Tolson, DeLoach, and Sullivan, July 25, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 632); "Army''s Entry into Detroit (cited by [[w.branch-at-canaans-edge]], 632); How Decision Was Made," [*New York Times*, July 30, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/30/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); "Romney Accuses Johnson on Riots," [*New York Times*, Aug. 1, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/01/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:30 p.m., Aug. 2, 1967, Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:55 p.m., Sept. 11, 1967, with attached report of Vance to McNamara, Box 56, WHCE, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano, Triumph, pp (cited by [[w.branch-at-canaans-edge]], 632); [*New York Times*, July 25, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/25/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); Kerner, *Report* (n.d.), 100–108 (cited by [[w.branch-at-canaans-edge]], 632). Names: Romney.'
     src:
       c: 6558cc50
       rows:
@@ -1855,6 +1959,9 @@ entries:
         - 'w.bernstein-guns-or-butter 418: A'
         - 'w.zelizer-fierce-urgency-of-now 273–75: B, D'
         - 'w.graham-uncertain-triumph 162: A, B'
+        - 'w.berman-lyndon-johnsons-war 60: A'
+        - 'w.dallek-flawed-giant 413: A'
+        - 'w.white-making-of-the-president-1969 202: ?'
     tags: [name:romney-george-w, state:mi, city:detroit]
     short: Detroit, the Guard and the paratroopers
     time_range:
@@ -1862,6 +1969,15 @@ entries:
       - 1967-07-23T13:00Z
     time_zone: America/Detroit
     range_basis: record
+    variants:
+      - unit: D
+        witness: w.berman-lyndon-johnsons-war
+        reads: 40 killed in Detroit
+        at: '60'
+      - unit: B
+        witness: w.white-making-of-the-president-1969
+        reads: six days of death and destruction
+        at: '202'
   - id: cal.1967-07-23.opinion
     when: July 23
     date: '1967-07-23'
@@ -1890,7 +2006,7 @@ entries:
     thread: civil-disorders-detroit
     also: [states-and-cities, elections-1968]
     c: 'Detroit. 10:46 a.m., Romney, joined by Cavanagh, asks for federal troops. Johnson sends paratroopers to Selfridge Air Force Base, Mich., and Vance to Detroit. That night, on Vance''s and Throckmorton''s report, the proclamation and Executive Order 11364; Johnson on television before midnight: "law and order have broken down in Detroit, Michigan."'
-    n: 'Telegram in Reply to Governor Romney''s Request for Federal Troop Assistance in Detroit, [1967 Pub. Papers 714](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=106) (July 24, 1967); Remarks to the Nation After Authorizing the Use of Federal Troops in Detroit, [1967 Pub. Papers 715](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=107) (July 24, 1967); Exec. Order No. 11364, [32 Fed. Reg. 10907](https://www.govinfo.gov/app/details/FR-1967-07-26). [Johnson and Ramsey Clark](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-july-24-1967), July 24, Conversation WH6707-01-12004 (Miller Center). [[w.mcpherson-political-education]], 359–60 (the statement drafted by Johnson with a Washington lawyer, Hoover and McNamara present; McPherson''s assent); [[w.califano-triumph-and-tragedy-of]], 213–18 (the Sequoia the day before; Romney''s calls to Clark from before 3 a.m.; Fortas at breakfast; the telegram, "reasonable doubt"; Vance sent; the leaders at evening; Vance at about 10 p.m.; Throckmorton, the ammunition; Hoover: "Harlem will break loose in thirty minutes"; Fortas''s statement, Romney fourteen times, 10:56 and 11:02); [[w.bernstein-guns-or-butter]], 418–19 (Romney''s call at 9:45 a.m., the telegram at 12:35 p.m.; the proclamation 10:31 p.m.; Executive Order 11364, 11:22 p.m.; 40 dead, 2,000 injured, 5,000 arrested); [[w.zelizer-fierce-urgency-of-now]], 274–75 (Romney to Ramsey Clark at 3 a.m.; Vance to Califano at 10 p.m.: federalize the Guard; Hoover: "They have lost all control in Detroit"; the proclamation; the address: "We will not tolerate lawlessness"); [[w.drea-mcnamara-clifford-and-the-2011]], 274–76 (some 2,000 guardsmen by 5 a.m. July 24; nearly 15,000 Guard and Regular troops by 4 a.m. July 25; 37 civilians dead by July 28, the Guard''s 155,000 rounds; federal troops out July 28–30, the state of emergency ended Aug. 6). See [[cal.1967-07-23.civil-disorders]]. Names: Romney, Cavanagh, Vance, Throckmorton, Johnson.'
+    n: 'Telegram in Reply to Governor Romney''s Request for Federal Troop Assistance in Detroit, [1967 Pub. Papers 714](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=106) (July 24, 1967); Remarks to the Nation After Authorizing the Use of Federal Troops in Detroit, [1967 Pub. Papers 715](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=107) (July 24, 1967); Exec. Order No. 11364, [32 Fed. Reg. 10907](https://www.govinfo.gov/app/details/FR-1967-07-26). [Johnson and Ramsey Clark](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-july-24-1967), July 24, Conversation WH6707-01-12004 (Miller Center). [[w.mcpherson-political-education]], 359–60 (the statement drafted by Johnson with a Washington lawyer, Hoover and McNamara present; McPherson''s assent); [[w.califano-triumph-and-tragedy-of]], 213–18 (the Sequoia the day before; Romney''s calls to Clark from before 3 a.m.; Fortas at breakfast; the telegram, "reasonable doubt"; Vance sent; the leaders at evening; Vance at about 10 p.m.; Throckmorton, the ammunition; Hoover: "Harlem will break loose in thirty minutes"; Fortas''s statement, Romney fourteen times, 10:56 and 11:02); [[w.bernstein-guns-or-butter]], 418–19 (Romney''s call at 9:45 a.m., the telegram at 12:35 p.m.; the proclamation 10:31 p.m.; Executive Order 11364, 11:22 p.m.; 40 dead, 2,000 injured, 5,000 arrested); [[w.zelizer-fierce-urgency-of-now]], 274–75 (Romney to Ramsey Clark at 3 a.m.; Vance to Califano at 10 p.m.: federalize the Guard; Hoover: "They have lost all control in Detroit"; the proclamation; the address: "We will not tolerate lawlessness"); [[w.drea-mcnamara-clifford-and-the-2011]], 274–76 (some 2,000 guardsmen by 5 a.m. July 24; nearly 15,000 Guard and Regular troops by 4 a.m. July 25; 37 civilians dead by July 28, the Guard''s 155,000 rounds; federal troops out July 28–30, the state of emergency ended Aug. 6); [[w.berman-lyndon-johnsons-war]], 60 (federal troops, the first in twenty-four years; paratroopers); [[w.schlesinger-robert-kennedy-and-his]], 797 ("Later that night," after Hoover''s report of the evening of July 24, Johnson "sent tanks and paratroopers into Detroit" and explained his decision over nationwide television "in a cold statement" (n.94: *The Vantage Point*, 167–72); not the hours, Romney''s request, Vance, the order or the words); [[w.dallek-flawed-giant]], 414–15 (Romney''s telegram for troops at Johnson''s insistence, Johnson''s "reasonable doubt" reply, the televised statement with Hoover, Clark, McNamara and two Pentagon officials behind him; not the hour, Cavanagh, Selfridge, Vance, the proclamation or the order). See [[cal.1967-07-23.civil-disorders]]. Names: Romney, Cavanagh, Vance, Throckmorton, Johnson.'
     src:
       c: 4c8053c5
       rows:
@@ -1904,6 +2020,9 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 274–75: D-E'
         - 'via w.zelizer-fierce-urgency-of-now 275 n.23: D-E'
         - 'w.drea-mcnamara-clifford-and-the-2011 274–76: ?'
+        - 'w.berman-lyndon-johnsons-war 60: C'
+        - 'w.schlesinger-robert-kennedy-and-his 797: ?'
+        - 'w.dallek-flawed-giant 414–15: ?'
     tags: [name:romney-george-w, name:cavanagh-jerome-p, name:vance-cyrus, name:throckmorton-john-l, name:johnson-lyndon-b, name:clark-ramsey, state:mi, city:detroit]
   - id: cal.1967-07-24.civil-disorders
     when: July 24–26
@@ -1911,7 +2030,7 @@ entries:
     thread: civil-disorders
     also: [civil-rights-organizations, states-and-cities]
     c: 'Cambridge, Md. H. Rap Brown, SNCC''s chairman, to a crowd of several hundred, night of July 24: "If America don''t come around, we''re going to burn America down" (Check the words). Shots; Brown grazed by a pellet; fire burns the Pine Street school and blocks of the Second Ward (Check). Maryland charges him with inciting to riot; a federal warrant for flight to avoid prosecution; arrested July 26 at Washington National Airport (Check), freed on bail. Agnew: "I hope they pick him up soon, put him away and throw away the key" (Check the words).'
-    n: '[Johnson and Hoover, 10:33 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-july-25-1967), July 25, Conversation WH6707-01-12005 (Miller Center). [[w.branch-at-canaans-edge]], 633–34 (some fourteen charges; arrested at a Virginia airport July 26, a Negro agent among the arresting). To check: [[w.levy-civil-war-on-race]]; [[w.carson-in-struggle]]; [[w.witcover-white-knight]]; [[w.joseph-waiting-til-the-midnight]]; [[w.forman-making-of-black-revolutionaries]], 504 (cited by [[w.branch-at-canaans-edge]], 633); "Chief of S.N.C.C. Hunted by FBI," NYT, July 26, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 634); "Leader of S.N.C.C. Seized in Virginia," NYT, July 27, 1967, pale (cited by [[w.branch-at-canaans-edge]], 634). Names: Brown, Agnew.'
+    n: '[Johnson and Hoover, 10:33 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-july-25-1967), July 25, Conversation WH6707-01-12005 (Miller Center). [[w.branch-at-canaans-edge]], 633–34 (some fourteen charges; arrested at a Virginia airport July 26, a Negro agent among the arresting); [[w.white-making-of-the-president-1969]], 205 (Brown "declaiming in Cambridge, Maryland": "Burn this town down. But don''t tear down your own stuff"; other words than the entry''s, no day; not the shots, the fire or the charges). To check: [[w.levy-civil-war-on-race]]; [[w.carson-in-struggle]]; [[w.witcover-white-knight]]; [[w.joseph-waiting-til-the-midnight]]; [[w.forman-making-of-black-revolutionaries]], 504 (cited by [[w.branch-at-canaans-edge]], 633); "Chief of S.N.C.C. Hunted by FBI," [*New York Times*, July 26, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/26/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 634); "Leader of S.N.C.C. Seized in Virginia," [*New York Times*, July 27, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/27/issue.html), pale (cited by [[w.branch-at-canaans-edge]], 634). Names: Brown, Agnew.'
     src:
       c: 5e0a6139
       rows:
@@ -1919,6 +2038,7 @@ entries:
         - 'w.branch-at-canaans-edge 633–34: H'
         - 'via x.1967-07-26.chief-of-s-n-c-c: H'
         - 'via x.1967-07-27.leader-of-s-n-c-c: H'
+        - 'w.white-making-of-the-president-1969 205: ?'
     tags: [name:brown-h-rap, name:agnew-spiro-t, name:hoover-j-edgar, state:md]
     short: H. Rap Brown at Cambridge
   - id: cal.1967-07-24.oil
@@ -1947,7 +2067,7 @@ entries:
     thread: king
     also: [civil-disorders-detroit, middle-east-six-day-war]
     c: 'King''s conference call with his advisers: "There were dark days before, but this is the darkest." He approves Levison''s statement on jobs; and cancels his pilgrimage to Israel and Jordan: Jerusalem annexed, "any way you say it they don''t plan to give it up."'
-    n: '[[w.branch-at-canaans-edge]], 631–32. To check: Wiretap transcript of telephone conference call among MLK, Andrew Young, Stanley Levison, and Harry Wachtel, 1:20 p.m., July 24, 1967, FLNY-9-1375a (cited by [[w.branch-at-canaans-edge]], 631); also, conference call among the same parties, 11:50 p.m., July 25, 1967, FLNY-9-1376a (cited by [[w.branch-at-canaans-edge]], 631); "Dr. King Supports Troops in Detroit," NYT, July 26, 1967, p. 19 (cited by [[w.branch-at-canaans-edge]], 632). Names: King, Levison.'
+    n: '[[w.branch-at-canaans-edge]], 631–32. To check: Wiretap transcript of telephone conference call among MLK, Andrew Young, Stanley Levison, and Harry Wachtel, 1:20 p.m., July 24, 1967, FLNY-9-1375a (cited by [[w.branch-at-canaans-edge]], 631); also, conference call among the same parties, 11:50 p.m., July 25, 1967, FLNY-9-1376a (cited by [[w.branch-at-canaans-edge]], 631); "Dr. King Supports Troops in Detroit," [*New York Times*, July 26, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/26/issue.html), at 19 (cited by [[w.branch-at-canaans-edge]], 632). Names: King, Levison.'
     src:
       c: 8e6b15db
       rows:
@@ -1987,12 +2107,13 @@ entries:
     thread: republican-party
     also: [civil-disorders-detroit]
     c: 'The Republican leaders, a statement on the riots: "The nation is in crisis, and this Administration has failed even to make a proposal to protect our people on the streets and in their homes from riots and violence."'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 274. To check: Philip Potter, "GOP Charges ''Total Failure'' in Proposals to Curb Riots," *Baltimore Sun*, July 25, 1967 (cited by [[w.zelizer-fierce-urgency-of-now]], 274 n.21). Check: the body that issued it, and the day. See [[cal.1967-07-23.civil-disorders]].'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 274; [[w.dallek-flawed-giant]], 414 (the evening of July 24, Johnson reads the Democratic leaders a UPI report of the Republican leaders: "The nation is in a crisis and this administration has failed even to make a proposal to protect our people on the streets and in their homes from riots and violence"). To check: Philip Potter, "GOP Charges ''Total Failure'' in Proposals to Curb Riots," *Baltimore Sun*, July 25, 1967 (cited by [[w.zelizer-fierce-urgency-of-now]], 274 n.21). Check: the body that issued it, and the day. See [[cal.1967-07-23.civil-disorders]].'
     src:
       c: 5e48da0f
       rows:
         - 'w.zelizer-fierce-urgency-of-now 274: all'
         - 'via w.zelizer-fierce-urgency-of-now 274 n.21: all'
+        - 'w.dallek-flawed-giant 414: ?'
     time_range:
       - 1967-07-24T13:00Z
       - 1967-07-24T21:00Z
@@ -2035,6 +2156,13 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1967-07-24.civil-disorders-detroit-3
+    when: July 24
+    date: '1967-07-24'
+    thread: civil-disorders-detroit
+    c: 'Evening. Hoover to Johnson: "They have lost all control in Detroit. Harlem may break loose within thirty minutes. They plan to tear it to pieces."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 797. To check: [[w.johnson-vantage-point]], 167–72 (cited by [[w.schlesinger-robert-kennedy-and-his]], 797 n.94). See [[cal.1967-07-24.civil-disorders-detroit]]. Names: Hoover, Johnson.'
+    tags: [name:hoover-j-edgar, name:johnson-lyndon-b]
   - id: cal.1967-07-25.civil-disorders-detroit
     when: July 25–26
     date: '1967-07-25'
@@ -2086,7 +2214,7 @@ entries:
     date: '1967-07-25'
     thread: vietnam
     c: 'Johnson with the Senate leaders. Fulbright: the war "a hopeless venture," "ruining our domestic and our foreign policy. I will not support it any longer." Johnson: Fulbright has "a blind spot"; let them repeal the Gulf of Tonkin resolution. "You can tell the troops to come home."'
-    n: '[[w.dallek-flawed-giant]], 474; [[w.gibbons-u-s-government-and]], IV, 756–57 (Tom Johnson''s notes: 6:10 to 8:00 p.m., Mansfield and fifteen other Democratic chairmen, on the budget); [[w.woods-j-william-fulbright-vietnam]], 154 (the meeting with the committee chairmen); [[w.woods-fulbright]], 457 (Fulbright: "what you really need to do is to stop the war"; Johnson: "everybody doesn''t have a blind spot like you do"). [[w.mann-grand-delusion]], 548–49 (the meeting of the committee chairmen). To check: Tom Johnson''s notes of the meeting, July 25, 1967, Tom Johnson Papers, LBJ Library (cited by [[w.dallek-flawed-giant]], 474, and [[w.gibbons-u-s-government-and]], IV, 756 n.127); Meeting with Senate committee chairs, July 25, 1967, Thomas Johnson''s Meeting Notes, Box 1, LBJ Library (cited by [[w.mann-grand-delusion]], 549 n.24). Names: Johnson, Fulbright. Check: Mann, 548, gives "a hopeless adventure."'
+    n: '[[w.dallek-flawed-giant]], 474; [[w.gibbons-u-s-government-and]], IV, 756–57 (Tom Johnson''s notes: 6:10 to 8:00 p.m., Mansfield and fifteen other Democratic chairmen, on the budget); [[w.woods-j-william-fulbright-vietnam]], 154 (the meeting with the committee chairmen); [[w.woods-fulbright]], 457 (Fulbright: "what you really need to do is to stop the war"; Johnson: "everybody doesn''t have a blind spot like you do"); [[w.barrett-uncertain-warriors]], 1–3, 102. [[w.mann-grand-delusion]], 548–49 (the meeting of the committee chairmen). To check: Tom Johnson''s notes of the meeting, July 25, 1967, Tom Johnson Papers, LBJ Library (cited by [[w.dallek-flawed-giant]], 474, and [[w.gibbons-u-s-government-and]], IV, 756 n.127); Meeting with Senate committee chairs, July 25, 1967, Thomas Johnson''s Meeting Notes, Box 1, LBJ Library (cited by [[w.mann-grand-delusion]], 549 n.24). Names: Johnson, Fulbright. Check: Mann, 548, gives "a hopeless adventure."'
     src:
       c: 3e4bacf0
       rows:
@@ -2099,6 +2227,7 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 154: ?'
         - 'w.woods-fulbright 457: ?'
         - 'via x.1967-07-25.tom-johnson-notes-of-johnsons-meeting: ?'
+        - 'w.barrett-uncertain-warriors 1–3, 102: all'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william]
     time_range:
       - 1967-07-25T13:00Z
@@ -2131,7 +2260,7 @@ entries:
     thread: civil-disorders
     also: [republican-party]
     c: 'Reagan on the rioters: "mad dogs against the people."'
-    n: '[[w.kabaservice-rule-and-ruin]], 215. Check the day; the *Times* reports it July 26. To check: Lawrence E. Davies, "Reagan Brands Those in Riots ''Mad Dogs Against the People,''" [*New York Times*, July 26, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/26/issue.html), 19 (cited by [[w.kabaservice-rule-and-ruin]], 215 n.100). Names: Reagan.'
+    n: '[[w.kabaservice-rule-and-ruin]], 215. Check the day; the *Times* reports it July 26. To check: Lawrence E. Davies, "Reagan Brands Those in Riots ''Mad Dogs Against the People,''" [*New York Times*, July 26, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/26/issue.html), at 19 (cited by [[w.kabaservice-rule-and-ruin]], 215 n.100). Names: Reagan.'
     src:
       c: e2882c4a
       rows:
@@ -2143,11 +2272,12 @@ entries:
     date: '1967-07-25'
     thread: civil-disorders-detroit
     c: 'Early morning. Stanton of CBS to Califano: "the television side of the job was not well handled"; McNamara and the others "look like props"; "[using the times] 11:02 and 10:56 was beneath the office of the President." Johnson: "I had the best damn constitutional lawyer in the country write that statement." King''s telegram: Califano to tell him a jobs program is coming.'
-    n: '[[w.califano-triumph-and-tragedy-of]], 218. See [[cal.1967-07-24.civil-disorders-detroit]]; [[cal.1967-07-25.civil-disorders]]. Names: Stanton, Califano, McNamara, Johnson, Martin Luther King.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 218; [[w.dallek-flawed-giant]], 415 (Stanton of CBS: Johnson''s performance "too contrived and too political"; Johnson: "I had the best damn constitutional lawyer in the country write that statement"; no day; not Califano or King). See [[cal.1967-07-24.civil-disorders-detroit]]; [[cal.1967-07-25.civil-disorders]]. Names: Stanton, Califano, McNamara, Johnson, Martin Luther King.'
     src:
       c: e3a8ddd7
       rows:
         - 'w.califano-triumph-and-tragedy-of 218: all'
+        - 'w.dallek-flawed-giant 415: E'
     tags: [name:stanton-frank, name:califano-joseph-a-jr, name:mcnamara-robert-s, name:johnson-lyndon-b, name:king-martin-luther-jr]
     time_range:
       - 1967-07-25T04:00Z
@@ -2160,7 +2290,7 @@ entries:
     thread: civil-disorders
     also: [antisubversion]
     c: 'Hoover to Johnson, July 25, that King was implicated in a plan to destroy Chicago''s Loop; July 26, on Eisenhower''s charge of a "pattern of insurrection." Johnson to the Cabinet, Aug. 2: "I don''t want to foreclose the conspiracy theory now."'
-    n: '[[w.branch-at-canaans-edge]], 633. To check: Hoover to Tolson et al., 12:06 p.m., July 26, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 633); New York Times, July 27, 1967, p. 17 (cited by [[w.branch-at-canaans-edge]], 633); Hoover to Tolson et al., 10:35 a.m., July 25, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 633); enciphered Teletype from Hoover to LBJ, DIA, WH Situation Room, 3:05 p.m., July 25, 1967, FK-NR (cited by [[w.branch-at-canaans-edge]], 633); Hoover to LBJ, 5:30 p.m., July 31, 1967, Box 32, OFMS, LBJ (cited by [[w.branch-at-canaans-edge]], 633); [[w.garrow-bearing-the-cross]], 570 (cited by [[w.branch-at-canaans-edge]], 633); Minutes of Cabinet meeting, Aug. 2, 1967, Cabinet Papers, Box 9, LBJ (cited by [[w.branch-at-canaans-edge]], 633). See [[cal.1967-07-25.king]]. Names: Hoover, Johnson, King, Eisenhower.'
+    n: '[[w.branch-at-canaans-edge]], 633. To check: Hoover to Tolson et al., 12:06 p.m., July 26, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 633); [*New York Times*, July 27, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/27/issue.html), at 17 (cited by [[w.branch-at-canaans-edge]], 633); Hoover to Tolson et al., 10:35 a.m., July 25, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 633); enciphered Teletype from Hoover to LBJ, DIA, WH Situation Room, 3:05 p.m., July 25, 1967, FK-NR (cited by [[w.branch-at-canaans-edge]], 633); Hoover to LBJ, 5:30 p.m., July 31, 1967, Box 32, OFMS, LBJ (cited by [[w.branch-at-canaans-edge]], 633); [[w.garrow-bearing-the-cross]], 570 (cited by [[w.branch-at-canaans-edge]], 633); Minutes of Cabinet meeting, Aug. 2, 1967, Cabinet Papers, Box 9, LBJ (cited by [[w.branch-at-canaans-edge]], 633). See [[cal.1967-07-25.king]]. Names: Hoover, Johnson, King, Eisenhower.'
     src:
       c: cd3d46fc
       rows:
@@ -2212,13 +2342,26 @@ entries:
     time_band: workday afternoon
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-07-25.civil-disorders-4
+    when: July 25
+    date: '1967-07-25'
+    thread: civil-disorders
+    also: [robert-kennedy]
+    c: New York, violence in Spanish Harlem since July 23. After dinner with Schlesinger, Pete Hamill and José Torres, Robert and Ethel Kennedy drive with them through the streets of East Harlem, shuttered, police on each corner.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 797. To check: José Torres, interview by Jean Stein, Aug. 6, 1968, 2–4 (cited by [[w.schlesinger-robert-kennedy-and-his]], 797 n.93). Names: Robert Kennedy, Schlesinger.'
+    src:
+      c: b006a2bd
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 797: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 797 n.93: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
   - id: cal.1967-07-26.civil-rights-organizations
     when: July 26
     date: '1967-07-26'
     thread: civil-rights-organizations
     also: [civil-disorders, king]
     c: 'King, Randolph, Wilkins and Young, a joint statement on the riots: the killing, arson and looting criminal and to be dealt with so; the riots harmful to Negroes; Congress to act on jobs and housing (Check the terms and the date).'
-    n: '[Johnson and Hoover, 10:33 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-july-25-1967), July 25, Conversation WH6707-01-12005 (Miller Center). [[w.garrow-bearing-the-cross]], 571. To check: [[w.branch-at-canaans-edge]]; King, "Statement . . .," July 26, 1967, King Papers, King Center; Chicago Daily News, July 27, 1967, 6 (cited by [[w.garrow-bearing-the-cross]], 571 n.51). Check: Garrow, 571, has the statement Randolph''s and Wilkins''s, King''s name put to it without his seeing it. Names: Martin Luther King, Randolph, Wilkins, Young.'
+    n: '[Johnson and Hoover, 10:33 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-july-25-1967), July 25, Conversation WH6707-01-12005 (Miller Center). [[w.garrow-bearing-the-cross]], 571. To check: [[w.branch-at-canaans-edge]]; King, "Statement . . .," July 26, 1967, King Papers, King Center; *Chicago Daily News*, July 27, 1967, at 6 (cited by [[w.garrow-bearing-the-cross]], 571 n.51). Check: Garrow, 571, has the statement Randolph''s and Wilkins''s, King''s name put to it without his seeing it. Names: Martin Luther King, Randolph, Wilkins, Young.'
     src:
       c: dead82f8
       rows:
@@ -2320,7 +2463,7 @@ entries:
     time: 1967-07-28T02:30Z
     thread: civil-disorders-kerner
     c: 'Johnson''s address on civil disorders, 10:30 p.m. "We have endured a week such as no nation should live through." A National Advisory Commission on Civil Disorders: Kerner chairman, Lindsay vice chairman; Fred Harris and Brooke of the Senate, Corman and McCulloch of the House; Abel of the Steelworkers, Thornton of Litton Industries, Wilkins of the NAACP, Peden of Kentucky''s Commerce Department, Jenkins, Atlanta''s chief of police. The looting and arson "not part of the civil rights protest"; new riot-control training for the National Guard; the FBI to look for evidence of conspiracy; the House''s defeat of the rat bill and the cut in model cities funds named. A day of prayer, July 30.'
-    n: 'The President''s Address to the Nation on Civil Disorders, [1967 Pub. Papers 721](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=113) (July 27, 1967). [Johnson and Lindsay, 5:02 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-lindsay-july-27-1967), July 27, Conversation WH6707-01-12009 (Miller Center). [[w.califano-triumph-and-tragedy-of]], 219–20 (decided that day; Califano against; Kerner chosen to be controlled; Ginsburg called back from Seattle; "if we should settle for order that is imposed by the muzzle of a gun"); [[w.branch-at-canaans-edge]], 633 ("We deplore the few who rely upon words and works of terror"); [[w.bernstein-guns-or-butter]], 419. To check: [[w.report-of-the-national]]; [[w.gillon-separate-and-unequal]]; [[w.barnhart-kerner]]; [[w.harris-potomac-fever]]; [[w.cannato-ungovernable-city]]; [[w.flamm-law-and-order]]; [[w.mclaughlin-long-hot-summer-of]]; New York Times, July 28, 1967, rojop MG WL (cited by [[w.branch-at-canaans-edge]], 633); New York Times, July 29, 1967, p. 24 (cited by [[w.branch-at-canaans-edge]], 633); "U.S. Combat Loss in Vietnam Drops to Six-Month Low," NYT, Aug. 4, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 633). Names: Kerner, Lindsay, Harris, Brooke, Corman, McCulloch, Abel, Thornton, Wilkins, Peden, Jenkins, Johnson.'
+    n: 'The President''s Address to the Nation on Civil Disorders, [1967 Pub. Papers 721](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=113) (July 27, 1967). [Johnson and Lindsay, 5:02 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-lindsay-july-27-1967), July 27, Conversation WH6707-01-12009 (Miller Center). [[w.califano-triumph-and-tragedy-of]], 219–20 (decided that day; Califano against; Kerner chosen to be controlled; Ginsburg called back from Seattle; "if we should settle for order that is imposed by the muzzle of a gun"); [[w.branch-at-canaans-edge]], 633 ("We deplore the few who rely upon words and works of terror"); [[w.bernstein-guns-or-butter]], 419; [[w.zaroulis-who-spoke-up]], 120 (July 27, after four days of rioting in Detroit: Johnson announces a commission chaired by Governor Kerner; the address quoted); [[w.dallek-flawed-giant]], 415 (the televised address; the commission under Kerner, Lindsay vice chairman; the House''s ridicule of the rat bill as a "civil rats bill"; not the hour, the other members, the Guard, the FBI, the day of prayer or the House''s defeat of the bill). To check: [[w.report-of-the-national]]; [[w.gillon-separate-and-unequal]]; [[w.barnhart-kerner]]; [[w.harris-potomac-fever]]; [[w.cannato-ungovernable-city]]; [[w.flamm-law-and-order]]; [[w.mclaughlin-long-hot-summer-of]]; [*New York Times*, July 28, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/28/issue.html), rojop MG WL (cited by [[w.branch-at-canaans-edge]], 633); [*New York Times*, July 29, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/29/issue.html), at 24 (cited by [[w.branch-at-canaans-edge]], 633); "U.S. Combat Loss in Vietnam Drops to Six-Month Low," [*New York Times*, Aug. 4, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/04/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 633). Names: Kerner, Lindsay, Harris, Brooke, Corman, McCulloch, Abel, Thornton, Wilkins, Peden, Jenkins, Johnson.'
     src:
       c: 310c952d
       rows:
@@ -2332,6 +2475,8 @@ entries:
         - 'via x.1967-07-29.new-york-times-july-29-1967: A-C'
         - 'via x.1967-08-04.u-s-combat-loss-in-vietnam: A-C'
         - 'w.bernstein-guns-or-butter 419: A'
+        - 'w.zaroulis-who-spoke-up 120: ?'
+        - 'w.dallek-flawed-giant 415: ?'
     tags: [name:johnson-lyndon-b, name:kerner-otto, name:lindsay-john-v, name:harris-fred-r, name:brooke-edward-w, name:corman-james-c, name:mcculloch-william-m, name:abel-i-w, name:thornton-charles-b, name:wilkins-roy, name:peden-katherine-graham, name:jenkins-herbert, name:hoover-j-edgar]
     short: the address of July 27 and the Kerner Commission
   - id: cal.1967-07-27.civil-disorders-detroit
@@ -2380,7 +2525,7 @@ entries:
     thread: civil-rights-organizations
     also: [civil-disorders, black-nationalism]
     c: 'Washington, the Church of the Incarnation. Rap Brown, out on bail: "Violence is necessary. It is as American as cherry pie"; "I might shoot Lady Bird." Carmichael, arriving in Havana as Castro''s guest: "We are preparing groups of urban guerillas for our defense in the cities."'
-    n: '[[w.branch-at-canaans-edge]], 633–34. To check: [[w.carson-in-struggle]], 253–56 (cited by [[w.branch-at-canaans-edge]], 633); "An Affable but Angry Rights Leader: Hubert Geroid Brown," NYT, July 28, 1967, p. 14 (cited by [[w.branch-at-canaans-edge]], 633); "Burning Capital Urged, if Needed," NYT, July 28, 1967, peulet: (cited by [[w.branch-at-canaans-edge]], 633); "Burning Capital Urged, if Needed," NYT, July 28, 1967, peulet: (cited by [[w.branch-at-canaans-edge]], 633); Kabaservice, *The Guardians* (2004), 344 (cited by [[w.branch-at-canaans-edge]], 633); Hoover to Tolson et al., 10:16 a.m., July 26, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 634); FBI HQ LHM dated July 28, 1967, Box 73b, OFMS, LBJ (cited by [[w.branch-at-canaans-edge]], 634). See [[cal.1967-07-24.civil-disorders]]. Names: H. Rap Brown, Carmichael, Castro.'
+    n: '[[w.branch-at-canaans-edge]], 633–34; [[w.white-making-of-the-president-1969]], 205 (Brown, in Washington, D.C.: "I say there should be more shooting than looting, so if you loot, loot a gun store"; Carmichael, "from Cuba," "alleged to have said": "We are preparing groups of urban guerrillas for our defense in the cities"; White''s version has a first sentence on Newark; no days, not the church or the cherry pie). To check: [[w.carson-in-struggle]], 253–56 (cited by [[w.branch-at-canaans-edge]], 633); "An Affable but Angry Rights Leader: Hubert Geroid Brown," [*New York Times*, July 28, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/28/issue.html), at 14 (cited by [[w.branch-at-canaans-edge]], 633); "Burning Capital Urged, if Needed," [*New York Times*, July 28, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/28/issue.html), peulet: (cited by [[w.branch-at-canaans-edge]], 633); "Burning Capital Urged, if Needed," [*New York Times*, July 28, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/28/issue.html), peulet: (cited by [[w.branch-at-canaans-edge]], 633); Kabaservice, *The Guardians* (2004), 344 (cited by [[w.branch-at-canaans-edge]], 633); Hoover to Tolson et al., 10:16 a.m., July 26, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 634); FBI HQ LHM dated July 28, 1967, Box 73b, OFMS, LBJ (cited by [[w.branch-at-canaans-edge]], 634). See [[cal.1967-07-24.civil-disorders]]. Names: H. Rap Brown, Carmichael, Castro.'
     src:
       c: a53dcaf6
       rows:
@@ -2391,6 +2536,7 @@ entries:
         - 'via x.2004.kabaservice-geoffrey-the-guardians-kingman-brewster: all'
         - 'via x.1967-07-26.hoover-to-tolson-et-al-10: all'
         - 'via x.1967-07-28.fbi-hq-lhm-dated-july-28: all'
+        - 'w.white-making-of-the-president-1969 205: ?'
     tags: [name:brown-h-rap, name:carmichael-stokely, name:castro-fidel]
   - id: cal.1967-07-27.vietnam-operations
     when: July 27
@@ -2463,6 +2609,18 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1967-07-27.vietnam-commitments
+    when: July 27
+    date: '1967-07-27'
+    thread: vietnam-commitments
+    c: 'Marcy to Newhouse of the Foreign Relations staff, of Fulbright''s national commitments resolution: "This could be a pretty important statement." "[T]he break between JWF and LBJ openeth again."'
+    n: '[[w.woods-j-william-fulbright-vietnam]], 155. To check: Marcy to Newhouse, July 27, 1967, Marcy Papers, RG 46, National Archives (cited by [[w.woods-j-william-fulbright-vietnam]], 155 n.13). The resolution introduced: [[cal.1967-07-31.vietnam]]. Names: Marcy, Fulbright, Johnson.'
+    src:
+      c: 124867b4
+      rows:
+        - 'w.woods-j-william-fulbright-vietnam 155: all'
+        - 'via x.1967-07-27.marcy-to-newhouse: all'
+    tags: [name:marcy-carl, name:fulbright-j-william, name:johnson-lyndon-b]
   - id: cal.1967-07-28.crime-and-hijacking-ca
     when: July 28
     date: '1967-07-28'
@@ -2970,19 +3128,6 @@ entries:
         - 'w.thomas-robert-kennedy 352: all'
         - 'via w.thomas-robert-kennedy 352 n.visiting-reservations: all'
     tags: [name:kennedy-robert-f]
-  - id: cal.1967-07.robert-kennedy-2
-    when: July
-    date: 1967-07
-    thread: robert-kennedy
-    also: [civil-disorders]
-    c: 'Robert Kennedy, watching Johnson speak on the riots, to Mankiewicz: "It''s over. The president''s not going to do anything anymore. ... He''s through with domestic problems, with the cities."'
-    n: '[[w.thomas-robert-kennedy]], 348–49. To check: Frank Mankiewicz, oral history, JFK Library (cited by [[w.thomas-robert-kennedy]], 467). See [[cal.1967-07-27.civil-disorders]]. Names: Robert Kennedy, Johnson, Mankiewicz. Check: the day; which of Johnson''s addresses.'
-    src:
-      c: 0802336e
-      rows:
-        - 'w.thomas-robert-kennedy 348-49: all'
-        - 'via w.thomas-robert-kennedy 349 n.its-over: all'
-    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:mankiewicz-frank]
   - id: cal.1967-07-31.economy
     when: July 31
     date: '1967-07-31'
@@ -3066,7 +3211,7 @@ entries:
     date: 1967-07
     thread: school-aid
     c: East Harlem, P.S. 155. Yarborough's bilingual hearing; Robert Kennedy and Badillo on the city's schools, no Puerto Rican a principal and few teachers. The bill for children "whose mother tongue is Spanish."
-    n: '[[w.graham-uncertain-triumph]], 156. Check: the day; "in late July." To check: *New York Times*, July 22, 1967 (cited by [[w.graham-uncertain-triumph]], 156 n.50). Names: Yarborough, Kennedy, Badillo.'
+    n: '[[w.graham-uncertain-triumph]], 156. Check: the day; "in late July." To check: [*New York Times*, July 22, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/22/issue.html) (cited by [[w.graham-uncertain-triumph]], 156 n.50). Names: Yarborough, Kennedy, Badillo.'
     src:
       c: 32e7b808
       rows:
@@ -3147,3 +3292,81 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 287: all'
     tags: [state:ma]
+  - id: cal.1967-07.mayors
+    when: July
+    date: 1967-07
+    thread: mayors
+    also: [king, elections-1967]
+    c: 'Cleveland, during Stokes''s campaign. A woman at a corner in the ghetto calls King an "Uncle Tom"; King has the car turned round and asks her and her friends to the Sheraton-Cleveland at three. There, to the women, on registering and voting: "We can get rid of this ghetto if we go to work politically."'
+    n: '[[w.young-easy-burden]], 436–37. Young''s account. Check: the month; Young gives only "during the mayoral campaign," SCLC''s staff in Cleveland from the summer of 1967. See [[cal.1967-10-03.mayors-cleveland]]. Names: Martin Luther King.'
+    src:
+      c: 73ac2a80
+      rows:
+        - 'w.young-easy-burden 436–37: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1967-07.defense-2
+    when: July
+    date: 1967-07
+    thread: defense
+    c: Margaret McNamara at Johns Hopkins Hospital, Baltimore, for ulcer operations, entered under an assumed name so the press would not say her husband left her for the trip to Vietnam the President had ordered. McNamara drives the forty miles to her each night; at the hospital he hears that McNaughton is dead.
+    n: '[[w.bernstein-guns-or-butter]], 355; [[w.drea-mcnamara-clifford-and-the-2011]], 173 (Margaret McNamara in the hospital for ulcers, July). To check: [[w.shapley-promise-and-power]] (cited by [[w.bernstein-guns-or-butter]], 355 n.8). Check: the days. See [[cal.1967-07-07.vietnam]]. Names: McNamara, McNaughton.'
+    src:
+      c: 4b71da17
+      rows:
+        - 'w.bernstein-guns-or-butter 355: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 173: A'
+    tags: [name:mcnamara-robert-s, name:mcnaughton-john-t]
+  - id: cal.1967-07.civil-disorders
+    when: July
+    date: 1967-07
+    thread: civil-disorders
+    also: [robert-kennedy]
+    c: 'After Johnson''s statement on Detroit, Robert Kennedy to Mankiewicz: "It''s over. The President is just not going to do anything more." As President he would have the networks run a two-hour documentary on the ghetto in prime time, and call each endangered city''s mayor, bankers, contractors, union men and ministers to the White House, one a day. "When I do, it''s a political speech."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 797–98; [[w.thomas-robert-kennedy]], 348–49 ("It''s over," watching Johnson speak on the riots; read otherwise, "The president''s not going to do anything anymore. ... He''s through with domestic problems, with the cities"; not the documentary or the mayors). Check: the day; after July 24. To check: Frank Mankiewicz, interview by L. J. Hackman, Aug. 12, 1969, 87; Mankiewicz and Tom Braden, *Washington Post*, Feb. 24, 1970 (cited by [[w.schlesinger-robert-kennedy-and-his]], 798 n.96); Mankiewicz, oral history, JFK Library (cited by [[w.thomas-robert-kennedy]], 467). See [[cal.1967-07-24.civil-disorders-detroit]]. Names: Johnson, Robert Kennedy, Mankiewicz.'
+    src:
+      c: a8582bc0
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 797–98: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 798 n.96: all'
+        - 'w.thomas-robert-kennedy 348-49: ?'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:mankiewicz-frank]
+    aliases: [cal.1967-07.robert-kennedy-2]
+  - id: cal.1967-07.vietnam-congress-2
+    when: July
+    date: 1967-07
+    thread: vietnam-congress
+    c: Fulbright writes an introduction and commentary for a life of Gandhi.
+    n: '[[w.woods-fulbright]], 440; [[w.woods-j-william-fulbright-vietnam]], 142 ("In the summer of 1967"; the master''s spiritualism the tocsin to call Americans back to their humanity and decency). Check: the month; Woods: "in the summer of 1967," citing letters with Thomas C. Mulholland, Aug. 1 and 4, 1967 (440 n.5). Names: Fulbright.'
+    src:
+      c: 305b8e5a
+      rows:
+        - 'w.woods-fulbright 440: all'
+        - 'via x.1967-08-01.mulholland-fulbright-letters: all'
+        - 'w.woods-j-william-fulbright-vietnam 142: A'
+        - 'via x.1967-08-01.mulholland-fulbright-letters: A'
+    tags: [name:fulbright-j-william]
+  - id: cal.1967-07.war-opposition-3
+    when: July
+    date: 1967-07
+    thread: war-opposition
+    c: Aspen, Colo. McNamara and his son Craig, back from a hike, find the house they have rented surrounded by a mob of chanting antiwar demonstrators; they duck out of sight, and soon fly home to Washington.
+    n: '[[w.mcnamara-in-retrospect]], ch. 10 between nn.25 and 26. McNamara''s account. The page adds that protesters had twice tried to burn his house under construction at Snowmass Village (no days). Check: the day; he places it after his wife''s operation of "early July" and the climb of the Grand Teton, while Aubrac and Marcovich were in Hanoi (they left July 26), before the Tuesday Lunch of Aug. 8. Names: McNamara.'
+    src:
+      c: 788d496e
+      rows:
+        - 'w.mcnamara-in-retrospect ch. 10 at nn.25-26: all'
+    tags: [name:mcnamara-robert-s, state:co, city:aspen]
+  - id: cal.1967-07-31.civil-disorders-detroit
+    when: July 31
+    date: '1967-07-31'
+    thread: civil-disorders-detroit
+    c: 'Truman Balcony, 8 p.m.: Abe and Carol Fortas and Oveta Hobby with the Johnsons have "a lengthy exploration of the riots in Detroit": Romney''s statements and telegrams and later his press conference, Johnson''s speech of Thursday night, Cyrus Vance''s presence, the constitutional ramifications, "the ''1, 2, 3'' process" by which a Governor gets federal help, and the fourteen or more times in the nation''s history it was asked or sometimes refused.'
+    n: '[[w.johnson-white-house-diary]], 549 (Mrs. Johnson''s account). Made public: 1970. Names: Lady Bird Johnson, Johnson, Fortas, Hobby, Romney, Vance.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:fortas-abe, name:hobby-oveta-culp, name:romney-george-w, name:vance-cyrus, city:detroit, state:mi]
+  - id: cal.1967-07-31.elections-1968-johnson
+    when: July 31
+    date: '1967-07-31'
+    thread: elections-1968-johnson
+    c: 'Lady Bird Johnson''s diary, on what has been on her mind "over the weekend," after a Sunday poll showing "a distinct downward trend" in approval of Johnson''s handling of the war: "Our own decision, our hope, our determination, is to leave when this term ends." When to tell it: "in the fall, as John Connally suggested? Or not until March 1968—my own idea?"'
+    n: '[[w.johnson-white-house-diary]], 549–50 (Mrs. Johnson''s account; Connally''s suggestion undated). Made public: 1970. Names: Lady Bird Johnson, Johnson, Connally.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:connally-john]

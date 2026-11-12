@@ -56,22 +56,46 @@ The merge's dry run flags 23 of them as "possible duplicate" of an entry on the 
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 11, 2026 (batch 8, b8-clifford; patch `inbox/2026-11-11-b8-clifford.yaml`: 3 entries, 25 cites (one narrowing an existing map row), 3 variants, 4 checks; read off the owner's copy, pp. 316, 344, 375–78, 397–402, 411–22, 436–37, 453, 456–59, 468, 472–73, 476, 479, 486–89, 501–02, 547, 574 and note 7 on 687 checked on the page images where a number, date or quotation is cited). Each row's ruling:
+
+| page | rows | ruling |
+|---|---|---|
+| 316 | Kennedy nominated | cited under cal.1960-07-13.elections-1960 (the first ballot, 806, 409, 86; not Wyoming, Stevenson's total or 761) |
+| 344 | Kennedy's press conference on Laos | cited under cal.1961-03-23.laos (A) |
+| 375–78 | White; Blough; the press conference; the Carlyle | White (cal.1962-03-30.court) and Blough (cal.1962-04-10.steel) already cited; cited under cal.1962-04-11.steel (the press conference, not the words), cal.1962-04-13.steel and cal.1962-04-13.steel-4 (the Carlyle; Check on -4: no luncheon, no Worthington) |
+| 397–402 | The correspondents; Jenkins | the vice-presidential statement (cal.1964-07-30.elections-1964) and the Jenkins entry (cal.1964-10-14.elections-1964) already cited; cited under cal.1964-07-31.robert-kennedy (Check: the day, July 30, and a telephone protest), cal.1964-10-14.elections-1964-5, -4 (variant on B: "had reached") and cal.1964-10-14.republican-party (variant on A: Burch at 6 p.m., the words); entered as cal.1964-10-14.elections-1964-jenkins (the editors asked to hold the story) |
+| 411–22 | The July meetings | already cited (cal.1965-07-21 to -25 and -28.vietnam, pinned); cited under cal.1965-07-26.vietnam-july-decision (421) |
+| 421 | Clifford repeats his case; the SAM sites | already cited under cal.1965-07-25.vietnam (418–22); the evening council of July 26 entered as cal.1965-07-26.vietnam-air-war-2; not borne out for cal.1965-07-27.vietnam-2 (the page gives the discussion, not the strike) |
+| 436–37 | The pause decided; the resumption | variant on cal.1965-12-18.vietnam-pause (H: "the next day," Dec. 19; the Check there already notes FRUS has no meeting); cited under cal.1966-01-29.vietnam-pause and cal.1966-01-31.vietnam |
+| 453 | San Antonio | cited under cal.1967-09-29.vietnam; Check: Clifford dates the speech Sept. 27 |
+| 456–59 | McNamara before Stennis; Katzenbach's memorandum; the World Bank | cited under cal.1967-08-25.vietnam-air-war, cal.1967-09-01.vietnam (D), cal.1967-11-16.vietnam, cal.1967-11-13.defense-clifford (C), cal.1967-11-27.defense-clifford; the nomination (cal.1967-11-29.defense) and the memorandum of Nov. 1 already cited |
+| 468 | Rostow's memorandum | cited under cal.1967-11-15.vietnam-order-of-battle (the memorandum of November 1967 on the intelligence debate; not the day or the findings) |
+| 469, 472–73, 476, 486–89 | the Chiefs on Khe Sanh; the lunch; Lang Vei; McNamara's medal and departure; Clifford sworn | already cited (cal.1968-01-29.vietnam-khe-sanh, cal.1968-01-30.vietnam, cal.1968-02-28.defense, cal.1968-03-01.transition-and-staff); cited under cal.1968-02-07.vietnam (Lang Vei, 476) |
+| 479 | The Marines clear the Citadel | cited under cal.1968-02-24.vietnam; Check: Clifford has it the afternoon of Feb. 25 (the Check in cal.1968-02-25.vietnam-205000 stands) |
+| 501–02 | The *Times*' story; Johnson's anger; Rusk's testimony; New Hampshire | the story (cal.1968-03-10.vietnam) already cited; Johnson's call entered as cal.1968-03-11.vietnam-205000-2; cited under cal.1968-03-11.vietnam (Rusk) and cal.1968-03-12.elections-1968 (49 to 42 percent) |
+| 547 | The reply to Kosygin | already cited under cal.1968-06-11.vietnam-paris (A-B); the map row narrowed to "?" (the page has the noncommittal message asking what would happen if the bombing stopped; not Dobrynin, Rusk, June 9 or the words) |
+| 574 | Kissinger to Mitchell | cited under cal.1968-10-12.elections-1968 (Oct. 12, a strong probability the bombing would stop; n.7 from Nixon's and Kissinger's memoirs; not Oct. 23 or the words) |
+
+Where batch 8 stopped: all 15 rows read; nothing left over.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-clifford-counsel; done Nov. 10–11). The rows ruled social, family, private, out of the brief (the restoration), a draft or an office's routine were read again off the owner's copy (Drive `1d7lxKGFK6pm_Z4EdbKV645yd3Yyyszvw`, the same offsets; pp. 364 and 565 checked on the page images); each row's ruling below. Patch `inbox/2026-11-06-b6-clifford-counsel.yaml` (12 entries, a new thread `white-house`, 1 cite); witnesses `inbox/witnesses/2026-11-06-b6-clifford-counsel.yaml` (Mrs. Kennedy's three letters as the memoir quotes them), edges in the by-work file. The rows ruled already in, out of the span, a lead, a news story or a repetition stand as they were.
+
 How the list was made: every dated event chs. 18–31 treat, listed page by page while reading (pp. 313–610), against the calendar's entries of the day and the pending patches; what was not entered is here. Revised after the owner's ruling of Oct. 28, late: the rows it calls entries are now entered (the next section); these remain.
 
 | page | date | event | why |
 |---|---|---|---|
 | 316 | 1960-07-13 | Kennedy nominated, 806 votes | already in (the nomination) |
 | 344 | 1961-03-23 | Kennedy's press conference on Laos | already in |
-| 346–47 | 1961-01-21 | The Alfalfa Club dinner | social, no bearing |
-| 361–68 | 1961–63 | The Georgetown house, Glen Ora; the White House restoration, the Fine Arts Committee (Feb. 23, 1961), the Historical Association (Nov. 3, 1961), Mrs. Kennedy's letters | out of the brief (the house's restoration); family and private |
+| 346–47 | 1961-01-21 | The Alfalfa Club dinner | re-ruled: entered as cal.1961-01-21.transition-and-staff (347–48; a social occasion among the principals, Kennedy's remarks on the transition) |
+| 361–68 | 1961–63 | The Georgetown house, Glen Ora; the White House restoration, the Fine Arts Committee (Feb. 23, 1961), the Historical Association (Nov. 3, 1961), Mrs. Kennedy's letters | re-ruled: the restoration entered, a new thread `white-house` (White House restoration): the lunch of Feb. 6, 1961, cal.1961-02-06.white-house (363–64); the Fine Arts Committee, cal.1961-02-23.white-house (364); the Historical Association, cal.1961-11-03.white-house (366); Mrs. Kennedy's letter of Jan. 15, 1962, cal.1962-01-15.white-house (365); her note on Friendly and the *Post*, May 1962, cal.1962-05.white-house (365–66); her letter of Nov. 3, 1963, cal.1963-11-03.white-house (367–68). Still passed over: the sale of the Georgetown house, 361–62 (family and social matters with no bearing on public business: the family's property). Glen Ora's lease, 362–63: a lead (no month: "at about the same time" as the sale) |
 | 375–78 | 1962-03-30, 04-10, 04-11, 04-13 | White named; Blough; the press conference; the Carlyle | already in |
 | 389 | 1961–63 | Johnson's slights as Vice President | undated (no month given) |
-| 392 | 1964-02-28 | Lady Bird Johnson and Mrs. Kennedy on the Historical Association | out of the brief |
+| 392 | 1964-02-28 | Lady Bird Johnson and Mrs. Kennedy on the Historical Association | re-ruled: entered as cal.1964-02-28.white-house (391–92) |
 | 394 | 1964 | Lady Bird Johnson's memorandum urging him to run | undated (no month given; a lead: her diary) |
-| 395 | 1964, early | Clifford's four-to-one bet on Goldwater at a family dinner | family and social |
+| 395 | 1964, early | Clifford's four-to-one bet on Goldwater at a family dinner | re-ruled: entered as cal.1964-01.elections-1964-goldwater-2 (said in private about politics; Check: the day) |
 | 397–402 | 1964-07-30, 10-14 | The correspondents; Jenkins | already in |
 | 411–22 | 1965-07-21–28 | The July meetings | already in (pinned) |
-| 416 | 1965-07-22 | Clifford reads Ball's memoranda to 2 a.m. | an office's routine |
+| 416 | 1965-07-22 | Clifford reads Ball's memoranda to 2 a.m. | re-ruled, still passed over: a meeting's preparation (R18, the passed-over papers) |
 | 421 | 1965-07-26 | Clifford repeats his case; the SAM sites | already in (`cal.1965-07-25.vietnam`, `cal.1965-07-27.vietnam-2`) |
 | 436 | 1965-12-18 | Johnson's note to Clifford ("Magnificent ...") | already in (part of `cal.1965-12-18.vietnam-pause`, pinned 434–36) |
 | 436–37 | 1965-12-19, 1966-01-29, 01-31 | The pause decided; the resumption | already in |
@@ -86,13 +110,13 @@ How the list was made: every dated event chs. 18–31 treat, listed page by page
 | 479 | 1968-02-25 | The Marines clear the Citadel | already in (`cal.1968-02-24.vietnam`; Check in `cal.1968-02-25.vietnam-205000`) |
 | 501–02 | 1968-03-10, 11–12 | The *Times*' story; Johnson's anger; Rusk's testimony; New Hampshire | already in |
 | 536 | 1968-04 | Sheehan's piece in the *Times* | out of the brief (a news story, no act) |
-| 546 | 1968-06-08 | Clifford at the burial | social |
+| 546 | 1968-06-08 | Clifford at the burial | re-ruled: cited under cal.1968-06-08.robert-kennedy (546, unit D: the burial at Arlington; Clifford there) |
 | 547 | 1968-06-09, 11 | The reply to Kosygin | already in |
 | 557–59 | 1968–69 | Goodwin and Yergin's article; Fortas's resignation | out of the span |
 | 564 | 1968-08 | Johnson's call to Humphrey on the plank | a lead (check `cal.1968-08-26.elections-1968-chicago`) |
-| 565 | 1968-08-25 | The Chicago speech drafted with Califano and McPherson | a draft not sent |
+| 565 | 1968-08-25 | The Chicago speech drafted with Califano and McPherson | re-ruled (the owner's ruling, Nov. 10: a principal's drafting of a speech is the informal record): entered as cal.1968-08-25.elections-1968-chicago-11; and McPherson's trip to California the week before to edit the convention film, told Clifford that day, entered as cal.1968-08.elections-1968-chicago-3 (Check: the days) |
 | 574 | 1968-10-12 | Kissinger to Mitchell (n.7, from the memoirs) | already in (the Chennault and Kissinger entries) |
-| 593, 595 | 1968-10-31, 11-05 | Dinner at Paul Young's; lunch with Nitze and Westmoreland, routine business | social; an office's routine |
+| 593, 595 | 1968-10-31, 11-05 | Dinner at Paul Young's; lunch with Nitze and Westmoreland, routine business | re-ruled: the dinner entered as cal.1968-10-31.vietnam-paris-3 (a social occasion among the principals of the halt); the lunch of Nov. 5 still passed over: a unit's routine the work does not treat as an event ("routine business", no matter named) |
 | 602 | 1968-11-09 | Elsey on the rumors that Clifford would stay | minor (a repetition of the rumors) |
 
 ## Entered (the owner's ruling, Oct. 28, late)
@@ -175,6 +199,7 @@ The dry run flags 33 of them "possible duplicate" (same day or month, same threa
 - Foreign: Bunker's personal message of May 23, 1968, on regression in the hamlets (Clifford, 540): FRUS VI.
 - Foreign: Kỳ to Bunker, Nov. 6, 1968, two months to settle the format (Clifford, 599); Bunker's report on Thiệu's objections, Oct. 17, 1968 (578).
 - National: some fifty FRUS papers from or to Clifford as Secretary (VI, VII, X, XI, XII, XIX, XX, XXII, XXVIII, XXIX, XXXIII; 1964–68) are in the daybook and in no calendar entry: Hoopes's memorandum of Mar. 14 (VI, doc. 126), Clifford's of Mar. 15 (VI, doc. 129), Wheeler's of Mar. 20 (VI, doc. 144), Clifford's staff meeting of May 20 (VI, doc. 238), the telephone call of Nov. 23 (VII, doc. 231), the PFIAB papers of 1964 (XXXIII, docs. 188, 200, 201, 207) among them. Under the owner's ruling they are entries; this run entered only those the book treats.
+- National (batch 6): the Kennedys' lease of Glen Ora, near Middleburg, Va., negotiated by Clifford with Gladys Tartiere, two years (Clifford, 362–63): no month given; the press of early 1961.
 
 ## Witnesses (Nov. 4, 2026, batch 3 resumed: b3-clifford-2)
 

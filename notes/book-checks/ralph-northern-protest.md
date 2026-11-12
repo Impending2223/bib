@@ -182,6 +182,8 @@ Overlaps with the readers of Anderson and Pickering and of Cohen and Taylor: whe
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
+
 Made by the reading above: each dated event within the span the book treats, not entered, with R18's ground or as a lead (R50). The owner rules.
 
 | Page | Date | Event | Why |
@@ -198,6 +200,19 @@ Made by the reading above: each dated event within the span the book treats, not
 | 165 | 1966-08 | Monsignor Kelly in the *New World*; Professor Kurland | Press below R13's reach; a scholar's comment (for the owner) |
 | 205 | 1967-01 | The "Vote-A-Baloo" show; the blizzard | Minor: the drive's routine |
 | 206 | 1966-11 to 1967 | Cook's $25,000 of seed money; Spacek's $100,000; the UAW's $2,000 | Lead: not dated |
+
+## Batch 6: the rows re-ruled (Nov. 10–11, 2026)
+
+The owner's copy again (Drive 13Vnlssr2f9dU8iSlrmVEaGI-FxHdpW_w, by the direct route into the scratchpad; deleted after): printed page = PDF page − 18 held (pp. 54, 146 and the note pages 257–58, 289 read on their images as well as the text). Patch `inbox/2026-11-06-b6-ralph-northern.yaml` (3 entries added); witnesses `inbox/witnesses/2026-11-06-b6-ralph-northern.yaml` (6 rows); 7 edges appended to `sources/witnesses/by-work/ralph-northern-protest.yaml` (54 n.30a–d; 146 n.49a–c, the edge already there at 146 n.49, Cody's statement of Aug. 10, being the note's fifth record). Re-ruled: the rows ruled private remarks, or a meeting with nothing of its matter.
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 54 | Nov. 1965, mid | the inner-city staff meeting, Bevel absent | entered, `cal.1965-11.king-2`: the questions put and Robinson's "The Movement must make up its mind" (R7: said in private about public business; Check: the day) |
+| 54 | Nov. 1965 | the CCCO delegate's complaint | entered, `cal.1965-11.civil-rights-organizations` (Check: the day) |
+| 146 | July 1966, late | Cody's indignation, through Egan, at the vigils at St. Gall's | entered, `cal.1966-07.open-housing-4` (Check: the day) |
+| 142 | Aug. 1966 | Marciniak's and Wilson's complaints | still passed over: a repetition (R18) |
+| 17, 205 | Mar. 1962; Jan. 1967 | the seminar; the "Vote-A-Baloo" show and the blizzard | not this batch's ground (not private, social or a draft) |
+| 144, 165 | Aug. 1966 | Janowitz and Hauser; Kelly and Kurland | not this batch's ground: the academics' and the *New World*'s comment, for the owner as before. The notes date them: Janowitz to the *Sun-Times*, Aug. 7, 1966, 50; Hauser in the *Chicago Maroon*, Aug. 12, 1966, 1 (144 n.43) |
 
 ## Not yet entered (where the run stopped)
 

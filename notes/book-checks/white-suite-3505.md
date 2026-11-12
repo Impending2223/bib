@@ -42,6 +42,19 @@ None of this patch's new entries is added in another pending patch (compared by 
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`; the copy: the owner's Drive scan, printed page = PDF page − 2, read on the page image at 366).** Rows ruled:
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 145–49 | already cited | `cal.1963-04-28.opinion-5` (145–46), `cal.1963-05-26.opinion-5` (148–49, with the Checks on 40 to 29), `cal.1963-05-02.*`, `-05-03`, `-05-04`, `-05-08`, `-05-09` |
+| 243 | already cited | `cal.1963-10-30.democratic-party` (243; variant on D stands) |
+| 258 | already cited | `cal.1963-11-27.succession` |
+| 366–67 | already cited; cited; variant; entered | `cal.1964-06-08.elections-1964-scranton` (366–67), `.goldwater-2` (367), `.elections-1964` (367–68); cite on `cal.1964-06-07.elections-1964-3` (366, units A, B, C, F) with a variant on D ("wait and see"); entered `cal.1964-06-07.elections-1964-scranton` (Romney: "Where are his principles?", 366) |
+
+Where batch 9 stopped: all four rows done.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 Made from the running notes kept page by page through the whole book (every dated event, with its page and the ruling), and checked again against the owner's rules on the parties and the members, on papers (Oct. 28) and on what is an entry (Oct. 28, late). What the first table passed and the late ruling calls an entry is now under "Entered" below.
 
 | page | date | event | why |
@@ -228,3 +241,22 @@ Passed over, this run (the first run's rows stand, as revised here):
 ## Leads, this run
 
 National: Part III entries proposed (R13) for Walter Trohan (*Chicago Tribune*), Jack Steele (Scripps-Howard), Victor Riesel (labor columnist), John S. Knight (*Detroit Free Press*, the Knight papers), Richard Bergholz (*Los Angeles Times*), Carlton Kent (*Chicago Sun-Times*), each treated by White, *Suite 3505*, at the pages above. Lee Minton (Glass Bottle Blowers, AFL-CIO vice president): no name entry; Riesel's column of Sept. 16, 1963.
+
+## Batch 6 (Nov. 6, 2026, run Nov. 10–11; 2026-11-06-b6-white-suite-3505)
+
+The first table's rows passed over as social, personal, an anecdote or of no bearing, ruled again under R18 as amended Nov. 6. Patch `inbox/2026-11-06-b6-white-suite-3505.yaml`: 3 new entries (claimed in the ledger). No witnesses: the passages rest on White's own account, their notes naming no record.
+
+The copy: the same Drive file (19tJFKPq_l9L0hbpkrvXeh15Um2p-ztX6), by the direct route, 456 PDF pages, printed page = PDF page − 2 (the folios on pp. 68–70, 142, 200, 206, 285 agree). Deleted at the end.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 69 | June 1962 | Seattle: the breakfast at the Space Needle with the Melichs, White's birthday | already in: cal.1962-06.goldwater (White with Melich at the meeting's end), 69 cited |
+| 69 | June 20, 1962 | the job offer to White, refused | entered: cal.1962-06-20.goldwater (a career in politics: White stays with the draft, its money running out) |
+| 142–43 | Oct. 4, 1963 | the emergency landing at LaGuardia | passed over: an accident of travel, with no bearing on public business |
+| 157 | 1963 | a Pittsburgh beauty-shop owner's thousand signatures | a lead: the draft's petitions, no month given |
+| 200 | Sept. 1963, early fall | Kitchel, Goldwater and a Senator on the plane, talking politics | entered: cal.1963-09.goldwater-6 (Check: the Senator unnamed) |
+| 206 | 1960 | the Kitchels' Birch membership, "ten days or two weeks" | a lead: 1960, no month (Shadegg's *What Happened to Goldwater?* (1965), cited 206 n.2, may date it) |
+| 271–72, 276 | Jan.–Feb. 1964 | the staff's anecdotes (Kleindienst and Suzie Galvin; the Goldwater recipe) | passed over: an office's routine, with no bearing on public business |
+| 285–86 | Jan. 9, 1964 | Pease Air Force Base: the door slammed on a major | entered: cal.1964-01-09.goldwater-4 (an incident of the tour that White treats as an event, R16) |
+
+Leads (National): the Draft Goldwater petitions in Pittsburgh, 1963 (White 157), no month; Denison Kitchel's membership in the John Birch Society, 1960 (White 206; Shadegg, 1965), no month.

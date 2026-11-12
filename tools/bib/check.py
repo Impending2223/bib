@@ -411,6 +411,10 @@ def run(series, only=None):
     from . import state_law
     for where, msg in state_law.problems():
         add(ERROR, where, msg, "state-law")
+    # the polls' hours and daylight time (sources/poll-hours.yaml, sources/daylight-time.yaml; tools/bib/pollhours.py)
+    from . import pollhours
+    for where, msg in pollhours.problems():
+        add(ERROR, where, msg, "poll-hours")
     # the witnesses: what each claim rests on, to its roots (sources/witnesses/; tools/bib/witnesses.py)
     from . import witnesses
     werrs, wwarns = witnesses.problems(series)
@@ -425,6 +429,11 @@ def run(series, only=None):
         add(ERROR, where, msg, "claims")
     for where, msg in warns:
         add(WARN, where, msg, "claims")
+    # each claim's visibility: whose record, who knew, from when (sources/provenance.yaml, sources/polities.yaml;
+    # tools/bib/vis.py): warnings only, never an error, so the site still deploys (the spec, §9.1)
+    from . import vis
+    for where, msg in vis.problems(series):
+        add(WARN, where, msg, "vis")
     # the Executive Branch (executive/*.yaml)
     from . import executive
     for where, msg in executive.problems(series):
@@ -453,6 +462,8 @@ def run(series, only=None):
         add(ERROR, where, msg, "ppp")
     for where, msg in warns:
         add(WARN, where, msg, "ppp")
+    for where, msg in ppp.app_problems():  # a Papers link's item, for its APP document (ppp.py, STYLE 5)
+        add(WARN, where, msg, "ppp-app")
     # the President's Daily Diary (daybook/diary.yaml, tools/daybook/make_daily_diary.py; tools/bib/diary.py)
     from . import diary
     for where, msg in diary.problems(series):

@@ -11,6 +11,7 @@ The book is a selection of transcripts of the White House recordings, Nov. 22, 1
 - `inbox/2026-11-05-b4-taking-charge.yaml` (Nov. 22, 1963–Apr. 10, 1964, and the waiting entries) and `inbox/2026-11-05-b4-taking-charge-2.yaml` (Apr. 14–Aug. 29, 1964, the appendix, the prologue's Nov. 1960, two events dated by the notes): together 306 new entries, 149 cites, 35 checks, with their primary records and claim-map rows. All new entries claimed in the ledger under the two patch names.
 - Witnesses: `inbox/witnesses/2026-11-05-b4-taking-charge.yaml` and `-2.yaml` (393 rows: the recordings, and the documents the notes give for units cited: the UPI story of Feb. 3, 1964; the Defense Department's "Summary Statement on South Vietnam," Mar. 2, 1964; Robert Kennedy's letter of June 11, 1964; the NSC executive committee's record of May 24, 1964; Lady Bird Johnson's diary, July 4, 1964; Pincus in the *Star*, June 23, 1964; Katzenbach to Moyers, Nov. 25, 1963; Sidey's and Manchester's books). Existing registry rows reused where they matched (Mansfield to Johnson, Jan. 6, 1964; McCone's memorandum of Nov. 24, 1963; Taylor's of Mar. 4, 1964; JCSM-174-64; Fulbright's "Old Myths," Mar. 25, 1964; three recordings already registered).
 - The work's edges: `sources/witnesses/by-work/taking-charge.yaml` (446 edges).
+- Batch 6 (Nov. 6, read Nov. 10–11, 2026; the Passed over rows re-ruled under R18 as amended): `inbox/2026-11-06-b6-taking-charge.yaml`, 36 new entries (35 from the rows, one from a row's headnote) (claimed in the ledger under that name), 2 cites (`cal.1964-01-06.transition-and-staff-2`, `cal.1963-12-30.program`), 2 checks (`cal.1964-03-15.vietnam`: the interview taped the day before, by the Papers' note and the book, 287 n.1; `cal.1963-12-23.press-and-broadcasting-2`: Lewine of UPI, 125 n.6), with their primary records (the Miller Center's pages; the Papers for the speeches) and claim-map rows; `patch-check` 0 errors, 24 warnings, all the day's other entries in the same thread (distinct calls: keep at the merge). Witnesses: `inbox/witnesses/2026-11-06-b6-taking-charge.yaml` (36 recordings, not heard); 37 edges added to the by-work file, the Macy call's to the witness Kotz's reader registered (`x.1964-01-06.johnson-and-macy-telephone-3-30`).
 
 ## The entries waiting on the book (To check), ruled
 
@@ -48,70 +49,74 @@ Recordings dated otherwise by the book and the Miller Center, each entered with 
 
 ## Passed over
 
-Made from the conversations as the book prints them, each one read and ruled; every conversation not listed here is an entry or a cite (the waiting entries and the rulings above, the patches' ops). The rows, page | date | the event | ground:
+Re-ruled Nov. 6, 2026, under R18 as amended.
 
-| Page | Date | Event | Ground |
-|---|---|---|---|
-| 42–44 | Nov. 27, 1963, 1:35 p.m. | Nellie Connally: family and social. After the address to Congress, the Johnsons, Luci and Lynda by telephone to Nellie Connally: the Governor's recovery; their son John III at the funeral. | minor |
-| 48 | Nov. 29, 1963, 11:35 a.m. | Hale Boggs: social. Boggs on the address; Lindy Boggs to help Mrs. Johnson. | minor |
-| 78–79 | Nov. 30, 1963, 3:16 p.m. | Lucia Alexander: family. Johnson to his sister Lucia Alexander. | minor |
-| 104 | Dec. 17, 1963, 6:04 p.m. | Office conversation: Johnson with aides over the newspapers' photographs in the Baker affair. | passed-over paper (private remarks) |
-| 105 | Dec. 17, 1963, 7:30 p.m. | Lady Bird Johnson: family. Mrs. Johnson asks the President home from the office. | minor |
-| 115–116 | Dec. 23, 1963, 11:38 a.m. | Eddie Senz: social. A New York hairdresser to fly down for Mrs. Johnson, the daughters and the secretaries. | minor |
-| 124–126 | Dec. 23, 1963, 9:45 p.m. | Pierre Salinger: arrangements for the flights to Green's funeral, O'Donnell and Ethel Kennedy on the President's plane. | minor |
-| 131–132 | Dec. 25, 1963, 1:16 p.m. | Dwight Eisenhower: social. Christmas greetings to the Eisenhowers at Palm Desert. | minor |
-| 134 | Dec. 25, 1963, 8:27 p.m. | Robert McNamara: social. Christmas greetings to McNamara. | minor |
-| 143–144 | Jan. 2, 1964, 12:25 p.m. | Irving Frank: social. Western suits for the staff at the Ranch. | minor |
-| 146 | Jan. 3, 1964, 2:00 p.m. | Walter Jenkins: a bill from State for purchases on the vice presidential trip to northern Europe, 1963. | minor |
-| 146–147 | Jan. 6, 1964, 3:30 p.m. | John Magy: office staffing; five secretaries to be found for the President's office. | minor |
-| 151 | Jan. 7, 1964, 12:45 p.m. | Hale Boggs: the ceremonial call at the opening of the session, 340 Representatives present. | minor |
-| 154–155 | Jan. 8, 1964, 8:00 p.m. | Theodore Sorensen: social. Mrs. Johnson thanks Sorensen for the State of the Union. | minor |
-| 184–185 | Jan. 25, 1964, 4:40 p.m. | George Reedy: Johnson to Reedy, where to find him after the press meeting. | minor |
-| 191 | Jan. 28, 1964, 7:30 p.m. | Walter Jenkins: private remarks; Jenkins on material about Reynolds to be typed for the President. | minor |
-| 193 | Jan. 29, 1964, 11:45 a.m. | Walter Jenkins: Johnson presses Jenkins to reach Humphrey (11:45 a.m., 12:25 p.m.). | minor |
-| 193 | Jan. 29, 1964, 12:25 p.m. | Walter Jenkins: as at 11:45 a.m. | minor |
-| 197–198 | Jan. 30, 1964, 6:00 p.m. | Office conversation: Johnson to Clifford and Jenkins on Humphrey, "full of grits." | passed-over paper (private remarks) |
-| 200–201 | Jan. 31, 1964, 6:47 p.m. | Jack Brooks: social; an invitation to a drink and the pool. | minor |
-| 214 | Feb. 3, 1964, 5:57 p.m. | Everett Dirksen: social; Dirksen in Sibley Hospital with an ulcer, Johnson's banter. | minor |
-| 236 | Feb. 10, 1964, 10:55 p.m. | Walter Jenkins: Johnson to Jenkins against scheduling "little tinhorn Ambassadors." | minor |
-| 245 | Feb. 19, 1964, 6:34 p.m. | Marianne Means: social. Means back from Texas, interviews with Johnson's family. | minor |
-| 248 | Feb. 20, 1964, 11:20 a.m. | Office conversation: Johnson to aides on leaks from State; printed after Feb. 20 without a date (perhaps Feb. 25). | passed-over paper (private remarks) |
-| 260 | Mar. 2, 1964, 11:15 a.m. | Robert Wagner: social. Johnson to Wagner on his dying wife. | minor |
-| 265 | Mar. 4, 1964, 1:48 p.m. | Office conversation: who leaks the poverty planning; Potter's story in the Baltimore Sun that morning (the press list). | passed-over paper (private remarks) |
-| 272–274 | Mar. 7, 1964, 4:10 p.m. | Lady Bird Johnson: family. Mrs. Johnson on his East Room news conference, from her diary. | minor |
-| 279 | Mar. 9, 1964, 8:30 p.m. | Jack Valenti: social. Valenti sent home to his wife. | minor |
-| 286 | Mar. 13, 1964, 10:00 p.m. | Abe Fortas: social. Fortas invites Johnson dancing. | minor |
-| 287 | Mar. 14, 1964, 2:44 p.m. | George Reedy: private. Reedy kept in the hospital to lose weight. | minor |
-| 288–289 | Mar. 17, 1964, 12:49 p.m. | George Reedy: private. Reedy's diet in the hospital. | minor |
-| 291 | Mar. 18, 1964, 11:06 a.m. | McGeorge Bundy: banter. "The only intellectual left in the White House." | minor |
-| 291 | Mar. 18, 1964, 7:35 p.m. | Lady Bird Johnson: family. Johnson to Mrs. Johnson: thirty minutes at John Bailey's meeting, then supper. | minor |
-| 296 | Mar. 23, 1964, 9:15 p.m. | Lady Bird Johnson: family. Johnson kept late on his speech of the morning. | minor |
-| 298–299 | Mar. 25, 1964, 7:51 p.m. | Rene Verdon: social. Dinner for six or eight. | minor |
-| 302–303 | Mar. 30, 1964, 11:55 a.m. | Joseph Kennedy: social. Johnson to Joseph Kennedy, paralyzed, at Palm Beach. | minor |
-| 303 | Mar. 30, 1964, 8:00 p.m. | George Reedy: a man following his car at the Ranch. | minor |
-| 304–305 | Mar. 31, 1964, 3:10 p.m. | Rodney White: family. Furnishing the family house at Johnson City with his nephew. | minor |
-| 311 | Apr. 8, 1964, 12:13 p.m. | Office conversation: Johnson to aides, a wedding and the cherry blossoms. | minor |
-| 320 | Apr. 17, 1964, 3:52 p.m. | Harry Truman: social. Blair House offered for Truman's visit to Washington. | minor |
-| 321 | Apr. 20, 1964, 6:45 p.m. | Jack Brooks: social. Brooks back from Texas, Connally's hand. | minor |
-| 323 | Apr. 22, 1964, 7:47 p.m. | Lady Bird Johnson: family. Johnson to Mrs. Johnson after the railroad settlement. | minor |
-| 341 | May 2, 1964, 4:30 p.m. | McGeorge Bundy: social. Golf or tennis. | minor |
-| 345–346 | May 11, 1964, 12:45 p.m. | Joseph Kennedy: social. Johnson to Joseph Kennedy at Hyannis Port, through Ann Gargan. | minor |
-| 414–415 | June 17, 1964, 8:58 p.m. | Lady Bird Johnson: family. | minor |
-| 422–423 | June 20, 1964, 6:46 p.m. | Jacqueline Kennedy:  | part of the call of 6:45 p.m., entered there. |
-| 440 | June 25, 1964, 4:52 p.m. | Office conversation: Johnson to Valenti, "I imagine they're in that lake." | passed-over paper (private remarks) |
-| 440–441 | June 25, 1964, 7:45 p.m. | Chester Clifton: the Secret Service men on his plane. | minor |
-| 441–442 | June 26, 1964, 5:30 p.m. | Walter Jenkins: Camp David on the weekend of July 4 declined to Bundy. | minor |
-| 445 | June 30, 1964, 5:35 p.m. | Edward Kennedy: social. Johnson to Edward Kennedy in Cooley Dickinson Hospital. | minor |
-| 452 | July 3, 1964, 12:43 p.m. | Jesse Kellam: social. A boat ride on Lake Wirtz. | minor |
-| 457 | July 17, 1964, 1:57 p.m. | A.W. Moursund: social. A boat and a fish dinner at the Ranch. | minor |
-| 502 | Aug. 4, 1964, 8:35 p.m. | Lady Bird Johnson: family. Mrs. Johnson before his address. | minor |
-| 511 | Aug. 9, 1964, 1:16 p.m. | Joseph Haggar Jr.: private. Slacks ordered. | minor |
-| 514 | Aug. 13, 1964, 1:10 p.m. | Edward Kennedy: social. Edward Kennedy recovering. | minor |
-| 99 | Dec. 12, 1963, 2:37 p.m. | Office conversation: office routine; Johnson wants texts edited so he can read them, and his office kept clear. | minor |
+Made from the conversations as the book prints them, each one read and ruled; every conversation not listed here is an entry or a cite (the waiting entries and the rulings above, the patches' ops). The rows were made in batch 4 (the ground in the fourth column); batch 6 read each row's pages again, text and page image (the owner's Drive copy, file id 1NkEeNniIBmF0is2eEqIozpxq75cJqTmq, Internet Archive's scan `takingchargejohn00john`; the offset as above, printed page = PDF page − 2 through p. 224, − 18 from p. 225; the image read at pp. 99, 146, 236, 248, 442), and ruled it again under R18 as amended Nov. 6 (the fifth column). Of 56 rows: 36 entered (35 entries, the two calls of Jan. 29 one entry), 1 cited, 1 unchanged, 18 passed over; none not borne out. A 36th entry from a row's headnote (p. 78, Nov. 22). The rows, page | date | the event | ground (batch 4) | ruling (Nov. 6):
+
+| Page | Date | Event | Ground | Ruling, Nov. 6 |
+|---|---|---|---|---|
+| 42–44 | Nov. 27, 1963, 1:35 p.m. | Nellie Connally: family and social. After the address to Congress, the Johnsons, Luci and Lynda by telephone to Nellie Connally: the Governor's recovery; their son John III at the funeral. | minor | entered, `cal.1963-11-27.succession-2`: the Governor's condition and her word on the address |
+| 48 | Nov. 29, 1963, 11:35 a.m. | Hale Boggs: social. Boggs on the address; Lindy Boggs to help Mrs. Johnson. | minor | entered, `cal.1963-11-29.succession`: a member's word on the Thanksgiving address |
+| 78–79 | Nov. 30, 1963, 3:16 p.m. | Lucia Alexander: family. Johnson to his sister Lucia Alexander. | minor | passed over: family; his sister on the reporters who call her, no bearing on public business. The headnote's Kennedy at the Hotel Texas, Nov. 22 ("carry two states next year"), not in the calendar: entered, `cal.1963-11-22.elections-1964-4` |
+| 104 | Dec. 17, 1963, 6:04 p.m. | Office conversation: Johnson with aides over the newspapers' photographs in the Baker affair. | passed-over paper (private remarks) | entered, `cal.1963-12-17.baker`: said in private about public business |
+| 105 | Dec. 17, 1963, 7:30 p.m. | Lady Bird Johnson: family. Mrs. Johnson asks the President home from the office. | minor | passed over: family, no bearing on public business |
+| 115–116 | Dec. 23, 1963, 11:38 a.m. | Eddie Senz: social. A New York hairdresser to fly down for Mrs. Johnson, the daughters and the secretaries. | minor | passed over: social and family, no bearing on public business |
+| 124–126 | Dec. 23, 1963, 9:45 p.m. | Pierre Salinger: arrangements for the flights to Green's funeral, O'Donnell and Ethel Kennedy on the President's plane. | minor | entered, `cal.1963-12-23.press-and-broadcasting-3`: the call also carries Lewine's story of the call to Jacqueline Kennedy, "good politics" |
+| 131–132 | Dec. 25, 1963, 1:16 p.m. | Dwight Eisenhower: social. Christmas greetings to the Eisenhowers at Palm Desert. | minor | entered, `cal.1963-12-25.economy`: the call carries the first message, the budget and the space program |
+| 134 | Dec. 25, 1963, 8:27 p.m. | Robert McNamara: social. Christmas greetings to McNamara. | minor | passed over: social, greetings with nothing of public business said |
+| 143–144 | Jan. 2, 1964, 12:25 p.m. | Irving Frank: social. Western suits for the staff at the Ranch. | minor | passed over: social, clothes for the staff, no bearing on public business |
+| 146 | Jan. 3, 1964, 2:00 p.m. | Walter Jenkins: a bill from State for purchases on the vice presidential trip to northern Europe, 1963. | minor | entered, `cal.1964-01-03.transition-and-staff`: an official trip's account with State, gifts for political use (the headnote) |
+| 146–147 | Jan. 6, 1964, 3:30 p.m. | John Macy (the batch-4 row's "Magy" is the OCR's; the image reads Macy): office staffing; five secretaries to be found for the President's office. | minor | cited under `cal.1964-01-06.transition-and-staff-2` (from Kotz), 146–147 |
+| 151 | Jan. 7, 1964, 12:45 p.m. | Hale Boggs: the ceremonial call at the opening of the session, 340 Representatives present. | minor | entered, `cal.1964-01-07.congress-3` |
+| 154–155 | Jan. 8, 1964, 8:00 p.m. | Theodore Sorensen: social. Mrs. Johnson thanks Sorensen for the State of the Union. | minor | entered, `cal.1964-01-08.program-5`: the drafter of a principal's address thanked; the note's drafting at the Ranch cited under `cal.1963-12-30.program`, 155 n.1 |
+| 184–185 | Jan. 25, 1964, 4:40 p.m. | George Reedy: Johnson to Reedy, where to find him after the press meeting. | minor | passed over: a reprimand on where to reach him, no bearing on public business |
+| 191 | Jan. 28, 1964, 7:30 p.m. | Walter Jenkins: private remarks; Jenkins on material about Reynolds to be typed for the President. | minor | entered, `cal.1964-01-28.baker` |
+| 193 | Jan. 29, 1964, 11:45 a.m. | Walter Jenkins: Johnson presses Jenkins to reach Humphrey (11:45 a.m., 12:25 p.m.). | minor | entered, `cal.1964-01-29.baker-3`, with the call of 12:25 p.m. |
+| 193 | Jan. 29, 1964, 12:25 p.m. | Walter Jenkins: as at 11:45 a.m. | minor | entered, `cal.1964-01-29.baker-3` (one entry with 11:45 a.m.) |
+| 197–198 | Jan. 30, 1964, 6:00 p.m. | Office conversation: Johnson to Clifford and Jenkins on Humphrey, "full of grits." | passed-over paper (private remarks) | entered, `cal.1964-01-30.baker-3`, with the call to Reedy on Hayden |
+| 200–201 | Jan. 31, 1964, 6:47 p.m. | Jack Brooks: social; an invitation to a drink and the pool. | minor | passed over: social, nothing of a pending matter said |
+| 214 | Feb. 3, 1964, 5:57 p.m. | Everett Dirksen: social; Dirksen in Sibley Hospital with an ulcer, Johnson's banter. | minor | entered, `cal.1964-02-03.republican-party-congress`: the Minority Leader in hospital during the session |
+| 236 | Feb. 10, 1964, 10:55 p.m. | Walter Jenkins: Johnson to Jenkins against scheduling "little tinhorn Ambassadors." | minor | entered, `cal.1964-02-10.transition-and-staff`, 10:55 a.m. by the Miller Center, Check |
+| 245 | Feb. 19, 1964, 6:34 p.m. | Marianne Means: social. Means back from Texas, interviews with Johnson's family. | minor | entered, `cal.1964-02-19.press-and-broadcasting`: a correspondent's interviews the President arranged |
+| 248 | Feb. 20, 1964, 11:20 a.m. | Office conversation: Johnson to aides on leaks from State; printed after Feb. 20 without a date (perhaps Feb. 25). | passed-over paper (private remarks) | entered, `cal.1964-02-25.press-and-broadcasting`, dated by the McNamara call that follows it, Check: the day |
+| 260 | Mar. 2, 1964, 11:15 a.m. | Robert Wagner: social. Johnson to Wagner on his dying wife. | minor | passed over: family, a condolence, no bearing on public business |
+| 265 | Mar. 4, 1964, 1:48 p.m. | Office conversation: who leaks the poverty planning; Potter's story in the Baltimore Sun that morning (the press list). | passed-over paper (private remarks) | entered, `cal.1964-03-04.poverty` |
+| 272–274 | Mar. 7, 1964, 4:10 p.m. | Lady Bird Johnson: family. Mrs. Johnson on his East Room news conference, from her diary. | minor | entered, `cal.1964-03-07.press-and-broadcasting`: her critique of the news conference |
+| 279 | Mar. 9, 1964, 8:30 p.m. | Jack Valenti: social. Valenti sent home to his wife. | minor | entered, `cal.1964-03-09.transition-and-staff`: Mrs. Johnson's plan of dinners with the Kennedy staff |
+| 286 | Mar. 13, 1964, 10:00 p.m. | Abe Fortas: social. Fortas invites Johnson dancing. | minor | passed over: social, an invitation declined, no bearing on public business |
+| 287 | Mar. 14, 1964, 2:44 p.m. | George Reedy: private. Reedy kept in the hospital to lose weight. | minor | entered, `cal.1964-03-14.press-and-broadcasting`: Reedy's advice before the taping with the networks' correspondents |
+| 288–289 | Mar. 17, 1964, 12:49 p.m. | George Reedy: private. Reedy's diet in the hospital. | minor | entered, `cal.1964-03-17.press-and-broadcasting`: the draft of the Friendly Sons speech; Alsop's article |
+| 291 | Mar. 18, 1964, 11:06 a.m. | McGeorge Bundy: banter. "The only intellectual left in the White House." | minor | entered, `cal.1964-03-18.transition-and-staff-2`: on Alsop's article on the staff |
+| 291 | Mar. 18, 1964, 7:35 p.m. | Lady Bird Johnson: family. Johnson to Mrs. Johnson: thirty minutes at John Bailey's meeting, then supper. | minor | entered, `cal.1964-03-18.elections-1964-johnson`: the meeting of his political advisers |
+| 296 | Mar. 23, 1964, 9:15 p.m. | Lady Bird Johnson: family. Johnson kept late on his speech of the morning. | minor | entered, `cal.1964-03-23.labor`: a principal's speech in drafting; the speech, by the Papers, a Check |
+| 298–299 | Mar. 25, 1964, 7:51 p.m. | Rene Verdon: social. Dinner for six or eight. | minor | passed over: social, a dinner ordered |
+| 302–303 | Mar. 30, 1964, 11:55 a.m. | Joseph Kennedy: social. Johnson to Joseph Kennedy, paralyzed, at Palm Beach. | minor | entered, `cal.1964-03-30.robert-kennedy-2`: on Edward Kennedy and "the program" |
+| 303 | Mar. 30, 1964, 8:00 p.m. | George Reedy: a man following his car at the Ranch. | minor | entered, `cal.1964-03-30.states-and-cities`: the Air Force's briefing on the Alaska earthquake |
+| 304–305 | Mar. 31, 1964, 3:10 p.m. | Rodney White: family. Furnishing the family house at Johnson City with his nephew. | minor | passed over: family, the furniture of the family house |
+| 311 | Apr. 8, 1964, 12:13 p.m. | Office conversation: Johnson to aides, a wedding and the cherry blossoms. | minor | passed over: remarks with no bearing on public business |
+| 320 | Apr. 17, 1964, 3:52 p.m. | Harry Truman: social. Blair House offered for Truman's visit to Washington. | minor | entered, `cal.1964-04-17.democratic-party`: a favour granted to a former President |
+| 321 | Apr. 20, 1964, 6:45 p.m. | Jack Brooks: social. Brooks back from Texas, Connally's hand. | minor | entered, `cal.1964-04-20.democratic-party`: a member's word on the Governor; Mrs. Johnson's plane struck by lightning |
+| 323 | Apr. 22, 1964, 7:47 p.m. | Lady Bird Johnson: family. Johnson to Mrs. Johnson after the railroad settlement. | minor | entered, `cal.1964-04-22.railroads-3` |
+| 341 | May 2, 1964, 4:30 p.m. | McGeorge Bundy: social. Golf or tennis. | minor | passed over: social, an invitation to golf declined |
+| 345–346 | May 11, 1964, 12:45 p.m. | Joseph Kennedy: social. Johnson to Joseph Kennedy at Hyannis Port, through Ann Gargan. | minor | entered, `cal.1964-05-11.robert-kennedy-2`: on Edward and Robert Kennedy's work |
+| 414–415 | June 17, 1964, 8:58 p.m. | Lady Bird Johnson: family. | minor | passed over: family, the daughters, no bearing on public business |
+| 422–423 | June 20, 1964, 6:46 p.m. | Jacqueline Kennedy: | part of the call of 6:45 p.m., entered there. | unchanged: part of the call entered |
+| 440 | June 25, 1964, 4:52 p.m. | Office conversation: Johnson to Valenti, "I imagine they're in that lake." | passed-over paper (private remarks) | entered, `cal.1964-06-25.mississippi-2` |
+| 440–441 | June 25, 1964, 7:45 p.m. | Chester Clifton: the Secret Service men on his plane. | minor | entered, `cal.1964-06-25.elections-1964-johnson`: the political trip to Detroit and Minneapolis |
+| 441–442 | June 26, 1964, 5:30 p.m. | Walter Jenkins: Camp David on the weekend of July 4 declined to Bundy. | minor | entered, `cal.1964-06-26.elections-1964-johnson`: Camp David closed lest it be a campaign issue; Phinney's report of three Republican stories |
+| 445 | June 30, 1964, 5:35 p.m. | Edward Kennedy: social. Johnson to Edward Kennedy in Cooley Dickinson Hospital. | minor | entered, `cal.1964-06-30.democratic-party`: his re-election, the speaking engagements |
+| 452 | July 3, 1964, 12:43 p.m. | Jesse Kellam: social. A boat ride on Lake Wirtz. | minor | passed over: social, no bearing on public business |
+| 457 | July 17, 1964, 1:57 p.m. | A.W. Moursund: social. A boat and a fish dinner at the Ranch. | minor | passed over: social, no bearing on public business |
+| 502 | Aug. 4, 1964, 8:35 p.m. | Lady Bird Johnson: family. Mrs. Johnson before his address. | minor | passed over: a repetition; his calls to reach Goldwater before the address are entered, `cal.1964-08-04.goldwater` (the book cited there, 504) |
+| 511 | Aug. 9, 1964, 1:16 p.m. | Joseph Haggar Jr.: private. Slacks ordered. | minor | passed over: personal, clothes ordered |
+| 514 | Aug. 13, 1964, 1:10 p.m. | Edward Kennedy: social. Edward Kennedy recovering. | minor | entered, `cal.1964-08-13.elections-1964-atlantic-city`: the reception for Jacqueline Kennedy at the convention |
+| 99 | Dec. 12, 1963, 2:37 p.m. | Office conversation: office routine; Johnson wants texts edited so he can read them, and his office kept clear. | minor | entered, `cal.1963-12-12.transition-and-staff`: the text of a principal's remarks; Check: the place (the Papers: the State Dining Room) |
 
 ## Where I stopped
 
 Every conversation of the book (pp. 17–548), the prologue's first event (Nov. 1960) and the appendix (pp. 559–66) is entered, cited or passed over above. The headnotes and footnotes date further events (Salinger's resignation, the cloture vote, the House votes, Goldwater's statements); those met while reading were checked against the calendar and two not found were entered (`cal.1964-03-05.elections-1964`, King and the write-in; `cal.1964-03-23.baker`, the Rules Committee's vote); the rest of the notes' dated events were not canvassed one by one against the calendar, a second pass for a later reader. No `time:` fields were written: the book's hours are in `c`; Johnson's place (Washington, the Ranch) would fix the zone.
+
+Batch 6 (Nov. 10–11, 2026): every row of Passed over re-ruled, from the pages read again; done. The batch-6 entries carry `time:` from the Miller Center's hour (else the book's) in Washington's zone, the Ranch's (Central) for Dec. 25 and Mar. 30; none for Jan. 3 and June 26 (Detroit), the place or the zone not settled. Three office conversations are not matched in the catalogues by the hour (Dec. 12, Dec. 17, 1963; Feb. 25, 1964): the candidates stand behind "To check:". The copy was deleted when the reading was done.
 
 ## The press
 
@@ -145,3 +150,4 @@ Coverage the book dates, a line each (date | outlet | item | page):
 - The prologue's calls on Manchester's *The Death of a President*: to Katzenbach (Dec. 6, 1966; Jan. 25, 1967), Fortas (Dec. 16, 1966), Kintner (Dec. 20, 1966) and Moyers (Dec. 26, 1966) (11 n.4). The book runs Johnson's remarks together without saying which call holds which: the recordings (the Miller Center's catalogue for those days) would date each.
 - Press figures the book treats in exchanges with Johnson, for Part III entries where none exists: Marshall McNeil (Scripps-Howard), Walker Stone (Scripps-Howard), Gould Lincoln (*Washington Star*), Isabelle Shelton (*Washington Star*), Frances Lewine (AP), Marianne Means (Hearst), Doug Cornell (AP), Tom Collins (*Newsday*), Louis Kohlmeier (*Wall Street Journal*), John Barron (*Washington Star*); the publishers John S. Knight (*Miami Herald*), Houston Harte (*San Angelo Standard-Times*), Amon Carter Jr. (*Fort Worth Star-Telegram*), Paul Miller (Gannett), John Jones (*Houston Chronicle*); and Henry Luce, Clare Boothe Luce, Katharine Graham, Frank Stanton.
 - Persons the entries name who seem to have no name entry (not tagged): Richard Maguire, Jesse Kellam, A. W. Moursund, Rose Kennedy, Nellie Connally, John Bailey, Frank Erwin, Elmer Staats, Cliff Carter, Gerri Whittington, Andrew Hatcher (tagged once), Edwin Weisl Sr., B. Everett Jordan.
+- Batch 6: persons its entries name who seem to have no name entry (not tagged): Nellie Connally, Lindy Boggs, Ethel Kennedy, Frances Lewine, Marianne Means, Ann Gargan, John Bailey, Carl Phinney, George Parr, Coke Stevenson, Fredric March, Philip Potter, Lucia Johnson Alexander.

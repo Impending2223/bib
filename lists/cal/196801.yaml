@@ -172,7 +172,7 @@ entries:
     date: '1968-01-02'
     thread: japan-and-korea-pueblo
     c: Off Wonsan, late afternoon. A North Korean subchaser, Soviet-built, watches the *Pueblo* from 300 yards.
-    n: '[[w.bernstein-guns-or-butter]], 473. To check: [[w.bucher-bucher-my-story]]; [[w.armbrister-matter-of-accountability]]. See [[cal.1967-11-06.japan-and-korea-pueblo]].'
+    n: '[[w.bernstein-guns-or-butter]], 473. Check: Poole (237) has the *Pueblo* leave Japan Jan. 8, its first message sent when a North Korean subchaser appears Jan. 22. To check: [[w.bucher-bucher-my-story]]; [[w.armbrister-matter-of-accountability]]. See [[cal.1967-11-06.japan-and-korea-pueblo]].'
     src:
       c: 19ea1db2
       rows:
@@ -181,6 +181,11 @@ entries:
       - 1968-01-02T06:00Z
       - 1968-01-02T10:00Z
     time_zone: Asia/Pyongyang
+    variants:
+      - unit: A
+        witness: w.poole-joint-chiefs-of-staff-2012
+        reads: The USS Pueblo left Japan on 8 January ... a North Korean subchaser appeared on 22 January
+        at: '237'
   - id: cal.1968-01-02.economy
     when: Jan. 2–6
     date: '1968-01-02'
@@ -223,7 +228,12 @@ entries:
     date: '1968-01-03'
     thread: vietnam
     c: 'Mai Văn Bộ in Paris to Westinghouse Broadcasting: talks at once if the bombing stops (Check). Restrikes near Hanoi held off, for the Cambodian and Romanian channels.'
-    n: 'FRUS 1964–68, VI, docs. [3](https://history.state.gov/historicaldocuments/frus1964-68v06/d3), [4](https://history.state.gov/historicaldocuments/frus1964-68v06/d4). See [[cal.1967-12-29.vietnam]]. Names: Mai Văn Bộ.'
+    n: 'FRUS 1964–68, VI, docs. [3](https://history.state.gov/historicaldocuments/frus1964-68v06/d3), [4](https://history.state.gov/historicaldocuments/frus1964-68v06/d4). [[w.westmoreland-soldier-reports]], 312 (the bombing in and around Hanoi halted during a Romanian representative''s visit there). Check: Westmoreland places the Romanian''s visit to Hanoi in mid-January (312). See [[cal.1967-12-29.vietnam]]. Names: Mai Văn Bộ.'
+    src:
+      c: 03ce87aa
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d3: all'
+        - 'w.westmoreland-soldier-reports 312: B'
     tags: [name:mai-van-bo, name:johnson-lyndon-b]
   - id: cal.1968-01-03.king-poor-peoples
     when: Jan. 3
@@ -324,6 +334,16 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-01-03.elections-1968-wallace
+    when: Jan. 3
+    date: '1968-01-03'
+    thread: elections-1968-wallace
+    c: California. Wallace congratulates cheering supporters on the American Independent Party's qualifying for the State ballot, his third-party bid not yet announced.
+    n: '[[w.califano-triumph-and-tragedy-of]], 258. See [[cal.1968-01.elections-1968]]. Names: Wallace.'
+    src:
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 258: all'
+    tags: [name:wallace-george-c, state:ca]
   - id: cal.1968-01-04.king-poor-peoples
     when: Jan. 4
     date: '1968-01-04'
@@ -360,13 +380,24 @@ entries:
         - 'via x.1968-01-08.memo-nmcc-to-secdef-8-jan-68: all'
         - 'via x.1968-01-14.telecon-item-jcs-010-68-to-cincpac: all'
     tags: [name:wheeler-earle, name:sharp-u-s-grant, place:haiphong]
+  - id: cal.1968-01-04.program
+    when: Jan. 4
+    date: '1968-01-04'
+    thread: program
+    c: McPherson's first full draft of the State of the Union, from a twenty-page outline, by teletype to the Ranch. Johnson edits it, wanting it under 4,000 words; Roche and Levinson among the drafters.
+    n: '[[w.longley-lbjs-1968]], 14 (the day; the length, 14, by Kintner to Christian, Jan. 16, 14 n.14). See [[cal.1967-12-19.program]]. Names: McPherson, Johnson, Roche, Levinson.'
+    src:
+      c: ff6dd577
+      rows:
+        - 'w.longley-lbjs-1968 14: all'
+    tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:roche-john-p, name:levinson-lawrence-e]
   - id: cal.1968-01-05.war-opposition
     when: Jan. 5
     date: '1968-01-05'
     thread: war-opposition
     also: [draft]
     c: 'Boston. A federal grand jury indicts Spock, Coffin, Goodman, Ferber and Raskin: conspiracy to counsel, aid and abet registrants to refuse service and evade the draft, and to hinder its administration. The "Call to Resist Illegitimate Authority"; the draft cards turned in at the Justice Department, Oct. 20.'
-    n: '*United States v. Spock*, [416 F.2d 165](https://static.case.law/f2d/416/case-pdfs/0165-01.pdf) (1st Cir. 1969), the appeal. [[w.branch-at-canaans-edge]], 668 ("SPOCK INDICTED"); [[w.wells-war-within]], 230–31 (the indictment of Jan. 5: conspiracy to "counsel, aid and abet young men to violate the draft laws"); [[w.zaroulis-who-spoke-up]], 149; [[w.debenedetti-american-ordeal]], 208 (announced in Boston; King, Macdonald and the Paulings in a statement of complicity). To check: [[w.mitford-trial-of-dr-spock]]; [[w.foley-confronting-the-war-machine]]; New York Post, Jan. 6, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 668); Spock, Spock on Spock, ro) IS) (cited by [[w.branch-at-canaans-edge]], 668). See [[cal.1967-12-04.war-opposition]]. Names: Spock, Coffin, Goodman, Ferber, Raskin.'
+    n: '*United States v. Spock*, [416 F.2d 165](https://static.case.law/f2d/416/case-pdfs/0165-01.pdf) (1st Cir. 1969), the appeal. [[w.branch-at-canaans-edge]], 668 ("SPOCK INDICTED"); [[w.wells-war-within]], 230–31 (the indictment of Jan. 5: conspiracy to "counsel, aid and abet young men to violate the draft laws"); [[w.zaroulis-who-spoke-up]], 149; [[w.debenedetti-american-ordeal]], 208 (announced in Boston; King, Macdonald and the Paulings in a statement of complicity). To check: [[w.mitford-trial-of-dr-spock]]; [[w.foley-confronting-the-war-machine]]; *New York Post*, Jan. 6, 1968, at 1 (cited by [[w.branch-at-canaans-edge]], 668); Spock, Spock on Spock, ro) IS) (cited by [[w.branch-at-canaans-edge]], 668). See [[cal.1967-12-04.war-opposition]]. Names: Spock, Coffin, Goodman, Ferber, Raskin.'
     src:
       c: df8c88cc
       rows:
@@ -444,7 +475,7 @@ entries:
     thread: antisubversion
     also: [black-nationalism]
     c: 'Hoover''s year-end report: the Communists "can look back on 1967 with a degree of satisfaction"; nothing would please them more than "a continuation of widespread opposition, especially non-Communist opposition," to the war; black power "the ''power'' to riot, burn, loot, and kill."'
-    n: '[[w.branch-at-canaans-edge]], 668. Check: the day; the *New York Times* reports it Jan. 6. To check: "Hoover Says Reds Use Black Power," NYT, Jan. 6, 1968, jou I (cited by [[w.branch-at-canaans-edge]], 668). Names: Hoover.'
+    n: '[[w.branch-at-canaans-edge]], 668. Check: the day; the *New York Times* reports it Jan. 6. To check: "Hoover Says Reds Use Black Power," [*New York Times*, Jan. 6, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/06/issue.html), jou I (cited by [[w.branch-at-canaans-edge]], 668). Names: Hoover.'
     src:
       c: 2988e489
       rows:
@@ -654,6 +685,18 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d175: all'
     tags: [name:rostow-eugene, name:rusk-dean]
+  - id: cal.1968-01-08.japan-and-korea-pueblo
+    when: Jan. 8
+    date: '1968-01-08'
+    thread: japan-and-korea-pueblo
+    c: The *Pueblo* leaves Japan, under radio silence until it is taken under surveillance.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 237–38. Check: the day; Bernstein has the *Pueblo* off Wonsan Jan. 2 ([[cal.1968-01-02.japan-and-korea-pueblo]]). To check: Henry Millington, the *Pueblo* monograph for the National Security Agency; Statement by the Secretary of Defense, "The Pueblo Incident," Tab 3 to "Ball Committee Briefing Book," Joint History Office (cited by [[w.poole-joint-chiefs-of-staff-2012]], 238 n.54). See [[cal.1967-12-29.japan-and-korea-pueblo]].'
+    src:
+      c: 55d63e35
+      rows:
+        - 'w.poole-joint-chiefs-of-staff-2012 237–38: all'
+        - 'via w.poole-joint-chiefs-of-staff-2012 238 n.54a: all'
+        - 'via w.poole-joint-chiefs-of-staff-2012 238 n.54b: all'
   - id: cal.1968-01-09.robert-kennedy
     when: Jan. 9
     date: '1968-01-09'
@@ -730,6 +773,17 @@ entries:
         - 'w.macv-command-history-1968 24: all'
         - 'via w.macv-command-history-1968 24 n.13: all'
         - 'via w.macv-command-history-1968 24 n.14: all'
+  - id: cal.1968-01-10.vietnam
+    when: Jan. 10
+    date: '1968-01-10'
+    thread: vietnam
+    c: 'Rostow to Johnson on Khe Sanh: he has been asking questions for some time; Westmoreland has it much on his mind; Rostow will look further into the contingency planning.'
+    n: '[[w.dallek-flawed-giant]], 502; [[w.dallek-flawed-giant]], 502 (Jan. 10, Rostow: "for some time been asking questions about Khe Sahn"; "Westmoreland has it very much on his mind"; to "look further into our contingency planning"). Names: Rostow, Johnson, Westmoreland.'
+    src:
+      c: 2ef5e80f
+      rows:
+        - 'w.dallek-flawed-giant 502: A, B, C'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:westmoreland-william]
   - id: cal.1968-01-11.republican-party-congress
     when: Jan. 11
     date: '1968-01-11'
@@ -768,6 +822,13 @@ entries:
       c: 2be08eba
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 483: all'
+  - id: cal.1968-01-11.vietnam-khe-sanh
+    when: Jan. 11
+    date: '1968-01-11'
+    thread: vietnam-khe-sanh
+    c: American intelligence detects a buildup of North Vietnamese forces in the Laotian panhandle west of the DMZ, threatening Khe Sanh, two more divisions.
+    n: '[[w.berman-lyndon-johnsons-war]], 139–40. Check: the report and its day; Berman names no source. See [[cal.1968-01-08.vietnam-2]].'
+    tags: [place:khe-sanh]
   - id: cal.1968-01-12.elections-1968
     when: Jan. 12
     date: '1968-01-12'
@@ -781,7 +842,7 @@ entries:
     thread: war-opposition
     also: [king]
     c: 'New York, the Belmont Plaza. Coffin: to "confront the government in the courts." King calls for Clergy and Laymen Concerned''s second pilgrimage to Washington, in February: "Either we will end the war in Vietnam, or many of our most sensitive citizens must be sent to jail."'
-    n: '[[w.branch-at-canaans-edge]], 668–69. To check: William Sloane Coffin Jr., *Once to Every Man* (1977), 260–65; Warren Goldstein, *William Sloane Coffin, Jr.: A Holy Impatience* (2004), 207–11 (cited by [[w.branch-at-canaans-edge]], 669); MLK log, A/SC47£21 (cited by [[w.branch-at-canaans-edge]], 668); wiretap transcript of telephone call between Stanley Levison and Tudja Crowder, Jan. 8, 1968, FLNY-9-1543 (cited by [[w.branch-at-canaans-edge]], 668); wiretap transcript of telephone call between MLK and Stanley Levison, 11:03 a.m., Jan. 10, 1968, FLNY-9-1545 (cited by [[w.branch-at-canaans-edge]], 668); Coffin, *Once to Every Man* (1977), 260–65 (cited by [[w.branch-at-canaans-edge]], 669); Goldstein, *William Sloane Coffin, Jr.* (2004), 207–11 (cited by [[w.branch-at-canaans-edge]], 669); Int. William Sloane Coffin, July 16, 1991 (Branch) (cited by [[w.branch-at-canaans-edge]], 669); Int. Harry Wachtel, Nov. 29, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 669); New York Times, Jan. 13, 1968, p. 4 (cited by [[w.branch-at-canaans-edge]], 669); Hoover to SACs, Atlanta, New York, and Washington, Jan 17, 1968, FCLCV-4 (cited by [[w.branch-at-canaans-edge]], 669). See [[cal.1968-01-05.war-opposition]]. Names: Coffin, King.'
+    n: '[[w.branch-at-canaans-edge]], 668–69; [[w.garrow-bearing-the-cross]], 592 (King at a New York press conference, Jan. 12, against the Spock indictment; McCarthy praised, Robert Kennedy and Rockefeller faulted). To check: William Sloane Coffin Jr., *Once to Every Man* (1977), 260–65; Warren Goldstein, *William Sloane Coffin, Jr.: A Holy Impatience* (2004), 207–11 (cited by [[w.branch-at-canaans-edge]], 669); MLK log, A/SC47£21 (cited by [[w.branch-at-canaans-edge]], 668); wiretap transcript of telephone call between Stanley Levison and Tudja Crowder, Jan. 8, 1968, FLNY-9-1543 (cited by [[w.branch-at-canaans-edge]], 668); wiretap transcript of telephone call between MLK and Stanley Levison, 11:03 a.m., Jan. 10, 1968, FLNY-9-1545 (cited by [[w.branch-at-canaans-edge]], 668); Coffin, *Once to Every Man* (1977), 260–65 (cited by [[w.branch-at-canaans-edge]], 669); Goldstein, *William Sloane Coffin, Jr.* (2004), 207–11 (cited by [[w.branch-at-canaans-edge]], 669); Int. William Sloane Coffin, July 16, 1991 (Branch) (cited by [[w.branch-at-canaans-edge]], 669); Int. Harry Wachtel, Nov. 29, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 669); [*New York Times*, Jan. 13, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/13/issue.html), at 4 (cited by [[w.branch-at-canaans-edge]], 669); Hoover to SACs, Atlanta, New York, and Washington, Jan 17, 1968, FCLCV-4 (cited by [[w.branch-at-canaans-edge]], 669). See [[cal.1968-01-05.war-opposition]]. Names: Coffin, King.'
     src:
       c: f7b5172e
       rows:
@@ -795,6 +856,8 @@ entries:
         - 'via x.1983-11-29.int-harry-wachtel-nov-29-1983: all'
         - 'via x.1968-01-13.new-york-times-jan-13-1968: all'
         - 'via x.1968-01-17.hoover-to-sacs-atlanta-new-york: all'
+        - 'w.garrow-bearing-the-cross 592: A'
+        - 'via w.garrow-bearing-the-cross 592 n.19k: A'
     tags: [name:coffin-william-sloane-jr, name:king-martin-luther-jr, state:ny, city:nyc]
   - id: cal.1968-01-12.health
     when: Jan. 12
@@ -871,6 +934,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-01-12.program
+    when: Jan. 12
+    date: '1968-01-12'
+    thread: program
+    c: 'Rusk to McPherson and to Johnson on the State of the Union: keep it to the San Antonio formula; "Our war aim is peace."'
+    n: '[[w.longley-lbjs-1968]], 288 n.15 (Rusk''s memoranda, quoted in the note). To check: Rusk to McPherson, Jan. 12, 1968; Rusk to Johnson, Jan. 12, 1968, Statements of Lyndon Baines Johnson, Jan. 7–17, 1968, box 260, LBJ Library (cited by [[w.longley-lbjs-1968]], 15 n.15). See [[cal.1967-12-19.program]]. Names: Rusk, McPherson, Johnson.'
+    src:
+      c: 7f90de9f
+      rows:
+        - 'w.longley-lbjs-1968 288 n.15: all'
+        - 'via w.longley-lbjs-1968 15 n.15b: all'
+        - 'via w.longley-lbjs-1968 15 n.15c: all'
+    tags: [name:rusk-dean, name:mcpherson-harry, name:johnson-lyndon-b]
   - id: cal.1968-01-13.vietnam-khe-sanh
     when: Jan. 13
     date: '1968-01-13'
@@ -986,6 +1062,18 @@ entries:
       c: 3c694f4e
       rows:
         - 'w.anthony-war-in-northern-laos 238–39: all'
+  - id: cal.1968-01-14.program
+    when: Jan. 14
+    date: '1968-01-14'
+    thread: program
+    c: 'Rostow to Johnson on the State of the Union: no reference to the French. Johnson agrees.'
+    n: '[[w.longley-lbjs-1968]], 15. To check: Rostow to Johnson, Jan. 14, 1968, Statements of Lyndon Baines Johnson, Jan. 7–17, 1968, box 260, LBJ Library (cited by [[w.longley-lbjs-1968]], 15 n.16). See [[cal.1967-12-19.program]]. Names: Rostow, Johnson.'
+    src:
+      c: bbe35233
+      rows:
+        - 'w.longley-lbjs-1968 15: all'
+        - 'via w.longley-lbjs-1968 15 n.16: all'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1968-01-15.congress
     when: Jan. 15
     date: '1968-01-15'
@@ -1090,7 +1178,7 @@ entries:
     date: '1968-01-15'
     thread: civil-rights-the-executive
     c: 'New York. The Equal Employment Opportunity Commission''s hearings on white-collar employment: the networks, the *New York Times*, the brokers, the banks. Clifford Alexander chairman. Sixty of ninety-one employment agencies accept a test order for a "white Gentile secretary."'
-    n: '[[w.branch-at-canaans-edge]], 667–68. To check: Hearings in New York, EEOC, Jan. 15–18, 1968, 125, 353, 438, 477 (cited by [[w.branch-at-canaans-edge]], 667); New York Times, Jan. 17, 1968, p. 42 (cited by [[w.branch-at-canaans-edge]], 667); New York Times, Jan. 18, 1968, p. 28 (cited by [[w.branch-at-canaans-edge]], 667); Hearings in New York, NY, U.S. EEOC, Jan. 15–18, 1968, pp. 125, 353, 438, 477 (cited by [[w.branch-at-canaans-edge]], 667); Clifford Alexander oral history by Joe B. Frantz, Feb. 17, 1972, p. 6 (cited by [[w.branch-at-canaans-edge]], 667); New York Times, Jan. 19, 1968, p. 19 (cited by [[w.branch-at-canaans-edge]], 667). Names: Alexander.'
+    n: '[[w.branch-at-canaans-edge]], 667–68. To check: Hearings in New York, EEOC, Jan. 15–18, 1968, 125, 353, 438, 477 (cited by [[w.branch-at-canaans-edge]], 667); [*New York Times*, Jan. 17, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/17/issue.html), at 42 (cited by [[w.branch-at-canaans-edge]], 667); [*New York Times*, Jan. 18, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/18/issue.html), at 28 (cited by [[w.branch-at-canaans-edge]], 667); Hearings in New York, NY, U.S. EEOC, Jan. 15–18, 1968, pp. 125, 353, 438, 477 (cited by [[w.branch-at-canaans-edge]], 667); Clifford Alexander oral history by Joe B. Frantz, Feb. 17, 1972, p. 6 (cited by [[w.branch-at-canaans-edge]], 667); [*New York Times*, Jan. 19, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/19/issue.html), at 19 (cited by [[w.branch-at-canaans-edge]], 667). Names: Alexander.'
     src:
       c: 3b20c663
       rows:
@@ -1151,13 +1239,42 @@ entries:
       rows:
         - 'w.macv-command-history-1968 1026: all'
     tags: [name:nguyen-van-thieu]
+  - id: cal.1968-01-15.program
+    when: Jan. 15
+    date: '1968-01-15'
+    thread: program
+    c: 'Reedy to Johnson on the State of the Union draft: the line on "using our antennae" rings hollow; something to "cut through the fog." Johnson accepts his recommendations.'
+    n: '[[w.longley-lbjs-1968]], 15. To check: Reedy to Johnson, Jan. 15, 1968, Statements of Lyndon Baines Johnson, Jan. 7–17, 1968, box 260, LBJ Library (cited by [[w.longley-lbjs-1968]], 15 n.15). See [[cal.1967-12-19.program]]. Names: Reedy, Johnson.'
+    src:
+      c: 34baef2a
+      rows:
+        - 'w.longley-lbjs-1968 15: all'
+        - 'via w.longley-lbjs-1968 15 n.15a: all'
+    tags: [name:reedy-george-e, name:johnson-lyndon-b]
+  - id: cal.1968-01-15.elections-1968-johnson
+    when: Jan. 15
+    date: '1968-01-15'
+    thread: elections-1968-johnson
+    c: 'Late lunch, Johnson with Christian and Mrs. Johnson, the day after his talk with Busby: "I have been in a hurry all of my life." Mrs. Johnson, in her diary: his mind on running again or getting out.'
+    n: '[[w.longley-lbjs-1968]], 19. To check: [[w.johnson-white-house-diary]], 615 (cited by [[w.longley-lbjs-1968]], 19 n.23). See [[cal.1968-01-14.elections-1968]]. Names: Johnson, Christian, Lady Bird Johnson.'
+    src:
+      c: 9206f7bd
+      rows:
+        - 'w.longley-lbjs-1968 19: all'
+    tags: [name:johnson-lyndon-b, name:christian-george, name:johnson-lady-bird]
   - id: cal.1968-01-16.europe-and-the-alliance
     when: Jan. 16
     date: '1968-01-16'
     thread: europe-and-the-alliance
     also: [middle-east, economy]
     c: 'London. Wilson to the Commons, the cuts after devaluation: British forces out of the Far East and the Persian Gulf by the end of 1971, no bases outside Europe and the Mediterranean but in the remaining dependencies; the F-111 order cancelled. Johnson to Wilson, Jan. 11, on Rusk''s report of the plan: "tantamount to British withdrawal from world affairs." Wilson to Johnson, Jan. 15: the sacrifices at home "pointless without drastic retrenchment abroad."'
-    n: '[H.C. Deb., Jan. 16, 1968, vol. 756, cols. 1577–1620](https://api.parliament.uk/historic-hansard/commons/1968/jan/16/public-expenditure). FRUS 1964–68, XII, docs. [289](https://history.state.gov/historicaldocuments/frus1964-68v12/d289), [291](https://history.state.gov/historicaldocuments/frus1964-68v12/d291). To check: [[w.dockrill-britains-retreat-from-east]]; [[w.wilson-labour-government-1964-1970]]; [[w.pimlott-harold-wilson]]. See [[cal.1967-11-18.economy]]. Names: Wilson, Johnson, Rusk.'
+    n: '[H.C. Deb., Jan. 16, 1968, vol. 756, cols. 1577–1620](https://api.parliament.uk/historic-hansard/commons/1968/jan/16/public-expenditure). FRUS 1964–68, XII, docs. [289](https://history.state.gov/historicaldocuments/frus1964-68v12/d289), [291](https://history.state.gov/historicaldocuments/frus1964-68v12/d291). [[w.schwartz-lyndon-johnson-and-europe]], 233 (an accelerated British withdrawal east of the Suez announced in January 1968; not the day, the Commons, the end of 1971 or the F-111). To check: [[w.dockrill-britains-retreat-from-east]]; [[w.wilson-labour-government-1964-1970]]; [[w.pimlott-harold-wilson]]. See [[cal.1967-11-18.economy]]. Names: Wilson, Johnson, Rusk.'
+    src:
+      c: ba542553
+      rows:
+        - 'https://api.parliament.uk/historic-hansard/commons/1968/jan/16/public-expenditure: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d289: all'
+        - 'w.schwartz-lyndon-johnson-and-europe 233: ?'
     tags: [name:wilson-harold, name:johnson-lyndon-b, name:rusk-dean]
     short: Britain out of the Far East and the Gulf
     time_range:
@@ -1184,7 +1301,7 @@ entries:
     date: '1968-01-16'
     thread: king-poor-peoples
     c: 'Atlanta, Ebenezer, SCLC''s staff retreat. King to the press: the campaign to open in early April; "jobs or income"; the demands in March, a negative income tax or a guaranteed annual income still to be chosen; blocking traffic "a last resort."'
-    n: '[[w.garrow-bearing-the-cross]], 592–93; [[w.branch-at-canaans-edge]], 671–72 ("patterned after the bonus marches"). To check: King, "Press Conference . . .," Jan. 16, 1968, King Papers, King Center; Washington Post, Jan. 17, 1968, A1; Atlanta Constitution, Jan. 17, 1968, 7; New York Times, Jan. 17, 1968, 44 (cited by [[w.garrow-bearing-the-cross]], 593 n.20); MLK press conference, Jan. 16, 1968, A/KS (cited by [[w.branch-at-canaans-edge]], 672). See [[cal.1967-12-04.king]]. Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 592–93; [[w.branch-at-canaans-edge]], 671–72 ("patterned after the bonus marches"). To check: King, "Press Conference . . .," Jan. 16, 1968, King Papers, King Center; *Washington Post*, Jan. 17, 1968, at A1; *Atlanta Constitution*, Jan. 17, 1968, at 7; [*New York Times*, Jan. 17, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/17/issue.html), at 44 (cited by [[w.garrow-bearing-the-cross]], 593 n.20); MLK press conference, Jan. 16, 1968, A/KS (cited by [[w.branch-at-canaans-edge]], 672). See [[cal.1967-12-04.king]]. Names: King.'
     src:
       c: 05b44b9f
       rows:
@@ -1233,6 +1350,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-01-16.program
+    when: Jan. 16
+    date: '1968-01-16'
+    thread: program
+    c: 'Kintner to Christian: Eisenhower''s and Kennedy''s State of the Union addresses longer than Johnson''s, with the word counts of the four Presidents before, to "plant this information appropriately."'
+    n: '[[w.longley-lbjs-1968]], 14 (by the note, 14 n.14). To check: Kintner to Christian, Jan. 16, 1968, Statements of Lyndon Baines Johnson, Jan. 7–17, 1968, box 260, LBJ Library (cited by [[w.longley-lbjs-1968]], 14 n.14). See [[cal.1967-12-19.program]]. Names: Kintner, Christian, Eisenhower, Kennedy, Johnson.'
+    src:
+      c: b8c86e1a
+      rows:
+        - 'w.longley-lbjs-1968 14: all'
+        - 'via w.longley-lbjs-1968 14 n.14: all'
+    tags: [name:kintner-robert-e, name:christian-george, name:eisenhower-dwight-d, name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1968-01-16.program-2
+    when: Jan. 16
+    date: '1968-01-16'
+    thread: program
+    c: From 9 a.m., the Cabinet officers to Califano's office, one an hour, each to read only the parts of the State of the Union on his department; the text out of the White House only to Rusk and McNamara. Johnson fears a leak "to some columnist."
+    n: '[[w.califano-triumph-and-tragedy-of]], 255 (the hours; Rusk and McNamara; the columnist); [[w.longley-lbjs-1968]], 19–20 (at Johnson''s request). See [[cal.1967-12-19.program]]. Names: Califano, Rusk, McNamara, Johnson.'
+    src:
+      c: 4382b43a
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 255: all'
+        - 'w.longley-lbjs-1968 19–20: A, C'
+    tags: [name:califano-joseph-a-jr, name:rusk-dean, name:mcnamara-robert-s, name:johnson-lyndon-b]
   - id: cal.1968-01-17.program
     when: Jan. 17
     date: '1968-01-17'
@@ -1240,7 +1381,7 @@ entries:
     thread: program
     also: [vietnam]
     c: 'State of the Union, to a joint session, 9:05 p.m. "Our country is challenged, at home and abroad." Asked: a $2.1 billion manpower program, 500,000 of the hard-core unemployed in private jobs within three years; model cities at the full $1 billion authorized; a ten-year campaign for 6 million housing units for low- and middle-income families, 300,000 begun next year; a child health program, prenatal care through the first year; truth in lending and the other consumer bills, a consumer counsel in the Justice Department; the Safe Streets Act, $100 million, and a gun control law; a Drug Control Act; the civil rights bills, fair housing among them; the surcharge, "about a penny out of each dollar''s income"; the gold reserves freed. The 1969 budget on the new basis: about $186 billion spent, $178 billion received. Vietnam: "America will persevere"; talks to follow the San Antonio formula. The nonproliferation treaty to the Senate this year.'
-    n: 'Annual Message to the Congress on the State of the Union, [1968–69 Pub. Papers 25](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=103) (Jan. 17, 1968). [[w.johnson-vantage-point]], 380 (Vietnam in the address); [[w.dallek-flawed-giant]], 513–17 (the address; the Safe Streets Act; the surcharge); [[w.califano-triumph-and-tragedy-of]], 255–57 (under 4,000 words asked, 4,070 delivered; the Cabinet one an hour in Califano''s office from 9 a.m. the day before; Rayburn''s "very warm welcome"; no clapping for the tax or civil rights; "a really true ceasefire"); [[w.branch-at-canaans-edge]], 674 ("Why then this restlessness?"); [[w.kotz-judgment-days]], 380. [[w.longley-lbjs-1968]], 23–28 (the address; the manpower program, housing, Safe Streets and guns, the surcharge, Vietnam). To check: Johnson, *AWhite House Diary* (1970), 616–29 (cited by [[w.branch-at-canaans-edge]], 674); New York Times, Jan. 18, 1968, pp. 1, 16, 17 (cited by [[w.branch-at-canaans-edge]], 674); New York Times, Jan. 19, 1968, p. 46 (cited by [[w.branch-at-canaans-edge]], 674); [[w.garrow-bearing-the-cross]], 594 (cited by [[w.branch-at-canaans-edge]], 674); " "Red Ink'' to Flood Government''s Books?," U.S. News & World Report, May 29, 1967, p. 31 (cited by [[w.branch-at-canaans-edge]], 675); New York Times, Jan. 30, 1968, pp. 1, 16 (cited by [[w.branch-at-canaans-edge]], 675); Califano to LBJ, Dec. 4, 1967, Box 31, WES, LBJ (cited by [[w.branch-at-canaans-edge]], 675); Califano to LBJ on budget message from Sargent Shriver, Jan. 9, 1968, Box 98, WE9, LBJ (cited by [[w.branch-at-canaans-edge]], 675). See [[cal.1967-01-10.program]]. Names: Johnson.'
+    n: 'Annual Message to the Congress on the State of the Union, [1968–69 Pub. Papers 25](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=103) (Jan. 17, 1968). [[w.johnson-vantage-point]], 380 (Vietnam in the address); [[w.dallek-flawed-giant]], 513–17 (the address; the Safe Streets Act; the surcharge); [[w.califano-triumph-and-tragedy-of]], 255–57 (under 4,000 words asked, 4,070 delivered; the Cabinet one an hour in Califano''s office from 9 a.m. the day before; Rayburn''s "very warm welcome"; no clapping for the tax or civil rights; "a really true ceasefire"); [[w.branch-at-canaans-edge]], 674 ("Why then this restlessness?"); [[w.kotz-judgment-days]], 380; [[w.schwartz-lyndon-johnson-and-europe]], 198 (the State of the Union address of Jan. 17, 1968, calling for legislation lifting the gold cover; not the hour, the other requests or the quotations); [[w.mann-grand-delusion]], 570 (the State of the Union, the evening of Jan. 17: "The enemy has been defeated in battle after battle"; the South Vietnamese under the government''s protection up "by more than a million since January of last year"; not the hour, the program asked or "America will persevere"); [[w.dallek-flawed-giant]], 502 (Jan. 17, the State of the Union: the enemy''s hope that "America''s will to persevere can be broken. Well—he is wrong. America will persevere"; readiness to halt the bombing and talk; not the domestic program or the hour). [[w.longley-lbjs-1968]], 23–28 (the address; the manpower program, housing, Safe Streets and guns, the surcharge, Vietnam). To check: Johnson, *AWhite House Diary* (1970), 616–29 (cited by [[w.branch-at-canaans-edge]], 674); [*New York Times*, Jan. 18, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/18/issue.html), at 1, 16, 17 (cited by [[w.branch-at-canaans-edge]], 674); [*New York Times*, Jan. 19, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/19/issue.html), at 46 (cited by [[w.branch-at-canaans-edge]], 674); [[w.garrow-bearing-the-cross]], 594 (cited by [[w.branch-at-canaans-edge]], 674); " "Red Ink'' to Flood Government''s Books?," *U.S. News & World Report*, May 29, 1967, at 31 (cited by [[w.branch-at-canaans-edge]], 675); [*New York Times*, Jan. 30, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/30/issue.html), at 1, 16 (cited by [[w.branch-at-canaans-edge]], 675); Califano to LBJ, Dec. 4, 1967, Box 31, WES, LBJ (cited by [[w.branch-at-canaans-edge]], 675); Califano to LBJ on budget message from Sargent Shriver, Jan. 9, 1968, Box 98, WE9, LBJ (cited by [[w.branch-at-canaans-edge]], 675). See [[cal.1967-01-10.program]]. Names: Johnson.'
     src:
       c: 289f82f7
       rows:
@@ -1258,6 +1399,9 @@ entries:
         - 'via x.1967-12-04.califano-to-lbj-dec-4-1967: all'
         - 'via x.1968-01-09.califano-to-lbj-on-budget-message: all'
         - 'w.kotz-judgment-days 380: A'
+        - 'w.schwartz-lyndon-johnson-and-europe 198: L'
+        - 'w.mann-grand-delusion 570: ?'
+        - 'w.dallek-flawed-giant 502: N'
     tags: [name:johnson-lyndon-b]
     short: State of the Union
     to:
@@ -1363,7 +1507,7 @@ entries:
     thread: war-opposition
     also: [women]
     c: 'The White House, Lady Bird Johnson''s Women Doers'' Luncheon on crime in the streets. Eartha Kitt, a guest, to the President''s wife: the young rebel in the streets against the war and the draft (Check the words).'
-    n: '[[w.johnson-white-house-diary]], Jan. 18, 1968. [[w.califano-triumph-and-tragedy-of]], 258 (some fifty guests in the family dining room; Kitt: "The best of this country rebel in the street . . . take pot . . . get high . . . don''t want to go to school because they''re going to . . . be snatched off from their mothers to be shot in Vietnam"; Mrs. Johnson: the war "doesn''t give us a free ticket not to try to work for better things"); [[w.kotz-judgment-days]], 383–84 (Lady Bird Johnson: "that still does not give us a free ticket not to try to work for better things"; King praises Kitt); [[w.bernstein-guns-or-butter]], 472 ("You are a mother, too"; Mrs. Johnson''s diary); [[w.debenedetti-american-ordeal]], 207 (three days after the Rankin Brigade; the FBI had cleared her). Made public: the CIA''s file on Kitt, [*New York Times*, Jan. 3, 1975](https://timesmachine.nytimes.com/timesmachine/1975/01/03/issue.html) (Check). Names: Lady Bird Johnson, Kitt.'
+    n: '[[w.johnson-white-house-diary]], Jan. 18, 1968. [[w.califano-triumph-and-tragedy-of]], 258 (some fifty guests in the family dining room; Kitt: "The best of this country rebel in the street . . . take pot . . . get high . . . don''t want to go to school because they''re going to . . . be snatched off from their mothers to be shot in Vietnam"; Mrs. Johnson: the war "doesn''t give us a free ticket not to try to work for better things"); [[w.kotz-judgment-days]], 383–84 (Lady Bird Johnson: "that still does not give us a free ticket not to try to work for better things"; King praises Kitt); [[w.bernstein-guns-or-butter]], 472 ("You are a mother, too"; Mrs. Johnson''s diary); [[w.debenedetti-american-ordeal]], 207 (three days after the Rankin Brigade; the FBI had cleared her); [[w.barrett-uncertain-warriors]], 119 (Kitt''s challenge to Mrs. Johnson at a meeting of prominent women on crime; no day). Made public: the CIA''s file on Kitt, [*New York Times*, Jan. 3, 1975](https://timesmachine.nytimes.com/timesmachine/1975/01/03/issue.html) (Check). Check: the words: Barrett, 119, has Kitt: "Boys I know across the nation feel it doesn''t pay to be a good guy. ... We send the best of this country off to be shot and maimed. ... No wonder the kids rebel and take pot.". Names: Lady Bird Johnson, Kitt.'
     src:
       c: 82bad3eb
       rows:
@@ -1373,6 +1517,7 @@ entries:
         - 'w.bernstein-guns-or-butter 472: A-B'
         - 'w.debenedetti-american-ordeal 207: A-B'
         - 'via w.debenedetti-american-ordeal 207 n.19: all'
+        - 'w.barrett-uncertain-warriors 119: B'
     tags: [name:johnson-lady-bird, name:kitt-eartha, city:washington]
     time_range:
       - 1968-01-18T16:00Z
@@ -1397,13 +1542,25 @@ entries:
     thread: king-poor-peoples
     also: [king]
     c: 'Atlanta, to students at Georgia State College: the State of the Union "dispiriting," nothing to "begin to grapple" with the cities and the poor; the nation can give jobs as the WPA did, "now when we are sick with wealth." "We''re going to Washington, and nothing will stop us from going. ... And we won''t be run out either!"'
-    n: '[[w.kotz-judgment-days]], 380. To check: *Atlanta Constitution*, Jan. 19, 1968, p. 16 (cited by [[w.kotz-judgment-days]], 380 n.1). See [[cal.1968-01-17.program]]. Names: Martin Luther King, Johnson.'
+    n: '[[w.kotz-judgment-days]], 380. To check: *Atlanta Constitution*, Jan. 19, 1968, at 16 (cited by [[w.kotz-judgment-days]], 380 n.1). See [[cal.1968-01-17.program]]. Names: Martin Luther King, Johnson.'
     src:
       c: 8885c2ad
       rows:
         - 'w.kotz-judgment-days 380: all'
         - 'via x.1968-01-19.atlanta-constitution-p16: all'
     tags: [name:king-martin-luther-jr, name:johnson-lyndon-b]
+  - id: cal.1968-01-18.king
+    when: Jan. 18
+    date: '1968-01-18'
+    thread: king
+    c: 'Saigon, the Hotel Caravelle. Abernathy, on a pilgrimage to India and South Vietnam for most of January, writes King: "I feel so empty away from you and our struggle for the freedom of our people." On the letter: "Please keep for the sake of history."'
+    n: '[[w.branch-at-canaans-edge]], 678 (the text and its footnote). To check: Abernathy to King, Jan. 18, 1968, King Papers, King Center, KP1f1; [[w.garrow-bearing-the-cross]], 594 (cited by [[w.branch-at-canaans-edge]], 678). Names: Abernathy, Martin Luther King.'
+    src:
+      c: 3bb3e164
+      rows:
+        - 'w.branch-at-canaans-edge 678: all'
+        - 'via x.1968-01-18.abernathy-to-mlk-jan-18-1968: all'
+    tags: [name:abernathy-ralph-david, name:king-martin-luther-jr, place:saigon]
   - id: cal.1968-01-19.defense
     when: Jan. 19
     date: '1968-01-19'
@@ -1432,29 +1589,45 @@ entries:
     thread: robert-kennedy-campaign-decision
     also: [elections-1968]
     c: 'New York, the day Johnson names Clifford for McNamara. Robert Kennedy, in the car to Westchester County with Newfield and Ronnie Eldridge: "He might just as well have appointed Attila the Hun!" Before he would run, Johnson shown psychotic, or the Senate''s doves asking him, or "one more politician of the national stature of Unruh." At dinner with Stephen Smith and Carter Burden, to Smith: "I think I''m going to cost you a lot of money this year!"'
-    n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"). See [[cal.1968-01-19.defense]]. Names: Robert Kennedy, Clifford, McNamara, Unruh, Stephen Smith, Johnson.'
+    n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"); [[w.schlesinger-robert-kennedy-and-his]], 838 ("if one more politician, on the level of Unruh, asks me to run, I''ll do it"; none of the Senate doves wants it). See [[cal.1968-01-19.defense]]. Names: Robert Kennedy, Clifford, McNamara, Unruh, Stephen Smith, Johnson, Newfield.'
     src:
       c: 1472d9ed
       rows:
         - 'w.chester-american-melodrama 107–8: all'
         - 'w.shesol-mutual-contempt 412: ?'
-    tags: [name:kennedy-robert-f, name:clifford-clark, name:mcnamara-robert-s, name:unruh-jesse-m, name:smith-stephen-e, name:johnson-lyndon-b]
+        - 'w.schlesinger-robert-kennedy-and-his 838: C'
+    tags: [name:kennedy-robert-f, name:clifford-clark, name:mcnamara-robert-s, name:unruh-jesse-m, name:smith-stephen-e, name:johnson-lyndon-b, name:newfield-jack]
+    variants:
+      - unit: C
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: if one more politician, on the level of Unruh, asks me to run, I'll do it
+        at: '838'
+      - unit: D
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: He warned Jean Smith and Patricia Lawford at dinner, "This is going to cost you a lot of money."
+        at: '838'
   - id: cal.1968-01-19.robert-kennedy-campaign-2
     when: Jan. 19
     date: '1968-01-19'
     thread: robert-kennedy-campaign-decision
     c: 'New York, a cocktail party, the evening. Melina Mercouri to Robert Kennedy: "You don''t want to be the man of whom history will say, ''He waited too long!''"'
-    n: '[[w.chester-american-melodrama]], 107–8; [[w.thomas-robert-kennedy]], 355, 468 (within forty-eight hours of Lippmann; whether he wanted to be the senator who waited for a safer day). Check: Thomas''s note puts the New York Film Critics Awards and Mercouri before the early hours of Jan. 19 (468). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. Names: Mercouri, Robert Kennedy.'
+    n: '[[w.chester-american-melodrama]], 107–8; [[w.thomas-robert-kennedy]], 355, 468 (within forty-eight hours of Lippmann; whether he wanted to be the senator who waited for a safer day); [[w.schlesinger-robert-kennedy-and-his]], 838 (Mercouri at the cocktail party, after a political day in Westchester: the senator who waited for a safer day). Check: Thomas''s note puts the New York Film Critics Awards and Mercouri before the early hours of Jan. 19 (468). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. Names: Mercouri, Robert Kennedy.'
     src:
       c: c16e976f
       rows:
         - 'w.chester-american-melodrama 107–8: all'
         - 'w.thomas-robert-kennedy 355, 468: B'
+        - 'w.schlesinger-robert-kennedy-and-his 838: A-B'
     tags: [name:mercouri-melina, name:kennedy-robert-f, state:ny]
     time_range:
       - 1968-01-19T22:00Z
       - 1968-01-20T05:00Z
     time_zone: America/New_York
+    variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: whether he wanted to go down in history as the senator who waited for a safer day (the book's paraphrase of Mercouri)
+        at: '838'
   - id: cal.1968-01-19.vietnam-operations
     when: Jan. 19
     date: '1968-01-19'
@@ -1544,7 +1717,7 @@ entries:
     date: '1968-01-21'
     thread: vietnam-khe-sanh
     c: 'Before dawn, Jan. 21, North Vietnamese troops attack Hill 861 and shell the combat base; its main ammunition dump blown up. The siege of the 26th Marines, some 6,000 men with the South Vietnamese rangers (Check), by elements of at least two North Vietnamese divisions. McNamara to Johnson, Jan. 22: "the long-expected attack on Khe Sanh" begun; Westmoreland "fully prepared." Niagara, the bombing around the base, about 40 B-52 and 500 tactical sorties a day.'
-    n: '[Johnson and McNamara, 8:27 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-january-22-1968), Jan. 22, Conversation WH6801-01-12608 (Miller Center). FRUS 1964–68, VI, doc. [22](https://history.state.gov/historicaldocuments/frus1964-68v06/d22). [[w.frankum-like-rolling-thunder]], 70–71 (the siege from the third week of January; Niagara); [[w.vietnam-victory-in-vietnam]], 215–17, 222–23, 229–30, 467 n.20 (the Route 9 front opened, the night of Jan. 20; the siege of the 26th Marines and the rangers, from Feb. 10; the bombing); [[w.cosmas-joint-chiefs-of-staff]], 142 (the attack; the dump; the defenders; Niagara); [[w.branch-at-canaans-edge]], 676 (the siege''s first artillery); [[w.schlight-united-states-air-force]], 280 (Niagara''s bombing from Jan. 22, as many as three hundred targets a day within a week); [[w.zaroulis-who-spoke-up]], 151 (six thousand Marines under attack from Jan. 21). [[w.westmoreland-soldier-reports]], 317, 339 (the attacks on Hills 861 and 881 South that night; the defenders, about 6,000; two North Vietnamese divisions and part of a third). Made public: FRUS 1964–68, VI (2002). To check: [[w.prados-valley-of-decision]]; [[w.pisor-end-of-the-line]]; [[w.hammel-khe-sanh]]; [[w.shulimson-u-s-marines-in-1997]]; [[w.al-chien-dich-tien-cong]]; [[w.braestrup-big-story]], 256–67 (cited by [[w.branch-at-canaans-edge]], 676); [[w.dallek-flawed-giant]], 502–3 (cited by [[w.branch-at-canaans-edge]], 676); [[w.langguth-our-vietnam]], 478–79 (cited by [[w.branch-at-canaans-edge]], 676); "5,000 Men Massed at Khesanh by U.S.," NYT, Jan. 24, 1968, pee (cited by [[w.branch-at-canaans-edge]], 676). See [[cal.1968-01-08.vietnam-2]]. Names: McNamara, Westmoreland, Johnson. Check: Cosmas, 142, gives about 5,700 Marines and 500 South Vietnamese Rangers after the reinforcements, against an estimated 20,000–25,000 North Vietnamese. Check: *Victory in Vietnam* opens the Route 9 front the night of Jan. 20, to draw American forces from the cities; the siege from Feb. 10; for the 170 days, 17,000 of the enemy put out of action, 13,000 Americans among them, and 480 aircraft (216–17, 222, 230).'
+    n: '[Johnson and McNamara, 8:27 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-january-22-1968), Jan. 22, Conversation WH6801-01-12608 (Miller Center). FRUS 1964–68, VI, doc. [22](https://history.state.gov/historicaldocuments/frus1964-68v06/d22). [[w.frankum-like-rolling-thunder]], 70–71 (the siege from the third week of January; Niagara); [[w.vietnam-victory-in-vietnam]], 215–17, 222–23, 229–30, 467 n.20 (the Route 9 front opened, the night of Jan. 20; the siege of the 26th Marines and the rangers, from Feb. 10; the bombing); [[w.cosmas-joint-chiefs-of-staff]], 142 (the attack; the dump; the defenders; Niagara); [[w.branch-at-canaans-edge]], 676 (the siege''s first artillery); [[w.schlight-united-states-air-force]], 280 (Niagara''s bombing from Jan. 22, as many as three hundred targets a day within a week); [[w.zaroulis-who-spoke-up]], 151 (six thousand Marines under attack from Jan. 21); [[w.berman-lyndon-johnsons-war]], 140 (rockets and mortars before dawn, Jan. 21; 6,000 Marines; 15,000 to 20,000 North Vietnamese; Niagara). [[w.westmoreland-soldier-reports]], 317, 339 (the attacks on Hills 861 and 881 South that night; the defenders, about 6,000; two North Vietnamese divisions and part of a third). Made public: FRUS 1964–68, VI (2002). To check: [[w.prados-valley-of-decision]]; [[w.pisor-end-of-the-line]]; [[w.hammel-khe-sanh]]; [[w.shulimson-u-s-marines-in-1997]]; [[w.al-chien-dich-tien-cong]]; [[w.braestrup-big-story]], 256–67 (cited by [[w.branch-at-canaans-edge]], 676); [[w.dallek-flawed-giant]], 502–3 (cited by [[w.branch-at-canaans-edge]], 676); [[w.langguth-our-vietnam]], 478–79 (cited by [[w.branch-at-canaans-edge]], 676); "5,000 Men Massed at Khesanh by U.S.," [*New York Times*, Jan. 24, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/24/issue.html), pee (cited by [[w.branch-at-canaans-edge]], 676). See [[cal.1968-01-08.vietnam-2]]. Names: McNamara, Westmoreland, Johnson. Check: Cosmas, 142, gives about 5,700 Marines and 500 South Vietnamese Rangers after the reinforcements, against an estimated 20,000–25,000 North Vietnamese. Check: *Victory in Vietnam* opens the Route 9 front the night of Jan. 20, to draw American forces from the cities; the siege from Feb. 10; for the 170 days, 17,000 of the enemy put out of action, 13,000 Americans among them, and 480 aircraft (216–17, 222, 230).'
     src:
       c: 8507c865
       rows:
@@ -1560,6 +1733,7 @@ entries:
         - 'via x.1968-01-24.5-000-men-massed-at-khesanh: all'
         - 'w.schlight-united-states-air-force 280: ?'
         - 'w.zaroulis-who-spoke-up 151: C'
+        - 'w.berman-lyndon-johnsons-war 140: A, C, F'
     tags: [name:mcnamara-robert-s, name:westmoreland-william, name:johnson-lyndon-b, place:khe-sanh]
     time_range:
       - 1968-01-20T16:00Z
@@ -1588,11 +1762,12 @@ entries:
     date: '1968-01-21'
     thread: japan-and-korea-blue-house
     c: Seoul, the night of Jan. 21. Thirty-one North Korean commandos, sent to kill Park, stopped by police within a few hundred yards of the Blue House; police and civilians killed in the fighting (Check the dead); one raider captured.
-    n: 'Editorial Note, [FRUS 1964–68, XXIX, pt. 1: Korea, doc. 144](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d144) (the night of Jan. 21; some thirty raiders, sent to kill Park; South Korean civilians and police killed). To check: [[w.bolger-scenes-from-an-unfinished]]; [[w.oberdorfer-two-koreas]]; [[w.cha-alignment-despite-antagonism]]; [[w.lerner-pueblo-incident]]. See [[cal.1967-11-14.japan-and-korea]]. Names: Park. Check: FRUS, doc. 144, has at least two raiders captured and at least five killed.'
+    n: 'Editorial Note, [FRUS 1964–68, XXIX, pt. 1: Korea, doc. 144](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d144) (the night of Jan. 21; some thirty raiders, sent to kill Park; South Korean civilians and police killed). [[w.poole-joint-chiefs-of-staff-2012]], 237 (a team of 31, under orders "to chop off President Park Chung Hee''s head," within 800 meters of the Blue House; nearly all killed or captured). To check: [[w.bolger-scenes-from-an-unfinished]]; [[w.oberdorfer-two-koreas]]; [[w.cha-alignment-despite-antagonism]]; [[w.lerner-pueblo-incident]]. See [[cal.1967-11-14.japan-and-korea]]. Names: Park. Check: FRUS, doc. 144, has at least two raiders captured and at least five killed.'
     src:
       c: 67656b10
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v29p1/d144: A-C'
+        - 'w.poole-joint-chiefs-of-staff-2012 237: A-B'
     tags: [name:park-chung-hee]
     short: the raid on the Blue House
     time_range:
@@ -1708,13 +1883,14 @@ entries:
     date: '1968-01-22'
     thread: vietnam-tet
     c: 'Westmoreland to Wheeler: a multibattalion attack possible at Huế, and on Quảng Trị City; "I believe the enemy will attempt a countrywide show of strength just prior to Tet."'
-    n: '[[w.westmoreland-soldier-reports]], 320, 329. Names: Westmoreland, Wheeler.'
+    n: '[[w.westmoreland-soldier-reports]], 320, 329; [[w.dallek-flawed-giant]], 502 (on the 22nd Westmoreland anticipates "a country-wide show of strength just prior to Tet, with Khe Sahn being the main event"; not Huế, Quảng Trị or Wheeler). Names: Westmoreland, Wheeler.'
     src:
       c: d6ce8ad2
       rows:
         - 'w.westmoreland-soldier-reports 320: all'
         - 'w.westmoreland-soldier-reports 329: A'
         - 'via x.1968-01-22.westmoreland-to-wheeler-hue-quang-tri: all'
+        - 'w.dallek-flawed-giant 502: ?'
     tags: [name:westmoreland-william, name:wheeler-earle]
     time_range:
       - 1968-01-22T01:00Z
@@ -1801,7 +1977,7 @@ entries:
     time_approx: true
     thread: japan-and-korea-pueblo
     c: 'The *Pueblo*, a Navy intelligence ship, Commander Bucher, taken by North Korean patrol boats off Wonsan and brought into port; 83 aboard, one killed. McNamara, at Johnson''s Tuesday lunch: the ship was in international waters, more than fifteen miles out. Moscow, asked to help: it had nothing to do with the incident. The *Enterprise* ordered toward Korea.'
-    n: 'FRUS 1964–68, XXIX, pt. 1, docs. [212](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d212), [213](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d213), [214](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d214); [217](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d217); [225](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d225) (the 83 men; the meetings of Jan. 24–25, as Poole cites them, 241 n.59). [[w.poole-joint-chiefs-of-staff-2012]], 237–38, 241 (the seizure; the *Enterprise*); [[w.drea-mcnamara-clifford-and-the-2011]], 487 (the seizure off Wonsan, in international waters; the Soviets asked); [[w.califano-triumph-and-tragedy-of]], 257 (the Pueblo and its crew taken); [[w.bernstein-guns-or-butter]], 473 (two subchasers and four torpedo boats; one seaman killed, three wounded; the crew held at Wonsan, 82 captives); [[w.poole-joint-chiefs-of-staff-2012]], 237. [[w.longley-lbjs-1968]], 32–34 (the Tuesday lunch; Moscow''s answer). [[w.rusk-as-i-saw-it-1990]], 391 (the seizure). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). To check: [[w.lerner-pueblo-incident]]; [[w.armbrister-matter-of-accountability]]; [[w.cheevers-act-of-war]]; [[w.bucher-bucher-my-story]]. See [[cal.1968-01-21.japan-and-korea]]. Names: Bucher, McNamara, Johnson.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, docs. [212](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d212), [213](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d213), [214](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d214); [217](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d217); [225](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d225) (the 83 men; the meetings of Jan. 24–25, as Poole cites them, 241 n.59). [[w.poole-joint-chiefs-of-staff-2012]], 237–38, 241 (the seizure; the *Enterprise*); [[w.drea-mcnamara-clifford-and-the-2011]], 487 (the seizure off Wonsan, in international waters; the Soviets asked); [[w.califano-triumph-and-tragedy-of]], 257 (the Pueblo and its crew taken); [[w.bernstein-guns-or-butter]], 473 (two subchasers and four torpedo boats; one seaman killed, three wounded; the crew held at Wonsan, 82 captives); [[w.poole-joint-chiefs-of-staff-2012]], 237; [[w.berman-lyndon-johnsons-war]], 144 (Bucher; the crew of 83; into Wonsan); [[w.nixon-rn]], 298 (North Korea''s seizure of the *Pueblo*, in January); [[w.zaroulis-who-spoke-up]], 150 (Jan. 23: the *Pueblo* captured off North Korea; Bucher and eighty-two men prisoners; North Korea says the twelve-mile limit was violated); [[w.dallek-flawed-giant]], 514 (the seizure of the Pueblo, an intelligence ship, by the North Koreans, three and a half miles beyond territorial waters in the Sea of Japan, one fatality; the White House sees it tied to Tet; not the commander, the port or the 83). [[w.longley-lbjs-1968]], 32–34 (the Tuesday lunch; Moscow''s answer). [[w.rusk-as-i-saw-it-1990]], 391 (the seizure). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). To check: [[w.lerner-pueblo-incident]]; [[w.armbrister-matter-of-accountability]]; [[w.cheevers-act-of-war]]; [[w.bucher-bucher-my-story]]. See [[cal.1968-01-21.japan-and-korea]]. Names: Bucher, McNamara, Johnson.'
     src:
       c: 5d80ae71
       rows:
@@ -1821,8 +1997,21 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 257: ?'
         - 'w.bernstein-guns-or-butter 473: A-B'
         - 'w.poole-joint-chiefs-of-staff-2012 237: A'
+        - 'w.berman-lyndon-johnsons-war 144: A-B'
+        - 'w.nixon-rn 298: A'
+        - 'w.zaroulis-who-spoke-up 150: A'
+        - 'w.dallek-flawed-giant 514: ?'
     tags: [name:bucher-lloyd-m, name:mcnamara-robert-s, name:johnson-lyndon-b]
     short: the *Pueblo*
+    variants:
+      - unit: C
+        witness: w.berman-lyndon-johnsons-war
+        reads: Seized in international waters some 26 miles off the coast of Japan
+        at: '144'
+      - unit: B
+        witness: w.zaroulis-who-spoke-up
+        reads: its commander, Lloyd M. Bucher, and his eighty-two men were taken prisoner
+        at: '150'
   - id: cal.1968-01-23.jobs-and-wages
     when: Jan. 23
     date: '1968-01-23'
@@ -1918,7 +2107,7 @@ entries:
     when: Jan. 23
     date: '1968-01-23'
     thread: laos
-    c: Three North Vietnamese battalions with seven tanks overrun the Laotian battalion at Ban Houei Sane, on their route to Khe Sanh; the Laotians flee into South Vietnam, fighting at Lang Vei; 113 lifted to Da Nang.
+    c: Three North Vietnamese battalions with seven tanks overrun the Laotian battalion at Ban Houei Sane, on their route to Khe Sanh; the Laotians flee into South Vietnam, fighting at Lang Vei; 113 lifted to Đà Nẵng.
     n: '[[w.anthony-war-in-northern-laos]], 265.'
     src:
       c: 9a103e24
@@ -1960,6 +2149,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-01-23.japan-and-korea-pueblo-2
+    when: Jan. 23
+    date: '1968-01-23'
+    thread: japan-and-korea-pueblo
+    c: '2:24 a.m., Rostow wakes Johnson by telephone: the Navy has a distress signal from the *Pueblo*. Johnson goes back to sleep.'
+    n: '[[w.longley-lbjs-1968]], 32; [[w.dallek-flawed-giant]], 514 (at two o''clock in the morning on Jan. 23 Johnson receives the news that the North Koreans have seized the Pueblo; not Rostow, the minute or the distress signal). See [[cal.1968-01-23.japan-and-korea]]. Names: Rostow, Johnson.'
+    src:
+      c: ea47f26e
+      rows:
+        - 'w.longley-lbjs-1968 32: all'
+        - 'w.dallek-flawed-giant 514: ?'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1968-01-24.japan-and-korea-blue-house
     when: Jan. 24
     date: '1968-01-24'
@@ -2015,7 +2216,7 @@ entries:
     time: 1968-01-24T18:00Z
     thread: japan-and-korea-pueblo
     c: 'The National Security Council, 1 p.m., on the *Pueblo*. McNamara: the seizure planned, the Soviets told of it in advance; the North Koreans "have no intention of returning the men or the ship." Wheeler: the ship''s "SOS"; no aircraft sent, the dark coming on and the defenses at Wonsan. McNamara, for Moorer: less than 1 percent chance of error in the ship''s position, 15½ to 17½ miles from shore. Rostow: Bucher''s confession "appears to have been written by the Soviets." Johnson: tell Fulbright, "so that he will be more responsible about his statements."'
-    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [218](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d218). [[w.longley-lbjs-1968]], 35–38 (the meeting; Longley cites it as doc. 213). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: McNamara, Wheeler, Moorer, Rostow, Bucher, Fulbright, Johnson.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [218](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d218). [[w.longley-lbjs-1968]], 35–38 (the meeting; Longley cites it as doc. 213); [[w.drea-mcnamara-clifford-and-the-2011]], 487 (McNamara agrees with Johnson that Moscow knew of Pyongyang''s intentions in advance, on Thompson''s impressions; no meeting or day in the text, its n.11 citing the notes of the NSC of Jan. 24 at 480). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: McNamara, Wheeler, Moorer, Rostow, Bucher, Fulbright, Johnson.'
     src:
       c: 0bc400b2
       rows:
@@ -2023,6 +2224,7 @@ entries:
         - 'w.longley-lbjs-1968 35–38: C-H'
         - 'via w.longley-lbjs-1968 36 n.10: C-E'
         - 'via w.longley-lbjs-1968 38 n.18: F-H'
+        - 'w.drea-mcnamara-clifford-and-the-2011 487: ?'
     tags: [name:mcnamara-robert-s, name:wheeler-earle, name:moorer-thomas, name:rostow-walt-w, name:bucher-lloyd-m, name:fulbright-j-william, name:johnson-lyndon-b]
   - id: cal.1968-01-24.robert-kennedy-campaign
     when: Jan. 24
@@ -2098,6 +2300,39 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-01-24.economy
+    when: Jan. 24
+    date: '1968-01-24'
+    thread: economy
+    also: [economy-surcharge]
+    c: 'Ackley to Johnson: a sure risk of critical deterioration of the world economy, even a world depression, unless prompt action reverses it.'
+    n: '[[w.dallek-flawed-giant]], 515. Names: Ackley, Johnson.'
+    src:
+      c: 71eb7025
+      rows:
+        - 'w.dallek-flawed-giant 515: all'
+    tags: [name:ackley-gardner, name:johnson-lyndon-b]
+  - id: cal.1968-01-24.japan-and-korea-pueblo-4
+    when: Jan. 24
+    date: '1968-01-24'
+    thread: japan-and-korea-pueblo
+    c: 'Meeting on the Korean crisis without the President, 6 p.m., senior State, OSD and JCS officials. McNamara: 100 to 300 aircraft to the region, easy, relatively riskless, "should be done." Clifford, defense secretary-designee: a cooling-off of several days, the incident too ambiguous for major military action. McNamara and Rusk: the USS Banner to the North Korean coast under heavy air cover. McNamara also: a Black Shield overflight of North Korea, and restraint on South Korean leaders.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [220](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d220) (Smith''s minutes; the hour). [[w.drea-mcnamara-clifford-and-the-2011]], 488 ("later that same evening"; n.13). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-24.japan-and-korea-pueblo-2]]. Names: McNamara, Clifford, Rusk.'
+    tags: [name:mcnamara-robert-s, name:clifford-clark, name:rusk-dean]
+  - id: cal.1968-01-24.japan-and-korea-pueblo-5
+    when: Jan. 24
+    date: '1968-01-24'
+    thread: japan-and-korea-pueblo
+    c: 'The President''s meeting, 7:50 to 8:25 p.m. McNamara: some 250 Air Force and Marine fighters and bombers and the carrier Enterprise to Korea and Japan; a selective call-up of Air Force and Marine reserve air units to replace them. Johnson approves, urging 300 aircraft at once; accepts the Banner''s return to the Korean coast; authorizes a Black Shield overflight of North Korea for the next day; agrees to a personal message to Kosygin asking Soviet help in freeing the Pueblo and crew.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [221](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d221) (Tom Johnson''s notes; the hour). [[w.drea-mcnamara-clifford-and-the-2011]], 488 ("a subsequent meeting on 24 January, this time including the president"; n.14). Not the NSC of 1 p.m.: Drea''s note 11 cites that meeting at 480. Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-24.japan-and-korea-pueblo-4]]. Names: McNamara, Johnson, Kosygin.'
+    tags: [name:mcnamara-robert-s, name:johnson-lyndon-b, name:kosygin-aleksei]
+  - id: cal.1968-01-24.japan-and-korea-pueblo-6
+    when: Jan. 24
+    date: '1968-01-24'
+    thread: japan-and-korea-pueblo
+    c: 'The Pueblo Group, 10:30 a.m. McNamara: a general military deployment into the Korean area, a show of force to signal U.S. intentions and indicate "things to come," with a presidential call-up of military reserves and a request to Congress to authorize involuntary extension of the terms of active-duty servicemen.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [217](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d217) (summary minutes of the Pueblo Group, 10:30 to 11:45 a.m.; McNamara''s two types of action, 473). [[w.drea-mcnamara-clifford-and-the-2011]], 487–88 ("on 24 January"; n.12). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: McNamara.'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1968-01-25.transition-and-staff
     when: Jan. 25
     date: '1968-01-25'
@@ -2125,12 +2360,15 @@ entries:
     date: '1968-01-25'
     thread: japan-and-korea-pueblo
     c: 'Executive Order 11392: units of the Naval Reserve, the Air Force Reserve and the Air National Guard to active duty for up to 24 months, some 14,600 men (Check).'
-    n: '[Executive Order 11392](https://www.presidency.ucsb.edu/documents/executive-order-11392-ordering-certain-units-the-ready-reserve-the-naval-reserve-air-force) (Jan. 25, 1968). [[w.longley-lbjs-1968]], 38 (Johnson''s account: "more than 14,000" reserves called). See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson.'
+    n: '[Executive Order 11392](https://www.presidency.ucsb.edu/documents/executive-order-11392-ordering-certain-units-the-ready-reserve-the-naval-reserve-air-force) (Jan. 25, 1968). [[w.longley-lbjs-1968]], 38 (Johnson''s account: "more than 14,000" reserves called); [[w.zaroulis-who-spoke-up]], 150 (Jan. 25: Johnson calls up 14,787 air force and navy reservists; Congress not notified in advance); [[w.berman-lyndon-johnsons-war]], 144 (after the seizure, not dated: 15,000 Air Force and Navy reservists mobilized, and 370 inactive aircraft; not the order or its terms); [[w.drea-mcnamara-clifford-and-the-2011]], 489 (the President approves at the evening meeting the mobilization of 28 Air Force and Navy reserve units, 14,787 men and 372 aircraft; not the order). See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson.'
     src:
       c: 46165cb5
       rows:
         - 'https://www.presidency.ucsb.edu/documents/executive-order-11392-ordering-certain-units-the-ready-reserve-the-naval-reserve-air-force: all'
         - 'w.longley-lbjs-1968 38: A'
+        - 'w.zaroulis-who-spoke-up 150: A'
+        - 'w.berman-lyndon-johnsons-war 144: ?'
+        - 'w.drea-mcnamara-clifford-and-the-2011 489: ?'
     tags: [name:johnson-lyndon-b]
     time_range:
       - 1968-01-25T14:00Z
@@ -2138,6 +2376,15 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.zaroulis-who-spoke-up
+        reads: President Johnson called up 14,787 air force and navy reservists
+        at: '150'
+      - unit: A
+        witness: w.drea-mcnamara-clifford-and-the-2011
+        reads: 28 Air Force and Navy reserve units, amounting to 14,787 men and 372 aircraft
+        at: '489'
   - id: cal.1968-01-25.defense-clifford
     when: Jan. 25
     date: '1968-01-25'
@@ -2175,7 +2422,7 @@ entries:
     time: 1968-01-25T13:30Z
     thread: japan-and-korea-pueblo
     c: 'Breakfast on the *Pueblo*, 8:30 a.m.: Rusk, McNamara, Goldberg, Rostow. Goldberg: going to the Security Council "will give us time." Rostow: the seizure justifies "equivalent reprisal"; Johnson: "Walt, I do not want to win the argument and lose the sale." Johnson''s steps: Congress to be brought in ("see if the Fulbrights represent this country"), Russell''s judgment sought, a letter to Kosygin.'
-    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [223](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d223). [[w.longley-lbjs-1968]], 39–40, 42–43 (the breakfast; Longley''s notes 24 and 27, for Russell and the time gained, cite it as doc. 213, 514–19). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: Rusk, McNamara, Goldberg, Rostow, Fulbright, Russell, Kosygin, Johnson.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [223](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d223). [[w.longley-lbjs-1968]], 39–40, 42–43 (the breakfast; Longley''s notes 24 and 27, for Russell and the time gained, cite it as doc. 213, 514–19); [[w.drea-mcnamara-clifford-and-the-2011]], 488 (n.15: the breakfast meeting; McNamara has detailed information on moving 303 aircraft to the Korean area, diverting 10,000 tons of bombs bound for South Vietnam and calling up 332 reserve aircraft; Johnson, questioning, concurs and approves a second carrier, the Kitty Hawk; not the hour, Goldberg, Rostow or the words quoted). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: Rusk, McNamara, Goldberg, Rostow, Fulbright, Russell, Kosygin, Johnson.'
     src:
       c: 99189bdb
       rows:
@@ -2183,6 +2430,7 @@ entries:
         - 'w.longley-lbjs-1968 39–40, 42–43: A, C-E'
         - 'via w.longley-lbjs-1968 40 n.22a: A, C-E'
         - 'via w.longley-lbjs-1968 43 n.27: E'
+        - 'w.drea-mcnamara-clifford-and-the-2011 488: ?'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:goldberg-arthur-j, name:rostow-walt-w, name:fulbright-j-william, name:russell-richard-b, name:kosygin-aleksei, name:johnson-lyndon-b]
   - id: cal.1968-01-25.japan-and-korea-pueblo-2
     when: Jan. 25
@@ -2190,13 +2438,14 @@ entries:
     time: 1968-01-25T16:27Z
     thread: japan-and-korea-pueblo
     c: 'Johnson to Kosygin, through Rusk and the embassy in Moscow: "I am urging your most serious personal attention to the irrational action of North Korean authorities in seizing the USS Pueblo in international waters"; it "cannot be accepted."'
-    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [224](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d224). [[w.longley-lbjs-1968]], 40 (the letter, quoted in n.22). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson, Kosygin, Rusk.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [224](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d224). [[w.longley-lbjs-1968]], 40 (the letter, quoted in n.22); [[w.drea-mcnamara-clifford-and-the-2011]], 488, the footnote (the cable from Johnson to Kosygin sent at 1627Z Jan. 25, an appeal to intercede for the ship and crew; not the words quoted). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson, Kosygin, Rusk.'
     src:
       c: ecf4da86
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v29p1/d224: all'
         - 'w.longley-lbjs-1968 40: A'
         - 'via w.longley-lbjs-1968 40 n.22b: A'
+        - 'w.drea-mcnamara-clifford-and-the-2011 488, the footnote: ?'
     tags: [name:johnson-lyndon-b, name:kosygin-aleksei, name:rusk-dean]
   - id: cal.1968-01-25.elections-1968
     when: Jan. 25
@@ -2281,13 +2530,59 @@ entries:
       c: b4a3a392
       rows:
         - 'w.staaveren-u-s-air-force 291: all'
+  - id: cal.1968-01-25.robert-kennedy-campaign-decision
+    when: Jan. 25
+    date: '1968-01-25'
+    thread: robert-kennedy-campaign-decision
+    c: 'New York, dinner at the Caravelle with Ethel Kennedy, the Benno Schmidts and Schlesinger, the day Johnson calls up 14,000 reserves after the *Pueblo*. Robert Kennedy: his brother "the strongest opponent" of his running; "if I run I will go a long way toward proving everything that everybody who doesn''t like me has said about me." Ethel and Schlesinger for running, Schmidt against. To Schmidt, driving back: "I''m convinced that what you say is right." By Schmidt''s and Schlesinger''s accounts.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 839–40. To check: Benno Schmidt, interview by Roberta Greene, 33–36; Schlesinger, journal, Jan. 25, 1968, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 840 n.76b) (cited by [[w.schlesinger-robert-kennedy-and-his]], 840 n.76). Names: Robert Kennedy, Schlesinger, Edward Kennedy.'
+    src:
+      c: 700bfcb0
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 839–40: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 840 n.76b: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:kennedy-edward-m]
+  - id: cal.1968-01-25.japan-and-korea-pueblo-4
+    when: Jan. 25
+    date: '1968-01-25'
+    thread: japan-and-korea-pueblo
+    c: 'McNamara, after the morning meeting, to his senior military and civilian staffs: the aim the return of the crew; "Excessive military pressure" might lessen its chances. No "overt action" yet to reinforce Korea and Japan; warning orders to designated Air Force and Navy units; the Kitty Hawk to move to Korea; nothing out of Southeast Asia or Europe without written approval from him or Nitze.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 489 (n.15; Drea also has McNamara defer the Chiefs'' request for 8,500 more men for the Eighth Army, its day not given, the memoranda of Jan. 29 and Feb. 1 among the note''s sources). To check: Nitze notes, Jan. 25, 1968, Nitze Papers, LC; JCSM-53-68 for SecDef, Jan. 25, 1968 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 489 n.15). See [[cal.1968-01-25.japan-and-korea-pueblo]]. Names: McNamara, Nitze.'
+    tags: [name:mcnamara-robert-s, name:nitze-paul]
+  - id: cal.1968-01-25.japan-and-korea-pueblo-8
+    when: Jan. 25
+    date: '1968-01-25'
+    thread: japan-and-korea-pueblo
+    c: 'Wheeler to CINCPAC: Johnson''s wish to avoid the appearance of an ultimatum to Pyongyang or Moscow; he must take into account the divisions at home over Vietnam.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 489 ("later that day"; n.15). See [[cal.1968-01-25.japan-and-korea-pueblo-4]]. Names: Wheeler, Johnson.'
+    tags: [name:wheeler-earle, name:johnson-lyndon-b]
+  - id: cal.1968-01-25.japan-and-korea-pueblo-5
+    when: Jan. 25
+    date: '1968-01-25'
+    thread: japan-and-korea-pueblo
+    c: 'White House working lunch. McNamara: authority for the President to summon as many as 150,000 reservists; no gaps in U.S. forces, against the charge of using the crisis "to plug up all the loopholes . . . in our current military posture." He cannot answer Johnson on the purpose of the deployments. Johnson approves 15 B-52s to Okinawa and 11 to Guam, disavowing any intent to use them against North Korea; Goldberg to ask for an urgent meeting of the Security Council. Clifford: caution on mobilization.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [225](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d225) (Tom Johnson''s notes of the luncheon). [[w.drea-mcnamara-clifford-and-the-2011]], 489 (n.16; Goldberg and the Council, "on the same busy day," n.18 citing the luncheon at 513). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-25.japan-and-korea-pueblo]]. Names: McNamara, Johnson, Goldberg, Clifford.'
+    tags: [name:mcnamara-robert-s, name:johnson-lyndon-b, name:goldberg-arthur-j, name:clifford-clark]
+  - id: cal.1968-01-25.japan-and-korea-pueblo-6
+    when: Jan. 25
+    date: '1968-01-25'
+    thread: japan-and-korea-pueblo
+    c: 'The Thursday night meeting on the Pueblo, 6:30 to 7:45 p.m. Wheeler: the aircraft deployments first for defense, second for reprisal attacks on North Korea if so decided. McNamara: needed to give air support to the Banner. Johnson spaces the movement of aircraft to South Korea over eight days and approves the mobilization of 28 Air Force and Navy reserve units, 14,787 men and 372 aircraft. Clifford: approaches through the UN and Kosygin with the start of a "quiet build up."'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [226](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d226) (Tom Johnson''s notes; the hour; Clifford''s "quiet build up," 518). [[w.drea-mcnamara-clifford-and-the-2011]], 489 (n.17). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-25.japan-and-korea]]. Names: Wheeler, McNamara, Johnson, Clifford, Kosygin.'
+    tags: [name:wheeler-earle, name:mcnamara-robert-s, name:johnson-lyndon-b, name:clifford-clark, name:kosygin-aleksei]
   - id: cal.1968-01-26.japan-and-korea-pueblo
     when: Jan. 26
     date: '1968-01-26'
     time: 1968-01-26T20:58Z
     thread: japan-and-korea-pueblo
     c: '3:58 p.m., Johnson''s address from the Fish Room: the raid on Seoul and the *Pueblo*; the question before the Security Council; "precautionary measures," no reduction of the forces in Vietnam. The Security Council meets on the American complaint, Goldberg for the United States (Check the day).'
-    n: 'The President''s Address to the Nation: The Situation With North Korea, [1968–69 Pub. Papers 77](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=155) (Jan. 26, 1968). FRUS 1964–68, XXIX, pt. 1, docs. [228](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d228), [229](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d229). See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson, Goldberg.'
+    n: 'The President''s Address to the Nation: The Situation With North Korea, [1968–69 Pub. Papers 77](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=155) (Jan. 26, 1968). FRUS 1964–68, XXIX, pt. 1, docs. [228](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d228), [229](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d229). [[w.drea-mcnamara-clifford-and-the-2011]], 489–90 (Johnson directs Goldberg Jan. 25 to ask for an urgent meeting of the Security Council; the Council convenes the next day, Jan. 26, two days of debate; not the address). See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson, Goldberg.'
+    src:
+      c: 5b7167bf
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=155: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v29p1/d228: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 489–90: D'
     tags: [name:johnson-lyndon-b, name:goldberg-arthur-j]
   - id: cal.1968-01-26.elections-1968
     when: Jan. 26
@@ -2390,6 +2685,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-01-26.japan-and-korea-pueblo-3
+    when: Jan. 26
+    date: '1968-01-26'
+    thread: japan-and-korea-pueblo
+    c: 'The President''s Friday morning meeting on the Pueblo, 11:08 a.m. McNamara gives Johnson a schedule of aircraft movements from Sunday, Jan. 28, to the following Thursday: 347 aircraft, 26 B-52s among them, within striking distance of North Korea. He asks that the President request from Congress an extension of enlistments and the mobilization of individual reservists, and proposes $100 million more in military assistance for South Korea in 1968. Johnson makes no decision.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [228](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d228) (Tom Johnson''s notes, 11:08 a.m. to 12:02 p.m.; the 347 aircraft with the Enterprise''s). [[w.drea-mcnamara-clifford-and-the-2011]], 490 (n.19). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-25.japan-and-korea-pueblo-6]]. Names: McNamara, Johnson.'
+    tags: [name:mcnamara-robert-s, name:johnson-lyndon-b]
   - id: cal.1968-01-27.civil-disorders
     when: Jan. 27
     date: '1968-01-27'
@@ -2410,7 +2712,12 @@ entries:
     thread: defense-thule
     also: [europe-and-the-alliance]
     c: 'Leddy to Ronne: in 1957 the United States had told Prime Minister Hansen of its need to store weapons at Thule.'
-    n: 'FRUS 1964–68, XII, doc. [4](https://history.state.gov/historicaldocuments/frus1964-68v12/d4). Made public: FRUS 1964–68, XII (2001); the 1957 exchange, in Denmark, 1995 (Check). See [[cal.1968-01-21.defense]]. Names: Leddy, Ronne, Hansen.'
+    n: 'FRUS 1964–68, XII, doc. [4](https://history.state.gov/historicaldocuments/frus1964-68v12/d4). [[w.drea-mcnamara-clifford-and-the-2011]], 486 (State informs the Danish ambassador Jan. 27 that no nuclear weapons are stored in Greenland nor overflown by U.S. aircraft carrying them; not Leddy by name, nor the 1957 exchange on that day). Made public: FRUS 1964–68, XII (2001); the 1957 exchange, in Denmark, 1995 (Check). See [[cal.1968-01-21.defense]]. Names: Leddy, Ronne, Hansen.'
+    src:
+      c: 0ef32b84
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d4: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 486: ?'
     tags: [name:leddy-john-m, name:ronne-torben, name:hansen-hans-c-s]
     time_range:
       - 1968-01-27T14:00Z
@@ -2463,6 +2770,12 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 168: all'
         - 'via x.1968-01-27.wiggins-midwife-to-history-post: all'
     tags: [name:wiggins-james-r]
+    time_range:
+      - 1968-01-27T10:00Z
+      - 1968-01-27T13:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-01-27.vietnam-tet-2
     when: Jan. 27
     date: '1968-01-27'
@@ -2504,6 +2817,13 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 211: all'
     tags: [name:mccarthy-eugene-j]
+  - id: cal.1968-01-27.japan-and-korea-pueblo
+    when: Jan. 27
+    date: '1968-01-27'
+    thread: japan-and-korea-pueblo
+    c: 'Kosygin''s reply to Johnson on the Pueblo, through the embassy in Moscow: "we cannot share the interpretation of events" the American side presents; the blame on repeated U.S. military provocations.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [230](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d230) (Moscow 2604, the embassy''s translation). [[w.drea-mcnamara-clifford-and-the-2011]], 488, the footnote (a "prompt and negative response"; the Soviets did pass the American message to the North Koreans). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-25.japan-and-korea-pueblo-2]]. Names: Kosygin, Johnson.'
+    tags: [name:kosygin-aleksei, name:johnson-lyndon-b]
   - id: cal.1968-01-28.vietnam-tet
     when: Jan. 28
     date: '1968-01-28'
@@ -2536,13 +2856,14 @@ entries:
     when: Jan. 28
     date: '1968-01-28'
     thread: robert-kennedy-campaign-decision
-    c: 'Hickory Hill. Robert Kennedy with Schlesinger and Goodwin: "We have to settle this thing one way or another." Guests from John Glenn to Rod Steiger; nothing settled.'
-    n: '[[w.shesol-mutual-contempt]], 412. To check: [[w.schlesinger-robert-kennedy-and-his]], 902–3 (cited by [[w.shesol-mutual-contempt]], 411). Names: Robert Kennedy, Schlesinger, Goodwin, Glenn.'
+    c: 'Hickory Hill, dinner. Robert Kennedy has asked Schlesinger and Goodwin: "We have to settle this thing one way or another." They find him among guests, John Glenn, Mike Nichols, Rod Steiger, the George Stevenses. Nothing settled.'
+    n: '[[w.shesol-mutual-contempt]], 412 (Schlesinger cited there at 902–3); [[w.schlesinger-robert-kennedy-and-his]], 840 (the guests). See [[cal.1968-01-25.robert-kennedy-campaign-decision]]. Names: Robert Kennedy, Schlesinger, Goodwin, Glenn.'
     src:
       c: bea6a6cb
       rows:
         - 'w.shesol-mutual-contempt 412: all'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:goodwin-richard-n, name:glenn-john-h-jr]
+    aliases: [cal.1968-01-28.robert-kennedy-campaign-decision]
   - id: cal.1968-01-28.japan-and-korea-pueblo
     when: Jan. 28–Feb. 6
     date: '1968-01-28'
@@ -2559,7 +2880,7 @@ entries:
     date: '1968-01-29'
     thread: vietnam-khe-sanh
     c: 'The Joint Chiefs to Johnson, in writing, at his request: Westmoreland "can hold Khe Sanh and we should hold Khe Sanh"; they concur.'
-    n: 'FRUS 1964–68, VI, docs. [30](https://history.state.gov/historicaldocuments/frus1964-68v06/d30), [35](https://history.state.gov/historicaldocuments/frus1964-68v06/d35) (Johnson to the Democratic leaders, Jan. 30). [[w.herring-lbj-and-vietnam]], 152–53 (the assurances asked and given, Jan. 29; Johnson to the congressional leaders on having the Chiefs "sign up in blood," then his denial); [[w.berman-lyndon-johnsons-war]], 141 (each to give "his views concerning the validity of the strategy"; the Chiefs agreed "that everything which had been asked for had been granted"); [[w.cosmas-joint-chiefs-of-staff]], 143 (Wheeler''s telephone talk with Westmoreland of Jan. 29, the Chiefs'' written concurrence to Johnson). Made public: FRUS 1964–68, VI (2002). [[w.clifford-counsel-to-the-president-2]], 469 (Johnson with the five Chiefs, Jan. 29, on Khe Sanh, by Clifford''s account). To check: notes of the meeting with the Joint Chiefs, Jan. 29, 1968, Tom Johnson''s Notes of Meetings, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 152 n.3); JCSM-63-68 to Pres, 29 Jan 68, JMF 911/301 (29 Jan 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 143 n.36). See [[cal.1968-01-21.vietnam]]. Names: Westmoreland, Wheeler, Johnson. Check: Herring has the assurances spoken (152); the Chiefs'' memorandum is in writing (doc. 30).'
+    n: 'FRUS 1964–68, VI, docs. [30](https://history.state.gov/historicaldocuments/frus1964-68v06/d30), [35](https://history.state.gov/historicaldocuments/frus1964-68v06/d35) (Johnson to the Democratic leaders, Jan. 30). [[w.herring-lbj-and-vietnam]], 152–53 (the assurances asked and given, Jan. 29; Johnson to the congressional leaders on having the Chiefs "sign up in blood," then his denial); [[w.berman-lyndon-johnsons-war]], 141 (each to give "his views concerning the validity of the strategy"; the Chiefs agreed "that everything which had been asked for had been granted"); [[w.cosmas-joint-chiefs-of-staff]], 143 (Wheeler''s telephone talk with Westmoreland of Jan. 29, the Chiefs'' written concurrence to Johnson); [[w.dallek-flawed-giant]], 502–03 (Jan. 29 meeting with the Joint Chiefs: Johnson presses for confirmation that Westmoreland can "take care of the expected enemy offensive against Khe Sahn"; the Chiefs confident Westmoreland "could cope with any contingency"; not the written statement or its words). Made public: FRUS 1964–68, VI (2002). [[w.clifford-counsel-to-the-president-2]], 469 (Johnson with the five Chiefs, Jan. 29, on Khe Sanh, by Clifford''s account). To check: notes of the meeting with the Joint Chiefs, Jan. 29, 1968, Tom Johnson''s Notes of Meetings, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 152 n.3); JCSM-63-68 to Pres, 29 Jan 68, JMF 911/301 (29 Jan 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 143 n.36). See [[cal.1968-01-21.vietnam]]. Names: Westmoreland, Wheeler, Johnson. Check: Herring has the assurances spoken (152); the Chiefs'' memorandum is in writing (doc. 30).'
     src:
       c: eb59d540
       rows:
@@ -2570,6 +2891,7 @@ entries:
         - 'w.berman-lyndon-johnsons-war 141: ?'
         - 'w.cosmas-joint-chiefs-of-staff 143: A-B'
         - 'via x.1968-01-29.jcsm-63-68-to-pres-29-jan: A-B'
+        - 'w.dallek-flawed-giant 502–03: ?'
     tags: [name:wheeler-earle, name:westmoreland-william, name:johnson-lyndon-b]
     time_range:
       - 1968-01-29T14:00Z
@@ -2791,7 +3113,7 @@ entries:
     thread: robert-kennedy-campaign
     also: [elections-1968]
     c: 'Washington, a breakfast with reporters at the National Press Club: Robert Kennedy will not oppose Johnson for the nomination "under any foreseeable circumstances."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 840; [[w.palermo-in-his-own-right]], 103 (the breakfast, fifteen columnists, off the record; "under any conceivable circumstances," Mankiewicz changing it to "foreseeable" for the release; not the day); [[w.cq-weekly-report]], Aug. 16, 1968, 2186 (Kennedy will not oppose Johnson, Jan. 30). [[w.chester-american-melodrama]], 106–7 (the breakfast, Jan. 30, Sperling''s group; "in no conceivable circumstances," Mankiewicz''s "foreseeable"); [[w.guthman-we-band-of-brothers]], 323 (the morning; fifteen newspapermen; the statement for attribution); [[w.white-making-of-the-president-1969]], 8–9, 158–59 (Lisagor; "under any foreseeable circumstances"); [[w.shesol-mutual-contempt]], 412 (the breakfast with fifteen columnists and correspondents; "foreseeable" for "conceivable"); [[w.thomas-robert-kennedy]], 356 ("any conceivable circumstances," softened to "foreseeable" by Mankiewicz); [[w.branch-at-canaans-edge]], 680 ("conceivable" changed to "foreseeable"); [[w.shesol-mutual-contempt]], 412 (Drew in the *Atlantic*: "if he runs, he runs, and he would not be held by press or public to his earlier disavowals"). To check: [[w.witcover-85-days]]; [[w.schlesinger-thousand-days-1965]], 902–4 (cited by [[w.branch-at-canaans-edge]], 680); Chafe, *Never Stop Running* (1993), 282–84 (cited by [[w.branch-at-canaans-edge]], 680); New York Times, Jan. 31, 1968, 19 (cited by [[w.chester-american-melodrama]], 107). Names: Robert Kennedy, Johnson. Check: Schlesinger, 840: "under any conceivable circumstances" at the breakfast; Mankiewicz had him put "foreseeable" before the statement was released. Check: Palermo, 103, dates the breakfast Jan. 31, as the first reports of Tet came in, Lisagor handing Kennedy the wire copy ("Yeah, we''re winning," citing [[w.oberdorfer-tet]], 114).'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 840; [[w.palermo-in-his-own-right]], 103 (the breakfast, fifteen columnists, off the record; "under any conceivable circumstances," Mankiewicz changing it to "foreseeable" for the release; not the day); [[w.cq-weekly-report]], Aug. 16, 1968, 2186 (Kennedy will not oppose Johnson, Jan. 30). [[w.chester-american-melodrama]], 106–7 (the breakfast, Jan. 30, Sperling''s group; "in no conceivable circumstances," Mankiewicz''s "foreseeable"); [[w.guthman-we-band-of-brothers]], 323 (the morning; fifteen newspapermen; the statement for attribution); [[w.white-making-of-the-president-1969]], 8–9, 158–59 (Lisagor; "under any foreseeable circumstances"); [[w.shesol-mutual-contempt]], 412 (the breakfast with fifteen columnists and correspondents; "foreseeable" for "conceivable"); [[w.thomas-robert-kennedy]], 356 ("any conceivable circumstances," softened to "foreseeable" by Mankiewicz); [[w.branch-at-canaans-edge]], 680 ("conceivable" changed to "foreseeable"); [[w.shesol-mutual-contempt]], 412 (Drew in the *Atlantic*: "if he runs, he runs, and he would not be held by press or public to his earlier disavowals"). To check: [[w.witcover-85-days]]; [[w.schlesinger-thousand-days-1965]], 902–4 (cited by [[w.branch-at-canaans-edge]], 680); Chafe, *Never Stop Running* (1993), 282–84 (cited by [[w.branch-at-canaans-edge]], 680); [*New York Times*, Jan. 31, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/31/issue.html), at 19 (cited by [[w.chester-american-melodrama]], 107). Names: Robert Kennedy, Johnson. Check: Schlesinger, 840: "under any conceivable circumstances" at the breakfast; Mankiewicz had him put "foreseeable" before the statement was released. Check: Palermo, 103, dates the breakfast Jan. 31, as the first reports of Tet came in, Lisagor handing Kennedy the wire copy ("Yeah, we''re winning," citing [[w.oberdorfer-tet]], 114).'
     src:
       c: f50f986b
       rows:
@@ -2844,6 +3166,11 @@ entries:
     time_band: predawn
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+    variants:
+      - unit: A
+        witness: w.nixon-rn
+        reads: the Tet offensive in Vietnam in February
+        at: '298'
   - id: cal.1968-01-30.defense-clifford
     when: Jan. 30
     date: '1968-01-30'
@@ -2886,7 +3213,7 @@ entries:
     follows:
       - cal.1968-01-30.vietnam
     c: 'Johnson with the Democratic leadership, 8:30 to 10:06 a.m., the attacks of Tet begun. Robert Byrd on Khe Sanh: 5,000 men against 40,000; Johnson: the Joint Chiefs, in writing, prepared. Russell Long: the response soft. Johnson: "There are 700 enemy dead now as a result of our actions in Vietnam. That is not soft."'
-    n: '[FRUS 1964–68, VI, doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v06/d35). [[w.barrett-uncertain-warriors]], 111–12 (Long; Johnson''s answer); [[w.berman-lyndon-johnsons-war]], 139, 143 (Byrd: "Are we prepared for this attack?"; Johnson: "I have it in writing that they are prepared"; Wheeler: 39,968 friendly against 38,590 enemy, "40 B-52 sorties and 500 tactical air sorties" a day; "This is ''68"). Made public: FRUS 1964–68, VI (2002). After [[cal.1968-01-30.vietnam]] (the sources above). See [[cal.1968-01-30.vietnam]]. Names: Johnson, Byrd, Long.'
+    n: '[FRUS 1964–68, VI, doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v06/d35). [[w.barrett-uncertain-warriors]], 111–12 (Long; Johnson''s answer); [[w.berman-lyndon-johnsons-war]], 139, 143 (Byrd: "Are we prepared for this attack?"; Johnson: "I have it in writing that they are prepared"; Wheeler: 39,968 friendly against 38,590 enemy, "40 B-52 sorties and 500 tactical air sorties" a day; "This is ''68"); [[w.dallek-flawed-giant]], 503 (Johnson tells the congressional Democrats the Chiefs assured him of adequate forces at Khe Sanh: "I went around the table . . . I have it in writing that they are prepared"; not the hours, Byrd, Long or the enemy dead). Made public: FRUS 1964–68, VI (2002). After [[cal.1968-01-30.vietnam]] (the sources above). See [[cal.1968-01-30.vietnam]]. Names: Johnson, Byrd, Long.'
     src:
       c: 966b9aeb
       rows:
@@ -2894,6 +3221,7 @@ entries:
         - 'w.barrett-uncertain-warriors 111–12: A, D-E'
         - 'via w.barrett-uncertain-warriors 112 n.11: D-E'
         - 'w.berman-lyndon-johnsons-war 139, 143: ?'
+        - 'w.dallek-flawed-giant 503: C'
     tags: [name:johnson-lyndon-b, name:byrd-robert-c, name:long-russell-b]
   - id: cal.1968-01-30.republican-party-congress-2
     when: Jan. 30
@@ -2980,12 +3308,47 @@ entries:
       c: 39e47050
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 451: all'
+  - id: cal.1968-01-30.vietnam-tet-2
+    when: Jan. 30
+    date: '1968-01-30'
+    thread: vietnam-tet
+    c: 'The Tuesday lunch. Rostow, back from a call from an NSC staffer: "We have just been informed we are being heavily mortared in Saigon. The Presidential Palace, our BOQ''s, the Embassy, and the city itself have been hit." Johnson: "This could be very bad."'
+    n: 'FRUS 1964–68, VI, doc. [36](https://history.state.gov/historicaldocuments/frus1964-68v06/d36) (Tom Johnson''s notes of the meeting). [[w.barrett-uncertain-warriors]], 109; [[w.clifford-counsel-to-the-president-2]], 472–73 (the Tuesday Lunch, the Senate confirming Clifford at midday; Rostow handed a note, out and back; Johnson: "This could be very bad"; not the NSC staffer''s call); [[w.longley-lbjs-1968]], 55–56 (the Tuesday lunch of the national security team on the Pueblo and Khe Sanh; at 2:35 p.m. Rostow is told of heavy mortar attacks in Saigon near the presidential palace and the Embassy; Johnson: "This could be bad"; not the words of the report); [[w.dallek-flawed-giant]], 504 (Rostow brings the news of the attacks on Saigon; Johnson: "This could be very bad. What can we do to shake them from this?"; not the lunch or Rostow''s words). To check: Tom Johnson''s notes of meetings, Jan. 30, 1968, box 3, LBJ Library (cited by [[w.barrett-uncertain-warriors]], 109 n.1a). Names: Rostow, Johnson.'
+    src:
+      c: e528d275
+      rows:
+        - 'w.barrett-uncertain-warriors 109: all'
+        - 'w.clifford-counsel-to-the-president-2 472–73: ?'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d36: A-C'
+        - 'w.longley-lbjs-1968 55–56: A'
+        - 'w.dallek-flawed-giant 504: C'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+    variants:
+      - unit: B
+        witness: w.clifford-counsel-to-the-president-2
+        reads: We have just received a flash message from the National Military Command Center. We are being heavily mortared in Saigon. The Presidential Palace, our military installations, the American Embassy, and other parts of the city have been hit.
+        at: '472'
+      - unit: C
+        witness: w.longley-lbjs-1968
+        reads: '"This could be bad."'
+        at: '56'
+  - id: cal.1968-01-30.vietnam-congress-2
+    when: Jan. 30
+    date: '1968-01-30'
+    thread: vietnam-congress
+    c: 'Thurmond in the Senate: "Mr. President, I have just received information that our embassy in Saigon has been overrun. Our airstrips are under attack." The embassy''s grounds had been broken into, and a battle followed.'
+    n: '[[w.barrett-uncertain-warriors]], 109. To check: 114 Cong. Rec. 1397 (1968) (Jan. 30, 1968) (cited by [[w.barrett-uncertain-warriors]], 109 n.4a). Names: Thurmond.'
+    src:
+      c: 0b4e8aad
+      rows:
+        - 'w.barrett-uncertain-warriors 109: all'
+    tags: [name:thurmond-strom]
   - id: cal.1968-01-31.vietnam-tet
     when: Jan. 31–Feb. 1
     date: '1968-01-31'
     thread: vietnam-tet
     c: 'The night of Jan. 30–31, in the Tet truce, the general offensive: Saigon, sappers inside the embassy''s grounds until morning (Check the hours), Tân Sơn Nhứt, the palace, the radio station; Huế, most of it taken, the Citadel with it; thirty-six province capitals and five of the six autonomous cities attacked. McNamara to Johnson: the enemy has "more power than some credit them with." Westmoreland, Feb. 1: 189 Americans killed, 4,320 of the enemy.'
-    n: '[Johnson and McNamara, 7:24 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-2), Jan. 31, Conversation WH6801-02-12617 (Miller Center). [FRUS 1964–68, VI, doc. 43](https://history.state.gov/historicaldocuments/frus1964-68v06/d43); [doc. 72](https://history.state.gov/historicaldocuments/frus1964-68v06/d72). [[w.westmoreland-soldier-reports]], 323–25, 328–29 (the night; Westmoreland at the embassy at about 8:30 a.m., and his press conference there: no Viet Cong inside the chancery; the attacks across the country; Huế); [[w.branch-at-canaans-edge]], 681 (the embassy compound; thirty-six of forty-four provincial capitals); [[w.macv-command-history-1968]], 129 (the night of Jan. 30–31; five of the six autonomous cities); [[w.zelizer-fierce-urgency-of-now]], 284; [[w.bernstein-guns-or-butter]], 474–75 (39 of 44 provincial capitals, 5 of 6 autonomous cities, at least 71 of 245 district towns; nineteen commandos at the embassy, five Americans killed; Huế''s Citadel); [[w.schlight-united-states-air-force]], 305 (55 percent of the South Vietnamese air force on leave when the offensive struck). Check: MACV''s History gives 27 of the 44 province capitals, five of the six autonomous cities, 58 of 245 district towns and more than 50 hamlets attacked, Jan. 30–31; 32,000 of the enemy killed and 5,800 detained, Jan. 29–Feb. 11, of 68,000 committed (129, 131). Check: Bernstein, 474, gives 39 of the 44 provincial capitals. To check: [[w.karnow-vietnam]], 536–39 (cited by [[w.branch-at-canaans-edge]], 681); [[w.braestrup-big-story]], 116–18 (cited by [[w.branch-at-canaans-edge]], 681); Charles Mohr, "U.S. Aide in Embassy Villa Kills Guerilla with Pistol," NYT, Jan. 31, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 681); [[w.appy-patriots]], 291 (cited by [[w.branch-at-canaans-edge]], 681); [[w.oberdorfer-tet]], 2–33, 116–34 (cited by [[w.branch-at-canaans-edge]], 681); [[w.dallek-flawed-giant]], 503 (cited by [[w.branch-at-canaans-edge]], 681); [[w.langguth-our-vietnam]], 468–71 (cited by [[w.branch-at-canaans-edge]], 681); CIA memorandum, "Vietnam— Operation Shock," Feb. 2, 1968, in ibid., p. 98 (cited by [[w.branch-at-canaans-edge]], 681); William J. Jorden to Walt Rostow, "Situation in Vietnam," Feb, 3, 1968, in ibid., p. 111 (cited by [[w.branch-at-canaans-edge]], 681). See [[cal.1968-01-30.vietnam]]. Names: McNamara, Westmoreland, Johnson. Check: *Victory in Vietnam*: Huế opened by rockets at 2:33 a.m., Jan. 31; the embassy''s attackers seventeen men of the 11th Commando Team, military police landed on the roof at 9 a.m. (218, 220).'
+    n: '[Johnson and McNamara, 7:24 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-2), Jan. 31, Conversation WH6801-02-12617 (Miller Center). [FRUS 1964–68, VI, doc. 43](https://history.state.gov/historicaldocuments/frus1964-68v06/d43); [doc. 72](https://history.state.gov/historicaldocuments/frus1964-68v06/d72). [[w.westmoreland-soldier-reports]], 323–25, 328–29 (the night; Westmoreland at the embassy at about 8:30 a.m., and his press conference there: no Viet Cong inside the chancery; the attacks across the country; Huế); [[w.branch-at-canaans-edge]], 681 (the embassy compound; thirty-six of forty-four provincial capitals); [[w.macv-command-history-1968]], 129 (the night of Jan. 30–31; five of the six autonomous cities); [[w.zelizer-fierce-urgency-of-now]], 284; [[w.bernstein-guns-or-butter]], 474–75 (39 of 44 provincial capitals, 5 of 6 autonomous cities, at least 71 of 245 district towns; nineteen commandos at the embassy, five Americans killed; Huế''s Citadel); [[w.schlight-united-states-air-force]], 305 (55 percent of the South Vietnamese air force on leave when the offensive struck); [[w.zaroulis-who-spoke-up]], 150–51 (the night of Jan. 30–31: the embassy overrun, retaken the next day; thirty-six cities attacked); [[w.longley-lbjs-1968]], 56 (McNamara by telephone, 7:24 a.m.: "they have more power than some credit them with"); [[w.dallek-flawed-giant]], 503 (the attacks of Jan. 30–31: thirty-six provincial capitals, five of the six largest cities, almost a third of the district centers; in Saigon the embassy compound, Tân Sơn Nhứt, the palace, the Joint General Staff; most of Huế and the Citadel taken, held twenty-six days; not the hours, the radio station, D or E). Check: MACV''s History gives 27 of the 44 province capitals, five of the six autonomous cities, 58 of 245 district towns and more than 50 hamlets attacked, Jan. 30–31; 32,000 of the enemy killed and 5,800 detained, Jan. 29–Feb. 11, of 68,000 committed (129, 131). Check: Bernstein, 474, gives 39 of the 44 provincial capitals. To check: [[w.karnow-vietnam]], 536–39 (cited by [[w.branch-at-canaans-edge]], 681); [[w.braestrup-big-story]], 116–18 (cited by [[w.branch-at-canaans-edge]], 681); Charles Mohr, "U.S. Aide in Embassy Villa Kills Guerilla with Pistol," [*New York Times*, Jan. 31, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/31/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 681); [[w.appy-patriots]], 291 (cited by [[w.branch-at-canaans-edge]], 681); [[w.oberdorfer-tet]], 2–33, 116–34 (cited by [[w.branch-at-canaans-edge]], 681); [[w.langguth-our-vietnam]], 468–71 (cited by [[w.branch-at-canaans-edge]], 681); CIA memorandum, "Vietnam— Operation Shock," Feb. 2, 1968, in ibid., p. 98 (cited by [[w.branch-at-canaans-edge]], 681); William J. Jorden to Walt Rostow, "Situation in Vietnam," Feb, 3, 1968, in ibid., p. 111 (cited by [[w.branch-at-canaans-edge]], 681). See [[cal.1968-01-30.vietnam]]. Names: McNamara, Westmoreland, Johnson. Check: *Victory in Vietnam*: Huế opened by rockets at 2:33 a.m., Jan. 31; the embassy''s attackers seventeen men of the 11th Commando Team, military police landed on the roof at 9 a.m. (218, 220).'
     src:
       c: 1cbef2ba
       rows:
@@ -3002,7 +3365,15 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 284: all'
         - 'w.bernstein-guns-or-butter 474–75: A-C'
         - 'w.schlight-united-states-air-force 305: A'
+        - 'w.zaroulis-who-spoke-up 150–51: A, C'
+        - 'w.longley-lbjs-1968 56: D'
+        - 'w.dallek-flawed-giant 503: B, C'
     tags: [name:mcnamara-robert-s, name:westmoreland-william, name:johnson-lyndon-b, place:saigon, place:tan-son-nhut, place:hue]
+    variants:
+      - unit: A
+        witness: w.zaroulis-who-spoke-up
+        reads: the United States Embassy in Saigon was overrun by Viet Cong guerrillas; it was not reclaimed until the next day
+        at: '150'
   - id: cal.1968-01-31.opinion
     when: Jan. 31
     date: '1968-01-31'
@@ -3044,7 +3415,7 @@ entries:
     thread: vietnam-tet
     also: [japan-and-korea-pueblo]
     c: 'Breakfast with the congressional leaders on defense, 8:40 a.m.: Stennis, Margaret Chase Smith, Hayden, Milton Young, Mahon, Bow, Bates. Johnson: "A desperate attack is being launched against us in Vietnam"; the North Koreans and Vietnam "a coordinated challenge"; "I ask you to measure your statements before you make them"; "We may have to extend enlistments. We may have to have 100 million dollars for Korea. We may need further call-ups." Helms: the incursions along the DMZ and the *Pueblo* connected, to divert attention from Vietnam.'
-    n: 'FRUS 1964–68, VI, doc. [39](https://history.state.gov/historicaldocuments/frus1964-68v06/d39). [[w.longley-lbjs-1968]], 45, 57–58 (the breakfast); [[w.berman-lyndon-johnsons-war]], 147–48 (the Chiefs "I almost had to have them sign up in blood"; Wheeler on the attackers in civilian and police clothes; Berman has it in the evening). Made public: FRUS 1964–68, VI (2002). Check: Longley names Rivers at the breakfast (45, 57); FRUS''s list of those present does not. See [[cal.1968-01-30.vietnam]]. Names: Stennis, Margaret Chase Smith, Hayden, Milton Young, Mahon, Bow, Bates, Helms, Johnson.'
+    n: 'FRUS 1964–68, VI, doc. [39](https://history.state.gov/historicaldocuments/frus1964-68v06/d39). [[w.longley-lbjs-1968]], 45, 57–58 (the breakfast); [[w.berman-lyndon-johnsons-war]], 147–48 (the Chiefs "I almost had to have them sign up in blood"; Wheeler on the attackers in civilian and police clothes; Berman has it in the evening); [[w.dallek-flawed-giant]], 505 (Jan. 31 with congressional leaders: "agents of the enemy" at work in this country; "The greatest source of Communist propaganda statements is our own statements"; asks the legislators to measure their statements; not the hours, the attendees, Korea or Helms). Made public: FRUS 1964–68, VI (2002). Check: Longley names Rivers at the breakfast (45, 57); FRUS''s list of those present does not. See [[cal.1968-01-30.vietnam]]. Names: Stennis, Margaret Chase Smith, Hayden, Milton Young, Mahon, Bow, Bates, Helms, Johnson.'
     src:
       c: 5a248836
       rows:
@@ -3054,6 +3425,7 @@ entries:
         - 'via w.longley-lbjs-1968 45 n.34b: C, F'
         - 'via w.longley-lbjs-1968 58 n.7: B, D-E'
         - 'w.berman-lyndon-johnsons-war 147–48: ?'
+        - 'w.dallek-flawed-giant 505: ?'
     tags: [name:stennis-john-c, name:smith-margaret-chase, name:hayden-carl, name:young-milton-r, name:mahon-george-h, name:bow-frank-t, name:bates-william-h, name:helms-richard, name:johnson-lyndon-b]
   - id: cal.1968-01.democratic-party
     when: Jan.
@@ -3215,7 +3587,7 @@ entries:
     date: 1968-01
     thread: mississippi
     c: Hattiesburg. A Forrest County grand jury indicts eleven in the Dahmer murder on State charges of arson and murder.
-    n: '[[w.branch-pillar-of-fire]], 610. To check: Hattiesburg American, Jan. 25, 1968, p. 1 (cited by [[w.branch-pillar-of-fire]], 610); NYT, Jan. 26, 1968, p. 17 (cited by [[w.branch-pillar-of-fire]], 610); Time, Apr. 8, 1966, p. 27 (cited by [[w.branch-pillar-of-fire]], 610). Branch: all-white juries convict at three trials; the life sentences upheld on appeal (610). Check: the day. See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
+    n: '[[w.branch-pillar-of-fire]], 610. To check: *Hattiesburg American*, Jan. 25, 1968, at 1 (cited by [[w.branch-pillar-of-fire]], 610); [*New York Times*, Jan. 26, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/26/issue.html), at 17 (cited by [[w.branch-pillar-of-fire]], 610); *Time*, Apr. 8, 1966, at 27 (cited by [[w.branch-pillar-of-fire]], 610). Branch: all-white juries convict at three trials; the life sentences upheld on appeal (610). Check: the day. See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
     src:
       c: 904f2b07
       rows:
@@ -3228,7 +3600,7 @@ entries:
     date: 1968-01
     thread: mississippi
     c: Jackson. Robert G. Clark of Holmes County takes his seat in the House, the first Negro in the legislature in the twentieth century; no invitation to the inaugural banquets.
-    n: '[[w.branch-at-canaans-edge]], 667. Check: the day. To check: [[w.dittmer-local-people]], 416; [[w.parker-black-votes-count]], 74–75 (cited by [[w.branch-at-canaans-edge]], 667); Southern Courier, Jan. 6—7, 1968, p1 (cited by [[w.branch-at-canaans-edge]], 667); Southern Courier, Jan. 20–21, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 667); [[w.dittmer-local-people]], 416 (cited by [[w.branch-at-canaans-edge]], 667); Parker, *Black Votes Count* (1994), 74–75 (cited by [[w.branch-at-canaans-edge]], 667); [[w.mills-this-little-light-of]], 190 (cited by [[w.branch-at-canaans-edge]], 667). Names: Clark.'
+    n: '[[w.branch-at-canaans-edge]], 667. Check: the day. To check: [[w.dittmer-local-people]], 416; [[w.parker-black-votes-count]], 74–75 (cited by [[w.branch-at-canaans-edge]], 667); *Southern Courier*, Jan. 6—7, 1968, p1 (cited by [[w.branch-at-canaans-edge]], 667); *Southern Courier*, Jan. 20–21, 1968, at 1 (cited by [[w.branch-at-canaans-edge]], 667); [[w.dittmer-local-people]], 416 (cited by [[w.branch-at-canaans-edge]], 667); Parker, *Black Votes Count* (1994), 74–75 (cited by [[w.branch-at-canaans-edge]], 667); [[w.mills-this-little-light-of]], 190 (cited by [[w.branch-at-canaans-edge]], 667). Names: Clark.'
     src:
       c: 51dc2e2b
       rows:
@@ -3510,3 +3882,197 @@ entries:
         - 'w.smith-on-his-own-terms 513: all'
         - 'via x.undated.hinman-our-dilemma: all'
     tags: [name:hinman-george-l, name:rockefeller-nelson]
+  - id: cal.1968-01.opinion
+    when: Jan.
+    date: 1968-01
+    thread: opinion
+    also: [vietnam-support]
+    c: '*Good Housekeeping*, "Should We Get Out of Vietnam?": from a poll of its readers, women want a "quick and final solution," military pressure preferred.'
+    n: '[[w.debenedetti-american-ordeal]], 204. To check: "Should We Get Out of Vietnam?" *Good Housekeeping*, Jan. 1968, 15 (cited by [[w.debenedetti-american-ordeal]], 204 n.5). Check: the day of issue; the figures.'
+    src:
+      c: e34d0053
+      rows:
+        - 'w.debenedetti-american-ordeal 204: all'
+        - 'via w.debenedetti-american-ordeal 204 n.5: all'
+  - id: cal.1968-01.draft
+    when: Jan.
+    date: 1968-01
+    thread: draft
+    c: Early 1968. Moses, in Canada since August 1966 under the name Robinson, applies for a Canadian passport to reach Africa by way of England. When the FBI screens Canadian passport files for King's killer, he panics and stays in hiding until after Ray's arrest in London.
+    n: '[[w.branch-pillar-of-fire]], 612. To check: Int. Bob Moses, Feb. 15, 1991 (cited by [[w.branch-pillar-of-fire]], 612). Check: the month; Branch gives "by early 1968." See [[cal.1966-08.draft]]. Names: Moses, King, Ray.'
+    src:
+      c: bcd769b2
+      rows:
+        - 'w.branch-pillar-of-fire 612: all'
+        - 'via x.1991-02-15.int-bob-moses-feb-15-1991: all'
+    tags: [name:moses-robert-p, name:king-martin-luther-jr, name:ray-james-earl]
+  - id: cal.1968-01-31.japan-and-korea-pueblo
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: japan-and-korea-pueblo
+    c: 'Pyongyang. A party leader: the American move to bring the *Pueblo* to the United Nations "a premeditated intrigue"; the Military Armistice Commission the precedent for such cases.'
+    n: '[[w.longley-lbjs-1968]], 45 (by Lerner). To check: [[w.lerner-pueblo-incident]], 143 (cited by [[w.longley-lbjs-1968]], 45 n.36). See [[cal.1968-01-23.japan-and-korea]].'
+    src:
+      c: d4d775d7
+      rows:
+        - 'w.longley-lbjs-1968 45: all'
+  - id: cal.1968-01.robert-kennedy-campaign-decision-4
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    also: [congress]
+    c: 'Robert Kennedy to Joseph Clark, a dove up for reelection: "Joe, would it murder you if I got into this thing?" Clark: "Of course not; even if it did, I would urge you to do it." But he will not commit himself to support him.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 837. Check: the day. To check: Congressional Record, July 30, 1968, 39717 (cited by [[w.schlesinger-robert-kennedy-and-his]], 837 n.62). Names: Robert Kennedy, Clark.'
+    src:
+      c: d1f7e121
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 837: all'
+    tags: [name:kennedy-robert-f, name:clark-joseph-s]
+  - id: cal.1968-01.robert-kennedy-campaign-decision-5
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    c: 'Robert Kennedy to Justin Feldman in New York: "I''ve talked to some of my colleagues in the Senate, and I can''t find any support." He could be responsible for the loss of six Senate seats; he cannot make the doves choose between him and the President: "I can''t do that."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 837. Check: the day. To check: Justin Feldman, interview by Roberta Greene, Feb. 4, 1970, 147, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 837 n.64). Names: Robert Kennedy.'
+    src:
+      c: 756b5319
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 837: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 837 n.64: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1968-01.robert-kennedy-campaign-decision-6
+    when: Jan., late
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    also: [opinion]
+    c: Louis Harris advises Robert Kennedy, in person, against running.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 839. Check: the day. To check: [[w.harris-anguish-of-change]], 207 (cited by [[w.schlesinger-robert-kennedy-and-his]], 839 n.70). Names: Louis Harris, Robert Kennedy.'
+    src:
+      c: 1342cf87
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 839: all'
+    tags: [name:harris-louis, name:kennedy-robert-f]
+  - id: cal.1968-01.robert-kennedy-campaign-decision-7
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    also: [elections-1968-mccarthy]
+    c: 'Mitterrand to Robert Kennedy: "I came here thinking that Senator McCarthy was a stalking horse for you, but now I think he is a stalking horse for President Johnson."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 844. Check: the day; the book sets it while McCarthy''s campaign was "desultory," before Tet. To check: Murray Kempton, "The Emperor''s Kid Brother," *Esquire*, July 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 844 n.12). Names: Mitterrand, Robert Kennedy, Eugene McCarthy, Johnson.'
+    src:
+      c: b22f4747
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 844: all'
+    tags: [name:kennedy-robert-f, name:mccarthy-eugene-j, name:johnson-lyndon-b]
+  - id: cal.1968-01.robert-kennedy-campaign-decision
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    c: Hickory Hill, a meeting of Robert Kennedy's advisers on running. Ethel Kennedy has the children hang a "Run, Bobby, Run" banner from a bedroom window and play "The Impossible Dream" on the stereo.
+    n: '[[w.thomas-robert-kennedy]], 352. Check: the day; Thomas: "a meeting of Kennedy advisers in January"; perhaps [[cal.1968-01-28.robert-kennedy-campaign]]. Names: Robert Kennedy.'
+    src:
+      c: 98c26048
+      rows:
+        - 'w.thomas-robert-kennedy 352: all'
+        - 'via x.undated.frank-burns-oral-history-jfk-library: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1968-01.robert-kennedy-campaign-decision-2
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    c: 'Ethel Kennedy, listening to Sorensen give the reasons her husband should not run: "Why, Ted, after all those high flown phrases you wrote for President Kennedy!"'
+    n: '[[w.thomas-robert-kennedy]], 352. Check: the day; Thomas puts it among the advisers'' talks of the winter. Names: Sorensen, Kennedy.'
+    src:
+      c: 04d0bc01
+      rows:
+        - 'w.thomas-robert-kennedy 352: all'
+        - 'via x.undated.frank-burns-oral-history-jfk-library: all'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f]
+  - id: cal.1968-01.robert-kennedy-campaign-decision-3
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    c: 'Robert Kennedy to Peter Maas, on running: "It will be the bad old Bobby trying to wreck the party because of his dead brother."'
+    n: '[[w.thomas-robert-kennedy]], 354 (by Maas''s account). Check: the day; Thomas puts it in the deliberations of January 1968. Names: Robert Kennedy.'
+    src:
+      c: 2214150e
+      rows:
+        - 'w.thomas-robert-kennedy 354: all'
+        - 'via x.undated.peter-maas-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1968-01-31.vietnam-tet-6
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: vietnam-tet
+    c: Quảng Trị City. Forsythe, Komer's military deputy, after a night as a rifleman in the MACV advisory compound, learns of an enemy force coming from the southeast, where the defenses have a gap. At his asking Rattan's brigade of the 1st Cavalry Division sends a battalion, less than an hour before the North Vietnamese; more than 400 of them killed. By Westmoreland's account.
+    n: '[[w.westmoreland-soldier-reports]], 331. Check: the day; the book gives none. See [[cal.1968-01-31.vietnam-tet]]. Names: Forsythe, Komer, Westmoreland.'
+    src:
+      c: f4952419
+      rows:
+        - 'w.westmoreland-soldier-reports 331: all'
+    tags: [name:forsythe-george-i, name:komer-robert-w, name:westmoreland-william, place:quang-tri]
+  - id: cal.1968-01-31.vietnam-tet-7
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: vietnam-tet
+    c: Long Bình. A Viet Cong regiment strikes the base's perimeter, the offensive's one major attack on an American base but the shared airfields; Davison's 199th Infantry Brigade intercepts part of it and surrounds the rest. By Westmoreland's account.
+    n: '[[w.westmoreland-soldier-reports]], 331. Check: the day; the book gives none. See [[cal.1968-01-31.vietnam-tet]]. Names: Westmoreland.'
+    src:
+      c: 181aa476
+      rows:
+        - 'w.westmoreland-soldier-reports 331: all'
+    tags: [name:westmoreland-william, place:long-binh]
+  - id: cal.1968-01.japan-and-korea-pueblo-2
+    when: Jan., from the 23rd
+    date: 1968-01
+    thread: japan-and-korea-pueblo
+    c: 'Rusk, publicly, on the seizure of the *Pueblo*: "I would not object to designating this an act of war in terms of the category of actions to be so construed. My strong advice to North Korea is to cool it."'
+    n: '[[w.berman-lyndon-johnsons-war]], 144. See [[cal.1968-01-23.japan-and-korea]]. Names: Rusk. Check: the day and the occasion.'
+    tags: [name:rusk-dean]
+  - id: cal.1968-01.japan-and-korea-pueblo-3
+    when: Jan., from the 23rd
+    date: 1968-01
+    thread: japan-and-korea-pueblo
+    c: 'North Korea releases a confession signed by Commander Bucher of the *Pueblo*: admissions of CIA contacts and of proposed aggression against Korea.'
+    n: '[[w.berman-lyndon-johnsons-war]], 144. See [[cal.1968-01-23.japan-and-korea]]. Names: Bucher. Check: the day.'
+    tags: [name:bucher-lloyd-m]
+  - id: cal.1968-01.japan-and-korea-pueblo-4
+    when: Jan., from the 23rd
+    date: 1968-01
+    thread: japan-and-korea-pueblo
+    also: [republican-party-congress]
+    c: 'Bates (R-Mass.), senior Republican on House Armed Services, on the seizure of the *Pueblo*: "a dastardly act of piracy."'
+    n: '[[w.berman-lyndon-johnsons-war]], 145. See [[cal.1968-01-23.japan-and-korea]]. Names: Bates. Check: the day and the occasion.'
+    tags: [name:bates-william-h]
+  - id: cal.1968-01.japan-and-korea-pueblo-5
+    when: Jan., from the 23rd
+    date: 1968-01
+    thread: japan-and-korea-pueblo
+    c: 'Church (D-Idaho) on the seizure of the *Pueblo*: "an act of war," the honor of the United States at stake.'
+    n: '[[w.berman-lyndon-johnsons-war]], 145. See [[cal.1968-01-23.japan-and-korea]]. Names: Church. Check: the day and the occasion.'
+    tags: [name:church-frank]
+  - id: cal.1968-01.opinion-2
+    when: Jan., late
+    date: 1968-01
+    thread: opinion
+    c: Johnson's approval 48 percent by late January, up ten points since October 1967.
+    n: '[[w.longley-lbjs-1968]], 30 ("By late January"; the poll not named). To check: *Washington Post*, Jan. 28, 1968 (cited by [[w.longley-lbjs-1968]], 30 n.59). See [[cal.1968-01-03.opinion]]. Names: Johnson. Check: the poll, its field dates and release.'
+    src:
+      rows:
+        - 'w.longley-lbjs-1968 30: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1968-01-31.vietnam-tet-8
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: vietnam-tet
+    c: 'Johnson to Westmoreland and Bunker: daily press briefings to "convey to the American public your confidence in our capability to blunt these enemy moves, and to reassure the public here that you have the situation under control."'
+    n: '[[w.dallek-flawed-giant]], 505. To check: Schandler, *The Unmaking of a President*, 83–84 (cited by [[w.dallek-flawed-giant]], 505 n.35). Names: Johnson, Westmoreland, Bunker.'
+    tags: [name:johnson-lyndon-b, name:westmoreland-william, name:bunker-ellsworth]
+  - id: cal.1968-01-31.opinion-2
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: opinion
+    also: [vietnam-tet]
+    c: 'Panzer to Johnson: "evidence that the people''s commitment to the Vietnam war is ''real and abiding.''" Despite the war, the domestic program need not be reduced, 64 to 24 percent; between guns and butter, the war first, 52 to 30.'
+    n: '[[w.dallek-flawed-giant]], 505. To check: Panzer to LBJ, Jan. 31, 1968, WHCF: EX/PR16 (cited by [[w.dallek-flawed-giant]], 505 n.36). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]

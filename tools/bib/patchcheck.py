@@ -25,6 +25,9 @@ STYLE
     in, January 1966's two sections among them), witnesses.problems (a `via x.` row's witness reached from an item of
     the note; a variant's unit and witness) and claims.problems (6: a `src` row naming what the note prints). An error
     the tree already had is not the patch's. Each message says the fix. A conflict the merge leaves is a warning.
+ 9. `add` of an entry of another list (a Part III name, `kja.who.<key>`; a work): not a calendar entry, so neither
+    date, thread, `n` nor the ledger (the ledger claims a day and thread); its id, `s` or `c`, its `section`, not in
+    the tree nor added twice; the rest is 8's (the entry as check holds it, once placed).
 """
 import collections
 import os
@@ -74,6 +77,19 @@ def check(series, path, legacy=False):
                 errors.append(f"add {eid}: parent {par!r} is no thread of the tree or the patch")
             if body.get("section") != lst.data.get("threads_section", "th") or not body.get("after"):
                 errors.append(f"add {eid}: a thread goes in the threads section, after the thread it follows")
+            added.add(eid)
+        elif kind == "add" and not (lst and str(eid or "").startswith(f"{lst.key}.")):
+            # an entry of a list, not the calendar (a Part III name, a work): neither date, thread nor the ledger
+            # (STYLE 9); its id, its `s` or `c`, its section, not in the tree; check.entry_problems holds the rest (8)
+            e = body.get("entry") or {}
+            if not e.get("id"):
+                errors.append(f"add {eid}: no id")
+            if not (e.get("s") or e.get("c")):
+                errors.append(f"add {eid}: no s or c")
+            if not body.get("section"):
+                errors.append(f"add {eid}: no section")
+            if series.get(eid) or eid in added:
+                errors.append(f"add {eid}: the tree has it" if series.get(eid) else f"add {eid}: added twice")
             added.add(eid)
         elif kind == "add":
             e = body.get("entry") or {}

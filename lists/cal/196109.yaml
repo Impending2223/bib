@@ -122,12 +122,24 @@ entries:
       - 1961-09-02T21:00Z
       - 1961-09-03T01:00Z
     time_zone: America/New_York
+  - id: cal.1961-09-02.press-and-broadcasting
+    when: Sept. 2
+    date: '1961-09-02'
+    thread: press-and-broadcasting
+    c: 'Hyannis Port. Kennedy''s interview with James Reston of the *New York Times*; walking on the beach after, asked what kind of world he would like to help make: "I haven''t had time to think about that yet."'
+    n: '[[w.reeves-president-kennedy]], 225. To check: James Reston, interview by Reeves (cited by [[w.reeves-president-kennedy]], 225). Check: the day; Reeves: "That weekend." Names: Kennedy, Reston.'
+    src:
+      c: 80322a0d
+      rows:
+        - 'w.reeves-president-kennedy 225: all'
+        - 'via w.reeves-president-kennedy 225 n.i-havent-had-time: all'
+    tags: [name:kennedy-john-f, name:reston-james]
   - id: cal.1961-09-03.economy
     when: Sept. 3
     date: '1961-09-03'
     thread: economy
     c: 'The 1961 minimum wage takes effect: $1.15 an hour, $1.25 from 1963. Newly covered retail and service workers start at $1.00.'
-    n: '[75 Stat. 65](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg65.pdf) (1961). Statement by the President on the Increase in the Minimum Wage, [1961 Pub. Papers 587](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=645). See [[cal.1961-03-24.program]] (Program) and [[cal.1961-05-05.space]] (Space).'
+    n: '[75 Stat. 65](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg65.pdf) (1961). Statement by the President on the Increase in the Minimum Wage, [1961 Pub. Papers 587](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=645). See [[cal.1961-03-24.program]] (Program) and [[cal.1961-05-05.jobs-and-wages]].'
   - id: cal.1961-09-03.testing
     when: Sept. 3
     date: '1961-09-03'
@@ -449,7 +461,7 @@ entries:
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: 'Chicago, Operation Transfer. 160 parents refused the transfers they ask; the schools'' names kept from the press. CORE sends the Board of Education seven pages of schools said to have unused classrooms: drop the neighborhood school policy for "fuller use of the school plant, racial integration, and equal opportunity." Raymond Pasnick, of the board: he has waited eighteen months for the same figures.'
-    n: '[[w.anderson-confronting-the-color-line]], 84. To check: Chicago Daily Defender, 8 September 1961 (cited by [[w.anderson-confronting-the-color-line]], 84 n.29); Chicago Daily Defender, 8 September 1961 (cited by [[w.anderson-confronting-the-color-line]], 84 n.30). See [[cal.1961-08-30.desegregation-schools]].'
+    n: '[[w.anderson-confronting-the-color-line]], 84. To check: *Chicago Daily Defender*, 8 September 1961 (cited by [[w.anderson-confronting-the-color-line]], 84 n.29); *Chicago Daily Defender*, 8 September 1961 (cited by [[w.anderson-confronting-the-color-line]], 84 n.30). See [[cal.1961-08-30.desegregation-schools]].'
     src:
       c: 8a47ca41
       rows:
@@ -463,12 +475,18 @@ entries:
     thread: school-aid
     also: [press-and-broadcasting]
     c: 'The *Times*, editorially, after the Calendar Wednesday vote: the "failure of leadership, in the White House, in the Department of HEW and in the House of Representatives"; "a fiasco for Federal aid to education and a disaster for the nation''s public schools."'
-    n: '[[w.graham-uncertain-triumph]], 24. To check: *New York Times*, Sept. 6, 1961 (cited by [[w.graham-uncertain-triumph]], 24 n.65).'
+    n: '[[w.graham-uncertain-triumph]], 24. To check: [*New York Times*, Sept. 6, 1961](https://timesmachine.nytimes.com/timesmachine/1961/09/06/issue.html) (cited by [[w.graham-uncertain-triumph]], 24 n.65).'
     src:
       c: 4339dfa8
       rows:
         - 'w.graham-uncertain-triumph 24: all'
         - 'via w.graham-uncertain-triumph 24 n.65: all'
+    time_range:
+      - 1961-09-06T09:00Z
+      - 1961-09-06T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-09-06.school-aid-2
     when: Sept. 6
     date: '1961-09-06'
@@ -499,6 +517,12 @@ entries:
         - 'w.smith-on-his-own-terms 360: B'
     tags: [name:wagner-robert-f-jr, name:levitt-arthur, name:desapio-carmine, state:ny, city:nyc]
     short: Wagner against Tammany
+    time_range:
+      - 1961-09-08T00:00Z
+      - 1961-09-08T06:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-09-07.mississippi
     when: Sept. 7
     date: '1961-09-07'
@@ -724,13 +748,20 @@ entries:
     c: Oklahoma, special election. An amendment directing the State Election Board to apportion the House by a fixed formula after each census refused, 26,407 to 88,779, 22.9 percent. Trial in any county where a crime may have been committed adopted, 91,909 to 23,750, 79.5 percent.
     n: '[Okla. State Election Bd., *Election Results, 1958–1966*, p. 25](https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=25). See [[cal.1960-09-20.state-constitutions-ok]].'
     tags: [state:ok]
+    time_range:
+      - 1961-09-13T01:00Z
+      - 1961-09-13T08:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
+    polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67) (1967).'
   - id: cal.1961-09-12.africa
     when: Sept. 12–13
     date: '1961-09-12'
     thread: africa
     also: [berlin-and-vienna]
     c: 'Keita of Mali and Sukarno at Andrews, Md., with the Belgrade conference''s message to Kennedy and Khrushchev. Kennedy''s reply, Sept. 13: careful consideration; negotiation without preparation risks failure; none under threat; on Berlin the United States will honor its commitments.'
-    n: 'Remarks of Welcome to President Sukarno of Indonesia and President Keita of Mali at Andrews Air Force Base, [1961 Pub. Papers 597](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=655) (Sept. 12, 1961); Statement by the President Following the Visit of President Sukarno and President Keita, [1961 Pub. Papers 601](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=659); Letter to the Presidents of Indonesia and Mali Concerning the Message and Declaration of the Belgrade Conference, [1961 Pub. Papers 602](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=660) (Sept. 13, 1961, released Sept. 14). [[w.sorensen-kennedy]], 620 (the talks with the Belgrade conference''s spokesmen). To check: [[w.rakove-kennedy-johnson-and-the]]; [[w.muehlenbeck-betting-on-the-africans]]. See [[cal.1961-09-01.testing]]. Names: Keita, Sukarno, Khrushchev.'
+    n: 'Remarks of Welcome to President Sukarno of Indonesia and President Keita of Mali at Andrews Air Force Base, [1961 Pub. Papers 597](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=655) (Sept. 12, 1961); Statement by the President Following the Visit of President Sukarno and President Keita, [1961 Pub. Papers 601](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=659); Letter to the Presidents of Indonesia and Mali Concerning the Message and Declaration of the Belgrade Conference, [1961 Pub. Papers 602](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=660) (Sept. 13, 1961, released Sept. 14). [[w.sorensen-kennedy]], 620 (the talks with the Belgrade conference''s spokesmen); [[w.reeves-president-kennedy]], 227–28 (Sukarno and Keita at Washington, Sept. 12, to report on the Belgrade conference; Andrews not named). To check: [[w.rakove-kennedy-johnson-and-the]]; [[w.muehlenbeck-betting-on-the-africans]]. See [[cal.1961-09-01.testing]]. Names: Keita, Sukarno, Khrushchev.'
     src:
       c: fd4a52d1
       rows:
@@ -738,6 +769,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=659: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=660: all'
         - 'w.sorensen-kennedy 620: A'
+        - 'w.reeves-president-kennedy 227–28: A'
     tags: [name:keita-modibo, name:sukarno, name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1961-09-12.berlin-and-vienna
     when: Sept. 12
@@ -763,14 +795,14 @@ entries:
     thread: cuba-bay-of-pigs
     also: [press-and-broadcasting]
     c: 'Kennedy to Luce, after Luce''s meeting with Taylor in New York, Murphy there and regretful: no public correction of the *Fortune* article. "I have felt from the beginning that it would not be in the public interest for the United States to take formal responsibility for the Cuban matter other than the personal responsibility which I have earlier assumed. ... I would prefer that we let the matter lie as it is."'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 191. To check: The President to Luce, Sept. 12, 1961, Taylor Papers, NDUL (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 n.73); Memorandum for the record, Col. Julian J. Ewell, Executive Assistant to Taylor, Sept. 14, 1961, Taylor Papers, NDUL (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 n.72). See [[cal.1961-08-30.cuba-bay-of-pigs]]. Names: Kennedy, Taylor.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 191. To check: The President to Luce, Sept. 12, 1961, Taylor Papers, NDUL (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 n.73); Memorandum for the record, Col. Julian J. Ewell, Executive Assistant to Taylor, Sept. 14, 1961, Taylor Papers, NDUL (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 n.72). See [[cal.1961-08-30.cuba-bay-of-pigs]]. Names: Kennedy, Taylor, Luce.'
     src:
       c: e8992f84
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 191: all'
         - 'via x.1961-09-12.the-president-to-luce-sept-12-1961: all'
         - 'via x.1961-09-14.memorandum-for-the-record-col-julian-j: A'
-    tags: [name:kennedy-john-f, name:taylor-maxwell]
+    tags: [name:kennedy-john-f, name:taylor-maxwell, name:luce-henry-r]
   - id: cal.1961-09-12.defense
     when: Sept. 12
     date: '1961-09-12'
@@ -843,6 +875,12 @@ entries:
     c: Atlanta's primary for mayor, Hartsfield retiring. Allen, lately president of the Chamber of Commerce, 37,398; Maddox, a restaurant owner and segregationist, 21,091; three others 41,355. Runoff between Allen and Maddox.
     n: '*Atlanta Constitution*, Sept. 14, 1961 ([archive.org](https://archive.org/details/per_atlanta-constitution_1961-09-14_94_76)). To check: [[w.allen-mayor]]; [[w.kruse-white-flight]]; [[w.stone-regime-politics]]; [[w.short-everything-is-pickrick]]. Names: Allen, Maddox, Hartsfield.'
     tags: [name:allen-ivan-jr, name:maddox-lester, name:hartsfield-william-b, state:ga, city:atlanta]
+    time_range:
+      - 1961-09-14T01:00Z
+      - 1961-09-14T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-09-13.defense
     when: Sept. 13
     date: '1961-09-13'
@@ -920,13 +958,14 @@ entries:
     time: 1961-09-15T17:00Z
     thread: testing
     c: First U.S. underground test of the series in Nevada.
-    n: '[U.S. Department of Energy, *United States Nuclear Tests, July 1945 through September 1992*, DOE/NV-209, rev. 16 (2015), 16–17](https://www.osti.gov/servlets/purl/1351809#page=36); [FRUS 1961–63, VII, doc. 74](https://history.state.gov/historicaldocuments/frus1961-63v07/d74). [[w.sorensen-kennedy]], 620 (the tests began almost immediately). See [[cal.1961-09-01.testing]].'
+    n: '[U.S. Department of Energy, *United States Nuclear Tests, July 1945 through September 1992*, DOE/NV-209, rev. 16 (2015), 16–17](https://www.osti.gov/servlets/purl/1351809#page=36); [FRUS 1961–63, VII, doc. 74](https://history.state.gov/historicaldocuments/frus1961-63v07/d74). [[w.sorensen-kennedy]], 620 (the tests began almost immediately); [[w.reeves-president-kennedy]], 228. See [[cal.1961-09-01.testing]].'
     src:
       c: 8a2449a4
       rows:
         - 'https://www.osti.gov/servlets/purl/1351809#page=36: all'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d74: all'
         - 'w.sorensen-kennedy 620: A'
+        - 'w.reeves-president-kennedy 228: A'
   - id: cal.1961-09-15.opinion
     when: Sept. 15
     date: '1961-09-15'
@@ -1053,7 +1092,7 @@ entries:
     date: '1961-09-18'
     thread: congo
     c: Hammarskjöld killed in a crash near Ndola on his way to meet Tshombe.
-    n: 'Statement by the President on the Death of Dag Hammarskjold, [1961 Pub. Papers 605](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=663). [FRUS 1961–63, XX, doc. 118](https://history.state.gov/historicaldocuments/frus1961-63v20/d118). [[w.rusk-as-i-saw-it-1990]], 278; [[w.sorensen-kennedy]], 520; [[w.ball-past-has-another-pattern]], 229 (Ball at the Bank and Fund''s annual meeting in Vienna when the crash is announced). See [[cal.1961-02-13.congo]]. The UN inquiries of 2015–24 reopened the cause. Names: Hammarskjöld, Tshombe.'
+    n: 'Statement by the President on the Death of Dag Hammarskjold, [1961 Pub. Papers 605](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=663). [FRUS 1961–63, XX, doc. 118](https://history.state.gov/historicaldocuments/frus1961-63v20/d118). [[w.rusk-as-i-saw-it-1990]], 278; [[w.sorensen-kennedy]], 520; [[w.ball-past-has-another-pattern]], 229 (Ball at the Bank and Fund''s annual meeting in Vienna when the crash is announced); [[w.sorensen-kennedy]], 293 (Sept. 18, Hammarskjöld killed in a plane crash touring the Congo). See [[cal.1961-02-13.congo]]. The UN inquiries of 2015–24 reopened the cause. Names: Hammarskjöld, Tshombe.'
     src:
       c: 5224d830
       rows:
@@ -1063,6 +1102,7 @@ entries:
         - 'w.sorensen-kennedy 520: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
         - 'w.ball-past-has-another-pattern 229: A'
+        - 'w.sorensen-kennedy 293: A'
     tags: [name:hammarskjold-dag, name:tshombe-moise]
   - id: cal.1961-09-18.berlin-and-vienna
     when: Sept. 18
@@ -1522,7 +1562,7 @@ entries:
     thread: freedom-rides
     also: [desegregation-public-places]
     c: The ICC orders segregation signs out of interstate terminals from Nov. 1.
-    n: '[Interstate Commerce Commission, No. MC-C-3358, 26 Fed. Reg. 9166](https://www.govinfo.gov/app/details/FR-1961-09-29) (Sept. 29, 1961). [[w.navasky-kennedy-justice]], 21 (the order, in September; Tucker''s part); [[w.mann-walls-of-jericho]], 314 (the order on terminals, under the Justice Department''s pressure); [[w.young-easy-burden]], 165–66 (the ICC''s order of Sept. 22, effective Nov. 1). To check: [[w.arsenault-freedom-riders]]. See [[cal.1961-05-04.freedom-rides]]; [[cal.1961-05-29.freedom-rides]].'
+    n: '[Interstate Commerce Commission, No. MC-C-3358, 26 Fed. Reg. 9166](https://www.govinfo.gov/app/details/FR-1961-09-29) (Sept. 29, 1961). [[w.navasky-kennedy-justice]], 21 (the order, in September; Tucker''s part); [[w.mann-walls-of-jericho]], 314 (the order on terminals, under the Justice Department''s pressure); [[w.young-easy-burden]], 165–66 (the ICC''s order of Sept. 22, effective Nov. 1); [[w.schlesinger-robert-kennedy-and-his]], 300 ("On September 22, 1961, the order was issued"; not Nov. 1); [[w.wofford-of-kennedys-and-kings]], 157 (the ICC issues the order on Sept. 22, "under heavy administration pressure"; the Justice Department takes down signs in railroad, airport and bus terminals; not Nov. 1). To check: [[w.arsenault-freedom-riders]]. See [[cal.1961-05-04.freedom-rides]]; [[cal.1961-05-29.freedom-rides]].'
     src:
       c: 736033f3
       rows:
@@ -1531,6 +1571,8 @@ entries:
         - 'w.mann-walls-of-jericho 314: A'
         - 'via w.mann-walls-of-jericho 314 n.kennedy-responded-to-the-freedom-rides: A'
         - 'w.young-easy-burden 165–66: A'
+        - 'w.schlesinger-robert-kennedy-and-his 300: ?'
+        - 'w.wofford-of-kennedys-and-kings 157: ?'
     short: the order
     time_range:
       - 1961-09-22T13:00Z
@@ -1547,6 +1589,12 @@ entries:
     n: '*Atlanta Constitution*, Sept. 23, 1961 ([archive.org](https://archive.org/details/per_atlanta-constitution_1961-09-23_94_84)). See [[cal.1961-09-13.georgia-atlanta]]. Names: Allen, Maddox.'
     tags: [name:allen-ivan-jr, name:maddox-lester, state:ga, city:atlanta]
     short: Allen over Maddox
+    time_range:
+      - 1961-09-23T01:00Z
+      - 1961-09-23T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-09-22.middle-east
     when: Sept. 22
     date: '1961-09-22'
@@ -1571,6 +1619,12 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 431: all'
         - 'via w.schlesinger-robert-kennedy-and-his 431 n.64: all'
     tags: [name:kennedy-john-f]
+    time_range:
+      - 1961-09-22T16:00Z
+      - 1961-09-22T22:00Z
+    time_band: afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1961-09-22.laos
     when: Sept. 22–25
     date: '1961-09-22'
@@ -1643,13 +1697,14 @@ entries:
     date: '1961-09-23'
     thread: civil-rights-the-executive
     c: Thurgood Marshall nominated to the Second Circuit; recess-appointed in October. Eastland's subcommittee holds the confirmation for a year.
-    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt16/pdf/GPO-CRECB-1961-pt16-2-2.pdf) (1961). [[w.schlesinger-robert-kennedy-and-his]], 308; [[w.navasky-kennedy-justice]], 243 (the nomination; the year''s delay in Eastland''s committee). To check: [[w.williams-thurgood-marshall]]. Names: Marshall, Eastland. Check: Navasky dates the nomination Sept. 26 (243). Check: the page.'
+    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt16/pdf/GPO-CRECB-1961-pt16-2-2.pdf) (1961). [[w.schlesinger-robert-kennedy-and-his]], 308; [[w.navasky-kennedy-justice]], 243 (the nomination; the year''s delay in Eastland''s committee); [[w.mann-walls-of-jericho]], 306 (Marshall named to the Second Circuit; Eastland holds up the nomination for many months). To check: [[w.williams-thurgood-marshall]]. Names: Marshall, Eastland. Check: Navasky dates the nomination Sept. 26 (243). Check: the page.'
     src:
       c: 31d992bc
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt16/pdf/GPO-CRECB-1961-pt16-2-2.pdf: all'
         - 'w.schlesinger-robert-kennedy-and-his 308: all'
         - 'w.navasky-kennedy-justice 243: A, C'
+        - 'w.mann-walls-of-jericho 306: A, C'
     tags: [name:marshall-thurgood, name:eastland-james-o]
     time_range:
       - 1961-09-23T13:00Z
@@ -1713,6 +1768,18 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 380–81: all'
         - 'via w.schlesinger-robert-kennedy-and-his 381 n.51: all'
     tags: [name:kennedy-robert-f, name:reston-james]
+  - id: cal.1961-09-24.laos
+    when: Sept. 24
+    date: '1961-09-24'
+    thread: laos
+    also: [cuba-bay-of-pigs]
+    c: 'New York, his hotel room, the eve of the address to the UN. Kennedy to Sorensen, on foreign policy: "Thank God the Bay of Pigs happened when it did. Otherwise we''d be in Laos by now—and that would be a hundred times worse." By Sorensen''s account.'
+    n: '[[w.sorensen-kennedy]], 644. The address: Address in New York City Before the General Assembly of the United Nations, [1961 Pub. Papers 618](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=676) (Sept. 25, 1961). Names: Kennedy, Sorensen.'
+    src:
+      c: 3185a6d7
+      rows:
+        - 'w.sorensen-kennedy 644: all'
+    tags: [name:kennedy-john-f, name:sorensen-theodore-c]
   - id: cal.1961-09-25.europe-and-the-alliance-cyprus
     when: Sept. 25
     date: '1961-09-25'
@@ -1732,7 +1799,7 @@ entries:
     time: 1961-09-25T15:30Z
     thread: testing
     c: Address to the UN General Assembly a week after Hammarskjöld's death. Against the troika; for disarmament; the sword of Damocles.
-    n: 'Address in New York City Before the General Assembly of the United Nations, [1961 Pub. Papers 618](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=676) (Sept. 25, 1961). [[w.sorensen-kennedy]], 519–21; [[w.fursenko-khrushchevs-cold-war]], 397 ("We are committed to no rigid formula"; one division to Europe, not six); [[w.sorensen-kennedy]], 620 (the Soviets "secretly preparing new experiments in destruction"). Recording (K–J Adm. II.I). Names: Hammarskjöld.'
+    n: 'Address in New York City Before the General Assembly of the United Nations, [1961 Pub. Papers 618](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=676) (Sept. 25, 1961). [[w.sorensen-kennedy]], 519–21; [[w.fursenko-khrushchevs-cold-war]], 397 ("We are committed to no rigid formula"; one division to Europe, not six); [[w.sorensen-kennedy]], 620 (the Soviets "secretly preparing new experiments in destruction"); [[w.reeves-president-kennedy]], 235 (the address; against the "Troika"; the test ban). Recording (K–J Adm. II.I). Names: Hammarskjöld.'
     src:
       c: 0d85f145
       rows:
@@ -1740,6 +1807,7 @@ entries:
         - 'w.sorensen-kennedy 519–21: all'
         - 'w.fursenko-khrushchevs-cold-war 397: A'
         - 'w.sorensen-kennedy 620: A'
+        - 'w.reeves-president-kennedy 235: A, B'
     tags: [name:kennedy-john-f, name:hammarskjold-dag]
   - id: cal.1961-09-25.mississippi
     when: Sept. 25
@@ -1767,6 +1835,17 @@ entries:
         - 'via w.branch-parting-the-waters 511 n.1: B'
     tags: [name:moses-robert-p, name:lee-herbert, name:hurst-e-h]
     short: Herbert Lee killed
+  - id: cal.1961-09-25.elections-1962
+    when: Sept. 25
+    date: '1961-09-25'
+    thread: elections-1962
+    c: 'Nixon''s house, after dinner, by Nixon''s account. Nixon to his wife and daughters: he is now thinking of running for governor. Pat Nixon against: "If you run this time, I''m not going to be out campaigning with you"; Tricia for. Upstairs he begins notes announcing he will not run; half an hour later his wife: "you must do whatever you think is right." He starts the notes again: he will run.'
+    n: '[[w.nixon-rn]], 239–40. The announcement: [[cal.1961-09-27.elections-1962]]. See [[cal.1961-08.elections-1962]]. Names: Nixon, Pat Nixon.'
+    src:
+      c: af639b0d
+      rows:
+        - 'w.nixon-rn 239–40: all'
+    tags: [name:nixon-richard-m, name:nixon-pat]
   - id: cal.1961-09-26.testing
     when: Sept. 26
     date: '1961-09-26'
@@ -2008,7 +2087,7 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'Khrushchev''s first private letter to Kennedy, dated Sept. 29, handed by Bolshakov to Salinger at the Carlyle Hotel, New York, Sept. 30. Berlin and Germany: a special emissary to Moscow, or Thompson, to discuss them.'
-    n: 'FRUS 1961–63, VI, doc. [21](https://history.state.gov/historicaldocuments/frus1961-63v06/d21); V, doc. [120](https://history.state.gov/historicaldocuments/frus1961-63v05/d120). [[w.salinger-with-kennedy]], 198; [[w.fursenko-khrushchevs-cold-war]], 398 (a private letter; Kennan or Thompson as a channel; a quick summit in Moscow). [[w.reeves-president-kennedy]], 238–39 (the letter, by Bolshakov to Salinger). [[w.sorensen-kennedy]], 552 (the first private letter). To check: [[w.beschloss-crisis-years]]. See [[cal.1961-05-09.berlin-and-vienna]]. Names: Khrushchev, Bolshakov, Salinger, Thompson.'
+    n: 'FRUS 1961–63, VI, doc. [21](https://history.state.gov/historicaldocuments/frus1961-63v06/d21); V, doc. [120](https://history.state.gov/historicaldocuments/frus1961-63v05/d120). [[w.salinger-with-kennedy]], 198; [[w.fursenko-khrushchevs-cold-war]], 398 (a private letter; Kennan or Thompson as a channel; a quick summit in Moscow); [[w.schlesinger-robert-kennedy-and-his]], 501 (Bolshakov delivered to Salinger on Sept. 30, 1961 the first of the letters Khrushchev initiated as the Berlin crisis subsided; passed thereafter at street corners and bars; not the letter''s date, its contents or the Carlyle Hotel). [[w.reeves-president-kennedy]], 238–39 (the letter, by Bolshakov to Salinger). [[w.sorensen-kennedy]], 552 (the first private letter). To check: [[w.beschloss-crisis-years]]. See [[cal.1961-05-09.berlin-and-vienna]]. Names: Khrushchev, Bolshakov, Salinger, Thompson.'
     src:
       c: 4565e760
       rows:
@@ -2019,6 +2098,7 @@ entries:
         - 'w.sorensen-kennedy 552: A'
         - 'w.fursenko-khrushchevs-cold-war 398: all'
         - 'via w.fursenko-khrushchevs-cold-war 398 n.49: all'
+        - 'w.schlesinger-robert-kennedy-and-his 501: ?'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:bolshakov-georgi, name:salinger-pierre, name:thompson-llewellyn-e]
     short: the private letters
   - id: cal.1961-09.oil
@@ -2409,13 +2489,13 @@ entries:
     thread: cuba-bay-of-pigs
     also: [press-and-broadcasting]
     c: 'Henry Luce, after the President''s annoyance at Murphy''s *Fortune* article, asks to meet Taylor in New York; Murphy there. Murphy: no malice; his sources "may have made honest errors in detail."'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 191. To check: Ewell''s memorandum for the record, Sept. 14, 1961, Taylor Papers, NDUL (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 n.72). Check: the day; after the news conference of Aug. 30 and before the President''s letter of Sept. 12. See [[cal.1961-08-30.cuba-bay-of-pigs]]. Names: Taylor.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 191. To check: Ewell''s memorandum for the record, Sept. 14, 1961, Taylor Papers, NDUL (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 n.72). Check: the day; after the news conference of Aug. 30 and before the President''s letter of Sept. 12. See [[cal.1961-08-30.cuba-bay-of-pigs]]. Names: Taylor, Luce.'
     src:
       c: 161f2250
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 191: all'
         - 'via x.1961-09-14.ewell-memorandum-luce-taylor: all'
-    tags: [name:taylor-maxwell]
+    tags: [name:taylor-maxwell, name:luce-henry-r]
   - id: cal.1961-09-30.foreign-aid
     when: Sept. 30
     date: '1961-09-30'
@@ -2433,10 +2513,32 @@ entries:
     thread: europe-and-the-alliance
     also: [berlin-and-vienna]
     c: 'Spaak to a special session of the NATO Council on his talk with Khrushchev: no deadline in mind; Khrushchev "preferred delayed negotiations to a hasty war."'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 394. Check: the day. To check: Sydney Gruson, "Spaak Says Soviet Backs Wide Talks with No Deadline," *New York Times*, Sept. 25, 1961; Spaak, *Combats inachevés* (1969), II, 338 (cited by [[w.fursenko-khrushchevs-cold-war]], 394 n.29). See [[cal.1961-09.berlin-and-vienna-2]]. Names: Spaak, Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 394. Check: the day. To check: Sydney Gruson, "Spaak Says Soviet Backs Wide Talks with No Deadline," [*New York Times*, Sept. 25, 1961](https://timesmachine.nytimes.com/timesmachine/1961/09/25/issue.html); Spaak, *Combats inachevés* (1969), II, 338 (cited by [[w.fursenko-khrushchevs-cold-war]], 394 n.29). See [[cal.1961-09.berlin-and-vienna-2]]. Names: Spaak, Khrushchev.'
     src:
       c: 1b5201a7
       rows:
         - 'w.fursenko-khrushchevs-cold-war 394: all'
         - 'via w.fursenko-khrushchevs-cold-war 394 n.29: all'
     tags: [name:spaak-paul-henri, name:khrushchev-nikita-s]
+  - id: cal.1961-09.transition-and-staff-3
+    when: Sept.
+    date: 1961-09
+    thread: transition-and-staff
+    c: 'Late September. Dr. Hans Kraus, called in by Dr. Travell after weeks of argument with Admiral Burkley over her injections, examines the President''s back: without exercise he will be a cripple; three hour-long sessions a week. Kennedy fears reporters will notice Kraus coming and going.'
+    n: '[[w.reeves-president-kennedy]], 243. Check: the day; Reeves gives "late September." To check: Hans Kraus, interview by Reeves (cited by [[w.reeves-president-kennedy]], 178, 181). Names: Burkley, Kennedy.'
+    src:
+      c: f43cc38d
+      rows:
+        - 'w.reeves-president-kennedy 243: all'
+    tags: [name:burkley-george-g, name:kennedy-john-f]
+  - id: cal.1961-09.republican-party
+    when: Sept.
+    date: 1961-09
+    thread: republican-party
+    c: Laurance Rockefeller lends William E. Miller, the new national chairman, $30,000, the loan arranged by Nelson; unreported.
+    n: '[[w.smith-on-his-own-terms]], 387 n. ("Three months after his election as Republican National Committee chairman"; no source given). Check: the day; the note''s source. Names: Laurance Rockefeller, Miller, Nelson Rockefeller.'
+    src:
+      c: 457e228f
+      rows:
+        - 'w.smith-on-his-own-terms 387: all'
+    tags: [name:rockefeller-laurance-s, name:miller-william-e, name:rockefeller-nelson]

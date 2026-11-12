@@ -300,9 +300,9 @@ def ppp_on_day(h, iso):
         except ValueError:
             continue
         it = ppp.match(r["url"]) if d == iso else None
-        if it and it["cite"] not in [x["cite"] for x in out]:
-            out.append(it)
-    return "; ".join(ppp.link_html(it) for it in out)
+        if it and it["cite"] not in [x[0]["cite"] for x in out]:
+            out.append((it, r["url"]))
+    return "; ".join(ppp.link_html(it, app=u) for it, u in out)      # each cite, then its APP document (ppp, STYLE 5)
 
 
 def days_in(s):
@@ -328,7 +328,7 @@ def url_html(u):
         from . import ppp                    # the Public Papers' item where one matches (ppp, STYLE 3)
         it = ppp.match(u)
         if it:
-            return ppp.link_html(it)
+            return ppp.link_html(it, app=u)
         slug = u.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
         return a(u, "APP: " + esc(slug[:60] + ("…" if len(slug) > 60 else "")))
     return a(u, esc(host))

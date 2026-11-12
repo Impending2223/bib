@@ -48,14 +48,29 @@ Entries already in the calendar that take Kotz's pinpoint: `cal.1963-11-22.succe
 
 ## Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- pp. 179-80 (Drive copy, PDF = printed + 26; page images read): cited under `cal.1964-07-21.king` (Greenwood, units '?'), `cal.1964-07-22.king` (Elks Lodge, federal marshals, units '?'), `cal.1964-07-22.mississippi` (Eastland, units '?'), `cal.1964-07-24.king` (Philadelphia, units '?'); `to-check` for the *Times* of July 23 (p. 15), July 25 (p. 9) and UPI-22 (Kotz nn.44, 45, 47). Variants: the leaflet plane is the second night, July 22, at the Elks Lodge, "Rt. Rev. Inciter King" (unit E of the July 21 entry); the Elks Lodge for the Masonic Temple (unit A of the July 22 King entry); King's answer to Eastland "the next day," in other words (unit C of the July 22 Mississippi entry). The July 4 Reedy call already cites 179.
+- Passed over, 179: Hoover's keeping King from honorary degrees at Marquette and Springfield, "in the spring"; his FBI reports on the Schwerner and Goodman parents; Johnson "reemphasized to Hoover several times" the protection: no day, leads.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry for this book. Read Nov. 11–12 from the same Drive copy; pp. 198, 312 and 325 off their page images (PDF 224, 346, 359); the copy deleted.
+- 198 the polls two to one, the "frontlash" (Aug. 1964): passed over as an event: Kotz's summary names no poll and no day (the Opinion thread holds Gallup's); Johnson's coining of "the frontlash" is a lead, undated.
+- 312 Ellender slumped (Mar. 15, 1965): part of the address, `cal.1965-03-15.voting-rights` (Kotz 308–13 cited there; audit, Nov. 12), the chamber's reaction in the joint session (the Justices and the Chiefs applauding; Ellender and the southerners).
+- 322 King's return to Atlanta and the news of Liuzzo (the passage is p. 325, Mar. 25, 1965): passed over, King's grief, no act or word on public business.
+- 82 Johnson and Hoover as neighbors: stays out of the brief (before the span).
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; offsets as above; pp. 6, 8, 20, 314, 325, 405 and their notes read in the text layer, pp. 8 and 405 off the page image as well). Patch `inbox/2026-11-06-b6-kotz-judgment-days.yaml`: 5 new entries and a cite on a pending entry (Humphrey at the Chilean embassy, cal.1963-11-22.assassination-10, from the Humphrey reader's patch); witnesses `inbox/witnesses/2026-11-06-b6-kotz-judgment-days.yaml` (Colmer's oral history; Kotz's interview of John Douglas), 7 edges added to `sources/witnesses/by-work/kotz-judgment-days.yaml`. Still passed over: Ellender slumped (no act); the Thirtieth Place years (before the span). The copy deleted when done.
+
 Page | date | event | why. An event the calendar holds took its cite; these are the dated events Kotz treats that were not entered or cited this run.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 4–5 | 1963-11-22 | Johnson's calls from Air Force One and the Executive Office Building: Rose Kennedy, Funston, Maguire, Eisenhower; Hoover on Oswald | a lead: not entered this run (Maguire, 9:10 p.m., and Hoover, Nov. 23, 10:01 a.m., catalogued by the Miller Center) |
-| 6 | 1963-11-22 | Boggs to Colmer: "Your people killed that man!" | private remarks |
-| 8 | 1963-11-20 | Robert Kennedy's birthday party; Clark: the bill dead till after 1964 | minor (social) |
-| 20 | 1963-11-28 | King's Thanksgiving sermon | minor: the assassination mentioned in passing, no word on policy given |
+| 6 | 1963-11-22 | Boggs to Colmer: "Your people killed that man!" | entered (b6): cal.1963-11-22.assassination-12 (6; Colmer's oral history, n.21, behind To check) |
+| 8 | 1963-11-20 | Robert Kennedy's birthday party; Clark: the bill dead till after 1964 | entered (b6): cal.1963-11-20.robert-kennedy (8; the interviews of n.27) |
+| 20 | 1963-11-28 | King's Thanksgiving sermon | entered (b6): cal.1963-11-28.king (20; Branch, n.12, behind To check): King's public word, the assassination in passing, which Kotz treats as an event |
 | 22 | 1963-11 | The Elms, the first week: "what the hell's the Presidency for?" | entered (b5): `cal.1963-11.civil-rights-bill` |
 | 22 | 1963-11/12 | Farmer with Johnson in the Oval Office; Zephyr Wright | cited under `cal.1963-12-04.civil-rights-bill-3` (pending, Whalen's), no date given (b5) |
 | 24–25 | 1963-11/12 | Dorothy Height with Johnson; Bethune | entered (b5): `cal.1963-12.civil-rights-organizations-2` |
@@ -284,10 +299,10 @@ Page | date | event | why. Made from the same reading: each dated event the page
 | 303 | 1965-03-12 | Rap Brown ridicules Johnson's worry for his daughters' sleep | entered (b5): `cal.1965-03-12.voting-rights-4` |
 | 306 n. | 1965-03 | Johnson to reporters at the Ranch on the Wallace meeting: "I can lick any little hundred-pound woman" | entered (b5): `cal.1965-03.voting-rights-selma-4` |
 | 312 | 1965-03-15 | Ellender slumped; Forman: Johnson "ruined a good song" | Forman entered: `cal.1965-03-15.voting-rights-7`; Ellender slumped in his chair: minor (a senator's look, no act) (b5) |
-| 314 | 1965-03-15 | Johnson to Goodwin after King's call: "we're just halfway up the mountain" | private remark |
+| 314 | 1965-03-15 | Johnson to Goodwin after King's call: "we're just halfway up the mountain" | entered (b6): cal.1965-03-15.voting-rights-8 (314; Goodwin, n.71, behind To check) |
 | 318 | 1965-03 | Lindsay and Cramer to widen the coverage; Wilkins's testimony; Edward Kennedy's poll tax group | Edward Kennedy's group cited under `cal.1965-05-11.voting-rights`; Lindsay and Cramer, Wilkins's testimony: a lead: the days (Kotz gives none; the Daily Digest's rows of the voting rights hearings, Mar.–Apr. 1965, name no Wilkins as read here) (b5) |
 | 320 n. | 1965-03 | King refuses Rustin's advice to break with SNCC; Belafonte to mediate (FBI tap) | entered (b5): `cal.1965-03.civil-rights-organizations` |
-| 322 | 1965-03-25 | King's return to Atlanta, the news of Liuzzo | minor (private) |
+| 322 | 1965-03-25 | King's return to Atlanta, the news of Liuzzo | passed over (R18 as amended): private, King's grief at the news, no act or word on public business; the passage is on p. 325, not 322 (the death in the calendar) |
 | 327 | 1965-03/04 | Whitney Young's "reservations" on the boycott; the *Times* "cool," Mar. 30 | Young entered: `cal.1965-03-29.civil-rights-organizations`; the *Times* in the press list (b5) |
 | 327 | 1965-04 | Brimmer to King on the boycott: steel cannot be traced | entered (b5): `cal.1965-04.king` |
 | 329 | 1965 | Lady Bird Johnson's diary: Johnson and Dirksen in the West Hall | a lead: the day (*White House Diary*, 237) |
@@ -319,7 +334,7 @@ Page | date | event | why. Made from the same reading: each dated event the page
 | 400 | 1968-03 | King to Acapulco with Abernathy; Miami a month earlier | Acapulco entered: `cal.1968-03.king`; Miami cited under `cal.1968-02-19.king-poor-peoples` (b5) |
 | 403 | 1968-03 | The *Times* editorial against the encampment, after Memphis | entered (b5): `cal.1968-03-29.king-memphis-4` |
 | 404 | 1968 | Temple to Johnson: no such thing as civil disobedience | a lead: the day (Temple's memorandum) |
-| 405 | 1968-03-29 | Dinner with the Abernathys: "Who's going to know those weren't our people?" | private remarks |
+| 405 | 1968-03-29 | Dinner with the Abernathys: "Who's going to know those weren't our people?" | entered (b6): cal.1968-03-29.king-memphis-5 (405; Juanita Abernathy and Abernathy's memoir, n.54, behind To check) |
 | 408 | 1968-03-29 | Watson, Jones and Christian on his running; Connally's advice | in the calendar's entries of Mar. 29–31; not cited (the units not matched) |
 | 411 | 1968-04-01 | King decides to postpone the campaign | entered (b5): `cal.1968-04-01.king-poor-peoples` |
 | 411 | 1968-04 | Gallup, 52–36 disapproving, then 49–40 approving | in the approval table, not a calendar entry (b5): `sources/gallup-approval.yaml`, Mar. 15–20 (36–52, published Mar. 31) and Apr. 4–9 (49–40, published Apr. 17); Kotz's "four days later" is the fieldwork's opening |

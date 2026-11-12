@@ -169,6 +169,12 @@ The dry run flags many of these "one event?" against an entry of the same day an
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry and 3 cites for this book; no witnesses. Read Nov. 11–12 from the same Drive copy (text layer; no folios, so chapters and notes); the copy deleted.
+- ch. 10, July 1967, Mrs. McNamara's operation and the Grand Teton climb with Resor and the Exums: passed over, family and a holiday. The same paragraph tells that the house they rented at Aspen was surrounded by chanting antiwar demonstrators (not a row before): entered, `cal.1967-07.war-opposition-3` (Check: the day). The arson attempts on the Snowmass house have no day: a lead.
+- ch. 6, 1964, "Asian boys" ("he repeated this formulation over and over during the campaign—in New Hampshire and Oklahoma, in Kentucky and Ohio"): cited under `cal.1964-09-25.elections-1964` (Oklahoma), `cal.1964-09-28.elections-1964` (New Hampshire) and `cal.1964-10-21.vietnam` (Ohio), each with `units: '?'` (no day on the page); Kentucky: a lead.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; the Selma call read off its page image (PDF 189) as well as the text; the Bethesda (PDF 107) and Yevtushenko passages in the text layer only, the copy having no folios to hold). Patch `inbox/2026-11-06-b6-mcnamara-in-retrospect.yaml`: 3 new entries; no witnesses (the passages are McNamara's recollection, under no note). The "Asian boys" row stays: a repetition. Not a row before and not entered: Sam Brown at dinner with McNamara, "about the same time" (ch. 9), a lead for the next reader of the book. The copy deleted when done.
+
 How the list was made: every dated paragraph of chs. 1–10 and the appendix was read in order; each event not entered and not already in the calendar is a row here. Events already in the calendar took a cite and are not rows.
 
 | chapter | date | event | why |
@@ -182,7 +188,7 @@ How the list was made: every dated paragraph of chs. 1–10 and the appendix was
 | 2 | 1963-05-15 | Mansfield on Diệm, House Appropriations hearing (n.19) | a lead: read the hearing |
 | 3 | 1961–63 | The *Newsweek* leak; Rusk on Bradlee at Newport | a lead: undated, the story not named |
 | 3 | 1963-11-13, 11-22 | Bundy at the White House staff meetings (n.53) | a lead: FRUS IV, the staff meetings |
-| 4 | 1963-11-22/23 | McNamara at Bethesda with Mrs. Kennedy, the body to the East Room | family and private (the vigil) |
+| 4 | 1963-11-22/23 | McNamara at Bethesda with Mrs. Kennedy, the body to the East Room | entered (b6): cal.1963-11-22.assassination-11 (ch. 4); the burial site already cited under cal.1963-11-23.robert-kennedy-2 |
 | 4 | 1961–63 | The Air Force's procurement man, put there by O'Donnell, fired at McNamara's order | a lead: undated |
 | 4 | 1961–63 | McNamara's graph of power and time for Kennedy | a lead: undated |
 | 4 | Nov., year not given | Johnson calls McNamara at Concord, N.H., on the aluminum price | a lead: the year |
@@ -192,7 +198,7 @@ How the list was made: every dated paragraph of chs. 1–10 and the appendix was
 | 6 | 1964 | Goldwater's Edsel charge; *Where I Stand* in the *Washington Post* | a lead: the days |
 | 6 | 1964 | Johnson's "Asian boys" in New Hampshire, Oklahoma, Kentucky and Ohio | minor (a repetition of Aug. 12) |
 | 7 | 1965-02 | Gallup: continue 64, pull out 18 | a lead: check `cal.1965-02-16.opinion` |
-| 7 | 1965-03-25/26 | McNamara's daughter back from the Selma march; his call to Johnson | family and private |
+| 7 | 1965-03-25/26 | McNamara's daughter back from the Selma march; his call to Johnson | entered (b6): the call, on the Guard's federalization, cal.1965-03-25.voting-rights-selma-2 (ch. 7 at nn.13–14; Check: the day) |
 | 7 | 1965-07-04 | Kỳ to the *Sunday Mirror* on whom he admires | a lead: check the calendar, cite |
 | 7 | 1965-07-04 | Graff, "How Johnson Makes Foreign Policy," *New York Times Magazine* | a lead (the press) |
 | 7 | 1965-06-17 | The Harris surveys sent to Johnson | a lead: Redmon to the President |
@@ -201,7 +207,7 @@ How the list was made: every dated paragraph of chs. 1–10 and the appendix was
 | 8 | 1966-01-04 | Hanoi's radio: the pause a "trick" | a lead: check, cite |
 | 8 | 1966-01 | Lippmann: "a bigger war and an unattractive peace" | a lead (the press): the day |
 | 9 | 1965-11, 1966-02 | Bundy offered the Ford Foundation; his departure | a lead: cite the calendar's entries |
-| 9 | 1966-11 | Yevtushenko at Hickory Hill, talking with McNamara till 2:30 a.m. | social |
+| 9 | 1966-11 | Yevtushenko at Hickory Hill, talking with McNamara till 2:30 a.m. | entered (b6): Robert Kennedy's dinner, the talk of the Cold War and Vietnam, cal.1966-11.robert-kennedy-2 (ch. 9 at nn.20–21; Check: the day) |
 | 9 | 1966-12 | An incident at lunch with Mrs. McNamara, Christmas | a lead: the text cut off in the copy's extraction |
 | 9 | 1966, 1967 | Rusk's and Rostow's optimism (Rostow, June 25, 1966); Lodge's of December; Wheeler's of February | a lead: cite the memoranda |
 | 9 | 1966-02-28 | Harris: the "consensus" in the middle | a lead (the polls) |
@@ -209,7 +215,7 @@ How the list was made: every dated paragraph of chs. 1–10 and the appendix was
 | 10 | 1967 | Nitze's call to McNamara | a lead: undated |
 | 10 | 1967-05 | Eban at the White House, urged to hold Israel back | a lead: check the calendar, cite |
 | 10 | 1967-06-10 | Kosygin on the hot line: "If you want war, you will get war" | a lead: cite the calendar's June 10 entry |
-| 10 | 1967-07 | Mrs. McNamara's surgery at Johns Hopkins | family and private |
+| 10 | 1967-07 | Mrs. McNamara's surgery at Johns Hopkins | passed over (R18 as amended): family, her health; the climb of the Grand Teton after it, with Resor, a family holiday, no bearing on public business |
 | 10 | 1967-08-20 | The strikes on the North before the planned pause | a lead: check, cite |
 | 10 | 1967-09-07 | Goldwater, "Is McNamara Less Popular?" *Atlanta Constitution* (n.24) | a lead: an entry (R9), the text not read |
 | 10 | 1966-05-18 | The Montreal speech to the newspaper editors | a lead: cite `cal.1966-05-18.defense` |

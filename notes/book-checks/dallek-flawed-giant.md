@@ -199,6 +199,115 @@ On `cal.1968-03-19.open-housing`, entered meanwhile by another run, Dallek's pag
 
 ### Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry for this book. Read Nov. 11–12 from the same Drive copy; p. 148 read off its page image; the copy deleted. One row was still passed over on a personal ground: p. 148, William Bundy's vacation, Aug. 1, 1964: entered, `cal.1964-08-01.vietnam` (the understanding that Johnson would take no new major decision or expand the war before the election; Bundy's recollection). Same page: Mac Bundy's remark to a CIA official in 1964 ("We know we're not going to do a goddamn thing ... while this goddamn election is going on"), told in 1991: a lead, dated only to the year.
+
+#### Batch 9 (pp. 413–599), read Nov. 11–12, 2026
+
+Read from the owner's copy (printed page + 15 to p. 442, + 31 after the plates, held on the running heads; pp. 427, 446, 470, 479 and 599 read off their images too; endnotes at the back, "Notes (pages 410–623)"). Patch `inbox/2026-11-12-b9-dallek-b.yaml`: 115 cites, 18 variants, 5 Checks, 21 new entries. Rows ruled "cited under ID" took the unit letters the page states whole and `'?'` with a parenthetical for the rest. No row was "already cited" except the parts named. Witnesses and by-work edges not written.
+
+| Row | Ruling |
+|---|---|
+| 413–15 Detroit, Romney, the address | cited under cal.1967-07-23.civil-disorders (A), -07-24.civil-disorders-detroit (?), -07-27.civil-disorders (?), and cal.1967-07-19.civil-disorders-3 (C, E: the cannibals remark); -07-27.civil-disorders-detroit not borne out (food and medical aid not on the page) |
+| 422 Apollo fire | cited under cal.1967-01-27.space-2 (?) |
+| 426–31 Tiran to the *Liberty* | cited under cal.1967-05-22, -05-23, -05-25 (variant G: "Israel need not be alone unless it chooses to go alone"), -05-30, -06-06, -06-06-…-2, -06-07-…-2 (B), -06-08, -06-09, -06-10 (Sixth Fleet); cal.1967-06-05.middle-east already cited (427–28); entered as cal.1967-06.middle-east-six-day-war (Johnson to Roche, the take-off on Eban) |
+| 431 Resolution 242 | cited under cal.1967-11-22.middle-east (D) |
+| 442 Marshall confirmed | cited under cal.1967-08-30.court (?; "first Negro" not on the page) |
+| 445 raids near Hanoi; New Year truce | cited under cal.1966-12-13.vietnam, -12-23.vietnam, -12-24.vietnam (variant A: "three-day"), -12-31.vietnam (A; Check: Dec. 30 to Jan. 1); -12-19 already cited |
+| 445 Johnson to Mansfield | cited under cal.1967-01-09.vietnam-congress (B) |
+| 446–47 Tet pause; letter; reply | cited under cal.1967-02-08.vietnam (G), -02-13.vietnam-air-war (? and variant A: Tet pause Feb. 6–13), -02-15.vietnam (?), -02-15.vietnam-congress (?); -02-06.robert-kennedy already cited |
+| 451 Robert Kennedy's speech | cited under cal.1967-03-02.robert-kennedy (?) and -03-02.soviet-union (?) |
+| 453 Nashville | cited under cal.1967-03-15.vietnam (?); the talk with Howard K. Smith: Dallek's note gives Mar. 31, cal.1967-03-24.press-and-broadcasting holds Rostow's briefing of Smith; not entered |
+| 458–59 more pressure; Guam | cited under cal.1967-02-17.vietnam (?), -02-22.vietnam-2 (? and Check: "fifty-four additional targets"), -03-07.vietnam (D), -03-20.vietnam (B; Check: conference Mar. 20 to 22) |
+| 463 McNamara's plan | cited under cal.1967-05-19.vietnam (F) |
+| 469 Johnson to Russell | cited under cal.1967-05-12.vietnam-congress (C, D, E, F; variant H: "Suppose we miss") |
+| 470–71 McNamara back; the meeting | cited under cal.1967-07-12.vietnam-program-5 (?), -07-12.vietnam-force-levels (?), -07-01.vietnam (A; variants B, C: "uphill," "an increasingly heavy price for his aggression"), -07-07.vietnam (?) |
+| 477–78 bombing meetings; McNamara before Stennis | cited under cal.1967-08-08.vietnam (C, E, G), -08-16.vietnam-air-war (A), -08-25.vietnam-air-war (?), -08-25.vietnam-air-war-2 (?) |
+| 478 South Vietnam's election | cited under cal.1967-09-03.vietnam (? and variant G: "fifty-six percent of the electorate went to the polls") and -09-06.elections-1968-2 (? the Cabinet, Rusk and Johnson) |
+| 480–81 Pennsylvania | cited under cal.1967-08-11.vietnam-pennsylvania (B), -08-19.vietnam-pennsylvania (? and variant A: Aug. 18), -09-08.vietnam (? and Check: Sept. 11, the statement of Aug. 11), -09-12.vietnam-pennsylvania (D), -09-13.vietnam-pennsylvania (?); entered as cal.1967-09-15.vietnam-pennsylvania (the AFL-CIO Executive Council) and cal.1967-09-26.vietnam-support (the educators); -09-05.press-and-broadcasting-2, -09-20.press-and-broadcasting and -09-26.vietnam-pennsylvania already cited |
+| 482–84 Pennsylvania and a pause | cited under cal.1967-10-03.vietnam, -10-04.vietnam, -10-16.vietnam, -10-17.vietnam-2, -10-18.vietnam-pennsylvania, -10-23.vietnam-pennsylvania (all ?), -10-23.vietnam (E, F, G, p. 485); entered as cal.1967-10-02.vietnam-3 (Johnson to Clifford, Acheson: frustration and failure; Check: who) and cal.1967-10-28.vietnam-diplomacy (Rostow, the NLF contact) |
+| 492–94 Rostow; Wise Men | cited under cal.1967-10-25.vietnam-support (?), -11-02.vietnam (?, p. 492), -10-31.vietnam-2 (? and Check: the lunch "with the Wise Men"); entered as cal.1967-10-25.vietnam-support-2 (Rostow's "urgent need"; the row's "already in as -10-25.vietnam-support" was wrong, that entry is the Citizens Committee), cal.1967-11-01.vietnam-support (Johnson to Rostow, Radio Free Europe) and cal.1967-11-02.vietnam-5 (Ball's aside); -11-01.vietnam (494–95) and -10-27.vietnam-air-war (492) already cited |
+| 496–97 Humphrey in Saigon | cited under cal.1967-10-31.vietnam (? and variant C: Oct. 30 to Nov. 1), -11-01.vietnam-elections (?), -11-08.vietnam (?) |
+| 502 Khe Sanh | cited under cal.1968-01-29.vietnam-khe-sanh (?) |
+| 503–05 Tet; the news conference | cited under cal.1968-01-30.vietnam-congress (C), -01-30.vietnam-tet-2 (C), -01-31.vietnam-tet-2 (?), -02-02.vietnam-tet (A, B, C); entered as cal.1968-01-31.vietnam-tet-8 (the message to Westmoreland and Bunker); -01-31.vietnam-tet already cited |
+| 508–09 review meetings | cited under cal.1968-02-28.vietnam-205000 (A) and -03-04.vietnam (D, G; variants F, H: Dallek's wording of "sinkhole" and "get on your horse") |
+| 510 speeches | cited under cal.1968-03-16.vietnam-2 (?) and -03-18.vietnam (?): Dallek does not assign the quoted words to either speech |
+| 511–12 Johnson to Clifford; drafts; Wise Men | cited under cal.1968-03-20.vietnam-205000 (?), -03-20.vietnam-205000-4 (?), -03-22.vietnam-205000 (?), -03-25.vietnam (?, p. 512); entered as cal.1968-03-14.vietnam-205000-3 (Johnson to Clifford) and cal.1968-03-20.vietnam-205000-6 ("I want war like I want polio"; Check: who, the hour); -03-25.vietnam (511–12) already cited |
+| 514 *Pueblo* | cited under cal.1968-01-23.japan-and-korea (?) and -01-23.japan-and-korea-pueblo-2 (? and variant A: Dallek has the news at 2 a.m. Jan. 25) |
+| 533–34 King; bill; signing | cited under cal.1968-04-04.king (?), -04-05.king (?), -04-10.open-housing (?), -04-11.open-housing (?); -03-19.open-housing already cited |
+| 537 Hanoi's statement | cited under cal.1968-04-03.vietnam (? and variant A: Dallek's wording of the statement) |
+| 538–41 Paris | cited under cal.1968-05-03.vietnam (?), -05-13.vietnam (?), -05-21.vietnam-paris (B; variant E: "against my better judgment"), -05-28.vietnam-paris (?); -05-06 and -05-07.vietnam-paris already cited |
+| 545 Rockefeller | cited under cal.1968-04-30.elections-1968-2 (A) |
+| 546 Humphrey announces | cited under cal.1968-04-27.elections-1968 (?), -04-24.elections-1968 (?), -04-29.elections-1968 (?) |
+| 547–48 Kennedy | cited under cal.1968-06-04.elections-1968 (? and variant E: Dallek has the California primary June 5) and -06-08.robert-kennedy (E) |
+| 552–53 the housing act hailed … the bills signed | cited under cal.1968-08-01.cities-and-housing (F), -08-16.health (?), -09-11.jobs-and-wages (?); entered as cal.1968-08-14.health (the National Medical Association) and cal.1968-09-09.cities-and-housing (the National Housing Partnership); -09-26.program already cited; the news conference of Sept. 6 and the other Public Papers items a lead |
+| 555 Moscow; the invasion | cited under cal.1968-08-19.testing (?) and -08-20.soviet-union (?); Johnson to David Wise (Oct. 1) on Czechoslovakia a lead |
+| 564 Fortas | cited under cal.1968-10-01.court (D) and -10-02.court-fortas (? and variant A: Dallek has the withdrawal Oct. 1); entered as cal.1968-10-01.court-2 (Johnson to a journalist) |
+| 566 Honolulu | cited under cal.1968-07-19.vietnam (?); entered as cal.1968-07-19.vietnam-3 (Clifford's private words; Check: the day) |
+| 571–72 birthday honors; the film | cited under cal.1968-08-29.elections-1968-chicago-8 (?); Daley and Jacobsen's "draft" talk, Connally and Watson at Chicago: leads (no day) ; -07-24, -07-25 and -07-26.elections-1968 already cited |
+| 575 Humphrey's word | cited under cal.1968-09-12.elections-1968 (B, C); -09-05.elections-1968-2 already cited |
+| 581–84 Rusk and Gromyko … the halt | cited under cal.1968-10-02.testing-missile-talks, -10-09.vietnam, -10-14.vietnam, -10-27.vietnam-paris (all ?); -10-16.vietnam-paris already cited |
+| 587–88 Chennault; "horseshit"; Thiệu | cited under cal.1968-10-27.elections-1968-chennault, -10-29.vietnam, -10-30.vietnam-paris (all ?) and -10-31.vietnam (E); -11-02.elections-1968 (590) already cited |
+| 589 Astrodome | cited under cal.1968-11-03.elections-1968 (A, B) |
+| 593–97 Nixon; Thiệu; the back channel | cited under cal.1968-11-26.vietnam (A); entered as cal.1968-11-19.vietnam-paris, -11-20.vietnam-paris, -12-08.vietnam-paris, cal.1968-12-09.soviet-union, -12-11.soviet-union and cal.1969-01-07.vietnam-paris-2; -11-11.transition-and-staff (593–94) already cited |
+| 599 the last day | cited under cal.1969-01-20.transition-and-staff-2 (? and variants A: Georgetown, not Bethesda; B: Krim, not Harriman) and -01-20.conservation (?) |
+
+Leads (no day or no entry): Russell's complaint of Marshall's "extreme liberal views" (442); Johnson's "little malicious game" with pro-Israel lobbyists before May 23 (426); the Humphrey–Korea report and Rostow's "not a stalemate" memo of July 12 (471); Kintner on Kennedy in February (453); McNamara and the Chiefs' "mass resignation" talk after Aug. 25 (478); Johnson to Califano, "forget it," and to Wattenberg, "Hurry! Go strong!" (534); Johnson's "too horrible for words" on Kennedy's shooting (547); Johnson to Califano on Fulbright and Nixon's IRS (598–99). Dallek's "June 5" for Kennedy's shooting (547) and "Oct. 1" for Fortas's withdrawal are his days, not the entries'.
+
+Where batch 9 stopped: every row of the 43 read; the page pointers Dallek gives for the Public Papers items of Aug.–Nov. 1968 (552–53) not entered beyond the two above.
+
+**Batch 9 (pp. 19–389), read Nov. 11, 2026, from the Drive copy (PDF page = printed + 15; numbers and quotations read off the page images for pp. 208, 249, 267, 321, 322, 339, 358, 390).** Patch `inbox/2026-11-12-b9-dallek-a.yaml`: 3 new entries (cal.1965-04-29.latin-america-dominican-republic-4, cal.1966-07-18.vietnam-congress, cal.1966-08-01.press-and-broadcasting-2), the rest cites (`units: '?'` where the page bears part of a unit, with the parenthetical), 5 variants, 2 to-checks from the endnotes, 81 cites. Rows 0–2 below were already cited by batch 7. The ledger lines of batch 7 for cal.1965-05-05 and cal.1965-05-07 (latin-america-dominican-republic) are left unused: the cease-fire and the Government of National Reconstruction are sentences of cal.1965-05-06.latin-america.
+
+| Row (page) | Event | Ruling |
+|---|---|---|
+| 19 | Oct. 27, 1962, the ExComm's afternoon without Kennedy | already cited (cal.1962-10-27.missile-crisis-4, 19) |
+| 126 | May 8, 1964, news conference: Hoover kept past seventy | already cited (cal.1964-05-08.transition-and-staff, 126; variant in place) |
+| 139 | July 27, 1964, Johnson calls Robert Kennedy to set the meeting of July 29 | already cited (cal.1964-07-27.robert-kennedy, 139) |
+| 208-09 | Apr. 8, July 28, 1965, the House passes Medicare; Congress's final passage | cited under cal.1965-04-08.medicare (? ; variant A: 110-vote margin) and cal.1965-07-27.medicare (? ; variant A: July 28) |
+| 247-49 | Feb. 6-10, 1965, Pleiku; the decision of Feb. 8; Qui Nhơn | cited under 02-06.vietnam-congress (?), 02-07.vietnam (already cited 247–48, not repeated), 02-07.vietnam-2 (D), 02-08.vietnam-congress-3 (B), 02-10.vietnam (A; variant B: twenty-one killed); cal.1965-02-08.vietnam (Mansfield memo) not borne out (Dallek has no Mansfield memorandum) |
+| 251 | Feb. 13-17, 1965, Ball and Thompson's memorandum; the meetings of Feb. 16 and 17 | cited under 02-13.vietnam-2, 02-13.vietnam-3, 02-16.vietnam-air-war, 02-16.vietnam-3, 02-17.vietnam-3 (all ?) |
+| 262-67 | Apr. 24-May 5, 1965, the Dominican revolt; the landing; the cease-fire of May 5 | cited under 04-24.latin-america (?), 04-28.latin-america-dominican-republic-2 (C), 04-30.latin-america (E), 04-30.latin-america-dominican-republic (?), 05-02.latin-america (A, B), 05-06.latin-america (?; the May 5 cease-fire and May 7 government are sentences of that entry, so no new entries; ledger lines 05-05 and 05-07 of b7-dallek left unused). cal.1965-04-28.latin-america already cited (263-64). Mohr talk (264): "next evening", Dallek's note a memorandum of Apr. 29-May 5: see entry below; Mohr talk entered as cal.1965-04-29.latin-america-dominican-republic-4 (day: Check); Martin's exchange with Johnson (264) undated, a lead |
+| 267 | Aug. 29, 1965; June 1, 1966, the Act of Reconciliation; Balaguer elected | cited under 08-31.latin-america (?) and 1966-06-01.latin-america (?) |
+| 268 | Apr. 20, 1965, Honolulu | cited under 04-20.vietnam (E) |
+| 269 | May 2, 1965, Johnson to the congressional leaders on the Dominican Republic | cited under 05-02.vietnam-congress (?) (265-66, 269) and 05-02.latin-america (A, B) |
+| 270 | June 7, 1965, Westmoreland's request | cited under 06-07.vietnam (?) |
+| 276 | July 27, 1965, the leaders told before the announcement | cited under 07-27.vietnam (A) and 07-27.vietnam-july-decision-3 (?, the leaders) |
+| 286 | Aug. 5, 1965, the NSC on the press | cited under 08-05.vietnam-congress (A: the NSC; Johnson on the press) and 08-05.vietnam (D: Safer, Stanton) |
+| 303 | Dec. 6 [3], 1965, the discount rate raised to 4.5 percent | cited under 12-05.economy (?; variant A: Dec. 6 for the announcement) |
+| 305 | Sept. 3, 1965, the steel settlement on television | cited under 09-03.steel (?) |
+| 306 | Jan. 27, 1966, the Economic Report | cited under 01-27.economy (F) |
+| 310 | Sept. 8, 1966, the special message on fiscal policy | cited under 09-08.economy (?) |
+| 311 | Jan. 24, 1967, the budget message | cited under 1967-01-24.economy (?; 311) |
+| 314 | Mar. 2, 1966, the transportation message | cited under 03-02.transportation (A) |
+| 316 | Oct. 15, 1966, the Department of Transportation Act signed | cited under 10-15.transportation (B) |
+| 321 | Aug. 19, Oct. 14, 1966, the Senate and House pass the demonstration cities bill | cited under 08-19.cities-and-housing (?), 10-14.cities-and-housing (?); also 10-06 (?), 10-18 (A), 10-20 (?) |
+| 326 | Aug. 9, 1966, the House passes the civil rights bill | cited under 08-09.open-housing (?) |
+| 327 | June 1-2, 1966, the White House conference | cited under 06-01.civil-rights-the-executive (?) |
+| 336 | June 9, 1966, Moyers on the polls | cited under 06-09.opinion (?) |
+| 338-39 | Oct. 17-Nov. 8, 1966, the Asian trip; the election | cited under 10-17.vietnam (A, 338; 383-85 already cited), 11-08.elections-1966 (G) and 11-08.governors (J) |
+| 343-47 | Dec. 7-28, 1965, the meetings on the pause; the pause; the peace offensive | cited under 12-07.vietnam-pause-2 (B), 12-17.vietnam (?), 12-18.vietnam-pause (F, G), 12-21.vietnam-pause (?), 12-27.vietnam (?), 12-28.vietnam (A, C), 12-28.vietnam-pause (?) and 12-30.vietnam-congress (?) |
+| 348-52 | Jan. 12-Feb. 4, 1966, Ball before Foreign Relations; the leaders; the resumption; the hearings | cited under 01-12.vietnam-congress (?), 01-24.vietnam-pause (?), 01-25.vietnam (D, G, H), 01-27.vietnam-pause (?), 01-28.vietnam-pause (B, D), 01-29.vietnam-pause-2 (?), 01-31.vietnam (?), 01-28.vietnam-congress (B), 02-04.vietnam (?) |
+| 353 | Jan. 31, 1966, Robert Kennedy on the resumption | cited under 01-31.robert-kennedy (?) |
+| 356, 360 | Feb. 24, 1966, Humphrey's report to the leaders | cited under 02-24.vietnam-congress (D) |
+| 358 | Mar. 10, 1966, Thi relieved | cited under 03-10.vietnam (?; variant A: Thi "Commander of the Central Highlands," not I Corps) |
+| 359 | Mar. 12, 1966, the governors at the White House | cited under 03-12.vietnam-us (?) |
+| 360-61 | Apr. 2, 1966, the meeting on the Struggle Movement | cited under 04-02.vietnam (A) and 04-04.vietnam-struggle-3 (E, F) |
+| 363 | Apr. 25, May 6-10, 1966, the meeting on Track B; Kỳ's announcement; the NSC | cited under 04-25.vietnam (B), 05-06.vietnam-struggle (?) and 05-10.vietnam (F); Ky's announcement is in as 05-06.vietnam-struggle |
+| 367 | May 12, 1966, the Armory speech | cited under 05-12.vietnam-congress-2 (B; the other remark in the parenthetical) |
+| 370 | May 9, May 27, 1966, Fulbright's note; Johnson's reply | cited under 05-09.vietnam-congress (?) and 05-27.vietnam-congress (?) |
+| 376 | Aug. 8, 1966, the *Times* on the Pentagon's study | cited under 08-08.vietnam (?) |
+| 377 | July 20, 23, 1966, news conference; the speeches in Indiana, Kentucky and Illinois | cited under 07-20.vietnam-prisoners (A); July 23 speeches in Indiana, Kentucky, Illinois: lead (cal.1966-07-23.civil-disorders is the Indianapolis speech on the cities; not entered as Vietnam); July 18 leaders entered as cal.1966-07-18.vietnam-congress |
+| 378 | Aug. 1, 1966, Krulak with Johnson; Sherrod's memorandum | Krulak with Johnson: page gives only Krulak on Sherrod in the outer office (no cite for 08-01.vietnam A-B); Sherrod's interview entered as cal.1966-08-01.press-and-broadcasting-2 |
+| 380 | Sept. 11, 1966, the Constituent Assembly elected | cited under 09-11.vietnam (?) |
+| 383 | Oct. 15, 1966, the NSC on pacification | cited under 10-15.vietnam (D) |
+| 387 | Nov. 11, Oct. 15, 1966, the force levels; the limits on bombing near Hanoi | cited under 11-11.vietnam (?) and 10-15.vietnam (D, 387) |
+| 389-90 | Nov. 11-Dec. 31, 1966, Warsaw; the raids near Hanoi | cited under 12-02.vietnam-marigold (B) and 12-13.vietnam (C) |
+
+Not borne out: cal.1965-02-08.vietnam (Mansfield's memorandum; Dallek has none); cal.1966-08-01.vietnam (Krulak with Johnson; Dallek has Sherrod with Krulak in the outer office, not Krulak's interview). Leads: Johnson to Martin, "the last thing we want ... is a communist takeover" (264, undated); the news conference of May 21, 1966 (363–64; PPP 1966, I, 531–35 by Dallek's notes); the speeches of July 23, 1966 (377); the Jim Lucas briefing, Sept. 6, 1966 (380).
+
+Where batch 9 stopped: p. 390 (the last row of pp. 19–389, the Marigold raids); every row of the share ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; offsets as above, held on the running heads; p. 575 read off its image too). The rows ruled minor, private, social or "below the calendar's level" (staff memoranda, estimates, background talks: R8 and R18 admit them) were read again on their pages with their notes. Patch `inbox/2026-11-06-b6-dallek-flawed-giant.yaml`: 51 new entries, cites on 14 entries (three pending), 2 Checks; witnesses `inbox/witnesses/2026-11-06-b6-dallek-flawed-giant.yaml` (7), edges appended to `sources/witnesses/by-work/dallek-flawed-giant.yaml`. Every row ruled minor, private or below the level is settled. The copy deleted when done.
+
 How the list was made: a script over the text layer (pp. 3–628) listed every mention of a month and day, 572 in all, with its page, a year inferred from the text and the calendar's entries of that month and day in every year; those on a page an entry already cites for that day (108) were set aside; the remaining 451 (page, date) pairs were read in context, their years put right by hand, and judged against the calendar (`./bib find`, the day's entries). Classes passed over without a row: dates outside the span (the 1970s, births); dates named only as deadlines or periods (fiscal years, a surcharge's dates); a day mentioned only to place another event. Months alone ("in March 1966") were not listed. "Minor" is used only as the owner's rule of Oct. 29 allows (private or social trivia; the same position again); "below the calendar's level" marks staff memoranda, estimates and the President's background talks; "a lead" a dated event whose record or matter the page does not give enough of to enter.
 
 | Page | Date | Event | Why |
@@ -206,20 +315,20 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 3 | Jan. 20, 1961 | the inauguration | already in as cal.1961-01-20.transition-and-staff |
 | 19 | Oct. 27, 1962 | the ExComm's afternoon without Kennedy | already in as cal.1962-10-27.missile-crisis-2 and the day's other entries |
 | 43 | Nov. 19, 1963 | Kennedy to Evelyn Lincoln: Sanford, not Johnson, in 1964 | a lead: Lincoln's account (her book of 1968, from her diary), disputed (Caro, 295) |
-| 43 | Nov. 20, 1963 | Kennedy to Robert Kennedy, irritated with Johnson | minor (Robert Kennedy's recollection) |
-| 46-47 | Nov. 19-21, 1963 | Johnson to the ranch; Kennedy to Texas | minor (travel; Nov. 22 is in) |
+| 43 | Nov. 20, 1963 | Kennedy to Robert Kennedy, irritated with Johnson | entered (b6): cal.1963-11-20.democratic-party-2 (43–44), Robert Kennedy's recollection named |
+| 46-47 | Nov. 19-21, 1963 | Johnson to the ranch; Kennedy to Texas | entered (b6): Johnson to the ranch, cal.1963-11-19.assassination (46–47; R15); Kennedy's trip in the calendar |
 | 50 | Nov. 24, 1963 | Ruby shoots Oswald | already in as cal.1963-11-24.assassination |
-| 55 | Nov. 23, 1963 | Johnson's night at The Elms | below the calendar's level |
+| 55 | Nov. 23, 1963 | Johnson's night at The Elms | cited (b6) under cal.1963-11-23.succession-6 (55), Busby's night already in |
 | 56 | Nov. 25, 1963 | the Cabinet: "I want you all to stay on" | already in as cal.1963-11-23.transition-and-staff (the first reading's ruling: Dallek's text says Nov. 25, his note and the Daily Diary Nov. 23) |
 | 70 | Nov. 26, 1963 | the Senate tables Mundt's bill | already in as cal.1963-11-26.trade |
 | 70 | Dec. 5, 1963 | the leaders' breakfast on the tax cut and civil rights | already in as cal.1963-12-03.foreign-aid (the first reading's ruling: Dallek's note gives Dec. 3) |
-| 77 | Feb. 2, 1964 | Shriver with Mankiewicz | below the calendar's level |
+| 77 | Feb. 2, 1964 | Shriver with Mankiewicz | cited (b6) under cal.1964-02-02.poverty (77) |
 | 80 | Mar. 15, 1964 | Johnson's television conversation with the networks' correspondents | a lead: the Public Papers' item, not yet entered |
 | 95 | Jan. 10, 1964 | the call to Chiari | already in as cal.1964-01-10.latin-america-panama |
 | 95 | Feb. 29, 1964 | news conference: Panama and St. Louis | a lead: the news conference, not yet entered |
 | 101 | Nov. 21, 1963 | Bundy's draft of NSAM 273 | already in as cal.1963-11-26.vietnam |
 | 104 | Mar. 25, 1964 | Fulbright's "Old Myths and New Realities" | already in as cal.1964-03-25.latin-america |
-| 105 | May 18-26, 1964 | the $125 million for Vietnam; Bundy's advice for the Republican Senators | already in as cal.1964-05-18.vietnam; the meeting of May 26 minor |
+| 105 | May 18-26, 1964 | the $125 million for Vietnam; Bundy's advice for the Republican Senators | in as before; the meeting of May 26 in the calendar, cal.1964-05-26.vietnam-congress-2, cited (b6) (105; Bundy's memorandum of May 26, n.114, its witness) |
 | 116 | Jan. 30, 1964 | Rules grants the rule | already in as cal.1964-01-30.civil-rights-bill |
 | 120 | July 2, 1964 | the signing | already in as cal.1964-07-02.civil-rights-bill |
 | 126 | May 8, 1964 | news conference: Hoover kept past seventy | already in as cal.1964-05-08 (Dallek-cited) |
@@ -231,10 +340,10 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 145 | June 1, 1964 | Smathers to Johnson by telephone: no one in Congress for a war there | entered as cal.1964-06-01.vietnam-congress |
 | 146 | June 12, 23, 1964 | Erhard; Taylor for Lodge | already in as cal.1964-06-12.europe-and-the-alliance and cal.1964-06-23.vietnam |
 | 147, 149 | July 30-31, 1964 | the 34-A raid on the islands | a lead: the raid is named in the series' Tonkin entries (cal.1964-08-02); not an entry of its own |
-| 148 | Aug. 1, 1964 | William Bundy's vacation | below the calendar's level |
+| 148 | Aug. 1, 1964 | William Bundy's vacation | passed over (R18 as amended): personal, an official's vacation; Bundy's recollection of the mood is no act or word of the day |
 | 148 | Aug. 3, 1964 | Fulbright to Ball by telephone: "a little suspicious" | entered as cal.1964-08-03.vietnam |
 | 150-54 | Aug. 4-7, 1964 | the second attack; the resolution | already in as cal.1964-08-04.vietnam and the resolution's entries |
-| 169-73 | Sept. 2-7, 1964 | Valenti's and Moyers's memoranda; the publishers | below the calendar's level (campaign memoranda) |
+| 169-73 | Sept. 2-7, 1964 | Valenti's and Moyers's memoranda; the publishers | Valenti's memorandum of Sept. 7 in the calendar, cal.1964-09-07.elections-1964-2, cited (b6) (169; n.119); Moyers and Jenkins with the press, Sept. 5, entered (b6), cal.1964-09-05.elections-1964-johnson; Heller, Sylvia Porter, Lippmann and the *Post* the week after, cal.1964-09.elections-1964-johnson-7 (173; Check: the days) |
 | 179 | Oct. 7, 1964 | Jenkins arrested | already in as cal.1964-10-14.elections-1964 |
 | 193 | Nov. 19, 1964 | the Cabinet: know the new members of Congress | a lead: the Cabinet's minutes, not read |
 | 196 | Nov. 1, 1964 | the four Presidential Policy Papers | a lead: the papers, not read |
@@ -242,33 +351,33 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 200 | Mar. 1, 1965 | 200 of the NEA at the White House | a lead: the meeting (the Public Papers), not read |
 | 200 | Mar. 26, 1965 | the House passes the school bill | already in as cal.1965-03-26.school-aid |
 | 200 | Apr. 9-11, 1965 | the Senate passes the school bill; the signing at Stonewall | already in as cal.1965-04-11.school-aid (the Senate's vote a step of its course) |
-| 206 | Nov. 11, 1964; Jan. 1, 1965 | Mills: his committee "would be able to work something out" | Nov. 11 entered as cal.1964-11-11.medicare; Jan. 1 minor (the same position again) |
+| 206 | Nov. 11, 1964; Jan. 1, 1965 | Mills: his committee "would be able to work something out" | Nov. 11 entered as cal.1964-11-11.medicare; Jan. 1 passed over (R18 as amended): a repetition, the same position again |
 | 207 | Jan. 4, 1965 | State of the Union | already in as cal.1965-01-04.program |
 | 208 | Mar. 2, 1965 | Mills's "three-layer cake" | already in as cal.1965-03-02.medicare |
 | 208-09 | Apr. 8, July 28, 1965 | the House passes Medicare; Congress's final passage | already in under the Medicare thread (the bill's course) |
 | 213 | Jan. 2, 18, 1965 | King at Brown Chapel; the Selma demonstrations begin | already in as cal.1965-01-02.voting-rights and the Selma thread |
 | 213-14 | Feb. 3-6, 1965 | King's message for an emissary; the news conference; the announcement that a voting bill will be sent | already in as cal.1965-02-03.voting-rights-selma and cal.1965-02-04.voting-rights; the announcement of Feb. 6 a lead (Reedy's statement, not read) |
 | 214 | Feb. 8, 1965 | two voting bills introduced in the House | a lead: the bills and their sponsors, not named on the page |
-| 214 | Mar. 3-6, 1965 | King's announced march; his meeting with Johnson, Mar. 5; Wallace bans the march, Mar. 6 | already in as cal.1965-03-05.voting-rights and cal.1965-03-07.voting-rights; the ban minor |
+| 214 | Mar. 3-6, 1965 | King's announced march; his meeting with Johnson, Mar. 5; Wallace bans the march, Mar. 6 | in as before; the ban entered (b6), cal.1965-03-06.voting-rights-selma-4 (214–215) |
 | 215-16 | Mar. 9, 1965 | the second march; 700 troops on alert | already in as cal.1965-03-09.voting-rights |
 | 218 | Mar. 20, 1965 | the Alabama Guard federalized | already in as cal.1965-03-20.alabama |
 | 220 | May 26, July 9, Aug. 6, 1965 | the Senate and House pass the voting bill; the signing | already in as cal.1965-08-06.voting-rights and the bill's course (bills.yaml) |
 | 222 | June 4, 1965 | Howard University | already in as cal.1965-06-04.civil-rights-the-executive |
-| 228 | Sept. 9, Nov. 9, 1965 | the housing department's act; the date for its secretary passes | below the calendar's level (the act is in under Cities and housing) |
-| 231 | Sept. 22, 1965 | Leuchtenburg's interview with Johnson | below the calendar's level |
+| 228 | Sept. 9, Nov. 9, 1965 | the housing department's act; the date for its secretary passes | the act in as before; the day for a Secretary passing entered (b6), cal.1965-11-09.cities-and-housing (228) |
+| 231 | Sept. 22, 1965 | Leuchtenburg's interview with Johnson | entered (b6): Mansfield to Leuchtenburg, cal.1965-09.congress (231; Check: the day; Dallek: "later that month") |
 | 234 | July 13, 1965 | Stevenson dies | a lead: not found as an entry under its day; Goldberg's appointment is in (cal.1965-07-19.court, cal.1965-07-28.vietnam) |
 | 238 | Aug. 10, 1964 | Johnson with his advisers: the next challenge to be met firmly | entered as cal.1964-08-10.vietnam-commitments |
-| 238 | Aug. 29, 1964 | Ball to Reston: things "very serious" in Saigon | below the calendar's level |
-| 240 | Sept. 20-Oct. 1, 1964 | Bundy's memorandum for "a hint of firmness" | below the calendar's level (a memorandum) |
+| 238 | Aug. 29, 1964 | Ball to Reston: things "very serious" in Saigon | entered (b6): cal.1964-08-29.vietnam-2 (238) |
+| 240 | Sept. 20-Oct. 1, 1964 | Bundy's memorandum for "a hint of firmness" | cited (b6) under cal.1964-10-01.vietnam (240) |
 | 241 | Nov. 2-3, 1964 | the working group set up | already in as cal.1964-11-03.vietnam |
 | 241 | Nov. 19, 1964 | the working group's interim report | already in as cal.1964-11-19.vietnam |
 | 242 | Dec. 1-3, 1964 | the instructions to Taylor | already in as cal.1964-12-01.vietnam |
-| 244 | Dec. 23, 1964 | Alsop's column | below the calendar's level (a column) |
-| 246 | Jan. 26, 1965 | Cater to Johnson on Grose's view | below the calendar's level |
+| 244 | Dec. 23, 1964 | Alsop's column | entered (b6): cal.1964-12-23.press-and-broadcasting (244); the column of Dec. 30 named in its note, a Check |
+| 246 | Jan. 26, 1965 | Cater to Johnson on Grose's view | cited (b6) under cal.1965-01-26.vietnam-4 (246), with a Check on Grose's view |
 | 247-49 | Feb. 6-10, 1965 | Pleiku; the decision of Feb. 8; Qui Nhơn | already in as cal.1965-02-07 (Dallek-cited), cal.1965-02-08.vietnam and cal.1965-02-10.vietnam |
 | 251 | Feb. 13-17, 1965 | Ball and Thompson's memorandum; the meetings of Feb. 16 and 17 | already in as cal.1965-02-13 (Dallek-cited) and cal.1965-02-17.vietnam-3 |
 | 252 | Feb. 11, 1965 | Fulbright to Krock: impossible to tell what is intended | entered as cal.1965-02-11.vietnam-congress |
-| 252 | Feb. 15, 1965 | a memorandum to Johnson on public support | below the calendar's level |
+| 252 | Feb. 15, 1965 | a memorandum to Johnson on public support | Humphrey's memorandum, in as cal.1965-02-17.vietnam-4: cited (b6) (252–253), Check: Dallek gives Feb. 15 |
 | 254 | Feb. 25, 1965 | Johnson to the congressional leaders: "the best men we know how to get" | a lead: the leaders' meeting, not found among the calendar's entries of the day |
 | 255 | Mar. 6, 15, 1965 | the principals' memorandum; General Johnson's report | already in as cal.1965-03-13 and cal.1965-03-16.vietnam (Dallek-cited) |
 | 256 | Apr. 1, 1965 | news conference: "no far-reaching strategy" | a lead: the news conference, not yet entered |
@@ -285,14 +394,14 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 272 | July 8, 1965 | the Wise Men with Johnson | entered as cal.1965-07-08.vietnam-july-decision |
 | 273 | July 9, 1965 | news conference: things worse before better | a lead: the Public Papers' news conference, not yet entered |
 | 276 | July 27, 1965 | the leaders told before the announcement | already in as cal.1965-07-27.vietnam |
-| 281 | July 5, 1965 | Johnson to Goodwin on the Communists | minor (private talk; Goodwin's account) |
+| 281 | July 5, 1965 | Johnson to Goodwin on the Communists | in the calendar, cal.1965-07-05.press-and-broadcasting: cited (b6) (281) |
 | 284 | July 28, 1965 | the announcement | already in as cal.1965-07-28.vietnam |
 | 286 | Aug. 5, 1965 | the NSC on the press | already in as cal.1965-08-05.vietnam-congress |
-| 302 | Jan. 5-12, 1966 | the drafts of the State of the Union | below the calendar's level (drafting; the address is in, cal.1966-01-12.program) |
+| 302 | Jan. 5-12, 1966 | the drafts of the State of the Union | entered (b6): the drafts rejected, cal.1966-01-05.program (302; a principal's drafting, R18 as amended); Jan. 12's 4 a.m. draft cited under cal.1966-01-12.program-2 (pending, the Branch reader's) |
 | 303 | Dec. 6 [3], 1965 | the discount rate raised to 4.5 percent | already in as cal.1965-12-05.economy |
 | 305 | Sept. 3, 1965 | the steel settlement on television | already in as cal.1965-09-03.steel |
 | 306 | Jan. 27, 1966 | the Economic Report | already in as cal.1966-01-27.economy |
-| 310 | Sept. 2, 1966 | the advisers recommend asking for taxes | below the calendar's level (a memorandum; the message of Sept. 8 is in) |
+| 310 | Sept. 2, 1966 | the advisers recommend asking for taxes | in the calendar, cal.1966-09-02.economy-investment-credit: cited (b6) (310) |
 | 310 | Sept. 8, 1966 | the special message on fiscal policy | already in as cal.1966-09-08.economy |
 | 311 | Jan. 24, 1967 | the budget message | already in under the budget's entry (budget:1968) |
 | 314 | Mar. 2, 1966 | the transportation message | already in as cal.1966-03-02.transportation |
@@ -307,23 +416,23 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 341 | Nov. 10-11, 1965 | the Chiefs ask for 113,000 more; Johnson "60-40" for a pause | a lead: neither found among the entries of the days |
 | 343-47 | Dec. 7-28, 1965 | the meetings on the pause; the pause; the peace offensive | already in as cal.1965-12-07.vietnam-pause-2, cal.1965-12-17.vietnam, cal.1965-12-27.vietnam and cal.1965-12-28.vietnam |
 | 348-52 | Jan. 12-Feb. 4, 1966 | Ball before Foreign Relations; the leaders; the resumption; the hearings | already in as cal.1966-01-12.vietnam-congress, cal.1966-01-24.vietnam-pause, cal.1966-01-25.vietnam, cal.1966-01-26.vietnam-pause, cal.1966-01-31.vietnam, cal.1966-01-28.vietnam-congress and cal.1966-02-04.vietnam |
-| 353 | Jan. 25, 1966 | Moyers on going to the people | below the calendar's level (a staff memorandum) |
+| 353 | Jan. 25, 1966 | Moyers on going to the people | entered (b6): cal.1966-01-25.vietnam-support-3 (353) |
 | 353 | Jan. 31, 1966 | Robert Kennedy on the resumption | already in as cal.1966-01-31.robert-kennedy |
 | 355 | Feb. 8, 1966 | Los Angeles: Humphrey to Saigon and the Asian capitals | entered as cal.1966-02-08.vietnam-humphrey |
 | 356, 360 | Feb. 24, 1966 | Humphrey's report to the leaders | already in as cal.1966-02-24.vietnam-congress |
 | 358 | Mar. 10, 1966 | Thi relieved | already in as cal.1966-03-10.vietnam |
 | 359 | Mar. 12, 1966 | the governors at the White House | already in as cal.1966-03-12.vietnam-us |
 | 360-61 | Apr. 2, 1966 | the meeting on the Struggle Movement | already in as cal.1966-04-02.vietnam |
-| 361 | Apr. 8, 1966 | Vance's report from Vietnam | below the calendar's level (a memorandum) |
+| 361 | Apr. 8, 1966 | Vance's report from Vietnam | entered (b6): cal.1966-04-08.vietnam-2, FRUS 1964–68, IV, doc. 117, its record (361) |
 | 362 | Apr. 11, 1966 | a New York poll | a lead: the poll, for the Opinion thread |
 | 363 | Apr. 25, May 6-10, 1966 | the meeting on Track B; Kỳ's announcement; the NSC | already in as cal.1966-04-25.vietnam and cal.1966-05-10.vietnam; Kỳ's statement a lead |
 | 363-64 | May 21, 1966 | news conference: "the longer we are there" | a lead: the news conference, not yet entered (the day's entries are the Fortas call and Đà Nẵng) |
 | 367 | May 12, 1966 | the Armory speech | already in as cal.1966-05-12.vietnam-congress-2 |
 | 367 | May 13, 1966 | Russell at the White House, two and a half hours: Vietnam and the CIA investigation | entered as cal.1966-05-13.intelligence |
-| 370 | Apr. 27, 1966 | Fulbright asked to fly to Houston with Johnson | below the calendar's level (an invitation declined) |
+| 370 | Apr. 27, 1966 | Fulbright asked to fly to Houston with Johnson | entered (b6): cal.1966-04-27.vietnam-congress-foreign-relations (370) |
 | 370 | May 9, May 27, 1966 | Fulbright's note; Johnson's reply | already in as cal.1966-05-09.vietnam-congress and cal.1966-05-27.vietnam-congress |
 | 373 | June 22, 1966 | the NSC on the oil strikes | already in as cal.1966-06-29.vietnam |
-| 375 | June 4, 1966 | Johnson to Rusk on his approval at 46 percent | below the calendar's level |
+| 375 | June 4, 1966 | Johnson to Rusk on his approval at 46 percent | entered (b6): cal.1966-06-04.opinion (375) |
 | 375 | June 30, 1966 | the trip to the Middle West announced | a lead: the trip (Omaha, June 30) is in under cal.1966-06-29.vietnam |
 | 376 | Aug. 8, 1966 | the *Times* on the Pentagon's study | already in as cal.1966-08-08.vietnam |
 | 377 | July 11, 1966 | fourteen Representatives back from Vietnam with Johnson | entered as cal.1966-07-11.vietnam-congress |
@@ -332,24 +441,24 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 380 | Sept. 11, 1966 | the Constituent Assembly elected | already in as cal.1966-09-11.vietnam |
 | 381 | July 27, 1966 | Kỳ's call for an invasion of the North | a lead: Kỳ's news conference, not found as an entry |
 | 383 | Oct. 15, 1966 | the NSC on pacification | already in as cal.1966-10-15.vietnam |
-| 383-85 | Oct. 23-Nov. 2, 1966 | Manila; Cam Ranh Bay; the return by Anchorage | already in as cal.1966-10-24.vietnam-asian-trip and cal.1966-10-26.vietnam-asian-trip; the return minor |
+| 383-85 | Oct. 23-Nov. 2, 1966 | Manila; Cam Ranh Bay; the return by Anchorage | in as before; the return by Anchorage in the calendar too (cal.1966-11-01.elections-1966, cal.1966-11-02.vietnam-asian-trip) |
 | 385 | Nov. 2, 1966 | a poll: 63 percent for his handling of Vietnam | a lead: the poll's source not named on the page |
-| 386 | Dec. 9, 1966 | Johnson to Rostow: "hard work in the months ahead" | below the calendar's level |
+| 386 | Dec. 9, 1966 | Johnson to Rostow: "hard work in the months ahead" | entered (b6): cal.1966-12-09.vietnam-support (386; Check: the note names Rostow to Lodge, Dec. 9) |
 | 387 | Nov. 11, Oct. 15, 1966 | the force levels; the limits on bombing near Hanoi | already in as cal.1966-11-11.vietnam and cal.1966-10-15.vietnam |
-| 388 | Dec. 11, 1966 | Lodge's cable on the year ahead | below the calendar's level (a cable's forecast) |
+| 388 | Dec. 11, 1966 | Lodge's cable on the year ahead | entered (b6): cal.1966-12-11.vietnam-2 (388); FRUS's Saigon telegram of Dec. 12 (IV, doc. 338) is another, read and set aside |
 | 389-90 | Nov. 11-Dec. 31, 1966 | Warsaw; the raids near Hanoi | already in under the Marigold thread (cal.1966-12-02.vietnam-marigold, cal.1966-12-13.vietnam) |
 | 395-96 | July 1-Oct. 1, 1967 | the deficit; the surcharge's dates | not events (dates of fiscal years and of the surcharge's effect) |
 | 397 | Oct. 13, 1967 | Johnson to two *Star* reporters: Ford and Laird "not going to lose any sleep" over a $40 billion deficit | a lead: the President's background talk, from Dallek's source (WHCF: Aides: Christian), not read |
-| 403 | Aug. 23, 1967 | Humphrey's committee's final report | below the calendar's level (an interagency report put aside) |
+| 403 | Aug. 23, 1967 | Humphrey's committee's final report | entered (b6): cal.1967-08-23.cities-and-housing (403) |
 | 413-15 | July 23-27, 1967 | Detroit; Romney; the address | already in as cal.1967-07-23.civil-disorders, cal.1967-07-24.civil-disorders-detroit and cal.1967-07-27.civil-disorders-detroit |
-| 418 | Aug. 23, 1967 | Johnson to Humphrey on the cities | below the calendar's level |
+| 418 | Aug. 23, 1967 | Johnson to Humphrey on the cities | entered (b6): cal.1967-08-23.cities-and-housing-2 (418) |
 | 422 | Jan. 27, 1967 | the Apollo fire | already in as cal.1967-01-27.space-2 |
 | 426-31 | May 22-June 10, 1967 | the Strait of Tiran; the statement of May 23; Eban; the pact; the war; the *Liberty* | already in as cal.1967-05-22.middle-east, cal.1967-05-23.middle-east, cal.1967-05-25.middle-east, cal.1967-05-30.middle-east, cal.1967-06-05.middle-east and the war's entries |
 | 431 | June 16, 1967 | the White House on Soviet arms shipments | a lead: the statement, not read |
 | 431 | Nov. 22, 1967 | Resolution 242 | already in as cal.1967-11-22.middle-east |
-| 433 | June 19, 1967 | Johnson to the network bureau chiefs on Kosygin | below the calendar's level (an off-the-record remark) |
+| 433 | June 19, 1967 | Johnson to the network bureau chiefs on Kosygin | entered (b6): cal.1967-06-19.soviet-union (433) |
 | 442 | Aug. 30, 1967 | Marshall confirmed | already in as cal.1967-08-30.court |
-| 443 | Feb. 1, 1967 | Freeman's offer of help on Vietnam | below the calendar's level |
+| 443 | Feb. 1, 1967 | Freeman's offer of help on Vietnam | entered (b6): cal.1967-02-01.vietnam-support (443) |
 | 445 | Dec. 19, 1966 | Goldberg asks U Thant to begin discussions toward a cease-fire | entered as cal.1966-12-19.vietnam |
 | 445 | Dec. 13-14, 1966; Dec. 30, 1966-Jan. 1, 1967 | the raids near Hanoi; the New Year's truce | already in as cal.1966-12-13.vietnam and cal.1966-12-13.vietnam-congress |
 | 445 | Jan. 9, 1967 | Johnson to Mansfield on Hanoi's signals | already in as cal.1967-01-09.vietnam-congress |
@@ -361,41 +470,41 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 452 | Feb. 15, 1967 | Johnson to Representatives: no peace "crawling on our stomachs" | a lead: the meeting's notes, not read |
 | 453 | Mar. 15, 1967 | Nashville, the Tennessee legislature | already in as cal.1967-03-15.vietnam |
 | 454 | Mar. 13, 1967 | Johnson to Drew Pearson, off the record, on Robert Kennedy | entered as cal.1967-03-13.robert-kennedy |
-| 454 | Mar. 15, 1967 | Sidey's word on Kennedy | below the calendar's level |
-| 456 | Feb. 7, 1967 | the CIA on the North's economy | below the calendar's level (an estimate) |
-| 458 | Mar. 24, 1967 | Rostow briefs Howard K. Smith | below the calendar's level |
+| 454 | Mar. 15, 1967 | Sidey's word on Kennedy | cited (b6) under cal.1967-03-15.robert-kennedy-2 (pending, the Mann reader's) (454) |
+| 456 | Feb. 7, 1967 | the CIA on the North's economy | entered (b6): cal.1967-02-07.vietnam-air-war (456) |
+| 458 | Mar. 24, 1967 | Rostow briefs Howard K. Smith | entered (b6): cal.1967-03-24.press-and-broadcasting (458) |
 | 458-59 | Feb. 17-Mar. 22, 1967 | the meetings on more pressure; Guam | already in as cal.1967-02-17.vietnam, cal.1967-02-22.vietnam-2, cal.1967-03-07.vietnam and the Guam conference |
 | 463 | May 19, 1967 | McNamara's plan | already in as cal.1967-05-19.vietnam |
-| 464-65 | Apr. 3-28, 1967 | the optimistic reports and memoranda | below the calendar's level (memoranda) |
-| 465-68 | May 1-16, 1967 | Moyers's, Panzer's and Rostow's memoranda; Johnson to Beech and Sidey | below the calendar's level (memoranda; off-the-record talk) |
-| 466 | June 28, 1967 | Rostow: "Hanoi is moving towards negotiations" | below the calendar's level |
+| 464-65 | Apr. 3-28, 1967 | the optimistic reports and memoranda | entered (b6): the CIA of Apr. 3, cal.1967-04-03.intelligence (464); the other CIA assessment of the period, on the North's manpower, undated on the page: a lead |
+| 465-68 | May 1-16, 1967 | Moyers's, Panzer's and Rostow's memoranda; Johnson to Beech and Sidey | entered (b6): Rostow on the CIA's NLF program, cal.1967-05.vietnam-pacification; the 10 percent erosion, cal.1967-05-13.vietnam; Johnson to Beech, cal.1967-05.press-and-broadcasting (465); Moyers, May 1, cal.1967-05-01.vietnam-support; Panzer, May 12, cal.1967-05-12.opinion; Johnson to Sidey, May 16, cal.1967-05-16.press-and-broadcasting (468), all entered (b6) |
+| 466 | June 28, 1967 | Rostow: "Hanoi is moving towards negotiations" | entered (b6): cal.1967-06-28.vietnam-diplomacy (466) |
 | 469 | May 12, 1967 | Johnson to Russell on the three choices | already in as cal.1967-05-12.vietnam-congress |
 | 470-71 | July 11-12, 1967 | McNamara back from Vietnam; the White House meeting | already in as cal.1967-07-12.vietnam-program-5 |
-| 473 | July 18, 1967 | McPherson on the evening news | below the calendar's level |
+| 473 | July 18, 1967 | McPherson on the evening news | entered (b6): cal.1967-07-18.press-and-broadcasting (473) |
 | 474 | Aug. 7, 1967 | Apple's "stalemate" story, the *Times* | entered as cal.1967-08-07.vietnam |
 | 476 | July 15-19, 1967 | Rostow's memoranda; the Cabinet hears the Air Force general's memorandum | a lead: the Cabinet meeting of July 19, its notes not read |
 | 477-78 | Aug. 8-25, 1967 | the meetings on bombing; McNamara before Stennis | already in as cal.1967-08-08.vietnam, cal.1967-08-16.vietnam-air-war, cal.1967-08-18.vietnam-air-war and cal.1967-08-25.vietnam-air-war |
 | 478 | Sept. 12, 1967 | Helms's memorandum on withdrawal | a lead: not found as an entry |
 | 478 | Sept. 3, 1967 | South Vietnam's election | already in under the election's entries |
 | 480-81 | Aug. 8-Sept. 13, 1967 | Pennsylvania; Kissinger; the ten-mile zone; Hanoi's answer; the Tuesday lunch | already in under the Pennsylvania thread (cal.1967-08-25.vietnam-pennsylvania, cal.1967-09-08.vietnam, cal.1967-09-12.vietnam-pennsylvania) |
-| 480 | Sept. 5, 1967 | Johnson to American correspondents | below the calendar's level |
-| 481 | Sept. 20, 1967 | Australian broadcasters | below the calendar's level |
+| 480 | Sept. 5, 1967 | Johnson to American correspondents | entered (b6): cal.1967-09-05.press-and-broadcasting-2 (480) |
+| 481 | Sept. 20, 1967 | Australian broadcasters | entered (b6): cal.1967-09-20.press-and-broadcasting (481) |
 | 482 | Oct. 2, 1967 | Johnson to Clifford, Acheson and the "wise men": a halt "frustration & failure" | a lead: Clifford's notes of Oct. 2 (Clifford Papers), not read; the Wise Men's meeting in the series is Nov. 2 |
 | 482-84 | Oct. 3-23, 1967 | the meetings on Pennsylvania and a pause | already in as cal.1967-10-03.vietnam, cal.1967-10-04.vietnam, cal.1967-10-16.vietnam, cal.1967-10-17.vietnam-2, cal.1967-10-18.vietnam-pennsylvania and cal.1967-10-23.vietnam |
 | 484 | Oct. 28, 1967 | an NLF contact | a lead: Rostow's memorandum, not read |
-| 486 | Oct. 19, 1967 | Johnson to Robert Manning | below the calendar's level |
-| 487-90 | Oct. 4-23, 1967 | the march on the Pentagon: the Cabinet, the task force, Rostow on Dellinger, Johnson to Ford | already in as cal.1967-10-04.war-opposition, cal.1967-10-21.war-opposition and cal.1967-10-25.vietnam-2; the rest minor |
-| 489 | Nov. 15, Dec. 21, 1967 | Helms's reports on the peace movement | already in as cal.1967-11-15.war-opposition (the follow-up minor) |
+| 486 | Oct. 19, 1967 | Johnson to Robert Manning | entered (b6): cal.1967-10-19.press-and-broadcasting-3 (486) |
+| 487-90 | Oct. 4-23, 1967 | the march on the Pentagon: the Cabinet, the task force, Rostow on Dellinger, Johnson to Ford | in as before; Johnson to Ford and the House Republicans entered (b6), cal.1967-11.war-opposition-2 (490; Check: the day); Califano on the task force's plans, Oct. 10, entered (b6), cal.1967-10-10.war-opposition (488); the leak of Oct. 16 cited under cal.1967-10-16.war-opposition-2 (488); the Cabinet of Oct. 4 in as before; Rostow on Dellinger not found on the pages read |
+| 489 | Nov. 15, Dec. 21, 1967 | Helms's reports on the peace movement | in as before; the follow-up of Dec. 21 not found on p. 489 as read: not borne out on the page |
 | 489 | Nov. 1, 1967 | a "dump Johnson" meeting of West Side liberals | entered as cal.1967-11-01.democratic-party |
 | 490 | Nov. 22, 1967 | Ford in the House: the President says the march was Communist-organized; let him release the evidence | entered as cal.1967-11-22.war-opposition |
 | 491 | Nov. 1, 1967 | news conference on the country's uncertainty | a lead: the news conference, not yet entered |
 | 491 | Nov. 2, 1967 | Johnson's briefing of House members on the war | entered as cal.1967-11-02.vietnam-support |
 | 492-94 | Oct. 25-Nov. 2, 1967 | Rostow's "urgent need" for better reporting; McNamara at lunch with the Wise Men; the Wise Men | already in as cal.1967-10-25.vietnam-support, cal.1967-11-01.vietnam and cal.1967-11-02.vietnam |
-| 492 | Oct. 27, 1967 | McPherson's letter on the air war | below the calendar's level (a staff letter) |
+| 492 | Oct. 27, 1967 | McPherson's letter on the air war | entered (b6): cal.1967-10-27.vietnam-air-war-2 (492) |
 | 495 | Nov. 27, 1967 | the *Financial Times* on McNamara to the World Bank | already in as cal.1967-11-29.defense |
 | 496-97 | Oct. 30-Nov. 8, 1967 | Humphrey in Saigon; his report to the NSC | already in as cal.1967-10-31.vietnam and cal.1967-11-08.vietnam |
-| 498-99 | Nov. 16-21, 1967 | Rostow's progress campaign; the discussions of targets and casualty reports | already in as the Bunker and Westmoreland visit (cal.1967-11-13.vietnam); the rest minor |
-| 502 | Jan. 10, 1968 | Rostow on Khe Sanh | below the calendar's level |
+| 498-99 | Nov. 16-21, 1967 | Rostow's progress campaign; the discussions of targets and casualty reports | in as before; Johnson on the casualty figures entered (b6), cal.1967-11-21.vietnam-support (499) |
+| 502 | Jan. 10, 1968 | Rostow on Khe Sanh | entered (b6): cal.1968-01-10.vietnam (502) |
 | 502 | Jan. 29, 1968 | the Joint Chiefs on Khe Sanh | already in as cal.1968-01-29.vietnam-khe-sanh |
 | 503-05 | Jan. 30-Feb. 2, 1968 | Tet; the news conference | already in as the Tet entries and cal.1968-02-02.vietnam-tet |
 | 506 | Feb. 27, 1968 | Cronkite's report | already in as cal.1968-02-27.press-and-broadcasting |
@@ -405,13 +514,13 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 510 | Mar. 16, 18, 1968 | the speeches to the businessmen and the Farmers Union | already in as cal.1968-03-16.vietnam-2 and cal.1968-03-18.vietnam |
 | 511-12 | Mar. 14-26, 1968 | Johnson to Clifford; the speech drafts; the Wise Men | already in as cal.1968-03-19.vietnam-205000, cal.1968-03-20.vietnam-205000 and cal.1968-03-25.vietnam |
 | 514 | Jan. 25, 1968 | the *Pueblo* | already in under the Pueblo thread |
-| 515 | Jan. 24, 1968 | Ackley on the risk of a world depression | below the calendar's level (a memorandum) |
-| 527-28 | Mar. 4-24, 1968 | the New Hampshire poll; the primary; Kennedy's announcement; the count of delegates | already in as cal.1968-03-12 (New Hampshire), cal.1968-03-14.robert-kennedy and the elections thread; the *Times*'s count minor |
+| 515 | Jan. 24, 1968 | Ackley on the risk of a world depression | entered (b6): cal.1968-01-24.economy (515) |
+| 527-28 | Mar. 4-24, 1968 | the New Hampshire poll; the primary; Kennedy's announcement; the count of delegates | in as before; the *Times*'s count entered (b6), cal.1968-03-24.press-and-broadcasting (528) |
 | 533 | Mar. 19, 1968 | House Rules, 8-7, puts off the open housing bill to Apr. 9 | already in as cal.1968-03-19.open-housing (entered meanwhile by another run; Dallek's count and page added) |
 | 533-34 | Apr. 4-11, 1968 | King's murder; the House passes the bill; the signing | already in as the King entries, cal.1968-04-10.open-housing and the signing |
-| 535 | Apr. 26, 1968 | the Urban Institute's board | below the calendar's level |
+| 535 | Apr. 26, 1968 | the Urban Institute's board | entered (b6): cal.1968-04-26.cities-and-housing (535) |
 | 535-36 | May 3, 1968 | news conference on the surcharge | a lead: the news conference, not yet entered under the surcharge |
-| 536 | May 21, 1968 | the council's memorandum on a world financial crisis | below the calendar's level (a memorandum) |
+| 536 | May 21, 1968 | the council's memorandum on a world financial crisis | entered (b6): cal.1968-05-21.economy-surcharge-5 (536) |
 | 537 | Apr. 3, 1968 | Hanoi's statement | already in as cal.1968-04-03.vietnam |
 | 537 | May 8, 15, 21, 1968 | Rusk and Clifford on resuming the bombing | a lead: the meetings' notes, not found as entries |
 | 538 | Apr. 18, 1968 | Johnson on the site: "It is time" | a lead: the statement, not found as an entry |
@@ -420,28 +529,28 @@ How the list was made: a script over the text layer (pp. 3–628) listed every m
 | 545 | Apr. 10, 1968 | Rockefeller, after a word with Johnson at St. Patrick's, "available" for the nomination | entered as cal.1968-04-10.elections-1968 |
 | 545 | Apr. 30, 1968 | Rockefeller a candidate | already in as cal.1968-04-30.elections-1968-2 |
 | 546 | Apr. 27, 1968 | Humphrey announces; the Cabinet kept out | already in as cal.1968-04-27.elections-1968 |
-| 547 | May 9, 1968 | a memorandum: Kennedy will take "law and order" | below the calendar's level (a staff memorandum) |
+| 547 | May 9, 1968 | a memorandum: Kennedy will take "law and order" | entered (b6): cal.1968-05-09.elections-1968-johnson (547) |
 | 547 | May 16, 1968 | Riesel's "almost verbatim report" of Johnson's off-the-record meeting with the AFL-CIO's council | entered as cal.1968-05-16.elections-1968 (a leak) |
 | 547-48 | June 4-8, 1968 | Kennedy's victory in California; the funeral | already in as cal.1968-06-04.elections-1968 and cal.1968-06-08.robert-kennedy |
 | 552-53 | Aug. 1-Nov. 5, 1968 | the housing act hailed; the National Medical Association; the Eye Institute; the news conference of Sept. 6; the National Housing Partnership; the bills signed | the housing act already in under Cities and housing; the rest a lead (the Public Papers' items, not yet entered) |
-| 553 | Sept. 26, 1968 | Cohen briefs the staff on future programs | below the calendar's level |
+| 553 | Sept. 26, 1968 | Cohen briefs the staff on future programs | entered (b6): cal.1968-09-26.program (553) |
 | 555 | Aug. 19-21, 1968 | Moscow agrees to Johnson's visit; the invasion of Czechoslovakia | already in as cal.1968-08-19.testing and cal.1968-08-20.soviet-union |
-| 558-59 | July 1-2, 1968 | Johnson to a reporter on Fortas's chances; the record of 145 meetings | below the calendar's level (a background talk; a count) |
+| 558-59 | July 1-2, 1968 | Johnson to a reporter on Fortas's chances; the record of 145 meetings | the remark entered (b6), cal.1968-07-01.court (558); the count of 145 meetings passed over: a tally, no event |
 | 564 | Oct. 1, 1968 | Fortas withdrawn | already in as cal.1968-10-01.court and cal.1968-10-02.court-fortas |
-| 564 | July 2, 1968 | Rusk: "Something is stirring" | below the calendar's level |
+| 564 | July 2, 1968 | Rusk: "Something is stirring" | entered (b6): cal.1968-07-02.vietnam-diplomacy (564) |
 | 566 | July 18-20, 1968 | Honolulu: Clifford, Rusk, Bunker, Thiệu, Kỳ | already in as cal.1968-07-18.vietnam and the Honolulu conference |
-| 568 | Aug. 9, 1968 | the Pentagon on "stepped-up Communist military activity" | below the calendar's level (an estimate) |
+| 568 | Aug. 9, 1968 | the Pentagon on "stepped-up Communist military activity" | entered (b6): cal.1968-08-09.vietnam (568) |
 | 569 | Aug. 22, 1968 | Johnson to the Cabinet: "peace now ... but with honor" | a lead: the Cabinet's minutes (Cabinet Papers), not read |
 | 570, 573 | Aug. 21-23, 1968 | the polls; a station's telephone poll | a lead: the polls, for the Opinion thread |
 | 571-72 | Aug. 27-29, 1968 | the birthday honors planned; the film on Robert Kennedy | already in under the convention's entries (cal.1968-08-28.elections-1968, cal.1968-08-29.elections-1968) |
 | 574 | Aug. 27, Sept. 2, 1968 | the *Times* and Pearson on Johnson's hand in the platform | a lead: the stories, not read |
 | 574 | July 29, 1968 | Bailey of the National Committee asks to see Johnson on the convention | a lead: Bailey's memorandum (WHCF: EX/PL1), not read |
-| 575 | Sept. 5, 1968 | Johnson to Lisagor: he wants Humphrey elected | already in as cal.1968-09-10.elections-1968's source (Dallek-cited); the talk itself minor |
+| 575 | Sept. 5, 1968 | Johnson to Lisagor: he wants Humphrey elected | entered (b6): cal.1968-09-05.elections-1968-2 (575) |
 | 575 | Sept. 12, 1968 | Johnson on Humphrey's word on bringing troops home | already in as cal.1968-09-12.elections-1968 |
 | 581-84 | Oct. 2-Nov. 2, 1968 | Rusk and Gromyko; Hanoi's shift; the cables of Oct. 11-14; the agreement of Oct. 27; the halt | already in as cal.1968-10-02.testing-missile-talks, cal.1968-10-09.vietnam, cal.1968-10-14.vietnam, cal.1968-10-27.vietnam-paris and the halt's entries |
 | 587-88 | Oct. 27-Nov. 2, 1968 | Chennault's message; Clifford's "horseshit"; Thiệu's refusal | already in as cal.1968-10-27.elections-1968-chennault, cal.1968-10-29.vietnam and the Chennault entries |
 | 588 | Nov. 5, 1968 | Thiệu and Kỳ ask Johnson for reassurance | a lead: not found as an entry |
-| 589 | Oct. 17, 23, 1968 | Panzer's memoranda on the race | below the calendar's level (staff memoranda) |
+| 589 | Oct. 17, 23, 1968 | Panzer's memoranda on the race | entered (b6): cal.1968-10-17.elections-1968-3, cal.1968-10-23.elections-1968-2 (589) |
 | 589 | Oct. 26, 1968 | Johnson campaigns in Kentucky and West Virginia | entered as cal.1968-10-26.elections-1968 |
 | 589 | Oct. 27, 1968 | Johnson at the National Committee's luncheon, New York | entered as cal.1968-10-27.elections-1968 |
 | 589 | Nov. 3, 1968 | the Astrodome | already in as cal.1968-11-03.elections-1968 |
@@ -457,3 +566,13 @@ National:
 - Johnson's background talk with two *Star* reporters, Oct. 13, 1967, on Ford and Laird (WHCF: Aides: Christian).
 - William Bundy's manuscript history of the war (LBJ Library), cited for the July decisions of 1965 and the pause of 1965–66: FRUS quotes parts; the whole not open here. Foreign:
 - Kỳ's words of July 27, 1966, and Feb. 1, 1967; the Dominican cease-fire of May 5, 1965; Thiệu and Kỳ's request of Nov. 5, 1968; the Saigon delegation's arrival, Dec. 8, 1968; the back channel to Moscow, Dec. 9, 1968; the warning to Thiệu, Jan. 7, 1969; the Soviet initiative of June 4, 1968, and Ball's swearing in at the UN.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the news conference of May 21, 1966 (363–64): already cited under `cal.1966-05-21.vietnam-struggle` (the quotations, PPP 531); nothing to add.
+- Lead: the speeches of July 23, 1966 (377): entered as `cal.1966-07-23.vietnam-2` (Indianapolis, the 150th anniversary of Indiana; the Vietnam passage; the words read in the APP text; the page 760 from Dallek's n.119, not checked).
+- Lead: the Jim Lucas briefing, Sept. 6, 1966 (380): entered as `cal.1966-09-06.vietnam-congress` (the day from n.125; the page has 'the beginning of September').
+- Lead: Kintner on Kennedy in February (453): entered as `cal.1967-02-17.robert-kennedy-2` (the day from n.30, Check).
+- Lead: Howard K. Smith's talk (453, Mar. 31 by n.29): entered as `cal.1967-03-31.press-and-broadcasting` (Check: the day).
+- Lead: the Humphrey–Korea report and Rostow's 'not a stalemate' memo (471): the memo is already in `cal.1967-07-01.vietnam` (cited 471); Dallek's n.76 dates the memos July 7 and 8, not July 12: a Check added there; Humphrey's report entered as `cal.1967-07-06.vietnam-2` (the day from n.76, Check).
+- Lead: the news conference of Sept. 6, 1968 and the other Public Papers items (552–53): already cited under `cal.1968-09-06.court`, `cal.1968-09-11.jobs-and-wages`, `cal.1968-09-12.welfare`, `cal.1968-09-16.school-aid`, `cal.1968-09-24.health`, `cal.1968-09-26.program`, `cal.1968-08-16.health`; nothing to add.
+- Lead: Johnson to David Wise, Oct. 1, 1968, on Czechoslovakia (555): the meeting is `cal.1968-10-01.court-2` (Fortas); cited there under 555 (units '?', the other words).

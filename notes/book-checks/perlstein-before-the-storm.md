@@ -71,6 +71,15 @@ Records: `sources/cited-records/perlstein-before-the-storm.yaml`, 123 (Perlstein
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 432 (the owner's Drive copy, PDF = printed + 32; page images read): the countdown and telephone spots hold (`-5`, `-6`, 432). The ice-cream spot cited under `cal.1964-09-12.elections-1964` (units '?'; variant: "If he's elected" without "so," no vote against the treaty).
+- pp. 433-34: "Confessions of a Republican" is told on 433, not "only named": entered as `cal.1964-09.elections-1964-johnson-9`; and the posters spot (Rockefeller, Scranton: `-10`), the Eastern Seaboard spot (433-34: `-11`), the Social Security card spot (434: `-12`), each "Check: the day and the month". Passed over: the pregnant-woman spot "pulled" and the Klan-crosses ad "pulled at the last minute" (433): never shown, no public act (R18).
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled private, social, trivia, "minor," "undated (informal)" for a draft, and the platform's drafting, read again from the owner's copy (Drive 1crqPUcuyCiLA2VckQkxcVub6eTI0Py6B; the offsets above held, checked at pp. 138, 207, 367 and 390 on the running heads). Patch `inbox/2026-11-06-b6-perlstein-before-the-storm.yaml` (b6-perlstein-before-the-storm: 5 entries); edges in the by-work file (5).
+
 How the list was made: every dated (or datable) event the book treats in 1960–Nov. 1964 that falls under the brief, noted page by page on the reading (330 rows), then each ruled. "Undated": the book gives no day or month. "To leads": an event within the brief whose day, words or record wants another source (a recording, the Record, a newspaper) before it is entered. Rows entered are listed with their entries.
 
 | page | date | event | ruling |
@@ -112,7 +121,7 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 | 138 | 1960-12 | Goldwater to Congress of American Industry (NAM) NY vs $500M Latin American aid | entered as `cal.1960-12.goldwater` |
 | 138 | 1961-01 | Javits effort to dump Goldwater as Senatorial Campaign Committee chair | entered as `cal.1961-01.republican-party-congress` |
 | 138 | 1961-01-11 | Goldwater Senate: "Statement of Proposed Republican Principles..." Forgotten American | entered as `cal.1961-01-11.goldwater` |
-| 138 | 1961 winter | 9999th Air Reserve Squadron | minor (a reserve unit, private) |
+| 138 | 1961 winter | 9999th Air Reserve Squadron | Re-ruled Nov. 6: entered as `cal.1961-02.goldwater` (a member's doing, R9; "that winter": Check: the month) |
 | 139 | 1961-03-25/04-10 | Business Week, Newsweek covers; Time cover | out of the brief (magazine covers) |
 | 142 | 1961-05/06 | Goldwater at Rockford Ill.: "groveling before a cheap dirty dictator" (tractors) | entered as `cal.1961-06.goldwater` |
 | 148 | 1961 (summer) | Goldwater on Walker: "namby-pambies as our generals" | undated |
@@ -148,7 +157,7 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 | 183 | 1961-11 | conservative orgs meeting behind ACA field men for 1962 | entered as `cal.1961-11-14.conservative-movement` |
 | 183 | 1962-06 | RNC meeting Seattle; Advance (Chapman, Gilder) | cited under `cal.1962-06.republican-party` (183), Check on *Advance* at Seattle, Nov. 5 |
 | 183 | 1962 | Advance's push to dump Goldwater from RSCC; Washington State Rep resolution; AP poll of 19 | entered as `cal.1962-08-14.republican-party` |
-| 183 | 1962 | Goldwater Chubb Fellow at Yale | minor (a fellowship at Yale) |
+| 183 | 1962 | Goldwater Chubb Fellow at Yale | Re-ruled Nov. 6: no longer minor (a Senator's week of lectures, R9); the book gives the year alone: a lead |
 | 184 | 1962 | Goldwater off lecture circuit | undated |
 | 184 | 1962-09 | NFRW convention: White's slate sweeps | entered as `cal.1962-09.republican-party` |
 | 185 | 1961-06? | YR convention: Nadasdy elected over Syndicate | cited under `cal.1961-07.republican-party` (185), Nov. 5 |
@@ -178,7 +187,7 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 | 204 | 1963-05 | Rockefeller authorizes Chase bail funds | undated (informal) |
 | 204 | 1963-05-10 | Kennedy to Bradlee at dinner: "I can't believe we'll be that lucky" | cited under `cal.1963-05.elections-1964-3` (204), Check on the day (May 10 by Perlstein's sequence) and the wording, Nov. 5 |
 | 206 | 1963-05/06 | Tower promises filibuster vs public accommodations | entered as `cal.1963-07-06.civil-rights-bill` (dated by the Daily News, July 6), Nov. 5 |
-| 207 | 1963-05-29 | Salinger's space capsule gift | minor (a gift, social) |
+| 207 | 1963-05-29 | Salinger's space capsule gift | Re-ruled Nov. 6: entered as `cal.1963-05-29.elections-1964` (the staff's jab at Goldwater and Wallace, R7; by Carter, 207 n.1) |
 | 210 | 1963-05-10 | Kuchel Senate speech on "fright mail" (Chinese commandos, UN troops in Georgia) | entered as `cal.1963-05-02.right-and-the-military` |
 | 210 | 1963 | Utt newsletter on UN troops | undated |
 | 214 | 1963-06-25 | Clayton memo: only Goldwater would win | entered as `cal.1963-06-25.elections-1964`, Nov. 5 |
@@ -260,7 +269,7 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 | 308 | 1964-02 | Johnson at Miami: "petty temper and narrow view" (vs Goldwater) | the Papers' text read: the line added to `cal.1964-02-27.railroads` by edit (one address, one entry), with Perlstein's cite and a Check on the wording, Nov. 5 |
 | 309 | 1964-01 (late) | Rules Committee: Curtis moves to call Jenkins, loses 6-3; moves to publish, loses | entered as `cal.1964-01.baker`, Nov. 5 |
 | 310 | 1964-03-09 | Oregon's Appling names six; Smith by petition; deadline | cited under `cal.1964-03-09.elections-1964` (310), Nov. 5 |
-| 310 | 1964-02-16 | Scranton on Meet the Press | minor (the Sunday line holds it; nothing said given) |
+| 310 | 1964-02-16 | Scranton on Meet the Press | Re-ruled Nov. 6: passed over still: a repetition of the daybook's Sunday line, the page giving nothing he said |
 | 311 | 1964-04-19 | Scranton press conference: not a candidate, 1,200 | cited under `cal.1964-04-09.elections-1964` (311), Check: Perlstein gives Apr. 19 and 1,200, Nov. 5 |
 | 311 | 1964-03 (early) | Nixon with Haldeman, Ehrlichman, Crabtree, Nadasdy on Oregon | undated (informal) |
 | 312 | 1964-02/03 | Rockefeller Oregon tours; Jackie Robinson "bigot" | entered as `cal.1964-02.elections-1964-primaries-3`, `cal.1964-03.elections-1964-primaries`, Nov. 5 |
@@ -319,7 +328,7 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 | 366 | 1964-07 | LA County YRs commend Maddox | entered as `cal.1964-07.republican-party-2`, Nov. 5 |
 | 366 | 1964-06/07 | Scranton in Utah, Seattle, Oregon | undated |
 | 366 | 1964-07 | Humphrey to Johnson: "doubt he's got it locked up" | entered as `cal.1964-07.elections-1964-johnson`, Nov. 5 |
-| 367 | 1964-07 | Laird drafts platform | not settled: Perlstein gives no day or month for Laird's drafting (367); still a lead |
+| 367 | 1964-07 | Laird drafts platform | Re-ruled Nov. 6: a principal's publication drafted (the platform), dated loosely ("the week before the opening gavel"): entered as `cal.1964-07.elections-1964-san-francisco-5` (Check: the day) |
 | 371 | 1964-07-10 | SF civil rights march 40,000; Keating, Javits, Lodge, Rockefeller speak, booed | entered as `cal.1964-07-10.elections-1964` |
 | 372 | 1964-07 (~8) | Der Spiegel interview; Scranton: "defoliate the Republican Party" | cited under `cal.1964-06-30.goldwater` (372–73); Scranton's "defoliate" entered as `cal.1964-07.elections-1964-scranton`, Nov. 5 |
 | 373 | 1964-07 (~9) | Goldwater's SF press conference | undated |
@@ -332,11 +341,11 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 | 380 | 1964-07-14 | Credentials Committee: Lindsay's anti-discrimination motion lost 69-19; Shelby County 66-1 | entered as `cal.1964-07-14.elections-1964-san-francisco`, Nov. 5 |
 | 384 | 1964-07-15 | Goldwater in kitchen: Johnson "biggest faker... phoniest individual" | entered as `cal.1964-07-15.goldwater-2`, Nov. 5 |
 | 386 | 1964-07-11 | Moyers meets Doyle Dane Bernbach | entered as `cal.1964-07-11.elections-1964-johnson`, Nov. 5 |
-| 390 | 1964-07-11..16 | brain trust drafts acceptance: Jaffa; extremism line | undated (informal) |
+| 390 | 1964-07-11..16 | brain trust drafts acceptance: Jaffa; extremism line | Re-ruled Nov. 6: a principal's speech drafted: entered as `cal.1964-07-11.elections-1964-san-francisco` (the first meeting, "the previous Saturday": Check) and `cal.1964-07-16.elections-1964-san-francisco` (the text approved before dawn Thursday) |
 | 392 | 1964-07-16/17 | Rockefeller's statement on extremism line; Eisenhower "offense"; Brown "stench of fascism" | Rockefeller cited under `cal.1964-07-17.elections-1964-2` (392); Eisenhower and Brown entered as `cal.1964-07.elections-1964-san-francisco-2`, `cal.1964-07.elections-1964-san-francisco-3`, Nov. 5 |
 | 392 | 1964-07 | Fulbright Senate speeches: Goldwaterism "closest thing to Russian Stalinism" | not settled: Perlstein dates Fulbright's speeches by no day (392–93; his note, Record copies in an LBJ Library folder of Oct. 16–26); still a lead |
 | 393 | 1964-07-17 | Goldwater names Burch RNC chairman, not White; finance committee dismissed | entered as `cal.1964-07-17.republican-party` |
-| 396 | 1964-07 | Goldwater to reporters privately: would withdraw if violence sown for him | undated |
+| 396 | 1964-07 | Goldwater to reporters privately: would withdraw if violence sown for him | Re-ruled Nov. 6: already in: `cal.1964-07.goldwater` (batch 5) holds it |
 | 396 | 1964-07 (~20) | Goldwater at refueling stop proposes joint appeal / meeting with Johnson | entered as `cal.1964-07.goldwater`, Nov. 5 |
 | 397 | 1964-07 | Johnson to Reedy; RFK "civil rights around our neck" | undated |
 | 399 | 1964-08-02 | Johnson and Smathers: Guest's contribution, ambassadorship | entered as `cal.1964-08-01.elections-1964-johnson` (the tape he cites is the Miller Center's of Aug. 1; Check), Nov. 5 |
@@ -411,7 +420,8 @@ How the list was made: every dated (or datable) event the book treats in 1960–
 What is left of the leads after batch 5 (Nov. 5, 2026), by the headings of `notes/leads.md`:
 
 National:
-- Laird's drafting of the platform of 1964 (367): no day or month in Perlstein; the platform committee's and the convention's *Proceedings* (borrow only).
+- Laird's drafting of the platform of 1964 (367): entered in batch 6 as `cal.1964-07.elections-1964-san-francisco-5`; its day still wanted, the platform committee's and the convention's *Proceedings* (borrow only).
+- (batch 6) Goldwater's Chubb Fellowship at Yale, 1962 (183): the week's dates (Yale's Chubb Fellowship records; the *Yale Daily News*).
 - Fulbright's Senate speeches on Goldwaterism, "the closest thing in American politics to an equivalent of Russian Stalinism" (392–93): the Record's days (his note: Record copies in an LBJ Library folder, "October 16 to October 26").
 - Brooke's "Our overriding, overwhelming distrust of big government" (515): from his *The Challenge of Change* (1966), by Kessel; the book's day.
 - The FCC's and the D.C. Circuit's rulings on Burch's demand for equal time, October 1964 (493): not read; `cal.1964-10-19.republican-party` holds the event.

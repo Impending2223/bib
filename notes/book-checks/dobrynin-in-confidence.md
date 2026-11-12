@@ -73,6 +73,8 @@ Among them, each with its page: Dobrynin dates the Vienna summit July 3–4 (44�
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows below ruled no bearing, a private account or minor are ruled again in "Batch 6: the private and minor rows re-ruled", after the Leads.
+
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 64 | summer, undated | Drew Pearson's Soviet peas at his farm | no bearing on politics or policy (R18) |
@@ -119,3 +121,22 @@ Dobrynin cites no newspapers; the *Times*'s stories of the meetings he describes
 - The civil air agreement with the Soviet Union, signed Nov. 4, 1966: its U.S.T. cite and an entry; the first Aeroflot flight to New York, July 15, 1968 (150).
 - The undated talks above, each with the FRUS volume to look in (1964–68, XIV).
 - The pagination of the three earlier Dobrynin cites (above).
+
+## Batch 6: the private and minor rows re-ruled (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-06-b6-dobrynin-in-confidence.yaml` (2 ops: 2 new entries, claimed in the ledger). `./bib patch-check`: 0 errors (a "one event?" notice on Apr. 1, 1968, read: a distinct event). The copy: the owner's PDF in Drive (10QgMAGW7kkUW26I6daKc37iUP9Dk4ol2), downloaded again; printed page = PDF page − 14, as above, checked on the image of p. 190; deleted when done. The book has no notes: no witnesses for these units; Rostow's memorandum of the dinner of Sept. 9, 1968 (FRUS 1964–68, XIV, doc. 295, read in `sources/frus-text/`) is cited in the new entry of Sept. 10 for its n. 1 only (gone over with Rusk at lunch that day); it does not record the call.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 64 | a summer, 1962 or after | Drew Pearson's Soviet peas at his farm, Dobrynin his guest | lead: the year not given (a columnist and the ambassador, R13; the remark on "peaceful coexistence") |
+| 64 | a July 4 before 1962 | Thompson's corn at Spaso House and Khrushchev | lead: the year not given, and likely before the span |
+| 129 | n.d. | Richter's tour; Dobrynin's urgent cable to Moscow to recall his KGB "administrator" | lead: the cable's day (an ambassador's cable, R8; the tour not dated in the book) |
+| 178–79 | Apr. 1, 1968 | Harriman's dinner: who knew of Johnson's withdrawal; Humphrey; Rusk and Rostow, "the American Rasputin" | entered, `cal.1968-04-01.elections-1968-johnson-2` (a social occasion among principals, private talk of public business; Check: the day, "the following day") |
+| 190 | Sept. 10, 1968 | Rostow: no longer handling the summit, Rusk is | entered, `cal.1968-09-10.testing-missile-talks` (Check: the day, "the next day" after the dinner of Sept. 9) |
+| 192–93 | after Jan. 20, 1969 | the farewell dinner for Rusk | still passed over: out of the brief (after the span) |
+
+Not borne out: none. Doubtful, for the owner: the other rows of this table marked "lead: the day" (late May and early June 1966, mid-Sept. 1967, late July 1967, and others) date their events to a month or a part of one; under R50 such loose dates make entries with "Check: the day", not leads. They were not private or social rows and were left for a later reading.
+
+### Leads (batch 6)
+
+- Foreign: Dobrynin at Drew Pearson's farm, a summer of the Kennedy years (64): the year. Dobrynin's cable on Richter's escort (129): the tour and the day.

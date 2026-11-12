@@ -1,0 +1,54 @@
+patch: 2026-11-10-b7-zelizer
+by: Claude (agent), batch 7 reader (b7-westmoreland), Zelizer, Nov. 10-11, 2026
+ops:
+  - cite:
+      id: cal.1962-01-11.program
+      item: '[[w.zelizer-taxing-america]], 193 (the administration''s "failed proposal in January 1962 for presidential authority to reduce tax rates")'
+      units: B
+  - to-check:
+      id: cal.1962-01-11.program
+      add:
+        - Surrey to Heller, Jan. 24, 1962, Heller Papers, Kennedy-Johnson Files, box 21, "Stand-By Tax Authority 1/62-6/64," JFK Library (cited by [[w.zelizer-taxing-america]], 193 n.51a)
+  - src:
+      id: cal.1962-01-11.program
+      rows:
+        - 'via w.zelizer-taxing-america 193 n.51a: B'
+  - cite:
+      id: cal.1965-06-21.economy
+      item: '[[w.zelizer-taxing-america]], 250 (a $4.8 billion excise reduction enacted in mid-June, its cut in the same income brackets as the higher payroll tax easing "fiscal drag")'
+      units: A
+  - variant:
+      id: cal.1965-06-21.economy
+      unit: B
+      witness: w.zelizer-taxing-america
+      reads: Congress enacted a $4.8 billion excise tax reduction in mid-June
+      at: '250'
+  - check:
+      id: cal.1965-06-21.economy
+      text: 'Check: Zelizer gives $4.8 billion (250).'
+  - src:
+      id: cal.1965-06-21.economy
+      rows:
+        - 'via w.zelizer-taxing-america 250 n.175a: A'
+  - cite:
+      id: cal.1967-09-13.economy-surcharge
+      item: '[[w.zelizer-taxing-america]], 263 (Mills, in September 1967, "privately told the president to announce on television that the nation had to choose between guns and butter, and that Johnson was choosing guns")'
+      units: A
+  - variant:
+      id: cal.1967-09-13.economy-surcharge
+      unit: A
+      witness: w.zelizer-taxing-america
+      reads: he privately told the president
+      at: '263'
+  - check:
+      id: cal.1967-09-13.economy-surcharge
+      text: 'Check: Zelizer has Mills tell the President himself (263); Sanders''s memorandum, Treasury''s liaison.'
+  - to-check:
+      id: cal.1967-09-13.economy-surcharge
+      add:
+        - '[[w.matusow-unraveling-of-america]], 171 (cited by [[w.zelizer-taxing-america]], 263 n.36a)'
+        - '*President''s 1967 Tax Proposals: Hearings Before the H. Comm. on Ways and Means*, 90th Cong. (1967), 580 (cited by [[w.zelizer-taxing-america]], 263 n.36b)'
+  - src:
+      id: cal.1967-09-13.economy-surcharge
+      rows:
+        - 'via w.zelizer-taxing-america 263 n.36b: A'

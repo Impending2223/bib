@@ -45,13 +45,15 @@ Cites on entries the calendar holds: cal.1960-02.voting-rights (48), cal.1961-03
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inbox/2026-11-06-b6-woods-j-william-fulbright-vietnam.yaml`; witnesses `inbox/witnesses/2026-11-06-b6-woods-j-william-fulbright-vietnam.yaml`): the rows here and in the third run's table below ruled private, social, minor or a passed-over paper were read again in the same copy (Drive id 1HQv5xHGc6iKUkZdZwy7GkyRUgbecaduM; printed page = PDF page less 8), the text layer and the page images of pp. 56, 132, 142, 144, 146, 155, 173 and 176, and ruled again; each ends "Re-ruled: ...". Two of them another batch-6 reader (Woods's biography, `2026-11-06-b6-woods-fulbright`) had already claimed as entries: this book is cited under them (R49). The leads stand.
+
 Made from the dated sentences of pp. 16-140 (those of 141-181: above, "Still to do").
 
 | page | date | event | why |
 |---|---|---|---|
 | 21 | May 11, 1960 | Eisenhower takes responsibility for the U-2 | lead: the tree holds no entry of the day for it (a pending one on Khrushchev at Gorky Park); the Public Papers' news conference of May 11 |
 | 41 | "June 11" [1961] | the Mount Vernon dinner for Ayub Khan; Fulbright to McNamara on the military's seminars | lead: Woods's date; the dinner was in July by other accounts (not read here) |
-| 56 | Nov. 22, 1963 | the Foreign Relations Committee's executive session on the foreign aid act; Fulbright at lunch with Eugene Black | lead: the session (not found in the daybook's committee rows as read); the lunch private |
+| 56 | Nov. 22, 1963 | the Foreign Relations Committee's executive session on the foreign aid act; Fulbright at lunch with Eugene Black | lead: the session (not found in the daybook's committee rows as read); the lunch private Re-ruled: the lunch with Black passed over: where Fulbright heard the news, with no act or word on public business; the session stays a lead. |
 | 72-76 | Aug. 2-7, 1964 | the Gulf of Tonkin and the resolution | in the calendar; not cited here |
 | 85-86 | Feb. 6-10, 1965 | Pleiku and the briefings of the leaders | in the calendar; not cited here |
 | 96-101 | Apr.-Sept. 1965 | the Dominican intervention and the committee's hearings | in the calendar; not cited here |
@@ -107,7 +109,7 @@ Made from every dated sentence of pp. 132-181 and their notes, after the entries
 
 | page | date | event | why |
 |---|---|---|---|
-| 132 | Apr. 25, 1966 | Johnson's invitation to the Fulbrights to fly to Houston (Lee Williams to Fulbright) | minor: a social invitation, declined |
+| 132 | Apr. 25, 1966 | Johnson's invitation to the Fulbrights to fly to Houston (Lee Williams to Fulbright) | minor: a social invitation, declined Re-ruled: entered as cal.1966-04-25.vietnam-congress-foreign-relations (a social occasion offered between the principals of a pending quarrel; Check: the day). |
 | 133 | June 1966, first half | Johnson's meetings with Fulbright; Johnson summons him before the oil strikes | lead: the days (Reston, *Arkansas Gazette*, June 20, 1966) |
 | 134 | Apr. 1966 | Agronsky on CBS's morning news, the Raborn letters | lead: the day |
 | 135 | Mar. 10, 1954 | Mansfield's joint committee on the CIA beaten | out of the brief: before the span |
@@ -117,19 +119,19 @@ Made from every dated sentence of pp. 132-181 and their notes, after the entries
 | 136 | June-July 1966 | Russell and White House staff tell Senators and the press Foreign Relations leaks | lead: the days |
 | 136 | July 29, 1966 | "CIA Chief Rebuked for Letter Praising Attack on Fulbright" | lead: Raborn's letter and its day |
 | 141 | 1967 | soldiers' letters to Fulbright (Terrell, July 21, 1967) | lead: Phaler's entered; the rest not dated by Woods |
-| 142 | summer 1967 | Fulbright's introduction to a life of Gandhi | minor: no bearing on policy dated |
+| 142 | summer 1967 | Fulbright's introduction to a life of Gandhi | minor: no bearing on policy dated Re-ruled: cited (142) under cal.1967-07.vietnam-congress-2, claimed by the biography's reader: a principal's publication. |
 | 142 | June 1966 | Johnson approves 431,000 men; Westmoreland asks 542,000 | in the calendar; Woods gives no day |
-| 144 | Apr. 12, 1967 | A. J. Levin, M.P., to Fulbright | minor: a repetition of praise |
+| 144 | Apr. 12, 1967 | A. J. Levin, M.P., to Fulbright | minor: a repetition of praise Re-ruled: entered as cal.1967-04-12.vietnam-congress-foreign-relations (a foreign legislator's letter to a Senator on his public course; not a repetition of an entered position). |
 | 144 | n.d. | Frankel's and Steel's reviews of *The Arrogance of Power* | lead: the days (Berman, 78) |
 | 146 | early 1967 | Case and Cooper tour Vietnam (Case to Fulbright, Feb. 27, 1967) | lead: the trip's days |
 | 146 | 1967 | Lindsay on the war's cost to the cities (Files to Fulbright, Mar. 13, 1967) | lead: the day |
-| 146 | 1967 | Fulbright's correspondence with Burton K. Wheeler | minor: private, no position dated |
-| 146 | May 1967 | Fulbright a week in Walter Reed, bronchitis | minor: private (his health) |
+| 146 | 1967 | Fulbright's correspondence with Burton K. Wheeler | minor: private, no position dated Re-ruled: entered as cal.1967-10-30.vietnam-congress-foreign-relations, dated by the letter Woods cites (146 n.15); Check: its matter. |
+| 146 | May 1967 | Fulbright a week in Walter Reed, bronchitis | minor: private (his health) Re-ruled: cited (146) under cal.1967-05.congress, claimed by the biography's reader; a Senator's week out of the Senate. |
 | 148 | spring 1967 | the ADA's national board against the war | set against cal.1967-03-31.vietnam-congress; lead: the board's day |
 | 149 | 1967 | Fulbright repudiates the movement to draft him for Vice President | lead: the day |
 | 150 | 1964 | the PLO founded at Nasser's urging | lead: no month |
 | 150-51 | May 22-June 10, 1967 | the Strait, Johnson's statement, the war, the cease-fire | in the calendar; Woods's summary |
-| 155 | July 27, 1967 | Marcy to Newhouse: "the break between JWF and LBJ openeth again" | a passed-over paper: private remarks |
+| 155 | July 27, 1967 | Marcy to Newhouse: "the break between JWF and LBJ openeth again" | a passed-over paper: private remarks Re-ruled: entered as cal.1967-07-27.vietnam-commitments (said in private about public business). |
 | 155 | Aug. 1967 | Fulbright's "diplomatic catechism" for Rusk | lead: the day |
 | 155 | July 1967 | King and Spock found Vietnam Summer | lead: the day (DeBenedetti, 172 ff.) |
 | 156 | Dec. 1966 | the "We Won't Go" conference, Chicago | lead: the day |
@@ -150,9 +152,9 @@ Made from every dated sentence of pp. 132-181 and their notes, after the entries
 | 168 | n.d. | Russell summons Nitze to give Foreign Relations the cables | lead: the day |
 | 170 | Feb.-Mar. 1968 | McNamara and Fulbright's letters on Cowles | lead: the days (*Washington Post*, "Feb. 2") |
 | 170 | Mar. 1968 | reporters interview the destroyers' crews (Record, Mar. 14, 5201) | lead |
-| 173 | Mar. 31, 1968 | Morse in Mexico City, in tears at Johnson's withdrawal | minor: a private reaction |
+| 173 | Mar. 31, 1968 | Morse in Mexico City, in tears at Johnson's withdrawal | minor: a private reaction Re-ruled: entered as cal.1968-03-31.elections-1968-johnson-6 (a Senator's reaction, by a reporter's account; Check: Woods's "Wednesday"). |
 | 174 | Mar. 31, 1968 | Ashmore in Hanoi | lead: the trip's days |
-| 176 | June 10, 1968 | Marcy to Jean D. Andres on McCarthy's candidacy | a passed-over paper: private remarks |
+| 176 | June 10, 1968 | Marcy to Jean D. Andres on McCarthy's candidacy | a passed-over paper: private remarks Re-ruled: entered as cal.1968-06-10.elections-1968-mccarthy (said in private about the campaign). |
 | 177 | 1968 | the Arkansas AFL-CIO's convention; Becker for Fulbright | lead: the day |
 | 177 | Aug. 1, 1968 | Faubus to Darby: he organized Madison County for Fulbright | lead: a claim after the primary (in the witness file) |
 | 178 | Aug. 28, 1968 | Bromley Smith to Johnson: Johnson and Wheeler, no unilateral concessions | lead: the paper |

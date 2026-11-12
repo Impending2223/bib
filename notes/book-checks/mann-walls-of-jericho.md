@@ -68,6 +68,34 @@ Events the book treats that another pending patch adds. The merger adds the pinp
 
 ## Passed over
 
+**Batch 9 (Nov. 11-12, 2026): the 'already in' rows read against the calendar** (`inbox/2026-11-12-b9-mann-walls.yaml`, 2 cites). Same copy, same offsets; pp. 260, 265-67, 281-83, 287-88, 297-307, 312-16, 320-37, 344-45, 478-91 read off the text, p. 488 off the page image. Batch 7's patch (`inbox/merged/2026-11-10-b7-mann.yaml`) and the older cites already hold nearly every event of these rows, so the rows are ruled "already cited":
+
+| Row | Ruling |
+|---|---|
+| 260 | already cited: `cal.1960-04-08.voting-rights`, `cal.1960-04-21.voting-rights`, `cal.1960-05-06.voting-rights` |
+| 265-67 | already cited: `cal.1960-04-05.elections-1960`, `cal.1960-05-10.elections-1960`, `-2`, b7's three adds |
+| 276-78 | already cited (b7): the `cal.1960-07-14` entries |
+| 281-87 | already cited: `cal.1960-10-10`, `-10-19.king`, `-10-25.king`, `-10-26`, `-10-27`, `-10-28`, `-11-04.elections-1960` (the Adolphus) and b7's adds |
+| 297-307 | already cited: `cal.1961-01-04.jobs-and-wages`, `-03-15`, `-03-29`, `-01-20`, `-03-06` (Order 10925), `-05.civil-rights-the-executive-2` (Lockheed, Marietta), `-05-06.robert-kennedy` (Georgia), `-02-10.democratic-party` (the ADA); the New Orleans suits (307) and the black appointees (305-06) are undated |
+| 312-15 | already cited: `cal.1961-05-21.freedom-rides`, `-05-25.space`, `cal.1961-09-19.rules`; the Commission's extension (315) is undated ("by year's end") |
+| 320-25 | already cited: `cal.1962-03-27`, `-08-27`, `-05-09` (Check: the day), `-05-14` |
+| 328-32 | already cited: the `cal.1962-09-20` to `-10-01` Mississippi entries |
+| 335-37 | already cited: `cal.1962-11-20.civil-rights-the-executive`, `cal.1963-02-12` |
+| 344-50 | already cited: `cal.1963-04-03.alabama` and b7's Birmingham cites and adds |
+| 357 | covering note to the speech (already in, `cal.1963-05-30.civil-rights-the-executive`, cited 356-58) |
+| 442 | already cited: `cal.1964-11-03.elections-1964` |
+| 478-80 | already cited: `cal.1965-06-04`, `-08-11`, `-08-13`, `-08-15`, `-08-18`, `-08-20` |
+| 481 | already cited: `cal.1966-08-09`, `-09-14`, `-09-19`, `-11-08` |
+| 482-85 | already cited: `cal.1966-03-07`, `-03-24`, `-06-13`, `cal.1967-06-13`, `cal.1965-02-05`, `-02-10.vietnam` (Check), `-09-22`; Roosevelt's EEOC chairmanship and resignation (485-86) undated |
+| 486 | already cited: `cal.1966-02-10.vietnam` |
+| 487-91 | already cited except two: cited here, `cal.1968-03-16.robert-kennedy-campaign-2` (Kennedy's announcement, "four days later", `?`) and `cal.1968-03-31.elections-1968-humphrey` (Humphrey weeps at the embassy radio, `?`); the rest by b7 |
+
+Left for the lead: `cal.1960-05-10.elections-1960-2` maps Mann 267 as `all`, though its parenthetical says "not the place" (Charleston): the row should read `?`. Leads: Jim Rowe, "the day Kennedy announced" (488, undated); Roosevelt Jr.'s resignation from the EEOC, spring 1966 (486).
+
+Where batch 9 stopped: all 17 rows ruled; nothing left.
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, a covering note or below the level, in "Batch 6" at the end of this file.
+
 Page | date | event | why. "Already in" names the entry that holds it (pinned in this patch unless said).
 
 | Page | Date | Event | Why |
@@ -191,3 +219,41 @@ The rest of the Passed over list stands as written on Oct. 29 for the owner's ru
 Leads (National):
 - The Mann edges' pages come from the notes' OCR; a reader with the book should verify a sample against the printed notes, pp. 543–582.
 - Talmadge, the Strobers, Watson, Harvey, Goldsmith, Mooney, Viorst, Lord, Friedman, Fleming and Bennett: no cards (`./bib works adopt`).
+
+## Batch 6 (Nov. 10–11, 2026): the private, social and below-the-level rows re-ruled (b6-walls-of-jericho)
+
+The owner's copy fetched again from Drive (the direct download, sharing unchanged), the same offsets (printed + 22 through p. 374, + 30 from p. 375); pages 256–57, 367, 377, 385–88, 397–98, 408, 427, 432, 450, 464–65, 489, 492–94 read off the text and pp. 367 (PDF 389), 408 (PDF 438) and 464 (PDF 494) off the page image; the notes, pp. 543–82, read for each. The PDF and its text deleted when done. Patch `inbox/2026-11-06-b6-walls-of-jericho.yaml` (b6-walls-of-jericho: 14 entries added, 1 edit, 5 cites, 2 checks, a variant, a To check, a map row; patch-check 0 errors, 16 warnings, all same-day flags of distinct events, each read). Witnesses `inbox/witnesses/2026-11-06-b6-walls-of-jericho.yaml` (14 new); 22 edges added to `sources/witnesses/by-work/mann-walls-of-jericho.yaml`.
+
+| Page | Date | Row | Ruling |
+|---|---|---|---|
+| 256 | 1960-02-29 to 03-08 | a night of the sessions: Johnson in the chamber, Russell at the door (McPherson) | entered, `cal.1960-02-29.voting-rights-2` (Check: the night) |
+| 256–57 | 1960-03-02 | Long's amendment tabled | entered, `cal.1960-03-02.voting-rights` (Voteview, roll call 241, 64–8) |
+| 256–57 | 1960-03-05 | the Saturday recess; 125 hours 31 minutes; Russell to the press | entered, `cal.1960-03-05.voting-rights-2` |
+| 357 | 1963-05-30 | Juanita Roberts's memorandum for the file on the Gettysburg speech | passed over: a covering note, no principal's draft |
+| 367 | 1963-01 | Kennedy to McGill in the Oval Office on Russell | entered, `cal.1963-01.civil-rights-bill-2` (Check: the day) |
+| 377 | 1963-06 | Johnson to Stennis on Title II, the cook | cited under `cal.1963-06.civil-rights-bill` (units A, B); a variant and Check on unit C: Mann names Stennis, other words |
+| 385 | 1963-11 | Johnson to Heller: "an old-fashioned FDR liberal" | entered, `cal.1963-11.civil-rights-bill-2` (Check: the day) |
+| 385 | 1963-12 | Rauh on Air Force One to Lehman's funeral | already cited under `cal.1963-12.civil-rights-bill` (385) |
+| 387 | 1963-12-07 | Russell to Johnson: "You destroyed me, putting me on this commission" | added to `cal.1963-12-07.vietnam-congress` (an edit: the call's second sentence, also Assassination; the map re-lettered, the earlier rows to A) |
+| 387 | 1964-02 | Russell's letter asking to leave the Warren Commission | entered, `cal.1964-02.assassination` (Check: the day) |
+| 397 | 1964-04-09 | the bipartisan newsletter: Title II, the floor captains | entered, `cal.1964-04-09.civil-rights-bill-3` |
+| 398 | 1964-04-10 | the newsletter's "quorum scoreboard" | entered, `cal.1964-04-10.civil-rights-bill` |
+| 408 | 1964-04-11 | the quorum in under ten minutes | entered, `cal.1964-04-11.civil-rights-bill` |
+| 408 | 1964-04-13 | the baseball game | cited under `cal.1964-04-13.civil-rights-bill` (units A-D) |
+| 427 | 1964-06-17 | Humphrey's son's illness, after the vote on the substitute | entered, `cal.1964-06-17.civil-rights-bill-4` (the floor manager called from the floor, in the last days of the debate); the vote itself, 76–18, not in the calendar, entered, `cal.1964-06-17.civil-rights-bill-3` |
+| 432 | 1964-07-02 | Johnson's thought of Gene Williams at the signing | passed over: a later reflection (Johnson's own, "as he noted later"), nothing said or done; Mann, 432, cited under the signing, `cal.1964-07-02.civil-rights-bill`, unit B |
+| 450–51 | 1965-01-19, 01-20 | Clark's arrests at the courthouse | cited under `cal.1965-01-19.voting-rights-selma` and `cal.1965-01-20.voting-rights-selma` (Check: Mann has 150 arrested on the 20th) |
+| 464 | 1965-02-11 | Johnson to Russell at Walter Reed | entered, `cal.1965-02-11.congress` |
+| 464 | 1965-02-11 | McGill to Valenti on Russell's illness | entered, `cal.1965-02-11.georgia` |
+| 489 | 1968 | Russell privately for Nixon | entered, `cal.1968-09.elections-1968-20` (Check: the day; Mann places it in the campaign after Chicago) |
+| 492–94 | 1966–68 | Russell's advice on the war; his letters to his sister; Johnson's tears | not private but undated: leads (below) |
+
+Still as written above, not re-ruled here (their grounds are neither private nor social): the undated rows and the leads; 397 Stennis's question "who writes these mysterious messages" (no day); 409 the *Post*'s editorial and 465–66 the anonymous press (R13, for the press reader).
+
+Leads (National), batch 6:
+- Russell to *Reader's Digest*, 1966: "I started out as what they call a 'dove,' but history has turned me into a screaming hawk" (Mann, 492, citing *Reader's Digest*, Dec. 1966): the issue's date; an entry once read.
+- Johnson to Wayne Kelley of the *Atlanta Constitution*, 1968: "I don't always follow Dick Russell's judgment, but I always get it" (Mann, 492): the day.
+- Russell to one of his sisters: Johnson "won't pay any attention to me"; Johnson's tears at their private meetings; Russell refusing Johnson's calls; Ervin's account of Johnson's "I know I have been a disappointment to you" (Mann, 492–93, from Russell's aides, Ervin and the Russell Library's oral histories): undated.
+- 110 Cong. Rec. 8369 (Apr. 18, 1964), where Humphrey's newsletters were printed (Mann, 397): the page, linked, for `cal.1964-04-09.civil-rights-bill-3` and `cal.1964-04-10.civil-rights-bill`.
+- Mann's note for p. 432 (the Gene Williams passage) not found in the notes' OCR.
+

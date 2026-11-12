@@ -1,0 +1,100 @@
+patch: 2026-11-10-b7-cosmas-joint-chiefs
+by: 'Claude (batch 7: Cosmas, JCS and the War in Vietnam, pt. 2, the "already in" rows read against the calendar), Nov. 10,
+  2026'
+ops:
+- cite:
+    id: cal.1963-12-21.vietnam
+    item: '[[w.cosmas-joint-chiefs-of-staff-2012]], 10–11 (after his visit to Saigon; "very disturbing"; neutralization at
+      best in two or three months; the government indecisive and drifting; the mission in disarray)'
+    units: A-C
+- src:
+    id: cal.1963-12-21.vietnam
+    rows:
+    - 'via x.1963-12-21.mcnamara-to-johnson-dec-21-1963: A-C'
+- cite:
+    id: cal.1964-08-29.vietnam-saigon
+    item: '[[w.cosmas-joint-chiefs-of-staff-2012]], 120 (Aug. 29, Khánh, "reportedly suffering a ''breakdown,''" yields his
+      post to a civilian acting premier)'
+    units: A-B
+- src:
+    id: cal.1964-08-29.vietnam-saigon
+    rows:
+    - 'via x.1964-08-30.saigon-684-to-state-aug-30-1964: A-B'
+    - 'via x.1964-08-30.new-york-times-aug-30-1964-2: A-B'
+    - 'via x.1964.cincpac-command-history-1964-438: A-B'
+- to-check:
+    id: cal.1964-08-29.vietnam-saigon
+    add:
+    - Saigon 684 to State, Aug. 30, 1964; New York Times, Aug. 30, 1964, 2; CINCPAC, *Command History, 1964*, 438 (cited by
+      [[w.cosmas-joint-chiefs-of-staff-2012]], 120 n.2)
+- cite:
+    id: cal.1964-09-20.vietnam
+    item: '[[w.cosmas-joint-chiefs-of-staff-2012]], 121 (the CIDG''s revolt at four camps the night of Sept. 19–20; the Darlac
+      province capital the objective; ARVN blocks the roads; the stand-off ended without more bloodshed)'
+    units: B
+- variant:
+    id: cal.1964-09-20.vietnam
+    unit: A
+    witness: w.cosmas-joint-chiefs-of-staff-2012
+    reads: At the outset of the revolt, the mutineers killed about 40 Vietnamese personnel.
+    at: '121'
+- check:
+    id: cal.1964-09-20.vietnam
+    text: 'Check: Cosmas, 121, gives about forty Vietnamese killed at the outset.'
+- src:
+    id: cal.1964-09-20.vietnam
+    rows:
+    - 'via x.1964-09-22.saigon-921-to-state-sept-22-1964: B'
+    - 'via x.1964-09-25.saigon-952-to-state-sept-25-1964: B'
+    - 'via x.1964-09-29.saigon-985-to-state-sept-29-1964: B'
+- to-check:
+    id: cal.1964-09-20.vietnam
+    add:
+    - Saigon 921 to State, Sept. 22, 1964; 952, Sept. 25; 985, Sept. 29 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]],
+      121 n.5)
+- add:
+    entry:
+      id: cal.1964-09-30.laos
+      when: Sept. 30
+      date: '1964-09-30'
+      thread: laos
+      also:
+      - vietnam-air-war
+      c: 'The Joint Chiefs to McNamara, JCSM-835-64, on operations in the Laos corridor under NSAM 314. An air strike plan
+        at once, without the South Vietnamese: of 22 targets, 17 for the Royal Laotian Air Force''s T-28s, 5 bridges for American
+        Yankee Team aircraft, which are also to suppress flak and fly high cover. Ground incursions by South Vietnamese troops
+        no deeper than 20 kilometers, two company equivalents at most in each of three areas; possible only with American
+        advisers along.'
+      n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 134–35. To check: JCSM-835-64 to the Secretary of Defense, Sept. 30, 1964,
+        JMF 9155.3 (25 Sep 64) (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 135 n.27). See [[cal.1964-09-10.vietnam]].
+        Names: McNamara.'
+      src:
+        c: 4af54996
+        rows:
+        - 'w.cosmas-joint-chiefs-of-staff-2012 134–35: all'
+        - 'via x.1964-09-30.jcsm-835-64-to-secretary-of-defense: all'
+      tags:
+      - name:mcnamara-robert-s
+- cite:
+    id: cal.1964-10-13.laos
+    item: '[[w.cosmas-joint-chiefs-of-staff-2012]], 135 (in October the Laotian T-28s strike targets in the panhandle from
+      the Joint Chiefs'' list; American aircraft fly combat air patrol, high cover only)'
+    units: A
+- cite:
+    id: cal.1964-12-12.laos
+    item: '[[w.cosmas-joint-chiefs-of-staff-2012]], 189–90 (Dec. 12, the senior advisers approve the Joint Chiefs'' plan,
+      napalm barred; Bundy: "precisely the President''s wishes"; no public statement; McNamara''s oral confirmation, the action
+      message to CINCPAC, the code name Barrel Roll; the first mission Dec. 14, five by the month''s end; no enemy personnel
+      or traffic seen)'
+    units: A-C
+- src:
+    id: cal.1964-12-12.laos
+    rows:
+    - 'via x.1964-12-12.mr-subj-meeting-of-national-security: A'
+    - 'via x.1964-12-12.jcs-2883-to-cincpac-dec-12-1964: A'
+    - 'via x.1964-12-21.nmcc-opsum-217-64-dec-21-1964: B-C'
+- to-check:
+    id: cal.1964-12-12.laos
+    add:
+    - Director, J-3, memorandum for the record, "Meeting of NSC Principals, 12 December 1964"; JCS 2883 to CINCPAC, Dec. 12,
+      1964 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 190 n.12)

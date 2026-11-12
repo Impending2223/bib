@@ -97,6 +97,12 @@ The West Virginia organization (Apr. 6, Apr. 11); Nixon's leak on Rockefeller (M
 
 ## Passed over
 
+Batch 9 (Nov. 11–12, 2026): the "already in" rows read again from the owner's copy (Drive 1kae4kYa_YxKPz_35HKfIYzQQk7B54XU1, the Atheneum 1961 PDF, 19 MB; printed = PDF − 16 held; p. 173 checked on its page image). Patch `inbox/2026-11-12-b9-group-3.yaml` (batch 9, group 3). Rulings: pp. 115–17 (cited under `cal.1960-05-01.soviet-union`, the shooting down, and `cal.1960-05-05.soviet-union`, Khrushchev's announcement; the summit's collapse and the list of May–June events undated, no cite); p. 173 (cited under `cal.1960-07-10.elections-1960-5`, unit B, which had White only as To check, 199; Johnson's answer entered as `cal.1960-07-11.elections-1960-los-angeles-2`); pp. 294–95 (Khrushchev's leaving cited under `cal.1960-10-12.soviet-union`; the third debate already cited; Mazeroski's home run, ruled out of the brief before, entered as `cal.1960-10-13.elections-1960-3` for the Democrats' rule of thumb about the campaign); p. 349 (the Khrushchev note already cited under `cal.1960-11-09.transition-and-staff-3`; now also under `cal.1960-11-09.soviet-union`); pp. 350–86 (the vote analyzed: already cited at 350 under `cal.1960-11-08.elections-1960`, with its Check; the rest analysis, no event); p. 377 (cited under `cal.1960-11-16.program`).
+
+Where batch 9 stopped: all six rows ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, ceremonial or a meeting's preparation, in "Batch 6" at the end of this file.
+
 Under the owner's rulings of Oct. 28 (the papers of government; and, late, the dated stretch, the trip, the private meeting and the event's incidents as entries), re-ruled Nov. 3–4, 2026, under the reader's brief (R5, R7, R13, R18): the rows now entered are in the tables after this one; chapter 15 (366–82), passed over whole before, is read and its rows added. Made page by page from the book against the calendar's entries for 1960–61 and the ledger.
 
 | page | date | event | why |
@@ -229,4 +235,21 @@ Entered now with a Check on the day (the owner's ruling, Oct. 28, late): the Ste
 - (Nov. 3–4.) National: the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960, "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations of 1960 (379).
 - (Nov. 3–4.) The merger: the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`) is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
 - (Nov. 3–4.) The Executive roster: Frank B. Ellis sworn in as Director of the Office of Civil and Defense Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
+
+## Batch 6 (Nov. 10–11, 2026): the private, social and preparation rows re-ruled (b6-white-1960)
+
+The same copy fetched again from Drive (the direct download, 19 MB), printed = PDF − 16; pp. 168–69, 250–51, 254–56, 309, 319, 324–26, 345–49 and 374–75 read off the text, p. 251 (PDF 267) off the page image; deleted when done. White has no notes for these pages but those already registered; his own conversations and his informants are registered as witnesses where he names them. Patch `inbox/2026-11-06-b6-white-1960.yaml` (b6-white-1960: 12 entries added; patch-check 0 errors, 19 warnings, all same-day flags of distinct events, each read). Witnesses `inbox/witnesses/2026-11-06-b6-white-1960.yaml` (3 new); 3 edges added to `sources/witnesses/by-work/white-making-of-the-president.yaml`.
+
+| Page | Date | Row | Ruling |
+|---|---|---|---|
+| 168–69 | July 13, 1960 | Kennedy's swim, the stew at his father's villa, his marked tally | entered, `cal.1960-07-13.elections-1960-los-angeles` (a social occasion with his father, a principal, the day of the balloting; the tally checked with Robert Kennedy's) |
+| 250–51 | Aug. 1960 | Salinger's "diffusing" | entered, `cal.1960-08.elections-1960-kennedy-2` (said in private about the campaign; the page is 251) |
+| 254–56 | Sept. 7–9 | the jokes on the expected child | entered with the press conference that ended on one, `cal.1960-09-09.elections-1960-religion` (Check: whether it is APP's at Burbank); the stump lines, Sept. 7–8, already cited on `cal.1960-09-06.elections-1960` and `cal.1960-09-08.elections-1960` |
+| 309 | Oct. 29 | a White House aide in Chicago learns Nixon will call on the President | entered, `cal.1960-10-29.elections-1960-nixon` (what was said in private between the two staffs about the President's part, not a meeting's preparation); the same page's Nixon aide, "All we want out of Ike," entered too, `cal.1960-08.elections-1960-nixon` (Check: the day) |
+| 319 | late Oct. | Nixon's speech writers on Galbraith for the Treasury | entered, `cal.1960-10.elections-1960-nixon` (Check: the day) |
+| 324–25 | Oct. 16 | Goodwin briefs Kennedy for *Meet the Press*; Sorensen's Wittenberg draft | entered, `cal.1960-10-16.elections-1960-kennedy` (the drafting of the candidate's speech, R7 as amended); the drafts that followed entered, `cal.1960-10-17.elections-1960-kennedy`, and the Tampa speech on Latin America, not in the calendar, `cal.1960-10-18.elections-1960-kennedy` |
+| 345–49 | Nov. 9 | the walk on the beach, touch football, the movies | the lunch at Joseph Kennedy's house, the returns talked over, entered, `cal.1960-11-09.elections-1960-count`; the walk on the beach, the touch football and the movies passed over: family and social matters with no bearing on public business or politics (nothing said of business is given) |
+| 374–75 | Mar. 9, 1961 | the Veterans of World War I's Commander; the Treasurer; the album; the private lunch | the Commander and the Treasurer entered, `cal.1961-03-09.program-2`, `cal.1961-03-09.transition-and-staff` (an organized interest's call, and an officeholder's); the private lunch with friends unnamed and the glance at the album passed over: social, and a remark with no bearing on public business |
+
+Rows not re-ruled here (not private, social or a draft): the Gallup readings (a repetition), the analysis, the date in the law, and the leads, as written above.
 

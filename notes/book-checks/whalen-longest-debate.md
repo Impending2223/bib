@@ -58,6 +58,31 @@ Claimed in the ledger. `./bib patch-check`: 0 errors; its 121 warnings are the "
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended.
+
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7): stopped before the work was read; no patch merged; three ids it had claimed in the ledger (Erhard, June 12, 1964; Johnson in the East Room, Nov. 23, 1963; Robert Kennedy's return, Jan. 27, 1964) are reassigned to batch 8.
+
+The same rows, batch 8 (Nov. 11, 2026; the copy of Drive id 1SJE2gXIzngIzj3SF514-9PdDy6KyYuyO, printed page = PDF page - 26, confirmed on pp. 1, 17, 71, 97, 137, 208, 217; the page images agree with the text layer). Patch `inbox/2026-11-11-b8-whalen.yaml`: 27 cites, variants and checks, 4 new entries. Rows:
+
+| page | event | ruling |
+|---|---|---|
+| xvii-xx | the inaugural, Hesburgh's report, Birmingham, the address of June 11 | cited under cal.1961-01-20.transition-and-staff (the address quoted), cal.1963-04-16.alabama-birmingham (the letter), cal.1963-05-02.alabama (the children's march); variant and Check on cal.1963-05-03.alabama-birmingham (Whalen has the clubs, dogs and hoses on May 2); Check on cal.1963-05-02.alabama-birmingham (King's words to the parents); the address of June 11 already cited (xx, 17); Hesburgh's report (1961, no day) not in the calendar: a lead |
+| 5 | May 1961, Seigenthaler | not borne out: the page names no day or act beyond the beating, a background sentence; the Freedom Rides entries rest on dated sources |
+| 17 | June 11-12, 1963 | cited under cal.1963-06-11.alabama; cited under cal.1963-06-12.mississippi with a variant and a Check (Whalen: "barely three hours after" the address; died "several hours later") |
+| 24-26 | Aug. 28, 1963 | cited under cal.1963-08-28.march-on-washington (units '?'); variant on B ("several hundred thousand"); the leaders at the White House already cited (26-27) |
+| 33-34 | Sept. 1963 | cited under cal.1963-09-09.alabama and cal.1963-09-15.alabama (units '?'); Wilkins, Sept. 18, already cited under cal.1963-09-18.civil-rights-organizations |
+| 71-74 | Nov. 22-23, 1963 | cited under cal.1963-11-22.succession (C; variant A and Check: 98 minutes), -succession-3, -succession-10 (B), cal.1963-11-23.succession-3 (Check: the address set for Wednesday at 3 a.m.); entered as cal.1963-11-23.succession-12 (Johnson at the East Room); the 3 a.m. agenda and Stevenson's memorial already cited; Johnson's dinner on a tray and "brisk orders", the meetings far into the night: not entered, no act, person or business named (the Cabinet meeting is cal.1963-11-23.transition-and-staff) |
+| 97-98 | Jan. 27, 1964 | cited under cal.1964-01-17.robert-kennedy (A) and cal.1964-01-23.robert-kennedy ('?'); entered as cal.1964-01-27.robert-kennedy (the return); his remark "I thought it would be me" undated: not entered |
+| 137 | Feb.-Mar. 1964 | re-ruled: entered as cal.1964-02.civil-rights-bill-4 (a statement to newsmen, R5 test 3; "the day and the month" in Check; not a repetition: the calendar holds no such words) |
+| 194 | June 5-7, 1964 | Laos cited under cal.1964-06-06.laos ('?'); the jobless rate: not entered, held in indicators/unemployment.yaml (5.1, released June 5), the calendar enters no monthly release |
+| 206 | Nov. 22 and 25, 1963 | already cited (cal.1963-11-22.succession-6, unit A; variant and Check on cal.1963-11-23.succession-7) |
+| 208 | June 12, 1964 | entered as cal.1964-06-12.europe-and-the-alliance-3 (Erhard before the Senate; "in German" not in Whalen) |
+| 217 | June 19, 1964 | cited under cal.1964-06-19.congress ('?'); Check (Springfield; Barnes Airport, Westfield) |
+
+Where batch 8 stopped: all twelve rows ruled; the patch waits in inbox/ for the audit and the merge.
+
+Batch 6 (read Nov. 10–11, 2026): the same copy (Drive id 1SJE2gXIzngIzj3SF514-9PdDy6KyYuyO, the Internet Archive's scan, text layer; printed page = PDF page − 26), downloaded to the scratchpad and deleted after; every row ruled private, social, a draft, private remarks or notes, or "minor" on a ground R18 does not give, read again on its page and in the notes (243–73), and pp. 61, 66, 155, 157, 159 and 208 checked against the page images (the text layer agrees). Patch `inbox/2026-11-06-b6-whalen-longest.yaml`: 32 new entries, each claimed in the ledger; one cite (Nov. 22, 1963, Johnson's call to Russell), one Check and one variant (the Russell lunch, Nov. 23 or 25). Witnesses: `inbox/witnesses/2026-11-06-b6-whalen-longest.yaml` (14 new rows: Busby's memo of Nov. 25, 1963; *Newsweek*, Dec. 16, 1963; M. Jackson Smith's memorandum of Feb. 17, 1964; Manatos to O'Brien, Feb. 27, 1964; Dirksen's notebook entries of Feb. 26 and Apr. 6; the Record of Apr. 10, 1964; the *Times* of May 9; Humphrey's undated memorandum on H.R. 7152; his note on the tally sheets; the Diary Backup of June 15; the *Minneapolis Morning Tribune* of June 20; the Bipartisan Civil Rights Newsletter no. 76; the clipping on the Nov. 22 call), the registered ones reused (the authors' interviews, Horn's log, Stewart's diary, Rauh's manuscript, *Newsweek* of June 29, 1964); 32 edges added to `sources/witnesses/by-work/whalen-longest-debate.yaml`, two to cards (Humphrey's *Beyond Civil Rights*, a new card, `w.humphrey-beyond-civil-rights`, and *The Education of a Public Man*). Nothing read upstream: none of these is open here. Rows not of these grounds (background, already in the calendar, out of the span, leads) are left as they were.
+
 Made by going through the reading notes page by page (every dated event the book treats, against the tree and the ledger by day). Rows:
 
 | page | date | event | why |
@@ -70,45 +95,45 @@ Made by going through the reading notes page by page (every dated event the book
 | 24–26 | Aug. 28, 1963 | the March itself | already in the calendar; not cited (the march entry's units not checked) |
 | 28 | Aug. 28, 1963 | seventy-five members in the March | minor: a detail of an event entered |
 | 33–34 | Sept. 1963 | Wallace and the schools; the Sixteenth Street bombing | already in the calendar |
-| 61 | Oct. 28, 1963 | Rodino asks Kennedy to see his son | minor: private and social |
-| 62 | Oct. 28, 1963 | staff telephone calls in the night (Higgs to Kimball) | passed-over paper: private remarks |
-| 66 | Oct. 29, 1963 | Robert Kennedy: "How did Libonati vote?" | passed-over paper: private remarks |
-| 66 | weeks after Oct. 29 | Libonati: "my political career is over" | passed-over paper: private remarks |
+| 61 | Oct. 28, 1963 | Rodino asks Kennedy to see his son | re-ruled: entered as cal.1963-10-28.civil-rights-bill-4 (a favour asked of an officeholder) |
+| 62 | Oct. 28, 1963 | staff telephone calls in the night (Higgs to Kimball) | re-ruled: entered as cal.1963-10-28.civil-rights-bill-5 (said in private about public business) |
+| 66 | Oct. 29, 1963 | Robert Kennedy: "How did Libonati vote?" | re-ruled: entered as cal.1963-10-29.civil-rights-bill-3 |
+| 66 | weeks after Oct. 29 | Libonati: "my political career is over" | re-ruled: entered as cal.1963-11.civil-rights-bill-3 (a confidence about a career in politics; "Check: the day") |
 | 71–74 | Nov. 22–23, 1963 | the return from Dallas; Johnson's first night | already in the calendar (succession) |
 | 73–74 | 1961–63 | Johnson as Vice President: the caucus vote, his memorandum on space | told as background; not checked against the calendar |
-| 77–78 | Nov. 25, 1963 | Busby's partial draft of the address | passed-over paper: a draft |
-| 86 | Dec. 7, 1963 | the Johnsons move into the White House | minor: private |
-| 87 | mid-Dec. 1963 | Johnson at Dirksen's Christmas party, Mansfield's surprise party, the Texas delegation's lunch | minor: social |
-| 91 | Jan. 9, 1964 | Smith to Kimball before the hearings | passed-over paper: private remarks |
+| 77–78 | Nov. 25, 1963 | Busby's partial draft of the address | re-ruled: entered as cal.1963-11-25.succession-2 (the drafting of the President's address) |
+| 86 | Dec. 7, 1963 | the Johnsons move into the White House | re-ruled: entered as cal.1963-12-07.succession |
+| 87 | mid-Dec. 1963 | Johnson at Dirksen's Christmas party, Mansfield's surprise party, the Texas delegation's lunch | re-ruled: entered as cal.1963-12.congress-2, -3, -4 (social occasions among the principals; month only, "Check: the day") |
+| 91 | Jan. 9, 1964 | Smith to Kimball before the hearings | re-ruled: entered as cal.1964-01-09.civil-rights-bill-2 |
 | 97–98 | Jan. 27, 1964 | Robert Kennedy back from Indonesia and Malaysia | already in the calendar (not checked); told as background |
 | 107 | Feb. 1964 | Halleck's silence; Arends: "tear ourselves apart" | undated: Leads |
-| 113–14 | Feb. 1964 | O'Grady's Raiders, Arnold Mayer | minor: the whips' routine (the system entered with the DSG memorandum) |
-| 122–23 | Feb. 11, 1964 | Equality Cookies | minor: social |
-| 133 | Feb. 17, 1964 | Mitchell's report by telephone to the NAACP | minor: an internal report repeating events entered |
-| 135–36 | Feb. 26, 1964 | Aiken to Valeo: "Because that's what Mike wanted" | passed-over paper: private remarks |
-| 137 | Mar. 1964 | Humphrey to newsmen: "I'll be everybody's SOB" | minor: a repetition (his public word on the fight entered Mar. 8) |
-| 145 | Mar. 17, 1964 | Horn to Steele on Kuchel's mail | passed-over paper: private remarks |
-| 145–46 | Mar. 17, 1964 | McCulloch to Kimball: a quarter of the votes lost | passed-over paper: private remarks |
-| 146 | Mar. 19, 1964 | Horn and Stewart joking | minor: social |
-| 146–47 | Mar. 23, 1964 | the session held to 10:15 p.m. | minor: a session's hours |
-| 154–55, 158–59 | Feb. 26, Apr. 6, 1964 | Dirksen's notebook entries | passed-over paper: private notes |
-| 157 | Apr. 2–3, 1964 | quorum calls of 22 minutes and more than an hour | minor: the floor's routine |
-| 161–62 | Apr. 10, 1964 | the Cherry Blossom banter | minor: social |
-| 166 | Apr. 20–21, 1964 | Mudd's clock; Dirksen's "cup of tea" at the Ev and Charlie conference | minor: repetitions of matter entered |
-| 178 | May 8, 1964 | the fourth day in Dirksen's office | minor: a session with nothing new beyond the open issue (entered May 7 and 13) |
-| 183 | May 15, 1964 | Katzenbach: "Marshall and I will cut our throats" | passed-over paper: private remarks |
-| 190 | June 3, 1964 | Mansfield: "impossible to get any votes this week" | minor: a repetition |
-| 192–93 | June 6, 1964 | Russell chides Humphrey | passed-over paper: private remarks |
+| 113–14 | Feb. 1964 | O'Grady's Raiders, Arnold Mayer | re-ruled: entered as cal.1964-01-31.civil-rights-organizations (the lobby's dealings with members; "the whips' routine" is no ground of R18) |
+| 122–23 | Feb. 11, 1964 | Equality Cookies | re-ruled: entered as cal.1964-02-11.civil-rights-organizations |
+| 133 | Feb. 17, 1964 | Mitchell's report by telephone to the NAACP | re-ruled: entered as cal.1964-02-17.civil-rights-organizations (his own judgment, not a repetition) |
+| 135–36 | Feb. 26, 1964 | Aiken to Valeo: "Because that's what Mike wanted" | re-ruled: entered as cal.1964-02-26.civil-rights-bill-2 |
+| 137 | Mar. 1964 | Humphrey to newsmen: "I'll be everybody's SOB" | passed over (re-ruled): a repetition of a position already entered (Mar. 8), nothing new |
+| 145 | Mar. 17, 1964 | Horn to Steele on Kuchel's mail | re-ruled: entered as cal.1964-03-17.civil-rights-bill-3 |
+| 145–46 | Mar. 17, 1964 | McCulloch to Kimball: a quarter of the votes lost | re-ruled: entered as cal.1964-03-17.civil-rights-bill-4 |
+| 146 | Mar. 19, 1964 | Horn and Stewart joking | re-ruled: entered as cal.1964-03-19.civil-rights-bill-2 (on Humphrey's hint of compromise) |
+| 146–47 | Mar. 23, 1964 | the session held to 10:15 p.m. | re-ruled: entered as cal.1964-03-23.civil-rights-bill (Humphrey's plan carried out; "a session's hours" is no ground of R18) |
+| 154–55, 158–59 | Feb. 26, Apr. 6, 1964 | Dirksen's notebook entries | re-ruled: entered as cal.1964-02-26.republican-party-congress, cal.1964-04-06.republican-party-congress |
+| 157 | Apr. 2–3, 1964 | quorum calls of 22 minutes and more than an hour | re-ruled: entered as cal.1964-04-02.civil-rights-bill (the Southerners' tactic; "the floor's routine" is no ground of R18) |
+| 161–62 | Apr. 10, 1964 | the Cherry Blossom banter | re-ruled: entered as cal.1964-04-10.civil-rights-bill-2 (the quorum call set for the parade) |
+| 166 | Apr. 20–21, 1964 | Mudd's clock; Dirksen's "cup of tea" at the Ev and Charlie conference | passed over (re-ruled): repetitions of matter entered (CBS's coverage, Mar. 30; the eleventh amendment, Apr. 21), nothing new |
+| 178 | May 8, 1964 | the fourth day in Dirksen's office | re-ruled: entered as cal.1964-05-08.civil-rights-bill-3 (a meeting of the principals is its own event) |
+| 183 | May 15, 1964 | Katzenbach: "Marshall and I will cut our throats" | re-ruled: entered as cal.1964-05-15.civil-rights-bill |
+| 190 | June 3, 1964 | Mansfield: "impossible to get any votes this week" | passed over (re-ruled): a repetition of his position of June 2, entered (cal.1964-06-02.civil-rights-bill) |
+| 192–93 | June 6, 1964 | Russell chides Humphrey | re-ruled: entered as cal.1964-06-06.civil-rights-bill |
 | 194 | June 5–7, 1964 | the jobless rate; two aircraft shot down over Laos | already in the calendar (economy; Laos), not checked |
-| 195 | June 9, 1964 | Juanita Roberts's note | minor: private |
-| 196 | June 9, 1964 | Humphrey's dinner with Glass | minor: social |
-| 206 | June 10, 1964 | Humphrey's note on his tally sheets | passed-over paper: private remarks |
-| 206 | Nov. 22 and 25, 1963 | Johnson's call to Russell, Russell's lunch at the White House | undated content; the call is told without words: Leads |
+| 195 | June 9, 1964 | Juanita Roberts's note | passed over (re-ruled): a personal matter with no bearing on public business (the anniversary of Johnson's wartime mission) |
+| 196 | June 9, 1964 | Humphrey's dinner with Glass | re-ruled: entered as cal.1964-06-09.civil-rights-bill-5 (a confidence to a reporter on the count) |
+| 206 | June 10, 1964 | Humphrey's note on his tally sheets | re-ruled: entered as cal.1964-06-10.civil-rights-bill-7 |
+| 206 | Nov. 22 and 25, 1963 | Johnson's call to Russell, Russell's lunch at the White House | re-ruled: already in the calendar; cited under cal.1963-11-22.succession-6 (unit A, the call); the lunch a variant on cal.1963-11-23.succession-7 (Whalen: three days after Nov. 22; Mann: Nov. 23) with a Check |
 | 208 | June 12, 1964 | Erhard addresses the Senate | already in the calendar? not checked; no bearing on the bill |
-| 208 | June 15, 1964 | the Rodinos with Johnson, "Peter junior's meeting" | minor: private and social |
-| 210 | June 17, 1964 | Humphrey's son's biopsy | minor: private |
-| 213 | June 18, 1964 | Javits to Goldwater: "a dreadful mistake" | passed-over paper: private remarks |
-| 216–17 | June 19, 1964 | the crowds on the east front; Humphrey's dinner; the last newsletter | minor: social; repetition |
+| 208 | June 15, 1964 | the Rodinos with Johnson, "Peter junior's meeting" | re-ruled: entered as cal.1964-06-15.civil-rights-bill-3 (the favour granted) |
+| 210 | June 17, 1964 | Humphrey's son's biopsy | re-ruled: entered as cal.1964-06-17.civil-rights-bill-5 (it bears on his management of the bill: he stays) |
+| 213 | June 18, 1964 | Javits to Goldwater: "a dreadful mistake" | re-ruled: entered as cal.1964-06-18.goldwater-3 |
+| 216–17 | June 19, 1964 | the crowds on the east front; Humphrey's dinner; the last newsletter | re-ruled: the crowds entered as cal.1964-06-19.civil-rights-bill-5; the leadership's last newsletter (a principal's publication) as cal.1964-06-19.civil-rights-bill-6; Humphrey's late dinner with Stewart passed over: a social and personal matter (his mood, his son) with nothing on public business |
 | 217 | June 19, 1964 | Edward Kennedy and Bayh's plane crash | already in the calendar (not checked) |
 | 228 | after July 2, 1964 | pickets at McCulloch's house | undated: Leads |
 

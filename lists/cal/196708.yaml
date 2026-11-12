@@ -15,12 +15,13 @@ entries:
     date: '1967-08-01'
     thread: civil-disorders
     c: 'McPherson to Christian: "we look awfully programmatic and legalistic"; quit "beating up on Congress" over the rat bill unless the President goes before a joint session; "rewarding" the rioters "a hollow issue." A visit to Newark with Governor Hughes. Shown to the President; no answer known.'
-    n: '[[w.mcpherson-political-education]], 360–61 (the memorandum, quoted). Names: McPherson, Christian, Richard Hughes.'
+    n: '[[w.mcpherson-political-education]], 360–61 (the memorandum, quoted); [[w.schlesinger-robert-kennedy-and-his]], 797 (McPherson thought the President''s presentation "legalistic"; no point in criticizing everyone else, "especially Congress," "unless and until we are willing to go before them in joint session and state the case for America''s cities" (n.95: McPherson, *A Political Education*, 359–61); not the day, Christian, the rat bill or Newark). Names: McPherson, Christian, Richard Hughes.'
     src:
       c: 3118e253
       rows:
         - 'w.mcpherson-political-education 360–61: all'
         - 'via x.1967-08-01.mcpherson-to-christian: all'
+        - 'w.schlesinger-robert-kennedy-and-his 797: ?'
     tags: [name:mcpherson-harry, name:christian-george, name:hughes-richard-j]
     time_range:
       - 1967-08-01T13:00Z
@@ -68,6 +69,13 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 419: all'
     tags: [city:detroit, state:mi]
+  - id: cal.1967-08-01.program
+    when: Aug. 1
+    date: '1967-08-01'
+    thread: program
+    c: Morning, in Lady Bird Johnson's "Board of Directors Room," a session on the LBJ Library with Max Brooks, Gordon Bunshaft, Horace Busby, Arthur Drexler and Dorothy Territo, at President Grant's Cabinet table.
+    n: '[[w.johnson-white-house-diary]], 550. Names: Lady Bird Johnson, Busby.'
+    tags: [name:johnson-lady-bird, name:busby-horace]
   - id: cal.1967-08-02.opinion
     when: Aug. 2
     date: '1967-08-02'
@@ -157,13 +165,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-08-02.economy-surcharge
+    when: Aug. 2
+    date: '1967-08-02'
+    thread: economy-surcharge
+    c: 'The tax message''s final draft, worked over with Mills, by Johnson''s account. Mills had objected to a passage that seemed to promise more spending; the final text: "we must move with determination to assure that those for whom these programs were begun are not robbed by the inflation that would accompany an unacceptable deficit."'
+    n: '[[w.johnson-vantage-point]], 446–47. See [[cal.1967-08-03.economy]]. Names: Mills, Johnson.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 446–47: all'
+      c: 88b96a63
+    tags: [name:mills-wilbur-d, name:johnson-lyndon-b]
   - id: cal.1967-08-03.economy
     when: Aug. 3
     date: '1967-08-03'
     thread: economy-surcharge
     also: [vietnam]
     c: 'Special message on the budget and the economy. Fiscal 1968: spending up to $8.5 billion over January''s $135 billion, revenues $7 billion under; without a tax increase and control of spending the deficit "could exceed $28 billion." A surcharge of 10 percent on income taxes, corporate from July 1, 1967, individual from Oct. 1, to June 30, 1969, or as long as the war''s costs require; $6.3 billion in fiscal 1968. January''s proposal had been 6 percent. Corporate payments speeded; the excises on automobiles and telephones held. At least 45,000 more men to Vietnam this fiscal year. A news conference on the message the same day.'
-    n: 'Special Message to the Congress: The State of the Budget and the Economy, [1967 Pub. Papers 733](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=125) (Aug. 3, 1967); The President''s News Conference on the Tax Message, [1967 Pub. Papers 740](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=132) (Aug. 3, 1967). [Johnson and Fowler, 9:59 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-henry-fowler-july-26-1967), July 26, Conversation WH6707-01-12006 (Miller Center). [[w.zelizer-taxing-america]], 258 (the 10 percent surcharge); [[w.gibbons-u-s-government-and]], IV, 756, 758 (the message and the 10 percent; the 45,000 men); [[w.califano-triumph-and-tragedy-of]], 244 (the "clear and present dangers" of a deficit over $28 billion); [[w.branch-at-canaans-edge]], 634 (the 10 percent surcharge; 55,000 more men, a ceiling of 525,000); [[w.zelizer-fierce-urgency-of-now]], 279 (a 10 percent surcharge, $2 billion in cuts; $6.3 billion, $7.4 billion with the excises); [[w.bernstein-guns-or-butter]], 369 (the deficit could exceed $28 billion; 10 percent, from July 1 and Oct. 1); [[w.berman-lyndon-johnsons-war]], 60 (the request renewed, 10 percent; Mills for cuts of the same size; no bill reported in 1967); [[w.drea-mcnamara-clifford-and-the-2011]], 173 (the special budget message: 43,000 more troops for Vietnam). To check: William Forti to Laurence Woodworth, Aug. 4, 1967, National Archives, RG 128, Box 465, File: Economic (cited by [[w.zelizer-taxing-america]], 258 n.13); Joseph Barr to Lyndon Johnson, Aug. 11, 1967, National Archives, RG 56, Office of Tax Policy, Box 68, File: Tax Increase (cited by [[w.zelizer-taxing-america]], 258 n.13). See [[cal.1967-01-10.economy]]. Names: Johnson.'
+    n: 'Special Message to the Congress: The State of the Budget and the Economy, [1967 Pub. Papers 733](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=125) (Aug. 3, 1967); The President''s News Conference on the Tax Message, [1967 Pub. Papers 740](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=132) (Aug. 3, 1967). [Johnson and Fowler, 9:59 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-henry-fowler-july-26-1967), July 26, Conversation WH6707-01-12006 (Miller Center). [[w.zelizer-taxing-america]], 258 (the 10 percent surcharge); [[w.gibbons-u-s-government-and]], IV, 756, 758 (the message and the 10 percent; the 45,000 men); [[w.califano-triumph-and-tragedy-of]], 244 (the "clear and present dangers" of a deficit over $28 billion); [[w.branch-at-canaans-edge]], 634 (the 10 percent surcharge; 55,000 more men, a ceiling of 525,000); [[w.zelizer-fierce-urgency-of-now]], 279 (a 10 percent surcharge, $2 billion in cuts; $6.3 billion, $7.4 billion with the excises); [[w.bernstein-guns-or-butter]], 369 (the deficit could exceed $28 billion; 10 percent, from July 1 and Oct. 1); [[w.berman-lyndon-johnsons-war]], 60 (the request renewed, 10 percent; Mills for cuts of the same size; no bill reported in 1967); [[w.drea-mcnamara-clifford-and-the-2011]], 173 (the special budget message: 43,000 more troops for Vietnam); [[w.zaroulis-who-spoke-up]], 120–21 (Aug. 3: a 10 percent surcharge on personal and corporate taxes; 45,000 to 50,000 more troops, to 486,000 by December; the deficit "unsafe and unmanageable"). To check: William Forti to Laurence Woodworth, Aug. 4, 1967, National Archives, RG 128, Box 465, File: Economic (cited by [[w.zelizer-taxing-america]], 258 n.13); Joseph Barr to Lyndon Johnson, Aug. 11, 1967, National Archives, RG 56, Office of Tax Policy, Box 68, File: Tax Increase (cited by [[w.zelizer-taxing-america]], 258 n.13). See [[cal.1967-01-10.economy]]. Names: Johnson.'
     src:
       c: 8da0e248
       rows:
@@ -181,6 +200,7 @@ entries:
         - 'w.bernstein-guns-or-butter 369: ?'
         - 'w.berman-lyndon-johnsons-war 60: D'
         - 'w.drea-mcnamara-clifford-and-the-2011 173: ?'
+        - 'w.zaroulis-who-spoke-up 120–21: ?'
     tags: [name:johnson-lyndon-b, name:fowler-henry-h]
     time_range:
       - 1967-08-03T13:00Z
@@ -241,6 +261,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-08-03.crime-and-hijacking
+    when: Aug. 3
+    date: '1967-08-03'
+    thread: crime-and-hijacking
+    c: 'New York, the Eastern shuttle, about 5 p.m.: the Secret Service takes Lady Bird Johnson off the plane at the runway after an anonymous call to Eastern Airlines that a bomb is on "the 5 o''clock shuttle." The other passengers get off too. She is airborne on another plane a little past 6 and reaches Washington at 7:30.'
+    n: '[[w.johnson-white-house-diary]], 551–52. Names: Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird, city:nyc]
   - id: cal.1967-08-04.robert-kennedy
     when: Aug. 4
     date: '1967-08-04'
@@ -309,7 +336,7 @@ entries:
     time: 1967-08-05T17:49Z
     thread: vietnam-clifford-taylor
     c: 'Clifford and Taylor report to Johnson, Ball, Rusk and Nitze present: the allies agree on the conduct of the war; none will promise troops at once; South Vietnam to add 65,000 men and draft at 18.'
-    n: 'FRUS 1964–68, V, doc. [270](https://history.state.gov/historicaldocuments/frus1964-68v05/d270); XXVII, doc. [27](https://history.state.gov/historicaldocuments/frus1964-68v27/d27). Made public: FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 737–41; [[w.berman-lyndon-johnsons-war]], 56 (back Aug. 6; the allies for more pressure; Clifford to reporters: "the war of Southeast Asia"; his later doubts); [[w.drea-mcnamara-clifford-and-the-2011]], 172 (Clifford, privately to Johnson: shocked at the allies'' indifference); [[w.drea-mcnamara-clifford-and-the-2011]], 214 (at the White House luncheon, the restricted zones around Hanoi and Haiphong to be narrowed); [[w.taylor-swords-and-plowshares]], 376 (the allies'' views; none ruling out more). [[w.clifford-counsel-to-the-president-2]], 451–52 (the report of Aug. 5; Tom Johnson''s notes; Clifford: "we must hit them harder"). Check: Berman (56) has Clifford and Taylor back Aug. 6. To check: the Clifford-Taylor report, Aug. 5, 1967, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 737 n.76). See [[cal.1967-07-14.vietnam]]. Names: Clifford, Taylor, Johnson, Ball, Rusk, Nitze.'
+    n: 'FRUS 1964–68, V, doc. [270](https://history.state.gov/historicaldocuments/frus1964-68v05/d270); XXVII, doc. [27](https://history.state.gov/historicaldocuments/frus1964-68v27/d27). Made public: FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 737–41; [[w.berman-lyndon-johnsons-war]], 56 (back Aug. 6; the allies for more pressure; Clifford to reporters: "the war of Southeast Asia"; his later doubts); [[w.drea-mcnamara-clifford-and-the-2011]], 172 (Clifford, privately to Johnson: shocked at the allies'' indifference); [[w.drea-mcnamara-clifford-and-the-2011]], 214 (at the White House luncheon, the restricted zones around Hanoi and Haiphong to be narrowed); [[w.taylor-swords-and-plowshares]], 376 (the allies'' views; none ruling out more); [[w.dallek-flawed-giant]], 477 ("During the first week of August," no day: Clifford and Taylor urge Johnson to expand the target list and move the "margins" closer to China; without more bombing, no further along a year from now; not the allies, the troops or South Vietnam''s draft). [[w.clifford-counsel-to-the-president-2]], 451–52 (the report of Aug. 5; Tom Johnson''s notes; Clifford: "we must hit them harder"). Check: Berman (56) has Clifford and Taylor back Aug. 6. To check: the Clifford-Taylor report, Aug. 5, 1967, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 737 n.76). See [[cal.1967-07-14.vietnam]]. Names: Clifford, Taylor, Johnson, Ball, Rusk, Nitze.'
     src:
       c: 2e438d2a
       rows:
@@ -324,6 +351,7 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 172: ?'
         - 'w.drea-mcnamara-clifford-and-the-2011 214: ?'
         - 'w.taylor-swords-and-plowshares 376: A-B'
+        - 'w.dallek-flawed-giant 477: ?'
     tags: [name:clifford-clark, name:taylor-maxwell, name:johnson-lyndon-b, name:ball-george-w, name:rusk-dean, name:nitze-paul]
   - id: cal.1967-08-05.congo
     when: Aug. 5
@@ -485,7 +513,7 @@ entries:
     date: '1967-08-07'
     thread: vietnam
     c: 'Apple, Saigon bureau chief, front page of the *New York Times*: the war "not going well," victory perhaps "beyond reach"; "stalemate," a fighting word in Washington, the word of nearly every American there but the top officials.'
-    n: '[[w.dallek-flawed-giant]], 474–75; [[w.berman-lyndon-johnsons-war]], 58 (Apple''s "Vietnam: The Signs of Stalemate"; an unnamed officer: "Every time Westy makes a speech about how good the South Vietnam army is, I want to ask him why he keeps calling for more Americans"). To check: [*New York Times*, Aug. 7, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/07/issue.html) (cited by [[w.dallek-flawed-giant]], 474).'
+    n: '[[w.dallek-flawed-giant]], 474–75; [[w.berman-lyndon-johnsons-war]], 58 (Apple''s "Vietnam: The Signs of Stalemate"; an unnamed officer: "Every time Westy makes a speech about how good the South Vietnam army is, I want to ask him why he keeps calling for more Americans"); [[w.mann-grand-delusion]], 547 (Apple''s story; "stalemate," a fighting word in Washington). Check: Mann, 547, dates the story Aug. 6, the day of its dateline; his note gives the *Times* of Aug. 7. To check: [*New York Times*, Aug. 7, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/07/issue.html) (cited by [[w.dallek-flawed-giant]], 474). Names: Apple.'
     src:
       c: 09241f24
       rows:
@@ -493,6 +521,8 @@ entries:
         - 'via w.dallek-flawed-giant 474 n.87a: all'
         - 'via w.dallek-flawed-giant 474 n.87b: all'
         - 'w.berman-lyndon-johnsons-war 58: ?'
+        - 'w.mann-grand-delusion 547: B'
+    tags: [name:apple-r-w-jr]
   - id: cal.1967-08-07.vietnam-2
     when: Aug. 7
     date: '1967-08-07'
@@ -593,6 +623,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-08-07.press-and-broadcasting
+    when: Aug. 7
+    date: '1967-08-07'
+    thread: press-and-broadcasting
+    also: [vietnam]
+    c: Johnson, having read Apple's story on the stalemate, tells his aides Apple is "a Communist" and "a threat to national security."
+    n: '[[w.mann-grand-delusion]], 547 (quoting it). Check: the day; Mann: after Johnson read the story. To check: [[w.dallek-flawed-giant]], 475 (cited by [[w.mann-grand-delusion]], 547 n.21). See [[cal.1967-08-07.vietnam]]. Names: Johnson, Apple.'
+    src:
+      c: f71a8da1
+      rows:
+        - 'w.mann-grand-delusion 547: all'
+    tags: [name:johnson-lyndon-b, name:apple-r-w-jr]
   - id: cal.1967-08-08.crime-and-hijacking
     when: Aug. 8
     date: '1967-08-08'
@@ -618,6 +660,12 @@ entries:
         - 'https://en.wikipedia.org/wiki/1967_Mississippi_gubernatorial_election: all'
         - 'w.dittmer-local-people 417: A-B, G'
     tags: [state:ms, name:winter-william-f, name:williams-john-b, name:swan-jimmy, name:barnett-ross-r, name:waller-william-l, name:goldwater-barry-m]
+    time_range:
+      - 1967-08-09T01:00Z
+      - 1967-08-09T07:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1967-08-08.vietnam
     when: Aug. 8
     date: '1967-08-08'
@@ -625,7 +673,7 @@ entries:
     thread: vietnam-air-war
     also: [vietnam-pennsylvania]
     c: 'Tuesday lunch, 1:25 to 2:50 p.m., Johnson with McNamara, Katzenbach for Rusk, Rostow, Christian, Califano. The Chiefs ask the Hanoi power plant again, the Doumer bridge, ten targets in the Chinese buffer zone. Johnson: "it doesn''t look as though we have escalated enough to win"; all but lifting the zones around Hanoi and Haiphong approved, the bridge if Katzenbach agrees. "We have got to do something to win." On Kissinger''s report of Marcovich and Aubrac''s talks in Hanoi, McNamara: "the most interesting message on the matter of negotiations which we have ever had"; Johnson: no slowing of the bombing until the facts are clearer.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 741–42, 778; [[w.mcnamara-in-retrospect]], ch. 10 at n.26 (McNamara: Kissinger''s cable "the most interesting message on the matter of negotiations"). To check: Tom Johnson''s notes of the lunch, Aug. 8, 1967, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 741 n.85, 778 n.48). See [[cal.1967-07-21.vietnam]]. Names: Johnson, McNamara, Katzenbach, Rusk, Rostow, Christian, Califano, Kissinger, Marcovich, Aubrac.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 741–42, 778; [[w.mcnamara-in-retrospect]], ch. 10 at n.26 (McNamara: Kissinger''s cable "the most interesting message on the matter of negotiations"). [[w.barrett-uncertain-warriors]], 105 (Rostow and McNamara at the Tuesday lunch on the bombing''s effect on infiltration, Rostow up to 50 percent impeded, McNamara 1 percent, by Tom Johnson''s notes); [[w.dallek-flawed-giant]], 477, 480 (Aug. 8: "It doesn''t look as though we have escalated enough to win"; "We have got to do something to win"; McNamara on the news of the Frenchmen''s visit to Hanoi, "the most interesting message on the matter of negotiations which we have ever had"; Johnson sees no need to slow the bombing until the facts are clearer; not the hours, attendees, targets or Kissinger). Check: [[w.dallek-flawed-giant]], 477, has Rusk at the meeting, questioning the escalation with McNamara. To check: Tom Johnson''s notes of the lunch, Aug. 8, 1967, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 741 n.85, 778 n.48); Tom Johnson''s notes, Aug. 8, 1967, box 3, LBJ Library (cited by [[w.barrett-uncertain-warriors]], 105 n.171a). See [[cal.1967-07-21.vietnam]]. Names: Johnson, McNamara, Katzenbach, Rusk, Rostow, Christian, Califano, Kissinger, Marcovich, Aubrac.'
     src:
       c: 9f0aa009
       rows:
@@ -635,6 +683,8 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 741 n.85: A-E'
         - 'via w.gibbons-u-s-government-and IV, 778 n.48: F-G'
         - 'w.mcnamara-in-retrospect ch. 10 at n.26: A'
+        - 'w.barrett-uncertain-warriors 105: A'
+        - 'w.dallek-flawed-giant 477, 480: C, E, G'
     tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:katzenbach-nicholas, name:rostow-walt-w, name:christian-george, name:califano-joseph-a-jr, name:kissinger-henry-a, name:marcovich-hebert, name:aubrac-raymond]
   - id: cal.1967-08-08.vietnam-congress
     when: Aug. 8
@@ -661,13 +711,13 @@ entries:
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'Wheeler to Westmoreland and Sharp, on Apple''s unnamed source in the *Times* the day before ("Every time Westy makes a speech about how good the South Vietnam army is, I want to ask him why he keeps calling for more Americans"): "regrettable that a senior officer felt compelled to respond" and "tragic that he was disloyal to his commander."'
-    n: '[[w.berman-lyndon-johnsons-war]], 58–59. To check: Wheeler to Westmoreland and Sharp, Aug. 8, 1967, Exhibit 1607 A (cited by [[w.berman-lyndon-johnsons-war]], 59 n.9). See [[cal.1967-08-07.vietnam]]. Names: Wheeler, Westmoreland, Sharp.'
+    n: '[[w.berman-lyndon-johnsons-war]], 58–59. To check: Wheeler to Westmoreland and Sharp, Aug. 8, 1967, Exhibit 1607 A (cited by [[w.berman-lyndon-johnsons-war]], 59 n.9). See [[cal.1967-08-07.vietnam]]. Names: Wheeler, Westmoreland, Sharp, Apple.'
     src:
       c: a9dfd652
       rows:
         - 'w.berman-lyndon-johnsons-war 58–59: all'
         - 'via x.1967-08-08.wheeler-to-westmoreland-and-sharp-exhibit-1607a: all'
-    tags: [name:wheeler-earle, name:westmoreland-william, name:sharp-u-s-grant]
+    tags: [name:wheeler-earle, name:westmoreland-william, name:sharp-u-s-grant, name:apple-r-w-jr]
     time_range:
       - 1967-08-08T13:00Z
       - 1967-08-08T21:00Z
@@ -1005,13 +1055,14 @@ entries:
     date: '1967-08-11'
     thread: vietnam-pennsylvania
     c: 'Johnson approves the message for Hanoi: the United States "willing to stop the aerial and naval bombardment of North Vietnam if this will lead promptly to productive discussions"; Hanoi assumed not to take advantage of it.'
-    n: 'Memorandum for Henry A. Kissinger, undated, [FRUS 1964–68, V: Vietnam, 1967, doc. 277](https://history.state.gov/historicaldocuments/frus1964-68v05/d277) (the message; n. 2: approved by the President, by the Pentagon Papers'' account; Kissinger''s French translation). [[w.gibbons-u-s-government-and]], IV, 778–79. To check: [[w.herring-secret-diplomacy-of-the]], 726 (the message reprinted, by FRUS''s note). See [[cal.1967-08-08.vietnam]]. Names: Johnson.'
+    n: 'Memorandum for Henry A. Kissinger, undated, [FRUS 1964–68, V: Vietnam, 1967, doc. 277](https://history.state.gov/historicaldocuments/frus1964-68v05/d277) (the message; n. 2: approved by the President, by the Pentagon Papers'' account; Kissinger''s French translation). [[w.gibbons-u-s-government-and]], IV, 778–79; [[w.dallek-flawed-giant]], 480 (the statement the White House gave Kissinger for delivery to Pham Văn Đồng: willing to stop the aerial and naval bombardment "if this will lead promptly to productive discussions"; the DRV "would not take advantage of the bombing cessation or limitation"; not Johnson''s approval). To check: [[w.herring-secret-diplomacy-of-the]], 726 (the message reprinted, by FRUS''s note). See [[cal.1967-08-08.vietnam]]. Names: Johnson.'
     src:
       c: 88d11e31
       rows:
         - 'w.gibbons-u-s-government-and IV, 778: A-B'
         - 'w.gibbons-u-s-government-and IV, 779: B'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d277: all'
+        - 'w.dallek-flawed-giant 480: B'
     tags: [name:johnson-lyndon-b]
     time_range:
       - 1967-08-11T13:00Z
@@ -1207,13 +1258,13 @@ entries:
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'Westmoreland to Wheeler and Sharp, on the quotation in Apple''s article: "inconceivable to me that any general officer in Vietnam would make such a statement"; Apple "pessimistic and suspicious," "still is convinced that we are not honest about casualties"; "He is probably bucking for a Pulitzer Prize."'
-    n: '[[w.berman-lyndon-johnsons-war]], 59. To check: Westmoreland to Wheeler and Sharp, Aug. 12, 1967, Exhibit 1605 A (cited by [[w.berman-lyndon-johnsons-war]], 59 n.9). See [[cal.1967-08-08.vietnam-2]]. Names: Westmoreland, Wheeler, Sharp.'
+    n: '[[w.berman-lyndon-johnsons-war]], 59. To check: Westmoreland to Wheeler and Sharp, Aug. 12, 1967, Exhibit 1605 A (cited by [[w.berman-lyndon-johnsons-war]], 59 n.9). See [[cal.1967-08-08.vietnam-2]]. Names: Westmoreland, Wheeler, Sharp, Apple.'
     src:
       c: 86be1c7a
       rows:
         - 'w.berman-lyndon-johnsons-war 59: all'
         - 'via x.1967-08-12.westmoreland-to-wheeler-and-sharp-exhibit-1605a: all'
-    tags: [name:westmoreland-william, name:wheeler-earle, name:sharp-u-s-grant]
+    tags: [name:westmoreland-william, name:wheeler-earle, name:sharp-u-s-grant, name:apple-r-w-jr]
     time_range:
       - 1967-08-12T01:00Z
       - 1967-08-12T09:00Z
@@ -1274,6 +1325,34 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1967-08-13.vietnam-clifford-taylor
+    when: Aug. 13
+    date: '1967-08-13'
+    thread: vietnam-clifford-taylor
+    c: 12:30 p.m., on television, thirty minutes, Clark Clifford and General Maxwell Taylor, whom Johnson and Lady Bird Johnson watch on the Sequoia. Taylor gives "a résumé of the economy, the politics, and the military situation in Vietnam since 1954"; Clifford answers on the coming Vietnamese elections and the President's feelings about them "as transmitted to Ky and Thieu."
+    n: '[[w.johnson-white-house-diary]], 554. Names: Clifford, Taylor, Johnson, Lady Bird Johnson.'
+    tags: [name:clifford-clark, name:taylor-maxwell, name:johnson-lyndon-b, name:johnson-lady-bird]
+  - id: cal.1967-08-13.program
+    when: Aug. 13
+    date: '1967-08-13'
+    thread: program
+    c: 'Aboard the Sequoia, Johnson on how decisions are made, to columnists'' complaints that he is slow: "The important thing is not to get problems off your desk—it''s to make a decision that my grandchild and yours can live with." He has asked experienced men, George Ball one, to be "devil''s advocate" and give "a picture of all the bad things that could flow from a certain course of action."'
+    n: '[[w.johnson-white-house-diary]], 554 (Mrs. Johnson''s account). Made public: 1970. Names: Johnson, Lady Bird Johnson, Ball.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:ball-george-w]
+  - id: cal.1967-08-13.state-and-city-finance
+    when: Aug. 13
+    date: '1967-08-13'
+    thread: state-and-city-finance
+    c: 'At the family dinner table, to Luci Johnson Nugent, who favors a sales tax in Austin, Johnson: "in a sales tax everything you wear or eat is taxed"; "A sales tax really helps the rich people at the expense of the poor people."'
+    n: '[[w.johnson-white-house-diary]], 557 (Mrs. Johnson''s account, in the entry of Aug. 16: "Sunday night" of Luci''s and Pat''s visit, Joe Batson at the table; they came back from Nassau with him on Sunday, Aug. 13, and dined with the Johnsons, 554–55). Made public: 1970. Names: Johnson, Lady Bird Johnson. Check: the day: the visit began on Sunday, July 30, 548.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, state:tx, city:austin]
+  - id: cal.1967-08-13.opinion
+    when: Aug. 13
+    date: '1967-08-13'
+    thread: opinion
+    c: 'A poll: Johnson at 39 percent, "the lowest he has ever been."'
+    n: '[[w.johnson-white-house-diary]], 556 (Mrs. Johnson''s diary: "Today''s poll"; the poll not named, nor what it asked). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1967-08-14.press-and-broadcasting
     when: Aug. 14
     date: '1967-08-14'
@@ -1413,7 +1492,7 @@ entries:
     date: '1967-08-15'
     thread: king
     c: 'Atlanta, Ebenezer, SCLC''s convention. King: "Congress, more than the American people, is now running wild with racism"; civil disobedience "to dislocate the functioning of a city, without destroying it": school boycotts, sit-ins at factory gates, a camp-in in Washington. Target cities to be chosen within weeks.'
-    n: '[[w.garrow-bearing-the-cross]], 573–74; [[w.branch-at-canaans-edge]], 635–36 (the banquet of Aug. 14, 1,400 at the Hyatt Regency; the Times, Aug. 16, "Dr. King Planning Protests to ''Dislocate'' Large Cities," and Aug. 17, "Formula for Discord"). To check: King, "The Crisis in American Cities," Aug. 15, 1967, King Papers, King Center; New York Times, Aug. 16, 1967, 1; Washington Post, Aug. 16, 1967, A1; Atlanta Constitution, Aug. 15, 1967, 6; Aug. 16, 1967, 1 (cited by [[w.garrow-bearing-the-cross]], 574 n.55); Program, SCLC Tenth Anniversary Convention, Aug. 14–17, 1967, b33f412, AL, UNC (cited by [[w.branch-at-canaans-edge]], 635); New York Times, Aug. 19, 1967, p. 12 (cited by [[w.branch-at-canaans-edge]], 635); MLK address, "Annual Report of the President," Aug. 16, 1967, A/KS11 (cited by [[w.branch-at-canaans-edge]], 635); [[w.dallek-flawed-giant]], 415 (cited by [[w.branch-at-canaans-edge]], 636); [[w.califano-triumph-and-tragedy-of]], 212 (cited by [[w.branch-at-canaans-edge]], 636); "Rat Damage Is Put at Billion a Year," NYT, July 29, 1967, p. 9 (cited by [[w.branch-at-canaans-edge]], 636); New York Times, Aug. 16, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 636); New York Times, Aug. 17, 1967, p. 36 (cited by [[w.branch-at-canaans-edge]], 636). Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 573–74; [[w.branch-at-canaans-edge]], 635–36 (the banquet of Aug. 14, 1,400 at the Hyatt Regency; the Times, Aug. 16, "Dr. King Planning Protests to ''Dislocate'' Large Cities," and Aug. 17, "Formula for Discord"). To check: King, "The Crisis in American Cities," Aug. 15, 1967, King Papers, King Center; [*New York Times*, Aug. 16, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/16/issue.html), at 1; *Washington Post*, Aug. 16, 1967, at A1; *Atlanta Constitution*, Aug. 15 at 6 and Aug. 16, 1967, at 1 (cited by [[w.garrow-bearing-the-cross]], 574 n.55); Program, SCLC Tenth Anniversary Convention, Aug. 14–17, 1967, b33f412, AL, UNC (cited by [[w.branch-at-canaans-edge]], 635); [*New York Times*, Aug. 19, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/19/issue.html), at 12 (cited by [[w.branch-at-canaans-edge]], 635); MLK address, "Annual Report of the President," Aug. 16, 1967, A/KS11 (cited by [[w.branch-at-canaans-edge]], 635); [[w.dallek-flawed-giant]], 415 (cited by [[w.branch-at-canaans-edge]], 636); [[w.califano-triumph-and-tragedy-of]], 212 (cited by [[w.branch-at-canaans-edge]], 636); "Rat Damage Is Put at Billion a Year," [*New York Times*, July 29, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/29/issue.html), at 9 (cited by [[w.branch-at-canaans-edge]], 636); [*New York Times*, Aug. 16, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/16/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 636); [*New York Times*, Aug. 17, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/17/issue.html), at 36 (cited by [[w.branch-at-canaans-edge]], 636). Names: King.'
     src:
       c: 814a1ce3
       rows:
@@ -1434,11 +1513,12 @@ entries:
     thread: democratic-party
     also: [war-opposition, elections-1968]
     c: 'College Park, Md., the National Student Association''s convention at the University of Maryland. Lowenstein launches "Dump Johnson." Three organizations: Dissenting Democrats, for the peace movement; Concerned Democrats, for the politicians; the students, under Sam Brown.'
-    n: '[[w.chester-american-melodrama]], 63. Names: Lowenstein, Sam Brown, Johnson.'
+    n: '[[w.chester-american-melodrama]], 63; [[w.zaroulis-who-spoke-up]], 125 (August: Lowenstein before the National Student Association convention, "Nonpartisans Against the President," an ovation; within days he and Curtis Gans found the Conference of Concerned Democrats). Names: Lowenstein, Sam Brown, Johnson.'
     src:
       c: 6b2a9b95
       rows:
         - 'w.chester-american-melodrama 63: all'
+        - 'w.zaroulis-who-spoke-up 125: ?'
     tags: [name:lowenstein-allard, name:brown-sam, name:johnson-lyndon-b]
   - id: cal.1967-08-15.elections-1968
     when: Aug. 15
@@ -1446,7 +1526,7 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'Romney to reporters, off the cuff: the involvement in Vietnam a "tragic mistake"; "it would have been better if we had never been involved."'
-    n: '[[w.kabaservice-rule-and-ruin]], 220. Check the day; the *Times* reports it Aug. 16. To check: "Romney Deplores Vietnam Buildup," [*New York Times*, Aug. 16, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/16/issue.html), 8 (cited by [[w.kabaservice-rule-and-ruin]], 220 n.123). Names: Romney.'
+    n: '[[w.kabaservice-rule-and-ruin]], 220. Check the day; the *Times* reports it Aug. 16. To check: "Romney Deplores Vietnam Buildup," [*New York Times*, Aug. 16, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/16/issue.html), at 8 (cited by [[w.kabaservice-rule-and-ruin]], 220 n.123). Names: Romney.'
     src:
       c: e00cd23a
       rows:
@@ -1581,7 +1661,7 @@ entries:
     thread: king
     also: [civil-rights-organizations, poverty]
     c: 'Atlanta, SCLC''s tenth annual convention. King''s address, "Where Do We Go From Here?": a program to "drive the nation to a guaranteed annual income"; "power without love is reckless and abusive, and love without power is sentimental and anemic"; the movement "must address itself to the question of restructuring the whole of American society."'
-    n: '[Where Do We Go From Here?](https://kinginstitute.stanford.edu/where-do-we-go-here) (Aug. 16, 1967) (King Institute, Stanford). [[w.garrow-bearing-the-cross]], 575 (the convention; not the address''s words). To check: [[w.fairclough-to-redeem-the-soul]]; [[w.branch-at-canaans-edge]]; King, "President''s Address . . .," Aug. 16, 1967, King Papers, King Center; Atlanta Constitution, Aug. 17, 1967, 5; New York Times, Aug. 18, 1967, 14 (cited by [[w.garrow-bearing-the-cross]], 575 n.1). See [[cal.1967-08-15.king]]. Names: Martin Luther King.'
+    n: '[Where Do We Go From Here?](https://kinginstitute.stanford.edu/where-do-we-go-here) (Aug. 16, 1967) (King Institute, Stanford). [[w.garrow-bearing-the-cross]], 575 (the convention; not the address''s words). To check: [[w.fairclough-to-redeem-the-soul]]; [[w.branch-at-canaans-edge]]; King, "President''s Address . . .," Aug. 16, 1967, King Papers, King Center; *Atlanta Constitution*, Aug. 17, 1967, at 5; [*New York Times*, Aug. 18, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/18/issue.html), at 14 (cited by [[w.garrow-bearing-the-cross]], 575 n.1). See [[cal.1967-08-15.king]]. Names: Martin Luther King.'
     src:
       c: c1fd6d55
       rows:
@@ -1623,7 +1703,7 @@ entries:
     time: 1967-08-16T18:10Z
     thread: vietnam-air-war
     c: 'Johnson: "destroy all we can without involving China and Russia" before Sept. 1; not Haiphong''s harbor, not Hanoi''s civilians, care in the buffer zone. Rusk: "what do you ask a man to die for."'
-    n: 'FRUS 1964–68, V, doc. [283](https://history.state.gov/historicaldocuments/frus1964-68v05/d283). Made public: FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 745–46 (Tom Johnson''s notes, 2:10 to 4:00 p.m.; seven new targets). See [[cal.1967-08-11.vietnam]]. Names: Johnson, Rusk.'
+    n: 'FRUS 1964–68, V, doc. [283](https://history.state.gov/historicaldocuments/frus1964-68v05/d283). Made public: FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 745–46 (Tom Johnson''s notes, 2:10 to 4:00 p.m.; seven new targets); [[w.dallek-flawed-giant]], 477–78 (Aug. 16: "we destroy all we can without involving China and Russia between now and September 1"; not the other units). See [[cal.1967-08-11.vietnam]]. Names: Johnson, Rusk.'
     src:
       c: 8c893a3a
       rows:
@@ -1631,6 +1711,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 746: A-B'
         - 'via w.gibbons-u-s-government-and IV, 745 n.95: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d283: all'
+        - 'w.dallek-flawed-giant 477–78: A'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:wheeler-earle]
   - id: cal.1967-08-16.opinion
     when: Aug. 16
@@ -1645,11 +1726,12 @@ entries:
     thread: republican-party-congress
     also: [vietnam]
     c: 'Tower on NBC''s *Today*: "unrelenting pressure on the enemy"; no pulling out on reasonable terms until the enemy sees "we are determined to achieve military success."'
-    n: '[[w.johns-vietnams-second-front]], 161. Names: Tower.'
+    n: '[[w.johns-vietnams-second-front]], 161; [[w.johnson-white-house-diary]], 556 (Tower for the Republicans and Joe Clark for the Democrats on the Today show "talking about Vietnam," Tower "explained, backed—yes, even defended" the Administration; not the words). Names: Tower.'
     src:
       c: 11aff090
       rows:
         - 'w.johns-vietnams-second-front 161: all'
+        - 'w.johnson-white-house-diary 556: ?'
     tags: [name:tower-john-g]
   - id: cal.1967-08-16.elections-1968
     when: Aug. 16
@@ -1717,6 +1799,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-08-16.vietnam-support
+    when: Aug. 16
+    date: '1967-08-16'
+    thread: vietnam-support
+    c: 'East Room, early: the Vietnam Civilian Service Awards. Lady Bird Johnson and Henry Cabot Lodge, the former Ambassador, are on the stage. A small group of civilians, AID workers and members of a church group, receive citations for their work in Saigon hospitals and schools.'
+    n: '[[w.johnson-white-house-diary]], 559. Names: Lady Bird Johnson, Lodge.'
+    tags: [name:johnson-lady-bird, name:lodge-henry-cabot]
+  - id: cal.1967-08-16.conservation
+    when: Aug. 16
+    date: '1967-08-16'
+    thread: conservation
+    c: '10 a.m.: Lady Bird Johnson drives Mayor Harry Akin of Austin around Washington to show what the Committee for a More Beautiful Capital has done in "two years and eight months": the park at Third and Independence, Syphax School, the magnolias on Pennsylvania Avenue S.E., Rawlins Park.'
+    n: '[[w.johnson-white-house-diary]], 556–57. Names: Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird, city:austin, city:washington]
   - id: cal.1967-08-17.welfare
     when: Aug. 17
     date: '1967-08-17'
@@ -1768,7 +1864,7 @@ entries:
     date: '1967-08-17'
     thread: vietnam-pennsylvania
     c: 'Pennsylvania. Paris: Kissinger gives Marcovich and Aubrac the American message for Phạm Văn Đồng, dictated, McNamara says, by himself: the United States willing to stop the bombing of the North "if this will lead promptly to productive discussions," assuming the North "would not take advantage of the bombing cessation or limitation." For "if" they ask "with the understanding that"; State agrees.'
-    n: 'FRUS 1964–68, V, docs. [277](https://history.state.gov/historicaldocuments/frus1964-68v05/d277), [286](https://history.state.gov/historicaldocuments/frus1964-68v05/d286) (editorial note). Made public: [[w.herring-secret-diplomacy-of-the]], 726–733 (1983); FRUS 1964–68, V (2002). [[w.drea-mcnamara-clifford-and-the-2011]], 214 (McNamara''s draft of the message); [[w.gibbons-u-s-government-and]], IV, 778–79 (the message; Kissinger in Paris from Aug. 17; not the wording asked). See [[cal.1967-07-21.vietnam]]. Names: Kissinger, Marcovich, Aubrac, Phạm Văn Đồng, McNamara.'
+    n: 'FRUS 1964–68, V, docs. [277](https://history.state.gov/historicaldocuments/frus1964-68v05/d277), [286](https://history.state.gov/historicaldocuments/frus1964-68v05/d286) (editorial note). Made public: [[w.herring-secret-diplomacy-of-the]], 726–733 (1983); FRUS 1964–68, V (2002). [[w.drea-mcnamara-clifford-and-the-2011]], 214 (McNamara''s draft of the message); [[w.gibbons-u-s-government-and]], IV, 778–79 (the message; Kissinger in Paris from Aug. 17; not the wording asked); [[w.dallek-flawed-giant]], 480 (Kissinger presents the statement to the Frenchmen for Hanoi; they urge a reduction in the bombing during their next visit; no day; not McNamara or C and D). See [[cal.1967-07-21.vietnam]]. Names: Kissinger, Marcovich, Aubrac, Phạm Văn Đồng, McNamara.'
     src:
       c: 167e2fe2
       rows:
@@ -1777,6 +1873,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d277: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 214: A-B'
         - 'via w.drea-mcnamara-clifford-and-the-2011 214 n.44b: A-B'
+        - 'w.dallek-flawed-giant 480: ?'
     tags: [name:kissinger-henry-a, name:marcovich-hebert, name:aubrac-raymond, name:pham-van-dong, name:mcnamara-robert-s, name:cooper-chester-l]
   - id: cal.1967-08-17.cities-and-housing
     when: Aug. 17
@@ -1797,7 +1894,7 @@ entries:
     thread: vietnam-commitments
     also: [congress, elections-1968]
     c: 'Foreign Relations'' hearings on S. Res. 151, from Aug. 16. Katzenbach: the Tonkin Gulf resolution and the SEATO treaty authority enough; a declaration of war "outmoded" (Check the words). McCarthy, leaving the hearing: "This is the wildest testimony I ever heard. There is no limit to what he says the President could do."'
-    n: 'Daily Digest, [113 Cong. Rec. D425](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=423). *U.S. Commitments to Foreign Powers: Hearings Before the Senate Committee on Foreign Relations on S. Res. 151*, 90th Cong., 1st Sess. (1967), 76–91 (Gibbons''s pages; cited by [[w.gibbons-u-s-government-and]], IV, 812–14 nn.50–57). [[w.gibbons-u-s-government-and]], IV, 812–14, 817 (McCarthy''s words, from the [*New York Times*, Aug. 18, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/18/issue.html)); [[w.woods-j-william-fulbright-vietnam]], 166 (Katzenbach: "[D]idn''t that Resolution authorize the President to use the armed forces of the United States in whatever way was necessary?"); [[w.woods-j-william-fulbright-vietnam]], 172 (McCarthy walks out; to Marcy and Kenworthy in the staff office: "Somebody''s got to take these guys on and I''m going to do it even if I have to run for President"). [[w.mann-grand-delusion]], 551–52 (Katzenbach''s "functional equivalent"; Gore). To check: [[w.katzenbach-some-of-it-was]]; [[w.sandbrook-eugene-mccarthy]]; [[w.mccarthy-year-of-the-people]]. See [[cal.1967-07-31.vietnam]]. Names: Katzenbach, McCarthy.'
+    n: 'Daily Digest, [113 Cong. Rec. D425](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=423). *U.S. Commitments to Foreign Powers: Hearings Before the Senate Committee on Foreign Relations on S. Res. 151*, 90th Cong., 1st Sess. (1967), 76–91 (Gibbons''s pages; cited by [[w.gibbons-u-s-government-and]], IV, 812–14 nn.50–57). [[w.gibbons-u-s-government-and]], IV, 812–14, 817 (McCarthy''s words, from the [*New York Times*, Aug. 18, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/18/issue.html)); [[w.woods-j-william-fulbright-vietnam]], 166 (Katzenbach: "[D]idn''t that Resolution authorize the President to use the armed forces of the United States in whatever way was necessary?"); [[w.woods-j-william-fulbright-vietnam]], 172 (McCarthy walks out; to Marcy and Kenworthy in the staff office: "Somebody''s got to take these guys on and I''m going to do it even if I have to run for President"); [[w.zaroulis-who-spoke-up]], 126 (mid-August: Katzenbach on the Tonkin Gulf Resolution before Foreign Relations; McCarthy, leaving the hearing). [[w.mann-grand-delusion]], 551–52 (Katzenbach''s "functional equivalent"; Gore). To check: [[w.katzenbach-some-of-it-was]]; [[w.sandbrook-eugene-mccarthy]]; [[w.mccarthy-year-of-the-people]]. See [[cal.1967-07-31.vietnam]]. Names: Katzenbach, McCarthy.'
     src:
       c: 0cf4aac1
       rows:
@@ -1812,6 +1909,7 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 166: B'
         - 'w.woods-j-william-fulbright-vietnam 172: D'
         - 'via x.1983.marcy-oral-history: D'
+        - 'w.zaroulis-who-spoke-up 126: B, D'
     tags: [name:katzenbach-nicholas, name:mccarthy-eugene-j]
     time_range:
       - 1967-08-17T13:00Z
@@ -1943,7 +2041,7 @@ entries:
     thread: elections-1968
     also: [china]
     c: 'Romney on China: "it would be in the common interest for mainland China to enter into the community of nations and accept the responsibilities which that entails"; a flexible position on its admission to the United Nations.'
-    n: '[[w.kabaservice-rule-and-ruin]], 220. Check the day; the *Times* reports it Aug. 19. To check: John M. Taylor, "Romney Bids U.S. Encourage China," [*New York Times*, Aug. 19, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/19/issue.html), 2 (cited by [[w.kabaservice-rule-and-ruin]], 220 n.122). Names: Romney.'
+    n: '[[w.kabaservice-rule-and-ruin]], 220. Check the day; the *Times* reports it Aug. 19. To check: John M. Taylor, "Romney Bids U.S. Encourage China," [*New York Times*, Aug. 19, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/19/issue.html), at 2 (cited by [[w.kabaservice-rule-and-ruin]], 220 n.122). Names: Romney.'
     src:
       c: 95e58b1c
       rows:
@@ -1999,7 +2097,7 @@ entries:
     thread: vietnam-pennsylvania
     also: [vietnam-air-war]
     c: 'Johnson with Rusk, McNamara, Rostow and Wheeler, 8:35 to 9:55 p.m.: the ten-mile limit around Hanoi restored for ten days, for Marcovich and Aubrac''s visit. Rusk: a few days ago one chance in a hundred of secret contact, "today ... one chance in 50"; McNamara: one in ten. Kissinger tells them, from Aug. 24.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 779; [[w.berman-lyndon-johnsons-war]], 184 ("In war, politics stops at the water''s edge"; he had supported Eisenhower 79 percent of the time); [[w.cosmas-joint-chiefs-of-staff]], 75–76 (the suspension in the Hanoi prohibited area ordered Aug. 19, to run Aug. 24 to Sept. 4, explained as avoiding charges of escalation); [[w.drea-mcnamara-clifford-and-the-2011]], 214 (the ten-mile suspension around Hanoi, Aug. 24 to Sept. 4). To check: [[w.herring-secret-diplomacy-of-the]], 729; Jim Jones''s notes of the meeting, Aug. 19, 1967, Meetings Notes File, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 779 n.51); JCS 4343 to CINCPAC, 191430Z Aug 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 75 n.16); Memo, AsstSecState for East Asian and Pacific Affairs to SecState, 9 Apr 68, OCJCS File, Vietnam Mission, May 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 75 n.16). Gibbons dates the restriction from Aug. 21 in one place and from Aug. 24 in another (IV, 748, 779); Kissinger''s telegram of Aug. 19 tells his contacts of a change around Hanoi effective Aug. 24 ([FRUS 1964–68, V, doc. 290](https://history.state.gov/historicaldocuments/frus1964-68v05/d290); n. 2: the strikes within ten nautical miles suspended Aug. 24–Sept. 4). See [[cal.1967-08-17.vietnam]]. Names: Johnson, Rusk, McNamara, Rostow, Wheeler, Marcovich, Aubrac, Kissinger.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 779; [[w.berman-lyndon-johnsons-war]], 184 ("In war, politics stops at the water''s edge"; he had supported Eisenhower 79 percent of the time); [[w.cosmas-joint-chiefs-of-staff]], 75–76 (the suspension in the Hanoi prohibited area ordered Aug. 19, to run Aug. 24 to Sept. 4, explained as avoiding charges of escalation); [[w.drea-mcnamara-clifford-and-the-2011]], 214 (the ten-mile suspension around Hanoi, Aug. 24 to Sept. 4); [[w.dallek-flawed-giant]], 480 (the White House discussion of bombing targets, Johnson agrees to a temporary cessation of bombing inside a ten-mile zone around Hanoi; Rusk and McNamara see greatly improved chances of "secret contacts"; not the hours, the odds or Wheeler). To check: [[w.herring-secret-diplomacy-of-the]], 729; Jim Jones''s notes of the meeting, Aug. 19, 1967, Meetings Notes File, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 779 n.51); JCS 4343 to CINCPAC, 191430Z Aug 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 75 n.16); Memo, AsstSecState for East Asian and Pacific Affairs to SecState, 9 Apr 68, OCJCS File, Vietnam Mission, May 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 75 n.16). Gibbons dates the restriction from Aug. 21 in one place and from Aug. 24 in another (IV, 748, 779); Kissinger''s telegram of Aug. 19 tells his contacts of a change around Hanoi effective Aug. 24 ([FRUS 1964–68, V, doc. 290](https://history.state.gov/historicaldocuments/frus1964-68v05/d290); n. 2: the strikes within ten nautical miles suspended Aug. 24–Sept. 4). See [[cal.1967-08-17.vietnam]]. Names: Johnson, Rusk, McNamara, Rostow, Wheeler, Marcovich, Aubrac, Kissinger.'
     src:
       c: 67f4e54d
       rows:
@@ -2011,7 +2109,13 @@ entries:
         - 'via x.1967-08-19.jcs-4343-to-cincpac-191430z-aug-67: A'
         - 'via x.1968-04-09.memo-asstsecstate-for-east-asian-and-pacific: A'
         - 'w.drea-mcnamara-clifford-and-the-2011 214: ?'
+        - 'w.dallek-flawed-giant 480: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:rostow-walt-w, name:wheeler-earle, name:marcovich-hebert, name:aubrac-raymond, name:kissinger-henry-a]
+    variants:
+      - unit: A
+        witness: w.dallek-flawed-giant
+        reads: a White House discussion of bombing targets on August 18
+        at: '480'
   - id: cal.1967-08-19.vietnam-order-of-battle
     when: Aug. 19
     date: '1967-08-19'
@@ -2130,7 +2234,7 @@ entries:
     date: '1967-08-20'
     thread: vietnam-commitments
     c: 'Fulbright on *Issues and Answers*: Johnson''s remarks of Aug. 18 may deny Congress''s power to declare war; repeal of the Tonkin Gulf resolution "a direct slap at a leader in time of war"; the only real sanction impeachment, "politically impractical." An Associated Press survey the day before: 40 of 84 Senators disapprove of the President''s course.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 815. [[w.mann-grand-delusion]], 553 (the Associated Press''s survey). To check: *New York Times* and *Washington Post*, Aug. 21, 1967; *Washington Post*, Aug. 20, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 815 nn.59–60). See [[cal.1967-08-18.vietnam-commitments]]. Names: Fulbright, Johnson. Check: Mann, 553, has 45 of 84, 26 Democrats and 19 Republicans.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 815. [[w.mann-grand-delusion]], 553 (the Associated Press''s survey). To check: *New York Times* and *Washington Post*, Aug. 21 and Aug. 20, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 815 nn.59–60). See [[cal.1967-08-18.vietnam-commitments]]. Names: Fulbright, Johnson. Check: Mann, 553, has 45 of 84, 26 Democrats and 19 Republicans.'
     src:
       c: 310467c0
       rows:
@@ -2300,7 +2404,7 @@ entries:
     thread: press-and-broadcasting
     also: [school-aid]
     c: 'Marjorie Hunter in the *New York Times*, the second lead on the front page: the Friday task force''s secret report on education, the programs to stay concentrated on poor urban and rural children. Califano had leaked it through an intermediary at Johnson''s order; Johnson chews out Cater for the leak.'
-    n: '[[w.califano-triumph-and-tragedy-of]], 172; [[w.graham-uncertain-triumph]], 174–75. Check: Graham, 174, has Cater persuade Johnson to approve the leak (Cater to Johnson, July 12, 1967, 257 n.31). To check: Califano to Johnson, July 24, 1967, 11 a.m., Califano''s papers (cited by [[w.califano-triumph-and-tragedy-of]], 172 n.13); *New York Times*, Aug. 21, 1967 (cited by [[w.graham-uncertain-triumph]], 175 n.33). Names: Califano, Johnson, Cater.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 172; [[w.graham-uncertain-triumph]], 174–75. Check: Graham, 174, has Cater persuade Johnson to approve the leak (Cater to Johnson, July 12, 1967, 257 n.31). To check: Califano to Johnson, July 24, 1967, 11 a.m., Califano''s papers (cited by [[w.califano-triumph-and-tragedy-of]], 172 n.13); [*New York Times*, Aug. 21, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/21/issue.html) (cited by [[w.graham-uncertain-triumph]], 175 n.33). Names: Califano, Johnson, Cater.'
     src:
       c: ab06b37b
       rows:
@@ -2309,6 +2413,12 @@ entries:
         - 'w.graham-uncertain-triumph 174–75: A'
         - 'via w.graham-uncertain-triumph 175 n.33: A'
     tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, name:cater-s-douglass]
+    time_range:
+      - 1967-08-21T09:00Z
+      - 1967-08-21T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1967-08-21.press-and-broadcasting-2
     when: Aug. 21
     date: '1967-08-21'
@@ -2424,11 +2534,12 @@ entries:
     date: '1967-08-22'
     thread: states-and-cities
     c: 'Johnson offers Walter Washington the District''s mayoralty and he accepts; Lindsay, met on the shuttle, threatens to leave the Kerner Commission. Bradlee to Califano three times: the FBI checking, "I''m running with the story"; the lead softened to "the odds-on choice." Johnson, at the bulldog edition: "he''s certainly not the odds-on choice of the President."'
-    n: '[[w.califano-triumph-and-tragedy-of]], 232–35. Names: Johnson, Walter Washington, Lindsay, Bradlee, Califano.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 232–35; [[w.johnson-white-house-diary]], 559 (Walter Washington "was still in Lyndon''s office" a little past 9, "with a big smile," saying good-by to Johnson; she thought "maybe it would work out for him to be our next Mayor"; not the offer, Lindsay or the press). Names: Johnson, Walter Washington, Lindsay, Bradlee, Califano.'
     src:
       c: 4c12d3a0
       rows:
         - 'w.califano-triumph-and-tragedy-of 232–35: all'
+        - 'w.johnson-white-house-diary 559: ?'
     tags: [name:johnson-lyndon-b, name:washington-walter-e, name:lindsay-john-v, name:bradlee-benjamin-c, name:califano-joseph-a-jr, city:dc]
   - id: cal.1967-08-22.vietnam-prisoners
     when: Aug. 22
@@ -2470,6 +2581,20 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 744: all'
     tags: [name:mcconnell-john-p, name:moorer-thomas]
+  - id: cal.1967-08-22.middle-east-2
+    when: Aug. 22
+    date: '1967-08-22'
+    thread: middle-east
+    c: 'South Lawn, 5 p.m.: the arrival of the Shah of Iran. Rusk notes that Johnson has received sixty-six foreign Chiefs of State in twelve months. Johnson speaks of Iran''s economy, growing at about 10 percent a year: "You are winning progress without violence and without any bloodshed—a lesson that others have still to learn." The Shah answers without notes.'
+    n: '[[w.johnson-white-house-diary]], 559–60. To check: the Public Papers, 1967, Aug. 22. Names: Pahlavi, Johnson, Rusk, Lady Bird Johnson.'
+    tags: [name:pahlavi-mohammed-reza, name:johnson-lyndon-b, name:rusk-dean, name:johnson-lady-bird]
+  - id: cal.1967-08-22.middle-east-3
+    when: Aug. 22
+    date: '1967-08-22'
+    thread: middle-east
+    c: 'State dinner for the Shah of Iran, the Empress at home. Johnson''s toast: "I must add special congratulations on Your Majesty''s superb sense of timing. You have had the foresight to schedule your coronation when your polls are up." The Shah: women have gained "even equality in wearing a crown." The American Ballet Theater dances Rodeo in the East Room. David Lilienthal tells Lady Bird Johnson, "something like" this: "A very persuasive man has put me to work on Vietnam."'
+    n: '[[w.johnson-white-house-diary]], 560–63. To check: the Public Papers, 1967, Aug. 22. Names: Pahlavi, Johnson, Lady Bird Johnson, Lilienthal.'
+    tags: [name:pahlavi-mohammed-reza, name:johnson-lyndon-b, name:johnson-lady-bird, name:lilienthal-david-e]
   - id: cal.1967-08-23.opinion
     when: Aug. 23
     date: '1967-08-23'
@@ -2649,6 +2774,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-08-23.cities-and-housing
+    when: Aug. 23
+    date: '1967-08-23'
+    thread: cities-and-housing
+    c: Humphrey's committee on the cities, set up to work on a large new jobs program, issues its final report. Califano, with Schultze, had urged that the Vice President's group be tactfully disbanded; Johnson puts it "on ice."
+    n: '[[w.dallek-flawed-giant]], 403. To check: Humphrey to Johnson, July 27, Aug. 12 and 23, 1967; Johnson to Humphrey, Aug. 23, 1967, Humphrey Papers; Califano to Johnson, Aug. 16, 1967, WHCF, LBJ Library (cited by [[w.dallek-flawed-giant]], 403 n.40). Names: Humphrey, Califano, Schultze, Johnson.'
+    src:
+      c: 6c0ace86
+      rows:
+        - 'w.dallek-flawed-giant 403: all'
+        - 'via w.dallek-flawed-giant 403 n.40: all'
+    tags: [name:humphrey-hubert-h, name:califano-joseph-a-jr, name:schultze-charles-l, name:johnson-lyndon-b]
+  - id: cal.1967-08-23.cities-and-housing-2
+    when: Aug. 23
+    date: '1967-08-23'
+    thread: cities-and-housing
+    c: 'Johnson to Humphrey: the programs for the cities pending before the Congress to be enacted with the funding requested.'
+    n: '[[w.dallek-flawed-giant]], 418. To check: Johnson to Humphrey, Aug. 23, 1967, Humphrey Papers (cited by [[w.dallek-flawed-giant]], 418 n.78). Names: Johnson, Humphrey.'
+    src:
+      c: cf18f304
+      rows:
+        - 'w.dallek-flawed-giant 418: all'
+        - 'via w.dallek-flawed-giant 418 n.78: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1967-08-24.testing
     when: Aug. 24
     date: '1967-08-24'
@@ -2795,7 +2944,7 @@ entries:
     thread: vietnam-air-war
     also: [congress]
     c: 'McNamara to the Stennis subcommittee: the enemy''s operations in the South cannot be stopped by bombing, "short, that is, of the virtual annihilation of North Vietnam and its people"; of the targets the Chiefs had proposed, 57 not yet authorized, and of little consequence (Check the words and the figure).'
-    n: 'Daily Digest, [113 Cong. Rec. D445](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=443). *Air War Against North Vietnam* hearings, pt. 4 (Check the part and pages). [[w.gibbons-u-s-government-and]], IV, 750–51 (the testimony, *Air War Against North Vietnam*, pt. 4, 273–373; not the 57 targets); [[w.herring-lbj-and-vietnam]], 56 (all day before the subcommittee; no bombing could stop the flow south; "You cannot win the war on the cheap by bombing"); [[w.mcnamara-in-retrospect]], ch. 10 at nn.13–18 (the objectives of the bombing; the limits of the air war; Cannon''s questions). [[w.mann-grand-delusion]], 555–56 (Thurmond: "a statement of no-win"); [[w.berman-lyndon-johnsons-war]], 72 (only a handful of the Chiefs'' fixed targets not authorized; the bombing no substitute for success in the South; it could not break the North''s will; Thurmond: McNamara placating the Communists); [[w.bernstein-guns-or-butter]], 357 (seven hours, in public); [[w.staaveren-u-s-air-force]], 247 (McNamara: of the ten to twenty percent of those sent south who failed to arrive, some two percent victims of air attacks). To check: John M. Shaw, "The August 1967 Stennis Subcommittee Hearings on the Air War over North Vietnam," unpublished paper; Rostow to Johnson, Aug. 9, 1967, NSF Memos to the President, Rostow, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 56 n.119). See [[cal.1967-08-09.vietnam]]. Names: McNamara, Stennis.'
+    n: 'Daily Digest, [113 Cong. Rec. D445](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=443). *Air War Against North Vietnam* hearings, pt. 4 (Check the part and pages). [[w.gibbons-u-s-government-and]], IV, 750–51 (the testimony, *Air War Against North Vietnam*, pt. 4, 273–373; not the 57 targets); [[w.herring-lbj-and-vietnam]], 56 (all day before the subcommittee; no bombing could stop the flow south; "You cannot win the war on the cheap by bombing"); [[w.mcnamara-in-retrospect]], ch. 10 at nn.13–18 (the objectives of the bombing; the limits of the air war; Cannon''s questions). [[w.mann-grand-delusion]], 555–56 (Thurmond: "a statement of no-win"); [[w.berman-lyndon-johnsons-war]], 72 (only a handful of the Chiefs'' fixed targets not authorized; the bombing no substitute for success in the South; it could not break the North''s will; Thurmond: McNamara placating the Communists); [[w.bernstein-guns-or-butter]], 357 (seven hours, in public); [[w.staaveren-u-s-air-force]], 247 (McNamara: of the ten to twenty percent of those sent south who failed to arrive, some two percent victims of air attacks); [[w.zaroulis-who-spoke-up]], 144 (August, the Senate Preparedness Investigations Subcommittee, closed; "no reason to believe that North Vietnam can be bombed to the negotiating table"; the day not given); [[w.clifford-counsel-to-the-president-2]], 456 (McNamara''s grilling before the Senate Armed Services Committee in August, unable to make a strong case for continued bombing; not the day, the words or the figures); [[w.schlesinger-robert-kennedy-and-his]], 823 ("In August," without clearing his testimony with the White House, McNamara tells "the Senate Military Affairs Committee" (the entry: the Stennis subcommittee) that it was militarily pointless to keep on bombing the North; Johnson angry, by Maj. Gen. Robert Ginsburgh: "He decided to back the Joint Chiefs and ease McNamara out"; no day or figure); [[w.dallek-flawed-giant]], 478 (McNamara tells the subcommittee Aug. 25 that bombing by itself would not bring Hanoi to the peace table; the Chiefs enraged; not the words of A or the 57 targets). To check: John M. Shaw, "The August 1967 Stennis Subcommittee Hearings on the Air War over North Vietnam," unpublished paper; Rostow to Johnson, Aug. 9, 1967, NSF Memos to the President, Rostow, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 56 n.119). See [[cal.1967-08-09.vietnam]]. Names: McNamara, Stennis.'
     src:
       c: fab9ac00
       rows:
@@ -2812,6 +2961,10 @@ entries:
         - 'via x.1967-08-25.senate-preparedness-investigating-subcommittee-air-war: A'
         - 'w.bernstein-guns-or-butter 357: A-B'
         - 'w.staaveren-u-s-air-force 247: ?'
+        - 'w.zaroulis-who-spoke-up 144: A'
+        - 'w.clifford-counsel-to-the-president-2 456: ?'
+        - 'w.schlesinger-robert-kennedy-and-his 823: ?'
+        - 'w.dallek-flawed-giant 478: ?'
     tags: [name:mcnamara-robert-s, name:stennis-john-c]
     time_range:
       - 1967-08-25T13:00Z
@@ -2856,12 +3009,13 @@ entries:
     follows:
       - cal.1967-08-25.vietnam-air-war
     c: 'McNamara, on his way back from the hearing, called to the White House by telephone to his car: some three hours "upbraided and roared at," by Gilpatric''s account.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 751 (Gilpatric''s account, CRS interview, Jan. 9, 1979). See [[cal.1967-08-25.vietnam-air-war]]. Names: McNamara, Gilpatric.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 751 (Gilpatric''s account, CRS interview, Jan. 9, 1979); [[w.dallek-flawed-giant]], 478 (Johnson summons McNamara on his way back from the hearing and spends three hours upbraiding and roaring at him). See [[cal.1967-08-25.vietnam-air-war]]. Names: McNamara, Gilpatric.'
     src:
       c: bca6bb9c
       rows:
         - 'w.gibbons-u-s-government-and IV, 751: all'
         - 'via w.gibbons-u-s-government-and IV, 751 n.110: all'
+        - 'w.dallek-flawed-giant 478: ?'
     tags: [name:mcnamara-robert-s, name:gilpatric-roswell-l, name:johnson-lyndon-b]
     time_range:
       - 1967-08-25T13:00Z
@@ -2877,7 +3031,7 @@ entries:
     follows:
       - cal.1967-08-25.vietnam-air-war
     c: 'By Perry''s account, Wheeler gathers the Joint Chiefs in his office after McNamara''s testimony, no aides, no notes, and proposes they resign together at a press conference in the morning; Harold Johnson the most for it. Aug. 26, Wheeler: "We can''t do it. It''s mutiny." He asks a seat at the Tuesday lunch.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 751–52; [[w.herring-lbj-and-vietnam]], 56 (Perry''s story: the resignation agreed, then reversed in the morning, "It''s mutiny"; denied by the two members living); [[w.bernstein-guns-or-butter]], 357 (the Chiefs agree that night to resign the next morning at a press conference; Wheeler calls it off). Check: Perry''s the only account Gibbons gives; Herring gives Perry''s source as an unnamed "former JCS flag rank officer," and Greene''s and Moorer''s denials (198 n.120). To check: [[w.perry-four-stars]], 162–64, 169 (cited by Gibbons, IV, 751). See [[cal.1967-08-25.vietnam-air-war]]. Names: Wheeler, Harold K. Johnson, McNamara, Moorer, McConnell.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 751–52; [[w.herring-lbj-and-vietnam]], 56 (Perry''s story: the resignation agreed, then reversed in the morning, "It''s mutiny"; denied by the two members living); [[w.bernstein-guns-or-butter]], 357 (the Chiefs agree that night to resign the next morning at a press conference; Wheeler calls it off); [[w.dallek-flawed-giant]], 478 (after McNamara''s testimony the Joint Chiefs, enraged, consider a mass resignation; not Perry''s account, Harold Johnson or Aug. 26). Check: Perry''s the only account Gibbons gives; Herring gives Perry''s source as an unnamed "former JCS flag rank officer," and Greene''s and Moorer''s denials (198 n.120). To check: [[w.perry-four-stars]], 162–64, 169 (cited by Gibbons, IV, 751). See [[cal.1967-08-25.vietnam-air-war]]. Names: Wheeler, Harold K. Johnson, McNamara, Moorer, McConnell.'
     src:
       c: edc1a7e8
       rows:
@@ -2885,6 +3039,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 752: B-D'
         - 'w.herring-lbj-and-vietnam 56: A, C'
         - 'w.bernstein-guns-or-butter 357: A, C'
+        - 'w.dallek-flawed-giant 478: ?'
     tags: [name:wheeler-earle, name:johnson-harold-k, name:mcnamara-robert-s, name:moorer-thomas, name:mcconnell-john-p]
   - id: cal.1967-08-25.vietnam-order-of-battle
     when: Aug. 25
@@ -2928,12 +3083,18 @@ entries:
     thread: school-aid
     also: [press-and-broadcasting]
     c: 'The *Times*, editorially, for the President''s and the Friday task force''s position: categorical aid, its precedent the NDEA of 1958 more than the act of 1965; "categorical emergency funds" for riot-torn cities like Newark.'
-    n: '[[w.graham-uncertain-triumph]], 257 n.33. To check: *New York Times*, Aug. 25, 1967 (cited by [[w.graham-uncertain-triumph]], 257 n.33).'
+    n: '[[w.graham-uncertain-triumph]], 257 n.33. To check: [*New York Times*, Aug. 25, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/25/issue.html) (cited by [[w.graham-uncertain-triumph]], 257 n.33).'
     src:
       c: 52e463f1
       rows:
         - 'w.graham-uncertain-triumph 257 n.33: all'
         - 'via w.graham-uncertain-triumph 257 n.33: all'
+    time_range:
+      - 1967-08-25T09:00Z
+      - 1967-08-25T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1967-08-26.economy
     when: Aug. 26
     date: '1967-08-26'
@@ -2986,6 +3147,13 @@ entries:
       c: aa7c1dba
       rows:
         - 'w.wells-war-within 175: all'
+  - id: cal.1967-08-26.states-and-cities
+    when: Aug. 26
+    date: '1967-08-26'
+    thread: states-and-cities
+    c: 'Kerrville, Tex.: Lady Bird Johnson at the dedication of the Butt-Holdsworth Library.'
+    n: '[[w.johnson-white-house-diary]], 563. Names: Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird, state:tx, city:kerrville]
   - id: cal.1967-08-27.opinion
     when: Aug. 27
     date: '1967-08-27'
@@ -3186,6 +3354,12 @@ entries:
     c: 'Mississippi''s Democratic runoff for governor: Williams over Winter, 371,815 to 310,527, 54.5 percent.'
     n: 'Votes: [Wikipedia, "1967 Mississippi gubernatorial election"](https://en.wikipedia.org/wiki/1967_Mississippi_gubernatorial_election), from Our Campaigns; Check: the date, and MDAH Series 0107. See [[cal.1967-08-08.mississippi-ms]]. Names: Williams, Winter.'
     tags: [state:ms, name:williams-john-b, name:winter-william-f]
+    time_range:
+      - 1967-08-30T01:00Z
+      - 1967-08-30T07:00Z
+    time_band: election night
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1967-08-29.robert-kennedy
     when: Aug. 29
     date: '1967-08-29'
@@ -3210,12 +3384,13 @@ entries:
     date: '1967-08-29'
     thread: vietnam-air-war
     c: 'Helms to Johnson, "Effects of the Intensified Air War Against North Vietnam": more than 10,000 sorties a month against the North since March, 55 percent over 1966, yet "Hanoi continues to meet its own needs and to support its aggression in South Vietnam. Essential military and economic traffic continues to move."'
-    n: '[[w.mcnamara-in-retrospect]], ch. 10 at n.21. To check: Helms to Johnson, Aug. 29, 1967, and Rostow''s attachment (cited by [[w.mcnamara-in-retrospect]], ch. 10 n.21). See [[cal.1967-08-09.vietnam]]. Names: Helms, Johnson.'
+    n: '[[w.mcnamara-in-retrospect]], ch. 10 at n.21. [[w.dallek-flawed-giant]], 478 ("four days later," after Aug. 25, a CIA report: the bombing''s "increased effectiveness"; "despite increasing hardships . . . caused by the air war, Hanoi continues to meet its own needs and to support its aggression in South Vietnam. Essential military and economic traffic continues to move"; not Helms by name, the title or the sorties). To check: Helms to Johnson, Aug. 29, 1967, and Rostow''s attachment (cited by [[w.mcnamara-in-retrospect]], ch. 10 n.21). See [[cal.1967-08-09.vietnam]]. Names: Helms, Johnson.'
     src:
       c: 603991ef
       rows:
         - 'w.mcnamara-in-retrospect ch. 10 at n.21: all'
         - 'via x.1967-08-29.helms-effects-of-the-intensified-air-war: all'
+        - 'w.dallek-flawed-giant 478: ?'
     tags: [name:helms-richard, name:johnson-lyndon-b]
     time_range:
       - 1967-08-29T13:00Z
@@ -3297,7 +3472,14 @@ entries:
     thread: court
     also: [confirmations]
     c: The Senate confirms Thurgood Marshall to the Supreme Court, [69–11](https://voteview.com/rollcall/RS0900176), the first Negro on the Court.
-    n: '[Johnson and Cecilia Marshall](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cecilia-marshall-august-31-1967), Aug. 31, Conversation WH6708-01-12107 (Miller Center). The Senate sat from noon to 5:20 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D453](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=451). See [[cal.1967-06-13.court]]. Names: Marshall.'
+    n: '[Johnson and Cecilia Marshall](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cecilia-marshall-august-31-1967), Aug. 31, Conversation WH6708-01-12107 (Miller Center). The Senate sat from noon to 5:20 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D453](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=451). [[w.dallek-flawed-giant]], 442 (the confirmation delayed to Aug. 30 by Ervin, McClellan and Russell; the vote 69 to 11; not "the first Negro on the Court"). See [[cal.1967-06-13.court]]. Names: Marshall.'
+    src:
+      c: 07b903ab
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cecilia-marshall-august-31-1967: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1: all'
+        - 'w.dallek-flawed-giant 442: ?'
+        - 'https://voteview.com/rollcall/RS0900176: A'
     tags: [name:marshall-thurgood]
     time_range:
       - 1967-08-30T16:00Z
@@ -3533,7 +3715,13 @@ entries:
     thread: democratic-party
     also: [elections-1968]
     c: 'The California Democratic Council''s money pays the first full-time staff of the Concerned Democrats: Curtis Gans, from Americans for Democratic Action. By September Gans and Lowenstein a team: Gans the lists, Lowenstein a public meeting, a private meeting of leaders and a university meeting in each State.'
-    n: '[[w.white-making-of-the-president-1969]], 73; [[w.debenedetti-american-ordeal]], 201 (Gans leaves ADA for the Conference of Concerned Democrats, Lowenstein''s funding). Check: the day. See [[cal.1967-08-05.democratic-party]]. Names: Gans, Lowenstein.'
+    n: '[[w.white-making-of-the-president-1969]], 73; [[w.debenedetti-american-ordeal]], 201 (Gans leaves ADA for the Conference of Concerned Democrats, Lowenstein''s funding); [[w.cq-weekly-report]], June 21, 1968, 1537 (Gans, a former official of Americans for Democratic Action, "in 1967 helped found the Conference of Concerned Democrats"; not the money, Lowenstein, the staff or the day). Check: the day. See [[cal.1967-08-05.democratic-party]]. Names: Gans, Lowenstein.'
+    src:
+      c: 81b021d4
+      rows:
+        - 'w.white-making-of-the-president-1969 73: all'
+        - 'w.debenedetti-american-ordeal 201: ?'
+        - 'w.cq-weekly-report June 21, 1968, 1537: ?'
     tags: [name:gans-curtis, name:lowenstein-allard]
   - id: cal.1967-08.civil-disorders-2
     when: Aug.
@@ -3641,7 +3829,7 @@ entries:
     date: 1967-08
     thread: desegregation-schools
     c: 'Chicago. Redmond''s plan for the schools: racial quotas in the schools along the color line, Negroes bused to outlying schools when one reaches its quota, the faculty integrated, five educational parks. The *Daily News*: "bold, imaginative, even revolutionary." The Coordinating Council: "The thrust of the Redmond-Board Report is racist."'
-    n: '[[w.anderson-confronting-the-color-line]], 334–35. Check: the day. To check: Chicago Sun-Times, 25 August 1967; Chicago Daily News, 25 August 1967 (cited by [[w.anderson-confronting-the-color-line]], 335 n.28); "The Redmond Report and Its Implications," CCCO Education Committee, 8 September 1967, p. 10 (cited by [[w.anderson-confronting-the-color-line]], 335 n.29). See [[cal.1967-01-09.desegregation-schools]].'
+    n: '[[w.anderson-confronting-the-color-line]], 334–35. Check: the day. To check: *Chicago Sun-Times*, 25 August 1967; *Chicago Daily News*, 25 August 1967 (cited by [[w.anderson-confronting-the-color-line]], 335 n.28); "The Redmond Report and Its Implications," CCCO Education Committee, 8 September 1967, p. 10 (cited by [[w.anderson-confronting-the-color-line]], 335 n.29). See [[cal.1967-01-09.desegregation-schools]].'
     src:
       c: e93df776
       rows:
@@ -3710,3 +3898,24 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 434: all'
     tags: [name:gardner-john-w]
+  - id: cal.1967-08.draft
+    when: Aug.
+    date: 1967-08
+    thread: draft
+    also: [robert-kennedy]
+    c: 'Carter Burden, a New York aide, has avoided the draft in 1966 by having a baby. One morning Robert Kennedy, playing with the infant, to Amanda Burden: "Amanda, that was not a good reason to have a baby."'
+    n: '[[w.thomas-robert-kennedy]], 348 (by Amanda Burden''s account). Check: the day. Names: Robert Kennedy.'
+    src:
+      c: 5cc66716
+      rows:
+        - 'w.thomas-robert-kennedy 348: all'
+        - 'via x.undated.amanda-burden-interview-thomas: B'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1967-08.opinion
+    when: Aug.
+    date: 1967-08
+    thread: opinion
+    also: [vietnam]
+    c: 'Gallup, early August: Johnson''s handling of Vietnam, disapprove 54 percent, the highest yet.'
+    n: '[[w.berman-lyndon-johnsons-war]], 60. Check: the release, its day and field dates; Berman names no source; the reading of July 13–18 gives 52 ([[cal.1967-07-30.opinion]]). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]

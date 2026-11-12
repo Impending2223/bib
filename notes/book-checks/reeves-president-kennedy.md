@@ -70,48 +70,80 @@ The coordinator's ruling (Oct. 29, 2026): a lead is only what cannot be placed o
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 3 new entries for this book; no witnesses. Read Nov. 11–12 from the same Drive copy (pp. 173, 181, 243–44 and 471–72 in the text layer; p. 472 off its page image); the copy deleted. The four part-rows still passed over in the table below:
+- 173 the Radziwill christening, June 5, 1961: passed over, a family occasion with nothing of public business on the page (the talk at the parties after it is entered: Nitze, Alsop).
+- 181 Judith Campbell, late June 1961: passed over, private, no public business on the page (Hoover's warning of 1962 is in the calendar).
+- 243–44 the White House gymnasium, Sept. 1961: passed over, the President's exercise, no act or word.
+- 471–72 the fifty-mile hikes, Feb. 1963: entered as three, the White House's craze before the public (Q3, Q4): Kennedy's remark on Salinger, `cal.1963-02.press-and-broadcasting`; Salinger's announcement, `cal.1963-02.defense-3`; Robert Kennedy's fifty miles, `cal.1963-02.defense-4` (each Check: the day and month). The President's own hike at Palm Beach passed over (audit, Nov. 12: with family and friends, nothing before the public, no day). The memorandum to Shoup stays `cal.1963-02.defense`.
+
+The "already in" rows read against the calendar, Nov. 11, 2026 (batch 8; the 64 rows still open after batch 7; the same Drive copy, offsets as above; patch `inbox/2026-11-11-b8-reeves.yaml`). Rulings: cited under ID = the page cited there, its units; Check = a `check` op as well; entered = a new entry; already cited = nothing to add.
+- 29–33: cited under cal.1961-01-19.laos (A, B, D; C and E not stated). 56: not borne out for cal.1961-01-29.economy (Heller takes office); the on-the-record briefing of Jan. 29 entered as cal.1961-01-29.economy-2.
+- 69: Peace Corps cited under cal.1961-03-01.peace-corps (A, B); the cable already cited under cal.1961-03-01.vietnam (69).
+- 74–75: Lippmann lunch cited under cal.1961-03-20.laos (A; Check the day); Rostow's backgrounder entered as cal.1961-03-20.laos-3; Brown's talk entered as cal.1961-03.laos-2 (month only); cal.1961-03-21.laos (Rusk's meeting) not borne out; Mar. 23 already cited (75). Lead: the private "bluff" remark two days after Mar. 23 (75), no day.
+- 76–78: already cited under cal.1961-03-28.berlin-and-vienna; defense message cited under cal.1961-03-28.defense (A; Check the day). 82–83: cited under cal.1961-04-05.cuba (B) and cal.1961-04-11.cuba (A; Check the words and day). 85–86: cited under cal.1961-04-12.space (A) and cal.1961-04-12.cuba (A–C); "catch them" entered as cal.1961-04-12.space-2.
+- 89–95: already cited under cal.1961-04-16.cuba (91), cal.1961-04-19.cuba (93–95), cal.1961-04-19.cuba-3 (94); the call to Robert Kennedy cited under cal.1961-04-17.cuba-bay-of-pigs (C); the 5:15 a.m. call entered as cal.1961-04-17.cuba-bay-of-pigs-3.
+- 115–116: cal.1961-05-16.laos not borne out (no Geneva opening on the page). Lead: Harriman to Nehru (115), no day. 116: cal.1961-04-29.laos not borne out (Rusk's meeting at State; Reeves's is the NSC); the NSC entered as cal.1961-04-29.vietnam; cal.1961-05-11.vietnam cited (116–17, A).
+- 119–120: cited under cal.1961-05-12.vietnam (A) and cal.1961-05-17.europe-and-the-alliance (A); cal.1961-05-16.transition-and-staff already cited (120). 140–142: already cited (cal.1961-01-12, 02-15, 02-17, 05-29.latin-america). 143–144: cited under cal.1961-05-30.middle-east (A).
+- 174, 180–181, 181: cited under cal.1961-06-05.berlin-and-vienna (A, B), cal.1961-06-13.cuba (A), cal.1961-06-15.berlin-and-vienna (A); Acheson asked for a plan entered as cal.1961-06-16.berlin-and-vienna.
+- 194–195, 213: already cited (cal.1961-07-13, 07-19, 07-24, 08-16.berlin-and-vienna). 199: cited under cal.1961-07-25.berlin-and-vienna (A); the pool with Sidey entered as cal.1961-07-25.berlin-and-vienna-2. 220, 221: cited under cal.1961-06.vietnam (A, B). Lead: Steeves's paper (220), "July."
+- 227–228, 228, 235: cited under cal.1961-09-12.africa (A), cal.1961-09-15.testing (A), cal.1961-09-25.testing (A, B). 253–255: cal.1961-10-18.vietnam (A). 258–259: cal.1961-11-11.vietnam (A; Check). 262: cal.1961-12-15.vietnam (A), cal.1961-12-22.vietnam (A, B).
+- 264–265: cal.1961-11-08.cuba (A, C); Nov. 9 already cited. 265–266: cal.1961-10.cuba (A, B). 266: cal.1961-11-16.congress (B), cal.1961-11-16.right-and-the-military (A), cal.1961-11-19.latin-america (A, B). 267: cal.1961-11-30.cuba (A–C).
+- 271–272: cal.1961-11-24.defense not borne out (Reeves's memoranda on the pamphlet are undated; Kaysen and the Hyannis Port meeting not on the page). Lead: Sorensen's, Galbraith's and Schlesinger's memoranda on civil defense, no day. 272–273: cal.1961-12-19.transition-and-staff cited (A; Check the day); cal.1961-12-21.europe-and-the-alliance already cited.
+- 280, 281, 283, 283: cited under cal.1962-01-15.vietnam (A–C), cal.1962-01-18.defense (A–C), cal.1962-01-03.vietnam (F), cal.1962-02-08.vietnam (A, B; Check the day, Feb. 2). Lead: Hilsman's mission of Jan. 18 and his report (281), no day for the report.
+- 288–290: cited under cal.1962-02-27.transition-and-staff (A, B); Mar. 22 already cited. 292: cited under cal.1962-05-07.robert-kennedy (A); the CIA's request of Apr. 4 entered as cal.1962-04-04.robert-kennedy.
+- 307, 309, 310: cited under cal.1962-05-06.laos (A, B; Check the day), cal.1962-05-15.laos (A; Check), cal.1962-05.laos (A, B); May 12 already cited. 312: cal.1962-06-06.defense (A). 334–335: cal.1962-08-13.economy (A–C).
+- 344–345: cal.1962-08-29.missile-crisis (A); Aug. 31 already cited. 352: cal.1962-09-13.missile-crisis (A, B). 354: cal.1962-09-19.missile-crisis (A). 355–359: cal.1962-09-25.mississippi-ole-miss (A); Sept. 27 already cited.
+- 377–378: cited under cal.1962-10-17.missile-crisis-3 (A) and -2 (C, D); Oct. 18 already cited. 384–387: cal.1962-10-19.missile-crisis-2 (A, C, E); Oct. 20 already cited. 429–432: cal.1962-11-06.elections-1962 (A, B, C, E). 432: cal.1962-11-20.civil-rights-the-executive (A, B).
+- 451–454: cal.1963-01-14.program (A–C), cal.1963-01-14.europe-and-the-alliance (A, B). 454–455: cal.1963-01-22.europe-and-the-alliance (B; Check the words). 459: cal.1963-01-24.economy (A). 469–470: cal.1963-04-19.mississippi (A). 492: cal.1963-05-09.alabama-birmingham (A). 496: cal.1963-05-22.vietnam-force-levels (A, B). 501: cal.1963-05-28.mississippi (A–C).
+- 528: cited under cal.1963-06-19.civil-rights-bill (A, B) and cal.1963-06-19.civil-rights-the-executive (B, D); the Rusk–McNamara paper entered as cal.1963-06-19.laos.
+- 533–540: cited under cal.1963-06-23.europe-and-the-alliance (A, B), cal.1963-06-26.europe-and-the-alliance-kennedy-in (A, C, D), cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe (A), cal.1963-07-01.europe-and-the-alliance-kennedy-in-europe (A; Check the day); Check on cal.1963-06-25.europe-and-the-alliance-kennedy-in-europe (the words said in Bonn); June 26 Berlin and June 29 already cited. 545–549: already cited (cal.1963-07-15, 07-25.testing). 552: cal.1963-08-05.testing (A, B), cal.1963-08-09.soviet-union (D, E).
+- Not done: the Source Notes' records under each cited page were not chased (no To check items, no witness files added).
+Where batch 8 stopped: all 64 rows ruled; the patch passes `./bib patch-check` (0 errors; the 12 warnings are the new entries' duplicate flags, each a distinct event on a day that already holds one). Not merged.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; offsets as above, held on the running heads of every page read; p. 208 read off its image too). Every row ruled private, social, personal, minor, staff, remark, health or a draft was read again on its page with its source notes. Patch `inbox/2026-11-06-b6-reeves-president-kennedy.yaml`: 46 new entries, cites on 4 entries (one pending), a Check; witnesses `inbox/witnesses/2026-11-06-b6-reeves-president-kennedy.yaml` (25), edges appended to `sources/witnesses/by-work/reeves-president-kennedy.yaml` ("# b6-reeves-president-kennedy edges"); card made, `w.kennedy-robert-kennedy-in-his` (Reeves's "RFK"). Rows not named below in the re-ruling stand as ruled before (in the calendar, or out of the span). The copy deleted when done.
+
 How the list was made: the candidate list above, every dated or datable event pp. 13–662. For each event not entered, the entries of its day (±3 days) were read in the calendar dump. "Already in as" names the entry that has it. Some were not cited here: the page adds nothing the entry lacks, or the entry is another thread's and stands. "Minor" means only what the brief's rule says: a repetition, private or social trivia, or an operation below the calendar's level. Nothing of a member's or party figure's dated word is "minor": the few left are "lead". Page | date | event | why.
 
 | page | date | event | why |
 |---|---|---|---|
 | 25 | 1960-12-08 | Kennedy meets McNamara; McNamara's letter of conditions a week later | entered as cal.1960-12-08.transition-and-staff-cabinet (second patch); the letter added to cal.1960-12-13.transition-and-staff-cabinet |
-| 26 | 1960-12 | Rusk called to Palm Beach; the leak; the Stevenson call with Rusk present | already in as cal.1960-12-08 and 12-09.transition-and-staff; the leak and the call minor |
+| 26 | 1960-12 | Rusk called to Palm Beach; the leak; the Stevenson call with Rusk present | entered (b6): the Rockefeller money, cal.1960-12-09.transition-and-staff-cabinet; Palm Beach, the *Post*'s leak and the call to Stevenson, cal.1960-12-10.transition-and-staff-cabinet (25–26; Check: the days) |
 | 27 | 1960-12 | Heller to the CEA; Dillon calls Eisenhower; Gore objects to Surrey | Dillon in as cal.1960-12-16.robert-kennedy; Gore's objection entered as cal.1960-12.transition-and-staff-cabinet (second patch) |
-| 29 | 1960-12-15 | Kennedy tells his brother at breakfast he will be Attorney General | already in as cal.1960-12-16.robert-kennedy (the naming); the breakfast minor |
+| 29 | 1960-12-15 | Kennedy tells his brother at breakfast he will be Attorney General | entered (b6): the breakfast, cal.1960-12-15.robert-kennedy (29) |
 | 29–33 | 1961-01-19 | Eisenhower–Kennedy, then the secretaries in the Cabinet Room; Clifford's notes | already in as cal.1961-01-19.laos |
 | 39 | 1961-01-19 | Wofford: "at home" added to the inaugural draft | entered as cal.1961-01-19.civil-rights-the-executive (second patch) |
-| 40–41 | 1961-01-21? | Khrushchev's speech of Jan. 6 sent round the NSC, "Read, mark, learn" | the speech in as cal.1961-01-06.berlin-and-vienna; the memorandum undated, minor |
+| 40–41 | 1961-01-21? | Khrushchev's speech of Jan. 6 sent round the NSC, "Read, mark, learn" | entered (b6): cal.1961-01.transition-and-staff-nsc (40–41; Check: the day; the covering memorandum is the President's instruction, not a transmittal) |
 | 51 | 1961 | Rusk blocks Lansdale's ambassadorship; Nolting chosen | undated |
 | 52 | 1961 | Wheeler on NSAM 22 | undated |
 | 55–56 | 1961-01 | Rayburn breakfast: votes lacking on Rules; the balanced-budget statement O'Brien's price | entered as cal.1961-01.rules (second patch); the Rules fight is in, cal.1961-01-31.rules |
 | 56 | 1961-01-29 | Heller's on-record briefing | already in as cal.1961-01-29.economy and the new 1961-01-26.economy |
 | 59–61 | 1961-02-07 | Hesburgh with Kennedy; Wofford sworn in | entered as cal.1961-02-08.civil-rights-the-executive and 02-08.transition-and-staff (second patch; the day Feb. 8, by Reeves's text) |
 | 61 | 1961-02-08 | Press conference: the New Orleans schools | entered as cal.1961-02-08.defense (second patch; 1961 Pub. Papers 66) |
-| 68 | 1961-02-24 | Bundy's nineteen tasks approved | minor (staff operation) |
+| 68 | 1961-02-24 | Bundy's nineteen tasks approved | cited (b6) under cal.1961-02.defense (68), with a Check: Reeves gives Feb. 24 and Bundy's draft |
 | 69 | 1961-03-01 | cable to Saigon on the Counter-Insurgency Plan; the Peace Corps order | the order already in as cal.1961-03-01.peace-corps; the cable entered as cal.1961-03-01.vietnam (second patch; FRUS 1961–63, I, doc. 16) |
 | 74–75 | 1961-03 | Brown's talk; the Lippmann lunch; the Seventh Fleet; Rostow's backgrounder | already in as cal.1961-03-20, 03-21, 03-23.laos (Mar. 23 cited) |
 | 76–78 | 1961-03-29 | Acheson in the Rose Garden on Cuba; his Berlin memorandum; the defense message | entered as cal.1961-03-28.berlin-and-vienna (second patch); the defense message already in as cal.1961-03-28.defense |
 | 82–83 | 1961-04-05 | Schlesinger's memorandum; Robert Kennedy: keep mouths shut | already in as cal.1961-04-05.cuba and cal.1961-04-11.cuba |
 | 83 | 1961-04-01 | Schlesinger and Handleman; the *New Republic*'s piece killed; Szulc and Dryfoos | entered as cal.1961-04-01.cuba and 04-06.press-and-broadcasting (second patch); the *Times* in as cal.1961-04-07.cuba |
-| 84 | 1961-04-05 | Bundy's "Crisis Commanders" memorandum | minor (staff paper) |
+| 84 | 1961-04-05 | Bundy's "Crisis Commanders" memorandum | entered (b6): cal.1961-04-05.transition-and-staff-nsc (84; Check: the note gives Apr. 4) |
 | 85 | 1961-04-05 | Kennedy with Dulles, Rusk, McNamara; Apr. 8, Bissell told to schedule | already in as cal.1961-04-04.cuba and 04-07.cuba-2 (cited) |
 | 85–86 | 1961-04-12 | Gagarin; "catch them" to Johnson; press conference | already in as cal.1961-04-12.space and 04-12.cuba |
 | 89–95 | 1961-04-14/19 | the landing; the strike cancelled; the midnight meeting; Berle and Schlesinger to Opa-Locka | already in as cal.1961-04-14 to 04-19.cuba (Apr. 16, 19 cited) |
 | 103 | 1961-04 | Kennedy tells Dulles and Bissell they must go | entered as cal.1961-04.cuba-bay-of-pigs (second patch) |
 | 105 | 1961-05-05 | NSC Record of Action on Cuba; Sarit and Diệm reassured | already in as cal.1961-05-05.cuba |
 | 105 | 1961-04/05 | Rusk–Mikoyan talk | undated |
-| 111–112 | 1961-04 | Lemnitzer at the airport; "troops in Laos now" to Sorensen | minor (remarks), undated |
+| 111–112 | 1961-04 | Lemnitzer at the airport; "troops in Laos now" to Sorensen | cited (b6) under cal.1961-04-27.laos (111–112, Lemnitzer and the airfields); the remark to Sorensen entered, cal.1961-04-27.laos-4 |
 | 113 | 1961-05 | McNamara, "eliminate Castro," at the task force | entered as cal.1961-05.cuba-2 (second patch) |
-| 113–114 | 1961-05 | Bundy's offer to resign; his management memorandum | minor (staff) |
+| 113–114 | 1961-05 | Bundy's offer to resign; his management memorandum | entered (b6): the resignation refused, cal.1961-04.transition-and-staff-nsc (113); the memorandum of May 16, cal.1961-05-16.transition-and-staff-nsc (113–114) |
 | 115 | 1961-04 | Mansfield's memorandum on Laos | entered as cal.1961-05-01.laos-2 (second patch; the memorandum of May 1) |
 | 115–116 | 1961-05 | Harriman to Nehru; Geneva | already in as cal.1961-05-16.laos |
 | 116 | 1961-04-29 | NSC on the Vietnam program | already in as cal.1961-04-29.laos and cal.1961-05-11.vietnam (cited) |
 | 117–118 | 1961-05-05 | NSC on British Guiana; Shepard; Johnson asked to go | Shepard in as cal.1961-05-05.space; British Guiana and the troops added to cal.1961-05-05.cuba (second patch; FRUS 1961–63, I, doc. 46) |
 | 119–120 | 1961-05-09 | Johnson leaves with the letter to Diệm; the reply seen May 16 | already in as cal.1961-05-12.vietnam |
 | 120 | 1961-05-17 | Ottawa: Diefenbaker urged on nuclear stationing | already in as cal.1961-05-17.europe-and-the-alliance and 05-16.transition-and-staff (cited, Check) |
-| 120–121 | 1961-05-23 | Johnson's report; Krock's drink and talk; White on Mao | Johnson's report in as cal.1961-05-23.vietnam-johnson-asia; the Krock talk minor (repetition) |
+| 120–121 | 1961-05-23 | Johnson's report; Krock's drink and talk; White on Mao | entered (b6): Kennedy and Krock, cal.1961-05-23.berlin-and-vienna-2 (121); Kennedy to Theodore White on Mao, cal.1961-05.china-4 (121; Check: the day) |
 | 125 | 1961-05 | McNamara's Berlin planning memorandum; 500 more troops | entered as cal.1961-05-05.berlin-and-vienna (second patch; FRUS 1961–63, XIV, doc. 22); the 500 troops a Check on cal.1961-05-05.cuba |
-| 131–132 | 1961-05-19 | Peace Corps advisory council: Belafonte, Eugene Rostow urge a statement | minor (social; below the level) |
+| 131–132 | 1961-05-19 | Peace Corps advisory council: Belafonte, Eugene Rostow urge a statement | entered (b6): cal.1961-05-19.freedom-rides-2 (131–132) |
 | 133 | 1961-05 | Prescott Bush's antisegregation amendment to school aid fails, 61–25 | entered as cal.1961-05-22.school-aid (second patch; Voteview, roll call 44) |
 | 133 | 1961-05 | Robert Kennedy on NBC; May 24 the cooling-off statement | already in as cal.1961-05-24.freedom-rides (cited) |
 | 137–138 | 1961-05 | Robert Kennedy and Bolshakov, through Holeman | already in as cal.1961-05-09.berlin-and-vienna (cited, Check) |
@@ -119,55 +151,55 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 139 | 1961-05-06 | Bourguiba dinner, the moon question | entered as cal.1961-05.space (second patch; the day a Check) |
 | 140–142 | 1961-01-12/05-30 | Trujillo: the arms, Rusk's memoranda, the cable to Dearborn | the cable and the killing already in as cal.1961-05-29 and 05-30.latin-america; the earlier steps entered as cal.1961-01-12, 02-15 and 02-17.latin-america (second patch) |
 | 143–144 | 1961-05-30 | Ben-Gurion at the Waldorf | already in as cal.1961-05-30.middle-east |
-| 152–153 | 1961-06-01 | Harriman at the embassy, "Get us out" | minor (remark) |
+| 152–153 | 1961-06-01 | Harriman at the embassy, "Get us out" | entered (b6): the embassy, cal.1961-06-01.laos-2 (152); Versailles, cal.1961-06-01.berlin-and-vienna (152–153) |
 | 172–173 | 1961-06-04 | Reston at the embassy, "worst thing in my life" | entered as cal.1961-06-04.press-and-broadcasting (second patch) |
-| 173 | 1961-06-05 | to London; Radziwill christening; Alsop | minor (social) |
+| 173 | 1961-06-05 | to London; Radziwill christening; Alsop | entered (b6): Nitze at Wisner's, cal.1961-06-05.berlin-and-vienna-2 (173); Kennedy to Alsop cited under cal.1961-06-05.latin-america (pending, the Thomas reader's); the christening passed over (R18 as amended): family |
 | 174 | 1961-06-05 | Macmillan at Admiralty House | already in as cal.1961-06-05.berlin-and-vienna |
-| 178 | 1961-06-08 | Salinger discloses the back injury | out of the brief (health) |
+| 178 | 1961-06-08 | Salinger discloses the back injury | entered (b6): cal.1961-06-08.transition-and-staff (178): the President's health bears on public business, and the disclosure is the press secretary's |
 | 178–179 | 1961-06-10 | the Soviet aides-mémoire released | entered as cal.1961-06-10.berlin-and-vienna (second patch) |
 | 180 | 1961-05 | Rockefeller to Kennedy on civil defense | entered as cal.1961-05.defense (second patch) |
-| 180 | 1961-06 | memorandum to Bundy on a civil-defense plan | minor (staff) |
+| 180 | 1961-06 | memorandum to Bundy on a civil-defense plan | entered (b6): cal.1961-07-05.defense-2 (180; the note dates the memorandum July 5) |
 | 180–181 | 1961-06-13 | Taylor's report | already in as cal.1961-06-13.cuba |
 | 181 | 1961-06-15 | Khrushchev on television; Acheson asked for a plan | already in as cal.1961-06-15.berlin-and-vienna |
-| 181 | 1961-06-22 | fever; Ikeda | Ikeda in as cal.1961-06-20.transition-and-staff; the fever out of the brief |
+| 181 | 1961-06-22 | fever; Ikeda | entered (b6): the fever and the Ikeda meeting, cal.1961-06-22.transition-and-staff (181; Check: the days); the Campbell meeting passed over: private, no bearing on public business |
 | 182–183 | 1961-06-19 | LeMay named Air Force Chief | entered as cal.1961-06-19.defense (second patch) |
 | 183–184 | 1961-06-29 | the letter to Diệm (200,000); Fulbright, Mansfield and Humphrey read Acheson's report | the NSC with the senators entered as cal.1961-06-29.berlin-and-vienna (second patch; FRUS 1961–63, XIV, doc. 52); the letter to Diệm entered as cal.1961-06-29.vietnam (second patch) |
-| 189 | 1961-06-29 | memoranda to Dutton on Negro unemployment | minor (staff) |
+| 189 | 1961-06-29 | memoranda to Dutton on Negro unemployment | entered (b6): to Dutton, cal.1961-06-29.jobs-and-wages; to Bundy on the Arab letters, cal.1961-06-29.middle-east (189) |
 | 189 | 1961-06/07 | *Newsweek*'s JCS leak; Hoover's agents to the Pentagon | entered as cal.1961-06.press-and-broadcasting (second patch) |
 | 194–195 | 1961-07-17 | Sorensen's and Schlesinger's memoranda on Berlin | already in as cal.1961-07-13 and 07-24.berlin-and-vienna (cited) |
 | 197–198 | 1961-07-21/24 | the Berlin surtax killed | already in as cal.1961-07-24.berlin-and-vienna (cited, Check) |
-| 198 | 1961-07 | Rusk to Dowling; July 24 to Macmillan | minor (cables of an event in) |
+| 198 | 1961-07 | Rusk to Dowling; July 24 to Macmillan | entered (b6): Rusk to Dowling, cal.1961-07-22.berlin-and-vienna; Kennedy to Macmillan, cal.1961-07-20.berlin-and-vienna-2 (198; Check: the day) |
 | 199 | 1961-07-25 | the Berlin address | already in as cal.1961-07-25.berlin-and-vienna |
 | 203–205 | 1961-07-26/31 | McCloy with Khrushchev; McCloy reports | entered as cal.1961-07-26.berlin-and-vienna (second patch; FRUS 1961–63, XIV, doc. 85) |
 | 205–206 | 1961-08-07/10 | Khrushchev on television; the press conference on refugees | entered as cal.1961-08-07.berlin-and-vienna, 08-09.berlin-and-vienna (Dowling and Lightner) and 08-09.soviet-union (second patch) |
-| 207–208 | 1961-08 | Rostow, "Perhaps a wall" | minor (remark), undated |
+| 207–208 | 1961-08 | Rostow, "Perhaps a wall" | entered (b6): cal.1961-08.berlin-and-vienna-5 (208; Check: the day) |
 | 213 | 1961-08-15 | Dulles's report; cables | already in as cal.1961-08-14 and 08-16.berlin-and-vienna (cited) |
 | 214 | 1961-08-17/18 | Clay and Johnson to Berlin; the battle group ordered | already in as cal.1961-08-19.berlin-and-vienna (cited) |
 | 220 | 1961-06/07 | the Staley mission; Steeves's paper | already in as cal.1961-06.vietnam |
 | 220–221 | 1961-07-28 | Southeast Asia meeting: three strategies | entered as cal.1961-07-28.laos (second patch; FRUS 1961–63, I, doc. 109) |
 | 221 | 1961-08-11 | Staley's recommendations endorsed | already in as cal.1961-06.vietnam (approved in August) |
 | 221 | 1961-08-29 | Southeast Asia meeting: the Meo, the trainers | entered as cal.1961-08-29.laos (second patch; FRUS 1961–63, XXIV, docs. 172–73) |
-| 221 | 1961-08-31 | note to McNamara on the forces | minor (staff) |
+| 221 | 1961-08-31 | note to McNamara on the forces | entered (b6): cal.1961-08-31.defense-3 (221) |
 | 222–223 | 1961-08 | Taylor's "Guidance for Berlin Contingency Planning" | entered as cal.1961-08-17.berlin-and-vienna (second patch) |
 | 224 | 1961-08 | letter to Macmillan on testing | entered as cal.1961-08-03.testing (second patch; FRUS 1961–63, VII, doc. 50) |
-| 225 | 1961-09-02 | Reston at Hyannis Port | minor (repetition) |
+| 225 | 1961-09-02 | Reston at Hyannis Port | entered (b6): cal.1961-09-02.press-and-broadcasting (225; Check: the day): the interview and the exchange, not found in the calendar |
 | 227–228 | 1961-09-12 | Sukarno and Keita | already in as cal.1961-09-12.africa |
 | 228 | 1961-09-15 | the first underground test | already in as cal.1961-09-15.testing |
 | 229–230 | 1961-09-13/14 | Lemnitzer's SIOP-62 briefing | entered as cal.1961-09-13.defense (second patch) |
-| 229 | 1961-09 | McNamara's backgrounder: American superiority | minor (repetition of the Gilpatric speech) |
+| 229 | 1961-09 | McNamara's backgrounder: American superiority | entered (b6): cal.1961-08-02.defense (229; Check: the day, by the note's dispatch of Aug. 2) |
 | 231 | 1961 | Adzhubei and Gagarin at the White House | lead: Reeves dates it August 1961; Adzhubei saw Kennedy Nov. 25, 1961 (cal.1961-11-25.berlin-and-vienna) and Jan. 30, 1962 (cal.1962-01-30.soviet-union); which meeting, not verified. Gagarin at the White House: not verified |
 | 232 | 1961-09-18 | Norstad; *Life*'s fallout issue; letters to the governors | *Life* entered as cal.1961-09-15.defense; the letter to the governors as cal.1961-10-06.defense (1961 Pub. Papers 648, dated Oct. 6); NSAM 88 as cal.1961-09-05.latin-america (second patch) |
 | 234 | 1961-09-22 | Salinger, Bolshakov and Kharlamov at the Carlyle | entered as cal.1961-09.berlin-and-vienna (second patch; the day a Check) |
 | 235 | 1961-09-25 | the UN address | already in as cal.1961-09-25.testing |
 | 240–241 | 1961-10-09/11 | the Chiefs; Farm Gate; the Taylor mission | already in as cal.1961-10-11.vietnam (cited) |
-| 243–244 | 1961-09 | Kraus; the gymnasium | out of the brief (health) |
+| 243–244 | 1961-09 | Kraus; the gymnasium | entered (b6): Kraus's examination, cal.1961-09.transition-and-staff-3 (243; Check: the day); the gymnasium passed over: the President's exercise, no act |
 | 253–255 | 1961-10-17/11-01 | the Taylor mission's cables | already in as cal.1961-10-18.vietnam and 11-03.vietnam (cited) |
 | 257 | 1961-11-07 | Ball: 300,000 men | entered as cal.1961-11-07.vietnam (second patch) |
 | 257 | 1961-11 | Eisenhower's speeches on Cuba and Vietnam | entered as cal.1961-11.republican-party (second patch) |
 | 257–258 | 1961-11-08 | press conference; Mae Craig | entered as cal.1961-11-08.japan (second patch; 1961 Pub. Papers 701) |
 | 258–259 | 1961-11-11 | the Rusk–McNamara paper; Harriman; Rostow | already in as cal.1961-11-11.vietnam (cited) |
 | 260–261 | 1961-11-21 | Galbraith's cable; Rostow, Nov. 24 | entered as cal.1961-11-21.vietnam and 11-24.vietnam (second patch; FRUS 1961–63, I, doc. 274) |
-| 261 | 1961-12 | Rusk to the NATO ministers | minor (remark) |
+| 261 | 1961-12 | Rusk to the NATO ministers | entered (b6): cal.1961-12.vietnam (261; Check: the day) |
 | 262 | 1961-12-15 | the published letters; the helicopter companies; Davis killed Dec. 22 | already in as cal.1961-12-15.vietnam and 12-22.vietnam (Davis) |
 | 264–265 | 1961-11-08/09 | Szulc with Robert Kennedy and the President | already in as cal.1961-11-08 and 11-09.cuba (Nov. 9 cited) |
 | 265–266 | 1961-10-05 | NSAM 100; the CIA's paper on Cuba | already in as cal.1961-10.cuba |
@@ -175,19 +207,19 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 267 | 1961-11-30 | Mongoose; Lansdale | already in as cal.1961-11-30.cuba |
 | 268–269 | 1961-12 | police academies; Frondizi at Palm Beach | Frondizi entered as cal.1961-12-24.latin-america (second patch; FRUS 1961–63, XII, doc. 127); the police academies as cal.1961-09-05.latin-america |
 | 270 | 1961-11-22 | the Civil Rights Commission on the housing order; "stroke of the pen" | already in as cal.1961-11-23.civil-rights-the-executive (cited) |
-| 270–271 | 1961-11/12 | Sorensen and Lee White's options; the National Guard | minor (staff) |
+| 270–271 | 1961-11/12 | Sorensen and Lee White's options; the National Guard | entered (b6): Lee White's options, cal.1961-11-13.civil-rights-the-executive (270); Runge on the National Guard, cal.1961-10-26.civil-rights-the-executive (270–271) |
 | 271 | 1961-10/11 | Dealey at the publishers' lunch | entered as cal.1961-11.press-and-broadcasting (second patch) |
 | 271–272 | 1961-11/12 | the fallout pamphlet | already in as cal.1961-11-24.defense |
 | 272–273 | 1961-12-19/22 | Joseph Kennedy's stroke; Bermuda | already in as cal.1961-12-19.transition-and-staff and 12-21.europe-and-the-alliance (cited) |
 | 275–277 | 1962-01-11/18 | State of the Union; the meetings with Democratic members | the address in as cal.1962-01-11.program; the meetings entered as cal.1962-01-17.democratic-party (second patch) |
-| 278 | 1961-12? | the historians; David Donald | minor (social) |
+| 278 | 1961-12? | the historians; David Donald | entered (b6): the address to the historians, cal.1961-12.transition-and-staff-2 (278; Check: the day); the question to David Donald undated: a lead |
 | 280 | 1962-01-15 | press conference, "No" | already in as cal.1962-01-15.vietnam |
 | 281 | 1962-01-18 | NSAM 124; Hilsman to Vietnam | already in as cal.1962-01-18.defense |
 | 282 | 1962-01-21 | Bình Hòa; "How can things like this go on" | entered as cal.1962-01-21.vietnam (second patch) |
 | 282 | 1962-01 | Mecklin; press policy | entered as cal.1962-01.press-and-broadcasting (second patch) |
 | 283 | 1962-01-03 | defoliation approved; the first sorties | already in as cal.1962-01-03.vietnam (Selverstone) |
 | 283 | 1962-02 | MACV, Harkins | already in as cal.1962-02-08.vietnam |
-| 286 | 1962-02-20 | Glenn; the congressional leaders at 9 a.m. | Glenn in as cal.1962-02-20.space; the leaders' breakfast minor (weekly) |
+| 286 | 1962-02-20 | Glenn; the congressional leaders at 9 a.m. | entered (b6): cal.1962-02-20.congress (286) |
 | 288–290 | 1962-02-27/03-22 | Hoover's memorandum; the lunch; Campbell | already in as cal.1962-02-27 and 03-22.transition-and-staff (Mar. 22 cited) |
 | 292 | 1962-04/05 | the CIA on Giancana; Houston briefs Robert Kennedy | already in as cal.1962-05-07.robert-kennedy |
 | 303–304 | 1962-04-30 | the Chamber of Commerce speech; the *Herald Tribune* cancelled | the speech entered as cal.1962-04-30.economy (second patch); the *Herald Tribune* cancelled: lead (no date in the book) |
@@ -200,7 +232,7 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 311 | 1962-05-15/17 | de Gaulle's press conference; Kennedy on testing | de Gaulle entered as cal.1962-05-15.europe-and-the-alliance-france (second patch); Reeves's "we test and test" is the news conference of Mar. 21, 1963, added to cal.1963-03-21.cuba with a Check |
 | 312 | 1962-06-06 | West Point | already in as cal.1962-06-06.defense |
 | 314–315 | 1962-05-19 | the Madison Square Garden gala | entered as cal.1962-05-19.democratic-party (second patch) |
-| 316 | 1962-05 | Haddad to the editors | out of the brief (private) |
+| 316 | 1962-05 | Haddad to the editors | entered (b6): cal.1962-05.press-and-broadcasting-4 (316; Check: the day): an officeholder sent to the editors |
 | 323–325 | 1962-06-08 | the Massachusetts convention for Edward Kennedy; the *Globe* | the convention entered as cal.1962-06-08.elections-1962; the *Globe* story as cal.1962-03-30.elections-1962 (second patch) |
 | 326 | 1962-06-27 | press conference: school prayer; the coalition since 1938 | entered as cal.1962-06-27.court (second patch; 1962 Pub. Papers 509) |
 | 327 | 1962-07-05 | press conference: the housing order | entered as cal.1962-07-05.civil-rights-the-executive (second patch) |
@@ -212,7 +244,7 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 343–344 | 1962-08-27/29 | Capehart: invade; the press conference | Capehart entered as cal.1962-08-27.republican-party-congress; the answer added to cal.1962-08-29.conservation (second patch) |
 | 344–345 | 1962-08-29/31 | the U-2's photographs; Keating; "Those CIA bastards" | already in as cal.1962-08-29 and 08-31.missile-crisis (Aug. 31 cited) |
 | 346–347 | 1962-09 | Bolshakov in the Oval Office | already in as cal.1962-09-06.soviet-union (cited) |
-| 348 | 1962-09 | Newport; Bradlee | out of the brief (private) |
+| 348 | 1962-09 | Newport; Bradlee | entered (b6): cal.1962-09.press-and-broadcasting (348; Check: the day): the press's terms with the President |
 | 351 | 1962-09-09 | Frost at Idlewild | already in as cal.1962-09-07.soviet-union (cited) |
 | 352 | 1962-09-13 | Bundy's memorandum; press conference; the reserves | already in as cal.1962-09-13.missile-crisis |
 | 353 | 1962-09-17 | Griffiths's letter: no civil rights before the election | entered as cal.1962-09-18.civil-rights-the-executive (second patch; the letter's date) |
@@ -220,10 +252,10 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 354–355 | 1962-09-22 | the Emancipation centennial recording | entered as cal.1962-09-22.civil-rights-the-executive (second patch) |
 | 355–359 | 1962-09-25/29 | Ole Miss; the calls to Barnett | already in as cal.1962-09-25.mississippi-ole-miss and following, cal.1962-09-27.mississippi (cited) |
 | 357 | 1962 | Hannah and Bernhard; Louis Martin | undated |
-| 364–365 | 1962-10-03/04 | Harris's polls; the blockade's preparation; McNamara on the SA-2s | Harris entered as cal.1962-10-04.elections-1962 (second patch); the blockade's preparation and the SA-2 memorandum: minor (staff papers of an event in) |
+| 364–365 | 1962-10-03/04 | Harris's polls; the blockade's preparation; McNamara on the SA-2s | Harris entered before; the blockade's preparation, cal.1962-10-01.missile-crisis, and the SA-2 memorandum, cal.1962-10-04.missile-crisis-2, entered (b6) (365, 367 n.) |
 | 365–366 | 1962-10-04/07 | Robert Kennedy and Bolshakov; Bartlett and Bolshakov | entered as cal.1962-10-04.soviet-union and 10-07.soviet-union (second patch) |
-| 367 | 1962-10-08/10 | McNamara's contingencies; Keating, Oct. 10 | Keating already in as cal.1962-10-10.missile-crisis: its primary record (108 Cong. Rec. 22957, read) and Reeves added (second patch); McNamara's contingencies: minor (staff paper) |
-| 367 | 1962-10-12 | Reston's column, from Bundy | minor (a column without an act) |
+| 367 | 1962-10-08/10 | McNamara's contingencies; Keating, Oct. 10 | Keating as before; McNamara's contingencies entered (b6), cal.1962-10-08.missile-crisis (367) |
+| 367 | 1962-10-12 | Reston's column, from Bundy | entered (b6): Kennedy and Bundy to Reston, cal.1962-10-11.missile-crisis (Check: the day); the column, cal.1962-10-12.press-and-broadcasting (367) |
 | 368 | 1962-10-14 | Indianapolis, for Bayh against Capehart | entered as cal.1962-10-13.elections-1962 (second patch; the Papers date it Oct. 13) |
 | 377–378 | 1962-10-17 | McCone; Acheson; Waterbury with Ribicoff | already in as cal.1962-10-16 and 10-18.missile-crisis (cited) |
 | 384–387 | 1962-10-19/20 | the Chiefs; Cleveland; Chicago and Daley's captains | already in as cal.1962-10-19.missile-crisis-2 and 10-20.missile-crisis (cited) |
@@ -231,7 +263,7 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 429–432 | 1962-11-06 | the elections | already in as cal.1962-11-06.elections-1962 |
 | 432 | 1962-11-20 | the housing order | already in as cal.1962-11-20.civil-rights-the-executive |
 | 433–435 | 1962-11-10 | Mrs. Roosevelt's funeral; Gore against the tax cut | entered as cal.1962-11-10.economy (second patch) |
-| 435 | 1962-11 | Sorensen on the Rockefeller Foundation; Gilpatric on Rockefeller | the Justice check entered as cal.1962-11.elections-1964 (second patch); the Army-Navy game talk with Gilpatric: minor (private talk) |
+| 435 | 1962-11 | Sorensen on the Rockefeller Foundation; Gilpatric on Rockefeller | the Justice check as before; the talk with Gilpatric at the Army-Navy game entered (b6), cal.1962-11-26.elections-1964 (435) |
 | 436–438 | 1962-12-16 | "After Two Years," the television conversation | already in as cal.1962-12-17.press-and-broadcasting (cited) |
 | 438–440 | 1962-12-16/21 | Nassau | already in as cal.1962-12-18.europe-and-the-alliance (cited) and 12-19.testing |
 | 439–440 | 1962-11 | Cousins briefed; Cousins and Khrushchev | entered as cal.1962-11.testing (second patch) |
@@ -243,7 +275,7 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 451–454 | 1963-01-14 | State of the Union; de Gaulle | already in as cal.1963-01-14.program and 01-14.europe-and-the-alliance |
 | 454 | 1963 | Pell; Eisenhower, "fiscal recklessness"; Truman | entered as cal.1963-01.republican-party (Eisenhower), cal.1963-01.economy (Truman), cal.1963-02.congress (Pell) (second patch) |
 | 454–455 | 1963-01-22 | the NSC on de Gaulle | already in as cal.1963-01-22.europe-and-the-alliance |
-| 455 | 1963-01-29 | Frost dies; the statement | minor (a statement on a death) |
+| 455 | 1963-01-29 | Frost dies; the statement | entered (b6): cal.1963-01-29.transition-and-staff, the Public Papers' item (Jan. 29) its record; Check: Reeves gives Jan. 23 |
 | 455–457 | 1963-01-24 | press conference: MFN, the Jupiters | entered as cal.1963-01-24.trade (second patch; 1963 Pub. Papers 92) |
 | 457–458 | 1963-01 | the budget; Eisenhower's *Post* article | the budget in as cal.1963-01-17.economy; Eisenhower's "nuts" and his *Post* article: lead (no date in the book) |
 | 459 | 1963-01-24 | the tax message | already in as cal.1963-01-24.economy |
@@ -252,9 +284,9 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 462 | 1963-01-28/31 | "Questions to be settled"; Louis Martin's memorandum | Martin in as the new cal.1963-01-30.civil-rights-the-executive |
 | 465–466 | 1963-03 | press conference on the judges; Katzenbach | the answer added to cal.1963-03-06.economy; the call entered as cal.1963-03-07.civil-rights-the-executive; Rockefeller as cal.1963-02-12.republican-party; the dinner as cal.1963-02-13.elections-1964 (second patch) |
 | 467 | 1963 | Ervin's bill to cut Bernhard's pay | lead: no date in the book |
-| 468 | 1963-02-28 | the voting message; Humphrey asked to stop talking | the message in as cal.1963-02-28.voting-rights; Humphrey: minor (remark) |
+| 468 | 1963-02-28 | the voting message; Humphrey asked to stop talking | Humphrey entered (b6): cal.1963-02.civil-rights-bill (468; Check: the day) |
 | 469–470 | 1963-04 | the Commission's Mississippi report; the backgrounder | already in as cal.1963-04-19.mississippi |
-| 471–472 | 1963-02 | the fifty-mile hikes | out of the brief |
+| 471–472 | 1963-02 | the fifty-mile hikes | entered (b6): Kennedy's memorandum to Shoup, cal.1963-02.defense (471; Check: the day); the hikes themselves passed over: no act of government beyond the memorandum |
 | 472 | 1963-03-06/21 | press conferences | already in as cal.1963-03-06.economy and 03-21.cuba |
 | 473 | 1963-04 | the Standing Group on Cuba | entered as cal.1963-04-16.cuba and 07-09.cuba (second patch; FRUS 1961–63, XI, docs. 316, 354) |
 | 476–477 | 1963-04 | Cousins with Kennedy on the test ban | entered as cal.1963-04.testing (second patch) |
@@ -264,13 +296,13 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 484 | 1963-04-24 | press conference; the last Jupiter; Bartlett | the Jupiter in as cal.1963-04-25.europe-and-the-alliance-jupiters; the news conference entered as cal.1963-04-24.laos (second patch); Bartlett's drink: lead (no date) |
 | 485–490 | 1963-05-02/10 | Birmingham; ADA's officers; Eugene Rostow to Blough | already in as cal.1963-05-04.alabama-birmingham and 05-10.alabama (cited) |
 | 490–491 | 1963-05-08 | press conference; Griswold | the news conference in as cal.1963-05-08.middle-east; Griswold entered as cal.1963-05.civil-rights-the-executive (second patch) |
-| 491 | 1963-05-09 | the cable after Huế | minor (a cable of an event in) |
+| 491 | 1963-05-09 | the cable after Huế | entered (b6): cal.1963-05-09.vietnam, FRUS 1961–63, III, doc. 115, its record (491) |
 | 492 | 1963 | the Gridiron; Philadelphia for Tate | undated |
 | 492 | 1963-05 | the bail fund | already in as cal.1963-05-09.alabama-birmingham |
 | 496 | 1963-05-22 | press conference: withdrawal | already in as cal.1963-05-22.vietnam-force-levels (Selverstone) |
 | 497–499 | 1963-05 | Baldwin; Connor out; Allgood and Tuttle | Baldwin in as cal.1963-05-24.civil-rights-the-executive; the court rulings in as cal.1963-05-23.alabama-birmingham |
 | 499–500 | 1963-05 | Ellender; Reedy's memorandum | Reedy in as cal.1963-05-24.civil-rights-bill; Ellender entered as cal.1963-05.civil-rights-bill (second patch) |
-| 500 | 1963-05 | Air Force guidance on airmen | minor (below the level) |
+| 500 | 1963-05 | Air Force guidance on airmen | entered (b6): cal.1963-05.civil-rights-the-executive-7 (500; Check: the day) |
 | 501 | 1963-05-28 | the Jackson Woolworth sit-in | already in as cal.1963-05-28.mississippi |
 | 502–503 | 1963-06 | the calls to Mayor Thompson and Governor Jimmie Davis | Thompson in as cal.1963-06-18.mississippi; Davis entered as cal.1963-06-03.civil-rights-the-executive (second patch; PRDE) |
 | 509–513 | 1963-06-08/10 | the American University drafts; Cousins | already in as cal.1963-06-10.testing (cited) |
@@ -287,8 +319,8 @@ How the list was made: the candidate list above, every dated or datable event pp
 | 555 | 1963-08 | Teller; Fulbright's call; McNamara | already in as cal.1963-08-20.testing (cited) |
 | 558–559 | 1963-08-22 | Lodge arrives; the House cuts aid | already in as cal.1963-08-23.foreign-aid (cited, Check) |
 | 560 | 1963-08 | the Ministers' Vietnam Committee | entered as cal.1963-08.war-opposition (second patch) |
-| 602 | 1963-09 | Sullivan on the McNamara–Taylor mission | minor (staff) |
-| 608 | 1963-09-26 | Lodge brings Honey to McNamara | minor (an operation below the level) |
+| 602 | 1963-09 | Sullivan on the McNamara–Taylor mission | entered (b6): cal.1963-09-21.vietnam-2 (602; Check: the day) |
+| 608 | 1963-09-26 | Lodge brings Honey to McNamara | cited (b6) under cal.1963-09-26.vietnam (608) |
 | 610–611 | 1963-09/10 | McNamara with Vice President Thơ; Sullivan's troop paragraph | already in as cal.1963-10-02.vietnam (cited) |
 | 519 | 1963-06 | the message for Thơ, Trueheart | entered as cal.1963-06-11.vietnam-saigon and 06-13.vietnam-saigon (second patch; FRUS 1961–63, III, docs. 167, 170); Dirksen and Halleck as cal.1963-06-11.republican-party-congress |
 | 625 | 1963-10 | Kennedy to Symington on the tax bill | lead: the day not found (Audiotape 101.4, uncatalogued by PRDE and the Miller Center) |
@@ -303,4 +335,12 @@ How the list was made: the candidate list above, every dated or datable event pp
 
 ## Leads
 
+- National (b6): Kennedy's question to David Donald, invited to the White House, on how a President goes down in history as great (Reeves, 278, from Walt Rostow's interview): undated; look in Donald's papers and the appointments log for the day.
+- National (b6): Andrew Hatcher's press briefing of June 16, 1961 on the President's health (Salinger papers, Box 46, JFK Library; cited by Reeves, 181): an entry when read.
+
 Written into `notes/leads.md`, National, with the pages above: Prescott Bush's amendment to school aid (May 1961, 133); Capehart, Keating and Van Zandt on Cuba before Oct. 1962 (343–44, 367, 404); Griffiths's letter of Sept. 17, 1962 (353); Eisenhower's attacks on the administration's fiscal record and space program, 1963 (454, 457–58); the DNC's galas of May 19, 1962 and Jan. 1963 (314–15, 461); Goldwater on Tito and Madame Nhu, Oct. 1963 (633); Tito's visit, Oct. 1963 (631–34, no thread); the taping system's installation (304); the appointments log as the source for the many meetings dated only by it.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the private 'bluff' remark after Mar. 23, 1961 (75): entered as `cal.1961-03.laos-3` (month only; the page's 'two days later' belongs to the public warning, Check: the day).
+- Lead: Steeves's paper, 'July' (220): passed over, already in (`cal.1961-07.vietnam`, citing 220).
+- Lead: Hilsman's report, January 1962 (281): passed over, no day and no month on the page (the 'Fantastic mobility' report; Hilsman's own book is the source); the mission already cited under `cal.1962-01-18.defense`.

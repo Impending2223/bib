@@ -17,6 +17,14 @@ The dated sentences of the whole text (374) were drawn out by script and read; t
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- pp. 275–76: cited under cal.1961-08-17.berlin-and-vienna-2 (the meeting; '?'; Check: whether it is this meeting, Kennedy's 'Sunday morning'), cal.1961-08-19.berlin-and-vienna (the troops' arrival); Check on cal.1961-08-13.berlin-and-vienna (the Wall 'on a Friday'). Not pinned beyond that, as the row said.
+- p. 368: cited under cal.1962-11-20.civil-rights-the-executive (368–69; the order covered future housing); Martin, not Kennedy, gives the day.
+- Where batch 9 stopped: all this work's rows ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 From the dated passages read; page | date | event | why.
 
 | page | date | event | why |
@@ -50,3 +58,17 @@ None dated in the passages read.
 ## Leads
 
 National: Hoover's meeting with King, Dec. 1, 1964, and Kennedy's account of it (140); the President on Levison to King, June 1963 (142); the first White House meeting with leaders, about June 13, 1963 (182); the press conference of July 17, 1963 (226); Hanson Baldwin's *Times* story on the satellites, 1963 (304); Goldwater's demand for dismissals, late 1962 (363); Johnson's Christmas telegram, Dec. 1963 (406). Foreign: Houphouët-Boigny's visit to the United States, 1962 (275); the Dominican–Haitian dispute, spring 1963 (386); Bosch's fall, Sept. 25, 1963, and Martin's return (387). The Kennedy Library's transcripts (JFKOH-RFK-01 on its site; the others to find) would settle each session's pages.
+
+## Batch 6 (Nov. 6, 2026, run Nov. 10–11; 2026-11-06-b6-robert-kennedy-in-his)
+
+The rows passed over as private remarks, ruled again under R18 as amended Nov. 6, and the Christmas telegram, dated to its month. Patch `inbox/2026-11-06-b6-robert-kennedy-in-his.yaml`: 2 new entries (claimed in the ledger), 1 cite, 1 check, 1 src row. No new witnesses: the passages rest on the sessions already registered (Schlesinger, Feb. 27, 1965; Martin, Feb. 29, 1964; Martin, Mar. 1–May 14, 1964), tied to the units by `via` rows.
+
+The copy: the same Drive file (1EGJ91-4gtWTlZJ9Ctcv5KDwzZ3o1DJAC), by the direct route, 536 PDF pages, offsets as above (− 22 to p. 238, − 38 from p. 240; pp. 26, 46, 262, 406 by their running heads). Deleted at the end.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 26, 46 | Nov. 21, 1963 | the President to Mrs. Kennedy: Johnson "incapable of telling the truth" | entered: cal.1963-11-21.elections-1964-3 (said in private of the Vice President; Kennedy then thinking of McNamara for 1968, by the same account) |
+| 262 | Jan. 1964 | Robert Kennedy telephones Macmillan from London; Macmillan's letter on the President | entered: cal.1964-01.robert-kennedy (Check: the day; the letter's date) |
+| 406 | Dec. 1963 | Johnson's "Christmas" telegram and Kennedy's reply | already in: the telegram is the record of Jan. 1, 1964 (cal.1964-01-01.robert-kennedy), cited (406, A, B) with a Check: Kennedy puts it at Christmas, his reply a Christmas greeting; the reply of record is cal.1964-01-04.robert-kennedy |
+
+The other rows of the table (a month, a day or a record to find) are leads, not this batch's grounds, and stand.

@@ -50,53 +50,61 @@ Also cited, entries already in the calendar the book treats: cal.1963-07-04.civi
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 116: cited under cal.1963-08-28.march-on-washington (units '?'; the 2,500 from Chicago in the parenthetical). The Sun-Times's front-page report and editorial of the march, no day: a lead.
+- pp. 319–23: cited under cal.1967-04-04.king (units B, D, G), cal.1967-04-04.mayors-chicago; entered cal.1967-04-09.king-2 (Sun-Times on Daley's reelection), cal.1967-04-10.king-2 (Daily News editorial), cal.1967-04-13.king (Bunche), the days from Anderson's notes 17, 18, 21 (488). Lead, not entered: King's remarks to the Chicago Freedom Movement's Steering Committee (undated, 'between late March and early May', n.19).
+- Where batch 9 stopped: all this work's rows ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-anderson-confronting; done Nov. 10, 2026). The rows ruled "minor (no act)" are the Coordinating Council's, the Chicago Freedom Movement's and their committees' meetings: strategy sessions and the planning of an organized interest's campaigns (R7, R11), now entries, each dated by the minutes the book rests on (Hogan's for the council, Pitcher's for the agenda committee: 4 n.2; 120 n.51), registered as witnesses one a meeting; with them the other rows ruled "minor" or "private" that the amended rule admits. Read again off the owner's copy (the same Drive file and offsets; the passages read in the text layer). Patch `inbox/2026-11-06-b6-anderson-confronting.yaml`: 39 entries; witnesses `inbox/witnesses/2026-11-06-b6-anderson-confronting.yaml` (34: the meetings' minutes, three named in notes, 177 n.20, 200 n.81, 274 n.10), edges in the by-work file. Still passed over: the repetitions (81, 94), the local papers' editorials and columns (R13's outlets not met), the meetings the source does not say were held (176, 311), the repetition of Aug. 19 (255–56), and the two rows below.
+
 Made from the dated sentences of chs. 3–12 and the passages read; a row each, for the owner's ruling. Several rows below are the Coordinating Council's or the Freedom Movement's internal meetings where the book records discussion and no act; ground given as "minor (no act)", which R18 does not name in so many words: the owner rules.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 81 | 1961-03 | Oglesby School's assembly of Negro pupils; Fuqua's letter to the board | minor: the branch's position of Feb. 1961, repeated |
 | 81 | 1961-03-13 | *Chicago Defender* editorial: the NAACP to court | press: a local editorial (R13's outlets not met) |
-| 88 | 1961-10 | Citizens Schools Committee and the PTA ask a survey; Willis: "we do not need a survey" | minor: repeated in the survey voted Dec. 1961 |
+| 88 | 1961-10 | Citizens Schools Committee and the PTA ask a survey; Willis: "we do not need a survey" | minor: repeated in the survey voted Dec. 1961; re-ruled: entered as cal.1961-10.desegregation-schools-3 (the PTA's call and Willis's answer, R11; Check: the day) |
 | 94 | 1962-09 | Willis to an assembly: "get a copy of Kipling's 'If'" (n.66, *Sun-Times*, Sept. 21, 1962) | minor: a speech repeating his position |
-| 96 | 1963-01 | Willis offers a transfer plan by Jan. 29 if the board wishes; the board declines | minor (no act) |
+| 96 | 1963-01 | Willis offers a transfer plan by Jan. 29 if the board wishes; the board declines | minor (no act); re-ruled: entered as cal.1962-12.desegregation-schools-2 (dated by n.76, the *Daily News* of Dec. 28, 1962; Check: the day, and the board's answer) |
 | 112 | 1963-07 | the *Sun-Times* and *Daily News* on the NAACP's Chicago march against the March on Washington | press: local editorials |
 | 116 | 1963-08-28 | March on Washington, 2,500 from Chicago | already in the calendar; not cited (a summary) |
-| 121 | 1963-11 | the State Street Council invites Brazier, refused | minor (no act) |
+| 121 | 1963-11 | the State Street Council invites Brazier, refused | minor (no act); re-ruled: entered as cal.1963-11.civil-rights-organizations (an exchange of an organized interest with the movement's convenor; Check: the day) |
 | 138 | 1964-06 | *Chicago Daily News* editorial against Willis and Whiston | press: local editorial |
-| 139 | 1964-07-11 | Coordinating Council: Weinberg on the Willis-Whiston plan | minor (no act) |
-| 140 | 1964-07-08 | organizing meeting of fifty organizations; Robinson back from the Republican platform hearings | minor (no act) |
-| 142 | 1964-08 | Willis's proviso on paid transportation | minor: a detail of the plan |
-| 151 | 1965-02-27 | Coordinating Council resolves to rebuild the coalition | minor (no act) |
-| 153 | 1965-04-24 | the council's $800 deficit reported | minor: folded into Apr. 16 |
-| 154 | 1965-06-01 | the council plans the boycott and march | minor (no act) |
-| 158 | 1965-06-17 | expanded meeting on civil disobedience | minor (no act) |
-| 161 | 1965-07-28 | strategy recalled from May 28 | minor (no act) |
+| 139 | 1964-07-11 | Coordinating Council: Weinberg on the Willis-Whiston plan | minor (no act); re-ruled: entered as cal.1964-07-11.civil-rights-organizations (a strategy session, R7, R11) |
+| 140 | 1964-07-08 | organizing meeting of fifty organizations; Robinson back from the Republican platform hearings | minor (no act); re-ruled: entered as cal.1964-07-08.civil-rights-organizations |
+| 142 | 1964-08 | Willis's proviso on paid transportation | minor: a detail of the plan; re-ruled: entered as cal.1964-08.desegregation-schools-2 (with Whiston's order to the Friends of the Chicago Schools; Check: the day) |
+| 151 | 1965-02-27 | Coordinating Council resolves to rebuild the coalition | minor (no act); re-ruled: entered as cal.1965-02-27.civil-rights-organizations |
+| 153 | 1965-04-24 | the council's $800 deficit reported | minor: folded into Apr. 16; re-ruled: entered as cal.1965-04-24.civil-rights-organizations |
+| 154 | 1965-06-01 | the council plans the boycott and march | minor (no act); re-ruled: entered as cal.1965-06-01.desegregation-schools |
+| 158 | 1965-06-17 | expanded meeting on civil disobedience | minor (no act); re-ruled: entered as cal.1965-06-17.civil-rights-organizations |
+| 161 | 1965-07-28 | strategy recalled from May 28 | minor (no act); re-ruled, still passed over: not borne out as an event of the day; the page's "by the end of July" is the authors' measure of the strategy of May 28, no meeting or act on July 28 |
 | 162 | 1965-08 | Kupcinet's column on a split | press: local column |
-| 163 | 1965-08-10 | the marchers dwindle; the *Daily News* prints the Urban League's map | minor; press local |
-| 174–77 | 1965-09-02, 09-06 | Coordinating Council and steering committee on the Fall Freedom Program | minor (no act) |
+| 163 | 1965-08-10 | the marchers dwindle; the *Daily News* prints the Urban League's map | minor; press local; re-ruled, still passed over: the dwindling of the marches is no act of the day; the *Daily News*'s map, a local paper (R13's outlets not met), as ruled |
+| 174–77 | 1965-09-02, 09-06 | Coordinating Council and steering committee on the Fall Freedom Program | minor (no act); re-ruled: entered as cal.1965-09-02.civil-rights-organizations (175) and cal.1965-09-06.civil-rights-organizations (177) |
 | 176 | 1965-09-08 | joint SCLC–Coordinating Council staff retreat, "scheduled" | the source does not say it was held |
-| 180 | 1965-10-02 | Coordinating Council: Weinberg on HEW | minor (no act) |
-| 185 | 1965-11-02 | Bevel's report to the delegates | minor (no act) |
-| 191 | 1966-04 | the owner of 1321 South Homan dies | minor (private) |
-| 192 | 1966-04-02, 04-09, 04-23 | Coordinating Council on the Freedom Festival's money | minor (no act) |
-| 200 | 1966-06-29 | the rally's planning committee | minor (no act) |
+| 180 | 1965-10-02 | Coordinating Council: Weinberg on HEW | minor (no act); re-ruled: entered as cal.1965-10-02.civil-rights-organizations |
+| 185 | 1965-11-02 | Bevel's report to the delegates | minor (no act); re-ruled: entered as cal.1965-11-02.civil-rights-organizations |
+| 191 | 1966-04 | the owner of 1321 South Homan dies | minor (private); re-ruled: the owner's death not borne out on p. 191 (the page gives the building the only income of an eighty-one-year-old invalid and its owner Bender's words; n.62 cites the *Daily News* of Feb. 25 and the *Sun-Times* of Apr. 28, 1966); Bender's word entered as cal.1966-02.open-housing-6 (a party to the event, R12; Check: the day) |
+| 192 | 1966-04-02, 04-09, 04-23 | Coordinating Council on the Freedom Festival's money | minor (no act); re-ruled: entered as cal.1966-04-02.civil-rights-organizations, cal.1966-04-09.civil-rights-organizations and cal.1966-04-23.civil-rights-organizations (192–93) |
+| 200 | 1966-06-29 | the rally's planning committee | minor (no act); re-ruled: entered as cal.1966-06-29.open-housing-2 |
 | 209 | 1966-07-12 | *Sun-Times* editorial on King's demands | press: local editorial |
-| 215–21 | 1966-07-16, 07-22, 07-28 | agenda committee meetings | minor (no act) |
+| 215–21 | 1966-07-16, 07-22, 07-28 | agenda committee meetings | minor (no act); re-ruled: entered as cal.1966-07-16.open-housing-3, cal.1966-07-22.open-housing and cal.1966-07-28.open-housing-3 |
 | 229 | 1966-08 | "End the Marches" editorials, *Tribune* and *Daily News* | press: local editorials |
-| 230 | 1966-08-09 | the action committee's late meeting; Bevel and Jackson against the postponement | minor (no act) |
-| 232 | 1966-08-11 | Raby and Berry fly to Jackson to see King | minor: a journey to a meeting the book does not tell |
+| 230 | 1966-08-09 | the action committee's late meeting; Bevel and Jackson against the postponement | minor (no act); re-ruled: entered as cal.1966-08-09.open-housing-4 |
+| 232 | 1966-08-11 | Raby and Berry fly to Jackson to see King | minor: a journey to a meeting the book does not tell; re-ruled: entered as cal.1966-08-11.open-housing (a trip, R15) |
 | 255–56 | 1966-08-18 | agenda committee; mass meeting, Raby announces the testing | repetition of the Aug. 19 entry |
-| 274 | 1966-08-30 | action committee: the agreement "very bad" | minor (no act) |
-| 278–81 | 1966-09-15, 09-29 | agenda committee | minor (no act) |
-| 287–89 | 1966-10-06, 10-27, 11-08 | agenda and steering committees | minor (no act) |
-| 293 | 1966-11-10 | steering committee on partisan activity | minor (no act) |
-| 296 | 1966-11-19 | Coordinating Council's reports | minor (no act) |
-| 304–6 | 1966-12-08, 12-13, 12-15 | steering committee | minor (no act) |
-| 311–12 | 1967-01-03, 01-07 | steering committee; the delegates without a quorum | minor (no act) |
+| 274 | 1966-08-30 | action committee: the agreement "very bad" | minor (no act); re-ruled: entered as cal.1966-08-30.open-housing |
+| 278–81 | 1966-09-15, 09-29 | agenda committee | minor (no act); re-ruled: entered as cal.1966-09-15.open-housing and cal.1966-09-29.open-housing-2 |
+| 287–89 | 1966-10-06, 10-27, 11-08 | agenda and steering committees | minor (no act); re-ruled: entered as cal.1966-10-06.civil-rights-organizations, cal.1966-10-27.civil-rights-organizations and cal.1966-11-08.civil-rights-organizations |
+| 293 | 1966-11-10 | steering committee on partisan activity | minor (no act); re-ruled: entered as cal.1966-11-10.civil-rights-organizations |
+| 296 | 1966-11-19 | Coordinating Council's reports | minor (no act); re-ruled: entered as cal.1966-11-19.civil-rights-organizations |
+| 304–6 | 1966-12-08, 12-13, 12-15 | steering committee | minor (no act); re-ruled: entered as cal.1966-12-08.civil-rights-organizations (304–06), cal.1966-12-13.civil-rights-organizations (306) and cal.1966-12-15.civil-rights-organizations (307) |
+| 311–12 | 1967-01-03, 01-07 | steering committee; the delegates without a quorum | minor (no act); re-ruled: entered as cal.1967-01-03.civil-rights-organizations and cal.1967-01-07.civil-rights-organizations |
 | 311 | 1967-01-05, 01-13 | the voter rally and Oscar Brown Jr.'s concert, planned | the source does not say they were held |
-| 317–18 | 1967-04-01 | Coordinating Council's meeting | minor (no act) |
+| 317–18 | 1967-04-01 | Coordinating Council's meeting | minor (no act); re-ruled: entered as cal.1967-04-01.civil-rights-organizations |
 | 319–23 | 1967-04-04 | King at Riverside Church | already in the calendar; not cited |
-| 329 | 1967-06-10 | Coordinating Council's finances | minor (no act) |
+| 329 | 1967-06-10 | Coordinating Council's finances | minor (no act); re-ruled: entered as cal.1967-06-10.civil-rights-organizations |
 
 Entries the book dates and treats that I did not write (R5 takes them; for a later run, not passed over): 1962 fall, the board's budget hearings, the Reverend Philip Dripps's testimony (94); 1964-06, the Willis-Whiston permissive transfer plan and the Friends of the Chicago Schools Committee's first session (137–38); 1964-08, the board's vote on the plan, Murray: "it doesn't commit us to anything" (139); 1964-12, the Coordinating Council endorses the Freedom Democrats' challenge (146); 1965-01, Randolph's "crisis of victory," and 1965-08, Bevel's "There is no more civil rights movement" (150); 1965-02, the board's attorney: no contract for Willis before April (151); 1965-03, the Baptist clergy's demonstration at Carson, Pirie & Scott (152); 1965 summer, the United Church of Christ's General Synod delegates set out to join the march (159); 1965 late summer, the board disbands the committee on the Hauser and Havighurst reports (164); 1965-10, King's speech on the Negro family (172); 1966-02, Moyer's AFSC report on the dual housing market (197; claimed by the Ralph reader); 1966-06-01, King on the White House conference, "only on paper" (195); 1966-07, King cancels his speech to CORE's convention (202); 1966-07-31, forty-eight Negro clergymen on black power in the *New York Times* (223); 1966-08-02, twenty-five Gage Park clergy's statement (226); 1966-10, Raby in the *Hyde Park–Kenwood Voices* (290); 1966-11-25, Alderman Keane on the budget (296–97); 1966-12, the Austin group's report to Cody (307); 1967-05, Pierre de Vise's studies (327); 1967-07, 1321 South Homan to be razed (332).
 

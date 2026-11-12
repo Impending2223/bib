@@ -134,7 +134,50 @@ The merger: patch-check flags as "one event?" several pairs that are distinct ev
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, Nov. 10, 2026): no row below is ruled private, social, personal, family, trivia or a draft; the one ruled "minor here: a repetition" (81–82, Apr. 1966) stands, a repetition of events in the calendar. Nothing re-entered; no patch; the copy not downloaded again.
+
 Made from the dated-sentence pass over pp. 1–210 and the pages read in full; a row for each dated event treated and not entered.
+
+The "already in" rows read against the calendar, Nov. 11, 2026 (batch 8; patch `2026-11-11-b8-zaroulis`: 130 cites, 20 variants, 1 check, 1 entry). Copy as above, re-read this batch from the Drive scan; each cited page read off the text layer, the pages with numbers (21, 22, 33, 62, 71, 150, 164, 203) off the image too. The rows below are ruled as the batch 7 test asks (cited under ID; variant on ID; Check on ID; entered as ID; not borne out); a row's rows in the table above stay until the patch is merged.
+
+| page | ruling |
+|---|---|
+| 9–11 | not borne out: founding dates 1915–62, out of the span; not re-read |
+| 13 | cited under cal.1963-10-02.vietnam (B) |
+| 14–16 | cited under cal.1963-10.war-opposition-2 (15), cal.1964-03-04.vietnam (16); McNamara to the House Armed Services Committee (Feb. 1964, undated) and Johnson–Lodge (Nov. 24, 1963) not cited, the page undated or a summary |
+| 21–23 | cited under cal.1964-07-27.vietnam (C; variant B: five thousand, not 4,200), cal.1964-08-02.vietnam, cal.1964-08-05.vietnam, cal.1964-08-06.vietnam-congress, cal.1964-08-07.vietnam (A), cal.1964-08-10.vietnam (A); July 10 petition already cited; July 14 (300 Special Forces) no entry matched, not entered |
+| 33–36 | cited under cal.1965-02-07.vietnam (A, F, G; variant B: eight killed, 126 wounded), cal.1965-02-10.vietnam (variants B, G: Qui Nhon Feb. 11, nineteen killed; Flaming Dart II Feb. 12), cal.1965-02-27.vietnam (A), cal.1965-03-02.vietnam, cal.1965-03-08.vietnam, cal.1965-03-08.press-and-broadcasting; the Times reports of Feb. 25 and Mar. 1 not cited |
+| 42 | cited under cal.1965-04-23.students-2; Morse's call for Rusk's and McNamara's removal stays a lead, undated ("a week after the march") |
+| 42–43 | cited under cal.1965-05-04.vietnam (A), cal.1965-05-05.vietnam-2, cal.1965-05-06.vietnam (A) |
+| 44–45 | cited under cal.1965-06-14.war-opposition (B, C; variant A: the page puts the Festival June 8), cal.1965-06-08.vietnam (A); June 8 rally and June 21 debate already cited |
+| 46–47 | cited under cal.1965-06-27.vietnam-operations, cal.1965-07-28.vietnam; Pentagon speak-out already cited |
+| 62 | cited under cal.1965-11-14.vietnam (A; variant B: 240 killed in the week) |
+| 66–67 | cited under cal.1965-12-18.vietnam-congress, cal.1965-12-24.vietnam (variant A: announced Christmas Day), cal.1965-12-27.vietnam, cal.1965-11-30.vietnam (D); Lynd, Hayden and Aptheker in Hanoi: no entry matched |
+| 69–76 | cited under cal.1966-01-03.alabama, cal.1966-01-06.students (A; variant B), cal.1966-01-03.vietnam, cal.1966-01-25.vietnam, cal.1966-01-31.vietnam (A; variant B: seventy-six, not 77), cal.1966-01-28.vietnam-congress, cal.1966-02-04.vietnam, cal.1966-02-08.vietnam-hearings, cal.1966-02-10.vietnam-hearings (A, B), cal.1966-02-17.vietnam-hearings, cal.1966-02-18.vietnam-hearings; the days of the hearings are not given by the page |
+| 81–82 | cited under cal.1966-04-12.vietnam, cal.1966-04-21.vietnam; Muste, the tax refusal, Bondhus, 1,361 already cited; Thanh Quang's immolation (cal.1966-05-29.vietnam-struggle) not cited, the page undated |
+| 86 | cited under cal.1966-06-29.vietnam, cal.1966-06-29.vietnam-air-war (and a Check: Johnson to Luci, "World War III"); the Fort Hood Three already cited |
+| 88 | cited under cal.1966-08.vietnam-air-war (variant A: four scientists, not 47); entered as cal.1966-06-26.vietnam-air-war (Ball on *Meet the Press*, the day by arithmetic, Check) |
+| 92–93 | cited under cal.1966-10-22.vietnam-asian-trip, cal.1966-10-24.vietnam-asian-trip, cal.1966-10-26.vietnam-asian-trip (A); Cleveland and HUAC already cited; the August Fulbright hearings on Tonkin and SEATO: not borne out, no day and no entry matched |
+| 104 | cited under cal.1967-02-13.vietnam-sunflower and cal.1967-02-13.vietnam-air-war (variants A: the page has the bombing resumed Feb. 14) |
+| 105–06 | cited under cal.1967-03-06.draft (H), cal.1967-06-30.draft (B, C), cal.1967-10-18.students; Feb. 21 Madison already cited |
+| 107 | cited under cal.1967-02-13.intelligence |
+| 120–21 | cited under cal.1967-07-27.civil-disorders, cal.1967-07-20.cities-and-housing (variant A: $4 million, not $20 million), cal.1967-08-03.economy; the flag bill (385–16): no entry matched |
+| 123–27 | cited under cal.1967-09-04.elections-1968 (B), cal.1967-04-17.vietnam (B), cal.1967-08-15.democratic-party, cal.1967-08-17.vietnam-commitments (C), cal.1967-11-30.elections-1968; the student letters, Rusk's meeting, the divinity students already cited |
+| 144 | cited under cal.1967-08-25.vietnam-air-war, cal.1967-09-29.vietnam, cal.1967-11-01.vietnam, cal.1967-11-29.defense (variant A: announced mid-November) |
+| 150 | cited under cal.1968-01-23.japan-and-korea, cal.1968-01-25.japan-and-korea (variant A: 14,787, not 14,600) |
+| 151–52 | cited under cal.1968-01-30.vietnam (A), cal.1968-01-31.vietnam-tet-5 (variant B: the embassy "overrun"), cal.1968-02-07.press-and-broadcasting (B), cal.1968-02-27.press-and-broadcasting (A); McNamara's State luncheon, Feb. 27 (152): no entry matched |
+| 154–55 | cited under cal.1968-02-20.vietnam, cal.1968-02-25.vietnam-congress, cal.1968-03-07.vietnam-congress (B); Mar. 18 and Mar. 27 already cited |
+| 155–56 | cited under cal.1968-02-14.opinion (D), cal.1968-03-10.opinion, cal.1968-03-10.vietnam, cal.1968-03-11.vietnam; Harris 61 to 74 to 54: no entry matched |
+| 158–60 | cited under cal.1968-03-12.elections-1968, cal.1968-03-12.elections-1968-2, cal.1968-03-16.robert-kennedy (variant A: parade the following day), cal.1968-03-16.vietnam, cal.1968-03-02.vietnam-205000, cal.1968-03-25.vietnam; Kennedy's announcement (cal.1968-03-16.robert-kennedy-campaign-2, claimed in the ledger, not in the tree) not cited; Shoup (Mar. 20) and Goldberg's memorandum (Mar. 15): no entry matched |
+| 163–70 | cited under cal.1968-03-31.elections-1968, cal.1968-04-02.elections-1968, cal.1968-04-04.king, cal.1968-04-04.civil-disorders, cal.1968-04-11.open-housing, cal.1968-04-11.vietnam-force-levels (variant B: 549,000), cal.1968-04-10.vietnam-205000, cal.1968-04-23.students, cal.1968-04-30.students-columbia (A), cal.1968-04-23.elections-1968, cal.1968-04-27.elections-1968, cal.1968-05-07.elections-1968-2, cal.1968-05-14.elections-1968, cal.1968-05-28.elections-1968-2 (A, B), cal.1968-06-01.elections-1968, cal.1968-06-04.elections-1968; Mar. 27 SDS, Apr. 3, Apr. 26–27 already cited; Apr. 3 Hanoi and Apr. 2 Pentagon on the 20th parallel not cited |
+| 175–99 | cited under cal.1968-08-04.war-opposition (D, E) and some twenty Chicago entries, Aug. 23 to Aug. 29 (cal.1968-08-23.elections-1968-chicago-2 and -5 through cal.1968-08-29.elections-1968-chicago-5); variant F on cal.1968-08-28.elections-1968 (Humphrey nominated 11:47 p.m.); not cited: pp. 175–77, 179–83 (planning, Dellinger's and Hayden's later accounts), Aug. 25 (185), Aug. 29–30 after 197, the New York response (197–99) |
+| 202 | cited under cal.1968-09-09.elections-1968, cal.1968-09-30.elections-1968 |
+| 203 | cited under cal.1968-10-31.vietnam, cal.1969-01-16.vietnam-paris, cal.1969-01-18.vietnam-paris |
+| 203 | cited under cal.1968-10-01.antisubversion (A, B; variant A: late September) |
+| 205 | cited under cal.1968-05-28.elections-1968-or, cal.1968-08-27.elections-1968-ak, cal.1968-10-12.vietnam, cal.1968-11-05.elections-1968; Morse's defeat by Packwood is not in the calendar (the elections list) |
+
+Where batch 8 stopped: all 33 rows worked; the pages named as not cited above left, by choice or for want of an entry; the patch waits in `inbox/`, unmerged.
+
 
 | page | date | event | why |
 |---|---|---|---|

@@ -29,6 +29,12 @@ None: this is the group's first book. Bissell's and Paterson's pinpoints for the
 
 ## Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- pp. 157-58 (the owner's Drive copy, PDF = printed + 19; text layer): confirmed, no op. Shackley's directives from Harvey (157, n.10): `cal.1962-03.cuba-5` cites 157 with its Check (the month); Harvey and Roselli in April, the poison pills for Varona (158-59): `cal.1962-04.cuba-2` cites 158-59 and `cal.1962-05.cuba-2` carries the Check on the day. `cal.1962-04-10.crime-and-hijacking-maheu` (Hoover to Miller) is another event that Jones does not treat.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 page | date | event | why
 
 - 17-19 | Jan.-Mar. 1960 | the State-JCS meeting of Jan. 8, the NSC of Jan. 14, Rubottom's papers, the NSC of Mar. 10 (FRUS 1958-60, VI, docs. 418/419, 421, 423, 441/442, 466, 468, 473, 474) | papers of 1960: left to the Paterson patch (`b3-paterson`, the group's 1960 book), Jones's pages to be cited there.

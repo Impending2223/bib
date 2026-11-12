@@ -38,25 +38,31 @@ New entries: Jan. 14 (Busby at the White House, by Busby's account); Jan. 23 (Th
 
 ## Passed over
 
+Batch 9 (Nov. 11–12, 2026): the "already in" rows read again from the owner's copy (Drive 19e_DwLLfXB-sl7MXdTVA8JbDGmb3sBIu; printed = PDF − 18 held; pp. 56, 218 checked on their page images). Patch `inbox/2026-11-12-b9-group-3.yaml` (batch 9, group 3). Rulings: p. 30 (the Quayle poll already cited under `cal.1968-02-01.opinion`; the 48 percent entered as `cal.1968-01-28.opinion`, dated by the Post of Jan. 28, n.59); pp. 55–56 (cited under `cal.1968-01-30.vietnam-tet-2`, the Tuesday lunch, with a variant on Johnson's words, "This could be bad"; the row's `cal.1968-01-30.vietnam` is the attacks themselves, which the page does not date by place); p. 66 (Kennedy's "shattered the mask," cited under `cal.1968-02-08.robert-kennedy`; McCarthy's New Hampshire words, Edelman's "fig leaf" and Kennedy's "Tet has changed everything": undated, to leads); pp. 195–96 (Ball and Malik cited under `cal.1968-08-21.soviet-union-czechoslovakia-2`, the vote 13–2; "double-crossed," from Clifford 561, cited under `cal.1968-08-20.soviet-union`, the row's `cal.1968-08-22.soviet-union` being the veto, which Longley does not treat); p. 203 (cited under `cal.1968-11-25.soviet-union`; undated); pp. 216–18 (Pigasus cited under `cal.1968-08-23.elections-1968-chicago-5` with a Check: Longley has Friday night; Lincoln Park under `cal.1968-08-25.elections-1968-chicago` and `-2`; Humphrey's letter under `cal.1968-08-21.elections-1968-chicago-2`; the unit rule under `cal.1968-08-26.elections-1968-chicago-15`; Texas's seats, 1,365 to 995, under `cal.1968-08-26.elections-1968-2`; Watson's interview with CBS entered as `cal.1968-08-26.elections-1968-chicago-25`; the draft of the speech already cited under `cal.1968-08-25.elections-1968-chicago-11`; Lady Bird's night up until 3 and Christian's "fantasizing": no entry, undated or the same event).
+
+Where batch 9 stopped: all six rows ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled "minor," private, family or drafting read again from the owner's copy (Drive 19e_DwLLfXB-sl7MXdTVA8JbDGmb3sBIu; printed page = PDF page - 18 held, checked at pp. 1, 32, 84, 218 on the running heads); Califano's pages read beside it where Longley rests on him (255, 264, 281, 320). Patch `inbox/2026-11-06-b6-longley.yaml` (b6-longley: 39 entries, 8 cites, 1 check), witnesses `inbox/witnesses/2026-11-06-b6-longley.yaml` (17), edges in the by-work file (40). The rows ruled "lead" for a dated event (R50: an entry) are not taken up here; they wait for their own run.
+
 Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not enter, with the page and why. "Already in" names the entry; "lead" goes to the leads below.
 
 | page | date | event | why |
 |---|---|---|---|
-| 1–2 | Dec. 17, 1967 | Johnson calls Cross about a plane for Holt's funeral | minor |
-| 3 | late 1967 | McGovern after a White House dinner: Johnson "a tortured and confused man" | undated; private remark |
+| 1–2 | Dec. 17, 1967 | Johnson calls Cross about a plane for Holt's funeral | Re-ruled Nov. 6: entered as `cal.1967-12-17.vietnam-3` (by Cross's account, 2 n.1) |
+| 3 | late 1967 | McGovern after a White House dinner: Johnson "a tortured and confused man" | Re-ruled Nov. 6: entered as `cal.1967-12.vietnam-congress-3` (by Fry, 3 n.8; "late 1967": Check: the day) |
 | 3 | n.d. | Johnson's outburst to reporters on Vietnam (Goldberg's account) | undated |
 | 4 | Dec. 1966 | William White's column on the "Kennedy cult" | a column, no act |
 | 4 | 1967 | the Republican Coordinating Committee on the riots | undated in Longley; lead |
 | 5 | Dec. 1968 | Harris: 28 percent "substantially alienated" | lead (Opinion) |
 | 11–12 | May–Dec. 1967 | Califano's task forces and program book; the charts at the Ranch | dated to the month at most; lead |
-| 14–16 | Jan. 4–15 | drafts of the State of the Union; Reedy's, Rostow's, Acheson's (Dec. 19, 1967) comments | minor (drafting) |
-| 19 | Jan. 15–16 | lunch with Christian and Lady Bird Johnson; the Cabinet with Califano | minor |
+| 14–16 | Jan. 4–15 | drafts of the State of the Union; Reedy's, Rostow's, Acheson's (Dec. 19, 1967) comments | Re-ruled Nov. 6: entered: `cal.1967-12-19.program` (Acheson), `cal.1968-01-04.program` (McPherson's draft), `cal.1968-01-12.program` (Rusk, from the note, 288 n.15), `cal.1968-01-14.program` (Rostow), `cal.1968-01-15.program` (Reedy), `cal.1968-01-16.program` (Kintner's word counts) |
+| 19 | Jan. 15–16 | lunch with Christian and Lady Bird Johnson; the Cabinet with Califano | Re-ruled Nov. 6: entered as `cal.1968-01-15.elections-1968-johnson` (the lunch) and `cal.1968-01-16.program-2` (the Cabinet officers in Califano's office, by Califano, 255) |
 | 21 | Jan. 17 | the Republican (Ford, Hickenlooper) and Democratic leaders briefed before the address | lead (Daily Diary) |
 | 21–22 | Jan. 17 | Connally's note: announce the withdrawal tonight | lead (Lady Bird Johnson's diary, 617–18) |
 | 24 | Jan. 28 | Evans and Novak on the staged applause | a column, no act |
 | 29 | Jan. 17 | NET's panel after the address | out of the brief |
 | 30 | late Jan. | approval up to 48 percent | already in (Opinion) |
-| 32 | Jan. 23 | Rostow's 2:24 a.m. call; Yastrzemski at the White House | minor |
+| 32 | Jan. 23 | Rostow's 2:24 a.m. call; Yastrzemski at the White House | Re-ruled Nov. 6: Rostow's call entered as `cal.1968-01-23.japan-and-korea-pueblo-2`; Yastrzemski and DiMaggio at the White House passed over still: social, no bearing on public business |
 | 36 | ~Jan. 23 | Stennis's message: "For God's sake, do something" | undated; lead |
 | 36 | ~Jan. 23–26 | Rivers: "I'd select a target" (*Washington Post*, Jan. 27; *New York Times*, Jan. 24) | lead: the day and words |
 | 36 | ~Jan. 27 | Nixon on the *Pueblo*, "a fourth rate military power" (*Chicago Tribune*, Jan. 28) | lead |
@@ -64,12 +70,12 @@ Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not e
 | 40–43 | Jan. 25 | the luncheon and evening meetings (FRUS XXIX:1 docs. 225, 226) | lead |
 | 43 | n.d. | the Navy's plan to retake the ship; the F-105 mission called off | undated; lead |
 | 43–44 | Feb. | Ball's committee on the *Pueblo*, its report destroyed | undated; lead |
-| 45 | Jan. 31 | Pyongyang on the American move to the UN | minor |
+| 45 | Jan. 31 | Pyongyang on the American move to the UN | Re-ruled Nov. 6: entered as `cal.1968-01-31.japan-and-korea-pueblo` (a counterpart's public word, R10; by Lerner, 45 n.36) |
 | 46 | Feb. 3 | Johnson: not confident of the crew's return | lead (the day) |
 | 47 | Feb. 10 | Clifford and Johnson on Park (FRUS VI doc. 65) | lead |
 | 49 | Feb. 22 | Goldberg to Johnson: "Jaw-Jaw than War-War" | lead |
-| 50 | Mar.; spring | Sam Houston Johnson's soundings; Rose Bucher and the Remember the Pueblo Committee | minor; undated |
-| 51 | June 20 | Reid's first remarks ("150 days later," 114 Cong. Rec. 18098) | minor: the position entered July 22 |
+| 50 | Mar.; spring | Sam Houston Johnson's soundings; Rose Bucher and the Remember the Pueblo Committee | Re-ruled Nov. 6: entered as `cal.1968-03.japan-and-korea-pueblo` (Sam Houston Johnson's soundings) and `cal.1968-04.japan-and-korea-pueblo` (the families and the Remember the Pueblo Committee, by Lerner, 50 n.50; "throughout the spring": Check) |
+| 51 | June 20 | Reid's first remarks ("150 days later," 114 Cong. Rec. 18098) | Re-ruled Nov. 6: not a repetition (before July 22): entered as `cal.1968-06-20.japan-and-korea-pueblo`, read in the bound Record (114 Cong. Rec. 18,098) |
 | 51 | ~Aug. 13 | Humphrey: "Any damn fool can pick a fight" | lead (the day) |
 | 52 | Dec. | the inquiries about North Korea's Dutch-built ship | undated; lead |
 | 54 n.63 | Jan. 10, 1969 | Allott in the Senate on the apology (115 Cong. Rec. 432) | lead |
@@ -80,32 +86,32 @@ Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not e
 | 64 | Feb. 12 | Lincoln Day remarks, "Sad but steady" | lead (Public Papers 218) |
 | 66 | Feb. | McCarthy's and Robert Kennedy's words on Tet | undated; Kennedy's Chicago speech already in (`cal.1968-02-08.robert-kennedy`) |
 | 67 | n.d. | Rusk to Scali: "Whose side are you on?" | undated; lead |
-| 68 | Feb. 27 | Califano and McPherson after the meeting at State | minor |
+| 68 | Feb. 27 | Califano and McPherson after the meeting at State | Re-ruled Nov. 6: entered as `cal.1968-02-27.vietnam-205000-2` (Califano, 264, read) |
 | 71 | Feb. | the Indian diplomat on Hanoi's terms | undated |
 | 74–75 | Mar. 10 | Johnson to Clifford on the leak; Christian's denial | lead |
-| 78 | Mar. 17 | Lady Bird Johnson on Humphrey's defense of the administration | minor |
+| 78 | Mar. 17 | Lady Bird Johnson on Humphrey's defense of the administration | Re-ruled Nov. 6: entered as `cal.1968-03-17.elections-1968-johnson` (by Mrs. Johnson's diary, 78 n.93) |
 | 79 | Mar. 20 | Rusk and Clifford to Bùi Diễm | lead (FRUS VI doc. 140 n.3) |
 | 80–81 | Feb. 27 | Acheson's outburst at the White House and his terms | lead (date: Longley, from Acacia) |
-| 84; 89 | Mar. 31 | Lynda Robb's question; Luci and Nugent told in the car | minor (family) |
+| 84; 89 | Mar. 31 | Lynda Robb's question; Luci and Nugent told in the car | Re-ruled Nov. 6: entered as `cal.1968-03-31.elections-1968-johnson-3` (Lynda Robb's question) and `-4` (Luci and Nugent told in the car) |
 | 95 | Mar. 31 | Johnson to Westmoreland on the troops' morale | lead |
 | 98 | Mar. 31 | Clifford and Rostow read the close (recording 16:54 exists) | lead |
-| 99; 102 | Mar. 31 | Watson's calls; Daley: "We're going to draft you" | minor; lead |
-| 103 | Mar. 31 | the news conference; Krim at midnight | already in; minor |
+| 99; 102 | Mar. 31 | Watson's calls; Daley: "We're going to draft you" | Re-ruled Nov. 6: the calls before the address entered as `cal.1968-03-31.elections-1968-johnson-5`; Daley's call cited (99, 102) under `cal.1968-03-31.elections-1968-johnson`, with a Check |
+| 103 | Mar. 31 | the news conference; Krim at midnight | Re-ruled Nov. 6: the news conference already in; Krim at 12:12 a.m. entered as `cal.1968-04-01.elections-1968-johnson-3` (FRUS 1964–68, VI, doc. 169, read) |
 | 104 | Apr. 1 | Gore's and Javits's statements; Harris's poll | lead (the papers) |
 | 108 | Feb. 20 | Hoover to Clark on King | lead |
 | 111–113 | Apr. 4–5 | calls to mayors; Ellington's Guard; Clark and Alexander to Memphis | lead |
-| 122 | Apr. 5 | Vance at the White House | minor |
+| 122 | Apr. 5 | Vance at the White House | Re-ruled Nov. 6: already in: `cal.1968-04-05.civil-disorders` cites 118–22 (Vance called in) |
 | 123 | Apr. 6 | Johnson will not go to the funeral (threats) | lead |
 | 124 | Apr. 6 | Ackley's "Bill of Economic Rights" | lead |
-| 127 | Apr. 7 | Palm Sunday at St. Dominic's; the flight over the city | minor |
+| 127 | Apr. 7 | Palm Sunday at St. Dominic's; the flight over the city | Re-ruled Nov. 6: the Mass entered as `cal.1968-04-07.civil-disorders-king-4` (Califano, 281, read; Check: those with him); the flight over the city cited under `cal.1968-04-07.civil-disorders-king-2` (Longley 127; Califano 281) |
 | 132 | n.d. | the House Republican conference, McCulloch | undated; lead |
 | 136 | n.d. | Thurmond's flyers on the riots | undated |
 | 138 | Apr. 1 | Robert Kennedy's telegram asking to meet; Cater's memorandum | lead |
 | 138 | June 5 | Johnson to Monroney, 5:30 a.m., on the Secret Service bill | lead (*Washington Daily News*, June 6) |
 | 140 | Apr. 28 | Sorensen to Murphy on briefings for Kennedy | lead |
-| 141; 145–146 | June 5–6 | Reedy's and Califano's memoranda; the funeral arrangements; the FBI on Sirhan | minor |
+| 141; 145–146 | June 5–6 | Reedy's and Califano's memoranda; the funeral arrangements; the FBI on Sirhan | Re-ruled Nov. 6: entered: `cal.1968-06-05.assassination-7` (Manatos), `-8` (Reedy), `-9` (Gaither to Califano), `cal.1968-06-05.civil-disorders-4` (the Guard and the police), `cal.1968-06-07.robert-kennedy` (Califano on the burial, dated by the memorandum; Check), `cal.1968-06-06.assassination-2` (the FBI to Clark; Check: the day); 141 cited under `cal.1968-06-05.civil-disorders-3` |
 | 146 | May 27 | Robert Kennedy at Roseburg, Ore., on guns | lead |
-| 152; 154–155 | June 8–22 | Graham at the White House; the letters to and from the Kennedys | minor |
+| 152; 154–155 | June 8–22 | Graham at the White House; the letters to and from the Kennedys | Re-ruled Nov. 6: Union Station entered as `cal.1968-06-08.robert-kennedy-2` (by Mrs. Johnson's diary); the letters entered as `cal.1968-06-19.robert-kennedy` (Johnson to Ethel Kennedy) and `cal.1968-06-22.robert-kennedy` (Jacqueline Kennedy), dated by the notes (154–55 nn.68–69); Graham at the White House passed over still: no bearing on public business |
 | 157 | Oct. 22–24 | the Gun Control Act signed; the news conference | lead (check whether in) |
 | 161 | June | Temple on Thornberry; Clifford's suggestion of Jenner | undated; lead |
 | 164 | ~June 27 | Griffin: "cronyism"; Rockefeller for the nominations (*Rocky Mountain News*, June 28) | lead |
@@ -120,11 +126,11 @@ Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not e
 | 178–179 | Aug.–Sept. | the Lawyers Committee; Mansfield and night sessions; Krim, Young and Thayer to Nixon; Johnson to Freeman | undated; lead |
 | 179 | mid-Sept. | Humphrey on Nixon's "political debt"; Nixon: "I oppose any filibuster" | lead |
 | 180 | Sept. | Porter to Califano on the fee | lead (the day) |
-| 182 | late Sept. | the Fortases at dinner | minor |
+| 182 | late Sept. | the Fortases at dinner | Re-ruled Nov. 6: entered as `cal.1968-09.court-fortas` (a dinner among the principals of the pending nomination; "Late in September": Check) |
 | 195–196 | Aug. | Ball and Malik at the UN; Johnson to Clifford, "double-crossed" | already in (`cal.1968-08-22.soviet-union`); undated |
 | 196–197 | Aug. 21–22 | Rusk on the Dominican comparison; McGovern's and Nixon's statements | lead (the papers) |
 | 197–198 | Aug. 22 | the Cabinet: "The 'Cold War' is not over" | lead (FRUS XVII; check `cal.1968-08-20.soviet-union`) |
-| 199 | Aug. | the Soviet airline's flight cancelled | minor |
+| 199 | Aug. | the Soviet airline's flight cancelled | Re-ruled Nov. 6: entered as `cal.1968-09-03.soviet-union-czechoslovakia` (FRUS 1964–68, XVII, docs. 92–93, read: under consideration Sept. 3, cancelled by Sept. 4; Check: Longley places it at the Ranch after Aug. 24) |
 | 201–202 | Sept. 4 | the NSC: Thompson on Romania; the refugees | lead (FRUS XVII doc. 93) |
 | 203 | Nov. 11 | McNamara on Kosygin's interest in a summit | lead |
 | 203 | Nov.–Dec. | Rusk to Dobrynin; Nixon declines, names Murphy | already in (`cal.1968-11-15.transition-and-staff`, `cal.1968-11-25.soviet-union`) |
@@ -133,8 +139,8 @@ Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not e
 | 211–212 | Aug. 21, 24, 25 | Jones on Humphrey; the plank cleared with Rusk and Rostow (Humphrey's account); Ginsberg to Jones | lead |
 | 213–214 | Aug. 24–26 | Connally to O'Brien; Jacobsen's report; "a rocking chair" at Southwest Texas State | lead |
 | 216–218 | Aug. 23–26 | Pigasus; Lincoln Park; the unit rule and Texas's seats | already in (Chicago entries) |
-| 218 | Aug. 25–26 | the birthday speech drafted (Califano to Johnson, Aug. 26) | lead |
-| 222–224 | Aug. 27–28 | the party at Luci's; the midnight recess; calls to Watson, Rostow, Rusk | minor; already in |
+| 218 | Aug. 25–26 | the birthday speech drafted (Califano to Johnson, Aug. 26) | Re-ruled Nov. 6: a principal's speech drafted, the informal record: Hardesty and Middleton's draft entered as `cal.1968-08-23.elections-1968-chicago-10` (Califano, 320, read); 218 and Califano 320 cited under the pending `cal.1968-08-25.elections-1968-chicago-11` |
+| 222–224 | Aug. 27–28 | the party at Luci's; the midnight recess; calls to Watson, Rostow, Rusk | Re-ruled Nov. 6: entered: `cal.1968-08-27.elections-1968-chicago-19` (the party at Luci's house), `-20` (the Ranch, the Thornberrys, the convention), `cal.1968-08-28.elections-1968-chicago-19` (2:02 a.m. to Watson), `cal.1968-08-28.elections-1968-chicago-platform` (the morning's calls on the plank, by the Daily Diary, 224 n.70); 223 cited under `cal.1968-08-28.elections-1968-chicago-5` (the recess). Kearns's call (Witcover 315) undated: a lead |
 | 227–228 | Aug. 28–29 | vanden Heuvel's threat; the call to Humphrey; the calls of Aug. 29 (recordings exist); Watson's names for Vice President | lead |
 | 235 | Aug. | Chennault with Thiệu in Saigon; Âu Ngọc Hồ's remark; Rusk to the embassy, Aug. 29 | lead |
 | 237 | n.d. | the Logan Act discussed | undated |
@@ -143,7 +149,7 @@ Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not e
 | 248 | Oct. 28 | Deepe's memorandum to the *Monitor* | lead |
 | 250–252 | Nov. 7–8, 27; Dec. 10 | the surveillance ended; Rostow, "blow the whistle"; Smith's report; "The lady is still operational" | lead |
 | 259 | Jan. 1969 | the last Cabinet meeting (Wiggins) | lead (the day) |
-| 258 | Jan. 20, 1969 | Johnson to Busby by telephone | minor |
+| 258 | Jan. 20, 1969 | Johnson to Busby by telephone | Re-ruled Nov. 6: entered as `cal.1969-01-20.transition-and-staff-3` (by Busby's account, 258 n.4) |
 
 By reason (rows, some several events; a row giving two reasons counted by its first): lead 56; minor 19; undated 18; already in 6; a column with no act 2; out of the brief 1.
 
@@ -160,6 +166,8 @@ National:
 - Chennault after Nov. 5: Hoover to Bromley Smith, Nov. 7; Rostow, Nov. 8, Dec. 10; Smith, Nov. 27 (Anna Chennault Record, LBJ Library); an aide to Humphrey, Sept. 27 (Solberg, 394); Deepe's memorandum, Oct. 28.
 - The Daily Diary of Apr. 7, 1968 (Catalog, scanned) for the hour Johnson signed the Baltimore proclamation (Longley 128: 10:15 p.m.).
 - Whether the Gun Control Act's signing (Oct. 22, 1968) and the news conference of Oct. 24 are in the calendar.
+
+- (batch 6) Johnson's call to Doris Kearns about his birthday and the convention (Longley 224, by Witcover, *The Year the Dream Died*, 315): undated.
 
 Foreign:
 - Goldberg to Johnson, Feb. 22, 1968 (NA 2, POL 33-6); the Navy's plan to retake the *Pueblo* and the F-105 mission; Ball's committee on the *Pueblo* (Ball, 436); the inquiries about North Korea's Dutch-built fishing ship (Lerner, 211).

@@ -1,0 +1,56 @@
+/* The visibility panel and the claims (tools/bib/vispage.py, STYLE 4-6; the spec, notes/proposals/visibility-spec.md, §6-§7).
+   One file for every calendar page and the reader, written beside them as build/vis/vispage-<hash>.css. The page's own
+   colors (--rule, --panel, --accent, --ink, --muted, --bg, --sans) are the templates'. */
+.vis{margin:1.6rem 0 0;padding:.9rem .9rem 1rem;border:1px solid var(--rule);border-radius:10px;background:var(--panel);font-family:var(--sans);max-width:100%;box-sizing:border-box}
+.vis h3{margin:0 0 .25rem;padding-top:0;border-top:0;font-size:1.05rem}
+.vis p.logic{margin:.15rem 0 .7rem;font-size:.8rem}
+.vis .vgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem .45rem}
+@media (min-width:700px){.vis .vgrid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (min-width:560px) and (max-width:699px){.vis .vgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.vis .vcell{min-width:0;display:flex;flex-direction:column;gap:.2rem}
+.vis .vt{display:flex;align-items:baseline;justify-content:space-between;gap:.25rem;width:100%;min-width:0;min-height:34px;
+  font:inherit;font-size:.82rem;line-height:1.15;text-align:left;cursor:pointer;color:var(--ink);
+  background:transparent;border:1px solid var(--rule);border-radius:6px;padding:.38rem .5rem;box-sizing:border-box}
+.vis .vt.sub{margin-left:.6rem;width:calc(100% - .6rem);font-size:.78rem;min-height:30px;padding:.3rem .35rem .3rem .45rem}
+.vis .vt .vl{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vis .vt.top .vl{font-weight:700}
+.vis .vt .vn{color:var(--muted);font-weight:400;font-size:.72rem;margin-left:.25rem}
+.vis .vt .vs{flex:none;font-size:.62rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;border-radius:4px;padding:.08rem .22rem}
+/* on: solid, the accent; greyed: dashed, muted; off: struck through, hollow; mixed: half */
+.vis .vt[data-s="on"]{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.vis .vt[data-s="on"] .vs{background:var(--accent);color:var(--panel)}
+.vis .vt[data-s="greyed"]{border-style:dashed;color:var(--muted)}
+.vis .vt[data-s="greyed"] .vs{border:1px dashed var(--muted);color:var(--muted)}
+.vis .vt[data-s="off"]{color:var(--muted);opacity:.75}
+.vis .vt[data-s="off"] .vl{text-decoration:line-through;text-decoration-thickness:1px}
+.vis .vt[data-s="off"] .vs{border:1px solid var(--rule);color:var(--muted)}
+.vis .vt[data-s="mixed"] .vs{border:1px solid var(--accent);color:var(--accent)}
+.vis .vfold{font:inherit;font-size:.74rem;margin-left:.6rem;width:calc(100% - .6rem);text-align:left;background:none;border:0;
+  color:var(--accent);cursor:pointer;padding:.25rem .1rem}
+.vis .vother{margin-top:.6rem;padding-top:.6rem;border-top:1px dashed var(--rule)}
+.vis .vother[hidden]{display:none}
+.vis .vbar{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem;align-items:center;margin-top:.85rem;padding-top:.75rem;border-top:1px solid var(--rule)}
+.vis .vbar .lab{font-size:.78rem;font-weight:700;margin-right:.35rem}
+.vis .vpa{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.vis .vpa button{font:inherit;font-size:.78rem;background:transparent;color:var(--ink);border:0;border-left:1px solid var(--rule);padding:.4rem .55rem;cursor:pointer;min-height:32px}
+.vis .vpa button:first-child{border-left:0}
+.vis .vpa button[aria-pressed="true"]{background:var(--accent);color:var(--panel);font-weight:700}
+.vis .vpin{display:inline-flex;align-items:center;gap:.35rem;flex-wrap:wrap;min-width:0}
+.vis .vpin input{font:inherit;font-size:.82rem;padding:.3rem .4rem;border:1px solid var(--rule);border-radius:6px;background:var(--bg);color:var(--ink);min-height:32px;max-width:11rem;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vis .vpin input{color-scheme:dark}}
+:root[data-theme="dark"] .vis .vpin input{color-scheme:dark}
+.vis .vpin button,.vis .vreset{font:inherit;font-size:.76rem;border:1px solid var(--rule);background:var(--bg);color:var(--ink);border-radius:6px;padding:.3rem .55rem;cursor:pointer;min-height:32px}
+.vis .vpin button[hidden],.vis .vnote[hidden]{display:none}
+.vis .vsum{margin:.7rem 0 0;font-size:.8rem;color:var(--muted)}
+.vis .vfoot{display:flex;gap:.6rem;align-items:flex-start;justify-content:space-between}
+.vis .vfoot .vreset{flex:none;margin-top:.55rem}
+.vis .vnote{font-size:.76rem;color:var(--muted)}
+.vis .vsum b{color:var(--ink)}
+/* the claims: unmapped, a faint dotted underline; greyed; hidden. An entry takes its claims' fullest state. */
+.cl[data-um]{text-decoration:underline dotted;text-decoration-color:color-mix(in srgb,var(--muted) 55%,transparent);text-decoration-thickness:1px;text-underline-offset:.28em}
+.cl.vg{opacity:.36}
+.cl.vh{display:none}
+li.vh{display:none !important}
+li.vg>.n,li.vg>.tn,li.vg>.r,li.vg>.gl,li.vg .rub{opacity:.36}
+li.vny::before{content:"not yet known at " attr(data-pin);display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.03em;color:var(--muted);text-transform:uppercase}
+.day.vq>.dh{opacity:.45}

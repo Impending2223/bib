@@ -48,18 +48,27 @@ From the escalation of 1965 (Pleiku, Humphrey's dissent, Watts) through Nixon's 
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 19, Jan. 25, 1965: cited under cal.1965-01-27.vietnam-2 (units '?'); Check on the day (White Jan. 25, the entry Jan. 27).
+- pp. 201–6: cited under cal.1967-07-12.civil-disorders, cal.1967-07-17.civil-disorders-newark, cal.1967-07-23.civil-disorders (variant on B, six days), cal.1967-06-12.civil-disorders, cal.1967-05-02.black-nationalism-oakland, cal.1967-07-24.civil-disorders, cal.1967-07-27.civil-rights-organizations, cal.1968-02-08.south-carolina (variant on C, two killed and forty injured), cal.1966-05-16.civil-rights-organizations, cal.1966-06-16.mississippi; entered as cal.1967-06.civil-disorders (Brown at Cincinnati, the day loose). Leads, not entered: Carmichael at Prattville and the SNCC spokesman at Jackson (April 1967, no day), the RAM plot in New York (White 1968, no day), the department-store arson in Chicago and New York (March 1968, no day).
+- p. 250, Aug. 7, 1968: entered as cal.1968-08-07.elections-1968-miami-9 (the drive and the pool reporters; not in the calendar).
+- Where batch 9 stopped: all this work's rows ruled.
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, printed page = PDF page − 20; every page cited read off its page image at 70 dpi as well as the text: 23, 32, 122, 145, 235, 266, 271, 290, 320, 388). Patch `inbox/2026-11-06-b6-white-making-of-the-president-1969.yaml` (15 entries, 1 cite, 1 Check); witnesses `inbox/witnesses/2026-11-06-b6-white-making-of-the-president-1969.yaml` (the McCarthy canvass's tallies, Nixon's log of Nov. 5, Nixon's recollection to White), edges in the by-work file. The rows not private, social or draft (the leads) are left as they were.
+
 Made by reading the notes taken page by page against the calendar; each dated event the book treats and not entered or cited, a row.
 
-- 7 | Jan. 30, 1968 | Humphrey learns of Tet from the papers | minor (no act).
+- 7 | Jan. 30, 1968 | Humphrey learns of Tet from the papers | re-ruled Nov. 6: passed over, no act or remark (what Humphrey knew, not something he did or said).
 - 7 | Jan. 31, 1968 | McCarthy at Foreign Relations' executive session (the Tonkin resolution, the *Pueblo*); New Jersey supporters | lead: the session from the Daily Digest.
 - 8 | Jan. 1968 | five secret polls of McCarthy's New Hampshire vote, 8 to 11 percent | lead: undated.
 - 19 | Jan. 25, 1965 | the "Fork-in-the-Y" memorandum (White's date) | already in (Jan. 27), not cited; lead: the date.
-- 23 | Aug. 12, 1965 | White's lunch with Finch on Watts | minor: private remarks.
-- 32 | spring 1965 | Hess out of work | minor: private.
+- 23 | Aug. 12, 1965 | White's lunch with Finch on Watts | re-ruled Nov. 6: entered as `cal.1965-08-12.civil-disorders-watts` (23–24).
+- 32 | spring 1965 | Hess out of work | re-ruled Nov. 6: entered as `cal.1965-03.republican-party` (a favour asked of the members, a career in politics; Check: the month).
 - 32 | Dec. 1964 | Nixon, Eisenhower and Goldwater in New York agree Burch out, Bliss in | lead: the record has Phoenix, Jan. 12, 1965.
 - 33 | 1965 | Nixon to New York editors: "religious, recidivist and reactionary" | lead: undated.
 - 43 | 1963 | Nixon's interview with Drummond: "categorically" no candidacy | lead: undated.
-- 44 | 1963–67 | Hauge's Christmas parties | minor: social.
+- 44 | 1963–67 | Hauge's Christmas parties | re-ruled Nov. 6: passed over, a social occasion with no public business or pending matter named, and undated (any of four Decembers).
 - 56 | spring 1967 | Travis Cross and Campaign Consultants hired | lead: the month.
 - 57 | May–Aug. 1967 | Romney's polls level with Johnson's; up after Detroit | lead: the polls by release.
 - 60 | Nov.–Dec. 1967 | Romney in Paris and Vietnam | lead: not checked against the calendar.
@@ -72,32 +81,32 @@ Made by reading the notes taken page by page against the calendar; each dated ev
 - 101 | n.d. | Johnson to Sidey: "because I didn't go to Harvard" | lead: undated.
 - 102 | Feb. 1968 | news conference: no intention of seeing Westmoreland leave | lead: not checked.
 - 104 | 1966 | Johnson cuts the National Committee's budget, voter registration | lead: the month.
-- 121–22 | Mar. 1968 | McCarthy's Wisconsin canvass by district | minor: the campaign's internal tallies (kept here: 1st 60/40, 2nd 70/30, 3rd 67/33, 4th 49/51).
+- 121–22 | Mar. 31, 1968 | McCarthy's Wisconsin canvass by district | re-ruled Nov. 6: entered as `cal.1968-03-31.elections-1968-mccarthy` (White: the tallies "by Sunday").
 - 136 | Mar. 1968 | Kleindienst's first regional meeting, Denver | lead: the day.
-- 145 | Dec. 1967 | the shuttle flight with Nixon | minor: private remarks.
+- 144–45 | Dec. 1967 | the shuttle flight with Nixon | re-ruled Nov. 6: entered as `cal.1967-12.elections-1968-nixon` (Check: the day).
 - 167–68 | Mar. 1968 | the L Street headquarters; 28,000 letters in six days | lead: the days.
 - 174 | May 1968 | Robert Kennedy pulled from his car, a tooth broken | lead: the day.
 - 178 | late May 1968 | three utility towers blown up near San Francisco | lead: the day.
 - 198 | 1966–67 | the Chicago nurses, the Texas tower, the Capitol and St. Petersburg vandals, the East Village murders | lead: the crimes thread, dates from the record.
 - 201–6 | 1966–68 | riots and SNCC (Cincinnati, Newark, Detroit, Carmichael, Brown, the Panthers in Sacramento, RAM) | already in (Civil disorders, Black nationalism), not cited.
 - 206 | Mar. 1968 | department-store arsons, Chicago and New York | lead: the days.
-- 227 | n.d. | a liquor heir and Rockefeller | minor: private, undated.
-- 235 | July 8, 1968 | Rockefeller's sixtieth birthday on his plane | minor: social.
+- 227 | n.d. | a liquor heir and Rockefeller | re-ruled Nov. 6: no longer minor (a contributor lobbying the governor on the liquor tax, refused), but undated: a lead (below).
+- 235 | July 8, 1968 | Rockefeller's sixtieth birthday on his plane | re-ruled Nov. 6: already in as `cal.1968-07-08.elections-1968`; cited, 235, for its unit C (Smith's cite of White at 273–74 is another printing's: a Check).
 - 238 | late July 1968 | Klein's Gallup; Harris pre-leaked; Crossley's poll | lead: not checked against Opinion.
-- 241–42 | Aug. 1968 | Nixon's headquarters at the Hilton-Plaza | minor: description, no event.
+- 241–42 | Aug. 1968 | Nixon's headquarters at the Hilton-Plaza | passed over: a description, no event (not a private or social row; left as it was).
 - 243 | Aug. 5, 1968 | the opening: Eisenhower's tape, John Wayne | lead: not checked.
 - 250 | Aug. 7, 1968 | Nixon's drive with two pool reporters | already in (the running-mate meetings).
 - 260 | 1967 | Chicago chosen for the convention, by Johnson | lead: not checked.
 - 264–65 | 1968 | Daley's "shoot to kill"; McGovern's announcement, Aug. 10 | lead: not checked.
-- 266 | Aug. 27, 1968 | Schlesinger leaves for Japan | minor: private travel.
+- 266 | Aug. 27, 1968 | Schlesinger leaves for Japan | re-ruled Nov. 6: entered as `cal.1968-08-27.elections-1968-chicago-18` (a principal's leaving the convention, in a McGovern button).
 - 267–68 | July–Aug. 1968 | McCarthy's threat of a rump convention; students kept home; Quayle's polls | lead: undated.
 - 271 | Aug. 1968 | Humphrey to Daley on permits; Humphrey at the Ranch | lead: the days.
-- 272 | Aug. 1968 | Criswell's tickets | minor.
+- 271 | Aug. 26–29, 1968 | Criswell's tickets | re-ruled Nov. 6: entered as `cal.1968-08-26.elections-1968-chicago-22` (a favour asked of the party's treasurer; the page is 271, not 272; Check: the days).
 - 280–81 | Aug. 25–26, 1968 | Fort Hood's troops; the Rangers; DiSalle's announcement; the bus strike | lead: not checked.
 - 289 | Aug. 24, 27, 1968 | Dellinger's announcements | lead: not checked.
-- 290 | Aug. 27, 1968 | Humphrey at his son's anniversary party | minor: social.
+- 290 | Aug. 27, 1968 | Humphrey at his son's anniversary party | re-ruled Nov. 6: the party itself passed over (family, no public business); the talk with his aides after it, on who should nominate him and whom to choose for Vice President, entered as `cal.1968-08-27.elections-1968-humphrey`.
 - 294 | Aug. 28, 1968 | the phone strike's settlement recommended | lead.
-- 320 | Aug. 22–27, 1968 | Nixon at Walker Cay and on the houseboat | minor: private.
+- 320 | Aug. 22–27, 1968 | Nixon at Walker Cay and on the houseboat | re-ruled Nov. 6: entered as `cal.1968-08-22.elections-1968-nixon` (Walker Cay), `cal.1968-08-24.elections-1968-nixon` (Haldeman and Chapin on Chicago), `cal.1968-08-25.elections-1968-nixon` (the houseboat and the cay); the days by the convention's opening.
 - 324–25 | Sept. 1968 | Nixon at San Francisco, Houston, White Plains, Charlotte | lead: not checked.
 - 335–36 | Sept. 1968 | Humphrey at Boston with Edward Kennedy, the hecklers | lead: not checked.
 - 342, 358–59, 363 | Sept.–Oct. 1968 | Humphrey at Louisville and Detroit; Nixon's securities letter; the "trust" press conference | lead: undated.
@@ -105,7 +114,7 @@ Made by reading the notes taken page by page against the calendar; each dated ev
 - 365 | Sept. 1968 | Flint's Local 599 poll | lead.
 - 381 | Nov. 2, 1968 | eleven South Vietnamese senators for Nixon | lead.
 - 382–84 | Nov. 1968 | Harris's final poll; the *Los Angeles Times*'s; Derge's panels | lead.
-- 388–95 | Nov. 5, 1968 | Nixon's day on the plane; Humphrey votes at Marysville | minor: private.
+- 388–95 | Nov. 5, 1968 | Nixon's day on the plane; Humphrey votes at Marysville | re-ruled Nov. 6: entered as `cal.1968-11-05.elections-1968-nixon` (the morning's calls), `-nixon-2` (his warning to his family on the plane: the bombing halt's cost), `-nixon-3` (the flight, the staff, Newark, the Waldorf), `cal.1968-11-05.elections-1968-humphrey` (Marysville) and `cal.1968-11-06.elections-1968-humphrey` (the staff on a fight in the House).
 - 417–18 | May 1960; Nov. 1968 | the Pill; Johnson's committee on population | lead.
 - 428–33 | Jan. 21–22, 1969 | Nixon's first days | out of the brief: after Jan. 20, 1969.
 
@@ -137,3 +146,7 @@ Made by reading the notes taken page by page against the calendar; each dated ev
 ## Chester (the same group): what remains
 
 Chester's book-check (`chester-american-melodrama.md`) shows the whole book read on Oct. 29. Not done in this run: the witnesses (R35) for the entries the first run made or cited. Chester has no notes; the records its text names (Rauh's paper, Walinsky's memorandum of Nov. 9, 1966, Schlesinger's letter of Nov. 3, 1967, Hoeh and Studds's memorandum, Hughes's of May 19, 1968, O'Brien's of Sept. 28, Connell's three, the Opinion Research panels, Daley's report) are to be registered as passages part_of the card, from their entries' pages, by the next run.
+
+## Leads (batch 6)
+
+- National: Rockefeller and the young heir of a liquor fortune, a large contributor, who asked him to cut New York's liquor taxes and was shown out (White, *Making of the President 1968*, 227): undated; Smith, *On His Own Terms*, or Rockefeller's papers (Rockefeller Archive Center) may date it.
