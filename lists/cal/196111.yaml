@@ -1823,6 +1823,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-11-20.soviet-union
+    when: Nov. 20
+    date: '1961-11-20'
+    thread: soviet-union
+    c: Falls Church. Dinner at Salinger's for Adzhubei, arrived in Washington that day for the interview, with Barsukov of *Izvestia*, Bolshakov, and Guthrie of the State Department's Soviet desk. Adzhubei says the Soviet Union and the United States should settle things without heeding their allies; Guthrie asks if East Germany and China would then be dropped, and Adzhubei drops the subject. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 200–01. Names: Adzhubei, Salinger, Bolshakov, Guthrie.'
+    tags: [name:salinger-pierre, name:adzhubei-aleksei, name:bolshakov-georgi, name:guthrie-john-c]
   - id: cal.1961-11-21.vietnam
     when: Nov. 21
     date: '1961-11-21'
@@ -2099,6 +2106,13 @@ entries:
     time_band: workday afternoon
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-11-24.vietnam-2
+    when: Nov. 24
+    date: '1961-11-24'
+    thread: vietnam
+    c: 'Sorensen to the President, by memorandum: a televised address on policy in Vietnam and Laos, to dispel "wildly inaccurate speculation and debate ... on what we are going to do in SE Asia." "Only the Vietnamese can defeat the Viet Cong, we cannot do it for them. Troops of a different country, color and culture are not ... effective in combating civil disorders, guerrilla actions and most local wars."'
+    n: '[[w.sorensen-counselor]], 355 (Sorensen''s account, written in 2008; the memorandum quoted in part, with the President''s Seattle words of a few weeks before; "I was not in the loop on Vietnam"). To check: the memorandum, Nov. 24, 1961. See [[cal.1961-11-24.vietnam]]. Names: Sorensen, Kennedy.'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f]
   - id: cal.1961-11-25.berlin-and-vienna
     when: Nov. 25
     date: '1961-11-25'
@@ -2106,14 +2120,20 @@ entries:
     thread: berlin-and-vienna
     also: [soviet-union]
     c: Adzhubei, Khrushchev's son-in-law, interviews Kennedy at Hyannis Port. *Izvestia* prints it whole, Nov. 28.
-    n: 'Transcript of Interview With the President by Aleksei Adzhubei, Editor of Izvestia, [1961 Pub. Papers 741](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=799) (Nov. 25, 1961). [[w.sorensen-kennedy]], 556–57; [[w.fursenko-khrushchevs-cold-war]], 417, 419 (asked in September, the interview put off by the Kremlin to late November; Kennedy raises the recognition of the GDR, to Adenauer''s fury). To check: [[w.salinger-with-kennedy]]. See [[cal.1961-06-03.berlin-and-vienna]]. Names: Adzhubei, Khrushchev.'
+    n: 'Transcript of Interview With the President by Aleksei Adzhubei, Editor of Izvestia, [1961 Pub. Papers 741](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=799) (Nov. 25, 1961). [[w.sorensen-kennedy]], 556–57; [[w.fursenko-khrushchevs-cold-war]], 417, 419 (asked in September, the interview put off by the Kremlin to late November; Kennedy raises the recognition of the GDR, to Adenauer''s fury); [[w.salinger-with-kennedy]], 202–06 (the interview at Hyannis Port, 10:20 a.m., two hours; Adzhubei''s cable of Nov. 28; printed that day in the Moscow edition of *Izvestia*, in full but for one remark of Adzhubei''s own, changed). See [[cal.1961-06-03.berlin-and-vienna]]. Names: Adzhubei, Khrushchev.'
     src:
       c: 47942a74
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=799: all'
         - 'w.sorensen-kennedy 556–57: all'
         - 'w.fursenko-khrushchevs-cold-war 417, 419: A'
+        - 'w.salinger-with-kennedy 202–06: A'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:adzhubei-aleksei]
+    variants:
+      - unit: B
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: printed Nov. 28, in the Moscow edition of *Izvestia* only, verbatim "with one exception": Adzhubei''s own words in the transcript, Khrushchev''s 1959 visit not "completely satisfactory," became "The positive results of that trip were wrecked and brought to nothing by the well-known actions of the then American administration"'
+        at: 202, 205–06
   - id: cal.1961-11-25.vietnam
     when: Nov. 25
     date: '1961-11-25'
@@ -2131,6 +2151,13 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1961-11-25.berlin-and-vienna-2
+    when: Nov. 25
+    date: '1961-11-25'
+    thread: berlin-and-vienna
+    c: 'Hyannis Port, after the Adzhubei interview. Kennedy, convinced he has done badly, to Salinger: "That might have been a mistake," and "Your arrogant Russian friend got in as many shots as I did." After reading the transcript he agrees with Salinger that Adzhubei''s polemics strengthened his answers. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 204–05. See [[cal.1961-11-25.berlin-and-vienna]]. Names: Kennedy, Salinger, Adzhubei.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:adzhubei-aleksei]
   - id: cal.1961-11-26.transition-and-staff
     when: Nov. 26
     date: '1961-11-26'
@@ -2801,3 +2828,33 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 451: all'
     tags: [name:reuther-walter, name:kennedy-john-f, name:kennedy-robert-f]
+  - id: cal.1961-11.transition-and-staff-2
+    when: Nov.
+    date: 1961-11
+    thread: transition-and-staff
+    also: [latin-america]
+    c: 'The South Lawn, a November afternoon, Kennedy leaving by helicopter for a weekend at his Virginia estate. He beckons Goodwin to the steps and says over the rotors: "You know, Dick, I think you''ll be more effective in the State Department. ... I''m going to announce it next week." Mounting the steps: "We''ll talk about it when I get back." The talk never took place.'
+    n: '[[w.goodwin-remembering-america]], 210–11 (Goodwin''s account). Names: Kennedy, Goodwin. Check: the day; before the announcement of the State Department changes, Nov. 17 (212).'
+    tags: [name:kennedy-john-f, name:goodwin-richard-n]
+  - id: cal.1961-11.transition-and-staff-3
+    when: Nov., Thanksgiving
+    date: 1961-11
+    thread: transition-and-staff
+    c: 'Told by Rusk that he is to leave the State Department as Under Secretary, Bowles threatens to resign. Sorensen, just come to Hyannis Port with the President for Thanksgiving, is sent back to Washington on Air Force One to keep Bowles from making a storm; they talk for hours in Bowles''s office, Sorensen affirming the new role and a White House car. Kennedy: "Ted, that''s your best work since the Michigan delegation!"'
+    n: '[[w.sorensen-counselor]], 235 (Sorensen''s account, written in 2008; the President had told only Rusk, Robert Kennedy and Sorensen; Adzhubei on the plane, not entered). See [[cal.1961-11-26.transition-and-staff]]. Names: Bowles, Rusk, Sorensen, Kennedy. Check: the day; Adzhubei interviewed Kennedy at Hyannis Port Nov. 25 ([[cal.1961-11-25.berlin-and-vienna]]).'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:bowles-chester, name:rusk-dean]
+  - id: cal.1961-11.vietnam-4
+    when: Nov.
+    date: 1961-11
+    thread: vietnam
+    c: 'Sorensen to the President, by memorandum, cautions against a significant military escalation in Vietnam, with questions: whether American troops will be welcomed or resented; whether Khrushchev will regard it as "more stupid than bold" and "feel we are sufficiently weakened and diverted to permit him further moves"; whether they can do much more than Vietnamese troops "that already outnumber Communists 10-1"; whether "all other courses have been explored or exhausted."'
+    n: '[[w.sorensen-counselor]], 355–56 (Sorensen''s account, written in 2008: "still another November 1961 memorandum"; the questions quoted in part; Sorensen "sensed those memos met with his approval"). See [[cal.1961-11-24.vietnam]]. Names: Sorensen, Kennedy, Khrushchev. Check: the day.'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f]
+  - id: cal.1961-11.soviet-union-3
+    when: Nov., early
+    date: 1961-11
+    thread: soviet-union
+    also: [press-and-broadcasting]
+    c: Bolshakov tells Salinger that Adzhubei has been chosen to interview the President; they agree on the day, Nov. 25, and the place, Hyannis Port. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 200. Check: the day ("early in November"). See [[cal.1961-09-29.soviet-union]]. Names: Bolshakov, Salinger, Adzhubei.'
+    tags: [name:bolshakov-georgi, name:salinger-pierre, name:adzhubei-aleksei]

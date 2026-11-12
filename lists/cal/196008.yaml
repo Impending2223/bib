@@ -103,6 +103,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-01.farm
+    when: Aug. 1
+    date: '1960-08-01'
+    thread: farm
+    also: [elections-1960-kennedy]
+    c: 'Hyannis Port, Mass. Five Midwestern Democratic Governors (Loveless, Docking, Herseth, Nelson, Freeman) and three Senators (Burdick, Proxmire, Humphrey) issue from Kennedy''s headquarters a joint statement on farm policy: Nixon, "in the short span of 48 hours since his nomination," has "repudiated two key parts" of the administration''s program, defense and Benson''s farm policy. Kennedy adds a statement of his own on the same subject.'
+    n: '[[w.communications-freedom-of-communications-part]], 1–3. Names: Kennedy, Humphrey, Freeman, Loveless, Docking, Herseth, Nelson, Burdick, Proxmire, Nixon, Benson.'
+    tags: [name:kennedy-john-f, name:humphrey-hubert-h, name:freeman-orville-l, name:loveless-herschel-c, name:docking-george, name:herseth-ralph, name:nelson-gaylord-a, name:burdick-quentin-n, name:proxmire-william, name:nixon-richard-m, name:benson-ezra-taft, state:ma]
   - id: cal.1960-08-02.governors-mi
     when: Aug. 2
     date: '1960-08-02'
@@ -239,6 +247,14 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-08-05.elections-1960-kennedy
+    when: Aug. 5
+    date: '1960-08-05'
+    thread: elections-1960-kennedy
+    also: [immigration]
+    c: 'New York, the Overseas Press Club. Kennedy to the foreign-language press, "the first speech I have made since the Democratic Convention": immigration policy and the captive nations.'
+    n: '[[w.communications-freedom-of-communications-part]], 3–4 (headed a press conference). Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:ny, city:nyc]
   - id: cal.1960-08-06.cuba
     when: Aug. 6
     date: '1960-08-06'
@@ -279,6 +295,36 @@ entries:
     time_band: workday daytime
     time_zone: Africa/Accra
     range_basis: kind
+  - id: cal.1960-08-06.immigration
+    when: Aug. 6
+    date: '1960-08-06'
+    thread: immigration
+    also: [elections-1960-kennedy]
+    c: 'Hyannis Port, Mass. Kennedy to national leaders of civic and fraternal organizations, 21 national origins, with Williams and the Democratic nationalities division: a Democratic administration will give "high priority" to the platform plank on immigration and naturalization law; "I shall insist that this pledge be given high priority." Statements to the Chinese-American citizens (Gung-Hsing Wang of Chicago calls on him) and to the Hellenic communities issue from the same meeting.'
+    n: '[[w.communications-freedom-of-communications-part]], 6–12 (the release printed three times, 7, 9 and 11). Names: Kennedy, Williams.'
+    tags: [name:kennedy-john-f, name:williams-g-mennen, state:ma]
+  - id: cal.1960-08-06.elections-1960-kennedy
+    when: Aug. 6
+    date: '1960-08-06'
+    thread: elections-1960-kennedy
+    also: [immigration]
+    c: 'Hyannis Port, Mass. Kennedy, statement to Lithuanian-American leaders: a Democratic administration "shall continue to refuse to recognize this forced annexation" of Lithuania by the Soviets in 1940. He notes the Republican administration''s March quotas left out a Lithuanian quota.'
+    n: '[[w.communications-freedom-of-communications-part]], 4–5. Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:ma, polity:ussr]
+  - id: cal.1960-08-06.elections-1960-kennedy-2
+    when: Aug. 6
+    date: '1960-08-06'
+    thread: elections-1960-kennedy
+    c: 'Hyannis Port, Mass. Kennedy, statement to Polish-American leaders, Machrowicz their spokesman: flood relief ("Whole families are starving in Poland today"), and American aid in consumer goods and cultural exchanges; the Republican administration''s aid "too little and too late."'
+    n: '[[w.communications-freedom-of-communications-part]], 5–6. Names: Kennedy, Machrowicz.'
+    tags: [name:kennedy-john-f, name:machrowicz-thaddeus-m, state:ma]
+  - id: cal.1960-08-06.elections-1960-kennedy-3
+    when: Aug. 6
+    date: '1960-08-06'
+    thread: elections-1960-kennedy
+    c: 'Hyannis Port, Mass. Kennedy at lunch on his boat with Jacqueline Kennedy, the Radziwills and Schlesinger and his wife, from after 1 to nearly 5, by Schlesinger''s journal. On Nixon, whom he feels "much better about": "Nixon is about as far advanced as I was ten years ago"; "no taste." Schlesinger urges a major speech taking off from Castro, to set his foreign policy against Nixon''s; Kennedy: "We can''t do anything except through the OAS ... and most of the members of the OAS don''t want to do anything at all."'
+    n: '[[w.schlesinger-journals]], 80–82. Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Jacqueline Kennedy, Schlesinger, Nixon, Castro.'
+    tags: [name:kennedy-john-f, name:kennedy-jacqueline, name:schlesinger-arthur-m-jr, name:nixon-richard-m, name:castro-fidel, state:ma]
   - id: cal.1960-08-08.congress
     when: Aug. 8
     date: '1960-08-08'
@@ -311,7 +357,14 @@ entries:
     date: '1960-08-09'
     thread: voting-rights
     c: 'Senate tables, [54–28](https://voteview.com/rollcall/RS0860388), on Clark''s motion, Dirksen''s bill of the two proposals left out of the act of May: a commission on equal job opportunity under government contracts, aid to districts desegregating schools. Kennedy and Johnson for tabling, Dirksen and Javits against. Kennedy: the Republicans would use civil rights to block school aid, housing, medical care and the minimum wage.'
-    n: 'S. 3823, 86th Cong. [Statement by Senator John F. Kennedy, on Use of Civil Rights Legislation](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-use-civil-rights-legislation). The Senate sat from noon to 8:34 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D436](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=434). See [[cal.1960-02-15.voting-rights]]. Names: Clark, Dirksen, Javits, Kennedy, Johnson.'
+    n: 'S. 3823, 86th Cong. [Statement by Senator John F. Kennedy, on Use of Civil Rights Legislation](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-use-civil-rights-legislation). The Senate sat from noon to 8:34 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D436](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=434). [[w.communications-freedom-of-communications-part]], 12–13 (Kennedy''s statement of Aug. 9: the Republicans'' intention "to use civil rights legislation to block" federal aid to education, housing, medical help for the aged and the minimum wage; Dirksen''s motion of April 1 to table; not the vote or the day''s sitting). See [[cal.1960-02-15.voting-rights]]. Names: Clark, Dirksen, Javits, Kennedy, Johnson.'
+    src:
+      c: 6b610af7
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-use-civil-rights-legislation: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1: all'
+        - 'https://voteview.com/rollcall/RS0860388: A'
+        - 'w.communications-freedom-of-communications-part 12–13: C'
     tags: [name:clark-joseph-s, name:dirksen-everett, name:javits-jacob-k, name:kennedy-john-f, name:johnson-lyndon-b]
     time_range:
       - 1960-08-09T16:00Z
@@ -445,6 +498,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-10.jobs-and-wages
+    when: Aug. 10
+    date: '1960-08-10'
+    thread: jobs-and-wages
+    also: [elections-1960-kennedy]
+    c: 'Senate. Kennedy opens debate on the Fair Labor Standards Amendments of 1960: the minimum wage of 2½ million workers to $1.25 by stages, 1961–63; coverage to 5 million more, chiefly in large retail and service enterprises.'
+    n: '[[w.communications-freedom-of-communications-part]], 13–17 (the page prints "from $1.10 to $1.25," 13; "from $1 to $1.25," 14). To check: the Congressional Record, Aug. 10, 1960 (the speech). See [[cal.1960-06-30.jobs-and-wages]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f, city:washington]
   - id: cal.1960-08-11.defense
     when: Aug. 11
     date: '1960-08-11'
@@ -599,6 +660,14 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 349: all'
     tags: [name:kissinger-henry-a, name:rockefeller-nelson]
+  - id: cal.1960-08-14.medicare
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: medicare
+    also: [elections-1960-kennedy]
+    c: 'Hyde Park, N.Y. Kennedy''s speech at the memorial program on the twenty-fifth anniversary of the Social Security Act''s signing, Mrs. Roosevelt present: medical care for the aged through Social Security "can—and should—and must be enacted this year," the first of eight points for the aged.'
+    n: '[[w.communications-freedom-of-communications-part]], 18–21. See [[cal.1960-08.elections-1960-8]]. Names: Kennedy, Roosevelt.'
+    tags: [name:kennedy-john-f, name:roosevelt-eleanor, state:ny]
   - id: cal.1960-08-15.space
     when: Aug. 15
     date: '1960-08-15'
@@ -809,6 +878,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-17.medicare
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: medicare
+    c: 'Kennedy to Clinton Anderson, by letter: the Finance Committee''s bill on medical care for the aged "good as far as it goes," but no pay-as-you-go financing. He will join Anderson in sponsoring an amendment on the floor: health benefits for those over sixty-eight, financed by one-quarter of 1 percent of taxable earnings from employers and employees.'
+    n: '[[w.communications-freedom-of-communications-part]], 21–22. See [[cal.1960-06-23.medicare]]. Names: Kennedy, Anderson.'
+    tags: [name:kennedy-john-f, name:anderson-clinton-p]
+  - id: cal.1960-08-17.elections-1960-kennedy
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: elections-1960-kennedy
+    c: 'By telephone to the National Association of County Officials, Miami, Fla. Kennedy''s greetings: the sixties'' problems not "exclusively Federal"; "enough to go around" for every level of government.'
+    n: '[[w.communications-freedom-of-communications-part]], 23. Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:fl]
   - id: cal.1960-08-18.congo-2
     when: Aug. 18
     date: '1960-08-18'
@@ -850,7 +933,7 @@ entries:
     date: '1960-08-18'
     thread: jobs-and-wages
     c: 'Senate passes Kennedy''s minimum wage bill, [62–34](https://voteview.com/rollcall/RS0860402): $1.25 by the third year; coverage to about four million more workers, after hotels, motels, restaurants, and auto and farm implement dealers are excluded, [87–8](https://voteview.com/rollcall/RS0860400). The House bill of June 30, Kitchin''s substitute: $1.15, [341–72](https://voteview.com/rollcall/RH0860163).'
-    n: 'H.R. 12677, 86th Cong. [Press Release of Senator John F. Kennedy, on Minimum Wage Bill](https://www.presidency.ucsb.edu/documents/press-release-senator-john-f-kennedy-minimum-wage-bill-washington-dc). The Senate sat from noon to 9:49 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D448](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=446). To check: [[w.kallina-kennedy-v-nixon]]. Names: Kennedy, Kitchin.'
+    n: 'H.R. 12677, 86th Cong. [Press Release of Senator John F. Kennedy, on Minimum Wage Bill](https://www.presidency.ucsb.edu/documents/press-release-senator-john-f-kennedy-minimum-wage-bill-washington-dc). The Senate sat from noon to 9:49 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D448](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=446). [[w.communications-freedom-of-communications-part]], 23–24, 38 (Kennedy''s release on the Senate''s vote of 62 to 34: $1.15, $1.20, then $1.25; coverage of about four million more employees; the exemptions voted for hotels, motels, restaurants, and automobile and farm equipment dealers, not the vote of 87–8 or the House bill; Kennedy at 38: "I brought to the floor and passed a bill for $1.25 minimum wage"). To check: [[w.kallina-kennedy-v-nixon]]. Names: Kennedy, Kitchin.'
     src:
       c: ddc1349e
       rows:
@@ -858,6 +941,7 @@ entries:
         - 'https://voteview.com/rollcall/RS0860402: A'
         - 'https://voteview.com/rollcall/RS0860400: B'
         - 'https://voteview.com/rollcall/RH0860163: C'
+        - 'w.communications-freedom-of-communications-part 23–24, 38: A'
     tags: [name:kennedy-john-f, name:kitchin-alvin-p]
     short: the minimum wage held over
     time_range:
@@ -997,17 +1081,26 @@ entries:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=26: all'
         - 'w.sen-church-alleged-assassination-plots 15: B'
     tags: [name:bissell-richard-m-jr]
+  - id: cal.1960-08-19.farm
+    when: Aug. 19
+    date: '1960-08-19'
+    thread: farm
+    c: Senate passes Proxmire's bill raising the support price of grade B milk from about $3 to about $3.24, Humphrey and Symington among its cosponsors. By Kennedy's account at Des Moines two days later ("on Friday").
+    n: '[[w.communications-freedom-of-communications-part]], 35. Check: the chamber and the bill; Kennedy: "We did pass a bill on Friday." Names: Proxmire, Humphrey, Symington.'
+    tags: [name:proxmire-william, name:humphrey-hubert-h, name:symington-william-s, name:kennedy-john-f]
   - id: cal.1960-08-20.elections-1960
     when: Aug. 20
     date: '1960-08-20'
     thread: elections-1960-kennedy
     c: 'Independence. Kennedy with Truman in his office at the Truman Library, forty minutes, Symington left on the steps. Truman will campaign for the ticket: "The convention nominated this man, and I am going to support him—and what are you going to do about it?"'
-    n: '[[w.clifford-counsel-to-the-president-2]], 322 (Ribicoff before it, Kennedy''s emissary; the meeting); [[w.sorensen-kennedy]], 170 (the visit; Truman''s support secured). See [[cal.1960-07-02.elections-1960-2]]. Names: Kennedy, Truman, Symington.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 322 (Ribicoff before it, Kennedy''s emissary; the meeting); [[w.sorensen-kennedy]], 170 (the visit; Truman''s support secured); [[w.communications-freedom-of-communications-part]], 24–28 (Kennedy''s press conference with Truman at the Truman Library, Independence, 12:25 p.m., Saturday, Aug. 20: Kennedy asked Truman "to participate actively in the campaign ... and he said that he would" (24); Truman: "they nominated this man, and I am going to support him" (25); Symington speaks at it (28); not the forty minutes or the steps); [[w.odonnell-johnny-we-hardly-knew]], 227 (Kennedy "faced Truman calmly but politely in their private meeting at the library at Independence, and not much was said on either side"; to the reporters Truman: "When the Democratic convention decided to nominate him, that''s when I decided"; Ribicoff sent in early August to arrange the meeting). Check: the words; [[w.communications-freedom-of-communications-part]], 25 prints Truman: "they nominated this man, and I am going to support him. What are you going to do about that?". See [[cal.1960-07-02.elections-1960-2]]. Names: Kennedy, Truman, Symington.'
     src:
       c: 59c56022
       rows:
         - 'w.clifford-counsel-to-the-president-2 322: all'
         - 'w.sorensen-kennedy 170: ?'
+        - 'w.communications-freedom-of-communications-part 24–28: A'
+        - 'w.odonnell-johnny-we-hardly-knew 227: ?'
     tags: [name:kennedy-john-f, name:truman-harry-s, name:symington-william-s]
     time_range:
       - 1960-08-20T14:00Z
@@ -1033,6 +1126,45 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-08-20.farm
+    when: Aug. 20
+    date: '1960-08-20'
+    thread: farm
+    also: [elections-1960-nixon]
+    c: 'Benson, in a statement that night: he is being made the scapegoat for the Democratic Congress in farm policy. By a question put to Kennedy at Des Moines the next day.'
+    n: '[[w.communications-freedom-of-communications-part]], 34 ("the statement last night that Mr. Benson made"). Names: Benson.'
+    tags: [name:benson-ezra-taft]
+  - id: cal.1960-08-21.elections-1960-kennedy
+    when: Aug. 21
+    date: '1960-08-21'
+    thread: elections-1960-kennedy
+    also: [farm]
+    c: 'Des Moines, Iowa. The Kennedy–Johnson Midwest Farm Conference, Loveless its organizer, Humphrey presiding; Johnson, Symington, Kefauver and Freeman there. Kennedy: farm purchasing power cut some 20 percent in Nixon''s eight years; the family farm "the No. 1 domestic issue"; "I would rather be accused of breaking precedents than breaking promises."'
+    n: '[[w.communications-freedom-of-communications-part]], 29–32 (the prepared remarks), 36–38 (Humphrey, Johnson and Kennedy at the conference). Names: Kennedy, Johnson, Humphrey, Symington, Kefauver, Freeman, Loveless, Nixon.'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:humphrey-hubert-h, name:symington-william-s, name:kefauver-estes, name:freeman-orville-l, name:loveless-herschel-c, name:nixon-richard-m, state:ia]
+  - id: cal.1960-08-21.elections-1960-kennedy-2
+    when: Aug. 21
+    date: '1960-08-21'
+    thread: elections-1960-kennedy
+    also: [farm]
+    c: 'Des Moines, Iowa, the auditorium. Kennedy''s press conference after the farm conference, Loveless reading the questions. On Scott''s charge of Kennedy money for the farm vote: "I don''t share the view that the farm vote is for sale." A Secretary of Agriculture should have farmed and live in the Midwest; "it would be helpful if he were a Democrat."'
+    n: '[[w.communications-freedom-of-communications-part]], 32–35. See [[cal.1960-08-21.elections-1960-kennedy]]. Names: Kennedy, Loveless, Scott.'
+    tags: [name:kennedy-john-f, name:loveless-herschel-c, name:scott-hugh-d-jr, state:ia]
+  - id: cal.1960-08-21.elections-1960-nixon
+    when: Aug. 21
+    date: '1960-08-21'
+    thread: elections-1960-nixon
+    c: 'Scott, on *College News Conference*: the Kennedy family fortune used to buy votes; Kennedy''s spending so far put at $7 million to $12 million, "I am sure that more will be used"; Kennedy cash to buy the farm vote and pay immigrants'' transportation. By a question read to Kennedy at Des Moines the same day.'
+    n: '[[w.communications-freedom-of-communications-part]], 33. See [[cal.1960-08.elections-1960-7]]. Names: Scott.'
+    tags: [name:scott-hugh-d-jr, name:kennedy-john-f]
+  - id: cal.1960-08-21.elections-1960-nixon-2
+    when: Aug. 21
+    date: '1960-08-21'
+    thread: elections-1960-nixon
+    also: [farm]
+    c: 'Omaha, Nebr., the morning. Seaton, Secretary of the Interior, one of the five on Nixon''s strategy board: the trouble with the Benson program is that the Democratic Congress never adopted it. By Kennedy''s account at Des Moines the same day.'
+    n: '[[w.communications-freedom-of-communications-part]], 35. Names: Seaton, Nixon, Benson.'
+    tags: [name:seaton-fred-a, name:nixon-richard-m, name:benson-ezra-taft, state:ne]
   - id: cal.1960-08-22.cuba
     when: Aug. 22
     date: '1960-08-22'
@@ -1077,7 +1209,7 @@ entries:
     thread: medicare
     also: [welfare]
     c: Senate rejects the Anderson–Kennedy amendment, hospital care for the aged through Social Security, [44–51](https://voteview.com/rollcall/RS0860407); Javits's, federal-state matching, [28–67](https://voteview.com/rollcall/RS0860406). Passes the Kerr–Mills bill, grants for the medically needy aged, [91–2](https://voteview.com/rollcall/RS0860409).
-    n: 'Javits, [106 Cong. Rec. 17,213](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt13/pdf/GPO-CRECB-1960-pt13-4-1.pdf#page=70) (1960) (Aug. 23, 1960): against the Anderson amendment "at this time, under the intensely political circumstances of this brief session.". H.R. 12580, 86th Cong. [Statement by Senator John F. Kennedy on the Senate Floor on Medical Care for the Aged](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-the-senate-floor-medical-care-for-the-aged). [[w.sundquist-politics-and-policy]], 307 (Javits''s amendment and the Anderson–Kennedy amendment beaten); [[w.sundquist-politics-and-policy]], 307; [[w.mcpherson-political-education]], 179 (medical care for the aged, a major initiative of the Democratic platform, "put to an early test" in the session and failed). The Senate sat from noon to 8:30 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D455](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=453). Check: Sundquist, 307 n.56, dates Javits''s words Aug. 20; the Record prints them Aug. 23, 17213. To check: [[w.morgan-robert-s-kerr]]. See [[cal.1960-03-31.medicare]]. Names: Anderson, Kerr, Kennedy, Javits, Mills.'
+    n: 'Javits, [106 Cong. Rec. 17,213](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt13/pdf/GPO-CRECB-1960-pt13-4-1.pdf#page=70) (1960) (Aug. 23, 1960): against the Anderson amendment "at this time, under the intensely political circumstances of this brief session.". H.R. 12580, 86th Cong. [Statement by Senator John F. Kennedy on the Senate Floor on Medical Care for the Aged](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-the-senate-floor-medical-care-for-the-aged). [[w.sundquist-politics-and-policy]], 307 (Javits''s amendment and the Anderson–Kennedy amendment beaten); [[w.sundquist-politics-and-policy]], 307; [[w.mcpherson-political-education]], 179 (medical care for the aged, a major initiative of the Democratic platform, "put to an early test" in the session and failed); [[w.communications-freedom-of-communications-part]], 40–41 (Kennedy''s Senate statement for the Anderson amendment, which he cosponsored: insurance for nine million of the aged through Social Security; not the votes or their counts). The Senate sat from noon to 8:30 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D455](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=453). Check: Sundquist, 307 n.56, dates Javits''s words Aug. 20; the Record prints them Aug. 23, 17213. To check: [[w.morgan-robert-s-kerr]]. See [[cal.1960-03-31.medicare]]. Names: Anderson, Kerr, Kennedy, Javits, Mills.'
     src:
       c: f5198959
       rows:
@@ -1087,6 +1219,7 @@ entries:
         - 'https://voteview.com/rollcall/RS0860409: C'
         - 'w.sundquist-politics-and-policy 307: A, B'
         - 'w.mcpherson-political-education 179: A'
+        - 'w.communications-freedom-of-communications-part 40–41: ?'
     tags: [name:anderson-clinton-p, name:kennedy-john-f, name:javits-jacob-k, name:kerr-robert-s, name:mills-wilbur-d]
     short: Anderson–Kennedy refused
     time_range:
@@ -1161,6 +1294,28 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-23.elections-1960-kennedy
+    when: Aug. 23
+    date: '1960-08-23'
+    thread: elections-1960-kennedy
+    c: 'Telegram to the 61st VFW encampment, Detroit: Kennedy cannot come; the Senate votes Tuesday, at 2 p.m. and 6 p.m., on two sections of the medical care bill for the aged, and "my responsibility is to be here."'
+    n: '[[w.communications-freedom-of-communications-part]], 39. Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:mi, city:detroit]
+  - id: cal.1960-08-23.elections-1960-kennedy-2
+    when: Aug. 23
+    date: '1960-08-23'
+    thread: elections-1960-kennedy
+    c: 'VFW officials, Mahan, a past commander in chief, among them, wire Kennedy: "your fellow veterans respect and understand your giving priority to your constructive legislation program"; they are "dedicated to the election of John F. Kennedy." Kennedy, gratified: "clear duty was to remain here on the floor of the U.S. Senate."'
+    n: '[[w.communications-freedom-of-communications-part]], 39 (Kennedy''s release). See [[cal.1960-08-23.elections-1960-kennedy]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f, city:washington]
+  - id: cal.1960-08-23.medicare-2
+    when: Aug. 23
+    date: '1960-08-23'
+    thread: medicare
+    also: [elections-1960-kennedy]
+    c: 'Kennedy''s statement that night, his "keen disappointment" at the Anderson–Kennedy amendment''s defeat: "the threat of a White House veto mentioned by every speaker opposing the amendment contributed to this defeat"; only one Republican voted for it.'
+    n: '[[w.communications-freedom-of-communications-part]], 41. See [[cal.1960-08-23.medicare]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f, city:washington]
   - id: cal.1960-08-24.press-and-broadcasting
     when: Aug. 24
     date: '1960-08-24'
@@ -1264,6 +1419,13 @@ entries:
     c: 'The station at Léopoldville to headquarters: anti-Lumumba leaders approached Kasavubu "with plan assassinate Lumumba." Kasavubu "refused agree saying he reluctant resort violence and no other leader sufficient stature replace Lumumba."'
     n: '[[w.sen-church-alleged-assassination-plots]], 15 (the cable). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, Leopoldville to Director, Aug. 24, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 15). See [[cal.1960-08-18.congo-lumumba]]. Names: Kasavubu, Lumumba.'
     tags: [name:kasavubu-joseph, name:lumumba-patrice]
+  - id: cal.1960-08-24.elections-1960-kennedy
+    when: Aug. 24
+    date: '1960-08-24'
+    thread: elections-1960-kennedy
+    c: 'Alexandria, Va., George Washington High School Stadium, the evening. Kennedy at a Democratic rally with Johnson and Governor Almond: Nixon is "experienced in policies of weakness, retreat, and defeat"; the issue is the experience of the whole nation in eight years.'
+    n: '[[w.communications-freedom-of-communications-part]], 41–44 (the speech as given), 44–46 (the prepared text, in part). Names: Kennedy, Johnson, Nixon.'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:nixon-richard-m, state:va]
   - id: cal.1960-08-25.middle-east
     when: Aug. 25
     date: '1960-08-25'
@@ -1434,6 +1596,29 @@ entries:
     thread: latin-america-dominican-republic
     c: 'Dearborn to Mallory, Deputy Assistant Secretary of State, by cable, on a meeting between a dissident leader and a consulate political officer: the leader has lost enthusiasm for an assassination attempt and speaks of an invasion from Venezuela.'
     n: '[[w.sen-church-alleged-assassination-plots]], 194 (the cable). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Cable, Dearborn to Mallory, Aug. 26, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 194). See [[cal.1960-07-14.latin-america-dominican-republic-2]], [[cal.1960-08-26.latin-america]].'
+  - id: cal.1960-08-26.middle-east
+    when: Aug. 26
+    date: '1960-08-26'
+    thread: middle-east
+    also: [elections-1960-kennedy]
+    c: 'New York, the Statler Hilton. Kennedy to the Zionists of America convention: "Israel is here to stay." The new President to reaffirm friendship for all the peoples of the Middle East, to guarantee the tripartite declaration of 1950 against any aggressor, and to call the leaders of Israel and the Arab States into conference.'
+    n: '[[w.communications-freedom-of-communications-part]], 46–50. Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:ny, city:nyc]
+  - id: cal.1960-08-26.elections-1960-kennedy
+    when: Aug. 26
+    date: '1960-08-26'
+    thread: elections-1960-kennedy
+    also: [defense]
+    c: 'Detroit, the VFW convention. Kennedy, a past commander of the Massachusetts post named for his brother, hails the convention''s resolution for more defensive strength. One defense policy, "first": "I mean first—period." The next President to ask Congress in January to speed Polaris, Minuteman and other missiles.'
+    n: '[[w.communications-freedom-of-communications-part]], 50–54. Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:mi, city:detroit]
+  - id: cal.1960-08-26.elections-1960-kennedy-2
+    when: Aug. 26
+    date: '1960-08-26'
+    thread: elections-1960-kennedy
+    c: By telephone to the AMVET convention, Miami Beach, Fla., from Detroit with Swainson beside him. The struggle is in "the Congo, Cuba, Latin America, Africa, Asia," not Western Europe.
+    n: '[[w.communications-freedom-of-communications-part]], 54–55 (the report prints "John Swenson," the Lieutenant Governor of Michigan). Names: Kennedy, Swainson.'
+    tags: [name:kennedy-john-f, name:swainson-john-b, state:fl]
   - id: cal.1960-08-27.sit-ins
     when: Aug. 27
     date: '1960-08-27'
@@ -1615,6 +1800,13 @@ entries:
       - 1960-08-29T16:00Z
     time_band: morning
     time_zone: America/New_York
+  - id: cal.1960-08-29.elections-1960-kennedy
+    when: Aug. 29
+    date: '1960-08-29'
+    thread: elections-1960-kennedy
+    c: Kennedy's statement greeting Americans of the Jewish faith on the high holy days, as the year 5721 begins.
+    n: '[[w.communications-freedom-of-communications-part]], 56. Names: Kennedy.'
+    tags: [name:kennedy-john-f]
   - id: cal.1960-08-30.elections-1960
     when: Aug. 30
     date: '1960-08-30'
@@ -1655,6 +1847,44 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 319–20: all'
     tags: [name:kennedy-john-f, name:clifford-clark]
+  - id: cal.1960-08-30.jobs-and-wages
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: jobs-and-wages
+    also: [elections-1960-kennedy]
+    c: Kennedy announces the failure of the House and Senate conferees on the minimum wage. He had backed Prouty's compromise; the other Republicans refused the $1.25 Senate bill and the milder Prouty amendment Eisenhower endorsed.
+    n: '[[w.communications-freedom-of-communications-part]], 57. See [[cal.1960-08-18.jobs-and-wages]]. Names: Kennedy, Prouty, Eisenhower.'
+    tags: [name:kennedy-john-f, name:prouty-winston-l, name:eisenhower-dwight-d, city:washington]
+  - id: cal.1960-08-30.elections-1960-kennedy
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: elections-1960-kennedy
+    also: [defense]
+    c: 'Washington, Senate Office Building. Kennedy''s press conference: a four-man group for nonpartisan consultations on national security, Nitze chairman, with Bruce, Gilpatric and James A. Perkins, for the months from November to January, not the campaign. Questions on its work and on Symington''s group.'
+    n: '[[w.communications-freedom-of-communications-part]], 57–64 (ended 11:20 a.m.). Names: Kennedy, Nitze, Bruce, Gilpatric, Symington.'
+    tags: [name:kennedy-john-f, name:nitze-paul, name:bruce-david-k-e, name:gilpatric-roswell-l, name:symington-william-s, city:washington]
+  - id: cal.1960-08-30.elections-1960-kennedy-2
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: elections-1960-kennedy
+    also: [labor]
+    c: Remarks to the New York State AFL-CIO, from Washington, where the minimum wage conference keeps him. He accepts its endorsement.
+    n: '[[w.communications-freedom-of-communications-part]], 64–66. Names: Kennedy.'
+    tags: [name:kennedy-john-f, state:ny]
+  - id: cal.1960-08-30.elections-1960-rockefeller
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: elections-1960-rockefeller
+    c: 'Lunch. Kissinger to Schlesinger: he saw Rockefeller at Seal Harbor the week before to say he could not help in the fall campaign, and will do nothing that might aid Nixon; Rockefeller "appeared low and sunk," disappointed by the response in Chicago. Of the Nixon–Rockefeller talks, Nixon came "armed with polls" to argue him into the Vice Presidential nomination, offering the platform, "complete control over foreign policy" and New York State patronage; Rockefeller turned it all down: "He loathes Nixon."'
+    n: '[[w.schlesinger-journals]], 84. Made public: [[w.schlesinger-journals]] (2007). Names: Kissinger, Schlesinger, Rockefeller, Nixon.'
+    tags: [name:kissinger-henry-a, name:schlesinger-arthur-m-jr, name:rockefeller-nelson, name:nixon-richard-m]
+  - id: cal.1960-08-30.elections-1960-kennedy-3
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: elections-1960-kennedy
+    c: 'Kennedy at dinner with Phil and Katharine Graham and Johnson, by Graham''s account to Schlesinger the next day. Over cocktails the talk is of the South. At table Graham raises the northern liberals, "the other and more important part" of the coalition. Kennedy: "The trouble with the northern liberals is that they want their arses kissed all the time.... But I can''t spend all my time doing it." Graham: he has not been drafted and must be prepared to act himself; Kennedy "wearily agreed."'
+    n: '[[w.schlesinger-journals]], 84–85. Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Katharine Graham, Johnson, Schlesinger.'
+    tags: [name:kennedy-john-f, name:graham-katharine, name:johnson-lyndon-b, name:schlesinger-arthur-m-jr]
   - id: cal.1960-08-31.elections-1960
     when: Aug. 31
     date: '1960-08-31'
@@ -1781,11 +2011,13 @@ entries:
     date: 1960-08
     thread: elections-1960-kennedy
     c: Hyde Park, N.Y. Kennedy calls on Mrs. Roosevelt and has her support.
-    n: '[[w.sorensen-kennedy]], 170 (between the convention and Labor Day). Names: Kennedy, Eleanor Roosevelt. Check: the day; Kennedy spoke at Hyde Park on Aug. 14, the Social Security Act''s twenty-fifth anniversary ([Speech, Hyde Park, NY](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-memorial-program-25th-anniversary-signing-social-security), APP, not read).'
+    n: '[[w.sorensen-kennedy]], 170 (between the convention and Labor Day); [[w.communications-freedom-of-communications-part]], 18 (Kennedy at Hyde Park, Aug. 14, the memorial program for the Social Security Act''s twenty-fifth anniversary: "I am grateful to you, Mrs. Roosevelt, for allowing me" there; the place and a day; not a call on her or her support); [[w.odonnell-johnny-we-hardly-knew]], 227–28 (the Sunday visit to Mrs. Roosevelt''s cottage, Powers with him; she made no demand for Stevenson and told him to choose his Cabinet "without making any preelection promises"; a granddaughter killed in a fall from a horse the day before, the visit kept). Names: Kennedy, Eleanor Roosevelt. Check: the day; Kennedy spoke at Hyde Park on Aug. 14, the Social Security Act''s twenty-fifth anniversary ([Speech, Hyde Park, NY](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-memorial-program-25th-anniversary-signing-social-security), APP, not read).'
     src:
       c: c58f8aa3
       rows:
         - 'w.sorensen-kennedy 170: all'
+        - 'w.communications-freedom-of-communications-part 18: ?'
+        - 'w.odonnell-johnny-we-hardly-knew 227–28: ?'
     tags: [name:kennedy-john-f, name:roosevelt-eleanor]
   - id: cal.1960-08.elections-1960-9
     when: Aug.
@@ -1804,11 +2036,12 @@ entries:
     thread: elections-1960-kennedy
     also: [defense]
     c: 'Late in the month. Kennedy flies to Strategic Air Command headquarters in Omaha for a briefing the Administration arranges; not given the full top-secret account of Soviet and American missile and bomber strength. Kennedy: he had more as a member of Foreign Relations; he will remember it at appropriation time.'
-    n: '[[w.sorensen-kennedy]], 612. See [[cal.1960-07-23.elections-1960]]. Names: Kennedy. Check: the day; Sorensen: "late in August."'
+    n: '[[w.sorensen-kennedy]], 612; [[w.communications-freedom-of-communications-part]], 34 (Kennedy at Des Moines, Aug. 21: he spent "last night and this morning at the SAC Air Force Base in Omaha, Nebr.," with Jackson and Symington; the place and the days; not the briefing, what he was not told or his words on it). See [[cal.1960-07-23.elections-1960]]. Names: Kennedy. Check: the day; Sorensen: "late in August."'
     src:
       c: b899659a
       rows:
         - 'w.sorensen-kennedy 612: all'
+        - 'w.communications-freedom-of-communications-part 34: ?'
     tags: [name:kennedy-john-f]
   - id: cal.1960-08.elections-1960-7
     when: Aug.
@@ -1951,3 +2184,10 @@ entries:
     c: 'Bissell to Tweedy, chief of the CIA''s Africa Division, by Tweedy''s testimony in 1975: there is "policy agreement, in Washington that Lumumba must be removed from the position of control and influence in the Congo," and among the means "indeed assassination." Tweedy is to start the station exploring it.'
     n: '[[w.sen-church-alleged-assassination-plots]], 19–20 (testimony of Sept. 9 and Oct. 9, 1975: the first talk "probably" shortly before the Dulles cable of Aug. 26, "shortly before or shortly after," the two "totally in tandem"). Made public: the Church Committee''s interim report, Nov. 20, 1975. See [[cal.1960-08-25.congo]]. Names: Bissell, Tweedy, Lumumba. Check: the day.'
     tags: [name:bissell-richard-m-jr, name:tweedy-bronson, name:lumumba-patrice]
+  - id: cal.1960-08-31.trade
+    when: Aug. 31
+    date: '1960-08-31'
+    thread: trade
+    c: 'Kennedy to Governor Hollings, by letter: willing to meet him and industry leaders on textile imports, which have doubled for cotton cloth in the year''s first six months. The next Democratic administration will regard it as "a high priority objective"; the Democratic platform pledges international fair labor standards.'
+    n: '[[w.communications-freedom-of-communications-part]], 66–67. Names: Kennedy, Hollings.'
+    tags: [name:kennedy-john-f, name:hollings-ernest-f, state:sc, city:washington]

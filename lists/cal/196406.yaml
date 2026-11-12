@@ -308,7 +308,12 @@ entries:
     thread: elections-1964
     also: [states-and-cities]
     c: 'California''s Senate primaries. Democratic: Salinger, the President''s press secretary, over Cranston, State Controller, endorsed by the California Democratic Council, 1,177,517 to 1,037,748, 44.3 percent; Engle, who withdrew Apr. 28, 119,967. Republican: Murphy over Leland Kaiser, 1,121,591 to 689,323, 54.1 percent of the three.'
-    n: 'Votes: [Cal. *Statement of Vote*, June 2, 1964, p. 8](https://archive.org/details/castatem196264cali/page/n127). Check: Engle''s percentage. To check: [[w.hill-dancing-bear]]; [[w.schuparra-triumph-of-the-right]]. See [[cal.1964-06-02.elections-1964]]. Names: Salinger, Engle, Cranston, Kaiser, Murphy.'
+    n: 'Votes: [Cal. *Statement of Vote*, June 2, 1964, p. 8](https://archive.org/details/castatem196264cali/page/n127). [[w.salinger-with-kennedy]], 353 (the primary on June 2; Salinger''s margin; Murphy the Republican nominee over Kaiser "in a breeze"; not the votes). Check: Engle''s percentage. To check: [[w.hill-dancing-bear]]; [[w.schuparra-triumph-of-the-right]]. See [[cal.1964-06-02.elections-1964]]. Names: Salinger, Engle, Cranston, Kaiser, Murphy.'
+    src:
+      c: 41116cba
+      rows:
+        - 'https://archive.org/details/castatem196264cali/page/n127: all'
+        - 'w.salinger-with-kennedy 353: A'
     tags: [state:ca, name:salinger-pierre, name:cranston-alan, name:engle-clair, name:murphy-george, name:kaiser-leland]
     time_range:
       - 1964-06-03T03:00Z
@@ -317,6 +322,11 @@ entries:
     time_zone: America/Los_Angeles
     range_basis: kind
     polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41), [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+    variants:
+      - unit: B
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: "My final margin on June 2, 1964, was 174,000."'
+        at: '353'
   - id: cal.1964-06-02.governors-sd
     when: June 2
     date: '1964-06-02'
@@ -703,6 +713,13 @@ entries:
     c: The Senate caucus room. Rally forming Young Citizens for Johnson, Bayh and Marvella Bayh the organizers; Charlotte Ford, daughter of Henry Ford II, who says she decided to vote for Johnson before her father, a Republican, declared for him; John Reuther, son of Victor Reuther, Bobby Mitchell of the Redskins, Peter Duchin and Mayor Wagner's son Bob Jr. among them. Lynda Bird and Luci attend.
     n: '[[w.johnson-white-house-diary]], 154 (Lady Bird Johnson''s account of the *New York Times* report; "yesterday" in her entry of June 5). Names: Johnson, Bayh, Lynda Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:bayh-birch, name:johnson-lynda-bird]
+  - id: cal.1964-06-04.robert-kennedy
+    when: June 4
+    date: '1964-06-04'
+    thread: robert-kennedy
+    c: 'The Oval Office. Johnson and Robert Kennedy, an hour and twenty minutes, on the Olympic Games, which Kennedy wants him to take an interest in; General James Gavin has been pressing Valenti for a visit with Johnson, and Kennedy''s request comes through O''Donnell. The correspondents in the West Lobby take it for talk of the vice presidency. O''Donnell to Valenti meanwhile: tomorrow''s New York papers will say Kennedy is preparing to resign and run for the Senate. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 129–30 (Valenti''s account). Names: Johnson, Robert Kennedy, Gavin, O''Donnell, Valenti.'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:gavin-james-m, name:odonnell-kenneth-p, name:valenti-jack]
   - id: cal.1964-06-05.europe-and-the-alliance
     when: June 5
     date: '1964-06-05'
@@ -982,6 +999,35 @@ entries:
     c: 'The White House. Dinner for John and Elaine Steinbeck. Johnson''s troubles, by Mrs. Johnson''s account: the Turks on the point of invading Cyprus; the coal industry wants Venezuelan oil imports stopped. Steinbeck on Russia: the Russians'' dislike of the Chinese, shown by Khrushchev''s daughter Rada; "blindness" not to have relations with a quarter of the people of the earth, Red China; invite young Russian writers who object to their government. Steinbeck has written a piece on Johnson that the Democratic Committee will likely distribute at the Convention; Mrs. Johnson asks for more such help. The Johnsons walk the Steinbecks across Pennsylvania Avenue.'
     n: '[[w.johnson-white-house-diary]], 155–57 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Khrushchev.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:khrushchev-nikita-s]
+  - id: cal.1964-06-05.robert-kennedy
+    when: June 5
+    date: '1964-06-05'
+    thread: robert-kennedy
+    c: 'The bedroom, breakfast. Johnson to Valenti on Kennedy''s visit of the day before: "I was very impressed with Bobby yesterday ... knew them cold, and made a very able presentation. Damn able." On civil rights: "I asked him about the civil rights program and told him I was going to move it forward if I did nothing else. He was very informative and generous in his conversation." By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 130 (Valenti''s account). See [[cal.1964-06-04.robert-kennedy]]. Names: Johnson, Robert Kennedy, Valenti.'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:valenti-jack]
+  - id: cal.1964-06-05.robert-kennedy-2
+    when: June 5
+    date: '1964-06-05'
+    thread: robert-kennedy
+    c: 'O''Donnell to Valenti: Johnson and Kennedy should see more of each other privately; Kennedy is ever more impressed with Johnson''s resolution on civil rights. Against Paul Corbin, Kennedy''s man, who has been stirring New Hampshire for Kennedy for Vice President. Valenti offers no dissent. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 130–31 (Valenti''s account; "the next day" after the breakfast, the day''s schedule that follows being June 5). Check: the day. Names: O''Donnell, Johnson, Robert Kennedy, Valenti.'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:odonnell-kenneth-p, name:valenti-jack, state:nh]
+  - id: cal.1964-06-05.labor-2
+    when: June 5
+    date: '1964-06-05'
+    thread: labor
+    c: The White House. Johnson meets John L. Lewis, his mine union executives and the mine owners on national coal policy, forty-five minutes. Then O. A. Knight and the executives of the Oil, Chemical and Atomic Workers, brought in as the Lewis group leaves, to meet the coal group. By Valenti's account.
+    n: '[[w.valenti-very-human-president]], 131 (Valenti''s account). Names: Lewis, Johnson, Valenti.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack, name:lewis-john]
+  - id: cal.1964-06-05.vietnam-5
+    when: June 5
+    date: '1964-06-05'
+    thread: vietnam
+    also: [laos]
+    c: 'The Situation Room, nearing 7 p.m. Johnson, with Rusk, McNamara and Bundy, Valenti present, on intelligence on Laos and South Vietnam. Johnson: "We need more diplomatic ingenuity, not more hardware"; civilian governors and administrative advisers, AID, Agriculture and Peace Corps people on the farm side; "We''ve got to see that the South Vietnamese government wins the battle, not so much of arms, but of crops and heart and caring." To Rusk, of a boyhood fight in which his friends ran: "if I have to turn back I want to make sure I am not in too deep to do so." Leaving, he asks Bundy to talk to Robert Kennedy about Vietnam and how he sees Lodge''s work in Saigon.'
+    n: '[[w.valenti-very-human-president]], 131–34 (Valenti''s account). See [[cal.1964-06-05.vietnam-4]] (McNamara''s paper for the meeting; the Daily Diary, by FRUS, has the President with Rusk, Bundy and McNamara 6:52 to 7:43 p.m.). Names: Johnson, Rusk, McNamara, Bundy, Valenti, Robert Kennedy, Lodge.'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:bundy-mcgeorge, name:valenti-jack, name:kennedy-robert-f, name:lodge-henry-cabot]
   - id: cal.1964-06-06.laos
     when: June 6–7
     date: '1964-06-06'
@@ -1201,6 +1247,41 @@ entries:
     c: 'Johnson in the White House hall to Mrs. Johnson, about 1:45 p.m.: "We''ve got our planes ready to go in if absolutely necessary. Everybody''s in agreement that we can''t turn and run." He asks her to take something to Walter Jenkins.'
     n: '[[w.johnson-white-house-diary]], 158 (Lady Bird Johnson''s account; she puts it about 1:45 p.m.). See [[cal.1964-06-06.laos]]. Names: Johnson, Lady Bird Johnson, Walter Jenkins.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:jenkins-walter-w]
+  - id: cal.1964-06-06.laos-3
+    when: June 6
+    date: '1964-06-06'
+    thread: laos
+    c: The National Security Council on Laos decides to overfly Laos with frequent reconnaissance. Afterward Johnson and his party leave by helicopter for New York. By Valenti's account.
+    n: '[[w.valenti-very-human-president]], 135 (Valenti''s account). See [[cal.1964-06-06.laos]]. Names: Johnson, Valenti.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack]
+  - id: cal.1964-06-06.elections-1964-vice-presidency
+    when: June 6
+    date: '1964-06-06'
+    thread: elections-1964-vice-presidency
+    c: 'Valenti advises Humphrey to go to New York on his own, lest speculation on the vice presidency hurt him; Humphrey agrees. Within the hour Johnson buzzes Valenti: "Call Hubert and see if he and Muriel would like to go with us." Valenti does. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 135 (Valenti''s account). Names: Valenti, Humphrey, Johnson.'
+    tags: [name:valenti-jack, name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1964-06-06.labor
+    when: June 6
+    date: '1964-06-06'
+    thread: labor
+    c: 'New York, the International Ladies'' Garment Workers'' Union health center, 1:20 p.m. Johnson''s remarks at an unveiling for the center''s fiftieth anniversary, Dubinsky with him, and Humphrey; thousands crowd the garment district. Luncheon after: Mayor Wagner, Celler, Ryan, Farbstein, Humphrey.'
+    n: 'Remarks in New York City Upon Unveiling a Plaque in Honor of the 50th Anniversary of the ILGWU Health Center, [1963–64 Pub. Papers 749](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=833) (June 6, 1964) (1:20 p.m., the 22d floor of the Union Health Center). [[w.valenti-very-human-president]], 135–36 (Valenti''s account; the luncheon). Check: what was unveiled; Valenti has "a bust of David Dubinsky," the Public Papers'' heading a plaque. See [[cal.1964-06-05.labor]]. Names: Johnson, Humphrey, Wagner, Celler, Ryan, Farbstein.'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:wagner-robert-f-jr, name:celler-emanuel, name:ryan-william-f, name:farbstein-leonard, city:nyc, state:ny]
+  - id: cal.1964-06-06.poverty
+    when: June 6
+    date: '1964-06-06'
+    thread: poverty
+    c: 'New York, after the luncheon at the garment workers'' health center, the men''s room. At Johnson''s request Valenti presses Mayor Wagner to end his feud with Adam Clayton Powell over who runs the poverty program in Harlem: Wagner''s man is Dr. Kenneth Clark, Powell''s a lieutenant. Johnson needs Powell, chairman of Education and Labor, free for the education and poverty bills. Wagner agrees to a cease-fire "for the time being." Valenti reports to Johnson.'
+    n: '[[w.valenti-very-human-president]], 136–37 (Valenti''s account). Names: Valenti, Wagner, Powell, Johnson.'
+    tags: [name:valenti-jack, name:wagner-robert-f-jr, name:powell-adam-clayton-jr, name:johnson-lyndon-b, city:nyc, state:ny]
+  - id: cal.1964-06-06.labor-2
+    when: June 6
+    date: '1964-06-06'
+    thread: labor
+    c: 'New York. Johnson walks with Dubinsky two blocks through the crowd from the health center to the union''s meeting, 3:25 p.m., every one of the auditorium''s 1,600 seats filled; his remarks. To Dubinsky: "I''m going to do much better in New York than a lot of people think."'
+    n: 'Remarks in New York City to Members of the International Ladies Garment Workers Union, [1963–64 Pub. Papers 750](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=834) (June 6, 1964) (3:25 p.m., the auditorium of the High School of Fashion Industries). [[w.valenti-very-human-president]], 137 (Valenti''s account; the walk, the seats, the words to Dubinsky). See [[cal.1964-06-06.labor]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, city:nyc, state:ny]
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
@@ -1372,6 +1453,20 @@ entries:
     c: 'Cleveland. Romney, watching Scranton on *Face the Nation*: "Where are his principles?"'
     n: '[[w.white-suite-3505]], 366 (by White''s account; Romney "started taking pot shots at Scranton" as the Liberal-moderate "cabal" at the Governors'' Conference divided). Check: the hour and the place of the viewing. See [[cal.1964-06-07.elections-1964]]. Names: Romney, Scranton.'
     tags: [name:romney-george-w, name:scranton-william-w, city:cleveland]
+  - id: cal.1964-06-07.laos
+    when: June 7
+    date: '1964-06-07'
+    thread: laos
+    c: 'Michael Forrestal telephones Johnson at 3 a.m.: one of our planes has been shot down over the Plain of Jars. At 10 a.m. he asks Valenti to get Johnson''s consent to a National Security Council meeting; Johnson agrees. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 137 (Valenti''s account; he puts the Plain of Jars "in Vietnam"). See [[cal.1964-06-06.laos]]. Names: Forrestal, Johnson, Valenti.'
+    tags: [name:forrestal-michael-v, name:johnson-lyndon-b, name:valenti-jack]
+  - id: cal.1964-06-07.laos-2
+    when: June 7
+    date: '1964-06-07'
+    thread: laos
+    c: 'The National Security Council, 12:30 p.m. Reconnaissance to continue; Johnson presses for specific recommendations and plans: "Where are we going?" All but General LeMay agree on the plan; LeMay wants to get tougher. After the meeting, to Valenti: "I get anxious and look for the fire exits when a general wants to get tough. LeMay scares the hell out of me." By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 137–38 (Valenti''s account). See [[cal.1964-06-07.laos]]. Names: Johnson, LeMay, Valenti.'
+    tags: [name:johnson-lyndon-b, name:lemay-curtis-e, name:valenti-jack]
   - id: cal.1964-06-08.laos
     when: June 8
     date: '1964-06-08'
@@ -2920,6 +3015,13 @@ entries:
       rows:
         - 'w.whalen-longest-debate 207–08: all'
     tags: [name:erhard-ludwig]
+  - id: cal.1964-06-12.elections-1964-johnson
+    when: June 12
+    date: '1964-06-12'
+    thread: elections-1964-johnson
+    c: 'The bedroom, before 8 a.m. Johnson to Valenti: he decided the night before and "just dictated" a statement that he will not be a candidate this year; he had first thought to resign, but that would be unfair without a Vice President to take his place. Out of the race he could go on with the program without the charge of "politics." Disappointed in the Republican leaders, who that week accused him of election-year politics with Southeast Asia; "sick at heart" that the Congress has no sense of urgency and works only Tuesday to Thursday. "There aren''t enough Bob McNamaras and Dean Rusks." Valenti objects; neither speaks of it again. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 153–54 (Valenti''s account). See [[cal.1964-06-11.elections-1964-johnson]]. Names: Johnson, Valenti, McNamara, Rusk.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack, name:mcnamara-robert-s, name:rusk-dean]
   - id: cal.1964-06-13.desegregation-public-places
     when: June 13
     date: '1964-06-13'
@@ -3021,6 +3123,20 @@ entries:
         - 'w.cosmas-joint-chiefs-of-staff-2012 78: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 78 n.34: all'
     tags: [place:da-nang]
+  - id: cal.1964-06-13.vietnam-2
+    when: June 13
+    date: '1964-06-13'
+    thread: vietnam
+    c: 'Johnson to Valenti, calling him in: "Have a talk with McGeorge Bundy. The two of you come back to me with suggestions about who should go to Saigon to replace Lodge." Lodge has written, in a veiled way, that it is time to leave. Johnson tells Valenti he is troubled by what he calls "poor administration" in Lodge''s mission, and is content that Lodge be relieved.'
+    n: '[[w.valenti-very-human-president]], 138–39 (Valenti''s account). See [[cal.1964-06-13.vietnam]]. Names: Johnson, Valenti, Bundy, Lodge.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack, name:bundy-mcgeorge, name:lodge-henry-cabot]
+  - id: cal.1964-06-13.vietnam-3
+    when: June 13
+    date: '1964-06-13'
+    thread: vietnam
+    c: Valenti and Bundy by telephone, later that day. Robert Kennedy has written Johnson that he will go to Vietnam as ambassador if wanted; Johnson has asked Rusk, McNamara, Bundy and Kennedy for three names, and each has put his own first. Kennedy has also named Terry Sanford, whom McNamara does not favor. Bundy's choice is Ball; Valenti thinks Ball too valuable in Washington. They talk of a congressional resolution on Vietnam; Valenti does not think the time right; Bundy has working papers for him to take to Johnson.
+    n: '[[w.valenti-very-human-president]], 139–41 (Valenti''s account). See [[cal.1964-06-11.robert-kennedy]]. Names: Valenti, Bundy, Robert Kennedy, Johnson, Rusk, McNamara, Ball, Sanford.'
+    tags: [name:valenti-jack, name:bundy-mcgeorge, name:kennedy-robert-f, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:sanford-terry]
   - id: cal.1964-06-14.mississippi
     when: June 14–20
     date: '1964-06-14'
@@ -3069,6 +3185,20 @@ entries:
     c: About 8:30 p.m. Johnson telephones Rusk at his office; Rusk brings a wire from Lodge, who wants to resign as Ambassador to Vietnam and come home. Johnson has already asked Bundy, McNamara and Rusk whom they would recommend should Lodge resign; the men they suggest, their willingness to go "in most instances" checked.
     n: '[[w.johnson-white-house-diary]], 167 (Lady Bird Johnson''s account). See [[cal.1964-06-06.vietnam]]. Names: Johnson, Rusk, Lodge, Bundy, McNamara.'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:lodge-henry-cabot, name:bundy-mcgeorge, name:mcnamara-robert-s]
+  - id: cal.1964-06-14.vietnam-2
+    when: June 14
+    date: '1964-06-14'
+    thread: vietnam
+    c: 'The bedroom, early, breakfast with Valenti. Johnson will not name Robert Kennedy to Saigon: "I would be accusing myself for the rest of my life if something happened to him out there. ... I can''t trust the security there." He asks Valenti to choose among Maxwell Taylor, Ball and Gilpatric. Valenti: Gilpatric, for his administration and accurate reports; Ball is needed in Washington; Taylor would inspire the most confidence. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 141–42 (Valenti''s account; "the next morning" after June 13). Check: the day. See [[cal.1964-06-13.vietnam]]. Names: Johnson, Valenti, Robert Kennedy, Taylor, Ball, Gilpatric.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack, name:kennedy-robert-f, name:taylor-maxwell, name:ball-george-w, name:gilpatric-roswell-l]
+  - id: cal.1964-06-14.vietnam-3
+    when: June 14
+    date: '1964-06-14'
+    thread: vietnam
+    c: The Mansion, the family dining room, noon. Johnson, Clifford and Valenti. Johnson asks Clifford his choice for Saigon, then lays out Taylor, Ball and Gilpatric with Valenti's points of the morning, stressing Taylor and the confidence he would inspire. Clifford agrees. Johnson mentions that Kennedy has volunteered; Clifford says nothing to that. By Valenti's account.
+    n: '[[w.valenti-very-human-president]], 142–43 (Valenti''s account). See [[cal.1964-06-14.vietnam]]. Names: Johnson, Clifford, Valenti, Taylor, Ball, Gilpatric, Robert Kennedy.'
+    tags: [name:johnson-lyndon-b, name:clifford-clark, name:valenti-jack, name:taylor-maxwell, name:ball-george-w, name:gilpatric-roswell-l, name:kennedy-robert-f]
   - id: cal.1964-06-15.court
     when: June 15
     date: '1964-06-15'
@@ -3279,8 +3409,20 @@ entries:
     thread: elections-1964
     also: [cyprus, vietnam]
     c: 'The White House, dinner with Joseph Alsop and Mrs. Alsop and Clifford and Mrs. Clifford. Wagers on the Republican nomination: Alsop five to two and Clifford four to one for Goldwater; one thinks Scranton is thinking of the future, to pick up the pieces. Alsop on the Turks and Greeks, with Inonu and Papandreou to come in a week. After they leave, Johnson says Alsop told him, "in effect": "if you don''t commit troops you''re going to preside over the first real defeat of the United States in history."'
-    n: '[[w.johnson-white-house-diary]], 167–68 (Lady Bird Johnson''s account). Names: Johnson, Alsop, Clifford, Goldwater, Scranton, Inonu, George Papandreou.'
+    n: '[[w.johnson-white-house-diary]], 167–68 (Lady Bird Johnson''s account); [[w.valenti-very-human-president]], 299 (the dinner of June 15 for the Clark Cliffords and the Joe Alsops, Valenti and his wife also; not the wagers or Alsop on the Turks and Greeks). Names: Johnson, Alsop, Clifford, Goldwater, Scranton, Inonu, George Papandreou.'
+    src:
+      c: 444e83c4
+      rows:
+        - 'w.johnson-white-house-diary 167–68: ?'
+        - 'w.valenti-very-human-president 299: A-C'
     tags: [name:johnson-lyndon-b, name:alsop-joseph, name:clifford-clark, name:goldwater-barry-m, name:scranton-william-w, name:inonu-ismet, name:papandreou-george]
+  - id: cal.1964-06-15.vietnam-4
+    when: June 15
+    date: '1964-06-15'
+    thread: vietnam
+    c: 'The White House, after dinner for the Cliffords and the Alsops. Johnson, Clifford, Joseph Alsop and Valenti walk five times round the Ellipse, about a mile and a quarter. Johnson presses Alsop: "what the hell would you do at 9:00 a.m. tomorrow morning?" Alsop answers in generalities. To Clifford and Valenti: Alsop is like de Gaulle on neutralization, "Don''t bother me, those are just details." By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 299–300 (Valenti''s account). See [[cal.1964-06-15.elections-1964-johnson]]. Names: Johnson, Clifford, Alsop, Valenti.'
+    tags: [name:johnson-lyndon-b, name:clifford-clark, name:alsop-joseph, name:valenti-jack]
   - id: cal.1964-06-16.congo
     when: June 16
     date: '1964-06-16'
@@ -3630,6 +3772,20 @@ entries:
         - 'w.mann-walls-of-jericho 427: all'
     tags: [name:humphrey-hubert-h, name:rauh-joseph-l-jr, name:mitchell-clarence-jr]
     aliases: [cal.1964-06-17.civil-rights-bill-5, cal.1964-06-17.civil-rights-bill-6]
+  - id: cal.1964-06-17.foreign-aid
+    when: June 17
+    date: '1964-06-17'
+    thread: foreign-aid
+    c: 'The White House, 6:30 p.m. Johnson, O''Brien and Valenti with Mahon, Albert and Rooney on passing the foreign aid bill without Otto Passman "butchering it up." Johnson: "Either Otto Passman is going to run the foreign policy of this country, or I am." The bill is a billion dollars under Kennedy''s last request and exactly what Congress appropriated last year: "This is a bare-bones bill ... with no fat on it." He sees the Latin American ambassadors the next day. The members agree to talk to Passman and find the votes. By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 143–44 (Valenti''s account). Names: Johnson, O''Brien, Valenti, Mahon, Albert, Rooney, Passman.'
+    tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:valenti-jack, name:mahon-george-h, name:albert-carl, name:rooney-john-j, name:passman-otto-e]
+  - id: cal.1964-06-17.program
+    when: June 17
+    date: '1964-06-17'
+    thread: program
+    c: 'After the meeting on foreign aid, Johnson to Valenti: "I keep hitting hard because I know this honeymoon won''t last. Every day I lose a little more political capital." The critics and snipers will move in, and "We have to get all we can, now, before the roof comes down." By Valenti''s account.'
+    n: '[[w.valenti-very-human-president]], 144 (Valenti''s account). See [[cal.1964-06-17.foreign-aid]]. Names: Johnson, Valenti.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack]
   - id: cal.1964-06-18.vietnam
     when: June 18
     date: '1964-06-18'
@@ -4805,7 +4961,7 @@ entries:
     time: 1964-06-23T20:05Z
     thread: mississippi
     c: 'Hoover to Johnson by telephone, 4:05 p.m.: agents have found the missing men''s car burning in a swamp outside Philadelphia, Miss.; whether bodies are inside not yet known. Hoover sure they are dead. Johnson: "Why won''t an agent be able to look at a car and see if any bones are in it?"'
-    n: '[Johnson and J. Edgar Hoover, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-office-secretary-and-telephone), Conversation WH6406-14-3837 (Miller Center). [[w.kotz-judgment-days]], 164; [[w.taking-charge]], 433–434; [[w.taking-charge]], 434. Check: [[w.taking-charge]], 434, prints "Why wouldn''t an agent be able to look at a car and see if there''s any bones in it?". To check: [Johnson and J. Edgar Hoover, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-june-23-1964), Tape WH6406.14, PNO 4 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 164 n.14). See [[cal.1964-06-23.mississippi]]. Names: Hoover, Johnson.'
+    n: '[Johnson and J. Edgar Hoover, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-office-secretary-and-telephone), Conversation WH6406-14-3837 (Miller Center). [[w.kotz-judgment-days]], 164; [[w.taking-charge]], 433–434; [[w.taking-charge]], 434; [[w.valenti-very-human-president]], 144–45 (Hoover calls to report the car found, "burned to a crisp," the agents unable to get inside; Johnson: "Oh, my God"; Valenti dates it June 21, "four days later" than June 17; not the hour or the words on bones). Check: [[w.taking-charge]], 434, prints "Why wouldn''t an agent be able to look at a car and see if there''s any bones in it?". To check: [Johnson and J. Edgar Hoover, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-june-23-1964), Tape WH6406.14, PNO 4 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 164 n.14). See [[cal.1964-06-23.mississippi]]. Names: Hoover, Johnson.'
     src:
       c: 07ba135f
       rows:
@@ -4816,6 +4972,7 @@ entries:
         - 'via x.1964-06-23.johnson-j-edgar-hoover-telephone-1605: A, B, D'
         - 'w.taking-charge 434: B'
         - 'via x.1964-06-23.johnson-j-edgar-hoover-telephone-1621: B'
+        - 'w.valenti-very-human-president 144–45: ?'
     tags: [name:hoover-j-edgar, name:johnson-lyndon-b]
   - id: cal.1964-06-23.mississippi-7
     when: June 23
@@ -4825,12 +4982,13 @@ entries:
       - cal.1964-06-23.mississippi-6
       - cal.1964-06-23.mississippi-10
     c: 'The Oval Office, twenty minutes, Lee White bringing them in. Johnson tells Robert and Carolyn Goodman and Nathan Schwerner of the burned car; calls McNamara, in their hearing, for Navy helicopters and men for the search. The parents ask federal protection for the others in Mississippi. Johnson to Mrs. Goodman: "Ma''am, we''ll do everything we can."'
-    n: '[[w.kotz-judgment-days]], 164–65. After Hoover''s word of the car and the 4:15 instructions: [[cal.1964-06-23.mississippi-6]]; [[cal.1964-06-23.mississippi-10]]. To check: [[w.cagin-we-are-not-afraid]], 331–32; Bernard Asbell, "My Son Didn''t Die in Vain!" *Good Housekeeping*, May 1965 (cited by [[w.kotz-judgment-days]], 165 n.18). Names: Johnson, White, McNamara.'
+    n: '[[w.kotz-judgment-days]], 164–65; [[w.valenti-very-human-president]], 144–45 (Ryan has called Valenti to bring in the parents of two of the three; they arrive with Lee White as Hoover is on the telephone again; Johnson: "You are sure that you found the right car, the same color, the same markings"; "Where did you find it, how far from Philadelphia, Mississippi?"; then "Show them in"; Valenti leaves; not the length or what was said to the parents). After Hoover''s word of the car and the 4:15 instructions: [[cal.1964-06-23.mississippi-6]]; [[cal.1964-06-23.mississippi-10]]. Check: Valenti puts Hoover''s report of the burned car and the parents'' visit on June 21, "four days later" than June 17 ([[w.valenti-very-human-president]], 144–45); the recorded calls have June 23. To check: [[w.cagin-we-are-not-afraid]], 331–32; Bernard Asbell, "My Son Didn''t Die in Vain!" *Good Housekeeping*, May 1965 (cited by [[w.kotz-judgment-days]], 165 n.18). Names: Johnson, White, McNamara.'
     src:
       c: 6df367e2
       rows:
         - 'w.kotz-judgment-days 164–65: all'
         - 'via w.kotz-judgment-days 165 n.18: D'
+        - 'w.valenti-very-human-president 144–45: ?'
     tags: [name:johnson-lyndon-b, name:white-lee-c, name:mcnamara-robert-s]
     time_range:
       - 1964-06-23T13:00Z

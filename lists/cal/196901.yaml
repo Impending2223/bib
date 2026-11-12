@@ -288,6 +288,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1969-01-10.transition-and-staff
+    when: Jan. 10
+    date: '1969-01-10'
+    thread: transition-and-staff
+    c: 'The White House, evening. The Johnsons'' farewell dinner for the Cabinet, honoring Hubert and Muriel Humphrey; every Cabinet member there. Johnson''s toasts to Humphrey, to Rusk, to all the Cabinet; Rusk responds. Humphrey speaks, "cheerful, looking ahead." Mrs. Johnson, from Dickens: "It was the best of times, it was the worst of times," and "a once-in-a-lifetime thing, and we are fortunate to have known it." Luci Nugent toasts the Cabinet "for our generation and for those that are coming on."'
+    n: '[[w.johnson-white-house-diary]], 762 (Lady Bird Johnson''s account). The toasts as Mrs. Johnson gives them. Names: Johnson, Humphrey, Rusk, Lady Bird Johnson.'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:rusk-dean, name:johnson-lady-bird, city:washington]
   - id: cal.1969-01-11.transition-and-staff
     when: Jan. 11–12
     date: '1969-01-11'
@@ -350,13 +357,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1969-01-13.democratic-party
+    when: Jan. 13
+    date: '1969-01-13'
+    thread: democratic-party
+    c: 'The White House, Blue Room, about 4 p.m. Reception for the Democratic National Committee, Mrs. Johnson in the line: "just a receiving line followed by refreshments in the State Dining Room."'
+    n: '[[w.johnson-white-house-diary]], 764 (Lady Bird Johnson''s account). The diary gives only the receiving line and the hour. Names: Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird, city:washington]
   - id: cal.1969-01-14.program
     when: Jan. 14
     date: '1969-01-14'
     time: 1969-01-15T02:05Z
     thread: program
     c: 'State of the Union, to a joint session, "for the sixth and the last time." Asked: social security up at least 13 percent, the minimum from $55 to $80 a month; medical care for expectant mothers and infants; the poverty program reorganized, not crippled; the Voting Rights Act''s main provisions extended five years; the full $300 million for the Safe Streets grants; licensing and registration of firearms; the postal system reorganized on the Kappel report; Members pay $42,500, not the commission''s $50,000; the draft by random selection. A surplus of $2.4 billion in fiscal 1969, $3.4 billion in 1970, the surtax extended, Nixon agreeing. The nonproliferation treaty ratified; the missile talks resumed. "At least it will be said that we tried." Of Russell, the President pro tempore: "I am sure that I have avoided many dangerous pitfalls by the good commonsense counsel" of Russell.'
-    n: 'Annual Message to the Congress on the State of the Union, [1968–69 Pub. Papers 1263](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=573) (Jan. 14, 1969). [[w.johnson-vantage-point]], 565 (the closing words); [[w.dallek-flawed-giant]], 597–98 (the address in person; the closing words); [[w.mann-walls-of-jericho]], 498–99 (Russell); [[w.califano-triumph-and-tragedy-of]], 333–34 (his tribute to Russell; "at least it will be said that we tried"; "Auld Lang Syne"); [[w.bernstein-guns-or-butter]], 305 (the ad-lib: "and there is more that will be set aside before this administration ends"); [[w.graham-uncertain-triumph]], 200–201; [[w.schwartz-lyndon-johnson-and-europe]], 223 (the last State of the Union address, in person, January 1969, closing "I believe it will be said that we tried"; not the day or the entry''s "At least" line). [[w.longley-lbjs-1968]], 259–60 (the address; Christian''s count of the applause). [[w.mcpherson-political-education]], 451. See [[cal.1968-01-17.program]]. Names: Johnson, Kappel, Nixon, Russell.'
+    n: 'Annual Message to the Congress on the State of the Union, [1968–69 Pub. Papers 1263](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=573) (Jan. 14, 1969). [[w.johnson-vantage-point]], 565 (the closing words); [[w.dallek-flawed-giant]], 597–98 (the address in person; the closing words); [[w.mann-walls-of-jericho]], 498–99 (Russell); [[w.califano-triumph-and-tragedy-of]], 333–34 (his tribute to Russell; "at least it will be said that we tried"; "Auld Lang Syne"); [[w.bernstein-guns-or-butter]], 305 (the ad-lib: "and there is more that will be set aside before this administration ends"); [[w.graham-uncertain-triumph]], 200–201; [[w.schwartz-lyndon-johnson-and-europe]], 223 (the last State of the Union address, in person, January 1969, closing "I believe it will be said that we tried"; not the day or the entry''s "At least" line); [[w.johnson-white-house-diary]], 764–68 (Jan. 14: Mrs. Johnson in the House gallery with Lynda and Luci; "they began to rise and applaud and broke out into cheering on both sides, Republican and Democrat"; Johnson, at the Speaker''s stand, "paused a full several moments to receive and absorb the ovation"; the Cabinet, "a special wave of applause as Dean Rusk came in"; "President-elect Nixon in the days ahead will need your understanding, just as I did"; thirty-eight years since he first stood in the Chamber "as a doorkeeper in the Gallery"; the tribute to the men in Vietnam, "I have been honored to be their Commander in Chief"; the ending "But I believe that at least it will be said that we tried"; Patrick Lyn''s disruption of the gallery omitted here; the diary has no figures). [[w.longley-lbjs-1968]], 259–60 (the address; Christian''s count of the applause). [[w.mcpherson-political-education]], 451. See [[cal.1968-01-17.program]]. Names: Johnson, Kappel, Nixon, Russell.'
     src:
       c: 37ba1099
       rows:
@@ -370,6 +384,7 @@ entries:
         - 'w.bernstein-guns-or-butter 305: A'
         - 'w.graham-uncertain-triumph 200–201: A, G, H, J'
         - 'w.schwartz-lyndon-johnson-and-europe 223: ?'
+        - 'w.johnson-white-house-diary 764–68: N'
     tags: [name:johnson-lyndon-b, name:kappel-frederick-r, name:nixon-richard-m, name:russell-richard-b]
     short: State of the Union
     to:
@@ -612,12 +627,13 @@ entries:
     thread: voting-rights
     also: [civil-rights-the-executive]
     c: 'News conference at the National Press Club. What has pleased him most: "the response that the Congress made to my Voting Rights Act."'
-    n: 'The President''s News Conference at the National Press Club, [1968–69 Pub. Papers 1350](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=660), 1354 (Jan. 17, 1969). [[w.kotz-judgment-days]], 423. Names: Johnson.'
+    n: 'The President''s News Conference at the National Press Club, [1968–69 Pub. Papers 1350](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=660), 1354 (Jan. 17, 1969). [[w.kotz-judgment-days]], 423; [[w.johnson-white-house-diary]], 768–69 (Jan. 17: at the National Press Club, Johnson "went directly to the podium"; "The speech was about three-fourths laughter but toward the end turned sober" and he said his greatest unhappiness on leaving office Monday noon would be "that peace has eluded me"; "I have never doubted your energy or your courage or your patriotism—that is why I asked General Hershey to get in touch immediately with each of you"; asked if he had brought Lyn: "No, Lyn was confined to quarters for recent rambunctious behavior"; the diary calls it a farewell to the press corps with "remarks," and does not give the Voting Rights Act). Names: Johnson.'
     src:
       c: 03b4d665
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=660: all'
         - 'w.kotz-judgment-days 423: all'
+        - 'w.johnson-white-house-diary 768–69: ?'
     tags: [name:johnson-lyndon-b]
   - id: cal.1969-01-17.students
     when: Jan. 17
@@ -668,6 +684,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1969-01-17.program
+    when: Jan. 17
+    date: '1969-01-17'
+    thread: program
+    c: The White House, noon. A Medal of Science awards ceremony, shortly before the Johnsons go to the National Press Club.
+    n: '[[w.johnson-white-house-diary]], 768 (Lady Bird Johnson''s account). The only mention; no recipients, remarks or hour beyond "At 12." Johnson is not named as present. To check: the Public Papers for Jan. 17, 1969. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, city:washington]
   - id: cal.1969-01-18.vietnam-paris
     when: Jan. 18
     date: '1969-01-18'
@@ -760,13 +783,14 @@ entries:
     date: '1969-01-19'
     thread: transition-and-staff
     c: 'Johnson''s last full day: mass with Luci in the solarium; the National City Christian Church with Billy Graham; Humphrey''s call; Rusk and Harriman to say goodbye; Johnson to Rockefeller, thanking him; the staff''s buffet: of Fulbright, "We never should have let the fight become so personal"; one more act, more land for the parks. To bed shortly before 11 p.m.'
-    n: '[[w.califano-triumph-and-tragedy-of]], 334–38; [[w.mcpherson-political-education]], 451–52 (the party in the Mansion on the last night, "a little subdued"); [[w.dallek-flawed-giant]], 598–99 (the last evening, the staff party in the mansion; Johnson to Califano of Fulbright: "We never should have let the fight become so personal"; not the church, the calls or the hour). Names: Johnson, Graham, Humphrey, Rusk, Harriman, Rockefeller, Fulbright.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 334–38; [[w.mcpherson-political-education]], 451–52 (the party in the Mansion on the last night, "a little subdued"); [[w.dallek-flawed-giant]], 598–99 (the last evening, the staff party in the mansion; Johnson to Califano of Fulbright: "We never should have let the fight become so personal"; not the church, the calls or the hour); [[w.johnson-white-house-diary]], 771, 773–74 (Jan. 19: to the National City Christian Church with the Grahams, Lynda, Luci and Johnson; Dr. Davis''s bulletin, Graham''s benediction; the evening buffet for sixty of the two staffs, Harry McPherson''s toast "to these last five years and to Lyndon," Johnson''s quiet talk, "Auld Lang Syne"; not the Mass, the calls or Fulbright). Names: Johnson, Graham, Humphrey, Rusk, Harriman, Rockefeller, Fulbright.'
     src:
       c: d7132630
       rows:
         - 'w.califano-triumph-and-tragedy-of 334–38: all'
         - 'w.mcpherson-political-education 451–52: F'
         - 'w.dallek-flawed-giant 598–99: F'
+        - 'w.johnson-white-house-diary 771, 773–74: B'
     tags: [name:johnson-lyndon-b, name:graham-billy, name:humphrey-hubert-h, name:rusk-dean, name:harriman-w-averell, name:rockefeller-nelson, name:fulbright-j-william]
   - id: cal.1969-01-19.war-opposition
     when: Jan. 19
@@ -814,12 +838,19 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 337–38: all'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:nixon-richard-m]
+  - id: cal.1969-01-19.transition-and-staff-5
+    when: Jan. 19
+    date: '1969-01-19'
+    thread: transition-and-staff
+    c: 'The White House and the National City Christian Church, Sunday. Returning from church with the Johnsons, Billy Graham tells them of Nixon''s plan to hold religious services in the East Room, a different minister each Sunday, himself to conduct the first next Sunday; Graham: it would let the Nixons "invite many people to the White House who would, otherwise, perhaps never come."'
+    n: '[[w.johnson-white-house-diary]], 771 (Lady Bird Johnson''s account). Graham''s account to Mrs. Johnson; the East Room services are Nixon''s plan, not recorded here as begun. See [[cal.1969-01-19.transition-and-staff]]. Names: Graham, Nixon, Johnson, Lady Bird Johnson.'
+    tags: [name:graham-billy, name:nixon-richard-m, name:johnson-lyndon-b, name:johnson-lady-bird, city:washington]
   - id: cal.1969-01-20.conservation
     when: Jan. 20
     date: '1969-01-20'
     thread: conservation
     c: 'Johnson''s last proclamations: Marble Canyon National Monument, Arizona, established; Arches and Capitol Reef in Utah and Katmai in Alaska enlarged. Udall''s further proposals, over 7 million acres, the Sonoran Desert and Alaska among them, sent to Congress''s Interior committees instead: their taking "would strain the Antiquities Act far beyond its intent."'
-    n: 'Statement by the President Upon Signing Five Proclamations Adding Lands to the National Park System, [1968–69 Pub. Papers 1369](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=679) (Jan. 20, 1969); [Proclamation 3889—Establishing Marble Canyon National Monument, Arizona](https://www.presidency.ucsb.edu/documents/proclamation-3889-establishing-marble-canyon-national-monument-arizona) (Jan. 20, 1969); [Proclamation 3887—Enlarging the Arches National Monument, Utah](https://www.presidency.ucsb.edu/documents/proclamation-3887-enlarging-the-arches-national-monument-utah) (Jan. 20, 1969); [Proclamation 3888—Enlarging the Capitol Reef National Monument, Utah](https://www.presidency.ucsb.edu/documents/proclamation-3888-enlarging-the-capitol-reef-national-monument-utah) (Jan. 20, 1969); [Proclamation 3890—Enlarging the Katmai National Monument, Alaska](https://www.presidency.ucsb.edu/documents/proclamation-3890-enlarging-the-katmai-national-monument-alaska) (Jan. 20, 1969). [[w.longley-lbjs-1968]], 260–62 (the proclamations chosen, by Johnson''s account); [[w.shesol-mutual-contempt]], 463 (the small grants signed, the large refused, a million acres in Arizona among them; Udall: "If I had named the stadium after Lyndon Johnson, I would have had all seven million acres"); [[w.bernstein-guns-or-butter]], 305 (the big proposals would "strain" the law); [[w.dallek-flawed-giant]], 599 (in his last official act before Nixon''s inaugural Johnson signs five proclamations adding lands to the national park system, the last establishing a "Franklin Delano Roosevelt Memorial Park"; not Marble Canyon or the others by name). Before noon, when his term ended (U.S. Const. amend. XX, § 1). Check: Bernstein, 305, has Johnson sign three orders, some 300 acres in the Sonoran Desert, Mt. McKinley enlarged, a new park above the Arctic Circle. Check: Dallek, 599, gives five proclamations, the last establishing a "Franklin Delano Roosevelt Memorial Park"; the entry has four, none of them that. To check: [[w.smith-stewart-l-udall]]; [[w.gould-lady-bird-johnson-and]]. Names: Johnson, Udall.'
+    n: 'Statement by the President Upon Signing Five Proclamations Adding Lands to the National Park System, [1968–69 Pub. Papers 1369](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=679) (Jan. 20, 1969); [Proclamation 3889—Establishing Marble Canyon National Monument, Arizona](https://www.presidency.ucsb.edu/documents/proclamation-3889-establishing-marble-canyon-national-monument-arizona) (Jan. 20, 1969); [Proclamation 3887—Enlarging the Arches National Monument, Utah](https://www.presidency.ucsb.edu/documents/proclamation-3887-enlarging-the-arches-national-monument-utah) (Jan. 20, 1969); [Proclamation 3888—Enlarging the Capitol Reef National Monument, Utah](https://www.presidency.ucsb.edu/documents/proclamation-3888-enlarging-the-capitol-reef-national-monument-utah) (Jan. 20, 1969); [Proclamation 3890—Enlarging the Katmai National Monument, Alaska](https://www.presidency.ucsb.edu/documents/proclamation-3890-enlarging-the-katmai-national-monument-alaska) (Jan. 20, 1969). [[w.longley-lbjs-1968]], 260–62 (the proclamations chosen, by Johnson''s account); [[w.shesol-mutual-contempt]], 463 (the small grants signed, the large refused, a million acres in Arizona among them; Udall: "If I had named the stadium after Lyndon Johnson, I would have had all seven million acres"); [[w.bernstein-guns-or-butter]], 305 (the big proposals would "strain" the law); [[w.dallek-flawed-giant]], 599 (in his last official act before Nixon''s inaugural Johnson signs five proclamations adding lands to the national park system, the last establishing a "Franklin Delano Roosevelt Memorial Park"; not Marble Canyon or the others by name); [[w.johnson-white-house-diary]], 771–72 (Jan. 19: "One of these was what to do about setting aside seven million acres of land for National Parks that Stew Udall had recommended. The conservationist in Lyndon was excited by the idea, but the old Congressman of twenty-four years'' tenure withdrew from it. He really doesn''t believe in government by executive order, but in a mutual working together of the Congress and the President"; the diary gives no proclamations and no Marble Canyon). Before noon, when his term ended (U.S. Const. amend. XX, § 1). Check: Bernstein, 305, has Johnson sign three orders, some 300 acres in the Sonoran Desert, Mt. McKinley enlarged, a new park above the Arctic Circle. Check: Dallek, 599, gives five proclamations, the last establishing a "Franklin Delano Roosevelt Memorial Park"; the entry has four, none of them that. To check: [[w.smith-stewart-l-udall]]; [[w.gould-lady-bird-johnson-and]]. Names: Johnson, Udall.'
     src:
       c: 5478cbcc
       rows:
@@ -832,6 +863,7 @@ entries:
         - 'w.shesol-mutual-contempt 463: ?'
         - 'w.bernstein-guns-or-butter 305: C'
         - 'w.dallek-flawed-giant 599: ?'
+        - 'w.johnson-white-house-diary 771–72: ?'
     tags: [name:johnson-lyndon-b, name:udall-stewart-l, state:az, state:ut, state:ak]
     short: Johnson's last proclamations
     time_range:
@@ -858,7 +890,7 @@ entries:
     date: '1969-01-20'
     thread: transition-and-staff
     c: 'Inauguration. Warren gives Nixon the oath at the Capitol''s east front. The Inaugural Address: "The greatest honor history can bestow is the title of peacemaker"; "an era of negotiation"; "we cannot learn from one another until we stop shouting at one another." The Senate confirms the Cabinet but Hickel (Check). Johnson to Texas.'
-    n: '[Inaugural Address](https://www.presidency.ucsb.edu/documents/inaugural-address-1) (Jan. 20, 1969); [Oath of Office Administered by Chief Justice Earl Warren](https://www.presidency.ucsb.edu/documents/oath-office-administered-chief-justice-earl-warren) (Jan. 20, 1969). [[w.johnson-vantage-point]], 565–67 (the oath; Johnson''s leaving). [[w.longley-lbjs-1968]], 261–66 (Nixon at the White House; the oath; the address). To check: [[w.reeves-president-nixon]]; [[w.small-presidency-of-richard-nixon]]; [[w.safire-before-the-fall]]; [[w.christian-president-steps-down]]. See [[cal.1968-12-11.transition-and-staff]]. Names: Warren, Nixon, Hickel, Johnson.'
+    n: '[Inaugural Address](https://www.presidency.ucsb.edu/documents/inaugural-address-1) (Jan. 20, 1969); [Oath of Office Administered by Chief Justice Earl Warren](https://www.presidency.ucsb.edu/documents/oath-office-administered-chief-justice-earl-warren) (Jan. 20, 1969). [[w.johnson-vantage-point]], 565–67 (the oath; Johnson''s leaving); [[w.johnson-white-house-diary]], 775–79 (Jan. 20: the Nixons arrive at the North Portico for coffee in the Red Room; the Red Room gathers the Agnews, Dirksen, Speaker McCormack, Mansfield, Gerald Ford, Senator Jordan and Carl Albert; the motorcade down Pennsylvania Avenue with "very few people"; the Capitol, Mrs. Eisenhower in Senator Margaret Chase Smith''s office; the ceremony "only about forty-five minutes"; the inaugural address, which the papers said was "seventeen minutes long," Nixon "rather quickly, in an even voice"; "no high trumpet calls to action"; Warren and the oath are not described; "Hail to the Chief" played for Johnson "the last time"). [[w.longley-lbjs-1968]], 261–66 (Nixon at the White House; the oath; the address). To check: [[w.reeves-president-nixon]]; [[w.small-presidency-of-richard-nixon]]; [[w.safire-before-the-fall]]; [[w.christian-president-steps-down]]. See [[cal.1968-12-11.transition-and-staff]]. Names: Warren, Nixon, Hickel, Johnson.'
     src:
       c: 6425d90d
       rows:
@@ -866,6 +898,7 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/oath-office-administered-chief-justice-earl-warren: all'
         - 'w.johnson-vantage-point 565–67: A-B, G'
         - 'w.longley-lbjs-1968 261–66: A, C, E, G'
+        - 'w.johnson-white-house-diary 775–79: A, G'
     tags: [executive:1969-01-20, name:warren-earl, name:nixon-richard-m, name:hickel-walter-j, name:johnson-lyndon-b, name:agnew-spiro-t]
     short: Nixon's inauguration
   - id: cal.1969-01-20.transition-and-staff-nsc
@@ -897,7 +930,7 @@ entries:
     follows:
       - cal.1969-01-20.transition-and-staff
     c: 'Bethesda, Md., after the inauguration: lunch at Clark and Marny Clifford''s. Johnson gives five Medals of Freedom, signed that day: Rusk, Clifford, Harriman, Rostow, William S. White. Then to Andrews, Md., and home on Air Force One.'
-    n: '[[w.johnson-vantage-point]], 567, by Johnson''s account; [[w.mcpherson-political-education]], 452 (the staff see him off at an air base); [[w.dallek-flawed-giant]], 599 (the Cliffords'' lunch for the Johnsons, at their Georgetown home, after the transfer of power; Johnson gives medals of freedom that day to Clifford, Rusk, Rostow, Arthur Krim and William S. White; the drive and helicopter ride to Andrews for the trip home). [[w.longley-lbjs-1968]], 267–69 (the lunch; the Medals of Freedom, by Johnson''s and Lady Bird Johnson''s accounts; Andrews). [[w.clifford-counsel-to-the-president-2]], 606–07 (the lunch asked in July; the crowd on the lawn; the medals upstairs; Andrews). Order: after the inauguration. See [[cal.1969-01-20.transition-and-staff]]. Names: Johnson, Clifford, Rusk, Harriman, Rostow. Check: Longley puts the Cliffords'' house in Georgetown (266) and in northwest Washington (267).'
+    n: '[[w.johnson-vantage-point]], 567, by Johnson''s account; [[w.mcpherson-political-education]], 452 (the staff see him off at an air base); [[w.dallek-flawed-giant]], 599 (the Cliffords'' lunch for the Johnsons, at their Georgetown home, after the transfer of power; Johnson gives medals of freedom that day to Clifford, Rusk, Rostow, Arthur Krim and William S. White; the drive and helicopter ride to Andrews for the trip home); [[w.johnson-white-house-diary]], 776, 779–81 (Jan. 20: the Cliffords'' lunch for about sixty, the crowd on the lawn with signs; "Lyndon told us that early this morning he had conferred the Medal of Freedom on Clark and Averell and Bill White and seventeen others. He read Clark''s citation and Harriman''s and gave them to them"; Bill White''s would be sent to him; on the porch Johnson said into Ray Scherer''s microphone that he had been part of Washington for more than thirty years and would come back to visit; then Andrews and Air Force One; that morning Johnson showed her citations for Mary Lasker and Laurance Rockefeller, of "a list of about twenty names": twenty medals that day in all, three of them named at the lunch; not Rusk or Rostow, not Bethesda for the house). [[w.longley-lbjs-1968]], 267–69 (the lunch; the Medals of Freedom, by Johnson''s and Lady Bird Johnson''s accounts; Andrews). [[w.clifford-counsel-to-the-president-2]], 606–07 (the lunch asked in July; the crowd on the lawn; the medals upstairs; Andrews). Order: after the inauguration. See [[cal.1969-01-20.transition-and-staff]]. Names: Johnson, Clifford, Rusk, Harriman, Rostow. Check: Longley puts the Cliffords'' house in Georgetown (266) and in northwest Washington (267).'
     src:
       c: c673744e
       rows:
@@ -906,6 +939,7 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 606–07: all'
         - 'w.mcpherson-political-education 452: C'
         - 'w.dallek-flawed-giant 599: ?'
+        - 'w.johnson-white-house-diary 776, 779–81: ?'
     tags: [name:johnson-lyndon-b, name:clifford-clark, name:rusk-dean, name:harriman-w-averell, name:rostow-walt-w]
     time_range:
       - 1969-01-20T16:00Z
@@ -1030,3 +1064,17 @@ entries:
         - 'w.woods-fulbright 501: all'
         - 'via x.1969-04-08.arkansas-gazette-hunt-unseated: all'
     tags: [name:rockefeller-winthrop, name:fulbright-j-william, state:ar]
+  - id: cal.1969-01-20.transition-and-staff-5
+    when: Jan. 20
+    date: '1969-01-20'
+    thread: transition-and-staff
+    c: Austin, Bergstrom Air Force Base, about 5:30 p.m. Johnson arrives to five thousand at the fence, met by Lieutenant Governor Barnes in dinner jacket, Chancellor Ransom and Mayor Akin; the Longhorn Band. His brief speech ends "with the hope that the country would be understanding with Nixon. And at the very last, 'Whether we are Democrats or Republicans, Texans or New Yorkers, we love our country, or we ought to love it.'" He works the fence, carrying Patrick Lyn.
+    n: '[[w.johnson-white-house-diary]], 782 (Lady Bird Johnson''s account). Mrs. Johnson gives the words quoted; the speech is not otherwise reported. Names: Johnson, Nixon.'
+    tags: [name:johnson-lyndon-b, name:nixon-richard-m, state:tx, city:austin]
+  - id: cal.1969-01-20.transition-and-staff-6
+    when: Jan. 20
+    date: '1969-01-20'
+    thread: transition-and-staff
+    c: LBJ Ranch, at dusk. Johnson invites about five hundred local people into the hangar and makes them "a rather long and glowing talk about how glad he was to be home."
+    n: '[[w.johnson-white-house-diary]], 782 (Lady Bird Johnson''s account). Mrs. Johnson gives no words. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, state:tx]
