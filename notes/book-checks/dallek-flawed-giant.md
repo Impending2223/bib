@@ -199,6 +199,60 @@ On `cal.1968-03-19.open-housing`, entered meanwhile by another run, Dallek's pag
 
 ### Passed over
 
+#### Batch 9 (pp. 413–599), read Nov. 11–12, 2026
+
+Read from the owner's copy (printed page + 15 to p. 442, + 31 after the plates, held on the running heads; pp. 427, 446, 470, 479 and 599 read off their images too; endnotes at the back, "Notes (pages 410–623)"). Patch `inbox/2026-11-12-b9-dallek-b.yaml`: 115 cites, 18 variants, 5 Checks, 21 new entries. Rows ruled "cited under ID" took the unit letters the page states whole and `'?'` with a parenthetical for the rest. No row was "already cited" except the parts named. Witnesses and by-work edges not written.
+
+| Row | Ruling |
+|---|---|
+| 413–15 Detroit, Romney, the address | cited under cal.1967-07-23.civil-disorders (A), -07-24.civil-disorders-detroit (?), -07-27.civil-disorders (?), and cal.1967-07-19.civil-disorders-3 (C, E: the cannibals remark); -07-27.civil-disorders-detroit not borne out (food and medical aid not on the page) |
+| 422 Apollo fire | cited under cal.1967-01-27.space-2 (?) |
+| 426–31 Tiran to the *Liberty* | cited under cal.1967-05-22, -05-23, -05-25 (variant G: "Israel need not be alone unless it chooses to go alone"), -05-30, -06-06, -06-06-…-2, -06-07-…-2 (B), -06-08, -06-09, -06-10 (Sixth Fleet); cal.1967-06-05.middle-east already cited (427–28); entered as cal.1967-06.middle-east-six-day-war (Johnson to Roche, the take-off on Eban) |
+| 431 Resolution 242 | cited under cal.1967-11-22.middle-east (D) |
+| 442 Marshall confirmed | cited under cal.1967-08-30.court (?; "first Negro" not on the page) |
+| 445 raids near Hanoi; New Year truce | cited under cal.1966-12-13.vietnam, -12-23.vietnam, -12-24.vietnam (variant A: "three-day"), -12-31.vietnam (A; Check: Dec. 30 to Jan. 1); -12-19 already cited |
+| 445 Johnson to Mansfield | cited under cal.1967-01-09.vietnam-congress (B) |
+| 446–47 Tet pause; letter; reply | cited under cal.1967-02-08.vietnam (G), -02-13.vietnam-air-war (? and variant A: Tet pause Feb. 6–13), -02-15.vietnam (?), -02-15.vietnam-congress (?); -02-06.robert-kennedy already cited |
+| 451 Robert Kennedy's speech | cited under cal.1967-03-02.robert-kennedy (?) and -03-02.soviet-union (?) |
+| 453 Nashville | cited under cal.1967-03-15.vietnam (?); the talk with Howard K. Smith: Dallek's note gives Mar. 31, cal.1967-03-24.press-and-broadcasting holds Rostow's briefing of Smith; not entered |
+| 458–59 more pressure; Guam | cited under cal.1967-02-17.vietnam (?), -02-22.vietnam-2 (? and Check: "fifty-four additional targets"), -03-07.vietnam (D), -03-20.vietnam (B; Check: conference Mar. 20 to 22) |
+| 463 McNamara's plan | cited under cal.1967-05-19.vietnam (F) |
+| 469 Johnson to Russell | cited under cal.1967-05-12.vietnam-congress (C, D, E, F; variant H: "Suppose we miss") |
+| 470–71 McNamara back; the meeting | cited under cal.1967-07-12.vietnam-program-5 (?), -07-12.vietnam-force-levels (?), -07-01.vietnam (A; variants B, C: "uphill," "an increasingly heavy price for his aggression"), -07-07.vietnam (?) |
+| 477–78 bombing meetings; McNamara before Stennis | cited under cal.1967-08-08.vietnam (C, E, G), -08-16.vietnam-air-war (A), -08-25.vietnam-air-war (?), -08-25.vietnam-air-war-2 (?) |
+| 478 South Vietnam's election | cited under cal.1967-09-03.vietnam (? and variant G: "fifty-six percent of the electorate went to the polls") and -09-06.elections-1968-2 (? the Cabinet, Rusk and Johnson) |
+| 480–81 Pennsylvania | cited under cal.1967-08-11.vietnam-pennsylvania (B), -08-19.vietnam-pennsylvania (? and variant A: Aug. 18), -09-08.vietnam (? and Check: Sept. 11, the statement of Aug. 11), -09-12.vietnam-pennsylvania (D), -09-13.vietnam-pennsylvania (?); entered as cal.1967-09-15.vietnam-pennsylvania (the AFL-CIO Executive Council) and cal.1967-09-26.vietnam-support (the educators); -09-05.press-and-broadcasting-2, -09-20.press-and-broadcasting and -09-26.vietnam-pennsylvania already cited |
+| 482–84 Pennsylvania and a pause | cited under cal.1967-10-03.vietnam, -10-04.vietnam, -10-16.vietnam, -10-17.vietnam-2, -10-18.vietnam-pennsylvania, -10-23.vietnam-pennsylvania (all ?), -10-23.vietnam (E, F, G, p. 485); entered as cal.1967-10-02.vietnam-3 (Johnson to Clifford, Acheson: frustration and failure; Check: who) and cal.1967-10-28.vietnam-diplomacy (Rostow, the NLF contact) |
+| 492–94 Rostow; Wise Men | cited under cal.1967-10-25.vietnam-support (?), -11-02.vietnam (?, p. 492), -10-31.vietnam-2 (? and Check: the lunch "with the Wise Men"); entered as cal.1967-10-25.vietnam-support-2 (Rostow's "urgent need"; the row's "already in as -10-25.vietnam-support" was wrong, that entry is the Citizens Committee), cal.1967-11-01.vietnam-support (Johnson to Rostow, Radio Free Europe) and cal.1967-11-02.vietnam-5 (Ball's aside); -11-01.vietnam (494–95) and -10-27.vietnam-air-war (492) already cited |
+| 496–97 Humphrey in Saigon | cited under cal.1967-10-31.vietnam (? and variant C: Oct. 30 to Nov. 1), -11-01.vietnam-elections (?), -11-08.vietnam (?) |
+| 502 Khe Sanh | cited under cal.1968-01-29.vietnam-khe-sanh (?) |
+| 503–05 Tet; the news conference | cited under cal.1968-01-30.vietnam-congress (C), -01-30.vietnam-tet-2 (C), -01-31.vietnam-tet-2 (?), -02-02.vietnam-tet (A, B, C); entered as cal.1968-01-31.vietnam-tet-8 (the message to Westmoreland and Bunker); -01-31.vietnam-tet already cited |
+| 508–09 review meetings | cited under cal.1968-02-28.vietnam-205000 (A) and -03-04.vietnam (D, G; variants F, H: Dallek's wording of "sinkhole" and "get on your horse") |
+| 510 speeches | cited under cal.1968-03-16.vietnam-2 (?) and -03-18.vietnam (?): Dallek does not assign the quoted words to either speech |
+| 511–12 Johnson to Clifford; drafts; Wise Men | cited under cal.1968-03-20.vietnam-205000 (?), -03-20.vietnam-205000-4 (?), -03-22.vietnam-205000 (?), -03-25.vietnam (?, p. 512); entered as cal.1968-03-14.vietnam-205000-3 (Johnson to Clifford) and cal.1968-03-20.vietnam-205000-6 ("I want war like I want polio"; Check: who, the hour); -03-25.vietnam (511–12) already cited |
+| 514 *Pueblo* | cited under cal.1968-01-23.japan-and-korea (?) and -01-23.japan-and-korea-pueblo-2 (? and variant A: Dallek has the news at 2 a.m. Jan. 25) |
+| 533–34 King; bill; signing | cited under cal.1968-04-04.king (?), -04-05.king (?), -04-10.open-housing (?), -04-11.open-housing (?); -03-19.open-housing already cited |
+| 537 Hanoi's statement | cited under cal.1968-04-03.vietnam (? and variant A: Dallek's wording of the statement) |
+| 538–41 Paris | cited under cal.1968-05-03.vietnam (?), -05-13.vietnam (?), -05-21.vietnam-paris (B; variant E: "against my better judgment"), -05-28.vietnam-paris (?); -05-06 and -05-07.vietnam-paris already cited |
+| 545 Rockefeller | cited under cal.1968-04-30.elections-1968-2 (A) |
+| 546 Humphrey announces | cited under cal.1968-04-27.elections-1968 (?), -04-24.elections-1968 (?), -04-29.elections-1968 (?) |
+| 547–48 Kennedy | cited under cal.1968-06-04.elections-1968 (? and variant E: Dallek has the California primary June 5) and -06-08.robert-kennedy (E) |
+| 552–53 the housing act hailed … the bills signed | cited under cal.1968-08-01.cities-and-housing (F), -08-16.health (?), -09-11.jobs-and-wages (?); entered as cal.1968-08-14.health (the National Medical Association) and cal.1968-09-09.cities-and-housing (the National Housing Partnership); -09-26.program already cited; the news conference of Sept. 6 and the other Public Papers items a lead |
+| 555 Moscow; the invasion | cited under cal.1968-08-19.testing (?) and -08-20.soviet-union (?); Johnson to David Wise (Oct. 1) on Czechoslovakia a lead |
+| 564 Fortas | cited under cal.1968-10-01.court (D) and -10-02.court-fortas (? and variant A: Dallek has the withdrawal Oct. 1); entered as cal.1968-10-01.court-2 (Johnson to a journalist) |
+| 566 Honolulu | cited under cal.1968-07-19.vietnam (?); entered as cal.1968-07-19.vietnam-3 (Clifford's private words; Check: the day) |
+| 571–72 birthday honors; the film | cited under cal.1968-08-29.elections-1968-chicago-8 (?); Daley and Jacobsen's "draft" talk, Connally and Watson at Chicago: leads (no day) ; -07-24, -07-25 and -07-26.elections-1968 already cited |
+| 575 Humphrey's word | cited under cal.1968-09-12.elections-1968 (B, C); -09-05.elections-1968-2 already cited |
+| 581–84 Rusk and Gromyko … the halt | cited under cal.1968-10-02.testing-missile-talks, -10-09.vietnam, -10-14.vietnam, -10-27.vietnam-paris (all ?); -10-16.vietnam-paris already cited |
+| 587–88 Chennault; "horseshit"; Thiệu | cited under cal.1968-10-27.elections-1968-chennault, -10-29.vietnam, -10-30.vietnam-paris (all ?) and -10-31.vietnam (E); -11-02.elections-1968 (590) already cited |
+| 589 Astrodome | cited under cal.1968-11-03.elections-1968 (A, B) |
+| 593–97 Nixon; Thiệu; the back channel | cited under cal.1968-11-26.vietnam (A); entered as cal.1968-11-19.vietnam-paris, -11-20.vietnam-paris, -12-08.vietnam-paris, cal.1968-12-09.soviet-union, -12-11.soviet-union and cal.1969-01-07.vietnam-paris-2; -11-11.transition-and-staff (593–94) already cited |
+| 599 the last day | cited under cal.1969-01-20.transition-and-staff-2 (? and variants A: Georgetown, not Bethesda; B: Krim, not Harriman) and -01-20.conservation (?) |
+
+Leads (no day or no entry): Russell's complaint of Marshall's "extreme liberal views" (442); Johnson's "little malicious game" with pro-Israel lobbyists before May 23 (426); the Humphrey–Korea report and Rostow's "not a stalemate" memo of July 12 (471); Kintner on Kennedy in February (453); McNamara and the Chiefs' "mass resignation" talk after Aug. 25 (478); Johnson to Califano, "forget it," and to Wattenberg, "Hurry! Go strong!" (534); Johnson's "too horrible for words" on Kennedy's shooting (547); Johnson to Califano on Fulbright and Nixon's IRS (598–99). Dallek's "June 5" for Kennedy's shooting (547) and "Oct. 1" for Fortas's withdrawal are his days, not the entries'.
+
+Where batch 9 stopped: every row of the 43 read; the page pointers Dallek gives for the Public Papers items of Aug.–Nov. 1968 (552–53) not entered beyond the two above.
+
 **Batch 9 (pp. 19–389), read Nov. 11, 2026, from the Drive copy (PDF page = printed + 15; numbers and quotations read off the page images for pp. 208, 249, 267, 321, 322, 339, 358, 390).** Patch `inbox/2026-11-12-b9-dallek-a.yaml`: 3 new entries (cal.1965-04-29.latin-america-dominican-republic-4, cal.1966-07-18.vietnam-congress, cal.1966-08-01.press-and-broadcasting-2), the rest cites (`units: '?'` where the page bears part of a unit, with the parenthetical), 5 variants, 2 to-checks from the endnotes, 81 cites. Rows 0–2 below were already cited by batch 7. The ledger lines of batch 7 for cal.1965-05-05 and cal.1965-05-07 (latin-america-dominican-republic) are left unused: the cease-fire and the Government of National Reconstruction are sentences of cal.1965-05-06.latin-america.
 
 | Row (page) | Event | Ruling |
