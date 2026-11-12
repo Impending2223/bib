@@ -464,3 +464,173 @@ Undated even to the month, a lead: "Late August," pp. 191: Idaho, Utah, Wyoming,
 ## Where batch 11 stopped
 
 The share is finished: Book One read whole, Nov. 22, 1963 through Nov. 21, 1964 (printed pp. 3–209, PDF 17–231); the diary has nothing later in 1964. Not done: the image check of every quoted word and number (above, Limits).
+
+
+# Part three: 1966 (the 1966 reader)
+
+Lady Bird Johnson, *A White House Diary* (1970), card `w.johnson-white-house-diary`. Read Nov. 11–12, 2026 (batch 11, the 1966 share): Book Three, "1966," printed pp. 345–465, from the owner's copy, Drive `1yDhieBtd5zcvoMYqrteT6Yg3a-R6sOie` (864 PDF pages, a text layer, no OCR; read with `pdftotext -layout`; the PDF and its page images deleted when done).
+
+**Offset.** The folio is printed at the foot of the page. Printed page = PDF page less 30 from the half-title of Book Three through p. 406 (p. 345 = PDF 375; p. 347 = PDF 377; p. 354 = PDF 384; p. 369 = PDF 399; p. 392 = PDF 422; p. 406 = PDF 436); eight unnumbered plate pages follow (PDF 437–444: the State of the Union, Hains Point, the Oval Office, Mrs. Gandhi's gifts, the honeymoon departure, the Far East trip), then less 38 (p. 407 = PDF 445; p. 417 = PDF 455; p. 459 = PDF 497; p. 465 = PDF 503). Checked on the folios in the text layer throughout and against the page images at pp. 347, 354, 369, 392 and 459: every quotation and number on those pages read off the image and found as in the text layer; the quotations elsewhere were matched by a script against the text layer (the only differences: nested quotation marks, line-end hyphens, the OCR's "Your husband is.a passionate man"). Book Three runs from Jan. 1 (p. 345) to Dec. 24 (p. 465); the diary has long gaps (Feb. 25 to Mar. 3, Apr. 19 to June 4, Aug. 6 to Aug. 20, Oct. 6 to Oct. 20, Nov. 2 to Nov. 17, Dec. 1 to Dec. 13), no entry for Nov. 1, and none after Dec. 24.
+
+**Share (batch 11).** Book Three, 1966, every page (pp. 345–465).
+
+**Patch.** `inbox/2026-11-12-b11-ladybird-1966.yaml` (patch `2026-11-12-b11-ladybird-1966`): 80 new entries (ids claimed in the ledger first), 33 `cite` ops, 5 `check` ops, no `variant` (the entries cited have no claim maps). `./bib patch-check`: 0 errors; the warnings are "one event?" and "a duplicate of ..." on new entries that share a day and thread with another and are distinct events (the Jan. 3, Mar. 17, June 28, July 23, Sept. 1, 5 and 21, Oct. 25 pairs and runs); `./bib resolve ID --take keep` settles each if the merge flags it. A claim dropped: `cal.1966-06-13.opinion-3` (the Gallup 46 percent is `cal.1966-06-04.opinion`, cited there; the line stays in the ledger, "not used").
+
+**Form.** The diary is Mrs. Johnson's account: every `n` says so; a private act on a record nobody saw then carries "Made public: 1970." Her words, and what she gives as Johnson's or another's, are in quotation marks; her inferences are hers ("the decision had been reached," June 28). The day is the diary's; where she writes "yesterday" or "last night" the entry takes that day (Jan. 11, June 3, Sept. 20). Persons are listed in `Names:` only where `c` names them or their office; the hidden `name:` tags follow the act.
+
+## Entered (new)
+
+| Day | Entry | Page |
+|---|---|---|
+| Jan. 1 | `cal.1966-01-01.vietnam-pause` | 345 |
+| Jan. 3 | `cal.1966-01-03.vietnam-pause-4` | 347 |
+| Jan. 5 | `cal.1966-01-05.press-and-broadcasting` | 348–49 |
+| Jan. 5 | `cal.1966-01-05.steel` | 347 |
+| Jan. 7 | `cal.1966-01-07.peace-corps` | 349 |
+| Jan. 11 | `cal.1966-01-11.conservation` | 349–50 |
+| Jan. 11 | `cal.1966-01-11.elections-1968-johnson` | 349 |
+| Jan. 11 | `cal.1966-01-11.program-2` | 351 |
+| Jan. 11 | `cal.1966-01-11.white-house` | 350 |
+| Jan. 12 | `cal.1966-01-12.conservation` | 350–52 |
+| Jan. 18 | `cal.1966-01-18.program` | 353–54 |
+| Jan. 23 | `cal.1966-01-23.press-and-broadcasting` | 355 |
+| Jan. 23 | `cal.1966-01-23.program` | 355 |
+| Jan. 23 | `cal.1966-01-23.white-house` | 354–55 |
+| Feb. 5 | `cal.1966-02-05.vietnam-honolulu` | 359 |
+| Feb. 13 | `cal.1966-02-13.vietnam-support` | 359–60 |
+| Feb. 20 | `cal.1966-02-20.vietnam-support` | 361–62 |
+| Feb. 20 | `cal.1966-02-20.white-house` | 360–61 |
+| Feb. 25 | `cal.1966-02-25.congress` | 366 |
+| Feb. 25 | `cal.1966-02-25.women` | 363–66 |
+| Mar. 3 | `cal.1966-03-03.congress` | 368–69 |
+| Mar. 10 | `cal.1966-03-10.congress` | 369 |
+| Mar. 10 | `cal.1966-03-10.program` | 369–70 |
+| Mar. 10 | `cal.1966-03-10.white-house` | 369 |
+| Mar. 11 | `cal.1966-03-11.vietnam-pacification` | 370–71 |
+| Mar. 17 | `cal.1966-03-17.congress` | 373 |
+| Mar. 17 | `cal.1966-03-17.program` | 372–73 |
+| Mar. 17 | `cal.1966-03-17.program-2` | 373–74 |
+| Apr. 2 | `cal.1966-04-02.conservation` | 376–80 |
+| Apr. 3 | `cal.1966-04-03.conservation` | 380–83 |
+| Apr. 13 | `cal.1966-04-13.conservation` | the plates after 406 |
+| Apr. 19 | `cal.1966-04-19.democratic-party` | 383–85 |
+| June 3 | `cal.1966-06-03.program` | 386 |
+| June 4 | `cal.1966-06-04.elections-1966` | 386 |
+| June 28 | `cal.1966-06-28.conservation` | 390 |
+| June 28 | `cal.1966-06-28.conservation-2` | 390 |
+| July 13 | `cal.1966-07-13.program` | 391–92 |
+| July 13 | `cal.1966-07-13.vietnam-support` | 393 |
+| July 13 | `cal.1966-07-13.white-house` | 392–93 |
+| July 20 | `cal.1966-07-20.elections-1968-johnson` | 395 |
+| July 20 | `cal.1966-07-20.governors` | 396 |
+| July 20 | `cal.1966-07-20.latin-america` | 396 |
+| July 20 | `cal.1966-07-20.program` | 396 |
+| July 20 | `cal.1966-07-20.war-opposition` | 395–96 |
+| July 23 | `cal.1966-07-23.conservation` | 398 |
+| July 23 | `cal.1966-07-23.vietnam-support` | 396–97 |
+| July 23 | `cal.1966-07-23.vietnam-support-2` | 397 |
+| July 23 | `cal.1966-07-23.vietnam-support-3` | 398 |
+| July 23 | `cal.1966-07-23.vietnam-support-4` | 397–98 |
+| Aug. 1 | `cal.1966-08-01.jobs-and-wages-airlines` | 400, 402 |
+| Aug. 2 | `cal.1966-08-02.middle-east` | 402–04 |
+| Aug. 20 | `cal.1966-08-20.conservation` | 413–14 |
+| Aug. 20 | `cal.1966-08-20.economy` | 414 |
+| Aug. 20 | `cal.1966-08-20.program` | 414 |
+| Aug. 20 | `cal.1966-08-20.vietnam-support` | 413 |
+| Aug. 27 | `cal.1966-08-27.press-and-broadcasting` | 415–16 |
+| Sept. 1 | `cal.1966-09-01.economy-investment-credit` | 417 |
+| Sept. 1 | `cal.1966-09-01.economy-investment-credit-2` | 418 |
+| Sept. 5 | `cal.1966-09-05.elections-1966` | 420 |
+| Sept. 5 | `cal.1966-09-05.elections-1966-2` | 420–21 |
+| Sept. 5 | `cal.1966-09-05.health` | 419–20 |
+| Sept. 5 | `cal.1966-09-05.vietnam-support` | 418–19 |
+| Sept. 7 | `cal.1966-09-07.soviet-union` | 421–23 |
+| Sept. 20 | `cal.1966-09-20.conservation` | 423 |
+| Sept. 21 | `cal.1966-09-21.conservation` | 423–25 |
+| Sept. 21 | `cal.1966-09-21.conservation-2` | 425 |
+| Sept. 21 | `cal.1966-09-21.conservation-3` | 426–27 |
+| Sept. 23 | `cal.1966-09-23.poverty` | 427–28 |
+| Oct. 25 | `cal.1966-10-25.vietnam-asian-trip-2` | 432–34 |
+| Oct. 25 | `cal.1966-10-25.vietnam-asian-trip-3` | 434–35 |
+| Oct. 27 | `cal.1966-10-27.succession` | 436 |
+| Nov. 17 | `cal.1966-11-17.economy` | 454 |
+| Nov. 17 | `cal.1966-11-17.press-and-broadcasting` | 454–55 |
+| Nov. 17 | `cal.1966-11-17.succession` | 454 |
+| Nov. 28 | `cal.1966-11-28.white-house` | 455–58 |
+| Dec. 1 | `cal.1966-12-01.conservation` | 458 |
+| Dec. 1 | `cal.1966-12-01.program` | 458–60 |
+| Dec. 13 | `cal.1966-12-13.program` | 460–62 |
+| Dec. 16 | `cal.1966-12-16.vietnam-diplomacy` | 463–64 |
+| Dec. 24 | `cal.1966-12-24.vietnam-support` | 464–65 |
+
+## Cited (the card) and what the page bears
+
+Each `cite` has units `?`; the parenthetical says what the page bears and what it does not.
+
+| Entry | Page |
+|---|---|
+| `cal.1966-01.steel` | 347–48 |
+| `cal.1966-01-12.program` | 351–52 |
+| `cal.1966-01-17.cities-and-housing` | 352–53 |
+| `cal.1966-02-06.vietnam` | 358–59 |
+| `cal.1966-02-20.vietnam-2` | 361 |
+| `cal.1966-03-12.vietnam-us` | 371 |
+| `cal.1966-03-12.press-and-broadcasting` | 371 |
+| `cal.1966-03-13.vietnam` | 371–72 |
+| `cal.1966-03-28.india-and-china` | 374–76 |
+| `cal.1966-06-04.opinion` | 388–89 |
+| `cal.1966-06-28.vietnam-congress-4` | 390–91 |
+| `cal.1966-06-29.vietnam-air-war` | 391 |
+| `cal.1966-07-20.vietnam-prisoners` | 396 |
+| `cal.1966-07-23.vietnam-2` | 397 |
+| `cal.1966-07-23.civil-disorders` | 397, 398–99 |
+| `cal.1966-08-06.war-opposition-2` | 409 |
+| `cal.1966-08-06.transition-and-staff` | 407 |
+| `cal.1966-08-20.open-housing-2` | 411–12 |
+| `cal.1966-08-31.europe-and-the-alliance` | 417 |
+| `cal.1966-09-21.transition-and-staff` | 428 |
+| `cal.1966-10-06.cities-and-housing` | 428–29 |
+| `cal.1966-10-17.vietnam` | the plates after 406 |
+| `cal.1966-10-24.vietnam-asian-trip` | 434 |
+| `cal.1966-10-28.vietnam-asian-trip` | 436–37, 439–42 |
+| `cal.1966-10-30.vietnam-asian-trip` | 442–46 |
+| `cal.1966-11-01.vietnam` | 446–53 |
+| `cal.1966-11-02.vietnam-asian-trip` | 453 |
+| `cal.1966-11-16.succession` | 453 |
+| `cal.1966-12-14.transition-and-staff` | 462 |
+| `cal.1966-12-16.assassination` | 462 |
+| `cal.1966-10-19.vietnam-asian-trip` | 429–31 |
+| `cal.1966-10-20.vietnam-asian-trip` | 431–32 |
+| `cal.1966-10-20.vietnam-asian-trip-2` | 430 |
+
+## Variants and Checks
+
+- `cal.1966-11-01.vietnam`: Check: Lady Bird Johnson, 451–52, puts Johnson's address to the National Assembly on the morning of Nov. 2 (after the National Cemetery, before the Blue House coffee and Kimpo); the entry has it with Nov. 1–2. Whether the address was Nov. 1 or Nov. 2.
+- `cal.1966-12-14.transition-and-staff`: Check: Lady Bird Johnson, 462, on Friday, Dec. 16: "Yesterday came the announcement of Bill Moyers' departure," that is, Dec. 15; the entry has Moyers resigning Dec. 14.
+- `cal.1966-06-28.vietnam-congress-4`: Check: Lady Bird Johnson, 390, says the dinner was "just Lyndon and Dick and I"; the entry has Johnson and Russell alone.
+- `cal.1966-06-29.vietnam-air-war`: Check: Lady Bird Johnson, 391, has Johnson, Luci and herself at the church after Russell left ("Lyndon and Luci and I"); the entry has Johnson and Luci. No hour is given; the entry says after midnight.
+- `cal.1966-10-28.vietnam-asian-trip`: Check: Lady Bird Johnson, 436–37, has the party leave Manila about noon on Thursday, Oct. 27, and reach U Ta Pao three hours later; the entry asks whether the day of arrival was Oct. 27 or 28.
+
+## Passed over (with the card's ground)
+
+Family and social matters with nothing done or said of public business (Q5): Jan. 1, Mass at Stonewall and the New Year's dinner (346–47); Jan. 5, the rat in Luci's room and Airman Nugent's transfer (347–48); Jan. 18, the United Jewish Women, Frau Schwarzhaupp and the ambassadors' wives, Luci's zoology final (353–54); Jan. 23, the Smathers story on Johnson and the newspapers (354); Jan. 27–29, New York: the Astor dinner and its guests, the Vanderbilt lunch, the matinee, the train in the blizzard (356–58; the three oblong boxes seen on a freight car at Union Station at about midnight, "I suppose their destination was Arlington," 358, is a remark, no act); Feb. 22, her desk and *Women's Wear Daily* (362); Mar. 3, the Regents' tea (367); Mar. 11, the visit to the National Gallery before the opening (370); Mar. 17, the Mellon dinner at the Sulgrave Club, "no news coverage is allowed inside" (373); June 4, Lynda Bird's graduation, the President and Mrs. Johnson there "just as parents," Keppel's commencement address (386–88: a family matter; the doubt is that the President attended and the speaker urged government service); June 13, Justice Clark's wedding party for Luci at the Supreme Court, the Justices, the Speaker and Texas Congressmen present (388–90: a family matter; the doubt is the guests); June 28, Madame Shoumatoff's sketch of Roosevelt (390); July 17, Luci's bridesmaids' story and Mrs. Johnson's reflection that the press pits Connally against Johnson (393–94: a reflection, no act); July 19, the Cabinet wives' party and Mrs. Longworth's tea (394–95); July 27, the honeymoon reservations (399–400); Aug. 1, the Diplomatic Corps' gift to Luci at the Harriman party, which Mrs. Johnson calls "a personal family event, not a State occasion" (401: the doubt is the Corps and the Soviet bloc present); Aug. 2–3, the savings bond, the staff party and the bridesmaids' party (402–06); Aug. 6, Luci's wedding itself, entered only through the two entries the calendar holds (406–11); Aug. 25, the ring (415); Aug. 27, the birthday dinner (416); Sept. 1, Aikman and *The Living White House*, the McNamara wedding (417–18); Sept. 21, San Francisco in the morning (423); Oct. 25, 27 and 29, the Bang Saen drive, Crystal Island and the Klong (436–39); Oct. 30, the Kuala Lumpur drive and mosque; Dec. 16, the Children's Party (462–63); Dec. 24, the Christmas Eve at the Ranch after Kelly (465).
+
+Preparations and covering matter: Jan. 12, the staff gathering before the speech; the family's wedding preparations of July 20 (the parking meeting is entered for its pickets), July 27 and Aug. 1.
+
+## Leads
+
+- Dec. 1 (458): Mrs. Johnson tells McGeorge Bundy of Los Baños, the Rice Institute, and Johnson's good-by to Dr. Robert Chandler, "if you just keep on producing better strains of rice and Margaret Sanger's folks keep on doing what they are doing, this old world might be saved yet." The day of the remark is not given (Oct. 24–26, Philippines?); not entered.
+- Oct. 17–18 (the plates): "Toasting with a native chief in Pago Pago, October 18"; "Korea turns out to greet the President and First Lady, October 31"; "After-hours in the Oval Office with the President and Secretary Rusk": the last undated.
+- Oct. 26: the diary has no entry for Cam Ranh Bay or Los Baños; Nov. 1 none for Seoul.
+- Sept. 5: the diary says Dayton had "boiling" with unrest "last week"; `cal.1966-09-01.states-and-cities-dayton` holds the Sept. 1 shooting.
+- Mar. 3: the Tax Bill "130 to nothing" and the Economic Aid Bill votes, as Johnson gave them to the newswomen; the roll calls of Feb. 24 to Mar. 2 are to check.
+
+## Rulings that took a Check
+
+`cal.1966-06-28.vietnam-congress-4` and `cal.1966-06-29.vietnam-air-war` (Mrs. Johnson at the dinner and at the church, 390–91, where the entries have Johnson and Russell "alone" and Johnson and Luci); `cal.1966-10-28.vietnam-asian-trip` (arrival in Thailand Oct. 27, 436–37); `cal.1966-11-01.vietnam` (the National Assembly address on Nov. 2, 451–52); `cal.1966-12-14.transition-and-staff` (Moyers's departure announced "yesterday," Dec. 15, 462).
+
+Rules looked up: the card's test and examples (the Humphrey ride, Libonati, the pilot and the audit) for the social occasions and the wedding; R54 for the copy. No other.
+
+## Where batch 11 stopped (1966)
+
+The share is finished: Book Three read whole, Jan. 1 through Dec. 24, 1966 (printed pp. 345–465, PDF 375–503). Not done: the image check of every quoted word and number outside pp. 347, 354, 369, 392 and 459 (the text layer, matched by script, above); the Public Papers volumes for the speeches and news conferences, left as "To check" on each entry.
