@@ -84,5 +84,11 @@ bolsh = {"id": "cal.test.bolsh", "date": "1962-10-04", "thread": "soviet-union",
 eq("a private talk: both parties addressed and privy (the owner, Nov. 11)", tags(bolsh),
    [["US:nonpublic-PA", "USSR:nonpublic-PA"]])
 
+front = {"id": "cal.test.front", "date": "1963-01-24", "thread": "vietnam", "tags": [],
+         "c": "COSVN meets in the South on the year's tasks.",
+         "n": "[FRUS 1961–63, III, doc. 1](https://history.state.gov/historicaldocuments/frus1961-63v03/d1)."}
+eq("the Front's act: the DRV's, addressed to the South, not presumed known to Saigon (the owner, Nov. 11)",
+   [t for t in tags(front)[0] if t.startswith(("DRV", "RVN"))], ["DRV:nonpublic-PA", "RVN:nonpublic-A"])
+
 print(f"{len(FAIL)} failed" if FAIL else "all ok")
 sys.exit(1 if FAIL else 0)

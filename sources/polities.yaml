@@ -16,7 +16,7 @@ polities:
   drv: {name: 'Democratic Republic of Vietnam', tag: 'DRV', until: '1976-07-02', then: srv}
   srv: {name: 'Socialist Republic of Vietnam', tag: 'SRV', from: '1976-07-02'}
   rvn: {name: 'Republic of Vietnam', tag: 'RVN', until: '1975-04-30'}
-  nlf: {name: 'National Liberation Front (the PRG from 1969)', tag: 'NLF', doubtful: 'a front, not a state; kept apart from the DRV until the owner rules'}
+  nlf: {name: 'National Liberation Front (the PRG from 1969)', tag: 'NLF', folded: drv, ruling: 'the owner, Nov. 11, 2026: agents of the DRV operating inside South Vietnam; its acts the DRV''s'}
   roc: {name: 'Republic of China', tag: 'ROC'}
   rok: {name: 'Republic of Korea', tag: 'ROK'}
   dprk: {name: 'North Korea', tag: 'DPRK'}
@@ -247,7 +247,7 @@ threads:
   vietnam-congress: {polities: [us, rvn, drv], doubtful: 'Congress and the President on the war: the address may be the US alone'}
   vietnam-hanoi: [drv, us]
   vietnam-montagnards: [rvn, us]
-  vietnam-rfk-front: {polities: [nlf, drv, us], doubtful: 'the Front kept apart from the DRV'}
+  vietnam-rfk-front: {polities: [drv, us]}
   vietnam-saigon: [rvn, us]
   vietnam-elections: [rvn, us]
   vietnam-support: {polities: [us, rvn, drv], doubtful: 'support at home: the address may be the US alone'}
@@ -2231,13 +2231,13 @@ names:
   nguyen-chi-thanh: {polity: drv, basis: 'vn III.H: General; commander in the South, 1965–67'}
   nguyen-dinh-thuan: {polity: rvn, basis: 'frus frus1958-60v01: Secretary of State for the Presidency of the Republic of Vie'}
   nguyen-duy-trinh: {polity: drv, basis: 'frus frus1964-68v02: Foreign Minister and Deputy Prime Minister of the Democratic'}
-  nguyen-huu-tho: {polity: nlf, basis: 'vn III.H: Chairman, National Liberation Front'}
+  nguyen-huu-tho: {polity: drv, hand: true, folded_from: nlf, basis: 'vn III.H: Chairman, National Liberation Front'}
   nguyen-khanh: {polity: rvn, basis: 'vn III.G: General; took power Jan. 30, 1964; forced out Feb. 1965'}
   nguyen-ngoc-loan: {polity: rvn, basis: 'vn III.G: National police chief'}
   nguyen-ngoc-tho: {polity: rvn, basis: 'frus frus1955-57v01: Minister of National Economy to December 1956; thereafter Vi'}
   nguyen-thanh-le: {polity: drv, basis: 'frus frus1964-68v07: member and spokesman, Democratic Republic of Vietnam Delegat'}
-  nguyen-thi-binh: {polity: nlf, basis: 'vn III.H: Foreign minister of the Provisional Revolutionary Government'}
-  nguyen-van-hieu: {polity: nlf, basis: 'frus frus1969-76v42: General Secretary of the National Liberation Front and Minis'}
+  nguyen-thi-binh: {polity: drv, hand: true, folded_from: nlf, basis: 'vn III.H: Foreign minister of the Provisional Revolutionary Government'}
+  nguyen-van-hieu: {polity: drv, hand: true, folded_from: nlf, basis: 'frus frus1969-76v42: General Secretary of the National Liberation Front and Minis'}
   nguyen-van-loc: {polity: rvn, basis: 'frus frus1964-68v06: Republic of Vietnam Prime Minister to May 18, 1968'}
   nguyen-van-thieu: {polity: rvn, basis: 'adm III.J: President of South Vietnam'}
   nguyen-xuan-oanh: {polity: rvn, basis: 'vn III.G: Acting prime minister, Aug.–Sept. 1964 and Jan.–Feb. 1965'}
@@ -2935,7 +2935,7 @@ names:
   torrijos-herrera-omar-efrain: {polity: panama, basis: 'frus frus1964-68v31: Secretary of the General Staff of the Panamanian National Gu'}
   toure-ahmed-sekou: {polity: guinea, basis: 'kja III.J: President of Guinea'}
   tower-john-g: {polity: us, basis: 'kjc III.E'}
-  tran-buu-kiem: {polity: nlf, basis: 'frus frus1964-68v06: Member, National Liberation Front delegation to the Paris pe'}
+  tran-buu-kiem: {polity: drv, hand: true, folded_from: nlf, basis: 'frus frus1964-68v06: Member, National Liberation Front delegation to the Paris pe'}
   tran-chanh-thanh: {polity: rvn, basis: 'frus frus1958-60v01: Secretary of State for Information, Republic of Vietnam'}
   tran-kim-tuyen: {polity: rvn, basis: 'vn III.G: Head of the Office of Political and Social Studies, Diệm''s intelligenc'}
   tran-le-xuan: {polity: rvn, basis: 'vn III.G: Nhu''s wife; official hostess for Diệm'}

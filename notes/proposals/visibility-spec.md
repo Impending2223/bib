@@ -39,6 +39,7 @@ An entry is one event, so every claim addresses the event's parties: the entry's
 - **Persons**: one polity, with dates where allegiance or office changes (from the name entries' roles).
 - **Places**: usually one polity, several where contested or shared (Berlin, the Gulf of Tonkin, the Taiwan Strait, Jerusalem).
 - **Threads**: a list of polities; subthreads inherit it unless they set their own. Threads will need re-potting to keep their lists honest (the Western Alliance first: a proposal follows).
+- **The National Liberation Front** (the owner, Nov. 11: "agents of the DRV operating inside SVN"; folded): its persons, its organs (COSVN, the People's Revolutionary Party, the PRG, Liberation Radio) and its acts are the DRV's, addressed to the DRV and the RVN. The territorial presumption is reversed for them: an act of the Party or the Front in the South is not presumed known to Saigon (no `RVN:nonpublic-P` by territory); a witness of the time that shows Saigon knew (a captured document, an RVN or US report) gives the RVN its privity from its date; an open act (an attack, a broadcast, a proclamation) is public by its press witness. The Party's own records (the *Văn kiện Đảng*, the Politburo's resolutions) are the DRV's.
 - **Polities named outright** ("the U.S. bandits"): a `polity:` tag the reader writes. Never guessed from the wording.
 
 The namespace is `polity:` (`polity:us`, `polity:ussr`), not `state:`, which is the US States'.

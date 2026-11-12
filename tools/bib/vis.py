@@ -72,6 +72,8 @@ PUBLIC_KINDS = {"press", "official"}          # public from their own date, a re
 LATER_KINDS = {"document series", "memoir", "diary", "oral history", "scholarship"}  # public when published
 PRIVY_KINDS = {"memoir", "diary", "oral history", "document series", "archive"}   # their agents knew from the event
 TOP = ("us", "ussr", "prc", "fr", "frg", "uk")
+NLF_RX = re.compile(r"National Liberation Front|\bNLF\b|Viet ?Cong|Provisional Revolutionary Government|\bPRG\b|"
+                    r"\bCOSVN\b|Liberation Radio|Liberation Press Agency|People's Revolutionary Party|\bthe Front\b")
 REF_DAYS = 1                                   # the next morning's papers (§5; the newspaper band, dayorder.py)
 _cache = {}
 
@@ -568,6 +570,9 @@ def compute(series, lst, e):
                             tags=["US:all"], computed=False))
             continue
         addr, terr, agency, basis = address(lst, e, cl["text"] if cl["unit"] != "all" else None, date)
+        if NLF_RX.search(cl["text"] or ""):                # the Front's act is the DRV's (the owner, Nov. 11, 2026)
+            addr = sorted(set(addr) | {"drv", "rvn"}, key=order_key)           # its business: the South
+            agency = sorted(set(agency) | {"drv"}, key=order_key)
         ws, seen = [], set()
         if mp is None:
             mp = made_public(e, date, addr)
@@ -589,6 +594,9 @@ def compute(series, lst, e):
             out.append(dict(res, polities={}, tags=["US:all"], computed=False))
             continue
         privy = set(terr) | set(agency)
+        if "rvn" in terr and "rvn" not in agency and ("drv" in agency or NLF_RX.search(cl["text"] or "")):
+            privy.discard("rvn")    # the Party's and the Front's acts in the South: not presumed known to Saigon; a
+                                    # witness of the time that shows Saigon knew (its privity) restores it (§3)
         for w in known:
             privy |= {p for p in w["privity"] if p and p != "?" and not is_org(p)}
         pubs = {}

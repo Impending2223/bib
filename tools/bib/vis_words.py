@@ -24,9 +24,11 @@ NATIONS = [
      r"West Berlin|Frankfurter Allgemeine|Der Spiegel|Die Zeit|Die Welt|Bundesbank|Bundeswehr|\bCDU\b|\bCSU\b|"
      r"\bSPD\b|\bFDP\b", "frg"),
     (r"North Vietnam|Democratic Republic of (?:Viet ?Nam|Vietnam)|\bDRV\b|\bDRVN\b|Lao Dong|Hanoi government|"
-     r"Nhân Dân|Học Tập|Quân Đội Nhân Dân|Vietnam News Agency", "drv"),
+     r"Nhân Dân|Học Tập|Quân Đội Nhân Dân|Vietnam News Agency|(?:Viet ?Nam|Vietnam|Vietnamese) Workers['’]? Party|"
+     r"Đảng Lao động|Lao Động|Party Center|\bPolitburo\b(?=.*(?:Viet|Hanoi|Lê Duẩn|Workers))|Central Military Party "
+     r"Committee|\bVKD\b|Văn kiện Đảng|Van kien Dang", "drv"),
     (r"National Liberation Front|\bNLF\b|Viet ?Cong|Provisional Revolutionary Government|\bPRG\b|\bCOSVN\b|"
-     r"Liberation Radio|Liberation Press Agency", "nlf"),
+     r"Liberation Radio|Liberation Press Agency", "drv"),      # the Front is the DRV's (the owner, Nov. 11, 2026)
     (r"South Vietnam|Republic of (?:Viet ?Nam|Vietnam)|\bRVN\b|\bGVN\b|\bARVN\b|Saigon government", "rvn"),
     (r"Soviet|U\.S\.S\.R\.|\bUSSR\b|\bCPSU\b|Kremlin|Pravda|Izvestia|\bTASS\b|\bTass\b|Krasnaya Zvezda|"
      r"Presidium of the Supreme Soviet|\bKGB\b|\bGRU\b", "ussr"),
