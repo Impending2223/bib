@@ -57,7 +57,7 @@ Entries already in the calendar that take Kotz's pinpoint: `cal.1963-11-22.succe
 
 Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry for this book. Read Nov. 11–12 from the same Drive copy; pp. 198, 312 and 325 off their page images (PDF 224, 346, 359); the copy deleted.
 - 198 the polls two to one, the "frontlash" (Aug. 1964): passed over as an event: Kotz's summary names no poll and no day (the Opinion thread holds Gallup's); Johnson's coining of "the frontlash" is a lead, undated.
-- 312 Ellender slumped (Mar. 15, 1965): entered, `cal.1965-03-15.voting-rights-9`, the chamber's reaction in the joint session (the Justices and the Chiefs applauding; Ellender and the southerners).
+- 312 Ellender slumped (Mar. 15, 1965): part of the address, `cal.1965-03-15.voting-rights` (Kotz 308–13 cited there; audit, Nov. 12), the chamber's reaction in the joint session (the Justices and the Chiefs applauding; Ellender and the southerners).
 - 322 King's return to Atlanta and the news of Liuzzo (the passage is p. 325, Mar. 25, 1965): passed over, King's grief, no act or word on public business.
 - 82 Johnson and Hoover as neighbors: stays out of the brief (before the span).
 

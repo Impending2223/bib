@@ -1,6 +1,7 @@
 patch: 2026-11-12-b6-group-14
 by: 'Claude (batch 6, group 14: the private, social, family and draft rows of Young, Reeves, Dallek, McNamara, Kotz, CQ Aug.
-  9, 1968 and Peirce re-ruled on the reader''s card), Nov. 12, 2026'
+  9, 1968 and Peirce re-ruled on the reader''s card), Nov. 12, 2026; audited and corrected by Claude (auditor, b6g14), Nov.
+  12, 2026'
 ops:
 - add:
     entry:
@@ -73,8 +74,8 @@ ops:
         chanting antiwar demonstrators; they duck out of sight, and soon fly home to Washington.
       n: '[[w.mcnamara-in-retrospect]], ch. 10 between nn.25 and 26. McNamara''s account. The page adds that protesters had
         twice tried to burn his house under construction at Snowmass Village (no days). Check: the day; he places it after
-        his wife''s operation of "early July" and the climb of the Grand Teton, before the Tuesday Lunch of Aug. 8. Names:
-        McNamara.'
+        his wife''s operation of "early July" and the climb of the Grand Teton, while Aubrac and Marcovich were in Hanoi (they
+        left July 26), before the Tuesday Lunch of Aug. 8. Names: McNamara.'
       src:
         c: 788d496e
         rows:
@@ -85,42 +86,42 @@ ops:
       - city:aspen
 - add:
     entry:
-      id: cal.1963-02.defense-2
+      id: cal.1963-02.press-and-broadcasting
       when: Feb.
       date: 1963-02
-      thread: defense
-      c: 'Palm Beach. The President''s own fifty-mile hike: he organizes a walk with his brother-in-law Prince Stanislaus
-        Radziwill, Chuck Spalding and Dr. Max Jacobson, who gives first aid along the route; he follows in a white Lincoln
-        convertible until he is bored, then gives each walker a "Medal of Honor," an inscribed tea bag.'
-      n: '[[w.reeves-president-kennedy]], 472. See [[cal.1963-02.defense]]. Check: the day and month; Reeves dates the craze
-        from the first week of February and gives no day for the President''s hike. Names: Kennedy.'
-      src:
-        c: 9489ef18
-        rows:
-        - 'w.reeves-president-kennedy 472: all'
+      thread: press-and-broadcasting
+      also:
+      - defense
+      c: 'Kennedy, of Salinger and the fifty-mile hikes: "We all know and love Plucky and we think he''s funny. But I wonder
+        what the rest of the country thinks of him. I wonder if they don''t think he''s making an ass of himself?"'
+      n: '[[w.reeves-president-kennedy]], 472. See [[cal.1963-02.defense]]. Check: the day, and to whom; Reeves gives neither.
+        Names: Kennedy, Salinger.'
       tags:
       - name:kennedy-john-f
-      - state:fl
-      - city:palm-beach
+      - name:salinger-pierre
+      src:
+        c: 127b38e5
+        rows:
+        - 'w.reeves-president-kennedy 472: all'
 - add:
     entry:
       id: cal.1963-02.defense-3
       when: Feb.
       date: 1963-02
       thread: defense
-      c: 'Kennedy, as the press wonders whether his notably unfit press secretary will try fifty miles: "We all know and love
-        Plucky and we think he''s funny. But I wonder what the rest of the country thinks of him. I wonder if they don''t
-        think he''s making an ass of himself?" On his advice Salinger announces that he is not "plucky enough" to go fifty
-        miles.'
-      n: '[[w.reeves-president-kennedy]], 472. See [[cal.1963-02.defense]]. Check: the day and month; Reeves dates neither
-        the remark nor the announcement. Names: Kennedy, Salinger.'
+      c: On the President's advice, Salinger, his press secretary, announces that he is not plucky enough to go fifty miles;
+        the papers had speculated whether he would risk his life in the attempt.
+      n: '[[w.reeves-president-kennedy]], 472. See [[cal.1963-02.press-and-broadcasting]]; [[cal.1963-02.defense]]. Check:
+        the day; Reeves gives none (the speculation in the *Chicago Tribune* of Feb. 13). Names: Kennedy, Salinger.'
       src:
-        c: e1d3ccde
+        c: 9c83fa7e
         rows:
         - 'w.reeves-president-kennedy 472: all'
       tags:
       - name:kennedy-john-f
       - name:salinger-pierre
+      also:
+      - press-and-broadcasting
 - add:
     entry:
       id: cal.1963-02.defense-4
@@ -143,46 +144,28 @@ ops:
       date: '1964-08-01'
       thread: vietnam
       c: 'William Bundy begins a ten-day vacation, by his recollection with the understanding that Johnson "would not make
-        any new major decision, or ... seriously consider expanding the war, at least until after the election." His "state
-        of mind" was that of the Washington policy circle: "muddling through with our fingers crossed."'
-      n: '[[w.dallek-flawed-giant]], 148 and n.71. Bundy''s recollection, as Dallek gives it. See [[cal.1964-08-02.vietnam]].
+        any new major decision, or ... seriously consider expanding the war, at least until after the election." He believes
+        his "state of mind was a full reflection of the Washington policy circle": "muddling through with our fingers crossed."'
+      n: '[[w.dallek-flawed-giant]], 148 & n.71. Bundy''s later recollection, as Dallek gives it. To check: William Bundy,
+        MS history of the Vietnam war, ch. 14, pp. 10, 14 (cited by [[w.dallek-flawed-giant]], 148 n.71). See [[cal.1964-07-31.vietnam]].
         Names: William Bundy.'
       src:
-        c: b9ac31b1
+        c: fd243e30
         rows:
         - 'w.dallek-flawed-giant 148: all'
       tags:
       - name:bundy-william
 - add:
     entry:
-      id: cal.1965-03-15.voting-rights-9
-      when: Mar. 15
-      date: '1965-03-15'
-      thread: voting-rights
-      c: The joint session, during Johnson's address. Generals and admirals, heads of the armed forces, and most of the Supreme
-        Court Justices, led by Warren, rise and applaud, "in violation of the protocol of appearing neutral." Senator Ellender
-        of Louisiana, "a leader of the southern irreconcilables," slumps "in his chair, looking miserable," as do many other
-        southern members.
-      n: '[[w.kotz-judgment-days]], 312. See [[cal.1965-03-15.voting-rights]]. Names: Johnson, Warren, Ellender.'
-      src:
-        c: 6665976b
-        rows:
-        - 'w.kotz-judgment-days 312: all'
-      tags:
-      - name:johnson-lyndon-b
-      - name:warren-earl
-      - name:ellender-allen-j
-- add:
-    entry:
       id: cal.1968-08-05.elections-1968-miami-14
       when: Aug. 5
       date: '1968-08-05'
       thread: elections-1968-miami
-      c: The first session, 10:31 p.m. Senator Murphy introduces Representative Gurney of Florida, a candidate for the Senate,
+      c: The second session, 10:31 p.m. Senator Murphy introduces Representative Gurney of Florida, a candidate for the Senate,
         who introduces the party's other Senate candidates.
       n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. See [[cal.1968-08-05.elections-1968-miami-10]]. Names: Murphy, Gurney.'
       src:
-        c: 20fac663
+        c: bf78a7c7
         rows:
         - 'w.cq-weekly-report Aug. 9, 1968, 2105: all'
       tags:
