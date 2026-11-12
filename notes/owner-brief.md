@@ -471,3 +471,17 @@ Copied Oct. 30, 2026, from the session's transcript, for the provenance table of
 
 > Defaults on the other three.
 > Shouldn't we put this ahead of the readers yet-to-be started? Or were they not on the queue at all?
+
+## Nov. 11, 2026 (evening), on the kind bands, the prototype and the NLF
+
+"Yes, foreign elections should be placed by their own election night.
+
+Press items should be placed at the time of their first public distribution or release. If that's afternoon, afternoon. If that's evening, then evening.
+
+I would have ended the election range at the time of the poll closing. This rule of thumb seems more true to "when the results were known" of contested elections in my lifetime, but I'm not sure what was known when in this time period, or what the evidentiary or reasoned basis of this rule of thumb was. If it's entirely ad hoc, I'd put the event at "one minute before midnight", so the headline dates line upm
+
+I don't have the April 14 entries in front of me. Enlighten me.
+
+The visibility setup looks good to go.
+
+Question re: the NLF, though. Does it make sense to consider it anything besides "agents of the DRV operating inside SVN"? Was there anything "nonpublic" to the NLF? Did the NLF ever exercise sovereignty, in the sense that they made decisions that the DRV/VWP would have countermanded but did not and could not? I'm skeptical."
