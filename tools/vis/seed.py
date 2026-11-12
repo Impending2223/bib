@@ -204,7 +204,7 @@ SERIES = [
       dated="event"),
     S("un", "the United Nations' records", "parties", "official",
       ["undocs.org", "documents.un.org", "docs.un.org", "digitallibrary.un.org", "treaties.un.org", "www.icj-cij.org"],
-      ["U.N. Doc", "UN Doc"], dated="item", note="an organization's record: its state parties' (vis.py, STYLE 4)"),
+      ["U.N. Doc", "UN Doc"], dated="event", note="an organization's record: its state parties' (vis.py, STYLE 4)"),
     S("eec", "the European Communities' records", "parties", "official", ["eur-lex.europa.eu"], dated="item"),
     S("hansard", "Hansard (Parliamentary Debates)", "uk", "official", ["api.parliament.uk/historic-hansard", "hansard.parliament.uk"],
       ["Hansard", "Parl. Deb."]),

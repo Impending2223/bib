@@ -299,9 +299,12 @@ def from_series(s, label, text, event, addressed):
         public = item_date(text, event, dated)
     privity = set(store.as_list(s.get("privity")))
     pub = pol
-    if pol == "parties":                   # an organization's record: its state parties' (STYLE 4)
-        pub = None
+    if pol == "parties":                   # an organization's record: published in, and known to, its state parties
+        pub = None                         # (STYLE 4): those the claim addresses
         privity |= set(addressed)
+        w = W(label, kind, None, public, privity, s.get("key", ""))
+        w["pubs"] = sorted(set(addressed))
+        return w
     if kind in ("document series", "archive"):
         vol_key = re.search(r"(frus\d{4}-\d{2}v\d{2}(?:p\d)?/d\d+)", text or "")
         parties = registry()["frus_parties"].get(vol_key.group(1)) if vol_key else None
@@ -581,8 +584,9 @@ def compute(series, lst, e):
             if d and d != "?":
                 d = max(d, date) if w["kind"] in PUBLIC_KINDS else d
                 any_public = min(any_public or d, d)
-                if w["pub"] and w["pub"] != "?" and not is_org(w["pub"]):
-                    pubs[w["pub"]] = min(pubs.get(w["pub"], d), d)
+                for p in ([w["pub"]] if w["pub"] else []) + list(w.get("pubs") or []):
+                    if p != "?" and not is_org(p):
+                        pubs[p] = min(pubs.get(p, d), d)
         unknown_public = any(w["public"] == "?" for w in known)
         unknown_in = {w["pub"] for w in known if w["public"] == "?" and w["pub"]}   # where an undated one is published
         pol = {}
