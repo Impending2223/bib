@@ -33,7 +33,6 @@ series:
   - {key: ddf, name: 'Documents diplomatiques français', polity: fr, kind: 'document series', dated: year, text: ['DDF', 'Documents diplomatiques']}
   - {key: vatican, name: 'the Holy See''s acts', polity: vatican, kind: official, dated: item, url: [www.vatican.va]}
   - {key: nyt, name: 'New York Times', polity: us, kind: press, dated: event, url: [timesmachine.nytimes.com, www.nytimes.com, select.nytimes.com], text: ['New York Times']}
-  - {key: newtimes, name: 'New Times (Novoe vremya, Moscow)', polity: ussr, kind: press, dated: item, text: ['New Times,', '*New Times*']}
   - {key: wapo, name: 'Washington Post', polity: us, kind: press, dated: event, url: [www.washingtonpost.com], text: ['Washington Post']}
   - {key: wsj, name: 'Wall Street Journal', polity: us, kind: press, dated: event, text: ['Wall Street Journal']}
   - {key: chitrib, name: 'Chicago Tribune', polity: us, kind: press, dated: event, text: ['Chicago Tribune']}
@@ -61,9 +60,11 @@ series:
   - {key: us-archives, name: 'American archives and libraries'' files', polity: us, kind: archive, dated: item, url: [www.jfklibrary.org, www.lbjlibrary.org, discoverlbj.org, catalog.archives.gov, www.archives.gov, www.reaganlibrary.gov, www.cia.gov, nsarchive.gwu.edu, nsarchive2.gwu.edu, aarclibrary.org, profiles.nlm.nih.gov, archives.hud.gov, da.mdah.ms.gov, crmvet.org, www.crmvet.org, snccdigital.org, www.fsm-a.org, ldfrecollection.org, naacpldf.org, ivanallen.iac.gatech.edu, radar.auctr.edu, findingaids.library.nyu.edu, archives.nd.edu, archives.law.virginia.edu, omekas-congress.lib.wvu.edu, mpl.org, kinginstitute.stanford.edu, okra.stanford.edu, digital.archives.alabama.gov, mdh.contentdm.oclc.org, kgi.contentdm.oclc.org, indianamemory.contentdm.oclc.org, dlg.galileo.usg.edu, dlg.usg.edu, crdl.usg.edu, digital.lib.ku.edu, collections.lib.uwm.edu, emke.uwm.edu, uwm.edu, asset.library.wisc.edu, search.library.wisc.edu, exploreuk.uky.edu, library.unt.edu, mocat.library.unt.edu, azmemory.azlibrary.gov, repository.uclawsf.edu, our.oakland.edu, www.studsterkel.org, library.law.smu.edu, law2.umkc.edu, www.mnhs.org, www2.mnhs.org]}
   - {key: foreign-archives, name: 'documents of other governments, as translated (the Wilson Center)', polity: '?', kind: archive, dated: item, url: [www.wilsoncenter.org, digitalarchive.wilsoncenter.org]}
   - {key: reference, name: 'encyclopedias, handbooks, finding aids and the like', polity: null, kind: reference, dated: event, url: [en.wikipedia.org, en.wikisource.org, www.tshaonline.org, encyclopediaofalabama.org, www.georgiaencyclopedia.org, www.mnopedia.org, www.historylink.org, philadelphiaencyclopedia.org, encyclopediaofarkansas.net, blackpast.org, explorepahistory.com, www.foundsf.org, www.nobelprize.org, www.nga.org, governors.rutgers.edu, www.fjc.gov, mshistory.mdah.ms.gov, www.wisconsinhistory.org, wisconsinhistory.org, guides.jenkinslaw.org, www.marxists.org, kcparks.org, pendergastkc.org, www.archpark.org, www.dc1968project.com, ghhsociety.org, historicsites.dcpreservation.org, ualrexhibits.org, allthewaywithlbj.com, sog.unc.edu, case.hks.harvard.edu, case.edu, www.k-state.edu, www.loc.gov, 'history.state.gov/departmenthistory', 'history.state.gov/milestones', web.archive.org, babel.hathitrust.org, catalog.hathitrust.org, books.google.com, www.jstor.org, doi.org, hdl.handle.net, www.nber.org, 'www.cpr.org/']}
+  - {key: newtimes, name: 'New Times (Novoe vremya, Moscow)', polity: ussr, kind: press, dated: item, text: ['New Times,', '*New Times*']}
 
 frus_volumes:
   frus1958-60v03: '1996'
+  frus1958-60v04: '1992'
   frus1958-60v06: '1991'
   frus1958-60v09: '1993'
   frus1961-63v01: '1988'
@@ -113,7 +114,7 @@ frus_volumes:
 # Volumes the notes give two years (the majority's above).
 frus_volume_doubts:
   frus1964-68v10: {2002: 1, 2001: 7}
-  frus1964-68v29: {2000: 16, 2006: 1}
+  frus1964-68v29: {2000: 23, 2006: 1}
 
 frus_parties:
   'frus1958-60v01/d149': [us, rvn]
@@ -201,6 +202,7 @@ frus_parties:
   'frus1961-63v07/d50': [us, uk]
   'frus1961-63v07/d75': [us, ussr]
   'frus1961-63v10/d130': [us, ussr]
+  'frus1961-63v10/d24': [us, uk]
   'frus1961-63v10/d317': [us, cuba]
   'frus1961-63v11/d102': [us, ussr]
   'frus1961-63v11/d218': [us, ussr]
@@ -209,11 +211,13 @@ frus_parties:
   'frus1961-63v12/d223': [us, argentina, brazil]
   'frus1961-63v12/d224': [us, brazil]
   'frus1961-63v12/d259': [us, guyana]
+  'frus1961-63v12/d353': [us, dominican-republic]
   'frus1961-63v13/d14': [us, uk]
   'frus1961-63v13/d258': [us, fr]
   'frus1961-63v13/d402': [us, uk]
   'frus1961-63v13/d403': [us, uk]
   'frus1961-63v13/d452': [us, canada]
+  'frus1961-63v13/d76': [us, frg]
   'frus1961-63v14/d10': [us, frg]
   'frus1961-63v14/d170': [us, ussr]
   'frus1961-63v14/d243': [us, uk]
@@ -232,6 +236,7 @@ frus_parties:
   'frus1961-63v16/d162': [us, yugoslavia]
   'frus1961-63v16/d259': [us, cyprus]
   'frus1961-63v16/d260': [us, cyprus]
+  'frus1961-63v17/d166': [us, uk]
   'frus1961-63v17/d191': [us, iraq, saudi-arabia]
   'frus1961-63v17/d216': [us, israel]
   'frus1961-63v17/d243': [us, iran]
@@ -239,6 +244,7 @@ frus_parties:
   'frus1961-63v17/d57': [us, israel]
   'frus1961-63v18/d110': [us, israel]
   'frus1961-63v18/d121': [us, israel]
+  'frus1961-63v18/d150': [us, uk]
   'frus1961-63v18/d225': [us, israel]
   'frus1961-63v18/d58': [us, saudi-arabia, yemen]
   'frus1961-63v18/d71': [us, saudi-arabia]
@@ -270,7 +276,10 @@ frus_parties:
   'frus1961-63v24/d91': [us, laos]
   'frus1964-68v02/d82': [us, ussr]
   'frus1964-68v04/d264': [us, ussr]
+  'frus1964-68v04/d300': [us, uk]
   'frus1964-68v05/d140': [us, ussr]
+  'frus1964-68v05/d7': [us, uk]
+  'frus1964-68v06/d220': [us, uk]
   'frus1964-68v06/d269': [us, ussr]
   'frus1964-68v07/d164': [us, ussr]
   'frus1964-68v08/d121': [us, frg]
@@ -347,6 +356,7 @@ frus_parties:
   'frus1964-68v18/d41': [us, jordan]
   'frus1964-68v18/d65': [us, israel]
   'frus1964-68v18/d67': [us, israel]
+  'frus1964-68v19/d130': [us, uk]
   'frus1964-68v19/d139': [us, israel]
   'frus1964-68v19/d156': [us, ussr]
   'frus1964-68v19/d157': [us, ussr]
@@ -512,6 +522,7 @@ works:
   w.adams-vietnam-cover-up: {kind: scholarship, country: '?', year: '1975'}
   w.adams-war-of-numbers: {kind: memoir, country: '?', year: '1994', basis: 'its title'}
   w.adelman-world-petroleum-market: {kind: scholarship, country: '?', year: '1972'}
+  w.adenauer-briefe-1961-1963: {kind: scholarship, country: '?', year: '2006'}
   w.adenauer-erinnerungen-1959-1963: {kind: memoir, country: '?', year: '1968', agent: adenauer-konrad, basis: 'listed under its author, kja II.G.7'}
   w.adler-reckless-disregard: {kind: scholarship, country: '?', year: '1986'}
   w.advisers-annual-report-1964: {kind: scholarship, country: '?', year: '1964'}
@@ -521,6 +532,7 @@ works:
   w.ahern-undercover-armies: {kind: scholarship, country: us, year: '2009', basis: 'an American government author or title'}
   w.ahlberg-transplanting-the-great-society: {kind: scholarship, country: '?', year: '2008'}
   w.ahmad-turkish-experiment-in-democracy: {kind: scholarship, country: '?', year: '1977'}
+  w.akten-zur-auswartigen-politik: {kind: scholarship, country: '?', year: '2010'}
   w.al-chien-dich-tien-cong: {kind: scholarship, country: '?', year: '1987'}
   w.al-vietnam-and-southeast-asia: {kind: scholarship, country: us, year: '1963', basis: 'an American government author or title'}
   w.alabama-governors: {kind: scholarship, country: '?', year: '2001'}
@@ -1999,6 +2011,7 @@ works:
   w.ripon-papers-1963-1968: {kind: scholarship, country: '?', year: '1968'}
   w.risen-bill-of-the-century: {kind: scholarship, country: '?', year: '2014'}
   w.risen-nation-on-fire: {kind: scholarship, country: '?', year: '2009'}
+  w.ritchie-minutes-of-the-senate: {kind: scholarship, country: us, year: '1998', basis: 'an American government author or title'}
   w.ritz-despised-poor: {kind: scholarship, country: '?', year: '1966'}
   w.robarge-john-mccone-as-director: {kind: scholarship, country: us, year: '2005', basis: 'an American government author or title'}
   w.robert-kennedy-in-his: {kind: memoir, country: '?', year: '1988', basis: 'its title'}
@@ -2103,6 +2116,7 @@ works:
   w.seligman-transformation-of-wall-street: {kind: scholarship, country: '?', year: '1982'}
   w.selverstone-its-a-date: {kind: scholarship, country: us, year: '2010', basis: 'the journal, Diplomatic Hist.'}
   w.selverstone-kennedy-withdrawal: {kind: scholarship, country: '?', year: '2022'}
+  w.sen-church-alleged-assassination-plots: {kind: scholarship, country: '?', year: '1975'}
   w.service-in-pursuit-of-equity: {kind: scholarship, country: '?', year: '1967'}
   w.shackley-spymaster: {kind: memoir, country: us, year: '2005', agent: shackley-theodore-g, basis: 'its title; an American government author or title'}
   w.shadegg-what-happened-to-goldwater: {kind: scholarship, country: '?', year: '1965'}
@@ -2359,6 +2373,7 @@ works:
   w.white-making-of-the-president-1965: {kind: scholarship, country: '?', year: '1965'}
   w.white-making-of-the-president-1969: {kind: scholarship, country: '?', year: '1969'}
   w.white-making-of-the-president-1973: {kind: scholarship, country: '?', year: '1973'}
+  w.white-politics-as-a-noble: {kind: scholarship, country: '?', year: '1994'}
   w.white-suite-3505: {kind: scholarship, country: '?', year: '1967'}
   w.wildavsky-politics-of-the-budgetary: {kind: scholarship, country: '?', year: '1964'}
   w.wilford-mighty-wurlitzer: {kind: scholarship, country: us, year: '2008', basis: 'an American government author or title'}
@@ -2394,6 +2409,7 @@ works:
   w.wofford-of-kennedys-and-kings: {kind: memoir, country: '?', year: '1980', agent: wofford-harris, basis: 'listed under its author, kja II.G.2'}
   w.wolf-william-warren-scranton: {kind: scholarship, country: '?', year: '1981'}
   w.wolfe-right-stuff: {kind: scholarship, country: '?', year: '1979'}
+  w.wolff-minutes-of-the-senate: {kind: scholarship, country: us, year: '1999', basis: 'an American government author or title'}
   w.wolfinger-politics-of-progress: {kind: scholarship, country: '?', year: '1974'}
   w.women-american-women: {kind: scholarship, country: us, year: '1963', basis: 'an American government author or title'}
   w.wood-preserving-new-york: {kind: scholarship, country: '?', year: '2008'}
@@ -2413,6 +2429,7 @@ works:
   w.young-two-suns-of-the: {kind: scholarship, country: '?', year: '2019'}
   w.zagoria-vietnam-triangle: {kind: scholarship, country: '?', year: '1967'}
   w.zaroulis-who-spoke-up: {kind: scholarship, country: '?', year: '1984'}
+  w.zedong-mao-zedong-nianpu: {kind: scholarship, country: '?', year: '2013'}
   w.zeiler-american-trade-and-power: {kind: scholarship, country: '?', year: '1992'}
   w.zelizer-covering-the-body: {kind: scholarship, country: '?', year: '1992'}
   w.zelizer-fierce-urgency-of-now: {kind: scholarship, country: '?', year: '2015'}
