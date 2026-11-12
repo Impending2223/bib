@@ -2324,6 +2324,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-05-18.cuba
+    when: May 18
+    date: '1961-05-18'
+    thread: cuba
+    also: [cuba-bay-of-pigs]
+    c: The Taylor board interviews several Cuban exile leaders of the Bay of Pigs, among them the leader who had cooperated in the plot to poison Castro; Robert Kennedy present. The subject, by the session's summary, the Bay of Pigs.
+    n: '[[w.sen-church-alleged-assassination-plots]], 125 (the summary of the session). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: the summary of the board''s session, May 18, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 125). See [[cal.1961-04-22.cuba]]. Names: Robert Kennedy, Castro.'
+    tags: [name:kennedy-robert-f, name:castro-fidel]
   - id: cal.1961-05-19.civil-rights-the-executive
     when: May 19
     date: '1961-05-19'
@@ -4295,12 +4303,18 @@ entries:
     thread: cuba-bay-of-pigs
     also: [robert-kennedy]
     c: 'By Bissell''s testimony of 1975: briefing Robert Kennedy during the Taylor inquiry, he told him the CIA was using "underworld elements against the Castro regime"; never that it had hired Giancana to kill Castro.'
-    n: '[[w.thomas-robert-kennedy]], 156–57. To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975), 122–23 (cited by [[w.thomas-robert-kennedy]], 156). Names: Bissell, Robert Kennedy, Giancana, Castro. Check: the day.'
+    n: '[[w.thomas-robert-kennedy]], 156–57; [[w.sen-church-alleged-assassination-plots]], 122–23 (Bissell, testimony, June 11, 1975, 27, July 22, 1975, 53–56: "the Underworld against the Castro regime"; "no idea" whether he said it included actual attempts to kill Castro, "no knowledge" that the Attorney General was "specifically advised"; Hoover''s memorandum of May 22, 1961 quoting Edwards; not the words as c has them). To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975), 122–23 (cited by [[w.thomas-robert-kennedy]], 156). Names: Bissell, Robert Kennedy, Giancana, Castro. Check: the day.'
     src:
       c: 847e82b4
       rows:
         - 'w.thomas-robert-kennedy 156–57: all'
+        - 'w.sen-church-alleged-assassination-plots 122–23: ?'
     tags: [name:bissell-richard-m-jr, name:kennedy-robert-f, name:giancana-sam, name:castro-fidel]
+    variants:
+      - unit: B
+        witness: w.sen-church-alleged-assassination-plots
+        reads: 'Bissell, asked whether he told them it included actual attempts to kill Castro: "I have no idea whether I did"; he has "no knowledge" that the Attorney General was "specifically advised"'
+        at: 122–23
   - id: cal.1961-05.cuba-3
     when: May
     date: 1961-05

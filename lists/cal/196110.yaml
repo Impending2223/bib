@@ -350,11 +350,12 @@ entries:
     thread: crime-and-hijacking-maheu
     also: [robert-kennedy]
     c: Robert Kennedy, by the Justice Department's records, asks the "status" of the Maheu wiretap case, the first time in four months. The same day the Special Group asks for a plan on Castro's "possible removal."
-    n: '[[w.thomas-robert-kennedy]], 157. To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975), 128–36 (cited by [[w.thomas-robert-kennedy]], 157). See [[cal.1961-10.cuba]]. Names: Robert Kennedy, Maheu, Castro.'
+    n: '[[w.thomas-robert-kennedy]], 157; [[w.sen-church-alleged-assassination-plots]], 128–29 (a Justice Department file entry of Oct. 6, 1961: "Yesterday P.M. told me that A.G. had inquired as to status of this case and think Harold [Shapiro] got it taken care of OK"; no other activity in the case from September 1961 through January 1962; for B see Variant). To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975), 128–36 (cited by [[w.thomas-robert-kennedy]], 157). See [[cal.1961-10.cuba]]. Names: Robert Kennedy, Maheu, Castro.'
     src:
       c: aae3dfe8
       rows:
         - 'w.thomas-robert-kennedy 157: all'
+        - 'w.sen-church-alleged-assassination-plots 128–29: ?'
     tags: [name:kennedy-robert-f, name:maheu-robert-a, name:castro-fidel]
     time_range:
       - 1961-10-05T13:00Z
@@ -362,6 +363,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.sen-church-alleged-assassination-plots
+        reads: the Special Group's minutes of October 6, 1961 state that the Group was told that "a contingency plan in connection with the possible removal of Castro from the Cuban scene" was in preparation
+        at: '136'
   - id: cal.1961-10-05.vietnam-3
     when: Oct. 5
     date: '1961-10-05'
@@ -389,6 +395,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-10-05.cuba
+    when: Oct. 5
+    date: '1961-10-05'
+    thread: cuba
+    c: 'Bundy to the Secretary of State, NSAM 100, "Contingency Planning for Cuba": "In confirmation of oral instructions conveyed to Assistant Secretary of State Woodward, a plan is desired for the indicated contingency."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 136 ("stated in full"; the contingency, by the Committee''s account, Castro''s removal from the Cuban scene). To check: NSAM 100, Oct. 5, 1961, Bundy to the Secretary of State (cited by [[w.sen-church-alleged-assassination-plots]], 136). See [[cal.1961-10.cuba]]. Names: Bundy, Woodward.'
+    tags: [name:bundy-mcgeorge, name:woodward-robert-f]
+  - id: cal.1961-10-05.cuba-2
+    when: Oct. 5
+    date: '1961-10-05'
+    thread: cuba
+    c: 'Parrott, secretary of the Special Group, to the Deputy Assistant Secretary for Latin American Affairs: "what was wanted was a plan against the contingency that Castro would in some way or other be removed from the Cuban scene"; "the presence and positions of Raul (Castro) and Che Guevara must be taken into account." Taylor, by Parrott, preferred "the President''s interest in the matter not be mentioned." Parrott asks Barnes of the CIA for an up-to-date report on "what is going on and what is being planned."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 136 (Parrott, memorandum for the record, Oct. 5, 1961; Parrott, 1975: removal by means "short of being killed," 137). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memorandum for the Record, Parrott, Oct. 5, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 136). See [[cal.1961-10-05.cuba]]. Names: Castro, Raúl Castro, Guevara, Taylor, Barnes.'
+    tags: [name:castro-fidel, name:castro-raul, name:guevara-ernesto, name:taylor-maxwell, name:barnes-c-tracy]
   - id: cal.1961-10-06.berlin-and-vienna
     when: Oct. 6
     date: '1961-10-06'
@@ -472,6 +492,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-10-06.cuba
+    when: Oct. 6
+    date: '1961-10-06'
+    thread: cuba
+    c: The Special Group told that, besides an overall plan for covert operations in Cuba, "a contingency plan in connection with the possible removal of Castro from the Cuban scene" is in preparation.
+    n: '[[w.sen-church-alleged-assassination-plots]], 136 (Memorandum for the Record of the Special Group''s meeting, Oct. 6, 1961). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memorandum for the Record, Special Group, Oct. 6, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 136). See [[cal.1961-10-05.cuba]]; [[cal.1961-10-05.cuba-2]]. Names: Castro.'
+    tags: [name:castro-fidel]
   - id: cal.1961-10-07.middle-east
     when: Oct. 7
     date: '1961-10-07'
@@ -2054,7 +2081,7 @@ entries:
     date: 1961-10
     thread: cuba
     c: 'The Special Group asks for a contingency plan should Castro die, from whatever cause. The CIA''s Board of Estimates: his death "by assassination or by natural causes ... would almost certainly not prove fatal to the regime," and would probably strengthen the Communists'' position in Cuba.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 489; [[w.thomas-robert-kennedy]], 157 (the Special Group asks a "contingency plan in connection with the possible removal of Castro"; Taylor: "the President''s interest in the matter not be mentioned"); [[w.reeves-president-kennedy]], 265–66 (NSAM 100, Oct. 5; the Special Group''s "possible removal of Castro"; the CIA''s paper of Oct. 5 on his loss "by assassination or by natural causes"). Check: Thomas dates the Special Group''s request Oct. 5 (157). To check: Church committee, *Alleged Assassination Plots Involving Foreign Leaders*, S. Rep. No. 94-465, 136–37 (1975) (cited by [[w.schlesinger-robert-kennedy-and-his]], 489 n.80). Check: the days of the request and of the reply. Names: Castro.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 489; [[w.thomas-robert-kennedy]], 157 (the Special Group asks a "contingency plan in connection with the possible removal of Castro"; Taylor: "the President''s interest in the matter not be mentioned"); [[w.reeves-president-kennedy]], 265–66 (NSAM 100, Oct. 5; the Special Group''s "possible removal of Castro"; the CIA''s paper of Oct. 5 on his loss "by assassination or by natural causes"); [[w.sen-church-alleged-assassination-plots]], 136–37 (the CIA Board of National Estimates'' "The Situation and Prospects in Cuba," 9: Castro''s loss "by assassination or by natural causes, would have an unsettling effect, but would almost certainly not prove fatal to the regime," the Communist Party''s influence "significantly" increased; for A: NSAM 100 of Oct. 5, Parrott''s memorandum of Oct. 5 and the Special Group''s minutes of Oct. 6, a plan wanted "against the contingency that Castro would in some way or other be removed from the Cuban scene," not the Group''s request "from whatever cause"; see [[cal.1961-10-05.cuba]]). Check: Thomas dates the Special Group''s request Oct. 5 (157). Check: the days: [[w.sen-church-alleged-assassination-plots]], 136: NSAM 100 and Parrott''s memorandum, Oct. 5, 1961; the Special Group''s minutes, Oct. 6. To check: Church committee, *Alleged Assassination Plots Involving Foreign Leaders*, S. Rep. No. 94-465, 136–37 (1975) (cited by [[w.schlesinger-robert-kennedy-and-his]], 489 n.80). Check: the days of the request and of the reply. Names: Castro.'
     src:
       c: cb6f62f6
       rows:
@@ -2063,6 +2090,7 @@ entries:
         - 'w.thomas-robert-kennedy 157: A'
         - 'via w.thomas-robert-kennedy 157 n.rfk-status-taylor: A'
         - 'w.reeves-president-kennedy 265–66: A, B'
+        - 'w.sen-church-alleged-assassination-plots 136–37: B'
     tags: [name:castro-fidel]
   - id: cal.1961-10.vietnam-force-levels
     when: Oct.

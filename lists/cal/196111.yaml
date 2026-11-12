@@ -204,6 +204,13 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1961-11-02.cuba
+    when: Nov. 2
+    date: '1961-11-02'
+    thread: cuba
+    c: 'Goodwin to the President and the Attorney General, "eyes only": a suggested organization for what became Mongoose, five "staff components," among them "intelligence collection," "guerrilla and underground" and "propaganda." "As for propaganda, I thought we might ask Tad Szulc to take a leave of absence from the *Times* and work on this one—although we should check with [USIA Director] Ed Murrow and Dick Bissell."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 138 n.2 (Memo, Goodwin to the President and the Attorney General, Nov. 2, 1961, 2). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memo, Goodwin to the President and the Attorney General, Nov. 2, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 138 n.2). See [[cal.1961-11-01.cuba]]. Names: Goodwin, Szulc, Murrow, Bissell.'
+    tags: [name:goodwin-richard-n, name:szulc-tad, name:murrow-edward-r, name:bissell-richard-m-jr]
   - id: cal.1961-11-03.vietnam
     when: Nov. 3
     date: '1961-11-03'
@@ -917,6 +924,10 @@ entries:
         witness: w.jones-bay-of-pigs
         reads: '"We can''t get into that kind of thing, or we would all be targets."'
         at: '156'
+      - unit: E
+        witness: w.sen-church-alleged-assassination-plots
+        reads: 'Goodwin: "several days after the meeting" he referred to the discussion, and the President said "we can''t get into that kind of thing, or we would all be targets"'
+        at: '139'
   - id: cal.1961-11-09.goldwater
     when: Nov. 9
     date: '1961-11-09'
@@ -1428,6 +1439,13 @@ entries:
         - 'w.thomas-robert-kennedy 166: all'
         - 'via x.1962-02-23.eb223-thomas: all'
     tags: [name:campbell-judith]
+  - id: cal.1961-11-15.cuba
+    when: Nov. 15
+    date: '1961-11-15'
+    thread: cuba
+    c: 'Lansdale to Robert Kennedy, outlining the Mongoose proposal: a "picture of the situation has emerged clearly enough to indicate what needs to be done and to support your sense of urgency concerning Cuba."'
+    n: '[[w.sen-church-alleged-assassination-plots]], 139 (Memo, Nov. 15, 1961; the Committee''s text gives "November 1962" for the proposal''s year, its notes 1961). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memo, Lansdale to Robert Kennedy, Nov. 15, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 139). See [[cal.1961-11-01.cuba]]. Names: Lansdale, Robert Kennedy.'
+    tags: [name:lansdale-edward-g, name:kennedy-robert-f]
   - id: cal.1961-11-16.congress
     when: Nov. 16
     date: '1961-11-16'
@@ -1485,11 +1503,12 @@ entries:
     thread: cuba
     also: [intelligence]
     c: 'Bissell summons Harvey: some nine months before, "the White House" had told him to set up an "executive action" capability, ZR/RIFLE, a hired killer on the payroll, never used. Harvey to take over the CIA''s Mafia contacts and fold them into it.'
-    n: '[[w.thomas-robert-kennedy]], 158. To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975) (cited by [[w.thomas-robert-kennedy]], 158 n.). Names: Bissell, Harvey. Check: Bissell to Thomas, 1994: "They never told me not to" (158).'
+    n: '[[w.thomas-robert-kennedy]], 158; [[w.sen-church-alleged-assassination-plots]], 83, 188–89 (Harvey''s notes, by the I.G. Report, 39: Bissell asked Harvey to take over the gambling syndicate operation and they discussed the "application of ZR/RIFLE program to Cuba" on Nov. 16, 1961; Bissell confirms; for A see Variant). Check: the day: [[w.sen-church-alleged-assassination-plots]], 83, has Harvey''s notes on Nov. 16, 1961; 188, on Nov. 15. To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975) (cited by [[w.thomas-robert-kennedy]], 158 n.). Names: Bissell, Harvey. Check: Bissell to Thomas, 1994: "They never told me not to" (158).'
     src:
       c: 07962794
       rows:
         - 'w.thomas-robert-kennedy 158: all'
+        - 'w.sen-church-alleged-assassination-plots 83, 188–89: B'
     tags: [name:bissell-richard-m-jr, name:harvey-william-k]
     time_range:
       - 1961-11-16T14:00Z
@@ -1497,6 +1516,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.sen-church-alleged-assassination-plots
+        reads: Harvey "did not recall any mention of the White House or any authority higher than the DDP in his November 1961 meeting with Bissell"; the "twice urged" of his missing notes belongs to their first talk of Executive Action, early 1961; Bissell, last, the capability "undoubtedly," or "very much more likely," initiated within the Agency
+        at: 183–89
   - id: cal.1961-11-16.vietnam-2
     when: Nov. 16
     date: '1961-11-16'

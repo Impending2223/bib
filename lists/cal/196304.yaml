@@ -1951,13 +1951,14 @@ entries:
     date: '1963-04-21'
     thread: cuba
     c: 'Bundy to the NSC''s Standing Group, "The Cuban Problem," for its meeting of Apr. 23: a White House summary of three courses; "the process of gradual pressure" could serve either of the others.'
-    n: '[FRUS 1961–63, XI, doc. 320](https://history.state.gov/historicaldocuments/frus1961-63v11/d320). [[w.preston-war-council]], 66. Names: Bundy.'
+    n: '[FRUS 1961–63, XI, doc. 320](https://history.state.gov/historicaldocuments/frus1961-63v11/d320). [[w.preston-war-council]], 66; [[w.sen-church-alleged-assassination-plots]], 170–72 (Bundy''s memorandum of Apr. 21, 1963 for the Standing Group, three alternatives: forcing "a non-Communist solution in Cuba by all necessary means," "major but limited ends," or "gradual development of some form of accommodation with Castro"; not B; for the title see Variant). Names: Bundy.'
     src:
       c: 193d0094
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d320: all'
         - 'w.preston-war-council 66: B'
         - 'via w.preston-war-council 66 n.36d: all'
+        - 'w.sen-church-alleged-assassination-plots 170–72: ?'
     tags: [name:bundy-mcgeorge]
     time_range:
       - 1963-04-21T14:00Z
@@ -1965,6 +1966,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.sen-church-alleged-assassination-plots
+        reads: a memorandum entitled "Cuba Alternatives"
+        at: '170'
   - id: cal.1963-04-21.laos-2
     when: Apr. 21–26
     date: '1963-04-21'
@@ -2116,6 +2122,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-23.cuba
+    when: Apr. 23
+    date: '1963-04-23'
+    thread: cuba
+    c: The NSC Standing Group first discusses Bundy's "Cuba Alternatives." Robert Kennedy proposes a study of the "measures we would take following contingencies such as the death of Castro or the shooting down of a U-2." Alternatives considered, none involving assassination; no conclusions reached.
+    n: '[[w.sen-church-alleged-assassination-plots]], 171–72 (Summary Record of Standing Group Meeting, Apr. 23, 1963; Bundy, testimony, July 11, 1975, 130, 14). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Summary Record of NSC Standing Group Meeting, Apr. 23, 1963; Memorandum for Members of the Standing Group, May 2, 1963 (the Office of National Estimates assigned to assess Castro''s death) (cited by [[w.sen-church-alleged-assassination-plots]], 171). See [[cal.1963-04-21.cuba]]. Names: Bundy, Robert Kennedy, Castro.'
+    tags: [name:bundy-mcgeorge, name:kennedy-robert-f, name:castro-fidel]
   - id: cal.1963-04-24.testing
     when: Apr. 24
     date: '1963-04-24'
