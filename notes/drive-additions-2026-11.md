@@ -261,7 +261,7 @@ Taken Nov. 10, 2026 (evening, Pacific), at the owner's word: "take a note of the
 
 - 1 Никита Сергеевич Хрущев. Два цвета в...ен... Казарина, М. Ю. Прозуменщ}, 20 MB: `15r9UVrNwVBwCiC15VmVUnC7yVw3DQqUG`
 - 2 Никита Сергеевич Хрущев. Два цвета в...рн...тов, С.Д. Таванец}, 26 MB: `1PpH03WDpZc52uoeaZUFpqU8Z3xPoRZG5`
-- 中共党史年谱 - 中共党史年谱: 《毛泽东年谱(全九卷)》 年月目录 {中共中央文献研究室 编}(2002: 中央文献出版社){96632412} libgen.li, 6 MB: `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy`
+- 中共党史年谱 - 中共党史年谱: 《毛泽东年谱(全九卷)》 年月目录 {中共中央文献研究室 编}(2002: 中央文献出版社){96632412} libgen.li, 6 MB: `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy` — **opened Nov. 11 (night): the full text, not a month index** (the file name misleads): an epub of the whole *Mao Zedong nianpu* in nine volumes (1893–1949, 3 vols.; 1949–1976, 6 vols.; the 2013 edition by its metadata), 4.06 million characters, a chapter a year; 1960–68 about 820,000 characters and some 1,800 dated days (1960: 352; 1961: 275; 1962: 245; 1963: 242; 1964: 278; 1965: 178; 1966: 234; 1967: 233; 1968: 152). No printed pages: cite by volume and date. Card `w.zedong-mao-zedong-nianpu` (the 1949–76 set, 2013).
 - Записки из чемодана. Тайные дневник...дс...ван Серов, Александр Хинштейн}, 46 MB: `1JpvnYLdG_p6-IET84x3yqAwsOTHm-_cL`
 - Идеологические комиссии ЦК КПСС 1958 - 1964: Документы, 73 MB: `1_hmA9n8bqFsmnlxhLXmdOB--PvlM3HD4`
 - Никита Хрущев. 1964. Стенограммы плену...д...рев, Н.Г. Томилина, И.Н. Шевчук}, 16 MB: `1HCgKzdyfTzvaIdYVzp4naEwiIRUD4HWV`
@@ -434,3 +434,90 @@ Taken Nov. 10, 2026 (evening, Pacific), at the owner's word: "take a note of the
 
 - 8058 – “Báo cáo của Phó Thủ tướng Lê Thanh Nghị về việc gặp các đồng chí lãnh đạ...o... nước xã hội chủ nghĩa năm 1965,” Phủ Thủ tướng, Vietnam National Archives Center 3 (Hanoi), 5 MB: `1Z6xzA91mmdvxxQON7m8O1RMkhphmDYqb`
 
+
+## What came in, Nov. 11–12
+
+Taken Nov. 12, 2026, at the owner's word that another batch was shared. A Drive search for files created after Nov. 11, 02:00 UTC (Nov. 10, 18:00 Pacific): 64 files, all in the folder "1968 series: sources for Claude" (`1WsKov5Kiu0f3k7gukFeQzWMrvJdk0NOb`), all created Nov. 12, 06:04 UTC (Nov. 11, 22:04 Pacific) within twenty seconds: one upload. None in the shared drive `0AP5IxefiIRE3Uk9PVA` (the search returned no file from it; a search by creation date cannot be limited to a drive, so Check by listing it). No duplicate titles. Metadata only; nothing opened or downloaded. Nothing in the series changed.
+
+**American works for the calendar, in the order to read them** (primary records and diaries first). The batch holds almost none; it is a Chinese, Vietnamese, French and German collection.
+1. No American primary record and no American diary or memoir of 1960–68 came in.
+2. Bùi Diễm with Chanoff, *In the Jaws of History* (1987): a South Vietnamese ambassador's memoir, published in America; card `adm.bui-diem`; for the Washington end of 1965–67.
+3. Nguyễn Cao Kỳ, *Twenty Years and Twenty Days* and (with Wolf) *Buddha's Child*: Saigon's premier, 1965–67; cards `vn.nguyen-cao-ky`.
+4. Lâm Quang Thi, *The Twenty-Five Year Century* (an American university press): a general's memoir; card `vn.lam-quang-thi`.
+5. Allan E. Goodman, *Politics in War* (1973) and Vinh-The Lam, *The History of South Vietnam, 1963–1967*: political histories of Saigon, not of Washington; the second has no card.
+6. Pihoya (Russian) and Schattenberg, *Brezhnev* (German scholar, English): not American; Brezhnev's rise, for Soviet threads.
+
+## What stands out
+
+- **Primary records.** The Chinese party's compilations: *Jianguo yilai zhongyao wenxian xuanbian*, vols. 12–20 (1960s); *Jianguo yilai Mao Zedong wengao*, vols. 15–19 (Jan. 1960–May 1970); *Jianguo yilai Liu Shaoqi wengao*, vol. 5; the Foreign Ministry's *Zhonghua renmin gongheguo waijiao dashiji*, vols. 2–3 (1957–71) and its *Zhou Enlai waijiao huodong dashiji* (1949–75). Vietnam's *Văn kiện Đảng toàn tập*, vols. 21–30 (1960–69), and the military history institute's *Lịch sử kháng chiến chống Mỹ cứu nước*, vols. 1–9. For the calendar's Vietnam and China threads; none American.
+- **American works for the calendar.** See the list above: Saigon's memoirs and two political histories.
+- **Foreign documentary series and works.** The nianpu (chronologies): Liu Shaoqi (vols. 1–2), Zhou Enlai (two), Deng Xiaoping, Chen Yun (vol. 1). Wu Lengxi, *Shinian lunzhan*, 1956–66 (two editions), the Sino-Soviet polemics; Bu Weihua on the Cultural Revolution, 1966–68; *The Tragedy of Lin Biao*; Adenauer, vol. 2 (Schwarz, 1952–67, German); Viansson-Ponté, *Histoire de la république gaullienne*, vols. 1–2.
+- **Memoirs and diaries.** *Yang Shangkun riji* (Yang Shangkun's diary, 2 vols.; 1960s Central Committee office); Đỗ Mậu, Phạm Bá Hoa, Đoàn Thêm (*Những ngày chưa quên*, 1954–63, a Saigon day-record), Lăng-hán (*Hai mươi năm qua*, 1945–64); the Ky, Bui Diem and Lam memoirs above.
+- **Unusual.** Sizes run to 88 MB; the Chinese files are named with series and editors' strings. Not matched to book-checks (none of the 64 has one; the only cards are those named in the last column).
+
+| Added | Title (as the file names it) | Size | Drive id | Already read |
+|---|---|---|---|---|
+| 11-12 | 1 Histoire de la république gaullienne -- Viansson-Ponté, Pierre, 1920-.pdf | 24 MB | `1rDBP4RjHBt0psKf4jH2hyUVhfWtAjegE` |  |
+| 11-12 | 2 Histoire de la république gaullienne -- Viansson-Ponté, Pierre, 1920-.pdf | 33 MB | `1btcmrwQ782yLXUa8bhBX-plMbaDaFOBn` |  |
+| 11-12 | Adenauer Bd_ 2_ Der Staatsmann _ 1952 - 1967 -- Schwarz, Hans-Peter, 1934-.pdf | 61 MB | `1xpIP9Ro8DuPIc1hrO3GKFJasGhy0daWZ` |  |
+| 11-12 | Brezhnev The Making of a Statesman Susanne Schattenberg.pdf | 14 MB | `1fgXkTvr2TQMbTh03g01I7DgT93AyiOn1` |  |
+| 11-12 | Buddha's child _ my fight to save Vietnam -- Nguyẽ̂n, Cao Kỳ, Wolf, Marvin J.pdf | 21 MB | `1KCsW-CBGjpJs5pwmpwZ62zUJLdhoCzxx` | card vn.nguyen-cao-ky (*Twenty Years*; *Buddha's Child* not matched) |
+| 11-12 | HAI MƯƠI NĂM QUA Việc từng ngày (1945-1964) của Läng -hán.pdf | 11 MB | `1wL0dHL9kT-ke33WVc58-sk_tJdXLlnCx` |  |
+| 11-12 | Hồi ký chính trị 1965-1975 đại tá Phạm Bá Hoa -- Phạm Bá Hoa -- Khuyết danh.pdf | 2 MB | `1ozcFKUfntbRMA4dVLR8LhivwN-oEP66s` |  |
+| 11-12 | In the jaws of history -- Diem, Bui, Bui, Diem, Chanoff, David.pdf | 39 MB | `1lIbzwhxO2U-54u3vm2VrkHt2KzD09o77` |  |
+| 11-12 | Lâm Quang Thi, The Twenty-Five Year Century.pdf | 2 MB | `10hoxU37r82ZJjVQBEy5mwR49bSxbQSDK` | card vn.lam-quang-thi |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 1 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 1 MB | `12mUcq536bZ6jZWo7jNRCuuruXHUV4w0Y` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 2 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 2 MB | `1n5I87g-J1vd-YfnVXWwLDcjRsQUbfDl4` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 3 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 3 MB | `1NO-cIOkmT8YsO4wdlw2TvDBX_jojt1wi` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 4 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 3 MB | `1mdEqLeFUfNJBPc4OB2QVMIz5a4BKvwsh` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 5 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 2 MB | `1t4V7LDjJ02RsPv3iHHZp8WQhVghmFfl4` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 6 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 2 MB | `1zggkITSSkyz-9er0juH5iyNy1i41Uqj-` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 7 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 3 MB | `1n-HXk-ht8ZqajV-lSiPrg92rcXN75bGq` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 8 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 3 MB | `1xzdpjVftWOeeSydP2A3TLqNjmJbCe34P` |  |
+| 11-12 | Lịch sử kháng chiến chống Mỹ cứu nước 1954 - 1975 - Tập 9 - -- Viện lịch sử quân sự Vi...quốc phòng -- 2013 apr -- Nhà xuất bản chính trị.pdf | 2 MB | `1ld-P_TcT5uj8oYyr3tty8oLrlQOA01vd` |  |
+| 11-12 | Những ngày chưa quên (1954-1963) -- Đoàn Thêm -- 1989 -- Cơ sở xuất bản Xuân Thu.pdf | 17 MB | `1FNDCBBltpigI_7xjmA7qdqfetVgp6cUm` |  |
+| 11-12 | Politics in War ﻿ The Bases of Political Community in South Vietnam ﻿ Allan E. Goodman.pdf | 8 MB | `1GaD4UCroEos4zvNabI-PLkPpFmPWkOOI` | card vn.goodman-politics-in-war |
+| 11-12 | The History of South Vietnam﻿ The Quest for Legitimacy and ﻿ Stability, 1963–1967﻿ Vinh-The Lam.pdf | 5 MB | `1EA_Rx-adGLye9Y5DZNVeDkPb16MfAyFH` |  |
+| 11-12 | The Tragedy of Lin Biao Riding the Tiger during the Cultural Revolution 1966-1971.pdf | 6 MB | `1IvpIsxiBBAcl-cDSggbClEXwENfAIYZe` |  |
+| 11-12 | Twenty years and twenty days -- Nguyẽ̂n, Cao Kỳ.pdf | 13 MB | `1iqWV0TaBYIUORksPFBU9sdLWsdLhWQLu` | card vn.nguyen-cao-ky |
+| 11-12 | Việt Nam máu lửa quê hương tôi -- Hoành Linh Đỗ Mậu -- 2007.pdf | 3 MB | `1Bd7CPVBE34AU71TsPmI_KSHPhIqtPubC` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 21 1960.pdf | 7 MB | `1JStHLzzzKuM3VJtButpRYQ6cwuo7ZqLf` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 22 1961.pdf | 4 MB | `1b5CamzHVz1DkcpWmxk6livk5ad-zgGlz` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 23 1962.pdf | 4 MB | `1upRXoizdfxWBY_emRkOTegqlS_VYLPPy` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 24 1963.pdf | 4 MB | `172mXcdm2w51tR83qCTMmZoAxsWC8KF7M` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 25 1964.pdf | 3 MB | `1OgpxUm0O5polcWekBlzIqDJP7fO5AcHF` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 26 1965.pdf | 3 MB | `1ELuJ9pUFbg_Vt7LvMsSMor3JkZaI7p-t` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 27 1966.pdf | 2 MB | `1XaKJVe_z29uptq9-cyTtAisR4CAFrbCc` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 28 1967.pdf | 3 MB | `1ejGXi7iLKyJ7JrmbmhQ4e1gP_iIbmpDP` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 29 1968.pdf | 3 MB | `14do8ZYd_BKhWC0TvYyrq2QHVptd8cCJh` |  |
+| 11-12 | VĂN KIỆN ĐẢNG TOÀN TẬP TẬP 30 1969.pdf | 2 MB | `117SWi30FzokIhs7UzELXYyPlyYXCGMbj` |  |
+| 11-12 | [建国以来毛泽东文稿 - 建国以来毛泽东文稿] 建国以来毛泽东文稿 第15册 1960.01-1961.03{中共中央党史和文献研究院 编}(2023, 中央文献出版社).pdf | 86 MB | `10sG321JBlxvzSX7uS9vMnXwtsB3X-RYZ` |  |
+| 11-12 | [建国以来毛泽东文稿 - 建国以来毛泽东文稿] 建国以来毛泽东文稿 第16册 1961.04-1963.05{中共中央党史和文献研究院 编}(2023, 中央文献出版社).pdf | 88 MB | `1i_SY_5Oyb0GwNWPipCNhymJC0HMl-Hie` |  |
+| 11-12 | [建国以来毛泽东文稿 - 建国以来毛泽东文稿] 建国以来毛泽东文稿 第17册 1963.06-1965.01 {中共中央党史和文献研究院 编}(2023, 中央文献出版社).pdf | 86 MB | `16s2hyj6StNA4pFDQlpfwHpLdQk1-I7Qc` |  |
+| 11-12 | [建国以来毛泽东文稿 - 建国以来毛泽东文稿] 建国以来毛泽东文稿 第18册 1965.02-1967.03{中共中央党史和文献研究院 编}(2023, 中央文献出版社).pdf | 79 MB | `1Ku-LY0x6nLPpFmw5wznz0wfUisHezULf` |  |
+| 11-12 | [建国以来毛泽东文稿 - 建国以来毛泽东文稿] 建国以来毛泽东文稿 第19册 1967.03-1970.05{中共中央党史和文献研究院 编}(2023, 中央文献出版社).pdf | 80 MB | `12NbN4ISHzsCZZsHFfJmbEEad6gLhfqR4` |  |
+| 11-12 | [建国以来重要文献选编] 中共中央文献研究室 编 - 建国以来重要文献选编（第十二册） 12 (1996).pdf | 23 MB | `1ZC-FH1ygrAZt9IUd-9keheHppSWMakbm` |  |
+| 11-12 | [建国以来重要文献选编] 中共中央文献研究室 编 - 建国以来重要文献选编（第十四册） (1997).pdf | 28 MB | `1tpdR0HUyWJ3LySWV8ukQr8K4AwkWXLNA` |  |
+| 11-12 | Р. Г. Пихоя  СОВЕТСКИЙ СОЮЗ. история власти  1945-1991.pdf | 8 MB | `1c5jB0pShYNTHba_AixYjHT120RKMbkhw` |  |
+| 11-12 | 中共中央党史和文献研究院编；闫建琪主编；王双梅副主编；陈晋主审 - 刘少奇年谱 增订本 第1卷 (2018, 中央文献出版社).pdf | 20 MB | `1njXnQBGNbESf-W9uee3ayJAgpW3nFNXN` |  |
+| 11-12 | 中共中央党史和文献研究院编；闫建琪主编；王双梅副主编；陈晋主审 - 刘少奇年谱 增订本 第2卷 (2018, 中央文献出版社).pdf | 21 MB | `1H6gaC20S5zr_ww-LMvCHnHFs4I--L7te` |  |
+| 11-12 | 中共中央文献研究室 编 - 建国以来重要文献选编（第十七册） 17 (中国文献出版社).pdf | 21 MB | `1E7gjq_otlUIcNPk3MEaDoKUReQslcQ8u` |  |
+| 11-12 | 中共中央文献研究室 编 - 建国以来重要文献选编（第十五册） 15 (中国文献出版社).pdf | 27 MB | `1NcBIb5xkQpdIs4vNts0vY8TY7SaMYn_g` |  |
+| 11-12 | 中共中央文献研究室 编 - 建国以来重要文献选编（第十八册） (中国文献出版社).pdf | 19 MB | `1mrVU7d68EtBEuSmjPAv6M5OpypZT1UGt` |  |
+| 11-12 | 中共中央文献研究室 编 - 建国以来重要文献选编（第十六册） 16 (中国文献出版社).pdf | 21 MB | `1tQJeE1JfydoaIppEyRSwoCqQrsVAsZyV` |  |
+| 11-12 | 中共中央文献研究室编辑、中央文献出版社 - 邓小平年谱 (2004, 中央文献出版社).pdf | 61 MB | `1nowdr6wYwU549JIAGOjDQFjxCiZCoaGJ` |  |
+| 11-12 | 中共中央文献研究室，中央档案馆编 - 建国以来重要文献选编 第十九册 (中央文献出版社).pdf | 18 MB | `1djBYzqldGpQnpHe-2OjtOnmSKEfT8xXS` |  |
+| 11-12 | 中华人民共和国外交大事记  第2卷  1957年1月至1964年12月 -- 黎家松主编, [Sung En-fan, Li Chia-sung...京市_世界知识出版社.pdf | 39 MB | `1YcaGDNJiNxEGhyT4GgcLPLDH1zDG2NPj` |  |
+| 11-12 | 中华人民共和国外交大事记 第3卷 1965年1月至1971年12月 -- 外交部档案馆编 -- 2002, 2002 -- 北京_世界知识出版社.pdf | 30 MB | `1hQFD6yDJu9ovNzZ5VfkxfahYaVMrmhgK` |  |
+| 11-12 | 中央文献研究室 - 建国以来重要文献选编（第二十册） 20 (北京：中央文献出版社).pdf | 20 MB | `1MFVGKIrAya4WEWTElOp3a7Uhra5fYaaT` |  |
+| 11-12 | 中央文献研究室 - 建国以来重要文献选编（第十三册） 13 (北京：中央文献出版社).pdf | 26 MB | `1IDYilw5tjvUTCwtmzlWZJVdoTIwHSsWy` |  |
+| 11-12 | 十年论战：1956-1966中苏关系回忆录 吴冷西.pdf | 19 MB | `1_G9uRMMCu3W7C-q-hHXrJW2eOGOWo2kZ` |  |
+| 11-12 | 十年论战：1956～1966中苏关系回忆录（2版）吴冷西.pdf | 154 MB | `1P3n-plGR4rf4DkBd2cHAuARao223SCX-` |  |
+| 11-12 | 周恩来外交活动大事记  1949-1975 -- 中华人民共和国外交部外交史研究室编 -- 1993.pdf | 50 MB | `1ukhydAdicmsh0mxP9mO_hmWmTAov5p8Q` |  |
+| 11-12 | 周恩来年谱 1949-1976 上{中共中央文献研究室}(2020, 中央文献出版社).pdf | 31 MB | `1B2lLlbvH6RXdXCaC2rW5sjsm9jLe_dsq` |  |
+| 11-12 | 周恩来年谱 1949-1976 下{中共中央文献研究室}(2020, 中共中央文献研究室).pdf | 34 MB | `1EYFHugmV5vjDRCduGRxKmPk5iZzQaufw` |  |
+| 11-12 | 建国以来刘少奇文稿 第五册 5.pdf | 120 MB | `1a7fvZCv4-oqgmF4MY1EXxoCFURJ7jfGC` |  |
+| 11-12 | 杨尚昆日记 上 2017年版.pdf | 24 MB | `1yi0yclG-ZxW5N24RYGCSwOyqGcZ9bMfX` |  |
+| 11-12 | 杨尚昆日记 下 2017年版.pdf | 20 MB | `1XG_EIYhaa9CZzC_tg78DS9zG5aap4ONk` |  |
+| 11-12 | 砸爛舊世界」  ——文化大革命的動亂與浩劫  (1966-1968)  卜偉華著.pdf | 25 MB | `10ZsEXUG5R2dKp99qLL8OahE7B6Qm_Lqx` |  |
+| 11-12 | 陈云年谱 修订本 上卷{中共中央文献研究室编；冷溶主审；朱佳木主编}.pdf | 153 MB | `1BAVpsqjs_xKBQvOqPOTHzl9AJv471NkI` |  |
