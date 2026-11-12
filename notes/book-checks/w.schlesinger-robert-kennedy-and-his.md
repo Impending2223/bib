@@ -80,6 +80,40 @@ The merge's check for duplicates flags 32 new entries as possible duplicates of 
 
 ## Passed over (second reading)
 
+### Batch 9 (pp. 630–915), Nov. 12, 2026
+
+The 46 "already in" rows of pp. 630–915 read against the calendar from the owner's copy (text and page image; printed page = PDF page less 40 from p. 525), by `2026-11-12-b9-schlesinger-b.yaml` (55 cites, 7 Checks, 7 new entries). None of the rows was cited under its entry already (the batch 7 patches reached only the six departure entries, Goodwin's and Schlesinger's letters, the Kerner remark, Hickory Hill of Dec. 19, 1965, Mount Kennedy and the Apr. 28, 1961 MacArthur talk). Rows (page | ruling):
+
+- 630 | cited under cal.1964-05-08.transition-and-staff.
+- 634 | cited under cal.1964-01-23.robert-kennedy (Check: the book has Kennedy arrive in Indonesia Jan. 22); Sukarno to Cindy Adams, that afternoon, not in: entered as cal.1964-01-22.robert-kennedy.
+- 645 | cited under cal.1964-07-02.civil-rights-bill (the pens; Check: "the Oval Office" against the East Room).
+- 652 | cited under cal.1964-04-12.opinion.
+- 654 | cited under cal.1964-06-19.congress (Check: "a political dinner in Springfield"); not in: Robert Kennedy and Sheridan's walk that night, entered as cal.1964-06-19.robert-kennedy; the next morning's words, entered as cal.1964-06-20.robert-kennedy-3.
+- 664 | cited under cal.1964-08-26.elections-1964-2 (unit C; Check: "the second day of the convention", Aug. 25).
+- 686 | cited under cal.1966-02-04.civil-rights-the-executive (Wilkins's commission; no day for the "silent treatment").
+- 689 | cited under cal.1964-03-31.latin-america.
+- 702 | cited under cal.1961-01-19.laos. 703 | cal.1961-05-11.vietnam. 705-06 | cal.1961-11-22.vietnam (Check: the book has the NSAM of Nov. 15).
+- 706 | cited under cal.1961-12-11.vietnam (the Times of Dec. 11; n.25 cites Dec. 12) and cal.1961-12-22.vietnam; the Times of Dec. 20 not in: entered as cal.1961-12-20.vietnam.
+- 707 | cited under cal.1963-01-25.vietnam (Hilsman and Forrestal) and cal.1961-11-20.vietnam (Galbraith).
+- 709 | cited under cal.1962-04-04.vietnam (Galbraith, Lemnitzer) and cal.1962-07-23.vietnam.
+- 710-11 | cited under cal.1962-12-26.vietnam (Mansfield, Kennedy to O'Donnell), cal.1963-02-24.vietnam (the report), cal.1963-03-06.economy (the Mar. 6 press conference), cal.1963-07-17.civil-rights-bill (July 17), cal.1963-09-02.vietnam (unit D; the book gives no occasion).
+- 713 | cited under cal.1963-08-26.vietnam (Nolting Aug. 27). 714 | cal.1963-08-29.vietnam-2 (Lodge's cable) and cal.1963-09-11.vietnam (unit B). 716 | cal.1963-10-02.vietnam. 717 | cal.1963-11-14.vietnam-force-levels (B, C) and cal.1963-11-20.vietnam.
+- 721 | cited under cal.1963-10-29.robert-kennedy (unit E).
+- 725-26 | Johnson to McNamara and Rusk "a week after the coup scare" (Pentagon Papers, Gravel ed., II, 743): taken to be the meeting of Aug. 31, cited under cal.1963-08-31.vietnam-2 (no day in the book; the lead stands that it is another talk). Nov. 24 cited under cal.1963-11-24.vietnam; NSAM 273 under cal.1963-11-26.vietnam (unit A).
+- 727 | cited under cal.1964-01-30.vietnam.
+- 733-34 | cited under cal.1965-12-15.vietnam (Check: "the bombing of Haiphong") and cal.1965-12-18.vietnam-pause; Hickory Hill, Dec. 19, and the dinner of Jan. 6, 1966 already cited.
+- 741-42 | Goodwin's, Bundy's, Valenti's going and Moyers to Schlesinger already cited; Reedy cited under cal.1965-07-08.transition-and-staff, Moyers's resignation under cal.1966-12-14.robert-kennedy.
+- 744 | cited under cal.1966-05-26.africa. 756 | cal.1966-09-07.governors-ny. 762 | cal.1966-12-16.assassination.
+- 767 | cited under cal.1967-02-08.vietnam (the letter, n.: dispatched Feb. 8). 769 | cal.1967-02-13.vietnam and cal.1967-02-13.vietnam-sunflower (the book has the resumption ordered Feb. 14: Washington's day against Saigon's, no Check).
+- 771-72 | Kosygin cited under cal.1967-03-02.soviet-union; Jackson's letter already in (cal.1967-03-02.robert-kennedy, 772-73); not in: the invitation to the governors, entered as cal.1967-03-02.states-and-cities; Luci's pregnancy confirmed (borderline: a family matter staged for the headlines; entered), cal.1967-03-02.transition-and-staff.
+- 776 | cited under cal.1967-06-03.democratic-party (other words than the entry's; no Check); Maas's question the next day not in: entered as cal.1967-06-04.robert-kennedy.
+- 781 | cited under cal.1966-01-07.king. 797 | cal.1967-07-24.civil-disorders-detroit. 823 | cal.1967-08-25.vietnam-air-war (the book's "Senate Military Affairs Committee").
+- 829-30 | Goodwin's and Schlesinger's letters already cited; Dutton's cited under cal.1967-11-03.robert-kennedy (the Check there already names 830). 832 | cal.1967-11-30.elections-1968.
+- 846 | cited under cal.1968-02-29.civil-disorders (cal.1968-03.civil-disorders-kerner-3 already cited).
+- 878 | cited under cal.1968-04-09.king (A, D; Check: the book has the burial April 7). 883 | cal.1968-04-27.elections-1968. 889 | cal.1968-05-14.elections-1968 (unit D). 915 | cal.1968-06-08.robert-kennedy (unit C).
+
+Not borne out: none. Where batch 9 stopped (pp. 630–915): every row of the share done. Not read for new events: the other dated matter on these pages that no row names (e.g. the Mar. 5, 1968 meeting and the Iowa dinner of Mar. 9, 846; Kennedy's talk with Martin, 654); those rest on the earlier reading.
+
 ### Batch 9 (pp. 205–586), Nov. 12, 2026
 
 The "already in" rows of pp. 205–586 read against the calendar from the owner's copy (text and page image), by `2026-11-12-b9-schlesinger-a.yaml` (32 cites, 4 variants or Checks, 7 new entries). Rows (page | ruling):
