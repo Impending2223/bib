@@ -48,6 +48,13 @@ From the escalation of 1965 (Pleiku, Humphrey's dissent, Watts) through Nixon's 
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 19, Jan. 25, 1965: cited under cal.1965-01-27.vietnam-2 (units '?'); Check on the day (White Jan. 25, the entry Jan. 27).
+- pp. 201–6: cited under cal.1967-07-12.civil-disorders, cal.1967-07-17.civil-disorders-newark, cal.1967-07-23.civil-disorders (variant on B, six days), cal.1967-06-12.civil-disorders, cal.1967-05-02.black-nationalism-oakland, cal.1967-07-24.civil-disorders, cal.1967-07-27.civil-rights-organizations, cal.1968-02-08.south-carolina (variant on C, two killed and forty injured), cal.1966-05-16.civil-rights-organizations, cal.1966-06-16.mississippi; entered as cal.1967-06.civil-disorders (Brown at Cincinnati, the day loose). Leads, not entered: Carmichael at Prattville and the SNCC spokesman at Jackson (April 1967, no day), the RAM plot in New York (White 1968, no day), the department-store arson in Chicago and New York (March 1968, no day).
+- p. 250, Aug. 7, 1968: entered as cal.1968-08-07.elections-1968-miami-9 (the drive and the pool reporters; not in the calendar).
+- Where batch 9 stopped: all this work's rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, printed page = PDF page − 20; every page cited read off its page image at 70 dpi as well as the text: 23, 32, 122, 145, 235, 266, 271, 290, 320, 388). Patch `inbox/2026-11-06-b6-white-making-of-the-president-1969.yaml` (15 entries, 1 cite, 1 Check); witnesses `inbox/witnesses/2026-11-06-b6-white-making-of-the-president-1969.yaml` (the McCarthy canvass's tallies, Nixon's log of Nov. 5, Nixon's recollection to White), edges in the by-work file. The rows not private, social or draft (the leads) are left as they were.
 
 Made by reading the notes taken page by page against the calendar; each dated event the book treats and not entered or cited, a row.

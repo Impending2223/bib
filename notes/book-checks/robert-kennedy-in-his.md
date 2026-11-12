@@ -17,6 +17,12 @@ The dated sentences of the whole text (374) were drawn out by script and read; t
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- pp. 275–76: cited under cal.1961-08-17.berlin-and-vienna-2 (the meeting; '?'; Check: whether it is this meeting, Kennedy's 'Sunday morning'), cal.1961-08-19.berlin-and-vienna (the troops' arrival); Check on cal.1961-08-13.berlin-and-vienna (the Wall 'on a Friday'). Not pinned beyond that, as the row said.
+- p. 368: cited under cal.1962-11-20.civil-rights-the-executive (368–69; the order covered future housing); Martin, not Kennedy, gives the day.
+- Where batch 9 stopped: all this work's rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 From the dated passages read; page | date | event | why.

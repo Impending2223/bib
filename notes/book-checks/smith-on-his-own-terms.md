@@ -34,6 +34,12 @@ New York, 1960: Rockefeller's veto of the one-year residence bar to welfare (Mar
 
 ## Passed over (pp. 333-45)
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 336: already cited under cal.1961-11-07.state-constitutions-nyc (336 n.); nothing added.
+- p. 342: cited under cal.1960-07-21.elections-1960 (the surveys; New York 49 to 28; '?', no day or firm).
+- Where batch 9 stopped: all this work's rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 | page | date | event | why |

@@ -37,6 +37,11 @@ For the orchestrator: the six organization entries are a state of affairs, not a
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 1537: cited under cal.1967-08.democratic-party-2 ('?': Gans among the founders of the Conference of Concerned Democrats; no day). The Times of Apr. 25, 1968, 'a kind of eminence grise': a lead.
+- Where batch 9 stopped: all this work's rows ruled.
+
 Made by going through pp. 1533–49 sentence by sentence and listing every dated event within the span that CQ treats or mentions and that is not entered or cited above; then each item of the pages not read, from the page's headings.
 
 | Page | Date | Event | Why |

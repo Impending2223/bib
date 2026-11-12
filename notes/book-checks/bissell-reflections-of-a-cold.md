@@ -58,6 +58,11 @@ Applied before the book-check was written: events dated to a month or a season, 
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 147: already cited under cal.1961-02-08.laos (the plan briefed by Lemnitzer; carries 'Check: that Bissell's meeting is this one'); nothing added, for the owner to place cal.1961-01-23.laos. Not downloaded.
+- Where batch 9 stopped: all this work's rows ruled.
+
 page | date | event | why
 
 - 121-22 | 1956-59 | the U-2's earlier flights; the Board of Consultants, Dec. 1958; McElroy, early 1959; Apr. 7, 1959 | out of the calendar's span (from Jan. 6, 1960).

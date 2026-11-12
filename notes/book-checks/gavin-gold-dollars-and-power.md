@@ -41,6 +41,12 @@ Names: Ansiaux has no name entry and is not in the Names line; Giscard d'Estaing
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- pp. 62–63: cal.1960-12-16.robert-kennedy (62) and cal.1960-12.transition-and-staff-cabinet (62–63) already cited; cited under cal.1960-11-22.transition-and-staff (Gore to Kennedy; units '?', no day).
+- p. 140: already cited under cal.1964-06-12.europe-and-the-alliance-2 (Bundy's checklist); nothing added.
+- Where batch 9 stopped: all this work's rows ruled.
+
 Made from the log of the reading, page by page through chapters 2–7 (every paragraph with a date or a named document, then the notes for each), set against the calendar by `./bib find` on each date. Out of the span and left out: chapter 1 and the background before 1960 (pp. 1–32), and 1969–71 (pp. 185–98).
 
 | page | date | event | why |

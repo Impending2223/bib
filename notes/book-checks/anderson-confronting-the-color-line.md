@@ -50,6 +50,12 @@ Also cited, entries already in the calendar the book treats: cal.1963-07-04.civi
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 116: cited under cal.1963-08-28.march-on-washington (units '?'; the 2,500 from Chicago in the parenthetical). The Sun-Times's front-page report and editorial of the march, no day: a lead.
+- pp. 319–23: cited under cal.1967-04-04.king (units B, D, G), cal.1967-04-04.mayors-chicago; entered cal.1967-04-09.king-2 (Sun-Times on Daley's reelection), cal.1967-04-10.king-2 (Daily News editorial), cal.1967-04-13.king (Bunche), the days from Anderson's notes 17, 18, 21 (488). Lead, not entered: King's remarks to the Chicago Freedom Movement's Steering Committee (undated, 'between late March and early May', n.19).
+- Where batch 9 stopped: all this work's rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-anderson-confronting; done Nov. 10, 2026). The rows ruled "minor (no act)" are the Coordinating Council's, the Chicago Freedom Movement's and their committees' meetings: strategy sessions and the planning of an organized interest's campaigns (R7, R11), now entries, each dated by the minutes the book rests on (Hogan's for the council, Pitcher's for the agenda committee: 4 n.2; 120 n.51), registered as witnesses one a meeting; with them the other rows ruled "minor" or "private" that the amended rule admits. Read again off the owner's copy (the same Drive file and offsets; the passages read in the text layer). Patch `inbox/2026-11-06-b6-anderson-confronting.yaml`: 39 entries; witnesses `inbox/witnesses/2026-11-06-b6-anderson-confronting.yaml` (34: the meetings' minutes, three named in notes, 177 n.20, 200 n.81, 274 n.10), edges in the by-work file. Still passed over: the repetitions (81, 94), the local papers' editorials and columns (R13's outlets not met), the meetings the source does not say were held (176, 311), the repetition of Aug. 19 (255–56), and the two rows below.
 
 Made from the dated sentences of chs. 3–12 and the passages read; a row each, for the owner's ruling. Several rows below are the Coordinating Council's or the Freedom Movement's internal meetings where the book records discussion and no act; ground given as "minor (no act)", which R18 does not name in so many words: the owner rules.

@@ -36,6 +36,12 @@ The merge flags seven of the new entries as possible duplicates of another entry
 
 ## Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 144: cited under cal.1961-11-26.transition-and-staff (A, D: the 'Thanksgiving Day Massacre', Harriman); the defoliation approval ('at year's end') entered as cal.1961-11.vietnam-3 (month and day loose; not in the calendar, which holds only Nov. 3 and Jan. 13).
+- p. 162: the pledge to Thailand entered as cal.1962-03.laos; the aid cut entered as cal.1962-04.laos (months only; the calendar's Rusk–Thanat entry is cal.1962-02-27.laos).
+- Where batch 9 stopped: all this work's rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled "minor" read again from the owner's copy (Drive 16B_NV3kZyxl-D-XI8_KwcXX06pIKz4tI; printed page = PDF page - 34 held, checked at pp. 114, 233, 238). The "repeated in the entries" row was not borne out: the calendar held neither Lodge's arrival nor Halberstam's dispatches. Patch `inbox/2026-11-06-b6-moyar-triumph-forsaken.yaml` (b6-moyar-triumph-forsaken: 8 entries), witnesses `inbox/witnesses/2026-11-06-b6-moyar-triumph-forsaken.yaml` (7, the *Times* of Aug. 22–31, 1963), edges in the by-work file (9). The rows ruled "below the level" for operations, and "undated" for a month, are not taken up here (R14, R15 enter them); they wait for their own run.
 
 Made from the log of the reading, chapter by chapter (every paragraph with a date, then the full pages around each); the background of 1954–59 and the book's surveys of Asia's "dominoes" (pp. 138–42, 375–91) are left out.

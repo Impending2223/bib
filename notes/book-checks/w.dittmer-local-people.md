@@ -51,6 +51,12 @@ New entries (31). The informal record: May 1961 (Robert Kennedy and Barnett, thr
 
 ### Passed over
 
+**Batch 9** (group 5, `inbox/2026-11-12-b9-group-5.yaml`, Nov. 11, 2026): the 'already in' rows read against the calendar.
+
+- p. 250: already cited under cal.1964-06-23.mississippi (Eastland and the governor); the page has no Hoover call (his trip is July 10), so the row's 'Hoover' is not borne out. Nothing added.
+- pp. 371, 377: already cited, 371 under cal.1965-06-29.poverty, 377 under cal.1966-08-05.poverty and cal.1966-08.poverty-2; the page dates Cotter's report Aug. 5, 1966, not 1965 as the row has it. Nothing added. Not downloaded.
+- Where batch 9 stopped: all this work's rows ruled.
+
 Made by scripts listing every dated mention in the text and every sentence naming a party, a convention, a member of the delegation or the governors, each judged against `./bib find -l cal --since ... --until ...`. Not given rows: the local movement's incidents (arrests, beatings, mass meetings, Freedom Days) below the calendar's level, and the NAACP's, SNCC's and COFO's internal affairs, as in the first reading.
 
 | page | date | event | why |
