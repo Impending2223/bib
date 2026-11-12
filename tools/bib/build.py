@@ -271,6 +271,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="c">{lead}{body}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
+    if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
+        parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works

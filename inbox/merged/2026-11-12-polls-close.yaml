@@ -1,0 +1,1778 @@
+# The polls' closing hour by law on the election entries (the owner, Nov. 11, 2026, evening: "keep the range, report
+# the poll closing. 'Polls close XYZ.'"): polls_close, dayorder STYLE 7, from sources/poll-hours.yaml where its rows
+# give the hour for every State of the entry; nothing elsewhere. And cal.1964-04-14.governors-il's election-night
+# range (left out of kind-bands while Percy's follows contradicted it; STYLE 6 now lets the follower give way).
+# Built by polls.py and build_polls_patch.py in the session's scratch directory (kindbands-work).
+patch: polls-close
+by: Claude (polls' closing by law; dayorder STYLE 6-7)
+ops:
+- edit:
+    id: cal.1960-04-12.elections-1960
+    base: 493f26b5
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1960-04-12.governors-il
+    base: 1afb87af
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1960-05-03.elections-1960
+    base: a605a111
+    set:
+      polls_close: 'Polls close 4 p.m. local time to 8 p.m. EDT: District of Columbia: [69 Stat. 702](https://www.govinfo.gov/content/pkg/STATUTE-69/pdf/STATUTE-69-Pg699.pdf#page=4)
+        (1955); Indiana: *Projections—Predictions* Hearings, [14 (Table A), 47](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=51)
+        (1967); Ohio: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1960-05-03.governors-fl
+    base: 23a87c26
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1960-05-17.elections-1960
+    base: 0c58828f
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1960-05-20.elections-1960
+    base: aac99db7
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1960-05-24.elections-1960
+    base: 2eb6d51a
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1960-05-24.governors-fl
+    base: 6f1a8810
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1960-05-28.governors-nc
+    base: 1933449c
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 61](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65)
+        (1967).'
+- edit:
+    id: cal.1960-06-06.governors-ia
+    base: e9a07b9e
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1960-06-07.governors-mt
+    base: '60380472'
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 54](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58)
+        (1967).'
+- edit:
+    id: cal.1960-06-25.governors-nc
+    base: 2b8c8f8e
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 61](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65)
+        (1967).'
+- edit:
+    id: cal.1960-06-25.specials
+    base: 0f976062
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 61](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65)
+        (1967).'
+- edit:
+    id: cal.1960-06-28.governors-nd
+    base: d552e12f
+    set:
+      polls_close: 'Polls close 7 p.m. local time: Laws of North Dakota 1957, ch. 152, [304](https://ndlegis.gov/assembly/sessionlaws/1957/pdf/ELECT.pdf#page=1).'
+- edit:
+    id: cal.1960-06-28.specials
+    base: a9bffbb5
+    set:
+      polls_close: 'Polls close 7 p.m. local time: Laws of North Dakota 1957, ch. 152, [304](https://ndlegis.gov/assembly/sessionlaws/1957/pdf/ELECT.pdf#page=1).'
+- edit:
+    id: cal.1960-06-28.state-constitutions-nd
+    base: 3c381506
+    set:
+      polls_close: 'Polls close 7 p.m. local time: Laws of North Dakota 1957, ch. 152, [304](https://ndlegis.gov/assembly/sessionlaws/1957/pdf/ELECT.pdf#page=1).'
+- edit:
+    id: cal.1960-07-26.governors-ar
+    base: 9fdb5c10
+    set:
+      polls_close: 'Polls close 6:30 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 36](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40)
+        (1967).'
+- edit:
+    id: cal.1960-08-02.governors-ks
+    base: af8905c7
+    set:
+      polls_close: 'Polls close 6–7 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48–49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1960-08-02.governors-mi
+    base: f700c946
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1960-09-13.governors-mn
+    base: 98f31310
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.elections-1960-10
+    base: 0aa72698
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.governors-il
+    base: 2bc091e5
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.governors-ks
+    base: 26dd04c6
+    set:
+      polls_close: 'Polls close 6–7 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48–49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.governors-ma
+    base: d6fdfc8c
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.governors-mn
+    base: dc6a4db5
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.governors-mt
+    base: 9ac1026d
+    set:
+      polls_close: 'Polls close 8 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 54](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.legislatures-ca
+    base: 50a8b451
+    set:
+      polls_close: 'Polls close 7 p.m. PST: San Rafael Daily Independent Journal, Nov. 7, 1960, [the day''s calendar](https://archive.org/details/san-rafael-daily-independent-journal-1960-11-07/page/n5/mode/1up).'
+- edit:
+    id: cal.1960-11-08.specials
+    base: 9c734914
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.state-constitutions-ca
+    base: 66c0f7a5
+    set:
+      polls_close: 'Polls close 7 p.m. PST: San Rafael Daily Independent Journal, Nov. 7, 1960, [the day''s calendar](https://archive.org/details/san-rafael-daily-independent-journal-1960-11-07/page/n5/mode/1up).'
+- edit:
+    id: cal.1960-11-08.state-constitutions-ky
+    base: 944ef29e
+    set:
+      polls_close: 'Polls close 5 p.m. standard time: *Projections—Predictions* Hearings, [1, 14 (Table A)](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=5)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.state-constitutions-md
+    base: b90bd911
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1960-11-08.state-constitutions-mi
+    base: a3db2b64
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1961-04-03.states-and-cities
+    base: 2875ba04
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1961-04-04.mayors-los-angeles
+    base: 0a113a27
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41)
+        (1967).'
+- edit:
+    id: cal.1961-04-18.specials
+    base: 3d365423
+    set:
+      polls_close: 'Polls close 6:30 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 36](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40)
+        (1967).'
+- edit:
+    id: cal.1961-05-02.specials
+    base: 22be2858
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1961-05-31.states-and-cities
+    base: dc757907
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41)
+        (1967).'
+- edit:
+    id: cal.1961-09-12.state-constitutions-ok
+    base: e0148eaa
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1961-11-07.mayors-cleveland
+    base: 686b7333
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1961-11-07.mayors-detroit
+    base: fbbf19d7
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1961-11-07.mayors-louisville
+    base: 3be333eb
+    set:
+      polls_close: 'Polls close 5 p.m. standard time: *Projections—Predictions* Hearings, [1, 14 (Table A)](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=5)
+        (1967).'
+- edit:
+    id: cal.1961-11-07.mayors-pittsburgh
+    base: 4851d81f
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1961-11-07.mayors-springfield
+    base: e189ddde
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1961-11-07.specials
+    base: 1d768ba4
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1962-02-13.specials
+    base: 85d60dbd
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1962-04-10.specials
+    base: 178a9d2f
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1962-05-01.alabama-al
+    base: 271eeb22
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. local time: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1962-05-01.governors-ok
+    base: ac33ba91
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1962-05-01.state-constitutions-ok
+    base: 4ea99282
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1962-05-08.governors-oh
+    base: c93ae1a9
+    set:
+      polls_close: 'Polls close 6:30 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1962-05-15.governors-md
+    base: 620db60f
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1962-05-15.governors-pa
+    base: 1835f5c7
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1962-05-18.governors-or
+    base: 877bdad2
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1962-05-22.governors-ok
+    base: 4eaeb8d2
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1962-05-22.state-constitutions-ok
+    base: f919c9d5
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1962-05-29.elections-1962
+    base: c47a2075
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. local time: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1962-06-04.governors-ia
+    base: 2399c6a3
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1962-06-05.elections-1962
+    base: 695a1e09
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41)
+        (1967).'
+- edit:
+    id: cal.1962-06-05.governors-id
+    base: 9f37e2ce
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1962-06-12.south-carolina-sc
+    base: 6b450fa9
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1962-06-18.governors-me
+    base: ada3997f
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A)](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18)
+        (1967).'
+- edit:
+    id: cal.1962-07-31.elections-1962
+    base: 1ad76289
+    set:
+      polls_close: 'Polls close 6:30 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 36](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40)
+        (1967).'
+- edit:
+    id: cal.1962-07-31.governors-ar
+    base: 6833b385
+    set:
+      polls_close: 'Polls close 6:30 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 36](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40)
+        (1967).'
+- edit:
+    id: cal.1962-08-07.governors-ks
+    base: 5180b3b1
+    set:
+      polls_close: 'Polls close 6–7 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48–49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1962-08-14.governors-ak
+    base: e428065a
+    set:
+      polls_close: 'Polls close 8 p.m. HST: *Projections—Predictions* Hearings, [14 (Table A), 33](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=37)
+        (1967).'
+- edit:
+    id: cal.1962-09-04.governors-nv
+    base: 8bfc1f0a
+    set:
+      polls_close: 'Polls close 6–7 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 56](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60)
+        (1967).'
+- edit:
+    id: cal.1962-09-11.elections-1962
+    base: 158b96a3
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1962-09-11.governors-az
+    base: 1b292918
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1962-09-11.governors-mn
+    base: 5fbf05f4
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1962-10-02.mayors-cleveland
+    base: 34141c39
+    set:
+      polls_close: 'Polls close 6:30 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1962-10-06.governors-hi
+    base: 13b6da87
+    set:
+      polls_close: 'Polls close 5:30 p.m. HST: *Projections—Predictions* Hearings, [45](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=49)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.alabama-al
+    base: 405af04b
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.alabama-birmingham
+    base: ba3ed7dd
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.antisubversion-ca
+    base: 30b96905
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.elections-1962-2
+    base: 9d6f7de8
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-ca
+    base: 598720a0
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-hi
+    base: ac3b6999
+    set:
+      polls_close: 'Polls close 5:30 p.m. HST: *Projections—Predictions* Hearings, [14 (Table A), 45](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=49)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-ia
+    base: 7f672e80
+    set:
+      polls_close: 'Polls close 8 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 48](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-ma
+    base: b313bc42
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-me
+    base: 4e342155
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A)](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-mi
+    base: e0437283
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-mn
+    base: 00f7a087
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-ny
+    base: 208e552a
+    set:
+      polls_close: 'Polls close 7 p.m. EST: Kingston Daily Freeman, Nov. 5, 1962, [1](https://archive.org/details/kingston-daily-freeman-1962-11-05/page/n0/mode/1up).'
+- edit:
+    id: cal.1962-11-06.governors-oh
+    base: 727bc1ee
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-ok
+    base: 87189eb6
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-pa
+    base: 807b0be6
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-vt
+    base: b00ee32b
+    set:
+      polls_close: 'Polls close 3–7 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 72](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.governors-wy
+    base: 82ae5b06
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [16 (Table A), 75](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=79)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.legislatures-ca
+    base: ad7b44f4
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.mayors-cleveland
+    base: 750ca9aa
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.south-carolina-sc
+    base: 87ce7cc4
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.state-constitutions-il
+    base: 4ff513e2
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.state-constitutions-md
+    base: 608ac076
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.state-constitutions-ok
+    base: d50757a2
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.state-constitutions-or
+    base: dc0f3688
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1962-11-06.states-and-cities-ma
+    base: eb029ab9
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1963-01-22.specials
+    base: d0c906f8
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1963-03-05.alabama-birmingham
+    base: f3cab4db
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1963-03-05.mayors-baltimore
+    base: 2fb9aa92
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1963-04-02.alabama-birmingham
+    base: da54af04
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1963-04-02.mayors-chicago
+    base: b145bf37
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1963-04-02.mayors-los-angeles
+    base: a7280346
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1963-05-07.mayors-baltimore
+    base: a956b989
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1963-05-21.mayors-philadelphia
+    base: 1c4937f8
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1963-05-28.governors-ky
+    base: e1e8da13
+    set:
+      polls_close: 'Polls close 5 p.m. local time: *Projections—Predictions* Hearings, [49–50](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=53)
+        (1967).'
+- edit:
+    id: cal.1963-06-11.specials
+    base: '43369761'
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1963-06-11.state-and-city-finance-nv
+    base: 70befa2c
+    set:
+      polls_close: 'Polls close 6–7 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 56](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60)
+        (1967).'
+- edit:
+    id: cal.1963-07-17.state-constitutions-nd
+    base: 55afd2d0
+    set:
+      polls_close: 'Polls close 7–8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=66)
+        (1967).'
+- edit:
+    id: cal.1963-09-17.mayors-san-diego
+    base: 5e3a72b8
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1963-10-01.desegregation-public-places-cambridge
+    base: '63926016'
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1963-10-15.state-and-city-finance-or
+    base: 9f9b9add
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1963-10-22.specials
+    base: f6cba2c1
+    set:
+      polls_close: 'Polls close 7–8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=66)
+        (1967).'
+- edit:
+    id: cal.1963-11-05.mayors-boston
+    base: 5be9bf49
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1963-11-05.mayors-cleveland
+    base: bb2bbdbe
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1963-11-05.mayors-indianapolis
+    base: 79b78e73
+    set:
+      polls_close: 'Polls close 4–6 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 47](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=51)
+        (1967).'
+- edit:
+    id: cal.1963-11-05.mayors-philadelphia
+    base: b5190f26
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1963-11-05.mayors-san-diego
+    base: 6cb2b4d1
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1963-11-05.mayors-san-francisco
+    base: b2d4c84e
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1963-11-05.specials
+    base: 7d968c21
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1963-12-03.legislatures-ia
+    base: '69130496'
+    set:
+      polls_close: 'Polls close 8 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 48](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1963-12-03.state-constitutions-ok
+    base: add6fa87
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-02-18.specials
+    base: 3d7164f7
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1964-04-14.conservative-movement
+    base: a7445fc1
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1964-04-14.elections-1964
+    base: 541820c8
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1964-04-14.governors-il
+    base: '70665275'
+    set:
+      time_range:
+      - 1964-04-15T00:00Z
+      - 1964-04-15T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+      range_basis: kind
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1964-05-02.elections-1964
+    base: c9deac17
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1964-05-02.governors-tx
+    base: 0f2a58cd
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1964-05-05.alabama
+    base: c6d41993
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. local time: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1964-05-05.elections-1964
+    base: 8d6e8644
+    set:
+      polls_close: 'Polls close 4 p.m. local time to 8 p.m. EDT: District of Columbia: [69 Stat. 702](https://www.govinfo.gov/content/pkg/STATUTE-69/pdf/STATUTE-69-Pg699.pdf#page=4)
+        (1955); Indiana: *Projections—Predictions* Hearings, [14 (Table A), 47](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=51)
+        (1967); Ohio: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1964-05-05.elections-1964-ok
+    base: 802450b9
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-05-05.governors-fl
+    base: fb8c9ae5
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1964-05-05.state-constitutions-ok
+    base: 1d1d4256
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-05-12.governors-wv
+    base: c7e190bd
+    set:
+      polls_close: 'Polls close 7:30 p.m. EDT: *Projections—Predictions* Hearings, [15 (Table A), 74](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=78)
+        (1967).'
+- edit:
+    id: cal.1964-05-19.elections-1964
+    base: 21a0d104
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1964-05-19.republican-party-congress
+    base: 9dd49f21
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1964-05-26.elections-1964
+    base: a64aab42
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1964-05-26.elections-1964-ok
+    base: 8dc74f46
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-05-26.governors-fl
+    base: 52cde6df
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1964-05-26.state-constitutions-ok
+    base: a1362864
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-05-30.governors-nc
+    base: d33e7b28
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 61](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65)
+        (1967).'
+- edit:
+    id: cal.1964-06-02.alabama
+    base: c8ba8c2a
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. local time: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1964-06-02.elections-1964-ca
+    base: 4a813d37
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1964-06-02.governors-mt
+    base: 87d5f82a
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 54](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58)
+        (1967).'
+- edit:
+    id: cal.1964-06-06.elections-1964-tx
+    base: 22b31582
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1964-06-27.governors-nc
+    base: 735019e1
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 61](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65)
+        (1967).'
+- edit:
+    id: cal.1964-06-30.governors-nd
+    base: 4ded7ba0
+    set:
+      polls_close: 'Polls close 7–8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=66)
+        (1967).'
+- edit:
+    id: cal.1964-07-28.governors-ar
+    base: d343f820
+    set:
+      polls_close: 'Polls close 6:30 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 36](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40)
+        (1967).'
+- edit:
+    id: cal.1964-08-04.governors-ks
+    base: 3fe17f4a
+    set:
+      polls_close: 'Polls close 6–7 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48–49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1964-09-01.elections-1964-2
+    base: 097b561b
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-09-01.governors-mi
+    base: 8a4fc126
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-09-01.open-housing-detroit
+    base: c58514a3
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-09-08.governors-az
+    base: e70b43fd
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1964-09-08.governors-vt
+    base: 49bfc561
+    set:
+      polls_close: 'Polls close 3–7 p.m. EDT: *Projections—Predictions* Hearings, [15 (Table A), 72](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76)
+        (1967).'
+- edit:
+    id: cal.1964-09-29.legislatures-ok
+    base: f4e8a0bf
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.alabama
+    base: 264f1fd8
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.cities-and-housing
+    base: 568cf6ff
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1964-11-03.elections-1964-3
+    base: 5308d320
+    set:
+      polls_close: 'Polls close 6 p.m. CST to 7 p.m. EST: Georgia: *Projections—Predictions* Hearings, [14 (Table A), 44](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=48)
+        (1967); Mississippi: *Projections—Predictions* Hearings, [14 (Table A), 53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.elections-1964-dc
+    base: 0494f37f
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A)](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.elections-1964-new-york
+    base: 3921e55a
+    set:
+      polls_close: 'Polls close 9 p.m. EST: Kingston Daily Freeman, Nov. 2, 1964, [1](https://archive.org/details/kingston-daily-freeman-1964-11-02/page/n0/mode/1up).'
+- edit:
+    id: cal.1964-11-03.governors-az
+    base: c0f5ce06
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.governors-il
+    base: 9b25caaa
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.governors-ma
+    base: e6f36ee6
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.governors-mi
+    base: 8bac5fda
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.governors-wi
+    base: 8deffa32
+    set:
+      polls_close: 'Polls close 5:30–8 p.m. CST: *Projections—Predictions* Hearings, [16 (Table A), 74](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=78)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.legislatures
+    base: cd2aec43
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.legislatures-il
+    base: 1cb73d29
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.legislatures-mi
+    base: '44420801'
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.legislatures-ny
+    base: 492c8f36
+    set:
+      polls_close: 'Polls close 9 p.m. EST: Kingston Daily Freeman, Nov. 2, 1964, [1](https://archive.org/details/kingston-daily-freeman-1964-11-02/page/n0/mode/1up).'
+- edit:
+    id: cal.1964-11-03.open-housing-akron
+    base: fff7a2d1
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.specials
+    base: 06b2e7b4
+    set:
+      polls_close: 'Polls close 7 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.specials-2
+    base: 08864594
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.specials-3
+    base: 79d4ab86
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-ar
+    base: 807f5aa6
+    set:
+      polls_close: 'Polls close 6:30 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 36](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-ca
+    base: 1d007917
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-md
+    base: 1d08da36
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-mi
+    base: c03a96b9
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-mn
+    base: df76c3ee
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-ok
+    base: 39ef7e61
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-or
+    base: cc2d78f0
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1964-11-03.state-constitutions-tx
+    base: '50823156'
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1965-04-06.mayors-los-angeles
+    base: 7b3d8029
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1965-04-06.mayors-st-louis
+    base: 443fa125
+    set:
+      polls_close: 'Polls close 7 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57)
+        (1967).'
+- edit:
+    id: cal.1965-04-27.state-and-city-finance-ok
+    base: 7942e75f
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1965-06-15.specials
+    base: 2ca38186
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1965-09-07.state-constitutions-tx
+    base: 0947f44f
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1965-09-14.state-constitutions-ok
+    base: d7358128
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.governors-nj
+    base: aaaca732
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 57](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=61)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.mayors-cleveland
+    base: 935252eb
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.mayors-detroit
+    base: e120ff43
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.mayors-philadelphia
+    base: f03a1e9b
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.mayors-pittsburgh
+    base: 510e1ba4
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.specials
+    base: d8cdab45
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1965-11-02.state-constitutions-tx
+    base: a9f37060
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1965-12-14.state-constitutions-ct
+    base: da9db39d
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 39](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=43)
+        (1967).'
+- edit:
+    id: cal.1965-12-14.state-constitutions-ok
+    base: f0d4565f
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1965-12-15.specials
+    base: 1d6ae55f
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-02-05.specials
+    base: 827e424f
+    set:
+      polls_close: 'Polls close 6:30 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 61](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65)
+        (1967).'
+- edit:
+    id: cal.1966-02-08.specials
+    base: d0f1b862
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [59](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63)
+        (1967).'
+- edit:
+    id: cal.1966-03-26.specials
+    base: 243ddc32
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1966-05-03.elections-1966
+    base: 768b448c
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. local time: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35),
+        [14 (Table A), 31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18) (1967).'
+- edit:
+    id: cal.1966-05-03.governors-fl
+    base: 529f044c
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1966-05-03.governors-oh
+    base: d8c471b0
+    set:
+      polls_close: 'Polls close 6:30 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1966-05-03.governors-ok
+    base: c7d3d683
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1966-05-03.republican-party-congress
+    base: 7195fc84
+    set:
+      polls_close: 'Polls close 6:30 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62–63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19)
+        (1967).'
+- edit:
+    id: cal.1966-05-03.state-constitutions-ok
+    base: 7bdaa6e2
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1966-05-07.governors-tx
+    base: 8cbbb4e3
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1966-05-10.governors-ne
+    base: ba8fcf3b
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 55](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=59)
+        (1967).'
+- edit:
+    id: cal.1966-05-17.governors-pa
+    base: d87ec0fb
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1966-05-17.republican-party-congress
+    base: 922538c3
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1966-05-24.elections-1966
+    base: 676cdfa0
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1966-05-24.governors-fl
+    base: '48267989'
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1966-05-24.governors-ok
+    base: 539e7888
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1966-05-24.governors-or
+    base: 21c3973b
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 64](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68)
+        (1967).'
+- edit:
+    id: cal.1966-05-24.state-constitutions-ok
+    base: a5ed9f1b
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1966-05-31.alabama
+    base: eed8d0d3
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. local time: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35),
+        [14 (Table A), 31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18) (1967).'
+- edit:
+    id: cal.1966-06-07.elections-1966
+    base: 0ca489c5
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-06-07.elections-1966-2
+    base: 4be8a6d2
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-06-07.specials
+    base: 2b09e82e
+    set:
+      polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-06-14.south-carolina-sc
+    base: c1adda3f
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1966-06-14.state-and-city-finance
+    base: 07e6956d
+    set:
+      polls_close: 'Polls close 6 p.m. CDT: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1966-06-20.governors-me
+    base: 01939a36
+    set:
+      polls_close: 'Polls close 8 p.m. EDT: *Projections—Predictions* Hearings, [51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1966-06-28.states-and-cities-nyc
+    base: 8768e1de
+    set:
+      polls_close: 'Polls close 9–10 p.m. EDT: *Projections—Predictions* Hearings, [59](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63)
+        (1967).'
+- edit:
+    id: cal.1966-07-12.elections-1966
+    base: e8b47108
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 72](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76)
+        (1967).'
+- edit:
+    id: cal.1966-08-02.elections-1966
+    base: 9d940aec
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-08-02.governors-id
+    base: 7d6d02e5
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1966-08-02.governors-ks
+    base: 99f3253c
+    set:
+      polls_close: 'Polls close 6–7 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48–49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1966-08-23.governors-ak
+    base: f7901458
+    set:
+      polls_close: 'Polls close 8 p.m. HST: *Projections—Predictions* Hearings, [14 (Table A), 33](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=37)
+        (1967).'
+- edit:
+    id: cal.1966-09-06.governors-ia
+    base: 2be145e3
+    set:
+      polls_close: 'Polls close 8 p.m. CDT: *Projections—Predictions* Hearings, [14 (Table A), 48](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1966-09-06.governors-nv
+    base: c6034cfb
+    set:
+      polls_close: 'Polls close 6–7 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 56](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60)
+        (1967).'
+- edit:
+    id: cal.1966-09-13.governors-az
+    base: 2f2d356a
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1966-09-13.governors-mn
+    base: d6537470
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-09-13.governors-nh
+    base: 40736bee
+    set:
+      polls_close: 'Polls close 8 p.m. EDT: *Projections—Predictions* Hearings, [57](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=61)
+        (1967).'
+- edit:
+    id: cal.1966-09-13.governors-vt
+    base: 4b1e190a
+    set:
+      polls_close: 'Polls close 3–7 p.m. EDT: *Projections—Predictions* Hearings, [15 (Table A), 72](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76)
+        (1967).'
+- edit:
+    id: cal.1966-09-13.state-constitutions-md
+    base: 029808f4
+    set:
+      polls_close: 'Polls close 7 p.m. EDT: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1966-09-14.elections-1966
+    base: 1cb88307
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 44](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=48)
+        (1967).'
+- edit:
+    id: cal.1966-09-28.elections-1966
+    base: bd3b9900
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 44](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=48)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.alabama
+    base: 7ad3acf5
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35),
+        [14 (Table A), 31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18) (1967).'
+- edit:
+    id: cal.1966-11-08.alabama-al
+    base: 0aa93ca1
+    set:
+      polls_close: 'Polls close 5–6:30 p.m. CST: *Projections—Predictions* Hearings, [31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35),
+        [14 (Table A), 31](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18) (1967).'
+- edit:
+    id: cal.1966-11-08.conservative-movement-ut
+    base: 4b13c941
+    set:
+      polls_close: 'Polls close 8 p.m. MST: *Projections—Predictions* Hearings, [15 (Table A), 71](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=75)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.elections-1966-3
+    base: 3d473d46
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-ak
+    base: 42498cb7
+    set:
+      polls_close: 'Polls close 8 p.m. HST: *Projections—Predictions* Hearings, [14 (Table A), 33](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=37)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-az
+    base: 390aa7a0
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-ca
+    base: 57cc1288
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-11-08.governors-fl
+    base: ef292267
+    set:
+      polls_close: 'Polls close 7 p.m. standard time: *Projections—Predictions* Hearings, [14 (Table A), 41](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-id
+    base: 040e69c2
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-ks
+    base: c4ef8340
+    set:
+      polls_close: 'Polls close 6–7 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 48–49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-ma
+    base: 90ccdd65
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-md
+    base: '55073969'
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-me
+    base: 52d9c068
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-mi
+    base: 2f7b9c54
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-mn
+    base: 90ecd35e
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 52–53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-nm
+    base: 0929d747
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [15 (Table A), 58](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=62)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-nv
+    base: 31ac7ae6
+    set:
+      polls_close: 'Polls close 6–7 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 56](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-ok
+    base: b59129e2
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-pa
+    base: 1935ec7b
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 65](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.governors-wy
+    base: cdfe5c45
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [16 (Table A), 75](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=79)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.legislatures
+    base: 64eafb48
+    set:
+      polls_close: 'Polls close 6 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.legislatures-az
+    base: 0d17e8d4
+    set:
+      polls_close: 'Polls close 7 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 34](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.legislatures-ok
+    base: ba313106
+    set:
+      polls_close: 'Polls close 6–7 p.m. CST: *Projections—Predictions* Hearings, [15 (Table A), 63](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.legislatures-tx
+    base: cecb0984
+    set:
+      polls_close: 'Polls close 7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 70](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.legislatures-wa
+    base: 4e8c9ca0
+    set:
+      polls_close: 'Polls close 8 p.m. PST: *Projections—Predictions* Hearings, [15 (Table A), 73](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=77)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.south-carolina-sc
+    base: 4963324f
+    set:
+      polls_close: 'Polls close 6–8 p.m. EST: *Projections—Predictions* Hearings, [68](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.specials-2
+    base: 419012bc
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-and-city-finance-id
+    base: 3df43aae
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 46](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-and-city-finance-ma
+    base: 4a20592f
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-ca
+    base: e7462569
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-ca-2
+    base: e21c5a5f
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-ky
+    base: 15cb93a2
+    set:
+      polls_close: 'Polls close 6 p.m. standard time: *Projections—Predictions* Hearings, [49](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=53)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-la
+    base: ce803950
+    set:
+      polls_close: 'Polls close 7 p.m. CST: *Projections—Predictions* Hearings, [50](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=54)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-md
+    base: 9db90471
+    set:
+      polls_close: 'Polls close 7 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 51](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-mi
+    base: ee5c2116
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-mo
+    base: f1d39253
+    set:
+      polls_close: 'Polls close 7 p.m. CST: *Projections—Predictions* Hearings, [14 (Table A), 53](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-ne
+    base: 67eabdec
+    set:
+      polls_close: 'Polls close 8 p.m. local time: *Projections—Predictions* Hearings, [14 (Table A), 55](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=59)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-nj
+    base: 3631d11d
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 57](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=61)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.state-constitutions-ny
+    base: '55503272'
+    set:
+      polls_close: 'Polls close 9 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 59](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.states-and-cities-memphis
+    base: 65cf93d2
+    set:
+      polls_close: 'Polls close 4–7 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 69](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=73)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.states-and-cities-nyc
+    base: 6f206f85
+    set:
+      polls_close: 'Polls close 9 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 59](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63)
+        (1967).'
+- edit:
+    id: cal.1966-11-08.voting-rights-ca
+    base: edd5f022
+    set:
+      polls_close: 'Polls close 7–8 p.m. PST: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41),
+        [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+- edit:
+    id: cal.1967-11-07.mayors-san-diego
+    base: '41631263'
+    set:
+      polls_close: 'Polls close 8 p.m. PST: San Rafael Daily Independent Journal, Nov. 8, 1966, [1](https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up).'
+- edit:
+    id: cal.1967-11-07.mayors-san-francisco
+    base: 5139df1b
+    set:
+      polls_close: 'Polls close 8 p.m. PST: San Rafael Daily Independent Journal, Nov. 8, 1966, [1](https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up).'
+- edit:
+    id: cal.1967-11-07.state-constitutions-ny
+    base: 58bf5e67
+    set:
+      polls_close: 'Polls close 9 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 59](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63)
+        (1967).'
+- edit:
+    id: cal.1967-11-07.state-constitutions-san-francisco
+    base: 79db0845
+    set:
+      polls_close: 'Polls close 8 p.m. PST: San Rafael Daily Independent Journal, Nov. 8, 1966, [1](https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up).'
+- edit:
+    id: cal.1968-05-04.governors-nc
+    base: a85f4200
+    set:
+      polls_close: 'Polls close 6:30 p.m. EDT: Election Laws of the State of North Carolina, 1967-1968, [14](https://archive.org/details/electionlawsofst00nort_3/page/14/mode/1up).'
+- edit:
+    id: cal.1968-06-01.elections-1968-5
+    base: 61f1606d
+    set:
+      polls_close: 'Polls close 6:30 p.m. EDT: Election Laws of the State of North Carolina, 1967-1968, [14](https://archive.org/details/electionlawsofst00nort_3/page/14/mode/1up).'
+- edit:
+    id: cal.1968-06-04.elections-1968-7
+    base: 98fd0f35
+    set:
+      polls_close: 'Polls close 8 p.m. MDT: *Projections—Predictions* Hearings, [14 (Table A), 54](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58)
+        (1967).'
+- edit:
+    id: cal.1968-06-04.elections-1968-nixon
+    base: 7ccea033
+    set:
+      polls_close: 'Polls close 8 p.m. PDT: San Rafael Daily Independent Journal, Nov. 8, 1966, [1](https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up).'
+- edit:
+    id: cal.1968-06-04.governors-mt
+    base: 3f2d6430
+    set:
+      polls_close: 'Polls close 8 p.m. MDT: *Projections—Predictions* Hearings, [14 (Table A), 54](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58)
+        (1967).'
+- edit:
+    id: cal.1968-08-06.elections-1968
+    base: 5c67a4db
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1968-09-03.governors-nd
+    base: a841df02
+    set:
+      polls_close: 'Polls close 7–8 p.m. local time: *Projections—Predictions* Hearings, [15 (Table A), 62](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=66)
+        (1967).'
+- edit:
+    id: cal.1968-11-05.governors-ar
+    base: 30d7c9e1
+    set:
+      polls_close: 'Polls close 7:30 p.m. CST: Hope Star, Nov. 4, 1968, [the AP''s story; an advertisement](https://archive.org/details/hope-star-1968-11-04/page/n9/mode/1up).'
+- edit:
+    id: cal.1968-11-05.governors-mt
+    base: 3f8e163a
+    set:
+      polls_close: 'Polls close 8 p.m. MST: *Projections—Predictions* Hearings, [14 (Table A), 54](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58)
+        (1967).'
+- edit:
+    id: cal.1968-11-05.legislatures-ca
+    base: 2d7a714c
+    set:
+      polls_close: 'Polls close 8 p.m. PST: San Rafael Daily Independent Journal, Nov. 8, 1966, [1](https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up).'
+- edit:
+    id: cal.1968-11-05.legislatures-mi
+    base: 9606b95a
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'
+- edit:
+    id: cal.1968-11-05.legislatures-ny
+    base: 40e3785d
+    set:
+      polls_close: 'Polls close 9 p.m. EST: *Projections—Predictions* Hearings, [15 (Table A), 59](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63)
+        (1967).'
+- edit:
+    id: cal.1968-11-05.state-constitutions-ca
+    base: fb51677d
+    set:
+      polls_close: 'Polls close 8 p.m. PST: San Rafael Daily Independent Journal, Nov. 8, 1966, [1](https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up).'
+- edit:
+    id: cal.1968-11-05.state-constitutions-mi
+    base: 7cae55e9
+    set:
+      polls_close: 'Polls close 8 p.m. EST: *Projections—Predictions* Hearings, [14 (Table A), 52](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56)
+        (1967).'

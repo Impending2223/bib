@@ -179,14 +179,15 @@ def key(lst, e, cache=None):
     return (tk, plain_c(e), e.get("id", ""))
 
 
-def order(lst, entries, by_time=True):
-    """The day's entries in their order: by their place in the day, then the key of 1, the unplaced after (STYLE 6),
-    `follows` honored (STYLE 2). by_time=False (a month's undated block): the key of 1 alone."""
-    cache = {}
-    far = datetime.datetime.max
-
+def _links(entries):
     ids = {e["id"] for e in entries}
-    before = {e["id"]: [f for f in store.as_list(e.get("follows")) if f in ids and f != e["id"]] for e in entries}
+    return {e["id"]: [f for f in store.as_list(e.get("follows")) if f in ids and f != e["id"]] for e in entries}
+
+
+def sort_places(entries, by_time=True):
+    """id -> the place each of a day's entries sorts at (STYLE 6): its own (place), the kind places given way to the
+    links, an unplaced leader taking its followers' earliest; None for the unplaced."""
+    before = _links(entries)
     places = {e["id"]: (place(e) if by_time else None) for e in entries}
     if by_time:                             # a kind place gives way to the link (STYLE 6)
         softs = {e["id"] for e in entries if soft(e)}
@@ -223,6 +224,16 @@ def order(lst, entries, by_time=True):
                         places[b] = places[i]
                         inherited.add(b)
                         changed = True
+    return places
+
+
+def order(lst, entries, by_time=True):
+    """The day's entries in their order: by their place in the day, then the key of 1, the unplaced after (STYLE 6),
+    `follows` honored (STYLE 2). by_time=False (a month's undated block): the key of 1 alone."""
+    cache = {}
+    far = datetime.datetime.max
+    before = _links(entries)
+    places = sort_places(entries, by_time)
 
     def k(e):
         p = places[e["id"]]
