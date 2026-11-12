@@ -42,7 +42,29 @@ STYLE
    earliest place among those that follow it, directly or through others, so the pair keeps its place in the day and
    the link puts it first (a meeting with no hour before the 8 p.m. address it decided; Nov. 6, 2026). A month's undated block keeps 1. check adds: a `time_range` not two
    instants in order, more than a day from the date or wider than 36 hours, beside a `time`; a `time_band` not in
-   BANDS or without its range and zone; a `follows` whose ranges contradict it (the follower's range wholly before).
+   BANDS or without its range and zone; a `follows` whose record ranges contradict it (the follower's range wholly
+   before the other's; a `kind` range on either side never does: below).
+   The pin (the owner, Nov. 11, 2026: "keep the range ... But leave the pin one minute before midnight. We can hammer
+   down 'when the results were known' for at least some of these races"): a `kind` range of the "election night" band
+   sorts at 11:59 p.m. of the entry's date in its `time_zone` (PINS; the clock zoneinfo reads), not at the range's
+   middle; the range stays as drawn. A record found later (a `time`, or a record range: when the results were known)
+   replaces the kind range, and with it the pin.
+   `follows` trumps a kind place (the owner, Nov. 11, 2026: "Can we put the Percy nomination speech as a 'follows'?
+   That should trump the range time, right?"): a follower whose place is a kind range (or its pin) sorts no earlier
+   than the entries it follows (it takes their place, the link putting it after); a leader whose place is a kind
+   range sorts no later than a follower placed by a record (a `time` or a record range), and so on up the chain. Two
+   records that contradict the link stay as they are, and check fails on them (4, and above).
+7. `polls_close:`, optional, shown (the owner, Nov. 11, 2026: "keep the range, report the poll closing. 'Polls close
+   XYZ.'"): on an election's entry, the closing hour of the polls by law, from the register (sources/poll-hours.yaml)
+   where its rows for the State, year and election give one, in one line: "Polls close 6 p.m. CST: <basis>." The clock
+   is the law's where it names one ("Eastern Standard Time": EST), else the State's civil time that day as the
+   daylight register reads it (CST, CDT), "local time" for a State of two zones or a clock in doubt; a State whose law
+   gives a span or several rules, its earliest and latest ("6–8 p.m."); several States, the earliest and latest of
+   them by the clock ("7 p.m. EST to 8 p.m. CST"). The basis is the register's sources for those rows, the page
+   linked as the register links it (the compilation: "*Projections—Predictions* Hearings, [14 (Table A), 46](…)
+   (1967)"), each State named before its own where there are several. Nothing where the register gives no hour, for
+   any State of the entry. Not in `n`: it is the law's hour, not the event's record. It is not a time and places
+   nothing (the pin does). check [day-order]: the line's form, a basis linked, an entry of one day.
 """
 import datetime
 import re
@@ -88,11 +110,42 @@ def band_range(date, band, zone):
     return [f(lo), f(hi)]
 
 
+# The pins (STYLE 6): a `kind` range of these bands sorts at this local hour and minute of the entry's date, in its
+# time_zone, not at the range's middle (the owner, Nov. 11, 2026: "leave the pin one minute before midnight").
+PINS = {"election night": (23, 59)}
+
+
+def soft(e):
+    """A place the event's kind gave (range_basis: kind, no `time`): it gives way to a record and to `follows` (STYLE 6)."""
+    return not e.get("time") and bool(e.get("time_range")) and e.get("range_basis") == "kind"
+
+
+def pin(e):
+    """The pinned place of a kind range whose band has a pin (PINS), a UTC datetime; None where none applies."""
+    if not soft(e) or e.get("time_band") not in PINS or not e.get("time_zone"):
+        return None
+    d = str(e.get("date") or "")
+    if len(d) != 10:
+        return None
+    import zoneinfo
+    try:
+        z = zoneinfo.ZoneInfo(e["time_zone"])
+        h, m = PINS[e["time_band"]]
+        loc = datetime.datetime.combine(datetime.date.fromisoformat(d), datetime.time(h, m), z)
+    except (ValueError, KeyError, zoneinfo.ZoneInfoNotFoundError):
+        return None
+    return loc.astimezone(datetime.timezone.utc).replace(tzinfo=None)
+
+
 def place(e):
-    """The entry's place in its day, a UTC datetime: its `time`, or the middle of its `time_range`; None where neither."""
+    """The entry's place in its day, a UTC datetime: its `time`, or its pin (a kind range of a pinned band: PINS), or the
+    middle of its `time_range`; None where none."""
     t = _instant(e.get("time")) if e.get("time") else None
     if t:
         return t
+    p = pin(e)
+    if p:
+        return p
     r = e.get("time_range")
     if isinstance(r, (list, tuple)) and len(r) == 2:
         a, b = _instant(r[0]), _instant(r[1])
@@ -135,6 +188,28 @@ def order(lst, entries, by_time=True):
     ids = {e["id"] for e in entries}
     before = {e["id"]: [f for f in store.as_list(e.get("follows")) if f in ids and f != e["id"]] for e in entries}
     places = {e["id"]: (place(e) if by_time else None) for e in entries}
+    if by_time:                             # a kind place gives way to the link (STYLE 6)
+        softs = {e["id"] for e in entries if soft(e)}
+        for _ in range(len(entries)):       # a follower's kind place: no earlier than its leaders'
+            raised = False
+            for i, bs in before.items():
+                if i in softs and places[i] is not None:
+                    for b in bs:
+                        if places[b] is not None and places[b] > places[i]:
+                            places[i], raised = places[b], True
+            if not raised:
+                break
+        firm = {i for i, p in places.items() if p is not None and i not in softs}
+        for _ in range(len(entries)):       # a leader's kind place: no later than a firm follower's (a record's)
+            lowered = False
+            for i, bs in before.items():
+                if i in firm:
+                    for b in bs:
+                        if b in softs and places[b] is not None and places[i] < places[b]:
+                            places[b], lowered = places[i], True
+                            firm.add(b)
+            if not lowered:
+                break
     if by_time:                             # an unplaced entry a placed one follows: the earliest such place (STYLE 6)
         inherited = set()
         changed = True
@@ -165,6 +240,20 @@ def order(lst, entries, by_time=True):
         nxt = min(ready, key=lambda i: keys[i])
         done.add(nxt)
         out.append(by_id[nxt])
+    return out
+
+
+POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
+
+
+def polls_problems(e):
+    """STYLE 7: `polls_close` a line in its form, on a calendar entry of one day."""
+    v = e.get("polls_close")
+    out = []
+    if not isinstance(v, str) or not POLLS.match(v):
+        out.append("polls_close: one line, 'Polls close 7 p.m. EST: <its basis, linked>.' (dayorder STYLE 7)")
+    if len(str(e.get("date") or "")) != 10:
+        out.append("polls_close on an entry without its day")
     return out
 
 
@@ -222,6 +311,8 @@ def problems(series):
                 out.append((eid, "range_basis: record or kind"))
             if r is None or (e["range_basis"] == "kind" and not (e.get("time_band") and e.get("time_zone"))):
                 out.append((eid, "range_basis without its range (a kind range: with its time_band and time_zone)"))
+        if e.get("polls_close") is not None:
+            out += [(eid, m) for m in polls_problems(e)]
         if e.get("time_band") is not None:
             if e["time_band"] not in BANDS:
                 out.append((eid, f"time_band {e['time_band']!r}: one of {', '.join(BANDS)}"))
@@ -241,8 +332,8 @@ def problems(series):
                     out.append((eid, f"follows {f} but its time {e['time']} is before {g['time']}"))
                 ga = _instant((g.get("time_range") or [None])[0]) if g.get("time_range") else a
                 eb = _instant((e.get("time_range") or [None, None])[1]) if e.get("time_range") else b
-                if ga and eb and eb < ga and not (a and b):
-                    out.append((eid, f"follows {f} but its range ends before the other's begins"))
+                if ga and eb and eb < ga and not (a and b) and not (soft(g) or soft(e)):   # a kind range gives way (6)
+                    out.append((eid, f"follows {f} but its record range ends before the other's begins"))
     # cycles
     graph = {eid: [f for f in store.as_list(e.get("follows")) if f in idx and f != eid] for eid, e in idx.items() if e.get("follows")}
     state = {}

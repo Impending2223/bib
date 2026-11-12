@@ -650,7 +650,10 @@ def tags_at(pol, r, date=None):
 
 
 def entry_claims(series):
-    """Every calendar entry's claims: [(list, entry, [claims])]."""
+    """Every calendar entry's claims: [(list, entry, [claims])]. Within a build (keep(series): `./bib build`'s check and
+    its pages) computed once and kept; elsewhere afresh at each call."""
+    if _cache.get("ec_keep") is series and "ec" in _cache:
+        return _cache["ec"]
     out = []
     registry(), polities()
     _cache["frozen"] = True                   # the files read once for the whole pass
@@ -665,7 +668,15 @@ def entry_claims(series):
                     out.append((lst, e, compute(series, lst, e)))
     finally:
         _cache["frozen"] = False
+    if _cache.get("ec_keep") is series:
+        _cache["ec"] = out
     return out
+
+
+def keep(series):
+    """For a build: the claims computed once for the series and kept (tools/bib/vispage.py, STYLE 1)."""
+    _cache.pop("ec", None)
+    _cache["ec_keep"] = series
 
 
 # ---------------------------------------------------------------- show and check

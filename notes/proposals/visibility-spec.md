@@ -83,7 +83,7 @@ Stored:
 
 1. **Registry and polities.** The provenance registry; polities on names, places and threads (threads as proposed for re-potting); the program to compute each claim's tags and dates; `./bib show` to print them; a `vis` section in `./bib check` (a claim with no computable tag; a person with no polity).
 2. **Prototype.** The panel and the filtering on one month's page (October 1962: dense, every kind of witness), for the owner to try at phone and desktop width.
-3. **Roll-out.** Every calendar page; `US:all` shrinks as entries are computed.
+3. **Roll-out.** Every calendar page; `US:all` shrinks as entries are computed. **Phase 3 done**, Nov. 12, 2026 (the owner, Nov. 11: "The visibility setup looks good to go"): the panel and the filtering on every calendar page and in the reader's year blocks, by the build itself (`tools/bib/vispage.py`, its STYLE; the prototype, `tools/vis/prototype.py`, now a wrapper of it).
 4. **Going forward.** The reader card: each new claim's witnesses carry what the program needs (kind, country, parties); `polity:` tags where address is named outright. The audits check them.
 5. **Rulings.** The `vis:` overrides, as the owner rules.
 

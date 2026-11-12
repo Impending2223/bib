@@ -262,7 +262,8 @@ def cmd_check(series, a):
 
 
 def cmd_build(series, a):
-    from . import build, check
+    from . import build, check, vis, vispage
+    vis.keep(series)                     # the claims computed once, for the check and the pages (vispage.py, STYLE 1)
     if not a.force:
         errs = [p for p in check.run(series) if p[0] == check.ERROR]
         if errs:
@@ -271,6 +272,8 @@ def cmd_build(series, a):
             return 1
     for p in build.run(series, a.which):
         print(os.path.relpath(p, HERE), f"{os.path.getsize(p) // 1024} KB")
+    if vispage.STATS["entries"]:
+        print(vispage.report())
 
 
 def cmd_hearings(series, a):
