@@ -499,3 +499,11 @@ The early morning rule for newspapers was because they come in the... morning ma
 Default to morning editions where the edition isn't known.
 
 The NYT thing is striking, but... when was the NYT first distributed in D.C.? (We're treating the NYT as a national paper, most interesting for what it says on national politics, so its distribution in its home isn't as interesting to us as its distribution in the District.) Does that push us over the midnight line?"
+
+## Nov. 11, 2026 (night)
+
+"Reverse the presumption, as you recommend.
+
+Please do get started on your other items for tonight. Feel free to PR and merge when appropriate.
+
+Are we not ready to go forward on any other reader batches, besides the Pike material? (Is that what the "round-4 list and the batch-6 questions are"?) I'm about to go to sleep for the night."
