@@ -32,6 +32,16 @@ The Bowling Green speech: Hess and Broder put it "a week before" the House's vot
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`; the copy: the Drive scan fetched whole by the public link, 456 PDF pages with text layer, printed page = PDF page − 10; the earlier "first reading, pp. 1–70" came from the connector's text). Rows ruled:**
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 2 | cited; Check | `cal.1966-08-02.governors-id`, '?' (2: Samuelson over Smylie; not the votes); Check: Hess has "July, 1966," the primary Aug. 2 |
+| 3–5 | cited; Check | `cal.1966-11-08.elections-1966` (2–4, units E, G, K; 2, 4–5, '?'), `.governors` (B, D; '?'), `.legislatures-us` ('?'; Check: 7 of 50 legislatures after 1964 against the entry's 6) |
+| 31–32 | cited | `cal.1964-06-07.states-and-cities-us`, unit A (the conference at Cleveland; no day) |
+
+Where batch 9 stopped: all three rows done.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6), both tables below: the rows ruled private, social, trivia or "minor" read again from the owner's copy (Drive 1irnV_Id8SqRP-JSXe1U1TkRGmDnYIL7t, fetched whole; printed page = PDF page - 10, checked at pp. 29, 51, 173 and 279 on the running heads). The book has no endnotes: no witnesses. Patch `inbox/2026-11-06-b6-hess-republican-establishment.yaml` (b6-hess-republican-establishment: 8 entries, 1 cite, 1 check). The repetition (p. 20) stands.
 
 Pages 1–70 only. Not listed: the background before 1960 (the convention of 1952, Dewey at Houston, Taft's memorandum, Bliss's Ohio years, the 1958 right-to-work fight), portraits and figures that are not events (the 1966 returns by city, Ford's speech counts, the finance committee's yearly totals beyond the entry, Ripon's budgets).

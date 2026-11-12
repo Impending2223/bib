@@ -42,6 +42,17 @@ None of this patch's new entries is added in another pending patch (compared by 
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`; the copy: the owner's Drive scan, printed page = PDF page − 2, read on the page image at 366).** Rows ruled:
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 145–49 | already cited | `cal.1963-04-28.opinion-5` (145–46), `cal.1963-05-26.opinion-5` (148–49, with the Checks on 40 to 29), `cal.1963-05-02.*`, `-05-03`, `-05-04`, `-05-08`, `-05-09` |
+| 243 | already cited | `cal.1963-10-30.democratic-party` (243; variant on D stands) |
+| 258 | already cited | `cal.1963-11-27.succession` |
+| 366–67 | already cited; cited; variant; entered | `cal.1964-06-08.elections-1964-scranton` (366–67), `.goldwater-2` (367), `.elections-1964` (367–68); cite on `cal.1964-06-07.elections-1964-3` (366, units A, B, C, F) with a variant on D ("wait and see"); entered `cal.1964-06-07.elections-1964-scranton` (Romney: "Where are his principles?", 366) |
+
+Where batch 9 stopped: all four rows done.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 Made from the running notes kept page by page through the whole book (every dated event, with its page and the ruling), and checked again against the owner's rules on the parties and the members, on papers (Oct. 28) and on what is an entry (Oct. 28, late). What the first table passed and the late ruling calls an entry is now under "Entered" below.

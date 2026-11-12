@@ -1,5 +1,6 @@
 patch: 2026-11-12-b9-dallek-a
-by: 'Claude (batch 9 reader, Dallek, Flawed Giant, pp. 19–389: the ''already in'' rows)'
+by: 'Claude (batch 9 reader, Dallek, Flawed Giant, pp. 19–389: the ''already in'' rows); audited and corrected by the batch
+  9 auditor (Opus), Nov. 12, 2026'
 ops:
 - add:
     entry:
@@ -9,17 +10,13 @@ ops:
       thread: latin-america-dominican-republic
       also:
       - press-and-broadcasting
-      c: 'Johnson, evening, with Mohr of the *New York Times*. Mohr: his first-day story on the Marine landing was "a journalistic
-        mistake" in not giving more emphasis to the guarded report by Mann and Ball that some Communists had been identified
-        among the rebels. Johnson disagrees: hopeless to think anyone would believe him; he did not land Marines to put down
-        a communist threat.'
+      c: 'Johnson, evening, with Mohr of the *New York Times*. Mohr: he "had made a journalistic mistake" in his first-day
+        story on the Marine landing "in not giving more emphasis to the guarded report by Mann and Ball that some Communists
+        had been identified among the rebels." Johnson disagrees: "hopeless to think that anyone would ever believe him,"
+        but he "had not landed Marines to put down a communist threat."'
       n: '[[w.dallek-flawed-giant]], 264 ("The next evening," after the statement of Apr. 28). To check: LBJ conversations,
         Apr. 29–May 5, 1965, Krock Papers (cited by [[w.dallek-flawed-giant]], 264 n.69). See [[cal.1965-04-28.latin-america]].
         Names: Johnson, Mann, Ball. Check: the day (Dallek: "the next evening"; his note covers Apr. 29–May 5).'
-      src:
-        c: 31329fd0
-        rows:
-        - 'w.dallek-flawed-giant 264: all'
       tags:
       - name:johnson-lyndon-b
       - name:mann-thomas-c
@@ -56,7 +53,7 @@ ops:
         a million, "we are going to do the job." Half the interview against the press, the *Times*, Lippmann, Reston, Halberstam.'
       n: '[[w.dallek-flawed-giant]], 378–79 (Sherrod''s memorandum). To check: Sherrod to George P. Hunt, Oct. 1, 1966, LBJ
         Files, Robert Sherrod Papers, NASA Archives (cited by [[w.dallek-flawed-giant]], 379 n.122). See [[cal.1966-08-01.vietnam]].
-        Names: Johnson, Lippmann, Reston.'
+        Names: Johnson, Lippmann, Reston, Halberstam.'
       src:
         c: ef3e1bf9
         rows:
@@ -65,6 +62,7 @@ ops:
       - name:johnson-lyndon-b
       - name:lippmann-walter
       - name:reston-james
+      - name:halberstam-david
 - cite:
     id: cal.1965-04-08.medicare
     item: '[[w.dallek-flawed-giant]], 208 (the House passes the bill on Apr. 8; not the vote, for which see Variant)'
@@ -77,20 +75,14 @@ ops:
     at: '208'
 - cite:
     id: cal.1965-07-27.medicare
-    item: '[[w.dallek-flawed-giant]], 209 (Congress passes the bill after over 500 minor Senate amendments and a conference
-      committee; not the day or the votes)'
+    item: '[[w.dallek-flawed-giant]], 209 (the bill through "some hard bargaining in a conference committee," after over 500
+      minor Senate amendments; not the votes; Congress''s passage dated July 28, for which see Variant)'
     units: '?'
-- variant:
-    id: cal.1965-07-27.medicare
-    unit: A
-    witness: w.dallek-flawed-giant
-    reads: Congress passed Medicare on July 28
-    at: '209'
 - cite:
     id: cal.1965-02-06.vietnam-congress
     item: '[[w.dallek-flawed-giant]], 247–48 (after Pleiku, the NSC meeting with congressional leaders; Johnson announces
       the air attack; Mansfield alone dissents, urging negotiation; not the hour, the number or the quotations)'
-    units: '?'
+    units: I
 - cite:
     id: cal.1965-02-07.vietnam-2
     item: '[[w.dallek-flawed-giant]], 247–49 (Bundy, after three days in Vietnam: "without new U.S. action defeat appears
@@ -257,7 +249,7 @@ ops:
       conference after it, presses the guideposts: "When 200,000 of our fellow citizens are risking their lives in the defense
       of freedom overseas, the Government''s duty is to ask those who enjoy a comfortable prosperity at home to exercise responsibly
       their freedom to set prices and wages"; not the figures)'
-    units: F
+    units: A, F
 - cite:
     id: cal.1966-09-08.economy
     item: '[[w.dallek-flawed-giant]], 310 (Sept. 8: "additional steps we consider necessary to assure the continuing health
@@ -273,13 +265,13 @@ ops:
     id: cal.1966-03-02.transportation
     item: '[[w.dallek-flawed-giant]], 314–15 (Mar. 2: the transportation message to Congress; a department with the Federal
       Aviation Agency, the Coast Guard, the Bureau of Public Roads, the Maritime Administration, the safety functions of the
-      CAB and the ICC under a National Transportation Safety Board; a Traffic Safety Act; highway accidents costing 50,000
-      lives a year; not the figures of the Act or the employees)'
-    units: A
+      CAB and the ICC under a National Transportation Safety Board, the St. Lawrence Seaway and the Alaska Railroad; a Traffic
+      Safety Act; highway accidents costing 50,000 lives a year; not the figures of the Act or the employees)'
+    units: A, D-G
 - cite:
     id: cal.1966-10-15.transportation
-    item: '[[w.dallek-flawed-giant]], 316–17 (the signing at the White House on Oct. 15; the Maritime Administration left
-      out of the department, Meany''s pressure on the House; Johnson keeps the shipping interests and unions from the ceremony;
+    item: '[[w.dallek-flawed-giant]], 316 (the signing at the White House on Oct. 15; the Maritime Administration left out
+      of the department, Meany''s pressure on the House; Johnson keeps the shipping interests and unions from the ceremony;
       not the citation of the Act or the number of agencies)'
     units: B
 - cite:
@@ -305,7 +297,7 @@ ops:
 - cite:
     id: cal.1966-10-20.cities-and-housing
     item: '[[w.dallek-flawed-giant]], 322 (the final votes: a 142 to 126 vote in the House; Dallek gives no day)'
-    units: '?'
+    units: A
 - cite:
     id: cal.1966-08-09.open-housing
     item: '[[w.dallek-flawed-giant]], 326 (the House approves the bill on Aug. 9 with limits on what constituted housing discrimination;
@@ -314,8 +306,9 @@ ops:
     units: '?'
 - cite:
     id: cal.1966-06-01.civil-rights-the-executive
-    item: '[[w.dallek-flawed-giant]], 327 (the White House civil rights conference of June 1–2, "To Fulfill These Rights";
-      Katzenbach''s task force of August a response to it and to the summer riots; not the chairmen, Johnson''s words or SNCC)'
+    item: '[[w.dallek-flawed-giant]], 327–28 (the White House civil rights conference of June 1–2, "To Fulfill These Rights";
+      Johnson''s speech: "this issue is beyond the mastery of one man or one group of men" (328); not the day of the speech,
+      the chairmen or SNCC)'
     units: '?'
 - cite:
     id: cal.1966-06-09.opinion
@@ -325,8 +318,7 @@ ops:
 - to-check:
     id: cal.1966-06-09.opinion
     add:
-    - Panzer to Redmon, May 4, 1966; Moyers to LBJ, May 19, 1966; Harris Survey, May 16, 1966; Gallup Poll, May 26, 1966,
-      WHCF (cited by [[w.dallek-flawed-giant]], 336 n.120)
+    - 'Moyers to LBJ, June 9, 1966, WHCF: CF: PR16 (cited by [[w.dallek-flawed-giant]], 337 n.121)'
 - cite:
     id: cal.1966-10-17.vietnam
     item: '[[w.dallek-flawed-giant]], 338 (the seventeen-day trip to Asia, Oct. 17 to Nov. 2; he says shortly before he has
@@ -336,7 +328,7 @@ ops:
     id: cal.1966-11-08.elections-1966
     item: '[[w.dallek-flawed-giant]], 339 (Nov. 8: the Republicans gain 47 House seats, to 248 to 187; three Senate seats,
       64 to 36; eight governorships, a 25 to 25 split of the States)'
-    units: G
+    units: A, G
 - cite:
     id: cal.1966-11-08.governors
     item: '[[w.dallek-flawed-giant]], 339 (eight governorships to the Republicans, a 25 to 25 split of the States)'
@@ -352,7 +344,7 @@ ops:
     item: '[[w.dallek-flawed-giant]], 343–44 (the meeting with senior advisers on Dec. 17: willing "to take any gamble on
       stopping the bombing" if there were any chance of a result; a pause from Dec. 22 to Jan. 22; the Pentagon could use
       "weather as an excuse and Christmas as a factor"; not the hours or the others)'
-    units: '?'
+    units: I
 - cite:
     id: cal.1965-12-18.vietnam-pause
     item: '[[w.dallek-flawed-giant]], 344 (the meeting of the next day: a pause contained "serious military risks"; McNamara:
@@ -366,9 +358,8 @@ ops:
     units: '?'
 - cite:
     id: cal.1965-12-27.vietnam
-    item: '[[w.dallek-flawed-giant]], 345–46 (Johnson agrees to a bombing pause on Dec. 27; McNamara spends three hours with
-      him at the ranch that evening and presses a longer pause; Taylor urges a longer halt; not the call or "several more
-      days")'
+    item: '[[w.dallek-flawed-giant]], 345–46 (Johnson agrees to a bombing pause on Dec. 27, after the Christmas truce; Taylor
+      urges a longer halt; not the call or "several more days")'
     units: '?'
 - cite:
     id: cal.1965-12-28.vietnam
@@ -475,9 +466,7 @@ ops:
 - cite:
     id: cal.1966-04-02.vietnam
     item: '[[w.dallek-flawed-giant]], 360 (Apr. 2, advisers: "make every effort to keep Ky. But be ready to make terrible
-      choice. Perhaps take a stand in Thailand—or take someone else other than Ky"; 361: Ky asks Lodge for transport planes
-      to suppress the rebels in Danang and Hue, Lodge agrees, Johnson tells him to keep U.S. troops out of the riot area;
-      not Trí Quang)'
+      choice. Perhaps take a stand in Thailand—or take someone else other than Ky"; not Trí Quang)'
     units: A
 - cite:
     id: cal.1966-04-04.vietnam-struggle-3
@@ -493,8 +482,8 @@ ops:
     units: B
 - cite:
     id: cal.1966-05-06.vietnam-struggle
-    item: '[[w.dallek-flawed-giant]], 363 (May 6: Ky announces he would hold power until elections in 1967; Rusk wanted to
-      threaten to leave Vietnam if Ky did not give control to an assembly; Johnson rejected it)'
+    item: '[[w.dallek-flawed-giant]], 363 (May 6: Ky announces he would hold power until elections in 1967, putting the assembly
+      in jeopardy; not that he did not consult the Americans)'
     units: '?'
 - cite:
     id: cal.1966-05-10.vietnam
@@ -519,11 +508,12 @@ ops:
     item: '[[w.dallek-flawed-giant]], 370–71 (May 27: a cordial reply written by Moyers; aggressive powers "freely permitted
       ... to use direct or indirect force against smaller and weaker states"; the policy his and not that of "my ''advisers''";
       "our differences of policy have [not] erased the friendship we have shared for so long")'
-    units: '?'
+    units: A
 - cite:
     id: cal.1966-08-08.vietnam
-    item: '[[w.dallek-flawed-giant]], 376 (Aug. 8: the New York Times reports a Pentagon study predicting eight years to win
-      the war unless forces were increased to 750,000, and then five; not partial mobilization or the reserves)'
+    item: '[[w.dallek-flawed-giant]], 376, 379 (Aug. 8: the New York Times reports a Pentagon study predicting eight years
+      to win the war unless forces were increased to 750,000, and then five (376); the Reserves to be called; Greene the source,
+      Johnson reads him "the riot act" (379); not partial mobilization, the backgrounder or the telephone)'
     units: '?'
 - cite:
     id: cal.1966-07-20.vietnam-prisoners
@@ -562,6 +552,140 @@ ops:
 - cite:
     id: cal.1966-12-13.vietnam
     item: '[[w.dallek-flawed-giant]], 389–90 (the meeting of Dec. 9, by Rostow: "carry forward with what was necessary but
-      at this particular moment not to expand our targeting"; Dec. 13 and 14 even larger raids against Hanoi; not who was
-      present)'
-    units: C
+      at this particular moment not to expand our targeting"; Dec. 13 and 14 "even larger raids against Hanoi"; not who was
+      present or the targets)'
+    units: '?'
+- add:
+    entry:
+      id: cal.1965-07-28.medicare
+      when: July 28
+      date: '1965-07-28'
+      thread: medicare
+      c: 'Senate agrees to the conference report on the Social Security amendments, H.R. 6675, [70–24](https://voteview.com/rollcall/RS0890174):
+        Medicare through Congress.'
+      n: '[[w.dallek-flawed-giant]], 209 ("Congress passed Medicare on July 28," after over 500 minor Senate amendments and
+        a conference committee; not the vote). See [[cal.1965-07-27.medicare]].'
+- check:
+    id: cal.1965-07-27.medicare
+    text: 'Check: the Senate agreed to the conference report, 70–24, on July 28 ([Voteview RS0890174](https://voteview.com/rollcall/RS0890174)),
+      the House, 307–116, on July 27 ([Voteview RH0890097](https://voteview.com/rollcall/RH0890097)); Dallek''s July 28 (209)
+      is the Senate''s day.'
+- cite:
+    id: cal.1965-03-26.medicare
+    item: '[[w.dallek-flawed-giant]], 208–09 (the leaders at the White House before television cameras to review the bill;
+      Johnson presses Byrd: "So, when the House acts and it is referred to the Senate Finance Committee, you will arrange
+      for prompt hearings and thorough hearings?" "Yes," Byrd said; not the thanks; the day, "In January," for which see Variant)'
+    units: B
+- variant:
+    id: cal.1965-03-26.medicare
+    unit: A
+    witness: w.dallek-flawed-giant
+    reads: In January, after Medicare had been introduced in the House, Johnson had invited House and Senate leaders to the
+      White House for "an extremely important, very sensitive meeting."
+    at: '208'
+- cite:
+    id: cal.1965-03-02.medicare-2
+    item: '[[w.dallek-flawed-giant]], 208 (as Cohen told Johnson, Mills "almost certain that nobody will vote against the
+      bill when it comes on the floor of the House"; Mills thought it "unassailable politically from any serious Republican
+      attack"; not the day or the memorandum)'
+    units: '?'
+- cite:
+    id: cal.1965-03-03.medicare-2
+    item: '[[w.dallek-flawed-giant]], 208 (Cohen: Part B about $500 million a year; Johnson: "Five hundred million. Is that
+      all? ... Do it. Move that damn bill out now, before we lose it"; not the day, the room or the brother)'
+    units: D
+- cite:
+    id: cal.1965-06-17.medicare
+    item: '[[w.dallek-flawed-giant]], 209 (Long''s catastrophic insurance amendment carried in the Finance Committee by members
+      who had not read it; reversed after Johnson''s calls; not the day or the votes)'
+    units: '?'
+- cite:
+    id: cal.1965-02-15.vietnam-air-war
+    item: '[[w.dallek-flawed-giant]], 251 (Feb. 15, after agreeing to Rolling Thunder, Johnson leaves Bundy and McNamara unsure
+      of his commitment, by Bundy''s memorandum of the 16th on "our discussion of yesterday"; not the hours, Rusk, Ball or
+      Thompson)'
+    units: '?'
+- cite:
+    id: cal.1965-02.press-and-broadcasting
+    item: '[[w.dallek-flawed-giant]], 249 (Reston in the Times "the following day" after the decision of Feb. 13: "an undeclared
+      and unexplained war in Vietnam"; not the spade)'
+    units: '?'
+- cite:
+    id: cal.1965-04-20.vietnam-force-levels
+    item: '[[w.dallek-flawed-giant]], 268 (Ball alone takes exception; Johnson gives him "until the following morning" for
+      "a settlement plan. If you can pull a rabbit out of the hat, I''m all for it!"; set after McNamara''s report of the
+      21st; not Rusk or the morning)'
+    units: '?'
+- check:
+    id: cal.1965-04-20.vietnam-force-levels
+    text: 'Check: [[w.dallek-flawed-giant]], 268, sets Ball''s exception and Johnson''s "rabbit out of the hat" after McNamara''s
+      report of Apr. 21, not the morning of Apr. 20.'
+- to-check:
+    id: cal.1965-04-30.latin-america-dominican-republic
+    add:
+    - Meeting in Cabinet Room, Apr. 30, 1965, Jack Valenti Notes, Office of the President File (cited by [[w.dallek-flawed-giant]],
+      264 n.71)
+- cite:
+    id: cal.1965-06-17.vietnam-congress
+    item: '[[w.dallek-flawed-giant]], 266 (the words, among Johnson''s talks with reporters in the Oval Office or on the south
+      lawn, undated on the page; the Public Papers, 1965, II, 678–79, cited 266 n.77)'
+    units: C-D
+- cite:
+    id: cal.1966-11-01.elections-1966
+    item: '[[w.dallek-flawed-giant]], 339 (in an Anchorage hotel room the evening before he returned from Asia, to aides:
+      "FDR passed five major bills the first one hundred days. We passed 200 in the last two years"; the campaign trip canceled
+      at the last minute; not the hotel''s name, the secretaries or the signings)'
+    units: '?'
+- variant:
+    id: cal.1965-12-24.vietnam
+    unit: A
+    witness: w.dallek-flawed-giant
+    reads: on the following day [after the meeting of Dec. 21], Washington and Saigon announced a thirty-hour Christmas truce,
+      suspending all air and ground action
+    at: '344'
+- cite:
+    id: cal.1965-12-27.vietnam-pause
+    item: '[[w.dallek-flawed-giant]], 346 (McNamara three hours with Johnson at his ranch the evening of the 27th, pressing
+      a longer pause; Rusk and State for renewed strikes and a pause later; not the flight, the dinner, the hours or Bundy''s
+      memorandum)'
+    units: '?'
+- cite:
+    id: cal.1966-01-22.vietnam-pause
+    item: '[[w.dallek-flawed-giant]], 350 (the meeting notes of Jan. 22, n.27: all the advisers but Ball for resuming; Johnson:
+      "We haven''t bombed in thirty days. But they have done nothing ... We have gone longer than anyone thought necessary";
+      not the hours or the others'' words)'
+    units: '?'
+- check:
+    id: cal.1966-01-22.vietnam-pause
+    text: 'Check: [[w.dallek-flawed-giant]], 350, has all the advisers but Ball for resuming (the notes of Jan. 22, n.27),
+      not Goldberg and Harriman as well.'
+- cite:
+    id: cal.1966-01-26.vietnam-pause
+    item: '[[w.dallek-flawed-giant]], 350 (five private discussions on ending the lull, Jan. 26–30, the meeting notes of Jan.
+      26 among the sources, n.28: "emphasize how sorrowful we are"; Chinese intervention; not who was present or the words
+      of the entry)'
+    units: '?'
+- cite:
+    id: cal.1966-02-04.india-and-china-food
+    item: '[[w.dallek-flawed-giant]], 352 (Feb. 4: the trip to Honolulu announced, to meet Lodge, Westmoreland, Thiệu and
+      Kỳ, Freeman and Gardner going; Rusk, McNamara and Wheeler not to testify in public; the Public Papers, 1966, I, 144–48,
+      cited 352 nn.33–34; not the food for India)'
+    units: '?'
+- variant:
+    id: cal.1966-02-24.vietnam-congress
+    unit: C
+    witness: w.dallek-flawed-giant
+    reads: House and Senate leaders assured the President that repeal "wouldn't get to first base. Repeal wouldn't get four
+      votes," Dirksen said.
+    at: '356'
+- cite:
+    id: cal.1966-04-02.vietnam-struggle-4
+    item: '[[w.dallek-flawed-giant]], 360 (Johnson to his advisers, Apr. 2: "be ready to make terrible choice. Perhaps take
+      a stand in Thailand—or take someone else other than Ky"; the words Johnson''s; not that the forces might leave Vietnam)'
+    units: '?'
+- cite:
+    id: cal.1966-05-21.vietnam-struggle
+    item: '[[w.dallek-flawed-giant]], 363–64 (the news conference of May 21: "They are trying to build a nation ... There
+      is ... no instant solution"; "Leading that parade is the President ... make it 200 percent for the President"; the Public
+      Papers, 1966, I, 531–32, 535, cited 363–64 nn.72, 75; not Đà Nẵng, Moyers or the words of the entry)'
+    units: '?'

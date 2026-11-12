@@ -1,5 +1,5 @@
 patch: 2026-11-12-b9-schlesinger-b
-by: 'Claude (batch 9: Schlesinger, Robert Kennedy and His Times, pp. 630–915, the "already in" rows read by the card), Nov. 11, 2026'
+by: 'Claude (batch 9: Schlesinger, Robert Kennedy and His Times, pp. 630–915, the "already in" rows read by the card), Nov. 11, 2026; audited and corrected, Nov. 11, 2026'
 ops:
 - cite:
     id: cal.1964-05-08.transition-and-staff
@@ -9,17 +9,15 @@ ops:
     id: cal.1964-01-23.robert-kennedy
     item: '[[w.schlesinger-robert-kennedy-and-his]], 634 (Kennedy arrives in Indonesia Jan. 22; Sukarno "kept the word he had given in Tokyo" and has "agreed to a cease-fire," by his own words to Cindy Adams that afternoon; the Tunku in Malaysia had yielded to Kennedy; not the foreign ministers'' meeting at Bangkok, the day of the talks with Kennedy or the stops after)'
     units: '?'
-- check:
-    id: cal.1964-01-23.robert-kennedy
-    text: 'Check: Schlesinger, 634, has Kennedy arrive in Indonesia on Jan. 22 and Sukarno''s word on the cease-fire that afternoon; the entry has Jan. 23.'
 - add:
     entry:
       id: cal.1964-01-22.robert-kennedy
       when: Jan. 22
       date: '1964-01-22'
       thread: robert-kennedy
+      also: [indonesia]
       c: 'Djakarta, the afternoon of Kennedy''s arrival. Sukarno, looking "utterly beat," to Cindy Adams, his American biographer, of the speech he is to make at the stadium: "I have agreed to a cease-fire." Of Kennedy: "Bob is very warm," he says. "He is like his brother. I loved his brother."'
-      n: '[[w.schlesinger-robert-kennedy-and-his]], 634 (Adams''s account, by n.68; "That afternoon," Kennedy having arrived on Jan. 22). To check: Cindy Adams, *My Friend the Dictator* (Indianapolis, 1967), 78 (cited by [[w.schlesinger-robert-kennedy-and-his]], 634 n.68). Check: the day and the hour. See [[cal.1964-01-17.robert-kennedy]]. Names: Sukarno, Robert Kennedy.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 634 (Adams''s account, by n.68; "That afternoon," Kennedy having arrived on Jan. 22). To check: Cindy Adams, *My Friend the Dictator* (Indianapolis, 1967), 78 (cited by [[w.schlesinger-robert-kennedy-and-his]], 634 n.68). See [[cal.1964-01-17.robert-kennedy]]. Names: Sukarno, Robert Kennedy.'
       tags:
       - name:sukarno
       - name:kennedy-robert-f
@@ -38,17 +36,14 @@ ops:
     id: cal.1964-06-19.congress
     item: '[[w.schlesinger-robert-kennedy-and-his]], 654 (that night Edward Kennedy, "flying to a political dinner in Springfield, Massachusetts, crashed in thunderstorms over the Connecticut Valley"; the pilot and a Kennedy aide killed; damaged vertebrae in the lower back, a punctured lung, broken ribs, hemorrhaging; Robert Kennedy raced across the state by automobile to the hospital; not Bayh, the orchard or the aide''s name)'
     units: '?'
-- check:
-    id: cal.1964-06-19.congress
-    text: 'Check: Schlesinger, 654, has Edward Kennedy flying to "a political dinner in Springfield"; the entry has the Massachusetts Democratic convention at West Springfield.'
 - add:
     entry:
       id: cal.1964-06-19.robert-kennedy
-      when: June 19–20
+      when: June 19
       date: '1964-06-19'
       thread: robert-kennedy
       c: 'The night of Edward Kennedy''s crash, after the hospital: Robert Kennedy and Walter Sheridan lie in the grass. Kennedy: "Somebody up there doesn''t like me." He asks Sheridan whether he ought to go for the Senate or for the Vice Presidency. Sheridan tells him the Vice Presidency. By Sheridan''s account.'
-      n: '[[w.schlesinger-robert-kennedy-and-his]], 654 (by Sheridan''s account, n.42: Sheridan, interview by Roberta Greene, May 1, 1970, 12). Check: the day and the hour; Schlesinger has only "that night." To check: Sheridan''s interview, in full. See [[cal.1964-06-19.congress]]. Names: Robert Kennedy, Sheridan, Edward M. Kennedy.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 654 ("that night," by Sheridan''s account). To check: Walter Sheridan, interview by Roberta Greene, May 1, 1970, 12, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 654 n.42). See [[cal.1964-06-19.congress]]. Names: Robert Kennedy, Sheridan, Edward M. Kennedy.'
       tags:
       - name:kennedy-robert-f
       - name:sheridan-walter
@@ -72,7 +67,15 @@ ops:
     text: 'Check: Schlesinger, 664, has the summons "on the second day of the convention" (Aug. 25); the entry has Aug. 26.'
 - cite:
     id: cal.1966-02-04.civil-rights-the-executive
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 686 (Wilkins wanted his commission to read "from New York," so that Kennedy would introduce him to the Senate committee; the White House insisted on "from the District of Columbia"; Wilkins: "The President was really annoyed at my swearing in and he wouldn''t talk to me," the "silent treatment"; Marshall carried a later message; the book gives no day for either)'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 686 (Wilkins named director of the Community Relations Service; at the swearing in, by Wilkins: "The President was really annoyed at my swearing in and he wouldn''t talk to me," the "silent treatment"; not the day, his age or Collins)'
+    units: '?'
+- cite:
+    id: cal.1966-01-25.civil-rights-the-executive
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 686 (Wilkins wanted his commission to read "from New York," so that Kennedy would introduce him to the Senate committee passing on his nomination; the White House insisted on "from the District of Columbia"; not the call''s words, the day, the hearing or the vote)'
+    units: '?'
+- cite:
+    id: cal.1966-02.robert-kennedy
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 686 (by Wilkins: "The President later sent a message to me through [Thurgood Marshall, now Solicitor General]. It said, you''d better get on the straight and narrow"; not Johnson''s words to Marshall, the Oval Office or the day)'
     units: '?'
 - cite:
     id: cal.1964-03-31.latin-america
@@ -81,14 +84,18 @@ ops:
 - cite:
     id: cal.1961-01-19.laos
     item: '[[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day)'
-    units: '?'
+    units: B
 - cite:
     id: cal.1961-05-11.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 703 (the Pentagon calls for the immediate dispatch of 3600 combat troops; Kennedy, "compromising," sends a hundred military advisers and four hundred Green Berets; Gilpatric: the increase "was greeted by the President with a great deal of impatience"; no day or NSAM)'
     units: '?'
 - cite:
     id: cal.1961-11-22.vietnam
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 705–06 (Kennedy rejects combat units while accepting "another increase in military and economic assistance to Diem," on "a stiffer and more quid pro quo political program"; "he absolutely declined in the National Security Action Memorandum of November 15 to make the total commitment"; Ball''s warning of 300,000 troops and Kennedy''s "You''re crazy as hell; it can''t happen")'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 705 (Kennedy rejects combat units while accepting "another increase in military and economic assistance to Diem," insisting, by William Bundy, on "a stiffer and more quid pro quo political program"; "he absolutely declined in the National Security Action Memorandum of November 15 to make the total commitment"; not the helicopters, the airlift or the advisers with the units)'
+    units: D
+- cite:
+    id: cal.1961-11.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 705 (Kennedy to Galbraith, sending him by Saigon on his way back to New Delhi: "There are limits to the number of defeats I can defend in one twelve-month period. I''ve had the Bay of Pigs and pulling out of Laos, and I can''t accept a third" (n.22: Galbraith, interview by the author, June 23, 1977); "and pulling out" for the entry''s ", pulling out"; not Bissell)'
     units: '?'
 - check:
     id: cal.1961-11-22.vietnam
@@ -120,8 +127,12 @@ ops:
     units: '?'
 - cite:
     id: cal.1962-04-04.vietnam
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 709 (in April 1962 Galbraith proposes "phased withdrawal" as an element in a larger deal with the Soviet Union, which might get Hanoi to call off the Viet Cong; Kennedy asks Defense for comment; Lemnitzer, chairman of the JCS, denounces Galbraith for wishing the United States "to seek disengagement from what is now a well-known commitment"; no day, not Harriman)'
-    units: '?'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 709 (in April 1962 Galbraith proposes "phased withdrawal" as an element in a larger deal with the Soviet Union, which might get Hanoi to call off the Viet Cong; Kennedy asks Defense for comment; Lemnitzer, chairman of the JCS, denounces Galbraith for wishing the United States "to seek disengagement from what is now a well-known commitment"; no day, not Harriman or McNamara)'
+    units: C
+- cite:
+    id: cal.1962-05-01.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 709 ("A few days later" than Lemnitzer''s reply, Ball''s speech: Higgins leads her *Herald Tribune* story, "The American commitment, moreover, is now irrevocable"; the possible downfall of South Vietnam "a loss of tragic significance to the security of free world interests in the whole of Asia and the South Pacific"; Kennedy asks Bundy how it had slipped by; Bundy: "a tone and content that we would not have cleared"; no day or place)'
+    units: all
 - cite:
     id: cal.1962-07-23.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 709 (in July 1962 Kennedy instructs McNamara to start planning for the phased withdrawal of American military personnel, the target date the end of 1965; the military produces an acceptable plan in May 1963; no day, not Honolulu)'
@@ -141,22 +152,43 @@ ops:
 - cite:
     id: cal.1963-07-17.civil-rights-bill
     item: '[[w.schlesinger-robert-kennedy-and-his]], 711 (July 17, on Vietnam: "For us to withdraw . . . would mean a collapse not only of South Vietnam, but Southeast Asia. So we are going to stay there"; not the March on Washington or the Communists)'
-    units: '?'
+    units: F
 - cite:
     id: cal.1963-09-02.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 711 (Sept. 2: "I don''t agree with those who say we should withdraw. That would be a great mistake"; the book names no occasion)'
     units: D
 - cite:
     id: cal.1963-08-26.vietnam
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 713–14 ("Stormy meetings followed": Harriman, Ball, Hilsman and Forrestal say the United States "must decide now to go through to a successful overthrow"; Taylor, McNamara, McCone and Johnson strongly oppose a coup; Nolting "brought in on August 27 to give the case for Diem," Gilpatric on the "tongue-lashing" Nolting took from Harriman; not the other days)'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 713–14 ("Stormy meetings followed": Harriman, Ball, Hilsman and Forrestal say the United States "must decide now to go through to a successful overthrow"; Taylor, McNamara, McCone and Johnson strongly oppose a coup; Nolting "brought in on August 27 to give the case for Diem," Gilpatric on the "tongue-lashing" Nolting took from Harriman; not "each day")'
     units: '?'
+- cite:
+    id: cal.1963-08-25.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 713 ("The day after the coup cable, Robert Kennedy talked to McNamara and Maxwell Taylor": "Nobody really knew what our policy was; it hadn''t been discussed," his recollection, n.58: interview by the author, Feb. 27, 1965)'
+    units: A-B
+- cite:
+    id: cal.1963-08-28.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 713 (Harriman, Ball, Hilsman and Forrestal say the United States "must decide now to go through to a successful overthrow" (n.59: National Security Council meeting, Aug. 28, 1963, RFK Papers); Taylor, McNamara, McCone and Johnson strongly oppose a coup; not the hour, Nolting''s argument or the President''s instructions)'
+    units: '?'
+- add:
+    entry:
+      id: cal.1963-08-27.vietnam
+      when: Aug. 27
+      date: '1963-08-27'
+      thread: vietnam
+      c: 'Nolting brought in to the meeting on the cable of Aug. 24 to give the case for Diệm. Gilpatric could not remember when anyone in a President''s presence "took the tongue-lashing that Nolting did from Harriman."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 713–14 (Gilpatric''s recollection). To check: Roswell Gilpatric, interview by D. J. O''Brien, May 5, 1970, 31, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 714 n.60). See [[cal.1963-08-26.vietnam]]. Names: Nolting, Ngô Đình Diệm, Gilpatric, Harriman.'
+      tags:
+      - name:nolting-frederick-e-jr
+      - name:ngo-dinh-diem
+      - name:gilpatric-roswell-l
+      - name:harriman-w-averell
 - cite:
     id: cal.1963-08-29.vietnam-2
     item: '[[w.schlesinger-robert-kennedy-and-his]], 714 (Lodge, "determined to overthrow Diem," cables Washington on Aug. 29: "there is no turning back"; not the hour, the cable number or the rest of the sentence)'
     units: '?'
 - cite:
     id: cal.1963-09-11.vietnam
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 714 (Lodge cables "on September 11," in capitals: the time has arrived "for the US to use what effective sanctions it has to bring about the fall of the existing government and the installation of another"; the book names no addressee)'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 714 (Lodge cables "on September 11," in capitals: the time has arrived "for the US to use what effective sanctions it has to bring about the fall of the existing government and the installation of another" (n.66: Lodge to Rusk, Sept. 11, 1963, RFK Papers); not "worsening rapidly" or the study of the aid)'
     units: B
 - cite:
     id: cal.1963-10-02.vietnam
@@ -167,25 +199,52 @@ ops:
     item: '[[w.schlesinger-robert-kennedy-and-his]], 717 (Kennedy "somewhat confusedly told his press conference on November 14" that the Honolulu conference was to consider "how we can intensify the struggle, how we can bring Americans out of there. Now, that is our object, to bring Americans home")'
     units: B, C
 - cite:
+    id: cal.1963-05-22.vietnam-force-levels
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 717 (his press conference "in May 1963": "We would withdraw the troops . . . any time the government of South Vietnam would suggest it" (n.80: Public Papers, 1963, 421); not Nhu''s words, the withdrawal by the end of the year or civil rights)'
+    units: '?'
+- cite:
     id: cal.1963-11-20.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 717 ("On November 20 the conference accepted a speed-up of the withdrawal plan"; not those present, Lodge''s hopes or the aid)'
     units: '?'
 - cite:
     id: cal.1963-10-29.robert-kennedy
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 721 (the National Security Council meets on Oct. 29; Robert Kennedy: "To support a coup," "would be putting the future of Vietnam and in fact all of Southeast Asia in the hands of one man not now known to us. A failure of a coup risks so much. The reports we have are very thin"; the President observes that, the pro-Diem and anti-Diem forces appearing about equal, an attempt to engineer a coup "would be silly"; not Iraq or South America, Diem''s refusal to quit or "the minority view")'
-    units: E
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 721 (the National Security Council meets on Oct. 29; Robert Kennedy: "To support a coup," "would be putting the future of Vietnam and in fact all of Southeast Asia in the hands of one man not now known to us. A failure of a coup risks so much. The reports we have are very thin"; the President observes that, the pro-Diem and anti-Diem forces appearing about equal, an attempt to engineer a coup "would be silly" (n.99: the meeting, 4:20 p.m., RFK Papers); not Iraq or South America, Diem''s refusal to quit or "the minority view")'
+    units: A, C, E
 - cite:
     id: cal.1963-08-31.vietnam-2
     item: '[[w.schlesinger-robert-kennedy-and-his]], 725–26 (Johnson, "a week after the coup scare of August 1963," tells McNamara and Rusk he "had never really seen a genuine alternative to Diem," that "it would be a disaster to pull out" and that "we should stop playing cops and robbers and get back to . . . winning the war" (n.2: Pentagon Papers, Gravel ed., II, 743); no day, no place)'
     units: '?'
+- check:
+    id: cal.1963-08-31.vietnam-2
+    text: 'Check: Schlesinger, 725–26, from the Pentagon Papers (Gravel ed., II, 743), also has Johnson''s "it would be a disaster to pull out," not "Certainly we can''t pull out."'
 - cite:
     id: cal.1963-11-24.vietnam
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 726 ("On November 24 the new President convened a small group to meet with Lodge, just in from Saigon"; Robert Kennedy not invited; Johnson: "I am not going to lose Vietnam. I am not going to be the President who saw Southeast Asia go the way China went"; afterward, to Moyers: "I told them to go back and tell those generals in Saigon that Lyndon Johnson intends to stand by our word")'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 726 ("On November 24 the new President convened a small group to meet with Lodge, just in from Saigon"; Robert Kennedy not invited; Johnson: "I am not going to lose Vietnam. I am not going to be the President who saw Southeast Asia go the way China went" (n.4: Wicker, *JFK and LBJ*, 205); not those present or what Lodge and McCone said)'
     units: '?'
+- add:
+    entry:
+      id: cal.1963-11-24.vietnam-2
+      when: Nov. 24
+      date: '1963-11-24'
+      thread: vietnam
+      c: 'Johnson to Moyers, after the meeting with Lodge, by Moyers''s account: "They''ll think with Kennedy dead we''ve lost heart. So they''ll think we''re yellow and don''t mean what we say." "I''m not going to let Vietnam go the way of China. I told them to go back and tell those generals in Saigon that Lyndon Johnson intends to stand by our word."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 726 ("Afterward"). Check: the day. To check: Bill Moyers, "Flashbacks," *Newsweek*, Feb. 10, 1975 (cited by [[w.schlesinger-robert-kennedy-and-his]], 726 n.5). See [[cal.1963-11-24.vietnam]]. Names: Johnson, Moyers, Lodge.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:moyers-bill
+      - name:lodge-henry-cabot
 - cite:
     id: cal.1963-11-26.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 726 ("Two days later National Security Action Memorandum 273 declared": "It remains the central objective of the United States in South Vietnam to assist the people and Government of that country to win their contest against the externally directed and supported communist conspiracy"; reannounces the December withdrawal of a thousand men and says military programs "should be maintained at levels as high as those in the time of the Diem regime"; not the Laos operations or the bar on public criticism)'
     units: A
+- cite:
+    id: cal.1963-12-06.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 726 ("The President," Rusk cabled Lodge, eyes only, on Dec. 6, "has expressed his deep concern that our effort in Viet-Nam be stepped up to highest pitch" (n.10: Johnson Papers); not the review or Defense''s analysis)'
+    units: A
+- cite:
+    id: cal.1964-01-01.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 726–27 (on New Year''s Day Johnson pledges the Saigon government "the fullest measure of support ... in achieving victory," and denounces neutralism, "only . . . another name for a Communist take over"; the *Times*: "By implication," the message "erased the previous date for withdrawing the bulk of United States forces by the end of 1965" (n.11: Jan. 2, 1964); not Minh, the date of the message or the personnel and matériel)'
+    units: C
 - cite:
     id: cal.1964-01-30.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 727 (Khanh''s "second coup on January 30, 1964," Khanh explaining that the junta had been "paving the way for neutralism and thus selling out the country"; reports, by William Bundy, of a junta "sympathetic to the French position"; not the bloodless taking of power, the generals held or Johnson''s reply)'
@@ -194,9 +253,6 @@ ops:
     id: cal.1965-12-15.vietnam
     item: '[[w.schlesinger-robert-kennedy-and-his]], 733 ("On December 15, before Hanoi responded to Rusk''s inquiry, Johnson ordered the bombing of Haiphong"; Fanfani''s four points of mid-November and a later message that the bombing of Hanoi or Haiphong would kill negotiations; the book does not name the power plant)'
     units: '?'
-- check:
-    id: cal.1965-12-15.vietnam
-    text: 'Check: Schlesinger, 733, has Johnson order "the bombing of Haiphong" on Dec. 15; the entry has the Uông Bí power plant, north of Haiphong, struck.'
 - cite:
     id: cal.1965-12-18.vietnam-pause
     item: '[[w.schlesinger-robert-kennedy-and-his]], 734 ("On December 18, Johnson, still skeptical, decided to give it a try"; McNamara had argued for a bombing pause since early November; the Joint Chiefs, Lodge, Westmoreland, Clifford and Fortas opposed it; Ball for it; Rusk and Bundy "dropped their earlier opposition"; the pause begins with a Christmas truce and runs through January 1966)'
@@ -230,16 +286,20 @@ ops:
     item: '[[w.schlesinger-robert-kennedy-and-his]], 767 and n. (Johnson''s letter to Ho Chi Minh "dispatched ... on February 8," "drafted and redrafted February 2–8," demanding that the North stop reinforcing its troops in the South as a condition of the cessation of the bombing (Kraslow and Loory, *The Secret Search for Peace in Vietnam*, 206); not the delivery in Moscow)'
     units: '?'
 - cite:
-    id: cal.1967-02-13.vietnam
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 769 (on Feb. 13 "Wilson and Ambassador David Bruce urged Washington to continue the brief bombing pause over Tet"; Kosygin''s assurance to Wilson in London in the second week of February that unconditional cessation of the bombing would bring negotiations; not the meeting or its hours)'
+    id: cal.1967-02-06.vietnam
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 769 (Kosygin''s assurance to Wilson in London "in the second week of February" that unconditional cessation of the bombing would bring negotiations; on Feb. 13 Wilson and Ambassador David Bruce urge Washington to continue the brief bombing pause over Tet; not the Phase A–Phase B formula or the truce''s days)'
     units: '?'
 - cite:
     id: cal.1967-02-13.vietnam-sunflower
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 769 ("On February 14 Johnson ordered the resumption of the bombing"; Wilson: "Peace was almost within our grasp"; the book''s day is the 14th; not the hour or the statement)'
-    units: '?'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 769 ("On February 14 Johnson ordered the resumption of the bombing"; Wilson: "Peace was almost within our grasp"; the book''s day is the 14th, Saigon''s; not the hour or the statement)'
+    units: A
 - cite:
     id: cal.1967-03-02.soviet-union
     item: '[[w.schlesinger-robert-kennedy-and-his]], 771–72 (among Johnson''s moves that day, "determined to deny Kennedy the headlines," by vanden Heuvel and Gwirtzman''s computation (n.65): "an unscheduled news conference to announce that Russian Premier Kosygin had agreed to talk on reducing the stockpile of nuclear weapons"; not the letters, Thompson or the Moscow talks)'
+    units: '?'
+- cite:
+    id: cal.1967-03-01.vietnam-congress-2
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 772 (among Johnson''s moves of Mar. 2, by vanden Heuvel and Gwirtzman''s computation (n.65): he "had Senator Henry Jackson of Washington read on the floor of the Senate a predated letter from him, explaining why the bombing was necessary"; not its words, McGee or the hour)'
     units: '?'
 - add:
     entry:
@@ -258,13 +318,14 @@ ops:
       date: '1967-03-02'
       thread: transition-and-staff
       c: Johnson confirms the rumor that his daughter Luci is pregnant.
-      n: '[[w.schlesinger-robert-kennedy-and-his]], 772 (among the moves of Johnson''s day, "determined to deny Kennedy the headlines," by vanden Heuvel and Gwirtzman''s computation, n.65; not the occasion or the words). Check: the occasion. To check: vanden Heuvel and Gwirtzman, *On His Own*, 254 (cited by [[w.schlesinger-robert-kennedy-and-his]], 772 n.65). Names: Johnson.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 772 (among the moves of Johnson''s day, "determined to deny Kennedy the headlines," by vanden Heuvel and Gwirtzman''s computation, n.65; not the occasion or the words). Check: the occasion. To check: vanden Heuvel and Gwirtzman, *On His Own*, 254 (cited by [[w.schlesinger-robert-kennedy-and-his]], 772 n.65). Names: Johnson, Luci Baines Johnson Nugent.'
       tags:
       - name:johnson-lyndon-b
+      - name:nugent-luci-baines-johnson
 - cite:
     id: cal.1967-06-03.democratic-party
     item: '[[w.schlesinger-robert-kennedy-and-his]], 776 (returning in June from the London funeral of Cissy Harlech, Kennedy "introduced Johnson at a Democratic dinner in New York," Sorensen having handed him a paragraph on the way from the airport to the Americana; he speaks of the "height" of Johnson''s aim, "the breadth of his achievements, the record of his past, the promises of his future . . . In 1964 he won the greatest popular victory in modern times, and with our help he will do so again in 1968" (n.82: Kennedy''s remarks at the Democratic State Committee dinner, June 3, 1967); other words than D, not Johnson''s speech or the order of the two)'
-    units: '?'
+    units: A
 - add:
     entry:
       id: cal.1967-06-04.robert-kennedy
@@ -272,13 +333,28 @@ ops:
       date: '1967-06-04'
       thread: robert-kennedy
       c: 'Peter Maas to Robert Kennedy, of the introduction of Johnson at the Democratic dinner: "How could you say all those things?" Kennedy, icily: if he had not, Johnson would have the opportunity to blame everything that was going wrong, "Vietnam, the cities, the race question," "on that son of a bitch Bobby Kennedy."'
-      n: '[[w.schlesinger-robert-kennedy-and-his]], 776 ("the next day" after the dinner; n.83: Peter Maas, interview by Jean Stein, Sept. 15, 1969, 14, Stein Papers). Check: the day, from the dinner of June 3. To check: Maas''s interview (cited by [[w.schlesinger-robert-kennedy-and-his]], 776 n.83). See [[cal.1967-06-03.democratic-party]]. Names: Robert Kennedy, Johnson.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 776 ("the next day" after the dinner; n.83: Peter Maas, interview by Jean Stein, Sept. 15, 1969, 14, Stein Papers). To check: Maas''s interview (cited by [[w.schlesinger-robert-kennedy-and-his]], 776 n.83). See [[cal.1967-06-03.democratic-party]]. Names: Robert Kennedy, Johnson.'
       tags:
       - name:kennedy-robert-f
       - name:johnson-lyndon-b
 - cite:
     id: cal.1967-07-24.civil-disorders-detroit
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 797 (Hoover to Johnson "on the evening of July 24": "They have lost all control in Detroit. . . . Harlem may break loose within thirty minutes. They plan to tear it to pieces"; Romney calls in the National Guard; "Later that night" Johnson sends tanks and paratroopers into Detroit and explains it on television, a "legalistic" statement to McPherson; not the hours, Vance or the order)'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 797 ("Later that night," after Hoover''s report of the evening of July 24, Johnson "sent tanks and paratroopers into Detroit" and explained his decision over nationwide television "in a cold statement" (n.94: *The Vantage Point*, 167–72); not the hours, Romney''s request, Vance, the order or the words)'
+    units: '?'
+- add:
+    entry:
+      id: cal.1967-07-24.civil-disorders-detroit-3
+      when: July 24
+      date: '1967-07-24'
+      thread: civil-disorders-detroit
+      c: 'Evening. Hoover to Johnson: "They have lost all control in Detroit. Harlem may break loose within thirty minutes. They plan to tear it to pieces."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 797. To check: [[w.johnson-vantage-point]], 167–72 (cited by [[w.schlesinger-robert-kennedy-and-his]], 797 n.94). See [[cal.1967-07-24.civil-disorders-detroit]]. Names: Hoover, Johnson.'
+      tags:
+      - name:hoover-j-edgar
+      - name:johnson-lyndon-b
+- cite:
+    id: cal.1967-08-01.civil-disorders
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 797 (McPherson thought the President''s presentation "legalistic"; no point in criticizing everyone else, "especially Congress," "unless and until we are willing to go before them in joint session and state the case for America''s cities" (n.95: McPherson, *A Political Education*, 359–61); not the day, Christian, the rat bill or Newark)'
     units: '?'
 - cite:
     id: cal.1967-08-25.vietnam-air-war
@@ -294,8 +370,14 @@ ops:
     units: '?'
 - cite:
     id: cal.1968-02-29.civil-disorders
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 846 ("At the end of February 1968 the Kerner Commission submitted a powerful report": a nation "moving toward two societies, one black, one white — separate but unequal"; "The White House," Moynihan wrote, "would not receive it"; Kennedy, "skeptical when the commission was established, was impressed by its report")'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 846 ("At the end of February 1968 the Kerner Commission submitted a powerful report": a nation "moving toward two societies, one black, one white — separate but unequal"; "The White House," Moynihan wrote, "would not receive it"; Kennedy, "skeptical when the commission was established, was impressed by its report"; not the day, the members or the proposals)'
     units: '?'
+- variant:
+    id: cal.1968-02-29.civil-disorders
+    unit: A
+    witness: w.schlesinger-robert-kennedy-and-his
+    reads: 'a nation "moving toward two societies, one black, one white — separate but unequal"'
+    at: '846'
 - cite:
     id: cal.1968-04-09.king
     item: '[[w.schlesinger-robert-kennedy-and-his]], 877–78 ("On April 7 Martin Luther King was buried in Atlanta": the Ebenezer Baptist Church crowded with dignitaries, "Humphrey, Nixon, Rockefeller, McCarthy — all were there, all save the President himself"; a "straggling march, five miles under the fierce sun, from the church to Morehouse College," Kennedy in shirtsleeves, cheered; not the farm wagon and mules, Humphrey for the President or the other Republicans)'
@@ -303,15 +385,53 @@ ops:
 - check:
     id: cal.1968-04-09.king
     text: 'Check: Schlesinger, 877, has King buried on April 7; the entry has Apr. 9.'
+- add:
+    entry:
+      id: cal.1968-04-09.robert-kennedy-campaign-2
+      when: Apr. 9
+      date: '1968-04-09'
+      thread: robert-kennedy-campaign
+      c: 'Atlanta, the march from Ebenezer to Morehouse after King''s funeral. Roy Jenkins asks Robert Kennedy where Johnson is. Kennedy, "without bravado": lack of physical courage kept him away.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 878 (Jenkins''s account). Check: the day; Schlesinger puts the funeral Apr. 7. To check: Roy Jenkins, *Nine Men of Power* (London, 1974), 208 (cited by [[w.schlesinger-robert-kennedy-and-his]], 878 n.8). See [[cal.1968-04-09.king]]. Names: Jenkins, Robert Kennedy, Johnson, King.'
+      tags:
+      - name:jenkins-roy-h
+      - name:kennedy-robert-f
+      - name:johnson-lyndon-b
+      - name:king-martin-luther-jr
+- add:
+    entry:
+      id: cal.1968-04-09.robert-kennedy-campaign-3
+      when: Apr. 9
+      date: '1968-04-09'
+      thread: robert-kennedy-campaign
+      c: 'Atlanta, the march after King''s funeral, few white faces in the crowds. Breslin: "You''d think even a few of them would come out and just look." Robert Kennedy: "Oh, I don''t think this will mean anything." To Charles Evers, beside him: "Do you think this will change anything?" Evers: "Nothing. Didn''t mean nothing when my brother was killed." Kennedy: "I know."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 878 (Breslin''s account). Check: the day; Schlesinger puts the funeral Apr. 7. To check: Jimmy Breslin, "Back to Earth," *New York Post*, Dec. 27, 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 878 n.9). See [[cal.1968-04-09.king]]. Names: Robert Kennedy, Charles Evers, King.'
+      tags:
+      - name:kennedy-robert-f
+      - name:evers-charles
+      - name:king-martin-luther-jr
 - cite:
     id: cal.1968-04-27.elections-1968
     item: '[[w.schlesinger-robert-kennedy-and-his]], 883 ("Humphrey had announced his candidacy on April 27 — too late to qualify for Indiana but in time for the District of Columbia"; he had spent the month after Johnson''s withdrawal assembling his troops; not the Shoreham, the co-chairmen or the words)'
     units: '?'
 - cite:
     id: cal.1968-05-14.elections-1968
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 889 ("On May 14 he won the Nebraska primary with 51.5 percent of the vote," McCarthy "31 percent"; Kennedy: "a smashing repudiation" of the Johnson-Humphrey administration; not West Virginia or the Republican side)'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 889 ("On May 14 he won the Nebraska primary with 51.5 percent of the vote," McCarthy "31 percent"; not West Virginia or the Republican side)'
     units: D
+- add:
+    entry:
+      id: cal.1968-05-14.robert-kennedy-campaign-2
+      when: May 14
+      date: '1968-05-14'
+      thread: robert-kennedy-campaign
+      c: 'Robert Kennedy on Nebraska, he and McCarthy over 80 percent: a smashing repudiation of the Johnson-Humphrey administration. "The people want to move in a different direction. We can''t have the politics of happiness and joy when we have so many problems in our own country."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 889. Check: the day and the occasion. To check: [[w.witcover-85-days]], 198 (cited by [[w.schlesinger-robert-kennedy-and-his]], 889 n.67). See [[cal.1968-05-14.elections-1968]]. Names: Robert Kennedy, McCarthy, Johnson, Humphrey.'
+      tags:
+      - name:kennedy-robert-f
+      - name:mccarthy-eugene-j
+      - name:johnson-lyndon-b
+      - name:humphrey-hubert-h
 - cite:
     id: cal.1968-06-08.robert-kennedy
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 915 (Friday before dawn, lines form at St. Patrick''s Cathedral; Saturday morning "the mass at St. Patrick''s, with Edward Kennedy''s moving speech and the singing of ''The Battle Hymn of the Republic''"; "Then the train made its long journey south under the savage sun," O''Donnell: "What marvelous crowds!"; "The train arrived in Washington. Night had fallen"; not Johnson or the burial (916))'
-    units: C
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 915–16 (Friday before dawn, lines form at St. Patrick''s Cathedral; Saturday morning "the mass at St. Patrick''s, with Edward Kennedy''s moving speech and the singing of ''The Battle Hymn of the Republic''"; "Then the train made its long journey south under the savage sun," O''Donnell: "What marvelous crowds!"; "The train arrived in Washington. Night had fallen," mourners with candles following the coffin into Arlington, the cemetery dark (916); not "for the family," the grave''s place or Johnson)'
+    units: A, C

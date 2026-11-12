@@ -49,6 +49,18 @@ The Miller Center's recordings (Feb. 7, Feb. 8, June 22) are named by their cata
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`; the copy: the owner's Drive scan, 312 PDF pages with text layer, printed page = PDF page − 18, read on the page image at 48).** Rows ruled:
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 28, 36 | already cited | `cal.1960-11-08.elections-1960` (28, 36–37); Nixon's remark to Eisenhower undated, a lead |
+| 42 | already cited | `cal.1963-09-24.program-2` |
+| 45–48 | already cited; entered | `cal.1963-11-21.assassination` (44–45), `-11-22.assassination` (46), `.succession` (47–48), `.right-and-the-military` (45–46), `.succession-17` (48); entered `cal.1963-12.robert-kennedy-5` (Evans's lunch with Robert Kennedy, 48; early Dec., no day) and `cal.1963-11-25.succession-3` (Schlesinger's journal, 48) |
+| 121 | already cited | `cal.1964-07-02.civil-rights-bill` (121), `cal.1964-06-22.civil-rights-bill` (120–21) |
+| 134 | already cited | `cal.1964-08-25.mississippi` (Hamer, "no two seats"); `cal.1964-08-24.democratic-party` not borne out (her other words) |
+
+Where batch 9 stopped: all six rows done.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are before the brief's span).

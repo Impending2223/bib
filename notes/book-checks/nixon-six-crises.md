@@ -71,6 +71,20 @@ None: no pending patch touched these days when the patch was written.
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`; the copy: the owner's Drive scan, printed page = PDF page − 22, read on the page image at 383 and 386).** Rows ruled:
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 311 | already cited | `cal.1960-05-19.democratic-party` (Stevenson), `cal.1960-05-23.elections-1960-2` (Kennedy's explanation; the Check on Portland, May 19, stands) |
+| 316–17 | cited; variant | `cal.1960-07-26.elections-1960`: 316 (Eisenhower, unit A); 316–18 ('?': Hatfield's nomination, Goldwater's speech); variant on E, "by acclamation" against 1,321 to 10 |
+| 318 | already cited | `cal.1960-07-28.elections-1960` (318–20); `cal.1960-07-27.conservative-movement` not borne out (Youth for Goldwater not on the page) |
+| 371 | cited | `cal.1960-11-06.elections-1960`, '?' (the half-hour telecast taped that afternoon; not the proposal) |
+| 379–92 | cited; entered | cites on `cal.1960-11-08.elections-1960-count-2` (381–82), `-count-3` (385); already cited at 384–90, 391, `cal.1960-11-09.elections-1960`, `-6`; entered `cal.1960-11-08.elections-1960-count-4` (Hall, 380), `-5` (Stevenson, 383), `-6` (Goldwater on CBS, 383), `-7` (Nixon and Pat, 386) |
+
+Not entered (leads): the newspapers' declarations for Kennedy, 383 (Herald Tribune 9:45, Sun-Times ten, Times 10:15, Pacific); the commentators on the 12:20 statement, 390–91; Tricia and Julie, 386, 392 (family, nothing of public business, though Julie's question of religion is the campaign's).
+
+Where batch 9 stopped: all five rows done.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-nixon-six-crises; done Nov. 10, 2026). The rows ruled family, social, private, personal, an office's routine or a lead for the folio were read again off the owner's copy (the same Drive file and offset, printed = PDF − 22; p. 415 checked on the page image). Patch `inbox/2026-11-06-b6-nixon-six-crises.yaml`: 7 entries, 1 edit (Sept. 26, 1960), 3 cites (two on entries other batch-6 readers have claimed, cal.1960-11-10.elections-1960-nixon and cal.1961-01-20.transition-and-staff-2, which wait in the deferred ops until they land). No witnesses: the pages cited name none but Nixon's own recollection. The rows ruled repetitions, "no act", already in or out of the span stand.
 
 Made from the whole chapter, page by page, against the calendar's entries for 1960–62 (`./bib find -l cal --since 1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered. Revised Oct. 29, 2026, under the owner's ruling of Oct. 28 (late), and again Nov. 3–4, 2026, under the reader's brief (R5, R13, R15, R18): the rows now entered are in "Entered" below; the front matter and the passages outside the campaign chapter, read this time, add their rows.

@@ -424,13 +424,14 @@ entries:
     follows:
       - cal.1965-03-02.medicare
     c: 'Cohen to Johnson, by memorandum, on Mills''s combined bill: "The effect of this ingenious plan is, as Mr. Mills told me, to make it almost certain that nobody will vote against the bill when it comes on the floor of the House"; a package "unassailable politically from any serious Republican attack."'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 195; [[w.bernstein-guns-or-butter]], 171–72 (developments of "major significance"; "unassailable politically"). Check: Bernstein, 172, has Cohen bring the written report to the Oval Office on Mar. 3. On Mills''s plan of the afternoon: [[cal.1965-03-02.medicare]]. To check: Cohen to Johnson, Mar. 2, 1965, WHCF, Legislation, box 75, LBJ Library (cited by [[w.zelizer-fierce-urgency-of-now]], 195 n.64). See [[cal.1965-03-02.medicare]]. Names: Cohen, Johnson, Mills.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 195; [[w.bernstein-guns-or-butter]], 171–72 (developments of "major significance"; "unassailable politically"); [[w.dallek-flawed-giant]], 208 (as Cohen told Johnson, Mills "almost certain that nobody will vote against the bill when it comes on the floor of the House"; Mills thought it "unassailable politically from any serious Republican attack"; not the day or the memorandum). Check: Bernstein, 172, has Cohen bring the written report to the Oval Office on Mar. 3. On Mills''s plan of the afternoon: [[cal.1965-03-02.medicare]]. To check: Cohen to Johnson, Mar. 2, 1965, WHCF, Legislation, box 75, LBJ Library (cited by [[w.zelizer-fierce-urgency-of-now]], 195 n.64). See [[cal.1965-03-02.medicare]]. Names: Cohen, Johnson, Mills.'
     src:
       c: 0fc49ba9
       rows:
         - 'w.zelizer-fierce-urgency-of-now 195: all'
         - 'via w.zelizer-fierce-urgency-of-now 195 n.64: all'
         - 'w.bernstein-guns-or-butter 171–72: B'
+        - 'w.dallek-flawed-giant 208: ?'
     tags: [name:cohen-wilbur-j, name:johnson-lyndon-b, name:mills-wilbur-d]
     time_range:
       - 1965-03-02T14:00Z
@@ -628,12 +629,13 @@ entries:
     date: '1965-03-03'
     thread: medicare
     c: 'The Oval Office, the afternoon. Cohen with his written report: the Mills strategy "unassailable politically," but $400 to $500 million from the Treasury for the doctors'' bills. Johnson, by Cohen''s account: "I''m going to run and get my brother"; the $500 million given.'
-    n: '[[w.bernstein-guns-or-butter]], 172. To check: Cohen to Johnson, Mar. 2, 1965, EX LE/IS File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 172 n.4). See [[cal.1965-03-02.medicare-2]]. Names: Cohen, Johnson.'
+    n: '[[w.bernstein-guns-or-butter]], 172; [[w.dallek-flawed-giant]], 208 (Cohen: Part B about $500 million a year; Johnson: "Five hundred million. Is that all? ... Do it. Move that damn bill out now, before we lose it"; not the day, the room or the brother). To check: Cohen to Johnson, Mar. 2, 1965, EX LE/IS File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 172 n.4). See [[cal.1965-03-02.medicare-2]]. Names: Cohen, Johnson.'
     src:
       c: 64ca4174
       rows:
         - 'w.bernstein-guns-or-butter 172: all'
         - 'via x.1965-03-02.cohen-to-johnson-march-2-1965: A'
+        - 'w.dallek-flawed-giant 208: D'
     tags: [name:cohen-wilbur-j, name:johnson-lyndon-b]
     time_range:
       - 1965-03-03T17:00Z
@@ -5325,12 +5327,13 @@ entries:
     date: '1965-03-26'
     thread: medicare
     c: 'Johnson, before the cameras with the congressional leaders, thanks them for Medicare''s progress and asks Byrd: "So when the House acts and it is referred to the Senate Finance Committee, you will arrange for prompt hearings and thorough hearings?" Byrd agrees.'
-    n: '[[w.branch-at-canaans-edge]], 179; [[w.bernstein-guns-or-butter]], 173 (Byrd: "Nothing"; Albert: "the best example of ''The Treatment'' in public"). See [[cal.1965-03-23.medicare-2]]. Names: Johnson, Harry F. Byrd.'
+    n: '[[w.branch-at-canaans-edge]], 179; [[w.bernstein-guns-or-butter]], 173 (Byrd: "Nothing"; Albert: "the best example of ''The Treatment'' in public"); [[w.dallek-flawed-giant]], 208–09 (the leaders at the White House before television cameras to review the bill; Johnson presses Byrd: "So, when the House acts and it is referred to the Senate Finance Committee, you will arrange for prompt hearings and thorough hearings?" "Yes," Byrd said; not the thanks; the day, "In January," for which see Variant). See [[cal.1965-03-23.medicare-2]]. Names: Johnson, Harry F. Byrd.'
     src:
       c: 1e804598
       rows:
         - 'w.branch-at-canaans-edge 179: all'
         - 'w.bernstein-guns-or-butter 173: A-B'
+        - 'w.dallek-flawed-giant 208–09: B'
     tags: [name:johnson-lyndon-b, name:byrd-harry-f]
     time_range:
       - 1965-03-26T14:00Z
@@ -5338,6 +5341,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.dallek-flawed-giant
+        reads: In January, after Medicare had been introduced in the House, Johnson had invited House and Senate leaders to the White House for "an extremely important, very sensitive meeting."
+        at: '208'
   - id: cal.1965-03-26.press-and-broadcasting
     when: Mar. 26
     date: '1965-03-26'

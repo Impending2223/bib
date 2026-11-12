@@ -50,6 +50,16 @@ Entries mapped: 37; records logged: 34 (found and read 16, found and not read or
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; patch `inbox/2026-11-12-b9-group-4.yaml (b9-group-4)`; the copy: DTIC_ADA551509 on archive.org, 380 PDF pages with text layer; printed page = PDF page − 11 at pp. 108 and 135, − 10 from about p. 145 on, read by the folio at the foot of each page and on the page image at 147).** Rows ruled:
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 108 | cited | `cal.1960-03-17.cuba`, '?' (108: the CIA's "paramilitary" plan approved Mar. 17; not the title, the 5412 Committee or those present) |
+| 135 | already cited | `cal.1962-05-12.laos` (135, '?': McNamara and Lemnitzer brief the NSC May 12); entered `cal.1962-05-08.laos` (their trip to Bangkok and the Mekong, May 8–11 by the title of the JCS file, 135 n.49) |
+| 147–48 | already cited; cited; entered | `cal.1961-07-29.berlin-and-vienna-3`, `-4`, `cal.1961-08-10.berlin-and-vienna-2` (147–48); cite on `cal.1961-07-12.berlin-and-vienna` (145–46, '?'; Check: JCSM-461-61 against Kaplan's JCSM-476-61); entered `cal.1961-07-14.berlin-and-vienna-4` (Kennedy's request for an evaluation, 146), `cal.1961-07-18.berlin-and-vienna-2` (the JCS answer, JCSM-486-61, 146), `-3` (Kennedy with the JCS, 147); the "July 18 sequence" lead is settled: dated July 18 on 146 |
+
+Where batch 9 stopped: all three rows done.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, Nov. 10, 2026): the rows ruled "minor" (papers of government, R8; military matters, R14). Read again from archive.org's DTIC_ADA551509, its OCR text, and the page images of pp. 147, 148, 163, 164 and 180 (leaf = printed page + 9 there). Ten were entered by other runs since and carry Poole's cite; six new entries in `inbox/2026-11-06-b6-poole-joint-chiefs-of-staff.yaml`, witnesses `inbox/witnesses/2026-11-06-b6-poole-joint-chiefs-of-staff.yaml` (4; the ExComm's recording already registered), edges in the by-work file. The leads are left as they were.
 
 Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
