@@ -222,3 +222,122 @@ At the end of 1966 (printed p. 254, the entry of Nov. 16); nothing lies unread i
 ### Audit (Nov. 12, 2026)
 
 Read blind, PDF 253–272 whole (pp. 247, 253, 254 against the image), then every op. Of 25 ops, 11 wrong. Adds, 8 of 13: three dropped as already in (Andrews, July 15, 1965: `cal.1965-07-15.transition-and-staff`; watching Humphrey: `cal.1966-02-27.vietnam`; the Gridiron dinner: `cal.1966-03-12.press-and-broadcasting`; each now a cite there), two dropped as social with no public business on the page (the Lasker–Fortas dance; Harriman's birthday), one with Robert Kennedy missing from `c`, names and tags (Feb. 27, the questions before *Face the Nation*), one without `polity:drv` though `c` names North Vietnam (Aug. 13), one with the luncheon's page, 236, left out (Jan. 19, Kennedy). Cites, 3 of 11: the inaugural's unit A borne but mapped `?`; Goodwin "with" Kennedy at the Dillons' (he came a few moments before); `cal.1966-10.assassination` cited without noting that it is `cal.1966-10-30.robert-kennedy` over again (a Check added). The variant stands: the words and the speaker differ. Added by the audit: `cal.1966-08.korea` and cites on `cal.1965-07-15.transition-and-staff`, `cal.1965-04-07.vietnam`, `cal.1966-01-31.vietnam`, `cal.1966-02-19.vietnam` and `cal.1966-02-22.vietnam-2`. Also: Harriman's State Department remark added to his July 22 entry (from the leads). Dropped ids are kept in the ledger as "(not used: ...)".
+
+## 1967 – Jan. 20, 1969 (batch 11, share 3: PDF 275–323, printed pp. 257–306)
+
+Read the night of Nov. 11–12, 2026 from the same Drive copy (`1fK_aCoVdR9Tvlx7utpuQitRPaEBrS9Ke`); printed page = PDF page less 18 (checked on PDF 295, p. 277, and PDF 283, p. 265, and PDF 301, p. 283, against the page images; quotations checked on those images). The chapter openings and blank pages (PDF 273–74, 289–90, 321–22) carry no text. No January–March 1967 entries exist; the first is Jan. 4, 1967 (PDF 275). The last entry in the span is Jan. 14, 1969 (PDF 323, p. 305), continued on PDF 324 (p. 306); PDF 324–326 (Jan. 22 to June 17, 1969) glanced at, outside the span.
+
+Share: the entries of Jan. 1967 through Jan. 20, 1969, read in full. All changes are in `inbox/2026-11-12-b11-sjournals-3.yaml` (patch `2026-11-12-b11-sjournals-3`): 42 new entries, 18 citations, 3 variants, 1 Check. The calendar already held most of the great events of 1968 (Kennedy's decision, the announcement, the funeral); the Journals' own days and tellings were added around them. Ids claimed in the ledger and not used: `cal.1968-06-06.robert-kennedy-campaign-3` (the plane at Butler Aviation, found to be `cal.1968-06-06.robert-kennedy-2`: cited there).
+
+The journal's day: where an entry's heading is the day of writing, the events are those of the days before (Apr. 18, 1967: the dinner of Apr. 17; Jan. 10, 1968: Tuesday, Jan. 9; Nov. 7, 1967: the weekend of Nov. 4–5). Where the editors bracket a weekday ("[Tuesday]", "[the next day]"), the entry says so in a Check.
+
+### Entered (new entries)
+
+| id | day | what |
+|---|---|---|
+| `cal.1967-04-25.republican-party` | Apr. 25 | A *Newsweek* party. Rockefeller to Grace Kennan McClatchy, whom Schlesinger introduces as George Kennan's daug... |
+| `cal.1967-05-03.defense` | May 3 | Syracuse airport, late afternoon, by telephone. McNamara, who has come out of a meeting to take Schlesinger's ... |
+| `cal.1967-05-07.students` | May 7 | Cambridge, Dana Street. Schlesinger with Students for a Democratic Society leaders, a meeting arranged by Chri... |
+| `cal.1967-09-23.democratic-party` | Sept. 23–24 | Washington, the national board of Americans for Democratic Action, "on the verge of a split" between the pro-J... |
+| `cal.1967-10-17.democratic-party-2` | Oct. 17 | McGovern to Schlesinger, by telephone: McCarthy has "about decided to go," to enter the New Hampshire, Wiscons... |
+| `cal.1967-11-04.robert-kennedy-campaign` | Nov. 4–5 | Hickory Hill, Saturday night and the next morning. Robert Kennedy to Schlesinger, who had written him of a cha... |
+| `cal.1967-11-26.democratic-party` | Nov. 26 | P. J. Clarke's, Sunday night, the evening of Goodwin's return from England and Morocco. Goodwin to Schlesinger... |
+| `cal.1967-11-29.robert-kennedy-campaign` | Nov. 29 | New York, the King Cole Bar, 11 p.m. Robert Kennedy on McCarthy, who had come to see him "the other day" and s... |
+| `cal.1967-12-01.republican-party` | Dec. 1 | The Century, lunch, Kissinger and Lippmann with Schlesinger, the talk implicitly on Rockefeller. Kissinger: he... |
+| `cal.1968-01-09.robert-kennedy-campaign-decision` | Jan. 9 | New York, Orsini's, late Tuesday night. Robert Kennedy to Schlesinger, joining him after dinner with Roger Ste... |
+| `cal.1968-01-19.robert-kennedy-campaign-decision` | Jan. 19 | Schlesinger, at St. Paul's School, telephones McGovern about Robert Kennedy's running. McGovern, whom Kennedy ... |
+| `cal.1968-01-25.robert-kennedy-campaign-decision-2` | Jan. 25 | Patrick Lucey of Wisconsin with Robert Kennedy, in the afternoon: Lucey advises him against running. By Kenned... |
+| `cal.1968-02-16.defense-clifford` | Feb. 16–17 | Hickory Hill, a party before Ethel Kennedy's telethon. McNamara, "gray and desperately tired," to Schlesinger:... |
+| `cal.1968-03-12.elections-1968-johnson` | Mar. 12 | Dinner at Ham Armstrong's. Moyers to Schlesinger: Johnson now "well sealed off from reality," the White House ... |
+| `cal.1968-03-13.robert-kennedy-campaign-decision-2` | Mar. 13 | New York, Stephen Smith's apartment, evening, after the meeting of the afternoon. Kenneth O'Donnell to Schlesi... |
+| `cal.1968-03-13.robert-kennedy-campaign-decision-3` | Mar. 13 | Robert Kennedy to Schlesinger, after the evening at Stephen Smith's: "Are you happy about this?"; and "But you... |
+| `cal.1968-03-14.robert-kennedy-campaign-decision` | Mar. 14 | Robert Kennedy sees McCarthy. Friendly, "did not go very far": Kennedy congratulates him and says he is reasse... |
+| `cal.1968-03-16.robert-kennedy-campaign-decision` | Mar. 16 | Hickory Hill, early morning, after Edward Kennedy's report on his talk with McCarthy. Robert Kennedy, in pajam... |
+| `cal.1968-03-17.elections-1968-mccarthy` | Mar. 17 | A McCarthy fund-raising breakfast, Sunday morning. Schlesinger, who had agreed to speak a fortnight before: no... |
+| `cal.1968-03-17.elections-1968-mccarthy-2` | Mar. 17 | McCarthy, in an item in the Chicago *Sun-Times* read to Schlesinger by telephone that day by Richard Wade, att... |
+| `cal.1968-03-19.robert-kennedy-campaign` | Mar. 19 | Robert Kennedy telephones Schlesinger from Hickory Hill, about nine, for half an hour, Ethel placing the call:... |
+| `cal.1968-04-02.robert-kennedy-campaign-3` | Apr. 2 | Dinner at Diana Vreeland's, Schlesinger, Jacqueline Kennedy and Paul Mathias of *Paris-Match*, watching the Wi... |
+| `cal.1968-04-03.robert-kennedy-campaign-2` | Apr. 3 | Ethel Kennedy telephones Schlesinger about seven in the evening and puts Robert Kennedy on. His meeting with J... |
+| `cal.1968-04-03.elections-1968-johnson` | Apr. 3 | Johnson with David Karr, an hour: "terrifying," by Karr's account to Schlesinger the next day. Johnson, full o... |
+| `cal.1968-05-03.students` | May 3 | The Theater of Ideas: Schlesinger in debate with Norman Mailer and Herbert Marcuse. The most ardent minority o... |
+| `cal.1968-05-25.elections-1968-mccarthy` | May 25 | Washington, the Americans for Democratic Action's convention, the Saturday banquet. McCarthy, coming in at the... |
+| `cal.1968-05-27.elections-1968-mccarthy` | May 27 | McCarthy, in Oregon, attacks Schlesinger on the ground that he "defected" from his campaign; Schlesinger: he w... |
+| `cal.1968-06-08.robert-kennedy-campaign` | June 8 | Pennsylvania Station, waiting to board the funeral train. Walter Reuther to Schlesinger, on the poor and the n... |
+| `cal.1968-06-08.robert-kennedy-campaign-2` | June 8 | The funeral train, New York to Washington. Schlesinger to Kenneth O'Donnell, of the crowds along the tracks: "... |
+| `cal.1968-07-08.democratic-party` | July 8 | Hyannis Port, before dinner, a drink with Jacqueline Kennedy. Asked about Edward Kennedy's return to politics,... |
+| `cal.1968-07-09.robert-kennedy` | July 9 | Hyannis Port, Tuesday morning. Ethel Kennedy asks Schlesinger whether he will write Robert Kennedy's biography... |
+| `cal.1968-07-16.elections-1968-humphrey` | July 16 | Humphrey to Schlesinger, a letter of two and a half pages, single-spaced, "extremely egotistical, ungenerous, ... |
+| `cal.1968-07-17.elections-1968-6` | July 17 | The Century, lunch, Kissinger with Schlesinger and Stephen Schlesinger. Kissinger on his first meeting with Jo... |
+| `cal.1968-08-08.elections-1968-5` | Aug. 8 | McGovern, by telephone from South Dakota, late in the evening, to Schlesinger, back in New York: he will annou... |
+| `cal.1968-08-24.elections-1968-chicago-8` | Aug. 24 | Chicago. Schlesinger, with Richard Wade, to see McGovern, "placid, modest and agreeable": he thinks he has 130... |
+| `cal.1968-08-25.elections-1968-chicago-kennedy` | Aug. 25 | Chicago, Sunday afternoon. California delegates to Schlesinger: Edward Kennedy could get the nomination only i... |
+| `cal.1968-08-26.elections-1968-chicago-kennedy` | Aug. 26 | Chicago, after dinner, by telephone. Edward Kennedy to Schlesinger: "I have a gut feeling that this is not the... |
+| `cal.1968-10-14.elections-1968-humphrey` | Oct. 14 | David Ginsburg telephones Schlesinger, in the morning: Humphrey had asked him the night before whether Schlesi... |
+| `cal.1968-10-14.elections-1968-humphrey-2` | Oct. 14 | Humphrey telephones Schlesinger, ninety minutes after Ginsburg's call: the tide of reaction, the need to rally... |
+| `cal.1968-12.transition-and-staff-3` | Dec. | Princeton, a few words between Schlesinger and Kissinger. Asked whether Nixon is turning out as he expected, K... |
+| `cal.1969-01-14.press-and-broadcasting` | Jan. 14 | A National Education Television commentary on Johnson's last State of the Union message, that night: Moyers, V... |
+| `cal.1969-01-14.transition-and-staff-2` | Jan. 14 | The Algonquin, a drink after the panel. Moyers to Schlesinger on writing about Johnson: no one would believe i... |
+
+### Cited under an existing entry (page, units as mapped)
+
+| id | pages | units |
+|---|---|---|
+| `cal.1967-04-18.democratic-party` | 258–59 | ? |
+| `cal.1967-09-23.robert-kennedy` | 263 | B |
+| `cal.1967-11-29.robert-kennedy-2` | 264–65 | B, C, D, F |
+| `cal.1967-12-10.robert-kennedy` | 268–70 | B, C, D, E, F, G |
+| `cal.1968-01-17.robert-kennedy` | 273–75 | C, D |
+| `cal.1968-01-25.robert-kennedy-campaign-decision` | 275–76 | B |
+| `cal.1968-02-16.elections-1968` | 277–79 | F |
+| `cal.1968-03-10.robert-kennedy-campaign` | 279 | A |
+| `cal.1968-03-12.robert-kennedy-campaign` | 280 | ? |
+| `cal.1968-03-13.elections-1968` | 280–81 | B |
+| `cal.1968-03-15.robert-kennedy-campaign-2` | 282–83 | E |
+| `cal.1968-03-16.robert-kennedy-campaign-2` | 284 | A |
+| `cal.1968-03-31.robert-kennedy` | 285 | ? |
+| `cal.1968-04-03.robert-kennedy` | 286 | ? |
+| `cal.1968-06-06.robert-kennedy-2` | 291, 293 | ? |
+| `cal.1968-06-08.robert-kennedy` | 294 | C |
+| `cal.1968-08-10.elections-1968-2` | 296–97 | ? |
+| `cal.1968-08-27.elections-1968-chicago-18` | 297 | ? |
+
+Variants: `cal.1968-02-16.elections-1968` A (the street: the journal has 13 West 54th Street); `cal.1968-03-15.robert-kennedy-campaign-2` B (the hour of the serious talk, "around 10:30") and H (Kennedy's words at the breakfast table). Check: `cal.1967-04-18.democratic-party` (the dinner with Humphrey is Apr. 17, the journal's "last night").
+
+### Passed over, and leads
+
+| passage | ground |
+|---|---|
+| Jan. 4, 1967 (Lippmann's lunch, Nov. 18, 1966; Moyers's resignation call, Dec. 14, 1966) | before the span |
+| Apr. 27, 1967; Feb. 10, Apr. 5, Apr. 24, May 5, Sept. 25, Nov. 19, 1968 | reflections and judgments; no event dated on the page |
+| Dec. 7, 1967 (the text layer reads 1), dinner with Dietrich, Dickinson and Bacharach; Oct. 16, 1968, dinner at Mrs. Smith's, the news of the Onassis wedding | social and family matter, no bearing on public business (Q5) |
+| Mar. 15, 1968, the Projects Committee of the Twentieth Century Fund | no politics on the page (Q5) |
+| June 7–8, 1968, the family Mass and the Dillons' lunch (Jacqueline Kennedy's remark of the winter, "I told him the same thing") | family; the remark repeats that of Apr. 2 (R18) |
+| July 4–8, 1968, the Cape | family; the Hyannis Port visit is entered by its two exchanges (July 8, July 9) |
+| June 5, 1968, Wade's call from Chicago, Goodwin's call from the hospital, Mankiewicz's briefings | reaction to the shooting, no business said or done on the page |
+| Jan. 30, 1968 ("the decision has been made"; the three reasons) | Schlesinger's own reconstruction, not an event; the day of Kennedy's decision is not given. Lead: compare the Jan. 30–Feb. 1 entries |
+| Feb. 19, 1968, Kissinger's story of Johnson in the Cabinet Room ("hit them in the nuts"), Rusk and Rostow | undated; a lead |
+| Mar. 13, 1968, "Ken" (not further identified; probably Galbraith) calls with a plan: Kennedy in some States, McCarthy in others | the caller is not named; a lead |
+| Apr. 3, 1968, Moyers on the night of New Hampshire: Johnson "cannot stand confrontations with equals"; Hartke in Leningrad the summer before | undated; leads |
+| May 25, 1968 (arrival): Rauh and Loeb on the ADA's endorsement, "a friendly paragraph about Bobby" | the day (May 24 or 25) not given; a lead for the ADA convention |
+| June 4–5, 1968, the Adlai Stevenson Institute's conference on Vietnam in Chicago; Schlesinger's commencement address | the page gives "Tuesday, June 4" and "Monday afternoon" for the flight and no day for the sessions; the commencement's place is not given; leads |
+| July 17, 1968 (Ginsburg's calls about Humphrey's acceptance address) | undated; a lead |
+| Sept. 24–25, 1968, Halberstam and Silvers on Nixon at Gunther's and El Morocco | intellectuals' talk of the campaign, "the other night"; undated |
+| Jan. 22–30, 1969 (Johnson on the NET panel, Harriman on Rusk, Nixon at the Senate) | after Jan. 20, 1969 |
+
+### Rows not settled
+
+- The days of the Hickory Hill party (Feb. 16–17, 1968), the ADA board vote (Sept. 23–24, 1967), Edward Kennedy's call (Aug. 26, 1968), Humphrey's letter (July 16, 1968), Kissinger at Princeton (Dec. 1968), McCarthy's remarks on Schlesinger (Mar. 17 and May 27, 1968), the Moyers dinner (Mar. 12) and the McCarthy meeting (Mar. 14): each entered with a Check on the day.
+- `cal.1968-04-03.elections-1968-johnson` (Karr's hour with Johnson): the calendar's note on `cal.1968-04-03.elections-1968-7` already carries Karr's account from *Robert Kennedy and His Times*, 869; entered as its own event; the lead may fold it.
+- The patch-check warnings (one event?) for same-day, same-thread entries are for events the page distinguishes; resolve with `--take keep`.
+
+### Where batch 11 stopped (1967–69)
+
+The share was read to its end, Jan. 14, 1969 (printed p. 305, continued p. 306); the patch covers everything searched and written by about 4:15 a.m. Pacific, Nov. 12, 2026.
+
+### Audit (Nov. 12, 2026), the 1967–Jan. 1969 share
+
+Two Opus auditors, every op, the pages blind first. The reader's tables above stand as the reader wrote them; the audit changed them as follows.
+
+- 1967 (pp. 257–70): 8 of 14 ops wrong. Dropped as opinion with nothing done: Rockefeller on Svetlana Stalin, the SDS leaders, Kissinger and Lippmann at lunch (the page image reads Dec. 7, not Dec. 1), Goodwin on Johnson (Sunday, Dec. 3, not Nov. 26). The King Cole Bar talk is `cal.1967-11-29.robert-kennedy-2` (an edit of its `c`); McGovern's call a cite on `cal.1967-10-17.democratic-party`. Kept: McNamara's call (May 3, rewritten), the ADA board's vote (Sept. 23–24), Kennedy at Hickory Hill (Nov. 4–5). Added cites: `cal.1966-12-14.transition-and-staff` (Moyers, p. 257), `cal.1967-11.robert-kennedy` (C). Left: `cal.1967-09-25.democratic-party` wants "See [[cal.1967-09-23.democratic-party]]".
+- 1968–Jan. 1969 (pp. 273–306): 29 of 50 ops wrong (adds 25 of 33). Dropped as opinion, social or family (8): Moyers at Armstrong's, Jacqueline Kennedy at Vreeland's and on Edward Kennedy, Reuther at Penn Station, Ethel Kennedy on the biography, Kissinger's lunch story, Kissinger at Princeton, Moyers at the Algonquin. Folded into cites (5) and already in (2: the Kennedy–McCarthy meeting is `cal.1968-03-13.robert-kennedy`; Karr's telling is `cal.1968-04-03.elections-1968-7`). McNamara at Hickory Hill was the Feb. 2 call about *Meet the Press*: `cal.1968-02-02.press-and-broadcasting`. The breakfast-words variant (Mar. 15) dropped: the same sense. Added: `cal.1969-01.press-and-broadcasting` (Johnson's "traitors", by Christian) and eight cites.
+- Left for later: `cal.1968-02-16.elections-1968` still carries the *Journals*, 278, behind "To check" (read now); Rauh and Loeb on the ADA endorsement (May 24–25, p. 289), maybe an entry; the May 30 Central Valley train (p. 295) to be cited on Witcover's entry when it merges.

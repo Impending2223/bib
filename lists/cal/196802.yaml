@@ -280,6 +280,13 @@ entries:
         - 'w.berman-lyndon-johnsons-war 142: all'
         - 'via x.1968-02-02.notes-of-the-presidents-discussion-with-correspondents: A'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-02-02.press-and-broadcasting
+    when: Feb. 2
+    date: '1968-02-02'
+    thread: press-and-broadcasting
+    c: Friday night, five minutes to eleven. McNamara, visiting his wife in the hospital, is called and told they want him on *Meet the Press* that Sunday and will announce it on the eleven o'clock news. By McNamara's account to Schlesinger, in Schlesinger's journal.
+    n: '[[w.schlesinger-journals]], 278–79 (the journal of Feb. 19: McNamara''s account at Hickory Hill, after the lunch of Friday, Feb. 16; "the Friday night preceding" the broadcast of Feb. 4; the caller not named). Names: McNamara.'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1968-02-03.elections-1968
     when: Feb. 3
     date: '1968-02-03'
@@ -431,13 +438,14 @@ entries:
     date: '1968-02-04'
     thread: japan-and-korea-pueblo
     c: 'Rusk and McNamara on *Meet the Press*. McNamara, by Rusk''s account: no certainty whether the *Pueblo* came within the twelve-mile limit until Bucher is heard and the logs read.'
-    n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-934. [[w.rusk-as-i-saw-it-1990]], 393. Check: Rusk does not date the program ("shortly after the seizure"). See [[cal.1968-01-23.japan-and-korea]]. Names: Rusk, McNamara, Bucher.'
+    n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-934. [[w.rusk-as-i-saw-it-1990]], 393; [[w.schlesinger-journals]], 278–79 (McNamara''s *Meet the Press* of Feb. 4, by his account to Schlesinger at Hickory Hill after Feb. 16: called the Friday night before; acutely nervous until the broadcast, not wanting to say on Vietnam what he did not believe nor to let the administration down; Schlesinger''s congratulations on his points about the fallibility of officials; not Rusk or the *Pueblo*). Check: Rusk does not date the program ("shortly after the seizure"). See [[cal.1968-01-23.japan-and-korea]]. Names: Rusk, McNamara, Bucher.'
     src:
       c: 69004fb2
       rows:
         - '"The program": A'
         - 'w.rusk-as-i-saw-it-1990 393: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: all'
+        - 'w.schlesinger-journals 278–79: ?'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:bucher-lloyd-m]
   - id: cal.1968-02-04.vietnam-khe-sanh
     when: Feb. 4
@@ -2476,17 +2484,23 @@ entries:
     thread: elections-1968-republican-nomination
     also: [jobs-and-wages]
     c: 'New York, Fifty-fifth Street, lunch: Rockefeller with Schlesinger and Kissinger. Romney''s "people think I am double-crossing him." He expects to outpoll Romney in New Hampshire, a write-in, and might carry Oregon; Nixon could sweep the primaries and lose the nomination. "There are eighteen Republican governors who want me." "You know, I have my roots in the New Deal."'
-    n: '[[w.smith-on-his-own-terms]], 507, 511–12 (on Lindsay and the Guard: "I think he hoped to see on the front page of every newspaper in the country pictures of chaos in New York City because Governor Rockefeller called out the National Guard"; on Vietnam, hints of doubt that a military victory is possible). To check: Arthur Schlesinger Jr., unpublished journal, Feb. 19, 1968; Schlesinger, *Journals, 1952–2000*, 278 (cited by [[w.smith-on-his-own-terms]], 507, 512). See [[cal.1968-02-10.jobs-and-wages-nyc]]. Names: Rockefeller, Schlesinger, Kissinger, Romney, Nixon.'
+    n: '[[w.smith-on-his-own-terms]], 507, 511–12 (on Lindsay and the Guard: "I think he hoped to see on the front page of every newspaper in the country pictures of chaos in New York City because Governor Rockefeller called out the National Guard"; on Vietnam, hints of doubt that a military victory is possible); [[w.schlesinger-journals]], 277–79 (Friday, Feb. 16, lunch with Rockefeller and Kissinger; Schlesinger''s speech on the disenfranchised young, Rockefeller: "I couldn''t agree more"; "You know, I have my roots in the New Deal"; not Romney, the primaries or the eighteen governors). To check: Arthur Schlesinger Jr., unpublished journal, Feb. 19, 1968; Schlesinger, *Journals, 1952–2000*, 278 (cited by [[w.smith-on-his-own-terms]], 507, 512). See [[cal.1968-02-10.jobs-and-wages-nyc]]. Names: Rockefeller, Schlesinger, Kissinger, Romney, Nixon.'
     src:
       c: '55454158'
       rows:
         - 'w.smith-on-his-own-terms 507, 511–12: all'
         - 'via x.1968-02-19.schlesinger-journal-feb-19-1968: all'
+        - 'w.schlesinger-journals 277–79: F'
     tags: [name:rockefeller-nelson, name:schlesinger-arthur-m-jr, name:kissinger-henry-a, name:romney-george-w, name:nixon-richard-m]
     time_range:
       - 1968-02-16T16:00Z
       - 1968-02-16T21:00Z
     time_zone: America/New_York
+    variants:
+      - unit: A
+        witness: w.schlesinger-journals
+        reads: 'Schlesinger: the lunch "took place at 13 West 54th Street in a high-ceilinged, second-floor apartment"'
+        at: '277'
   - id: cal.1968-02-16.vietnam-prisoners
     when: Feb. 16
     date: '1968-02-16'
