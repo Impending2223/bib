@@ -70,6 +70,12 @@ Four events this run had drafted are added in other pending patches; the Kabaser
 
 ## Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 242 (the owner's Drive copy, PDF = printed + 23; page image read): Thurmond to White, "we just cain't take that chance and let Rockefeller slip in": entered as `cal.1968-08-05.elections-1968-miami-13` (White's recalled exchange, Kabaservice n.83, F. Clifton White, *Politics as a Noble Calling*, 177; card `w.white-politics-as-a-noble` made; "Check: the day"). The "already in" was wrong: the Aug. 7 entry cites 242-43 for the Southern delegations and Bergen County, not this exchange.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 | page | date | event | why |

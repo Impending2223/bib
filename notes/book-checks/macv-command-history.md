@@ -232,6 +232,12 @@ Every dated event the volume treats that the calendar lacks, the chronology's (1
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- pp. 189-93 (1964 chronology; the owner's Drive copy, PDF = printed + 10; each page read as an image, the OCR's figures corrected by it: Sept. 14 not 16): already citing the chronology and confirmed: Jan. 14 (the Check in `cal.1964-01-27.vietnam`), Jan. 30, May 12 (the jets), Aug. 16, 25, 27, Sept. 13, 20, Oct. 24, Nov. 1, Dec. 20. Cited now: Mar. 8 (`cal.1964-03-08.vietnam`), May 12 (McNamara's visit, `cal.1964-05-12.vietnam`), June 20, June 23, July 27, Aug. 2, Aug. 5 (`cal.1964-08-05.vietnam`), Sept. 18, Dec. 24, each '?' with what the line bears. Variants: July 27 ("Pentagon announces," not Saigon), Sept. 18 ("DRV PT boats attack destroyers Edwards and Morton" against "No attack proven"), Oct. 24 (Huong Prime Minister under Oct. 24), Dec. 24 (the chronology: Dec. 25, 108 wounded). Maps narrowed, a chronology line bearing no place, name or detail beyond its words: Jan. 30 (B), Aug. 16, 25, 27 (B), Sept. 13, Oct. 24, Dec. 20 (edits of `src`). Sept. 15 (Khanh arrests five coup leaders) and Oct. 20 (the constitution, in the Oct. 24 entry) are the chronology's, not this row's.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026: the 1964 volume again, the owner's Drive copy 1qOJyn0edA9EzhtMmuZCdkxRb2sSl2iJs, printed page = PDF page − 10, p. 161 read off the page image; deleted when done). The one row ruled a draft (the J5's plan of Aug. 5) is a completed plan shelved, so a paper of government (R8): entered; patch `inbox/2026-11-06-b6-macv-command-history.yaml` (1 entry), witness `inbox/witnesses/2026-11-06-b6-macv-command-history.yaml` (1), edge 161 n.28. No other row of the four volumes' Passed over is ruled private, social, family or a draft.
 
 What is left after the rulings of Oct. 28.

@@ -82,6 +82,12 @@ From the dated mentions (below) and the informal record: `cal.1960-05-04.electio
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 452 (the owner's Drive copy, PDF = printed + 30; text layer, the quotations read off the page image): Nov. 22, not borne out (Stein says only that after the assassination Johnson took over the tax bill; no cite). Nov. 27 already cites 452; its unit map narrowed to '?' (the sentence on the tax bill, not the civil rights bill or the order). The Nov. 4 entry (451-52) and the Nov. 25 entry (452-53) hold; the Nov. 25 map narrowed to '?' and a variant on Johnson's words ("We won't even get it to the Senate floor unless we tell Congress ...").
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 How the list was made: a script over the text layer of chs. 14–17 and the Epilogue (pp. 346–468) listed every mention of a month and day, and of a month and year, 84 in all, each with its page, a year inferred from the text, and the calendar's entries of that day (±1) in the series' threads; each was read in context and judged against the calendar (`./bib find`, the day's entries). Classes passed over without a row: dates outside the span (the Eisenhower years before 1960, the Hotel Commander meeting of 1958); dates named only as effective dates or deadlines (Jan. 1, 1963 and 1964, July 1, 1963); the dates of the entries Stein is already cited for. "Below the calendar's level" marks press reports of aides' talk and private remarks; "a lead" a dated event whose record or matter the page does not give enough of to enter.
 
 | Page | Date | Event | Why |

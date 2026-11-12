@@ -35,6 +35,12 @@ New entries (16), each on its FRUS record where one exists: Feb. 13, 1961 (the C
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 300 (the owner's Drive copy, PDF = printed + 9; text layer): the mission, Sept. 24-Oct. 1, already cited under Sept. 21 (298-300), Sept. 26 (Honey), Sept. 27 (the arrests), Sept. 29, Sept. 30 (Tho) and Oct. 2 (300-02); confirmed, with the maps narrowed to '?' where the page bears part of the unit: Sept. 26 (not "aged and slowed"), Sept. 27 (not the Sureté or "Kadar"), Sept. 29 (Taylor and McNamara only, not Lodge or Harkins), Oct. 2 (the report to Kennedy, "deeply serious"; the thousand men; not the NSC, the White House statement or its words); the Oct. 2 note takes a parenthetical.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Made by a script listing every dated mention in the text pages (195-332), each judged against `./bib find -l cal --since ... --until ...`. Not given rows: the Vietnamese-side background before 1960 and the mentions of entries already in.
 
 | page | date | event | why |

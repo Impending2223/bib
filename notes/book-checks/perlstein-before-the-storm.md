@@ -71,6 +71,13 @@ Records: `sources/cited-records/perlstein-before-the-storm.yaml`, 123 (Perlstein
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 432 (the owner's Drive copy, PDF = printed + 32; page images read): the countdown and telephone spots hold (`-5`, `-6`, 432). The ice-cream spot cited under `cal.1964-09-12.elections-1964` (units '?'; variant: "If he's elected" without "so," no vote against the treaty).
+- pp. 433-34: "Confessions of a Republican" is told on 433, not "only named": entered as `cal.1964-09.elections-1964-johnson-9`; and the posters spot (Rockefeller, Scranton: `-10`), the Eastern Seaboard spot (433-34: `-11`), the Social Security card spot (434: `-12`), each "Check: the day and the month". Passed over: the pregnant-woman spot "pulled" and the Klan-crosses ad "pulled at the last minute" (433): never shown, no public act (R18).
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled private, social, trivia, "minor," "undated (informal)" for a draft, and the platform's drafting, read again from the owner's copy (Drive 1crqPUcuyCiLA2VckQkxcVub6eTI0Py6B; the offsets above held, checked at pp. 138, 207, 367 and 390 on the running heads). Patch `inbox/2026-11-06-b6-perlstein-before-the-storm.yaml` (b6-perlstein-before-the-storm: 5 entries); edges in the by-work file (5).
 
 How the list was made: every dated (or datable) event the book treats in 1960–Nov. 1964 that falls under the brief, noted page by page on the reading (330 rows), then each ruled. "Undated": the book gives no day or month. "To leads": an event within the brief whose day, words or record wants another source (a recording, the Record, a newspaper) before it is entered. Rows entered are listed with their entries.

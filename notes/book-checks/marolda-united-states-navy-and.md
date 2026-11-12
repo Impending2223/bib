@@ -30,6 +30,12 @@ The rest hold for the units their maps give; where the page bears out only part 
 
 ## Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 98 (archive.org `unitedstatesnavy02maro`, the page images n117, n118 read; p. 98 = image n117): Lansdale's report, read by Kennedy Feb. 2, cited under `cal.1961-01-28.vietnam` (98-99, units '?': not the plan or the Jan. 28 meeting); the variant on its day was already there; `to-check`: the memo of Jan. 17, 1961 (99 n.29).
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Dated events of 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The first pass read the pages the calendar cites; the military re-read of Nov. 5, 2026 (below) entered the dated operations its script and reading found and lists the rest here row by row.
 
 | Page | Date | Event | Why |

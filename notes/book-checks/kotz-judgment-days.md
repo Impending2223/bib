@@ -48,6 +48,13 @@ Entries already in the calendar that take Kotz's pinpoint: `cal.1963-11-22.succe
 
 ## Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- pp. 179-80 (Drive copy, PDF = printed + 26; page images read): cited under `cal.1964-07-21.king` (Greenwood, units '?'), `cal.1964-07-22.king` (Elks Lodge, federal marshals, units '?'), `cal.1964-07-22.mississippi` (Eastland, units '?'), `cal.1964-07-24.king` (Philadelphia, units '?'); `to-check` for the *Times* of July 23 (p. 15), July 25 (p. 9) and UPI-22 (Kotz nn.44, 45, 47). Variants: the leaflet plane is the second night, July 22, at the Elks Lodge, "Rt. Rev. Inciter King" (unit E of the July 21 entry); the Elks Lodge for the Masonic Temple (unit A of the July 22 King entry); King's answer to Eastland "the next day," in other words (unit C of the July 22 Mississippi entry). The July 4 Reedy call already cites 179.
+- Passed over, 179: Hoover's keeping King from honorary degrees at Marquette and Springfield, "in the spring"; his FBI reports on the Schwerner and Goodman parents; Johnson "reemphasized to Hoover several times" the protection: no day, leads.
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry for this book. Read Nov. 11–12 from the same Drive copy; pp. 198, 312 and 325 off their page images (PDF 224, 346, 359); the copy deleted.
 - 198 the polls two to one, the "frontlash" (Aug. 1964): passed over as an event: Kotz's summary names no poll and no day (the Opinion thread holds Gallup's); Johnson's coining of "the frontlash" is a lead, undated.
 - 312 Ellender slumped (Mar. 15, 1965): entered, `cal.1965-03-15.voting-rights-9`, the chamber's reaction in the joint session (the Justices and the Chiefs applauding; Ellender and the southerners).

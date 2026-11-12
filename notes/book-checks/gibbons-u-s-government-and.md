@@ -122,6 +122,13 @@ New entries, each from the page of the Record read where there is one: cal.1967-
 
 ### Passed over
 
+**Batch 9** (group 6, `inbox/2026-11-12-b9-group-6.yaml`, Nov. 11, 2026): the "already in" row read against the calendar and the page:
+
+- p. 779 (Part IV; the owner's Drive copy, PDF page = printed + 14; the page read off the image): cited already under `cal.1967-09-03.vietnam-pennsylvania` (Sept. 3, `src` all, confirmed), and the Aug. 11, 17, 19, 21, 25 and Sept. 11 entries cite 778-80. The scan cuts the left edge of the page: "beginning August / 1" is the Aug. 19 talk's date clipped (the Aug. 19 entry's Check on Aug. 21/24 stands); no event on Aug. 1.
+- p. 779, Sept. 8-9: entered as `cal.1967-09-08.vietnam-pennsylvania` (Marcovich and Aubrac tell Bo that Kissinger will come to Paris about Sept. 9; Bo: "something could well happen" if Hanoi is not bombed; the "already in" was wrong for this day).
+- Where batch 9 stopped: all this work's rows in the group ruled.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, personal or a draft, marked in their last cells (batch 6; see the section of that name at the end).
 
 How the list was made: a script over the text layer of pp. 470–947 listed every mention of a month and a day (920 in all) with its page, a year inferred from the text before it, and the calendar's entries of that day; the 238 on a page an entry already cites for that day were set aside, and the remaining 382 (page, date) pairs of Jan. 1967–Jan. 1968 were read in context and judged against the day's entries (`./bib find`, `day.py`), with the earlier reading's own candidates. Passed without a row: a month and year the script took for a day ("April 1967" read as Apr. 19); dates of 1966 the year-guess put in 1967; the dates of documents in the notes; a day named only to place another event or as a deadline. "Minor" only as the owner's rule allows (the same position again; private trivia); "below the calendar's level" marks staff and departmental memoranda, estimates and military messages; "a lead" a dated event whose record the run did not read.
