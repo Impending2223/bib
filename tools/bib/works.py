@@ -1086,6 +1086,9 @@ def where_all(series):
 # ---------------------------------------------------------------- adopting a citation written as text
 
 def new_id(f, taken):
+    if not f.get("title") and f.get("c"):       # a card written whole whose fields cannot be parsed (an organization as
+        m = re.search(r"\*([^*]+)\*", f["c"])   # author, a report): its first italic title, else the citation's head
+        f = {"title": m.group(1) if m else plain(f["c"]).split(",")[0], "year": f.get("year")}
     who = store.slug(surname(f["author"][0]), 3) if f.get("author") else ""
     t = re.sub(r"^(the|a|an)-", "", store.slug(short_title(plain(f["title"])), 6))
     t = "-".join(t.split("-")[:4])

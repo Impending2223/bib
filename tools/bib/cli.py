@@ -766,7 +766,7 @@ def cmd_works(series, a):
                     print(f"{h}   {plain(fresh.render(h))}")
                 raise SystemExit("works new: a card already matches (above): cite it; --force --why '...' if it is another work")
             card = {k: v for k, v in f.items() if not k.startswith("_")}
-            card["id"] = works.new_id(works.fields_of(card["c"]) if card.get("c") and not card.get("title") else card,
+            card["id"] = works.new_id((works.fields_of(card["c"]) or card) if card.get("c") and not card.get("title") else card,
                                       set(fresh.cards) | set(fresh.alias))
             if f.get("_force") and not why:
                 raise SystemExit("works new --force: say why it is another work (--why '...')")
