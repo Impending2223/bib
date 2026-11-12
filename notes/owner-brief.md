@@ -507,3 +507,13 @@ The NYT thing is striking, but... when was the NYT first distributed in D.C.? (W
 Please do get started on your other items for tonight. Feel free to PR and merge when appropriate.
 
 Are we not ready to go forward on any other reader batches, besides the Pike material? (Is that what the "round-4 list and the batch-6 questions are"?) I'm about to go to sleep for the night."
+
+## Nov. 11, 2026 (night, later)
+
+"We should probably give the foreign names entries, just so we have a bucket to start filling with events.
+
+Yes on the Post.
+
+The National Guardian should go on the press day. (What a bizarre strategy! Although I suppose newsmagazines do this all the time.)
+
+Thank you re Chang and Halliday. But I'll probably give you Pantsov or what have you first. Is Chen Jian on Zhou Enlai good? Chen Jian's good, and I've heard the book is good. Should I give you that?"

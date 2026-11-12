@@ -66,3 +66,9 @@ Written Nov. 11-12, 2026, for the owner's questions of Nov. 11, 2026 (evening, l
 ## Not found, and where to look next
 
 The hour the Times reached D.C. newsstands in the 1960s; the Times's out-of-town circulation reports of the decade (Editor & Publisher items on its air and rail delivery); the Star's first-edition hour; the Guardian's press day after 1962; the Amsterdam News's release day. Places to look: Times Talk (the Times house organ), Ayer's or Editor & Publisher's Year Books of the 1960s (edition times and publication days), the Guardian's and the Amsterdam News's own mastheads on microfilm, and the Library of Congress's Evening Star film for 1964-72.
+
+
+## Ruled (the owner, Nov. 11, 2026, night)
+
+- The *Post*: "Yes": a story known to be in the bulldog edition goes on the evening before its date, 9:30 p.m., where a source says it was in the early edition; else the early morning of its date.
+- The *National Guardian*: "on the press day" (the Tuesday before its cover date; 1963–68 with "Check: the release day"). Applied to `cal.1964-04-25.draft` (now Apr. 21, 1964; its id kept).

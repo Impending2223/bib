@@ -1,0 +1,401 @@
+# The leftovers of the batch-9 audits (Nov. 12, 2026). New ids claimed in inbox/new-entries.tsv under this patch.
+patch: 2026-11-12-b9-leftovers
+by: 'Claude (the leftovers of the batch-9 audits, Nov. 12, 2026: the King conference of Dec. 23, 1963 and the two memoranda;
+  the Chennault flight and the Los Angeles statement; Medicare, July 27, 1965; India, Feb. 4, 1966; the bundles of May 6,
+  1965, May 21, 1966 and Dec. 17, 1965)'
+ops:
+- edit:
+    id: cal.1963-12.king
+    base: d1d9f8fa
+    set:
+      when: Dec. 23
+      date: '1963-12-23'
+      c: Seven FBI officials on King, nine hours at headquarters, two of them agents from Atlanta; Sullivan in the chair;
+        Nichols one of the two. How to gather evidence of his private life, to expose him as "an immoral opportunist" and
+        a "clerical fraud." Sullivan proposes microphones in his hotel rooms. The taps on his home and office in place since
+        November.
+      n: '[S. Rep. No. 94-755, Book III, 133 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=147)
+        (the conference of Dec. 23, 1963, nine hours, at headquarters: Sullivan, Baumgardner, three other headquarters officials,
+        two agents of the Atlanta office; the twenty-one proposals). [[w.garrow-bearing-the-cross]], 310 (a "mid-December
+        conference"; the evidence of his private life, "an immoral opportunist" and "clerical fraud"; Sullivan''s microphones;
+        the taps since November); [[w.branch-pillar-of-fire]], 195–97 (Monday, Dec. 23, seven officials in Baumgardner''s
+        office, all day; Nichols one of the two Atlanta agents; the agenda; the plans for microphones in his hotel rooms;
+        Sullivan''s report, "an immoral opportunist"; not "clerical fraud"); [[w.kotz-judgment-days]], 83–84 (Dec. 23, 1963,
+        seven officials, nine hours at headquarters, Sullivan in the chair; field agents from Atlanta, not their number; "clerical
+        fraud" and "an immoral opportunist," by Sullivan''s report); [[w.schlesinger-robert-kennedy-and-his]], 363 (the nine-hour
+        session of Dec. 23, 1963); [[w.branch-parting-the-waters]], 919 (Sullivan''s nine-hour "war council," Nichols among
+        those summoned; no day). Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]],
+        627). To check: "Questions to Be Explored at Conference 12/23/63 re Communist Influence in Racial Matters," House
+        Select Committee on Assassinations, *Hearings*, vol. 6, 159–61 (cited by [[w.kotz-judgment-days]], 83 n.75); Sullivan
+        to Belmont, Dec. 24, 1963, FBI file 100-3-116-684; Director to Attorney General, Jan. 17, 1964, FBI file 100-3-116
+        (cited by [[w.garrow-bearing-the-cross]], 310 n.19); Baumgardner to Sullivan, Dec. 19, 1963, FK-NR, Sullivan to Belmont,
+        December 24, 1963, FK-NR (cited by [[w.branch-pillar-of-fire]], 195). See [[cal.1963-10-10.king]], [[cal.1963-12-19.king]].
+        Names: Sullivan, King. Check: Kotz dates the conference Dec. 23, 1963, seven FBI officials, nine hours, Sullivan in
+        the chair (83). Check: Kotz''s note 75 (83) cites "Questions to Be Explored at Conference 12/23/63 re Communist Influence
+        in Racial Matters," printed by the Stokes committee (hearings, vol. 6, 159–61): the paper''s title gives the day.
+        Check: the day; Schlesinger (363) and the Church committee''s report (Book III, 133) date the nine-hour conference
+        Dec. 23, 1963: the same meeting as [[cal.1963-12-24.king]]?. Check: the day. Check: Branch, 195–97, has seven FBI
+        officials meet on Dec. 23, Sullivan reporting to Belmont Dec. 24.'
+      src:
+        c: b9423e0b
+        rows:
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=147: A'
+        - 'w.garrow-bearing-the-cross 310: D-F'
+        - 'via w.garrow-bearing-the-cross 310 n.19a: D-E'
+        - 'via w.garrow-bearing-the-cross 310 n.19b: F'
+        - 'w.branch-pillar-of-fire 195–97: C'
+        - 'via w.branch-pillar-of-fire 195 n.seven-top-fbi-officials: ?'
+        - 'w.kotz-judgment-days 83–84: B, D'
+        - 'via w.kotz-judgment-days 83 n.74: ?'
+        - 'via w.kotz-judgment-days 83 n.75: ?'
+        - 'via w.kotz-judgment-days 84 n.77: D'
+        - 'w.schlesinger-robert-kennedy-and-his 363: ?'
+        - 'w.branch-parting-the-waters 919: ?'
+- move:
+    id: cal.1963-12.king
+- edit:
+    id: cal.1963-12-24.king
+    base: 24b6850d
+    set:
+      c: 'Sullivan to Belmont, a memorandum on the conference: six decisions. The fifth: "We will, at the proper time when
+        it can be done without embarrassment to the Bureau, expose King as an immoral opportunist who is not a sincere person
+        but is exploiting the racial situation for personal gain."'
+      n: '[S. Rep. No. 94-755, Book III, 133–34 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=147)
+        (Sullivan to Belmont, Dec. 24, 1963: his account of the conference and its six decisions, quoted; the fifth without
+        "immoral"). [[w.branch-parting-the-waters]], 919 (the six-point plan of the "nine-hour war council," the fifth point''s
+        words in part, the pledges to proceed "without embarrassment to the Bureau"; the memorandum by its note); [[w.branch-pillar-of-fire]],
+        196–97 (Sullivan''s report on the meeting: "embarrassment to the Bureau" five times; the fifth decision''s words);
+        [[w.kotz-judgment-days]], 83–84 (Sullivan''s "two-and-a-half-page report to Hoover": "extreme embarrassment to the
+        Bureau" five times; "an immoral opportunist who is not a sincere person but is exploiting the racial situation for
+        personal gain"); [[w.schlesinger-robert-kennedy-and-his]], 363 (the nine-hour session of Dec. 23, 1963, and a plan;
+        the words it quotes for the plan, "a fraud, demagogue and scoundrel," "to take him off his pedestal," are Sullivan''s
+        memorandum of Jan. 8, 1964, by the Church committee''s report, Book III, 136). To check: Sullivan to Belmont, Dec.
+        24, 1963, FBI file 100-3-116, serial 684 (cited by [[w.branch-parting-the-waters]], 919 n.2); Sullivan to Belmont,
+        Dec. 24, 1963, FK-NR (cited by [[w.branch-pillar-of-fire]], 196, 197). See [[cal.1963-11-20.king]], [[cal.1963-12.king]].
+        Names: Sullivan, Belmont, Martin Luther King. Check: the Church committee''s report prints the fifth decision "expose
+        King as an opportunist who is not a sincere person" (Book III, 134), without "immoral.". Check: the conference''s
+        day.'
+      src:
+        c: 91dace63
+        rows:
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=147: A'
+        - 'w.branch-parting-the-waters 919: A'
+        - 'via w.branch-parting-the-waters 919 n.2: A'
+        - 'w.branch-pillar-of-fire 196–97: B'
+        - 'via w.branch-pillar-of-fire 196 n.repeated-five-times-a: ?'
+        - 'via w.branch-pillar-of-fire 197 n.we-will-at-the: B'
+        - 'w.kotz-judgment-days 83–84: ?'
+        - 'via w.kotz-judgment-days 83 n.76: ?'
+        - 'via w.kotz-judgment-days 84 n.77: ?'
+        - 'w.schlesinger-robert-kennedy-and-his 363: ?'
+        - 'via w.schlesinger-robert-kennedy-and-his 363 n.92: ?'
+      tags:
+      - name:sullivan-william-c
+      - name:belmont-alan-h
+      - name:king-martin-luther-jr
+      variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: A nine-hour session on December 23, 1963, resulted in a plan ... to reveal King to the country "as being what
+          he actually is - a fraud, demagogue and scoundrel"
+        at: '363'
+- add:
+    entry:
+      id: cal.1963-12-19.king
+      when: Dec. 19
+      date: '1963-12-19'
+      thread: king
+      also:
+      - antisubversion
+      c: 'Baumgardner to Sullivan: "King''s unholy alliance with the Communist Party, USA."'
+      n: '[[w.branch-parting-the-waters]], 919 (the words, by its note); [[w.kotz-judgment-days]], 83 (the words, by its note
+        73; Kotz gives them as the business of the conference of Dec. 23). To check: Baumgardner to Sullivan, Dec. 19, 1963,
+        serial 711 (cited by [[w.branch-parting-the-waters]], 919 n.1); Baumgardner to Sullivan, Dec. 19, 1963, FBIMLK, sec.
+        7 (cited by [[w.kotz-judgment-days]], 83 n.73). See [[cal.1963-11-20.king]]. Names: Sullivan, Martin Luther King.'
+      src:
+        c: 91aa8447
+        rows:
+        - 'w.branch-parting-the-waters 919: A'
+        - 'via w.branch-parting-the-waters 919 n.1: A'
+        - 'w.kotz-judgment-days 83: A'
+        - 'via w.kotz-judgment-days 83 n.73: A'
+      tags:
+      - name:sullivan-william-c
+      - name:king-martin-luther-jr
+- edit:
+    id: cal.1968-11-03.elections-1968-chennault-2
+    base: de70a88f
+    set:
+      c: 'The flight from Houston to Los Angeles. Humphrey: "I''ll be damned if I''m going to let the China Lobby of all people
+        steal the election from me." He dictates a statement, "As President, I would sever all relations with the South Vietnamese
+        and leave them on their own," and holds it back.'
+      n: '[[w.solberg-hubert-humphrey]], 400; [[w.white-making-of-the-president-1969]], 381 (Humphrey will not make it public;
+        Nixon, he holds, knew nothing of it). To check: Ted Van Dyk, interview; Edgar Berman, diary, Nov. 3, 1968 (cited by
+        [[w.solberg-hubert-humphrey]], 400, its note). Names: Humphrey.'
+      src:
+        c: f45e8247
+        rows:
+        - 'w.solberg-hubert-humphrey 400: all'
+        - 'via w.solberg-hubert-humphrey 400 n.sever: all'
+        - 'w.white-making-of-the-president-1969 381: ?'
+- add:
+    entry:
+      id: cal.1968-11-03.elections-1968-chennault-4
+      when: Nov. 3
+      date: '1968-11-03'
+      thread: elections-1968-chennault
+      c: 'Los Angeles. Humphrey''s statement, milder: "If the Vietnamese do not come to the conference table as promised,
+        the United States should go on without them."'
+      n: '[[w.solberg-hubert-humphrey]], 400–01 (the words, toned down on the plane and held back until Van Dyk could check
+        with Bundy, 400; issued at Los Angeles, "his mild rebuke to Thieu," 401). To check: Ted Van Dyk, interview; the [*New
+        York Times*, Nov. 4, 1968](https://timesmachine.nytimes.com/timesmachine/1968/11/04/issue.html); Tom Ottenad, interview,
+        Apr. 6, 1983; "A Conversation with Hubert Humphrey," *Bill Moyers Journal*, Apr. 1976 (cited by [[w.solberg-hubert-humphrey]],
+        400, its note). See [[cal.1968-11-03.elections-1968-chennault-2]]. Names: Humphrey.'
+      src:
+        c: 67934b58
+        rows:
+        - 'w.solberg-hubert-humphrey 400–01: all'
+        - 'via w.solberg-hubert-humphrey 400 n.sever: all'
+      tags:
+      - name:humphrey-hubert-h
+      - state:ca
+      - city:los-angeles
+    after: cal.1968-11-03.elections-1968-humphrey
+- edit:
+    id: cal.1965-07-27.medicare
+    base: 18c922c2
+    set:
+      c: The House agrees to the conference report on the Social Security amendments, H.R. 6675, [307–116](https://voteview.com/rollcall/RH0890097).
+        In conference Mills strikes nearly every Senate amendment adding cost; doctors and hospitals to fix "reasonable charges."
+      n: '[[w.zelizer-fierce-urgency-of-now]], 199–200 (the House, 307 to 116, July 27; the conference; it dates the Senate''s
+        70 to 24 July 27 too); [[w.bernstein-guns-or-butter]], 176 (six meetings; at least 95 percent of the Senate amendments
+        cut); [[w.dallek-flawed-giant]], 209 (the bill through "some hard bargaining in a conference committee," after over
+        500 minor Senate amendments; not the House''s vote; Congress''s passage dated July 28, the Senate''s day). To check:
+        Larry O''Brien, interview by Michael Gillette, July 24, 1986, XI, 28, LBJ Library (cited by [[w.zelizer-fierce-urgency-of-now]],
+        199 n.72). See [[cal.1965-07-09.medicare]]. Names: Mills. Check: Dallek gives July 28 for Congress''s passage (209).
+        Check: the Senate agreed to the conference report, 70–24, on July 28 ([Voteview RS0890174](https://voteview.com/rollcall/RS0890174)),
+        the House, 307–116, on July 27 ([Voteview RH0890097](https://voteview.com/rollcall/RH0890097)); Dallek''s July 28
+        (209) is the Senate''s day.'
+      src:
+        c: 9473819f
+        rows:
+        - 'https://voteview.com/rollcall/RH0890097: A'
+        - 'w.zelizer-fierce-urgency-of-now 199–200: all'
+        - 'w.bernstein-guns-or-butter 176: B'
+        - 'w.dallek-flawed-giant 209: ?'
+    unset:
+    - variants
+- cite:
+    id: cal.1965-07-28.medicare
+    item: '[[w.zelizer-fierce-urgency-of-now]], 200 (the Senate, 70 to 24; dated July 27)'
+    units: '?'
+- check:
+    id: cal.1965-07-28.medicare
+    text: 'Check: Zelizer dates the Senate''s vote, 70 to 24, July 27 (200); Voteview, July 28.'
+- edit:
+    id: cal.1966-02-04.india-and-china-food
+    base: cd45dde7
+    set:
+      also:
+      - farm
+      - foreign-aid
+      - vietnam-honolulu
+      c: 'News conference: for India''s drought and famine, Johnson allots 2 million tons of wheat and 1 million of maize,
+        to be shipped at once. Rusk, Jan. 28, had urged a new allocation "as soon as possible." Johnson announces a meeting
+        at Honolulu with Lodge and Westmoreland, Thiệu and Kỳ.'
+      n: 'The President''s News Conference, [1966 Pub. Papers 143](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=219)
+        (Feb. 4, 1966). [FRUS 1964–68, XXV, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v25/d286) (Rusk).
+        [[w.dallek-flawed-giant]], 352 (Feb. 4: the trip to Honolulu announced, to meet Lodge, Westmoreland, Thiệu and Kỳ,
+        Freeman and Gardner going; Rusk, McNamara and Wheeler not to testify in public; the Public Papers, 1966, I, 144–48,
+        cited 352 nn.33–34; not the food for India). To check: [[w.ahlberg-transplanting-the-great-society]]; [[w.brands-wages-of-globalism]].
+        See [[cal.1965-12-14.india-and-china]], [[cal.1966-02-03.vietnam-3]]. Names: Johnson, Rusk, Lodge, Westmoreland, Nguyễn
+        Văn Thiệu, Nguyễn Cao Kỳ.'
+      src:
+        c: 28b94379
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=219: A, C'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v25/d286: B'
+        - 'w.dallek-flawed-giant 352: C'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:lodge-henry-cabot
+      - name:westmoreland-william
+      - name:nguyen-van-thieu
+      - name:nguyen-cao-ky
+- edit:
+    id: cal.1965-05-06.latin-america
+    base: 89d332c1
+    set:
+      c: 'OAS foreign ministers, after midnight, vote the inter-American force the United States asked: 14–5, Chile, Ecuador,
+        Mexico, Peru, and Uruguay against, Venezuela abstaining. Two-thirds needed.'
+      n: '[FRUS 1964–68, XXXII, doc. 58](https://history.state.gov/historicaldocuments/frus1964-68v32/d58) (its note prints
+        15–5; a CIA situation report, 14–5: check), [doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v32/d59)
+        (the force approved). [[w.rusk-as-i-saw-it-1990]], 375–76 (a two-thirds vote required; the Mexican ambassador, for
+        one of the holdouts, privately: a necessary action, but no public endorsement); [[w.dallek-flawed-giant]], 267 (the
+        Dominican factions sign a cease-fire on May 5; two days later a Dominican general sets up a five-man "Government of
+        National Reconstruction," which the rebels refuse to accept; not the vote). See [[cal.1965-04-28.latin-america]],
+        [[cal.1965-05-05.latin-america-dominican-republic-2]].'
+      src:
+        c: 1ae8c148
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d58: all'
+        - 'w.rusk-as-i-saw-it-1990 375–76: B'
+        - 'w.dallek-flawed-giant 267: ?'
+      tags: []
+- add:
+    entry:
+      id: cal.1965-05-05.latin-america-dominican-republic-2
+      when: May 5
+      date: '1965-05-05'
+      thread: latin-america-dominican-republic
+      c: The Act of Santo Domingo, the cease-fire, signed by both sides before the OAS Commission; its preamble names Caamaño's
+        group the "Constitutional Government."
+      n: '[FRUS 1964–68, XXXII, doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v32/d59) (May 6: the Act
+        signed by both sides; its preamble, "Constitutional Government" for Caamaño''s group, "Military Junta of Government"
+        for Benoit''s; the cease-fire). [[w.dallek-flawed-giant]], 267 (the Dominican factions sign a cease-fire on May 5;
+        not the Act''s name or the preamble). See [[cal.1965-04-28.latin-america]]. Names: Caamaño-Deno.'
+      src:
+        c: 98f1cf05
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d59: all'
+        - 'w.dallek-flawed-giant 267: ?'
+      tags:
+      - name:caamano-deno-francisco
+- add:
+    entry:
+      id: cal.1965-05-07.latin-america-dominican-republic-2
+      when: May 7
+      date: '1965-05-07'
+      thread: latin-america-dominican-republic
+      c: Imbert's Government of National Reconstruction formed, five members, against Caamaño's "Constitutional Government."
+      n: '[FRUS 1964–68, XXXII, doc. 62](https://history.state.gov/historicaldocuments/frus1964-68v32/d62) (Martin, May 10:
+        the GRN formed "to counter rebel Caamano ''government''"; no day). [[w.dallek-flawed-giant]], 267 (two days after
+        the cease-fire, a Dominican general''s five-man "Government of National Reconstruction," which the rebels refuse to
+        accept; not the generals'' names). See [[cal.1965-05-05.latin-america-dominican-republic-2]]. Names: Imbert-Barrera,
+        Caamaño-Deno.'
+      src:
+        c: a908fd34
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d62: ?'
+        - 'w.dallek-flawed-giant 267: ?'
+      tags:
+      - name:imbert-barrera-antonio
+      - name:caamano-deno-francisco
+- edit:
+    id: cal.1966-05-21.vietnam-struggle
+    base: 8b639733
+    set:
+      c: Đà Nẵng. Fighting at the pagodas, government planes overhead, Walt's marines between; by May 23 the city is the government's
+        (Check).
+      n: '[FRUS 1964–68, IV, doc. 144](https://history.state.gov/historicaldocuments/frus1964-68v04/d144) (the editorial note:
+        Rostow''s briefing, 8 a.m., May 21, the government''s planes bombing the struggle forces, thirteen Americans hurt;
+        the *New York Times*, a pagoda taken); [doc. 145](https://history.state.gov/historicaldocuments/frus1964-68v04/d145)
+        (Komer, May 24: Kỳ has Đà Nẵng "at least temporarily under control"); [doc. 143](https://history.state.gov/historicaldocuments/frus1964-68v04/d143)
+        (Wheeler to Westmoreland, May 20: the turmoil''s effect at home; Westmoreland''s answer of May 22 in its note; not
+        the fighting). [[w.gibbons-u-s-government-and]], IV, 321–23; [[w.westmoreland-soldier-reports]], 175 (Cao authorizes
+        the attacks on the pagodas, armed camps; resistance soon collapses; "By May 23 Danang was calm"); [[w.dallek-flawed-giant]],
+        363–64 (the news conference of May 21; not Đà Nẵng); [[w.mann-grand-delusion]], 513 (Moyers to Rusk). See [[cal.1966-03-10.vietnam]].
+        Names: Walt. Check: Mann, 513, sets Moyers''s words among the polls of June.'
+      src:
+        c: 5766580e
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d144: ?'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d145: ?'
+        - 'w.gibbons-u-s-government-and IV, 321–23: A-C'
+        - 'w.westmoreland-soldier-reports 175: B-C'
+        - 'w.dallek-flawed-giant 363–64: ?'
+        - 'w.mann-grand-delusion 513: ?'
+      tags:
+      - name:walt-lewis-w
+      - place:da-nang
+- add:
+    entry:
+      id: cal.1966-05-21.vietnam-struggle-6
+      when: May 21
+      date: '1966-05-21'
+      time: 1966-05-21T14:10Z
+      thread: vietnam-struggle
+      c: 'Moyers to Rusk by telephone, 10:10 a.m.: the President "deeply disturbed."'
+      n: '[FRUS 1964–68, IV, doc. 144](https://history.state.gov/historicaldocuments/frus1964-68v04/d144) (the editorial note:
+        the call, 10:10 a.m., by Rusk''s record; "It seems to him that internally we cannot permit this thing to go on, it
+        will tear us to pieces"). [[w.mann-grand-delusion]], 513 (Moyers to Rusk; not the hour). Made public: FRUS 1964–68,
+        IV (1998). See [[cal.1966-05-21.vietnam-struggle]]. Names: Moyers, Rusk, Johnson. Check: Mann, 513, sets Moyers''s
+        words among the polls of June.'
+      src:
+        c: 344616ab
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d144: all'
+        - 'w.mann-grand-delusion 513: ?'
+        - 'via w.mann-grand-delusion 513 n.43: ?'
+      tags:
+      - name:moyers-bill
+      - name:rusk-dean
+      - name:johnson-lyndon-b
+    after: cal.1966-05-21.vietnam-struggle
+- add:
+    entry:
+      id: cal.1966-05-21.vietnam-struggle-7
+      when: May 21
+      date: '1966-05-21'
+      thread: vietnam-struggle
+      c: 'Johnson''s news conference: "We are watching the situation in Vietnam very closely."'
+      n: 'The President''s News Conference, [1966 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=607)
+        (May 21, 1966). [[w.gibbons-u-s-government-and]], IV, 321; [[w.dallek-flawed-giant]], 363–64 (the news conference
+        of May 21: "They are trying to build a nation ... There is ... no instant solution"; "Leading that parade is the President
+        ... make it 200 percent for the President"; the Public Papers, 1966, I, 531–32, 535, cited 363–64 nn.72, 75; not the
+        words of the entry). See [[cal.1966-05-21.vietnam-struggle]]. Names: Johnson.'
+      src:
+        c: 0729380d
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=607: all'
+        - 'w.gibbons-u-s-government-and IV, 321: all'
+        - 'via w.gibbons-u-s-government-and IV, 321 n.26: all'
+        - 'w.dallek-flawed-giant 363–64: ?'
+      tags:
+      - name:johnson-lyndon-b
+    after: cal.1966-05-21.vietnam-struggle-6
+- edit:
+    id: cal.1965-12-17.vietnam
+    base: 1bf31064
+    set:
+      when: Dec. 17
+      c: 'Johnson on a pause in the bombing, 9:41 to 11:04 a.m., with Rusk, McNamara, McGeorge Bundy and Ball, Valenti taking
+        notes. Johnson: "I''m willing to take any gamble on stopping the bombing if I think I''ve got some hope of something
+        happening." McNamara: "We will increase bombing. It is inevitable," and perhaps "a cease-fire in place." Bundy, of
+        a cease-fire: "Not now. It takes time." Ball: the bombing hardens Hanoi and drives it toward China. Johnson: the Chiefs
+        "go through the roof when we mention this pause"; "the weakest chink in our armor is public opinion." A pause suggested,
+        Dec. 22 to Jan. 22.'
+      n: '[FRUS 1964–68, III, doc. 231](https://history.state.gov/historicaldocuments/frus1964-68v03/d231) (Valenti''s notes).
+        [[w.johnson-vantage-point]], 235–37 (the meeting of Dec. 18); [[w.drea-mcnamara-clifford-and-the-2011]], 66 (the morning
+        meeting, no Chief there; "the Chiefs go through the roof"; late afternoon, Johnson with Wheeler on the scenario);
+        [[w.dallek-flawed-giant]], 343–44 (the meeting with senior advisers on Dec. 17: willing "to take any gamble on stopping
+        the bombing" if there were any chance of a result; a pause from Dec. 22 to Jan. 22; the Pentagon could use "weather
+        as an excuse and Christmas as a factor"; not the hours or the others). Bibliography: [[cal.1965-12-24.vietnam]]. [[w.gibbons-u-s-government-and]],
+        IV, 120–25; [[w.herring-lbj-and-vietnam]], 42, 96, 99–100 (the meetings: Johnson, "the Chiefs go through the roof
+        when we mention this pause"; McNamara, "we decide what we want and impose it on them"; Rusk and Bundy won over; Dec.
+        18, "Publicity seekers and amateurs cannot have a hand in our affairs"). Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]],
+        225 (Bundy against McNamara''s cease-fire, "Not now. It takes time"; "I''m more optimistic," "Our military is hurting
+        them"). Names: Johnson, Rusk, McNamara, McGeorge Bundy, Ball, Valenti.'
+      src:
+        c: 8a8e62e7
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d231: all'
+        - 'w.johnson-vantage-point 235–37: ?'
+        - 'w.gibbons-u-s-government-and IV, 120–25: all'
+        - 'via w.gibbons-u-s-government-and IV, 120 n.27: A-G'
+        - 'w.herring-lbj-and-vietnam 42, 96, 99–100: F'
+        - 'via w.herring-lbj-and-vietnam 42 n.57a: ?'
+        - 'via w.herring-lbj-and-vietnam 42 n.57b: ?'
+        - 'via w.herring-lbj-and-vietnam 96 n.20: ?'
+        - 'w.preston-war-council 225: D'
+        - 'via w.preston-war-council 225 n.38d: D'
+        - 'w.drea-mcnamara-clifford-and-the-2011 66: F'
+        - 'w.dallek-flawed-giant 343–44: H'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:mcnamara-robert-s
+      - name:bundy-mcgeorge
+      - name:ball-george-w
+      - name:valenti-jack
