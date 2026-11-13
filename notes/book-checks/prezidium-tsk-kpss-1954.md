@@ -159,3 +159,199 @@ Nothing for the daily list: the book gives no day's coverage. One item for the p
 National, Foreign, the Executive roster, States and cities: none. The book names no source this run could not reach; what is left is in hand (above).
 
 Second run (Nov. 10), Foreign: the APRF records the calendar's notes name behind "To check:" and the volumes do not print (the table under "The records named in To check") are closed to this series: APRF, f. 3, op. 65 (the Cuba files) is cited by Fursenko and Naftali and by the volumes' editors (I, 1100) and printed in neither; the volumes' notes name a further run of documents "on secret storage" (III, 1005–1054). Where to look: published prints of single APRF documents (Blight, Allyn and Welch, *Cuba on the Brink*; the Cold War International History Project's *Bulletin*; *Istochnik*), document by document. No entry waits on them: each is behind "To check:" in its entry.
+
+## Batch 12 (1960–61)
+
+Reader: batch 12, the USSR's 1960 and 1961 (the brief: `notes/briefs/batch12-foreign.md`; the Soviet leadership's own acts now entries), Nov. 12–13, 2026. Patch: `inbox/2026-11-12-b12-ussr-1960-61.yaml` (17 new entries, 15 cites; patch-check 0 errors, 0 warnings). No witnesses written, no edits.
+
+The copies: vols. I and III from Drive by an earlier, interrupted reader of this share (`books/b12-prez-a/`), read here by their text layers (`pdftotext -layout`), deleted when done. Offsets as before: I, printed = PDF − 1; III, printed = PDF − 2 (the running heads; the form feeds counted, not the heads, where a year's divider page has none). Page images checked: I, 453 (PDF 454: the Chinese and "moral factors") and 479 (PDF 480: Protocol 314, the year's first page, no head); III, 219 (PDF 221: P 335/VII and P 350/13). They agreed with the text layer.
+
+How the list was made: vol. I's documents of 1960–61 listed from their headings (nos. 207–241: 31 sessions and 5 stenograms or records of remarks); vol. III's documents listed from theirs (207.0–241.2.4); each session read in Malin's notes, the stenograms by their speakers and where cited; the editors' notes of both volumes for each session read (I, 1068–93; III, 992–93). Each session's day searched in the calendar across all threads (`./bib ledger find`), and by name (Albania, Lysenko, Kaganovich, Aristov, Voroshilov, plenum, income tax).
+
+### Sessions and documents, by row
+
+| Vol. I no. / III doc. | Date | Ruling | Entry |
+|---|---|---|---|
+| 207 (I, 415–18; III, 71) | Jan. 7, 1960 | entered: Kazakhstan, Belyayev | cal.1960-01-07.soviet-union-leadership |
+| 207 cont. (I, 419; III, 71–74) | Jan. 8, 1960 | in the tree; cited | cal.1960-01-08.soviet-union (P 258/VIII, A, D); cal.1960-01-08.soviet-union-2 (A; the Prague embassy offered and asked for, I, 419, dated Jan. 8 by III, 207.2: not entered apart, the day uncertain and the editors saying it never took place) |
+| 208 (I, 420–21; III, 74–75) | Jan. 13, 1960 | entered: Gosplan; Voroshilov on housing, Kozlov's rebuke | cal.1960-01-13.soviet-union-leadership |
+| 209 (I, 421–22; III, 75–83) | Jan. 28, 1960 | in the tree (Algeria, item XXI, already cited); item VI, the Moscow ring road, recorded in the note of the entry of Mar. 3 | cal.1960-01-28.africa-algeria-morocco; cal.1960-03-03.soviet-union-leadership |
+| III, 209.0.34 (77–79) | Mar. 3, 1960 | entered (vol. III only): the ring road decree | cal.1960-03-03.soviet-union-leadership |
+| 210–211 (I, 422–35; III, 83–96) | Feb. 1, 1960 | in the tree; III cited (A, E) | cal.1960-02-01.soviet-union |
+| 212 (I, 435–36; III, 106) | Feb. 9, 1960 | entered: the India and Nepal trip, Voroshilov's conduct | cal.1960-02-09.soviet-union-leadership |
+| 213 (I, 437; III, 106–14) | Feb. 25, 1960 | entered: the income tax | cal.1960-02-25.soviet-union-leadership |
+| III, 210.1, 210.2 | Mar. 21, May 27, 1960 | in the tree (earlier batches) | cal.1960-03-21.testing, cal.1960-05-27.testing |
+| 214 (I, 437–38; III, 116–17) | Apr. 7, 1960 | in the tree; III cited (units ?, with P 274/XIII on the tax) | cal.1960-04-07.soviet-union |
+| III, 215.0.5 (119–24) | Apr. 9, 1960 | entered: Voroshilov with Vasily Stalin, a principal's conversation, its own day (printed in III as material for Apr. 14–15; Voroshilov's covering note to Khrushchev of Apr. 13 passed over as a covering note, cited on the entry) | cal.1960-04-09.soviet-union-leadership |
+| 215 (I, 438–39; III, 117–24) | Apr. 14–15, 1960 | in the tree, III already cited | cal.1960-04-15.soviet-union |
+| 216 (I, 440–41; III, 124–26) | Apr. 28, 1960 | in the tree; III cited (units ?) | cal.1960-04-28.soviet-union |
+| 217 (I, 441–42; III, 126–28) | May 4, 1960 | in the tree; III cited, A–C: P 279/II elects Kosygin, Podgorny and Polyansky members, which the entry's Check found missing from the notes | cal.1960-05-04.soviet-union |
+| 218 (I, 443; III, 128–31) | June 2, 1960 | in the tree, both cited; item XL (Kozlov to preside at the Secretariat, I, 443; III, 128, P 284/XI) not in the entry's c: for the merger | cal.1960-06-02.soviet-union |
+| 219 (I, 443–44; III, 132) | Oct. 11, 1960 | entered: livestock procurement | cal.1960-10-11.soviet-union-leadership |
+| 220 (I, 444–46; III, 132–33) | Oct. 15, 1960 | in the tree; III, 132–33 cited (units ?) | cal.1960-10-15.soviet-union |
+| 221 (I, 446–47; III, 133–34) | Oct. 21, 1960 | entered: the plenum on agriculture called | cal.1960-10-21.soviet-union-leadership |
+| 222 (I, 447–48; III, 134–39) | Dec. 13, 1960 | entered: the Moscow meeting's results | cal.1960-12-13.soviet-union-leadership |
+| 223–224 (I, 448–74; III, 139) | Dec. 16, 1960 | entered, one session: the notes, the stenogram, P 311/I | cal.1960-12-16.soviet-union-leadership |
+| 225 (I, 474–76; III, 139–40) | Dec. 30, 1960 | in the tree (Albania); the session's other items (metallurgists; Hungary's credit; Lobanov out, Lysenko to the Agricultural Academy; Kaganovich's letters) in the cite's parenthetical, units A: for the merger to fold into c | cal.1960-12-30.soviet-union |
+| 226 (I, 479; III, 143) | Jan. 20, 1961 | entered: the plenum's results; Aristov to Warsaw, Voronov to the RSFSR Bureau | cal.1961-01-20.soviet-union-leadership (not cal.1961-01-20.soviet-union, the congratulations to Kennedy) |
+| 227–228 (I, 480–93; III, 144–57) | Feb. 16, 1961 | in the tree; III cited (A) | cal.1961-02-16.soviet-union |
+| 229 (I, 493–94; III, 158) | Feb. 24, 1961 | in the tree; III cited (units ?) | cal.1961-02-24.soviet-union |
+| 230 (I, 494–95; III, 158–60) | Mar. 23, 1961 | entered: the seven-year plan's control figures (the tree's entry of Mar. 25 had folded this session into its Check) | cal.1961-03-23.soviet-union-leadership |
+| 231 (I, 495–96; III, 160) | Mar. 25, 1961 | in the tree; III cited (units ?) | cal.1961-03-25.soviet-union |
+| 232 (I, 497; III, 161) | Apr. 6, 1961 | in the tree; III, 161 cited on -2 (A); 232.0 a heading only | cal.1961-04-06.soviet-union, -2 |
+| 233 (I, 497–98; III, 161–69) | May 17, 18, 20, 1961 | in the tree, III already cited | cal.1961-05-17.soviet-union, cal.1961-05-18.soviet-union, cal.1961-05-20.testing |
+| 234–235 (I, 498–507; III, 169–215) | May 26, 1961; Vienna, June 3–4 | in the tree, already cited | cal.1961-05-26.soviet-union, cal.1961-06-03.berlin-and-vienna |
+| 236 (I, 508; III, 215) | May 30, 1961 | in the tree; III cited (A, F) | cal.1961-05-30.soviet-union |
+| 237–238 (I, 508–28; III, 215–18) | June 17, 1961 | in the tree (Vienna; crime); the session's other items (the draft Program and Rules to the plenum; housing; the space awards, Khrushchev's third star; capital works, rubber, chemicals, imported plant; P 334/IX on crime) in the cite's parenthetical, units A: for the merger to fold into c | cal.1961-06-17.soviet-union |
+| III, 239.0 (219) | June 29, 1961 | entered (vol. III only): a note to Albania | cal.1961-06-29.soviet-union-leadership |
+| 239 (I, 529; III, 220) | Oct. 7, 1961 | in the tree; III cited (A, E) | cal.1961-10-07.soviet-union |
+| III, 239.0.1–3 (219–20) | Oct. 11, 1961 | entered (vol. III only): by poll, the Albanian note not to be considered | cal.1961-10-11.soviet-union-leadership |
+| 240 (I, 529–31) | Dec. 3, 1961 | entered: a meeting at Khrushchev's, recorded as Protocol 7 | cal.1961-12-03.soviet-union-leadership |
+| III, 240.0 (221–22) | Dec. 15, 1961 | entered: the budget for 1962; Check: vol. I's editors say by poll, vol. III's a session | cal.1961-12-15.soviet-union-leadership |
+| 241 (I, 531–32; III, 222–32) | Dec. 28, 1961 | entered: the CPSU, the CPC and the Albanians; the economic agreement with China | cal.1961-12-28.soviet-union-leadership |
+
+### Passed over
+
+| Page | Date | Item | Ground |
+|---|---|---|---|
+| III, 119 | Apr. 13, 1960 | Voroshilov to Khrushchev, sending the record of his talk with Vasily Stalin | a covering note (R18); cited on cal.1960-04-09.soviet-union-leadership |
+| III, passim | 1960–61 | the ministries' and commissions' notes and drafts printed as a session's materials (the Foreign and Defense Ministries' note of Jan. 26, 1960; the tax commission's of Feb. 18, 1960; Kozlov's of Apr. 22, 1960; the Moscow City Committee's of Oct. 10, 1959 and Jan. 27, 1960; the Council of Ministers' of Mar. 18, 1961; Kosygin's of Feb. 13, 1961; Kuznetsov's of Oct. 6, 1961; Skachkov's, Dec. 1961) | a meeting's preparation (R18), each cited on the session it served, as the caller asked |
+
+### For the merger
+
+- The sessions of Dec. 30, 1960 and June 17, 1961 hold more decisions than their entries' `c`: the other items are in the new cites' parentheticals; an `edit` would put them in `c` in the session's order (the brief's form). The same for June 2, 1960, item XL (Kozlov to preside at the Secretariat).
+- cal.1960-05-04.soviet-union: its Check (nothing of Kosygin's Presidium seat in the notes) is answered by P 279/II (III, 127); the cite maps A–C.
+- No witnesses were written for this run (the brief asks none); the protocols and resolutions cited are registered as `x.` witnesses only where earlier batches did so.
+
+### Persons named with no name entry
+
+Kunaev, Rodionov (Kazakhstan); Kuzmin; Matskevich; Lysenko; Vasily Stalin, Timofeyev, Shcherbakov, Morozov; Gitalov, Manukovsky, Roswell Garst; Abrasimov; Grishin; Ustinov; Rudnev, Novikov, Korovushkin, Garbuzov; Ponomarev; Aidit; Lysov, Li Qiang, Skachkov; Lobanov, Kaganovich (in a cite only).
+
+## Batch 12 (1962–64)
+
+Reader: batch 12, the USSR share for Jan. 1962 to Oct. 1964 (October 1962, the pilot's, left out), Nov. 12, 2026; a restart of a reader stopped by an interruption, whose downloads and text files were used as they stood. Patch: `inbox/2026-11-12-b12-ussr-1962-64.yaml` (51 new entries, 40 cites; patch-check 0 errors, 8 warnings, below). No witnesses were written (the batch-12 brief asks none).
+
+### The copies
+
+Vols. I and III as the first reader of this restart fetched them from Drive (`1S5BJVMgeahEnBqre5tItBlITqVRmfYZX`, `1S2n-L-D_8BN8Zh8f_e5L5D9O5Zm-cl2X`), read by their text layers (`pdftotext -layout`), deleted when done. The offsets held: I, printed page = PDF page − 1; III, PDF page − 2 (the running heads throughout; page images rendered and read for I, 568 and III, 400, both agreeing with the text layer). Vol. I's share runs pp. 535–875 (nos. 242–322, less 261–268); vol. III's, pp. 237–775; the editors' notes of both read where cited.
+
+### How the share was read
+
+Every heading of vol. I from no. 242 to no. 322 was listed, and every heading of vol. III for the same numbers. Malin's notes were read in full; the stenograms (nos. 243, 251, 260, 270, 274, 279, 288, 293, 299, 302, 305, 314, 316) by their openings, their ends and a search for the passages the notes or the editors point to, not page by page. Vol. III's resolutions were read in full; its attached documents by their headings and first pages, the foreign ones further. Each session's day, and the day of any vol. III print, was searched in the calendar across all threads (`./bib ledger find`), and the Presidium entries of 1962–64 listed by `find` before writing.
+
+The rule followed where the calendar already held a session (mostly batch 4's entries from this book, and Fursenko and Naftali's): the vol. III resolutions and documents of that session cited on it (`cite`, units `?`, the parenthetical saying what the page bears and does not). Where the held entry tells one item and is on another thread (the missile crisis, Cuba, China, Berlin, Laos, testing, space), the session's other items were entered as one entry on `soviet-union-leadership`, as the pilot did ("The Presidium, after Cuba, ..."). Where a held entry on `soviet-union-leadership` told part of a session, the rest was entered beside it only when it was a separate decision (four cases, the warnings below); the c of the held entries was not edited (their claim maps would have needed rewriting).
+
+### Rows (session or print; ruling; entry)
+
+| Vol. I / III | Date | Ruling | Entry |
+|---|---|---|---|
+| 242–243; III, 237–51 | Jan. 8, 1962 | held; cite (P 11/I and the Berlin papers) | cal.1962-01-08.soviet-union |
+| III, 237–38 | Jan. 2, 1962 (Gromyko's note of Jan. 5) | held; cite | cal.1962-01-02.berlin-and-vienna |
+| III, 240–51 | Jan. 11, 1962 (the statement as approved) | held; cite | cal.1962-01-11.berlin-and-vienna |
+| III, 256–57 | Mar. 5, 1962 (P 22/43, no note in I) | entered | cal.1962-03-05.soviet-union-leadership |
+| 244 | Mar. 9, 1962 | entered | cal.1962-03-09.soviet-union-leadership |
+| 244 (cont.); III, 251–55 | Mar. 22, 1962 | entered | cal.1962-03-22.soviet-union-leadership |
+| 245; III, 255–56 | Mar. 29, 1962 | held; cite | cal.1962-03-29.soviet-union-2 |
+| III, 257–58 | Apr. 14, 1962 (P 26/12, by poll) | entered | cal.1962-04-14.soviet-union-leadership |
+| 246; III, 256 | Apr. 17, 1962 | held; cite | cal.1962-04-17.soviet-union |
+| 247; III, 278–79 | Apr. 28, 1962 | held; cite | cal.1962-04-28.berlin-and-vienna |
+| 248 | May 9 and 11, 1962 | held (batch 4), nothing new | cal.1962-05-09.berlin-and-vienna-2, cal.1962-05-11.soviet-union-3 |
+| III, 279–82 | May 11, 1962 (P 30/XII, no note in I) | entered | cal.1962-05-11.soviet-union-leadership |
+| 249; III, 282 | May 21 and 24, 1962 | held; cite on May 21 | cal.1962-05-21.soviet-union |
+| 250–251; III, 282–83 | May 31, 1962 | held; cite | cal.1962-05-31.soviet-union |
+| III, 258–78 | May 31, 1962 (P 33/I, the letter to the CPC, no note in I) | entered | cal.1962-05-31.soviet-union-leadership |
+| 252 | June 10, 1962 | held (Cuba), cite; Novocherkassk entered | cal.1962-06-10.missile-crisis; cal.1962-06-10.soviet-union-leadership |
+| 253; III, 284 | June 21, 1962 | entered | cal.1962-06-21.soviet-union-leadership |
+| 254; III, 284–87 | July 1, 1962 | held (Berlin, Cuba), cite; items XIII, XVII entered | cal.1962-07-01.berlin-and-vienna; cal.1962-07-01.soviet-union-leadership |
+| 255; III, 287–310 | July 6, 1962 | held (Cuba), cite; biology entered | cal.1962-07-06.missile-crisis; cal.1962-07-06.soviet-union-leadership |
+| 256; III, 310–11 | July 12, 1962 | held (Cuba), cite; the plan entered | cal.1962-07-12.cuba; cal.1962-07-12.soviet-union-leadership |
+| 257; III, 311–12 | July 26, 1962 | entered | cal.1962-07-26.soviet-union-leadership |
+| 258; III, 312–17 | Aug. 2, 1962 | entered | cal.1962-08-02.soviet-union-leadership |
+| 259; III, 317 | Aug. 20, 1962 (protocol dated Aug. 23) | entered | cal.1962-08-20.soviet-union-leadership |
+| 260 | Sept. 20, 1962 | entered | cal.1962-09-20.soviet-union-leadership |
+| 269–270; III, 392 | Nov. 5, 1962 | entered | cal.1962-11-05.soviet-union-leadership |
+| 271 | Nov. 16, 1962 | held, already cites I and III | cal.1962-11-16.soviet-union |
+| III, 399–403 | Nov. 21, 1962 (P 68/II, the message to Mikoyan) | entered | cal.1962-11-21.soviet-union-leadership |
+| 272 | Nov. 21–22, 1962 | held (Laos; Nov. 22), already cited | cal.1962-11-21.laos, cal.1962-11-22.soviet-union |
+| 273–274; III, 404–07 | Nov. 29, 1962 | entered | cal.1962-11-29.soviet-union-leadership |
+| 275; III, 407–09 | Dec. 3, 1962 | held; cite (Khrushchev's speech) | cal.1962-12-03.soviet-union |
+| III, 410–18 | Dec. 26, 1962 (Khrushchev's note on diamonds) | entered | cal.1962-12-26.soviet-union-leadership |
+| III, 421–28 | Dec. 28, 1962 (Kuznetsov's telegram) | entered | cal.1962-12-28.missile-crisis-settlement |
+| 276; III, 409–31 | Dec. 30, 1962 | held; cite | cal.1962-12-30.soviet-union |
+| 277; III, 431–35 | Jan. 2, 1963 | held; cite | cal.1963-01-02.soviet-union |
+| 278–279; III, 435–36 | Jan. 9, 1963 | entered | cal.1963-01-09.soviet-union-leadership |
+| 280 | Jan. 24, 1963 | held, already cites I and III | cal.1963-01-24.europe-and-the-alliance-france-2 |
+| 281; III, 436–37 | Jan. 29, 1963 | held; cite | cal.1963-01-29.china |
+| 281 (cont.) | Jan. 31, 1963 | entered | cal.1963-01-31.soviet-union-leadership |
+| 282 | Feb. 7, 1963 | held, already cites I and III | cal.1963-02-07.soviet-union |
+| 283; III, 439–52 | Feb. 15, 1963 | entered | cal.1963-02-15.soviet-union-leadership |
+| 284 | Feb. 28, 1963 | entered | cal.1963-02-28.soviet-union-leadership |
+| 285; III, 452–53 | Mar. 12, 1963 | held (China), cite; the VSNKh entered | cal.1963-03-12.china; cal.1963-03-12.soviet-union-leadership |
+| III, 463–64 | Mar. 13, 1963 (P 87/50, by poll) | entered | cal.1963-03-13.soviet-union-leadership |
+| 286; III, 464–65 | Mar. 21, 1963 | held; cite | cal.1963-03-21.soviet-union-space |
+| III, 482–84 | Apr. 2, 1963 (the report on Cousins) | entered | cal.1963-04-02.testing |
+| III, 484–96 | Apr. 3, 1963 (Dobrynin's record) | held; cite | cal.1963-04-03.soviet-union |
+| III, 496–99 | Apr. 7, 1963 (Dobrynin and Thompson) | entered | cal.1963-04-07.soviet-union |
+| III, 499–502 | Apr. 11, 1963 (Kennedy's message) | held; cite | cal.1963-04-11.testing |
+| III, 502–13 | Apr. 12, 1963 (Khrushchev and Cousins) | held; cite | cal.1963-04-12.testing |
+| III, 477–82 | Apr. 20, 1963 (Khrushchev's note) | entered | cal.1963-04-20.soviet-union-leadership |
+| 287–288; III, 465–513 | Apr. 25, 1963 | held; cite (P 94/II; the materials) | cal.1963-04-25.testing |
+| 289; III, 513 | May 3, 1963 | entered | cal.1963-05-03.soviet-union-leadership |
+| 289 (cont.); III, 513–17 | May 6, 1963 | entered | cal.1963-05-06.soviet-union-leadership |
+| 290; III, 517–20 | May 8, 1963 | entered (Check: the day, May 9 by the editors) | cal.1963-05-08.soviet-union-leadership |
+| 291; III, 520–34 | May 16, 1963 | entered | cal.1963-05-16.soviet-union-leadership |
+| 292–293; III, 534–36 | June 7, 1963 | entered | cal.1963-06-07.soviet-union-leadership |
+| 294; III, 536–47 | June 10 and 13, 1963 | held; cites | cal.1963-06-10.soviet-union, cal.1963-06-13.soviet-union |
+| III, 456–63 | July 18, 1963 (Khrushchev's note on capital construction) | entered | cal.1963-07-18.soviet-union-leadership |
+| 295; III, 547–55 | July 23–24, 1963 | held; cite | cal.1963-07-23.china |
+| 296; III, 555 | Aug. 1, 1963 | held; cite | cal.1963-08-01.soviet-union |
+| 297; III, 555–64 | Sept. 4, 1963 | held; cite | cal.1963-09-04.soviet-union |
+| III, 566–74, 584–92 | Sept. 5, 1963 (Khrushchev's two notes) | entered | cal.1963-09-05.soviet-union-leadership |
+| 298–299; III, 564–92 | Sept. 10, 1963 | entered | cal.1963-09-10.soviet-union-leadership |
+| 300; III, 592–613 | Oct. 21, 1963 (Check: the day, Oct. 25 by the editors) | entered | cal.1963-10-21.soviet-union-leadership |
+| III, 594–97 | Oct. 23, 1963 (P 120/33, by poll) | entered | cal.1963-10-23.soviet-union-leadership |
+| III, 598–607 | Oct. 24, 1963 (P 120/36, 37, 43, by poll) | entered | cal.1963-10-24.soviet-union-leadership |
+| 301–302; III, 613–14 | Nov. 10, 1963 | entered | cal.1963-11-10.soviet-union-leadership |
+| 303; III, 614–22 | Nov. 26, 1963 (protocol dated Dec. 4) | held; cites | cal.1963-11-26.soviet-union-2, cal.1963-12-04.cuba |
+| 304–305; III, 622–33 | Dec. 23, 1963 | held (schools), cite; items I and XI entered | cal.1963-12-23.soviet-union; cal.1963-12-23.soviet-union-leadership |
+| 306; III, 633–43 | Jan. 9, 1964 | entered | cal.1964-01-09.soviet-union-leadership |
+| 307 | Mar. 5, 1964 | entered | cal.1964-03-05.soviet-union-leadership |
+| 308; III, 643 | Mar. 20, 1964 | held; cite | cal.1964-03-20.soviet-union |
+| 309; III, 644–77 | Apr. 23, 1964 | entered | cal.1964-04-23.soviet-union-leadership |
+| 310; III, 677 | May 26, 1964 | held; cite | cal.1964-05-26.soviet-union |
+| 311; III, 678–96 | June 4, 1964 | held; cite | cal.1964-06-04.soviet-union |
+| 312; III, 696 | July 2, 1964 | entered | cal.1964-07-02.soviet-union-leadership |
+| 313; III, 696–727 | July 30, 1964 | held; cite | cal.1964-07-30.soviet-union |
+| 314 | Aug. 19, 1964 (the trip stenogram) | entered; the border principles held | cal.1964-08-19.soviet-union-leadership; cal.1964-08-19.china |
+| 315–316; III, 729–35 | Sept. 10, 1964 | entered | cal.1964-09-10.soviet-union-leadership |
+| 317; III, 735–41 | Sept. 17, 1964 | entered | cal.1964-09-17.soviet-union-leadership |
+| 318; III, 741–50 | Sept. 25, 1964 | held; cite | cal.1964-09-25.soviet-union |
+| 319; III, 750–67 | Oct. 8, 1964 | held; cite | cal.1964-10-08.soviet-union |
+| 320; III, 767–71 | Oct. 13–14, 1964 | held; cites (I, 865–71; P 164/I) | cal.1964-10-13.soviet-union, cal.1964-10-14.soviet-union |
+| III, 768–70 | Oct. 14, 1964 (the plenum's resolution, Khrushchev's statement) | held, already cited | cal.1964-10-15.soviet-union |
+| 321; III, 771–72 | Oct. 22, 1964 | entered | cal.1964-10-22.soviet-union-leadership |
+| 322; III, 772–75 | Oct. 27, 1964 (and P 168/12, Oct. 28) | entered | cal.1964-10-27.soviet-union-leadership |
+
+The plenum of Oct. 14, 1964: vol. I prints no stenogram of it (no. 320 is the Presidium's two days; nos. 321–322 follow); vol. III prints its resolution and Khrushchev's statement (768–70), which `cal.1964-10-15.soviet-union` already cites. The sessions of Oct. 22 and 27, after the plenum, were taken as within "through Oct. 1964".
+
+### Passed over
+
+| Page | Date | Item | Ground |
+|---|---|---|---|
+| III, 518–20 | May 7, 1963 | P 96/16, by poll: Lesechko and Garbuzov to the Comecon Executive Committee in Warsaw, May 10–13 | routine (a delegation's travel and experts); named in the n of cal.1963-05-08 |
+| III, 431 | Jan. 4, 1963 | P 76/18, by poll: the delegation to the SED's congress | the decision Malin's notes of Jan. 2 record; cited on cal.1963-01-02 |
+| III, 433–35 | June 14, 1962 | the Culture Department's note on Ehrenburg's memoirs | a department's note, material of Jan. 2, 1963; cited there |
+| III, 406–07 | Nov. 20, 1962 | the artists' letter to the plenum | material of the session of Nov. 29; cited there |
+| III, 252–55 | Feb. 23, 1962 | Grossman's letter to Khrushchev | material of Mar. 22; in its c |
+| III, 559 | Aug. 31, 1963 | Dobrynin's telegram on the Soviet trawlers off the east coast | material of Sept. 4; cited there (the held entry names it) |
+| III, 647–60 | Apr. 8, 1964 | Kosygin's delegation's report on Italy, Mar. 17–27 (talks with Moro, Segni, Saragat, Nenni, the industrialists) | material of Apr. 23; cited there. The talks in Italy themselves are events the calendar does not hold: a lead for a reader of the Italian or the Soviet record |
+
+### For the merger
+
+- patch-check's eight warnings are four pairs: cal.1962-05-11.soviet-union-leadership (P 30/XII, the note to the three powers) beside the letter to Castro and the defense session of May 11; cal.1962-05-31.soviet-union-leadership (the letter to the CPC) beside the economic session; cal.1962-07-01.soviet-union-leadership (Moskalenko, Leningrad) beside the McNamara entry; cal.1963-12-23.soviet-union-leadership (chemistry, the Cuban delegation) beside the schools. Each is a different decision of the session: `--take keep`. If the owner holds one session to one entry here too, the new entries' c can be folded into the held ones (the held ones carry claim maps that would need their rows rewritten).
+- Two Checks on the day: vol. III's editors put the sessions of Protocols 96 (May 9, 1963) and 120 (Oct. 25, 1963, Brezhnev presiding) on other days than Malin's notes (May 8 and Oct. 21).
+- Persons named with no name entry (not tagged): Firyubin; Zasyadko, Novikov, Ustinov, Rudnev; Grossman; Basov, Semichastny, Ivashutin; Moskalenko, Yuferov; Keldysh, Olshansky, Zhebrak, Lysenko; Ishkov; Rákosi; Garbuzov, Saburov, Gomułka; Ilyichev; Shepilov; Rashidov; Kuzmin, Mazzolini; Baibakov; Yang Shangkun; Cousins, John XXIII; Lesechko, Zhukov; Ibárruri, Stil, Surkov, Ehrenburg, Zhivkov, Togliatti; Lomako; Plimpton; Husák; Volovchenko, Nasriddinova, Kekkonen; Sorge; Vinogradov; L. V. Smirnov (not A. A. Smirnov, who has one); Volkov. Ponomarev and Andropov have keys in `sources/polities.yaml` but no name entry: named, not tagged.
+
+## Audit (batch 12, 1960–61)
+
+Auditor: Claude, Nov. 12, 2026, of the reader's patch `inbox/2026-11-12-b12-ussr-1960-61.yaml` (17 adds, 15 cites); the audited patch `inbox/2026-11-12-b12-ussr-1960-61-audited.yaml` (patch name and ids the reader's; patch-check 0 errors, 0 warnings). Vols. I and III fetched again from Drive into a new directory (`books/b12-prez-a-audit/`, PDF 1.5 and 1.6), read page by page by their text layers (I, 415–532, 1068–93; III, 71–232, 992–93); offsets held (I, PDF − 1, at 419; III, PDF − 2, at 99); page images read for I, 531 and 1092 and III, 222; copies, texts and images deleted when done. Each session read blind, then each op against the pages and the tree (`show`, `claims show`, `find` a few days around, all threads; `ledger find`). No duplicates: Jan. 20, 1961 (the plenum's results, Aristov to Warsaw) is not cal.1961-01-20.soviet-union (the greetings to Kennedy), and Mar. 23, 1961 (Protocol 320, the control figures, Kozlov presiding) is not cal.1961-03-25.soviet-union (Protocol 321, Khrushchev's farm meetings), whose Check already names it. Rulings: 21 right, 11 fixed, none dropped (a third of the ops). Fixed: Feb. 25, 1960, III's pages 106–16, not 106–14; Mar. 3, 1960, III, 77–80, and made public 2003 (I, 1070 n.2) as well as 2008; Apr. 9, 1960, "Moscow" not on the page; Jan. 20, 1961, Garst invited, not "brought in"; Mar. 23, 1961, P 320/I does not approve the main lines but sends them out with the amendments (the Council of Ministers' note asks that they not be approved), and the draft decree by June 1; Dec. 3, 1961, "item 19", and the stipends as Malin has them (the "named" stipends are the editors' gloss, I, 1093 n.8); Dec. 15, 1961, its Check recorded no disagreement (both volumes have a session of Dec. 15, Kozlov presiding, and the resolution by poll: I, 1092 n.1; III, 221 n.a, 992 n.1): the Check taken out, the poll put in `c`; Dec. 28, 1961, Ponomarev's report was its own item, not part of item XXVIII, the resolution three departments' redrafts, not new instructions, vol. I's item XXVIII against III's XXXVIII noted, III's notes on 992 only; the cite on cal.1960-01-08.soviet-union-2, III prints the request's heading only (units '?', not A), and the Prague item stands above the heading of Jan. 8 on I, 419, not on the page before; on cal.1960-05-04.soviet-union, nothing in III makes the changes Khrushchev's (units B-C, not A-C); on cal.1961-02-16.soviet-union, P 315/I does take up the cows (the Secretariat on Krasnodar's mass delivery of cows for meat in 1959), and Garst's letter of Jan. 16, 1961; III's pages 144–58. Left for the merger: the Kirichenko Prague item (I, 419; III, 207.2) and the other items of Dec. 30, 1960, June 2, 1960 and June 17, 1961 sit in cites' parentheticals, not in `c`; item VI of Jan. 28, 1960 (the ring road) is in the note of Mar. 3, not on the entry of Jan. 28; cal.1961-04-06.soviet-union-2's note has "item V" where III has P 323/VI (I's "VI" with a note mark); cal.1960-05-04.soviet-union's Check is answered by P 279/II.
