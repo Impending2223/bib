@@ -1,4 +1,4 @@
-# Hand-off, Nov. 10, 2026 (updated the evening of Nov. 12): where the work stands
+# Hand-off, Nov. 10, 2026 (updated the night of Nov. 12–13): where the work stands
 
 For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The owner's standing rules: working hours (CLAUDE.md); ask before deleting anything of theirs; never change a Drive file's sharing; no model ids in commits.
 
@@ -24,6 +24,13 @@ Done this evening: the splits and the press list; visibility phase 1 and the Oct
 - (e) The Toots Shor's dinner stays on Saturday: the owner's condition ("if there's no citation, authority or witness that says 'Saturday'") fails, Bernstein, 486, says Saturday; the Check and O'Brien's variant stand.
 - Batch 12 (six readers; restarted once after an interruption at 5:20 p.m.): NYT Feb. 18, Sept. 7 and Sept. 8, 1960; the *Prezidium* 1960–61 and 1962–64; the *Văn kiện Đảng* 1960–61 and 1962–64 (`w.van-kien-dang-toan`, made by the 1960–61 reader). Each patch audited by Opus (`-audited.yaml`) before merging.
 - Still queued: (c) is in batch 12; (m) done (PR #172); (n) H.R. 7152 by its texts (the Drive's hearings, reports and books); (p) Martin and Mitchell, then the NSA release's other items; (q) the holdouts register preview (after the Sept. 7 state entry merges); Zhai's 43 rows and the two Gaiduks; the `form:state` rendering.
+
+## The night of Nov. 12–13 (batch 13; PR #173 merged to main, 9 p.m.)
+- PR #173 merged: batch 12 as audited; the half-year pages (1965 in quarters) with old links forwarded; subentries (`part_of`, sibling `follows`; July 19, 1961, Feb. 17 and Sept. 7, 1960 converted); the standing-condition label "As reported" and the register on cal.html (the owner: "As reported. Every standing condition, grouped by thread."); the periodical, translation and series cards.
+- Batch 13 (`notes/briefs/batch13.md`; the owner: "Please, go ahead"), five Sonnet agents, each patch to be audited by Opus before merging: A, the split news conferences into subentries; B, the Presidium's same-session items into subentries; C, H.R. 7152 by its texts (cards, a cite a version; report `notes/book-checks/hr7152-texts.md`); D, Purdum; E, Risen.
+- Done by hand: the Indus statement opening Sept. 7, 1960 (`cal.1960-09-07.south-asia`, the first subentry); the answered Check on `cal.1960-05-04.soviet-union` struck. Held until batch 13B merges: `cal.1961-04-06.soviet-union-2` says "item V" (P 323/VI).
+- Leads: the Indus Waters Treaty, signed Sept. 19, 1960 (Karachi), in no entry.
+- Offered to the owner, not ruled: a parent greyed only when all its subentries are; the passed-over commemorations and provincial items of the DRV volumes.
 
 ## The night of Nov. 11–12 (batches 10 and 11; PR #168, PR #169 and PR #170 merged to main)
 - The owner's rulings of the night (verbatim in `notes/owner-brief.md`): foreign elections on their own election night; a press item at its first public distribution, the morning edition where the edition is unknown; the *Post*'s bulldog the evening before, 9:30 p.m.; the *National Guardian* on its press day; elections keep the range, report the polls' closing ("Polls close ..."), pinned at 11:59 p.m.; a `follows` trumps a kind-placed range (Percy); visibility rolled out to every calendar page; the NLF folded into the DRV, the presumption reversed (the Party's and the Front's acts in the South not presumed known to Saigon); foreign persons get name entries (126 made); Li Zhisui and Chang and Halliday read like any other book, after Pantsov.
