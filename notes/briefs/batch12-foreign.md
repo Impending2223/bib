@@ -21,3 +21,9 @@ The Drive's PDFs carry a text layer in the old TCVN3 font encoding: convert with
 ## Patches
 
 `inbox/2026-11-12-b12-<polity>-<YYYY>.yaml`; new ids `./bib new-id`, `./bib ledger add ... <patch>`; `./bib patch-check` to 0 errors. A book-check section in the work's file (`notes/book-checks/<card-short>.md`; append only, under a heading of your year). Do not merge or commit. Last message: the counts, the pages read, the persons with no name entry, the documents passed over and why, anything doubtful.
+
+## The owner's rulings of Nov. 12, evening
+
+- The DRV's routine Party circulars stay entries ("we just don't know much about what's happening up there, so we should keep what few clues we have"); commemorations and provincial matters are still passed over and listed.
+- A foreign person on FRUS's lists of persons has a name entry (the Names pages: `sources/frus-names/persons.json`): tag `name:<key>` with the key the calendar already uses for the person (`./bib find -t name:<surname>...`), else the FRUS key; where FRUS has several persons of the surname, tag only the one the record names (Marshal G. K. Zhukov is not Yuri Zhukov of *Pravda*).
+

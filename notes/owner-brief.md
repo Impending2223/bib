@@ -558,3 +558,8 @@ On Martin and Mitchell (none in the calendar): the NSA 60th Anniversary release 
 On non-events (the *Times*, Sept. 7, 1960: Byrd's failure to endorse the ticket; Russell and Talmadge silent): "I mean, we can try the register—preview it for me—but I think we have to modify our rule, at least here, to apprise readers of an important matter of public knowledge at a moment when we know, by virtue of the NYT's report, that it is a matter of public knowledge, and not on Election Day, at the moment when it ceases to be important. Give me the report on the NYT's publication day, not just in the massed crowd of tables on Election Day, or in some never-read-by-Human-eyes yaml."
 
 "I don't know if this is important enough to go in the brief for 99% of our readers, Claude. Aren't we still trying to keep the reader slim, rather than fatten it up with more one-off items "Rule N+1: ABC (Owner's words, Nov. 12, 2026: XYZ)?" (So: the newspaper batch brief and `notes/guide/entries.md` only.)
+
+## Nov. 12, 2026, evening (batch 12)
+
+- On the DRV's routine Party circulars (Party cells, staff and the like, entered by the *Văn kiện Đảng* readers): "Keep the routine party circulars. (We might drop or trim them if our DRV thread ever gets crowded, but we just don't know much about what's happening up there, so we should keep what few clues we have.)"
+- On name tags for foreign persons on FRUS's lists of persons (Gomułka, Togliatti, Zhivkov, Kekkonen and others named in the Presidium and Party entries): "Add the foreign FRUS names."
