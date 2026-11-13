@@ -41,7 +41,7 @@ entries:
         - 'via x.1962-07-01.presidium-protocol-39: B-G, I-J'
         - 'w.prezidium-tsk-kpss-1954 III, 284–85: ?'
         - 'w.poole-joint-chiefs-of-staff 31–32: G'
-    tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul]
+    tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul, vis:only:ussr]
     aliases: [cal.1962-07-01.soviet-union]
     time_range:
       - 1962-07-01T06:00Z
@@ -199,7 +199,7 @@ entries:
       c: 129ff569
       rows:
         - 'w.fursenko-khrushchevs-cold-war 444: all'
-    tags: [name:castro-raul, name:khrushchev-nikita-s]
+    tags: [name:castro-raul, name:khrushchev-nikita-s, vis:only:ussr+cuba]
     time_range:
       - 1962-07-03T06:00Z
       - 1962-07-03T14:00Z
@@ -360,7 +360,7 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 571: A-B'
         - 'via x.1962-07-06.presidium-protocol-40: A-B'
         - 'w.prezidium-tsk-kpss-1954 III, 310: ?'
-    tags: [name:khrushchev-nikita-s, name:castro-raul]
+    tags: [name:khrushchev-nikita-s, name:castro-raul, vis:only:ussr]
     time_range:
       - 1962-07-06T06:00Z
       - 1962-07-06T14:00Z
@@ -449,7 +449,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 192 n.36: B'
         - 'via w.fursenko-one-hell-of-a 193 n.42a: C'
         - 'via w.fursenko-one-hell-of-a 193 n.42b: C'
-    tags: [name:khrushchev-nikita-s, name:castro-raul]
+    tags: [name:khrushchev-nikita-s, name:castro-raul, vis:only:ussr]
     time_range:
       - 1962-07-07T06:00Z
       - 1962-07-07T14:00Z
@@ -467,7 +467,7 @@ entries:
       c: 9f60b3ed
       rows:
         - 'w.fursenko-khrushchevs-cold-war 444: all'
-    tags: [name:castro-raul, name:khrushchev-nikita-s]
+    tags: [name:castro-raul, name:khrushchev-nikita-s, vis:only:ussr+cuba]
     time_range:
       - 1962-07-08T06:00Z
       - 1962-07-08T14:00Z
@@ -2263,6 +2263,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 450–51: all'
         - 'via w.fursenko-khrushchevs-cold-war 450 n.42: A'
+    tags: [vis:only:ussr]
   - id: cal.1962-07-25.georgia-albany-2
     when: July 25
     date: '1962-07-25'

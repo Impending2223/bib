@@ -164,7 +164,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 394: all'
         - 'via w.fursenko-khrushchevs-cold-war 394 n.32: all'
-    tags: [name:chen-yi, name:gromyko-andrei]
+    tags: [name:chen-yi, name:gromyko-andrei, vis:only:ussr+prc]
   - id: cal.1961-07-05.defense-2
     when: July 5
     date: '1961-07-05'
@@ -1163,8 +1163,9 @@ entries:
     date: '1961-07-19'
     time: 1961-07-19T14:00Z
     thread: transition-and-staff
+    follows:
+      - cal.1961-07-19.school-aid
     part_of: cal.1961-07-19.press-and-broadcasting
-    follows: [cal.1961-07-19.school-aid]
     c: 'Bowles: he has never asked for Bowles''s resignation, nor has Bowles offered it; "I have a high regard for Mr. Bowles."'
     n: '[1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571), at 518–19. [[w.schlesinger-thousand-days-1965]], 442 (Bowles''s regard). [[w.sorensen-kennedy]], 289 (the press conference on Bowles). See [[cal.1961-07-17.transition-and-staff]]. Names: Kennedy, Bowles.'
     src:
@@ -1181,8 +1182,9 @@ entries:
     time: 1961-07-19T14:00Z
     thread: berlin-and-vienna
     also: [soviet-union]
+    follows:
+      - cal.1961-07-19.transition-and-staff
     part_of: cal.1961-07-19.press-and-broadcasting
-    follows: [cal.1961-07-19.transition-and-staff]
     c: 'Menshikov''s reported remark that the United States would not fight for Berlin: West Berlin "a very basic issue," and "we intend to honor our commitments."'
     n: '[1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571), at 520. [[w.sorensen-kennedy]], 586 (Menshikov; the Ambassador departing; "when the chips are down"). Names: Kennedy, Menshikov.'
     src:
@@ -1300,8 +1302,9 @@ entries:
     date: '1961-07-19'
     time: 1961-07-19T14:00Z
     thread: school-aid
+    follows:
+      - cal.1961-07-19.berlin-and-vienna-4
     part_of: cal.1961-07-19.press-and-broadcasting
-    follows: [cal.1961-07-19.berlin-and-vienna-4]
     c: 'The school bills held in Rules: "we were defeated in the Rules Committee by a vote of 8 to 7"; seven of the eight "not sympathetic to the legislation nor supported me in the last election." The House has procedures to bring the bill to a vote; "probably the most important piece of domestic legislation."'
     n: '[1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571), at 516. [[w.graham-uncertain-triumph]], 23. Check: Graham, 23, quotes "who were in the last election." Names: Kennedy.'
     src:
@@ -1482,6 +1485,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 375: all'
         - 'via w.fursenko-khrushchevs-cold-war 375 n.42: all'
+    tags: [vis:only:ussr+gdr]
   - id: cal.1961-07-21.right-and-the-military
     when: July 21
     date: '1961-07-21'
@@ -1739,7 +1743,7 @@ entries:
       c: 0ffa7975
       rows:
         - 'w.fursenko-khrushchevs-cold-war 375–78: all'
-    tags: [name:khrushchev-nikita-s, name:pervukhin-mikhail-georgievich, name:ulbricht-walter]
+    tags: [name:khrushchev-nikita-s, name:pervukhin-mikhail-georgievich, name:ulbricht-walter, vis:only:ussr+gdr]
     time_range:
       - 1961-07-26T06:00Z
       - 1961-07-26T14:00Z
@@ -1807,7 +1811,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 378: all'
         - 'via w.fursenko-khrushchevs-cold-war 378 n.54: all'
-    tags: [name:ulbricht-walter, name:pervukhin-mikhail-georgievich]
+    tags: [name:ulbricht-walter, name:pervukhin-mikhail-georgievich, vis:only:ussr+gdr]
     time_range:
       - 1961-07-27T08:00Z
       - 1961-07-27T16:00Z
@@ -1949,6 +1953,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 388 n.5: all'
         - 'via w.fursenko-khrushchevs-cold-war 388 n.5: all'
+    tags: [vis:only:ussr+poland]
     time_range:
       - 1961-07-29T06:00Z
       - 1961-07-29T14:00Z
@@ -2048,7 +2053,7 @@ entries:
         - 'w.fursenko-one-hell-of-a 132–34: all'
         - 'via w.fursenko-one-hell-of-a 132 n.1: all'
         - 'via w.fursenko-one-hell-of-a 134 n.2: C'
-    tags: [name:khrushchev-nikita-s, name:sakharov-andrei-d, name:kennedy-john-f]
+    tags: [name:khrushchev-nikita-s, name:sakharov-andrei-d, name:kennedy-john-f, vis:only:ussr]
   - id: cal.1961-07.republican-party
     when: July
     date: 1961-07
@@ -2340,7 +2345,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 388: all'
         - 'via w.fursenko-khrushchevs-cold-war 388 n.5: all'
-    tags: [name:spaak-paul-henri]
+    tags: [name:spaak-paul-henri, vis:only:ussr+belgium+poland]
   - id: cal.1961-07.press-and-broadcasting
     when: July
     date: 1961-07

@@ -38,7 +38,7 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 422–35: all'
         - 'via x.1960-02-01.presidium-stenogram: all'
         - 'w.prezidium-tsk-kpss-1954 III, 83–96: A, E'
-    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:gromyko-andrei, name:de-gaulle-charles]
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:gromyko-andrei, name:de-gaulle-charles, vis:only:ussr]
     time_range:
       - 1960-02-01T06:00Z
       - 1960-02-01T14:00Z
@@ -309,7 +309,7 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 297 n.25: all'
         - 'w.fursenko-one-hell-of-a 38: all'
         - 'via w.fursenko-one-hell-of-a 38 n.15: all'
-    tags: [name:castro-fidel]
+    tags: [name:castro-fidel, vis:only:ussr+cuba]
     time_range:
       - 1960-02-07T14:00Z
       - 1960-02-07T22:00Z
@@ -467,7 +467,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 38: all'
         - 'via w.fursenko-one-hell-of-a 38 n.17: all'
-    tags: [name:guevara-ernesto, name:castro-fidel, name:mikoyan-anastas]
+    tags: [name:guevara-ernesto, name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba]
     time_range:
       - 1960-02-10T14:00Z
       - 1960-02-10T22:00Z
@@ -763,7 +763,7 @@ entries:
     when: Feb. 17
     date: '1960-02-17'
     thread: press-and-broadcasting
-    c: 'Eisenhower''s news conference, the Executive Office Building, 10:29 to 11:02 a.m.; 205 present.'
+    c: Eisenhower's news conference, the Executive Office Building, 10:29 to 11:02 a.m.; 205 present.
     n: 'The President''s News Conference of February 17, 1960, [1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241) (189–99; the note, 199: the hour and the count). [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 2, 12, 17 (Jack Raymond, "Angry President Denies He Misled U. S. on Defenses," at 1, 12; W. H. Lawrence, "Eisenhower Cool to Fight in Party on Second Place," at 1, 17; James Reston, "Capital Considers a Tougher Policy on Castro Regime," at 1, 2; Felix Belair Jr., "President Scoffs at Tour Dangers," page not shown). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
     time_range:
@@ -783,8 +783,9 @@ entries:
     date: '1960-02-17'
     thread: republican-party
     also: [elections-1960]
+    follows:
+      - cal.1960-02-17.latin-america-2
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.latin-america-2]
     c: 'The Vice-Presidential nominee: no reason for the contenders to abstain from primaries; the Presidential nominee must have "some say"; in 1952 he gave the Convention a list of men "completely acceptable to me."'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 190. [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17 (Lawrence). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -792,8 +793,9 @@ entries:
     when: Feb. 17
     date: '1960-02-17'
     thread: cuba
+    follows:
+      - cal.1960-02-17.republican-party
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.republican-party]
     c: 'Cuban sugar: the Cuban people, "who are our friends," to be "treated justly."'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 190–91. [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 2 (Reston). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -802,8 +804,9 @@ entries:
     date: '1960-02-17'
     thread: farm
     also: [elections-1960]
+    follows:
+      - cal.1960-02-17.cuba-2
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.cuba-2]
     c: 'The farm message and Farm Belt votes: "I would hope that it would appeal to a lot of people and, therefore, get more votes; of course I do."'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 191. [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17 (Lawrence: as "one hope" of the message to win Farm Belt votes, not his words). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -811,8 +814,9 @@ entries:
     when: Feb. 17
     date: '1960-02-17'
     thread: latin-america
+    follows:
+      - cal.1960-02-17.farm
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.farm]
     c: 'His safety on the tour, after Nixon''s troubles: the Secret Service "have said no word to me about it"; "you just can''t worry about these things."'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 192–93. [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html) (Belair, page not shown: his words as one "just can''t worry about such things"). Names: Eisenhower, Nixon.'
     tags: [name:eisenhower-dwight-d, name:nixon-richard-m]
@@ -820,8 +824,9 @@ entries:
     when: Feb. 17
     date: '1960-02-17'
     thread: elections-1960-nixon
+    follows:
+      - cal.1960-02-17.latin-america-3
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.latin-america-3]
     c: 'Nixon: "never once that I know of has Mr. Nixon been at any major variance with me."'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 195–96. [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17 (Lawrence). Names: Eisenhower, Nixon.'
     tags: [name:eisenhower-dwight-d, name:nixon-richard-m]
@@ -829,8 +834,9 @@ entries:
     when: Feb. 17
     date: '1960-02-17'
     thread: cuba
+    follows:
+      - cal.1960-02-17.elections-1960-nixon
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.elections-1960-nixon]
     c: 'The Administration''s Sugar Act proposals: no provision aimed at Cuba; "not yet ready to go to the Congress."'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 198. Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -839,8 +845,9 @@ entries:
     date: '1960-02-17'
     thread: defense
     also: [elections-1960]
+    follows:
+      - cal.1960-02-17.cuba-6
     part_of: cal.1960-02-17.press-and-broadcasting
-    follows: [cal.1960-02-17.cuba-6]
     c: 'Asked whether the administration has misled the people on defense: "If anybody—anybody—believes that I have deliberately misled the American people, I''d like to tell him to his face what I think about him. This is a charge that I think is despicable." Symington had made it.'
     n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 198–99. [[w.kallina-kennedy-v-nixon]], 89 (Symington''s charge; the answer). [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 12 (Raymond: the answer; the question a reporter''s, citing charges of complacency and of economy standing in the way of weapons, not Symington''s). To check: *New York Times*, [Feb. 20](https://timesmachine.nytimes.com/timesmachine/1960/02/20/issue.html), [Feb. 22](https://timesmachine.nytimes.com/timesmachine/1960/02/22/issue.html), and [Mar. 1, 1960](https://timesmachine.nytimes.com/timesmachine/1960/03/01/issue.html) (cited by [[w.kallina-kennedy-v-nixon]], 89 n.22). See [[cal.1960-01-26.defense]]. Names: Eisenhower, Symington.'
     src:
@@ -1074,7 +1081,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 293: all'
         - 'via w.fursenko-khrushchevs-cold-war 293 n.9: all'
-    tags: [name:qassim-abdul-karim]
+    tags: [name:qassim-abdul-karim, vis:only:ussr+iraq]
   - id: cal.1960-02-18.congress
     when: Feb. 18
     date: '1960-02-18'

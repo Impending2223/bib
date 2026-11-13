@@ -603,10 +603,6 @@ entries:
   - id: cal.1964-02-04.civil-rights-bill
     when: Feb. 4
     date: '1964-02-04'
-    time_range:
-      - 1964-02-04T17:00Z
-      - 1964-02-04T22:28Z
-    time_zone: America/New_York
     thread: civil-rights-bill
     c: House, Committee of the Whole, Title II. Willis of Louisiana's amendment to confine public accommodations to interstate travelers defeated, as is Meader's, to those on interstate or primary highways. Smith's, no one to be required to give labor or service "without his consent," refused, 149–107.
     n: '[110 Cong. Rec. 1933](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-5-2.pdf#page=36) (1964) (House, Feb. 4: Smith''s amendment; tellers, ayes 107, noes 149; rejected). [[w.bernstein-guns-or-butter]], 51 (Smith''s motion, "a restatement of the Thirteenth Amendment," defeated 149 to 107; Bernstein dates it Feb. 5); [[w.kotz-judgment-days]], 107–08; [[w.whalen-longest-debate]], 110 (Smith''s remark, struck from the Record, and his amendment, refused 107–149, late on Feb. 4); [[w.purdum-idea-whose-time-has-2014]], 190–92 (Title II on Tuesday, Feb. 4: Goodell''s amendment and Willis''s to it, by voice vote; Smith''s on labor or service "without his consent," 107 to 149; Meader''s, beaten 68 to 153, Purdum has on Feb. 5 (192); not Willis''s amendment on interstate travelers); [[w.risen-bill-of-the-century]], 158 (Feb. 4, Meader''s amendment to limit Title II to hotels serving interstate travelers defeated, Lindsay''s question, Udall''s verse; the day agrees with the entry, not Whalen''s Feb. 5; not Willis''s or Smith''s). The House sat from noon to 5:28 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D48](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=46). Check: Whalen, 111, has Meader''s amendment defeated Feb. 5, 68–153. Check: Purdum, 192, also has Meader''s amendment beaten Feb. 5, 68 to 153. To check: 110 Cong. Rec. 1917–27, 1932–33 (Feb. 4, 1964). Check: the days; Kotz has the House take up Title II "Wednesday, February 3." Names: Smith.'
@@ -623,6 +619,10 @@ entries:
         - 'w.purdum-idea-whose-time-has-2014 190–92: A, C'
         - 'w.risen-bill-of-the-century 158: ?'
     tags: [name:smith-howard-w]
+    time_range:
+      - 1964-02-04T17:00Z
+      - 1964-02-04T22:28Z
+    time_zone: America/New_York
     variants:
       - unit: B
         witness: w.purdum-idea-whose-time-has-2014
@@ -1927,7 +1927,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 352: all'
         - 'via w.fursenko-one-hell-of-a 352 n.50: all'
-    tags: [name:gromyko-andrei, name:johnson-lyndon-b, name:kennedy-john-f]
+    tags: [name:gromyko-andrei, name:johnson-lyndon-b, name:kennedy-john-f, vis:only:ussr]
     time_range:
       - 1964-02-11T06:00Z
       - 1964-02-11T14:00Z
@@ -4508,7 +4508,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 539: all'
         - 'via w.fursenko-khrushchevs-cold-war 539 n.31: all'
-    tags: [name:khrushchev-nikita-s]
+    tags: [name:khrushchev-nikita-s, vis:only:ussr+italy+uk]
   - id: cal.1964-02-29.robert-kennedy-2
     when: Feb. 29
     date: '1964-02-29'

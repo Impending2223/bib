@@ -2620,12 +2620,6 @@ entries:
   - id: cal.1964-05-20.civil-rights-bill
     when: May 19
     date: '1964-05-19'
-    time_range:
-      - 1964-05-19T13:00Z
-      - 1964-05-19T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
     thread: civil-rights-bill
     also: [republican-party-congress]
     c: 'Dirksen to reporters after a divided Republican conference: the bill will pass; civil rights "an idea whose time has come."'
@@ -2640,6 +2634,12 @@ entries:
         - 'w.risen-bill-of-the-century 219–20: B'
         - 'w.purdum-idea-whose-time-has-2014 292–93: ?'
     tags: [name:dirksen-everett]
+    time_range:
+      - 1964-05-19T13:00Z
+      - 1964-05-19T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-05-20.opinion
     when: May 20
     date: '1964-05-20'
@@ -2749,7 +2749,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 352–53: all'
         - 'via w.fursenko-one-hell-of-a 352 n.52: all'
-    tags: [name:johnson-lyndon-b, name:kennedy-john-f]
+    tags: [name:johnson-lyndon-b, name:kennedy-john-f, vis:only:ussr]
     time_range:
       - 1964-05-20T13:00Z
       - 1964-05-20T21:00Z
@@ -3660,7 +3660,7 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 822–25: all'
         - 'via x.1964-05-26.presidium-protocol-145: all'
         - 'w.prezidium-tsk-kpss-1954 III, 677: ?'
-    tags: [name:khrushchev-nikita-s, name:nasser-gamal-abdel, name:arif-abdul-salam-muhammad, name:gromyko-andrei]
+    tags: [name:khrushchev-nikita-s, name:nasser-gamal-abdel, name:arif-abdul-salam-muhammad, name:gromyko-andrei, vis:only:ussr]
     time_range:
       - 1964-05-26T06:00Z
       - 1964-05-26T14:00Z
