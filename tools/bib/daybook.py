@@ -85,8 +85,9 @@ STYLE:
     week (Sunday to Saturday; week 1 the first with four days in the year, so the week of Jan. 4: mmwr_week), its
     year added where it is not the Sunday's ("Week 1 of 1963" on Dec. 30, 1962), the week's span on hover, anchored
     `wk<date>`; the template's heading style, with the day's rule under it dropped. The Sunday wash of Nov. 4 is gone.
-    Renamed (the owner, Nov. 12, 2026): "W42: Oct. 13–19", the span in the heading (week_label); a week of another
-    year's MMWR count reads by its own number ("W1: Dec. 30–Jan. 5"). Each day a heading too, a level under the week:
+    Renamed (the owner, Nov. 12, 2026): "W42: Oct. 13–19", the span in the heading (week_label); "Week 42: Oct.
+    13–19" again from Nov. 13, the weeks being out of the top bar; a week of another year's MMWR count reads by its
+    own number ("Week 1: Dec. 30–Jan. 5"). Each day a heading too, a level under the week:
     the day's div carries `data-h`, `data-short` ("Wednesday, Oct. 16") and `data-crumb` ("16"), so the scroll's rail
     and the top bar take it (templates/list.html); the top bar reads "1963 / October / 16", the week left out of it.
 """
@@ -113,11 +114,12 @@ TM = "https://timesmachine.nytimes.com/timesmachine/{y}/{m:02d}/{d:02d}/issue.ht
 
 
 def week_label(n, sun, sat):
-    """The MMWR week's heading (STYLE 16): "W42: Oct. 13–19"; across a month, "W40: Sept. 29–Oct. 5" (the owner,
-    Nov. 12, 2026: "Rename the weeks from 'Week X' to 'WX: mmm d–d'")."""
+    """The MMWR week's heading (STYLE 16): "Week 42: Oct. 13–19"; across a month, "Week 40: Sept. 29–Oct. 5" (the
+    owner, Nov. 12, 2026: "Rename the weeks from 'Week X' to 'WX: mmm d–d'"; Nov. 13, with the weeks out of the top
+    bar: "we should restore the 'week' to the week headings")."""
     a = f"{MON[sun.month - 1]} {sun.day}"
     b = f"{sat.day}" if sat.month == sun.month else f"{MON[sat.month - 1]} {sat.day}"
-    return f"W{n}: {a}\u2013{b}"
+    return f"Week {n}: {a}\u2013{b}"
 
 _cache = {}
 

@@ -574,3 +574,7 @@ On `cal.1962-07.press-and-broadcasting-3`: "The Newsweek article of the followin
 On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from context ... whether the Byrd is the Virginia Byrd or the West Virginia Byrd ... (I'm thinking "Harry Byrd" and "Robert Byrd" where there aren't any cues I'd pick up on.)" (Done: the first bare mention in each entry, by its name tag; "Harry Byrd Jr." after Nov. 1965.)
 
 (Nov. 13, 12 a.m.) `cal.1963-06-20.civil-rights-bill`, Robert Kennedy's first day before Subcommittee No. 5, re-dated June 26, 1963 by the printed hearings (pt. 2, 1371), which three readers and the H.R. 7152 audit found; Mann's June 20 kept as a Check.
+
+## Nov. 13, 2026 (night)
+
+"Please do! And don't forget the Governors Hughes! Those two confused delegates and newscasters at the 1968 DNC. We've kind of stepped on the narrative of the next two days of entries with this first entry of July 10, 1962: "King and Abernathy choose jail over fines. Out July 12, the fines paid by an unnamed hand." Shouldn't we leave the second sentence for July 12? "Kaplan et al., *McNamara Ascendancy, 1961–1965*, 468" should be "Kaplan et al., *McNamara Ascendancy, 1961–1965*, at 468". Now that we've taken the weeks out of the top bar, we should restore the "week" to the week headings: "W29: July 15–21" should be "Week 29: July 15–21"" ("Please do!": the three rulings asked: combine the July 1, 1962 pair; re-date the Oct. 23, 1962 after-midnight item; split the Oct. 29, 1963 pair of calls; and the notes sweep's next steps.)

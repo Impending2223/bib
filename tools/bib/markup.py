@@ -34,6 +34,43 @@ def work_label(eid):
     return WORKS(eid) if WORKS and eid.startswith("w.") else None
 
 
+AT_PAGE = re.compile(r",\s+(?=\d)")
+
+
+def _visible(m):
+    """The text a work's reference shows (its short form, or its full citation's head), plain."""
+    eid, shown = m.group(1).strip(), m.group(2)
+    sf = work_label(eid)
+    if sf is None:
+        return None
+    if shown in FULL_MARKS and WORKS_FULL:
+        full = WORKS_FULL(WORKS_ID(eid))
+        if shown == "\x01head":
+            from . import works
+            full = works.split_full(full)[0]
+        sf = full
+    elif shown:
+        sf = shown
+    return re.sub(r"[*\[\]]|\([^)]*\)\s*$", "", sf).strip()
+
+
+def _at(text):
+    """Bluebook 3.2(a): a title ending in a numeral takes "at" before the page, so the page is not read as part of it
+    ("Kaplan et al., *McNamara Ascendancy, 1961–1965*, at 468"; the owner, Nov. 13, 2026). Arabic pages only: a
+    volume ("I, 556") or a document ("doc. 12") reads plainly."""
+    out, last = [], 0
+    for m in REF_RE.finditer(text):
+        v = _visible(m)
+        if v and re.search(r"\d$", v):
+            a = AT_PAGE.match(text, m.end())
+            if a:
+                out.append(text[last:m.end()] + ", at ")
+                last = a.end()
+                continue
+    out.append(text[last:])
+    return "".join(out) if len(out) > 1 else text
+
+
 def to_html(text, resolve=None):
     """resolve(id, shown_text) -> html for an internal reference, or None if unknown."""
     if text is None:
@@ -74,7 +111,7 @@ def to_html(text, resolve=None):
             after = ppp.note_paren(url, m.group(1), m.string[:m.start()], m.string[m.end():])
         return hold(f'<a href="{html.escape(url)}">{_inline(m.group(1))}</a>' + after)
 
-    t = REF_RE.sub(ref, text)
+    t = REF_RE.sub(ref, _at(text))
     t = LINK_RE.sub(link, t)
     t = _inline(t)
     return re.sub(r"\x00(\d+)\x00", lambda m: held[int(m.group(1))], t)
