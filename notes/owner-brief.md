@@ -570,3 +570,5 @@ On non-events (the *Times*, Sept. 7, 1960: Byrd's failure to endorse the ticket;
 On `cal.1962-07.press-and-broadcasting-2`: "This undated July 1962 entry is dated to July 25, 1962 ("Bigart's concluding survey was published in NYT, 25 July 1962, 1"), by American Ordeal's footnotes (422 n.9)". (Re-dated July 25; the *Times* behind "To check:".)
 
 On `cal.1962-07.press-and-broadcasting-3`: "The Newsweek article of the following entry is also dateable (422 nn.7, 9): "Vietnam: The Unpleasant Truth," Newsweek, 20 Aug. 1962, 40." And: "These guys gotta read the footnotes... (Do the PDFs make that awkward?)" (Re-dated Aug. 20, the issue's date; the card given a line on the notes.)
+
+On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from context ... whether the Byrd is the Virginia Byrd or the West Virginia Byrd ... (I'm thinking "Harry Byrd" and "Robert Byrd" where there aren't any cues I'd pick up on.)" (Done: the first bare mention in each entry, by its name tag; "Harry Byrd Jr." after Nov. 1965.)
