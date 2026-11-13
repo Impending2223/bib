@@ -305,7 +305,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         if is_thread:
             extra_attrs += f' data-thread="{attr(slug)}"'
         elif e.get("thread"):
-            extra_attrs += f' data-threads="{attr(" ".join(entry_threads(lst, e)))}"'
+            from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
+            extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 

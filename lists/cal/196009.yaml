@@ -830,14 +830,73 @@ entries:
     c: 'The *Times* prints Claude Sitton''s report of two weeks of interviews in the South. William C. Battle, director of the Democratic Presidential campaign in Virginia: "There''s no doubt about it—we''re at our low point now." Hollings, Governor of South Carolina, forecasts an "uphill battle" for Kennedy there; Hodges, Governor of North Carolina: "I think [the race] is a little too close." Collins, Governor of Florida, and James Milligan, the party chairman, say Florida will be lost unless the State''s Democratic officeholders join a unified campaign. The Republicans claim the lead in Texas.'
     n: '[*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 35 ("Democrats Face a Setback in South, Survey Indicates," by Claude Sitton, Atlanta, Sept. 6: the interviews, over two weeks, undated; the words). See [[cal.1960-09-07.elections-1960-kennedy-7]]. Names: Sitton, Hollings, Hodges, Collins, Kennedy.'
     tags: [name:sitton-claude, name:hollings-ernest-f, name:hodges-luther-h, name:collins-leroy, name:kennedy-john-f, state:va, state:sc, state:nc, state:fl, state:tx]
+  - id: cal.1960-09-07.press-and-broadcasting
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: press-and-broadcasting
+    c: 'Eisenhower''s news conference, the Executive Office Building, 10:30 to 11:01 a.m.; 243 present.'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729) (677–86; the note, 686: the hour and the count). [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5, 11, 16 (E. W. Kenworthy, "Eisenhower Bids Soviet Stop Aid to Congo Forces," at 1, 5; Felix Belair Jr., "Religion as Issue Denounced Again by White House," at 1, 16; Jack Raymond, "President Urges Security Review," at 1, 11; the transcript, at 16). Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d]
+    time_range:
+      - 1960-09-07T14:30Z
+      - 1960-09-07T15:01Z
+    time_zone: America/New_York
+  - id: cal.1960-09-07.elections-1960-religion
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: elections-1960-religion
+    also: [elections-1960-nixon]
+    part_of: cal.1960-09-07.press-and-broadcasting
+    c: 'Religion: he and Nixon agreed long ago never to raise or mention "the religious issue"; "I not only don''t believe in voicing prejudice, I want to assure you I feel none. And I am sure that Mr. Nixon feels exactly the same."'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 678. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (Belair, question 2: "voicing prejudice—I want"). See [[cal.1960-09-05.elections-1960-religion]]. Names: Eisenhower, Nixon.'
+    tags: [name:eisenhower-dwight-d, name:nixon-richard-m]
   - id: cal.1960-09-07.congo-2
     when: Sept. 7
     date: '1960-09-07'
     thread: congo
-    also: [soviet-union, elections-1960-religion, elections-1960-nixon, congress, intelligence]
-    c: 'Washington. Eisenhower''s news conference. The Congo, a formal statement he reads: the United States deplores "the unilateral action of the Soviet Union in supplying aircraft and other equipment for military purposes to the Congo, thereby aggravating an already serious situation which finds Africans killing other Africans"; he urges the Soviet Union to desist and to support "collective effort through the United Nations"; the United States will support the UN in what it finds "necessary within the limits of the Charter." Later: no evidence "as of now" that Soviet crews fly the planes. Religion: he and Nixon agreed long ago never to raise or mention "the religious issue"; "I not only don''t believe in voicing prejudice—I want to assure you I feel none. And I am sure that Mr. Nixon feels exactly the same." The session''s failures, laid to him by the Democrats: "Apparently this other party is making me responsible for splitting theirs"; the record should cause "some disappointment, if not dismay, throughout the nation." The campaign: he will not become "a sphinx." The NSA defectors: "always on the alert, very alert"; "we must go through our entire procedures" for hiring and checking employees of sensitive agencies.'
-    n: '[*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5, 11, 16 ("Eisenhower Bids Soviet Stop Aid to Congo Forces," by E. W. Kenworthy, at 1, 5: the Congo statement, question 3, and the answer on the crews, question 12, ten planes inspected at Athens carrying cargo "for peaceful uses"; "Religion as Issue Denounced Again by White House," by Felix Belair Jr., at 1, 16: religion, question 2; the session, question 17; "a sphinx," question 5; "President Urges Security Review," by Jack Raymond, at 1, 11: the defectors, question 11; the transcript, at 16, not in the clippings). To check: *Public Papers of the Presidents*, Eisenhower, 1960–61, the news conference of Sept. 7, 1960. See [[cal.1960-09-05.congo-2]], [[cal.1960-09-05.elections-1960-religion]], [[cal.1960-09-06.intelligence]]. Names: Eisenhower, Nixon, Lumumba.'
-    tags: [name:eisenhower-dwight-d, name:nixon-richard-m, name:lumumba-patrice, polity:ussr, polity:us]
+    also: [soviet-union]
+    part_of: cal.1960-09-07.press-and-broadcasting
+    follows: [cal.1960-09-07.elections-1960-religion]
+    c: 'The Congo, a statement he reads: the United States "deplores the unilateral action of the Soviet Union in supplying aircraft and other equipment for military purposes to the Congo, thereby aggravating an already serious situation which finds Africans killing other Africans"; he urges the Soviet Union "to desist from its unilateral activities" and to support "the practice of collective effort through the United Nations." He adds: the United States will support the United Nations in what it finds necessary "within the limits of the Charter."'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 679–80. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5 (Kenworthy, question 3). See [[cal.1960-09-05.congo-2]]. Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d, polity:ussr, polity:us]
+  - id: cal.1960-09-07.elections-1960-3
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: elections-1960
+    part_of: cal.1960-09-07.press-and-broadcasting
+    follows: [cal.1960-09-07.congo-2]
+    c: 'His part in the campaign: after seven and a half years directing the executive department, "it would be odd if I simply became a sphinx."'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 680. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (Belair, question 5). Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d]
+  - id: cal.1960-09-07.intelligence-4
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: intelligence
+    part_of: cal.1960-09-07.press-and-broadcasting
+    follows: [cal.1960-09-07.elections-1960-3]
+    c: 'The NSA defectors: "we must be always on the alert, very alert"; "we must go through our entire procedures to see if there is any one way we could better it."'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 683. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 11 (Raymond, question 11). See [[cal.1960-09-06.intelligence]]. Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d]
+  - id: cal.1960-09-07.congo-10
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: congo
+    also: [soviet-union]
+    part_of: cal.1960-09-07.press-and-broadcasting
+    follows: [cal.1960-09-07.intelligence-4]
+    c: 'No evidence "as of now" that Soviet military crews fly the planes or that the cargoes carry weapons; ten planes inspected at Athens at the Soviet request carried cargo "for peaceful uses."'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 683–84 (the answer corrected on Hagerty''s word to "Russian military crews"). [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5 (Kenworthy, question 12). Names: Eisenhower, Hagerty.'
+    tags: [name:eisenhower-dwight-d, name:hagerty-james-c, polity:ussr]
+  - id: cal.1960-09-07.congress
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: congress
+    part_of: cal.1960-09-07.press-and-broadcasting
+    follows: [cal.1960-09-07.congo-10]
+    c: 'The session''s failures, laid to him by the Democrats: "apparently this other—this other party then is making me responsible for splitting theirs"; the record should cause "some disappointment, if not dismay, throughout the American Nation."'
+    n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 684–85. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (Belair, question 17: "throughout the nation"). Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d]
   - id: cal.1960-09-07.elections-1960-religion-2
     when: Sept. 7
     date: '1960-09-07'

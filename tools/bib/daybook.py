@@ -491,11 +491,21 @@ def section_days(lst, sec, entry_li, thread_name):
             running.setdefault(k, []).append(e)
             k += datetime.timedelta(days=1)
     from . import dayorder           # the day's order: time first, then thread and text; `follows` honored (dayorder STYLE 1-2, 6)
-    undated = dayorder.order(lst, undated, by_time=False)
-    dated = {k: dayorder.order(lst, v) for k, v in dated.items()}
+    from . import subentries         # a parent's subentries after it, in their own order (subentries.py, STYLE 2)
+    undated = subentries.nest(lst, dayorder.order(lst, undated, by_time=False), lambda l, ks: dayorder.order(l, ks, by_time=False))
+    dated = {k: subentries.nest(lst, dayorder.order(lst, v), dayorder.order) for k, v in dated.items()}
+
+    def li(e, sub):
+        h = entry_li(e, rubric(lst, e, thread_name))
+        if not sub:
+            return h
+        head = h[:h.index(">") + 1]
+        if ' class="' in head:
+            return h.replace(' class="', ' class="sub ', 1)
+        return h.replace("<li", '<li class="sub"', 1)
     if undated:
         out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
-                   '<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in undated) + "</ol></div>")
+                   '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
     d = lo
     wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     while d <= hi:
@@ -522,7 +532,7 @@ def section_days(lst, sec, entry_li, thread_name):
                 f'<a href="#{esc(e["id"])}">{esc(thread_name(lst, e["thread"]))}, {esc(e["when"])}</a>'
                 for e in running[d]) + "</p>")
         if d in dated:
-            h.append('<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in dated[d]) + "</ol>")
+            h.append('<ol class="e">' + "".join(li(e, sub) for e, sub in dated[d]) + "</ol>")
         h.append(dayblocks.marker(iso))         # a day block's place: the war table, Armed Forces Day (dayblocks.py)
         h.append(docs_html(by_day.get(iso, []), ab, iso))
         h.append("</div>")
@@ -543,6 +553,8 @@ STYLE = """<style>
 .day .tv .tvc{font-style:italic}
 .day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
+.day ol.e>li.sub{margin-left:.7rem;padding-top:.5rem}
+.day ol.e>li+li.sub{border-top:1px dotted var(--rule);border-top-color:color-mix(in srgb,var(--rule) 55%,transparent)}
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
   text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}
 .s.rub .rw{letter-spacing:.02em}

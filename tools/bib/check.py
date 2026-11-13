@@ -286,6 +286,10 @@ def run(series, only=None):
     from . import dayorder
     for where, msg in dayorder.problems(series):
         add(ERROR, where, msg, "day-order")
+    # subentries: one event, several matters (tools/bib/subentries.py)
+    from . import subentries
+    for where, msg in subentries.problems(series):
+        add(ERROR, where, msg, "subentry")
     # the works catalogue (works/*.yaml)
     from . import works
     for level, where, msg in works.problems(series):
