@@ -52,8 +52,8 @@ STYLE
     claim's own date nothing is known (§5: greyed). A public date `?` is not "by r" (a document series or a book is
     never public within a day of its event; a press or official item without a date takes the event's).
  8. A ruling (§8, "`vis:` rulings, an override of any computed tag"): `vis:only:ussr` (polities joined by "+",
-    `vis:only:ussr+cuba`) on an entry: at the time, only these knew of it. Privity (territory, agency, the witnesses'
-    parties) and address are cut to them, so a Presidium session that names Kennedy as its subject is no longer the
+    `vis:only:ussr+cuba`) on an entry: at the time, these knew of it, and only these. Privity is set to them (a
+    partner named is privy though no person of his is tagged), and address is cut to them, so a Presidium session that names Kennedy as its subject is no longer the
     US's by his name tag; a witness's publication still makes it public where and when it was published. The reason
     is the entry's own (a Soviet record: the Presidium's protocol, a cable, a memoir of the inner circle). The owner,
     Nov. 13, 2026: "a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic".
@@ -624,7 +624,7 @@ def compute(series, lst, e):
         for w in known:
             privy |= {p for p in w["privity"] if p and p != "?" and not is_org(p)}
         if only:
-            privy &= only
+            privy = set(only)                    # the ruling names who knew: all of them, and no one else
         pubs = {}
         any_public = None
         for w in known:
