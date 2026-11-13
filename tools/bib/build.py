@@ -305,7 +305,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         if is_thread:
             extra_attrs += f' data-thread="{attr(slug)}"'
         elif e.get("thread"):
-            extra_attrs += f' data-threads="{attr(" ".join(entry_threads(lst, e)))}"'
+            from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
+            extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 
@@ -392,7 +393,12 @@ def headings(lst, sec, idfmt):
     sid = idfmt(sec)
     old = sec.extra.get("old_id")        # a renamed section's old anchor still lands here (jan60 → 196001)
     alias = f'<span id="{sid[:-len(attr(sec.id))]}{attr(old)}"></span>' if old and sid.endswith(attr(sec.id)) else ""
-    return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
+    crumb = ""
+    if cal:                               # the top bar's form for a month: "1963 / October" (the owner, Nov. 12, 2026)
+        m = re.fullmatch(r"([A-Z][a-z]+) (\d{4})", plain(sec.title))
+        if m:
+            crumb = f' data-crumb="{m.group(2)} / {m.group(1)}"'
+    return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}"{crumb}>{num}{to_html(sec.title)}</{tag}>'
 
 
 def by_day(lst, sec):
@@ -1223,6 +1229,10 @@ def write_calendar(series, lst, linker, held, routed):
     calsplit.CUR.update(half=0, mode="list")
     page = build_list(series, lst.key, linker, 0)
     page = contents.fill(page, lst, 0)
+    from . import standing, check as _check   # the standing conditions, as reported, by thread (standing.py, STYLE 2)
+    reg = standing.register_html(lst, thread_name, _check.thread_key)
+    if reg and "</main>" in page:
+        page = page.replace("</main>", reg + "\n</main>", 1).replace("</head>", standing.STYLE + "\n</head>", 1)
     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
     page = page.replace("</body>", calsplit.forward_script(lst, fwd, lst.key) + "\n</body>", 1)
     path = os.path.join(OUT, f"{lst.key}.html")

@@ -521,3 +521,46 @@ Thank you re Chang and Halliday. But I'll probably give you Pantsov or what have
 ## Nov. 11, 2026 (late night)
 
 "Alright, I've given you a handful more books on China. Night now."
+
+## Nov. 12, 2026 (morning)
+
+"For the queue:
+- All the new Senate Conference Minutes entries and a number of others (including, e.g., the January 21, 1960 entry "Kennedy, in Milwaukee, enters the Wisconsin primary against Humphrey, a declared candidate since Dec. 30.") have their body text styled as an internal link. (They don't link to anything.) Could we fix that?
+- The first USSR Presidium entry here is visible even though the second isn't. Shouldn't they both be greyed-out? (I have USSR public and nonpublic greyed out.)
+- I began reading the NYT of February 18, 1960, to follow up on the first "To check" citation under the entry of February 17, 1960, on DDE's press conference, and found a number of items of interest. Attached."
+
+"- Re: the social events, I take the broader view. If there's a non-routine occasion, like these, where we can put principals together, it should be in.
+- Move the Toots Shors to Friday if there's no citation, authority or witness that says "Saturday."
+- Wording variants go in if we quote either wording.
+- Keep the page size rule and split the years.
+- Fix the court-case units.
+- Give cards to the foreign periodicals.
+- Add a "linked-card" or "derivative-card" framework (in the 17 U.S.C. § 101 sense), akin but different from the "X-card in Y-card" for compilations, to accommodate translations.
+-- The works page would display "X. Translated in [Y](internal link)." for originals, but long and short citations would display only the "X".
+-- The works page would display "Y. Translation of [X](internal link)." for translations. Long and short citations would display only the "Y," but citations to Y would require a "Check: X" until an X citation was on the same claim. (Or an alternative that would permit us to say "Not in X".)
+-- A citation form for parallel citations, to keep the translation and the original yoked together: "Y 123, translating X 123".
+-- These are all departures from the Bluebook, which prescribes and permits a "Y (translating X)" (R. 2.2(e)) or an "X, *translated in* Y" (R. 20.2.5) only for certain texts of authority. But I want this."
+
+"- Rename the weeks from "Week X" to "WX: mmm d–d""
+
+On the foreign nations (the threads `soviet-leadership`, `britain`, `federal-republic`, `prc-leadership`; series and volume cards for the AAPD, the DDF, the Kabinettsprotokolle): "Agreed on all except the sequence. Shouldn't we have the DRV ready to go? (If not RVN.) I guess we don't have Ho Chi Minh's collected works." (The *Văn kiện Đảng toàn tập*, 1960–69, found on the Drive; the DRV wave tonight with Zhai and the two Gaiduks.) "I've added the 1996 volume."
+
+"Immediate: I believe a prior session dropped all the daily NYT TimesMachine links for the duration of the newspaper strike, but as I learned from Reeves, and confirmed today, the NYT continued print distribution of its Western Edition. (As our first entry of Feb. 1, 1963 here also suggests.) Please drop the "No New York Times (strike)" and restore the links." (Done, PR #172.)
+
+On the bill texts: "I've added materials on the bill (and one on the bills to extend of the 1957 and 1960 Acts) to the shared drive. I believe the first volume of the H. Subcomm. Hearings may include the drafts we're looking for, but I'm not sure. I've also added Purdum and Risen on the bill. Just the 1964 CRA for now."
+
+## Nov. 12, 2026 (afternoon)
+
+"For the queue: - Each day should have its own heading in the scroll. The day should also be displayed in the top left corner. Instead of "October 1963 / Week 42", "1963 / October / 16"?"
+
+On Martin and Mitchell (none in the calendar): the NSA 60th Anniversary release and other material shared; "the "add this to the calendar" aspects of this are for the queue".
+
+On non-events (the *Times*, Sept. 7, 1960: Byrd's failure to endorse the ticket; Russell and Talmadge silent): "I mean, we can try the register—preview it for me—but I think we have to modify our rule, at least here, to apprise readers of an important matter of public knowledge at a moment when we know, by virtue of the NYT's report, that it is a matter of public knowledge, and not on Election Day, at the moment when it ceases to be important. Give me the report on the NYT's publication day, not just in the massed crowd of tables on Election Day, or in some never-read-by-Human-eyes yaml."
+
+"I don't know if this is important enough to go in the brief for 99% of our readers, Claude. Aren't we still trying to keep the reader slim, rather than fatten it up with more one-off items "Rule N+1: ABC (Owner's words, Nov. 12, 2026: XYZ)?" (So: the newspaper batch brief and `notes/guide/entries.md` only.)
+
+## Nov. 12, 2026, evening (batch 12)
+
+- On the DRV's routine Party circulars (Party cells, staff and the like, entered by the *Văn kiện Đảng* readers): "Keep the routine party circulars. (We might drop or trim them if our DRV thread ever gets crowded, but we just don't know much about what's happening up there, so we should keep what few clues we have.)"
+- On name tags for foreign persons on FRUS's lists of persons (Gomułka, Togliatti, Zhivkov, Kekkonen and others named in the Presidium and Party entries): "Add the foreign FRUS names."
+- On the standing conditions (`form:state`) and the register previewed (notes/previews/holdouts-register.html): "As reported. Every standing condition, grouped by thread."

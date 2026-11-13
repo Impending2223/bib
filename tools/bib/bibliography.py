@@ -149,6 +149,11 @@ def page(series, linker, template):
         book = cat.render(cid, caps=True).startswith(works.SC)        # a book's title roman, a paper's italic
         return (works.surname(who) + ", " if who else "") + (esc(t) if book else f"<i>{esc(t)}</i>")
 
+    translated_in = {}
+    for y, cy in cat.cards.items():
+        if cy.get("translates"):
+            translated_in.setdefault(cy["translates"], []).append(y)
+
     def pointers(cid):
         out = []
         seen = []
@@ -167,9 +172,12 @@ def page(series, linker, template):
             out.append(f'In: <a href="#{esc(c["in"])}">{short(c["in"])}</a>')
         if holds.get(cid):
             out.append("Holds: " + "; ".join(f'<a href="#{esc(x)}">{short(x)}</a>' for x in sorted(holds[cid])))
-        for fld, lab in (("edition_of", "Edition of"), ("translates", "Translation of")):
-            if c.get(fld) and cat.get(c[fld]):
-                out.append(f'{lab}: <a href="#{esc(c[fld])}">{short(c[fld])}</a>')
+        if c.get("edition_of") and cat.get(c["edition_of"]):
+            out.append(f'Edition of: <a href="#{esc(c["edition_of"])}">{short(c["edition_of"])}</a>')
+        if c.get("translates") and cat.get(c["translates"]):    # derivative cards (the owner, Nov. 12, 2026): "Y.
+            out.append(f'Translation of <a href="#{esc(c["translates"])}">{short(c["translates"])}</a>')   # Translation
+        if translated_in.get(cid):                              # of [X]." and on X, "Translated in [Y]."
+            out.append("Translated in " + "; ".join(f'<a href="#{esc(y)}">{short(y)}</a>' for y in sorted(translated_in[cid])))
         return "; ".join(out)
 
     def item(cid, ghost=False):

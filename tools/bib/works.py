@@ -1066,12 +1066,46 @@ def problems(series):
             for fld in ("n", "c", "r", "c2", "c3"):
                 for m in re.finditer(r"\[\[(w\.[^\]|]+)", e.get(fld) if isinstance(e.get(fld), str) else ""):
                     cited.add(cat.alias.get(m.group(1).strip(), m.group(1).strip()))
+    out += translations(series)
     from . import printed                # the daybook's FRUS rows point to the Bulletin's and Current Documents' cards
     cited |= printed.cards()
     unused = [cid for cid in cat.cards if cid not in w and cid not in cited]
     if unused:
         out.append(("warn", "works/", f"{len(unused)} cards nothing points to: {', '.join(sorted(unused)[:5])}"
                     + (" …" if len(unused) > 5 else "")))
+    return out
+
+
+def translations(series):
+    """Derivative cards (the owner, Nov. 12, 2026; 17 U.S.C. § 101's sense): a translation's card names its original
+    (`translates: w.x`). A citation shows only the work cited; a calendar entry that reads the translation Y as a source
+    carries "Check: [[X]] ..." until it cites the original X too (the parallel form "[[w.y]], 123, translating [[w.x]],
+    123", or X as an item of its own), or says "Not in [[X]]". Errors."""
+    from . import claims
+    cat = series.works
+    orig = {cid: c["translates"] for cid, c in cat.cards.items() if c.get("translates")}
+    out = []
+    if not orig:
+        return out
+    for lst in series.lists.values():
+        if lst.kind != "calendar":
+            continue
+        for sec, e in lst.entries():
+            n = e.get("n") if isinstance(e.get("n"), str) else ""
+            if "[[w." not in n:
+                continue
+            srcs, other = claims.note_parts(n)
+            cards_in = lambda s: {cat.alias.get(m.group(1).strip(), m.group(1).strip())
+                                  for m in re.finditer(r"\[\[(w\.[^\]|]+)", s)}
+            read = set().union(*(cards_in(s) for s in srcs)) if srcs else set()
+            flagged = set().union(*(cards_in(s) for s in other if s.startswith("Check:") or "Not in [[" in s)) \
+                if other else set()
+            for y in sorted(read & set(orig)):
+                x = orig[y]
+                if x not in read and x not in flagged:
+                    out.append(("error", e["id"], f"{y} is a translation of {x}: cite {x} too (\"[[{y}]], 123, "
+                                f"translating [[{x}]], 123\"), or add \"Check: [[{x}]] ...\" or \"Not in [[{x}]]\" "
+                                "[translation]"))
     return out
 
 

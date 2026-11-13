@@ -24,12 +24,13 @@ STYLE
     (a date only after its comma, "Mar. 24, / 1965"; a roll call's count never; the Record's cite within its cell); a table still wider than
     the column scrolls in its own box, never the page. Nothing shortened.
  7. Where (the owner, Nov. 4, 2026): under the entry of the bill's first introduction in either chamber, and on each
-    later year's page of the calendar its course runs into, under that year's first entry concerning the bill in
-    Congress; never twice on a page. The placements are the entries tagged bill:<key>, chosen by hand (the first
+    later page of the calendar its course runs into (a half-year since Nov. 12, 2026), under that page's first entry
+    concerning the bill in Congress; never twice on a page. The placements are the entries tagged bill:<key>, chosen by hand (the first
     entry of a year concerning the bill is a reading, not a rule); `check` holds them: the first the introduction's
     (the first step "introduced", its `entry` the same), one a part (calsplit) from the introduction's to the last
     step's, no other. Where no entry told the introduction, one was made of the table's own step and Record cite
-    (Nov. 4, 2026). The first placement's anchor is tb-bill-<key>, a later one's tb-bill-<key>-y<year>, so the reader,
+    (Nov. 4, 2026). The first placement's anchor is tb-bill-<key>, a later one's tb-bill-<key>-y<year> (a second or third in its
+    year, on a later part of the year since Nov. 12, 2026, -y<year>b, -y<year>c), so the reader,
     which holds every year, has each once.
 """
 import os
@@ -164,6 +165,9 @@ def inject(page, series):
     for key, ps in placements(series).items():
         for i, (d, eid, lst) in enumerate(ps):
             sfx = f"-y{d[:4]}" if i else ""
+            k = sum(x[0][:4] == d[:4] for x in ps[:i])   # a year's second or third page (calsplit): -y1964b, -y1965c
+            if i and k:
+                sfx += "abcdefgh"[k]
             blk = block(key, sfx)
             if not blk:
                 continue

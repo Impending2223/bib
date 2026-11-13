@@ -14,7 +14,7 @@ entries:
       rows:
         - 'https://static.case.law/kan/194/case-pdfs/0302-01.pdf: all'
         - 'https://static.case.law/f-supp/251/case-pdfs/0541-01.pdf: all'
-        - 'w.peirce-great-plains-states-of 237: A-D'
+        - 'w.peirce-great-plains-states-of 237: A, B'
     tags: [state:ks]
     time_range:
       - 1965-03-01T15:00Z
@@ -2543,8 +2543,8 @@ entries:
       rows:
         - 'w.branch-at-canaans-edge 86–87: all'
         - 'via w.branch-at-canaans-edge 86 n.king-testified-as: all'
-        - 'w.kotz-judgment-days 297: D-E'
-        - 'w.bernstein-guns-or-butter 230: A-C'
+        - 'w.kotz-judgment-days 297: C, D'
+        - 'w.bernstein-guns-or-butter 230: A, B'
     tags: [name:johnson-frank-m-jr, name:king-martin-luther-jr]
     time_range:
       - 1965-03-11T15:00Z
@@ -2574,6 +2574,11 @@ entries:
       - 1965-03-11T23:00Z
     time_zone: America/New_York
     range_basis: record
+    variants:
+      - unit: C
+        witness: w.johnson-white-house-diary
+        reads: the demonstrators "had departed, after some urging" by the police "around 6 o'clock"
+        at: '251'
   - id: cal.1965-03-11.civil-rights-the-executive-2
     when: Mar. 11
     date: '1965-03-11'

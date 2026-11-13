@@ -260,6 +260,8 @@ def resolve(e, cards=None):
             continue
         item = by.get(("card", key)) if kind in ("card", "via") else by.get((kind, key)) if kind == "url" else \
             next((v for (k, kk), v in by.items() if k == "text" and kk.startswith(key[:30])), None)
+        if kind == "url" and item is None:      # a link not first in its item ("X, as given in Y": one item, two links)
+            item = next((it for it in srcs if any(m.group(2) == key for m in LINK.finditer(it))), None)
         if kind == "url" and item is None:
             lk = next((m for m in LINK.finditer(e.get("c") or "") if m.group(2) == key), None)
             item = lk.group(0) if lk else None

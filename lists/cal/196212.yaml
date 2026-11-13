@@ -180,10 +180,10 @@ entries:
   - id: cal.1962-12-03.soviet-union
     when: Dec. 3
     date: '1962-12-03'
-    thread: soviet-union
+    thread: soviet-union-leadership
     also: [missile-crisis, cuba]
     c: 'The Presidium, the first session after Mikoyan''s return. Khrushchev''s postmortem: "Cuba has been maintained as a center of the revolutionary movement"; "The United States was forced to acknowledge that we have our own interests in the Western Hemisphere"; "We are members of the World Club. They themselves got scared." On Kennedy''s request for the Soviet troops'' withdrawal, he and Malinovsky to look into it.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 506–07; [[w.prezidium-tsk-kpss-1954]], I, 663 (Protocol 71). See [[cal.1962-11-29.missile-crisis]]. Names: Mikoyan, Khrushchev, Kennedy, Malinovsky.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 506–07; [[w.prezidium-tsk-kpss-1954]], I, 663 (Protocol 71); [[w.prezidium-tsk-kpss-1954]], III, 407–09 (P 71/I: Mikoyan''s work approved; Khrushchev''s speech on his report, as A. K. Serov took it down by hand, 409 n.а: "мы помогли Кубе – сделали правильно. Мы заставили США признать наши интересы в Америке" (we helped Cuba, did right. We made the United States recognize our interests in America); "участником международного клуба" (a member of the international club); "Американцы сами испугались" (the Americans themselves took fright); no treaty with Cuba now). See [[cal.1962-11-29.missile-crisis]]. Names: Mikoyan, Khrushchev, Kennedy, Malinovsky.'
     src:
       c: 3d627984
       rows:
@@ -191,6 +191,7 @@ entries:
         - 'via x.2006.kcw-p506-07: all'
         - 'w.prezidium-tsk-kpss-1954 I, 663: all'
         - 'via x.1962-12-03.presidium-protocol-71: all'
+        - 'w.prezidium-tsk-kpss-1954 III, 407–09: ?'
     tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:kennedy-john-f, name:malinovsky-rodion-y]
     time_range:
       - 1962-12-03T06:00Z
@@ -549,18 +550,24 @@ entries:
     date: '1962-12-06'
     thread: vietnam
     c: 'The Politburo on the South after two years of the "special war": the armed forces grown but out of balance and behind the enemy''s tactics. Combat units to be sent south quickly, main forces and specialty branches enlarged, the trail''s transport group reinforced.'
-    n: '[[w.vietnam-victory-in-vietnam]], 113–15 (by its count, more than 40,000 men down the trail by the end of 1963); [[w.moyar-triumph-forsaken]], 182. Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1961-02-25.vietnam]].'
+    n: '[[w.vietnam-victory-in-vietnam]], 113–15 (by its count, more than 40,000 men down the trail by the end of 1963); [[w.moyar-triumph-forsaken]], 182; [[w.van-kien-dang-toan]], XXIII, 812–38 (Nghị quyết hội nghị Bộ Chính trị họp từ ngày 6 đến ngày 10 tháng 12 năm 1962: the Americans'' "chiến tranh đặc biệt" (special war) "Từ một năm nay" (for a year now), 812; the armed forces grown fast but still weak, the kinds of troops out of proportion, their technique and tactics behind the enemy''s, 816; the main forces mostly to battalion strength, regiments where they can, 831; the passage on the Center''s leadership and the North''s part not printed, 838; not "two years," the units sent south or the trail). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). Check: two years of the "special war," or one (the resolution, XXIII, 812: "Từ một năm nay," for a year now); and the days (its heading: the session Dec. 6–10). See [[cal.1961-02-25.vietnam]].'
     src:
       c: 232d0980
       rows:
         - 'w.vietnam-victory-in-vietnam 113–15: A-B'
         - 'w.moyar-triumph-forsaken 182: A'
+        - 'w.van-kien-dang-toan XXIII, 812–38: ?'
     time_range:
       - 1962-12-06T02:00Z
       - 1962-12-06T10:00Z
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.van-kien-dang-toan
+        reads: '"Từ một năm nay" (for a year now): the "special war" a year old'
+        at: XXIII, 812
   - id: cal.1962-12-06.republican-party
     when: Dec. 6
     date: '1962-12-06'
@@ -714,6 +721,13 @@ entries:
     c: 'New York newspaper strike begins: the Typographical Union strikes five dailies; four others shut down. 20,000 idle. 114 days.'
     n: Bureau of Labor Statistics, [*Analysis of Work Stoppages, 1962*](https://fraser.stlouisfed.org/files/docs/publications/bls/bls_1381_1963.pdf), Bull. No. 1381 (1963), 3, 20. News Conference, [1963 Pub. Papers 92](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=150) (Jan. 24, 1963); News Conference, [1963 Pub. Papers 201](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=259) (Feb. 21, 1963). See [[cal.1961-01-25.press-and-broadcasting]].
     short: the newspaper strike
+  - id: cal.1962-12-08.vietnam-hanoi
+    when: Dec. 8
+    date: '1962-12-08'
+    thread: vietnam-hanoi
+    c: The Secretariat hands the Party organizations of the central government, mass and Party offices to the Hanoi Party organization.
+    n: '*Nghị quyết của Ban Bí thư số 62-NQ/TW về việc chuyển giao đảng bộ các cơ quan chính, dân, đảng trung ương về Đảng bộ Hà Nội*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 806–07. Made public: 2002.'
+    tags: [polity:drv]
   - id: cal.1962-12-09.opinion-5
     when: Dec. 9
     date: '1962-12-09'
@@ -796,6 +810,13 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 200: all'
     tags: [name:taylor-maxwell, name:norstad-lauris]
+  - id: cal.1962-12-10.vietnam-hanoi
+    when: Dec. 10
+    date: '1962-12-10'
+    thread: vietnam-hanoi
+    c: The Secretariat's circular no. 102-TT/TW on preparing a conference on agricultural science and technique, for the fifth plenum's resolution and the cooperatives' campaign.
+    n: '*Thông tri của Ban Bí thư số 102-TT/TW về việc chuẩn bị Hội nghị khoa học kỹ thuật nông nghiệp*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 808–11. Made public: 2002.'
+    tags: [polity:drv]
   - id: cal.1962-12-11.europe-and-the-alliance
     when: Dec. 11
     date: '1962-12-11'
@@ -977,6 +998,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-12-13.vietnam-hanoi
+    when: Dec. 13
+    date: '1962-12-13'
+    thread: vietnam-hanoi
+    c: The Secretariat with the Central Committee's departments and the mass organizations' party groups on November's work and the leadership needed in the time ahead.
+    n: '*Thông báo số 39-TB/HN, ngày 24 tháng 12 năm 1962, về cuộc họp Ban Bí thư với các ban và đảng đoàn, các đoàn thể ngày 13 tháng 12 năm 1962*, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 839–43. Made public: 2002.'
+    tags: [polity:drv]
   - id: cal.1962-12-14.economy
     when: Dec. 14
     date: '1962-12-14'
@@ -1512,6 +1540,13 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 267: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: all'
     tags: [name:rusk-dean, name:ball-george-w, name:kennedy-john-f]
+  - id: cal.1962-12-18.vietnam-hanoi
+    when: Dec. 18
+    date: '1962-12-18'
+    thread: vietnam-hanoi
+    c: 'The Secretariat, the morning, with Nguyễn Khai of the Organization Department, on the department''s proposals for guiding the congresses of the interzones, provinces, cities and districts: the provincial and city congresses due to wait for the Central Committee''s plenum, about March, on the five-year plan and organization; the district congresses held as usual.'
+    n: '*Thông báo của Ban Bí thư số 40-TBHN/TW, ngày 28 tháng 12 năm 1962, về Hội nghị Ban Bí thư bàn đại hội các cấp khu, thành, tỉnh, huyện*, signed for the Secretariat by Phạm Chung, acting chief of the office. [[w.van-kien-dang-toan]], XXIII, 846–50. Made public: 2002. Names: Nguyễn Khai.'
+    tags: [polity:drv]
   - id: cal.1962-12-19.testing
     when: Dec. 19
     date: '1962-12-19'
@@ -1880,6 +1915,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-12-26.soviet-union-leadership
+    when: Dec. 26
+    date: '1962-12-26'
+    thread: soviet-union-leadership
+    c: 'Khrushchev, a note to the Presidium, copies to Ustinov, Lomako and Dymshits, on artificial diamonds, after his visit with Podgorny to the Ukrainian institute of synthetic superhard materials: 135,000 carats made this year, at least three million carats in the Ukraine in 1963; their wide use in industry proposed.'
+    n: '*Zapiska ... N. S. Khrushcheva o proizvodstve iskusstvennykh almazov*, Dec. 26, 1962. [[w.prezidium-tsk-kpss-1954]], III, 410–18 (docs. 276.2.1–276.2.2; approved by P 75/II, Dec. 30, 409–10). Made public: 2008. Names: Khrushchev, Ustinov, Lomako, Dymshits, Podgorny.'
+    tags: [name:khrushchev-nikita-s, name:dymshits-veniamin-e, name:podgorny-nikolai-v, polity:ussr, name:ustinov-dmitriy-f]
   - id: cal.1962-12-27.middle-east
     when: Dec. 27
     date: '1962-12-27'
@@ -1920,6 +1962,13 @@ entries:
         - 'via x.1963-04-05.life-apr-5-1963: all'
         - 'w.novak-agony-of-the-g 110–11: A-B'
     tags: [name:morhouse-l-judson, state:ny]
+  - id: cal.1962-12-27.vietnam-hanoi
+    when: Dec. 27
+    date: '1962-12-27'
+    thread: vietnam-hanoi
+    c: 'The Secretariat''s circular no. 105-TT/TW: the campaign to keep secrets and guard against spies basically done in the central offices and some localities; where it has not begun, the local committees to weigh it against their other work.'
+    n: '*Thông tri của Ban Bí thư số 105-TT/TW về cuộc vận động bảo mật phòng gian*, signed for the Secretariat by Phạm Chung, acting chief of the office. [[w.van-kien-dang-toan]], XXIII, 844–45. See [[cal.1962-03-23.vietnam-hanoi]]. Made public: 2002.'
+    tags: [polity:drv]
   - id: cal.1962-12-28.congo
     when: Dec. 28
     date: '1962-12-28'
@@ -1933,6 +1982,14 @@ entries:
         - 'w.ball-past-has-another-pattern 258: A'
         - 'w.poole-joint-chiefs-of-staff 262: ?'
         - 'w.rusk-as-i-saw-it-1990 279: B'
+  - id: cal.1962-12-28.missile-crisis-settlement
+    when: Dec. 28
+    date: '1962-12-28'
+    thread: missile-crisis-settlement
+    also: [soviet-union]
+    c: 'New York, at the Americans'' request. McCloy, Yost and Plimpton with Kuznetsov: Washington will not put the four messages of Oct. 27 and 28 before the UN without its reservations, the White House statement of Oct. 27 and Kennedy''s of Nov. 20; it proposes to send Kennedy''s two letters, naming the statements in a covering letter, the draft handed over, Moscow to send Khrushchev''s. Kuznetsov: not acceptable.'
+    n: 'Kuznetsov to Moscow, Dec. 28, the cipher telegram, to the Presidium''s members and Gromyko. [[w.prezidium-tsk-kpss-1954]], III, 421–28 (doc. 276.4.2). Made public: 2008. Names: McCloy, Yost, Plimpton, Kuznetsov, Kennedy, Khrushchev.'
+    tags: [name:mccloy-john-j, name:yost-charles-w, name:kuznetsov-vasily-v, name:kennedy-john-f, name:khrushchev-nikita-s, polity:ussr, polity:us, polity:un]
   - id: cal.1962-12-29.cuba
     when: Dec. 29
     date: '1962-12-29'
@@ -2070,15 +2127,16 @@ entries:
   - id: cal.1962-12-30.soviet-union
     when: Dec. 30
     date: '1962-12-30'
-    thread: soviet-union
+    thread: soviet-union-leadership
     also: [missile-crisis-settlement]
     c: 'The Presidium. Khrushchev on his talks with Gomułka and Tito: with Tito, differences on ideology remain, trade on a commercial basis, a dam at the Iron Gates to be built jointly. A Warsaw Pact summit on military questions to be considered. Instructions to Kuznetsov for the talks with the Americans on the settlement in Cuba adopted: Mikoyan for McCloy''s first proposal; Gromyko against, "they want to spoil the agreement." S. P. Ivanov removed, the GRU''s whole network to be reviewed.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 664–65 (Protocol 75, Malin''s notes). Made public: 2003. See [[cal.1962-12-03.soviet-union]]. Names: Khrushchev, Tito, Kuznetsov, Mikoyan, McCloy, Gromyko.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 664–65 (Protocol 75, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 409–31 (P 75/I–IV: the talks with Tito, Gomułka, Cyrankiewicz and Kliszko approved; Khrushchev''s note of Dec. 26 on artificial diamonds; Kozlov''s trip to Kazakhstan and Uzbekistan approved; the instructions to Kuznetsov, on his telegram of Dec. 28; of Ivanov, the heading only). Made public: 2003. See [[cal.1962-12-03.soviet-union]]. Names: Khrushchev, Tito, Kuznetsov, Mikoyan, McCloy, Gromyko.'
     src:
       c: 08a1e22d
       rows:
         - 'w.prezidium-tsk-kpss-1954 I, 664–65: all'
         - 'via x.1962-12-30.presidium-protocol-75: all'
+        - 'w.prezidium-tsk-kpss-1954 III, 409–31: ?'
     tags: [name:khrushchev-nikita-s, name:tito-josip-broz, name:kuznetsov-vasily-v, name:mikoyan-anastas, name:mccloy-john-j, name:gromyko-andrei, name:malinovsky-rodion-y]
     time_range:
       - 1962-12-30T06:00Z
@@ -2485,3 +2543,10 @@ entries:
     c: 'After McNamara''s trip to London, Kennedy on Macmillan and the cancelled Skybolt: "Why didn''t he know about it in advance? Why didn''t he get ready for it? And why didn''t *we* know that he didn''t know about it?" He asks for a comprehensive study of the misunderstanding. No time for it now: "We''ve got to help him out of this mess that we''ve put him in. He''s been given the shaft, and we''ve got to remove it."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 394–95 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1962-12-11.europe-and-the-alliance]]. Names: Kennedy, Macmillan, McNamara. Check: the day: the page puts it after McNamara''s trip to London (Dec. 11) and before the meeting already scheduled at Nassau (Dec. 18), with no day.'
     tags: [name:kennedy-john-f, name:macmillan-harold, name:mcnamara-robert-s]
+  - id: cal.1962-12.vietnam-hanoi
+    when: Dec.
+    date: 1962-12
+    thread: vietnam-hanoi
+    c: 'The Interzone V Party Committee''s standing committee, enlarged, at the year''s end: the enemy has carried out the Staley–Taylor plan in earnest, more troops, sweeps, terror, the people regrouped into strategic hamlets, in the mountains the people armed against the revolution; helicopter tactics new.'
+    n: '*Nghị quyết Hội nghị thường vụ Khu uỷ 5 cuối năm 1962*, copied to "anh". [[w.van-kien-dang-toan]], XXIII, 916–39 (appendix). Made public: 2002. Check: the day; the volume gives the year''s end.'
+    tags: [polity:drv, polity:us]

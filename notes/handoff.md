@@ -1,4 +1,4 @@
-# Hand-off, Nov. 10, 2026 (updated before dawn, Nov. 12): where the work stands
+# Hand-off, Nov. 10, 2026 (updated the evening of Nov. 12): where the work stands
 
 For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The owner's standing rules: working hours (CLAUDE.md); ask before deleting anything of theirs; never change a Drive file's sharing; no model ids in commits.
 
@@ -18,6 +18,12 @@ Done this evening: the splits and the press list; visibility phase 1 and the Oct
 7. The Church Committee: read by the plan (`notes/proposals/church-pike-reading.md`), the plots report first; point the two kja entries at the cards.
 8. The leads the batch-8 audits raised and two bundles the Ball audit found (cal.1960-08-01.congo unit C; cal.1965-06-01.latin-america).
 9. `./bib works new --c` fails on an organization author: fix.
+
+## The evening of Nov. 12 (batch 12; the owner's rulings of Nov. 12, all verbatim in `notes/owner-brief.md`)
+- Done and committed on the branch: (a) the link-styled body text (the visibility layer's dotted underline, removed); (b) the Presidium greying (the USSR-only thread `soviet-union-leadership`, the 49 entries re-threaded; `china-leadership`, `europe-and-the-alliance-britain`, `-federal-republic` too); (d) the Lasker–Fortas dance and Harriman's 75th restored; (f) 14 same-sense wording variants restored; (g) the years split (`cal1964H1`, `cal1964H2`; 1965 `Q1`, `Q2`, `H2`; the owner's names; the year pages forward old links; `retired_parts` in list.yaml); (h) "v." no longer splits a unit (95 map rows re-lettered); (i) 13 foreign periodical cards, the calendar's 18 cites pointed at them; (j) derivative cards (`translates:`; "Translated in" / "Translation of" on the works page; the `[translation]` check); (k) the week labels "W42: Oct. 13–19"; (o) a heading a day and the crumb "1963 / October / 16"; (l, part) series cards `w.aapd`, `w.ddf`, `w.kabinettsprotokolle` with a card a volume (the years of publication to check); (r) the 25 books of 2:45–3:18 p.m. checked: 12 new cards, the rest held.
+- (e) The Toots Shor's dinner stays on Saturday: the owner's condition ("if there's no citation, authority or witness that says 'Saturday'") fails, Bernstein, 486, says Saturday; the Check and O'Brien's variant stand.
+- Batch 12 (six readers; restarted once after an interruption at 5:20 p.m.): NYT Feb. 18, Sept. 7 and Sept. 8, 1960; the *Prezidium* 1960–61 and 1962–64; the *Văn kiện Đảng* 1960–61 and 1962–64 (`w.van-kien-dang-toan`, made by the 1960–61 reader). Each patch audited by Opus (`-audited.yaml`) before merging.
+- Still queued: (c) is in batch 12; (m) done (PR #172); (n) H.R. 7152 by its texts (the Drive's hearings, reports and books); (p) Martin and Mitchell, then the NSA release's other items; (q) the holdouts register preview (after the Sept. 7 state entry merges); Zhai's 43 rows and the two Gaiduks; the `form:state` rendering.
 
 ## The night of Nov. 11–12 (batches 10 and 11; PR #168, PR #169 and PR #170 merged to main)
 - The owner's rulings of the night (verbatim in `notes/owner-brief.md`): foreign elections on their own election night; a press item at its first public distribution, the morning edition where the edition is unknown; the *Post*'s bulldog the evening before, 9:30 p.m.; the *National Guardian* on its press day; elections keep the range, report the polls' closing ("Polls close ..."), pinned at 11:59 p.m.; a `follows` trumps a kind-placed range (Percy); visibility rolled out to every calendar page; the NLF folded into the DRV, the presumption reversed (the Party's and the Front's acts in the South not presumed known to Saigon); foreign persons get name entries (126 made); Li Zhisui and Chang and Halliday read like any other book, after Pantsov.

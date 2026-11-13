@@ -85,6 +85,10 @@ STYLE:
     week (Sunday to Saturday; week 1 the first with four days in the year, so the week of Jan. 4: mmwr_week), its
     year added where it is not the Sunday's ("Week 1 of 1963" on Dec. 30, 1962), the week's span on hover, anchored
     `wk<date>`; the template's heading style, with the day's rule under it dropped. The Sunday wash of Nov. 4 is gone.
+    Renamed (the owner, Nov. 12, 2026): "W42: Oct. 13–19", the span in the heading (week_label); a week of another
+    year's MMWR count reads by its own number ("W1: Dec. 30–Jan. 5"). Each day a heading too, a level under the week:
+    the day's div carries `data-h`, `data-short` ("Wednesday, Oct. 16") and `data-crumb` ("16"), so the scroll's rail
+    and the top bar take it (templates/list.html); the top bar reads "1963 / October / 16", the week left out of it.
 """
 import calendar
 import datetime
@@ -106,6 +110,14 @@ MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "
 MON_RE = {m.rstrip("."): i + 1 for i, m in enumerate(MON)}
 MON_RE["Sept"] = 9
 TM = "https://timesmachine.nytimes.com/timesmachine/{y}/{m:02d}/{d:02d}/issue.html"
+
+
+def week_label(n, sun, sat):
+    """The MMWR week's heading (STYLE 16): "W42: Oct. 13–19"; across a month, "W40: Sept. 29–Oct. 5" (the owner,
+    Nov. 12, 2026: "Rename the weeks from 'Week X' to 'WX: mmm d–d'")."""
+    a = f"{MON[sun.month - 1]} {sun.day}"
+    b = f"{sat.day}" if sat.month == sun.month else f"{MON[sat.month - 1]} {sat.day}"
+    return f"W{n}: {a}\u2013{b}"
 
 _cache = {}
 
@@ -479,11 +491,29 @@ def section_days(lst, sec, entry_li, thread_name):
             running.setdefault(k, []).append(e)
             k += datetime.timedelta(days=1)
     from . import dayorder           # the day's order: time first, then thread and text; `follows` honored (dayorder STYLE 1-2, 6)
-    undated = dayorder.order(lst, undated, by_time=False)
-    dated = {k: dayorder.order(lst, v) for k, v in dated.items()}
+    from . import subentries         # a parent's subentries after it, in their own order (subentries.py, STYLE 2)
+    undated = subentries.nest(lst, dayorder.order(lst, undated, by_time=False), lambda l, ks: dayorder.order(l, ks, by_time=False))
+    dated = {k: subentries.nest(lst, dayorder.order(lst, v), dayorder.order) for k, v in dated.items()}
+
+    from . import standing           # a standing condition, set off and labeled (standing.py, STYLE 1)
+
+    def li(e, sub):
+        h = entry_li(e, rubric(lst, e, thread_name))
+        if standing.is_state(e):
+            head = h[:h.index(">") + 1]
+            cls = "st sub" if sub else "st"
+            h = h.replace(' class="', f' class="{cls} ', 1) if ' class="' in head else h.replace("<li", f'<li class="{cls}"', 1)
+            h = h.replace(">", f'><span class="stl">{standing.LABEL}</span>', 1)
+            return h
+        if not sub:
+            return h
+        head = h[:h.index(">") + 1]
+        if ' class="' in head:
+            return h.replace(' class="', ' class="sub ', 1)
+        return h.replace("<li", '<li class="sub"', 1)
     if undated:
         out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
-                   '<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in undated) + "</ol></div>")
+                   '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
     d = lo
     wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     while d <= hi:
@@ -492,9 +522,13 @@ def section_days(lst, sec, entry_li, thread_name):
             n, y = mmwr_week(d)
             sat = d + datetime.timedelta(days=6)
             tip = (f"MMWR week {n} of {y}: Sunday, {day_label(d, True)}, to Saturday, {day_label(sat, True)}")
-            out.append(f'<{wtag} class="wk" id="wk{iso}" data-short="Week {n}" title="{esc(tip)}">Week {n}'
-                       f'{f" of {y}" if y != d.year else ""}</{wtag}>')
-        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
+            wl = week_label(n, d, sat)
+            out.append(f'<{wtag} class="wk" id="wk{iso}" data-short="{esc(wl)}" data-nocrumb="1" title="{esc(tip)}">'
+                       f'{esc(wl)}</{wtag}>')
+        dlv = min(int(wtag[1]) + 1, 6)        # each day a heading in the scroll and the top bar (STYLE 16)
+        dshort = f"{calendar.day_name[d.weekday()]}, {day_label(d, d.year != lo.year)}"
+        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}" data-h="{dlv}" '
+             f'data-short="{esc(dshort)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
              f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
         h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
         tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
@@ -506,7 +540,7 @@ def section_days(lst, sec, entry_li, thread_name):
                 f'<a href="#{esc(e["id"])}">{esc(thread_name(lst, e["thread"]))}, {esc(e["when"])}</a>'
                 for e in running[d]) + "</p>")
         if d in dated:
-            h.append('<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in dated[d]) + "</ol>")
+            h.append('<ol class="e">' + "".join(li(e, sub) for e, sub in dated[d]) + "</ol>")
         h.append(dayblocks.marker(iso))         # a day block's place: the war table, Armed Forces Day (dayblocks.py)
         h.append(docs_html(by_day.get(iso, []), ab, iso))
         h.append("</div>")
@@ -527,6 +561,10 @@ STYLE = """<style>
 .day .tv .tvc{font-style:italic}
 .day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
+.day ol.e>li.sub{margin-left:.7rem;padding-top:.5rem}
+.day ol.e>li.st{border-left:2px solid var(--rule);padding-left:.6rem}
+.stl{display:block;font-family:var(--sans);font-size:.66rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem}
+.day ol.e>li+li.sub{border-top:1px dotted var(--rule);border-top-color:color-mix(in srgb,var(--rule) 55%,transparent)}
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
   text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}
 .s.rub .rw{letter-spacing:.02em}
