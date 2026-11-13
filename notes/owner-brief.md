@@ -572,3 +572,5 @@ On `cal.1962-07.press-and-broadcasting-2`: "This undated July 1962 entry is date
 On `cal.1962-07.press-and-broadcasting-3`: "The Newsweek article of the following entry is also dateable (422 nn.7, 9): "Vietnam: The Unpleasant Truth," Newsweek, 20 Aug. 1962, 40." And: "These guys gotta read the footnotes... (Do the PDFs make that awkward?)" (Re-dated Aug. 20, the issue's date; the card given a line on the notes.)
 
 On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from context ... whether the Byrd is the Virginia Byrd or the West Virginia Byrd ... (I'm thinking "Harry Byrd" and "Robert Byrd" where there aren't any cues I'd pick up on.)" (Done: the first bare mention in each entry, by its name tag; "Harry Byrd Jr." after Nov. 1965.)
+
+(Nov. 13, 12 a.m.) `cal.1963-06-20.civil-rights-bill`, Robert Kennedy's first day before Subcommittee No. 5, re-dated June 26, 1963 by the printed hearings (pt. 2, 1371), which three readers and the H.R. 7152 audit found; Mann's June 20 kept as a Check.

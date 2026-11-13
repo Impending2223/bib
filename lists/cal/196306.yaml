@@ -2474,32 +2474,6 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Zurich
     range_basis: kind
-  - id: cal.1963-06-20.civil-rights-bill
-    when: June 20
-    date: '1963-06-20'
-    thread: civil-rights-bill
-    also: [republican-party-congress]
-    c: Robert Kennedy's first day before a House Judiciary subcommittee on the bill. He tells Lindsay he has not found time to read the Republicans' bill.
-    n: '[[w.mann-walls-of-jericho]], 369; [[w.whalen-longest-debate]], 2–8 (Lindsay''s bill of June 3 with twenty-three Republicans; "I am sorry that I have not read your bill"); [[w.risen-bill-of-the-century]], 87–91 (Robert Kennedy before Subcommittee No. 5, the exchange with Lindsay; "I am sorry I have not read your bill"). Check: Whalen, 2–7, dates Robert Kennedy''s first day and the exchange with Lindsay June 26, 10 a.m., room 346 of the Cannon Building, by the printed hearings (245). See [[cal.1963-06-11.civil-rights-bill]]. Names: Robert Kennedy, Lindsay.'
-    src:
-      c: 5ac43a0e
-      rows:
-        - 'w.mann-walls-of-jericho 369: all'
-        - 'w.whalen-longest-debate 2–8: B'
-        - 'via x.1963-06-26.subcommittee-5-hearings-kennedy: B'
-        - 'w.risen-bill-of-the-century 87–91: B'
-    tags: [name:kennedy-robert-f, name:lindsay-john-v]
-    time_range:
-      - 1963-06-20T13:00Z
-      - 1963-06-20T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
-    variants:
-      - unit: A
-        witness: w.risen-bill-of-the-century
-        reads: June 26, shortly before 10 a.m., Room 346 of the Old House Office Building
-        at: '87'
   - id: cal.1963-06-20.mississippi
     when: June 20
     date: '1963-06-20'
@@ -3139,6 +3113,28 @@ entries:
     c: 'West Berlin, the luncheon in City Hall after the speech. Bundy to Sorensen: the speech''s reference to the West''s inability to work with the Communists needs correcting, weeks before the Moscow talks on a test ban. They insert new material into the afternoon speech to students at the Free University: the "winds of change" over the Iron Curtain, and "the power of historical evolution" to be felt in Eastern Europe too.'
     n: '[[w.sorensen-counselor]], 325 (Sorensen''s account, written in 2008; the quotations as the page gives them). See [[cal.1963-06-26.berlin-and-vienna]]. Names: Bundy, Sorensen.'
     tags: [name:sorensen-theodore-c, name:bundy-mcgeorge]
+  - id: cal.1963-06-20.civil-rights-bill
+    when: June 26
+    date: '1963-06-26'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: Robert Kennedy's first day before a House Judiciary subcommittee on the bill. He tells Lindsay he has not found time to read the Republicans' bill.
+    n: '[[w.civil-rights-hearings-subcomm-5-pt-2]], 1371–72, 1395 (the day, Wednesday, June 26, 10:30 a.m., room 346 of the Cannon Building, Celler presiding; to Lindsay, 1395: "I am sorry I have not read your bill"). [[w.mann-walls-of-jericho]], 369; [[w.whalen-longest-debate]], 2–8 (Lindsay''s bill of June 3 with twenty-three Republicans; "I am sorry that I have not read your bill"); [[w.risen-bill-of-the-century]], 87–91 (Robert Kennedy before Subcommittee No. 5, the exchange with Lindsay; "I am sorry I have not read your bill"). Check: Mann, 369, has June 20, a day the subcommittee did not sit (the hearings, pt. 2, list June 13, 26 and 27). See [[cal.1963-06-11.civil-rights-bill]]. Names: Robert Kennedy, Lindsay.'
+    src:
+      c: 5ac43a0e
+      rows:
+        - 'w.civil-rights-hearings-subcomm-5-pt-2 1371–72, 1395: all'
+        - 'w.mann-walls-of-jericho 369: all'
+        - 'w.whalen-longest-debate 2–8: B'
+        - 'via x.1963-06-26.subcommittee-5-hearings-kennedy: B'
+        - 'w.risen-bill-of-the-century 87–91: B'
+    tags: [name:kennedy-robert-f, name:lindsay-john-v]
+    time_range:
+      - 1963-06-26T14:30Z
+      - 1963-06-26T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-06-27.vietnam
     when: June 27
     date: '1963-06-27'
