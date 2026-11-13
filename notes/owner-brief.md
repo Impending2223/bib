@@ -568,3 +568,5 @@ On non-events (the *Times*, Sept. 7, 1960: Byrd's failure to endorse the ticket;
 ## Nov. 12, 2026 (night)
 
 On `cal.1962-07.press-and-broadcasting-2`: "This undated July 1962 entry is dated to July 25, 1962 ("Bigart's concluding survey was published in NYT, 25 July 1962, 1"), by American Ordeal's footnotes (422 n.9)". (Re-dated July 25; the *Times* behind "To check:".)
+
+On `cal.1962-07.press-and-broadcasting-3`: "The Newsweek article of the following entry is also dateable (422 nn.7, 9): "Vietnam: The Unpleasant Truth," Newsweek, 20 Aug. 1962, 40." And: "These guys gotta read the footnotes... (Do the PDFs make that awkward?)" (Re-dated Aug. 20, the issue's date; the card given a line on the notes.)
