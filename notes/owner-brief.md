@@ -606,3 +606,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 > - Use Roman numerals in the short titles for the 20 titles with "Vol." in their short titles. No ruling yet on works with "Vol." only in their long titles.
 
 "Immediate. What could we read for a skeleton of the ROC, ROK, and Japan in our period? What's available by way of political history, biography, memoir, public affairs, foreign relations, and the like?" (Answered in the session, 10:5x a.m.; a written plan offered, as for the other foreign leaderships.)
+
+"Refine these answers for me. Give me parallel citations in CJK for all CJK works. Use your search tools to identify titles and clear up your uncertainties." (Nov. 13, in the pause, not marked "Immediate": answered "Queued.", for 5:04 p.m.; the answer refined is the ROC/ROK/Japan reading list given in the session that morning.)
