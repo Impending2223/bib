@@ -27,10 +27,10 @@ entries:
     when: July 1
     date: '1962-07-01'
     thread: berlin-and-vienna
-    also: [soviet-union, missile-crisis]
+    also: [soviet-union, missile-crisis, defense]
     part_of: cal.1962-07-01.soviet-union-leadership-2
     c: 'The Presidium, Mikoyan absent, before Raúl Castro''s visit. Khrushchev renews the push on West Berlin: on a peace treaty the Western garrisons halved, under the UN flag; in two years replaced by non-Western UN troops; in six, all out; "An international organ is unacceptable"; even by "aggravating things." Against McNamara''s Ann Arbor speech: "Not targeting cities—how aggressive! . . . To get the population used to the idea that nuclear war will take place." The UN to take up Germany in a crisis once the missiles are in Cuba in November. The Soviet–Cuban defense agreement approved; Anadyr shipped by Nov. 1.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39); [[w.prezidium-tsk-kpss-1954]], III, 284–85 (P 39/II and III: Khrushchev''s view on further proposals on Berlin agreed; the proposals for the talks with the Cubans approved; not their terms). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39); [[w.prezidium-tsk-kpss-1954]], III, 284–85 (P 39/II and III: Khrushchev''s view on further proposals on Berlin agreed; the proposals for the talks with the Cubans approved; not their terms); [[w.poole-joint-chiefs-of-staff]], 31–32 (Khrushchev on McNamara''s Ann Arbor speech; see [[cal.1962-06-16.defense]]). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
     src:
       c: f23606d8
       rows:
@@ -40,7 +40,9 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 569–70: B-G, I-J'
         - 'via x.1962-07-01.presidium-protocol-39: B-G, I-J'
         - 'w.prezidium-tsk-kpss-1954 III, 284–85: ?'
+        - 'w.poole-joint-chiefs-of-staff 31–32: G'
     tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul]
+    aliases: [cal.1962-07-01.soviet-union]
     time_range:
       - 1962-07-01T06:00Z
       - 1962-07-01T14:00Z
@@ -67,45 +69,22 @@ entries:
       c: f5925a87
       rows:
         - 'w.asselin-hanois-road-to-the 127–28: all'
-  - id: cal.1962-07-01.soviet-union
-    when: July 1
-    date: '1962-07-01'
-    thread: soviet-union-leadership
-    also: [defense]
-    follows:
-      - cal.1962-07-01.berlin-and-vienna
-    part_of: cal.1962-07-01.soviet-union-leadership-2
-    c: 'The Presidium. Khrushchev on McNamara''s Ann Arbor speech: "Not targeting cities — how aggressive! What is their aim?"'
-    n: '[[w.poole-joint-chiefs-of-staff]], 31–32; [[w.prezidium-tsk-kpss-1954]], I, 569 (Protocol 39). To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
-    src:
-      c: 707bd4f2
-      rows:
-        - 'w.poole-joint-chiefs-of-staff 31–32: all'
-        - 'w.prezidium-tsk-kpss-1954 I, 569: all'
-        - 'via x.1962-07-01.presidium-protocol-39: all'
-    tags: [name:khrushchev-nikita-s, name:mcnamara-robert-s]
-    time_range:
-      - 1962-07-01T06:00Z
-      - 1962-07-01T14:00Z
-    time_band: workday daytime
-    time_zone: Europe/Moscow
-    range_basis: kind
   - id: cal.1962-07-01.soviet-union-leadership
     when: July 1
     date: '1962-07-01'
     thread: soviet-union-leadership
     follows:
-      - cal.1962-07-01.soviet-union
+      - cal.1962-07-01.berlin-and-vienna
     part_of: cal.1962-07-01.soviet-union-leadership-2
     c: 'The Presidium at Ogarevo, the same session as Berlin and Cuba, on the KGB''s note of June 26: Moskalenko to be called in and dressed down before the marshals; Colonel Yuferov to be tried in closed court. The Leningrad party''s and sovnarkhoz''s note on the leading works and design bureaus: Brezhnev and Kirilenko to look into it.'
-    n: 'Protocol 39, items XIII and XVII. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 254, Malin''s notes); III, 285–87 (doc. 254.2, the KGB''s note, not printed; P 39/XVII and the note of Tolstikov and Antonov). See [[cal.1962-07-01.berlin-and-vienna]], [[cal.1962-07-01.soviet-union]]. Made public: 2003. Names: Moskalenko, Yuferov, Brezhnev, Kirilenko.'
+    n: 'Protocol 39, items XIII and XVII. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 254, Malin''s notes); III, 285–87 (doc. 254.2, the KGB''s note, not printed; P 39/XVII and the note of Tolstikov and Antonov). See [[cal.1962-07-01.berlin-and-vienna]], [[cal.1962-07-01.berlin-and-vienna]]. Made public: 2003. Names: Moskalenko, Yuferov, Brezhnev, Kirilenko.'
     tags: [name:brezhnev-leonid, name:kirilenko-andrei-p, polity:ussr]
   - id: cal.1962-07-01.soviet-union-leadership-2
     when: July 1
     date: '1962-07-01'
     thread: soviet-union-leadership
     c: 'The Presidium in session at Ogarevo, Protocol 39, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ilyichev, Ponomarev, Shelepin, Grishin, Gromyko, Malin.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39, Malin''s notes and his list of those present); III, 284–87 (P 39/II, III and XVII; XIII''s note not printed); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin, Gromyko.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39, Malin''s notes and his list of those present); III, 284–87 (P 39/II, III and XVII; XIII''s note not printed); III, 1001 n.1 (Khrushchev presiding). Check: Mikoyan among those present by Malin''s list (I, 569–70); absent by Fursenko and Naftali, 440 ([[cal.1962-07-01.berlin-and-vienna]]). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin, Gromyko.'
     tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei]
     time_range:
       - 1962-07-01T06:00Z
