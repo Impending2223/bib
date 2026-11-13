@@ -359,6 +359,17 @@ def op_edit(series, body, source, report, touched):
         return
     _replace(sec, cur, merged)
     touched.add(sec)
+    if lst.kind == "calendar" and str(merged.get("date")) != str(cur.get("date")) and not merged.get("conflict"):
+        # a calendar entry re-dated into another month moves to that month's section, in date order
+        dest = section_for_date(lst, merged["date"])
+        if dest is not None and dest is not sec:
+            sec.entries.remove(merged)
+            dest.entries.insert(auto_position(dest, merged), merged)
+            touched.add(dest)
+            note = (note + "; " if note else "") + f"moved to {dest.code or dest.id}"
+        elif dest is sec:
+            sec.entries.remove(merged)
+            sec.entries.insert(auto_position(sec, merged), merged)
     report.add("conflict" if len(merged.get("conflict", [])) > len(cur.get("conflict", [])) else "edited", eid, note)
 
 
