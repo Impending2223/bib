@@ -193,13 +193,14 @@ entries:
     thread: civil-rights-organizations
     also: [civil-rights-bill]
     c: 'New York, the Roosevelt Hotel, the NAACP''s host: several hundred from the Leadership Conference on Civil Rights, seventy-four organizations, on lobbying for H.R. 7152. Wanted besides: an FEPC with enforceable orders, the Attorney General''s power to intervene, all public accommodations, small stores too. A Washington office in space Reuther offers; Aronson its manager; Rauh, Biemiller, Conway, Fauntroy and Clarence Mitchell to lobby.'
-    n: '[[w.whalen-longest-debate]], 14–15, 228. To check: the meeting''s memorandum, NAACP Papers, Library of Congress; Joseph L. Rauh, unpublished manuscript, 6–8 (cited by [[w.whalen-longest-debate]], 246). Names: Reuther, Rauh, Biemiller, Conway, Clarence Mitchell.'
+    n: '[[w.whalen-longest-debate]], 14–15, 228; [[w.risen-bill-of-the-century]], 94–95 (the Roosevelt Hotel meeting; the Washington office, Aronson its head, the UAW to pay; the march endorsed). To check: the meeting''s memorandum, NAACP Papers, Library of Congress; Joseph L. Rauh, unpublished manuscript, 6–8 (cited by [[w.whalen-longest-debate]], 246). Names: Reuther, Rauh, Biemiller, Conway, Clarence Mitchell.'
     src:
       c: 5489d8f4
       rows:
         - 'w.whalen-longest-debate 14–15, 228: all'
         - 'via x.1963-07-02.naacp-meeting-memo-roosevelt-hotel: all'
         - 'via x.undated.rauh-unpublished-manuscript: all'
+        - 'w.risen-bill-of-the-century 94–95: D'
     tags: [name:reuther-walter, name:rauh-joseph-l-jr, name:biemiller-andrew-j, name:conway-jack-t, name:mitchell-clarence-jr]
     time_range:
       - 1963-07-02T13:00Z
@@ -412,7 +413,7 @@ entries:
     thread: civil-rights-bill
     also: [republican-party-congress]
     c: 'Over the holiday Burke Marshall goes to Piqua, Ohio, to McCulloch, who keeps him waiting much of the morning. McCulloch''s terms: the bill protected from being picked apart in the Senate; full credit to the Republicans for passage in the House; no fair employment commission with powers to regulate; the deal kept private. Marshall agrees to all.'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 54–56; [[w.whalen-longest-debate]], 11–13 (Marshall kept waiting while McCulloch speaks to the Rotarians; the terms: no gutting in the Senate, McCulloch''s approval of any change accepted there; equal credit to the Republicans from the President). Check: the day ("over the July 4 holiday"). Check: Whalen, 11, dates the visit July 2, the morning plane to Dayton (the Piqua Daily Call of July 3, 1963, on McCulloch''s speech to the Rotarians, 245). See [[cal.1963-06-19.civil-rights-bill]]. Names: Marshall, McCulloch.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 54–56; [[w.whalen-longest-debate]], 11–13 (Marshall kept waiting while McCulloch speaks to the Rotarians; the terms: no gutting in the Senate, McCulloch''s approval of any change accepted there; equal credit to the Republicans from the President); [[w.risen-bill-of-the-century]], 93 (Marshall at Piqua, McCulloch at the Rotary Club that morning; his terms, the bill not trimmed in the Senate and the credit; they shake on it; not the fair employment term or the secrecy). Check: the day ("over the July 4 holiday"). Check: Whalen, 11, dates the visit July 2, the morning plane to Dayton (the Piqua Daily Call of July 3, 1963, on McCulloch''s speech to the Rotarians, 245). See [[cal.1963-06-19.civil-rights-bill]]. Names: Marshall, McCulloch.'
     src:
       c: f0ccb9dc
       rows:
@@ -420,6 +421,7 @@ entries:
         - 'w.whalen-longest-debate 11–13: A-C'
         - 'via x.undated.whalen-interviews-1981-84: A-C'
         - 'via x.1963-07-03.piqua-daily-call: A-C'
+        - 'w.risen-bill-of-the-century 93: B'
     tags: [name:marshall-burke, name:mcculloch-william-m, state:oh]
     time_range:
       - 1963-07-04T10:00Z
@@ -427,6 +429,15 @@ entries:
     time_band: morning
     time_zone: America/New_York
     range_basis: record
+    variants:
+      - unit: C
+        witness: w.risen-bill-of-the-century
+        reads: Kennedy would give the Republicans "equal credit"
+        at: '93'
+      - unit: A
+        witness: w.risen-bill-of-the-century
+        reads: July 2 (Marshall driven from Dayton to Piqua, early afternoon at the law office)
+        at: '93'
   - id: cal.1963-07-04.vietnam-saigon
     when: July 4
     date: '1963-07-04'
@@ -913,6 +924,16 @@ entries:
       rows:
         - 'w.schlesinger-thousand-days-1965 989: all'
     tags: [name:nolting-frederick-e-jr, name:ngo-dinh-diem, place:saigon]
+  - id: cal.1963-07-11.civil-rights-bill
+    when: July 11
+    date: '1963-07-11'
+    thread: civil-rights-bill
+    c: 'Washington, the Mayflower Hotel. Satterfield''s first off-the-record breakfast for his committee against the civil rights bill: seventy-five representatives of the Chamber of Commerce, the American Bar Association and other groups; none agrees to join.'
+    n: '[[w.risen-bill-of-the-century]], 99 (the breakfast; the meeting in Chicago, undated, a bigger failure by the account of Synon, the committee''s staff director). To check: John Synon, interview by Raymond Wolfinger, Sept. 7, 1965, box 22, Filvaroff and Wolfinger Papers, University at Buffalo Library (cited by [[w.risen-bill-of-the-century]], 99 n.75).'
+    src:
+      c: aea5b59e
+      rows:
+        - 'w.risen-bill-of-the-century 99: all'
   - id: cal.1963-07-12.civil-rights-bill
     when: July 12
     date: '1963-07-12'
@@ -1663,6 +1684,16 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d76: all'
     tags: [name:rusk-dean]
+  - id: cal.1963-07-17.civil-rights-bill-2
+    when: July 17
+    date: '1963-07-17'
+    thread: civil-rights-bill
+    c: 'Satterfield, in a memorandum, plans a Coordinating Committee for Fundamental American Freedoms against the civil rights bill: offices near Capitol Hill, a research staff, files on vulnerable Senators, witnesses, pamphlets and ads, mailing lists, editorial pages in the Midwest and mountain States; $100,000 for six months.'
+    n: '[[w.risen-bill-of-the-century]], 98–99 (the memorandum of July 17; later William Loeb chairman, Kilpatrick vice chairman, Draper''s $215,000 by way of the Mississippi State Sovereignty Commission, 99). To check: "Rough Memo Concerning Preparation for Work of the Committee to Defeat the Civil Rights Act of 1963," box 17, Filvaroff and Wolfinger Papers, University at Buffalo Library (cited by [[w.risen-bill-of-the-century]], 99 n.74).'
+    src:
+      c: 39123b2d
+      rows:
+        - 'w.risen-bill-of-the-century 98–99: all'
   - id: cal.1963-07-18.economy
     when: July 18
     date: '1963-07-18'
@@ -1754,13 +1785,14 @@ entries:
     thread: civil-rights-bill
     also: [robert-kennedy]
     c: Robert Kennedy before Eastland's Judiciary Committee on the civil rights bill, the first of his days there; to go on July 24. "Those who preach most frequently about states' rights today are not seeking the protection of the individual citizen, but his exploitation."
-    n: 'Daily Digest, [109 Cong. Rec. D341](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=339) (1963). [[w.schlesinger-robert-kennedy-and-his]], 366. To check: Robert Kennedy, statement before the Senate Judiciary Committee, July 18, 1963 (Department of Justice release), 23–24, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 366 n.111); Senate Judiciary Committee, *Civil Rights—The President''s Program*, Hearings, 88th Cong., 1st sess. (1963) (cited by [[w.schlesinger-robert-kennedy-and-his]], 367 n.112). See [[cal.1963-06-19.civil-rights-bill]]. Names: Robert Kennedy, Eastland.'
+    n: 'Daily Digest, [109 Cong. Rec. D341](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=339) (1963). [[w.schlesinger-robert-kennedy-and-his]], 366; [[w.risen-bill-of-the-century]], 102–03 (Robert Kennedy before Eastland''s committee, Ervin examining him for days; Ethel Kennedy to Ervin). To check: Robert Kennedy, statement before the Senate Judiciary Committee, July 18, 1963 (Department of Justice release), 23–24, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 366 n.111); Senate Judiciary Committee, *Civil Rights—The President''s Program*, Hearings, 88th Cong., 1st sess. (1963) (cited by [[w.schlesinger-robert-kennedy-and-his]], 367 n.112). See [[cal.1963-06-19.civil-rights-bill]]. Names: Robert Kennedy, Eastland.'
     src:
       c: e6095913
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=339: A'
         - 'w.schlesinger-robert-kennedy-and-his 366: all'
         - 'via w.schlesinger-robert-kennedy-and-his 366 n.111: B'
+        - 'w.risen-bill-of-the-century 102–03: ?'
     tags: [name:kennedy-robert-f, name:eastland-james-o]
     time_range:
       - 1963-07-18T13:00Z
@@ -1768,6 +1800,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.risen-bill-of-the-century
+        reads: July 20
+        at: '102'
   - id: cal.1963-07-18.republican-party-congress
     when: July 18
     date: '1963-07-18'
