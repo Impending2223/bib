@@ -24,6 +24,7 @@ STYLE
     event written twice, to be folded into one entry with both cites, or told apart in their wording.
 """
 import collections
+import re
 import os
 
 from . import store
@@ -41,9 +42,13 @@ def load(paths):
     return out
 
 
-def drops(cur, new):
+DATE_CHECK = re.compile(r"^Check: the (day|month|date|days)\b")
+
+
+def drops(cur, new, dated=False):
     """What a note's read sources and Checks would lose if `new` replaced `cur` whole (STYLE 1): a stale value written
-    over a current base. Cards read (cited with a pinpoint) and "Check:" sentences only."""
+    over a current base. Cards read (cited with a pinpoint) and "Check:" sentences only. `dated`: the same edit sets a
+    full date (YYYY-MM-DD), so a "Check: the day" it strikes is settled, not lost (the notes pilot, Nov. 13, 2026)."""
     import re
     if new is None:
         return []
@@ -51,7 +56,8 @@ def drops(cur, new):
     pinned = lambda s: {card(m.group(0)) for m in re.finditer(ITEM, s) if re.match(r"\[\[[^\]]+\]\],", m.group(0))}
     have = {card(m.group(0)) for m in re.finditer(ITEM, new)}
     out = [f"{c} (read)" for c in sorted(pinned(cur) - have)]
-    out += [f"'{s[:60]}'" for s in sentences(cur) if s.startswith("Check:") and s not in new]
+    out += [f"'{s[:60]}'" for s in sentences(cur) if s.startswith("Check:") and s not in new
+            and not (dated and DATE_CHECK.match(s))]
     return out
 
 
@@ -81,7 +87,9 @@ def audit(series, paths):
                 elif series.get(eid) and find_base(series, eid, base) is None:
                     refused.append(f"{name}: {kind} {eid}: base {base} not in the tree or git history{hint}")
                 if kind == "edit" and series.get(eid) and base == store.rev(series.get(eid)[2]):
-                    lost = drops(series.get(eid)[2].get("n") or "", (body.get("set") or {}).get("n"))
+                    st = body.get("set") or {}
+                    lost = drops(series.get(eid)[2].get("n") or "", st.get("n"),
+                                 dated=bool(re.match(r"^\d{4}-\d\d-\d\d$", str(st.get("date") or ""))))
                     if lost:
                         refused.append(f"{name}: edit {eid} would drop what the note now holds: {'; '.join(lost)}")
                 if kind == "edit":
