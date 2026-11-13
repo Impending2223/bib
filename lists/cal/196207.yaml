@@ -2292,6 +2292,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-07.press-and-broadcasting-2
+    when: July 25
+    date: '1962-07-25'
+    thread: press-and-broadcasting
+    also: [vietnam]
+    c: 'Bigart in the *New York Times*, closing a survey of the war: the insurgency''s destruction a long way off; the Ngôs better at alienating the people than winning them; aid to be reassessed, political reform stressed.'
+    n: '[[w.debenedetti-american-ordeal]], 84; 422 n.9 (the day and page: "NYT, 25 July 1962, 1"). To check: [*New York Times*, July 25, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/25/issue.html), at 1 (cited by [[w.debenedetti-american-ordeal]], 422 n.9). Names: Bigart.'
+    src:
+      c: 75ef1dfa
+      rows:
+        - 'w.debenedetti-american-ordeal 84: all'
+    tags: [name:bigart-homer]
+    time_range:
+      - 1962-07-25T09:00Z
+      - 1962-07-25T12:00Z
+    time_band: early morning
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-07-26.economy
     when: July 26
     date: '1962-07-26'
@@ -2991,25 +3009,13 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
-  - id: cal.1962-07.press-and-broadcasting-2
-    when: July
-    date: 1962-07
-    thread: press-and-broadcasting
-    also: [vietnam]
-    c: 'Bigart in the *New York Times*, closing a survey of the war: the insurgency''s destruction a long way off; the Ngôs better at alienating the people than winning them; aid to be reassessed, political reform stressed.'
-    n: '[[w.debenedetti-american-ordeal]], 84. Check: the day. Names: Bigart.'
-    src:
-      c: 75ef1dfa
-      rows:
-        - 'w.debenedetti-american-ordeal 84: all'
-    tags: [name:bigart-homer]
   - id: cal.1962-07.press-and-broadcasting-3
     when: July
     date: 1962-07
     thread: press-and-broadcasting
     also: [vietnam]
     c: 'Sully of *Newsweek*, shortly after Bigart''s survey: the war "a losing proposition."'
-    n: '[[w.debenedetti-american-ordeal]], 84. Check: the day.'
+    n: '[[w.debenedetti-american-ordeal]], 84. See [[cal.1962-07.press-and-broadcasting-2]]. Check: the day.'
     src:
       c: 75ce11d7
       rows:
