@@ -392,7 +392,12 @@ def headings(lst, sec, idfmt):
     sid = idfmt(sec)
     old = sec.extra.get("old_id")        # a renamed section's old anchor still lands here (jan60 → 196001)
     alias = f'<span id="{sid[:-len(attr(sec.id))]}{attr(old)}"></span>' if old and sid.endswith(attr(sec.id)) else ""
-    return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
+    crumb = ""
+    if cal:                               # the top bar's form for a month: "1963 / October" (the owner, Nov. 12, 2026)
+        m = re.fullmatch(r"([A-Z][a-z]+) (\d{4})", plain(sec.title))
+        if m:
+            crumb = f' data-crumb="{m.group(2)} / {m.group(1)}"'
+    return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}"{crumb}>{num}{to_html(sec.title)}</{tag}>'
 
 
 def by_day(lst, sec):

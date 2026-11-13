@@ -85,6 +85,10 @@ STYLE:
     week (Sunday to Saturday; week 1 the first with four days in the year, so the week of Jan. 4: mmwr_week), its
     year added where it is not the Sunday's ("Week 1 of 1963" on Dec. 30, 1962), the week's span on hover, anchored
     `wk<date>`; the template's heading style, with the day's rule under it dropped. The Sunday wash of Nov. 4 is gone.
+    Renamed (the owner, Nov. 12, 2026): "W42: Oct. 13–19", the span in the heading (week_label); a week of another
+    year's MMWR count reads by its own number ("W1: Dec. 30–Jan. 5"). Each day a heading too, a level under the week:
+    the day's div carries `data-h`, `data-short` ("Wednesday, Oct. 16") and `data-crumb` ("16"), so the scroll's rail
+    and the top bar take it (templates/list.html); the top bar reads "1963 / October / 16", the week left out of it.
 """
 import calendar
 import datetime
@@ -106,6 +110,14 @@ MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "
 MON_RE = {m.rstrip("."): i + 1 for i, m in enumerate(MON)}
 MON_RE["Sept"] = 9
 TM = "https://timesmachine.nytimes.com/timesmachine/{y}/{m:02d}/{d:02d}/issue.html"
+
+
+def week_label(n, sun, sat):
+    """The MMWR week's heading (STYLE 16): "W42: Oct. 13–19"; across a month, "W40: Sept. 29–Oct. 5" (the owner,
+    Nov. 12, 2026: "Rename the weeks from 'Week X' to 'WX: mmm d–d'")."""
+    a = f"{MON[sun.month - 1]} {sun.day}"
+    b = f"{sat.day}" if sat.month == sun.month else f"{MON[sat.month - 1]} {sat.day}"
+    return f"W{n}: {a}\u2013{b}"
 
 _cache = {}
 
@@ -492,9 +504,13 @@ def section_days(lst, sec, entry_li, thread_name):
             n, y = mmwr_week(d)
             sat = d + datetime.timedelta(days=6)
             tip = (f"MMWR week {n} of {y}: Sunday, {day_label(d, True)}, to Saturday, {day_label(sat, True)}")
-            out.append(f'<{wtag} class="wk" id="wk{iso}" data-short="Week {n}" title="{esc(tip)}">Week {n}'
-                       f'{f" of {y}" if y != d.year else ""}</{wtag}>')
-        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
+            wl = week_label(n, d, sat)
+            out.append(f'<{wtag} class="wk" id="wk{iso}" data-short="{esc(wl)}" data-nocrumb="1" title="{esc(tip)}">'
+                       f'{esc(wl)}</{wtag}>')
+        dlv = min(int(wtag[1]) + 1, 6)        # each day a heading in the scroll and the top bar (STYLE 16)
+        dshort = f"{calendar.day_name[d.weekday()]}, {day_label(d, d.year != lo.year)}"
+        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}" data-h="{dlv}" '
+             f'data-short="{esc(dshort)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
              f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
         h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
         tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")

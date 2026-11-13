@@ -110,6 +110,7 @@ ol.e>li:last-child{border-bottom:0}
 #peek li{position:absolute;right:44px;max-width:calc(100% - 56px);transform:translateY(-50%);font-family:var(--sans);font-weight:700;font-size:.95rem;line-height:1.2;
   padding:.4rem .65rem;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink);border-radius:6px}
 #peek li.l4{font-weight:600}
+#peek li.l5,#peek li.l6{font-weight:500;font-size:.85rem}
 #peek li.cur{background:var(--hl-bg);color:var(--hl-ink);font-weight:800}
 /* a heading the wheel shows is a link: a click goes there (the owner's request, Oct. 14, 2026) */
 #peek.on li{pointer-events:auto;cursor:pointer}
@@ -153,10 +154,10 @@ ol.e>li:last-child{border-bottom:0}
 
 <script>
 (function(){
-  var heads=[].slice.call(document.querySelectorAll('main h2[id], main h3[id], main h4[id]')).filter(function(h){return h.id!=='contents';});
+  var heads=[].slice.call(document.querySelectorAll('main h2[id], main h3[id], main h4[id], main [data-h][id]')).filter(function(h){return h.id!=='contents';});
   function label(h){return h.getAttribute('data-short')||h.textContent;}
   function crumbLabel(h){return h.getAttribute('data-crumb')||label(h);}   // the top bar's shorter form (a surname)
-  function lvl(h){return +h.tagName.charAt(1);}
+  function lvl(h){return h.hasAttribute('data-h')?+h.getAttribute('data-h'):+h.tagName.charAt(1);}   // a calendar's day: data-h
 
   // build nested outline (contents + drawer)
   function buildTree(ol){
@@ -206,8 +207,9 @@ ol.e>li:last-child{border-bottom:0}
   var crumb=document.getElementById('crumb');
   function updateCrumb(i){
     if(i<0){crumb.innerHTML='<b>'+document.title+'</b>';return;}
-    var parts=[], need=5;
-    for(var k=i;k>=0;k--){ var L=lvl(heads[k]); if(L<need){ parts.unshift(crumbLabel(heads[k])); need=L; } if(L===2) break; }
+    var parts=[], need=7;
+    for(var k=i;k>=0;k--){ if(heads[k].hasAttribute('data-nocrumb')) continue;   // the calendar's week: not in the top bar
+      var L=lvl(heads[k]); if(L<need){ parts.unshift(crumbLabel(heads[k])); need=L; } if(L===2) break; }
     crumb.innerHTML=parts.map(function(p,j){return j===parts.length-1?'<b>'+p+'</b>':p;}).join(' / ');
   }
 
