@@ -1,0 +1,122 @@
+# Japan, the ROK and the ROC, 1960–69: a reading and procurement plan (Nov. 13, 2026)
+
+The owner, Nov. 13, 2026 (Immediate): "What could we read for a skeleton of the ROC, ROK, and Japan in our period? What's available by way of political history, biography, memoir, public affairs, foreign relations, and the like?"; then "Refine these answers for me. Give me parallel citations in CJK for all CJK works. Use your search tools to identify titles and clear up your uncertainties." Three researchers verified the session's first list against NDL Search, CiNii Books, the National Library of Korea, the National Diet Library of Korea, Academia Historica's and the Institute of Modern History's notices, publishers and reviews; their sources are named in each entry's note where the point was in doubt. The form of `notes/proposals/foreign-leadership-reading.md`.
+
+**Marks.** **H** held on the owner's Drive; **O** open online (the link; "reached" where this session reached it, Nov. 13); **S** online by subscription; **P** to procure (print). *card* = a works card exists (its id). **?** = still unverified, said so. Romanization ALA-LC (modified Hepburn; McCune–Reischauer as modified by LC; pinyin), family name first; the original script follows the romanized title, then an English gloss.
+
+**Reachable from this session (Nov. 13):** the Diet's minutes, *Sekai to Nihon*, NDL Digital Collections, Naver News Library, the National Archives of Korea, the Presidential Archives (Korea), the ROC Presidential Office. **Not reachable:** Japan's Foreign Ministry (Access Denied: the Bluebook and the 2010 "secret agreements" reports must come by another route), the Legislative Yuan's gazette system and Academia Historica's online archive (connection reset; Academia Historica also down when the researcher looked).
+
+## 1. Japan
+
+### The skeleton
+- Satō Eisaku 佐藤榮作, *Satō Eisaku nikki* 佐藤榮作日記 [The diary of Satō Eisaku], supervised (kanshū 監修) by Itō Takashi 伊藤隆, 6 vols. (Tokyo: Asahi Shinbunsha 朝日新聞社, 1997–99). Vol. 2, 1963–66; vol. 3, 1967–69 (vol. 1, 1952–62). The Prime Minister's day, Nov. 1964 on. **P.**
+- Kusuda Minoru 楠田實, *Kusuda Minoru nikki: Satō Eisaku sōri shuseki hishokan no nisennichi* 楠田實日記：佐藤栄作総理首席秘書官の二〇〇〇日 [The diary of Kusuda Minoru: two thousand days as chief secretary to Prime Minister Satō], ed. Wada Jun 和田純 and Iokibe Makoto 五百旗頭真 (Tokyo: Chūō Kōron Shinsha 中央公論新社, 2001). May 1967–June 1972 (by its chapters; the first and last days ?). **P**; the wider Kusuda papers on J-DAC, **S**.
+- Kusuda Minoru 楠田実, ed., *Satō seiken nisennanahyakukyūjūnananichi* 佐藤政権・二七九七日 [The Satō government: 2,797 days], 2 vols. (Tokyo: Gyōsei Mondai Kenkyūjo Shuppankyoku 行政問題研究所出版局, 1983). A chronicle of the whole government. **P**; in NDL Digital Collections (access level ?).
+- The Diet: *Kokkai kaigiroku kensaku shisutemu* 国会会議録検索システム, https://kokkai.ndl.go.jp/ (both Houses, from the 1st Diet, May 1947; page images throughout; the text of the 1st–144th sessions machine-read). **O**, reached.
+- *Dētabēsu "Sekai to Nihon"* データベース「世界と日本」, https://worldjpn.net/ (GRIPS and the University of Tokyo's Institute for Advanced Studies on Asia; at this address since Oct. 2022): the Prime Ministers' and ministers' speeches, press conferences, Cabinet decisions, the Japan–US documents 1961–70, a chronology of the century. **O**, reached.
+- Gaimushō 外務省, *Gaikō seisho* 外交青書 [Diplomatic Bluebook], annual from no. 1 (Sept. 1957, then *Waga gaikō no kinkyō* わが外交の近況), https://www.mofa.go.jp/mofaj/gaiko/bluebook/. **O**, but refused to this session.
+- Iwanami Shoten Henshūbu 岩波書店編集部, ed., *Kindai Nihon sōgō nenpyō* 近代日本総合年表 [A comprehensive chronology of modern Japan], 4th ed. (Tokyo: Iwanami Shoten 岩波書店, 2001). **P.**
+- Hayashi Shigeru 林茂 and Tsuji Kiyoaki 辻清明, eds., *Nihon naikaku shiroku* 日本内閣史録 [A history of Japanese cabinets], 6 vols. (Tokyo: Daiichi Hōki Shuppan 第一法規出版, 1981) (the volume for Ikeda and Satō ?). **P.**
+- Shūgiin 衆議院 and Sangiin 参議院, eds., *Gikai seido hyakunenshi* 議会制度百年史 [A hundred years of the parliamentary system] (Tokyo: Ōkurashō Insatsukyoku 大蔵省印刷局, 1990): the Diet's history, its groups, members, bills (the volume count ?). **P.**
+- *Kanpō* 官報 [Official gazette]: NDL Digital Collections opens only to Apr. 1952; the 1960s in the library or for registered users (?); full text from May 1947 in the National Printing Bureau's *Kanpō jōhō kensaku sābisu* 官報情報検索サービス. **S.**
+- Foreign Ministry records: released under a 30-year rule since 1976, read at the Diplomatic Archives (外交史料館); none for the 1960s found online. The 2010 reports on the "secret agreements" (*iwayuru "mitsuyaku" mondai* いわゆる「密約」問題: the ministry's team, Mar. 5; the experts' committee under Kitaoka Shin'ichi, Mar. 9) and the 35 documents released with them, on the ministry's site: **O**, refused to this session.
+
+### Diaries, memoirs, and the men around the Prime Ministers
+- Kishi Nobusuke 岸信介, *Kishi Nobusuke kaikoroku: hoshu gōdō to Anpo kaitei* 岸信介回顧録：保守合同と安保改定 [Memoirs: the conservative merger and the revision of the Security Treaty] (Tokyo: Kōsaidō Shuppan 広済堂出版, 1983). **P.**
+- Kishi Nobusuke 岸信介, *Kishi Nobusuke shōgenroku* 岸信介証言録 [Kishi Nobusuke's testimony], ed. Hara Yoshihisa 原彬久 (Tokyo: Mainichi Shinbunsha 毎日新聞社, 2003; Chūkō bunko, 2014). The treaty and his fall, Jan.–July 1960. **P.**
+- Itō Masaya 伊藤昌哉, *Ikeda Hayato: sono sei to shi* 池田勇人：その生と死 [Ikeda Hayato: his life and death] (Tokyo: Shiseidō 至誠堂, 1966); the same text as *Ikeda Hayato to sono jidai* 池田勇人とその時代 [Ikeda Hayato and his times] (Tokyo: Asahi Shinbunsha, Asahi bunko, 1985). Ikeda's secretary on the cabinet of 1960–64; no Ikeda diary exists. **P.**
+- Ōhira Masayoshi Kaisōroku Kankōkai 大平正芳回想録刊行会, ed., *Ōhira Masayoshi kaisōroku* 大平正芳回想録 [Ōhira Masayoshi remembered], 3 vols.: *Tsuisōhen* 追想編 [Tributes] (1981), *Denkihen* 伝記編 [Biography] (1982), *Shiryōhen* 資料編 [Documents] (1982) (Tokyo: the Kankōkai). Not a memoir: tributes, a biography from interviews, his speeches and papers. The biography alone in trade as *Ōhira Masayoshi kaisōroku* (Tokyo: Kajima Shuppankai 鹿島出版会, 1983). Chief Cabinet Secretary 1960–62, Foreign Minister 1962–64. **P**; chapters of the *Shiryōhen* **O** at ohira.org.
+- Shiina Etsusaburō Tsuitōroku Kankōkai 椎名悦三郎追悼録刊行会, ed., *Kiroku Shiina Etsusaburō* 記録椎名悦三郎 [The record of Shiina Etsusaburō], written by Fujita Yoshirō 藤田義郎, 2 vols. (Tokyo: the Kankōkai, 1982). Foreign Minister 1964–66, the treaty with Korea. **P**; in NDL Digital Collections (access ?).
+- Hori Shigeru 保利茂, *Sengo seiji no oboegaki* 戦後政治の覚書 [Notes on postwar politics] (Tokyo: Mainichi Shinbunsha, 1975). Satō's Chief Cabinet Secretary, 1968–71. **P.**
+- Tōgō Fumihiko 東郷文彦, *Nichi-Bei gaikō sanjūnen: Anpo, Okinawa to sono go* 日米外交三十年：安保・沖縄とその後 [Thirty years of Japan–US diplomacy: the Security Treaty, Okinawa and after] (Tokyo: Sekai no Ugokisha 世界の動き社, 1982; Chūkō bunko, 1989). **P.**
+- Wakaizumi Kei 若泉敬, *Tasaku nakarishi o shinzemu to hossu* 他策ナカリシヲ信ゼムト欲ス [I wish to believe there was no other course] (Tokyo: Bungei Shunjū 文藝春秋, 1994; new ed. 2009, subtitled *Kaku mitsuyaku no shinjitsu* 核密約の真実); in English, *The Best Course Available: A Personal Account of the Secret U.S.-Japan Okinawa Reversion Negotiations*, ed. John Swenson-Wright (Honolulu: University of Hawai'i Press, 2002). The channel to the White House, 1967–69. **P.**
+- The American side: Reischauer, *My Life Between Japan and America* (card `w.reischauer-my-life-between-japan`); U. Alexis Johnson, *The Right Hand of Power* (card `w.johnson-right-hand-of-power`).
+
+### Histories and lives
+- Masumi Junnosuke 升味準之輔, *Gendai seiji: 1955-nen igo* 現代政治：1955年以後 [Contemporary politics: since 1955], 2 vols. (Tokyo: Tōkyō Daigaku Shuppankai 東京大学出版会, 1985); trans. Lonny E. Carlile, *Contemporary Politics in Japan* (Berkeley: University of California Press, 1995). **P.**
+- Kitaoka Shin'ichi 北岡伸一, *Jimintō: seikentō no 38-nen* 自民党：政権党の38年 [The LDP: thirty-eight years as the party of government] (Tokyo: Yomiuri Shinbunsha 読売新聞社, 1995; Chūkō bunko, 2008). **P.**
+- Murai Ryōta 村井良太, *Satō Eisaku: sengo Nihon no seiji shidōsha* 佐藤栄作：戦後日本の政治指導者 [Satō Eisaku: a political leader of postwar Japan], Chūkō shinsho 2570 (Tokyo: Chūō Kōron Shinsha, 2019). **P.**
+- Yoshitsugu Kōsuke 吉次公介, *Ikeda seikenki no Nihon gaikō to reisen: sengo Nihon gaikō no zahyōjiku 1960–1964* 池田政権期の日本外交と冷戦：戦後日本外交の座標軸1960–1964 [Japanese diplomacy and the Cold War under Ikeda, 1960–64] (Tokyo: Iwanami Shoten, 2009). **P.**
+- Nakajima Takuma 中島琢磨, *Okinawa henkan to Nichi-Bei anpo taisei* 沖縄返還と日米安保体制 [The reversion of Okinawa and the Japan–US security system] (Tokyo: Yūhikaku 有斐閣, 2012). **P.**
+- Nathaniel B. Thayer, *How the Conservatives Rule Japan* (Princeton: Princeton University Press, 1969). **P.**
+- Gerald L. Curtis, *Election Campaigning Japanese Style* (New York: Columbia University Press, 1971); in Japanese, *Daigishi no tanjō* 代議士の誕生, trans. Yamaoka Seiji 山岡清二 (Tokyo: Saimaru Shuppankai サイマル出版会, 1971). **P.**
+- Carded already: Packard, *Protest in Tokyo* (`w.packard-protest-in-tokyo`); Kapur (`w.kapur-japan-at-the-crossroads`); Schaller (`w.schaller-altered-states`); LaFeber (`w.lafeber-clash`); Maga (`w.maga-hands-across-the-sea`); Welfield (`w.welfield-empire-in-eclipse`); Havens (`w.havens-fire-across-the-sea`); Sarantakes (`w.sarantakes-keystone`); Destler et al. (`w.destler-textile-wrangle`); Shiraishi (`w.shiraishi-japanese-relations-with-vietnam`); Packard on Reischauer. *The Cambridge History of Japan*, vol. 6, the twentieth century: **H** (no card).
+
+### The press (all **S**)
+*Asahi shinbun*: *Asahi Shinbun Kurosu Sāchi* 朝日新聞クロスサーチ (formerly 聞蔵II), page images 1879–1999. *Yomiuri*: *Yomidasu rekishikan* ヨミダス歴史館 (the name now ?). *Mainichi*: *Maisaku* 毎索. *The Japan Times Archives* (East View).
+
+## 2. The Republic of Korea
+
+### The skeleton
+- *Pak Chŏng-hŭi Kukka Chaegŏn Ch'oego Hoeŭi ŭijang kukchŏng suhaeng ilchi: 1961.5.16–1963.11.25* 박정희 국가재건최고회의 의장 국정수행 일지 [Daily record of Chairman Park's conduct of state affairs, May 16, 1961–Nov. 25, 1963], ed. Nam Chŏng-ok 남정옥 and Sim Kyŏng-hak 심경학, Pak Chŏng-hŭi t'ongch'i saryo ch'ongsŏ 1 (Seoul: Pak Chŏng-hŭi Yŏn'guwŏn 박정희연구원, 2020). The junta's daily log, printed. **P.** The presidential secretariat's logs for 1963–68 (14 volumes, one of 1967 missing) were found in 2000; whether printed ?.
+- *Pak Chŏng-hŭi Taet'ongnyŏng yŏnsŏl munjip* 朴正熙大統領演說文集 [Collected speeches of President Park Chung Hee], 16 vols. (Seoul: Taet'ongnyŏng Pisŏsil 大統領秘書室, 1965–79): vol. 1, Dec. 1963–Dec. 1964; vols. 2–6, 1965–69, a year each. For 1961–63: *Kukka Chaegŏn Ch'oego Hoeŭi ŭijang taet'ongnyŏng kwŏnhan taehaeng Pak Chŏng-hŭi changgun tamhwa munjip* 國家再建最高會議議長大統領權限代行朴正熙將軍談話文集 [Statements of General Park as chairman of the Supreme Council and acting President] (1965). Online in the Presidential Archives' speech records, *Taet'ongnyŏng Kirokkwan* 대통령기록관, https://www.pa.go.kr/research/contents/speech/index.jsp, each text with its volume and a scan (the junta years ?). **O**, reached.
+- The National Assembly's minutes, *Kukhoe hoeŭirok* 국회 회의록, https://record.assembly.go.kr (new system, Mar. 2025; the older sessions as image files; the 1960s and the Supreme Council's minutes ?). **O**, answers (not yet queried).
+- The Official Gazette, *Kwanbo* 관보, at the National Archives of Korea, *Kukka Kirogwŏn* 국가기록원: https://theme.archives.go.kr/next/gazette/listDateSearch.do (1948–2000 as page images). **O**, reached. The Archives' *Yŏnp'yo wa kirok* 연표와 기록 [Chronology and records], https://theme.archives.go.kr/next/chronology/outline.do, 1945–2003 linked to its records: **O**.
+- *Neibŏ nyusŭ raibŭrŏri* 네이버 뉴스 라이브러리 [Naver News Library], https://newslibrary.naver.com: *Tonga ilbo* 동아일보 1920–99, *Kyŏnghyang sinmun* 경향신문 1946–99, *Maeil kyŏngje* 매일경제 1966–99; page images. **O**, reached. (*Chosŏn ilbo* has its own archive, 조선뉴스라이브러리.)
+- *Korea Annual* (Seoul: Hapdong News Agency, 1964–80): a chronology, the government's directory, a who's who. **P.**
+- Chungang Sŏn'gŏ Kwalli Wiwŏnhoe 中央選擧管理委員會 [National Election Commission], *Taehan Min'guk sŏn'gŏsa* 大韓民國選擧史 [History of elections in the Republic of Korea] (Seoul, 1964; 1968; 1973): the returns of 1960, 1963, 1967 and 1969. **P.**
+- The Foreign Ministry's files (*oegyo munsŏ* 외교문서): released at 30 years since 1994; the Korea–Japan talks whole (156 vols., Aug. 2005) and the Vietnam dispatch and the Brown memorandum (49 vols., 2005). The list: https://diplomaticarchives.mofa.go.kr/dev/open_document_list.go; the files, by request (five a day, after approval), https://opendiplomaticarchives.mofa.go.kr. **O** (by request). Printed guides: Tongbuga Yŏksa Chaedan 동북아역사재단, *Han-Il hoedam oegyo munsŏ haejejip* 한일회담 외교문서 해제집 (2008, 5 vols.). The National Institute of Korean History's database (db.history.go.kr) holds FRUS on Korea and State Department files on the talks, not the ROK's own.
+- Kukpangbu Chŏnsa P'yŏnch'an Wiwŏnhoe 국방부 전사편찬위원회 [Ministry of National Defense], *P'awŏl Han'gukkun chŏnsa* 파월한국군전사 [History of the Korean forces in Vietnam], 10 vols. and atlas (Seoul: Kukpangbu, 1978–85) (the hanja title and count ?). **P.**
+
+### Memoirs
+- Kim Chong-p'il 김종필 (Kim Jong-pil), *Kim Chong-p'il chŭngŏllok: JP ka marhanŭn Taehan Min'guk hyŏndaesa* 김종필 증언록: JP가 말하는 대한민국 현대사 [The testimony of Kim Jong-pil], ed. the *JoongAng Ilbo*'s team 중앙일보 김종필증언록팀, 2 vols. (Seoul: Waijŭberi 와이즈베리, 2016); in Japanese, 金鍾泌証言録 (Shinchōsha 新潮社, 2017). May 16, the KCIA, the party, the Kim–Ōhira memorandum. **P.**
+- Kim Hyŏng-uk 金炯旭 and Pak Sa-wŏl 朴思越, *Kim Hyŏng-uk hoegorok* 金炯旭 회고록 [Memoirs of Kim Hyŏng-uk], 3 vols. (Seoul: Ach'im 아침, 1985): *5·16 pisa* 5.16秘史, *Han'guk Chungang Chŏngbobu* 韓國中央情報部, *Pak Chŏng-hŭi wangjo ŭi pihwa* 朴正熙王朝의 秘話. The KCIA's director, 1963–69. **P.**
+- Yun Po-sŏn 尹潽善, *Kuguk ŭi kasi pat kil: na ŭi hoegorok* 救國의 가시밭길: 나의 回顧錄 [The thorny path of national salvation: my memoir] (Seoul: Han'guk Chŏnggyŏngsa 韓國政經社, 1967). President 1960–62; candidate 1963 and 1967. **P.**
+- Chang Myŏn 張勉, *Han al ŭi mil i chukchi ank'onŭn: Chang Myŏn paksa hoegorok* 한알의 밀이 죽지 않고는: 張勉博士回顧錄 [Unless a grain of wheat die: memoirs of Dr. Chang Myŏn] (Seoul, 1967; the publisher ?); enlarged ed., ed. Unsŏk Kinyŏmhoe 운석기념회 (Seoul: Kat'ollik Ch'ulp'ansa 가톨릭출판사, 1999). Posthumous: his account, speeches, others' memoirs. Prime Minister 1960–61. **P.**
+- Chŏng Il-kwŏn 丁一權, *Chŏng Il-kwŏn hoegorok* 丁一權回顧錄 [Memoirs of Chŏng Il-kwŏn] (Seoul: Koryŏ Sŏjŏk 高麗書籍, 1996), with a supplementary volume. Foreign Minister 1963–64, Prime Minister 1964–70. **P.**
+- Yi Tong-wŏn 李東元, *Taet'ongnyŏng ŭl kŭrimyŏ* 대통령을 그리며 [Remembering the President] (Seoul: Koryŏwŏn 고려원, 1992); in Japanese, 日韓条約の成立：李東元回想録 (彩流社, 2016). Foreign Minister 1964–66. **P.**
+- Kim Tong-jo 金東祚, *Hoesang 30-yŏn Han-Il hoedam* 回想 30年 韓日會談 [Recollections of thirty years: the Korea–Japan talks] (Seoul: Chungang Ilbosa 中央日報社, 1986); and *Naengjŏn sidae ŭi uri oegyo* 냉전시대의 우리 외교 [Our diplomacy in the Cold War era] (Seoul: Munhwa Ilbo 문화일보, 2000; only booksellers confirm it). Chief delegate to the talks; first ambassador to Japan. **P.**
+- Kim Chŏng-nyŏm 金正濂, *Han'guk kyŏngje chŏngch'aek 30-yŏn sa: Kim Chŏng-nyŏm hoegorok* 韓國經濟政策30年史: 金正濂回顧錄 [Thirty years of Korean economic policy] (Seoul: Chungang Ilbosa, 1990); *A, Pak Chŏng-hŭi* 아, 박정희 (Seoul: Chungang M&B 중앙M&B, 1997). Finance and Commerce minister, then Park's chief of staff from 1969. **P.**
+- Kim Tae-jung 金大中, *Kim Tae-jung chasŏjŏn* 김대중 자서전 [Autobiography], 2 vols. (Seoul: Samin 삼인, 2010); trans. Jeon Seung-hee, *Conscience in Action* (Singapore: Palgrave Macmillan, 2019). The opposition, 1967, the third-term amendment of 1969. **P.**
+- No memoir by Yi Hu-rak found.
+
+### Histories
+- Joungwon Alexander Kim, *Divided Korea: The Politics of Development, 1945–1972* (Cambridge, Mass.: Harvard East Asian Research Center, 1975). **P.**
+- John Kie-chiang Oh, *Korea: Democracy on Trial* (Ithaca: Cornell University Press, 1968). **P.**
+- Carded already: Kim and Vogel, eds., *The Park Chung Hee Era* (`w.park-chung-hee-era`); Brazinsky (`w.brazinsky-nation-building-in-south`, **H**); Cha (`w.cha-alignment-despite-antagonism`); Henderson (`w.henderson-korea`); Han Sung-joo (`w.han-failure-of-democracy-in`); Quee-Young Kim (`w.kim-fall-of-syngman-rhee`); Hyung-A Kim (`w.kim-koreas-development-under-park`); Macdonald; Chae-Jin Lee; Kil Yi (`w.yi-in-search-of-a`); Blackburn; Lerner, Cheevers, Armbrister, Bolger. Eckert's *Park Chung Hee and Modern Korea* (2016) ends in 1945: background only.
+
+## 3. The Republic of China
+
+### The skeleton
+- Lü Fangshang 呂芳上, ed., *Jiang Zhongzheng xiansheng nianpu changbian* 蔣中正先生年譜長編 [A long chronological biography of Chiang Kai-shek], 12 vols. (Taipei: Guoshiguan 國史館, Guoli Zhongzheng jiniantang guanlichu 國立中正紀念堂管理處, Zhongzheng wenjiao jijinhui 中正文教基金會, 2014–15). Through 1975; vol. 11, 1958–64, and vol. 12, 1965–75 (probable). **P.**
+- Jiang Zhongzheng 蔣中正, *Jiang Zhongzheng riji* 蔣中正日記 [Diaries of Chiang Kai-shek], ed. Lü Fangshang 呂芳上 and Yuan Liucheng 源流成 (Taipei: Minguo lishi wenhua xueshe 民國歷史文化學社 and Guoshiguan 國史館, 2024): 1960 in the volumes of 1955–60, 1961–69 a volume a year, 1970–72 one volume. The originals, to 1972, now at Academia Historica; the images free since Jan. 1, 2026, released in batches (the 1960s ?). **P**; **O** in part.
+- Zhonghua Minguo shishi jiyao bianji weiyuanhui 中華民國史事紀要編輯委員會, ed., *Zhonghua Minguo shishi jiyao (chugao)* 中華民國史事紀要（初稿） [Chronicle of events of the Republic of China (draft)] (Taipei: Guoshiguan, 1991–2002), by quarter or half-year (1962–66 and 1968–70 seen; 1960, 1961, 1967 ?). The government's day by day. **P.**
+- *Zongtongfu gongbao* 總統府公報 [Presidential Office Gazette], from no. 1, May 20, 1948: https://www.president.gov.tw/Page/129. **O**, the site reached. Appointments also in *Zhonghua Minguo zhengfu guanzhi ziliaoku* 中華民國政府官職資料庫, https://gpost.lib.nccu.edu.tw/. **O.**
+- *Lifayuan gongbao* 立法院公報 [Legislative Yuan Gazette]: https://ppg.ly.gov.tw/ppg/ and the National Central Library's 政府公報資訊網 (the 1960s run and page images ?). **O**, not reached.
+- Academia Historica's *Guoshiguan dang'an shiliao wenwu chaxun xitong* 國史館檔案史料文物查詢系統, https://ahonline.drnh.gov.tw/: the papers of Chiang Kai-shek (蔣中正總統文物, 1923–71) and Chiang Ching-kuo (蔣經國總統文物), Chen Cheng's (online share ?). **O** in part; not reached.
+- The Institute of Modern History's archives, https://archives.sinica.edu.tw/: the Foreign Ministry's files (外交部檔案, 1861–2009), about half digitized, most of that viewable online. **O** in part.
+- *China Yearbook* (Taipei: China Publishing Co., 1957/58–80), annual, English; *Zhonghua Minguo nianjian* 中華民國年鑑 [Republic of China yearbook] (Taipei: Zhonghua Minguo nianjian she 中華民國年鑑社, 1951–). Rosters, laws, chronologies. **P.**
+- Qin Xiaoyi 秦孝儀, ed., *Zongtong Jiang gong sixiang yanlun zongji* 總統蔣公思想言論總集 [Collected thought and words of President Chiang] (Taipei: Zhongguo Guomindang dangshi weiyuanhui 中國國民黨中央委員會黨史委員會, 1984) (the volume count ?). His speeches and messages, dated. **P.**
+- The *Shilüe gaoben* 事略稿本 ends in 1949: not for the span.
+
+### Diaries and memoirs
+- Jiang Jingguo 蔣經國, *Jiang Jingguo riji* 蔣經國日記 [Diaries of Chiang Ching-kuo], ed. Ou Suying 歐素瑛 et al. (Taipei: Guoshiguan, 2024), 1960–69 a volume a year. Minister of Defense from 1965; intelligence; the UN seat. **P**; the images in the Taipei reading room only.
+- Chen Cheng 陳誠, *Chen Cheng xiansheng riji* 陳誠先生日記 [Diaries of Chen Cheng], ed. Lin Qiumin 林秋敏, Ye Huifen 葉惠芬, Su Shengxiong 蘇聖雄, 3 vols. (Taipei: Guoshiguan and Zhongyang yanjiuyuan Jindaishi yanjiusuo 中央研究院近代史研究所, 2015); enlarged ed., 3 vols. (2024). Vice President and Premier to Dec. 1963; to 1964 or 1965 (?). **P.**
+- Huang Jie 黃杰, *Zhanhou Taiwan shiliao yu yanjiu: Huang Jie renzhi Jingzong shiqi riji* 戰後臺灣史料與研究：黃杰任職警總時期日記 [Diaries of Huang Jie as commander of the Taiwan Garrison], ed. Liao Wenshuo 廖文碩 et al., 6 vols. (Taipei: Guoshiguan, 2022–23). Aug. 1958–1962: the Lei Zhen case, internal security. **P.**
+- Lei Zhen 雷震, *Lei Zhen quanji* 雷震全集 [Complete works], ed. Fu Zheng 傅正, 47 vols. (Taipei: Guiguan tushu 桂冠圖書, 1989–90); the diary in vols. 31–47, to his arrest, Sept. 1960, in vols. 31–35 and 38–40 (which volume holds 1960 ?). **P.** Chen Shihong 陳世宏 et al., eds., *Lei Zhen an shiliao huibian* 雷震案史料彙編 [Sources on the Lei Zhen case], 4 vols. (Xindian: Guoshiguan, 2002–03). **P.**
+- Wang Shijie 王世杰, *Wang Shijie riji* 王世杰日記 [Diary], ed. Lin Meili 林美莉, 2 vols. (Taipei: Zhongyang yanjiuyuan Jindaishi yanjiusuo, 2012). 1933–79; President of Academia Sinica 1962–70. **P.**
+- Peng Mingmin 彭明敏 (Peng Ming-min), *A Taste of Freedom: Memoirs of a Formosan Independence Leader* (New York: Holt, Rinehart and Winston, 1972); *Ziyou de ziwei: Peng Mingmin huiyilu* 自由的滋味：彭明敏回憶錄, trans. Lin Meihui 林美惠 (Taipei: Qianwei chubanshe 前衛出版社, 1988; Yushan she 玉山社, 2017). The 1964 manifesto and arrest. **P**; the English text **O** at pinyin.info.
+- Ray S. Cline, *Chiang Ching-kuo Remembered: The Man and His Political Legacy* (Washington, D.C.: United States Global Strategy Council, 1989). **P.**
+- Chen Xiongfei 陳雄飛, *Waijiao shengya yi jiazi: Chen Xiongfei xiansheng fangwen jilu* 外交生涯一甲子：陳雄飛先生訪問紀錄, pt. 1 (Taipei: Zhongyang yanjiuyuan Jindaishi yanjiusuo, 2016). A diplomat's oral history. **P.** None found for Shen Changhuan, Zhou Shukai or Wei Daoming.
+
+### Histories and lives
+- Jay Taylor, *The Generalissimo: Chiang Kai-shek and the Struggle for Modern China* (Cambridge, Mass.: Belknap Press, 2009); Tao Han 陶涵, *Jiang Jieshi yu xiandai Zhongguo de fendou* 蔣介石與現代中國的奮鬥, trans. Lin Tiangui 林添貴, 2 vols. (Taipei: Shibao wenhua 時報文化, 2010). **P.**
+- Jay Taylor, *The Generalissimo's Son: Chiang Ching-kuo and the Revolutions in China and Taiwan* (Cambridge, Mass.: Harvard University Press, 2000); Tao Han 陶涵, *Taiwan xiandaihua de tuishou: Jiang Jingguo zhuan* 台灣現代化的推手：蔣經國傳, trans. Lin Tiangui (Taipei: Shibao wenhua, 2000). **P.**
+- Lin Xiaoting 林孝庭 (Hsiao-ting Lin), *Taihai, lengzhan, Jiang Jieshi: jiemi dang'an zhong xiaoshi de Taiwan shi 1949–1988* 台海．冷戰．蔣介石：解密檔案中消失的台灣史1949–1988 (Taipei: Lianjing 聯經, 2015); *Jiang Jingguo de Taiwan shidai: Zhonghua Minguo yu lengzhan xia de Taiwan* 蔣經國的台灣時代：中華民國與冷戰下的台灣 (New Taipei: Yuanzu wenhua 遠足文化, 2021). **P.**
+- Igarashi Takayuki 五十嵐隆幸, *Tairiku hankō to Taiwan: Chūka Minkoku ni yoru tōitsu no kōsō to zasetsu* 大陸反攻と台湾：中華民国による統一の構想と挫折 [The mainland counteroffensive and Taiwan] (Nagoya: Nagoya Daigaku Shuppankai 名古屋大学出版会, 2021). Project National Glory (國光計畫) to its end in the 1960s, from Chiang Ching-kuo's diaries. **P.**
+- Nancy Bernkopf Tucker, *Taiwan, Hong Kong, and the United States, 1945–1992: Uncertain Friendships* (New York: Twayne, 1994). **P.**
+- John W. Garver, *The Sino-American Alliance: Nationalist China and American Cold War Strategy in Asia* (Armonk, N.Y.: M. E. Sharpe, 1997). **P.**
+- Denny Roy, *Taiwan: A Political History* (Ithaca: Cornell University Press, 2003). **P.**
+- No cards yet for any work on the ROC.
+
+### The press (both **S**)
+*Zhongyang ribao* 中央日報 (East View: page images 1928–2006); *Lianhe bao* 聯合報 in *Lianhe zhishiku* 聯合知識庫 (udndata), from Sept. 16, 1951.
+
+## 4. The American record, all three
+*Foreign Relations of the United States*, 1961–63, XXII (Northeast Asia: China, Korea, Japan); 1964–68, XXIX, pt. 1 (Korea) and pt. 2 (Japan), and XXX (China): **O** (history.state.gov). The National Security Archive's *Japan and the United States: Diplomatic, Security, and Economic Relations, 1960–1976*: **S**.
+
+## 5. The order of work (proposed)
+- **Japan:** the Diet's minutes and *Sekai to Nihon* (open, reached) for 1960–69; Satō's diary for Nov. 1964 on (buy vols. 2–3); Itō on Ikeda for 1960–64; Kishi's testimony for 1960.
+- **ROK:** Naver's *Tonga ilbo* and *Kyŏnghyang* (open) with the Gazette and Park's speeches (open); the junta's daily log, 1961–63 (buy); Kim Jong-pil's testimony.
+- **ROC:** the Chiang *nianpu changbian*, vols. 11–12, and the *Shishi jiyao* (buy); the Presidential Office Gazette (open); the Chiang diaries 1960–69 (buy, or the images when released).
+- For the owner: what to buy first; whether Japanese, Korean and Chinese works get cards with the original script in a `title_orig` field (the house's cards hold one title now) or in the title itself.
