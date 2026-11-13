@@ -14,7 +14,7 @@ The owner reads the *New York Times* day by day (TimesMachine) and sends the ite
 A condition of public importance that has no day of its own, reported as such: a senator who has not endorsed the ticket ("the failure of Senator Harry F. Byrd of Virginia to endorse the Democratic ticket"), a governor not yet committed, a bill still in committee, a principal's silence. The report makes it a matter of public knowledge on the paper's day; the entry goes on that day, not on the day the condition ends.
 
 - `c`: "As the *Times* reports it: Byrd of Virginia has not endorsed the Democratic ticket; neither of Georgia's Senators, Russell or Talmadge, has spoken for Kennedy." The condition, as the paper states it; no inference beyond it.
-- `tags`: `form:state` (it renders as a condition, not an act), the `name:` tags of the persons, `state:` tags.
+- `tags`: `form:state` (it renders as a condition, not an act: the label "As reported"; the index's register by thread), the `name:` tags of the persons, `state:` tags.
 - `thread`: the condition's (the campaign's thread for an endorsement).
 - `n`: the paper, linked, at the page. A later report of the same condition ("still silent") is its own entry on its own day, its note "See [[the earlier]]". The day the condition ends (an endorsement, a first appearance) is an event: an entry, pointing back to the state entries.
 - Not a standing condition: what the paper predicts, guesses or argues; a columnist's view; a condition of no public importance.

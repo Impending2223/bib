@@ -495,8 +495,16 @@ def section_days(lst, sec, entry_li, thread_name):
     undated = subentries.nest(lst, dayorder.order(lst, undated, by_time=False), lambda l, ks: dayorder.order(l, ks, by_time=False))
     dated = {k: subentries.nest(lst, dayorder.order(lst, v), dayorder.order) for k, v in dated.items()}
 
+    from . import standing           # a standing condition, set off and labeled (standing.py, STYLE 1)
+
     def li(e, sub):
         h = entry_li(e, rubric(lst, e, thread_name))
+        if standing.is_state(e):
+            head = h[:h.index(">") + 1]
+            cls = "st sub" if sub else "st"
+            h = h.replace(' class="', f' class="{cls} ', 1) if ' class="' in head else h.replace("<li", f'<li class="{cls}"', 1)
+            h = h.replace(">", f'><span class="stl">{standing.LABEL}</span>', 1)
+            return h
         if not sub:
             return h
         head = h[:h.index(">") + 1]
@@ -554,6 +562,8 @@ STYLE = """<style>
 .day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
 .day ol.e>li.sub{margin-left:.7rem;padding-top:.5rem}
+.day ol.e>li.st{border-left:2px solid var(--rule);padding-left:.6rem}
+.stl{display:block;font-family:var(--sans);font-size:.66rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem}
 .day ol.e>li+li.sub{border-top:1px dotted var(--rule);border-top-color:color-mix(in srgb,var(--rule) 55%,transparent)}
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
   text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}

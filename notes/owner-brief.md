@@ -563,3 +563,4 @@ On non-events (the *Times*, Sept. 7, 1960: Byrd's failure to endorse the ticket;
 
 - On the DRV's routine Party circulars (Party cells, staff and the like, entered by the *Văn kiện Đảng* readers): "Keep the routine party circulars. (We might drop or trim them if our DRV thread ever gets crowded, but we just don't know much about what's happening up there, so we should keep what few clues we have.)"
 - On name tags for foreign persons on FRUS's lists of persons (Gomułka, Togliatti, Zhivkov, Kekkonen and others named in the Presidium and Party entries): "Add the foreign FRUS names."
+- On the standing conditions (`form:state`) and the register previewed (notes/previews/holdouts-register.html): "As reported. Every standing condition, grouped by thread."

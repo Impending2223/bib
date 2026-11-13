@@ -1229,6 +1229,10 @@ def write_calendar(series, lst, linker, held, routed):
     calsplit.CUR.update(half=0, mode="list")
     page = build_list(series, lst.key, linker, 0)
     page = contents.fill(page, lst, 0)
+    from . import standing, check as _check   # the standing conditions, as reported, by thread (standing.py, STYLE 2)
+    reg = standing.register_html(lst, thread_name, _check.thread_key)
+    if reg and "</main>" in page:
+        page = page.replace("</main>", reg + "\n</main>", 1).replace("</head>", standing.STYLE + "\n</head>", 1)
     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
     page = page.replace("</body>", calsplit.forward_script(lst, fwd, lst.key) + "\n</body>", 1)
     path = os.path.join(OUT, f"{lst.key}.html")
