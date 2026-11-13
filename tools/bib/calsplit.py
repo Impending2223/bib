@@ -458,8 +458,11 @@ def forward_script(lst, fwd, me):
     """The script that sends a link's anchor to its page (STYLE 14): on the index (me, the list's key) only an anchor
     the page does not hold; on an old part's page every one, and no anchor to the index."""
     import json
+    first = {}                          # a retired year page with no anchor: its year's first half
+    for o in (lst.data or {}).get("retired_parts") or []:
+        first[o["page"]] = page_key(lst, half_of_date(lst, o["from"]))
     data = json.dumps({"f": fwd, "y": years(lst), "p": sorted({p["page"] for p in parts(lst)} - {lst.key}),
-                       "me": me, "ix": lst.key}, ensure_ascii=False, sort_keys=True, separators=(",", ":")).replace("</", "<\\/")
+                       "me": me, "ix": lst.key, "r": first}, ensure_ascii=False, sort_keys=True, separators=(",", ":")).replace("</", "<\\/")
     return f"""<script>
 /* an old link, forwarded by its anchor to the page that holds it (tools/bib/calsplit.py, STYLE 14) */
 (function(){{
@@ -475,6 +478,7 @@ def forward_script(lst, fwd, me):
     if(h&&document.getElementById(h)) return;
     var t=h?to(h):null;
     if(t) location.replace(t);
+    else if(!h&&D.r[D.me]) location.replace(D.r[D.me]+'.html');
     else if(D.me!==D.ix) location.replace(D.ix+'.html'+(h?'#'+h:''));
   }}
   go(); window.addEventListener('hashchange',go);
