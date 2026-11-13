@@ -72,21 +72,11 @@ Done this evening: the splits and the press list; visibility phase 1 and the Oct
 - Batch 8 (`notes/briefs/batch8.md`): the 715 rows still open (`scratchpad/alreadyin/b8-rows.json`). First wave, Sonnet: Reeves, Logevall, Barrett; each to be audited by Opus before merging.
 - The shared folder's new material: `notes/drive-additions-2026-11.md`.
 
-## The inbox (not merged)
-- 63 batch-6 patches (`inbox/2026-11-06-b6-*.yaml`) and 28 batch-7 (`inbox/2026-11-10-b7-*.yaml`), their witnesses in `inbox/witnesses/` by the same names; `inbox/2026-11-10-presidium-records.yaml`; `inbox/2026-11-10-sit-ins-feb-1960.yaml` (witnesses `inbox/witnesses/2026-11-10-sit-ins.yaml`).
-- Order: clifford-counsel is in; then caro-passage, then a one-op patch `also: {id: cal.1963-11-26.succession-3, add: [white-house]}`.
-- After the sit-ins patch lands: strike the two old Checks on cal.1960-02-08.sit-ins ("Check: the dates of the cities." and Branch's long Check) that its split settles.
-- Held for the owner: `inbox/2026-11-05-bundle-splits.yaml`, `inbox/2026-11-05-press-part-iii.yaml`.
-- Merge one run at a time (no lock), two or three patches a run, commit and push after each; read each duplicate flag's `c` beside its neighbours (keep, or combine). Readers' broken witness files block every merge: the reader fixes its own.
-
-## Unfinished work
-- Batch 6 (`notes/briefs/batch6.md`): group 14 (young-easy-burden, reeves, dallek, mcnamara, kotz, cq-08-09, peirce-great-plains) stopped mid-work; its Reeves witness file had bad values.
-- Batch 7 (`notes/briefs/batch7.md`; the rows: `python3 -I tools/works/alreadyin_rows.py OUT.json`, those not `cited`): done for Westmoreland, McPherson, Zelizer, Branch (Parting); stopped mid-work for the rest.
-- To redo with the card: the rows still passed over as private, social or personal, where the page puts the press, cameras, a crowd or a principal's staff in the scene (the owner's example: Humphrey's ride at the Ranch, pp. 307-08).
-- Poll hours and daylight time registers (`sources/poll-hours.yaml`, `sources/daylight-time.yaml`; memo `notes/extensions/memos/poll-hours.md`): partial.
-- To apply once the inbox is merged: `python3 -I tools/works/newspaper_cites.py --write` (dry run checked: 1,388 notes).
-- Newspapers and elections: bands added (dayorder KINDS_PLACE); not yet applied to entries.
-- Church Committee reports: all open at aarclibrary.org/publib/church/reports/; Pike hearings to be procured by the owner.
+## The inbox, the batches, the foreign reading, Church (checked against the tree, Nov. 13, 2026, morning)
+- The inbox is empty: every batch-6 and batch-7 patch, the sit-ins, the Presidium records, the bundle splits and the press list are merged (`inbox/merged/`; the Nov. 5 splits and press list superseded by the Nov. 12 rebuilds). Batch 6 group 14 re-ruled and merged; batch 7's unread rows taken up by batches 8 and 9 (all merged); batches 10–13 merged. Left in `inbox/witnesses/`: 73 witness files of merged patches (to check against `sources/witnesses/` and clear).
+- Unverified, to check before the next session counts them open: the "private, social or personal" rows to redo with the card (the owner's ruling of Nov. 12, social events in, may cover them); the poll-hours and daylight-time registers (partial); the newspaper and election bands applied to entries; the two old Checks on `cal.1960-02-08.sit-ins`.
+- The foreign leaderships (`notes/proposals/foreign-leadership-reading.md`): done, the threads, 126 name entries, the periodical and series cards, the October 1962 pilot (Presidium, AAPD, Macmillan), the Mao *nianpu* pilot (its text is held after all), the *Prezidium* 1960–64 and the *Văn kiện Đảng* 1960–64. Open: the UK (CAB 128, Hansard), France (the Assembly's debates, the DDF tomes held), the FRG (Kabinettsprotokolle, the AAPD outside October 1962), the Mao *nianpu* beyond the pilot, the USSR after Oct. 1964 (*Pravda*, Brezhnev's logs); the plan's procurement list (P) for the owner.
+- Church (`notes/proposals/church-pike-reading.md`): the interim report (plots) read whole (Cuba, Congo, Dominican Republic, South Vietnam; Chile out of span). Next by the plan: Book V (the Kennedy assassination), Hearings vol. 7 App. A (Chile), Book III (COINTELPRO, King, NSA) with Hearings vols. 4–6 in part, chapters of Books I, II, IV, the Pike supplement; the Pike hearings to be procured by the owner.
 
 ## For the owner (their rulings wanted)
 - The October 1962 foreign pilot (merged): name entries for foreign persons, ruled yes (Nov. 11) and made (126). Still open: new threads (`soviet-leadership` under soviet-union; `federal-republic` and `britain` under europe-and-the-alliance); the AAPD's cards (one a year, or one card with the year in the cite); the DDF 1962 tome II (the Drive has tome I only).
