@@ -22,7 +22,7 @@ import re
 ITEM = (r"\[\[w\.[^\]]+\]\](?:,[^;.\[\]()]*(?:\.[^;\s][^;.\[\]()]*)*)?(?: \((?:[^()]|\([^()]*\))*\))?")
 CARD = re.compile(r"\[\[(w\.[^\]|]+)")
 # a sentence ends at ". " before a capital, a bracket, a quotation or an asterisk; abbreviations kept by a short list
-ABBR = re.compile(r"(?:\b(?:Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec|Pub|Rec|Cong|Res|Rep|Doc|No|Nos|Stat|Op|Att|Gen|Sess|Mr|"
+ABBR = re.compile(r"(?:\b(?:v|Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec|Pub|Rec|Cong|Res|Rep|Doc|No|Nos|Stat|Op|Att|Gen|Sess|Mr|"
                   r"Dr|St|Jr|Sr|Ft|Mt|vol|vols|ed|eds|pt|doc|docs|p|pp|n|nn|ch|sec|art|cl|U\.S|D\.C|N\.Y|"
                   r"[A-Z]))$")
 

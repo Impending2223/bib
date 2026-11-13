@@ -1,5 +1,6 @@
-"""The calendar by year: one list in the data (lists/cal/), a page a year in the build (cal1960.html, Jan. 6-Dec. 31,
-1960, ... cal1969.html, Jan. 1-20, 1969), a page for the primary seasons of 1972 and 1976 (calprimaries.html), and the
+"""The calendar by year: one list in the data (lists/cal/), a page a half-year in the build (cal1960a.html, Jan. 6-June
+30, 1960, cal1960b.html, July 1-Dec. 31, ... cal1969.html, Jan. 1-20, 1969; the year pages of Nov. 4, 2026 split in
+halves Nov. 12, past the 8 MB of the memo, `retired_parts`, their pages forwarding old links), a page for the primary seasons of 1972 and 1976 (calprimaries.html), and the
 index, cal.html (the owner's memo, Nov. 4, 2026: notes/extensions/memos/volume.md, section 3).
 
     lists/cal/list.yaml, `split:`   a part a page: its `page`, the date it begins (`from`; the first, the calendar's
@@ -361,6 +362,7 @@ def route(page, lst, own):
 def old_pages(lst):
     """The pages links may still name that hold no part now: the index (cal) and the parts of Oct. 17, 2026."""
     out = [p["page"] for p in ((lst.data or {}).get("legacy_parts") or [])]
+    out += [p["page"] for p in ((lst.data or {}).get("retired_parts") or [])]   # the year pages, split (STYLE 14)
     ix = index_page(lst)
     return [p for p in dict.fromkeys(([ix] if ix else []) + out) if p not in {q["page"] for q in parts(lst)}]
 
@@ -368,15 +370,16 @@ def old_pages(lst):
 # ---------------------------------------------------------------- old links, forwarded (STYLE 14)
 
 ID = re.compile(r'\sid="([^"]+)"')
-YEAR = re.compile(r"^(?:cal\.|d)?(\d{4})(?:-\d\d|\d\d)")
+YEAR = re.compile(r"^(?:cal\.|d)?(\d{4})-?(\d\d)")
 
 
 def years(lst):
-    """{year: page}: the part each year's months are on (1972 and 1976: the primaries')."""
+    """{'YYYY-MM': page}: the part each month is on (a year is two parts since Nov. 12, 2026; 1972 and 1976: the
+    primaries')."""
     out = {}
     for x in lst.sections:
         if x.extra.get("from"):
-            out.setdefault(str(x.extra["from"])[:4], page_key(lst, half_of_section(lst, x)))
+            out.setdefault(str(x.extra["from"])[:7], page_key(lst, half_of_section(lst, x)))
     return out
 
 
@@ -388,7 +391,7 @@ def by_rule(lst, a):
         if t in pages:
             return t
     m = YEAR.match(a)
-    return years(lst).get(m.group(1)) if m else None
+    return years(lst).get(f"{m.group(1)}-{m.group(2)}") if m else None
 
 
 def forward(lst):
@@ -426,6 +429,24 @@ def forward(lst):
                     continue
                 if key != x and key not in out and not (old == lst.key and key.startswith(f"{old}.thread.")):
                     out[key] = f"{pg}#{x}"
+    for o in (lst.data or {}).get("retired_parts") or []:     # a year page split in halves: its own anchors to the first
+        a = datetime.date.fromisoformat(str(o["from"]))         # half that holds the like (cal1964.thread.cuba,
+        b = datetime.date.fromisoformat(str(o["to"]))           # th-cal1964, ind-cal1964-cpi)
+        old = o["page"]
+        for n in range(1, len(ps) + 1):
+            if not (part_range(lst, n)[0] <= b and part_range(lst, n)[1] >= a):
+                continue
+            pg = files[n - 1]
+            for x in sorted(have.get(pg, ())):
+                if x.startswith(f"{pg}.thread."):
+                    key = f"{old}.thread.{x.split('.thread.', 1)[1]}"
+                elif x.startswith(f"ind-{pg}-"):
+                    key = f"ind-{old}-{x[len(pg) + 5:]}"
+                elif x == f"th-{pg}":
+                    key = f"th-{old}"
+                else:
+                    continue
+                out.setdefault(key, f"{pg}#{x}")
     return out
 
 
@@ -446,7 +467,7 @@ def forward_script(lst, fwd, me):
   function to(x){{
     var f=D.f[x]; if(f) return f.indexOf('#')<0 ? f+'.html#'+x : f.replace('#','.html#');
     var t=x.split(/[.-]/); for(var i=0;i<t.length;i++) if(D.p.indexOf(t[i])>=0) return t[i]+'.html#'+x;
-    var m=/^(?:cal\\.|d)?(\\d{{4}})(?:-\\d\\d|\\d\\d)/.exec(x); if(m&&D.y[m[1]]) return D.y[m[1]]+'.html#'+x;
+    var m=/^(?:cal\\.|d)?(\\d{{4}})-?(\\d\\d)/.exec(x), k=m?m[1]+'-'+m[2]:null; if(k&&D.y[k]) return D.y[k]+'.html#'+x;
     return null;
   }}
   function go(){{
@@ -469,7 +490,7 @@ def stub(lst, fwd, old):
 <style>:root{{--ink:#1a1a1a;--bg:#f6f4ef}}@media (prefers-color-scheme:dark){{:root{{--ink:#e8e6e1;--bg:#16181c}}}}
 body{{margin:0;padding:3rem 1rem;background:var(--bg);color:var(--ink);font:18px/1.55 Georgia,serif}}
 p{{max-width:36rem;margin:0 auto}}a{{color:inherit}}</style></head>
-<body><p>The calendar is now a page a year. This address forwards to the year that holds the place it named;
+<body><p>The calendar is now a page a half-year. This address forwards to the page that holds the place it named;
 without one, to <a href="{lst.key}.html">the calendar's index</a>.</p>
 {forward_script(lst, fwd, old)}
 </body></html>
