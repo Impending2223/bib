@@ -584,3 +584,13 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Keep the staff memos. Bring back the selfish bastards. Someone should do a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic." (The memos stay; `cal.1964-07-02.civil-rights-bill-16` restored.)
 
 "Yes on Dirksen's "idea." Check on the cloture petition. Combine if it already holds it, redate it otherwise. Yes on Rauh and Mitchell. Keep Johnson's call to HHH, with the disagreement noted, unless Whalen and Purdum give their evidentiary or reasoned grounds for their dating, in which case switch and note Mann's alternative. Move the floor meeting. Two tellings for now. Take it out of Feb. 5. Surely the hard sources/records would give us a better date here? Or no?" (Done: May 19; the June 1 petition combined into June 8, which held it; Jan. 21; Whalen's ground a Humphrey memorandum (148 n.), Purdum's a reasoned note (358): the "listen to Dirksen" talk now Feb. 18, the Mar. 8 call kept with Mann's placement noted; Apr. 13; the Moyers tellings linked; Smith's amendment to Feb. 4 by the Record, 110 Cong. Rec. 1933, tellers 107–149.)
+
+## Nov. 13, 2026 (morning; marked "Immediate")
+
+"Immediate. Where are we? What's left? What's next? What do you need from me?"
+
+"We haven't rolled out visibility?" (It was rolled out Nov. 12; the hand-off's queue was stale and was corrected.)
+
+"How about the other items in the handoff? The batches, the foreign leadership, the Church materials?"
+
+"I believe the not yet checked items are done, with the possible exception of the Feb. 8 item. Please check and update the handoff. Skip the Church Book V—Bugliosi tells me it's a red herring, and it doesn't sound that interesting besides. Can you show me what the queue looks like after you've finished working on it? Is the queue in the handoff?" (All four done, Feb. 8 included (7e5c848); Book V dropped from the Church plan; the hand-off's queue rebuilt against the tree.)
