@@ -14,7 +14,7 @@ legacy_parts:   # the three parts of Oct. 17, 2026: their pages forward old link
   - {page: cal, from: '1960-01-06'}
   - {page: cal63, from: '1963-01-01'}
   - {page: cal66, from: '1966-01-10'}
-retired_parts:   # the year pages of Nov. 4, 2026, split in halves Nov. 12 (the owner: "Keep the page size rule and split the years"): their pages forward old links (calsplit STYLE 14)
+retired_parts:   # the year pages of Nov. 4, 2026, split Nov. 12 (the owner: "Keep the page size rule and split the years"; the names "cal1964H1", "cal1964H2", a quarter "cal1965Q1", the owner's): their pages forward old links (calsplit STYLE 14)
   - {page: cal1960, from: '1960-01-06', to: '1960-12-31'}
   - {page: cal1961, from: '1961-01-01', to: '1961-12-31'}
   - {page: cal1962, from: '1962-01-01', to: '1962-12-31'}
@@ -25,7 +25,7 @@ retired_parts:   # the year pages of Nov. 4, 2026, split in halves Nov. 12 (the 
   - {page: cal1967, from: '1967-01-01', to: '1967-12-31'}
   - {page: cal1968, from: '1968-01-01', to: '1968-12-31'}
 split:
-  - page: cal1960a
+  - page: cal1960H1
     abbr: Cal. Jan.–June 1960
     called: the calendar of January–June 1960
     title: 'Calendar, January–June 1960: the 86th Congress''s second session'
@@ -34,7 +34,7 @@ split:
     h1: '1960, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1960.
   - from: '1960-07-01'
-    page: cal1960b
+    page: cal1960H2
     abbr: Cal. July–Dec. 1960
     called: the calendar of July–December 1960
     title: 'Calendar, July–December 1960: the 86th Congress''s second session'
@@ -43,7 +43,7 @@ split:
     h1: '1960, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1960.
   - from: '1961-01-01'
-    page: cal1961a
+    page: cal1961H1
     abbr: Cal. Jan.–June 1961
     called: the calendar of January–June 1961
     title: 'Calendar, January–June 1961: the 87th Congress''s first session'
@@ -52,7 +52,7 @@ split:
     h1: '1961, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1961.
   - from: '1961-07-01'
-    page: cal1961b
+    page: cal1961H2
     abbr: Cal. July–Dec. 1961
     called: the calendar of July–December 1961
     title: 'Calendar, July–December 1961: the 87th Congress''s first session'
@@ -61,7 +61,7 @@ split:
     h1: '1961, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1961.
   - from: '1962-01-01'
-    page: cal1962a
+    page: cal1962H1
     abbr: Cal. Jan.–June 1962
     called: the calendar of January–June 1962
     title: 'Calendar, January–June 1962: the 87th Congress''s second session'
@@ -70,7 +70,7 @@ split:
     h1: '1962, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1962.
   - from: '1962-07-01'
-    page: cal1962b
+    page: cal1962H2
     abbr: Cal. July–Dec. 1962
     called: the calendar of July–December 1962
     title: 'Calendar, July–December 1962: the 87th Congress''s second session'
@@ -79,7 +79,7 @@ split:
     h1: '1962, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1962.
   - from: '1963-01-01'
-    page: cal1963a
+    page: cal1963H1
     abbr: Cal. Jan.–June 1963
     called: the calendar of January–June 1963
     title: 'Calendar, January–June 1963: the 88th Congress''s first session'
@@ -88,7 +88,7 @@ split:
     h1: '1963, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1963.
   - from: '1963-07-01'
-    page: cal1963b
+    page: cal1963H2
     abbr: Cal. July–Dec. 1963
     called: the calendar of July–December 1963
     title: 'Calendar, July–December 1963: the 88th Congress''s first session'
@@ -97,7 +97,7 @@ split:
     h1: '1963, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1963.
   - from: '1964-01-01'
-    page: cal1964a
+    page: cal1964H1
     abbr: Cal. Jan.–June 1964
     called: the calendar of January–June 1964
     title: 'Calendar, January–June 1964: the 88th Congress''s second session'
@@ -106,7 +106,7 @@ split:
     h1: '1964, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1964.
   - from: '1964-07-01'
-    page: cal1964b
+    page: cal1964H2
     abbr: Cal. July–Dec. 1964
     called: the calendar of July–December 1964
     title: 'Calendar, July–December 1964: the 88th Congress''s second session'
@@ -115,25 +115,34 @@ split:
     h1: '1964, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1964.
   - from: '1965-01-01'
-    page: cal1965a
-    abbr: Cal. Jan.–May 1965
-    called: the calendar of January–May 1965
-    title: 'Calendar, January–May 1965: the 89th Congress''s first session'
-    span: Jan. 1–May 31, 1965
-    page_title: Calendar, January–May 1965
-    h1: '1965, January–May'
-    lede: Executive, legislative, judicial, and state events of January–May 1965.
-  - from: '1965-06-01'
-    page: cal1965b
-    abbr: Cal. June–Dec. 1965
-    called: the calendar of June–December 1965
-    title: 'Calendar, June–December 1965: the 89th Congress''s first session'
-    span: June 1–Dec. 31, 1965
-    page_title: Calendar, June–December 1965
-    h1: '1965, June–December'
-    lede: Executive, legislative, judicial, and state events of June–December 1965.
+    page: cal1965Q1
+    abbr: Cal. Jan.–Mar. 1965
+    called: the calendar of January–March 1965
+    title: 'Calendar, January–March 1965: the 89th Congress''s first session'
+    span: Jan. 1–Mar. 31, 1965
+    page_title: Calendar, January–March 1965
+    h1: '1965, January–March'
+    lede: Executive, legislative, judicial, and state events of January–March 1965.
+  - from: '1965-04-01'
+    page: cal1965Q2
+    abbr: Cal. Apr.–June 1965
+    called: the calendar of April–June 1965
+    title: 'Calendar, April–June 1965: the 89th Congress''s first session'
+    span: Apr. 1–June 30, 1965
+    page_title: Calendar, April–June 1965
+    h1: '1965, April–June'
+    lede: Executive, legislative, judicial, and state events of April–June 1965.
+  - from: '1965-07-01'
+    page: cal1965H2
+    abbr: Cal. July–Dec. 1965
+    called: the calendar of July–December 1965
+    title: 'Calendar, July–December 1965: the 89th Congress''s first session'
+    span: July 1–Dec. 31, 1965
+    page_title: Calendar, July–December 1965
+    h1: '1965, July–December'
+    lede: Executive, legislative, judicial, and state events of July–December 1965.
   - from: '1966-01-01'
-    page: cal1966a
+    page: cal1966H1
     abbr: Cal. Jan.–June 1966
     called: the calendar of January–June 1966
     title: 'Calendar, January–June 1966: the 89th Congress''s second session'
@@ -142,7 +151,7 @@ split:
     h1: '1966, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1966.
   - from: '1966-07-01'
-    page: cal1966b
+    page: cal1966H2
     abbr: Cal. July–Dec. 1966
     called: the calendar of July–December 1966
     title: 'Calendar, July–December 1966: the 89th Congress''s second session'
@@ -151,7 +160,7 @@ split:
     h1: '1966, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1966.
   - from: '1967-01-01'
-    page: cal1967a
+    page: cal1967H1
     abbr: Cal. Jan.–June 1967
     called: the calendar of January–June 1967
     title: 'Calendar, January–June 1967: the 90th Congress''s first session'
@@ -160,7 +169,7 @@ split:
     h1: '1967, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1967.
   - from: '1967-07-01'
-    page: cal1967b
+    page: cal1967H2
     abbr: Cal. July–Dec. 1967
     called: the calendar of July–December 1967
     title: 'Calendar, July–December 1967: the 90th Congress''s first session'
@@ -169,7 +178,7 @@ split:
     h1: '1967, July–December'
     lede: Executive, legislative, judicial, and state events of July–December 1967.
   - from: '1968-01-01'
-    page: cal1968a
+    page: cal1968H1
     abbr: Cal. Jan.–June 1968
     called: the calendar of January–June 1968
     title: 'Calendar, January–June 1968: the 90th Congress''s second session'
@@ -178,7 +187,7 @@ split:
     h1: '1968, January–June'
     lede: Executive, legislative, judicial, and state events of January–June 1968.
   - from: '1968-07-01'
-    page: cal1968b
+    page: cal1968H2
     abbr: Cal. July–Dec. 1968
     called: the calendar of July–December 1968
     title: 'Calendar, July–December 1968: the 90th Congress''s second session'

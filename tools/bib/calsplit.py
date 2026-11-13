@@ -1,5 +1,5 @@
-"""The calendar by year: one list in the data (lists/cal/), a page a half-year in the build (cal1960a.html, Jan. 6-June
-30, 1960, cal1960b.html, July 1-Dec. 31, ... cal1969.html, Jan. 1-20, 1969; the year pages of Nov. 4, 2026 split in
+"""The calendar by year: one list in the data (lists/cal/), a page a half-year in the build (cal1960H1.html, Jan. 6-June
+30, 1960, cal1960H2.html, July 1-Dec. 31; 1965 by quarter, cal1965Q1, cal1965Q2, then cal1965H2, ... cal1969.html, Jan. 1-20, 1969; the year pages of Nov. 4, 2026 split in
 halves Nov. 12, past the 8 MB of the memo, `retired_parts`, their pages forwarding old links), a page for the primary seasons of 1972 and 1976 (calprimaries.html), and the
 index, cal.html (the owner's memo, Nov. 4, 2026: notes/extensions/memos/volume.md, section 3).
 

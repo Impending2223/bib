@@ -40,6 +40,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-01.vietnam-hanoi
+    when: Apr. 1
+    date: '1963-04-01'
+    thread: vietnam-hanoi
+    c: 'The Secretariat''s instruction no. 62-CT/TW on improving the Party schools for junior and base cadres: over 15,000 junior and nearly 55,000 base cadres trained.'
+    n: '*Chỉ thị của Ban Bí thư số 62-CT/TW về việc cải tiến công tác trường Đảng bồi dưỡng cán bộ sơ cấp và cơ sở*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXIV, 484–91. Made public: 2003.'
+    tags: [polity:drv]
   - id: cal.1963-04-02.foreign-aid
     when: Apr. 2
     date: '1963-04-02'
@@ -218,6 +225,14 @@ entries:
     c: Senate Republican conference on the mass transit bill, 9:35 to 10:50 a.m., Dirksen presiding for the absent Saltonstall. Thirteen Senators give views; amendments to come; labor's opposition may be compromised; the big issues taxes and economy.
     n: '[[w.wolff-minutes-of-the-senate]], 960–61. Names: Dirksen, Saltonstall.'
     tags: [name:dirksen-everett, name:saltonstall-leverett]
+  - id: cal.1963-04-02.testing
+    when: Apr. 2
+    date: '1963-04-02'
+    thread: testing
+    also: [soviet-union]
+    c: 'New York. Cousins, to a Soviet official, of his coming trip to Moscow: he saw Kennedy last week on what to raise with Khrushchev. What he means to tell him: word of American consent to two or three inspections stirred Congress against a treaty, so the talks in Geneva to go on for a compromise; on Cuba, trade from third countries allowed if Soviet military aid stops and the troops leave; Kennedy needs time against the opposition in Congress, the Air Force and the monopolies. He will see Rusk first, and fly to Rome on Apr. 8 to see Pope John XXIII.'
+    n: '*Soobshchenie iz N''yu-Iorka o besede s N. Kazinsom*, Apr. 2, 1963 (special file), Khrushchev''s attachment 1 to his note of Apr. 20. [[w.prezidium-tsk-kpss-1954]], III, 482–84 (doc. 288.0.3). Made public: 2008. Names: Cousins, Kennedy, Khrushchev, Rusk, John XXIII.'
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:rusk-dean, name:cousins-norman, polity:ussr, polity:us, polity:vatican]
   - id: cal.1963-04-03.alabama
     when: Apr. 3
     date: '1963-04-03'
@@ -313,7 +328,7 @@ entries:
     thread: soviet-union
     also: [robert-kennedy, testing]
     c: '3:30 p.m. Dobrynin hands Robert Kennedy a talking paper of some twenty-five pages, in fact from Khrushchev to the President: no more than two or three inspection sites; the United States run by capitalists; more Soviet troops gone from Cuba than the press reports. Kennedy returns it, "so insulting and rude"; such messages to go through the State Department, "not through me."'
-    n: 'Robert Kennedy to the President, Apr. 3, [FRUS 1961–63, VI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v06/d94); the message, [doc. 93](https://history.state.gov/historicaldocuments/frus1961-63v06/d93). [[w.schlesinger-robert-kennedy-and-his]], 596; [[w.fursenko-khrushchevs-cold-war]], 516–17 (wrapped in a newspaper; "It was full of poison"; "as if a person had come down from Mars and written this"). Names: Dobrynin, Robert Kennedy, Khrushchev, Kennedy.'
+    n: 'Robert Kennedy to the President, Apr. 3, [FRUS 1961–63, VI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v06/d94); the message, [doc. 93](https://history.state.gov/historicaldocuments/frus1961-63v06/d93). [[w.schlesinger-robert-kennedy-and-his]], 596; [[w.fursenko-khrushchevs-cold-war]], 516–17 (wrapped in a newspaper; "It was full of poison"; "as if a person had come down from Mars and written this"); [[w.prezidium-tsk-kpss-1954]], III, 484–96 (doc. 288.0.4, Dobrynin''s report of the meeting, Apr. 3: the statement read out on instructions; the raids on the *L''gov* and the *Baku*; the men withdrawn from Cuba many times the American press''s figure, 485–86; two or three inspections the most, 488; capitalism''s contradiction, 494; Robert Kennedy, redder and grimmer as he listened: "Это оскорбительно для меня, для моего брата-президента, для моей страны" (this is insulting to me, to my brother the President, to my country); the text handed back, not to be shown to the President, such statements to go through the State Department, 495; not the hour or the paper''s length). Names: Dobrynin, Robert Kennedy, Khrushchev, Kennedy.'
     src:
       c: 8b6ff867
       rows:
@@ -322,6 +337,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 596: B'
         - 'via w.schlesinger-robert-kennedy-and-his 596 n.48: all'
         - 'w.fursenko-khrushchevs-cold-war 516–17: all'
+        - 'w.prezidium-tsk-kpss-1954 III, 484–96: ?'
     tags: [name:dobrynin-anatoly, name:kennedy-robert-f, name:khrushchev-nikita-s, name:kennedy-john-f]
     short: Khrushchev's paper to Robert Kennedy
   - id: cal.1963-04-03.mississippi-2
@@ -1117,12 +1133,13 @@ entries:
     thread: testing
     also: [soviet-union]
     c: 'Kennedy to Khrushchev, in the private channel: no American representative ever indicated readiness to accept the number of inspections of Khrushchev''s message of Dec. 19, but there was "an honest misunderstanding"; he and Macmillan will make new suggestions soon. Firmly against more national nuclear forces; the multilateral force no increase in the danger.'
-    n: '[FRUS 1961–63, VII: Arms Control and Disarmament, doc. 274](https://history.state.gov/historicaldocuments/frus1961-63v07/d274) (printed also in vol. VI, doc. 95). [[w.sorensen-kennedy]], 728 (the letter: Dean and Wiesner never indicated a readiness to agree on three inspections; an honest misunderstanding). See [[cal.1962-12-19.testing]]. Names: Kennedy, Khrushchev, Macmillan.'
+    n: '[FRUS 1961–63, VII: Arms Control and Disarmament, doc. 274](https://history.state.gov/historicaldocuments/frus1961-63v07/d274) (printed also in vol. VI, doc. 95). [[w.sorensen-kennedy]], 728 (the letter: Dean and Wiesner never indicated a readiness to agree on three inspections; an honest misunderstanding); [[w.prezidium-tsk-kpss-1954]], III, 499–502 (doc. 288.0.6, the message in Russian, as Khrushchev attached it to his note of Apr. 20). See [[cal.1962-12-19.testing]]. Names: Kennedy, Khrushchev, Macmillan.'
     src:
       c: a1f6ece1
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d274: all'
         - 'w.sorensen-kennedy 728: A'
+        - 'w.prezidium-tsk-kpss-1954 III, 499–502: ?'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:macmillan-harold]
     time_range:
       - 1963-04-11T14:00Z
@@ -1233,7 +1250,7 @@ entries:
     thread: testing
     also: [soviet-union]
     c: 'Pitsunda. Khrushchev with Cousins, Kennedy''s message in hand, after a night in Moscow: "Whenever I have a big egg to hatch, this is where I come." No more concessions on a test ban: "We held out our hand, it was not accepted"; "Take my word for it, I went as far as I could go; this is the end of the line for me." He will have something to say at the plenum in mid-May.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 517–18 (by Cousins''s report to Kennedy on tape; Cousins left Apr. 10; Khrushchev home Apr. 20, 520); [[w.sorensen-kennedy]], 728 (word through Cousins that the President really did want a treaty); [[w.debenedetti-american-ordeal]], 62 (at Rusk''s suggestion; the Black Sea estate). To check: [[w.cousins-improbable-triumvirate]], 79 (cited by [[w.fursenko-khrushchevs-cold-war]], 517 n.98); tape 82, President''s Office Files, Presidential Recordings, JFK Library (cited by [[w.fursenko-khrushchevs-cold-war]], 518 n.99). See [[cal.1963-04.testing]]. Names: Khrushchev, Cousins, Kennedy.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 517–18 (by Cousins''s report to Kennedy on tape; Cousins left Apr. 10; Khrushchev home Apr. 20, 520); [[w.sorensen-kennedy]], 728 (word through Cousins that the President really did want a treaty); [[w.debenedetti-american-ordeal]], 62 (at Rusk''s suggestion; the Black Sea estate); [[w.prezidium-tsk-kpss-1954]], III, 502–13 (doc. 288.0.7, the Soviet record: Gagra, Apr. 12; Cousins brings greetings from Kennedy, Rusk, U Thant and the Pope; not the words of c). Check: the place; the Soviet record of the talk has Gagra ([[w.prezidium-tsk-kpss-1954]], III, 502), Fursenko and Naftali Pitsunda. To check: [[w.cousins-improbable-triumvirate]], 79 (cited by [[w.fursenko-khrushchevs-cold-war]], 517 n.98); tape 82, President''s Office Files, Presidential Recordings, JFK Library (cited by [[w.fursenko-khrushchevs-cold-war]], 518 n.99). See [[cal.1963-04.testing]]. Names: Khrushchev, Cousins, Kennedy.'
     src:
       c: 3224fca2
       rows:
@@ -1241,6 +1258,7 @@ entries:
         - 'via x.2006.kcw-p517-18-1963-04-12: all'
         - 'w.sorensen-kennedy 728: B'
         - 'w.debenedetti-american-ordeal 62: B'
+        - 'w.prezidium-tsk-kpss-1954 III, 502–13: ?'
     tags: [name:khrushchev-nikita-s, name:cousins-norman, name:kennedy-john-f]
     time_range:
       - 1963-04-12T05:00Z
@@ -1455,6 +1473,20 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1963-04-15.vietnam-hanoi
+    when: Apr. 15
+    date: '1963-04-15'
+    thread: vietnam-hanoi
+    c: The Secretariat's resolution no. 75-NQ/TW on holding the congresses of the Party organizations of the interzones, provinces and cities.
+    n: '*Nghị quyết của Ban Bí thư số 75-NQ/TW về việc mở đại hội đại biểu các cấp khu, tỉnh, thành*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIV, 492–505. Made public: 2003.'
+    tags: [polity:drv]
+  - id: cal.1963-04-15.vietnam-hanoi-2
+    when: Apr. 15
+    date: '1963-04-15'
+    thread: vietnam-hanoi
+    c: 'The Secretariat''s circular no. 115-TT/TW on consolidating the highland cooperatives: the campaign to improve management not to be started there at once; some provinces'' own pilots badly prepared.'
+    n: '*Thông tri của Ban Bí thư số 115-TT/TW về việc củng cố hợp tác xã nông nghiệp và đẩy mạnh sản xuất nông nghiệp ở miền núi*, signed for the Secretariat by Nguyễn Chí Thanh. [[w.van-kien-dang-toan]], XXIV, 506–08. Made public: 2003.'
+    tags: [polity:drv]
   - id: cal.1963-04-16.alabama-birmingham
     when: Apr. 16
     date: '1963-04-16'
@@ -1574,6 +1606,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-16.vietnam-hanoi
+    when: Apr. 16
+    date: '1963-04-16'
+    thread: vietnam-hanoi
+    c: 'The Secretariat''s resolution no. 76-NQ/TW on the trade unions'' role and tasks in socialist industrialization: by the Third Congress''s decision, their place raised in every field under the Trade Union Law, a school of economic and state management.'
+    n: '*Nghị quyết của Ban Bí thư số 76-NQ/TW về vai trò và nhiệm vụ của công đoàn trong sự nghiệp công nghiệp hoá xã hội chủ nghĩa và xây dựng chủ nghĩa xã hội*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIV, 509–26. Made public: 2003.'
+    tags: [polity:drv]
   - id: cal.1963-04-17.vietnam
     when: Apr. 17
     date: '1963-04-17'
@@ -1942,6 +1981,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-20.soviet-union-leadership
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: soviet-union-leadership
+    also: [soviet-union, testing]
+    c: 'Khrushchev, a note to the Presidium on relations with the United States since the Caribbean crisis: the missiles were put in Cuba to defend it, "единственной целью" (the only aim); secrecy hoped for, the military''s report that it was possible wrong; the pledge of no invasion backed only by the Soviet threat. Kennedy''s circle sold the outcome as his victory. Cousins sent to blackmail; the message through Robert Kennedy parried it, Thompson''s talk and Kennedy''s message the Americans'' next move. The main questions Cuba''s safety from invasion and a German peace treaty; the test ban "подсобным" (subsidiary), an agreement useful all the same.'
+    n: '*Zapiska ... N. S. Khrushcheva v Prezidium TsK KPSS o sovetsko-amerikanskikh otnosheniyakh*, Apr. 20, 1963 (special file), sent to the Presidium''s members and candidates and the secretaries, with five attachments. [[w.prezidium-tsk-kpss-1954]], III, 478–82 (doc. 288.0.2); the draft, dictated at Pitsunda Apr. 13, 474–77 (doc. 288.0), and his remarks on it, Apr. 19, 477–78 (doc. 288.0.1). See [[cal.1963-04-02.testing]], [[cal.1963-04-03.soviet-union]], [[cal.1963-04.testing-2]], [[cal.1963-04-12.testing]]. Made public: 2008. Names: Khrushchev, Kennedy, Cousins, Robert Kennedy, Thompson.'
+    tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:kennedy-robert-f, name:thompson-llewellyn-e, name:cousins-norman, polity:ussr, polity:us, polity:cuba]
   - id: cal.1963-04-21.laos
     when: Apr. 21
     date: '1963-04-21'
@@ -2069,6 +2116,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-22.vietnam-hanoi
+    when: Apr. 22
+    date: '1963-04-22'
+    thread: vietnam-hanoi
+    c: 'The Secretariat on the People''s Courts'' work for 1963, after the Supreme Court''s party group reports: the Party committees inattentive to the courts, the state still without enough laws or rules of trial; the courts to strike at counterrevolutionaries, the American–Diệm spies and commandos above all, at economic sabotage, at murder and the rape of children; wrong judgments to be righted; a lawyers'' association prepared.'
+    n: '*Thông báo của Ban Bí thư số 47-TB/TW bàn về phương hướng, nhiệm vụ công tác năm 1963 của ngành Toà án nhân dân*, signed for the Secretariat by Minh Châu, deputy chief of the office. [[w.van-kien-dang-toan]], XXIV, 530–33. Made public: 2003. Names: Ngô Đình Diệm.'
+    tags: [name:ngo-dinh-diem, polity:drv, polity:us]
   - id: cal.1963-04-23.alabama
     when: Apr. 23
     date: '1963-04-23'
@@ -2395,7 +2449,7 @@ entries:
     thread: testing
     also: [soviet-union, press-and-broadcasting]
     c: 'The Presidium, Malinovsky invited. Khrushchev: the military need no more tests in the atmosphere; seek a partial ban, on tests in the atmosphere, in space and under water, with no condition, no moratorium underground, nothing of Berlin. "I think that on this issue we may reach an immediate agreement"; the timing his. Ilyichev''s note on jamming approved: the BBC and then the Voice of America to go unjammed by stages; more radio sets for the public.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 701–07 (Protocol 94 and the stenogram); [[w.prezidium-tsk-kpss-1954]], III, 465–72 (the resolutions, P 94/I and IV; Kennedy''s message of Apr. 16; Ilyichev''s note of Mar. 30); [[w.fursenko-khrushchevs-cold-war]], 520–21. Made public: 2003, 2008. See [[cal.1963-04-24.testing]], [[cal.1963-03-30.press-and-broadcasting]]. Names: Malinovsky, Khrushchev.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 701–07 (Protocol 94 and the stenogram); [[w.prezidium-tsk-kpss-1954]], III, 465–72 (the resolutions, P 94/I and IV; Kennedy''s message of Apr. 16; Ilyichev''s note of Mar. 30); [[w.fursenko-khrushchevs-cold-war]], 520–21; [[w.prezidium-tsk-kpss-1954]], III, 473–513 (doc. 288, the stenogram''s materials: Khrushchev''s note of Apr. 20 and its attachments). Made public: 2003, 2008. See [[cal.1963-04-24.testing]], [[cal.1963-03-30.press-and-broadcasting]]. Names: Malinovsky, Khrushchev.'
     src:
       c: 4dca9ab4
       rows:
@@ -2406,6 +2460,7 @@ entries:
         - 'via x.1963-04-25.presidium-protocol-94: A-D'
         - 'via x.1963-04-25.presidium-stenogram-apr-25: A-D'
         - 'via x.1963-03-30.ilyichev-note-jamming: F-G'
+        - 'w.prezidium-tsk-kpss-1954 III, 473–513: ?'
     tags: [name:malinovsky-rodion-y, name:khrushchev-nikita-s]
     time_range:
       - 1963-04-25T06:00Z
@@ -2834,11 +2889,12 @@ entries:
     thread: testing
     also: [soviet-union, testing-npt]
     c: 'Early in the month Thompson, privately, to Dobrynin: an envoy to Khrushchev, Rusk, Robert Kennedy or Harriman; a test ban the best issue for the President''s campaign, then a meeting with Khrushchev in August or September to exchange ratifications. Kennedy''s message to Khrushchev of Apr. 11 takes up most of it. A few days later Rusk gives Dobrynin a draft four-power declaration pledging no transfer of nuclear weapons, directly or through alliances, to nations without them. By Dobrynin''s account.'
-    n: '[[w.dobrynin-in-confidence]], 105. Check: the days. Names: Thompson, Dobrynin, Rusk, Robert Kennedy, Harriman, Khrushchev, Kennedy.'
+    n: '[[w.dobrynin-in-confidence]], 105; [[w.prezidium-tsk-kpss-1954]], III, 496–99 (doc. 288.0.5, Dobrynin''s record of Apr. 7, special file, Khrushchev''s attachment 3 to his note of Apr. 20: Dobrynin calls on Thompson at his request; Laos first; Robert Kennedy upset by their last meeting, Dobrynin''s list of grievances; Thompson, "в сугубо личном плане" (in a strictly personal way), proposes one close to the President, Rusk, Robert Kennedy or Harriman, to see Khrushchev in May; Cousins not of the President''s circle; Kennedy thinking of a personal message; not the campaign, the meeting in August or September, or Rusk''s draft declaration). Check: the days. Names: Thompson, Dobrynin, Rusk, Robert Kennedy, Harriman, Khrushchev, Kennedy.'
     src:
       c: 9b2c18c4
       rows:
         - 'w.dobrynin-in-confidence 105: all'
+        - 'w.prezidium-tsk-kpss-1954 III, 496–99: A'
     tags: [name:thompson-llewellyn-e, name:dobrynin-anatoly, name:rusk-dean, name:kennedy-robert-f, name:harriman-w-averell, name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1963-04.civil-rights-the-executive
     when: Apr.
@@ -3320,3 +3376,10 @@ entries:
       rows:
         - 'w.mann-walls-of-jericho 346: all'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1963-04-30.vietnam-hanoi
+    when: Apr. 30
+    date: '1963-04-30'
+    thread: vietnam-hanoi
+    c: 'The Politburo''s resolution no. 79-NQ/TW on the Party''s control work, after the Central Control Commission''s report: the control commissions at every level to be strengthened, their tasks and powers fixed.'
+    n: '*Nghị quyết của Bộ Chính trị số 79-NQ/TW về công tác kiểm tra của Đảng*, signed for the Politburo by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXIV, 540–42. Made public: 2003.'
+    tags: [polity:drv]

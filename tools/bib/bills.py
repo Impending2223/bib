@@ -29,8 +29,8 @@ STYLE
     entry of a year concerning the bill is a reading, not a rule); `check` holds them: the first the introduction's
     (the first step "introduced", its `entry` the same), one a part (calsplit) from the introduction's to the last
     step's, no other. Where no entry told the introduction, one was made of the table's own step and Record cite
-    (Nov. 4, 2026). The first placement's anchor is tb-bill-<key>, a later one's tb-bill-<key>-y<year> (a second in its
-    year, on the year's second half since Nov. 12, 2026, -y<year>b), so the reader,
+    (Nov. 4, 2026). The first placement's anchor is tb-bill-<key>, a later one's tb-bill-<key>-y<year> (a second or third in its
+    year, on a later part of the year since Nov. 12, 2026, -y<year>b, -y<year>c), so the reader,
     which holds every year, has each once.
 """
 import os
@@ -165,8 +165,9 @@ def inject(page, series):
     for key, ps in placements(series).items():
         for i, (d, eid, lst) in enumerate(ps):
             sfx = f"-y{d[:4]}" if i else ""
-            if i and any(x[0][:4] == d[:4] for x in ps[:i]):   # a year's second half (calsplit): -y1964b
-                sfx += "b"
+            k = sum(x[0][:4] == d[:4] for x in ps[:i])   # a year's second or third page (calsplit): -y1964b, -y1965c
+            if i and k:
+                sfx += "abcdefgh"[k]
             blk = block(key, sfx)
             if not blk:
                 continue
