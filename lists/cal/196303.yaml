@@ -618,6 +618,9 @@ entries:
     date: '1963-03-12'
     thread: china
     also: [soviet-union]
+    follows:
+      - cal.1963-03-12.soviet-union-leadership
+    part_of: cal.1963-03-12.soviet-union-leadership-2
     c: 'The Presidium on the answer to Peking: Khrushchev will not go to China, but would see Mao in Moscow; the Foreign Ministry to write it "Not in a polemical form," and to remind Peking, respectfully, that Belgrade is an ally.'
     n: '[[w.fursenko-khrushchevs-cold-war]], 515; [[w.prezidium-tsk-kpss-1954]], I, 700 (Protocol 87); [[w.prezidium-tsk-kpss-1954]], III, 452 (Protocol 87, dated Mar. 13: the heading only). See [[cal.1963-03-09.china]]. Names: Khrushchev, Mao.'
     src:
@@ -652,9 +655,23 @@ entries:
     when: Mar. 12
     date: '1963-03-12'
     thread: soviet-union-leadership
+    part_of: cal.1963-03-12.soviet-union-leadership-2
     c: 'The Presidium, in its hall, the same session as the answer to Peking: Khrushchev''s notes on farming to be published; a committee for tractor and farm machinery. The Supreme Council of the National Economy, Kosygin reading the draft: Ustinov its chairman and a First Deputy Chairman of the Council of Ministers; Gosplan and the Sovnarkhoz of the USSR made union-republican; Baibakov a minister.'
     n: 'Protocol 87, items I and 1б. [[w.prezidium-tsk-kpss-1954]], I, 700 (doc. 285, Malin''s notes); III, 452–53 (P 87/I, dated Mar. 13, and the drafts named). See [[cal.1963-02-28.soviet-union-leadership]], [[cal.1963-03-12.china]]. Made public: 2003. Names: Khrushchev, Kosygin, Ustinov, Baibakov. Check: the day; vol. III''s editors have Protocol 87 of Mar. 13, P 87/I dated Mar. 13, and *Pravda* of Mar. 14 reporting a joint session of the Presidium and the Council of Ministers the day before (III, 1023–24 n.4); Malin''s notes, Mar. 12.'
     tags: [name:khrushchev-nikita-s, name:kosygin-aleksei, polity:ussr, name:ustinov-dmitriy-f, name:baibakov-nikolai-k]
+  - id: cal.1963-03-12.soviet-union-leadership-2
+    when: Mar. 12
+    date: '1963-03-12'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, in its hall, Protocol 87, Khrushchev presiding. Present: Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Rashidov, Mazurov, Mzhavanadze, Shcherbitsky, Efremov; the secretaries Demichev, Ilyichev, Ponomarev, Andropov, Rudakov, Shelepin; Serdyuk of the Party Commission.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 700 (Protocol 87, Malin''s notes); I, 1130 n.1 (those present); III, 452–64 (Protocol 87, dated Mar. 13: P 87/I and 50); III, 1023 n.1 (those present, Serdyuk not among them). Names: Khrushchev, Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Demichev, Ponomarev, Andropov, Shelepin. Check: the day, Mar. 12 in Malin''s notes, Mar. 13 in vol. III.'
+    tags: [name:khrushchev-nikita-s, name:kosygin-aleksei, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kuusinen-otto-v, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:demichev-pyotr-n, name:ponomarev-boris-n, name:andropov-yuriy-vladimirovich, name:shelepin-aleksandr-n]
+    time_range:
+      - 1963-03-12T06:00Z
+      - 1963-03-12T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1963-03-13.defense
     when: Mar. 13
     date: '1963-03-13'

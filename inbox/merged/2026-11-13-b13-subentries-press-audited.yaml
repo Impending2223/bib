@@ -1,0 +1,192 @@
+patch: 2026-11-13-b13-subentries-press
+by: worker b13a (Sonnet); audited by Opus (notes/book-checks/subentries-press.md)
+ops:
+- add:
+    entry:
+      id: cal.1961-08-30.press-and-broadcasting
+      when: Aug. 30
+      date: '1961-08-30'
+      time: 1961-08-30T20:10Z
+      thread: press-and-broadcasting
+      c: Kennedy's sixteenth news conference, the State Department Auditorium, 4:10 p.m.
+      n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 572–80 (the note, 580: the sixteenth, the place and the hour). Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      time_zone: America/New_York
+- edit:
+    id: cal.1961-08-30.berlin-and-vienna
+    base: e72dfb10
+    set:
+      part_of: cal.1961-08-30.press-and-broadcasting
+      n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 573. White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission); [[w.sorensen-kennedy]], 293 (Aug. 30, the Soviet Union announces it will end the moratorium on testing). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
+- edit:
+    id: cal.1961-08-30.cuba-bay-of-pigs
+    base: c3511f76
+    set:
+      part_of: cal.1961-08-30.press-and-broadcasting
+      follows:
+      - cal.1961-08-30.berlin-and-vienna
+      c: 'Asked of *Time*''s version of the invasion, out that day, that Rusk canceled the air support for the landing and the President backed him: no comment; "the most inaccurate of all the articles that have appeared on Cuba." Of school aid, after the House''s vote that day: "everyone is for education but they''re all for a different education bill." "So we will be back next year."'
+      n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 574, 580. [[w.sorensen-kennedy]], 316 (the answer; the article *Time*''s, or *Fortune*''s, from which it was condensed); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 (the news conference of Aug. 30 on *Time*''s version); [[w.graham-uncertain-triumph]], 24–25 (the school aid answer). See [[cal.1961-04-17.cuba]]. Names: Rusk, Kennedy.'
+      src:
+        c: 22e558a6
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630: all'
+        - 'w.sorensen-kennedy 316: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 191: A'
+        - 'w.graham-uncertain-triumph 24–25: C-D'
+- add:
+    entry:
+      id: cal.1962-05-23.press-and-broadcasting
+      when: May 23
+      date: '1962-05-23'
+      time: 1962-05-23T20:00Z
+      thread: press-and-broadcasting
+      c: Kennedy's thirty-fourth news conference, the State Department Auditorium, 4 p.m.
+      n: 'The President''s News Conference, [1962 Pub. Papers 431](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=491) (May 23, 1962), at 431–37 (the note, 437: the thirty-fourth, the place and the hour). Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      time_zone: America/New_York
+- edit:
+    id: cal.1962-05-23.immigration
+    base: 660d9525
+    set:
+      part_of: cal.1962-05-23.press-and-broadcasting
+      c: 'Hong Kong, the refugees from the mainland: several thousand cleared by American consuls to be admitted under the Attorney General''s parole power, as the Hungarians and the Cubans were; food already sent for about half a million refugees there.'
+      n: '[1962 Pub. Papers 431](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=491), at 431. To check: [[w.bon-tempo-americans-at-the-gate]]. See [[cal.1960-07-14.immigration]].'
+- edit:
+    id: cal.1962-05-23.medicare
+    base: ddca1b3c
+    set:
+      part_of: cal.1962-05-23.press-and-broadcasting
+      follows:
+      - cal.1962-05-23.immigration
+      c: 'The mail on his Medicare speech about evenly divided; but the mail no true indicator: "I got last week 28 letters on Laos ... [and] 440 letters on the cancellation of a tax exemption for a ''mercy'' foundation."'
+      n: '[1962 Pub. Papers 431](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=491), at 432. [[w.sorensen-kennedy]], 332–33 (the mail, from "a 1962 press conference"). See [[cal.1962-05-20.medicare]]. Names: Kennedy.'
+      src:
+        c: f2be1137
+        rows:
+        - 'w.sorensen-kennedy 332–33: all'
+- add:
+    entry:
+      id: cal.1962-11-20.press-and-broadcasting-2
+      when: Nov. 20
+      date: '1962-11-20'
+      time: 1962-11-20T23:00Z
+      thread: press-and-broadcasting
+      follows:
+      - cal.1962-11-20.missile-crisis-3
+      - cal.1962-11-20.missile-crisis-2
+      c: Kennedy's forty-fifth news conference, the State Department Auditorium, 6 p.m.
+      n: 'The President''s News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962), at 830–38 (the note, 838: the forty-fifth, the place and the hour). Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      time_zone: America/New_York
+- edit:
+    id: cal.1962-11-20.missile-crisis
+    base: f1ddaa35
+    set:
+      part_of: cal.1962-11-20.press-and-broadcasting-2
+      c: 'Quarantine lifted. Asked of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies"; the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.'
+      n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
+      src:
+        c: dff4be46
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
+        - 'w.fursenko-one-hell-of-a 310: A'
+        - 'w.fursenko-khrushchevs-cold-war 503: A'
+        - 'w.sorensen-kennedy 321–22: B'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 217: A'
+    unset: [follows]
+- edit:
+    id: cal.1962-11-20.civil-rights-the-executive
+    base: 946c2e73
+    set:
+      part_of: cal.1962-11-20.press-and-broadcasting-2
+      follows:
+      - cal.1962-11-20.missile-crisis
+      c: The housing order. No discrimination in federally aided housing, prospectively.
+      n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 831–32, 835. [Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679; [[w.reeves-president-kennedy]], 432 (Executive Order 11063 announced at the news conference); [[w.wofford-of-kennedys-and-kings]], 169–70 (the housing order announced the evening of Nov. 20, 1962, between statements on Soviet bombers leaving Cuba and the India–China border; by Sorensen; "scope more limited" than the Commission asked); [[w.robert-kennedy-in-his]], 368–69 (Martin dates the signing Nov. 20; Kennedy: the order "covered future housing," not all housing; the delay, and the northern Congressmen who did not want it; not the press conference). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+      src:
+        c: 0b6640c1
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing: all'
+        - 'w.sorensen-kennedy 482: all'
+        - 'w.mann-walls-of-jericho 335: all'
+        - 'w.branch-parting-the-waters 679: B'
+        - 'w.reeves-president-kennedy 432: A, B'
+        - 'w.wofford-of-kennedys-and-kings 169–70: ?'
+        - 'w.robert-kennedy-in-his 368–69: B'
+- add:
+    entry:
+      id: cal.1965-07-13.press-and-broadcasting
+      when: July 13
+      date: '1965-07-13'
+      time: 1965-07-13T17:00Z
+      thread: press-and-broadcasting
+      c: Johnson's forty-sixth news conference, the East Room, 1 p.m.
+      n: 'The President''s News Conference, [1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209) (July 13, 1965), at 735–44 (the note, 744: the forty-sixth, the place and the hour). Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+      time_zone: America/New_York
+- edit:
+    id: cal.1965-07-13.court
+    base: 91bb275f
+    set:
+      part_of: cal.1965-07-13.press-and-broadcasting
+      c: 'Thurgood Marshall, of the Second Circuit, named Solicitor General, the 33d; he leaves the bench. Cox goes back to Massachusetts. Confirmed Aug. 11, without a roll call; sworn Aug. 24. Of his own record on civil rights: "I am going to try to provide all the leadership that I can, notwithstanding the fact that someone may point to a mistake or 100 mistakes that I made in my past."'
+      n: '[1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209), at 736–37, 742; Remarks at the Swearing In of Judge Thurgood Marshall as Solicitor General, [1965 Pub. Papers 910](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=384) (Aug. 24, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf) (1965). [[w.branch-at-canaans-edge]], 261; [[w.johnson-white-house-diary]], 295–96 (the news conference, watched on television at the Ranch; Thurgood Marshall "the first Negro to hold such a post," Solicitor General; not the circuit or the number). [[w.kotz-judgment-days]], 330 (the answer, after Ford''s charge of inconsistency). To check: [[w.williams-thurgood-marshall]]. Names: Marshall, Cox. Check: the page.'
+      src:
+        c: efaba2c2
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=384: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf: all'
+        - 'w.branch-at-canaans-edge 261: A'
+        - 'w.kotz-judgment-days 330: F'
+        - 'w.johnson-white-house-diary 295–96: A'
+- edit:
+    id: cal.1965-07-13.transition-and-staff
+    base: 8c65ee2b
+    set:
+      part_of: cal.1965-07-13.press-and-broadcasting
+      follows:
+      - cal.1965-07-13.court
+      c: 'Leonard Marks named to head the USIA, replacing Carl Rowan; Penelope Thunberg a Tariff Commissioner. Asked whether Rusk may resign: "None whatever. ... He sits to my right in the Cabinet room. He ranks first in the Cabinet and he ranks first with me."'
+      n: '[1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209), at 737, 743. [[w.johnson-white-house-diary]], 295–96 (Mrs. Johnson''s account, from the television). See [[cal.1965-07-13.court]]. Check: the answer on Rusk as the diary words it, against the transcript''s. Names: Marks, Rowan, Rusk, Johnson, Lady Bird Johnson.'
+- add:
+    entry:
+      id: cal.1966-10-06.press-and-broadcasting
+      when: Oct. 6
+      date: '1966-10-06'
+      time: 1966-10-06T19:00Z
+      thread: press-and-broadcasting
+      c: Johnson's seventy-eighth news conference, the East Room, 3 p.m.; broadcast live on radio and television.
+      n: 'The President''s News Conference, [1966 Pub. Papers 1117](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491) (Oct. 6, 1966), at 1117–24 (the note, 1124: the seventy-eighth, the place, the hour and the broadcast). Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+      time_zone: America/New_York
+- edit:
+    id: cal.1966-10-06.vietnam-asian-trip
+    base: 5f0d130e
+    set:
+      part_of: cal.1966-10-06.press-and-broadcasting
+      c: 'Johnson names Sol Linowitz Ambassador to the Organization of American States, Llewellyn Thompson Ambassador to the Soviet Union and Ellsworth Bunker, in Thompson''s place, Ambassador at Large. The trip: from Oct. 17, seventeen days, twenty-five thousand miles, New Zealand, Australia, the Philippines, Thailand, Malaysia, South Korea, a refueling stop in Alaska; the Manila Conference of all the nations in the war "the important business"; Mrs. Johnson to go. On the Great Society: "When you pass 85 bills out of 90 recommended, I think that is a pretty good box score."'
+      n: '[1966 Pub. Papers 1117](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491), at 1117 (the posts; Manila), 1120 (the box score), 1123 (the itinerary; Mrs. Johnson; not the miles, the refueling stop in Alaska or "the important business"). [[w.johnson-white-house-diary]], 428–29 (Lady Bird Johnson''s account; Bunker "Ambassador to the government of Vietnam," against the transcript). Names: Johnson, Thompson, Bunker, Lady Bird Johnson. Check: Bunker''s post.'
+- edit:
+    id: cal.1966-10-06.cities-and-housing
+    base: a72c655c
+    set:
+      part_of: cal.1966-10-06.press-and-broadcasting
+      follows:
+      - cal.1966-10-06.vietnam-asian-trip
+      c: Demonstration Cities "one of the most important pieces of legislation for the good of all American mankind that we can act upon this session," the push the Speaker's meeting asked for.
+      n: '[1966 Pub. Papers 1117](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491), at 1119–20. [[w.califano-triumph-and-tragedy-of]], 135; [[w.dallek-flawed-giant]], 321 (Oct. 6, press conference: no domestic problem "more critical than rebuilding our cities"; demonstration cities "one of the most important pieces of legislation for the good of all American mankind that we can act upon this session"; not the Speaker''s meeting); [[w.johnson-white-house-diary]], 428–29 (the news conference, the East Room, 3 p.m., Mrs. Johnson in the front row; among the questions "the Cities Bill"; not the words in the entry). Names: Johnson, McCormack.'
+      src:
+        c: e3865449
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491: all'
+        - 'w.califano-triumph-and-tragedy-of 135: all'
+        - 'via w.califano-triumph-and-tragedy-of 135 n.36: all'
+        - 'w.dallek-flawed-giant 321: ?'
+        - 'w.johnson-white-house-diary 428–29: ?'

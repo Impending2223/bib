@@ -167,7 +167,68 @@ def check(series, path, legacy=False):
             msg = l.split(None, 1)[1]
             if not any(msg.split(": ", 1)[-1] in x for x in errors):
                 errors.append(msg)
+    se, sw = subentry_problems(series, ops)
+    errors.extend(se)
+    warnings.extend(sw)
     return errors, warnings
+
+
+def subentry_problems(series, ops):
+    """check [subentry] (subentries.py STYLE 4) on the tree as the patch would leave it: each part's parent an entry
+    of its date and no subentry itself; a part's `follows` only its siblings."""
+    lst = series.lists.get("cal")
+    if lst is None:
+        return [], []
+    ents = {e["id"]: dict(e) for _, e in lst.entries()}
+    for op in ops:
+        if not isinstance(op, dict) or len(op) != 1:
+            continue
+        (kind, body), = op.items()
+        body = body or {}
+        if kind == "add" and (body.get("entry") or {}).get("id"):
+            ents[body["entry"]["id"]] = dict(body["entry"])
+        elif kind == "edit" and body.get("id") in ents:
+            e = ents[body["id"]]
+            e.update(body.get("set") or {})
+            for k in body.get("unset") or []:
+                e.pop(k, None)
+    kids = {}
+    for e in ents.values():
+        if e.get("part_of"):
+            kids.setdefault(str(e["part_of"]), set()).add(e["id"])
+    touched = set()
+    for op in ops:
+        if isinstance(op, dict) and len(op) == 1:
+            (kind, body), = op.items()
+            body = body or {}
+            touched.add(body.get("id") or (body.get("entry") or {}).get("id"))
+    out, warn = [], []
+    for eid in touched:
+        e = ents.get(eid)
+        if not e:
+            continue
+        group = [e] + [ents[k] for k in kids.get(eid, set())]   # an edited parent's parts too
+        for x in group:
+            p = str(x.get("part_of") or "")
+            if p:
+                par = ents.get(p)
+                if p == x["id"]:
+                    out.append(f"{x['id']}: part_of names the entry itself [subentry]")
+                elif par is None:
+                    out.append(f"{x['id']}: part_of: {p} is no calendar entry [subentry]")
+                else:
+                    if str(par.get("date")) != str(x.get("date")):
+                        out.append(f"{x['id']}: part_of: {p} is of another date [subentry]")
+                    if par.get("part_of"):
+                        out.append(f"{x['id']}: part_of: {p} is itself a subentry [subentry]")
+                for f in store.as_list(x.get("follows")):
+                    if f not in kids.get(p, set()):
+                        out.append(f"{x['id']}: follows {f}, not a subentry of {p} [subentry]")
+            else:
+                for f in store.as_list(x.get("follows")):
+                    if ents.get(f, {}).get("part_of"):
+                        warn.append(f"{x['id']}: follows {f}, a subentry of {ents[f]['part_of']}: follow the parent?")
+    return sorted(set(out)), sorted(set(warn))
 
 
 def report(series, path, legacy=False):

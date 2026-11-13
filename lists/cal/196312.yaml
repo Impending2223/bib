@@ -3033,6 +3033,9 @@ entries:
     when: Dec. 23
     date: '1963-12-23'
     thread: soviet-union-leadership
+    follows:
+      - cal.1963-12-23.soviet-union-leadership
+    part_of: cal.1963-12-23.soviet-union-leadership-2
     c: 'The Presidium on the schools. Khrushchev for eight years of schooling, then work: "Those who support the idea of an eleven-year education system support a politically wrong trend." Mikoyan for more scientists. The argument runs to July.'
     n: '[[w.fursenko-khrushchevs-cold-war]], 532; [[w.prezidium-tsk-kpss-1954]], I, 783–819 (the stenogram); [[w.prezidium-tsk-kpss-1954]], I, 782–83 (Protocol 126, item VIII, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 625 (P 126/VIII, the main lines of secondary schooling: the heading and those who prepared it, Khrushchev, Voronov, Mikoyan, Polyansky, Brezhnev, Lavrentyev). Names: Khrushchev, Mikoyan.'
     src:
@@ -3281,9 +3284,23 @@ entries:
     date: '1963-12-23'
     thread: soviet-union-leadership
     also: [cuba]
+    part_of: cal.1963-12-23.soviet-union-leadership-2
     c: 'The Presidium, the same session as the schools. The December plenum''s decisions on chemistry: tasks to be assigned, letters by branch to the party organizations, the VSNKh not to be supplanted. The delegation to Cuba for the revolution''s fifth anniversary, under Podgorny: its trip to be announced by radio Dec. 23 and in the press Dec. 24, "Почему раньше не опубликовали?" (why was it not published before?); the greeting to repeat Cuba''s position on the base at Guantánamo and its four or five conditions; gifts, Castro''s apart.'
     n: 'Protocol 126, items I and XI. [[w.prezidium-tsk-kpss-1954]], I, 781–82 (doc. 304, Malin''s notes); III, 622–29 (P 126/I and Malin''s own jottings for it, P 126/XI and the departments'' note, P 126/XII on the gifts). See [[cal.1963-12-23.soviet-union]], [[cal.1963-12-04.cuba]]. Made public: 2003. Names: Podgorny, Castro.'
     tags: [name:podgorny-nikolai-v, name:castro-fidel, polity:ussr, polity:cuba, polity:us]
+  - id: cal.1963-12-23.soviet-union-leadership-2
+    when: Dec. 23
+    date: '1963-12-23'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 126, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Podgorny, Polyansky, Shvernik, Efremov; the secretaries Andropov, Demichev, Ilyichev, Polyakov, Ponomarev, Rudakov, Titov, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 781–819 (Protocol 126, Malin''s notes, 781–83; the stenogram, 783–819); I, 1155 n.1 (those present); III, 622–33 (P 126); III, 1045 n.1 (those present). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Podgorny, Polyansky, Shvernik, Andropov, Demichev, Ponomarev, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:shvernik-nikolai-m, name:andropov-yuriy-vladimirovich, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+    time_range:
+      - 1963-12-23T06:00Z
+      - 1963-12-23T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1963-12-24.foreign-aid
     when: Dec. 24
     date: '1963-12-24'

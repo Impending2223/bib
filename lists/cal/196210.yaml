@@ -1294,6 +1294,9 @@ entries:
     when: Oct. 12
     date: '1962-10-12'
     thread: soviet-union-leadership
+    follows:
+      - cal.1962-10-12.soviet-union-2
+    part_of: cal.1962-10-12.soviet-union-leadership
     c: 'The Presidium on a letter from the poet Yevtushenko. Khrushchev: allow publication.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 596 (Protocol 58, item 19, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], I, 1107 n.7 (the editors: the poem "The Heirs of Stalin," printed in *Pravda*, Oct. 21, 1962); [[w.prezidium-tsk-kpss-1954]], I, 597 (Malin''s notes continued: Khrushchev on Yevtushenko, "Говорит с принципиальных позиций. О культе личности. М.б. доклад о культе личности сделать?" (He speaks from principled positions. On the cult of personality. Perhaps a report on the cult of personality?); not the decision, on 596). Made public: 2003. Names: Khrushchev.'
     src:
@@ -1327,6 +1330,7 @@ entries:
     date: '1962-10-12'
     thread: soviet-union-leadership
     also: [berlin-and-vienna]
+    part_of: cal.1962-10-12.soviet-union-leadership
     c: 'The Presidium, stenographed, on Khrushchev''s report of his Central Asian tour and his notes of Sept. 29 and Oct. 5: the production administration for cotton and a Central Asian Bureau; Khrushchev against Gosplan''s officials; Dymshits for one sovnarkhoz. Approved: the Secretariat, with Gosplan and the five republics, to draft proposals. Plastics: more production, whole plants to be bought abroad. Gosplan and Foreign Trade to study more meat for the GDR.'
     n: 'Protocol 58, items I, III and IV. [[w.prezidium-tsk-kpss-1954]], I, 597–616 (doc. 262, the uncorrected stenogram); III, 318–19 (P 58/I), 334–35 (P 58/III, P 58/IV). See [[cal.1962-10-05.soviet-union]]. Made public: 2003. Names: Khrushchev, Dymshits.'
     tags: [name:dymshits-veniamin-e, name:khrushchev-nikita-s, polity:ussr, polity:gdr]
@@ -1337,6 +1341,19 @@ entries:
     c: '5:45 p.m., Osterheld present. Dowling brings Adenauer an invitation to Washington for Nov. 7–8; accepted. Brandt "etwas viel geredet" (had talked rather much). Adenauer''s idea, to be kept secret: to propose to the Soviets "die Frage der deutschen Wiedervereinigung auf zehn Jahre hinauszuschieben" (to put off the question of German reunification for ten years), if the people in the Soviet zone could live decently and access to Berlin stayed free. Dowling: promising; one for the President.'
     n: '*Gespräch des Bundeskanzlers Adenauer mit dem amerikanischen Botschafter Dowling* (Weber''s record, Oct. 16). [[w.akten-zur-auswartigen-politik]], III, 1677–78 (Dok. 390; n.5: the "Burgfriedensplan," put to Smirnov on June 6). Names: Osterheld, Adenauer, Dowling, Brandt.'
     tags: [name:osterheld-horst, name:adenauer-konrad, name:dowling-walter-c, name:brandt-willy, polity:frg, polity:us, polity:ussr]
+  - id: cal.1962-10-12.soviet-union-leadership
+    when: Oct. 12
+    date: '1962-10-12'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 58, continued from Oct. 11, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Ilyichev, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 596–616 (Protocol 58, continued, Malin''s notes, 596–97; the uncorrected stenogram of items I, III and IV, 597–616); I, 1107 n.6 (those present); III, 318–35 (P 58/I, III and IV); III, 1006–07 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:shelepin-aleksandr-n]
+    time_range:
+      - 1962-10-12T06:00Z
+      - 1962-10-12T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-10-13.congress
     when: Oct. 13
     date: '1962-10-13'
@@ -2939,7 +2956,7 @@ entries:
     time: 1962-10-22T23:00Z
     thread: missile-crisis
     follows:
-      - cal.1962-10-22.soviet-union
+      - cal.1962-10-22.soviet-union-leadership
       - cal.1962-10-22.missile-crisis-6
       - cal.1962-10-22.missile-crisis-10
       - cal.1962-10-22.missile-crisis-11
@@ -3099,8 +3116,7 @@ entries:
     date: '1962-10-22'
     thread: soviet-union
     also: [missile-crisis]
-    follows:
-      - cal.1962-10-22.intelligence-2
+    part_of: cal.1962-10-22.soviet-union-leadership
     c: 'Moscow, hours before the address, the Presidium. Malinovsky: "Apparently the radio address is a preelection trick." Khrushchev: "We just wanted to intimidate them"; "This may end in a big war." Tactical nuclear weapons for Pliyev against a landing considered, then held back on Malinovsky''s advice: the cable to Pliyev, full readiness, the nuclear equipment excepted.'
     n: '[[w.fursenko-one-hell-of-a]], 240–43; [[w.fursenko-khrushchevs-cold-war]], 468–70 (from Malin''s and Serov''s notes: Malinovsky, "some kind of preelection trick"; Khrushchev: "All we wanted to do was to threaten them"; "This may end in a big war"); [[w.prezidium-tsk-kpss-1954]], I, 617–18 (Protocol 60). Check: in Fursenko and Naftali''s later account (467–74) the session opens at 10 p.m. Moscow time, all twelve members there; Khrushchev dictates leave for Pliyev to use the tactical atomic weapons against a landing; Mikoyan objects, and after Kosygin speaks the instruction is revised: "all means except those controlled by Statsenko and Beloborodov," sent at 11:55 p.m., Malinovsky asking only that it wait for the speech''s text; Kuznetsov brings the translation at 1:15 a.m. (by Serov''s notes, RGANI, and Mikoyan''s unpublished memoir, RGASPI, cited by [[w.fursenko-khrushchevs-cold-war]], 468 n.10, 472 n.26). Penkovsky arrested just before the session: [[w.fursenko-khrushchevs-cold-war]], 476. To check: Malinovsky to Pliyev, Oct. 22, 1962, sent 2:35 p.m. Moscow time, AGSRF (cited by [[w.fursenko-one-hell-of-a]], 242 n.2, 243 n.6). See [[cal.1962-10-22.missile-crisis]]. Names: Malinovsky, Khrushchev.'
     src:
@@ -3578,6 +3594,9 @@ entries:
     date: '1962-10-22'
     thread: soviet-union-leadership
     also: [berlin-and-vienna]
+    follows:
+      - cal.1962-10-22.soviet-union
+    part_of: cal.1962-10-22.soviet-union-leadership
     c: 'The Presidium, after Cuba, on Demichev''s report of the CPSU delegation in the GDR: the Ambassador better replaced by one who has their trust; their information wrong; Ulbricht to be answered on his planned reorganization of economic management: "в отношении Советов не разделяем, не возлагаем надежды" (on the councils, we do not share it, we place no hopes in them). The delegation''s work approved, by resolution of Oct. 23.'
     n: 'Protocol 60, item IV. [[w.prezidium-tsk-kpss-1954]], I, 619 (Malin''s notes); III, 351 (P 60/IV, Oct. 23). See [[cal.1962-10-22.soviet-union]]. Made public: 2003. Names: Ulbricht, Demichev.'
     tags: [name:demichev-pyotr-n, name:ulbricht-walter, polity:ussr, polity:gdr]
@@ -3711,6 +3730,15 @@ entries:
     c: 'The Secretariat''s instruction no. 56-CT/TW on raising livestock in the first five-year plan: its progress slow and uneven, in places backward, since 1958.'
     n: '*Chỉ thị của Ban Bí thư số 56-CT/TW về phương hướng và biện pháp đẩy mạnh chăn nuôi trong kế hoạch 5 năm lần thứ nhất*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 769–82. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1962-10-22.soviet-union-leadership
+    when: Oct. 22–23
+    date: '1962-10-22'
+    thread: soviet-union-leadership
+    follows:
+      - cal.1962-10-22.intelligence-2
+    c: 'The Presidium in session, Protocol 60, Khrushchev presiding, past midnight into Oct. 23. Present: Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 617–19 (Protocol 60, Malin''s notes and his list of those present; Kennedy''s letter received, 619); III, 339–51 (P 60/I and IV, dated Oct. 23); III, 1008–10 nn.1, 8, 14 (Khrushchev presiding; Kennedy''s letter handed over at 1 a.m. Moscow time, Oct. 23; item IV taken at "the session of Oct. 23"). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -4720,8 +4748,7 @@ entries:
     date: '1962-10-25'
     thread: soviet-union
     also: [missile-crisis]
-    follows:
-      - cal.1962-10-25.missile-crisis-2
+    part_of: cal.1962-10-25.soviet-union-leadership
     c: 'Midday, the Presidium, on Kennedy''s letter. Khrushchev: the four missile ships to turn back; "We must dismantle the missiles to make Cuba into a zone of peace"; "Give us a pledge not to invade Cuba, and we will remove the missiles"; the UN may inspect. Approved; the Presidium to the Bolshoi that evening.'
     n: '[[w.fursenko-one-hell-of-a]], 259–60; [[w.fursenko-khrushchevs-cold-war]], 483–84 ("Apparently Kennedy slept with a wooden knife"; the trade; "the rockets can appear there again"); [[w.prezidium-tsk-kpss-1954]], I, 620–22 (Protocol 61, Malin''s notes and Serov''s record). Check: by Serov''s note, Fursenko and Naftali have the colleagues vote "that night" (484), and Khrushchev ask that the last ship with "special cargo" be brought home. On [[cal.1962-10-25.missile-crisis-2|Kennedy''s letter]], delivered 1:45 a.m. Washington: [[w.fursenko-one-hell-of-a]], 259–60. Check: Malin''s notes (I, 620) have one ship with special cargo turned back, not four. To check: Khrushchev, *Khrushchev Remembers* (1970), 497 (cited by [[w.fursenko-one-hell-of-a]], 260 n.11). Check: Volkogonov''s account differs, *Sem Vozhdei*, 429–30 (259 n.9). See [[cal.1962-10-25.missile-crisis-2]]. Names: Kennedy, Khrushchev.'
     src:
@@ -4872,6 +4899,9 @@ entries:
     date: '1962-10-25'
     thread: missile-crisis-diplomacy
     also: [soviet-union]
+    follows:
+      - cal.1962-10-25.missile-crisis-diplomacy-4
+    part_of: cal.1962-10-25.soviet-union-leadership
     c: 'Khrushchev''s reply to U Thant, approved by the Presidium: "Заявляю Вам, что я согласен с Вашим предложением" (I declare that I agree with your proposal). The Foreign Ministry''s draft rejected as unfit; the reply to be published with U Thant''s appeal.'
     n: 'P 61/III, Oct. 25, 1962. [[w.prezidium-tsk-kpss-1954]], I, 620 (Malin''s notes: "Сказать кратко: «согласны с Вашим предложением»" (Say briefly: "we agree with your proposal")); I, 1111 n.4; III, 362–63 (the resolution and the reply). See [[cal.1962-10-24.missile-crisis-4]]. Names: Khrushchev, U Thant.'
     tags: [name:khrushchev-nikita-s, name:u-thant, polity:ussr]
@@ -4916,6 +4946,9 @@ entries:
     date: '1962-10-25'
     thread: missile-crisis-diplomacy
     also: [soviet-union]
+    follows:
+      - cal.1962-10-25.soviet-union
+    part_of: cal.1962-10-25.soviet-union-leadership
     c: 'The Presidium''s instructions to Zorin on the Ghana–UAR draft in the Security Council: abstain if it will pass without the Soviet vote, else vote for it; in explaining the vote, call the resolution insufficient. Mikoyan, in the discussion, for voting "for."'
     n: 'P 61/II, Oct. 25, 1962, and the instructions. [[w.prezidium-tsk-kpss-1954]], III, 360–61 (docs. 265.2, 265.2.1); I, 620 (Malin''s notes: Mikoyan; "Т. Зорин правильно предлагает" (Comrade Zorin proposes rightly)). See [[cal.1962-10-25.missile-crisis]]. Made public: 2003. Names: Zorin, Mikoyan.'
     tags: [name:zorin-valerian, name:mikoyan-anastas, polity:ussr, polity:ghana, polity:uar]
@@ -4926,6 +4959,21 @@ entries:
     c: 'Kennedy, watching Stevenson cross-examine Zorin at the Security Council on television: "I never knew Adlai had it in him. Too bad he didn''t show some of this steam in the 1956 campaign."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 379 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1962-10-25.missile-crisis]]. Names: Kennedy, Stevenson, Zorin. Check: the day: the page sets the debate, "meanwhile," after its paragraph on Friday and gives no day; Oct. 25 by the Security Council record cited at [[cal.1962-10-25.missile-crisis]].'
     tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:zorin-valerian]
+  - id: cal.1962-10-25.soviet-union-leadership
+    when: Oct. 25
+    date: '1962-10-25'
+    thread: soviet-union-leadership
+    follows:
+      - cal.1962-10-25.missile-crisis-2
+    c: 'The Presidium in session, Protocol 61, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Gromyko, Kuznetsov.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 620–22 (Protocol 61, Malin''s notes and his list of those present, 620–21; Serov''s record of item I, with its list, 621–22); III, 355–67 (P 61/I–IV and VI; P 61/IV by poll); III, 1010 n.1 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Kuznetsov.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:kuznetsov-vasily-v]
+    time_range:
+      - 1962-10-25T06:00Z
+      - 1962-10-25T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-10-26.missile-crisis
     when: Oct. 26
     date: '1962-10-26'
@@ -5731,7 +5779,7 @@ entries:
     date: '1962-10-28'
     thread: missile-crisis
     follows:
-      - cal.1962-10-28.soviet-union
+      - cal.1962-10-28.soviet-union-leadership
     c: 'Radio Moscow: the missiles to be dismantled and returned. Castro refuses inspection.'
     n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro); [[w.salinger-with-kennedy]], 273 (Salinger hears the radio flash driving to work: Khrushchev agrees to withdraw the missiles and tear down the sites for a guarantee against invasion; not Castro). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
     src:
@@ -5838,6 +5886,7 @@ entries:
     time_approx: true
     thread: soviet-union
     also: [missile-crisis]
+    part_of: cal.1962-10-28.soviet-union-leadership
     c: About noon, Khrushchev's dacha outside Moscow, the whole Presidium and his advisers. He dictates his letter accepting the first terms before word of Robert Kennedy's talk with Dobrynin reaches the room; delighted at it, he leaves the letter as it is, the Jupiters secret. The Red Cross for the inspection; the letter to go by radio.
     n: '[[w.fursenko-khrushchevs-cold-war]], 489–91 (from Malin''s notes; the report of a SAM fired without leave, Castro''s letter); [[w.prezidium-tsk-kpss-1954]], I, 624–25 (Protocol 63). Check: Fursenko and Naftali number the protocol 64 here (616 n.86), 63 in [[w.fursenko-one-hell-of-a]]. Check: the volume prints it as Protocol 63 (I, 624). See [[cal.1962-10-27.missile-crisis]]. Names: Khrushchev, Robert Kennedy, Dobrynin.'
     src:
@@ -5853,6 +5902,9 @@ entries:
     date: '1962-10-28'
     thread: missile-crisis-anadyr
     also: [cuba, soviet-union]
+    follows:
+      - cal.1962-10-28.missile-crisis-diplomacy
+    part_of: cal.1962-10-28.soviet-union-leadership
     c: 'The Presidium''s second message to Havana, through Alekseyev: Castro encouraged to declare for the missiles'' removal; Scali''s suggestion passed on, "in complete trust," as from a source "we know well" at "the very highest levels": Castro to say he will dismantle the sites if Kennedy guarantees no invasion. "[T]he proposals presented by this source are wholly acceptable to us."'
     n: '[[w.fursenko-one-hell-of-a]], 291; [[w.prezidium-tsk-kpss-1954]], III, 384–85 (the instructions, P 63/IV). See [[cal.1962-10-26.soviet-union]]. Names: Castro, Scali, Kennedy.'
     src:
@@ -6017,6 +6069,9 @@ entries:
     date: '1962-10-28'
     thread: missile-crisis-anadyr
     also: [cuba]
+    follows:
+      - cal.1962-10-28.soviet-union
+    part_of: cal.1962-10-28.soviet-union-leadership
     c: 'Khrushchev to Castro, dictated at the Presidium: "в такой кризисный, переломный момент не поддаваться чувству, проявить выдержку" (at such a critical turning point not to give way to feeling, to show restraint); no pretext for the Americans to wreck the settlement in sight: "Вчера вы сбили один из них" (Yesterday you shot one of them down).'
     n: 'Protocol 63, item V; P 63/V, Oct. 28, 1962, and the instructions to Alekseyev with the letter (f. 3, op. 18, d. 101, l. 17–18). [[w.prezidium-tsk-kpss-1954]], III, 386–87 (doc. 268.5.1); I, 624 (the letter dictated; its discussion not recorded); I, 1113 n.2. See [[cal.1962-10-28.soviet-union]]. Made public: 2003. Names: Khrushchev, Castro.'
     tags: [name:khrushchev-nikita-s, name:castro-fidel, polity:ussr, polity:cuba, polity:us]
@@ -6025,6 +6080,9 @@ entries:
     date: '1962-10-28'
     thread: missile-crisis-diplomacy
     also: [soviet-union]
+    follows:
+      - cal.1962-10-28.missile-crisis-anadyr
+    part_of: cal.1962-10-28.soviet-union-leadership
     c: 'Khrushchev to U Thant, approved by the Presidium: a copy of that day''s message to Kennedy; Kuznetsov sent to New York to help his talks with the Soviet, American and Cuban representatives.'
     n: 'P 63/II, Oct. 28, 1962. [[w.prezidium-tsk-kpss-1954]], III, 378–79 (doc. 268.2.1); I, 1113 n.4. See [[cal.1962-10-28.soviet-union]]. Names: Khrushchev, U Thant, Kennedy, Kuznetsov.'
     tags: [name:khrushchev-nikita-s, name:u-thant, name:kennedy-john-f, name:kuznetsov-vasily-v, polity:ussr, polity:us, polity:cuba]
@@ -6058,6 +6116,19 @@ entries:
     c: '12:55 p.m. Fomin (Feklisov) to Scali: "I am instructed to say that the information you provided yesterday was very helpful to the Chairman in making up his mind quickly." By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 278. See [[cal.1962-10-28.missile-crisis]]. Names: Feklisov, Scali.'
     tags: [name:feklisov-aleksandr, name:scali-john-a, name:khrushchev-nikita-s]
+  - id: cal.1962-10-28.soviet-union-leadership
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 63, in two sittings, Khrushchev presiding. Present at the first: Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, S. Ivanov, Malin. At the second: Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Brezhnev, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 624–25 (Protocol 63, Malin''s notes and his two lists of those present); III, 374–92 (P 63/I–VII and IX); III, 1013–14 nn.1, 17 (Khrushchev presiding; P 63/III, IV, VI and VII taken with item III, at the second sitting). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, Polyansky.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:kuusinen-otto-v, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:malinovsky-rodion-y, name:zakharov-matvei-vasileevich, name:polyansky-dmitri-s]
+    time_range:
+      - 1962-10-28T06:00Z
+      - 1962-10-28T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'

@@ -28,6 +28,7 @@ entries:
     date: '1962-07-01'
     thread: berlin-and-vienna
     also: [soviet-union, missile-crisis]
+    part_of: cal.1962-07-01.soviet-union-leadership-2
     c: 'The Presidium, Mikoyan absent, before Raúl Castro''s visit. Khrushchev renews the push on West Berlin: on a peace treaty the Western garrisons halved, under the UN flag; in two years replaced by non-Western UN troops; in six, all out; "An international organ is unacceptable"; even by "aggravating things." Against McNamara''s Ann Arbor speech: "Not targeting cities—how aggressive! . . . To get the population used to the idea that nuclear war will take place." The UN to take up Germany in a crisis once the missiles are in Cuba in November. The Soviet–Cuban defense agreement approved; Anadyr shipped by Nov. 1.'
     n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39); [[w.prezidium-tsk-kpss-1954]], III, 284–85 (P 39/II and III: Khrushchev''s view on further proposals on Berlin agreed; the proposals for the talks with the Cubans approved; not their terms). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
     src:
@@ -71,6 +72,9 @@ entries:
     date: '1962-07-01'
     thread: soviet-union-leadership
     also: [defense]
+    follows:
+      - cal.1962-07-01.berlin-and-vienna
+    part_of: cal.1962-07-01.soviet-union-leadership-2
     c: 'The Presidium. Khrushchev on McNamara''s Ann Arbor speech: "Not targeting cities — how aggressive! What is their aim?"'
     n: '[[w.poole-joint-chiefs-of-staff]], 31–32; [[w.prezidium-tsk-kpss-1954]], I, 569 (Protocol 39). To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
     src:
@@ -90,9 +94,25 @@ entries:
     when: July 1
     date: '1962-07-01'
     thread: soviet-union-leadership
+    follows:
+      - cal.1962-07-01.soviet-union
+    part_of: cal.1962-07-01.soviet-union-leadership-2
     c: 'The Presidium at Ogarevo, the same session as Berlin and Cuba, on the KGB''s note of June 26: Moskalenko to be called in and dressed down before the marshals; Colonel Yuferov to be tried in closed court. The Leningrad party''s and sovnarkhoz''s note on the leading works and design bureaus: Brezhnev and Kirilenko to look into it.'
     n: 'Protocol 39, items XIII and XVII. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 254, Malin''s notes); III, 285–87 (doc. 254.2, the KGB''s note, not printed; P 39/XVII and the note of Tolstikov and Antonov). See [[cal.1962-07-01.berlin-and-vienna]], [[cal.1962-07-01.soviet-union]]. Made public: 2003. Names: Moskalenko, Yuferov, Brezhnev, Kirilenko.'
     tags: [name:brezhnev-leonid, name:kirilenko-andrei-p, polity:ussr]
+  - id: cal.1962-07-01.soviet-union-leadership-2
+    when: July 1
+    date: '1962-07-01'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session at Ogarevo, Protocol 39, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ilyichev, Ponomarev, Shelepin, Grishin, Gromyko, Malin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39, Malin''s notes and his list of those present); III, 284–87 (P 39/II, III and XVII; XIII''s note not printed); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin, Gromyko.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei]
+    time_range:
+      - 1962-07-01T06:00Z
+      - 1962-07-01T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-07-02.republican-party
     when: July 2
     date: '1962-07-02'
@@ -348,6 +368,9 @@ entries:
     date: '1962-07-06'
     thread: missile-crisis-anadyr
     also: [soviet-union, cuba]
+    follows:
+      - cal.1962-07-06.soviet-union-leadership
+    part_of: cal.1962-07-06.soviet-union-leadership-2
     c: 'The Presidium, after Khrushchev''s first meeting with Raúl Castro, July 3: at the Cubans'' and General Dementyev''s urging, the "defensive" weapons, the SAMs, to go first, all in July; the strategic missiles after, their shipments delayed for want of ships. All still to be done by Nov. 1.'
     n: '[[w.fursenko-khrushchevs-cold-war]], 444–45; [[w.prezidium-tsk-kpss-1954]], I, 571 (Protocol 40); [[w.prezidium-tsk-kpss-1954]], III, 310 (doc. 255.1, "Вопросы по Кубе" (questions on Cuba): the heading of Malin''s note only). Check: the protocol (I, 571) has Pliev to command, the defensive means first, then the others, and Kennedy''s and Rusk''s Independence Day speeches to be answered; nothing of the Cubans'' or Dementyev''s urging, or of the ships. See [[cal.1962-07.missile-crisis]]. Names: Khrushchev, Raúl Castro.'
     src:
@@ -415,9 +438,23 @@ entries:
     when: July 6
     date: '1962-07-06'
     thread: soviet-union-leadership
+    part_of: cal.1962-07-06.soviet-union-leadership-2
     c: 'The Presidium, the same session as Cuba, on research in biology, Khrushchev, Keldysh and Olshansky speaking: the direction right; the draft to be thoroughly redone, "abroad" and "if only" thrown out; Zhebrak published an article in the United States against Lysenko; not to be drafted bureaucratically. A commission, Lysenko on it, to bring new proposals.'
     n: 'Protocol 40, item III. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 255, Malin''s notes); III, 287–310 (P 40/III, the drafts and the Elyutin commission''s note). See [[cal.1962-07-06.missile-crisis]]. Made public: 2003. Names: Keldysh, Olshansky, Khrushchev, Zhebrak, Lysenko.'
     tags: [name:khrushchev-nikita-s, polity:ussr, polity:us, name:keldysh-mstislav-v]
+  - id: cal.1962-07-06.soviet-union-leadership-2
+    when: July 6
+    date: '1962-07-06'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 40, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 570–71 (Protocol 40, Malin''s notes); I, 1103 n.1 (those present); III, 287–310 (P 40/III and its materials; the heading of Malin''s note on Cuba, 310); III, 1002–03 nn.1, 5 (those present; on Cuba no decision, none in the signed protocol). Names: Khrushchev, Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n]
+    time_range:
+      - 1962-07-06T06:00Z
+      - 1962-07-06T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-07-07.missile-crisis
     when: July 7
     date: '1962-07-07'
@@ -980,8 +1017,11 @@ entries:
     date: '1962-07-12'
     thread: cuba
     also: [soviet-union]
+    follows:
+      - cal.1962-07-12.soviet-union-leadership
+    part_of: cal.1962-07-12.soviet-union-leadership-2
     c: 'The Presidium sends Cuba a group of economic advisers, not under the ambassador, from Central Asia. Khrushchev: "Outrageous" to give the Cubans a tractor and no farm machines; more advisers; perhaps a hundred or two of the best ships for fishing, five sent. Mikoyan, Rashidov and Shelepin to prepare it.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 572 (Protocol 41, item II, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 311 (P 41/II, "О командировании на Кубу группы советников по экономическим вопросам" (on sending a group of economic advisers to Cuba): Mikoyan, Rashidov and Shelepin to prepare proposals on the exchange of views; not the advisers'' terms). Made public: 2003. See [[cal.1962-07-06.missile-crisis]]. Names: Khrushchev, Mikoyan, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 572 (Protocol 41, item II, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 311 (P 41/II, "О командировании на Кубу группы советников по экономическим вопросам" (on sending a group of economic advisers to Cuba): Mikoyan, Rashidov and Shelepin to prepare proposals on the exchange of views; not the advisers'' terms). Made public: 2003. Check: the sending; P 41/II of July 12 asks only for proposals, and the resolution sending the advisers was adopted by poll July 27, 1962 (III, 1003 n.5). See [[cal.1962-07-06.missile-crisis]]. Names: Khrushchev, Mikoyan, Shelepin.'
     src:
       c: 66d6b2b7
       rows:
@@ -999,9 +1039,23 @@ entries:
     when: July 12
     date: '1962-07-12'
     thread: soviet-union-leadership
+    part_of: cal.1962-07-12.soviet-union-leadership-2
     c: 'The Presidium, the same session as the advisers for Cuba, on the correctives of the plan for 1963–65, Zasyadko, Khrushchev, Dymshits, Korovushkin and Mikoyan speaking: the cuts in meat and milk procurement against the plenum''s decision to be explained; wages and pensions raised without thought; reserves; "Против необдуманных скачков" (against ill-considered leaps); perhaps a ten-year plan; a ministry of power. The draft adopted in the main, to go to the republics.'
     n: 'Protocol 41, item I. [[w.prezidium-tsk-kpss-1954]], I, 571–72 (doc. 256, Malin''s notes); III, 310 (P 41/I). See [[cal.1962-07-12.cuba]]. Made public: 2003. Names: Zasyadko, Khrushchev, Dymshits, Korovushkin, Mikoyan.'
     tags: [name:dymshits-veniamin-e, name:mikoyan-anastas, name:khrushchev-nikita-s, polity:ussr]
+  - id: cal.1962-07-12.soviet-union-leadership-2
+    when: July 12
+    date: '1962-07-12'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 41, Khrushchev presiding. Present: Kirilenko, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 571–72 (Protocol 41, Malin''s notes); I, 1104 n.1 (those present); III, 310–11 (P 41/I and II); III, 1003 nn.1, 5 (those present; the advisers sent by poll, July 27). Names: Khrushchev, Kirilenko, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:kirilenko-andrei-p, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+    time_range:
+      - 1962-07-12T06:00Z
+      - 1962-07-12T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-07-13.laos
     when: July 13
     date: '1962-07-13'
