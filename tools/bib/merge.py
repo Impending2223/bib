@@ -186,12 +186,35 @@ def similar(a, b):
     return difflib.SequenceMatcher(None, store.fold(a), store.fold(b)).ratio()
 
 
+_PARTS = set()   # {(subentry id, parent id)} the patch being applied sets (subentries.py): a parent is no duplicate of its parts
+
+
+def patch_parts(ops):
+    """The (subentry, parent) pairs a patch's add and edit ops set by part_of."""
+    out = set()
+    for op in ops or []:
+        if not isinstance(op, dict) or len(op) != 1:
+            continue
+        (kind, body), = op.items()
+        body = body or {}
+        if kind == "add":
+            e = body.get("entry") or {}
+            if e.get("part_of"):
+                out.add((e.get("id"), str(e["part_of"])))
+        elif kind == "edit" and (body.get("set") or {}).get("part_of"):
+            out.add((body.get("id"), str(body["set"]["part_of"])))
+    return out
+
+
 def find_duplicates(series, lst, e):
     """Entries in the same list that look like the same event, work, or person."""
     out = []
     refs = Refs(series)
     for s, x in lst.entries():
         if x["id"] == e.get("id"):
+            continue
+        if (x["id"], e.get("id")) in _PARTS or (e.get("id"), x["id"]) in _PARTS \
+                or str(x.get("part_of") or "") == e.get("id") or str(e.get("part_of") or "") == x["id"]:
             continue
         if lst.kind == "calendar" and "date" in e and "date" in x:
             if x["date"] == e["date"] and (x.get("thread") == e.get("thread")
@@ -228,6 +251,8 @@ def apply_patch(series, patch, source, report, dry=False):
     touched = set()
     ops = patch.get("ops") or []
     ops = [o for o in ops if "add" in o] + [o for o in ops if "add" not in o]   # adds first (tools/bib/addops.py)
+    _PARTS.clear()
+    _PARTS.update(patch_parts(ops))
     _addops.DRY = dry
     for op in ops:
         (kind, body), = op.items()
@@ -334,6 +359,17 @@ def op_edit(series, body, source, report, touched):
         return
     _replace(sec, cur, merged)
     touched.add(sec)
+    if lst.kind == "calendar" and str(merged.get("date")) != str(cur.get("date")) and not merged.get("conflict"):
+        # a calendar entry re-dated into another month moves to that month's section, in date order
+        dest = section_for_date(lst, merged["date"])
+        if dest is not None and dest is not sec:
+            sec.entries.remove(merged)
+            dest.entries.insert(auto_position(dest, merged), merged)
+            touched.add(dest)
+            note = (note + "; " if note else "") + f"moved to {dest.code or dest.id}"
+        elif dest is sec:
+            sec.entries.remove(merged)
+            sec.entries.insert(auto_position(sec, merged), merged)
     report.add("conflict" if len(merged.get("conflict", [])) > len(cur.get("conflict", [])) else "edited", eid, note)
 
 

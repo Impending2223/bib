@@ -76,7 +76,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 345–46: all'
         - 'via w.fursenko-khrushchevs-cold-war 346 n.34: all'
-    tags: [name:pushkin-georgiyi-maksimovich, name:ho-chi-minh]
+    tags: [name:pushkin-georgiyi-maksimovich, name:ho-chi-minh, vis:only:ussr+drv]
     time_range:
       - 1961-04-01T06:00Z
       - 1961-04-01T14:00Z
@@ -711,6 +711,7 @@ entries:
     when: Apr. 6
     date: '1961-04-06'
     thread: soviet-union-leadership
+    part_of: cal.1961-04-06.soviet-union-leadership
     c: 'The Presidium, outside the protocol, on the press at the Kuibyshev works. Khrushchev: will it not be fully loaded? Gosplan is swallowed by current business.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, Malin''s notes). Made public: 2003. Names: Khrushchev.'
     src:
@@ -723,8 +724,11 @@ entries:
     when: Apr. 6
     date: '1961-04-06'
     thread: soviet-union-leadership
+    follows:
+      - cal.1961-04-06.soviet-union
+    part_of: cal.1961-04-06.soviet-union-leadership
     c: 'The Presidium on the cadres of the Party Control Committee. Khrushchev: Boitsov disagrees with the Twentieth Congress''s decisions on the cult of personality, Bogoyavlensky too; Kozlov and Shvernik to look into it, Boitsov perhaps to State Control or retirement, told that his views are known. Also: a model charter for the collective farms to be drafted, a congress of collective farmers for the winter of 1961–62, the new Constitution, elections to the Supreme Soviet in the spring of 1962.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, item V, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 161 (P 323/VI: Kozlov and Shvernik to look into the Party Control Committee; nothing of Boitsov''s posting). Made public: 2003. Names: Khrushchev, Kozlov.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, item VI, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 161 (P 323/VI: Kozlov and Shvernik to look into the Party Control Committee; nothing of Boitsov''s posting). Made public: 2003. Names: Khrushchev, Kozlov.'
     src:
       c: cd78c8e5
       rows:
@@ -758,6 +762,19 @@ entries:
     c: 'The Secretariat, Hanoi: circular no. 25-TT/TW on electing judges and people''s assessors at every level: the people''s courts "an instrument of dictatorship" of the state, under the Party.'
     n: '*Thông tri của Ban Bí thư số 25-TT/TW về việc lãnh đạo bầu thẩm phán và hội thẩm nhân dân các cấp toà án*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 297–99. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-04-06.soviet-union-leadership
+    when: Apr. 6
+    date: '1961-04-06'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 323, Khrushchev presiding. Present: Brezhnev, Ignatov, Kozlov, Kosygin, Kuusinen, Mukhitdinov, Polyansky, Furtseva, Shvernik, Voronov, Grishin, Pospelov.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, Malin''s notes: a matter outside the protocol, then item VI); I, 1087 n.1 (those present, Kozlov not among them); III, 161 (P 323/VI); III, 988 n.1 (those present). Names: Khrushchev, Brezhnev, Ignatov, Kozlov, Kosygin, Kuusinen, Mukhitdinov, Polyansky, Furtseva, Shvernik, Voronov.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:ignatov-nikolai-g, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mukhitdinov-nuritdin-a, name:polyansky-dmitri-s, name:furtseva-yekaterina-a, name:shvernik-nikolai-m, name:voronov-gennady-i]
+    time_range:
+      - 1961-04-06T06:00Z
+      - 1961-04-06T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1961-04-07.cuba
     when: Apr. 7
     date: '1961-04-07'
@@ -870,7 +887,7 @@ entries:
         - 'w.fursenko-one-hell-of-a 89–90: all'
         - 'via w.fursenko-one-hell-of-a 89 n.50: A'
         - 'via w.fursenko-one-hell-of-a 90 n.51: all'
-    tags: [name:castro-fidel, name:miro-cardona-jose]
+    tags: [name:castro-fidel, name:miro-cardona-jose, vis:only:ussr+cuba]
     time_range:
       - 1961-04-07T14:00Z
       - 1961-04-07T22:00Z
@@ -977,6 +994,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 91: all'
         - 'via w.fursenko-one-hell-of-a 91 n.58: all'
+    tags: [vis:only:ussr]
     time_range:
       - 1961-04-08T14:00Z
       - 1961-04-08T22:00Z
@@ -1631,7 +1649,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 347–48: all'
         - 'via w.fursenko-khrushchevs-cold-war 348 n.47: all'
-    tags: [name:guevara-ernesto]
+    tags: [name:guevara-ernesto, vis:only:ussr+cuba]
     time_range:
       - 1961-04-14T14:00Z
       - 1961-04-14T22:00Z
@@ -1650,7 +1668,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 91–92: all'
         - 'via w.fursenko-one-hell-of-a 92 n.59: all'
-    tags: [name:castro-fidel, name:khrushchev-nikita-s, name:thompson-llewellyn-e, name:kennedy-john-f]
+    tags: [name:castro-fidel, name:khrushchev-nikita-s, name:thompson-llewellyn-e, name:kennedy-john-f, vis:only:ussr+cuba]
     time_range:
       - 1961-04-14T14:00Z
       - 1961-04-14T22:00Z
@@ -3734,7 +3752,7 @@ entries:
         - 'w.fursenko-one-hell-of-a 97–98: all'
         - 'via w.fursenko-one-hell-of-a 98 n.88: A'
         - 'via w.fursenko-one-hell-of-a 98 n.89: B'
-    tags: [name:castro-raul, name:shelepin-aleksandr-n]
+    tags: [name:castro-raul, name:shelepin-aleksandr-n, vis:only:ussr+cuba]
     time_range:
       - 1961-04-25T06:00Z
       - 1961-04-25T14:00Z

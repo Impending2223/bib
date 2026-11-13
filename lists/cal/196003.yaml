@@ -153,7 +153,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 42: all'
         - 'via w.fursenko-one-hell-of-a 42 n.29: all'
-    tags: [name:guevara-ernesto]
+    tags: [name:guevara-ernesto, vis:only:ussr+cuba]
     time_range:
       - 1960-03-03T14:00Z
       - 1960-03-03T22:00Z
@@ -286,7 +286,7 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 301 n.42: all'
         - 'w.fursenko-one-hell-of-a 41–42, 46: all'
         - 'via w.fursenko-one-hell-of-a 42 n.29: all'
-    tags: [name:castro-fidel, name:khrushchev-nikita-s]
+    tags: [name:castro-fidel, name:khrushchev-nikita-s, vis:only:ussr+cuba]
     time_range:
       - 1960-03-06T16:00Z
       - 1960-03-06T21:00Z
@@ -595,6 +595,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-03.testing
+    when: Mar. 10–13
+    date: '1960-03-10'
+    thread: testing
+    c: 'Bear Mountain, N.Y. Some two dozen intellectuals, at the invitation of Cary, the American Friends Service Committee''s chairman: Fromm, Riesman, Coser, H. Stuart Hughes, Hayakawa, and the pacifists Muste, Gilmore, Pickett, Meacham and Pickus. The Committees of Correspondence formed: reliance on deterrence "a deep malaise"; for continued abstention from testing, rapprochement with China, economic conversion.'
+    n: '[[w.debenedetti-american-ordeal]], 45; 416 n.52 (the days: the Bear Mountain meeting, Mar. 10–13). To check: Lewis Coser et al., "The Committee of Correspondence: A Statement," Mar. 1960, Committee of Correspondence folder, Social Protest Project, Bancroft (cited by [[w.debenedetti-american-ordeal]], 416 n.52). Names: Muste.'
+    src:
+      c: fae854aa
+      rows:
+        - 'w.debenedetti-american-ordeal 45: all'
+    tags: [name:muste-a-j]
+    short: the Committees of Correspondence
   - id: cal.1960-03-11.space
     when: Mar. 11
     date: '1960-03-11'
@@ -628,7 +640,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 44 n.36a: all'
         - 'via w.fursenko-one-hell-of-a 44 n.36b: all'
         - 'w.fursenko-khrushchevs-cold-war 302: all'
-    tags: [name:khrushchev-nikita-s, name:castro-fidel]
+    tags: [name:khrushchev-nikita-s, name:castro-fidel, vis:only:ussr+cuba]
     time_range:
       - 1960-03-12T06:00Z
       - 1960-03-12T14:00Z
@@ -772,7 +784,7 @@ entries:
       c: 8a866e2e
       rows:
         - 'w.fursenko-one-hell-of-a 42–43: all'
-    tags: [name:castro-fidel]
+    tags: [name:castro-fidel, vis:only:ussr+cuba]
     time_range:
       - 1960-03-15T14:00Z
       - 1960-03-15T22:00Z
@@ -1423,6 +1435,7 @@ entries:
       c: e955d835
       rows:
         - 'w.fursenko-one-hell-of-a 46: all'
+    tags: [vis:only:ussr+czechoslovakia]
     time_range:
       - 1960-03-29T06:00Z
       - 1960-03-29T14:00Z
@@ -1723,7 +1736,7 @@ entries:
         - 'w.fursenko-one-hell-of-a 45: all'
         - 'via w.fursenko-one-hell-of-a 45 n.39: A'
         - 'via w.fursenko-one-hell-of-a 45 n.40: B'
-    tags: [name:castro-fidel]
+    tags: [name:castro-fidel, vis:only:ussr+cuba]
   - id: cal.1960-03.defense
     when: Mar.
     date: 1960-03
@@ -1746,18 +1759,6 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 75: all'
         - 'via x.1971.devillers-la-lutte-pour-la-reunification: all'
-  - id: cal.1960-03.testing
-    when: Mar.
-    date: 1960-03
-    thread: testing
-    c: 'Bear Mountain, N.Y. Some two dozen intellectuals, at the invitation of Cary, the American Friends Service Committee''s chairman: Fromm, Riesman, Coser, H. Stuart Hughes, Hayakawa, and the pacifists Muste, Gilmore, Pickett, Meacham and Pickus. The Committees of Correspondence formed: reliance on deterrence "a deep malaise"; for continued abstention from testing, rapprochement with China, economic conversion.'
-    n: '[[w.debenedetti-american-ordeal]], 45. Check: the days. Names: Muste.'
-    src:
-      c: fae854aa
-      rows:
-        - 'w.debenedetti-american-ordeal 45: all'
-    tags: [name:muste-a-j]
-    short: the Committees of Correspondence
   - id: cal.1960-03.cuba-2
     when: Mar., after the 16th
     date: 1960-03

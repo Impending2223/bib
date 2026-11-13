@@ -1915,10 +1915,10 @@ entries:
     when: Aug. 6
     date: '1964-08-06'
     thread: medicare
-    c: 'Finance opens hearings on H.R. 11865, seven working days to Aug. 14: the Gore amendment, King-Anderson; Javits''s. Celebrezze: "hospital care for the aged is much more important . . . than a small increase in benefits." Byrd: both bills would put the tax at 10.4 percent.'
+    c: 'Finance opens hearings on H.R. 11865, seven working days to Aug. 14: the Gore amendment, King-Anderson; Javits''s. Celebrezze: "hospital care for the aged is much more important . . . than a small increase in benefits." Harry Byrd: both bills would put the tax at 10.4 percent.'
     n: 'Daily Digest, [110 Cong. Rec. D396](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=394) (Aug. 6, 1964) (the hearings, Celebrezze). [[w.bernstein-guns-or-butter]], 167. To check: *Social Security: Medical Care for the Aged Amendments*, Hearings, Senate Committee on Finance, 88th Cong., 2d sess. (Aug. 6–14, 1964), 65, 73–74 (cited by [[w.bernstein-guns-or-butter]], 167 n.3). See [[cal.1964-07-29.medicare]]. Names: Gore, Javits, Celebrezze, Byrd.'
     src:
-      c: f90ca918
+      c: 9cb0055a
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=394: A'
         - 'w.bernstein-guns-or-butter 167: all'
@@ -4343,6 +4343,9 @@ entries:
     date: '1964-08-19'
     thread: china
     also: [soviet-union]
+    follows:
+      - cal.1964-08-19.soviet-union-leadership
+    part_of: cal.1964-08-19.soviet-union-leadership-2
     c: 'The Presidium on principles for settling the territorial and border disputes that may arise between socialist countries: the Foreign Ministry and Andropov''s department to draft them.'
     n: '[[w.prezidium-tsk-kpss-1954]], III, 728 (Protocol 155, item II). Made public: 2008. Names: Andropov.'
     src:
@@ -4368,9 +4371,23 @@ entries:
     when: Aug. 19
     date: '1964-08-19'
     thread: soviet-union-leadership
+    part_of: cal.1964-08-19.soviet-union-leadership-2
     c: 'The Presidium, stenographed, the same session as the border principles. Khrushchev on his trip of Aug. 4–18 through the Volga, the Don, the Kuban, Tatarstan, Bashkiria, the virgin lands and Kirghizia: Russia may give 2.4 billion poods of grain, Kazakhstan at least a billion; the production administrations kept, fewer, specialized by branch; farms free to sell vegetables at market below the set prices, talk abroad of a relaxation "Это глупость" (that is nonsense); Sel''khoztekhnika to be reorganized. On prices and the farms'' costs, a clash with Polyansky: "Не суйте в нос. Я человек" (do not shove it in my face; I am a person); Khrushchev: "Я тоже человек" (so am I); "Я не доверяю ... Садитесь на мое место, я на Ваше сяду" (I do not trust you ... take my place, I will take yours). Polyansky: settle it before the plenum? Khrushchev: before, if possible. "Сейчас не будем решать" (we will not decide now).'
     n: 'Protocol 155, item I. [[w.prezidium-tsk-kpss-1954]], I, 828–52 (doc. 314, the uncorrected stenogram; the clash, 838–39); I, 1165 n.1 (the trip, approved by P 155/1). See [[cal.1964-08-19.china]]. Made public: 2003. Names: Khrushchev, Polyansky.'
     tags: [name:khrushchev-nikita-s, name:polyansky-dmitri-s, polity:ussr]
+  - id: cal.1964-08-19.soviet-union-leadership-2
+    when: Aug. 19
+    date: '1964-08-19'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, stenographed, Protocol 155, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Polyansky, Grishin, Efremov; the secretaries Andropov, Demichev, Ilyichev, Polyakov, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 828–52 (doc. 314, the uncorrected stenogram); III, 728–29 (P 155/I and II); III, 1051 nn.1–2 (those present; the stenogram of both items, not of the first alone as vol. I has it). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Polyansky, Andropov, Demichev, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:polyansky-dmitri-s, name:andropov-yuriy-vladimirovich, name:demichev-pyotr-n, name:shelepin-aleksandr-n]
+    time_range:
+      - 1964-08-19T06:00Z
+      - 1964-08-19T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1964-08-20.poverty
     when: Aug. 20
     date: '1964-08-20'

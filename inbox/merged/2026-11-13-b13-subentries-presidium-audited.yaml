@@ -1,0 +1,483 @@
+patch: 2026-11-13-b13-subentries-presidium
+by: 'Claude (worker B, batch 13: the Presidium''s sessions made into parent entries and subentries), Nov. 13, 2026; audited by Claude (Opus), Nov. 13, 2026: notes/book-checks/prezidium-tsk-kpss-1954.md, "Audit, Nov. 13"'
+ops:
+- add:
+    entry:
+      id: cal.1960-01-08.soviet-union-leadership
+      when: Jan. 8
+      date: '1960-01-08'
+      thread: soviet-union-leadership
+      time_range: ['1960-01-08T06:00Z', '1960-01-08T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 258, continued. Present: Aristov, Brezhnev, Voroshilov, Ignatov, Kirichenko, Kozlov, Kuusinen, Mikoyan, Furtseva, Shvernik, Kosygin, Polyansky, Pospelov.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 419 (Protocol 258, continued, Malin''s notes; the sitting''s date pencilled in over a typed "7"); I, 1069 n.17 (five present: Aristov, Belyaev, Brezhnev, Voroshilov, Ignatov); III, 71–74; III, 975 n.5 (those present). Names: Aristov, Brezhnev, Voroshilov, Ignatov, Kirichenko, Kozlov, Kuusinen, Mikoyan, Furtseva, Shvernik, Kosygin, Polyansky.'
+      tags: [name:aristov-averky-b, name:brezhnev-leonid, name:voroshilov-kliment-e, name:ignatov-nikolai-g, name:kirichenko-aleksei-i, name:kozlov-frol-r, name:kuusinen-otto-v, name:mikoyan-anastas, name:furtseva-yekaterina-a, name:shvernik-nikolai-m, name:kosygin-aleksei, name:polyansky-dmitri-s]
+- edit:
+    id: cal.1960-01-08.soviet-union
+    base: 249896bb
+    set:
+      part_of: cal.1960-01-08.soviet-union-leadership
+- edit:
+    id: cal.1960-01-08.soviet-union-2
+    base: 42ddbaa3
+    set:
+      part_of: cal.1960-01-08.soviet-union-leadership
+      follows:
+      - cal.1960-01-08.soviet-union
+- add:
+    entry:
+      id: cal.1961-04-06.soviet-union-leadership
+      when: Apr. 6
+      date: '1961-04-06'
+      thread: soviet-union-leadership
+      time_range: ['1961-04-06T06:00Z', '1961-04-06T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 323, Khrushchev presiding. Present: Brezhnev, Ignatov, Kozlov, Kosygin, Kuusinen, Mukhitdinov, Polyansky, Furtseva, Shvernik, Voronov, Grishin, Pospelov.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, Malin''s notes: a matter outside the protocol, then item VI); I, 1087 n.1 (those present, Kozlov not among them); III, 161 (P 323/VI); III, 988 n.1 (those present). Names: Khrushchev, Brezhnev, Ignatov, Kozlov, Kosygin, Kuusinen, Mukhitdinov, Polyansky, Furtseva, Shvernik, Voronov.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:ignatov-nikolai-g, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mukhitdinov-nuritdin-a, name:polyansky-dmitri-s, name:furtseva-yekaterina-a, name:shvernik-nikolai-m, name:voronov-gennady-i]
+- edit:
+    id: cal.1961-04-06.soviet-union
+    base: 8ce1c59f
+    set:
+      part_of: cal.1961-04-06.soviet-union-leadership
+- edit:
+    id: cal.1961-04-06.soviet-union-2
+    base: 2df19e59
+    set:
+      part_of: cal.1961-04-06.soviet-union-leadership
+      follows:
+      - cal.1961-04-06.soviet-union
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, item VI, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 161 (P 323/VI: Kozlov and Shvernik to look into the Party Control Committee; nothing of Boitsov''s posting). Made public: 2003. Names: Khrushchev, Kozlov.'
+- add:
+    entry:
+      id: cal.1962-05-11.soviet-union-leadership-2
+      when: May 11
+      date: '1962-05-11'
+      thread: soviet-union-leadership
+      time_range: ['1962-05-11T06:00Z', '1962-05-11T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 30, continued from May 9, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Podgorny, Polyansky, Suslov, Shvernik, Grishin; the secretaries Demichev, Ponomarev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 555 (Protocol 30, continued, the sitting of May 11, Malin''s notes: item XXXIX); I, 1099 n.4 (those present); III, 282 (P 30/XXXIX); III, 1000 n.3 (those present, Voronov for Kirilenko); I, 1100 n.2 (the editors: the letter to Castro approved by the Presidium May 11). Names: Khrushchev, Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Podgorny, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mikoyan-anastas, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1962-05-11.soviet-union-3
+    base: f6304e62
+    set:
+      part_of: cal.1962-05-11.soviet-union-leadership-2
+- edit:
+    id: cal.1962-05-11.soviet-union-2
+    base: 9556c8ee
+    set:
+      part_of: cal.1962-05-11.soviet-union-leadership-2
+- check:
+    id: cal.1962-05-11.soviet-union-leadership
+    text: 'Check: the sitting; vol. III''s notes file P 30/XII with the sitting of May 9 and give Malin''s heading for it as item XXXIII, the KGB''s note (III, 999–1000 nn.1–2; I, 554); the resolution bears the protocol''s date, May 11.'
+- add:
+    entry:
+      id: cal.1962-05-31.soviet-union-leadership-2
+      when: May 31
+      date: '1962-05-31'
+      thread: soviet-union-leadership
+      time_range: ['1962-05-31T06:00Z', '1962-05-31T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 33, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Shvernik; the secretaries Demichev, Ilyichev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 557–67 (Protocol 33, Malin''s notes of item II and its stenogram); I, 1101 n.1 (those present); III, 258–78 (P 33/I and the letter), 282–83 (P 33/II); III, 1000 n.1 (those present). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1962-05-31.soviet-union-leadership
+    base: 5ae2ad17
+    set:
+      part_of: cal.1962-05-31.soviet-union-leadership-2
+- edit:
+    id: cal.1962-05-31.soviet-union
+    base: 28ce0748
+    set:
+      part_of: cal.1962-05-31.soviet-union-leadership-2
+      follows:
+      - cal.1962-05-31.soviet-union-leadership
+- add:
+    entry:
+      id: cal.1962-06-10.soviet-union-leadership-2
+      when: June 10
+      date: '1962-06-10'
+      thread: soviet-union-leadership
+      time_range: ['1962-06-10T06:00Z', '1962-06-10T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 35, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Rashidov, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Malinovsky, Grechko, Chuikov, Biryuzov, Zakharov, Epishev, Gromyko, S. P. Ivanov.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 567–68 (Protocol 35, Malin''s notes and his list of those present); III, 283 (P 35/I and II); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Demichev, Ponomarev, Shelepin, Malinovsky, Grechko, Zakharov, Gromyko.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:malinovsky-rodion-y, name:grechko-andrei-a, name:zakharov-matvei-vasileevich, name:gromyko-andrei]
+- edit:
+    id: cal.1962-06-10.soviet-union-leadership
+    base: b3bbad72
+    set:
+      part_of: cal.1962-06-10.soviet-union-leadership-2
+- edit:
+    id: cal.1962-06-10.missile-crisis
+    base: 8e5710bf
+    set:
+      part_of: cal.1962-06-10.soviet-union-leadership-2
+      follows:
+      - cal.1962-06-10.soviet-union-leadership
+- add:
+    entry:
+      id: cal.1962-07-01.soviet-union-leadership-2
+      when: July 1
+      date: '1962-07-01'
+      thread: soviet-union-leadership
+      time_range: ['1962-07-01T06:00Z', '1962-07-01T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session at Ogarevo, Protocol 39, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ilyichev, Ponomarev, Shelepin, Grishin, Gromyko, Malin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39, Malin''s notes and his list of those present); III, 284–87 (P 39/II, III and XVII; XIII''s note not printed); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin, Gromyko.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei]
+- edit:
+    id: cal.1962-07-01.berlin-and-vienna
+    base: a0ab39b9
+    set:
+      part_of: cal.1962-07-01.soviet-union-leadership-2
+- edit:
+    id: cal.1962-07-01.soviet-union
+    base: c286d1e2
+    set:
+      part_of: cal.1962-07-01.soviet-union-leadership-2
+      follows:
+      - cal.1962-07-01.berlin-and-vienna
+- edit:
+    id: cal.1962-07-01.soviet-union-leadership
+    base: 8810a45b
+    set:
+      part_of: cal.1962-07-01.soviet-union-leadership-2
+      follows:
+      - cal.1962-07-01.soviet-union
+- add:
+    entry:
+      id: cal.1962-07-06.soviet-union-leadership-2
+      when: July 6
+      date: '1962-07-06'
+      thread: soviet-union-leadership
+      time_range: ['1962-07-06T06:00Z', '1962-07-06T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 40, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 570–71 (Protocol 40, Malin''s notes); I, 1103 n.1 (those present); III, 287–310 (P 40/III and its materials; the heading of Malin''s note on Cuba, 310); III, 1002–03 nn.1, 5 (those present; on Cuba no decision, none in the signed protocol). Names: Khrushchev, Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n]
+- edit:
+    id: cal.1962-07-06.soviet-union-leadership
+    base: b144ea32
+    set:
+      part_of: cal.1962-07-06.soviet-union-leadership-2
+- edit:
+    id: cal.1962-07-06.missile-crisis
+    base: 5aee4895
+    set:
+      part_of: cal.1962-07-06.soviet-union-leadership-2
+      follows:
+      - cal.1962-07-06.soviet-union-leadership
+- add:
+    entry:
+      id: cal.1962-07-12.soviet-union-leadership-2
+      when: July 12
+      date: '1962-07-12'
+      thread: soviet-union-leadership
+      time_range: ['1962-07-12T06:00Z', '1962-07-12T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 41, Khrushchev presiding. Present: Kirilenko, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 571–72 (Protocol 41, Malin''s notes); I, 1104 n.1 (those present); III, 310–11 (P 41/I and II); III, 1003 nn.1, 5 (those present; the advisers sent by poll, July 27). Names: Khrushchev, Kirilenko, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:kirilenko-andrei-p, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1962-07-12.soviet-union-leadership
+    base: 912027c5
+    set:
+      part_of: cal.1962-07-12.soviet-union-leadership-2
+- edit:
+    id: cal.1962-07-12.cuba
+    base: 765a5b0a
+    set:
+      part_of: cal.1962-07-12.soviet-union-leadership-2
+      follows:
+      - cal.1962-07-12.soviet-union-leadership
+- check:
+    id: cal.1962-07-12.cuba
+    text: 'Check: the sending; P 41/II of July 12 asks only for proposals, and the resolution sending the advisers was adopted by poll July 27, 1962 (III, 1003 n.5).'
+- add:
+    entry:
+      id: cal.1962-10-12.soviet-union-leadership
+      when: Oct. 12
+      date: '1962-10-12'
+      thread: soviet-union-leadership
+      time_range: ['1962-10-12T06:00Z', '1962-10-12T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 58, continued from Oct. 11, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Ilyichev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 596–616 (Protocol 58, continued, Malin''s notes, 596–97; the uncorrected stenogram of items I, III and IV, 597–616); I, 1107 n.6 (those present); III, 318–35 (P 58/I, III and IV); III, 1006–07 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1962-10-12.soviet-union-2
+    base: ede480d1
+    set:
+      part_of: cal.1962-10-12.soviet-union-leadership
+- edit:
+    id: cal.1962-10-12.soviet-union
+    base: 2d6456ef
+    set:
+      part_of: cal.1962-10-12.soviet-union-leadership
+      follows:
+      - cal.1962-10-12.soviet-union-2
+- add:
+    entry:
+      id: cal.1962-10-22.soviet-union-leadership
+      when: Oct. 22–23
+      date: '1962-10-22'
+      thread: soviet-union-leadership
+      follows:
+      - cal.1962-10-22.intelligence-2
+      c: 'The Presidium in session, Protocol 60, Khrushchev presiding, past midnight into Oct. 23. Present: Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 617–19 (Protocol 60, Malin''s notes and his list of those present; Kennedy''s letter received, 619); III, 339–51 (P 60/I and IV, dated Oct. 23); III, 1008–10 nn.1, 8, 14 (Khrushchev presiding; Kennedy''s letter handed over at 1 a.m. Moscow time, Oct. 23; item IV taken at "the session of Oct. 23"). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1962-10-22.soviet-union
+    base: 87fe7e82
+    set:
+      part_of: cal.1962-10-22.soviet-union-leadership
+    unset:
+    - follows
+- edit:
+    id: cal.1962-10-22.missile-crisis
+    base: d7b34f49
+    set:
+      follows:
+      - cal.1962-10-22.soviet-union-leadership
+      - cal.1962-10-22.missile-crisis-6
+      - cal.1962-10-22.missile-crisis-10
+      - cal.1962-10-22.missile-crisis-11
+      - cal.1962-10-22.missile-crisis-13
+      - cal.1962-10-22.missile-crisis-15
+      - cal.1962-10-22.missile-crisis-18
+- edit:
+    id: cal.1962-10-22.soviet-union-3
+    base: 3cca8586
+    set:
+      part_of: cal.1962-10-22.soviet-union-leadership
+      follows:
+      - cal.1962-10-22.soviet-union
+- add:
+    entry:
+      id: cal.1962-10-25.soviet-union-leadership
+      when: Oct. 25
+      date: '1962-10-25'
+      thread: soviet-union-leadership
+      time_range: ['1962-10-25T06:00Z', '1962-10-25T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      follows:
+      - cal.1962-10-25.missile-crisis-2
+      c: 'The Presidium in session, Protocol 61, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Gromyko, Kuznetsov.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 620–22 (Protocol 61, Malin''s notes and his list of those present, 620–21; Serov''s record of item I, with its list, 621–22); III, 355–67 (P 61/I–IV and VI; P 61/IV by poll); III, 1010 n.1 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Kuznetsov.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:kuznetsov-vasily-v]
+- edit:
+    id: cal.1962-10-25.soviet-union
+    base: 36728eaf
+    set:
+      part_of: cal.1962-10-25.soviet-union-leadership
+    unset:
+    - follows
+- edit:
+    id: cal.1962-10-25.missile-crisis-diplomacy-4
+    base: 4b93d73e
+    set:
+      part_of: cal.1962-10-25.soviet-union-leadership
+      follows:
+      - cal.1962-10-25.soviet-union
+- edit:
+    id: cal.1962-10-25.missile-crisis-diplomacy
+    base: 149ce489
+    set:
+      part_of: cal.1962-10-25.soviet-union-leadership
+      follows:
+      - cal.1962-10-25.missile-crisis-diplomacy-4
+- add:
+    entry:
+      id: cal.1962-10-28.soviet-union-leadership
+      when: Oct. 28
+      date: '1962-10-28'
+      thread: soviet-union-leadership
+      time_range: ['1962-10-28T06:00Z', '1962-10-28T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 63, in two sittings, Khrushchev presiding. Present at the first: Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, S. Ivanov, Malin. At the second: Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Brezhnev, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 624–25 (Protocol 63, Malin''s notes and his two lists of those present); III, 374–92 (P 63/I–VII and IX); III, 1013–14 nn.1, 17 (Khrushchev presiding; P 63/III, IV, VI and VII taken with item III, at the second sitting). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, Polyansky.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:kuusinen-otto-v, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:malinovsky-rodion-y, name:zakharov-matvei-vasileevich, name:polyansky-dmitri-s]
+- edit:
+    id: cal.1962-10-28.soviet-union
+    base: aa522f62
+    set:
+      part_of: cal.1962-10-28.soviet-union-leadership
+- edit:
+    id: cal.1962-10-28.missile-crisis-anadyr
+    base: 200707cb
+    set:
+      part_of: cal.1962-10-28.soviet-union-leadership
+      follows:
+      - cal.1962-10-28.soviet-union
+- edit:
+    id: cal.1962-10-28.missile-crisis-diplomacy
+    base: 97f92b06
+    set:
+      part_of: cal.1962-10-28.soviet-union-leadership
+      follows:
+      - cal.1962-10-28.missile-crisis-anadyr
+- edit:
+    id: cal.1962-10-28.missile-crisis-4
+    base: 683c4ac3
+    set:
+      part_of: cal.1962-10-28.soviet-union-leadership
+      follows:
+      - cal.1962-10-28.missile-crisis-diplomacy
+- edit:
+    id: cal.1962-10-28.missile-crisis
+    base: 3afc5ea0
+    set:
+      follows:
+      - cal.1962-10-28.soviet-union-leadership
+- add:
+    entry:
+      id: cal.1962-11-21.soviet-union-leadership-2
+      when: Nov. 21
+      date: '1962-11-21'
+      thread: soviet-union-leadership
+      time_range: ['1962-11-21T06:00Z', '1962-11-21T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 68, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Demichev, Ilyichev, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 646–47 (Protocol 68, Malin''s notes, headed "item II": the instructions to the ambassador in Laos, unnumbered; V, the instructions to Mikoyan, Gromyko reading); I, 1115 n.1 (those present); III, 399–403 (P 68/II, Nov. 21; P 68/V, Nov. 22); III, 1015 nn.1–3 (those present; the Laos decision not in the protocol). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Mazurov, Demichev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:mazurov-kirill-t, name:demichev-pyotr-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1962-11-21.laos
+    base: a7a414f4
+    set:
+      part_of: cal.1962-11-21.soviet-union-leadership-2
+- edit:
+    id: cal.1962-11-21.soviet-union-leadership
+    base: 3ae3fbf9
+    set:
+      part_of: cal.1962-11-21.soviet-union-leadership-2
+      follows:
+      - cal.1962-11-21.laos
+- add:
+    entry:
+      id: cal.1963-03-12.soviet-union-leadership-2
+      when: Mar. 12
+      date: '1963-03-12'
+      thread: soviet-union-leadership
+      time_range: ['1963-03-12T06:00Z', '1963-03-12T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, in its hall, Protocol 87, Khrushchev presiding. Present: Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Rashidov, Mazurov, Mzhavanadze, Shcherbitsky, Efremov; the secretaries Demichev, Ilyichev, Ponomarev, Andropov, Rudakov, Shelepin; Serdyuk of the Party Commission.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 700 (Protocol 87, Malin''s notes); I, 1130 n.1 (those present); III, 452–64 (Protocol 87, dated Mar. 13: P 87/I and 50); III, 1023 n.1 (those present, Serdyuk not among them). Names: Khrushchev, Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Demichev, Ponomarev, Andropov, Shelepin. Check: the day, Mar. 12 in Malin''s notes, Mar. 13 in vol. III.'
+      tags: [name:khrushchev-nikita-s, name:kosygin-aleksei, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kuusinen-otto-v, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:demichev-pyotr-n, name:ponomarev-boris-n, name:andropov-yuriy-vladimirovich, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1963-03-12.soviet-union-leadership
+    base: f166b877
+    set:
+      part_of: cal.1963-03-12.soviet-union-leadership-2
+- edit:
+    id: cal.1963-03-12.china
+    base: 0dd076e0
+    set:
+      part_of: cal.1963-03-12.soviet-union-leadership-2
+      follows:
+      - cal.1963-03-12.soviet-union-leadership
+- add:
+    entry:
+      id: cal.1963-11-26.soviet-union-leadership
+      when: Nov. 26
+      date: '1963-11-26'
+      thread: soviet-union-leadership
+      time_range: ['1963-11-26T06:00Z', '1963-11-26T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 125. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Podgorny, Polyansky, Khrushchev, Shvernik, Grishin, Andropov, Demichev, Polyakov, Ponomarev, Rudakov, Titov, Gromyko, Semichastny, Ustinov, Serdyuk.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 779–80 (Protocol 125, Malin''s notes and his list of those present); III, 614–22 (the protocol, dated Dec. 4); III, 1041–42 n.1 (the protocol of Dec. 4 takes in the decisions of Nov. 22–28 and Dec. 4). Names: Brezhnev, Voronov, Kirilenko, Kosygin, Podgorny, Polyansky, Khrushchev, Shvernik, Andropov, Demichev, Ponomarev, Gromyko, Ustinov. Check: the day, Nov. 26 in Malin''s notes, Dec. 4 for the protocol in vol. III.'
+      tags: [name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:khrushchev-nikita-s, name:shvernik-nikolai-m, name:andropov-yuriy-vladimirovich, name:demichev-pyotr-n, name:ponomarev-boris-n, name:gromyko-andrei, name:ustinov-dmitriy-f]
+- edit:
+    id: cal.1963-11-26.soviet-union-2
+    base: 6e7f79b9
+    set:
+      part_of: cal.1963-11-26.soviet-union-leadership
+- edit:
+    id: cal.1963-11-26.soviet-union-3
+    base: f0f752f8
+    set:
+      part_of: cal.1963-11-26.soviet-union-leadership
+      follows:
+      - cal.1963-11-26.soviet-union-2
+- add:
+    entry:
+      id: cal.1963-12-23.soviet-union-leadership-2
+      when: Dec. 23
+      date: '1963-12-23'
+      thread: soviet-union-leadership
+      time_range: ['1963-12-23T06:00Z', '1963-12-23T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, Protocol 126, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Podgorny, Polyansky, Shvernik, Efremov; the secretaries Andropov, Demichev, Ilyichev, Polyakov, Ponomarev, Rudakov, Titov, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 781–819 (Protocol 126, Malin''s notes, 781–83; the stenogram, 783–819); I, 1155 n.1 (those present); III, 622–33 (P 126); III, 1045 n.1 (those present). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Podgorny, Polyansky, Shvernik, Andropov, Demichev, Ponomarev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:shvernik-nikolai-m, name:andropov-yuriy-vladimirovich, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1963-12-23.soviet-union-leadership
+    base: 09957612
+    set:
+      part_of: cal.1963-12-23.soviet-union-leadership-2
+- edit:
+    id: cal.1963-12-23.soviet-union
+    base: 3b85f79b
+    set:
+      part_of: cal.1963-12-23.soviet-union-leadership-2
+      follows:
+      - cal.1963-12-23.soviet-union-leadership
+- add:
+    entry:
+      id: cal.1964-08-19.soviet-union-leadership-2
+      when: Aug. 19
+      date: '1964-08-19'
+      thread: soviet-union-leadership
+      time_range: ['1964-08-19T06:00Z', '1964-08-19T14:00Z']
+      time_band: workday daytime
+      time_zone: Europe/Moscow
+      range_basis: kind
+      c: 'The Presidium in session, stenographed, Protocol 155, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Polyansky, Grishin, Efremov; the secretaries Andropov, Demichev, Ilyichev, Polyakov, Shelepin.'
+      n: '[[w.prezidium-tsk-kpss-1954]], I, 828–52 (doc. 314, the uncorrected stenogram); III, 728–29 (P 155/I and II); III, 1051 nn.1–2 (those present; the stenogram of both items, not of the first alone as vol. I has it). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Polyansky, Andropov, Demichev, Shelepin.'
+      tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:polyansky-dmitri-s, name:andropov-yuriy-vladimirovich, name:demichev-pyotr-n, name:shelepin-aleksandr-n]
+- edit:
+    id: cal.1964-08-19.soviet-union-leadership
+    base: 7b498b10
+    set:
+      part_of: cal.1964-08-19.soviet-union-leadership-2
+- edit:
+    id: cal.1964-08-19.china
+    base: c494306e
+    set:
+      part_of: cal.1964-08-19.soviet-union-leadership-2
+      follows:
+      - cal.1964-08-19.soviet-union-leadership

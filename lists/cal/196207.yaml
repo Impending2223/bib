@@ -27,9 +27,10 @@ entries:
     when: July 1
     date: '1962-07-01'
     thread: berlin-and-vienna
-    also: [soviet-union, missile-crisis]
+    also: [soviet-union, missile-crisis, defense]
+    part_of: cal.1962-07-01.soviet-union-leadership-2
     c: 'The Presidium, Mikoyan absent, before Raúl Castro''s visit. Khrushchev renews the push on West Berlin: on a peace treaty the Western garrisons halved, under the UN flag; in two years replaced by non-Western UN troops; in six, all out; "An international organ is unacceptable"; even by "aggravating things." Against McNamara''s Ann Arbor speech: "Not targeting cities—how aggressive! . . . To get the population used to the idea that nuclear war will take place." The UN to take up Germany in a crisis once the missiles are in Cuba in November. The Soviet–Cuban defense agreement approved; Anadyr shipped by Nov. 1.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39); [[w.prezidium-tsk-kpss-1954]], III, 284–85 (P 39/II and III: Khrushchev''s view on further proposals on Berlin agreed; the proposals for the talks with the Cubans approved; not their terms). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39); [[w.prezidium-tsk-kpss-1954]], III, 284–85 (P 39/II and III: Khrushchev''s view on further proposals on Berlin agreed; the proposals for the talks with the Cubans approved; not their terms); [[w.poole-joint-chiefs-of-staff]], 31–32 (Khrushchev on McNamara''s Ann Arbor speech; see [[cal.1962-06-16.defense]]). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
     src:
       c: f23606d8
       rows:
@@ -39,7 +40,9 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 569–70: B-G, I-J'
         - 'via x.1962-07-01.presidium-protocol-39: B-G, I-J'
         - 'w.prezidium-tsk-kpss-1954 III, 284–85: ?'
-    tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul]
+        - 'w.poole-joint-chiefs-of-staff 31–32: G'
+    tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul, vis:only:ussr]
+    aliases: [cal.1962-07-01.soviet-union]
     time_range:
       - 1962-07-01T06:00Z
       - 1962-07-01T14:00Z
@@ -66,33 +69,29 @@ entries:
       c: f5925a87
       rows:
         - 'w.asselin-hanois-road-to-the 127–28: all'
-  - id: cal.1962-07-01.soviet-union
+  - id: cal.1962-07-01.soviet-union-leadership
     when: July 1
     date: '1962-07-01'
     thread: soviet-union-leadership
-    also: [defense]
-    c: 'The Presidium. Khrushchev on McNamara''s Ann Arbor speech: "Not targeting cities — how aggressive! What is their aim?"'
-    n: '[[w.poole-joint-chiefs-of-staff]], 31–32; [[w.prezidium-tsk-kpss-1954]], I, 569 (Protocol 39). To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
-    src:
-      c: 707bd4f2
-      rows:
-        - 'w.poole-joint-chiefs-of-staff 31–32: all'
-        - 'w.prezidium-tsk-kpss-1954 I, 569: all'
-        - 'via x.1962-07-01.presidium-protocol-39: all'
-    tags: [name:khrushchev-nikita-s, name:mcnamara-robert-s]
+    follows:
+      - cal.1962-07-01.berlin-and-vienna
+    part_of: cal.1962-07-01.soviet-union-leadership-2
+    c: 'The Presidium at Ogarevo, the same session as Berlin and Cuba, on the KGB''s note of June 26: Moskalenko to be called in and dressed down before the marshals; Colonel Yuferov to be tried in closed court. The Leningrad party''s and sovnarkhoz''s note on the leading works and design bureaus: Brezhnev and Kirilenko to look into it.'
+    n: 'Protocol 39, items XIII and XVII. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 254, Malin''s notes); III, 285–87 (doc. 254.2, the KGB''s note, not printed; P 39/XVII and the note of Tolstikov and Antonov). See [[cal.1962-07-01.berlin-and-vienna]], [[cal.1962-07-01.berlin-and-vienna]]. Made public: 2003. Names: Moskalenko, Yuferov, Brezhnev, Kirilenko.'
+    tags: [name:brezhnev-leonid, name:kirilenko-andrei-p, polity:ussr]
+  - id: cal.1962-07-01.soviet-union-leadership-2
+    when: July 1
+    date: '1962-07-01'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session at Ogarevo, Protocol 39, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ilyichev, Ponomarev, Shelepin, Grishin, Gromyko, Malin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39, Malin''s notes and his list of those present); III, 284–87 (P 39/II, III and XVII; XIII''s note not printed); III, 1001 n.1 (Khrushchev presiding). Check: Mikoyan among those present by Malin''s list (I, 569–70); absent by Fursenko and Naftali, 440 ([[cal.1962-07-01.berlin-and-vienna]]). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin, Gromyko.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei]
     time_range:
       - 1962-07-01T06:00Z
       - 1962-07-01T14:00Z
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
-  - id: cal.1962-07-01.soviet-union-leadership
-    when: July 1
-    date: '1962-07-01'
-    thread: soviet-union-leadership
-    c: 'The Presidium at Ogarevo, the same session as Berlin and Cuba, on the KGB''s note of June 26: Moskalenko to be called in and dressed down before the marshals; Colonel Yuferov to be tried in closed court. The Leningrad party''s and sovnarkhoz''s note on the leading works and design bureaus: Brezhnev and Kirilenko to look into it.'
-    n: 'Protocol 39, items XIII and XVII. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 254, Malin''s notes); III, 285–87 (doc. 254.2, the KGB''s note, not printed; P 39/XVII and the note of Tolstikov and Antonov). See [[cal.1962-07-01.berlin-and-vienna]], [[cal.1962-07-01.soviet-union]]. Made public: 2003. Names: Moskalenko, Yuferov, Brezhnev, Kirilenko.'
-    tags: [name:brezhnev-leonid, name:kirilenko-andrei-p, polity:ussr]
   - id: cal.1962-07-02.republican-party
     when: July 2
     date: '1962-07-02'
@@ -200,7 +199,7 @@ entries:
       c: 129ff569
       rows:
         - 'w.fursenko-khrushchevs-cold-war 444: all'
-    tags: [name:castro-raul, name:khrushchev-nikita-s]
+    tags: [name:castro-raul, name:khrushchev-nikita-s, vis:only:ussr+cuba]
     time_range:
       - 1962-07-03T06:00Z
       - 1962-07-03T14:00Z
@@ -329,10 +328,10 @@ entries:
     when: July 6
     date: '1962-07-06'
     thread: economy
-    c: 'The Chamber of Commerce''s committee on taxation, Plumley its chairman, answers Byrd, who had called its proposal of June 29 "fiscal irresponsibility": "To await the day when spending is cut, as propitious for reducing tax rates, may be to wait in vain."'
+    c: 'The Chamber of Commerce''s committee on taxation, Plumley its chairman, answers Harry Byrd, who had called its proposal of June 29 "fiscal irresponsibility": "To await the day when spending is cut, as propitious for reducing tax rates, may be to wait in vain."'
     n: '[[w.stein-fiscal-revolution-in-america]], 418. To check: Chamber of Commerce of the United States, News Service, release of July 6, 1962 (cited by [[w.stein-fiscal-revolution-in-america]], 418 n.56). Check: the day of Byrd''s charge, and his letters to Plumley. See [[cal.1962-06-29.economy]]. Names: Byrd.'
     src:
-      c: ea4fb070
+      c: 4ca9303d
       rows:
         - 'w.stein-fiscal-revolution-in-america 418: all'
         - 'via w.stein-fiscal-revolution-in-america 418 n.56: all'
@@ -348,6 +347,9 @@ entries:
     date: '1962-07-06'
     thread: missile-crisis-anadyr
     also: [soviet-union, cuba]
+    follows:
+      - cal.1962-07-06.soviet-union-leadership
+    part_of: cal.1962-07-06.soviet-union-leadership-2
     c: 'The Presidium, after Khrushchev''s first meeting with Raúl Castro, July 3: at the Cubans'' and General Dementyev''s urging, the "defensive" weapons, the SAMs, to go first, all in July; the strategic missiles after, their shipments delayed for want of ships. All still to be done by Nov. 1.'
     n: '[[w.fursenko-khrushchevs-cold-war]], 444–45; [[w.prezidium-tsk-kpss-1954]], I, 571 (Protocol 40); [[w.prezidium-tsk-kpss-1954]], III, 310 (doc. 255.1, "Вопросы по Кубе" (questions on Cuba): the heading of Malin''s note only). Check: the protocol (I, 571) has Pliev to command, the defensive means first, then the others, and Kennedy''s and Rusk''s Independence Day speeches to be answered; nothing of the Cubans'' or Dementyev''s urging, or of the ships. See [[cal.1962-07.missile-crisis]]. Names: Khrushchev, Raúl Castro.'
     src:
@@ -358,7 +360,7 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 571: A-B'
         - 'via x.1962-07-06.presidium-protocol-40: A-B'
         - 'w.prezidium-tsk-kpss-1954 III, 310: ?'
-    tags: [name:khrushchev-nikita-s, name:castro-raul]
+    tags: [name:khrushchev-nikita-s, name:castro-raul, vis:only:ussr]
     time_range:
       - 1962-07-06T06:00Z
       - 1962-07-06T14:00Z
@@ -415,9 +417,23 @@ entries:
     when: July 6
     date: '1962-07-06'
     thread: soviet-union-leadership
+    part_of: cal.1962-07-06.soviet-union-leadership-2
     c: 'The Presidium, the same session as Cuba, on research in biology, Khrushchev, Keldysh and Olshansky speaking: the direction right; the draft to be thoroughly redone, "abroad" and "if only" thrown out; Zhebrak published an article in the United States against Lysenko; not to be drafted bureaucratically. A commission, Lysenko on it, to bring new proposals.'
     n: 'Protocol 40, item III. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 255, Malin''s notes); III, 287–310 (P 40/III, the drafts and the Elyutin commission''s note). See [[cal.1962-07-06.missile-crisis]]. Made public: 2003. Names: Keldysh, Olshansky, Khrushchev, Zhebrak, Lysenko.'
     tags: [name:khrushchev-nikita-s, polity:ussr, polity:us, name:keldysh-mstislav-v]
+  - id: cal.1962-07-06.soviet-union-leadership-2
+    when: July 6
+    date: '1962-07-06'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 40, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 570–71 (Protocol 40, Malin''s notes); I, 1103 n.1 (those present); III, 287–310 (P 40/III and its materials; the heading of Malin''s note on Cuba, 310); III, 1002–03 nn.1, 5 (those present; on Cuba no decision, none in the signed protocol). Names: Khrushchev, Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n]
+    time_range:
+      - 1962-07-06T06:00Z
+      - 1962-07-06T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-07-07.missile-crisis
     when: July 7
     date: '1962-07-07'
@@ -433,7 +449,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 192 n.36: B'
         - 'via w.fursenko-one-hell-of-a 193 n.42a: C'
         - 'via w.fursenko-one-hell-of-a 193 n.42b: C'
-    tags: [name:khrushchev-nikita-s, name:castro-raul]
+    tags: [name:khrushchev-nikita-s, name:castro-raul, vis:only:ussr]
     time_range:
       - 1962-07-07T06:00Z
       - 1962-07-07T14:00Z
@@ -451,7 +467,7 @@ entries:
       c: 9f60b3ed
       rows:
         - 'w.fursenko-khrushchevs-cold-war 444: all'
-    tags: [name:castro-raul, name:khrushchev-nikita-s]
+    tags: [name:castro-raul, name:khrushchev-nikita-s, vis:only:ussr+cuba]
     time_range:
       - 1962-07-08T06:00Z
       - 1962-07-08T14:00Z
@@ -520,29 +536,25 @@ entries:
     tags: [name:kennedy-john-f]
     short: Telstar
   - id: cal.1962-07-10.albany
-    when: July 10–12
+    when: July 10
     date: '1962-07-10'
     thread: georgia-albany
     also: [king]
-    c: King and Abernathy choose jail over fines. Out July 12, the fines paid by an unnamed hand.
-    n: 'SCLC, "Press Release, King and Abernathy Choose Jail Time over Fine," July 10, 1962, [[w.papers-of-martin-luther-vii]], 510 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/press-release-king-and-abernathy-choose-jail-time-over-fine)). King, [Albany Jail Diary from 10 July 1962 to 11 July 1962](https://okra.stanford.edu/link/document620711-002) (King Papers Project), printed in [[w.papers-of-martin-luther-vii]], 511 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/albany-jail-diary-10-july-11-july-1962)). [[w.garrow-bearing-the-cross]], 201–04; [[w.branch-parting-the-waters]], 600, 606; [[w.young-easy-burden]], 178 (King, Abernathy and Anderson found guilty July 10: forty-five days and $178 each; out after three days, bonded "by parties unknown"). Check: Branch, 600, gives Judge Durden''s sentence, for the arrests of December, $178 or forty-five days, King and Abernathy alike. To check: [[w.abernathy-and-the-walls-came]]; "Statement of Dr. King . . .," July 10, 1962, King Center; *Albany Herald*, July 10, 1962, at 1; [*New York Times*, July 11, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/11/issue.html), at 1; *Atlanta Constitution*, July 11, 1962, at 1; SAC Atlanta to Director, July 10, 1962 (two), FBI file 157-6-2-406, 417 (cited by [[w.garrow-bearing-the-cross]], 203 n.29); *New York Times*, [July 12 at 1](https://timesmachine.nytimes.com/timesmachine/1962/07/12/issue.html) and [July 13, 1962, at 10](https://timesmachine.nytimes.com/timesmachine/1962/07/13/issue.html); trial transcript, vol. 4, 1144 (King''s testimony, Aug. 8, 1962), Albany''s suit against the movement, M.D. Ga., trial record, Middle District of Georgia; *Afro-American*, July 21, 1962, at 1 (cited by [[w.garrow-bearing-the-cross]], 204 n.30). See [[cal.1961-11-17.albany]]. Names: King, Abernathy.'
+    c: King and Abernathy choose jail over fines.
+    n: 'SCLC, "Press Release, King and Abernathy Choose Jail Time over Fine," July 10, 1962, [[w.papers-of-martin-luther-vii]], 510 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/press-release-king-and-abernathy-choose-jail-time-over-fine)). King, [Albany Jail Diary from 10 July 1962 to 11 July 1962](https://okra.stanford.edu/link/document620711-002) (King Papers Project), printed in [[w.papers-of-martin-luther-vii]], 511 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/albany-jail-diary-10-july-11-july-1962)). [[w.garrow-bearing-the-cross]], 201–03; [[w.branch-parting-the-waters]], 600; [[w.young-easy-burden]], 178 (King, Abernathy and Anderson found guilty July 10: forty-five days and $178 each). Check: Branch, 600, gives Judge Durden''s sentence, for the arrests of December, $178 or forty-five days, King and Abernathy alike. To check: [[w.abernathy-and-the-walls-came]]; "Statement of Dr. King . . .," July 10, 1962, King Center; *Albany Herald*, July 10, 1962, at 1; [*New York Times*, July 11, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/11/issue.html), at 1; *Atlanta Constitution*, July 11, 1962, at 1; SAC Atlanta to Director, July 10, 1962 (two), FBI file 157-6-2-406, 417 (cited by [[w.garrow-bearing-the-cross]], 203 n.29). See [[cal.1961-11-17.albany]]. Names: King, Abernathy.'
     src:
-      c: cb4d1fb7
+      c: 3cf2b4cd
       rows:
         - 'https://kinginstitute.stanford.edu/king-papers/documents/press-release-king-and-abernathy-choose-jail-time-over-fine: all'
         - 'https://okra.stanford.edu/link/document620711-002: all'
-        - 'w.garrow-bearing-the-cross 202–04: all'
+        - 'w.garrow-bearing-the-cross 202–03: all'
         - 'via w.garrow-bearing-the-cross 203 n.29a: A'
         - 'via w.garrow-bearing-the-cross 203 n.29b: A'
         - 'via w.garrow-bearing-the-cross 203 n.29c: A'
         - 'via w.garrow-bearing-the-cross 203 n.29d: A'
-        - 'via w.garrow-bearing-the-cross 204 n.30a: B'
-        - 'via w.garrow-bearing-the-cross 204 n.30b: B'
-        - 'via w.garrow-bearing-the-cross 204 n.30c: B'
-        - 'via w.garrow-bearing-the-cross 204 n.30d: B'
-        - 'w.branch-parting-the-waters 600, 606: all'
+        - 'w.branch-parting-the-waters 600: all'
         - 'via w.branch-parting-the-waters 600 n.2: A'
-        - 'w.young-easy-burden 178: A-B'
+        - 'w.young-easy-burden 178: all'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david]
     short: King jailed again
   - id: cal.1962-07-10.medicare
@@ -911,7 +923,7 @@ entries:
     date: '1962-07-12'
     thread: georgia-albany
     c: 'Dawn. Gardner at the jail desk with $356: "Here''s Martin Luther King''s fine. Turn him out." The receipt made out to King and Abernathy. At 7:30 a.m. Pritchett tells them their fines are paid, by "an unidentified, well-dressed Negro male"; they must go.'
-    n: '[[w.branch-parting-the-waters]], 606. To check: interviews: B. C. Gardner, July 11, 1985; James Gray, Jan. 24, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.2); [*New York Times*, July 13, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/13/issue.html), at 10 (cited by [[w.branch-parting-the-waters]], 606 n.3). See [[cal.1962-07-10.albany]]. Names: Martin Luther King, Abernathy.'
+    n: '[[w.branch-parting-the-waters]], 606; [[w.garrow-bearing-the-cross]], 204 (out after three days, the fines paid by an unknown hand; not Gardner, the receipt or the hour); [[w.young-easy-burden]], 178 (out after three days, bonded "by parties unknown"; not Gardner, the receipt or the hour). To check: interviews: B. C. Gardner, July 11, 1985; James Gray, Jan. 24, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.2); [*New York Times*, July 13, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/13/issue.html), at 10 (cited by [[w.branch-parting-the-waters]], 606 n.3); [*New York Times*, July 12, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/12/issue.html), at 1; trial transcript, vol. 4, 1144 (King''s testimony, Aug. 8, 1962), Albany''s suit against the movement, M.D. Ga.; *Afro-American*, July 21, 1962, at 1 (cited by [[w.garrow-bearing-the-cross]], 204 n.30). See [[cal.1962-07-10.albany]]. Names: Martin Luther King, Abernathy.'
     src:
       c: e2508e20
       rows:
@@ -919,6 +931,8 @@ entries:
         - 'via w.branch-parting-the-waters 606 n.2a: A-B'
         - 'via w.branch-parting-the-waters 606 n.2b: A-B'
         - 'via w.branch-parting-the-waters 606 n.3: C'
+        - 'w.garrow-bearing-the-cross 204: ?'
+        - 'w.young-easy-burden 178: ?'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, state:ga, city:albany-ga]
     time_range:
       - 1962-07-12T08:00Z
@@ -980,8 +994,11 @@ entries:
     date: '1962-07-12'
     thread: cuba
     also: [soviet-union]
+    follows:
+      - cal.1962-07-12.soviet-union-leadership
+    part_of: cal.1962-07-12.soviet-union-leadership-2
     c: 'The Presidium sends Cuba a group of economic advisers, not under the ambassador, from Central Asia. Khrushchev: "Outrageous" to give the Cubans a tractor and no farm machines; more advisers; perhaps a hundred or two of the best ships for fishing, five sent. Mikoyan, Rashidov and Shelepin to prepare it.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 572 (Protocol 41, item II, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 311 (P 41/II, "О командировании на Кубу группы советников по экономическим вопросам" (on sending a group of economic advisers to Cuba): Mikoyan, Rashidov and Shelepin to prepare proposals on the exchange of views; not the advisers'' terms). Made public: 2003. See [[cal.1962-07-06.missile-crisis]]. Names: Khrushchev, Mikoyan, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 572 (Protocol 41, item II, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 311 (P 41/II, "О командировании на Кубу группы советников по экономическим вопросам" (on sending a group of economic advisers to Cuba): Mikoyan, Rashidov and Shelepin to prepare proposals on the exchange of views; not the advisers'' terms). Made public: 2003. Check: the sending; P 41/II of July 12 asks only for proposals, and the resolution sending the advisers was adopted by poll July 27, 1962 (III, 1003 n.5). See [[cal.1962-07-06.missile-crisis]]. Names: Khrushchev, Mikoyan, Shelepin.'
     src:
       c: 66d6b2b7
       rows:
@@ -999,9 +1016,23 @@ entries:
     when: July 12
     date: '1962-07-12'
     thread: soviet-union-leadership
+    part_of: cal.1962-07-12.soviet-union-leadership-2
     c: 'The Presidium, the same session as the advisers for Cuba, on the correctives of the plan for 1963–65, Zasyadko, Khrushchev, Dymshits, Korovushkin and Mikoyan speaking: the cuts in meat and milk procurement against the plenum''s decision to be explained; wages and pensions raised without thought; reserves; "Против необдуманных скачков" (against ill-considered leaps); perhaps a ten-year plan; a ministry of power. The draft adopted in the main, to go to the republics.'
     n: 'Protocol 41, item I. [[w.prezidium-tsk-kpss-1954]], I, 571–72 (doc. 256, Malin''s notes); III, 310 (P 41/I). See [[cal.1962-07-12.cuba]]. Made public: 2003. Names: Zasyadko, Khrushchev, Dymshits, Korovushkin, Mikoyan.'
     tags: [name:dymshits-veniamin-e, name:mikoyan-anastas, name:khrushchev-nikita-s, polity:ussr]
+  - id: cal.1962-07-12.soviet-union-leadership-2
+    when: July 12
+    date: '1962-07-12'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 41, Khrushchev presiding. Present: Kirilenko, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 571–72 (Protocol 41, Malin''s notes); I, 1104 n.1 (those present); III, 310–11 (P 41/I and II); III, 1003 nn.1, 5 (those present; the advisers sent by poll, July 27). Names: Khrushchev, Kirilenko, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:kirilenko-andrei-p, name:mikoyan-anastas, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+    time_range:
+      - 1962-07-12T06:00Z
+      - 1962-07-12T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-07-13.laos
     when: July 13
     date: '1962-07-13'
@@ -2232,6 +2263,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 450–51: all'
         - 'via w.fursenko-khrushchevs-cold-war 450 n.42: A'
+    tags: [vis:only:ussr]
   - id: cal.1962-07-25.georgia-albany-2
     when: July 25
     date: '1962-07-25'
@@ -2290,6 +2322,24 @@ entries:
       - 1962-07-25T13:00Z
       - 1962-07-25T21:00Z
     time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
+  - id: cal.1962-07.press-and-broadcasting-2
+    when: July 25
+    date: '1962-07-25'
+    thread: press-and-broadcasting
+    also: [vietnam]
+    c: 'Bigart in the *New York Times*, closing a survey of the war: the insurgency''s destruction a long way off; the Ngôs better at alienating the people than winning them; aid to be reassessed, political reform stressed.'
+    n: '[[w.debenedetti-american-ordeal]], 84; 422 n.9 (the day and page: "NYT, 25 July 1962, 1"). To check: [*New York Times*, July 25, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/25/issue.html), at 1 (cited by [[w.debenedetti-american-ordeal]], 422 n.9). Names: Bigart.'
+    src:
+      c: 75ef1dfa
+      rows:
+        - 'w.debenedetti-american-ordeal 84: all'
+    tags: [name:bigart-homer]
+    time_range:
+      - 1962-07-25T09:00Z
+      - 1962-07-25T12:00Z
+    time_band: early morning
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1962-07-26.economy
@@ -2991,29 +3041,6 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
-  - id: cal.1962-07.press-and-broadcasting-2
-    when: July
-    date: 1962-07
-    thread: press-and-broadcasting
-    also: [vietnam]
-    c: 'Bigart in the *New York Times*, closing a survey of the war: the insurgency''s destruction a long way off; the Ngôs better at alienating the people than winning them; aid to be reassessed, political reform stressed.'
-    n: '[[w.debenedetti-american-ordeal]], 84. Check: the day. Names: Bigart.'
-    src:
-      c: 75ef1dfa
-      rows:
-        - 'w.debenedetti-american-ordeal 84: all'
-    tags: [name:bigart-homer]
-  - id: cal.1962-07.press-and-broadcasting-3
-    when: July
-    date: 1962-07
-    thread: press-and-broadcasting
-    also: [vietnam]
-    c: 'Sully of *Newsweek*, shortly after Bigart''s survey: the war "a losing proposition."'
-    n: '[[w.debenedetti-american-ordeal]], 84. Check: the day.'
-    src:
-      c: 75ce11d7
-      rows:
-        - 'w.debenedetti-american-ordeal 84: all'
   - id: cal.1962-07.robert-kennedy
     when: July
     date: 1962-07

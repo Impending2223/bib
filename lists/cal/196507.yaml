@@ -1470,16 +1470,17 @@ entries:
     time: 1965-07-13T17:00Z
     thread: court
     also: [civil-rights-the-executive, voting-rights]
-    c: 'News conference. Thurgood Marshall, of the Second Circuit, named Solicitor General, the 33d; he leaves the bench. Cox goes back to Massachusetts. Confirmed Aug. 11, without a roll call; sworn Aug. 24. Of his own record on civil rights: "I am going to try to provide all the leadership that I can, notwithstanding the fact that someone may point to a mistake or 100 mistakes that I made in my past."'
-    n: 'The President''s News Conference, [1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209), 742 (July 13, 1965); Remarks at the Swearing In of Judge Thurgood Marshall as Solicitor General, [1965 Pub. Papers 910](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=384) (Aug. 24, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf) (1965). [[w.branch-at-canaans-edge]], 261; [[w.johnson-white-house-diary]], 295–96 (the news conference, watched on television at the Ranch; Thurgood Marshall "the first Negro to hold such a post," Solicitor General; not the circuit or the number). [[w.kotz-judgment-days]], 330 (the answer, after Ford''s charge of inconsistency). To check: [[w.williams-thurgood-marshall]]. Names: Marshall, Cox. Check: the page.'
+    part_of: cal.1965-07-13.press-and-broadcasting
+    c: 'Thurgood Marshall, of the Second Circuit, named Solicitor General, the 33d; he leaves the bench. Cox goes back to Massachusetts. Confirmed Aug. 11, without a roll call; sworn Aug. 24. Of his own record on civil rights: "I am going to try to provide all the leadership that I can, notwithstanding the fact that someone may point to a mistake or 100 mistakes that I made in my past."'
+    n: '[1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209), at 736–37, 742; Remarks at the Swearing In of Judge Thurgood Marshall as Solicitor General, [1965 Pub. Papers 910](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=384) (Aug. 24, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf) (1965). [[w.branch-at-canaans-edge]], 261; [[w.johnson-white-house-diary]], 295–96 (the news conference, watched on television at the Ranch; Thurgood Marshall "the first Negro to hold such a post," Solicitor General; not the circuit or the number). [[w.kotz-judgment-days]], 330 (the answer, after Ford''s charge of inconsistency). To check: [[w.williams-thurgood-marshall]]. Names: Marshall, Cox. Check: the page.'
     src:
-      c: 7a03c9fc
+      c: efaba2c2
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=384: all'
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf: all'
-        - 'w.branch-at-canaans-edge 261: B'
-        - 'w.kotz-judgment-days 330: E'
+        - 'w.branch-at-canaans-edge 261: A'
+        - 'w.kotz-judgment-days 330: F'
         - 'w.johnson-white-house-diary 295–96: A'
     tags: [name:johnson-lyndon-b, name:marshall-thurgood, name:cox-archibald]
   - id: cal.1965-07-13.transportation
@@ -1566,9 +1567,21 @@ entries:
     when: July 13
     date: '1965-07-13'
     thread: transition-and-staff
-    c: 'News conference, watched at the Ranch: Leonard Marks named to head the USIA, replacing Carl Rowan; Penelope Thunberg a Tariff Commissioner. Asked whether Rusk may resign: "None whatever. ... He sits to my right in the Cabinet Room, he ranks first in the Cabinet, and he ranks first with me."'
-    n: '[[w.johnson-white-house-diary]], 295–96 (Mrs. Johnson''s account, from the television). See [[cal.1965-07-13.court]]. To check: 1965 Pub. Papers. Names: Marks, Rowan, Rusk, Johnson, Lady Bird Johnson.'
+    follows:
+      - cal.1965-07-13.court
+    part_of: cal.1965-07-13.press-and-broadcasting
+    c: 'Leonard Marks named to head the USIA, replacing Carl Rowan; Penelope Thunberg a Tariff Commissioner. Asked whether Rusk may resign: "None whatever. ... He sits to my right in the Cabinet room. He ranks first in the Cabinet and he ranks first with me."'
+    n: '[1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209), at 737, 743. [[w.johnson-white-house-diary]], 295–96 (Mrs. Johnson''s account, from the television). See [[cal.1965-07-13.court]]. Check: the answer on Rusk as the diary words it, against the transcript''s. Names: Marks, Rowan, Rusk, Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:marks-leonard-h, name:rowan-carl-t, name:rusk-dean]
+  - id: cal.1965-07-13.press-and-broadcasting
+    when: July 13
+    date: '1965-07-13'
+    time: 1965-07-13T17:00Z
+    thread: press-and-broadcasting
+    c: Johnson's forty-sixth news conference, the East Room, 1 p.m.
+    n: 'The President''s News Conference, [1965 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=209) (July 13, 1965), at 735–44 (the note, 744: the forty-sixth, the place and the hour). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+    time_zone: America/New_York
   - id: cal.1965-07-14.transition-and-staff
     when: July 14
     date: '1965-07-14'

@@ -564,3 +564,23 @@ On non-events (the *Times*, Sept. 7, 1960: Byrd's failure to endorse the ticket;
 - On the DRV's routine Party circulars (Party cells, staff and the like, entered by the *Văn kiện Đảng* readers): "Keep the routine party circulars. (We might drop or trim them if our DRV thread ever gets crowded, but we just don't know much about what's happening up there, so we should keep what few clues we have.)"
 - On name tags for foreign persons on FRUS's lists of persons (Gomułka, Togliatti, Zhivkov, Kekkonen and others named in the Presidium and Party entries): "Add the foreign FRUS names."
 - On the standing conditions (`form:state`) and the register previewed (notes/previews/holdouts-register.html): "As reported. Every standing condition, grouped by thread."
+
+## Nov. 12, 2026 (night)
+
+On `cal.1962-07.press-and-broadcasting-2`: "This undated July 1962 entry is dated to July 25, 1962 ("Bigart's concluding survey was published in NYT, 25 July 1962, 1"), by American Ordeal's footnotes (422 n.9)". (Re-dated July 25; the *Times* behind "To check:".)
+
+On `cal.1962-07.press-and-broadcasting-3`: "The Newsweek article of the following entry is also dateable (422 nn.7, 9): "Vietnam: The Unpleasant Truth," Newsweek, 20 Aug. 1962, 40." And: "These guys gotta read the footnotes... (Do the PDFs make that awkward?)" (Re-dated Aug. 20, the issue's date; the card given a line on the notes.)
+
+On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from context ... whether the Byrd is the Virginia Byrd or the West Virginia Byrd ... (I'm thinking "Harry Byrd" and "Robert Byrd" where there aren't any cues I'd pick up on.)" (Done: the first bare mention in each entry, by its name tag; "Harry Byrd Jr." after Nov. 1965.)
+
+(Nov. 13, 12 a.m.) `cal.1963-06-20.civil-rights-bill`, Robert Kennedy's first day before Subcommittee No. 5, re-dated June 26, 1963 by the printed hearings (pt. 2, 1371), which three readers and the H.R. 7152 audit found; Mann's June 20 kept as a Check.
+
+## Nov. 13, 2026 (night)
+
+"Please do! And don't forget the Governors Hughes! Those two confused delegates and newscasters at the 1968 DNC. We've kind of stepped on the narrative of the next two days of entries with this first entry of July 10, 1962: "King and Abernathy choose jail over fines. Out July 12, the fines paid by an unnamed hand." Shouldn't we leave the second sentence for July 12? "Kaplan et al., *McNamara Ascendancy, 1961–1965*, 468" should be "Kaplan et al., *McNamara Ascendancy, 1961–1965*, at 468". Now that we've taken the weeks out of the top bar, we should restore the "week" to the week headings: "W29: July 15–21" should be "Week 29: July 15–21"" ("Please do!": the three rulings asked: combine the July 1, 1962 pair; re-date the Oct. 23, 1962 after-midnight item; split the Oct. 29, 1963 pair of calls; and the notes sweep's next steps.)
+
+"For multi-volume series whose short titles we render "[title], [Roman numeral volume], [page]", could we do the same for their first, long titles, rather than the Bluebook-prescribed "[Arabic numeral] [title] [page]"? And could we get the JCS overview histories into that Roman numeral style, rather than having ", Vol. 8" hard-coded in? It looks like the notes pilot is a bust, at least as far as dates go. It might be worth working on it later, when we're working through our witness trees, but shelve it for now. Could you tell me what I'm ruling on re: the audits? I don't have the materials in front of me." (Done: works.py STYLE 9, `volume:`; the first cite keeps "Title, III, 1862"; the notes sweep shelved.)
+
+"Keep the staff memos. Bring back the selfish bastards. Someone should do a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic." (The memos stay; `cal.1964-07-02.civil-rights-bill-16` restored.)
+
+"Yes on Dirksen's "idea." Check on the cloture petition. Combine if it already holds it, redate it otherwise. Yes on Rauh and Mitchell. Keep Johnson's call to HHH, with the disagreement noted, unless Whalen and Purdum give their evidentiary or reasoned grounds for their dating, in which case switch and note Mann's alternative. Move the floor meeting. Two tellings for now. Take it out of Feb. 5. Surely the hard sources/records would give us a better date here? Or no?" (Done: May 19; the June 1 petition combined into June 8, which held it; Jan. 21; Whalen's ground a Humphrey memorandum (148 n.), Purdum's a reasoned note (358): the "listen to Dirksen" talk now Feb. 18, the Mar. 8 call kept with Mann's placement noted; Apr. 13; the Moyers tellings linked; Smith's amendment to Feb. 4 by the Record, 110 Cong. Rec. 1933, tellers 107–149.)

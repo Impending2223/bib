@@ -528,7 +528,7 @@ entries:
     date: '1962-06-06'
     thread: congress
     also: [democratic-party, economy]
-    c: 'Senate Democrats, 3 p.m., thirty-four attending. Mansfield on absences: the Democratic side is "looking ridiculous"; eleven absent that day, as many as twenty-six in earlier weeks. Adjournment October 1 if lucky. Church: "those of us up for reelection this year simply cannot afford to be here on October 1." Byrd, of Finance: the most contentious bill in his twenty-nine years. Magnuson: leave the tax bill to next year; Monroney: to after the election.'
+    c: 'Senate Democrats, 3 p.m., thirty-four attending. Mansfield on absences: the Democratic side is "looking ridiculous"; eleven absent that day, as many as twenty-six in earlier weeks. Adjournment October 1 if lucky. Church: "those of us up for reelection this year simply cannot afford to be here on October 1." Harry Byrd, of Finance: the most contentious bill in his twenty-nine years. Magnuson: leave the tax bill to next year; Monroney: to after the election.'
     n: '[[w.ritchie-minutes-of-the-senate]], 599–603 (the attendance, 603). Names: Mansfield, Church, Byrd, Magnuson, Monroney.'
     tags: [name:mansfield-mike, name:church-frank, name:byrd-harry-f, name:magnuson-warren-g, name:monroney-almer-s]
   - id: cal.1962-06-06.vietnam-hanoi
@@ -752,6 +752,9 @@ entries:
     time: 1962-06-10T08:00Z
     thread: missile-crisis-anadyr
     also: [soviet-union]
+    follows:
+      - cal.1962-06-10.soviet-union-leadership
+    part_of: cal.1962-06-10.soviet-union-leadership-2
     c: '11 a.m., the Presidium with Gromyko, Malinovsky and the general staff. Rashidov and Biryuzov report Castro satisfied. Malinovsky''s memorandum: 24 R-12s and 16 R-14s, half as many in reserve; 80 nuclear cruise missiles; 42 Il-28s, a MiG-21 wing, 12 SA-2 units; a submarine base, eleven submarines; 50,874 men. Adopted unanimously.'
     n: '[[w.fursenko-one-hell-of-a]], 187–89; [[w.fursenko-khrushchevs-cold-war]], 439–40 (Operation Anadyr: forty missiles in five regiments, 50,874 men, forty-two Il-28s, eighty FKRs; "I think we will win this operation"); [[w.poole-joint-chiefs-of-staff]], 161 (by June 10 a plan ready: 36 R-12s on 24 launchers, 24 R-14s on 16); [[w.prezidium-tsk-kpss-1954]], I, 568 (Protocol 35). Check: under P 35/I, June 10, Rashidov''s report, the volume prints only "Решение – особая папка" (decision: special file) ([[w.prezidium-tsk-kpss-1954]], III, 283); its note: the text never reached the archive (III, 1001 n.1). The Presidium''s materials are not printed. To check: General Ivanov''s notes on a Council of Ministers resolution, AGSRF (cited by [[w.fursenko-one-hell-of-a]], 187 n.13, 188 n.14); Dobrynin''s report of June 4 and the Presidium''s materials, APRF (cited by [[w.fursenko-one-hell-of-a]], 188 n.14). See [[cal.1962-05-24.missile-crisis]]. Names: Gromyko, Malinovsky, Castro.'
     src:
@@ -764,14 +767,28 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 161: A, C'
         - 'w.prezidium-tsk-kpss-1954 I, 568: A-B, H'
         - 'via x.1962-06-10.presidium-protocol-35: A-B, H'
-    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:castro-fidel]
+    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:castro-fidel, vis:only:ussr]
   - id: cal.1962-06-10.soviet-union-leadership
     when: June 10
     date: '1962-06-10'
     thread: soviet-union-leadership
+    part_of: cal.1962-06-10.soviet-union-leadership-2
     c: 'The Presidium, the same session as Rashidov''s report on Cuba, first on Kozlov''s report of the events in Novocherkassk: "Хорошо провели акцию. Другого выхода у нас не было" (the action well carried out; we had no other way out); the sectarian organizations to be broken up; Basov a weak worker; the KGB''s work to be strengthened. Shelepin, Semichastny, Ivashutin and others to bring proposals in a month.'
     n: 'Protocol 35, item II. [[w.prezidium-tsk-kpss-1954]], I, 568 (doc. 252, Malin''s notes; Kozlov, Mikoyan, Ilyichev, Khrushchev speaking); I, 1102 nn.1–2 (the editors: the prices of meat, milk and eggs raised June 1; the troops fired on the demonstrators, about 23 dead; Basov, first secretary in Rostov); III, 283 (P 35/II). See [[cal.1962-06-10.missile-crisis]], [[cal.1962-06-01.soviet-union]]. Made public: 2003. Names: Kozlov, Basov, Shelepin, Semichastny, Ivashutin.'
     tags: [name:kozlov-frol-r, name:shelepin-aleksandr-n, polity:ussr]
+  - id: cal.1962-06-10.soviet-union-leadership-2
+    when: June 10
+    date: '1962-06-10'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 35, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Rashidov, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Malinovsky, Grechko, Chuikov, Biryuzov, Zakharov, Epishev, Gromyko, S. P. Ivanov.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 567–68 (Protocol 35, Malin''s notes and his list of those present); III, 283 (P 35/I and II); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Demichev, Ponomarev, Shelepin, Malinovsky, Grechko, Zakharov, Gromyko.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:malinovsky-rodion-y, name:grechko-andrei-a, name:zakharov-matvei-vasileevich, name:gromyko-andrei]
+    time_range:
+      - 1962-06-10T06:00Z
+      - 1962-06-10T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-06-11.economy
     when: June 11
     date: '1962-06-11'

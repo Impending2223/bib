@@ -52,6 +52,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 494: all'
         - 'via x.2006.kcw-p494-kgb: all'
+    tags: [vis:only:ussr]
     time_range:
       - 1962-11-01T14:00Z
       - 1962-11-01T22:00Z
@@ -157,7 +158,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 496: all'
         - 'via x.2006.kcw-p496-mikoyan: all'
-    tags: [name:mikoyan-anastas, name:castro-fidel]
+    tags: [name:mikoyan-anastas, name:castro-fidel, vis:only:ussr+cuba]
     time_range:
       - 1962-11-03T14:00Z
       - 1962-11-03T22:00Z
@@ -271,7 +272,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 496: all'
         - 'via x.2006.kcw-p496-castro: all'
-    tags: [name:castro-fidel, name:mikoyan-anastas]
+    tags: [name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba]
     time_range:
       - 1962-11-05T14:00Z
       - 1962-11-05T22:00Z
@@ -1591,7 +1592,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 301 n.53: D'
         - 'w.fursenko-khrushchevs-cold-war 500–01: A-C'
         - 'via x.2006.kcw-p500-01: A-C'
-    tags: [name:kennedy-robert-f, name:castro-fidel, name:kuznetsov-vasily-v]
+    tags: [name:kennedy-robert-f, name:castro-fidel, name:kuznetsov-vasily-v, vis:only:ussr]
     time_range:
       - 1962-11-10T06:00Z
       - 1962-11-10T14:00Z
@@ -1803,7 +1804,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 501–02: all'
         - 'via x.2006.kcw-p501-02: all'
-    tags: [name:khrushchev-nikita-s, name:mikoyan-anastas, name:castro-fidel]
+    tags: [name:khrushchev-nikita-s, name:mikoyan-anastas, name:castro-fidel, vis:only:ussr]
     time_range:
       - 1962-11-13T06:00Z
       - 1962-11-13T14:00Z
@@ -1915,7 +1916,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 304: all'
         - 'via x.1962-11-17.mikoyan-to-khrushchev: all'
-    tags: [name:mikoyan-anastas, name:dorticos-torrado-osvaldo, name:kuznetsov-vasily-v, name:stevenson-adlai-e, name:castro-fidel]
+    tags: [name:mikoyan-anastas, name:dorticos-torrado-osvaldo, name:kuznetsov-vasily-v, name:stevenson-adlai-e, name:castro-fidel, vis:only:ussr+cuba]
   - id: cal.1962-11-14.china
     when: Nov. 14
     date: '1962-11-14'
@@ -2063,7 +2064,7 @@ entries:
         - 'via x.1962-11-16.malins-notes-nov-16-1962: B-D'
         - 'w.prezidium-tsk-kpss-1954 III, 392–98: A, C-E'
         - 'via x.1962-11-16.presidium-resolution-regarding-instructions-to-mikoyan: A, C-E'
-    tags: [name:castro-fidel, name:u-thant, name:khrushchev-nikita-s, name:mikoyan-anastas, name:kennedy-john-f]
+    tags: [name:castro-fidel, name:u-thant, name:khrushchev-nikita-s, name:mikoyan-anastas, name:kennedy-john-f, vis:only:ussr]
     time_range:
       - 1962-11-16T06:00Z
       - 1962-11-16T14:00Z
@@ -2374,7 +2375,7 @@ entries:
       c: 7e139f70
       rows:
         - 'w.fursenko-khrushchevs-cold-war 503: all'
-    tags: [name:castro-fidel, name:mikoyan-anastas]
+    tags: [name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba]
     time_range:
       - 1962-11-19T14:00Z
       - 1962-11-19T22:00Z
@@ -2463,13 +2464,11 @@ entries:
     time: 1962-11-20T23:00Z
     thread: missile-crisis
     also: [press-and-broadcasting]
-    follows:
-      - cal.1962-11-20.missile-crisis-3
-      - cal.1962-11-20.missile-crisis-2
-    c: 'Quarantine lifted, at the press conference. Asked of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies"; the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.'
-    n: 'The President''s News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
+    part_of: cal.1962-11-20.press-and-broadcasting-2
+    c: 'Quarantine lifted. Asked of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies"; the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.'
+    n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
     src:
-      c: d66c7bf0
+      c: dff4be46
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
         - 'w.fursenko-one-hell-of-a 310: A'
@@ -2485,10 +2484,11 @@ entries:
     thread: civil-rights-the-executive
     follows:
       - cal.1962-11-20.missile-crisis
-    c: 'Same press conference: the housing order. No discrimination in federally aided housing, prospectively.'
-    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679; [[w.reeves-president-kennedy]], 432 (Executive Order 11063 announced at the news conference); [[w.wofford-of-kennedys-and-kings]], 169–70 (the housing order announced the evening of Nov. 20, 1962, between statements on Soviet bombers leaving Cuba and the India–China border; by Sorensen; "scope more limited" than the Commission asked); [[w.robert-kennedy-in-his]], 368–69 (Martin dates the signing Nov. 20; Kennedy: the order "covered future housing," not all housing; the delay, and the northern Congressmen who did not want it; not the press conference). At the news conference, 6 p.m.: [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    part_of: cal.1962-11-20.press-and-broadcasting-2
+    c: The housing order. No discrimination in federally aided housing, prospectively.
+    n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 831–32, 835. [Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679; [[w.reeves-president-kennedy]], 432 (Executive Order 11063 announced at the news conference); [[w.wofford-of-kennedys-and-kings]], 169–70 (the housing order announced the evening of Nov. 20, 1962, between statements on Soviet bombers leaving Cuba and the India–China border; by Sorensen; "scope more limited" than the Commission asked); [[w.robert-kennedy-in-his]], 368–69 (Martin dates the signing Nov. 20; Kennedy: the order "covered future housing," not all housing; the delay, and the northern Congressmen who did not want it; not the press conference). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
     src:
-      c: 670b394e
+      c: 0b6640c1
       rows:
         - 'https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing: all'
         - 'w.sorensen-kennedy 482: all'
@@ -2638,6 +2638,18 @@ entries:
     c: Mao Zedong, Liu Shaoqi, Zhou Enlai and others decide to move first and take the initiative to ease the tension on the border.
     n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("先走一步，主动采取积极的步骤"; the decision: a cease-fire along the whole line and a withdrawal, unasked). Made public: Check (2011 at the latest). See [[cal.1962-11-19.south-asia-2]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai.'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:prc, polity:india]
+  - id: cal.1962-11-20.press-and-broadcasting-2
+    when: Nov. 20
+    date: '1962-11-20'
+    time: 1962-11-20T23:00Z
+    thread: press-and-broadcasting
+    follows:
+      - cal.1962-11-20.missile-crisis-3
+      - cal.1962-11-20.missile-crisis-2
+    c: Kennedy's forty-fifth news conference, the State Department Auditorium, 6 p.m.
+    n: 'The President''s News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962), at 830–38 (the note, 838: the forty-fifth, the place and the hour). Names: Kennedy.'
+    tags: [name:kennedy-john-f]
+    time_zone: America/New_York
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'
@@ -2684,6 +2696,7 @@ entries:
     date: '1962-11-21'
     thread: laos
     also: [soviet-union]
+    part_of: cal.1962-11-21.soviet-union-leadership-2
     c: 'The Presidium, on the Pathet Lao''s request for arms: Khrushchev ends the Soviet airlift. "What is most important now is peace"; "If they want a war, it will be their own affair."'
     n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II). Names: Khrushchev.'
     src:
@@ -2724,9 +2737,25 @@ entries:
     date: '1962-11-21'
     thread: soviet-union-leadership
     also: [missile-crisis-settlement]
+    follows:
+      - cal.1962-11-21.laos
+    part_of: cal.1962-11-21.soviet-union-leadership-2
     c: 'The Presidium, the same session as Laos, by vote, approves Khrushchev''s message to Mikoyan in Havana: Kennedy kept his word, the quarantine lifted; the crisis to be taken as past, no invasion to be expected for years. Mikoyan free to leave, by New York, to see Kuznetsov, Zorin, U Thant, McCloy and Stevenson; a visit to Washington useful. "Кубинская операция ... принесла свои плоды" (the Cuban operation bore fruit): socialism in Cuba "легализовано" (legalized); "мы его только перевезли" (we only moved) the weapons.'
     n: 'P 68/II. [[w.prezidium-tsk-kpss-1954]], III, 399–403 (doc. 272.1 and the draft, Gromyko''s; for: Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Khrushchev, 399 n.г; the telegram sent Nov. 21, 399 n.е). Malin''s note of the session (I, 646), headed "пункт II" (item II), is on Laos: See [[cal.1962-11-21.laos]], [[cal.1962-11-16.soviet-union]]. Made public: 2008. Names: Khrushchev, Mikoyan, Kennedy, Kuznetsov, Zorin, U Thant, McCloy, Stevenson.'
     tags: [name:khrushchev-nikita-s, name:mikoyan-anastas, name:kennedy-john-f, name:kuznetsov-vasily-v, name:zorin-valerian, name:u-thant, name:mccloy-john-j, name:stevenson-adlai-e, polity:ussr, polity:cuba, polity:us]
+  - id: cal.1962-11-21.soviet-union-leadership-2
+    when: Nov. 21
+    date: '1962-11-21'
+    thread: soviet-union-leadership
+    c: 'The Presidium in session, Protocol 68, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Demichev, Ilyichev, Shelepin.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 646–47 (Protocol 68, Malin''s notes, headed "item II": the instructions to the ambassador in Laos, unnumbered; V, the instructions to Mikoyan, Gromyko reading); I, 1115 n.1 (those present); III, 399–403 (P 68/II, Nov. 21; P 68/V, Nov. 22); III, 1015 nn.1–3 (those present; the Laos decision not in the protocol). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Mazurov, Demichev, Shelepin.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:mazurov-kirill-t, name:demichev-pyotr-n, name:shelepin-aleksandr-n]
+    time_range:
+      - 1962-11-21T06:00Z
+      - 1962-11-21T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-11-22.missile-crisis
     when: Nov. 22
     date: '1962-11-22'
@@ -2755,7 +2784,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 313 n.99: A-C'
         - 'w.prezidium-tsk-kpss-1954 III, 403–04: B-C'
         - 'via x.1962-11-22.presidium-resolution-p68-v-instructions-to-mikoyan: B-C'
-    tags: [name:mikoyan-anastas, name:lechuga-carlos]
+    tags: [name:mikoyan-anastas, name:lechuga-carlos, vis:only:ussr]
     time_range:
       - 1962-11-22T06:00Z
       - 1962-11-22T14:00Z

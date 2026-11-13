@@ -250,7 +250,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 425: all'
         - 'via w.fursenko-khrushchevs-cold-war 425 n.38: all'
-    tags: [name:souphanouvong, name:abramov-aleksandr-n]
+    tags: [name:souphanouvong, name:abramov-aleksandr-n, vis:only:ussr]
   - id: cal.1962-02-03.king
     when: Feb. 3
     date: '1962-02-03'
@@ -598,42 +598,26 @@ entries:
         - 'w.selverstone-kennedy-withdrawal 55: A, B'
     tags: [name:harkins-paul-d]
     short: MACV
-  - id: cal.1962-02-08.soviet-union
+  - id: cal.1962-02-08.cuba
     when: Feb. 8
     date: '1962-02-08'
-    thread: soviet-union
-    also: [cuba]
-    c: The Presidium approves the $133 million program of arms for Cuba, before it since September, on Adzhubei's report of Kennedy.
-    n: '[[w.fursenko-one-hell-of-a]], 151, 153–54. See [[cal.1962-01-30.soviet-union]]. Names: Adzhubei, Kennedy.'
-    src:
-      c: 5ca70c3b
-      rows:
-        - 'w.fursenko-one-hell-of-a 151, 153–54: all'
-    tags: [name:adzhubei-aleksei, name:kennedy-john-f]
     time_range:
       - 1962-02-08T06:00Z
       - 1962-02-08T14:00Z
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
-  - id: cal.1962-02-08.cuba
-    when: Feb. 8
-    date: '1962-02-08'
     thread: cuba
-    also: [soviet-union]
+    also: [soviet-union, cuba]
     c: The Presidium approves the $133 million in military aid for Cuba frozen since October 1961, put on its agenda by Khrushchev for quick approval; a review of the Soviet military aid to Castro ordered.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 427, 609 n.46. To check: [[w.fursenko-one-hell-of-a]], 154 (cited by [[w.fursenko-khrushchevs-cold-war]], 427 n.46). See [[cal.1961-09-20.cuba]]. Names: Khrushchev, Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 427, 609 n.46; [[w.fursenko-one-hell-of-a]], 151, 153–54 (the $133 million program, before the Presidium since September; approved on Adzhubei''s report of Kennedy; not frozen since October). See [[cal.1962-01-30.soviet-union]]. See [[cal.1961-09-20.cuba]]. Names: Khrushchev, Castro.'
     src:
       c: 672651d2
       rows:
         - 'w.fursenko-khrushchevs-cold-war 427, 609 n.46: all'
-    tags: [name:khrushchev-nikita-s, name:castro-fidel]
-    time_range:
-      - 1962-02-08T06:00Z
-      - 1962-02-08T14:00Z
-    time_band: workday daytime
-    time_zone: Europe/Moscow
-    range_basis: kind
+        - 'w.fursenko-one-hell-of-a 151, 153–54: ?'
+    tags: [name:khrushchev-nikita-s, name:castro-fidel, vis:only:ussr, name:adzhubei-aleksei, name:kennedy-john-f]
+    aliases: [cal.1962-02-08.soviet-union]
   - id: cal.1962-02-08.school-aid
     when: Feb. 8
     date: '1962-02-08'
@@ -1527,7 +1511,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 150: all'
         - 'via w.fursenko-one-hell-of-a 150 n.9: all'
-    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:kennedy-john-f]
+    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:kennedy-john-f, vis:only:ussr]
     time_range:
       - 1962-02-21T06:00Z
       - 1962-02-21T14:00Z
@@ -1731,7 +1715,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 422–23: all'
         - 'via w.fursenko-khrushchevs-cold-war 422 n.30: all'
-    tags: [name:khrushchev-nikita-s, name:ulbricht-walter]
+    tags: [name:khrushchev-nikita-s, name:ulbricht-walter, vis:only:ussr+gdr]
     time_range:
       - 1962-02-26T06:00Z
       - 1962-02-26T14:00Z

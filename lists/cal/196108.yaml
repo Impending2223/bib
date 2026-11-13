@@ -383,7 +383,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 379–80: all'
         - 'via w.fursenko-khrushchevs-cold-war 380 n.61: all'
-    tags: [name:khrushchev-nikita-s, name:ulbricht-walter]
+    tags: [name:khrushchev-nikita-s, name:ulbricht-walter, vis:only:ussr+gdr]
     time_range:
       - 1961-08-03T06:00Z
       - 1961-08-03T14:00Z
@@ -643,7 +643,7 @@ entries:
       c: 77ccb582
       rows:
         - 'w.fursenko-khrushchevs-cold-war 381: all'
-    tags: [name:ulbricht-walter]
+    tags: [name:ulbricht-walter, vis:only:gdr]
     time_range:
       - 1961-08-07T08:00Z
       - 1961-08-07T16:00Z
@@ -958,6 +958,7 @@ entries:
       c: b01174eb
       rows:
         - 'w.fursenko-khrushchevs-cold-war 382: all'
+    tags: [vis:only:gdr]
     time_range:
       - 1961-08-11T08:00Z
       - 1961-08-11T16:00Z
@@ -2103,7 +2104,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 389–90: all'
         - 'via w.fursenko-khrushchevs-cold-war 389 n.10: all'
-    tags: [name:adenauer-konrad, name:khrushchev-nikita-s, name:kroll-hans-s, name:kuznetsov-vasily-v]
+    tags: [name:adenauer-konrad, name:khrushchev-nikita-s, name:kroll-hans-s, name:kuznetsov-vasily-v, vis:only:ussr+frg]
     time_range:
       - 1961-08-29T06:00Z
       - 1961-08-29T14:00Z
@@ -2211,8 +2212,9 @@ entries:
     when: Aug. 30
     date: '1961-08-30'
     thread: berlin-and-vienna
+    part_of: cal.1961-08-30.press-and-broadcasting
     c: Clay named the President's personal representative in Berlin. The Soviet Union announces it will resume nuclear testing.
-    n: 'News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961). White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission); [[w.sorensen-kennedy]], 293 (Aug. 30, the Soviet Union announces it will end the moratorium on testing). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
+    n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 573. White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission); [[w.sorensen-kennedy]], 293 (Aug. 30, the Soviet Union announces it will end the moratorium on testing). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
     src:
       c: 8008019c
       rows:
@@ -2274,15 +2276,18 @@ entries:
     time: 1961-08-30T20:10Z
     thread: cuba-bay-of-pigs
     also: [press-and-broadcasting, school-aid]
-    c: 'News conference. Asked of *Time*''s version of the invasion, out that day, that Rusk canceled the air support for the landing and the President backed him: no comment; "the most inaccurate of all the articles that have appeared on Cuba." Of school aid, after the House''s vote that day: "everyone is for education but they''re all for a different education bill." "So we will be back next year."'
-    n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 580. [[w.sorensen-kennedy]], 316 (the answer; the article *Time*''s, or *Fortune*''s, from which it was condensed); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 (the news conference of Aug. 30 on *Time*''s version); [[w.graham-uncertain-triumph]], 24–25 (the school aid answer). See [[cal.1961-04-17.cuba]]. Names: Rusk, Kennedy.'
+    follows:
+      - cal.1961-08-30.berlin-and-vienna
+    part_of: cal.1961-08-30.press-and-broadcasting
+    c: 'Asked of *Time*''s version of the invasion, out that day, that Rusk canceled the air support for the landing and the President backed him: no comment; "the most inaccurate of all the articles that have appeared on Cuba." Of school aid, after the House''s vote that day: "everyone is for education but they''re all for a different education bill." "So we will be back next year."'
+    n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 574, 580. [[w.sorensen-kennedy]], 316 (the answer; the article *Time*''s, or *Fortune*''s, from which it was condensed); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 (the news conference of Aug. 30 on *Time*''s version); [[w.graham-uncertain-triumph]], 24–25 (the school aid answer). See [[cal.1961-04-17.cuba]]. Names: Rusk, Kennedy.'
     src:
-      c: 610c8a65
+      c: 22e558a6
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630: all'
-        - 'w.sorensen-kennedy 316: B'
-        - 'w.kaplan-mcnamara-ascendancy-1961-1965 191: A-B'
-        - 'w.graham-uncertain-triumph 24–25: A, D-E'
+        - 'w.sorensen-kennedy 316: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 191: A'
+        - 'w.graham-uncertain-triumph 24–25: C-D'
     tags: [name:kennedy-john-f, name:rusk-dean]
     aliases: [cal.1961-08-30.school-aid-2]
     time_zone: America/New_York
@@ -2318,6 +2323,15 @@ entries:
         - 'w.anderson-confronting-the-color-line 84: all'
         - 'via w.anderson-confronting-the-color-line 84 n.28: all'
     tags: [state:ny]
+  - id: cal.1961-08-30.press-and-broadcasting
+    when: Aug. 30
+    date: '1961-08-30'
+    time: 1961-08-30T20:10Z
+    thread: press-and-broadcasting
+    c: Kennedy's sixteenth news conference, the State Department Auditorium, 4:10 p.m.
+    n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 572–80 (the note, 580: the sixteenth, the place and the hour). Names: Kennedy.'
+    tags: [name:kennedy-john-f]
+    time_zone: America/New_York
   - id: cal.1961-08-31.rules
     when: Aug. 31
     date: '1961-08-31'
@@ -2525,7 +2539,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 395: all'
         - 'via w.fursenko-khrushchevs-cold-war 395 n.34: A'
-    tags: [name:souvanna-phouma]
+    tags: [name:souvanna-phouma, vis:only:ussr]
     time_range:
       - 1961-08-31T06:00Z
       - 1961-08-31T14:00Z
