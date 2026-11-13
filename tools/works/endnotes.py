@@ -21,7 +21,9 @@ STYLE
    FOLIO − margin to FOLIO + margin), each with its chapter and number and its own notes page, so it can be cited
    ("422 n.9"). Estimates are estimates: read the note against the page's sentence (and the page image's
    superscript) before citing it.
-4. `note INDEX CHAPTER NUMBER` prints one note; `chapters INDEX` the chapters found, their note counts and pages.
+4. `note INDEX CHAPTER NUMBER` prints one note; `chapters INDEX` the chapters found, their note counts and pages;
+   `pdf INDEX FOLIO` the PDF page(s) of a printed page, from the running heads read (`heads`), not interpolated, so a
+   plate section's change of offset does not mislead (the pilot, Nov. 13: folio 84 is PDF 106, not 118).
 5. A form the program cannot read (no heads, no numbers it can follow, an OCR text layer too broken): it says so;
    read the notes section by hand (`pdftotext -f N -l M -layout`).
 """
@@ -89,6 +91,7 @@ def folios(pages):
         near = [offs[j] for j in ks[max(0, n - 3): n + 4] if j != i]
         if near.count(offs[i]) >= 1:
             good[i] = known[i]
+    folios.heads = dict(good)
     out = {}
     gk = sorted(good)
     for i in range(1, len(pages) + 1):
@@ -223,7 +226,8 @@ def build(pdf):
     pages = pages_of(pdf)
     fol = folios(pages)
     sec = notes_section(pages)
-    idx = {"pdf": os.path.basename(pdf), "pages": len(pages), "folios": fol, "section": sec, "form": None, "notes": []}
+    idx = {"pdf": os.path.basename(pdf), "pages": len(pages), "folios": fol, "heads": getattr(folios, "heads", {}),
+           "section": sec, "form": None, "notes": []}
     if not sec:
         idx["problem"] = "no notes section found (STYLE 5)"
         return idx
@@ -269,6 +273,9 @@ def main(argv=None):
     c.add_argument("number", type=int)
     d = sub.add_parser("chapters")
     d.add_argument("index")
+    e = sub.add_parser("pdf")
+    e.add_argument("index")
+    e.add_argument("folio", type=int)
     args = ap.parse_args(argv)
     if args.cmd == "index":
         idx = build(args.pdf)
@@ -288,6 +295,18 @@ def main(argv=None):
             print(f"ch. {ch}: {len(xs)} notes, notes pp. {xs[0].get('folio')}–{xs[-1].get('folio')}"
                   + (f", text pp. ~{min(ests)}–{max(ests)}" if ests else "")
                   + (f"  {xs[0]['heading'][:50]}" if xs[0].get("heading") else ""))
+        return 0
+    if args.cmd == "pdf":
+        heads = {int(k): v for k, v in (idx.get("heads") or {}).items()}
+        hit = sorted(k for k, v in heads.items() if v == args.folio)
+        if not hit:                     # between read heads: the nearest read head's offset on either side
+            below = max((k for k, v in heads.items() if v < args.folio), default=None, key=lambda k: heads[k])
+            above = min((k for k, v in heads.items() if v > args.folio), default=None, key=lambda k: heads[k])
+            cands = sorted({k + (args.folio - heads[k]) for k in (below, above) if k is not None})
+            print(f"folio {args.folio}: no running head read; PDF {' or '.join(map(str, cands))} by the nearest heads "
+                  "(check the image)")
+            return 1
+        print(f"folio {args.folio}: PDF {', '.join(map(str, hit))}")
         return 0
     if args.cmd == "note":
         hit = [x for x in notes if x["ch"] == args.chapter and x["n"] == args.number]
