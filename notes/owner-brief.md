@@ -594,3 +594,13 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "How about the other items in the handoff? The batches, the foreign leadership, the Church materials?"
 
 "I believe the not yet checked items are done, with the possible exception of the Feb. 8 item. Please check and update the handoff. Skip the Church Book V—Bugliosi tells me it's a red herring, and it doesn't sound that interesting besides. Can you show me what the queue looks like after you've finished working on it? Is the queue in the handoff?" (All four done, Feb. 8 included (7e5c848); Book V dropped from the Church plan; the hand-off's queue rebuilt against the tree.)
+
+(Nov. 13, 10:38 a.m., in the pause; answered "Queued.", to be taken up at 5:04 p.m.)
+
+> - Set Powers's visibility to the US to his release date. Invisible to the US while held incommunicado.
+> - I suppose Martin and Mitchell's actions during their defection should be invisible to the US until discovered by the US or its (nondefecting) agents, and invisible to the USSR until the earliest contact with the USSR or its agents—which suggests, if David Durant reports the materials correctly, December 1959?
+> - Strictly speaking, "Alekseyev to Moscow: " is Soviet-only, but "Guevara says . . ." is Soviet-and-Cuban. (I don't mind having different levels of visibility in a single entry. I like it!)
+> - Date Souvanphong's polity.
+> - Correct the Hanoi October 1964 entry.
+> - Don't make it a rule to split entries mixing a private Soviet act with its public form. (See above re: different levels of visibility in a single entry.)
+> - Use Roman numerals in the short titles for the 20 titles with "Vol." in their short titles. No ruling yet on works with "Vol." only in their long titles.
