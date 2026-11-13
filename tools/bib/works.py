@@ -52,6 +52,12 @@ STYLE:
  8. A dissertation or thesis, like any unpublished work, prints its title in roman (Bluebook R17): "James H. Embrey,
     Reorienting Pacification: ... (1997) (Ph.D. dissertation, University of Kentucky)". Its card is verbatim, with no
     italics, `kind: thesis`; `thesis` reads its author, title and year.
+ 9. A numbered volume of a series whose volumes are cited apart (the Joint Chiefs' *National Policy* histories) takes
+    `volume:` in Roman, printed after the title, in the full citation and the short form alike: "Walter S. Poole, *The
+    Joint Chiefs of Staff and National Policy, 1961–1964*, VIII (2011)"; "Poole, *Joint Chiefs of Staff and National
+    Policy*, VIII, 241" (the owner, Nov. 13, 2026: "rather than having ', Vol. 8' hard-coded in"). A set cited by one
+    card, its volume in the pinpoint ("[[w.prezidium-tsk-kpss-1954]], I, 556"), prints the volume the same way at its
+    first, full citation: "*Title*, I, 556 (2003–08)", not Bluebook's "1 *Title* 556".
 """
 import os
 import re
@@ -246,6 +252,8 @@ def render(f, omit_author=False, cat=None, caps=False):
     if f.get("author") and not omit_author:
         out = (sc(join_names(f["author"])) if book else join_names(f["author"])) + ", "
     out += sc(f["title"]) if book else f"*{f['title']}*"
+    if f.get("volume") and not f.get("journal"):       # a numbered volume of a series, in Roman (STYLE 9)
+        out += f", {f['volume']}"
     if f.get("journal"):
         cite = f"{f['vol']} {sc(f['journal']) if caps else f['journal']} {f['page']}"
         out += ", " + (f"[{cite}]({f['link']})" if f.get("link") else cite)
@@ -513,7 +521,7 @@ def code_ok(ref, tail):
 
 # ---------------------------------------------------------------- the interface: the catalogue and its questions
 
-CARD_FIELDS = ["id", "kind", "author", "editor", "translator", "director", "title", "journal", "vol", "page", "link",
+CARD_FIELDS = ["id", "kind", "author", "editor", "translator", "director", "title", "volume", "journal", "vol", "page", "link",
                "paren", "year", "online", "c", "in", "edition_of", "translates", "short", "files_under", "also_under", "n",
                "tags", "aliases"]
 
@@ -905,8 +913,11 @@ def short_form(cid, cat):
     if t and t[0].islower():
         t = t[0].upper() + t[1:]
     names = [n for n in f.get("author") or [] if not NOT_AUTHOR.match(n) and not n.startswith("with ")]
+    vol = f", {f['volume']}" if f.get("volume") and not f.get("journal") else ""     # STYLE 9
+    if vol:                                  # the volume names it: the span the full title carries is not repeated
+        t = re.sub(r",\s*\d{4}[–-]\d{2,4}$", "", t)
     if not names:
-        return f"*{t}*"
+        return f"*{t}*{vol}"
     surs = []
     for i, n in enumerate(names):
         own, sur, given, suffix, bare = name_parts(n)
@@ -925,7 +936,7 @@ def short_form(cid, cat):
     m = re.search(r",? with (.+)$", byline)
     if m:
         who += " with " + " & ".join(name_parts(x)[1] for x in re.split(r"\s*(?:&|\band\b)\s*", m.group(1)) if x.strip())
-    return f"{who}, *{t}*"
+    return f"{who}, *{t}*{vol}"
 
 
 ONES = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen "
@@ -1296,7 +1307,8 @@ def combine(series, keep, drop):
 # pinpoint where the Bluebook puts it, after the title and before the year, the entry's parenthetical after the year:
 # 'Julian E. Zelizer, *Taxing America: ... 1945–1975*, at 257 (1998) (corporate payments speeded)' (', at' only where
 # the title ends in a numeral, Arabic or Roman); 'Andrew L. Johns, *Vietnam's Second Front: ...* 139 (2010)'; an
-# article's or chapter's after its first page, '1, 15'; a set's volume before it all, '3 *The Gallup Poll ...*, at
+# article's or chapter's after its first page, '1, 15'; a set's volume after the title in Roman, as the short form
+# has it, not Bluebook's '3 *The Gallup Poll ...*, at 1862' (the owner, Nov. 13, 2026): '*The Gallup Poll ...*, III,
 # 1862 (1972)'. Distinct pinpoints with parentheticals of their own after a semicolon, '; *Id.* at 260 (the count)'.
 # A pinpoint that is no page (a document, a chapter) stays after the year. The data keeps one form, '[[w.x]], 257
 # (paren)', which the claims read; the short forms after the first are as they were. with_first_cites, split_full.
@@ -1413,7 +1425,8 @@ def with_first_cites(series, e, text):
     parenthetical in Bluebook's places (BLUEBOOK FIRST CITE): 'Author, *Title* 257 (1998) (the vote)'; a second
     pinpoint with a parenthetical of its own after a semicolon, '*Id.* at 260 (the count)'. A pinpoint not a page
     (a document, a chapter, a note alone) keeps the old form, after the year: 'Author, *Title* (1972), doc. 4'; a
-    volume of a set and its page in Bluebook's: 'III, 1862' -> '3 *Title* 1862 (1972)'."""
+    volume of a set and its page as the short form has them, not Bluebook's '3 *Title* 1862': 'III, 1862' ->
+    '*Title*, III, 1862 (1972)' (the owner, Nov. 13, 2026)."""
     first, cat, done = first_cites(series), series.works, set()
 
     def sub(m):
@@ -1426,13 +1439,14 @@ def with_first_cites(series, e, text):
         par = run((m.group(4) or "").strip())    # a work cited inside the parenthetical, its first cite too
         rest = run(m.group(5) or "")
         vol = ""
-        mv = re.match(r"^([IVXLC]+),\s*(\d.*)$", pin)      # a volume of a set: '3 Author, *Title* 1862 (1972)'
-        if mv:
-            vol, pin = str(roman_int(mv.group(1))) + " ", mv.group(2)
+        mv = re.match(r"^([IVXLC]+),\s*(\d.*)$", pin)      # a volume of a set, as the short form has it (the owner,
+        if mv:                                              # Nov. 13, 2026): 'Author, *Title*, III, 1862 (1972)'
+            vol, pin = mv.group(1), mv.group(2)
         if card is None or not pin or not PAGE_PIN.match(pin):
             return f"[[{m.group(1)}|{FULL}]]" + m.group(0)[len(f"[[{m.group(1)}{m.group(2) or ''}]]"):]
         head, tail = split_full(render(card, cat=cat))
-        out = vol + f"[[{m.group(1)}|{HEAD}]]" + bluebook_pin(head, pin) + tail + (" " + par if par else "")
+        at = f", {vol}, {pin}" if vol else bluebook_pin(head, pin)
+        out = f"[[{m.group(1)}|{HEAD}]]" + at + tail + (" " + par if par else "")
         for x in re.finditer(r",\s*(" + PIN + r")\s*(" + _PAREN + r")", rest):
             out += f"; *Id.* at {x.group(1).strip()} {x.group(2)}"
         return out
