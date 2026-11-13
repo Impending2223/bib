@@ -590,7 +590,12 @@ entries:
     thread: soviet-union
     also: [intelligence]
     c: 'Moscow, the House of Journalists. Bernon F. Mitchell and William H. Martin, mathematicians in the cryptology department of the National Security Agency, appear at a news conference of the Soviet Foreign Ministry''s Press Department, Kharlamov, its chief, beside them. They say they left the United States and took Soviet citizenship because they opposed its intelligence methods, which they feared would lead to war, above all the reconnaissance flights over the Soviet Union and other Communist countries. They read statements: the United States knowingly makes false and deceptive statements; it paid a code clerk in an ally''s embassy in Washington for information. A high NSA official told Martin, they say, that the C-130 shot down over Soviet Armenia in September 1958 carried equipment for receiving the signals of Soviet radar, on a penetration mission. They would not give the date of their arrival or say how they came.'
-    n: '[*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 10, 11 ("War Threat Seen," "Two Code Clerks Defect to Soviet," by Osgood Caruthers; "Text of Statements Read in Moscow by Former U. S. Security Agency Workers," at 10; "Soviet Assertion on Plane Backed," page not shown: the news conference, the statements, the C-130 account, their refusal on arrival; Martin disappeared with Mitchell after a vacation from June 24, reported Aug. 1). Names: Kharlamov.'
+    n: '[*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 10, 11 ("War Threat Seen," "Two Code Clerks Defect to Soviet," by Osgood Caruthers; "Text of Statements Read in Moscow by Former U. S. Security Agency Workers," at 10; "Soviet Assertion on Plane Backed," page not shown: the news conference, the statements, the C-130 account, their refusal on arrival; Martin disappeared with Mitchell after a vacation from June 24, reported Aug. 1). [[w.martin-moscow-press-conference]], 1–2, 4–5, 8–9 (the place, 1; their reasons, the airspace flights, the "practice of lying about such violations" and the intercepts of allies'' messages, 2; the C-130 and the high NSA official''s word to Martin, 4–5; the citizenship, 8; the code clerk of an ally, 2, 8, at 9 "the Turkish Embassy"; not Kharlamov, the Foreign Ministry''s Press Department, the "cryptology department," or the refusal on arrival). Names: Kharlamov.'
+    src:
+      c: cddca716
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html: all'
+        - 'w.martin-moscow-press-conference 1–2, 4–5, 8–9: A, C, D, E, F'
     tags: [name:kharlamov-mikhail-a]
   - id: cal.1960-09-06.intelligence
     when: Sept. 6
@@ -606,7 +611,12 @@ entries:
     thread: intelligence
     also: [antisubversion]
     c: 'The Defense Department, in two statements on the NSA defectors in Moscow. The first: their statements "about alleged activities of the United States Government, in relation to its allies and other governments of the free world," are "completely false" and "can only serve the Communist objective of sowing distrust among free nations." The second: the Soviet Union is "making every effort to exploit the two turncoats Martin and Mitchell, who have become tools of Soviet propaganda"; the two are "one mentally sick and both obviously confused." It does not say which is ill. A spokesman confirms the department holds a letter the two left in a safe-deposit box at a bank in Laurel, Md., obtained after they fled by way of Mexico City and Havana in mid-June.'
-    n: '[*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 13 ("President Calls Pair Traitorous," by Jack Raymond: the two statements, the words; the Navy''s reply on Soviet ships near Havana and the department''s comment on the C-130 not entered). See [[cal.1960-09-06.soviet-union]].'
+    n: '[*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 13 ("President Calls Pair Traitorous," by Jack Raymond: the two statements, the words; the Navy''s reply on Soviet ships near Havana and the department''s comment on the C-130 not entered). [[w.martin-moscow-press-conference]], 1 (Martin: the statement left "at the end of June" in safety deposit box 174 at the State Bank of Laurel, Md.; not the department''s holding it). Check: the date of leaving: Martin says they left the United States "at the end of June" ([[w.martin-moscow-press-conference]], 1); Lansdale''s memorandum of Aug. 1 has them leave Washington June 25 and reach Havana July 1 (see [[cal.1960-06-25.intelligence]], [[cal.1960-07-01.intelligence]]). See [[cal.1960-09-06.soviet-union]].'
+    src:
+      c: 5bfee7f2
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html: all'
+        - 'w.martin-moscow-press-conference 1: ?'
     tags: [state:md, city:laurel]
   - id: cal.1960-09-06.antisubversion
     when: Sept. 6
@@ -834,7 +844,7 @@ entries:
     when: Sept. 7
     date: '1960-09-07'
     thread: press-and-broadcasting
-    c: 'Eisenhower''s news conference, the Executive Office Building, 10:30 to 11:01 a.m.; 243 present.'
+    c: Eisenhower's news conference, the Executive Office Building, 10:30 to 11:01 a.m.; 243 present.
     n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729) (677–86; the note, 686: the hour and the count). [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5, 11, 16 (E. W. Kenworthy, "Eisenhower Bids Soviet Stop Aid to Congo Forces," at 1, 5; Felix Belair Jr., "Religion as Issue Denounced Again by White House," at 1, 16; Jack Raymond, "President Urges Security Review," at 1, 11; the transcript, at 16). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
     time_range:
@@ -855,8 +865,9 @@ entries:
     date: '1960-09-07'
     thread: congo
     also: [soviet-union]
+    follows:
+      - cal.1960-09-07.elections-1960-religion
     part_of: cal.1960-09-07.press-and-broadcasting
-    follows: [cal.1960-09-07.elections-1960-religion]
     c: 'The Congo, a statement he reads: the United States "deplores the unilateral action of the Soviet Union in supplying aircraft and other equipment for military purposes to the Congo, thereby aggravating an already serious situation which finds Africans killing other Africans"; he urges the Soviet Union "to desist from its unilateral activities" and to support "the practice of collective effort through the United Nations." He adds: the United States will support the United Nations in what it finds necessary "within the limits of the Charter."'
     n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 679–80. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5 (Kenworthy, question 3). See [[cal.1960-09-05.congo-2]]. Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d, polity:ussr, polity:us]
@@ -864,8 +875,9 @@ entries:
     when: Sept. 7
     date: '1960-09-07'
     thread: elections-1960
+    follows:
+      - cal.1960-09-07.congo-2
     part_of: cal.1960-09-07.press-and-broadcasting
-    follows: [cal.1960-09-07.congo-2]
     c: 'His part in the campaign: after seven and a half years directing the executive department, "it would be odd if I simply became a sphinx."'
     n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 680. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (Belair, question 5). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -873,8 +885,9 @@ entries:
     when: Sept. 7
     date: '1960-09-07'
     thread: intelligence
+    follows:
+      - cal.1960-09-07.elections-1960-3
     part_of: cal.1960-09-07.press-and-broadcasting
-    follows: [cal.1960-09-07.elections-1960-3]
     c: 'The NSA defectors: "we must be always on the alert, very alert"; "we must go through our entire procedures to see if there is any one way we could better it."'
     n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 683. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 11 (Raymond, question 11). See [[cal.1960-09-06.intelligence]]. Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -883,17 +896,19 @@ entries:
     date: '1960-09-07'
     thread: congo
     also: [soviet-union]
+    follows:
+      - cal.1960-09-07.intelligence-4
     part_of: cal.1960-09-07.press-and-broadcasting
-    follows: [cal.1960-09-07.intelligence-4]
-    c: 'No evidence "as of now" that Soviet military crews fly the planes or that the cargoes carry weapons; ten planes inspected at Athens at the Soviet request carried cargo "for peaceful uses."'
+    c: No evidence "as of now" that Soviet military crews fly the planes or that the cargoes carry weapons; ten planes inspected at Athens at the Soviet request carried cargo "for peaceful uses."
     n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 683–84 (the answer corrected on Hagerty''s word to "Russian military crews"). [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5 (Kenworthy, question 12). Names: Eisenhower, Hagerty.'
     tags: [name:eisenhower-dwight-d, name:hagerty-james-c, polity:ussr]
   - id: cal.1960-09-07.congress
     when: Sept. 7
     date: '1960-09-07'
     thread: congress
+    follows:
+      - cal.1960-09-07.congo-10
     part_of: cal.1960-09-07.press-and-broadcasting
-    follows: [cal.1960-09-07.congo-10]
     c: 'The session''s failures, laid to him by the Democrats: "apparently this other—this other party then is making me responsible for splitting theirs"; the record should cause "some disappointment, if not dismay, throughout the American Nation."'
     n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 684–85. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (Belair, question 17: "throughout the nation"). Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
@@ -1103,15 +1118,26 @@ entries:
     date: '1960-09-07'
     thread: intelligence
     c: A Defense Department spokesman says a security review affecting the Department is already under way, not limited to Bernon F. Mitchell and William H. Martin, the former NSA employees who denounced the United States at Moscow the day before. Responding to published reports that the FBI had such information about one of them, he says nothing in the personal records of either indicates homosexuality or any form of sexual perversion.
-    n: '[*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 11 ("President Urges Security Review"). See [[cal.1960-09-06.intelligence-2]].'
+    n: '[*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 11 ("President Urges Security Review"). [[w.huac-security-practices-nsa]], 3 (the department''s denial of Sept. 7, "in the face of reports to the contrary," that the records of either man "indicated homosexuality or other sex abnormality"; not the spokesman, the FBI or the security review). See [[cal.1960-09-06.intelligence-2]].'
+    src:
+      c: d4ce54bc
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html: all'
+        - 'w.huac-security-practices-nsa 3: ?'
   - id: cal.1960-09-07.intelligence-3
     when: Sept. 7
     date: '1960-09-07'
     thread: intelligence
     also: [congress]
     c: 'Wayne L. Hays, Democrat of Ohio, by telephone at Flushing, Ohio, says he may have been the member of Congress to whom Mitchell and Martin came last spring: two young men who said the United States was sending spy planes over Russia and identified themselves as Central Intelligence Agency men, as he remembered. Their pictures and names do not stir his recollection; he says he reported it to the Foreign Affairs Committee.'
-    n: '[*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 11 ("President Urges Security Review"). See [[cal.1960-09-06.soviet-union]]. Names: Hays.'
+    n: '[*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 11 ("President Urges Security Review"). Check: the date: the Moscow statement has the two see a Congressman in February 1959, one who had publicly questioned the State Department''s concealing the facts of the C-130 ([[w.martin-moscow-press-conference]], 5); Hays says "last spring.". See [[cal.1960-09-06.soviet-union]]. Names: Hays.'
     tags: [name:hays-wayne-l, state:oh]
+  - id: cal.1960-09-07.antisubversion-3
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: antisubversion
+    c: 'The House Un-American Activities Committee authorizes a formal investigation and hearings on the National Security Agency, the day after the Moscow press conference. Its stated purposes: tighter security laws on unauthorized disclosure of defense information and on loss of nationality; the law on suspending civilian employees in the interest of national security; procedures for investigative clearance before Government employment, to keep out subversives and security risks; legislative oversight.'
+    n: '[[w.huac-security-practices-nsa]], 1, 3 (the authorization of Sept. 7; the four purposes, with H.R. 2232, referred to the committee Jan. 12, 1959; Sec. 349 of the Immigration and Nationality Act; H.R. 1989, introduced by the chairman Jan. 9, 1959; the Act of Aug. 26, 1950). [[w.durant-congress-and-countersubversion-in]], 77 (the committee launches the investigation Sept. 7; 13 months, 2,000 hours of staff work, 16 executive-session hearings, 34 witnesses). See [[cal.1960-09-06.antisubversion]], [[cal.1960-09-07.antisubversion]]. Check: who ordered the inquiry: [[w.nsa-60-years-of-defending]], 30, has "President Eisenhower" order an investigation of the incident, a "13-month study"; the report and Durant have the committee''s own inquiry, 13 months.'
   - id: cal.1960-09-08.space
     when: Sept. 8
     date: '1960-09-08'
@@ -1641,6 +1667,12 @@ entries:
     c: 'Goodwin, on a bus in west Texas, finishes a draft on Kennedy''s Latin American policy for the Alamo, San Antonio, that afternoon. "Alianza" from the title of a New Mexico society''s magazine left on the seat; by telephone Karl Meyer of the *Washington Post* reports: "Ernesto [Betancourt] says there''s no problem. But he thinks it should be an alliance for something." Goodwin takes "progreso" and writes "Alianza para progreso." Kennedy, told by his throat specialist to save his voice, reads the draft and writes on his pad: "Let''s not waste this one. The ministers is the big one for today."'
     n: '[[w.goodwin-remembering-america]], 108–9 (Goodwin''s account; the day by the Houston ministers "that night"; the phrase first proclaimed at Tampa, Oct. 18, 109). See [[cal.1960-09-12.elections-1960-kennedy-4]]. Names: Goodwin, Kennedy.'
     tags: [name:goodwin-richard-n, name:kennedy-john-f, state:tx, city:san-antonio]
+  - id: cal.1960-09-12.intelligence
+    when: Sept. 12
+    date: '1960-09-12'
+    thread: intelligence
+    c: 'A Defense Department statement corrects its denial of Sept. 7: "one of the men, Mitchell, in his employment interview, stated that in his teens he had engaged in certain abnormal sexual practices."'
+    n: '[[w.huac-security-practices-nsa]], 3 (the denial of Sept. 7; the "corrective public statement" of Sept. 12, as quoted). Lansdale to Douglas, memorandum, "Missing NSA Personnel," Aug. 1, 1960 (in full at [[cal.1960-06-24.intelligence]]), at 2 (the lie-detector check at Mitchell''s employment, which "revealed that Mitchell had some sexual aberration prior to age 20"). See [[cal.1960-09-07.intelligence-2]].'
   - id: cal.1960-09-13.medicare
     when: Sept. 13
     date: '1960-09-13'
@@ -1957,6 +1989,13 @@ entries:
     c: 'New York, the Waldorf-Astoria. Kennedy to the Citizens for Kennedy rally: Africa will hold a quarter of the General Assembly''s seats in two or three years; Roosevelt and Truman.'
     n: '[[w.communications-freedom-of-communications-part]], 235–238. See [[cal.1960-09-14.elections-1960]]. Names: Kennedy, Truman.'
     tags: [name:kennedy-john-f, name:truman-harry-s, state:ny, city:nyc]
+  - id: cal.1960-09-14.antisubversion
+    when: Sept. 14
+    date: '1960-09-14'
+    thread: antisubversion
+    also: [intelligence]
+    c: The House Un-American Activities Committee begins its executive-session hearings on the National Security Agency.
+    n: '[[w.huac-security-practices-nsa]], 2, 4 (the hearings "began on September 14, 1960"; 16 executive sessions in 13 months, 34 present and former NSA employees as witnesses; the testimony not to be made public, 4). See [[cal.1960-09-06.antisubversion]].'
   - id: cal.1960-09-15.elections-1960
     when: Sept. 15
     date: '1960-09-15'
@@ -2071,6 +2110,13 @@ entries:
     c: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job.'
     n: '[[w.communications-freedom-of-communications-part]], 249–252. Names: Kennedy.'
     tags: [name:kennedy-john-f, state:pa]
+  - id: cal.1960-09-15.intelligence
+    when: Sept. 15
+    date: '1960-09-15'
+    thread: intelligence
+    also: [congress]
+    c: 'A top Defense Department official, testifying before a subcommittee of the House Armed Services Committee: because employment in the National Security Agency "requires access to very highly classified information, NSA employees must meet the strictest of all the security standards in the Department."'
+    n: '[[w.huac-security-practices-nsa]], 4 (the testimony of Sept. 15, 1960, as quoted; the official not named).'
   - id: cal.1960-09-16.japan-and-korea
     when: Sept. 16
     date: '1960-09-16'
@@ -2226,6 +2272,13 @@ entries:
     c: 'Pikesville, Md., the Armory. Kennedy, speaking "as a citizen" on Khrushchev''s coming to the U.N.: "you do not come to the United States, Mr. Khrushchev, with clean hands." He cites Budapest, Cuba and the Congo.'
     n: '[[w.communications-freedom-of-communications-part]], 259–262. Names: Kennedy, Khrushchev.'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, state:md, polity:ussr]
+  - id: cal.1960-09-16.antisubversion
+    when: Sept. 16
+    date: '1960-09-16'
+    thread: antisubversion
+    also: [intelligence]
+    c: The House Un-American Activities Committee, in executive session, refuses to accept as the testimony of the Defense Department's General Counsel the text of a statement released to the public the day before, or a summary of it.
+    n: '[[w.huac-security-practices-nsa]], 3 (the session of Sept. 16, 1960; the General Counsel "attempted to present as his testimony the verbatim text"; the General Counsel not named). See [[cal.1960-09-06.antisubversion]].'
   - id: cal.1960-09-17.elections-1960
     when: Sept. 17
     date: '1960-09-17'
