@@ -851,11 +851,21 @@ entries:
       - 1960-09-07T14:30Z
       - 1960-09-07T15:01Z
     time_zone: America/New_York
+  - id: cal.1960-09-07.south-asia
+    when: Sept. 7
+    date: '1960-09-07'
+    thread: south-asia
+    part_of: cal.1960-09-07.press-and-broadcasting
+    c: 'The opening statement: the Indus waters settled between Pakistan and India, "one bright spot"; thanks to Ayub, Nehru, Black of the World Bank and his deputy, Iliff. Asked of Kashmir: "it might have some effect."'
+    n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 677–78. Names: Eisenhower, Ayub, Nehru, Black.'
+    tags: [name:eisenhower-dwight-d, name:ayub-khan-mohammad, name:nehru-jawaharlal, name:black-eugene-r]
   - id: cal.1960-09-07.elections-1960-religion
     when: Sept. 7
     date: '1960-09-07'
     thread: elections-1960-religion
     also: [elections-1960-nixon]
+    follows:
+      - cal.1960-09-07.south-asia
     part_of: cal.1960-09-07.press-and-broadcasting
     c: 'Religion: he and Nixon agreed long ago never to raise or mention "the religious issue"; "I not only don''t believe in voicing prejudice, I want to assure you I feel none. And I am sure that Mr. Nixon feels exactly the same."'
     n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 678. [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (Belair, question 2: "voicing prejudice—I want"). See [[cal.1960-09-05.elections-1960-religion]]. Names: Eisenhower, Nixon.'
