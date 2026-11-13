@@ -47,6 +47,8 @@ def check(series, path, legacy=False):
     claimed = {r["id"]: r for r in ledger.rows()}
     ops = d.get("ops") or []
     added = set()
+    from .merge import patch_parts
+    parts = patch_parts(ops)
     by_day = collections.defaultdict(list)
     lst = series.lists.get("cal")
     if lst:
@@ -102,7 +104,8 @@ def check(series, path, legacy=False):
                 (warnings if legacy else errors).append(f"add {eid}: not claimed in the ledger (./bib ledger add ...)")
             elif claimed[eid]["patch"] not in (name, os.path.basename(path)):
                 errors.append(f"add {eid}: claimed by {claimed[eid]['patch']}, not this patch")
-            others = [i for i in by_day.get((str(e.get("date")), e.get("thread")), []) if i != eid]
+            others = [i for i in by_day.get((str(e.get("date")), e.get("thread")), []) if i != eid
+                      and (i, eid) not in parts and (eid, i) not in parts]   # a parent and its subentries: no duplicate
             if others:
                 warnings.append(f"add {eid}: {e.get('date')} {e.get('thread')} also holds {', '.join(others)} (one event?)")
             added.add(eid)
