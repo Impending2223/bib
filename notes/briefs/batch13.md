@@ -2,6 +2,8 @@
 
 The owner, Nov. 12 ("Please, go ahead"), on the two items offered: the calendar's split news conferences and Presidium sessions made into subentries; H.R. 7152 followed by its texts ("I've added materials on the bill ... to the shared drive. I believe the first volume of the H. Subcomm. Hearings may include the drafts we're looking for, but I'm not sure. I've also added Purdum and Risen on the bill. Just the 1964 CRA for now."). CLAUDE.md is the core; never read `build/` or a whole list file. Readers of books work by the card (`notes/briefs/reader-card.md`).
 
+Drive files: the Drive tool truncates a download at about 10 MB; fetch a larger file whole by the direct route of R54 (`curl -sSL -o <dir>/<short>.pdf "https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"`; `file`, `pdfinfo`), one at a time, and delete it when done.
+
 Every patch is audited by Opus before it merges. Never merge, never commit. Work in your own scratch directory and move the patch into `inbox/` only when `./bib patch-check` gives 0 errors. Stop at a clean point by 6:30 a.m. Pacific (`TZ=America/Los_Angeles date`).
 
 ## A and B. Subentries (the design: `tools/bib/subentries.py`, its STYLE; `notes/guide/entries.md`, "Subentries")
