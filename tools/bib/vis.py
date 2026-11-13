@@ -51,6 +51,12 @@ STYLE
     A public where any witness is public by r, else nonpublic. Where P and A agree, one tag: `X:public-PA`. Before the
     claim's own date nothing is known (§5: greyed). A public date `?` is not "by r" (a document series or a book is
     never public within a day of its event; a press or official item without a date takes the event's).
+ 8. A ruling (§8, "`vis:` rulings, an override of any computed tag"): `vis:only:ussr` (polities joined by "+",
+    `vis:only:ussr+cuba`) on an entry: at the time, only these knew of it. Privity (territory, agency, the witnesses'
+    parties) and address are cut to them, so a Presidium session that names Kennedy as its subject is no longer the
+    US's by his name tag; a witness's publication still makes it public where and when it was published. The reason
+    is the entry's own (a Soviet record: the Presidium's protocol, a cable, a memoir of the inner circle). The owner,
+    Nov. 13, 2026: "a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic".
  7. Nothing computable: a claim none of whose witnesses the registry can classify (a link to a host it does not know,
     a reference work, no source) carries the placeholder `US:all` (§7), never stored, and `check` counts it.
 """
@@ -557,6 +563,18 @@ def claims_of(series, lst, e):
     return out
 
 
+ONLY_RX = re.compile(r"^vis:only:([a-z0-9+-]+)$")
+
+
+def only_ruling(e):
+    """A `vis:only:ussr` (or `vis:only:ussr+cuba`) ruling's polities (STYLE 8), or None."""
+    for t in store.as_list(e.get("tags")):
+        m = ONLY_RX.match(str(t))
+        if m:
+            return set(m.group(1).split("+"))
+    return None
+
+
 def compute(series, lst, e):
     """Each claim of a calendar entry with its witnesses, its polities' P and A dates, and its tags at the time
     (STYLE 4-6): [{unit, text, map, unmapped, date, ref, witnesses, polities: {X: {P: [np, pub], A: [np, pub]}},
@@ -570,6 +588,12 @@ def compute(series, lst, e):
                             tags=["US:all"], computed=False))
             continue
         addr, terr, agency, basis = address(lst, e, cl["text"] if cl["unit"] != "all" else None, date)
+        only = only_ruling(e)                            # a `vis:only:` ruling (STYLE 8): who knew at the time
+        if only:
+            addr = [x for x in addr if x in only] or sorted(only, key=order_key)
+            terr = [x for x in terr if x in only]
+            agency = [x for x in agency if x in only] or sorted(only, key=order_key)
+            basis = "vis:only ruling"
         if NLF_RX.search(cl["text"] or ""):                # the Front's act is the DRV's (the owner, Nov. 11, 2026)
             addr = sorted(set(addr) | {"drv", "rvn"}, key=order_key)           # its business: the South
             agency = sorted(set(agency) | {"drv"}, key=order_key)
@@ -599,6 +623,8 @@ def compute(series, lst, e):
                                     # witness of the time that shows Saigon knew (its privity) restores it (§3)
         for w in known:
             privy |= {p for p in w["privity"] if p and p != "?" and not is_org(p)}
+        if only:
+            privy &= only
         pubs = {}
         any_public = None
         for w in known:

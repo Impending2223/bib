@@ -1,0 +1,20 @@
+# Fursenko and Naftali: who knew at the time (Nov. 13, 2026)
+
+The owner, Nov. 13, 2026: "Someone should do a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic." The two works, `w.fursenko-khrushchevs-cold-war` (*Khrushchev's Cold War*, 2006) and `w.fursenko-one-hell-of-a` (*"One Hell of a Gamble"*, 1997), rest on the Soviet archives: the Presidium's protocols, Khrushchev's dictations, KGB and GRU reports, cables. The calendar cites them on 722 entries; the visibility layer (`tools/bib/vis.py`; the spec, `notes/proposals/visibility-spec.md`) computes 85 of them as known only to the USSR at the time. Most of the other 637 are Soviet acts too, but the layer counts every tagged person as privy to an event and as addressed by it: "Khrushchev to Ulbricht: Berlin to be settled at a summit with Kennedy" comes out US:nonpublic as well, by Kennedy's name tag.
+
+## The ruling: `vis:only:`
+
+A tag on the entry, `vis:only:ussr`, says that at the time only those polities knew of the event (vis.py STYLE 8). Polities joined by `+`: `vis:only:ussr+gdr` for Khrushchev with Ulbricht; `vis:only:ussr+cuba` for the Soviet leadership with Castro, Raúl Castro or Guevara; `vis:only:ussr+prc`; `vis:only:ussr+laos` is no polity of the Pathet Lao (use the polity list, `sources/polities.yaml`, `polities:`: `us ussr prc fr frg uk gdr drv rvn cuba laos cambodia uar congo czechoslovakia poland ...`). Publication later still makes it public where it was published; the ruling governs only who knew then.
+
+For each entry, read its `c` and `n` (`./bib show ID`), and rule:
+- **Soviet-only** (`vis:only:ussr`): an act inside the Soviet government or party, unknown to anyone else at the time. The Presidium and its sessions; Khrushchev with his colleagues, aides, family; orders and instructions to Soviet officials (an ambassador, a commander, the KGB); Soviet intelligence reports to Moscow; drafts and letters not yet delivered; a Soviet official's private assessment. The subject of the talk (Kennedy, Berlin, the U-2) does not make the US privy.
+- **Soviet and a partner** (`vis:only:ussr+cuba`, `+gdr`, `+prc`, `+czechoslovakia` ...): the same, with the partner's officials present or told at the time (a meeting with Castro; a letter delivered to Ulbricht; talks with the Chinese).
+- **No ruling** (leave it): an event another polity, the US above all, knew at the time. A meeting or channel with Americans (Bolshakov with Robert Kennedy; Khrushchev with Kennedy, Harriman, Thompson, Rusk, Salinger, Cousins); a letter or message once delivered to the US (the delivery is the US's: the entry records the delivery, or both); a public speech, statement, broadcast, *Pravda* or TASS item; a US act or US intelligence on the USSR; an event in the open (a test, a launch, a shoot-down, a ship at sea seen by the Navy). Where the entry is the US's because of another of its sources (FRUS, a US memoir) as much as F&N, leave it.
+- **Mixed** (a private Soviet act and its public or delivered form in one entry, "the letter drafted and sent"): no ruling; list it (two events in one entry: the owner's rule is one event an entry).
+- **Out of scope**: an entry F&N cites only in passing for a non-Soviet event (a US meeting). Leave it.
+
+Never change `c`, `n`, the thread or other tags in this pass. Write the ruling with the `tag` op: `- tag: {id: cal.1960-11-30.berlin-and-vienna, add: ['vis:only:ussr+gdr']}`.
+
+## Mechanics
+
+Your rows: a JSON list (the lead names the file), each with `id`, `thread`, the tags computed now, and the start of `c`. Read every entry whole before ruling (`./bib show ID`, a few at a time). Patch `inbox/2026-11-13-fn-vis-<period>.yaml` (patch name the same), written in your scratch directory and moved into `inbox/` when `./bib patch-check` gives 0 errors. Never merge, commit, or edit `lists/`; never read `build/` or a whole list file. Report: a table of every row (id, ruling, ground in a few words), the counts by ruling, the mixed entries, and doubts. Stop at a clean point by 6:30 a.m. Pacific.
