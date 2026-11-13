@@ -46,8 +46,8 @@
 .vis .vfoot .vreset{flex:none;margin-top:.55rem}
 .vis .vnote{font-size:.76rem;color:var(--muted)}
 .vis .vsum b{color:var(--ink)}
-/* the claims: unmapped, a faint dotted underline; greyed; hidden. An entry takes its claims' fullest state. */
-.cl[data-um]{text-decoration:underline dotted;text-decoration-color:color-mix(in srgb,var(--muted) 55%,transparent);text-decoration-thickness:1px;text-underline-offset:.28em}
+/* the claims: greyed; hidden. An entry takes its claims' fullest state. Unmapped (data-um) carry no mark: a dotted
+   underline read as a link (the owner, Nov. 12, 2026). */
 .cl.vg{opacity:.36}
 .cl.vh{display:none}
 li.vh{display:none !important}

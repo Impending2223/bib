@@ -24,7 +24,7 @@ STYLE
     loose date: the day after its window's end, vis.py STYLE 3); data-t, its tags at the time (vis.py, STYLE 6);
     data-p, each polity's P and A spans, [nonpublic from, public from], compact: `US/P=,1996-10-01/A,=`, a polity's
     tag code, then each of P and A, its two dates, empty for none, `=` for the claim's own date, `?` public but not
-    known when; data-um, unmapped (a faint dotted underline: the panel's legend says what it means, no hover on each);
+    known when; data-um, unmapped (no mark on the page: a dotted underline read as a link, the owner, Nov. 12, 2026);
     data-x, nothing computable (the placeholder `US:all`, §7). Short, so a year's page grows by about a seventh.
  4. The panel (§6): on a year's page after the contents, above the threads; in the reader, a year's block's after its
     lede, above its threads. Polities a cell each: the US, the USSR, China, France, Germany, the UK; Other, its states
@@ -202,8 +202,8 @@ def panel(prefix=""):
             f'<h3 id="{p}visibility" data-short="Visibility">Visibility</h3>'
             f'<p class="logic">Whose record each claim is, and who knew it. Tap a toggle to cycle it: on, greyed, off. A claim '
             f'shows in full if any of its tags is on; greyed if none is on and one is greyed; hidden if all are off. '
-            f'A polity\'s own line sets its public and nonpublic both. A dotted underline: an unmapped entry, filtered as a '
-            f'whole.</p>'
+            f'A polity\'s own line sets its public and nonpublic both. An entry not yet mapped claim by claim is filtered '
+            f'as a whole.</p>'
             f'<div class="vgrid">{"".join(cells)}</div>'
             f'<div class="vother" id="{p}vother" hidden><div class="vgrid">{"".join(ocells)}</div></div>'
             f'<div class="vbar"><div><span class="lab" id="{p}vpalab">Tags by</span><span class="vpa" role="group" '
