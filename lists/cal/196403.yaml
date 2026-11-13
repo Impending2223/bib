@@ -1232,32 +1232,26 @@ entries:
   - id: cal.1964-03-08.civil-rights-bill-2
     when: Mar. 8
     date: '1964-03-08'
-    thread: civil-rights-bill
-    also: [republican-party-congress]
-    follows:
-      - cal.1964-03-08.civil-rights-bill
-    c: 'Johnson to Humphrey by telephone, after *Meet the Press*: "You''re doing just right now"; "Don''t you let those bomb throwers, now, talk you out of seeing Dirksen"; "You drink with Dirksen! You talk to Dirksen! You listen to Dirksen!" By Humphrey''s account.'
-    n: '[[w.mann-walls-of-jericho]], 395; [[w.whalen-longest-debate]], 140 (the call with Mrs. Johnson after the program: "you liberals will never deliver"); [[w.purdum-idea-whose-time-has-2014]], 207–10 (in person, at the White House after the leaders'' breakfast of Tuesday, Feb. 18, Humphrey staying behind, named floor manager the day before: the liberals "bomb throwers"; Russell knows the rules; the bill cannot pass without Dirksen; "You listen to Dirksen!"; Johnson to back him to the hilt; the note, 358, sets the talk "on or about February 18"). Check: Whalen, 148, puts "You drink with Dirksen! You talk with Dirksen! You listen to Dirksen!" at the leaders'' breakfast of Feb. 18. After *Meet the Press*: [[cal.1964-03-08.civil-rights-bill]]. Check: Purdum, 207–10, puts the talk at the White House after the leaders'' breakfast of Feb. 18, in person; his note (358) weighs the Mar. 8 accounts (the call after *Meet the Press* not recorded) and settles on "on or about February 18.". To check: Hubert H. Humphrey OH, LBJ Library (cited by [[w.mann-walls-of-jericho]], 395). Check: no recording of the call catalogued. See [[cal.1964-03-08.civil-rights-bill]]. Names: Johnson, Humphrey, Dirksen.'
-    src:
-      c: 6aafb3ea
-      rows:
-        - 'w.mann-walls-of-jericho 395: all'
-        - 'via w.mann-walls-of-jericho 395 n.humphrey-took-johnsons-advice.b: all'
-        - 'w.whalen-longest-debate 140: A, D'
-        - 'via x.1964-03-08.lbj-diary-backup-box-4: A, D'
-        - 'w.purdum-idea-whose-time-has-2014 207–10: ?'
-    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:dirksen-everett]
     time_range:
       - 1964-03-08T14:00Z
       - 1964-03-08T22:00Z
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-    variants:
-      - unit: A
-        witness: w.purdum-idea-whose-time-has-2014
-        reads: after the weekly breakfast with the Democratic leaders, Tuesday, Feb. 18, Humphrey staying behind
-        at: '207'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    follows:
+      - cal.1964-03-08.civil-rights-bill
+    c: 'Johnson to Humphrey by telephone, after *Meet the Press*: "You''re doing just right now." By Humphrey''s account.'
+    n: '[[w.mann-walls-of-jericho]], 395 (the call; Mann gives it the words of Feb. 18 too, "You listen to Dirksen!": see [[cal.1964-02-18.civil-rights-bill-2]]); [[w.whalen-longest-debate]], 140 (the call with Mrs. Johnson after the program: "you liberals will never deliver"). To check: Hubert H. Humphrey OH, LBJ Library (cited by [[w.mann-walls-of-jericho]], 395). Check: no recording of the call catalogued. See [[cal.1964-03-08.civil-rights-bill]]. Names: Johnson, Humphrey.'
+    src:
+      c: 25fbb827
+      rows:
+        - 'w.mann-walls-of-jericho 395: all'
+        - 'via w.mann-walls-of-jericho 395 n.humphrey-took-johnsons-advice.b: all'
+        - 'w.whalen-longest-debate 140: all'
+        - 'via x.1964-03-08.lbj-diary-backup-box-4: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1964-03-08.vietnam-operations
     when: Mar. 8
     date: '1964-03-08'

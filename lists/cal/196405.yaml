@@ -2617,19 +2617,19 @@ entries:
     time_band: workday daytime
     time_zone: Pacific/Honolulu
     range_basis: kind
-  - id: cal.1964-05-20.opinion
-    when: May 20
-    date: '1964-05-20'
-    thread: opinion
-    c: 'Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 41; unemployment 9; cost of living 5. The party better able to handle it: Democratic 40, Republican 16, no difference 44.'
-    n: '[[w.gallup-poll]], III, 1881.'
   - id: cal.1964-05-20.civil-rights-bill
-    when: May 20
-    date: '1964-05-20'
+    when: May 19
+    date: '1964-05-19'
+    time_range:
+      - 1964-05-19T13:00Z
+      - 1964-05-19T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
     thread: civil-rights-bill
     also: [republican-party-congress]
     c: 'Dirksen to reporters after a divided Republican conference: the bill will pass; civil rights "an idea whose time has come."'
-    n: '[[w.caro-passage-of-power]], 568 (the date); [[w.whalen-longest-debate]], 184–86 (after the conference, Hickenlooper''s revolt; "No army is stronger than an idea whose time has come"); [[w.risen-bill-of-the-century]], 219–20 (the remark, "no army can withstand the strength of an idea whose time has come," to reporters the afternoon of May 19 by Risen, with the civil service, women''s suffrage and child labor; not "the bill will pass"); [[w.purdum-idea-whose-time-has-2014]], 292–93 (Tuesday, May 19, after the Republican caucus, Dirksen in the press gallery: a "little sermon" on reforms once controversial; "No army can withstand the strength of an idea whose time has come" (Purdum''s note, 364: no such passage in Hugo''s diary has surfaced; Mann, 422); "Sarge, they''re shooting at us!"; "it can''t be stopped"; Purdum has the sermon on May 19, not May 20). [[w.mann-walls-of-jericho]], 422 (the words). Check: Whalen, 185–86, also gives May 19, after the morning''s conference, "that noon" ([*New York Times*, May 20, 1964](https://timesmachine.nytimes.com/timesmachine/1964/05/20/issue.html), 34, cited 266). Check: Purdum, 292–93, has the sermon in the press gallery on May 19, after the Republican caucus. See [[cal.1964-05-13.republican-party-congress]]. Names: Dirksen. Check: Mann, 422, gives a meeting with reporters on May 19.'
+    n: '[[w.caro-passage-of-power]], 568 (the date); [[w.whalen-longest-debate]], 184–86 (after the conference, Hickenlooper''s revolt; "No army is stronger than an idea whose time has come"); [[w.risen-bill-of-the-century]], 219–20 (the remark, "no army can withstand the strength of an idea whose time has come," to reporters the afternoon of May 19 by Risen, with the civil service, women''s suffrage and child labor; not "the bill will pass"); [[w.purdum-idea-whose-time-has-2014]], 292–93 (Tuesday, May 19, after the Republican caucus, Dirksen in the press gallery: a "little sermon" on reforms once controversial; "No army can withstand the strength of an idea whose time has come" (Purdum''s note, 364: no such passage in Hugo''s diary has surfaced; Mann, 422); "Sarge, they''re shooting at us!"; "it can''t be stopped"). [[w.mann-walls-of-jericho]], 422 (the words). Whalen, 185–86, gives May 19, after the morning''s conference, "that noon" ([*New York Times*, May 20, 1964](https://timesmachine.nytimes.com/timesmachine/1964/05/20/issue.html), 34, cited 266). Check: Caro, 568, dates it May 20. See [[cal.1964-05-13.republican-party-congress]]. Names: Dirksen. Check: Mann, 422, gives a meeting with reporters on May 19.'
     src:
       c: 0dd32034
       rows:
@@ -2640,12 +2640,12 @@ entries:
         - 'w.risen-bill-of-the-century 219–20: B'
         - 'w.purdum-idea-whose-time-has-2014 292–93: ?'
     tags: [name:dirksen-everett]
-    time_range:
-      - 1964-05-20T13:00Z
-      - 1964-05-20T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
+  - id: cal.1964-05-20.opinion
+    when: May 20
+    date: '1964-05-20'
+    thread: opinion
+    c: 'Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 41; unemployment 9; cost of living 5. The party better able to handle it: Democratic 40, Republican 16, no difference 44.'
+    n: '[[w.gallup-poll]], III, 1881.'
   - id: cal.1964-05-20.vietnam-congress
     when: May 20
     date: '1964-05-20'

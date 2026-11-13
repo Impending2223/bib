@@ -1529,6 +1529,32 @@ entries:
         - 'w.purdum-idea-whose-time-has-2014 259–60: all'
       c: b6b9ea01
     tags: [name:smathers-george-a, name:humphrey-hubert-h]
+  - id: cal.1964-04-15.civil-rights-bill-2
+    when: Apr. 13
+    date: '1964-04-13'
+    time_range:
+      - 1964-04-13T14:00Z
+      - 1964-04-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
+    thread: civil-rights-bill
+    c: 'Humphrey: he has talked Dirksen down from forty amendments to fifteen; a cloture vote by May 15 or 20.'
+    n: '[[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 162 (at the morning''s bipartisan meeting; "after the first week in May"); [[w.risen-bill-of-the-century]], 203 (Humphrey at the daily strategy sessions in his office: a cloture vote by mid-May, "a barrage of propaganda"; Dirksen''s list cut to fifteen, Apr. 11; not the day); [[w.purdum-idea-whose-time-has-2014]], 258 (the bipartisan floor leaders'' meeting on the morning of Monday, Apr. 13: Rauh asks Horn about Dirksen''s amendments, Horn: "Keep smiling"; Humphrey, arriving late, says he has talked Dirksen down from some seventy amendments to about fifteen; Mitchell: if they prevail "a disaster," a "Negro revolution"; Humphrey: "We don''t plan on letting them pass"; not the cloture date; the note cites Horn''s log, 87). Whalen, 162, and Purdum, 258, date it Monday, Apr. 13 (Horn''s log, Apr. 13, 86–89, cited by Whalen, 262). Check: Purdum, 258, gives seventy amendments, not forty. Check: the entry stood at Apr. 15 by Bernstein, 69. See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Dirksen.'
+    src:
+      c: a5b27b1b
+      rows:
+        - 'w.bernstein-guns-or-butter 69: all'
+        - 'w.whalen-longest-debate 162: A-B'
+        - 'via x.1964.horn-periodic-log: A-B'
+        - 'w.risen-bill-of-the-century 203: ?'
+        - 'w.purdum-idea-whose-time-has-2014 258: ?'
+    tags: [name:humphrey-hubert-h, name:dirksen-everett]
+    variants:
+      - unit: A
+        witness: w.purdum-idea-whose-time-has-2014
+        reads: Humphrey told the floor leaders' group on Monday, Apr. 13, that he had talked Dirksen down from some seventy amendments to about fifteen
+        at: '258'
   - id: cal.1964-04-14.elections-1964
     when: Apr. 14
     date: '1964-04-14'
@@ -1780,32 +1806,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1964-04-15.civil-rights-bill-2
-    when: Apr. 15
-    date: '1964-04-15'
-    thread: civil-rights-bill
-    c: 'Humphrey: he has talked Dirksen down from forty amendments to fifteen; a cloture vote by May 15 or 20.'
-    n: '[[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 162 (at the morning''s bipartisan meeting; "after the first week in May"); [[w.risen-bill-of-the-century]], 203 (Humphrey at the daily strategy sessions in his office: a cloture vote by mid-May, "a barrage of propaganda"; Dirksen''s list cut to fifteen, Apr. 11; not the day); [[w.purdum-idea-whose-time-has-2014]], 258 (the bipartisan floor leaders'' meeting on the morning of Monday, Apr. 13: Rauh asks Horn about Dirksen''s amendments, Horn: "Keep smiling"; Humphrey, arriving late, says he has talked Dirksen down from some seventy amendments to about fifteen; Mitchell: if they prevail "a disaster," a "Negro revolution"; Humphrey: "We don''t plan on letting them pass"; not the cloture date; the note cites Horn''s log, 87). Check: Whalen, 162, dates it Monday, Apr. 13 (Horn''s log, Apr. 13, 86–89, cited 262). Check: Purdum, 258, has the report on Monday, Apr. 13, as Whalen does, and gives seventy amendments, not forty. See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Dirksen.'
-    src:
-      c: a5b27b1b
-      rows:
-        - 'w.bernstein-guns-or-butter 69: all'
-        - 'w.whalen-longest-debate 162: A-B'
-        - 'via x.1964.horn-periodic-log: A-B'
-        - 'w.risen-bill-of-the-century 203: ?'
-        - 'w.purdum-idea-whose-time-has-2014 258: ?'
-    tags: [name:humphrey-hubert-h, name:dirksen-everett]
-    time_range:
-      - 1964-04-15T14:00Z
-      - 1964-04-15T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
-    variants:
-      - unit: A
-        witness: w.purdum-idea-whose-time-has-2014
-        reads: Humphrey told the floor leaders' group on Monday, Apr. 13, that he had talked Dirksen down from some seventy amendments to about fifteen
-        at: '258'
   - id: cal.1964-04-15.elections-1964-primaries
     when: Apr. 15
     date: '1964-04-15'
