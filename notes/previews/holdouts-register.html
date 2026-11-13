@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holdouts Register Preview</title>
+<style>
+:root{--ink:#1a1a1a;--mute:#6b6b6b;--bg:#f6f4ef;--rule:#d9d4c7;--state:#8a6d3b;--panel:#fffdf8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e8e6e1;--mute:#a09d96;--bg:#16181c;--rule:#33363c;--state:#d4b47a;--panel:#1d2025}}
+:root[data-theme="dark"]{--ink:#e8e6e1;--mute:#a09d96;--bg:#16181c;--rule:#33363c;--state:#d4b47a;--panel:#1d2025}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.55 Georgia,serif}
+main{max-width:44rem;margin:0 auto;padding:2rem 16px 4rem}
+h1{font-size:1.6rem;margin:.2rem 0 .3rem}h2{font-size:1.15rem;margin:2.2rem 0 .6rem;border-bottom:1px solid var(--rule);padding-bottom:.2rem}
+.sans{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.lede{color:var(--mute);font-size:.95rem}
+.label{font:600 .72rem system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.day{font-weight:700;margin-top:1.2rem}
+.e{padding:.55rem 0;border-top:1px dotted var(--rule)}
+.e .th{font:600 .72rem system-ui,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:var(--mute)}
+.e .n{font-size:.88rem;color:var(--mute)}
+.state{border-left:3px solid var(--state);padding-left:.8rem;background:var(--panel)}
+.state .tag{font:600 .7rem system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--state)}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;vertical-align:top;padding:.45rem .4rem;border-bottom:1px solid var(--rule)}
+th{font:600 .75rem system-ui,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--mute)}
+td.end{color:var(--mute);font-style:italic}
+a{color:inherit}
+.note{font-size:.9rem;color:var(--mute)}
+.scroll{overflow-x:auto}
+</style></head>
+<body><main>
+<p class="label">Preview, not built · Nov. 12, 2026</p>
+<h1>Holdouts, 1960: a register</h1>
+<p class="lede">Two things to look at: how a standing condition shows on the paper's own day, in the day's run of entries; and the register that gathers every such report by person, with the day it ended where the calendar holds one.</p>
+
+<h2>1. On the day: Wednesday, Sept. 7, 1960</h2>
+<p class="note sans">As it would read in the calendar page, among the day's other entries (two neighbours shown). The standing condition is set off by a rule and the word "Standing", so it does not read as an act.</p>
+<div class="day">Wednesday, Sept. 7</div>
+<div class="e"><div class="th">1960 elections: Kennedy's campaign</div>
+Kennedy at Portland, the Civic Auditorium: the fight for peace.<div class="n">New York Times, Sept. 8, 1960, at 1, 24.</div></div>
+<div class="e state"><span class="tag">Standing</span> <span class="th">· 1960 elections: Kennedy's campaign</span><br>
+As the <i>Times</i> reports it: Byrd of Virginia has not endorsed the Democratic ticket; neither of Georgia's Senators, Russell or Talmadge, has spoken for Kennedy.<div class="n"><i>New York Times</i>, Sept. 7, 1960, at 1, 35 ("Democrats Face a Setback in South, Survey Indicates," by Claude Sitton). Names: Byrd, Russell, Talmadge, Kennedy.</div></div>
+<div class="e"><div class="th">1960 elections: Kennedy's campaign</div>
+The <i>Times</i> prints Claude Sitton's report of two weeks of interviews in the South. Battle, of the Virginia campaign: "There's no doubt about it—we're at our low point now." Hollings forecasts an "uphill battle"; Hodges: "a little too close." Collins and Milligan: Florida lost unless the State's officeholders join.<div class="n"><i>New York Times</i>, Sept. 7, 1960, at 1, 35.</div></div>
+
+<h2>2. The register</h2>
+<p class="note sans">Built from the calendar's standing entries (tag <code>form:state</code>), a row a person by their name tag; each report a dated link to its entry; the end, the event that closed it (an endorsement, a first appearance), when the calendar holds one. Nothing kept apart in the data: a new state entry adds its report to the row.</p>
+<div class="scroll"><table>
+<thead><tr><th>Who</th><th>Condition</th><th>Reported</th><th>Ended</th></tr></thead>
+<tbody>
+<tr><td>Byrd, Harry F.<br><span class="note">Senator, Va.</span></td><td>has not endorsed the Democratic ticket</td><td><a href="#">Sept. 7</a> (<i>Times</i>, Sitton)</td><td class="end">not in the calendar</td></tr>
+<tr><td>Russell, Richard B.<br><span class="note">Senator, Ga.</span></td><td>has not spoken for Kennedy</td><td><a href="#">Sept. 7</a> (<i>Times</i>, Sitton)</td><td class="end">not in the calendar</td></tr>
+<tr><td>Talmadge, Herman E.<br><span class="note">Senator, Ga.</span></td><td>has not spoken for Kennedy</td><td><a href="#">Sept. 7</a> (<i>Times</i>, Sitton)</td><td class="end">not in the calendar</td></tr>
+</tbody></table></div>
+<p class="note">Where it would live: a section of the 1960 elections thread's page (its own heading, after the thread's dates), and in the reader beside the thread. A later report of the same condition ("still silent") adds a date to the row; the ending event fills the last column and links back.</p>
+<p class="note">Questions for the owner: the label ("Standing", or "As reported"); whether the register is by election year (1960, 1964, 1968) or one register for all standing conditions (a bill in committee, a nomination held up), grouped by thread.</p>
+</main></body></html>
