@@ -620,3 +620,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "PRC style; Mao isn't the author of his own nianpu but edited works drop their editors' makes in short form anyways; I've changed my mind—drop the tone marks everywhere, including in long titles; keep the macrons; I'm not sure where Zhang Zishen came from." (Nov. 13, night: word division by the PRC standard; the nianpu cards to their compilers as editors, the short form without them; Pinyin without tone marks, titles and names alike; Hepburn macrons kept.)
 
 "Name the compilers on the cards. Keep the cited editions. (What edition of the nianpu are we working from?)" (Nov. 13, night. The Drive epub is the publisher's nine-volume set, the 2013 printing: 1893-1949, rev. ed., 3 vols.; 1949-1976, 6 vols.; 1962 in vol. 5 of the latter, as the cites have it. Not the 2023 revision.)
+
+"The reader shouldn't read Schattenberg from 1960 on?" (Nov. 14, early: yes; the reader told to read from Jan. 1960.)
