@@ -1,0 +1,323 @@
+patch: inbox/2026-11-14-old-round4.yaml
+by: reader 1
+ops:
+- check:
+    id: cal.1965-02-26.vietnam-3
+    text: 'Check: whether this is the meeting of Feb. 26 at which the landing was approved ([[cal.1965-02-26.vietnam]]); Ball, 392, names his memorandum, not the landing.'
+- edit:
+    id: cal.1965-08-03.voting-rights
+    base: 14c892b5
+    set:
+      when: Aug. 3
+      c: House adopts the conference report on the voting rights bill, S. 1564, [328–74](https://voteview.com/rollcall/RH0890107); recommittal lost, [118–284](https://voteview.com/rollcall/RH0890106). The House's ban on the poll tax dropped for a finding that it abridges the right to vote and a direction to the Attorney General to sue.
+      n: '[111 Cong. Rec. 19,200–01](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-5-2.pdf) (1965) (Aug. 3, 1965). [[w.branch-at-canaans-edge]], 275 (the House''s vote); [[w.mann-walls-of-jericho]], 475; [[w.kotz-judgment-days]], 331 (328–74); [[w.zelizer-fierce-urgency-of-now]], 219 (328–74); [[w.bernstein-guns-or-butter]], 240–41 (Dirksen and Celler''s language; the American flag provision kept). See [[cal.1965-07-09.voting-rights]]. Check: the pages.'
+    unset:
+    - src
+- add:
+    entry:
+      id: cal.1965-08-04.voting-rights-2
+      when: Aug. 4
+      date: '1965-08-04'
+      thread: voting-rights
+      c: Senate adopts the conference report on the voting rights bill, S. 1564, [79–18](https://voteview.com/rollcall/RS0890178), clearing it for the President.
+      n: '[111 Cong. Rec. 19,378](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-6-1.pdf) (1965) (Aug. 4, 1965). [[w.branch-at-canaans-edge]], 275 (the Senate''s passage); [[w.kotz-judgment-days]], 331 (the Senate 79–18 the next day, Smathers for); [[w.zelizer-fierce-urgency-of-now]], 219 (79–18). See [[cal.1965-08-03.voting-rights]]. Check: the pages.'
+- edit:
+    id: cal.1962-10-23.foreign-aid
+    base: df796afb
+    set:
+      c: 'Kennedy signs the foreign aid appropriation for fiscal 1963, [Pub. L. 87-872, 76 Stat. 1163](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1163.pdf) (H.R. 13175): military assistance $1.325 billion, against the $1.5 billion asked.'
+      n: '[Pub. L. 87-872, 76 Stat. 1163](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1163.pdf) (Oct. 23, 1962) ($1,325,000,000 for military assistance). [[w.poole-joint-chiefs-of-staff]], 220 (the $1.5 billion asked). Check: the day of final passage. Congress adjourned Oct. 13; the bill signed Oct. 23.'
+    unset:
+    - src
+- check:
+    id: cal.1962-10-30.testing
+    text: 'Check: the place. Kuznetsov was in New York for the missile-crisis talks at the United Nations at the end of October 1962; the entry''s "Geneva" is not borne out by [[w.fursenko-khrushchevs-cold-war]], 507, as read here.'
+- edit:
+    id: cal.1963-03-25.transportation
+    base: 888c42e7
+    set:
+      when: Mar. 23
+      date: '1963-03-23'
+      c: 'Chicago. Kennedy at O''Hare''s dedication, before the election for mayor: the airport "could be classed as one of the wonders of the modern world," "a tribute to Mayor Daley." A civic luncheon at the Conrad Hilton.'
+      n: 'Remarks in Chicago at the Dedication of O''Hare International Airport, [1963 Pub. Papers 282](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=340) (Mar. 23, 1963); Remarks at a Civic Luncheon in Chicago, [284](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=342). [[w.cohen-american-pharaoh]], 300–301. Names: John F. Kennedy, Daley. Check: Cohen''s day; the entry was filed under Mar. 25.'
+    unset:
+    - src
+- edit:
+    id: cal.1963-10-03.defense
+    base: 19223e4d
+    set:
+      when: Oct. 8
+      date: '1963-10-08'
+      c: The House adopts the conference report on the Defense appropriation, H.R. 7179, 336 to 3, slightly more than $47.22 billion; the Senate adopts it the same day, clearing it for the President. About $2.1 billion under the request.
+      n: 'Daily Digest, [109 Cong. Rec. D483](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=481) (Senate), [D484](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=482) (House: 336 yeas to 3 nays) (Oct. 8, 1963). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 140 (the amount and the cut). Check: Kaplan, 140, has the day Oct. 3 and the House vote 335 to 3; the Digest has Oct. 8, 336 to 3. Check: the Senate''s vote by voice.'
+    unset:
+    - src
+- check:
+    id: cal.1966-07-01.vietnam-congress-2
+    text: 'Check: the day and the place. The Senate adjourned June 30 until July 11 ([112 Cong. Rec. 14,897](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt11/pdf/GPO-CRECB-1966-pt11-7-1.pdf) (1966)), so no Senate speech of July 1; the Record of June 30 shows no such speech by Fulbright; the *Arkansas Gazette* of July 1 reports it. The speech may be of June 30 or outside the chamber.'
+- check:
+    id: cal.1968-03-06.defense-clifford
+    text: 'Check: Mar. 6, 1968 was a Wednesday; Clifford, sworn Friday, Mar. 1, had his first Monday on Mar. 4. Drea, 185–86, as quoted, not read for the day.'
+- combine:
+    keep: cal.1966-12-21.elections-1966
+    drop: cal.1966-12-21.democratic-party
+- combine:
+    keep: cal.1966-08-04.vietnam-support
+    drop: cal.1966-08-04.war-opposition
+- combine:
+    keep: cal.1966-01-28.conservation
+    drop: cal.1966-07-01.conservation
+- combine:
+    keep: cal.1966-07-18.civil-disorders
+    drop: cal.1966-07-19.civil-disorders
+- edit:
+    id: cal.1966-02-17.vietnam-hearings
+    base: 5bd327cf
+    set:
+      when: Feb. 17
+      date: '1966-02-17'
+      c: 'The Foreign Relations Committee''s hearings: Taylor, Feb. 17, televised, for the administration: against Gavin''s enclaves; the Communists "have not forgotten that the Vietminh won more in Paris than in Dienbienphu." Case, a Republican for the war: "troubled by any suggestion that any question raised is weakening American efforts abroad." Morse: the people will repudiate the war; Taylor: "That, of course, is good news to Hanoi"; Morse: "the smear artist."'
+      n: 'Daily Digest, [112 Cong. Rec. D57](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=55) (Feb. 17, 1966). Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam* (1966) (Check the pages; Gibbons cites 438, 454–55 and 530 for Taylor''s day, IV, 243 nn.88–90). [[w.gibbons-u-s-government-and]], IV, 242–48; [[w.woods-fulbright]], 406 (Taylor: the policy "the best that has been suggested"; Fulbright reads the letter of an "anonymous" observer, Pettit); [[w.taylor-swords-and-plowshares]], 365–66 (Taylor''s opening statement, the four components; cross-examined the rest of the day); [[w.zaroulis-who-spoke-up]], 72, 74–75 (Morse and Taylor, "good news to Hanoi"; Taylor on Gavin''s plan; Fulbright and Taylor on napalm and Tokyo; the days not given). [[w.mann-grand-delusion]], 494 (Taylor and Morse). See [[cal.1966-02-04.vietnam]]; [[cal.1966-02-08.vietnam-hearings]]. Names: Taylor, Gavin, Case, Morse. Check: Mann, 494, gives Morse''s words "I know that that is the smear ... that you militarists give."'
+      tags:
+      - name:taylor-maxwell
+      - name:case-clifford-p
+      - name:morse-wayne
+      - name:gavin-james-m
+    unset:
+    - src
+- edit:
+    id: cal.1966-05-29.vietnam-struggle
+    base: 0fb8f708
+    set:
+      when: May 29
+      date: '1966-05-29'
+      c: 'Self-immolations of the Buddhist struggle begin: a nun at Huế on May 29 the first (Check), others in the days after.'
+      n: 'To check: a source for the nun''s act of May 29. Check: the day and the first. See [[cal.1966-03-10.vietnam]].'
+      tags:
+      - place:hue
+    unset:
+    - src
+- edit:
+    id: cal.1966-05-30.vietnam-struggle
+    base: 2c8d8ee5
+    set:
+      c: 'Lodge, 5124: the "current cynical campaign of hunger strikes, letters in blood and suicide" aims to force concessions to Trí Quang, who "is not to be reasoned with"; Kỳ isolating the extremists; "we should persist."'
+      n: 'Lodge''s telegram 5124 from Saigon, May 30, quoted in FRUS 1964–68, IV, doc. [150](https://history.state.gov/historicaldocuments/frus1964-68v04/d150), n. 3 (the "hunger strikes" wording). [[w.gibbons-u-s-government-and]], IV, 329–30. To check: Saigon to Washington 5124, May 30, 1966, NSF Memos to the President—Walt Rostow, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 330 n.51). Names: Lodge, Thích Trí Quang, Nguyễn Cao Kỳ. Made public: FRUS 1964–68, IV (1998). Check: Gibbons, IV, 329–30, quotes the telegram "huge strikes ... suicides"; FRUS has "hunger strikes, letters in blood and suicide."'
+    unset:
+    - src
+- combine:
+    keep: cal.1967-04-05.king
+    drop: cal.1967-04-05.vietnam-support
+- combine:
+    keep: cal.1967-05-06.war-opposition
+    drop: cal.1967-05-07.war-opposition
+- check:
+    id: cal.1967-05-06.war-opposition
+    text: 'Check: the day. Gibbons, IV, 697, has the meeting May 6; Bernstein, 414, May 7 (the Secret Service report of May 12; McPherson''s memorandum of May 15).'
+- combine:
+    keep: cal.1967-11-11.war-opposition
+    drop: cal.1967-11-11.vietnam-prisoners
+- check:
+    id: cal.1967-10-11.vietnam
+    text: 'Check: Oct. 11, 1967 was a Wednesday; the lunch called the Tuesday lunch by Gibbons, IV, 787–88, was perhaps held a day late, or is of Oct. 10.'
+- check:
+    id: cal.1967-11-08.vietnam-2
+    text: 'Check: Nov. 8, 1967 was a Wednesday (Nov. 7 election day); the lunch called the Tuesday lunch by Gibbons, IV, 896, was perhaps held a day late, or is of Nov. 7.'
+- edit:
+    id: cal.1967-04-12.railroads
+    base: e67f9c60
+    set:
+      when: Apr. 12
+      date: '1967-04-12'
+      c: Johnson signs the joint resolution extending the railroad shopcraft no-strike period, [81 Stat. 12](https://www.govinfo.gov/content/pkg/STATUTE-81/pdf/STATUTE-81-Pg12.pdf), to 12:01 a.m. May 3.
+      n: 'Statement by the President Upon Signing Bill Extending the "No Strike" Period in the Railroad Dispute, [1967 Pub. Papers 444](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=512) (Apr. 12, 1967). Statute (K–J Cong. II.J.2). [[w.califano-triumph-and-tragedy-of]], 190 (Fahy, a judge, would retire to chair the panel). See [[cal.1967-04-10.railroads]]. Names: Johnson. Check: Califano, 190, "passed the next day," Apr. 11 by the roll calls ([[cal.1967-04-11.railroads]]).'
+    unset:
+    - src
+- add:
+    entry:
+      id: cal.1967-04-11.railroads
+      when: Apr. 11
+      date: '1967-04-11'
+      thread: railroads
+      c: 'The shopcraft dispute. Congress passes the joint resolution extending the no-strike period: Senate [81–1](https://voteview.com/rollcall/RS0900054), House [396–8](https://voteview.com/rollcall/RH0900038).'
+      n: 'Roll calls: [Senate](https://voteview.com/rollcall/RS0900054); [House](https://voteview.com/rollcall/RH0900038) (Apr. 11, 1967). [[w.califano-triumph-and-tragedy-of]], 190 (passed the next day, after the President''s message of Apr. 10). To check: 113 Cong. Rec. (Apr. 11, 1967). See [[cal.1967-04-10.railroads]].'
+- follows:
+    id: cal.1967-04-12.railroads
+    add:
+    - cal.1967-04-11.railroads
+- edit:
+    id: cal.1967-01-10.rules
+    base: 05af4c19
+    set:
+      also:
+      - congress
+      c: 'The House takes over the rules of the 89th Congress without the 21-day rule: the previous question, [196–225](https://voteview.com/rollcall/RH0900004); the amendment dropping it, [234–185](https://voteview.com/rollcall/RH0900005).'
+      n: 'H. Res. 7, 90th Cong., [113 Cong. Rec. 31–32](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-2.pdf) (1967) (Jan. 10, 1967). [[w.zelizer-fierce-urgency-of-now]], 265 (the 21-day rule eliminated in the first days of the 90th). To check: [[w.zelizer-on-capitol-hill]]; [[w.congress-and-the-nation-1969]]. See [[cal.1965-01-04.congress]]. Check: the pages. Check: the Record prints the second vote "yeas 233, nays 185, not voting 14" (32); voteview, 234–185.'
+      tags:
+      - congress:90
+      - committees:90
+    unset:
+    - src
+    - short
+- add:
+    entry:
+      id: cal.1967-01-10.congress-4
+      when: Jan. 10
+      date: '1967-01-10'
+      thread: congress
+      c: 90th Congress convenes. Senate 64 D–36 R; House 248 D–187 R, Powell among the Democrats. McCormack Speaker over Ford, [245–186](https://voteview.com/rollcall/RH0900001).
+      n: '[113 Cong. Rec. 4–6](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-1.pdf) (Senate); [113 Cong. Rec. 11–13](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-2.pdf) (House) (Jan. 10, 1967). See [[cal.1965-01-04.congress]]. Names: McCormack, Ford, Powell. Check: the pages.'
+      tags:
+      - congress:90
+      - name:mccormack-john-w
+      - name:ford-gerald-r
+      - name:powell-adam-clayton-jr
+      - committees:90
+- follows:
+    id: cal.1967-01-10.rules
+    add:
+    - cal.1967-01-10.congress-4
+- combine:
+    keep: cal.1963-11-22.assassination-8
+    drop: cal.1963-11-22.defense
+- check:
+    id: cal.1963-08-07.civil-rights-bill
+    text: 'Check: the place. The NAACP''s 1963 convention was held in Chicago in July; the entry''s "Statler-Hilton" and the convention are not borne out for Aug. 7 (Risen, 109, gives the speech without them).'
+- edit:
+    id: cal.1962-10-01.defense
+    base: f05c1283
+    set:
+      c: 'McNamara meets the Chiefs and their new chairman, Taylor, sworn in that day: reconsider their endorsement of the RS-70. Arends charges McNamara means to kill it by "study and re-study, and re-study of the studies."'
+    unset:
+    - src
+- check:
+    id: cal.1962-10-01.defense
+    text: 'Check: the day of Arends''s charge (Kaplan, 115).'
+- follows:
+    id: cal.1962-07-27.voting-rights
+    add:
+    - cal.1962-07-27.press-and-broadcasting
+- add:
+    entry:
+      id: cal.1962-10-23.missile-crisis-quarantine-3
+      when: Oct. 23
+      date: '1962-10-23'
+      thread: missile-crisis-quarantine
+      c: The Council of the OAS endorses the quarantine, none opposed, 19–0 by Ball's count.
+      n: '[[w.ball-past-has-another-pattern]], 299 (19–0); [[w.fursenko-one-hell-of-a]], 255; [[w.rusk-as-i-saw-it-1990]], 236 (the OAS vote); [[w.fursenko-khrushchevs-cold-war]], 482 (the OAS); [[w.sorensen-kennedy]], 706, 708 (the OAS unanimous). Check: the hour. See [[cal.1962-10-16.missile-crisis]]. Names: Ball, Rusk.'
+      tags:
+      - name:ball-george-w
+      - name:rusk-dean
+- edit:
+    id: cal.1962-10-23.missile-crisis
+    base: 4546ccc0
+    set:
+      c: Kennedy signs Proclamation 3504, the quarantine, in force 10 a.m., Oct. 24.
+      n: '[Kennedy and Robert Kennedy, 7:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/discussion-between-president-kennedy-and-robert-kennedy), Tapes 36.1 and 36.2 (Miller Center). [Proclamation No. 3504](https://www.presidency.ucsb.edu/documents/proclamation-3504-interdiction-the-delivery-offensive-weapons-cuba), [27 Fed. Reg. 10,401](https://www.govinfo.gov/app/details/FR-1962-10-25) (1962). Opinion: Katzenbach to Robert Kennedy, Oct. 23, on the draft proclamation: Russian ships not bound for Cuba searchable within a reasonable zone, or where a change of course is a ruse, [FRUS 1961–63, X–XII, microfiche supp., doc. 374](https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d374). [[w.sorensen-kennedy]], 706, 708–09 (the proclamation issued, effective the next day); [[w.ball-past-has-another-pattern]], 299 (the OAS vote, 19–0); [[w.fursenko-one-hell-of-a]], 255 (the OAS vote); [[w.rusk-as-i-saw-it-1990]], 236 (the OAS vote); [[w.fursenko-khrushchevs-cold-war]], 482 (the OAS vote), all as in [[cal.1962-10-23.missile-crisis-quarantine-3]]. Check: the hour of the signing (about 7 p.m. by the reviewer''s note). See [[cal.1962-10-16.missile-crisis]]; [[cal.1962-10-23.missile-crisis-quarantine-3]]. Names: Kennedy, Robert Kennedy.'
+      tags:
+      - name:kennedy-robert-f
+      - name:kennedy-john-f
+    unset:
+    - src
+- follows:
+    id: cal.1962-10-23.missile-crisis
+    add:
+    - cal.1962-10-23.missile-crisis-quarantine-3
+- combine:
+    keep: cal.1961-03-23.laos-2
+    drop: cal.1961-03-24.laos
+- edit:
+    id: cal.1961-11-07.states-and-cities
+    base: ff51f13b
+    set:
+      also:
+      - mayors
+      c: 'Off-year elections. New York: Wagner re-elected mayor over Lefkowitz (R), 1,237,421 to 835,691, 51.0 percent; Gerosa, independent, 321,604, 13.3 percent.'
+      n: 'Votes: [Wikipedia, "1961 New York City mayoral election"](https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election); Check: the Board of Elections'' canvass. [[w.smith-on-his-own-terms]], 360 (Wagner over Lefkowitz by four hundred thousand votes). See [[cal.1961-09-07.states-and-cities]]; [[cal.1961-11-07.governors-nj]]. Names: Wagner, Lefkowitz, Gerosa.'
+      tags:
+      - name:wagner-robert-f-jr
+      - state:ny
+      - city:nyc
+      - name:lefkowitz-louis-j
+      - name:gerosa-lawrence-e
+    unset:
+    - src
+- edit:
+    id: cal.1961-09-30.foreign-aid
+    base: 3e109856
+    set:
+      c: 'Kennedy signs the foreign aid appropriation for fiscal 1962, [Pub. L. 87-329, 75 Stat. 717](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg717.pdf) (H.R. 9033): military assistance $1.6 billion, the conference compromise, against the President''s request of Mar. 22.'
+      n: '[Pub. L. 87-329, 75 Stat. 717](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg717.pdf) (Sept. 30, 1961) ($1,600,000,000 for military assistance). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 425 (the compromise; the request). Check: the act. Check: the day; the first session adjourned Sept. 27 ([[cal.1961-09-27.transition-and-staff]]). See [[cal.1961-09-01.foreign-aid]].'
+    unset:
+    - src
+- edit:
+    id: cal.1960-07-02.amendments
+    base: 1c752486
+    set:
+      n: '[106 Cong. Rec. 15,678–79, 15,686](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf) (1960). The Senate sat through the night of July 1 and adjourned at 8:33 a.m., July 2: [Daily Digest, 106 Cong. Rec. D432](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=430) (1960). The Senate met Saturday, July 2, at 10 a.m. ([106 Cong. Rec. 15,558](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf)), the amendment taken up in that session, so the act is July 2''s. Check: the hour on the Record''s pages; before midnight, the act is July 1''s. To check: [[w.kyvig-explicit-and-authentic-acts]]; [[w.harrison-on-account-of-sex]]. Names: Johnson, Hayden, Butler.'
+    unset:
+    - src
+- follows:
+    id: cal.1960-07-15.elections-1960-3
+    add:
+    - cal.1960-07-15.elections-1960
+- check:
+    id: cal.1964-08-25.elections-1964-6
+    text: 'Check: the recording. Miller Center''s WH6408-37-5183 is Johnson with Sanders alone (Sanders on the Southern unhappiness, a walkout) and WH6408-37-5184 Johnson with Sanders and Connally (the continued discussion); neither is shown at 4:32 p.m. here. Distinct from [[cal.1964-08-25.elections-1964-freedom-democrats]] unless the two are one call.'
+- check:
+    id: cal.1964-08-25.elections-1964-freedom-democrats
+    text: 'Check: the recording cited, WH6408-37-5184 at Miller Center, is Johnson with Sanders and Connally on the Southern objections, not a call to Connally alone on "Mississippi''s seated"; the call and its hour (4:32 p.m., as for [[cal.1964-08-25.elections-1964-6]]) are not borne out.'
+- check:
+    id: cal.1964-08-28.elections-1964-atlantic-city
+    text: 'Check: the recording cited, WH6408-40-5247 (Miller Center, dated Aug. 28), is described as on a press conference "tomorrow," press facilities at Stonewall, William Miller''s charge, the American Legion and Vietnam; it does not bear out the call about flying to Atlantic City with Humphrey "tonight," which, the convention having ended Aug. 27, belongs to Aug. 26 or 27.'
+- check:
+    id: cal.1964-09-02.black-nationalism
+    text: 'Check: Sept. 2, 1964 was a Wednesday; the "Sunday afternoon" of the beating is Aug. 30 or earlier; Sept. 2 is the date of Barnette''s statement.'
+- combine:
+    keep: cal.1968-02-27.vietnam
+    drop: cal.1968-02-27.vietnam-205000
+- combine:
+    keep: cal.1968-05-22.economy
+    drop: cal.1968-05-23.economy
+- combine:
+    keep: cal.1968-05-21.vietnam-force-levels
+    drop: cal.1968-05-21.vietnam-force-levels-2
+- edit:
+    id: cal.1968-04-04.elections-1968-4
+    base: 3dfe2e2b
+    set:
+      c: 'New York, Cooke installed as Archbishop: the congregation in St. Patrick''s stands and cheers Johnson. He speaks with Jacqueline Kennedy, sees Nelson and Happy Rockefeller at the Archbishop''s residence. Back at 6:30 p.m.'
+      n: '[[w.califano-triumph-and-tragedy-of]], 271–72. See [[cal.1968-04-04.vietnam-paris]] (U Thant at the UN). Names: Johnson, Rockefeller.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rockefeller-nelson
+    unset:
+    - src
+- edit:
+    id: cal.1968-08-28.elections-1968
+    base: aad04087
+    set:
+      c: 'Chicago. The platform''s plank on Vietnam: stop all bombing of the North "when this action would not endanger the lives of our troops in the field," taking "into account the response from Hanoi." The minority plank, McCarthy''s and McGovern''s, for an unconditional halt, defeated, 1,567¾ to 1,041¼ (Check). Ribicoff, nominating McGovern: "Gestapo tactics on the streets of Chicago." Humphrey nominated on the first ballot after midnight: 1,759¼; McCarthy 601, McGovern 146½, Channing Phillips of the District 67½, Moore of North Carolina 17½, Edward Kennedy 12¾.'
+      n: '[1968 Democratic Party Platform](https://www.presidency.ucsb.edu/documents/1968-democratic-party-platform) (Aug. 26, 1968); The President''s News Conference Held on His 60th Birthday at Austin, Texas, [1968–69 Pub. Papers 914](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=224) (Aug. 27, 1968). [Johnson and Daley, 4:08 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-august-27-1968), Aug. 27, Conversation WH6808-03-13327 (Miller Center). Votes: [Wikipedia, "1968 Democratic National Convention"](https://en.wikipedia.org/wiki/1968_Democratic_National_Convention). [[w.longley-lbjs-1968]], 225, 227 (Johnson''s message; Ribicoff); [[w.cq-weekly-report]], Aug. 30, 1968, 2285, 2287–88, 2338, 2342. [[w.mann-grand-delusion]], 613; [[w.chester-american-melodrama]], 579–80, 585 (the debate, three hours; the plank, 1,567 to 1,041 at 4:30 p.m.; Humphrey 1,760¼, McCarthy 601, McGovern 146½, Phillips 67½, Moore 17½, Edward Kennedy 12¾); [[w.solberg-hubert-humphrey]], 362–65 (the debate at noon; 1,567¾ to 1,041¼; the Hilton; Pennsylvania''s votes put him over); [[w.zelizer-fierce-urgency-of-now]], 307 (the plank: a halt only if it would "not endanger the lives of our troops in the field"); [[w.bernstein-guns-or-butter]], 513–14 (the plank adopted 1,567¾ to 1,041¼); [[w.peirce-great-plains-states-of]], 182 (McGovern''s 146 votes); [[w.mann-walls-of-jericho]], 489 (Johnson insists that the platform affirm his conduct of the war); [[w.nixon-rn]], 317 (the McCarthy forces'' peace plank defeated); [[w.zaroulis-who-spoke-up]], 192, 196 (the minority plank defeated 1567¾ to 1041¼; the majority plank "would not endanger the lives of our troops"; Ribicoff and Daley; Humphrey nominated at 11:47 p.m. with Pennsylvania''s 103¾ votes); [[w.wofford-of-kennedys-and-kings]], 433 (Wednesday evening, Ribicoff charges Chicago police with "Gestapo tactics"; Daley shouts at him; not the nominating speech); [[w.albert-little-giant-1990]], 304–05 (the debate on the Vietnam plank, two hours by the rules Albert had amended; not the plank''s words, the vote, Johnson''s message, Ribicoff or the ballot); [[w.obrien-no-final-victories]], 252 (Humphrey accepts the Johnson Vietnam plank and the Convention endorses it, in O''Brien''s words "by a two-to-one margin"; not the plank''s words, the roll call or the day). Check: the *Official Proceedings*. [[w.dallek-flawed-giant]], 575 (the plank, the vote). Check: CQ prints the minority plank''s defeat 1,041¼ to 1,567¾ in its table and its chronology (2287, 2338), 1,048¼ to 1,567¾ in its story (2285), 1,041–1,567 in its analysis (2289): Burton offered it; debate from 1:03 p.m., the roll from 3:52, the result 4:39. Humphrey''s first-ballot total 1,760¼ in its table (2288) and summary (2283), 1,761¾ in its story (2284, 2342), both against 1,759¼ here; Pennsylvania put him over at 11:47 p.m., the result announced 12:02 a.m., Aug. 29 (2338, 2342). The telegrams of Johnson and Edward Kennedy read at 8:02 p.m. (2338). CQ says only that Ribicoff spoke of the tumult in the city, departing from his text (2338). Check: the vote: [[w.obrien-no-final-victories]], 252, has the Convention endorse the Johnson plank "by a two-to-one margin"; 1,567¾ to 1,041¼ is about three to two. To check: [[w.eisele-almost-to-the-presidency]]; [[w.mccarthy-year-of-the-people]]; [[w.johns-price-of-loyalty]]; [[w.witcover-year-the-dream-died]]; [[w.gould-1968]]; [[w.lafeber-deadly-bet]]. See [[cal.1968-08-26.elections-1968-2]]. Names: McCarthy, McGovern, Ribicoff, Humphrey, Phillips, Moore, Edward Kennedy, Daley, Johnson. Check: Longley gives the minority plank''s defeat as 1,527¾ to 1,041¼ (225, from Witcover). Check: Mann, 613, gives the minority plank''s defeat as 1,567 to 1,048, from the *Congressional Quarterly Almanac*, 1968, 1021. Check: Chester, 585, gives Humphrey 1,760¼.'
+    unset:
+    - src
+- edit:
+    id: cal.1968-08-28.elections-1968-chicago-17
+    base: c9cc491a
+    set:
+      n: 'Message to the Democratic National Convention Prior to the Nomination of a Presidential Candidate, [1968–69 Pub. Papers 917](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=227) (Aug. 28, 1968). [[w.califano-triumph-and-tragedy-of]], 322; [[w.longley-lbjs-1968]], 225 (Johnson''s message). See [[cal.1968-08-28.elections-1968]]. Names: Albert, Johnson.'
+    unset:
+    - src
+- check:
+    id: cal.1968-11-20.vietnam-operations-2
+    text: 'Check: Nov. 20, 1968 was a Wednesday; the Tuesday lunch was Nov. 19 unless held a day late (Cosmas, 242, as read).'
+- edit:
+    id: cal.1968-04-10.elections-1968
+    base: 53cb5e24
+    set:
+      c: Rockefeller declares himself "available" for the Republican nomination.
+      n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2187 ("available," Apr. 10); [[w.califano-triumph-and-tragedy-of]], 290 ("available," Apr. 10); [[w.dallek-flawed-giant]], 545. To check: Rockefeller''s oral history, LBJ Library (cited by [[w.dallek-flawed-giant]], 545). Check: Califano puts Johnson''s word to Rockefeller at Cooke''s installation, Apr. 4, and Rockefeller''s "available" Apr. 10 (290). Johnson''s word: [[cal.1968-04-04.elections-1968-4]]. See [[cal.1968-04-07.elections-1968]]. Names: Rockefeller.'
+      tags:
+      - name:rockefeller-nelson
+    unset:
+    - src
