@@ -3061,20 +3061,6 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 4: all'
         - 'w.bernstein-guns-or-butter 28: A-B'
     tags: [name:mcnamara-robert-s, name:bundy-mcgeorge, name:gordon-kermit, name:wiesner-jerome-b, name:kennedy-robert-f, name:taylor-maxwell]
-  - id: cal.1963-11-22.defense
-    when: Nov. 22
-    date: '1963-11-22'
-    thread: defense
-    follows:
-      - cal.1963-11-22.assassination
-    c: McNamara and the Joint Chiefs put American forces worldwide on alert after the President's death.
-    n: '[[w.mcnamara-in-retrospect]], ch. 4. [[w.poole-joint-chiefs-of-staff]], 4. Check: the hour and the level of alert. After the news from Dallas. See [[cal.1963-11-22.assassination-5]]. Names: McNamara.'
-    src:
-      c: f12308e0
-      rows:
-        - 'w.mcnamara-in-retrospect ch. 4: all'
-        - 'w.poole-joint-chiefs-of-staff 4: A'
-    tags: [name:mcnamara-robert-s]
   - id: cal.1963-11-22.king
     when: Nov. 22
     date: '1963-11-22'
@@ -3332,15 +3318,19 @@ entries:
     time: 1963-11-22T19:00Z
     time_approx: true
     thread: assassination
+    also: [defense]
     follows:
       - cal.1963-11-22.assassination
     c: 'The Pentagon. Taylor and the Joint Chiefs with Foertsch, the German Chief of Staff, and Trettner, his successor. After lunch the National Military Command Center: the President shot in Dallas. The Chiefs, McNamara with them, about 2 p.m.: commanders everywhere to raise their alertness. The session with the Germans resumed; a note: the President dead.'
-    n: '[[w.taylor-swords-and-plowshares]], 302–03. On the news from Dallas: [[w.taylor-swords-and-plowshares]], 302–03. Names: Taylor, McNamara, Kennedy.'
+    n: '[[w.taylor-swords-and-plowshares]], 302–03; [[w.poole-joint-chiefs-of-staff]], 4 (the Chiefs about 1400, McNamara with them; the commands told to be "especially on the alert"; the note of the death after); [[w.mcnamara-in-retrospect]], ch. 4 (the forces on alert). See [[cal.1963-11-22.assassination-5]]. Names: Taylor, McNamara, Kennedy. Check: the entry from *In Retrospect*, ch. 4, had the alert after the President''s death; Taylor and Poole put it about 2 p.m., before word of it.'
     src:
-      c: 7fccb5b0
+      c: '7fccb5b0'
       rows:
         - 'w.taylor-swords-and-plowshares 302–03: all'
+        - 'w.poole-joint-chiefs-of-staff 4: B-F'
+        - 'w.mcnamara-in-retrospect ch. 4: D'
     tags: [name:taylor-maxwell, name:mcnamara-robert-s, name:kennedy-john-f]
+    aliases: [cal.1963-11-22.defense]
   - id: cal.1963-11-22.succession-8
     when: Nov. 22
     date: '1963-11-22'

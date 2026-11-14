@@ -1565,14 +1565,16 @@ entries:
     when: Nov. 11
     date: '1967-11-11'
     thread: war-opposition
-    also: [vietnam]
-    c: Phnom Penh. The NLF releases three American prisoners, Army sergeants, to Hayden; they return to the United States with him (Check the date and the route).
-    n: '[[w.debenedetti-american-ordeal]], 192–93 (three released into his custody in Cambodia, after Bratislava and Hanoi). To check: [[w.hershberger-traveling-to-vietnam]]; [[w.wells-war-within]]. Names: Hayden.'
+    also: [vietnam, vietnam-prisoners]
+    c: 'Phnom Penh. The NLF releases three American prisoners, Army sergeants, to Hayden; they return to the United States with him (Check the route).'
+    n: '[[w.debenedetti-american-ordeal]], 192–93 (three released into his custody in Cambodia, after Bratislava and Hanoi); [[w.macv-command-history-1967]], 1281 (Nov. 11, three NCOs turned over in Phnom Penh; Hayden not named). To check: [[w.hershberger-traveling-to-vietnam]]; [[w.wells-war-within]]. Names: Hayden.'
     src:
-      c: 7b5d4fcb
+      c: '7ca0936a'
       rows:
         - 'w.debenedetti-american-ordeal 192–93: B'
+        - 'w.macv-command-history-1967 1281: A-B'
     tags: [name:hayden-tom, place:phnom-penh]
+    aliases: [cal.1967-11-11.vietnam-prisoners]
     short: Hayden and the three prisoners
   - id: cal.1967-11-11.state-constitutions-tx
     when: Nov. 11
@@ -1630,17 +1632,6 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
-  - id: cal.1967-11-11.vietnam-prisoners
-    when: Nov. 11
-    date: '1967-11-11'
-    thread: vietnam-prisoners
-    c: The NLF turns three American NCO prisoners over to an American peace group's representative in Phnom Penh.
-    n: '[[w.macv-command-history-1967]], 1281.'
-    src:
-      c: '65290014'
-      rows:
-        - 'w.macv-command-history-1967 1281: all'
-    tags: [place:phnom-penh]
   - id: cal.1967-11-11.robert-kennedy
     when: Nov. 11
     date: '1967-11-11'

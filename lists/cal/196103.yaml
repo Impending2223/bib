@@ -2085,12 +2085,15 @@ entries:
     when: Mar. 23
     date: '1961-03-23'
     thread: laos
-    c: Pathet Lao gunners shoot down an American C-47 on reconnaissance over the Plain of Jars, from Vientiane for Saigon, with the Royal government's leave. Maj. L. B. Bailey, the assistant Army attaché, parachutes and is taken; a prisoner over a year.
-    n: '[[w.schulimson-joint-chiefs-of-staff]], 64.'
+    c: 'Pathet Lao gunners shoot down an American C-47 (SC-47) on reconnaissance over the Plain of Jars, from Vientiane for Saigon, with the Royal government''s leave, after some fifty missions. Major L. B. Bailey, the assistant Army attaché, the one survivor, parachutes and is taken; a prisoner over a year.'
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 64; [[w.anthony-war-in-northern-laos]], 47 (the SC-47, nearly fifty missions; the one survivor, the attaché "from Saigon"; the day after the President''s news conference). To check: [[w.dommen-conflict-in-laos]], 188 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64a); Background Paper, Dir/Plans, USAF, Aug. 23, 1962 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64b). Check: the day: Shulimson, 64, has Mar. 23; Anthony, 47, the day after the news conference of Mar. 23 ([[cal.1961-03-23.laos]]). Check: Shulimson has Bailey the assistant attaché at the embassy in Laos; Anthony, from Saigon.'
     src:
-      c: 95d61416
+      c: 'a7279783'
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 64: all'
+        - 'w.anthony-war-in-northern-laos 47: A-B'
+        - 'via w.anthony-war-in-northern-laos 47 n.64b: A-B'
+    aliases: [cal.1961-03-24.laos]
   - id: cal.1961-03-23.laos-3
     when: Mar. 23
     date: '1961-03-23'
@@ -2180,20 +2183,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1961-03-24.laos
-    when: Mar. 24
-    date: '1961-03-24'
-    thread: laos
-    c: The reconnaissance SC-47 shot down over the Plain of Jars after some fifty missions; the one survivor, the assistant Army attaché from Saigon. LeMay suspends all aerial reconnaissance. By the end of March Phoumi's troops abandon Tha Thom; the Laotian air arm loses another T-6, five of its ten lost.
-    n: '[[w.anthony-war-in-northern-laos]], 47. To check: [[w.dommen-conflict-in-laos]], 188 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64a); Background Paper, Dir/Plans, USAF, Aug. 23, 1962 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64b); JCS Laos SITREPs 87-61 to 90-61, Apr. 1–4, 1961 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64c); Butler B. Toland, Jr., interview by Robert G. Zimmerman, Nov. 18, 1974 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64d). See [[cal.1961-03-23.laos]]. Names: LeMay, Phoumi Nosavan.'
-    src:
-      c: 49c59d8c
-      rows:
-        - 'w.anthony-war-in-northern-laos 47: all'
-        - 'via w.anthony-war-in-northern-laos 47 n.64b: all'
-        - 'via w.anthony-war-in-northern-laos 47 n.64c: all'
-        - 'via w.anthony-war-in-northern-laos 47 n.64d: all'
-    tags: [name:lemay-curtis-e, name:phoumi-nosavan]
   - id: cal.1961-03-24.cuba
     when: Mar. 24
     date: '1961-03-24'
@@ -3221,3 +3210,17 @@ entries:
     c: 'The Secretariat, Hanoi: circular no. 22-TT/TW explaining chapter I of the new Party statute: the conditions of membership, admission and probation.'
     n: '*Thông tri của Ban Bí thư số 22-TT/TW giải thích và quy định một số vấn đề trong chương I của Điều lệ Đảng*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 282–90. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-03.laos-4
+    when: Mar., late
+    date: 1961-03
+    thread: laos
+    c: Phoumi's troops abandon Tha Thom and withdraw down Highway 4 toward Paksane; covering the retreat, the Laotian air arm loses another T-6, five of the ten it had from Thailand.
+    n: '[[w.anthony-war-in-northern-laos]], 47 ("toward the end of March"). To check: JCS Laos SITREPs 87-61 to 90-61, Apr. 1–4, 1961 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64c). See [[cal.1961-03-23.laos-2]]. Names: Phoumi Nosavan.'
+    tags: [name:phoumi-nosavan]
+  - id: cal.1961-03.laos-5
+    when: Mar., late
+    date: 1961-03
+    thread: laos
+    c: After the loss of the reconnaissance SC-47, LeMay suspends all aerial reconnaissance over Laos for a time.
+    n: '[[w.anthony-war-in-northern-laos]], 47 ("temporarily"; no day). To check: Butler B. Toland, Jr., interview by Robert G. Zimmerman, Nov. 18, 1974 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64d). See [[cal.1961-03-23.laos-2]]. Names: LeMay.'
+    tags: [name:lemay-curtis-e]

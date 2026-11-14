@@ -60,7 +60,7 @@ entries:
     thread: civil-disorders
     also: [cities-and-housing]
     c: 'Weaver in Philadelphia: "Society has to act effectively to redress the deprivations of the environment that occasion despair. We must diagnose the ills of our ghettos and move to heal their sickness before they explode."'
-    n: '[[w.sundquist-politics-and-policy]], 285. To check: *Vital Speeches*, Sept. 1, 1966, 675 (cited by [[w.sundquist-politics-and-policy]], 285 n.199). See [[cal.1966-07-19.civil-disorders]]. Names: Weaver.'
+    n: '[[w.sundquist-politics-and-policy]], 285. To check: *Vital Speeches*, Sept. 1, 1966, 675 (cited by [[w.sundquist-politics-and-policy]], 285 n.199). See [[cal.1966-07-18.civil-disorders]]. Names: Weaver.'
     src:
       c: b2951eb8
       rows:
@@ -621,14 +621,18 @@ entries:
     when: Aug. 4
     date: '1966-08-04'
     thread: vietnam-support
-    c: 'McPherson to Moyers, after a vacation in Rhode Island among Republicans of means: "Nobody was affirmative about Vietnam. It is an extremely unpopular war"; all wanted peaceful overtures, "for cooperation with the Russians, chiefly"; the internationalist middle class''s support "vital, and we don''t have much of it right now."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 357 n.9. Moyers sent a summary to Johnson the same day. Names: McPherson, Moyers, Johnson.'
+    also: [war-opposition]
+    c: 'McPherson to Moyers, after a vacation in Rhode Island among moderate Republicans of means: "Nobody I talked to was affirmative about Vietnam"; "an extremely unpopular war"; all for "peaceful overtures—for cooperation with the Russians, chiefly"; the internationalist middle class''s support "vital, and we don''t have much of it right now."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 357 n.9 (the memorandum of Aug. 4; Moyers''s summary to Johnson the same day); [[w.bernstein-guns-or-butter]], 410 ("Nobody I talked to"; "during the summer"). To check: McPherson to Moyers, Aug. 4, 1966, McPherson Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 410 n.9). Names: McPherson, Moyers.'
     src:
-      c: 2e24026e
+      c: '453d8b1e'
       rows:
         - 'w.gibbons-u-s-government-and IV, 357: all'
         - 'via w.gibbons-u-s-government-and IV, 357 n.9: all'
-    tags: [name:mcpherson-harry, name:moyers-bill, name:johnson-lyndon-b]
+        - 'w.bernstein-guns-or-butter 410: A, C-D'
+        - 'via x.1966-08-04.mcpherson-to-moyers-aug-4-1966: all'
+    tags: [name:mcpherson-harry, name:moyers-bill]
+    aliases: [cal.1966-08-04.war-opposition]
     time_range:
       - 1966-08-04T13:00Z
       - 1966-08-04T21:00Z
@@ -737,24 +741,6 @@ entries:
         - 'w.anderson-confronting-the-color-line 227–28: all'
         - 'via w.anderson-confronting-the-color-line 228 n.50: all'
     tags: [state:il, city:chicago]
-  - id: cal.1966-08-04.war-opposition
-    when: Aug. 4
-    date: '1966-08-04'
-    thread: war-opposition
-    c: 'McPherson, after a vacation in Rhode Island among moderate Republicans of means: "Nobody I talked to was affirmative about Vietnam"; all for "peaceful overtures," chiefly with the Russians; "more talk of peace, peace, peace."'
-    n: '[[w.bernstein-guns-or-butter]], 410. To check: McPherson to Moyers, Aug. 4, 1966, McPherson Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 410 n.9). Check: the day; Bernstein, "during the summer"; dated here by the note''s memorandum. Names: McPherson.'
-    src:
-      c: 409d244d
-      rows:
-        - 'w.bernstein-guns-or-butter 410: all'
-        - 'via x.1966-08-04.mcpherson-to-moyers-aug-4-1966: all'
-    tags: [name:mcpherson-harry]
-    time_range:
-      - 1966-08-04T13:00Z
-      - 1966-08-04T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1966-08-05.open-housing
     when: Aug. 5
     date: '1966-08-05'
