@@ -648,3 +648,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Skip McCarthy, the McCarthy people, Boomhower and Chafe on Lowenstein for now." (Nov. 14: batch 18 cut to 26 readers.)
 
 "No, bring back Eisele. Lays the groundwork for later McCarthy and Humphrey runs at a lower cost than the memoir material. The rule was meant for Batch 18 alone. We haven't extended FRUS, the presidential recordings, the Congressional calendar, the Department of State brief, the military history materials, the available public records, etc., etc., through the end of 1969. Nor have we seeded the calendar with a merely "recalled" sequence of events and "soft" sources, as we did when we first expanded the calendar to its present scope. That comes before this kind of memoir and biographical material." (Nov. 14: Eisele restored to batch 18 as reader 22; batches 14-16's 1969 entries stand; the 1969 foundations queued, handoff C0.)
+
+"This all drops to the very end of the list. After the pilots." (Nov. 14: the 1969 foundations queued last, after the French and German pilots.)
