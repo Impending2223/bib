@@ -248,6 +248,13 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-05-03.china-leadership
+    when: May 3
+    date: '1960-05-03'
+    thread: china-leadership
+    c: Jinan, the airport. Mao receives trade-union and women's delegations of fourteen Latin American and African countries; Liu Changsheng present. "We stand on one front"; America says it cannot see the people's China, yet calls it bad every day.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 3, 1960. Made public: 2013. Names: Mao Zedong, Liu Changsheng, Cao Mengjun. Check: what the press printed of the talk.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-04.elections-1960
     when: May 4
     date: '1960-05-04'
@@ -284,7 +291,7 @@ entries:
     date: '1960-05-04'
     thread: soviet-union-leadership
     c: 'The Presidium approves Khrushchev''s changes in the leadership: Brezhnev to replace Voroshilov as chairman of the Presidium of the Supreme Soviet; Belyaev and Kirichenko out of the Presidium; Kosygin, Podgorny and Polyansky full members.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 273; [[w.prezidium-tsk-kpss-1954]], I, 441–42 (Protocol 279); [[w.prezidium-tsk-kpss-1954]], III, 126–28 (P 279/I: the Supreme Soviet to grant Voroshilov''s request to be relieved, for health, Brezhnev to be elected; P 279/II: Voroshilov out of the Presidium at his request, Kosygin, Podgorny and Polyansky elected members, Belyayev and Kirichenko relieved; also Aristov and Pospelov relieved as secretaries, Ignatov to the Council of Ministers, Furtseva Minister of Culture, Kozlov a secretary, Kosygin first deputy chairman, Novikov chairman of Gosplan; of A, Brezhnev for Voroshilov, not that the changes were Khrushchev''s). Names: Khrushchev, Brezhnev, Voroshilov, Kosygin, Podgorny.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 273; [[w.prezidium-tsk-kpss-1954]], I, 441–42 (Protocol 279); [[w.prezidium-tsk-kpss-1954]], III, 126–28 (P 279/I: the Supreme Soviet to grant Voroshilov''s request to be relieved, for health, Brezhnev to be elected; P 279/II: Voroshilov out of the Presidium at his request, Kosygin, Podgorny and Polyansky elected members, Belyayev and Kirichenko relieved; also Aristov and Pospelov relieved as secretaries, Ignatov to the Council of Ministers, Furtseva Minister of Culture, Kozlov a secretary, Kosygin first deputy chairman, Novikov chairman of Gosplan; of A, Brezhnev for Voroshilov, not that the changes were Khrushchev''s); [[w.schattenberg-brezhnev]], 153 (the Presidium agrees to propose Brezhnev; 153 n.291). Names: Khrushchev, Brezhnev, Voroshilov, Kosygin, Podgorny.'
     src:
       c: 2adf2a43
       rows:
@@ -293,6 +300,7 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 441–42: A-B'
         - 'via x.1960-05-04.presidium-protocol: A-B'
         - 'w.prezidium-tsk-kpss-1954 III, 126–28: B-C'
+        - 'w.schattenberg-brezhnev 153: A'
     tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:voroshilov-kliment-e, name:kosygin-aleksei, name:podgorny-nikolai-v]
     time_range:
       - 1960-05-04T06:00Z
@@ -565,6 +573,21 @@ entries:
     c: 'Gates, angered by the day''s statement, which implies the flight an underling''s doing, telephones Herter: someone must assume responsibility. Herter: the principal objective is to keep the President clear.'
     n: '[[w.watson-into-the-missile-age]], 721 (the call, after Gates read "the CIA statement of 7 May"; the day of the call not given). To check: [[w.beschloss-mayday]], 251–52 (cited by [[w.watson-into-the-missile-age]], 721 n.172). See [[cal.1960-05-05.soviet-union]]. Names: Gates, Herter. Check: the day.'
     tags: [name:gates-thomas-s-jr, name:herter-christian-a]
+  - id: cal.1960-05-07.soviet-union-leadership
+    when: May 7
+    date: '1960-05-07'
+    thread: soviet-union-leadership
+    c: The Supreme Soviet elects Brezhnev Chairman of its Presidium in Voroshilov's place, Voroshilov having been asked to request release on "health grounds." Brezhnev gives up his post as a Secretary of the Central Committee.
+    n: '[[w.schattenberg-brezhnev]], 153 (n.291–94). To check: RGANI, f. 80, op. 1, d. 1200, l. 49; Fursenko, *Prezidium TsK KPSS*, I, 441, III, 127 (cited by [[w.schattenberg-brezhnev]], 153 nn.291, 293). See [[cal.1960-05-04.soviet-union]]. Names: Brezhnev, Voroshilov.'
+    tags: [name:brezhnev-leonid, name:voroshilov-kliment-e, polity:ussr]
+  - id: cal.1960-05-07.china-leadership
+    when: May 7
+    date: '1960-05-07'
+    thread: china-leadership
+    also: [africa]
+    c: 'Zhengzhou. Mao receives public figures, peace workers and trade-union, youth and student delegations of twelve African countries; Yang Shangkun and Liu Ningyi present. Africa''s two hundred million uniting, waking: imperialism will have to go.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 7, 1960. Made public: 2013. Names: Mao Zedong, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-08.soviet-union-u2
     when: May 8
     date: '1960-05-08'
@@ -579,6 +602,21 @@ entries:
     c: 'Charleston, W. Va., the Sunday before the primary. Kennedy, Powers and O''Brien to Mass in the rain, the polls showing Kennedy behind. On the ride back O''Brien, recalling Ribicoff''s televised talk of his immigrant parents: "Well, are you ready to cry a little?" Kennedy: "I''m desperate but not that desperate." In the hotel room they agree to claim a moral victory, as Humphrey had in Wisconsin, if he loses by no more than 53–47; no word of quitting. By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 74–75. Names: Kennedy, Powers, O''Brien, Ribicoff, Humphrey.'
     tags: [name:kennedy-john-f, name:powers-david-f, name:obrien-lawrence-f, name:ribicoff-abraham, name:humphrey-hubert-h, state:wv, city:charleston]
+  - id: cal.1960-05-08.china-leadership
+    when: May 8
+    date: '1960-05-08'
+    thread: china-leadership
+    c: 'Mao on the Military Commission''s report of May 4 (Deng Xiaoping sending it): a North Sea Fleet formed on the Qingdao base, under the new strategy, as the Standing Committee of the Commission agreed Apr. 26. Approved.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 8, 1960. Made public: 2013. Names: Mao Zedong, Deng Xiaoping.'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-05-08.china-leadership-2
+    when: May 8
+    date: '1960-05-08'
+    thread: china-leadership
+    also: [latin-america, cuba]
+    c: Zhengzhou. Mao receives labor delegations of Chile, Colombia, Costa Rica and Ecuador, writers and jurists of Argentina, Brazil, Chile, Ecuador and Peru, and Major Gálvez, Inspector General of Cuba's army; Yang Shangkun and Liu Ningyi present. China's place and Latin America's much the same.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 8, 1960. Made public: 2013. Names: Mao Zedong, Gálvez, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk; Gálvez''s full name (加尔维斯 in the chronology; perhaps William Gálvez).'
+    tags: [polity:prc, polity:cuba, name:mao-zedong, vis:only:prc+cuba]
   - id: cal.1960-05-09.soviet-union
     when: May 9–11
     date: '1960-05-09'
@@ -659,6 +697,14 @@ entries:
     c: Charleston, W. Va., the Kanawha Hotel, the day before the primary. Robert Kennedy, O'Donnell, McDonough and Harris each figure the vote on a yellow pad. O'Donnell gives Kennedy fifty-one to forty-nine, "mainly because I was trying to cheer up Bobby and O'Brien"; McDonough, an even chance; Harris keeps "changing his figures every hour."
     n: '[[w.odonnell-johnny-we-hardly-knew]], 191–92 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Robert Kennedy, O''Donnell, Harris, Kennedy, O''Brien.'
     tags: [name:kennedy-robert-f, name:odonnell-kenneth-p, name:harris-louis, state:wv, name:kennedy-john-f, name:obrien-lawrence-f]
+  - id: cal.1960-05-09.china-leadership
+    when: May 9
+    date: '1960-05-09'
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Zhengzhou. Mao receives Iraqi cultural and workers'' delegations and the trade unions of Iran and Cyprus; Yang Shangkun and Liu Ningyi present. Iraq''s revolution of July 14, 1958 frightened imperialism: the landing in Lebanon the next day.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 9, 1960. Made public: 2013. Names: Mao Zedong, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-10.elections-1960
     when: May 10
     date: '1960-05-10'
@@ -867,6 +913,22 @@ entries:
     c: 'Charleston, W. Va., primary day, after the Caroline takes Kennedy off to Washington. Robert Kennedy to O''Donnell: "If we lose here today, we might as well stay home and watch the convention on television. Damn that Hubert Humphrey."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 192 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Robert Kennedy, O''Donnell, Humphrey.'
     tags: [name:kennedy-robert-f, name:odonnell-kenneth-p, name:humphrey-hubert-h, state:wv]
+  - id: cal.1960-05-10.china-leadership
+    when: May 10
+    date: '1960-05-10'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Zhengzhou, on the train, 1:30 p.m. Mao receives Major Gálvez of Cuba and his wife again, at lunch; Deng Xiaoping, Wang Jiaxiang, Yang Shangkun present. The Cuban revolution of world meaning; the question how to make it secure, by the workers and peasants. Gálvez asks open Chinese support; Mao: an open statement, and some supplies and arms too; a letter to Castro by his hand; Cuban sugar, 300,000 tons a year for five years, not 80,000.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 10, 1960. Made public: 2013. Names: Mao Zedong, Gálvez, Deng Xiaoping, Wang Jiaxiang, Yang Shangkun, Castro.'
+    tags: [polity:prc, polity:cuba, name:mao-zedong, name:deng-xiaoping, vis:only:prc+cuba, name:castro-fidel]
+  - id: cal.1960-05-10.china-leadership-2
+    when: May 10
+    date: '1960-05-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhengzhou, on the train, 5:30 p.m. Mao with Deng Xiaoping, Chen Boda, Wang Jiaxiang, Yang Shangkun and Hu Sheng (called from Peking May 9) on international questions and Khrushchev''s recent speeches: some articles to be written.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 10, 1960. Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Chen Boda, Wang Jiaxiang, Yang Shangkun, Hu Sheng, Khrushchev.'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:chen-boda, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-05-11.elections-1960
     when: May 11
     date: '1960-05-11'
@@ -1226,6 +1288,14 @@ entries:
     c: 'Kennedy, by telephone from a lunch on the road in Maryland, to Schlesinger: Stevenson, if still a candidate, "can get somewhere only over my dead body," so he might as well help Kennedy. Kennedy needs 80 to 100 votes, which Stevenson could give him in California and Pennsylvania and help with in Colorado and Minnesota: "He is the essential ingredient in my combination." From West Virginia: "it''s absolutely fatal to have southern support. I want to be nominated by the liberals."'
     n: '[[w.schlesinger-journals]], 66–67. Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Schlesinger, Stevenson.'
     tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:stevenson-adlai-e, state:md]
+  - id: cal.1960-05-14.china-leadership
+    when: May 14
+    date: '1960-05-14'
+    thread: china-leadership
+    also: [japan]
+    c: Wuchang. Mao receives the delegations of the Japan–China Friendship Association, Sohyo and others, and Cuban, Brazilian and Argentine delegations; Yang Shangkun and Liao Chengzhi present. The new Japanese–American security treaty a military alliance against China, the Soviet Union and Asia's peoples.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 14, 1960. Made public: 2013. Names: Mao Zedong, Yang Shangkun, Liao Chengzhi. Check: what the press printed of the talk.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-15.soviet-union
     when: May 15–17
     date: '1960-05-15'
@@ -1360,6 +1430,14 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Paris
     range_basis: kind
+  - id: cal.1960-05-16.china-leadership
+    when: May 16
+    date: '1960-05-16'
+    thread: china-leadership
+    also: [south-asia, soviet-union]
+    c: 'Wuchang, evening. Zhou Enlai and Chen Yi report to Mao on their visits to Burma, India, Nepal, Cambodia and Vietnam; Sino-American relations, Sino-Soviet unity. Mao to Zhou, the same day: Eisenhower''s statement of May 11 on the U-2 "very important."'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 16, 1960. Made public: 2013. Names: Zhou Enlai, Chen Yi, Mao Zedong, Eisenhower.'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:mao-zedong, name:eisenhower-dwight-d, vis:only:prc]
   - id: cal.1960-05-17.elections-1960
     when: May 17
     date: '1960-05-17'
@@ -1462,6 +1540,14 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 288: all'
         - 'via w.fursenko-khrushchevs-cold-war 288 n.83: all'
     tags: [name:macmillan-harold]
+  - id: cal.1960-05-17.china-leadership
+    when: May 17
+    date: '1960-05-17'
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: Wuchang, the Hongshan Hotel. Mao receives the delegation of the Algerian Provisional Government under Krim Belkacem, Vice Premier and Foreign Minister; Yang Shangkun and Ji Pengfei present. Support "not only moral but material"; independence only by fighting; talk and fight both.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 17, 1960. Made public: 2013. Names: Mao Zedong, Krim Belkacem, Yang Shangkun, Ji Pengfei, Li Qiang.'
+    tags: [polity:prc, polity:algeria, name:mao-zedong, name:ji-pengfei, vis:only:prc+algeria]
   - id: cal.1960-05-18.soviet-union-u2
     when: May 18
     date: '1960-05-18'
@@ -1525,6 +1611,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-05-19.china-leadership
+    when: May 19
+    date: '1960-05-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao, on the train past Zhuzhou, has Yang Shangkun tell Deng Xiaoping: mass meetings everywhere to back the Soviet stand on the four-power summit (broken up May 17), Peking''s the next day.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 19, 1960, and note 72. Made public: 2013. Names: Mao Zedong, Yang Shangkun, Deng Xiaoping.'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1960-05-20.elections-1960
     when: May 20
     date: '1960-05-20'
@@ -1703,6 +1797,14 @@ entries:
     c: 'The Party Center to the Nam Bộ and Interzone V Executive Committees, cable: "we and the friends" have lately exchanged views on the world and the South, at bottom as the Center''s cable of some weeks before. In the South peace and war at once: political struggle the chief form, armed struggle in its support, for self-defense; wholly political in the cities. The South''s revolution the South''s own work; the North cannot meet its needs; on no account to let any evidence show that the North intervenes. Diệm''s promises of reform to be exposed and used for legal struggle in the cities.'
     n: '*Điện của Trung ương gửi X.U.N.B và L.K.U. V*. [[w.van-kien-dang-toan]], XXI, 332–36. Made public: 2002. Names: Ngô Đình Diệm.'
     tags: [polity:us, polity:rvn, name:ngo-dinh-diem, polity:drv]
+  - id: cal.1960-05-21.china-leadership
+    when: May 21
+    date: '1960-05-21'
+    thread: china-leadership
+    also: [korea, soviet-union]
+    c: 'Hangzhou, the Nanping pool, evening. Mao receives Kim Il Sung; Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kang Sheng, Chen Boda, Wang Jiaxiang and others present. Korea and Albania with China; the seventeen parties'' meeting at Rome and the Warsaw meeting revisionist and aimed at China; Kim: Khrushchev told him in 1955 not to oppose America. The U-2 forced Khrushchev to Paris to expose, not to meet. Twenty years of peace good; but two hands; atomic bombs for all.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 21, 1960. Made public: 2013. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua, Khrushchev.'
+    tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc+dprk]
   - id: cal.1960-05-22.elections-1960-nomination
     when: May 22
     date: '1960-05-22'
@@ -1710,6 +1812,14 @@ entries:
     c: 'Kennedy, by telephone late Sunday afternoon, to Schlesinger, on his talk with Stevenson at Libertyville the day before: pleasant, but Stevenson will do nothing for the moment. Kennedy''s fear: Johnson told Stevenson on Monday that, if he stayed aloof, he would be Johnson''s second choice. Kennedy told Stevenson "Lyndon was a chronic liar; that he has been making all sorts of assurances to me for years and has lived up to none of them." Party harmony, no problem: "Everyone will come around the day after the convention; and anyone who doesn''t come around will be left out and won''t matter."'
     n: '[[w.schlesinger-journals]], 67–68. Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Schlesinger, Stevenson, Johnson.'
     tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:stevenson-adlai-e, name:johnson-lyndon-b]
+  - id: cal.1960-05-22.china-leadership
+    when: May 22
+    date: '1960-05-22'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Hangzhou, the Nanping pool. Mao''s meeting: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua. After the summit''s break: imperialism unchanged; Khrushchev "twelve changes in an hour," pushed by America; the fight with the CPSU by articles, "pointing at the mulberry to curse the locust," and no break. The enlarged Politburo at Shanghai June 8 (the three-year plan, the world), the Eighth Congress''s third session in late June.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 22, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua, Khrushchev.'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-05-23.soviet-union
     when: May 23–26
     date: '1960-05-23'
@@ -1994,6 +2104,14 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 207-CT/TW, after the Politburo''s decision of Apr. 22 for three hydroelectric works: Thác Bà first; the people and the economic and political bodies in its reservoir to be moved; the Yên Bái committee to help the Irrigation Ministry organize the site and, with the Public Security Ministry''s Party group, guard it.'
     n: '*Chỉ thị của Ban Bí thư số 207-CT/TW về việc dời dân và những cơ sở kinh tế, chính trị ở trong khu vực hồ chứa của Nhà máy thủy điện Thác Bà và việc tổ chức công trường xây dựng nhà máy*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 337–39. See [[cal.1960-04-21.vietnam-hanoi]]. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-05-27.china-leadership
+    when: May 27
+    date: '1960-05-27'
+    thread: china-leadership
+    also: [europe-and-the-alliance-britain]
+    c: 'Shanghai, the Culture Club. Mao receives Field Marshal Montgomery at dinner; Ke Qingshi present. Not hot war, not coexistence: "cold-war coexistence." Britain and France stronger welcome, America, West Germany and Japan restrained; the threat to China from America and Japan. Montgomery: foreign troops home, the occupation of Europe ended, Taiwan settled; he will rouse opinion; Mao agrees, but America "yields not an inch."'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 27, 1960. Made public: 2013. Names: Mao Zedong, Montgomery, Ke Qingshi.'
+    tags: [polity:prc, name:mao-zedong, name:montgomery-of-alamein-bernard-l, name:ke-qingshi, vis:only:prc]
   - id: cal.1960-05-28.king
     when: May 28
     date: '1960-05-28'
@@ -2047,6 +2165,13 @@ entries:
     c: 'The Secretariat, Hanoi: circular no. 332-TT/TW, carrying out the Politburo''s resolution on the 1960 wage reform: political education from the announcement to the end of the regrading; each Party committee responsible for its own staff''s grades; wages tied to finance, money and the supply of goods.'
     n: '*Thông tri của Ban Bí thư số 332-TT/TW về việc thi hành Nghị quyết của Hội nghị Bộ Chính trị về cải tiến chế độ tiền lương và tăng lương năm 1960*, signed for the Secretariat by Lê Văn Lương, head of its office. [[w.van-kien-dang-toan]], XXI, 340–43. See [[cal.1960-05-20.vietnam-hanoi]]. Made public: 2002. Check: the day; circular no. 336-TT/TW of June 22, 1960 cites this circular as of May 27 (XXI, 383).'
     tags: [polity:drv]
+  - id: cal.1960-05-28.china-leadership
+    when: May 28
+    date: '1960-05-28'
+    thread: china-leadership
+    c: Shanghai, on the train. Mao receives Knud Jespersen, chairman of the Danish Communist Party, and his wife; Kang Sheng and Yang Shangkun present. The Moscow Declaration of 1957 the only one, now dropped by many parties; the seventeen parties' appeal wrong in important parts.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 28, 1960. Made public: 2013. Names: Mao Zedong, Jespersen, Kang Sheng, Yang Shangkun.'
+    tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
   - id: cal.1960-05-29.elections-1960-nomination
     when: May 29
     date: '1960-05-29'
@@ -2054,6 +2179,14 @@ entries:
     c: 'Stevenson, by telephone, to Schlesinger: sorry Kennedy felt "regretful" over their talk; he made a "dire mistake" in mentioning Johnson, which drew the only flash of temper from Kennedy. Johnson had spoken fiercely against Kennedy when they met in Washington. "I suppose I made a mistake bringing Johnson up; but I thought that, if I were to serve under Kennedy, it might be helpful if I could keep a personal in with Johnson."'
     n: '[[w.schlesinger-journals]], 68–69. Made public: [[w.schlesinger-journals]] (2007). Names: Stevenson, Schlesinger, Kennedy, Johnson.'
     tags: [name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1960-05-29.china-leadership
+    when: May 29
+    date: '1960-05-29'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Shanghai, on the train. Mao with Ke Qingshi, Chen Pixian, Zhao Erlu and Chen Zhengren on Khrushchev: the Twentieth Congress peaceful transition and Stalin attacked, the Twenty-first war to be rooted out of society; Khrushchev should not have spoken at Berlin before Eisenhower.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 29, 1960. Made public: 2013. Names: Mao Zedong, Ke Qingshi, Chen Pixian, Zhao Erlu, Chen Zhengren, Khrushchev.'
+    tags: [polity:prc, name:mao-zedong, name:ke-qingshi, name:zhao-erlu, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-05-30.alabama
     when: May 30
     date: '1960-05-30'
@@ -2093,6 +2226,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-05-30.china-leadership
+    when: May 30
+    date: '1960-05-30'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Mao to Fidel Castro, by letter, thanking him for his greetings by Major Gálvez: each Cuban victory a blow to American-led imperialism, close to America; the peoples, Latin America''s above all, take heart.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 30, 1960. Made public: 2013. Names: Mao Zedong, Castro, Gálvez.'
+    tags: [polity:prc, polity:cuba, name:mao-zedong, name:castro-fidel, vis:only:prc+cuba]
   - id: cal.1960-05-31.europe-and-the-alliance-turkey
     when: May 31
     date: '1960-05-31'
@@ -2624,3 +2765,11 @@ entries:
         witness: w.obrien-no-final-victories
         reads: 'O''Brien: the camp decides to do nothing with the papers for the time being, to retaliate with them, through Roosevelt, only if Humphrey strikes some extremely low blow; Roosevelt hands them to a reporter in anger; the incident "happened inadvertently"'
         at: 72–73
+  - id: cal.1960-05.china-leadership
+    when: May
+    date: 1960-05
+    thread: china-leadership
+    also: [china]
+    c: 'Mao on an internal report of May 15, Liao Wenyi on an American, Japanese and Liao plot for "Taiwan independence" (America has chosen Liao to rule Taiwan; Fulbright writes him to stand ready): "Inform Mr. Chiang of this."'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 1960. Made public: 2013. Names: Mao Zedong, Liao Wenyi, Fulbright, Chiang Kai-shek. Check: the channel to Chiang; Fulbright''s letters, Liao''s claim only.'
+    tags: [polity:prc, polity:roc, polity:us, name:mao-zedong, name:fulbright-j-william, name:chiang-kai-shek, vis:only:prc]

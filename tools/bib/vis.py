@@ -43,6 +43,14 @@ STYLE
     Organizations (§2, ruled Nov. 11) are no polities: an organization's record (the UN's documents) is published in,
     and known to, the state parties the claim addresses; an organization's person (U Thant) adds no polity. The
     organization as a polity of its own (`EEC:nonpublic-P`) waits for a ruling claim by claim (§8, `vis:`).
+    Private persons (the owner, Nov. 14, 2026: "The default rule on visibility for those who aren't agents or members
+    of government is territorial. If the talks with non-agents and non-members happened on the territory of Italy,
+    Australia, NZ, Burma, or Ceylon, they're visible to those sovereigns. If not, not."): a name row marked
+    `private: true` (a party out of power, a journalist, a private citizen; dated where the person entered or left
+    office or acted as an agent) adds no polity, by agency or address; the territory decides (the entry's place, state,
+    city and province tags), and the thread's polities where the entry has none. A ruling party of a party-state counts
+    as its government. In a `vis:only:` ruling the same: the visitor's state is named only where the talks were on its
+    territory.
  5. Address (§4), in order: the tags the unit itself names (a name tag whose surname, or a place whose name, stands in
     the unit's text: the maps do not yet tie tags to units, so the text ties them); else the entry's name, place,
     state, city, province and `polity:` tags; else the thread's polities (sources/polities.yaml, a subthread its
@@ -173,6 +181,19 @@ def person_polity(key, date):
                 return None if r.get("polity") in (None, "?") else r.get("polity")
         return None
     return None
+
+
+def person_private(key, date):
+    """True where the name key's row (or its range holding the date) is `private: true`: neither an agent nor a member
+    of a government (STYLE 4, the owner's ruling of Nov. 14, 2026), whose polity adds nothing."""
+    v = polities()["names"].get(key)
+    if isinstance(v, dict):
+        return bool(v.get("private"))
+    if isinstance(v, list):
+        for r in v:
+            if (not r.get("from") or str(r["from"]) <= date) and (not r.get("until") or date < str(r["until"])):
+                return bool(r.get("private"))
+    return False
 
 
 def place_polities(tag):
@@ -367,7 +388,7 @@ def from_card(series, cid, event, addressed):
     if kind in PRIVY_KINDS:
         for a in store.as_list(row.get("agent")):
             p = person_polity(a, event) if not str(a) in polities()["polities"] else a
-            if p and not is_org(p):
+            if p and not is_org(p) and not person_private(str(a), event):
                 privity.add(p)
     basis = "works"
     if country == "?" and kind in ("memoir", "diary", "oral history") and len(privity) == 1:
@@ -386,8 +407,12 @@ ARCHIVES = [(re.compile(r"\b(LBJ|JFK|Johnson|Kennedy|Eisenhower|Nixon|Truman) Li
             (re.compile(r"\bAVP ?RF\b|\bRGANI\b|\bAPRF\b|\bTsKhSD\b|\bRGASPI\b|\bTsAMO\b"), "ussr"),
             (re.compile(r"\bMAE\b|Quai d|\bAN, \d|Archives nationales"), "fr"),
             (re.compile(r"\bPA ?AA\b|\bBArch\b|Bundesarchiv"), "frg"),
-            (re.compile(r"\bSAPMO\b"), "gdr"),
-            (re.compile(r"PRC (?:Foreign Ministry|FMA)|\bCFMA\b|Chinese Foreign Ministry"), "prc")]
+            (re.compile(r"\bSAPMO\b|\bBStU\b|\bMfS\b"), "gdr"),
+            (re.compile(r"PRC (?:Foreign Ministry|FMA)|\bCFMA\b|Chinese Foreign Ministry"), "prc"),
+            (re.compile(r"\bANR\b|\bAMAE\b|Fond CC al PCR"), "romania"),
+            (re.compile(r"\bAQSH\b|\bAMPJ\b|Fondi 14"), "albania"),
+            (re.compile(r"\bMOL\b|\bMNL\b"), "hungary"),
+            (re.compile(r"Vietnam National Archives|\bVNA\b|Trung tâm Lưu trữ"), "drv")]
 
 
 def text_polity(text):
@@ -414,7 +439,7 @@ def from_witness(series, wid, event, addressed):
     for a in store.as_list(w.get("agent")):
         a = str(a)
         p = person_polity(a[5:], event) if a.startswith("name:") else text_polity(a)
-        if p and not is_org(p):
+        if p and not is_org(p) and not (a.startswith("name:") and person_private(a[5:], event)):
             privity.add(p)
     for rx, p in ARCHIVES:
         if rx.search(str(w.get("where") or "")):
@@ -529,7 +554,7 @@ def tag_polities(tags, date):
         ns, _, k = g.partition(":")
         if ns == "name":
             p = person_polity(k, date)
-            if p and not is_org(p):
+            if p and not is_org(p) and not person_private(k, date):
                 addr.append(p)
                 agency.append(p)
         elif ns in ("place", "state", "city", "province"):

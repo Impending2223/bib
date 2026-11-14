@@ -1,0 +1,7 @@
+# Khrushchev, 1964 (2007) and Dva tsveta vremeni (2009): book-check, batch 14
+
+*Nikita Khrushchev. 1964* (Artizov, Naumov, Prozumenshchikov, Sigachev, Tomilina, Shevchuk, 2007), 576 pp.: PDF page = book page + 1. Read: 14–15, 41–44, 50–66, 69–70, 79–87, 108–15, 119–20, 133–34, 140–44, 150–64, 177–83, 216–45, 252–56, 267–73, 301–14, 323–28, 330–40, 348–50, 356–68, 412–14, 420–29, 435–44; the editors' notes at 450, 470–76. Not read: the agricultural notes' bulk (14–43, 44–50), the Presidium's report variant (183–216 beyond its Cuba passage), the Nov. 16 stenogram's middle (369–411, 414–19), the reports from the republics and embassies (271–300 passim, 313–23, 335–48).
+
+*Dva tsveta vremeni*, 2 vols. (Tomilina, 2009): vol. I (656 pp.) holds three items of 1961–62 (IV, docs. 20–22, 603–14); vol. II (880 pp.) read by heading for all 1960–64 documents, in full or in part: V, 26–27, 29; VI, 20, 31; VII, 8, 9 (opening, speakers); VIII, 1, 2, 6, 7, 12, 13, 18, 19, 22–24.
+
+Passed over (listed, not entered): vol. II V, 18–25, 28, 30–31 (agriculture speeches and notes, 1960–64); VI, 19, 21–30 (rallies, receptions, Tereshkova, the exhibition visit); VII, 6–7, 10; VIII, 3–5, 8–11, 14–17, 20–21; vol. I, IV, 22 (undated, after Oct. 1962). 1964 vol.: Oct. 10 Podgorny at Kishinev; the information notes (Moscow, Estonia, GDR, Poland, Ukraine, citizens' letters); ambassadors' talks (Denisov–Kádár, Zimyanin–Novotný, Vinogradov–Plissonnier, Puzanov–Tito, Dec. 1964 Mikoyan's note read only as cited); the appendix of Nov. 10, 1970 (no calendar section for 1970).

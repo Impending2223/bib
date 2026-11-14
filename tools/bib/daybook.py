@@ -178,15 +178,20 @@ def program_html(r):
             who = lives.person_named(SERIES, g)
             shown = namelinks.a(SERIES, who, shown) if who else shown
         names.append(shown)
-    who = names[0] if len(names) == 1 else ", ".join(names[:-1]) + (" and " if len(names) == 2 else ", and ") + names[-1]
+    if not names:                      # a listing with no guests named (the 1969 sections opened Nov. 14)
+        who = ""
+    elif len(names) == 1:
+        who = names[0]
+    else:
+        who = ", ".join(names[:-1]) + (" and " if len(names) == 2 else ", and ") + names[-1]
     if r.get("note"):
-        who = f'{esc(r["note"])}: {who}'
+        who = f'{esc(r["note"])}: {who}' if who else esc(r["note"])
     src = (f'Library of Congress, Prints and Photographs, Spivak visual materials, LOT {r["lot"]}' if r.get("lot")
            else "Face the Nation, 1954–1970: Index (1972)" if r.get("src") == "FTN index"
            else "TV listings")
     check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
     hover = f'{r["network"]}. {src}' if r.get("network") else src      # the network on hover, not in the line
-    return f'<span title="{esc(hover)}"><i>{esc(r["show"])}</i>: {who}</span>{check}'
+    return f'<span title="{esc(hover)}"><i>{esc(r["show"])}</i>' + (f": {who}" if who else "") + f'</span>{check}'
 
 
 def day_label(d, year=True):

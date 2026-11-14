@@ -620,3 +620,17 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "PRC style; Mao isn't the author of his own nianpu but edited works drop their editors' makes in short form anyways; I've changed my mind—drop the tone marks everywhere, including in long titles; keep the macrons; I'm not sure where Zhang Zishen came from." (Nov. 13, night: word division by the PRC standard; the nianpu cards to their compilers as editors, the short form without them; Pinyin without tone marks, titles and names alike; Hepburn macrons kept.)
 
 "Name the compilers on the cards. Keep the cited editions. (What edition of the nianpu are we working from?)" (Nov. 13, night. The Drive epub is the publisher's nine-volume set, the 2013 printing: 1893-1949, rev. ed., 3 vols.; 1949-1976, 6 vols.; 1962 in vol. 5 of the latter, as the cites have it. Not the 2023 revision.)
+
+"The reader shouldn't read Schattenberg from 1960 on?" (Nov. 14, early: yes; the reader told to read from Jan. 1960.)
+
+"Please add the held-back material. The calendar extends as far as I want it to extend." (Nov. 14: the sections Feb.-Dec. 1969 and Nov. 1970 added, January 1969 to the 31st, the later sections renumbered; the held 1969 and 1970 material to be added and audited.)
+
+[An image of the Drive listing: Lettres, notes et carnets tomes 8-13 and two PDFs (June 1958-Dec. 1963); Peyrefitte, C'était de Gaulle T1-3 (epub) and T1 (PDF); Discours et messages [4], Pour l'effort.] "Do you not see these? Start the China wave first." (Nov. 14: the search had stopped at 11 p.m.; the French holdings noted; batch 15, the PRC, begun.)
+
+"What have we done for the DRV? Have we read their history of the American War?" (Nov. 14: the Party's documents 1960-64 read; Victory in Vietnam read; the nine-volume official history held, never read.) "Please do start the DRV as the Soviet audits finish." (Batch 16 brief written; readers to start as agent slots free.)
+
+"The default rule on visibility for those who aren't agents or members of government is territorial. If the talks with non-agents and non-members happened on the territory of Italy, Australia, NZ, Burma, or Ceylon, they're visible to those sovereigns. If not, not." (Nov. 14, in answer to the China audit's question on the parties out of power. Applied: tools/bib/vis.py STYLE 4, a name row `private: true` adding no polity (the Western journalists marked); 26 merged entries' `vis:only:` rulings cut to the host (the JCP, JSP, PKI below ministers, the Latin American, South African, NZ, Australian and Burmese parties, the ANC, Robert F. Williams, the PCF in Moscow); the running readers and auditors told; a ruling party of a party-state taken as its government.)
+
+"I have a big batch of individual diplomatic items from the CWIHP web archive in separate PDFs in the drive. They should probably go in after the USSR, DRV, and PRC." (Nov. 14: the 107 archival files of Nov. 10, the Wilson Center's English translations; batch 17 planned, notes/briefs/batch17-cwihp.md, to start when batches 14-16 are merged.)
+
+"Hold up. I like opinion and gossip!" (Nov. 14, on the batch 17 brief's draft rule passing over cables that report only gossip, a press digest or an embassy's opinion: struck before any reader ran; every document an entry (R8), the report entered as the reporter's account on the cable's day.)

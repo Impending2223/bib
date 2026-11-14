@@ -53,7 +53,7 @@ entries:
     thread: soviet-union
     also: [china]
     c: 'By poll, the Presidium approves a letter to the parties of the socialist camp: a meeting of their representatives at Bucharest at the end of June, on the situation since the Americans wrecked the summit, with a session there of the Warsaw Pact''s Political Consultative Committee, Peking, Pyongyang and Ulan Bator as observers. Khrushchev, out of the protocol: discipline one for all, the Chinese representative having published his speech; perhaps the Chinese invited for talks, a number of measures held back; Mao''s remarks on Kim Il Sung to be given Kim to read.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 443 (Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 128–31 (the resolution; the letter, signed by Khrushchev; the instructions to the ambassadors). Made public: 2003, 2008. Names: Khrushchev, Mao.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 443 (Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 128–31 (the resolution; the letter, signed by Khrushchev; the instructions to the ambassadors); [[w.zedong-mao-zedong-nianpu]], IV, June 5, 1960 (the letter as Peking read it). Made public: 2003, 2008. Names: Khrushchev, Mao.'
     src:
       c: 591505d3
       rows:
@@ -61,6 +61,7 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 III, 128–31: A'
         - 'via x.1960-06-02.presidium-protocol-284: B-D'
         - 'via x.1960-06-02.cc-letter-to-socialist-camp-parties: A'
+        - 'w.zedong-mao-zedong-nianpu IV, June 5, 1960: A'
     tags: [name:khrushchev-nikita-s, name:mao-zedong]
   - id: cal.1960-06-02.civil-rights-the-executive
     when: June 2
@@ -81,6 +82,13 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 208-CT/TW on floods and typhoons in 1960. Since the peace 64 million cubic meters of earth, 1,200,000 of stone, 205,000 of concrete on the dikes; some still low. Command boards at every level, youth and militia the core of the dike guards, strict discipline.'
     n: '*Chỉ thị của Ban Bí thư số 208-CT/TW về công tác phòng và chống lụt bão năm 1960*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 344–48. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-06-04.china-leadership
+    when: June 4–6
+    date: '1960-06-04'
+    thread: china-leadership
+    c: 'Hangzhou, the Nanping pool. Mao reads and discusses with Li Fuchun, Kang Sheng, Yang Shangkun and Tian Jiaying the Planning Commission''s points for the supplementary plan of the Second Five-Year Plan''s last three years, 1960–62 (sent May 29): "on the whole workable."'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 4, 1960. Made public: 2013. Names: Mao Zedong, Li Fuchun, Kang Sheng, Yang Shangkun, Tian Jiaying.'
+    tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:kang-sheng, vis:only:prc]
   - id: cal.1960-06-06.governors-ia
     when: June 6
     date: '1960-06-06'
@@ -181,6 +189,13 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Zurich
     range_basis: kind
+  - id: cal.1960-06-07.china-leadership
+    when: June 7
+    date: '1960-06-07'
+    thread: china-leadership
+    c: Hangzhou. Mao receives the Albanian parliamentary delegation under Haxhi Lleshi, chairman of the Presidium of the People's Assembly (Xi Zhongxun and Ji Pengfei report their talks first); Saifuddin and Yang Shangkun present. The Japanese–American alliance aimed at China and the Soviet Union; America would isolate China and cannot; at most a tenth of the world against it.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960. Made public: 2013. Names: Mao Zedong, Haxhi Lleshi, Xi Zhongxun, Ji Pengfei, Saifuddin, Yang Shangkun.'
+    tags: [polity:prc, polity:albania, name:mao-zedong, name:ji-pengfei, vis:only:prc+albania]
   - id: cal.1960-06-08.elections-1960
     when: June 8
     date: '1960-06-08'
@@ -245,6 +260,21 @@ entries:
     time_band: workday daytime
     time_zone: America/Phoenix
     range_basis: kind
+  - id: cal.1960-06-08.china-leadership
+    when: June 8–18
+    date: '1960-06-08'
+    thread: china-leadership
+    c: 'Shanghai. The enlarged Politburo, Mao presiding, on the supplementary plan for 1960–62 and the world: plans to leave a margin, agriculture the base and to be hurried; the fourteen targets for the three years cut sharply.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18). Made public: 2013. Names: Mao Zedong.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-08.china-leadership-2
+    when: June 8
+    date: '1960-06-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Shanghai, the Culture Club. The enlarged Politburo Standing Committee, Mao presiding, on the CPSU''s letter of June 2: a reply to be drafted. Zhou Enlai gives the meeting Mao''s view: no early meeting; in November, sixty-odd parties, a declaration drafted first by the two parties. That evening Yang reports a new letter, June 7: the twelve parties'' meeting put off.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960. Made public: 2013. Names: Mao Zedong, Kang Sheng, Yang Shangkun, Zhou Enlai, Liu Shaoqi, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Ke Qingshi, Li Jingquan, Ulanhu, Tao Zhu.'
+    tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1960-06-09.economy
     when: June 9
     date: '1960-06-09'
@@ -366,6 +396,14 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 211-CT/TW on public health: sickness down since the peace, with the fraternal countries'' help, but the work short of need. In 1960 a deep campaign of exercise, hygiene and prevention; the social diseases, mothers and children, the health of the factories, farms and mountains; cadres trained; the Party to lead.'
     n: '*Chỉ thị của Ban Bí thư số 211-CT/TW về việc tăng cường công tác y tế*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 349–57. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-06-09.china-leadership
+    when: June 9
+    date: '1960-06-09'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Shanghai. The enlarged Standing Committee, Mao presiding, on the reply to the CPSU''s letters of June 2 and 7: a delegation under Peng Zhen, with Kang Sheng and Wang Jiaxiang, to the Romanian party''s congress, June 20–25, and the twelve parties'' talks. Mao: be ready to be attacked, the summit''s failure blamed on China, and to be courted.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 9, 1960. Made public: 2013. Names: Mao Zedong, Peng Zhen, Kang Sheng, Wang Jiaxiang, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Chen Yi, Li Fuchun, He Long, Li Xiannian, Luo Ruiqing.'
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:kang-sheng, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:chen-yi, name:li-fuchun, name:he-long, name:li-xiannian, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-06-10.japan-and-korea
     when: June 10
     date: '1960-06-10'
@@ -405,6 +443,14 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-06-10.china-leadership
+    when: June 10
+    date: '1960-06-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao, Chairman of the Central Committee, to the CPSU: the parties'' conference and the Warsaw Treaty session put off, as the letter of June 7 proposed; the delegations at the Romanian congress to talk over the date and place first.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 10, 1960. Made public: 2013. Names: Mao Zedong.'
+    tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc+ussr]
   - id: cal.1960-06-11.europe-and-the-alliance-turkey
     when: June 11
     date: '1960-06-11'
@@ -443,6 +489,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-06-11.china-leadership
+    when: June 11
+    date: '1960-06-11'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Shanghai. Mao with Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng and Wang Jiaxiang on the delegation to Bucharest. Its line in six phrases: hold to unity, hold to principle, learn the facts, strike after being struck, argue with reason, leave room.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng, Wang Jiaxiang, Wu Xiuquan, Xu Jianguo, Khrushchev.'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc]
   - id: cal.1960-06-12.japan-and-korea
     when: June 12–16
     date: '1960-06-12'
@@ -471,6 +525,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-06-12.china-leadership
+    when: June 12
+    date: '1960-06-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The Center to Wu Xiuquan: tell the Soviet Ambassador at once, for the CPSU, the delegation to the Romanian party''s congress: Peng Zhen at its head; Kang Sheng, Wang Jiaxiang and Xu Jianguo, the Ambassador to Romania. At Moscow June 16 for two days, at Bucharest June 19; if the CPSU agrees, talks with Khrushchev first on the parties'' meeting and the main questions.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960, note 88. Made public: 2013. Names: Wu Xiuquan, Peng Zhen, Kang Sheng, Wang Jiaxiang, Xu Jianguo, Khrushchev.'
+    tags: [polity:prc, polity:ussr, name:peng-zhen, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc+ussr]
+  - id: cal.1960-06-13.china-leadership
+    when: June 13
+    date: '1960-06-13'
+    thread: china-leadership
+    also: [china]
+    c: 'Shanghai, the Culture Club. Mao''s meeting (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing): the targets of the supplementary plan lowered and the plan redone; shelling Quemoy.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing.'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:chen-yi, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-06-14.elections-1960
     when: June 14
     date: '1960-06-14'
@@ -496,6 +566,13 @@ entries:
     c: 'Twenty-third Amendment through Congress. The House passes Judiciary''s text, June 14, by voice. June 16: the Senate puts it into S.J. Res. 39 and adopts it, by voice. Electors for the District, no more than the least populous State''s. The Senate''s poll-tax ban and emergency appointments to the House dropped.'
     n: '[S.J. Res. 39, 74 Stat. 1057](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg1057.pdf) (1960). H.J. Res. 757, 86th Cong. See [[cal.1960-02-02.states-and-cities]].'
     short: the Twenty-third Amendment through Congress
+  - id: cal.1960-06-14.china-leadership
+    when: June 14
+    date: '1960-06-14'
+    thread: china-leadership
+    c: 'Shanghai, the enlarged Politburo. Mao: the targets to be set again (Li Fuchun: steel 30 million tons, grain 600 billion jin in 1962); set them low and beat them in the year, as the Eighth Congress''s plan of 1956 did, its best part the low targets.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960. Made public: 2013. Names: Mao Zedong, Li Fuchun.'
+    tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-15.japan-and-korea
     when: June 15–16
     date: '1960-06-15'
@@ -606,6 +683,14 @@ entries:
     c: 'The Politburo, Hanoi: directive no. 212-CT/TW on cooperatives in sea fishing along the North''s more than 800 kilometers of coast, important for the economy, politics and defense. The coastal reform done but in Hải Ninh; the boat owners'' exploitation to be ended by stages: fishing teams, lower and higher fishing cooperatives, fishing-farming cooperatives; the Party''s class line on the coast, shares, technique.'
     n: '*Chỉ thị của Bộ Chính trị số 212-CT/TW về việc tiến hành hợp tác hóa nghề cá ở miền biển*, signed for the Politburo by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 358–75. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-06-16.china-leadership
+    when: June 16
+    date: '1960-06-16'
+    thread: china-leadership
+    also: [china, japan-and-korea-far-east]
+    c: Shanghai. The enlarged Standing Committee, Mao presiding (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing), on shelling Quemoy before and after Eisenhower's visit to Taiwan.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, and note 90. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing, Eisenhower.'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:nie-rongzhen, name:luo-ruiqing, name:eisenhower-dwight-d, vis:only:prc]
   - id: cal.1960-06-17.elections-1960-rockefeller
     when: June 17
     date: '1960-06-17'
@@ -625,13 +710,40 @@ entries:
     c: 'Dearborn, through the station, to CIA headquarters: he agrees to be the link, if the CIA confirms to the dissidents that the United States will "clandestinely" help the opposition "develop effective force to accomplish Trujillo overthrow," but will not "undertake any overt action itself against Trujillo government while it is in full control of Dominican Republic."'
     n: '[[w.sen-church-alleged-assassination-plots]], 192–93 (the cable; headquarters "confirmed Dearborn''s understanding," citing a cable printed "6/16/60"). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, station to headquarters, June 17, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 193). See [[cal.1960-06-16.latin-america-dominican-republic]]. Names: Trujillo.'
     tags: [name:trujillo-rafael]
+  - id: cal.1960-06-17.china-leadership
+    when: June 17
+    date: '1960-06-17'
+    thread: china-leadership
+    c: 'Shanghai. Mao''s meeting with Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo on the adjusted supplementary plan, its targets cut at his word: to be adjusted again, "to take the initiative."'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 17, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo.'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:li-fuchun, name:li-xiannian, name:bo-yibo, vis:only:prc]
   - id: cal.1960-06-18.japan-and-korea-far-east
     when: June 18–19
     date: '1960-06-18'
     thread: japan-and-korea-far-east
     c: 'Eisenhower in Taipei: Chiang. Quemoy shelled during the visit.'
-    n: 'Joint Statement Following Discussions With President Chiang Kai-shek, [1960–61 Pub. Papers 509](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=561) (June 19, 1960). FRUS 1958–60, XIX, docs. [336](https://history.state.gov/historicaldocuments/frus1958-60v19/d336), [337](https://history.state.gov/historicaldocuments/frus1958-60v19/d337). See [[cal.1960-06-12.japan-and-korea]]. Names: Eisenhower, Chiang Kai-shek.'
+    n: 'Joint Statement Following Discussions With President Chiang Kai-shek, [1960–61 Pub. Papers 509](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=561) (June 19, 1960). FRUS 1958–60, XIX, docs. [336](https://history.state.gov/historicaldocuments/frus1958-60v19/d336), [337](https://history.state.gov/historicaldocuments/frus1958-60v19/d337). [[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, note 90 (the shelling, June 17 and 19). See [[cal.1960-06-12.japan-and-korea]]. Names: Eisenhower, Chiang Kai-shek.'
+    src:
+      c: 530d3bfe
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=561: all'
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v19/d336: all'
+        - 'w.zedong-mao-zedong-nianpu IV, June 16, 1960, note 90: B'
     tags: [name:eisenhower-dwight-d, name:chiang-kai-shek]
+  - id: cal.1960-06-18.china-leadership
+    when: June 18
+    date: '1960-06-18'
+    thread: china-leadership
+    c: 'Mao writes the "Ten-Year Summary": eight years of copying foreign experience; from the "Ten Great Relationships" of 1956 a Chinese line begun; the general line and the leap, 1958; the communes found workable, their disorders; the targets of 1958–59 too high, the mistakes now to be owned.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960. Made public: 2013. To check: *Jianguo yilai Mao Zedong wengao*, the "Ten-Year Summary". Names: Mao Zedong.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-18.china-leadership-2
+    when: June 18
+    date: '1960-06-18'
+    thread: china-leadership
+    c: 'Shanghai, the enlarged Politburo''s closing session; Mao speaks. Targets for 1962 to the Eighth Congress''s third session: steel 28.5 million tons (not the inner 32), iron 32, coal 500, electricity 85 billion kwh, fertilizer 4.5 million tons; Zhou Enlai: grain about 550 billion jin, cotton 45 million dan. "Do more, say less." On the "Ten-Year Summary": Soviet experience fit for China still to be copied.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Li Fuchun.'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-19.japan-and-korea-far-east
     when: June 19–20
     date: '1960-06-19'
@@ -702,6 +814,14 @@ entries:
     thread: latin-america-dominican-republic
     c: Farland reportedly suggests sites for airdrops of rifles to the dissidents, at a meeting with an officer of the CIA's Western Hemisphere Division.
     n: '[[w.sen-church-alleged-assassination-plots]], 193 (the CIA memorandum of June 21; the report says the dissidents asked Farland for sniper rifles at a cocktail party). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA memorandum, June 21, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 193). See [[cal.1960-06-16.latin-america-dominican-republic]].'
+  - id: cal.1960-06-21.china-leadership
+    when: June 21
+    date: '1960-06-21'
+    thread: china-leadership
+    also: [japan]
+    c: Shanghai. Mao and Zhou Enlai receive the Japanese writers' delegation under Noma Hiroshi; Ke Qingshi present. The Japanese people's fight against the security treaty, against America and its agent Kishi, larger than anyone expected last year; the strikes political.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 21, 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Noma Hiroshi, Ke Qingshi, Kishi.'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:ke-qingshi, name:kishi-nobusuke, vis:only:prc]
   - id: cal.1960-06-22.japan-and-korea
     when: June 22–23
     date: '1960-06-22'
@@ -868,6 +988,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-06-23.china-leadership
+    when: June 23–27
+    date: '1960-06-23'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Shanghai, the Culture Club. Mao, Liu Shaoqi, Zhou Enlai and Chen Yun, with Ke Qingshi from June 24 and at times Lu Dingyi and Liu Xiao, meet daily on the CPSU's letter of June 21, handed to Peng Zhen's delegation at Bucharest June 23, and on the Bucharest communique.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 23, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Ke Qingshi, Lu Dingyi, Liu Xiao, Peng Zhen.'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:ke-qingshi, name:lu-dingyi, name:peng-zhen, vis:only:prc]
   - id: cal.1960-06-24.latin-america
     when: June 24
     date: '1960-06-24'
@@ -1225,6 +1353,14 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-06-29.china-leadership
+    when: June 29
+    date: '1960-06-29'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The editorial "Hold High the Revolutionary Banner of the Moscow Declaration" in *Renmin ribao*. Mao had finished revising it at Bengbu, 3 a.m., adding: the revolutionary people over 90 percent; lasting peace only when imperialism and capitalism are gone, classes truly ended.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 29, 1960. Made public: 2013. Names: Mao Zedong.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc@B-C]
   - id: cal.1960-06-30.congo
     when: June 30
     date: '1960-06-30'
@@ -1518,11 +1654,12 @@ entries:
     thread: soviet-union
     also: [china]
     c: 'Bucharest, two weeks after the meeting at Peking. Khrushchev answers his critics: it is not enough to read Marx; "One must also correctly understand what one had read and apply it to specific conditions of the time in which we live, taking into consideration the situation and the real balance of forces."'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 305. To check: [[w.fursenko-one-hell-of-a]], 49–50 (cited by [[w.fursenko-khrushchevs-cold-war]], 305 n.56). Check: the day. See [[cal.1960-06.china]]. Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 305; [[w.zedong-mao-zedong-nianpu]], IV, June 23, 1960, note 95 (Khrushchev against the Chinese delegation, June 22 and 24). To check: [[w.fursenko-one-hell-of-a]], 49–50 (cited by [[w.fursenko-khrushchevs-cold-war]], 305 n.56). Check: the day. See [[cal.1960-06.china]]. Names: Khrushchev.'
     src:
       c: b578f874
       rows:
         - 'w.fursenko-khrushchevs-cold-war 305: all'
+        - 'w.zedong-mao-zedong-nianpu IV, June 23, 1960, note 95: B'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1960-06-30.congo-2
     when: June 30
