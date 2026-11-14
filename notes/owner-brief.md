@@ -612,3 +612,11 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Sorry, that should be immediate." (Nov. 13, 3:18 p.m.: the owner's correction to the request above, which is therefore Immediate; the ROC/ROK/Japan list is being refined now, not at 5:04 p.m.)
 
 "Isn't the Korean junta's daily log available here? https://www.pa.go.kr/portal/online_contents/instant_record/instantRecordDetail.do?seq=10" (Nov. 13, evening. Yes: the ten volumes of the log, May 16, 1961-Nov. 25, 1963, as free scans; notes/proposals/east-asia-reading.md corrected.)
+
+"Cards should carry, first, the standard Romanization, including macrons and in accented Pinyin where appropriate, second, the CJK, and third, a translation of the title, in square brackets." (Nov. 13, evening.)
+
+"I've struck out for the moment on sourcing the Japanese and Korean titles you pointed me to, but I have sourced and added some of the Japanese MOFA materials you were blocked on. The MOFA Bluebook is open, but the volumes on our period are a series of linked HTML pages, which has me stumped on how to download it and deliver it to you. It seems like our Japanese and Korean materials are pretty good, as far as public-facing matters of public record go? But the sourcing of digitized and/or machine-readable published works is proving much harder than I expected, or than the availability of PRC and DRV materials had led me to expect." (Nov. 13, evening. The 2010 mitsuyaku reports and eleven document files now on the Drive; a wget mirror of the Bluebook suggested.)
+
+"PRC style; Mao isn't the author of his own nianpu but edited works drop their editors' makes in short form anyways; I've changed my mind—drop the tone marks everywhere, including in long titles; keep the macrons; I'm not sure where Zhang Zishen came from." (Nov. 13, night: word division by the PRC standard; the nianpu cards to their compilers as editors, the short form without them; Pinyin without tone marks, titles and names alike; Hepburn macrons kept.)
+
+"Name the compilers on the cards. Keep the cited editions. (What edition of the nianpu are we working from?)" (Nov. 13, night. The Drive epub is the publisher's nine-volume set, the 2013 printing: 1893-1949, rev. ed., 3 vols.; 1949-1976, 6 vols.; 1962 in vol. 5 of the latter, as the cites have it. Not the 2023 revision.)

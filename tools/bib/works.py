@@ -58,6 +58,16 @@ STYLE:
     Policy*, VIII, 241" (the owner, Nov. 13, 2026: "rather than having ', Vol. 8' hard-coded in"). A set cited by one
     card, its volume in the pinpoint ("[[w.prezidium-tsk-kpss-1954]], I, 556"), prints the volume the same way at its
     first, full citation: "*Title*, I, 556 (2003–08)", not Bluebook's "1 *Title* 556".
+10. A Chinese, Japanese or Korean title (the owner, Nov. 13, 2026: "Cards should carry, first, the standard
+    Romanization, including macrons and in accented Pinyin where appropriate, second, the CJK, and third, a
+    translation of the title, in square brackets"): `title` the romanization, `script` the title in its own script,
+    `trans` the English translation: "Satō Eisaku, *Satō Eisaku nikki* 佐藤榮作日記 [The diary of Satō Eisaku]
+    (1997–99)". An author or editor likewise, romanized then in script ("Satō Eisaku 佐藤榮作"); the short form is the
+    romanization alone. The owner's rulings of the same night: Hanyu Pinyin without tone marks, in titles and names
+    alike ("drop the tone marks everywhere, including in long titles"), its words divided by the PRC standard (GB/T
+    16159: "Mao Zedong nianpu", not "Mao Zedong nian pu"); modified Hepburn keeps its macrons; a chronology (nianpu)
+    is its compilers', not its subject's ("Mao isn't the author of his own nianpu"), so the compilers are its
+    editors and its short form the title alone.
 """
 import os
 import re
@@ -252,6 +262,10 @@ def render(f, omit_author=False, cat=None, caps=False):
     if f.get("author") and not omit_author:
         out = (sc(join_names(f["author"])) if book else join_names(f["author"])) + ", "
     out += sc(f["title"]) if book else f"*{f['title']}*"
+    if f.get("script"):                                # a CJK title in its own script, then its gloss (STYLE 10)
+        out += f" {f['script']}"
+    if f.get("trans"):
+        out += f" [{f['trans']}]"
     if f.get("volume") and not f.get("journal"):       # a numbered volume of a series, in Roman (STYLE 9)
         out += f", {f['volume']}"
     if f.get("journal"):
@@ -521,7 +535,7 @@ def code_ok(ref, tail):
 
 # ---------------------------------------------------------------- the interface: the catalogue and its questions
 
-CARD_FIELDS = ["id", "kind", "author", "editor", "translator", "director", "title", "volume", "journal", "vol", "page", "link",
+CARD_FIELDS = ["id", "kind", "author", "editor", "translator", "director", "title", "script", "trans", "volume", "journal", "vol", "page", "link",
                "paren", "year", "online", "c", "in", "edition_of", "translates", "short", "files_under", "also_under", "n",
                "tags", "aliases"]
 
