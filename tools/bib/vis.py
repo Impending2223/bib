@@ -74,8 +74,9 @@ STYLE
     day (Morris Childs, the FBI's informant in the CPUSA's delegations from 1958: Operation SOLO, the queue). Private
     persons likewise: the CIA's Domestic Contact Service debriefed American travellers, journalists and businessmen
     among them; the territorial default stands until a debrief is on record. An opposition politician's talk, whose
-    report home is the default's weakest case (the SFIO, the Japan Socialists), is to be marked until a source settles
-    it (the owner, Nov. 14, proposing "To check: whether reported to [home government]"; the form not yet settled).
+    report home is the default's weakest case (the SFIO, the Japan Socialists), takes a sentence shown on the page
+    until a source settles it, at the note's end: "Check: whether Mitterrand reported the talk to the French
+    government." (the owner, Nov. 14: "Keep it shown on the page.").
  5. Address (§4), in order: the tags the unit itself names (a name tag whose surname, or a place whose name, stands in
     the unit's text: the maps do not yet tie tags to units, so the text ties them); else the entry's name, place,
     state, city, province and `polity:` tags; else the thread's polities (sources/polities.yaml, a subthread its
