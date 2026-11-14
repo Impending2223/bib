@@ -622,3 +622,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Name the compilers on the cards. Keep the cited editions. (What edition of the nianpu are we working from?)" (Nov. 13, night. The Drive epub is the publisher's nine-volume set, the 2013 printing: 1893-1949, rev. ed., 3 vols.; 1949-1976, 6 vols.; 1962 in vol. 5 of the latter, as the cites have it. Not the 2023 revision.)
 
 "The reader shouldn't read Schattenberg from 1960 on?" (Nov. 14, early: yes; the reader told to read from Jan. 1960.)
+
+"Please add the held-back material. The calendar extends as far as I want it to extend." (Nov. 14: the sections Feb.-Dec. 1969 and Nov. 1970 added, January 1969 to the 31st, the later sections renumbered; the held 1969 and 1970 material to be added and audited.)

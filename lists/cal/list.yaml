@@ -1,9 +1,9 @@
 # Cal.: page text and outline. Entries live in the files named by 'file'.
 # The list's own page_title, h1, lede and index_logic are the index's (cal.html); its logic shows on the index and on
 # every year's page, before the year's own (`split:`, a part a year; tools/bib/calsplit.py, STYLE 13).
-page_title: Calendar, January 1960–January 1969
+page_title: Calendar, January 1960–1970
 h1: 'Calendar of the Eisenhower, Kennedy and Johnson years, January 6, 1960, to January 20, 1969; with the presidential primaries and conventions of 1960 to 1976'
-lede: 'Executive, legislative, judicial, and state events from the opening of the 86th Congress''s second session, Jan. 6, 1960, to Nixon''s inauguration, Jan. 20, 1969: the 86th Congress''s second session, the 87th through the 90th, and the 91st''s opening; the Eisenhower administration''s last year, Kennedy''s, and Johnson''s. A page a year, 1960 to 1969, and one for the primaries of 1972 and 1976. This page is the calendar''s index.'
+lede: 'Executive, legislative, judicial, and state events from the opening of the 86th Congress''s second session, Jan. 6, 1960, to Nixon''s inauguration, Jan. 20, 1969: the 86th Congress''s second session, the 87th through the 90th, and the 91st''s opening; the Eisenhower administration''s last year, Kennedy''s, and Johnson''s. After the inauguration, the foreign leaderships'' records carried on (the owner, Nov. 14, 2026: "The calendar extends as far as I want it to extend"). A page a year, 1960 to 1970, and one for the primaries of 1972 and 1976. This page is the calendar''s index.'
 logic:
   - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war, and into the earlier lists where they hold the record.
   - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Works are cited in full at their first appearance in each year''s calendar, by short form after, each linked to its entry in Works, the A–Z bibliography. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* (Eisenhower''s 1960–61 volume; Kennedy''s for 1961, 1962 and 1963; Johnson''s from Nov. 22, 1963, in his volumes for 1963–64 through 1968–69) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States*, by subseries and volume: *1958–1960* for Eisenhower''s last year, *1961–1963*, and, from Nov. 22, 1963, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
@@ -200,10 +200,19 @@ split:
     abbr: Cal. 1969
     called: the calendar of 1969
     title: 'Calendar, 1969: the 91st Congress''s opening'
-    span: Jan. 1–20, 1969
-    page_title: Calendar, January 1969
+    span: Jan. 1–Dec. 31, 1969
+    page_title: Calendar, 1969
     h1: '1969'
     lede: Executive, legislative, judicial, and state events of 1969.
+  - from: '1970-01-01'
+    page: cal1970
+    abbr: Cal. 1970
+    called: the calendar of 1970
+    title: 'Calendar, 1970'
+    span: 1970
+    page_title: Calendar, 1970
+    h1: '1970'
+    lede: Events of 1970.
   - from: '1972-03-01'
     page: calprimaries
     abbr: Cal. 1972–76
@@ -989,95 +998,167 @@ sections:
     num: CXI.
     title: January 1969
     from: '1969-01-01'
-    to: '1969-01-20'
+    to: '1969-01-31'
     file: 196901.yaml
+  - id: '196902'
+    num: CXII.
+    title: February 1969
+    from: '1969-02-01'
+    to: '1969-02-28'
+    file: 196902.yaml
+  - id: '196903'
+    num: CXIII.
+    title: March 1969
+    from: '1969-03-01'
+    to: '1969-03-31'
+    file: 196903.yaml
+  - id: '196904'
+    num: CXIV.
+    title: April 1969
+    from: '1969-04-01'
+    to: '1969-04-30'
+    file: 196904.yaml
+  - id: '196905'
+    num: CXV.
+    title: May 1969
+    from: '1969-05-01'
+    to: '1969-05-31'
+    file: 196905.yaml
+  - id: '196906'
+    num: CXVI.
+    title: June 1969
+    from: '1969-06-01'
+    to: '1969-06-30'
+    file: 196906.yaml
+  - id: '196907'
+    num: CXVII.
+    title: July 1969
+    from: '1969-07-01'
+    to: '1969-07-31'
+    file: 196907.yaml
+  - id: '196908'
+    num: CXVIII.
+    title: August 1969
+    from: '1969-08-01'
+    to: '1969-08-31'
+    file: 196908.yaml
+  - id: '196909'
+    num: CXIX.
+    title: September 1969
+    from: '1969-09-01'
+    to: '1969-09-30'
+    file: 196909.yaml
+  - id: '196910'
+    num: CXX.
+    title: October 1969
+    from: '1969-10-01'
+    to: '1969-10-31'
+    file: 196910.yaml
+  - id: '196911'
+    num: CXXI.
+    title: November 1969
+    from: '1969-11-01'
+    to: '1969-11-30'
+    file: 196911.yaml
+  - id: '196912'
+    num: CXXII.
+    title: December 1969
+    from: '1969-12-01'
+    to: '1969-12-31'
+    file: 196912.yaml
+  - id: '197011'
+    num: CXXIII.
+    title: November 1970
+    from: '1970-11-01'
+    to: '1970-11-30'
+    file: 197011.yaml
   - id: '197203'
     old_id: mar72
-    num: CXII.
+    num: CXXIV.
     title: March 1972
     from: '1972-03-01'
     to: '1972-03-31'
     file: 197203.yaml
   - id: '197204'
     old_id: apr72
-    num: CXIII.
+    num: CXXV.
     title: April 1972
     from: '1972-04-01'
     to: '1972-04-30'
     file: 197204.yaml
   - id: '197205'
     old_id: may72
-    num: CXIV.
+    num: CXXVI.
     title: May 1972
     from: '1972-05-01'
     to: '1972-05-31'
     file: 197205.yaml
   - id: '197206'
     old_id: jun72
-    num: CXV.
+    num: CXXVII.
     title: June 1972
     from: '1972-06-01'
     to: '1972-06-30'
     file: 197206.yaml
   - id: '197207'
     old_id: jul72
-    num: CXVI.
+    num: CXXVIII.
     title: July 1972
     from: '1972-07-01'
     to: '1972-07-31'
     file: 197207.yaml
   - id: '197208'
     old_id: aug72
-    num: CXVII.
+    num: CXXIX.
     title: August 1972
     from: '1972-08-01'
     to: '1972-08-31'
     file: 197208.yaml
   - id: '197602'
     old_id: feb76
-    num: CXVIII.
+    num: CXXX.
     title: February 1976
     from: '1976-02-01'
     to: '1976-02-29'
     file: 197602.yaml
   - id: '197603'
     old_id: mar76
-    num: CXIX.
+    num: CXXXI.
     title: March 1976
     from: '1976-03-01'
     to: '1976-03-31'
     file: 197603.yaml
   - id: '197604'
     old_id: apr76
-    num: CXX.
+    num: CXXXII.
     title: April 1976
     from: '1976-04-01'
     to: '1976-04-30'
     file: 197604.yaml
   - id: '197605'
     old_id: may76
-    num: CXXI.
+    num: CXXXIII.
     title: May 1976
     from: '1976-05-01'
     to: '1976-05-31'
     file: 197605.yaml
   - id: '197606'
     old_id: jun76
-    num: CXXII.
+    num: CXXXIV.
     title: June 1976
     from: '1976-06-01'
     to: '1976-06-30'
     file: 197606.yaml
   - id: '197607'
     old_id: jul76
-    num: CXXIII.
+    num: CXXXV.
     title: July 1976
     from: '1976-07-01'
     to: '1976-07-31'
     file: 197607.yaml
   - id: '197608'
     old_id: aug76
-    num: CXXIV.
+    num: CXXXVI.
     title: August 1976
     from: '1976-08-01'
     to: '1976-08-31'
