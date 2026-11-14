@@ -263,7 +263,7 @@ As the 1960–61 section: `[[w.van-kien-dang-toan]], XXV, 11–25`, the src rows
 ### The copies
 
 - Vol. 23 (1962): Drive `1upRXoizdfxWBY_emRkOTegqlS_VYLPPy`, 506 PDF pages, letter, two-up, PDF 1.4 (iTextSharp 5.1.1). Book pp. V–VI, 1–976; contents at 977–89 (its page numbers run off from the text's in places: e.g. Lê Duẩn's letter of July 18 listed at 700, printed at 705; the text's folios used); appendix 851–976. The contents list a Secretariat circular no. 62-TT/TW of Jan. 30, 1962 (cadres in the countryside at Tết) that the copy does not print.
-- Vol. 24 (1963): Drive `172mXcdm2w51tR83qCTMmZoAxsWC8KF7M`, 485 PDF pages, letter, two-up, PDF 1.4 (Ghostscript 8.15). Book pp. 1–910 and an appendix. **The copy wants book pp. 777–862** (PDF 388R, p. 776, is followed by PDF 389L, p. 863): what stands there was not read; by the intervening pages, the Ninth Plenum's papers after the communiqué (Lê Duẩn's speech to the plenum, printed in *Học Tập*, February 1964, is likely among them). The appendix's folios print only "V"/"VI": its pages here counted on from 910 (the first appendix page 912). No contents and no colophon in the copy.
+- Vol. 24 (1963): Drive `172mXcdm2w51tR83qCTMmZoAxsWC8KF7M`, 485 PDF pages, letter, two-up, PDF 1.4 (Ghostscript 8.15). Book pp. 1–910 and an appendix. ~~The copy wants book pp. 777–862~~ (PDF 388R, p. 776, is followed by PDF 389L, p. 863). [Withdrawn Nov. 14, 2026, by the owner's ruling: nothing is wanting. The copy is a re-set text whose own folios jump from 776 to 863 with the text continuous; the resolution on the South begins at the copy's 863, the print's 811 (Asselin). See the 1968–69 audit's page question below.] The appendix's folios print only "V"/"VI": its pages here counted on from 910 (the first appendix page 912). No contents and no colophon in the copy.
 - Vol. 25 (1964): Drive `1OgpxUm0O5polcWekBlzIqDJP7fO5AcHF`, 399 PDF pages, letter, two-up, PDF 1.4 (Ghostscript 8.15). Book pp. 1–793; appendix 699–793. No contents and no colophon in the copy; the introduction counts 48 documents, 45 and 3 in the appendix.
 - Downloaded by the first reader into the scratchpad (`books/b12-vkd-b/`); converted with `tools/vn/vkd2txt.py` and split by half-page; deleted when done.
 
@@ -295,7 +295,7 @@ The brief and the 1960–61 reader's rulings: an entry a document of the Politbu
 
 ### The documents, one by one
 
-Every document of the three volumes, in the volume's order, with its first page and the ruling (vol. 24's pp. 777–862 wanting). Read: each document's opening and close and its operative sections; the Ninth Plenum's resolution on the South, the Politburo's resolutions on the South of February and December 1962, Lê Duẩn's letter of July 18, 1962, the letter to the CPSU, the Secretariat's circular on international relations of Aug. 27, 1963, and the Politburo's instruction no. 81 of Aug. 7, 1964 at length; the plenums' long reports and resolutions on the economy, and the appendices, by their headings and operative sections.
+Every document of the three volumes, in the volume's order, with its first page and the ruling (vol. 24's pp. 777–862 wanting: withdrawn Nov. 14, nothing is wanting). Read: each document's opening and close and its operative sections; the Ninth Plenum's resolution on the South, the Politburo's resolutions on the South of February and December 1962, Lê Duẩn's letter of July 18, 1962, the letter to the CPSU, the Secretariat's circular on international relations of Aug. 27, 1963, and the Politburo's instruction no. 81 of Aug. 7, 1964 at length; the plenums' long reports and resolutions on the economy, and the appendices, by their headings and operative sections.
 
 
 #### Vol. XXV (1964)
@@ -522,7 +522,7 @@ Every document of the three volumes, in the volume's order, with its first page 
 
 ### Where batch 12 stopped (1962–64)
 
-All three volumes done, to the last page of each copy (XXIII, 976; XXIV, the appendix to its end; XXV, 793), in the order 1964, 1963, 1962. Not done: vol. XXIV, pp. 777–862, wanting in the copy; the plenums' long reports on the economy as days of their own; the regional committees of Việt Bắc and Tây Bắc (passed over); no witnesses file. Stopped cleanly, the patch checked to 0 errors.
+All three volumes done, to the last page of each copy (XXIII, 976; XXIV, the appendix to its end; XXV, 793), in the order 1964, 1963, 1962. Not done: ~~vol. XXIV, pp. 777–862, wanting in the copy~~ (withdrawn Nov. 14: the copy's folios jump, nothing is wanting); the plenums' long reports on the economy as days of their own; the regional committees of Việt Bắc and Tây Bắc (passed over); no witnesses file. Stopped cleanly, the patch checked to 0 errors.
 
 ### Audit (batch 12, 1960)
 
