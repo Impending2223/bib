@@ -482,7 +482,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 141: all'
         - 'via w.fursenko-one-hell-of-a 141 n.42: all'
-    tags: [vis:only:ussr+cuba]
+    tags: [vis:only:ussr+cuba, vis:frame:ussr]
     time_range:
       - 1961-11-04T14:00Z
       - 1961-11-04T22:00Z
@@ -564,16 +564,10 @@ entries:
     when: Nov. 7
     date: '1961-11-07'
     thread: elections-1961
-    also: [mayors, governors]
-    c: 'Off-year elections. New York: Wagner re-elected mayor over Lefkowitz (R), 1,237,421 to 835,691, 51.0 percent; Gerosa, independent, 321,604, 13.3 percent. New Jersey: Hughes (D) governor over Mitchell, Eisenhower''s Labor Secretary, 1,084,194 to 1,049,274, 50.4 percent.'
-    n: '[N.J. *Results of the General Election Held November 7th, 1961*, p. 3](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1961-general-election.pdf#page=3). Votes: [Wikipedia, "1961 New York City mayoral election"](https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election); Check: the Board of Elections'' canvass. [[w.smith-on-his-own-terms]], 360 (Wagner over Lefkowitz by four hundred thousand votes). See [[cal.1961-09-07.states-and-cities]]. Names: Wagner, Lefkowitz, Gerosa, Hughes, Mitchell, Eisenhower.'
-    src:
-      c: eecb5708
-      rows:
-        - 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1961-general-election.pdf#page=3: all'
-        - 'https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election: all'
-        - 'w.smith-on-his-own-terms 360: B'
-    tags: [name:wagner-robert-f-jr, name:mitchell-james-p, name:eisenhower-dwight-d, name:hughes-richard-j, state:ny, city:nyc, state:nj, name:lefkowitz-louis-j, name:gerosa-lawrence-e]
+    also: [mayors]
+    c: 'Off-year elections. New York: Wagner (D) re-elected mayor over Lefkowitz (R), 1,237,421 to 835,691, 51.0 percent; Gerosa, independent, 321,604, 13.3 percent.'
+    n: 'Votes: [Wikipedia, "1961 New York City mayoral election"](https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election); Check: the Board of Elections'' canvass. [[w.smith-on-his-own-terms]], 360 (Wagner over Lefkowitz by four hundred thousand votes). See [[cal.1961-09-07.states-and-cities]]; [[cal.1961-11-07.governors-nj]]. Names: Wagner, Lefkowitz, Gerosa.'
+    tags: [name:wagner-robert-f-jr, state:ny, city:nyc, name:lefkowitz-louis-j, name:gerosa-lawrence-e]
     time_range:
       - 1961-11-08T01:00Z
       - 1961-11-08T07:00Z

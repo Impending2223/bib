@@ -584,3 +584,31 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Keep the staff memos. Bring back the selfish bastards. Someone should do a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic." (The memos stay; `cal.1964-07-02.civil-rights-bill-16` restored.)
 
 "Yes on Dirksen's "idea." Check on the cloture petition. Combine if it already holds it, redate it otherwise. Yes on Rauh and Mitchell. Keep Johnson's call to HHH, with the disagreement noted, unless Whalen and Purdum give their evidentiary or reasoned grounds for their dating, in which case switch and note Mann's alternative. Move the floor meeting. Two tellings for now. Take it out of Feb. 5. Surely the hard sources/records would give us a better date here? Or no?" (Done: May 19; the June 1 petition combined into June 8, which held it; Jan. 21; Whalen's ground a Humphrey memorandum (148 n.), Purdum's a reasoned note (358): the "listen to Dirksen" talk now Feb. 18, the Mar. 8 call kept with Mann's placement noted; Apr. 13; the Moyers tellings linked; Smith's amendment to Feb. 4 by the Record, 110 Cong. Rec. 1933, tellers 107–149.)
+
+## Nov. 13, 2026 (morning; marked "Immediate")
+
+"Immediate. Where are we? What's left? What's next? What do you need from me?"
+
+"We haven't rolled out visibility?" (It was rolled out Nov. 12; the hand-off's queue was stale and was corrected.)
+
+"How about the other items in the handoff? The batches, the foreign leadership, the Church materials?"
+
+"I believe the not yet checked items are done, with the possible exception of the Feb. 8 item. Please check and update the handoff. Skip the Church Book V—Bugliosi tells me it's a red herring, and it doesn't sound that interesting besides. Can you show me what the queue looks like after you've finished working on it? Is the queue in the handoff?" (All four done, Feb. 8 included (7e5c848); Book V dropped from the Church plan; the hand-off's queue rebuilt against the tree.)
+
+(Nov. 13, 10:38 a.m., in the pause; answered "Queued.", to be taken up at 5:04 p.m.)
+
+> - Set Powers's visibility to the US to his release date. Invisible to the US while held incommunicado.
+> - I suppose Martin and Mitchell's actions during their defection should be invisible to the US until discovered by the US or its (nondefecting) agents, and invisible to the USSR until the earliest contact with the USSR or its agents—which suggests, if David Durant reports the materials correctly, December 1959?
+> - Strictly speaking, "Alekseyev to Moscow: " is Soviet-only, but "Guevara says . . ." is Soviet-and-Cuban. (I don't mind having different levels of visibility in a single entry. I like it!)
+> - Date Souvanphong's polity.
+> - Correct the Hanoi October 1964 entry.
+> - Don't make it a rule to split entries mixing a private Soviet act with its public form. (See above re: different levels of visibility in a single entry.)
+> - Use Roman numerals in the short titles for the 20 titles with "Vol." in their short titles. No ruling yet on works with "Vol." only in their long titles.
+
+"Immediate. What could we read for a skeleton of the ROC, ROK, and Japan in our period? What's available by way of political history, biography, memoir, public affairs, foreign relations, and the like?" (Answered in the session, 10:5x a.m.; a written plan offered, as for the other foreign leaderships.)
+
+"Refine these answers for me. Give me parallel citations in CJK for all CJK works. Use your search tools to identify titles and clear up your uncertainties." (Nov. 13, in the pause, not marked "Immediate": answered "Queued.", for 5:04 p.m.; the answer refined is the ROC/ROK/Japan reading list given in the session that morning.)
+
+"Sorry, that should be immediate." (Nov. 13, 3:18 p.m.: the owner's correction to the request above, which is therefore Immediate; the ROC/ROK/Japan list is being refined now, not at 5:04 p.m.)
+
+"Isn't the Korean junta's daily log available here? https://www.pa.go.kr/portal/online_contents/instant_record/instantRecordDetail.do?seq=10" (Nov. 13, evening. Yes: the ten volumes of the log, May 16, 1961-Nov. 25, 1963, as free scans; notes/proposals/east-asia-reading.md corrected.)

@@ -17,7 +17,7 @@ Pike: the *Village Voice* supplement of Feb. 16, 1976 (24 pp.), in the Weisberg 
 ## Order
 
 1. Interim report (plots), 349 pp.: read first, it dates the plots.
-2. Book V (Kennedy assassination), 112 pp.
+2. ~~Book V (Kennedy assassination), 112 pp.~~ Skipped (the owner, Nov. 13, 2026: "Bugliosi tells me it's a red herring, and it doesn't sound that interesting besides").
 3. Hearings vol. 7 App. A (Chile), 87 pp.
 4. Book III (COINTELPRO, King, mail, NSA) with Hearings vols. 4, 5, 6 in part.
 5. Books I–II, IV, only the chapters below. Skip VI and Hearings vols. 1–3 (toxins, Huston plan 1970, IRS) unless an entry needs them.
@@ -34,7 +34,7 @@ Pike: the *Village Voice* supplement of Feb. 16, 1976 (24 pp.), in the Weisberg 
 - **COINTELPRO and King.** Book III, COINTELPRO (78 pp.) and the King case study (pp. 79–~224, to be confirmed against the OCR); Book II, the dissent chapter (ch. D, ~50); Hearings vol. 6 (FBI, 1,000+ pp.: take Nov. 18–19 and Dec. 2–3, the King and Birmingham-era witnesses). Against: cal.1963-08-30.king, cal.1963-10-10.king, cal.1963-10-21.king, cal.1964-11-19.king-2, cal.1966-09-09.black-nationalism.
 - **NSA watch lists (Minaret/Shamrock) and Chaos.** Book III, NSA surveillance (52 pp., pp. 733–784) and military surveillance (50); Hearings vol. 5 (171 pp.); Book II, ch. B–C (overbreadth, intrusive techniques; ~60). Chaos (CIA, 1967–74): Book III, Book II. The calendar has no entry on either; check the antiwar and civil-rights threads before adding any.
 - **Mail opening.** Book III, mail opening (120 pp., pp. 559–678); Hearings vol. 4 (154+ pp.). No calendar entry found.
-- **The Kennedy assassination's investigations.** Book V (112 pp.): ch. III (22) and IV (32) first. Against: cal.1963-11-22.assassination, cal.1963-11-22.soviet-union, cal.1963-12-05.assassination; the 1964 Warren Commission entries: search `-l cal "Warren Commission" --since 1964-01 --until 1964-09`.
+- **The Kennedy assassination's investigations.** (Skipped, the owner, Nov. 13, 2026.) Book V (112 pp.): ch. III (22) and IV (32) first. Against: cal.1963-11-22.assassination, cal.1963-11-22.soviet-union, cal.1963-12-05.assassination; the 1964 Warren Commission entries: search `-l cal "Warren Commission" --since 1964-01 --until 1964-09`.
 - **Pike (Tet, Czechoslovakia).** The Voice supplement: the order-of-battle controversy and the Tet warning; "Czechoslovakia: failure of tactical warning." Against: cal.1967-09-09.vietnam-order-of-battle, cal.1968-02-21.vietnam-order-of-battle, cal.1968-08-03.soviet-union-czechoslovakia, cal.1968-08-05.soviet-union-czechoslovakia.
 
 Total on the first five steps, with the chapters named: about 700 pages.

@@ -182,24 +182,11 @@ entries:
       rows:
         - 'w.staaveren-gradual-failure 179: all'
   - id: cal.1965-08-03.voting-rights
-    when: Aug. 3–4
+    when: Aug. 3
     date: '1965-08-03'
     thread: voting-rights
-    c: House adopts the conference report on the voting rights bill, S. 1564, [328–74](https://voteview.com/rollcall/RH0890107); recommittal lost, [118–284](https://voteview.com/rollcall/RH0890106). Senate, Aug. 4, [79–18](https://voteview.com/rollcall/RS0890178). The House's ban on the poll tax dropped for a finding that it abridges the right to vote and a direction to the Attorney General to sue.
-    n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-5-2.pdf) (1965); [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-6-1.pdf) (1965). [[w.branch-at-canaans-edge]], 275 (the House''s vote; the Senate''s passage); [[w.mann-walls-of-jericho]], 475; [[w.kotz-judgment-days]], 331 (328–74; the Senate 79–18 the next day, Smathers for); [[w.zelizer-fierce-urgency-of-now]], 219 (328–74; the Senate 79–18); [[w.bernstein-guns-or-butter]], 240–41 (Dirksen and Celler''s language; the American flag provision kept). See [[cal.1965-07-09.voting-rights]]. Check: the pages.'
-    src:
-      c: 4121cc04
-      rows:
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-5-2.pdf: all'
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-6-1.pdf: all'
-        - 'https://voteview.com/rollcall/RH0890107: A'
-        - 'https://voteview.com/rollcall/RH0890106: B'
-        - 'https://voteview.com/rollcall/RS0890178: C'
-        - 'w.branch-at-canaans-edge 275: A, C'
-        - 'w.mann-walls-of-jericho 475: A, C-D'
-        - 'w.kotz-judgment-days 331: A'
-        - 'w.zelizer-fierce-urgency-of-now 219: ?'
-        - 'w.bernstein-guns-or-butter 240–41: A, C-D'
+    c: House adopts the conference report on the voting rights bill, S. 1564, [328–74](https://voteview.com/rollcall/RH0890107); recommittal lost, [118–284](https://voteview.com/rollcall/RH0890106). The House's ban on the poll tax dropped for a finding that it abridges the right to vote and a direction to the Attorney General to sue.
+    n: '[111 Cong. Rec. 19,200–01](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-5-2.pdf#page=15) (1965) (Aug. 3, 1965). [[w.branch-at-canaans-edge]], 275 (the House''s vote); [[w.mann-walls-of-jericho]], 475 (328–74); [[w.kotz-judgment-days]], 331 (328–74); [[w.zelizer-fierce-urgency-of-now]], 219 (328–74); [[w.bernstein-guns-or-butter]], 240–41 (Dirksen and Celler''s language; the American flag provision kept; 328 to 74). See [[cal.1965-07-09.voting-rights]].'
   - id: cal.1965-08-03.desegregation-schools-philadelphia
     when: Aug. 3
     date: '1965-08-03'
@@ -449,6 +436,8 @@ entries:
     when: Aug. 4
     date: '1965-08-04'
     thread: voting-rights
+    follows:
+      - cal.1965-08-04.voting-rights-2
     c: The voting rights bill through Congress. That evening Johnson to Dirksen's hideaway office in the Capitol, a drink with Dirksen and Mansfield, to thank them. By Califano's account.
     n: '[[w.califano-triumph-and-tragedy-of]], 57. Names: Johnson, Dirksen, Mansfield.'
     src:
@@ -561,6 +550,12 @@ entries:
       rows:
         - 'w.anderson-confronting-the-color-line 162: all'
     tags: [name:gregory-dick, state:il, city:chicago]
+  - id: cal.1965-08-04.voting-rights-2
+    when: Aug. 4
+    date: '1965-08-04'
+    thread: voting-rights
+    c: Senate adopts the conference report on the voting rights bill, S. 1564, [79–18](https://voteview.com/rollcall/RS0890178), clearing it for the President.
+    n: '[111 Cong. Rec. 19,378](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-6-1.pdf#page=71) (1965) (Aug. 4, 1965). [[w.branch-at-canaans-edge]], 275 (the Senate''s passage); [[w.mann-walls-of-jericho]], 475 (the next day, 79–18, after a perfunctory debate); [[w.kotz-judgment-days]], 331 (the Senate 79–18 the next day, Smathers for); [[w.zelizer-fierce-urgency-of-now]], 219 (79–18); [[w.bernstein-guns-or-butter]], 240–41 (the next day, 79 to 18). See [[cal.1965-08-03.voting-rights]].'
   - id: cal.1965-08-05.vietnam
     when: Aug. 5
     date: '1965-08-05'

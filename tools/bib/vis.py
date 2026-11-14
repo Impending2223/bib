@@ -57,6 +57,22 @@ STYLE
     US's by his name tag; a witness's publication still makes it public where and when it was published. The reason
     is the entry's own (a Soviet record: the Presidium's protocol, a cable, a memoir of the inner circle). The owner,
     Nov. 13, 2026: "a pass on the two Fursenko and Naftali works to sort most of them into USSR:nonpublic".
+    A unit's own ruling (the owner, Nov. 13: "I don't mind having different levels of visibility in a single entry.
+    I like it!"): `@` and its letters after any ruling, a list joined by "." and runs by "-" (`vis:only:ussr@A`,
+    `vis:only:ussr+cuba@B-D`, `vis:only:ussr@A.C`); a unit's ruling wins over the entry's.
+    Learned later: `vis:from:us:1962-02-10` (a polity and a day, `@` units allowed): at the time that polity did not
+    know; it knew, privately, from that day (its P and A both nonpublic from then, not from the event's day; a
+    witness's publication still makes it public where and when it was published). A day not after the event's
+    makes the polity privy from the event's day (Mitchell's call at the Soviet embassy, Dec. 1959, before the acts of
+    the defection the calendar records). The owner, Nov. 13: Powers's questioning visible to the US from his release
+    ("Invisible to the US while held incommunicado"); Martin's and Mitchell's acts "invisible to the US until
+    discovered by the US or its (nondefecting) agents, and invisible to the USSR until the earliest contact".
+    A report's frame: `vis:frame:ussr` on an entry whose first unit opens with a report's frame up to a colon
+    ("Alekseyev to Moscow:", "Alekseyev of the KGB from Havana, on Castro:"): the frame is the report's own, known to
+    those polities alone (the others' privity cut, their publication kept); the rest of the unit is what was said,
+    the entry's (or the unit's) ruling as it stands. The owner, Nov. 13: "Strictly speaking, 'Alekseyev to Moscow: '
+    is Soviet-only, but 'Guevara says . . .' is Soviet-and-Cuban." The frame is a claim of its own on the page
+    (vispage.py, STYLE 2), its letter the unit's; the map's rows are the unit's.
  7. Nothing computable: a claim none of whose witnesses the registry can classify (a link to a host it does not know,
     a reference work, no source) carries the placeholder `US:all` (§7), never stored, and `check` counts it.
 """
@@ -563,16 +579,107 @@ def claims_of(series, lst, e):
     return out
 
 
-ONLY_RX = re.compile(r"^vis:only:([a-z0-9+-]+)$")
+RULE_RX = re.compile(r"^vis:(only|from|frame):([a-z0-9+-]+?)(?::(\d{4}-\d{2}-\d{2}))?(?:@([A-Z.-]+))?$")
 
 
-def only_ruling(e):
-    """A `vis:only:ussr` (or `vis:only:ussr+cuba`) ruling's polities (STYLE 8), or None."""
+def _units(spec):
+    """`A`, `A.C`, `B-D` (STYLE 8) -> a set of letters; None where it does not parse."""
+    from .claims import LETTERS
+    out = set()
+    for part in spec.split("."):
+        a, _, b = part.partition("-")
+        b = b or a
+        if a not in LETTERS or b not in LETTERS or LETTERS.index(a) > LETTERS.index(b):
+            return None
+        out |= set(LETTERS[LETTERS.index(a):LETTERS.index(b) + 1])
+    return out
+
+
+def rulings(e):
+    """The entry's `vis:` rulings (STYLE 8): [{kind, pols, date, units}], units None for the whole entry."""
+    out = []
     for t in store.as_list(e.get("tags")):
-        m = ONLY_RX.match(str(t))
-        if m:
-            return set(m.group(1).split("+"))
+        m = RULE_RX.match(str(t))
+        if not m:
+            continue
+        kind, pols, day, us = m.groups()
+        if (kind == "from") != bool(day):
+            continue
+        units = _units(us) if us else None
+        if us and units is None:
+            continue
+        out.append({"kind": kind, "pols": set(pols.split("+")), "date": day, "units": units})
+    return out
+
+
+def _applies(r, unit):
+    return r["units"] is None or unit in r["units"] or (unit == "all" and "A" in r["units"])
+
+
+def only_ruling(e, unit=None):
+    """A `vis:only:ussr` (or `vis:only:ussr+cuba`) ruling's polities (STYLE 8), or None: the unit's own, else the
+    entry's."""
+    rs = [r for r in rulings(e) if r["kind"] == "only" and _applies(r, unit)]
+    rs.sort(key=lambda r: r["units"] is None)
+    return set(rs[0]["pols"]) if rs else None
+
+
+def learned(e, unit=None):
+    """`vis:from:` rulings (STYLE 8) for a unit: {polity: the day it learned}; a unit's own wins."""
+    out = {}
+    for r in sorted((r for r in rulings(e) if r["kind"] == "from" and _applies(r, unit)),
+                    key=lambda r: r["units"] is not None):
+        for p in r["pols"]:
+            out[p] = r["date"]
+    return out
+
+
+def frame_ruling(e):
+    """A `vis:frame:` ruling's polities (STYLE 8), or None."""
+    for r in rulings(e):
+        if r["kind"] == "frame":
+            return set(r["pols"])
     return None
+
+
+def frame_text(c):
+    """The report's frame that opens `c`, the first unit (STYLE 8): its text through the first colon outside
+    quotation marks, italics and brackets, within its first 160 characters and before any semicolon; else None. (The
+    unit is one sentence already, so a period is no stop: "Gen. ", "U.S. ".)"""
+    depth, q, it = 0, False, False
+    for i, ch in enumerate(c or ""):
+        if ch == '"':
+            q = not q
+        elif ch == "*":
+            it = not it
+        elif ch in "([":
+            depth += 1
+        elif ch in ")]":
+            depth -= 1
+        elif not q and not it and depth == 0:
+            if ch == ":" and 0 < i < 160:
+                return c[:i + 1]
+            if ch == ";":
+                return None
+    return None
+
+
+def frame_pol(pol, pols, date):
+    """The frame's polities (STYLE 8): those named keep their record (privy from the event's day where they were
+    not); the others keep only their publication."""
+    out = {}
+    for X, rec in pol.items():
+        if X in pols:
+            out[X] = {k: list(v) for k, v in rec.items()}
+            continue
+        r2 = {k: [None, pub] for k, (np, pub) in rec.items() if pub}
+        if r2:
+            out[X] = r2
+    for X in pols:
+        p = out.setdefault(X, {}).setdefault("P", [date, None])
+        if p[0] is None and (not p[1] or p[1] == "?" or p[1] > date):
+            p[0] = date                          # privy from the event's day, public only later
+    return out
 
 
 def compute(series, lst, e):
@@ -588,9 +695,10 @@ def compute(series, lst, e):
                             tags=["US:all"], computed=False))
             continue
         addr, terr, agency, basis = address(lst, e, cl["text"] if cl["unit"] != "all" else None, date)
-        only = only_ruling(e)                            # a `vis:only:` ruling (STYLE 8): who knew at the time
+        only = only_ruling(e, cl["unit"])                # a `vis:only:` ruling (STYLE 8): who knew at the time
+        late = learned(e, cl["unit"])                    # `vis:from:` rulings: who learned later, and when
         if only:
-            addr = [x for x in addr if x in only] or sorted(only, key=order_key)
+            addr = [x for x in addr if x in only or x in late] or sorted(only, key=order_key)
             terr = [x for x in terr if x in only]
             agency = [x for x in agency if x in only] or sorted(only, key=order_key)
             basis = "vis:only ruling"
@@ -625,6 +733,8 @@ def compute(series, lst, e):
             privy |= {p for p in w["privity"] if p and p != "?" and not is_org(p)}
         if only:
             privy = set(only)                    # the ruling names who knew: all of them, and no one else
+        late = {X: max(d, date) for X, d in late.items()}   # a day not after the event's: privy from the event
+        privy |= set(late)
         pubs = {}
         any_public = None
         for w in known:
@@ -641,15 +751,23 @@ def compute(series, lst, e):
         for X in sorted(set(addr) | privy | set(pubs), key=order_key):
             rec = {}
             p_pub = pubs.get(X)
+            d0 = late.get(X, date)               # the day X knew (STYLE 8, `vis:from:`)
             if X in privy or p_pub:
-                np_from = date if X in privy and (p_pub is None or p_pub > date) else None
+                np_from = d0 if X in privy and (p_pub is None or p_pub > d0) else None
                 rec["P"] = [np_from, p_pub or ("?" if X in privy and (X in unknown_in or "?" in unknown_in) else None)]
             if X in addr:
                 a_pub = any_public if any_public and any_public > date else (date if any_public else None)
-                rec["A"] = [date if not any_public or any_public > date else None,
+                rec["A"] = [d0 if not any_public or any_public > d0 else None,
                             a_pub or ("?" if unknown_public else None)]
             pol[X] = rec
-        out.append(dict(res, polities=pol, tags=tags_at(pol, ref, date), computed=True))
+        res2 = dict(res, polities=pol, tags=tags_at(pol, ref, date), computed=True)
+        fp = frame_ruling(e)
+        if fp and not out and cl["unit"] in ("A", "all"):
+            ft = frame_text(cl["text"])
+            if ft:
+                fpol = frame_pol(pol, fp, date)
+                res2["frame"] = {"text": ft, "polities": fpol, "tags": tags_at(fpol, ref, date)}
+        out.append(res2)
     return out
 
 
@@ -749,6 +867,9 @@ def show_lines(series, lst, e):
             rec = cl["polities"][X]
             parts = [f"{k} {_span(rec[k])}" for k in ("P", "A") if k in rec]
             out.append(f"#       {tag_code(X):5} " + "; ".join(parts))
+        fr = cl.get("frame")
+        if fr:
+            out.append(f"#     the frame {fr['text']!r}: {' '.join(fr['tags']) or '(none)'}   (vis:frame ruling)")
         for w in cl["witnesses"]:
             out.append(f"#       - {_wline(w)}")
     return out
@@ -764,9 +885,41 @@ def problems(series):
         return [("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")]
 
 
+def ruling_problems(e, cls):
+    """A `vis:` ruling that does nothing (STYLE 8): a malformed tag, an unknown polity, a unit past the entry's last,
+    a frame with units or with no frame in its first unit."""
+    out = []
+    pols = polities()["polities"]
+    n = len([c for c in cls if c["unit"] != "all"]) or 1
+    from .claims import LETTERS
+    for t in store.as_list(e.get("tags")):
+        t = str(t)
+        if not t.startswith("vis:"):
+            continue
+        m = RULE_RX.match(t)
+        if not m or (m.group(1) == "from") != bool(m.group(3)) or (m.group(4) and _units(m.group(4)) is None):
+            out.append(f"{t}: not a ruling (vis.py STYLE 8)")
+            continue
+        bad = sorted(p for p in m.group(2).split("+") if p not in pols)
+        if bad:
+            out.append(f"{t}: no such polity {', '.join(bad)} (sources/polities.yaml)")
+        us = _units(m.group(4)) if m.group(4) else set()
+        past = sorted(u for u in us if u not in LETTERS[:n])
+        if past:
+            out.append(f"{t}: no unit {', '.join(past)} (the entry has {n})")
+        if m.group(1) == "frame" and m.group(4):
+            out.append(f"{t}: a frame takes no units (it is the first unit's)")
+        if m.group(1) == "frame" and not any(c.get("frame") for c in cls):
+            out.append(f"{t}: the first unit opens with no frame to a colon")
+    return out
+
+
 def _problems(series):
     warns = []
     ec = entry_claims(series)
+    for _, e, cs in ec:
+        for msg in ruling_problems(e, cs):
+            warns.append((e["id"], msg))
     n_cl = sum(len(c) for _, _, c in ec)
     none = [(e["id"], c["unit"]) for _, e, cs in ec for c in cs if not c["computed"]]
     if none:

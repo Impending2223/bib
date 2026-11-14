@@ -5737,17 +5737,23 @@ entries:
     time: 1964-08-25T20:32Z
     thread: elections-1964-freedom-democrats
     also: [mississippi, georgia]
-    c: 'Governors Sanders and Connally to Johnson by telephone: "a wholesale walkout from the South"; Sanders, "It looks like we''re turning the Democratic party over to the nigras." Johnson: "Pistols kept ''em out"; "they got to let ''em vote"; the South not to be "a dog in the manger."'
-    n: '[[w.branch-pillar-of-fire]], 471–72; [[w.kotz-judgment-days]], 218–19 (Sanders: "the niggers took over the damn convention"); [[w.young-two-suns-of-the]], 134–35 (Sanders: the Freedom Democrats not Democrats; Johnson: "They''re Democrats ... pistols kept them out"; Connally: "the whole South will walk out"). Check: Kotz gives Sanders''s words as "the niggers took over the damn convention" (218). To check: [Conversation with CARL SANDERS, 4:32 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-august-25-1964), Conversation WH6408-37-5183 (Miller Center) (cited by [[w.branch-pillar-of-fire]], 471). See [[cal.1964-08-25.mississippi]]. Names: Sanders, Connally, Johnson.'
+    follows:
+      - cal.1964-08-25.mississippi
+    c: 'Governors Sanders and Connally to Johnson by telephone, 4:32 p.m., the compromise made: "a wholesale walkout from the South"; Sanders, "It looks like we''re turning the Democratic party over to the nigras." Johnson: "Mississippi''s seated! She gets every damned vote she''s entitled to"; "Pistols kept ''em out"; "they got to let ''em vote"; the South not to be "a dog in the manger"; a statement he wrote that morning.'
+    n: '[Johnson and John Connally, 4:32 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-and-john-connally-august-25-1964), Conversation WH6408-37-5184 (Miller Center) (Sanders and Connally on the Southern objections). [[w.taking-charge]], 535 (Connally, 4:32 p.m.; "Mississippi''s seated"; the statement; "dog in the manger"); [[w.branch-pillar-of-fire]], 471–72; [[w.kotz-judgment-days]], 218–19 (Sanders: "the niggers took over the damn convention"); [[w.young-two-suns-of-the]], 134–35 (Sanders: the Freedom Democrats not Democrats; Johnson: "They''re Democrats ... pistols kept them out"; Connally: "the whole South will walk out"). To check: [Conversation with CARL SANDERS, 4:32 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-august-25-1964), Conversation WH6408-37-5183 (Miller Center) (cited by [[w.branch-pillar-of-fire]], 471). The compromise made: [[cal.1964-08-25.mississippi]]. Names: Sanders, Connally, Johnson. Check: Kotz gives Sanders''s words as "the niggers took over the damn convention" (218).'
     src:
-      c: 2ee9726c
+      c: '7e140502'
       rows:
-        - 'w.branch-pillar-of-fire 471–72: all'
-        - 'via w.branch-pillar-of-fire 471 n.a-wholesale-walkout: all'
-        - 'w.kotz-judgment-days 218–19: C-D'
-        - 'w.young-two-suns-of-the 134–35: A-C'
-        - 'via w.young-two-suns-of-the 134 n.63: B-C'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-and-john-connally-august-25-1964: A'
+        - 'w.taking-charge 535: C, F-G'
+        - 'via x.1964-08-25.johnson-john-connally-telephone-1632: C, F-G'
+        - 'w.branch-pillar-of-fire 471–72: A-B, D-F'
+        - 'via w.branch-pillar-of-fire 471 n.a-wholesale-walkout: A-B, D-F'
+        - 'w.kotz-judgment-days 218–19: D-E'
+        - 'w.young-two-suns-of-the 134–35: A-B, D'
+        - 'via w.young-two-suns-of-the 134 n.63: B, D'
     tags: [name:sanders-carl-e, name:connally-john, name:johnson-lyndon-b]
+    aliases: [cal.1964-08-25.elections-1964-freedom-democrats]
   - id: cal.1964-08-25.mississippi-3
     when: Aug. 25
     date: '1964-08-25'
@@ -5873,22 +5879,6 @@ entries:
         - 'w.taking-charge 533: all'
         - 'via x.1964-08-25.johnson-a-w-moursund-telephone-1200: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
-  - id: cal.1964-08-25.elections-1964-freedom-democrats
-    when: Aug. 25
-    date: '1964-08-25'
-    time: 1964-08-25T20:32Z
-    thread: elections-1964-freedom-democrats
-    follows:
-      - cal.1964-08-25.mississippi
-    c: 'Johnson to Connally by telephone, 4:32 p.m., the compromise made and the floor fight averted: "Mississippi''s seated! She gets every damned vote she''s entitled to"; a statement he wrote that morning.'
-    n: '[Johnson and John Connally, 4:32 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-and-john-connally-august-25-1964), Conversation WH6408-37-5184 (Miller Center). [[w.taking-charge]], 535. The compromise made: [[cal.1964-08-25.mississippi]]. Names: Johnson, Connally.'
-    src:
-      c: b4c52745
-      rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-and-john-connally-august-25-1964: A'
-        - 'w.taking-charge 535: all'
-        - 'via x.1964-08-25.johnson-john-connally-telephone-1632: all'
-    tags: [name:johnson-lyndon-b, name:connally-john]
   - id: cal.1964-08-25.elections-1964-vice-presidency-2
     when: Aug. 25
     date: '1964-08-25'
@@ -6270,6 +6260,14 @@ entries:
     c: 'Aboard the President''s plane to Atlantic City, where he is to name Humphrey; Goodwin aboard. Johnson, his glass held to the light: "every family has a certain thread that runs through it. In the Kennedys it was women. ... For other families it''s money, or skiing, or meat. In ours it was alcohol." He finishes the drink and holds out the glass for a refill.'
     n: '[[w.goodwin-remembering-america]], 300–301 (Goodwin''s account; "The day before his own nomination," 300). See [[cal.1964-08-26.elections-1964]]. Names: Humphrey, Goodwin, Johnson.'
     tags: [name:johnson-lyndon-b, name:goodwin-richard-n, name:humphrey-hubert-h, state:nj, city:atlantic-city]
+  - id: cal.1964-08-28.elections-1964-atlantic-city
+    when: Aug. 26
+    date: '1964-08-26'
+    time: 1964-08-26T22:04Z
+    thread: elections-1964-atlantic-city
+    c: 'Johnson to Reedy by telephone, 6:04 p.m., after a talk with Dodd in the Cabinet Room: Daley says fly to Atlantic City with Humphrey tonight. Reedy: no plane in time for the Washington press.'
+    n: '[[w.taking-charge]], 539–40 (Wednesday, Aug. 26, 6:04 p.m., after Daley''s call; the night before the birthday). To check: the recording; the Miller Center''s [WH6408-40-5247](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-office-conversation-august-3), catalogued Aug. 28 and described as on a press conference "tomorrow," press facilities at Stonewall, William Miller''s charge, the American Legion and Vietnam, is another conversation. See [[cal.1964-08-26.elections-1964-atlantic-city-3]]. Names: Johnson, Reedy, Dodd, Daley, Humphrey.'
+    tags: [name:johnson-lyndon-b, name:reedy-george-e, name:dodd-thomas-j, name:daley-richard-j, name:humphrey-hubert-h]
   - id: cal.1964-08-27.elections-1964
     when: Aug. 27
     date: '1964-08-27'
@@ -6483,20 +6481,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1964-08-28.elections-1964-atlantic-city
-    when: Aug. 28
-    date: '1964-08-28'
-    time: 1964-08-28T21:50Z
-    thread: elections-1964-atlantic-city
-    c: 'Johnson to Reedy by telephone, 6:04 p.m., after a talk with Dodd in the Cabinet Room: Daley says fly to Atlantic City with Humphrey tonight. Reedy: no plane in time for the Washington press.'
-    n: '[Johnson and George Reedy, 5:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-office-conversation-august-3), Conversation WH6408-40-5247 (Miller Center). [[w.taking-charge]], 539–540. Check: the entry''s 6:04 p.m. against the catalogue''s 5:50 p.m. Check: the day; the call may be of Aug. 26 (the times review). Names: Johnson, Reedy, Dodd, Daley, Humphrey.'
-    src:
-      c: 619a273f
-      rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-office-conversation-august-3: A'
-        - 'w.taking-charge 539–540: all'
-        - 'via x.1964-08-28.johnson-george-reedy-telephone-1750: all'
-    tags: [name:johnson-lyndon-b, name:reedy-george-e, name:dodd-thomas-j, name:daley-richard-j, name:humphrey-hubert-h]
   - id: cal.1964-08-28.elections-1964-atlantic-city-2
     when: Aug. 28
     date: '1964-08-28'

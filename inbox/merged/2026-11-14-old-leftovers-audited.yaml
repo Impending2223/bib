@@ -1,0 +1,415 @@
+patch: 2026-11-14-old-leftovers
+by: Claude (reader 2, the leftovers of batches 9-11, Nov. 14, 2026; audited by Claude (Opus), Nov. 14, 2026)
+ops:
+- edit:
+    id: cal.1961-01.rules
+    base: cd1d807a
+    set:
+      when: Jan. 24
+      date: '1961-01-24'
+      c: 'At the first weekly breakfast of the leaders, Rayburn to Kennedy: "Mr. President, I don''t believe we have the votes to expand the Rules Committee."'
+      n: '[[w.obrien-no-final-victories]], 105 (Tuesday, Jan. 24, the first of the weekly breakfasts of the Democratic leaders of the House and Senate; Rayburn''s words as the entry has them). [[w.reeves-president-kennedy]], 55 ("during those first days in office"; no day). See [[cal.1961-01-24.congress]]. Names: Rayburn, Kennedy.'
+      tags:
+      - name:rayburn-sam
+      - name:kennedy-john-f
+      src:
+        c: d99eed53
+        rows:
+        - 'w.obrien-no-final-victories 105: all'
+        - 'w.reeves-president-kennedy 55: ?'
+- edit:
+    id: cal.1961-01-24.rules
+    base: b4250ec3
+    set:
+      c: 'The White House, the afternoon after the leaders'' breakfast. Kennedy has Rayburn back and asks him to put off the Rules Committee vote from Jan. 25 to Jan. 31. Rayburn, reluctant, agrees. Kennedy to O''Brien: "We can''t lose this one, Larry. The ball game is over if we do." By O''Brien''s account.'
+      n: '[[w.obrien-no-final-victories]], 105–06. See [[cal.1961-01.rules]]. Names: Kennedy, Rayburn, O''Brien.'
+      src:
+        c: fd7907be
+        rows:
+        - 'w.obrien-no-final-victories 105–06: all'
+- check:
+    id: cal.1968-03-24.elections-1968-2
+    text: 'Check: the day. [[w.white-making-of-the-president-1969]], 113, has the meeting on Sunday, Mar. 24; [[w.obrien-no-final-victories]], 225–26, on Monday, Mar. 25, "later that afternoon," after Humphrey''s late lunch in his office. Both have O''Brien leave for Wisconsin on Wednesday, Mar. 27. Nothing read settles it; the Daily Diary and O''Brien''s papers not seen.'
+- combine:
+    keep: cal.1963-11-12.elections-1964
+    drop: cal.1963-11-13.democratic-party
+- combine:
+    keep: cal.1963-12-13.robert-kennedy-2
+    drop: cal.1963-12.robert-kennedy-2
+- combine:
+    keep: cal.1960-04.elections-1960-3
+    drop: cal.1960-05.elections-1960-primaries-3
+- check:
+    id: cal.1961-07-12.berlin-and-vienna
+    text: 'Check: the paper. [[w.poole-joint-chiefs-of-staff]], 146 n.28, cites JCSM-461-61 to SecDef, July 12, 1961 (JCS 1907/321); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 155 n.54 (and n.16), JCSM-476-61, Lemnitzer for SecDef, July 12; FRUS 1961–63, XIV, doc. [67](https://history.state.gov/historicaldocuments/frus1961-63v14/d67) n.3, a JCSM-467-61, "Partial Mobilization," July 12. Whether one paper or several the pages do not settle; JCSM-471-61 is dated July 13 (FRUS 1961–63, XXI, doc. [118](https://history.state.gov/historicaldocuments/frus1961-63v21/d118)), so a 476 of July 12 is out of sequence.'
+- check:
+    id: cal.1968-08-24.elections-1968-chicago-3
+    text: 'Check: the setting of the words. [[w.chester-american-melodrama]], 534–35, has Ginsburg say them to Gilligan in Geoghegan''s room at the Statler Hilton, after an hour''s study of the minority draft begun just before midnight. [[w.solberg-hubert-humphrey]], 352, has him alone on his hotel bed, the peace forces'' drafts beside his own and Edward Kennedy''s speech of "the night before" before him, the words before "the Saturday evening before the convention opened"; for the words Solberg cites Chester, 532 (in this copy they are at 535), so not an independent witness.'
+- edit:
+    id: cal.1960-09-13.elections-1960
+    base: abc15c83
+    set:
+      thread: elections-1960-nixon
+- edit:
+    id: cal.1960-09-14.elections-1960-3
+    base: '39319303'
+    set:
+      thread: elections-1960-nixon
+- edit:
+    id: cal.1960-09-25.elections-1960-3
+    base: 667fdce3
+    set:
+      thread: elections-1960-nixon
+      when: Sept. 25
+      c: Chicago, Sunday night. Nixon met at the airport by some 5,000, then street rallies in five wards on the way to the Pick-Congress, past one in the morning.
+      n: '[[w.nixon-six-crises]], 337; [[w.nixon-rn]], 218 (a crowd of 5,000 at the airport; street rallies in five election wards; after 1 a.m.). [[w.white-making-of-the-president]], 285 (late on Sunday evening; not the crowd or the rallies). See [[cal.1960-09-19.elections-1960]]. Names: Nixon.'
+      src:
+        c: 825fa461
+        rows:
+        - 'w.nixon-six-crises 337: all'
+        - 'w.nixon-rn 218: B'
+        - 'w.white-making-of-the-president 285: A'
+- primary:
+    id: cal.1960-09-26.elections-1960-4
+    text: Speech by the Vice President Before the United Brotherhood of Carpenters & Joiners, Hotel Morrison, Chicago, IL, [APP](https://www.presidency.ucsb.edu/documents/speech-the-vice-president-before-the-united-brotherhood-carpenters-joiners-hotel-morrison) (Sept. 26, 1960).
+    units: B
+- cite:
+    id: cal.1960-09-26.elections-1960-4
+    item: '[[w.nixon-six-crises]], 337 (the eleven o''clock speech to the Carpenters'' convention, his second campaign speech to a union)'
+    units: B
+- edit:
+    id: cal.1960-09-02.elections-1960
+    base: 809b384c
+    set:
+      when: Sept. 2
+      c: 'Kennedy, free of the Senate, opens his campaign by chartered jet from Friendship Airport, Baltimore, Friday afternoon. Presque Isle, Maine, the airport rally: "I am delighted to start on this campaign, on this first day, in this county."'
+      n: 'Remarks of Senator John F. Kennedy, Presque Isle, Maine, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally) (Sept. 2, 1960). [[w.white-making-of-the-president]], 251–52 (the jet from Baltimore, Friday afternoon; Maine that evening; not Presque Isle by name); [[w.communications-freedom-of-communications-part]], 80–81 (Presque Isle, the airport rally, "on this first day"; not the jet or Baltimore). See [[cal.1960-07.elections-1960-4]]. Names: Kennedy. Check: the order of the Sept. 2 stops; [[w.communications-freedom-of-communications-part]] has Kennedy at Manchester, N.H., "it is proper to start here in New Hampshire" (79), at Presque Isle "on this first day" (80–81), and at Portland, Maine, in the evening: "We have traveled from Presque Isle, and we are going to speak tonight and go to Washington" (83).'
+      tags:
+      - name:kennedy-john-f
+      - state:me
+      - city:presque-isle
+      src:
+        c: 764d4f37
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally: B'
+        - 'w.white-making-of-the-president 251–52: A'
+        - 'w.communications-freedom-of-communications-part 80–81: B'
+- add:
+    entry:
+      id: cal.1960-09-02.elections-1960-kennedy-2
+      when: Sept. 2
+      date: '1960-09-02'
+      thread: elections-1960-kennedy
+      c: 'Bangor, Maine, the Fair Grounds. Kennedy: "I came here to Maine to start this campaign in my own backyard." He speaks for Coffin, Cormier, Roberts and Donovan, the Democratic candidates.'
+      n: 'Speech of Senator John F. Kennedy, Bangor, Maine, Fair Grounds, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-bangor-maine-fair-grounds) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 82–83. See [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Coffin.'
+      tags:
+      - name:kennedy-john-f
+      - name:coffin-frank-m
+      - state:me
+      - city:bangor
+      src:
+        c: cba7ac78
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-bangor-maine-fair-grounds: all'
+        - 'w.communications-freedom-of-communications-part 82–83: ?'
+- add:
+    entry:
+      id: cal.1960-09-02.elections-1960-kennedy-3
+      when: Sept. 2
+      date: '1960-09-02'
+      thread: elections-1960-kennedy
+      c: Portland, Maine, Portland Stadium, the evening. Kennedy, on "the opening day of a long campaign," names Coffin, Oliver, Cormier and Donovan. To Anchorage the next day, back Sunday night, then Detroit.
+      n: 'Speech of Senator John F. Kennedy, Portland, Maine, Portland Stadium, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-portland-maine-portland-stadium) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 91–95. See [[cal.1960-09-02.elections-1960-kennedy]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Coffin.'
+      tags:
+      - name:kennedy-john-f
+      - name:coffin-frank-m
+      - state:me
+      - city:portland-me
+      src:
+        c: 59c514ae
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-portland-maine-portland-stadium: all'
+        - 'w.communications-freedom-of-communications-part 91–95: ?'
+- add:
+    entry:
+      id: cal.1960-09-02.elections-1960-kennedy-4
+      when: Sept. 2
+      date: '1960-09-02'
+      thread: elections-1960-kennedy
+      c: 'Manchester, N.H., the airport rally. Kennedy: "This is really the beginning of this campaign." New Hampshire and Vermont the only New England States not yet in the Democratic column, "and they are going Democratic in November."'
+      n: 'Remarks of Senator John F. Kennedy, Manchester, NH, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-manchester-nh-airport-rally) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 78–79. See [[cal.1960-09-02.elections-1960]], which holds the Check on the order of the day''s stops. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:nh
+      - city:manchester-nh
+      src:
+        c: 2585df64
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-manchester-nh-airport-rally: all'
+        - 'w.communications-freedom-of-communications-part 78–79: ?'
+- add:
+    entry:
+      id: cal.1960-09-03.elections-1960-kennedy-3
+      when: Sept. 3
+      date: '1960-09-03'
+      thread: elections-1960-kennedy
+      c: 'San Francisco, the International Airport, Saturday noon. Kennedy: "I think it is appropriate that we begin the 1960 campaign right here in the State of California." He blames the Republican Party for the lost $1.25 minimum wage and the defeat, by five votes, of medical care for the aged.'
+      n: 'Remarks of Senator John F. Kennedy, San Francisco, CA, International Airport, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-san-francisco-ca-international-airport) (Sept. 3, 1960). [[w.white-making-of-the-president]], 251 (San Francisco by Saturday noon; not the words); [[w.communications-freedom-of-communications-part]], 95–96. See [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:ca
+      - city:san-francisco
+      src:
+        c: bf84d2ea
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-san-francisco-ca-international-airport: B-C'
+        - 'w.white-making-of-the-president 251: A'
+        - 'w.communications-freedom-of-communications-part 95–96: B-C'
+- add:
+    entry:
+      id: cal.1960-09-03.elections-1960-kennedy-4
+      when: Sept. 3
+      date: '1960-09-03'
+      thread: elections-1960-kennedy
+      c: 'Palmer, Alaska, the fairgrounds, Saturday evening. Kennedy, "the first candidate for the Presidency to actively campaign in the State of Alaska": "I have come, I figure, about 3,000 miles per electoral vote."'
+      n: 'Speech of Senator John F. Kennedy, Fairgrounds, Palmer, Alaska, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-fairgrounds-palmer-alaska) (Sept. 3, 1960). [[w.communications-freedom-of-communications-part]], 100–01. See [[cal.1960-09-03.elections-1960-kennedy-2]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:ak
+      - city:palmer
+      src:
+        c: d48a9a3e
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-fairgrounds-palmer-alaska: all'
+        - 'w.communications-freedom-of-communications-part 100–01: ?'
+- add:
+    entry:
+      id: cal.1960-09-03.elections-1960-kennedy-5
+      when: Sept. 3
+      date: '1960-09-03'
+      thread: elections-1960-kennedy
+      c: 'Anchorage, Alaska, the Edgewater, late Saturday night: "4 o''clock in the morning for those of us living on eastern time." Kennedy keeps his word to the Alaska caucus to campaign there; the "new frontier" is "a state of mind." He greets Senators Bartlett and Gruening and Congressman Rivers.'
+      n: 'Speech of Senator John F. Kennedy, the Edgewater, Anchorage, AK, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-the-edgewater-anchorage-ak) (Sept. 3, 1960). [[w.communications-freedom-of-communications-part]], 101–05. See [[cal.1960-09-03.elections-1960-kennedy-4]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Bartlett, Gruening.'
+      tags:
+      - name:kennedy-john-f
+      - name:bartlett-edward-l
+      - name:gruening-ernest
+      - state:ak
+      - city:anchorage
+      src:
+        c: 69bcbfb1
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-the-edgewater-anchorage-ak: all'
+        - 'w.communications-freedom-of-communications-part 101–05: ?'
+- add:
+    entry:
+      id: cal.1960-09-06.elections-1960-kennedy
+      when: Sept. 6
+      date: '1960-09-06'
+      thread: elections-1960-kennedy
+      c: 'Pocatello, Idaho, the high school auditorium. Kennedy: the minority party''s function is "to merely offer the American people alternatives"; he looks to the future "with optimism."'
+      n: 'Speech of Senator John F. Kennedy, High School Auditorium, Pocatello, Idaho, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-high-school-auditorium-pocatello-idaho) (Sept. 6, 1960). [[w.communications-freedom-of-communications-part]], 125–30. See [[cal.1960-09-05.elections-1960]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:id
+      - city:pocatello
+      src:
+        c: 9a045db1
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-high-school-auditorium-pocatello-idaho: all'
+        - 'w.communications-freedom-of-communications-part 125–30: all'
+- edit:
+    id: cal.1960-09-06.elections-1960
+    base: c69208c4
+    set:
+      when: Sept. 6
+      c: 'Seattle, the Civic Auditorium. Kennedy: the people "want this country to begin to move again." The crowd below expectations, 500 to 600 seats short of 5,800, by the Times. The advance work in Washington and Oregon "atrocious," by White''s account.'
+      n: 'Speech of Senator John F. Kennedy, Civic Auditorium, Seattle, WA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-civic-auditorium-seattle-wa) (Sept. 6, 1960). [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 24 ("Kennedy Pledges ''Fight for Peace''": Seattle, "crowds fell below expectations," the Civic Auditorium short by 500 to 600 seats of 5,800). [[w.white-making-of-the-president]], 258 (the advance work, "particularly in Washington and Oregon," atrocious; no stop or day); [[w.kallina-kennedy-v-nixon]], 103 (the advance work in Oregon and Washington "atrocious" by the admission of Kennedy''s admirers; no stops or days); [[w.communications-freedom-of-communications-part]], 134–36 (the speech). See [[cal.1960-09-05.elections-1960]], [[cal.1960-09-06.elections-1960-kennedy]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:wa
+      - city:seattle
+      src:
+        c: 76a872bf
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-civic-auditorium-seattle-wa: A'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html: B'
+        - 'w.white-making-of-the-president 258: C'
+        - 'w.kallina-kennedy-v-nixon 103: ?'
+        - 'w.communications-freedom-of-communications-part 134–36: A'
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-kennedy-10
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960-kennedy
+      c: 'Dunsmuir, Calif., from the rear platform of his train, at six in the morning, with Governor Brown. Kennedy: "We start this campaign in this State this morning"; he will be "all over it in the next few days" and come back in October.'
+      n: 'Rear Platform Remarks of Senator John F. Kennedy, Dunsmuir, CA, [APP](https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-dunsmuir-ca) (Sept. 8, 1960). [[w.white-making-of-the-president]], 256 (the train from Portland the evening before; the crowd risen at six; not Brown or the words); [[w.communications-freedom-of-communications-part]], 163. See [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Brown.'
+      tags:
+      - name:kennedy-john-f
+      - name:brown-edmund-g
+      - state:ca
+      - city:dunsmuir
+      src:
+        c: 7a5857d8
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-dunsmuir-ca: B-C'
+        - 'w.white-making-of-the-president 256: A'
+        - 'w.communications-freedom-of-communications-part 163: B-C'
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-kennedy-8
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960-kennedy
+      c: 'Red Bluff, Calif., the rear platform, in Clair Engle''s home town. Kennedy: "I campaign for the office of the Presidency in a very difficult and dangerous time in the life of our country." Governor Brown and Bizz Johnson with him.'
+      n: 'Rear Platform Remark of Senator John F. Kennedy, Red Bluff, CA, [APP](https://www.presidency.ucsb.edu/documents/rear-platform-remark-senator-john-f-kennedy-red-bluff-ca) (Sept. 8, 1960). [[w.white-making-of-the-president]], 257 (an hour after Dunsmuir; the words; not Engle, Brown or Johnson); [[w.communications-freedom-of-communications-part]], 165. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy, Engle, Brown.'
+      tags:
+      - name:kennedy-john-f
+      - name:engle-clair
+      - name:brown-edmund-g
+      - state:ca
+      - city:red-bluff
+      src:
+        c: 3f9d7d19
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/rear-platform-remark-senator-john-f-kennedy-red-bluff-ca: all'
+        - 'w.white-making-of-the-president 257: A-B'
+        - 'w.communications-freedom-of-communications-part 165: ?'
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-kennedy-9
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960-kennedy
+      c: 'Richmond, Calif., the rear platform. Kennedy: "This contest is not merely between the Vice President and myself. This contest is between the Democratic Party and the Republican Party, and in that regard there is no contest."'
+      n: 'Rear Platform Remarks of Senator John F. Kennedy, Richmond, CA, [APP](https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-richmond-ca) (Sept. 8, 1960). [[w.white-making-of-the-president]], 257 (by late afternoon; not these words); [[w.communications-freedom-of-communications-part]], 170. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:ca
+      - city:richmond-ca
+      src:
+        c: fbfabd96
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-richmond-ca: all'
+        - 'w.white-making-of-the-president 257: ?'
+        - 'w.communications-freedom-of-communications-part 170: ?'
+- edit:
+    id: cal.1960-09-08.elections-1960
+    base: 08d75773
+    set:
+      when: Sept. 9
+      date: '1960-09-09'
+      c: 'Los Angeles, the Shrine Auditorium, the evening. Kennedy leaves his text on civil rights for an extemporaneous speech: "I have come 3,000 miles and I am not chasing butterflies. I am here asking for your support."'
+      n: 'Speech of Senator John F. Kennedy, Shrine Auditorium, Los Angeles, CA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-shrine-auditorium-los-angeles-ca) (Sept. 9, 1960). [[w.white-making-of-the-president]], 257–58; [[w.communications-freedom-of-communications-part]], 189–90 (the Shrine Auditorium, 189; the words at 190; not leaving his text). See [[cal.1960-09-08.elections-1960-kennedy-10]], [[cal.1960-09-09.elections-1960-kennedy-11]]. Names: Kennedy. Check: the words; [[w.communications-freedom-of-communications-part]], 190 prints "I have come 3,000 miles and I am not chasing butterflies.". [[w.white-making-of-the-president]], 257, has "I have come here three thousand miles and I am not chasing butterflies."'
+      tags:
+      - name:kennedy-john-f
+      - state:ca
+      - city:los-angeles
+      src:
+        c: 03683326
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-shrine-auditorium-los-angeles-ca: B'
+        - 'w.white-making-of-the-president 257–58: all'
+        - 'via w.white-making-of-the-president 258 n.4: B'
+        - 'w.communications-freedom-of-communications-part 189–90: B'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy
+    base: 76ef424d
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 163–165. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy, Truman.'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-2
+    base: 7c4930cd
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 166–167. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-3
+    base: 4facedf3
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 167–168. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy, Moss, Brown.'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-4
+    base: 12e86275
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 168–169. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-5
+    base: 4a52fe40
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 169–170. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-6
+    base: 1d9a954b
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 171–174. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy, Shelley, Cohelan.'
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-7
+    base: 98b399d0
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 169 (the report''s note; the remarks unavailable). See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-08.farm
+    base: e467142d
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 174–175. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.cities-and-housing
+    base: e2f7a185
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 193–194. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy
+    base: 6e492376
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 175. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-10
+    base: b389696d
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 194. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-2
+    base: a8938bac
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 176. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-3
+    base: 58a20049
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 177–178. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy, Jackson.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-4
+    base: 6287d897
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 178. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy, Jackson.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-5
+    base: 6b49f037
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 178–180. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-6
+    base: fca00d66
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 180–181. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-7
+    base: dc19244d
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 182. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-8
+    base: 00946a24
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 187–188. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-kennedy-9
+    base: dd5dc0a8
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 188–189. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+- edit:
+    id: cal.1960-09-09.elections-1960-religion
+    base: c661d5dc
+    set:
+      n: 'Press Conference of Senator John F. Kennedy, Lockheed Air Terminal, Burbank, CA, [APP](https://www.presidency.ucsb.edu/documents/press-conference-senator-john-f-kennedy-lockheed-air-terminal-burbank-ca) (Sept. 9, 1960). [[w.white-making-of-the-president]], 255–56; [[w.communications-freedom-of-communications-part]], 182–87 (Kennedy''s press conference at the Lockheed Air Terminal, Burbank, Sept. 9; the questions on Peale and religion, 183–84; the expected child, 185; not the hour). Check: whether White''s press conference "that afternoon in Los Angeles" is APP''s at the Burbank air terminal (not read). Check: the words and the order; [[w.communications-freedom-of-communications-part]], 185 prints Kennedy: "She told me. You would have to ask her.", and further questions after it, on the draft, Governor Brown''s forecast and Nixon (185–87). See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'

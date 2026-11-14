@@ -59,18 +59,19 @@ entries:
     thread: intelligence
     c: Mexico City. Mitchell and Martin fly to Havana on Cuban Airlines.
     n: 'Lansdale to Douglas, memorandum, "Missing NSA Personnel," Aug. 1, 1960 (in full at [[cal.1960-06-24.intelligence]]), at 2 ("A subsequent report is that they flew to Havana on Cuban Airlines on 1 July. There is no further report of their movements after 1 July"). [[w.mowry-betrayers-of-the-trust]], 2 (Mexico City to Havana on July 1, then to Russia, "apparently on a Soviet trawler"; not the airline). Made public: the tickets "to Castro''s Cuba," "in the days immediately following" Aug. 1, 1960 ([[w.huac-security-practices-nsa]], 1); the memorandum, declassified 2002.'
+    tags: [vis:from:us:1960-08-01, vis:from:ussr:1959-12-01]
   - id: cal.1960-07-02.amendments
     when: July 2
     date: '1960-07-02'
     thread: amendments
     also: [women, congress]
     c: 'Senate takes up the equal rights amendment, S.J. Res. 69, on Johnson''s motion. Hayden''s rider adopted by voice: the article not to impair any rights, benefits or exemptions the law gives women. Then recommitted to Judiciary on Butler''s motion, Hayden agreeing. No roll call.'
-    n: '[106 Cong. Rec. 15,678–79, 15,686](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf) (1960). The Senate sat through the night of July 1 and adjourned at 8:33 a.m., July 2: [Daily Digest, 106 Cong. Rec. D432](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=430) (1960). Check: the hour on the Record''s pages; before midnight, the act is July 1''s. To check: [[w.kyvig-explicit-and-authentic-acts]]; [[w.harrison-on-account-of-sex]]. Names: Johnson, Hayden, Butler.'
+    n: '[106 Cong. Rec. 15,678–79, 15,686](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf#page=121) (1960) (July 2, 1960). The Senate met Saturday, July 2, at 10 a.m. ([106 Cong. Rec. 15,558](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf#page=1)) and took a recess at 7:57 p.m. ([15,709](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf#page=152)), the amendment taken up between; it sat again from 11:10 p.m. and adjourned at 8:33 a.m., Sunday, July 3: [Daily Digest, 106 Cong. Rec. D431–32](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=429) (1960). To check: [[w.kyvig-explicit-and-authentic-acts]]; [[w.harrison-on-account-of-sex]]. Names: Johnson, Hayden, Butler.'
     tags: [name:johnson-lyndon-b, name:hayden-carl, name:butler-john-m]
     short: the equal rights amendment recommitted
     time_range:
-      - 1960-07-02T04:00Z
-      - 1960-07-02T12:33Z
+      - 1960-07-02T14:00Z
+      - 1960-07-02T23:57Z
     time_zone: America/New_York
   - id: cal.1960-07-02.elections-1960-2
     when: July 2
@@ -1710,6 +1711,8 @@ entries:
     when: July 15
     date: '1960-07-15'
     thread: elections-1960-kennedy
+    follows:
+      - cal.1960-07-15.elections-1960
     c: New York. Joseph Kennedy, flown from Los Angeles that morning, telephones Henry Luce and watches his son's acceptance at Luce's home, with Luce and his son.
     n: '[[w.white-making-of-the-president]], 178–79. See [[cal.1960-07-15.elections-1960]]. Names: Joseph Kennedy, Luce.'
     src:
@@ -3261,7 +3264,7 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 55: all'
         - 'via x.1960-07-31.alekseyev-to-moscow-castro-gratitude: all'
-    tags: [name:castro-fidel, name:khrushchev-nikita-s, vis:only:ussr+cuba+czechoslovakia]
+    tags: [name:castro-fidel, name:khrushchev-nikita-s, vis:only:ussr+cuba+czechoslovakia, vis:frame:ussr, vis:only:ussr+cuba@A]
   - id: cal.1960-07.conservative-movement-2
     when: July
     date: 1960-07

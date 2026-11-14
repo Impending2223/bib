@@ -1,0 +1,37 @@
+patch: 2026-11-14-vis-rulings
+by: the lead, on the owner's rulings of Nov. 13, 2026 (notes/owner-brief.md; vis.py STYLE 8)
+# Audited Nov. 14, 2026 (evening): all 13 ops upheld as written, each read against ./bib show and tested in memory.
+# Powers: the four questioning entries are the only Powers-in-custody entries ruled vis:only:ussr (May 1 is the
+# capture; Aug. 17 the public trial). Martin and Mitchell: the US found them missing July 26 (cal.1960-07-26.intelligence),
+# the flights first on record in Lansdale's memorandum (Aug. 1); Durant 76 not read by the auditor (any day before
+# June 24 gives the same result). Laos: units checked (cal.1962-01.laos has A-C; @C is the Foreign Ministry's aim).
+ops:
+  # Powers in Soviet custody: "Set Powers's visibility to the US to his release date. Invisible to the US while
+  # held incommunicado." Released Feb. 10, 1962 (cal.1962-02-10.berlin-and-vienna).
+  - tag: {id: cal.1960-05-03.soviet-union-u2, add: ['vis:from:us:1962-02-10']}
+  - tag: {id: cal.1960-05-06.soviet-union-u2, add: ['vis:from:us:1962-02-10']}
+  - tag: {id: cal.1960-05-10.soviet-union-u2, add: ['vis:from:us:1962-02-10']}
+  - tag: {id: cal.1960-06-10.soviet-union-u2, add: ['vis:from:us:1962-02-10']}
+  # Martin and Mitchell: "invisible to the US until discovered by the US or its (nondefecting) agents, and
+  # invisible to the USSR until the earliest contact with the USSR or its agents". The first contact: Mitchell at
+  # the Soviet embassy in Mexico City, Dec. 1959 (Durant 76, after Andrew and Mitrokhin), before every act here, so
+  # the USSR is privy from each act's day. The US: the leave (June 24) told to fellow employees at the time; the
+  # flight and the tickets (June 25) and the flight to Havana (July 1) first in Lansdale's memorandum of Aug. 1, 1960.
+  - tag: {id: cal.1960-06-24.intelligence, add: ['vis:from:ussr:1959-12-01']}
+  - tag: {id: cal.1960-06-25.intelligence, add: ['vis:from:us:1960-08-01', 'vis:from:ussr:1959-12-01']}
+  - tag: {id: cal.1960-07-01.intelligence, add: ['vis:from:us:1960-08-01', 'vis:from:ussr:1959-12-01']}
+  # "Correct the Hanoi October 1964 entry": the talk in Paris was North Vietnam's man's with a French official;
+  # the British had it by Oct. 24 (Hohler's report from the embassy in Paris, FO 371/177667, F&N 539 n.35).
+  - tag: {id: cal.1964-10.vietnam-hanoi, add: ['vis:only:drv+fr', 'vis:from:uk:1964-10-24']}
+  # "Date Souphanouvong's polity": the Pathet Lao a polity of its own (sources/polities.yaml, `pathet-lao`);
+  # Souphanouvong the Pathet Lao's to June 23, 1962 and from Apr. 8, 1963, the coalition's (laos) between. The
+  # entries the F&N pass ruled `ussr` with the Pathet Lao in the room, ruled again (the partner knew its own words,
+  # the owner, Nov. 13: "'Guevara says . . .' is Soviet-and-Cuban").
+  - tag: {id: cal.1961-09-22.laos, add: ['vis:only:ussr+prc+drv+pathet-lao'], remove: ['vis:only:ussr+prc+drv']}
+  - tag: {id: cal.1962-01.laos, add: ['vis:only:ussr+pathet-lao', 'vis:only:ussr@C'], remove: ['vis:only:ussr']}
+  - tag: {id: cal.1962-02-03.laos, add: ['vis:only:ussr+pathet-lao'], remove: ['vis:only:ussr']}
+  - tag: {id: cal.1962-03-07.laos, add: ['vis:only:ussr+prc+drv+pathet-lao'], remove: ['vis:only:ussr+prc+drv']}
+  - tag: {id: cal.1962-09-28.laos, add: ['vis:only:ussr+laos'], remove: ['vis:only:ussr']}
+  # The audit's finding: Souphanouvong the Pathet Lao's from Apr. 8, 1963 (exclusive `until`), so the coalition's
+  # split no longer addressed Laos by his tag; the split is the Royal Lao state's business too.
+  - tag: {id: cal.1963-04-08.laos, add: ['polity:laos']}

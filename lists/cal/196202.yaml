@@ -250,7 +250,7 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 425: all'
         - 'via w.fursenko-khrushchevs-cold-war 425 n.38: all'
-    tags: [name:souphanouvong, name:abramov-aleksandr-n, vis:only:ussr]
+    tags: [name:souphanouvong, name:abramov-aleksandr-n, vis:only:ussr+pathet-lao]
   - id: cal.1962-02-03.king
     when: Feb. 3
     date: '1962-02-03'
@@ -601,12 +601,6 @@ entries:
   - id: cal.1962-02-08.cuba
     when: Feb. 8
     date: '1962-02-08'
-    time_range:
-      - 1962-02-08T06:00Z
-      - 1962-02-08T14:00Z
-    time_band: workday daytime
-    time_zone: Europe/Moscow
-    range_basis: kind
     thread: cuba
     also: [soviet-union, cuba]
     c: The Presidium approves the $133 million in military aid for Cuba frozen since October 1961, put on its agenda by Khrushchev for quick approval; a review of the Soviet military aid to Castro ordered.
@@ -618,6 +612,12 @@ entries:
         - 'w.fursenko-one-hell-of-a 151, 153–54: ?'
     tags: [name:khrushchev-nikita-s, name:castro-fidel, vis:only:ussr, name:adzhubei-aleksei, name:kennedy-john-f]
     aliases: [cal.1962-02-08.soviet-union]
+    time_range:
+      - 1962-02-08T06:00Z
+      - 1962-02-08T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-02-08.school-aid
     when: Feb. 8
     date: '1962-02-08'
