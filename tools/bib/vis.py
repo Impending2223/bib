@@ -407,8 +407,12 @@ ARCHIVES = [(re.compile(r"\b(LBJ|JFK|Johnson|Kennedy|Eisenhower|Nixon|Truman) Li
             (re.compile(r"\bAVP ?RF\b|\bRGANI\b|\bAPRF\b|\bTsKhSD\b|\bRGASPI\b|\bTsAMO\b"), "ussr"),
             (re.compile(r"\bMAE\b|Quai d|\bAN, \d|Archives nationales"), "fr"),
             (re.compile(r"\bPA ?AA\b|\bBArch\b|Bundesarchiv"), "frg"),
-            (re.compile(r"\bSAPMO\b"), "gdr"),
-            (re.compile(r"PRC (?:Foreign Ministry|FMA)|\bCFMA\b|Chinese Foreign Ministry"), "prc")]
+            (re.compile(r"\bSAPMO\b|\bBStU\b|\bMfS\b"), "gdr"),
+            (re.compile(r"PRC (?:Foreign Ministry|FMA)|\bCFMA\b|Chinese Foreign Ministry"), "prc"),
+            (re.compile(r"\bANR\b|\bAMAE\b|Fond CC al PCR"), "romania"),
+            (re.compile(r"\bAQSH\b|\bAMPJ\b|Fondi 14"), "albania"),
+            (re.compile(r"\bMOL\b|\bMNL\b"), "hungary"),
+            (re.compile(r"Vietnam National Archives|\bVNA\b|Trung tâm Lưu trữ"), "drv")]
 
 
 def text_polity(text):

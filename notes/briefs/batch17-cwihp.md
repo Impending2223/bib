@@ -1,0 +1,25 @@
+# Batch 17: the Wilson Center's archival documents on the Drive (planned Nov. 14, 2026)
+
+The owner, Nov. 14, 2026: "I have a big batch of individual diplomatic items from the CWIHP web archive in separate PDFs in the drive. They should probably go in after the USSR, DRV, and PRC." To start when batches 14–16 (the Soviet leadership, the Mao chronology, the DRV's documents and official history) are merged. The method is the foreign skeletons' (`notes/briefs/batch12-foreign.md`: "What is an entry", "The form", "Patches", the owner's rulings of Nov. 12); CLAUDE.md is the core; never read `build/` or a whole list file. Every patch is audited by Opus before it merges; never merge, never commit. Quote no document beyond a few words.
+
+## The files
+About 107 PDFs uploaded Nov. 10, listed with their Drive ids in `notes/drive-additions-2026-11.md`, "Archives and documentary series" (the PRC, Romanian, Russian, Stasi, Albanian, Chinese published, Hungarian, NARA and Vietnamese sections; not the AAPD or DDF, which are series read otherwise). Each is one document as the Wilson Center Digital Archive publishes it: an English translation, headed by its date, title, the archive's citation, the translator, a summary and a permanent link (`https://digitalarchive.umd.edu/document/NNN`; the old host `digitalarchive.wilsoncenter.org` serves the same number). Nearly all are 1965–67 and on China, the Soviet Union and the war. Fetch each by curl (`curl -sSL -o DIR/x.pdf "https://drive.usercontent.google.com/download?id=ID&export=download&confirm=t"`) into a new empty directory of your own; `pdftotext`; delete them when done.
+
+## What is an entry
+One document, one event: the talk, the cable's report of an act, the letter. The document's date is the entry's unless the text dates the act otherwise (a cable of the 5th reporting a meeting of the 3rd is the 3rd's entry). A cable that only reports gossip, a press digest, or an embassy's opinion with no act is passed over (R18) and listed. Where the calendar holds the act (Brezhnev's workbooks, the Mao chronology, the *Văn kiện Đảng*, FRUS, the Presidium): a `cite` there (one pinpoint and one parenthetical per cite op), with a `variant` where the document differs; new entries only for acts the calendar lacks.
+
+## The form
+- Thread: the act's chief thread (`china-leadership`, `soviet-union-leadership`, `vietnam-hanoi`, `vietnam-diplomacy`, `china`, `soviet-union`, `europe-and-the-alliance` for Romania's and the GDR's own acts where no nearer thread fits; `./bib find -l cal --thread X` to see a thread; th.yaml for the list); `also:` the rest.
+- `n`: the primary record first, linked: `"[Title as the Archive gives it](https://digitalarchive.umd.edu/document/NNN)" (Mar. 5, 1965), PRC FMA 109-03984-02, 9–10, trans. Jake Tompkins, Wilson Center Digital Archive.` (the archive's citation as the Archive prints it, en dashes in ranges; the translator where named). Then "Made public: YEAR." (the Archive's posting year where the page gives it, else Check). Then "To check:", "Names:", "Check:".
+- `tags`: `polity:` for the polities acting; `name:` for persons with a name entry or a FRUS key (`sources/frus-names/persons.json`, `./bib find -l kja SURNAME`); place tags.
+- Visibility (tools/bib/vis.py STYLE 4 and 8): a document secret at the time takes `vis:only:<the polities party to it>` (a Chinese embassy's cable home: `prc`; a Ceaușescu–Davis talk: `romania+us`; a Soviet briefing of the Hungarians: `ussr+hungary`). The owner's ruling of Nov. 14: "The default rule on visibility for those who aren't agents or members of government is territorial." (a talk with a party out of power or a private person takes the host's polity only). A ruling party of a party-state counts as its government. `sources/polities.yaml` for the keys (`romania`, `hungary`, `gdr`, `albania`, `prc`, `ussr`, `drv`, `us`).
+- Vietnamese names with full diacritics; Chinese in Pinyin without tones; Russian by the calendar's spelling.
+
+## The readers (one a collection)
+1. PRC Foreign Ministry, the first 23 files in the inventory's list. Patch `b17-prc-a`.
+2. PRC Foreign Ministry, the other 22, and the two *Mao Zedong sixiang wansui* excerpts. Patch `b17-prc-b`.
+3. Romanian (ANR, AMAE), 35. Patch `b17-romania`.
+4. Russian (RGANI, AVP RF) 11, Albanian 2, Hungarian 2, Vietnamese (Lê Thanh Nghị's 1965 report) 1. Patch `b17-east`.
+5. Stasi (BStU) 7 and the State Department's INR reports (the NARA section and the RG 59 line filed under the PRC section). Patch `b17-gdr-inr`.
+
+Each: patch `inbox/2026-11-14-b17-<name>.yaml` (patch name the same; the date of the day it is written), ids by `./bib new-id cal DATE THREAD`, claimed with `./bib ledger add ...`; build the patch in pieces, never more than about 40 entries in one tool call (an agent failed at the 128,000-token output limit); `./bib patch-check` to 0 errors; book-check `notes/book-checks/cwihp-2026-11.md` (create it; a section a reader: each file, its document number and date, and its ruling: entered, cited where, or passed over and why). Report: the counts, the files read, what was passed over, persons with no name entry, doubts.
