@@ -545,3 +545,98 @@ Auditor: Claude, Nov. 12, 2026, evening; vol. XXIV downloaded afresh (Drive `172
 ### Audit (batch 12, 1962)
 
 Auditor: batch 12, Nov. 12, 2026, the 1962 third of `inbox/2026-11-12-b12-drv-1962-64.yaml` (ops 94–166: 70 adds, the edits 164 and 165, the cite 166; 73 ops). Corrected third: `inbox/2026-11-12-b12-drv-1962-audited.yaml`, its `patch:` the reader's, `2026-11-12-b12-drv-1962-64`, so the ledger's claims hold; 75 ops (the 73, and a `variant` and a `check` on cal.1962-12-06.vietnam); `./bib patch-check` 0 errors, 28 warnings (the same-day "one event?"/"a duplicate of" flags, and the edits' "sets only n, src"). Copy: vol. XXIII downloaded again (Drive `1upRXoizdfxWBY_emRkOTegqlS_VYLPPy`, 506 PDF pages, two-up, rotated), split by half-page and paged by the folios (book = 2 × PDF − 7 at the start); deleted when done. Read: every 1962 document's heading, date, issuer and signature and its operative sections, each claim of `c` looked up; the Feb. 26–27 and Dec. 6–10 resolutions, Lê Duẩn's letter of July 18, the letter to the CPSU, the COSVN minutes and the May military resolution, the Front's resolution and the Interzone V resolution at the points cited. Duplicates: none found; the letter of Jan. 10 is not cal.1961-12.vietnam-hanoi (Asselin's "soon after" letter to fraternal parties, undated), and the Front's congress, Thái Nguyên, Interzone V and the Politburo's sessions are held nowhere else. No add dropped. The doubtful cases: cal.1962-05-05.vietnam-hanoi kept as one event, the May military resolution with the conference (the same body in conference, the month the conference closed, the same course quoted from "Anh Tư"), the Check put as the day of the military resolution; the "Anh Tư" course is word for word the Politburo's resolution of February (XXIII, 146; COSVN 879, 909). cal.1962-12-06.vietnam: unit B not borne, as the reader said, and unit A not either: the resolution has the "special war" a year old ("Từ một năm nay", 812), not two; the cite now `?`, a variant on A and a Check (with the session's days, Dec. 6–10, against the entry's Dec. 6). Rulings: 46 right; 27 fixed, 12 of them errors and 15 an operative decision or number left out. Errors: 98 (the 1961 plan "fulfilled": the text has "important victories"), 105 (Hồ Chí Minh's "farming first" not his words, "extremely important"; the plenum's dates are the editors' heading of the communiqué, not the communiqué's text; the contents give Apr. 16, not Apr. 14 as the reader's notes say), 108 ("the title the editors'" not in the note; the speech printed from the party school's *Văn kiện lịch sử Đảng*, vol. XI; "without an outline"), 114 (the month not "in answer to the troops sent into Thailand"; the Indian and Canadian members of the Commission left out), 116 ("a deciding factor" for "the deciding factor"), 118 (the program to year's end misstated: the fifth and seventh plenums, two plenums to prepare, the world and the South), 125 ("the first link" for "a link of the first importance"), 133 (the Politburo, not the Secretariat, heard Lê Đức Thọ's report, on Party building in the Soviet Union; he heads the board), 149 (86-TT/TW ends at 728), 164 (unit A mapped: "to be explored" not in the resolution, which makes neutrality a demand, a step of transition: `?`), 165 (the parenthetical "not the imperialists' other reactions" wrong: XXIII, 708 has them, in Laos's lesson; rows now A at 708 and `?` at 711–12), 166 (above). Omissions supplied: 97 (the target cut from 360,000 tons to some 250,000), 103 (the levy on the cooperative, forced purchase, incentive prices 10–30 percent), 110 (the course and COSVN's October 1961 resolution), 111 (the Front's tasks, the Central Front Board), 115 (100,000 tons, to 200,000, Lưu Xá; the talks with China), 120 (the levy fixed at 18 percent), 127 (Đặng Thai Mai at the head), 130 (the councils' make-up), 132 (the courts' decisions), 138 (300,000 by the end of 1961), 143 (the exemption from the hiring freeze), 145 (Phạm Hùng at the head), 146 (consumer goods to commerce), 157 (the Cipher Board under the Central Military Commission), 162 (the provincial congresses put off to the plenum). Error rate: 12 of 73 (16 percent); with the omissions, 27 of 73 (37 percent). Not settled, for the merger: the most routine of the Secretariat's circulars kept as entries, as the reader ruled and the owner's rulings lean (135, geological teams' cells; 143, the Youth Union's staff; 149, spreading the seventh plenum's resolution; 159, the central offices' cells to Hanoi), for the owner to rule; cal.1962-07-09.vietnam-hanoi dated to the notice, the meeting's day unknown (the reader's Check kept); the Secretariat's meeting of Feb. 12 (16-TB/HN, XXIII, 217) is missing from the reader's table of documents though entered; instruction no. 38-CT/TW is the number the volume prints for both Jan. 10 and Feb. 28. Persons named in the corrected `c` with no name entry: Đặng Thai Mai, Phạm Hùng (and the reader's). Stopped cleanly at the end of the 1962 third, 6:55 p.m. Pacific.
+
+
+## 1967 (batch 16, the DRV's records; vol. 28)
+
+Reader: batch 16, reader 2, Nov. 14, 2026. Patch: `inbox/2026-11-14-b16-vkd-1967.yaml` (patch name `2026-11-14-b16-vkd-1967`), 50 ops: 44 new entries (claimed in the ledger), 3 cites, 1 variant, 2 checks on entries the calendar held. No witnesses file, no by-work edges. `./bib patch-check`: 0 errors, 19 warnings (the same-day "one event?" and "a duplicate of" flags below).
+
+### The copy
+
+Vol. 28 (1967): Drive `1ejGXi7iLKyJ7JrmbmhQ4e1gP_iIbmpDP`, 305 PDF pages, letter, rotated 90, two-up, PDF 1.4 (iTextSharp 5.1.1, made 2019). TCVN3 text layer; converted with the batch-12 conversion applied half-page by half-page (`pdftotext -x -W`, then the FIX table and iconv from TCVN5712-1), which gives each book page alone. Title page "Hà Nội - 2003"; introduction April 2003; colophon CTQG-2003, "In xong và nộp lưu chiểu tháng 6 năm 2003," 6,000 copies. Book pp. V–VI, 1–603: 53 documents in the main part (1–482), 2 in the appendix (483–596), contents 597–603. Book page = 2 × PDF page − 7 (left half; − 6 the right) throughout, from PDF 4 (p. 1) to PDF 305; checked against the folios at 1, 5, 9, 597–604, and the contents' page numbers, which all fall on the page where each document opens. "Made public: 2003." on every document (each "Lưu tại Kho Lưu trữ Trung ương Đảng"). PDF deleted when done.
+
+### The rules used
+
+The brief of batch 16 and the batch-12 rules: an entry a document of the Secretariat, the Politburo, the Central Committee and the Party's directives to the South; a meeting that a notice records entered on the meeting's days, the notice cited there; routine circulars kept; commemorations passed over; every entry `polity:drv` and `vis:only:drv` (all are Party records secret at the time; the Central Office and Region V are the DRV's by the owner's ruling of Nov. 11), `polity:us` where `c` names the Americans outright, `polity:rvn` on the Region V resolution. The Thirteenth Plenum was already held by the calendar (`cal.1967-01.vietnam`, "Jan."); its four documents and Hồ Chí Minh's letter are cited there and on `cal.1967-02-15.vietnam`, not entered again. The Politburo's cable of Jan. 23 is cited also on `cal.1967-01-28.vietnam` (Trinh to Burchett).
+
+### Doubtful, for the merger
+
+- The plenum's four documents (Văn Tiến Dũng's outline, 88–115; Nguyễn Duy Trinh's, 116–40; the Politburo's resolution no. 154-NQ/TW, 141–70; the plenum's no. 155-NQ/TW, 171–79) sit in one cite on the held entry `cal.1967-01.vietnam`, with a variant on its quoted aim ("spontaneous uprising," by Nguyen: the volume has "tổng khởi nghĩa," general uprising, and a decisive victory in "a relatively short time") and a Check on the days (the volume: Jan. 23–27, XXVIII, 88 n.; Trinh's outline's note: Jan. 23–26, 116 n.). Trinh's outline is dated Jan. 23 and Dũng's carries no day: either could be a day of its own, and the plenum's closing (Jan. 27) another; left to the merger. Resolution no. 154 is headed "(tháng 10 và 11 năm 1966)" (the Politburo's sessions then) and dated Jan. 27, 1967, the day the plenum approved it (141 n.).
+- Politburo resolution no. 161-NQ/TW on labor: dated Jun. 30 in its heading and the contents; the Secretariat's circular no. 207-TT/TW (468) calls it "30-7-1967" (a slip, or a second date); the Government's no. 103 is Jul. 6. Signed for the Politburo by Lê Thanh Nghị.
+- The notices of the Secretariat's meetings are numbered out of the meetings' order: no. 06-TB/TW (Oct. 20) for Oct. 6–7; no. 07-TB (Nov. 7) for Oct. 16; no. 08-TB (Nov. 11) for Oct. 9–10; no. 09-TB (Nov. 16) for Oct. 17. Each entered on its meeting's days; no. 02-TB/TW (Apr. 17) for Apr. 10–11 (the one with Lê Duẩn and Phạm Hùng present).
+- Same-day entries, each a separate document (patch-check "one event?"/"a duplicate of"; at the merge `./bib resolve ID --take keep`): Jan. 10 (nos. 152, 153), Jan. 23 (the cable, no. 191-TT/TW), Apr. 17 (nos. 148, 149), May 26 (no. 159, no. 151), Jun. 24 (nos. 153, 154); and `cal.1967-06-15.vietnam-hanoi-2`, `cal.1967-07-05.vietnam-hanoi-3` beside entries the calendar held for those days (Võ Văn Sung's briefing in Paris, Nguyễn Chí Thanh's lunch and walk), unrelated.
+- `cal.1967-01-23.vietnam-hanoi`, the Politburo's cable "Số 00," signed "Bác Hương" (the Politburo's code name, 87 n.), is the plan for the Foreign Minister's interview of Jan. 28; it names Salisbury and the briefing in Paris as the occasion and Johnson's message to Congress as a target. Its addressee is "Trung ương Cục - Khu V"; the "representative" it has receive the Americans is not named.
+- Hồ Chí Minh's letter (180–83): the volume has him receiving Johnson's letter Feb. 10 and answering Feb. 15, and the editors' note says Johnson ordered the bombing resumed Feb. 14 (a Check on `cal.1967-02-15.vietnam`, whose c has Hồ's "reply, received, it says, Feb. 10").
+- `cal.1967-04-13.vietnam-hanoi`: a Secretariat directive about the Việt Bắc Autonomous Region, entered as a central act (the team the Center forms), not a regional one; the merger may pass it over under R18.
+- The appendix resolutions (`cal.1967-05.vietnam-hanoi`, `cal.1967-03.vietnam-hanoi`) are dated only by month. The Region V tally of 135,160 enemy out of action is given without a period (561); the COSVN resolution's forecast of the American forces (about 500,000 by the end of 1967, 600,000–700,000 in 1968) is at 498.
+- Not read in full (opening, headings and close, operative paragraphs): the economic and organizational directives (nos. 143, 146, 148, 150–152, 155, 156, 167, 198, 200, 207, 210, the notices of Oct. 9–17), the body of Dũng's outline (100–104) and Trinh's (137–40), the later half of resolution no. 154 (157–68), the COSVN resolution (493–559, by its headings and the forecasts) and the Region V resolution (563–96, by its headings and the figures at 561, 580, 585). `c` for these says what the headings and operative paragraphs bear and no more.
+
+### Persons named with no name entry (named in `c` and "Names:", not tagged)
+
+Phạm Hùng, Lê Văn Lương, Tố Hữu, Hoàng Anh, Nguyễn Văn Trân (the Secretariat's members at the meetings of Apr. 10–11, Oct. 6–7, 9–10, 16, 17). Signers named only in the notes: Lê Thanh Nghị, Phạm Chung, Minh Châu (and Vũ Tuân, on no. 194-TT/TW, passed over). Tagged: Lê Duẩn (Apr. 10–11), Hồ Chí Minh and Johnson (Mar. 22).
+
+### The documents, one by one
+
+Every document of the volume in its order, with its first page and the ruling (Vietnamese headings abridged to the number, date and subject).
+
+| Page | Document | Ruling |
+|---|---|---|
+| XXVIII, 1 | Chỉ thị 139-CT/TW, 7-1-1967, vận động quần chúng thực hiện kế hoạch nhà nước 1967 | entered: cal.1967-01-07.vietnam-hanoi |
+| XXVIII, 9 | Nghị quyết 152-NQ/TW, 10-1-1967, tổ chức lãnh đạo công tác phụ vận | entered: cal.1967-01-10.vietnam-hanoi |
+| XXVIII, 22 | Nghị quyết 153-NQ/TW, 10-1-1967, công tác cán bộ nữ | entered: cal.1967-01-10.vietnam-hanoi-2 |
+| XXVIII, 49 | Chỉ thị 140-CT/TW, 11-1-1967, bảo vệ và bồi dưỡng sức khoẻ | entered: cal.1967-01-11.vietnam-hanoi |
+| XXVIII, 59 | Chỉ thị 141-CT/TW, 19-1-1967, công tác tư tưởng | entered: cal.1967-01-19.vietnam-hanoi |
+| XXVIII, 68 | Chỉ thị 142-CT/TW, 20-1-1967, lực lượng tự vệ | entered: cal.1967-01-20.vietnam-hanoi |
+| XXVIII, 77 | Thông tri 190-TT/TW, 23-1-1967, kỷ niệm lần thứ 37 ngày thành lập Đảng | passed over: a commemoration |
+| XXVIII, 79 | Thông tri 191-TT/TW, 23-1-1967, hợp tác xã mua bán xã | entered: cal.1967-01-23.vietnam-hanoi-2 |
+| XXVIII, 84 | Điện mật của Bộ Chính trị số 00, 23-1-1967, đấu tranh ngoại giao | entered: cal.1967-01-23.vietnam-hanoi |
+| XXVIII, 88 | Đề cương báo cáo tại Hội nghị Trung ương tháng 1-1967 (Văn Tiến Dũng), chỉ đạo chiến lược 1966 | cited on cal.1967-01.vietnam (the held entry of the plenum) |
+| XXVIII, 116 | Đề cương báo cáo tại Hội nghị Trung ương 23-1-1967 (Nguyễn Duy Trinh), công tác ngoại giao | cited on cal.1967-01.vietnam |
+| XXVIII, 141 | Nghị quyết của Bộ Chính trị 154-NQ/TW, 27-1-1967 (tháng 10 và 11-1966), quân sự và chính trị ở miền Nam | cited on cal.1967-01.vietnam |
+| XXVIII, 171 | Nghị quyết Hội nghị lần thứ 13 155-NQ/TW, 27-1-1967, đấu tranh ngoại giao | cited on cal.1967-01.vietnam |
+| XXVIII, 180 | Thư của Chủ tịch Hồ Chí Minh trả lời Tổng thống Mỹ Giônxơn (Feb. 15) | cited on cal.1967-02-15.vietnam |
+| XXVIII, 184 | Nghị quyết 157-NQ/TW, 22-2-1967, khoa học và kỹ thuật | entered: cal.1967-02-22.vietnam-hanoi |
+| XXVIII, 201 | Chỉ thị 143-CT/TW, 8-3-1967, bầu cử Hội đồng nhân dân và Uỷ ban hành chính | entered: cal.1967-03-08.vietnam-hanoi |
+| XXVIII, 207 | Chỉ thị 144-CT/TW, 10-3-1967, một tháng phòng không nhân dân | entered: cal.1967-03-10.vietnam-hanoi |
+| XXVIII, 213 | Chỉ thị 145-CT/TW, 13-3-1967, an ninh miền Bắc | entered: cal.1967-03-13.vietnam-hanoi |
+| XXVIII, 231 | Nghị quyết của Bộ Chính trị 158-NQ/TW, 20-3-1967, kỷ niệm lần thứ 50 Cách mạng Tháng Mười | passed over: a commemoration (read at its opening only) |
+| XXVIII, 240 | Thông tri 193-TT/TW, 22-3-1967, động viên chính trị sau thư của Hồ Chí Minh | entered: cal.1967-03-22.vietnam-hanoi |
+| XXVIII, 243 | Điện khẩn số 20, 31-3-1967, vụ đông - xuân (Ban Bí thư và Thường vụ Hội đồng Chính phủ) | entered: cal.1967-03-31.vietnam-hanoi |
+| XXVIII, 245 | Chỉ thị 146-CT/TW, 1-4-1967, Nghị quyết 136 và đại hội đảng bộ huyện | entered: cal.1967-04-01.vietnam-hanoi |
+| XXVIII, 258 | Chỉ thị 147-CT/TW, 13-4-1967, điều tra Luật Hôn nhân và Gia đình ở Khu tự trị Việt Bắc | entered: cal.1967-04-13.vietnam-hanoi (a regional matter, but a Secretariat directive) |
+| XXVIII, 261 | Chỉ thị 148-CT/TW, 17-4-1967, tài chính, thương nghiệp, giá cả | entered: cal.1967-04-17.vietnam-hanoi |
+| XXVIII, 276 | Chỉ thị 149-CT/TW, 17-4-1967, công tác lương thực | entered: cal.1967-04-17.vietnam-hanoi-2 |
+| XXVIII, 284 | Thông báo 02-TB/TW, 17-4-1967, cuộc họp của Ban Bí thư (10-11 tháng 4) | entered: cal.1967-04-10.vietnam-hanoi (the meeting's days) |
+| XXVIII, 289 | Thông tri 194-TT/TW, 18-4-1967, kỷ niệm ngày Quốc tế Lao động 1-5 | passed over: a commemoration |
+| XXVIII, 297 | Chỉ thị 150-CT/TW, 10-5-1967, quản lý kinh tế tài chính, tiết kiệm | entered: cal.1967-05-10.vietnam-hanoi |
+| XXVIII, 305 | Nghị quyết liên tịch 159-NQ/TW, 26-5-1967, cân đối lao động | entered: cal.1967-05-26.vietnam-hanoi |
+| XXVIII, 311 | Chỉ thị 151-CT/TW, 26-5-1967, tuyển sinh học nước ngoài | entered: cal.1967-05-26.vietnam-hanoi-2 |
+| XXVIII, 319 | Chỉ thị 152-CT/TW, 29-5-1967, Trường Nguyễn Ái Quốc phân hiệu II | entered: cal.1967-05-29.vietnam-hanoi |
+| XXVIII, 324 | Thông tri 195-TT/TW, 15-6-1967, động viên tuyển quân | entered: cal.1967-06-15.vietnam-hanoi-2 |
+| XXVIII, 328 | Chỉ thị 153-CT/TW, 24-6-1967, báo công, lập công | entered: cal.1967-06-24.vietnam-hanoi |
+| XXVIII, 337 | Chỉ thị 154-CT/TW, 24-6-1967, vụ mùa | entered: cal.1967-06-24.vietnam-hanoi-2 |
+| XXVIII, 343 | Nghị quyết của Bộ Chính trị 161-NQ/TW, 30-6-1967, công tác lao động | entered: cal.1967-06-30.vietnam-hanoi |
+| XXVIII, 369 | Thông tri 196-TT/TW, 1-7-1967, giáo dục cán bộ lãnh đạo sơ cấp | entered: cal.1967-07-01.vietnam-hanoi |
+| XXVIII, 375 | Điện mật của Ban Bí thư số 113, 5-7-1967, công tác lương thực | entered: cal.1967-07-05.vietnam-hanoi-3 |
+| XXVIII, 379 | Chỉ thị 155-CT/TW, 21-7-1967, chống hạn | entered: cal.1967-07-21.vietnam-hanoi |
+| XXVIII, 382 | Thông tri 197-TT/TW, 7-8-1967, thi hành Chỉ thị 145 | entered: cal.1967-08-07.vietnam-hanoi |
+| XXVIII, 387 | Thông tri 198-TT/TW, 14-8-1967, kế hoạch nhà nước 1968 và kế hoạch địa phương 1968-70 | entered: cal.1967-08-14.vietnam-hanoi |
+| XXVIII, 392 | Thông tri 199-TT/TW, 17-8-1967, kỷ niệm Cách mạng Tháng Tám và Quốc khánh | passed over: a commemoration |
+| XXVIII, 394 | Thông tri 200-TT/TW, 1-9-1967, sơ kết Chỉ thị 149 | entered: cal.1967-09-01.vietnam-hanoi |
+| XXVIII, 398 | Nghị quyết 167-NQ/TW, 21-9-1967, vận động công nhân và công đoàn | entered: cal.1967-09-21.vietnam-hanoi |
+| XXVIII, 427 | Thông báo 06-TB/TW, 20-10-1967, cuộc họp của Ban Bí thư (6-7 tháng 10), thí điểm dân chủ ở miền núi | entered: cal.1967-10-06.vietnam-hanoi (the meeting's days) |
+| XXVIII, 433 | Thông tri 202-TT/TW, 21-10-1967, kỷ niệm lần thứ 50 Cách mạng Tháng Mười | passed over: a commemoration |
+| XXVIII, 437 | Thông báo 07-TB, 7-11-1967, cuộc họp của Ban Bí thư (16-10), cải tiến quản lý hợp tác xã | entered: cal.1967-10-16.vietnam-hanoi |
+| XXVIII, 440 | Thông báo 08-TB, 11-11-1967, cuộc họp của Ban Bí thư (9-10 tháng 10), quản lý và phân phối lương thực | entered: cal.1967-10-09.vietnam-hanoi |
+| XXVIII, 448 | Thông tri 204-TT/TW, 15-11-1967, chế độ đối với cán bộ, chiến sĩ vào Nam và ở trong Nam ra | entered: cal.1967-11-15.vietnam-hanoi |
+| XXVIII, 451 | Thông báo 09-TB, 16-11-1967, cuộc họp của Ban Bí thư (17-10), phân phối trong hợp tác xã | entered: cal.1967-10-17.vietnam-hanoi |
+| XXVIII, 456 | Chỉ thị 156-CT/TW, 20-11-1967, sức khoẻ cán bộ, công nhân, viên chức | entered: cal.1967-11-20.vietnam-hanoi |
+| XXVIII, 468 | Thông tri 207-TT/TW, 27-11-1967, phổ biến Nghị quyết 161 và 103 về công tác lao động | entered: cal.1967-11-27.vietnam-hanoi |
+| XXVIII, 473 | Thông tri 209-TT/TW, 1-12-1967, ba ngày kỷ niệm trong tháng 12 (19-12, 20-12, 22-12) | passed over: a commemoration |
+| XXVIII, 476 | Thông tri 210-TT/TW, 22-12-1967, Uỷ ban Kiểm tra của Đảng và thanh tra | entered: cal.1967-12-22.vietnam-hanoi |
+| XXVIII, 485 | Nghị quyết Hội nghị lần thứ năm Trung ương Cục, tháng 5-1967 (phụ lục) | entered: cal.1967-05.vietnam-hanoi |
+| XXVIII, 560 | Nghị quyết Hội nghị lần thứ sáu Khu uỷ V (mở rộng), tháng 3-1967 (phụ lục) | entered: cal.1967-03.vietnam-hanoi |
+
+### Where batch 16 stopped (1967)
+
+The volume done, to the last page of its contents (XXVIII, 603): 55 documents, 42 of the main part and 2 of the appendix entered (44), 5 (the plenum's four and Hồ's letter) cited on entries held, 6 commemorations passed over. Stopped cleanly, the patch checked to 0 errors. No witnesses file.
