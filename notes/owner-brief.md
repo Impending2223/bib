@@ -644,3 +644,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Put RMN after Batch 17 and ahead of the pilots, along with some other materials, scoped to the full calendar rather than for RMN alone: Freedom of Communications, the 1968 campaign volumes, the "lightly, for context" volumes, the other Nixon biographies (not read lightly or for context alone; Pat Brown and his California is also within-scope), and our Agnew materials." (Nov. 14: batch 18 planned, notes/briefs/batch18-nixon-1968.md.)
 
 "This project only runs through January 20, 1969, not to the end of our calendar. For the period after that, we start with a different skeleton." (Nov. 14, on batch 18: its readings end at the inauguration.)
+
+"Skip McCarthy, the McCarthy people, Boomhower and Chafe on Lowenstein for now." (Nov. 14: batch 18 cut to 26 readers.)
