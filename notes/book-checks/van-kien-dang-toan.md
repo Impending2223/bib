@@ -640,3 +640,171 @@ Every document of the volume in its order, with its first page and the ruling (V
 ### Where batch 16 stopped (1967)
 
 The volume done, to the last page of its contents (XXVIII, 603): 55 documents, 42 of the main part and 2 of the appendix entered (44), 5 (the plenum's four and Hồ's letter) cited on entries held, 6 commemorations passed over. Stopped cleanly, the patch checked to 0 errors. No witnesses file.
+
+## 1965–66 (batch 16, the DRV's records; vols. 26 and 27)
+
+Reader: batch 16, reader 1, Nov. 14, 2026 (a Saturday). Patch: `inbox/2026-11-14-b16-vkd-1965-66.yaml` (patch name `2026-11-14-b16-vkd-1965-66`), 117 ops: 105 new entries (vol. 26, 1965: 54; vol. 27, 1966: 51), 8 cites and 4 checks on the 6 entries the calendar held (the two plenums\' two cites each), no edits, no witnesses file, no by-work edges. Cited as in batch 12: `[[w.van-kien-dang-toan]], XXVI, 20–25`, the volume in Roman, then the book's page; the note opens with the document's own heading in italics and its signer; "Made public: 2003." on every record kept in the Party archive ("Lưu tại Kho Lưu trữ Trung ương Đảng"), none on Hồ Chí Minh's public appeal of July 20, 1965 or on the greetings to foreign congresses (those five: no ruling, a Check on whether *Nhân Dân* printed them).
+
+### The copies
+
+- Vol. 26 (1965): Drive `1ELuJ9pUFbg_Vt7LvMsSMor3JkZaI7p-t`, 358 PDF pages, letter, each page rotated 90°, PDF 1.4 (Ghostscript 8.15, from a Word file, "VK Dang TT - Tap 26"). Introduction dated May 2003 (66 documents of the main part and 3 of the appendix, by the editors' count). Book pp. 1–710 on the PDF; **the PDF ends mid-sentence at p. 710**, in the third appendix document (COSVN's standing committee, Aug. 5, 1965): no contents, no colophon, no end of the volume. The introduction's count of documents is met by the PDF's headings, so only the tail of that last document is missing, and perhaps further pages after it. Not downloaded again.
+- Vol. 27 (1966): Drive `1XaKJVe_z29uptq9-cyTtAisR4CAFrbCc`, 228 PDF pages, same build. Introduction dated Apr. 2003 (57 documents, 50 main, 7 appendix). Book pp. 1–451; the text ends at the last page of the Zone V resolution ("Lưu tại Kho Lưu trữ Trung ương Đảng"); no contents, no colophon.
+- Both fetched whole by curl into the scratch directory; deleted when done.
+
+### The encoding, the two-up pages and the offset
+
+TCVN3 (ABC) text layers as in vols. 21–25; `tools/vn/vkd2txt.py` converts a whole page cleanly. Both volumes print two book pages to a PDF page (left and right halves, the PDF page rotated 90°); `vkd2txt.py` runs the halves together line by line, so the reader split each page with `pdftotext -layout -x 0|396 -y 0 -W 396 -H 612`, then the same FIX table and iconv. Book page = 2 × PDF page − 6 (the left half), − 5 (the right), in both volumes from PDF 3 (p. 1 on the right half; PDF 4 is pp. 2–3). Every cite gives the book's page, read from the folios in the text layer (checked at XXVI, 1, 96, 301, 596, 709–10; XXVII, 1, 4, 95, 269, 352, 427, 450–51), not computed. The volumes' own sequence of documents is by date within the main part, the appendix after; the editors' headings supplied where the document had none are marked "Đầu đề do chúng tôi đặt" (B.T) and given "(the title the editors')" in the notes. Quotation marks come out "Ỏ ... Õ"; read as quotation marks.
+
+### The rules used
+
+The batch brief and batch 12's: one entry a document of the Politburo, the Secretariat, the Central Committee and its plenums, the Party's cables and directives to the South and the zones; the routine circulars kept (the owner's ruling of Nov. 12); commemorations passed over and listed (R18): the anniversary directives and circulars on the Party's founding, Hồ Chí Minh's birthday, July 20, Aug. 2–Sept. 2, May Day, Nguyễn Du, the Dec. 1966 anniversaries (10 documents). Kept: the circular for the Chinese Party's anniversary (cal.1966-06-22), as a Việt–Trung act. The three Politburo resolutions of Apr. 8, 1965 merging provinces are one entry; the Twelfth Plenum's documents are one entry each for the Politburo's report and Lê Duẩn's speech (dated Dec. 21, the first day of the plenum, with a Check: the volume gives the span only) and cites on the plenum's entry held (cal.1965-12-27.vietnam-2); likewise the Eleventh Plenum (cal.1965-03-28.vietnam). Visibility: `vis:only:drv` on every Party document, cable and circular; none on Hồ Chí Minh's appeal of July 20, 1965 and the five greetings to foreign congresses. A document's own heading in Vietnamese with full diacritics; names with diacritics in `c`.
+
+### Doubtful, for the merger
+
+- Same-day entries: 28 new ids, on 13 days, share a day and thread with another new entry (patch-check's "one event?" and "a duplicate of" warnings, 43 of them): each is a separate document, listed in the table; at the merge `./bib resolve ID --take keep` for each. The two Dec. 21, 1965 entries (the Politburo's report and Lê Duẩn's speech) are two documents of one plenum on a day the volume does not give.
+- The Twelfth Plenum's dates: the volume has it meet Dec. 21–27, 1965 (XXVII, 35 n.; Introduction to vol. 26), the resolution and Hồ Chí Minh's closing speech Dec. 27; `cal.1965-12-27.vietnam-2` has it "open" Dec. 27 (a Check added). The Eleventh Plenum: Mar. 25–27 in the volume (the outline report, XXVI, 56, and the resolution, 96), Mar. 28 on `cal.1965-03-28.vietnam` (a Check added).
+- Page cites in the secondary books against the volume's own pages: Asselin, 207 n.11, has the Secretariat's instruction no. 99-CT/TW at XXVI, 198–203 (the volume: 190–95); Nguyen, 76 n.121, the Eleventh Plenum's resolution at 102–18 (the volume: 96–110); Asselin, 206 nn.3–5, and Nguyen, 78 n.136 (Lê Duẩn's speech, 594–95: the end of it, 542–95) agree with the volume. The "To check" sentences of those held entries (the instruction in *Văn kiện Đảng toàn tập*, 26:...) stay; the cites added are what was read. The volume's page 3 does carry the sentence Asselin quotes on revisionism (88-CT/TW).
+- cal.1965-03-03.vietnam-hanoi: the cable no. 09/ĐK says "these past days" (mấy hôm nay) and names no event; entered beside cal.1965-03-02.vietnam (Rolling Thunder) with a Check.
+- COSVN's resolutions (the third conference's, Jan. 1965; the fourth's, Mar. 1966), the standing committee's of Mar. 6 and Aug. 5, 1965 and the Zone V committee's of Mar. 20, 1966 are the volumes' appendices and are entered as the DRV's acts under the owner's ruling of Nov. 11 (the NLF's acts are the DRV's); they were read in part only (the opening and the passages named in `c`); the fourth conference's resolution (XXVII, 352–426) and the Zone V resolution (427–51) are long and not read through.
+- Read to the depth the entries show: the openings of every document and the passages `c` names; not read through: the Politburo's resolution no. 123-NQ/TW (XXVI, 267–303) beyond its first pages, the Politburo's report to the Twelfth Plenum (485–541) beyond the first part, Lê Duẩn's speech (542–95) beyond the passages on the troop numbers and the line, the Twelfth Plenum's resolution (596–625) beyond its situation and its line; the Eleventh Plenum's outline (56–95).
+- Several `c` lines (the circulars on culture, the cooperatives campaign, the Red Cross, the savings drive, finance and trade) say only what each opening says; a reader after the details has the pages.
+- The Hanoi bombing of Dec. 13, 1966 (the Politburo's cable no. 43) is entered beside cal.1966-12-13.vietnam-air-war, and the Politburo's cable of Apr. 22, 1966 on the cities' movement under thread `vietnam-hanoi` with `also: vietnam-struggle`; neither cable names the day's American event beyond the bombing of Hanoi and "the movement over a month old".
+- Cable no. 18 and no. 33 (Jan. 24 and 28, 1966) and no. 2 (Jan. 5): the pause in the bombing seen from Hanoi's Secretariat; `also: vietnam-pause`.
+
+### Persons named with no name entry
+
+Named in `c`: none left untagged (Hồ Chí Minh, Lê Duẩn, Morse, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Johnson, Paul VI are tagged). Signers named only in the notes, with no name entry: Tố Hữu, Phạm Hùng, Lê Văn Lương, Vũ Tuân, Phạm Chung, Hoàng Anh, Minh Châu (not tagged; Lê Đức Thọ, Trường Chinh and Lê Duẩn as signers are not tagged either, as in batch 12).
+
+### The documents, one by one
+
+Every document in the two volumes by its heading, in the volume's order, with its first page and the ruling; the volumes print no contents in these PDFs, the list is from the documents' own headings (66 + 3 and 50 + 7 by the editors' count; the table has 123 rows, for the three province mergers of Apr. 8, 1965 are one row and the slogans of July 20, 1965 go with their circular).
+
+| Page | Document (the heading) | Ruling |
+|---|---|---|
+| XXVI, 1 | Chỉ thị của Bộ Chính trị số 88-CT/TW, ngày 2-1-1965 về cuộc vận động chỉnh huấn mùa xuân năm 1965 | cited on cal.1965-01-02.vietnam-hanoi |
+| XXVI, 10 | Chỉ thị của Ban Bí thư số 89-CT/TW, ngày 12-1-1965 về việc kỷ niệm lần thứ 35 ngày thành lập Đảng ta | passed over: a commemoration |
+| XXVI, 14 | Thông tri của Ban Bí thư số 155-TT/TW về việc lãnh đạo bầu cử hội đồng nhân dân và uỷ ban hành chính các cấp | entered: cal.1965-01-20.vietnam-hanoi |
+| XXVI, 20 | Bài nói của Chủ tịch Hồ Chí Minh tại Hội nghị bồi dưỡng chỉnh huấn do Trung ương triệu tập | entered: cal.1965-01-22.vietnam-hanoi |
+| XXVI, 26 | Nghị quyết của Ban Bí thư số 109-NQ/TW về việc chuyển một số công việc của Ban Thống nhất sang Ban Tổ chức Trung ương và Đảng đoàn Bộ Nội vụ | entered: cal.1965-02-13.vietnam-hanoi |
+| XXVI, 28 | Chỉ thị của Ban Bí thư số 92-CT/TW về việc thi hành Nghị quyết Hội nghị lần thứ 10 của Trung ương về thương nghiệp và giá cả | entered: cal.1965-02-27.vietnam-hanoi |
+| XXVI, 41 | Chỉ thị của Ban Bí thư số 90-CT/TW, ngày 1-3-1965 (cuộc vận động bảo vệ đảng) | cited on cal.1965-03-01.vietnam-hanoi |
+| XXVI, 54 | Điện của Ban Bí thư số 09/ĐK về công tác phòng không, sơ tán và phổ biến tin tức (the title the editors') | entered: cal.1965-03-03.vietnam-hanoi |
+| XXVI, 56 | Đề cương báo cáo tại Hội nghị Ban Chấp hành Trung ương lần thứ 11 (đặc biệt), họp 25–27-3-1965 | cited on cal.1965-03-28.vietnam |
+| XXVI, 96 | Nghị quyết Hội nghị Trung ương lần thứ 11 (đặc biệt), 25, 26, 27-3-1965 | cited on cal.1965-03-28.vietnam |
+| XXVI, 111 | Thông báo của Ban Bí thư số 56-TB/TW về những quy định của Bộ Chính trị về việc tổ chức lãnh đạo công tác tiếp tục cải tạo xã hội chủ nghĩa đối với công thương nghiệp tư bản tư doanh, thủ công nghiệp và thương nghiệp nhỏ | entered: cal.1965-04-01.vietnam-hanoi |
+| XXVI, 118 | Chỉ thị của Ban Bí thư số 94-CT/TW về công tác tư tưởng trong tình hình trước mắt | entered: cal.1965-04-02.vietnam-hanoi |
+| XXVI, 129 | Chỉ thị của Ban Bí thư số 95-CT/TW về việc điều động cán bộ phục vụ cho yêu cầu xây dựng quân đội trong tình hình và nhiệm vụ mới | entered: cal.1965-04-08.vietnam-hanoi |
+| XXVI, 132 | Nghị quyết của Bộ Chính trị số 111-NQ/TW, 112-NQ/TW và 113-NQ/TW về việc hợp nhất hai tỉnh Nam Định và Hà Nam, Thái Nguyên và Bắc Cạn, Hà Đông và Sơn Tây | entered: cal.1965-04-08.vietnam-hanoi-2 |
+| XXVI, 138 | Nghị quyết của Ban Bí thư số 115-NQ/TW về việc thành lập Cục Bưu điện đặc biệt | entered: cal.1965-04-17.vietnam-hanoi |
+| XXVI, 140 | Thông tri của Ban Bí thư số 158-TT/TW, ngày 17-4-1965 về việc mừng thọ Hồ Chủ tịch 75 tuổi | passed over: a commemoration (Hồ Chí Minh's 75th birthday) |
+| XXVI, 142 | Nghị quyết của Bộ Chính trị số 116-NQ/TW về việc phân công nhiệm vụ giữa Quân đội nhân dân và lực lượng Công an nhân dân vũ trang trong việc bảo vệ trị an ở miền Bắc và điều chỉnh tổ chức lực lượng Công an nhân dân vũ trang | entered: cal.1965-04-28.vietnam-hanoi |
+| XXVI, 151 | Nghị quyết của Ban Bí thư số 117-NQ/TW về thành lập Đảng bộ Bộ Tư lệnh Thủ đô | entered: cal.1965-04-29.vietnam-hanoi |
+| XXVI, 153 | Điện mật của Ban Bí thư (ngày 5 tháng 5 năm 1965) về bảo đảm giao thông vận tải (the title the editors') | entered: cal.1965-05-05.vietnam-hanoi |
+| XXVI, 155 | Chỉ thị của Ban Bí thư số 96-CT/TW về việc tăng cường công tác bảo mật phòng gian | entered: cal.1965-05-07.vietnam-hanoi |
+| XXVI, 162 | Quyết định của Ban Bí thư và Thường vụ Hội đồng Chính phủ số 119-NQ/TW về một số vấn đề trong công tác giao thông vận tải ở các tỉnh Khu IV | entered: cal.1965-05-07.vietnam-hanoi-2 |
+| XXVI, 166 | Thông tri của Ban Bí thư số 160-TT/TW về việc tổ chức Hội nghị uỷ ban công đoàn quốc tế đoàn kết với lao động và nhân dân Việt Nam chống đế quốc Mỹ xâm lược | entered: cal.1965-05-07.vietnam-hanoi-3 |
+| XXVI, 169 | Chỉ thị của Ban Bí thư số 97-CT/TW về việc đẩy mạnh công tác bổ túc văn hoá | entered: cal.1965-05-18.vietnam-hanoi |
+| XXVI, 184 | Thông tri của Ban Bí thư số 161-TT/TW về việc sơ tán Hoa kiều ở các thành phố, thị trấn và các vùng trọng điểm | entered: cal.1965-05-18.vietnam-hanoi-2 |
+| XXVI, 187 | Thông tri của Ban Bí thư số 162-TT/TW về việc chọn người đi học khoa học, kỹ thuật ở nước ngoài | entered: cal.1965-05-29.vietnam-hanoi |
+| XXVI, 190 | Chỉ thị của Ban Bí thư số 99-CT/TW, ngày 8-6-1965 (công tác vận động phụ nữ) | cited on cal.1965-06-08.vietnam-hanoi |
+| XXVI, 196 | Chỉ thị của Ban Bí thư số 100-CT/TW về việc chuyển hướng công tác tài chính thương nghiệp trong tình hình mới | entered: cal.1965-06-14.vietnam-hanoi |
+| XXVI, 218 | Chỉ thị của Ban Bí thư số 101-CT/TW về việc tăng cường lãnh đạo công tác lương thực hiện nay | entered: cal.1965-06-29.vietnam-hanoi |
+| XXVI, 222 | Điện mật của Ban Bí thư số 146/HT về việc giải quyết lương thực, đẩy mạnh sản xuất (the title the editors') | entered: cal.1965-06-29.vietnam-hanoi-2 |
+| XXVI, 226 | Thông tri của Ban Bí thư số 163-TT/TW, ngày 1-7-1965 về kế hoạch tuyên truyền động viên đấu tranh trong dịp 20 tháng 7 (with the Khẩu hiệu ngày 20 tháng 7 năm 1965, 231–32) | passed over: a commemoration (the Geneva anniversary) |
+| XXVI, 233 | Chỉ thị của Ban Bí thư số 102-CT/TW về việc tăng cường công tác giáo dục tư tưởng và chính trị đối với cán bộ giảng dạy và sinh viên, học sinh | entered: cal.1965-07-03.vietnam-hanoi |
+| XXVI, 247 | Nghị quyết của Ban Bí thư số 122-NQ/TW về tăng cường lãnh đạo, đẩy mạnh cuộc vận động xây dựng chi bộ và đảng bộ cơ sở bốn tốt | entered: cal.1965-07-06.vietnam-hanoi |
+| XXVI, 267 | Nghị quyết của Bộ Chính trị số 123-NQ/TW về việc chuyển hướng công tác tổ chức trong tình hình và nhiệm vụ mới | entered: cal.1965-07-07.vietnam-hanoi |
+| XXVI, 304 | Nghị quyết của Bộ Chính trị số 125-NQ/TW về việc thành lập Ban sơ tán Trung ương | entered: cal.1965-07-16.vietnam-hanoi |
+| XXVI, 306 | Lời kêu gọi của Chủ tịch Hồ Chí Minh nhân ngày 20 tháng 7 (the title the editors') | entered: cal.1965-07-20.vietnam-hanoi |
+| XXVI, 312 | Chỉ thị của Ban Bí thư số 104-CT/TW về công tác văn hoá, văn nghệ trong tình hình mới | entered: cal.1965-07-28.vietnam-hanoi |
+| XXVI, 318 | Chỉ thị của Ban Bí thư số 105-CT/TW về việc tăng cường lãnh đạo công tác vận động thanh niên trong tình hình mới | entered: cal.1965-07-29.vietnam-hanoi |
+| XXVI, 329 | Thông tri của Ban Bí thư số 164-TT/TW về nhiệm vụ và quyền hạn của các Ban Nghiên cứu Lịch sử đảng địa phương miền Nam | entered: cal.1965-07-30.vietnam-hanoi |
+| XXVI, 332 | Chỉ thị của Ban Bí thư số 106-CT/TW, ngày 17-8-1965 về việc kỷ niệm lần thứ 20 ngày Cách mạng Tháng Tám và Quốc khánh 2-9 | passed over: a commemoration |
+| XXVI, 340 | Nghị quyết của Bộ Chính trị số 126-NQ/TW về việc kiện toàn một bước tổ chức lãnh đạo và chỉ đạo thực hiện của Trung ương Đảng và Chính phủ | entered: cal.1965-08-17.vietnam-hanoi |
+| XXVI, 363 | Chỉ thị của Ban Bí thư số 107-CT/TW về việc tiếp tục một bước mới cuộc vận động cải tiến quản lý hợp tác xã, cải tiến kỹ thuật, phát triển sản xuất nông nghiệp ở các tỉnh vùng đồng bằng và trung du | entered: cal.1965-08-21.vietnam-hanoi |
+| XXVI, 378 | Nghị quyết của Ban Bí thư số 127-NQ/TW về việc thành lập trường Đảng bồi dưỡng cán bộ sơ cấp của các tỉnh thuộc Khu IV cũ | entered: cal.1965-08-23.vietnam-hanoi |
+| XXVI, 380 | Chỉ thị của Ban Bí thư số 108-CT/TW về cuộc vận động cải tiến quản lý hợp tác xã, cải tiến kỹ thuật, nhằm phát triển sản xuất nông nghiệp toàn diện, mạnh mẽ và vững chắc ở miền núi | entered: cal.1965-08-25.vietnam-hanoi |
+| XXVI, 396 | Chỉ thị của Ban Bí thư số 109-CT/TW về việc tăng cường lãnh đạo công tác vận động gửi tiền tiết kiệm trong tình hình mới | entered: cal.1965-09-06.vietnam-hanoi |
+| XXVI, 402 | Điện mật của Ban Bí thư số 224 về việc tăng cường lãnh đạo, chỉ đạo để đảm bảo tình hình trị an bờ biển (the title the editors') | entered: cal.1965-09-06.vietnam-hanoi-2 |
+| XXVI, 404 | Chỉ thị của Ban Bí thư số 110-CT/TW về việc tăng cường lãnh đạo công tác chính trị, sản xuất và trị an quốc phòng trong Khu tự trị Tây Bắc | entered: cal.1965-09-07.vietnam-hanoi |
+| XXVI, 414 | Thông tri của Ban Bí thư số 166-TT/TW về việc tổ chức nghiên cứu các vấn đề về phương hướng xây dựng, phát triển và quản lý công nghiệp, quản lý xí nghiệp | entered: cal.1965-09-14.vietnam-hanoi |
+| XXVI, 417 | Chỉ thị của Ban Bí thư số 112-CT/TW, ngày 26-10-1965 về việc kỷ niệm Nguyễn Du | passed over: a commemoration (the poet's bicentenary) |
+| XXVI, 422 | Điện mật của Ban Bí thư số 283 về yêu cầu tập trung chỉ đạo, đảm bảo giao thông vận tải (the title the editors') | entered: cal.1965-10-29.vietnam-hanoi |
+| XXVI, 424 | Chỉ thị của Ban Bí thư số 113-CT/TW về nhiệm vụ của báo Nhân dân trước tình hình và nhiệm vụ mới của cách mạng | entered: cal.1965-11-15.vietnam-hanoi |
+| XXVI, 433 | Thông tri của Ban Bí thư số 169-TT/TW về việc tăng cường lãnh đạo công tác hồng thập tự | entered: cal.1965-11-26.vietnam-hanoi |
+| XXVI, 436 | Nghị quyết của Bộ Chính trị số 129-NQ/TW về việc tiếp tục thi hành chính sách ổn định nghĩa vụ lương thực, ổn định nghĩa vụ thuế nông nghiệp trong hai năm 1966–1967, tăng cường quản lý phân phối, quản lý thị trường lương thực | entered: cal.1965-12-02.vietnam-hanoi |
+| XXVI, 448 | Chỉ thị của Ban Bí thư số 114-CT/TW về việc tăng cường lãnh đạo công tác văn hoá, văn nghệ ở miền núi trong giai đoạn chống Mỹ, cứu nước hiện nay | entered: cal.1965-12-06.vietnam-hanoi |
+| XXVI, 458 | Chỉ thị của Ban Bí thư số 116-CT/TW về nâng cao chất lượng của tạp chí Học tập để phục vụ sự nghiệp chống Mỹ, cứu nước và tiếp tục xây dựng cơ sở vật chất và kỹ thuật của chủ nghĩa xã hội | entered: cal.1965-12-14.vietnam-hanoi |
+| XXVI, 467 | Điện mật của Ban Bí thư số 312 về việc tăng cường phòng không, sơ tán (the title the editors') | entered: cal.1965-12-17.vietnam-hanoi |
+| XXVI, 469 | Thông tri của Ban Bí thư số 171-TT/TW về phương hướng thu, chi ngân sách đảng năm 1966 | entered: cal.1965-12-18.vietnam-hanoi |
+| XXVI, 477 | Chỉ thị của Ban Bí thư số 117-CT/TW về việc đẩy mạnh công tác tuyên truyền ủng hộ cách mạng Lào | entered: cal.1965-12-22.vietnam-hanoi |
+| XXVI, 480 | Chỉ thị của Ban Bí thư số 118-CT/TW về việc tăng cường công tác thông tin và cổ động | entered: cal.1965-12-23.vietnam-hanoi |
+| XXVI, 485 | Báo cáo của Bộ Chính trị tại Hội nghị lần thứ 12 Ban Chấp hành Trung ương: Phương hướng nhiệm vụ kế hoạch hai năm 1966–1967 | entered: cal.1965-12-21.vietnam-hanoi |
+| XXVI, 542 | Bài nói của đồng chí Lê Duẩn, Bí thư thứ nhất Ban Chấp hành Trung ương Đảng, tại Hội nghị lần thứ 12 của Trung ương: Phấn khởi tiến lên, đem toàn lực của nhân dân hai miền đánh thắng đế quốc Mỹ và bè lũ tay sai | entered: cal.1965-12-21.vietnam-hanoi-2 |
+| XXVI, 596 | Nghị quyết Hội nghị lần thứ 12 của Ban Chấp hành Trung ương, ngày 27-12-1965 | cited on cal.1965-12-27.vietnam-2 |
+| XXVI, 626 | Lời phát biểu của Hồ Chủ tịch trong phiên họp bế mạc hội nghị lần thứ 12 của Trung ương, chiều 27-12-1965 | cited on cal.1965-12-27.vietnam-2 |
+| XXVI, 634 | Nghị quyết của Bộ Chính trị số 131-NQ/TW về việc thành lập Ban Nghiên cứu Lý luận của Trung ương | entered: cal.1965-12-28.vietnam-hanoi |
+| XXVI, 643 | Nghị quyết Hội nghị Trung ương Cục lần thứ ba, số 2/NQ, tháng 1 năm 1965, về tình hình cách mạng miền Nam năm 1964 và nhiệm vụ trước mắt của ta (the title the editors') | entered: cal.1965-01.vietnam-hanoi |
+| XXVI, 667 | Nghị quyết của Thường vụ Trung ương Cục miền Nam ("Thường vụ Năm Trường," the editors' note) số 4/NQ về công tác phụ vận | entered: cal.1965-03-06.vietnam-hanoi |
+| XXVI, 693 | Nghị quyết hội nghị Thường vụ Trung ương Cục số 6/NQ về một số vấn đề trong công tác nông thôn sắp tới | entered: cal.1965-08-05.vietnam-hanoi |
+| XXVII, 1 | Điện mật của Ban Bí thư số 2 yêu cầu thực hiện một số điểm trong thời kỳ Mỹ tạm ngừng ném bom miền Bắc (the title the editors') | entered: cal.1966-01-05.vietnam-hanoi |
+| XXVII, 4 | Bài nói của Chủ tịch Hồ Chí Minh tại hội nghị cán bộ cao cấp nghiên cứu nghị quyết hội nghị lần thứ 12 Ban Chấp hành Trung ương Đảng | entered: cal.1966-01-16.vietnam-hanoi |
+| XXVII, 18 | Thông tri của Ban Bí thư số 173-TT/TW, ngày 20-1-1966 về việc kỷ niệm lần thứ 36 ngày thành lập Đảng (3-2) | passed over: a commemoration |
+| XXVII, 21 | Thông tri của Ban Bí thư số 174-TT/TW về việc học tập Nghị quyết Hội nghị lần thứ 12 của Trung ương và kế hoạch hai năm của Nhà nước | entered: cal.1966-01-20.vietnam-hanoi |
+| XXVII, 26 | Điện mật của Ban Bí thư số 18 gửi các Khu uỷ, Thành uỷ và Tỉnh uỷ yêu cầu thực hiện một số việc để đánh bại âm mưu của Mỹ ném bom bắn phá trở lại miền Bắc (the title the editors') | entered: cal.1966-01-24.vietnam-hanoi |
+| XXVII, 29 | Chỉ thị của Ban Bí thư số 119-CT/TW về việc phân cấp quản lý tài chính của Đảng | entered: cal.1966-01-28.vietnam-hanoi |
+| XXVII, 33 | Điện mật của Ban Bí thư số 33 gửi các Khu uỷ, Thành uỷ, Tỉnh uỷ về việc lập kế hoạch đề phòng đế quốc Mỹ oanh tạc trở lại miền Bắc (the title the editors') | entered: cal.1966-01-28.vietnam-hanoi-2 |
+| XXVII, 35 | Nghị quyết Hội nghị lần thứ 12 Ban Chấp hành Trung ương số 135-NQ/TW về việc vận dụng và bổ sung một số điểm cụ thể về Điều lệ Đảng | entered: cal.1966-01-31.vietnam-hanoi |
+| XXVII, 41 | Chỉ thị của Ban Bí thư số 120-CT/TW về công tác tư tưởng trong năm 1966 | entered: cal.1966-02-17.vietnam-hanoi |
+| XXVII, 61 | Thông tri của Ban Bí thư số 175-TT/TW về việc tổ chức "Cuộc họp mặt những nhà khoa học và văn hoá thế giới ủng hộ nhân dân Việt Nam chống cuộc chiến tranh xâm lược của Mỹ" | entered: cal.1966-03-08.vietnam-hanoi |
+| XXVII, 64 | Thông tri của Ban Bí thư số 176-TT/TW về một số vấn đề cần chú ý trong cuộc vận động "Cải tiến quản lý hợp tác xã, cải tiến kỹ thuật, phát triển sản xuất nông nghiệp" | entered: cal.1966-03-15.vietnam-hanoi |
+| XXVII, 69 | Chỉ thị của Ban Bí thư số 121-CT/TW về việc ra sức nâng cao chất lượng và tăng cường công tác phát triển đảng song song với việc củng cố đảng | entered: cal.1966-04-07.vietnam-hanoi |
+| XXVII, 86 | Chỉ thị của Ban Bí thư số 122-CT/TW về việc tăng cường lãnh đạo phong trào thi đua yêu nước trước tình hình và nhiệm vụ mới | entered: cal.1966-04-07.vietnam-hanoi-2 |
+| XXVII, 95 | Bài nói của Chủ tịch Hồ Chí Minh tại hội nghị tổng kết ba năm xây dựng chi bộ và đảng bộ cơ sở "bốn tốt" | entered: cal.1966-04.vietnam-hanoi |
+| XXVII, 101 | Nghị quyết của Ban Bí thư số 137-NQ/TW về kiện toàn tổ chức Ban Tài chính thương nghiệp các cấp | entered: cal.1966-04-12.vietnam-hanoi |
+| XXVII, 111 | Chỉ thị của Ban Bí thư số 123-CT/TW về việc tăng cường lãnh đạo và củng cố phong trào hợp tác xã mua bán xã | entered: cal.1966-04-14.vietnam-hanoi |
+| XXVII, 118 | Điện mật của Ban Bí thư số 36 gửi Thành uỷ Hà Nội, Hải Phòng, Thái Nguyên và các Tỉnh uỷ (the title the editors') | entered: cal.1966-04-14.vietnam-hanoi-2 |
+| XXVII, 120 | Điện mật của Bộ Chính trị số 110 gửi Trung ương Cục, Khu V, Liên tỉnh 1, về phong trào đấu tranh của quần chúng ở đô thị miền Nam (the title the editors'; "Bác Hương," the editors' note: the Politburo) | entered: cal.1966-04-22.vietnam-hanoi |
+| XXVII, 130 | Thông tri của Ban Bí thư số 178-TT/TW, ngày 23-4-1966 về kỷ niệm lần thứ 80 ngày Quốc tế Lao động 1-5 | passed over: a commemoration |
+| XXVII, 136 | Chỉ thị của Ban Bí thư số 124-CT/TW về tăng cường lãnh đạo công tác tài chính thương nghiệp và giá cả năm 1966–1967 | entered: cal.1966-04-27.vietnam-hanoi |
+| XXVII, 148 | Nghị quyết của Bộ Chính trị số 140-NQ/TW về việc nghiên cứu kế hoạch dài hạn | entered: cal.1966-04-29.vietnam-hanoi |
+| XXVII, 151 | Chỉ thị của Ban Bí thư số 126-CT/TW về nhiệm vụ của các cơ quan, xí nghiệp, bệnh viện, trường học sơ tán về nông thôn và trách nhiệm của các cấp | entered: cal.1966-05-04.vietnam-hanoi |
+| XXVII, 157 | Thông tri của Ban Bí thư số 180-TT/TW về việc chấp hành chính sách tôn giáo đối với đạo Phật | entered: cal.1966-05-16.vietnam-hanoi |
+| XXVII, 161 | Thông tri của Ban Bí thư số 181-TT/TW về việc tăng cường công tác vận động đồng bào theo đạo Thiên chúa trước tình hình mới | entered: cal.1966-05-16.vietnam-hanoi-2 |
+| XXVII, 167 | Chỉ thị của Ban Bí thư số 127-CT/TW về việc tăng cường lãnh đạo công tác dân quân, tự vệ và hậu bị trong tình hình mới | entered: cal.1966-05-17.vietnam-hanoi |
+| XXVII, 175 | Nghị quyết của Ban Bí thư số 136-NQ/TW về việc kiện toàn sự lãnh đạo và chỉ đạo thực hiện của các Huyện uỷ | entered: cal.1966-05-20.vietnam-hanoi |
+| XXVII, 197 | Chỉ thị của Ban Bí thư số 128-CT/TW về việc tăng cường công tác tuyên truyền đối ngoại | entered: cal.1966-06-06.vietnam-hanoi |
+| XXVII, 204 | Chỉ thị của Ban Bí thư số 129-CT/TW về việc tăng cường giữ gìn bí mật công tác thông tin liên lạc vô tuyến điện của các cơ quan đảng và nhà nước | entered: cal.1966-06-06.vietnam-hanoi-2 |
+| XXVII, 208 | Chỉ thị của Ban Bí thư số 130-CT/TW, ngày 22-6-1966 về đợt tuyên truyền vận động trong dịp 20 tháng 7 năm 1966 | passed over: a commemoration (the Geneva anniversary) |
+| XXVII, 218 | Thông tri của Ban Bí thư số 182-TT/TW về tổ chức kỷ niệm lần thứ 45 ngày thành lập Đảng Cộng sản Trung Quốc | entered: cal.1966-06-22.vietnam-hanoi |
+| XXVII, 222 | Nghị quyết của Bộ Chính trị số 142-NQ/TW về việc đào tạo và bồi dưỡng cán bộ khoa học, kỹ thuật và cán bộ quản lý kinh tế | entered: cal.1966-06-28.vietnam-hanoi |
+| XXVII, 237 | Chỉ thị của Ban Bí thư số 131-CT/TW về việc củng cố hợp tác xã tín dụng để tăng cường công tác tín dụng và quản lý tiền tệ ở nông thôn | entered: cal.1966-06-28.vietnam-hanoi-2 |
+| XXVII, 252 | Thông tri của Ban Bí thư số 183-TT/TW về tổ chức điều tra tội ác chiến tranh của đế quốc Mỹ ở Việt Nam | entered: cal.1966-06-28.vietnam-hanoi-3 |
+| XXVII, 256 | Nghị quyết của Ban Bí thư số 143-NQ/TW về việc thành lập Đảng uỷ Giao thông vận tải trung ương | entered: cal.1966-06-30.vietnam-hanoi |
+| XXVII, 263 | Chỉ thị của Ban Bí thư số 132-CT/TW về một số vấn đề về kiện toàn tổ chức và tăng cường sự lãnh đạo và chỉ đạo thực hiện của Đảng đối với công tác giao thông vận tải ở các cấp | entered: cal.1966-06-30.vietnam-hanoi-2 |
+| XXVII, 269 | Lời kêu gọi của Chủ tịch Hồ Chí Minh ngày 17-7-1966 ("Không có gì quý hơn độc lập, tự do") | cited on cal.1966-07-16.vietnam |
+| XXVII, 273 | Chỉ thị của Ban Bí thư số 133-CT/TW về việc mở một đợt vận động chính trị hưởng ứng Lời kêu gọi của Chủ tịch Hồ Chí Minh | entered: cal.1966-07-20.vietnam-hanoi |
+| XXVII, 276 | Chỉ thị của Ban Bí thư số 134-CT/TW về tăng cường lãnh đạo giáo dục rèn luyện thanh niên và dân quân, tự vệ, chuẩn bị tốt lực lượng bổ sung cho quân đội | entered: cal.1966-08-12.vietnam-hanoi |
+| XXVII, 284 | Điện mật của Ban Bí thư ngày 14 tháng 8 năm 1966 gửi các Khu uỷ, Thành uỷ, Tỉnh uỷ về việc thực hiện triệt để biện pháp phòng không nhân dân đối phó âm mưu ném bom, bắn phá miền Bắc của đế quốc Mỹ (the title the editors') | entered: cal.1966-08-14.vietnam-hanoi |
+| XXVII, 287 | Chỉ thị của Ban Bí thư số 135-CT/TW, ngày 15-8-1966 về việc kỷ niệm lần thứ 21 Cách mạng Tháng Tám và Quốc khánh 2-9 | passed over: a commemoration |
+| XXVII, 295 | Thông tri của Ban Bí thư số 184-TT/TW về việc giáo dục chính trị cơ bản cho đảng viên mới | entered: cal.1966-08-15.vietnam-hanoi |
+| XXVII, 298 | Nghị quyết của Ban Bí thư Trung ương Đảng số 148-NQ/TW về việc thành lập Trường Nguyễn Ái Quốc phân hiệu IV | entered: cal.1966-08-27.vietnam-hanoi |
+| XXVII, 300 | Điện mật của Ban Bí thư số 109 gửi các Khu uỷ, Thành uỷ, Tỉnh uỷ chỉ đạo thực hiện Chỉ thị 134-CT/TW (the title the editors') | entered: cal.1966-08-29.vietnam-hanoi |
+| XXVII, 302 | Thông tri của Ban Bí thư số 185-TT/TW về việc tổ chức nghiên cứu phương hướng phát triển tiểu công nghiệp và thủ công nghiệp trong tình hình mới | entered: cal.1966-09-06.vietnam-hanoi |
+| XXVII, 305 | Chỉ thị của Ban Bí thư số 136-CT/TW về việc bảo đảm trật tự giao thông và bảo vệ tài sản nhà nước trong quá trình vận chuyển | entered: cal.1966-09-12.vietnam-hanoi |
+| XXVII, 308 | Thông tri của Ban Bí thư số 188-TT/TW về việc ngăn chặn bọn phản động lợi dụng đạo Thiên chúa tổ chức cầu nguyện hoà bình giả hiệu | entered: cal.1966-10-05.vietnam-hanoi |
+| XXVII, 311 | Chỉ thị của Ban Bí thư số 137-CT/TW về việc tăng cường lãnh đạo cuộc vận động cải tiến quản lý hợp tác xã nông nghiệp, cải tiến kỹ thuật | entered: cal.1966-10-31.vietnam-hanoi |
+| XXVII, 323 | Thông tri của Ban Bí thư số 189-TT/TW, ngày 30-11-1966 về việc tuyên truyền động viên nhân dịp ba ngày kỷ niệm trong tháng 12 năm 1966 | passed over: a commemoration (Dec. 19, 20 and 22) |
+| XXVII, 326 | Điện mật của Bộ Chính trị số 43 gửi Trung ương Cục miền Nam (ngày 13 tháng 12 năm 1966) | entered: cal.1966-12-13.vietnam-hanoi |
+| XXVII, 327 | Chỉ thị của Ban Bí thư số 138-CT/TW về việc tăng cường và tập trung hơn nữa sự lãnh đạo và chỉ đạo công tác giao thông vận tải trong tình hình hiện nay | entered: cal.1966-12-19.vietnam-hanoi |
+| XXVII, 339 | Điện của Ban Chấp hành Trung ương Đảng Lao động Việt Nam ngày 18 tháng 1 năm 1966 gửi Ban Chấp hành Trung ương Đảng Cộng sản Ý | entered: cal.1966-01-18.vietnam-hanoi |
+| XXVII, 341 | Điện mừng của Ban Chấp hành Trung ương Đảng Lao động Việt Nam ngày 7 tháng 5 năm 1966 gửi Đại hội lần thứ XIX Đảng Cộng sản Canađa | entered: cal.1966-05-07.vietnam-hanoi |
+| XXVII, 343 | Thư của Ban Chấp hành Trung ương Đảng Lao động Việt Nam ngày 1 tháng 6 năm 1966 gửi Đại hội lần thứ XV Đảng Nhân dân cách mạng Mông Cổ | entered: cal.1966-06-01.vietnam-hanoi |
+| XXVII, 345 | Điện mừng của Ban Chấp hành Trung ương Đảng Lao động Việt Nam ngày 17 tháng 6 năm 1966 gửi Đại hội lần thứ XVIII Đảng Cộng sản Mỹ | entered: cal.1966-06-17.vietnam-hanoi |
+| XXVII, 348 | Điện của Ban Chấp hành Trung ương Đảng ngày 22 tháng 10 năm 1966 gửi Đại hội đại biểu toàn quốc lần thứ X của Đảng Cộng sản Nhật Bản | entered: cal.1966-10-22.vietnam-hanoi |
+| XXVII, 352 | Nghị quyết hội nghị Trung ương Cục lần thứ tư, số 1, tháng 3 năm 1966: Đánh giá tình hình cách mạng miền Nam năm 1965, phương hướng, nhiệm vụ sắp tới và một số nhiệm vụ của cách mạng miền Nam | entered: cal.1966-03.vietnam-hanoi |
+| XXVII, 427 | Nghị quyết của Khu uỷ V ngày 20 tháng 3 năm 1966 về công tác thành phố | entered: cal.1966-03-20.vietnam-hanoi |
+
+### Where reader 1 stopped
+
+Both volumes done to their last page in the PDFs (XXVI, 710, mid-document; XXVII, 451): 126 documents by the editors' count, 105 entered, 8 cited on 6 entries held, 10 commemorations passed over, the three province mergers one entry. No pages skipped; the PDFs deleted.
