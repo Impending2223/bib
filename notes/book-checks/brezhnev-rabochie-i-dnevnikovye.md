@@ -46,3 +46,43 @@ Bilak, Erban, Grishin, Ignatov, Kiesinger, Kliszko, Kunaev, Longo, Maurer (the k
 - Sept. 5, 1968: only the Baibakov item is dated by the editors; the rest of no. 79 is dated "September".
 - The editors give Raúl Castro's second stay as Oct. 30–Nov. 24, "1966"; Nov. 22 was a Monday in 1965.
 - The entries of Mar. 13, Mar. 17 and June 12, 1967, Apr. 22 and July 4, 1968 land on the same days as reader 2's entries from the secretaries' notes (`cal.1967-03-13.soviet-union-leadership-2`, `-03-17-2`, `-06-12-2`, `1968-04-22-2`, `1968-07-04-2`), and Oct. 15, 1964 and Sept. 27, 1965 on readers 3's and 5's; the merger should `combine` those pairs where the event is the same.
+
+# Vol. II, 1965–69 (batch 14, reader 2: "Brezhnev's workbooks (B)")
+
+Reader: batch 14, reader 2, Nov. 14, 2026. Patches: `inbox/2026-11-14-b14-brezhnev-b.yaml` (entries to Jan. 20, 1969) and `inbox/2026-11-14-b14-brezhnev-b-1969.yaml` (held, after Jan. 20, 1969).
+
+## The copy
+
+The Drive file `1J1a6e_ixKhaoYJvGF98cnsxvIDBjeLIp` ("Брежнев рабочие и дневниковые записи -- Брежнев.pdf"), by curl into the scratchpad, 34 MB, PDF 1.5, 1,222 pages; read by its text layer (`pdftotext -layout`), which is clean; no page image was needed. Offset: printed page = PDF page + 3 (checked at PDF 14 = p. 17, PDF 100 = p. 103, and on the running heads). The PDF is deleted.
+
+## What this volume holds
+
+Title page: Леонид Брежнев, Рабочие и дневниковые записи, В 3-х томах, **Том 2**, "Записи секретарей Приемной Л. И. Брежнева, 1965–1982 гг.", Москва, ИстЛит, 2016, 1,232 pp.; editors as in vol. I, compilers A. S. Stepanov and A. V. Korotkov, responsible editor S. V. Kudryashov. It is not Brezhnev's own workbooks: it prints, for April 1, 1965 to November 1982, the day-by-day record kept by the secretaries of his reception room (Fond 80, op. 1, files 335–352): when he arrived and left, whom he received (with hours), whom he telephoned or who telephoned, the sessions and ceremonies he attended, trips. No commentary; the editors give the corrections of names and the unreadable places in notes at the foot of the page. Its preface says the secretaries did not record his own telephone calls; that in his absence from work the entries are stereotyped ("Л. И. находится на отдыхе"); that in 1969 the yearbook was a larger one. A session of the Presidium or the Politburo is given by its hours (and sometimes those present), never by its business; talks with foreign leaders by their hours and the Soviet side present, never by their substance. The volume ends with biographies of the secretaries and a name index. Vol. II is thus the frame in which vol. I's notes sit.
+
+## What was read, and what was entered
+
+1965 (Apr. 1) to Dec. 31, 1969: pp. 11–381 (PDF 8–378), every day. The long call lists ("Звонили") were read as lists of names and not entered; the days were taken by their hours, receptions and sessions. The volume's 1960–64 is not in it (the record begins Apr. 1, 1965).
+
+Entered: 140 new calendar entries to Jan. 20, 1969 (1965: 32; 1966: 32; 1967: 36; 1968: 40), 21 `cite`s onto reader 1's entries for the same days (vol. I's notes of the talks; the secretaries' hours and those present added), and 6 `cite`s onto entries already in the tree (cal.1968-07-15.soviet-union, cal.1968-07-29, cal.1968-08-03 and cal.1968-08-26.soviet-union-czechoslovakia, cal.1968-08-20.soviet-union, cal.1968-11-12.soviet-union). Held outside the calendar's span (Jan. 22 to Dec. 31, 1969): 48 entries, written and checked as far as `patch-check` goes (it passes all but cal.1969-01-22, which wants a section), in `inbox/2026-11-14-b14-brezhnev-b-1969.yaml`, not to be merged until the span is extended; ids claimed in the ledger under that patch's name.
+
+What an entry is, here: a visit or a negotiation with a head of state, of a party or a government (or a foreign minister of a major power), as the record dates it; a bloc meeting or a congress trip; a plenum, congress or session of the Defense Council and the Higher Military Council; the Politburo's sessions only where the record adds what they were for (the Czechoslovak sessions of Aug. 17–28, 1968, and a few others). Visibility: `vis:only:ussr` for the councils and the Politburo's sessions; `vis:only:ussr+czechoslovakia` for the talks in Moscow of Aug. 23–24, 1968; `vis:only:ussr+poland+gdr` for the meetings of May 8, Aug. 18 and Sept. 27, 1968 (Hungary and Bulgaria took part; the polities file has no entry for either); visits announced at the time carry no ruling and none was checked in the press.
+
+## Passed over, and why
+
+- The Politburo's and Presidium's sessions entered by their hours alone (the text names about 250 of them, Apr. 1965 to Dec. 1969, more than half after Jan. 20, 1969 or in the held patch; counted by a rough pattern): the record gives no business. Counted, not entered; the dates are in the secretaries' text.
+- Receptions of ambassadors, of Soviet officials and of party first secretaries; the telephone calls; the callers' lists; the Barvikha and Zavidovo days; the holidays; the writers', teachers', composers', collective farmers' and trade-union congresses and the Supreme Soviet's sessions (a line each); the funerals (Malinovsky, Rokossovsky, Voroshilov: the first only for the foreign military delegations).
+- Smaller delegations by name: Chilean, Ghanaian, Algerian military (June 27, 1967), Guinean economic, Swedish and Danish prime ministers' lunches, the Belgian, Danish, British and Finnish party delegations (a line each), the Soviet ambassadors' receptions.
+- "Командировка" days with no place (Feb. 4–12 and Feb. 24–Mar. 15, 1966, about a dozen others): not entered; the editors give none.
+- The trip to Warsaw of Apr. 4–10, 1965 (the sheets give the departure and the return only), and the Kyiv trip of Sept. 16–18, 1966.
+
+## Doubts
+
+- Dec. 6–17, 1966: the record names Kim Il Sung as the head of the Korean delegation (reception, talks Dec. 7–9 and Dec. 16, dinner Dec. 17); no other source read. The editors do not correct it. (June 20, 1966, the "Ким Ир" of the Korean economic delegation is Kim Il, a deputy premier.)
+- Aug. 20–21, 1968: the secretaries' 2:30 a.m. trip to the Ministry of Defense and the Politburo of 5 to 9 a.m. stand under Aug. 20 after the evening callers; the Aug. 21 sheet begins with those present at the session. Read as the morning of Aug. 21; the entry is dated Aug. 21.
+- Oct. 1, 1969: the sheet's hours do not agree (the airport at 8:25 p.m. before the 3 p.m. negotiation; the return to the dacha at 8:15 p.m.).
+- Mar. 22–24, 1968: the record has the flight to Dresden and the return; the sheet of Mar. 23 is "записей нет." It names no meeting.
+- Whether the visits and bloc meetings were announced at the time was not checked; no `vis` ruling was put on them.
+
+## Names with no name entry in the calendar (Names: only, not tagged)
+
+Czechoslovakia: Černík, Smrkovský, Biľak, Lenárt, Kempný, Erban, Dzúr, Poláček, Piller, Koucký, Pavlovsky. USSR: Rusakov, Pelshe, Grishin, Kapitonov, Kulakov, Solomentsev, Semichastny, Lesechko, Tolkunov, Mesyatsev, Tsukanov, Aleksandrov (several in FRUS), Skachkov, Kuzmin, Rakhmanin, Blatov, Krylov, Moskalenko, Leonov, Gorshkov, Margelov, Ivashutin, Yakubovsky, Shchelokov, Chazov, Lukomsky, Tkachev, Kozyrev, Malik, Georgadze, Konotop. Foreign: Tsedenbal, Traykov, Longo, Rochet, Duclos, Kanapa, Ibárruri, Bakdash, Zuayyin, Makhus, Salat, Choe Yong-gon, Pak Song-chol, Lê Thanh Nghị, Lê Đức Thọ, Đặng Quang Minh, Hart Dávalos, Benyahia, Mazilu, Stoica, Vilner, Eberlein.
