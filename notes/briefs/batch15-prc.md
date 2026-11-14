@@ -1,0 +1,20 @@
+# Batch 15: the PRC skeleton, 1960–69, from the Mao chronology (Nov. 14, 2026)
+
+The owner, Nov. 14, 2026: "Do we have a plan for a PRC run through to 1969?" — then "Start the China wave first." The method is the foreign skeletons' (`notes/briefs/batch12-foreign.md`: "What is an entry", "The form", "Patches", the owner's rulings of Nov. 12): read it first. CLAUDE.md is the core; never read `build/` or a whole list file. Every patch is audited by Opus before it merges; never merge, never commit. Quote no book text beyond a few words, in translation.
+
+## The source
+*Mao Zedong nianpu, 1949–1976* 毛泽东年谱（一九四九—一九七六）, 6 vols. (2013), card `w.zedong-mao-zedong-nianpu` (works.py STYLE 10: Pinyin without tones; the compilers are its editors). The Drive's epub is the publisher's nine-volume set (the 1893–1949 revised edition and the 1949–1976 set): `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy` (6 MB). Fetch it into your scratch directory (`curl -sSL -o DIR/np.epub "https://drive.usercontent.google.com/download?id=1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy&export=download&confirm=t"`), `unzip` it into its own empty directory, read the HTML of your years (a chapter a year, "1962年 六十九岁"); delete it all when done. No printed pages: cite by the 1949–1976 set's volume (第一卷–第六卷, Roman) and the day, as the October 1962 pilot did: `[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962`. Find from the epub's table of contents which volume holds your years and say so in your report.
+
+## What is an entry
+Mao's dated acts, and the leadership's acts the chronology records: a meeting of the Politburo, its Standing Committee, the Secretariat, a Central Work Conference or a plenum (one entry a session, its matters in order); a talk with a named person (a foreign leader above all); an instruction, comment (批示) or letter; a speech; a document drafted or revised. The chronology's days with only reading, travel or a minor comment: name them in a sentence on the day's chief entry or pass them over and list them. One event an entry. Already in the calendar (`./bib find -l cal --thread china-leadership --since ... --until ...`, `--thread china`, `--thread south-asia` for 1962, `--thread vietnam-hanoi`, and the Soviet threads): cite there (a `cite`, with a `variant` or `check` where the chronology differs); new entries only for acts the calendar lacks. October 1962 has been read (the pilot): skip it, except to cite.
+
+## The form
+- `thread: china-leadership` (`also:` the thread an act bears on: `china`, `vietnam-hanoi`, `soviet-union`, `south-asia`, `laos` ...).
+- `c`: plainly ("Mao, Hangzhou: ..."; "The Politburo Standing Committee: ..."); Chinese names in Pinyin without tone marks, the calendar's own spelling where it has one.
+- `tags`: `polity:prc`; `name:` for each person with a name entry (`./bib find -l kja SURNAME`; the 44 PRC leaders of Nov. 11 under `kja.who.*`; FRUS's persons, `sources/frus-names/persons.json`); others named in `c` and "Names:" and listed in your report.
+- Visibility (`tools/bib/vis.py`, STYLE 8): an act inside the leadership unknown outside at the time `vis:only:prc`; with a foreign party present `vis:only:prc+<polity>` (`drv`, `ussr`, `pathet-lao`, `rok` is not `dprk` ...; check `sources/polities.yaml`); an act published at the time (a *Renmin ribao* editorial the chronology names, a public speech, a reception reported by Xinhua) no ruling. "Made public: 2013." on what was secret.
+- `n`: the chronology's cite; documents it names (the *wengao*, the Party's documents) behind "To check:".
+
+## The readers (one a span)
+1. 1960–61. 2. 1962–63 (not Oct. 1962). 3. 1964–65. 4. 1966–67. 5. 1968–69 (the calendar runs through 1969 now: the owner, Nov. 14).
+Each: patch `inbox/2026-11-14-b15-mao-<years>.yaml` (patch name the same), ids by `./bib new-id cal DATE china-leadership`, claimed with `./bib ledger add ...`; `./bib patch-check` to 0 errors; book-check section in `notes/book-checks/mao-zedong-nianpu.md` under your years (append only). Report: the counts, the days read (the chronology's dated days for your years and how many you entered), what you passed over and why, persons with no name entry, doubts, and the time it took.

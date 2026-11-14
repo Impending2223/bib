@@ -624,3 +624,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "The reader shouldn't read Schattenberg from 1960 on?" (Nov. 14, early: yes; the reader told to read from Jan. 1960.)
 
 "Please add the held-back material. The calendar extends as far as I want it to extend." (Nov. 14: the sections Feb.-Dec. 1969 and Nov. 1970 added, January 1969 to the 31st, the later sections renumbered; the held 1969 and 1970 material to be added and audited.)
+
+[An image of the Drive listing: Lettres, notes et carnets tomes 8-13 and two PDFs (June 1958-Dec. 1963); Peyrefitte, C'était de Gaulle T1-3 (epub) and T1 (PDF); Discours et messages [4], Pour l'effort.] "Do you not see these? Start the China wave first." (Nov. 14: the search had stopped at 11 p.m.; the French holdings noted; batch 15, the PRC, begun.)
