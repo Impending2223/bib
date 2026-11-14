@@ -643,20 +643,23 @@ def frame_ruling(e):
 
 
 def frame_text(c):
-    """The report's frame that opens `c` (STYLE 8): its text through the first colon outside quotation marks and
-    brackets, where that colon comes within the first sentence; else None."""
-    depth, q = 0, False
+    """The report's frame that opens `c`, the first unit (STYLE 8): its text through the first colon outside
+    quotation marks, italics and brackets, within its first 160 characters and before any semicolon; else None. (The
+    unit is one sentence already, so a period is no stop: "Gen. ", "U.S. ".)"""
+    depth, q, it = 0, False, False
     for i, ch in enumerate(c or ""):
         if ch == '"':
             q = not q
+        elif ch == "*":
+            it = not it
         elif ch in "([":
             depth += 1
         elif ch in ")]":
             depth -= 1
-        elif not q and depth == 0:
+        elif not q and not it and depth == 0:
             if ch == ":" and 0 < i < 160:
                 return c[:i + 1]
-            if ch in ".;" and i + 1 < len(c) and c[i + 1] == " ":
+            if ch == ";":
                 return None
     return None
 
@@ -669,12 +672,13 @@ def frame_pol(pol, pols, date):
         if X in pols:
             out[X] = {k: list(v) for k, v in rec.items()}
             continue
-        r2 = {k: [None, pub] for k, (np, pub) in rec.items() if pub and pub != "?"}
+        r2 = {k: [None, pub] for k, (np, pub) in rec.items() if pub}
         if r2:
             out[X] = r2
     for X in pols:
-        out.setdefault(X, {})
-        out[X].setdefault("P", [date, None])
+        p = out.setdefault(X, {}).setdefault("P", [date, None])
+        if p[0] is None and (not p[1] or p[1] == "?" or p[1] > date):
+            p[0] = date                          # privy from the event's day, public only later
     return out
 
 
@@ -694,7 +698,7 @@ def compute(series, lst, e):
         only = only_ruling(e, cl["unit"])                # a `vis:only:` ruling (STYLE 8): who knew at the time
         late = learned(e, cl["unit"])                    # `vis:from:` rulings: who learned later, and when
         if only:
-            addr = [x for x in addr if x in only] or sorted(only, key=order_key)
+            addr = [x for x in addr if x in only or x in late] or sorted(only, key=order_key)
             terr = [x for x in terr if x in only]
             agency = [x for x in agency if x in only] or sorted(only, key=order_key)
             basis = "vis:only ruling"
@@ -881,9 +885,41 @@ def problems(series):
         return [("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")]
 
 
+def ruling_problems(e, cls):
+    """A `vis:` ruling that does nothing (STYLE 8): a malformed tag, an unknown polity, a unit past the entry's last,
+    a frame with units or with no frame in its first unit."""
+    out = []
+    pols = polities()["polities"]
+    n = len([c for c in cls if c["unit"] != "all"]) or 1
+    from .claims import LETTERS
+    for t in store.as_list(e.get("tags")):
+        t = str(t)
+        if not t.startswith("vis:"):
+            continue
+        m = RULE_RX.match(t)
+        if not m or (m.group(1) == "from") != bool(m.group(3)) or (m.group(4) and _units(m.group(4)) is None):
+            out.append(f"{t}: not a ruling (vis.py STYLE 8)")
+            continue
+        bad = sorted(p for p in m.group(2).split("+") if p not in pols)
+        if bad:
+            out.append(f"{t}: no such polity {', '.join(bad)} (sources/polities.yaml)")
+        us = _units(m.group(4)) if m.group(4) else set()
+        past = sorted(u for u in us if u not in LETTERS[:n])
+        if past:
+            out.append(f"{t}: no unit {', '.join(past)} (the entry has {n})")
+        if m.group(1) == "frame" and m.group(4):
+            out.append(f"{t}: a frame takes no units (it is the first unit's)")
+        if m.group(1) == "frame" and not any(c.get("frame") for c in cls):
+            out.append(f"{t}: the first unit opens with no frame to a colon")
+    return out
+
+
 def _problems(series):
     warns = []
     ec = entry_claims(series)
+    for _, e, cs in ec:
+        for msg in ruling_problems(e, cs):
+            warns.append((e["id"], msg))
     n_cl = sum(len(c) for _, _, c in ec)
     none = [(e["id"], c["unit"]) for _, e, cs in ec for c in cs if not c["computed"]]
     if none:

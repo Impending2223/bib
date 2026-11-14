@@ -1,5 +1,10 @@
 patch: 2026-11-14-vis-rulings
 by: the lead, on the owner's rulings of Nov. 13, 2026 (notes/owner-brief.md; vis.py STYLE 8)
+# Audited Nov. 14, 2026 (evening): all 13 ops upheld as written, each read against ./bib show and tested in memory.
+# Powers: the four questioning entries are the only Powers-in-custody entries ruled vis:only:ussr (May 1 is the
+# capture; Aug. 17 the public trial). Martin and Mitchell: the US found them missing July 26 (cal.1960-07-26.intelligence),
+# the flights first on record in Lansdale's memorandum (Aug. 1); Durant 76 not read by the auditor (any day before
+# June 24 gives the same result). Laos: units checked (cal.1962-01.laos has A-C; @C is the Foreign Ministry's aim).
 ops:
   # Powers in Soviet custody: "Set Powers's visibility to the US to his release date. Invisible to the US while
   # held incommunicado." Released Feb. 10, 1962 (cal.1962-02-10.berlin-and-vienna).
@@ -27,3 +32,6 @@ ops:
   - tag: {id: cal.1962-02-03.laos, add: ['vis:only:ussr+pathet-lao'], remove: ['vis:only:ussr']}
   - tag: {id: cal.1962-03-07.laos, add: ['vis:only:ussr+prc+drv+pathet-lao'], remove: ['vis:only:ussr+prc+drv']}
   - tag: {id: cal.1962-09-28.laos, add: ['vis:only:ussr+laos'], remove: ['vis:only:ussr']}
+  # The audit's finding: Souphanouvong the Pathet Lao's from Apr. 8, 1963 (exclusive `until`), so the coalition's
+  # split no longer addressed Laos by his tag; the split is the Royal Lao state's business too.
+  - tag: {id: cal.1963-04-08.laos, add: ['polity:laos']}

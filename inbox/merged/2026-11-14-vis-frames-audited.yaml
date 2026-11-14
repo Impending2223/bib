@@ -1,0 +1,33 @@
+patch: 2026-11-14-vis-frames
+by: reader, frame ruling (notes/briefs/vis-frames.md); audited Nov. 14, 2026 (evening)
+# The audit: 16 ops upheld, 2 corrected (a frame dropped where the first unit's matter is the Soviet report's own
+# assessment, so the frame adds nothing: the brief, rule 1), 4 dropped (a source's secret or an assessment, not a
+# partner's words: the entry stays vis:only:ussr, no frame), 1 added (cal.1960-01-27.cuba, the reader's doubt 3).
+# Every @ letter checked against the units ./bib show prints; every frame rendered byte for byte.
+ops:
+  - tag: {id: cal.1960-02-07.cuba, add: ['vis:frame:ussr']}
+  - tag: {id: cal.1960-02-10.cuba, add: ['vis:frame:ussr', 'vis:only:ussr@D']}
+  - tag: {id: cal.1960-07-31.cuba, add: ['vis:frame:ussr', 'vis:only:ussr+cuba@A']}
+  - tag: {id: cal.1960-10-01.cuba, add: ['vis:only:ussr@B']}
+  - tag: {id: cal.1960-10-12.cuba, add: ['vis:frame:ussr']}
+  - tag: {id: cal.1960-11-08.cuba, add: ['vis:only:ussr@G']}
+  - tag: {id: cal.1961-02-24.cuba, add: ['vis:frame:ussr']}
+  # Dropped: cal.1961-04-08.cuba-bay-of-pigs, cal.1962-02-21.cuba, cal.1962-03-09.intelligence (an unnamed source's
+  # information on the US's acts, not words a partner said: the brief's "a source's secret", ussr, no frame).
+  - tag: {id: cal.1961-05-03.cuba-2, add: ['vis:frame:ussr']}
+  - tag: {id: cal.1961-05-19.berlin-and-vienna, add: ['vis:frame:ussr']}
+  - tag: {id: cal.1961-06-09.cuba, add: ['vis:frame:ussr']}
+  - tag: {id: cal.1961-11-04.cuba-2, add: ['vis:frame:ussr']}
+  - tag: {id: cal.1962-04-27.cuba, add: ['vis:only:ussr@A', 'vis:only:ussr@C']}
+  # Corrected: no frame (unit A, Pliyev's expectation of a strike, is the report's own); B, Castro's order, ussr+cuba.
+  - tag: {id: cal.1962-10-27.soviet-union, add: ['vis:only:ussr+cuba@B']}
+  - tag: {id: cal.1962-10-29.cuba, add: ['vis:frame:ussr', 'vis:only:ussr+cuba'], remove: ['vis:only:ussr']}
+  - tag: {id: cal.1962-10-29.cuba-2, add: ['vis:frame:ussr', 'vis:only:ussr+cuba'], remove: ['vis:only:ussr']}
+  - tag: {id: cal.1962-10-31.intelligence, add: ['vis:frame:ussr', 'vis:only:ussr+us'], remove: ['vis:only:ussr']}
+  # Dropped: cal.1962-11-01.cuba (the Havana station's reading of the mood in the ministries and the forces, no one's
+  # words: ussr, no frame).
+  - tag: {id: cal.1963-02-19.europe-and-the-alliance-jupiters, add: ['vis:frame:ussr', 'vis:only:ussr+turkey'], remove: ['vis:only:ussr']}
+  # Corrected: no frame (units A-B, Semichastny's forecast, are the report's own); C, Segni's words, ussr+italy.
+  - tag: {id: cal.1964-02-11.soviet-union, add: ['vis:only:ussr+italy@C']}
+  # Added: Alekseyev's report of Cuban acts (Soto in control of the labor movement; Castro's removal of Fernández).
+  - tag: {id: cal.1960-01-27.cuba, add: ['vis:frame:ussr', 'vis:only:ussr+cuba'], remove: ['vis:only:ussr']}
