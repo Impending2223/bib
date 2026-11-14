@@ -22,6 +22,7 @@ polities:
   dprk: {name: 'North Korea', tag: 'DPRK'}
   cuba: {name: 'Cuba', tag: 'CUBA'}
   laos: {name: 'Laos', tag: 'LAOS'}
+  pathet-lao: {name: 'Pathet Lao (the Neo Lao Hak Sat)', tag: 'PATHET-LAO', ruling: 'the owner, Nov. 13, 2026: "Date Souphanouvong''s polity" (laos is the Royal Lao state; the Pathet Lao outside it, a polity of its own)'}
   cambodia: {name: 'Cambodia', tag: 'CAMBODIA'}
   uar: {name: 'United Arab Republic (Egypt)', tag: 'UAR'}
   un: {name: 'United Nations', tag: 'UN', org: true}
@@ -2885,7 +2886,10 @@ names:
   sorensen-a-v: {polity: us, basis: 'kjc III.F'}
   sorensen-philip-c: {polity: us, basis: 'kjc III.K'}
   sorensen-theodore-c: {polity: us, basis: 'kja III.B'}
-  souphanouvong: {polity: laos, basis: 'vn III.I: Prince; leader of the Pathet Lao'}
+  souphanouvong:                     # dated (the owner, Nov. 13, 2026: "Date Souphanouvong's polity"); hand
+    - {polity: pathet-lao, until: '1962-06-23', hand: true, basis: 'vn III.I: Prince; leader of the Pathet Lao'}
+    - {polity: laos, from: '1962-06-23', until: '1963-04-08', hand: true, basis: 'Deputy Premier of the coalition (cal.1962-06-23); leaves Vientiane for the Pathet Lao''s zone, the coalition split (cal.1963-04-08.laos)'}
+    - {polity: pathet-lao, from: '1963-04-08', hand: true, basis: 'the Pathet Lao''s zone, from cal.1963-04-08.laos'}
   souvanna-phouma: {polity: laos, basis: 'vn III.I: Prime minister of Laos'}
   spaak-paul-henri: {polity: belgium, basis: 'kja III.J: Foreign Minister of Belgium, 1961–66'}
   sparkman-john: {polity: us, basis: 'kjc III.B'}

@@ -18,6 +18,8 @@ STYLE
     with the spans taken out the line is byte for byte what it was. Where a unit's rendering is not found in order (a
     link or a title that the whole line renders and the unit alone does not), the entry is one span, unmapped, its
     claims' spans merged, the earliest of each date. An entry of one claim is one span. The li takes `data-cl="1"`.
+    A report's frame (vis.py, STYLE 8, `vis:frame:`) is a span of its own ahead of the rest of its unit, the same
+    letter, its own tags and polities; the space after its colon stays outside both.
     The renderer's link count (the reader's home page quotes it) is put back after the units are rendered.
  3. A span's data: data-u, the unit's letter (`all` where the entry is one claim); data-d, the claim's date (the
     entry's, the first day of a loose one); data-r, the reference "at the time", only where it is not the next day (a
@@ -143,8 +145,21 @@ def c_html(series, lst, e, whole, render):
     if not cls:
         return None
     STATS["entries"] += 1
+
+    def piece(text, cl, unit):
+        """A unit's span; a report's frame (vis.py, STYLE 8, `vis:frame:`) a span of its own ahead of the rest."""
+        fr = cl.get("frame")
+        if fr:
+            rf = render(fr["text"])
+            if rf and text.startswith(rf) and text[len(rf):].strip():
+                rest = text[len(rf):]
+                gap = rest[:len(rest) - len(rest.lstrip())]
+                return (span(rf, dict(cl, tags=fr["tags"]), unit, fr["polities"]) + gap
+                        + span(rest[len(gap):], cl, unit, cl.get("polities") or {}))
+        return span(text, cl, unit, cl.get("polities") or {})
+
     if len(cls) == 1:
-        return span(whole, cls[0], cls[0]["unit"], cls[0].get("polities") or {})
+        return piece(whole, cls[0], cls[0]["unit"])
     out, pos = [], 0
     for cl in cls:
         part = render(cl["text"])
@@ -155,7 +170,7 @@ def c_html(series, lst, e, whole, render):
         pos = i + len(part)
     else:
         if not whole[pos:].strip():
-            return "".join(gap + span(part, cl, cl["unit"], cl.get("polities") or {})
+            return "".join(gap + piece(part, cl, cl["unit"])
                            for (gap, part), cl in zip(out, cls)) + whole[pos:]
     STATS["merged"] += 1
     MERGED.append(e["id"])
