@@ -1532,12 +1532,6 @@ entries:
   - id: cal.1964-04-15.civil-rights-bill-2
     when: Apr. 13
     date: '1964-04-13'
-    time_range:
-      - 1964-04-13T14:00Z
-      - 1964-04-13T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
     thread: civil-rights-bill
     c: 'Humphrey: he has talked Dirksen down from forty amendments to fifteen; a cloture vote by May 15 or 20.'
     n: '[[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 162 (at the morning''s bipartisan meeting; "after the first week in May"); [[w.risen-bill-of-the-century]], 203 (Humphrey at the daily strategy sessions in his office: a cloture vote by mid-May, "a barrage of propaganda"; Dirksen''s list cut to fifteen, Apr. 11; not the day); [[w.purdum-idea-whose-time-has-2014]], 258 (the bipartisan floor leaders'' meeting on the morning of Monday, Apr. 13: Rauh asks Horn about Dirksen''s amendments, Horn: "Keep smiling"; Humphrey, arriving late, says he has talked Dirksen down from some seventy amendments to about fifteen; Mitchell: if they prevail "a disaster," a "Negro revolution"; Humphrey: "We don''t plan on letting them pass"; not the cloture date; the note cites Horn''s log, 87). Whalen, 162, and Purdum, 258, date it Monday, Apr. 13 (Horn''s log, Apr. 13, 86–89, cited by Whalen, 262). Check: Purdum, 258, gives seventy amendments, not forty. Check: the entry stood at Apr. 15 by Bernstein, 69. See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Dirksen.'
@@ -1550,6 +1544,12 @@ entries:
         - 'w.risen-bill-of-the-century 203: ?'
         - 'w.purdum-idea-whose-time-has-2014 258: ?'
     tags: [name:humphrey-hubert-h, name:dirksen-everett]
+    time_range:
+      - 1964-04-13T14:00Z
+      - 1964-04-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
     variants:
       - unit: A
         witness: w.purdum-idea-whose-time-has-2014
@@ -2063,6 +2063,13 @@ entries:
         - 'w.purdum-idea-whose-time-has-2014 259: all'
       c: ed93b7dc
     tags: [name:humphrey-hubert-h]
+  - id: cal.1964-04-17.soviet-union-leadership
+    when: Apr. 17
+    date: '1964-04-17'
+    thread: soviet-union-leadership
+    c: Khrushchev's seventieth birthday. The party elite go to toast him in the Lenin Hills. Brezhnev soon urges the comrades to leave, though Khrushchev wants the celebration to go on.
+    n: '[[w.schattenberg-brezhnev]], 168 (by Shelest''s account; Brezhnev''s reason, not to wear Khrushchev out). To check: P. E. Shelest, *Da ne sudimy budete* (1995), 194 (cited by [[w.schattenberg-brezhnev]], 168 n.434). Made public: 2021 at the latest. See [[cal.1964-04-17.soviet-union]]. Names: Khrushchev, Brezhnev, Shelest.'
+    tags: [name:brezhnev-leonid, name:khrushchev-nikita-s, name:shelest-pyotr-y, polity:ussr, vis:only:ussr]
   - id: cal.1964-04-18.defense
     when: Apr. 18
     date: '1964-04-18'
@@ -4083,11 +4090,12 @@ entries:
     thread: soviet-union
     also: [intelligence]
     c: 'Brezhnev, with Podgorny and Shelepin in the plot to remove Khrushchev, asks Shelepin and Semichastny of the KGB to consider killing him, an air accident on a trip abroad, perhaps the Scandinavian one. Dropped: Khrushchev would lose a vote in the Central Committee.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 533–34. Check: the month; the work gives "sometime in the spring of 1964" and no source. Names: Brezhnev, Podgorny, Shelepin, Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 533–34; [[w.schattenberg-brezhnev]], 168–69 (by Semichastny: Brezhnev asks him whether the KGB could arrest Khrushchev on his return from Sweden and "physically liquidate" him; refused; Shelest: an arrest mooted). Check: the month; the work gives "sometime in the spring of 1964" and no source. Check: [[w.schattenberg-brezhnev]], 168–69 (169 nn.436–39), has Brezhnev put the question to Semichastny alone, about arrest and killing on the return from Sweden in June 1964; the entry has Shelepin and Semichastny asked in the spring about an air accident on a trip abroad. Names: Brezhnev, Podgorny, Shelepin, Khrushchev.'
     src:
       c: d58b6e09
       rows:
         - 'w.fursenko-khrushchevs-cold-war 533–34: all'
+        - 'w.schattenberg-brezhnev 168–69: A'
     tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:shelepin-aleksandr-n, name:khrushchev-nikita-s]
   - id: cal.1964-04.program
     when: Apr., early
