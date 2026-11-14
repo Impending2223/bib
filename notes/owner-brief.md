@@ -612,3 +612,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Sorry, that should be immediate." (Nov. 13, 3:18 p.m.: the owner's correction to the request above, which is therefore Immediate; the ROC/ROK/Japan list is being refined now, not at 5:04 p.m.)
 
 "Isn't the Korean junta's daily log available here? https://www.pa.go.kr/portal/online_contents/instant_record/instantRecordDetail.do?seq=10" (Nov. 13, evening. Yes: the ten volumes of the log, May 16, 1961-Nov. 25, 1963, as free scans; notes/proposals/east-asia-reading.md corrected.)
+
+"Cards should carry, first, the standard Romanization, including macrons and in accented Pinyin where appropriate, second, the CJK, and third, a translation of the title, in square brackets." (Nov. 13, evening.)
