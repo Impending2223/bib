@@ -1,0 +1,38 @@
+import os, sys
+sys.path.insert(0, os.path.dirname(__file__))
+from y1961 import W, MP, add, cite, var, chk
+
+OPS = [
+ add('cal.1962-06.vietnam-hanoi', 'June', '1962-06',
+     "The Central Military Commission to the South's armed forces: the central task for now to step up military action with the political struggle, keep and grow the forces, break the strategic hamlets. COSVN sends its members down to the provinces.",
+     f"{W}, III, 176. {MP}",
+     ['vis:only:drv'], also=['vietnam']),
+ add('cal.1962-08.vietnam-hanoi', 'Aug.', '1962-08',
+     "COSVN's resolution on breaking the strategic hamlets: a rising of the masses inside them, the Party built among the people there, the forces inside first with those outside; the control apparatus broken with the fences, against their rebuilding, from loosening to the posts' destruction and the villages' full liberation.",
+     f"{W}, III, 195. {MP}",
+     ['vis:only:drv'], also=['vietnam']),
+ add('cal.1962-08-03.vietnam-hanoi', 'Aug. 3', '1962-08-03',
+     "The Soviet Afro-Asian Solidarity Committee and the National Liberation Front sign a joint statement condemning the American aggression and backing the South's struggle.",
+     f"{W}, III, 97.",
+     [], also=['soviet-union']),
+ add('cal.1962-09-06.vietnam-hanoi', 'Sept. 6', '1962-09-06',
+     "Gen. Võ Nguyên Giáp, commander in chief, cables Military Region 5 and Nam Bộ, after the fight at Nà Niêu, western Quảng Ngãi, in August (twelve helicopters by its count): the lessons to be spread to the local forces, to defeat the enemy's helicopter and armored tactics.",
+     f"{W}, III, 180–82 (cable no. 68/6, the Defense Ministry to Military Region 5 and Nam Bộ, Sept. 6, 1962, 182 n.1). {MP} Names: Võ Nguyên Giáp.",
+     ['vis:only:drv', 'name:vo-nguyen-giap'], also=['vietnam']),
+ add('cal.1962-10-11.vietnam-hanoi-2', 'Oct. 11–16', '1962-10-11',
+     "The first arms ship by sea for the South, the wooden *Phương Đông 1*, thirty tons, under Lê Văn Một and Bông Văn Dĩa, leaves Đồ Sơn, Hải Phòng, Oct. 11; it lands at Vàm Lũng, Cà Mau, Oct. 16.",
+     f"{W}, III, 204–05. {MP} Names: Lê Văn Một, Bông Văn Dĩa.",
+     ['vis:only:drv'], also=['vietnam']),
+ add('cal.1962-11.vietnam-hanoi', 'Nov.', '1962-11',
+     "COSVN and the Region's Military Command hold the first guerrilla conference of all Nam Bộ, at the Dương Minh Châu base: the districts and villages strong in guerrilla war report; Út Tịch and Tạ Thị Kiều among those praised.",
+     f"{W}, III, 199. {MP} Names: Út Tịch, Tạ Thị Kiều.",
+     ['vis:only:drv'], also=['vietnam']),
+ cite('cal.1962-03-03.vietnam-2', f"{W}, III, 188 (the congress, Feb. 16–Mar. 3: Nguyễn Hữu Thọ chairman; Võ Chí Công, for the People's Revolutionary Party, vice chairman)", 'A'),
+ cite('cal.1962-04-16.vietnam-hanoi', f"{W}, III, 72 (the seventh plenum, on industry)", 'A'),
+ var('cal.1962-04-16.vietnam-hanoi', 'A', 'the seventh plenum opened in mid-June 1962 (giữa tháng 6-1962)', 'III, 72'),
+ cite('cal.1962-04-26.vietnam-hanoi', f"{W}, III, 95 (the campaign opened Apr. 26, for four years, 1962–65, in industry)", 'A'),
+ cite('cal.1962-05-06.laos', f"{W}, III, 132–33 (early April, at the Lao party's request, seven Vietnamese infantry battalions and some support units sent; from late April the joint attack)", 'A'),
+ var('cal.1962-05-06.laos', 'A', 'May 8: the Lao–Vietnamese forces put 16,000 out of action and take Muong Sing and Nam Tha, 800 square kilometers and 76,000 people', 'III, 133'),
+ {'also': {'id': 'cal.1962-05-06.laos', 'add': ['vietnam-hanoi']}},
+ cite('cal.1962-12-06.vietnam', f"{W}, III, 212–13, 243 (the Politburo in session Dec. 6–10: the American strategy turned, war on a fairly large scale; the resolution of Dec. 6 on the South's tasks)", 'A'),
+]
