@@ -50,7 +50,13 @@ STYLE
     office or acted as an agent) adds no polity, by agency or address; the territory decides (the entry's place, state,
     city and province tags), and the thread's polities where the entry has none. A ruling party of a party-state counts
     as its government. In a `vis:only:` ruling the same: the visitor's state is named only where the talks were on its
-    territory.
+    territory. Legislators (the owner, Nov. 14, 2026): "members of government" where (a) their party is in government
+    (the ruling party of a socialist state; the PKI under Sukarno: `aidit-dipa-nusantara` dated, in government
+    July 5, 1959–Oct. 1, 1965) or (b) it is not an anti-system or revolutionary party (Communist parties not in
+    government: the PCF, PCI, CPGB, CPUSA, JCP) nor a never-in-government party then or later proscribed; so the
+    Democrats and Republicans, Conservatives and Labour, the UNR/UDR, SFIO, Radicals and MRP, the CDU/CSU and SPD,
+    the DC, PSI, PLI and PSDI, the Japan Socialist Party and the LDP are; the PSIUP (later merged into the PCI) is not;
+    the MSI awaits a ruling. A peer sits in the legislature (Montgomery).
  5. Address (§4), in order: the tags the unit itself names (a name tag whose surname, or a place whose name, stands in
     the unit's text: the maps do not yet tie tags to units, so the text ties them); else the entry's name, place,
     state, city, province and `polity:` tags; else the thread's polities (sources/polities.yaml, a subthread its
