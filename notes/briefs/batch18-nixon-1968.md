@@ -35,18 +35,19 @@ The method is the reader's brief (`notes/briefs/reader.md`; CLAUDE.md is the cor
 19. Goudsouzian, *The Men and the Moment* (2019). `1pRUc3i4jSXOenwPMH7P0YB9fi1WrjlW2`.
 20. Nichter, *The Year That Broke Politics* (2023). `1ZEslp2heZdrCCOXT-tkfr98X2QKu-JWy`.
 21. Hendershot, *When the News Broke: Chicago 1968* (2022). `14ZyaQfDJmywKoQJg3lzZjbzzFKWJhXw2`.
-Skipped for now (the owner, Nov. 14: "Skip McCarthy, the McCarthy people, Boomhower and Chafe on Lowenstein for now."): Stavis, Hoeh, Larner and Herzog on the McCarthy campaign; McCarthy, *The Year of the People*; Eisele, *Almost to the Presidency*; Boomhower, *Robert F. Kennedy and the 1968 Indiana Primary*; Chafe, *Never Stop Running*. Their Drive ids are in the inventory and the Drive list.
+22. Eisele, *Almost to the Presidency: A Biography of Two American Politicians* (1972), Humphrey and McCarthy, 1960 to the inauguration (the owner, Nov. 14: "bring back Eisele. Lays the groundwork for later McCarthy and Humphrey runs at a lower cost than the memoir material."). `1y8D_hc4FctURtNTfvFI5_I_GVwzLkPcj` (9).
+Skipped for now (the owner, Nov. 14: "Skip McCarthy, the McCarthy people, Boomhower and Chafe on Lowenstein for now."): Stavis, Hoeh, Larner and Herzog on the McCarthy campaign; McCarthy, *The Year of the People*; Boomhower, *Robert F. Kennedy and the 1968 Indiana Primary*; Chafe, *Never Stop Running*. Their Drive ids are in the inventory and the Drive list.
 
 **California**
-22. Rarick, *California Rising: The Life and Times of Pat Brown* (2005): 1960 to Jan. 20, 1969 (the governorship, the 1962 and 1966 races). `1rrtfM95s-7bIHlTbH6WqX4-sRQkKFMni` (8).
-23. HoSang, *Racial Propositions* (2010): the 1960s chapters (Proposition 14, 1964). `1Q_uFIybQ7mZa1e4IT-7VuDn4jIPclwt2`.
+23. Rarick, *California Rising: The Life and Times of Pat Brown* (2005): 1960 to Jan. 20, 1969 (the governorship, the 1962 and 1966 races). `1rrtfM95s-7bIHlTbH6WqX4-sRQkKFMni` (8).
+24. HoSang, *Racial Propositions* (2010): the 1960s chapters (Proposition 14, 1964). `1Q_uFIybQ7mZa1e4IT-7VuDn4jIPclwt2`.
 
 **Agnew**
-24. Witcover, *White Knight: The Rise of Spiro Agnew* (1972) (`1H_BEe0iMMDdTb_Svmpb7UWLoYMedvBl2`; `w.witcover-white-knight`, 10) and Agnew, *Go Quietly ... or Else* (1980), its chapters on 1966 to the inauguration (`1ErgMYVDsaGwOUTMHh1QYzU-5ZaujfF3s`; `w.agnew-go-quietly-or-else`, 0).
+25. Witcover, *White Knight: The Rise of Spiro Agnew* (1972) (`1H_BEe0iMMDdTb_Svmpb7UWLoYMedvBl2`; `w.witcover-white-knight`, 10) and Agnew, *Go Quietly ... or Else* (1980), its chapters on 1966 to the inauguration (`1ErgMYVDsaGwOUTMHh1QYzU-5ZaujfF3s`; `w.agnew-go-quietly-or-else`, 0).
 
 **The record: *Freedom of Communications* (S. Rep. No. 87-994, 1961)**
-25. Pt. 2, Nixon's speeches, remarks, press conferences and statements, Aug. 1–Nov. 7, 1960 (the Drive's "Freedom of Communications - Freedom of Communications", `12DPt8MZA56iB679KBfjbs0FWQ-JXX9IS`; confirm the part from its title page): two readers, Aug.–Sept. and Oct.–Nov. A primary record: each speech or statement its day's entry or a primary cite on the entry held (the `primary` op; the form of pt. 1, card `w.communications-freedom-of-communications-part`, 439 cites).
-26. Pt. 3, the joint appearances (the debates; `1pp7JZ5UFtnED6rdFmPMLdfIV5OzCzrnH`), and pt. 4 (`14KvfZ7IHKCcJSyeCruqRpTL68xRRslnk`; say what it holds).
+26. Pt. 2, Nixon's speeches, remarks, press conferences and statements, Aug. 1–Nov. 7, 1960 (the Drive's "Freedom of Communications - Freedom of Communications", `12DPt8MZA56iB679KBfjbs0FWQ-JXX9IS`; confirm the part from its title page): two readers, Aug.–Sept. and Oct.–Nov. A primary record: each speech or statement its day's entry or a primary cite on the entry held (the `primary` op; the form of pt. 1, card `w.communications-freedom-of-communications-part`, 439 cites).
+27. Pt. 3, the joint appearances (the debates; `1pp7JZ5UFtnED6rdFmPMLdfIV5OzCzrnH`), and pt. 4 (`14KvfZ7IHKCcJSyeCruqRpTL68xRRslnk`; say what it holds).
 
 ## Wanted, not held (for the owner to procure; see the inventory)
 Mazo and Hess, *Nixon: A Political Portrait* (1968); Parmet, *Richard Nixon and His America* (1990); Rosen, *The Strong Man* (2008); Stans, *One of the Presidents' Men* (1995); Phillips, *The Emerging Republican Majority* (1969); Dent, *The Prodigal South Returns to Power* (1978); Ehrlichman, *Witness to Power* (1982); Hughes, *Chasing Shadows* (2014); Witcover, *Very Strange Bedfellows* (2007); Coffey, *Spiro Agnew and the Rise of the Republican Right* (2015); Lippman, *Spiro Agnew's America* (1972); Nixon's articles and column, 1961–68, the 1968 speech collections, and the Nixon Library's Wilderness Years Collection.
