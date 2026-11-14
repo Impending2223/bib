@@ -626,3 +626,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Please add the held-back material. The calendar extends as far as I want it to extend." (Nov. 14: the sections Feb.-Dec. 1969 and Nov. 1970 added, January 1969 to the 31st, the later sections renumbered; the held 1969 and 1970 material to be added and audited.)
 
 [An image of the Drive listing: Lettres, notes et carnets tomes 8-13 and two PDFs (June 1958-Dec. 1963); Peyrefitte, C'était de Gaulle T1-3 (epub) and T1 (PDF); Discours et messages [4], Pour l'effort.] "Do you not see these? Start the China wave first." (Nov. 14: the search had stopped at 11 p.m.; the French holdings noted; batch 15, the PRC, begun.)
+
+"What have we done for the DRV? Have we read their history of the American War?" (Nov. 14: the Party's documents 1960-64 read; Victory in Vietnam read; the nine-volume official history held, never read.) "Please do start the DRV as the Soviet audits finish." (Batch 16 brief written; readers to start as agent slots free.)
