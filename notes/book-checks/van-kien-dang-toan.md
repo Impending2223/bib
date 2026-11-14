@@ -641,6 +641,10 @@ Every document of the volume in its order, with its first page and the ruling (V
 
 The volume done, to the last page of its contents (XXVIII, 603): 55 documents, 42 of the main part and 2 of the appendix entered (44), 5 (the plenum's four and Hồ's letter) cited on entries held, 6 commemorations passed over. Stopped cleanly, the patch checked to 0 errors. No witnesses file.
 
+### Audit (batch 16, 1967)
+
+Auditor: Claude (Opus), Nov. 14, 2026. Corrected patch: `inbox/2026-11-14-b16-vkd-1967-audited.yaml` (patch name the reader's, `2026-11-14-b16-vkd-1967`, so the ledger's claims hold; 53 ops; `./bib patch-check` 0 errors, 20 warnings: the reader's 19 same-day flags and "sets only n" on the Jan. 28 edit). Vol. XXVIII downloaded afresh (305 PDF pages, two-up, rotated; book = 2 × PDF − 7 left, − 6 right, confirmed at the folios), split half-page by half-page with the converter's TCVN3 table; colophon CTQG-2003, June 2003: "Made public: 2003." right. Read: every add's heading, number, date, issuer and signer (all right), and in every month the claims of `c` against the text; the cable of Jan. 23, the plenum's four documents and Hồ Chí Minh's letter in full. Adds: 30 upheld, 14 fixed, 0 dropped, none a double of a held entry (the 1967 `vietnam-hanoi`, `vietnam`, `vietnam-diplomacy`, `vietnam-operations`, `vietnam-tet` entries searched). Errors: 04-13 (the team reports to the Politburo, not the Secretariat, and is also the National Assembly Standing Committee's, 259); 06-30 (unemployment "basically" ended, 343); 02-22 ("over" 20,000); 01-23 (the DRV's representative; illusions fought abroad and at home); 07-05 (its title the editors', 375 n.); 1967-03 (the tally is for "the past year", 561, and "diệt" is destroyed); signers 04-10 and 10-06 ("T/l Ban Bí thư", the deputy head of the office); 01-19 `polity:us` off (`c` names no Americans). Decisions left out, supplied: 04-10 (pilots, then report), 05-10 (to carry out the Government's no. 59-CP of the same day, 298), 07-21, 08-07 (385–86), 12-22 (the control committees' staffs, 480). Rulings asked for: the Thirteenth Plenum is a day entry, `cal.1967-01.vietnam` edited to `when: Jan. 23–27`, `date: '1967-01-23'` (88 n.; the resolutions Jan. 27; Trinh's outline's note Jan. 23–26 kept in the Check), tagged `polity:drv`, `vis:only:drv`, "Made public: 2003."; its one cite split into four (one pinpoint, one parenthetical each). Nguyen's "spontaneous uprising ... in the shortest possible time" is not in the volume: no. 154 has "tổng công kích, tổng khởi nghĩa" (general offensive, general uprising, 147) and "thắng lợi quyết định trong thời gian tương đối ngắn" (146); no. 155 has the aim (174) and no uprising; "tự phát" appears nowhere in the volume. Resolution no. 161: June 30 right; circular no. 207's "30-7-1967" (468) a slip, the Government's no. 103 of July 6 "following" it (said in the Nov. 27 note). The notices: numbered in the order of issue (Oct. 20, Nov. 7, 11, 16), not of the meetings; each entered on its meeting's days, right. Việt Bắc (Apr. 13): kept, a central act (a Secretariat directive forming a central team, reporting to the Politburo). The Jan. 28 cite turned into a See (the cable plans the interview; it is no source for it); Hồ's letter (Feb. 15) is printed from his *Toàn tập* (2002), XII, 230–32 (183), not the archive: said in the cite, units `?`; the reader's Check there dropped (no disagreement). Persons with no name entry: as the reader listed (Phạm Hùng, Lê Văn Lương, Tố Hữu, Hoàng Anh, Nguyễn Văn Trân, Lê Thanh Nghị; none in `sources/frus-names`). PDF and texts deleted.
+
 ## 1965–66 (batch 16, the DRV's records; vols. 26 and 27)
 
 Reader: batch 16, reader 1, Nov. 14, 2026 (a Saturday). Patch: `inbox/2026-11-14-b16-vkd-1965-66.yaml` (patch name `2026-11-14-b16-vkd-1965-66`), 117 ops: 105 new entries (vol. 26, 1965: 54; vol. 27, 1966: 51), 8 cites and 4 checks on the 6 entries the calendar held (the two plenums\' two cites each), no edits, no witnesses file, no by-work edges. Cited as in batch 12: `[[w.van-kien-dang-toan]], XXVI, 20–25`, the volume in Roman, then the book's page; the note opens with the document's own heading in italics and its signer; "Made public: 2003." on every record kept in the Party archive ("Lưu tại Kho Lưu trữ Trung ương Đảng"), none on Hồ Chí Minh's public appeal of July 20, 1965 or on the greetings to foreign congresses (those five: no ruling, a Check on whether *Nhân Dân* printed them).
@@ -808,3 +812,206 @@ Every document in the two volumes by its heading, in the volume's order, with it
 ### Where reader 1 stopped
 
 Both volumes done to their last page in the PDFs (XXVI, 710, mid-document; XXVII, 451): 126 documents by the editors' count, 105 entered, 8 cited on 6 entries held, 10 commemorations passed over, the three province mergers one entry. No pages skipped; the PDFs deleted.
+
+
+## 1968–69 (batch 16, the DRV's records; vols. 29 and 30)
+
+Reader: batch 16, reader 3, Nov. 14, 2026 (a Saturday). Patch: `inbox/2026-11-14-b16-vkd-1968-69.yaml` (patch name `2026-11-14-b16-vkd-1968-69`), 129 ops: 117 new entries (claimed in the ledger; 69 from vol. 29, 48 from vol. 30, one of them dated May 1968), 6 cites, 2 variants and 4 checks on 6 entries the calendar held. No edits, no witnesses file, no by-work edges. `./bib patch-check`: 0 errors, 33 warnings (the same-day "one event?" and "a duplicate of" flags of the 11 pairs below).
+
+### The copies
+
+- Vol. 29 (1968): Drive `14do8ZYd_BKhWC0TvYyrq2QHVptd8cCJh`, 387 PDF pages, letter, rotated 90, two-up, PDF 1.4 (GPL Ghostscript 8.15, made Mar. 7, 2019). Title page "Hà Nội - 2004"; introduction February 2004 ("76 tài liệu Văn kiện chính và 6 tài liệu phụ lục"). No contents and no colophon in the copy; the last two of the six appendix documents (PDF 377–87) carry the running head "lời giới thiệu tập 29 ... VII" and no folios. Every one of the 82 documents is in the copy (counted against the introduction).
+- Vol. 30 (1969): Drive `117SWi30FzokIhs7UzELXYyPlyYXCGMbj`, 267 PDF pages, letter, rotated 90, two-up, PDF 1.4 (Ghostscript 8.15). Title page "Hà Nội - 2004" (at PDF 136, before the testament as published); introduction June 2004 ("58 tài liệu ... 49 ... văn kiện chính, 9 ... phụ lục"). No contents, no colophon; the appendix (PDF 160–267) prints only "V"/"VI" for folios. I count 47 headings in the main part: the funeral papers attached to directive no. 172 (slogans, rules of mourning, flags and armbands, the two programs) are one row below.
+- TCVN3 text layers, converted half-page by half-page (`pdftotext -x -W`, then the batch-12 FIX table and iconv from TCVN5712-1), each half one book page. Both PDFs deleted when done.
+
+### The folios are not the book's pages (for the merger and the owner)
+
+Every cite gives the folio the copy prints, as the brief asks; but in these two copies the folios are demonstrably not the printed book's pages:
+
+- Vol. 29's folios run on, inside continuous text, from 223 to 387, 398 to 497, 616 to 733, 776 to 863, and between documents from 1026 to 1167 and 1212 to 1267; they repeat 40–41 and 152–161 (the Planning Commission's report ends at 161, PDF 85; four documents of Jan. 12–16 then run 153–61, PDF 86–90). The left halves above 999 print only three digits ("101", "116"): the fourth is read from the facing page.
+- Fixed points from outside the copy: the editors' own note on the Politburo's cable of Oct. 20 to Region V puts the cable of Oct. 10 "ở trang 468" (copy folio 940); Nguyen, *Hanoi's War*, cites the cables of Oct. 10 and 20 as 29:468–74 and 484–87 (copy 940–48, 960–63); vol. 30's note on circular no. 236 cites no. 220 at 29:324 (copy 587). Counting the copy's halves in order (book page = 2 × PDF − 7 on the right) gives 338, 489 and 509 for those three: so the copy is not a facsimile of the print either, its halves running some 4 percent ahead.
+- Vol. 30: the folios run 1–265 in step with the halves (book page = 2 × PDF − 5 on the right, − 6 on the left), then jump to 313 at the testament as published (PDF 136); the editors' note in the appendix (COSVN's ninth conference) places its own earlier note "ở trang 365", which falls at PDF 183R, half 361: the folios after 265 run some 45 ahead of the print, and those up to 265 may be true.
+- Batch 12 reported vol. 24 "wanting" pp. 777–862 at the same jump, 776 to 863: very likely the same artifact, not missing pages (the text should be compared across PDF 388R/389L).
+- What I did: cited the folios as printed, ranges split at a jump ("214–23, 387"; "615–16, 733–38"; "775–76, 863–913"), the appendix of vol. 30 cited as "appendix (the copy's pages unnumbered)", and a Check on the two held entries where Nguyen's pages differ. A re-paging of these cites, if wanted, needs a printed copy.
+
+### The rules used
+
+The batch-16 brief and batch 12's: one entry a document of the Politburo, the Secretariat, the Central Committee and its plenums, the cables and directives to the South and the zones, COSVN's and Region V's resolutions (the appendices); routine circulars kept; a meeting a notice records entered on the meeting's day or days (two sittings three weeks apart, Nov. 12 and Dec. 2, 1968, on the second); commemorations passed over (R18). The Fourteenth Plenum held (`cal.1968-01.vietnam-tet`): its three documents cited there, not entered again. The Fifteenth and Sixteenth Plenums not held: entered, the Sixteenth as one entry of its three documents (May 8–10, 1969, by the editors' note at XXX, 76). The Politburo's resolution no. 185 entered on its session's days, Oct. 10–13, 1968, its date Dec. 26 in `c`. Hồ Chí Minh's appeals of July 20 and Nov. 3, 1968 cited on the entries held. Visibility: `vis:only:drv` on every Party record kept in the archive, `vis:only:drv+ussr` on the letter of July 16 and the cable of Dec. 1, 1968 to the Soviet leaders, `vis:only:drv+dprk` on the letter to Kim Il Sung; no ruling on what was published at the time (the communiqué and call on Hồ's death, the eulogy). The greetings of 1969 to foreign congresses, by the owner's territorial ruling of Nov. 14 (relayed by the coordinator): to the Danish and British parties, out of power and on territory outside the five named, `vis:only:drv` and no `polity:` for the country; to the Romanian party, a ruling party, `vis:only:drv+romania`; each with a Check whether *Nhân Dân* printed it (published, the ruling falls). "Made public: 2004." on the archive records (both volumes "Hà Nội - 2004"); none on the published ones; "Made public: 1989, the day" on Hồ's death of Sept. 2. `polity:` tags where `c` names the country or its leader outright. The document's own heading in italics opens each note, with its signer.
+
+### Doubtful, for the merger
+
+- Same-day pairs, each a separate document (patch-check "one event?"/"a duplicate of"; at the merge `./bib resolve ID --take keep`): Jan. 16, 1968 (resolutions 173 and 174); Apr. 3 (the Secretariat's and the Politburo's cables); May 8 (the Politburo on a coalition government; the Secretariat's cable no. 117); Dec. 12 (circular no. 224; the Politburo's cable to Phạm Hùng); Jan. 6, 1969 (the Secretariat's morning and afternoon meetings, youth and women); Jan. 17 (circular no. 226; the meeting on the three Northwest provinces); Apr. 1969 (Region V's two resolutions); May 10 (Hồ's testament; directive no. 170); June 18 (circulars 237, 238); Sept. 4 (the public communiqué; the Politburo's secret directive no. 172); Oct. 24 (the Secretariat's cable no. 00; its meeting of Oct. 24–25 on the cities). Also beside entries the calendar held on other threads: `cal.1968-04-03.vietnam-hanoi-2` (beside `cal.1968-04-03.vietnam`, Hanoi's public statement), `cal.1968-04-08.vietnam-hanoi` (beside `cal.1968-04-08.vietnam`, the site), `cal.1968-10-20.vietnam-hanoi` (beside `cal.1968-10-20.vietnam-paris`: the same day's cable to COSVN is cited there; this is the separate cable no. 00/1968 to Region V and Trị–Thiên, which the editors say differs from that of Oct. 10 in date, addressee and content).
+- `cal.1968-12.vietnam-hanoi`: the Secretariat's cable to COSVN dated "Tháng 12 năm 1968" reads as of the first weeks of Tết (the cities' risings, Huế, Route 9); a Check.
+- `cal.1969-07.vietnam-hanoi`: COSVN's ninth conference, "early July" by its resolution, "August" by COSVN's resolution of Oct. 5; it extends to June 1970 the "Hồ Chí Minh class" recruiting drive "just past," which may put the text after September; a Check.
+- `cal.1969-08-09.vietnam-hanoi`: the resolution's number prints "1733-NQ/TW" among nos. 187–194 of 1969; a Check.
+- `cal.1969-09-02.vietnam-hanoi`: Hồ's death at 9:47 a.m. Sept. 2, from the editors' note (XXX, 228–29 n.) quoting the Politburo's notice no. 151-TB/TW of Aug. 19, 1989; the documents of the day all say Sept. 3. The merger may prefer to source the day elsewhere as well.
+- `cal.1969-05-10.vietnam-hanoi`: the testament entered on the day Hồ dated its last part; the 1965 draft (May 15, 1965, witnessed by Lê Duẩn) is named in `c`, not entered (vol. 26's span). That the text published in 1969 leaves out the cremation and the ashes (and the farm-tax remission) I read in this volume's two printings (XXX, 260–64 against 313–20), not in a source that says so.
+- `cal.1968-01.vietnam-tet` (held): the volume names the plenum's cities "X, Y, Z" (a variant on B); the held `c` and its title for the resolution are the Politburo's December resolution by *Victory in Vietnam*; a Check states what the volume prints.
+- `cal.1968-10-10.vietnam-paris` (held): the volume bears unit A; on B a variant (the conditions are that the Americans discuss the conference with the Front and that Saigon change its policy); C, the longer interval, is not in the cable. `cal.1968-10-20.vietnam-paris`: A in part (not Thọ's report or the delegation's seeming in no hurry) and B. The "Made public: ... Check the year" in both: the year is 2004.
+- `cal.1968-02.vietnam` (held, the Alliance at Ban Mê Thuột by MACV): a Check with the Politburo's cables of Jan. 21 and Feb. 8 (the Alliance ordered formed in Saigon, its manifesto broadcast Feb. 7).
+- `cal.1969-01-17.vietnam-hanoi-2` (the Secretariat on Sơn La, Nghĩa Lộ and Lai Châu) and `cal.1968-07-04.vietnam-hanoi`, `cal.1968-01-12.vietnam-hanoi` (cables to Vĩnh Linh): central acts on localities, entered; the merger may pass them over under R18.
+- The 1968 Hoàng Văn Thái of the forward General Department of Rear Services (`cal.1968-07-03.vietnam-hanoi`) is not tagged `name:hoang-van-thai`: whether he is the general of `vn.who.hoang-van-thai` the page does not say (as batch 12 found for 1963).
+- Not read through (heading, opening, operative heads and close only): the Planning Commission's report (XXIX, 69–161), Lê Duẩn's speeches at the Fourteenth and Sixteenth Plenums, resolution no. 179 on grain, resolution no. 181 on the young, no. 185 on the economy, the long COSVN and Region V resolutions, the outline on diplomacy of May 1969 beyond its heads. `c` says what the headings and operative paragraphs bear and no more.
+
+### Persons named with no name entry (named in `c` and "Names:", not tagged)
+
+Phạm Hùng, Võ Chí Công, Trần Văn Quang, Lê Văn Lương, Tố Hữu, Hoàng Anh, Nguyễn Văn Trân, Nguyễn Côn, Lê Thanh Nghị, Trần Hữu Dực, Nguyễn Văn Kỉnh, Lê Toàn Thư, Phạm Hồng, Lê Văn Hảo, Trịnh Đình Thảo, Phan Trọng Tuệ, Lê Quang Hòa, Lê Văn Tri, Hoàng Văn Thái (above), Nguyễn Tường Lân, Hoàng Sâm, Nguyễn Quyết, Madeleine Riffaud, Joris Ivens, Kenji Miyamoto, Bình Phương, Nguyễn Thương, Đỗ Mười, Trần Danh Tuyên, Nguyễn Hữu Mai, Đinh Đức Thiện, Ngô Minh Loan, Nguyễn Thanh Bình, Trần Ngọc Liễng. Signers named only in the notes: Trần Xuân Bách, Phạm Chung, Minh Châu. Tagged: Lê Duẩn, Hồ Chí Minh, Lê Đức Thọ, Xuân Thủy, Nguyễn Duy Trinh, Trường Chinh, Phạm Văn Đồng, Tôn Đức Thắng, Trần Bửu Kiếm, Johnson, Nixon, Humphrey, Thiệu, Kỳ, Khiêm, Brezhnev, Kosygin, Kim Il Sung, Sihanouk, Burchett.
+
+### The documents, one by one
+
+Every document of the two volumes in the volume's order, with the copy's folio where it opens and the ruling (Vietnamese headings abridged to the number, date and subject; BCT the Politburo, BBT the Secretariat, BCH the Central Committee, TƯC COSVN).
+
+| Page | Document | Ruling |
+|---|---|---|
+| XXIX, 1 | Bài phát biểu của đồng chí Lê Duẩn tại Hội nghị lần thứ 14, tháng 1-1968 | cited on cal.1968-01.vietnam-tet (held), with a variant and a Check |
+| XXIX, 41 | Nghị quyết Hội nghị lần thứ 14, tháng 1-1968, tổng công kích và tổng khởi nghĩa | cited on cal.1968-01.vietnam-tet |
+| XXIX, 69 | Báo cáo của Uỷ ban Kế hoạch nhà nước tại Hội nghị lần thứ 14 (kinh tế 1968) | cited on cal.1968-01.vietnam-tet |
+| XXIX, 153 | Điện mật BBT số 06, 12-1-1968, gửi Đảng uỷ Vĩnh Linh | entered: cal.1968-01-12.vietnam-hanoi |
+| XXIX, 156 | Điện mật BBT số 09, 15-1-1968, thăm hỏi dịp Tết | entered: cal.1968-01-15.vietnam-hanoi |
+| XXIX, 158 | Nghị quyết BCT 173-NQ/TW, 16-1-1968, Ban công tác Quốc tế | entered: cal.1968-01-16.vietnam-hanoi |
+| XXIX, 160 | Nghị quyết BBT 174-NQ/TW, 16-1-1968, giải thể Ban Quốc tế Nhân dân | entered: cal.1968-01-16.vietnam-hanoi-2 |
+| XXIX, 162 | Điện mật BCT, 21-1-1968, gửi Bảy Cường, Năm Công, Bảy Tiến (Mặt trận thứ hai) | entered: cal.1968-01-21.vietnam-hanoi |
+| XXIX, 165 | Thông tri 211-TT/TW, 27-1-1968, kỷ niệm thành lập Đảng | passed over: a commemoration |
+| XXIX, 167 | Điện mật BBT số 23, 1-2-1968, tin chiến thắng | entered: cal.1968-02-01.vietnam-hanoi |
+| XXIX, 169 | Điện mật BCT số 44, 8-2-1968, Tuyên ngôn của Liên minh | entered: cal.1968-02-08.vietnam-hanoi; a Check on cal.1968-02.vietnam (held) |
+| XXIX, 173 | Điện mật BCT, 10-2-1968, thư quyết tâm gửi Bác Hồ | entered: cal.1968-02-10.vietnam-hanoi |
+| XXIX, 174 | Chỉ thị 157-CT/TW, 21-2-1968, bầu cử HĐND khu, tỉnh, thành | entered: cal.1968-02-21.vietnam-hanoi |
+| XXIX, 180 | Thông tri 212-TT/TW, 26-2-1968, quản lý kinh tế - tài chính | entered: cal.1968-02-26.vietnam-hanoi |
+| XXIX, 183 | Nghị quyết BCT 175-NQ/TW, 1-3-1968, động viên chính trị toàn dân | entered: cal.1968-03-01.vietnam-hanoi |
+| XXIX, 192 | Thông báo 05-TB/TW, 15-3-1968, BBT và Thường vụ HĐCP (29-2), phân cấp quản lý kinh tế | entered: cal.1968-02-29.vietnam-hanoi (the meeting's day) |
+| XXIX, 194 | Thông tri 213-TT/TW, 18-3-1968, hướng dẫn thi hành Nghị quyết 175 | entered: cal.1968-03-18.vietnam-hanoi |
+| XXIX, 198 | Điện BBT, 3-4-1968, về tuyên bố 31-3 của Giônxơn | entered: cal.1968-04-03.vietnam-hanoi |
+| XXIX, 201 | Điện mật BCT, 3-4-1968, gửi Trung ương Cục | entered: cal.1968-04-03.vietnam-hanoi-2; cited on cal.1968-04-03.vietnam (held) |
+| XXIX, 204 | Điện mật BBT số 73, 5-4-1968, sửa Chỉ thị 157 | entered: cal.1968-04-05.vietnam-hanoi |
+| XXIX, 206 | Điện mật BCT, 8-4-1968, đấu tranh ngoại giao | entered: cal.1968-04-08.vietnam-hanoi |
+| XXIX, 214 | Chỉ thị 158-CT/TW, 10-4-1968, tài chính, thương nghiệp, giá cả | entered: cal.1968-04-10.vietnam-hanoi (folios 214–23, 387) |
+| XXIX, 388 | Thông báo 07-TB/TW, 10-4-1968, BBT và Thường vụ HĐCP (15-3), kế hoạch | entered: cal.1968-03-15.vietnam-hanoi |
+| XXIX, 392 | Thông tri 214-TT/TW, 15-4-1968, kỷ niệm 1-5, khẩu hiệu | passed over: a commemoration |
+| XXIX, 398 | Chỉ thị BCT 159-CT/TW, 27-4-1968, 150 năm ngày sinh Các Mác | passed over: a commemoration (folios 398, 497–502) |
+| XXIX, 503 | Điện mật BCT, 8-5-1968, gửi Bảy Cường, Chính phủ liên hiệp | entered: cal.1968-05-08.vietnam-hanoi |
+| XXIX, 505 | Điện mật BBT số 117, 8-5-1968, Pari | entered: cal.1968-05-08.vietnam-hanoi-2 |
+| XXIX, 507 | Thông báo 09-TB/TW, 10-5-1968, BBT (14-3), Đoàn Thanh niên | entered: cal.1968-03-14.vietnam-hanoi |
+| XXIX, 513 | Điện mật BBT số 126, 14-5-1968, gửi Khu uỷ Trị - Thiên, Liên minh Huế | entered: cal.1968-05-14.vietnam-hanoi |
+| XXIX, 515 | Điện mật BCT số 253, 17-5-1968, gửi Khu uỷ Khu IX | entered: cal.1968-05-17.vietnam-hanoi |
+| XXIX, 518 | Thông tri 217-TT/TW, 20-5-1968, học sinh sơ tán dịp hè | entered: cal.1968-05-20.vietnam-hanoi |
+| XXIX, 522 | Thông báo 11-TB/TW, 25-5-1968, BBT (23-4), vận động làm chủ tập thể trong xí nghiệp | entered: cal.1968-04-23.vietnam-hanoi |
+| XXIX, 526 | Chỉ thị 161-CT/TW, 29-5-1968, đạo Phật, Cao đài, Tin lành | entered: cal.1968-05-29.vietnam-hanoi |
+| XXIX, 530 | Chỉ thị 162-CT/TW, 30-5-1968, công tác Mặt trận ở miền Bắc | entered: cal.1968-05-30.vietnam-hanoi |
+| XXIX, 536 | Thông tri 218-TT/TW, 6-6-1968, giao thông vận tải Quân khu IV | entered: cal.1968-06-06.vietnam-hanoi |
+| XXIX, 539 | Nghị quyết BBT 179-NQ/TW, 8-6-1968, quản lý, phân phối lương thực | entered: cal.1968-06-08.vietnam-hanoi |
+| XXIX, 565 | Điện mật BBT số 155, 13-6-1968, Nghệ An, Hà Tĩnh, Quảng Bình, Vĩnh Linh | entered: cal.1968-06-13.vietnam-hanoi |
+| XXIX, 567 | Thông tri 219-TT/TW, 3-7-1968, Ban chỉ đạo giao thông vận tải Quân khu IV | entered: cal.1968-07-03.vietnam-hanoi |
+| XXIX, 570 | Điện mật BBT số 21, 4-7-1968, gửi anh Đồng, Vĩnh Linh | entered: cal.1968-07-04.vietnam-hanoi |
+| XXIX, 571 | Lời kêu gọi của Chủ tịch Hồ Chí Minh nhân ngày 20-7 | cited on cal.1968-07-20.vietnam (held) |
+| XXIX, 575 | Chỉ thị 163-CT/TW, 11-7-1968, học tập Lời kêu gọi 20-7 | entered: cal.1968-07-11.vietnam-hanoi |
+| XXIX, 581 | Chỉ thị 164-CT/TW, 13-7-1968, tiết kiệm dài hạn chống Mỹ, cứu nước | entered: cal.1968-07-13.vietnam-hanoi |
+| XXIX, 585 | Điện mật BBT số 193, 26-7-1968, Quảng Bình, Hà Tĩnh, Nghệ An | entered: cal.1968-07-26.vietnam-hanoi |
+| XXIX, 587 | Thông tri 220-TT/TW, 2-8-1968, hệ thống chỉ huy thống nhất giao thông vận tải Khu IV | entered: cal.1968-08-02.vietnam-hanoi |
+| XXIX, 599 | Chỉ thị 165-CT/TW, 6-8-1968, đại hội đại biểu Đảng bộ các tỉnh | entered: cal.1968-08-06.vietnam-hanoi |
+| XXIX, 604 | Điện mật BBT, 11-8-1968, chống lụt | entered: cal.1968-08-11.vietnam-hanoi |
+| XXIX, 605 | Thông tri 221-TT/TW, 16-8-1968, kỷ niệm Cách mạng Tháng Tám, khẩu hiệu | passed over: a commemoration |
+| XXIX, 611 | Thông báo 13-TB/TW, 24-8-1968, BBT và Thường vụ HĐCP (20-8), lụt, bão | entered: cal.1968-08-20.vietnam-hanoi |
+| XXIX, 615 | Thông báo 14-TB/TW, 26-8-1968, BBT và Thường vụ HĐCP (8-8), giáo dục phổ thông | entered: cal.1968-08-08.vietnam-hanoi (folios 615–16, 733–38) |
+| XXIX, 739 | Báo cáo tại Hội nghị lần thứ 15, 29-8-1968, đấu tranh ngoại giao | entered: cal.1968-08-29.vietnam-hanoi |
+| XXIX, 775 | Nghị quyết BCT, tháng 8-1968, tổng khởi nghĩa, tổng công kích | entered: cal.1968-08.vietnam-hanoi (folios 775–76, 863–913) |
+| XXIX, 914 | Thông tri 222-TT/TW, 12-9-1968, quản lý thị trường | entered: cal.1968-09-12.vietnam-hanoi |
+| XXIX, 917 | Nghị quyết BBT 181-NQ/TW, 25-9-1968, vận động thanh niên | entered: cal.1968-09-25.vietnam-hanoi |
+| XXIX, 940 | Điện mật BCT số 320, 10-10-1968, gửi Trung ương Cục | cited on cal.1968-10-10.vietnam-paris (held), with a variant and a Check |
+| XXIX, 949 | Điện mật BCT (số 323), 15-10-1968, gửi Trung ương Cục | entered: cal.1968-10-15.vietnam-hanoi |
+| XXIX, 954 | Nghị quyết BCT 183-NQ/TW, 16-10-1968, Khu uỷ Trị - Thiên - Huế | entered: cal.1968-10-16.vietnam-hanoi |
+| XXIX, 958 | Điện mật BBT số 291, 19-10-1968 | entered: cal.1968-10-19.vietnam-hanoi |
+| XXIX, 960 | Điện mật BCT, 20-10-1968, gửi Trung ương Cục | cited on cal.1968-10-20.vietnam-paris (held), with a Check |
+| XXIX, 964 | Điện mật BCT số 00/1968, 20-10-1968, gửi Khu uỷ V và Trị - Thiên | entered: cal.1968-10-20.vietnam-hanoi |
+| XXIX, 970 | Thông báo 18-TB/TW, 23-10-1968, BBT, lâm nghiệp | entered: cal.1968-10-23.vietnam-hanoi |
+| XXIX, 975 | Điện mật BBT số 302, 31-10-1968, sắp ngừng ném bom | entered: cal.1968-10-31.vietnam-hanoi |
+| XXIX, 978 | Điện mật BBT số 305, 2-11-1968, giải thích tình hình sau ngừng ném bom | entered: cal.1968-11-02.vietnam-hanoi |
+| XXIX, 981 | Lời kêu gọi của Chủ tịch Hồ Chí Minh, 3-11-1968 | cited on cal.1968-11-03.vietnam (held) |
+| XXIX, 985 | Chỉ thị BCT, 9-11-1968, bổ sung Nghị quyết tháng 8-1968 | entered: cal.1968-11-09.vietnam-hanoi |
+| XXIX, 999 | Chỉ thị 166-CT/TW, 21-11-1968, trị an, thị trường, nếp sống mới ở thành phố | entered: cal.1968-11-21.vietnam-hanoi |
+| XXIX, 1006 | Chỉ thị 167-CT/TW, 28-11-1968, địch bắt người làm nghề trên biển | entered: cal.1968-11-28.vietnam-hanoi |
+| XXIX, 1013 | Điện mật BCT, 1-12-1968, gửi Bộ Chính trị Đảng Cộng sản Liên Xô | entered: cal.1968-12-01.vietnam-hanoi |
+| XXIX, 1015 | Điện mật BBT số 348, 4-12-1968 | entered: cal.1968-12-04.vietnam-hanoi |
+| XXIX, 1017 | Thông tri 223-TT/TW, 6-12-1968, kỷ niệm 19-12, 20-12, 22-12 | passed over: a commemoration |
+| XXIX, 1020 | Thông tri 224-TT/TW, 12-12-1968, ba khoán và quản lý ruộng đất | entered: cal.1968-12-12.vietnam-hanoi |
+| XXIX, 1167 | Điện mật BCT, 12-12-1968, gửi Bảy Cường | entered: cal.1968-12-12.vietnam-hanoi-2 |
+| XXIX, 1171 | Thông báo 21-TB/TW, 18-12-1968, BBT (18-11), công đoàn | entered: cal.1968-11-18.vietnam-hanoi |
+| XXIX, 1179 | Thông báo 22-TB/TW, 19-12-1968, BBT và Thường vụ HĐCP (12-11, 2-12), lao động | entered: cal.1968-12-02.vietnam-hanoi |
+| XXIX, 1186 | Nghị quyết BCT 185-NQ/TW, 26-12-1968 (kỳ họp 10-13/10), kinh tế 1969 | entered: cal.1968-10-10.vietnam-hanoi (the session's days) |
+| XXIX, 1206 | Thông tri 225-TT/TW, 28-12-1968, phổ biến Nghị quyết 185 | entered: cal.1968-12-28.vietnam-hanoi |
+| XXIX, 1210 | Điện mật BBT, tháng 12-1968, gửi Trung ương Cục, Khu uỷ V, Trị - Thiên | entered: cal.1968-12.vietnam-hanoi (a Check on the month) |
+| XXIX, 1267 | Phụ lục: Nghị quyết Thường vụ TƯC và Quân uỷ Miền, 5-2-1968, khu trọng điểm | entered: cal.1968-02-04.vietnam-hanoi |
+| XXIX, 1275 | Phụ lục: Nghị quyết Hội nghị TƯC (mở rộng) lần thứ sáu, 01/NQNT, tháng 3-1968 | entered: cal.1968-03.vietnam-hanoi |
+| XXIX, 1314 | Phụ lục: Thư của BCT, 16-7-1968, gửi Bơrêgiơnhép và Côxưghin | entered: cal.1968-07-16.vietnam-hanoi |
+| XXIX, 1321 | Phụ lục: Nghị quyết Hội nghị lần thứ tám TƯC, 07/NQNT, tháng 10-1968 | entered: cal.1968-10.vietnam-hanoi |
+| XXIX, appendix | Phụ lục: Thư của BCH, 27-10-1968, gửi Kim Nhật Thành (unpaged, PDF 377) | entered: cal.1968-10-27.vietnam-hanoi |
+| XXIX, appendix | Phụ lục: Nghị quyết của Khu uỷ V về công tác kinh tế tài chính 1968 (unpaged, PDF 378–87) | passed over: undated (no day or month printed); a lead |
+| XXX, 1 | Chỉ thị 168-CT/TW, 13-1-1969, người tốt, việc tốt | entered: cal.1969-01-13.vietnam-hanoi |
+| XXX, 5 | Thông tri 228-TT/TW, 27-1-1969, bổ sung Chỉ thị 168 | entered: cal.1969-01-27.vietnam-hanoi |
+| XXX, 7 | Thông tri 226-TT/TW, 17-1-1969, bầu cử HĐND huyện, xã | entered: cal.1969-01-17.vietnam-hanoi |
+| XXX, 11 | Thông tri 227-TT/TW, 22-1-1969, kỷ niệm thành lập Đảng | passed over: a commemoration |
+| XXX, 13 | Thông báo 04-TB/TW, 4-2-1969, BBT (chiều 6-1), vận động phụ nữ | entered: cal.1969-01-06.vietnam-hanoi-2 |
+| XXX, 19 | Điện BCT, 11-2-1969, gửi Bảy Cường, đấu tranh ở đô thị | entered: cal.1969-02-11.vietnam-hanoi |
+| XXX, 21 | Chỉ thị 169-CT/TW, 14-2-1969, giáo dục 1968-1970 | entered: cal.1969-02-14.vietnam-hanoi |
+| XXX, 34 | Thông tri 229-TT/TW, 6-3-1969, vận động phụ nữ 1969 | entered: cal.1969-03-06.vietnam-hanoi |
+| XXX, 37 | Thông báo 05-TB/TW, 14-3-1969, BBT (sáng 6-1), vận động thanh niên | entered: cal.1969-01-06.vietnam-hanoi |
+| XXX, 42 | Thông báo 06-TB/TW, 20-3-1969, BBT (17, 18, 27-1), Sơn La, Nghĩa Lộ, Lai Châu | entered: cal.1969-01-17.vietnam-hanoi-2 (a central act on three provinces; the merger may pass it over under R18) |
+| XXX, 48 | Thông tri 234-TT/TW, 19-4-1969, kỷ niệm 1-5, khẩu hiệu | passed over: a commemoration |
+| XXX, 53 | Nghị quyết BCT 187-NQ/TW, 22-4-1969, các ngày kỷ niệm lớn năm 1970 | passed over: commemorations (Lenin's centenary, the Party at 40, Hồ at 80, the DRV at 25) |
+| XXX, 62 | Điện BBT số 130, 7-5-1969, tiến công ngoại giao | entered: cal.1969-05-07.vietnam-hanoi |
+| XXX, 65 | Thông báo 07-TB/TW, 9-5-1969, BBT (14-3), nội thương | entered: cal.1969-03-14.vietnam-hanoi |
+| XXX, 72 | Chỉ thị 170-CT/TW, 10-5-1969, thi đua, Đại hội Anh hùng lần thứ V | entered: cal.1969-05-10.vietnam-hanoi-2 |
+| XXX, 76 | Đề cương báo cáo về mặt trận đấu tranh ngoại giao (Hội nghị lần thứ 16, 8-10/5) | cited in cal.1969-05-08.vietnam-hanoi (the plenum) |
+| XXX, 118 | Nghị quyết BCT 188-NQ/TW, 10-5-1969, tình hình và nhiệm vụ | entered: cal.1969-05-08.vietnam-hanoi (the Sixteenth Plenum) |
+| XXX, 144 | Bài nói của đồng chí Lê Duẩn tại Hội nghị lần thứ 16, tháng 5-1969 | cited in cal.1969-05-08.vietnam-hanoi |
+| XXX, 171 | Chỉ thị 171-CT/TW, 12-5-1969, sinh hoạt chính trị mừng thọ Hồ Chủ tịch | entered: cal.1969-05-12.vietnam-hanoi |
+| XXX, 177 | Nghị quyết BBT 189-NQ/TW, 22-5-1969, Ban Nghiên cứu kinh tế nông thôn miền Nam | entered: cal.1969-05-22.vietnam-hanoi |
+| XXX, 179 | Nghị quyết BCT 191-NQ/TW, 24-5-1969, quy hoạch Thủ đô Hà Nội | entered: cal.1969-05-24.vietnam-hanoi |
+| XXX, 188 | Điện BBT, 27-5-1969, gửi Bảy Cường, đấu tranh chính trị | entered: cal.1969-05-27.vietnam-hanoi |
+| XXX, 189 | Điện BBT số 111, 9-6-1969, Chính phủ Cách mạng lâm thời | entered: cal.1969-06-09.vietnam-hanoi |
+| XXX, 192 | Thông tri 235-TT/TW, 10-6-1969, ủng hộ Chính phủ Cách mạng lâm thời | entered: cal.1969-06-10.vietnam-hanoi |
+| XXX, 196 | Thông tri 236-TT/TW, 13-6-1969, giải thể Bộ Tư lệnh giao thông vận tải Khu IV | entered: cal.1969-06-13.vietnam-hanoi |
+| XXX, 198 | Thông báo 09-TB/TW, 14-6-1969, BBT và Thường vụ HĐCP (28-4 đến 3-5), kế hoạch 1970 | entered: cal.1969-04-28.vietnam-hanoi |
+| XXX, 206 | Thông tri 237-TT/TW, 18-6-1969, điều tra tội ác Mỹ | entered: cal.1969-06-18.vietnam-hanoi |
+| XXX, 209 | Thông tri 238-TT/TW, 18-6-1969, Điều lệ hợp tác xã | entered: cal.1969-06-18.vietnam-hanoi-2 |
+| XXX, 212 | Nghị quyết BCT 190-NQ/TW, 19-6-1969, giúp Đảng X (Lào) | entered: cal.1969-06-19.vietnam-hanoi |
+| XXX, 219 | Thông tri 239-TT/TW, 25-6-1969, thiếu niên, nhi đồng | entered: cal.1969-06-25.vietnam-hanoi |
+| XXX, 222 | Nghị quyết BCT "1733"-NQ/TW, 9-8-1969, tổ chức thuộc Hội đồng Chính phủ | entered: cal.1969-08-09.vietnam-hanoi (a Check on the number) |
+| XXX, 225 | Thông tri 240-TT/TW, 14-8-1969, kỷ niệm Cách mạng Tháng Tám | passed over: a commemoration |
+| XXX, 228 | Thông cáo đặc biệt, 4-9-1969 (Nhân Dân, 5-9) | entered: cal.1969-09-04.vietnam-hanoi; its note (228–29 n.) the source of cal.1969-09-02.vietnam-hanoi |
+| XXX, 232 | Lời kêu gọi của BCH, 3-9-1969 (Nhân Dân, 5-9) | entered: cal.1969-09-03.vietnam-hanoi |
+| XXX, 237 | Danh sách Uỷ ban Lễ tang Nhà nước (Nhân Dân, 5-9) | cited in cal.1969-09-04.vietnam-hanoi |
+| XXX, 240 | Chỉ thị BCT 172-CT/TW, 4-9-1969, Lễ quốc tang; khẩu hiệu, quy định, chương trình (5-9) | entered: cal.1969-09-04.vietnam-hanoi-2 |
+| XXX, 253 | Di chúc: các bản in nguyên văn bản thảo (1965, 1968, 10-5-1969) | entered: cal.1968-05.vietnam-hanoi (the 1968 draft) and cal.1969-05-10.vietnam-hanoi (the last part); the 1965 draft, before the span of this volume, named there |
+| XXX, 313 | Di chúc công bố năm 1969 | cited in cal.1969-05-10.vietnam-hanoi |
+| XXX, 321 | Điếu văn của BCH, do Lê Duẩn đọc, 9-9-1969 | entered: cal.1969-09-09.vietnam-hanoi |
+| XXX, 328 | Thông báo 14-TB/TW, 4-12-1969, Quyết định BCT (sáng 29-11), thi hài và lăng Hồ Chủ tịch | entered: cal.1969-11-29.vietnam-hanoi |
+| XXX, 330 | Chỉ thị BCT 173-CT/TW, 29-9-1969, học tập và làm theo Di chúc | entered: cal.1969-09-29.vietnam-hanoi |
+| XXX, 337 | Thông tri 241-TT/TW, 6-10-1969, Ban Tài chính thương nghiệp | entered: cal.1969-10-06.vietnam-hanoi |
+| XXX, 339 | Điện BBT số 00, 24-10-1969, đấu tranh chính trị ở miền Nam | entered: cal.1969-10-24.vietnam-hanoi |
+| XXX, 342 | Thông báo 12-TB, 29-10-1969, BBT (24-25/10), đời sống ở thành phố 1970 | entered: cal.1969-10-24.vietnam-hanoi-2 |
+| XXX, 350 | Nghị quyết BCT 194-NQ/TW, 20-11-1969, giặc Mỹ lái máy bay bị bắt | entered: cal.1969-11-20.vietnam-hanoi |
+| XXX, 353 | Thông tri 242-TT/TW, 21-11-1969, lối sống cần, kiệm, liêm | entered: cal.1969-11-21.vietnam-hanoi |
+| XXX, 357 | Thông tri 244-TT/TW, 6-12-1969, ba ngày kỷ niệm tháng 12 | passed over: a commemoration |
+| XXX, appendix | Phụ lục: Thư của BCH, 12-2-1969, gửi Đại hội XXIII Đảng Cộng sản Đan Mạch | entered: cal.1969-02-12.vietnam-hanoi |
+| XXX, appendix | Phụ lục: Thư của BCH, 2-8-1969, gửi Đại hội X Đảng Cộng sản Rumani | entered: cal.1969-08-02.vietnam-hanoi |
+| XXX, appendix | Phụ lục: Thư của BCH, 12-11-1969, gửi Đại hội XXXI Đảng Cộng sản Anh | entered: cal.1969-11-12.vietnam-hanoi |
+| XXX, appendix | Phụ lục: Nghị quyết Hội nghị TƯC lần thứ chín, tháng 7-1969 | entered: cal.1969-07.vietnam-hanoi (a Check on the month) |
+| XXX, appendix | Phụ lục: Nghị quyết Thường vụ TƯC 12-NQNT, 5-10-1969, bộ máy Chính phủ Cách mạng lâm thời | entered: cal.1969-10-05.vietnam-hanoi |
+| XXX, appendix | Phụ lục: Nghị quyết Thường vụ TƯC 14-NQNT, 30-10-1969, chiến tranh du kích | entered: cal.1969-10-30.vietnam-hanoi |
+| XXX, appendix | Phụ lục: Nghị quyết Hội nghị Khu uỷ V lần thứ chín, tháng 4-1969, giành dân | entered: cal.1969-04.vietnam-hanoi |
+| XXX, appendix | Phụ lục: Nghị quyết Khu uỷ V 08-NQKUV, tháng 4-1969, xây dựng đảng | entered: cal.1969-04.vietnam-hanoi-2 |
+| XXX, appendix | Phụ lục: Nghị quyết Khu uỷ V, "tháng 4 năm 1969," kế hoạch một năm xây dựng Khu A | passed over: misdated; its matter runs to February 1970 ("từ đầu năm 1970 đến nay," "đến tháng 2-1970"), so 1970, outside the span; a lead |
+
+### Where batch 16 stopped (1968–69)
+
+Both volumes done, every document read at its heading, date, issuer, signer, operative sections and close (the long reports as above), to the last page of each copy (XXIX, PDF 387; XXX, PDF 267): 82 documents in vol. 29 (69 entered, 7 cited on 4 entries held, 6 passed over) and 56 headings in vol. 30 (46 rows entered as 48 entries, 4 cited within those entries, 6 passed over). Passed over: 9 commemorations, Region V's undated economic resolution of 1968 and its misdated "April 1969" resolution on Area A (1970): the last two for leads. Stopped cleanly, the patch checked to 0 errors. No witnesses file.
+
+### Audit (batch 16, 1965–66)
+
+Auditor: batch 16, Nov. 14, 2026 (a Saturday), `inbox/2026-11-14-b16-vkd-1965-66.yaml` (117 ops). Corrected patch: `inbox/2026-11-14-b16-vkd-1965-66-audited.yaml` (patch name kept, `2026-11-14-b16-vkd-1965-66`; 121 ops; patch-check 0 errors, 40 warnings, all the same-day "one event?"/duplicate prompts for separate documents). Both PDFs fetched afresh (358 and 228 PDF pages, title pages "Hà Nội - 2003"), split into halves as the reader did; the offset (2 × PDF − 6 left, − 5 right) confirmed. Every entry's heading checked by script against the volume (number, issuing body, day, signer, first and last page); the `c` lines sampled in every month against the text.
+
+- Upheld as written: 76 adds. Corrected: 26 (15 by the signer's `name:` tag alone, `name:le-duc-tho`, `name:truong-chinh`, `name:le-duan`, the keys the calendar uses; Tố Hữu, Phạm Hùng, Lê Văn Lương have none). Text: `cal.1965-03-03.vietnam-hanoi` (signer, Tố Hữu, added); `cal.1965-12-28.vietnam-hanoi` (634–39, not 642: 640 is blank, 641 the appendix's title); `cal.1966-06-01.vietnam-hanoi` (forty-five years of the party's rule, not "after the Revolution"); `cal.1966-08-29.vietnam-hanoi` (the exemptions and deferments of instruction no. 48 and decision no. 63 to be kept, not "studied"; the Check rewritten: the July call-up and decision no. 158 need not conflict); Hồ Chí Minh's three speeches (`cal.1965-01-22`, `cal.1966-01-16`, `cal.1966-04.vietnam-hanoi`): the volume prints them from his *Toàn tập* (2002, 2000, 2000), so "Made public" is that print, not 2003.
+- Dropped: `cal.1965-12-21.vietnam-hanoi` and `-2` (the Politburo's report and Lê Duẩn's speech to the Twelfth Plenum, no day of their own: cites on the plenum's entry, as batch 12 entered its plenums, one session one entry); `cal.1966-06-22.vietnam-hanoi` (circular no. 182-TT/TW: the observance's plan, a meeting, a week of propaganda, films, an exhibition; no policy act beyond the commemoration: passed over with the batch's other anniversaries).
+- The Eleventh Plenum: the volume settles Mar. 25–27 (the resolution's heading, XXVI, 96; the outline, 56; the introduction): a `variant` on `cal.1965-03-28.vietnam`, unit A. The outline report names no author (not "the Politburo's"). The Twelfth: Dec. 21–27 (XXVII, 35 n.; the closing speech "chiều ngày 27", XXVI, 626); the introduction to vol. XXVI has Dec. 21–26, not 21–27 as the reader's notes give: a `variant` on `cal.1965-12-27.vietnam-2`, unit A. Lê Duẩn's speech: the forecast of 150–200,000 and 300–400,000 troops is the Ninth and Eleventh Plenums' (542), not the Eleventh's alone.
+- The held entries' cites rewritten to one pinpoint and one parenthetical each, with units: the resolution of the Twelfth B–D, Lê Duẩn's speech B, the report and the closing speech `?`; the Eleventh's outline A. The check on `cal.1966-07-16.vietnam` dropped (the entry already dates the appeal July 17). A `variant` on `cal.1965-01-02.vietnam-hanoi`: the volume's "chưa được khắc phục một cách triệt để" (not thoroughly overcome), XXVI, 3, against Asselin's "not yet successfully overcome".
+- The five greetings (Italy, Canada, Mongolia, the CPUSA, Japan): the volume prints each from the Party archive; whether *Nhân Dân* printed them is not settled here (the custom: XXVII, 220 has the press print the greeting to the Chinese party). Under the owner's ruling of Nov. 14 (territorial visibility; a ruling party counts as government) each is `vis:only:drv+<the congress's country>`, "Made public: 2003.", the parties' `polity:` tags dropped (Mongolia's kept), with a Check on where the congress met, whether the greeting was read there and whether *Nhân Dân* printed it.
