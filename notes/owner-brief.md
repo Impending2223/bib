@@ -756,3 +756,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Do we have anything on King's affairs?" (Nov. 15: the FBI's side in, Jan. 1964–Jan. 1965; King's own conduct not: Georgia Davis, Apr. 3–4, 1968, and Coretta King's surgery, Jan. 24, 1968, passed over in Branch's book-check; both put in the re-read pass's first group.)
 
 "Presumably we should get Garrow's King and the FBI too, right? Anything else? What fills out this story?" (Nov. 15: handoff C0 3d2: McKnight and Abernathy held and unread; Church Book III's King study first; the 1977 task force and the HSCA to find; a procurement list.)
+
+"I can't believe I'm shocked by this, given everything I know and everything I've become inured to, but I am. Do we have any sort of record of what Robert and Jack and Johnson made of this? Why did they do it? What were they thinking? What do we know? Who else did the FBI do this sort of thing to? Anything within our span?" (Nov. 15: answered from the calendar's King thread, June 1963–Feb. 1964, and, marked as memory, the literature; the other targets listed, those in the calendar named.)
