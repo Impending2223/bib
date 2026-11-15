@@ -746,3 +746,5 @@ Ah. Hm. I would like to keep, or bring back, whatever filter for "private and so
 I know I've been pushing the line, because the readers have left too much out, but I think we still need something like the line we've been working towards refining.
 
 But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, R2, R5, R9, R10, R11, R13, R14, R18, R44 rewritten; the King thread's scope and statement cut to "Martin Luther King, Jr."; notes/proposals/loose-dates.md written; handoff 3c cut to Casals and the owner's question, 3e to the year-only dates and the intercalary days.)
+
+"Alright, I think your refinement of R18 didn't catch the gist of my examples, which were meant to be indicative and not a closed set. Try again." (Nov. 15: R18 rewritten: a principal's sport, recreation, art and private conduct are entries, the examples marking the kind; "private" narrowed to the routine of a household or a day.)
