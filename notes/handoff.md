@@ -7,8 +7,6 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 - Models: readers on Sonnet with the card; mechanical work (merging, duplicate flags, scripts) on Sonnet or Haiku; Opus audits a sample of each reader's rulings and every disagreement. At most 4-6 agents at once (the machine has 4 processors).
 - Pilot first: `inbox/2026-11-10-pilot-humphrey.yaml` (Sonnet, the card) is to be audited row by row before anything scales.
 
-**Standing reminder (the owner, Nov. 15): Gallup, *The Gallup Poll: Public Opinion, 1935–1971*, vol. III is not on the Drive. Remind the owner at every report until it is.**
-
 ## The queue (rebuilt Nov. 13, 2026, morning, against the tree), in order
 Everything before this is done and merged: batches 6–13, the inbox (empty), the visibility roll-out (Nov. 12), the kind bands, the poll-hours and daylight registers, the social and private rows re-ruled under R18, the newspaper rewrite, the Feb. 8, 1960 sit-ins Checks (one live Check left there: Raleigh's first day, Branch against Carson, a real disagreement). The sections below this are the record of each night; where they say "open" or "for the owner", this queue supersedes them.
 
@@ -50,7 +48,7 @@ Mechanical work first:
 6. The Congressional calendar (the committees' hearings; the bills and appropriations tables), the *Bulletin*, and the public records (83 Stat.; the orders and proclamations; the Court's term; the opinions, loaded).
 7. The name entries for the span (the new administration, the 91st Congress, the candidates): after all the mechanical work, ahead of the reading jobs (the owner, Nov. 15).
 Reading jobs:
-8. The Gallup readings, the calendar's entries and the readings "as reported," from the three-volume set (`w.gallup-poll`; vol. III, 1959–71, not on the Drive: **remind the owner at every report until it is there**; the owner, Nov. 15: "You should give me an annoying reminder about them until I put the third volume in the shared drive"), and the military histories (MACV's *Command History, 1969*; the CMH volumes): after the mechanical work and before the inventory; a priority, not a dependency (the owner: "don't block yourself on them if you don't have them in hand").
+8. The Gallup readings, the calendar's entries and the readings "as reported," from the three-volume set (`w.gallup-poll`; vol. III, 1959–71, on the Drive since Nov. 15: `1SisH7iK2500zIApYbdqPJvb2JRsFgCZN`, 824 PDF pages, the title page "Volume Three, 1959–1971" checked), and the military histories (MACV's *Command History, 1969*; the CMH volumes): after the mechanical work and before the inventory; a priority, not a dependency (the owner: "don't block yourself on them if you don't have them in hand").
 9. An inventory of the books not yet read for the span.
 10. The memoirs and biographies for the span.
 11. The thread summaries for 1969, after everything else, unless the owner asks for them earlier.

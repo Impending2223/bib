@@ -658,3 +658,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Sorry to interrupt. We've dropped the section numbers from the continuous body of the calendar, right? Shouldn't we just drop them from 1972, etc., and what you're working on now?" (Nov. 15: the 26 sections after January 1969 unnumbered, their files naming them by id; the body's hidden numbers, I-CXI, kept.)
 
 "Good work re the RMN daily diary. Put that in with the public papers." (Nov. 15: the Daily Diary moved to step 3 of the 1969 foundations.)
+
+"lol that is really annoying. good work again! I've uploaded the volume." (Nov. 15: Gallup vol. III on the Drive, `1SisH7iK2500zIApYbdqPJvb2JRsFgCZN`; the reminder retired.)
