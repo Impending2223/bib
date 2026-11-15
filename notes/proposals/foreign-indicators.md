@@ -28,3 +28,5 @@ The plan on file, `notes/extensions/memos/indicators-suggestions.md` ("Other IMF
 ## 3. Order of work (a suggestion)
 
 The *Federal Reserve Bulletin*'s international tables first: one source already read, many countries, the figures as first reported. Then today's values from FRED and the central banks. Then the dated events (rate changes, devaluations, drawings) as entries. Then the communiqués and estimates for the Soviet Union and China, a reading job. Then opinion abroad, a reading job for the books named.
+
+Queued Nov. 15 (the owner: "Put it ahead of the 1969 foundations, after the pilots"): handoff C0.

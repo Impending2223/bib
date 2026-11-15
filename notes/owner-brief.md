@@ -662,3 +662,5 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "lol that is really annoying. good work again! I've uploaded the volume." (Nov. 15: Gallup vol. III on the Drive, `1SisH7iK2500zIApYbdqPJvb2JRsFgCZN`; the reminder retired.)
 
 "Didn't we have an indicator extension plan plotted? IIRC, that plan only spoke to a few indicators of concern to the US. What can we do for our other sovereigns? What indicators can we calendar for them?" (Nov. 15: notes/proposals/foreign-indicators.md written; not yet queued.)
+
+"Put it ahead of the 1969 foundations, after the pilots." (Nov. 15: the foreign indicators queued.)
