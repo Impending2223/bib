@@ -56,7 +56,27 @@ STYLE
     government: the PCF, PCI, CPGB, CPUSA, JCP) nor a never-in-government party then or later proscribed; so the
     Democrats and Republicans, Conservatives and Labour, the UNR/UDR, SFIO, Radicals and MRP, the CDU/CSU and SPD,
     the DC, PSI, PLI and PSDI, the Japan Socialist Party and the LDP are; the PSIUP (later merged into the PCI) is not;
-    the MSI awaits a ruling. A peer sits in the legislature (Montgomery).
+    the MSI is not (the lead's view, the owner agreeing, Nov. 14: neo-fascist, outside the *arco costituzionale*
+    throughout 1960–74 and treated as anti-system by every party within it; never in government in the span). "In
+    government" means holding office in the cabinet: confidence and supply, or tolerance, does not move a party over
+    the line (the owner, Nov. 14: the MSI's votes for Tambroni, Mar.–July 1960, leave it out). A peer sits in the
+    legislature (Montgomery). The rule applies alike to the same parties' leaders and officials outside the legislature.
+    What the rule means (agreed with the owner, Nov. 14): the tags record what the home government knew at the time, in
+    private, of what was said, not whom a person would choose to tell. The party line is the default proxy for that
+    knowledge: a minister or a member of a governing or system party usually told his government (the embassy's
+    debrief, the foreign ministry's briefing before a visit to a capital without relations); a Communist out of
+    government usually did not, his channel running to his party and to Moscow or Peking. That a visit took place is
+    usually public at the time (the host's press, the party's paper): the rule is for its content. Exceptions are made
+    from evidence, never by guess: where a source shows the home government learned of a talk (an informant's report,
+    an embassy's debrief, a security service's file), a `vis:from:<polity>:<date>` ruling from the day it learned; where
+    a source shows a system politician kept his government in the dark, a `vis:only:` ruling cut to the host. An
+    informant is an agent (STYLE 4's first ruling): a talk with the home government's man in the room is its from the
+    day (Morris Childs, the FBI's informant in the CPUSA's delegations from 1958: Operation SOLO, the queue). Private
+    persons likewise: the CIA's Domestic Contact Service debriefed American travellers, journalists and businessmen
+    among them; the territorial default stands until a debrief is on record. An opposition politician's talk, whose
+    report home is the default's weakest case (the SFIO, the Japan Socialists), takes a sentence shown on the page
+    until a source settles it, at the note's end: "Check: whether Mitterrand reported the talk to the French
+    government." (the owner, Nov. 14: "Keep it shown on the page.").
  5. Address (§4), in order: the tags the unit itself names (a name tag whose surname, or a place whose name, stands in
     the unit's text: the maps do not yet tie tags to units, so the text ties them); else the entry's name, place,
     state, city, province and `polity:` tags; else the thread's polities (sources/polities.yaml, a subthread its
