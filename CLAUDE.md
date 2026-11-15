@@ -10,7 +10,7 @@ The owner's standing instructions; their messages, verbatim, in `notes/owner-bri
 
 **Prose.** "Compact. Plain. Compressed. Springs and Autumns, but without the subtle words." Record what happened, not what it meant. No praise, blame, irony or color. Short declaratives and fragments; drop articles and verbs where the line still reads. Read a few entries of the section you add to before writing.
 
-**The calendar.** "A calendar of executive and legislative events, and any other events that left a trace, or should have left a trace, on the political and policy histories of the Kennedy and Johnson Administrations, their Congresses, or those of their members ... not a narrative, but a memory aid and a bibliographic record ... Names, events." What is an entry: the reader's brief (R5, the test: what the work being read dates and treats as an event; R7, the informal record; R18, what is not an entry).
+**The calendar** (R1 as the owner rewrote it, Nov. 15, 2026). "A calendar of executive and legislative events, and any other events that left a trace, or should have left a trace, on the political and policy histories of covered nations within the calendar's span ... not a narrative, but a memory aid and a bibliographic record ... Names, events." What is an entry: the reader's brief (R5, the test: what the work being read dates and treats as an event; R7, the informal record; R18, what is not an entry).
 
 Every calendar entry has:
 - `c`: what happened, one to three clipped sentences. Who, what, the number.

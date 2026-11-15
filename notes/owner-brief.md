@@ -670,3 +670,29 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Sorry, Thích Thiện Minh with Taylor ("in Saigon"); the Presidium approving Anadyr, the Cuba deployment ("Moscow's decisions"); Hồ in Moscow; and the southern leaders' assessment sent to Hanoi are matters "with no bearing on politics or policy anywhere"?" (Nov. 15: no; the four rows, of Oct. 28–29, were passed over as not Washington's, before R10 and R18 were written; misfiled in the answer under R18's no-bearing clause. Anadyr since entered from other sources; the other three not in the calendar; the old rows never re-tested.)
 
 "Claude! Claude! I said Hanoi's commemorations and provincial matters stay in! In! What took them out????" (Nov. 15: the owner's ruling of Nov. 12, evening, was "Keep the routine party circulars", answering a question that named the commemorations; the brief of batch 12 added "commemorations and provincial matters are still passed over", which the owner never said, and the readers of batches 12 and 16 passed over 63 documents on it. Struck from the brief; the 63 queued first in C0, item 3a.)
+
+## Nov. 15, 2026: the scope
+
+"Rewrite R1 to "the political and policy histories of covered nations within the calendar's span."
+
+Rewrite R2 to "Every thread is its matter as the nation or state met it."
+
+Do we need to anything else to R2, or anything different, to make it clear that, as you said, "A thread is where an entry is filed, never a filter. If no thread fits, file the entry under the nearest country or region thread and propose a new one; never pass it over"? We're you suggesting we drop R2 altogether, or something else? What should we do?
+
+Sorry, what's the effect of your change to R5? What does R5 say now? What would you have it say?
+
+Agreed on the change to R15, but. I'm not sure about the "repetition" omission now either. Drop it. (Keep the covering note and transmittal.)
+
+Is there anything we could do, or should do, to the individual, imprecisely-dated entries to better sort them? Some entries say "after XX" or "early/mid/late XX" or have other specifying detail that the current arrangement of the calendar simply discards. Could we default to displaying them in "ghost" days, or "follows:" days, at the earliest date implied by their range?
+
+Oof. Yeah, the added limitations in Batches 12, 15, 16 are not great. Yes to the queued briefs, yes to the re-read pass.
+
+Sports, crimes, and the arts without trace in policy stay out, except when they involve principals we're otherwise following for reasons of politics or policy or because I have, by fiat, ruled them in.
+
+(Mao's swims and poetry, Hugo Black's tennis, Bill Douglas fucking around again, Jack Kennedy's tennis and swimming and jogging and horizontal polo (i.e., Kennedy men fucking around again, in both the literal and figurative senses).)
+
+National or other political figures making arts or sports appearances, and sports figures making appearances in national or state political or policy narrative (e.g., Muhammad Ali, the raised fists at Mexico City 1968) should be in already. If they're not, put them in.
+
+Is there anything else in the brief or the wording I need to rule on? Is there anything else I should clarify?
+
+(My apologies to Kenneth Pollack. I must have been thinking of Jackson, or perhaps Frederick.)" (Nov. 15: R1, R2, R15, R18 and R44 rewritten in notes/briefs/reader.md, with rows in its rulings table; CLAUDE.md, notes/guide/brief.md and notes/threads.md to match; the limits of the batch 12, 15 and 16 briefs struck; the re-read pass, the sport-and-arts sweep, Pollack and the year-only dates queued, handoff C0 3b–3e. R2's addition, R5 and the loose-date placement proposed.)
