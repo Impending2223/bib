@@ -754,3 +754,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Family events and health for the principals go in, as your three examples do. (One of the readers dropped Lyndon drinking/refraining from drinking, which should absolutely go in. Michael should absolutely go in!)" (Nov. 15: R18 so amended; Michael Rockefeller already entered, Nov. 19–29, 1961, on a later re-ruling of Smith; the Johnson drinking row not found by search: Reedy on his drinking, Bernstein 5, a lead, the nearest; the principals' family and health rows put first in the re-read pass, handoff 3b.)
 
 "Do we have anything on King's affairs?" (Nov. 15: the FBI's side in, Jan. 1964–Jan. 1965; King's own conduct not: Georgia Davis, Apr. 3–4, 1968, and Coretta King's surgery, Jan. 24, 1968, passed over in Branch's book-check; both put in the re-read pass's first group.)
+
+"Presumably we should get Garrow's King and the FBI too, right? Anything else? What fills out this story?" (Nov. 15: handoff C0 3d2: McKnight and Abernathy held and unread; Church Book III's King study first; the 1977 task force and the HSCA to find; a procurement list.)
