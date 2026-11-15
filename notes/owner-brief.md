@@ -696,3 +696,5 @@ National or other political figures making arts or sports appearances, and sport
 Is there anything else in the brief or the wording I need to rule on? Is there anything else I should clarify?
 
 (My apologies to Kenneth Pollack. I must have been thinking of Jackson, or perhaps Frederick.)" (Nov. 15: R1, R2, R15, R18 and R44 rewritten in notes/briefs/reader.md, with rows in its rulings table; CLAUDE.md, notes/guide/brief.md and notes/threads.md to match; the limits of the batch 12, 15 and 16 briefs struck; the re-read pass, the sport-and-arts sweep, Pollack and the year-only dates queued, handoff C0 3b–3e. R2's addition, R5 and the loose-date placement proposed.)
+
+"And yes, please, add the rule that "a brief may quote your rulings but never adds an exclusion of its own, and any exclusion it carries cites your words or comes out."" (Nov. 15: written into notes/briefs/reader.md, the paragraph above R1, with a row in its rulings table; the briefs of batches 15–18 checked: their remaining limits are the span's, the owner's quoted words, or R18 and R50.)
