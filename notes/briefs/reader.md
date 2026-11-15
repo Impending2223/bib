@@ -99,7 +99,7 @@ Nothing else is passed over, and no class of event in a blanket (R48).
 - the Public Papers, "Title, [1961 Pub. Papers 1](…) (Jan. 20, 1961)"; APP, linked, only where the Papers do not print the document (orders, proclamations, platforms, the campaign of 1960), never read;
 - the Federal Register; the Congressional Record by chamber and day; a hearing (govinfo; the Daily Digest's rows, `daybook/committees/`, for its day and page);
 - FRUS, with its volume's title and the document ("FRUS 1961–63, XXIV: Laos Crisis, doc. 4"; the text in `sources/frus-text/`);
-- the case: the U.S. Reports; the lower courts on case.law's open PDFs;
+- the case: on case.law first, the U.S. Reports and the lower courts alike (the forms: CLAUDE.md, "Entries", the entries guide's markup); not Justia or CourtListener, which refuse this host;
 - the Attorney General's and OLC's opinions (`daybook/opinions.yaml`); the *Bulletin* (`daybook/bulletin/`, `sources/dsb-pages.json`);
 - a recording: the Miller Center's free page (`daybook/recordings/millercenter.yaml`), PRDE's only where it has none ("(PRDE only)"); never PRDE's transcripts;
 - Johnson's Daily Diary (`daybook/diary.yaml`, 50 days), "[President's Daily Diary, Aug. 4, 1964](…), images 3, 5 (LBJ Library; National Archives Catalog)";

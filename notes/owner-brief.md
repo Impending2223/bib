@@ -768,3 +768,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Which Theoharis is this?" (Nov. 15: the card is Theoharis and Cox, *The Boss* (1988), cited once; *From the Secret Files* (1991) behind one To check, no card; *Spying on Americans* (1978) added to the list to procure; handoff 3d3 named precisely.)
 
 "Alright, I believe I've procured you everything on your to-procure list but O'Reilly's Hoover and the Un-Americans. Please check to confirm. Are you able to procure the public items you've listed?" (Nov. 15: all confirmed on the Drive, with Katzenbach and the cards' books besides; the open records reached and their addresses in handoff 3d3; the 1977 task force report and the Ervin hearings not reached.)
+
+"Claude ... can you access case.law?" and "Sorry, you responded to that one in your reply. I sent that after I saw you headed to justia and courtlistener first, which seemed like a waste." and "Please do." (Nov. 15: case.law reached; a line in notes/guide/entries.md, "Markup inside text", and R28's list in the reader's brief: case.law first for every court's opinion.)
