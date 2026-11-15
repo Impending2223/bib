@@ -698,3 +698,51 @@ Is there anything else in the brief or the wording I need to rule on? Is there a
 (My apologies to Kenneth Pollack. I must have been thinking of Jackson, or perhaps Frederick.)" (Nov. 15: R1, R2, R15, R18 and R44 rewritten in notes/briefs/reader.md, with rows in its rulings table; CLAUDE.md, notes/guide/brief.md and notes/threads.md to match; the limits of the batch 12, 15 and 16 briefs struck; the re-read pass, the sport-and-arts sweep, Pollack and the year-only dates queued, handoff C0 3b–3e. R2's addition, R5 and the loose-date placement proposed.)
 
 "And yes, please, add the rule that "a brief may quote your rulings but never adds an exclusion of its own, and any exclusion it carries cites your words or comes out."" (Nov. 15: written into notes/briefs/reader.md, the paragraph above R1, with a row in its rulings table; the briefs of batches 15–18 checked: their remaining limits are the span's, the owner's quoted words, or R18 and R50.)
+
+"The MLK thread should drop "and Washington."
+
+Shouldn't it be "sports, crime, and the arts with no trace in *politics or* policy"?
+
+Do we need "political figures in sport and the arts, and sports [and arts?] figures in politics, are entries"? Do we need my "examples . . . in the rule"?
+
+If we already have Ali and the 1968 Olympics, and, separately, Streisand and Bernstein on the war, our readers and drafters already have as much as I'd ask for. Do we have Jack and Jackie and Casals? Do we have Jack flaunting his bad taste?
+
+I confess I don't recognize the missing entries you've named and I don't mind that they're not in. (I'm not a sports guy.)
+
+R2 looks good.
+
+R5 looks good.
+
+I'll take your recommendations for tagging loosely dated entries, but I'm not sure about your recommendations for the display.
+
+By "ghost" days I meant ""days" that aren't days". "after X" shouldn't be on X's day, but an, uh, intercalary day after X's day. "X bis."
+
+The heading of that intercalary "ghost" day/"fake" day, 偽日 (にせび), is the loose date in the heading line. Not in grey, but in ordinary day styling.
+
+For early, middle, and late, divide each month into thirds, and give entry the day *before* the first portion of that third falls on. "Early May" after "May" and before "May 1."
+
+I don't trust my ability to avoid fencepost errors or count hours enough to know what that corresponds to for the second and third moieties of each month, but I do know that "Mid-May"/"Late May" and "Mid-February"/"Late February" probably take different dates.
+
+For seasons, don't we have astronomical seasons that don't line up with the Gregorian months? Put the intercalary seasons on "ghost" days/"fake" days preceding the first day of the astronomical season.
+
+Year alone goes before "January," which is before "early January," which is before "January 1."
+
+Yes to your gloss of "covered nations": "any nation or state whose politics or policy a source we read treats, with the list of nations (sources/polities.yaml) growing as entries need it."
+
+Yes to your read of R2. I didn't know how to phrase it without either including non-U.S. subnational entities that remain out-of-scope or dropping the several States, which have been in from early on.
+
+I think your "covered nations" gloss should keep Alabama in and NRW out—until I decide it's in.
+
+Yes on the span sentence.
+
+Yes on the proposed revision to R10.
+
+Yes to the extension, on the same tests, of R9, R11, and R13 beyond the United States.
+
+Yes to the revision to R14.
+
+Ah. Hm. I would like to keep, or bring back, whatever filter for "private and social matters" or "remarks with no bearing on public business" we have, or we had, and that we've been working towards.
+
+I know I've been pushing the line, because the readers have left too much out, but I think we still need something like the line we've been working towards refining.
+
+But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, R2, R5, R9, R10, R11, R13, R14, R18, R44 rewritten; the King thread's scope and statement cut to "Martin Luther King, Jr."; notes/proposals/loose-dates.md written; handoff 3c cut to Casals and the owner's question, 3e to the year-only dates and the intercalary days.)

@@ -10,7 +10,7 @@ Scopes taken out of the statements, kept here:
 - South Asia: India and Pakistan; China and Indonesia are threads of their own (the owner's ruling, Oct. 21, 2026, parting India and China). The Sino-Indian war takes South Asia, also China.
 - Cyprus: its own thread, out of Europe and the alliance and the Middle East (Oct. 21, 2026).
 - Oil: the import program (Proclamation 3279 and its amendments, Interior's quotas), the world's oil as it touched policy (OPEC, Libya, the 1967 embargo, the OECD's emergency machinery), out of the Middle East and Economy threads (Oct. 21, 2026); an event that is also the Middle East's (OPEC, Law 80, the embargo) takes Oil in `also` or the reverse. The month's figures are the indicator group Oil (`tools/bib/oil.py`).
-- King: Martin Luther King, Jr., and Washington: the President, the Attorney General, the Bureau (the statement keeps "The President, the Attorney General, the Bureau").
+- King: Martin Luther King, Jr. (the owner, Nov. 15, 2026: "The MLK thread should drop 'and Washington.'"; the statement's "The President, the Attorney General, the Bureau" dropped with it).
 - Black nationalism: Black nationalism (the statement opens "Malcolm X and the Nation of Islam").
 - Civil rights organizations: their campaigns (Albany, Birmingham, the Freedom Rides, Freedom Summer, Selma, the March) are in the place and law threads; King has his own; Malcolm X and the Nation of Islam are in Black nationalism.
 - Africa: Africa, apart from the Congo (its own thread): South Africa, decolonization at the UN.
