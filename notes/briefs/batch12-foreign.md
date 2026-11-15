@@ -24,6 +24,6 @@ The Drive's PDFs carry a text layer in the old TCVN3 font encoding: convert with
 
 ## The owner's rulings of Nov. 12, evening
 
-- The DRV's routine Party circulars stay entries ("we just don't know much about what's happening up there, so we should keep what few clues we have"); commemorations and provincial matters are still passed over and listed.
+- The DRV's routine Party circulars stay entries ("we just don't know much about what's happening up there, so we should keep what few clues we have"). Commemorations and provincial and local matters are entries too (the owner, Nov. 15: "I said Hanoi's commemorations and provincial matters stay in! In!"); the words "still passed over", written here Nov. 12, were not the owner's ruling.
 - A foreign person on FRUS's lists of persons has a name entry (the Names pages: `sources/frus-names/persons.json`): tag `name:<key>` with the key the calendar already uses for the person (`./bib find -t name:<surname>...`), else the FRUS key; where FRUS has several persons of the surname, tag only the one the record names (Marshal G. K. Zhukov is not Yuri Zhukov of *Pravda*).
 
