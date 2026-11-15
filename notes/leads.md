@@ -2426,3 +2426,16 @@ CQ Weekly Report, 1968-08-16:
 ### Graham, *The Uncertain Triumph* (batch 4, Nov. 5–6, 2026; notes/book-checks/graham-uncertain-triumph.md)
 
 - McPherson succeeds Lee White as special counsel, "early in 1966" (133): the day.
+
+## Surveillance at home (Nov. 15, 2026; the owner's questions on King and the FBI; notes/threads.md, "Intelligence; Antisubversion")
+
+Not found in the calendar; each from memory, to be found in a source before it is entered (R4, R50):
+- The FBI's counterintelligence programs as opened: the Communist Party (Aug. 1956, before the span: its 1960s acts), the Socialist Workers Party (Oct. 1961), "White Hate Groups" (Sept. 1964). Church Committee, Book III, "COINTELPRO"; Hearings vol. 6.
+- The 1962 sugar-lobby inquiry: wiretaps approved by Robert Kennedy on an Agriculture official, House Agriculture Committee staff and lobbyists for Dominican interests. Book III, warrantless electronic surveillance.
+- The taps on Hanson Baldwin (*New York Times*) and his secretary and on Lloyd Norman (*Newsweek*) after their 1962 stories on Soviet missiles and the defense budget. Book III.
+- The CIA's taps on the columnists Robert Allen and Paul Scott (Project Mockingbird, 1962–63). The Rockefeller Commission's report (1975); the CIA's "family jewels" (released 2007).
+- The NSA's watch lists of Americans, from 1967 (King and Muhammad Ali among the first names; later Minaret). NSA, *American Cryptology during the Cold War*, Book III (declassified); the National Security Archive's briefing book on Minaret (2013); Book III, "National Security Agency Surveillance."
+- The FBI's check of Agnew's telephone calls in the Chennault affair (Nov. 1968). Church Committee, Book II or III; Hughes, *Chasing Shadows*.
+- The Justice Department's Interdivisional Intelligence Unit (Ramsey Clark, Dec. 1967). Book III; Clark's papers.
+- Walter Jenkins's own word on the King material, if any: DeLoach's memoranda, Jan.–Feb. 1964 (Garrow, *The FBI and Martin Luther King, Jr.*).
+
