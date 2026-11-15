@@ -778,3 +778,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Claude, can you surface the links you're blocked on, inline, in your reply to me? This interface makes it hard for me to copy them from your tool calls. I'd like to just copy and paste them. Try item 3 after you give the links to me." (Nov. 15: the links given; Garrow's 2019 article found open; the 2017–18 release searched, no FBI King file records; the later releases' lists not reached.)
 
 "Could you give me a hyperlinks to each and every other JFK Library oral history we might want to read? Not just for this item, but for anything else in our span. And the same for LBJ Library oral histories." (Nov. 15: notes/oral-histories.md: the 369 citations in the witness registry, 111 persons at the JFK Library and 94 at the LBJ Library, a site-confined search link each, the libraries' sites refusing this host; the full lists wanted for the rest.)
+
+"What would we need to build skeletons for the Near Eastern states, and particularly the Arab states and Israel, in our span?" (Nov. 15: notes/proposals/near-east-skeletons.md; not queued.)
