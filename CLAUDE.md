@@ -99,7 +99,7 @@ A deliberate exception to a `check` warning is tagged `ok:<rule>` on the entry (
 
 ## Working hours
 
-The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays).
+The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays). A request to amend the queue is not queued: it is done at once, ahead of everything in the queue (the owner, Nov. 16: "an 'amend the queue' task takes priority over the items in the queue! immediate!"). In the queue, by default, layout and design changes come before anything token-intensive or complex (the owner, Nov. 16).
 
 ## Publishing
 
