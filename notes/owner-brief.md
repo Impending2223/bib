@@ -794,3 +794,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "No response to "I LOVE GOOGLE PRODUCTS. I LOVE THEM"?"
 
 "Claude. I had to press "approve once" 400 times for your trash calls to go through. That's partly on Anthropic PBC, but it is a cost I had to bear as a result of Google's architecting and UI choices." (Nov. 16: the rule written into the handoff's way of working: count the approvals first, offer the owner's one-step route.)
+
+"Immediate. The Taylor Branch readers appear to have been much better and more thorough at reading the books' footnotes, matching claims to "To check:" pointers, and filling out the witness graph, than other readers, or than your trial/pilot with DeBenedetti. Is there anything in the Taylor Branch readers' methods that we can adapt and standardize?" (Nov. 16: notes/proposals/notes-pass.md.)
