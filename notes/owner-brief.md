@@ -788,3 +788,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Don't we have the RFK OH book?" (Nov. 16: yes; *Robert Kennedy in His Own Words* prints RFK-01 to RFK-08; RFK-09 and -10 not in it; the inventory corrected.)
 
 "JFK OHs not available through the JFKL online: RFK, MLK, EMK. I've shared the others, along with the open OHs of those who share their surnames. (Joseph Rauh's oral history (a duplicate?) has been misfiled under Jack Bell's name.) Please delete the duplicates. I've changed the permission to "editor." I'll give you whatever other permissions you need if you tell me how to give them to you." (Nov. 16: the 400 copies trashed and checked; the 16 new transcripts added to the inventory; the Bell file is Rauh's interview in another file, kept; six of the most-tagged people still without an interview on the Drive.)
+
+"I LOVE GOOGLE PRODUCTS. I LOVE THEM. Are they there now? I've also added an RFK OH folder with the finding aid and page snapshot for the RFK OH collection. Tell me what we should have from there." (Nov. 16: the six there; one new duplicate trashed; notes/oral-histories-rfk-inventory.md: all 266, the cited first.)
