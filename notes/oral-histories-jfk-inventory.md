@@ -1,24 +1,24 @@
-# JFK Library oral histories: the Drive folder against our lists (Nov. 15, 2026; redone Nov. 16 after the owner's second upload)
+# JFK Library oral histories: the Drive folder against our lists (Nov. 15, 2026; redone Nov. 16 after the owner's second and third uploads)
 
 The owner's folder `JFK OH` (Drive `1rFYgNN4FCYLT3wa1r3rNrZo1c9Lyr08v`): 965 files, Nov. 16. 960 transcripts (559 JFK interviews and one of the RFK Oral History Program, RFKOH-KPO-02, Kenneth O'Donnell's second), the finding aid twice over (HTML and XML), the directory snapshot, and the RFK page snapshot (three copies).
 
-**Duplicates:** 400 files are byte-for-byte copies of another file in the folder (checked by SHA-1, every copy downloaded): 397 transcripts, the second copies of the finding aid's HTML and XML, and two of the three RFK snapshots. With them gone the folder holds 565 files, one of each. The list, with the copy kept for each: `notes/oral-histories-jfk-duplicates.tsv`. Not removed: the owner's word first.
+**Duplicates:** 400 files are byte-for-byte copies of another file in the folder (checked by SHA-1, every copy downloaded): 397 transcripts, the second copies of the finding aid's HTML and XML, and two of the three RFK snapshots. With them gone the folder holds 565 files, one of each. The list, with the copy kept for each: `notes/oral-histories-jfk-duplicates.tsv`. Moved to the Drive's trash Nov. 16 at the owner's word ("Please delete the duplicates"); checked after: 581 files left, one file for each of the 577 interviews, the finding aid's HTML and XML, the directory snapshot and the RFK page snapshot.
 
 **The finding aid and the directory:** the finding aid (EAD, "John F. Kennedy Oral History Interviews, 1964-2012") lists 1,333 interviews of 956 people, each with its code, date and a sentence of scope. The directory snapshot is the same list as the library's web page prints it, a link for each of 1,329 (the four without are JFKOH-DVJ-02, GEG-01, MLM-01, RHJ-02). Neither says which transcripts are online: that shows only on each interview's page (the RFK snapshot's "This oral history is not available online"). The RFK Oral History Program is a separate collection, in neither.
 
-**On the Drive now: 560 of the 1,333 interviews (42 percent).**
+**On the Drive now: 576 of the 1,333 interviews (43 percent)**, after the owner's third upload of Nov. 16 (16 transcripts: Bartlett, David Bell, David Bruce, Preston Bruce, Edith Green, Keppel, Kohler, Hodges, Collins, Nolan, Hartsfield, and the file the Library serves as Jack Bell's, JFKOH-JLB-01, which is Joseph Rauh's interview of Dec. 23, 1965 under Bell's code: the Library's misfiling, the same interview as Rauh's own JFKOH-JLR-01 but not the same file, kept). Not available online at the Library (the owner, Nov. 16): Robert Kennedy's, King's and Edward Kennedy's.
 
 ## The interviews our sources cite (`notes/oral-histories.md`, JFK Library, 111 people)
 
 **On the Drive, all of them (73).**
 
-**In the finding aid, none on the Drive (4):** William B. Hartsfield: JFKOH-WBH-01; Robert F. Kennedy: JFKOH-RFK-01, JFKOH-RFK-02, JFKOH-RFK-03, JFKOH-RFK-04, JFKOH-RFK-05, JFKOH-RFK-06, JFKOH-RFK-07, JFKOH-RFK-08, JFKOH-RFK-09, JFKOH-RFK-10; Martin Luther King: JFKOH-MLK-01; John Nolan: JFKOH-JEN-01. Robert Kennedy's ten are not online (the snapshot), but eight of them are in print and on the Drive: *Robert Kennedy in His Own Words* (1988; card `w.robert-kennedy-in-his`, cited 59 times; Drive `1EGJ91-4gtWTlZJ9Ctcv5KDwzZ3o1DJAC`) prints the transcript re-edited against the tapes by the Library's archivists: RFK-01 to RFK-04 (John Bartlow Martin, Feb. 29 and Mar. 1, Apr. 13, Apr. 30, May 14, 1964), RFK-05 to RFK-07 (Anthony Lewis, Burke Marshall present, Dec. 4, 6 and 22, 1964) and RFK-08 (Schlesinger, Feb. 27, 1965). Not in it: RFK-09 (July 20, 1967) and RFK-10 (Feb. 13, 1965). The other three to look for on their pages.
+**In the finding aid, none on the Drive (4):** William B. Hartsfield: JFKOH-WBH-01; Robert F. Kennedy: JFKOH-RFK-01, JFKOH-RFK-02, JFKOH-RFK-03, JFKOH-RFK-04, JFKOH-RFK-05, JFKOH-RFK-06, JFKOH-RFK-07, JFKOH-RFK-08, JFKOH-RFK-09, JFKOH-RFK-10; Martin Luther King: JFKOH-MLK-01; John Nolan: JFKOH-JEN-01. Robert Kennedy's ten are not online, but eight of them are in print and on the Drive: *Robert Kennedy in His Own Words* (1988; card `w.robert-kennedy-in-his`, cited 59 times; Drive `1EGJ91-4gtWTlZJ9Ctcv5KDwzZ3o1DJAC`) prints the transcript re-edited against the tapes by the Library's archivists: RFK-01 to RFK-04 (John Bartlow Martin, Feb. 29 and Mar. 1, Apr. 13, Apr. 30, May 14, 1964), RFK-05 to RFK-07 (Anthony Lewis, Burke Marshall present, Dec. 4, 6 and 22, 1964) and RFK-08 (Schlesinger, Feb. 27, 1965). Not in it: RFK-09 (July 20, 1967) and RFK-10 (Feb. 13, 1965). King's is not online; Hartsfield's and Nolan's are now on the Drive.
 
 **Not in the finding aid (34):** most are the RFK Oral History Program's; the others probably the same, or another library's, or a source's slip. (group) The Federal Government and Urban Poverty; Adam Walinsky; Alan Raywid; Albert Blumenthal; Allard Lowenstein; Anthony Lewis; Cesar Chavez; Clark Mollenhoff; David Hackett; Dun Gifford; Frank Burns; Frank Mankiewicz; Fred Harris; George Plimpton; Gerald Tremblay; Jack Conway; James Whittaker; Jeff Greenfield; John Douglas; John English; Kenneth O'Donnell; Peter Edelman; Rafer Johnson; Ramsey Clark; Richard Cull; Richard Wade; Ronnie Eldridge; Thomas Johnston; Thomas Jones; Walter Reuther; Walter Sheridan; William Dunfey; William Hundley; William Orrick.
 
-## Beyond our sources: people the calendar tags with an interview not on the Drive (124)
+## Beyond our sources: people the calendar tags with an interview not on the Drive (115)
 
-Of the 337 people in the finding aid who have a `name:` tag in the calendar, 212 have every interview on the Drive, one (Robert H. Johnson) all but his second (which has no link in the finding aid), and 124 none. These are the 124, by how many calendar entries tag them; some will be among those not online. Matched by surname and given name: a few may be namesakes. Of the 560 interviews on the Drive, 190 are of people with no name tag.
+After the third upload. Not online at the Library: Robert Kennedy, King, Edward Kennedy. The rest by how many calendar entries tag them; matched by surname and given name, a few may be namesakes.
 
 | Person | Calendar entries tagging | Interviews |
 |---|---|---|
@@ -31,16 +31,8 @@ Of the 337 people in the finding aid who have a `name:` tag in the calendar, 212
 | Rowe, James H., Jr. | 54 | JFKOH-JHR-01 (#1, 1964-05-10) |
 | Lewis, John R. | 46 | JFKOH-JRL-01 (#1, 2004-03-19) |
 | Manatos, Mike N. | 37 | JFKOH-MNM-01 (#1, 1970-10-30) |
-| Green, Edith S. | 35 | JFKOH-ESG-01 (#1, 1974-06-22) |
-| Keppel, Francis | 30 | JFKOH-FK-01 (#1, 1964-09-18) |
 | Anderson, George W. | 29 | JFKOH-GWA-01 (#1, 1967-04-25) |
-| Hodges, Luther H. | 28 | JFKOH-LHH-01 (#1, 1964-03-21), JFKOH-LHH-02 (#2, 1964-04-20), JFKOH-LHH-03 (#3, 1964-05-18) |
-| Bell, David E. | 27 | JFKOH-DEB-01 (#1, 1964-07-11), JFKOH-DEB-02 (#2, 1965-01-02) |
-| Bruce, David K.E. | 25 | JFKOH-DKB-01 (#1, ) |
 | Wilson, Henry Hall | 25 | JFKOH-HHW-01 (#1, 1968-11-27), JFKOH-HHW-02 (#2, 1979-04-20) |
-| Kohler, Foy D. | 23 | JFKOH-FOK-01 (#1, 1964-10-01) |
-| Collins, Leroy | 22 | JFKOH-LRC-01 (#1, 1965-11-02) |
-| Bartlett, Charles L. | 20 | JFKOH-CLB-01 (#1, 1965-01-06), JFKOH-CLB-02 (#2, 1965-02-20) |
 | Murphy, Charles S. | 19 | JFKOH-CSM-01 (#1, 1964-06-30) |
 | O'Connor, Frank J. | 18 | JFKOH-FJO-01 (#1, 1964-05-18) |
 | Aspinall, Wayne N. | 18 | JFKOH-WNA-01 (#1, 1965-11-10) |
@@ -87,7 +79,6 @@ Of the 337 people in the finding aid who have a `name:` tag in the calendar, 212
 | Battle, Lucius D. | 5 | JFKOH-LDB-01 (#1, 1968-07-09), JFKOH-LDB-02 (#2, 1968-08-27), JFKOH-LDB-03 (#3, 1968-10-31) |
 | Perez, Leander H. | 5 | JFKOH-LHP-01 (#1, 1967-05-22) |
 | Rees, Thomas M. | 5 | JFKOH-TMR-01 (#1, 1969-03-05) |
-| Hartsfield, William B. | 5 | JFKOH-WBH-01 (#1, 1966-01-06) |
 | Coleman, Barbara J. | 4 | JFKOH-BJC-01 (#1, 1968-01-19), JFKOH-BJC-02 (#2, 1969-10-24), JFKOH-BJC-03 (#3, 1969-10-31) |
 | Anderson, Glenn M. | 4 | JFKOH-GMA-01 (#1, 1970-11-12), JFKOH-GMA-02 (#2, 1971-01-31) |
 | Moss, John E. | 4 | JFKOH-JEM-01 (#1, 1965-04-13) |
