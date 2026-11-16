@@ -469,6 +469,14 @@ def cmd_audit_patches(series, a):
     return 0
 
 
+def cmd_notes_coverage(series, a):
+    """The pages the calendar cites for a work against the pages its notes are registered for (tools/bib/notescov.py)."""
+    from . import notescov
+    for card in a.cards:
+        print(notescov.report(card, a.limit))
+    return 0
+
+
 def cmd_stemma(series, a):
     """Each unit's tree of witnesses, from the note's items to the roots (tools/bib/witnesses.py); --leads the open
     upstreams."""
@@ -953,6 +961,9 @@ def main(argv=None):
     x.add_argument("ids", nargs="*")
     x.add_argument("--inline", action="store_true")
     x.add_argument("--write", action="store_true")
+    x = sub.add_parser("notes-coverage", help="pages a work is cited for with no notes registered: notes-coverage CARD...")
+    x.add_argument("cards", nargs="+")
+    x.add_argument("--limit", type=int, default=60)
     x = sub.add_parser("stemma", help="each unit's witnesses to the roots: stemma ID... [--unit B]; --leads")
     x.add_argument("ids", nargs="*")
     x.add_argument("--unit")
