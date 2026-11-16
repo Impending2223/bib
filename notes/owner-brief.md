@@ -792,3 +792,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "I LOVE GOOGLE PRODUCTS. I LOVE THEM. Are they there now? I've also added an RFK OH folder with the finding aid and page snapshot for the RFK OH collection. Tell me what we should have from there." (Nov. 16: the six there; one new duplicate trashed; notes/oral-histories-rfk-inventory.md: all 266, the cited first.)
 
 "No response to "I LOVE GOOGLE PRODUCTS. I LOVE THEM"?"
+
+"Claude. I had to press "approve once" 400 times for your trash calls to go through. That's partly on Anthropic PBC, but it is a cost I had to bear as a result of Google's architecting and UI choices." (Nov. 16: the rule written into the handoff's way of working: count the approvals first, offer the owner's one-step route.)

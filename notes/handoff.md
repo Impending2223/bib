@@ -5,6 +5,7 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 ## The new way of working (the owner, Nov. 10, 2026: "I approve both")
 - CLAUDE.md is the core; topics in `notes/guide/`. Row readers work from `notes/briefs/reader-card.md`.
 - Models: readers on Sonnet with the card; mechanical work (merging, duplicate flags, scripts) on Sonnet or Haiku; Opus audits a sample of each reader's rulings and every disagreement. At most 4-6 agents at once (the machine has 4 processors).
+- Bulk changes the owner must approve call by call (Drive trash, sharing, anything outside the repo): before starting, say how many approvals it will take and offer the owner's own one-step route instead (for duplicate files, a Drive search the owner can select-all and trash, or the list to work from). The owner, Nov. 16: "I had to press 'approve once' 400 times for your trash calls to go through."
 - Pilot first: `inbox/2026-11-10-pilot-humphrey.yaml` (Sonnet, the card) is to be audited row by row before anything scales.
 
 ## The queue (rebuilt Nov. 13, 2026, morning, against the tree), in order
