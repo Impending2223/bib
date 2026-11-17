@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vispage, vnmap
+from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
 from . import conventions
 from . import oilworld
 from . import budgets
@@ -87,6 +87,8 @@ def thread_members(lst):
             continue
         for t in entry_threads(lst, e):
             out.setdefault(t, []).append(e)
+    for ms in out.values():               # in the calendar's order: a loose date where it is shown (loose.py, STYLE 2)
+        ms.sort(key=loose.order_key)
     _MEMBERS[id(lst)] = (key, out)
     return out
 
@@ -108,6 +110,8 @@ def index_members(lst):
             continue
         for t in dict.fromkeys([e["thread"]] + list(e.get("also") or [])):
             out.setdefault(t, []).append(e)
+    for ms in out.values():
+        ms.sort(key=loose.order_key)
     _OWN[id(lst)] = (key, out)
     return out
 
@@ -186,6 +190,8 @@ def program_html(series, lst, e, year, text_html):
 def date_label(e, year=None):
     """A calendar entry's label: its "when", with the year added when it is not `year`."""
     y = (e.get("date") or "")[:4]
+    if str(e["when"]).startswith(y):     # a year alone ("1962", "1962, spring") names its year
+        return e["when"]
     return f"{e['when']}, {y}" if y and y != year else e["when"]
 
 
@@ -254,7 +260,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         slug = e["id"].split(".", 2)[2]
         members = thread_members(lst).get(slug, [])
         half = calsplit.CUR["half"]
-        first = min((calsplit.half_of_date(lst, m["date"]) for m in members), default=1)
+        first = min((calsplit.half_of_date(lst, loose.place_iso(m)) for m in members), default=1)
         statement = calsplit.statement(lst, e, half, first, members)   # written once, chosen by the part's range
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
@@ -334,7 +340,7 @@ def ghost_thread_html(lst, e):
     members = index_members(lst).get(slug, [])          # its dates: its own entries (calsplit.py, STYLE 15)
 
     def here(ms):
-        return [m for m in ms if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half]
+        return [m for m in ms if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, loose.place_iso(m)) == half]
     mine = here(members) or here(thread_members(lst).get(slug, []))   # a line where its family has entries
     if not mine:
         return ""
@@ -354,7 +360,7 @@ def redirect_thread_html(lst, e):
     part, nothing where none has (calsplit.py, STYLE 10)."""
     half = calsplit.CUR["half"]
     def here(to):
-        return any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+        return any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, loose.place_iso(m)) == half
                    for m in thread_members(lst).get(to, []))
     tos = [to for to in store.as_list(e["see"]) if here(to)]
     if not tos:
@@ -376,7 +382,7 @@ def see_also_html(lst, e):
     (calsplit.py, STYLE 11)."""
     half = calsplit.CUR["half"]
     tos = [to for to in store.as_list(e.get("see_also"))
-           if any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+           if any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, loose.place_iso(m)) == half
                   for m in thread_members(lst).get(to, []))]
     if not tos:
         return ""
@@ -441,7 +447,7 @@ def half_sections(lst, half):
         if calsplit.half_of_section(lst, s) is None:
             c = copy.copy(s)
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
-                         or any(calsplit.half_of_date(lst, m["date"]) == half
+                         or any(calsplit.half_of_date(lst, loose.place_iso(m)) == half
                                 for t in store.as_list(e.get("see") or e["id"].split(".", 2)[2])
                                 for m in members.get(t, []))]
             if calsplit.index_page(lst):     # each year's under its page's name (th-cal1961), the index's th
@@ -491,7 +497,7 @@ def cal_index(lst):
             continue
         by = {}
         for m in ms:
-            by.setdefault(calsplit.half_of_date(lst, m["date"]), set()).add(str(m["date"])[:4])
+            by.setdefault(calsplit.half_of_date(lst, loose.place_iso(m)), set()).add(loose.place_iso(m)[:4])
         hs = sorted(by)
         links = ", ".join(f'<a href="{attr(calsplit.href(lst, h, calsplit.thread_anchor(lst, slug, h)))}">{y}</a>'
                           for h in hs for y in sorted(by[h]))

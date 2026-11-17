@@ -68,7 +68,7 @@ import calendar
 import html
 import re
 
-from . import calsplit, store
+from . import calsplit, loose, store
 
 MON3 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -327,7 +327,7 @@ def finish(page, lst, half=None, defer=False):
         page = style(page)
     by = {}
     for aid, lab, e in found:
-        h = calsplit.half_of_date(lst, e.get("date") or "")
+        h = calsplit.half_of_date(lst, loose.place_iso(e))
         for t in entry_threads(lst, e):
             by.setdefault((h, t), []).append((aid, lab))
 

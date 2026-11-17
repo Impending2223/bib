@@ -61,7 +61,7 @@ def derived_tags(series, lst, sec, e):
     if lst.kind == "calendar":
         if "thread" in e:
             t += [f"thread:{e['thread']}"] + [f"thread:{x}" for x in e.get("also", [])]
-            t += ["event", f"month:{e['date'][:7]}"]
+            t += ["event"] + ([f"month:{e['date'][:7]}"] if len(str(e.get("date") or "")) >= 7 else [])
         else:
             t.append("thread")
     else:
@@ -474,6 +474,13 @@ def cmd_notes_coverage(series, a):
     from . import notescov
     for card in a.cards:
         print(notescov.report(card, a.limit))
+    return 0
+
+
+def cmd_loose_dates(series, a):
+    """`at` set on month-dated calendar entries from their `when` (tools/bib/loosedates.py): a dry run by default."""
+    from . import loosedates
+    print(loosedates.run(series, apply=a.apply, listing=a.list))
     return 0
 
 
@@ -964,6 +971,9 @@ def main(argv=None):
     x = sub.add_parser("notes-coverage", help="pages a work is cited for with no notes registered: notes-coverage CARD...")
     x.add_argument("cards", nargs="+")
     x.add_argument("--limit", type=int, default=60)
+    x = sub.add_parser("loose-dates", help="set at: on month-dated calendar entries from their when (dry run; --apply)")
+    x.add_argument("--apply", action="store_true")
+    x.add_argument("--list", action="store_true", help="name the entries left for a reader")
     x = sub.add_parser("stemma", help="each unit's witnesses to the roots: stemma ID... [--unit B]; --leads")
     x.add_argument("ids", nargs="*")
     x.add_argument("--unit")

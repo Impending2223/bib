@@ -12,7 +12,7 @@ STYLE
 import html
 import re
 
-from . import calsplit, store
+from . import calsplit, loose, store
 
 LABEL = "As reported"
 
@@ -43,7 +43,7 @@ def register_html(lst, thread_name, thread_key):
     for t in sorted(rows, key=lambda t: thread_key(lst, t)):
         out.append(f'<h3>{html.escape(thread_name(lst, t))}</h3><ul>')
         for e in sorted(rows[t], key=lambda e: str(e["date"])):
-            half = calsplit.half_of_date(lst, e["date"])
+            half = calsplit.half_of_date(lst, loose.place_iso(e))
             link = calsplit.href(lst, half, e["id"])
             out.append(f'<li><a href="{html.escape(link)}">{html.escape(str(e.get("when") or e["date"]))}, '
                        f'{str(e["date"])[:4]}</a>: {_inline(e.get("c"))}</li>')

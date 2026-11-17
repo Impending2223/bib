@@ -1335,7 +1335,7 @@ def first_cites(series):
     """{(entry id, card id)}: each card's first citation in each half of the calendar, in the order the pages show
     the entries (section by section; a month's undated entries first, then by date)."""
     if getattr(series, "_first_cites", None) is None:
-        from . import calsplit
+        from . import calsplit, loose
         cat, out = series.works, set()
         for lst in series.lists.values():
             if lst.kind != "calendar":
@@ -1345,10 +1345,12 @@ def first_cites(series):
                 for i, e in enumerate(sec.entries):
                     if e["id"].startswith(f"{lst.key}.thread."):
                         continue
-                    d = str(e.get("date") or "")
-                    rows.append(((calsplit.half_of_section(lst, sec) or 1), k, 0 if len(d) <= 7 else 1, d, i, e))
+                    # the page it is shown on, and its place there (a loose date where it is shown: loose.py)
+                    h = (calsplit.half_of_date(lst, loose.place_iso(e)) if loose.moves(e) and calsplit.cfg(lst)
+                         else (calsplit.half_of_section(lst, sec) or 1))
+                    rows.append((h, loose.order_key(e), k, i, e))
             seen = set()
-            for h, _, _, _, _, e in sorted(rows, key=lambda r: r[:5]):
+            for h, _, _, _, e in sorted(rows, key=lambda r: r[:4]):
                 for m in re.finditer(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", e.get("n") or ""):
                     cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
                     if (h, cid) not in seen:

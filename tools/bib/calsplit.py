@@ -119,7 +119,7 @@ STYLE:
 import datetime
 import re
 
-from . import datelist, store
+from . import datelist, loose, store
 
 # the part being built (0, the index) and the page kind, set by the build around each part
 CUR = {"half": None, "mode": "list"}
@@ -285,6 +285,7 @@ def anchors(lst):
     if key in _ANCHORS:
         return _ANCHORS[key]
     bags = [set() for _ in parts(lst)]
+    guests, away = loose.hosts(lst)
     for sec in lst.sections:
         h = half_of_section(lst, sec)
         if h is None:
@@ -296,6 +297,12 @@ def anchors(lst):
             if s.extra.get("old_id"):
                 bag.add(str(s.extra["old_id"]))
             for e in s.entries:
+                if e["id"] in away:          # shown in another part (loose.py, STYLE 5): its anchors there
+                    continue
+                bag.add(e["id"])
+                for a in e.get("aliases", []):
+                    bag.add(a)
+            for e in guests.get(s.id, []):
                 bag.add(e["id"])
                 for a in e.get("aliases", []):
                     bag.add(a)
@@ -509,14 +516,14 @@ def thread_dates_html(lst, slug, members, esc):
     if half is None or not cfg(lst):
         mine, before, after = members, None, None
     else:
-        mine = [m for m in members if half_of_date(lst, m["date"]) == half]
-        earlier = [m for m in members if half_of_date(lst, m["date"]) < half]
-        later = [m for m in members if half_of_date(lst, m["date"]) > half]
+        mine = [m for m in members if half_of_date(lst, loose.place_iso(m)) == half]
+        earlier = [m for m in members if half_of_date(lst, loose.place_iso(m)) < half]
+        later = [m for m in members if half_of_date(lst, loose.place_iso(m)) > half]
         before = earlier[-1] if earlier else None
         after = later[0] if later else None
 
     def cross(m):
-        other = half_of_date(lst, m["date"])
+        other = half_of_date(lst, loose.place_iso(m))
         y = str(m["date"])[:4]
         return (f'<a class="tx ty" href="{href(lst, other, thread_anchor(lst, slug, other))}">{y}</a> '
                 f'<a class="tx" href="{href(lst, other, m["id"])}">{esc(m["when"])}</a>')
