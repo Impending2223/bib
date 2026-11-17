@@ -2,6 +2,12 @@
 
 The owner's folder `RFK OH` (Drive `1sChFLbuSMINeixPDqb26oieHlHynxNs_`), Nov. 16: the finding aid (`RFKOH-FA.xml`, `.html`) and the directory snapshot. Held already, in `JFK OH`: RFKOH-KPO-02 (Kenneth O'Donnell's second).
 
+**The folder checked, Nov. 17:** 258 files: 252 transcripts, one for each of 252 interviews, no two the same interview; the finding aid (HTML twice, XML three times) and the directory snapshot. One transcript's name differs from the finding aid: `RFKOH-TJR-01-TR.pdf`, no such code, is probably Thomas R. Jones's first (RFKOH-TRJ-01; his second is there); `RFKOH-PJL-O1-TR.pdf` is PJL-01. With RFKOH-KPO-02 in the `JFK OH` folder, 253 of the 266 are held, or 254 with Jones.
+
+**Not on the Drive (13, or 14 if the Jones file is not his first):** Cesar Chavez (CEC-01, Jan. 28, 1970; cited by our sources); Eunice Kennedy Shriver (EKS-01, -02, -03, 1971–72); Eli S. Jacobs (ESJ-01, -02, -03, 1976–79); James E. Tolan (JET-01 to -05, 1969); Justin N. Feldman's second (JNF-02, Nov. 26, 1969); Theodore R. Kupferman (TRK-01, Nov. 3, 1970). Whether each is online shows only on its page: https://www.jfklibrary.org/asset-viewer/archives/ and the code (RFKOH-CEC-01 ...).
+
+**The folder's spare copies:** the finding aid's second HTML and second and third XML (three files); not yet compared or removed.
+
 **The collection:** the Robert F. Kennedy Oral History Program, "interviews conducted with individuals who have recollections of events and people associated with Robert F. Kennedy": 266 interviews of 118 people (the finding aid; "approximately 300" by its own abstract), recorded mostly in 1969–70 (168), the rest to 1981. Each has a link in the finding aid; which transcripts are online shows only on each interview's page.
 
 **What we should have: all of it.** Every interviewee is there for Robert Kennedy, and nearly all of what they recall falls in the span: the Justice Department, the Senate years, New York, the campaign of 1968. In order:
