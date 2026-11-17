@@ -124,8 +124,42 @@ entries:
     date: '1961-03-01'
     thread: china-leadership
     c: 'Mao initials Zhou Enlai''s letter: grain short by over 4.4 billion jin in the first half-year and 3 billion in the third quarter; 10 billion jin to be imported this year, 5.24 billion under contract, 5 billion in negotiation.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 1, 1961. Made public: 2013. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 1, 1961. [[w.zhou-enlai-nianpu-1949]], II, 394, Mar. 1, 1961 (Zhou''s letter to Mao on grain imports, by the reckoning to Feb. 22). Made public: 2013. Names: Mao Zedong, Zhou Enlai.'
+    src:
+      c: 3aa0e71f
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 1, 1961: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 394, Mar. 1, 1961: A-B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-nianpu-1949
+        reads: the second and third quarters short by over 7.4 billion jin by the reckoning to Feb. 22
+        at: II, 394, Mar. 1, 1961
+  - id: cal.1961-03-01.china-leadership-2
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    also: [farm]
+    c: 'Zhou Enlai settles the Center''s reply on cotton cloth rations for Sinkiang: with grain short this year, the cotton harvest not to be overestimated, so no cloth coupons this spring, and few in autumn and next spring.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03-01.china-leadership-3
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    also: [soviet-union, trade]
+    c: Zhou Enlai receives members of a Soviet delegation, Kumykin, Deputy Minister of Foreign Trade, and Arkhipov, First Vice-Chairman of the State Committee for Foreign Economic Relations, and speaks on Sino-Soviet economic and trade relations.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+  - id: cal.1961-03-01.china-leadership-4
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    also: [farm]
+    c: 'Zhou Enlai settles the Center''s comment forwarding the Liaoning light industry office''s report on making artificial meat extract: grain and light industry ministries to set up factories as in Liaoning; in the southern provinces, now spring, to press substitute foods, adding chlorella leaf-egg and others to the plans.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 395 (Mar. 1, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -171,6 +205,14 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 358: all'
     tags: [name:rockefeller-nelson, name:harriman-w-averell, state:ny]
+  - id: cal.1961-03-02.china-leadership
+    when: Mar. 2
+    date: '1961-03-02'
+    thread: china-leadership
+    also: [farm]
+    c: 'On the notes of Mao''s talk on the people''s commune system and some policies (his remarks of Feb. 6–12 to Jiang Hua, Huo Shilian, Lin Pingjia, Tian Jiaying, Hu Qiaomu and others: communes too large cause equalitarianism and blind command; production and accounting units not to be large; a regulation on communes; production teams'' power to be raised; policy fixed), Zhou Enlai proposes printing them for those at the "Three North" conference.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 395 (Mar. 2, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-03.conservative-movement
     when: Mar. 3
     date: '1961-03-03'
@@ -278,6 +320,14 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1961-03-03.china-leadership
+    when: Mar. 3
+    date: '1961-03-03'
+    thread: china-leadership
+    also: [economy]
+    c: Zhou Enlai with Deng Xiaoping, Peng Zhen, Li Xiannian, Chen Yi, Luo Ruiqing, Kang Sheng and Yang Shangkun on what they saw on tour; that evening at the enlarged Standing Committee Liu Shaoqi calls, which hears Deng and others on it and discusses imports and exports.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 3, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian, Chen Yi, Luo Ruiqing, Kang Sheng.'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, name:chen-yi, name:luo-ruiqing, name:kang-sheng, vis:only:prc]
   - id: cal.1961-03-04.economy
     when: Mar. 4–6
     date: '1961-03-04'
@@ -351,8 +401,20 @@ entries:
     thread: china-leadership
     also: [soviet-union, cuba]
     c: 'Canton, the Xiaodao guesthouse. The enlarged Politburo Standing Committee, Mao presiding (Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu, Hu Qiaomu): the world; the first draft of the communes'' working regulations; the Soviet offer of a million tons of grain on loan and the shipment through of 500,000 tons of Cuban sugar.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 4, 1961. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu, Hu Qiaomu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 4, 1961. [[w.zhou-enlai-nianpu-1949]], II, 396, Mar. 4, 1961 (Zhou''s evening talk with Mao). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu, Hu Qiaomu.'
+    src:
+      c: b09cf164
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 4, 1961: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 396, Mar. 4, 1961: B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:chen-boda, name:tao-zhu, vis:only:prc]
+  - id: cal.1961-03-04.china-leadership-2
+    when: Mar. 4
+    date: '1961-03-04'
+    thread: china-leadership
+    c: Zhou Enlai flies to Canton at 2 p.m.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 4, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-05.economy
     when: Mar. 5
     date: '1961-03-05'
@@ -370,7 +432,12 @@ entries:
     date: '1961-03-05'
     thread: china-leadership
     c: 'Canton. The enlarged Standing Committee, Mao presiding; Zhou Enlai on industry and supply. Mao on the communes since the second Zhengzhou meeting: before Lushan the facts known, after it the fight on the right silenced the truth (Henan''s 24 billion jin reported as over 40) and brought high estimates, high procurement; the fight on the left, four months, cut off by Peng Dehuai; Anhui, Shandong, Henan, Gansu too late to care for the people''s food.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 5, 1961. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Peng Dehuai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 5, 1961. [[w.zhou-enlai-nianpu-1949]], II, 396, Mar. 5, 1961 (Zhou on industry and supply). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Peng Dehuai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu.'
+    src:
+      c: 792150e5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 5, 1961: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 396, Mar. 5, 1961: C'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:peng-dehuai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:chen-boda, name:tao-zhu, vis:only:prc]
   - id: cal.1961-03-06.civil-rights-the-executive
     when: Mar. 6
@@ -624,6 +691,22 @@ entries:
     c: '5 p.m., the "fish room": a final conference of more than twenty on the address to the Latin American diplomats. Twice Kennedy calls Goodwin to the Oval Office: "I don''t want it on television. I can''t go to the well too often. This is not for the American people, it''s a message to Latin America. Let''s save our television for something like health or education. Make sure the speech is beamed to Latin America. Keep repeating it the next day."'
     n: '[[w.goodwin-remembering-america]], 154 (Goodwin''s account). Names: Kennedy, Goodwin.'
     tags: [name:kennedy-john-f, name:goodwin-richard-n]
+  - id: cal.1961-03-07.china-leadership
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai with the officials concerned on capital construction and transport; on the 10th, 12th and 28th he calls the ministries' heads again on adjusting the year's capital construction plan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 7, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-03-07.china-leadership-2
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: china-leadership
+    also: [farm]
+    c: At the Secretariat Zhou Enlai hears Deng Xiaoping relay Mao's talk on the commune system and industrial output; it decides to call, on the 11th, the heads of the North China, Northeast and Northwest bureaus and the provincial first secretaries to study the commune system.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 7, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-08.africa
     when: Mar. 8
     date: '1961-03-08'
@@ -678,6 +761,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-08.china-leadership
+    when: Mar. 8
+    date: '1961-03-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai receives the socialist countries'' envoys in Peking and describes China''s state. To overcome the famine: rely first on the Chinese people; cut rations, low standards, vegetables and melons for grain, substitute foods; thrift and more output to keep industry; keep to the masses and the hard, plain style of the war years. Last year''s trade debts with the brother countries to be repaid later and this year''s imports and exports cut, so they bear China''s farm difficulty, which makes China uneasy.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 8, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, polity:hungary, polity:gdr, name:zhou-enlai, vis:only:prc+ussr]
+  - id: cal.1961-03-08.china-leadership-2
+    when: Mar. 8
+    date: '1961-03-08'
+    thread: china-leadership
+    also: [soviet-union, trade, cuba]
+    c: 'Zhou Enlai, for the Center, answers orally to Chervonenko Khrushchev''s letter of Feb. 27 to Mao offering grain and Cuban sugar on credit. In face of the grain shortage China first mobilizes its own strength, then buys more on deferred payment from the world market, so the Soviet offer would be held in reserve and asked for only if purchases fail. On 500,000 tons of Cuban sugar: if not urgent for the Soviet market, China would accept this aid.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 8, 1961). Made public: 1997. Names: Zhou Enlai, Chervonenko, Khrushchev, Mao Zedong.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc+ussr]
   - id: cal.1961-03-09.laos
     when: Mar. 9
     date: '1961-03-09'
@@ -1146,7 +1245,12 @@ entries:
     date: '1961-03-11'
     thread: china-leadership
     c: Peking. Liu Shaoqi, Zhou Enlai, Chen Yun and Deng Xiaoping hold the "Three North" conference of the North China, Northeast and Northwest bureaus and their provinces, on the communes' system and working regulations.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). Made public: 2013. Names: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). [[w.zhou-enlai-nianpu-1949]], II, 397, Mar. 11–13, 1961 (Zhou with Liu at the "Three North" conference). Made public: 2013. Names: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
+    src:
+      c: 5f477d42
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 10, 1961: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 397, Mar. 11–13, 1961: B'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-03-11.china-leadership
     when: Mar. 11
@@ -1181,6 +1285,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-12.china-leadership
+    when: Mar. 12
+    date: '1961-03-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai with Chen Yi and He Long at the Peking Workers'' Gymnasium watches table tennis training and receives the players for the 26th World Table Tennis Championships: do honor to the country in play and style, not hold thoughts back, no pride in victory or gloom in defeat, far sight; he asks the two Marshals to tell their war experience, for a match is like a war and victory and defeat are the common lot of soldiers, dialectically one.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 12, 1961). Names: Zhou Enlai, Chen Yi, He Long.'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:he-long]
+  - id: cal.1961-03-12.china-leadership-2
+    when: Mar. 12
+    date: '1961-03-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai to U Nu, by letter: he welcomes U Nu to Yunnan on holiday in the first half of April and will go to Yunnan to meet him.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 12, 1961). Made public: 1997. Names: Zhou Enlai, U Nu.'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
   - id: cal.1961-03-13.latin-america
     when: Mar. 13
     date: '1961-03-13'
@@ -1317,6 +1437,14 @@ entries:
     c: 'Canton, the Three South conference; Mao speaks: the two egalitarianisms to be solved, or the masses'' zeal will not be roused; a set of regulations for the communes, heard now, decided after further inquiry.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. Made public: 2013. Names: Mao Zedong.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-13.china-leadership-3
+    when: Mar. 13
+    date: '1961-03-13'
+    thread: china-leadership
+    also: [indonesia, china]
+    c: 'Zhou Enlai receives Indonesia''s Ambassador, Sukarni. China''s entry to the United Nations is joined to the Taiwan question, two sides of one problem; America''s seating the Taiwan authorities there for China is laughable; as long as Taiwan''s delegate stays China cannot enter. To Sukarni''s "1961 will be the year of the People''s Republic": China is a new state, still backward; building it needs a long time.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:indonesia, polity:un, name:zhou-enlai, vis:only:prc+indonesia]
   - id: cal.1961-03-14.vietnam-hanoi
     when: Mar. 14
     date: '1961-03-14'
@@ -1360,7 +1488,12 @@ entries:
     date: '1961-03-14'
     thread: china-leadership
     c: 'Canton. The enlarged Standing Committee, Mao presiding, with the Three North conference''s men arrived (Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen and the regional secretaries): the draft regulations, too long and too mixed, to be revised; the meeting to end on the 20th.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 14, 1961. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Li Xuefeng, Liu Lantao, Tao Zhu, Song Renqiong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 14, 1961. [[w.zhou-enlai-nianpu-1949]], II, 398, Mar. 14, 1961 (Zhou present). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Li Xuefeng, Liu Lantao, Tao Zhu, Song Renqiong.'
+    src:
+      c: 6cd882b5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 14, 1961: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 398, Mar. 14, 1961: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1961-03-15.africa
     when: Mar. 15
@@ -1509,7 +1642,12 @@ entries:
     date: '1961-03-15'
     thread: china-leadership
     c: 'Canton. The Central Work Conference, Mao presiding: the regional bureaus'' and provinces'' secretaries. It adopts the draft Working Regulations for the Rural People''s Communes (the "Sixty Articles"), the Center''s letter to all members on discussing them, and its letter on investigation. The draft holds down the commune''s power, makes the brigade the main accounting unit, part of the ownership with the team, and restores the higher cooperatives'' rules. Mao: the first time since the communes that the center sat down together on farming.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). Made public: 2013. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961. Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). Made public: 2013. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961. Names: Mao Zedong, Deng Xiaoping.'
+    src:
+      c: e83e5d0d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 15, 1961: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 398–99, Mar. 15–23, 1961: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-16.middle-east
     when: Mar. 16
@@ -1778,6 +1916,14 @@ entries:
     time_band: early morning
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-19.china-leadership-2
+    when: Mar. 19
+    date: '1961-03-19'
+    thread: china-leadership
+    also: [farm]
+    c: 'At the Central-South and North China groups Zhou Enlai on investigation, facts and democratic centralism: since entering the cities, and in recent years, too little investigation, too little truth, so the "five winds" were not at once corrected. Mao''s essay on investigation is a view of the world and a method; good and bad to be judged from what exists, not from subjective fancy; dare to hear other views and talk with those who hold them; compare, synthesize, analyze; the fault now is too much command and too little mass line.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 19, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-20.cuba
     when: Mar. 20
     date: '1961-03-20'
@@ -1876,6 +2022,14 @@ entries:
     c: 'The station to headquarters: the dissidents ask for five M3 machine guns, by pouch, for killing Trujillo in his mistress''s apartment: "To do they need five M3 or comparable machine guns, and 1500 rounds ammo for personal defense in event fire fight. Will use quiet weapons for basic job."'
     n: '[[w.sen-church-alleged-assassination-plots]], 201 (the cable). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, station to headquarters, Mar. 20, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 201). See [[cal.1961-03-17.latin-america-dominican-republic]]. Names: Trujillo.'
     tags: [name:trujillo-rafael]
+  - id: cal.1961-03-20.china-leadership-2
+    when: Mar. 20
+    date: '1961-03-20'
+    thread: china-leadership
+    also: [farm, trade]
+    c: 'At the Central Work Conference Zhou Enlai on grain and foreign trade: still tight; purchases and sales 7 billion jin short, to be met by imports; how much grain, labor and raw material the village can give the city decides how big industry may be. Three measures: back farming from all sides; thrift in dress and food; cut the urban population by over 10 million, from the 1961 wheat harvest to the end of 1962.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 20, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-21.states-and-cities-el-paso
     when: Mar. 21
     date: '1961-03-21'
@@ -2115,6 +2269,14 @@ entries:
     c: 'The Secretariat, Hanoi, the afternoon: the organization and tasks of the Central Reunification Board passed: to study the situation in the South, propose the line for all the revolution''s work there, liaise with COSVN and see its offices carry out the Center''s orders, train cadres, supply means to the South, help direct the military work; departments of research, cadres and the reunification struggle.'
     n: 'Resolution no. 20-NQ/TW, June 1, 1961, *Nghị quyết của Ban Bí thư số 20-NQ/TW về nhiệm vụ và tổ chức của Ban Thống nhất*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 332–36. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-03-22.china-leadership
+    when: Mar. 22
+    date: '1961-03-22'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai revises the Center's letter to the whole Party on discussing the draft rural people's commune regulations, and attends the conference session that discusses and adopts the "Working Regulations on rural people's communes (draft)," the "Sixty Articles on Agriculture."
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 22, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-23.laos
     when: Mar. 23
     date: '1961-03-23'
@@ -2232,6 +2394,21 @@ entries:
     c: 'Canton, the work conference''s plenary session. Mao gives Hu Qiaomu''s draft its title, "Letter of the Central Committee to the Bureaus and the Provincial Committees on Earnest Investigation" (down to the counties, regiments, big factories, universities), and speaks on "On Investigation Work," section by section: a Marxist–Leninist line not easily made.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 23, 1961. Made public: 2013. Names: Mao Zedong, Hu Qiaomu.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-23.china-leadership-2
+    when: Mar. 23
+    date: '1961-03-23'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai at the Central-South Bureau on measures to raise farm output and bases for commodity grain.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 23, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03-23.china-leadership-3
+    when: Mar. 23
+    date: '1961-03-23'
+    thread: china-leadership
+    c: 'The Center sends the Party''s regional bureaus and provincial committees a letter on conducting investigation seriously, with Mao''s 1930 essay "Investigation Work": county committees and above, first secretaries first, to study Mao''s method and make going down to the base, in person, for systematic typical inquiry the first task of leadership.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 23, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-24.program
     when: Mar. 24
     date: '1961-03-24'
@@ -2344,6 +2521,13 @@ entries:
     c: 'Rayburn''s office. Goldberg and O''Brien with Vinson, McCormack, Albert and Powell on the minimum wage bill, short of votes. Vinson would go to $1.15 for Southern votes. Rayburn: "I feel this is a decision the Administration has to make." Goldberg, nodding to O''Brien: "This really is a White House decision." O''Brien holds to $1.25 and cuts the coverage, about half a million of the four million workers, the laundry workers among them; Albert, pressed, agrees to lead the floor debate. By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 124–25. Check: the day: the work dates the meeting Mar. 24 and has Albert''s speech "the next day" and the vote "that day," but the House voted on Mar. 24. Names: Rayburn, Goldberg, Vinson, McCormack, Albert, Powell, O''Brien.'
     tags: [name:rayburn-sam, name:goldberg-arthur-j, name:vinson-carl, name:mccormack-john-w, name:albert-carl, name:powell-adam-clayton-jr, name:obrien-lawrence-f]
+  - id: cal.1961-03-24.china-leadership
+    when: Mar. 24
+    date: '1961-03-24'
+    thread: china-leadership
+    c: Zhou Enlai from Canton to Wuhan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 24, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-25.soviet-union
     when: Mar. 25
     date: '1961-03-25'
@@ -2372,6 +2556,13 @@ entries:
     c: 'Mao on the telegram of the Gongcheng county delegates to the Guilin prefecture''s cadre meeting: grave deaths in the prefecture, Party branches wrecked, many sick still to be saved. To Tao Zhu for Liu Jianxun: deal with it at once; the region to send a senior man; "I have seen your telegram."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 25, 1961. Made public: 2013. Names: Mao Zedong, Tao Zhu, Liu Jianxun.'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
+  - id: cal.1961-03-25.china-leadership-2
+    when: Mar. 25
+    date: '1961-03-25'
+    thread: china-leadership
+    c: Zhou Enlai back in Peking; at the Zhongshan Park hall pays respects to Chen Guang (died Mar. 16 at Shanghai) and takes part in the public memorial.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 25, 1961). Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1961-03-26.laos
     when: Mar. 26
     date: '1961-03-26'
@@ -2463,6 +2654,14 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 234: all'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 238: all'
+  - id: cal.1961-03-27.china-leadership
+    when: Mar. 27
+    date: '1961-03-27'
+    thread: china-leadership
+    also: [soviet-union, farm]
+    c: 'At the Secretariat Zhou Enlai reports the draft oral answer to the CPSU Central Committee''s letter of Mar. 21, describing the measures taken to overcome the difficulty, already with some effect: if 1961 brings a good summer or autumn harvest, or imports of grain from abroad go well this summer, the Soviet side will be told that the 1 million tons of grain it offered no longer need be held in reserve. On Mar. 31 he reads the answer to Chervonenko.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 27, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-28.defense
     when: Mar. 28
     date: '1961-03-28'
@@ -2689,7 +2888,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao revises Zhou Enlai''s draft oral answer of the Central Committee to the CPSU''s letter of Mar. 21 (a million tons of grain and 500,000 tons of sugar on loan, the grain kept as China''s reserve): thanks; if the harvest or the purchases abroad go well, the Soviets released from the reserve; Mao adds: if not, it stays China''s reserve.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 28, 1961. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 28, 1961. [[w.zhou-enlai-nianpu-1949]], II, 399–400, Mar. 27, 1961 (Zhou''s draft oral answer to the CPSU''s letter of Mar. 21, reported to the Secretariat Mar. 27 and read to Chervonenko Mar. 31). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Khrushchev.'
+    src:
+      c: 4d418ee8
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 28, 1961: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 399–400, Mar. 27, 1961: A'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-03-29.states-and-cities
     when: Mar. 29
@@ -2774,6 +2978,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-29.china-leadership
+    when: Mar. 29
+    date: '1961-03-29'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai with Li Xiannian and Yao Yilin on grain, cotton and edible oil.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961). Made public: 1997. Names: Zhou Enlai, Li Xiannian.'
+    tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-03-29.china-leadership-2
+    when: Mar. 29
+    date: '1961-03-29'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai gives a banquet for Ne Win, Chief of Staff of Burma's armed forces; in his toast, Burma's army drove the Kuomintang remnants from eleven years of occupation, a great contribution to the peace of Southeast Asia.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961). Names: Zhou Enlai, Ne Win.'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+  - id: cal.1961-03-29.china-leadership-3
+    when: Mar. 29
+    date: '1961-03-29'
+    thread: china-leadership
+    also: [laos, soviet-union]
+    c: 'Zhou Enlai settles the Chinese government''s memorandum to the Soviet government on Laos: the situation in Laos and around it keeps changing; "if the United States, with no cease-fire, is unwilling to hold an international conference, the responsibility will fall on the United States."'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-30.cuba
     when: Mar. 30
     date: '1961-03-30'
@@ -2865,6 +3093,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-30.china-leadership
+    when: Mar. 30
+    date: '1961-03-30'
+    thread: china-leadership
+    also: [africa, china]
+    c: 'Zhou Enlai receives Ghana''s first Ambassador to China (Kobina Kesi in the chronology''s transliteration): the chief task for Asia, Africa and Latin America''s middle zone is to drive out colonialism and win national independence; after independence not all need choose socialism, a people choosing its own system; revolution and counter-revolution cannot be exported; Africa''s awakening is irresistible; China and Asians are on Africa''s side.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 30, 1961). Made public: 1997. Names: Zhou Enlai. Check: the Ambassador''s name, from the chronology''s transliteration.'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, vis:only:prc+ghana]
   - id: cal.1961-03-31.opinion
     when: Mar. 31
     date: '1961-03-31'
@@ -3342,3 +3578,28 @@ entries:
     c: After the loss of the reconnaissance SC-47, LeMay suspends all aerial reconnaissance over Laos for a time.
     n: '[[w.anthony-war-in-northern-laos]], 47 ("temporarily"; no day). To check: Butler B. Toland, Jr., interview by Robert G. Zimmerman, Nov. 18, 1974 (cited by [[w.anthony-war-in-northern-laos]], 47 n.64d). See [[cal.1961-03-23.laos-2]]. Names: LeMay.'
     tags: [name:lemay-curtis-e]
+  - id: cal.1961-03.china-leadership-8
+    when: Mar., early
+    date: 1961-03
+    at: before 1961-03-11
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, learning that the Hong Kong paper *Zhen bao* reports an American "one and a half Chinas" plan (acknowledging China''s suzerainty over Taiwan, neither side to use force there, Taiwan to sit at the United Nations like the Byelorussian and Ukrainian republics), instructs the Center''s group on Taiwan: American basic policy will not change but it will play new tricks to confuse some; seeing that imperialism''s nature does not change is not enough, watch new conditions and trends, tactics with care, an investigating wind so enemy, friend and self are all clear.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 395 (Mar. 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:us, polity:roc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03.china-leadership-9
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai asks Qu Wu, as son-in-law, to give Yu Youren's wife, in Shaanxi, a belated eightieth birthday as the Shaanxi custom allows, on Zhang Shizhao's letter that Yu Youren hoped to send her birthday wishes; the old man not to be disturbed by so small a thing; he instructs the United Front Department.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03.china-leadership-10
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    also: [defense]
+    c: For the defense industry's construction tasks Zhou Enlai proposes a full-time body under the State Economic Commission to organize and schedule equipment output, a five-man group (Sun Zhiyuan, Fan Muhan, Liu Xiyao, Xie Beiyi, Wang Daohan) on the queueing of defense industry's capital construction, research and trial manufacture, and Zhang Aiping to survey and organize the nation's technical strength. The Center adopts it Apr. 9 in its comment forwarding the Planning Commission Party group's report on defense industry capital construction for 1961.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 401 (Mar. 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
