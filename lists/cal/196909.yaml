@@ -9,7 +9,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Mao, Lin Biao and Zhou Enlai telegraph Hồ Chí Minh and other Vietnamese leaders on the DRV''s twenty-fourth anniversary: Nixon''s two-handed counterrevolution, political fraud and "de-Americanizing" the war to hold the South for ever; China counts supporting Vietnam an internationalist duty.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 1, 1969. Names: Mao Zedong, Lin Biao, Zhou Enlai, Hồ Chí Minh, Nixon.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 1, 1969. [[w.jianguo-yilai-mao-zedong]], XIX, 465–466 (Sept. 1, 1969; the telegram of Mao, Lin Biao and Zhou Enlai to Hồ Chí Minh, Trường Chinh and Phạm Văn Đồng, printed from *Renmin ribao* of Sept. 2). Names: Mao Zedong, Lin Biao, Zhou Enlai, Hồ Chí Minh, Nixon.'
+    src:
+      c: cfadb4a1
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Sept. 1, 1969: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 465–466: A-B'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:ho-chi-minh, name:nixon-richard-m]
   - id: cal.1969-09-01.china-leadership-2
     when: Sept. 1
@@ -31,7 +36,12 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: Hồ Chí Minh dies at 9:47 a.m., National Day, of a heart attack, at 79. The Politburo announces it as Sept. 3, so that the day of his death should not fall on the nation's day of celebration.
-    n: '[[w.van-kien-dang-toan]], XXX, 228–29 n. (the editors'' note, from the Politburo''s notice no. 151-TB/TW of Aug. 19, 1989, on the testament and the day of the death). Made public: 1989. Names: Hồ Chí Minh.'
+    n: '[[w.van-kien-dang-toan]], XXX, 228–29 n. (the editors'' note, from the Politburo''s notice no. 151-TB/TW of Aug. 19, 1989, on the testament and the day of the death). [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 2, 1969; the death in Hanoi and the age only). Made public: 1989. Names: Hồ Chí Minh.'
+    src:
+      c: 6f482366
+      rows:
+        - 'w.van-kien-dang-toan XXX, 228–29 n.: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: A'
     tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1969-09-02.china-leadership
     when: Sept. 2
@@ -72,13 +82,19 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Hồ Chí Minh dies in Hanoi. The Chinese Central Committee, the NPC Standing Committee and the State Council wire condolences to the Vietnam Workers' Party Central Committee, the National Assembly Standing Committee and the government; that night Zhou Enlai leaves Peking at the head of a Party delegation to pay condolences at Hanoi.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 3, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 312 (Sept. 3, 1969). Check: Hồ Chí Minh died Sept. 2, 1969, at 9:47 a.m.; the Politburo announced it as Sept. 3 (its notice no. 151-TB/TW of Aug. 19, 1989, quoted in [[w.van-kien-dang-toan]], XXX, 229 n.). See [[cal.1969-09-02.vietnam-hanoi]]. Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 3, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 312 (Sept. 3, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 3, 1969; the editors'' note: Zhou Enlai leaves Peking for Hanoi the evening of Sept. 3 at the head of the Chinese Communist Party''s delegation). Check: Hồ Chí Minh died Sept. 2, 1969, at 9:47 a.m.; the Politburo announced it as Sept. 3 (its notice no. 151-TB/TW of Aug. 19, 1989, quoted in [[w.van-kien-dang-toan]], XXX, 229 n.). See [[cal.1969-09-02.vietnam-hanoi]]. Names: Zhou Enlai, Hồ Chí Minh.'
     src:
       c: 421c69a1
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Sept. 3, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 312: A, B, C'
+        - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: C'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh]
+    variants:
+      - unit: A
+        witness: w.jianguo-yilai-mao-zedong
+        reads: The book dates Hồ Chí Minh's death in Hanoi Sept. 2, 1969, at 79 (XIX, 467 n.1).
+        at: 467 n.1
   - id: cal.1969-09-03.vietnam-hanoi
     when: Sept. 3
     date: '1969-09-03'
@@ -165,7 +181,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai flies back to Peking.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 5, 1969). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 5, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 5, 1969; the return to Peking only). Names: Zhou Enlai.'
+    src:
+      c: 787b2ee2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 313: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: A'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1969-09-05.china
     when: Sept. 5
@@ -185,13 +206,14 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou Enlai leads leaders of the Party, government, army, National People's Congress and Political Consultative Conference to the Vietnamese embassy in Peking to condole on Hồ Chí Minh's death.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 6, 1969); [[w.zhou-enlai-waijiao-huodong]], 538 (Sept. 6, 1969; morning); [[w.zhonghua-renmin-gongheguo-waijiao]], 221–222 (Sept. 6, 1969; Zhou, Song Qingling, Ye Jianying and Li Xiannian condole at the Vietnamese embassy in Beijing for Mao, on Hồ''s death). Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 6, 1969); [[w.zhou-enlai-waijiao-huodong]], 538 (Sept. 6, 1969; morning); [[w.zhonghua-renmin-gongheguo-waijiao]], 221–222 (Sept. 6, 1969; Zhou, Song Qingling, Ye Jianying and Li Xiannian condole at the Vietnamese embassy in Beijing for Mao, on Hồ''s death); [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 6, 1969; Zhou Enlai and the other leaders at the DRV''s embassy condole for Mao and the others). Names: Zhou Enlai, Hồ Chí Minh.'
     src:
       c: ddb8a3dc
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 313: ?'
         - 'w.zhou-enlai-waijiao-huodong 538: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 221–222: A'
+        - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: A'
     tags: [polity:prc, name:zhou-enlai, name:ho-chi-minh]
     time_range:
       - 1969-09-05T22:00Z
@@ -271,7 +293,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking airport VIP lounge. Zhou Enlai with Kosygin, who passes through on his way home from Hồ Chí Minh''s funeral. Zhou: theoretical and principled disputes should not hinder state relations; talks can find a way on the boundary; until then three interim measures: keep the border as it is, avoid armed clashes, disengage forces in disputed places. Kosygin adds a fourth: border authorities may consult beforehand. Agreed on the four; each to send a delegation for boundary talks soon.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969; the airport talks); [[w.zhou-enlai-waijiao-huodong]], 539 (Sept. 11, 1969; 10:50 a.m., VIP lounge of the capital airport, Kosygin returning through Peking from Hồ Chí Minh''s funeral); [[w.zhonghua-renmin-gongheguo-waijiao]], 223 (Sept. 11, 1969; Zhou and Kosygin at the Beijing airport, on the way back from Hồ''s funeral: the border, trade and other matters; agreement that the boundary be settled by peaceful talks, with interim measures to end contact of armed forces in disputed areas, avoid clashes and hold the status quo; an agreement to be signed first; principled disputes not to bar normal relations). Made public: 1993. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969), has Zhou''s first point, that disputes of theory and principle are not to hinder state relations, and adds that the two also discussed keeping and developing trade and restoring the exchange of ambassadors, Zhou ending that a good beginning had been made and the frank talk was useful to both. To check: the record of the talk (cited by [[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969, as the Chinese government''s account). Names: Zhou Enlai, Kosygin, Hồ Chí Minh. Check: the Soviet record of the talk; the meeting announced the same day. Mao approves the record Sept. 13 (the chronology, under Sept. 11).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969; the airport talks); [[w.zhou-enlai-waijiao-huodong]], 539 (Sept. 11, 1969; 10:50 a.m., VIP lounge of the capital airport, Kosygin returning through Peking from Hồ Chí Minh''s funeral); [[w.zhonghua-renmin-gongheguo-waijiao]], 223 (Sept. 11, 1969; Zhou and Kosygin at the Beijing airport, on the way back from Hồ''s funeral: the border, trade and other matters; agreement that the boundary be settled by peaceful talks, with interim measures to end contact of armed forces in disputed areas, avoid clashes and hold the status quo; an agreement to be signed first; principled disputes not to bar normal relations); [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1 (Sept. 11, 1969; the editors'' account of the talk in the VIP lounge of the capital airport). Made public: 1993. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969), has Zhou''s first point, that disputes of theory and principle are not to hinder state relations, and adds that the two also discussed keeping and developing trade and restoring the exchange of ambassadors, Zhou ending that a good beginning had been made and the frank talk was useful to both. To check: the record of the talk (cited by [[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969, as the Chinese government''s account); Record of the talk of Zhou Enlai and Kosygin at the Peking airport, Sept. 11, 1969, sent to Mao Sept. 13 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1b). Names: Zhou Enlai, Kosygin, Hồ Chí Minh. Check: the Soviet record of the talk; the meeting announced the same day. Mao approves the record Sept. 13 (the chronology, under Sept. 11).'
     src:
       c: 557d81ef
       rows:
@@ -279,6 +301,8 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 314: A, B, C, D, E, F, H'
         - 'w.zhou-enlai-waijiao-huodong 539: A-B'
         - 'w.zhonghua-renmin-gongheguo-waijiao 223: A'
+        - 'w.jianguo-yilai-mao-zedong XIX, 470 n.1: A-H'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 470 n.1b: A, B, C, D, E, F, G, H'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:kosygin-aleksei, name:ho-chi-minh, vis:only:prc+ussr@C-H]
     time_zone: Asia/Shanghai
   - id: cal.1969-09-11.china-leadership-2
@@ -319,7 +343,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai reports the content of the Sino-Soviet talks to Mao and holds that it is the first contact of this kind between the two governments; China is to try for the four-point agreement on the border situation to be realized, to publish a diplomatic document and to promote the boundary negotiations. Mao: "agreed."'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 314–315 (Sept. 13, 1969). Made public: 2020. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 314–315 (Sept. 13, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 470 (Sept. 1969; Mao''s "Agreed" on Zhou Enlai''s report of Sept. 13 sending the record of his talk with Kosygin; the book gives no day for the note). Made public: 2020. To check: Zhou Enlai, report of Sept. 13, 1969 sending the record of his talk with Kosygin of Sept. 11 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1a). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: e6bc1900
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 314–315: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 470: A-C'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 470 n.1a: A, B'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1969-09-13.china-leadership-2
     when: Sept. 13
@@ -375,12 +405,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Peking: approves Zhou Enlai''s letter to Kosygin, settled by the Politburo, as sent Sept. 18: restates the four interim measures of the airport talk of Sept. 11 and adds a fifth, that they do not prejudice either side''s position on the boundary or the ownership of the disputed areas. Zhou: once sent, see Kosygin''s answer, then decide the date of a government statement.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 17, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 315–316 (Sept. 18, 1969; the letter and its Politburo revision). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Kosygin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 17, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 315–316 (Sept. 18, 1969; the letter and its Politburo revision); [[w.jianguo-yilai-mao-zedong]], XIX, 471 (Sept. 17, 1969; Mao''s "Agreed" on Zhou Enlai''s report sent at 6 a.m. Sept. 17 (chen liu shi 晨六时) with the letter; sent Sept. 18; the book gives no place). Made public: 2013. To check: Zhou Enlai, report of 6 a.m. Sept. 17, 1969 sending "Premier Zhou Enlai''s letter to Kosygin" (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 471 n.1a). Names: Mao Zedong, Zhou Enlai, Kosygin.'
     src:
       c: 4bb37994
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Sept. 17, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 315–316: A, B'
+        - 'w.jianguo-yilai-mao-zedong XIX, 471: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 471 n.1a: A, B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:zhou-enlai, name:kosygin-aleksei, vis:only:prc+ussr]
   - id: cal.1969-09-17.china-leadership-2
     when: Sept. 17
@@ -388,7 +420,13 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'The Renmin ribao prints the slogans for the 20th anniversary of the People''s Republic, 29 in all, supplemented and revised before printing by Zhou Enlai and others and passed by the Politburo, among them: "Do struggle-criticism-reform well! Consolidate the dictatorship of the proletariat further!", "Prepare for war, prepare against famine, for the people!", "Raise vigilance, defend the motherland, be ready at any time to wipe out invaders!".'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 17, 1969). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 17, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 468 n.1 (Sept. 17, 1969; the printing and the number, 29, only). Names: Zhou Enlai.'
+    src:
+      c: 59c62c2d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 315: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 468 n.1: A'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 468 n.1b: A'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1969-09-17.china-leadership-3
     when: Sept. 17
@@ -418,12 +456,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai writes Kosygin: at the airport meeting in Peking on Sept. 11 they agreed that the long-unsettled Sino-Soviet boundary question should be settled by peaceful negotiation free of any threat, and that before it is settled both take interim measures to keep the border as it is and avoid armed conflict; if Kosygin confirms them by letter they will take effect at once as an agreement between the two governments, which he believes will ease the border situation and help the holding of boundary talks. The nianpu''s note gives the five measures: strictly keep the border as it is; avoid armed conflict; disengage forces in disputed areas; settle border disputes by consultation between the border authorities, and failing that through diplomatic channels; none to prejudice either side''s position on the boundary or the ownership of disputed areas. The Politburo had discussed and revised the letter on Sept. 16.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 18, 1969); [[w.zhonghua-renmin-gongheguo-waijiao]], 223 (Sept. 18, 1969; Zhou''s letter to Kosygin asking the Soviet government to confirm the oral agreement of the Sept. 11 meeting). Made public: 2002. See [[cal.1969-09-17.china-leadership]]. Names: Zhou Enlai, Kosygin.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 18, 1969); [[w.zhonghua-renmin-gongheguo-waijiao]], 223 (Sept. 18, 1969; Zhou''s letter to Kosygin asking the Soviet government to confirm the oral agreement of the Sept. 11 meeting); [[w.jianguo-yilai-mao-zedong]], XIX, 471 n.1 (Sept. 18, 1969; the letter, settled by the Politburo, restates the four interim measures of the airport talk and adds the fifth; sent Sept. 18; not the letter''s words). Made public: 2002. See [[cal.1969-09-17.china-leadership]]. Names: Zhou Enlai, Kosygin.'
     src:
       c: d6f7a5cb
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 315: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao 223: A-B'
+        - 'w.jianguo-yilai-mao-zedong XIX, 471 n.1: A, G'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 471 n.1b: A, G'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:kosygin-aleksei, vis:only:prc+ussr]
   - id: cal.1969-09-19.china-leadership
     when: Sept. 19
@@ -497,12 +537,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Peking: Zhou Enlai''s eleventh draft of the Chinese government statement. Moscow having given no answer to the letter of Sept. 18, kept secret, the Soviet statement of June 13 must be answered publicly and China''s whole case on the boundary and the clashes stated: history''s rights and wrongs, the unequal treaties as the basis, "disputed areas", the interim measures.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 24, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 316–317 (Sept. 24, 1969; Zhou''s report). Made public: 2013. To check: the government statement of Oct. 7, 1969 and Zhou Enlai''s covering report of Sept. 24 (cited by [[w.zedong-mao-zedong-nianpu]], VI, Sept. 24, 1969). Names: Mao Zedong, Zhou Enlai. Check: Mao''s note not given in the chronology.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 24, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 316–317 (Sept. 24, 1969; Zhou''s report); [[w.jianguo-yilai-mao-zedong]], XIX, 472 (Sept. 24, 1969; Mao''s note "broadly all right; let us talk it over this afternoon" (xiawu tan yixia 下午谈一下) on Zhou Enlai''s report of Sept. 24 sending the eleventh draft: the letter of Sept. 18 unanswered and secret, Moscow letting it be known that talks would come at the month''s end, the Soviet statement of June 13 to be answered publicly; the book gives no place). Made public: 2013. To check: the government statement of Oct. 7, 1969 and Zhou Enlai''s covering report of Sept. 24 (cited by [[w.zedong-mao-zedong-nianpu]], VI, Sept. 24, 1969); Zhou Enlai, report of Sept. 24, 1969 sending the eleventh draft of the statement of the government of the People''s Republic of China (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 472 n.1). Names: Mao Zedong, Zhou Enlai. Check: Mao''s note not given in the chronology.'
     src:
       c: a3922c51
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Sept. 24, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 316–317: A, B'
+        - 'w.jianguo-yilai-mao-zedong XIX, 472: A'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 472 n.1: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1969-09-24.china-leadership-2
     when: Sept. 24
@@ -510,7 +552,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai writes Mao and Lin Biao: the Soviet government''s statement of June 13 must be answered publicly by the Chinese government, setting out China''s whole position on the settling of the boundary question and the truth of the border clashes, to win the initiative; the day after the government statement is issued a Foreign Ministry paper on the Soviet statement of June 13 is to follow. The Soviet statement had said that the sharpening of Soviet-Chinese relations was wholly caused by China''s actions and that the Chinese statement of May 24 made baseless demands to add trouble to trouble.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 316–317 (Sept. 24, 1969). Made public: 2020. Names: Zhou Enlai, Mao Zedong, Lin Biao.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 316–317 (Sept. 24, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 472 n.1 (Sept. 24, 1969; Zhou Enlai''s report to Mao sending the eleventh draft). Made public: 2020. Names: Zhou Enlai, Mao Zedong, Lin Biao.'
+    src:
+      c: 6f997b7b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 316–317: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 472 n.1: A'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 472 n.1: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1969-09-24.china-leadership-3
     when: Sept. 24
@@ -869,13 +917,14 @@ entries:
     at: before 1969-09-11
     thread: china-leadership
     also: [soviet-union]
-    c: 'Mao, Peking: the Politburo''s draft slogans for the twentieth anniversary of the PRC: "added a line" for approval: peoples of the world unite against aggressive war launched by any imperialism or social-imperialism, above all atomic war; if it comes, to end it by revolutionary war, and prepare from now. Printed Sept. 17 in *Renmin ribao*.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, mid-Sept. 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 17, 1969; the slogans as printed). Made public: 2013. Names: Mao Zedong.'
+    c: 'Mao, Peking: the Politburo''s draft slogans for the twentieth anniversary of the PRC: "added a line" for approval: peoples of the world unite against aggressive war launched by any imperialism or social-imperialism, above all atomic war; if it comes, to end it by revolutionary war, and prepare from now.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, mid-Sept. 1969. [[w.jianguo-yilai-mao-zedong]], XIX, 468–469 (Sept. 1969; on the draft slogans discussed by the Politburo and sent by Zhou Enlai and others Sept. 8, Mao writes "added a slogan, please decide" and adds it after the 21st of 28, as the 22nd; printed Sept. 17; the book gives no place). Made public: 2013. Printed in *Renmin ribao*, Sept. 17, 1969 ([[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 17, 1969; the slogans as printed)): [[cal.1969-09-17.china-leadership-2]]. To check: Zhou Enlai and others, draft "Slogans for the twentieth anniversary of the founding of the People''s Republic of China", discussed by the Politburo, sent to Mao Sept. 8, 1969 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 468 n.1a). Names: Mao Zedong.'
     src:
-      c: 04976b84
+      c: bb8ac0b7
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, mid-Sept. 1969: all'
-        - 'w.zhou-enlai-nianpu-1949-2020 III, 315: C'
+        - 'w.jianguo-yilai-mao-zedong XIX, 468–469: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 468 n.1a: A, B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1969-09-30.china-leadership
     when: Sept. 30
@@ -974,3 +1023,27 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 9–10: all'
     tags: [polity:prc, name:mao-zedong, polity:japan, vis:only:prc]
+  - id: cal.1969-09.china-leadership-3
+    when: Sept., after the 2nd
+    date: 1969-09
+    at: after 1969-09-02
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Mao's 毛泽东 inscription on the white ribbon of his wreath for Hồ Chí Minh names him an outstanding proletarian revolutionary and a close comrade-in-arms of the Chinese people.
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 467 (Sept. 1969; printed from *Renmin ribao*, Sept. 7, 1969; the note tells of the wreath after Hồ''s death in Hanoi Sept. 2 and the condolences of Zhou Enlai and the other leaders at the DRV''s embassy Sept. 6). See [[cal.1969-09-02.vietnam-hanoi]]. The condolences at the embassy: [[cal.1969-09-06.china-leadership]]. Names: Mao Zedong, Hồ Chí Minh. Check: the day; the book dates the inscription Sept. 1969 only, after the death of Sept. 2 and before the paper of Sept. 7.'
+    src:
+      c: 1c189db2
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 467: all'
+    tags: [polity:prc, polity:drv, name:mao-zedong, name:ho-chi-minh]
+  - id: cal.1969-09.china-leadership-4
+    when: Sept.
+    date: 1969-09
+    thread: china-leadership
+    c: At the all-army war preparation conference (Quanjun zhanbei gongzuo huiyi 全军战备工作会议), Mao's 毛泽东 instruction "the army must not slacken" (jundui buyao songjin 军队不要松劲) and Lin Biao's 林彪 "view everything, check everything, carry out everything from the standpoint of fighting" are relayed.
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 484 n.1 (Sept. 1969; from the Office Group''s summary of Dec. 31, 1969). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Military Commission Office Group, "Summary of the all-army war preparation conference", Dec. 31, 1969 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 484 n.1). The conference: [[cal.1969-09-22.china-leadership-2]]. Names: Mao Zedong, Lin Biao. Check: the day; the note gives Sept. 1969. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    src:
+      c: 254ad31e
+      rows:
+        - 'via w.jianguo-yilai-mao-zedong XIX, 484 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, vis:only:prc]
