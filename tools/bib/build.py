@@ -264,8 +264,12 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         statement = calsplit.statement(lst, e, half, first, members)   # written once, chosen by the part's range
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
+    cjk_done = set()                    # characters after romanized Chinese: at their first on the page (cjk.py)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
+        if lst.kind == "calendar" and not is_thread:
+            from . import cjk
+            c = cjk.strip(series, e, c, cjk_done)
         body = text_html(year_qualified(series, c, year), "c")
         if is_thread and i == 0:
             body = thread_person(series, body)
@@ -280,6 +284,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
         parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
+    if n and lst.kind == "calendar" and not is_thread:
+        from . import cjk
+        n = cjk.strip(series, e, n, cjk_done)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works
         n = works.with_first_cites(series, e, works.ordered(series, n))
