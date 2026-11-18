@@ -8,6 +8,15 @@ The queue (`notes/handoff.md`, C0, item 4, the owner's order): "Then the second 
 - R3's notes pass and R35's anchors (Nov. 16): for a work with notes, every item of the notes of every page cited is registered; `./bib notes-coverage <card>` before handing in. The chronologies have no notes: say so in the book-check file. MacFarquhar's books have notes: the notes pass applies.
 - A loosely dated act takes an `at:` (`notes/guide/entries.md`, "Loose dates"): "early March" `at: before 1962-03-01`, "after the 12th" `at: after 1962-03-12`, by the rule there; a year alone is `date: '1962'`.
 
+## The notes pass: the faults the audit of *Origins* III run 1 found (Nov. 18), to avoid
+1. Anchors drifting in runs of notes (each note carrying the next note's items, from OCR splits): check each note's number against the image of the notes page.
+2. Items missing: every item of every note is registered (each interview, document, press issue, study).
+3. Documents standing only as their collections: each directive, letter, speech or report a note names is a witness row of its own (`part_of` its collection or card); the press is the day's issue, not the paper.
+4. Edges carry `pin` (the page of the cited work) where the note gives one.
+5. "To check:" lines name works by their cards (`[[w.…]]`, R53) and list every unread item of the page's notes.
+6. Witness rows give names and titles in full, and a dated document's year from the note.
+The cite form for *Origins*: the card `w.macfarquhar-origins-of-the-cultural` becomes the three-volume set (the audit's recommendation, works.py STYLE 9): cite `III, 152`, anchor `III, 152 n.4`; run 1's cites and anchors to be converted at its notes redo.
+
 ## The sources (fetch whole by curl into a new empty directory of your own: `curl -sSL -o DIR/x.pdf "https://drive.usercontent.google.com/download?id=ID&export=download&confirm=t"`; `pdftotext -layout`; scripts kept elsewhere, Python with `-I`; delete the PDF and text when done)
 - *Zhou Enlai nianpu, 1949–1976*, card `w.zhou-enlai-nianpu-1949` (the 1997 three-volume edition; the calendar cites it "II, 500"). The Drive holds its middle volume, 中卷: `1H_Cs_dWO2a5WXlI3ywMGO-W-MFf1MiIa` (8 MB). For the years it does not hold, the 2020 edition (two volumes): 上 `1B2lLlbvH6RXdXCaC2rW5sjsm9jLe_dsq`, 下 `1EYFHugmV5vjDRCduGRxKmPk5iZzQaufw`. Read the 1997 中卷 for every year it covers (say in your report which years it runs); the 2020 edition only for years it lacks, under a card of its own (`./bib works new`; reader 4 makes it, the others wait for it: `./bib works Zhou Enlai nianpu`). Cite volume, page and day: `[[w.zhou-enlai-nianpu-1949]], II, 455 (Mar. 5, 1962)`.
 - *Liu Shaoqi nianpu*, the enlarged edition (增订本, 2018): the Drive holds only vols. 1 (1898–1942) and 2 (1943–49), image scans (reader 6's finding, Nov. 17); the volumes for 1960–69 are wanted from the owner. Reader 6 reassigned to *Origins* III, run 1.
