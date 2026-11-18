@@ -406,6 +406,13 @@ def cmd_ledger(series, a):
         for where, d, t, i, w in ledger.find(series, a.args[0], a.until, a.thread):
             print(f"{d}  {t or '-':28} {i:48} {where}: {w}")
         return 0
+    if a.what == "drop":
+        if len(a.args) < 2:
+            print("ledger drop PATCH ID [ID...]")
+            return 2
+        gone = ledger.drop(a.args[1:], a.args[0])
+        print(f"released {len(gone)}: " + " ".join(gone) if gone else "released none (no line names those ids under that patch)")
+        return 0 if gone else 1
     print(f"pruned {ledger.prune(series)} lines")
     return 0
 
@@ -953,8 +960,8 @@ def main(argv=None):
     x = sub.add_parser("patch-check", help="a patch held to the rules before it is handed in (tools/bib/patchcheck.py)")
     x.add_argument("patches", nargs="+")
     x.add_argument("--legacy", action="store_true", help="a patch written before the ledger: an unclaimed add warns")
-    x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | prune")
-    x.add_argument("what", choices=["add", "find", "prune"])
+    x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | drop PATCH ID... | prune")
+    x.add_argument("what", choices=["add", "find", "drop", "prune"])
     x.add_argument("args", nargs="*")
     x.add_argument("--until")
     x.add_argument("--thread")
