@@ -19,7 +19,12 @@ entries:
     date: '1965-01-01'
     thread: china-leadership
     c: 'Zhou, with Liu Shaoqi and others, calls the North China group of the Central Work Conference. When Liu speaks of digging out the hidden counter-revolutionaries missed in the "four cleanups": those who hid before land reform and were missed are to be dealt with by law, or controlled where they live, or put to labor reform, local control where possible; a backstage boss is different, treat the two apart. Support and help the Dazhai banner and Chen Yonggui''s selflessness. This year''s North China weather is bad for farming; prepare early.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 693 (Jan. 1, 1965). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 693 (Jan. 1, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 1, 1965; Liu calls the responsible persons of the North China provinces for a forum on the socialist-education movement). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: 37969b18
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 693: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 613: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1965-01-01.china-leadership-2
     when: Jan. 1
@@ -222,7 +227,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides in the evening over an enlarged Politburo Standing Committee, Hebei Hall, and speaks again on the socialist education movement. Against the "sea of men" method: 15,000 work-team members sent to Xincheng county, Hebei, population 280,000, months and not through; 40 days of reading documents before entering a village is scholasticism; "fear of the wrong root, the wrong household, cadres'' tricks" is nonsense. Enter a village and announce a few things: not to purge the members, to purge the Party and the cadres; cadres who confess small embezzlements and return them are done; the masses will pick their own leaders in the struggle. Rely on the masses first, cadres who have cast off their burdens second, the work team third.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 3, 1965. Made public: 2013. See [[cal.1964-12-15.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 3, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 3, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee, at which Mao criticizes the first stage of the rural movement for relying only on work teams, ten thousand and more gathered in one county, long study of documents without relying on the masses, mystery-mongering, "rooting and linking up," a cold-and-clear method that makes a complex philosophy and a sea-of-men tactic; he asks every level of leadership to change this, to meet the masses directly with documents and rouse them widely to open the way quickly). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 482f1c5f
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Jan. 3, 1965: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 613: A, B, C, D'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1965-01-03.china
     when: Jan. 3
@@ -475,6 +485,11 @@ entries:
     c: 'The Third National People''s Congress closes its first session: approves the Government Work Report, the main targets of the 1965 plan and the preliminary budget; elects Liu Shaoqi President of the Republic and Zhu De chairman of the Standing Committee; Zhou continues as Premier.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 696 (Jan. 4, 1965). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:zhu-de, polity:prc]
+    variants:
+      - unit: B
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: on Jan. 3, 1965 the session elects Liu Shaoqi Chairman of the People's Republic, and he is also Chairman of the National Defense Council; on his nomination the session names Zhou Enlai Premier of the State Council
+        at: 610–611
   - id: cal.1965-01-04.china-leadership-2
     when: Jan. 4
     date: '1965-01-04'
@@ -1096,6 +1111,22 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 1–2: all'
     tags: [polity:prc, polity:fr, name:chen-yi, vis:only:prc+fr]
+  - id: cal.1965-01-08.china-leadership-4
+    when: Jan. 8
+    date: '1965-01-08'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi calls the plenary meeting of the National Defense Council and speaks.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 8, 1965). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-01-08.china-leadership-5
+    when: Jan. 8
+    date: '1965-01-08'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi, on reading in the Four Clean-ups Bulletin of the Peking municipal committee''s work team in Tongxian county an article, "Poor and lower-middle peasants of Gaogezhuang brigade accuse the seriously "four unclean" cadre Dou Zixiang," writes: the work team''s ways of organizing mass struggle are not good, with too many large meetings, beating at the meetings and other forms of physical punishment; the Bulletin printed and issued the material without criticizing it, which is wrong.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 8, 1965). Made public: 1996. To check: the article in the Four Clean-ups Bulletin of the Tongxian work team and Liu''s note (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-01-09.vietnam
     when: Jan. 9
     date: '1965-01-09'
@@ -1173,6 +1204,14 @@ entries:
     c: Zhou, with He Long, Ye Jianying and Luo Ruiqing, receives the air force men who shot down two U.S. pilotless high-altitude reconnaissance planes in turn over Central-South China. Urges them on, against complacency and pride; each fight and its summing-up raise skill.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 9, 1965). Names: Zhou Enlai, Ye Jianying, He Long, Luo Ruiqing.'
     tags: [name:zhou-enlai, name:ye-jianying, name:he-long, name:luo-ruiqing, polity:prc]
+  - id: cal.1965-01-09.china-leadership-3
+    when: Jan. 9
+    date: '1965-01-09'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi, Zhu De and Zhou Enlai jointly telegraph Sihanouk, Norodom Montana (诺罗敦·蒙达那), President of the National Assembly, and Norodom Kantol (诺罗敦·康托尔), head of government, thanking them and the Cambodian government for their efforts to rescue nine Chinese trade workers and journalists, arrested illegally by the Brazilian authorities in April 1964 and illegally sentenced on Dec. 22.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613–614 (Jan. 9, 1965). Names: Liu Shaoqi, Zhu De, Zhou Enlai, Sihanouk, Norodom Kantol.'
+    tags: [polity:prc, polity:cambodia, polity:brazil, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:norodom-sihanouk, name:norodom-kantol]
   - id: cal.1965-01-10.opinion
     when: Jan. 10
     date: '1965-01-10'
@@ -1903,13 +1942,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao speaks at the close of the Central Work Conference, Hall of the People, Fujian Hall, afternoon, as the final text, the 23 points ("Some Problems Now Raised in the Rural Socialist Education Movement"), is settled: the meeting a month, a turn and a return; the 10th plenum began the movement, ten points in May 1963, another in September; the second ten too long; no more "root-striking"; Liu''s summer speech sent the cadres to the villages. Not to make a great din; again that the movement is a contest of socialism and capitalism. The Central Committee issues the 23 points as [65] no. 26, replacing earlier documents where they conflict.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965. [[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 14, 1965: the Central Committee issues the meeting''s summary, "Some Problems Now Raised in the Rural Socialist Education Movement" (the Twenty-three Articles), drawn up on Mao''s views: sharp class struggle in town and country; the movement''s basic nature the contradiction between socialism and capitalism; its point, to purge those in the Party in power taking the capitalist road; hereafter called the "four cleanups", of politics, economy, organization, ideology); [[w.macfarquhar-maos-last-revolution]], 13 (the directive of January 1965: those in authority taking the capitalist road to be rectified). Made public: 1997. See [[cal.1964-12-15.china-leadership]]. To check: the "23 points" (Central Committee, [65] no. 26, Jan. 14, 1965; named by [[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965); [[w.macfarquhar-origins-of-the-cultural]], III, 428 (cited by [[w.macfarquhar-maos-last-revolution]], 13 n.31). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965. [[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 14, 1965: the Central Committee issues the meeting''s summary, "Some Problems Now Raised in the Rural Socialist Education Movement" (the Twenty-three Articles), drawn up on Mao''s views: sharp class struggle in town and country; the movement''s basic nature the contradiction between socialism and capitalism; its point, to purge those in the Party in power taking the capitalist road; hereafter called the "four cleanups", of politics, economy, organization, ideology); [[w.macfarquhar-maos-last-revolution]], 13 (the directive of January 1965: those in authority taking the capitalist road to be rectified); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 14, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee, which discusses the work conference''s minutes, "Some problems now raised in the rural socialist-education movement" (the "Twenty-three Articles"); the same day the Central Committee issues the notice sending them down to the whole Party). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. To check: the "23 points" (Central Committee, [65] no. 26, Jan. 14, 1965; named by [[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965); [[w.macfarquhar-origins-of-the-cultural]], III, 428 (cited by [[w.macfarquhar-maos-last-revolution]], 13 n.31). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: '64218935'
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Jan. 14, 1965: all'
         - 'w.zhou-enlai-nianpu-1949 II, 701: H'
         - 'w.macfarquhar-maos-last-revolution 13: H-I'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: A, H'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1965-01-14.china-leadership-2
     when: Jan. 14
@@ -2532,6 +2572,14 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
     tags: [polity:prc, polity:us, polity:ussr, polity:uk, name:chen-yi]
+  - id: cal.1965-01-20.china-leadership-2
+    when: Jan. 20
+    date: '1965-01-20'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi drafts for the Central Committee a notice on publicizing the "Twenty-three Articles," asking Party committees at every level to give the Articles and the Center's notice a wide publicity, in the points and over the whole area, so that the great majority of poor and lower-middle peasants and other masses are supported and encouraged, cadres and work-team members educated and raised, the people steadied and the few enemies of socialism more isolated, and the movement and this year's production go forward soundly.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 20, 1965). Made public: 1996. To check: the Central Committee''s notice on publicizing the Twenty-three Articles, Jan. 20, 1965 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-01-21.testing
     when: Jan. 21
     date: '1965-01-21'
@@ -3587,11 +3635,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou, in the Hunan Hall of the Great Hall of the People, accompanies Mao Zedong and Liu Shaoqi in receiving Subandrio and his delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; 5:50 p.m., Hunan Hall, Great Hall of the People). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; 5:50 p.m., Hunan Hall, Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 27, 1965; Liu, with Mao and Zhou Enlai, receives Subandrio, First Deputy Prime Minister and Foreign Minister of Indonesia, and the Indonesian delegation). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Subandrio.'
     src:
       c: 86830cd8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:subandrio]
     time_zone: Asia/Shanghai
   - id: cal.1965-01-27.china-leadership-4
@@ -3921,7 +3970,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: Mao calls Liu Shaoqi, Zhou Enlai and Deng Xiaoping at 1 p.m., Juxiang Shuwu; at 3 p.m. Liu presides over a Politburo meeting at which Deng reports on a Cuban delegation's coming and Zhou on Kosygin's passage through Beijing on his way to Vietnam.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 29, 1965. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kosygin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 29, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 29, 1965; Liu presides at the Politburo meeting, which discusses the Politburo''s future methods of work and the talks with Kosygin, chairman of the Soviet Council of Ministers, when he passes through Peking on his visit to Korea). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kosygin.'
+    src:
+      c: 95f3a615
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Jan. 29, 1965: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: A, B, C'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:kosygin-aleksei, polity:prc, polity:cuba, polity:ussr, polity:drv, vis:only:prc]
   - id: cal.1965-01-29.china-leadership-2
     when: Jan. 29

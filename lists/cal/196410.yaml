@@ -500,11 +500,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai and Liu Shaoqi continue the talks with President Keita.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 下午). Made public: 1993. See [[cal.1964-10-03.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi, Keita.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605–606 (Oct. 2, 1964; Liu continues the talks with Keita). Made public: 1993. See [[cal.1964-10-03.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi, Keita.'
     src:
       c: 101e1814
       rows:
         - 'w.zhou-enlai-waijiao-huodong 418: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 605–606: B'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:liu-shaoqi, name:keita-modibo, vis:only:prc+mali]
     time_range:
       - 1964-10-02T04:00Z
@@ -1010,6 +1011,14 @@ entries:
       - 1964-10-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-11
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Liu Shaoqi receives Surya Bahadur Thapa, Vice-Chairman of Nepal's Council of Ministers and Minister of Finance, Economic Planning, Justice and General Administration.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 606 (Oct. 4, 1964). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:nepal, name:liu-shaoqi]
   - id: cal.1964-10-05.republican-party
     when: Oct. 5
     date: '1964-10-05'
@@ -1100,12 +1109,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Mao, Hall of the People, evening: receives Phạm Văn Đồng, premier, leading a Party and government delegation; Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun present. Mao: the U.S. may fight as long as it likes, Vietnam will fight as long; Korea showed that it can be fought. Not the time to send Chinese troops to the South; when depends. Whether to hit the North is not decided. Phạm Văn Đồng: Vietnam will keep the war in the South to "special war" and not let it spread north. Mao: good; prepare, but be careful, no haste. A talk with the U.S. may be of use. China is ready for an American landing, which will need Chiang and South Korea; if it comes, let it go where it likes, and fight guerrilla as with the Japanese.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1964. [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 晚7时; Zhou with Mao). Made public: 1993. Names: Mao Zedong, Phạm Văn Đồng, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Chiang Kai-shek.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1964. [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 晚7时; Zhou with Mao); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 606 (Oct. 5, 1964; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, receives Phạm Văn Đồng, member of the Vietnam Workers'' Party Politburo and Premier). Made public: 1993. Names: Mao Zedong, Phạm Văn Đồng, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Chiang Kai-shek.'
     src:
       c: 1a173c01
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 5, 1964: all'
         - 'w.zhou-enlai-waijiao-huodong 420: A-B'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 606: A, B'
     tags: [name:mao-zedong, name:pham-van-dong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:li-fuchun, name:chiang-kai-shek, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1964-10-05.china-leadership-2
     when: Oct. 5
@@ -1435,6 +1445,11 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 674: A, B'
         - 'w.zhou-enlai-waijiao-huodong 421: A-B'
     tags: [name:mao-zedong, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, polity:prc, polity:dprk, vis:only:prc+dprk]
+    variants:
+      - unit: A
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: the Korean delegation under Choe Yong Gon and Pak Kum-chol is received by Mao with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and Deng Xiaoping on Oct. 8, and the Romanian delegation under Maurer on Oct. 7
+        at: '606'
   - id: cal.1964-10-07.china-leadership-2
     when: Oct. 7
     date: '1964-10-07'
@@ -1588,6 +1603,11 @@ entries:
     c: 'Mao, Hall of the People, Room 118, afternoon: receives a Romanian Party and government delegation under Maurer; Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian present. The U.S. "nonproliferation" spreads nuclear arms to capitalists, not to socialists; China hopes to draw West Germany away from the U.S., with Britain, France, Italy, Japan. Two controllers: the Soviet Union and the U.S. Khrushchev has put his own noose on, to be in Moscow for the 26 parties on Dec. 15; a soft-bodied animal, not to be feared. Comecon will either collapse or be opened to thirteen socialist states on an equal footing.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1964. Made public: 2013. Names: Mao Zedong, Maurer, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian, Khrushchev.'
     tags: [name:mao-zedong, name:maurer-ion-gheorghe, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, name:khrushchev-nikita-s, polity:prc, polity:romania, vis:only:prc+romania]
+    variants:
+      - unit: A
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: the Romanian delegation under Maurer is received by Mao with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and Deng Xiaoping on Oct. 7
+        at: '606'
   - id: cal.1964-10-08.china-leadership-2
     when: Oct. 8
     date: '1964-10-08'
@@ -1720,12 +1740,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Diaoyutai guesthouse, afternoon: receives an Albanian Party and government delegation under Balluku; Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing present. Revisionists and imperialists both split, a revolutionary situation favorable to China; Europe to be drawn against the U.S., Japan too. Khrushchev bullies the weak and fears the strong. For Sino-Soviet border talks, China wants a reasonable frontier and a treaty.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 9, 1964. [[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964; 晚6时; Zhou with Mao and Liu Shaoqi, Diaoyutai Building 12). Made public: 1993. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Khrushchev, Balluku.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 9, 1964. [[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964; 晚6时; Zhou with Mao and Liu Shaoqi, Diaoyutai Building 12); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 606 (Oct. 9, 1964; Liu, with Mao, Dong Biwu, Zhu De, Zhou Enlai and Deng Xiaoping, receives Beqir Balluku, Politburo member, First Vice-Chairman of the Council of Ministers and Minister of Defense of Albania). Made public: 1993. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Khrushchev, Balluku.'
     src:
       c: 2ef5bd33
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 9, 1964: all'
         - 'w.zhou-enlai-waijiao-huodong 422: A-B'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 606: A, B'
     tags: [name:mao-zedong, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:he-long, name:luo-ruiqing, name:khrushchev-nikita-s, polity:albania, polity:prc, vis:only:prc+albania]
   - id: cal.1964-10-09.china-leadership-2
     when: Oct. 9
@@ -2166,6 +2187,19 @@ entries:
       - 1964-10-12T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-12.china-leadership-4
+    when: Oct. 12
+    date: '1964-10-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi drafts for the Central Committee a comment forwarding Li Xuefeng''s letter to him: in present conditions not to point out plainly to Party cadres at every level that the chief danger is the right is disadvantageous. Party committees at provincial, prefectural and county levels are asked, by the cadres'' thinking in each place, to raise in time the question of opposing the right, the thinking of "fear the left, not the right; rather right than left," for earnest discussion, to lay an ideological foundation for the movement. Mao, Zhou and Deng agree; the comment is issued Oct. 16 as a Central Committee document to the Party committees of counties and regiments.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 607 (Oct. 12, 1964). Made public: 1996. To check: Li Xuefeng''s letter to Liu Shaoqi, Oct. 11, 1964; the Central Committee''s comment of Oct. 16, 1964 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 607). Names: Liu Shaoqi, Mao Zedong, Zhou Enlai, Deng Xiaoping.'
+    src:
+      c: a14c770b
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 607: ?'
+        - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 607 n.1: A'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
   - id: cal.1964-10-13.states-and-cities-ma
     when: Oct. 13
     date: '1964-10-13'
@@ -3099,6 +3133,22 @@ entries:
       - 1964-10-18T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-18.china-leadership-5
+    when: Oct. 18
+    date: '1964-10-18'
+    thread: china-leadership
+    also: [china]
+    c: Mao revises Liu Shaoqi's letter to Jiang Weiqing once more.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605 (Oct. 18, 1964). Made public: 1996. See [[cal.1964-09-30.china-leadership-6]]. Names: Liu Shaoqi, Mao Zedong.'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-10-18.china-leadership-6
+    when: Oct. 18
+    date: '1964-10-18'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi replies to Li Fuchun, who had written that day: he cannot speak to the comrades at the planning meeting, having no mature views yet, and has not finished the material sent. The 1965 plan is better issued early. Planners and economic workers who would be thoroughgoing proletarian revolutionaries must seek truth from facts, be selfless, and dare to struggle against whatever thought and conduct harms socialism, without regard for personal feelings. Many comrades have rightist thinking on this point; the right deviation is the present chief danger; the Center has sent out Li Xuefeng''s letter for them to read, and a Hebei provincial committee summary on opposing the right. But not as before to oppose the right in production figures and plan targets, which must be realistic under strict thrift; today''s rightist thinking shows chiefly in class struggle, methods of managing enterprises, cadres'' state of mind and way of life.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 607 (Oct. 18, 1964). Made public: 1996. Names: Liu Shaoqi, Li Fuchun.'
+    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc]
   - id: cal.1964-10-19.goldwater
     when: Oct. 19
     date: '1964-10-19'
@@ -3329,6 +3379,14 @@ entries:
     c: Zhou, before dawn, calls Liu Jie, Yang Chengwu and others to a meeting.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 678 (Oct. 20, 1964). Made public: 1997. Names: Zhou Enlai, Liu Jie, Yang Chengwu.'
     tags: [name:zhou-enlai, name:liu-jie, polity:prc, vis:only:prc]
+  - id: cal.1964-10-20.china-leadership-2
+    when: Oct. 20
+    date: '1964-10-20'
+    thread: china-leadership
+    also: [china]
+    c: The Central Committee issues its "Instruction on earnestly discussing Comrade Liu Shaoqi's letter in reply to Comrade Jiang Weiqing," and sends the letter as a Central Committee document to the Party committees of counties and regiments across the country.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605 (Oct. 20, 1964). Made public: 1996. To check: the Instruction of Oct. 20, 1964 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605). See [[cal.1964-10-18.china-leadership-5]]. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-10-21.vietnam
     when: Oct. 21
     date: '1964-10-21'
@@ -3751,6 +3809,14 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc, polity:philippines]
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-24.china-leadership-3
+    when: Oct. 24
+    date: '1964-10-24'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi drafts for the Central Committee an instruction on the struggle to seize power in the socialist-education movement and forwards the report of the Tianjin municipal committee on the seizure of power in the Xiaozhan area. The instruction says: where power has been manipulated or usurped by the enemy, a struggle to seize it must be carried out, or a grave mistake is made; before resolving on it, deep and detailed investigation is needed to know whether leadership is in the enemy''s hands and whether the leading core of the place has changed in nature, and only then can it be decided whether to struggle for power.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 607–608 (Oct. 24, 1964). Made public: 1996. To check: the Tianjin municipal committee''s report on the seizure of power in the Xiaozhan area and the Central Committee''s instruction (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 607–608). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-10-25.goldwater
     when: Oct. 25
     date: '1964-10-25'
@@ -5423,11 +5489,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai takes part in Liu Shaoqi's talks with King Zahir Shah.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 下午). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Zahir Shah.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 608 (Oct. 31, 1964; Liu holds talks with King Mohammed Zahir Shah of Afghanistan). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Zahir Shah.'
     src:
       c: 77b53ab6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 426: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 608: B'
     tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:liu-shaoqi, name:zahir-shah-mohammed, vis:only:prc+afghanistan]
     time_range:
       - 1964-10-31T04:00Z
@@ -5468,3 +5535,11 @@ entries:
       - 1964-10-31T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-31.china-leadership-9
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi and Zhou Enlai jointly reply by telegram to Sihanouk, head of state of Cambodia, that they firmly support the just struggle of the Cambodian government and people to defend the country's sovereignty and territorial integrity.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 608 (Oct. 31, 1964). Names: Liu Shaoqi, Zhou Enlai, Sihanouk. Check: the day; the book prints the item with a triangle after the Nov. 1 meeting with Zahir Shah, under the entry of Oct. 31.'
+    tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:zhou-enlai, name:norodom-sihanouk]
