@@ -815,3 +815,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Option 1 with option 3 as a lead, as you recommend." (Nov. 18, about 11:30 p.m.: the numbered serious warnings, each year's run a year-dated entry; each warning its own entry from *Renmin ribao* a lead.)
 
 "Has anyone read 77 Conversations for the calendar yet? Are you able to retrieve it? We should tack it on to the end of the China step if so. (Don't block yourself on it if not, though.)" (Nov. 19, about 2:45 a.m.)
+
+"Put it in the next free slot." (Nov. 19, about 3 a.m.: *77 Conversations*.)
