@@ -85,7 +85,10 @@ Nothing else is passed over, and no class of event in a blanket (R48).
 
 **R25. The raw material.** Code nothing; keep what the later passes will code:
 - a position or an argument in the source's own words, briefly, with its page, in `n` ("Ball: 'a long protracted war' ([[w.x]], 412)"), not only the clipped `c`;
-- the time and the sequence the source gives: `time:` (UTC, a full ISO instant), `time_approx: true` ("that evening", "about 7"), `follows: [id]` ("afterward", "then"), from Nov. 2, 2026; until then, the words in `n` ("at about 7 p.m., p. 412");
+- the time of day and the place, for every act whose source gives either (the owner, Nov. 17, 2026):
+  - *The words*, in `n`, in the source's words and with its page: every clock time ("10 p.m."); every part of the day ("morning", "that evening", "late at night"; 上午, 下午, 晚上, 夜, 凌晨; "в ночь"); every occasion that places it ("at lunch", "after dinner", "at the banquet", "before the session opened"); every sequence ("afterward", "then", "the next morning"). Kept even where a field is also set.
+  - *The place*: where the act happened, in `c` or `n`: the city at least, the building where the source gives it. For a call, cable or letter, each end, and whose clock the source's time is ("10 p.m. Hanoi time"); for a time the source gives in another place's clock, that clock.
+  - *The fields*: an hour → `time:` (UTC, a full ISO instant), turned from the local time by the place's IANA zone with Python's `zoneinfo` (its history, not today's offset: Asia/Shanghai, Asia/Ho_Chi_Minh, Europe/Moscow, America/New_York), with `time_zone:` the zone used and `time_approx: true` where the hour is loose ("about 7"). A part of the day with no hour → `time_range:` from `band_range` (`tools/bib/dayorder.py`, BANDS), with `time_band:` and `time_zone:`. A sequence → `follows: [id]` on the later entry, its basis in a few words. No hour and no cue: no field; never one inferred from the kind of event (that is the build's, `range_basis: kind`).
 - every figure the source gives, with its page: votes, whip and head counts, dollars, troops, polls, tons, sorties, losses, strength.
 
 ## D. Citing
@@ -230,6 +233,7 @@ R35-R43 are in force from Nov. 3, 2026: the registry is built (`tools/bib/witnes
 | R18 | Nov. 15 (OB, "The scope", fourth message) | "By 'Douglas fucking around' I meant his foreign travel, writing, and conservation efforts along with his affairs. By 'fucking around' I meant 'Douglas not doing his job.'" |
 | R18 | Nov. 15 (OB, "The scope", fifth message) | "Family events and health for the principals go in, as your three examples do. (One of the readers dropped Lyndon drinking/refraining from drinking, which should absolutely go in. Michael should absolutely go in!)" |
 | R3, R35 | Nov. 16 (OB, "The notes pass") | "Is there anything in the Taylor Branch readers' methods that we can adapt and standardize?"; "Approved. Immediate." (`notes/proposals/notes-pass.md`) |
+| R25 | Nov. 17 (OB, "Time of day and place") | "Are we asking our reader agents to record reported time-of-day or time-of-day cues, as we do for dates? Along with the location, so we can determine the time zone? Please prepare a standing instruction to that effect if not" |
 | The batch briefs (the paragraph above R1) | Nov. 15 (OB, "The scope") | "please, add the rule that 'a brief may quote your rulings but never adds an exclusion of its own, and any exclusion it carries cites your words or comes out.'" |
 | R1, R2 | Nov. 15 (OB, "The scope") | "Rewrite R1 to 'the political and policy histories of covered nations within the calendar's span.' Rewrite R2 to 'Every thread is its matter as the nation or state met it.'" |
 | R15 | Nov. 15 (OB, "The scope") | "Agreed on the change to R15" (a year-only date is a date; the lead only what no source dates even to the year) |

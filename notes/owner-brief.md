@@ -803,3 +803,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 
 "ah, does that mean the queue has been amended as requested, or that "amend the queue" is queued? (an "amend the queue" task takes priority over the items in the queue! immediate!)" (Nov. 16: the queue amended, handoff C0 renumbered 1–20; the rule written into CLAUDE.md, "Working hours", with the layout-first default.)
 (Nov. 17, after 5 p.m.: the queued RFK folder check done: 252 of 266 transcripts in the folder, 13 or 14 missing, listed in notes/oral-histories-rfk-inventory.md.)
+
+"Claude, immediate. Are we asking our reader agents to record reported time-of-day or time-of-day cues, as we do for dates? Along with the location, so we can determine the time zone? Please prepare a standing instruction to that effect if not, and queue a second "time of day"/location pass for patches and batches that went through without one." (Nov. 17, 4:xx p.m. Pacific: R25 amended in the reader's brief, with a row in its rulings table; the pass queued as handoff C0 13b, two tiers.)
