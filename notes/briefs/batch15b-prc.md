@@ -13,7 +13,7 @@ The queue (`notes/handoff.md`, C0, item 4, the owner's order): "Then the second 
 2. Items missing: every item of every note is registered (each interview, document, press issue, study).
 3. Documents standing only as their collections: each directive, letter, speech or report a note names is a witness row of its own (`part_of` its collection or card); the press is the day's issue, not the paper.
 4. Edges carry `pin` (the page of the cited work) where the note gives one.
-5. "To check:" lines name works by their cards (`[[w.…]]`, R53) and list every unread item of the page's notes.
+5. "To check:" lines name works by their cards (`[[w.…]]`, R53) and list every unread item of the notes that bear on that entry: the notes called in the passage the entry rests on (R3.3, "its 'To check:' line on each entry it bears on"; R35, "each witness the work's note gives for that passage"; R29). Every item of every note on a cited page is registered (a row or an edge), but an item goes on an entry's line, and its `via` row into the entry's map, only where its note bears on that entry. Corrected Nov. 18: this line first read "every unread item of the page's notes", my wording, not the brief's; it put 25 to 97 items on single entries of *Origins* III run 1.
 6. Witness rows give names and titles in full, and a dated document's year from the note.
 The cite form for *Origins*: the card `w.macfarquhar-origins-of-the-cultural` becomes the three-volume set (the audit's recommendation, works.py STYLE 9): cite `III, 152`, anchor `III, 152 n.4`; run 1's cites and anchors to be converted at its notes redo.
 
