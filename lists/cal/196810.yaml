@@ -152,8 +152,23 @@ entries:
     date: '1968-10-01'
     thread: china-leadership
     c: Peking, Tiananmen, 10 a.m. Mao with Lin Biao, Zhou Enlai and others at the National Day rally for the nineteenth anniversary; reviews the parade; in the rest room meets the Albanian party's Politburo member Balluku and the Pakistani government friendship delegation under Said, the President's adviser; at night the fireworks, and he receives provincial revolutionary committee heads, workers' delegates and the Ecuadorian CP (M-L)'s first and second secretaries.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 1, 1968. Names: Mao Zedong, Lin Biao, Zhou Enlai, Balluku, Said.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 1, 1968. [[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 1, 1968; evening, Tiananmen tower, at the fireworks; Zhou accompanies Mao in receiving the Pakistani government friendship delegation under Syed Fida Hasan (赛义德·菲达·哈桑), adviser to President Ayub Khan); [[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 1, 1968; morning, Tiananmen tower, with 500,000 of the capital''s soldiers and people). Names: Mao Zedong, Lin Biao, Zhou Enlai, Balluku, Said.'
+    src:
+      c: 0a2a0478
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 1, 1968: all'
+        - 'w.zhou-enlai-waijiao-huodong 530: A'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai]
+    variants:
+      - unit: D
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Mao, with Zhou, receives the Pakistani delegation under Syed Fida Hasan in the evening, on the Tiananmen tower at the fireworks
+        at: '530'
+    time_range:
+      - 1968-09-30T22:00Z
+      - 1968-10-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1968-10-01.china-leadership-2
     when: Oct. 1
     date: '1968-10-01'
@@ -286,6 +301,48 @@ entries:
     c: The White House, from a little past 8 p.m. State Dinner for President Tombalbaye of Chad, in the Yellow Room first with his Ministers. He tells Mrs. Johnson that parts of his country have never had rain; they discuss his coming trip to Lubbock, Texas, and Texas Tech, where the problems of arid countries are studied.
     n: '[[w.johnson-white-house-diary]], 715 (Lady Bird Johnson''s account; the toasts are not given). To check: the Public Papers, the toasts. See [[cal.1968-10-02.africa]]. Names: Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, city:washington]
+  - id: cal.1968-10-02.china-leadership
+    when: Oct. 2
+    date: '1968-10-02'
+    thread: china-leadership
+    c: Zhou holds talks with the Albanian party and government delegation led by Balluku.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 2, 1968; Beijing; the time not given). The book gives no content. Names: Zhou Enlai.'
+    src:
+      c: e934a153
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1968-10-02.china-leadership-2
+    when: Oct. 2
+    date: '1968-10-02'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the National Day reception given by the chargé d'affaires of Guinea's embassy.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 2, 1968; evening; Beijing). The book names the chargé 卡马拉·塞古 in the Oct. 2 item only as the head of the embassy. Names: Zhou Enlai.'
+    src:
+      c: 6c9bf91d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-10-02T11:00Z
+      - 1968-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1968-10-02.china-leadership-3
+    when: Oct. 2
+    date: '1968-10-02'
+    time: 1968-10-02T11:30Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the Pakistani government friendship delegation led by the adviser Hasan in the Great Hall of the People and attends the farewell banquet given by the delegation's head.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 2, 1968; 7:30 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: 661dac83
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1968-10-03.desegregation-schools
     when: Oct. 3
     date: '1968-10-03'
@@ -433,6 +490,17 @@ entries:
     c: Zhou Enlai with the Cultural Revolution Group's liaison members receives the heads of the provincial, municipal and regional revolutionary committees.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 4, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1968-10-04'
+    thread: china-leadership
+    c: Zhou attends the rally of 100,000 of the capital's people welcoming the Albanian party and government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 4, 1968; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 1842498e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1968-10-05.mayors-honolulu
     when: Oct. 5
     date: '1968-10-05'
@@ -482,7 +550,12 @@ entries:
     date: '1968-10-05'
     thread: china-leadership
     c: 'Mao receives the Albanian party and government delegation under Balluku, Great Hall, evening; Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan and Huang Yongsheng present. On cleaning up class ranks: the defeated class still struggles; Kuomintang remnants got into the central and local organs, now cleaned out by the Party, government, army and people themselves; half a year to a year more of class cleaning and Party rectification, then ten to twenty years'' quiet.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 5, 1968. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Huang Yongsheng, Balluku. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 5, 1968. [[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 5, 1968; Zhou accompanies Mao in receiving the Albanian delegation under Balluku). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Huang Yongsheng, Balluku. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: e06306cd
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 5, 1968: all'
+        - 'w.zhou-enlai-waijiao-huodong 530: A'
     tags: [polity:prc, polity:albania, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, name:zhang-chunqiao, name:yao-wenyuan, name:huang-yongsheng, vis:only:prc+albania@C-E]
   - id: cal.1968-10-06.opinion
     when: Oct. 6
@@ -511,6 +584,22 @@ entries:
     c: Zhou Enlai, on Vietnam's request to send a delegation to China, drafts for the Foreign Ministry a telegram to Chen Shuliang, the chargé in Vietnam, to see Prime Minister Phạm Văn Đồng at once and tell him that, busy with domestic affairs in October, China's Party and government leaders cannot receive a Vietnamese Party and government delegation; the relief Vietnam needs for its typhoon losses and the needs of the war in the South may first be adjusted in the 1969 aid agreement. On Oct. 9, receiving Vietnam's Vice Minister of Foreign Trade, Lý Ban, he states the same.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 6, 1968). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng.'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+  - id: cal.1968-10-06.china-leadership-2
+    when: Oct. 6
+    date: '1968-10-06'
+    thread: china-leadership
+    c: Zhou attends the banquet given by Albania's ambassador Natanaili for the Albanian party and government delegation under Balluku.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 531 (Oct. 6, 1968; the book gives no hour; Beijing). Names: Zhou Enlai.'
+    src:
+      c: d1b5d8f6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 531: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-10-06T11:00Z
+      - 1968-10-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-10-07.vietnam-paris
     when: Oct. 7
     date: '1968-10-07'
@@ -581,6 +670,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-10-07.china-leadership
+    when: Oct. 7
+    date: '1968-10-07'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off the Albanian party and government delegation, leaving for other places.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 531 (Oct. 7, 1968; morning; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: fb1702c8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 531: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-10-06T22:00Z
+      - 1968-10-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1968-10-08.space
     when: Oct. 8
     date: '1968-10-08'
@@ -788,6 +893,20 @@ entries:
         - 'w.zedong-mao-zedong-nianpu VI, Oct. 9, 1968: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 257: A, C'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, vis:only:prc]
+  - id: cal.1968-10-09.china-leadership-3
+    when: Oct. 9
+    date: '1968-10-09'
+    time: 1968-10-09T10:50Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Vietnam's deputy minister of foreign trade, Lý Ban, in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 531 (Oct. 9, 1968; 6:50 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: ab014b2d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 531: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1968-10-10.court
     when: Oct. 10
     date: '1968-10-10'

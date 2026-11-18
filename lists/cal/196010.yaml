@@ -243,6 +243,18 @@ entries:
       - 1960-10-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-02.soviet-union
+    when: Oct. 2
+    date: '1960-10-02'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The drafting committee of twenty-six parties opens, to prepare a draft statement for the world conference. The CPSU prepared the draft. The Chinese delegation, having criticized the CPSU''s views in the Reply and the party talks, finds that the Soviets have patched it: some Marxist-Leninist principles added, some plain errors cut, many errors left. The committee sits three weeks.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 365–367 (from Oct. 2; the Chinese in strength, most of the writers with them; Wu and Chen Boda in Peking turn the delegation''s cables into suggestions for the Standing Committee). Made public: 1999. Names: Chen Boda. Check: the account is the Chinese delegation''s.'
+    src:
+      c: 65ae8bac
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 365–367: all'
+    tags: [polity:prc, name:chen-boda, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
   - id: cal.1960-10-03.court
     when: Oct. 3
     date: '1960-10-03'
@@ -3567,13 +3579,19 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Yinian Tang, 8 p.m. Mao''s meeting of the Standing Committee, the Secretariat and the first secretaries of North and Central-South China, with Chen Yi and Chen Boda, hears Deng Xiaoping and Peng Zhen, back that afternoon, on the drafting commission of twenty-six parties at Moscow, Oct. 1–22: the Soviet draft the basis; argued; most agreed, some points still open.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 24, 1960, and note 131. [[w.zhou-enlai-nianpu-1949]], II, 362, Oct. 24, 1960 (Zhou present). Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Chen Yi, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 24, 1960, and note 131. [[w.zhou-enlai-nianpu-1949]], II, 362, Oct. 24, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 366–367 (after three weeks the committee had no agreed text; four "nails" in the Soviet draft by Wu''s account: the Twentieth Congress''s line wholly right; unnamed attacks on "factional activity"; condemnation of the personality cult; war avoidable; the revised text and the open points to go to the November conference). Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Chen Yi, Chen Boda.'
     src:
       c: fe665f23
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 24, 1960, and note 131: all'
         - 'w.zhou-enlai-nianpu-1949 II, 362, Oct. 24, 1960: B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 366–367: D'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:chen-boda, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the drafting committee of twenty-six parties opened Oct. 2 and sat three weeks
+        at: 365–367
   - id: cal.1960-10-24.china-leadership-2
     when: Oct. 24
     date: '1960-10-24'

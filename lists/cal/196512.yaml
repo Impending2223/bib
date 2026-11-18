@@ -276,8 +276,18 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-france]
     c: Zhou tours the French industrial exhibition in Beijing.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 2, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 2, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 2, 1965; evening). Names: Zhou Enlai.'
+    src:
+      c: a0a2f236
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 768: ?'
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
     tags: [name:zhou-enlai, polity:prc, polity:fr]
+    time_range:
+      - 1965-12-02T11:00Z
+      - 1965-12-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-02.china-leadership-3
     when: Dec. 2
     date: '1965-12-02'
@@ -597,6 +607,37 @@ entries:
     time_band: workday daytime
     time_zone: Etc/GMT+6
     range_basis: kind
+  - id: cal.1965-12-05.china-leadership
+    when: Dec. 5
+    date: '1965-12-05'
+    time: 1965-12-05T09:30Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou attends in the Great Hall of the People the signing of the China–Vietnam loan agreement and the protocol on supply of goods.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 5, 1965; 5:30 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: a93cf9e4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-05.china-leadership-2
+    when: Dec. 5
+    date: '1965-12-05'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives the Vietnamese athletics team and gymnastics team.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 5, 1965; afternoon; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 94ff8667
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-05T04:00Z
+      - 1965-12-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-06.laos
     when: Dec. 6
     date: '1965-12-06'
@@ -2132,8 +2173,59 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou, with Chen Yi, talks with Vietnam's deputy premier Nguyễn Duy Trinh on Dec. 18 and 19.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 18–19, 1965). Made public: 1997. Names: Zhou Enlai, Chen Yi, Nguyễn Duy Trinh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 18–19, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; 2 p.m., Building 5, Diaoyutai guesthouse, talks with Nguyễn Duy Trinh (阮维桢); Dec. 19, 10:30 a.m., Building 5, with Chen Yi, talks again). Made public: 1997. Names: Zhou Enlai, Chen Yi, Nguyễn Duy Trinh.'
+    src:
+      c: 8ffb0b39
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
     tags: [name:zhou-enlai, name:chen-yi, name:nguyen-duy-trinh, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1965-12-18.china-leadership-2
+    when: Dec. 18
+    date: '1965-12-18'
+    time: 1965-12-18T09:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou talks with Pakistan's foreign minister Bhutto in Building 7 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; 5 p.m., Building 7, Diaoyutai guesthouse). The book gives no content. Names: Zhou Enlai, Bhutto.'
+    src:
+      c: 07c3d87b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-18.china-leadership-3
+    when: Dec. 18
+    date: '1965-12-18'
+    thread: china-leadership
+    c: Zhou receives the head of Cambodia's Royal Technical University and his wife, and the Cambodian science and technology delegation he leads.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; afternoon; Beijing). The book names him 帕加. Names: Zhou Enlai.'
+    src:
+      c: 2423d9f6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-18T04:00Z
+      - 1965-12-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-18.china-leadership-4
+    when: Dec. 18
+    date: '1965-12-18'
+    thread: china-leadership
+    c: Zhou attends the reception for the fifth anniversary of the signing of the China–Cambodia friendship treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: d3304ad2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-18T11:00Z
+      - 1965-12-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-19.vietnam-pause
     when: Dec. 19
     date: '1965-12-19'
@@ -2192,7 +2284,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou attends the capital's meeting for the fifth anniversary of the National Liberation Front of South Vietnam.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 19, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 19, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 19, 1965; afternoon; the rally of ten thousand in the capital for the fifth anniversary of the National Liberation Front of South Vietnam, with 2,300 foreign friends from over forty states also attending). Names: Zhou Enlai.'
+    src:
+      c: e34d804a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
     tags: [name:zhou-enlai, polity:prc, polity:drv]
   - id: cal.1965-12-20.europe-and-the-alliance
     when: Dec. 20–21
@@ -2371,6 +2468,23 @@ entries:
     c: 'Zhou, at the reception given by Trần Văn Thanh, head of the Front''s permanent mission in China, for its fifth anniversary: the American "unconditional negotiation" is conditional, that the people of the South lay down arms, stop resisting, and the North give up its countrymen; the U.S., deep in the Vietnam swamp, plots new widening, perhaps to all Indochina and China. The Chinese people are long prepared; if it insists on widening, on another contest with them, they will answer and see it through.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 20, 1965). Check: the form of the Front name. Names: Zhou Enlai, Trần Văn Thanh.'
     tags: [name:zhou-enlai, polity:prc, polity:nlf]
+  - id: cal.1965-12-20.china-leadership-2
+    when: Dec. 20
+    date: '1965-12-20'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou, at the reception given at the Beijing Hotel by Trần Văn Thành, head of the National Liberation Front of South Vietnam''s permanent mission, for the Front''s fifth anniversary: the United States, deep in the mire of aggression in Vietnam, is plotting a new widening of the war, possibly to all Indochina and China. The Chinese people have long been prepared, and if the U.S. goes on and wants another trial of strength with them, they will take it up and see it through.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 20, 1965; evening; Beijing Hotel). The book names the head of the mission 陈文成. Names: Zhou Enlai.'
+    src:
+      c: 8a991bde
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-20T11:00Z
+      - 1965-12-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-21.vietnam-pause
     when: Dec. 21
     date: '1965-12-21'
@@ -2488,6 +2602,18 @@ entries:
     c: Huang Yanpei dies; Zhou goes to take leave of the body.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 21, 1965). Names: Huang Yanpei, Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-12-21.china-leadership-3
+    when: Dec. 21
+    date: '1965-12-21'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the ambassador of the Congo (Brazzaville) at the Xihuating, Zhongnanhai.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 21, 1965; Xihuating, Zhongnanhai; the time not given). The book names the ambassador 阿方斯·贝约纳. Names: Zhou Enlai.'
+    src:
+      c: '66242483'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1965-12-22.economy
     when: Dec. 22
     date: '1965-12-22'
@@ -2830,6 +2956,34 @@ entries:
     c: Zhou calls Chen Manyuan, acting minister of state farms, and Zhou Rongxin on state farm work.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 25, 1965). Made public: 1997. Names: Zhou Enlai, Chen Manyuan, Zhou Rongxin.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-12-25.china-leadership-2
+    when: Dec. 25
+    date: '1965-12-25'
+    time: 1965-12-25T05:10Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou receives Romania's ambassador Gheorghiu at the Xihuating. The ambassador formally conveys that Prime Minister Maurer welcomes Zhou's visit to Romania, the time of the visit entirely for China to decide. Zhou answers briefly his questions on the situation in Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 25, 1965; 1:10 p.m., Xihuating, Zhongnanhai). Made public: 1993. The book names the ambassador 乔治乌 (Gheorghiu, as at Nov. 4). Names: Zhou Enlai.'
+    src:
+      c: 618af4f3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-25.china-leadership-3
+    when: Dec. 25
+    date: '1965-12-25'
+    time: 1965-12-25T09:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives and gives a banquet for Pakistan's foreign minister Bhutto in Building 7 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 25, 1965; 5 p.m., Building 7, Diaoyutai guesthouse). Names: Zhou Enlai, Bhutto.'
+    src:
+      c: 9036459f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-26.vietnam-pause
     when: Dec. 26
     date: '1965-12-26'
@@ -2860,7 +3014,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou has talks with Pakistan's foreign minister Bhutto, Dec. 26 and 27.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 26–27, 1965). Made public: 1997. Names: Zhou Enlai, Bhutto.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 26–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 26–27, 1965; Dec. 26, 10 a.m. alone, Building 7, Diaoyutai guesthouse, and 4 p.m.; Dec. 27, 5 p.m., Building 7, military talks with Bhutto, the army chief of staff (the book names him 巴哈杜尔) and others). Made public: 1997. Names: Zhou Enlai, Bhutto.'
+    src:
+      c: b071a826
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 770: ?'
+        - 'w.zhou-enlai-waijiao-huodong 488: A'
     tags: [name:zhou-enlai, name:bhutto-zulfikar-ali, polity:prc, polity:pakistan, vis:only:prc+pakistan]
   - id: cal.1965-12-26.china-leadership-2
     when: Dec. 26
@@ -2989,6 +3148,23 @@ entries:
     c: Zhou, with Deng, Li Fuchun, Xu Xiangqian, Ye Jianying and others, goes to the airport to meet the ashes of Lai Chuanzhu, political commissar of the Shenyang Military Region, flown from Shenyang, and escorts them to the Babaoshan Revolutionary Cemetery.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 27, 1965). Names: Zhou Enlai, Deng Xiaoping, Li Fuchun, Xu Xiangqian, Ye Jianying, Lai Chuanzhu.'
     tags: [name:zhou-enlai, name:deng-xiaoping, name:li-fuchun, name:xu-xiangqian, name:ye-jianying, polity:prc]
+  - id: cal.1965-12-27.china-leadership-2
+    when: Dec. 27
+    date: '1965-12-27'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou gives a banquet for Pakistan's foreign minister Bhutto in Building 17 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 27, 1965; evening; Building 17, Diaoyutai guesthouse). Names: Zhou Enlai, Bhutto.'
+    src:
+      c: b4050c6a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_range:
+      - 1965-12-27T11:00Z
+      - 1965-12-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-28.vietnam
     when: Dec. 28
     date: '1965-12-28'
@@ -3870,3 +4046,19 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 18–19: all'
     tags: [polity:prc, name:peng-zhen, name:zhang-chunqiao, vis:only:prc]
+  - id: cal.1965-12-31.china-leadership-2
+    when: Dec. 31
+    date: '1965-12-31'
+    thread: china-leadership
+    c: Zhou attends at the Beijing Hotel the New Year's eve party for the capital's artists and the Albanian People's Army song and dance ensemble, welcoming 1966.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 31, 1965; evening; Beijing Hotel). Names: Zhou Enlai.'
+    src:
+      c: 1c0ffcef
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-31T11:00Z
+      - 1965-12-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

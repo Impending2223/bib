@@ -1334,13 +1334,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhongnanhai, Mao''s house by the pool. The Politburo Standing Committee (Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping; Peng Zhen attending) on the draft Reply of the Central Committee to the CPSU''s notice of Bucharest. Its five points: the ambush at Bucharest; the quarrel carried to the states, every aid agreement torn up and the experts withdrawn; Khrushchev for India on the border; his praise of Eisenhower; his "yellow peril" to Adenauer.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 7, 1960, and note 114. [[w.zhou-enlai-nianpu-1949]], II, 348, Sept. 7, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 352–353 (the Reply in twelve parts, five chief matters (the surprise attack at Bucharest; the extension to state relations and the experts'' withdrawal; Khrushchev on India; on Eisenhower; the "yellow peril" to Adenauer); the writers drafting from Beidaihe, Deng directing, Hu Qiaomu, Lu Dingyi and Kang Sheng chiefly; the Reply to go before the two parties'' talks, as the Standing Committee decided at several meetings in Peking after Beidaihe). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Yang Shangkun, Khrushchev, Eisenhower, Adenauer.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 7, 1960, and note 114. [[w.zhou-enlai-nianpu-1949]], II, 348, Sept. 7, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 352–353 (the Reply in twelve parts, five chief matters (the surprise attack at Bucharest; the extension to state relations and the experts'' withdrawal; Khrushchev on India; on Eisenhower; the "yellow peril" to Adenauer); the writers drafting from Beidaihe, Deng directing, Hu Qiaomu, Lu Dingyi and Kang Sheng chiefly; the Reply to go before the two parties'' talks, as the Standing Committee decided at several meetings in Peking after Beidaihe); [[w.lengxi-shinian-lunzhan-1956-1966]], 355–357 (the Reply''s five proposals: Marxism–Leninism and the 1957 declarations the basis of unity; relations equal and comradely; disputes settled by calm discussion, not by vote; no word or act to harm the parties'' unity; the November conference to be prepared by consultation; the Standing Committee on Sept. 7, at Mao''s, all stressed these, finished the Reply at the meeting, and the experts'' group had it translated). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Yang Shangkun, Khrushchev, Eisenhower, Adenauer.'
     src:
       c: fa0e21bd
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Sept. 7, 1960, and note 114: all'
         - 'w.zhou-enlai-nianpu-1949 II, 348, Sept. 7, 1960: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 352–353: B, C, D, E, F, G'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 355–357: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:khrushchev-nikita-s, name:eisenhower-dwight-d, name:adenauer-konrad, vis:only:prc]
   - id: cal.1960-09-07.china-leadership-2
     when: Sept. 7
@@ -2117,8 +2118,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Deng Xiaoping and Peng Zhen hand Chervonenko the Central Committee's Reply to the CPSU's notice, and tell him a delegation leaves for Moscow Sept. 15.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 10, 1960, and note 114. Made public: 2013. Names: Deng Xiaoping, Peng Zhen, Chervonenko.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 10, 1960, and note 114. [[w.lengxi-shinian-lunzhan-1956-1966]], 353–355 (the Reply: it answers the notice''s contradictions and its misstatements of China''s views; the 1957 memorandum, in which China had set down its reservations to the Moscow Declaration, is attached as an annex so that all brother parties see it; the Reply answers the claims that revolution can come by peaceful coexistence, that China is against negotiating, and Khrushchev''s abuse at Bucharest; "head" does not mean father party). Made public: 2013. Names: Deng Xiaoping, Peng Zhen, Chervonenko.'
+    src:
+      c: 1d743014
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Sept. 10, 1960, and note 114: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 353–355: A'
     tags: [polity:prc, polity:ussr, name:deng-xiaoping, name:peng-zhen, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: Deng Xiaoping and Peng Zhen summon Chervonenko on the 10th, hand him the Reply and tell him the delegation will leave on the 15th
+        at: '357'
   - id: cal.1960-09-12.china-leadership-2
     when: Sept. 12
     date: '1960-09-12'
@@ -2354,12 +2365,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: The Yinian Tang, evening. The enlarged Standing Committee, Mao presiding, on the line for the delegation to the talks of the two parties at Moscow; Li Fuchun reports on the DRV's fifteenth anniversary and the Lao Động party's Third Congress.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 13, 1960. [[w.zhou-enlai-nianpu-1949]], II, 349, Sept. 13, 1960 (Zhou present). Made public: 2013. Names: Mao Zedong, Li Fuchun, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 13, 1960. [[w.zhou-enlai-nianpu-1949]], II, 349, Sept. 13, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 358 (the Standing Committee at Mao''s house, the evening of the 13th, on the line for the talks: it expects a sharp quarrel; the delegation to test whether the Soviets want unity or Bucharest''s pressure; Mao and Liu say both may be; Khrushchev agreed to the talks, Wu says, under pressure from the Vietnamese party and others). Made public: 2013. Names: Mao Zedong, Li Fuchun, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Yang Shangkun.'
     src:
       c: 54152e03
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Sept. 13, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 349, Sept. 13, 1960: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 358: B'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:kang-sheng, vis:only:prc]
   - id: cal.1960-09-13.china-leadership-3
     when: Sept. 13
@@ -2699,6 +2711,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 288: all'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
     time_zone: Asia/Shanghai
+  - id: cal.1960-09-15.soviet-union
+    when: Sept. 15–16
+    date: '1960-09-15'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Peking, for Moscow. The Chinese delegation to the party talks leaves in two planes, for safety: Deng Xiaoping and Lu Dingyi in one, Peng Zhen and the rest in the other. Deng''s lands at Moscow that day. Peng''s, held by weather at Sverdlovsk, goes on by train and reaches Moscow Sept. 16.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 357–358 (Deng head, Peng Zhen deputy; some dozens, with heads of the Liaison Department and the Foreign Ministry and a company of writers; Wu stays in Peking by Mao''s order). Made public: 1999. See [[cal.1960-09-13.china-leadership]]. Names: Deng Xiaoping, Lu Dingyi, Peng Zhen.'
+    src:
+      c: b1649612
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 357–358: all'
+    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, name:peng-zhen, vis:only:prc+ussr]
   - id: cal.1960-09-16.japan-and-korea
     when: Sept. 16
     date: '1960-09-16'
@@ -2972,6 +2996,30 @@ entries:
     c: Zhou Enlai with Luo Guibo and others on the Sinkiang boundary.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 349 (Sept. 17, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-09-17.soviet-union
+    when: Sept. 17
+    date: '1960-09-17'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The talks of the CPSU and the CCP open. Suslov leads the Soviet side, with Kozlov, Andropov and Pospelov; for China Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng. Suslov speaks first: the CPSU wants the differences gone; on a first reading of the Reply they have grown; the Reply is full of anti-Marxist-Leninist views, the gravest attack on the CPSU since Trotsky in the twenties; he answers it at length. Deng: the CPSU''s notice was grave and the Reply answers it, as it answers the withdrawal of the experts and the tearing up of contracts; the CPSU has made no self-criticism. At the close he asks where the Soviets mean to take the ideological differences.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 358–360 (the first day; Suslov spoke first). Made public: 1999. See [[cal.1960-09-15.soviet-union]]. Names: Suslov, Kozlov, Andropov, Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng. Check: the account is the Chinese delegation''s.'
+    src:
+      c: 8c0a2dcc
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 358–360: all'
+    tags: [polity:prc, name:suslov-mikhail-a, name:kozlov-frol-r, name:andropov-yuriy-vladimirovich, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:kang-sheng, vis:only:prc+ussr]
+  - id: cal.1960-09-17.china-leadership-2
+    when: Sept. 17–22
+    date: '1960-09-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The delegation at Moscow cables each day's session to the Center. Mao presides at the Standing Committee many times on its reports and requests, and answers by cable.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 363–364 (no days given). Made public: 1999. See [[cal.1960-09-17.soviet-union]]. Names: Mao Zedong. Check: the days; Wu gives none, only that it was "many times" while the delegation was in Moscow.'
+    src:
+      c: 871a60c8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 363–364: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-09-18.congo
     when: Sept. 18
     date: '1960-09-18'
@@ -3012,6 +3060,11 @@ entries:
         - 'w.fursenko-one-hell-of-a 60: B-C'
         - 'w.fursenko-khrushchevs-cold-war 318–19: all'
     tags: [name:khrushchev-nikita-s, name:castro-fidel]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: Khrushchev went to the United Nations in mid-October, and took the heads of six East European states with him
+        at: 366–367
   - id: cal.1960-09-19.congo
     when: Sept. 19
     date: '1960-09-19'
@@ -3131,6 +3184,18 @@ entries:
     c: Zhou Enlai with Zhang Hanfu, Yao Zhongming and others on the Sino-Burmese boundary.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 350 (Sept. 19, 1960). Made public: 1997. Names: Zhou Enlai, Zhang Hanfu.'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:chang-han-fu, vis:only:prc]
+  - id: cal.1960-09-19.soviet-union-2
+    when: Sept. 19
+    date: '1960-09-19'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. Second session. Kozlov speaks first: the Reply is grave and cannot be accepted; the differences are the Chinese Party''s doing; since Bucharest it has attacked parties without naming them, as in *Renmin ribao*, a *Guizhou ribao* article and *Hongqi*''s "Emancipate the mind"; why does it raise old differences and set the Soviets against Poland and Hungary; the Twentieth Congress and Stalin; let China take up the substance: the era, war and peace, disarmament, coexistence. Deng and Peng Zhen answer point by point: do not quibble, face the facts, an error is an error. Andropov and Pospelov break in; Suslov, red in the face, joins them. Deng proposes to adjourn, the Chinese to reply systematically.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 360–362 (the second meeting, the 19th). Made public: 1999. See [[cal.1960-09-17.soviet-union]]. Names: Kozlov, Deng Xiaoping, Peng Zhen, Andropov, Suslov. Check: the account is the Chinese delegation''s.'
+    src:
+      c: f942f0ec
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 360–362: all'
+    tags: [polity:prc, name:kozlov-frol-r, name:deng-xiaoping, name:peng-zhen, name:andropov-yuriy-vladimirovich, name:suslov-mikhail-a, vis:only:prc+ussr]
   - id: cal.1960-09-20.state-constitutions-ok
     when: Sept. 20
     date: '1960-09-20'
@@ -3194,6 +3259,18 @@ entries:
       - 1960-09-20T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-09-20.soviet-union
+    when: Sept. 20
+    date: '1960-09-20'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. Third session. Deng replies in full to Suslov and Kozlov, on two matters: friend and foe, and relations among brother parties. Since the Korean War, he says, the CPSU has turned friend and foe round (the Congo, Algeria, Hungary); after the TASS statement it praised the reactionaries and attacked brother parties; Khrushchev praised Eisenhower and called China "Trotskyite" and "neither war nor peace." The CPSU is a "father party": he lists the joint fleet, the long-wave station, the experts withdrawn and contracts torn up, the ban on *Youhao* in the USSR, the border quarrels the Soviets would stir, Khrushchev''s abuse of China and Mao at the Warsaw Treaty dinner. China will make good its losses by self-reliance, asks no compensation and will repay its debt. No Soviet answer; Suslov reddens. Deng hopes the USSR will sit down and talk. The Soviet side had a joint statement drafted and does not table it.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 362–363 (the third meeting, the 20th). Made public: 1999. See [[cal.1960-09-17.soviet-union]]. Names: Deng Xiaoping, Suslov, Khrushchev. Check: the account is the Chinese delegation''s; the list of Deng''s charges is Wu''s.'
+    src:
+      c: 89c94743
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 362–363: all'
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:khrushchev-nikita-s, vis:only:prc+ussr]
   - id: cal.1960-09-21.middle-east
     when: Sept. 21
     date: '1960-09-21'
@@ -3274,6 +3351,18 @@ entries:
     c: 'The night before the Plowing Contest. Goodwin brings Kennedy the draft of the farm speech; he reads it in silence: "Just think, Dick, here we are, a couple of Brookline farmers, preparing policy for the entire country. Isn''t politics wonderful? ... Let''s go with it." As Goodwin leaves: "Remember, Dick, I don''t want to make policy, I want to make votes."'
     n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). See [[cal.1960-09-20.farm]]. Names: Goodwin, Kennedy. Check: the day; "The next night" (119).'
     tags: [name:goodwin-richard-n, name:kennedy-john-f]
+  - id: cal.1960-09-21.soviet-union
+    when: Sept. 21
+    date: '1960-09-21'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. At the talks of the 21st the Chinese delegation, after asking Peking, proposes that the two parties'' talks end for now: the differences are large and cannot be settled at once; the drafting committee meets soon, and what is open can wait for it. The Soviet side whispers together and agrees.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 363 (the talks of the 21st). Made public: 1999. See [[cal.1960-09-20.soviet-union]].'
+    src:
+      c: fbd05a9c
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 363: all'
+    tags: [polity:prc, vis:only:prc+ussr]
   - id: cal.1960-09-22.soviet-union
     when: Sept. 22
     date: '1960-09-22'
@@ -3417,6 +3506,18 @@ entries:
     c: 'Shortly after dawn, the Plowing Contest hours away. Goodwin reads Kennedy''s farm speech to Humphrey by telephone: "Wonderful, Dick ... it''s just what I would have said myself." The program memos had been prepared by Humphrey''s staff. At breakfast, to Kennedy: "It''s okay with Hubert."'
     n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). See [[cal.1960-09-22.farm-4]]. Names: Goodwin, Humphrey, Kennedy.'
     tags: [name:goodwin-richard-n, name:humphrey-hubert-h, name:kennedy-john-f]
+  - id: cal.1960-09-22.soviet-union-2
+    when: Sept. 22
+    date: '1960-09-22'
+    thread: soviet-union
+    also: [china-leadership]
+    c: The Chinese delegation leaves Moscow for home. The party talks of September end without result.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 363 (the delegation started home on the 22nd). Made public: 1999. See [[cal.1960-09-21.soviet-union]].'
+    src:
+      c: fafb16e8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 363: all'
+    tags: [polity:prc, vis:only:prc+ussr]
   - id: cal.1960-09-23.soviet-union
     when: Sept. 23
     date: '1960-09-23'
@@ -3525,13 +3626,19 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Yinian Tang, evening. The enlarged Standing Committee hears Deng Xiaoping, back that afternoon, on the talks of the two parties at Moscow, Sept. 17–22 (Peng Zhen his deputy). Mao: unity still, but on Marxism–Leninism; the CPSU used to being "father party"; argued, not settled; at the world conference seek agreement, not fear a split: hold to principle and to unity, fight resolutely, leave room.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 23, 1960, and note 115. [[w.zhou-enlai-nianpu-1949]], II, 350, Sept. 23, 1960 (Zhou present at the evening meeting). Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, Kang Sheng, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Sept. 23, 1960, and note 115. [[w.zhou-enlai-nianpu-1949]], II, 350, Sept. 23, 1960 (Zhou present at the evening meeting). [[w.lengxi-shinian-lunzhan-1956-1966]], 364–365 (the report; Mao''s talk after it: both parties still to unite, a Marxist-Leninist agreement the only basis; the Soviets used to scold brother parties as a father his son; this time both spoke, argued, settled nothing; at Bucharest the aim to isolate China failed, for China did not yield and other parties did not approve; the line: unity, struggle, no break; Liu and Zhou agree the delegation fought well). Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, Kang Sheng, Yang Shangkun.'
     src:
       c: 647798c0
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Sept. 23, 1960, and note 115: all'
         - 'w.zhou-enlai-nianpu-1949 II, 350, Sept. 23, 1960: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 364–365: C, D, E, F'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yi, name:li-fuchun, name:kang-sheng, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the delegation, home from Moscow, reports briefly to the Standing Committee on Sept. 24 (not the 23rd)
+        at: '364'
   - id: cal.1960-09-23.china-leadership-2
     when: Sept. 23
     date: '1960-09-23'

@@ -751,7 +751,12 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: Zhou, with Liu Shaoqi, Deng Xiaoping and others, meets the delegation of the Cuban United Party of the Socialist Revolution under Ernesto Guevara, Secretariat member.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 4, 1965). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Guevara.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 4, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 4, 1965; evening; Zhou, with Liu Shaoqi and Deng Xiaoping, meets the delegation and gives a banquet for it). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Guevara.'
+    src:
+      c: 8ca52437
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 706: ?'
+        - 'w.zhou-enlai-waijiao-huodong 435: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:guevara-ernesto, polity:prc, polity:cuba, vis:only:prc+cuba]
   - id: cal.1965-02-05.civil-rights-the-executive
     when: Feb. 5
@@ -980,8 +985,64 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi, china]
     c: 'Zhou has four talks, Feb. 5 and 6, with Kosygin, chairman of the Soviet Council of Ministers, passing through Beijing to Vietnam. Both sides hold that Sino-Soviet relations should develop. Zhou''s six proposals: for the fifteenth anniversary of the Sino-Soviet treaty, to print each other''s messages and speeches in the papers, showing one attitude; develop trade, long-term cooperation on some items; finish earlier projects left unfinished; carry out the yearly cultural plan better; China to send students and take Soviet ones in turn; carry out the travel agreement. Kosygin agrees to all six.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965). Made public: 1997. Names: Zhou Enlai, Kosygin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport). Made public: 1997. Names: Zhou Enlai, Kosygin.'
+    src:
+      c: cca6f6ed
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 706: ?'
+        - 'w.zhou-enlai-waijiao-huodong 435: A'
     tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1965-02-05.china-leadership-2
+    when: Feb. 5
+    date: '1965-02-05'
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: Zhou welcomes Kosygin and his delegation at the airport, on their way to Vietnam through Peking.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5, 1965; noon; Beijing airport). Names: Zhou Enlai, Kosygin.'
+    src:
+      c: 9b6ecb42
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
+    time_range:
+      - 1965-02-05T04:00Z
+      - 1965-02-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-05.china-leadership-3
+    when: Feb. 5
+    date: '1965-02-05'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou attends the reception given by Ceylon's ambassador for the seventeenth anniversary of Ceylon's independence.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5, 1965; evening; Beijing). The book names the ambassador 德席尔瓦. Names: Zhou Enlai.'
+    src:
+      c: d28f34d9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-02-05T11:00Z
+      - 1965-02-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-05.china-leadership-4
+    when: Feb. 5
+    date: '1965-02-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou gives a banquet for Kosygin and his delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5, 1965; evening; Beijing). See [[cal.1965-02-05.china-leadership]]. Names: Zhou Enlai, Kosygin.'
+    src:
+      c: 82a1e668
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
+    time_range:
+      - 1965-02-05T11:00Z
+      - 1965-02-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-06.soviet-union
     when: Feb. 6–10
     date: '1965-02-06'
@@ -2063,19 +2124,59 @@ entries:
   - id: cal.1965-02-09.china-leadership
     when: Feb. 9
     date: '1965-02-09'
+    time: 1965-02-09T11:30Z
     thread: china-leadership
     also: [africa]
     c: Zhou receives Tanzania's government trade delegation. China is breaking the limits of protocol, which came from monarchies, from capitalist states grown into imperialist unequal treatment, and from the U.S. since the war, casual at first and now arrogant and overbearing; none is good; China wants a form of truly equal, brotherly, respectful Asian states. Trade must rest on equality, mutual benefit, mutual aid.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 707–08 (Feb. 9, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 707–08 (Feb. 9, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 9, 1965; 7:30 p.m., Fujian Hall, Great Hall of the People; the delegation led by Babu (巴布), minister of commerce and co-operatives). Names: Zhou Enlai.'
+    src:
+      c: 163aae1c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 707–08: ?'
+        - 'w.zhou-enlai-waijiao-huodong 435: A'
     tags: [name:zhou-enlai, polity:prc, polity:tanzania]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-09.china-leadership-2
     when: Feb. 9
     date: '1965-02-09'
     thread: china-leadership
     also: [latin-america]
     c: Zhou receives Fuad Tom, Argentine lawyer, of the international lawyers' group that worked to free the nine Chinese held in Brazil.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 705 (Feb. 9, 1965). See [[cal.1965-01-29.china-leadership-2]]. Names: Zhou Enlai, Fuad Tom.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 705 (Feb. 9, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 9, 1965; the lawyers'' group; the book names Fuad Tom (富亚德·托姆)). See [[cal.1965-01-29.china-leadership-2]]. Names: Zhou Enlai, Fuad Tom.'
+    src:
+      c: db70b092
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 705: ?'
+        - 'w.zhou-enlai-waijiao-huodong 435: A'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-02-09.china-leadership-3
+    when: Feb. 9
+    date: '1965-02-09'
+    time: 1965-02-09T03:00Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives Morocco's departing ambassador in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 9, 1965; 11 a.m., Fujian Hall, Great Hall of the People). The book names the ambassador 阿卜杜拉·拉赫曼·兹尼贝尔. Names: Zhou Enlai.'
+    src:
+      c: a2080d48
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-09.china-leadership-4
+    when: Feb. 9
+    date: '1965-02-09'
+    time: 1965-02-09T05:00Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives Tanzania's first ambassador to China in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 9, 1965; 1 p.m., Fujian Hall, Great Hall of the People). The book names the ambassador 赛义德·特瓦. Names: Zhou Enlai.'
+    src:
+      c: '96544888'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-10.vietnam
     when: Feb. 10–11
     date: '1965-02-10'
@@ -2364,6 +2465,66 @@ entries:
     c: 'Zhou studies with Mao the Soviet–Vietnamese joint statement signed by Kosygin and Phạm Văn Đồng. Writes Mao the morning of Feb. 11: China''s reception of the Soviet passage was not low nor cold; at his meeting from nine to half past ten that day he will still touch on the international situation and the revisionist errors of view, arguing not to settle but to set out the ground for later diplomacy, or improving state relations would be hard even if the March 1 meeting is cancelled. Things develop by their own laws, not by men''s wills. One meeting of Mao with the Soviet delegation has its use.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Kosygin, Phạm Văn Đồng.'
     tags: [name:zhou-enlai, name:mao-zedong, name:kosygin-aleksei, name:pham-van-dong, polity:prc, vis:only:prc]
+  - id: cal.1965-02-10.china-leadership-3
+    when: Feb. 10
+    date: '1965-02-10'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou, with Mao Zedong, Liu Shaoqi, Deng Xiaoping and other Party and state leaders, takes part in the demonstration of 1,500,000 in the capital supporting Vietnam's struggle against the United States.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: fd70939f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435: all'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping]
+  - id: cal.1965-02-10.china-leadership-4
+    when: Feb. 10
+    date: '1965-02-10'
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: Zhou welcomes Kosygin and his delegation at the airport on their return through Peking from Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435–36 (Feb. 10, 1965; afternoon; Beijing airport). Names: Zhou Enlai, Kosygin.'
+    src:
+      c: f64eaad2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 435–36: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
+    time_range:
+      - 1965-02-10T04:00Z
+      - 1965-02-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-10.china-leadership-5
+    when: Feb. 10
+    date: '1965-02-10'
+    time: 1965-02-10T07:20Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou holds the fifth contact talk with Kosygin, on the road from the airport to the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 10, 1965; 3:20 p.m.; on the road from the airport to the Diaoyutai guesthouse). See [[cal.1965-02-05.china-leadership]]. The book gives no content. Names: Zhou Enlai, Kosygin.'
+    src:
+      c: 556b5645
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 436: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-10.china-leadership-6
+    when: Feb. 10
+    date: '1965-02-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou gives a banquet for Kosygin and his delegation and takes them to the modern ballet *The Red Detachment of Women*.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 10, 1965; evening; Beijing). Names: Zhou Enlai, Kosygin.'
+    src:
+      c: f43e9a01
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 436: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
+    time_range:
+      - 1965-02-10T11:00Z
+      - 1965-02-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-11.foreign-aid
     when: Feb. 11
     date: '1965-02-11'
@@ -2384,7 +2545,7 @@ entries:
     thread: soviet-union
     also: [china, vietnam]
     c: 'Peking. Kosygin, on his way home from Hanoi, with Mao and Zhou Enlai: let the two parties stop their polemics and act together for Vietnam. Mao refuses: the debate will go on for nine thousand years.'
-    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
+    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
     src:
       c: d21a1177
       rows:
@@ -2394,6 +2555,7 @@ entries:
         - 'via x.1989.cong-jin-quzhe-fazhan-de-suiyue: A-C'
         - 'w.zedong-mao-zedong-nianpu V, Feb. 11, 1965: A, C'
         - 'w.zhou-enlai-nianpu-1949 II, 708: A, B'
+        - 'w.zhou-enlai-waijiao-huodong 436: B'
     tags: [name:kosygin-aleksei, name:mao-zedong, name:zhou-enlai]
     time_range:
       - 1965-02-11T01:00Z
@@ -2700,6 +2862,37 @@ entries:
     c: 'The second of the ten Congressional receptions, 6:30 p.m.: Lady Bird Johnson meets the guests in the East Room, then the Green Room.'
     n: '[[w.johnson-white-house-diary]], 242 (Mrs. Johnson''s account; not the briefing). See [[cal.1965-02-09.vietnam-congress-3]]. Names: Johnson.'
     tags: [name:johnson-lady-bird]
+  - id: cal.1965-02-11.china-leadership-2
+    when: Feb. 11
+    date: '1965-02-11'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou attends the banquet given by Kosygin at the Soviet embassy.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; noon; Soviet embassy, Beijing). Names: Zhou Enlai, Kosygin.'
+    src:
+      c: 33da0cfb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 436: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
+    time_range:
+      - 1965-02-11T04:00Z
+      - 1965-02-11T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-11.china-leadership-3
+    when: Feb. 11
+    date: '1965-02-11'
+    time: 1965-02-11T05:35Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou, accompanying Kosygin to the airport, says on the road that the two sides'' views on foreign and international questions need regular exchange; differences of view and policy can be held, understood through unpublicized, informal exchanges; not everything at once, but many exchanges will show each side''s thinking. On state relations: China''s Friendship Association will agree to the Soviet–Chinese Friendship Association''s plan, on equal terms, beginning with the fifteenth anniversary of the treaty; Sino-Soviet trade in 1965 to grow somewhat over last year; cultural exchange to go on with fewer items; on travel, best to carry out the agreement.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 1:35 p.m.; on the road to the airport, Beijing). Made public: 1993. Check: [[cal.1965-02-05.china-leadership]] (Zhou nianpu) holds Zhou''s proposals to Kosygin on the same matters, Feb. 5–6. Names: Zhou Enlai, Kosygin.'
+    src:
+      c: fa4ab7ab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 436: all'
+    tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-12.legislatures-ia
     when: Feb. 12
     date: '1965-02-12'
@@ -2800,11 +2993,18 @@ entries:
   - id: cal.1965-02-12.china-leadership
     when: Feb. 12
     date: '1965-02-12'
+    time: 1965-02-12T07:45Z
     thread: china-leadership
     also: [middle-east]
     c: Zhou receives Kuwait's first friendship delegation to China. Since Bandung China has sought normal relations with Arab states; Kuwait may open talks and issue an establishment communiqué on the basis of recognizing only the People's Republic as the one legal government of all China; if the time is not ripe, China can wait. (Chinese–Kuwaiti ambassadorial relations began Mar. 22, 1971.)
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 12, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 12, 1965; 3:45 p.m., Zhejiang Hall, Great Hall of the People; the delegation led by 贾比尔·艾哈默德·萨巴赫, minister of finance, industry and commerce; Zhou also explains the U.S. "two Chinas" scheme and the Sino-French establishment of relations). Names: Zhou Enlai.'
+    src:
+      c: 8c95ba81
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 708: ?'
+        - 'w.zhou-enlai-waijiao-huodong 436: A, C-D'
     tags: [name:zhou-enlai, polity:prc, polity:kuwait]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-13.vietnam
     when: Feb. 13
     date: '1965-02-13'
@@ -3154,6 +3354,23 @@ entries:
     c: The *People's Daily* prints "Where Is the U.N. Going?", answering de Gaulle's speech of Feb. 4, as revised by Zhou, over "Observer".
     n: '[[w.zhou-enlai-nianpu-1949]], II, 709 (Feb. 15, 1965). See [[cal.1965-02-14.china-leadership]]. Names: Zhou Enlai, de Gaulle.'
     tags: [name:zhou-enlai, name:de-gaulle-charles, polity:prc]
+  - id: cal.1965-02-15.china-leadership-3
+    when: Feb. 15
+    date: '1965-02-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou attends the reception given by the Soviet embassy for the fifteenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 15, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 40a0db13
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 436: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-02-15T11:00Z
+      - 1965-02-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-16.vietnam
     when: Feb. 16
     date: '1965-02-16'
@@ -3640,6 +3857,74 @@ entries:
         - 'w.branch-pillar-of-fire 592: all'
         - 'via x.1965-02-18.new-york-lhm-dated-feb-18-1965: B'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, name:rustin-bayard]
+  - id: cal.1965-02-17.china-leadership
+    when: Feb. 17
+    date: '1965-02-17'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou goes to the airport to welcome Tanzania's President Nyerere and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 436–37 (Feb. 17, 1965; morning; Beijing airport). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: 2a6d3fe3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 436–37: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-16T22:00Z
+      - 1965-02-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-17.china-leadership-2
+    when: Feb. 17
+    date: '1965-02-17'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou, with Liu Shaoqi, Deng Yingchao and Wang Guangmei, meets President and Mrs. Nyerere.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 17, 1965; evening; Beijing). Names: Zhou Enlai, Liu Shaoqi, Nyerere.'
+    src:
+      c: 36a7dceb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-17T11:00Z
+      - 1965-02-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-17.china-leadership-3
+    when: Feb. 17
+    date: '1965-02-17'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the banquet given in the Great Hall of the People by Liu Shaoqi and his wife Wang Guangmei for President and Mrs. Nyerere.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 17, 1965; evening; Great Hall of the People). Names: Zhou Enlai, Liu Shaoqi, Nyerere.'
+    src:
+      c: e7715923
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-17T11:00Z
+      - 1965-02-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-17.china-leadership-4
+    when: Feb. 17
+    date: '1965-02-17'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou accompanies President Nyerere on a visit to the Museum of the Chinese Revolution.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 17, 1965; afternoon; Beijing). The book places the item after the evening items of the day. Names: Zhou Enlai, Nyerere.'
+    src:
+      c: bdaf5361
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-17T04:00Z
+      - 1965-02-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-18.voting-rights
     when: Feb. 18
     date: '1965-02-18'
@@ -3914,7 +4199,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, with Mao and Liu Shaoqi, receives President Nyerere of Tanzania (Feb. 17–21). Feb. 18, talk: agrees to help build a railway from Tanzania to Zambia; once built it is Tanzania''s and Zambia''s, and China will teach the skills.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 709 (Feb. 18, 1965). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Mao Zedong, Nyerere.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 709 (Feb. 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 19, 1965; 4 p.m., Great Hall of the People; Zhou accompanies Mao in receiving Nyerere); [[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 18, 1965; afternoon; Zhou, with Liu Shaoqi, calls on Nyerere at the Diaoyutai guesthouse for talks). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Mao Zedong, Nyerere.'
+    src:
+      c: 914d3c6c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 709: ?'
+        - 'w.zhou-enlai-waijiao-huodong 437: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:mao-zedong, name:nyerere-julius-k, polity:prc, polity:tanzania, vis:only:prc+tanzania]
   - id: cal.1965-02-18.china-leadership-2
     when: Feb. 18
@@ -3923,6 +4213,23 @@ entries:
     c: Zhou writes Shehu welcoming an Albanian delegation to Beijing to discuss economic cooperation and goods exchange during Albania's fourth five-year plan; proposes an expert group first, late in February, for preliminary talks with the Chinese offices.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 709–10 (Feb. 18, 1965). Made public: 1997. Names: Zhou Enlai, Shehu.'
     tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania]
+  - id: cal.1965-02-18.china-leadership-3
+    when: Feb. 18
+    date: '1965-02-18'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou attends the National Day reception given by Nepal's ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 18, 1965; evening; Beijing). The book names the ambassador 巴哈杜尔. Names: Zhou Enlai.'
+    src:
+      c: af4f99ea
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-02-18T11:00Z
+      - 1965-02-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-19.succession
     when: Feb. 19
     date: '1965-02-19'
@@ -4228,8 +4535,64 @@ entries:
     thread: china-leadership
     also: [africa, soviet-union]
     c: 'Zhou, in talk with Nyerere: if the U.S. goes on manipulating the U.N. it has no future; an organization steered by one state must break up, an objective law; China is outside and the members are held by the U.S.; the U.N. must be reorganized.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 709 (Feb. 19, 1965). Made public: 1997. Names: Zhou Enlai, Nyerere.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 709 (Feb. 19, 1965); [[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 19, 1965; afternoon, Zhou and Liu Shaoqi continue the talks with Nyerere; 10 p.m., Fujian Hall, Great Hall of the People, Zhou talks with Nyerere; the book does not say in which the U.N. remarks fell). Made public: 1997. Names: Zhou Enlai, Nyerere.'
+    src:
+      c: 5e5e6dfa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 709: ?'
+        - 'w.zhou-enlai-waijiao-huodong 437: A'
     tags: [name:zhou-enlai, name:nyerere-julius-k, polity:prc, polity:tanzania, vis:only:prc+tanzania]
+  - id: cal.1965-02-19.china-leadership-2
+    when: Feb. 19
+    date: '1965-02-19'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou accompanies President and Mrs. Nyerere on a visit to the timber mill in the northern suburbs.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 19, 1965; morning; Beijing). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: ec50215e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-18T22:00Z
+      - 1965-02-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-19.china-leadership-3
+    when: Feb. 19
+    date: '1965-02-19'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou and Deng Yingchao give a luncheon for President and Mrs. Nyerere.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 19, 1965; noon; Beijing). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: 0db0ea26
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-19T04:00Z
+      - 1965-02-19T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-19.china-leadership-5
+    when: Feb. 19
+    date: '1965-02-19'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou and Deng Yingchao attend the reception given by Tanzania's ambassador for President Nyerere's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 19, 1965; evening; Beijing). The book names the ambassador 赛义德·特瓦. Names: Zhou Enlai, Nyerere.'
+    src:
+      c: f8e6b62e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-19T11:00Z
+      - 1965-02-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-20.vietnam
     when: Feb. 20
     date: '1965-02-20'
@@ -4299,7 +4662,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the signing of the Sino-Tanzanian treaty of friendship.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 710 (Feb. 20, 1965). Names: Zhou Enlai, Nyerere.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 710 (Feb. 20, 1965); [[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 20, 1965; afternoon; Liu Shaoqi and Nyerere sign for the two states). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: 1ab8253c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 710: ?'
+        - 'w.zhou-enlai-waijiao-huodong 437: A'
     tags: [name:zhou-enlai, name:nyerere-julius-k, polity:prc, polity:tanzania]
   - id: cal.1965-02-20.china-leadership-2
     when: Feb. 20
@@ -4309,6 +4677,57 @@ entries:
     c: 'Zhou wires the Afro-Asian economic seminar meeting at Algiers on Feb. 22: Asians and Africans have spirit; they won independence by unity and struggle; they will build, relying on themselves and their riches, by self-reliance and equal mutual aid, new Asia and new Africa, wholly independent, advanced, strong.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 710 (Feb. 20, 1965). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, polity:algeria]
+  - id: cal.1965-02-20.china-leadership-3
+    when: Feb. 20
+    date: '1965-02-20'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou and Deng Yingchao attend the banquet given by the ambassadors of African states in Peking for President Nyerere's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 20, 1965; noon; Beijing). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: 6d02b629
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-20T04:00Z
+      - 1965-02-20T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-20.china-leadership-4
+    when: Feb. 20
+    date: '1965-02-20'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends in the Great Hall of the People the rally of all circles in the capital welcoming President and Mrs. Nyerere.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 20, 1965; afternoon; Great Hall of the People). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: 61772ba8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-20T04:00Z
+      - 1965-02-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-20.china-leadership-5
+    when: Feb. 20
+    date: '1965-02-20'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the banquet given by President and Mrs. Nyerere in return for the Chinese leaders' hospitality.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 20, 1965; evening; Beijing). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: e4f9a87a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-20T11:00Z
+      - 1965-02-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-21.states-and-cities
     when: Feb. 21
     date: '1965-02-21'
@@ -4421,6 +4840,23 @@ entries:
     c: 'Zhou calls Health Ministry heads Qian Xinzhong, Zhang Kai and He Biao with the Propaganda Department and State Council culture and education office to study the health plan. The Ministry is to make a long-range plan, fifteen years to wipe out disease. Five points: prevention and cure, sanitation of water and night soil tied to production, first in epidemic areas, early prevention; the patriotic health campaign, big twice a year, in school vacations, no formalism or forms, only results; health work for the countryside, urban medical teams a good start, serving workers, peasants and soldiers; train health workers faster by varied schooling; join Chinese and Western medicine, no uniformity, no forcing of either to learn the other, but unity.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 710–11 (Feb. 21, 1965). Made public: 1997. Names: Zhou Enlai, Qian Xinzhong, Zhang Kai, He Biao.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-02-21.china-leadership-3
+    when: Feb. 21
+    date: '1965-02-21'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou goes to the airport to see off President and Mrs. Nyerere, leaving Peking to visit Nanjing and other places.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 21, 1965; morning; Beijing airport). Names: Zhou Enlai, Nyerere.'
+    src:
+      c: cb0de751
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k]
+    time_range:
+      - 1965-02-20T22:00Z
+      - 1965-02-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-22.vietnam
     when: Feb. 22
     date: '1965-02-22'
@@ -4545,6 +4981,23 @@ entries:
     c: 'Zhou proposes how to improve the State Council''s Foreign Affairs Office. It takes six tasks: help the Central Committee''s foreign affairs group plan strategy; point out where the offices'' foreign work departs from policy or line and have it redone; rank, coordinate and balance their foreign work; organize cooperation with one office leading; screen important papers for Chen Yi and Zhou; check the carrying out of key tasks. It is to be reorganized on "liberate and raise": cut routine administration, drop what can be sent down, rotate in stronger cadres with foreign struggle experience. The Central foreign affairs group to meet often on strategy and the foreseeable; a central foreign affairs political department; a secretariat through which papers pass.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 711 (Feb. 22, 1965). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc]
+  - id: cal.1965-02-22.china-leadership-2
+    when: Feb. 22
+    date: '1965-02-22'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends in the Great Hall of the People the Foreign Ministry's reception for the first anniversary of relations between China and the Congo (Brazzaville).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 437 (Feb. 22, 1965; evening; Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: 9b75bbf4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 437: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-02-22T11:00Z
+      - 1965-02-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-23.states-and-cities-nyc
     when: Feb. 23
     date: '1965-02-23'
@@ -5328,10 +5781,17 @@ entries:
   - id: cal.1965-02-27.china-leadership-2
     when: Feb. 27
     date: '1965-02-27'
+    time: 1965-02-27T03:30Z
     thread: china-leadership
     c: 'Zhou, interviewed by Philippine journalists Fadul of the *Taliba* and De Guzman of the weekly *Central Luzon Mail*: Sino-American relations are international, the Chiang question domestic; when to liberate Taiwan is the Chinese people''s right; fifteen years waited, no hurry. Taiwan touches the U.S., so China talks with it. No fear it will bring a world war; China will never attack or start a war.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 714 (Feb. 27, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 714 (Feb. 27, 1965); [[w.zhou-enlai-waijiao-huodong]], 438 (Feb. 27, 1965; 11:30 a.m., Fujian Hall, Great Hall of the People; the book names the journalists as of the *Taliba* daily and the weekly *Zhong Lu Song youxun* (《中吕宋邮讯》), and the weekly''s head 德古斯曼). Names: Zhou Enlai.'
+    src:
+      c: 876a57b6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 714: ?'
+        - 'w.zhou-enlai-waijiao-huodong 438: A'
     tags: [name:zhou-enlai, polity:prc, polity:philippines]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-28.king
     when: Feb. 28
     date: '1965-02-28'
@@ -5633,3 +6093,17 @@ entries:
     c: 'Zhou calls Shi Ximin, Liu Baiyu, Situ Huimin, Zheng Junli and Zhang Ruifang on the film *Li Shanzi*: do not force class struggle in, which the audience is sensitive to; too much play, too little earnest, too much show, too little production; the red thread is lost; show it through production, labor, practice, work on people. The film must be largely redone.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 714–15 (Feb. 28, 1965). Made public: 1997. Names: Zhou Enlai, Shi Ximin, Liu Baiyu, Situ Huimin, Zheng Junli, Zhang Ruifang.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-02-28.china-leadership-3
+    when: Feb. 28
+    date: '1965-02-28'
+    time: 1965-02-28T12:00Z
+    thread: china-leadership
+    also: [africa]
+    c: 'Zhou receives guests from South Africa in the Fujian Hall of the Great Hall of the People: the acting president of the Pan-Africanist Congress, its publicity and information secretary and others.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 438 (Feb. 28, 1965; 8 p.m., Fujian Hall, Great Hall of the People). The book names the acting president 勒巴洛 and the secretary 莫雷特. Names: Zhou Enlai.'
+    src:
+      c: a423a623
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 438: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai

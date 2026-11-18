@@ -855,12 +855,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Mao receives Guinea's military delegation under Col. Diabi (deputy chief of staff), Great Hall; Zhou Enlai, Chen Boda, Huang Yongsheng and Wang Xinting present. The Cultural Revolution not for export; China's experience partly useful; African coups like the warlord wars, with imperialists behind; be independent of every state.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 3, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 3, 1968; Zhou with Mao, the delegation''s leader (Zhou present)). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Boda, Huang Yongsheng, Diabi, Wang Xinting. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 3, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 3, 1968; Zhou with Mao, the delegation''s leader (Zhou present)); [[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 3, 1968; Zhou accompanies Mao in receiving the Guinean military delegation under Colonel Diabi, deputy chief of staff of the people''s army). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Boda, Huang Yongsheng, Diabi, Wang Xinting. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
     src:
       c: 14ca7f97
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Aug. 3, 1968: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 246: A, B'
+        - 'w.zhou-enlai-waijiao-huodong 528: A-B'
     tags: [polity:prc, polity:guinea, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:huang-yongsheng, vis:only:prc+guinea@D-G]
   - id: cal.1968-08-03.china-leadership-2
     when: Aug. 3
@@ -1351,24 +1352,34 @@ entries:
   - id: cal.1968-08-05.china-leadership
     when: Aug. 5
     date: '1968-08-05'
+    time: 1968-08-05T09:00Z
     thread: china-leadership
     also: [south-asia]
     c: 'Mao receives Pakistan''s Foreign Minister Arshad Husain and wife, Great Hall; Zhou Enlai, Kang Sheng, Jiang Qing and Han Nianlong present. China, India and Pakistan discussed. Disarmament: "general expansion of arms"; China''s UN seat: the UN has branded China an aggressor; in Vietnam the Americans are not the aggressors in the UN''s eyes, Hồ Chí Minh is.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 5, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 5, 1968; Zhou receives the minister, then with Mao). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Jiang Qing, Arshad Husain, Han Nianlong, Hồ Chí Minh. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 5, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 5, 1968; Zhou receives the minister, then with Mao); [[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 5, 1968; 5 p.m., Great Hall of the People; Zhou accompanies Mao in receiving Arshad Husain). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Jiang Qing, Arshad Husain, Han Nianlong, Hồ Chí Minh. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
     src:
       c: cf8623b4
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Aug. 5, 1968: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 246: A, B'
+        - 'w.zhou-enlai-waijiao-huodong 528: A'
     tags: [polity:prc, polity:pakistan, name:mao-zedong, name:zhou-enlai, name:kang-sheng, name:jiang-qing, name:husain-m-arshad, name:ho-chi-minh, vis:only:prc+pakistan@C-F]
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-05.china-leadership-2
     when: Aug. 5
     date: '1968-08-05'
+    time: 1968-08-05T06:30Z
     thread: china-leadership
     also: [south-asia, china]
     c: Zhou Enlai receives Pakistan's Foreign Minister Arshad Husain and his wife.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 5, 1968). Made public: 2020. See [[cal.1968-08-05.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 5, 1968); [[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 5, 1968; 2:30 p.m., Great Hall of the People; Pakistan''s foreign minister Arshad Husain and his wife). Made public: 2020. See [[cal.1968-08-05.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 894991b0
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 246: ?'
+        - 'w.zhou-enlai-waijiao-huodong 528: A'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai, name:mao-zedong, vis:only:prc+pakistan]
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-05.china-leadership-3
     when: Aug. 5
     date: '1968-08-05'
@@ -1385,6 +1396,23 @@ entries:
     c: Zhou Enlai attends the Cultural Revolution Group's liaison meetings of Aug. 5 and 7, on Yunnan, the defense industry conference, the metallurgical industry conference and the list of members of the coming Fujian revolutionary committee.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 5, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-08-05.china-leadership-5
+    when: Aug. 5
+    date: '1968-08-05'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou attends the reception given by Pakistan's ambassador Sultan for the visit of Foreign Minister Husain.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 5, 1968; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: db40bee8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 528: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-08-05T11:00Z
+      - 1968-08-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-06.elections-1968-miami
     when: Aug. 6
     date: '1968-08-06'
@@ -3186,7 +3214,12 @@ entries:
     date: '1968-08-13'
     thread: china-leadership
     c: Mao receives the Italian Communist Party (Marxist-Leninist) delegation, Politburo members Becchi and Dini (the chronology's "Beiqi", "Dini"), Great Hall; Zhou Enlai, Kang Sheng, Jiang Qing and Yao Wenyuan present. Revisionism exists in China too; mass movements alone clean it out; the bourgeoisie influences communist parties whether they stand for election or not.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 13, 1968. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Jiang Qing, Yao Wenyuan, Becchi, Dini. Check: the Italian spellings. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 13, 1968. [[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 13, 1968; Zhou accompanies Mao in receiving the Italian Communist Party (Marxist-Leninist) delegation of Politburo member and Secretariat secretary 奥斯瓦尔多·贝契 and Politburo member Dino Dini (迪诺·迪尼)). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Jiang Qing, Yao Wenyuan, Becchi, Dini. Check: the Italian spellings. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: b437a44b
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Aug. 13, 1968: all'
+        - 'w.zhou-enlai-waijiao-huodong 528: A-B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:kang-sheng, name:jiang-qing, name:yao-wenyuan, vis:only:prc@C-E]
   - id: cal.1968-08-13.china-leadership-2
     when: Aug. 13
@@ -3470,6 +3503,18 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1968-08-16.china-leadership
+    when: Aug. 16
+    date: '1968-08-16'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the reception given by the chargé d'affaires of the Congo (Brazzaville) embassy for the fifth anniversary of the Congolese revolution.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 16, 1968; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: ab58e158
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 528: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1968-08-17.elections-1968-chicago
     when: Aug. 17
     date: '1968-08-17'
@@ -3718,6 +3763,23 @@ entries:
     c: Moscow. Brezhnev directs the talks of the Soviet delegation with the leaders of the delegations of Bulgaria, Hungary, the GDR and Poland (Zhivkov, Kádár, Ulbricht, Gomułka), 2 to 6 p.m., at the Lenin Hills reception house, after the Politburo there, 11 to 2:30; a dinner for them, 6 to 7.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 277 (Aug. 18). Made public: 2016. Names: Brezhnev, Zhivkov, Kádár, Ulbricht, Gomułka. Check: Hungary and Bulgaria were also present; the polities file has no entry for either. The record names no business.'
     tags: [name:brezhnev-leonid, name:zhivkov-todor, name:kadar-janos, name:ulbricht-walter, name:gomu-ka-w-adys-aw, polity:ussr, polity:poland, polity:gdr, polity:bulgaria, polity:hungary, vis:only:ussr+bulgaria+gdr+hungary+poland]
+  - id: cal.1968-08-18.china-leadership
+    when: Aug. 18
+    date: '1968-08-18'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives in the Fujian Hall of the Great Hall of the People the Tanzanian sea transport delegation led by the Tanzanian chairman of the board of the China–Tanzania Joint Shipping Company.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 18, 1968; evening; Fujian Hall, Great Hall of the People). The book names the chairman 尼任达. Names: Zhou Enlai.'
+    src:
+      c: a9e9a41c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 528: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-08-18T11:00Z
+      - 1968-08-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-19.vietnam-paris
     when: Aug. 19
     date: '1968-08-19'
@@ -4217,11 +4279,18 @@ entries:
   - id: cal.1968-08-20.china-leadership
     when: Aug. 20
     date: '1968-08-20'
+    time: 1968-08-20T15:30Z
     thread: china-leadership
     also: [europe-and-the-alliance, china]
     c: Zhou Enlai, receiving in the evening Babani, the chargé of the Albanian embassy, delivers the reply to Hoxha's letter of July 3. International activity is less because the documents are buried in the provinces; he says frankly he is busier than in the three-year war of liberation, every day brings problems and time never suffices, and the Liaison Department's minister cannot be found. This Cultural Revolution is unprecedented; two or three years were wanted, plus the wind-up; now three are needed and perhaps more after, longer than first reckoned. Rail, coal and production are hit; the Wuhan Steel works is still not united. The old saying was that a scholar meeting soldiers cannot argue his case; now it is the reverse, the army meeting scholars.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 247 (Aug. 20, 1968). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 247 (Aug. 20, 1968); [[w.zhou-enlai-waijiao-huodong]], 528 (Aug. 20, 1968; 11:30 p.m., Great Hall of the People; the chargé of the Albanian embassy (the book names 巴巴尼) and the military attaché (哈卡尼), who handed over the reply to Shehu''s letter of July 3). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: d0b85390
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 247: ?'
+        - 'w.zhou-enlai-waijiao-huodong 528: A'
     tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania]
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-21.elections-1968
     when: Aug. 21
     date: '1968-08-21'
@@ -4872,8 +4941,18 @@ entries:
     thread: china-leadership
     also: [soviet-union-czechoslovakia, china, soviet-union]
     c: Zhou Enlai, at the national day reception given by Romania's ambassador Duma, condemns the Soviet armed occupation of Czechoslovakia and expresses firm support for the Czechoslovak people's heroic resistance to the Soviet occupation.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 23, 1968). See [[cal.1968-08-23.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 23, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Aug. 23, 1968; evening, the National Day reception given by Romania''s ambassador Duma, Zhou speaking). See [[cal.1968-08-23.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 98f8ca20
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 248: ?'
+        - 'w.zhou-enlai-waijiao-huodong 529: A'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-08-23T11:00Z
+      - 1968-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-23.china-leadership-3
     when: Aug. 23
     date: '1968-08-23'
@@ -4890,6 +4969,20 @@ entries:
     c: Zhou Enlai with the liaison meeting's members receives the delegates of Guangxi.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 247 (Aug. 23, 1968). Made public: 2020. See [[cal.1968-08-17.china-leadership-2]]. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-08-23.china-leadership-5
+    when: Aug. 23
+    date: '1968-08-23'
+    time: 1968-08-23T10:10Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou receives Romania's ambassador Duma in the Fujian Hall of the Great Hall of the People, who passes on Ceaușescu's view of the Czechoslovak leadership from his talks with Dubček.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 528–29 (Aug. 23, 1968; 6:10 p.m., Fujian Hall, Great Hall of the People). Made public: 1993. The book gives only that the ambassador reports Ceaușescu''s view; the content of the view is not given. Names: Zhou Enlai.'
+    src:
+      c: 8eb167b3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 528–29: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-24.specials
     when: Aug. 24
     date: '1968-08-24'

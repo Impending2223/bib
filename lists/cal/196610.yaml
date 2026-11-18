@@ -88,7 +88,12 @@ entries:
     date: '1966-10-01'
     thread: china-leadership
     c: 'Tiananmen, 10 a.m. Mao at the rally for the PRC''s seventeenth anniversary (over 1,500,000), receives Red Guards and revolutionary teachers and students (the fourth reception); at noon, the wounded drillers of the Daqing 3211 team; walks over Jinshui Bridge into the crowd. The day lasts over six hours. Evening: sits on the square with the people; watches the fireworks from the gate.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 1, 1966. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 1, 1966. [[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 1, 1966; morning, Tiananmen tower; Zhou reviews the march of 1,500,000). Names: Mao Zedong.'
+    src:
+      c: 296bdfb6
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 1, 1966: all'
+        - 'w.zhou-enlai-waijiao-huodong 505: A'
     tags: [name:mao-zedong, polity:prc]
   - id: cal.1966-10-01.china-leadership-2
     when: Oct. 1
@@ -459,6 +464,23 @@ entries:
     c: 'Zhou Enlai talks with the Red Guard delegates in Peking for National Day: grasp revolution and promote production; linking up strains transport and grain. Errors of line by Party leaders are among the people; most leading organs are not a black gang. Cherish the minorities'' leaders; keep the Political Consultative Conference and the democratic parties. Arrest belongs to the courts, the press and radio to no Red Guard group.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 71–72 (Oct. 3, 1966). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1966-10-03.china-leadership-2
+    when: Oct. 3
+    date: '1966-10-03'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the Pakistani friendship delegation led by the governor of East Pakistan, Monem Khan.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 3, 1966; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 1f388c48
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 505: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-03T11:00Z
+      - 1966-10-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-04.poverty
     when: Oct. 4
     date: '1966-10-04'
@@ -490,6 +512,20 @@ entries:
     c: Mao, at the pool, presides over an enlarged Politburo meeting that hears Zhou Enlai, Tao Zhu and army leaders on the Cultural Revolution. He proposes a Center work conference of the regions' heads.
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 4, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 72 (Oct. 4, 1966; Zhou, with Tao Zhu and military heads, reports on the Cultural Revolution to Mao at the enlarged Politburo meeting; Mao proposes a Central Work Conference of the local heads). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Tao Zhu.'
     tags: [name:mao-zedong, name:zhou-enlai, name:tao-zhu, polity:prc, vis:only:prc]
+  - id: cal.1966-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1966-10-04'
+    time: 1966-10-04T13:40Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the Tanzanian friendship delegation led by the commissioner of the Coast Region in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 4, 1966; 9:40 p.m., Fujian Hall, Great Hall of the People). The book names the commissioner 基顿杜. Names: Zhou Enlai.'
+    src:
+      c: 9af81ecd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 505: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-05.opinion
     when: Oct. 5
     date: '1966-10-05'
@@ -620,11 +656,79 @@ entries:
   - id: cal.1966-10-05.china-leadership-2
     when: Oct. 5
     date: '1966-10-05'
+    time: 1966-10-05T08:30Z
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'Zhou Enlai talks with Ion Gheorghe Maurer, chairman of Romania''s Council of Ministers, who reports his talks in Vietnam. Zhou: on Vietnam the Chinese and Soviet positions are wholly opposite, with no joint action; Vietnam will be talked of when the time comes, the issue is the conditions, the moment and who decides, and Vietnam decides; anyone mobilized by the Soviet Union and the U.S. to press Vietnam may cross China if Vietnam invites, with exceptions, such as U Thant, who would have to be considered; aid goods to Vietnam go through China under the agreements.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 72 (Oct. 5, 1966). Made public: 2020. Names: Zhou Enlai, Maurer, U Thant.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 72 (Oct. 5, 1966); [[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 5, 1966; 4:30 p.m., Building 18, Diaoyutai guesthouse; the book sums up Zhou''s replies in four points: on Vietnam the Chinese and Soviet positions are wholly opposite and there is no joint action; talks will come at some time, the issue being conditions, moment and who decides, and Vietnam decides; those the Soviet Union and the U.S. mobilize to press Vietnam may pass through if Vietnam invites, with exceptions such as U Thant to be considered; aid goods to Vietnam through China go by agreement and allow no joint action). Made public: 2020. Names: Zhou Enlai, Maurer, U Thant.'
+    src:
+      c: 8d9c2a96
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 72: ?'
+        - 'w.zhou-enlai-waijiao-huodong 505: A-E'
     tags: [name:zhou-enlai, name:maurer-ion-gheorghe, name:u-thant, polity:prc, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-10-05.china-leadership-3
+    when: Oct. 5
+    date: '1966-10-05'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off the chairman of the Communist Party of Australia (Marxist-Leninist), Hill, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 5, 1966; Beijing airport; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 7feee9b8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 505: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1966-10-05.china-leadership-4
+    when: Oct. 5
+    date: '1966-10-05'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the Nepal–China friendship delegation led by the chairman of the Kathmandu city council.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 5, 1966; morning; Beijing). The book names the chairman 什雷斯塔. Names: Zhou Enlai.'
+    src:
+      c: 1cadcfe6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 505: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-04T22:00Z
+      - 1966-10-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-10-05.china-leadership-5
+    when: Oct. 5
+    date: '1966-10-05'
+    thread: china-leadership
+    c: Zhou receives the delegation of the Cambodia–China Friendship Association led by its chairman.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 5, 1966; noon; Beijing). The book names the chairman 兰·涅特. Names: Zhou Enlai.'
+    src:
+      c: 8b7cd0c6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 505: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-05T04:00Z
+      - 1966-10-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1966-10-05.china-leadership-6
+    when: Oct. 5
+    date: '1966-10-05'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou watches the play *Honmokutei* (《本牧亭》) by the Japanese Zenshinza theater troupe and receives the troupe's heads and principal actors.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 505 (Oct. 5, 1966; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 3b5b3484
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 505: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-05T11:00Z
+      - 1966-10-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-06.school-aid
     when: Oct. 6
     date: '1966-10-06'
@@ -848,6 +952,23 @@ entries:
     c: Zhou Enlai, on Tan Zhenlin's request for a way to deal with Xinjiang students who came to Peking and are making trouble at the Ministry of State Farms and Land Reclamation, tells Xiao Ke, Chen Manyuan and Jiang Qixian to stay calm and step forward when students come; if in error, admit it and promise to correct; if not, explain well and hurt no one. It is a test for the Ministry's Party committee.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 73 (Oct. 7, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Tan Zhenlin, Xiao Ke, Chen Manyuan, Jiang Qixian.'
     tags: [name:zhou-enlai, name:tan-zhenlin, polity:prc, vis:only:prc]
+  - id: cal.1966-10-07.china-leadership-5
+    when: Oct. 7
+    date: '1966-10-07'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives a Guinean writer and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 7, 1966; evening; Beijing). The book names him 孔德特. Names: Zhou Enlai.'
+    src:
+      c: 07f8f2c8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-07T11:00Z
+      - 1966-10-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-08.china-leadership
     when: Oct. 8
     date: '1966-10-08'
@@ -2197,6 +2318,22 @@ entries:
     c: Zhou Enlai, after going to Mao's, talks with Liu Shaoqi and Deng Xiaoping in the Henan Hall of the Great Hall.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 79 (Oct. 20, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Mao Zedong.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1966-10-20.china-leadership-6
+    when: Oct. 20
+    date: '1966-10-20'
+    thread: china-leadership
+    c: Zhou receives the Albanian petroleum delegation led by the deputy minister of industry and mining.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 20, 1966; evening; Beijing). The book names him 哈米蒂. Names: Zhou Enlai.'
+    src:
+      c: 0986c87b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-20T11:00Z
+      - 1966-10-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-21.elections-1966
     when: Oct. 21
     date: '1966-10-21'
@@ -2568,7 +2705,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai receives Pakistan''s Foreign Minister Pirzada: the two countries differ in system, nation and belief but have a basis for peaceful coexistence and both will keep the Five Principles.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 80 (Oct. 24, 1966). Made public: 2020. Names: Zhou Enlai, Pirzada.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 80 (Oct. 24, 1966); [[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; 12 noon, Great Hall of the People). Made public: 2020. Names: Zhou Enlai, Pirzada.'
+    src:
+      c: 68b6336c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 80: ?'
+        - 'w.zhou-enlai-waijiao-huodong 506: A'
     tags: [name:zhou-enlai, name:pirzada-sharifuddin, polity:prc, vis:only:prc+pakistan]
   - id: cal.1966-10-24.china-leadership-5
     when: Oct. 24
@@ -2577,6 +2719,36 @@ entries:
     c: Zhou Enlai tells Tao Lujia to work in person on the industry-and-transport liaison station not to hold a mass meeting to criticize Bo Yibo.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 80 (Oct. 24, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Tao Lujia, Bo Yibo.'
     tags: [name:zhou-enlai, name:bo-yibo, polity:prc, vis:only:prc]
+  - id: cal.1966-10-24.china-leadership-6
+    when: Oct. 24
+    date: '1966-10-24'
+    time: 1966-10-24T04:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou and Chen Yi receive and give a luncheon for Pakistan's foreign minister Pirzada in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; noon, Great Hall of the People). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 61fae52f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-10-24.china-leadership-7
+    when: Oct. 24
+    date: '1966-10-24'
+    thread: china-leadership
+    c: Zhou receives the Cambodian health delegation led by the state secretary for public health.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; afternoon; Beijing). The book names him 蔡韩清. Names: Zhou Enlai.'
+    src:
+      c: b533711a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-24T04:00Z
+      - 1966-10-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-25.middle-east
     when: Oct. 25
     date: '1966-10-25'
@@ -2690,6 +2862,23 @@ entries:
     c: 'Mao cables the Fifth Congress of the Albanian Party of Labor: Albania, "a great beacon of socialism in Europe"; he quotes a Tang line of poetry (a friend at the world''s edge is as a neighbor).'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 25, 1966. Names: Mao Zedong.'
     tags: [name:mao-zedong, polity:prc, polity:albania]
+  - id: cal.1966-10-25.china-leadership-4
+    when: Oct. 25
+    date: '1966-10-25'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou attends the banquet given by Pakistan's ambassador for the visit of Foreign Minister Pirzada.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 25, 1966; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: bbbd426b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-10-25T11:00Z
+      - 1966-10-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-26.europe-and-the-alliance
     when: Oct. 26
     date: '1966-10-26'
@@ -2820,6 +3009,17 @@ entries:
     c: China holds its first test combining missile and nuclear warhead, and it succeeds; China now has missile-borne nuclear weapons fit for use in war.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 78–79 (Oct. 20, 1966; "二十七日"). Names: Zhou Enlai. Check: the nianpu names the date but not the place, the yield or the Chinese announcement.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1966-10-27.china-leadership-2
+    when: Oct. 27
+    date: '1966-10-27'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off the Chinese Communist Party delegation leaving for Albania for the Fifth Congress of the Albanian Party of Labor and the celebrations of the party's twenty-fifth anniversary.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 27, 1966; Beijing airport; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 2e13ba19
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1966-10-28.vietnam-asian-trip
     when: Oct. 28–30
     date: '1966-10-28'
@@ -2961,6 +3161,20 @@ entries:
     c: Zhou Enlai talks with Xu Ming and Yang Dezhong on students of Zhengzhou University entering Zhongnanhai.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 83 (Oct. 28, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Xu Ming, Yang Dezhong.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1966-10-28.china-leadership-4
+    when: Oct. 28
+    date: '1966-10-28'
+    time: 1966-10-28T15:00Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the Guinean health delegation led by the minister of public health and social affairs in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 28, 1966; 11 p.m., Fujian Hall, Great Hall of the People). The book names the minister 阿马杜. Names: Zhou Enlai.'
+    src:
+      c: f1acb325
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 506: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-29.elections-1966
     when: Oct. 29
     date: '1966-10-29'

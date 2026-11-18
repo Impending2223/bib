@@ -25,11 +25,32 @@ entries:
   - id: cal.1969-06-03.china-leadership
     when: June 3
     date: '1969-06-03'
+    time: 1969-06-03T06:20Z
     thread: china-leadership
     also: [europe-and-the-alliance, china]
     c: 'Zhou Enlai, to Sweden''s new ambassador: a batch of ambassadors is soon to go abroad to their posts; Sweden, a peaceful neutral country friendly to China, is in the first batch.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 297 (June 3, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 297 (June 3, 1969); [[w.zhou-enlai-waijiao-huodong]], 536 (June 3, 1969; 2:20 p.m., Jiangsu Hall, Great Hall of the People; Sweden''s new ambassador (the book gives 比扬贝格)). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: ad737e89
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 297: ?'
+        - 'w.zhou-enlai-waijiao-huodong 536: A'
     tags: [polity:prc, polity:sweden, name:zhou-enlai, vis:only:prc+sweden]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-06-03.china-leadership-2
+    when: June 3
+    date: '1969-06-03'
+    time: 1969-06-03T10:30Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives Tanzania's new ambassador Salim in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 536 (June 3, 1969; 6:30 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: 41e0a562
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 536: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1969-06-04.china-leadership
     when: June 4
     date: '1969-06-04'
@@ -89,11 +110,18 @@ entries:
   - id: cal.1969-06-10.china-leadership-2
     when: June 10
     date: '1969-06-10'
+    time: 1969-06-10T07:00Z
     thread: china-leadership
     also: [south-asia, china]
     c: 'Zhou Enlai receives Pakistan''s ambassador, Kaiser, who hands over President Yahya Khan''s letter inviting Zhou to Pakistan. Zhou: several countries have asked when he can go abroad, but, much occupied at home, he cannot now; many friendly countries understand, and a Pakistani visit too is probably not to be fixed this year.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 298 (June 10, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 298 (June 10, 1969); [[w.zhou-enlai-waijiao-huodong]], 536 (June 10, 1969; 3 p.m., Jiangsu Hall, Great Hall of the People; the book adds that a visit to Pakistan was not possible before National Day, whether in the winter was hard to say, and that if he travelled abroad he would go to Pakistan first). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: '46762501'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 298: ?'
+        - 'w.zhou-enlai-waijiao-huodong 536: A-C'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai, vis:only:prc+pakistan]
+    time_zone: Asia/Shanghai
   - id: cal.1969-06-11.china-leadership
     when: June 11
     date: '1969-06-11'
@@ -185,8 +213,49 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou Enlai receives Nguyễn Văn Quảng, head of the National Liberation Front's permanent delegation in China, and for the Chinese government congratulates and recognizes the Provisional Revolutionary Government of the Republic of South Vietnam.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 298–299 (June 15, 1969). See [[cal.1969-06-14.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 298–299 (June 15, 1969); [[w.zhou-enlai-waijiao-huodong]], 536 (June 15, 1969; morning, Great Hall of the People). See [[cal.1969-06-14.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 6afd99a8
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 298–299: ?'
+        - 'w.zhou-enlai-waijiao-huodong 536: A'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-06-14T22:00Z
+      - 1969-06-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-06-15.china-leadership-2
+    when: June 15
+    date: '1969-06-15'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Vietnam's ambassador Ngô Minh Loan, who hands over the statement of the Vietnamese government on the founding of the Provisional Revolutionary Government of the Republic of South Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 536 (June 15, 1969; the book places it after the morning reception of the Front''s head; Beijing). See [[cal.1969-06-15.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 567f2c07
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 536: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-06-14T22:00Z
+      - 1969-06-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-06-15.china-leadership-3
+    when: June 15
+    date: '1969-06-15'
+    time: 1969-06-15T13:30Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Vietnam's deputy minister of foreign trade Lý Ban in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 536 (June 15, 1969; 9:30 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: aa8e2836
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 536: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1969-06-16.china-leadership
     when: June 16
     date: '1969-06-16'
@@ -298,6 +367,40 @@ entries:
     c: Zhou Enlai attends the Politburo meeting Lin Biao calls, on the editing of the fifth volume of the Selected Works of Mao Zedong and the July 1 editorial.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 300 (June 26, 1969). Made public: 2020. Names: Zhou Enlai, Lin Biao, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:lin-biao, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-06-26.china-leadership-4
+    when: June 26
+    date: '1969-06-26'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Trần Bửu Kiếm (陈宝剑), minister of the Provisional Revolutionary Government of the Republic of South Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 536 (June 26, 1969; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: '39504931'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 536: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-06-26T11:00Z
+      - 1969-06-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1969-06-26.china-leadership-5
+    when: June 26
+    date: '1969-06-26'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou watches a performance by the Vietnamese national arts troupe and receives its head and principal performers at the intermission.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 536 (June 26, 1969; evening; Beijing). The book names the head 瞿辉瑾. Names: Zhou Enlai.'
+    src:
+      c: 7bcc1412
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 536: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-06-26T11:00Z
+      - 1969-06-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-06-28.china-leadership
     when: June 28
     date: '1969-06-28'

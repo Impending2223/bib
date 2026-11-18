@@ -61,7 +61,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives the delegations of patriotic Hong Kong and Macao compatriots who came for the May Day celebrations.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 289 (May 5, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 289 (May 5, 1969); [[w.zhou-enlai-waijiao-huodong]], 535 (May 5, 1969; with Li Xiannian, the delegations of Hong Kong and Macao patriotic compatriots at the May Day celebrations). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: b6d6e484
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 289: ?'
+        - 'w.zhou-enlai-waijiao-huodong 535: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1969-05-05.china-leadership-3
     when: May 5
@@ -177,16 +182,28 @@ entries:
     thread: china-leadership
     also: [south-asia, china]
     c: 'Zhou Enlai, on the Foreign Economic Liaison Commission''s military control group''s request of May 10 for raw materials for military projects for Pakistan, notes: agree to supply Pakistan, and by strict inspection assure the quality. The same day he receives Pakistan''s ambassador, Kaiser.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 16, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 16, 1969); [[w.zhou-enlai-waijiao-huodong]], 535 (May 16, 1969; 9 p.m., Great Hall of the People; Pakistan''s ambassador Kaiser). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: 1f8ff5c3
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 292: ?'
+        - 'w.zhou-enlai-waijiao-huodong 535: B'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai, vis:only:prc+pakistan]
   - id: cal.1969-05-16.china-leadership-2
     when: May 16
     date: '1969-05-16'
+    time: 1969-05-16T12:00Z
     thread: china-leadership
     also: [europe-and-the-alliance, china]
     c: 'Zhou Enlai receives Romania''s departing ambassador, Duma: relations between the two countries develop in friendship.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 16, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 16, 1969); [[w.zhou-enlai-waijiao-huodong]], 535 (May 16, 1969; 8 p.m., Jiangsu Hall, Great Hall of the People). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: 085a156d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 292: ?'
+        - 'w.zhou-enlai-waijiao-huodong 535: A'
     tags: [polity:prc, polity:romania, name:zhou-enlai, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
   - id: cal.1969-05-17.china-leadership
     when: May 17
     date: '1969-05-17'
@@ -261,6 +278,20 @@ entries:
     c: 'Zhou Enlai submits to Mao the Inner Mongolian Party core group''s views on carrying out the Center''s instruction and the Center''s instruction itself; Mao writes: do it.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 291–292 (May 20, 1969). Made public: 2020. See [[cal.1969-05-13.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-20.china-leadership-2
+    when: May 20
+    date: '1969-05-20'
+    time: 1969-05-20T09:45Z
+    thread: china-leadership
+    also: [middle-east-syria]
+    c: Zhou receives the Syrian military delegation led by Major General Tlass (塔拉斯), chief of the General Staff of the army and armed forces and first deputy minister of defense, in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 535 (May 20, 1969; 5:45 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: e32e0b25
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 535: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1969-05-21.china-leadership
     when: May 21
     date: '1969-05-21'
@@ -393,6 +424,23 @@ entries:
     c: Zhou Enlai talks with Li Siguang.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 27, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05-27.china-leadership-4
+    when: May 27
+    date: '1969-05-27'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou attends the reception given by Afghanistan's ambassador Suhail for Afghanistan's Independence Day.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 535 (May 27, 1969; the book gives no hour; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 5cce27af
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 535: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-05-27T11:00Z
+      - 1969-05-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-05-28.china-leadership
     when: May 28
     date: '1969-05-28'
@@ -422,6 +470,20 @@ entries:
     c: At midnight at Peking's railway station Zhou Enlai hears the report of the collision that day of two passenger trains in the station, helps analyze the causes and proposes more crossings and safety sidings on the approaches of the Peking-Shanhaiguan and Peking-Chengde lines, stressing safe rail transport and strict rules to cut errors.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 295 (May 29, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05-30.china-leadership
+    when: May 30
+    date: '1969-05-30'
+    time: 1969-05-30T05:05Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Xuân Thủy, Vietnam's minister, in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 536 (May 30, 1969; 1:05 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: 72de9a04
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 536: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1969-05-31.china-leadership
     when: May 31
     date: '1969-05-31'

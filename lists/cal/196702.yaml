@@ -437,8 +437,19 @@ entries:
     date: '1967-02-03'
     thread: china-leadership
     c: 'Great Hall, room 118. Mao receives Hysni Kapo and Beqir Balluku of the Albanian Party of Labor, Zhou Enlai, Kang Sheng, Ye Jianying, Yang Chengwu, Xiao Hua and Wang Shusheng present. In the Party the struggle has not been public: at the Seven Thousand Cadres Conference he said revisionism would overthrow us; in five years only single cases and single men were taken up; no form had been found to expose our dark side openly, from below. The attack on Wu Han began in Peking''s absence, a team in Shanghai under Yao Wenyuan; he read the article first alone.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 3, 1967, and note 25. [[w.zhou-enlai-nianpu-1949-2020]], III, 120 (Feb. 3, 1967; Zhou with Mao at the meeting with Hysni Kapo and Beqir Balluku of Albania). Made public: 2013. Names: Mao Zedong, Hysni Kapo, Beqir Balluku, Zhou Enlai, Kang Sheng, Ye Jianying, Yang Chengwu, Xiao Hua, Wang Shusheng, Wu Han, Yao Wenyuan. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 3, 1967, and note 25. [[w.zhou-enlai-nianpu-1949-2020]], III, 120 (Feb. 3, 1967; Zhou with Mao at the meeting with Hysni Kapo and Beqir Balluku of Albania); [[w.zhou-enlai-waijiao-huodong]], 508 (Feb. 4, 1967; afternoon; Zhou accompanies Mao in receiving Kapo and Balluku). Made public: 2013. Names: Mao Zedong, Hysni Kapo, Beqir Balluku, Zhou Enlai, Kang Sheng, Ye Jianying, Yang Chengwu, Xiao Hua, Wang Shusheng, Wu Han, Yao Wenyuan. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: 257de137
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Feb. 3, 1967, and note 25: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 120: ?'
+        - 'w.zhou-enlai-waijiao-huodong 508: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:kang-sheng, name:ye-jianying, name:yao-wenyuan, polity:prc, polity:albania, vis:only:prc+albania@C-G]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Zhou accompanies Mao in receiving Kapo (卡博) and Balluku on the afternoon of Feb. 4; the book has no item for Feb. 3
+        at: '508'
   - id: cal.1967-02-03.china-leadership-2
     when: Feb. 3
     date: '1967-02-03'
@@ -813,6 +824,17 @@ entries:
     c: Zhou Enlai talks with Nie Rongzhen, Ye Jianying, Xu Xiangqian and the Xinjiang regional leaders on Xinjiang; judging the conditions for seizing power in the Region not ripe, he proposes military control of the Region and the Production and Construction Corps to push forward the "three-in-one".
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 121 (Feb. 7, 8, 1967). Made public: 2020. Names: Zhou Enlai, Nie Rongzhen, Ye Jianying, Xu Xiangqian.'
     tags: [name:zhou-enlai, name:nie-rongzhen, name:ye-jianying, name:xu-xiangqian, polity:prc, vis:only:prc]
+  - id: cal.1967-02-07.china-leadership-5
+    when: Feb. 7
+    date: '1967-02-07'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off Kapo, Politburo member and Secretariat secretary of the Albanian Party of Labor.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 508 (Feb. 7, 1967; Beijing airport; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 923fbef0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 508: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1967-02-08.vietnam
     when: Feb. 8
     date: '1967-02-08'
@@ -1296,6 +1318,18 @@ entries:
     c: 'Zhou Enlai receives the rebel delegates of the Agriculture, State Farms and Land Reclamation and Aquatic Products ministries, the Meteorological Bureau and the Farm Office, which have seized power: fire the first shot of spring plowing; farming is seasonal and lost once the season is gone; each unit to study its production team well; the farm branch to prepare an appeal to the whole country to grasp revolution and promote production.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 123 (Feb. 11, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-02-11.china-leadership-7
+    when: Feb. 11
+    date: '1967-02-11'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou attends the rally of 100,000 in the capital denouncing the Soviet leading clique.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 508 (Feb. 11, 1967; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: a89e5f53
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 508: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1967-02-12.opinion
     when: Feb. 12
     date: '1967-02-12'
@@ -1783,10 +1817,18 @@ entries:
   - id: cal.1967-02-15.china-leadership
     when: Feb. 15
     date: '1967-02-15'
+    time: 1967-02-15T10:30Z
     thread: china-leadership
     c: Evening, Great Hall. Mao receives the Mauritanian government delegation under Foreign and Planning Minister Wane (the nianpu's Wani), Zhou Enlai, Chen Yi and others present. We have little experience since liberation; they may have much to teach; an exchange; the poor lands of the north depend on rain; Shashiyu, the Hebei village that made fields on bare rock without machines, is the way.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 15, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 15, 1967; Zhou with Mao receiving the Mauritanian delegation). Names: Mao Zedong, Zhou Enlai, Chen Yi, Wane. Check: the minister, the nianpu''s 瓦尼, as Birane Mamadou Wane. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 15, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 15, 1967; Zhou with Mao receiving the Mauritanian delegation); [[w.zhou-enlai-waijiao-huodong]], 508 (Feb. 15, 1967; 6:30 p.m., Hall 118, Great Hall of the People; Zhou accompanies Mao in receiving the Mauritanian government delegation under the minister of foreign affairs and planning (the book names him 比拉尼·马马杜·瓦尼)). Names: Mao Zedong, Zhou Enlai, Chen Yi, Wane. Check: the minister, the nianpu''s 瓦尼, as Birane Mamadou Wane. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: c8f21417
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Feb. 15, 1967: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 124: ?'
+        - 'w.zhou-enlai-waijiao-huodong 508: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:chen-yi, polity:prc, polity:mauritania, vis:only:prc+mauritania@C-G]
+    time_zone: Asia/Shanghai
   - id: cal.1967-02-16.consumers
     when: Feb. 16
     date: '1967-02-16'
@@ -1873,6 +1915,23 @@ entries:
     c: Zhou Enlai, in the evening, receives the Inner Mongolia regional committees and military regions' heads and the Inner Mongolia rebel delegates, and stresses that the army must stay steady; to storm the army is "not thinking of the nation's whole interest"; the military region may not be stormed, nor the military factories, and the army does not seize power; trust and cherish the PLA.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 16, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-02-16.china-leadership-5
+    when: Feb. 16
+    date: '1967-02-16'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the signing of three China–Mauritania agreements, on trade, economic and technical cooperation, and cultural cooperation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 508 (Feb. 16, 1967; afternoon; Beijing). Names: Zhou Enlai.'
+    src:
+      c: c73dcf57
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 508: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1967-02-16T04:00Z
+      - 1967-02-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1967-02-17.assassination
     when: Feb. 17
     date: '1967-02-17'

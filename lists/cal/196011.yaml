@@ -303,12 +303,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Qinzheng Hall, 8 p.m. The enlarged Standing Committee, Mao presiding, on the Party and government delegation to the Moscow conference: Liu Shaoqi its head, Deng Xiaoping deputy; Peng Zhen, Li Jingquan, Lu Dingyi, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liu Xiao, Liao Chengzhi, Liu Ningyi.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 2, 1960. [[w.zhou-enlai-nianpu-1949]], II, 365, Nov. 2, 1960 (Zhou present). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Li Jingquan, Lu Dingyi, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liu Xiao, Liao Chengzhi, Liu Ningyi, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 2, 1960. [[w.zhou-enlai-nianpu-1949]], II, 365, Nov. 2, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 368 (the delegation as Wu lists it: Liu head, Deng deputy; members Peng Zhen and Li Jingquan, alternates Lu Dingyi and Kang Sheng, the Secretariat''s alternate secretaries Yang Shangkun and Hu Qiaomu, three Central Committee members Liu Ningyi, Liao Chengzhi and Liu Xiao; many advisers, Wu and Qiao Guanhua among them; Wu was to have stayed in Peking, and went because Liu''s state visit after the conference needed hands). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Li Jingquan, Lu Dingyi, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liu Xiao, Liao Chengzhi, Liu Ningyi, Zhou Enlai.'
     src:
       c: f254c8df
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Nov. 2, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 365, Nov. 2, 1960: B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 368: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:li-jingquan, name:lu-dingyi, name:kang-sheng, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-11-02.china-leadership-4
     when: Nov. 2
@@ -701,8 +702,25 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at Mao's meeting on the Chinese delegation's departure for Moscow on the 5th; Liu Shaoqi, Deng Xiaoping and Kang Sheng there.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 366 (Nov. 4, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Kang Sheng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 366 (Nov. 4, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 368–369 (Wu''s account of the several meetings of the Politburo and its Standing Committee before the delegation left, no day given: Khrushchev, after the party talks and the drafting committee, holds to his line and will press China with a larger so-called majority; whether he will break uncertain, China being no small party, the Asian, African and Latin American parties near it, the Western parties unwilling to follow him to a break, the Soviet party and people friendly to China; Mao: a bitter fight, the debate sharp, perhaps to the edge of a break, be ready for one, agreement still possible; the line: hold to principle and to unity, fight freely, fear no break, win unity and a measure of agreement by struggle; the delegation to act as occasion serves, cable major questions to Peking, in an emergency act first and report after). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Kang Sheng.'
+    src:
+      c: ce6d3d0d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 366: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 368–369: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+  - id: cal.1960-11-04.soviet-union
+    when: Nov. 4
+    date: '1960-11-04'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Peking, for Moscow. Peng Zhen leads the rest of the delegation by air a day ahead of Liu Shaoqi, for fear of bad weather.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 369–370 (the 4th). Names: Peng Zhen, Liu Shaoqi.'
+    src:
+      c: 932257f5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 369–370: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi]
   - id: cal.1960-11-05.elections-1960
     when: Nov. 5
     date: '1960-11-05'
@@ -894,6 +912,35 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 294: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:liu-shaoqi]
+  - id: cal.1960-11-05.soviet-union
+    when: Nov. 5
+    date: '1960-11-05'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Peking, then Moscow. Liu Shaoqi leaves in the morning for Moscow by Tu-104, with Deng Xiaoping, Yang Shangkun, Hu Qiaomu, Lu Dingyi, Wu Lengxi and Qiao Guanhua. At Moscow Khrushchev and Brezhnev, then Chairman of the Presidium of the Supreme Soviet, meet him. Brezhnev's welcome is cool. Liu's reply is applauded four times, longest at the 860 million people of the two countries. To his hosts he says the delegation has come to make the conference a success and to strengthen Sino-Soviet unity, and, if it goes well, he will make a state visit. The delegation lodges in three villas on the Lenin Hills, Liu, Deng and Peng Zhen each in one; the staff go to the Chinese embassy.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 369–372 ("the morning of Nov. 5" (369); the landing day not given, but Liu (446) says the Chinese reached Moscow on Nov. 5). Made public: 1999. See [[cal.1960-11-04.soviet-union]]. Names: Liu Shaoqi, Deng Xiaoping, Lu Dingyi, Qiao Guanhua, Khrushchev, Brezhnev, Peng Zhen. Check: the hour of landing; Wu gives the morning of departure only.'
+    src:
+      c: 4c372246
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 369–372: all'
+    tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:lu-dingyi, name:qiao-guanhua, name:khrushchev-nikita-s, name:brezhnev-leonid, name:peng-zhen]
+    time_range:
+      - 1960-11-04T22:00Z
+      - 1960-11-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-11-05.soviet-union-2
+    when: Nov. 5–9
+    date: '1960-11-05'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. In the days before the conference members and advisers of the Chinese delegation call widely on the other parties' delegations. By Wu's account, many do not approve the CPSU's line; some openly back China and ask it to criticize the CPSU's errors pointedly; more disapprove of mutual charges, neither the CPSU's charges against China nor China's answering in kind; some say they will sign the declaration only if all agree; many want unity and no second Bucharest; not a few, on the CPSU's baton, are ready for a fight with China.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 375–376 ("these few days"). Made public: 1999. See [[cal.1960-11-05.soviet-union]]. Check: the days; Wu says only "these few days" before the opening; the stretch given by his sequence.'
+    src:
+      c: 13b44591
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 375–376: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-11-06.elections-1960
     when: Nov. 6
     date: '1960-11-06'
@@ -1058,6 +1105,37 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 294: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai]
+  - id: cal.1960-11-06.soviet-union
+    when: Nov. 6
+    date: '1960-11-06'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. Liu Shaoqi calls on Khrushchev on the second day. Khrushchev: neither can do without the other, quarrels are unavoidable, a few hairs pulled out, but they will stay united. Then at Albania: the USSR loses nothing in losing it, China gains little by it; and at Stalin. He says he does not agree with the Hundred Flowers, the Great Leap and the communes and hopes China will not force them on him. Liu: so large a country should have more breadth toward so small a one, and Albania is not in the wrong; the Chinese experiments are in trial, too early to call a success or a failure; China means to force nothing on anyone; the Soviet criticism in public was unwise.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 372 ("the second day" after arrival). Made public: 1999. See [[cal.1960-11-05.soviet-union]]. Names: Liu Shaoqi, Khrushchev. Check: the day; Wu says only the second day after Liu reached Moscow (Nov. 5, p. 446).'
+    src:
+      c: 1b76e06f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 372: all'
+    tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, vis:only:prc+ussr]
+  - id: cal.1960-11-06.soviet-union-2
+    when: Nov. 6
+    date: '1960-11-06'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-06.soviet-union
+    c: 'Moscow. At the dinner for the Chinese delegation Khrushchev speaks at length of Stalin: Lenin a saint, Stalin a bandit; Lenin is the Soviets'', Stalin not. He says it is false that he is isolated and that Suslov and Mikoyan are his enemies.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 373 ("in the evening", at the dinner). Made public: 1999. See [[cal.1960-11-06.soviet-union]]. Names: Khrushchev, Suslov, Mikoyan. Check: the day; Wu says "in the evening" without a date, after Liu''s call.'
+    src:
+      c: cb4c7091
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 373: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:suslov-mikhail-a, name:mikoyan-anastas, vis:only:prc+ussr]
+    time_range:
+      - 1960-11-06T16:00Z
+      - 1960-11-06T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-11-07.elections-1960
     when: Nov. 7
     date: '1960-11-07'
@@ -1311,6 +1389,75 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 367: ?'
         - 'w.zhou-enlai-waijiao-huodong 294: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong]
+  - id: cal.1960-11-07.soviet-union
+    when: Nov. 7
+    date: '1960-11-07'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow, Red Square. The parade and march for the October Revolution's anniversary. Khrushchev has Liu Shaoqi go up first onto Lenin's Mausoleum, himself second, and puts Liu between Brezhnev and himself.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 373 (the parade and march). See [[cal.1960-11-05.soviet-union]]. Names: Liu Shaoqi, Khrushchev, Brezhnev.'
+    src:
+      c: 24150ee8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 373: all'
+    tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid]
+  - id: cal.1960-11-07.soviet-union-2
+    when: Nov. 7
+    date: '1960-11-07'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-07.soviet-union
+    c: Moscow. In the afternoon, after the parade, Andropov, head of the Central Committee's liaison department, brings the Chinese delegation the CPSU's letter in answer to the Reply (the letter dated Nov. 5). He says the letter is one thing, the conference another. Suslov had told Deng after the celebrations that the answer was coming and had some pepper. The letter defends the CPSU and denies it said what the Reply says; attacks China, Mao and Liu; charges China with setting parties against one another, in the cases of Albania, Poland, Hungary, and the Australian and American parties; and presses hardest on Albania.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 373–374 ("that afternoon", after the parade; dated Nov. 5 at 377, 380 and 446). Made public: 1999. See [[cal.1960-11-07.soviet-union]]. Names: Andropov, Suslov, Deng Xiaoping, Mao Zedong, Liu Shaoqi. Check: the account is the Chinese delegation''s; Wu says the letter was "distributed" to the parties before the conference (374), and has Liu say it was issued on Nov. 5 (446).'
+    src:
+      c: ad7f36b4
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 373–374: all'
+    tags: [polity:prc, name:andropov-yuriy-vladimirovich, name:suslov-mikhail-a, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, vis:only:prc+ussr]
+    time_range:
+      - 1960-11-07T09:00Z
+      - 1960-11-07T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-07.soviet-union-3
+    when: Nov. 7
+    date: '1960-11-07'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-07.soviet-union-2
+    c: Moscow. The Chinese delegation meets the Albanian delegation. The Albanians say the Soviets have sent the East European parties that stand with them to call on them one after another and press them. The Albanian delegation says they will not yield.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 373–374 ("on the evening of the 7th"). Made public: 1999. See [[cal.1960-11-07.soviet-union-2]].'
+    src:
+      c: 9517e18d
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 373–374: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_range:
+      - 1960-11-07T16:00Z
+      - 1960-11-07T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-07.china-leadership-5
+    when: Nov. 7
+    date: '1960-11-07'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-07.soviet-union-2
+    c: 'Moscow. The Chinese delegation, reading the Soviet letter as the storm coming, has it translated a page at a time and resolves to raise the tone of its speech and to answer the charge against Liu: Liu has said Mao made Marxism–Leninism Chinese, and the letter, without naming him, calls that nationalism. Four matters to stress: where the quarrel comes from; that it is Marxism against revisionism and opportunism; that the state of relations is the CPSU''s doing though China wants unity; that parties are equal, independent, to agree by consultation, not father and son. The tone that of the wronged, come for unity and attacked on the eve. The writers revise through the night, each a part, Hu Qiaomu going over the whole, to revise again after Khrushchev speaks.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 374–375 (the letter read the same day; the revising "that night"). Made public: 1999. See [[cal.1960-11-07.soviet-union-2]]. Names: Liu Shaoqi, Mao Zedong.'
+    src:
+      c: ff3699a5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 374–375: all'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-11-07T19:00Z
+      - 1960-11-07T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
   - id: cal.1960-11-08.elections-1960
     when: Nov. 8
     date: '1960-11-08'
@@ -2510,6 +2657,37 @@ entries:
     c: Zhou Enlai at Mao's meeting on the reply to Liu Shaoqi's telegram; Li Fuchun and Chen Boda there.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 367 (Nov. 9, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Li Fuchun, Chen Boda.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:li-fuchun, name:chen-boda, vis:only:prc]
+  - id: cal.1960-11-09.soviet-union-2
+    when: Nov. 9
+    date: '1960-11-09'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the Chinese delegation''s quarters, the afternoon before the conference. Suslov, Kozlov and Mikoyan call; Deng Xiaoping and Peng Zhen receive them. Khrushchev''s speech tomorrow, they say, will stress unity, friendly in tone, leave out the Sino-Soviet quarrel, keep to the draft statement and Soviet home matters; the CPSU does not want an argument at the conference, will look ahead, regards its letter as settled and unconnected with the meeting, and wants better relations with Albania. Mikoyan: after the conference the Soviets will take up trade, aid and experts with China; the oil stop, of which the Presidium did not know, will be lifted soon; experts can stay if China stops giving them papers against the CPSU''s Central Committee. Deng: China came for unity and for agreement on Marxist-Leninist ground; the letter of Nov. 5 poisoned the air and the CPSU began it, so China must answer at the conference. China will stay friendly with no Soviet aid and no experts, and build on its own strength.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 376–377 ("that afternoon", the day before the opening). Made public: 1999. See [[cal.1960-11-07.soviet-union-2]]. Names: Suslov, Kozlov, Mikoyan, Deng Xiaoping, Peng Zhen. Check: the account is the Chinese delegation''s.'
+    src:
+      c: cb2c9ae1
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 376–377: all'
+    tags: [polity:prc, name:suslov-mikhail-a, name:kozlov-frol-r, name:mikoyan-anastas, name:deng-xiaoping, name:peng-zhen, vis:only:prc+ussr]
+    time_range:
+      - 1960-11-09T09:00Z
+      - 1960-11-09T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-09.china-leadership-2
+    when: Nov. 9
+    date: '1960-11-09'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-09.soviet-union-2
+    c: 'Moscow, the Chinese embassy. After the call the delegation meets. It reads the visit as an attempt to coax China into swallowing the letter, the CPSU having seen that the letter has gone badly with the parties. It will not be taken in: since the Soviets have started the quarrel, it will carry it to the conference, to rally the left, win the center and isolate the right. The speech''s tone to be raised, to leave Khrushchev no way down.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 377 (after the call). Made public: 1999. See [[cal.1960-11-09.soviet-union-2]]. Names: Khrushchev.'
+    src:
+      c: b51a7c06
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 377: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-11-10.elections-1960
     when: Nov. 10–11
     date: '1960-11-10'
@@ -2593,6 +2771,61 @@ entries:
       - 1960-11-10T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-11-10.soviet-union
+    when: Nov. 10
+    date: '1960-11-10'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the Kremlin, St. George''s Hall. The conference of 81 communist and workers'' parties opens in the afternoon (to Dec. 1). Suslov reports for the drafting committee: he gives the Soviet side''s views and little of the others'', above all the Chinese; revives points already agreed and since withdrawn; speaks of the four disputed "nails" as if they could pass as drafted; says there were differences without saying what.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 377–378 ("in the afternoon" of the 10th; the closing plenary, 424). Made public: 1999. See [[cal.1960-11.soviet-union]]. Names: Suslov. Check: the account is the Chinese delegation''s; the days to Dec. 1 from p. 424.'
+    src:
+      c: 2b6f9d05
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 377–378: all'
+    tags: [polity:prc, name:suslov-mikhail-a, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+    time_range:
+      - 1960-11-10T09:00Z
+      - 1960-11-10T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-10.soviet-union-2
+    when: Nov. 10
+    date: '1960-11-10'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-10.soviet-union
+    c: Moscow. After a fifteen-minute recess Khrushchev speaks, over two hours, eleven points, none naming China. The era is not only that of imperialism and proletarian revolution; imperialism's nature has not stayed unchanged. Socialist states to divide labor; building alone does not succeed, going it alone is nationalism. The Soviets have made a few mistakes, some roughness, with socialist states. Local wars may come, war is not inevitable. Peaceful coexistence is the general line of socialist foreign policy; disarmament the way. New states may develop non-capitalistically. Peaceful transition is more likely; parliaments may become the people's. Against nationalism, Yugoslavia's chief mark being national communism. Not only revisionism but dogmatism and sectarianism may be the chief danger, above all "left" adventurism; against factional activity, in parties and in the movement. No more "head" of the camp, the CPSU cannot be one; the parties to "check their watches" with one another.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 378–380 (after Suslov''s report and a recess of fifteen minutes; "over two hours"). Made public: 1999. See [[cal.1960-11-10.soviet-union]]. Names: Khrushchev. Check: the account is the Chinese delegation''s; the eleven points are Wu''s summary.'
+    src:
+      c: 1e2f4a4f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 378–380: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+    time_range:
+      - 1960-11-10T09:00Z
+      - 1960-11-10T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-10.china-leadership-3
+    when: Nov. 10
+    date: '1960-11-10'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-10.soviet-union-2
+    c: Moscow, the Chinese embassy, that evening. The delegation judges most of Khrushchev's speech aimed at China though it names no one, the points being those of the Bucharest notice and the letter of Nov. 5. It resolves to raise the tone and name Khrushchev, so that every party hears China's stand. By the Politburo's line, Liu Shaoqi in the second rank, Deng Xiaoping and Peng Zhen in the first, Deng is to speak. The draft to be amended with the points Khrushchev raised.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 380 ("that evening"). Made public: 1999. See [[cal.1960-11-10.soviet-union-2]]. Names: Khrushchev, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: 19ae488c
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 380: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1960-11-10T16:00Z
+      - 1960-11-10T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-11-11.vietnam
     when: Nov. 11–12
     date: '1960-11-11'
@@ -2729,6 +2962,18 @@ entries:
     c: 'At the Central Nationalities Song and Dance Ensemble''s report performance after its tour abroad, Zhou Enlai tells the artists: performances abroad need new quality and themes; new items with new thought in artistic form; good items kept, not dropped for novelty; classical items still, modern at least half; the Eighth Route Army''s lively style; dance of the nationalities to keep its style; scientific rigor joined to revolutionary spirit; work, study and life arranged, labor with rest; cultural work to shorten its front.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 367 (Nov. 11, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-11-11.soviet-union
+    when: Nov. 11
+    date: '1960-11-11'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. The conference goes on; delegates of eleven parties speak.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381 (the 11th). Made public: 1999. See [[cal.1960-11-10.soviet-union]].'
+    src:
+      c: 5562f00c
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 381: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
   - id: cal.1960-11-12.transition-and-staff
     when: Nov. 12
     date: '1960-11-12'
@@ -2776,6 +3021,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 294: all'
     tags: [polity:prc, polity:ghana, name:zhou-enlai]
+  - id: cal.1960-11-12.soviet-union
+    when: Nov. 12
+    date: '1960-11-12'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The conference, morning: delegates of seven parties speak, the Dutch party''s general secretary among them, who criticizes revisionism in plain terms and urges unity. The conference rises in the afternoon and does not sit the 13th.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381 (the morning of the 12th; "recess" that afternoon and the 13th). Made public: 1999. See [[cal.1960-11-11.soviet-union]].'
+    src:
+      c: '94253571'
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 381: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
   - id: cal.1960-11-13.elections-1960
     when: Nov. 13
     date: '1960-11-13'
@@ -2865,7 +3122,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, 10 p.m., with Zhou Enlai, Zhu De, Lin Biao and Li Fuchun on Deng Xiaoping''s speech for the conference, Nov. 14. The Center to Liu Shaoqi, Deng and Peng Zhen, 11 p.m.: its points fully approved, some changes suggested.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 13, 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Lin Biao, Li Fuchun, Deng Xiaoping, Liu Shaoqi, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 13, 1960. [[w.lengxi-shinian-lunzhan-1956-1966]], 381–384 (Deng''s speech of Nov. 14 as Wu gives it: much of the Reply of Sept. 10, a dozen matters; Mao''s order, given before the delegation left, to keep some shot back: the Korean War, the joint fleet, the long-wave station, Soviet air forces in China). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Lin Biao, Li Fuchun, Deng Xiaoping, Liu Shaoqi, Peng Zhen.'
+    src:
+      c: 32b0d073
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Nov. 13, 1960: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 381–384: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:zhu-de, name:lin-biao, name:li-fuchun, name:deng-xiaoping, name:liu-shaoqi, name:peng-zhen, vis:only:prc]
   - id: cal.1960-11-13.china-leadership-2
     when: Nov. 13
@@ -3059,6 +3321,42 @@ entries:
     c: The Center issues its urgent directive on a mass campaign to gather and make food substitutes, which names maize root flour and chlorella among those the Academy of Sciences advises. It forms a leading group on "vegetables and melons for grain" under Zhou Enlai with Li Fuchun, Li Xiannian, Tan Zhenlin and Xi Zhongxun, and an office; local committees to form theirs.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 369 (Nov. 14, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Tan Zhenlin.'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1960-11-14.soviet-union
+    when: Nov. 14
+    date: '1960-11-14'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. Kim Il speaks for the Korean party the whole morning. He twice names the USSR and China together as heads of the camp and twice China's aid to Korea; says the Chinese revolution and building have great historic meaning and its experience means much to backward countries, and that the Chinese Party is loyal to revolution and internationalism; speaks at length of Korea's own fight against copying foreign experience as dogmatism; on the movement, the chief danger is revisionism; against charges of factionalism; the parties equal, to proceed by consultation to agreement.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381 ("in the morning" of the 14th, "a whole morning"; the speaker 金一, Kim Il, the image read). Made public: 1999. See [[cal.1960-11-12.soviet-union]].'
+    src:
+      c: '80698006'
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 381: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+    time_range:
+      - 1960-11-14T03:00Z
+      - 1960-11-14T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-14.soviet-union-2
+    when: Nov. 14
+    date: '1960-11-14'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-14.soviet-union
+    c: 'Moscow, St. George''s Hall, afternoon, the hall full, the whole CPSU Presidium there. Deng Xiaoping speaks for China, a dozen matters, much that of the Reply of Sept. 10. The differences were first raised by the CPSU; it brought them into an international meeting and sprang the surprise attack on China at Bucharest; carried an ideological quarrel into relations of states, tore up every agreement and contract and withdrew every Soviet expert; and first made the differences known to the world. Khrushchev''s "division of labor" and "equal consultation" are false: he wants all to follow his baton and strikes at those who do not. On Poland in 1956 the Soviets prepared to move troops; China opposed it and helped bring the two parties to terms; on Hungary, China, with Liu at Moscow, urged the Soviets not to leave the Hungarian people, and they, after refusing, sent troops back the next day. Both times China helped the Soviets, and Khrushchev bears it a grudge: he says China lectured him, and gnashes at Zhou Enlai''s lessons in Moscow in January 1957. China cannot "check watches" with him. Khrushchev loves the enemy: he lauded Eisenhower around Camp David, and in September 1955 told Adenauer China''s numbers meant a "yellow peril." More could be said, not today. By Mao''s order before the delegation left, not all the shot is fired: the Korean War, the joint fleet, the long-wave station, Soviet air forces in China are held back.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381–384 ("the afternoon of the 14th"; "silent" hall). Made public: 1999. See [[cal.1960-11-10.soviet-union]]. Names: Deng Xiaoping, Khrushchev, Zhou Enlai, Liu Shaoqi, Mao Zedong. Check: the account is Wu''s summary of the speech.'
+    src:
+      c: 58025b3c
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 381–384: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:zhou-enlai, name:liu-shaoqi, name:mao-zedong, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+    time_range:
+      - 1960-11-14T09:00Z
+      - 1960-11-14T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1960-11-15.defense
     when: Nov. 15
     date: '1960-11-15'
@@ -3174,6 +3472,40 @@ entries:
     c: 'Zhou Enlai calls the vice-premiers, Nov. 15 and 16, on the 1961 national economy plan. On the 16th: the leap''s speed must be joined to proportional development or objective law will punish; eight matters: the ten relations (industry and farming, light and heavy industry, coast and interior, economic and defense building, state, collective and individual, center and locality, nationalities, right and wrong, enemy and us, international); clear ownership, the "communist wind" blowing in towns too; labor and its time; room left and gaps narrowed, doing more and saying less; one chessboard; regulation of the system; method of planning; sound siting.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 369 (Nov. 15, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-11-15.china-leadership-4
+    when: Nov. 15
+    date: '1960-11-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow, the Chinese embassy. The delegation meets the nights of Nov. 14 and 15 on the first round. Its reading: the CPSU holds to pressing China by a majority, as at Bucharest; many delegates abuse China without reason, some from parties China helped; the middle parties dislike it and fear a break; the left pleased by Deng''s naming, afraid of the consequence. It resolves (1) to tell the drafting committee, through each delegation''s liaison man, that China will sign no statement that, unnamed, charges the Chinese Party: the "nails" must come out; (2) to be ready for a break and to fight on that footing; Liu: with the back to the river, a fight to the end. It cables Peking late on the 15th for leave.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 385–387 ("the night of the 14th" and "the night of the 15th"; the cable "on the night of the 15th"). Made public: 1999. See [[cal.1960-11-14.soviet-union-2]]. Names: Liu Shaoqi.'
+    src:
+      c: 695e24f3
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 385–387: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1960-11-15T19:00Z
+      - 1960-11-15T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-15.soviet-union
+    when: Nov. 15
+    date: '1960-11-15'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The conference, morning: delegates of six parties name and criticize the Chinese Party.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 384 ("the 15th", six parties naming China). Made public: 1999. See [[cal.1960-11-14.soviet-union-2]].'
+    src:
+      c: 725e3bf5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 384: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+    time_range:
+      - 1960-11-15T03:00Z
+      - 1960-11-15T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
   - id: cal.1960-11-16.economy
     when: Nov. 16
     date: '1960-11-16'
@@ -3305,7 +3637,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Huairen Tang, evening. Mao, Zhou Enlai, Chen Yi, Li Fuchun and Chen Boda on the delegation''s telegram: since Nov. 14 many parties name the Chinese as factionalists; to sign unchanged would be surrender; unless the points in dispute go, no signature, and a statement. Agreed: prepare for the worst.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 16, 1960. [[w.zhou-enlai-nianpu-1949]], II, 370, Nov. 16, 1960 (Zhou at Mao''s that evening on the reply to Liu Shaoqi''s telegram). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Yi, Li Fuchun, Chen Boda, Deng Xiaoping, Liu Shaoqi, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 16, 1960. [[w.zhou-enlai-nianpu-1949]], II, 370, Nov. 16, 1960 (Zhou at Mao''s that evening on the reply to Liu Shaoqi''s telegram). Made public: 2013. Check: the day: Wu (387) has the delegation cable Peking on the night of the 15th and Zhou Enlai telephone the embassy at Moscow the next morning, "discussed, agreed"; this meeting is the evening of the 16th. Names: Mao Zedong, Zhou Enlai, Chen Yi, Li Fuchun, Chen Boda, Deng Xiaoping, Liu Shaoqi, Peng Zhen.'
     src:
       c: 9f7090e0
       rows:
@@ -3320,6 +3652,49 @@ entries:
     c: Zhou Enlai with Li Fuchun, Li Xiannian, Tan Zhenlin and Chen Boda on questions of the Moscow conference.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 370 (Nov. 16, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Tan Zhenlin, Chen Boda.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:chen-boda, vis:only:prc]
+  - id: cal.1960-11-16.soviet-union
+    when: Nov. 16
+    date: '1960-11-16'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. Eight parties speak. Hoxha, for Albania, gives case after case of the CPSU's great-power ways, meddling in the Albanian Party's affairs and plotting, threats to cut aid, breach of internationalism and betrayal of Lenin and the October Revolution; he speaks with heat. The Soviet side is tense. Hoxha goes home after speaking.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 384, 395 ("the 16th"; at 395 Wu says Hoxha left for home after his speech of the 16th). Made public: 1999. See [[cal.1960-11-15.soviet-union]].'
+    src:
+      c: 37923ed0
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 384, 395: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+  - id: cal.1960-11-16.china-leadership-4
+    when: Nov. 16
+    date: '1960-11-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking to Moscow, by telephone, in the morning. Zhou Enlai calls the Chinese embassy at Moscow for Yang Shangkun, who has waited there for the Center''s cable. He asks how the delegation lives, then says one thing: it has been discussed, the Center agrees with your view. Nothing more, the Soviets listening.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 387 ("the next morning"; whose clock not stated). Made public: 1999. See [[cal.1960-11-15.china-leadership-4]]. Names: Zhou Enlai. Check: the hour and clock; Wu says "next morning" without a place; the tree has Mao''s meeting on the telegram that evening ([[cal.1960-11-16.china-leadership]]).'
+    src:
+      c: 32dc79c1
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 387: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1960-11-16T03:00Z
+      - 1960-11-16T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-16.china-leadership-5
+    when: Nov. 16–18
+    date: '1960-11-16'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-16.china-leadership-4
+    c: 'Moscow. With the Center''s approval the whole Chinese delegation, on the 16th, 17th and 18th, calls on the delegations of the West European, Latin American, Asian and East European parties to declare China''s firm stand. Liao Chengzhi and Liu Ningyi, who know many of the parties, the Liaison Department''s old hands of the world student, youth and trade-union bodies, and the interpreters go out. By Wu: the left firmer, the center ready to ask the CPSU to give way, the right quieter; the Soviet delegation sullen for days and, meeting Chinese, looks away.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 387–388 ("on the 16th, 17th and 18th"). Made public: 1999. See [[cal.1960-11-16.china-leadership-4]].'
+    src:
+      c: a1b55b86
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 387–388: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-11-17.latin-america
     when: Nov. 17
     date: '1960-11-17'
@@ -3835,6 +4210,37 @@ entries:
       - 1960-11-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-11-21.soviet-union
+    when: Nov. 21
+    date: '1960-11-21'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The conference resumes after the recess of the 20th. The Hungarian delegation tables a draft resolution on relations among parties, to be adopted at the conference, kept internal: six points, chief that international meetings decide by majority, and that two parties unable to settle a difference ask a third to arbitrate, and failing that put it to the international meeting by majority vote. A charter in effect.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 389–390 ("on the 21st"). Made public: 1999. See [[cal.1960-11-14.soviet-union-2]]. Check: the account is the Chinese delegation''s; Wu says the CPSU planned it.'
+    src:
+      c: 6da548a2
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 389–390: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+  - id: cal.1960-11-21.china-leadership-4
+    when: Nov. 21
+    date: '1960-11-21'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-21.soviet-union
+    c: Moscow, the Chinese embassy, evening. The delegation, reading the Hungarian draft as the CPSU's sword over China's head, resolves to oppose its being discussed and, if it is, not to take part, as a warning that China does not fear a break. It reports to Peking that night.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 390 ("the evening of the 21st"; the report "that night"). Made public: 1999. See [[cal.1960-11-21.soviet-union]].'
+    src:
+      c: e9388660
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 390: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-11-21T16:00Z
+      - 1960-11-21T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-11-22.congo
     when: Nov. 22
     date: '1960-11-22'
@@ -3904,6 +4310,44 @@ entries:
     c: Zhou Enlai with Yang Keyu, Yu Guangyuan and others on women's and scientific delegations going abroad.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 371 (Nov. 22, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-11-22.china-leadership-4
+    when: Nov. 22
+    date: '1960-11-22'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow. The delegation receives the Center''s answer: it agrees to knock down the Hungarian proposal. Through its liaison men it tells every delegation China''s stand. The delegations are shaken; many say that China''s staying out of the discussion means a break. To the Hungarian delegation the Chinese say they backed Hungary in its worst days and did not look for this; a member of it shrugs and says nothing.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 390 ("the next day" after the 21st). Made public: 1999. See [[cal.1960-11-21.china-leadership-4]]. Check: the hour; Wu gives the day only.'
+    src:
+      c: e1532d06
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 390: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-11-22.soviet-union
+    when: Nov. 22
+    date: '1960-11-22'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The first round of speeches ends with the morning session. From Nov. 10 to 22, the 13th and 20th recess days, 77 parties spoke, by Wu''s count: 51, Khrushchev among them, wholly on Khrushchev''s side; 15 between; 11, China''s among them, mostly against his views. The chair announces that Khrushchev will speak tomorrow.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 388, 390 ("the morning of the 22nd"; the count at 388). Made public: 1999. See [[cal.1960-11-21.soviet-union]]. Names: Khrushchev. Check: the count is the Chinese delegation''s (388: 51 parties, the CPSU among them; "the 50" that followed Khrushchev).'
+    src:
+      c: 8ca5c3b3
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 388, 390: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+  - id: cal.1960-11-22.china-leadership-5
+    when: Nov. 22
+    date: '1960-11-22'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-22.soviet-union
+    c: 'Moscow, the Chinese embassy. After the session the delegation weighs what Khrushchev will say on the 23rd. Two possibilities: he abuses China again and presses the Hungarian draft; or, seeing China firm, he lowers his tone and coaxes China into signing. Most think the second. It decides to lower the tone of Deng''s second speech, not to answer other parties'' anti-Chinese views, to take up the disputed matters of the statement draft and what Khrushchev said and the letter of Nov. 5 left unanswered, and on the Hungarian draft to be firm in matter, mild in voice, as the wronged. The writers, who had raised the tone, work it down again.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 390–392 ("after the close on the 22nd"). Made public: 1999. See [[cal.1960-11-22.soviet-union]]. Names: Khrushchev, Deng Xiaoping.'
+    src:
+      c: c1de8afb
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 390–392: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:deng-xiaoping, vis:only:prc]
   - id: cal.1960-11-23.transition-and-staff
     when: Nov. 23
     date: '1960-11-23'
@@ -3978,6 +4422,37 @@ entries:
     c: Zhou Enlai with An Ziwen and Xi Zhongxun on sending cadres down to labor.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 372 (Nov. 23, 1960). Made public: 1997. Names: Zhou Enlai. Check: the day; the item stands after Nov. 23''s entry at the page''s head.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-11-23.soviet-union
+    when: Nov. 23
+    date: '1960-11-23'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. Khrushchev speaks a second time, an hour and twenty minutes. He backs those who attacked China; the meeting is at "a very high level," most speeches a contribution; only China and Albania hold to their own views on a string of questions. He takes up the era, war and peace, coexistence, peaceful transition, national liberation, and Stalin, defending himself and agreeing with some Chinese points: imperialist aggression to be stopped by socialism and the peoples'' revolution, not that he fears war; two possibilities of transition, as the Twentieth Congress and the 1957 declaration said; condemning Stalin''s cult necessary, no time to consult the parties, and the CPSU has since passed a full resolution. He attacks China and Albania for factional activity and, unnamed, the cult of personality: some take themselves for saints and cannot be talked to. He ends: look ahead, argument has a limit, he can yield but not on principle, he does not fear struggle and wants unity. No one asks the floor; the chair rises.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 392–394 ("on Nov. 23"; "1 hour 20 minutes"). Made public: 1999. See [[cal.1960-11-22.soviet-union]]. Names: Khrushchev. Check: the account is the Chinese delegation''s.'
+    src:
+      c: f68cafcb
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 392–394: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+  - id: cal.1960-11-23.china-leadership-3
+    when: Nov. 23
+    date: '1960-11-23'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-23.soviet-union
+    c: Moscow, the Chinese embassy. The delegation finds Khrushchev's tone low and decides Deng's speech tomorrow shall be milder, three or four degrees down, not eight, yet sharp in matter, to show the nature of Khrushchev's revisionism and to name the worst offenders, Gomułka and Thorez, large parties of influence, both attacking Albania. The writers work through the night, Hu Qiaomu reading each part, then the delegation, then Liu and Deng settle the text; the interpreters labor a day and a night, the speech to be done by simultaneous interpretation.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 394 ("that night"; the speech "next day, the 24th"). Made public: 1999. See [[cal.1960-11-23.soviet-union]]. Names: Khrushchev, Deng Xiaoping, Gomułka, Thorez, Liu Shaoqi.'
+    src:
+      c: ec71a1ed
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 394: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:deng-xiaoping, name:gomulka-wladyslaw, name:thorez-maurice, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1960-11-23T16:00Z
+      - 1960-11-23T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-11-24.white-house
     when: Nov. 24
     date: '1960-11-24'
@@ -3994,6 +4469,37 @@ entries:
     c: 'The Secretariat to the Nam Bộ Executive Committee, cable no. 40/NB: the manifesto of the National Front for the Liberation of South Vietnam, passed by the Politburo, sent; its wording to be fitted to the South, its substance argued by cable; Interzone V to get the same text. Its release to be planned in the Party and among the people.'
     n: '*Điện của Ban Bí thư số 40/NB gửi Xứ uỷ Nam Bộ*. [[w.van-kien-dang-toan]], XXI, 1029. See [[cal.1960-11-16.vietnam-hanoi]]. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-11-24.soviet-union
+    when: Nov. 24
+    date: '1960-11-24'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, morning. Deng Xiaoping, for the Chinese delegation, speaks a second time, fifty minutes. He restates China''s views on the era, war and peace, coexistence, peaceful transition and support of national liberation against the CPSU''s. In particular: Khrushchev''s line is in substance to bow to imperialism and the world bourgeoisie, from not making revolution to opposing others'' revolution; and he answers Khrushchev''s attack on Mao, on "the east wind prevails over the west wind," "paper tigers" and "I am not imperialism''s chief of staff," as metaphysics, abuse without right or wrong. Hoxha having gone, he rebukes the French and Polish delegates for injustice to Albania. He declares China wholly opposes the Hungarian draft, will not join its discussion and will fight it to the end: the CPSU''s method is Bucharest''s, father party, majority over minority, great-power chauvinism. The Comintern was dissolved seventeen years ago and the Cominform is no more; when did the brother parties agree to an international body, or to majority rule? The hall is silent.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 395–396 ("the morning of Nov. 24", fifty minutes). Made public: 1999. See [[cal.1960-11-23.soviet-union]]. Names: Deng Xiaoping, Khrushchev, Mao Zedong. Check: the account is Wu''s summary of the speech.'
+    src:
+      c: e645394a
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 395–396: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+    time_range:
+      - 1960-11-24T03:00Z
+      - 1960-11-24T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-24.soviet-union-2
+    when: Nov. 24
+    date: '1960-11-24'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-24.soviet-union
+    c: Moscow. After Deng's speech more than ten delegates speak abusing China, banging tables, stamping. Delegates of the Indonesian, Indian and Brazilian parties speak against the attacks on China. The Dutch party's general secretary, much moved, says this is no way for comrades to discuss; he urges the majority to give up the method, end the discussion, take counsel outside the hall, first between the two parties. No one asks the floor; the chair adjourns, the drafting committee to sit from tomorrow.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 396 (after Deng''s speech, the 24th). Made public: 1999. See [[cal.1960-11-24.soviet-union]].'
+    src:
+      c: 7cae4f82
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 396: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
   - id: cal.1960-11-25.defense
     when: Nov. 25
     date: '1960-11-25'
@@ -4042,6 +4548,34 @@ entries:
     c: 'Eisenhower, 10:40 a.m., with Gray present: operations in another country; "there was also some discussion of Cuba." Dulles then alone with the President, ten minutes.'
     n: '[[w.sen-church-alleged-assassination-plots]], 112 n.1 (Gray''s memorandum of Nov. 28, 1960; the one time in the fall of 1960 that Dulles was alone with Eisenhower). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memorandum, Nov. 28, 1960, by Gordon Gray, of Meeting with the President, Nov. 25, 1960, at 10:40 a.m., Eisenhower Library (cited by [[w.sen-church-alleged-assassination-plots]], 112 n.1). Names: Eisenhower, Dulles, Gray.'
     tags: [name:eisenhower-dwight-d, name:dulles-allen-w, name:gray-gordon]
+  - id: cal.1960-11-25.soviet-union
+    when: Nov. 25
+    date: '1960-11-25'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. The drafting committee of twenty-six parties resumes after the plenary. The first day's argument is as sharp as before. The CPSU yields nothing and will not change a word of the draft.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 396–397 ("from the 25th"). Made public: 1999. See [[cal.1960-11-24.soviet-union-2]].'
+    src:
+      c: 28caa957
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 396–397: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
+  - id: cal.1960-11-25.china-leadership
+    when: Nov. 25
+    date: '1960-11-25'
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: 'Moscow, the Chinese embassy, afternoon to night. The delegation weighs the last stage. Holding firm through the second round, it judges, has shaken the delegations: the left heartened, the center, among them the capitalist countries'' parties and some ruling ones, alarmed at a split of two great parties, Khrushchev''s followers afraid to bear a break. Hồ Chí Minh tells the Chinese he will lead a delegation to both parties to urge a compromise. Decisions: keep the resolve not to fear a break; all the "nails" and the unnamed attacks out, or no signature; none for a majority-rule resolution even if the nails go. Signing is form; the draft otherwise an anti-Chinese text, for history to judge. A break would mean the CPSU''s anti-China course, Soviet and East European aid cut, party ties cut, a diplomatic blockade and state relations ended, isolation in international bodies, separate courses on imperialism, national liberation and the workers'' movement: none enough to bend China. Six open questions: father-and-son or equal parties; majority rule or consultation to agreement; what factional activity is and who does it; what national communism is and who; whether the Twentieth and Twenty-first Congresses are affirmed; the cult of personality. The delegation cables Peking deep at night for what it may yield and when sign or not.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"; the cable "deep at night" of the 25th). Made public: 1999. See [[cal.1960-11-25.soviet-union]]. Names: Hồ Chí Minh.'
+    src:
+      c: c019af1e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 397–400: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc]
+    time_range:
+      - 1960-11-25T09:00Z
+      - 1960-11-25T19:00Z
+    time_zone: Europe/Moscow
   - id: cal.1960-11-26.china-leadership
     when: Nov. 26
     date: '1960-11-26'
@@ -4063,6 +4597,44 @@ entries:
     c: Zhou Enlai tells some Politburo and Secretariat members of the Moscow conference.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 372 (Nov. 26, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-11-26.soviet-union
+    when: Nov. 26
+    date: '1960-11-26'
+    thread: soviet-union
+    also: [vietnam-hanoi, china-leadership]
+    c: 'Moscow. Hồ Chí Minh leads a petition group to Khrushchev: delegates of a Northern European party, a Latin American party and several Asian parties, to urge the CPSU to give way. Khrushchev is hard, with no room to bargain. The Twentieth Congress must go in; he had held for both the Twentieth and the Twenty-first and now says only the Twentieth. Against factional activity must go in, or an internal resolution. Against the personality cult must go in, since the 1957 Declaration has it. He attacks the paper tiger, the Hundred Flowers, the Great Leap and the communes. The group is much concerned and still wants China and the CPSU to consult and agree.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 400–401 (the 26th; the Vietnamese told the Chinese that evening). Made public: 1999. See [[cal.1960-11-25.china-leadership]]. Names: Hồ Chí Minh, Khrushchev. Check: the account is the Vietnamese delegation''s, as told that evening to the Chinese.'
+    src:
+      c: a7d04d38
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 400–401: all'
+    tags: [polity:prc, name:ho-chi-minh, name:khrushchev-nikita-s, vis:only:prc+ussr+drv]
+  - id: cal.1960-11-26.soviet-union-2
+    when: Nov. 26
+    date: '1960-11-26'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the Chinese delegation''s quarters. Khrushchev sends Mikoyan and Kozlov; Deng Xiaoping and Peng Zhen talk with them. Their points: the Twentieth Congress must go in; the wording against factional activity may be considered, a slight give; whether there is an internal resolution on the Hungarian proposal depends on China''s attitude; if the conference ends well the Sino-Soviet differences end, look ahead, make unity; and the Chinese delegation is asked to tour the USSR after the conference, Liu''s visit as head of state widened to the whole party and government delegation. Deng: the conference is in substance an anti-China conference the CPSU set going, to China''s deep regret and wrath; the CPSU still holds its wrong line, and China urges it not to go to the end but to look further and put the large matter first; only with all the nails out of the draft, no resolution against China and no majority-rule resolution will China sign. Mikoyan and Kozlov cannot accept, will report to the Presidium.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 401–402 ("the 26th"; Wu''s bracketed asides, that the wording point was "a slight loosening" and that the Hungarian point was a threat, are his). Made public: 1999. See [[cal.1960-11-26.soviet-union]]. Names: Mikoyan, Kozlov, Deng Xiaoping, Peng Zhen, Liu Shaoqi. Check: the account is the Chinese delegation''s.'
+    src:
+      c: fb1ace3e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 401–402: all'
+    tags: [polity:prc, name:mikoyan-anastas, name:kozlov-frol-r, name:deng-xiaoping, name:peng-zhen, name:liu-shaoqi, vis:only:prc+ussr]
+  - id: cal.1960-11-26.china-leadership-4
+    when: Nov. 26
+    date: '1960-11-26'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-26.soviet-union-2
+    c: 'Moscow, the Chinese embassy. The delegation meets at once after Mikoyan and Kozlov leave. It reads their call as chiefly to urge surrender, repulsed, the door not shut, since they would report to their Central Committee. It will go on: all nails out, no resolution against China, none by majority. The Center''s answer to the request of the 25th has not come.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 402 ("at once"). Made public: 1999. See [[cal.1960-11-26.soviet-union-2]]. Names: Mikoyan, Kozlov.'
+    src:
+      c: b4ba3611
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 402: all'
+    tags: [polity:prc, name:mikoyan-anastas, name:kozlov-frol-r, vis:only:prc]
   - id: cal.1960-11-27.congo
     when: Nov. 27
     date: '1960-11-27'
@@ -4093,6 +4665,18 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, Nov. 27, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 372, Nov. 27, 1960: B'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-11-27.soviet-union
+    when: Nov. 27
+    date: '1960-11-27'
+    thread: soviet-union
+    also: [vietnam-hanoi, china-leadership]
+    c: 'Moscow. Hồ Chí Minh leads the petition group to the Chinese delegation. The Indonesian, Korean and Australian delegates are firm; the Japanese, fair; the Indian wants agreement; the Vietnamese press hardest for a compromise. The Chinese tell them what Mikoyan and Kozlov were told: the conference in effect an anti-China one; no signature unless the nails go and no resolution against China or by majority; the group to press the CPSU, and to bring Asian, African, Latin American and European parties to press it. China is driven to the wall; if it signs it can answer to neither its Central Committee nor the Chinese people nor the movement nor history; it has compromised much, some of the CPSU''s wording is in the statement, some points give both sides'' views; on the last six questions it has no room. Hồ asks China to think again and yield where it can; he will work on other parties. The group leaves impressed that China can give no more.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 402–403 ("the next day, the 27th"). Made public: 1999. See [[cal.1960-11-26.soviet-union-2]]. Names: Hồ Chí Minh.'
+    src:
+      c: 4ac7af4b
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 402–403: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv+dprk+indonesia]
   - id: cal.1960-11-28.economy
     when: Nov. 28
     date: '1960-11-28'
@@ -4128,13 +4712,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Center to Liu Shaoqi, Deng Xiaoping and Peng Zhen, 11:30 p.m. (Zhou Enlai''s draft, approved by Mao and the enlarged Politburo; Mao''s meeting with the regional secretaries, 10:15): the peoples and parties fear a split; seek compromise and sign; if need be, the 1957 Declaration''s sentence on the Twentieth Congress; a statement either way.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 28, 1960. [[w.zhou-enlai-nianpu-1949]], II, 372–73, Nov. 28, 1960 (Zhou''s revision of the instruction on signing, and his sixth point). [[w.zhou-enlai-nianpu-1949]], II, 373, Nov. 28, 1960 (Zhou presiding that evening at the Politburo, which adopts the Center''s reply to Liu, Deng and Peng; then at Mao''s meeting with the regional secretaries on the reply to Liu''s telegram). Made public: 2013. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Ke Qingshi, Zeng Xisheng, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 28, 1960. [[w.zhou-enlai-nianpu-1949]], II, 372–73, Nov. 28, 1960 (Zhou''s revision of the instruction on signing, and his sixth point). [[w.zhou-enlai-nianpu-1949]], II, 373, Nov. 28, 1960 (Zhou presiding that evening at the Politburo, which adopts the Center''s reply to Liu, Deng and Peng; then at Mao''s meeting with the regional secretaries on the reply to Liu''s telegram). [[w.lengxi-shinian-lunzhan-1956-1966]], 407–409 (the Center''s answer, which reached the delegation after dinner of the 28th: the neutral parties waver, most not ready to break with Khrushchev, all progressive forces want the conference to succeed, so seek agreement now, no longer the edge of a break; four cases: all nails out and no internal resolution, sign; the nails kept and an internal resolution, refuse; the nails out and a resolution against China or by majority, sign and issue a statement against it; factional activity and national communism out, the Twentieth Congress kept, a resolution, the likeliest, sign after changing the Twentieth''s wording, with a statement; in any case the delegation to issue its own statement; an Appeal like 1957''s). Made public: 2013. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Ke Qingshi, Zeng Xisheng, Tao Zhu.'
     src:
       c: 01d1e00d
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Nov. 28, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 372–73, Nov. 28, 1960: A-E'
         - 'w.zhou-enlai-nianpu-1949 II, 373, Nov. 28, 1960: A-E'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 407–409: C, D, E'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:tao-zhu, vis:only:prc]
   - id: cal.1960-11-28.china-leadership-2
     when: Nov. 28
@@ -4151,6 +4736,70 @@ entries:
     c: 'At the Secretariat, on this year''s coal and iron shipping, Zhou Enlai: strict science comes from constant correction through practice; talk so that people dare speak; the line is carried out by persons; production and living go together; labor not spared the past year or two; a few percent of cadres have Kuomintang ways; leave room in coal, steel and cement, do more and say less, local papers to say seven when it is ten; anti-revisionism a ten-year matter, so keep a hand back.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 372 (Nov. 28, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-11-28.soviet-union
+    when: Nov. 28
+    date: '1960-11-28'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. In the drafting committee the Soviet delegate agrees to cut "national communism," one of the six points; the rest to stay, above all the stand against factional activity and the affirming of the Twentieth Congress. The Chinese delegate counters: the statement must say plainly the principle of consultation to unanimity, not majority rule, raised in discussing the statement, not the Hungarian draft. Argued again, without result.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 403–404 ("the 28th"). Made public: 1999. See [[cal.1960-11-25.soviet-union]].'
+    src:
+      c: ec118561
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 403–404: all'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
+  - id: cal.1960-11-28.china-leadership-5
+    when: Nov. 28
+    date: '1960-11-28'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-11-28.soviet-union
+    c: 'Moscow, the Chinese embassy. The delegation, meeting in the afternoon, takes the Soviet agreement to cut "national communism" as a first step back: they cannot hold out, they fear the blame for a break, other parties press them. Both sides have played on the edge of a break; China to stay with Khrushchev and see who outlasts. Peking has not answered the request of the 25th; the delegation has cabled it the three days'' events.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 404–405 ("in the afternoon of the 28th"). Made public: 1999. See [[cal.1960-11-28.soviet-union]]. Names: Khrushchev.'
+    src:
+      c: 92d1a5e5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 404–405: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1960-11-28T09:00Z
+      - 1960-11-28T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-28.china-leadership-6
+    when: Nov. 28
+    date: '1960-11-28'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow, the Chinese embassy, after dinner. The Center''s answer to the request of the 25th comes, Peking having studied it two days; the delegation reads it page by page as it is decoded. That night it decides four things: (1) to prepare wordings on the Twentieth Congress, four, from tight to a copy of the 1957 Declaration''s; (2) to prepare the statements it will make in the three cases: no signature, signature with protest against an internal resolution, and keeping the Twentieth with an internal resolution; (3) in the first case, Liu Shaoqi to speak after signing, for unity, for the fight against imperialist aggression and war policy, for world peace; (4) to propose to the CPSU Sino-Soviet talks on the 29th, and till then to watch quietly in the drafting committee.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 407, 409–410 ("soon after dinner" of the 28th). Made public: 1999. See [[cal.1960-11-28.china-leadership-5]]. See [[cal.1960-11-28.china-leadership]]. Names: Liu Shaoqi.'
+    src:
+      c: c5d865df
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 407, 409–410: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1960-11-28T16:00Z
+      - 1960-11-28T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-28.vietnam-hanoi
+    when: Nov. 28
+    date: '1960-11-28'
+    time: 1960-11-28T21:00Z
+    thread: vietnam-hanoi
+    also: [soviet-union, china-leadership]
+    follows:
+      - cal.1960-11-28.china-leadership-6
+    c: 'Moscow, midnight. Hồ Chí Minh telephones the Chinese delegation and asks Liu Shaoqi to come to him, to talk it over. Liu, asleep, rises and calls Deng Xiaoping and Peng Zhen. The call is odd: Hồ has always come to them. Liu declines, telling Hồ China''s stand was given yesterday; let him go to Khrushchev, pass it on, and make Khrushchev choose between a break and none. Hồ then says he is asking Khrushchev too, that all may talk. Liu, with Deng and Peng, declines again: if Khrushchev wants a settlement, let him come; no third party between. The Chinese take it that Hồ is again a go-between with Khrushchev''s consent.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 405–407 ("at 12 at night" of the 28th). Made public: 1999. See [[cal.1960-11-28.china-leadership-6]]. Names: Hồ Chí Minh, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Khrushchev. Check: the hour is the night of the 28th, so the first minutes of the 29th; Hồ, at Peking, puts it on the 29th (441).'
+    src:
+      c: 12bd0afc
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 405–407: all'
+    tags: [polity:prc, name:ho-chi-minh, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:khrushchev-nikita-s, vis:only:prc+drv]
+    time_zone: Europe/Moscow
   - id: cal.1960-11-29.cuba
     when: Nov. 29
     date: '1960-11-29'
@@ -4237,6 +4886,70 @@ entries:
       - 1960-11-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-11-29.soviet-union
+    when: Nov. 29
+    date: '1960-11-29'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. The drafting committee. The Polish delegate proposes to drop the Twenty-first Congress from the statement and to keep the Twentieth's wording; Soviet followers one after another press the Chinese to accept it without giving reasons. Then a subcommittee for the Appeal is proposed; the Soviet delegate hands in a list; the Chinese ask one or two more parties on it; refused outright. Peng Zhen, leading the Chinese delegation (Liu never sat in the committee, Deng seldom), protests that only the Chinese Party sits for Asia and says China will not take part.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 410–411 ("on Nov. 29"). Made public: 1999. See [[cal.1960-11-28.soviet-union]]. Names: Peng Zhen, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: fcd698c7
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 410–411: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
+  - id: cal.1960-11-29.soviet-union-2
+    when: Nov. 29
+    date: '1960-11-29'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-29.soviet-union
+    c: 'Moscow, a room beside the hall (the committee suspended an hour for coffee). Peng Zhen asks Kozlov out. Is it your design to break the conference? If so, say it openly and China will issue a statement. Kozlov, "No, no, we want it to go well." Peng proposes a gentleman''s agreement: (1) no internal resolution, neither anti-Chinese nor by majority; (2) neither national communism nor factional activity attacked in the statement; (3) the principle of consultation to agreement written in; (4) the Twentieth Congress may go in, the wording amended. Kozlov agrees to all four and asks the Chinese wording of the Twentieth. Peng: they agree "before Lenin''s portrait"; each to report to his Central Committee. Kozlov can speak for the CPSU Central Committee but must report to the Presidium for approval. Both telephone their delegations; the committee and the Appeal subcommittee adjourn.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 411–413 (the same day, after the hour''s recess). Made public: 1999. See [[cal.1960-11-29.soviet-union]]. Names: Peng Zhen, Kozlov. Check: the account is Peng Zhen''s side''s, from the delegation.'
+    src:
+      c: 9a361f33
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 411–413: all'
+    tags: [polity:prc, name:peng-zhen, name:kozlov-frol-r, vis:only:prc+ussr]
+  - id: cal.1960-11-29.soviet-union-3
+    when: Nov. 29
+    date: '1960-11-29'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-29.soviet-union-2
+    c: 'Moscow. In the evening Kozlov telephones Peng Zhen: the Presidium has met, Khrushchev presiding, and in the main approves the noon oral agreement, but asks for formal talks of the two delegations. He proposes 10 a.m. tomorrow, the Lenin Hills conference hall, three a side: Khrushchev, Suslov and Kozlov. Peng, after consulting the delegation, answers: Liu, Deng and Peng for China, the hour 11. The Soviets agree.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 414–415 ("toward evening" of the 29th). Made public: 1999. See [[cal.1960-11-29.soviet-union-2]]. Names: Kozlov, Peng Zhen, Khrushchev, Suslov, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: 6256f0d7
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 414–415: all'
+    tags: [polity:prc, name:kozlov-frol-r, name:peng-zhen, name:khrushchev-nikita-s, name:suslov-mikhail-a, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc+ussr]
+    time_range:
+      - 1960-11-29T16:00Z
+      - 1960-11-29T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-29.soviet-union-4
+    when: Nov. 29
+    date: '1960-11-29'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-29.soviet-union-3
+    c: 'Moscow. The Chinese delegation tells the Albanian, Vietnamese and Korean delegations, and some capitalist-country parties near China, of the agreement with Kozlov. Albania and Korea welcome the nails'' going and ask for more, above all on the wording against the personality cult: the Koreans say the CPSU stirred men in their party against Kim Il Sung under that slogan; the Albanians, that a woman member of their Politburo used it against Hoxha.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 414–415 ("that evening" of the 29th). Made public: 1999. See [[cal.1960-11-29.soviet-union-3]]. Names: Kim Il Sung.'
+    src:
+      c: b7601697
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 414–415: all'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+albania+drv+dprk]
+    time_range:
+      - 1960-11-29T16:00Z
+      - 1960-11-29T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-11-30.desegregation-schools
     when: Nov. 30
     date: '1960-11-30'
@@ -4563,7 +5276,7 @@ entries:
     thread: soviet-union
     also: [china, cuba]
     c: Moscow. The conference of 81 communist and workers' parties. The Soviets bring in "national democracy" for states like Cuba in transition to socialism.
-    n: '[[w.fursenko-one-hell-of-a]], 73; [[w.asselin-hanois-road-to-the]], 80 (the meeting, eighty-one parties); [[w.zedong-mao-zedong-nianpu]], IV, Nov. 28, 1960 (the conference; Peking''s instruction to compromise and sign). [[w.macfarquhar-maos-last-revolution]], 7 (Liu Shaoqi''s delegation; the statement of the eighty-one parties). To check: Report on the Moscow Conference, Soviet home service, Jan. 19, 1961 (cited by [[w.fursenko-one-hell-of-a]], 73 n.61); Zagoria, The Sino-Soviet Conflict, 361–62 (cited by [[w.fursenko-one-hell-of-a]], 73 n.62); [[w.sino-soviet-dispute]], 78–112 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.16); [[w.macfarquhar-origins-of-the-cultural]], II, 264–292 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17b); [[w.polemic-on-the-general]] (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.18). Check: the days.'
+    n: '[[w.fursenko-one-hell-of-a]], 73; [[w.asselin-hanois-road-to-the]], 80 (the meeting, eighty-one parties); [[w.zedong-mao-zedong-nianpu]], IV, Nov. 28, 1960 (the conference; Peking''s instruction to compromise and sign). [[w.macfarquhar-maos-last-revolution]], 7 (Liu Shaoqi''s delegation; the statement of the eighty-one parties); [[w.lengxi-shinian-lunzhan-1956-1966]], 377–378, 424 (the conference opened Nov. 10, in the afternoon, in the Kremlin''s St. George''s Hall; its plenary and signing Dec. 1; the Chinese delegation''s account of the sessions, 377–441). To check: Report on the Moscow Conference, Soviet home service, Jan. 19, 1961 (cited by [[w.fursenko-one-hell-of-a]], 73 n.61); Zagoria, The Sino-Soviet Conflict, 361–62 (cited by [[w.fursenko-one-hell-of-a]], 73 n.62); [[w.sino-soviet-dispute]], 78–112 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.16); [[w.macfarquhar-origins-of-the-cultural]], II, 264–292 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17b); [[w.polemic-on-the-general]] (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.18). Check: the days.'
     src:
       c: 490a54de
       rows:
@@ -4571,6 +5284,7 @@ entries:
         - 'w.asselin-hanois-road-to-the 80: B'
         - 'w.zedong-mao-zedong-nianpu IV, Nov. 28, 1960: A-B'
         - 'w.macfarquhar-maos-last-revolution 7: B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 377–378, 424: A'
   - id: cal.1960-11.elections-1960-6
     when: Nov., early
     date: 1960-11
@@ -4858,3 +5572,70 @@ entries:
       - 1960-11-30T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-11.china-leadership-4
+    when: Nov., after the 16th
+    date: 1960-11
+    at: after 1960-11-16
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow. The delegation, meeting on its second speech, decides to answer all the slanders and gross errors in the speeches, naming only Khrushchev; the rest are his views again. It will speak after Khrushchev's second speech, as Deng's first will have drawn one, as at Bucharest; Deng to speak again, Liu keeping his reserve, the deputy against Khrushchev, a way of slighting him.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 388–389 (after the contacts of the 16th–18th, the day not given). Made public: 1999. See [[cal.1960-11-16.china-leadership-5]]. Names: Deng Xiaoping, Khrushchev, Liu Shaoqi. Check: the day; Wu gives none, only that it came before the 21st.'
+    src:
+      c: '82013298'
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 388–389: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-11-30.soviet-union
+    when: Nov. 30
+    date: '1960-11-30'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the Lenin Hills conference hall, 11 a.m. to 2 p.m. Liu Shaoqi, Deng Xiaoping and Peng Zhen meet Khrushchev, Suslov and Kozlov. Khrushchev agrees to the Peng–Kozlov understanding, the Twentieth Congress wording still to be settled. Peng: some parties differ on the wording against the personality cult; Khrushchev: keep both formulas. Liu: China agreed with the Twentieth Congress''s criticism of Stalin''s errors, not with wholesale rejection of Stalin or with the lack of consultation; China''s own Eighth Congress and a resolution of 1948 stand against the cult; since parties object the wording is to change. Khrushchev agrees in principle and attacks Albania at length; Liu: the CPSU a large party should have a large party''s breadth, not strike Albania; he does not answer. Khrushchev agrees to end the argument, to return to the good relations of 1957, and that the two delegations settle the Twentieth and cult wording at once for signing tomorrow. Liu asks him to say less and keep out of the first line of the quarrel; "much talk, many slips"; disputes to be settled between the two parties first, then taken to international meetings; Khrushchev agrees, not owning that he talks too much. Liu''s state visit after the conference reconfirmed; Khrushchev: warm welcome, to show unity and to show the Americans. Liu: unity whatever the differences; differences by consultation within, no open polemic, named or unnamed. Two points fixed: Khrushchev to hold back; consultation to unanimity at international meetings, parties'' and mass organizations''. Deng and Suslov at the talks agree that neither side will polemicize in print, named or unnamed, differences to go to the two parties'' negotiators. Mikoyan comes in at the end for a photograph, seven in all, Deng with a stick; printed on *Renmin ribao*''s front page Dec. 8.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 415–418, 428 ("from 11 in the morning until 2 in the afternoon"; the press agreement "on the morning of the 30th" (428); the photograph, 418). Made public: 1999. See [[cal.1960-11-29.soviet-union-3]]. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Khrushchev, Suslov, Kozlov, Mikoyan. Check: the account is the Chinese delegation''s.'
+    src:
+      c: 8a6c1432
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 415–418, 428: all'
+    tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:khrushchev-nikita-s, name:suslov-mikhail-a, name:kozlov-frol-r, name:mikoyan-anastas, vis:only:prc+ussr]
+    time_range:
+      - 1960-11-30T08:00Z
+      - 1960-11-30T11:00Z
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-30.soviet-union-2
+    when: Nov. 30
+    date: '1960-11-30'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-30.soviet-union
+    c: 'Moscow. The same afternoon Deng Xiaoping and Peng Zhen for China, Suslov and Kozlov for the CPSU, each with a few aides, settle the wording on the Twentieth Congress and on the personality cult. On the Twentieth the Chinese fall back to their fourth wording, the 1957 Declaration''s; the Soviets accept. On the cult the wording is mostly the 1957 Declaration''s, with a phrase added: some brother parties have made gains against it. Suslov would drop the consultation-to-unanimity principle from the statement, agreement being reached; the Chinese hold out and it is written in plainly. Deng and Suslov also agree that *Renmin ribao* and *Pravda* each print the other''s editorial on the statement the day it is published.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 418–419, 428 ("that afternoon"; the editorials, 428). Made public: 1999. See [[cal.1960-11-30.soviet-union]]. Names: Deng Xiaoping, Peng Zhen, Suslov, Kozlov.'
+    src:
+      c: fdd23aa9
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 418–419, 428: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:suslov-mikhail-a, name:kozlov-frol-r, vis:only:prc+ussr]
+    time_range:
+      - 1960-11-30T09:00Z
+      - 1960-11-30T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-11-30.soviet-union-3
+    when: Nov. 30
+    date: '1960-11-30'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-11-30.soviet-union
+    c: 'Moscow, the Polish delegation''s quarters, evening. After the Sino-Soviet talks Liu Shaoqi calls on Gomułka, who led the Polish delegation when Liu led China''s at Moscow in 1956. The conference has ended in agreement, the quarrel is over, he says; China and the USSR to strengthen unity, China and Poland likewise. Two criticisms: in 1956 China helped Poland''s accord with the CPSU, and at this conference the Polish delegation did nothing for Sino-Soviet unity, or nothing good, Gomułka''s own speech being ill-tempered and attacking the Chinese Party and even Mao; and it was unjust to Albania, which Poland, that was bullied, should have spoken for, but instead had its delegates call Hoxha rough names. Gomułka defends himself, then says all that is past, unity now; and that China''s support of Poland will never be forgotten.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 426–428 ("that evening" of Nov. 30). Made public: 1999. See [[cal.1960-11-30.soviet-union]]. Names: Liu Shaoqi, Gomułka, Mao Zedong. Check: the account is Liu''s side''s, as Wu gives it.'
+    src:
+      c: 9c9eff7f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 426–428: all'
+    tags: [polity:prc, name:liu-shaoqi, name:gomulka-wladyslaw, name:mao-zedong, vis:only:prc+poland]
+    time_range:
+      - 1960-11-30T16:00Z
+      - 1960-11-30T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow

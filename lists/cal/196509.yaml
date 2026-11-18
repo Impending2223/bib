@@ -174,7 +174,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou, with Zhu De, Dong Biwu, Deng Xiaoping and others, receives the Vietnam–China Friendship Association delegation under Trần Huy Liệu; attends the capital's meeting for the twentieth anniversary of the Democratic Republic of Vietnam.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 1, 1965). Names: Zhou Enlai, Zhu De, Dong Biwu, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 1, 1965); [[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 1, 1965; afternoon; with Zhu De, Dong Biwu and Deng Xiaoping, the Vietnam–China Friendship Association delegation, the Vietnamese deputy minister of transport (洪赤心) and the Vietnamese Labor Youth delegation). Names: Zhou Enlai, Zhu De, Dong Biwu, Deng Xiaoping.'
+    src:
+      c: 5ebc3aab
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 754: ?'
+        - 'w.zhou-enlai-waijiao-huodong 476: A'
     tags: [name:zhou-enlai, name:zhu-de, name:dong-biwu, name:deng-xiaoping, polity:prc, polity:drv]
   - id: cal.1965-09-01.china-leadership-3
     when: Sept. 1
@@ -184,6 +189,23 @@ entries:
     c: The first session of the Tibet Autonomous Region's People's Congress opens at Lhasa (to Sept. 9) and the region is formally founded. Zhou meant to go for the Center, but plateau climate and health stopped him; Xie Fuzhi leads the delegation instead.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 753 (Sept. 1, 1965). Made public: 1997. Names: Zhou Enlai, Xie Fuzhi.'
     tags: [name:zhou-enlai, name:xie-fuzhi, polity:prc, vis:only:prc]
+  - id: cal.1965-09-01.china-leadership-4
+    when: Sept. 1
+    date: '1965-09-01'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou attends the rally of all circles in the capital celebrating the twentieth anniversary of the founding of the Democratic Republic of Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 1, 1965; afternoon; Beijing). Names: Zhou Enlai.'
+    src:
+      c: d87cb834
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 476: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-01T04:00Z
+      - 1965-09-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-02.students
     when: Sept. 2
     date: '1965-09-02'
@@ -415,6 +437,23 @@ entries:
     c: The State Planning Commission, on Zhou's view, sets the total scale of capital construction in the Third Plan at 85 billion yuan in its outline of the plan's arrangement.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 2, 1965). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-09-02.china-leadership-3
+    when: Sept. 2
+    date: '1965-09-02'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou attends the National Day reception given by Vietnam's ambassador Trần Tử Bình.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 2, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 3acd6de0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 476: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-02T11:00Z
+      - 1965-09-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-03.latin-america
     when: Sept. 3–4
     date: '1965-09-03'
@@ -496,11 +535,56 @@ entries:
   - id: cal.1965-09-03.china-leadership
     when: Sept. 3
     date: '1965-09-03'
+    time: 1965-09-03T03:00Z
     thread: china-leadership
     also: [soviet-union, vietnam, africa]
     c: 'Zhou, in talks with Diop: the American war on Vietnam is the first question for Asia and Africa and the world watches; so he said publicly at the Vietnam anniversary reception that unless Vietnam is supported there is no point in a second Asian-African conference. New China''s construction has had three periods: learning from the Soviet Union, much copying and little creation, with faults; from the Second Plan the general line, Mao''s creation, but too much "fast and more", not enough dialectics, with bad weather and the Soviet withdrawal of experts and tearing up of hundreds of contracts, which led to readjustment in the last two years of the Second Plan; now the economy is restored and growing; from next year the third, the Third Plan. With imperialism there are war and aggression; China builds in peace and prepares for the war the U.S. may force on it.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 3, 1965). Made public: 1997. Names: Zhou Enlai, Diop.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 3, 1965); [[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 3, 1965; 11 a.m., Fujian Hall, Great Hall of the People, the fourth talks with Diop). Made public: 1997. Names: Zhou Enlai, Diop.'
+    src:
+      c: cde69910
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 754: ?'
+        - 'w.zhou-enlai-waijiao-huodong 476: A'
     tags: [name:zhou-enlai, polity:prc, polity:guinea, vis:only:prc+guinea]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-03.china-leadership-2
+    when: Sept. 3
+    date: '1965-09-03'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou attends the rally of all circles in the capital celebrating the twentieth anniversary of victory in the war of resistance against Japan, in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 3, 1965; Great Hall of the People; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 2ec9b492
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 476: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1965-09-03.china-leadership-3
+    when: Sept. 3
+    date: '1965-09-03'
+    time: 1965-09-03T10:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives Pakistan's ambassador at the Xihuating, Zhongnanhai, who passes on a telegram from Foreign Minister Bhutto.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 3, 1965; 6 p.m., Xihuating, Zhongnanhai). The book names the ambassador 罗查. Names: Zhou Enlai, Bhutto.'
+    src:
+      c: 3c5b3b31
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 476: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-03.china-leadership-4
+    when: Sept. 3
+    date: '1965-09-03'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou goes to the airport to see off Vice Premier Chen Yi, leaving for visits to Mali and other states.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 3, 1965; Beijing airport; the time not given). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 2992f406
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 476: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
   - id: cal.1965-09-04.alabama
     when: Sept. 4
     date: '1965-09-04'
@@ -742,11 +826,32 @@ entries:
   - id: cal.1965-09-07.china-leadership
     when: Sept. 7
     date: '1965-09-07'
+    time: 1965-09-07T09:20Z
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Pakistani ambassador Raza on the spread of the local Kashmir clash between India and Pakistan to a general one. The Chinese government issues a statement the same day.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 7, 1965). Made public: 1997. Names: Zhou Enlai, Raza.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 7, 1965); [[w.zhou-enlai-waijiao-huodong]], 476–77 (Sept. 7, 1965; 5:20 p.m., Xihuating, Zhongnanhai; a talk alone with Pakistan''s ambassador). Made public: 1997. Names: Zhou Enlai, Raza.'
+    src:
+      c: af20b66b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 755: ?'
+        - 'w.zhou-enlai-waijiao-huodong 476–77: A'
     tags: [name:zhou-enlai, polity:prc, polity:pakistan, vis:only:prc+pakistan]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-07.china-leadership-2
+    when: Sept. 7
+    date: '1965-09-07'
+    time: 1965-09-07T06:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives Asghar Khan, chairman of Pakistan International Airlines, at the Xihuating, Zhongnanhai, Pakistan's ambassador being present.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 7, 1965; 2 p.m., Xihuating, Zhongnanhai). The book names the ambassador 罗查. Names: Zhou Enlai.'
+    src:
+      c: 1d6b6afb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 476: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-08.jobs-and-wages-ca
     when: Sept. 8
     date: '1965-09-08'
@@ -833,7 +938,12 @@ entries:
     thread: china-leadership
     also: [middle-east, china]
     c: 'Zhou answers in writing questions of Kamal Amer, editor of the Middle East News Agency, then in China: the chief threat to peace is U.S. imperialism''s policies of aggression and war. The Asian-African Conference is of Asian and African states; the Soviet Union is neither, and has no standing to attend; the first conference for this reason did not invite it; China will struggle to the end to hold the principle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 8, 1965). Names: Zhou Enlai, Kamal Amer.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 8, 1965); [[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 8, 1965; written reply to the questions of the chief editor of the Middle East News Agency, then visiting China (the book names him 卡迈勒·阿密尔); the book has Zhou holding that the Soviet Union, neither an Asian nor an African state, has no standing at the Afro-Asian conference, that renewed pressure by some states to invite it aims to split Asian and African unity and endanger the second conference, and that China will fight to the end for the principle). Names: Zhou Enlai, Kamal Amer.'
+    src:
+      c: 1b1e79d6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 755: ?'
+        - 'w.zhou-enlai-waijiao-huodong 477: A'
     tags: [name:zhou-enlai, polity:prc, polity:uar]
   - id: cal.1965-09-09.cities-and-housing
     when: Sept. 9
@@ -969,6 +1079,23 @@ entries:
     c: 'Zhou inscribes for sports: "Raise high the red banner of Mao Zedong Thought; build the people''s sport, build the people''s health, serve socialism, bring glory to the motherland."'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 9, 1965). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-09-09.china-leadership-2
+    when: Sept. 9
+    date: '1965-09-09'
+    thread: china-leadership
+    also: [korea]
+    c: Zhou, with Liu Shaoqi, Deng Xiaoping and other Party and state leaders, attends the National Day reception given by the North Korean embassy's chargé d'affaires.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 9, 1965; evening; Beijing). The book names the chargé 郑凤珪. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: ca61e29e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 477: all'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
+    time_range:
+      - 1965-09-09T11:00Z
+      - 1965-09-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-10.economy
     when: Sept. 10
     date: '1965-09-10'
@@ -1186,6 +1313,20 @@ entries:
     c: Zhou receives Han Suyin on Sino-American relations and the Vietnam war.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 10, 1965). Names: Zhou Enlai, Han Suyin.'
     tags: [name:zhou-enlai, polity:prc, polity:us]
+  - id: cal.1965-09-10.china-leadership-2
+    when: Sept. 10
+    date: '1965-09-10'
+    time: 1965-09-10T03:30Z
+    thread: china-leadership
+    also: [latin-america]
+    c: 'Zhou receives Mexican guests at the Xihuating, Zhongnanhai: a former minister of health, former governor of a Mexican state and former rector of the Mexican university, Gustavo Baz (古斯塔沃·巴斯), and others.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 10, 1965; 11:30 a.m., Xihuating, Zhongnanhai). Names: Zhou Enlai.'
+    src:
+      c: bde4bffb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 477: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-11.vietnam
     when: Sept. 11
     date: '1965-09-11'
@@ -1268,6 +1409,20 @@ entries:
         - 'w.kotz-judgment-days 352: all'
         - 'via x.1965-09-12.washington-post-a3-young: all'
     tags: [name:young-whitney-m-jr, name:king-martin-luther-jr]
+  - id: cal.1965-09-11.china-leadership
+    when: Sept. 11
+    date: '1965-09-11'
+    time: 1965-09-11T03:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives Asghar Khan, chairman of Pakistan International Airlines, at the Xihuating, Zhongnanhai.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 11, 1965; 11 a.m., Xihuating, Zhongnanhai). Names: Zhou Enlai.'
+    src:
+      c: 29d86f3a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 477: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-12.opinion
     when: Sept. 12
     date: '1965-09-12'
@@ -1628,11 +1783,18 @@ entries:
   - id: cal.1965-09-14.china-leadership
     when: Sept. 14
     date: '1965-09-14'
+    time: 1965-09-14T09:30Z
     thread: china-leadership
     also: [africa]
     c: Zhou receives Mali's minister of development Kouyaté. A state with great potential in farming and the economy first solves its people's food, clothing and use; so it withstands imperialist blockade; the most basic road. Anti-imperialist and anti-colonial struggle in independent Africa is not over; under common imperialist pressure, step by step toward self-reliance; always guard against and resist interference, sabotage and aggression.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 14, 1965). Names: Zhou Enlai, Kouyaté.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 14, 1965); [[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 14, 1965; 5:30 p.m., Xihuating, Zhongnanhai; Zhou receives Kouyaté (the book names him 库亚特) and his wife). Names: Zhou Enlai, Kouyaté.'
+    src:
+      c: 478cad6a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 755: ?'
+        - 'w.zhou-enlai-waijiao-huodong 477: A'
     tags: [name:zhou-enlai, polity:prc, polity:mali]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-15.latin-america
     when: Sept. 15
     date: '1965-09-15'
@@ -1913,6 +2075,36 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, Sept. 15, 1965: all'
         - 'w.zhou-enlai-nianpu-1949 II, 755: A'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1965-09-15.china-leadership-2
+    when: Sept. 15
+    date: '1965-09-15'
+    thread: china-leadership
+    c: Zhou receives the Cambodian royal court's representative at Phnom Penh and the mayor of Phnom Penh, with the Phnom Penh delegation he leads.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 15, 1965; afternoon; Beijing). The book names the mayor 狄潘. Names: Zhou Enlai.'
+    src:
+      c: 91509bfb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 477: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-15T04:00Z
+      - 1965-09-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-15.china-leadership-3
+    when: Sept. 15
+    date: '1965-09-15'
+    time: 1965-09-15T10:30Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives Pakistan's ambassador at the Xihuating, Zhongnanhai.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 15, 1965; 6:30 p.m., Xihuating, Zhongnanhai). The book names the ambassador 罗查. Names: Zhou Enlai.'
+    src:
+      c: d24a17f0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 477: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-16.jobs-and-wages-ca
     when: Sept. 16
     date: '1965-09-16'
@@ -2198,18 +2390,30 @@ entries:
   - id: cal.1965-09-17.china-leadership
     when: Sept. 17
     date: '1965-09-17'
+    time: 1965-09-17T03:45Z
     thread: china-leadership
     also: [indonesia, africa]
     c: Zhou receives Omar Dani, commander of Indonesia's air force. Whether the second Asian-African conference can be held and well is a question to study; he would like to exchange views with Sukarno and Subandrio.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 17, 1965). Made public: 1997. Names: Zhou Enlai, Omar Dani.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 17, 1965); [[w.zhou-enlai-waijiao-huodong]], 477–78 (Sept. 17, 1965; 11:45 a.m., Xihuating, Zhongnanhai; Omar Dani (奥马尔·达尼), commander of Indonesia''s air force; the book has him told that the Arab summit closes that day and the African summit opens Oct. 21 at Accra, neither likely to run high, that on Vietnam they may at most ask for the 1954 Geneva agreements and an end to the bombing, and that Zhou wants to exchange views with Sukarno and Subandrio on whether the second conference can be held well). Made public: 1997. Names: Zhou Enlai, Omar Dani.'
+    src:
+      c: 24516aca
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 756: ?'
+        - 'w.zhou-enlai-waijiao-huodong 477–78: A'
     tags: [name:zhou-enlai, polity:prc, polity:indonesia, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-17.china-leadership-2
     when: Sept. 17
     date: '1965-09-17'
     thread: china-leadership
     also: [japan]
     c: Zhou goes with Mao to receive Hakamada Satomi and others of the Japanese Communist Party's Politburo and Secretariat.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 17, 1965). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Hakamada Satomi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 17, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 17, 1965; afternoon; Zhou accompanies Mao in receiving and giving a banquet for Hakamada Satomi (袴田里见), Politburo member and Secretariat secretary of the Japanese Communist Party, and the party''s Central Committee member and Secretariat secretary (砂间一良); Liu Shaoqi and Deng Xiaoping also attend). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Hakamada Satomi.'
+    src:
+      c: 191cdd8c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 756: ?'
+        - 'w.zhou-enlai-waijiao-huodong 478: A'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, polity:japan, vis:only:prc+japan]
   - id: cal.1965-09-18.vietnam
     when: Sept. 18
@@ -2410,6 +2614,20 @@ entries:
     c: 'Zhou views all the rushes of the just-filmed *The East Is Red*: one more push to make it perfect, finish early, show it on National Day.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 18, 1965). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-09-18.china-leadership-4
+    when: Sept. 18
+    date: '1965-09-18'
+    time: 1965-09-18T03:00Z
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou receives Indonesia's Minister of State, an air force major general, in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 18, 1965; 11 a.m., Great Hall of the People). The book names him 哈兰邦. Names: Zhou Enlai.'
+    src:
+      c: b28e002c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-19.republican-party
     when: Sept. 19
     date: '1965-09-19'
@@ -2668,6 +2886,54 @@ entries:
     c: Zhou calls Luo Qingchang, Wu Lengxi and others on helping Li Zongren prepare his press conference; at Li's request names Wu Lengxi, Gong Peng, Zhang Yan and Yao Zhen as its advisers.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 21, 1965). Made public: 1997. Names: Zhou Enlai, Luo Qingchang, Wu Lengxi, Gong Peng, Zhang Yan, Yao Zhen, Li Zongren.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-09-21.china-leadership-2
+    when: Sept. 21
+    date: '1965-09-21'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou and He Long receive Maladi, chairman of the Federation of the Games of the New Emerging Forces, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; afternoon; Beijing). Names: Zhou Enlai, He Long.'
+    src:
+      c: 02b9dc28
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai, name:he-long]
+    time_range:
+      - 1965-09-21T04:00Z
+      - 1965-09-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-21.china-leadership-3
+    when: Sept. 21
+    date: '1965-09-21'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou attends, with friends from Asia, Africa, Latin America and Europe, the opening of the second council meeting of the Federation of the Games of the New Emerging Forces, held in Peking.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; afternoon; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 0ee76814
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-21T04:00Z
+      - 1965-09-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-21.china-leadership-4
+    when: Sept. 21
+    date: '1965-09-21'
+    time: 1965-09-21T13:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou, to Pakistan''s ambassador and an air force colonel at the Xihuating: all changes in the world are now very great; non-alignment becomes alliance and alliances lose their benefits, and communists can be true or false. Now that Indonesia, Pakistan and China stand together, they must also work to support Cambodia, standing on the anti-American front line.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; 9 p.m., Xihuating, Zhongnanhai). Made public: 1993. The book names the ambassador 罗查 and the colonel 苏菲. Names: Zhou Enlai.'
+    src:
+      c: 59550d45
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+pakistan]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-22.immigration
     when: Sept. 22
     date: '1965-09-22'
@@ -2845,11 +3111,35 @@ entries:
   - id: cal.1965-09-22.china-leadership
     when: Sept. 22
     date: '1965-09-22'
+    time: 1965-09-22T12:00Z
     thread: china-leadership
     also: [indonesia]
     c: Zhou receives the Indonesian economic delegation. The Museum of the Chinese Revolution shows only part of the revolution, incomplete, with more of the good and successful than of errors and setbacks; to be added to. Experience of success alone is partial; we face errors and find how to correct them, and so go forward.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 756–57 (Sept. 22, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 756–57 (Sept. 22, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 22, 1965; 8 p.m., Hunan Hall, Great Hall of the People; the delegation led by Indonesia''s minister for budget affairs (the book names him 努尔亚迪)). Names: Zhou Enlai.'
+    src:
+      c: ced4c376
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 756–57: ?'
+        - 'w.zhou-enlai-waijiao-huodong 478: A'
     tags: [name:zhou-enlai, polity:prc, polity:indonesia]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-22.china-leadership-2
+    when: Sept. 22
+    date: '1965-09-22'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the National Day reception given by Mali's ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 22, 1965; evening; Beijing). The book names the ambassador 比拉马·特拉奥雷. Names: Zhou Enlai.'
+    src:
+      c: d402a7d2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-22T11:00Z
+      - 1965-09-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-23.vietnam-congress
     when: Sept. 23
     date: '1965-09-23'
@@ -3140,8 +3430,45 @@ entries:
     date: '1965-09-24'
     thread: china-leadership
     c: Zhou flies to Chongqing to meet Sihanouk, calls on him the same day. Orders the offices to enlarge and rebuild Chongqing airport, unfit for use, and shorten the road from it to town.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 24, 1965). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 24, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; by special trip from Peking to Chongqing to welcome Sihanouk, and calling on him there in the afternoon). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 2d9b7faa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 757: ?'
+        - 'w.zhou-enlai-waijiao-huodong 478: A'
     tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia, vis:only:prc+cambodia]
+  - id: cal.1965-09-24.china-leadership-3
+    when: Sept. 24
+    date: '1965-09-24'
+    thread: china-leadership
+    c: Zhou goes with Sihanouk to watch a friendly football match between Chinese and Cambodian teams at Chongqing.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; afternoon; Chongqing). Names: Zhou Enlai, Norodom Sihanouk.'
+    src:
+      c: ca0993e4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1965-09-24T04:00Z
+      - 1965-09-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-24.china-leadership-4
+    when: Sept. 24
+    date: '1965-09-24'
+    thread: china-leadership
+    c: Zhou attends the banquet given at Chongqing for Prince Sihanouk and Princess Monique by the mayor Ren Baige and his wife Hua Yi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; evening; Chongqing). Names: Zhou Enlai, Norodom Sihanouk.'
+    src:
+      c: 08bbba4e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 478: all'
+    tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1965-09-24T11:00Z
+      - 1965-09-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-25.vietnam-force-levels
     when: Sept. 25
     date: '1965-09-25'
@@ -3159,7 +3486,12 @@ entries:
     thread: china-leadership
     also: [indonesia, laos]
     c: Zhou, with Chen Yi and Mrs. Chen, goes with Sihanouk and Princess Monique from the Red Rock memorial in Chongqing by boat to Wuhan; two private talks with Sihanouk on the way, the Gorges seen on the 26th. The boat reaches Wuhan the 27th; Zhou flies back to Beijing.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 25–27, 1965). Made public: 1997. Names: Zhou Enlai, Chen Yi, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 25–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 478–79 (Sept. 25, 1965; 11:40 a.m., leaving Chongqing with Chen Yi and his wife, Sihanouk, the Princess and their party on the *Jiangjin* downriver for Wuhan; 5 p.m., a talk alone with Sihanouk on the ship; Sept. 26, evening, an informal banquet on board; Sept. 27, 9:30 a.m., the second talk alone on the ship; afternoon, arrival at Wuhan). Made public: 1997. Names: Zhou Enlai, Chen Yi, Sihanouk.'
+    src:
+      c: e15cb12f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 757: ?'
+        - 'w.zhou-enlai-waijiao-huodong 478–79: B-D'
     tags: [name:zhou-enlai, name:chen-yi, name:norodom-sihanouk, polity:prc, polity:cambodia, vis:only:prc+cambodia]
   - id: cal.1965-09-26.opinion
     when: Sept. 26
@@ -3216,6 +3548,38 @@ entries:
     c: The commission to draft the plenum's resolution. Suslov would write "the plenum proposes" for "the plenum commissions"; Kosygin finds "commission" better. Brezhnev first supports Suslov; Podgorny preferring "commission," he decides for it if the majority is.
     n: '[[w.schattenberg-brezhnev]], 179. To check: RGANI, f. 2, op. 1, d. 791, l. 113 (cited by [[w.schattenberg-brezhnev]], 179 n.60). Made public: 2021 at the latest. Names: Suslov, Kosygin, Brezhnev, Podgorny. Check: the day.'
     tags: [name:suslov-mikhail-a, name:kosygin-aleksei, name:brezhnev-leonid, name:podgorny-nikolai-v, polity:ussr, vis:only:ussr]
+  - id: cal.1965-09-27.china-leadership
+    when: Sept. 27
+    date: '1965-09-27'
+    thread: china-leadership
+    c: Zhou arrives at Wuhan with Sihanouk, the Princess and their party; some hundreds of thousands of people from the three towns line the streets in the rain to welcome the Cambodian guests.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 27, 1965; afternoon; Wuhan). Names: Zhou Enlai, Norodom Sihanouk.'
+    src:
+      c: ebcc3a42
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1965-09-27T04:00Z
+      - 1965-09-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-27.china-leadership-2
+    when: Sept. 27
+    date: '1965-09-27'
+    thread: china-leadership
+    c: Zhou attends the welcoming banquet given at Wuhan by Hubei's governor Zhang Tixue and his wife Lin Shaonan.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 27, 1965; evening; Wuhan). Names: Zhou Enlai, Norodom Sihanouk.'
+    src:
+      c: dc5af4f9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1965-09-27T11:00Z
+      - 1965-09-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-28.states-and-cities-ma
     when: Sept. 28
     date: '1965-09-28'
@@ -3272,8 +3636,45 @@ entries:
     date: '1965-09-28'
     thread: china-leadership
     c: Zhou, with Liu Shaoqi, Dong Biwu, Zhu De and others, meets Sihanouk and party at the airport, come for the sixteenth anniversary of the People's Republic and a state visit.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 28, 1965). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 28, 1965); [[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 28, 1965; morning, Beijing airport; Sihanouk and the Princess, invited to the sixteenth anniversary celebrations and on a state visit, arrive by special plane from Wuhan with Chen Yi and his wife Zhang Qian; Liu Shaoqi and Wang Guangmei, Dong Biwu and Zhu De also welcome them). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Sihanouk.'
+    src:
+      c: e8044d47
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 757: ?'
+        - 'w.zhou-enlai-waijiao-huodong 479: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:norodom-sihanouk, polity:prc, polity:cambodia]
+  - id: cal.1965-09-28.china-leadership-2
+    when: Sept. 28
+    date: '1965-09-28'
+    thread: china-leadership
+    c: Zhou attends with Sihanouk the closing ceremony of the Second National Games and presents prizes to the athletes.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 28, 1965; afternoon; Beijing). Names: Zhou Enlai, Norodom Sihanouk.'
+    src:
+      c: 8255a8f8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1965-09-28T04:00Z
+      - 1965-09-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-28.china-leadership-3
+    when: Sept. 28
+    date: '1965-09-28'
+    thread: china-leadership
+    c: Zhou attends the welcoming banquet given by Liu Shaoqi and his wife Wang Guangmei for Sihanouk and the Princess.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 28, 1965; evening; Beijing). Names: Zhou Enlai, Liu Shaoqi, Norodom Sihanouk.'
+    src:
+      c: 1659d56a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk]
+    time_range:
+      - 1965-09-28T11:00Z
+      - 1965-09-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-29.program
     when: Sept. 29
     date: '1965-09-29'
@@ -3429,8 +3830,18 @@ entries:
     date: '1965-09-29'
     thread: china-leadership
     c: Zhou, with Liu Shaoqi and others, opens the exhibition "Cambodia Today" on ten years' building.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 29, 1965). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 29, 1965); [[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 29, 1965; morning, the opening of the exhibition *Cambodia Today*, showing ten years of building). Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: 2c813093
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 757: ?'
+        - 'w.zhou-enlai-waijiao-huodong 479: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, polity:cambodia]
+    time_range:
+      - 1965-09-28T22:00Z
+      - 1965-09-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-29.china-leadership-2
     when: Sept. 29
     date: '1965-09-29'
@@ -3439,6 +3850,36 @@ entries:
     c: 'Zhou, learning that an African state''s leader means to invite non-African states as observers to an African summit, tells an official of an African state then in China: such a bad precedent must not be set, regional meetings would be wrecked.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 29, 1965). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-09-29.china-leadership-3
+    when: Sept. 29
+    date: '1965-09-29'
+    time: 1965-09-29T07:00Z
+    thread: china-leadership
+    c: Zhou accompanies Mao Zedong in the Great Hall of the People in receiving Cambodia's head of state, Prince Sihanouk, and the Princess.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 29, 1965; 3 p.m., Great Hall of the People). Names: Zhou Enlai, Mao Zedong, Norodom Sihanouk.'
+    src:
+      c: ecd219c4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:norodom-sihanouk]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-29.china-leadership-4
+    when: Sept. 29
+    date: '1965-09-29'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives Mali's minister of development, Kouyaté (库亚特), in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 29, 1965; afternoon; Great Hall of the People). See [[cal.1965-09-14.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: cf88c074
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-29T04:00Z
+      - 1965-09-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-30.alabama
     when: Sept. 30
     date: '1965-09-30'
@@ -3930,28 +4371,100 @@ entries:
     date: '1965-09-30'
     thread: china-leadership
     c: Zhou goes with Sihanouk through the Beijing Electron Tube Factory; urges workers to rely on themselves, work hard for strength, use advanced technique.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965). Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 30, 1965; morning, the Peking electron tube factory with Sihanouk). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 040115fa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 758: ?'
+        - 'w.zhou-enlai-waijiao-huodong 479: A'
     tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia]
+    time_range:
+      - 1965-09-29T22:00Z
+      - 1965-09-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-30.china-leadership-2
     when: Sept. 30
     date: '1965-09-30'
     thread: china-leadership
     also: [indonesia, laos, vietnam-hanoi]
     c: Zhou, with Liu Shaoqi, talks with Sihanouk.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; afternoon; the talks with Liu Shaoqi and Sihanouk). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Sihanouk.'
+    src:
+      c: ba7b4d41
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 758: ?'
+        - 'w.zhou-enlai-waijiao-huodong 480: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk, polity:prc, polity:cambodia, vis:only:prc+cambodia]
   - id: cal.1965-09-30.china-leadership-3
     when: Sept. 30
     date: '1965-09-30'
+    time: 1965-09-30T11:00Z
     thread: china-leadership
     c: 'Zhou speaks at the National Day reception in the Great Hall: in international affairs distinguish right from wrong; support the just, oppose the unjust; deadly enemies of aggressors and oppressors, good friends of peoples who resist aggression and oppression.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; 7 p.m., the National Day reception in the Great Hall of the People, with Mao, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De and Deng Xiaoping attending). Names: Zhou Enlai.'
+    src:
+      c: 56770f3e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 758: ?'
+        - 'w.zhou-enlai-waijiao-huodong 480: A-C'
     tags: [name:zhou-enlai, polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-30.china-leadership-4
     when: Sept. 30–Oct. 1
     date: '1965-09-30'
+    time: 1965-09-30T09:30Z
     thread: china-leadership
     also: [indonesia, africa, soviet-union]
     c: 'Zhou receives Haji Saleh, head of Indonesia''s provisional People''s Consultative Congress, Sept. 30 and Oct. 1. China still wants the Asian-African conference to meet and succeed; but obstacles stand: U.S.–Soviet cooperation, and use of the U.N., from outside and inside, to wreck it and lower its anti-imperialist, anti-colonial key. The Bandung spirit cannot fail; if no second conference, it will be raised higher.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30–Oct. 1, 1965). Made public: 1997. Names: Zhou Enlai, Haji Saleh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30–Oct. 1, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; 5:30 p.m., Fujian Hall, Great Hall of the People; the delegation of Indonesia''s provisional People''s Consultative Congress under Haji Saleh (哈鲁尔·萨勒) and its vice-chairman Ali Sastroamidjojo, and the vice-chairman of the Gotong Royong parliament Subamia (苏巴米亚) and his wife); [[w.zhou-enlai-waijiao-huodong]], 480–81 (Oct. 1, 1965; 5:45 p.m., Building 17, Diaoyutai guesthouse; talks with Haji Saleh, chairman of Indonesia''s provisional People''s Consultative Congress, and vice-chairman Ali Sastroamidjojo). Made public: 1997. Names: Zhou Enlai, Haji Saleh.'
+    src:
+      c: cee888a5
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 758: ?'
+        - 'w.zhou-enlai-waijiao-huodong 480: A-D'
+        - 'w.zhou-enlai-waijiao-huodong 480–81: A-E'
     tags: [name:zhou-enlai, polity:prc, polity:indonesia, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-30.china-leadership-5
+    when: Sept. 30
+    date: '1965-09-30'
+    time: 1965-09-30T01:15Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives in the Zhejiang Hall of the Great Hall of the People a Pakistani friendship delegation under the minister of commerce, and Lieutenant General Asghar Khan, head of Pakistan's civil aviation and tourism and managing director of Pakistan International Airlines.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 30, 1965; 9:15 a.m., Zhejiang Hall, Great Hall of the People). The book names the minister 法鲁克. Names: Zhou Enlai.'
+    src:
+      c: 4ef68312
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 479: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-30.china-leadership-6
+    when: Sept. 30
+    date: '1965-09-30'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou attends the signing of the agreements on Chinese–Indonesian economic cooperation and other matters.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 3506c19a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 480: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1965-09-30.china-leadership-7
+    when: Sept. 30
+    date: '1965-09-30'
+    thread: china-leadership
+    c: Zhou receives the Albanian Ministry of the Interior delegation, led by the interior minister, an alternate Politburo member.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; evening; Beijing). The book names the minister 哈兹比乌. Names: Zhou Enlai.'
+    src:
+      c: ce772698
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 480: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-09-30T11:00Z
+      - 1965-09-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

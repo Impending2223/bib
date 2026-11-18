@@ -30,7 +30,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou Enlai holds talks in turn with Vietnam's Prime Minister Phạm Văn Đồng and with Nguyễn Hữu Thọ, chairman of the presidium of the South Vietnam National Liberation Front's Central Committee and chairman of the advisory council of the Provisional Revolutionary Government.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 1, 1969). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng, Nguyễn Hữu Thọ.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 1, 1969); [[w.zhou-enlai-waijiao-huodong]], 542 (Oct. 1, 1969; 2 p.m., Xinliusuo guesthouse, the second talks with Phạm Văn Đồng; 3:40 p.m., Building 2, Xinliusuo guesthouse, the first with Nguyễn Hữu Thọ; the book gives no content). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng, Nguyễn Hữu Thọ.'
+    src:
+      c: c43453dc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 319: ?'
+        - 'w.zhou-enlai-waijiao-huodong 542: A'
     tags: [polity:prc, polity:drv, polity:nlf, name:zhou-enlai, name:pham-van-dong, name:nguyen-huu-tho, vis:only:prc+drv+nlf]
   - id: cal.1969-10-01.china-leadership-4
     when: Oct. 1
@@ -40,6 +45,55 @@ entries:
     c: Zhou Enlai and Deng Yingchao visit the delegates of educated youth sent down to the countryside who are staying for now in Zhongnanhai, come to Peking for National Day.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 1, 1969). Made public: 2020. Names: Zhou Enlai. Check: the day, the nianpu saying "during the National Day".'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-10-01.china-leadership-5
+    when: Oct. 1
+    date: '1969-10-01'
+    thread: china-leadership
+    c: Zhou reviews the National Day march with the Party and state leaders from the Tiananmen tower.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 542 (Oct. 1, 1969; morning; Tiananmen, Beijing). Names: Zhou Enlai.'
+    src:
+      c: 23a9b905
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 542: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-09-30T22:00Z
+      - 1969-10-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-01.china-leadership-8
+    when: Oct. 1
+    date: '1969-10-01'
+    thread: china-leadership
+    also: [korea]
+    c: Zhou gives an informal banquet welcoming the North Korean party and government delegation led by Choe Yong-gon.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 542 (Oct. 1, 1969; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 1bb9c506
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 542: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-01T11:00Z
+      - 1969-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-01.china-leadership-9
+    when: Oct. 1
+    date: '1969-10-01'
+    thread: china-leadership
+    c: Zhou spends the National Day evening on the Tiananmen tower with the Party and state leaders and guests from various countries.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 542 (Oct. 1, 1969; evening; Tiananmen, Beijing). Names: Zhou Enlai.'
+    src:
+      c: c08ab42d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 542: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-01T11:00Z
+      - 1969-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-02.soviet-union-leadership
     when: Oct. 2
     date: '1969-10-02'
@@ -62,19 +116,111 @@ entries:
   - id: cal.1969-10-02.china-leadership-2
     when: Oct. 2
     date: '1969-10-02'
+    time: 1969-10-02T11:00Z
     thread: china-leadership
     also: [korea-leadership, china]
     c: Zhou Enlai holds talks with Choe Yong-gon on developing relations between the two Parties and states.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 2, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 2, 1969); [[w.zhou-enlai-waijiao-huodong]], 543 (Oct. 2, 1969; 7 p.m., Jingxi Hotel; the talks with Choe Yong-gon). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: e0e62f4f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 319: ?'
+        - 'w.zhou-enlai-waijiao-huodong 543: A'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-02.china-leadership-3
     when: Oct. 2
     date: '1969-10-02'
+    time: 1969-10-02T15:50Z
     thread: china-leadership
     also: [south-asia, china]
     c: 'Zhou Enlai holds talks with Lt. Gen. Hamid Khan on Sino-Pakistani relations and the international situation. On local conflicts since the Second World War: world politics is interesting, with fighting and talking together, as China has done, fighting while talking, tense and loose by turns since 1953; first Korea, where China and the Americans fought and talked three years to a cease-fire; second Berlin, also tense; third Vietnam, fighting in the south and none in the north, a special case; fourth China, not wholly unified, American troops not yet out of Taiwan, in fact split in two, as his own country in fact is; also the Middle East, where after the war Israel was founded and Palestine split in two.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 2, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 2, 1969); [[w.zhou-enlai-waijiao-huodong]], 543 (Oct. 2, 1969; 11:50 p.m., with the friendship delegation under the army chief of staff Lieutenant General Hamid Khan; the book has Zhou naming the tense areas since the Second World War, Korea, Berlin, Vietnam, China (Taiwan) and Pakistan (Kashmir, "made by Mountbatten, a friend of Nehru"), and the Middle East). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: 63054a8e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 319: ?'
+        - 'w.zhou-enlai-waijiao-huodong 543: all'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai, vis:only:prc+pakistan]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1969-10-02'
+    time: 1969-10-02T09:50Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the head of the Nepalese delegation, Giri (吉里), at the Beijing Hotel.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 542 (Oct. 2, 1969; 5:50 p.m., Beijing Hotel). Names: Zhou Enlai.'
+    src:
+      c: eee259d9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 542: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-02.china-leadership-5
+    when: Oct. 2
+    date: '1969-10-02'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the reception given at the Beijing Hotel by the chargé d'affaires of Guinea's embassy for the eleventh anniversary of the Republic of Guinea.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 542–43 (Oct. 2, 1969; afternoon; Beijing Hotel). The book names the chargé 卡马拉. Names: Zhou Enlai.'
+    src:
+      c: ccf542eb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 542–43: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-02T04:00Z
+      - 1969-10-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-02.china-leadership-6
+    when: Oct. 2
+    date: '1969-10-02'
+    time: 1969-10-02T10:30Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives Mauritania's foreign minister at the Beijing Hotel.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 543 (Oct. 2, 1969; 6:30 p.m., Beijing Hotel). The book names him 穆克纳斯. Names: Zhou Enlai.'
+    src:
+      c: 9c58912b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 543: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-02.china-leadership-7
+    when: Oct. 2
+    date: '1969-10-02'
+    thread: china-leadership
+    c: Zhou goes with the delegations of various states to an arts evening and watches the modern ballet *The Red Detachment of Women*.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 543 (Oct. 2, 1969; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 1657c81b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 543: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-02T11:00Z
+      - 1969-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-02.china-leadership-8
+    when: Oct. 2
+    date: '1969-10-02'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the managing director of Pakistan International Airlines and his party.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 543 (Oct. 2, 1969; evening; Beijing). The book names him 杜拉尼. Names: Zhou Enlai.'
+    src:
+      c: e905a903
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 543: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-02T11:00Z
+      - 1969-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-03.soviet-union-leadership
     when: Oct. 3–8
     date: '1969-10-03'
@@ -94,19 +240,130 @@ entries:
   - id: cal.1969-10-03.china-leadership-2
     when: Oct. 3
     date: '1969-10-03'
+    time: 1969-10-02T18:00Z
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou Enlai holds talks with Phạm Văn Đồng on the international situation and Sino-Vietnamese relations. On the struggle against deviations within the Party and the revolutionary ranks: ultra-leftism is of two kinds, a "left" infantile disease in thought and a "left" in form but right in substance; China has ultra-left elements at home.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 3, 1969). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319 (Oct. 3, 1969); [[w.zhou-enlai-waijiao-huodong]], 543 (Oct. 3, 1969; 2 a.m., Xinliusuo guesthouse, the third talks with Phạm Văn Đồng). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 71edd952
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 319: ?'
+        - 'w.zhou-enlai-waijiao-huodong 543: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-03.china-leadership-3
+    when: Oct. 3
+    date: '1969-10-03'
+    thread: china-leadership
+    also: [korea]
+    c: Zhou goes to the airport to see off the North Korean party and government delegation under Choe Yong-gon, returning home.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 3, 1969; morning; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: da9a9490
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-02T22:00Z
+      - 1969-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-03.china-leadership-4
+    when: Oct. 3
+    date: '1969-10-03'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou goes to the airport to see off the Pakistani friendship delegation under the army chief of staff, Lieutenant General Hamid Khan, leaving to visit elsewhere.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 3, 1969; morning; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: 7fdfffa9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-02T22:00Z
+      - 1969-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-03.china-leadership-5
+    when: Oct. 3
+    date: '1969-10-03'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off the Cambodian state delegation under Prime Minister Lon Nol.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 3, 1969; morning; Beijing airport). Names: Zhou Enlai, Lon Nol.'
+    src:
+      c: 5a721eca
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai, name:lon-nol]
+    time_range:
+      - 1969-10-02T22:00Z
+      - 1969-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-03.china-leadership-6
+    when: Oct. 3
+    date: '1969-10-03'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou goes to the airport to see off the Vietnamese party and government delegation under Premier Phạm Văn Đồng.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 3, 1969; morning; Beijing airport). Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 8ee4b4ad
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai, name:pham-van-dong]
+    time_range:
+      - 1969-10-02T22:00Z
+      - 1969-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-03.china-leadership-7
+    when: Oct. 3
+    date: '1969-10-03'
+    thread: china-leadership
+    c: Zhou goes with some fraternal parties to an arts evening and watches the modern ballet *The Red Detachment of Women*.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 3, 1969; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: af07ad9b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-03T11:00Z
+      - 1969-10-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-03.china-leadership-8
+    when: Oct. 3
+    date: '1969-10-03'
+    time: 1969-10-03T15:10Z
+    thread: china-leadership
+    also: [middle-east]
+    c: Zhou receives the delegation of the Palestinian National Liberation Movement (Fatah), led by its leading member 阿·卡塞姆, in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 3, 1969; 11:10 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: c7d32e02
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-04.china-leadership
     when: Oct. 4
     date: '1969-10-04'
+    time: 1969-10-04T14:05Z
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai receives the Algerian government delegation: China''s proletarian Cultural Revolution is near its end but not wholly ended; in these years relations have not been so close, one reason being that China was carrying out the Cultural Revolution.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319–320 (Oct. 4, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 319–320 (Oct. 4, 1969); [[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 4, 1969; 10:05 p.m., Fujian Hall, Great Hall of the People; the Algerian government delegation under the minister of labor and social affairs (the book names him 穆罕默德·赛义德·马兹)). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: f1df4906
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 319–320: ?'
+        - 'w.zhou-enlai-waijiao-huodong 544: A'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, vis:only:prc+algeria]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-04.china-leadership-2
     when: Oct. 4
     date: '1969-10-04'
@@ -115,6 +372,23 @@ entries:
     c: Zhou Enlai, on Peking Foreign Languages Institute students sent down to a PLA farm and given only an hour a day for foreign language, rules that an hour is not enough, in fact it is half an hour; art students spend four hours a day on basic skill, foreign-language students need at least three or the language is lost. He has the Foreign Ministry send the farm a notice to assure three hours a day, and later gives several more specific instructions on foreign-language students on farms and on translators in cadre schools. The nianpu notes that this year the Center decided to send graduates of the foreign-language institutes and students back from abroad to PLA farms to work and be tempered.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 320 (Oct. 4, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-10-04.china-leadership-3
+    when: Oct. 4
+    date: '1969-10-04'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou gives a banquet in the Great Hall of the People welcoming Prime Minister Raoul of the Congo (Brazzaville) on his state visit to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 4, 1969; evening; Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: e80057cb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-04T11:00Z
+      - 1969-10-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-05.vietnam-hanoi
     when: Oct. 5
     date: '1969-10-05'
@@ -143,6 +417,34 @@ entries:
     c: 'The Secretariat''s circular no. 241-TT/TW on the Finance and Trade Boards: set up at every level by resolution no. 137-NQ/TW of Apr. 12, 1966, some not yet complete, Lạng Sơn''s dissolved on its own without the Center''s leave. To be kept and strengthened.'
     n: '*Thông tri của Ban Bí thư số 241-TT/TW, ngày 6 tháng 10 năm 1969, Về tổ chức và lãnh đạo các Ban Tài chính thương nghiệp các cấp*, signed for the Secretariat by Trần Xuân Bách, chief of its office. [[w.van-kien-dang-toan]], XXX, 337–38. Made public: 2004.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1969-10-06.china-leadership-2
+    when: Oct. 6
+    date: '1969-10-06'
+    time: 1969-10-05T17:00Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the Tanzanian friendship delegation led by the minister of state in the president's office (基苏莫) in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 6, 1969; 1 a.m., Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: 357eefea
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-06.china-leadership-3
+    when: Oct. 6
+    date: '1969-10-06'
+    time: 1969-10-06T14:15Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the delegation of the Democratic Party of Guinea led by Politburo member and interior minister 迪亚内 in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 6, 1969; 10:15 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: d45572b9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-07.china-leadership
     when: Oct. 7
     date: '1969-10-07'
@@ -154,27 +456,66 @@ entries:
   - id: cal.1969-10-07.china-leadership-2
     when: Oct. 7, 8
     date: '1969-10-07'
+    time: 1969-10-07T07:00Z
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou Enlai holds talks with Nguyễn Hữu Thọ. On Oct. 8 he cites the ultra-left currents and acts of the summer of 1967 in China, saying that ultra-left policy is used by bad people.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 320 (Oct. 7, 1969). Made public: 2020. Names: Zhou Enlai, Nguyễn Hữu Thọ.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 320 (Oct. 7, 1969); [[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 7, 1969; 3 p.m., Great Hall of the People, the second talks with Nguyễn Hữu Thọ). Made public: 2020. Names: Zhou Enlai, Nguyễn Hữu Thọ.'
+    src:
+      c: c18bac7f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 320: ?'
+        - 'w.zhou-enlai-waijiao-huodong 544: A'
     tags: [polity:prc, polity:drv, polity:nlf, name:zhou-enlai, name:nguyen-huu-tho, vis:only:prc+drv+nlf]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-08.china-leadership
     when: Oct. 8
     date: '1969-10-08'
+    time: 1969-10-07T17:45Z
     thread: china-leadership
     also: [africa, china]
     c: Zhou Enlai holds a talk alone with Congo (Brazzaville)'s Prime Minister Raoul. On Oct. 10 the two governments sign an agreement on economic and technical cooperation.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 320 (Oct. 8, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 320 (Oct. 8, 1969); [[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 8, 1969; 1:45 a.m., Fujian Hall, Great Hall of the People); [[w.zhou-enlai-waijiao-huodong]], 544–45 (Oct. 10, 1969; morning, Zhou and Raoul sign, each for his government, the agreement on economic and technical cooperation between China and the Congo (Brazzaville)). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: d475d5e6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 320: ?'
+        - 'w.zhou-enlai-waijiao-huodong 544: A'
+        - 'w.zhou-enlai-waijiao-huodong 544–45: B'
     tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai, vis:only:prc+congo-brazzaville]
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-08.china-leadership-2
+    when: Oct. 8
+    date: '1969-10-08'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou gives a banquet in the Great Hall of the People welcoming the delegation of the National Liberation Front and the Provisional Revolutionary Government of South Vietnam under Nguyễn Hữu Thọ on its friendly visit to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 8, 1969; evening; Great Hall of the People). Names: Zhou Enlai, Nguyễn Hữu Thọ.'
+    src:
+      c: d4021115
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 544: all'
+    tags: [polity:prc, name:zhou-enlai, name:nguyen-huu-tho]
+    time_range:
+      - 1969-10-08T11:00Z
+      - 1969-10-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-09.china-leadership
     when: Oct. 9
     date: '1969-10-09'
+    time: 1969-10-09T07:15Z
     thread: china-leadership
     also: [europe-and-the-alliance, china]
     c: Zhou Enlai holds talks with Toska, Politburo member of the Albanian Party of Labor and vice-chairman of its Council of Ministers, who leads the Albanian Party and government delegation.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 321 (Oct. 9, 1969). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 321 (Oct. 9, 1969); [[w.zhou-enlai-waijiao-huodong]], 544 (Oct. 9, 1969; 3:15 p.m., Fujian Hall, Great Hall of the People). Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: fc5dddb5
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 321: ?'
+        - 'w.zhou-enlai-waijiao-huodong 544: A'
     tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-10.china-leadership
     when: Oct. 10
     date: '1969-10-10'
@@ -183,6 +524,39 @@ entries:
     c: 'Zhou Enlai, after watching a sports display at the Capital Gymnasium, talks with the heads of the Sports Commission''s military control commission and the Physical Culture Institute''s PLA propaganda team and asks in detail about the athletes'' thinking, training and life. Of those who call taking part in international matches "carrying the sedan chair for imperialists, revisionists and reactionaries", "capitulationism" and "national betrayal", and the athletes who won honor for the country "seedlings of revisionism": "this is glory for the motherland! they do not want patriotism, we still do!" Of the athletes struck in the Cultural Revolution: most famous ones were locked up, like model workers; they are to stand the test; the great majority are good, bred by Mao Zedong Thought; "we must not negate ourselves." Sports dress is to be reformed: one cannot wear Mao''s badge or carry his quotations while exercising; rules are not all to be negated, some cut, some reformed, some developed. On Oct. 23 he asks again about the study and training of Li Furong and other athletes and says training is to be pressed and technique restored.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 321 (Oct. 10, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-10-10.china-leadership-2
+    when: Oct. 10
+    date: '1969-10-10'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou goes to the airport to see off the Congo (Brazzaville) government delegation under Prime Minister Raoul, leaving for a visit to south China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 10, 1969; afternoon; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: c90b1a00
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 545: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-10T04:00Z
+      - 1969-10-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-10.china-leadership-3
+    when: Oct. 10
+    date: '1969-10-10'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off the Albanian party and government delegation under Vice Chairman Toska, leaving Peking.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 10, 1969; afternoon; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: 76dbe4d2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 545: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-10T04:00Z
+      - 1969-10-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-11.china-leadership
     when: Oct. 11
     date: '1969-10-11'
@@ -252,6 +626,20 @@ entries:
     c: Zhou Enlai visits Soong Ching-ling.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 322 (Oct. 15, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-10-15.china-leadership-3
+    when: Oct. 15
+    date: '1969-10-15'
+    time: 1969-10-15T12:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou attends the informal banquet given by Nguyễn Hữu Thọ, chairman of the National Liberation Front of South Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 15, 1969; 8 p.m., Beijing). Names: Zhou Enlai, Nguyễn Hữu Thọ.'
+    src:
+      c: 571c09fd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 545: all'
+    tags: [polity:prc, name:zhou-enlai, name:nguyen-huu-tho]
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-16.china-leadership
     when: Oct. 16
     date: '1969-10-16'
@@ -260,6 +648,39 @@ entries:
     c: Zhou Enlai, on the Foreign Ministry's request of Sept. 26 on preparing the foreign affairs archives for war, notes "agreed in principle" and gives specific views on the handing over and storing of the several kinds of archives.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 322 (Oct. 16, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-10-16.china-leadership-2
+    when: Oct. 16
+    date: '1969-10-16'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou goes to the airport to see off the delegation of the Front and the Provisional Revolutionary Government under Nguyễn Hữu Thọ, leaving for a visit to south China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 16, 1969; morning; Beijing airport). Names: Zhou Enlai, Nguyễn Hữu Thọ.'
+    src:
+      c: 3689824f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 545: all'
+    tags: [polity:prc, name:zhou-enlai, name:nguyen-huu-tho]
+    time_range:
+      - 1969-10-15T22:00Z
+      - 1969-10-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-10-16.china-leadership-3
+    when: Oct. 16
+    date: '1969-10-16'
+    thread: china-leadership
+    c: Zhou receives a member of the editorial board of *The Party's Road*, the theoretical journal of the Albanian Party of Labor, and the Albanian journalists' delegation he leads.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 16, 1969; evening; Beijing). The book names the editor 莱茨. Names: Zhou Enlai.'
+    src:
+      c: 6f7adacd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 545: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-16T11:00Z
+      - 1969-10-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-17.china-leadership
     when: Oct. 17
     date: '1969-10-17'
@@ -337,7 +758,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai meets Snow and his wife.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 323 (Oct. 19, 1969). Made public: 2020. The nianpu files the meeting under 1969; Snow''s visit to China is elsewhere dated August 1970 to February 1971 (a lead, not read), which would put it outside the span. Names: Zhou Enlai. Check: the year.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 323 (Oct. 19, 1969); [[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 19, 1969; evening; Edgar Snow and his wife). Made public: 2020. The nianpu files the meeting under 1969; Snow''s visit to China is elsewhere dated August 1970 to February 1971 (a lead, not read), which would put it outside the span. Names: Zhou Enlai. Check: the year.'
+    src:
+      c: 4be4925c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 323: ?'
+        - 'w.zhou-enlai-waijiao-huodong 545: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1969-10-20.soviet-union-leadership
     when: Oct. 20–21
@@ -382,16 +808,48 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Phạm Văn Đồng leads a Vietnamese Party and government delegation to China on Oct. 21; Zhou Enlai holds talks with him Oct. 22 and 23, and the two sides issue a communique on the talks Oct. 25.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 323–324 (Oct. 21, 1969). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 323–324 (Oct. 21, 1969); [[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 21–23, 1969; Oct. 21, 12:20 p.m., the airport welcome of the Vietnamese party and government delegation under Phạm Văn Đồng, which came on to Peking after the German Democratic Republic''s national day and a visit to the Soviet Union; Oct. 22, 5 p.m., Fujian Hall, the fourth talks; Oct. 23, 6:30 p.m., Great Hall of the People, the fifth, and a welcoming banquet for Đồng''s visit). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: deb6e012
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 323–324: ?'
+        - 'w.zhou-enlai-waijiao-huodong 545: B'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+  - id: cal.1969-10-22.china-leadership
+    when: Oct. 22
+    date: '1969-10-22'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the Ceylon government trade delegation led by the minister of commerce and trade.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 22, 1969; the book gives no hour; Beijing). The book names the minister 费尔南多. Names: Zhou Enlai.'
+    src:
+      c: 79082a14
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 545: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1969-10-22T04:00Z
+      - 1969-10-22T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1969-10-23.china-leadership
     when: Oct. 23
     date: '1969-10-23'
     thread: china-leadership
     also: [latin-america-dominican-republic, china]
-    c: 'Zhou Enlai receives Juan Bosch, former president of the Dominican Republic and former leader of its Revolutionary Party, and Aristy, a leader of the Dominican "Movement of April 24": revolution always goes through successes and failures; failure is the mother of success; people must go through some failures to advance, and experience of both success and failure is complete experience.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 324 (Oct. 23, 1969). Made public: 2020. Names: Zhou Enlai, Juan Bosch. Check: Aristy''s given name.'
+    c: 'Zhou Enlai receives Juan Bosch, former president of the Dominican Republic and former leader of its Revolutionary Party, and Aristy, a leader of the Dominican "Movement of April 24": revolution always goes through successes and failures; failure is the mother of success; people must go through some failures to advance, and experience of both success and failure is complete experience. Bosch says that passing through Moscow from Paris on a Soviet plane they saw Soviet society to be a class society; Zhou calls it a great discovery, which many so-called Marxist-Leninists will not admit.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 324 (Oct. 23, 1969); [[w.zhou-enlai-waijiao-huodong]], 545 (Oct. 21, 1969; Fujian Hall, Great Hall of the People; the book names the April 24 leader 阿里斯蒂德). Made public: 2020. Names: Zhou Enlai, Juan Bosch. Check: Aristy''s given name.'
+    src:
+      c: 25d91155
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 324: ?'
+        - 'w.zhou-enlai-waijiao-huodong 545: A-C, D-E'
     tags: [polity:prc, polity:dominican-republic, name:zhou-enlai, name:bosch-juan, vis:only:prc+dominican-republic]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: The book dates Zhou's meeting with Juan Bosch, former president of the Dominican Republic, and Aristides (阿里斯蒂德), leader of the Dominican April 24 movement, in the Fujian Hall of the Great Hall of the People to Oct. 21
+        at: '545'
   - id: cal.1969-10-23.china-leadership-2
     when: Oct. 23
     date: '1969-10-23'

@@ -315,12 +315,13 @@ entries:
     thread: china-leadership
     also: [south-asia, china]
     c: Zhou Enlai takes King Mahendra and the Queen to the Summer Palace; next day with Zhang Wenjin and China's Ambassador to Nepal, Zhang Shijie, on the Sino-Nepalese boundary treaty.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 3, 1961); [[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 3, 1961; 上午, 游颐和园, 并在听鹂馆共进午餐). Names: Zhou Enlai, Mahendra.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 3, 1961); [[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 3, 1961; 上午, 游颐和园, 并在听鹂馆共进午餐); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (the Sino-Nepalese boundary treaty signed in October). Names: Zhou Enlai, Mahendra.'
     src:
       c: 7283fa8f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
         - 'w.zhou-enlai-waijiao-huodong 323: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 453: B'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
     time_range:
       - 1961-10-02T22:00Z
@@ -667,6 +668,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 323: all'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
     time_zone: Asia/Shanghai
+  - id: cal.1961-10-05.china-leadership-6
+    when: Oct. 5
+    date: '1961-10-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. A meeting, Deng Xiaoping presiding, discusses and revises Zhou Enlai's address to the Twenty-second Congress; Mao settles the text.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 469 ("on Oct. 5", Deng presiding). Made public: 1999. See [[cal.1961-09-20.china-leadership-5]]. Names: Deng Xiaoping, Zhou Enlai, Mao Zedong. Check: whether this is the Secretariat of that day ([[cal.1961-10-05.china-leadership-3]]); Wu names no body.'
+    src:
+      c: defaad5b
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 469: all'
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-10-06.berlin-and-vienna
     when: Oct. 6
     date: '1961-10-06'
@@ -1661,12 +1674,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai, Oct. 15–23, leads the Chinese Communist Party's delegation, at the CPSU's invitation, to the 22nd Congress at Moscow.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 15, 1961; 上午, 乘专机离京赴莫斯科). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 15, 1961; 上午, 乘专机离京赴莫斯科); [[w.lengxi-shinian-lunzhan-1956-1966]], 469 (the delegation left Peking by air on the 15th for Moscow; Khrushchev met Zhou at the airport himself and went with him to the villa, talking and laughing on the way). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: bcd5f87c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 440: ?'
         - 'w.zhou-enlai-waijiao-huodong 325: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 469: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
     time_range:
       - 1961-10-14T22:00Z
@@ -1971,7 +1985,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhongnanhai, Mao''s house by the pool. Mao, Liu Shaoqi, Deng Xiaoping and Yang Shangkun on the passage the delegation would add to Zhou Enlai''s greetings to the Twenty-second Congress, against Khrushchev''s open attack on the Albanian party in his report: Mao agrees.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 18, 1961. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Yang Shangkun, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 18, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 471–472 (after Khrushchev''s report, the delegation cabled Peking; Liu Shaoqi convened the Politburo, which decided to add to Zhou''s address a passage against the open attack on Albania; Wu drafted it; the Center amended it and Mao approved). Made public: 2013. Check: Wu (471–472) has Liu Shaoqi convene the Politburo, which decided on the passage, with Mao approving the text after; this entry has Mao''s meeting with Liu, Deng and Yang. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Yang Shangkun, Zhou Enlai, Khrushchev.'
+    src:
+      c: 4fb287bd
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 18, 1961: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 471–472: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-10-19.mississippi
     when: Oct. 19
@@ -2042,12 +2061,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: At the Congress Zhou Enlai speaks and reads the greeting signed by Mao. The unity of the socialist camp and the world communist movement is a communists' internationalist duty; disputes between brother parties to be settled patiently on equality and consultation; one-sided charges against any brother party do not help, and exposing disputes before the enemy only pains friends and pleases foes. China hopes parties in dispute unite again on Marxism–Leninism and mutual respect of independence and equality.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 19, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 19, 1961; 下午, 苏共第二十二次代表大会). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 19, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 19, 1961; 下午, 苏共第二十二次代表大会); [[w.lengxi-shinian-lunzhan-1956-1966]], 472 (the added passage, as Wu gives it: disputes between brother parties to be settled patiently, in the spirit of proletarian internationalism, equality and consultation; public one-sided charges against any brother party do not help unity or a settlement; to show disputes to the enemy is not serious Marxist-Leninist conduct; the speech of the 19th, not naming Khrushchev). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: 772628c4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 440: ?'
         - 'w.zhou-enlai-waijiao-huodong 325: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 472: C, D, E'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1961-10-19T09:00Z
@@ -2104,8 +2124,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Huairen Tang. The enlarged Politburo, the Central Committee members in Peking, Liu Shaoqi presiding: the open attack on Albania aimed at China. Deng Xiaoping reports: not foreseen; the delegation''s greetings answered it (open, one-sided charges against a brother party no help to unity).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1961. Made public: 2013. Names: Liu Shaoqi, Deng Xiaoping, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 475–478 (Liu''s meeting of Oct. 20 on a conference of brother parties, should Khrushchev ask one; Liu had settled the line with Mao by telephone: resist, never attend; Deng: since the 81-party meeting the CPSU, bound a little by the Statement, calmer in public, not within; before the Congress unnamed attacks on China as expositions of the Programme; Albania attacked for backing China at Bucharest and Moscow, the chicken killed to scare the monkey; another argument unavoidable, in theory first; no conference without Albania; the mass organizations of Asia, Africa and Latin America kept; Liu''s four cases: Albania absent, China absent; Albania and China asked, Sino-Soviet talks first; no agreement in preparing it, oppose it and stay away; held anyway with twenty or thirty parties, stay away and issue a statement; Zhou''s address in answer to Khrushchev needed and measured; the result cabled to the delegation at Moscow). Made public: 2013. Names: Liu Shaoqi, Deng Xiaoping, Mao Zedong.'
+    src:
+      c: 6f669e17
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 20, 1961: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 475–478: B, C, D'
     tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: a small meeting Liu Shaoqi called, on a conference of brother parties should Khrushchev propose one
+        at: '475'
   - id: cal.1961-10-21.defense
     when: Oct. 21
     date: '1961-10-21'
@@ -2195,14 +2225,20 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai and the Chinese delegation talk over nine hours with the CPSU Presidium's Khrushchev, Kozlov, Mikoyan, Andropov and others, setting out the Chinese Party's position on Soviet–Albanian relations, the 20th Congress, the appraisal of Stalin and the anti-Party group.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午2时, 莫斯科郊外苏联政府别墅, 午餐); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午4时30分, 至晚11时, 与赫鲁晓夫为首的苏共领导人会谈, 并共进晚餐). Made public: 1997. Names: Zhou Enlai, Khrushchev, Kozlov, Mikoyan, Andropov.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午2时, 莫斯科郊外苏联政府别墅, 午餐); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午4时30分, 至晚11时, 与赫鲁晓夫为首的苏共领导人会谈, 并共进晚餐); [[w.lengxi-shinian-lunzhan-1956-1966]], 473–474 (Zhou rebukes Khrushchev for the open attack on Albania in his report, and its steps: the Warsaw Treaty resolution of March, the Vlora withdrawal of May, the refusal of the Albanian delegate in August; Mao''s talks on Stalin with Mikoyan in April 1956 and Yudin in October and November 1956, Liu''s and Zhou''s with Khrushchev in October–December 1956, the two *Renmin ribao* articles; Khrushchev refuses, says China backs the anti-party group, he will back the anti-party in the Chinese Party, "now we are strong, we go our own way"; no conference of brother parties raised). Made public: 1997. Names: Zhou Enlai, Khrushchev, Kozlov, Mikoyan, Andropov.'
     src:
       c: c911c3ac
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
         - 'w.zhou-enlai-waijiao-huodong 326: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 473–474: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s, name:kozlov-frol-r, name:mikoyan-anastas, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
     time_zone: Europe/Moscow
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: 'the talks of the 22nd: the Chinese Zhou Enlai, Peng Zhen and the rest of the delegation; the Soviet Khrushchev, Mikoyan, Suslov and Brezhnev; no mention of Kozlov or Andropov'
+        at: '473'
   - id: cal.1961-10-23.cuba
     when: Oct. 23
     date: '1961-10-23'
@@ -2385,7 +2421,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao, Liu Shaoqi, Zhu De and Deng Xiaoping meet Zhou Enlai at the airport, back from Moscow; at the Yinian Tang the Politburo and the Secretariat in Peking hear him on the Twenty-second Congress and the delegation's talk with Khrushchev and others, Oct. 22. The Albanian statement to be printed.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 22, 1961 (the nine-hour talk of Oct. 22). [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 24, 1961 (Zhou met at the airport). [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 24, 1961; 中午, 回到北京; Mao Zedong, Liu Shaoqi, Zhu De and Deng Xiaoping at the airport). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 22, 1961 (the nine-hour talk of Oct. 22). [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 24, 1961 (Zhou met at the airport). [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 24, 1961; 中午, 回到北京; Mao Zedong, Liu Shaoqi, Zhu De and Deng Xiaoping at the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 478 (Mao, with Zhou, Liu and Deng, to the Yinian Tang for Zhou''s account of the talks with Khrushchev; Zhou: at the Congress over forty delegation heads followed Khrushchev against Albania, thirty-two did not; Khrushchev refused China''s criticism, but without strength; Wu was not at the meeting). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Zhou Enlai, Khrushchev.'
     src:
       c: c4641f8c
       rows:
@@ -2393,6 +2429,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 441, Oct. 22, 1961: B'
         - 'w.zhou-enlai-nianpu-1949 II, 441, Oct. 24, 1961: A'
         - 'w.zhou-enlai-waijiao-huodong 326: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 478: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
     time_range:
       - 1961-10-24T04:00Z
@@ -2455,7 +2492,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai talks with Wu Lengxi. On the 26th *Renmin ribao* prints documents from *Pravda* and from Albania's papers on Soviet–Albanian relations at the Congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 25, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 25, 1961); [[w.lengxi-shinian-lunzhan-1956-1966]], 478–479 (Zhou, in his office, tells Wu of the plan settled at the Yinian Tang: *Renmin ribao* to print together the Soviet and Albanian papers'' documents on Soviet–Albanian relations at the Congress; Wu does so). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 141e45cd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 478–479: A, B'
     tags: [polity:prc, polity:ussr, polity:albania, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-10-26.europe-and-the-alliance-turkey
     when: Oct. 26
@@ -2901,7 +2943,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Diaoyutai, Building 12. The Standing Committee, Mao presiding, on the delegation''s request: to the congress''s open charges against Albania a silent protest, no articles; the regional first secretaries to meet Nov. 4.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 30, 1961. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 30, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 480 (Peng Zhen, acting head of the delegation, home Oct. 30, reports to the Standing Committee; some analysis of the Congress, no detailed talk, the Center being busy preparing the Central Work Conference). Made public: 2013. Names: Mao Zedong.'
+    src:
+      c: 3b51240f
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 30, 1961: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 480: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-10-30.china-leadership-2
     when: Oct. 30
@@ -3304,3 +3351,16 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 217 n.37a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 217 n.37b: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-10.china-leadership-5
+    when: Oct., around National Day
+    date: 1961-10
+    at: before 1961-10-11
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. Mao, back from Wuchang, where he received Montgomery, talks with the Standing Committee many times about the CPSU's Twenty-second Congress, around National Day, mostly before and after he receives foreign guests.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 469 ("on the eve of National Day" he met Montgomery at Wuchang and returned to Peking; "before and after the holiday"). Made public: 1999. See [[cal.1961-10-05.china-leadership-6]]. See [[cal.1961-09-23.china-leadership]]. Names: Mao Zedong, Montgomery. Check: the days; Wu gives none beyond "around the holiday".'
+    src:
+      c: 12cbc995
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 469: all'
+    tags: [polity:prc, name:mao-zedong, name:montgomery-of-alamein-bernard-l, vis:only:prc]
