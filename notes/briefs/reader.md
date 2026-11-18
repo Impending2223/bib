@@ -89,13 +89,14 @@ Nothing else is passed over, and no class of event in a blanket (R48).
   - *The words*, in `n`, in the source's words and with its page: every clock time ("10 p.m."); every part of the day ("morning", "that evening", "late at night"; 上午, 下午, 晚上, 夜, 凌晨; "в ночь"); every occasion that places it ("at lunch", "after dinner", "at the banquet", "before the session opened"); every sequence ("afterward", "then", "the next morning"). Kept even where a field is also set.
   - *The place*: where the act happened, in `c` or `n`: the city at least, the building where the source gives it. For a call, cable or letter, each end, and whose clock the source's time is ("10 p.m. Hanoi time"); for a time the source gives in another place's clock, that clock.
   - *The fields*: an hour → `time:` (UTC, a full ISO instant), turned from the local time by the place's IANA zone with Python's `zoneinfo` (its history, not today's offset: Asia/Shanghai, Asia/Ho_Chi_Minh, Europe/Moscow, America/New_York), with `time_zone:` the zone used and `time_approx: true` where the hour is loose ("about 7"). A part of the day with no hour → `time_range:` from `band_range` (`tools/bib/dayorder.py`, BANDS), with `time_band:` and `time_zone:`. A sequence → `follows: [id]` on the later entry, its basis in a few words. No hour and no cue: no field; never one inferred from the kind of event (that is the build's, `range_basis: kind`).
+  - *An entry of several days* takes its first act's time, and its note says so: "The time is the first day's." (the owner, Nov. 18, 2026: "Long meetings: first act's time, but the entry's text or citation block should make that clear.")
 - every figure the source gives, with its page: votes, whip and head counts, dollars, troops, polls, tons, sorties, losses, strength.
 
 ## D. Citing
 
 **R26. The order of `n`.** The primary record, read and linked; the works read, each with its pinpoint and, where it stands for part, its parenthetical; "Made public:"; "To check:"; "See [[id]]"; "Names:".
 
-**R27. Made public.** An event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI file, a Politburo resolution) is dated by the record, and the note says where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." ("Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973, 640–645.")
+**R27. Made public.** An event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI file, a Politburo resolution) is dated by the record, and the note says where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." ("Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973, 640–645.") The year is the earliest at which any work cited for the act printed it (a chronology of 1993 before a chronology of 1997 that prints the same talk), not the year of the work the entry was first read from (the owner, Nov. 18, 2026: "Fix the 1993/1997 error").
 
 **R28. The primary record.** Cite it first, linked, in the series' forms:
 - the statute, "[77 Stat. 56](…)"; the session laws; a treaty by U.S.T. and U.N.T.S.;
