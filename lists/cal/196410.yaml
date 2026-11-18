@@ -331,6 +331,17 @@ entries:
       - 1964-10-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-01.china-leadership-7
+    when: Oct. 1
+    date: '1964-10-01'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 speaks at the ceremony for the fifteenth anniversary of the People''s Republic: shortcomings, errors and difficulties in every field; no arrogance; never great-power chauvinism; equality of big and small parties.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 369–371 (Oct. 1, 1964; note 1: printed in *Renmin ribao* Oct. 2, 1964). Names: Peng Zhen. Check: the day and place of the speech; the note gives the ceremony and the printing of Oct. 2.'
+    src:
+      c: 88d21ac2
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 369–371: all'
+    tags: [polity:prc, name:peng-zhen]
   - id: cal.1964-10-02.elections-1964
     when: Oct. 2
     date: '1964-10-02'
@@ -1398,6 +1409,17 @@ entries:
       - 1964-10-06T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-06.china-leadership-6
+    when: Oct. 6
+    date: '1964-10-06'
+    thread: china-leadership
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Ulbricht, Stoph, Dieckmann and Correns on the fifteenth anniversary of the German Democratic Republic: China supports the GDR against West German militarism and revanchism and for a German peace treaty.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 377–379 (Oct. 6, 1964; printed from *Renmin ribao*, Oct. 7, 1964). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Ulbricht, Stoph, Dieckmann, Correns.'
+    src:
+      c: 6bd37690
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 377–379: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, polity:gdr]
   - id: cal.1964-10-07.foreign-aid
     when: Oct. 7
     date: '1964-10-07'
@@ -1950,7 +1972,12 @@ entries:
     date: '1964-10-10'
     thread: china-leadership
     c: 'Zhou, on Li Jingquan and Lü Zhengcao''s report on routing the Sichuan–Hubei railway, drawn up on Mao''s and the Central Committee''s order to stop the Hunan–Guizhou line and build the Sichuan–Hubei (Li, Yuan, Qing river plans): agrees with the report''s "planning revolution" and Bo Yibo''s note that both routes must have the same surveys and designs before choice, not one fixed beforehand. Asks for a map of the underground resources along the first route, from the geology and metallurgy ministries.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 10, 1964). Made public: 1997. Names: Zhou Enlai, Li Jingquan, Lü Zhengcao, Bo Yibo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 10, 1964); [[w.jianguo-yilai-mao-zedong]], XVII, 380–382 (Oct. 1964; note 1 gives Zhou''s note on the resources, undated). Made public: 1997. Names: Zhou Enlai, Li Jingquan, Lü Zhengcao, Bo Yibo.'
+    src:
+      c: 3d03b159
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 674: ?'
+        - 'w.jianguo-yilai-mao-zedong XVII, 380–382: B'
     tags: [name:zhou-enlai, name:li-jingquan, name:bo-yibo, polity:prc, vis:only:prc]
   - id: cal.1964-10-10.china-leadership-2
     when: Oct. 10
@@ -2505,6 +2532,19 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 828: all'
     tags: [polity:prc]
+  - id: cal.1964-10-13.china-leadership-4
+    when: Oct. 13
+    date: '1964-10-13'
+    thread: china-leadership
+    also: [africa]
+    c: 'Mao, on the Foreign Ministry''s request of Sept. 10 with a draft reply in his name to Ben Bella 本·贝拉: bureaucratic tone, unusable; Ben Bella has written a second time; the ministry to draft again, for Mao to revise.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 383–386 (Oct. 13, 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Foreign Ministry, request of Sept. 10, 1964 proposing a reply to Ben Bella in Mao''s name, with a draft (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 386 n.1b). Names: Mao Zedong, Ben Bella. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 6ec8cb2b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 383–386: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 386 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:ben-bella-ahmed, vis:only:prc]
   - id: cal.1964-10-14.elections-1964
     when: Oct. 14
     date: '1964-10-14'
@@ -2937,12 +2977,14 @@ entries:
     date: '1964-10-15'
     thread: china-leadership
     c: The Jiangsu provincial committee wires Liu Shaoqi a self-criticism by Jiang Weiqing.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 414. Made public: 1986. To check: Liu Shaoqi, letter to Jiang Weiqing, 1964, in [[w.zhonggong-dangshi-jiaoxue-cankao]], 24, 504, 505 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 414 n.80a). See [[cal.1964-09-08.china-leadership]]. Names: Liu Shaoqi. Check: whether [[w.zhonggong-dangshi-jiaoxue-cankao]] was printed for internal circulation (the book finds a document it prints not openly available in China, III, 400 n.10); if so, it is no Made public date.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 414; [[w.jianguo-yilai-mao-zedong]], XVII, 363–366 (Oct. 15, 1964; note 1: the Jiangsu committee reports to the Center and the East China Bureau on printing Liu''s letter of Sept. 30 to Jiang Weiqing; Jiang accepts the criticism, will examine his errors, asks the standing committee to criticize him; the province''s committees to study the letter). Made public: 1986. To check: Liu Shaoqi, letter to Jiang Weiqing, 1964, in [[w.zhonggong-dangshi-jiaoxue-cankao]], 24, 504, 505 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 414 n.80a); Jiangsu provincial committee to the Center and the East China Bureau, "Report on printing Comrade Liu Shaoqi''s letter to Comrade Jiang Weiqing," Oct. 15, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 365 n.1a). See [[cal.1964-09-08.china-leadership]]. Names: Liu Shaoqi. Check: whether [[w.zhonggong-dangshi-jiaoxue-cankao]] was printed for internal circulation (the book finds a document it prints not openly available in China, III, 400 n.10); if so, it is no Made public date.'
     src:
       c: 1839671b
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 414: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 414 n.80a: all'
+        - 'w.jianguo-yilai-mao-zedong XVII, 363–366: A'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 365 n.1a: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-10-16.testing
     when: Oct. 16
@@ -2952,7 +2994,7 @@ entries:
     thread: testing
     also: [china]
     c: 'China explodes its first atomic device, on a tower at Lop Nur, Sinkiang, about 3 a.m. Eastern time. Johnson: "no surprise"; its military significance "should not be overestimated"; the commitments in Asia stand. On Sept. 15 Rusk, McNamara and Bundy, with Johnson''s approval, had ruled out "unprovoked unilateral" action against China''s nuclear plants.'
-    n: 'Statement by the President on the First Chinese Nuclear Device, [1963–64 Pub. Papers 1357](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=597) (Oct. 16, 1964). FRUS 1964–68, XXX, docs. [49](https://history.state.gov/historicaldocuments/frus1964-68v30/d49), [57](https://history.state.gov/historicaldocuments/frus1964-68v30/d57). [[w.poole-joint-chiefs-of-staff]], 283 (the device; Sept. 15); [[w.schwartz-lyndon-johnson-and-europe]], 43 (the Chinese nuclear test of October 1964; not the day, the place or the hour; Johnson''s warning against "the fearful possibility of nuclear spread" is not in the entry); [[w.zedong-mao-zedong-nianpu]], V, Oct. 16, 1964 (the test, 3 p.m. Beijing time; the government''s statement that day). [[w.zhou-enlai-nianpu-1949]], II, 676 (Oct. 16, 1964: China''s first atomic bomb exploded successfully in the west at 3 p.m.); [[w.macfarquhar-origins-of-the-cultural]], III, 366 (the first Chinese nuclear device exploded the day Khrushchev fell). Check: Schwartz, 43, says the test led Johnson to warn against "the fearful possibility of nuclear spread"; n.149 cites *Time*, Sept. 25, 1964, 17, which is before the test. To check: [[w.burr-whether-to-strangle-the]]; [[w.xiuquan-huiyi-yu-huainian]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 366 n.109). See [[cal.1963-10-07.testing]]. Names: Johnson, Rusk, McGeorge Bundy, McNamara.'
+    n: 'Statement by the President on the First Chinese Nuclear Device, [1963–64 Pub. Papers 1357](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=597) (Oct. 16, 1964). FRUS 1964–68, XXX, docs. [49](https://history.state.gov/historicaldocuments/frus1964-68v30/d49), [57](https://history.state.gov/historicaldocuments/frus1964-68v30/d57). [[w.poole-joint-chiefs-of-staff]], 283 (the device; Sept. 15); [[w.schwartz-lyndon-johnson-and-europe]], 43 (the Chinese nuclear test of October 1964; not the day, the place or the hour; Johnson''s warning against "the fearful possibility of nuclear spread" is not in the entry); [[w.zedong-mao-zedong-nianpu]], V, Oct. 16, 1964 (the test, 3 p.m. Beijing time; the government''s statement that day). [[w.zhou-enlai-nianpu-1949]], II, 676 (Oct. 16, 1964: China''s first atomic bomb exploded successfully in the west at 3 p.m.); [[w.macfarquhar-origins-of-the-cultural]], III, 366 (the first Chinese nuclear device exploded the day Khrushchev fell); [[w.jianguo-yilai-mao-zedong]], XVII, 360–361 (Sept. 21, 1964; note 1: exploded at 3 p.m. Oct. 16 in China''s west). Check: Schwartz, 43, says the test led Johnson to warn against "the fearful possibility of nuclear spread"; n.149 cites *Time*, Sept. 25, 1964, 17, which is before the test. To check: [[w.burr-whether-to-strangle-the]]; [[w.xiuquan-huiyi-yu-huainian]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 366 n.109). See [[cal.1963-10-07.testing]]. Names: Johnson, Rusk, McGeorge Bundy, McNamara.'
     src:
       c: bd2aada2
       rows:
@@ -2965,6 +3007,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 676: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 366: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 366 n.109: A'
+        - 'w.jianguo-yilai-mao-zedong XVII, 360–361: A'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:bundy-mcgeorge]
   - id: cal.1964-10-16.poverty
     when: Oct. 16
@@ -3120,7 +3163,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides over the Politburo Standing Committee, Zhongnanhai, the Juxiang Shuwu, 1 p.m., on Khrushchev''s fall. Mao: his fall is a sign of change, else why; the CPSU leaders will change, but not quickly nor far; to see how, then to settle countermeasures. Decisions: a joint telegram of Mao, Liu Shaoqi, Zhu De and Zhou Enlai to Brezhnev on his election as First Secretary and to Kosygin as Chairman of the Council of Ministers, sent that day; no polemical articles for the present.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 677 (Oct. 16, 1964: Zhou goes to Mao''s for a meeting or talk (also Oct. 19, 27, 29, Nov. 1 and 4)); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 367–368 (Oct. 16, 1964; the cable of Mao, Liu Shaoqi, Zhu De and Zhou to Brezhnev on his election as First Secretary of the CPSU Central Committee and to Kosygin on his appointment as Chairman of the Council of Ministers); [[w.lengxi-shinian-lunzhan-1956-1966]], 833–840 (the Standing Committees almost daily from Oct. 15, Wu attending; the fall the failure of Khrushchev''s revisionist line; domestic or foreign cause unknown; farming, corn, the split of the Party; Mao: they will change, but not fast nor far; three possibilities; "watch quietly"; the telegram of the Central Committee, the NPC Standing Committee and the State Council to Brezhnev, Mikoyan and Kosygin, with one sentence of substance; no polemical articles for now). Made public: 1997. Check: Wu (833) has Mao''s Standing Committees almost daily from Oct. 15, the first not dated; his telegram (839) goes in the names of the Central Committee, the NPC Standing Committee and the State Council, to Brezhnev, Mikoyan and Kosygin. See [[cal.1964-10-16.testing]]. Names: Mao Zedong, Khrushchev, Liu Shaoqi, Zhu De, Zhou Enlai, Brezhnev, Kosygin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 677 (Oct. 16, 1964: Zhou goes to Mao''s for a meeting or talk (also Oct. 19, 27, 29, Nov. 1 and 4)); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 367–368 (Oct. 16, 1964; the cable of Mao, Liu Shaoqi, Zhu De and Zhou to Brezhnev on his election as First Secretary of the CPSU Central Committee and to Kosygin on his appointment as Chairman of the Council of Ministers); [[w.lengxi-shinian-lunzhan-1956-1966]], 833–840 (the Standing Committees almost daily from Oct. 15, Wu attending; the fall the failure of Khrushchev''s revisionist line; domestic or foreign cause unknown; farming, corn, the split of the Party; Mao: they will change, but not fast nor far; three possibilities; "watch quietly"; the telegram of the Central Committee, the NPC Standing Committee and the State Council to Brezhnev, Mikoyan and Kosygin, with one sentence of substance; no polemical articles for now); [[w.jianguo-yilai-mao-zedong]], XVII, 387–388 (Oct. 16, 1964; the telegram, "at Peking", to Brezhnev, Mikoyan and Kosygin, printed from *Renmin ribao* Oct. 17; it greets also the flight of *Voskhod*). Made public: 1997. Check: Wu (833) has Mao''s Standing Committees almost daily from Oct. 15, the first not dated; his telegram (839) goes in the names of the Central Committee, the NPC Standing Committee and the State Council, to Brezhnev, Mikoyan and Kosygin. See [[cal.1964-10-16.testing]]. Names: Mao Zedong, Khrushchev, Liu Shaoqi, Zhu De, Zhou Enlai, Brezhnev, Kosygin.'
     src:
       c: 49ea5cc5
       rows:
@@ -3128,6 +3171,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 677: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 367–368: E'
         - 'w.lengxi-shinian-lunzhan-1956-1966 833–840: B, C, D, F'
+        - 'w.jianguo-yilai-mao-zedong XVII, 387–388: E'
     tags: [name:mao-zedong, name:khrushchev-nikita-s, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:brezhnev-leonid, name:kosygin-aleksei, polity:prc, vis:only:prc]
   - id: cal.1964-10-16.china-leadership-2
     when: Oct. 16
@@ -3415,7 +3459,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Mao revises Liu Shaoqi's letter to Jiang Weiqing once more.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605 (Oct. 18, 1964). Made public: 1996. See [[cal.1964-09-30.china-leadership-6]]. Names: Liu Shaoqi, Mao Zedong.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605 (Oct. 18, 1964); [[w.jianguo-yilai-mao-zedong]], XVII, 363–366 (Oct. 18, 1964; Mao''s note of Oct. 18 to Liu on the Center''s draft instruction of Oct. 16, and his rewriting of the two clauses on p. 8: to know objective truth is to make it subjective truth, then back to practice). Made public: 1996. See [[cal.1964-09-30.china-leadership-6]]. Names: Liu Shaoqi, Mao Zedong.'
+    src:
+      c: 5e6b83aa
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 605: ?'
+        - 'w.jianguo-yilai-mao-zedong XVII, 363–366: A'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
   - id: cal.1964-10-18.china-leadership-6
     when: Oct. 18
@@ -3437,6 +3486,33 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 840: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-10-18.china-leadership-8
+    when: Oct. 18
+    date: '1964-10-18'
+    thread: china-leadership
+    also: [africa]
+    c: 'Mao, on the translation of Ben Bella''s second letter: one reply to both letters, in warm, lively words, not the style of the draft; Qiao Guanhua 乔冠华 to draft it? Every letter should be answered; Pridi Banomyong''s 比里·帕侬荣 greetings on National Day too.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 383–386 (Oct. 18, 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Pridi Banomyong to Mao Zedong, greetings on the fifteenth anniversary of the People''s Republic, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 386 n.2). Names: Mao Zedong, Ben Bella, Qiao Guanhua, Pridi. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 3ddea265
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 383–386: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 386 n.2: all'
+    tags: [polity:prc, name:mao-zedong, name:ben-bella-ahmed, vis:only:prc]
+  - id: cal.1964-10-18.china-leadership-9
+    when: Oct. 18
+    date: '1964-10-18'
+    thread: china-leadership
+    c: 'Liu Shaoqi 刘少奇 to Mao, Zhou Enlai, Zhu De 朱德, Deng Xiaoping 邓小平, Peng Zhen 彭真 and others, sending papers of the Public Security Ministry and the Northwest Bureau on retaliation against poor peasant activists: not to wait; inspection teams from the Center and provinces; guilty Party cadres dismissed and expelled, grave cases arrested, a few with great popular anger sentenced to death; the double ten points'' 2 percent limit on punishment may no longer serve. He asks Mao to call the Standing Committee.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 390–391 (Oct. 18, 1964; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Liu Shaoqi to Mao Zedong, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen and others, letter of Oct. 18, 1964 on dealing sternly with retaliation in the villages (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 390 n.1a); Public Security Ministry, paper on retaliation against poor and lower-middle peasant activists, sent by Liu Shaoqi Oct. 18, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 390 n.1b); Northwest Bureau, paper on retaliation against poor and lower-middle peasant activists, sent by Liu Shaoqi Oct. 18, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 390 n.1c). Names: Liu Shaoqi, Mao Zedong, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    src:
+      c: 70aa471b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 390–391: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 390 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 390 n.1b: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 390 n.1c: all'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1964-10-19.goldwater
     when: Oct. 19
     date: '1964-10-19'
@@ -3673,7 +3749,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: The Central Committee issues its "Instruction on earnestly discussing Comrade Liu Shaoqi's letter in reply to Comrade Jiang Weiqing," and sends the letter as a Central Committee document to the Party committees of counties and regiments across the country.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605 (Oct. 20, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 414 (Liu has his letter and the Jiangsu telegram sent down to the county level; the note of transmittal says the Center approves the letter''s tone). Made public: 1996. Check: whether the Jiangsu telegram of Oct. 15 went out with the letter; the book says both did (III, 414). To check: the Instruction of Oct. 20, 1964 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605); Liu Shaoqi, letter to Jiang Weiqing, 1964, in [[w.zhonggong-dangshi-jiaoxue-cankao]], 24, 504, 505 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 414 n.80a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 168–71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 414 n.80b). See [[cal.1964-10-18.china-leadership-5]]. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605 (Oct. 20, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 414 (Liu has his letter and the Jiangsu telegram sent down to the county level; the note of transmittal says the Center approves the letter''s tone); [[w.jianguo-yilai-mao-zedong]], XVII, 363–366 (Oct. 18, 1964; note 1: issued Oct. 20 with Liu''s letter, Jiang''s letter and the Jiangsu report). Made public: 1996. Check: whether the Jiangsu telegram of Oct. 15 went out with the letter; the book says both did (III, 414). To check: the Instruction of Oct. 20, 1964 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 605); Liu Shaoqi, letter to Jiang Weiqing, 1964, in [[w.zhonggong-dangshi-jiaoxue-cankao]], 24, 504, 505 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 414 n.80a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 168–71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 414 n.80b); Central Committee, draft of Oct. 16, 1964 of the "Instruction on earnestly discussing Comrade Liu Shaoqi''s letter in reply to Comrade Jiang Weiqing" (issued Oct. 20) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 364 n.1b). See [[cal.1964-10-18.china-leadership-5]]. Names: Liu Shaoqi.'
     src:
       c: '92272475'
       rows:
@@ -3681,6 +3757,8 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 414: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 414 n.80a: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 414 n.80b: A'
+        - 'w.jianguo-yilai-mao-zedong XVII, 363–366: A'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 364 n.1b: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-10-21.vietnam
     when: Oct. 21
@@ -3922,13 +4000,21 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao reads the Guangdong Party committee''s report of Oct. 18 on defense industry and third-front war preparation, and writes to Liu, Zhou, Deng, Peng and Luo Ruiqing: Guangdong has moved; send it to the front and second-line provinces to discuss their own third fronts and report; about 1.5 billion yuan nationwide over two or three years, "the cost of a long strategic question; to fail now is to regret it". Oct. 27: Lin Biao sends the report on; Mao: "great minds think alike". Nov. 3: Mao approves the Center''s instruction to all provinces.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 22, 1964. [[w.zhou-enlai-nianpu-1949]], II, 680 (Oct. 22, 1964: Mao''s note on Guangdong''s report: Zhou to have Luo Ruiqing talk it over, or Zhou, Luo, Deng and Peng together; send it to front- and second-line provinces; about 1.5 billion yuan nationally over two or three years: "not to do it now is to regret it"). Made public: 1997. To check: the Guangdong report of Oct. 18, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Oct. 22, 1964). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Luo Ruiqing, Lin Biao.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 22, 1964. [[w.zhou-enlai-nianpu-1949]], II, 680 (Oct. 22, 1964: Mao''s note on Guangdong''s report: Zhou to have Luo Ruiqing talk it over, or Zhou, Luo, Deng and Peng together; send it to front- and second-line provinces; about 1.5 billion yuan nationally over two or three years: "not to do it now is to regret it"); [[w.jianguo-yilai-mao-zedong]], XVII, 392–394 (Oct. 22 and 27, Nov. 3, 1964; note 1: the Guangdong report of Oct. 18; Mao''s note of Oct. 27 on Lin Biao''s short letter; "issue" (照发) Nov. 3 on the Center''s instruction Zhou sent Oct. 29). Made public: 1997. Check: units D–F are acts of Oct. 26–27 and Nov. 3 (XVII, 392–393), not of Oct. 22. To check: the Guangdong report of Oct. 18, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Oct. 22, 1964); Guangdong provincial committee to the Central-South Bureau and the Center, "Request on defense industry and third-front war preparation," Oct. 18, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 393 n.1a); Lin Biao to Mao Zedong, short letter of Oct. 26, 1964 proposing the Guangdong report go to every province (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 393 n.1b); Central Committee, "Instruction on strengthening rear construction and war preparation in the first and second lines," draft sent by Zhou Enlai Oct. 29, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 393 n.1c). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Luo Ruiqing, Lin Biao.'
     src:
       c: fb17792d
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 22, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 680: A, B, C'
+        - 'w.jianguo-yilai-mao-zedong XVII, 392–394: A-C, E-F'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 393 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 393 n.1c: all'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:luo-ruiqing, name:lin-biao, polity:prc, vis:only:prc]
+    variants:
+      - unit: D
+        witness: w.jianguo-yilai-mao-zedong
+        reads: Lin Biao's short letter sending the Guangdong report on is dated Oct. 26; Mao's note on it Oct. 27 (note 1)
+        at: 393 n.1b
   - id: cal.1964-10-22.china
     when: Oct. 22
     date: '1964-10-22'
@@ -4009,6 +4095,19 @@ entries:
     c: Zhou calls Nie Rongzhen and Lü Dong, minister of metallurgy, to talk.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 679 (Oct. 23, 1964). Made public: 1997. Names: Zhou Enlai, Nie Rongzhen, Lü Dong.'
     tags: [name:zhou-enlai, name:nie-rongzhen, polity:prc, vis:only:prc]
+  - id: cal.1964-10-23.china-leadership-3
+    when: Oct. 23
+    date: '1964-10-23'
+    thread: china-leadership
+    c: 'Mao on Chen Boda''s 陈伯达 letter of Oct. 20 sending two talks (his remarks of Sept. 16 at a forum on the electronics industry; his points of Oct. 7 to the Academy of Sciences'' party group on reforming research bodies): read. Into the first he writes: industry must look to the whole world, not only to the Soviet way; to see and to grasp, rightly and firmly, swift as thunder yet seeking truth from facts; Daqing the example.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 395–396 (Oct. 23, 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Chen Boda, summary of remarks at the forum on developing the electronics industry, Sept. 16, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 396 n.1a); Chen Boda, points of his talk to the Academy of Sciences party group on reforming research bodies, Oct. 7, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 396 n.1b). Names: Mao Zedong, Chen Boda. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 6811ed8c
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 395–396: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 396 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 396 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
   - id: cal.1964-10-24.vietnam
     when: Oct. 24
     date: '1964-10-24'
@@ -4143,6 +4242,33 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 409 n.56a: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 409 n.56b: A, B'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-10-24.china-leadership-4
+    when: Oct. 24
+    date: '1964-10-24'
+    time: '1964-10-24T07:00:00Z'
+    thread: china-leadership
+    also: [africa]
+    c: 'Mao settles his letter to Ben Bella 本·贝拉, on Qiao Guanhua''s 乔冠华 draft of Oct. 23, and writes at 3 p.m.: back to the Foreign Ministry, to type and bring in the afternoon for signing. The letter: glad of both letters and of the ambassador Yala, Boumaza and Ouzegane''s delegation; Algeria''s seven years'' war an example to three continents; some Algerians he met have left the revolution, which is no surprise; the democratic stage first, then socialism; Chen Yi 陈毅 to lead the delegation to the anniversary; he hopes to see Ben Bella in China.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 383–386 (Oct. 24, 1964; the note dated Oct. 24, 15:00 (十月二十四日十五时), printed from the original in the Central Archives). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Qiao Guanhua, Vice-Minister of Foreign Affairs, draft of Oct. 23, 1964 of Mao''s reply to Ben Bella (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 386 n.1c). Names: Mao Zedong, Ben Bella, Qiao Guanhua, Chen Yi, Boumaza, Ouzegane. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 1d97d9c1
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 383–386: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 386 n.1c: all'
+    tags: [polity:prc, name:mao-zedong, name:ben-bella-ahmed, name:chen-yi, polity:algeria, vis:only:prc+algeria]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-24.china-leadership-5
+    when: Oct. 24
+    date: '1964-10-24'
+    thread: china-leadership
+    c: 'Mao answers Pridi Banomyong 比里·帕侬荣, former prime minister of Thailand, thanking him for his National Day greetings: the world changes in the revolution''s favor; the Thai people will join the struggle against America, which will be driven out of Thailand. On Liao Chengzhi''s 廖承志 draft of Oct. 23: usable; print it again for his signature.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 397–398 (Oct. 24, 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Liao Chengzhi, deputy head of the State Council Foreign Affairs Office, report of Oct. 23, 1964 with a draft of Mao''s reply to Pridi (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 398 n.1). Names: Mao Zedong, Pridi, Liao Chengzhi. Check: whether the reply was printed at the time. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: f0d5166e
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 397–398: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 398 n.1: all'
+    tags: [polity:prc, name:mao-zedong, polity:thailand, vis:only:prc+thailand]
   - id: cal.1964-10-25.goldwater
     when: Oct. 25
     date: '1964-10-25'
@@ -4185,7 +4311,12 @@ entries:
     date: '1964-10-25'
     thread: china-leadership
     c: Zhou, on Mao's suggestion over the Guangdong Party committee's request on defense industry and third-front war preparation, calls the offices concerned with Luo Ruiqing; sets out how front- and second-line provinces, cities and regions should lay out their own third fronts.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 680 (Oct. 25, 1964). Made public: 1997. Names: Zhou Enlai, Luo Ruiqing.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 680 (Oct. 25, 1964); [[w.jianguo-yilai-mao-zedong]], XVII, 392–394 (Oct. 22, 1964; note 1: Zhou and Luo''s report of Oct. 29 gives the discussion of Oct. 25). Made public: 1997. Names: Zhou Enlai, Luo Ruiqing.'
+    src:
+      c: d3b8041e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 680: ?'
+        - 'w.jianguo-yilai-mao-zedong XVII, 392–394: A'
     tags: [name:zhou-enlai, name:luo-ruiqing, polity:prc, vis:only:prc]
   - id: cal.1964-10-26.elections-1964
     when: Oct. 26
@@ -4560,6 +4691,18 @@ entries:
       - 1964-10-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-10-27.china-leadership-4
+    when: Oct. 27
+    date: '1964-10-27'
+    thread: china-leadership
+    c: 'Mao, on Zhang Aiping 张爱萍 and Liu Xiyao''s 刘西尧 report of Oct. 26 on what they saw at the site of the first atomic test (exposed life near the blast dying, weapons wrecked, but works and dugouts protecting well): works, low walls and solid buildings alone will guard against a nuclear blast.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 399 (Oct. 27, 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Zhang Aiping and Liu Xiyao, report of Oct. 26, 1964 on observations at the site after the first atomic test (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 399 n.1). Names: Mao Zedong, Zhang Aiping, Liu Xiyao. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: bd05c449
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 399: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 399 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:zhang-aiping, vis:only:prc]
   - id: cal.1964-10-28.state-and-city-finance-us
     when: Oct. 28
     date: '1964-10-28'
@@ -4830,7 +4973,13 @@ entries:
     date: '1964-10-29'
     thread: china-leadership
     c: 'Zhou and Luo Ruiqing report jointly to Mao and the Central Committee: all agreed to forward Guangdong''s report and Mao''s note to Party committees of front- and second-line provinces, cities and regions, to draw up by December specific plans for strengthening the rear and war preparation for next year and three years on. Five points: front-line plans first next year, second-line fewer projects; careful ranking by funds, equipment, materials, one finished at a time; removed plants prepared to shorten stoppage; projects outside defense and third-front work go into central or local plans; frugality; main arms plants and depots small, dispersed, against hills, hidden. Same day drafts the Central Committee''s covering note.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 680–81 (Oct. 29, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Luo Ruiqing.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 680–81 (Oct. 29, 1964); [[w.jianguo-yilai-mao-zedong]], XVII, 392–394 (Nov. 3, 1964; note 1 gives the report''s six points of rear construction, not the entry''s five). Made public: 1997. To check: Zhou Enlai and Luo Ruiqing, report of Oct. 29, 1964 on the first- and second-line provinces building their own rear and war preparation (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 394 n.1d). Names: Zhou Enlai, Mao Zedong, Luo Ruiqing.'
+    src:
+      c: 111afb1b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 680–81: ?'
+        - 'w.jianguo-yilai-mao-zedong XVII, 392–394: A, H'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 394 n.1d: all'
     tags: [name:zhou-enlai, name:mao-zedong, name:luo-ruiqing, polity:prc, vis:only:prc]
   - id: cal.1964-10-29.china-leadership-3
     when: Oct. 29
@@ -6052,3 +6201,79 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 364: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 364 n.101b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-10.china-leadership-3
+    when: Oct., after the 3rd
+    date: 1964-10
+    at: after 1964-10-03
+    thread: china-leadership
+    c: 'Mao, on Li Jingquan 李井泉 and Lü Zhengcao''s 吕正操 request of Oct. 3 on routing the Sichuan–Hankou 川汉 railway (the Yuanjiang route by Changde and Chongqing, about 1,300 km, or the Lishui route) and the comments on it: back to Bo Yibo 薄一波. Beside Zhou Enlai 周恩来''s note: Zhou is right; the coal, iron, other metals and forests along all three routes to be surveyed together.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 380–382 (Oct. 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Li Jingquan and Lü Zhengcao to Li Fuchun, Bo Yibo and Luo Ruiqing, for Mao and the Center, "Request on routing the Sichuan–Hankou railway," Oct. 3, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 381 n.1a); Zhou Enlai, note on the Sichuan–Hankou routing papers: map the underground resources with the Geology and Metallurgy Ministries (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 381 n.1b). Names: Mao Zedong, Li Jingquan, Lü Zhengcao, Bo Yibo, Zhou Enlai. Check: the day; the request is of Oct. 3. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 7e8b904b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 380–382: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 381 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 381 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:li-jingquan, name:bo-yibo, name:zhou-enlai, vis:only:prc]
+  - id: cal.1964-10.china-leadership-4
+    when: Oct., after the 15th
+    date: 1964-10
+    at: after 1964-10-15
+    thread: china-leadership
+    c: 'Mao, for Jiang Qing 江青 and Li Na 李讷, his daughter, on the Youth League Center''s *Tuan de qingkuang* 团的情况 supplement no. 34 (Oct. 16): the account of Huang Guiyu, a professor''s daughter from the Nanjing Normal College middle school, of her fight with her family to farm, now settled at Maba commune, Xuyi county, Jiangsu 江苏.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 389 (Oct. 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Tuan de qingkuang supplement no. 34, Oct. 16, 1964: Huang Guiyu, "A professor''s daughter set on farming fights her family" (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 389 n.1). Names: Mao Zedong, Jiang Qing, Li Na. Check: the day. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 382fa50e
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 389: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 389 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:jiang-qing, vis:only:prc]
+  - id: cal.1964-10.china-leadership-5
+    when: Oct., after the 17th
+    date: 1964-10
+    at: after 1964-10-17
+    thread: china-leadership
+    c: 'Mao, on Liu Shaoqi''s 刘少奇 letter of Oct. 18 on punishing retaliation in the villages: read; when the comrades have read it, a meeting.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 390–391 (Oct. 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Liu Shaoqi. Check: the day. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 1fdc3f1d
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 390–391: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-10-31.china-leadership-12
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [africa]
+    c: Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Ben Bella 本·贝拉 and Hadj Ben Alla on the tenth anniversary of the Algerian revolution of Nov. 1, 1954.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 400–401 (Oct. 31, 1964; printed from *Renmin ribao*, Nov. 1, 1964). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Ben Bella, Hadj Ben Alla.'
+    src:
+      c: 672e0fd1
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 400–401: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ben-bella-ahmed, polity:algeria]
+  - id: cal.1964-10.china-leadership-6
+    when: Oct., after the 14th
+    date: 1964-10
+    at: after 1964-10-14
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao, for Jiang Qing 江青, on the embassy in Moscow''s report of Aug. 25 on Soviet internal conditions (capitalist restoration in state enterprises; the people against the Khrushchev group, but without a strong organization): material of August; by mid-October came the sudden change, Khrushchev''s fall; the closing conclusions underrate it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 402–403 (Oct. 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Chinese embassy in the Soviet Union to the Foreign Ministry, "Report on the internal situation in the Soviet Union," Aug. 25, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 402 n.1). Names: Mao Zedong, Jiang Qing, Khrushchev. Check: the day. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 7d73b4e0
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 402–403: all'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 402 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:jiang-qing, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1964-10.china-leadership-7
+    when: Oct.
+    date: 1964-10
+    thread: china-leadership
+    c: 'Mao annotates the third volume of *Zhongguo zhexue shi* 中国哲学史, edited by Ren Jiyu 任继愈 (Renmin Chubanshe, Oct. 1964), on the Huayan 华严 school: beside its own conclusion, "how right"; the absolute is in the relative, the universal in the particular, the eternal in the transient; elsewhere, "not serious enough."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 404–407 (Oct. 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Ren Jiyu. Check: the day; the book is of Oct. 1964. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: 41db7bc3
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 404–407: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
