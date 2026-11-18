@@ -158,6 +158,18 @@ entries:
       - 1963-06-01T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-01.china
+    when: June 1
+    date: '1963-06-01'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai cables Jomo Kenyatta, Prime Minister of Kenya, congratulating him on the founding of Kenya's internal self-government and on his becoming its first prime minister.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 285 (June 1, 1963). Names: Zhou Enlai, Kenyatta.'
+    src:
+      c: a875b6e9
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 285: all'
+    tags: [polity:prc, polity:kenya, name:zhou-enlai, name:kenyatta-jomo]
   - id: cal.1963-06-02.march-on-washington
     when: June 2–3
     date: '1963-06-02'
@@ -197,6 +209,18 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 574: A'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:deng-xiaoping, name:le-duan, name:truong-chinh, vis:only:prc+drv]
+  - id: cal.1963-06-02.china
+    when: June 2
+    date: '1963-06-02'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, flatly rejecting the Indian government's baseless protest in its note of May 11 about three Chinese soldiers' entering the Pangong Lake area. The Pangong Lake area has always been Chinese territory, so the Indian government has no right to object to Chinese activity there.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 285 (June 2, 1963).'
+    src:
+      c: b55fb33d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 285: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-06-03.court
     when: June 3
     date: '1963-06-03'
@@ -521,6 +545,18 @@ entries:
     c: Liu Shaoqi returns from Wuhan to Peking.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (June 4, 1963). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1963-06-04.china
+    when: June 4
+    date: '1963-06-04'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, again a serious protest at Indian troops' crossing the Nathu La pass on the China–Sikkim boundary and intruding into Chinese territory.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 285 (June 4, 1963). Check: the book''s 乃堆拉山口 is Nathu La, back-converted.'
+    src:
+      c: 8f6587f6
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 285: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-06-05.transportation
     when: June 5
     date: '1963-06-05'
@@ -702,18 +738,24 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai hosts Choe Yong Gon, Chairman of the Standing Committee of Korea's Supreme People's Assembly, on a visit, June 6–23; on June 17 he and Chen Yi go with him to the Northeast, to Harbin.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 559 (June 6–23, 1963); [[w.zhou-enlai-waijiao-huodong]], 361 (June 6, 1963; 上午, 火车站). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Choe Yong Gon.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 559 (June 6–23, 1963); [[w.zhou-enlai-waijiao-huodong]], 361 (June 6, 1963; 上午, 火车站); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 285–286 (June 5–23, 1963; Choe Yong Gon, Chairman of the Standing Committee of the DPRK Supreme People''s Assembly and Vice-Chairman of the Workers'' Party Central Committee, visits China; Mao receives him; Liu Shaoqi and Zhou first talk with him, the book saying the two sides'' positions and views were wholly in agreement). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Choe Yong Gon.'
     src:
       c: 9aa95224
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 559: ?'
         - 'w.zhou-enlai-waijiao-huodong 361: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 285–286: A'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1963-06-05T22:00Z
       - 1963-06-06T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.zhonghua-renmin-gongheguo-waijiao-2001
+        reads: 'June 5–23: the visit of Choe Yong Gon, Chairman of the Standing Committee of the Supreme People''s Assembly and Vice-Chairman of the Workers'' Party Central Committee (the entry has June 6–23)'
+        at: 285–286
   - id: cal.1963-06-06.china-leadership-2
     when: June 6
     date: '1963-06-06'
@@ -744,6 +786,30 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 576: all'
     tags: [polity:prc, name:mao-zedong, name:le-duan, vis:only:prc]
+  - id: cal.1963-06-06.china
+    when: June 6
+    date: '1963-06-06'
+    thread: china
+    also: [soviet-union]
+    c: Zeng Yongquan, Vice-Minister of Foreign Affairs, receives the Soviet ambassador, Chervonenko, and hands over China's reply to the Soviet aide-memoire of Apr. 20 on the nonproliferation of nuclear weapons. The Soviet aim, it says, to please the U.S. by weakening the defense power of other socialist countries, above all by denying China nuclear weapons as the price of the U.S. signing a nonproliferation agreement, is a mistaken stand. China's resolve to oppose imperialism, uphold world peace and prevent nuclear war is unshakable. Whatever pressure is used, the Chinese people will never admit that one or several big powers hold a monopoly of nuclear power and a privilege of ordering other countries about.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 286 (June 6, 1963). Made public: 2001. Names: Chervonenko. Check: the vice-minister is 曾涌泉 in the book; no name entry.'
+    src:
+      c: e5221cb5
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 286: all'
+    tags: [polity:prc, polity:ussr, polity:us, vis:only:prc+ussr, name:chervonenko-stepan-v]
+  - id: cal.1963-06-06.china-2
+    when: June 6
+    date: '1963-06-06'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, rejecting the Indian government's defense of its persecution of overseas Chinese. It demands that India at once stop all persecution of overseas Chinese, release unconditionally all those detained, compensate all their losses, give at once a full list of those held, and not use any pretext to hinder those in distress from returning home.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 287 (June 6, 1963).'
+    src:
+      c: 86c1db84
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 287: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-06-07.civil-rights-organizations
     when: June 7
     date: '1963-06-07'
@@ -2088,6 +2154,18 @@ entries:
     c: Liu Shaoqi goes to the Sun Yat-sen Hall in Zhongshan Park to mourn Shen Junru, Vice-Chairman of the NPC Standing Committee and of the CPPCC and Chairman of the China Democratic League, who died in Peking June 11.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 579 (June 13, 1963). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1963-06-13.china
+    when: June 13
+    date: '1963-06-13'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strong protest at the serious incident of the Indian authorities' kidnapping and threatening overseas Chinese in distress and insulting Chinese diplomatic officials. It demands that the Indian government keep the arrangement the two sides reached on receiving them and ensure that all the detained overseas Chinese can return to the motherland with their families.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 287 (June 13, 1963).'
+    src:
+      c: 2990e3e0
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 287: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-06-14.transportation
     when: June 14
     date: '1963-06-14'
@@ -2843,6 +2921,17 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 593: all'
     tags: [polity:prc]
+  - id: cal.1963-06-18.china
+    when: June 18
+    date: '1963-06-18'
+    thread: china
+    c: At Oslo, the Chinese and Norwegian governments sign a cultural agreement.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 287 (June 18, 1963).'
+    src:
+      c: e4c9acc6
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 287: all'
+    tags: [polity:prc, polity:norway]
   - id: cal.1963-06-19.civil-rights-bill
     when: June 19
     date: '1963-06-19'
@@ -3209,6 +3298,17 @@ entries:
       - 1963-06-20T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-20.china-leadership-3
+    when: June 20
+    date: '1963-06-20'
+    thread: china-leadership
+    c: Zhu De receives Chilean guests, among them a deputy and the chairman of the Christian Democratic Party's group in the Chamber.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 287 (June 20, 1963). Names: Zhu De. Check: the book gives the chairman as 卡洛斯·席博里·阿尔塞雷卡; the Latin form is not recovered.'
+    src:
+      c: 8bf023ad
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 287: all'
+    tags: [polity:prc, polity:chile, name:zhu-de]
   - id: cal.1963-06-21.opinion
     when: June 21
     date: '1963-06-21'
@@ -3578,7 +3678,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: The Xinhua agency publishes the Joint Communiqué of Chairman Liu Shaoqi and Choe Yong Gon.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 579 (June 23, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 579 (June 23, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 286 (June 5–23, 1963; the joint statement of the visit, the day not given in the book: the socialist countries must firmly oppose imperialism''s policy of aggression and war and support every struggle of oppressed peoples and nations; China fully supports the Korean government''s stand for Korea''s peaceful reunification; Korea fully supports China''s struggle to liberate Taiwan and its position on a peaceful settlement of the Sino-Indian boundary question; both firmly oppose the U.S. revival and rearming of Japanese militarism and the plot of a Northeast Asia military alliance; on the basis of the Moscow declaration, to strengthen the unity of the socialist camp and the communist movement is the fundamental interest of all peoples). Names: Liu Shaoqi.'
+    src:
+      c: c387852c
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 579: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 286: all'
     tags: [polity:prc, polity:dprk, name:liu-shaoqi]
   - id: cal.1963-06-24.peace-corps
     when: June 24
@@ -3668,6 +3773,18 @@ entries:
     c: Zhou Enlai receives Xu Tingze, former Nationalist Air Force captain, who flew his plane over to the mainland on June 1.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 561 (June 24, 1963). Made public: 1997. Names: Zhou Enlai, Xu Tingze.'
     tags: [polity:prc, polity:roc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-06-24.china
+    when: June 24–29
+    date: '1963-06-24'
+    thread: china
+    also: [soviet-union]
+    c: A Chinese women's delegation led by Yang Yunyu, secretary of the Secretariat of the All-China Women's Federation, attends the World Congress of Women at Moscow, June 24–29. The delegation issues statements on the Sino-Indian boundary question, on the "Letter to the Women of the World" and on the "Program of the International Democratic Federation of Women".
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 287 (June 24–29, 1963). Check: Yang Yunyu is 杨蕴玉 in the book; no name entry.'
+    src:
+      c: 488e3086
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 287: all'
+    tags: [polity:prc, polity:ussr]
   - id: cal.1963-06-25.europe-and-the-alliance-kennedy-in-europe
     when: June 25
     date: '1963-06-25'
@@ -4025,6 +4142,18 @@ entries:
       - 1963-06-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-26.china
+    when: June 26
+    date: '1963-06-26'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, rejecting the Indian government's lie that China "violated Indian territory" and flatly refusing India's baseless protest. It says China is extremely indignant at the Indian government's unscrupulous repeated fabrication of absurd charges.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 287–288 (June 26, 1963).'
+    src:
+      c: 0cb951ab
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 287–288: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-06-27.vietnam
     when: June 27
     date: '1963-06-27'
@@ -4280,6 +4409,18 @@ entries:
       - 1963-06-28T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-28.china
+    when: June 28
+    date: '1963-06-28'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strong protest at Indian reconnaissance across the line of actual control of Nov. 7, 1959 at the Dongmula pass in the eastern sector. It demands that India stop such intrusions.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 288 (June 28, 1963). Check: the book''s 东姆拉山口 is back-converted (Dongmula).'
+    src:
+      c: a890d922
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 288: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-06-29.middle-east-yemen
     when: June 29
     date: '1963-06-29'

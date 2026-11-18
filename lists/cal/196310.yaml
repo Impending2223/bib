@@ -125,7 +125,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Mao receives the American Black leader Robert F. Williams and his wife; Guo Moruo present.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1963 ("同日"). Made public: 2013. See [[cal.1963-08-09.china-leadership]]. Names: Mao Zedong, Robert F. Williams, Guo Moruo. Check: the nianpu gives no words.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1963 ("同日"). [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 302 (Oct. 1, 1963; Mao, Liu Shaoqi and Zhu De each receive the American Black leader Robert Williams and his wife). Made public: 2001. See [[cal.1963-08-09.china-leadership]]. Names: Mao Zedong, Robert F. Williams, Guo Moruo. Check: the nianpu gives no words.'
+    src:
+      c: 61ceaf79
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 1, 1963: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 302: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1963-10-01.china-leadership-2
     when: Oct. 1
@@ -413,6 +418,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 372: all'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
+  - id: cal.1963-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1963-10-02'
+    thread: china-leadership
+    also: [africa]
+    c: Liu Shaoqi cables Nnamdi Azikiwe, President of Nigeria, congratulating Nigeria on the founding of the Federal Republic and him on his becoming its first president.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 302 (Oct. 2, 1963). Names: Liu Shaoqi. Check: the book gives the name as 纳姆迪·阿齐克韦.'
+    src:
+      c: 9c673416
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 302: all'
+    tags: [polity:prc, polity:nigeria, name:liu-shaoqi]
   - id: cal.1963-10-03.latin-america
     when: Oct. 3
     date: '1963-10-03'
@@ -470,12 +487,13 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhou Enlai receives the Algerian government delegation under Ammar Ouzegane, Minister of State, and talks of a loan to Algeria and other matters.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 中午, 钓鱼台宾馆10号楼, 与陈毅副总理会谈并设午宴); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 4, 1963; 下午4时30分, 中南海西花厅, 继续会谈). Continues 585. Made public: 1993. Names: Zhou Enlai, Ammar Ouzegane.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 中午, 钓鱼台宾馆10号楼, 与陈毅副总理会谈并设午宴); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 4, 1963; 下午4时30分, 中南海西花厅, 继续会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 301 (Sept. 29–Oct. 9, 1963; Ammar Ouzegane (阿马·乌兹加尼), Algeria''s Minister of State, leads a government delegation visiting China; Zhou and Chen Yi hold talks with it; the Chinese government agrees to give Algeria a long-term interest-free loan with no conditions attached). Continues 585. Made public: 1993. Names: Zhou Enlai, Ammar Ouzegane.'
     src:
       c: 33b8faff
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 584: ?'
         - 'w.zhou-enlai-waijiao-huodong 373: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 301: A'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, vis:only:prc+algeria]
     time_range:
       - 1963-10-03T04:00Z
@@ -693,6 +711,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 373: all'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai]
+  - id: cal.1963-10-04.china
+    when: Oct. 4
+    date: '1963-10-04'
+    thread: china
+    also: [japan]
+    c: The China–Japan Friendship Association is founded at Peking.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 302 (Oct. 4, 1963).'
+    src:
+      c: 169f328b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 302: all'
+    tags: [polity:prc, polity:japan]
   - id: cal.1963-10-05.vietnam
     when: Oct. 5
     date: '1963-10-05'
@@ -1370,14 +1400,27 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai receives Ishibashi Tanzan. On a peace treaty with Japan: America''s separate peace and the Japan–Taiwan treaty are the greatest obstacle; China works indirectly, gradually, to win that Japan voids that treaty and signs with it. Of three Japanese feelings for Taiwan, colonialist, militarist and economic, the first two are unjust and opposed; trade with Taiwan China does not oppose. Some in the ruling party set the new China and Taiwan against each other, which ends badly for both. He welcomes the straightforward way of Ishibashi, Matsumura and Takasaki.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 9, 1963); [[w.zhou-enlai-waijiao-huodong]], 373–74 (Oct. 9, 1963; 上午11时, 中南海西花厅). Continues 586. Made public: 1993. Names: Zhou Enlai, Ishibashi Tanzan, Matsumura Kenzo, Takasaki Tatsunosuke.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 9, 1963); [[w.zhou-enlai-waijiao-huodong]], 373–74 (Oct. 9, 1963; 上午11时, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 302 (Oct. 9, 1963; Zhou receives Ishibashi Tanzan, a former Prime Minister and chairman of the Japanese industrial exhibition society, and tells him of four possible ways to normalize Sino-Japanese relations: Japan voids the Japan–Taiwan treaty and formally signs a treaty with China; Japan does not void it but signs with China, which the Chinese people will not accept; Japan''s present responsible officials, the Prime Minister or Foreign Minister, visit China and declare that they recognize only the People''s Republic, an indirect way; or a former Prime Minister visits China and makes a statement recognizing it; China in fact takes the fourth way and strives for the first, and hopes Ishibashi will work for it). Continues 586. Made public: 1993. Names: Zhou Enlai, Ishibashi Tanzan, Matsumura Kenzo, Takasaki Tatsunosuke.'
     src:
       c: 6296c643
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 585: ?'
         - 'w.zhou-enlai-waijiao-huodong 373–74: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 302: A-C'
     tags: [polity:prc, polity:japan, polity:roc, name:zhou-enlai, vis:only:prc+japan]
     time_zone: Asia/Shanghai
+  - id: cal.1963-10-09.china
+    when: Oct. 9
+    date: '1963-10-09'
+    thread: china
+    also: [south-asia]
+    c: 'The Foreign Ministry sends a note to the Indian embassy, replying to India''s notes of Apr. 3 and Sept. 6. It points out that the five so-called constructive steps the Indian side proposes for settling the boundary differences aim to set up layer upon layer of obstacles and block negotiation. It exposes India''s false stand of accepting the Colombo proposals without reservation: India means to force its own interpretation of the proposals on others, which wholly violates the Colombo conference''s purpose and aim. The Sino-Indian boundary dispute involves the sovereignty of two states and can in no way be settled by international arbitration of any form. China restates its proposal that India at once accept the Colombo proposals on the basis of the principle of equality of the two sides and open direct talks, to stabilize the cease-fire, disengage and settle the boundary question peacefully.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 302–303 (Oct. 9, 1963).'
+    src:
+      c: 3fd85480
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 302–303: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-10-10.king
     when: Oct. 10
     date: '1963-10-10'
@@ -2265,6 +2308,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 374: all'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+  - id: cal.1963-10-16.china
+    when: Oct. 16
+    date: '1963-10-16'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strong protest at Indian aircraft's 25 sorties in July, August and September that violated Chinese territorial airspace and heightened tension, in disregard of China's sovereignty over its airspace. It demands that India stop the intrusions at once.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 303 (Oct. 16, 1963).'
+    src:
+      c: c01a43f7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 303: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-10-17.europe-and-the-alliance
     when: Oct. 17
     date: '1963-10-17'
@@ -2464,6 +2519,18 @@ entries:
     c: 'Zhou Enlai at the evening party for the fortieth anniversary of *Chinese Youth* and its exhibition: the magazine should "face the countryside and the city," give the young knowledge of science, production, philosophy and class struggle, and speak of the world situation; short literary pieces, new revolutionary songs, cartoons; short articles, simple, lively, easy to understand.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 588 (Oct. 18, 1963). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-10-18.china
+    when: Oct. 18
+    date: '1963-10-18'
+    thread: china
+    also: [vietnam-hanoi]
+    c: The Foreign Ministry issues a statement on the United Nations' sending an "investigation mission" to South Vietnam. China fully supports the just stand set out in the DRV's statement of Oct. 14, condemns the new U.S. plot to wreck the Geneva agreements, and calls on all peace-loving countries and peoples to act to support the DRV's just proposals, to press the U.S. to withdraw its armed forces and all military personnel from South Vietnam and let the South Vietnamese people settle South Vietnam's question themselves.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 303 (Oct. 18, 1963).'
+    src:
+      c: 94da8213
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 303: all'
+    tags: [polity:prc, polity:drv, polity:us, polity:un]
   - id: cal.1963-10-19.legislatures-tx
     when: Oct. 19
     date: '1963-10-19'
@@ -2614,12 +2681,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai receives delegates to the Buddhists'' conference of eleven Asian states and regions: what settles things is the heart of the people; their "Appeal to the Buddhists of the World" is a moral force. To Nepal''s head: Buddhism is idealist and communism materialist, but believers and unbelievers agree politically against interference, for independence and love of country; China does not hide that it is atheist, but they can be friends. To Kongo Shuichi of the Japan Buddhist Association, on the Yangzhou meeting for Jianzhen''s 1,200th anniversary: Sino-Japanese friendship needs his will to cross a thousand hills and rivers.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 589 (Oct. 20, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 20, 1963; 晚6时, 人民大会堂福建厅). Continues 590; footnote: China, Cambodia, Indonesia, Japan, Korea, Laos, Nepal, Pakistan, Thailand, Vietnam and South Vietnam. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 589 (Oct. 20, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 20, 1963; 晚6时, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 303–304 (Oct. 20, 1963; Zhou receives the foreign guests attending the conference of Buddhists of 11 Asian countries and regions). Continues 590; footnote: China, Cambodia, Indonesia, Japan, Korea, Laos, Nepal, Pakistan, Thailand, Vietnam and South Vietnam. Names: Zhou Enlai.'
     src:
       c: 75cec4d3
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 589: ?'
         - 'w.zhou-enlai-waijiao-huodong 374: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 303–304: A'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1963-10-21.press-and-broadcasting
@@ -3072,12 +3140,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives Edgar Faure, former Prime Minister of France and representative of President de Gaulle, in talks on establishing Sino-French relations. The difficulty is France's relation with Taiwan, to be settled by a reasonable way. Before Taiwan is settled formal relations and an exchange of ambassadors cannot be had, but informal ones can, such as a trade office first, semi-official or private; and if France and China establish relations France should keep no diplomatic staff or office in Taiwan; Britain's way is unpleasant for both. Three months of talks on establishing relations followed.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 590 (Oct. 23, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 23, 1963; 上午11时, 中南海西花厅, first talks). Made public: 1993. Names: Zhou Enlai, Edgar Faure, De Gaulle.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 590 (Oct. 23, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 23, 1963; 上午11时, 中南海西花厅, first talks); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 304 (Oct. 21–Nov. 5, 1963; Edgar Faure, former Prime Minister of France, and his wife visit China; Mao and Liu Shaoqi each receive him; Zhou and Chen Yi hold several earnest and frank talks with him). Made public: 1993. Names: Zhou Enlai, Edgar Faure, De Gaulle.'
     src:
       c: 05bdc15e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 590: ?'
         - 'w.zhou-enlai-waijiao-huodong 374: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 304: A'
     tags: [polity:prc, polity:fr, polity:roc, name:zhou-enlai, name:faure-edgar-jean, name:de-gaulle-charles, vis:only:prc+fr]
     time_zone: Asia/Shanghai
   - id: cal.1963-10-23.china-leadership-3
@@ -3341,11 +3410,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives the Speaker of Tanganyika's National Assembly.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 24, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 24, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 303 (Oct. 11–25, 1963; Adam Sapi Mkwawa, Speaker of the National Assembly of Tanganyika, visits China; Mao, Zhu De and Zhou each receive him, the days not given). Names: Zhou Enlai.'
     src:
       c: 108f0d72
       rows:
         - 'w.zhou-enlai-waijiao-huodong 374: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 303: B'
     tags: [polity:prc, polity:tanzania, name:zhou-enlai]
   - id: cal.1963-10-24.china-leadership-4
     when: Oct. 24
@@ -3355,6 +3425,17 @@ entries:
     c: 'Liu Shaoqi continues to hear Bo Yibo. On renewal of equipment: part of the money may go to new capital construction but most is for existing enterprises; the depreciation of old enterprises was moved to new projects and is to be repaid; first renew equipment and keep up simple reproduction, then expand, and expansion too goes first to the old enterprises. Technical personnel are to be put in posts of responsibility, a number of engineers promoted and used boldly; enterprises need not have so many deputies; some university and senior-middle graduates with communist consciousness, men like Lei Feng, are to be sent to enterprises. On management: capitalist experience, especially of monopolies, is to be studied, and the Soviet; a national professional general company can be tried, for ministries as administrative organs are ill-suited to manage enterprises, which are to keep economic accounts; bureaus turned into companies would be organs of enterprises, nearer production. Companies too can breed bureaucracy. The present method, by which the ministries and the departments and bureaus of provinces and cities interfere in the economy, is over-economic and feudal, not capitalist.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 582–583 (Oct. 24, 1963). Made public: 1996. Names: Liu Shaoqi, Bo Yibo.'
     tags: [polity:prc, name:liu-shaoqi, name:bo-yibo, vis:only:prc]
+  - id: cal.1963-10-24.china
+    when: Oct. 24
+    date: '1963-10-24'
+    thread: china
+    c: The Foreign Ministry issues a statement on the United States' again manipulating the United Nations General Assembly to block the restoration of China's lawful rights. China is a founding member of the United Nations and a permanent member of its Security Council. Only the People's Republic has the right to all of China's lawful rights in the United Nations. Taiwan is an inalienable part of its territory. China firmly opposes, and will never let succeed, any form of the U.S. and its followers' plot of "two Chinas".
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 304 (Oct. 24, 1963).'
+    src:
+      c: 5ac932e4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 304: all'
+    tags: [polity:prc, polity:us, polity:un, polity:roc]
   - id: cal.1963-10-25.opinion
     when: Oct. 25
     date: '1963-10-25'
@@ -3641,11 +3722,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai receives and gives a banquet for Thapa, Speaker of Nepal's National Panchayat, and its delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 26, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 26, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 304 (Oct. 22–Nov. 7, 1963; Bishwa Bandhu Thapa, Chairman of the National Panchayat of Nepal, leads a delegation visiting China; Mao, Liu Shaoqi, Zhu De and Zhou each receive Thapa and his party, the days not given). Names: Zhou Enlai.'
     src:
       c: 7cc8075a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 374: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 304: B'
     tags: [polity:prc, polity:nepal, name:zhou-enlai]
   - id: cal.1963-10-27.opinion-5
     when: Oct. 27
@@ -3758,6 +3840,18 @@ entries:
     c: Liu Shaoqi receives Bishwa Bandhu Thapa, Chairman of Nepal's National Panchayat, and his wife.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 583 (Oct. 27, 1963). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:nepal, name:liu-shaoqi]
+  - id: cal.1963-10-27.china
+    when: Oct. 27
+    date: '1963-10-27'
+    thread: china
+    also: [africa-algeria-morocco]
+    c: 'Delegations arrive at Algiers for the celebration of Algeria''s national day on Nov. 1: a Chinese Communist Party delegation led by Liu Ningyi, member of the Central Committee; a government delegation led by Fang Yi, Vice-Chairman of the State Planning Commission; a military delegation led by General Li Zhimin; a women''s delegation led by a secretary of the Secretariat of the All-China Women''s Federation; and a youth and students'' delegation led by a vice-chairman of the Youth Federation. President Ben Bella receives the delegations.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 305 (Oct. 27, 1963). Names: Ben Bella. Check: the book names the Party, government and military heads as 刘宁一, 方毅 and 李志民; the heads of the women''s and youth delegations are given in the book and are not entered here.'
+    src:
+      c: 5d4d05db
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 305: all'
+    tags: [polity:prc, polity:algeria, name:ben-bella-ahmed]
   - id: cal.1963-10-28.cities-and-housing-nyc
     when: Oct. 28
     date: '1963-10-28'
@@ -4051,6 +4145,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 375: all'
     tags: [polity:prc, polity:senegal, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1963-10-28.china
+    when: Oct. 28
+    date: '1963-10-28'
+    thread: china
+    also: [africa-algeria-morocco]
+    c: At Algiers the Chinese and Algerian governments sign an agreement on economic and technical cooperation. Under it China gives Algeria an interest-free loan with no conditions of 250 million French francs, from Jan. 1, 1964 to Dec. 31, 1968.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 305 (Oct. 28, 1963).'
+    src:
+      c: 318dd2ec
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 305: all'
+    tags: [polity:prc, polity:algeria]
   - id: cal.1963-10-29.civil-rights-bill
     when: Oct. 29
     date: '1963-10-29'
@@ -4351,11 +4457,12 @@ entries:
     thread: china-leadership
     also: [china, trade]
     c: Peking. Zhou Enlai receives the Finnish government trade delegation and the Finnish Minister of Trade and Industry.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 29, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 29, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 305 (Oct. 29, 1963; Zhou receives the Finnish Minister of Trade and Industry and all the members of the Finnish government trade delegation led by Mäkelä (麦基拉)). Names: Zhou Enlai.'
     src:
       c: 2cdf3167
       rows:
         - 'w.zhou-enlai-waijiao-huodong 375: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 305: B'
     tags: [polity:prc, polity:finland, name:zhou-enlai]
   - id: cal.1963-10-29.china-leadership-2
     when: Oct. 29

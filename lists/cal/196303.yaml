@@ -74,7 +74,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: The Chinese frontier forces complete their planned withdrawal of their own accord along the whole Sino-Indian border.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 1, 1963). Check: whether the day is that of completion or of announcement.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 1, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 273 (Mar. 1, 1963; the Defense Ministry spokesman announces that the Chinese frontier troops completed their withdrawal plan along the whole boundary on Feb. 28; in answer to the Colombo conference they set up no civil checkposts in the areas of dispute they have emptied; since China began its cease-fire and withdrawal India has taken no matching steps and has gone on intruding and building up arms). Check: whether the day is that of completion or of announcement.'
+    src:
+      c: cbaae812
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 538: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 273: A'
     tags: [polity:prc, polity:india]
   - id: cal.1963-03-02.civil-rights-bill
     when: Mar. 2
@@ -109,12 +114,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai and Chen Yi talk with Pakistan's Foreign Minister, Zulfikar Ali Bhutto, Mar. 2 and 3. Who first starts a war loses; a nuclear war, a general world war will not be fought, for industry, labor, buying power and markets would be wrecked; but local wars will be. One must see the world's changes and unite the Afro-Asian states in friendship; their economies are backward, they need industry and peace to build. He welcomes Bhutto's offer to be a bridge between China and the United States.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 2–3, 1963); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 2, 1963; 上午11时, 中南海西花厅, 接见并宴请); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 3, 1963; 上午11时; the talks at the Diaoyutai). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Chen Yi, Bhutto.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 2–3, 1963); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 2, 1963; 上午11时, 中南海西花厅, 接见并宴请); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 3, 1963; 上午11时; the talks at the Diaoyutai); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 272 (Feb. 26–Mar. 4, 1963; Pakistan''s Foreign Minister Zulfikar Ali Bhutto leads a government delegation to sign the China–Pakistan boundary agreement and visit; Mao and Liu Shaoqi each receive Bhutto and the members; Zhou and Chen Yi hold talks with him; the book gives the talks as Mar. 2). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Chen Yi, Bhutto.'
     src:
       c: a001e007
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 538: ?'
         - 'w.zhou-enlai-waijiao-huodong 353: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 272: A'
     tags: [polity:prc, polity:pakistan, polity:us, name:zhou-enlai, name:chen-yi, name:bhutto-zulfikar-ali, vis:only:prc+pakistan]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-02.china-leadership-2
@@ -124,12 +130,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai attends the signing of the agreement between China and Pakistan on the boundary.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 2, 1963); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 2, 1963; 下午3时20分, 与刘少奇主席出席). To check: the agreement. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 2, 1963); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 2, 1963; 下午3时20分, 与刘少奇主席出席); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 272 (Mar. 2, 1963; Chen Yi and Bhutto sign the agreement between China and Pakistan on the boundary question). To check: the agreement. Names: Zhou Enlai.'
     src:
       c: 616b38db
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 538: ?'
         - 'w.zhou-enlai-waijiao-huodong 353: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 272: A'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-02.china-leadership-3
@@ -183,6 +190,30 @@ entries:
       - 1963-03-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-03-02.china
+    when: Mar. 2
+    date: '1963-03-02'
+    thread: china
+    also: [south-asia]
+    c: 'The Foreign Ministry issues a press communique: the existing boundary between China and Afghanistan is a peaceful and friendly one, and the two governments agree to hold negotiations and sign a boundary treaty.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 273 (Mar. 2, 1963).'
+    src:
+      c: 32079c7d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 273: all'
+    tags: [polity:prc, polity:afghanistan]
+  - id: cal.1963-03-02.china-2
+    when: Mar. 2
+    date: '1963-03-02'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry calls in the Indian embassy and informs it that the Chinese frontier troops have completed the withdrawal along the whole line and have set up checkposts on the Chinese side of the line of actual control of Nov. 7, 1959. It hopes the Indian government will respond positively to China's efforts for peace.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 273 (Mar. 2, 1963). Check: the book gives this as a note (照会) to the embassy.'
+    src:
+      c: 8c2ac665
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 273: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-03-03.king
     when: Mar. 3
     date: '1963-03-03'
@@ -330,7 +361,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: The Chinese and Pakistani governments issue a joint communique on Bhutto's visit, hoping India and Pakistan keep seeking a peaceful settlement of Kashmir by talks, and China and India a fair settlement of their boundary by direct talks.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 4, 1963). To check: the communique. See [[cal.1963-03-02.china-leadership-2]]. Names: Bhutto.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 4, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 272–273 (Mar. 4, 1963; the joint communique: the signing of the boundary agreement shows that friendly consultation on mutual respect and goodwill is an effective way to settle boundary differences and international disputes; Pakistan will keep trying to settle the Kashmir dispute with India by peaceful talks; China welcomes Pakistan''s stand; both hope China and India will settle their boundary dispute fairly and reasonably by direct talks). To check: the communique. See [[cal.1963-03-02.china-leadership-2]]. Names: Bhutto.'
+    src:
+      c: b6272b91
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 538: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 272–273: A'
     tags: [polity:prc, polity:pakistan, polity:india, name:bhutto-zulfikar-ali]
   - id: cal.1963-03-04.china-leadership-3
     when: Mar. 4
@@ -349,6 +385,18 @@ entries:
       - 1963-03-04T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1963-03-04.china
+    when: Mar. 4
+    date: '1963-03-04'
+    thread: china
+    also: [laos]
+    c: The China–Laos Friendship Association is founded at Peking.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 273 (Mar. 4, 1963).'
+    src:
+      c: 95e57ea6
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 273: all'
+    tags: [polity:prc, polity:laos]
   - id: cal.1963-03-05.alabama-birmingham
     when: Mar. 5
     date: '1963-03-05'
@@ -541,13 +589,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Zhou Enlai in talks, Mar. 6–10, with King Savang Vatthana of Laos and Prime Minister Souvanna Phouma, visiting China, on the situation in Indochina and other matters.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 539 (Mar. 6–10, 1963); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 6, 1963; 下午, 机场); [[w.zhou-enlai-waijiao-huodong]], 353–54 (Mar. 7, 1963; 晚6时30分; the talks with Souvanna Phouma, Diaoyutai Building 18). Made public: 1993. Names: Zhou Enlai, Savang Vatthana, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 539 (Mar. 6–10, 1963); [[w.zhou-enlai-waijiao-huodong]], 353 (Mar. 6, 1963; 下午, 机场); [[w.zhou-enlai-waijiao-huodong]], 353–54 (Mar. 7, 1963; 晚6时30分; the talks with Souvanna Phouma, Diaoyutai Building 18); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 274 (Mar. 6–10, 1963; King Savang Vatthana of Laos visits China; Liu Shaoqi and Zhou talk with the King and Prime Minister Souvanna Phouma on respect for Laos''s independence and neutrality and other questions). Made public: 1993. Names: Zhou Enlai, Savang Vatthana, Souvanna Phouma.'
     src:
       c: dc196a69
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 539: ?'
         - 'w.zhou-enlai-waijiao-huodong 353: A'
         - 'w.zhou-enlai-waijiao-huodong 353–54: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 274: A'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:savang-vatthana, name:souvanna-phouma, vis:only:prc+laos]
   - id: cal.1963-03-06.china-leadership-4
     when: Mar. 6
@@ -707,13 +756,14 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: 'Qinzheng Hall, evening. Mao gives a banquet for King Savang Vatthana of Laos; Liu Shaoqi, Zhu De, Zhou Enlai, Dong Biwu, Peng Zhen, Chen Yi present. The three Indochina states are near neighbors; China respects them; their business their own; foreign interference in them very bad. On China''s seat in the United Nations: Chiang Kai-shek holds it, and Peking cannot enter, "a great matter"; Britain recognizes Peking yet backs Chiang there, and so has a chargé in Peking, no ambassador.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 7, 1963. [[w.zhou-enlai-waijiao-huodong]], 354 (Mar. 7, 1963; 晚上, 中南海勤政殿, 陪同毛泽东主席会见并宴请); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573 (Mar. 7, 1963; Liu, with Mao, Dong Biwu, Zhu De and Zhou Enlai, meets King Savang Vatthana and Prime Minister Souvanna Phouma). Made public: 1993. See [[cal.1963-03-07.china-leadership]]. Names: Mao Zedong, Savang Vatthana, Liu Shaoqi, Zhu De, Zhou Enlai, Dong Biwu, Peng Zhen, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 7, 1963. [[w.zhou-enlai-waijiao-huodong]], 354 (Mar. 7, 1963; 晚上, 中南海勤政殿, 陪同毛泽东主席会见并宴请); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573 (Mar. 7, 1963; Liu, with Mao, Dong Biwu, Zhu De and Zhou Enlai, meets King Savang Vatthana and Prime Minister Souvanna Phouma); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 274 (Mar. 6–10, 1963; the book gives Mao''s words to the King and his party: we are friends; we respect you; your affairs you should manage yourselves, and foreign interference in them is a very bad thing; the day is not given). Made public: 1993. See [[cal.1963-03-07.china-leadership]]. Names: Mao Zedong, Savang Vatthana, Liu Shaoqi, Zhu De, Zhou Enlai, Dong Biwu, Peng Zhen, Chen Yi.'
     src:
       c: 907f674b
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Mar. 7, 1963: all'
         - 'w.zhou-enlai-waijiao-huodong 354: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 573: B, C'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 274: D-F'
     tags: [polity:prc, polity:laos, name:mao-zedong, name:savang-vatthana, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:dong-biwu, name:peng-zhen, name:chen-yi, vis:only:prc+laos]
     time_range:
       - 1963-03-07T11:00Z
@@ -1004,6 +1054,30 @@ entries:
       - 1963-03-10T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-03-10.china
+    when: Mar. 10
+    date: '1963-03-10'
+    thread: china
+    also: [laos]
+    c: China and Laos issue a joint communique on the King's visit. The Chinese government will, as before, faithfully carry out its international obligations under the Geneva conference and firmly support the Lao royal government's policy of peace and neutrality. The Lao side thanks China for its important contribution to Laos's peace, independence and neutrality. Both sides declare that they will go on developing friendly and good-neighborly relations on the five principles of peaceful coexistence and the spirit of the Bandung conference.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 274 (Mar. 10, 1963). Names: Savang Vatthana, Souvanna.'
+    src:
+      c: 70b09d95
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 274: all'
+    tags: [polity:prc, polity:laos, name:savang-vatthana, name:souvanna-phouma]
+  - id: cal.1963-03-10.china-2
+    when: Mar. 10
+    date: '1963-03-10'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a serious protest at Indian troops' renewed intrusion into the Pangong Lake area of Tibet. The places the Indian troops entered are places where, last year, Indian troops intruded and set up aggressive posts, and the Chinese side, after beating off the attack Indian troops launched, withdrew of its own accord. If the Indian side continues the intrusions it can in no way escape the responsibility for stirring up tension on the boundary again and blocking a peaceful settlement.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 274 (Mar. 10, 1963).'
+    src:
+      c: e01c34b0
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 274: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-03-11.defense
     when: Mar. 11
     date: '1963-03-11'
@@ -1270,6 +1344,18 @@ entries:
     c: Zhou Enlai with the physicist Zhou Peiyuan.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 539 (Mar. 13, 1963). Made public: 1997. Names: Zhou Enlai, Zhou Peiyuan.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-03-13.china-leadership-3
+    when: Mar. 13
+    date: '1963-03-13'
+    thread: china-leadership
+    also: [latin-america]
+    c: 'Mao Zedong receives a delegation of the Cuban Communist Youth League led by a member of its national committee, with other Latin American guests. He says that to build a country well takes time and depends on the support and help of friends everywhere, but first on oneself and then on others. Help is mutual: the people of one country help the people of another, and the oppressed of the whole world help one another.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 274–275 (Mar. 13, 1963). Made public: 2001. Names: Mao Zedong. Check: the Cuban leader is 豪尔赫·加粕多尔 in the book (the Latin form is not recovered). Whether the talk was reported then.'
+    src:
+      c: 4c05d48e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 274–275: all'
+    tags: [polity:prc, polity:cuba, vis:only:prc+cuba, name:mao-zedong]
   - id: cal.1963-03-14.cuba
     when: Mar. 14
     date: '1963-03-14'
@@ -1430,6 +1516,18 @@ entries:
     c: 'Zhou Enlai, after the China Youth Art Theatre''s *Azalea Mountain*, in a forum: the many good plays of recent years on new men and revolutionary stories are good, among them *The Army at the Gates*, *The Second Spring*, *Jinggangshan*, *Sentinels under the Neon Lights*, *Pingxingguan* and this one. Revolutionary stories should not be too mysterious or legendary, which makes them false and teaches the young nothing. In the arts he finds each goes his own way, directors, lighting, sets and costumes alike, "the eight immortals crossing the sea"; the spoken drama is a composite art and needs cooperation.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 540 (Mar. 15, 1963). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-03-15.china
+    when: Mar. 15
+    date: '1963-03-15'
+    thread: china
+    also: [middle-east]
+    c: Chen Yi cables Syria's Foreign Minister, Salah al-Din Bitar, that the Chinese government decides to recognize the new Syrian government. The editors' note gives the coup of Mar. 8, in which the "National Command of the Revolution" took power and formed a new government.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 275 (Mar. 15, 1963). Names: Chen Yi. Check: the book gives the minister as 萨拉赫丁·比塔尔; the Latin form is back-converted.'
+    src:
+      c: 5ead5183
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 275: all'
+    tags: [polity:prc, polity:syria, name:chen-yi]
   - id: cal.1963-03-16.japan-and-korea
     when: Mar. 16
     date: '1963-03-16'
@@ -1989,6 +2087,18 @@ entries:
     c: Zhou Enlai with Xia Yan, Sa Kongliao, Ma Yanxiang and others, hearing the preparations for the Peking Opera Troupe's Hong Kong tour, the persons and the programs one by one. Peking opera must be reformed and show "pushing out the old to bring forth the new"; its talents are to be protected and respected and given standing; he has told television that when a play is shown the drummer and the fiddler are to be named.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 542 (Mar. 24, 1963). Made public: 1997. Names: Zhou Enlai, Xia Yan, Sa Kongliao, Ma Yanxiang.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-03-24.china
+    when: Mar. 24
+    date: '1963-03-24'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, again a serious protest at Indian troops' repeated intrusion into Chinese territory and airspace on the China–Sikkim boundary. It formally demands that the Indian government stop all intrusions on the boundary, remove all the works, large and small, it has set up illegally inside China, and order the intruding troops to leave Chinese territory at once.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 275 (Mar. 24, 1963).'
+    src:
+      c: c27f899b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 275: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-03-25.court
     when: Mar. 25
     date: '1963-03-25'
@@ -2049,6 +2159,53 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 354: A'
     tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:nehru-jawaharlal, name:bandaranaike-srimavo, vis:only:prc+ceylon]
     time_zone: Asia/Shanghai
+  - id: cal.1963-03-25.china
+    when: Mar. 25
+    date: '1963-03-25'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry spokesman issues a statement on the Indian government's press communique of Mar. 17, which defends its continued detention of overseas Chinese. The Chinese government and people are extremely indignant at this grave breach of international law. India must give the facilities customary in international practice for China to bring them home, and put no obstruction in the way.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 275 (Mar. 25, 1963).'
+    src:
+      c: 472c0a62
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 275: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1963-03-25.china-leadership-2
+    when: Mar. 25
+    date: '1963-03-25'
+    thread: china-leadership
+    c: Liu Shaoqi receives the Queen of Burundi, visiting China.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 275–276 (Mar. 25, 1963). Names: Liu Shaoqi. Check: the book gives the Queen as 德雷丝·卡尼昂加 (Thérèse Kanyonga?); back-converted.'
+    src:
+      c: 85ccd7da
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 275–276: all'
+    tags: [polity:prc, polity:burundi, name:liu-shaoqi]
+  - id: cal.1963-03-25.china-2
+    when: Mar. 25
+    date: '1963-03-25'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, sternly pointing out that China and Pakistan have the right to negotiate the boundary and sign an agreement, and rejecting India's slander of their settlement. The provisional character of the China–Pakistan agreement and its not touching the ownership of Kashmir are quite clear. India's insisting that China has agreed with Pakistan on Kashmir's ownership is pure fabrication. India should not go on slandering and intimidating China but honestly learn from the friendly, good-neighborly, equal and mutually accommodating spirit the two sides showed in their talks, and settle the Sino-Indian boundary.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 276 (Mar. 25, 1963).'
+    src:
+      c: 24d396aa
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 276: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
+  - id: cal.1963-03-25.china-3
+    when: Mar. 25
+    date: '1963-03-25'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strong protest at India's use of the Tibetan rebel clique to interfere in China's internal affairs. For years the Indian government has let the clique, refugees in India, work subversion against Tibet. India says it will not allow the rebels political activity in India; yet the clique has just issued a statement as an "exile government" and a "Tibetan constitution", which is the result of Indian connivance and proof against India's own words.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 276 (Mar. 25, 1963).'
+    src:
+      c: 6a5c624b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 276: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-03-26.mississippi
     when: Mar. 26
     date: '1963-03-26'

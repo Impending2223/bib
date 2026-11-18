@@ -265,11 +265,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai receives the secretary general of the Belgium–China Association.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 2, 1964; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 2, 1964; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 328 (Apr. 2, 1964; Zhou receives the secretary-general of the Belgium–China Association, Mme. Marcelle de Coninck? (玛尔达·德冈·胡斯曼夫人)). Names: Zhou Enlai.'
     src:
       c: 6525555d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 400: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 328: B'
     tags: [polity:prc, polity:belgium, name:zhou-enlai]
     time_range:
       - 1964-04-02T04:00Z
@@ -566,11 +567,12 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Peking. Zhou Enlai goes to the airport to welcome Souvanna Phouma, Prime Minister of Laos.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 4, 1964; 下午3时). See [[cal.1964-04-04.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 4, 1964; 下午3时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 328 (Apr. 4–8, 1964; Prime Minister Prince Souvanna Phouma of the Laotian Royal Government leads a government delegation visiting China at invitation; Liu Shaoqi receives Souvanna Phouma and all the delegation, and Zhou holds talks with him on the Lao situation, on developing the friendship of the two countries and other matters of common concern). See [[cal.1964-04-04.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma.'
     src:
       c: f883a14c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 400: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 328: B'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma]
     time_zone: Asia/Shanghai
   - id: cal.1964-04-05.opinion
@@ -836,6 +838,29 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 765: all'
     tags: [polity:ussr, polity:prc, name:khrushchev-nikita-s]
+  - id: cal.1964-04-06.china-leadership-2
+    when: Apr. 6
+    date: '1964-04-06'
+    thread: china-leadership
+    c: Li Xiannian, Vice-Premier, receives the Belgian economic and trade delegation led by Rothier, chairman of the economic committee of the Belgium–China Association and an economist.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 328 (Apr. 6, 1964). Names: Li Xiannian. Check: the head is 罗冶 in the book; the Latin form is back-converted.'
+    src:
+      c: 297a42f2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 328: all'
+    tags: [polity:prc, polity:belgium, name:li-xiannian]
+  - id: cal.1964-04-06.china
+    when: Apr. 6
+    date: '1964-04-06'
+    thread: china
+    also: [japan]
+    c: A Chinese economic friendship delegation led by Nan Hanchen, chairman of the China Council for the Promotion of International Trade, begins a visit to Japan (to May 21), at the joint invitation of the Japan–China Trade Promotion Association, the Japan International Trade Promotion Association and other Japanese trade bodies.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 329 (Apr. 6–May 21, 1964). Check: Nan Hanchen is 南汉宸 in the book; no name entry.'
+    src:
+      c: 6af26765
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 329: all'
+    tags: [polity:prc, polity:japan]
   - id: cal.1964-04-07.elections-1964
     when: Apr. 7
     date: '1964-04-07'
@@ -1105,6 +1130,18 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 744: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1964-04-07.china
+    when: Apr. 7
+    date: '1964-04-07'
+    thread: china
+    also: [africa]
+    c: China's first ambassador to Zanzibar, Meng Ying, presents his credentials to President Abeid Amani Karume of Zanzibar. He reached Zanzibar on Apr. 4.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 329 (Apr. 7, 1964). Names: Karume. Check: the ambassador is 孟英 in the book; no name entry.'
+    src:
+      c: c1b1e2d9
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 329: all'
+    tags: [polity:prc, polity:tanzania, name:karume-abeid]
   - id: cal.1964-04-08.farm
     when: Apr. 8
     date: '1964-04-08'
@@ -1235,7 +1272,12 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'The Chinese–Lao joint communiqué issued: China hopes sincerely that Laos''s three political forces will unite, keep out outside interference and settle their problems peacefully.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 8, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 8, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 328 (Apr. 8, 1964; the China–Laos joint communique: strict fulfilment of the 1962 Geneva agreements and thorough carrying out of the political program of the Lao government of national union is the right way to realize Laos''s peace, independence and neutrality; the Chinese government, from afar, hopes the three political forces within Laos will unite and cooperate, keep out outside interference and settle their own questions peacefully; the Lao side thanks the Chinese government for its just and friendly stand; both will work with the other Asian and African countries for the second Asian–African conference). Names: Zhou Enlai.'
+    src:
+      c: db868475
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 632: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 328: A'
     tags: [name:zhou-enlai, polity:prc, polity:laos]
   - id: cal.1964-04-08.china-leadership-2
     when: Apr. 8
@@ -1717,6 +1759,30 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 401: all'
     tags: [polity:prc, polity:australia, name:zhou-enlai]
+  - id: cal.1964-04-10.china
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: china
+    also: [japan]
+    c: Nan Hanchen presides at the opening of the Chinese economic and trade exhibition held at Tokyo.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 329 (Apr. 10, 1964).'
+    src:
+      c: 1bf298ab
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 329: all'
+    tags: [polity:prc, polity:japan]
+  - id: cal.1964-04-10.china-2
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: china
+    also: [indonesia]
+    c: Chen Yi, Vice-Premier and Foreign Minister, leads the Chinese government delegation to the preparatory meeting for the second Asian–African conference, which opens at Jakarta (to Apr. 15).
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 329 (Apr. 10–15, 1964). Names: Chen Yi.'
+    src:
+      c: 443677df
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 329: all'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
   - id: cal.1964-04-11.farm
     when: Apr. 11
     date: '1964-04-11'
@@ -1816,6 +1882,18 @@ entries:
     c: 'Liu Shaoqi replies to Wang Guangmei, who had told him her view of the socialist-education movement at the Taoyuan brigade: the actual conditions there and the practice of her and the commune members are the sole criterion of truth, and there can be no other; his letter can only be a reference to start them thinking in one direction; if it is not the truth, then whoever''s view it is, they must dare to deny it.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590 (Apr. 11, 1964). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-04-11.china-leadership-3
+    when: Apr. 11
+    date: '1964-04-11'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi speaks at the plenary session of the preparatory meeting at Jakarta. The 1.7 billion peoples of Asia and Africa are growing in anti-imperialist unity; opposing imperialism, winning and defending national independence, is the common most urgent task of Asian and African countries, and the Chinese government and people will, as always, join the peoples of Asia and Africa in the anti-imperialist, anti-colonialist struggle for lasting world peace, supporting, helping and encouraging one another. He asks the Asian and African states to strengthen their unity and cooperation further, and hopes that in the spirit of seeking common ground while keeping differences, equality and mutual understanding, the preparatory meeting will be opened.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 329 (Apr. 11, 1964). Names: Chen Yi.'
+    src:
+      c: 0a032b11
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 329: all'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
   - id: cal.1964-04-12.opinion
     when: Apr. 12
     date: '1964-04-12'
@@ -1935,6 +2013,18 @@ entries:
       - 1964-04-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-04-12.china
+    when: Apr. 12
+    date: '1964-04-12'
+    thread: china
+    also: [latin-america]
+    c: The Foreign Ministry spokesman issues a statement of strong protest at the Brazilian authorities' arrest of nine Chinese personnel, among them Geng Yaozeng, deputy representative of the China Council for the Promotion of International Trade in Brazil, and Wang Weizhen, Xinhua correspondent. The nine had gone to Brazil for trade, exhibition preparation and news work, under agreements between the two countries and with the Brazilian government's consent, and their entry and stay are wholly lawful. The arrest violates international law and runs against the wish of the two peoples for trade and friendship. China demands the immediate release of the arrested, the protection of their persons and lawful interests, and the restoration of their normal work.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 329–330 (Apr. 12, 1964). Check: the names are 耿耀增 and 王唯真 in the book; the Latin forms are back-converted.'
+    src:
+      c: ddbe0c60
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 329–330: all'
+    tags: [polity:prc, polity:brazil]
   - id: cal.1964-04-13.robert-kennedy
     when: Apr. 13
     date: '1964-04-13'
@@ -2106,12 +2196,13 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou receives Matsumura Kenzō, Liberal Democratic Party adviser and Diet member, and his party.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 401–02 (Apr. 13, 1964; 晚上, 接见松村谦三和他的随行人员, 并出席廖承志为松村谦三举行的宴会). Names: Zhou Enlai, Matsumura Kenzō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 401–02 (Apr. 13, 1964; 晚上, 接见松村谦三和他的随行人员, 并出席廖承志为松村谦三举行的宴会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 330 (Apr. 12–May 5, 1964; Matsumura Kenzō, adviser of the Liberal Democratic Party and Diet member, visits China at invitation; Zhou receives him and his party; the book gives the days of Zhou''s and Chen Yi''s receptions of him only as within the visit). Names: Zhou Enlai, Matsumura Kenzō.'
     src:
       c: 3b83bffd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 634: ?'
         - 'w.zhou-enlai-waijiao-huodong 401–02: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 330: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
     time_range:
       - 1964-04-13T11:00Z
@@ -2318,6 +2409,18 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 747–749, 752: A'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:tao-zhu, name:khrushchev-nikita-s, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-04-14.china
+    when: Apr. 14
+    date: '1964-04-14'
+    thread: china
+    also: [latin-america]
+    c: The Foreign Ministry spokesman again issues a statement of strong protest at the Brazilian authorities' cruel torture of the arrested Chinese personnel. He demands that Brazil stop the persecution at once and release them, and protect their persons and lawful interests; otherwise the Brazilian military-political authorities must answer for all the grave consequences.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 330 (Apr. 14, 1964).'
+    src:
+      c: f4b9aa4b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 330: all'
+    tags: [polity:prc, polity:brazil]
   - id: cal.1964-04-15.vietnam-congress
     when: Apr. 15
     date: '1964-04-15'
@@ -2430,6 +2533,18 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 765–767: all'
     tags: [polity:ussr, polity:prc, polity:poland, name:khrushchev-nikita-s]
+  - id: cal.1964-04-15.china-leadership-3
+    when: Apr. 15
+    date: '1964-04-15'
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: 'Mao Zedong receives all the members of the Algerian cultural delegation headed by Malek Bennabi, adviser to the leadership of the Algerian National Liberation Front. Mao says that Algeria''s victory is a great event: Africa has a country that fought its way out, and it has raised a banner for Africa that has great influence on Asia and Latin America too.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 331 (Apr. 15, 1964). Made public: 2001. Names: Mao Zedong. Check: the head is 马利克·本·纳比 in the book (Malek Bennabi?); back-converted. Whether the talk was reported then.'
+    src:
+      c: f6e7805e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 331: all'
+    tags: [polity:prc, polity:algeria, vis:only:prc+algeria, name:mao-zedong]
   - id: cal.1964-04-16.republican-party-congress
     when: Apr. 16
     date: '1964-04-16'
@@ -2588,13 +2703,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Telegram of Mao, Liu Shaoqi, Zhu De and Zhou Enlai to Khrushchev on his 70th birthday: for the demands of both peoples and of revolutionary peoples the two parties and countries will in the long run unite; the differences on Marxism-Leninism are temporary; in any great world event the two parties, two countries and peoples will stand together against the enemy.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou, with Mao, Liu Shaoqi and Zhu De, wires Khrushchev on his seventieth birthday: the present disunity is only temporary); [[w.lengxi-shinian-lunzhan-1956-1966]], 752–754 (the telegram''s text, dated Apr. 16 over the names of Mao Zedong, Liu Shaoqi, Zhu De and Zhou Enlai; sent in plain code in the small hours of the 16th). See [[cal.1964-04-13.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Khrushchev. Check: whether printed at the time (the chronology says only that it was sent).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou, with Mao, Liu Shaoqi and Zhu De, wires Khrushchev on his seventieth birthday: the present disunity is only temporary); [[w.lengxi-shinian-lunzhan-1956-1966]], 752–754 (the telegram''s text, dated Apr. 16 over the names of Mao Zedong, Liu Shaoqi, Zhu De and Zhou Enlai; sent in plain code in the small hours of the 16th); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 331 (Apr. 16, 1964; Mao, Liu Shaoqi, Zhu De and Zhou cable Khrushchev, First Secretary and Chairman of the Council of Ministers, congratulating him on his 70th birthday; the cable says that although there are differences between us on a series of questions of Marxism-Leninism and a state of disunity, we firmly believe it is temporary; once a great event occurs in the world, the Chinese and Soviet parties, the two countries and their peoples will stand together to deal with imperialism and the reactionaries of all countries, and they will tremble before our unity and always fail). See [[cal.1964-04-13.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Khrushchev. Check: whether printed at the time (the chronology says only that it was sent).'
     src:
       c: fd87d4b8
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 16, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 635: A, B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 752–754: A-C'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 331: A-C'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:khrushchev-nikita-s, polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1964-04-16.china-leadership-2
     when: Apr. 16
@@ -2603,13 +2719,14 @@ entries:
     thread: china-leadership
     also: [congo]
     c: 'Mao, Changsha, evening: talks with Zhou Enlai, who has brought guests from Beijing, then with them: Antoine, special envoy of Congo (Brazzaville), and Léonard Mitudidi, Politburo member of the African Solidarity Party of Congo (Léopoldville). The oppressor alone is low; Lumumba died for lack of an army; no army, no state power, no independence, no freedom, no equality. China sees their cause as its own, a duty to support it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou flies with Antoine and Mitudidi to Changsha; in the evening talks with Mao, then accompanies him in receiving the Congolese guests; Beijing again next day); [[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 16, 1964; 晚8时, 长沙, 陪同毛泽东主席接见). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Antoine, Léonard Mitudidi, Lumumba. Check: Antoine''s surname (the Chinese gives only Andoine).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou flies with Antoine and Mitudidi to Changsha; in the evening talks with Mao, then accompanies him in receiving the Congolese guests; Beijing again next day); [[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 16, 1964; 晚8时, 长沙, 陪同毛泽东主席接见); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 331–332 (Apr. 16, 1964; Mao, receiving the special envoy of Congo (Brazzaville), Mabundi? Antoine (马布恩古·安托万), and a member of the Politburo of Congo (Léopoldville)''s African Solidarity Party, Mikedi (米都迪): we can aid each other; you help us as we help you; your opposing imperialism there and weakening one part of imperialism is good for the world''s peoples; we do not take your affairs as yours but as ours; we make no distinction of Asian, African, Latin American or European, so long as they are revolutionary; we have a duty to support you, and you have a right to our support; if the Chinese people did not support you they would be on the side of imperialism, not true Marxist-Leninists but selfish nationalists). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Antoine, Léonard Mitudidi, Lumumba. Check: Antoine''s surname (the Chinese gives only Andoine).'
     src:
       c: 435965b0
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 16, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 635: A'
         - 'w.zhou-enlai-waijiao-huodong 402: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 331–332: A, E'
     tags: [name:mao-zedong, name:zhou-enlai, name:lumumba-patrice, polity:congo-brazzaville, polity:prc, vis:only:prc+congo-brazzaville]
     time_zone: Asia/Shanghai
   - id: cal.1964-04-16.china-leadership-3
@@ -2926,12 +3043,13 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou receives Matsumura Kenzō and other Japanese guests. Independence without alliance with the bloc makes a satellite; independence does not shut out cooperation with truly friendly states; China treats friends more warmly and an enemy in kind, but never hostile first. Matsumura need not fear China''s spirit of independence will start a world war with the U.S. Complains Ikeda''s government has said Taiwan''s status is undetermined; told this is not its meaning and a remedy is coming: "we shall see". China favors improving relations by accumulation, working toward diplomatic ties.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 636 (Apr. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 18, 1964; 下午, 人民大会堂福建厅). Names: Zhou Enlai, Matsumura Kenzō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 636 (Apr. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 18, 1964; 下午, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 330 (Apr. 12–May 5, 1964; Zhou and Chen Yi receive Matsumura Kenzō and his party; on the policy of independence and self-reliance Zhou says that if one does not firmly carry it out one becomes a satellite and the lackey of imperialism, a dependent state; independence does not exclude cooperation, for no country today can shut itself up and stand alone; true independence does not exclude international cooperation, that is, cooperation among truly friendly countries; China opposes the use of war and nuclear weapons by a few to deceive the world''s peoples and bully the weak; the book dates this to the visit, not to a day). Names: Zhou Enlai, Matsumura Kenzō.'
     src:
       c: 270cd1a2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 636: ?'
         - 'w.zhou-enlai-waijiao-huodong 403: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 330: A-C'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
     time_range:
       - 1964-04-18T04:00Z
@@ -3007,6 +3125,18 @@ entries:
     c: 'Liu Shaoqi receives the Korean cultural delegation headed by Kang Ku-yong (康久永), Vice-Chairman of the Committee for Cultural Relations with Foreign Countries. On creative work in literature and art he says: an era of revolutionary development should have good works; the literature and art of the New Democratic period already had socialist elements; with ten-odd years since the victory, socialist transformation basically done and the economic base complete, the New Democratic literature and art alone is not enough; a step further is needed, to socialist literature and art, which needs creation. China has not solved its problems here well, nor in education: what to do with primary, middle and university schools, where it too has many faults; these need solving and it is time to solve them.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590 (Apr. 19, 1964). Made public: 1996. See [[cal.1964-04-18.china-leadership-2]]. Names: Liu Shaoqi. Check: the Latin form of 康久永.'
     tags: [polity:prc, polity:dprk, name:liu-shaoqi, vis:only:prc+dprk@B-G]
+  - id: cal.1964-04-19.china
+    when: Apr. 19
+    date: '1964-04-19'
+    thread: china
+    also: [japan]
+    c: 'At Peking, Matsumura Kenzō takes part, as the Japanese representative, in the exchange of notes on three sets of minutes of talks: the Liao Chengzhi Office''s and the Takasaki Office''s minutes on exchanging representatives and setting up liaison offices, the minutes on exchanging journalists between China and Japan, and the minutes of the memorandum trade talks.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 330 (Apr. 19, 1964). Names: Takasaki. Check: the book gives the offices as 廖承志办事处 and 高崎办事处; the Latin forms are back-converted. Matsumura is not tagged: no name entry.'
+    src:
+      c: 102b2c2a
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 330: all'
+    tags: [polity:prc, polity:japan, name:takasaki-tatsunosuke]
   - id: cal.1964-04-20.testing
     when: Apr. 20
     date: '1964-04-20'
@@ -3182,6 +3312,29 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 769: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1964-04-20.china-leadership-3
+    when: Apr. 20
+    date: '1964-04-20'
+    thread: china-leadership
+    c: Zhu De receives the lawyers of five countries, Ceylon, Guinea, Angola, Argentina and Chile.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 332 (Apr. 20, 1964). Names: Zhu De. Check: the book gives the countries only.'
+    src:
+      c: d97d0b12
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 332: all'
+    tags: [polity:prc, polity:ceylon, polity:guinea, polity:argentina, polity:chile, name:zhu-de]
+  - id: cal.1964-04-20.china
+    when: Apr. 20
+    date: '1964-04-20'
+    thread: china
+    also: [africa]
+    c: China's first ambassador to Kenya, Wang Yutian, presents his credentials to Kenya's Governor-General, Malcolm MacDonald. He reached Nairobi on Apr. 18.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 332 (Apr. 20, 1964). Check: the ambassador is 王雨田 in the book; the Governor-General is 麦克唐纳; no name entry for the ambassador.'
+    src:
+      c: c1a25d32
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 332: all'
+    tags: [polity:prc, polity:kenya]
   - id: cal.1964-04-21.elections-1964
     when: Apr. 21
     date: '1964-04-21'
@@ -3605,6 +3758,18 @@ entries:
     c: Zhou calls the officials concerned to discuss finance on Apr. 22 and 24.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 22 and 24, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-04-22.china
+    when: Apr. 22
+    date: '1964-04-22'
+    thread: china
+    also: [laos]
+    c: The Foreign Ministry issues a statement on the present situation in Laos. The military coup the U.S. and the pro-U.S. Lao clique launched at Vientiane is an open and serious breach of the Geneva agreements, which China cannot look on at. Any wrecking of the Lao government of national union under the coup group's coercion is illegal. China fully supports the statement of Prince Souphanouvong of Apr. 19 and the just demands in the Vietnamese Foreign Ministry's statement of Apr. 20. Prince Souvanna Phouma's freedom must at once be restored and the coup leaders severely punished; the leaders of the three Lao sides should at once resume talks and decide effective guarantees so that the government of national union can act normally and carry out its political program.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 332 (Apr. 22, 1964). Names: Souphanouvong, Souvanna.'
+    src:
+      c: 32121ff4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 332: all'
+    tags: [polity:prc, polity:laos, polity:us, polity:drv, name:souphanouvong, name:souvanna-phouma]
   - id: cal.1964-04-23.king
     when: Apr. 23
     date: '1964-04-23'
@@ -3750,12 +3915,13 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou receives the Kansai economic friendship delegation under Sugano Watarō, Diet member and adviser to the Kansai office of the Japan Association for the Promotion of International Trade. Japan''s growth rests on the world market as well as home; China''s on self-reliance, but to modernize it needs international cooperation. Four principles: equality and mutual benefit; Sino-Japanese peaceful coexistence has an unlimited future; economic relations can be made sure and reliable; China''s ability to pay is strong. "We should look further."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 23, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 23, 1964; 下午5时, 人民大会堂福建厅). Names: Zhou Enlai, Sugano Watarō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 23, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 23, 1964; 下午5时, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 332–333 (Apr. 23, 1964; Zhou receives the Kansai economic friendship delegation led by Sugano Watarō (菅野和太郎), Liberal Democratic Party Diet member and adviser of the Kansai headquarters of the Japan International Trade Promotion Association; Zhou says that to run its own country China must be independent in economy and technique too; true independence is still some way off; but a policy of closing the door and standing alone is impossible, China hopes to cooperate with other countries on mutual respect and equality and mutual benefit if they wish it). Names: Zhou Enlai, Sugano Watarō.'
     src:
       c: 824a5188
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 637: ?'
         - 'w.zhou-enlai-waijiao-huodong 403: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 332–333: A, C'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
     time_zone: Asia/Shanghai
   - id: cal.1964-04-24.poverty
@@ -3907,11 +4073,12 @@ entries:
     thread: china-leadership
     also: [china, africa, latin-america]
     c: Peking. Zhou Enlai attends the reception given by the Youth League's Central Committee, the National Youth Federation and the National Students' Federation for the Asian, African and Latin American youth and student delegations.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 24, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 24, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 333 (Apr. 24, 1964; Zhou receives the youth and student representatives and friends of Korea, Vietnam, Japan, Mali, Senegal, Panama, Bolivia, Colombia, Mexico and other Asian, African and Latin American countries). Names: Zhou Enlai.'
     src:
       c: dacc5387
       rows:
         - 'w.zhou-enlai-waijiao-huodong 403: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 333: B'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1964-04-25.vietnam
     when: Apr. 25
@@ -4004,7 +4171,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou, at the joint session of the 117th meeting of the NPC Standing Committee and the 144th plenary meeting of the State Council, adds to his report on the fourteen-country trip, answering questions from the earlier discussion, and speaks on events of the past month. On the Sino-Soviet border: China''s principles in the talks are that the treaties after the Opium War are unequal, imposed by tsarist Russia; that China still accepts them as the base for talks with needed adjustments; that a new boundary treaty replace the old. The Soviet side does not agree; little progress.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 637–38 (Apr. 25, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 637–38 (Apr. 25, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 333 (Apr. 25, 1964; Zhou''s report to the joint meeting of the NPC Standing Committee and the State Council on his visit to 14 countries: ten African countries (the UAR, Algeria, Morocco, Tunisia, Ghana, Mali, Guinea, the Sudan, Ethiopia and Somalia) and Albania, Dec. 13, 1963–Feb. 5, 1964, and Burma, Pakistan and Ceylon, Feb. 14–Mar. 1, 72 days and 108,000 kilometers in all; a complete success). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: cfd80e0e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 637–38: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 333: A'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1964-04-25.china-leadership-3
     when: Apr. 25
@@ -4121,6 +4293,18 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 769–770: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-04-26.china
+    when: Apr. 26
+    date: '1964-04-26'
+    thread: china
+    also: [africa]
+    c: 'China establishes diplomatic relations with the United Republic of Tanganyika and Zanzibar. The editors'' note: that day Tanganyika and Zanzibar formed a united republic, renamed the United Republic of Tanzania on Oct. 29 of the same year.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 333–334 (Apr. 26, 1964). Check: the book gives only that the diplomatic relations are established; no document or day of their establishment other than Apr. 26 is given.'
+    src:
+      c: '23024927'
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 333–334: all'
+    tags: [polity:prc, polity:tanzania]
   - id: cal.1964-04-27.europe-and-the-alliance
     when: Apr. 27–28
     date: '1964-04-27'
@@ -5555,11 +5739,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives the Speaker of Burundi's National Assembly and the delegation he leads.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 中午). Names: Zhou Enlai. Check: the Speaker''s name, 塔德·西里马尤蒙西 in the book.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 334 (Apr. 27–May 11, 1964; Tadée Siryuyumunsi (塔德·西里尤蒙西), Speaker of the Burundi National Assembly, leads a parliamentary delegation visiting China at invitation; Mao, Liu Shaoqi and Zhu De receive the delegation, the days not given). Names: Zhou Enlai. Check: the Speaker''s name, 塔德·西里马尤蒙西 in the book.'
     src:
       c: 6c76b123
       rows:
         - 'w.zhou-enlai-waijiao-huodong 404: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 334: B'
     tags: [polity:burundi, polity:prc, name:zhou-enlai]
     time_range:
       - 1964-04-30T04:00Z
@@ -5573,11 +5758,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, south-asia]
     c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai and Deng Yingchao receive the Albanian women's delegation headed by Vito Kapo, president of the Albanian Women's Union, and the Ceylon Freedom Party's women's delegations.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 下午3时30分). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 下午3时30分); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 334 (Apr. 30, 1964; Zhou receives all the members of the delegation of the Ceylon Freedom Party''s women''s organization led by its vice-chairman, and of the Ceylon Progressive Women''s Association led by its treasurer). Names: Zhou Enlai.'
     src:
       c: 6f95452b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 404: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 334: B'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1964-04-30.china-leadership-6
@@ -5617,3 +5803,38 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 770: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-04-30.china-leadership-8
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: china-leadership
+    also: [africa]
+    c: Liu Shaoqi cables Julius Nyerere, President of the United Republic of Tanganyika and Zanzibar, congratulating the republic on its founding and him on his becoming its president.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 334 (Apr. 30, 1964). Names: Liu Shaoqi, Nyerere.'
+    src:
+      c: 195dab19
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 334: all'
+    tags: [polity:prc, polity:tanzania, name:liu-shaoqi, name:nyerere-julius-k]
+  - id: cal.1964-04-30.china-leadership-9
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: china-leadership
+    also: [cuba]
+    c: Zhu De receives the delegation of the Cuban Committees for the Defense of the Revolution, led by a member of the executive committee of the Committees' national committee.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 334 (Apr. 30, 1964). Names: Zhu De. Check: the head is 安赫尔·瓦连特·罗德里格斯 in the book; the Latin form is back-converted.'
+    src:
+      c: 150cd3b8
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 334: all'
+    tags: [polity:prc, polity:cuba, name:zhu-de]
+  - id: cal.1964-04-30.china-leadership-11
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: china-leadership
+    c: Chen Yi, Vice-Premier and Foreign Minister, receives the delegation of Japanese women activists headed by Asano and other Japanese friends.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 334 (Apr. 30, 1964). Names: Chen Yi. Check: the head is 田浅野 in the book. Zhou received a delegation of Japanese women activists headed by Asano on May 4, [[cal.1964-05-04.china-leadership-2]].'
+    src:
+      c: 7d795888
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 334: all'
+    tags: [polity:prc, polity:japan, name:chen-yi]

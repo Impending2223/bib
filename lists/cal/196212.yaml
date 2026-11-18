@@ -116,6 +116,18 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Kolkata
     range_basis: kind
+  - id: cal.1962-12-02.china
+    when: Dec. 2
+    date: '1962-12-02'
+    thread: china
+    also: [laos]
+    c: 'Phoumi Nosavan, Deputy Prime Minister and Minister of Finance of the Royal Lao government, begins a visit to China at the head of a Lao government delegation (to Dec. 4). In the visit, the day not given, the two sides issue a joint press communique: they will strictly observe the Geneva agreements of 1962 and hope the states concerned will faithfully carry out their provisions and respect Laos''s independence and neutrality.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 2–4, 1962). Names: Phoumi Nosavan. Check: the book gives the visit''s span, Zhou''s reception of the delegation and the communique, no day for either.'
+    src:
+      c: a7140046
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: all'
+    tags: [polity:prc, polity:laos, name:phoumi-nosavan]
   - id: cal.1962-12-03.japan-and-korea
     when: Dec. 3–5
     date: '1962-12-03'
@@ -292,14 +304,27 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Zhou Enlai receives the Royal Lao government's delegation under Phoumi Nosavan, Deputy Prime Minister and Minister of Finance, and talks of loan aid for Laotian construction and related matters.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 517 (Dec. 3, 1962); [[w.zhou-enlai-waijiao-huodong]], 344 (Dec. 3, 1962; 下午5时, 中南海西花厅, 接见并宴请). Made public: 1993. Names: Zhou Enlai, Phoumi Nosavan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 517 (Dec. 3, 1962); [[w.zhou-enlai-waijiao-huodong]], 344 (Dec. 3, 1962; 下午5时, 中南海西花厅, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 2–4, 1962; the visit of the Lao government delegation under Phoumi Nosavan, Deputy Prime Minister and Minister of Finance; Zhou receives it; the two sides issue a joint communique). Made public: 1993. Names: Zhou Enlai, Phoumi Nosavan.'
     src:
       c: e5f7d1e2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 517: ?'
         - 'w.zhou-enlai-waijiao-huodong 344: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: A'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:phoumi-nosavan, vis:only:prc+laos]
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-03.china-leadership-3
+    when: Dec. 3
+    date: '1962-12-03'
+    thread: china-leadership
+    also: [latin-america]
+    c: Mao Zedong, receiving Brazilian guests, says that anywhere a struggle against imperialism and against its running dogs is waged, China supports it, whatever the nation and whether or not they know one another, near or far. Latin America is far from China and its people are not of one nation with the Chinese, but China regards their revolutionary movement as its own.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 3, 1962). Made public: 2001. Names: Mao Zedong. Check: the guests are 拉格尔·戈索伊夫人 and 阿马里奥·德·奥利维拉·巴斯孔塞略斯 in the book (a woman and a man); the Latin forms are not recovered. Whether the talk was reported then.'
+    src:
+      c: be67a59f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: all'
+    tags: [polity:prc, polity:brazil, vis:only:prc+brazil, name:mao-zedong]
   - id: cal.1962-12-04.laos
     when: Dec. 4
     date: '1962-12-04'
@@ -920,6 +945,42 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 513–514: all'
     tags: [polity:prc, name:novotny-antonin, name:brezhnev-leonid]
+  - id: cal.1962-12-08.china
+    when: Dec. 8
+    date: '1962-12-08'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry spokesman issues a statement setting out the true state of the Sino-Indian conflict. It rejects India's insistence that talks begin only when the situation before Sept. 8, 1962, with India holding large tracts of Chinese territory, is restored, and again states China's peace proposals.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 8, 1962).'
+    src:
+      c: e563ad85
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1962-12-08.china-2
+    when: Dec. 8
+    date: '1962-12-08'
+    thread: china
+    also: [africa]
+    c: Liu Shaoqi and Zhou Enlai each cable Julius K. Nyerere, President of the Republic of Tanganyika, congratulating him on the founding of the republic and his becoming its first president.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 8, 1962). Names: Liu Shaoqi, Zhou Enlai, Nyerere.'
+    src:
+      c: fb1e2515
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: all'
+    tags: [polity:prc, polity:tanzania, name:liu-shaoqi, name:zhou-enlai, name:nyerere-julius-k]
+  - id: cal.1962-12-08.china-3
+    when: Dec. 8
+    date: '1962-12-08'
+    thread: china
+    also: [south-asia]
+    c: 'The Foreign Ministry sends a note to the Indian embassy: the Indian government has demanded that China withdraw its consulates general at Calcutta and Bombay, tearing up the agreement on the mutual setting up of consulates general unilaterally. China protests strongly. It decides to withdraw the two consulates general and recall their staff from Dec. 15, but says the decision does not mean China accepts India''s unreasonable demand or agrees to India''s one-sided action.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258–259 (Dec. 8, 1962).'
+    src:
+      c: df5466e3
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258–259: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1962-12-09.opinion-5
     when: Dec. 9
     date: '1962-12-09'
@@ -934,13 +995,26 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai telegraphs Bandaranaike, for the Colombo conference of non-aligned states, wishing success to the six-state Afro-Asian conference to promote reopening of Sino-Indian talks: the boundary question can and should be settled by peaceful talks between the two for a fair and reasonable outcome; China''s cease-fire and pullback of its own accord have stopped the clash and eased the situation, and it has begun to release Indian wounded and sick prisoners.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 518 (Dec. 9, 1962); [[w.zhou-enlai-waijiao-huodong]], 344–45 (Dec. 9, 1962). Continues 519; footnote: the conference met at Colombo Dec. 10–12 and hoped Bandaranaike would visit Peking and Delhi to carry its views. Made public: 1993. Names: Zhou Enlai, Srimavo Bandaranaike.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 518 (Dec. 9, 1962); [[w.zhou-enlai-waijiao-huodong]], 344–45 (Dec. 9, 1962); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 259 (Dec. 9, 1962; Zhou cables Prime Minister Bandaranaike of Ceylon, wishing the Colombo conference success). Continues 519; footnote: the conference met at Colombo Dec. 10–12 and hoped Bandaranaike would visit Peking and Delhi to carry its views. Made public: 1993. Names: Zhou Enlai, Srimavo Bandaranaike.'
     src:
       c: 00c7dd18
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 518: ?'
         - 'w.zhou-enlai-waijiao-huodong 344–45: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 259: A'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon]
+  - id: cal.1962-12-09.china
+    when: Dec. 9
+    date: '1962-12-09'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry hands the Indian embassy an aide-memoire asking the Indian government to answer three questions plainly. Does India agree to a cease-fire? Does it agree that the two armed forces disengage and each withdraw 20 kilometers from the line of actual control of Nov. 7, 1959? Does it agree that officials of both sides meet to discuss forming demilitarized zones, setting up checkposts and returning prisoners?
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 259 (Dec. 9, 1962).'
+    src:
+      c: a8b9cb60
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 259: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1962-12-10.european-community
     when: Dec. 10
     date: '1962-12-10'
@@ -1028,11 +1102,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the dinner given by the Pakistani Ambassador, Raza, and his wife for the Chinese leaders; he speaks his warm welcome to the convening of the conference of six Asian and African states and hopes it will help bring about direct India–China talks.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 10, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 10, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 259 (Dec. 10, 1962; Zhou, at the banquet given by the new Pakistani ambassador, Raza (罗查), says on behalf of the Chinese government and people that he warmly welcomes the convening of the conference of six Asian and African states, sincerely hopes it will help direct Sino-Indian negotiations, and hopes all Asian and African countries will strengthen their unity so that imperialism''s plot to sow division among them never succeeds). Names: Zhou Enlai.'
     src:
       c: 086646a4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 259: B-C'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai]
     time_range:
       - 1962-12-10T11:00Z
@@ -1047,6 +1122,18 @@ entries:
     c: 'Liu Shaoqi comments on the Central Committee General Office work group''s "Report on the relations of industry and commerce in Shijiazhuang and their handling," to Li Xiannian, Bo Yibo and Zihua: it deals with the relations of industry and commerce within the whole-people ownership, which long disputed, hindered production, and in three weeks was settled to fair satisfaction. They are to study it and fix at once some rules to settle quickly such relations everywhere, or a comment may be added fixing methods for the paper to be sent on to other places.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 566–567 (Dec. 10, 1962). Made public: 1996. To check: Central Committee General Office work group, "Report on the relations of industry and commerce in Shijiazhuang and their handling" (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 566). Names: Liu Shaoqi, Li Xiannian, Bo Yibo.'
     tags: [polity:prc, name:liu-shaoqi, name:li-xiannian, name:bo-yibo, vis:only:prc]
+  - id: cal.1962-12-10.south-asia
+    when: Dec. 10–12
+    date: '1962-12-10'
+    thread: south-asia
+    also: [china]
+    c: 'The conference of six Asian states, Ceylon, Cambodia, Burma, Indonesia, the United Arab Republic and Ghana, proposed by Prime Minister Bandaranaike of Ceylon to help bring about a peaceful settlement of the Sino-Indian conflict, meets at Colombo, Dec. 10–12. Its proposals, as the book''s editors'' note gives them: the existing cease-fire is a good starting point. In the west China is asked to make the 20-kilometer withdrawal proposed in Zhou''s letters of Nov. 21 and 28, India to keep its present positions, and the vacated area to be a demilitarized zone under civilian posts of both sides. In the east the line of actual control recognized by the two governments may serve as the cease-fire line. The middle sector is to be settled by peaceful means. A positive response would not prejudice either side''s position on the final boundary.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 259, 263–264 (Dec. 10–12, 1962). Names: Bandaranaike, Zhou Enlai. Check: the proposals are in the editors'' note on the item of Dec. 31–Jan. 9, 1963 (pp. 263–264), the book gives no day for the adoption of the proposals.'
+    src:
+      c: 769a1389
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 259, 263–264: all'
+    tags: [polity:prc, polity:ceylon, polity:cambodia, polity:burma, polity:indonesia, polity:uar, polity:ghana, polity:india, name:bandaranaike-srimavo, name:zhou-enlai]
   - id: cal.1962-12-11.europe-and-the-alliance
     when: Dec. 11
     date: '1962-12-11'
@@ -1156,6 +1243,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
+  - id: cal.1962-12-11.china
+    when: Dec. 11
+    date: '1962-12-11'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strong protest at nine incidents of Indian aircraft violating Chinese airspace over Tibet on Dec. 10 in succession.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 260 (Dec. 11, 1962).'
+    src:
+      c: 0163e04b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 260: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1962-12-12.opinion-5
     when: Dec. 12
     date: '1962-12-12'
@@ -1472,6 +1571,30 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 514: all'
     tags: [polity:prc]
+  - id: cal.1962-12-14.china
+    when: Dec. 14
+    date: '1962-12-14'
+    thread: china
+    also: [africa]
+    c: China's first ambassador to Tanganyika, He Ying, presents his credentials to President Nyerere. He reached Dar es Salaam on Mar. 31.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 260 (Dec. 14, 1962). Names: Nyerere. Check: the book says 第一任总统尼雷尔 (First President Nyerere); the ambassador is 何英, not tagged: no name entry.'
+    src:
+      c: 5e6b6af2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 260: all'
+    tags: [polity:prc, polity:tanzania, name:nyerere-julius-k]
+  - id: cal.1962-12-14.china-3
+    when: Dec. 14–16
+    date: '1962-12-14'
+    thread: china
+    also: [south-asia]
+    c: Zhang Wenjin, Director of the First Asian Department of the Foreign Ministry, twice calls in the Indian embassy's chargé d'affaires and hands him a note. To show its sincerity in seeking a peaceful settlement of the boundary question, China has directed its frontier troops to hand over to India the arms, ammunition and military stores the Indian troops left behind at Walong, Dirang Dzong and other places, and hopes India will send administrative personnel to take them over. A list of the stores is attached.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 260 (Dec. 14–16, 1962). Names: Zhang. Check: the place names are 里米金、梅楚卡、吉牙、德让宗 and 瓦弄 in the book; the Latin forms are back-converted; the chargé is 纳吉 and the days of the two calls are not given.'
+    src:
+      c: 3be78223
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 260: all'
+    tags: [polity:prc, polity:india, name:zhang-wenjin]
   - id: cal.1962-12-15.mississippi
     when: Dec. 15
     date: '1962-12-15'
@@ -1880,6 +2003,30 @@ entries:
     c: Zhou Enlai at the 76th meeting of the Standing Committee of the Second NPC gives the government's work report. The meeting decides to call the Fourth Session of the Second NPC in the second quarter of 1963, and to put off the election of delegates to the Third NPC to the second half of 1963.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 18, 1962). To check: the report as printed. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1962-12-18.china
+    when: Dec. 18
+    date: '1962-12-18'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a most serious renewed protest at India's intensified cruel persecution of overseas Chinese. The Chinese government decides to send ships to bring home the overseas Chinese in India who are detained or in distress, can find no living there and wish to return.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 18, 1962).'
+    src:
+      c: e2b02fc3
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1962-12-18.china-leadership-2
+    when: Dec. 18
+    date: '1962-12-18'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi, Vice-Premier, speaks at the cocktail party of the China–Cambodia Friendship Association for the second anniversary of the Sino-Cambodian treaty of friendship and non-aggression and of the Cambodia–China Friendship Association's founding. The treaty has had a stabilizing effect on peace in Southeast Asia and reflects the two peoples' love of peace. The Colombo conference's agreement on an appeal to China and India for a peaceful settlement of the boundary conflict accords with China's peace policy.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 18, 1962). Names: Chen Yi.'
+    src:
+      c: 9c0b0865
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: all'
+    tags: [polity:prc, polity:cambodia, polity:india, name:chen-yi]
   - id: cal.1962-12-19.testing
     when: Dec. 19
     date: '1962-12-19'
@@ -1964,6 +2111,29 @@ entries:
     c: Liu Shaoqi receives Arudji Kartawinata (阿鲁季·卡塔威纳塔), vice-chairman of Indonesia's Cooperative Congress, and Ahmadi (阿赫马迪), the Minister of Migration and Cooperatives.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 19, 1962). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
+  - id: cal.1962-12-19.china-leadership-3
+    when: Dec. 19
+    date: '1962-12-19'
+    thread: china-leadership
+    c: Chen Yi, Vice-Premier, receives a British Labour M.P. and former Cabinet minister, Noel-Baker.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 19, 1962). Names: Chen Yi. Check: the book''s 诺尔·贝克; the Latin form is back-converted (Philip Noel-Baker?).'
+    src:
+      c: 84ceb5c6
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: all'
+    tags: [polity:prc, polity:uk, name:chen-yi]
+  - id: cal.1962-12-19.china
+    when: Dec. 19
+    date: '1962-12-19'
+    thread: china
+    also: [soviet-union]
+    c: An Albanian government trade delegation led by Kiço Ngjela, Minister of Trade, begins a visit to China (to Jan. 18, 1963). The two sides hold talks at Peking, the days not given, on the supply of goods to each other for 1963 and on continuing to expand economic cooperation.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 19, 1962–Jan. 18, 1963). Check: the book gives the minister as 基·恩杰拉 (Kiço Ngjela?), back-converted.'
+    src:
+      c: caae694d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: all'
+    tags: [polity:prc, polity:albania]
   - id: cal.1962-12-20.latin-america
     when: Dec. 20
     date: '1962-12-20'
@@ -2125,12 +2295,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai and Chen Yi receive Ceylon's Prime Minister's special envoy, G. S. Peiris, Ambassador to Burma, who hands over the six-state conference's appeal to China and India for a peaceful settlement. Zhou admires Ceylon's initiative; the aim is direct talks of China and India for a peaceful settlement; China will talk at any time; it welcomes Bandaranaike's visit, to speak of the border and of Sino-Ceylonese friendship.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 22, 1962); [[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 22, 1962; 上午, 中南海西花厅, 接见并宴请). Continues 520. Made public: 1993. Names: Zhou Enlai, Chen Yi, G. S. Peiris, Srimavo Bandaranaike.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 22, 1962); [[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 22, 1962; 上午, 中南海西花厅, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 22, 1962; Zhou and Chen Yi receive Ceylon''s special envoy G. S. Peiris (格·斯·佩里斯), who on Bandaranaike''s behalf hands over the six-state conference''s appeal to the Chinese and Indian governments for a peaceful settlement of the boundary conflict). Continues 520. Made public: 1993. Names: Zhou Enlai, Chen Yi, G. S. Peiris, Srimavo Bandaranaike.'
     src:
       c: 7d4f8a89
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 519: ?'
         - 'w.zhou-enlai-waijiao-huodong 345: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: A'
     tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:chen-yi, name:bandaranaike-srimavo, vis:only:prc+ceylon]
     time_range:
       - 1962-12-21T22:00Z
@@ -2349,11 +2520,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to welcome Tsedenbal, Chairman of the Mongolian Council of Ministers, on his visit to sign the China–Mongolia boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 上午). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 上午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962; the visit of Tsedenbal, Chairman of the Mongolian Council of Ministers, in the book Chairman of the Council; Liu Shaoqi receives him; Zhou holds talks with him). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 605b76d5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: B'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-24T22:00Z
@@ -2408,6 +2580,17 @@ entries:
       - 1962-12-25T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-25.china-leadership-7
+    when: Dec. 25–27
+    date: '1962-12-25'
+    thread: china-leadership
+    c: Liu Shaoqi receives Tsedenbal, Chairman of the Mongolian Council of Ministers, during his visit to China, Dec. 25–27.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962). Names: Liu Shaoqi. Check: the book gives no day for Liu''s reception within the visit.'
+    src:
+      c: ffbcfaed
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
+    tags: [polity:prc, polity:mongolia, name:liu-shaoqi]
   - id: cal.1962-12-26.vietnam
     when: Dec. 26
     date: '1962-12-26'
@@ -2473,13 +2656,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and Tsedenbal, each for his country, sign the China–Mongolia Border Treaty.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 26, 1962); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 上午11时, 钓鱼台宾馆18号楼, 回访并会谈); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午, 陪同刘少奇主席接见泽登巴尔主席, 签字); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 26, 1962; Liu, with Dong Biwu and Zhou Enlai, meets Tsedenbal, chairman of the Mongolian Council of Ministers; on settling the boundary: it is fixed by treaty after talks, good for both peoples; as brother neighbors on mutual respect and equality, in a spirit of mutual understanding and concession, the boundary was settled smoothly; the same principles settle China''s boundaries with other brother countries). To check: the treaty. Names: Zhou Enlai, Tsedenbal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 26, 1962); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 上午11时, 钓鱼台宾馆18号楼, 回访并会谈); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午, 陪同刘少奇主席接见泽登巴尔主席, 签字); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 26, 1962; Liu, with Dong Biwu and Zhou Enlai, meets Tsedenbal, chairman of the Mongolian Council of Ministers; on settling the boundary: it is fixed by treaty after talks, good for both peoples; as brother neighbors on mutual respect and equality, in a spirit of mutual understanding and concession, the boundary was settled smoothly; the same principles settle China''s boundaries with other brother countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 26, 1962; the two sides sign the China–Mongolia boundary treaty). To check: the treaty. Names: Zhou Enlai, Tsedenbal.'
     src:
       c: b4a76962
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 521: ?'
         - 'w.zhou-enlai-waijiao-huodong 346: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 567: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: A'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-26.china-leadership-2
@@ -2658,6 +2842,18 @@ entries:
       - 1962-12-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-28.china
+    when: Dec. 28
+    date: '1962-12-28'
+    thread: china
+    also: [south-asia]
+    c: China and Pakistan issue a joint communique on the boundary question. The two sides reach agreement in principle on the location and alignment of the boundary actually existing between the two countries, and agree to sign a boundary agreement between them as soon as possible on that basis.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 28, 1962). Check: the book does not say where the communique was issued.'
+    src:
+      c: a43e6f11
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
+    tags: [polity:prc, polity:pakistan]
   - id: cal.1962-12-29.cuba
     when: Dec. 29
     date: '1962-12-29'
@@ -2788,17 +2984,42 @@ entries:
     thread: china-leadership
     also: [china, japan, trade]
     c: Peking, Xihuating. Zhou Enlai receives the guests from Japan, Suzuki Kazuo, chairman of the Japan–China Trade Promotion Association, and Yadoya Eiichi, vice president of the Japan International Trade Promotion Association.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 29, 1962; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 29, 1962; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 260 (Dec. 14–31, 1962; Suzuki Kazuo, chairman of the board of the Japan–China Trade Promotion Association, Shukuya Eiichi (宿谷荣一), vice-chairman of the Japan International Trade Promotion Association, and Kimura Ichizō (木村一三), executive director of its Kansai section, visit China at invitation; Zhou and Chen Yi receive them, the days not given). Names: Zhou Enlai.'
     src:
       c: a53cd9a1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 260: B'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
     time_range:
       - 1962-12-29T04:00Z
       - 1962-12-29T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-29.china
+    when: Dec. 29
+    date: '1962-12-29'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strongest protest at the Indian press's publication, from the Indian embassy, of an anti-Chinese "resolution" got up by agents of the Chiang Kai-shek clique in the name of overseas Chinese.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 29, 1962). Names: Chiang Kai-shek. Check: the book''s wording is 对印度使馆在它的公报上刊登在印度的蒋介石集团特务盗用华侨名义搞出来的反华“决议”; the note is as the book gives it, an item of the embassy''s own bulletin.'
+    src:
+      c: 18fe2231
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
+    tags: [polity:prc, polity:india, polity:roc, name:chiang-kai-shek]
+  - id: cal.1962-12-29.china-2
+    when: Dec. 29
+    date: '1962-12-29'
+    thread: china
+    also: [cuba]
+    c: The China–Cuba Friendship Association is founded at Peking.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 29, 1962).'
+    src:
+      c: 10c255a7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
+    tags: [polity:prc, polity:cuba]
   - id: cal.1962-12-30.middle-east-yemen
     when: Dec. 30
     date: '1962-12-30'
@@ -2881,13 +3102,26 @@ entries:
     thread: china-leadership
     also: [china, japan]
     c: Peking, Xihuating. Zhou Enlai receives Utsunomiya Tokuma, a Liberal Democratic Party member of the House of Representatives, and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 30, 1962; 晚7时30分). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 30, 1962; 晚7时30分); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 30, 1962; Zhou receives Utsunomiya Tokuma (宇都宫德马), a Liberal Democratic Party member of the House of Representatives, and his wife). Names: Zhou Enlai.'
     src:
       c: 0501c590
       rows:
         - 'w.zhou-enlai-waijiao-huodong 347: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: B'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-30.china
+    when: Dec. 30
+    date: '1962-12-30'
+    thread: china
+    also: [south-asia]
+    c: The Defense Ministry spokesman issues a statement on the Chinese frontier troops' continuing their unilateral withdrawal from the eastern and western sectors of the boundary. They continue to withdraw on Dec. 30. By the end of December, in the east, except the Tawang area, both groups have withdrawn north of the line of actual control of Nov. 7, 1959 and to areas near it; in the west most have withdrawn to 20 kilometers from the line. This, he says, shows China's positive effort to consolidate the cease-fire, ease border tension and settle the Sino-Indian boundary question peacefully.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262–263 (Dec. 30, 1962). Check: the book''s 达旺 is Tawang, back-converted.'
+    src:
+      c: 80680ba7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262–263: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1962-12-31.vietnam
     when: Dec. 31
     date: '1962-12-31'
@@ -3331,11 +3565,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai goes to the airport to welcome Mrs. Bandaranaike, Prime Minister of Ceylon.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 中午). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 263–264 (Dec. 31, 1962–Jan. 9, 1963; Prime Minister Bandaranaike of Ceylon visits China on behalf of the Ceylon government and the Colombo conference of six Asian states; Mao, Liu Shaoqi and Soong Ching Ling receive her, Zhou and Chen Yi hold talks with her and with Subandrio, the Indonesian deputy first minister, then visiting; the book gives the days only of the communiques, Jan. 8). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
     src:
       c: 93b23d81
       rows:
         - 'w.zhou-enlai-waijiao-huodong 347: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 263–264: B-C'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
     time_range:
       - 1962-12-31T04:00Z
@@ -3396,3 +3631,38 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 517–518: all'
     tags: [polity:prc, name:togliatti-palmiro]
+  - id: cal.1962-12.china-2
+    when: Dec., after the 14th
+    date: 1962-12
+    at: after 1962-12-14
+    thread: china
+    also: [japan]
+    c: The Japanese trade delegation and the Chinese side, after talks, sign a protocol of Sino-Japanese trade. It restates the three political principles, the three trade principles and the principle that politics and economics are inseparable, which the Chinese government put forward. Both sides will work together to strengthen friendly trade relations between the Japanese and Chinese peoples and to promote the normalization of relations between the two countries.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 260 (Dec., after the 14th, 1962). Check: the book gives the signing within the visit of Dec. 14–31, with no day; the Chinese signatory is not named. See [[cal.1962-12-29.china-leadership]].'
+    src:
+      c: b34151d7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 260: all'
+    tags: [polity:prc, polity:japan]
+  - id: cal.1962-12-31.china
+    when: Dec. 31
+    date: '1962-12-31'
+    thread: china
+    c: The Foreign Ministry spokesman issues a statement on the British weekly 论坛 printing a forged letter of Zhou Enlai. He sternly condemns the weekly's attempt to use a forged letter to attack China's policy and to slander the credibility of its leaders.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 263 (Dec. 31, 1962). Names: Zhou Enlai. Check: the weekly is 《论坛》 in the book (Tribune?); the forged letter''s addressee is not given.'
+    src:
+      c: 1cc8cf07
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 263: all'
+    tags: [polity:prc, polity:uk, name:zhou-enlai]
+  - id: cal.1962-12-31.china-2
+    when: Dec. 31
+    date: '1962-12-31'
+    thread: china
+    c: Switzerland closes its Consulate-General at Shanghai.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 264 (Dec. 31, 1962). Check: the book gives no reason.'
+    src:
+      c: c767b5e4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 264: all'
+    tags: [polity:prc, polity:switzerland]
