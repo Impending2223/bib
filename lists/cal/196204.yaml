@@ -546,7 +546,15 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The enlarged Politburo adopts the Central Committee''s reply to the Soviet Central Committee''s letter of Feb. 22. To the Soviet charges (a "special position," a line apart from the other parties'', support for Albania) it answers with a proposal: a conference of fraternal parties to settle the common line and the Soviet–Albanian question.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 7). [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 7, 1962: Zhou Enlai attends the enlarged Politburo; it also goes on to the topics of the Supreme State Conference of Mar. 21). Made public: 1997. To check: the reply as sent (the nianpu, Mar. 20, dates a revision to Apr. 2) and its delivery. See [[cal.1962-04-03.china-leadership]]. Check: The nianpu does not date the delivery.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 7). [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 7, 1962: Zhou Enlai attends the enlarged Politburo; it also goes on to the topics of the Supreme State Conference of Mar. 21); [[w.macfarquhar-origins-of-the-cultural]], III, 271 (the Central Committee''s letter of Apr. 7 to the CPSU indicates a readiness for bilateral talks, after a group of neutral parties'' proposal that polemics cease). Made public: 1997. To check: the reply as sent (the nianpu, Mar. 20, dates a revision to Apr. 2) and its delivery; [[w.dallin-diversity-in-international-communism]], 650–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 271 n.58). See [[cal.1962-04-03.china-leadership]]. Check: The nianpu does not date the delivery.'
+    src:
+      c: 1014e39b
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 29, 1962: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 470: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 271: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 271 n.58: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 271 n.59: A'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1962-04-07.china
     when: Apr. 7
@@ -2832,9 +2840,32 @@ entries:
     thread: china
     also: [south-asia]
     c: 'The Foreign Ministry sends a note to the Indian government, a most strong protest: in the 17 days from Apr. 11 to 27 Indian troops made 18 intrusions into Xinjiang and set up new military posts. It demands that India withdraw the posts and men from Chinese territory. If it refuses and goes on provoking, the border guards will defend themselves, and India will bear all the consequences.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 225 (Apr. 30, 1962).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 225 (Apr. 30, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 299 (the seventh note of the year: the PLA to resume patrols from the Karakoram Pass to the Kongka Pass, suspended since 1959, and along the whole frontier if the Indian advance goes on). To check: [[w.palit-war-in-high-himalaya]], 156–60, 170, 173–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 299 n.13a); [[w.affairs-white-papers]], VI, i, 37–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 299 n.13b); [[w.maxwell-indias-china-war]], 250–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 299 n.13c); [[w.gopal-jawaharlal-nehru]], 211 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 299 n.13d).'
     src:
       c: 627cd2f0
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 225: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 299: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 299 n.13a: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 299 n.13b: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 299 n.13c: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 299 n.13d: A, C'
     tags: [polity:prc, polity:india]
+    variants:
+      - unit: A
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: fifteen new Indian intrusions between Apr. 15 and 27
+        at: III, 299
+  - id: cal.1962-04.soviet-union
+    when: Apr.–July
+    date: 1962-04
+    thread: soviet-union
+    also: [china-leadership]
+    c: Enver Hoxha, in diary notes, describes Chinese policy variously as vacillating, centrist and conciliatory, with tendencies to softening, fear and passivity. Beijing is extremely reticent with Tirana about its dealings with Moscow.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 271. Made public: 1979. To check: [[w.hoxha-reflections-on-china-vol]], 3–29 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 271 n.61a). Check: the days of the notes.'
+    src:
+      c: 4b10431b
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 271: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 271 n.61a: all'
+    tags: [polity:albania, polity:prc, vis:only:albania]
