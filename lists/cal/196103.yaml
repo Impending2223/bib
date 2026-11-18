@@ -553,6 +553,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-06.china-leadership
+    when: Mar. 6
+    date: '1961-03-06'
+    thread: china-leadership
+    c: A preliminary version of the commune regulations, sixty-seven articles, which Mao thinks too long, goes to the Standing Committee's members.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.16). Names: Mao Zedong.'
+    src:
+      c: 0eb78f63
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.16: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-07.confirmations
     when: Mar. 7–8
     date: '1961-03-07'
@@ -820,7 +832,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, trade, cuba]
     c: 'Zhou Enlai, for the Center, answers orally to Chervonenko Khrushchev''s letter of Feb. 27 to Mao offering grain and Cuban sugar on credit. In face of the grain shortage China first mobilizes its own strength, then buys more on deferred payment from the world market, so the Soviet offer would be held in reserve and asked for only if purchases fail. On 500,000 tons of Cuban sugar: if not urgent for the Soviet market, China would accept this aid.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 8, 1961). Made public: 1997. Names: Zhou Enlai, Chervonenko, Khrushchev, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 8, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 25–26 (the oral reply of Mar. 8: China to buy abroad, the Soviet grain kept in reserve, the sugar accepted). Made public: 1997. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 105–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 26 n.22). Names: Zhou Enlai, Chervonenko, Khrushchev, Mao Zedong.'
+    src:
+      c: ac2e4ace
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 397: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 25–26: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 26 n.22: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc+ussr]
   - id: cal.1961-03-08.china-leadership-3
     when: Mar. 8
@@ -1231,8 +1249,27 @@ entries:
     date: '1961-03-10'
     thread: china-leadership
     c: Canton. Mao's "Three South" conference of the East China, Central-South and Southwest bureaus and their provinces, on the communes' system and regulations (its order set that morning with Ke Qingshi, Li Jingquan, Tao Zhu, Chen Boda and Hu Qiaomu).
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). Made public: 2013. Names: Mao Zedong, Ke Qingshi, Li Jingquan, Tao Zhu, Chen Boda, Hu Qiaomu, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). [[w.macfarquhar-origins-of-the-cultural]], III, 41–42 (the Three South conference). Made public: 2013. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 916–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.17a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 446–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.17b). Names: Mao Zedong, Ke Qingshi, Li Jingquan, Tao Zhu, Chen Boda, Hu Qiaomu, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
+    src:
+      c: '77455177'
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 10, 1961: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 41–42: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.17a: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.17b: A-B'
     tags: [polity:prc, name:mao-zedong, name:ke-qingshi, name:li-jingquan, name:tao-zhu, name:chen-boda, vis:only:prc]
+  - id: cal.1961-03-10.china-leadership-2
+    when: Mar. 10
+    date: '1961-03-10'
+    thread: china-leadership
+    c: After consultations, the final version of the first draft of the commune regulations is completed.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.16).'
+    src:
+      c: 4b18b3eb
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.16: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-03-11.cuba
     when: Mar. 11
     date: '1961-03-11'
@@ -1307,12 +1344,17 @@ entries:
     date: '1961-03-11'
     thread: china-leadership
     c: Peking. Liu Shaoqi, Zhou Enlai, Chen Yun and Deng Xiaoping hold the "Three North" conference of the North China, Northeast and Northwest bureaus and their provinces, on the communes' system and working regulations.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). [[w.zhou-enlai-nianpu-1949]], II, 397, Mar. 11–13, 1961 (Zhou with Liu at the "Three North" conference). Made public: 2013. Names: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). [[w.zhou-enlai-nianpu-1949]], II, 397, Mar. 11–13, 1961 (Zhou with Liu at the "Three North" conference). [[w.macfarquhar-origins-of-the-cultural]], III, 41–42 (the Three North conference). Made public: 2013. To check: [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.19a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 454–55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.19b); [[w.jin-1949-1989-niande-zhongguo]], 218 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 42 n.20b). Names: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
     src:
       c: 5f477d42
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Mar. 10, 1961: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 397, Mar. 11–13, 1961: B'
+        - 'w.macfarquhar-origins-of-the-cultural III, 41–42: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.19a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.19b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.20a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.20b: B'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-03-11.china-leadership
     when: Mar. 11
@@ -1504,7 +1546,16 @@ entries:
     date: '1961-03-13'
     thread: china-leadership
     c: 'Mao, 8 a.m., to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Three North conference, by Tao Zhu: the two egalitarianisms, between teams in a brigade and between members in a team, "two extremely grave questions," to be studied in person; Deng and Peng to spend ten days in Miyun, Shunyi, Huairou: are they "still unclear"?'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms). Made public: 2013. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
+    src:
+      c: ef3aa923
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 13, 1961: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 42–43: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24d: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:tao-zhu, vis:only:prc]
   - id: cal.1961-03-13.china-leadership-2
     when: Mar. 13
@@ -1732,13 +1783,68 @@ entries:
     date: '1961-03-15'
     thread: china-leadership
     c: 'Canton. The Central Work Conference, Mao presiding: the regional bureaus'' and provinces'' secretaries. It adopts the draft Working Regulations for the Rural People''s Communes (the "Sixty Articles"), the Center''s letter to all members on discussing them, and its letter on investigation. The draft holds down the commune''s power, makes the brigade the main accounting unit, part of the ownership with the team, and restores the higher cooperatives'' rules. Mao: the first time since the communes that the center sat down together on farming.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). Made public: 2013. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961. Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). [[w.macfarquhar-origins-of-the-cultural]], III, 43–48 (the Canton conference; the Sixty Articles). Made public: 2013. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961; [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25a); [[w.xin-zhongguo-biannianshi-1949]], 185 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25b); [[w.zhongguo-gongchan-dang-lici]], xia, 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25c); [[w.bian-mao-zedong-he-tade]], 48 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25e); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25f); [[w.zhongguo-gongchan-dang-lishi]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25g); [[w.zhonggong-dangshi-dashi-nianbiao]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25h); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 300 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25i); [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25j); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 455, 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25k); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25l); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25m); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 452–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41a); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 455–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41b); [[w.politics-of-the-chinese]], 465–70, 491–98, 515–26, 582 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41d); [[w.shanxi-sishi-nian-1949]], III-79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.45a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d). Names: Mao Zedong, Deng Xiaoping.'
     src:
       c: e83e5d0d
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Mar. 15, 1961: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 398–99, Mar. 15–23, 1961: A'
+        - 'w.macfarquhar-origins-of-the-cultural III, 43–48: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25a: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25b: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25c: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25d: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25e: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25f: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25g: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25h: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25i: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25j: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25k: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25l: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.25m: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.34: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 45 n.41a: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 45 n.41b: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 45 n.41c: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 45 n.41d: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 45 n.45a: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 45 n.45b: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 46 n.46: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 46 n.48a: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 46 n.48b: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 46 n.50: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 47 n.51: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58a: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58b: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58c: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58d: C'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-15.china-leadership-3
+    when: Mar. 15
+    date: '1961-03-15'
+    thread: china-leadership
+    c: Canton. Hu Qiaomu completes a second draft of the commune regulations from his notes of the Three South conference.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 916–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.17a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 446–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.17b).'
+    src:
+      c: 028cc352
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.17a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.17b: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-15.china-leadership-4
+    when: Mar. 15
+    date: '1961-03-15'
+    thread: china-leadership
+    c: Canton. Liu Shaoqi, at a small group meeting of the work conference, calls household sideline production "economic democracy" (jingji minzhu).
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59 (by a participant''s account). Made public: 1997. To check: A participant in the Canton conference, private communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59c). Names: Liu Shaoqi.'
+    src:
+      c: 3d28babf
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 48 n.59: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59c: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1961-03-16.middle-east
     when: Mar. 16
     date: '1961-03-16'
@@ -1897,6 +2003,20 @@ entries:
     thread: latin-america-dominican-republic
     c: 'CIA headquarters to the station, on the pistols for Dearborn: "Regret no authorization exists to suspend pouch regulations against shipment of arms." The reply coordinated with State.'
     n: '[[w.sen-church-alleged-assassination-plots]], 199 (the cable). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, headquarters to station, Mar. 17, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 199). See [[cal.1961-03-15.latin-america-dominican-republic]].'
+  - id: cal.1961-03-17.china-leadership
+    when: Mar. 17–22
+    date: '1961-03-17'
+    thread: china-leadership
+    c: Shanxi. The provincial party's standing committee meets to discuss and carry out the "spirit" of the northern meeting at Peking; another has to be called for the results of the Canton conference.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 42. Made public: 1997. To check: [[w.shanxi-sishi-nian-1949]], III-79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 42 n.22a); [[w.macfarquhar-origins-of-the-cultural]], I, 207–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 42 n.22b); [[w.zedong-jianguo-yilai-mao-zedong]], 6, 432–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 42 n.22c).'
+    src:
+      c: cee18b15
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 42: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.22a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.22b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.22c: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-03-18.laos
     when: Mar. 18
     date: '1961-03-18'
@@ -2012,8 +2132,32 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'At the Central-South and North China groups Zhou Enlai on investigation, facts and democratic centralism: since entering the cities, and in recent years, too little investigation, too little truth, so the "five winds" were not at once corrected. Mao''s essay on investigation is a view of the world and a method; good and bad to be judged from what exists, not from subjective fancy; dare to hear other views and talk with those who hold them; compare, synthesize, analyze; the fault now is too much command and too little mass line.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 19, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 19, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 44, 48 (Zhou speaks to the conference on investigation and research). Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 48 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.35a); [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.35b); [[w.selected-works-of-zhou]], 2, 320–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59b); A participant in the Canton conference, private communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59c). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: c09a2a5c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 398: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 44, 48: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.35a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.35b: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59a: A-B, F'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59b: A-B, F'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59c: A-B, F'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-19.china-leadership-3
+    when: Mar. 19
+    date: '1961-03-19'
+    thread: china-leadership
+    c: 'Canton. Liu Shaoqi speaks to the Central Work Conference on investigation and research: such work weak these past few years; errors big and small since 1958, some avoidable; reports from below to be believed, but some not wholly credible.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 48 (the speech; the day, 48 n.59). Made public: 1997. To check: [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685–88 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59a); [[w.selected-works-of-zhou]], 2, 320–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59b); A participant in the Canton conference, private communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.59c). Names: Liu Shaoqi.'
+    src:
+      c: 6de58992
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 48: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59c: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1961-03-20.cuba
     when: Mar. 20
     date: '1961-03-20'
@@ -2134,6 +2278,18 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 212 n.19b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 214 n.26: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-20.china-leadership
+    when: Mar. 20
+    date: '1961-03-20'
+    thread: china-leadership
+    c: Canton. Li Xiannian tells the work conference that it is decided to import 5 million tonnes of grain in 1961 and 3.5 to 4 million in 1962.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 24. Made public: 1997. To check: [[w.dangdai-zhongguode-liangshi-gongzuo]], 123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 24 n.13). Names: Li Xiannian.'
+    src:
+      c: 275144f8
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 24: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 24 n.13: all'
+    tags: [polity:prc, name:li-xiannian, vis:only:prc]
   - id: cal.1961-03-21.states-and-cities-el-paso
     when: Mar. 21
     date: '1961-03-21'
@@ -2511,7 +2667,16 @@ entries:
     date: '1961-03-23'
     thread: china-leadership
     c: 'The Center sends the Party''s regional bureaus and provincial committees a letter on conducting investigation seriously, with Mao''s 1930 essay "Investigation Work": county committees and above, first secretaries first, to study Mao''s method and make going down to the base, in person, for systematic typical inquiry the first task of leadership.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 23, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 23, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 48 (the letter to the provincial standing committees: "No investigation, no right to speak"). Made public: 1997. To check: [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 462 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58c); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: b7a7bb84
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 399: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 48: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58d: all'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-24.program
     when: Mar. 24
@@ -3854,3 +4019,145 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 456, 473: all'
     tags: [polity:prc, vis:only:ussr+poland+czechoslovakia+gdr+hungary+romania+bulgaria+albania]
+  - id: cal.1961-03.china-leadership
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    c: Hangzhou. Marshal Nie Rongzhen, resting, summons the Academy's drafters and a Shanghai branch team; Han Guang, Zhang Jingfu, Du Runsheng, Liu Shuzhou and Shu Wen draft fourteen articles for him, the April draft.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 93. Made public: 1997. To check: [[w.da-pipan-beijing-cailiao]], 6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 93 n.29). Names: Nie Rongzhen. Check: the day.'
+    src:
+      c: ed9fb069
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 93: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 93 n.29: all'
+    tags: [polity:prc, name:nie-rongzhen, vis:only:prc]
+  - id: cal.1961-03.china-leadership-2
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    c: 'Zhongnanhai. A conference on traditional opera, at Chen Yi''s instance; Chen Yi speaks: the old drama is not to be reformed out of existence, Mao himself is not to be deified, plays are for relaxation, "cast aside your inhibitions."'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 111–114. Made public: 1997. To check: [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 111 n.115a); [[w.chen-yi-zhuan]], 530 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 111 n.115b); [[w.suyin-my-house-has-two]], 353–54 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 112 n.122); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.123); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 477–78, 479–80, 479 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124a); [[w.twitchett-cambridge-history-of-china]], 350–55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124b); [[w.cambridge-history-of-china]], 306–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124c); [[w.moruo-five-historical-plays]], vii–ix, 317–521 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124d); [[w.wagner-contemporary-chinese-historical-drama]], 80–138 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124e); [[w.kuhn-rebellion-and-its-enemies]], 135–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124f); [[w.schram-mao-tse-tung]], 51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124g); [[w.xueyin-li-zicheng-vol-1]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124h); [[w.fbis-chi-91-076]], 25 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124i); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 479 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.125); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 479–80, 482 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.126); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 481 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.127); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 114 n.128). Names: Chen Yi, Mao Zedong. Check: the day.'
+    src:
+      c: 8c3afc3e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 111–114: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 111 n.115a: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 111 n.115b: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 112 n.122: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.123: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124a: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124b: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124c: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124d: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124e: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124f: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124g: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124h: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.124i: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.125: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.126: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.127: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 114 n.128: C'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03.china-leadership-3
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    c: The Center directs a plan for higher education to be drafted; in April Jiang Nanxiang, a Vice-Minister of Education, starts the draft of the Sixty Articles on Higher Education, for the keypoint schools.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 104–105. Made public: 1997. To check: [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.84a); [[w.zhonghua-renmin-gongheguo-jiaoyu]], 298 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.84b); [[w.jiaoxue-pipan]], Aug. 20, 1967 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.84c); [[w.chinese-sociology-and-anthropology]], Fall–Winter 1969–70, 55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.84d); [[w.jiaoyu-geming]], May 6, 1967 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.84e); [[w.joint-publications-research-service]], No. 41,932 (July 21, 1967), 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.84f). Check: the day.'
+    src:
+      c: 285c9b4e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 104–105: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.84a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.84b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.84c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.84d: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.84e: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.84f: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03.china-leadership-5
+    when: Mar., 15–23
+    date: 1961-03
+    thread: china-leadership
+    c: 'Canton conference. Mao, by Cultural Revolution accounts, upbraids Deng Xiaoping and Peng Zhen over the proposal to divide the country in two, north and south: "Which emperor made this decision?" Mao acknowledges Deng Zihui''s forty articles.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 43–44. Made public: 1997. To check: [[w.zhonggong-dangshi-renwuzhuan]], 7, 372–73, 366–72 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 912–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28b); [[w.macfarquhar-origins-of-the-cultural]], I, 19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28c); [[w.dangshi-yanjiu]], No. 1, 1981, 2–9, 10–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28d); [[w.xuehui-deng-zihui-nongye-hezuo]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28e); [[w.chao-agrarian-policy-of-the]], 331 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.29); [[w.survey-of-china-mainland]], (Supplement), No. 167, 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.30a); [[w.selections-from-china-mainland]], No. 574, 15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.30b); [[w.survey-of-china-mainland]], No. 3903, 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.30c); [[w.survey-of-china-mainland]], No. 3908, 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.30d); [[w.deng-xiaoping-zibai-shu]], 6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.30e); [[w.dongfang-hong]], No. 20, Feb. 18, 1967, 6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.31a); [[w.survey-of-china-mainland]], No. 3903, 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.31b); [[w.deng-xiaoping-fan-dang]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.31c); [[w.dongfang-hong]], No. 20, Feb. 18, 1967, 6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.32a); [[w.survey-of-china-mainland]], (Supplement), No. 187, 25 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 44 n.32b). Names: Mao Zedong, Deng Xiaoping, Peng Zhen. Check: the day; whether in public or private.'
+    src:
+      c: f76452b6
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 43–44: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28a: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28b: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28c: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28d: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28e: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.29: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.30a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.30b: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.30c: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.30d: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.30e: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.31a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.31b: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.31c: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.32a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 44 n.32b: B'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-03.china-leadership-6
+    when: Mar., late
+    date: 1961-03
+    at: before 1961-03-21
+    thread: china-leadership
+    c: Hu Qiaomu holds discussions on the mess-halls in Shaoshan, Mao's home village in Hunan; Mao supervises the team for twenty days.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 48–49, 65. Made public: 1997. To check: [[w.dangdai-zhongguode-hunan]], 2, 631 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.63a); [[w.guzhong-mao-zedong-hui-hunan]], 113, 116 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.63b); [[w.dangdai-zhongguode-hunan]], 2, 631 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148b). Names: Mao Zedong. Check: the days.'
+    src:
+      c: 377e67d9
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 48–49, 65: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.63a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.63b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 65 n.148a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 65 n.148b: A'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03.china-leadership-11
+    when: Mar., after Canton
+    date: 1961-03
+    at: after 1961-03-23
+    thread: china-leadership
+    c: Li Xiannian sends teams from the ministries to Hebei, Henan, Shandong, Jiangsu and Hubei, and goes with the Hebei group.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 50. Made public: 1997. To check: [[w.xiannian-li-xiannian-wenxuan-1935]], 257 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 50 n.73). Names: Li Xiannian. Check: the days.'
+    src:
+      c: d99e8057
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 50: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.73: all'
+    tags: [polity:prc, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-03.china-leadership-12
+    when: Mar., after Canton
+    date: 1961-03
+    at: after 1961-03-23
+    thread: china-leadership
+    c: Zhu De tours Sichuan, Henan and Shaanxi.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 50. Made public: 1997. To check: [[w.zhongguo-gongchan-dang-lici]], 153 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 50 n.74a); [[w.simin-wo-yanzhongde-zhu-de]], 332 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 50 n.74b); [[w.mu-zhongguo-yuanshuai-zhu-de]], 508 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 50 n.74c); [[w.zhu-de-fan-dang]], 30 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 50 n.74d). Names: Zhu De. Check: the days.'
+    src:
+      c: 8dc4534a
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 50: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.74a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.74b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.74c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.74d: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1961-03.china-leadership-14
+    when: Mar., after Canton
+    date: 1961-03
+    at: after 1961-03-23
+    thread: china-leadership
+    c: Lin Biao spends seven days investigating; Mao sends him a message to guard his health.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 50. Made public: 1997. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 487 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 50 n.77b). Names: Lin Biao, Mao Zedong. Check: the days.'
+    src:
+      c: 0fa17509
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 50: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.77b: all'
+    tags: [polity:prc, name:lin-biao, name:mao-zedong, vis:only:prc]
