@@ -1367,6 +1367,17 @@ entries:
       - 1965-05-08T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-08.china-leadership-5
+    when: May 8
+    date: '1965-05-08'
+    thread: china-leadership
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Antonín Novotný, Bohuslav Laštovička and Jozef Lenárt on the 20th anniversary of Czechoslovakia''s liberation: the Soviet aid of 1945, the defeat of bourgeois restoration, and unity with the camp against U.S. imperialism and West German militarism and revanchism, in support of Vietnam.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 47–48 (May 8, 1965; printed from *Renmin ribao*, May 9, 1965). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Novotný, Laštovička, Lenárt.'
+    src:
+      c: 05ef7a75
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 47–48: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:novotny-antonin, polity:czechoslovakia]
   - id: cal.1965-05-09.opinion
     when: May 9
     date: '1965-05-09'
@@ -1652,7 +1663,13 @@ entries:
     thread: china-leadership
     also: [latin-america-dominican-republic]
     c: Zhou writes Mao proposing a statement in Mao's name supporting the Dominican people's armed anti-American patriotic struggle.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 11, 1965). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 11, 1965); [[w.jianguo-yilai-mao-zedong]], XVIII, 49–51 (May 11, 1965; note 1: Zhou''s telegram of 8 p.m., May 11, asking leave to issue a statement in Mao''s name, text enclosed, as a mass rally in Peking was to open the next day). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 95e0c161
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 730: ?'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 49–51: A'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 51 n.1: all'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1965-05-11.china-leadership-3
     when: May 11
@@ -1844,14 +1861,20 @@ entries:
     thread: china-leadership
     also: [latin-america-dominican-republic]
     c: 'Mao, "Statement Supporting the Dominican People''s Struggle against U.S. Armed Aggression": after the coup against Cabral''s regime, Johnson sent over 30,000 troops; the "freedom" the U.S. defends is that of killing other peoples with planes and guns. Zhou Enlai wired the draft on May 11 after a Beijing rally; Mao approved by telephone through his secretary.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 12, 1965; [[w.zhou-enlai-nianpu-1949]], II, 730 (May 11–12, 1965: Zhou''s letter to Mao of May 11 proposing the statement; the rally in Beijing the next day); [[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 12, 1965; Mao''s statement supporting the Dominican people). Published May 12, 1965. Check: [[w.zhou-enlai-nianpu-1949]], II, 730, has Zhou propose the statement to Mao by letter on May 11 and the capital''s rally, at the Workers'' Stadium, the next day. Names: Mao Zedong, Zhou Enlai, Johnson.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 12, 1965; [[w.zhou-enlai-nianpu-1949]], II, 730 (May 11–12, 1965: Zhou''s letter to Mao of May 11 proposing the statement; the rally in Beijing the next day); [[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 12, 1965; Mao''s statement supporting the Dominican people); [[w.jianguo-yilai-mao-zedong]], XVIII, 49–52 (May 12, 1965; Mao''s note of 11:30 p.m., May 11, in Changsha: to Secretary Xu Yefu, tell the Premier by telephone that the statement may be issued; the statement printed from *Renmin ribao*, May 12; Johnson''s troops numbered over 30,000; note 3: the coup of Apr. 24 by young officers; Zhou''s telegram of 8 p.m. May 11 says the Peking rally was to be held the next day). Published May 12, 1965. Check: [[w.zhou-enlai-nianpu-1949]], II, 730, has Zhou propose the statement to Mao by letter on May 11 and the capital''s rally, at the Workers'' Stadium, the next day. Names: Mao Zedong, Zhou Enlai, Johnson.'
     src:
       c: 8403c214
       rows:
         - 'w.zedong-mao-zedong-nianpu V, May 12, 1965: all'
         - 'w.zhou-enlai-nianpu-1949 II, 730: C'
         - 'w.zhonghua-renmin-gongheguo-waijiao 28: A'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 49–52: A, B, D'
     tags: [name:mao-zedong, name:zhou-enlai, name:johnson-lyndon-b, polity:dominican-republic, polity:prc, polity:us]
+    variants:
+      - unit: C
+        witness: w.jianguo-yilai-mao-zedong
+        reads: Zhou telegraphed the draft at 8 p.m. on May 11, before the Peking rally, which was to meet the next day
+        at: 51 n.1
   - id: cal.1965-05-12.china-leadership-2
     when: May 12
     date: '1965-05-12'
@@ -1891,6 +1914,22 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 455: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+nlf]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-12.china-leadership-5
+    when: May 12
+    date: '1965-05-12'
+    time: 1965-05-12T01:00Z
+    thread: china-leadership
+    also: [china]
+    c: 'Mao, at 9 a.m., on the report on the time of the second nuclear test and the draft press communiqué that Zhou Enlai 周恩来 sent him May 11: back to the Premier; agreed. The report, from Zhang Aiping 张爱萍 and Liu Xiyao 刘西尧, says some twenty hours of good weather are due May 12–13, the front has been told to be ready, and the communiqué has been read by the Standing Committee''s members. The test is fired May 14 at 10 a.m.; Xinhua 新华社 prints the communiqué May 15.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 53–54 (May 12, 1965; Mao''s note, 9 a.m., May 12; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). See [[cal.1965-05-10.china-leadership]]. To check: Zhang Aiping, Liu Xiyao and others, report on the scheduled time of the second nuclear test and the draft press communiqué, sent by Zhou Enlai to Mao, May 11, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 53 n.1a). Names: Mao Zedong, Zhou Enlai, Luo Ruiqing, Zhang Aiping, Liu Xiyao, Yang Chengwu, Liu Jie.'
+    src:
+      c: 80f44eb9
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 53–54: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 53 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 53 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:zhang-aiping, name:luo-ruiqing, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
@@ -2293,6 +2332,11 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 28: all'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.jianguo-yilai-mao-zedong
+        reads: the communiqué is Xinhua of May 15; the test was fired May 14 at 10 a.m.
+        at: 53 n.1
   - id: cal.1965-05-15.students
     when: May 15
     date: '1965-05-15'
@@ -2491,6 +2535,19 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 455: A'
     tags: [name:zhou-enlai, polity:prc, polity:ussr, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-15.china-leadership-4
+    when: May 15
+    date: '1965-05-15'
+    thread: china-leadership
+    also: [indonesia]
+    c: Mao, "Agreed," on the draft telegram in his name congratulating the Indonesian Communist Party 印度尼西亚共产党 on its 45th anniversary that Peng Zhen 彭真 sent him May 14.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 55–57 (May 15, 1965; Mao''s note; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Peng Zhen, submission to Mao Zedong of the draft telegram in Mao''s name congratulating the Indonesian Communist Party on its 45th anniversary, May 14, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 57 n.1). Names: Mao Zedong, Peng Zhen.'
+    src:
+      c: 28d625e7
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 55–57: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 57 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -2956,6 +3013,18 @@ entries:
     c: Zhou calls Yu Qiuli and the other members of the "small planning commission" on the long-term plan and the Third Five-Year Plan, May 18, 19 and 27.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 18–27, 1965). Made public: 1997. Names: Zhou Enlai, Yu Qiuli.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-18.china-leadership-2
+    when: May 18
+    date: '1965-05-18'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Hồ Chí Minh 胡志明 on his 75th birthday: the founder and tested leader of the Vietnam Workers'' Party; the Vietnamese people''s fight for the north, the south and unity, the Chinese people at their side.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 58–59 (May 18, 1965; printed from *Renmin ribao*, May 19, 1965). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: 5926d66a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 58–59: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ho-chi-minh, polity:drv]
   - id: cal.1965-05-19.king
     when: May 19
     date: '1965-05-19'
@@ -3108,7 +3177,12 @@ entries:
     thread: china-leadership
     also: [vietnam]
     c: 'Zhou, to those at the Military Commission''s operations conference: why prepare for a big war? War has its laws, which no one''s will alters; if not ready, bad; if ready, the enemy dares not come, or comes and is destroyed. Preparing for a big fight does not mean being at the edge of ruin now; there is time to prepare.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 19, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 19, 1965); [[w.jianguo-yilai-mao-zedong]], XVIII, 60–61 (May 19, 1965; note 1 of the Wengao''s item of May 25 gives the Standing Committee members'' talk of the afternoon of May 19 with the operations conference (Liu Shaoqi, Zhou, Zhu De, Lin Biao, Deng): prepare for an early and a big war on all fronts; with the preparation done the enemy will not dare attack lightly; the summary attributes these views to the members together, not to Zhou alone). Names: Zhou Enlai.'
+    src:
+      c: b1bdd242
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 731: ?'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 60–61: A, D'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1965-05-19.china-leadership-2
     when: May 19
@@ -3209,6 +3283,18 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 731: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao 29: A'
     tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia]
+  - id: cal.1965-05-20.china-leadership-2
+    when: May 20
+    date: '1965-05-20'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Mao telegraphs the Central Committee of the Indonesian Communist Party 印度尼西亚共产党 on its 45th anniversary, in the Chinese Party''s name: the PKI a creative, militant vanguard, firm against modern revisionism and dogmatism; its fight against "Malaysia," for Sukarno''s withdrawal from the United Nations, for Vietnam; the two parties'' unity not to be broken.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 55–57 (May 20, 1965; printed from *Renmin ribao*, May 23, 1965; Mao''s note of May 15 on the draft is a separate entry). See [[cal.1965-05-15.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: fdc6ba1b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 55–57: all'
+    tags: [polity:prc, name:mao-zedong, polity:indonesia]
   - id: cal.1965-05-21.students
     when: May 21–22
     date: '1965-05-21'
@@ -3901,6 +3987,20 @@ entries:
     c: 'Liu Shaoqi visits the Seventh Ministry of Machine Building''s Factory 221 (二二一厂). On militia work he says: in peace the army looks too many, and in war too few. Every arm is to have its own militia: a garrison battalion should train two battalions of militia, to be several battalions in war; a mobile unit, stationed at one place, should train militia for two armies; the air-defense units above all, with so few air-defense and antiaircraft divisions, which in war would go to the front, so that the rear must protect itself.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 620 (May 25, 1965). Made public: 1996. Names: Liu Shaoqi. Check: the factory''s number and place; the book prints 二二一厂 without a place.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-05-25.china-leadership-5
+    when: May 25
+    date: '1965-05-25'
+    thread: china-leadership
+    c: 'Mao, on the summary of the Standing Committee members'' instructions to the Military Commission''s operations conference, which Lin Biao 林彪 sent him May 22: read, back to Lin Biao; all the views agreed. He asks to see any document on the "thirteen items" of material preparation for war.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 60–61 (May 25, 1965; Mao''s note; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). See [[cal.1965-05-19.china-leadership]]. To check: General Staff, summary of the instructions of the Central Committee''s Standing Committee members on receiving all members of the Military Commission''s operations conference, issued May 21, 1965 (Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao and Deng Xiaoping received them on the afternoon of May 19, after Luo Ruiqing and group heads reported) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 60 n.1a); Lin Biao, forwarding to Mao Zedong the summary of the Standing Committee''s instructions, May 22, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 60 n.1b). Names: Mao Zedong, Lin Biao, Luo Ruiqing.'
+    src:
+      c: 0bd16d10
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 60–61: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 60 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 60 n.1b: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 60 n.1c: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:luo-ruiqing, vis:only:prc]
   - id: cal.1965-05-26.latin-america
     when: May 26
     date: '1965-05-26'
@@ -4327,6 +4427,17 @@ entries:
       - 1965-05-30T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-30.china-leadership-4
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Tsedenbal 泽登巴尔 and Sambuu 桑布 on the fifth anniversary of the Sino-Mongolian treaty of friendship and mutual assistance: friendship and cooperation on Marxism-Leninism and proletarian internationalism, against imperialist aggression, for peace.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 62 (May 30, 1965; printed from *Renmin ribao*, May 31, 1965). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Tsedenbal, Sambuu.'
+    src:
+      c: 04664dc4
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 62: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:mongolia]
   - id: cal.1965-05-31.europe-and-the-alliance
     when: May 31–June 1
     date: '1965-05-31'
@@ -4638,3 +4749,25 @@ entries:
       - 1965-05-31T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05.china-leadership
+    when: May
+    date: 1965-05
+    thread: china-leadership
+    c: 'Mao writes the poem "Chongshang Jinggangshan" 《水调歌头·重上井冈山》, to the tune "Shuidiao getou": back at Jinggangshan after thirty-eight years.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 63 (May 1965; printed from *Mao Zedong shici ji*, with the manuscript). Made public: *Shikan* 诗刊, Jan. 1976, revised ([[w.jianguo-yilai-mao-zedong]], XVIII, 155 n.3). Names: Mao Zedong. Check: the day; the Wengao gives only May 1965.'
+    src:
+      c: 03f0995b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 63: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-05.china-leadership-2
+    when: May
+    date: 1965-05
+    thread: china-leadership
+    c: 'Mao writes the poem "Jinggangshan" 《念奴娇·井冈山》, to the tune "Niannujiao": thirty-eight years since the fighting there, the place changed.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 64 (May 1965; printed from *Mao Zedong shici ji*, with the manuscript). Made public: by 2023, in *Mao Zedong shici ji* 毛泽东诗词集, the Wengao''s source (Check: the year it first printed the poem). Names: Mao Zedong. Check: the day; the Wengao gives only May 1965.'
+    src:
+      c: 4b84f77a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 64: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
