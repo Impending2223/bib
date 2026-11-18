@@ -829,3 +829,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Hm. Internal-circulation printing doesn't count as "made public" for visibility—it's not a "publication" in my understanding of the word—but the earlier printing should be noted next to the "made public"/"publication" date. (If only to preserve optionality in the event that I change my mind.)" (Nov. 18, shortly after 2 a.m. Pacific.)
 
 "Please do give me in-line characters for Romanized terms and phrases given in the text block and citation block. I think the message queuing may have eaten or misplaced this, but I added "(At least on their first appearance.)" to that request. If we can make the CJK appear the first time the word is given on a page, but not the later times, as we do for long titles and short, I would also have us give the CJK for personal and place names." (Nov. 18, shortly after 2 a.m. Pacific.)
+
+"I've shared a number of the memoir items. What does the remainder of the queue for our PRC step look like? What's in, what's out?" (Nov. 18, about 2:25 a.m. Pacific.)
