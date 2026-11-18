@@ -2534,6 +2534,18 @@ entries:
       - 1967-07-19T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1967-07-19.china-leadership-7
+    when: July 19
+    date: '1967-07-19'
+    thread: china-leadership
+    also: [china]
+    c: Hong Kong. A court sentences a Chinese journalist to two years' prison over the riots.
+    n: '[[w.macfarquhar-maos-last-revolution]], 225. To check: [[w.grey-hostage-in-peking]], 83–108 (cited by [[w.macfarquhar-maos-last-revolution]], 225 n.18a); "Quarterly Chronicle and Documentation," *China Quarterly*, no. 32 (1967), 221–223 (cited by [[w.macfarquhar-maos-last-revolution]], 225 n.18b).'
+    src:
+      c: dd13a7ad
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 225: all'
+    tags: [polity:prc, polity:uk]
   - id: cal.1967-07-20.cities-and-housing
     when: July 20
     date: '1967-07-20'
@@ -2866,11 +2878,12 @@ entries:
     thread: china
     also: [europe-and-the-alliance-britain]
     c: 'The Foreign Ministry''s information department, by authority, summons Reuters'' correspondent in Beijing, Grey, and solemnly announces that, since Britain is illegally persecuting Xinhua''s Hong Kong reporters and other patriotic journalists, the Chinese government has decided to restrict his freedom: he may not leave his residence without leave and is to await disposal.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 167 (July 21, 1967). Check: the correspondent''s name, from the Chinese 格雷.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 167 (July 21, 1967); [[w.macfarquhar-maos-last-revolution]], 225 (Grey under house arrest in reprisal for the Hong Kong sentence of July 19). Check: the correspondent''s name, from the Chinese 格雷. To check: [[w.grey-hostage-in-peking]], 83–108 (cited by [[w.macfarquhar-maos-last-revolution]], 225 n.18a); "Quarterly Chronicle and Documentation," *China Quarterly*, no. 32 (1967), 221–223 (cited by [[w.macfarquhar-maos-last-revolution]], 225 n.18b).'
     src:
       c: 972cfaf0
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 167: all'
+        - 'w.macfarquhar-maos-last-revolution 225: ?'
     tags: [polity:prc, polity:uk]
   - id: cal.1967-07-21.china-leadership-3
     when: July 21
@@ -5022,3 +5035,29 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 218-219: all'
     tags: [polity:prc]
+  - id: cal.1967-07.china-leadership-22
+    when: July, by the 21st
+    date: 1967-07
+    at: before 1967-07-21
+    thread: china-leadership
+    also: [china]
+    c: Peking. Anthony Grey, Reuters correspondent, drafts a dispatch on the Peking demonstrations at eleven foreign missions since June 1966; never sent.
+    n: '[[w.macfarquhar-maos-last-revolution]], 223–224. Made public: 1970. To check: [[w.grey-hostage-in-peking]], 96–97 (cited by [[w.macfarquhar-maos-last-revolution]], 224 n.13). Check: the day; the book (224) says he was finishing it when he was put under house arrest (July 21); the dispatch as quoted (223) runs "to August [1967]".'
+    src:
+      c: e9aeb848
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 223–224: all'
+    tags: [polity:prc, polity:uk, vis:only:prc]
+  - id: cal.1967-07.china-leadership-23
+    when: July, late
+    date: 1967-07
+    at: before 1967-07-21
+    thread: china-leadership
+    also: [china]
+    c: Shanghai. Mao watches a television broadcast of a rally denouncing Chen Pixian and Cao Diqiu and says Peking television will follow Shanghai's example.
+    n: '[[w.macfarquhar-maos-last-revolution]], 231 n.43. Made public: *Baige zhengliu*, no. 144, Oct. 9, 1967. To check: *Baige zhengliu*, no. 144, Oct. 9, 1967 (cited by [[w.macfarquhar-maos-last-revolution]], 231 n.43b). Names: Mao Zedong.'
+    src:
+      c: e564a7ae
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 231: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
