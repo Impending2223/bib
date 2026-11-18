@@ -821,3 +821,7 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "What have we read for the PRC in our span thus far? What on the drive remains to be read? What are we missing?" and "Have you checked the items on the drive against your hunches?" (the night of Nov. 17–18, Pacific)
 
 "What volumes of Jianguo yilai Liu Shaoqi wengao would we need? Were they on any of our lists?" (the night of Nov. 17–18, Pacific.)
+
+"I've shared a number of the missing items. Tell me whether they should take a spot in our queue. Would the Mao Zedong waijiao wenxuan (1994) or the Mao Wengao (1987–98) actually give us the true "made public" years or "the earliest printing of each document"? Or are they simply "earlier printings"? Is there a better authority for this kind of information? What would the memoirs give us? If they should take any kind of priority here, could you give me their full titles, in unaccented pinyin and 漢字? Sorry, "if they are at all useful", not "if they should take any kind of priority". Speaking of, could we give inline 漢字 after words and phrases given in their Romanized form in the text, such as 分田单干?" (Nov. 18, about 2 a.m. Pacific.)
+
+"(At least on their first appearance.)" (Nov. 18, about 2:15 a.m. Pacific, answering whether personal and place names also take their characters inline: yes, at least where first named.)

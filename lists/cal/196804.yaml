@@ -3382,19 +3382,22 @@ entries:
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 13, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1968-04-13.china-leadership-3
-    when: Apr. 13, 14, 17, 19, 29
+    when: Apr. 13
     date: '1968-04-13'
+    time: 1968-04-13T02:00Z
     thread: china-leadership
     also: [vietnam-hanoi]
-    c: Zhou Enlai talks with the Vietnamese party and government delegation under Phạm Văn Đồng.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 13, 1968); [[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 13–29, 1968; the talks with Phạm Văn Đồng''s delegation at 15 Jia, Wanshou Road: the first Apr. 13, 10 a.m.; the second Apr. 14, 10 a.m.; the third Apr. 17, 12:15 p.m.; the fourth Apr. 19, 10:30 a.m.; the fifth Apr. 29, 11 a.m., Đồng briefing on his visit to the Soviet Union); [[w.zhonghua-renmin-gongheguo-waijiao]], 193 (Apr. 13–14, 1968; Phạm Văn Đồng''s delegation; several talks on keeping up the protracted war). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng. Check: no content given.'
+    c: 'Zhou Enlai talks with the Vietnamese party and government delegation under Phạm Văn Đồng, 15 Jia, Wanshou Road, 10 a.m., the first of five talks. Zhou: the DRV''s statement of Apr. 3 surprised the world and Johnson''s opponents; offering "contact" after a partial halt of the bombing, and dropping Phnom Penh for Warsaw, were two compromises that helped Johnson in his election year; talks should begin from strength. Kang Sheng: Johnson''s expected vote up from 38 to 57 percent.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 13, 1968); [[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 13–29, 1968; the talks with Phạm Văn Đồng''s delegation at 15 Jia, Wanshou Road: the first Apr. 13, 10 a.m.; the second Apr. 14, 10 a.m.; the third Apr. 17, 12:15 p.m.; the fourth Apr. 19, 10:30 a.m.; the fifth Apr. 29, 11 a.m., Đồng briefing on his visit to the Soviet Union); [[w.zhonghua-renmin-gongheguo-waijiao]], 193 (Apr. 13–14, 1968; Phạm Văn Đồng''s delegation; several talks on keeping up the protracted war); [[w.77-conversations-between-chinese]], [121–123](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=119) (doc. 31; Beijing, Apr. 13, 1968, no hour in the record: Zhou on the DRV''s statement of Apr. 3 and Johnson''s of Mar. 31, 121 n.192; Wheeler and Westmoreland, the primaries, King''s murder, the ANZUS meeting, Phnom Penh and Warsaw; Kang Sheng on Johnson''s expected vote). Made public: 1993. Check: no content given. The chronologies give none; the record (doc. 31) does. Names: Zhou Enlai, Phạm Văn Đồng, Johnson, Kang Sheng.'
     src:
-      c: 7473cca5
+      c: 2b3dca7a
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 224: ?'
         - 'w.zhou-enlai-waijiao-huodong 523–24: A'
-        - 'w.zhonghua-renmin-gongheguo-waijiao 193: all'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+        - 'w.zhonghua-renmin-gongheguo-waijiao 193: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=119: B-E'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv, name:johnson-lyndon-b, name:kang-sheng]
+    time_zone: Asia/Shanghai
   - id: cal.1968-04-14.opinion
     when: Apr. 14
     date: '1968-04-14'
@@ -3415,6 +3418,20 @@ entries:
         - 'w.solberg-hubert-humphrey 331: all'
         - 'via w.solberg-hubert-humphrey 331 n.key-largo: all'
     tags: [name:humphrey-hubert-h, name:mondale-walter-f, name:harris-fred-r, name:rowe-james-h-jr, name:kampelman-max-m]
+  - id: cal.1968-04-14.china-leadership
+    when: Apr. 14
+    date: '1968-04-14'
+    time: 1968-04-14T02:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou Enlai's second talk with Phạm Văn Đồng's delegation, 15 Jia, Wanshou Road, 10 a.m.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 14, 1968; 10 a.m., 15 Jia, Wanshou Road, the second talk; no content given). Made public: 1993. See [[cal.1968-04-13.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: b0ae2361
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 523–24: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1968-04-15.civil-disorders
     when: Apr. 15
     date: '1968-04-15'
@@ -3752,6 +3769,21 @@ entries:
     c: 'Zhou Enlai, on the Navy Party committee''s report on enemy papers'' fabrication that a certain general was captured and turned in the war of liberation: reports of this kind, with living witnesses to refute the enemy papers'' invention, are to be deposited in the archives with a photocopy of the papers, to close the case and spare later argument.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 17, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-04-17.china-leadership-2
+    when: Apr. 17
+    date: '1968-04-17'
+    time: 1968-04-17T04:15Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou Enlai''s third talk with Phạm Văn Đồng''s delegation, 15 Jia, Wanshou Road, 12:15 p.m. Zhou: prepare to fight through 1968, 1969 and 1970; Mao: the question is not success or failure, or a big or small success, but how to win the great victory; complete victory needs large-scale battles.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 17, 1968; 12:15 p.m., 15 Jia, Wanshou Road, the third talk); [[w.77-conversations-between-chinese]], [123](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=121) (doc. 32; Apr. 17, 1968, no place or hour in the heading: Zhou on fighting through 1970 and large-scale battles). Made public: 1993. See [[cal.1968-04-13.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng, Mao Zedong.'
+    src:
+      c: a1dc17bf
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 523–24: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=121: B-D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, name:mao-zedong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1968-04-18.defense
     when: Apr. 18–19
     date: '1968-04-18'
@@ -3861,6 +3893,21 @@ entries:
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 253: ?'
     tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:riad-mahmoud, vis:only:ussr+uar]
+  - id: cal.1968-04-19.china-leadership
+    when: Apr. 19
+    date: '1968-04-19'
+    time: 1968-04-19T02:30Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou Enlai''s fourth talk with Phạm Văn Đồng''s delegation, 15 Jia, Wanshou Road, 10:30 a.m., Kang Sheng present. Zhou: accepting Johnson''s partial halt of the bombing, and a meeting place other than Phnom Penh, were two compromises that weakened Nguyễn Duy Trinh''s statement of Jan. 28, 1967 and helped Johnson out. A dispute over Đồng''s supposed offer to stop sending men South, and over "indirect assistance" and "de-escalation", put down to bad interpretation. Đồng: the strategy is to defend the North and liberate the South; Vietnam will escalate, not de-escalate.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 19, 1968; 10:30 a.m., 15 Jia, Wanshou Road, the fourth talk); [[w.77-conversations-between-chinese]], [123–127](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=122) (doc. 33; Apr. 19, 1968, no place or hour in the heading: Zhou on the limited bombing halt, Phnom Penh and Warsaw, Nguyễn Duy Trinh''s statement of Jan. 28, 1967; the dispute put down to misinterpretation, in the editors'' brackets, 125; Đồng''s "grand strategy" and rejection of de-escalation; Kang Sheng on the statements of Jan. 1 and Dec. 8 and 12; 123 n.193, Hà Văn Lâu). Made public: 1993. See [[cal.1968-04-13.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng, Kang Sheng, Johnson, Nguyễn Duy Trinh.'
+    src:
+      c: 542b9680
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 523–24: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=122: A-D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, name:kang-sheng, name:johnson-lyndon-b, name:nguyen-duy-trinh, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1968-04-20.vietnam
     when: Apr. 20–21
     date: '1968-04-20'
@@ -5050,6 +5097,21 @@ entries:
     c: Zhou Enlai, at dawn, goes to Cai Tingkai's house to mourn him, dead Apr. 25.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 226 (Apr. 29, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-04-29.china-leadership-4
+    when: Apr. 29
+    date: '1968-04-29'
+    time: 1968-04-29T03:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou Enlai''s fifth talk with Phạm Văn Đồng''s delegation, back from the Soviet Union, 15 Jia, Wanshou Road, 11 a.m., Kang Sheng present. Zhou: the U.S. has long half-encircled China, and the Soviet Union now encircles it, Vietnam excepted. Đồng on the Soviet talks. Kang Sheng on the Cultural Revolution: Mao''s three-year plan from June 1966; Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun exposed in its first phase, Liu Shaoqi and Deng Xiaoping from June 1966 to January 1967.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 29, 1968; 11 a.m., 15 Jia, Wanshou Road, the fifth talk, Đồng briefing on his visit to the Soviet Union); [[w.77-conversations-between-chinese]], [127–131](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=125) (doc. 34; Beijing, Apr. 29, 1968, no hour: after the delegation''s visit to the Soviet Union, 127 n.194; Zhou on the encirclement of China; Kang Sheng on the Cultural Revolution, its three-year plan from June 1966, its preparatory phase from December 1965 to June 1966, and the charges against Peng Zhen, Luo Ruiqing, Lu Dingyi, Yang Shangkun, Liu Shaoqi, Wang Guangmei and Deng Xiaoping; 128 n.195, Nguyễn Văn Đôn; 128 n.197, Yang Shangkun). Made public: 1993. See [[cal.1968-04-13.china-leadership-3]], [[cal.1968-04-29.china-leadership]] (Mao receives the delegation). Names: Zhou Enlai, Phạm Văn Đồng, Kang Sheng, Mao Zedong, Peng Zhen, Luo Ruiqing, Lu Dingyi, Yang Shangkun, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: 99548eac
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 523–24: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=125: A-D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, name:kang-sheng, name:mao-zedong, name:peng-zhen, name:luo-ruiqing, name:lu-dingyi, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1968-04-30.students-columbia
     when: Apr. 30
     date: '1968-04-30'
