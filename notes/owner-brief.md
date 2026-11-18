@@ -817,3 +817,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Has anyone read 77 Conversations for the calendar yet? Are you able to retrieve it? We should tack it on to the end of the China step if so. (Don't block yourself on it if not, though.)" (Nov. 19, about 2:45 a.m.)
 
 "Put it in the next free slot." (Nov. 19, about 3 a.m.: *77 Conversations*.)
+
+"What have we read for the PRC in our span thus far? What on the drive remains to be read? What are we missing?" and "Have you checked the items on the drive against your hunches?" (Nov. 19, about 5 a.m.)
