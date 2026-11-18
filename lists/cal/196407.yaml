@@ -1265,9 +1265,19 @@ entries:
     date: '1964-07-05'
     thread: china-leadership
     also: [soviet-union]
-    c: 'Mao revises, from July 5, in several meetings, the ninth commentary on the CPSU open letter: retitled "On Khrushchov''s Phony Communism and Its Historical Lessons for the World". He changes the time the contest between socialism and capitalism needs from "quite long" to "very long", adding: not in decades, a hundred to several hundred years; prepare for longer, not shorter. July 12: the Politburo, in a meeting, approves it. Published July 14 in the People''s Daily and Red Flag, no. 13.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 5 and 12, 1964. Made public: 2013. The article public: People''s Daily, July 14, 1964. Names: Mao Zedong.'
+    c: 'Mao revises, from July 5, in several meetings, the ninth commentary on the CPSU open letter: retitled "On Khrushchov''s Phony Communism and Its Historical Lessons for the World". He changes the time the contest between socialism and capitalism needs from "quite long" to "very long", adding: not in decades, a hundred to several hundred years; prepare for longer, not shorter.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 5, 1964; [[w.lengxi-shinian-lunzhan-1956-1966]], 779–784 (Wu''s account of Mao''s revision: "from July 5" several meetings, each paragraph discussed and revised, Mao writing himself; Liu and Zhou away; his insertions on the Soviet party and people, on democracy and class, on successors; the new title, 782; the 15 points added after these meetings, 784). Made public: 1999. Names: Mao Zedong.'
+    src:
+      c: 8ec011a6
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 5, 1964: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 779–784: A'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: Mao rewrote the second of the 15 points ("a hundred to several hundred years"; "better to prepare for longer") in the final revision, at the Politburo of July 12, the 15 points having been drawn up after the meetings from July 5
+        at: '784'
   - id: cal.1964-07-05.china-leadership-2
     when: July 5–8
     date: '1964-07-05'
@@ -2547,6 +2557,19 @@ entries:
     c: 'Liu Shaoqi reaches Hefei; in the evening he calls the standing committee of the Anhui provincial committee for a forum on the socialist-education movement and other questions. On unity inside the provincial committee he says: attend to the views of the few; those of the many are naturally heeded, but the few''s are often little noticed and must be taken seriously; to hear the many is not hard, the few are not so easily taken in.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 596 (July 12, 1964). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-07-12.china-leadership-3
+    when: July 12
+    date: '1964-07-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The Politburo, Mao presiding, approves the final text of the Ninth Commentary, the members going through it paragraph by paragraph. In this last revision Mao rewrites the second of the 15 points himself: the socialist period a long historical stage, with classes and class struggle; the contest of who wins taking a hundred to several hundred years; better to prepare for longer and to see things as harder.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 12, 1964 (the Politburo''s approval). [[w.lengxi-shinian-lunzhan-1956-1966]], 784 (the final text July 12; "paragraph by paragraph"; the point as Mao rewrote it; the others'' changes, many in wording). Made public: 1999. See [[cal.1964-07-05.china-leadership]]. Names: Mao Zedong. Check: the Mao chronology has the "hundred to several hundred years" under the revisions from July 5.'
+    src:
+      c: e5b5c3bb
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 12, 1964: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 784: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1964-07-13.elections-1964
     when: July 13
     date: '1964-07-13'
@@ -2996,11 +3019,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: 'The ninth polemic, "On Khrushchev''s Phoney Communism and Historical Lessons for the World": the "revisionist Khrushchev clique" the political representatives of the Soviet bourgeoisie and its privileged stratum; fifteen principles against a capitalist restoration; the training of revolutionary successors "a matter of life or death for our Party and our country."'
-    n: '[[w.macfarquhar-maos-last-revolution]], 7, 12–13. To check: [[w.polemic-on-the-general]] (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.18); [[w.macfarquhar-origins-of-the-cultural]], III, 363–364 (cited by [[w.macfarquhar-maos-last-revolution]], 13 n.30). See [[cal.1964-07-05.china-leadership]]. Names: Khrushchev.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 7, 12–13; [[w.lengxi-shinian-lunzhan-1956-1966]], 784–790 (published July 14, "two days" after the Politburo''s approval, a year and a month after the Proposal; the seven parts; the 15 points; Mao''s lines on the three revolutionary movements and on successors). To check: [[w.polemic-on-the-general]] (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.18); [[w.macfarquhar-origins-of-the-cultural]], III, 363–364 (cited by [[w.macfarquhar-maos-last-revolution]], 13 n.30). See [[cal.1964-07-05.china-leadership]]. Names: Khrushchev.'
     src:
       c: cad5f389
       rows:
         - 'w.macfarquhar-maos-last-revolution 7, 12–13: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 784–790: A, B, C'
     tags: [polity:prc, name:khrushchev-nikita-s]
   - id: cal.1964-07-14.china-leadership-3
     when: July 14
@@ -3241,7 +3265,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao, Zhongnanhai, the Yinian Tang, afternoon, with Zhou Enlai, Peng Zhen, He Long, Chen Yi, Luo Ruiqing, Kang Sheng, Wu Xiuquan, Yang Chengwu, Wu Lengxi. Luo reports Lin Biao''s word that Mao''s instruction on strategy was thought out, to be carried out firmly. Mao: two questions: where the enemy comes from; and local forces, with arms plants in some provinces. Panzhihua and Jiuquan not yet settled; if materials fall short, build the Chengdu-Kunming line first.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 15, 1964. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Peng Zhen, He Long, Chen Yi, Luo Ruiqing, Kang Sheng, Lin Biao, Wu Xiuquan, Yang Chengwu, Wu Lengxi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 15, 1964; [[w.lengxi-shinian-lunzhan-1956-1966]], 791–792 (July 15, "the day after" the Ninth appeared, a Standing Committee "at his home": Mao on the Ninth, the struggle of two classes and two lines long, complex and wave-like, not ever sharper as Stalin had said; the Tenth and the draft program, "ants gnawing a bone"; Deng: the reply to the CPSU letter of June 15 being drafted too, Mao agreeing it come first). Made public: 1999. Check: Wu (791–792) has a Standing Committee at Mao''s home that day on the Ninth, the Tenth and the reply to the letter of June 15, Deng speaking; the chronology''s Yinian Tang session, Wu Lengxi present, is on strategy and does not list Deng: one session or two. Names: Mao Zedong, Zhou Enlai, Peng Zhen, He Long, Chen Yi, Luo Ruiqing, Kang Sheng, Lin Biao, Wu Xiuquan, Yang Chengwu, Wu Lengxi.'
+    src:
+      c: bf829165
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 15, 1964: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 791–792: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:peng-zhen, name:he-long, name:chen-yi, name:luo-ruiqing, name:kang-sheng, name:lin-biao, polity:prc, vis:only:prc]
   - id: cal.1964-07-15.china-leadership-2
     when: July 15
@@ -5256,6 +5285,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 351: all'
     tags: [polity:prc, polity:congo-brazzaville]
+  - id: cal.1964-07-23.china-leadership-3
+    when: July 23
+    date: '1964-07-23'
+    thread: china-leadership
+    also: [soviet-union, korea-leadership]
+    c: 'Mao presides over the Standing Committee. Zhou Enlai reports on his talk with Kim Il Sung in Korea on the war in Vietnam and brings back the Korean party''s views on the polemic. Liu Shaoqi and Deng are out of Peking; Mao has Peng Zhen tell them to return for the reply to the CPSU letter. Mao proposes dropping the eight conditions for ending the open polemic from the draft reply: ask only that the CPSU print China''s answers as China has printed its attacks; Khrushchev will be angry and may risk all. The Korean party asks what if the CPSU forces the preparatory meeting; Mao: to be weighed.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 796–798 (July 23; Zhou back from Korea, where he had briefed Kim Il Sung on the war in Vietnam; the eight conditions; the Korean party''s question; Mao: wait for Liu and Deng). Made public: 1999. See [[cal.1964-07-23.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Kim Il Sung, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: 52e63fe0
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 796–798: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:kim-il-sung, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1964-07-24.baker
     when: July 24
     date: '1964-07-24'
@@ -5588,7 +5629,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides over an enlarged Politburo Standing Committee, the Yinian Tang, on the reply to the CPSU letter of June 15. A general review of the anti-revisionist struggle: Khrushchev may run a desperate risk, from unrest at home and trouble with other parties. Henceforth the articles aim at Khrushchev alone: "when jackals hold the road, why ask after the foxes", not other parties, nor other Soviet leaders.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 25, 1964. Made public: 2013. To check: the CPSU letter of June 15, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, July 25, 1964). Names: Mao Zedong, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 25, 1964; [[w.lengxi-shinian-lunzhan-1956-1966]], 798–800 (July 25, the Yinian Tang west hall; Liu and Deng back; Peng Zhen, Chen Yi present; Khrushchev in two difficulties, on the date and the preparatory meeting; his troubles at home, Mikoyan moved aside; Romania, Poland and others uneasy; the articles to hit Khrushchev alone, "the wolf in the road"; Mao''s "provoking" tactic; the reply approved with a few changes, Mao adding two paragraphs at the end). Made public: 1999. To check: the CPSU letter of June 15, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, July 25, 1964). Names: Mao Zedong, Khrushchev.'
+    src:
+      c: ccf0127e
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 25, 1964: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 798–800: A, B, C'
     tags: [name:mao-zedong, name:khrushchev-nikita-s, polity:prc, vis:only:prc]
   - id: cal.1964-07-25.china-leadership-2
     when: July 25
@@ -6147,13 +6193,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Politburo in enlarged session, Liu Shaoqi presiding: adopts the Central Committee''s reply to the CPSU letter of June 15. Mao has added: a "splitting meeting, no, a splitting small meeting"; the revisionists a handful; a world conference might better come late than early, or not at all; had not been held for 14 years. Sent; the CPSU answers on July 30.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 28, 1964; [[w.zhou-enlai-nianpu-1949]], II, 658 (July 28, 1964: Zhou attends the Politburo meeting, which discusses and adopts the Central Committee''s reply to the Soviet Central Committee''s letter of June 15); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 597 (July 28, 1964; Liu presides at the Politburo meeting, which discusses and adopts the Central Committee''s reply to the CPSU letter of June 15). Made public: 1996. To check: the reply (named by [[w.zedong-mao-zedong-nianpu]], V, July 28, 1964). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 28, 1964; [[w.zhou-enlai-nianpu-1949]], II, 658 (July 28, 1964: Zhou attends the Politburo meeting, which discusses and adopts the Central Committee''s reply to the Soviet Central Committee''s letter of June 15); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 597 (July 28, 1964; Liu presides at the Politburo meeting, which discusses and adopts the Central Committee''s reply to the CPSU letter of June 15); [[w.lengxi-shinian-lunzhan-1956-1966]], 800, 806–808 (Liu presiding, July 28; the reply adopted; broadcast to be that evening, printed July 29; Mao''s last two paragraphs: if they hold the meeting "the day of your meeting is the hour you enter the grave"; "rein in at the cliff"; the reply''s five parts; the CPSU answer of July 30, "two days" later, 808). Made public: 1996. To check: the reply (named by [[w.zedong-mao-zedong-nianpu]], V, July 28, 1964). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: ce2f6135
       rows:
         - 'w.zedong-mao-zedong-nianpu V, July 28, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 658: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 597: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 800, 806–808: A, F, G'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-07-28.china-leadership-2
     when: July 28
@@ -6858,6 +6905,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 352: all'
     tags: [polity:prc, polity:tanzania, name:liu-shaoqi]
+  - id: cal.1964-07-30.soviet-union-2
+    when: July 30
+    date: '1964-07-30'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'The CPSU Central Committee answers the Chinese reply of July 28 within two days: it invites the 26 parties of the 1960 drafting committee to be in Moscow by Dec. 15, 1964, to start work on preparing the conference even if some send no one; the conference itself around mid-1965, with all 81 parties of 1960 invited, no refusal a ground for delay.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 808–810 (July 30; Dec. 15; mid-1965; read by the Chinese at Beidaihe, two days before the meeting of Aug. 4, 810). Made public: 1999. To check: the letter of July 30, 1964 (the text, and its printing in 1964). Check: Wu''s summary only.'
+    src:
+      c: 7265bdea
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 808–810: all'
+    tags: [polity:ussr, polity:prc, vis:only:ussr+prc]
   - id: cal.1964-07-31.space
     when: July 31
     date: '1964-07-31'
@@ -7759,3 +7818,28 @@ entries:
     c: 'Zhou reports on revolution and labor to Beijing''s graduates of higher schools, with secondary, senior middle school graduates and students going abroad. Join a deeper socialist revolution; only a deep class struggle will fix class stand, a view of labor and the masses. From next year all graduates to have a year of labor and a year of practice before work, and after, some manual labor each year: that system is to stay. The Central Committee is considering half-work half-study for the working people. Praises graduates'' readiness to go anywhere.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 661 (July 31, 1964). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1964-07.china-leadership
+    when: July, early
+    date: 1964-07
+    at: before 1964-07-01
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The revised Ninth Commentary is printed and sent to Mao, Liu Shaoqi and Zhou Enlai.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 779 ("the beginning of July"). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai. Check: the day; Wu gives none.'
+    src:
+      c: fb26839f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 779: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, vis:only:prc]
+  - id: cal.1964-07-31.china-leadership-3
+    when: July 31
+    date: '1964-07-31'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The *Renmin ribao* prints the CPSU letter of June 15 and the Central Committee's reply of July 28.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 800–801 (the Politburo decides broadcast that evening and printing July 29, 800; the plate: the issue of July 31, 1964, 801). See [[cal.1964-07-28.china-leadership]]. Check: Wu says the Politburo fixed the broadcast for the evening of July 28 and the printing for July 29 (800); the plate he prints is of the issue of July 31 (801).'
+    src:
+      c: 9be0f722
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 800–801: all'
+    tags: [polity:prc, polity:ussr]

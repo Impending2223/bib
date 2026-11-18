@@ -262,6 +262,18 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 715: ?'
         - 'w.zhou-enlai-waijiao-huodong 438: B-C'
     tags: [name:zhou-enlai, name:peng-zhen, name:ho-chi-minh, name:le-duan, name:pham-van-dong, name:vo-nguyen-giap, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1965-03-01.soviet-union
+    when: Mar. 1–5
+    date: '1965-03-01'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The CPSU holds what it now calls a "consultative meeting" of the communist and workers'' parties, Mar. 1 to 5. Present: 16 parties'' delegates and observers, split-offs from Brazil and Australia, and the Dange group of the Indian party, 19 in all. Seven parties refuse: Albania, Vietnam, Indonesia, China, Korea, Romania, Japan, five of them governing parties.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 921–922 (Mar. 1–5; "16 parties'' delegates and observers," the 19 "units"; the seven refusals).'
+    src:
+      c: 675d915e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 921–922: all'
+    tags: [polity:ussr]
   - id: cal.1965-03-02.vietnam
     when: Mar. 2
     date: '1965-03-02'
@@ -2999,6 +3011,18 @@ entries:
     c: 'Zhou writes for the Shanghai garrison: "Four Firsts, Three-Eight work style; study and use Mao Zedong Thought in a living way; train troops from real need, strict, hard."'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 716 (Mar. 10, 1965). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-03-10.soviet-union
+    when: Mar. 10
+    date: '1965-03-10'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The communique of the March meeting is published: a "consultation of delegations of communist and workers'' parties," not tied to a conference of the parties; it calls for ending the open polemic, condemns a "factional" Chinese party, and asks "active, all-round" preparation of an international conference "at a suitable time."'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 921–922, 928–929 (the communique, Mar. 10; the points Wu''s article answers).'
+    src:
+      c: dba30f80
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 921–922, 928–929: all'
+    tags: [polity:ussr]
   - id: cal.1965-03-11.voting-rights-selma
     when: Mar. 11
     date: '1965-03-11'
@@ -3245,6 +3269,11 @@ entries:
     c: 'Mao presides over the Politburo Standing Committee, Fujian Hall, afternoon, revising the People''s Daily and Red Flag article on the Moscow splitting meeting (the CPSU''s "consultative meeting" of Mar. 1–5 and its communiqué of Mar. 10). Beforehand he had read it, changed "small meeting" in the title to "meeting", and added that the Soviet leaders took over slogans and the U.S. took over Khrushchev''s: peaceful coexistence, competition, transition, détente, disarmament, two powers ruling the world, joint aid to India, joint help to reactionaries, joint use of the UN, joint anti-China.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 11, 1965. Made public: 2013. The article public: People''s Daily and Red Flag, Mar. 23, 1965, as "Comment on the March Moscow Meeting" (Check the date). Names: Mao Zedong, Khrushchev.'
     tags: [name:mao-zedong, name:khrushchev-nikita-s, polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the Secretariat under Deng Xiaoping decided Mar. 12 to have the article drafted; the first draft Mar. 15
+        at: '922'
   - id: cal.1965-03-11.china-leadership-2
     when: Mar. 11–13
     date: '1965-03-11'
@@ -3495,6 +3524,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 12: all'
     tags: [polity:prc, polity:drv, polity:us]
+  - id: cal.1965-03-12.china-leadership
+    when: Mar. 12
+    date: '1965-03-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping presides over the Secretariat, which analyzes the CPSU's splitting meeting and decides to have an article on it drafted.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 922 (Mar. 12). Made public: 1999. Names: Deng Xiaoping. Check: the Mao chronology has Mao revising the article on Mar. 11 ([[cal.1965-03-11.china-leadership]]); Zhou''s and Liu''s chronologies have the Politburo adopting it in the main on Mar. 13.'
+    src:
+      c: b2e02145
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 922: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1965-03-13.voting-rights
     when: Mar. 13
     date: '1965-03-13'
@@ -3667,6 +3708,11 @@ entries:
     c: 'Zhou attends the enlarged Politburo meeting, which in the main adopts "On the Moscow March Meeting", published Mar. 23 under the *People''s Daily* and *Red Flag* editorial offices: the Moscow consultative meeting of Mar. 1–5 was a splitting meeting, a most grave step in openly splitting the international communist movement.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 717 (Mar. 13, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Mar. 13, 1965; Liu presides at the enlarged Politburo meeting, which discusses the CPSU''s consultative meeting of Communist and workers'' parties at Moscow, Mar. 1–5, and the comment of the editorial departments of *Renmin ribao* and *Hongqi*, "On the Moscow March Meeting," published Mar. 23). Made public: 1996. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the first draft of the article was done Mar. 15 and the text final Mar. 22, after Mao's call; no Politburo session is named
+        at: 922, 927
   - id: cal.1965-03-13.china-leadership-3
     when: Mar. 13
     date: '1965-03-13'
@@ -4177,6 +4223,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 12: all'
     tags: [polity:prc, polity:guinea, polity:mali, polity:central-african-republic, polity:congo-brazzaville, polity:ghana]
+  - id: cal.1965-03-15.china-leadership-3
+    when: Mar. 15
+    date: '1965-03-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Diaoyutai, building 8. Wu's drafting group, after three days' work, finishes a first draft of the article on the Moscow meeting.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 922 (Mar. 15; "three days"). Made public: 1999. See [[cal.1965-03-12.china-leadership]].'
+    src:
+      c: 3169980f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 922: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-03-16.vietnam
     when: Mar. 16
     date: '1965-03-16'
@@ -4429,6 +4487,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 13: all'
     tags: [polity:prc, polity:ussr]
+  - id: cal.1965-03-16.china-leadership-2
+    when: Mar. 16
+    date: '1965-03-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping presides over the Secretariat on the first draft; fairly satisfied, it asks some changes.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 922 (Mar. 16; Mao, at Wuhan, had the first draft and each revision flown to him the same day). Made public: 1999. See [[cal.1965-03-15.china-leadership-3]]. Names: Deng Xiaoping.'
+    src:
+      c: 3af0985a
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 922: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1965-03-17.voting-rights
     when: Mar. 17
     date: '1965-03-17'
@@ -4599,12 +4669,17 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1965-03-17.china-leadership
-    when: Mar. 17–19
+    when: Mar. 17–18
     date: '1965-03-17'
     thread: china-leadership
     also: [soviet-union]
-    c: 'Mao, Wuchang, East Lake guesthouse: discusses the article on the Moscow meeting with Deng Xiaoping, Peng Zhen, Kang Sheng (Mar. 17, 18); the tone not to change, the shrill words to; title changed to "Comment on the March Moscow Meeting", each of the four parts a headed section. Mar. 19: asks the foreign experts, Frank Coe, Sol Adler and Israel Epstein, whether to print it and how sharp: Adler would stress unity and the anti-imperialist, anti-U.S. camp; Mao: both worth noting.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 17–19, 1965. Made public: 2013. See [[cal.1965-03-11.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Kang Sheng, Frank Coe, Sol Adler, Israel Epstein.'
+    c: 'Mao, Wuchang, East Lake guesthouse: discusses the article on the Moscow meeting with Deng Xiaoping, Peng Zhen, Kang Sheng (Mar. 17, 18); the tone not to change, the shrill words to; title changed to "Comment on the March Moscow Meeting", each of the four parts a headed section.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 17–19, 1965 (Mar. 17 and 18). [[w.lengxi-shinian-lunzhan-1956-1966]], 922–923 (Mar. 17: Mao''s secretary telephones his views from Wuhan: a more striking title, sections with subtitles; Mar. 18 the revised text sent to him; the three main changes: sharp on the new CPSU leaders but not equated with the U.S. imperialists, the basic tone kept and the harsh phrases cut, the banner of unity held). Made public: 1999. Check: Wu (922) has Mao''s views of Mar. 17 telephoned from Wuhan by his secretary to the writers in Peking, and Deng presiding over the Secretariat in Peking on Mar. 16 and Mar. 20. See [[cal.1965-03-11.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Kang Sheng.'
+    src:
+      c: 4bfe98f2
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 17–19, 1965: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 922–923: B, C'
     tags: [name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, polity:prc, vis:only:prc]
   - id: cal.1965-03-17.china-leadership-2
     when: Mar. 17
@@ -5106,6 +5181,19 @@ entries:
     c: 'Liu Shaoqi receives a Syrian friendly delegation to China headed by its Foreign Minister. On the exchange of experience between the two countries he says: China has positive and negative experience, and in talking with them it must give the negative, the errors it has committed; some Chinese comrades will not tell foreign friends their faults and the backward things, which is wrong; they should treat foreign friends sincerely, tell both achievements and mistakes, and arrange visits to advanced and to backward units. On the basis of policy-making he says: policy is decided by the will of the great majority; a party or government must have the support of the great majority to be firm; a policy is judged good or bad, right or wrong, by whether it meets the greatest interest of the great majority; what serves the people''s greatest interest is done, what harms it is not. Within the people there are differing views, some for temporary interest and not long-term, some for the few and not the many, some for local interest and not the whole; these are not to be met with force but with persuasion, saying it as often as needed; the central question is to win the hearts of the great majority and develop and organize their enthusiasm to build socialism.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 616 (Mar. 19, 1965). Made public: 1996. Names: Liu Shaoqi. Check: the Foreign Minister''s name, read from 哈桑·穆维德; the Latin form is not settled.'
     tags: [polity:prc, polity:syria, name:liu-shaoqi, vis:only:prc+syria@B-K]
+  - id: cal.1965-03-19.china-leadership-6
+    when: Mar. 19
+    date: '1965-03-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Wuchang, the East Lake villa. Mao, at his call, meets foreign experts and Asian parties'' delegates brought from Peking by the Liaison Department: Epstein, Frank Coe, Sol Adler. Three questions: is the article on the Moscow meeting needed, is it dangerous, what is wrong in it. Epstein: needed, the March meeting wants an answer and many have illusions about the new CPSU leaders; some guests fear it too sharp, others say the illusions are the reason. Mao: sharp words may be softened, the tone stays; no loud campaign yet, only what the new leaders have done. The guests would have more on unity; Mao has Zhao Yimin, who came with them, take this back to Peking.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 17–19, 1965 (Mar. 19: Adler would stress unity and the anti-imperialist, anti-U.S. camp; Mao: both worth noting). [[w.lengxi-shinian-lunzhan-1956-1966]], 923–926 (Mar. 19; Coe''s "horse meat sold as steak" for "hanging a sheep''s head, selling dog meat"; Zhao Yimin, deputy head of the Liaison Department). Made public: 1999. See [[cal.1965-03-17.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 6122ab81
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 17–19, 1965: A-C, H'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 923–926: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1965-03-20.alabama
     when: Mar. 20
     date: '1965-03-20'
@@ -5302,6 +5390,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 14: all'
     tags: [polity:prc, polity:romania, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:gheorghiu-dej-gheorghe]
+  - id: cal.1965-03-20.china-leadership-5
+    when: Mar. 20
+    date: '1965-03-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng presides over the Secretariat. Zhao Yimin reports Mao's Wuchang talk with the foreign guests; the article is changed at the meeting, unity to be stressed more at its end.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 926 (Mar. 20). Made public: 1999. See [[cal.1965-03-19.china-leadership-6]]. Names: Deng Xiaoping.'
+    src:
+      c: 678200eb
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 926: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1965-03-21.voting-rights
     when: Mar. 21–25
     date: '1965-03-21'
@@ -5535,6 +5635,32 @@ entries:
       - 1965-03-21T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-03-21.china-leadership-6
+    when: Mar. 21
+    date: '1965-03-21'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The writers revise the article on the Moscow meeting throughout, strengthening the closing passage on unity.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 926–927 (Mar. 21). Made public: 1999. See [[cal.1965-03-20.china-leadership-5]].'
+    src:
+      c: 4cbc1813
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 926–927: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-03-21.china-leadership-7
+    when: Mar. 21
+    date: '1965-03-21'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1965-03-21.china-leadership-6
+    c: Deng Xiaoping presides over the Secretariat, which settles the revised article; copies go to Zhou Enlai, Liu Shaoqi and Mao at Wuhan.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 927 (after the revision of Mar. 21, before Mao''s call of Mar. 22). Made public: 1999. Names: Deng Xiaoping, Zhou Enlai, Liu Shaoqi, Mao Zedong. Check: the day; Wu gives none.'
+    src:
+      c: 952ae20c
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 927: all'
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
   - id: cal.1965-03.vietnam-congress
     when: Mar. 22
     date: '1965-03-22'
@@ -5701,6 +5827,18 @@ entries:
       - 1965-03-22T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-03-22.china-leadership-5
+    when: Mar. 22
+    date: '1965-03-22'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao telephones from Wuhan: no more comments; publish. Liu Shaoqi and Zhou Enlai change a few words; the article on the Moscow meeting is final that day.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 927 (Mar. 22). Made public: 1999. See [[cal.1965-03-21.china-leadership-7]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    src:
+      c: 64f42e6d
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 927: all'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
   - id: cal.1965-03-23.space
     when: Mar. 23
     date: '1965-03-23'
@@ -5917,6 +6055,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 442: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Europe/Bucharest
+  - id: cal.1965-03-23.china-leadership-3
+    when: Mar. 23
+    date: '1965-03-23'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The *Renmin ribao* and *Hongqi* editorial departments print "Comment on the March Moscow Meeting," in four sections: a splitting meeting, patched together; what the new CPSU leaders have done, "three false, three true"; replies on the polemic, on "factional activity," on the conference; unite on the road of Marxism-Leninism and revolution. Five conditions for unity: declare all orders for splitting meetings wrong and illegal; admit Khrushchevism, great-power chauvinism and splitting wrong; admit the line and program of the 20th and 22nd Congresses wrong; admit the attacks on China, Albania, Japan and other parties wrong; promise not to repeat them. A conference needs at least twice the preparation, the "four or five years" now longer.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 927–931 (Mar. 23; the four sections; the five conditions, which Mao had kept out of the replies of July 28 and Aug. 30, 1964, as near an ultimatum, 931; the plate, 932; the meeting a dividing line, the relation "ruptured and not broken," 931). See [[cal.1965-03-11.china-leadership]].'
+    src:
+      c: ca1a7903
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 927–931: all'
+    tags: [polity:prc]
   - id: cal.1965-03-24.medicare
     when: Mar. 24
     date: '1965-03-24'

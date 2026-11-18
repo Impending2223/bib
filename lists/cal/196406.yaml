@@ -4249,6 +4249,18 @@ entries:
       - 1964-06-15T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-15.soviet-union
+    when: June 15
+    date: '1964-06-15'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'The CPSU Central Committee signs its reply to the Chinese letter of May 7: the Chinese call to put off an international conference is a refusal; the preparatory meeting of the 26 parties is the only way out and to meet at once; the 17 parties the Chinese name are wrong; the Sino-Soviet talks are cut loose from the conference and left to "any date agreed."'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 792–794 (signed June 15, 792; the meeting "in the shortest time," 793; talks with China "at any date agreed," 793). Made public: *Renmin ribao*, July 31, 1964 (the plate, [[w.lengxi-shinian-lunzhan-1956-1966]], 801). To check: the letter, *Renmin ribao*, July 31, 1964 (the text). Check: Wu''s summary only; Wu prints "May 20" for the day the Central Committee received it (792), against its signing on June 15 and "five days" after (June 20).'
+    src:
+      c: 208ba933
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 792–794: all'
+    tags: [polity:ussr, polity:prc, vis:only:ussr+prc]
   - id: cal.1964-06-16.congo
     when: June 16
     date: '1964-06-16'
@@ -5443,6 +5455,18 @@ entries:
     c: 'Liu Shaoqi visits the national exhibition of new industrial products at the National Defense Industry Pavilion and sees new defense-industry products: missiles, aircraft, submarines and communications equipment.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 594 (June 20, 1964). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-06-20.china-leadership-2
+    when: June 20
+    date: '1964-06-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Central Committee receives the CPSU letter signed June 15.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 792 ("five days" after the signing of June 15; Wu prints the day as May 20, a slip of the book''s, seen on the image; the Central Committee at work on the Ninth). See [[cal.1964-06-15.soviet-union]]. Check: Wu''s "May 20" for the receipt is read as June 20 from "signed June 15, received five days later."'
+    src:
+      c: 8275af27
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 792: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1964-06-21.mississippi
     when: June 21
     date: '1964-06-21'
@@ -7300,6 +7324,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 346: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1964-06-29.china-leadership-3
+    when: June 29
+    date: '1964-06-29'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao presides over the Standing Committee at his home on the CPSU letter of June 15. All agree it must be answered, point by point or briefly turned back, saying the CPSU, insisting on the meeting, means a splitting conference. Mao leans to turning it back briefly: put the strength into the Ninth, "you fight yours, I fight mine"; after the Ninth a Tenth, and many more titles.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 795 (June 29; Wu then back to Diaoyutai, building 8, where the writers had lived over two years). Made public: 1999. Names: Mao Zedong.'
+    src:
+      c: fc54e0f6
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 795: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1964-06-30.states-and-cities
     when: June 30
     date: '1964-06-30'
@@ -8022,3 +8058,46 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 347: all'
     tags: [polity:prc, polity:mongolia]
+  - id: cal.1964-06.china-leadership-4
+    when: June, after the 20th
+    date: 1964-06
+    at: after 1964-06-20
+    thread: china-leadership
+    also: [soviet-union]
+    c: Mao directs that the CPSU letter be left unanswered for the time being while the Ninth Commentary is revised.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 792 (Mao''s instruction at the time of the receipt; Wu gives no day). Made public: 1999. See [[cal.1964-06-20.china-leadership-2]]. Names: Mao Zedong. Check: the day; Wu gives none.'
+    src:
+      c: a4fd2c1f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 792: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-06.china-leadership-5
+    when: June, late
+    date: 1964-06
+    at: before 1964-06-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Diaoyutai. Deng Xiaoping, the day after the drafting group sends him the much-revised Ninth Commentary, presides over the group's full meeting, which reads, discusses and revises the draft paragraph by paragraph.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 779 ("the end of June"; Deng "the next day," at Diaoyutai). Made public: 1999. Names: Deng Xiaoping. Check: the days; Wu gives none. The meeting may be Deng''s of June 30 at Diaoyutai on the reply to the CPSU letter (796).'
+    src:
+      c: 7ab4e79b
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 779: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-06-30.china-leadership-5
+    when: June 30
+    date: '1964-06-30'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Diaoyutai, building 8, the morning. Deng Xiaoping meets the drafting group on the reply to the CPSU letter. The writers favor answering point by point; Deng agrees: argue each question, with reasons and some bite, and show Khrushchev reversing himself.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 795–796 (Wu phoned the group''s view to Deng after the Standing Committee of June 29; Deng came "the next morning," June 30; he then reported to Mao, who agreed, and had the group split, some on the Ninth, some on the reply, the Tenth and the draft program put off; no day for these). Made public: 1999. Names: Deng Xiaoping.'
+    src:
+      c: da4da3f8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 795–796: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1964-06-29T22:00Z
+      - 1964-06-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

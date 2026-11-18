@@ -998,12 +998,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi, china]
     c: 'Zhou has four talks, Feb. 5 and 6, with Kosygin, chairman of the Soviet Council of Ministers, passing through Beijing to Vietnam. Both sides hold that Sino-Soviet relations should develop. Zhou''s six proposals: for the fifteenth anniversary of the Sino-Soviet treaty, to print each other''s messages and speeches in the papers, showing one attitude; develop trade, long-term cooperation on some items; finish earlier projects left unfinished; carry out the yearly cultural plan better; China to send students and take Soviet ones in turn; carry out the travel agreement. Kosygin agrees to all six.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport). Made public: 1993. Names: Zhou Enlai, Kosygin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (Kosygin flew from Moscow Feb. 5, two days in Peking, Zhou''s talks with him; to Vietnam Feb. 7, Wu says). Made public: 1993. Names: Zhou Enlai, Kosygin.'
     src:
       c: cca6f6ed
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 706: ?'
         - 'w.zhou-enlai-waijiao-huodong 435: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 913: A'
     tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1965-02-05.china-leadership-2
     when: Feb. 5
@@ -1865,6 +1866,18 @@ entries:
     c: Zhou calls the State Council's Foreign Affairs Office and others to arrange the capital's rally and march supporting Vietnam against American aggression. Feb. 10 attends with Mao, Liu, Deng and others the rally and march of 1.5 million.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 707 (Feb. 8, 1965). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, polity:prc, vis:only:prc]
+  - id: cal.1965-02-08.china
+    when: Feb. 8–10
+    date: '1965-02-08'
+    thread: china
+    also: [vietnam-hanoi]
+    c: Protest demonstrations across China against the American bombing of North Vietnam, Feb. 8 to 10.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 913 ("from the 8th to the 10th"; the Peking rally of Feb. 10 the largest).'
+    src:
+      c: 025be03d
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 913: all'
+    tags: [polity:prc]
   - id: cal.1965-02-09.economy
     when: Feb. 9
     date: '1965-02-09'
@@ -2518,12 +2531,18 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou, with Mao Zedong, Liu Shaoqi, Deng Xiaoping and other Party and state leaders, takes part in the demonstration of 1,500,000 in the capital supporting Vietnam's struggle against the United States.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: fd70939f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 435: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 913: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: more than 3 million (300多万) took part in the rally of Feb. 10, Mao and the other leaders on Tiananmen
+        at: '913'
   - id: cal.1965-02-10.china-leadership-4
     when: Feb. 10
     date: '1965-02-10'
@@ -2604,7 +2623,7 @@ entries:
     thread: soviet-union
     also: [china, vietnam]
     c: 'Peking. Kosygin, on his way home from Hanoi, with Mao and Zhou Enlai: let the two parties stop their polemics and act together for Vietnam. Mao refuses: the debate will go on for nine thousand years.'
-    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 7–8 (Feb. 11, 1965; Mao, Liu and Zhou receive Kosygin; the points debated; Mao on objective law); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 11, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Kosygin, chairman of the Soviet Council of Ministers, and the Soviet delegation he heads). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
+    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 7–8 (Feb. 11, 1965; Mao, Liu and Zhou receive Kosygin; the points debated; Mao on objective law); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 11, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Kosygin, chairman of the Soviet Council of Ministers, and the Soviet delegation he heads); [[w.lengxi-shinian-lunzhan-1956-1966]], 913–921 (Mao and Kosygin; Mao on the polemic: 25 years, then 10,000; the "dogmatist" label; the Mar. 1 meeting "we favor your holding it, but we shall not go"; Albania the key; Khrushchev, "invite him to Peking"; unity in ten to fifteen years or earlier, perhaps with the imperialists'' help; the talk the morning after the rally; no agreement). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
     src:
       c: d21a1177
       rows:
@@ -2617,6 +2636,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 436: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao 7–8: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 615: B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 913–921: A, C'
     tags: [name:kosygin-aleksei, name:mao-zedong, name:zhou-enlai]
     time_range:
       - 1965-02-11T01:00Z
@@ -5817,6 +5837,18 @@ entries:
     c: 'The Central Committee and State Council decide on the setup for third-front construction in the Southwest: to strengthen leadership a Southwest Third Front Construction Commission is to be formed.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 713 (Feb. 26, 1965). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-02-26.china-leadership-4
+    when: Feb. 26
+    date: '1965-02-26'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking. The third volume of *Khrushchev''s Speeches* is published (1954: 24 pieces, 325,000 words), and the *Renmin ribao* prints its publisher''s note: his eleven years in office left over ten million words, 30-odd volumes to come; the secret report to the 20th Congress, never published in Moscow, left out for now; the volumes an encyclopedia of modern revisionism.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 906–907 (Feb. 26, 1965; the first and second volumes, 1932–53, published before).'
+    src:
+      c: 469c62f2
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 906–907: all'
+    tags: [polity:prc]
   - id: cal.1965-02-27.vietnam
     when: Feb. 27
     date: '1965-02-27'

@@ -1735,6 +1735,30 @@ entries:
       - 1964-12-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-12-12.china-leadership-4
+    when: Dec. 12
+    date: '1964-12-12'
+    thread: china-leadership
+    also: [latin-america, soviet-union]
+    c: Peking. A delegation of nine Latin American communist parties arrives, under Rodríguez of the Cuban party, with delegates of the parties of Uruguay, Venezuela, Argentina, Mexico, Colombia, Costa Rica, Bolivia and Guatemala, to urge China to end the open polemic.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 911 (arriving "at the same time" as the *Pravda* notice of Dec. 12; in talks with the Liaison Department the delegates said the polemic harmed the Latin American movements). Made public: 1999. See [[cal.1964-12-12.soviet-union]]. Check: the day; Wu has the arrival "at the same time" as the notice.'
+    src:
+      c: 126daa1e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 911: all'
+    tags: [polity:prc, polity:cuba, vis:only:prc+cuba]
+  - id: cal.1964-12-12.soviet-union
+    when: Dec. 12
+    date: '1964-12-12'
+    thread: soviet-union
+    also: [china-leadership]
+    c: '*Pravda* prints a CPSU notice: a "consultative meeting" of the fraternal parties on Mar. 1, 1965.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 909–910 (the notice of Dec. 12, a published notice, not a letter).'
+    src:
+      c: d47e5dab
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 909–910: all'
+    tags: [polity:ussr]
   - id: cal.1964-12-14.court
     when: Dec. 14
     date: '1964-12-14'
@@ -1843,6 +1867,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-12-14.china-leadership
+    when: Dec. 14
+    date: '1964-12-14'
+    thread: china-leadership
+    also: [latin-america, soviet-union]
+    c: 'Mao receives the nine-party Latin American delegation. The polemic cannot stop: China has answered only the CPSU open letter, in nine articles; the CPSU''s many other documents are unanswered; parties which attacked China cannot deny it an answer; a hundred, a thousand, ten thousand years if need be. China will attend no conference of 26, 60 or 80 parties the CPSU called alone; the new leaders'' decision differs from Khrushchev''s only in its coat. Mao tells them he suspects they come as the CPSU''s emissaries: welcome, but their words not accepted.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 911–912 (Dec. 14; the delegation went back to Moscow, its errand failed, 912). Made public: 1999. See [[cal.1964-12-12.china-leadership-4]]. Names: Mao Zedong.'
+    src:
+      c: '80933616'
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 911–912: all'
+    tags: [polity:prc, name:mao-zedong, polity:cuba, vis:only:prc+cuba]
   - id: cal.1964-12-15.legislatures-ny
     when: Dec. 15–30
     date: '1964-12-15'
