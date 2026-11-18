@@ -190,7 +190,7 @@ entries:
     date: '1961-08-01'
     thread: china-leadership
     c: 'Mao''s letter to the Jiangxi Communist Labour University on its third anniversary: his endorsement of work and study together.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 109. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 535–36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103a); [[w.mao-zedong-sixiang-wan]], 267–68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103b); [[w.current-background]], No. 891, 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103c); [[w.pepper-new-directions-in-education]], 406–08 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103d). Names: Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 109; [[w.jianguo-yilai-mao-zedong]], XVI, 82–83 (July 30, 1961; the letter in full: work and study together, with no state money, in every province, schools of the Party, government and mass organizations too, the Center''s two schools). To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 535–36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103a); [[w.mao-zedong-sixiang-wan]], 267–68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103b); [[w.current-background]], No. 891, 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103c); [[w.pepper-new-directions-in-education]], 406–08 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 109 n.103d). Names: Mao Zedong.'
     src:
       c: 5ae6b4ec
       rows:
@@ -199,7 +199,13 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 109 n.103b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 109 n.103c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 109 n.103d: all'
+        - 'w.jianguo-yilai-mao-zedong XVI, 82–83: A'
     tags: [polity:prc, name:mao-zedong]
+    variants:
+      - unit: A
+        witness: w.jianguo-yilai-mao-zedong
+        reads: the letter is dated July 30, 1961, written at the sponsors' request for the university's third anniversary in August
+        at: XVI, 82–83
   - id: cal.1961-08-01.china-leadership-3
     when: Aug. 1
     date: '1961-08-01'
@@ -1038,6 +1044,31 @@ entries:
     c: 'Harbin. Liu Shaoqi inspects the Xiangfang people''s commune: the bamboo-and-rattan plant, a sanba cloth shoe plant, a bearing plant, a service station, the public mess hall in the Anbu district, the commune''s second kindergarten. At the commune cadres'' forum he says urban communes have a role in using surplus labor, but must not weaken the organs of state power. To organize surplus labor, taking men into state factories as regular workers is to be done with care; or small plants are run, and those that go to whole-people ownership must share the treatment of state and local state-run enterprises or the workers will not hold; a whole-people plant needs high mechanization and productivity, which the state can afford. The commune''s industry is to count its costs, productivity, and quantity and quality, not output value alone.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 536 (Aug. 9, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-08-09.china-leadership-2
+    when: Aug. 9
+    date: '1961-08-09'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Morning. Mao, on a request of Aug. 3 from Liu Ningyi of the International Liaison Department, to Xu Yefu to arrange: he can see the Cuban major Sánchez, director of the artillery school, in Peking since July 31; if Sánchez can put off his return two or three days, on the 15th or 16th, the place to be told later.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 84–85 (Aug. 9, 1961). Made public: 2023. To check: Liu Ningyi''s request of Aug. 3, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 84 n.1). Names: Mao Zedong, Liu Ningyi, Xu Yefu. Check: whether the meeting was held. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    src:
+      c: 7c422f04
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 84–85: all'
+        - 'via x.1961-08-03.liu-ningyi-request-for-mao-to-receive-major-sanchez: all'
+    tags: [polity:prc, name:mao-zedong, polity:cuba, vis:only:prc]
+  - id: cal.1961-08-09.china-leadership-3
+    when: Aug. 9
+    date: '1961-08-09'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao cables Khrushchev, for the Party and the Chinese people, on the Soviet Union''s second manned space flight, less than four months after the first: "a new miracle" in mankind''s conquest of space.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 86 (Aug. 9, 1961). Names: Mao Zedong, Khrushchev.'
+    src:
+      c: 9a4e2911
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 86: all'
+    tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, polity:ussr]
   - id: cal.1961-08-10.amendments
     when: Aug. 10
     date: '1961-08-10'
@@ -1576,6 +1607,17 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 202: all'
     tags: [polity:prc, polity:indonesia, name:sukarno]
+  - id: cal.1961-08-14.china-leadership-8
+    when: Aug. 14
+    date: '1961-08-14'
+    thread: china-leadership
+    c: 'Mao Zedong, Liu Shaoqi, Zhu De and Zhou Enlai cable Kim Il Sung and Choe Yong-gon on the 16th anniversary of Korea''s liberation: the Chollima movement; the first five-year plan finished a year early, the seven-year plan under way; China''s full support for the government''s proposals for peaceful unification.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 87–89 (Aug. 14, 1961). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai.'
+    src:
+      c: 96ac5036
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 87–89: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:dprk]
   - id: cal.1961-08-15.transition-and-staff
     when: Aug. 15
     date: '1961-08-15'
@@ -1926,6 +1968,18 @@ entries:
       - 1961-08-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-16.china-leadership-7
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Mao cables Sukarno on the 16th anniversary of Indonesia''s independence: congratulations to him and the Indonesian people; wishes for success against imperialism and colonialism and in building their country, and for the lasting friendship of the two peoples.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 90 (Aug. 16, 1961). Names: Mao Zedong, Sukarno.'
+    src:
+      c: cafefcab
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 90: all'
+    tags: [polity:prc, name:mao-zedong, name:sukarno, polity:indonesia]
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
@@ -2763,7 +2817,7 @@ entries:
     date: '1961-08-23'
     thread: china-leadership
     c: 'Lushan. The Rural Work Department''s report for the work conference, put by Mao, who reads it after his opening remarks, to the conference as "very good": ten improvements and ten problems; the number of units grown by the year''s end (Table 3.1); 2.5 billion yuan of compensation distributed, only 20 per cent of it in the peasants'' hands.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 67–68. Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 548–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154b); [[w.rui-lushan-huiyi-shilu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154c); [[w.macfarquhar-origins-of-the-cultural]], II, 188–251 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154d); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 492–97 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.155); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 492–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.156a); [[w.chan-chen-village]], 31–35 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.156b); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 492–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.157); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 494–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.158). Names: Mao Zedong. Check: the book prints 25 billion yuan at p. 67, 2.5 billion at p. 13.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 67–68; [[w.jianguo-yilai-mao-zedong]], XVI, 98–100 (Sept. 6, 1961; the ten improvements and ten problems, in *Nongcun jianxun* no. 175 of Aug. 24; Mao''s comment on it is dated Sept. 6). Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 548–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154b); [[w.rui-lushan-huiyi-shilu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154c); [[w.macfarquhar-origins-of-the-cultural]], II, 188–251 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154d); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 492–97 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.155); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 492–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.156a); [[w.chan-chen-village]], 31–35 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.156b); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 492–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.157); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 494–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.158). Names: Mao Zedong. Check: the book prints 25 billion yuan at p. 67, 2.5 billion at p. 13.'
     src:
       c: e44e1a6e
       rows:
@@ -2777,7 +2831,13 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 67 n.156b: B-C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 67 n.157: C-D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 68 n.158: B, D'
+        - 'w.jianguo-yilai-mao-zedong XVI, 98–100: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.jianguo-yilai-mao-zedong
+        reads: Mao's "very good" is a comment of Sept. 6, 1961, on the bulletin of Aug. 24 (no. 175), not the remark of Aug. 23
+        at: XVI, 98
   - id: cal.1961-08-23.china-leadership-7
     when: Aug. 23
     date: '1961-08-23'
@@ -2980,6 +3040,18 @@ entries:
     c: 'Lushan. Liu Shaoqi comments on the finance and trade rectification pilot work group''s report on the "back door" in grain and commerce at Xinxiang, Henan. The tighter goods and markets, the worse the "back door": some commodities go mostly out the back and peasants cannot buy them. The grain and commercial departments are to blame, and Party and government leaders at every level too; if it is not checked, the plan to exchange goods with the peasants for farm produce and to pay workers by labor in kind will largely fail. How to stop the back door and have the state''s goods most needed by the people distributed fairly is one of the important problems of grain and the market. The comment is printed as a work conference document.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538 (Aug. 25, 1961). Made public: 1996. To check: Finance and trade rectification pilot work group''s report on the "back door" in grain and commercial departments at Xinxiang, Henan (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-08-25.china-leadership-2
+    when: Aug. 25
+    date: '1961-08-25'
+    thread: china-leadership
+    c: 'Mao to Hu Qiaomu, ill since June: his letter of Aug. 17 received; he must rest for a year or two, not months, in a change of place, reading only non-orthodox books and no current affairs; his illness is like those of Chen Yun, Lin Biao and Kang Sheng, whom long rests cured or improved. His wife Gu Yu to go with him. Mao himself is well in body and mind.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 91–92 (Aug. 25, 1961). Made public: 2023. To check: Hu Qiaomu to Mao, Aug. 17, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 91 n.2). Names: Mao Zedong, Hu Qiaomu, Chen Yun, Lin Biao, Kang Sheng. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    src:
+      c: 838215de
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 91–92: all'
+        - 'via x.1961-08-17.hu-qiaomu-letter-to-mao-asking-leave-from-lushan: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-yun, name:lin-biao, name:kang-sheng, vis:only:prc]
   - id: cal.1961-08-26.berlin-and-vienna
     when: Aug. 26
     date: '1961-08-26'
@@ -3173,6 +3245,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-08-29.china-leadership
+    when: Aug. 29
+    date: '1961-08-29'
+    thread: china-leadership
+    c: 'Mao on Lin Biao''s request of the same day for the General Political Department to print selected articles from his *Selected Works* for the companies: to Tian Jiaying, "Please look; if mostly usable, return it to Lin Biao to carry out." The Department''s propaganda section issued the soldiers'' reader that August, two copies to a squad.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 93–94 (Aug. 29, 1961). Made public: 2023. To check: Lin Biao''s request of Aug. 29, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 93 n.1). Names: Mao Zedong, Lin Biao, Tian Jiaying. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    src:
+      c: 14a1e856
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 93–94: all'
+        - 'via x.1961-08-29.lin-biao-report-on-printing-selections-from-mao-selected-works: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1961-08-30.states-and-cities
     when: Aug. 30
     date: '1961-08-30'
