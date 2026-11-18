@@ -819,3 +819,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Put it in the next free slot." (Nov. 19, about 3 a.m.: *77 Conversations*.)
 
 "What have we read for the PRC in our span thus far? What on the drive remains to be read? What are we missing?" and "Have you checked the items on the drive against your hunches?" (Nov. 19, about 5 a.m.)
+
+"What volumes of Jianguo yilai Liu Shaoqi wengao would we need? Were they on any of our lists?" (Nov. 19, about 5:20 a.m.)
