@@ -888,6 +888,11 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 393: A'
     tags: [name:zhou-enlai, polity:prc]
     time_zone: Africa/Mogadishu
+    variants:
+      - unit: A
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: a tour of ten African countries, Somalia the tenth (the United Arab Republic, Algeria, Morocco, Tunisia, Ghana, Mali, Guinea, Sudan, Ethiopia, Somalia)
+        at: III, 359 n.75
   - id: cal.1964-02-04.china-leadership-3
     when: Feb. 4
     date: '1964-02-04'
@@ -911,11 +916,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking. The *Renmin ribao* prints the seventh commentary, "The leaders of the CPSU are the greatest splitters of our times." It says the unity of the movement was never so threatened; follows the struggle of Marxism–Leninism against opportunism, and of unity against splitting, from 1848 to the Third International; and says the CPSU leaders, holding the power of a great socialist state, are now the chief modern revisionists and the greatest splitters in the movement. It answers the charges of "anti-Sovietism," "seeking leadership," "defying the majority," "breaking discipline" and "backing anti-party groups."
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 663–665 (Feb. 4; its argument in Wu''s summary). To check: the commentary, *Renmin ribao*, Feb. 4, 1964 (the text). See [[cal.1964-02.china-leadership-2]], [[cal.1964-01.china-leadership-2]]. Check: the paper only; Wu says nothing of *Hongqi* for this one.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 663–665 (Feb. 4; its argument in Wu''s summary); [[w.macfarquhar-origins-of-the-cultural]], III, 361 (the seventh group''s topic, the CPSU leaders as the greatest splitters of our times). To check: the commentary, *Renmin ribao*, Feb. 4, 1964 (the text); [[w.xiuquan-huiyi-yu-huainian]], 375 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 361 n.82). See [[cal.1964-02.china-leadership-2]], [[cal.1964-01.china-leadership-2]]. Check: the paper only; Wu says nothing of *Hongqi* for this one.'
     src:
       c: 75fab228
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 663–665: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 361: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 361 n.82: B'
     tags: [polity:prc]
   - id: cal.1964-02-05.program
     when: Feb. 5
@@ -5913,3 +5920,19 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 666: all'
     tags: [polity:prc, polity:drv, name:nguyen-duy-trinh, name:nguyen-chi-thanh, name:xuan-thuy, name:pham-van-dong, vis:only:prc+drv]
+  - id: cal.1964-02.china-leadership-5
+    when: Feb.
+    date: 1964-02
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou, at the end of his African tour: Africa a storm center, "ripe for revolution."'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 359–60. To check: [[w.adie-chou-en-lai-on]], 174–94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 359 n.75); [[w.adie-chou-en-lai-on]], 175 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.76a); [[w.snow-star-raft]], 75–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.76b); [[w.larkin-china-and-africa-1949]], 70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.76c). Names: Zhou Enlai. Check: the day and the place; the book says only "at the end of his tour" (the tour ended at Mogadishu, [[cal.1964-02-04.china-leadership-2]]); whether it is the Mogadishu mass meeting of Feb. 3. Adie says Zhou meant national liberation struggles, not social revolutions (III, 360 n.76).'
+    src:
+      c: 27aef86e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 359–60: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 359 n.75: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 360 n.76a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 360 n.76b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 360 n.76c: all'
+    tags: [polity:prc, name:zhou-enlai]
