@@ -1675,9 +1675,9 @@ entries:
     date: '1963-11-14'
     thread: china-leadership
     also: [soviet-union, testing]
-    c: Evening, Yinian Tang. Mao presides at the Standing Committee on the draft fifth commentary on the Soviet open letter, "The two lines on war and peace" (draft of Nov. 13). On Nov. 18 he reads the final text, adding the sentence "social practice is the sole criterion of truth," and tells Kang Sheng. Printed Nov. 19.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963. Made public: 2013. To check: the commentary, *Renmin ribao*, Nov. 19, 1963, and *Hongqi* 1963 no. 22. Names: Mao Zedong, Kang Sheng.'
-    tags: [polity:prc, polity:ussr, name:mao-zedong, name:kang-sheng, vis:only:prc]
+    c: Evening, Yinian Tang. Mao presides at the Standing Committee on the draft fifth commentary on the Soviet open letter, "The two lines on war and peace" (draft of Nov. 13).
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963. Made public: 2013. Names: Mao Zedong.'
+    tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc]
   - id: cal.1963-11-15.foreign-aid
     when: Nov. 15
     date: '1963-11-15'
@@ -2111,6 +2111,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 376: all'
     tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+  - id: cal.1963-11-18.china-leadership-4
+    when: Nov. 18
+    date: '1963-11-18'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Mao reads the final text of the fifth commentary, adding the sentence "social practice is the sole criterion of truth," and tells Kang Sheng.
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963 (Nov. 18). Made public: 2013. See [[cal.1963-11-14.china-leadership]]. Names: Mao Zedong, Kang Sheng.'
+    src:
+      c: 6b16168e
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 14, 1963: all'
+    tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
   - id: cal.1963-11-19.poverty
     when: Nov. 19
     date: '1963-11-19'
@@ -2293,6 +2305,19 @@ entries:
     c: 'The Secretariat''s instruction no. 68-CT/TW, a draft by its own note, on the campaign to protect the Party: revolutionary vigilance and discipline, the political vetting of cadres and members whose histories are unclear, the management of the Party''s ranks improved; three years alongside the three great campaigns, from December 1962 (the pilot) to the end of 1965. The draft, written after the Secretariat''s meeting of May 24, 1963, to be used in the wider pilot, then issued in place of instruction no. 48-CT/TW of June 4, 1962.'
     n: '*Chỉ thị của Ban Bí thư số 68-CT/TW về việc mở cuộc vận động nâng cao tinh thần cảnh giác cách mạng, ý thức tổ chức kỷ luật; làm tốt công tác thẩm tra chính trị và cải tiến công tác quản lý đội ngũ cán bộ, đảng viên để bảo vệ Đảng (gọi tắt là cuộc vận động bảo vệ Đảng)*, signed for the Secretariat by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXIV, 630–41 (the span, 635; the note on the draft, 641). Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1963-11-19.china-leadership
+    when: Nov. 19
+    date: '1963-11-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The *Renmin ribao* and *Hongqi* print the fifth commentary, "The two lines on the question of war and peace." It sets Khrushchev in the line of the Second International, of Bernstein and Kautsky; lists the American arms drive against the Soviet Union; and calls his "nuclear fetishism and nuclear blackmail" the ground of modern revisionism on war and peace.
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963 (printed Nov. 19). [[w.lengxi-shinian-lunzhan-1956-1966]], 653–655 (Nov. 19; before Wu left for Korea, Mao asked that the article carry new matter, the false peace and real arms drive of the United States and the Soviet Union, the American above all, and China''s own peace diplomacy (the Korean armistice talks, Geneva in 1954, the Warsaw talks), not Khrushchev''s Caribbean course, "adventurism, then capitulation"; Qiao Guanhua, deputy head of the drafting group since the July talks, finished the revision; Khrushchev''s two speeches of late October and early November, attacking China and asking an end to the polemic, the Central Committee judged insincere and decided to ignore). To check: the commentary, *Renmin ribao*, Nov. 19, 1963, and *Hongqi* 1963 no. 22. See [[cal.1963-11-18.china-leadership-4]]. Names: Khrushchev.'
+    src:
+      c: e03fddf3
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 14, 1963: B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 653–655: all'
+    tags: [polity:prc, name:khrushchev-nikita-s]
   - id: cal.1963-11-20.vietnam
     when: Nov. 20
     date: '1963-11-20'

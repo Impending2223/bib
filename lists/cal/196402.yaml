@@ -898,6 +898,18 @@ entries:
       - 1964-02-04T09:00Z
     time_band: morning
     time_zone: Africa/Mogadishu
+  - id: cal.1964-02-04.china-leadership-4
+    when: Feb. 4
+    date: '1964-02-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The *Renmin ribao* prints the seventh commentary, "The leaders of the CPSU are the greatest splitters of our times." It says the unity of the movement was never so threatened; follows the struggle of Marxism–Leninism against opportunism, and of unity against splitting, from 1848 to the Third International; and says the CPSU leaders, holding the power of a great socialist state, are now the chief modern revisionists and the greatest splitters in the movement. It answers the charges of "anti-Sovietism," "seeking leadership," "defying the majority," "breaking discipline" and "backing anti-party groups."
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 663–665 (Feb. 4; its argument in Wu''s summary). To check: the commentary, *Renmin ribao*, Feb. 4, 1964 (the text). See [[cal.1964-02.china-leadership-2]], [[cal.1964-01.china-leadership-2]]. Check: the paper only; Wu says nothing of *Hongqi* for this one.'
+    src:
+      c: 75fab228
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 663–665: all'
+    tags: [polity:prc]
   - id: cal.1964-02-05.program
     when: Feb. 5
     date: '1964-02-05'
@@ -1660,6 +1672,23 @@ entries:
     c: 'Zhou wires the Central Committee and Mao: back four days; poor sleep and no spare time, so he has not telephoned Shangkun, and has not started the report on the trip, "feeling very uneasy". Five days before going abroad again: an outline first, settled with Chen Yi and others and wired to the Center; the full report after the next return.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 619 (Feb. 9, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Yang Shangkun.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1964-02-09.china-leadership-2
+    when: Feb. 9
+    date: '1964-02-09'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Wu Lengxi leads the *Renmin ribao* delegation to Vietnam for the Spring Festival, at the Vietnamese side''s wish: it leaves Peking in the morning and reaches Hanoi that afternoon, three weeks planned.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 666 (leaving Peking the morning of Feb. 9, in Hanoi that afternoon; the Vietnamese side "hoped" Wu would bring a delegation for the Spring Festival). The time is the departure''s. Made public: 1999. See [[cal.1964-02-04.china-leadership-4]]. Check: whether the visit was reported at the time.'
+    src:
+      c: 728c1867
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 666: all'
+    tags: [polity:prc, vis:only:prc+drv]
+    time_range:
+      - 1964-02-08T22:00Z
+      - 1964-02-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-02-10.civil-rights-bill
     when: Feb. 10
     date: '1964-02-10'
@@ -1944,6 +1973,11 @@ entries:
     c: 'The plenum of the Central Committee. Khrushchev''s digressions fill eighty-six pages of the verbatim record, which he is given to "sanitize." On scientists: they must show initiative or it will be said the Council of Ministers insults the scholars. On the Krasnodar secretaries'' promise of thirty hundredweight a hectare: "I think they have swindled."'
     n: '[[w.schattenberg-brezhnev]], 165 (nn.397–401). To check: RGANI, f. 2, op. 1, d. 742 (the retorts taken from the stenogram of the plenum, Feb. 10–15, 1964), l. 4, 7, 13, 72–73 (cited by [[w.schattenberg-brezhnev]], 165 nn.397–401). Made public: 2021 at the latest. Names: Khrushchev.'
     tags: [name:khrushchev-nikita-s, polity:ussr]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the February plenum held Feb. 14 to 15 (763), its resolution adopted Feb. 15 (762); the Chinese reply of May 7, as Wu prints it, has the plenum's report and resolution Feb. 15 and 16 (772)
+        at: 762, 763, 772
   - id: cal.1964-02-11.school-aid
     when: Feb. 11
     date: '1964-02-11'
@@ -2348,6 +2382,18 @@ entries:
     c: 'The White House, dinner with William S. White, the columnist, and Mrs. White: his book, and Johnson''s reasons for going to church, which Mrs. Johnson gives as that anyone in his house needed help "more than man''s" and that no one could any longer say he went for political reasons.'
     n: '[[w.johnson-white-house-diary]], 71–72 (Lady Bird Johnson''s account; she does not say Johnson was at the table). Names: Lady Bird Johnson, Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
+  - id: cal.1964-02-12.soviet-union
+    when: Feb. 12
+    date: '1964-02-12'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'The CPSU Central Committee writes to the brother parties, the Chinese not among them: it will give the Chinese party a public and decisive rebuff and take "collective measures" against it.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 673, 694, 763 (Mao to Kim Il Sung on Feb. 27, guessing at its contents; Ceaușescu to Liu Shaoqi on Mar. 5: the letter speaks of a decisive rebuff and collective measures; the *Pravda* editorial of Apr. 3: the CPSU consulted the parties in it on the measures planned, the editorial''s date of the letter printed by Wu as "July 12", 763). Made public: *Pravda*, Apr. 3, 1964 (the letter and its purpose named in the editorial; Wu, 763). Check: the letter''s text and its addressees: Wu names the Romanian party, and Kim Il Sung says the Soviet ambassador at Pyongyang brought him, before he left for Peking, a CPSU letter to the Romanian party that spoke of a "decisive rebuff" (673).'
+    src:
+      c: e12010ea
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 673, 694, 763: all'
+    tags: [polity:ussr, polity:prc, polity:romania, polity:dprk, vis:only:ussr+romania+dprk, vis:from:prc:1964-02-20]
   - id: cal.1964-02-13.elections-1964
     when: Feb. 13
     date: '1964-02-13'
@@ -2630,6 +2676,18 @@ entries:
       - 1964-02-14T11:30Z
     time_band: afternoon
     time_zone: Asia/Yangon
+  - id: cal.1964-02-14.soviet-union-2
+    when: Feb. 14
+    date: '1964-02-14'
+    thread: soviet-union
+    also: [china-leadership]
+    c: The Romanian Central Committee telephones the CPSU, asking it not to publish its letter of Feb. 12 to the brother parties. The CPSU answers that it may leave it unpublished if China stops the open polemic.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 694, 705 (as Ceaușescu told Liu Shaoqi on Mar. 5, "Feb. 14"; Liu to the Standing Committee on Mar. 7: the Romanians had asked the CPSU not to publish the plenum''s resolution or the letter of Feb. 12). Made public: 1999. See [[cal.1964-02-12.soviet-union]]. Check: Wu has it only at second hand, from Ceaușescu.'
+    src:
+      c: 6d57e555
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 694: all'
+    tags: [polity:romania, polity:ussr, vis:only:romania+ussr, vis:from:prc:1964-03-05]
   - id: cal.1964-02-15.europe-and-the-alliance-cyprus
     when: Feb. 15
     date: '1964-02-15'
@@ -3600,6 +3658,18 @@ entries:
       - 1964-02-20T17:00Z
     time_band: evening
     time_zone: Asia/Karachi
+  - id: cal.1964-02-20.china-leadership-3
+    when: Feb. 20
+    date: '1964-02-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Chinese Central Committee writes to the CPSU Central Committee and demands a copy of its letter of Feb. 12 to the brother parties.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 673, 728, 774 (Feb. 20; one of the three Chinese letters printed May 9). Made public: the *Renmin ribao*, May 9, 1964 (774–775: the seven letters). See [[cal.1964-02-12.soviet-union]]. Check: the text; Wu uses "demand" (要求), the word the CPSU then objected to.'
+    src:
+      c: 9921f947
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 673, 728, 774: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1964-02-21.vietnam
     when: Feb. 21
     date: '1964-02-21'
@@ -3855,6 +3925,18 @@ entries:
       - 1964-02-22T17:00Z
     time_band: evening
     time_zone: Asia/Karachi
+  - id: cal.1964-02-22.soviet-union
+    when: Feb. 22
+    date: '1964-02-22'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'The CPSU Central Committee answers the Chinese letter of Feb. 20: it will not give the letter of Feb. 12, the Chinese having written "demand" and not "request".'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 673, 774 (Feb. 22; among the seven letters printed May 9). Made public: the *Renmin ribao*, May 9, 1964 (774–775). See [[cal.1964-02-20.china-leadership-3]].'
+    src:
+      c: f3dd4f71
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 673, 774: all'
+    tags: [polity:ussr, polity:prc, vis:only:prc+ussr]
   - id: cal.1964-02-23.opinion
     when: Feb. 23
     date: '1964-02-23'
@@ -4313,6 +4395,18 @@ entries:
       - 1964-02-25T16:00Z
     time_band: evening
     time_zone: Asia/Dhaka
+  - id: cal.1964-02-25.china
+    when: Feb. 25
+    date: '1964-02-25'
+    thread: china
+    also: [soviet-union]
+    c: Peking. The Chinese and Soviet government delegations open talks on the frontier.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 681 (the Chinese reply of Feb. 29: the talks begun at Peking "on Feb. 25, 1964, a few days before the reply was sent"). Made public: the *Renmin ribao*, May 9, 1964 (the reply of Feb. 29, among the seven letters; Wu, 681, 774). Check: whether the opening was announced at the time, and the delegations'' heads.'
+    src:
+      c: e5670b98
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 681: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1964-02-26.economy
     when: Feb. 26
     date: '1964-02-26'
@@ -4503,6 +4597,18 @@ entries:
     c: 'Zhou and Chen Yi wire the Central Committee and Mao on Pakistan: eight days'' visit, a warm and sincere welcome; the talks with Ayub and Bhutto frank and practical. The communiqué issued; Kashmir: China wants it settled by the wishes of the Kashmiris as both India and Pakistan have pledged.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 623 (Feb. 26, 1964). Made public: 1997. Names: Zhou Enlai, Chen Yi, Mao Zedong, Ayub Khan, Bhutto.'
     tags: [name:zhou-enlai, name:chen-yi, name:mao-zedong, name:ayub-khan-mohammad, name:bhutto-zulfikar-ali, polity:prc, vis:only:prc]
+  - id: cal.1964-02-26.china-leadership-4
+    when: Feb. 26
+    date: '1964-02-26'
+    thread: china-leadership
+    also: [korea-leadership, soviet-union]
+    c: Peking. Kim Il Sung arrives with a Korean party delegation of members of its Politburo, to give its views on the Chinese reply to the CPSU letter of Nov. 29. Peng Zhen was first to have taken the draft to Korea; Kim came himself, the matter being large.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 670–671 (the Korean delegation in Peking "two days" before Deng''s and Wu''s return of Feb. 28). Made public: 1999. See [[cal.1964-02-26.china-leadership]]. Names: Kim Il Sung, Peng Zhen. Check: the day, reckoned from Wu''s "two days"; Mao''s letter of Feb. 26 asks Kim to come on Feb. 27.'
+    src:
+      c: 1d20b91e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 670–671: all'
+    tags: [polity:prc, polity:dprk, name:kim-il-sung, name:peng-zhen, vis:only:prc+dprk]
   - id: cal.1964-02-27.republican-party-congress
     when: Feb. 27
     date: '1964-02-27'
@@ -4639,7 +4745,12 @@ entries:
     thread: china-leadership
     also: [korea-leadership, soviet-union]
     c: 'Mao, Beijing, Diaoyutai, no. 18, afternoon: receives Kim Il Sung to ask the Korean side''s views on the Central Committee''s reply to the CPSU letter of Nov. 29, 1963; Liu Shaoqi, Peng Zhen, Li Fuchun, Yang Shangkun for China; Pak Kum-chol, Kim Chang-man, Pak Yong-guk for Korea.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 27, 1964. Made public: 2013. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Peng Zhen, Li Fuchun, Yang Shangkun, Pak Kum-chol, Kim Chang-man, Pak Yong-guk. Check: the Korean names (Chinese: Pu Jinzhe, Jin Changman, Pu Yongguo).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 27, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 670–675 (the first of three talks with Kim Il Sung, Feb. 27, the day before Wu and Deng returned from Vietnam; Mao put three proposals, talks again, a meeting of 17 parties, a world conference of 81 or 100-odd, the talks in October or September or August but not July; the CPSU plenum and its letter of Feb. 12; the Soviet ambassador to Pyongyang''s call on Kim before he left; Mao expects the CPSU to hold two hands, a "decisive rebuff" and Romania as mediator; the Korean side: Pak Kum-chol, Kim Chang-man and Pak Yong-guk; Wu was not at the talk and read the record). Made public: 2013. Check: Wu (671) has "most of the Standing Committee" at the three talks with Kim Il Sung, the Chinese side headed by Mao, Zhou Enlai being abroad; Deng Xiaoping was in Vietnam on Feb. 27. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Peng Zhen, Li Fuchun, Yang Shangkun, Pak Kum-chol, Kim Chang-man, Pak Yong-guk. Check: the Korean names (Chinese: Pu Jinzhe, Jin Changman, Pu Yongguo).'
+    src:
+      c: 6ddcebbe
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 27, 1964: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 670–675: B, D'
     tags: [name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:peng-zhen, name:li-fuchun, polity:prc, polity:dprk, vis:only:prc+dprk]
   - id: cal.1964-02-27.china-leadership-2
     when: Feb. 27
@@ -4674,6 +4785,18 @@ entries:
       - 1964-02-27T16:30Z
     time_band: evening
     time_zone: Asia/Colombo
+  - id: cal.1964-02-27.china-leadership-3
+    when: Feb. 27
+    date: '1964-02-27'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Chinese Central Committee writes again, this time "requesting" the CPSU's letter of Feb. 12, as the CPSU's own word asked.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 673, 728, 774 (Feb. 27; Mao told Kim Il Sung the same day that a refusal was likelier than not, 673). Made public: the *Renmin ribao*, May 9, 1964 (774–775). See [[cal.1964-02-22.soviet-union]]. Check: the text.'
+    src:
+      c: 0fd23ee3
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 673, 728, 774: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1964-02-28.legislatures-wi
     when: Feb. 28
     date: '1964-02-28'
@@ -4762,7 +4885,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides in the evening over the Politburo Standing Committee on the line for talks with the Romanian Workers'' Party delegation due. Mao''s three points: no inch on ending open polemics, all parties that have attacked the Chinese party to retract; no criticism of Khrushchev in print while the talks last, then resumed; the reply to the CPSU to be sent before the delegation arrives, not during or after; and the line toward Romania one of friendship and cooperation, allowing for its position, to resist Khrushchev''s great-power chauvinism.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 28, 1964. Made public: 2013. Names: Mao Zedong, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 28, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 675–677 (the evening of Feb. 28, the day Deng and Wu came back from Hanoi; Deng''s short account of the Vietnam talks, then the line for the Romanian delegation; the Standing Committee thinks it sent by Khrushchev and wanting to sound China out; Liu Shaoqi: Khrushchev bullies the weak and fears the strong; Mao sums up three points: no inch on the polemic, no articles criticizing Khrushchev while the talks last, the reply to the CPSU to go before the Romanians come, friendship with Romania). Made public: 2013. Names: Mao Zedong, Khrushchev.'
+    src:
+      c: 4eedfb25
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 28, 1964: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 675–677: A-E'
     tags: [name:mao-zedong, name:khrushchev-nikita-s, polity:prc, polity:romania, vis:only:prc]
   - id: cal.1964-02-28.china-leadership-2
     when: Feb. 28
@@ -5557,20 +5685,26 @@ entries:
     thread: china-leadership
     also: [korea-leadership, soviet-union]
     c: 'Mao, Beijing, Diaoyutai, no. 18, morning: receives Kim Il Sung again. If China turns revisionist, what would Korea do? (He has said so to Miyamoto Kenji, to Wilcox of New Zealand, to the Indonesians.) Against the new bourgeoisie, who steal and speculate and are few but able; the Soviet Union is full of them. The CPSU letter threatens "collective measures", "decisive blows": China is waiting. The seventh commentary took two months and 18 drafts; its title was found two weeks before publication.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964. Made public: 2013. Names: Mao Zedong, Kim Il Sung, Miyamoto Kenji, Wilcox.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 677–681 (the second talk with Kim Il Sung, Feb. 29, in building 18 of Diaoyutai; present with Kim: Pak Kum-chol, Kim Chang-man, Pak Yong-guk and four others of the Korean Politburo; with Mao: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Wu Xiuquan, Wu Lengxi and Yao Zhen; Deng on the Vietnam talks; Mao on the polemic, that China could not name the CPSU before its Open Letter of July 14 and now can; how to receive the Romanians; the reply to go before they arrive, the talks put to October, then September, then August and no earlier; the polemic paused while the Romanians are in Peking; Kim to stay to work on them while his delegation goes home). Made public: 2013. Names: Mao Zedong, Kim Il Sung, Miyamoto Kenji, Wilcox.'
+    src:
+      c: 3eed1bde
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 29, 1964: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 677–681: A, B'
     tags: [name:mao-zedong, name:kim-il-sung, polity:prc, polity:dprk, vis:only:prc+dprk]
   - id: cal.1964-02-29.china-leadership-2
     when: Feb. 29
     date: '1964-02-29'
     thread: china-leadership
     also: [soviet-union]
-    c: 'The Politburo in enlarged session, Liu Shaoqi presiding, afternoon: adopts the Central Committee''s reply to the CPSU letter of Nov. 29, 1963; five matters: the border, aid, Soviet experts, trade, the open polemic. Dated Feb. 29, handed to the Soviet chargé Cherbakov Mar. 1; published May 9.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Feb. 29, 1964; Liu presides at the enlarged Politburo meeting, which adopts the Central Committee''s reply to the CPSU letter of Nov. 29, 1963). Made public: 1996. To check: the reply of Feb. 29, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964). Names: Liu Shaoqi. Check: the Soviet chargés name (the Chinese: Qierbakefu).'
+    c: 'The Politburo in enlarged session, Liu Shaoqi presiding, afternoon: adopts the Central Committee''s reply to the CPSU letter of Nov. 29, 1963; five matters: the border, aid, Soviet experts, trade, the open polemic. Dated Feb. 29.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Feb. 29, 1964; Liu presides at the enlarged Politburo meeting, which adopts the Central Committee''s reply to the CPSU letter of Nov. 29, 1963); [[w.lengxi-shinian-lunzhan-1956-1966]], 681–687, 729 (the reply, "decided that evening" (681); five matters in Wu''s order: the border, aid, experts, trade, the open polemic; its four proposals (talks of the two parties and the others, a world conference prepared, Soviet–Chinese talks in Peking Oct. 10 to 15, 1964, a preparatory meeting of 17 parties); "signed Feb. 29, sent Mar. 1", not published, the Romanians coming in two days (687); received by the CPSU Mar. 1 (729); printed May 9 (774)). Made public: 1996. Check: Wu (681) has the decision to send the reply taken the evening of Feb. 29, after the second talk with Kim Il Sung; he names no session of the Politburo. To check: the reply of Feb. 29, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964). Names: Liu Shaoqi. Check: the Soviet chargés name (the Chinese: Qierbakefu).'
     src:
-      c: e11b31cf
+      c: d6774baf
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Feb. 29, 1964: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 589: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 681–687, 729: B, C'
     tags: [name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-02-29.china-leadership-3
     when: Feb. 29
@@ -5661,3 +5795,42 @@ entries:
     c: 'Liu Shaoqi, in the Spring Festival days, talks with Wang Guangmei, home on leave from the socialist-education work at the Taoyuan brigade of the Lu Wangzhuang commune in Funing county, Hebei. He asks where the root lies of the serious "four unclean" mistakes: the corrosion and influence of feudal and capitalist forces is the root below, but the masses too are to be told to look at the root above, including degenerate elements in the higher organs and the bad style of ordinary cadres. Cadres guilty of serious "four unclean" mistakes generally have roots above: those below give gifts and feasts to cadres above, even link up with one another, and someone above protects them; without that protection they would not dare to err so gravely. Wang, back in Hebei, passes Liu''s talk to the Hebei provincial committee.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 588–589 (Feb., early, 1964). Made public: 1996. Names: Liu Shaoqi. Check: the day; the book has "the first ten days of February" and puts the Spring Festival (Feb. 13) after it.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-02.china-leadership-2
+    when: Feb., early
+    date: 1964-02
+    at: before 1964-02-01
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The Politburo Standing Committee meets several times on the seventh commentary and makes many changes. The text is set in early February and retitled "The leaders of the CPSU are the greatest splitters of our times."
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 663 (after the Politburo''s comments in late January, "several" Standing Committee meetings, "final in early February"). Made public: 1999. See [[cal.1964-01.china-leadership-3]]. Check: the days; Wu gives none.'
+    src:
+      c: 82d1f459
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 663: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-02.china-leadership-3
+    when: Feb., after the 13th
+    date: 1964-02
+    at: after 1964-02-13
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Hanoi. A Chinese party delegation under Deng Xiaoping, Kang Sheng with him, comes in secret and meets the Vietnam Workers'' Party leaders under Lê Duẩn, Phạm Văn Đồng and Trường Chinh in three sessions; Wu Lengxi, recalled from Hongay, joins. Deng: China will give 2 billion yuan for a long-term plan to make Vietnam self-supporting in farming and light industry, with coal, the arms free as before. The Vietnamese welcome it and will work out a plan. On the draft Chinese reply to the CPSU letter of Nov. 29, brought in Vietnamese, they ask conditions for an end to the open polemic, a halt by all parties, and the Soviet–Chinese talks to succeed before any conference; Lê Duẩn and Trường Chinh ask a softer tone for Europe''s parties. Deng: China hopes for agreement before a conference and will try, but must prepare for a Soviet break; the tone can be eased, the principle stays. Hồ Chí Minh, absent from the talks, gives the dinner at the end. Deng then takes Wu back to Peking.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 666–670 (the Chinese delegation "secretly" at Hanoi; the 2 billion yuan; three sessions; the Vietnamese views on the reply, and Deng''s answer; Hồ''s dinner and thanks; the arms "without payment, unlike the Soviet arms aid for the Korean War, at half price"; Wu told to return with Deng at the end). Made public: 1999. See [[cal.1964-02-09.china-leadership-2]]. Names: Deng Xiaoping, Kang Sheng, Lê Duẩn, Phạm Văn Đồng, Trường Chinh, Hồ Chí Minh. Check: the days, which Wu does not give: the party left Hanoi for Peking with Wu on Feb. 28 (675), and Mao''s notes of Feb. 23 have Kang Sheng in Peking ([[cal.1964-02-23.china-leadership]]).'
+    src:
+      c: fc30a066
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 666–670: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:le-duan, name:pham-van-dong, name:truong-chinh, name:ho-chi-minh, vis:only:prc+drv]
+  - id: cal.1964-02.china-leadership-4
+    when: Feb., after the 9th
+    date: 1964-02
+    at: after 1964-02-09
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Hanoi. Vietnamese leaders brief the *Renmin ribao* delegation under Wu Lengxi: Nguyễn Duy Trinh on the economy, Nguyễn Chí Thanh on the countryside, Xuân Thủy on propaganda. Phạm Văn Đồng receives it.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 666 ("after we reached Hanoi"; no days; 阮维桢 (the image; the OCR''s 阮维核), 阮志清 and 春水). Made public: 1999. See [[cal.1964-02-09.china-leadership-2]]. Names: Nguyễn Duy Trinh, Nguyễn Chí Thanh, Xuân Thủy, Phạm Văn Đồng. Check: the days.'
+    src:
+      c: a4391774
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 666: all'
+    tags: [polity:prc, polity:drv, name:nguyen-duy-trinh, name:nguyen-chi-thanh, name:xuan-thuy, name:pham-van-dong, vis:only:prc+drv]
