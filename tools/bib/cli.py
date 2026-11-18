@@ -800,9 +800,27 @@ def cmd_works(series, a):
     if cmd == "combine":
         if len(rest) != 2:
             raise SystemExit("works combine KEEP DROP")
-        for s_ in works.combine(series, rest[0], rest[1]):
-            series.save_section(s_)
-        cat.save()
+        # under the works lock, the catalogue re-read, and only the card files the fold touches written (Nov. 19,
+        # 2026: a whole-catalogue save here could overwrite cards other readers were writing at the same moment)
+        import fcntl
+        with open(os.path.join(store.ROOT, "works", ".lock"), "w") as lk:
+            fcntl.flock(lk, fcntl.LOCK_EX)
+            series = store.Series()
+            cat = series.works
+            k, d = cat.get(rest[0]), cat.get(rest[1])
+            if k is None or d is None:
+                raise SystemExit(f"works combine: no card {rest[0] if k is None else rest[1]}")
+            drop_file = cat.file_of.get(d["id"])
+            pointing = [c["id"] for c in cat.cards.values()
+                        if any(c.get(f) == d["id"] for f in ("in", "edition_of", "translates"))]
+            for s_ in works.combine(series, rest[0], rest[1]):
+                series.save_section(s_)
+            for cid in {k["id"], *pointing}:
+                cat.save(cid)
+            if drop_file and drop_file != cat.file_of.get(k["id"]):
+                left = [c for c in cat.cards.values() if cat.file_of.get(c["id"]) == drop_file]
+                if left:
+                    cat.save(left[0]["id"])
         print(f"{rest[1]} -> {rest[0]}: {plain(cat.render(rest[0]))}")
         return
     if cmd == "inventory":
