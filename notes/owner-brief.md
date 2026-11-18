@@ -833,3 +833,9 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "I've shared a number of the memoir items. What does the remainder of the queue for our PRC step look like? What's in, what's out?" (Nov. 18, about 2:25 a.m. Pacific.)
 
 "Could you tell me whether I should sift and retrieve the 毛泽东思想万岁? And what of them? The items seem a bit bibliographically involved. What's here? How many ... volumes? are there? In how many distinct series? (Wuhan, Henan?) Is there a bibliographic standard or convention here, or in the literature? What's worth retrieving and reading for the calendar?" (Nov. 18, about 2:40 a.m. Pacific.)
+
+"Li Zhisui was first written in English? I'll get you that instead if so." (Nov. 18, about 2:45 a.m. Pacific.)
+
+"Bring the Yang Shangkun riji 杨尚昆日记  ahead of the chronologies. Put at least some of the scholarship and Sino-Soviet studies ahead of some of the nianpu. I'd be inclined to put some after Deng and some after Chen Yi." (Nov. 18, about 2:50 a.m. Pacific.)
+
+"Claude, I have to go to sleep. I haven't read your replies to my queued messages "Li Zhisui was first written in English? I'll get you that instead if so" and "Bring the Yang Shangkun riji 杨尚昆日记  ahead of the chronologies. Put at least some of the scholarship and Sino-Soviet studies ahead of some of the nianpu. I'd be inclined to put some after Deng and some after Chen Yi." Please implement my queue request to the best of your ability and judgment. I'll see you later in the morning, after the pause." (Nov. 18, about 3:05 a.m. Pacific.)
