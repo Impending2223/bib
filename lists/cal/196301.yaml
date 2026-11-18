@@ -1168,6 +1168,19 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Vientiane
     range_basis: kind
+  - id: cal.1963-01-11.china
+    when: Jan. 11
+    date: '1963-01-11'
+    thread: china
+    c: 'The *People''s Daily* on badly run production teams: cadres impure in style, short of socialist consciousness, with capitalist leanings; they do not labor, and force their will on the masses.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 335. To check: Renmin ribao, Jan. 11, 1963 ([[w.renmin-ribao]]) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 335 n.3a); [[w.baum-prelude-to-revolution]], 17–18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 335 n.3b).'
+    src:
+      c: '77371114'
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 335: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 335 n.3a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 335 n.3b: all'
+    tags: [polity:prc]
   - id: cal.1963-01-12.alabama
     when: Jan. 12
     date: '1963-01-12'
@@ -3319,11 +3332,12 @@ entries:
     date: 1963-01
     thread: china-leadership
     c: Mao writes the lyric "Man Jiang Hong," in answer to Guo Moruo's.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 531 (the poem of Jan. 1963, whose text Wu prints, "answering Guo Moruo" (和郭沫若)). To check: the poem''s first publication. Names: Mao Zedong. Check: the day: Wu gives the month only.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 531 (the poem of Jan. 1963, whose text Wu prints, "answering Guo Moruo" (和郭沫若)); [[w.macfarquhar-origins-of-the-cultural]], III, 330 (the poem). To check: the poem''s first publication. Names: Mao Zedong. Check: the day: Wu gives the month only.'
     src:
       c: b5736d20
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 531: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 330: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1963.china-leadership-2
     when: 1963, Hongqi nos. 3–4
@@ -3425,3 +3439,29 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 273: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 273 n.72b: all'
     tags: [polity:prc, polity:roc, vis:only:prc+roc, name:zhou-enlai, name:chiang-kai-shek]
+  - id: cal.1963.china-leadership-5
+    when: 1963, by May 20
+    date: '1963'
+    at: before 1963-05-20
+    thread: china-leadership
+    c: 'Mao''s directive on the three great revolutionary movements, class struggle, production and scientific experiment: without them, within some years or decades, counter-revolution nationwide and the Party turned revisionist, fascist.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 342. Made public: 1968. To check: Mao Zedong, directive on the three great revolutionary movements, 1963, in [[w.baum-ssu-ching]], 70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 342 n.49). See [[cal.1963-05-07.china-leadership]]. Names: Mao Zedong. Check: the date, and whether this is Mao''s written comment at Hangzhou on the seven Zhejiang documents (III, 340); the book calls it ''recent'' and quotes it from the Former Ten Points'' coda (III, 342).'
+    src:
+      c: ee73fc68
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 342: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 342 n.49: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963.china-leadership-6
+    when: 1963, after Feb. 28
+    date: '1963'
+    at: after 1963-02-28
+    thread: china-leadership
+    c: The Guizhou Party committee meets after the February conference and takes up socialist education, which its meetings after the Tenth Plenum had not.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 336. Made public: 1989. To check: [[w.weiyuanhui-guizhou-sheng-zhi]], 103, 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.19). Check: the date; the book gives the meetings'' dates only as after the plenum and after the conference.'
+    src:
+      c: d4e6f280
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 336: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.19: all'
+    tags: [polity:prc, vis:only:prc]
