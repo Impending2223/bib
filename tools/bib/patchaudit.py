@@ -53,9 +53,11 @@ def drops(cur, new, dated=False):
     if new is None:
         return []
     from .notemerge import ITEM, card, sentences
+    from .claims import note_parts
     pinned = lambda s: {card(m.group(0)) for m in re.finditer(ITEM, s) if re.match(r"\[\[[^\]]+\]\],", m.group(0))}
     have = {card(m.group(0)) for m in re.finditer(ITEM, new)}
-    out = [f"{c} (read)" for c in sorted(pinned(cur) - have)]
+    read = " ; ".join(note_parts(cur)[0])               # the sources read only: a paged item behind "To check:" is
+    out = [f"{c} (read)" for c in sorted(pinned(read) - have)]   # not read (the bearing fix, Nov. 18, 2026)
     out += [f"'{s[:60]}'" for s in sentences(cur) if s.startswith("Check:") and s not in new
             and not (dated and DATE_CHECK.match(s))]
     return out
