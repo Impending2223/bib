@@ -421,7 +421,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao on Kang Sheng''s draft *People''s Daily* editorial "Comment on the statement of the American Communist Party": "consider whether to add a note against dogmatism." Printed Mar. 8.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 5, 1963. Made public: 2013. To check: the editorial, *Renmin ribao*, Mar. 8, 1963, and the American Party''s statement it answers. Names: Mao Zedong, Kang Sheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 5, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 530 (the editorial printed Mar. 8). Made public: 2013. To check: the editorial, *Renmin ribao*, Mar. 8, 1963, and the American Party''s statement it answers. Names: Mao Zedong, Kang Sheng.'
+    src:
+      c: dd0b662b
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 5, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 530: B'
     tags: [polity:prc, polity:us, name:mao-zedong, name:kang-sheng, vis:only:prc]
   - id: cal.1963-03-05.china-leadership-2
     when: Mar. 5
@@ -675,7 +680,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Juxiang Shuwu, afternoon. Mao presides at the Standing Committee on the draft reply to the Soviet Central Committee's letter of Feb. 21; he approves it.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 7, 1963. Made public: 2013. See [[cal.1963-02-23.china-leadership-2]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 7, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 552–557 (Wu: Mao''s Standing Committee of Mar. 7 makes the final revisions of the reply, which goes next day to the Politburo under Liu Shaoqi (550 has the Standing Committee on Mar. 8); few views on the text; the two meetings review the seven articles of the open polemic and the line ahead, with Mao, Liu, Zhou, Deng and others speaking). Made public: 2013. See [[cal.1963-02-23.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: 1f977153
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 7, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 552–557: B-C'
     tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc]
   - id: cal.1963-03-07.china-leadership-2
     when: Mar. 7
@@ -779,6 +789,30 @@ entries:
       - 1963-03-08T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-03-08.china-leadership-3
+    when: Mar. 8
+    date: '1963-03-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking. The Politburo, Liu Shaoqi presiding, approves the reply to the CPSU Central Committee''s letter of Feb. 21, which the Standing Committee under Mao had finally revised the day before. With the Standing Committee of Mar. 7, it reviews the seven articles of the open polemic and settle the line: talks with the CPSU, to be led by Deng Xiaoping, with neither Mao nor Liu; a conference of the parties, not feared though the CPSU would have a majority; no split begun by China; the open polemic held back from Mar. 9.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 552–557 (Liu Shaoqi''s remarks: the wave against China is offensive in form and defensive in substance, and the open answer defensive in form and offensive in substance; the writers'' seven pieces had beaten back the wave, the main target being the CPSU leaders though not named; "hold to principle, do not fear the splitting, keep the left, win the middle"; on the talks: go for agreement, but with two hands, one for a good result and one for a break; Mao will not appear; the delegation to be of the level of 1960''s). Made public: 1999. See [[cal.1963-03-07.china-leadership]]. Names: Liu Shaoqi, Deng Xiaoping, Mao Zedong. The Standing Committee''s day: Mar. 7 (552), as the Mao chronology ([[cal.1963-03-07.china-leadership]]); Wu has Mar. 8 at 550. Check: Zhou Enlai''s chronology has a Politburo on the reply Mar. 5 ([[cal.1963-03-05.china-leadership-3]]); whether that is this session.'
+    src:
+      c: ebc02c11
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 552–557: all'
+    tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-03-08.china-leadership-4
+    when: Mar. 8
+    date: '1963-03-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking. The *Renmin ribao* editorial "Comment on the statement of the Communist Party of the USA," answering the American party''s statement of Jan. 9, which had attacked the CCP and, on the Cuban crisis, charged China with a "double standard": no risks taken over Taiwan, Hong Kong and Macao, others urged to take them. The editorial answers that the double standard is others'', on the Indian border and on Cuba.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 530 ("Mar. 8"; the last of the seven articles of Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev). See [[cal.1963-03-05.china-leadership]].'
+    src:
+      c: 98adff5e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 530: all'
+    tags: [polity:prc]
   - id: cal.1963-03-09.vietnam
     when: Mar. 9
     date: '1963-03-09'
@@ -803,13 +837,14 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Peking answers Khrushchev''s olive branch: a letter suggesting he visit, his first in four years; another Russian may come, or a Chinese go to Moscow; the rebuke to "Yugoslav revisionism" insisted on.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 515; [[w.zedong-mao-zedong-nianpu]], V, Mar. 9, 1963 (the reply handed to Chervonenko that day: public polemics stopped from Mar. 9; a conference of fraternal parties and bilateral talks agreed). To check: Seymour Topping, [*New York Times*, Mar. 14, 1963](https://timesmachine.nytimes.com/timesmachine/1963/03/14/issue.html) (cited by [[w.fursenko-khrushchevs-cold-war]], 515 n.87). See [[cal.1963-01-29.china]]. Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 515; [[w.zedong-mao-zedong-nianpu]], V, Mar. 9, 1963 (the reply handed to Chervonenko that day: public polemics stopped from Mar. 9; a conference of fraternal parties and bilateral talks agreed). [[w.lengxi-shinian-lunzhan-1956-1966]], 550–552 (Wu: Mar. 9, Deng Xiaoping and Peng Zhen summon Chervonenko and hand him the reply in person; it agrees to stop the open polemic, announces the CCP''s own halt from Mar. 9 in publishing articles, agrees to a conference of the parties and to the two-party talks to prepare it, and proposes that a CPSU delegation come to Peking, Khrushchev not being named, since the Soviet ambassador said the date of his Cambodian trip was not set; if not, a CCP delegation to go to Moscow). To check: Seymour Topping, [*New York Times*, Mar. 14, 1963](https://timesmachine.nytimes.com/timesmachine/1963/03/14/issue.html) (cited by [[w.fursenko-khrushchevs-cold-war]], 515 n.87). See [[cal.1963-01-29.china]]. Names: Khrushchev.'
     src:
       c: 1cb88b70
       rows:
         - 'w.fursenko-khrushchevs-cold-war 515: all'
         - 'via x.2006.kcw-p515-1963-03-09: all'
         - 'w.zedong-mao-zedong-nianpu V, Mar. 9, 1963: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 550–552: B'
     tags: [name:khrushchev-nikita-s]
     time_range:
       - 1963-03-09T01:00Z
@@ -817,6 +852,11 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Shanghai
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the reply of Mar. 9 proposes that a CPSU delegation come to Peking for the two parties' talks, or else a CCP delegation go to Moscow; it does not name Khrushchev, the Soviet ambassador having said the date of his Cambodian visit was not settled
+        at: '552'
   - id: cal.1963-03-09.elections-1964
     when: Mar. 9
     date: '1963-03-09'
@@ -886,6 +926,18 @@ entries:
       - 1963-03-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-03-09.china-leadership-3
+    when: Mar. 9
+    date: '1963-03-09'
+    thread: china-leadership
+    also: [south-asia]
+    c: Peking. The *Renmin ribao* prints an article on the Dange group of the Indian Communist Party, criticizing Dange's wrong stand on the Sino-Indian border conflict only, with nothing on the dispute within the international movement.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 553 ("the *Renmin ribao* of Mar. 9," image-checked; Wu does not count it among the seven articles of Dec. 15 to Mar. 8, it treating only Dange''s stand on the border conflict).'
+    src:
+      c: 0f76ca62
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 553: all'
+    tags: [polity:prc]
   - id: cal.1963-03-10.opinion
     when: Mar. 10
     date: '1963-03-10'
@@ -1270,6 +1322,18 @@ entries:
     c: Zhou Enlai at the Secretariat, which approves the minutes of the national finance and trade conference on fairs in the large and medium cities; takes up industrial output in January and February, and decides that grave problems in the State Economic Commission's outline be pressed at once, among them poor timber output in nine southern provinces, railway cars unrepaired and rotted sleepers. Zhou puts forward views and measures for a further cut in the Center's staff.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 539 (Mar. 14, 1963). Continues 540. Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-03-14.china-leadership-2
+    when: Mar. 14
+    date: '1963-03-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The *Renmin ribao* prints the letters exchanged by the Chinese and the Soviet Central Committees in preparation for the two parties' talks, the Soviet letter of Feb. 21 and the Chinese reply of Mar. 9.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 551 (the plate of the *Renmin ribao* of Mar. 14, 1963 (the caption: "the letters the two parties exchanged for bilateral talks")). See [[cal.1963-03-10.china-leadership]].'
+    src:
+      c: 0b33e5d1
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 551: all'
+    tags: [polity:prc]
   - id: cal.1963-03-15.governors-mn
     when: Mar. 15
     date: '1963-03-15'

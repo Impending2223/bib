@@ -350,6 +350,42 @@ entries:
       - 1963-05-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-02.china-leadership-5
+    when: May 2
+    date: '1963-05-02'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking to Hangzhou. Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng, with Wu Lengxi, Yao Zhen and Fan Ruoyu, leave in the morning for the enlarged Standing Committee Mao has called at Hangzhou. The weather puts them down at Nanjing for a short stay. At Hangzhou, where the day's heat is 34 degrees, they lodge at the new Xiling Hotel with the regional bureaus' secretaries and Tan Zhenlin, Li Fuchun, Bo Yibo and Liao Luyan; Chen Boda, there before them, is in a villa by the West Lake.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561–562 ("on the morning of May 2, after May Day"; the first modern hotel in Hangzhou; Liu Shaoqi, abroad on a state visit, not at the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Tan Zhenlin, Li Fuchun, Bo Yibo, Chen Boda, Mao Zedong.'
+    src:
+      c: 4a5ab039
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 561–562: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:kang-sheng, name:tan-zhenlin, name:li-fuchun, name:bo-yibo, name:chen-boda, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1963-05-01T22:00Z
+      - 1963-05-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-02.china-leadership-6
+    when: May 2
+    date: '1963-05-02'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-05-02.china-leadership-5
+    c: Hangzhou, Liuzhuang, evening. Mao holds the Standing Committee on the day the drafters arrive, with Peng Zhen, Chen Boda, Kang Sheng and Wu Lengxi present. Asked about the two drafts on the general line, Deng Xiaoping says neither is ripe and each needs large revision; Hangzhou has many views on Peking's and Peking on Hangzhou's. Mao has Deng gather both sides to exchange them, he himself staying out and sending his secretary Lin Ke to listen.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 562–563 ("the evening of the day we arrived"; Mao''s residence the Liuzhuang; the enlarged Standing Committee''s two subjects, home ("the four clean-ups," socialist education, a decision drafted almost wholly by Mao''s dictation and put in order by Chen Boda, the later "Former Ten Points") and abroad (the two drafts); the regional secretaries joined the first; Mao then gave himself to the "Former Ten Points"). Made public: 1999. See [[cal.1963-05-02.china-leadership-5]]. Names: Mao Zedong, Peng Zhen, Chen Boda, Kang Sheng, Deng Xiaoping. Check: the Mao chronology has Mao at Shanghai the afternoon of May 3 ([[cal.1963-05-03.china-leadership]]).'
+    src:
+      c: 82950f9e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 562–563: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:chen-boda, name:kang-sheng, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1963-05-02T11:00Z
+      - 1963-05-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-03.alabama-birmingham
     when: May 3
     date: '1963-05-03'
@@ -564,6 +600,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 359: all'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, vis:only:prc+ceylon]
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-03.china-leadership-4
+    when: May 3–5
+    date: '1963-05-03'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Hangzhou, the eighth floor of the Xiling Hotel, west end. Deng Xiaoping, three mornings, May 3 to 5, chairs the exchange of views on the Peking and Hangzhou drafts: Peng Zhen, Lu Dingyi, Chen Boda and Kang Sheng, the drafters Wu Lengxi, Yao Zhen, Fan Ruoyu and Wang Li, and Kang Sheng''s secretary, Li Xin; Lin Ke sits the three days and takes both sides'' views to Mao. Wu opens: Peking''s drafters find Chen''s draft short on practice and on the Soviet views, long on general principle, a textbook; Chen answers that Mao asked it to begin from contradictions. Lu Dingyi faults both; Deng and Peng Zhen fault Peking''s draft and ask that Chen''s be tied closer to the open polemic.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 563–565 (the meeting "at first cold," Wu speaking first; Chen Boda, "who held himself high," displeased at the manner of discussion, in which the drafters call out and answer at once; Deng: all views may be said, anyone''s may be refuted; Peking''s draft strong on the real situation and the actual contradictions, short on theory; Deng asks Lin Ke, as the sessions end, whether he has told Mao all; Lin Ke has, and Mao will talk after the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Mao Zedong.'
+    src:
+      c: 32a79287
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 563–565: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:mao-zedong, vis:only:prc]
   - id: cal.1963-05-04.elections-1964
     when: May 4
     date: '1963-05-04'
@@ -797,6 +845,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 359: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-05.china-leadership-5
+    when: May 5
+    date: '1963-05-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Hangzhou, Liuzhuang. Mao holds the Standing Committee on the Peking and Hangzhou drafts, Zhou Enlai and Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng and Wu Lengxi present, Liu Shaoqi abroad. He asks Wu his age (44) and says the young men are right. The reply is to set out the Party's view of the general line, as a proposal to the CPSU and the parties, in theory and with bearing on practice, from the contradictions of the age; Chen Boda to revise it and take it to Peking to work with the writers; to stay in the Standing Committee until ripe, then to ask the Korean, Vietnamese, New Zealand, Japanese and Indonesian parties; the paper the CCP's own proposal, not a common paper of the left parties.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 565–567 (the Liuzhuang on a peninsula of the West Lake; Mao: "Chen Boda, you too count as an old man, beaten by the young"; the reply to be an answer to the CPSU''s letter of Mar. 30 and a proposal; it to be taken to Peking, Zhou Enlai and Deng Xiaoping agreeing; Mao: the CCP''s alone, to avoid the name of sectarianism; Wu and Yao Zhen at first to stay to help Chen, but Chen, not satisfied, had them sent back to Peking). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Liu Shaoqi. Check: Zhou Enlai at Hangzhou May 5: Zhou''s chronology has him at Xihuating, Peking, that day ([[cal.1963-05-05.china-leadership-2]]) and at the Secretariat May 6 ([[cal.1963-05-06.china-leadership]]).'
+    src:
+      c: 4042d5ce
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 565–567: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:liu-shaoqi, vis:only:prc]
   - id: cal.1963-05-06.testing
     when: May 6
     date: '1963-05-06'
@@ -1196,7 +1256,13 @@ entries:
     date: '1963-05-07'
     thread: china-leadership
     c: Hangzhou. Mao convenes the regional bureaus' first secretaries and Peng Zhen, Chen Boda, Jiang Hua and Hu Yaobang (Zhou Enlai and Deng Xiaoping for part), May 7–11, on the draft decision "some current problems in rural work." Shorter and graver; socialist education means class, class struggle, the "four clean-ups," reliance on poor and lower-middle peasants, cadres in labor; the method "a warm-water bath"; to treat 90 percent of the people as friends; not "five-antis" in the villages, only "four." He toasts "the victory of the four clean-ups and five-antis, to dig out the root of revisionism." Where cadres do not labor, the branch secretary is a "bao-jia headman."
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 7, 1963 (the entry for May 7–11); [[w.zhou-enlai-nianpu-1949]], II, 552 (May 10–11, 1963: Zhou Enlai at the meetings of May 10 and 11; he asks that "90-odd" read "over 95" percent in the draft; Mao agrees). Made public: 1997. To check: the draft of May 1963 and the 1963 Central Committee decision issued May 20 (the "First Ten Points"). Names: Mao Zedong, Peng Zhen, Chen Boda, Zhou Enlai, Deng Xiaoping, Jiang Hua, Hu Yaobang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 7, 1963 (the entry for May 7–11); [[w.zhou-enlai-nianpu-1949]], II, 552 (May 10–11, 1963: Zhou Enlai at the meetings of May 10 and 11; he asks that "90-odd" read "over 95" percent in the draft; Mao agrees); [[w.lengxi-shinian-lunzhan-1956-1966]], 562 (Wu on the enlarged Standing Committee at Hangzhou, to which Wu''s party came May 2: its two subjects, the home one ("guard against revisionism at home"; the draft decision of the "Former Ten Points" on rural work, almost wholly dictated by Mao and put in order by Chen Boda, discussed chiefly by the regional bureaus'' secretaries) and the foreign one (the Peking and Hangzhou drafts of the reply on the general line)). Made public: 1997. To check: the draft of May 1963 and the 1963 Central Committee decision issued May 20 (the "First Ten Points"). Names: Mao Zedong, Peng Zhen, Chen Boda, Zhou Enlai, Deng Xiaoping, Jiang Hua, Hu Yaobang.'
+    src:
+      c: 4513ab47
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, May 7, 1963: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 552: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 562: A-B'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:chen-boda, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-05-08.vietnam
     when: May 8
@@ -2707,6 +2773,18 @@ entries:
       - 1963-05-17T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-17.china-leadership-2
+    when: May 17
+    date: '1963-05-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking, the Diaoyutai, Building 8. From May 17, for a week, Deng Xiaoping presides over the drafting group and the writers in discussing and revising the reply, morning and afternoon, passage by passage; the writers work nights on the passages left unfinished. Deng and Peng Zhen move into Buildings 11 and 10.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 567–568 ("from May 17"; "a whole week"; the writers, back from Hangzhou in mid-May, had joined the good points of the two drafts; Chen Boda brought his revised draft back to Peking, which Mao would read only after Deng''s and Liu Shaoqi''s discussion). Made public: 1999. Names: Deng Xiaoping, Peng Zhen. Check: the span: Wu gives "from May 17, a whole week."'
+    src:
+      c: 54df9428
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 567–568: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1963-05-18.middle-east
     when: May 18
     date: '1963-05-18'
@@ -3144,7 +3222,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Hangzhou. Mao receives V. G. Wilcox (威尔科克斯), general secretary of the New Zealand Communist Party, come from the capitalist world, to ask his view of the Chinese Central Committee''s draft reply to the Soviet letter of Mar. 30; Deng Xiaoping and Kang Sheng present. Wilcox: an excellent paper, hard to answer. Mao: not to ask other parties'' friends would leave us unsure; more from the capitalist world should read it: it should please the Left, reach most of the Center and win them.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 22, 1963 (and n. 37). Made public: 2013. See [[cal.1963-04-25.china-leadership]]. Names: Mao Zedong, V. G. Wilcox, Deng Xiaoping, Kang Sheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 22, 1963 (and n. 37); [[w.lengxi-shinian-lunzhan-1956-1966]], 568–569 (Wu: Mao, at Hangzhou, May 22, asks Wilcox, general secretary of the New Zealand party, his view of the draft, then still the Chen Boda text not yet revised at Peking; Mao: the document not yet ripe; he is very dissatisfied with the first part of the general line, too long, repetitive, not terse, bright or comprehensive; it says five views are to be criticized, but all 21 points and the tail criticize them; Stalin, the Twentieth, Twenty-first and Twenty-second Congresses to be left as a title only, kept for the two parties'' talks; the Peking revision made it 25 points). Made public: 2013. See [[cal.1963-04-25.china-leadership]]. Names: Mao Zedong, V. G. Wilcox, Deng Xiaoping, Kang Sheng.'
+    src:
+      c: 90ce0b70
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, May 22, 1963: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 568–569: A-B, E'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
   - id: cal.1963-05-22.china-leadership-2
     when: May 22
@@ -3641,7 +3724,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai receives Kim Il Sung on a visit, May 26–29, and asks the Korean side's view of the draft of the Central Committee's reply to the CPSU Central Committee's letter of Mar. 30.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 26–29, 1963). Made public: 1997. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 26–29, 1963); [[w.lengxi-shinian-lunzhan-1956-1966]], 569 (Wu: Kim Il Sung''s delegation arrives at Peking May 26 and talks first with the leaders of the Party under Liu Shaoqi, with Zhou Enlai and Deng Xiaoping). Made public: 1997. Names: Zhou Enlai, Kim Il Sung.'
+    src:
+      c: 8283b3fc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 556: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 569: A'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung, vis:only:prc+dprk]
   - id: cal.1963-05-27.court
     when: May 27
@@ -3898,6 +3986,18 @@ entries:
     c: 'Zhou Enlai hears Bo Yibo on the "three-anti" struggle (against bureaucracy, decentralism and waste) among the leading cadres of the industry and transport ministries; on the bulletin of the five-antis in those ministries he writes: the center of leading the three-anti bath is politics, thought and style of work, not small things and details slipped over.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 28, 1963). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
     tags: [polity:prc, name:zhou-enlai, name:bo-yibo, vis:only:prc]
+  - id: cal.1963-05-28.china-leadership-2
+    when: May 28
+    date: '1963-05-28'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking to Wuhan. Liu Shaoqi flies with Kim Il Sung to Wuhan, where they lodge at the Baihua Hotel, Buildings 1 and 2, by the East Lake. Deng Xiaoping takes the drafters in another plane; they lodge in Buildings 3 and 4. Mao is at the Hubin villa, rebuilt in 1959 as a tall stone house joined to an indoor swimming pool.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 569 ("on the 28th"; the Hubin villa (湖滨别墅)). Made public: 1999. See [[cal.1963-05-26.china-leadership-2]]. Names: Liu Shaoqi, Kim Il Sung, Deng Xiaoping, Mao Zedong. Check: Liu Shaoqi''s chronology has Liu fly to Wuhan May 29 (patch b15b-liu-1963-69, a cite on [[cal.1963-05-29.china-leadership]]).'
+    src:
+      c: e69e7e0a
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 569: all'
+    tags: [polity:prc, name:liu-shaoqi, name:kim-il-sung, name:deng-xiaoping, name:mao-zedong, vis:only:prc+dprk]
   - id: cal.1963-05-29.economy-debt-limit
     when: May 29
     date: '1963-05-29'
@@ -3977,7 +4077,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Wuchang, East Lake. Mao receives Kim Il Sung to ask his view of the reply to the Soviet Central Committee; Liu Shaoqi, Deng Xiaoping, Kang Sheng and Wang Renzhong present. The Politburo has not yet taken the draft, but it has been talked over in Peking and at Hangzhou, where Mao was; he asks whether to change it little or much, or write it again; "mainly we fear to err." It touches all parties and the working class of the world.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 29, 1963; [[w.zhou-enlai-nianpu-1949]], II, 556 (May 26–29, 1963: Kim Il Sung''s visit; Zhou Enlai receives him and asks the Korean view of the draft reply to the CPSU). Made public: 1997. See [[cal.1963-05-22.china-leadership]]. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 29, 1963; [[w.zhou-enlai-nianpu-1949]], II, 556 (May 26–29, 1963: Kim Il Sung''s visit; Zhou Enlai receives him and asks the Korean view of the draft reply to the CPSU); [[w.lengxi-shinian-lunzhan-1956-1966]], 570–571 (Mao''s talk with Kim Il Sung at the Hubin villa, May 29, the first: for the Korean side Kim with several others, for the Chinese Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong, Wu Xiuquan, Fan Ruoyu, Yao Zhen, Wang Li, Wu Lengxi and the ambassador to Korea, Hao Deqing; Mao: the reply drafted by the writers, the Standing Committee has read it, the Politburo not yet formally, it is asked of the Korean friends, and next of the Vietnamese, that it be made correct before it appears; not a joint document but the CCP''s, "if it is wrong, we are the ones to be spanked"; Liu on his visit to Vietnam, May 6–16: Hồ Chí Minh and Lê Duẩn fear a break; he told them to think what to do if one comes; Hồ would rather none but prepared). Made public: 1997. See [[cal.1963-05-22.china-leadership]]. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong.'
+    src:
+      c: afd98f93
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, May 29, 1963: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 556: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 570–571: A-G'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk]
   - id: cal.1963-05-29.china-leadership-2
     when: May 29, June 13
@@ -3986,6 +4092,24 @@ entries:
     c: Zhou Enlai, "A Great Socialist Revolutionary Movement," twice, May 29 and June 13, to meetings of responsible cadres of the Central Committee's and State Council's organs, on the draft decision on rural work and bureaucracy in the five-antis. Bureaucracy, the political disease leading organs most easily catch, decays cadres and masses and at worst is a decline of revolutionary will; he gives its roots and twenty forms, four basic buildups (thought, politics, organization, economy), and the five hurdles for leading cadres.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 29, June 13, 1963). Continues 557. Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-29.china-leadership-3
+    when: May 29
+    date: '1963-05-29'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-05-29.china-leadership
+    c: Wuhan. Eight a side, the Chinese drafters and the Koreans, go through the reply paragraph by paragraph, in the afternoon and evening. For the Chinese, Wu Lengxi, Wu Xiuquan, Wang Renzhong, Yao Zhen, Fan Ruoyu, Wang Li, Kang Sheng and Ambassador Hao Deqing; for the Koreans five named, the ambassador and two interpreters. The Koreans' many points are for the Chinese to weigh and not to be altered on the spot; the unclear wording is explained, and many are accepted.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 572 ("that afternoon and evening"; Mao''s proposal at the end of the first talk, "you send some men, we send some"; "eight against eight, exactly equal"; the Koreans'' points taken into the revision under Deng Xiaoping). Made public: 1999. Names: Kang Sheng.'
+    src:
+      c: 3da47aa8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 572: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+dprk]
+    time_range:
+      - 1963-05-29T04:00Z
+      - 1963-05-29T14:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-30.civil-rights-the-executive
     when: May 30
     date: '1963-05-30'
@@ -4054,6 +4178,18 @@ entries:
     c: 'Zhou Enlai receives nine prize-winning cameramen of the Central Newsreel and Documentary Film Studio and the August First Film Studio, who filmed the border counterattack with the army: a documentary must be wholly true; a few shots that do not match the facts make people disbelieve the rest.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 557 (May 30, 1963). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-05-30.china-leadership-2
+    when: May 30
+    date: '1963-05-30'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Wuhan, the Hubin villa. Mao''s second talk with Kim Il Sung, the two delegations present, Kim speaking first. He has read the paper several times, finds it good and strong, its spirit to carry the revolution through; it will help to win the middle, and the right cannot sweep it aside. Mao: the aim is to win the middle and leave the right unable to refute; the paper has much pepper and little sugar. Kim: no problem of principle, but how great the shock when it appears; both pepper and sugar; the middle parties and the nationalist states, to be won, and the right will still call China sectarian, nationalist, Trotskyist.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 572–574 ("the second day (May 30)"; Kim: the paper "a very strong document"; Mao: "they will not be able to fasten revisionism and right opportunism on us"; the points of the Korean delegation noted down for Deng Xiaoping''s later discussion). Made public: 1999. Names: Mao Zedong, Kim Il Sung.'
+    src:
+      c: ed9df5dc
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 572–574: all'
+    tags: [polity:prc, name:mao-zedong, name:kim-il-sung, vis:only:prc+dprk]
   - id: cal.1963-05-31.mississippi
     when: May 31
     date: '1963-05-31'
@@ -4718,3 +4854,28 @@ entries:
     c: Zhou Enlai reads and revises Li Fuchun's report for the State Council to the NPC and sends it for views to the Standing Committee of the Politburo, the Secretariat, the vice-premiers and the deputy heads of the Planning Commission.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 557 (May 31, 1963). Made public: 1997. To check: the report. Names: Zhou Enlai, Li Fuchun.'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, vis:only:prc]
+  - id: cal.1963-05.china-leadership
+    when: May, after the 23rd
+    date: 1963-05
+    at: after 1963-05-23
+    thread: china-leadership
+    also: [soviet-union]
+    c: Wuhan to Peking, by telephone. The day after the Peking draft of the reply reaches him at Wuhan, Mao asks that the foreign party comrades in Peking and some foreign experts be asked their views first; Deng Xiaoping has the Liaison Department arrange it.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 568 ("the next day"; those asked: leaders of the Burmese, Malaysian and Thai parties and others of Southeast Asia, and the Liaison Department''s advisers Adler (艾德勒) and Coe (柯弗兰), members of the American party, Coe once, Wu says, head of the State Department''s finance division, in China from the late 1950s; their views gathered, what could be changed changed at once, the rest listed for study; the Standing Committee''s plan had been to invite the Korean and Vietnamese parties once the revision was out). Made public: 1999. Names: Mao Zedong, Deng Xiaoping. Check: the day: Wu gives none; after the drafting week from May 17 and before Kim Il Sung''s arrival, May 26.'
+    src:
+      c: cd9e40c6
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 568: all'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-05-31.china-leadership-2
+    when: May 31
+    date: '1963-05-31'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Kim Il Sung leaves Wuhan for home.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 574 ("on May 31"). Made public: 1999. Names: Kim Il Sung.'
+    src:
+      c: 2a2d777f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 574: all'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk]

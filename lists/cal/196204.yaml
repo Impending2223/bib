@@ -228,7 +228,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Yinian Tang, afternoon. The Standing Committee meets again, Mao presiding, on the draft reply to the Soviet letter of Feb. 22.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 3). Made public: 2013. See [[cal.1962-03-29.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 3). [[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the reply, after a week of drafting by the writers, settled at the Standing Committee in early April and sent Apr. 7). Made public: 2013. See [[cal.1962-03-29.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: d9da5659
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 29, 1962: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 494: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-04-03.china-leadership-2
     when: Apr. 3
@@ -555,6 +560,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 222: all'
     tags: [polity:prc, polity:tanzania]
+  - id: cal.1962-04-07.soviet-union
+    when: Apr. 7
+    date: '1962-04-07'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'The Chinese Central Committee''s reply to the CPSU letter of Feb. 22 is handed to the Soviet ambassador at Peking and, the same day, by the Chinese ambassador at Moscow to the CPSU Central Committee. It proposes a conference of the brother parties in five steps: CPSU–CCP talks, CPSU–Albanian talks, a meeting of the CPSU, Albania and the CCP, the twelve ruling parties, then the 81.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the Standing Committee settled the text in early April after a week of drafting; "formally sent" Apr. 7, to the Soviet ambassador in China and by the Chinese ambassador in the USSR to the CPSU Central Committee). Made public: 1999. See [[cal.1962-04-07.china-leadership]]. Check: the hour and the Chinese ambassador at Moscow are not named; the nianpu does not date the delivery.'
+    src:
+      c: 041c25d2
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 494: all'
+    tags: [polity:prc, vis:only:prc+ussr]
   - id: cal.1962-04-08.cuba
     when: Apr. 8
     date: '1962-04-08'
@@ -2662,7 +2679,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai agrees to Mao''s view that Saifudin go back to work in Xinjiang, and tells him of the flight of border people from Tacheng, Yumin and Huocheng: the causes outer and inner, for years the work heeded little the national, religious and local economic character; mass crossings to be dealt with by law. Departments draft from his talk the Center''s directive on those who fled and returned and rules on closing the Sino-Soviet border in Xinjiang; he settles them, to go out in mid-May.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 475 (Apr. 30, 1962). Made public: 1997. To check: the directive and the rules. See [[cal.1962-04-27.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Saifudin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 475 (Apr. 30, 1962); [[w.lengxi-shinian-lunzhan-1956-1966]], 494–495 (Wu, on Apr. and May 1962 in the Tacheng and Ili areas of Xinjiang: tens of thousands of people (later counted at about 50,000) gone to the Soviet side, which he ascribes to Soviet subversion; the Chinese government''s strong protest and its demand that the Soviet consulates at Yining and Urumqi stop work and be withdrawn). Made public: 1997. To check: the directive and the rules. See [[cal.1962-04-27.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Saifudin.'
+    src:
+      c: 18f2bf06
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 475: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 494–495: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-04.china-leadership
     when: Apr.
@@ -2728,3 +2750,15 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 91 n.10a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 91 n.10b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04.china-4
+    when: Apr.–May
+    date: 1962-04
+    thread: china
+    also: [china-leadership]
+    c: Fujian. Nationalist troops from Taiwan harass the coast, landing in many small parties; they are wiped out or fall back.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 495 ("at this very time" as the crossings from the Tacheng and Ili areas of Xinjiang, Apr.–May 1962; Wu: the landings "in the east" and the Soviet action "in the west," at a time of economic difficulty and adjustment, played on each other). Check: the days: Wu gives none.'
+    src:
+      c: f98737af
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 495: all'
+    tags: [polity:prc]

@@ -441,7 +441,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Juxiang Shuwu. Mao presides at the Standing Committee on the Soviet letter of Mar. 30: too long, not finished; after Zhou Enlai and Deng Xiaoping speak, concludes that Khrushchev''s group means its line to be the basis of the party talks; the letter to be printed in the *People''s Daily*; a counter-proposal to be made, answering the letter and stating the Chinese views directly, not arguing against it. Deng to prepare it. Printed Apr. 4.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 3, 1963. Made public: 2013. See [[cal.1963-04-02.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 3, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 558–560 (Mao at his house, the afternoon of Apr. 3, to the Standing Committee: the letter too long, not finished, he would hear the views first; Zhou Enlai: Khrushchev''s group will not change its line and dresses it up; talks cannot rest on the letter''s basis; Deng Xiaoping: a counter-proposal stating the general line from the basic principles of Marxism–Leninism, as in 1957, when the CPSU drafted first and China next; Mao: print the CPSU letter in the *Renmin ribao*, reply in the form of a positive statement of views, not a dispute with the letter, from the contradictions of the age to the end of open polemic; the talks may end in a great quarrel; Deng to prepare and bring it to the Standing Committee again). Made public: 2013. See [[cal.1963-04-02.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev.'
+    src:
+      c: 80712d80
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 3, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 558–560: A-G'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1963-04-03.china-leadership-2
     when: Apr. 3
@@ -451,6 +456,20 @@ entries:
     c: Zhou Enlai and Chen Yi telegraph Prince Souvanna Phouma, Prime Minister of Laos, their condolences on the assassination of Foreign Minister Quinim Pholsena.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 3, 1963). Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Quinim Pholsena.'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:chen-yi, name:souvanna-phouma, name:quinim-pholsena]
+  - id: cal.1963-04-03.china-leadership-3
+    when: Apr. 3
+    date: '1963-04-03'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-04-03.china-leadership
+    c: Peking, the Diaoyutai, Building 8. Deng Xiaoping, with Peng Zhen, Kang Sheng and Wu Lengxi, goes straight from the Standing Committee to the drafting group's seat and presides at its meeting on how to draft the reply on the general line. He relays the views of Mao, Liu Shaoqi and Zhou Enlai; the group agrees and asks for a draft quickly; Wu is to make a first outline.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 (the group formally led by Kang Sheng, in practice by Deng; Wu to prepare an outline, then the group to discuss, revise and add). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Kang Sheng, Liu Shaoqi, Zhou Enlai, Mao Zedong.'
+    src:
+      c: ce51abd5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:liu-shaoqi, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1963-04-04.program
     when: Apr. 4
     date: '1963-04-04'
@@ -573,6 +592,18 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 159–60: all'
     tags: [name:romney-george-w, name:minow-newton-n, city:chicago]
+  - id: cal.1963-04-04.china-leadership
+    when: Apr. 4
+    date: '1963-04-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The *Renmin ribao* prints in full, by Mao's opinion, the CPSU Central Committee's letter of Mar. 30.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560, 590 ("on Mao''s opinion"; the plate of the *Renmin ribao* of Apr. 4 and June 17, 1963, 590). See [[cal.1963-04-03.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 568531ef
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560, 590: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1963-04-05.middle-east-yemen
     when: Apr. 5–9
     date: '1963-04-05'
@@ -4038,3 +4069,68 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 357: all'
     tags: [polity:prc, polity:iraq, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1963-04.china-leadership-3
+    when: Apr., after the 4th
+    date: 1963-04
+    at: after 1963-04-04
+    thread: china-leadership
+    also: [soviet-union]
+    c: Mao leaves Peking for Hangzhou.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 ("after this" (这以后), the printing of the Soviet letter of Apr. 4). Made public: 1999. See [[cal.1963-04-04.china-leadership]]. Names: Mao Zedong. Check: the day: Wu gives none; the Mao chronology has him at Hangzhou by Apr. 17 ([[cal.1963-04-17.china-leadership]]).'
+    src:
+      c: 241bc273
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-04.china-leadership-4
+    when: Apr., after the 4th
+    date: 1963-04
+    at: after 1963-04-04
+    thread: china-leadership
+    also: [soviet-union]
+    c: Hangzhou. Mao has Chen Boda draft an outline on the general line too, in parallel with Peking's.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 ("when Mao reached Hangzhou"; Chen drafting "alone at Hangzhou"). Made public: 1999. Names: Mao Zedong, Chen Boda. Check: the day: Wu gives none.'
+    src:
+      c: 4b0590b4
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1963-04.china-leadership
+    when: Apr., late
+    date: 1963-04
+    at: before 1963-04-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking and Hangzhou. The two drafts of the reply on the general line, Deng Xiaoping's group's at the Diaoyutai and Chen Boda's at Hangzhou, are printed by the month's end. Deng sends Peking's to Mao for his thoughts, not ripe, to be revised a good deal; Chen's comes to Peking.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 ("through all April ... by the month''s end, the drafts of Peking and of Hangzhou were both printed"). Made public: 1999. See [[cal.1963-04.china-leadership-4]]. Names: Deng Xiaoping, Chen Boda, Mao Zedong. Check: the days: Wu gives "by the month''s end"; the Mao chronology has Mao receive the second draft Apr. 19, and Deng, Kang Sheng, Lu Dingyi and Chen Boda at Hangzhou from Apr. 21 ([[cal.1963-04-17.china-leadership]]), of which Wu says nothing.'
+    src:
+      c: d35eda73
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-boda, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-04.china-leadership-5
+    when: Apr., late
+    date: 1963-04
+    at: before 1963-04-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Hangzhou to Peking, by telephone. Mao asks Deng Xiaoping to preside over a discussion of Chen Boda's draft; Deng gives it to the writers at the Diaoyutai to prepare their views.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560–561. Made public: 1999. Names: Mao Zedong, Deng Xiaoping, Chen Boda. Check: the day: Wu gives none; after Chen''s draft reached Peking, late April.'
+    src:
+      c: cb71727f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560–561: all'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:chen-boda, vis:only:prc]
+  - id: cal.1963-04.china-leadership-2
+    when: Apr., late
+    date: 1963-04
+    at: before 1963-04-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking, the Diaoyutai. At Deng Xiaoping's direction Wu Lengxi, Qiao Guanhua, Yao Zhen, Fan Ruoyu, Wang Li and Xiong Fu, and the younger drafters from the Propaganda Department, the *Renmin ribao*, Xinhua, the Liaison Department and the Foreign Ministry, meet for two or three days on Chen Boda's draft. They commend what is good in it and ask for additions and changes; Wu sums up their views in a short list of points.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561 ("two or three days" of meetings; the "back-row members" (后排议员); the discussion on the main questions, not on details of wording). Made public: 1999. Names: Deng Xiaoping, Chen Boda, Qiao Guanhua. Check: the days: Wu gives none.'
+    src:
+      c: 27520bdb
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 561: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-boda, name:qiao-guanhua, vis:only:prc]

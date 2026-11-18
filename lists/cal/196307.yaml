@@ -157,6 +157,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 363: all'
     tags: [polity:prc, polity:ghana, name:zhou-enlai]
+  - id: cal.1963-07-01.china-leadership-4
+    when: July 1
+    date: '1963-07-01'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking. The Central Committee''s statement names the delegation to the talks with the CPSU, to open in Moscow July 5: Deng Xiaoping head, Peng Zhen deputy, with Kang Sheng, Yang Shangkun, Liu Ningyi, Wu Xiuquan and Pan Zili. It holds to principle and unity, charges the delegation to discuss with the CPSU the general line and related matters on the basis of the June 14 letter, rejects the CPSU Central Committee''s statement of June 18, its resolution of June 21 and Khrushchev''s speech at the plenum, which called the letter groundless slander, and reserves the right to answer later.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 599 (the statement "published July 1"; Deng, "Standing Committee member and General Secretary of the Central Committee"; Peng Zhen, "Politburo member, member of the Secretariat"; Kang Sheng, Yang Shangkun, Liu Ningyi, Wu Xiuquan, Pan Zili, the writers going as advisers). See [[cal.1963-06-30.china-leadership-2]]. Names: Deng Xiaoping, Peng Zhen, Kang Sheng, Khrushchev.'
+    src:
+      c: f378d141
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 599: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:khrushchev-nikita-s]
   - id: cal.1963-07-02.march-on-washington
     when: July 2
     date: '1963-07-02'
@@ -570,8 +582,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Yinian Tang, afternoon. A meeting, Mao with Liu Shaoqi, Zhou Enlai, Deng Xiaoping and Peng Zhen, on the draft Chinese statement answering the Soviet Central Committee's statement of that day, which named a delegation under Suslov of seven to the talks opening in Moscow July 5, to "firmly carry out the line of the Twentieth, Twenty-first and Twenty-second Congresses." Mao approves the statement at 9 p.m.; printed July 5.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 4, 1963. Made public: 2013. To check: the two statements of July 4, 1963 and *Renmin ribao*, July 5, 1963. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Suslov.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 4, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 599–600 (Wu: the CPSU Central Committee''s statement of July 4 repeats the charge of groundless attacks, defends its not printing the Chinese letter (it would have to answer, and sharpen the dispute) and says it will print an answer in due time; the Center asks the writers at once for a short reply; Mao holds the Standing Committee through the night; he reads the statement as Khrushchev''s resolve to attack the Chinese systematically at the talks and to name them in print, with word besides of Soviet talks with the United States and Britain on a partial test ban, to force China to give up its nuclear program; the delegation is not to kneel to Khrushchev, and reaching no agreement is the victory; the statement is passed in the small hours of July 5 and printed that day). Made public: 2013. To check: the two statements of July 4, 1963 and *Renmin ribao*, July 5, 1963. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Suslov.'
+    src:
+      c: bd1572d8
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 4, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 599–600: B, D'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:suslov-mikhail-a, vis:only:prc]
+    variants:
+      - unit: C
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: Mao holds the Standing Committee on the draft statement that night (连夜), and it is passed in the small hours of July 5
+        at: '600'
   - id: cal.1963-07-04.china-leadership-2
     when: July 4
     date: '1963-07-04'
@@ -643,13 +665,14 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Moscow. The Soviet and Chinese parties'' talks open, Suslov and the International Department against Deng Xiaoping''s delegation, to July 20. Deng''s five-hour opening speech: "How can these two countries, which belong to two fundamentally different social systems, coexist?"; the Cuban PSP, the Algerian and Iraqi parties misled by Moscow.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 527–28; [[w.zedong-mao-zedong-nianpu]], V, July 5, 1963 (the delegation under Deng Xiaoping and Peng Zhen leaves Peking; the talks run to July 20). To check: Westad, "The Sino-Soviet Alliance and the United States," in *Brothers in Arms* (1998), 180, 385–86 (cited by [[w.fursenko-khrushchevs-cold-war]], 527 n.124, 528 n.125). See [[cal.1963-03-12.china]]. Names: Suslov, Deng.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 527–28; [[w.zedong-mao-zedong-nianpu]], V, July 5, 1963 (the delegation under Deng Xiaoping and Peng Zhen leaves Peking; the talks run to July 20); [[w.lengxi-shinian-lunzhan-1956-1966]], 602–603 (Wu: the talks "from July 6 to July 20," nine meetings (the day: variant), at the CPSU Central Committee''s conference hall on the Lenin Hills; for the Soviets Suslov, Grishin, Ponomarev, Andropov, Ilyichev, Satyukov and Ambassador Chervonenko; the first meeting, July 6: Suslov speaks first, over two hours, against the Chinese letter of June 14 and for the CPSU''s of Mar. 30, the general line peaceful coexistence, competition and transition, the CPSU a party of the whole people; adjourned). To check: Westad, "The Sino-Soviet Alliance and the United States," in *Brothers in Arms* (1998), 180, 385–86 (cited by [[w.fursenko-khrushchevs-cold-war]], 527 n.124, 528 n.125). See [[cal.1963-03-12.china]]. Names: Suslov, Deng.'
     src:
       c: ff1f3cfb
       rows:
         - 'w.fursenko-khrushchevs-cold-war 527–28: all'
         - 'via x.2006.kcw-p527-28-1963-07-05: all'
         - 'w.zedong-mao-zedong-nianpu V, July 5, 1963: B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 602–603: B'
     tags: [name:suslov-mikhail-a, name:deng-xiaoping, vis:only:ussr+prc]
     time_range:
       - 1963-07-05T06:00Z
@@ -666,6 +689,14 @@ entries:
         witness: w.zedong-mao-zedong-nianpu
         reads: Deng Xiaoping's first speech July 8, on where the differences come from and what they are
         at: V, July 7, 1963
+      - unit: B
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the first meeting of the two delegations is on July 6, Suslov speaking first (the entry has the talks open July 5)
+        at: '603'
+      - unit: C
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: Suslov's speech of over two hours opens the talks July 6; Deng Xiaoping's first speech is on July 8 (the entry has Deng's five-hour opening speech)
+        at: 603–604
   - id: cal.1963-07-05.middle-east-yemen
     when: July 5
     date: '1963-07-05'
@@ -682,11 +713,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai, with Liu Shaoqi, Zhu De and Dong Biwu, goes to the airport to see off the Chinese Party delegation headed by Deng Xiaoping and Peng Zhen, leaving for Moscow for the talks between the two parties.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 5, 1963). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 5, 1963); [[w.lengxi-shinian-lunzhan-1956-1966]], 601 (Wu: the delegation leaves in two planes the day of the statement, July 5, Liu Shaoqi, Zhou Enlai and other leaders seeing it off; Wu with Deng Xiaoping in the first reaches Moscow that afternoon; Peng Zhen''s plane, held by weather in Siberia, some hours later; the delegation lodged in two villas on the Lenin Hills, its meetings held in a secure room of the Chinese embassy). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping, Peng Zhen.'
     src:
       c: 664e872d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 364: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 601: B'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:deng-xiaoping, name:peng-zhen]
   - id: cal.1963-07-05.china-leadership-2
     when: July 5
@@ -804,6 +836,23 @@ entries:
     c: 'Zhou Enlai, on a report that the Jiangnan Shipyard of the Third Ministry of Machine Building in Shanghai, repairing large foreign liners, "cannot keep contracts and credit and so is on the defensive abroad": the matter has been delayed so long, discussed and not decided, the leading group on ship repair formed and idle, the worst of bureaucracy; they are to be investigated together.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 564 (July 6, 1963). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-07-06.china-leadership-3
+    when: July 6
+    date: '1963-07-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow, the Chinese embassy, evening. The delegation meets on Suslov's speech and decides to answer first on the origin of the Sino-Soviet differences, revising the text prepared at Peking so as to meet his attack on the letter of June 14. His "whole people" points are left for later speeches.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 604 ("that evening," after the first meeting; the text revised to meet the attack on the June 14 letter but with its main content kept, a historical account of where the two parties'' differences come from). Made public: 1999. See [[cal.1963-07-05.china]]. Names: Suslov.'
+    src:
+      c: 8a36c7e0
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 604: all'
+    tags: [polity:prc, name:suslov-mikhail-a, vis:only:prc]
+    time_range:
+      - 1963-07-06T16:00Z
+      - 1963-07-06T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1963-07-07.vietnam
     when: July 7
     date: '1963-07-07'
@@ -942,6 +991,18 @@ entries:
       - 1963-07-08T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-08.china-leadership-3
+    when: July 8
+    date: '1963-07-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow. Second meeting. Deng Xiaoping, head of the Chinese delegation, speaks on the origin and the substance of the differences. They began with the CPSU's Twentieth Congress, he says, and went on through the Soviet–Polish strain and Hungary in 1956, the Moscow meeting of 1957, the Sino-Indian border and Camp David in 1959, Bucharest and the Moscow meeting of 1960, the Twenty-second Congress, and the attacks of the five European congresses in 1962–63, until two lines; the substance is revolution or no revolution. The Soviet side does not reply; the meeting adjourns.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 604 ("the second meeting was held on July 8"; Deng''s speech the basis of the first article answering the CPSU''s open letter, "The origin and development of the differences between the leadership of the CPSU and ourselves"). Made public: 1999. See [[cal.1963-07-07.china-leadership]]. Names: Deng Xiaoping.'
+    src:
+      c: '31684732'
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 604: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+ussr]
   - id: cal.1963-07-09.railroads
     when: July 9–10
     date: '1963-07-09'
@@ -1022,6 +1083,18 @@ entries:
     c: Zhou Enlai with persons concerned on the market.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 566 (July 9, 1963). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-07-09.soviet-union
+    when: July 9
+    date: '1963-07-09'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The CPSU Central Committee issues a statement on the mass meeting Peking held to welcome home the embassy staff and students the USSR had expelled: it says China''s action can only sharpen the situation at the talks.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 604 (after the second meeting; the statement aimed at the Peking meeting to welcome the returning embassy staff and students). See [[cal.1963-07-08.china-leadership-3]].'
+    src:
+      c: c69f3600
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 604: all'
+    tags: [polity:prc]
   - id: cal.1963-07-10.opinion
     when: July 10
     date: '1963-07-10'
@@ -1106,8 +1179,44 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Central Committee's statement answering the Soviet Central Committee's of July 9 in *Pravda*, which attacked Peking for its mass welcome home of the five Chinese, embassy staff and students, whose recall Moscow had demanded for handing out the Chinese letter of June 14.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 9, 1963 (July 10; and n. 45). To check: the two statements, July 9 and 10, 1963. See [[cal.1963-07-07.china-leadership]].'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 9, 1963 (July 10; and n. 45); [[w.lengxi-shinian-lunzhan-1956-1966]], 604–605 (Wu: the Central Committee''s statement of July 10 answers the CPSU''s of July 9: the June 14 letter answered the Mar. 30 letter, so there is no slander; Soviet staff in China had always spread the CPSU''s documents, so the embassy staff and students'' handing round the June 14 letter is normal and equal activity, not interference in Soviet internal affairs or breach of sovereignty (on that logic China was long no sovereign state); China still holds to principle, unity, removal of differences and a common stand against the enemy; unity too important to do what pains friends and gladdens foes). To check: the two statements, July 9 and 10, 1963. See [[cal.1963-07-07.china-leadership]].'
+    src:
+      c: 260fe746
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 9, 1963: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 604–605: A'
     tags: [polity:prc, polity:ussr, name:mao-zedong]
+  - id: cal.1963-07-10.china-leadership-3
+    when: July 10
+    date: '1963-07-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow. Third meeting. Suslov answers Deng: the differences began after Camp David, with China''s hostile turn against the USSR; he rejects Deng''s dating from the Twentieth Congress and his words on the Soviet–Polish strain and Hungary in 1956, denies that the CPSU took India''s side in the border dispute, and charges China with splitting, the seven answering articles being its proof.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 605–606 ("the third meeting on July 10"; Wu on the speech: it "forced the argument" (强词夺理), like his first). Made public: 1999. See [[cal.1963-07-08.china-leadership-3]]. Names: Suslov, Deng Xiaoping.'
+    src:
+      c: 2f9e9385
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 605–606: all'
+    tags: [polity:prc, name:suslov-mikhail-a, name:deng-xiaoping, vis:only:prc+ussr]
+  - id: cal.1963-07-10.china-leadership-4
+    when: July 10
+    date: '1963-07-10'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-10.china-leadership-3
+    c: Moscow, the Chinese embassy, evening. The delegation meets on the Central Committee's statement of the day. It holds that the statement's stress on unity is right, and that at the talks the delegation may answer Suslov's two speeches with a sharp attack on the CPSU leaders' splitting, seeking unity by struggle. The next speech to be altered little, the tone unchanged.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 606 ("that evening"; "to seek unity by struggle"). Made public: 1999. Names: Suslov.'
+    src:
+      c: 345d1bc6
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 606: all'
+    tags: [polity:prc, name:suslov-mikhail-a, vis:only:prc]
+    time_range:
+      - 1963-07-10T16:00Z
+      - 1963-07-10T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1963-07-11.desegregation-schools-okc
     when: July 11
     date: '1963-07-11'
@@ -1280,7 +1389,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao revises the *People's Daily* editorial "We want unity, not split," retitled by him from "Hold to principle, remove differences, strengthen unity, face the enemy together." It appeals to the Soviet comrades to take the large view of Sino-Soviet unity, not to act rashly. Printed July 13.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 12, 1963. Made public: 2013. To check: the editorial, *Renmin ribao*, July 13, 1963. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 12, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 608–610 (Wu: the editorial "We want unity, not a split," printed July 13, the first of five editorials or observers'' pieces the Center had Qiao Guanhua''s writing group draft after a week''s watching of the talks (the plate at 609 shows the five of July); it says the CCP looks to the whole and will do nothing against Sino-Soviet unity, hopes the talks bear fruit; but the CPSU, since they began, has not stopped its public attacks, running through Party meetings and resolutions across the country and a stream of press articles a campaign against the CCP; asks whether the CPSU means to take relations to the brink of a break, and calls it to put unity first). Made public: 2013. To check: the editorial, *Renmin ribao*, July 13, 1963. Names: Mao Zedong.'
+    src:
+      c: '07500323'
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 12, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 608–610: A-C'
     tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc]
   - id: cal.1963-07-12.china-leadership-2
     when: July 12
@@ -1312,6 +1426,42 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 364–65: A'
     tags: [polity:prc, polity:uk, name:zhou-enlai, vis:only:prc+uk]
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-12.china-leadership-5
+    when: July 12
+    date: '1963-07-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow, morning. Fourth meeting. Deng Xiaoping''s second speech, on the CPSU''s splitting, from Bucharest on: the CPSU wields its baton, makes a split of its own and drives other parties to split, carries ideological difference into relations between states, with China and with Albania. He asks why the Soviets, speaking of the differences, say nothing of the withdrawal of all experts from China and the tearing up of the contracts; and on Cuba which of two Soviet lines, Kennedy a pirate or Kennedy a lover of peace, stands. Suslov, pale and red by turns, says the Soviets will answer next time, and asks to meet again in the afternoon.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 606–608 ("the fourth meeting on July 12, Deng''s second speech"; "before the break"; Deng: "if you follow your baton and fall into your own trap, you contradict the facts"; Deng on Cuba: "what do you mean to have us follow?"). Made public: 1999. See [[cal.1963-07-10.china-leadership-3]]. Names: Deng Xiaoping, Suslov.'
+    src:
+      c: 707a0683
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 606–608: all'
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
+    time_range:
+      - 1963-07-12T03:00Z
+      - 1963-07-12T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1963-07-12.china-leadership-6
+    when: July 12
+    date: '1963-07-12'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-12.china-leadership-5
+    c: Moscow, afternoon. Fifth meeting. Ponomarev, instead of answering Deng's questions, reads his prepared text on the struggle for peace, for general and complete disarmament, and for a "world without arms, armies or wars."
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 608 ("in the afternoon, the fifth meeting, Ponomarev spoke"; "a world of the three nos" (三无世界)). Made public: 1999. Names: Deng Xiaoping, Ponomarev.'
+    src:
+      c: a8be0d8b
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 608: all'
+    tags: [polity:prc, name:deng-xiaoping, name:ponomarev-boris-n, vis:only:prc+ussr]
+    time_range:
+      - 1963-07-12T09:00Z
+      - 1963-07-12T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1963-07-13.europe-and-the-alliance
     when: July 13–14
     date: '1963-07-13'
@@ -1387,6 +1537,23 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-07-13.china-leadership-2
+    when: July 13
+    date: '1963-07-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow, the Chinese embassy, morning. The delegation meets on the day's *Renmin ribao* editorial and the situation. The Western press reports that the Soviet Union, the United States and Britain are to negotiate at Moscow, at the same time as the party talks, on a partial test ban. Most of the delegation hold that this bears on the talks, the Soviet course likely the same as in 1959 before Khrushchev's American trip, when, to please Eisenhower, he damaged Sino-Soviet relations, withheld an atomic bomb model and issued a TASS statement against China on the Indian border. It takes the three-power talks for a bad sign and has Peng Zhen's next speech altered to stress peace and revolution, in answer to Ponomarev.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 610 ("the morning of the 13th"). Made public: 1999. Names: Peng Zhen, Ponomarev, Khrushchev.'
+    src:
+      c: ad58d5bd
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 610: all'
+    tags: [polity:prc, name:peng-zhen, name:ponomarev-boris-n, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1963-07-13T03:00Z
+      - 1963-07-13T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
   - id: cal.1963-07-14.elections-1964
     when: July 14
     date: '1963-07-14'
@@ -1459,12 +1626,62 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+  - id: cal.1963-07-14.soviet-union
+    when: July 14
+    date: '1963-07-14'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. The CPSU Central Committee's Open Letter to all Party organizations and all Communists of the Soviet Union, its answer to the Chinese letter of June 14, is broadcast by Moscow radio and printed in *Pravda*, the foreign edition with the Chinese letter beside it. It answers the Chinese letter point by point and names Mao and other Chinese leaders in attack.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 610–612, 614 (the interpreter told the delegation on the morning of the 14th of the broadcast; *Pravda* had two editions, one for foreign countries and foreigners in the USSR, small, which printed the Chinese Proposal too, the other for home, which printed the Open Letter alone; the letter came the day before the Soviet–American–British talks on a partial test ban opened (July 15); Wu: Burlatsky''s book says Suslov had it written in a day and a night, as "a blow China did not expect"). See [[cal.1963-06-18.soviet-union]]. Names: Mao Zedong, Suslov. Check: the Soviet text and the Burlatsky account (Wu cites the 1993 Chinese translation, 115) are not read.'
+    src:
+      c: feee8b7f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 610–612, 614: all'
+    tags: [polity:prc, name:mao-zedong, name:suslov-mikhail-a]
+  - id: cal.1963-07-14.china-leadership-4
+    when: July 14
+    date: '1963-07-14'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-14.soviet-union
+    c: 'Moscow, the Chinese embassy, afternoon. The delegation meets on the Open Letter and agrees that the CPSU, tearing off its mask, has chosen open polemic and that the talks can end only in a quarrel; its talk of stopping the polemic was false; it did not wait for the talks to end, and published a day before the three-power talks opened. It then cables Peking for the next step: agreement is no longer possible, a complete break not certain; to reply freely on the Soviet points at the talks, short of an open break, and keep some form of tie.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 611–612 ("in the afternoon"; "we thought the talks might break, or at best come to nothing"; the Open Letter an answer to the Proposal in 25 points, got up in a month at most, since the CPSU had not meant to reply to it in June). Made public: 1999.'
+    src:
+      c: 183f1bee
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 611–612: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-07-14T09:00Z
+      - 1963-07-14T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1963-07-14.china-leadership-5
+    when: July 14
+    date: '1963-07-14'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-14.china-leadership-4
+    c: Moscow, the Chinese embassy, evening. The delegation meets again and revises Peng Zhen's draft for the sixth meeting, July 15. The Soviet publication of the Open Letter, during the talks, is to come first, as a grave step; he is to reserve the right to comment on it.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 613 ("in the evening, the delegation met again"). Made public: 1999. Names: Peng Zhen.'
+    src:
+      c: c2b6eac8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 613: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1963-07-14T16:00Z
+      - 1963-07-14T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1963-07-15.testing
     when: July 15
     date: '1963-07-15'
     thread: testing
     c: 'Moscow talks open: Harriman, Hailsham, Gromyko. Khrushchev at the first session withdraws his offer of inspections and tables a ban in three environments, with a non-aggression pact.'
-    n: 'FRUS 1961–63, VII, docs. [319](https://history.state.gov/historicaldocuments/frus1961-63v07/d319) (Harriman''s instructions, July 10), [325](https://history.state.gov/historicaldocuments/frus1961-63v07/d325). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 346–47 (Harriman''s mission, from July 15; Khrushchev''s terms in the month before); [[w.sorensen-kennedy]], 734 (the talks open); [[w.dobrynin-in-confidence]], 107–8 (Khrushchev to Harriman and Hailsham: no inspection, "even if only two or three"; "When the cat promises that he is only going to catch mice and won''t touch the lard . . ."); [[w.poole-joint-chiefs-of-staff]], 103–04. [[w.reeves-president-kennedy]], 545–48. [[w.rusk-as-i-saw-it-1990]], 256 (Harriman in Moscow). To check: [[w.seaborg-kennedy-khrushchev-and-the]]; [[w.oliver-kennedy-macmillan-and-the]]; [[w.abramson-spanning-the-century]]. See [[cal.1963-06-10.testing]]. Names: Harriman, Hailsham, Khrushchev, Gromyko.'
+    n: 'FRUS 1961–63, VII, docs. [319](https://history.state.gov/historicaldocuments/frus1961-63v07/d319) (Harriman''s instructions, July 10), [325](https://history.state.gov/historicaldocuments/frus1961-63v07/d325). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 346–47 (Harriman''s mission, from July 15; Khrushchev''s terms in the month before); [[w.sorensen-kennedy]], 734 (the talks open); [[w.dobrynin-in-confidence]], 107–8 (Khrushchev to Harriman and Hailsham: no inspection, "even if only two or three"; "When the cat promises that he is only going to catch mice and won''t touch the lard . . ."); [[w.poole-joint-chiefs-of-staff]], 103–04; [[w.lengxi-shinian-lunzhan-1956-1966]], 611 (Wu: the Soviet side announces the beginning of the three powers'' talks on a partial test ban on July 15, the day after the CPSU''s Open Letter, which, Wu holds, repeats Khrushchev''s 1959 trick before Camp David of courting the Americans against China). [[w.reeves-president-kennedy]], 545–48. [[w.rusk-as-i-saw-it-1990]], 256 (Harriman in Moscow). To check: [[w.seaborg-kennedy-khrushchev-and-the]]; [[w.oliver-kennedy-macmillan-and-the]]; [[w.abramson-spanning-the-century]]. See [[cal.1963-06-10.testing]]. Names: Harriman, Hailsham, Khrushchev, Gromyko.'
     src:
       c: 12e0c871
       rows:
@@ -1478,6 +1695,7 @@ entries:
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
         - 'w.dobrynin-in-confidence 107–8: all'
         - 'w.poole-joint-chiefs-of-staff 103–04: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 611: A'
     tags: [name:harriman-w-averell, name:hailsham-quinton-m-h, name:gromyko-andrei, name:khrushchev-nikita-s]
     time_range:
       - 1963-07-15T06:00Z
@@ -1659,6 +1877,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-07-15.china-leadership-4
+    when: July 15
+    date: '1963-07-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow. Sixth meeting. Peng Zhen speaks for the Chinese: the CPSU''s publishing an open letter, while the talks go on, to attack the CCP gravely harms the talks and gives reason to doubt Soviet good faith; what do they want? He reserves the delegation''s right to comment on the letter. He then criticizes the "three peaces" line and answers Ponomarev by name. The Soviets do not reply; the meeting adjourns.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 613 ("on July 15, the sixth meeting"; the speech on peace and revolution prepared at Peking and altered after Ponomarev''s of the 12th). Made public: 1999. See [[cal.1963-07-14.soviet-union]]. Names: Peng Zhen, Ponomarev.'
+    src:
+      c: fe86ddf0
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 613: all'
+    tags: [polity:prc, name:peng-zhen, name:ponomarev-boris-n, vis:only:prc+ussr]
   - id: cal.1963-07-16.economy
     when: July 16–17
     date: '1963-07-16'
@@ -2104,6 +2334,23 @@ entries:
         - 'w.purdum-idea-whose-time-has-2014 81: A-D'
       c: 633d332f
     tags: [name:ervin-sam-j-jr, name:eastland-james-o, name:keating-kenneth-b, name:dodd-thomas-j]
+  - id: cal.1963-07-17.china-leadership
+    when: July 17
+    date: '1963-07-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow, morning. Seventh meeting. Andropov speaks for the Soviets in Khrushchev''s defense: the Chinese letter of June 14 attacked him without naming him, and the delegation has named him many times; Khrushchev speaks for the whole of the CPSU Central Committee, so that to criticize him is to criticize the Party, and the Chinese wish to part him from it. He speaks of a "world without arms, armies or wars" and has nothing new. Adjourned.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 613–614 ("the morning of July 17"; the OCR has "July 1" for the 17th; he says Khrushchev''s views are the Central Committee''s). Made public: 1999. Names: Andropov, Khrushchev.'
+    src:
+      c: 5e011cff
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 613–614: all'
+    tags: [polity:prc, name:andropov-yuriy-vladimirovich, name:khrushchev-nikita-s, vis:only:prc+ussr]
+    time_range:
+      - 1963-07-17T03:00Z
+      - 1963-07-17T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
   - id: cal.1963-07-18.economy
     when: July 18
     date: '1963-07-18'
@@ -2267,8 +2514,33 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Juxiang Shuwu, afternoon. A meeting, Liu Shaoqi, Zhou Enlai and others, on the delegation''s telegrams on how to close the talks and on the content of its speech of July 19. Zhou drafts the reply, Mao reads it, and it goes out that evening: agrees the delegation should return soon; whether we propose the recess after the fourth or the fifth speech, let it judge.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1963; [[w.zhou-enlai-nianpu-1949]], II, 566 (July 18–19, 1963: Zhou Enlai drafts the Central Committee''s telegram to Deng Xiaoping, Peng Zhen and Kang Sheng: the talks having come to nothing, the delegation may return early; a joint communique to be sought, saying both sides stated their positions and views fairly concisely and agree to adjourn and resume at a suitable time). Made public: 1997. See [[cal.1963-07-15.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1963; [[w.zhou-enlai-nianpu-1949]], II, 566 (July 18–19, 1963: Zhou Enlai drafts the Central Committee''s telegram to Deng Xiaoping, Peng Zhen and Kang Sheng: the talks having come to nothing, the delegation may return early; a joint communique to be sought, saying both sides stated their positions and views fairly concisely and agree to adjourn and resume at a suitable time); [[w.lengxi-shinian-lunzhan-1956-1966]], 614–615 (Wu: in the afternoon of July 18 (Moscow) the delegation gets the Center''s telegram: the CPSU Central Committee has resolved not to settle matters at the talks and is in a very bad temper, naming Mao and other leaders in the Open Letter; in the second half of the talks the delegation is to criticize freely the CPSU leaders including Khrushchev by name, and at least to read its text on Stalin; one or two more meetings and then end the talks, with a recess for a time and a brief communiqué in which each side states its views and the talks are to go on later, but no promise to stop the open polemic, which the Chinese will answer; the Center will issue a statement, print the Open Letter with the editors'' note, and reprint the June 14 Proposal, to let the world judge). Made public: 1997. See [[cal.1963-07-15.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    src:
+      c: 82127d82
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 18, 1963: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 566: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 614–615: C-D'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-07-18.china-leadership-3
+    when: July 18
+    date: '1963-07-18'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-18.china-leadership
+    c: 'Moscow, the Chinese embassy, afternoon. The delegation, having the Center''s telegram, decides to carry out its spirit: criticize without restraint, not fear a break, read the Stalin text at the next meeting; and to prepare to end the talks by proposing at the ninth meeting a pause. All are glad; nothing now binds them.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 615 ("the same afternoon"; the ninth meeting named for the proposal of a pause). Made public: 1999. Check: the Center''s telegram is dated by the nianpu to the evening of July 18 at Peking, the afternoon at Moscow.'
+    src:
+      c: f0f5b73e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 615: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-07-18T09:00Z
+      - 1963-07-18T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1963-07-19.opinion
     when: July 19
     date: '1963-07-19'
@@ -2389,8 +2661,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow. The Chinese delegation's fourth speech, by Kang Sheng, charges the Soviet party with breaking the agreement by publishing the open letter during the talks, and takes up the dictatorship of the proletariat and Stalin. Deng Xiaoping, the delegation's head, proposes a recess; on July 20 Suslov, the Soviet head, agrees.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1963. Made public: 2013. To check: the delegation''s speeches and the Soviet record of the talks. See [[cal.1963-07-18.china-leadership]]. Names: Mao Zedong, Kang Sheng, Deng Xiaoping, Suslov.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 615–616 (Wu: the eighth meeting, July 19, Kang Sheng speaking: he opens by charging the CPSU with breaking the agreement, made for the talks, that neither side publish, charge the other or disclose the talks, in the Open Letter, which put the differences before the world; then the dictatorship of the proletariat, the CPSU''s "party and state of the whole people" and Stalin, in a text prepared at Peking from several parts; Khrushchev''s praises of Stalin before the Twentieth Congress and abuse after; Suslov red in the face protests, Ponomarev tries several times to break in, Deng Xiaoping lets Kang Sheng finish, and Suslov protests again and rejects the speech, as never at the seven before). Made public: 2013. To check: the delegation''s speeches and the Soviet record of the talks. See [[cal.1963-07-18.china-leadership]]. Names: Mao Zedong, Kang Sheng, Deng Xiaoping, Suslov.'
+    src:
+      c: d4351812
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 19, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 615–616: B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:kang-sheng, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
+    variants:
+      - unit: C
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: Deng Xiaoping proposes the recess at the ninth meeting, July 20, and Suslov agrees at once (on July 19 the delegation tells Peking it will propose it at the next meeting)
+        at: 616–617
   - id: cal.1963-07-19.china-leadership-2
     when: July 19
     date: '1963-07-19'
@@ -2399,6 +2681,32 @@ entries:
     c: 'Peking. Mao reads the *People''s Daily*''s editor''s note on the Soviet open letter and adds at its end: "we shall later supply materials to clear this up." In the afternoon a meeting at the Yinian Tang; the telegram to the delegation that evening: if the Soviets go on speaking after Kang Sheng, go on; the delegation may fly home in two planes.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1963 ("同日"). Made public: 2013. See [[cal.1963-07-19.china-leadership]]. Names: Mao Zedong, Kang Sheng.'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1963-07-19.soviet-union
+    when: July 19
+    date: '1963-07-19'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. Khrushchev, speaking at the Soviet–Hungarian friendship rally, abuses the Chinese without naming them, and attacks Mao's view of the atomic bomb as a paper tiger.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 617–618, 621 ("on the 19th, at the Soviet–Hungarian friendship meeting"; Deng Xiaoping later told Khrushchev to his face that he had called the Chinese a special line and splitters, himself and his friends the Marxist–Leninist line). Names: Khrushchev, Mao Zedong.'
+    src:
+      c: 8b5f4e6e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 617–618, 621: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:mao-zedong]
+  - id: cal.1963-07-19.china-leadership-3
+    when: July 19
+    date: '1963-07-19'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-19.china-leadership
+    c: 'Peking to Moscow, evening. Zhou Enlai telephones the delegation direct, in a few words: the Center agrees with its proposal, the line is set and no more detail is needed. The delegation reports on the afternoon''s meeting, and that it will propose at the next meeting that the talks pause and ask for a Soviet delegation, Khrushchev especially, at Peking.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 616 ("that evening"; the delegation''s cable of the afternoon reporting the eighth meeting and that, having put the Stalin question, it would propose a pause at the next meeting and ask the CPSU to send a delegation to Peking, Khrushchev especially, since Mao had refused to go to Moscow; Wu supposes the Soviets, who it seems tapped the line, knew of it). Made public: 1999. Names: Zhou Enlai, Khrushchev, Mao Zedong. Check: whether this is the telegram of the entry for the evening of July 19 at Peking ([[cal.1963-07-19.china-leadership-2]]), which the nianpu calls a telegram; Wu says the Soviets probably heard it (the visibility is Peking''s alone on the call''s face).'
+    src:
+      c: cd473d09
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 616: all'
+    tags: [polity:prc, name:zhou-enlai, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc]
   - id: cal.1963-07-20.opinion
     when: July 20
     date: '1963-07-20'
@@ -2454,7 +2762,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The spokesman of the Chinese Central Committee''s statement, revised by Mao July 18–19 on the draft of July 18: the Soviet open letter is an evaluation of the Chinese letter of June 14, is not in accord with fact, and not agreed to; the Central Committee will clear it up in due course, and decides to print the Soviet letter once more in the *People''s Daily*. Published July 20.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18 or 19, 1963. To check: the statement, *Renmin ribao*, July 20, 1963. See [[cal.1963-07-19.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18 or 19, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 624 (Wu: the Chinese Central Committee spokesman''s statement, broadcast the night of July 19 and printed in the *Renmin ribao* July 20: the Open Letter is not in accord with the facts and not agreed to; the Central Committee will in due time clear up and comment on the questions it raises; it will print the CPSU''s letter in full and its own of June 14; it welcomes the Soviet printing of the June 14 letter and hopes the Soviets will print the CCP''s documents as the Chinese print the CPSU''s, the seven articles since last December and the three statements of early July, and the statement of July 19 itself; the Chinese papers will print selections from the Soviet attacks since the Open Letter, from other parties'' support of it, and from the imperialists'' and reactionaries'' praise of it). To check: the statement, *Renmin ribao*, July 20, 1963. See [[cal.1963-07-19.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: ac432548
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 18 or 19, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 624: A-C'
     tags: [polity:prc, polity:ussr, name:mao-zedong]
   - id: cal.1963-07-20.china-leadership-2
     when: July 20
@@ -2471,6 +2784,79 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 365: A'
     tags: [polity:prc, polity:uk, polity:india, name:zhou-enlai, vis:only:prc+uk]
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-20.china-leadership-3
+    when: July 20
+    date: '1963-07-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow. Ninth meeting. Deng Xiaoping, by the plan the Center approved, speaks first: from the eight meetings the two parties are seen to differ gravely, the Soviet papers since the Open Letter of July 14 are attacking the CCP, agreement is not to be had and even calm talks are hard to keep; the Chinese delegation proposes that the talks pause until a time agreed, the next to be in Peking, Khrushchev to lead the Soviet delegation. Suslov, regretting that no agreement was reached, agrees to the pause but would not now fix the time and place; Deng says Khrushchev''s grievances, voiced the day before at the rally, may be heard at Peking.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 616–618 ("the ninth meeting on July 20"; Suslov: "the time and place to be settled later"; Deng: "he can say them to us direct"; Wu thinks the Soviets heard Zhou''s telephone call). Made public: 1999. See [[cal.1963-07-19.china-leadership]]. Names: Deng Xiaoping, Suslov, Khrushchev.'
+    src:
+      c: 5400edf0
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 616–618: all'
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:khrushchev-nikita-s, vis:only:prc+ussr]
+  - id: cal.1963-07-20.china-leadership-4
+    when: July 20
+    date: '1963-07-20'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-20.china-leadership-3
+    c: 'Moscow. After the ninth meeting Deng Xiaoping sends Wu Lengxi and Yao Zhen, with Satyukov and a section head of the CPSU''s International Department, to a small room to revise the Soviet draft communiqué. Deng''s instructions: no "friendly, comradely atmosphere," each side to state its views; nothing agreeing to stop the open polemic; the talks adjourned and to be resumed later, time and place to be settled. The "atmosphere" clause becomes: the two sides stated their positions on the world, the movement and Sino-Soviet relations; the polemic clause is left out; the last paragraph: at the Chinese delegation''s proposal the delegations'' work is adjourned, to be resumed later, time and place to be settled by the two Central Committees. Both delegations read it and agree.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 618–621 (Wu to Deng for instructions, "follow the Center''s telegram"; Satyukov for the Soviets held that the talks were in a friendly atmosphere and that agreement had been reached to stop the open dispute; Wu: "you published an open letter during the talks"; the Soviet insistence on "agreement reached to stop the open polemic," the Chinese counterproposal of a fair agreement sought jointly, neither stands; Satyukov adds "developments in the world today"; the Soviets will not agree to Peking as the place or a date). Made public: 1999. Names: Deng Xiaoping. See [[cal.1963-07-22.china-leadership-4]].'
+    src:
+      c: cd19f3f7
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 618–621: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+ussr]
+  - id: cal.1963-07-20.soviet-union
+    when: July 20
+    date: '1963-07-20'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1963-07-20.china-leadership-4
+    c: 'Moscow. Khrushchev gives a banquet for the Chinese delegation; the toasts are to health. He tells Deng Xiaoping there are no serious differences, the differences are invented. Deng: his Soviet–Hungarian rally speech called China''s line special and splitting, the Soviet line Marxist–Leninist, and the Chinese letter of June 14 and the Soviet letter of July 14 are two lines side by side. Khrushchev: leave the words to the writers. Deng asks that the Soviets print the Chinese articles and statements as the Chinese print the Soviet; Khrushchev: they cannot print groundless attacks; Deng: they are Khrushchev''s own words, as Liu Shaoqi had asked him in 1960 not to speak so much; Khrushchev shrugs.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 621–622 ("that evening"; Deng: the Chinese had printed the CPSU''s Mar. 30 and July 14 letters, and would print more, and hoped the Soviets would print their seven articles and the statements of July; Khrushchev: "we do not want to sharpen the open dispute"). Made public: 1999. Names: Khrushchev, Deng Xiaoping, Liu Shaoqi. The day: Wu puts the banquet "that evening" after the communiqué''s publication, July 22 (621), but the delegation left Moscow at 11 that night (622) and at Peking the next afternoon, July 21 ([[cal.1963-07-21.china-leadership]]), talked of "last night''s" banquet (623): July 20.'
+    src:
+      c: 046bb8e0
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 621–622: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc+ussr]
+    time_range:
+      - 1963-07-20T16:00Z
+      - 1963-07-20T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
+  - id: cal.1963-07-20.china-leadership-5
+    when: July 20
+    date: '1963-07-20'
+    time: 1963-07-20T20:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-07-20.soviet-union
+    c: Moscow. The Chinese delegation leaves for home at 11 p.m., in two planes.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 622–623 ("at 11 that evening" (当天晚上11点); "at Peking time the next afternoon" they reach the western suburb airport).'
+    src:
+      c: 70caa733
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 622–623: all'
+    tags: [polity:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1963-07-20.china-leadership-6
+    when: July 20
+    date: '1963-07-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking. The *Renmin ribao* prints the CPSU''s Open Letter, with the Chinese Proposal of June 14, and a long editors'' note. The note says the Open Letter turns the facts and the right and wrong around, and takes up four questions: nuclear war (Mao''s words on resistance or surrender, mankind surviving; not that China would have a nuclear war); the Twentieth Congress and Stalin (China told the CPSU in 1956 it was one-sided; Mao four times to Mikoyan and other Soviet comrades); peaceful transition (the 1957 memorandum); and the spreading of ideological differences into state relations (the withdrawal of over 1,000 Soviet experts and tearing up of hundreds of agreements, from July 16, 1960). The note says there are seventy or eighty such turnings in the letter, to be dealt with in later articles.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 624–627 (the plate of the *Renmin ribao* of July 20 (625); the editors'' note''s "four questions"; Wu: "seventy or eighty places"). See [[cal.1963-07-19.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: 9322af1b
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 624–627: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1963-07-21.opinion
     when: July 21
     date: '1963-07-21'
@@ -2525,13 +2911,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking, afternoon. Deng Xiaoping and Peng Zhen, with the delegation, return from Moscow; Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others meet them at the airport, with ministers, the NPC and CPPCC standing committees, the army and the satellite parties' ambassadors. Mao then calls a meeting at the Yinian Tang and hears the delegation report on the talks.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 21, 1963; [[w.zhou-enlai-nianpu-1949]], II, 566 (July 21, 1963: the Chinese delegation back in Peking, Mao, Liu Shaoqi, Zhou Enlai and Zhu De meet it at the airport); [[w.zhou-enlai-waijiao-huodong]], 365 (July 21, 1963; 下午, 机场; with Mao Zedong, Liu Shaoqi, Zhu De and Dong Biwu). Made public: 1993. To check: the delegation''s report. See [[cal.1963-07-20.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 21, 1963; [[w.zhou-enlai-nianpu-1949]], II, 566 (July 21, 1963: the Chinese delegation back in Peking, Mao, Liu Shaoqi, Zhou Enlai and Zhu De meet it at the airport); [[w.zhou-enlai-waijiao-huodong]], 365 (July 21, 1963; 下午, 机场; with Mao Zedong, Liu Shaoqi, Zhu De and Dong Biwu); [[w.lengxi-shinian-lunzhan-1956-1966]], 623–624 (Wu: at the Peking western suburb airport the afternoon after the banquet: Mao, Liu Shaoqi, Zhou Enlai, Zhu De and Dong Biwu, the deputy head of state, with department heads and crowds, some five thousand, a welcome meant to show the Center''s full support; Mao taking the delegation to the Yinian Tang (颐年堂) in Zhongnanhai for tea and talk of the banquet; Mao: "complete victory," that is, no agreement lost to principle; the two parties'' talks halted for the time, as the communiqué says, a tail left, so the relations are not wholly broken, though near the brink; Khrushchev had said of Deng, so small, a heavyweight; Mao: no meeting tomorrow or the day after, since China has already shown its stand on the Open Letter). Made public: 1993. To check: the delegation''s report. See [[cal.1963-07-20.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu.'
     src:
       c: 42e69c64
       rows:
         - 'w.zedong-mao-zedong-nianpu V, July 21, 1963: all'
         - 'w.zhou-enlai-nianpu-1949 II, 566: ?'
         - 'w.zhou-enlai-waijiao-huodong 365: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 623–624: A-D'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:dong-biwu, vis:only:prc]
     time_range:
       - 1963-07-21T04:00Z
@@ -2660,6 +3047,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
     tags: [polity:prc, polity:denmark, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-22.china-leadership-4
+    when: July 22
+    date: '1963-07-22'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The communiqué on the talks of the Chinese and Soviet parties is published: the two sides stated their positions on world development, the international communist movement and Sino-Soviet relations; at the Chinese delegation''s proposal the delegations'' work is adjourned, to resume later, time and place to be settled by the two Central Committees.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 618–621 ("the communiqué was published July 22"; its text as the delegations settled it July 20). See [[cal.1963-07-20.china-leadership-4]]. Check: the day is Wu''s alone; the communiqué''s text in *Pravda* and the *Renmin ribao* is not read.'
+    src:
+      c: c6ff4867
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 618–621: all'
+    tags: [polity:prc]
   - id: cal.1963-07-23.program
     when: July 23
     date: '1963-07-23'
@@ -3391,7 +3790,12 @@ entries:
     thread: china-leadership
     also: [testing]
     c: Juxiang Shuwu, afternoon. A meeting, Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, on the treaty banning nuclear tests in the atmosphere, in outer space and under water, initialed in Moscow July 25 by the United States, Britain and the Soviet Union.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 28, 1963 ("同日"). Made public: 2013. To check: the treaty initialed July 25 (the calendar''s [[cal.1963-07-25.testing]]). See [[cal.1963-07-25.testing]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 28, 1963 ("同日"); [[w.lengxi-shinian-lunzhan-1956-1966]], 628 (Wu: the treaty concluded (签订) July 25, the fifth day after the talks'' end, banning tests in the atmosphere, in outer space and under water, not underground). Made public: 2013. To check: the treaty initialed July 25 (the calendar''s [[cal.1963-07-25.testing]]). See [[cal.1963-07-25.testing]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
+    src:
+      c: 8754488b
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 28, 1963: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 628: B'
     tags: [polity:prc, polity:us, polity:uk, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-07-28.china-leadership-3
     when: July 28
@@ -3561,6 +3965,18 @@ entries:
     c: 'Zhou Enlai chairs four meetings, July 29–Aug. 3, with Li Xiannian, Bo Yibo, Tan Zhenlin, Deng Zihui and others, hearing the State Planning Commission group''s first views on the 1964 plan''s control figures. Against those who still want a "great leap": the adjustment of 1961 runs five years; open with "two more years of adjustment"; no high grain target; no changing the plan at will; truth in science and new products; steady prices and a little more pay for city workers, all but those at fault up one or two grades within eight years; build basic industry, or it is not adjustment.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 569 (July 29–Aug. 3, 1963). Made public: 1997. Names: Zhou Enlai, Li Xiannian, Bo Yibo, Tan Zhenlin, Deng Zihui.'
     tags: [polity:prc, name:zhou-enlai, name:li-xiannian, name:bo-yibo, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1963-07-29.china
+    when: July 29
+    date: '1963-07-29'
+    thread: china
+    also: [testing, soviet-union]
+    c: 'Harriman, back in Washington, tells reporters that in Moscow he and Khrushchev had discussed the possibility of China''s nuclear development. Khrushchev, he says, did not seem unduly disturbed: it would be a very long time before the Chinese had any significant nuclear capacity, as he believes China lacks the industrial base for nuclear weapons and delivery systems, the USSR having given no industrial technical aid since 1960.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 629 (Harriman''s remarks as Wu quotes them, in a Chinese version; Wu: it shows that Khrushchev, in the party talks, "was bent on drawing close to the United States"). See [[cal.1963-07-29.testing]]. Names: Harriman, Khrushchev. Check: the remarks'' own text is not read: Wu quotes them from a Chinese translation.'
+    src:
+      c: d65e2cc7
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 629: all'
+    tags: [polity:prc, name:harriman-w-averell, name:khrushchev-nikita-s]
   - id: cal.1963-07-30.defense
     when: July 30
     date: '1963-07-30'
@@ -3705,7 +4121,7 @@ entries:
     thread: china
     also: [testing]
     c: 'Peking. The government''s statement rejects the test ban treaty: Moscow''s surrender to American imperialism. It proposes a conference of the heads of government of all countries on the complete prohibition and destruction of nuclear weapons.'
-    n: '[[w.zhai-china-and-the-vietnam]], 124; [[w.zedong-mao-zedong-nianpu]], V, July 31, 1963 (the statement: the treaty "a big fraud"; a conference of the heads of government of all countries); [[w.zhou-enlai-nianpu-1949]], II, 568 (July 25 and July 31, 1963: the nianpu notes under July 25 the treaty on banning tests in the air, space and under water, which leaves out underground tests, signed at Moscow by the Soviet Union, the United States and Britain; the Chinese government statement of July 31, drafted under Zhou Enlai, calls for the comprehensive, thorough and resolute ban and destruction of nuclear arms and a summit of the governments, and exposes the treaty as discriminatory). Washington''s knowledge: [FRUS 1961–63, XXII, doc. 183](https://history.state.gov/historicaldocuments/frus1961-63v22/d183) (Cabot, Warsaw, Aug. 7: Wang Ping-nan opens the 116th meeting on the statement; Cabot regrets Peking''s rejection of the treaty). Check: the nianpu gives the treaty as signed July 25; the day of signing. To check: the statement, *Renmin ribao*, July 31, 1963 (cited by [[w.zhai-china-and-the-vietnam]], 124 n.52). See [[cal.1963-07-25.testing]].'
+    n: '[[w.zhai-china-and-the-vietnam]], 124; [[w.zedong-mao-zedong-nianpu]], V, July 31, 1963 (the statement: the treaty "a big fraud"; a conference of the heads of government of all countries); [[w.zhou-enlai-nianpu-1949]], II, 568 (July 25 and July 31, 1963: the nianpu notes under July 25 the treaty on banning tests in the air, space and under water, which leaves out underground tests, signed at Moscow by the Soviet Union, the United States and Britain; the Chinese government statement of July 31, drafted under Zhou Enlai, calls for the comprehensive, thorough and resolute ban and destruction of nuclear arms and a summit of the governments, and exposes the treaty as discriminatory); [[w.lengxi-shinian-lunzhan-1956-1966]], 629–630 (Wu: the Chinese government''s statement of July 31 says the treaty is meant to consolidate the three powers'' nuclear monopoly and to bind the hands of every peace-loving state under nuclear threat; that Khrushchev, once against a partial ban, has made a turn of 180 degrees, betraying the Soviet and Chinese peoples'' interests and surrendering to American imperialism; and it repeats China''s stand for the complete, thorough and resolute prohibition and destruction of nuclear weapons). Washington''s knowledge: [FRUS 1961–63, XXII, doc. 183](https://history.state.gov/historicaldocuments/frus1961-63v22/d183) (Cabot, Warsaw, Aug. 7: Wang Ping-nan opens the 116th meeting on the statement; Cabot regrets Peking''s rejection of the treaty). Check: the nianpu gives the treaty as signed July 25; the day of signing. To check: the statement, *Renmin ribao*, July 31, 1963 (cited by [[w.zhai-china-and-the-vietnam]], 124 n.52). See [[cal.1963-07-25.testing]].'
     src:
       c: 5483597a
       rows:
@@ -3714,6 +4130,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d183: C'
         - 'w.zedong-mao-zedong-nianpu V, July 31, 1963: C'
         - 'w.zhou-enlai-nianpu-1949 II, 568: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 629–630: A-C'
     time_range:
       - 1963-07-31T01:00Z
       - 1963-07-31T09:00Z
