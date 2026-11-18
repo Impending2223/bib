@@ -67,7 +67,7 @@ No row in this run rests on R18's grounds.
 
 **For run 3.** Start at p. 66 (ch. 4); the eight drafted ch. 4 entries as run 1's reader left them. P. 71's notes are registered.
 
-## Bearing fix of the merged runs, Nov. 18–19
+## Bearing fix of the merged runs, Nov. 17–18
 
 Batch 15b's fault 5 as corrected (Nov. 18; R3.3, R35, R29, R34): the merged entries of runs 1 and 2 carried on their "To check:" lines the items of every note on the cited pages, not of the notes called in the passage each entry rests on. Patch `inbox/2026-11-18-b15b-bearing-fix.yaml` (`patch: 2026-11-18-b15b-bearing-fix`), `edit` ops with the `base` `./bib show` gives for the entry now, setting `n` and, where it changes, `src`. Nothing merged, committed or pushed; no witness row or edge of this book touched (every item of every note stays registered in `sources/witnesses/by-work/macfarquhar-maos-last-revolution.yaml`).
 
@@ -99,7 +99,7 @@ Batch 15b's fault 5 as corrected (Nov. 18; R3.3, R35, R29, R34): the merged entr
 
 **For run 4.** Start at p. 102 (ch. 6, "The Red Guards").
 
-## Audit of run 3, Nov. 18–19 (b15b-mlr-3)
+## Audit of run 3, Nov. 17–18 (b15b-mlr-3)
 
 **How.** The same Drive copy, fetched fresh into a new directory (742 PDF pages; printed = PDF − 17 to p. 144, the notes from p. 483 = PDF 532, confirmed on pp. 66–101 and notes pp. 503–514). Pp. 66–101 read whole against all 108 adds and 34 cites; the notes of ch. 4 and 5 (pp. 503–514) read whole from the text layer, every callout of pp. 66–101 matched to its note in the text (no drift), and one notes page (p. 511, the page of 91 n.21) read as an image; the reader's image check of all twelve stands. Duplicates: `./bib find` over the calendar for June–Aug. 1966 (all threads, then each add's day), `./bib ledger find` for June 1966–1969, and the Liu 1963–69 patch's adds (merged into the working tree during the audit). Bearing: the bearing fix's method (a note covers the text from the call before it to its own call; a note about one point covers that point only). Cards: 21 of the 64 cards committed with run 3 against the book's Bibliography (pp. 611–650). PDF, text and the image deleted.
 
@@ -115,7 +115,7 @@ Batch 15b's fault 5 as corrected (Nov. 18; R3.3, R35, R29, R34): the merged entr
 
 **Doubts.** The `edit`s of tree entries set only the year of "Made public:" (bases read Nov. 18, 11 p.m.); a merge after other patches touch those entries may need the bases refreshed. The *wengao* card (`w.zedong-jianguo-yilai-mao-zedong`) carries year 2023 for the 13-volume edition of 1987–98; vol. XII is 1998 and is used here; the card is not this run's.
 
-## Run 4 (b15b-mlr-4), Nov. 19, 2026
+## Run 4 (b15b-mlr-4), Nov. 18, 2026
 
 **Copy.** Same Drive file, fetched fresh into a new directory (742 PDF pages, text layer; `pdftotext -layout`); printed = PDF − 17 through p. 144, − 33 after the plates (PDF 162–177, unnumbered, not read beyond their captions), the notes from p. 483 = PDF 532 (checked on pp. 102, 144, 145, 154, 514, 529). PDF, text and images deleted when done.
 
@@ -139,7 +139,7 @@ R18 only: 106 | late July 1966 | an elite girls' school student's thought that t
 ## Audit notes (run 4)
 **Doubts.** (1) The book's note for the Daxing narrative: none is called in the passage (129 n.54 defines a term; 130 n.55 compares Yunnan; 131 n.59 cites Yu Luowen for the aftermath); the entries say so in a Check and carry "Made public: 2006". (2) The four entries on the Nov.–Dec. industry quarrel after Mao's rejection (Jiang Qing, Kang Sheng, Tao Zhu, Li Fuchun) carry `at: after 1966-11-22` for days the book does not give; the Zhou chronology (III, 90–96) may date them. (3) The Sept. 17–20 hearings, Li Na's visits, the Capital 3rd HQ's founding and the Oct. 21 and Oct. 23–24 posters are not in the Mao, Zhou or Liu chronologies as far as read (`./bib find`); the Zhou chronology of 1997 (III, 60–95) may hold some. (4) The Swedish ambassador's letter (151, 154) is dated "early 1967" by position only; its note's file number reads 5.10.66. (5) "Zhongfa [1966] 312" (103) is read as the circular of June 20 that the Center withdrew on Aug. 5; "515" (135) may be the Oct. 5 directive on the military academies. (6) The three cards forced past the catalogue's refusal (the 4-vol. and 6-vol. *Wuchanjieji wenhua dageming cankao ziliao* of 1967, the 1966 Qufu *Gaoju Mao Zedong sixiang weida hongqi*, Jia Lanxun's continuation, *Wan sui* (xu er)) are different works with the same short titles; the catalogue's merge flags may need the owner's ruling.
 
-## Audit of run 4, Nov. 19 (b15b-mlr-4)
+## Audit of run 4, Nov. 18 (b15b-mlr-4)
 
 **How.** The same Drive copy, fetched fresh into a new directory (742 PDF pages; printed = PDF − 17 to p. 144, − 33 after the plates, confirmed on pp. 102, 121, 132, 145, 154; the notes of ch. 6–8 on pp. 514–529 = PDF 563–578). Pp. 102–154 read whole against all 132 adds, the 59 cites, 6 variants and 21 checks. Every note's callout page found for all 199 notes of ch. 6–8 by a sequential match on the text layer and compared with every one of the 296 edges; 4 of the 16 notes pages read as page images (pp. 517, 522, 525, 528: 40 notes). Duplicates: every full-dated add (64) against every China entry of its day in the tree and the ledger (`./bib ledger find`), and 20 month- and year-dated adds by keyword (`./bib find`). Cards: 21 of the 105 the run made, against the Bibliography (pp. 611–650), and all 105 by title against the catalogue. A scratch copy of the tree with the patch merged (its duplicate flags kept as distinct): `./bib check` 0 errors, no warning on any add. PDF, text, images and the scratch copy deleted.
 
@@ -152,3 +152,19 @@ R18 only: 106 | late July 1966 | an elite girls' school student's thought that t
 **Counts after.** 139 adds (132 − 3 + 10), 58 cites, 54 to-check, 19 checks, 6 variants, 2 edits; 57 witness rows; 297 edges of run 4. Ledger: 11 claims added, 4 released (`./bib ledger drop`: cal.1966.china-leadership-21, cal.1967.china-leadership-18, cal.1966-08-12.china-leadership-6, cal.1966-09-17.china-leadership-4). Patch-check 0 errors (warnings: same-day "one event?" and the merge's duplicate flags, each add compared; "sets only n" on the hearings' edit).
 
 **Leads (added).** The Swedish ambassador's letter (151, 154 n.67), undated: the file number reads "5.10.66"; the *New York Times* editorial it answers would date it. The East Is Red Commune's four sit-ins at the Ministry of Geology and Red Flag's month at the National Defense Science Commission, with Chen Boda's intervention (133), undated; Tao Zhu's calling Zhang Chunqiao's concession "erroneous," after the Anting stoppage and before Mao's meeting of Nov. 14, by position only (142).
+
+## Run 5 (b15b-mlr-5), Nov. 18, 2026
+
+**Copy.** Same Drive file, fetched fresh into a new directory (742 PDF pages, text layer); printed = PDF − 33 after the plates (checked on pp. 155 = PDF 188, 170, 184, 199); the notes of ch. 9–10 from p. 529 = PDF 578 (offset 49). PDF, text and images deleted when done.
+
+**Read.** Pp. 155–183 in full: ch. 9, "Shanghai's 'January Storm'" (155–169), ch. 10, "Seizing Power" (170–183), with their notes (pp. 529–537, PDF 578–586), every notes page checked against its page image (`pdftoppm -r 100`; nine images: numbers, items and order agree with the text layer; callout pages counted by hand from the text). Ch. 11 (pp. 184–198) was read for its events but is not entered; **the next run starts at p. 184** (ch. 11, "The Last Stand of the Old Guard"; its notes from p. 537, PDF 586). Notes 9.3, 9.4 (an explanatory event, entered) and 10.63 name no source.
+
+**Patch** `inbox/2026-11-19-b15b-mlr-5.yaml`: 146 new entries, 31 cites on tree entries (with their bearing "To check:" lines), 1 variant (the Shanghai Commune meeting, Jan. 19 against Jan. 23), 12 checks; 23 witness rows (`inbox/witnesses/2026-11-19-b15b-mlr-5.yaml`); 193 edges appended under "# run 5" (every item of every note on pp. 155–183 that names a source). About 40 cards made. Patch-check 0 errors (warnings: same-day "one event?" and duplicate flags, each add compared with its day). Ledger: 146 claims, all used.
+
+**Method.** The Mao, Zhou and Liu chronologies hold most of Jan.–Apr. 1967 (the Jan. 6 rally, Jan. 21–28 army orders, Feb. 11–19 Huairen Hall days, the Apr. 6 and Apr. 20 entries): cited, not duplicated; the Shanghai events of Nov. 1966–Feb. 1967 and the provincial seizures were not in the tree. A page list of one work in a note is one item (pin a list). "CCP Documents" ranges are card edges, the book not naming the documents; rows only where the text names the document (Zhongfa [1967] 27, 85, 117, the Jan. 28 and Apr. 6 orders, the Jan. 9 notice, the Jan. 12 telegram, the rally's orders, Yao's message, General Order No. 1, Mao's Feb. 12 remarks, press issues, interviews). "Made public" by the earliest card year of the note's works; public acts carry none. Loose dates by the thirds rule. `via` rows only for edges leading to rows.
+
+**Passed over (R18, outside the span).** 156 n.27: a radical follower's remark of the 1990s; 177 nn.46–47: the PLA policy rescinded Aug. 1972 and officers' self-criticism, 1983–87; 169 n.70: the Shanghai committee's ratification sought Jan. 23 and granted Mar. 28, 1970; 160: the schools' later history.
+
+**Leads (undated).** Documents added to the Center's co-signatories (156); the Department of Administrative Affairs without leadership since June 1966 (157 n.12); the workers' poster campaign and managers' "economism" (162); Cao Diqiu's talks; the influx of contract workers into Peking (173 n.19, Milton); Mao's orders "issued verbally on the eve of battle" (179 n.57); anti-PLA riots after the ten points (182). Persons with no name entry: Wang Hongwen, Chen Pixian, Cao Diqiu, Xu Jingxian, Wang Li, Guan Feng, Qi Benyu, Wu De, Nie Yuanzi, Liao Zhengguo, Pan Fusheng, Wang Jiadao, Liu Geping, Wei Heng, Yan Hongyan, Wan Xiaotang, Liu Xianquan, Zhao Yongfu, Huang Yongsheng, Wang Enmao, Liu Zhijian, Xiao Hua, Li Na, Du Xiangguang, Xiao Wangdong, Yang Chengwu.
+
+**Doubts.** (1) Note-to-passage bearing was set by the cover rule (a note covers text from the previous call); several undated policy entries (173–175) rest on unnamed CCP Documents pages. (2) Dates of the Feb. 3 remark (156 against 188) left for run 6. (3) Four undated 1967 items carry year-only dates with Checks. (4) Cards made for short-title Red Guard collections may need merge rulings.

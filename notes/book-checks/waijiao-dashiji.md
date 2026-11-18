@@ -136,7 +136,7 @@ Audit (Opus) of the patch `inbox/2026-11-18-b15b-wjd2.yaml` as handed in (248 ad
 
 **Where it stopped.** Dec. 31, 1964, the volume's end (p. 379); nothing left of vol. II. Done at about 00:30 Pacific, Nov. 18, 2026.
 
-## Audit of vol. II, Apr. 1962–1964, Nov. 19
+## Audit of vol. II, Apr. 1962–1964, Nov. 18
 
 Audit (Opus) of the patch `inbox/2026-11-18-b15b-wjd2-2.yaml` as handed in (408 adds, 230 cites, 6 variants; the reader's copy kept in the scratchpad as `2026-11-18-b15b-wjd2-2-reader-original.yaml`), against the tree as it now stands (Liu Shaoqi 1963–69 and Wu Lengxi runs 3–4 merged since the reader's check). Page images at 120 dpi (three crops at 220 dpi), deleted after reading: printed pp. 225, 227, 228, 234, 235, 239, 241, 244, 247, 254, 258, 260, 266, 270, 275, 281, 287, 291, 296, 300, 302, 305, 308, 316, 324, 326, 329, 333, 338, 339, 341, 347, 350, 356, 360, 366, 374, 376 (PDF + 9); the OCR for the rest.
 

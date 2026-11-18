@@ -808,16 +808,16 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 
 "Immediate. 9 isn't a real item. Drop it. Put the notes pass reruns ahead of Pollack. I've added an EPUB of Reeves to the shared folder, which links claims to their citations. Tell me if that makes things easier on a Reeves re-read, if one is in the queue." (Nov. 17: item 9, sport and the arts, dropped; the notes-pass re-runs moved ahead of Pollack, now item 9; Reeves added to them, the EPUB's two-way note links and page anchors noted.)
 
-"I've just shared two files. Are these the Liu Shaoqi and MOFA volumes we were looking for?" (Nov. 18, evening. They were: *Waijiao dashiji* vol. 2, 1957–64, and *Liu Shaoqi nianpu (1898–1969)*, vol. 2, 1996.)
+"I've just shared two files. Are these the Liu Shaoqi and MOFA volumes we were looking for?" (the night of Nov. 17–18, Pacific. They were: *Waijiao dashiji* vol. 2, 1957–64, and *Liu Shaoqi nianpu (1898–1969)*, vol. 2, 1996.)
 
-"Sorry, shouldn't "seasons: which time zone sets them" have an obvious answer? Seasons are intercalary ghost days, so they follow the calendar's own date divisions, right? And those are... Washington time, right? Long meetings: first act's time, but the entry's text or citation block should make that clear. I don't understand the Koleka or Kapo question. I'm not sure I understand what these numbered warnings are, whether the current placement is reasonable, whether an alternative placement is available, and what alternative placements there might be. Fix the 1993/1997 error. Keep the default rule, but correct the visibility where we know otherwise. Add visibility to South Yemen. Keep the inference but make its reasoned basis clear in the citation block. I don't mean to grouse, but how many of these questions were really "waiting for [my] rulings"?" (Nov. 18, about 11 p.m., answering the audits' questions of the night.)
+"Sorry, shouldn't "seasons: which time zone sets them" have an obvious answer? Seasons are intercalary ghost days, so they follow the calendar's own date divisions, right? And those are... Washington time, right? Long meetings: first act's time, but the entry's text or citation block should make that clear. I don't understand the Koleka or Kapo question. I'm not sure I understand what these numbered warnings are, whether the current placement is reasonable, whether an alternative placement is available, and what alternative placements there might be. Fix the 1993/1997 error. Keep the default rule, but correct the visibility where we know otherwise. Add visibility to South Yemen. Keep the inference but make its reasoned basis clear in the citation block. I don't mean to grouse, but how many of these questions were really "waiting for [my] rulings"?" (the night of Nov. 17–18, Pacific, answering the audits' questions of the night.)
 
-"Option 1 with option 3 as a lead, as you recommend." (Nov. 18, about 11:30 p.m.: the numbered serious warnings, each year's run a year-dated entry; each warning its own entry from *Renmin ribao* a lead.)
+"Option 1 with option 3 as a lead, as you recommend." (the night of Nov. 17–18, Pacific: the numbered serious warnings, each year's run a year-dated entry; each warning its own entry from *Renmin ribao* a lead.)
 
-"Has anyone read 77 Conversations for the calendar yet? Are you able to retrieve it? We should tack it on to the end of the China step if so. (Don't block yourself on it if not, though.)" (Nov. 19, about 2:45 a.m.)
+"Has anyone read 77 Conversations for the calendar yet? Are you able to retrieve it? We should tack it on to the end of the China step if so. (Don't block yourself on it if not, though.)" (the night of Nov. 17–18, Pacific.)
 
-"Put it in the next free slot." (Nov. 19, about 3 a.m.: *77 Conversations*.)
+"Put it in the next free slot." (the night of Nov. 17–18, Pacific: *77 Conversations*.)
 
-"What have we read for the PRC in our span thus far? What on the drive remains to be read? What are we missing?" and "Have you checked the items on the drive against your hunches?" (Nov. 19, about 5 a.m.)
+"What have we read for the PRC in our span thus far? What on the drive remains to be read? What are we missing?" and "Have you checked the items on the drive against your hunches?" (the night of Nov. 17–18, Pacific)
 
-"What volumes of Jianguo yilai Liu Shaoqi wengao would we need? Were they on any of our lists?" (Nov. 19, about 5:20 a.m.)
+"What volumes of Jianguo yilai Liu Shaoqi wengao would we need? Were they on any of our lists?" (the night of Nov. 17–18, Pacific.)

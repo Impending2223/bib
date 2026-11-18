@@ -800,7 +800,7 @@ def cmd_works(series, a):
     if cmd == "combine":
         if len(rest) != 2:
             raise SystemExit("works combine KEEP DROP")
-        # under the works lock, the catalogue re-read, and only the card files the fold touches written (Nov. 19,
+        # under the works lock, the catalogue re-read, and only the card files the fold touches written (Nov. 18,
         # 2026: a whole-catalogue save here could overwrite cards other readers were writing at the same moment)
         import fcntl
         with open(os.path.join(store.ROOT, "works", ".lock"), "w") as lk:

@@ -2,7 +2,7 @@
 
 (Created by the vol. 16 reader because the file did not yet exist; the vol. 15 reader appends or merges its section above.)
 
-## Vol. 16 (Apr. 1961 – May 1963), the 2023 revised edition: reader b15b-wengao-16 (Nov. 19, 2026)
+## Vol. 16 (Apr. 1961 – May 1963), the 2023 revised edition: reader b15b-wengao-16 (Nov. 18, 2026)
 
 **The copy.** *Jianguo yilai Mao Zedong wengao*, vol. 16 (Zhonggong Zhongyang Dangshi he Wenxian Yanjiuyuan, 2023), an image scan, 576 PDF pages, OCR by the caller (the scan itself is clean). Card `w.zedong-jianguo-yilai-mao-zedong`. Folio: printed page N is PDF page N + 25 (PDF p. 26 = printed 1, the Hungarian telegram; the contents run PDF pp. 6–25; checked on the images at printed 1, 2, 3, 5, 9 and throughout). Cite form `[[card]], XVI, 123 (May 5, 1962)`; the volume's items are dated by the editors from the manuscripts. The notes (注释) stand at each document's foot, numbered [1], [2] ...; an anchor is `XVI, <page of the note> n.<number>`, a note of several items lettered in its own order (`n.2a` the letter, `2b`–`2e` its four enclosures).
 
@@ -25,7 +25,7 @@
 **Doubts.** (1) "Yangcun" (p. 28) is a place the volume does not gloss. (2) The Sept. 9 and Dec. 1961 poems and the Nov. 17 reply poem carry the first-printing year as a Check: the volume prints them from *Mao Zedong shici ji* and gives no earlier printing. (3) The Aug. 9 note on Major Sánchez does not say the meeting took place (Check). (4) The July 30, 1961 letter to the Jiangxi Communist Labor University carries no `vis` ruling in the existing entry; the volume does not say whether it was published then. (5) The existing entries that hold Mao's acts from the chronology under other days (Sept. 15's "Back to Peng Zhen, to be carried out") against the volume's Sept. 15 deletion of nine characters: both kept, the order flagged by a Check on the new entry. (6) Leads: the 1930 essay "On investigation work" (p. 9 n.1) and the 1956–59 speeches extracted in the study material of Sept. 16 (pp. 110–113) are rows with no text read.
 
 <!-- vol15:start -->
-## Vol. 15 (Jan. 1960–Mar. 1961), the cite pass, Nov. 19, 2026
+## Vol. 15 (Jan. 1960–Mar. 1961), the cite pass, Nov. 18, 2026
 
 **The copy.** *Jianguo yilai Mao Zedong wengao* 建国以来毛泽东文稿, vol. 15 (第十五册, Jan. 1960–Mar. 1961), Zhonggong Zhongyang Dangshi he Wenxian Yanjiuyuan 中共中央党史和文献研究院 ed., Zhongyang Wenxian Chubanshe 中央文献出版社; the publisher's note is dated December 2023 and says the set is the revised and enlarged edition of the 13 volumes of 1987–98 (internal circulation), now 20 volumes with some texts added, the notes revised and a few dates corrected. An image scan, OCR'd (558 PDF pages). **A card of its own:** `w.jianguo-yilai-mao-zedong` (the 2023 edition, cited "XV, 123"), made with `works new --force` beside the old `w.zedong-jianguo-yilai-mao-zedong` (the 1987–98 edition, whose volumes and pages differ: vols. 9, 10, XII; MacFarquhar cites it). The other reader (vol. 16) uses the new card.
 
@@ -52,7 +52,7 @@
 <!-- vol15:end -->
 
 <!-- vol17:start -->
-## Vol. 17 (June 1963–Jan. 1965), the cite pass, Nov. 19, 2026: reader b15b-wengao-17
+## Vol. 17 (June 1963–Jan. 1965), the cite pass, Nov. 18, 2026: reader b15b-wengao-17
 
 **The copy.** *Jianguo yilai Mao Zedong wengao* 建国以来毛泽东文稿, vol. 17 (第十七册, June 1963–Jan. 1965), Zhonggong Zhongyang Dangshi he Wenxian Yanjiuyuan ed., Zhongyang Wenxian Chubanshe, 2023 (the rev. ed., card `w.jianguo-yilai-mao-zedong`, made by the vol. 15 reader; the old card `w.zedong-jianguo-yilai-mao-zedong` is the 1987-98 edition and is not used here). Image scan, 562 PDF pages, OCR by the caller. Folio: printed page N is PDF page N + 25 (PDF p. 26 = printed 1; the contents run PDF pp. 6-25; the volume's last printed page is 536-odd, the last document "Jan. 31, 1965", p. 535). Checked on the images at printed pp. 1-28, 31-35, 38, 70-71, 86 and 146.
 
@@ -80,7 +80,7 @@
 <!-- vol17:end -->
 
 <!-- vol16-audit:start -->
-## Audit of vol. 16 (to Mar. 4, 1962), Nov. 19
+## Audit of vol. 16 (to Mar. 4, 1962), Nov. 18
 
 Opus audit of patch `2026-11-19-b15b-wengao-16` (printed pp. 1–256, Apr. 3, 1961–Mar. 4, 1962), against the OCR and the page images (PDF N+25). Nothing merged or committed.
 
@@ -102,3 +102,17 @@ Opus audit of patch `2026-11-19-b15b-wengao-16` (printed pp. 1–256, Apr. 3, 19
 
 **After the audit.** 99 new entries (94 − 3 + 6 split + 2 restored), 31 cites, 7 variants, 4 checks, 13 map rows; `./bib patch-check` 0 errors (the same-day warnings only). Fit to merge, with the by-work move and the cards in works/j.yaml and z.yaml.
 <!-- vol16-audit:end -->
+
+<!-- vol15-17-audit:start -->
+## Audit of vols. 15 and 17, Nov. 18 (Opus)
+
+**Duplicates.** Each add compared with every calendar entry of its day and the days either side (for a month- or year-dated add, the month), by script and by reading. Vol. 15: sample of 25 (every third add), one duplicate (4%): `cal.1960-04.china-leadership-7` (Mao revises Deng Xiaoping's draft of Apr. 24 on publicizing the "four transformations") is the Mao chronology's `cal.1960-04.china-leadership-4`; the other 48 swept as well, none more. The add became a cite (units A–B, with a parenthetical: the volume prints the revised wording, not the "eight or nine" the chronology says it replaced), a map, the two note items on "To check", and a Check on the day (after Apr. 24 by the draft's date; Nie's paper his "views" of Apr. 19, not a letter); its ledger claim dropped. Vol. 17: sample of 25 (every second add), none; the other 24 swept, none.
+
+**Dates against the image.** Vol. 17, 26 adds on pages the reader saw only in the OCR (printed 36, 39, 41, 43, 56, 58, 75, 78, 80, 82, 87, 93, 104, 105, 109, 113, 117, 120 (two letters), 125, 131, 133, 134, 141, 150, 154, 159): every date right (0 of 26); one addressee or name wrong, one hour wrong, one title mistranslated, one loose date misplaced (4 of 26 with a fault, all fixed): Dec. 11, 1963, the Metallurgy Ministry's report is Wang Heshou's (王鹤寿), not "Wang Zhenshou" (the entry, its witness row, renamed `x.1963-12-09.wang-heshou-report-metallurgy-dec-9`, and the XVII edge); Dec. 6, Mao wrote "6th, five o'clock" (五时), a.m. or p.m. not said, not "5 p.m."; Dec. 5, 小小寰球 is "Little Globe", not "Tiny Fly"; Sept., the added paragraph is of the first ten days (上旬): `when: Sept., early`, `at: before 1963-09-01` (was `before 1963-09-11`). The Nov. 2 and Nov. 8 days are below the crops and were read in the OCR. Vol. 15: four further pages on the image (printed 31, 121, 172, 209), all right.
+
+**Made public.** The 2023 edition does not mark its added texts: the publisher's note (XV, front matter, dated Dec. 2023) says only that some texts were added, the notes revised and a few dates corrected. The first edition's card gives vol. 9 (Jan. 1960–Dec. 1961) and vol. 10 (1962–63) as of 1996. Settled, on the rule given for this audit: an item the volume prints as a text is "Made public: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996)." (vol. 15, 54 entries) or "vol. 10 (1996)." (vol. 17, 28 entries), the Check dropped. An act known only from an editors' note (the notes were revised and some added in 2023) keeps "Made public: 2023" with "Check: whether the notes of the first edition (vol. 9/10, 1996) give it" (vol. 15: the Center's issues of Jan. 30, Feb. 20, Mar. 8, Mar. 25, Mar. 26, Apr. 11, Apr. 22; the Foreign Ministry's telegram of Mar. 24; Chen Yi's note of Mar. 30; Mao's letter of Mar. 1; the marriage of Apr. 1960; vol. 17: Zhou Enlai's report of Aug. 9, below). The two poems of vol. 17 (Eighth Company, Aug. 1; Luo Ronghuan, Dec.) are now `vis:only:prc`, "Made public: by 1996 (vol. 10)", their "Check: when first printed" kept (Mao's letter of Dec. 5 has the Eighth Company poem printed for inner-Party circulation only, XVII, 120). Nov. 17, the Hebei inscription stays public; the letter to Lin Tie is `vis:only:prc@B-C`, made public 1996. The telegrams and talks printed from *Renmin ribao* have no "Made public". Residual doubt: an item new in 2023 would be dated 1996 wrongly; the first edition's vols. 9–10 would settle it.
+
+**Other fixes.** One event an entry: vol. 17, Aug. 9, Zhou Enlai's report to Mao proposing the flood comparison figures not be printed yet (XVII, 35 n.2) split from Mao's comment into `cal.1963-08-09.china-leadership-7` (claimed in the ledger). Forward links removed (a calendar note points back): vol. 15, Mar. 1 (to Mar. 2); vol. 17, Aug. 8 (to Aug. 9), Oct.–Nov. (to Nov. 14), Nov. 8 (to Nov. 11), Nov. 17 (to Nov. 18), Dec. 11 (to Dec. 16). Units set on six vol. 15 cites that had none (Feb. 13: B; Feb. 27: A; Mar. 5, two: B; Mar. 30: A–B; Apr., Kuusinen: A–C). En dashes in ranges in vol. 15's notes (ten places). Left as they stand: the Nov. 8 Zhou Yang entry (the comment of Nov. 8 and the undated November revisions of one draft, with its Check); the Oct.–Nov. "Later Ten Points" revisions (the volume dates them so); the Nov. 24 dos Santos meeting with no visibility ruling (its Check stands). The vol. 17 book-check above still names "Wang Zhenshou" among persons: read Wang Heshou.
+
+**After the audit.** Vol. 15: 72 new entries, 33 cites, 4 variants, 5 checks; vol. 17: 50 new entries, 27 cites, 5 variants. `./bib patch-check` 0 errors on each (the same-day and duplicate warnings only). Both fit to merge.
+<!-- vol15-17-audit:end -->

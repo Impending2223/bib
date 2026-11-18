@@ -254,7 +254,7 @@ Every add, cite, variant and check read against the OCR of pp. 491–630 in cont
 
 **Doubts.** (1) The reading "one event" for the two Standing Committees of Mar. 26–27 (Wu gives the matters together) and for the Mar. 6–7 evenings (the calendar's own span). (2) `at` conventions for the loose dates (CLAUDE.md, loose.py: early before the 1st, mid before the 11th, late before the 21st). (3) Deng's Hanoi visit: the Mao chronology's Feb. 23 has Kang Sheng in Peking, so the visit lies Feb. 24–27 if Kang was in it. (4) The Fourth and Fifth commentaries' publication kept as units of the Mao chronology's entries (the Run 3 ruling for editorials), against this run's brief that each publication be its own entry where the calendar lacks it: the First, Third, Sixth and Seventh are new entries. (5) Wu's Nov. 29 letter's date and the Dec. 3 handing: the calendar's Dec. 3 entry cites Wu for the contents.
 
-## Audit of run 4, Nov. 19 (Opus; patch `inbox/2026-11-19-b15b-wulengxi-4.yaml`)
+## Audit of run 4, Nov. 18 (Opus; patch `inbox/2026-11-19-b15b-wulengxi-4.yaml`)
 
 Every add, cite, variant and check read against the OCR of pp. 637–776 in context (the summaries of the commentaries and of Suslov's report read for what the entries claim). Every date, hour and number of the entries read against the page image (110 dpi, the lines holding them cropped; deleted after): PDF 646–647, 653, 658, 660, 662–665, 671, 674 (200 dpi, the names), 678, 681, 683, 685, 689, 697–698, 701–703, 705, 707, 712–715, 717, 720–721, 731, 735, 742, 747–749, 752–753, 756, 760, 762, 772–773, 777–780. Folio (PDF − 8) holds on every page seen.
 
@@ -306,7 +306,7 @@ Every add, cite, variant and check read against the OCR of pp. 637–776 in cont
 
 **Doubts.** (1) The June 30 and "end of June" meetings of the writers with Deng may be one day. (2) The July 15 Standing Committee at Mao's home, new, against the Mao chronology's Yinian Tang meeting that afternoon: a Check, not merged. (3) Oct. 14 night call before the Soviet announcement (Oct. 16): Wu's own order. (4) Loose-dated entries' `at` conventions (June late, July early, Sept. early, Feb. 1966 early). (5) The Nov. 8 lunch: the Soviet record has the Chinese residence before dinner.
 
-## Audit of run 5, Nov. 19 (Opus; patch `inbox/2026-11-19-b15b-wulengxi-5.yaml`)
+## Audit of run 5, Nov. 18 (Opus; patch `inbox/2026-11-19-b15b-wulengxi-5.yaml`)
 
 Every add, cite, variant and check read against the OCR of pp. 777–940 in context (the summaries of the Ninth, of the left parties' statements and Wu's author's note from Soviet memoirs, 888–897, read for what the entries claim). Every date the patch gives that the reader had not seen on the image read against the image (80–100 dpi; deleted after): PDF 835 (Oct. 10–12), 856–857 (Nov. 1, 3, 4), 870, 873–876, 882, 884–886 (Nov. 7 night to Nov. 14), 914 (crop), 918–919 (Nov. 28; Dec. 12, 14), 921 (Feb. 5–11, 1965), 930–931, 934–935 (Mar. 12–23, 1965), 943–944 (Mar. 5, 10, 1966). Folio (PDF − 8) holds on every page seen.
 
