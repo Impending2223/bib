@@ -234,6 +234,17 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-01-08.china
+    when: Jan. 8–Dec. 24
+    date: '1960-01-08'
+    thread: china
+    c: The Foreign Ministry spokesman, on instruction, issues the 78th to the 130th serious warnings at U.S. military aircraft and warships entering Chinese airspace and waters off Fujian, Guangdong and the Xisha Islands.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 129 (Jan. 8–Dec. 24, 1960).'
+    src:
+      c: 2f3b707e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 129: all'
+    tags: [polity:prc, polity:us]
   - id: cal.1960-01-09.elections-1960
     when: Jan. 9
     date: '1960-01-09'
@@ -563,6 +574,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-01-14.china
+    when: Jan. 14
+    date: '1960-01-14'
+    thread: china
+    also: [japan]
+    c: 'The Foreign Ministry issues a statement against the U.S.–Japanese military alliance treaty. Kishi signed it, in the name of revising the security treaty, against the will of the Japanese people and repeated warnings: a step toward new aggression and war, a revival of Japanese militarism, and Japan''s open entry into a U.S. aggressive military bloc.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 130 (Jan. 14, 1960). Names: Kishi.'
+    src:
+      c: 264e651e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 130: all'
+    tags: [polity:prc, polity:japan, polity:us, name:kishi-nobusuke]
   - id: cal.1960-01-15.china-leadership
     when: Jan. 15
     date: '1960-01-15'
@@ -684,11 +707,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, Wucheng Hall, Zhongnanhai. Zhou Enlai attends the signing of the China–German Democratic Republic treaty of trade and navigation, Heinrich Rau, Deputy Premier, heading the GDR government delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 269 (Jan. 18, 1960; 下午4时, 中南海武成殿). See [[cal.1960-01-18.china-leadership-2]]. Names: Zhou Enlai, Rau.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 269 (Jan. 18, 1960; 下午4时, 中南海武成殿); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 129 (Jan. 9–19, 1960; the visit; the treaty of trade and navigation and the 1960–62 goods agreement signed; Mao and Liu Shaoqi receive the delegation; the press communique on the visit: West German and Japanese atomic armament, backed by the United States, is against the easing of tension, and the two will oppose it; the days not given). See [[cal.1960-01-18.china-leadership-2]]. Names: Zhou Enlai, Rau.'
     src:
       c: 09f6ee8f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 269: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 129: B'
     tags: [polity:prc, polity:gdr, name:zhou-enlai, name:rau-heinrich]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-18.china-leadership-6
@@ -908,11 +932,12 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai attends the signing ceremony for the exchange of instruments of ratification of the China–Indonesia treaty on dual nationality.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 20, 1960). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 20, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 130 (Jan. 20, 1960; the instruments of ratification of the 1955 dual-nationality treaty exchanged at Peking; the treaty and its implementing exchange of notes in force). Names: Zhou Enlai.'
     src:
       c: d5a61234
       rows:
         - 'w.zhou-enlai-waijiao-huodong 270: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 130: B'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai]
   - id: cal.1960-01-21.elections-1960
     when: Jan. 21
@@ -974,6 +999,18 @@ entries:
     c: 'Zhou Enlai on a paper on aid to Vietnam: the Foreign Trade Ministry to list the aid projects and sums and give them through the economic representative in Hanoi, so that the Vietnamese know where they stand and do not keep asking for more projects. Overspending on aid projects to be met by added credits when accounts are settled in 1962. Military aid is a gift, not to be mixed with credits.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 281 (Jan. 21, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-01-21.china
+    when: Jan. 21
+    date: '1960-01-21'
+    thread: china
+    also: [soviet-union]
+    c: 'The enlarged session of the National People''s Congress Standing Committee adopts a resolution supporting the Soviet Supreme Soviet''s disarmament proposal. Chen Yi, Vice-Premier and Foreign Minister, speaks: Soviet disarmament measures help ease tension; the U.S. "peace" pose covers aggression and war; an international disarmament agreement without China''s formal participation and its representative''s signature cannot bind China.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 130 (Jan. 21, 1960). Names: Chen Yi.'
+    src:
+      c: 606994cf
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 130: all'
+    tags: [polity:prc, polity:ussr, polity:us, name:chen-yi]
   - id: cal.1960-01-22.voting-rights
     when: Jan. 22
     date: '1960-01-22'
@@ -1201,12 +1238,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai talks with Ne Win on the boundary. Proposals: the northern undefined sector by the watershed, except Pianma, Gulang, Gangfang and the Dulong valley, then surveyed and marked; the three areas returned to China, their size for a joint commission; the Namwan leased area left to Burma in exchange for the Panghung and Panlao tribes'' lands west of the 1941 line to China; a boundary treaty and a friendship treaty to be drafted by the commission. On Jan. 26, a second talk: the exchange of notes rewritten as an agreement, a friendship treaty drafted.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 281–82 (Jan. 25–26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 25, 1960; 上午10时15分, 中南海武成殿); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 上午10时, 中南海武成殿). Made public: 1997. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 281–82 (Jan. 25–26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 25, 1960; 上午10时15分, 中南海武成殿); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 上午10时, 中南海武成殿); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 131 (Jan. 24–28, 1960; Ne Win''s visit on invitation; Zhou''s talks on the matters of common concern, the friendship and boundary questions). Made public: 1997. Names: Zhou Enlai, Ne Win.'
     src:
       c: 40688fbd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 281–82: ?'
         - 'w.zhou-enlai-waijiao-huodong 270: F'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 131: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win, vis:only:prc+burma]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-25.china-leadership-2
@@ -1217,6 +1255,18 @@ entries:
     c: 'Zhou Enlai receives the Panchen Lama on his constructive views for the work in Tibet: mutual trust, no listening to troublemakers, a long common work to build a democratic and socialist Tibet; to draw up an agreement for it. The Panchen Lama approves.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 282 (Jan. 25, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-01-25.china
+    when: Jan. 25
+    date: '1960-01-25'
+    thread: china
+    also: [indonesia]
+    c: At Jakarta the China–Indonesia joint committee for carrying out the dual-nationality treaty is set up. Huang Zhen, Chinese ambassador, is the Chinese chief delegate; the Indonesian chief delegate is the head of the Foreign Ministry's legal department.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 130 (Jan. 25, 1960). Names: Huang Zhen. Check: the Indonesian delegate is named 苏山多·蒂托普罗佐 in the book (Soesanto Tirtoprodjo?); the Latin form is back-converted.'
+    src:
+      c: c2108b66
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 130: all'
+    tags: [polity:prc, polity:indonesia, name:huang-chen]
   - id: cal.1960-01-26.cuba
     when: Jan. 26
     date: '1960-01-26'
@@ -1377,12 +1427,13 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou Enlai receives Taraji, the new UAR Ambassador, and his wife: past differences must not touch the two states'' relations; shared colonial legacy of poverty and backwardness; economic independence after political, by long struggle and Asian–African mutual support, the Bandung spirit. The Israeli–Arab conflict and Arab quarrels are made and used by imperialism; China wishes Arab unity.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 284 (Jan. 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 27, 1960; 晚上, 北京饭店). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 284 (Jan. 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 27, 1960; 晚上, 北京饭店); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 131 (Jan. 27, 1960; Zhou receives the new UAR ambassador; the differences not to touch relations, the colonial legacy, Bandung, Arab unity). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 67dcc793
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 284: ?'
         - 'w.zhou-enlai-waijiao-huodong 270: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 131: A-C, E'
     tags: [polity:prc, polity:uar, name:zhou-enlai, vis:only:prc+uar]
     time_range:
       - 1960-01-27T11:00Z
@@ -1512,12 +1563,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai accompanies Liu Shaoqi, Chairman, in receiving Ne Win.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 476 (Jan. 28, 1960; Liu, with Zhou Enlai and others, meets Ne Win). Names: Zhou Enlai, Liu Shaoqi, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 476 (Jan. 28, 1960; Liu, with Zhou Enlai and others, meets Ne Win); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 131 (Jan. 24–28, 1960; Liu receives Ne Win, the day not given). Names: Zhou Enlai, Liu Shaoqi, Ne Win.'
     src:
       c: 4f9f702c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 270: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 476: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 131: B'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:liu-shaoqi, name:ne-win]
     time_range:
       - 1960-01-28T04:00Z
@@ -1531,12 +1583,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai and Ne Win sign, for their governments, the China–Burma boundary agreement and the China–Burma treaty of friendship and mutual nonaggression.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 下午6时50分); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 476 (Jan. 28, 1960; Liu, with Zhou Enlai and others, attends the signing of the boundary agreement and the treaty of friendship and mutual nonaggression). See [[cal.1960-01-25.china-leadership]]. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 下午6时50分); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 476 (Jan. 28, 1960; Liu, with Zhou Enlai and others, attends the signing of the boundary agreement and the treaty of friendship and mutual nonaggression); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 131 (Jan. 24–28, 1960; the treaty of friendship and mutual non-aggression and the boundary agreement signed, a communique issued). See [[cal.1960-01-25.china-leadership]]. Names: Zhou Enlai, Ne Win.'
     src:
       c: dcc30891
       rows:
         - 'w.zhou-enlai-waijiao-huodong 270: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 476: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 131: B'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-29.state-and-city-finance-ky

@@ -80,6 +80,18 @@ entries:
       - 1961-07-02T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-07-02.china
+    when: July 2
+    date: '1961-07-02'
+    thread: china
+    also: [soviet-union]
+    c: Ulanhu, an alternate member of the Politburo and Vice-Premier, leads a Chinese Party and government delegation to Mongolia (to July 16), for the 14th Congress of the Mongolian People's Revolutionary Party and the 40th anniversary of the Mongolian People's Revolution.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 199 (July 2–16, 1961).'
+    src:
+      c: a2bd934e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 199: all'
+    tags: [polity:prc, polity:mongolia]
   - id: cal.1961-07-03.berlin-and-vienna
     when: July 3
     date: '1961-07-03'
@@ -147,6 +159,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 315: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souphanouvong, vis:only:prc+laos+pathet-lao]
     time_zone: Asia/Shanghai
+  - id: cal.1961-07-03.china-leadership-3
+    when: July 3
+    date: '1961-07-03'
+    thread: china-leadership
+    also: [laos]
+    c: 'Geneva. Chen Yi, at the plenary meeting of the enlarged conference on Laos, proposes ending the general debate and passing to real negotiation in the spirit of "seeking common ground while keeping differences": first agree on a clear international agreement to respect Laos''s independence and neutrality, then discuss supervision effectively under better conditions. The Soviet, Polish and Vietnamese delegations back the Chinese delegation''s proposal.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 199 (July 3, 1961). See [[cal.1961-06-12.china-leadership-6]]. Names: Chen Yi.'
+    src:
+      c: bc93ca27
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 199: all'
+    tags: [polity:prc, polity:laos, polity:ussr, polity:poland, polity:drv, name:chen-yi]
   - id: cal.1961-07-04.vietnam-hanoi
     when: July 4
     date: '1961-07-04'
@@ -754,7 +778,7 @@ entries:
     thread: china-leadership
     also: [korea, china]
     c: Zhou Enlai, July 10–15, receives the DPRK Party and government delegation under Kim Il Sung. On the 10th he meets and talks with it with Liu Shaoqi; on the 11th, returning Kim's call, says on building that heavy industry first in China's recovery was needed, for without that base farming cannot be helped; the same day for China he signs the treaty of friendship, cooperation and mutual assistance.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 423 (July 10, 1961); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 上午9时, 机场); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚6时45分, 人民大会堂, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 上午11时40分, 钓鱼台宾馆18号楼, 回访并共进午餐); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 下午, 签字); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (the treaty of friendship, cooperation and mutual assistance with the DPRK signed in July); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528–529 (July 10–11, 1961; July 10 Liu, with Zhou Enlai and Deng Xiaoping, talks with Kim Il Sung, chairman of the Korean Workers'' Party Central Committee and the DPRK''s premier; July 11 Liu attends the signing of the Sino-Korean treaty of friendship, cooperation and mutual assistance). Made public: 1997. Names: Zhou Enlai, Kim Il Sung, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 423 (July 10, 1961); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 上午9时, 机场); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚6时45分, 人民大会堂, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 上午11时40分, 钓鱼台宾馆18号楼, 回访并共进午餐); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 下午, 签字); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (the treaty of friendship, cooperation and mutual assistance with the DPRK signed in July); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528–529 (July 10–11, 1961; July 10 Liu, with Zhou Enlai and Deng Xiaoping, talks with Kim Il Sung, chairman of the Korean Workers'' Party Central Committee and the DPRK''s premier; July 11 Liu attends the signing of the Sino-Korean treaty of friendship, cooperation and mutual assistance); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 10–15, 1961; Kim Il Sung, Premier, leads the Party and government delegation of the Korean Workers'' Party and the Cabinet; Liu leads the Chinese Party and government side in the talks; the joint communique); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 11, 1961; the treaty of friendship, cooperation and mutual assistance signed: the parties to take every measure jointly against aggression on either; if either is attacked and at war, the other at once to give military and other aid with all its strength). Made public: 1997. Names: Zhou Enlai, Kim Il Sung, Liu Shaoqi.'
     src:
       c: c311dbce
       rows:
@@ -762,6 +786,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 316: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 453: D'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 528–529: B'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: D'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung, name:liu-shaoqi, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-10.china-leadership-3
@@ -787,11 +812,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Peking. Zhou Enlai, with Liu Shaoqi, receives the Tunisian friendship delegation headed by Masmoudi, Minister of Information and Tourism.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚上). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 9–21, 1961; Masmoudi, Minister of Information and Tourism, leads the Tunisian friendship delegation; Liu and Zhou receive it). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 20144ce4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 316: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: B'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1961-07-10T11:00Z
@@ -1141,13 +1167,14 @@ entries:
     thread: china-leadership
     also: [korea, soviet-union, testing]
     c: Hangzhou, the Wang Villa. Mao receives Kim Il Sung, at lunch; Zhou Enlai, Chen Yi and Jiang Hua present. Will war come? Both sides fear, imperialism more; it attacks only if the camp splits; Khrushchev "much improved." Tests cannot really stop; conventional forces not to be cut; nuclear weapons perhaps banned, like gas; the next war conventional. China is making the bomb, the year uncertain; it would need tens, hundreds.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 13, 1961; [[w.zhou-enlai-nianpu-1949]], II, 424, July 13, 1961 (Zhou present at Mao''s reception of Kim Il Sung); [[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 上午10时30分, 陪同毛泽东主席会见并共进午餐). Made public: 2013. Names: Mao Zedong, Kim Il Sung, Zhou Enlai, Chen Yi, Jiang Hua, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 13, 1961; [[w.zhou-enlai-nianpu-1949]], II, 424, July 13, 1961 (Zhou present at Mao''s reception of Kim Il Sung); [[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 上午10时30分, 陪同毛泽东主席会见并共进午餐); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 10–15, 1961; Mao receives Kim Il Sung and the delegation at Hangzhou, the day not given here). Made public: 2013. Names: Mao Zedong, Kim Il Sung, Zhou Enlai, Chen Yi, Jiang Hua, Khrushchev.'
     src:
       c: c0dc1a43
       rows:
         - 'w.zedong-mao-zedong-nianpu V, July 13, 1961: all'
         - 'w.zhou-enlai-nianpu-1949 II, 424, July 13, 1961: B-C'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: B'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:zhou-enlai, name:chen-yi, name:khrushchev-nikita-s, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-13.china-leadership-2
@@ -2251,6 +2278,18 @@ entries:
     c: Xiaoxing'anling. Liu Shaoqi convenes a forum of heads of part of the Dailing forestry system. All work follows the mass line and hears opinions, even one-sided ones, which may have a one-sided reason; less commandism; not everything is to be an instruction, and there is to be a lively political situation. He then leaves for the Fenglin forestry bureau (now Wuying), hearing on the way the Yichun city committee on forestry.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 532 (July 23, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-23.china-leadership-3
+    when: July 23
+    date: '1961-07-23'
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: 'Chen Yi, receiving Ahmed Mestiri, Tunisia''s ambassador to the Soviet Union, on a visit to China: China backs the Tunisian people''s demand for the return of the Bizerte military base and their just struggle and stern position for the defense of their independence and sovereignty.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 23, 1961). Made public: 2001. Names: Chen Yi, Mestiri. Check: the ambassador is 艾哈默德·迈斯提里 in the book; the base is the one at Bizerta.'
+    src:
+      c: d9a537ce
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: all'
+    tags: [polity:prc, polity:tunisia, polity:fr, name:chen-yi, vis:only:prc+tunisia, name:mestiri-ahmed]
   - id: cal.1961-07-24.crime-and-hijacking
     when: July 24
     date: '1961-07-24'
@@ -2469,6 +2508,30 @@ entries:
     c: 'Yichun. Liu Shaoqi inspects the Yichun timber processing plant, and at a meeting of the city''s forestry cadres says: use the forest resources fully, meet the needs of the state and every side as far as can be, and tie resources to needs; that is the work, from the Ministry of Forestry down to the forest farm. Wages and prices are to be adjusted together: buying prices high for small logs (for the labor) and cheap for big (labor saved); selling prices by grade, dearer for big logs; wages to follow buying prices. Good rules are to be restored; felling and regeneration are to be joined, artificial regeneration by contract to the farms, work sections, groups and families.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 533 (July 25, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-25.china-leadership-4
+    when: July 25
+    date: '1961-07-25'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Mao, at the request of Cuba''s *Revolución*, sends a message greeting the Cuban people on the eighth anniversary of the armed uprising of July 26: in resisting U.S. imperialist aggression, defending national independence and building their own country, the Cuban people will always have the full support of China''s 650 million.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200–201 (July 25, 1961). Names: Mao Zedong.'
+    src:
+      c: 46c97ad2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200–201: all'
+    tags: [polity:prc, polity:cuba, polity:us, name:mao-zedong]
+  - id: cal.1961-07-25.china
+    when: July 25
+    date: '1961-07-25'
+    thread: china
+    also: [cuba]
+    c: Liu Shaoqi and Zhou Enlai cable President Dorticós and Prime Minister Castro of Cuba warm congratulations on the eighth anniversary of the Cuban people's armed uprising.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (July 25, 1961). See [[cal.1961-07-25.china-leadership-4]]. Names: Liu Shaoqi, Zhou Enlai, Dorticós, Castro.'
+    src:
+      c: 760e45b2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 201: all'
+    tags: [polity:prc, polity:cuba, name:liu-shaoqi, name:zhou-enlai, name:dorticos-torrado-osvaldo, name:castro-fidel]
   - id: cal.1961-07-26.berlin-and-vienna
     when: July 26–27
     date: '1961-07-26'

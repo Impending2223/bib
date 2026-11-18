@@ -585,12 +585,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, trade]
     c: 'Zhou Enlai receives the Vietnamese government''s economic and trade delegation under Vice-Premier Nguyễn Duy Trinh: first-five-year-plan targets should be set low enough to be exceeded each year, as Stalin said, but not very low, with a yearly check so they may be raised after the second and third years. The Leap''s gains great, with faults, such as drawing too much rural labor to the cities; in Asian and African states industry and farming should go together, on two legs; the village feeds the town and is its market.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 5, 1960; 晚6时, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 5, 1960; 晚6时, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; Nguyễn Duy Trinh (阮维桢), Vice-Premier, leads the Vietnamese government''s economic and trade delegation (the editors'' note: it was in the Soviet Union Dec. 11–Jan. 20); Zhou receives it). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 5c40d7b9
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 376: ?'
         - 'w.zhou-enlai-waijiao-huodong 295: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-05.soviet-union
@@ -1022,6 +1023,18 @@ entries:
       - 1960-12-08T16:00Z
     time_band: night
     time_zone: Asia/Irkutsk
+  - id: cal.1960-12-08.china
+    when: Dec. 8
+    date: '1960-12-08'
+    thread: china
+    also: [congo]
+    c: 'The Chinese government issues a statement on the kidnapping of Lumumba, the Congolese Prime Minister, by the Mobutu clique: it demands the immediate restoration of the Congolese central government headed by Lumumba as legitimate, and backs the Soviet government''s statement on the Congo and the Congolese people''s just struggle for national independence.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174–175 (Dec. 8, 1960). Names: Lumumba, Mobutu.'
+    src:
+      c: dab30682
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174–175: all'
+    tags: [polity:prc, polity:congo, name:lumumba-patrice, name:mobutu-joseph-d]
   - id: cal.1960-12-09.middle-east-dimona
     when: Dec. 9
     date: '1960-12-09'
@@ -1388,6 +1401,17 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 295: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-12.china
+    when: Dec. 12
+    date: '1960-12-12'
+    thread: china
+    c: The China–Cambodia Friendship Association is founded at Peking.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 12, 1960).'
+    src:
+      c: f5ec5938
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: all'
+    tags: [polity:prc, polity:cambodia]
   - id: cal.1960-12-13.transition-and-staff-cabinet
     when: Dec. 13
     date: '1960-12-13'
@@ -1518,8 +1542,25 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhou Enlai answers Ferhat Abbas's cable, protesting French atrocities in Algeria after the mass anti-French demonstrations in the French-held areas when de Gaulle came to promote his plebiscite.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 13, 1960). Made public: 1997. Names: Zhou Enlai, Ferhat Abbas.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 13, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 13, 1960; Zhou''s reply by cable to the appeal of Ferhat Abbas, protesting the French colonialists'' mass killing of Algerians in Algiers and other cities). Made public: 1997. Names: Zhou Enlai, Ferhat Abbas.'
+    src:
+      c: 143b1fdd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 379: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: A'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:abbas-ferhat, vis:only:prc+algeria]
+  - id: cal.1960-12-13.china-leadership-3
+    when: Dec. 13
+    date: '1960-12-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Chen Yi, receiving the head of the international department of the Polish Workers'' News Agency, on West Germany''s demand to revise Poland''s western border: the Chinese government and people have always stood, stand and will stand on Poland''s side, whatever the circumstances.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 13, 1960). Names: Chen Yi. Check: the Polish official is 希贝利夫卡 in the book.'
+    src:
+      c: 6d79df26
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: all'
+    tags: [polity:prc, polity:poland, polity:frg, name:chen-yi]
   - id: cal.1960-12-14.africa
     when: Dec. 14
     date: '1960-12-14'
@@ -1589,6 +1630,54 @@ entries:
     thread: congo-lumumba
     c: Léopoldville. QJ/WIN reports to the station that WI/ROGUE, another of its agents, has offered him "three hundred dollars per month to participate in intel net and be member 'execution squad,'" and, when he said he was not interested, "there would be bonuses for special jobs."
     n: '[[w.sen-church-alleged-assassination-plots]], 46 (the station''s cable of Dec. 17, quoted). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, Leopoldville to Director, Dec. 17, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 46–47). See [[cal.1960-12-02.congo-lumumba]].'
+  - id: cal.1960-12-14.china
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china
+    also: [laos]
+    c: 'The Chinese government issues a statement on Laos: large-scale civil war has broken out and the situation is grave. It was caused by the crude interference of the U.S. and Thai authorities. China, a participant in the Geneva Conference of 1954 and a guarantor of the Geneva agreement and a close neighbor of Laos, firmly backs Laos''s policy of peace, neutrality, independence and national unity and the just struggle of its people against U.S. interference and aggression.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 14, 1960).'
+    src:
+      c: 59901aa7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: all'
+    tags: [polity:prc, polity:laos, polity:us, polity:thailand]
+  - id: cal.1960-12-14.china-2
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china
+    also: [africa-algeria-morocco]
+    c: 'The Chinese government issues a statement backing the Algerian people''s patriotic struggle: it condemns the French colonialists'' aggression and their recent massacres of Algerians, and firmly backs the Algerian people''s just struggle against French aggression for national independence.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 14, 1960).'
+    src:
+      c: cc9ce957
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:algeria, polity:fr]
+  - id: cal.1960-12-14.china-leadership
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china-leadership
+    also: [japan]
+    c: 'Chen Yi receives the delegation of the All-Japan Farmers'' Union Federation, led by 齐木重一. Chen: the Japanese people''s great struggle against the U.S.–Japan military alliance treaty has world significance; the Japanese and Chinese peoples are brothers, with no reason for hostility, and should cooperate closely in the struggle against the United States.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 14, 1960). Made public: 2001. Names: Chen Yi. Check: the delegation''s head is 齐木重一 in the book; no Latin form is settled.'
+    src:
+      c: 59840b00
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:japan, polity:us, name:chen-yi, vis:only:prc+japan]
+  - id: cal.1960-12-14.china-3
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china
+    also: [africa]
+    c: China and Somalia establish diplomatic relations. Shermarke, the Somali Prime Minister, cables Zhou Enlai that the Somali Republic agrees to the Chinese government's proposal and hopes that ambassador-level representatives will be exchanged soon.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 14, 1960). See [[cal.1960-11-28.china]]. Names: Zhou Enlai.'
+    src:
+      c: 54c49e9f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai, name:abdirascid-ali-shermarke]
   - id: cal.1960-12-15.transition-and-staff-cabinet
     when: Dec. 15
     date: '1960-12-15'
@@ -1655,13 +1744,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, Zhou Enlai, Zhu De and Dong Biwu meet Prince Sihanouk, on a state visit to China.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 15, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 15, 1960; 上午, 北京车站); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 15, 1960; Liu meets Sihanouk, head of state, with Penn Nouth, vice-chairman of the Supreme Council of the Throne and the prime minister, and Nhiek Tioulong, first deputy prime minister). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 15, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 15, 1960; 上午, 北京车站); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 15, 1960; Liu meets Sihanouk, head of state, with Penn Nouth, vice-chairman of the Supreme Council of the Throne and the prime minister, and Nhiek Tioulong, first deputy prime minister); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176–177 (Dec. 15–26, 1960; Prince Sihanouk, head of state, visits on the invitation of Liu and Zhou; Mao, Liu, Zhu De and Zhou receive him and his party). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Sihanouk.'
     src:
       c: cac69f82
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 379: ?'
         - 'w.zhou-enlai-waijiao-huodong 295: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176–177: A'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:norodom-sihanouk]
     time_range:
       - 1960-12-14T22:00Z
@@ -1685,6 +1775,18 @@ entries:
       - 1960-12-15T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-15.china
+    when: Dec. 15
+    date: '1960-12-15'
+    thread: china
+    also: [indonesia]
+    c: Jakarta. Huang Zhen, the Chinese chief delegate, and Soesanto, the Indonesian chief delegate, of the joint committee on dual nationality sign the measures to carry out the treaty on dual nationality.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177 (Dec. 15, 1960). See [[cal.1960-09-08.china]]. Names: Huang Zhen. Check: the Indonesian delegate is 苏山多 in the book.'
+    src:
+      c: bf8a9636
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177: all'
+    tags: [polity:prc, polity:indonesia, name:huang-chen]
   - id: cal.1960-12-16.cuba
     when: Dec. 16
     date: '1960-12-16'
@@ -1857,6 +1959,18 @@ entries:
       - 1960-12-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-16.china
+    when: Dec. 16
+    date: '1960-12-16'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Shermarke, the Prime Minister, and Issa, the Foreign Minister, of Somalia, for the Chinese government and people warmly congratulating the two countries on the formal establishment of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 16, 1960). See [[cal.1960-12-14.china-3]]. Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: a0bb0019
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai, name:chen-yi, name:abdirascid-ali-shermarke]
   - id: cal.1960-12-17.transition-and-staff-cabinet
     when: Dec. 17
     date: '1960-12-17'
@@ -1930,7 +2044,12 @@ entries:
     thread: china-leadership
     also: [congo, china]
     c: 'Zhou Enlai answers Gizenga, Deputy Premier, on his cable of the 13th: China continues to support the legitimate Congo government headed by Premier Lumumba and the Congolese people, and firmly opposes American imperialist aggression and interference in the Congo.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 17, 1960). Made public: 1997. Names: Zhou Enlai, Gizenga, Lumumba.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 17, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177 (Dec. 17, 1960; Zhou''s cable reply to Deputy Premier Gizenga: China will go on backing the legitimate Congolese government of Lumumba and Gizenga, the anti-colonial Congolese people, and oppose U.S. aggression and interference). Made public: 1997. Names: Zhou Enlai, Gizenga, Lumumba.'
+    src:
+      c: 44cce0bf
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177: A'
     tags: [polity:prc, polity:congo, name:zhou-enlai, name:gizenga-antoine, name:lumumba-patrice, vis:only:prc+congo]
   - id: cal.1960-12-17.china-leadership-6
     when: Dec. 17
@@ -2034,13 +2153,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the signing of the joint statement by Liu Shaoqi and Sihanouk, and with Pho Proeung, Prime Minister of Cambodia, signs for their governments the China–Cambodia treaty of friendship and mutual nonaggression.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午3时50分); [[w.lengxi-shinian-lunzhan-1956-1966]], 452–453 (the treaty of friendship and mutual non-aggression with Cambodia, "in December 1960", on the five principles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the signing and signs the joint statement). Names: Zhou Enlai, Liu Shaoqi, Sihanouk, Pho Proeung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午3时50分); [[w.lengxi-shinian-lunzhan-1956-1966]], 452–453 (the treaty of friendship and mutual non-aggression with Cambodia, "in December 1960", on the five principles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the signing and signs the joint statement); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177 (Dec. 15–26, 1960; the joint statement signed by Liu and Sihanouk (China respects Cambodia''s peace and neutrality; Cambodia backs the restoration of China''s U.N. seat); the treaty of friendship and mutual non-aggression signed by Zhou and Pho Proeung; Chen Yi and First Deputy Premier Nhiek Tioulong sign the protocol on economic and technical aid, a supplementary protocol to the aid agreement of June 21, 1956, an air-transport agreement and notes on Chinese railway and farm experts). Names: Zhou Enlai, Liu Shaoqi, Sihanouk, Pho Proeung.'
     src:
       c: 443c24ab
       rows:
         - 'w.zhou-enlai-waijiao-huodong 296: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 452–453: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177: B'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk, name:pho-proeung]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-19.china-leadership-4
@@ -2083,6 +2203,18 @@ entries:
     c: Liu Shaoqi talks with Prince Norodom Sihanouk, Cambodia's head of state.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960). Names: Liu Shaoqi, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+  - id: cal.1960-12-19.china
+    when: Dec. 19
+    date: '1960-12-19'
+    thread: china
+    also: [laos]
+    c: 'The Chinese government again issues a statement on Laos: the U.S.-backed rebel clique''s large-scale civil war gravely threatens peace in Asia and the world and China''s security. All peace-loving states and peoples should oppose and stop this fanning of the flames. China backs the Vietnamese government''s proposal to convene the Geneva conference of the states concerned to stop U.S. aggression.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177–178 (Dec. 19, 1960). See [[cal.1960-12-14.china]].'
+    src:
+      c: 18c082aa
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177–178: all'
+    tags: [polity:prc, polity:laos, polity:drv, polity:us]
   - id: cal.1960-12-20.vietnam
     when: Dec. 20
     date: '1960-12-20'
@@ -2520,6 +2652,18 @@ entries:
       - 1960-12-24T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-24.china-leadership-6
+    when: Dec. 24
+    date: '1960-12-24'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Mao receives a Cuban women''s delegation and an Ecuadorian cultural delegation. Mao: war and peace are to be told apart, and so are local wars. A war of people''s revolution we back; a war launched by imperialism we oppose. Cuba''s war is the people''s, not imperialism''s. The Cubans overthrew Batista''s dictatorship and won the whole people''s support, and China stands with them. Whether the other Latin American countries take the Cuban way, and when, is for each people to decide. Cuba smashed the old state machine and set Latin America and the world an example.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 178 (Dec. 24, 1960). Made public: 2001. Names: Mao Zedong. Check: the women''s delegation is led by a Cuban named 埃伦娜·希尔 and the Ecuadorian by 奥赫内斯·巴莱德斯 in the book; whether Mao''s words were reported then.'
+    src:
+      c: 7c178278
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 178: all'
+    tags: [polity:prc, polity:cuba, polity:ecuador, name:mao-zedong, vis:only:prc+cuba+ecuador]
   - id: cal.1960-12-25.china-leadership
     when: Dec. 25
     date: '1960-12-25'
@@ -2666,6 +2810,42 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-12-28.china
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china
+    also: [cuba]
+    c: Havana. Shen Jian, China's first ambassador to Cuba, presents his credentials to President Dorticós. He reached Havana on Dec. 23.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 178 (Dec. 28, 1960). See [[cal.1960-11-26.china]]. Names: Dorticós.'
+    src:
+      c: aef2814d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 178: all'
+    tags: [polity:prc, polity:cuba, name:dorticos-torrado-osvaldo]
+  - id: cal.1960-12-28.china-2
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china
+    also: [laos]
+    c: 'Chen Yi writes to the Geneva conference''s co-chairmen, Gromyko, the Soviet Foreign Minister, and Lord Home, the British Foreign Secretary, on the grave situation in Laos: they are asked to take active and effective measures to stop the U.S. government''s wrecking of the Geneva agreement and its interference and aggression in Laos. China bears a responsibility for the security of its own country; the International Commission for Laos should resume work at once and cooperate with Souvanna Phouma''s government to restore peace.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 179 (Dec. 28, 1960). Names: Chen Yi, Gromyko, Douglas-Home, Souvanna Phouma.'
+    src:
+      c: 807f44e2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 179: all'
+    tags: [polity:prc, polity:laos, polity:ussr, polity:uk, polity:us, name:chen-yi, name:gromyko-andrei, name:souvanna-phouma, name:douglas-home-alec]
+  - id: cal.1960-12-28.china-leadership
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Chen Yi, on the publication of the measures to carry out the dual-nationality treaty by the two governments, to the Indonesian Antara news agency''s correspondent: on the five principles and by friendly talks the two sides signed in 1955 the treaty on dual nationality, and now, in a spirit of friendship and mutual accommodation, a measure to carry it out. It is fair, reasonable and workable, and will pave the way for a full settlement of the overseas Chinese question. The friendship of the two countries will grow in new ways.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 179 (Dec. 28, 1960). See [[cal.1960-12-15.china]]. Names: Chen Yi. Check: the correspondent is 苏明多 in the book.'
+    src:
+      c: e2fc83a1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 179: all'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
   - id: cal.1960-12-29.latin-america-dominican-republic
     when: Dec. 29
     date: '1960-12-29'
@@ -2693,6 +2873,18 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 24: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 24 n.15: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12-29.china-leadership-3
+    when: Dec. 29
+    date: '1960-12-29'
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Mao receives the Yemeni delegation led by Sayyid Ahmad bin Muhammad Zabara. Mao: China is building and hopes for its friends'' help; the way to help is to struggle against imperialism, and the anti-imperialist struggles of all Asia, Africa and Latin America are a great help to the socialist countries.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 179 (Dec. 29, 1960). Made public: 2001. Names: Mao Zedong. Check: the book''s 萨依德·艾哈默德·本·穆罕默德·扎巴拉; the Latin form is back-converted; whether Mao''s words were reported then.'
+    src:
+      c: 5f7bf909
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 179: all'
+    tags: [polity:prc, polity:yemen, name:mao-zedong, vis:only:prc+yemen]
   - id: cal.1960-12-30.transition-and-staff
     when: Dec. 30
     date: '1960-12-30'
@@ -2842,6 +3034,18 @@ entries:
       - 1960-12-30T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-30.china
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: china
+    also: [cuba]
+    c: Guo Moruo, Vice-Chairman of the National People's Congress Standing Committee, president of the Academy of Sciences and chairman of the Chinese Committee for Defending World Peace, leads a Chinese friendship delegation to Cuba on invitation (to Jan. 10, 1961), for the second anniversary of the revolution. President Dorticós and other Cuban leaders receive it, the day not given.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 180 (Dec. 30, 1960–Jan. 10, 1961). Names: Dorticós.'
+    src:
+      c: d4f3f1bc
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 180: all'
+    tags: [polity:prc, polity:cuba, name:dorticos-torrado-osvaldo]
   - id: cal.1960-12-31.laos
     when: Dec. 31
     date: '1960-12-31'

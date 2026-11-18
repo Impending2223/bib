@@ -151,12 +151,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, trade]
     c: Zhou Enlai receives members of a Soviet delegation, Kumykin, Deputy Minister of Foreign Trade, and Arkhipov, First Vice-Chairman of the State Committee for Foreign Economic Relations, and speaks on Sino-Soviet economic and trade relations.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 上午11时30分, 人民大会堂福建厅). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 上午11时30分, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 9–Mar. 2, 1961; the Soviet trade delegation led by Kumykin, Deputy Minister of Foreign Trade, and Arkhipov (阿希波夫), First Vice-Chairman of the State Committee for Foreign Economic Relations, visits; preliminary talks on trade with Ye Jizhuang, Minister of Foreign Trade, and Gu Zhuoxin (顾卓新) of the State Planning Commission). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 6605d18c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 394: ?'
         - 'w.zhou-enlai-waijiao-huodong 304: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-01.china-leadership-4
@@ -237,6 +238,18 @@ entries:
     c: 'On the notes of Mao''s talk on the people''s commune system and some policies (his remarks of Feb. 6–12 to Jiang Hua, Huo Shilian, Lin Pingjia, Tian Jiaying, Hu Qiaomu and others: communes too large cause equalitarianism and blind command; production and accounting units not to be large; a regulation on communes; production teams'' power to be raised; policy fixed), Zhou Enlai proposes printing them for those at the "Three North" conference.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 395 (Mar. 2, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-02.china
+    when: Mar. 2
+    date: '1961-03-02'
+    thread: china
+    also: [soviet-union]
+    c: 'China and the Soviet Union issue a press communique on the preliminary talks of their trade delegations: the preliminary talks on trade relations have ended in agreement, and those on economic relations will go on at Peking and be finished at Moscow.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 186 (Mar. 2, 1961). See [[cal.1961-03-01.china-leadership-3]].'
+    src:
+      c: 8a8bb050
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 186: all'
+    tags: [polity:prc, polity:ussr]
   - id: cal.1961-03-03.conservative-movement
     when: Mar. 3
     date: '1961-03-03'
@@ -757,6 +770,18 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 211 n.15b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 211 n.15c: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-07.china
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: china
+    also: [laos]
+    c: 'Hanoi. Quinim Pholsena, Acting Foreign Minister of the Laotian government, notes the Chinese ambassador to Vietnam: he proposes that China and Laos exchange economic and cultural delegations, whose task is to settle on behalf of their governments, in the country of the other, the questions both care for.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187–188 (Mar. 7, 1961). Names: Quinim Pholsena.'
+    src:
+      c: bf7dcfec
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187–188: all'
+    tags: [polity:prc, polity:laos, name:quinim-pholsena]
   - id: cal.1961-03-08.africa
     when: Mar. 8
     date: '1961-03-08'
@@ -857,6 +882,18 @@ entries:
       - 1961-03-08T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-08.china
+    when: Mar. 8
+    date: '1961-03-08'
+    thread: china
+    also: [laos]
+    c: 'Hanoi. He Wei, the Chinese ambassador to Vietnam, answers the Laotian government''s note for the Chinese government: it fully agrees to the Laotian proposal that China and Laos exchange economic and cultural delegations.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Mar. 8, 1961). See [[cal.1961-03-07.china]].'
+    src:
+      c: 38a3e431
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: all'
+    tags: [polity:prc, polity:laos]
   - id: cal.1961-03-09.laos
     when: Mar. 9
     date: '1961-03-09'
@@ -1571,13 +1608,25 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'Zhou Enlai receives Indonesia''s Ambassador, Sukarni. China''s entry to the United Nations is joined to the Taiwan question, two sides of one problem; America''s seating the Taiwan authorities there for China is laughable; as long as Taiwan''s delegate stays China cannot enter. To Sukarni''s "1961 will be the year of the People''s Republic": China is a new state, still backward; building it needs a long time.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 13, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 188 (Mar. 13, 1961; Zhou receives Sukarni (苏卡尼), the Indonesian ambassador; on China''s entry into the U.N., the trend in the Assembly is clear; the United States, which recognizes only Chiang''s "Republic of China," finds a vote harder and so tries "two Chinas," a seat on the Security Council for China and Taiwan as a separate state or as another China; China opposes every form). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 0fd5c33f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 398: ?'
         - 'w.zhou-enlai-waijiao-huodong 305: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 188: A-D'
     tags: [polity:prc, polity:indonesia, polity:un, name:zhou-enlai, vis:only:prc+indonesia]
+  - id: cal.1961-03-13.china
+    when: Mar. 13
+    date: '1961-03-13'
+    thread: china
+    c: 'The Foreign Ministry''s press spokesman issues a statement on exchanging journalists between China and the United States, rejecting the American distortion: the matter was first raised by China at the ambassadorial talks, but the United States has blocked an agreement for years. While it does not stop its hostile acts against China, other questions in Chinese–American relations will hardly be settled.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 188 (Mar. 13, 1961). See [[cal.1960-09-13.china]].'
+    src:
+      c: f81bd884
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 188: all'
+    tags: [polity:prc, polity:us]
   - id: cal.1961-03-14.vietnam-hanoi
     when: Mar. 14
     date: '1961-03-14'
@@ -2029,6 +2078,18 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.22b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 42 n.22c: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-17.china
+    when: Mar. 17
+    date: '1961-03-17'
+    thread: china
+    also: [africa]
+    c: Bamako. Lai Yali, China's first ambassador to Mali, presents his credentials to President Modibo Keita. He reached Bamako on Mar. 8.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 188 (Mar. 17, 1961). See [[cal.1960-10-27.china]]. Names: Keita. Check: the ambassador is 赖亚力 in the book.'
+    src:
+      c: 00935586
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 188: all'
+    tags: [polity:prc, polity:mali, name:keita-modibo]
   - id: cal.1961-03-18.laos
     when: Mar. 18
     date: '1961-03-18'
@@ -2935,6 +2996,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 305: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-26.china
+    when: Mar. 26
+    date: '1961-03-26'
+    thread: china
+    also: [africa]
+    c: Kobina Kesse, Ghana's first ambassador to China, presents his credentials to Dong Biwu, Vice-Chairman of the Republic. He reached Peking on Mar. 12.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 188 (Mar. 26, 1961). See [[cal.1960-09-05.china]]. Names: Dong Biwu. Check: the ambassador is 科比纳·克西 in the book; the Latin form is back-converted.'
+    src:
+      c: 7ffc1f5f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 188: all'
+    tags: [polity:prc, polity:ghana, name:dong-biwu]
   - id: cal.1961-03-27.mississippi
     when: Mar. 27
     date: '1961-03-27'
@@ -3284,6 +3357,30 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 305: all'
     tags: [polity:prc, polity:romania, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-28.china
+    when: Mar. 28
+    date: '1961-03-28'
+    thread: china
+    also: [indonesia]
+    c: 'Chen Yi, Vice-Premier and Foreign Minister, begins a visit to Indonesia on invitation (to Apr. 2). In the visit, the days not given: Sukarno receives him; Chen Yi and Subandrio, the Indonesian Foreign Minister, hold special talks on relations and urgent international questions and reach agreement.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Mar. 28–Apr. 2, 1961). See [[cal.1961-03-26.china-leadership]]; the treaty, Apr. 1: [[cal.1961-04.china-leadership-8]]. Names: Chen Yi, Sukarno, Subandrio.'
+    src:
+      c: 203ef387
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 189: all'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:sukarno, name:subandrio]
+  - id: cal.1961-03-28.china-2
+    when: Mar. 28
+    date: '1961-03-28'
+    thread: china
+    also: [africa]
+    c: The China Committee for the Promotion of International Trade, replying to a notice from the South African United Front, says that to back the South African people's just struggle the Chinese government has, since last July, broken all economic and trade relations with the South African colonial authorities.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Mar. 28, 1961). Check: the book''s 南非统一阵线, read as the South African United Front.'
+    src:
+      c: 491b1f09
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 189: all'
+    tags: [polity:prc, polity:south-africa]
   - id: cal.1961-03-29.states-and-cities
     when: Mar. 29
     date: '1961-03-29'
@@ -3381,12 +3478,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai gives a banquet for Ne Win, Chief of Staff of Burma's armed forces; in his toast, Burma's army drove the Kuomintang remnants from eleven years of occupation, a great contribution to the peace of Southeast Asia.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 29, 1961; 下午, 钓鱼台宾馆, 会见并宴请, with Deng Yingchao). Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 29, 1961; 下午, 钓鱼台宾馆, 会见并宴请, with Deng Yingchao); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Mar. 29, 1961; Zhou and Deng Yingchao give the banquet for Ne Win and his wife, who are passing through Peking on the way to the Soviet Union; Zhou''s toast hails the Burmese army''s defeat of the Chiang remnants and backs an enlarged Geneva conference for Laos and peace in Southeast Asia). Names: Zhou Enlai, Ne Win.'
     src:
       c: 3b8b22c0
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 400: ?'
         - 'w.zhou-enlai-waijiao-huodong 305: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 189: A-B'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
     time_range:
       - 1961-03-29T04:00Z
@@ -3499,12 +3597,13 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai receives Ghana''s first Ambassador to China (Kobina Kesi in the chronology''s transliteration): the chief task for Asia, Africa and Latin America''s middle zone is to drive out colonialism and win national independence; after independence not all need choose socialism, a people choosing its own system; revolution and counter-revolution cannot be exported; Africa''s awakening is irresistible; China and Asians are on Africa''s side.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 30, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 30, 1961; 下午2时30分, 中南海西花厅). Made public: 1997. Names: Zhou Enlai. Check: the Ambassador''s name, from the chronology''s transliteration.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 30, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 30, 1961; 下午2时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189–190 (Mar. 30, 1961; Zhou receives Ghana''s first ambassador (科比纳·克西); Africa is Africa''s, whites who live there are few and can unite with the rest but not rule; the task of the middle zone is to drive out colonialism and win independence, and after it a people chooses its own system; revolution cannot be exported, and neither can counter-revolution). Made public: 1997. Names: Zhou Enlai. Check: the Ambassador''s name, from the chronology''s transliteration.'
     src:
       c: 52fc0b40
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 400: ?'
         - 'w.zhou-enlai-waijiao-huodong 305: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 189–190: A-C'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, vis:only:prc+ghana]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-30.china-leadership-2

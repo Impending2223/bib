@@ -299,7 +299,12 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: 'Zhou Enlai telegraphs Fidel Castro and Cuba''s National Assembly: China''s support of the Cuban people; condemns the American-run resolution of the foreign ministers'' conference of the American states against Cuba as against the will of 200 million Latin Americans, a breach of non-intervention and self-determination, wholly illegal.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 455 (Feb. 3, 1962). Names: Zhou Enlai, Fidel Castro.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 455 (Feb. 3, 1962); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 218 (Feb. 3, 1962; Zhou''s cable to Castro and the Cuban people''s National Assembly: China''s firm support; the foreign ministers'' conference''s resolution, which the United States steered, interferes with Cuba, a rude breach of the world''s recognized principles of non-interference and self-determination, and wholly illegal). Names: Zhou Enlai, Fidel Castro.'
+    src:
+      c: '42882441'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 455: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218: A-B'
     tags: [polity:prc, polity:cuba, polity:us, name:zhou-enlai, name:castro-fidel]
   - id: cal.1962-02-03.china-leadership-3
     when: Feb. 3
@@ -314,11 +319,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador, Perera, for the 14th anniversary of Ceylon's independence.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Feb. 3, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Feb. 3, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 218 (Feb. 3, 1962; Chen Yi''s speech at the Ceylonese ambassador''s reception for Ceylon''s 14th anniversary: he condemns the United States, working through the United Nations, for arresting the Congolese nationalist leader Gizenga, and the American states'' foreign ministers'' conference for its resolutions against and interfering with Cuba, which obstruct a peaceful solution of the Laotian question). Names: Zhou Enlai.'
     src:
       c: 3bba5a32
       rows:
         - 'w.zhou-enlai-waijiao-huodong 329: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218: B'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai]
     time_range:
       - 1962-02-03T11:00Z
@@ -1023,6 +1029,18 @@ entries:
     c: Zhou Enlai at the Secretariat on the work after the Work Conference. The meeting names the Secretariat's central task as pressing streamlining and thrift.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 457 (Feb. 12, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-02-12.china-leadership-2
+    when: Feb. 12
+    date: '1962-02-12'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Peking. Chen Yi, at the capital''s mass rally backing the Second Havana Declaration: it is a call for a struggle against the United States, the banner of the Cuban and Latin American peoples fighting in unity, and a program for defending the Cuban revolution and the independence and democracy of the Latin American nations. The editors'' note: the rally of a million at Havana on Sept. 2, 1960 passed the First Havana Declaration against U.S. interference in the Cuban and Latin American revolutions; the Second National Assembly of the Cuban people on Feb. 4, 1962 passed the Second, put forward by the Cuban integrated revolutionary organizations and the revolutionary government, condemning U.S. exploitation and aggression in Latin America.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 218–219 (Feb. 12, 1962). Names: Chen Yi.'
+    src:
+      c: b22532d5
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218–219: all'
+    tags: [polity:prc, polity:cuba, polity:us, name:chen-yi]
   - id: cal.1962-02-13.specials
     when: Feb. 13
     date: '1962-02-13'
@@ -1526,11 +1544,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Nepalese Ambassador, Bahadur, for the 11th anniversary of Nepal's Democracy Day.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Feb. 18, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Feb. 18, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 219 (Feb. 18, 1962; Zhou and Chen Yi attend the Nepalese ambassador''s reception for Nepal''s Democracy Day; Chen Yi''s speech backs Nepal''s policy of independence, sovereignty, peace and neutrality). Names: Zhou Enlai.'
     src:
       c: 60bd8660
       rows:
         - 'w.zhou-enlai-waijiao-huodong 329: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 219: B'
     tags: [polity:prc, polity:nepal, name:zhou-enlai]
     time_range:
       - 1962-02-18T11:00Z
@@ -2208,6 +2227,18 @@ entries:
       - 1962-02-24T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-24.china
+    when: Feb. 24
+    date: '1962-02-24'
+    thread: china
+    also: [vietnam-hanoi]
+    c: The Foreign Ministry issues a statement fully backing the DRV government's statement of Feb. 18 and its stern stand and just demands. The United States must at once stop its armed intervention in South Vietnam and withdraw its military men and equipment. On Feb. 18 the DRV had condemned the U.S. armed intervention in South Vietnam and asked the two co-chairmen and the states concerned to take effective measures to stop it.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 219 (Feb. 24, 1962).'
+    src:
+      c: 203595b1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 219: all'
+    tags: [polity:prc, polity:drv, polity:us]
   - id: cal.1962-02-25.china-leadership
     when: Feb. 25
     date: '1962-02-25'
@@ -3111,3 +3142,14 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 218 n.48a: B-C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 218 n.48b: B-C'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-02-28.china
+    when: Feb. 28
+    date: '1962-02-28'
+    thread: china
+    c: Denmark closes its consulate general at Shanghai.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 219 (Feb. 28, 1962).'
+    src:
+      c: 8a297efe
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 219: all'
+    tags: [polity:prc, polity:denmark]
