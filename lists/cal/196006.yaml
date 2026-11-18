@@ -9,12 +9,13 @@ entries:
     time: 1960-06-01T03:15Z
     thread: china-leadership
     c: Zhou Enlai home; at 10 o'clock pays respects at the bier of Lin Boqu (died May 29), and keeps vigil. On June 2 he takes part in the capital's public memorial for Lin Boqu.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 1, 1960; 上午11时15分, 抵达北京; Zhu De, Soong Ching Ling, Deng Xiaoping, Peng Zhen and Li Xiannian at the airport). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 1, 1960; 上午11时15分, 抵达北京; Zhu De, Soong Ching Ling, Deng Xiaoping, Peng Zhen and Li Xiannian at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu presides at the public funeral of Lin Boqu). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 3a12ac7c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 324: ?'
         - 'w.zhou-enlai-waijiao-huodong 283: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: C'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-01.china-leadership-2
@@ -31,6 +32,14 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 282–83: all'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Ulaanbaatar
+  - id: cal.1960-06-01.china-leadership-3
+    when: June 1
+    date: '1960-06-01'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Liu Shaoqi attends the opening of the national conference of advanced units and workers in socialist construction in education, culture, health, sports and the press, and receives all the presidium's members.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 1, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1960-06-02.economy
     when: June 2
     date: '1960-06-02'
@@ -134,11 +143,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai accompanies Liu Shaoqi in meeting Lleshi.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 晚上). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu, with Zhu De and Zhou Enlai, receives Haxhi Lleshi, chairman of the presidium of Albania''s People''s Assembly). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 1f5270fa
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: A'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1960-06-02T11:00Z
@@ -240,11 +250,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking. Deng Xiaoping, Liu Shaoqi and Zhou Enlai attend the Central Committee's symposium with the heads of the communist and workers' parties among the delegations to the World Federation of Trade Unions' council. Liu Ningyi, heading the Chinese delegation, states China's views; Grishin, heading the Soviet delegation, objects, refuses Deng's explanation and Liu's and Zhou's plea to stay, and walks out.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 276. Made public: 1999. See [[cal.1960-06.china]]. Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai. Check: Wu has it from Yang Shangkun, not an eyewitness; the Soviet side later made the walkout a ground of complaint (p. 276).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 276; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487–488 (June 5, 1960; Liu, with Zhou Enlai and Deng Xiaoping, calls together the brother parties'' delegates to the 11th session of the World Federation of Trade Unions'' general council and talks with them, setting out the Central Committee''s view of the disputed questions in the international communist movement). Made public: 1999. See [[cal.1960-06.china]]. Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai. Check: Wu has it from Yang Shangkun, not an eyewitness; the Soviet side later made the walkout a ground of complaint (p. 276).'
     src:
       c: 843c8512
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 276: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487–488: B'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, vis:only:prc+ussr]
   - id: cal.1960-06-06.governors-ia
     when: June 6
@@ -436,6 +447,14 @@ entries:
       - 1960-06-07T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-07.china-leadership-4
+    when: June 7
+    date: '1960-06-07'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi flies to Shanghai.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 7, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-08.elections-1960
     when: June 8
     date: '1960-06-08'
@@ -505,7 +524,7 @@ entries:
     date: '1960-06-08'
     thread: china-leadership
     c: 'Shanghai. The enlarged Politburo, Mao presiding, on the supplementary plan for 1960–62 and the world: plans to leave a margin, agriculture the base and to be hurried; the fourteen targets for the three years cut sharply.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety). Made public: 2013. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8–18, 1960; Liu attends the enlarged Politburo meeting at Shanghai: the international situation, the supplementary plan for the last three years of the Second Five-Year Plan (1960–62), and a summing up of the experience of economic construction). Made public: 2013. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
     src:
       c: 817f33bf
       rows:
@@ -515,6 +534,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.2a: A-B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.2b: A-B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.2c: A-B'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-06-08.china-leadership-2
     when: June 8
@@ -536,12 +556,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai at the symposium of the enlarged Politburo, Liu Shaoqi in the chair, with heads of the regions, provinces, cities and some central departments (Liu: not a formal meeting but a briefing on international questions). Zhou reports on the visit he and Chen Yi made to six countries and on four questions of principle on which the two parties differ: the nature of imperialism and the source of war; disarmament; peaceful coexistence; support for the revolutionary struggle of oppressed peoples.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 8, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 277–278 (the meeting began on the 8th with a symposium under Liu; Zhou on the international situation (the summit''s collapse) and his tour with Chen Yi). Made public: 1997. Names: Zhou Enlai, Chen Yi, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 8, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 277–278 (the meeting began on the 8th with a symposium under Liu; Zhou on the international situation (the summit''s collapse) and his tour with Chen Yi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8, 1960; Liu presides at the symposium of the regions'', provinces'', cities'' and central departments'' responsible officials on international questions and hears Zhou Enlai). Made public: 1997. Names: Zhou Enlai, Chen Yi, Liu Shaoqi.'
     src:
       c: 894827b4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 325: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 277–278: A, B'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yi, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-08.china-leadership-5
     when: June 8–14
@@ -737,6 +758,14 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, June 10, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 277–278: A'
     tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc+ussr]
+  - id: cal.1960-06-10.china-leadership-2
+    when: June 10
+    date: '1960-06-10'
+    thread: china-leadership
+    also: [china]
+    c: 'Shanghai. Liu Shaoqi presides at the symposium of the regions'', provinces'', cities'' and central departments'' chief officials. He opens: in the last half-year the work has had serious problems, in grain, dropsy, abnormal deaths, accidents and the fulfillment of the plan. Everyone wants more and faster, a bigger plate, more construction; the plan has been too high, the demands too urgent, the press too loud, and the Center is included. The Lushan meeting meant to sum this up, but the Peng Dehuai affair pushed it aside. If not corrected the problems, now one finger, may grow to two or three.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488–489 (June 10, 1960). Made public: 1996. Names: Liu Shaoqi, Peng Dehuai.'
+    tags: [polity:prc, name:liu-shaoqi, name:peng-dehuai, vis:only:prc]
   - id: cal.1960-06-11.europe-and-the-alliance-turkey
     when: June 11
     date: '1960-06-11'
@@ -788,6 +817,14 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, June 11, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278–279: B, C'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc]
+  - id: cal.1960-06-11.china-leadership-2
+    when: June 11
+    date: '1960-06-11'
+    thread: china-leadership
+    also: [china]
+    c: 'Shanghai. Liu Shaoqi presides at the symposium again. Interjecting in Ke Qingshi''s speech: can the masses elect the cadres they dislike, or is election a form; the Soviet experience calls for more restraint on privilege; differences of treatment follow differences of need, and those who get higher treatment should not arrange it themselves. In Wang Renzhong''s: big harvests mean heavy accumulation, small ones light; to pile up in a great disaster against the objective law. He closes: keep up drive, strive upward, but start from the real situation.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 11, 1960). Made public: 1996. Names: Liu Shaoqi, Ke Qingshi.'
+    tags: [polity:prc, name:liu-shaoqi, name:ke-qingshi, vis:only:prc]
   - id: cal.1960-06-12.japan-and-korea
     when: June 12–16
     date: '1960-06-12'
@@ -836,18 +873,27 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 278: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-06-12.china-leadership-3
+    when: June 12
+    date: '1960-06-12'
+    thread: china-leadership
+    also: [china]
+    c: Shanghai. Liu Shaoqi presides at the plenary meeting of the enlarged Politburo and hears Li Fuchun's report on the supplementary plan for the last three years of the Second Five-Year Plan.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 12, 1960). Made public: 1996. Names: Liu Shaoqi, Li Fuchun. Check: whether the same session as Liu''s report to the work conference on the Standing Committee''s view of the CPSU''s letters ([[cal.1960-06-12.china-leadership-2]]).'
+    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-13.china-leadership
     when: June 13
     date: '1960-06-13'
     thread: china-leadership
     also: [china]
     c: 'Shanghai, the Culture Club. Mao''s meeting (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing): the targets of the supplementary plan lowered and the plan redone; shelling Quemoy.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1960; [[w.zhou-enlai-nianpu-1949]], II, 326, June 13, 1960 (Zhou present at Mao''s meeting on Quemoy). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1960; [[w.zhou-enlai-nianpu-1949]], II, 326, June 13, 1960 (Zhou present at Mao''s meeting on Quemoy); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 13, 1960; Liu attends the meeting Mao convenes on the Quemoy question). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing.'
     src:
       c: 3b5e1bdf
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 13, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 326, June 13, 1960: C'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 489: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:chen-yi, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-06-13.china-leadership-3
     when: June 13
@@ -889,6 +935,14 @@ entries:
     c: 'Shanghai, the enlarged Politburo. Mao: the targets to be set again (Li Fuchun: steel 30 million tons, grain 600 billion jin in 1962); set them low and beat them in the year, as the Eighth Congress''s plan of 1956 did, its best part the low targets.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960. Made public: 2013. Names: Mao Zedong, Li Fuchun.'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-06-14.china-leadership-2
+    when: June 14
+    date: '1960-06-14'
+    thread: china-leadership
+    also: [china]
+    c: Shanghai. Liu Shaoqi presides at the symposium of the regions', provinces', cities' and central departments' officials, on the supplementary plan for the last three years of the Second Five-Year Plan.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 14, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-15.japan-and-korea
     when: June 15–16
     date: '1960-06-15'
@@ -1019,6 +1073,14 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 279–280: all'
     tags: [polity:prc, name:peng-zhen, name:kozlov-frol-r, vis:only:prc+ussr]
+  - id: cal.1960-06-16.china-leadership-2
+    when: June 16
+    date: '1960-06-16'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi writes the editor''s note for the article of the Chengdu measuring and cutting tools plant''s Party committee, "A new-type system of socialist enterprise management," for *Renmin ribao*, and sends the paper with a letter to Li Jingquan and Li Xuefeng. The note: the "two participations, one reform, three combinations" has made important progress these two years, a very welcome thing; plants and mines able to are to spread the Chengdu experience and others to create the conditions; two conditions: cadres follow the mass line and take part in labor, and workers'' political awareness lets them treat state enterprises as masters. Note and article appear in *Renmin ribao* June 24.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489–490 (June 16, 1960). Footnote 1 (489) gives Li Jingquan as then Sichuan Party secretary. Made public: 1996. To check: *Renmin ribao*, June 24, 1960, the editor''s note and the Chengdu plant''s article (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490). Names: Liu Shaoqi, Li Jingquan.'
+    tags: [polity:prc, name:liu-shaoqi, name:li-jingquan, vis:only:prc]
   - id: cal.1960-06-17.elections-1960-rockefeller
     when: June 17
     date: '1960-06-17'
@@ -1090,6 +1152,14 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, June 18, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278: B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-06-18.china-leadership-3
+    when: June 18
+    date: '1960-06-18'
+    thread: china-leadership
+    also: [china]
+    c: 'Shanghai. Liu Shaoqi speaks at the enlarged Politburo meeting. The Center and the provinces now agree that agriculture is the base, but capital construction is still not settled: too many want more of it and will not hold back, and the rush to start projects will keep the economy passive. How many projects are started must follow how much material and labor there is, and they are to be finished one battle after another, one by one.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490 (June 18, 1960). Made public: 1996. See [[cal.1960-06-18.china-leadership-2]]. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-19.japan-and-korea-far-east
     when: June 19–20
     date: '1960-06-19'
@@ -1732,7 +1802,12 @@ entries:
     date: '1960-06-27'
     thread: china-leadership
     c: Zhou Enlai, with Liu Shaoqi and Lu Dingyi, attends Shanghai's militia rally against American imperialism and reviews the militia.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 27, 1960). Names: Zhou Enlai, Liu Shaoqi, Lu Dingyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 27, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490 (June 27, 1960; Liu attends with Zhou Enlai the rally of 400,000 Shanghai militia in the People''s Square against American imperialism). Names: Zhou Enlai, Liu Shaoqi, Lu Dingyi.'
+    src:
+      c: ac5a85b9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 327: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 490: A'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:lu-dingyi]
   - id: cal.1960-06-27.china-leadership-2
     when: June 27
@@ -1916,6 +1991,14 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, June 29, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 327, June 27, 1960: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc@B-C]
+  - id: cal.1960-06-29.china-leadership-2
+    when: June 29
+    date: '1960-06-29'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi returns from Shanghai to Peking.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490 (June 29, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-30.congo
     when: June 30
     date: '1960-06-30'
@@ -2465,3 +2548,8 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 298–300: all'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: Liu Shaoqi presides at the enlarged Politburo meeting, which hears Peng Zhen, Kang Sheng and Wu Xiuquan on the Bucharest meeting of the socialist countries' communist and workers' parties
+        at: '490'

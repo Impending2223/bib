@@ -133,11 +133,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Moscow, the Kremlin''s St. George''s Hall. The conference holds its closing plenary and the heads of the delegations sign the Statement. Liu Shaoqi speaks, as planned. He congratulates the conference: through all the labor an agreed programme and an Appeal to the world''s peoples have been made. Differences, natural and unavoidable, can be settled on the ground of Marxism–Leninism by consultation to agreement, the one right way. The conference had turns, difficulties, obstacles, struggle, and overcame them. China wants stronger unity, differences removed, attacks stopped, above all Sino-Soviet unity. The hall applauds many times.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 424–425 (the plenary on "Dec. 1"). Made public: 1999. See [[cal.1960-11-10.soviet-union]]. Names: Liu Shaoqi.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 424–425 (the plenary on "Dec. 1"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 496 (Nov.–early Dec. 1960, the Moscow conference of the communist and workers'' parties; the Moscow Declaration adopted; heated argument between the CPSU and CPC delegations; Dec. 1, Liu''s speech for the Chinese Party on the world situation, war and peace, the tasks of the communist movement and the unity of the socialist camp). Made public: 1999. See [[cal.1960-11-10.soviet-union]]. Names: Liu Shaoqi.'
     src:
       c: 7cb5df72
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 424–425: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 496: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
   - id: cal.1960-12-01.soviet-union-2
     when: Dec. 1
@@ -174,6 +175,14 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 428–430: all'
     tags: [polity:prc, name:suslov-mikhail-a, vis:only:prc+ussr]
     time_zone: Europe/Moscow
+  - id: cal.1960-12-01.china-leadership-2
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Moscow. Liu Shaoqi receives more than 2,500 Chinese students and trainees studying in Moscow and Chinese embassy staff.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497 (Dec. 1, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1960-12-02.laos
     when: Dec. 2
     date: '1960-12-02'
@@ -356,12 +365,22 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Leningrad. Liu Shaoqi tours the cruiser *Aurora*, the Winter Palace, the Smolny, Lenin's command post for the rising, his office and rooms there. In the evening he sees the ballet *The Stone Flower*. Next day he visits the Kirov works; that night he leaves by the same train.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("in the evening"; "the next day", "on Dec. 4 in the evening"). See [[cal.1960-12-03.soviet-union]]. Names: Liu Shaoqi.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("in the evening"; "the next day", "on Dec. 4 in the evening"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497 (Dec. 3, 1960; Liu visits the Hermitage in the Winter Palace and the Kirov works, and speaks at the mass welcome meeting in the works'' tenth shop); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497 (Dec. 4, 1960; Liu visits the cruiser *Aurora* and the Smolny and tours the city by car; meets the Chinese students and trainees there; speaks at the banquet of the Leningrad Party committee and the city soviet''s executive committee: Leningrad the cradle of the October Revolution, which brought Marxism-Leninism to China; then leaves for Minsk). See [[cal.1960-12-03.soviet-union]]. Names: Liu Shaoqi.'
     src:
       c: '21552883'
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 432: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 497: B, E'
     tags: [polity:prc, name:liu-shaoqi]
+    variants:
+      - unit: B
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: Liu Shaoqi visits the Hermitage and the Kirov works Dec. 3; the cruiser Aurora and the Smolny Dec. 4, with a tour of the city
+        at: '497'
+      - unit: D
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: the Kirov works and the mass welcome meeting in its tenth shop Dec. 3, not the next day
+        at: '497'
   - id: cal.1960-12-04.vietnam
     when: Dec. 4
     date: '1960-12-04'
@@ -580,17 +599,26 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Minsk. Liu Shaoqi arrives in the morning. Kozlov, who has gone ahead, with the Byelorussian and Minsk Party and government heads meets him at the station. He visits a collective farm near the city and sees a song-and-dance program in the evening. He leaves Minsk by train that night.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("the morning" of Dec. 5; "the night of Dec. 5"). See [[cal.1960-12-03.soviet-union-2]]. Names: Liu Shaoqi, Kozlov.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("the morning" of Dec. 5; "the night of Dec. 5"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497–498 (Dec. 5, 1960; Liu visits a collective farm at the city''s outskirts and tours the city). See [[cal.1960-12-03.soviet-union-2]]. Names: Liu Shaoqi, Kozlov.'
     src:
       c: df90b595
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 432: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 497–498: ?'
     tags: [polity:prc, name:liu-shaoqi, name:kozlov-frol-r]
     time_range:
       - 1960-12-05T03:00Z
       - 1960-12-05T09:00Z
     time_band: morning
     time_zone: Europe/Moscow
+  - id: cal.1960-12-05.china-leadership-4
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Minsk. At the welcome banquet of the Byelorussian Party Central Committee, Supreme Soviet and Council of Ministers, Liu Shaoqi speaks. The Byelorussians waged wide guerrilla war in the Patriotic War and struck the invaders hard, in step with the Soviet army's frontal war; their deeds are especially dear to the Chinese, who fought Japan chiefly by guerrilla war.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497–498 (Dec. 5, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:ussr, name:liu-shaoqi]
   - id: cal.1960-12-06.transition-and-staff
     when: Dec. 6
     date: '1960-12-06'
@@ -705,11 +733,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Moscow. Liu Shaoqi returns at 10 a.m.; Mikoyan and the other members of the Presidium meet him at the station. In the afternoon he visits the Likhachev auto works; in the evening, at the Bolshoi, he sees Ulanova in ballet fragments.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("10 o''clock in the morning"; "in the afternoon"; "in the evening"). See [[cal.1960-12-05.soviet-union]]. Names: Liu Shaoqi, Mikoyan.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("10 o''clock in the morning"; "in the afternoon"; "in the evening"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 498 (Dec. 6, 1960; Liu back in Moscow, visits the Likhachev auto works). See [[cal.1960-12-05.soviet-union]]. Names: Liu Shaoqi, Mikoyan.'
     src:
       c: 348a207c
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 432: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 498: ?'
     tags: [polity:prc, name:liu-shaoqi, name:mikoyan-anastas]
     time_zone: Europe/Moscow
   - id: cal.1960-12-06.china-leadership-6
@@ -802,13 +831,22 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Moscow, the Palace of Sports at the Central Lenin Stadium, 2 p.m. The CPSU Central Committee and the Supreme Soviet hold a rally for Liu Shaoqi, 12,000 in the hall. Khrushchev leads the Presidium, Brezhnev, Kozlov and Mikoyan with him. The Moscow city secretary welcomes; a Likhachev worker, an academician and a Moscow University delegate speak; Brezhnev speaks; Liu last. He congratulates the Soviet people and the conference, and speaks of 1921: from Shanghai to Vladivostok, under Japanese occupation, round the city by rail via Chita, three months, now nine days from Peking; no coal, wood-burning engines, Soviet railwaymen helping gather wood and mend the line; he joined the Party at Moscow that winter, not in China. Unity is life, strength, victory; imperialism will see Sino-Soviet separation no sooner than the sun rising in the west; no force can break the unity of the two parties, states, peoples. The hall applauds 36 times, rises and shouts "Hurrah"; Liu stands arm in arm with Khrushchev, Brezhnev, Mikoyan and Kozlov.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 433–435 ("the afternoon of the 7th", "at 2 o''clock"; 36 rounds of applause "by our rough count"). See [[cal.1960-12-06.china-leadership-6]]. Names: Liu Shaoqi, Khrushchev, Brezhnev, Kozlov, Mikoyan.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 433–435 ("the afternoon of the 7th", "at 2 o''clock"; 36 rounds of applause "by our rough count"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 498–499 (Dec. 7, 1960; Liu''s speech at the Moscow circles'' meeting of Soviet-Chinese friendship, "Unity is life, unity is strength, unity is victory"; the speech recalls his first visit: he joined the Chinese Socialist Youth League in 1920, went in the spring of 1921 with dozens of other league members to study the October Revolution, and joined the Party late in 1921). See [[cal.1960-12-06.china-leadership-6]]. Names: Liu Shaoqi, Khrushchev, Brezhnev, Kozlov, Mikoyan.'
     src:
       c: 12a6c1b4
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 433–435: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 498–499: ?'
     tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:mikoyan-anastas]
     time_zone: Europe/Moscow
+  - id: cal.1960-12-07.china-leadership-2
+    when: Dec. 7
+    date: '1960-12-07'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Moscow. Liu Shaoqi gives a banquet at the Chinese Embassy to thank his hosts, with the Soviet Party and government leaders as guests, and attends the farewell banquet the Soviet Party and government give.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 498 (Dec. 7, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:ussr, name:liu-shaoqi]
   - id: cal.1960-12-08.laos
     when: Dec. 8–9
     date: '1960-12-08'
@@ -953,11 +991,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Moscow, then by air. Liu Shaoqi calls on Khrushchev at the Central Committee in the morning to take leave, a short talk, words for unity; goes to the airport, all the Presidium seeing him off; and flies with Brezhnev for Irkutsk, with a stop at Omsk, arriving at 10 p.m.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436 ("on the morning of the 8th"; "10 o''clock" at night at Irkutsk). Made public: 1999. See [[cal.1960-12-07.soviet-union]]. Names: Liu Shaoqi, Khrushchev, Brezhnev.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436 ("on the morning of the 8th"; "10 o''clock" at night at Irkutsk); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 8, 1960; Liu sets out for home and stops at Irkutsk). Made public: 1999. See [[cal.1960-12-07.soviet-union]]. Names: Liu Shaoqi, Khrushchev, Brezhnev.'
     src:
       c: 4d7570a9
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 436: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: ?'
     tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid]
     time_range:
       - 1960-12-08T03:00Z
@@ -1081,7 +1120,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao, Zhou Enlai, Zhu De, Chen Yun and Deng Xiaoping meet Liu Shaoqi at the airport, back from the conference and a tour of the Soviet Union by way of Irkutsk. That evening, the Yinian Tang, Liu reports to Mao's meeting.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 378, Dec. 9, 1960 (Zhou at the airport and Mao''s meeting). [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 下午); [[w.lengxi-shinian-lunzhan-1956-1966]], 438 (Liu left Irkutsk by air in the afternoon and reached Peking very late; Mao, the Standing Committee, the whole Politburo, the NPC Standing Committee''s chairman and vice-chairmen and the heads of the democratic parties were at the airport). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 378, Dec. 9, 1960 (Zhou at the airport and Mao''s meeting). [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 下午); [[w.lengxi-shinian-lunzhan-1956-1966]], 438 (Liu left Irkutsk by air in the afternoon and reached Peking very late; Mao, the Standing Committee, the whole Politburo, the NPC Standing Committee''s chairman and vice-chairmen and the heads of the democratic parties were at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 9, 1960; Liu back in Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport; that day Mao convenes a meeting and hears Liu''s report on his visit to the USSR and the Moscow conference). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
     src:
       c: 5536e625
       rows:
@@ -1089,6 +1128,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 378, Dec. 9, 1960: A'
         - 'w.zhou-enlai-waijiao-huodong 295: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 438: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: A, B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-12-09.china-leadership-2
     when: Dec. 9
@@ -1133,11 +1173,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Irkutsk. Liu Shaoqi visits the hydroelectric station and Lake Baikal, and attends the banquet of the city and regional Party committees, where he makes his last speech in the USSR, the dictated passage in it: the impression of these days is that Soviet and Chinese peoples alike strongly want unity of the two parties, states and peoples; whatever harms the base of that unity, the basic principles of Marxism–Leninism, will not pass among the Chinese, the Soviet, the socialist camp''s peoples, or the 90 percent of the world''s. In the afternoon he flies home.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436–438 ("the next day, the 9th"; the banquet called welcome (436) and farewell (437); the flight "that afternoon"; *Pravda*''s text of the speech omits the passage, 437). See [[cal.1960-12-08.china-leadership-2]]. Names: Liu Shaoqi.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436–438 ("the next day, the 9th"; the banquet called welcome (436) and farewell (437); the flight "that afternoon"; *Pravda*''s text of the speech omits the passage, 437); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 9, 1960; Liu visits the Irkutsk hydroelectric station and tours Lake Baikal). See [[cal.1960-12-08.china-leadership-2]]. Names: Liu Shaoqi.'
     src:
       c: 1a3e563e
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 436–438: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: ?'
     tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1960-12-10.transition-and-staff-cabinet
     when: Dec. 10
@@ -1614,12 +1655,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, Zhou Enlai, Zhu De and Dong Biwu meet Prince Sihanouk, on a state visit to China.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 15, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 15, 1960; 上午, 北京车站). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 15, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 15, 1960; 上午, 北京车站); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 15, 1960; Liu meets Sihanouk, head of state, with Penn Nouth, vice-chairman of the Supreme Council of the Throne and the prime minister, and Nhiek Tioulong, first deputy prime minister). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Sihanouk.'
     src:
       c: cac69f82
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 379: ?'
         - 'w.zhou-enlai-waijiao-huodong 295: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: A'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:norodom-sihanouk]
     time_range:
       - 1960-12-14T22:00Z
@@ -1856,13 +1898,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'The Qinzheng Hall. Mao receives Prince Sihanouk, Cambodia''s head of state, his wife and Penn Nouth, Prime Minister, at dinner; Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi and others present. In his absence Laos has changed: Phoumi, backed by America, its guns and officers, has taken most of Vientiane; Laos now America''s question, not Britain''s or France''s.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 17, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 17, 1960 (Zhou present). [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 下午5时, 中南海勤政殿, with Deng Yingchao). Made public: 2013. Names: Mao Zedong, Sihanouk, Penn Nouth, Phoumi, Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 17, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 17, 1960 (Zhou present). [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 下午5时, 中南海勤政殿, with Deng Yingchao); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 17, 1960; Liu, with Mao, Zhu De and Zhou Enlai, meets Sihanouk). Made public: 2013. Names: Mao Zedong, Sihanouk, Penn Nouth, Phoumi, Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi.'
     src:
       c: 13935b9c
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Dec. 17, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 380, Dec. 17, 1960: A'
         - 'w.zhou-enlai-waijiao-huodong 296: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: C'
     tags: [polity:prc, polity:cambodia, name:mao-zedong, name:norodom-sihanouk, name:phoumi-nosavan, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:penn-nouth, vis:only:prc+cambodia]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-17.china-leadership-2
@@ -1976,12 +2019,13 @@ entries:
     date: '1960-12-19'
     thread: china-leadership
     c: 'The Yinian Tang. The enlarged Standing Committee, Mao presiding, on the 1961 plan: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 19, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 19, 1960 (Zhou present). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 19, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 19, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the meeting Mao convenes on the national economic plan). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing.'
     src:
       c: a2199794
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Dec. 19, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 380, Dec. 19, 1960: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:lu-dingyi, name:bo-yibo, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-12-19.china-leadership-3
     when: Dec. 19
@@ -1990,12 +2034,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the signing of the joint statement by Liu Shaoqi and Sihanouk, and with Pho Proeung, Prime Minister of Cambodia, signs for their governments the China–Cambodia treaty of friendship and mutual nonaggression.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午3时50分); [[w.lengxi-shinian-lunzhan-1956-1966]], 452–453 (the treaty of friendship and mutual non-aggression with Cambodia, "in December 1960", on the five principles). Names: Zhou Enlai, Liu Shaoqi, Sihanouk, Pho Proeung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午3时50分); [[w.lengxi-shinian-lunzhan-1956-1966]], 452–453 (the treaty of friendship and mutual non-aggression with Cambodia, "in December 1960", on the five principles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the signing and signs the joint statement). Names: Zhou Enlai, Liu Shaoqi, Sihanouk, Pho Proeung.'
     src:
       c: 443c24ab
       rows:
         - 'w.zhou-enlai-waijiao-huodong 296: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 452–453: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk, name:pho-proeung]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-19.china-leadership-4
@@ -2005,11 +2050,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the mass meeting of more than 10,000 of the capital's people celebrating the signing of the China–Cambodia treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午4时10分). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午4时10分); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the capital''s mass meeting welcoming Sihanouk and marking the treaty''s signing). Names: Zhou Enlai.'
     src:
       c: 73597fe6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 296: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-19.china-leadership-5
@@ -2029,6 +2075,14 @@ entries:
       - 1960-12-19T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-19.china-leadership-6
+    when: Dec. 19
+    date: '1960-12-19'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi talks with Prince Norodom Sihanouk, Cambodia's head of state.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960). Names: Liu Shaoqi, Sihanouk.'
+    tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
   - id: cal.1960-12-20.vietnam
     when: Dec. 20
     date: '1960-12-20'
@@ -2302,6 +2356,14 @@ entries:
       - 1960-12-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-22.china-leadership-3
+    when: Dec. 22
+    date: '1960-12-22'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi receives Tim Buck, general secretary of the Communist Party of Canada, and his wife.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 500 (Dec. 22, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:canada, name:liu-shaoqi]
   - id: cal.1960-12-23.foreign-aid
     when: Dec. 23
     date: '1960-12-23'
@@ -2408,7 +2470,7 @@ entries:
     date: '1960-12-24'
     thread: china-leadership
     c: 'Peking. The Central Work Conference opens (to Jan. 13, 1961): the rectification of the communes and the "five winds," the 1961 plan, the report on the Moscow conference.Its minutes add to the Twelve Articles: rectification at the bad communes first; whatever was levelled and transferred paid back in kind, 2.5 billion yuan from the state for it; the grain purchase price raised, not the sale price; private plots from 5 to 7 percent; pigs chiefly private; side lines and rural fairs allowed.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 24, 1960 (the entry for Dec. 24, 1960–Jan. 13, 1961). [[w.zhou-enlai-nianpu-1949]], II, 381–82, Dec. 24, 1960 (the conference, Dec. 24 to Jan. 13, 1961, and its summary). [[w.macfarquhar-origins-of-the-cultural]], III, 12–13 (the conference and its decisions: procurement prices, compensation, private plots). Made public: 2013. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 310 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13a); [[w.huainian-mao-zedong-tongzhi]], 216 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13b); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 287–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13c); [[w.zhonghua-renmin-gongheguo-guomin]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.14b); [[w.zhonghua-renmin-gongheguo-shangye]], 210 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.14c); [[w.biji-tao-zhu]], 354 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.15d). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 24, 1960 (the entry for Dec. 24, 1960–Jan. 13, 1961). [[w.zhou-enlai-nianpu-1949]], II, 381–82, Dec. 24, 1960 (the conference, Dec. 24 to Jan. 13, 1961, and its summary). [[w.macfarquhar-origins-of-the-cultural]], III, 12–13 (the conference and its decisions: procurement prices, compensation, private plots); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 500 (Dec. 24, 1960–Jan. 13, 1961; Liu attends the Central Work Conference: the 1961 national economic plan; the "Summary of the discussion on rectifying the style and the communes in the countryside and some policies on cadres"; every commune team in 1961 to take the Center''s Twelve Articles as its guide, check and correct the "communist wind", exaggeration, blind command, cadres'' privilege and coercive command, and settle the accounts for levelled and transferred goods; Mao urges a great wind of investigation and study; the conference prepares the Ninth Plenum). Made public: 2013. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 310 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13a); [[w.huainian-mao-zedong-tongzhi]], 216 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13b); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 287–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13c); [[w.zhonghua-renmin-gongheguo-guomin]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.14b); [[w.zhonghua-renmin-gongheguo-shangye]], 210 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.14c); [[w.biji-tao-zhu]], 354 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.15d). Names: Mao Zedong.'
     src:
       c: bc74aebd
       rows:
@@ -2425,6 +2487,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15b: C, E, G'
         - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15c: C, E, G'
         - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15d: C, E, G'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 500: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-12-24.china-leadership-2
     when: Dec. 24
