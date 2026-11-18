@@ -504,6 +504,17 @@ entries:
       - 1962-10-03T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-03.china-leadership-2
+    when: Oct. 3
+    date: '1962-10-03'
+    thread: china-leadership
+    c: 'Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来 cable Tsedenbal and Sambuu on the tenth anniversary of the Sino-Mongolian agreement on economic and cultural cooperation: it has furthered the two countries'' friendly cooperation and building, the camp''s unity and world peace.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 420–421 (Oct. 3, 1962; printed from *Renmin ribao* 人民日报, Oct. 4, 1962). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Tsedenbal, Sambuu.'
+    src:
+      c: d6e80f7d
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 420–421: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:mongolia]
   - id: cal.1962-10-04.middle-east-johnson-plan
     when: Oct. 4
     date: '1962-10-04'
@@ -1017,6 +1028,20 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 307 n.59a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 307 n.59b: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1962-10-06.china-leadership-4
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    also: [berlin-and-vienna]
+    c: 'Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 cable Ulbricht, Grotewohl, Dieckmann and Correns on the GDR''s 13th anniversary: America backs West German militarism in aggression and provocation against the GDR; China firmly backs the GDR''s and the Soviet Union''s stand for a German peace treaty and, on that basis, normal conditions in West Berlin; the Moscow Declaration and Statement.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 422–424 (Oct. 6, 1962; printed from *Renmin ribao* 人民日报, Oct. 7, 1962; Zhou signs also as chairman of the CPPCC National Committee; notes 1–2). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Ulbricht, Grotewohl, Dieckmann, Correns.'
+    src:
+      c: 2fdeabe6
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 422–424: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 423 n.2a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 424 n.2b: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, polity:gdr]
   - id: cal.1962-10-07.soviet-union
     when: Oct. 7
     date: '1962-10-07'
@@ -1054,6 +1079,31 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 246: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-10-07.china-leadership-2
+    when: Oct. 7
+    date: '1962-10-07'
+    thread: china-leadership
+    c: 'Mao, on Li Xiannian''s 李先念 and Chen Boda''s 陈伯达 letter of Oct. 5 sending the revised "Decision on questions of commercial work": "To Zhou at once, then to Liu, Zhu, Deng; Deng to handle it."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 372–374 (Oct. 7, 1962; part three, dated Oct. 7; printed from the manuscript; note 1: the decision adopted by the plenum Sept. 27, revised after by Li, Chen and Zhou, issued to the counties Oct. 11 (commerce to develop the economy and assure supply; state, cooperative and fair trade the three channels)). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Li Xiannian and Chen Boda, letter to Mao Zedong of Oct. 5, 1962 sending the revised decision on commerce (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 373 n.1a). See [[cal.1962-09-14.china-leadership-3]]. Names: Mao Zedong, Li Xiannian, Chen Boda, Zhou Enlai, Liu Shaoqi, Zhu De, Deng Xiaoping. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: eebc8f65
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 372–374: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 373 n.1a: all'
+    tags: [polity:prc, name:mao-zedong, name:li-xiannian, name:chen-boda, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-10-07.china-leadership-3
+    when: Oct. 7
+    date: '1962-10-07'
+    thread: china-leadership
+    follows:
+      - cal.1962-10-07.china-leadership-2
+    c: 'Zhou Enlai 周恩来, having read the draft Mao sent him, to Chen Boda 陈伯达, on the decision on commerce: three phrases added, with Li Xiannian''s 李先念 consent: "industry as the leading factor" beside "agriculture as the base"; "shortening the front of capital construction"; "and some demobilized officers" among those to be drawn into commerce.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 374 (Oct. 7, 1962; note 4 to Mao''s note of Oct. 7: Zhou read it and wrote on Oct. 7). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). See [[cal.1962-10-07.china-leadership-2]]. Names: Zhou Enlai, Chen Boda, Li Xiannian. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    src:
+      c: 4a138822
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 374: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-boda, name:li-xiannian, vis:only:prc]
   - id: cal.1962-10-08.middle-east
     when: Oct. 8
     date: '1962-10-08'
@@ -1170,7 +1220,13 @@ entries:
     date: '1962-10-08'
     thread: china
     c: 'Mao Zedong reads the Central Committee General Office''s bulletin of Oct. 4, no. 348, "A case of ''enemy''-fear sickness": in August a commune Party secretary at Shuangquan, Bei''an, Heilongjiang, fires shots by night to drive off wolves; cadres and commune members take it for an enemy attack and flee. Mao sends it to Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Luo Ruiqing and Xie Fuzhi: "此事拟在常委会上谈一谈" (this to be talked over at the Standing Committee).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962 ("同日"). Made public: Check (2013 at the latest). To check: *Qingkuang jianbao* (情况简报), no. 348, Oct. 4, 1962, "恐''敌''病一例" (cited by [[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962). Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 425 (Oct. 8, 1962; Mao''s note of Oct. 8 to Liu, Zhou, Zhu, Deng, Luo Ruiqing and Xie Fuzhi: "to be talked over at the Standing Committee"; read and back to Mao; printed from the manuscript; note 1: the bulletin of Oct. 4 reports the Bei''an city committee''s propaganda department; the secretary is Qiu Yulin 邱玉林). Made public: Check (2013 at the latest). To check: *Qingkuang jianbao* (情况简报), no. 348, Oct. 4, 1962, "恐''敌''病一例" (cited by [[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962); Center General Office, Qingkuang jianbao no. 348, Oct. 4, 1962, "A case of ''enemy''-fear sickness" (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 425 n.1). Names: Mao Zedong, Zhou Enlai.'
+    src:
+      c: 9107034c
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 8, 1962: ?'
+        - 'w.jianguo-yilai-mao-zedong XVI, 425: A-D'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 425 n.1: all'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
   - id: cal.1962-10-08.south-asia
     when: Oct. 8
@@ -1339,6 +1395,17 @@ entries:
     c: 'Zhou Enlai receives the Shenyang Drama Troupe''s cast of *The Army at the Gates*: the drama schools should from the start teach the study of lines; the stage actor''s chief tool is his lines; he needs basic skill and the thought of an audience of a thousand and more, to be heard and understood by each.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 9, 1962). Check: the play''s title in English (兵临城下). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1962-10-09.china-leadership-2
+    when: Oct. 9
+    date: '1962-10-09'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平, on the decision on commerce: "Shangkun 尚昆 to print it at once (to the counties)."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 374 (Oct. 9, 1962; note 5 to Mao''s note of Oct. 7). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Deng Xiaoping, Yang Shangkun. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    src:
+      c: c84b5bc7
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 374: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-10-10.program
     when: Oct. 10
     date: '1962-10-10'
@@ -1579,7 +1646,12 @@ entries:
     date: '1962-10-11'
     thread: china
     c: 'The Center sends down to the people''s communes the two texts the plenum adopted Sept. 27: the decision on consolidating the communes'' collective economy and developing farm production, and the revised draft of the Work Regulations for Rural People''s Communes (农村人民公社工作条例修正草案).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 23, 1962 (the two entries for July 23: "十月十一日，中共中央将这个决定下发到人民公社"; "十月十一日，中央将这个文件下发到人民公社"). Made public: Check (2013 at the latest).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 23, 1962 (the two entries for July 23: "十月十一日，中共中央将这个决定下发到人民公社"; "十月十一日，中央将这个文件下发到人民公社"); [[w.jianguo-yilai-mao-zedong]], XVI, 320, 328 (Oct. 11, 1962; notes to Mao''s notes of July 23 and Aug. 24 on the decision and of July 31 and Aug. 24 on the work regulations: both adopted by the Tenth Plenum Sept. 27, sent down to the communes by the Center Oct. 11). Made public: Check (2013 at the latest).'
+    src:
+      c: ffb5910d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 23, 1962: ?'
+        - 'w.jianguo-yilai-mao-zedong XVI, 320, 328: A'
     tags: [polity:prc]
   - id: cal.1962-10-11.soviet-union
     when: Oct. 11
@@ -1649,6 +1721,17 @@ entries:
       - 1962-10-11T16:30Z
     time_band: evening
     time_zone: Asia/Kolkata
+  - id: cal.1962-10-11.china-leadership-2
+    when: Oct. 11
+    date: '1962-10-11'
+    thread: china-leadership
+    c: The Center 中共中央 issues to the counties the "Decision on questions of commercial work," adopted by the Tenth Plenum Sept. 27 and revised after.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 373 (Oct. 11, 1962; note 1 to Mao''s notes of Aug. 31, Sept. 14 and Oct. 7). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    src:
+      c: 21e5958a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 373: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-10-12.latin-america-panama
     when: Oct. 12
     date: '1962-10-12'
@@ -2960,7 +3043,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at the Politburo briefing and hears Zhao Erlu, deputy director of the State Council Office of Defense Industry, on the defense industry's basic situation, this year's plan's execution and the 1963 and Third Five-Year Plan arrangements. Missiles and atomic bombs both need a special organ at the Center to direct organization, coordination and orders; a small body is to be had, or by dragging it out time passes. Every country has done this, and ours is to do it still better by creating conditions to let it go forward smoothly.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562–563 (Oct. 19, 1962). Made public: 1996. Names: Liu Shaoqi, Zhao Erlu.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562–563 (Oct. 19, 1962); [[w.jianguo-yilai-mao-zedong]], XVI, 429 (Oct. 19, 1962; note 1 to Mao''s note of Nov. 3: the proposal of a special committee was made when the Defense Industry Office reported to the Standing Committee Oct. 19, and Liu Shaoqi approved it in principle). Made public: 1996. Names: Liu Shaoqi, Zhao Erlu.'
+    src:
+      c: d7618f41
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 562–563: ?'
+        - 'w.jianguo-yilai-mao-zedong XVI, 429: A-B'
     tags: [polity:prc, name:liu-shaoqi, name:zhao-erlu, vis:only:prc]
   - id: cal.1962-10-20.missile-crisis
     when: Oct. 20
@@ -7633,12 +7721,14 @@ entries:
     date: '1962-10-30'
     thread: china
     c: 'Luo Ruiqing, a report: the Second Ministry of Machine Building to aim at exploding the first atomic bomb in 1964, two years off; beyond any one ministry. Proposed: a special committee under the Center to direct the atomic industry, Zhou Enlai in overall charge, with He Long, Li Fuchun, Zhang Aiping, Li Xiannian, Bo Yibo, Lu Dingyi, Nie Rongzhen, Luo Ruiqing, Zhao Erlu, Liu Jie, Sun Zhiyuan, Duan Junyi and Gao Yang. Liu Shaoqi has agreed in principle.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 3, 1962 (the report, of Oct. 30, as Mao Zedong read it). [[w.jian-zhou-enlai]], 515 (Luo to Zhou, Oct. 10: a special committee under the Center''s direct leadership, Zhou to lead it, the first test slated for 1964; not the Second Ministry, the members or Liu Shaoqi''s agreement). Made public: Check (2013 at the latest). Check: the day, or an earlier proposal: Chen Jian, 515, has Luo''s proposal to Zhou on Oct. 10 (Mao''s approval Nov. 3). To check: [[w.yao-luo-ruiqing-zhuan-a]], 393–94; [[w.zhou-enlai-zhuan-1949]], 788–89 (cited by [[w.jian-zhou-enlai]], 767 n.99). Names: Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 3, 1962 (the report, of Oct. 30, as Mao Zedong read it). [[w.jian-zhou-enlai]], 515 (Luo to Zhou, Oct. 10: a special committee under the Center''s direct leadership, Zhou to lead it, the first test slated for 1964; not the Second Ministry, the members or Liu Shaoqi''s agreement); [[w.jianguo-yilai-mao-zedong]], XVI, 428–429 (Oct. 30, 1962; note 1 to Mao''s note of Nov. 3: the report of Oct. 30 to Mao and the Center; the proposal made at the Defense Industry Office''s report to the Standing Committee on Oct. 19, which Liu Shaoqi approved in principle; on Liu''s instruction Zhou Enlai in overall charge, with He Long, Li Fuchun, Li Xiannian, Bo Yibo, Lu Dingyi, Nie Rongzhen, Luo Ruiqing, Zhao Erlu, Zhang Aiping, Liu Jie, Sun Zhiyuan, Duan Junyi and Gao Yang). Made public: Check (2013 at the latest). Check: the day, or an earlier proposal: Chen Jian, 515, has Luo''s proposal to Zhou on Oct. 10 (Mao''s approval Nov. 3). To check: [[w.yao-luo-ruiqing-zhuan-a]], 393–94; [[w.zhou-enlai-zhuan-1949]], 788–89 (cited by [[w.jian-zhou-enlai]], 767 n.99); Luo Ruiqing, report to Mao Zedong and the Central Committee on setting up a special committee to strengthen the leadership of the atomic industry, Oct. 30, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 428 n.1). Names: Zhou Enlai.'
     src:
       c: 0b3ab53a
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 3, 1962: ?'
         - 'w.jian-zhou-enlai 515: ?'
+        - 'w.jianguo-yilai-mao-zedong XVI, 428–429: A-D'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 428 n.1: all'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1962-10-30.south-asia
     when: Oct. 30
@@ -8258,3 +8348,15 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.71a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.71b: all'
     tags: [polity:india, vis:only:india]
+  - id: cal.1962-10-31.china-leadership-3
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 cable Ben Bella, Ferhat Abbas and Mohamed Khider on the anniversary of the Algerian rising of Nov. 1, 1954: independence won by over seven years of armed struggle, a heavy blow to imperialism and colonialism; China will always stand with the Algerian people.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 426–427 (Oct. 31, 1962; printed from *Renmin ribao* 人民日报, Nov. 1, 1962). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Ben Bella, Abbas, Khider.'
+    src:
+      c: 00df8871
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 426–427: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ben-bella-ahmed, name:abbas-ferhat, polity:algeria]
