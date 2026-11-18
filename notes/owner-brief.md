@@ -841,3 +841,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "Claude, I have to go to sleep. I haven't read your replies to my queued messages "Li Zhisui was first written in English? I'll get you that instead if so" and "Bring the Yang Shangkun riji 杨尚昆日记  ahead of the chronologies. Put at least some of the scholarship and Sino-Soviet studies ahead of some of the nianpu. I'd be inclined to put some after Deng and some after Chen Yi." Please implement my queue request to the best of your ability and judgment. I'll see you later in the morning, after the pause." (Nov. 18, about 2:55 a.m. Pacific.)
 
 "I believe the Bu Weihua is at "砸爛舊世界」  ——文化大革命的動亂與浩劫  (1966-1968)  卜偉華著.pdf" Isn't that what 卜偉華著 means?" (Nov. 18, about 3:35 a.m. Pacific.)
+
+"Immediate. Why are these sorted the way they are?" (Nov. 18, about 10:40 a.m. Pacific; a screenshot of Jan. 8, 1960: the Cuba entry at 11:30 a.m. above the Senate Republicans' Committee on Committees, 10:20 to 11:20 a.m.)
