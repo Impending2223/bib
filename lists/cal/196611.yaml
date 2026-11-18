@@ -93,6 +93,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 58: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1966-11-01.china
+    when: Nov. 1
+    date: '1966-11-01'
+    thread: china
+    also: [soviet-union]
+    c: Foreign Ministry reply to the Soviet embassy, rejecting the Soviet note of Oct. 27 protesting China's stand and making demands. The Chinese masses in recent days have been very restrained and orderly and have not touched a hair of the Soviet embassy's people, cars or buildings; the chargé and his wife and the staff went out undisturbed, and there is no question of wrecking the embassy's normal work.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 135 (Nov. 1, 1966).'
+    src:
+      c: 0ebe4e73
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 135: all'
+    tags: [polity:prc, polity:ussr]
   - id: cal.1966-11-02.cuba
     when: Nov. 2
     date: '1966-11-02'
@@ -854,6 +866,29 @@ entries:
     c: Zhou Enlai talks with rebel delegates of the Academy of Sciences.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 85 (Nov. 7, 1966). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1966-11-07.china-leadership-2
+    when: Nov. 7
+    date: '1966-11-07'
+    thread: china-leadership
+    c: Mao receives Senanayake, secretary-general of the Afro-Asian Writers' Permanent Bureau, and his wife.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 135 (Nov. 7, 1966). Names: Mao Zedong.'
+    src:
+      c: '25255891'
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 135: all'
+    tags: [polity:prc, name:mao-zedong]
+  - id: cal.1966-11-07.china-leadership-3
+    when: Nov. 7
+    date: '1966-11-07'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi receives the friendship delegation of the Congo (Brazzaville) led by Kusakana Prosper.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 135 (Nov. 7, 1966). Names: Chen Yi. Check: the leader''s name, from the Chinese 库萨卡纳·普罗斯佩尔.'
+    src:
+      c: c0b5e40c
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 135: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:chen-yi]
   - id: cal.1966-11-08.elections-1966
     when: Nov. 8
     date: '1966-11-08'
@@ -1921,6 +1956,18 @@ entries:
     c: 'Zhou Enlai talks with delegates of the three Red Guard headquarters of Peking''s colleges. To one who would let the whole country go into disorder: like surrounding Zhongnanhai''s west gates against Tao Zhu? That is feudal thought. Tao was elected to the Standing Committee at the Eleventh Plenum under Mao. The gates are so blocked that Mao goes by a small one: "I look on with sorrow."'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 85–86 (Nov. 8, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Tao Zhu, Mao Zedong.'
     tags: [name:zhou-enlai, name:tao-zhu, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1966-11-08.china-leadership-4
+    when: Nov. 8
+    date: '1966-11-08'
+    thread: china-leadership
+    also: [laos]
+    c: 'Chen Yi, at the China–Cambodia Friendship Association''s reception for Cambodia''s 13th independence anniversary: there is one country in the world that dares to break relations with the U.S., to refuse U.S. aid, and to build its country by self-reliance, with no foreign aid tied to politics: Cambodia. It shows the Cambodian people''s love of independence and freedom.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 135–136 (Nov. 8, 1966). Names: Chen Yi.'
+    src:
+      c: 9a26d7da
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 135–136: all'
+    tags: [polity:prc, polity:cambodia, name:chen-yi]
   - id: cal.1966-11-09.republican-party
     when: Nov. 9
     date: '1966-11-09'
@@ -2386,11 +2433,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou receives Tanzania's departing ambassador in the Jiangsu Hall of the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Nov. 11, 1966; 9:10 p.m., Jiangsu Hall, Great Hall of the People). The book names the ambassador 朱马. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Nov. 11, 1966; 9:10 p.m., Jiangsu Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 136 (Nov. 11, 1966; Zhou to Tanzania''s departing ambassador: imperialism and its agents wreck the African summit; Ghana''s expulsion of the Chinese embassy and kidnap of the Guinean delegation are no accident). The book names the ambassador 朱马. Names: Zhou Enlai.'
     src:
       c: e90952a3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 506: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 136: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1966-11-12.vietnam
@@ -2964,11 +3012,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou receives the Guinean government economic delegation under the minister of economic development, Ismael Touré (伊斯梅尔·杜尔), and attends the signing of the China–Guinea economic and technical cooperation agreement.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Nov. 16, 1966; 6:10 p.m., Jiangsu Hall, Great Hall of the People). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Nov. 16, 1966; 6:10 p.m., Jiangsu Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 136 (Nov. 10–18, 1966; Ismaël Touré''s delegation; Chen Yi and Touré sign the economic and technical cooperation agreement and protocol, a trade loan agreement and a 1967 trade protocol; no day given). Names: Zhou Enlai.'
     src:
       c: 0ea4f120
       rows:
         - 'w.zhou-enlai-waijiao-huodong 506: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 136: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1966-11-17.georgia
@@ -3113,7 +3162,12 @@ entries:
     date: '1966-11-17'
     thread: china-leadership
     c: Zhongnanhai, the Yinian Tang, evening. Mao receives a Guinean economic delegation under Ismael Touré, Minister of Economic Development, Chen Yi present. Guinea's stand against imperialism helps the world's peoples; the Americans, three million, fought Britain eight years and won; Guinea has more than that. China's inherited school system and its staff are of the Kuomintang; reform is needed, and the outcome not sure.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 17, 1966. Names: Mao Zedong, Ismael Touré, Chen Yi. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 17, 1966. [[w.zhonghua-renmin-gongheguo-waijiao]], 136 (Nov. 10–18, 1966; Guinea''s economic delegation under Ismaël Touré, Nov. 10–18; Mao and Zhou receive it). Names: Mao Zedong, Ismael Touré, Chen Yi. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: b0dc5bfa
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 17, 1966: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 136: A'
     tags: [name:mao-zedong, name:chen-yi, polity:prc, polity:guinea, vis:only:prc+guinea@C-G]
   - id: cal.1966-11-17.china-leadership-2
     when: Nov. 17–21
@@ -3143,6 +3197,30 @@ entries:
     c: Zhou Enlai receives delegates of the "88 Corps" and the "East Is Red" of the Harbin Military Engineering Institute and rebukes the 88 Corps for storming the National Defense Science Commission at Sanzuomen and seizing Lu Yang. Under Nie Rongzhen the Defense and State Science commissions did mostly well, the atom bomb and the missile are in the sky; to doubt everything is not scientific, nor Mao Zedong Thought, nor seeking truth from facts.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 90 (Nov. 17, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Lu Yang, Nie Rongzhen.'
     tags: [name:zhou-enlai, name:nie-rongzhen, polity:prc, vis:only:prc]
+  - id: cal.1966-11-17.china-leadership-6
+    when: Nov. 17
+    date: '1966-11-17'
+    thread: china-leadership
+    also: [japan]
+    c: Song Qingling receives Miyazaki Seimin, president of the Japan–China Friendship Association, and his wife, and the adviser to the Japanese delegation for the 100th anniversary of Sun Yat-sen's birth, Itō Takeo, its head Makinouchi Taketo, and all its members.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 136 (Nov. 17, 1966). Check: the names, from the Chinese 宫崎世民, 伊芯武雄 and 牧野内武人.'
+    src:
+      c: 720a5696
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 136: all'
+    tags: [polity:prc, polity:japan]
+  - id: cal.1966-11-17.china
+    when: Nov. 17
+    date: '1966-11-17'
+    thread: china
+    also: [europe-and-the-alliance]
+    c: 'Yu Zhan, head of the Soviet and East European department, summons Hungary''s ambassador and reads him a memorandum: strong protest at Hungary''s wrecking of cultural cooperation and worsening of relations in deciding that five Chinese students may not go on studying in Hungary.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 137 (Nov. 17, 1966). Check: the officials'' names, from the Chinese 余湛 and 郝拉思.'
+    src:
+      c: 40c55d00
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 137: all'
+    tags: [polity:prc, polity:hungary]
   - id: cal.1966-11-18.opinion
     when: Nov. 18
     date: '1966-11-18'
@@ -3355,6 +3433,17 @@ entries:
     c: 'Zhou Enlai, on the Peking Foreign Languages Institute students appeal, wall posters and loudspeakers at the Foreign Ministry over an exhibition abroad: tell the students he will see their delegates this week; no more protests at the Ministry or loudspeakers before the talk.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 91 (Nov. 21, 1966). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1966-11-21.china
+    when: Nov. 21
+    date: '1966-11-21'
+    thread: china
+    c: The Chinese and Albanian trade delegations hold talks at Beijing on the supply of goods in 1967 and sign a protocol on the exchange of goods and payments for 1967 and a protocol on Albania's use in 1967 of the Chinese loan.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 137 (Nov. 21, 1966).'
+    src:
+      c: e7d2c533
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 137: all'
+    tags: [polity:prc, polity:albania]
   - id: cal.1966-11-22.vietnam
     when: Nov. 22
     date: '1966-11-22'
@@ -3883,17 +3972,30 @@ entries:
     date: '1966-11-29'
     thread: china-leadership
     c: Zhou attends the reception given by Albania's ambassador for the twenty-second anniversary of Albania's liberation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Nov. 29, 1966; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Nov. 29, 1966; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 137 (Nov. 29, 1966; Zhou at the Albanian ambassador''s reception: the Manila conference and Johnson''s Asian trip, new steps to widen the Vietnam war and sell "peace talks"; the Soviet leaders'' "joint action"). Names: Zhou Enlai.'
     src:
       c: addf59fb
       rows:
         - 'w.zhou-enlai-waijiao-huodong 506: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 137: all'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-11-29T11:00Z
       - 1966-11-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-11-29.china-leadership-3
+    when: Nov. 29
+    date: '1966-11-29'
+    thread: china-leadership
+    also: [latin-america]
+    c: Zhou cables Barbados's prime minister, Errol Barrow, to congratulate him on Barbados's independence.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 137 (Nov. 29, 1966). Names: Zhou Enlai.'
+    src:
+      c: 57d3809d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 137: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1966-11-30.opinion
     when: Nov. 30
     date: '1966-11-30'

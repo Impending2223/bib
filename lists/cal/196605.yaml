@@ -114,6 +114,18 @@ entries:
       - 1966-05-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-01.china-leadership-5
+    when: May 1
+    date: '1966-05-01'
+    thread: china-leadership
+    also: [africa]
+    c: Liu Shaoqi receives the delegation of Guinea's national workers' federation led by Louis Béavogui, who hands him a letter from President Touré.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 1, 1966). Names: Liu Shaoqi. Check: the head''s name, from the Chinese 路易·贝昂费.'
+    src:
+      c: 8cb2ac42
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 100: all'
+    tags: [polity:prc, polity:guinea, name:liu-shaoqi]
   - id: cal.1966-05-02.vietnam-congress
     when: May 2
     date: '1966-05-02'
@@ -230,11 +242,12 @@ entries:
     date: '1966-05-02'
     thread: china-leadership
     c: Zhou receives and gives a luncheon for the delegation of the Cambodia–China Friendship Association.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (May 2, 1966; morning; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (May 2, 1966; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 2, 1966; the delegation led by Lan Nhet). Names: Zhou Enlai.'
     src:
       c: db23cbe1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 493: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 100: all'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-05-01T22:00Z
@@ -486,6 +499,41 @@ entries:
       - 1966-05-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-03.china
+    when: May 3
+    date: '1966-05-03'
+    thread: china
+    also: [south-asia]
+    c: Chen Yi and Rijal sign, for their governments, an agreement on trade, transport and related matters between China's Tibet Autonomous Region and Nepal.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 3, 1966). Names: Chen Yi.'
+    src:
+      c: dbc26834
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 100: all'
+    tags: [polity:prc, polity:nepal, name:chen-yi]
+  - id: cal.1966-05-03.china-2
+    when: May 3
+    date: '1966-05-03'
+    thread: china
+    also: [soviet-union, vietnam-hanoi]
+    c: 'The Foreign Ministry spokesman''s statement on the open claim of Soviet Defense Minister Malinovsky, on Apr. 21, that China obstructs the transit of Soviet supplies for Vietnam. China, the statement says, has never done so: all the military supplies Vietnam asked for and the Soviet Union shipped were forwarded first, quickly and free; Malinovsky''s speech was ill-meant, to sow discord between China and Vietnam and wreck their peoples'' anti-U.S. unity.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 3, 1966).'
+    src:
+      c: 2a58531b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 100: all'
+    tags: [polity:prc, polity:ussr, polity:drv]
+  - id: cal.1966-05-03.china-leadership-3
+    when: May 3
+    date: '1966-05-03'
+    thread: china-leadership
+    c: 'Chen Yi, at the cocktail party of the National Committee of the CPPCC for visiting overseas Chinese, compatriots of Hong Kong and Macao and the peoples'' delegations: the whole country, with confidence, is building the homeland by self-reliance, and no force can stop it. The time when the Chinese could not hold up their heads before foreigners is gone for good. To Western opinion that China is "isolated" and its foreign policy has "failed": China''s policy is right, it has not failed, it has more friends each day; as foreign minister he has no sense of isolation.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 101 (May 3, 1966). Names: Chen Yi.'
+    src:
+      c: cd95241f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 101: all'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1966-05-04.soviet-union-leadership
     when: May 4
     date: '1966-05-04'
@@ -549,6 +597,18 @@ entries:
       - 1966-05-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-04.china
+    when: May 4
+    date: '1966-05-04'
+    thread: china
+    also: [south-asia]
+    c: 'Foreign Ministry note to the Indian embassy, rejecting India''s notes of Feb. 2, 3 and 8, which charged Chinese troops with entering the 20-kilometer zone on the Chinese side of the line of actual control and Longju, Che Dong and other places China had of itself left without civil check posts, against India''s word and the Colombo proposals. The note calls this baseless: those areas are Chinese; China drew its border troops back 20 kilometers in its wish to ease the border; the Colombo proposals are only a proposal, and China''s acts went far past them; India has for three years kept entering the zone and the places left unposted.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 101–102 (May 4, 1966). Check: the place names, from the Chinese 朗久 and 扯冬.'
+    src:
+      c: cb3b73fe
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 101–102: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1966-05-05.vietnam-congress
     when: May 5
     date: '1966-05-05'
@@ -643,7 +703,13 @@ entries:
     date: '1966-05-05'
     thread: china-leadership
     c: 'Shanghai. Mao receives the Albanian party and government delegation under Mehmet Shehu, and dines with it, Zhou Enlai, Lin Biao, Deng Xiaoping and Wu Xiuquan present. He speaks of his death and of revisionism: Marx''s and Engels''s party was taken from them by their heirs, the USSR''s by Khrushchev; for China two possibilities, revisionism taking Peking, or a part of the leadership splitting. "We are at dusk," so he means to clear out bourgeois restoration while he has breath.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 5, 1966; [[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 5, 1966; Zhou with Shehu at Mao''s reception that afternoon). Made public: 2013. Names: Mao Zedong, Mehmet Shehu, Zhou Enlai, Lin Biao, Deng Xiaoping, Wu Xiuquan. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 5, 1966; [[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 5, 1966; Zhou with Shehu at Mao''s reception that afternoon); [[w.zhonghua-renmin-gongheguo-waijiao]], 99 (Apr. 26–May 11, 1966; Shehu''s visit, Apr. 26–May 11; Mao receives the delegation; Liu and Zhou talks, complete agreement). Made public: 2013. Names: Mao Zedong, Mehmet Shehu, Zhou Enlai, Lin Biao, Deng Xiaoping, Wu Xiuquan. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: ba88d720
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, May 5, 1966: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 30: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 99: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, polity:prc, polity:albania, vis:only:prc+albania@C-E]
   - id: cal.1966-05-05.china-leadership-2
     when: May 5–7
@@ -682,6 +748,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 46: all'
     tags: [polity:prc]
+  - id: cal.1966-05-05.china-leadership-5
+    when: May 5
+    date: '1966-05-05'
+    thread: china-leadership
+    also: [europe-and-the-alliance-britain]
+    c: Chen Yi receives a British freelance journalist and his wife and answers his questions.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 102 (May 5, 1966). Names: Chen Yi. Check: the journalist''s name, from the Chinese 吉尔德各他.'
+    src:
+      c: 5ddc0431
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 102: all'
+    tags: [polity:prc, polity:uk, name:chen-yi]
   - id: cal.1966-05-06.opinion
     when: May 6
     date: '1966-05-06'
@@ -991,7 +1069,12 @@ entries:
     thread: china-leadership
     also: [testing, china]
     c: China explodes a nuclear device with thermonuclear material. Before the test Zhou Enlai telephones Zhang Aiping and Liu Xiyao at the test front command post several times on aircraft loading and weather, and reports to the Standing Committee members in Peking and to Mao away from the capital. After it succeeds he credits leaders, experts and masses together, education, research and production together.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 9, 1966). Made public: 2020. Names: Zhou Enlai, Zhang Aiping, Liu Xiyao, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 9, 1966); [[w.zhonghua-renmin-gongheguo-waijiao]], 102 (May 9, 1966; Xinhua''s press communique on the test: a thermonuclear explosion over the west; defensive, no first use, the final aim to abolish nuclear arms). Made public: 2020. Names: Zhou Enlai, Zhang Aiping, Liu Xiyao, Mao Zedong.'
+    src:
+      c: ce9edb43
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 30: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 102: A'
     tags: [name:zhou-enlai, name:zhang-aiping, name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1966-05-09.china-leadership-3
     when: May 9
@@ -1009,6 +1092,18 @@ entries:
       - 1966-05-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-09.china
+    when: May 9
+    date: '1966-05-09'
+    thread: china
+    also: [europe-and-the-alliance]
+    c: Shen Weiliang, counsellor of China's chargé d'affaires' office in the Netherlands, calls on the deputy head of the Dutch Foreign Ministry's Eastern department, Claus, and says China is surprised at the Dutch justice ministry's announced expulsion of 300 overseas Chinese. The matter touches many Chinese closely; with diplomatic relations, it should be settled by consultation; China cannot agree to the one-sided, unreasonable step, and reserves the right to ask more.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 103 (May 9, 1966). Check: the names, from the Chinese 沈韦良 and 克劳斯.'
+    src:
+      c: e60d1fc1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 103: all'
+    tags: [polity:prc, polity:netherlands]
   - id: cal.1966-05-10.open-housing-ca
     when: May 10
     date: '1966-05-10'
@@ -1383,6 +1478,17 @@ entries:
       - 1966-05-11T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-11.china
+    when: May 11
+    date: '1966-05-11'
+    thread: china
+    c: Zhou and Shehu sign the China–Albania joint statement.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 99 (May 11, 1966). Names: Zhou Enlai.'
+    src:
+      c: ae7238a8
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 99: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
   - id: cal.1966-05-12.vietnam-congress
     when: May 12
     date: '1966-05-12'
@@ -1559,6 +1665,18 @@ entries:
       - 1966-05-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-12.china
+    when: May 12
+    date: '1966-05-12'
+    thread: china
+    also: [vietnam-hanoi]
+    c: The spokesman of the Ministry of National Defense says U.S. fighter planes entered the airspace of the northeast of Maguan, in Yunnan, and made a sudden attack on a Chinese aircraft in training flight. He sternly condemns the U.S. war provocation and makes the strongest protest.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 103 (May 12, 1966).'
+    src:
+      c: 61c349a9
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 103: all'
+    tags: [polity:prc, polity:us]
   - id: cal.1966-05-13.cities-and-housing
     when: May 13
     date: '1966-05-13'
@@ -1738,6 +1856,30 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 495: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+romania]
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-13.china
+    when: May 13
+    date: '1966-05-13'
+    thread: china
+    also: [vietnam-hanoi]
+    c: 'The Foreign Ministry''s statement on the Thanom government''s announcement of May 3 that Thailand will send naval and air units to fight in South Vietnam: a grave step to openly joining the U.S. war in Vietnam, putting Thailand at enmity with the peoples of Indochina and Southeast Asia. China fully backs the DRV government''s stand and strongly condemns the Thai government''s provocation.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 103 (May 13, 1966).'
+    src:
+      c: a1b5ee04
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 103: all'
+    tags: [polity:prc, polity:thailand, polity:drv]
+  - id: cal.1966-05-13.china-leadership-3
+    when: May 13
+    date: '1966-05-13'
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Chen Yi, receiving Morocco''s ambassador, Filali, on the third non-aligned conference: the two earlier ones show that a third, unless anti-imperialism and anti-colonialism are its main business, in today''s world situation, would do doubtful good. Without support for the Vietnamese people against the U.S. war it would have no meaning, would reach nothing even if held, and might be used by the U.S.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 103–104 (May 13, 1966). Made public: 2002. Names: Chen Yi.'
+    src:
+      c: aca089c2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 103–104: all'
+    tags: [polity:prc, polity:morocco, name:chen-yi, vis:only:prc+morocco]
   - id: cal.1966-05-14.students
     when: May 14
     date: '1966-05-14'
@@ -2482,6 +2624,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 43–44: all'
     tags: [polity:prc]
+  - id: cal.1966-05-17.china-leadership-5
+    when: May 17
+    date: '1966-05-17'
+    thread: china-leadership
+    also: [europe-and-the-alliance]
+    c: Chen Yi receives journalists from Denmark, Finland, Norway and Sweden. Asked about peaceful coexistence of states of different systems, he says China gets on well with the four on the Five Principles, so the barrier to coexistence is not socialist China but the imperialist states, above all the U.S., which refuses the Five Principles and invades, controls and meddles everywhere.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 104 (May 17, 1966). Names: Chen Yi.'
+    src:
+      c: d462710b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 104: all'
+    tags: [polity:prc, polity:denmark, polity:finland, polity:norway, polity:sweden, name:chen-yi]
   - id: cal.1966-05-18.defense
     when: May 18
     date: '1966-05-18'
@@ -2611,6 +2765,18 @@ entries:
     c: 'Zhou Enlai consults Yang Chengwu and the Peking Military Region on moving troops to strengthen the guard of the capital, and reports in writing to Mao: the 189th Division of the 63rd Army, at Shijiazhuang, and the 193rd Division of the 65th Army, at Zhangjiakou, to come to Peking for garrison duty, Fu Chongbi garrison commander. When they arrive, the guard of the key offices in Peking and of the broadcast and propaganda organs is to be re-ordered. Mao reads it and writes: do as proposed.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 31 (May 18, 1966). Made public: 2020. See [[cal.1966-05-18.china-leadership-2]]. Names: Zhou Enlai, Yang Chengwu, Mao Zedong, Fu Chongbi.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1966-05-18.china
+    when: May 18
+    date: '1966-05-18'
+    thread: china
+    also: [indonesia]
+    c: Foreign Ministry note to the Indonesian embassy, in anger at Indonesia's note of May 5 denying anti-Chinese acts and rejecting the Chinese government's four demands for the return of the victimized overseas Chinese. It demands again that Indonesia arrange ships to send home those who wish to go, and says that until Indonesia meets its duty China will shortly send ships to bring them back, and proposes that the two governments at once hold talks on the arrangements.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 104 (May 18, 1966).'
+    src:
+      c: e2d47aa1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 104: all'
+    tags: [polity:prc, polity:indonesia]
   - id: cal.1966-05-19.europe-and-the-alliance-france
     when: May 19
     date: '1966-05-19'
@@ -3290,6 +3456,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 44: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1966-05-23.china
+    when: May 23
+    date: '1966-05-23'
+    thread: china
+    also: [middle-east]
+    c: Huang Hua, China's ambassador to the UAR, calls on the UAR Foreign Ministry's state secretary, Fiqi, and states China's stand on a world disarmament conference. The U.N. is run by the U.S., which keeps China from its rights; China has no ties with it and will join no disarmament conference connected with it. Even one apart from the U.N., while the U.S. presses its aggression in South Vietnam, bombs the DRV and threatens to carry the war to all Indochina and China, to sit with the U.S. on disarmament would be pointless, would turn the peoples' eyes from the target, and is not proper now.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 105 (May 23, 1966). Names: Huang Hua. Check: the state secretary''s name, from the Chinese 费基.'
+    src:
+      c: 6dcbed81
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 105: all'
+    tags: [polity:prc, polity:uar, polity:un, name:huang-hua]
   - id: cal.1966-05-24.elections-1966
     when: May 24
     date: '1966-05-24'
@@ -3607,6 +3785,18 @@ entries:
       - 1966-05-25T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-25.china-leadership-5
+    when: May 25
+    date: '1966-05-25'
+    thread: china-leadership
+    also: [latin-america]
+    c: Zhou cables Guyana's prime minister, Forbes Burnham, to congratulate him on Guyana's independence.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 105 (May 25, 1966). Names: Zhou Enlai, Forbes Burnham.'
+    src:
+      c: b1d705e3
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 105: all'
+    tags: [polity:prc, polity:guyana, name:zhou-enlai, name:burnham-forbes]
   - id: cal.1966-05-26.vietnam
     when: May 26
     date: '1966-05-26'
@@ -3997,12 +4187,13 @@ entries:
     thread: china-leadership
     also: [testing]
     c: Zhou Enlai receives a Chilean parliamentary delegation under the second vice-president of the Chamber (Xiboli Kalousi, 席博里·卡洛斯). Small countries often do great things; China as a large one takes care to do no injustice nor meddle in others' affairs. China's tests are for defence and world peace; China will never use nuclear weapons first, and wants all banned and destroyed. The U.S.–Soviet non-proliferation treaty aims at China and at isolating it. At home output has risen but is small beside need; keep the economy in proportion; big cities strain supply and traffic.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 32–33 (May 27, 1966); [[w.zhou-enlai-waijiao-huodong]], 495 (May 27, 1966; afternoon, Beijing Hall, Great Hall of the People; the book names the delegation''s head 席博里·卡洛斯; the nuclear-test and treaty remarks are in the book at the same place). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 32–33 (May 27, 1966); [[w.zhou-enlai-waijiao-huodong]], 495 (May 27, 1966; afternoon, Beijing Hall, Great Hall of the People; the book names the delegation''s head 席博里·卡洛斯; the nuclear-test and treaty remarks are in the book at the same place); [[w.zhonghua-renmin-gongheguo-waijiao]], 105 (May 27, 1966; the Chilean delegation under the Chamber''s second vice-president: small states do big things; China, a big state, watches not to do wrong or interfere). Made public: 2020. Names: Zhou Enlai.'
     src:
       c: 3a276839
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 32–33: ?'
         - 'w.zhou-enlai-waijiao-huodong 495: A-F'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 105: A'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc+chile]
   - id: cal.1966-05-27.china-leadership-2
     when: May 27
@@ -4188,6 +4379,18 @@ entries:
     c: Tsinghua University Middle School forms the first Red Guard organization in the country.
     n: '[[w.zedong-mao-zedong-nianpu]], V, May 29, 1966. Made public: Check (the founding; the school''s posters of June 24 and July 4, in *Hongqi*, no. 11, Aug. 21, 1966).'
     tags: [polity:prc]
+  - id: cal.1966-05-29.china
+    when: May 29
+    date: '1966-05-29'
+    thread: china
+    also: [vietnam-hanoi]
+    c: The spokesman of the Ministry of National Defense makes the strongest protest at the U.S. aircraft's attack on the 28th on Chinese fishing boats on the high seas of the Gulf of Tonkin, which killed or wounded more than 20 fishermen.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 106 (May 29, 1966).'
+    src:
+      c: 1d036bac
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 106: all'
+    tags: [polity:prc, polity:us]
   - id: cal.1966-05-30.vietnam-struggle
     when: May 30
     date: '1966-05-30'
@@ -4254,6 +4457,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 496: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-30.china
+    when: May 30
+    date: '1966-05-30'
+    thread: china
+    also: [laos, soviet-union]
+    c: China and the Soviet Union sign, at Beijing, an exchange of notes on the transit through China of Soviet aid supplies for Laos.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 106 (May 30, 1966).'
+    src:
+      c: fe8612f3
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 106: all'
+    tags: [polity:prc, polity:ussr]
   - id: cal.1966-05-31.vietnam-struggle
     when: May 31
     date: '1966-05-31'

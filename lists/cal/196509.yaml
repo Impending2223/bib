@@ -206,6 +206,18 @@ entries:
       - 1965-09-01T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-01.china
+    when: Sept. 1
+    date: '1965-09-01'
+    thread: china
+    also: [europe-and-the-alliance-britain]
+    c: 'Foreign Ministry note to the British chargé d''affaires'' office: strong protest at the British government''s permitting U.S. forces to use Hong Kong as a base for the war in Vietnam.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 48 (Sept. 1, 1965).'
+    src:
+      c: edaa8fa3
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 48: all'
+    tags: [polity:prc, polity:uk, polity:us]
   - id: cal.1965-09-02.students
     when: Sept. 2
     date: '1965-09-02'
@@ -428,7 +440,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou, at Ambassador Trần Tử Bình''s national-day reception: sharply condemns the U.S. for playing a peace-talk fraud on Vietnam; China''s people firmly support the Vietnamese to fight the U.S. to the end.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 2, 1965). Names: Zhou Enlai, Trần Tử Bình.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 754 (Sept. 2, 1965); [[w.zhonghua-renmin-gongheguo-waijiao]], 48 (Sept. 2, 1965; Zhou''s speech: the peace-talk plot; just against unjust, no conciliation; the U.N. has no right to meddle). Names: Zhou Enlai, Trần Tử Bình.'
+    src:
+      c: 63088b45
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 754: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 48: A'
     tags: [name:zhou-enlai, polity:prc, polity:drv]
   - id: cal.1965-09-02.china-leadership
     when: Sept. 2
@@ -566,11 +583,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Pakistan's ambassador at the Xihuating, Zhongnanhai, who passes on a telegram from Foreign Minister Bhutto.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 3, 1965; 6 p.m., Xihuating, Zhongnanhai). The book names the ambassador 罗查. Names: Zhou Enlai, Bhutto.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 476 (Sept. 3, 1965; 6 p.m., Xihuating, Zhongnanhai); [[w.zhonghua-renmin-gongheguo-waijiao]], 48 (Sept. 3, 1965; Raza: Pakistan''s counterattack just; the U.N. sided with India). The book names the ambassador 罗查. Names: Zhou Enlai, Bhutto.'
     src:
       c: 3c5b3b31
       rows:
         - 'w.zhou-enlai-waijiao-huodong 476: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 48: all'
     tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-03.china-leadership-4
@@ -585,6 +603,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 476: all'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+  - id: cal.1965-09-03.china-leadership-5
+    when: Sept. 3
+    date: '1965-09-03'
+    thread: china-leadership
+    also: [latin-america]
+    c: Mao and Zhou receive the Mexican public figure General Heriberto Jara.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 48 (Sept. 3, 1965). Names: Mao Zedong, Zhou Enlai.'
+    src:
+      c: 72f419ef
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 48: all'
+    tags: [polity:prc, polity:mexico, name:mao-zedong, name:zhou-enlai]
   - id: cal.1965-09-04.alabama
     when: Sept. 4
     date: '1965-09-04'
@@ -630,6 +660,18 @@ entries:
     c: Zhou attends the Politburo meeting, which hears Health Minister Qian Xinzhong and in the main agrees to the Ministry party committee's report shifting health work's weight to the countryside.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 4, 1965). Made public: 1997. Names: Zhou Enlai, Qian Xinzhong.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-09-04.china-leadership-2
+    when: Sept. 4
+    date: '1965-09-04'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Chen Yi, on his way abroad, arrives at Karachi. At a press conference he says China fully sympathizes with and supports the Kashmiri people''s just struggle against India''s brutal rule, strongly condemns India''s breaking of the cease-fire line and widening of the conflict, and firmly supports Pakistan''s just counteraction. The Kashmir question should be settled by the Kashmiris'' wishes, by the pledge India and Pakistan gave them. On Vietnam: the "Vietnam question" is the U.S. aggression; any mediation that does not weigh right and wrong serves the U.S.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 48–49 (Sept. 4, 1965). Names: Chen Yi.'
+    src:
+      c: 7959496e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 48–49: all'
+    tags: [polity:prc, polity:pakistan, polity:india, name:chen-yi]
   - id: cal.1965-09-05.vietnam-air-war
     when: Sept. 5
     date: '1965-09-05'
@@ -641,6 +683,18 @@ entries:
       rows:
         - 'w.staaveren-gradual-failure 173: all'
         - 'via x.1965-09-16.pacaf-di-rpt-effects-of-air-ops: ?'
+  - id: cal.1965-09-05.china-leadership
+    when: Sept. 5–6
+    date: '1965-09-05'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi visits Syria. He calls on the chairman of the Presidential Council, Amin al-Hafiz, and holds talks with its vice-chairman, Nur al-Din al-Atasi, the Arab Baath Socialist Party's secretary-general, Munif al-Razzaz, and Foreign Minister Hasan Murawid.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965). Names: Chen Yi, Nur al-Din al-Atasi.'
+    src:
+      c: 63a5a901
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 49: all'
+    tags: [polity:prc, polity:syria, name:chen-yi, name:al-atasi-nur-al-din]
   - id: cal.1965-09-06.foreign-aid
     when: Sept. 6
     date: '1965-09-06'
@@ -830,12 +884,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Pakistani ambassador Raza on the spread of the local Kashmir clash between India and Pakistan to a general one. The Chinese government issues a statement the same day.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 7, 1965); [[w.zhou-enlai-waijiao-huodong]], 476–77 (Sept. 7, 1965; 5:20 p.m., Xihuating, Zhongnanhai; a talk alone with Pakistan''s ambassador). Made public: 1997. Names: Zhou Enlai, Raza.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 7, 1965); [[w.zhou-enlai-waijiao-huodong]], 476–77 (Sept. 7, 1965; 5:20 p.m., Xihuating, Zhongnanhai; a talk alone with Pakistan''s ambassador); [[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 7, 1965; Zhou receives Pakistan''s ambassador Raza on India''s widening of its aggression). Made public: 1997. Names: Zhou Enlai, Raza.'
     src:
       c: af20b66b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 755: ?'
         - 'w.zhou-enlai-waijiao-huodong 476–77: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 49: A'
     tags: [name:zhou-enlai, polity:prc, polity:pakistan, vis:only:prc+pakistan]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-07.china-leadership-2
@@ -852,6 +907,30 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 476: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-07.china
+    when: Sept. 7
+    date: '1965-09-07'
+    thread: china
+    also: [south-asia]
+    c: The government's statement condemns India's armed attack on Pakistan and firmly supports Pakistan's struggle against aggression. It says the Chinese government is watching India's moves closely and is tightening vigilance on the border.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 7, 1965).'
+    src:
+      c: 659ee9ae
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 49: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
+  - id: cal.1965-09-07.china-leadership-3
+    when: Sept. 7–9
+    date: '1965-09-07'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi visits Algeria. He calls on Boumedienne, chairman of the Revolutionary Council and prime minister, and holds talks with Foreign Minister Abdelaziz Bouteflika.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49–50 (Sept. 7–9, 1965). Names: Chen Yi, Boumedienne, Bouteflika.'
+    src:
+      c: a3add6e0
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 49–50: all'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:boumediene-houari, name:bouteflika-abdel-aziz]
   - id: cal.1965-09-08.jobs-and-wages-ca
     when: Sept. 8
     date: '1965-09-08'
@@ -938,13 +1017,50 @@ entries:
     thread: china-leadership
     also: [middle-east, china]
     c: 'Zhou answers in writing questions of Kamal Amer, editor of the Middle East News Agency, then in China: the chief threat to peace is U.S. imperialism''s policies of aggression and war. The Asian-African Conference is of Asian and African states; the Soviet Union is neither, and has no standing to attend; the first conference for this reason did not invite it; China will struggle to the end to hold the principle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 8, 1965); [[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 8, 1965; written reply to the questions of the chief editor of the Middle East News Agency, then visiting China (the book names him 卡迈勒·阿密尔); the book has Zhou holding that the Soviet Union, neither an Asian nor an African state, has no standing at the Afro-Asian conference, that renewed pressure by some states to invite it aims to split Asian and African unity and endanger the second conference, and that China will fight to the end for the principle). Names: Zhou Enlai, Kamal Amer.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 8, 1965); [[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 8, 1965; written reply to the questions of the chief editor of the Middle East News Agency, then visiting China (the book names him 卡迈勒·阿密尔); the book has Zhou holding that the Soviet Union, neither an Asian nor an African state, has no standing at the Afro-Asian conference, that renewed pressure by some states to invite it aims to split Asian and African unity and endanger the second conference, and that China will fight to the end for the principle); [[w.zhonghua-renmin-gongheguo-waijiao]], 50 (Sept. 8, 1965; Zhou''s written answers to the Middle East News Agency''s editor, Kamal Amer: Vietnam, the U.N., the Soviet Union and the second Afro-Asian Conference). Names: Zhou Enlai, Kamal Amer.'
     src:
       c: 1b1e79d6
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 755: ?'
         - 'w.zhou-enlai-waijiao-huodong 477: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 50: A'
     tags: [name:zhou-enlai, polity:prc, polity:uar]
+  - id: cal.1965-09-08.china
+    when: Sept. 8
+    date: '1965-09-08'
+    thread: china
+    also: [south-asia]
+    c: 'The China–Nepal press communique, issued: both sides reaffirm respect for Vietnam''s unity, integrity and sovereignty, and its people''s right to settle their own affairs with no foreign interference. They agree a successful second Afro-Asian Conference will serve world peace and Afro-Asian unity.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 46 (Sept. 8, 1965).'
+    src:
+      c: e6abe703
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 46: all'
+    tags: [polity:prc, polity:nepal]
+  - id: cal.1965-09-08.china-leadership-2
+    when: Sept. 8
+    date: '1965-09-08'
+    thread: china-leadership
+    also: [south-asia]
+    c: Liu Shaoqi receives Pakistan's ambassador, Raza, and asks him to carry a reply to President Ayub Khan; they talk of India's aggression against Pakistan.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 50 (Sept. 8, 1965). Names: Liu Shaoqi, Ayub Khan.'
+    src:
+      c: 2c9b2b28
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 50: all'
+    tags: [polity:prc, polity:pakistan, polity:india, name:liu-shaoqi, name:ayub-khan-mohammad]
+  - id: cal.1965-09-08.china-2
+    when: Sept. 8
+    date: '1965-09-08'
+    thread: china
+    also: [south-asia]
+    c: 'Foreign Ministry note to the Indian government, a strong protest at continuing Indian violations of Chinese territory and sovereignty. The note says India''s August provocations in the western sector of the Sino-Indian border are no isolated acts: they came as India armed-repressed the Kashmiri people and widened its armed aggression on Pakistan. China must give this grave attention and tighten its border guard.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 50–51 (Sept. 8, 1965).'
+    src:
+      c: 5c3eb59e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 50–51: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
   - id: cal.1965-09-09.cities-and-housing
     when: Sept. 9
     date: '1965-09-09'
@@ -1085,17 +1201,30 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou, with Liu Shaoqi, Deng Xiaoping and other Party and state leaders, attends the National Day reception given by the North Korean embassy's chargé d'affaires.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 9, 1965; evening; Beijing). The book names the chargé 郑凤珪. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 9, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 51 (Sept. 9, 1965; Zhou''s speech at the North Korean embassy''s National Day reception: India the aggressor; China firmly backs Pakistan and the Kashmiris'' self-determination, and warns India). The book names the chargé 郑凤珪. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: ca61e29e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 477: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 51: all'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
     time_range:
       - 1965-09-09T11:00Z
       - 1965-09-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-09.china-leadership-3
+    when: Sept. 9
+    date: '1965-09-09'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi begins a visit to Mali, to Sept. 15.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 51–52 (Sept. 9–15, 1965; the visit; Modibo Keita receives him; talks with Jean-Marie Koné, minister of state for planning and economic coordination, whom the chronology calls acting president; no days given). Names: Chen Yi. Check: Koné''s name, from the Chinese 让-马里·科奈.'
+    src:
+      c: 85999f3e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 51–52: all'
+    tags: [polity:prc, polity:mali, name:chen-yi, name:keita-modibo]
   - id: cal.1965-09-10.economy
     when: Sept. 10
     date: '1965-09-10'
@@ -1327,6 +1456,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 477: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-10.china-leadership-3
+    when: Sept. 10
+    date: '1965-09-10'
+    thread: china-leadership
+    also: [africa]
+    c: 'Chen Yi, at his reception at Bamako: the new Afro-Asian states meet difficulties in building; by self-reliance, holding their economic lifelines, drawing out their people''s initiative, developing their own resources, helping one another and resisting imperialism''s demands, they can overcome them and beat the plots of imperialism and old and new colonialism.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 51–52 (Sept. 10, 1965). See [[cal.1965-09-09.china-leadership-3]]. Names: Chen Yi.'
+    src:
+      c: f396b7c4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 51–52: all'
+    tags: [polity:prc, polity:mali, name:chen-yi]
   - id: cal.1965-09-11.vietnam
     when: Sept. 11
     date: '1965-09-11'
@@ -1795,6 +1936,42 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 477: A'
     tags: [name:zhou-enlai, polity:prc, polity:mali]
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-14.china
+    when: Sept. 14
+    date: '1965-09-14'
+    thread: china
+    also: [south-asia]
+    c: 'Foreign Ministry note to the Indian embassy: protest at the Indian government''s forced closing and takeover of the Bank of China''s Calcutta branch and Bombay office, and its refusal for two years and ten months to return all the bank''s assets in India it seized. China calls it a rare international wrong, and demands compensation for all its losses and a clear reply.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 52 (Sept. 14, 1965).'
+    src:
+      c: 7bdbfbf8
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 52: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1965-09-14.china-leadership-2
+    when: Sept. 14
+    date: '1965-09-14'
+    thread: china-leadership
+    also: [africa]
+    c: Liu Shaoqi receives Fall Maktar, vice-president of the Federation of Black African Students in France, and its delegation.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 52 (Sept. 14, 1965). Names: Liu Shaoqi. Check: the name, from the Chinese 法尔·马克塔.'
+    src:
+      c: 3e59f647
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 52: all'
+    tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1965-09-14.china-2
+    when: Sept. 14
+    date: '1965-09-14'
+    thread: china
+    also: [africa]
+    c: China and Guinea sign, at Beijing, a postal agreement and a telecommunications agreement setting up direct links between them.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 52 (Sept. 14, 1965).'
+    src:
+      c: 506262c5
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 52: all'
+    tags: [polity:prc, polity:guinea]
   - id: cal.1965-09-15.latin-america
     when: Sept. 15
     date: '1965-09-15'
@@ -2080,11 +2257,12 @@ entries:
     date: '1965-09-15'
     thread: china-leadership
     c: Zhou receives the Cambodian royal court's representative at Phnom Penh and the mayor of Phnom Penh, with the Phnom Penh delegation he leads.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 15, 1965; afternoon; Beijing). The book names the mayor 狄潘. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 477 (Sept. 15, 1965; afternoon; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 52 (Sept. 15, 1965; Phnom Penh''s mayor and municipal delegation). The book names the mayor 狄潘. Names: Zhou Enlai.'
     src:
       c: 91509bfb
       rows:
         - 'w.zhou-enlai-waijiao-huodong 477: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 52: all'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-09-15T04:00Z
@@ -2105,6 +2283,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 477: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-15.china-leadership-4
+    when: Sept. 15–17
+    date: '1965-09-15'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi visits Guinea. President Sékou Touré receives him; Foreign Minister Lansana Béavogui holds talks with him.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 53 (Sept. 15–17, 1965). Names: Chen Yi.'
+    src:
+      c: e312f79a
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 53: all'
+    tags: [polity:prc, polity:guinea, name:chen-yi]
   - id: cal.1965-09-16.jobs-and-wages-ca
     when: Sept. 16
     date: '1965-09-16'
@@ -2259,6 +2449,18 @@ entries:
     c: 'Brezhnev sends the draft of his speech for the coming plenum to all members of the Central Committee: "I request comments."'
     n: '[[w.schattenberg-brezhnev]], 181 (the covering words, 181 n.75). To check: RGANI, f. 2, op. 1, d. 790, l. 1 (cited by [[w.schattenberg-brezhnev]], 181 n.75). Made public: 2021 at the latest. Names: Brezhnev.'
     tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr]
+  - id: cal.1965-09-16.china
+    when: Sept. 16
+    date: '1965-09-16'
+    thread: china
+    also: [south-asia]
+    c: Foreign Ministry note to the Indian embassy, a sharp condemnation of Indian incursions and provocations on the Sino-Indian and China–Sikkim borders. It demands that India within three days dismantle all its aggressive works on the Chinese side of the Sikkim border and astride the line, stop at once every incursion on both borders, return the border people taken and the livestock seized, and not repeat. Otherwise India bears all the grave consequences. The note says China's staying out of the India–Pakistan dispute does not mean it asks nothing of right and wrong, nor that it agrees to the denial of the Kashmiris' right of self-determination, nor to India's attack on Pakistan on the pretext of Kashmir.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 53 (Sept. 16, 1965).'
+    src:
+      c: 1b6902f5
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 53: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
   - id: cal.1965-09-17.mississippi
     when: Sept. 17
     date: '1965-09-17'
@@ -2628,6 +2830,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 478: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-18.china
+    when: Sept. 18
+    date: '1965-09-18'
+    thread: china
+    also: [vietnam-hanoi]
+    c: The Foreign Ministry's statement condemns the U.S. Marines for using poison gas on the people of the Vĩnh Quang area, north of Quy Nhơn in South Vietnam. China answers the call of the Vietnamese government and the National Liberation Front and asks the world's peoples to condemn and stop the U.S. crime and support the Vietnamese people's just struggle.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 53–54 (Sept. 18, 1965).'
+    src:
+      c: 6dff9f93
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 53–54: all'
+    tags: [polity:prc, polity:drv, polity:us]
   - id: cal.1965-09-19.republican-party
     when: Sept. 19
     date: '1965-09-19'
@@ -2661,6 +2875,18 @@ entries:
     c: Zhou, on Mao's instruction, with Liu Shaoqi, Deng Xiaoping, Luo Ruiqing and others calls a forum of the Military Commission on the development of the situation at home and abroad and its prospects as bearing on war, Sept. 19–21.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 756 (Sept. 19–21, 1965). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Luo Ruiqing.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:luo-ruiqing, polity:prc, vis:only:prc]
+  - id: cal.1965-09-19.china
+    when: Sept. 19
+    date: '1965-09-19'
+    thread: china
+    also: [south-asia]
+    c: 'The Foreign Ministry replies to the Indian embassy on India''s note of Sept. 7: China firmly demands that India dismantle, before midnight Sept. 22, all its aggressive works on the Chinese side of the Sikkim border and astride it, stop the incursions, return the border people and livestock, and not repeat. China fully supports the Kashmiri people''s struggle for self-determination, Pakistan''s resistance to India''s aggression, and the wish of India''s neighbors to keep their independence, neutrality and domestic affairs free of interference.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 54 (Sept. 19, 1965).'
+    src:
+      c: d1ff1ac2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 54: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1965-09-20.india-and-china
     when: Sept. 20–22
     date: '1965-09-20'
@@ -2758,6 +2984,18 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 123: all'
         - 'via w.debenedetti-american-ordeal 123 n.92: all'
+  - id: cal.1965-09-20.china-leadership
+    when: Sept. 20
+    date: '1965-09-20'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Chen Yi talks with Afghanistan''s prime minister, Yusuf, at Kabul airport. On the India–Pakistan war: both are Asian and China would not take sides, but India would not dare act without U.S., British and Soviet backing. Only after Pakistan''s request for help from the U.S. and Britain was refused did China give support, for humanity''s sake, and take limited action to hold India back and stop the conflict widening.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 54 (Sept. 20, 1965). Made public: 2002. Names: Chen Yi.'
+    src:
+      c: c4e96597
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 54: all'
+    tags: [polity:prc, polity:afghanistan, polity:pakistan, polity:india, name:chen-yi, vis:only:prc+afghanistan@B-C]
   - id: cal.1965-09-21.vietnam
     when: Sept. 21
     date: '1965-09-21'
@@ -2892,11 +3130,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou and He Long receive Maladi, chairman of the Federation of the Games of the New Emerging Forces, and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; afternoon; Beijing). Names: Zhou Enlai, He Long.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; afternoon; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 55 (Sept. 21, 1965; Zhou and He Long receive the GANEFO council''s chairman, Maladi, and its other officers). Names: Zhou Enlai, He Long.'
     src:
       c: 02b9dc28
       rows:
         - 'w.zhou-enlai-waijiao-huodong 478: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 55: all'
     tags: [polity:prc, name:zhou-enlai, name:he-long]
     time_range:
       - 1965-09-21T04:00Z
@@ -2927,11 +3166,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou, to Pakistan''s ambassador and an air force colonel at the Xihuating: all changes in the world are now very great; non-alignment becomes alliance and alliances lose their benefits, and communists can be true or false. Now that Indonesia, Pakistan and China stand together, they must also work to support Cambodia, standing on the anti-American front line.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; 9 p.m., Xihuating, Zhongnanhai). Made public: 1993. The book names the ambassador 罗查 and the colonel 苏菲. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 21, 1965; 9 p.m., Xihuating, Zhongnanhai); [[w.zhonghua-renmin-gongheguo-waijiao]], 54 (Sept. 21, 1965; Zhou to Pakistan''s ambassador: non-alignment turned into alignment; Indonesia, Pakistan and China stand together; support for Cambodia). Made public: 1993. The book names the ambassador 罗查 and the colonel 苏菲. Names: Zhou Enlai.'
     src:
       c: 59550d45
       rows:
         - 'w.zhou-enlai-waijiao-huodong 478: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 54: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+pakistan]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-22.immigration
@@ -3115,12 +3355,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou receives the Indonesian economic delegation. The Museum of the Chinese Revolution shows only part of the revolution, incomplete, with more of the good and successful than of errors and setbacks; to be added to. Experience of success alone is partial; we face errors and find how to correct them, and so go forward.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 756–57 (Sept. 22, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 22, 1965; 8 p.m., Hunan Hall, Great Hall of the People; the delegation led by Indonesia''s minister for budget affairs (the book names him 努尔亚迪)). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 756–57 (Sept. 22, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 22, 1965; 8 p.m., Hunan Hall, Great Hall of the People; the delegation led by Indonesia''s minister for budget affairs (the book names him 努尔亚迪)); [[w.zhonghua-renmin-gongheguo-waijiao]], 53 (Sept. 16–Oct. 7, 1965; Surjadi''s economic delegation, Sept. 16 to Oct. 7; Mao, Liu Shaoqi and Zhou receive him; Li Xiannian''s talks; the economic and technical cooperation, trade and payments agreements, no day given); [[w.zhonghua-renmin-gongheguo-waijiao]], 53 (Sept. 16–Oct. 7, 1965; Zhou receives the Indonesian economic delegation). Names: Zhou Enlai.'
     src:
       c: ced4c376
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 756–57: ?'
         - 'w.zhou-enlai-waijiao-huodong 478: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 53: A'
     tags: [name:zhou-enlai, polity:prc, polity:indonesia]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-22.china-leadership-2
@@ -3469,6 +3710,18 @@ entries:
       - 1965-09-24T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-24.china
+    when: Sept. 24
+    date: '1965-09-24'
+    thread: china
+    also: [south-asia]
+    c: 'Foreign Ministry note to the Indian embassy, answering India''s note of Sept. 21: India has withdrawn the invading troops within the time China set and razed part of the aggressive works; Chinese border troops now fully control the scene and hold much evidence; to go on denying and quibbling would only lose India face before the world. China is a reasonable, principled state; it will never commit aggression nor let others do so; it will oppose aggressors and support the victims.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 56 (Sept. 24, 1965).'
+    src:
+      c: 62eaeaaf
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 56: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1965-09-25.vietnam-force-levels
     when: Sept. 25
     date: '1965-09-25'
@@ -3508,6 +3761,29 @@ entries:
     c: Li Zongren holds a press conference for Chinese and foreign journalists at the CPPCC auditorium.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 26, 1965). See [[cal.1965-09-23.china-leadership-2]]. Names: Li Zongren.'
     tags: [polity:prc]
+  - id: cal.1965-09-26.china
+    when: Sept. 26
+    date: '1965-09-26'
+    thread: china
+    c: The Foreign Ministry's statement strongly protests the International Red Cross Standing Commission's invitation of a delegation of the Kuomintang clique and its so-called Red Cross to the coming 20th International Red Cross Conference, against China's and the Chinese Red Cross's repeated protests, in step with the U.S. plot for "two Chinas". The Chinese government will send no delegation and will cut all ties with the Commission.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 56 (Sept. 26, 1965).'
+    src:
+      c: c1fb5b24
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 56: all'
+    tags: [polity:prc, polity:roc]
+  - id: cal.1965-09-26.china-2
+    when: Sept. 26
+    date: '1965-09-26'
+    thread: china
+    also: [south-asia]
+    c: 'Foreign Ministry note to the Indian embassy, a strong protest at a mob that came to the Chinese embassy in New Delhi on the afternoon of Sept. 24, led by Indian officials and Congress leaders and driving a flock of sheep, shouting that China would start a world war for a few sheep and yaks. The note says the questions between China and India are far more than a few sheep and yaks: every Indian incursion, harassment and armed provocation touches China''s sovereignty and territorial integrity. India''s government should know that everything has its limit.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 56–57 (Sept. 26, 1965).'
+    src:
+      c: c82f03ef
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 56–57: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1965-09-27.states-and-cities
     when: Sept. 27–29
     date: '1965-09-27'
@@ -3636,12 +3912,13 @@ entries:
     date: '1965-09-28'
     thread: china-leadership
     c: Zhou, with Liu Shaoqi, Dong Biwu, Zhu De and others, meets Sihanouk and party at the airport, come for the sixteenth anniversary of the People's Republic and a state visit.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 28, 1965); [[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 28, 1965; morning, Beijing airport; Sihanouk and the Princess, invited to the sixteenth anniversary celebrations and on a state visit, arrive by special plane from Wuhan with Chen Yi and his wife Zhang Qian; Liu Shaoqi and Wang Guangmei, Dong Biwu and Zhu De also welcome them). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 28, 1965); [[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 28, 1965; morning, Beijing airport; Sihanouk and the Princess, invited to the sixteenth anniversary celebrations and on a state visit, arrive by special plane from Wuhan with Chen Yi and his wife Zhang Qian; Liu Shaoqi and Wang Guangmei, Dong Biwu and Zhu De also welcome them); [[w.zhonghua-renmin-gongheguo-waijiao]], 55 (Sept. 22–Oct. 16, 1965; Sihanouk''s visit, Sept. 22–Oct. 4 and Oct. 10–16; Mao receives him; Liu and Zhou talks). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Sihanouk.'
     src:
       c: e8044d47
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 757: ?'
         - 'w.zhou-enlai-waijiao-huodong 479: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 55: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:norodom-sihanouk, polity:prc, polity:cambodia]
   - id: cal.1965-09-28.china-leadership-2
     when: Sept. 28
@@ -3675,6 +3952,29 @@ entries:
       - 1965-09-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-28.china-leadership-4
+    when: Sept. 28
+    date: '1965-09-28'
+    thread: china-leadership
+    c: 'Mao receives five Albanian delegations: of the Ministry of the Interior, science and technology, journalists, photographers and film workers.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 57 (Sept. 28, 1965). Names: Mao Zedong.'
+    src:
+      c: 610f3c7a
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 57: all'
+    tags: [polity:prc, polity:albania, name:mao-zedong]
+  - id: cal.1965-09-28.china
+    when: Sept. 28
+    date: '1965-09-28'
+    thread: china
+    also: [korea]
+    c: The Foreign Ministry's statement supports the North Korean Foreign Ministry's statement against the U.N. General Assembly's attempt, under U.S. management, to discuss the "Korean question" again illegally. The U.N. has no standing to discuss it.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 58 (Sept. 28, 1965).'
+    src:
+      c: ac900b41
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 58: all'
+    tags: [polity:prc, polity:dprk, polity:un]
   - id: cal.1965-09-29.program
     when: Sept. 29
     date: '1965-09-29'
@@ -3880,6 +4180,17 @@ entries:
       - 1965-09-29T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-29.china-leadership-5
+    when: Sept. 29
+    date: '1965-09-29'
+    thread: china-leadership
+    c: 'Chen Yi holds a press conference for Chinese and foreign journalists on the government''s foreign policy and the world situation. The U.S. war in Vietnam must end in a Vietnamese win and a U.S. loss, and the Chinese people stand unconditionally with the Vietnamese. The second Afro-Asian Conference must be well held: if it can be, China is for holding it; if not, wait till conditions are ripe. The U.N. is now a political exchange of a few great powers, ruled by the U.S., and must be thoroughly reorganized.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 58 (Sept. 29, 1965). Names: Chen Yi.'
+    src:
+      c: 5dd8bd5d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 58: all'
+    tags: [polity:prc, polity:us, name:chen-yi]
   - id: cal.1965-09-30.alabama
     when: Sept. 30
     date: '1965-09-30'
@@ -4402,12 +4713,13 @@ entries:
     time: 1965-09-30T11:00Z
     thread: china-leadership
     c: 'Zhou speaks at the National Day reception in the Great Hall: in international affairs distinguish right from wrong; support the just, oppose the unjust; deadly enemies of aggressors and oppressors, good friends of peoples who resist aggression and oppression.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; 7 p.m., the National Day reception in the Great Hall of the People, with Mao, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De and Deng Xiaoping attending). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; 7 p.m., the National Day reception in the Great Hall of the People, with Mao, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De and Deng Xiaoping attending); [[w.zhonghua-renmin-gongheguo-waijiao]], 58–59 (Sept. 30, 1965; the speech: the Five Principles and the ten of Bandung; against imperialist aggression). Names: Zhou Enlai.'
     src:
       c: 56770f3e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 758: ?'
         - 'w.zhou-enlai-waijiao-huodong 480: A-C'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 58–59: A'
     tags: [name:zhou-enlai, polity:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-30.china-leadership-4
@@ -4417,13 +4729,14 @@ entries:
     thread: china-leadership
     also: [indonesia, africa, soviet-union]
     c: 'Zhou receives Haji Saleh, head of Indonesia''s provisional People''s Consultative Congress, Sept. 30 and Oct. 1. China still wants the Asian-African conference to meet and succeed; but obstacles stand: U.S.–Soviet cooperation, and use of the U.N., from outside and inside, to wreck it and lower its anti-imperialist, anti-colonial key. The Bandung spirit cannot fail; if no second conference, it will be raised higher.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30–Oct. 1, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; 5:30 p.m., Fujian Hall, Great Hall of the People; the delegation of Indonesia''s provisional People''s Consultative Congress under Haji Saleh (哈鲁尔·萨勒) and its vice-chairman Ali Sastroamidjojo, and the vice-chairman of the Gotong Royong parliament Subamia (苏巴米亚) and his wife); [[w.zhou-enlai-waijiao-huodong]], 480–81 (Oct. 1, 1965; 5:45 p.m., Building 17, Diaoyutai guesthouse; talks with Haji Saleh, chairman of Indonesia''s provisional People''s Consultative Congress, and vice-chairman Ali Sastroamidjojo). Made public: 1997. Names: Zhou Enlai, Haji Saleh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 758 (Sept. 30–Oct. 1, 1965); [[w.zhou-enlai-waijiao-huodong]], 480 (Sept. 30, 1965; 5:30 p.m., Fujian Hall, Great Hall of the People; the delegation of Indonesia''s provisional People''s Consultative Congress under Haji Saleh (哈鲁尔·萨勒) and its vice-chairman Ali Sastroamidjojo, and the vice-chairman of the Gotong Royong parliament Subamia (苏巴米亚) and his wife); [[w.zhou-enlai-waijiao-huodong]], 480–81 (Oct. 1, 1965; 5:45 p.m., Building 17, Diaoyutai guesthouse; talks with Haji Saleh, chairman of Indonesia''s provisional People''s Consultative Congress, and vice-chairman Ali Sastroamidjojo); [[w.zhonghua-renmin-gongheguo-waijiao]], 57 (Sept. 27–Oct. 4, 1965; Chaerul Saleh''s delegation, Sept. 27 to Oct. 4; Mao, Liu Shaoqi and Zhou each receive it; Zhou on the obstacles to the conference). Made public: 1997. Names: Zhou Enlai, Haji Saleh.'
     src:
       c: cee888a5
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 758: ?'
         - 'w.zhou-enlai-waijiao-huodong 480: A-D'
         - 'w.zhou-enlai-waijiao-huodong 480–81: A-E'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 57: A'
     tags: [name:zhou-enlai, polity:prc, polity:indonesia, vis:only:prc+indonesia]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-30.china-leadership-5
@@ -4433,11 +4746,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives in the Zhejiang Hall of the Great Hall of the People a Pakistani friendship delegation under the minister of commerce, and Lieutenant General Asghar Khan, head of Pakistan's civil aviation and tourism and managing director of Pakistan International Airlines.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 30, 1965; 9:15 a.m., Zhejiang Hall, Great Hall of the People). The book names the minister 法鲁克. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 479 (Sept. 30, 1965; 9:15 a.m., Zhejiang Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 58 (Sept. 29–Oct. 9, 1965; Ghulam Faruque''s delegation, Sept. 29 to Oct. 9; Zhou and Chen Yi receive it; Zhou: the conference may well not open). The book names the minister 法鲁克. Names: Zhou Enlai.'
     src:
       c: 4ef68312
       rows:
         - 'w.zhou-enlai-waijiao-huodong 479: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 58: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1965-09-30.china-leadership-6

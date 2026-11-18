@@ -51,7 +51,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Mao, Lin Biao and Zhou Enlai telegraph Hồ Chí Minh and others on the DRV''s twenty-third anniversary: the Vietnamese victory a contribution to peoples against American imperialism; seven hundred million Chinese will support the war to the end.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 1, 1968. Names: Mao Zedong, Lin Biao, Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 1, 1968. [[w.zhonghua-renmin-gongheguo-waijiao]], 201 (Sept. 1, 1968; the greetings on the 23rd anniversary: the protracted war). Names: Mao Zedong, Lin Biao, Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: 4ecb98ff
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Sept. 1, 1968: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 201: A'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:ho-chi-minh]
   - id: cal.1968-09-01.china-leadership-2
     when: Sept. 1
@@ -102,12 +107,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou Enlai attends and speaks at the reception given by Vietnam''s ambassador, Ngô Minh Loan, for the 23rd anniversary of Vietnam''s independence: if the Vietnamese people hold to protracted war and oppose capitulation and compromise they will certainly win final victory in the war against the Americans for national salvation.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 251 (Sept. 2, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Sept. 2, 1968; the reception given by Vietnam''s ambassador Ngô Minh Loan for the twenty-third anniversary of Vietnam''s independence; the book has Zhou saying the Vietnamese people, holding to protracted war and opposing surrender and compromise, will win the final victory in the war against the U.S.). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 251 (Sept. 2, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Sept. 2, 1968; the reception given by Vietnam''s ambassador Ngô Minh Loan for the twenty-third anniversary of Vietnam''s independence; the book has Zhou saying the Vietnamese people, holding to protracted war and opposing surrender and compromise, will win the final victory in the war against the U.S.); [[w.zhonghua-renmin-gongheguo-waijiao]], 201 (Sept. 2, 1968; Zhou''s speech: protracted war, no surrender or compromise). Names: Zhou Enlai.'
     src:
       c: bf209961
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 251: ?'
         - 'w.zhou-enlai-waijiao-huodong 529: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 201: all'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1968-09-03.governors-ia
     when: Sept. 3
@@ -349,6 +355,18 @@ entries:
     c: The revolutionary committees of the Tibet and Xinjiang Autonomous Regions are set up. Every province, municipality and region but Taiwan, twenty-nine, now has a revolutionary committee.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 251 (Sept. 5, 1968). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1968-09-05.china
+    when: Sept. 5
+    date: '1968-09-05'
+    thread: china
+    also: [soviet-union]
+    c: 'A responsible official of the Soviet and East European department summons the Soviet chargé and again makes a strong protest: since Aug. 27 the Soviet occupation forces have greatly added to the sentries ringing and watching the Chinese embassy in Czechoslovakia, stopped foreign visitors to the embassy, disturbed its normal work and threatened its safety. China demands that the Soviet government pull back the occupying troops at once and stop every provocation.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 201–202 (Sept. 5, 1968).'
+    src:
+      c: d8f60946
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 201–202: all'
+    tags: [polity:prc, polity:ussr, polity:czechoslovakia]
   - id: cal.1968-09-06.court
     when: Sept. 6
     date: '1968-09-06'
@@ -1322,6 +1340,18 @@ entries:
     c: 'Zhou Enlai with the Cultural Revolution Group''s members and Li Fuchun, Li Xiannian and Yu Qiuli hears delegates of the defense industry conference, asks about production, criticizes plants stopped a dozen months running and orders them to unite quickly and restore output: the defense industry must be pushed up, two years are lost and no more delay is allowed. He asks the Shanghai Machine Tool Plant''s delegate whether the many visitors hinder production: it is bad, some limit is needed, to be notified to all places.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 254 (Sept. 16, 1968). Made public: 2020. Names: Zhou Enlai, Li Fuchun, Li Xiannian.'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:li-xiannian, vis:only:prc]
+  - id: cal.1968-09-16.china
+    when: Sept. 16
+    date: '1968-09-16'
+    thread: china
+    also: [soviet-union]
+    c: 'Foreign Ministry note to the Soviet embassy: strong protest at 29 sorties by Soviet military aircraft, Aug. 9 to 29, into the airspace of an area of China''s Heilongjiang province to scout, harass and provoke.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 202 (Sept. 16, 1968). Check: the area, from the Chinese 同化.'
+    src:
+      c: 11264d02
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 202: all'
+    tags: [polity:prc, polity:ussr]
   - id: cal.1968-09-16.crime-and-hijacking
     when: Sept. 17
     date: '1968-09-17'
@@ -1416,7 +1446,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Lin Biao and Zhou Enlai reply by telegram to Hoxha and Shehu, who had congratulated China on the 29 revolutionary committees: China firmly supports Albania''s withdrawal from the Warsaw Pact and the peoples of Eastern Europe against the Soviet-controlled Pact, and of Western Europe against NATO.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 17, 1968. Names: Mao Zedong, Lin Biao, Zhou Enlai, Enver Hoxha, Mehmet Shehu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 17, 1968. [[w.zhonghua-renmin-gongheguo-waijiao]], 202 (Sept. 17, 1968; the telegram to Hoxha and Shehu: firm support for Albania''s withdrawal from the Warsaw Treaty Organization, for the peoples of Eastern Europe against the Soviet-controlled Warsaw Treaty, and for all peoples subjected to U.S. and Soviet aggression, control and enslavement). Names: Mao Zedong, Lin Biao, Zhou Enlai, Enver Hoxha, Mehmet Shehu.'
+    src:
+      c: ac184ffe
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Sept. 17, 1968: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 202: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai]
   - id: cal.1968-09-17.china-leadership-2
     when: Sept. 17
@@ -1425,12 +1460,13 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai receives Zambia''s Minister of State for Foreign Affairs, Robert Makasa, and Mumba, head of its Foreign Ministry''s Europe-Asia department: China supports every national liberation movement of the oppressed; if Nigeria unifies on the equality of its peoples, China keeps its policy of non-intervention, supports African states'' independence and respects their sovereignty, as it declared on its African tours.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 254 (Sept. 17, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Sept. 17, 1968; 4:45 a.m., Fujian Hall, Great Hall of the People; Zambia''s minister of state for foreign affairs (the book names him 罗伯特·马卡萨) and the head of the European and Asian department (蒙巴时), on Biafra). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 254 (Sept. 17, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Sept. 17, 1968; 4:45 a.m., Fujian Hall, Great Hall of the People; Zambia''s minister of state for foreign affairs (the book names him 罗伯特·马卡萨) and the head of the European and Asian department (蒙巴时), on Biafra); [[w.zhonghua-renmin-gongheguo-waijiao]], 202 (Sept. 10–17, 1968; Zambia''s foreign minister Robert Makasa''s visit, Sept. 10–17; Chen Yi''s talks; Zhou: China supports every national liberation movement, morally and politically first, material aid as possible, and opposes reliance on outsiders for liberation). Made public: 2020. Names: Zhou Enlai.'
     src:
       c: 5d092dd9
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 254: ?'
         - 'w.zhou-enlai-waijiao-huodong 529: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 202: A'
     tags: [polity:prc, polity:zambia, name:zhou-enlai, vis:only:prc+zambia]
     time_zone: Asia/Shanghai
   - id: cal.1968-09-18.crime-and-hijacking-guns
@@ -1556,6 +1592,18 @@ entries:
         - 'via x.1968-09-22.new-york-times-september-22-1968: all'
         - 'w.obrien-no-final-victories 262: ?'
     tags: [name:kennedy-edward-m, name:humphrey-hubert-h, state:ma, city:boston]
+  - id: cal.1968-09-19.china-leadership
+    when: Sept. 19
+    date: '1968-09-19'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi receives Cambodia's foreign minister, Prince Norodom Phurissara, and his wife, in friendly talk.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 203 (Sept. 19, 1968). Names: Chen Yi.'
+    src:
+      c: 0f1b8859
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 203: all'
+    tags: [polity:prc, polity:cambodia, name:chen-yi]
   - id: cal.1968-09-20.students-ca
     when: Sept. 20
     date: '1968-09-20'
@@ -1783,12 +1831,13 @@ entries:
     thread: china-leadership
     also: [middle-east-yemen, middle-east, china]
     c: 'Zhou Enlai receives South Yemen''s Foreign Minister (the nianpu''s Saif Ahmed Zalai): revolution not to skip stages, true; they should first make national independence thorough and firm, socialism being the next stage. China''s aid must serve their economic independence and not breed dependence; aid that does is harm, and the giver no true friend; China will help as it can those who struggle for independence.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 255 (Sept. 24, 1968); [[w.zhou-enlai-waijiao-huodong]], 529–30 (Sept. 24, 1968; 1 p.m., Great Hall of the People; South Yemen''s foreign minister (the book names him 赛弗·艾哈迈德·扎莱); the book has Zhou citing 弗萨尔, a member of the delegation and head of the National Front, that revolution is not to leap stages, and saying aid must serve independence, not dependence). Made public: 2020. Names: Zhou Enlai. Check: the minister''s name; no South Yemen polity in the series'' list.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 255 (Sept. 24, 1968); [[w.zhou-enlai-waijiao-huodong]], 529–30 (Sept. 24, 1968; 1 p.m., Great Hall of the People; South Yemen''s foreign minister (the book names him 赛弗·艾哈迈德·扎莱); the book has Zhou citing 弗萨尔, a member of the delegation and head of the National Front, that revolution is not to leap stages, and saying aid must serve independence, not dependence); [[w.zhonghua-renmin-gongheguo-waijiao]], 203 (Sept. 17–24, 1968; al-Dhali''s delegation, Sept. 17 to 24; Chen Yi''s talks and the trade and economic and technical agreements signed; Zhou: aid to serve economic independence, not reliance). Made public: 2020. Names: Zhou Enlai. Check: the minister''s name; no South Yemen polity in the series'' list.'
     src:
       c: 2ce5fb27
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 255: ?'
         - 'w.zhou-enlai-waijiao-huodong 529–30: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 203: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1968-09-24.china-leadership-2
@@ -2117,6 +2166,18 @@ entries:
     c: 'Zhou Enlai instructs the Xinhua general agency: bourgeois papers live on rumor, but the serious ones attend to fact, and proletarian papers should the more.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 255–256 (Sept. 27, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-09-27.china
+    when: Sept. 27
+    date: '1968-09-27'
+    thread: china
+    also: [south-asia]
+    c: Chen Xiyuan, chargé d'affaires of China's embassy in India, calls on the head of the Indian Foreign Ministry's East Asian department, Singh, and makes a strong protest at the wrecking by Indian thugs, on the evening of the 26th, of the embassy's news photo display window.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 203 (Sept. 27, 1968). Check: the names, from the Chinese 陈系源 and 辛格.'
+    src:
+      c: 26e2112e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 203: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1968-09-28.vietnam-paris
     when: Sept. 28
     date: '1968-09-28'
@@ -2352,12 +2413,25 @@ entries:
     date: '1968-09-29'
     thread: china-leadership
     c: Zhou goes to the airport to welcome the Albanian party and government delegation under Balluku, Politburo member, deputy chairman of the Council of Ministers and minister of defense.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Sept. 29, 1968; Beijing airport; the time not given). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Sept. 29, 1968; Beijing airport; the time not given); [[w.zhonghua-renmin-gongheguo-waijiao]], 203–204 (Sept. 28–Oct. 9, 1968; Balluku''s Albanian party and government delegation, Sept. 28–Oct. 9; Mao and Zhou receive it). Names: Zhou Enlai.'
     src:
       c: e5451770
       rows:
         - 'w.zhou-enlai-waijiao-huodong 530: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 203–204: A'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1968-09-29.china-leadership-4
+    when: Sept. 29
+    date: '1968-09-29'
+    thread: china-leadership
+    also: [japan]
+    c: Kuroda Hisao arrives with a joint delegation of the Japan–China Friendship Association and the Japan–China Cultural Exchange Association, for National Day and a visit to Oct. 18.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 204 (Sept. 29–Oct. 18, 1968; the visit; Chen Yi receives the Japanese friends, no day given).'
+    src:
+      c: b4d9a344
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 204: all'
+    tags: [polity:prc, polity:japan]
   - id: cal.1968-09-30.elections-1968
     when: Sept. 30
     date: '1968-09-30'
@@ -3063,14 +3137,27 @@ entries:
     date: '1968-09-30'
     thread: china-leadership
     c: Zhou attends the grand reception in the Great Hall of the People celebrating the nineteenth anniversary of the People's Republic.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Sept. 30, 1968; evening; Great Hall of the People). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Sept. 30, 1968; evening; Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 204 (Sept. 30, 1968; Zhou''s speech at the National Day reception: the U.S. and the Soviet Union fight and collude, plotting to divide the world again and crush the peoples'' revolutions). Names: Zhou Enlai.'
     src:
       c: 557685b8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 530: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 204: all'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1968-09-30T11:00Z
       - 1968-09-30T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1968-09-30.china
+    when: Sept. 30
+    date: '1968-09-30'
+    thread: china
+    also: [vietnam-hanoi]
+    c: China and Vietnam sign, at Beijing, the agreement on the mutual supply of goods and on payments for 1969.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 204 (Sept. 30, 1968).'
+    src:
+      c: d134a147
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 204: all'
+    tags: [polity:prc, polity:drv]

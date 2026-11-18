@@ -1755,6 +1755,18 @@ entries:
     c: 'Zhou Enlai attends the Cultural Revolution Group''s liaison meetings daily. On Apr. 4: the Xidan explosion case, the Center''s instructions on setting up the Hunan and Ningxia revolutionary committees, and on Heilongjiang''s instruction on assigning college graduates.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 223–224 (Apr. 4, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-04-04.china
+    when: Apr. 4
+    date: '1968-04-04'
+    thread: china
+    also: [soviet-union]
+    c: 'Foreign Ministry note to the Soviet embassy: strong protest at the spying and breach of Chinese sovereignty by the crew of the Soviet ship *Ukrainian Komsomol Member* at a Chinese port. The Chinese authorities decide to expel the ship''s captain and second mate at once and to escort the ship out of port under arms.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 192 (Apr. 4, 1968).'
+    src:
+      c: 792ffc4c
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 192: all'
+    tags: [polity:prc, polity:ussr]
   - id: cal.1968-04-05.civil-disorders
     when: Apr. 5
     date: '1968-04-05'
@@ -2459,14 +2471,20 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou Enlai receives Miyazaki Seimin, head of the board of the Japan-China Friendship Association (Orthodox) headquarters, and Shimada Masao, its organizing chairman.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 8, 1968); [[w.zhou-enlai-waijiao-huodong]], 523 (Apr. 8, 1968; 6 p.m., Jiangsu Hall, Great Hall of the People). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 8, 1968); [[w.zhou-enlai-waijiao-huodong]], 523 (Apr. 8, 1968; 6 p.m., Jiangsu Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 193 (Apr. 10, 1968; Zhou and Chen Yi receive Miyazaki Seimin of the Japan–China Friendship Association (Orthodox) headquarters and Shimada Masao). Made public: 2020. Names: Zhou Enlai.'
     src:
       c: 8b1d7bad
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 224: ?'
         - 'w.zhou-enlai-waijiao-huodong 523: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 193: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.zhonghua-renmin-gongheguo-waijiao
+        reads: the reception is dated Apr. 10, with Chen Yi also present
+        at: '193'
   - id: cal.1968-04-08.china-leadership-2
     when: Apr. 8
     date: '1968-04-08'
@@ -2475,6 +2493,18 @@ entries:
     c: Zhou Enlai receives the Air Force and Navy air unit personnel who shot down or damaged intruding U.S. military aircraft, for their merit.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 8, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-04-08.china
+    when: Apr. 8
+    date: '1968-04-08'
+    thread: china
+    also: [africa]
+    c: 'China, Tanzania and Zambia sign, at Dar es Salaam, three protocols to the railway agreement: on the way of providing the loan for the Tanzania–Zambia railway; on sending, and the pay and working terms of, Chinese technical staff for its building; and on the survey and design work.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 192 (Apr. 8, 1968).'
+    src:
+      c: da170500
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 192: all'
+    tags: [polity:prc, polity:tanzania, polity:zambia]
   - id: cal.1968-04-09.vietnam-paris
     when: Apr. 9
     date: '1968-04-09'
@@ -2732,6 +2762,30 @@ entries:
     c: 'Zhou Enlai tells the office staff: whenever a report comes of house-searching, document seizure, kidnapping or armed fights, the liaison men are to stop it at once and need not wait to report to him.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 9, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-04-09.china
+    when: Apr. 9
+    date: '1968-04-09'
+    thread: china
+    also: [soviet-union]
+    c: 'Foreign Ministry note to the Soviet embassy: strong protest at the Soviet Union''s unreasonable expulsion of Chen Jixian, a member of the Chinese group inspecting aircraft. The note says the group went under the China–Soviet trade agreement, the Soviet authorities blocked its work at every turn, and have now, without any evidence, ordered Chen out, plainly to wreck the trade agreement and worsen relations.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 192 (Apr. 9, 1968). Check: the name, from the Chinese 陈继贤.'
+    src:
+      c: 7fa037b2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 192: all'
+    tags: [polity:prc, polity:ussr]
+  - id: cal.1968-04-09.china-2
+    when: Apr. 9
+    date: '1968-04-09'
+    thread: china
+    also: [europe-and-the-alliance]
+    c: The Chinese and Polish governments sign, at Beijing, the 1968 agreement on exchange of goods and payments.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 192 (Apr. 9, 1968).'
+    src:
+      c: 4e760234
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 192: all'
+    tags: [polity:prc, polity:poland]
   - id: cal.1968-04-10.open-housing
     when: Apr. 10
     date: '1968-04-10'
@@ -3000,6 +3054,18 @@ entries:
     c: Zhou Enlai goes to Mao's for meetings.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 10, 1968). Made public: 2020. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-04-10.china
+    when: Apr. 10
+    date: '1968-04-10'
+    thread: china
+    also: [japan]
+    c: The Chinese bodies, among them the China–Japan Friendship Association, and the delegation of the Japan–China Friendship Association (Orthodox) headquarters hold talks and sign a summary of them.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 193 (Apr. 10, 1968).'
+    src:
+      c: 422e9cdf
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 193: all'
+    tags: [polity:prc, polity:japan]
   - id: cal.1968-04-11.open-housing
     when: Apr. 11
     date: '1968-04-11'
@@ -3321,12 +3387,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai talks with the Vietnamese party and government delegation under Phạm Văn Đồng.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 13, 1968); [[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 13–29, 1968; the talks with Phạm Văn Đồng''s delegation at 15 Jia, Wanshou Road: the first Apr. 13, 10 a.m.; the second Apr. 14, 10 a.m.; the third Apr. 17, 12:15 p.m.; the fourth Apr. 19, 10:30 a.m.; the fifth Apr. 29, 11 a.m., Đồng briefing on his visit to the Soviet Union). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng. Check: no content given.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 224 (Apr. 13, 1968); [[w.zhou-enlai-waijiao-huodong]], 523–24 (Apr. 13–29, 1968; the talks with Phạm Văn Đồng''s delegation at 15 Jia, Wanshou Road: the first Apr. 13, 10 a.m.; the second Apr. 14, 10 a.m.; the third Apr. 17, 12:15 p.m.; the fourth Apr. 19, 10:30 a.m.; the fifth Apr. 29, 11 a.m., Đồng briefing on his visit to the Soviet Union); [[w.zhonghua-renmin-gongheguo-waijiao]], 193 (Apr. 13–14, 1968; Phạm Văn Đồng''s delegation; several talks on keeping up the protracted war). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng. Check: no content given.'
     src:
       c: 7473cca5
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 224: ?'
         - 'w.zhou-enlai-waijiao-huodong 523–24: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 193: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
   - id: cal.1968-04-14.opinion
     when: Apr. 14
@@ -3568,7 +3635,12 @@ entries:
     thread: china-leadership
     also: [king, china, civil-disorders-king]
     c: 'Mao, Peking: reads and lightly revises the draft statement supporting the American Black struggle, sends it to Lin Biao for the Cultural Revolution Group''s meeting to read and pass. Printed Apr. 17 in *Renmin ribao*: King, the non-violent, murdered by American imperialism; the struggle a class struggle, part of the world revolution and a support to the Vietnamese people; China supports it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Apr. 16, 1968. Made public: 2013. Names: Mao Zedong, Lin Biao, King.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Apr. 16, 1968. [[w.zhonghua-renmin-gongheguo-waijiao]], 193–194 (Apr. 16, 1968; Mao''s statement in support of the Black struggle against violence, issued Apr. 16). Made public: 2013. Names: Mao Zedong, Lin Biao, King.'
+    src:
+      c: eeb85589
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Apr. 16, 1968: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 193–194: A'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:king-martin-luther-jr, vis:only:prc@A]
   - id: cal.1968-04-17.civil-disorders
     when: Apr. 17
@@ -3858,11 +3930,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou, receiving Romania''s ambassador Duma in the Jiangsu Hall of the Great Hall of the People, discusses three questions: the treaty on nonproliferation, the preparations for the Moscow conference of communist parties, and Vietnam. To Romania''s proposal that the two parties'' leaders meet, Zhou says that China is for the present busy with the Cultural Revolution and finds it hard to send people out and to receive foreign guests, so it must be put off for a time.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 523 (Apr. 20, 1968; 2 a.m., Jiangsu Hall, Great Hall of the People). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 523 (Apr. 20, 1968; 2 a.m., Jiangsu Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 194 (Apr. 20, 1968; Zhou to Romania''s ambassador, Duma: the U.N. debate on a nonproliferation treaty is power politics to break; the Moscow preparatory meeting of the "fraternal parties" on Apr. 24; the U.S. halt in bombing Vietnam a fraud). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: 8609365b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 523: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 194: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+romania]
     time_zone: Asia/Shanghai
   - id: cal.1968-04-20.china-leadership-4
@@ -4635,12 +4708,13 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai receives the Guinean government''s economic delegation: cultural independence is slower and harder than economic, old ideas having sat in heads for thousands of years. On economic cooperation: first make the facts clear, lest raw materials fall short or an enterprise outgrow home needs with no export market; second, development must serve self-reliance, not lean on foreign men and materials, starting with light industry, small to large, to accumulate funds; third, design on the spot. Aid from the earlier independent to the later must be on equal terms, else it is neo-colonialism.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 225–226 (Apr. 26, 1968); [[w.zhou-enlai-waijiao-huodong]], 523 (Apr. 26, 1968; 4 p.m., new building, Beijing Hotel; the delegation under the minister of economic development, Ismael Touré). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 225–226 (Apr. 26, 1968); [[w.zhou-enlai-waijiao-huodong]], 523 (Apr. 26, 1968; 4 p.m., new building, Beijing Hotel; the delegation under the minister of economic development, Ismael Touré); [[w.zhonghua-renmin-gongheguo-waijiao]], 194 (Apr. 23–27, 1968; Ismaël Touré''s economic delegation, Apr. 23 to 27; Zhou and Li Xiannian each receive it). Made public: 2020. Names: Zhou Enlai.'
     src:
       c: c74ddcaa
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 225–226: ?'
         - 'w.zhou-enlai-waijiao-huodong 523: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 194: A'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, vis:only:prc+guinea]
     time_zone: Asia/Shanghai
   - id: cal.1968-04-26.china-leadership-2
@@ -4827,6 +4901,18 @@ entries:
     c: 'Zhou Enlai writes Mao: at tonight''s liaison meeting it was held that the State Physical Culture and Sports Commission may come under the Military Commission''s Office Group with military control, the National Defense Sports Commission abolished and its work wholly taken over by the services and military regions. Mao: do it. On May 12 the Center, State Council, Military Commission and Cultural Revolution Group order the whole national sports system taken over by the PLA.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 226 (Apr. 27, 1968). Made public: 2020. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-04-27.china
+    when: Apr. 27
+    date: '1968-04-27'
+    thread: china
+    also: [south-asia]
+    c: China and Pakistan sign, at Rawalpindi, the 1968 trade protocol.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 194 (Apr. 27, 1968).'
+    src:
+      c: 3bec920c
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 194: all'
+    tags: [polity:prc, polity:pakistan]
   - id: cal.1968-04-28.opinion
     when: Apr. 28
     date: '1968-04-28'
