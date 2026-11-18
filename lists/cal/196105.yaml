@@ -331,8 +331,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai that evening receives the Burmese delegation to the sixth session of the Sino-Burmese boundary joint commission: 1961 a year of Sino-Burmese friendship growing, the two countries visiting as kin, and later generations too becoming related.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 408 (May 2, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 408 (May 2, 1961); [[w.zhou-enlai-waijiao-huodong]], 310–11 (May 2, 1961; 晚上, 人民大会堂, 会见并宴请). Names: Zhou Enlai.'
+    src:
+      c: 7cc83541
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 408: ?'
+        - 'w.zhou-enlai-waijiao-huodong 310–11: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1961-05-02T11:00Z
+      - 1961-05-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-03.laos
     when: May 3
     date: '1961-05-03'
@@ -1325,11 +1335,18 @@ entries:
   - id: cal.1961-05-08.china-leadership-5
     when: May 8
     date: '1961-05-08'
+    time: 1961-05-08T11:30Z
     thread: china-leadership
     also: [laos, vietnam-hanoi, china]
     c: At the banquet welcoming the Vietnamese and Laotian delegations to the Geneva conference Zhou Enlai condemns American wrecking and incitement, which has kept the Laotian parties' political talks from being held and threatens the widened Geneva conference Sihanouk proposed; China firmly supports its convening and will work with delegations in good faith for its success.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 410 (May 8, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 410 (May 8, 1961); [[w.zhou-enlai-waijiao-huodong]], 311 (May 8, 1961; 晚7时30分, 人民大会堂, 会见并宴请). Names: Zhou Enlai.'
+    src:
+      c: 94c87d47
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 410: ?'
+        - 'w.zhou-enlai-waijiao-huodong 311: A'
     tags: [polity:prc, polity:drv, polity:laos, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-09.press-and-broadcasting
     when: May 9
     date: '1961-05-09'
@@ -1537,6 +1554,49 @@ entries:
     c: The President's office, at his invitation. Kennedy with seven newspaper executives, among them Ferree and McKnight of the publishers' and editors' societies, Catledge and McKelway. He shows dispatches that breached security and proposes a representative of their own in Washington to advise on security; they will accept no new restrictions, voluntary or official, without a declaration of national emergency. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 158–59. See [[cal.1961-04-27.press-and-broadcasting]]. Names: Kennedy, Salinger.'
     tags: [name:salinger-pierre, name:kennedy-john-f]
+  - id: cal.1961-05-09.china-leadership-2
+    when: May 9
+    date: '1961-05-09'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leading the Chinese government delegation to the enlarged Geneva conference on the peaceful settlement of the Laos question.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 9, 1961; 上午). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: d7ba9c87
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1961-05-08T22:00Z
+      - 1961-05-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-05-09.china-leadership-3
+    when: May 9
+    date: '1961-05-09'
+    time: 1961-05-09T02:00Z
+    thread: china-leadership
+    also: [china, soviet-union, laos]
+    c: Peking, the airport VIP room. Zhou Enlai receives Chervonenko, the Soviet Ambassador, and talks of Soviet supplies to China of soybeans and flour, and of the Laos question.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 9, 1961; 上午10时). Made public: 1993. Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 4022531a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-05-09.china-leadership-4
+    when: May 9
+    date: '1961-05-09'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives a former Minister of the Interior of Guatemala's Arbenz government.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 9, 1961). Names: Zhou Enlai.'
+    src:
+      c: 27bca3cb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:guatemala, name:zhou-enlai]
   - id: cal.1961-05-10.opinion
     when: May 10
     date: '1961-05-10'
@@ -3023,6 +3083,20 @@ entries:
     c: Proclamation 17, Chang Do-young. One month, May 20 to June 19, to turn in unlicensed firearms, blades and explosives; no charge for those who report in the time, severe punishment after.
     n: '[[w.kwanbo]], [no. 2859 (May 19, 1961), 1](https://theme.archives.go.kr/next/gazette/viewGazetteContentList.do?gazetteId=0001647888&actionType=date) (Committee Proclamation 17). See [[cal.1961-05-19.korea-leadership-3]]. Names: Chang Do-young.'
     tags: [polity:rok, name:chang-yo-yong]
+  - id: cal.1961-05-19.china-leadership
+    when: May 19
+    date: '1961-05-19'
+    time: 1961-05-19T11:50Z
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking, Xihuating. Zhou Enlai receives a member of the Laotian legitimate government's delegation to the Geneva conference, exchanges views on the Laos question and dines with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 19, 1961; 晚7时50分). Made public: 1993. Names: Zhou Enlai. Check: the member''s name, 坎平·帕法 in the book.'
+    src:
+      c: b9440fc4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, vis:only:prc+laos]
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-20.freedom-rides
     when: May 20
     date: '1961-05-20'
@@ -3918,11 +3992,18 @@ entries:
   - id: cal.1961-05-24.china-leadership
     when: May 24
     date: '1961-05-24'
+    time: 1961-05-24T06:00Z
     thread: china-leadership
     also: [cuba, latin-america]
     c: 'Zhou Enlai receives a Cuban land-reform work team: farm problems are of organizing production, the small farm economy reflects the petty bourgeoisie; whether land reform, mutual-aid groups or co-ops, many steps and time are needed to organize small private farming; by the peasants'' needs, to local conditions, no compulsion, leading them; command and forced uniformity bring little result.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 412 (May 24, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 412 (May 24, 1961); [[w.zhou-enlai-waijiao-huodong]], 311 (May 24, 1961; 下午2时, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: eea0c643
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 412: ?'
+        - 'w.zhou-enlai-waijiao-huodong 311: A'
     tags: [polity:prc, polity:cuba, name:zhou-enlai, vis:only:prc+cuba]
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-25.space
     when: May 25
     date: '1961-05-25'
@@ -4096,6 +4177,23 @@ entries:
     c: 'Supreme Council Decree 12, on rural debt, from noon. Farmers'' and fishermen''s debts at over 20 percent a year, in cash or kind, "high-interest debt": collection stopped; creditors and debtors to report them, claims not reported void; the sums fixed on review, paid off in yearly installments on loans the government guarantees.'
     n: '[[w.ilchi]], I, May 25, 1961, announcements, item 2. [[w.kwanbo]], [no. 2865 (May 25, 1961), 1](https://theme.archives.go.kr/next/gazette/viewGazetteContentList.do?gazetteId=0001647894&actionType=date) (Supreme Council Decree 12).'
     tags: [polity:rok]
+  - id: cal.1961-05-25.china-leadership
+    when: May 25
+    date: '1961-05-25'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking, Xihuating. Zhou Enlai receives Utsunomiya Tokuma, a Liberal Democratic Party member of the Diet.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 25, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: d89f6be9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1961-05-25T04:00Z
+      - 1961-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-26.vietnam
     when: May 26
     date: '1961-05-26'
@@ -4548,6 +4646,34 @@ entries:
     c: 'Chang Do-young: parts of the constitution must be amended; he will work to hand over power soon.'
     n: '[[w.ilchi]], I, May 29, 1961, announcements, item 1. Names: Chang Do-young.'
     tags: [polity:rok, name:chang-yo-yong]
+  - id: cal.1961-05-29.china-leadership
+    when: May 29
+    date: '1961-05-29'
+    time: 1961-05-29T06:40Z
+    thread: china-leadership
+    also: [china, soviet-union, farm]
+    c: Peking. Zhou Enlai receives Chervonenko and talks of a loan of 300,000 tons of grain transferred through the Soviet Union (100,000 tons of wheat, 100,000 of flour, 100,000 of rye).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 29, 1961; 下午2时40分). Made public: 1993. Names: Zhou Enlai, Chervonenko. Check: the book says 从苏联转借, lent through the Soviet Union; its origin is not stated.'
+    src:
+      c: 6d9c019f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-05-29.china-leadership-2
+    when: May 29
+    date: '1961-05-29'
+    time: 1961-05-29T08:00Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, Xihuating. Zhou Enlai receives the Guinean Ambassador, Camara Moussa Sanguiana.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (May 29, 1961; 下午4时). Names: Zhou Enlai. Check: the Ambassador''s name, 卡马拉·穆萨·桑吉亚纳 in the book.'
+    src:
+      c: 46f8cde5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-30.latin-america
     when: May 30
     date: '1961-05-30'

@@ -226,6 +226,23 @@ entries:
     c: 'Yun Po-sun, his first press conference since the coup: with an eye to the U.N. General Assembly, power to be handed over soon and the people to back the revolution; old evils rightly swept away.'
     n: '[[w.ilchi]], I, June 3, 1961, announcements, item 1; June 4, news, item 1. Names: Yun.'
     tags: [polity:rok, name:yun-po-sun]
+  - id: cal.1961-06-03.china-leadership-2
+    when: June 3
+    date: '1961-06-03'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking, Xihuating. Zhou Enlai receives the Japanese delegation bearing the list of Chinese martyrs, headed by Otani Eijun, with Nishikawa Keibun deputy head.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311 (June 3, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: 877ea079
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1961-06-03T04:00Z
+      - 1961-06-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-04.opinion
     when: June 4
     date: '1961-06-04'
@@ -427,11 +444,49 @@ entries:
   - id: cal.1961-06-05.china-leadership
     when: June 5
     date: '1961-06-05'
+    time: 1961-06-05T10:30Z
     thread: china-leadership
     also: [laos, china]
     c: Zhou Enlai meets Prime Minister Souvanna Phouma and Prince Souphanouvong, passing through Peking to the widened Geneva conference, on American interference in Laos' internal affairs and the formation of a coalition by the three Laotian sides.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 414 (June 5, 1961). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 414 (June 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 312 (June 5, 1961; 晚6时30分, 中南海西花厅, 会见并宴请). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: 6095fb97
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 414: ?'
+        - 'w.zhou-enlai-waijiao-huodong 312: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos+pathet-lao]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-05.china-leadership-2
+    when: June 5
+    date: '1961-06-05'
+    time: 1961-06-05T07:00Z
+    thread: china-leadership
+    also: [china, soviet-union, laos]
+    c: Peking, the airport reception room. Zhou Enlai receives Chervonenko and talks of the Geneva conference and the Laos question.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 311–12 (June 5, 1961; 下午3时). Made public: 1993. Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 502b63bf
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 311–12: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-05.china-leadership-3
+    when: June 5
+    date: '1961-06-05'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai goes to the airport to welcome Souvanna Phouma and Souphanouvong, arriving on the way to Geneva.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 312 (June 5, 1961; 下午). Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: '07121035'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 312: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
+    time_range:
+      - 1961-06-05T04:00Z
+      - 1961-06-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-06.berlin-and-vienna
     when: June 6
     date: '1961-06-06'
@@ -540,11 +595,69 @@ entries:
   - id: cal.1961-06-06.china-leadership
     when: June 6
     date: '1961-06-06'
+    time: 1961-06-06T15:00Z
     thread: china-leadership
     also: [congo, china]
     c: 'Zhou Enlai receives the Congo''s Ambassador (Diaka Beinadun in the chronology''s transliteration) on his government''s proposal to reconvene Parliament with the United Nations'' help: grounds for it, but the United Nations will not let Gizenga''s government rule, so only a slogan; the chief matter to widen that government''s influence and rouse the people against interference and partition, by long struggle on their own strength.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 414 (June 6, 1961). Made public: 1997. Names: Zhou Enlai, Gizenga.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 414 (June 6, 1961); [[w.zhou-enlai-waijiao-huodong]], 312 (June 6, 1961; 晚11时, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Gizenga.'
+    src:
+      c: 5bd48a1d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 414: ?'
+        - 'w.zhou-enlai-waijiao-huodong 312: A'
     tags: [polity:prc, polity:congo, name:zhou-enlai, name:gizenga-antoine, vis:only:prc+congo]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-06.china-leadership-2
+    when: June 6
+    date: '1961-06-06'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai goes to the airport to see off Souvanna Phouma and Souphanouvong for Geneva.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 312 (June 6, 1961; 晨). Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: 5475b833
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 312: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
+    time_range:
+      - 1961-06-05T21:00Z
+      - 1961-06-06T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-06.china-leadership-3
+    when: June 6
+    date: '1961-06-06'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives the Ceylonese delegation, headed by Ariyadasa, that is to welcome the Buddha's tooth relic.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 312 (June 6, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: b24f04b5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 312: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai]
+    time_range:
+      - 1961-06-06T04:00Z
+      - 1961-06-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-06.china-leadership-4
+    when: June 6
+    date: '1961-06-06'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai, with Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Dong Biwu and Peng Zhen, meets and gives a banquet for D. N. Aidit, chairman of the Central Committee of the Communist Party of Indonesia, and the party's delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 312 (June 6, 1961; 晚上). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Dong Biwu, Peng Zhen, Aidit.'
+    src:
+      c: '51641284'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 312: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:dong-biwu, name:peng-zhen, name:aidit-dipa-nusantara]
+    time_range:
+      - 1961-06-06T11:00Z
+      - 1961-06-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-07.opinion
     when: June 7
     date: '1961-06-07'
@@ -676,6 +789,32 @@ entries:
     c: 'At a performance of *Thunderstorm* by the Peking People''s Art Theater, Zhou Enlai afterward talks with Xia Yan, Cao Yu and the director and players: such plays should teach youth to see the evil of the old society and hate its ideology, beware reaction''s return, and not lower the quality to meet a task; "more, faster, better, cheaper" to be taken whole, for aiming at "more and faster" forgets "better and cheaper," and in the Leap years targets set high sometimes harmed quality.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 8, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-06-08.china-leadership-4
+    when: June 8
+    date: '1961-06-08'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, Xihuating. Zhou Enlai receives the first Mali Ambassador to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 8, 1961). Names: Zhou Enlai.'
+    src:
+      c: d3ea15d6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:mali, name:zhou-enlai]
+  - id: cal.1961-06-08.china-leadership-5
+    when: June 8
+    date: '1961-06-08'
+    time: 1961-06-08T08:00Z
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking, Xihuating. Zhou Enlai receives Abdelrahman Kiouane, head of the first diplomatic mission to China of the Algerian Provisional Government.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 8, 1961; 下午4时). Names: Zhou Enlai.'
+    src:
+      c: f4adbb06
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-09.opinion
     when: June 9
     date: '1961-06-09'
@@ -762,19 +901,33 @@ entries:
   - id: cal.1961-06-09.china-leadership
     when: June 9
     date: '1961-06-09'
+    time: 1961-06-09T13:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives Albania''s Ambassador: building socialism is complex and hard and has no precedent; Soviet experience may be studied but conditions differ and each must feel its own way; the road one has walked is the surest; any work comes right only through practice; contradiction is the motive of things.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 9, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 313 (June 9, 1961; 晚9时, 中南海西花厅, 即将离任的阿尔巴尼亚驻华大使). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 6374e760
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 415: ?'
+        - 'w.zhou-enlai-waijiao-huodong 313: A'
     tags: [polity:prc, polity:albania, polity:ussr, name:zhou-enlai, vis:only:prc+albania]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-09.china-leadership-2
     when: June 9
     date: '1961-06-09'
+    time: 1961-06-09T15:00Z
     thread: china-leadership
     also: [europe-and-the-alliance-federal-republic, japan]
     c: 'Zhou Enlai receives the East German Ambassador, Johann Hegen, on the foreign policy of the Kennedy administration and the revival of West German and Japanese militarism: China''s policy is to strengthen the unity and force of the socialist camp, hold position, use imperialist contradictions flexibly, and firmly support Asian and African national independence movements and every anti-imperialist and peace force.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 9, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 313 (June 9, 1961; 晚11时, 中南海西花厅, 新任驻华大使). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 35f55612
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 415: ?'
+        - 'w.zhou-enlai-waijiao-huodong 313: A'
     tags: [polity:prc, polity:gdr, name:zhou-enlai, vis:only:prc+gdr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-10.berlin-and-vienna
     when: June 10
     date: '1961-06-10'
@@ -866,7 +1019,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai receives Puyi, Pujie, Hiro and others of the family. The Communist Party''s attitude: "treat people as equals, share what one has; all within the four seas are brothers." On Japan: militarism harmed China from 1894 to 1945 but that is past; look ahead, restore relations, widen exchange. On nationalities: the Manchu''s proper place to be restored, assimilation to come by itself, not by force. He welcomes and encourages Hiro''s resolve to be Chinese and work for Sino-Japanese friendship.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 10, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 10, 1961); [[w.zhou-enlai-waijiao-huodong]], 313 (June 10, 1961; 中南海西花厅, 接见并宴请). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 09ac4827
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 415: ?'
+        - 'w.zhou-enlai-waijiao-huodong 313: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-06-10.china-leadership-2
     when: June 10
@@ -965,8 +1123,46 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, china]
     c: 'Zhou Enlai, June 12–16, receives Phạm Văn Đồng, Premier of the DRV. At the welcome banquet on the 12th: the American government''s and Ngô Đình Diệm clique''s "eight measures" to control and enslave South Vietnam are a plan for a war adventure there; the Chinese government and people cannot be indifferent to the worsening situation. After the talks the two premiers'' joint communiqué of the 15th holds America''s "position of strength" and neo-colonial policy to be the chief threat to peace and source of tension and repeats that disputes be settled by peaceful negotiation.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 416 (June 12, 1961). Made public: 1997. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 416 (June 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 313 (June 12, 1961; 晚上, 人民大会堂; state banquet). Made public: 1997. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 577ded6f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 416: ?'
+        - 'w.zhou-enlai-waijiao-huodong 313: B'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_range:
+      - 1961-06-12T11:00Z
+      - 1961-06-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-12.china-leadership-4
+    when: June 12
+    date: '1961-06-12'
+    time: 1961-06-12T00:00Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai goes to the airport to welcome Phạm Văn Đồng, leading the DRV government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 12, 1961; 上午8时). See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: d770b629
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-12.china-leadership-5
+    when: June 12
+    date: '1961-06-12'
+    time: 1961-06-12T07:00Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, the Great Hall of the People, Zhejiang Hall. Zhou Enlai, with Liu Shaoqi and others, meets Phạm Văn Đồng and the DRV delegation and holds the first talks.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 12, 1961; 下午3时). Made public: 1993. See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Liu Shaoqi, Phạm Văn Đồng.'
+    src:
+      c: 46996d1b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:liu-shaoqi, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-13.cuba
     when: June 13
     date: '1961-06-13'
@@ -1074,8 +1270,58 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'The Qinzheng Hall, evening. Mao receives Sukarno, President of Indonesia; Liu Shaoqi and Zhou Enlai present. While Chiang''s man is in the United Nations, China stays out: eleven years waited, eleven more no matter. One step only: Taiwan returned, China in; its system may stay for its people to settle; one seat, not two like the Ukraine''s.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1961. Made public: 2013. Names: Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai, Chiang Kai-shek.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1961; [[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 晚6时20分, the Qinzheng Hall). Made public: 2013. Names: Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai, Chiang Kai-shek.'
+    src:
+      c: e1c78d6e
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, June 13, 1961: all'
+        - 'w.zhou-enlai-waijiao-huodong 313: A-C'
     tags: [polity:prc, polity:indonesia, name:mao-zedong, name:sukarno, name:liu-shaoqi, name:zhou-enlai, name:chiang-kai-shek, vis:only:prc+indonesia]
+  - id: cal.1961-06-13.china-leadership-2
+    when: June 13
+    date: '1961-06-13'
+    time: 1961-06-13T01:00Z
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai goes to the airport to welcome Sukarno, President of Indonesia.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 上午9时). Names: Zhou Enlai, Sukarno.'
+    src:
+      c: 171f2f58
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:sukarno]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-13.china-leadership-3
+    when: June 13
+    date: '1961-06-13'
+    time: 1961-06-13T03:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, Diaoyutai guesthouse. Zhou Enlai holds the second talks with Phạm Văn Đồng, and lunches with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 上午11时30分). Made public: 1993. See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: a18b4c1a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-13.china-leadership-5
+    when: June 13
+    date: '1961-06-13'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai attends the state banquet given by Liu Shaoqi for Sukarno.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 晚上). Names: Zhou Enlai, Liu Shaoqi, Sukarno.'
+    src:
+      c: af01fd43
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 313: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:liu-shaoqi, name:sukarno]
+    time_range:
+      - 1961-06-13T11:00Z
+      - 1961-06-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-14.opinion
     when: June 14
     date: '1961-06-14'
@@ -1112,6 +1358,54 @@ entries:
     c: 'Yun Po-sun promulgates the Illicit Wealth Disposition Law, Law 623, Chang Do-young, Paek Sŏn-jin and Ko Wŏn-jŭng countersigning. Officials and politicians who amassed 50 million hwan or more by their posts from July 1, 1953 to May 15, 1961; businessmen who gained 100 or 200 million or more, by the kind of gain, from state property, loans, contracts, purchases abroad or unpaid taxes, and those who sent property abroad: their gains forfeit.'
     n: '[[w.ilchi]], I, June 14, 1961, news, item 1. [[w.kwanbo]], [no. 2882 (June 14, 1961), supp. 1, 1](https://theme.archives.go.kr/next/gazette/viewGazetteContentList.do?gazetteId=0001647912&actionType=date) (Law 623). See [[cal.1961-06-02.korea-leadership-2]]. Names: Yun, Chang Do-young, Paek Sŏn-jin, Ko Wŏn-jŭng. Check: the penalties are read in part.'
     tags: [polity:rok, name:yun-po-sun, name:chang-yo-yong]
+  - id: cal.1961-06-14.china-leadership
+    when: June 14
+    date: '1961-06-14'
+    time: 1961-06-14T00:00Z
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking, the Workers' Stadium. Zhou Enlai attends the mass meeting of the capital's people welcoming Sukarno.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 14, 1961; 上午8时). Names: Zhou Enlai, Sukarno.'
+    src:
+      c: f6022d0f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:sukarno]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-14.china-leadership-2
+    when: June 14
+    date: '1961-06-14'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai, with Liu Shaoqi, returns Sukarno's call and attends the exchange of instruments of ratification of the China–Indonesia treaty of friendship; he receives from Sukarno an order, second class.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 14, 1961; 下午). Names: Zhou Enlai, Liu Shaoqi, Sukarno.'
+    src:
+      c: 87de1d8c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:liu-shaoqi, name:sukarno]
+    time_range:
+      - 1961-06-14T04:00Z
+      - 1961-06-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-14.china-leadership-3
+    when: June 14
+    date: '1961-06-14'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends Sukarno's farewell banquet.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 14, 1961; 晚上). Names: Zhou Enlai, Sukarno.'
+    src:
+      c: e4416f79
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:sukarno]
+    time_range:
+      - 1961-06-14T11:00Z
+      - 1961-06-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-15.berlin-and-vienna
     when: June 15
     date: '1961-06-15'
@@ -1223,8 +1517,83 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'The Yinian Tang. Mao receives the DRV government delegation under Phạm Văn Đồng; Zhou Enlai and Luo Guibo present. No thanks for the experts: an internationalist duty; Vietnam on China''s southern front and the camp''s, and China above all bound to help.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 15, 1961. Made public: 2013. Names: Mao Zedong, Phạm Văn Đồng, Zhou Enlai, Luo Guibo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 15, 1961; [[w.zhou-enlai-waijiao-huodong]], 314 (June 15, 1961; 上午, the Yinian Hall). Made public: 2013. Names: Mao Zedong, Phạm Văn Đồng, Zhou Enlai, Luo Guibo.'
+    src:
+      c: b8981f42
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, June 15, 1961: all'
+        - 'w.zhou-enlai-waijiao-huodong 314: A-C'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:pham-van-dong, name:zhou-enlai, vis:only:prc+drv]
+  - id: cal.1961-06-15.china-leadership-3
+    when: June 15
+    date: '1961-06-15'
+    time: 1961-06-14T23:00Z
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai accompanies Mao Zedong in returning Sukarno's call, and breakfasts with Sukarno.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 15, 1961; 上午7时). Names: Zhou Enlai, Mao Zedong, Sukarno.'
+    src:
+      c: 6c86ac61
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:mao-zedong, name:sukarno]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-15.china-leadership-4
+    when: June 15
+    date: '1961-06-15'
+    time: 1961-06-15T00:00Z
+    thread: china-leadership
+    also: [china, indonesia, soviet-union]
+    c: Peking. Zhou Enlai and Liu Shaoqi go with Sukarno to the airport and see him off to the Soviet Union.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 15, 1961; 上午8时). Names: Zhou Enlai, Liu Shaoqi, Sukarno.'
+    src:
+      c: b1e23d9c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:liu-shaoqi, name:sukarno]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-15.china-leadership-6
+    when: June 15
+    date: '1961-06-15'
+    time: 1961-06-15T07:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of the capital's people welcoming Phạm Văn Đồng, and afterward signs the joint communiqué with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 15, 1961; 下午3时30分). See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: b5913ebc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-15.china-leadership-7
+    when: June 15
+    date: '1961-06-15'
+    time: 1961-06-15T12:00Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the reception given by the DRV Ambassador, Trần Tử Bình, for Phạm Văn Đồng's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 15, 1961; 晚8时). See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 22a5a1a0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-15.china-leadership-8
+    when: June 15
+    date: '1961-06-15'
+    time: 1961-06-15T14:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, the Great Hall of the People. Zhou Enlai holds the third talks with Phạm Văn Đồng.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 15, 1961; 晚10时30分). Made public: 1993. See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: e6f6db5b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-16.cuba
     when: June 16
     date: '1961-06-16'
@@ -1302,6 +1671,23 @@ entries:
     c: 'The Yinian Tang. Mao receives D. N. Aidit, chairman of the Indonesian Communist Party; Liu Shaoqi, Deng Xiaoping, Peng Zhen, Wang Jiaxiang present. Peaceful transition: perhaps a few in a hundred, the rest by arms. China still offers Chiang peace, never dropped; he fears it, and America fears it. Socialism new to China: eleven years without a full set of policies.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, June 16, 1961. Made public: 2013. Names: Mao Zedong, Aidit, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Wang Jiaxiang, Chiang Kai-shek.'
     tags: [polity:prc, polity:indonesia, name:mao-zedong, name:aidit-dipa-nusantara, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:chiang-kai-shek, vis:only:prc+indonesia]
+  - id: cal.1961-06-16.china-leadership-4
+    when: June 16
+    date: '1961-06-16'
+    thread: china-leadership
+    also: [china, vietnam-hanoi, korea]
+    c: Peking. Zhou Enlai goes to the airport to see off Phạm Văn Đồng, leaving for a visit to Korea.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 16, 1961; 晨). See [[cal.1961-06-12.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 6a42ced9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+    time_range:
+      - 1961-06-15T21:00Z
+      - 1961-06-16T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-17.robert-kennedy
     when: June 17
     date: '1961-06-17'
@@ -1390,6 +1776,40 @@ entries:
     c: Zhou Enlai revises and issues the Center's instruction on Yellow River flood control, adding after "the Railway Ministry to strengthen flood work on the Zhengzhou and Jinan bridges at once" that the repair of the two railway lines at Huayuankou and Dongbatou be begun at once.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 417 (June 18, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-06-18.china-leadership-2
+    when: June 18
+    date: '1961-06-18'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives the Nigerian economic delegation headed by Okotie-Eboh, Federal Minister of Finance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 18, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: 07f5b7d3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:nigeria, name:zhou-enlai]
+    time_range:
+      - 1961-06-18T04:00Z
+      - 1961-06-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-06-18.china-leadership-3
+    when: June 18
+    date: '1961-06-18'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai attends the signing of the communiqué of the China–Nigeria economic talks and the farewell cocktail party given by the Nigerian delegation's head.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314 (June 18, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: a2c6cb10
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314: all'
+    tags: [polity:prc, polity:nigeria, name:zhou-enlai]
+    time_range:
+      - 1961-06-18T11:00Z
+      - 1961-06-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-19.court
     when: June 19
     date: '1961-06-19'
@@ -1528,8 +1948,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai, June 20 and 21, receives the Japanese Communist Party''s Diet members'' delegation, the Japanese writers'' delegation, the Japan–China Friendship Association''s women''s delegation, the Japanese business friendship delegation and friendly firms'' representatives: restoring militarism harms Japan''s, China''s and Asia''s peoples, and its future is dark, leading Japan''s people into disaster; if the two peoples visit and work for peace they can stop the danger of aggressive war; China receives Japan''s guests on the understanding that Japan''s people oppose American control, war and militarism and want lasting peace.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 418 (June 20, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 418 (June 20, 1961); [[w.zhou-enlai-waijiao-huodong]], 314 (June 20, 1961; 下午, 中南海西花厅; Shiga Yoshio''s delegation); [[w.zhou-enlai-waijiao-huodong]], 314 (June 21, 1961; 下午, 人民大会堂福建厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 9eb945c6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 418: ?'
+        - 'w.zhou-enlai-waijiao-huodong 314: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_range:
+      - 1961-06-20T04:00Z
+      - 1961-06-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-21.opinion
     when: June 21
     date: '1961-06-21'
@@ -1777,6 +2207,23 @@ entries:
     c: At the Standing Committee, which takes up the 40th anniversary celebrations of the Communist Party.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 418 (June 23, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-06-23.china-leadership-2
+    when: June 23
+    date: '1961-06-23'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking, Xihuating. Zhou Enlai receives a former Vice President of Bolivia, a senator.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 314–15 (June 23, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: 409f0329
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 314–15: all'
+    tags: [polity:prc, polity:bolivia, name:zhou-enlai]
+    time_range:
+      - 1961-06-23T04:00Z
+      - 1961-06-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-24.cuba
     when: June 24
     date: '1961-06-24'
@@ -1897,8 +2344,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai receives Utsunomiya Tokuma and other Liberal-Democratic Diet members, hoping Prime Minister Ikeda goes toward Sino-Japanese friendship, China''s keynote: whoever goes against the two peoples'' common will will fail; China receives friends with common aims; communists and liberals differ in position and in many points, but seek common ground, keep differences, stress agreement and shrink differences; equal treatment; the fifty bad years were made by militarism and are to be wiped out by friendship; if the Japanese government means friendship it should value the friendship of two great nations.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 419 (June 25, 1961). Made public: 1997. Names: Zhou Enlai, Ikeda Hayato.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 419 (June 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 315 (June 25, 1961; 下午, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Ikeda Hayato.'
+    src:
+      c: ac5db850
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 419: ?'
+        - 'w.zhou-enlai-waijiao-huodong 315: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:ikeda-hayato, vis:only:prc+japan]
+    time_range:
+      - 1961-06-25T04:00Z
+      - 1961-06-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-25.china-leadership-4
     when: June 25
     date: '1961-06-25'
@@ -2467,6 +2924,23 @@ entries:
     c: Zhou Enlai at the Politburo, which adopts Liu Shaoqi's draft speech for the 40th anniversary rally.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 420 (June 29, 1961). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-06-29.china-leadership-2
+    when: June 29
+    date: '1961-06-29'
+    thread: china-leadership
+    also: [china, congo]
+    c: 'Peking Hotel. Zhou Enlai attends the reception given by the Congolese chargé d''affaires for the first anniversary of Congo''s independence, and speaks: American imperialism, with parliament in one hand and the army in the other, means to take the Congo whole and put down its people.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 315 (June 29, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: d59445ab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 315: all'
+    tags: [polity:prc, polity:congo, name:zhou-enlai]
+    time_range:
+      - 1961-06-29T11:00Z
+      - 1961-06-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-30.program
     when: June 30
     date: '1961-06-30'

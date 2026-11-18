@@ -147,11 +147,18 @@ entries:
   - id: cal.1961-03-01.china-leadership-3
     when: Mar. 1
     date: '1961-03-01'
+    time: 1961-03-01T03:30Z
     thread: china-leadership
     also: [soviet-union, trade]
     c: Zhou Enlai receives members of a Soviet delegation, Kumykin, Deputy Minister of Foreign Trade, and Arkhipov, First Vice-Chairman of the State Committee for Foreign Economic Relations, and speaks on Sino-Soviet economic and trade relations.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 上午11时30分, 人民大会堂福建厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 6605d18c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 394: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-01.china-leadership-4
     when: Mar. 1
     date: '1961-03-01'
@@ -160,6 +167,23 @@ entries:
     c: 'Zhou Enlai settles the Center''s comment forwarding the Liaoning light industry office''s report on making artificial meat extract: grain and light industry ministries to set up factories as in Liaoning; in the southern provinces, now spring, to press substitute foods, adding chlorella leaf-egg and others to the plans.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 395 (Mar. 1, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03-01.china-leadership-5
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    also: [china, soviet-union, trade]
+    c: Peking. Zhou Enlai attends the luncheon given by Chen Yi, Vice Premier, for the Soviet delegations.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 中午). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: c5f823c2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1961-03-01T04:00Z
+      - 1961-03-01T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -778,11 +802,18 @@ entries:
   - id: cal.1961-03-08.china-leadership
     when: Mar. 8
     date: '1961-03-08'
+    time: 1961-03-08T07:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives the socialist countries'' envoys in Peking and describes China''s state. To overcome the famine: rely first on the Chinese people; cut rations, low standards, vegetables and melons for grain, substitute foods; thrift and more output to keep industry; keep to the masses and the hard, plain style of the war years. Last year''s trade debts with the brother countries to be repaid later and this year''s imports and exports cut, so they bear China''s farm difficulty, which makes China uneasy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 8, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 8, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 8, 1961; 下午3时, 人民大会堂). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: c8418ed6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 396: ?'
+        - 'w.zhou-enlai-waijiao-huodong 305: A'
     tags: [polity:prc, polity:ussr, polity:hungary, polity:gdr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-08.china-leadership-2
     when: Mar. 8
     date: '1961-03-08'
@@ -791,6 +822,23 @@ entries:
     c: 'Zhou Enlai, for the Center, answers orally to Chervonenko Khrushchev''s letter of Feb. 27 to Mao offering grain and Cuban sugar on credit. In face of the grain shortage China first mobilizes its own strength, then buys more on deferred payment from the world market, so the Soviet offer would be held in reserve and asked for only if purchases fail. On 500,000 tons of Cuban sugar: if not urgent for the Soviet market, China would accept this aid.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 8, 1961). Made public: 1997. Names: Zhou Enlai, Chervonenko, Khrushchev, Mao Zedong.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc+ussr]
+  - id: cal.1961-03-08.china-leadership-3
+    when: Mar. 8
+    date: '1961-03-08'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the ceremony at which the Burmese Ambassador, for the President of Burma, decorates Zhang Hanfu, Vice Foreign Minister, and Shao Tianren, deputy director of the Foreign Ministry's Treaty Department, for their part in settling the China–Burma boundary.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 8, 1961; 上午). Names: Zhou Enlai.'
+    src:
+      c: b8ef9f66
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 305: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1961-03-07T22:00Z
+      - 1961-03-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-09.laos
     when: Mar. 9
     date: '1961-03-09'
@@ -1273,6 +1321,20 @@ entries:
     c: 'Mao''s note for the Three South conference on his "On Investigation Work" (spring 1930), against "book worship," lost thirty years and found in January at the Revolutionary Museum, from the Longyan prefecture: printed for the meeting.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 11, 1961. Made public: 2013. Names: Mao Zedong.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-11.china-leadership-4
+    when: Mar. 11
+    date: '1961-03-11'
+    time: 1961-03-11T04:00Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi, laos]
+    c: Peking, Xihuating. Zhou Enlai receives Võ Nguyên Giáp, the DRV's Minister of Defense, and Văn Tiến Dũng, Chief of the General Staff, and talks of the Laos question.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 11, 1961; 中午12时). Made public: 1993. Names: Zhou Enlai, Võ Nguyên Giáp, Văn Tiến Dũng.'
+    src:
+      c: f55612c7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 305: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:vo-nguyen-giap, name:van-tien-dung, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-12.opinion
     when: Mar. 12
     date: '1961-03-12'
@@ -1457,7 +1519,12 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'Zhou Enlai receives Indonesia''s Ambassador, Sukarni. China''s entry to the United Nations is joined to the Taiwan question, two sides of one problem; America''s seating the Taiwan authorities there for China is laughable; as long as Taiwan''s delegate stays China cannot enter. To Sukarni''s "1961 will be the year of the People''s Republic": China is a new state, still backward; building it needs a long time.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 398 (Mar. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 0fd5c33f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 398: ?'
+        - 'w.zhou-enlai-waijiao-huodong 305: A'
     tags: [polity:prc, polity:indonesia, polity:un, name:zhou-enlai, vis:only:prc+indonesia]
   - id: cal.1961-03-14.vietnam-hanoi
     when: Mar. 14
@@ -2625,6 +2692,37 @@ entries:
     thread: latin-america-dominican-republic
     c: 'The station to CIA headquarters: it asks to pass to the dissidents three .30-caliber M1 carbines, left in the consulate by Navy personnel after relations were broken in August 1960. Dearborn, by his testimony, knew of the proposal and concurred.'
     n: '[[w.sen-church-alleged-assassination-plots]], 200 (the cable and Dearborn''s testimony of July 29, 1975). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, station to headquarters, Mar. 26, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 200). See [[cal.1961-03-24.latin-america-dominican-republic]].'
+  - id: cal.1961-03-26.china-leadership
+    when: Mar. 26
+    date: '1961-03-26'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leaving for a visit to Indonesia.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 26, 1961; 清晨). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 3e7e6f64
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 305: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1961-03-25T21:00Z
+      - 1961-03-26T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-26.china-leadership-2
+    when: Mar. 26
+    date: '1961-03-26'
+    time: 1961-03-26T10:30Z
+    thread: china-leadership
+    also: [china, soviet-union, trade]
+    c: Peking, Xihuating. Zhou Enlai receives Arkhipov, head of the Soviet economic and technical delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 26, 1961; 晚6时30分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 3878a2b7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 305: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-27.mississippi
     when: Mar. 27
     date: '1961-03-27'
@@ -2699,6 +2797,20 @@ entries:
     c: 'At the Secretariat Zhou Enlai reports the draft oral answer to the CPSU Central Committee''s letter of Mar. 21, describing the measures taken to overcome the difficulty, already with some effect: if 1961 brings a good summer or autumn harvest, or imports of grain from abroad go well this summer, the Soviet side will be told that the 1 million tons of grain it offered no longer need be held in reserve. On Mar. 31 he reads the answer to Chervonenko.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 27, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-27.china-leadership-2
+    when: Mar. 27
+    date: '1961-03-27'
+    time: 1961-03-27T15:30Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Xihuating. Zhou Enlai receives Chervonenko, the Soviet Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 27, 1961; 晚11时30分). Made public: 1993. Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 1a3661c0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 305: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-28.defense
     when: Mar. 28
     date: '1961-03-28'
@@ -2946,6 +3058,20 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 216 n.32b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 216 n.32c: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-28.china-leadership-3
+    when: Mar. 28
+    date: '1961-03-28'
+    time: 1961-03-28T12:45Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai receives the Romanian Ambassador, Zaharescu, soon to leave his post.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 28, 1961; 晚8时45分). Names: Zhou Enlai.'
+    src:
+      c: f95da243
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 305: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-29.states-and-cities
     when: Mar. 29
     date: '1961-03-29'
@@ -3043,8 +3169,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai gives a banquet for Ne Win, Chief of Staff of Burma's armed forces; in his toast, Burma's army drove the Kuomintang remnants from eleven years of occupation, a great contribution to the peace of Southeast Asia.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961). Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 29, 1961; 下午, 钓鱼台宾馆, 会见并宴请, with Deng Yingchao). Names: Zhou Enlai, Ne Win.'
+    src:
+      c: 3b8b22c0
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 400: ?'
+        - 'w.zhou-enlai-waijiao-huodong 305: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1961-03-29T04:00Z
+      - 1961-03-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-29.china-leadership-3
     when: Mar. 29
     date: '1961-03-29'
@@ -3147,11 +3283,32 @@ entries:
   - id: cal.1961-03-30.china-leadership
     when: Mar. 30
     date: '1961-03-30'
+    time: 1961-03-30T06:30Z
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai receives Ghana''s first Ambassador to China (Kobina Kesi in the chronology''s transliteration): the chief task for Asia, Africa and Latin America''s middle zone is to drive out colonialism and win national independence; after independence not all need choose socialism, a people choosing its own system; revolution and counter-revolution cannot be exported; Africa''s awakening is irresistible; China and Asians are on Africa''s side.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 30, 1961). Made public: 1997. Names: Zhou Enlai. Check: the Ambassador''s name, from the chronology''s transliteration.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 30, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 30, 1961; 下午2时30分, 中南海西花厅). Made public: 1997. Names: Zhou Enlai. Check: the Ambassador''s name, from the chronology''s transliteration.'
+    src:
+      c: 52fc0b40
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 400: ?'
+        - 'w.zhou-enlai-waijiao-huodong 305: A'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, vis:only:prc+ghana]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-30.china-leadership-2
+    when: Mar. 30
+    date: '1961-03-30'
+    time: 1961-03-30T11:00Z
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, Xihuating. Zhou Enlai receives the UAR Ambassador, Taraji.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 306 (Mar. 30, 1961; 晚7时). Names: Zhou Enlai.'
+    src:
+      c: e826830b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 306: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-31.opinion
     when: Mar. 31
     date: '1961-03-31'

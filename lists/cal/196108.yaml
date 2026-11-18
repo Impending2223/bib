@@ -617,7 +617,12 @@ entries:
     thread: china-leadership
     also: [laos, vietnam-hanoi]
     c: Zhou Enlai receives Hoàng Văn Hoan and Kaysone, analyzing the five contradictions America faces and the position they make; a nation or state wins only by relying on its people, foreign aid secondary; self-reliance first, foreign help second.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 5, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (Aug. 5, 1961; 中南海). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 7cf9ac2a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 426: ?'
+        - 'w.zhou-enlai-waijiao-huodong 317: A'
     tags: [polity:prc, polity:drv, polity:laos, name:zhou-enlai, vis:only:prc+drv]
   - id: cal.1961-08-06.space
     when: Aug. 6
@@ -634,6 +639,23 @@ entries:
     c: Zhou Enlai goes to Beidaihe.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 6, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-08-06.china-leadership-2
+    when: Aug. 6
+    date: '1961-08-06'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives the former President of Chile's Chamber of Deputies, a Radical deputy, with his wife, and Martínez, president of the Chile–China Cultural Association and a Radical deputy, with his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317–18 (Aug. 6, 1961; 上午). Names: Zhou Enlai.'
+    src:
+      c: 8bd239fb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 317–18: all'
+    tags: [polity:prc, polity:chile, name:zhou-enlai]
+    time_range:
+      - 1961-08-05T22:00Z
+      - 1961-08-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-07.conservation
     when: Aug. 7
     date: '1961-08-07'
@@ -1094,6 +1116,18 @@ entries:
     c: Zhou Enlai with Li Xiannian and others on cutting staff; back in Peking the next day.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 12, 1961). Made public: 1997. Names: Zhou Enlai, Li Xiannian.'
     tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-08-12.china-leadership-3
+    when: Aug. 12
+    date: '1961-08-12'
+    thread: china-leadership
+    also: [china, vietnam-hanoi, laos]
+    c: Peking. Zhou Enlai meets Phạm Văn Đồng and talks of the Laos question.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 66b1d4e4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 318: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
   - id: cal.1961-08-13.berlin-and-vienna
     when: Aug. 13
     date: '1961-08-13'
@@ -1157,6 +1191,34 @@ entries:
     c: 'Late at night Zhou Enlai receives Cheng Siyuan, on Li Zongren''s return and related matters: America''s difficulties at home and abroad; Cheng to tell Li that China does not expect him back at once; if he wishes to send someone first to look, that is agreed; he hopes Li stays detached, holds to national integrity and need not hurry for near gain, being careful of his later years, when the people will forgive him. He asks of Kuomintang military and political men in Hong Kong and Hong Kong''s economy; Japanese militarism''s revival a hidden danger, Japan''s course worth notice.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:roc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-08-13.china-leadership-2
+    when: Aug. 13
+    date: '1961-08-13'
+    time: 1961-08-13T10:00Z
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai, with Dong Biwu, Vice Chairman, meets João Goulart, Vice President of Brazil.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 13, 1961; 晚6时). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Dong Biwu, Goulart.'
+    src:
+      c: d1728d2c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 318: all'
+    tags: [polity:prc, polity:brazil, name:zhou-enlai, name:dong-biwu, name:goulart-joao]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-13.china-leadership-3
+    when: Aug. 13
+    date: '1961-08-13'
+    time: 1961-08-13T11:30Z
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the welcoming banquet given by Dong Biwu for Goulart.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 13, 1961; 晚7时30分). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Dong Biwu, Goulart.'
+    src:
+      c: f8da5f3b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 318: all'
+    tags: [polity:prc, polity:brazil, name:zhou-enlai, name:dong-biwu, name:goulart-joao]
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-14.berlin-and-vienna
     when: Aug. 14
     date: '1961-08-14'
@@ -1275,8 +1337,48 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai, Aug. 14–19, receives Kwame Nkrumah, President of Ghana. On the 14th with Liu Shaoqi: Sun Yat-sen found the thorough road only by working with the Communists; the Congolese people will win. On the 15th he returns the call and tells of the communes and the grain shortage. Aug. 16–18 with Nkrumah to Hangzhou and Shanghai; on the flight home he advises farming and light industry alongside heavy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 14, 1961). Made public: 1997. Names: Zhou Enlai, Nkrumah, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961; 上午, 机场; 下午, 会谈, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 下午, Diaoyutai; returns the call, with Liu Shaoqi). Made public: 1997. Names: Zhou Enlai, Nkrumah, Liu Shaoqi.'
+    src:
+      c: 15f0807e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 427: ?'
+        - 'w.zhou-enlai-waijiao-huodong 318: A'
+        - 'w.zhou-enlai-waijiao-huodong 319: D'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame, name:liu-shaoqi, vis:only:prc+ghana]
+    time_range:
+      - 1961-08-13T22:00Z
+      - 1961-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-14.china-leadership-5
+    when: Aug. 14
+    date: '1961-08-14'
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: 'Peking, the Great Hall of the People. Zhou Enlai tells the Congolese Ambassador, Diaka, after his talks that afternoon with Nkrumah, in which he heard Nkrumah''s views on the Congo: China still backs Gizenga''s lawful government and his staying in Stanleyville; the Congo''s right of self-determination has been hurt since the United Nations came in, and the reopened parliament, guaranteed by the United Nations and so by American support, cannot be relied on; one choice is a break, the other another deception.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: 9a9c2da6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 318: all'
+    tags: [polity:prc, polity:congo, name:zhou-enlai, name:nkrumah-kwame, vis:only:prc+congo]
+  - id: cal.1961-08-14.china-leadership-6
+    when: Aug. 14
+    date: '1961-08-14'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the state banquet given by Liu Shaoqi for Nkrumah.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961; 晚上). Names: Zhou Enlai, Liu Shaoqi, Nkrumah.'
+    src:
+      c: 04ecadef
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 318: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:liu-shaoqi, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-14T11:00Z
+      - 1961-08-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-15.transition-and-staff
     when: Aug. 15
     date: '1961-08-15'
@@ -1377,11 +1479,97 @@ entries:
   - id: cal.1961-08-15.china-leadership
     when: Aug. 15
     date: '1961-08-15'
+    time: 1961-08-15T14:30Z
     thread: china-leadership
     also: [latin-america]
     c: 'Zhou Enlai receives João Goulart, Vice President of Brazil, and answers the President''s proposal, conveyed by him, of trade missions exchanged to bring relations closer, ending in the wished relations: in Brazil''s present international setting it cannot yet expel Chiang''s representative and recognize China; from mutual understanding and friendship let neither make difficulties; China will wait.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 15, 1961). Made public: 1997. Names: Zhou Enlai, Goulart.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 晚10时30分, 人民大会堂福建厅). Made public: 1997. Names: Zhou Enlai, Goulart.'
+    src:
+      c: d12a0107
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
+        - 'w.zhou-enlai-waijiao-huodong 319: A'
     tags: [polity:prc, polity:brazil, polity:roc, name:zhou-enlai, name:goulart-joao, vis:only:prc+brazil]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-15.china-leadership-2
+    when: Aug. 15
+    date: '1961-08-15'
+    time: 1961-08-15T02:00Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Zhongshan Hall in Zhongshan Park. Zhou Enlai attends the public memorial for Chen Jiageng, chairman of the All-China Federation of Returned Overseas Chinese.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 上午10时). Names: Zhou Enlai.'
+    src:
+      c: cbc46406
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-15.china-leadership-3
+    when: Aug. 15
+    date: '1961-08-15'
+    time: 1961-08-15T03:30Z
+    thread: china-leadership
+    also: [china, laos, vietnam-hanoi]
+    c: Peking, Diaoyutai guesthouse, Building 10. Zhou Enlai talks with Phạm Văn Đồng and Kaysone Phomvihane.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 上午11时30分). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng, Kaysone Phomvihane.'
+    src:
+      c: 516b066e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:drv, polity:pathet-lao, name:zhou-enlai, name:pham-van-dong, name:kaysone-phomvihan, vis:only:prc+drv+pathet-lao]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-15.china-leadership-4
+    when: Aug. 15
+    date: '1961-08-15'
+    thread: china-leadership
+    also: [china, soviet-union, trade]
+    c: Peking. Zhou Enlai receives the Soviet trade delegation headed by Kumykin, Deputy Minister of Foreign Trade.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 中午). Names: Zhou Enlai.'
+    src:
+      c: c45e1afc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai]
+    time_range:
+      - 1961-08-15T04:00Z
+      - 1961-08-15T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-15.china-leadership-6
+    when: Aug. 15
+    date: '1961-08-15'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai meets Goulart and dines with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 晚上). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Goulart.'
+    src:
+      c: aeaf75b4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:brazil, name:zhou-enlai, name:goulart-joao]
+    time_range:
+      - 1961-08-15T11:00Z
+      - 1961-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-15.china-leadership-7
+    when: Aug. 15
+    date: '1961-08-15'
+    thread: china-leadership
+    also: [china, africa, latin-america]
+    c: Peking. Zhou Enlai attends the evening of arts given by the Ministry of Culture for Nkrumah and Goulart.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 晚上). Names: Zhou Enlai, Nkrumah, Goulart.'
+    src:
+      c: fc68b708
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, name:zhou-enlai, name:nkrumah-kwame, name:goulart-joao]
+    time_range:
+      - 1961-08-15T11:00Z
+      - 1961-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-16.berlin-and-vienna
     when: Aug. 16
     date: '1961-08-16'
@@ -1446,16 +1634,87 @@ entries:
   - id: cal.1961-08-16.china-leadership
     when: Aug. 16
     date: '1961-08-16'
+    time: 1961-08-16T09:30Z
     thread: china-leadership
     also: [africa]
     c: 'Hangzhou, the Wang Villa. Mao receives Kwame Nkrumah, President of Ghana, at dinner; Zhou Enlai present; at 11:30 p.m. he returns the call. Nkrumah: in visiting the socialist states he casts Ghana''s lot with socialism. Mao: China''s experience for reference only; do not copy, as China once did.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 16, 1961. [[w.zhou-enlai-nianpu-1949]], II, 428, Aug. 16, 1961 (Zhou present at Mao''s reception of Nkrumah). Made public: 2013. Names: Mao Zedong, Nkrumah, Zhou Enlai, Zhou Jianren.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 16, 1961. [[w.zhou-enlai-nianpu-1949]], II, 428, Aug. 16, 1961 (Zhou present at Mao''s reception of Nkrumah). [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 下午5时30分, 杭州, 陪同毛泽东主席会见并宴请). Made public: 2013. Names: Mao Zedong, Nkrumah, Zhou Enlai, Zhou Jianren.'
     src:
       c: d7612b81
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 16, 1961: all'
         - 'w.zhou-enlai-nianpu-1949 II, 428, Aug. 16, 1961: C'
+        - 'w.zhou-enlai-waijiao-huodong 319: A'
     tags: [polity:prc, polity:ghana, name:mao-zedong, name:nkrumah-kwame, name:zhou-enlai, vis:only:prc+ghana]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-16.china-leadership-3
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai goes to the airport to see off Phạm Văn Đồng, leaving for a visit to Kunming.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午). Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 8c265a37
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+    time_range:
+      - 1961-08-15T22:00Z
+      - 1961-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-16.china-leadership-4
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai flies with Nkrumah to Hangzhou.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: aa61de11
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-15T22:00Z
+      - 1961-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-16.china-leadership-5
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: china-leadership
+    also: [china, africa]
+    c: Hangzhou. Zhou Enlai attends the welcoming banquet given by Zhou Jianren, Governor of Zhejiang, for Nkrumah.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 中午). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: d478c8f8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-16T04:00Z
+      - 1961-08-16T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-16.china-leadership-6
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: china-leadership
+    also: [china, africa]
+    c: Hangzhou, the Hangzhou Hotel. Zhou Enlai accompanies Mao Zedong in returning Nkrumah's call.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 晚上). See [[cal.1961-08-16.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Nkrumah.'
+    src:
+      c: bfd39913
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:mao-zedong, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-16T11:00Z
+      - 1961-08-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
@@ -1625,6 +1884,40 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-08-17.china-leadership
+    when: Aug. 17
+    date: '1961-08-17'
+    thread: china-leadership
+    also: [china, africa]
+    c: Zhou Enlai flies with Nkrumah from Hangzhou to Shanghai.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 17, 1961; 上午). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: d0e819ea
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-16T22:00Z
+      - 1961-08-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-17.china-leadership-2
+    when: Aug. 17
+    date: '1961-08-17'
+    thread: china-leadership
+    also: [china, africa]
+    c: Shanghai. Zhou Enlai attends the welcoming banquet given by Ke Qingshi, Mayor of Shanghai, for Nkrumah.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 17, 1961; 晚上). Names: Zhou Enlai, Ke Qingshi, Nkrumah.'
+    src:
+      c: bc5123ee
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:ke-qingshi, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-17T11:00Z
+      - 1961-08-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-18.berlin-and-vienna
     when: Aug. 18
     date: '1961-08-18'
@@ -1676,8 +1969,66 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: Zhou Enlai back in Peking; visits Soong Ching-ling and goes with her to meet Nkrumah.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 18, 1961). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 中午, 陪同恩克鲁玛总统从上海飞北京). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: 2c910a81
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
+        - 'w.zhou-enlai-waijiao-huodong 319: A'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-18T04:00Z
+      - 1961-08-18T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-18.china-leadership-3
+    when: Aug. 18
+    date: '1961-08-18'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai and Nkrumah sign the China–Ghana treaty of friendship.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 下午). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: 19faec32
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-18T04:00Z
+      - 1961-08-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-18.china-leadership-4
+    when: Aug. 18
+    date: '1961-08-18'
+    time: 1961-08-18T10:30Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Workers' Stadium. Zhou Enlai attends the meeting of 100,000 of the capital's people welcoming Nkrumah.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 晚6时30分). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: 3f5d570c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 319: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-18.china-leadership-5
+    when: Aug. 18
+    date: '1961-08-18'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends Nkrumah's farewell banquet.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 18, 1961; 晚上). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: 5cc60180
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_range:
+      - 1961-08-18T11:00Z
+      - 1961-08-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-19.berlin-and-vienna
     when: Aug. 19–20
     date: '1961-08-19'
@@ -1712,6 +2063,65 @@ entries:
     c: 'The White House, on the delegation''s return from Punta del Este. After Kennedy''s greeting on the lawn, Goodwin walks in with him and tells him of the talk with Guevara. No sign of annoyance: "Write up a complete account ... and circulate it to Rusk, Bundy, and the others." He opens Guevara''s box of Cuban cigars, lights one: "You should have smoked the first one."'
     n: '[[w.goodwin-remembering-america]], 202 (Goodwin''s account). See [[cal.1961-08-17.latin-america]]. Names: Kennedy, Goodwin, Guevara, Rusk, Bundy. Check: the day; by the book, the talk with Guevara ran to almost 6 a.m., the night after the drive to Montevideo, and the delegation then flew eleven hours to Andrews.'
     tags: [name:kennedy-john-f, name:goodwin-richard-n, name:guevara-ernesto, name:rusk-dean, name:bundy-mcgeorge]
+  - id: cal.1961-08-19.china-leadership
+    when: Aug. 19
+    date: '1961-08-19'
+    time: 1961-08-19T00:30Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai goes to the airport to see off Nkrumah.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 19, 1961; 上午8时30分). Names: Zhou Enlai, Nkrumah.'
+    src:
+      c: 2f91a935
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-19.china-leadership-2
+    when: Aug. 19
+    date: '1961-08-19'
+    time: 1961-08-19T11:30Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives the Nepalese Ambassador, Keshar Bahadur, and talks of the boundary negotiations, the flow of Tibetan rebels into Nepal and the schedule of the King's visit to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 19, 1961; 晚7时30分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 05cf4588
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-19.china-leadership-3
+    when: Aug. 19
+    date: '1961-08-19'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai receives the Ceylonese doctors' delegation headed by Jayasuriya, Minister of Health.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 19, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: ee6bc79b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai]
+    time_range:
+      - 1961-08-19T11:00Z
+      - 1961-08-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-19.china-leadership-4
+    when: Aug. 19
+    date: '1961-08-19'
+    time: 1961-08-19T13:30Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives the new Ceylonese Ambassador and talks of the preparatory meeting of the nonaligned states.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 19, 1961; 晚9时30分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 9e2e7726
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai, vis:only:prc+ceylon]
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-20.opinion
     when: Aug. 20
     date: '1961-08-20'
@@ -1719,6 +2129,23 @@ entries:
     also: [defense]
     c: 'Gallup, July 27–Aug. 1: 5 percent have changed their homes against a nuclear attack; 20 have stored food.'
     n: '[[w.gallup-poll]], III, 1732.'
+  - id: cal.1961-08-20.china-leadership
+    when: Aug. 20
+    date: '1961-08-20'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Capital Theater. Zhou Enlai, with Liu Shaoqi, receives the Ethiopian cultural delegation headed by Bet Tesema and watches the Ethiopian artists' performance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 20, 1961; 晚上). Names: Zhou Enlai, Liu Shaoqi. Check: the head''s name, from the book''s 贝特塞玛.'
+    src:
+      c: 50bab0bc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:ethiopia, name:zhou-enlai, name:liu-shaoqi]
+    time_range:
+      - 1961-08-20T11:00Z
+      - 1961-08-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-21.states-and-cities-nyc
     when: Aug. 21
     date: '1961-08-21'
@@ -1812,11 +2239,46 @@ entries:
   - id: cal.1961-08-21.china-leadership-2
     when: Aug. 21
     date: '1961-08-21'
+    time: 1961-08-21T09:30Z
     thread: china-leadership
     also: [laos, soviet-union, vietnam-hanoi]
     c: Zhou Enlai receives the DRV's Foreign Minister, Ung Văn Khiêm, on the Laotian question and on Hồ Chí Minh's mediation between the Soviet Union and Albania.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961). Made public: 1997. Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: a916acfa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
+        - 'w.zhou-enlai-waijiao-huodong 320: A'
     tags: [polity:prc, polity:drv, polity:ussr, polity:albania, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-21.china-leadership-3
+    when: Aug. 21
+    date: '1961-08-21'
+    time: 1961-08-21T03:30Z
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking, Xihuating. Zhou Enlai receives Major Ameijeiras Delgado, Cuba's police chief, and Captain Rusell.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 上午11时30分). Names: Zhou Enlai. Check: the captain''s name, 鲁塞耳 in the book.'
+    src:
+      c: 096207db
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-21.china-leadership-4
+    when: Aug. 21
+    date: '1961-08-21'
+    time: 1961-08-21T12:00Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Xihuating. Zhou Enlai receives the new Albanian Ambassador (马利列).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 晚8时). Names: Zhou Enlai. Check: the name, 马利列 in the book.'
+    src:
+      c: 8a90e9cd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-22.economy
     when: Aug. 22
     date: '1961-08-22'
@@ -1893,6 +2355,20 @@ entries:
     c: 'Zhou Enlai to Prince Souvanna Phouma: the Chinese government agrees that the Royal Laotian government set up a consulate general at Kunming, and hopes to set up one in Laos at Phong Saly or Xieng Khouang, to strengthen the two countries'' ties.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 22, 1961). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos]
+  - id: cal.1961-08-22.china-leadership-2
+    when: Aug. 22
+    date: '1961-08-22'
+    time: 1961-08-22T10:30Z
+    thread: china-leadership
+    also: [china, soviet-union, trade]
+    c: Peking, Xihuating. Zhou Enlai receives Kumykin, head of the Soviet trade delegation, and talks of trade between the two countries and China's farm situation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 22, 1961; 晚6时30分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: a2bac8bb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 320: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-23.opinion
     when: Aug. 23
     date: '1961-08-23'

@@ -98,6 +98,40 @@ entries:
     c: Newport. Salinger gives Kennedy Khrushchev's letter on his return from church. Kennedy telephones Rusk; they agree Salinger should tell Bolshakov the President will answer promptly, probably within the week. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 199–200 (the day: the morning after Sept. 30). See [[cal.1961-09-30.soviet-union]]. Names: Salinger, Kennedy, Khrushchev, Rusk, Bolshakov.'
     tags: [name:salinger-pierre, name:kennedy-john-f, name:rusk-dean, name:khrushchev-nikita-s, name:bolshakov-georgi]
+  - id: cal.1961-10-01.china-leadership
+    when: Oct. 1
+    date: '1961-10-01'
+    thread: china-leadership
+    also: [china]
+    c: Peking, Tiananmen. Zhou Enlai attends the meeting celebrating the 12th anniversary of the People's Republic and reviews the parade.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 1, 1961; 上午). Names: Zhou Enlai.'
+    src:
+      c: 11d6fea7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 322: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1961-09-30T22:00Z
+      - 1961-10-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-01.china-leadership-2
+    when: Oct. 1
+    date: '1961-10-01'
+    thread: china-leadership
+    also: [china]
+    c: Peking, Tiananmen. Zhou Enlai spends the evening of the holiday on the Tiananmen rostrum with the foreign guests and a million of the capital's people.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 1, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: c212a227
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 322: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1961-10-01T11:00Z
+      - 1961-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-02.right-and-the-military
     when: Oct. 2
     date: '1961-10-02'
@@ -116,16 +150,64 @@ entries:
     thread: china-leadership
     also: [cuba, latin-america, china]
     c: 'At Dorticós''s farewell banquet Zhou Enlai on Latin America''s struggle for national independence and democratic freedom: the national democratic movement can go through a bourgeois-democratic revolution as a transitional stage; with a right policy a revolutionary government may even in the socialist stage win part of the bourgeoisie; in the socialist revolution say a little less and do a little more.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 2, 1961). Names: Zhou Enlai, Dorticos.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 2, 1961); [[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 2, 1961; 晚上, 人民大会堂). Names: Zhou Enlai, Dorticos.'
+    src:
+      c: bdf5ef58
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
+        - 'w.zhou-enlai-waijiao-huodong 322: A'
     tags: [polity:prc, polity:cuba, name:zhou-enlai, name:dorticos-torrado-osvaldo]
+    time_range:
+      - 1961-10-02T11:00Z
+      - 1961-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-02.china-leadership-2
     when: Oct. 2
     date: '1961-10-02'
+    time: 1961-10-02T11:35Z
     thread: china-leadership
     also: [cuba]
     c: Zhou Enlai at the signing of the Sino-Cuban joint communiqué.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 2, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 2, 1961); [[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 2, 1961; 晚7时35分, 人民大会堂). Names: Zhou Enlai.'
+    src:
+      c: bbbdfe53
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
+        - 'w.zhou-enlai-waijiao-huodong 322: A'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-02.china-leadership-3
+    when: Oct. 2
+    date: '1961-10-02'
+    time: 1961-10-02T08:00Z
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking, Diaoyutai guesthouse, Building 6. Zhou Enlai accompanies Mao Zedong in returning Dorticós's call.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 2, 1961; 下午4时). Names: Zhou Enlai, Mao Zedong, Dorticós.'
+    src:
+      c: e0a1acf8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 322: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, name:mao-zedong, name:dorticos-torrado-osvaldo]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1961-10-02'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking Hotel. Zhou Enlai attends the National Day reception given by the Guinean Ambassador, Camara Moussa Sanguiana.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 2, 1961; 晚上). Names: Zhou Enlai. Check: the Ambassador''s name, 卡马拉·穆萨·桑吉亚纳 in the book.'
+    src:
+      c: 9741c3d3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 322: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    time_range:
+      - 1961-10-02T11:00Z
+      - 1961-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-03.states-and-cities
     when: Oct. 3
     date: '1961-10-03'
@@ -233,8 +315,52 @@ entries:
     thread: china-leadership
     also: [south-asia, china]
     c: Zhou Enlai takes King Mahendra and the Queen to the Summer Palace; next day with Zhang Wenjin and China's Ambassador to Nepal, Zhang Shijie, on the Sino-Nepalese boundary treaty.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 3, 1961). Names: Zhou Enlai, Mahendra.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 3, 1961); [[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 3, 1961; 上午, 游颐和园, 并在听鹂馆共进午餐). Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 7283fa8f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
+        - 'w.zhou-enlai-waijiao-huodong 323: A'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-02T22:00Z
+      - 1961-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-03.china-leadership-2
+    when: Oct. 3
+    date: '1961-10-03'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai, with Liu Shaoqi, Dong Biwu and Zhu De, goes to the airport to see off Dorticós, President of Cuba.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322–23 (Oct. 3, 1961; 清晨). See [[cal.1961-09-22.china-leadership-6]]. Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Dorticós.'
+    src:
+      c: 2e4cb056
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 322–23: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:dorticos-torrado-osvaldo]
+    time_range:
+      - 1961-10-02T21:00Z
+      - 1961-10-03T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-03.china-leadership-3
+    when: Oct. 3
+    date: '1961-10-03'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives the delegation of the Union of the Peoples of Cameroon, headed by its vice chairman Abel Kingue.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 3, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: 1bc0fbef
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:cameroon, name:zhou-enlai]
+    time_range:
+      - 1961-10-03T04:00Z
+      - 1961-10-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-04.opinion-5
     when: Oct. 4
     date: '1961-10-04'
@@ -321,8 +447,35 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai receives the Japan–China Friendship Association delegation under Kuroda Hisao, adviser to the Japan Socialist Party, member of the House of Representatives and the Association''s vice-president: he agrees that China''s revolution''s success has encouraged oppressed peoples, but for imperialists and colonialists not to overlook new China it must be stronger, so their attitude may change; he praises the late chairman Asanuma Inejirō''s judgment that American imperialism is the common enemy of the Chinese and Japanese peoples.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 4, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Oct. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 4, 1961; 下午, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: b7c546d2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
+        - 'w.zhou-enlai-waijiao-huodong 323: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_range:
+      - 1961-10-04T04:00Z
+      - 1961-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1961-10-04'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the evening of arts given by the Ministry of Culture for the King and Queen of Nepal.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 4, 1961; 晚上). See [[cal.1961-10-05.china-leadership]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 201a88f0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-04T11:00Z
+      - 1961-10-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-05.middle-east-syria
     when: Oct. 5
     date: '1961-10-05'
@@ -458,11 +611,18 @@ entries:
   - id: cal.1961-10-05.china-leadership
     when: Oct. 5
     date: '1961-10-05'
+    time: 1961-10-05T12:20Z
     thread: china-leadership
     also: [south-asia]
     c: 'Diaoyutai, evening. Mao returns King Mahendra''s call; Zhou Enlai with him. The boundary all agreed, "fair," the King says. Mao: equals, no great-power chauvinism; China still poor, fifty or a hundred years to do well.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1961. Made public: 2013. Names: Mao Zedong, Mahendra, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1961. [[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 5, 1961; 晚8时20分, 钓鱼台宾馆). Made public: 2013. Names: Mao Zedong, Mahendra, Zhou Enlai.'
+    src:
+      c: fa51bb16
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 5, 1961: all'
+        - 'w.zhou-enlai-waijiao-huodong 323: A'
     tags: [polity:prc, polity:nepal, name:mao-zedong, name:mahendra-bir-bikram-shah-deva, name:zhou-enlai, vis:only:prc+nepal]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-05.china-leadership-2
     when: Oct. 5
     date: '1961-10-05'
@@ -479,6 +639,34 @@ entries:
     c: At the Secretariat, which agrees in principle to the Planning Commission Party group's report on the supplementary plan for the last two years of the Second Five-Year Plan.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 5, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-10-05.china-leadership-4
+    when: Oct. 5
+    date: '1961-10-05'
+    time: 1961-10-05T07:00Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the China–Nepal boundary treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 5, 1961; 下午3时). See [[cal.1961-10-05.china-leadership]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: '77045496'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-05.china-leadership-5
+    when: Oct. 5
+    date: '1961-10-05'
+    time: 1961-10-05T07:30Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, the Workers' Stadium. Zhou Enlai attends the mass meeting of 100,000 of the capital's people welcoming King Mahendra and the Queen.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 5, 1961; 下午3时30分). See [[cal.1961-10-05.china-leadership]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 89db1e00
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-06.berlin-and-vienna
     when: Oct. 6
     date: '1961-10-06'
@@ -590,8 +778,35 @@ entries:
     thread: china-leadership
     also: [south-asia, china]
     c: Zhou Enlai with King Mahendra to Xi'an, Sanmenxia and Luoyang, Oct. 6–8; back in Peking the 9th.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 6, 1961). Names: Zhou Enlai, Mahendra.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 6, 1961); [[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 6, 1961; 上午, 乘专机前往西安; 中午12时, 抵达西安). Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 1c388c0e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 438: ?'
+        - 'w.zhou-enlai-waijiao-huodong 323: A'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-05T22:00Z
+      - 1961-10-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-06.china-leadership-3
+    when: Oct. 6
+    date: '1961-10-06'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Xi'an. Zhou Enlai accompanies King Mahendra and the Queen at the Shaanxi Provincial Historical Museum and the Bell Tower.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 6, 1961; 下午). See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 746dc6d7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-06T04:00Z
+      - 1961-10-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-07.middle-east
     when: Oct. 7
     date: '1961-10-07'
@@ -643,6 +858,71 @@ entries:
     c: The Qinzheng Hall. Mao receives the Japan–China Friendship Association's delegation, Japanese educators and other guests; Liao Chengzhi and Liu Ningyi present. Apart from the pro-American monopolies and militarists, Japan's people China's true friends.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 7, 1961. Made public: 2013. Names: Mao Zedong, Liao Chengzhi, Liu Ningyi.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-10-07.china-leadership-3
+    when: Oct. 7
+    date: '1961-10-07'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Xi'an. Zhou Enlai accompanies King Mahendra and the Queen at the Banpo museum and Xi'an's No. 1 printing and dyeing mill.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 7, 1961; 上午). See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: d0fec6ed
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-06T22:00Z
+      - 1961-10-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-07.china-leadership-4
+    when: Oct. 7
+    date: '1961-10-07'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Huaqingchi, at the foot of Lishan. Zhou Enlai gives an informal lunch for the Nepalese guests in the Feishuang Pavilion.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 7, 1961; 中午). See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 6ff9697e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-07T04:00Z
+      - 1961-10-07T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-07.china-leadership-5
+    when: Oct. 7
+    date: '1961-10-07'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Xi'an. Zhou Enlai attends the banquet given by Zhao Boping, Governor of Shaanxi, for King Mahendra and the Queen.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323 (Oct. 7, 1961; 晚上). See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 23c51286
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-07T11:00Z
+      - 1961-10-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-07.china-leadership-6
+    when: Oct. 7
+    date: '1961-10-07'
+    time: 1961-10-07T15:00Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: On the train from Xi'an to Sanmenxia. Zhou Enlai holds a second talk with King Mahendra.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 323–24 (Oct. 7, 1961; 晚11时). Made public: 1993. See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: 52c7a925
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 323–24: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva, vis:only:prc+nepal]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-08.goldwater
     when: Oct. 8
     date: '1961-10-08'
@@ -695,6 +975,37 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 251: all'
         - 'via x.1961-10-11.battle-executive-secretary-state-for-mcgeorge-bundy: all'
     tags: [name:souvanna-phouma]
+  - id: cal.1961-10-08.china-leadership
+    when: Oct. 8
+    date: '1961-10-08'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Sanmenxia. Zhou Enlai accompanies King Mahendra and the Queen at the Sanmenxia Yellow River water control works.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 8, 1961; 上午). See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: e3b15214
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1961-10-07T22:00Z
+      - 1961-10-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-08.china-leadership-2
+    when: Oct. 8
+    date: '1961-10-08'
+    time: 1961-10-08T08:30Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Luoyang. Zhou Enlai arrives with King Mahendra and the Queen by train and takes leave of them at the station.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 8, 1961; 下午4时30分). See [[cal.1961-10-06.china-leadership-2]]. Names: Zhou Enlai, Mahendra.'
+    src:
+      c: f06fe121
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-09.court
     when: Oct. 9
     date: '1961-10-09'
@@ -770,6 +1081,23 @@ entries:
     c: 'Zhou Enlai cables the national memorial meeting on the first anniversary of the death of Asanuma Inejirō, the former Socialist chairman: an outstanding Japanese statesman and active fighter in the Japanese people''s anti-American patriotic struggle, always against the treaty, the policy of hostility to China and the "two Chinas," and untiring for Sino-Japanese friendship and normal relations.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 439 (Oct. 9, 1961). Names: Zhou Enlai, Asanuma Inejiro.'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:asanuma-inejiro]
+  - id: cal.1961-10-09.china-leadership-4
+    when: Oct. 9
+    date: '1961-10-09'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai receives the Cuban women's delegation headed by Aleida March.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 9, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: e5ec0eda
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1961-10-09T04:00Z
+      - 1961-10-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-10.european-community
     when: Oct. 10
     date: '1961-10-10'
@@ -871,11 +1199,44 @@ entries:
   - id: cal.1961-10-10.china-leadership
     when: Oct. 10
     date: '1961-10-10'
+    time: 1961-10-10T10:15Z
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives Ne Win and Brigadier Aung Gyi, who came for the signing of the Sino-Burmese boundary protocol.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 439 (Oct. 10, 1961). Made public: 1997. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 439 (Oct. 10, 1961); [[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 10, 1961; 晚6时15分, 人民大会堂福建厅). Made public: 1997. Names: Zhou Enlai, Ne Win.'
+    src:
+      c: f3f6ffe2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 439: ?'
+        - 'w.zhou-enlai-waijiao-huodong 324: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win, vis:only:prc+burma]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-10.china-leadership-2
+    when: Oct. 10
+    date: '1961-10-10'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai receives Chervonenko, who gives the CPSU Central Committee's explanations, orally, of the Soviet–American joint statement on disarmament.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 10, 1961). Made public: 1993. Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 40e7a3f4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
+  - id: cal.1961-10-10.china-leadership-3
+    when: Oct. 10
+    date: '1961-10-10'
+    time: 1961-10-10T10:15Z
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the banquet given by Luo Ruiqing, Vice Premier and Chief of the General Staff, for the Burmese guests.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 10, 1961; 晚6时15分). See [[cal.1961-10-10.china-leadership]]. Names: Zhou Enlai, Luo Ruiqing.'
+    src:
+      c: 4e2f7509
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:luo-ruiqing]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-11.vietnam
     when: Oct. 11
     date: '1961-10-11'
@@ -971,11 +1332,53 @@ entries:
   - id: cal.1961-10-11.china-leadership-2
     when: Oct. 11–14
     date: '1961-10-11'
+    time: 1961-10-11T11:00Z
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai, Oct. 11–14, receives U Nu. On the 12th, returning the call: experience comes from foreigners and, chiefly, from one''s own building; underdeveloped states build to be self-reliant; light industry first, which returns money quickly; heavy industry neither left out nor overdone. On the 13th he signs the boundary protocol, which finally settles the boundary left by history, a peaceful and friendly one; that evening at U Nu''s farewell dinner: another model of peaceful coexistence of states of different systems. The joint communiqué is issued the 14th.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 439 (Oct. 11, 1961). Made public: 1997. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 439 (Oct. 11, 1961); [[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 11, 1961; 晚7时, 人民大会堂, 会见并宴请); [[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 12, 1961; 下午2时50分, 钓鱼台宾馆, 回访); [[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 13, 1961; 下午, the Great Hall of the People; the protocol signed); [[w.zhou-enlai-waijiao-huodong]], 324–25 (Oct. 13, 1961; 晚上, the Great Hall of the People; U Nu''s farewell banquet). Made public: 1997. Names: Zhou Enlai, U Nu.'
+    src:
+      c: 059136d4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 439: ?'
+        - 'w.zhou-enlai-waijiao-huodong 324: F'
+        - 'w.zhou-enlai-waijiao-huodong 324–25: G'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-11.china-leadership-3
+    when: Oct. 11
+    date: '1961-10-11'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to welcome U Nu, come on a friendly visit and to sign the China–Burma boundary protocol.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 11, 1961; 中午). See [[cal.1961-10-11.china-leadership-2]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: 8d5be420
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-10-11T04:00Z
+      - 1961-10-11T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-11.china-leadership-4
+    when: Oct. 11
+    date: '1961-10-11'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai goes to the airport to meet He Long, back from leading the Chinese Party and government delegation to Berlin for the 12th anniversary of the GDR.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 11, 1961; 下午). Names: Zhou Enlai, He Long.'
+    src:
+      c: f589a887
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:gdr, name:zhou-enlai, name:he-long]
+    time_range:
+      - 1961-10-11T04:00Z
+      - 1961-10-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-12.civil-rights-organizations
     when: Oct. 12
     date: '1961-10-12'
@@ -1053,8 +1456,18 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'The Yinian Tang. The Politburo Standing Committee at 6 p.m.; then Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and Peng Zhen give a dinner for Hồ Chí Minh and Lê Duẩn on their way to the Soviet Twenty-second Congress. Mao: South Vietnam''s situation very good, the Vietnamese party''s work good. Hồ: forms of struggle there new to Vietnam, and to China.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 12, 1961. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Peng Zhen, Hồ Chí Minh, Lê Duẩn.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 12, 1961. [[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 12, 1961; 晚上, 会见并宴请胡志明、黎笋, with Mao Zedong and Liu Shaoqi). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Peng Zhen, Hồ Chí Minh, Lê Duẩn.'
+    src:
+      c: 3565f3c7
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 12, 1961: all'
+        - 'w.zhou-enlai-waijiao-huodong 324: A'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:ho-chi-minh, name:le-duan, vis:only:prc+drv]
+    time_range:
+      - 1961-10-12T11:00Z
+      - 1961-10-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-12.china-leadership-2
     when: Oct. 12
     date: '1961-10-12'
@@ -1158,6 +1571,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-10-13.china-leadership
+    when: Oct. 13
+    date: '1961-10-13'
+    time: 1961-10-13T02:30Z
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai accompanies U Nu at Tsinghua University.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 324 (Oct. 13, 1961; 上午10时30分). See [[cal.1961-10-11.china-leadership-2]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: e41af528
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 324: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-14.berlin-and-vienna
     when: Oct. 14
     date: '1961-10-14'
@@ -1177,6 +1604,37 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-10-14.china-leadership
+    when: Oct. 14
+    date: '1961-10-14'
+    time: 1961-10-14T00:00Z
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to see off U Nu.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 14, 1961; 上午8时). See [[cal.1961-10-11.china-leadership-2]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: a14c735a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 325: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-14.china-leadership-2
+    when: Oct. 14
+    date: '1961-10-14'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai gives a banquet in farewell to Ne Win, soon to leave Peking.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 14, 1961; 晚上). See [[cal.1961-10-11.china-leadership-2]]. Names: Zhou Enlai, Ne Win.'
+    src:
+      c: 4878a07e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 325: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1961-10-14T11:00Z
+      - 1961-10-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-15.opinion
     when: Oct. 15
     date: '1961-10-15'
@@ -1203,8 +1661,35 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai, Oct. 15–23, leads the Chinese Communist Party's delegation, at the CPSU's invitation, to the 22nd Congress at Moscow.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 15, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 15, 1961; 上午, 乘专机离京赴莫斯科). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: bcd5f87c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 440: ?'
+        - 'w.zhou-enlai-waijiao-huodong 325: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1961-10-14T22:00Z
+      - 1961-10-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-15.china-leadership-2
+    when: Oct. 15
+    date: '1961-10-15'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Moscow. Zhou Enlai arrives at the head of the Chinese Party delegation to the CPSU's 22nd Congress; Khrushchev, First Secretary, and Kozlov, Secretary, welcome it at the airport.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 15, 1961; 下午). See [[cal.1961-10-15.china-leadership]]. Names: Zhou Enlai, Khrushchev.'
+    src:
+      c: 3bfc022e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 325: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s]
+    time_range:
+      - 1961-10-15T09:00Z
+      - 1961-10-15T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1961-10-16.right-and-the-military
     when: Oct. 16
     date: '1961-10-16'
@@ -1406,6 +1891,20 @@ entries:
     c: 'The White House, dinner alone with Kennedy and Jacqueline Kennedy, Schlesinger and his wife, by Schlesinger''s journal. Kennedy on Germany: Adenauer a great man, greater than de Gaulle, and the other Germans seem to him terrible; "They act as if they had been our allies." On Eisenhower: "too stupid to know what was going on"; Truman''s appointments excellent "except in the National Committee, the regulatory agencies and the Department of Justice." On the Metropolitan Club: he could understand newspapermen who stayed in, not senators, naming Symington and Pell, who spoke on civil rights and went there for dinner.'
     n: '[[w.schlesinger-journals]], 139–40. Made public: [[w.schlesinger-journals]] (2007). See [[cal.1961-10-17.transition-and-staff]]. Names: Kennedy, Jacqueline Kennedy, Schlesinger, Eisenhower, Truman, Adenauer, de Gaulle, Symington, Pell.'
     tags: [name:kennedy-john-f, name:kennedy-jacqueline, name:schlesinger-arthur-m-jr, name:eisenhower-dwight-d, name:truman-harry-s, city:washington, name:adenauer-konrad, name:de-gaulle-charles, name:symington-william-s, name:pell-claiborne-d]
+  - id: cal.1961-10-17.china-leadership
+    when: Oct. 17
+    date: '1961-10-17'
+    time: 1961-10-17T07:00Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Moscow. Zhou Enlai attends the opening of the 22nd Congress of the Communist Party of the Soviet Union.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 17, 1961; 上午10时). See [[cal.1961-10-15.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 0702e653
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 325: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai]
+    time_zone: Europe/Moscow
   - id: cal.1961-10-18.vietnam
     when: Oct. 18
     date: '1961-10-18'
@@ -1543,8 +2042,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: At the Congress Zhou Enlai speaks and reads the greeting signed by Mao. The unity of the socialist camp and the world communist movement is a communists' internationalist duty; disputes between brother parties to be settled patiently on equality and consultation; one-sided charges against any brother party do not help, and exposing disputes before the enemy only pains friends and pleases foes. China hopes parties in dispute unite again on Marxism–Leninism and mutual respect of independence and equality.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 19, 1961). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 19, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 19, 1961; 下午, 苏共第二十二次代表大会). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 772628c4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 440: ?'
+        - 'w.zhou-enlai-waijiao-huodong 325: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong]
+    time_range:
+      - 1961-10-19T09:00Z
+      - 1961-10-19T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1961-10-19.china-leadership-3
     when: Oct. 19
     date: '1961-10-19'
@@ -1627,11 +2136,35 @@ entries:
   - id: cal.1961-10-21.china-leadership-2
     when: Oct. 21
     date: '1961-10-21'
+    time: 1961-10-21T11:10Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai leads the Chinese delegation to the Lenin and Stalin mausoleum and lays wreaths.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 21, 1961). Names: Zhou Enlai, Stalin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 21, 1961; 下午2时10分, 列宁、斯大林陵墓). Names: Zhou Enlai, Stalin.'
+    src:
+      c: 4235ba0f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
+        - 'w.zhou-enlai-waijiao-huodong 325: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:stalin]
+    time_zone: Europe/Moscow
+  - id: cal.1961-10-21.china-leadership-3
+    when: Oct. 21
+    date: '1961-10-21'
+    thread: china-leadership
+    also: [china, laos]
+    c: 'Moscow. Zhou Enlai talks with Quinim Pholsena and Phoumi Vongvichit: the Zurich communiqué is signed by the Laotian three sides, which shows three forces in Laos, the strongest Prince Souvanna Phouma''s neutralists, the second the Pathet Lao''s, the weakest Phoumi''s; the coalition government must reflect this. China favors a neutral, independent and self-determining Laos, friendly with the Soviet Union and China and also with the United States, Britain and France.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 21, 1961; 下午). Made public: 1993. See [[cal.1961-10-15.china-leadership]]. Names: Zhou Enlai, Quinim Pholsena, Souvanna Phouma.'
+    src:
+      c: f6cbc8a0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 325: all'
+    tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:quinim-pholsena, name:souvanna-phouma, vis:only:prc+laos+pathet-lao]
+    time_range:
+      - 1961-10-21T09:00Z
+      - 1961-10-21T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1961-10-22.berlin-and-vienna
     when: Oct. 22
     date: '1961-10-22'
@@ -1658,11 +2191,18 @@ entries:
   - id: cal.1961-10-22.china-leadership-2
     when: Oct. 22
     date: '1961-10-22'
+    time: 1961-10-22T11:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai and the Chinese delegation talk over nine hours with the CPSU Presidium's Khrushchev, Kozlov, Mikoyan, Andropov and others, setting out the Chinese Party's position on Soviet–Albanian relations, the 20th Congress, the appraisal of Stalin and the anti-Party group.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 22, 1961). Made public: 1997. Names: Zhou Enlai, Khrushchev, Kozlov, Mikoyan, Andropov.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午2时, 莫斯科郊外苏联政府别墅, 午餐); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午4时30分, 至晚11时, 与赫鲁晓夫为首的苏共领导人会谈, 并共进晚餐). Made public: 1997. Names: Zhou Enlai, Khrushchev, Kozlov, Mikoyan, Andropov.'
+    src:
+      c: c911c3ac
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
+        - 'w.zhou-enlai-waijiao-huodong 326: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s, name:kozlov-frol-r, name:mikoyan-anastas, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
   - id: cal.1961-10-23.cuba
     when: Oct. 23
     date: '1961-10-23'
@@ -1750,11 +2290,18 @@ entries:
   - id: cal.1961-10-23.china-leadership
     when: Oct. 23
     date: '1961-10-23'
+    time: 1961-10-23T17:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai leaves Moscow for home in the evening; Peng Zhen acts as head of the delegation and stays on at the Congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 23, 1961). Made public: 1997. Names: Zhou Enlai, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 23, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 23, 1961; 晚8时, 乘专机离莫斯科回国). Made public: 1997. Names: Zhou Enlai, Peng Zhen.'
+    src:
+      c: 4271bec4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
+        - 'w.zhou-enlai-waijiao-huodong 326: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:peng-zhen, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1961-10-24.cuba
     when: Oct. 24
     date: '1961-10-24'
@@ -1838,14 +2385,20 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao, Liu Shaoqi, Zhu De and Deng Xiaoping meet Zhou Enlai at the airport, back from Moscow; at the Yinian Tang the Politburo and the Secretariat in Peking hear him on the Twenty-second Congress and the delegation's talk with Khrushchev and others, Oct. 22. The Albanian statement to be printed.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 22, 1961 (the nine-hour talk of Oct. 22). [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 24, 1961 (Zhou met at the airport). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 22, 1961 (the nine-hour talk of Oct. 22). [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 24, 1961 (Zhou met at the airport). [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 24, 1961; 中午, 回到北京; Mao Zedong, Liu Shaoqi, Zhu De and Deng Xiaoping at the airport). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Zhou Enlai, Khrushchev.'
     src:
       c: c4641f8c
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 24, 1961: all'
         - 'w.zhou-enlai-nianpu-1949 II, 441, Oct. 22, 1961: B'
         - 'w.zhou-enlai-nianpu-1949 II, 441, Oct. 24, 1961: A'
+        - 'w.zhou-enlai-waijiao-huodong 326: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1961-10-24T04:00Z
+      - 1961-10-24T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-25.latin-america
     when: Oct. 25
     date: '1961-10-25'

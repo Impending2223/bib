@@ -6,10 +6,31 @@ entries:
   - id: cal.1960-06-01.china-leadership
     when: June 1–2
     date: '1960-06-01'
+    time: 1960-06-01T03:15Z
     thread: china-leadership
     c: Zhou Enlai home; at 10 o'clock pays respects at the bier of Lin Boqu (died May 29), and keeps vigil. On June 2 he takes part in the capital's public memorial for Lin Boqu.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 1, 1960; 上午11时15分, 抵达北京; Zhu De, Soong Ching Ling, Deng Xiaoping, Peng Zhen and Li Xiannian at the airport). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 3a12ac7c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 324: ?'
+        - 'w.zhou-enlai-waijiao-huodong 283: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-01.china-leadership-2
+    when: June 1
+    date: '1960-06-01'
+    time: 1960-06-01T00:40Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Ulan Bator. Zhou Enlai ends his visit to Mongolia and flies home; Tsedenbal and Sambuu see him off at the airport.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 282–83 (June 1, 1960; 上午7时40分). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 210d0a26
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 282–83: all'
+    tags: [polity:prc, polity:mongolia, name:zhou-enlai]
+    time_zone: Asia/Ulaanbaatar
   - id: cal.1960-06-02.economy
     when: June 2
     date: '1960-06-02'
@@ -90,22 +111,93 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 208-CT/TW on floods and typhoons in 1960. Since the peace 64 million cubic meters of earth, 1,200,000 of stone, 205,000 of concrete on the dikes; some still low. Command boards at every level, youth and militia the core of the dike guards, strict discipline.'
     n: '*Chỉ thị của Ban Bí thư số 208-CT/TW về công tác phòng và chống lụt bão năm 1960*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 344–48. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-06-02.china-leadership
+    when: June 2
+    date: '1960-06-02'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai goes to the airport to welcome Haxhi Lleshi, Chairman of the Presidium of the Albanian People's Assembly, visiting China at Liu Shaoqi's invitation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 下午). Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: b03d4c43
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
+    time_range:
+      - 1960-06-02T04:00Z
+      - 1960-06-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-02.china-leadership-2
+    when: June 2
+    date: '1960-06-02'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai accompanies Liu Shaoqi in meeting Lleshi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 晚上). Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: 1f5270fa
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
+    time_range:
+      - 1960-06-02T11:00Z
+      - 1960-06-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-03.china-leadership
     when: June 3
     date: '1960-06-03'
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou Enlai receives Iraq''s Ambassador, Abd al-Haqq Fadil: tension with neighbors is bad but may help unity at home; a good leader joins the anti-imperialist and democratic forces against outside enemies; gaps at home let in plotters; the other danger is a leader who cannot unite his people and pushes them into opposition. He sends good wishes to Qassim.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 3, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 3, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 5, 1960; 下午, 中南海). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: f8847166
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 324: ?'
+        - 'w.zhou-enlai-waijiao-huodong 283: A'
     tags: [polity:prc, polity:iraq, name:zhou-enlai, vis:only:prc+iraq]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Jun. 5, afternoon, Zhongnanhai; the entry has Jun. 3
+        at: '283'
   - id: cal.1960-06-03.china-leadership-2
     when: June 3
     date: '1960-06-03'
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai receives the Polish Ambassador, and at his request describes the visit to India: India''s stand on the boundary, no wish to settle; Nehru would use it to control the right at home and strike the left.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 3, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 3, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 5, 1960; 下午6时, 中南海西花厅; the new Polish Ambassador). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: fc9e2b89
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 324: ?'
+        - 'w.zhou-enlai-waijiao-huodong 283: A'
     tags: [polity:prc, polity:poland, name:zhou-enlai, vis:only:prc+poland]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Jun. 5, 6 p.m., Xihuating (reception of the new Polish Ambassador); the entry has Jun. 3
+        at: '283'
+  - id: cal.1960-06-03.china-leadership-3
+    when: June 3
+    date: '1960-06-03'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the state banquet given by Liu Shaoqi for Lleshi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 3, 1960; 晚上). Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: 3e110caa
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
+    time_range:
+      - 1960-06-03T11:00Z
+      - 1960-06-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-04.china-leadership
     when: June 4–6
     date: '1960-06-04'
@@ -125,6 +217,23 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 273–276: all'
     tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1960-06-04.china-leadership-3
+    when: June 4
+    date: '1960-06-04'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the mass meeting of the capital's people in welcome of Lleshi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 4, 1960; 下午). Names: Zhou Enlai.'
+    src:
+      c: e658786b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1960-06-04T04:00Z
+      - 1960-06-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-05.china-leadership
     when: June 5
     date: '1960-06-05'
@@ -183,8 +292,59 @@ entries:
     thread: china-leadership
     also: [congo, africa]
     c: 'Zhou Enlai receives a Congolese party and government delegation under Henri Kasongo: little is known in China of Africa, and he regrets it; Africa has awakened, black Africa has begun to see light; Africa should be the Africans''.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 6, 1960). Made public: 1997. Names: Zhou Enlai. Check: the delegation''s head, Henri Kasongo, from the chronology''s Chinese transliteration.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 6, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 下午, 中南海紫光阁). Made public: 1997. Names: Zhou Enlai. Check: the delegation''s head, Henri Kasongo, from the chronology''s Chinese transliteration.'
     tags: [polity:prc, polity:congo, name:zhou-enlai, vis:only:prc+congo]
+  - id: cal.1960-06-06.china-leadership-2
+    when: June 6
+    date: '1960-06-06'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the national flag day reception given by the Swedish Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 下午). Names: Zhou Enlai.'
+    src:
+      c: 09caaf88
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283: all'
+    tags: [polity:prc, polity:sweden, name:zhou-enlai]
+    time_range:
+      - 1960-06-06T04:00Z
+      - 1960-06-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-06.china-leadership-3
+    when: June 6
+    date: '1960-06-06'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai attends the reception given by the Albanian Ambassador for Lleshi's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 7fa298e1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1960-06-06T11:00Z
+      - 1960-06-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-06.china-leadership-4
+    when: June 6
+    date: '1960-06-06'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: 'Peking. Zhou Enlai, at the banquet for the delegates to the 11th session of the General Council of the World Federation of Trade Unions: begging peace of imperialism gets none; the modern revisionists spread illusions of peace and blur the line between friend and enemy, to do away with struggle, and must be exposed. Vittorio Novella, Grishin and Benoît Frachon attend.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283–84 (June 6, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 16016cb9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 283–84: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai]
+    time_range:
+      - 1960-06-06T11:00Z
+      - 1960-06-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-07.elections-1960
     when: June 7
     date: '1960-06-07'
@@ -259,6 +419,23 @@ entries:
     c: Zhou Enlai flies to Shanghai.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 7, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-06-07.china-leadership-3
+    when: June 7
+    date: '1960-06-07'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai goes to the airport to see off Lleshi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 284 (June 7, 1960; 上午). Names: Zhou Enlai.'
+    src:
+      c: a825e371
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 284: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1960-06-06T22:00Z
+      - 1960-06-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-08.elections-1960
     when: June 8
     date: '1960-06-08'
@@ -1002,11 +1179,18 @@ entries:
   - id: cal.1960-06-21.china-leadership
     when: June 21
     date: '1960-06-21'
+    time: 1960-06-21T11:30Z
     thread: china-leadership
     also: [japan]
     c: Shanghai. Mao and Zhou Enlai receive the Japanese writers' delegation under Noma Hiroshi; Ke Qingshi present. The Japanese people's fight against the security treaty, against America and its agent Kishi, larger than anyone expected last year; the strikes political.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 21, 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Noma Hiroshi, Ke Qingshi, Kishi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 21, 1960; [[w.zhou-enlai-waijiao-huodong]], 284 (June 21, 1960; 晚7时30分, 上海市文化俱乐部). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Noma Hiroshi, Ke Qingshi, Kishi.'
+    src:
+      c: 5bd154cb
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, June 21, 1960: all'
+        - 'w.zhou-enlai-waijiao-huodong 284: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:ke-qingshi, name:kishi-nobusuke, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-22.japan-and-korea
     when: June 22–23
     date: '1960-06-22'

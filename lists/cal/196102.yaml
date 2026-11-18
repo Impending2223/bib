@@ -353,6 +353,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-03.china-leadership
+    when: Feb. 3
+    date: '1961-02-03'
+    thread: china-leadership
+    also: [china, africa]
+    c: Zhou Enlai answers by telegram Oginga Odinga, vice chairman of the Kenya African National Union, supporting the just struggle to free Kenyatta.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 3, 1961). Names: Zhou Enlai.'
+    src:
+      c: 31c83bbf
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:kenya, name:zhou-enlai]
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
@@ -392,6 +404,40 @@ entries:
     c: Zhou Enlai presides at the Secretariat, on the first quarter's grain allotment and cotton buying; during the adjustment he requires the grain ministry to send him the grain purchase, sales, allotment and stock tables on time, and works the arithmetic of grain himself (the long "hada table").
     n: '[[w.zhou-enlai-nianpu-1949]], II, 389 (Feb. 4, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-2
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador for the 13th anniversary of Ceylon's independence.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 0b77451e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai]
+    time_range:
+      - 1961-02-04T11:00Z
+      - 1961-02-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-04.china-leadership-3
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai attends the cocktail party given by the Commission for Cultural Relations with Foreign Countries and the Ministry of Culture for the Cuban ballet troupe.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 7abbb239
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1961-02-04T11:00Z
+      - 1961-02-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-05.china-leadership
     when: Feb. 5
     date: '1961-02-05'
@@ -837,11 +883,18 @@ entries:
   - id: cal.1961-02-09.china-leadership
     when: Feb. 9
     date: '1961-02-09'
+    time: 1961-02-09T03:40Z
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives and gives a luncheon for the Nepalese delegation under Major General P. B. Khatri, Nepal's chief delegate to the boundary joint commission; hopes for friendship on the five principles and a boundary treaty. The next day at the Nepalese reception, Khatri says Nepal's economic plans have succeeded with great help from China, and the two have handled the boundary in Bandung's spirit.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 9, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 9, 1961; 上午11时40分, 人民大会堂, 接见并宴请; the Nepalese delegation to the China–Nepal Joint Boundary Committee, led by Maj. Gen. Khatri). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 45044b31
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 390: ?'
+        - 'w.zhou-enlai-waijiao-huodong 303: A'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
     date: '1961-02-10'
@@ -919,6 +972,23 @@ entries:
     thread: latin-america-dominican-republic
     c: The station suggests that CIA headquarters consider pouching an M3 machine gun.
     n: '[[w.sen-church-alleged-assassination-plots]], 201 (the station officer''s testimony of July 8, 1975, and the station''s cable of Mar. 15). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, station to headquarters, Mar. 15, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 201). See [[cal.1961-02-10.latin-america-dominican-republic]].'
+  - id: cal.1961-02-10.china-leadership
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the reception given by Maj. Gen. Khatri, chief Nepalese delegate to the China–Nepal Joint Boundary Committee.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 10, 1961; 晚上). See [[cal.1961-02-09.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 1ee25a1f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_range:
+      - 1961-02-10T11:00Z
+      - 1961-02-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
@@ -1058,19 +1128,50 @@ entries:
   - id: cal.1961-02-13.china-leadership
     when: Feb. 13
     date: '1961-02-13'
+    time: 1961-02-13T05:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai receives the Soviet–Chinese Friendship Association and four Soviet delegations (economic, science and technology, trade, trade union). Because of last year's grain shortfall, fuel too is a problem and industrial raw materials short; "agriculture is the base of the whole national economy" is quite right.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 303–04 (Feb. 13, 1961; 下午1时, 人民大会堂湖南厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 9f83e9da
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 303–04: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-13.china-leadership-2
     when: Feb. 13
     date: '1961-02-13'
+    time: 1961-02-13T06:20Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at the rally for the eleventh anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 下午2时20分, 人民大会堂). Names: Zhou Enlai.'
+    src:
+      c: 17f804bd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-13.china-leadership-3
+    when: Feb. 13
+    date: '1961-02-13'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Soviet Embassy. Zhou Enlai attends the reception given by the Soviet Ambassador, Chervonenko, for the 11th anniversary of the Sino-Soviet treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 晚上). Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 3fc35008
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v]
+    time_range:
+      - 1961-02-13T11:00Z
+      - 1961-02-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-14.state-and-city-finance-wv
     when: Feb. 14
     date: '1961-02-14'
@@ -1142,7 +1243,12 @@ entries:
     thread: china-leadership
     also: [congo, china]
     c: 'Zhou Enlai cables Gizenga, Deputy Premier, mourning the murder of Premier Lumumba and praising him highly: the Chinese government and people stand with the Congolese people always.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 14, 1961). Made public: 1997. Names: Zhou Enlai, Gizenga, Lumumba.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 14, 1961). Made public: 1997. Names: Zhou Enlai, Gizenga, Lumumba.'
+    src:
+      c: 6768894f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
     tags: [polity:prc, polity:congo, name:zhou-enlai, name:gizenga-antoine, name:lumumba-patrice, vis:only:prc+congo]
   - id: cal.1961-02-14.china-leadership-3
     when: Feb. 14
@@ -1218,11 +1324,18 @@ entries:
   - id: cal.1961-02-15.china-leadership
     when: Feb. 15
     date: '1961-02-15'
+    time: 1961-02-15T04:50Z
     thread: china-leadership
     also: [soviet-union, europe-and-the-alliance-federal-republic]
     c: 'Zhou Enlai receives the East German Ambassador: each socialist state has its difficulties and its strengths, but a common truth is first to rely on oneself and then on brother states; the two parties should keep up an ethic of hard struggle, hardship first, pleasure after, Communists in front in difficulty. China''s difficulty: last year''s grain, cotton and light-industry raw materials fell, affecting light and heavy industry; the next two years'' line is adjusting, consolidating, filling out, raising; long-term trade cannot grow in the next two years, after two or three years mutual aid may be strengthened.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 15, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 15, 1961; 中午12时50分, 中南海西花厅; the Chinese economy). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: b1fef075
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
     tags: [polity:prc, polity:gdr, name:zhou-enlai, vis:only:prc+gdr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-16.latin-america
     when: Feb. 16
     date: '1961-02-16'
@@ -1372,6 +1485,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-17.china-leadership
+    when: Feb. 17
+    date: '1961-02-17'
+    thread: china-leadership
+    also: [china]
+    c: Peking Hotel. Zhou Enlai receives the Burmese Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 17, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4e1df165
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1961-02-17T11:00Z
+      - 1961-02-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-18.transition-and-staff
     when: Feb. 18
     date: '1961-02-18'
@@ -1428,11 +1558,40 @@ entries:
   - id: cal.1961-02-18.china-leadership
     when: Feb. 18
     date: '1961-02-18'
+    time: 1961-02-18T06:00Z
     thread: china-leadership
     also: [congo]
     c: Peking. Zhou Enlai at the rally of 100,000 protesting the killing of Lumumba by imperialism and its agents.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 18, 1961). See [[cal.1961-02-14.china-leadership-2]]. Names: Zhou Enlai, Lumumba.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午2时, 工人体育场; more than 500,000 in Peking). See [[cal.1961-02-14.china-leadership-2]]. Names: Zhou Enlai, Lumumba.'
+    src:
+      c: e844300b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
     tags: [polity:prc, polity:congo, name:zhou-enlai, name:lumumba-patrice]
+    time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: more than 500,000 at the rally, at the Workers' Stadium at 2 p.m.; the entry has 100,000
+        at: '304'
+  - id: cal.1961-02-18.china-leadership-2
+    when: Feb. 18
+    date: '1961-02-18'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives Yusuf Osman Samatar, secretary-general of the Greater Somali League.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: bcac1be7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai]
+    time_range:
+      - 1961-02-18T04:00Z
+      - 1961-02-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
@@ -1733,6 +1892,18 @@ entries:
     c: 'At the enlarged Standing Committee that evening Zhou Enlai reports the Planning Commission''s Party group on the 1961 capital construction plan and speaks on grain: the question is the estimate of disaster, which has been too low since last year, so recovery is not quick; this year''s grain imports to rise from 4 million tons to 5 million. Chen Yun speaks on moving workers back to the villages and on the market.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 22, 1961). Made public: 1997. Names: Zhou Enlai, Chen Yun.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yun, vis:only:prc]
+  - id: cal.1961-02-22.china-leadership-4
+    when: Feb. 22
+    date: '1961-02-22'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the UAR Embassy. Zhou Enlai attends the national day reception given by the UAR Ambassador, Taraji.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 22, 1961). Names: Zhou Enlai.'
+    src:
+      c: 09b3be00
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai]
   - id: cal.1961-02-23.conservation
     when: Feb. 23
     date: '1961-02-23'
@@ -2583,11 +2754,18 @@ entries:
   - id: cal.1961-02-28.china-leadership
     when: Feb. 28
     date: '1961-02-28'
+    time: 1961-02-28T08:00Z
     thread: china-leadership
     also: [japan, trade]
     c: Zhou Enlai receives the Japanese economic friendship delegation under Yamamoto Kumaichi and the friendly firms' trade delegation. Yamamoto's apology belongs to the past, both look ahead; Japan's people seek a peaceful, independent, neutral and democratic road, which China supports; a few want to restore the old militarist road, which China notes; China will never expand when strong; relations rest on the peoples' friendship, and without diplomatic relations China all the more widens exchange of peoples.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 下午4时, 人民大会堂). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: b5616b47
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 394: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-28.china-leadership-2
     when: Feb. 28
     date: '1961-02-28'
@@ -2596,3 +2774,20 @@ entries:
     c: Zhou Enlai with Chen Yun, Chen Yi, Ye Jizhuang, Yao Yilin and Chen Guodong on Khrushchev's letter to Mao of Feb. 27, which offers a loan of 1 million tons of grain and 500,000 tons of Cuban sugar.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961). Made public: 1997. Names: Zhou Enlai, Chen Yun, Chen Yi, Mao Zedong, Khrushchev.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yun, name:chen-yi, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1961-02-28.china-leadership-3
+    when: Feb. 28
+    date: '1961-02-28'
+    thread: china-leadership
+    also: [china, japan, trade]
+    c: Peking. Zhou Enlai attends the banquet given by Liao Chengzhi for the Japanese economic friendship delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4779056b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1961-02-28T11:00Z
+      - 1961-02-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

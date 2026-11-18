@@ -204,8 +204,18 @@ entries:
     date: '1962-10-01'
     thread: china
     c: Peking, Tiananmen, 10 a.m. Mao Zedong, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others, at the rally for the People's Republic's thirteenth anniversary; reviews the parade. Watches the fireworks from the gate tower at night.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. [[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 上午, 天安门城楼). Names: Mao Zedong, Zhou Enlai.'
+    src:
+      c: d8bb4056
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 1, 1962: all'
+        - 'w.zhou-enlai-waijiao-huodong 336: A'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
+    time_range:
+      - 1962-09-30T22:00Z
+      - 1962-10-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-01.china-2
     when: Oct. 1
     date: '1962-10-01'
@@ -235,6 +245,23 @@ entries:
     c: 'The Secretariat''s instruction no. 54-CT/TW on publishing: the Party''s documents and the works of its leaders, past and present, Hồ Chí Minh''s above all, to be collected and published systematically.'
     n: '*Chỉ thị của Ban Bí thư số 54-CT/TW về vấn đề tăng cường công tác xuất bản*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 748–53. Made public: 2002. Names: Hồ Chí Minh.'
     tags: [name:ho-chi-minh, polity:drv]
+  - id: cal.1962-10-01.china-leadership-2
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: china-leadership
+    also: [china]
+    c: Peking, Tiananmen. Zhou Enlai watches with the Party and state leaders the million-strong celebration and the fireworks, and receives foreign friends.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 34e98f55
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 336: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1962-10-01T11:00Z
+      - 1962-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -317,6 +344,68 @@ entries:
     c: 'Cadenabbia, noon. Adenauer receives McGeorge Bundy with Dowling, the American Ambassador. America must lead; Khrushchev a convinced Communist; Soviet power grown enormously in ten years; Khrushchev afraid of America, and more of Red China; America should help Red China a little. De Gaulle''s reserve toward NATO, in confidence: put his generals under NATO and he would no longer have them in hand.'
     n: '*Gespräch des Bundeskanzlers Adenauer mit dem Sicherheitsberater des amerikanischen Präsidenten, Bundy, in Cadenabbia*. [[w.akten-zur-auswartigen-politik]], III, 1589–92 (Dok. 370; Kusterer''s record). Names: Adenauer, McGeorge Bundy, Dowling, Khrushchev, de Gaulle.'
     tags: [name:adenauer-konrad, name:bundy-mcgeorge, name:dowling-walter-c, name:khrushchev-nikita-s, name:de-gaulle-charles, polity:frg, polity:us, polity:fr, polity:prc]
+  - id: cal.1962-10-02.china-leadership
+    when: Oct. 2
+    date: '1962-10-02'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai goes to the airport to see off Hartini Sukarno.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 2, 1962; 上午). Names: Zhou Enlai.'
+    src:
+      c: e4a255b3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 336: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_range:
+      - 1962-10-01T22:00Z
+      - 1962-10-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-02.china-leadership-2
+    when: Oct. 2
+    date: '1962-10-02'
+    time: 1962-10-02T02:50Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, Xihuating. Zhou Enlai receives the Somali government's cultural delegation headed by Ali Mohamed Hirave, Minister of Information.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 2, 1962; 上午10时50分). Names: Zhou Enlai. Check: the minister''s name, 阿里·穆罕默德·希拉维 in the book.'
+    src:
+      c: ab41967c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 336: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-02.china-leadership-3
+    when: Oct. 2
+    date: '1962-10-02'
+    time: 1962-10-02T04:25Z
+    thread: china-leadership
+    also: [china, africa]
+    c: 'Peking, Xihuating. Zhou Enlai receives the Tanganyikan cultural friendship delegation headed by Bwiko, central executive secretary of the Tanganyika African National Union, and says that clearing out imperialism''s legacy goes step by step: after 13 years some traces remain in China, above all in the economy; to throw off a colonial economy takes time, agriculture must be modernized to raise living standards and support industrialization, and culture and science raised; reliance on one''s own effort is the chief side, international solidarity of the oppressed of Asia, Africa and Latin America the other.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 336–37 (Oct. 2, 1962; 中午12时25分). Names: Zhou Enlai. Check: the head''s name, 布维 in the book.'
+    src:
+      c: 52e32048
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 336–37: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1962-10-02'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking Hotel. Zhou Enlai attends the national day reception given by the Guinean Embassy.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 2, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 3a20e6bc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 337: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    time_range:
+      - 1962-10-02T11:00Z
+      - 1962-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-03.space
     when: Oct. 3
     date: '1962-10-03'
@@ -392,6 +481,23 @@ entries:
     c: 'Home at supper with Macmillan, to report on New York and Washington. Macmillan: "The Russians are clearly using Cuba as a counter-irritant to Berlin"; the President angry with Britain for not joining a boycott or blockade, British shipping not to be ordered off Cuba without legislation; and for not boycotting Congolese copper.'
     n: '[[w.macmillan-diaries]], 502. See [[cal.1962-10-03.europe-and-the-alliance]]. Names: Douglas-Home, Macmillan, Kennedy.'
     tags: [name:douglas-home-alec, name:macmillan-harold, name:kennedy-john-f, polity:uk, polity:us, polity:ussr, polity:cuba, polity:congo, name:home-alec-douglas]
+  - id: cal.1962-10-03.china-leadership
+    when: Oct. 3
+    date: '1962-10-03'
+    thread: china-leadership
+    also: [china, south-asia, trade]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the new China–Ceylon trade agreement and the agreement on economic and technical cooperation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 3, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4717f28e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 337: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai]
+    time_range:
+      - 1962-10-03T11:00Z
+      - 1962-10-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-04.middle-east-johnson-plan
     when: Oct. 4
     date: '1962-10-04'
@@ -538,6 +644,23 @@ entries:
     c: 'Chandos and Lennox-Boyd warn Macmillan of the trouble the "sovereignty" argument will cause in the Conservative Party: "It is being put about that I am determined to abandon the Queen and promote a federal Europe."'
     n: '[[w.macmillan-diaries]], 503. Names: Lennox-Boyd, Macmillan, Chandos.'
     tags: [name:chandos-oliver, name:lennox-boyd-alan-t, name:macmillan-harold, polity:uk]
+  - id: cal.1962-10-04.china-leadership
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    also: [china, south-asia, trade]
+    c: Peking Hotel. Zhou Enlai attends the farewell luncheon given by Illangaratne, Ceylon's Minister of Commerce and Trade.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 4, 1962; 中午). Names: Zhou Enlai.'
+    src:
+      c: b9b498d6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 337: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai]
+    time_range:
+      - 1962-10-04T04:00Z
+      - 1962-10-04T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-05.georgia-ga
     when: Oct. 5
     date: '1962-10-05'
@@ -1005,17 +1128,20 @@ entries:
   - id: cal.1962-10-08.south-asia-3
     when: Oct. 8
     date: '1962-10-08'
+    time: 1962-10-08T07:00Z
     thread: south-asia
     also: [china, soviet-union]
     c: 'Zhou Enlai to the Soviet Ambassador, Chervonenko: if India''s forces attack, China will defend itself resolutely. India uses Soviet-made "米格式直升机" (MiG helicopters) to drop supplies in the western and eastern sectors; it tells on China''s soldiers at the front.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962. [[w.jian-zhou-enlai]], 479 (India might launch a large-scale offensive; "If they indeed attack us, we will surely take action in self-defense"; not the helicopters); [[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 8, 1962: Zhou Enlai to Chervonenko: India may open a large war in the east; China holds only to defense, has never fired first, and will defend itself if attacked; Indian use of Soviet helicopters and transports to supply the front). Made public: Check (2013 at the latest). To check: Zhou''s conversation with the Soviet Ambassador, Chervonenko, Oct. 8, 1962, 109-03804-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 763 n.73). See [[cal.1962-10-08.south-asia]]. Names: Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962. [[w.jian-zhou-enlai]], 479 (India might launch a large-scale offensive; "If they indeed attack us, we will surely take action in self-defense"; not the helicopters); [[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 8, 1962: Zhou Enlai to Chervonenko: India may open a large war in the east; China holds only to defense, has never fired first, and will defend itself if attacked; Indian use of Soviet helicopters and transports to supply the front); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 8, 1962; 下午3时, 中南海西花厅). Made public: Check (2013 at the latest). To check: Zhou''s conversation with the Soviet Ambassador, Chervonenko, Oct. 8, 1962, 109-03804-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 763 n.73). See [[cal.1962-10-08.south-asia]]. Names: Zhou Enlai.'
     src:
       c: 4046fd4b
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 8, 1962: all'
         - 'w.jian-zhou-enlai 479: A'
         - 'w.zhou-enlai-nianpu-1949 II, 502: ?'
+        - 'w.zhou-enlai-waijiao-huodong 337: A'
     tags: [name:zhou-enlai, polity:prc, polity:ussr, polity:india]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-08.south-asia-4
     when: Oct. 8
     date: '1962-10-08'
@@ -1024,6 +1150,20 @@ entries:
     c: 'After the Standing Committee, Luo Ruiqing calls a Central Military Commission work meeting: conveys Mao Zedong''s instructions and orders final mobilization for the war.'
     n: '[[w.jian-zhou-enlai]], 479 ("immediately"). Made public: Check (2014 at the latest). To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 368 (cited by [[w.jian-zhou-enlai]], 763 n.72). See [[cal.1962-10-08.south-asia]]. Names: Luo Ruiqing, Mao Zedong.'
     tags: [name:luo-ruiqing, name:mao-zedong, polity:prc, polity:india]
+  - id: cal.1962-10-08.china-leadership
+    when: Oct. 8
+    date: '1962-10-08'
+    time: 1962-10-08T03:30Z
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: Peking, Xihuating. Zhou Enlai receives the former lawful Congolese government's ambassador-at-large and its former chargé d'affaires at Cairo, Bengila.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 8, 1962; 上午11时30分). Made public: 1993. Names: Zhou Enlai. Check: the ambassador''s name, 缪勒尔 in the book; not identified.'
+    src:
+      c: 6a0ec4c8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 337: all'
+    tags: [polity:prc, polity:congo, name:zhou-enlai, vis:only:prc+congo]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-09.missile-crisis
     when: Oct. 9
     date: '1962-10-09'
@@ -1166,10 +1306,17 @@ entries:
   - id: cal.1962-10-10.china
     when: Oct. 10
     date: '1962-10-10'
+    time: 1962-10-10T09:15Z
     thread: china
     c: 'Zhongnanhai, the Yinian Tang, afternoon. Mao Zedong receives Cambodia''s departing ambassador (兰·涅特 in the Chinese); Zhou Enlai present. Mao: China and Cambodia friends, each supporting the other; Cambodia''s struggle under Prince Sihanouk right, and much of the world behind it; "你们会胜利的" (you will win).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 10, 1962. Made public: Check (the words; 2013 at the latest). Names: Mao Zedong, Zhou Enlai, Norodom Sihanouk. Check: the ambassador''s name in Khmer or French.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 10, 1962. [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 10, 1962; 下午5时15分, 中南海颐年堂, 陪同毛泽东主席会见). Made public: Check (the words; 2013 at the latest). Names: Mao Zedong, Zhou Enlai, Norodom Sihanouk. Check: the ambassador''s name in Khmer or French.'
+    src:
+      c: abe7168a
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 10, 1962: all'
+        - 'w.zhou-enlai-waijiao-huodong 337: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-10.berlin-and-vienna
     when: Oct. 10
     date: '1962-10-10'
@@ -1327,11 +1474,19 @@ entries:
   - id: cal.1962-10-11.china-leadership
     when: Oct. 11–13
     date: '1962-10-11'
+    time: 1962-10-11T09:00Z
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai in Korea, Oct. 11–13: talks with Kim Il Sung on China''s domestic situation, the Sino-Indian and Sino-Mongolian border questions, and Sino-Korean trade. He flies back to Peking Oct. 13.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 11–13, 1962). Made public: 1997. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 11–13, 1962); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 11, 1962; 晚6时, 平壤朝鲜内阁办公大楼, with Chen Yi); [[w.zhou-enlai-waijiao-huodong]], 337–38 (Oct. 12, 1962; 上午10时, 平壤牡丹峰宾馆). Made public: 1997. Names: Zhou Enlai, Kim Il Sung.'
+    src:
+      c: cd2adcfa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 502: ?'
+        - 'w.zhou-enlai-waijiao-huodong 337: A'
+        - 'w.zhou-enlai-waijiao-huodong 337–38: A'
     tags: [polity:prc, polity:dprk, polity:india, polity:mongolia, name:zhou-enlai, name:kim-il-sung, vis:only:prc+dprk]
+    time_zone: Asia/Pyongyang
   - id: cal.1962-10-12.latin-america-panama
     when: Oct. 12
     date: '1962-10-12'
@@ -1407,6 +1562,23 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1962-10-12.china-leadership
+    when: Oct. 12
+    date: '1962-10-12'
+    thread: china-leadership
+    also: [china, korea]
+    c: Pyongyang. Zhou Enlai attends the signing of the China–Korea boundary treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 12, 1962; 晚上). See [[cal.1962-10-11.china-leadership]]. Names: Zhou Enlai, Chen Yi, Kim Il Sung.'
+    src:
+      c: e79179df
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 338: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai, name:chen-yi, name:kim-il-sung]
+    time_range:
+      - 1962-10-12T10:00Z
+      - 1962-10-12T13:00Z
+    time_band: evening
+    time_zone: Asia/Pyongyang
   - id: cal.1962-10-13.congress
     when: Oct. 13
     date: '1962-10-13'
@@ -1524,6 +1696,23 @@ entries:
     c: 'Washington, an hour and three quarters. Rusk with Schröder: his talks with Gromyko in New York without progress; could the Soviets'' four-power arbitration body be made a four-power organ with real powers? Schröder: the access authority of nine members agreed in June still good. Rusk on nonproliferation: Red China comes first.'
     n: 'Schröder to the Auswärtiges Amt, Fernschreiben Nr. 3059, Oct. 15, 1962 (the talk "gestern"). [[w.akten-zur-auswartigen-politik]], III, 1694–95 (Dok. 394). Names: Rusk, Schröder, Gromyko.'
     tags: [name:rusk-dean, name:schroder-gerhard, name:gromyko-andrei, polity:us, polity:frg, polity:ussr, polity:prc]
+  - id: cal.1962-10-14.china-leadership
+    when: Oct. 14
+    date: '1962-10-14'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai watches the Vietnamese Youth Song and Dance Ensemble and receives its head and chief performers.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 14, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 45c287b5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 338: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai]
+    time_range:
+      - 1962-10-14T11:00Z
+      - 1962-10-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-15.africa
     when: Oct. 15
     date: '1962-10-15'
@@ -4694,13 +4883,14 @@ entries:
     thread: south-asia
     also: [china]
     c: 'Zhou Enlai to Nehru, by letter: a call to respond positively ("积极响应") to the government''s proposals.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1962 ("同时"). [[w.jian-zhou-enlai]], 481 (Zhou "extremely pained" by the clashes; the three proposals restated; not the call to respond); [[w.zhou-enlai-nianpu-1949]], II, 505 (Oct. 24, 1962: Zhou Enlai to Nehru, pained by the conflict, to look forward and turn the situation, the three proposals restated; no words of "respond positively" in the nianpu). To check: the letter''s text. See [[cal.1962-10-24.south-asia]]. Names: Zhou Enlai, Nehru.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1962 ("同时"). [[w.jian-zhou-enlai]], 481 (Zhou "extremely pained" by the clashes; the three proposals restated; not the call to respond); [[w.zhou-enlai-nianpu-1949]], II, 505 (Oct. 24, 1962: Zhou Enlai to Nehru, pained by the conflict, to look forward and turn the situation, the three proposals restated; no words of "respond positively" in the nianpu); [[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 24, 1962). To check: the letter''s text. See [[cal.1962-10-24.south-asia]]. Names: Zhou Enlai, Nehru.'
     src:
       c: ef4a42c0
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 24, 1962: ?'
         - 'w.jian-zhou-enlai 481: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 505: ?'
+        - 'w.zhou-enlai-waijiao-huodong 338: A'
     tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-10-24.south-asia-2
     when: Oct. 24
@@ -4769,11 +4959,18 @@ entries:
   - id: cal.1962-10-24.china-leadership
     when: Oct. 24
     date: '1962-10-24'
+    time: 1962-10-23T18:00Z
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai receives the UAR''s Ambassador, Zakaria Adli Imam, and takes from him Nasser''s letter on the Sino-Indian border. He gives China''s account: three proposals to negotiate refused before the conflict; India demands a withdrawal first; the 1959 offer of a 20-kilometer pullback and no patrols refused, China withdrew alone, India sent troops in; the "forward policy" provoked the clashes and on Oct. 6 India refused talks a third time. China fights back under a full attack and holds to reopening talks.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 505 (Oct. 24, 1962). Continues 506. Made public: 1997. Check: the ambassador''s name in Roman letters (查卡里亚·阿德利·伊马姆). Names: Zhou Enlai, Zakaria Adli Imam, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 505 (Oct. 24, 1962); [[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 24, 1962; 上午2时, 中南海西花厅; 伊马姆大使转交纳赛尔来信). Continues 506. Made public: 1997. Check: the ambassador''s name in Roman letters (查卡里亚·阿德利·伊马姆). Names: Zhou Enlai, Zakaria Adli Imam, Nasser.'
+    src:
+      c: 69330f29
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 505: ?'
+        - 'w.zhou-enlai-waijiao-huodong 338: A'
     tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-25.missile-crisis
     when: Oct. 25
     date: '1962-10-25'
@@ -5116,6 +5313,23 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1962-10-25.china-leadership
+    when: Oct. 25
+    date: '1962-10-25'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking Hotel. Zhou Enlai attends the banquet given by the DPRK Embassy's chargé d'affaires, Jong Bong-gu, for the 12th anniversary of the Chinese People's Volunteers' entry into the Korean War.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 25, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4626b451
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 338: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-10-25T11:00Z
+      - 1962-10-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-26.missile-crisis
     when: Oct. 26
     date: '1962-10-26'
@@ -5928,11 +6142,18 @@ entries:
   - id: cal.1962-10-27.china-leadership-2
     when: Oct. 27
     date: '1962-10-27'
+    time: 1962-10-27T01:30Z
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai again receives the UAR's Ambassador and again sets out the truth of the border question and China's constant stand for a peaceful settlement. On Oct. 29 he writes about it to Nasser and to Ne Win, Chairman of Burma's Revolutionary Council and Chairman of the Council of Ministers.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 27, 1962). Made public: 1997. Check: whether Zhou''s letters to Nasser and Ne Win of Oct. 29 are the Oct. 26 letter of the entry above or further letters. See [[cal.1962-10-26.china-2]]. Names: Zhou Enlai, Zakaria Adli Imam, Nasser, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 27, 1962; 上午9时30分, 中南海西花厅; 伊马姆大使转交尼赫鲁给纳赛尔的复信). Made public: 1997. Check: whether Zhou''s letters to Nasser and Ne Win of Oct. 29 are the Oct. 26 letter of the entry above or further letters. See [[cal.1962-10-26.china-2]]. Names: Zhou Enlai, Zakaria Adli Imam, Nasser, Ne Win.'
+    src:
+      c: 7d8e858f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 506: ?'
+        - 'w.zhou-enlai-waijiao-huodong 338: A'
     tags: [polity:prc, polity:uar, polity:india, polity:burma, name:zhou-enlai, name:nasser-gamal-abdel, name:ne-win, vis:only:prc+uar]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'
@@ -6266,8 +6487,18 @@ entries:
     thread: china
     also: [cuba, missile-crisis-settlement]
     c: Peking. Zhou Enlai chairs a rally of more than ten thousand in support of "the heroic Cuban comrades"; a telegram of solidarity to Fidel Castro.
-    n: '[[w.jian-zhou-enlai]], 486. To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 764 n.99). Names: Zhou Enlai, Castro.'
+    n: '[[w.jian-zhou-enlai]], 486; [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午, 人民大会堂). To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 764 n.99). Names: Zhou Enlai, Castro.'
+    src:
+      c: 59f57d36
+      rows:
+        - 'w.jian-zhou-enlai 486: all'
+        - 'w.zhou-enlai-waijiao-huodong 339: A'
     tags: [name:zhou-enlai, name:castro-fidel, polity:prc, polity:cuba]
+    time_range:
+      - 1962-10-28T04:00Z
+      - 1962-10-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-28.missile-crisis-diplomacy-4
     when: Oct. 28
     date: '1962-10-28'
@@ -6288,6 +6519,40 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1962-10-28.china-leadership
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai meets Prince Souphanouvong, chairman of the Neo Lao Hak Xat.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午). Made public: 1993. Names: Zhou Enlai, Souphanouvong.'
+    src:
+      c: 64ec059c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 339: all'
+    tags: [polity:prc, polity:pathet-lao, name:zhou-enlai, name:souphanouvong, vis:only:prc+pathet-lao]
+    time_range:
+      - 1962-10-28T04:00Z
+      - 1962-10-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-28.china-leadership-2
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai meets Hoàng Văn Hoan, member of the Politburo of the Lao Động Party's Central Committee.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 1c8deb27
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 339: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    time_range:
+      - 1962-10-28T04:00Z
+      - 1962-10-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -6448,11 +6713,19 @@ entries:
   - id: cal.1962-10-29.china
     when: Oct. 29
     date: '1962-10-29'
+    time: 1962-10-29T15:15Z
     thread: china
     also: [south-asia]
     c: 'Zhou Enlai with Burma''s Ambassador, Maung Maung Kyaw Win: Nehru''s condition, the line of Sept. 8, 1962, would leave India the ground it took in Aksai Chin in two years and push China further north in the east from positions already north of the McMahon line. "How can this be called cease-fire? This is not cease-fire. This is to ask us to surrender."'
-    n: '[[w.jian-zhou-enlai]], 481–82 (Chen''s translation); [[w.zhou-enlai-nianpu-1949]], II, 506–07 (Oct. 29, 1962: Zhou Enlai receives Kyaw Win and takes Ne Win''s letter; the Sept. 8 line was India''s proposal after China''s statement of Oct. 24; restoring it would push China back in the east, not a cease-fire but surrender; China keeps to a 20-kilometer pullback from the line of actual control; the nianpu has it at 506, not at 571). Made public: Check. To check: Zhou''s conversation with the Burmese Ambassador, Kyaw Win, Oct. 29, 1962, 105-01781-02, Chinese Foreign Ministry Archive. Names: Zhou Enlai, Nehru.'
+    n: '[[w.jian-zhou-enlai]], 481–82 (Chen''s translation); [[w.zhou-enlai-nianpu-1949]], II, 506–07 (Oct. 29, 1962: Zhou Enlai receives Kyaw Win and takes Ne Win''s letter; the Sept. 8 line was India''s proposal after China''s statement of Oct. 24; restoring it would push China back in the east, not a cease-fire but surrender; China keeps to a 20-kilometer pullback from the line of actual control; the nianpu has it at 506, not at 571); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 29, 1962; 晚11时15分, 中南海西花厅; 缅甸驻华大使转交奈温主席的来信). Made public: Check. To check: Zhou''s conversation with the Burmese Ambassador, Kyaw Win, Oct. 29, 1962, 105-01781-02, Chinese Foreign Ministry Archive. Names: Zhou Enlai, Nehru.'
+    src:
+      c: 9eb49552
+      rows:
+        - 'w.jian-zhou-enlai 481–82: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 506–07: ?'
+        - 'w.zhou-enlai-waijiao-huodong 339: A'
     tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:burma, polity:india]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-29.south-asia
     when: Oct. 29
     date: '1962-10-29'
@@ -6489,8 +6762,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai and Chen Yi receive and dine Takasaki Tatsunosuke, former Minister of International Trade and Industry and Liberal Democratic Party Diet member. Zhou''s speech: new things with a future grow from small to large by accumulation; Sino-Japanese trade is to grow in the gradual, cumulative way, its prospect broad; the road of friendship will still have bends. Oct. 30 he talks with Takasaki again.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 29, 1962). Names: Zhou Enlai, Chen Yi, Takasaki Tatsunosuke.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 29, 1962); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 29, 1962; 晚上, 接见并宴请高崎达之助). Names: Zhou Enlai, Chen Yi, Takasaki Tatsunosuke.'
+    src:
+      c: a1ee16cb
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 506: ?'
+        - 'w.zhou-enlai-waijiao-huodong 339: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1962-10-29T11:00Z
+      - 1962-10-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-30.missile-crisis
     when: Oct. 30
     date: '1962-10-30'
@@ -6860,11 +7143,19 @@ entries:
   - id: cal.1962-10-30.china-leadership
     when: Oct. 30–31
     date: '1962-10-30'
+    time: 1962-10-30T02:15Z
     thread: china-leadership
     also: [china, south-asia]
     c: 'Zhou Enlai receives Malcolm MacDonald, once of the British Labour Party and a member of Parliament, a guest of Chen Yi for three weeks; talks Oct. 30 and 31 on China''s construction, Sino-American and Sino-British relations and the Sino-Indian border. China needs peace to build; it relies on the peasants'' drive and collective organization, the production team the basic unit; of the Americans, China pays no heed to hostile deceit and history will show it right. On the border: the British government, little informed, speaks from tradition, which is unreal and resented; one should speak from the facts.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 30–31, 1962). Continues 507–08. Made public: 1997. Names: Zhou Enlai, Malcolm MacDonald.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 30–31, 1962); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 30, 1962; 上午10时15分, 中南海西花厅); [[w.zhou-enlai-waijiao-huodong]], 340 (Oct. 31, 1962; 上午8时30分, 中南海西花厅, 共进早餐, 第二次会谈). Continues 507–08. Made public: 1997. Names: Zhou Enlai, Malcolm MacDonald.'
+    src:
+      c: 1c1a5e2f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 506: ?'
+        - 'w.zhou-enlai-waijiao-huodong 339: A'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [polity:prc, polity:uk, name:zhou-enlai, vis:only:prc+uk]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-31.cuba
     when: Oct. 31
     date: '1962-10-31'
@@ -7266,7 +7557,13 @@ entries:
     thread: japan
     also: [china]
     c: Tatsunosuke Takasaki leads a large Japanese delegation to China; Zhou Enlai talks with him.
-    n: '[[w.jian-zhou-enlai]], 505; [[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 29–30, 1962: Zhou Enlai and Chen Yi receive and dine Takasaki Oct. 29; Zhou talks with him again Oct. 30). Names: Zhou Enlai. Check: the day.'
+    n: '[[w.jian-zhou-enlai]], 505; [[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 29–30, 1962: Zhou Enlai and Chen Yi receive and dine Takasaki Oct. 29; Zhou talks with him again Oct. 30); [[w.zhou-enlai-waijiao-huodong]], 339–40 (Oct. 30, 1962; 同高崎达之助举行会谈). Names: Zhou Enlai. Check: the day.'
+    src:
+      c: bdb4d057
+      rows:
+        - 'w.jian-zhou-enlai 505: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 506: ?'
+        - 'w.zhou-enlai-waijiao-huodong 339–40: A'
     tags: [name:zhou-enlai, polity:japan, polity:prc]
   - id: cal.1962-10.elections-1962-2
     when: Oct.
@@ -7312,5 +7609,10 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai receives Ceylon''s Ambassador, A. B. Perera, on Prime Minister Bandaranaike''s proposal for a good-offices committee of a few friendly states on the Sino-Indian border dispute: its intent is good, but to form such a body is neither helpful nor easy. He tells the Foreign Ministry to answer every letter and cable from friendly states concerned with the dispute, setting out the truth and its complexity and China''s stand for settling it by talks.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 508 (Oct. 31, 1962). Made public: 1997. Names: Zhou Enlai, Srimavo Bandaranaike, A. B. Perera.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 508 (Oct. 31, 1962); [[w.zhou-enlai-waijiao-huodong]], 340 (Oct. 31, 1962; 接见锡兰驻华大使佩雷拉). Made public: 1997. Names: Zhou Enlai, Srimavo Bandaranaike, A. B. Perera.'
+    src:
+      c: '24751826'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 508: ?'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon]

@@ -652,11 +652,18 @@ entries:
   - id: cal.1960-01-18.china-leadership-2
     when: Jan. 18
     date: '1960-01-18'
+    time: 1960-01-18T08:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives Heinrich Rau, Deputy Premier of the German Democratic Republic, and the government delegation on its invitation, and describes China''s industrial and farm output. Asked about India and Indonesia: the border quarrel was begun by India; concession would make Nehru more reactionary, put him in the right and help him; China criticizes him, then seeks unity. Another course is that he eases and keeps friendly with the socialist countries.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 18, 1960). Made public: 1997. Names: Zhou Enlai, Rau.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 18, 1960); [[w.zhou-enlai-waijiao-huodong]], 269 (Jan. 18, 1960; 下午4时, 中南海武成殿). Made public: 1997. Names: Zhou Enlai, Rau.'
+    src:
+      c: f240d2d9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 279: ?'
+        - 'w.zhou-enlai-waijiao-huodong 269: A'
     tags: [polity:prc, polity:gdr, name:zhou-enlai, name:rau-heinrich, vis:only:prc+gdr]
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-18.china-leadership-3
     when: Jan. 18
     date: '1960-01-18'
@@ -665,6 +672,37 @@ entries:
     c: 'Zhou Enlai replies to Mehmet Shehu, Chairman of the Council of Ministers of Albania: China will meet his request and raise its wheat supply to Albania in 1960 by 30,000 tons.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 18, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania]
+  - id: cal.1960-01-18.china-leadership-4
+    when: Jan. 18
+    date: '1960-01-18'
+    time: 1960-01-18T08:00Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Wucheng Hall, Zhongnanhai. Zhou Enlai attends the signing of the China–German Democratic Republic treaty of trade and navigation, Heinrich Rau, Deputy Premier, heading the GDR government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 269 (Jan. 18, 1960; 下午4时, 中南海武成殿). See [[cal.1960-01-18.china-leadership-2]]. Names: Zhou Enlai, Rau.'
+    src:
+      c: 09f6ee8f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 269: all'
+    tags: [polity:prc, polity:gdr, name:zhou-enlai, name:rau-heinrich]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-18.china-leadership-6
+    when: Jan. 18
+    date: '1960-01-18'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai attends the banquet given by Wandel, the GDR Ambassador, for the GDR government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 269–70 (Jan. 18, 1960; 晚上). See [[cal.1960-01-18.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 0dd3cc34
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 269–70: all'
+    tags: [polity:prc, polity:gdr, name:zhou-enlai]
+    time_range:
+      - 1960-01-18T11:00Z
+      - 1960-01-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-19.japan-and-korea
     when: Jan. 19
     date: '1960-01-19'
@@ -851,6 +889,18 @@ entries:
     c: 'Zhou Enlai presides at the State Council''s 94th plenary meeting and speaks on the 1959 plan''s fulfillment: two years of all-round Great Leap; capital construction more, consumption less; city–country income gaps to narrow, low wages to rise, wages over 300 yuan a month not to rise; collective welfare before individual pay; build big, medium and small, native and foreign, center and local, with agriculture as the base.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 280 (Jan. 20, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-01-20.china-leadership-3
+    when: Jan. 20
+    date: '1960-01-20'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai attends the signing ceremony for the exchange of instruments of ratification of the China–Indonesia treaty on dual nationality.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 20, 1960). Names: Zhou Enlai.'
+    src:
+      c: d5a61234
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
   - id: cal.1960-01-21.elections-1960
     when: Jan. 21
     date: '1960-01-21'
@@ -1056,8 +1106,42 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai, meeting Ne Win on the way to the state guesthouse: China and Burma, with their long border and many exchanges, should be an example of peaceful coexistence; the boundary talks are near settlement; a principled agreement may come now, the survey and drafting to be left to a joint commission. Ne Win agrees.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 281 (Jan. 24, 1960). Made public: 1997. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 281 (Jan. 24, 1960). Made public: 1997. Check: the dashiji (270) has Zhou meeting Ne Win that evening ("晚上"), with the welcoming banquet, after the airport welcome at dusk. Names: Zhou Enlai, Ne Win.'
     tags: [polity:prc, name:zhou-enlai, name:ne-win, polity:burma, vis:only:prc+burma]
+  - id: cal.1960-01-24.china-leadership-4
+    when: Jan. 24
+    date: '1960-01-24'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to welcome General Ne Win, Prime Minister of Burma, on his visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 24, 1960; 傍晚, 机场). Names: Zhou Enlai, Ne Win.'
+    src:
+      c: 5356b8a1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1960-01-24T09:00Z
+      - 1960-01-24T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-24.china-leadership-5
+    when: Jan. 24
+    date: '1960-01-24'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai gives a banquet welcoming Ne Win.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 24, 1960; 晚上). See [[cal.1960-01-24.china-leadership-3]]. Names: Zhou Enlai, Ne Win.'
+    src:
+      c: 7d62f9a9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1960-01-24T11:00Z
+      - 1960-01-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-25.congress
     when: Jan. 25
     date: '1960-01-25'
@@ -1100,11 +1184,18 @@ entries:
   - id: cal.1960-01-25.china-leadership
     when: Jan. 25–26
     date: '1960-01-25'
+    time: 1960-01-25T02:15Z
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai talks with Ne Win on the boundary. Proposals: the northern undefined sector by the watershed, except Pianma, Gulang, Gangfang and the Dulong valley, then surveyed and marked; the three areas returned to China, their size for a joint commission; the Namwan leased area left to Burma in exchange for the Panghung and Panlao tribes'' lands west of the 1941 line to China; a boundary treaty and a friendship treaty to be drafted by the commission. On Jan. 26, a second talk: the exchange of notes rewritten as an agreement, a friendship treaty drafted.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 281–82 (Jan. 25–26, 1960). Made public: 1997. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 281–82 (Jan. 25–26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 25, 1960; 上午10时15分, 中南海武成殿); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 上午10时, 中南海武成殿). Made public: 1997. Names: Zhou Enlai, Ne Win.'
+    src:
+      c: 40688fbd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 281–82: ?'
+        - 'w.zhou-enlai-waijiao-huodong 270: F'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win, vis:only:prc+burma]
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-25.china-leadership-2
     when: Jan. 25
     date: '1960-01-25'
@@ -1188,8 +1279,35 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai with Chen Yi sees the Hungarian Ambassador before his departure. Told of China''s fast growth: the responsibility of China within the camp is large, what is done is little, a strong China is still far off.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 284 (Jan. 26, 1960). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 284 (Jan. 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 晚上, 北京饭店). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 623a875c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 284: ?'
+        - 'w.zhou-enlai-waijiao-huodong 270: A'
     tags: [polity:prc, polity:hungary, name:zhou-enlai, name:chen-yi, vis:only:prc+hungary]
+    time_range:
+      - 1960-01-26T11:00Z
+      - 1960-01-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-26.china-leadership-4
+    when: Jan. 26
+    date: '1960-01-26'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the Republic Day reception given by the Indian chargé d'affaires.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 晚上, 北京饭店). Names: Zhou Enlai.'
+    src:
+      c: e24c16e0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:india, name:zhou-enlai]
+    time_range:
+      - 1960-01-26T11:00Z
+      - 1960-01-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-27.voting-rights
     when: Jan. 27
     date: '1960-01-27'
@@ -1246,8 +1364,52 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou Enlai receives Taraji, the new UAR Ambassador, and his wife: past differences must not touch the two states'' relations; shared colonial legacy of poverty and backwardness; economic independence after political, by long struggle and Asian–African mutual support, the Bandung spirit. The Israeli–Arab conflict and Arab quarrels are made and used by imperialism; China wishes Arab unity.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 284 (Jan. 27, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 284 (Jan. 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 27, 1960; 晚上, 北京饭店). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 67dcc793
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 284: ?'
+        - 'w.zhou-enlai-waijiao-huodong 270: A'
     tags: [polity:prc, polity:uar, name:zhou-enlai, vis:only:prc+uar]
+    time_range:
+      - 1960-01-27T11:00Z
+      - 1960-01-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-27.china-leadership-4
+    when: Jan. 27
+    date: '1960-01-27'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai gives an informal lunch for Ne Win.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 27, 1960; 中午). Names: Zhou Enlai, Ne Win.'
+    src:
+      c: f33e897b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1960-01-27T04:00Z
+      - 1960-01-27T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-27.china-leadership-5
+    when: Jan. 27
+    date: '1960-01-27'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the reception given by the Burmese Ambassador for Ne Win's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 27, 1960; 晚上, 北京饭店). Names: Zhou Enlai, Ne Win.'
+    src:
+      c: ab00c044
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1960-01-27T11:00Z
+      - 1960-01-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-28.cuba
     when: Jan. 28
     date: '1960-01-28'
@@ -1319,8 +1481,49 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai, at Ne Win''s farewell banquet: the treaty and the agreement prove that independent Asian and African states can unite in friendship, a model for the rest.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 285 (Jan. 28, 1960). Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 285 (Jan. 28, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 晚上). Names: Zhou Enlai, Ne Win.'
+    src:
+      c: 6c4a1cf9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 285: ?'
+        - 'w.zhou-enlai-waijiao-huodong 270: A'
     tags: [polity:prc, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1960-01-28T11:00Z
+      - 1960-01-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-28.china-leadership-3
+    when: Jan. 28
+    date: '1960-01-28'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai accompanies Liu Shaoqi, Chairman, in receiving Ne Win.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 下午). Names: Zhou Enlai, Liu Shaoqi, Ne Win.'
+    src:
+      c: 4f9f702c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1960-01-28T04:00Z
+      - 1960-01-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-28.china-leadership-4
+    when: Jan. 28
+    date: '1960-01-28'
+    time: 1960-01-28T10:50Z
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai and Ne Win sign, for their governments, the China–Burma boundary agreement and the China–Burma treaty of friendship and mutual nonaggression.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 28, 1960; 下午6时50分). See [[cal.1960-01-25.china-leadership]]. Names: Zhou Enlai, Ne Win.'
+    src:
+      c: dcc30891
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-29.state-and-city-finance-ky
     when: Jan. 29
     date: '1960-01-29'
@@ -1614,6 +1817,23 @@ entries:
     c: 'Zhou Enlai, hearing the report on Peking''s city plan: the Forbidden City to stay, some of the feudal to be left for later ages; the national theater to go near the Great Hall of the People, so that meeting, meals, receptions and a night at the play are together and fuel is saved; a hotel near the Hall for delegates to the Party Center''s and the National People''s Congress Standing Committee''s meetings.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 286 (Jan. 29, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-01-29.china-leadership-3
+    when: Jan. 29
+    date: '1960-01-29'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to see off Ne Win.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 29, 1960; 清晨, 机场). Names: Zhou Enlai, Ne Win.'
+    src:
+      c: e87076d7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 270: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1960-01-28T21:00Z
+      - 1960-01-29T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-30.china-leadership
     when: Jan. 30
     date: '1960-01-30'

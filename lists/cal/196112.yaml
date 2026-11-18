@@ -467,6 +467,20 @@ entries:
     c: Zhou Enlai with Li Xiannian on the buying of farm products.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 443 (Dec. 7, 1961). Made public: 1997. Names: Zhou Enlai, Li Xiannian.'
     tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-12-07.china-leadership-2
+    when: Dec. 7
+    date: '1961-12-07'
+    time: 1961-12-07T12:30Z
+    thread: china-leadership
+    also: [china, korea, trade]
+    c: Peking, Xihuating. Zhou Enlai receives the DPRK government's economic delegation headed by Yi Chu-yŏn, Vice-Premier.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 7, 1961; 晚8时30分). Names: Zhou Enlai.'
+    src:
+      c: c28c8db3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-08.vietnam
     when: Dec. 8
     date: '1961-12-08'
@@ -505,6 +519,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-12-08.china-leadership
+    when: Dec. 8
+    date: '1961-12-08'
+    time: 1961-12-08T01:30Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, Xihuating. Zhou Enlai receives the Guinean Minister of Rural Economy, Bari Sory.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 8, 1961; 上午9时30分). Names: Zhou Enlai. Check: the minister''s name, 巴里·索里 in the book.'
+    src:
+      c: 7d19fef9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-09.crime-and-hijacking
     when: Dec. 9
     date: '1961-12-09'
@@ -815,8 +843,32 @@ entries:
     thread: china-leadership
     also: [china, trade]
     c: 'Zhou Enlai receives and gives a banquet for the Burmese government''s economic delegation and advisers: the economic relation between China and Burma is a new kind, aimed on the five principles at mutual help and learning for each one''s national economy to grow independently, and not at harming either''s interest.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 444 (Dec. 13, 1961). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 444 (Dec. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 13, 1961; 晚上, 签字仪式; 德钦丁). Names: Zhou Enlai, U Nu.'
+    src:
+      c: d535b444
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 444: ?'
+        - 'w.zhou-enlai-waijiao-huodong 327: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-12-13T11:00Z
+      - 1961-12-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-12-13.china-leadership-2
+    when: Dec. 13
+    date: '1961-12-13'
+    time: 1961-12-13T04:00Z
+    thread: china-leadership
+    also: [china, korea, trade]
+    c: Peking, Xihuating. Zhou Enlai receives for the second time the DPRK government's economic delegation headed by Yi Chu-yŏn.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 13, 1961; 中午12时). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 9669ee08
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-14.program
     when: Dec. 14
     date: '1961-12-14'
@@ -980,6 +1032,40 @@ entries:
     c: 'At the Secretariat on the industrial plan Zhou Enlai: the adjustment is urgent and cannot be done without self-reliance; with the difficulties known, one has high aims; the part serves the whole, the present the long run, the Party the Center; everything for the masses'' interest, but not against the Party''s leadership, nor policy against task.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 444 (Dec. 14, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-12-14.china-leadership-2
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives the Honduran cultural delegation headed by Rodil Rivera Rodil.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 14, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 92ead84a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:honduras, name:zhou-enlai]
+    time_range:
+      - 1961-12-14T11:00Z
+      - 1961-12-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-12-14.china-leadership-3
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Tianqiao Theater. Zhou Enlai watches with Chen Yi a joint performance by Chinese and Soviet musicians, and receives the Soviet musicians in the interval.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 14, 1961; 晚上). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 0335eda1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1961-12-14T11:00Z
+      - 1961-12-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-15.vietnam
     when: Dec. 15
     date: '1961-12-15'
@@ -1567,6 +1653,23 @@ entries:
         - 'w.thomas-robert-kennedy 127: all'
         - 'via x.1961-12-21.robert-kennedy-to-schlesinger-private-clubs: all'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
+  - id: cal.1961-12-21.china-leadership-2
+    when: Dec. 21
+    date: '1961-12-21'
+    thread: china-leadership
+    also: [china]
+    c: Peking Hotel. Zhou Enlai attends the farewell banquet given by Thakin Tin, head of the Burmese economic delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 21, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 175d2e6b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1961-12-21T11:00Z
+      - 1961-12-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-22.vietnam
     when: Dec. 22
     date: '1961-12-22'
@@ -1659,6 +1762,23 @@ entries:
     c: Zhou Enlai, Dec. 22–24, with Li Xiannian and Li Qiang on aid to Albania, and twice receives the Albanian government's economic delegation under Kellezi, Vice-Chairman of the Council of Ministers.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 446 (Dec. 22, 1961). Made public: 1997. Names: Zhou Enlai, Li Xiannian.'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:li-xiannian, vis:only:prc+albania]
+  - id: cal.1961-12-23.china-leadership
+    when: Dec. 23
+    date: '1961-12-23'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai receives the Albanian government's economic delegation headed by Kellezi, Vice Chairman of the Council of Ministers, and attends the banquet given by Li Xiannian for it.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 23, 1961; 晚上). Names: Zhou Enlai, Li Xiannian.'
+    src:
+      c: 4d4b7c95
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:li-xiannian]
+    time_range:
+      - 1961-12-23T11:00Z
+      - 1961-12-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-24.latin-america
     when: Dec. 24
     date: '1961-12-24'
@@ -1695,11 +1815,32 @@ entries:
   - id: cal.1961-12-25.china-leadership-2
     when: Dec. 25
     date: '1961-12-25'
+    time: 1961-12-25T05:30Z
     thread: china-leadership
     also: [indonesia, china]
     c: 'Zhou Enlai receives Indonesia''s Ambassador, Sukarni: the first task is the national economy; industry for its growth; an economy not freed of colonial control is not independence; China''s line is agriculture the base, industry the lead. On Indonesia''s citizens of Chinese descent, Indonesia should persuade them; the overseas Chinese China will persuade to help Indonesia''s industry.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 447 (Dec. 25, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 447 (Dec. 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 25, 1961; 下午1时30分, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: e19e7a56
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 447: ?'
+        - 'w.zhou-enlai-waijiao-huodong 327: A'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-12-25.china-leadership-3
+    when: Dec. 25
+    date: '1961-12-25'
+    time: 1961-12-25T10:40Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi, laos]
+    c: Peking, Xihuating. Zhou Enlai receives Hoàng Văn Hoan, special adviser to the DRV delegation to the enlarged Geneva conference, and gives him dinner.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 25, 1961; 晚6时40分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: ef31576d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-26.robert-kennedy
     when: Dec. 26
     date: '1961-12-26'
@@ -1786,6 +1927,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-12-30.china-leadership
+    when: Dec. 30
+    date: '1961-12-30'
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the New Year reception given by Chen Yi and his wife for the diplomatic corps and foreign friends in Peking, and in a toast hopes for friendship among peoples, world peace and human prosperity.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 30, 1961; 晚上). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 44a646db
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1961-12-30T11:00Z
+      - 1961-12-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-31.opinion-5
     when: Dec. 31
     date: '1961-12-31'
@@ -2358,8 +2516,18 @@ entries:
     thread: china-leadership
     also: [soviet-union, foreign-aid]
     c: 'Zhou Enlai''s talk with Kellezi on aid to Albania: China bears international duty as it can, and would not be a Marxist–Leninist if it kept back what it could give; but with three years'' successive disaster and the Soviet withdrawal of experts, help cannot be as much, as fast, as large or as good as Albania wishes; Albania to prepare two ways, good and bad, and to teach its people to prepare for hard struggle and a long fight.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 447 (Dec. 31, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 447 (Dec. 31, 1961); [[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 24, 1961; 与阿尔巴尼亚政府经济代表团会谈). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 2788f149
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 447: ?'
+        - 'w.zhou-enlai-waijiao-huodong 327: A'
     tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Dec. 24 (talks with the Albanian government's economic delegation); the entry has Dec. 31
+        at: '327'
   - id: cal.1961-12.china-leadership-4
     when: Dec., early
     date: 1961-12

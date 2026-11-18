@@ -259,6 +259,23 @@ entries:
     c: 'Zhou, Apr. 2–16, calls those concerned to discuss and revise the report on the fourteen-country trip given to the NPC Standing Committee and the State Council. The final ending: in the end socialist construction at home must go well and strength grow, to do better one''s international duty. Each draft goes to Mao for opinion.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 631 (Apr. 2–16, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1964-04-02.china-leadership-3
+    when: Apr. 2
+    date: '1964-04-02'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai receives the secretary general of the Belgium–China Association.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 2, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: 6525555d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 400: all'
+    tags: [polity:prc, polity:belgium, name:zhou-enlai]
+    time_range:
+      - 1964-04-02T04:00Z
+      - 1964-04-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-03.latin-america
     when: Apr. 3
     date: '1964-04-03'
@@ -448,19 +465,64 @@ entries:
   - id: cal.1964-04-04.china-leadership
     when: Apr. 4
     date: '1964-04-04'
+    time: 1964-04-04T10:45Z
     thread: china-leadership
     also: [laos]
     c: 'Zhou, Beijing: talks with Souvanna Phouma, premier of Laos, who has come at China''s invitation with the Lao government delegation. The states to the Geneva Agreements must keep them, but first Laos''s government must carry out its own political program; China is an important factor in guaranteeing them, a more important one is the side that does not observe them.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 631–32 (Apr. 4, 1964). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 631–32 (Apr. 4, 1964); [[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 4, 1964; 下午6时45分至晚7时30分, 人民大会堂, 会见). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: b9013586
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 631–32: ?'
+        - 'w.zhou-enlai-waijiao-huodong 400: A'
     tags: [name:zhou-enlai, name:souvanna-phouma, polity:prc, polity:laos, vis:only:prc+laos]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-04.china-leadership-2
     when: Apr. 4
     date: '1964-04-04'
     thread: china-leadership
     also: [laos]
     c: 'Zhou, evening, at the banquet for Souvanna Phouma and the Lao delegation: China has always respected Laos''s independence and neutrality, keeps its obligations, and opposes imperialist aggression and interference in Laos.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 4, 1964). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 4, 1964); [[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 4, 1964; 晚上, 人民大会堂, 宴会). Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: 4aa084bf
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 632: ?'
+        - 'w.zhou-enlai-waijiao-huodong 400: A'
     tags: [name:zhou-enlai, name:souvanna-phouma, polity:prc, polity:laos]
+    time_range:
+      - 1964-04-04T11:00Z
+      - 1964-04-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-04.china-leadership-3
+    when: Apr. 4
+    date: '1964-04-04'
+    time: 1964-04-04T03:00Z
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: Peking, Xihuating. Zhou Enlai receives and gives a luncheon for the Congo (Brazzaville) envoy and a member of the African Politburo of the Congo (Léopoldville), and congratulates them on the August Revolution in the Congo (Brazzaville).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 4, 1964; 上午11时). Names: Zhou Enlai. Check: the names, 安托万 and 米都迪迪 in the book.'
+    src:
+      c: 3757403e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 400: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-04.china-leadership-4
+    when: Apr. 4
+    date: '1964-04-04'
+    time: 1964-04-04T07:00Z
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai goes to the airport to welcome Souvanna Phouma, Prime Minister of Laos.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 4, 1964; 下午3时). See [[cal.1964-04-04.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: f883a14c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 400: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-05.opinion
     when: Apr. 5
     date: '1964-04-05'
@@ -537,11 +599,52 @@ entries:
   - id: cal.1964-04-05.china-leadership
     when: Apr. 5
     date: '1964-04-05'
+    time: 1964-04-05T02:00Z
     thread: china-leadership
     also: [laos]
     c: 'Zhou: talks with Souvanna Phouma. On Laos''s internal question the central point is whether the government of national union can carry out its declaration and the three-party agreements.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 5, 1964). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 5, 1964; 上午10时, 钓鱼台宾馆18号楼, 回访并举行会谈); [[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 6, 1964; 上午10时, 钓鱼台宾馆18号楼, 继续会谈). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: 54e699d5
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 632: ?'
+        - 'w.zhou-enlai-waijiao-huodong 400: A'
     tags: [name:zhou-enlai, name:souvanna-phouma, polity:prc, polity:laos, vis:only:prc+laos]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-05.china-leadership-2
+    when: Apr. 5
+    date: '1964-04-05'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai accompanies Liu Shaoqi in receiving Souvanna Phouma and the Laotian government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 5, 1964; 下午). See [[cal.1964-04-04.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi, Souvanna Phouma.'
+    src:
+      c: db43c96d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 400: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:liu-shaoqi, name:souvanna-phouma]
+    time_range:
+      - 1964-04-05T04:00Z
+      - 1964-04-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-05.china-leadership-3
+    when: Apr. 5
+    date: '1964-04-05'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai accompanies Souvanna Phouma at the concert given by the Ministry of Culture and the China–Laos Friendship Association.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 5, 1964; 晚上). See [[cal.1964-04-04.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: 5ee4eba6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 400: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma]
+    time_range:
+      - 1964-04-05T11:00Z
+      - 1964-04-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-06.mississippi
     when: Apr. 6
     date: '1964-04-06'
@@ -629,6 +732,23 @@ entries:
         - 'w.whalen-longest-debate 158–59: all'
         - 'via x.1964-04-06.dirksen-notebook-entry: all'
     tags: [name:dirksen-everett]
+  - id: cal.1964-04-06.china-leadership
+    when: Apr. 6
+    date: '1964-04-06'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai attends the farewell reception given by Souvanna Phouma.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 6, 1964; 晚上). See [[cal.1964-04-04.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: bfe3773f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 400: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma]
+    time_range:
+      - 1964-04-06T11:00Z
+      - 1964-04-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-07.elections-1964
     when: Apr. 7
     date: '1964-04-07'
@@ -875,8 +995,18 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Zhou, at Beijing airport, sees off Souvanna Phouma and the Lao delegation going on to Guangzhou: China will go on supporting the Lao people''s just struggle for national independence and sovereignty.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 7, 1964). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 7, 1964); [[w.zhou-enlai-waijiao-huodong]], 400 (Apr. 7, 1964; 上午, 机场). Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: d4b062aa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 632: ?'
+        - 'w.zhou-enlai-waijiao-huodong 400: A'
     tags: [name:zhou-enlai, name:souvanna-phouma, polity:prc, polity:laos]
+    time_range:
+      - 1964-04-06T22:00Z
+      - 1964-04-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-08.farm
     when: Apr. 8
     date: '1964-04-08'
@@ -1275,8 +1405,35 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou receives the Japanese Communist Party delegation under Hakamada Satomi.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 9, 1964). Made public: 1997. Names: Zhou Enlai, Hakamada Satomi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 632 (Apr. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 9, 1964; 晚上, 中共中央为欢送日本共产党代表团举行的宴会). Made public: 1997. Names: Zhou Enlai, Hakamada Satomi.'
+    src:
+      c: 0f28d535
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 632: ?'
+        - 'w.zhou-enlai-waijiao-huodong 401: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan, vis:only:prc+japan]
+    time_range:
+      - 1964-04-09T11:00Z
+      - 1964-04-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-09.china-leadership-3
+    when: Apr. 9
+    date: '1964-04-09'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leading the delegation to Indonesia to the preparatory meeting for the second Afro-Asian conference.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 9, 1964; 下午). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 2a8bb45e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 401: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1964-04-09T04:00Z
+      - 1964-04-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-10.opinion
     when: Apr. 10
     date: '1964-04-10'
@@ -1438,6 +1595,30 @@ entries:
     c: 'Zhou, with Zhu De, Li Fuchun, Li Xiannian and others, hears the leading group of the national agricultural planning conference. On its summary outline: "leaders, masses, experts in three-way union", who are "the masses"? State it plainly. Experience is good to present, but conditions differ and one place''s cannot go everywhere untested. On Dazhai: give some matter, not only spirit; how it was done, how the "eight-word charter" was applied, what the state gave; both legs. Each place is to find its own model. Planners want long plans large, capital construction large and annual plans small, against Mao''s "long-term plans with margin, annual plans pushed to exceed". Sums up the outline''s 500 million mu of farmland: low base, small potential, high demands, large investment. Planning work not yet complete or mature; to study further.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 632–33 (Apr. 10, 1964). Made public: 1997. Names: Zhou Enlai, Zhu De, Li Fuchun, Li Xiannian.'
     tags: [name:zhou-enlai, name:zhu-de, name:li-fuchun, name:li-xiannian, polity:prc, vis:only:prc]
+  - id: cal.1964-04-10.china-leadership-2
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai goes to the airport to see off the Japanese Communist Party delegation, leaving for the south of China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 10, 1964). Names: Zhou Enlai.'
+    src:
+      c: 583687a3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 401: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+  - id: cal.1964-04-10.china-leadership-3
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to welcome E. F. Hill, chairman of the Communist Party of Australia (Marxist-Leninist), on his arrival.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 10, 1964). Names: Zhou Enlai.'
+    src:
+      c: 7135b519
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 401: all'
+    tags: [polity:prc, polity:australia, name:zhou-enlai]
   - id: cal.1964-04-11.farm
     when: Apr. 11
     date: '1964-04-11'
@@ -1572,8 +1753,18 @@ entries:
     date: '1964-04-12'
     thread: china-leadership
     c: Zhou and Liu Shaoqi talk with E. F. Hill, chairman of the Central Committee of the Communist Party of Australia (Marxist-Leninist).
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 12, 1964). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Hill.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 12, 1964); [[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 12, 1964; 下午, 和刘少奇会见). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Hill.'
+    src:
+      c: 595b3ae0
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 634: ?'
+        - 'w.zhou-enlai-waijiao-huodong 401: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, polity:australia, vis:only:prc+australia]
+    time_range:
+      - 1964-04-12T04:00Z
+      - 1964-04-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-12.china-leadership-3
     when: Apr. 12
     date: '1964-04-12'
@@ -1709,27 +1900,52 @@ entries:
   - id: cal.1964-04-13.china-leadership-2
     when: Apr. 13–14
     date: '1964-04-13'
+    time: 1964-04-13T08:00Z
     thread: china-leadership
     also: [congo, africa]
     c: 'Zhou twice receives envoys: Antoine from the Congo (Brazzaville), and Mitudidi, Politburo member of the African Solidarity Party of the Congo (Leopoldville).'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13–14, 1964). Made public: 1997. Names: Zhou Enlai, Antoine, Mitudidi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13–14, 1964); [[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 13, 1964; 下午4时, 中南海西花厅, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 14, 1964; 下午4时, 中南海西花厅, 第二次会谈). Made public: 1997. Names: Zhou Enlai, Antoine, Mitudidi.'
+    src:
+      c: badfcae7
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 634: ?'
+        - 'w.zhou-enlai-waijiao-huodong 401: A'
+        - 'w.zhou-enlai-waijiao-huodong 402: A'
     tags: [name:zhou-enlai, polity:prc, polity:congo-brazzaville, polity:congo, vis:only:prc+congo-brazzaville+congo]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-13.china-leadership-3
     when: Apr. 13
     date: '1964-04-13'
+    time: 1964-04-13T03:00Z
     thread: china-leadership
     also: [africa]
     c: 'Zhou receives the Algerian cultural delegation under Ben Nabi, adviser to the National Guidance Department. After talks he asks himself what he said right and wrong: one may err in anything said or done, only looking back lets one go forward. Mao Zedong Thought is the guide in work and thought, but thinking shifts with surroundings and the world; what is ripe is fuller and truer, the new or little thought through may err; do not take all the Chinese leaders say as right.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13, 1964). Names: Zhou Enlai, Ben Nabi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 401 (Apr. 13, 1964; 上午11时, 中南海西花厅). Names: Zhou Enlai, Ben Nabi.'
+    src:
+      c: 9c3f3e70
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 634: ?'
+        - 'w.zhou-enlai-waijiao-huodong 401: A'
     tags: [name:zhou-enlai, polity:prc, polity:algeria]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-13.china-leadership-4
     when: Apr. 13
     date: '1964-04-13'
     thread: china-leadership
     also: [japan]
     c: Zhou receives Matsumura Kenzō, Liberal Democratic Party adviser and Diet member, and his party.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13, 1964). Names: Zhou Enlai, Matsumura Kenzō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 634 (Apr. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 401–02 (Apr. 13, 1964; 晚上, 接见松村谦三和他的随行人员, 并出席廖承志为松村谦三举行的宴会). Names: Zhou Enlai, Matsumura Kenzō.'
+    src:
+      c: 3b83bffd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 634: ?'
+        - 'w.zhou-enlai-waijiao-huodong 401–02: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
+    time_range:
+      - 1964-04-13T11:00Z
+      - 1964-04-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-14.elections-1964
     when: Apr. 14
     date: '1964-04-14'
@@ -2183,16 +2399,31 @@ entries:
   - id: cal.1964-04-16.china-leadership-2
     when: Apr. 16
     date: '1964-04-16'
+    time: 1964-04-16T12:00Z
     thread: china-leadership
     also: [congo]
     c: 'Mao, Changsha, evening: talks with Zhou Enlai, who has brought guests from Beijing, then with them: Antoine, special envoy of Congo (Brazzaville), and Léonard Mitudidi, Politburo member of the African Solidarity Party of Congo (Léopoldville). The oppressor alone is low; Lumumba died for lack of an army; no army, no state power, no independence, no freedom, no equality. China sees their cause as its own, a duty to support it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou flies with Antoine and Mitudidi to Changsha; in the evening talks with Mao, then accompanies him in receiving the Congolese guests; Beijing again next day). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Antoine, Léonard Mitudidi, Lumumba. Check: Antoine''s surname (the Chinese gives only Andoine).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou flies with Antoine and Mitudidi to Changsha; in the evening talks with Mao, then accompanies him in receiving the Congolese guests; Beijing again next day); [[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 16, 1964; 晚8时, 长沙, 陪同毛泽东主席接见). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Antoine, Léonard Mitudidi, Lumumba. Check: Antoine''s surname (the Chinese gives only Andoine).'
     src:
       c: 435965b0
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 16, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 635: A'
+        - 'w.zhou-enlai-waijiao-huodong 402: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:lumumba-patrice, polity:congo-brazzaville, polity:prc, vis:only:prc+congo-brazzaville]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-16.china-leadership-3
+    when: Apr. 16
+    date: '1964-04-16'
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: Zhou Enlai accompanies the Congo (Brazzaville) envoy and the member of the Politburo of the African Solidarity Party of the Congo (Léopoldville) to Changsha.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 16, 1964). See [[cal.1964-04-13.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 239b2b94
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 402: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai]
   - id: cal.1964-04-17.mississippi
     when: Apr. 17
     date: '1964-04-17'
@@ -2293,6 +2524,18 @@ entries:
     c: Khrushchev's seventieth birthday. The party elite go to toast him in the Lenin Hills. Brezhnev soon urges the comrades to leave, though Khrushchev wants the celebration to go on.
     n: '[[w.schattenberg-brezhnev]], 168 (by Shelest''s account; Brezhnev''s reason, not to wear Khrushchev out). To check: P. E. Shelest, *Da ne sudimy budete* (1995), 194 (cited by [[w.schattenberg-brezhnev]], 168 n.434). Made public: 2021 at the latest. See [[cal.1964-04-17.soviet-union]]. Names: Khrushchev, Brezhnev, Shelest.'
     tags: [name:brezhnev-leonid, name:khrushchev-nikita-s, name:shelest-pyotr-y, polity:ussr, vis:only:ussr]
+  - id: cal.1964-04-17.china-leadership
+    when: Apr. 17
+    date: '1964-04-17'
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: Zhou Enlai accompanies the Congo envoys from Changsha back to Peking.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 17, 1964). See [[cal.1964-04-13.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: c5c54bf8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 402: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai]
   - id: cal.1964-04-18.defense
     when: Apr. 18
     date: '1964-04-18'
@@ -2441,23 +2684,48 @@ entries:
     date: '1964-04-18'
     thread: china-leadership
     c: Zhou attends the Beijing rally of all circles marking the ninth anniversary of the Bandung Conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 18, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 402–03 (Apr. 18, 1964; 政协礼堂, 首都各界集会纪念第一次亚非会议九周年). Names: Zhou Enlai.'
+    src:
+      c: 713b633a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 635: ?'
+        - 'w.zhou-enlai-waijiao-huodong 402–03: A'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1964-04-18.china-leadership-2
     when: Apr. 18
     date: '1964-04-18'
     thread: china-leadership
     c: 'Zhou, receiving a Korean cultural delegation, on the lessons of rubber planting in south China: a new thing grows by groping, many trials; both large errors came of good intent, the first when Stalin lived and hoped China would grow its own rubber, the second by the Ministry of State Farms, subjectivism and commandism. Lesson: welcome the new, do not fear mistakes; two wrong attitudes, losing heart at the first difficulty (right error) and pressing on without admitting error (left error).'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 635–36 (Apr. 18, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 635–36 (Apr. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 18, 1964; 上午, 中南海西花厅, 接见朝鲜文化代表团). Names: Zhou Enlai.'
+    src:
+      c: 85f527da
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 635–36: ?'
+        - 'w.zhou-enlai-waijiao-huodong 402: A'
     tags: [name:zhou-enlai, polity:prc, polity:dprk]
+    time_range:
+      - 1964-04-17T22:00Z
+      - 1964-04-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-18.china-leadership-3
     when: Apr. 18
     date: '1964-04-18'
     thread: china-leadership
     also: [japan]
     c: 'Zhou receives Matsumura Kenzō and other Japanese guests. Independence without alliance with the bloc makes a satellite; independence does not shut out cooperation with truly friendly states; China treats friends more warmly and an enemy in kind, but never hostile first. Matsumura need not fear China''s spirit of independence will start a world war with the U.S. Complains Ikeda''s government has said Taiwan''s status is undetermined; told this is not its meaning and a remedy is coming: "we shall see". China favors improving relations by accumulation, working toward diplomatic ties.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 636 (Apr. 18, 1964). Names: Zhou Enlai, Matsumura Kenzō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 636 (Apr. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 18, 1964; 下午, 人民大会堂福建厅). Names: Zhou Enlai, Matsumura Kenzō.'
+    src:
+      c: 270cd1a2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 636: ?'
+        - 'w.zhou-enlai-waijiao-huodong 403: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
+    time_range:
+      - 1964-04-18T04:00Z
+      - 1964-04-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-19.laos
     when: Apr. 19
     date: '1964-04-19'
@@ -3068,8 +3336,18 @@ entries:
     date: '1964-04-22'
     thread: china-leadership
     c: Zhou, with Liu Shaoqi, Zhu De and others, goes to the Bulgarian embassy to condole the death of Ganev, Politburo member of the Bulgarian Communist Party and chairman of the National Assembly's presidium; sends a wreath.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 22, 1964). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 22, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 22, 1964; 下午, 和刘少奇、朱德等前往保加利亚驻华使馆吊唁加涅夫逝世). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
+    src:
+      c: 5528bdb9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 637: ?'
+        - 'w.zhou-enlai-waijiao-huodong 403: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:zhu-de, polity:prc, polity:bulgaria]
+    time_range:
+      - 1964-04-22T04:00Z
+      - 1964-04-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-22.china-leadership-2
     when: Apr. 22 and 24
     date: '1964-04-22'
@@ -3218,11 +3496,18 @@ entries:
   - id: cal.1964-04-23.china-leadership
     when: Apr. 23
     date: '1964-04-23'
+    time: 1964-04-23T09:00Z
     thread: china-leadership
     also: [japan]
     c: 'Zhou receives the Kansai economic friendship delegation under Sugano Watarō, Diet member and adviser to the Kansai office of the Japan Association for the Promotion of International Trade. Japan''s growth rests on the world market as well as home; China''s on self-reliance, but to modernize it needs international cooperation. Four principles: equality and mutual benefit; Sino-Japanese peaceful coexistence has an unlimited future; economic relations can be made sure and reliable; China''s ability to pay is strong. "We should look further."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 23, 1964). Names: Zhou Enlai, Sugano Watarō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 637 (Apr. 23, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 23, 1964; 下午5时, 人民大会堂福建厅). Names: Zhou Enlai, Sugano Watarō.'
+    src:
+      c: 824a5188
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 637: ?'
+        - 'w.zhou-enlai-waijiao-huodong 403: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-24.poverty
     when: Apr. 24
     date: '1964-04-24'
@@ -3354,6 +3639,30 @@ entries:
     c: Pittsburgh, David McDonald Hall, the Steelworkers' home local. McDonald, introducing Johnson, pledges "that the Union shall do all of the down-to-earth work that is possible to elect you this November." Mrs. Johnson speaks a minute.
     n: '[[w.johnson-white-house-diary]], 119–20 (Lady Bird Johnson''s account: "the first really outspoken assumption that Lyndon is running"). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson, David McDonald.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:mcdonald-david-l]
+  - id: cal.1964-04-24.china-leadership
+    when: Apr. 24
+    date: '1964-04-24'
+    thread: china-leadership
+    also: [china, africa, latin-america]
+    c: Peking. Zhou Enlai meets the young people, students and friends from Asian, African and Latin American countries, among them delegations of the Korean Democratic Youth League, the Zanzibar and Pemba Afro-Shirazi Youth League, the Japanese students' federation, the Mali trade union federation and the Panama workers' federation, and friends from Bolivia, Colombia, Mexico and Senegal.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 24, 1964). Names: Zhou Enlai.'
+    src:
+      c: e85fab6c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 403: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1964-04-24.china-leadership-2
+    when: Apr. 24
+    date: '1964-04-24'
+    thread: china-leadership
+    also: [china, africa, latin-america]
+    c: Peking. Zhou Enlai attends the reception given by the Youth League's Central Committee, the National Youth Federation and the National Students' Federation for the Asian, African and Latin American youth and student delegations.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 24, 1964). Names: Zhou Enlai.'
+    src:
+      c: dacc5387
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 403: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1964-04-25.vietnam
     when: Apr. 25
     date: '1964-04-25'
@@ -3447,6 +3756,23 @@ entries:
     c: 'Zhou, at the joint session of the 117th meeting of the NPC Standing Committee and the 144th plenary meeting of the State Council, adds to his report on the fourteen-country trip, answering questions from the earlier discussion, and speaks on events of the past month. On the Sino-Soviet border: China''s principles in the talks are that the treaties after the Opium War are unequal, imposed by tsarist Russia; that China still accepts them as the base for talks with needed adjustments; that a new boundary treaty replace the old. The Soviet side does not agree; little progress.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 637–38 (Apr. 25, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-04-25.china-leadership-3
+    when: Apr. 25
+    date: '1964-04-25'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives the delegation of the Zanzibar and Pemba Afro-Shirazi Youth League.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 25, 1964; 上午). Names: Zhou Enlai.'
+    src:
+      c: a8de9a7b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 403: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+    time_range:
+      - 1964-04-24T22:00Z
+      - 1964-04-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-26.civil-rights-organizations
     when: Apr. 26
     date: '1964-04-26'
@@ -3511,6 +3837,23 @@ entries:
     c: 'Zhou goes to Liu Shaoqi''s to settle the *People''s Daily* editor''s note to Suslov''s Feb. 14 report, printed Apr. 27: it counts 140 or 150 places of distortion, calls the report false; all anti-China Soviet documents, past and later, to be answered in turn once the reply to the Soviet Central Committee''s open letter is done.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 638 (Apr. 26, 1964). Made public: 1997. Check: the chronology gives the visit to Liu Apr. 26 and the editor''s note, a footnote to Apr. 27. Names: Zhou Enlai, Liu Shaoqi, Suslov.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:suslov-mikhail-a, polity:prc, vis:only:prc]
+  - id: cal.1964-04-26.china-leadership-2
+    when: Apr. 26
+    date: '1964-04-26'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai goes to the airport to meet Chen Yi, back from the preparatory meeting for the second Afro-Asian conference.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 26, 1964; 中午). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: '59217716'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 403: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1964-04-26T04:00Z
+      - 1964-04-26T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-27.europe-and-the-alliance
     when: Apr. 27–28
     date: '1964-04-27'
@@ -3633,6 +3976,20 @@ entries:
     c: 'Zhou revises the Central Committee and State Council''s note forwarding Yang Chengwu''s Apr. 10 report on protecting the fisheries. After "a long, hard, complex task" adds: this struggle gives the navy the best chance of real combat training; the navy must show marked results.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 638–39 (Apr. 27, 1964). Made public: 1997. Names: Zhou Enlai, Yang Chengwu.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-04-27.china-leadership-3
+    when: Apr. 27
+    date: '1964-04-27'
+    time: 1964-04-27T06:00Z
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking, Xihuating. Zhou Enlai receives the Indonesian Ambassador, Djawoto, and talks of the second Afro-Asian conference and the situation in Southeast Asia.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 27, 1964; 下午2时). Made public: 1993. Names: Zhou Enlai. Check: the Ambassador''s name, 查禾多 in the book.'
+    src:
+      c: 1cae8735
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 403: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-28.elections-1964
     when: Apr. 28
     date: '1964-04-28'
@@ -3856,18 +4213,32 @@ entries:
   - id: cal.1964-04-28.china-leadership-2
     when: Apr. 28
     date: '1964-04-28'
+    time: 1964-04-28T09:00Z
     thread: china-leadership
     c: 'Zhou receives Albania''s plenipotentiary design-approval experts: wanting industry quickly is well meant but too hasty; Albania has 1.7 million people and that must count; population is the start of every task. A small country should concentrate on the necessary and the most needed: its own raw materials processed, for use and export; the most advanced technique first. Tie industry to farming, herding, forestry and fishing, to sidelines in the villages; use oil and gas fully.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 639 (Apr. 28, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 639 (Apr. 28, 1964); [[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 28, 1964; 下午5时, 中南海西花厅, 阿尔巴尼亚审批设计全权专家组). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: e980ed41
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 639: ?'
+        - 'w.zhou-enlai-waijiao-huodong 404: A'
     tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-28.china-leadership-3
     when: Apr. 28
     date: '1964-04-28'
+    time: 1964-04-28T08:00Z
     thread: china-leadership
     also: [korea]
     c: 'Zhou receives the new North Korean ambassador, Pak Se-chang, and Chon Du-hwan, who heads the Academy of Sciences delegation: on a Sino-Korean scientific agreement and preparations for the second Asian-African conference.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 639 (Apr. 28, 1964). Made public: 1997. Names: Zhou Enlai, Pak Se-chang, Chon Du-hwan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 639 (Apr. 28, 1964); [[w.zhou-enlai-waijiao-huodong]], 403 (Apr. 28, 1964; 下午4时, 中南海西花厅, 朝鲜新任驻华大使朴世昌). Made public: 1997. Names: Zhou Enlai, Pak Se-chang, Chon Du-hwan.'
+    src:
+      c: de27775f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 639: ?'
+        - 'w.zhou-enlai-waijiao-huodong 403: A'
     tags: [name:zhou-enlai, polity:prc, polity:dprk, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-29.opinion
     when: Apr. 29
     date: '1964-04-29'
@@ -4105,6 +4476,49 @@ entries:
     c: Zhou attends the Secretariat meeting. Hears Li Fuchun, Tan Zhenlin and others on preliminary ideas for the Third Five-Year Plan and the Third Plan's agricultural development.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 639 (Apr. 29, 1964). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Tan Zhenlin.'
     tags: [name:zhou-enlai, name:li-fuchun, name:tan-zhenlin, polity:prc, vis:only:prc]
+  - id: cal.1964-04-29.china-leadership-2
+    when: Apr. 29
+    date: '1964-04-29'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives the Vietnamese cultural delegation headed by the director of the Committee for Cultural Relations with Foreign Countries.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 29, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: fe452473
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 404: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai]
+    time_range:
+      - 1964-04-29T04:00Z
+      - 1964-04-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-29.china-leadership-3
+    when: Apr. 29
+    date: '1964-04-29'
+    time: 1964-04-29T09:00Z
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai and his wife receive Maladi, Indonesia's Minister of Sports and head of the Games of the New Emerging Forces federation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 29, 1964; 下午5时). Names: Zhou Enlai.'
+    src:
+      c: 07b9ffe1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 404: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-29.china-leadership-4
+    when: Apr. 29
+    date: '1964-04-29'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai receives the Indonesian science delegation headed by the Minister of Scientific Research, and its whole staff.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 29, 1964). Names: Zhou Enlai.'
+    src:
+      c: 812ad267
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 404: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
   - id: cal.1964-04-30.robert-kennedy
     when: Apr. 30
     date: '1964-04-30'
@@ -4825,7 +5239,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou receives the new ambassadors of the German Democratic Republic, Kolt, and Czechoslovakia, Krzystek. Despite grave disputes among the fraternal parties on principles of Marxism-Leninism, the camp and the movement should support one another; unite as against the enemy; state relations should be friendly.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 639–40 (Apr. 30, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 639–40 (Apr. 30, 1964); [[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 接见德意志民主共和国新任驻华大使); [[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 晚8时; the new Czechoslovak Ambassador, the Great Hall of the People, Shanghai Hall). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 03ce05f1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 639–40: ?'
+        - 'w.zhou-enlai-waijiao-huodong 404: A-D'
     tags: [name:zhou-enlai, polity:prc, polity:gdr, polity:czechoslovakia, vis:only:prc+gdr+czechoslovakia]
   - id: cal.1964-04.china-leadership
     when: Apr.–May
@@ -4834,3 +5253,46 @@ entries:
     c: 'In April and May Liao Luyan, on Zhou''s instruction, takes three aides to Dazhai brigade, Xiyang county, Shanxi, to live, eat and work with the villagers, investigating the means, measures and material and technical conditions of its self-reliant stable-yield fields. May 25: Liao sends the Central Committee his report on Dazhai: a model of drought- and flood-proof high-yield farmland by self-reliance, a banner on the nation''s agricultural front.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 640 (Apr.–May 1964). Made public: 1997. Check: days. Names: Zhou Enlai, Liao Luyan.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-04-30.china-leadership-4
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives the Speaker of Burundi's National Assembly and the delegation he leads.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 中午). Names: Zhou Enlai. Check: the Speaker''s name, 塔德·西里马尤蒙西 in the book.'
+    src:
+      c: 6c76b123
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 404: all'
+    tags: [polity:burundi, polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-04-30T04:00Z
+      - 1964-04-30T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-30.china-leadership-5
+    when: Apr. 30
+    date: '1964-04-30'
+    time: 1964-04-30T07:30Z
+    thread: china-leadership
+    also: [china, soviet-union, south-asia]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai and Deng Yingchao receive the Albanian women's delegation headed by Vito Kapo, president of the Albanian Women's Union, and the Ceylon Freedom Party's women's delegations.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964; 下午3时30分). Names: Zhou Enlai.'
+    src:
+      c: 6f95452b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 404: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-30.china-leadership-6
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the May Day reception given by the national federation of trade unions and 11 other bodies.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 404 (Apr. 30, 1964). Names: Zhou Enlai.'
+    src:
+      c: 9de638b2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 404: all'
+    tags: [polity:prc, name:zhou-enlai]

@@ -242,8 +242,94 @@ entries:
     date: '1964-10-01'
     thread: china-leadership
     c: 'Zhou, with Mao, Liu, Song, Dong, Zhu and Deng, attends the capital''s rally for the fifteenth anniversary of the People''s Republic and reviews the parade of 700,000; inscribes for it: "Rely on yourselves, work hard for strength."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 671 (Oct. 1, 1964). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 671 (Oct. 1, 1964); [[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 1, 1964; 上午, 天安门城楼). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De, Deng Xiaoping.'
+    src:
+      c: 1a9aa497
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 671: ?'
+        - 'w.zhou-enlai-waijiao-huodong 418: A'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:deng-xiaoping, polity:prc]
+    time_range:
+      - 1964-09-30T22:00Z
+      - 1964-10-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-01.china-leadership-2
+    when: Oct. 1
+    date: '1964-10-01'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai receives and gives a luncheon for the Moroccan delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 1, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: fa3c6146
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1964-10-01T04:00Z
+      - 1964-10-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-01.china-leadership-3
+    when: Oct. 1
+    date: '1964-10-01'
+    time: 1964-10-01T09:30Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, Diaoyutai guesthouse. Zhou Enlai holds the second talks with Sihanouk.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 1, 1964; 下午5时30分). Made public: 1993. See [[cal.1964-09-27.china-leadership-2]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 7f620cab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-01.china-leadership-4
+    when: Oct. 1
+    date: '1964-10-01'
+    time: 1964-10-01T10:00Z
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking, the Jingxi Hotel. Zhou Enlai and Chen Yi meet the Algerian Party and government delegation headed by Ouzegane, member of the National Liberation Front's Central Committee and Minister of State.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 1, 1964; 晚6时). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 6853a6a5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai, name:chen-yi]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-01.china-leadership-5
+    when: Oct. 1
+    date: '1964-10-01'
+    time: 1964-10-01T10:45Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Diaoyutai guesthouse, Building 2. Zhou Enlai meets the Romanian Party and government delegation headed by Maurer.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 1, 1964; 晚6时45分). Made public: 1993. See [[cal.1964-09-29.china-leadership-3]]. Names: Zhou Enlai, Maurer.'
+    src:
+      c: 18dd0fc9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai, name:maurer-ion-gheorghe, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-01.china-leadership-6
+    when: Oct. 1
+    date: '1964-10-01'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai accompanies Mao Zedong in meeting the Algerian delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 1, 1964; 晚上). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: cf57b8b7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai, name:mao-zedong]
+    time_range:
+      - 1964-10-01T11:00Z
+      - 1964-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-02.elections-1964
     when: Oct. 2
     date: '1964-10-02'
@@ -351,25 +437,97 @@ entries:
   - id: cal.1964-10-02.china-leadership
     when: Oct. 2
     date: '1964-10-02'
+    time: 1964-10-02T03:00Z
     thread: china-leadership
     also: [africa, congo]
     c: 'Zhou, in talks with Massamba-Débat: China''s people are friendly to Africa''s, it must help and the Congo may ask, but look far; aid will grow stage by stage with the facts, so the economy grows and the idea of an independent economy takes root; no nation should think of depending on others. At the lunch after: opposes nuclear monopoly, which only raises the danger of nuclear war and lets the nuclear powers threaten others; China favors total prohibition and destruction but until then keeps the right to nuclear arms; if China gets them it is for self-defense and peace, so that total prohibition of tests and destruction becomes more possible.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 671 (Oct. 2, 1964). Made public: 1997. Names: Zhou Enlai, Massamba-Débat.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 671 (Oct. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 上午11时, 钓鱼台宾馆4号楼, 第二次会谈并共进午餐). Made public: 1997. Names: Zhou Enlai, Massamba-Débat.'
+    src:
+      c: 46437a38
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 671: ?'
+        - 'w.zhou-enlai-waijiao-huodong 418: A'
     tags: [name:zhou-enlai, polity:prc, polity:congo-brazzaville, vis:only:prc+congo-brazzaville]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-02.china-leadership-2
     when: Oct. 2
     date: '1964-10-02'
     thread: china-leadership
     c: Zhou, with Liu, Dong Biwu, Zhu De, Deng and others, attends in the Great Hall the first public performance of the music-and-dance epic *The East Is Red* with the foreign guests.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 671 (Oct. 2, 1964). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 671 (Oct. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 晚上, 人民大会堂, 观看音乐舞蹈史诗《东方红》). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping.'
+    src:
+      c: 0fea2c3b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 671: ?'
+        - 'w.zhou-enlai-waijiao-huodong 418: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:deng-xiaoping, polity:prc]
+    time_range:
+      - 1964-10-02T11:00Z
+      - 1964-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-02.china-leadership-3
     when: Oct. 2
     date: '1964-10-02'
+    time: 1964-10-02T15:20Z
     thread: china-leadership
     c: Zhou receives Joseph Needham and Mrs. Needham, president of the Britain–China Friendship Association. After hearing him on *Science and Civilisation in China* decides to have it translated into Chinese; assigns a person and the Academy of Sciences' institute for the history of natural science to do it.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 672 (Oct. 2, 1964). Names: Zhou Enlai, Needham.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 672 (Oct. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 晚11时20分, 人民大会堂安徽厅). Names: Zhou Enlai, Needham.'
+    src:
+      c: 551a520a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 672: ?'
+        - 'w.zhou-enlai-waijiao-huodong 418: A'
     tags: [name:zhou-enlai, polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1964-10-02'
+    time: 1964-10-02T06:35Z
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking, the Jingxi Hotel. Zhou Enlai receives the Indonesian Minister and presidential military adviser, Air Marshal Suryadarma, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 下午2时35分). Names: Zhou Enlai. Check: the name, 苏里亚达马 in the book.'
+    src:
+      c: bd8ed7b4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-02.china-leadership-5
+    when: Oct. 2
+    date: '1964-10-02'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai and Liu Shaoqi continue the talks with President Keita.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 下午). Made public: 1993. See [[cal.1964-10-03.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi, Keita.'
+    src:
+      c: 101e1814
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:mali, name:zhou-enlai, name:liu-shaoqi, name:keita-modibo, vis:only:prc+mali]
+    time_range:
+      - 1964-10-02T04:00Z
+      - 1964-10-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-02.china-leadership-6
+    when: Oct. 2
+    date: '1964-10-02'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai attends the national day reception given by the Guinean Ambassador, Camara Mamadi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 2, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: 7e4806da
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    time_range:
+      - 1964-10-02T04:00Z
+      - 1964-10-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-03.congress
     when: Oct. 3
     date: '1964-10-03'
@@ -496,11 +654,94 @@ entries:
   - id: cal.1964-10-03.china-leadership
     when: Oct. 3
     date: '1964-10-03'
+    time: 1964-10-03T02:00Z
     thread: china-leadership
     also: [africa]
     c: 'Zhou, in talks with Keita: knowledge comes from working people; all knowledge passes through the hands into the mind, coarse, partial and unsystematic at first, which intellectuals gather, systematize and raise to theory, but it must go back to labor, practice and the masses to be proved. Every nation has things common and different; principles settle the common, the particular needs each country''s own conditions.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 672 (Oct. 3, 1964). Made public: 1997. Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 672 (Oct. 3, 1964); [[w.zhou-enlai-waijiao-huodong]], 418–19 (Oct. 3, 1964; 上午10时, 钓鱼台宾馆6号楼, 继续会谈). Made public: 1997. Names: Zhou Enlai, Keita.'
+    src:
+      c: d158d144
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 672: ?'
+        - 'w.zhou-enlai-waijiao-huodong 418–19: A'
     tags: [name:zhou-enlai, name:keita-modibo, polity:prc, polity:mali, vis:only:prc+mali]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-03.china-leadership-2
+    when: Oct. 3
+    date: '1964-10-03'
+    thread: china-leadership
+    also: [china, africa, congo]
+    c: Peking. Zhou Enlai goes to the airport to see off Massamba-Débat.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 418 (Oct. 3, 1964; 上午). See [[cal.1964-09-28.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 4d246965
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 418: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai]
+    time_range:
+      - 1964-10-02T22:00Z
+      - 1964-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-03.china-leadership-3
+    when: Oct. 3
+    date: '1964-10-03'
+    time: 1964-10-03T06:00Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Diaoyutai guesthouse, Building 3. Zhou Enlai receives Lubsan, First Vice Chairman of the Mongolian Council of Ministers, and lunches with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 3, 1964; 下午2时). Names: Zhou Enlai. Check: the name, 鲁布又 in the book.'
+    src:
+      c: 2f61371e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:mongolia, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-03.china-leadership-4
+    when: Oct. 3
+    date: '1964-10-03'
+    time: 1964-10-03T08:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, Diaoyutai guesthouse, Building 8. Zhou Enlai talks with Phạm Văn Đồng.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 3, 1964; 下午4时30分). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: d71306b5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-03.china-leadership-5
+    when: Oct. 3
+    date: '1964-10-03'
+    time: 1964-10-03T09:00Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Diaoyutai guesthouse, Building 2. Zhou Enlai meets the Romanian Party and government delegation headed by Maurer, and dines with it.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 3, 1964; 下午5时). Made public: 1993. Names: Zhou Enlai, Maurer.'
+    src:
+      c: edbc3622
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai, name:maurer-ion-gheorghe, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-03.china-leadership-6
+    when: Oct. 3
+    date: '1964-10-03'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai attends the reception given by Prince Abdallah, representing King Hassan II of Morocco.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 3, 1964; 晚上). Names: Zhou Enlai, Hassan II.'
+    src:
+      c: 75a20f2b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [name:hassan-ii, polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1964-10-03T11:00Z
+      - 1964-10-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-04.alabama-selma
     when: Oct. 4
     date: '1964-10-04'
@@ -613,8 +854,162 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou receives the East German government delegation under Deputy Chairman of the Council of Ministers Bolz. U.S. nuclear blackmail still threatens many states; only total prohibition and destruction work, otherwise hands are tied and imperialism freely enlarges its nuclear arms. The imperialists dislike us: the U.S. never said a good word of Mao or of him.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 672 (Oct. 4, 1964). Names: Zhou Enlai, Bolz.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 672 (Oct. 4, 1964); [[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 下午, 钓鱼台宾馆7号楼, 会见德意志民主共和国政府代表团). Names: Zhou Enlai, Bolz.'
+    src:
+      c: 3b26e195
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 672: ?'
+        - 'w.zhou-enlai-waijiao-huodong 419: A'
     tags: [name:zhou-enlai, polity:prc, polity:gdr]
+    time_range:
+      - 1964-10-04T04:00Z
+      - 1964-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai goes to the airport to see off President Keita and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 清晨). Names: Zhou Enlai, Keita.'
+    src:
+      c: 713359f2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:mali, name:zhou-enlai, name:keita-modibo]
+    time_range:
+      - 1964-10-03T21:00Z
+      - 1964-10-04T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-3
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai goes to the airport to see off Prince Abdallah, representing King Hassan II.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 上午). Names: Zhou Enlai, Hassan II.'
+    src:
+      c: 77a8a19f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [name:hassan-ii, polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1964-10-03T22:00Z
+      - 1964-10-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-4
+    when: Oct. 4
+    date: '1964-10-04'
+    time: 1964-10-04T01:00Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, Diaoyutai guesthouse, Building 8. Zhou Enlai meets Phạm Văn Đồng and the DRV Party and government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 上午9时). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 924867b7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-5
+    when: Oct. 4
+    date: '1964-10-04'
+    time: 1964-10-04T03:40Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, the Great Hall of the People. Zhou Enlai receives and gives a luncheon for Thapa, Vice Chairman of Nepal's Council of Ministers and Minister of Finance, Economic Planning, Justice and Administration, and his delegation, and attends the signing of the protocol on the China–Nepal water project.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 上午11时40分). Names: Zhou Enlai.'
+    src:
+      c: 33dc413a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-6
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai and Deng Yingchao receive the widow of the late Indonesian First Minister Djuanda, the wife of Third Deputy Prime Minister Chaerul Saleh, and Mrs. Sukarhar, one of the presidents of the Indonesian Women's Congress and first vice president of the police wives' association.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 下午). Names: Zhou Enlai. Check: the names, 朱安达''s widow and 苏卡哈尔 (OCR) in the book.'
+    src:
+      c: 8693a966
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_range:
+      - 1964-10-04T04:00Z
+      - 1964-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-7
+    when: Oct. 4
+    date: '1964-10-04'
+    time: 1964-10-04T07:00Z
+    thread: china-leadership
+    also: [china, laos, vietnam-hanoi]
+    c: Peking, Diaoyutai guesthouse. Zhou Enlai holds the third talks with Sihanouk and says that the three Indochinese sides have all been in touch with the Prince; though no document was drawn up their views are close and they are willing to prepare a document, put off only over its form. He proposes a cocktail party to bring the sides together again, internal and unpublished, so that it is free of speculation and of any form.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 下午3时). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: a9235789
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-8
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai, with Soong Ching Ling, receives the women guests attending China's National Day.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419 (Oct. 4, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: ef3140ba
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-10-04T04:00Z
+      - 1964-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-9
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the cocktail party given by the journalists' association and three other bodies for the journalists visiting China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 419–20 (Oct. 4, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: aebdda9b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 419–20: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-10-04T04:00Z
+      - 1964-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-04.china-leadership-10
+    when: Oct. 4
+    date: '1964-10-04'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai meets and gives a banquet for Ouzegane, member of the National Liberation Front's Central Committee and Minister of State, and his delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 4, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 5561604b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 420: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai]
+    time_range:
+      - 1964-10-04T11:00Z
+      - 1964-10-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-05.republican-party
     when: Oct. 5
     date: '1964-10-05'
@@ -705,31 +1100,109 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Mao, Hall of the People, evening: receives Phạm Văn Đồng, premier, leading a Party and government delegation; Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun present. Mao: the U.S. may fight as long as it likes, Vietnam will fight as long; Korea showed that it can be fought. Not the time to send Chinese troops to the South; when depends. Whether to hit the North is not decided. Phạm Văn Đồng: Vietnam will keep the war in the South to "special war" and not let it spread north. Mao: good; prepare, but be careful, no haste. A talk with the U.S. may be of use. China is ready for an American landing, which will need Chiang and South Korea; if it comes, let it go where it likes, and fight guerrilla as with the Japanese.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1964. Made public: 2013. Names: Mao Zedong, Phạm Văn Đồng, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Chiang Kai-shek.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1964. [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 晚7时; Zhou with Mao). Made public: 2013. Names: Mao Zedong, Phạm Văn Đồng, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Chiang Kai-shek.'
+    src:
+      c: 1a173c01
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 5, 1964: all'
+        - 'w.zhou-enlai-waijiao-huodong 420: A-B'
     tags: [name:mao-zedong, name:pham-van-dong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:li-fuchun, name:chiang-kai-shek, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1964-10-05.china-leadership-2
     when: Oct. 5
     date: '1964-10-05'
     thread: china-leadership
     c: 'Zhou receives the Burmese government delegation. Tells the history of China''s revolution: from the masses to the masses, practice to theory; Marxism-Leninism joined to Chinese practice is Mao Zedong Thought; lessons from right and "left" deviations in the Party, work and war; the same holds for socialist construction now, experience still being summed up, not enough.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 672–73 (Oct. 5, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 672–73 (Oct. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 中午, 人民大会堂, 会见并宴请缅甸联邦革命委员会委员丁吴上校和他率领的代表团). Names: Zhou Enlai.'
+    src:
+      c: 6f82ab21
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 672–73: ?'
+        - 'w.zhou-enlai-waijiao-huodong 420: A'
     tags: [name:zhou-enlai, polity:prc, polity:burma]
+    time_range:
+      - 1964-10-05T04:00Z
+      - 1964-10-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-05.china-leadership-3
     when: Oct. 5
     date: '1964-10-05'
+    time: 1964-10-05T09:00Z
     thread: china-leadership
     also: [vietnam-hanoi, laos]
     c: 'Zhou, at a cocktail reception for the Cambodian (Sihanouk, Penn Nouth), Vietnamese (Phạm Văn Đồng, Hoàng Văn Hoan, Nguyễn Cơ Thạch), Lao (Souphanouvong, Phoumi Vongvichit) and National Liberation Front (Trần Văn Thanh, Nguyễn Minh Phương) delegations: more than a reception, a gathering of historic meaning; the contact of several states'' leaders shows Indochina has a bright future; hopes for mutual support in later meetings.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 673 (Oct. 5, 1964). Check: the forms of the Liberation Front names, given in Chinese by the chronology. Names: Zhou Enlai, Sihanouk, Penn Nouth, Phạm Văn Đồng, Hoàng Văn Hoan, Nguyễn Cơ Thạch, Souphanouvong, Phoumi Vongvichit, Trần Văn Thanh, Nguyễn Minh Phương.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 673 (Oct. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 下午5时, 钓鱼台宾馆17号楼, 酒会). Check: the forms of the Liberation Front names, given in Chinese by the chronology. Names: Zhou Enlai, Sihanouk, Penn Nouth, Phạm Văn Đồng, Hoàng Văn Hoan, Nguyễn Cơ Thạch, Souphanouvong, Phoumi Vongvichit, Trần Văn Thanh, Nguyễn Minh Phương.'
+    src:
+      c: 0dae0995
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 673: ?'
+        - 'w.zhou-enlai-waijiao-huodong 420: A'
     tags: [name:zhou-enlai, name:norodom-sihanouk, name:pham-van-dong, name:souphanouvong, polity:prc, polity:cambodia, polity:drv, polity:laos]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-05.china-leadership-4
     when: Oct. 5
     date: '1964-10-05'
     thread: china-leadership
     also: [laos, vietnam-hanoi]
     c: Zhou, after going with Sihanouk to the Central Conservatory of Music, attends the signing of the Sino-Cambodian joint communiqué; receives from Sihanouk Cambodia's highest order, the Order of Independence.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 670 (Oct. 5, 1964). Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 670 (Oct. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 上午, 陪同西哈努克亲王和夫人参观中央音乐学院); [[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 下午, 中柬两国联合公报签字仪式; 接受西哈努克亲王赠送的柬埔寨最高勋章“独立勋章”). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: '90809672'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 670: ?'
+        - 'w.zhou-enlai-waijiao-huodong 420: B'
     tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia]
+    time_range:
+      - 1964-10-04T22:00Z
+      - 1964-10-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-05.china-leadership-5
+    when: Oct. 5
+    date: '1964-10-05'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai goes to the airport to see off Ouzegane.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 清晨). Names: Zhou Enlai.'
+    src:
+      c: c57febf0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 420: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai]
+    time_range:
+      - 1964-10-04T21:00Z
+      - 1964-10-05T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-05.china-leadership-6
+    when: Oct. 5
+    date: '1964-10-05'
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: Peking. Zhou Enlai receives the first secretary and the secretary general for foreign relations of the National Liberation Committee of the Congo (Léopoldville).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964). Names: Zhou Enlai.'
+    src:
+      c: 4c65a4de
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 420: all'
+    tags: [polity:prc, polity:congo, name:zhou-enlai]
+  - id: cal.1964-10-05.china-leadership-8
+    when: Oct. 5
+    date: '1964-10-05'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai and Deng Yingchao give a family dinner for Sihanouk and his wife and other Cambodian guests.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 5, 1964; 晚上). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 275a2acb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 420: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1964-10-05T11:00Z
+      - 1964-10-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-06.elections-1964
     when: Oct. 6–9
     date: '1964-10-06'
@@ -817,7 +1290,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou tells Maurer of the Sino-Soviet border talks, half a year old. China put three principles: the Nerchinsk treaty, before the nineteenth century, was not unequal; the treaties after the mid-century imposed by the tsar were, but China does not ask to change the lines they set or claim territory; the old treaties are the basis, to see where Russia took more than they allow and must give back, with some trade and adjustment; after surveying the whole line a new treaty replaces the old. The Soviet side rejects the principles, rejects an interim agreement keeping the status quo, and rejects going over the line section by section in a working group.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 673 (Oct. 6, 1964). Made public: 1997. Names: Zhou Enlai, Maurer.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 673 (Oct. 6, 1964); [[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 6, 1964; 钓鱼台宾馆2号楼, 会见毛雷尔主席为首的罗马尼亚党政代表团). Made public: 1997. Names: Zhou Enlai, Maurer.'
+    src:
+      c: 10a7de15
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 673: ?'
+        - 'w.zhou-enlai-waijiao-huodong 421: A'
     tags: [name:zhou-enlai, name:maurer-ion-gheorghe, polity:prc, polity:romania, vis:only:prc+romania]
   - id: cal.1964-10-06.china-leadership-3
     when: Oct. 6
@@ -827,6 +1305,37 @@ entries:
     c: 'Zhou, on the road with Phạm Văn Đồng to the airport, on war readiness: general mobilization and city evacuation are to be done; China mobilized fully against Chiang''s coastal landing last year and in the recent Gulf of Tonkin affair; after tension for a time, relax a little.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 673–74 (Oct. 6, 1964). Made public: 1997. Names: Zhou Enlai, Phạm Văn Đồng.'
     tags: [name:zhou-enlai, name:pham-van-dong, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1964-10-06.china-leadership-4
+    when: Oct. 6
+    date: '1964-10-06'
+    time: 1964-10-05T23:40Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi, south-asia]
+    c: Peking. Zhou Enlai goes to the airport to see off the DRV Party and government delegation headed by Phạm Văn Đồng and the Pakistani friendly delegation headed by Sabur Khan, Minister of Communications.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 420 (Oct. 6, 1964; 上午7时40分). Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: f64abde9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 420: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-06.china-leadership-5
+    when: Oct. 6
+    date: '1964-10-06'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to see off Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 6, 1964; 上午). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 50765bf0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 421: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1964-10-05T22:00Z
+      - 1964-10-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-07.foreign-aid
     when: Oct. 7
     date: '1964-10-07'
@@ -918,12 +1427,13 @@ entries:
     thread: china-leadership
     also: [korea-leadership]
     c: 'Mao, Yinian Tang, afternoon: receives a Korean Party and government delegation under Choe Yong-gon; Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng present. Mao: the two parties to cooperate as one; if the U.S. attacks China it needs Japan, South Korea and Chiang, not Europe; Japan fought China fourteen years. China''s method: go where you like, I go where I like; the Korean-style works, a first line, a second, tunnels, China will build too.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 7, 1964. [[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 7, 1964: Zhou, with Mao, Liu Shaoqi, Dong Biwu, Zhu De and Deng Xiaoping, meets the Korean party and government delegation under Choe Yong-gon). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Choe Yong-gon.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 7, 1964. [[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 7, 1964: Zhou, with Mao, Liu Shaoqi, Dong Biwu, Zhu De and Deng Xiaoping, meets the Korean party and government delegation under Choe Yong-gon); [[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 7, 1964; 下午3时30分; Zhou with Mao). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Choe Yong-gon.'
     src:
       c: '67155908'
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 7, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 674: A, B'
+        - 'w.zhou-enlai-waijiao-huodong 421: A-B'
     tags: [name:mao-zedong, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, polity:prc, polity:dprk, vis:only:prc+dprk]
   - id: cal.1964-10-07.china-leadership-2
     when: Oct. 7
@@ -933,6 +1443,37 @@ entries:
     c: Zhou calls Liu Jie and Liu Bailuo, deputy secretary-general of the Special Commission's office, to talk.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 7, 1964). Made public: 1997. Names: Zhou Enlai, Liu Jie, Liu Bailuo.'
     tags: [name:zhou-enlai, name:liu-jie, polity:prc, vis:only:prc]
+  - id: cal.1964-10-07.china-leadership-4
+    when: Oct. 7
+    date: '1964-10-07'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai takes part in the talks between the Chinese Party delegation, led by Liu Shaoqi and Deng Xiaoping, and the Romanian Workers' Party delegation, led by the Politburo member Maurer, on matters of common concern to the two parties.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 7, 1964; 下午). Made public: 1993. See [[cal.1964-10-06.china-leadership-2]]. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Maurer.'
+    src:
+      c: b2b2b337
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 421: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:maurer-ion-gheorghe, vis:only:prc+romania]
+    time_range:
+      - 1964-10-07T04:00Z
+      - 1964-10-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-07.china-leadership-5
+    when: Oct. 7
+    date: '1964-10-07'
+    time: 1964-10-07T03:25Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Diaoyutai guesthouse, Building 2. Zhou Enlai meets the Romanian Party and government delegation headed by Maurer.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 7, 1964; 上午11时25分). Made public: 1993. See [[cal.1964-10-06.china-leadership-2]]. Names: Zhou Enlai, Maurer.'
+    src:
+      c: 18dd0fc9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 421: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai, name:maurer-ion-gheorghe, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-08.foreign-aid
     when: Oct. 8
     date: '1964-10-08'
@@ -1050,11 +1591,83 @@ entries:
   - id: cal.1964-10-08.china-leadership-2
     when: Oct. 8
     date: '1964-10-08'
+    time: 1964-10-08T07:00Z
     thread: china-leadership
     also: [middle-east, africa]
     c: 'Zhou receives Mashnouk, owner and editor-in-chief of Beirut''s *Evening News*. On how the five principles for relations with Arab states and the eight principles of economic cooperation with Africa came: some match the five of peaceful coexistence; two learned in Africa: respect for Arab and African states settling disputes by peaceful talks, not force; and support for Arab peoples in realizing Arab unity in the way they choose, as for Africa.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 8, 1964). Names: Zhou Enlai, Mashnouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 674 (Oct. 8, 1964); [[w.zhou-enlai-waijiao-huodong]], 421–22 (Oct. 8, 1964; 下午3时, 人民大会堂福建厅, 接见黎巴嫩《贝鲁特晚报》社长兼总编辑马什努克). Names: Zhou Enlai, Mashnouk.'
+    src:
+      c: 77e47be9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 674: ?'
+        - 'w.zhou-enlai-waijiao-huodong 421–22: A'
     tags: [name:zhou-enlai, polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-08.china-leadership-3
+    when: Oct. 8
+    date: '1964-10-08'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai attends the farewell banquet given by Maurer, member of the Politburo of the Romanian Workers' Party and Chairman of the Council of Ministers.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 8, 1964; 中午). Names: Zhou Enlai, Maurer.'
+    src:
+      c: a7a9440b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 421: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai, name:maurer-ion-gheorghe]
+    time_range:
+      - 1964-10-08T04:00Z
+      - 1964-10-08T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-08.china-leadership-4
+    when: Oct. 8
+    date: '1964-10-08'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives Matsumoto Jiichirō, chairman of the Japan–China Friendship Association.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 8, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 6464de07
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1964-10-08T11:00Z
+      - 1964-10-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-08.china-leadership-5
+    when: Oct. 8
+    date: '1964-10-08'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives Nakajima Kenzō and his wife and a group of other Japanese guests.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 8, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: f91302de
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1964-10-08T11:00Z
+      - 1964-10-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-08.china-leadership-6
+    when: Oct. 8
+    date: '1964-10-08'
+    time: 1964-10-08T12:30Z
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives a delegate of the UAR–China Friendship Association, General Hamid, member of the UAR National Assembly.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 8, 1964; 晚8时30分). Names: Zhou Enlai.'
+    src:
+      c: dac3f6e8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-09.elections-1964
     when: Oct. 9
     date: '1964-10-09'
@@ -1107,8 +1720,70 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Diaoyutai guesthouse, afternoon: receives an Albanian Party and government delegation under Balluku; Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing present. Revisionists and imperialists both split, a revolutionary situation favorable to China; Europe to be drawn against the U.S., Japan too. Khrushchev bullies the weak and fears the strong. For Sino-Soviet border talks, China wants a reasonable frontier and a treaty.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 9, 1964. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Khrushchev, Balluku.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 9, 1964. [[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964; 晚6时; Zhou with Mao and Liu Shaoqi, Diaoyutai Building 12). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Khrushchev, Balluku.'
+    src:
+      c: 2ef5bd33
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 9, 1964: all'
+        - 'w.zhou-enlai-waijiao-huodong 422: A-B'
     tags: [name:mao-zedong, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:he-long, name:luo-ruiqing, name:khrushchev-nikita-s, polity:albania, polity:prc, vis:only:prc+albania]
+  - id: cal.1964-10-09.china-leadership-2
+    when: Oct. 9
+    date: '1964-10-09'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai goes to the airport to see off the Romanian Party and government delegation headed by Maurer.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964; 上午). Names: Zhou Enlai, Maurer.'
+    src:
+      c: ce18dc96
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:romania, name:zhou-enlai, name:maurer-ion-gheorghe]
+    time_range:
+      - 1964-10-08T22:00Z
+      - 1964-10-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-09.china-leadership-3
+    when: Oct. 9
+    date: '1964-10-09'
+    time: 1964-10-09T01:30Z
+    thread: china-leadership
+    also: [china, congo, africa]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives the first secretary of the National Liberation Committee of the Congo (Léopoldville) and its secretary general for foreign relations.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964; 上午9时30分). Names: Zhou Enlai.'
+    src:
+      c: d58c43d6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:congo, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-09.china-leadership-4
+    when: Oct. 9
+    date: '1964-10-09'
+    time: 1964-10-09T04:30Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, Diaoyutai guesthouse, Building 14. Zhou Enlai meets the Albanian Party and government delegation headed by Admiral Balluku, member of the Politburo, First Vice Chairman of the Council of Ministers and Minister of Defense, and lunches with it.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964; 中午12时30分). Names: Zhou Enlai.'
+    src:
+      c: '90253048'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-09.china-leadership-5
+    when: Oct. 9
+    date: '1964-10-09'
+    thread: china-leadership
+    also: [china, soviet-union, trade]
+    c: Peking. Zhou Enlai attends the signing of the China–Albania protocol on the 1965 exchange of goods and payments.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 9, 1964). Names: Zhou Enlai.'
+    src:
+      c: 12d7242d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
   - id: cal.1964-10-10.vietnam-force-levels
     when: Oct. 10
     date: '1964-10-10'
@@ -1184,8 +1859,19 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Zhou, talking with Souphanouvong and Phoumi Vongvichit: imperialism and modern revisionism both bully the weak and fear the hard; hold firm, even to a break, and they weaken. Favors an early fourteen-nation Geneva conference on Laos.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 674–75 (Oct. 10, 1964). Made public: 1997. Names: Zhou Enlai, Souphanouvong, Phoumi Vongvichit.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 674–75 (Oct. 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 421 (Oct. 6, 1964; 上午10时30分, 钓鱼台宾馆9号楼, 会见并宴请苏发努冯亲王和富米·冯维希); [[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 11, 1964; 下午3时30分, 钓鱼台宾馆9号楼, 再次会见). Made public: 1997. Names: Zhou Enlai, Souphanouvong, Phoumi Vongvichit.'
+    src:
+      c: d8b1b2e2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 674–75: ?'
+        - 'w.zhou-enlai-waijiao-huodong 421: A'
+        - 'w.zhou-enlai-waijiao-huodong 422: A'
     tags: [name:zhou-enlai, name:souphanouvong, polity:prc, polity:laos, vis:only:prc+laos]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Oct. 6, 10:30 a.m., Diaoyutai Building 9, and again Oct. 11, 3:30 p.m.; the entry has Oct. 10
+        at: '422'
   - id: cal.1964-10-11.opinion
     when: Oct. 11
     date: '1964-10-11'
@@ -1284,8 +1970,49 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou sees the Matsuyama Ballet of Japan, Oct. 11 and 17, and receives its head Shimizu Masao and deputy head and dancer Matsuyama Mikiko.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 675 (Oct. 11, 1964). Names: Zhou Enlai, Shimizu Masao, Matsuyama Mikiko.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 675 (Oct. 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 11, 1964; 晚上, 观看日本松山芭蕾舞团演出, 并接见正、副团长和主要演员); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 17, 1964; 晚上, 接见松山芭蕾舞团并观看了日本舞蹈家在京的最后一场演出). Names: Zhou Enlai, Shimizu Masao, Matsuyama Mikiko.'
+    src:
+      c: a48dd9e4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 675: ?'
+        - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
+    time_range:
+      - 1964-10-11T11:00Z
+      - 1964-10-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-11.china-leadership-3
+    when: Oct. 11
+    date: '1964-10-11'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai and Deng Yingchao give a luncheon for the wife of Asanuma Inejirō, former chairman of the Japan Socialist Party.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422 (Oct. 11, 1964; 中午). Names: Zhou Enlai.'
+    src:
+      c: dac5be44
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1964-10-11T04:00Z
+      - 1964-10-11T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-11.china-leadership-4
+    when: Oct. 11
+    date: '1964-10-11'
+    time: 1964-10-11T09:00Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives the delegation of the African Party for the Independence of Portuguese Guinea and Cape Verde, headed by Pereira, Politburo member and deputy secretary general.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 422–23 (Oct. 11, 1964; 下午5时). Names: Zhou Enlai.'
+    src:
+      c: f4aa1e91
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 422–23: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-12.vietnam
     when: Oct. 12
     date: '1964-10-12'
@@ -1405,6 +2132,40 @@ entries:
     c: Zhou receives Pakistani ambassador Raza. China will propose to the second Asian-African conference that members first do economic cooperation on equality and mutual help, end imperialist privilege, and steady raw-material export prices; whether to have a joint bank the conference will study, China preparing a plan to talk over first with Pakistan, Indonesia, Cambodia and other friends.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 675 (Oct. 12, 1964). Made public: 1997. Names: Zhou Enlai, Raza.'
     tags: [name:zhou-enlai, polity:prc, polity:pakistan, vis:only:prc+pakistan]
+  - id: cal.1964-10-12.china-leadership-2
+    when: Oct. 12
+    date: '1964-10-12'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai goes to the airport to see off Souphanouvong and Phoumi Vongvichit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 12, 1964; 上午). Names: Zhou Enlai.'
+    src:
+      c: f7b78021
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 423: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-10-11T22:00Z
+      - 1964-10-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-12.china-leadership-3
+    when: Oct. 12
+    date: '1964-10-12'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai receives Sabur Khan, Pakistan's Minister of Communications.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 12, 1964; 上午). Names: Zhou Enlai.'
+    src:
+      c: 8f43af69
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 423: all'
+    tags: [polity:prc, polity:pakistan, name:zhou-enlai]
+    time_range:
+      - 1964-10-11T22:00Z
+      - 1964-10-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-13.states-and-cities-ma
     when: Oct. 13
     date: '1964-10-13'
@@ -1518,6 +2279,23 @@ entries:
     c: Zhou reports to the Secretariat, then to Mao, on propaganda and political struggle after the explosion; approved.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 675–76 (Oct. 13, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1964-10-13.china-leadership-2
+    when: Oct. 13
+    date: '1964-10-13'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai receives Sithon Kommadam, vice chairman of the Neo Lao Hak Xat, and General Boun Si Basak, a member of its Central Committee.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 13, 1964; 中午). Made public: 1993. Names: Zhou Enlai. Check: the second name, 奔·西巴色 in the book.'
+    src:
+      c: da702bc3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 423: all'
+    tags: [polity:prc, polity:pathet-lao, name:zhou-enlai, vis:only:prc+pathet-lao]
+    time_range:
+      - 1964-10-13T04:00Z
+      - 1964-10-13T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-14.elections-1964
     when: Oct. 14
     date: '1964-10-14'
@@ -2083,7 +2861,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, cuba]
     c: 'Mao, Hall of the People, Shanghai Room, 6 p.m.: receives a Cuban Party and government delegation; Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi present. The quarrel with the Soviet leaders temporary; the two countries will not split; the Chinese telegrams to Kosygin and Brezhnev go that day, an exception to the rule of no congratulations between parties. Khrushchev was a figure; his portraits down in Moscow on the 14th; he handled Stalin too hard. China is carrying on a longer, deeper revolution, the socialist education movement, perhaps ten years.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 16, 1964. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Khrushchev, Kosygin, Brezhnev, Stalin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 16, 1964. [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 16, 1964; 下午5时30分; Zhou with Mao). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Khrushchev, Kosygin, Brezhnev, Stalin.'
+    src:
+      c: 32c6103a
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 16, 1964: all'
+        - 'w.zhou-enlai-waijiao-huodong 423: A-B'
     tags: [name:mao-zedong, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:khrushchev-nikita-s, name:kosygin-aleksei, name:brezhnev-leonid, name:stalin-joseph, polity:cuba, polity:prc, vis:only:prc+cuba]
   - id: cal.1964-10-16.china-leadership-3
     when: Oct. 16
@@ -2206,7 +2989,12 @@ entries:
     thread: china-leadership
     also: [testing]
     c: Zhou wires the heads of government of all countries with the proposals of the Oct. 16 statement, a world summit on the complete prohibition and thorough destruction of nuclear weapons first among them, and asks their consideration and positive response.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 676 (Oct. 17, 1964). See [[cal.1964-10-16.china-leadership-3]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 676 (Oct. 17, 1964); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 17, 1964; 致电世界各国政府首脑). See [[cal.1964-10-16.china-leadership-3]]. Names: Zhou Enlai.'
+    src:
+      c: 2459588c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 676: ?'
+        - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1964-10-18.soviet-union
     when: Oct. 18
@@ -2250,16 +3038,67 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou attends the opening of the Beijing international table tennis invitational and watches. To the head of the Japanese team, Hasegawa Kitarō: the International Olympic Committee should accept table tennis and badminton, popular sports, as events.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 677 (Oct. 18, 1964). Names: Zhou Enlai, Hasegawa Kitarō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 677 (Oct. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 18, 1964; 下午, 北京工人体育馆, 北京国际乒乓球邀请赛开幕式; 同长谷川交谈). Names: Zhou Enlai, Hasegawa Kitarō.'
+    src:
+      c: '61753792'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 677: ?'
+        - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
+    time_range:
+      - 1964-10-18T04:00Z
+      - 1964-10-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-18.china-leadership-2
     when: Oct. 18
     date: '1964-10-18'
+    time: 1964-10-18T10:30Z
     thread: china-leadership
     also: [testing]
     c: Zhou receives Burma's departing ambassador Kyaw Win. Direct contacts should grow to advance friendship and exchange in economy, culture and science; differing positions need not agree at once, but talking brings understanding. The explosion was confined to a very small area; China can fully assure that it endangers no neighbor.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 677–78 (Oct. 18, 1964). Names: Zhou Enlai, Kyaw Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 677–78 (Oct. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 18, 1964; 晚6时30分, 中南海西花厅, 和邓颖超接见并宴请即将离任的缅甸驻华大使叫温). Names: Zhou Enlai, Kyaw Win.'
+    src:
+      c: 51145c54
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 677–78: ?'
+        - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc, polity:burma]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-18.china-leadership-3
+    when: Oct. 18
+    date: '1964-10-18'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives the team leaders of the countries at the Peking international table tennis invitational.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 18, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: f1b70d1e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 423: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-10-18T04:00Z
+      - 1964-10-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-18.china-leadership-4
+    when: Oct. 18
+    date: '1964-10-18'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives the Mexican sports delegation headed by Clark, president of the sports federation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 18, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: 4d8cdc95
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 423: all'
+    tags: [polity:prc, polity:mexico, name:zhou-enlai]
+    time_range:
+      - 1964-10-18T04:00Z
+      - 1964-10-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-19.goldwater
     when: Oct. 19
     date: '1964-10-19'
@@ -2355,6 +3194,23 @@ entries:
     c: 'Zhou, at the national planning conference: to read world politics, learn to spot and keep to the wind, watch the turns in key events, learn Mao''s scientific foresight, take big matters early. Planners be modest. Two revolutions on the economic front: industrial, in productive forces, and planning, in the superstructure. Production relations still have problems; the atomic bomb will spur thinking and productive forces; catch up with new technique, not the old road.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 678 (Oct. 19, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-10-19.china-leadership-3
+    when: Oct. 19
+    date: '1964-10-19'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai receives the Vietnamese cultural delegation headed by the vice minister of culture.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 19, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: ad9fb155
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 423: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai]
+    time_range:
+      - 1964-10-19T11:00Z
+      - 1964-10-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-20.goldwater
     when: Oct. 20–22
     date: '1964-10-20'
@@ -2576,8 +3432,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou again watches the table tennis and talks with Hasegawa: if the Japanese team has trouble training, student players could come to China in summer; China would give the facilities and nourishment, for common improvement. That evening receives the players, team heads and coaches.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 678 (Oct. 21, 1964). Names: Zhou Enlai, Hasegawa Kitarō.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 678 (Oct. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 21, 1964; 晚上, 在北京工人体育馆观看北京国际乒乓球邀请赛, 并同长谷川交谈). Names: Zhou Enlai, Hasegawa Kitarō.'
+    src:
+      c: a03888c9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 678: ?'
+        - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc, polity:japan]
+    time_range:
+      - 1964-10-21T11:00Z
+      - 1964-10-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-22.testing
     when: Oct. 22
     date: '1964-10-22'
@@ -2874,10 +3740,17 @@ entries:
   - id: cal.1964-10-24.china-leadership-2
     when: Oct. 24
     date: '1964-10-24'
+    time: 1964-10-24T02:30Z
     thread: china-leadership
     c: Zhou receives a Philippine journalists' delegation. Both are in alliances, China with the Soviet Union, the Philippines in SEATO, once hostile and unfriendly; relations can and should improve, no basic conflict of interest; since Bandung China has looked to growth of exchanges between peoples. "Revolution cannot be exported"; what system a people chooses is not for another's will; each people walks its own road.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 680 (Oct. 24, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 680 (Oct. 24, 1964); [[w.zhou-enlai-waijiao-huodong]], 423 (Oct. 24, 1964; 上午10时30分, 人民大会堂福建厅, 菲律宾新闻工作者代表团). Names: Zhou Enlai.'
+    src:
+      c: 44c1d2f5
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 680: ?'
+        - 'w.zhou-enlai-waijiao-huodong 423: A'
     tags: [name:zhou-enlai, polity:prc, polity:philippines]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-25.goldwater
     when: Oct. 25
     date: '1964-10-25'
@@ -3015,6 +3888,74 @@ entries:
     c: Brezhnev, Podgorny, Suslov and Ponomarev talk with a French Communist delegation, Marchais, Leroy and Chambaz, in the Central Committee; the unity of the movement and the new international meeting.
     n: '[[w.khrushchev-1964-stenogrammy]], 323–24 (doc. 23, the communiqué of the talks of Oct. 26–27). Made public: 2007; the communiqué, 1964. Names: Brezhnev, Podgorny, Suslov, Ponomarev, Marchais.'
     tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:suslov-mikhail-a, name:ponomarev-boris-n, name:marchais-georges, polity:ussr, vis:only:ussr]
+  - id: cal.1964-10-26.china-leadership
+    when: Oct. 26
+    date: '1964-10-26'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives the fourth Japan Socialist Party delegation to China, headed by Narita Tomomi, with Katsumata Seiichi deputy head, and its members.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 26, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: 582a0443
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1964-10-26T04:00Z
+      - 1964-10-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-26.china-leadership-2
+    when: Oct. 26
+    date: '1964-10-26'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives all the members of the liaison committee of the Asian-area Peking international table tennis invitational.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 26, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: 7ed5caf0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-10-26T04:00Z
+      - 1964-10-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-26.china-leadership-3
+    when: Oct. 26
+    date: '1964-10-26'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai attends the cocktail party given by the Chinese Table Tennis Association to celebrate the founding of the liaison committee and the success of the Peking invitational.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 26, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 62c5a0c2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1964-10-26T11:00Z
+      - 1964-10-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-26.china-leadership-4
+    when: Oct. 26
+    date: '1964-10-26'
+    thread: china-leadership
+    also: [china, europe-and-the-alliance-france]
+    c: Peking. Zhou Enlai receives the French film director Gance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 26, 1964; 晚上). Names: Zhou Enlai. Check: the name, 冈斯 in the book.'
+    src:
+      c: '73016712'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, polity:fr, name:zhou-enlai]
+    time_range:
+      - 1964-10-26T11:00Z
+      - 1964-10-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-27.elections-1964
     when: Oct. 27
     date: '1964-10-27'
@@ -3190,6 +4131,35 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 27, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 677: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:he-long, name:khrushchev-nikita-s, polity:prc, vis:only:prc]
+  - id: cal.1964-10-27.china-leadership-2
+    when: Oct. 27
+    date: '1964-10-27'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai receives the delegations of 11 socialist countries to the conference of vice ministers of posts and telecommunications of the Socialist Countries' Posts and Telecommunications Cooperation Organization.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 27, 1964). Names: Zhou Enlai.'
+    src:
+      c: 46068de5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1964-10-27.china-leadership-3
+    when: Oct. 27
+    date: '1964-10-27'
+    thread: china-leadership
+    also: [china, africa, congo]
+    c: Peking. Zhou Enlai watches a song and dance performance by the Diaboua troupe of the Congo (Brazzaville), and in the interval receives the Congolese guests.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 27, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 48e400ab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai]
+    time_range:
+      - 1964-10-27T11:00Z
+      - 1964-10-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-28.state-and-city-finance-us
     when: Oct. 28
     date: '1964-10-28'
@@ -3276,16 +4246,36 @@ entries:
   - id: cal.1964-10-28.china
     when: Oct. 28
     date: '1964-10-28'
+    time: 1964-10-28T11:05Z
     thread: china
     also: [soviet-union-leadership]
     c: Peking, the evening. Zhou Enlai receives Ambassador Chervonenko, with Wu Xiuquan and Yu Zhan present. Since the night of Oct. 16, when the plenum and the Supreme Soviet were reported, China has sent greetings to Brezhnev and Kosygin; the Central Committee now proposes a party and government delegation to Moscow for the forty-seventh anniversary of October, or that Soviet representatives come to China, openly or not, or it will hear the Soviet side's proposal. Chervonenko to report at once.
-    n: '[[w.khrushchev-1964-stenogrammy]], 330–33 (doc. 26; RGANI, f. 5, op. 49, d. 716, l. 353, the diary reprinted Nov. 18); [[w.zhou-enlai-nianpu-1949]], II, 681 (Oct. 28, 1964: Zhou receives Chervonenko, proposes that China send a party and government delegation to Moscow for the October Revolution anniversary, to meet Soviet leaders; Chervonenko will pass the idea on). Made public: 2007. Names: Zhou Enlai, Chervonenko, Brezhnev, Kosygin.'
+    n: '[[w.khrushchev-1964-stenogrammy]], 330–33 (doc. 26; RGANI, f. 5, op. 49, d. 716, l. 353, the diary reprinted Nov. 18); [[w.zhou-enlai-nianpu-1949]], II, 681 (Oct. 28, 1964: Zhou receives Chervonenko, proposes that China send a party and government delegation to Moscow for the October Revolution anniversary, to meet Soviet leaders; Chervonenko will pass the idea on); [[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 28, 1964; 晚7时5分, 中南海西花厅, 接见苏联驻华大使契尔沃年科, 提出中苏两党之间进行一些接触的提议). Made public: 2007. Names: Zhou Enlai, Chervonenko, Brezhnev, Kosygin.'
     src:
       c: 5c57606c
       rows:
         - 'w.khrushchev-1964-stenogrammy 330–33: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 681: B, D, E'
+        - 'w.zhou-enlai-waijiao-huodong 424: A'
     tags: [name:zhou-enlai, name:chervonenko-stepan-v, name:brezhnev-leonid, name:kosygin-aleksei, polity:ussr, polity:prc, vis:only:ussr+prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-28.china-leadership
+    when: Oct. 28
+    date: '1964-10-28'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking, the Tianqiao Theater. Zhou Enlai watches with the capital's people the Cuban National Ballet's performance in China and receives the Cuban guests in the interval.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 28, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 03222fa8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1964-10-28T11:00Z
+      - 1964-10-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-29.vietnam
     when: Oct. 29
     date: '1964-10-29'
@@ -3446,8 +4436,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou tells Soviet ambassador Chervonenko the Central Committee has decided to send a party and government delegation under him to Moscow; proposes the Soviet side invite, for the October Revolution anniversary, delegations of the twelve other socialist states for contact. See [[cal.1964-10-29.china-leadership]].
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 681 (Oct. 29, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 681 (Oct. 29, 1964); [[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 29, 1964; 晚上, 人民大会堂福建厅, 接见苏联驻华大使契尔沃年科, 进一步肯定昨天所提的第一个提议). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: d17d0560
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 681: ?'
+        - 'w.zhou-enlai-waijiao-huodong 425: A'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1964-10-29T11:00Z
+      - 1964-10-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-29.china-leadership-4
     when: Oct. 29
     date: '1964-10-29'
@@ -3458,11 +4458,86 @@ entries:
   - id: cal.1964-10-29.china-leadership-5
     when: Oct. 29
     date: '1964-10-29'
+    time: 1964-10-29T11:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou summons the ambassadors and chargés of North Korea, Vietnam, Romania, Albania and Cuba and asks them to tell their parties and governments the Central Committee's and government's proposal that twelve socialist states send party and government delegations to celebrate the forty-seventh anniversary of the October Revolution in Moscow and make contact. See [[cal.1964-11-01.china-leadership]].
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 681–82 (Oct. 29, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 681–82 (Oct. 29, 1964); [[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 29, 1964; 晚7时, 人民大会堂福建厅, 接见越、罗、阿、古、朝五国驻华大使、临时代办). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 24b358ff
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 681–82: ?'
+        - 'w.zhou-enlai-waijiao-huodong 424: A'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-29.china-leadership-6
+    when: Oct. 29
+    date: '1964-10-29'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives the Pakistani government's economic mission headed by Syed Hasan, vice chairman of the Planning Commission.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 29, 1964; 上午). Names: Zhou Enlai.'
+    src:
+      c: 1ba9ebf9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, polity:pakistan, name:zhou-enlai]
+    time_range:
+      - 1964-10-28T22:00Z
+      - 1964-10-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-29.china-leadership-7
+    when: Oct. 29
+    date: '1964-10-29'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives Air Commodore Nur Khan, Director General of Pakistan's Civil Aviation and managing director of Pakistan International Airlines.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424 (Oct. 29, 1964; 上午). Names: Zhou Enlai.'
+    src:
+      c: 7b2ed313
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424: all'
+    tags: [polity:prc, polity:pakistan, name:zhou-enlai]
+    time_range:
+      - 1964-10-28T22:00Z
+      - 1964-10-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-29.china-leadership-8
+    when: Oct. 29
+    date: '1964-10-29'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking. Zhou Enlai attends the evening given by the China–Laos Friendship Association and watches the Laotian ...
+    n: '[[w.zhou-enlai-waijiao-huodong]], 424–25 (Oct. 29, 1964; 晚上). Names: Zhou Enlai. Check: the item breaks off at the foot of p. 424 and runs on to p. 425.'
+    src:
+      c: f1252ae0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 424–25: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai]
+    time_range:
+      - 1964-10-29T11:00Z
+      - 1964-10-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-29.china-leadership-9
+    when: Oct. 29
+    date: '1964-10-29'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People. Zhou Enlai accompanies Mao Zedong in meeting the delegation of South West African women.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 29, 1964; 晚上). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: c4815038
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 425: all'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
+    time_range:
+      - 1964-10-29T11:00Z
+      - 1964-10-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-30.civil-rights-bill
     when: Oct. 30
     date: '1964-10-30'
@@ -3561,19 +4636,84 @@ entries:
   - id: cal.1964-10-30.china-leadership-2
     when: Oct. 30
     date: '1964-10-30'
+    time: 1964-10-30T02:30Z
     thread: china-leadership
     also: [europe-and-the-alliance-france, testing]
     c: 'Zhou receives French ambassador Paye, who hands over de Gaulle''s reply to China''s proposal on total prohibition and destruction of nuclear weapons. China and France share a stand: until the U.S. stops making, testing and using such weapons, make them to break its monopoly, the only way to lessen the threat. China differs: it wants a summit outside the United Nations, because nuclear arms touch every people''s safety, peoples oppose threat and monopoly, nuclear arms cannot destroy mankind, which will destroy them; appeal to the world''s peoples.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 682 (Oct. 30, 1964). Made public: 1997. Names: Zhou Enlai, de Gaulle, Paye.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 682 (Oct. 30, 1964); [[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 30, 1964; 上午10时30分, 人民大会堂福建厅, 法国驻华大使吕西安·佩耶). Made public: 1997. Names: Zhou Enlai, de Gaulle, Paye.'
+    src:
+      c: ca3a6bca
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 682: ?'
+        - 'w.zhou-enlai-waijiao-huodong 425: A'
     tags: [name:zhou-enlai, name:de-gaulle-charles, polity:prc, polity:fr, vis:only:prc+fr]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-30.china-leadership-3
     when: Oct. 30
     date: '1964-10-30'
+    time: 1964-10-30T01:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou receives the ambassadors of Bulgaria, Hungary, Czechoslovakia, Poland, Mongolia and the German Democratic Republic. Khrushchev's removal is a good thing and plays a positive role; the situation has changed for the Soviet Union, the socialist camp and the world. Tells them he will lead a Chinese party and government delegation to the Soviet Union, and for the Central Committee and the government asks them to bring to their parties and governments the proposal that they send delegations to Moscow too, so contacts can be had.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 682 (Oct. 30, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 682 (Oct. 30, 1964); [[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 30, 1964; 上午9时, 人民大会堂福建厅, 保、匈、捷、波、蒙六国驻华大使). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 60d8ee99
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 682: ?'
+        - 'w.zhou-enlai-waijiao-huodong 425: A'
     tags: [name:zhou-enlai, polity:prc, polity:bulgaria, polity:hungary, polity:czechoslovakia, polity:poland, polity:mongolia, polity:gdr, vis:only:prc+bulgaria+hungary+czechoslovakia+poland+mongolia+gdr]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-30.china-leadership-4
+    when: Oct. 30
+    date: '1964-10-30'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking, the CPPCC auditorium. Zhou Enlai attends the meeting of the capital's circles celebrating the tenth anniversary of the Algerian revolution.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 30, 1964; 上午). Names: Zhou Enlai.'
+    src:
+      c: 7ff836ae
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 425: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai]
+    time_range:
+      - 1964-10-29T22:00Z
+      - 1964-10-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-30.china-leadership-5
+    when: Oct. 30
+    date: '1964-10-30'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai and Deng Yingchao go to the airport to welcome King Zahir Shah of Afghanistan and Queen Humaira.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 30, 1964; 上午). Names: Zhou Enlai, Zahir Shah.'
+    src:
+      c: 23f671a6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 425: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:zahir-shah-mohammed]
+    time_range:
+      - 1964-10-29T22:00Z
+      - 1964-10-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-30.china-leadership-6
+    when: Oct. 30
+    date: '1964-10-30'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, the Great Hall of the People. Zhou Enlai and Deng Yingchao attend Liu Shaoqi's and his wife Wang Guangmei's meeting with King Zahir Shah and the banquet given for him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 425 (Oct. 30, 1964; 晚上). Names: Zhou Enlai, Liu Shaoqi, Zahir Shah.'
+    src:
+      c: 315655f9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 425: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:liu-shaoqi, name:zahir-shah-mohammed]
+    time_range:
+      - 1964-10-30T11:00Z
+      - 1964-10-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-31.middle-east
     when: Oct. 31
     date: '1964-10-31'
@@ -4216,16 +5356,115 @@ entries:
   - id: cal.1964-10-31.china-leadership-2
     when: Oct. 31
     date: '1964-10-31'
+    time: 1964-10-31T06:50Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou receives Chervonenko, who conveys the Soviet Party and government''s welcome to the Chinese delegation. To his thanks that China honors the October holiday: an international holiday, first yours but not yours alone; the October Revolution opened our way; Mao wrote in his 1949 article for the Party''s twenty-eighth year, "Follow the Russians: that is the conclusion."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 683 (Oct. 31, 1964). Made public: 1997. Names: Zhou Enlai, Chervonenko.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 683 (Oct. 31, 1964); [[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 下午2时50分, 钓鱼台宾馆2号楼, 接见苏联驻华大使契尔沃年科). Made public: 1997. Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 2c94ddde
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 683: ?'
+        - 'w.zhou-enlai-waijiao-huodong 426: A'
     tags: [name:zhou-enlai, name:chervonenko-stepan-v, polity:prc, polity:ussr, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1964-10-31.china-leadership-3
     when: Oct. 31
     date: '1964-10-31'
+    time: 1964-10-31T10:00Z
     thread: china-leadership
     also: [testing]
     c: 'Zhou receives Edgar Snow. On his plan of visits: too broad a list; talk with those with firsthand material; on the atomic bomb Zhou is one. That night gives Snow twelve photographs of the Chinese bomb''s explosion, to publish at once in Switzerland.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 683 (Oct. 31, 1964). Names: Zhou Enlai, Snow.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 683 (Oct. 31, 1964); [[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 下午6时, 中南海西花厅, 和邓颖超会见并宴请). Names: Zhou Enlai, Snow.'
+    src:
+      c: '55742222'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 683: ?'
+        - 'w.zhou-enlai-waijiao-huodong 426: A'
     tags: [name:zhou-enlai, polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-31.china-leadership-4
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai accompanies King Zahir Shah at the Peking railway station.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 上午). Names: Zhou Enlai, Zahir Shah.'
+    src:
+      c: dc7612b5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 426: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:zahir-shah-mohammed]
+    time_range:
+      - 1964-10-30T22:00Z
+      - 1964-10-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-31.china-leadership-5
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai and Deng Yingchao give a luncheon in welcome of King Zahir Shah and Queen Humaira.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 中午). Names: Zhou Enlai, Zahir Shah.'
+    src:
+      c: e3ca8eea
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 426: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:zahir-shah-mohammed]
+    time_range:
+      - 1964-10-31T04:00Z
+      - 1964-10-31T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-31.china-leadership-6
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai takes part in Liu Shaoqi's talks with King Zahir Shah.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 下午). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Zahir Shah.'
+    src:
+      c: 77b53ab6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 426: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:liu-shaoqi, name:zahir-shah-mohammed, vis:only:prc+afghanistan]
+    time_range:
+      - 1964-10-31T04:00Z
+      - 1964-10-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-31.china-leadership-7
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai attends the reception given by the Algerian Ambassador, Mohammed Yala, for the tenth anniversary of the Algerian revolution.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 下午). Names: Zhou Enlai.'
+    src:
+      c: 1f05911f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 426: all'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai]
+    time_range:
+      - 1964-10-31T04:00Z
+      - 1964-10-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-10-31.china-leadership-8
+    when: Oct. 31
+    date: '1964-10-31'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the Peking opera evening given by the Ministry of Culture and the China–Afghanistan Friendship Association for King Zahir Shah and Queen Humaira.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 426 (Oct. 31, 1964; 晚上). Names: Zhou Enlai, Zahir Shah. Check: the book (426) has 中阿友协, read here as China–Afghanistan.'
+    src:
+      c: 96575cdd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 426: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:zahir-shah-mohammed]
+    time_range:
+      - 1964-10-31T11:00Z
+      - 1964-10-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

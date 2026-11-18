@@ -111,6 +111,20 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 54–55: all'
     short: Women Strike for Peace
+  - id: cal.1961-11-01.china-leadership
+    when: Nov. 1
+    date: '1961-11-01'
+    time: 1961-11-01T03:30Z
+    thread: china-leadership
+    also: [china, africa, trade]
+    c: Peking, the Great Hall of the People, Anhui Hall. Zhou Enlai receives the Ghanaian trade delegation headed by Krobo Edusei, Minister of Light and Heavy Industries.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 1, 1961; 上午11时30分). Names: Zhou Enlai.'
+    src:
+      c: 02569ccc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-02.right-and-the-military
     when: Nov. 2
     date: '1961-11-02'
@@ -406,11 +420,18 @@ entries:
   - id: cal.1961-11-03.china-leadership
     when: Nov. 3
     date: '1961-11-03'
+    time: 1961-11-03T04:30Z
     thread: china-leadership
     also: [laos]
     c: Zhou Enlai receives the delegations to the widened Geneva conference of the Laotian government (head, Quinim Pholsena) and of the Lao Patriotic Front (head, Phoumi Vongvichit).
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Nov. 3, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Nov. 3, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 3, 1961; 中午12时30分, 中南海西花厅, 接见后共进午餐). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 5d923df1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
+        - 'w.zhou-enlai-waijiao-huodong 326: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, vis:only:prc+laos+pathet-lao]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-03.china-leadership-2
     when: Nov. 3
     date: '1961-11-03'
@@ -617,6 +638,18 @@ entries:
     c: 'At the Center''s bureau first secretaries'' meeting, Nov. 6, 7, 8 and 10. On the 8th Zhou Enlai drafts "Some views on grain work": purchase, transfer and imports all risk falling short; Party committees at every level to push purchase and shipping, go on cutting town population and staff, tightly manage the free market, and aim at imports of 3 to 4 million tons next year, exporting first and selling at home after, with imports of grain before other goods. On the 10th the meeting takes up grain alone.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Nov. 6, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-06.china-leadership-2
+    when: Nov. 6
+    date: '1961-11-06'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai and Deng Xiaoping meet Lê Duẩn, First Secretary of the Lao Động Party's Central Committee, and Xuân Thủy, a member of the Central Committee, passing through.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 6, 1961). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping, Lê Duẩn, Xuân Thủy.'
+    src:
+      c: 0ecc62b6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:deng-xiaoping, name:le-duan, name:xuan-thuy, vis:only:prc+drv]
   - id: cal.1961-11-07.states-and-cities
     when: Nov. 7
     date: '1961-11-07'
@@ -851,6 +884,23 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 499: all'
         - 'via w.schlesinger-robert-kennedy-and-his 499 n.4: all'
     tags: [name:bolshakov-georgi, name:kennedy-robert-f, name:khrushchev-nikita-s, name:kennedy-john-f]
+  - id: cal.1961-11-07.china-leadership
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Soviet Embassy. Zhou Enlai attends the reception given by Chervonenko, the Soviet Ambassador, for the 44th anniversary of the October Revolution.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 7, 1961; 晚上). Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: c1d94c73
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v]
+    time_range:
+      - 1961-11-07T11:00Z
+      - 1961-11-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-08.vietnam
     when: Nov. 8
     date: '1961-11-08'
@@ -1290,6 +1340,23 @@ entries:
     c: 'Diaoyutai, evening. The enlarged Standing Committee hears Deng Xiaoping and others on the regional secretaries'' meeting. Mao: no National People''s Congress session; instead, after the work conference of Dec. 20, a meeting of county secretaries, two a county, three a prefecture, four a province and a bureau, reporting Jan. 8: a small rectification; the center''s mistakes of these years to be told, "we bare our hearts first"; discipline, the whole before the part; ten days.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 12, 1961. Made public: 2013. Names: Mao Zedong, Deng Xiaoping.'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-11-12.china-leadership-2
+    when: Nov. 12
+    date: '1961-11-12'
+    thread: china-leadership
+    also: [china, vietnam-hanoi, indonesia]
+    c: Peking. Zhou Enlai goes to the airport to meet Hồ Chí Minh, head of the Lao Động Party's delegation, and Aidit, head of the Indonesian delegation, on their way home from the CPSU's 22nd Congress.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 12, 1961; 下午). Names: Zhou Enlai, Hồ Chí Minh, Aidit.'
+    src:
+      c: 1c4b6b1a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, name:aidit-dipa-nusantara]
+    time_range:
+      - 1961-11-12T04:00Z
+      - 1961-11-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-13.robert-kennedy
     when: Nov. 13
     date: '1961-11-13'
@@ -1521,6 +1588,23 @@ entries:
     c: Zhou Enlai at Peking Hospital, at the leave-taking of the body of Peng Tao, Minister of Chemical Industry and Deputy Director of the Planning Commission; on the 17th he presides at the public memorial.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 14, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-14.china-leadership-5
+    when: Nov. 14
+    date: '1961-11-14'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai, with Mao Zedong, Liu Shaoqi and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Lao Động Party's Central Committee, and dines with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 14, 1961; 下午). Made public: 1993. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Hồ Chí Minh.'
+    src:
+      c: 46f52217
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:ho-chi-minh, vis:only:prc+drv]
+    time_range:
+      - 1961-11-14T04:00Z
+      - 1961-11-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-15.vietnam
     when: Nov. 15
     date: '1961-11-15'
@@ -1687,6 +1771,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-11-16.china-leadership
+    when: Nov. 16
+    date: '1961-11-16'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai and Deng Xiaoping and others go to the airport to see off Hồ Chí Minh.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 16, 1961). Names: Zhou Enlai, Deng Xiaoping, Hồ Chí Minh.'
+    src:
+      c: 5b70c6d4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:deng-xiaoping, name:ho-chi-minh]
   - id: cal.1961-11-17.albany
     when: Nov. 17
     date: '1961-11-17'
@@ -1820,8 +1916,18 @@ entries:
     thread: china-leadership
     also: [indonesia, soviet-union]
     c: The Yinian Tang. Mao, Zhou Enlai and Deng Xiaoping give a dinner for D. N. Aidit, back from the Twenty-second Congress; Yang Shangkun and Liu Ningyi present. The congress against Stalin, the "anti-Party group," Albania and China; Khrushchev rules by feudal methods. Stalin's merit chief; his two errors toward China, backing the "left" line and opposing the war with Chiang after Japan's surrender. Imperialism feared Stalin, not Khrushchev.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 17, 1961. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Yang Shangkun, Liu Ningyi, Aidit, Khrushchev, Stalin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 17, 1961. [[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 17, 1961; 晚上, 和毛泽东、邓小平同志一起会见并举行晚宴). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Yang Shangkun, Liu Ningyi, Aidit, Khrushchev, Stalin.'
+    src:
+      c: 834ecaef
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 17, 1961: all'
+        - 'w.zhou-enlai-waijiao-huodong 326: A'
     tags: [polity:prc, polity:indonesia, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:aidit-dipa-nusantara, name:khrushchev-nikita-s, name:stalin-joseph, vis:only:prc+indonesia]
+    time_range:
+      - 1961-11-17T11:00Z
+      - 1961-11-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-17.china-leadership-2
     when: Nov. 17
     date: '1961-11-17'
@@ -1877,6 +1983,18 @@ entries:
     c: Zhou Enlai inspects Tianjin, Nov. 18–22; back in Peking on the 22nd.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 18, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-18.china-leadership-2
+    when: Nov. 18
+    date: '1961-11-18'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai and Deng Xiaoping and others go to the airport to see off Aidit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 18, 1961). Names: Zhou Enlai, Deng Xiaoping, Aidit.'
+    src:
+      c: 1dead90b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 326: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:deng-xiaoping, name:aidit-dipa-nusantara]
   - id: cal.1961-11-19.latin-america
     when: Nov. 19
     date: '1961-11-19'
@@ -2155,8 +2273,18 @@ entries:
     thread: china-leadership
     also: [japan, china]
     c: Zhou Enlai receives the delegation of the Japanese Communist Party's organ *Akahata* under its editor Doki Tsuyoshi, and Anzai Kuraji, secretary of the Party's Secretariat, who came on translating and publishing the Japanese edition of the fourth volume of Mao's *Selected Works*.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 22, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 326–27 (Nov. 22, 1961; 下午, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: a44a02c1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 442: ?'
+        - 'w.zhou-enlai-waijiao-huodong 326–27: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_range:
+      - 1961-11-22T04:00Z
+      - 1961-11-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-23.civil-rights-the-executive
     when: Nov. 23
     date: '1961-11-23'
@@ -2655,6 +2783,23 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 367–68: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1961-11-29.china-leadership
+    when: Nov. 29
+    date: '1961-11-29'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking Hotel. Zhou Enlai attends the reception given by the Albanian Ambassador, Reiz Malile, for the 17th anniversary of Albania's liberation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Nov. 29, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: f1e61a08
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 327: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1961-11-29T11:00Z
+      - 1961-11-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-30.cuba
     when: Nov. 30
     date: '1961-11-30'

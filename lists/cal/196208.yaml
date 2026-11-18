@@ -583,7 +583,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Mao receives visitors from Mexico, Venezuela, Cuba, Paraguay and Brazil; Zhou Enlai, Chen Yi and Guo Moruo present. All on one front against imperialism and colonialism, for national liberation; China's defense, science and economy still far behind (the United States has the atomic and hydrogen bomb, China conventional arms); the Western talk that China will collapse not so.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 7, 1962. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Yi, Guo Moruo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 7, 1962. [[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 7, 1962; 下午2时, Beidaihe). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Yi, Guo Moruo.'
+    src:
+      c: 5e3c686c
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Aug. 7, 1962: all'
+        - 'w.zhou-enlai-waijiao-huodong 333: A-B'
     tags: [polity:prc, polity:mexico, polity:venezuela, polity:cuba, polity:brazil, name:mao-zedong, name:zhou-enlai, name:chen-yi, polity:paraguay, vis:only:prc+mexico+venezuela+cuba+paraguay+brazil]
   - id: cal.1962-08-07.china-leadership-2
     when: Aug. 7
@@ -592,6 +597,23 @@ entries:
     c: 'Zhou Enlai, on the Northeast Bureau''s Planning Commission report on temporary workers and their pay: approves, and for the Center directs the Ministry of Labor to draw up from it general rules for the whole country, for the State Council to approve.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (Aug. 7, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-08-07.china-leadership-4
+    when: Aug. 7
+    date: '1962-08-07'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Beidaihe. Zhou Enlai meets and gives a dinner for Manuel Araujo Hidalgo, a former Speaker of Ecuador's Chamber of Deputies, former Interior Minister and leader of the People's Action Movement.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 7, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 9772ced3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 333: all'
+    tags: [polity:prc, polity:ecuador, name:zhou-enlai]
+    time_range:
+      - 1962-08-07T11:00Z
+      - 1962-08-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-08.georgia-albany
     when: Aug. 8
     date: '1962-08-08'
@@ -2171,11 +2193,23 @@ entries:
   - id: cal.1962-08-27.china-leadership
     when: Aug. 27
     date: '1962-08-27'
+    time: 1962-08-27T08:00Z
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai flies to Canton and meets Phạm Văn Đồng.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 494 (Aug. 27, 1962). Made public: 1997. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 494 (Aug. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 27, 1962; 下午4时, 广州东山招待所). Made public: 1997. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: e752a37e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 494: ?'
+        - 'w.zhou-enlai-waijiao-huodong 334: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Aug. 23, afternoon, Dongshan guesthouse, Canton (Zhou receives Phạm Văn Đồng); the entry has Aug. 27
+        at: '333'
   - id: cal.1962-08-27.china-leadership-2
     when: Aug. 27
     date: '1962-08-27'
@@ -2190,7 +2224,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai to Sihanouk, by letter: the Chinese government fully supports his proposal for an international conference to recognize and guarantee Cambodia''s neutrality and territorial integrity.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 494 (Aug. 27, 1962). Continues 495. Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 494 (Aug. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 27, 1962). Continues 495. Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 433ca20d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 494: ?'
+        - 'w.zhou-enlai-waijiao-huodong 333: A'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
   - id: cal.1962-08-28.court
     when: Aug. 28
@@ -2246,6 +2285,20 @@ entries:
     c: Zhou Enlai back in Peking; Aug. 29 he calls persons on exchanging grain for imports and on exporting and selling hogs at home.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 495 (Aug. 28–29, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-08-28.china-leadership-2
+    when: Aug. 28
+    date: '1962-08-28'
+    time: 1962-08-27T23:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Canton, Baiyun airport. Zhou Enlai talks with Phạm Văn Đồng.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 28, 1962; 上午7时30分). Made public: 1993. See [[cal.1962-08-27.china-leadership]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    src:
+      c: 484b747c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 334: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-29.missile-crisis
     when: Aug. 29
     date: '1962-08-29'

@@ -98,8 +98,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai receives Takasaki Tatsunosuke again: trade of the two countries is to rest on equality and mutual benefit; for now China trades by barter, by accumulation and by degrees, and the trade is private in kind; bank settlement and other details.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 509 (Nov. 1, 1962). Made public: 1997. Names: Zhou Enlai, Takasaki Tatsunosuke.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 509 (Nov. 1, 1962); [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 1, 1962; 晚上, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Takasaki Tatsunosuke.'
+    src:
+      c: 54c79378
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 509: ?'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_range:
+      - 1962-11-01T11:00Z
+      - 1962-11-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-01.china-leadership-3
     when: Nov. 1
     date: '1962-11-01'
@@ -162,6 +172,23 @@ entries:
     c: Zhou Enlai with the Ministry of Forestry on forestry, discussing the Central Committee's and State Council's draft decision to set up the Northeast general bureaus of forestry and of land reclamation. Cut by rule, cut and plant together, keep the green hills; no more free-handed destruction of nature; mechanization is the first question in the technical reform of forestry. On Nov. 18 he and Deng Xiaoping issue the two decisions.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 509 (Nov. 2, 1962). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-11-02.china-leadership-2
+    when: Nov. 2
+    date: '1962-11-02'
+    thread: china-leadership
+    also: [china]
+    c: Peking, Xihuating. Zhou Enlai, with Deng Yingchao, receives and gives a dinner for the American Black scholar W. E. B. Du Bois and his wife, Shirley Graham.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 2, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 891cc421
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:us, name:zhou-enlai]
+    time_range:
+      - 1962-11-02T11:00Z
+      - 1962-11-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-03.missile-crisis
     when: Nov. 3
     date: '1962-11-03'
@@ -308,8 +335,45 @@ entries:
     thread: south-asia
     also: [china]
     c: 'Zhou Enlai to Nehru, by letter, again: a call to reopen talks on the boundary.'
-    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("十一月四日，周恩来总理再次写信给尼赫鲁总理，呼吁重开谈判解决中印边界问题"). [[w.zhou-enlai-nianpu-1949]], II, 510 (Nov. 4, 1962: Zhou Enlai to Nehru again: neither side should pose as victor; the three proposals of Oct. 24 are equal, not one-sided, mutual, not imposed; he asks Nehru to consider them again and respond positively). To check: the letter''s text. See [[cal.1962-10-24.south-asia-3]]. Names: Zhou Enlai, Nehru.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("十一月四日，周恩来总理再次写信给尼赫鲁总理，呼吁重开谈判解决中印边界问题"). [[w.zhou-enlai-nianpu-1949]], II, 510 (Nov. 4, 1962: Zhou Enlai to Nehru again: neither side should pose as victor; the three proposals of Oct. 24 are equal, not one-sided, mutual, not imposed; he asks Nehru to consider them again and respond positively); [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 4, 1962). To check: the letter''s text. See [[cal.1962-10-24.south-asia-3]]. Names: Zhou Enlai, Nehru.'
+    src:
+      c: a9e60541
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 71: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 510: ?'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
+  - id: cal.1962-11-04.china-leadership
+    when: Nov. 4
+    date: '1962-11-04'
+    time: 1962-11-04T09:45Z
+    thread: china-leadership
+    also: [china, korea, trade]
+    c: Peking, the Great Hall of the People, Zhejiang Hall. Zhou Enlai receives the DPRK government's trade delegation headed by Yi Chu-yŏn, Vice-Premier.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 4, 1962; 下午5时45分). Names: Zhou Enlai.'
+    src:
+      c: e5c47bff
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-04.china-leadership-2
+    when: Nov. 4
+    date: '1962-11-04'
+    thread: china-leadership
+    also: [china, korea, south-asia]
+    c: Peking, the Great Hall of the People. Zhou Enlai, at the banquet welcoming the DPRK trade delegation, repeats that China will never relax its effort for a peaceful settlement of the Sino-Indian boundary question, but no one should expect China to yield before force.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 4, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 0e0e7885
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-11-04T11:00Z
+      - 1962-11-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-05.cuba
     when: Nov. 5
     date: '1962-11-05'
@@ -474,6 +538,40 @@ entries:
     c: Zhou Enlai hears Liao Chengzhi, Ye Jizhuang and Lu Xuzhang, Nov. 5–8, on their talks with Takasaki on Sino-Japanese private trade.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 510 (Nov. 5–8, 1962). Made public: 1997. Names: Zhou Enlai, Liao Chengzhi, Ye Jizhuang, Lu Xuzhang.'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-11-05.china-leadership-3
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: china-leadership
+    also: [china, korea, trade]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the China–DPRK treaty of trade and navigation, the agreement on supply of goods and other documents.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 5, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 96c3c62c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-11-05T11:00Z
+      - 1962-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-05.china-leadership-4
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: china-leadership
+    also: [china, korea, trade]
+    c: Peking Hotel. Zhou Enlai attends the banquet given by the DPRK Embassy's chargé d'affaires, Jong Bong-gu, for the DPRK trade delegation headed by Yi Chu-yŏn.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 5, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 832a8e57
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-11-05T11:00Z
+      - 1962-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
     date: '1962-11-06'
@@ -1250,6 +1348,20 @@ entries:
     c: 'Election night. O''Brien goes to the President''s office to say that Representative Frank W. Burke of Louisville, a staunch supporter, has been defeated. Kennedy: "It looks like a damn long night, Larry." By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 142. Names: O''Brien, Kennedy, Burke.'
     tags: [name:obrien-lawrence-f, name:kennedy-john-f, name:burke-frank-w, state:ky, city:louisville]
+  - id: cal.1962-11-06.china-leadership
+    when: Nov. 6
+    date: '1962-11-06'
+    time: 1962-11-06T09:00Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives the Pakistani Ambassador, Raza.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 6, 1962; 下午5时). Names: Zhou Enlai.'
+    src:
+      c: 30f5cf2a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:pakistan, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-07.middle-east-yemen
     when: Nov. 7
     date: '1962-11-07'
@@ -1341,12 +1453,13 @@ entries:
     thread: china
     also: [soviet-union]
     c: Peking, the reception for the October Revolution's anniversary. The Soviet Ambassador toasts Khrushchev; his Chinese guests silent.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 496. To check: Adam Kellet-Long, "Soviet Envoy''s Praise of Khrushchev Meets Silence at Peking Celebration," *Washington Post and Times Herald*, Nov. 7, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.14). Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 496; [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 7, 1962; 晚上, the Soviet Embassy; Zhou Enlai present). To check: Adam Kellet-Long, "Soviet Envoy''s Praise of Khrushchev Meets Silence at Peking Celebration," *Washington Post and Times Herald*, Nov. 7, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.14). Names: Khrushchev.'
     src:
       c: 45d666a8
       rows:
         - 'w.fursenko-khrushchevs-cold-war 496: all'
         - 'via x.2006.kcw-p496-china: all'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [name:khrushchev-nikita-s]
     time_range:
       - 1962-11-07T11:00Z
@@ -1631,7 +1744,13 @@ entries:
     thread: japan
     also: [china]
     c: Liao Chengzhi and Tatsunosuke Takasaki sign a trade memorandum, the ground of what became the L-T trade agreement.
-    n: '[[w.jian-zhou-enlai]], 505; [[w.zhou-enlai-nianpu-1949]], II, 510 (Nov. 9, 1962: Liao Chengzhi and Takasaki sign the memorandum on Sino-Japanese private trade and related papers, with Zhou Enlai and Chen Yi at the signing). To check: [[w.zhonghua-renmin-gongheguo-jingji]], 432–33, 469–71 (cited by [[w.jian-zhou-enlai]], 766 n.50). See [[cal.1962-10.japan]].'
+    n: '[[w.jian-zhou-enlai]], 505; [[w.zhou-enlai-nianpu-1949]], II, 510 (Nov. 9, 1962: Liao Chengzhi and Takasaki sign the memorandum on Sino-Japanese private trade and related papers, with Zhou Enlai and Chen Yi at the signing); [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 9, 1962; 晚11时50分; Zhou Enlai present at the signing). To check: [[w.zhonghua-renmin-gongheguo-jingji]], 432–33, 469–71 (cited by [[w.jian-zhou-enlai]], 766 n.50). See [[cal.1962-10.japan]].'
+    src:
+      c: 3f461ba9
+      rows:
+        - 'w.jian-zhou-enlai 505: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 510: ?'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [polity:prc, polity:japan]
   - id: cal.1962-11-09.china-leadership
     when: Nov. 9
@@ -1639,8 +1758,30 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai, at the Cambodian chargé''s National Day reception, on India''s war mobilization and its continued troop buildup on the border: India seems to plan a new offensive to take more Chinese land, which China cannot tolerate; it will not bow to force but still holds to peaceful talks.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 511 (Nov. 9, 1962). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 511 (Nov. 9, 1962); [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 9, 1962; 晚上, Peking Hotel; the reception only). Names: Zhou Enlai.'
+    src:
+      c: 47f3d2d7
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 511: ?'
+        - 'w.zhou-enlai-waijiao-huodong 340: A'
     tags: [polity:prc, polity:cambodia, polity:india, name:zhou-enlai]
+  - id: cal.1962-11-09.china-leadership-3
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: china-leadership
+    also: [china, japan, trade]
+    c: Peking Hotel. Zhou Enlai attends the farewell banquet given by Takasaki Tatsunosuke, and hopes both sides will work to run the Sino-Japanese trade train well.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 9, 1962; 晚上). See [[cal.1962-10-29.china-leadership]]. Names: Zhou Enlai, Takasaki.'
+    src:
+      c: fe3f9b0b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 340: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai, name:takasaki-tatsunosuke]
+    time_range:
+      - 1962-11-09T11:00Z
+      - 1962-11-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -2154,7 +2295,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai to the leaders of Asian and African states, by letter, on the Sino-Indian boundary: the course of the question; the grave clash is wholly of the Indian government''s making; India seems to want no talks and to hold to force; the two countries have no basic conflict of interest and no reason to fight over a border; China has done all it could for three years and, not discouraged, will look for settlement and make conditions for a halt to the clash; it calls on the Afro-Asian states to do justice and promote direct talks. Sent to 25 leaders, copies to the leaders of 83 countries.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 512 (Nov. 15, 1962). Check: whether the letter was published at the time. To check: the letter. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 512 (Nov. 15, 1962); [[w.zhou-enlai-waijiao-huodong]], 341 (Nov. 15, 1962). Check: whether the letter was published at the time. To check: the letter. Names: Zhou Enlai.'
+    src:
+      c: cfb4059e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 512: ?'
+        - 'w.zhou-enlai-waijiao-huodong 341: A'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1962-11-15.china-leadership-2
     when: Nov. 15
@@ -2578,11 +2724,20 @@ entries:
   - id: cal.1962-11-19.south-asia-2
     when: Nov. 19
     date: '1962-11-19'
+    time: 1962-11-19T12:00Z
     thread: south-asia
     also: [china]
     c: 'Zhou Enlai and Chen Yi see P. K. Banerjee, India''s chargé d''affaires: "中印两国应该友好下去。我们应该向远处看" (China and India should stay friends. We should look far ahead); Zhou ready to go to Delhi to settle the boundary by talks.'
-    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("随后", after Mao''s meetings); [[w.jian-zhou-enlai]], 482 (at midnight, after Mao''s note of Nov. 18; Zhou alone: he agrees with Radhakrishnan, talks to resume at once; "I have been to New Delhi four times. I am willing to go there a fifth time"; Banerjee to report to Nehru at once). [[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 19, 1962: Zhou Enlai and Chen Yi receive Banerjee, India''s chargé d''affaires: for all the strain the two countries should stay friends and look far and deep; China has confidence and will not lose a thread of hope; he has been to Delhi four times and will go a fifth). Made public: Check (1990 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 169; [[w.banerjee-my-peking-memoire-of]], 72 (cited by [[w.jian-zhou-enlai]], 764 n.86). See [[cal.1962-11-19.south-asia]]. Names: Zhou Enlai, Chen Yi. Check: the day (Chen: midnight, after Nov. 18).'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("随后", after Mao''s meetings); [[w.jian-zhou-enlai]], 482 (at midnight, after Mao''s note of Nov. 18; Zhou alone: he agrees with Radhakrishnan, talks to resume at once; "I have been to New Delhi four times. I am willing to go there a fifth time"; Banerjee to report to Nehru at once). [[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 19, 1962: Zhou Enlai and Chen Yi receive Banerjee, India''s chargé d''affaires: for all the strain the two countries should stay friends and look far and deep; China has confidence and will not lose a thread of hope; he has been to Delhi four times and will go a fifth); [[w.zhou-enlai-waijiao-huodong]], 341 (Nov. 19, 1962; 晚8时, 中南海西花厅). Made public: Check (1990 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 169; [[w.banerjee-my-peking-memoire-of]], 72 (cited by [[w.jian-zhou-enlai]], 764 n.86). See [[cal.1962-11-19.south-asia]]. Names: Zhou Enlai, Chen Yi. Check: the day (Chen: midnight, after Nov. 18).'
+    src:
+      c: 05b1e950
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 71: ?'
+        - 'w.jian-zhou-enlai 482: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 514: ?'
+        - 'w.zhou-enlai-waijiao-huodong 341: A'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:india]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-19.china-leadership
     when: Nov. 19
     date: '1962-11-19'
@@ -2590,6 +2745,20 @@ entries:
     c: 'Zhou Enlai to delegates at the national conferences of the Ministries of Agricultural Machinery, of Agriculture and of the First Machine Building: under the line of agriculture as base and industry as leader, the direction of agriculture is mechanization. In the Third Five-Year Plan mass use of farm machines is out of the question; rely on medium and small implements, hand tools, labor and animal power. In this China is five years late.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-11-19.china-leadership-2
+    when: Nov. 19
+    date: '1962-11-19'
+    time: 1962-11-19T13:40Z
+    thread: china-leadership
+    also: [china, south-asia, indonesia]
+    c: Peking, Xihuating. Zhou Enlai receives Sukarni, the Indonesian Ambassador, and tells him that Mao Zedong, Liu Shaoqi and he hope Sukarno will come to Peking on his way home from Japan to talk on the boundary question with India. He will send Huang Zhen, Vice Minister, to Hong Kong on Nov. 20 to convey this and the situation to Sukarno. Asked for China's highest and lowest terms for a settlement, he says China holds to its three proposals but wants to take a further positive step, of which it will consult Sukarno.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 341 (Nov. 19, 1962; 晚9时40分). Made public: 1993. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Sukarno.'
+    src:
+      c: 201c26a3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 341: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:sukarno, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
@@ -2938,19 +3107,51 @@ entries:
   - id: cal.1962-11-21.china-leadership-3
     when: Nov. 21
     date: '1962-11-21'
+    time: 1962-11-20T16:20Z
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai and Chen Yi, twenty minutes after the statement of Nov. 21, call in Banerjee, India's chargé d'affaires, and tell him its main points, China's cease-fire and pullback along the whole border of its own accord; they hope India's government will respond positively and take matching steps.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 21, 1962). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 21, 1962); [[w.zhou-enlai-waijiao-huodong]], 341 (Nov. 21, 1962; 上午0时20分, 午夜0时20分, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 83a2bd3a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 514: ?'
+        - 'w.zhou-enlai-waijiao-huodong 341: A'
     tags: [polity:prc, polity:india, name:zhou-enlai, name:chen-yi, vis:only:prc+india]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-21.china-leadership-4
     when: Nov. 21
     date: '1962-11-21'
+    time: 1962-11-20T17:25Z
     thread: china-leadership
     also: [south-asia, indonesia]
     c: 'Zhou Enlai and Chen Yi at dawn receive, one after the other, Indonesia''s Ambassador, Sukarni (苏卡尼), and Burma''s, Kyaw Win. They give Sukarni the government''s statement of Nov. 21 and hope Sukarno will use his influence to move India to matching steps; to Kyaw Win they set out China''s steps: if India does not answer or cannot answer in time whether it will respond, China will still cease fire first and withdraw. Sukarni calls the measures very wise; Kyaw Win, lofty and generous.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 21, 1962). Made public: 1997. Check: the Indonesian ambassador''s name in Roman letters. Names: Zhou Enlai, Chen Yi, Sukarno, Kyaw Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 21, 1962); [[w.zhou-enlai-waijiao-huodong]], 341–42 (Nov. 21, 1962; 上午1时25分, 凌晨1时25分, 中南海西花厅; 苏卡尼); [[w.zhou-enlai-waijiao-huodong]], 342 (Nov. 21, 1962; 上午2时15分, 凌晨2时15分, 中南海西花厅; 叫温). Made public: 1997. Check: the Indonesian ambassador''s name in Roman letters. Names: Zhou Enlai, Chen Yi, Sukarno, Kyaw Win.'
+    src:
+      c: 52556a2f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 514: ?'
+        - 'w.zhou-enlai-waijiao-huodong 341–42: A'
+        - 'w.zhou-enlai-waijiao-huodong 342: A'
     tags: [polity:prc, polity:indonesia, polity:burma, polity:india, name:zhou-enlai, name:chen-yi, name:sukarno, vis:only:prc+indonesia+burma]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-21.china-leadership-5
+    when: Nov. 21
+    date: '1962-11-21'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking, Xihuating. Zhou Enlai receives Raquel Gosoi, secretary of the Brazil–China Friendship Association, and her husband, the social activist Amarilio Vasconcelos.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 342 (Nov. 21, 1962; 下午). Names: Zhou Enlai. Check: the names, 拉格尔·戈索伊 in the book.'
+    src:
+      c: b2db714e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 342: all'
+    tags: [polity:prc, polity:brazil, name:zhou-enlai]
+    time_range:
+      - 1962-11-21T04:00Z
+      - 1962-11-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-22.missile-crisis
     when: Nov. 22
     date: '1962-11-22'
@@ -3027,6 +3228,18 @@ entries:
     c: Zhou Enlai, on Mao's view of the night of Nov. 21, calls Chen Yi and people of the Foreign Affairs Office, the Foreign Ministry, the Propaganda Department and the *Renmin ribao* to take up international and domestic work on the boundary question and gives instructions; on Nov. 23 he reports the arrangements by letter to Mao, Liu Shaoqi, Zhu De, Deng Xiaoping, Peng Zhen and Luo Ruiqing.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 22, 1962). Made public: 1997. See [[cal.1962-11-21.china-leadership-2]]. Names: Zhou Enlai, Chen Yi, Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Peng Zhen, Luo Ruiqing.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, name:peng-zhen, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1962-11-22.china-leadership-2
+    when: Nov. 22
+    date: '1962-11-22'
+    thread: china-leadership
+    also: [china, south-asia, africa]
+    c: Zhou Enlai telegraphs Sékou Touré, President of Guinea, hoping he will use his high influence to move the Indian government to reopen peaceful negotiations early.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 342 (Nov. 22, 1962). Names: Zhou Enlai, Sékou Touré.'
+    src:
+      c: 352692cd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 342: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
   - id: cal.1962-11-23.sit-ins
     when: Nov. 23–25
     date: '1962-11-23'
@@ -3060,7 +3273,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai telegraphs Bandaranaike, Prime Minister of Ceylon: her proposal at this moment that the leaders of six friendly Afro-Asian states meet to consult on promoting Sino-Indian conciliation is truly a constructive one.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 23, 1962). Footnote at 515: the six were Ceylon, Cambodia, Burma, Egypt, Indonesia and Ghana. Made public: 1997. Names: Zhou Enlai, Srimavo Bandaranaike.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 23, 1962); [[w.zhou-enlai-waijiao-huodong]], 342 (Nov. 23, 1962). Footnote at 515: the six were Ceylon, Cambodia, Burma, Egypt, Indonesia and Ghana. Made public: 1997. Names: Zhou Enlai, Srimavo Bandaranaike.'
+    src:
+      c: 378c5941
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 515: ?'
+        - 'w.zhou-enlai-waijiao-huodong 342: A'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon]
   - id: cal.1962-11-24.defense
     when: Nov. 24
@@ -3129,6 +3347,35 @@ entries:
     c: 'Zhou Enlai to the National People''s Congress Standing Committee: Nehru unwilling to let go of "his vision of a great Indian empire"; "we needed to fight the war and to fight a big war, as a small war would not work"; the troops pulled back because "we fought the war for justice, not to change the status quo, which can only be changed through negotiation."'
     n: '[[w.jian-zhou-enlai]], 484 (Chen''s translation; "People''s Congress leaders"); [[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 24, 1962: Zhou Enlai reports "On the Sino-Indian Boundary Question" to the 70th meeting of the Standing Committee of the Second NPC: the relation has had a friendly side from the first and a dark side; unity and struggle; four times China yielded but within limits; the tactic is of reason, advantage and restraint, giving ground and answering after the other strikes; to friends in the democratic parties who found the unilateral steps sudden, he says the three proposals of Oct. 24 and the steps of Nov. 21 do not run against national policy or the general line of foreign policy). Made public: Check. To check: Zhou''s speech at a meeting of the Standing Committee of the People''s Congress, Nov. 24, 1962, 1057-8-44, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.94). Names: Zhou Enlai, Nehru. Check: the day (Chen''s text dates none; his note dates the speech Nov. 24).'
     tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
+  - id: cal.1962-11-24.china-leadership-3
+    when: Nov. 24
+    date: '1962-11-24'
+    thread: china-leadership
+    also: [china, south-asia, europe-and-the-alliance-britain]
+    c: Zhou Enlai writes to Bertrand Russell, the British pacifist and philosopher, thanking him for his concern over the Sino-Indian boundary. Russell had telegraphed and written Zhou on Nov. 8, 16 and 19 calling on China and India to cease fire and negotiate. Zhou tells him that China's frontier forces ceased fire along the whole boundary from 0:00 on Nov. 22 and hopes he will urge India to respond and take matching steps.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 342 (Nov. 24, 1962). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: c5460ad9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 342: all'
+    tags: [polity:prc, polity:uk, name:zhou-enlai, vis:only:prc+uk]
+  - id: cal.1962-11-24.china-leadership-2
+    when: Nov. 24
+    date: '1962-11-24'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the dinner given by the Chinese People's Committee for World Peace on the 77th birthday of the American writer Anna Louise Strong, and offers her his good wishes.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 342–43 (Nov. 24, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 1f80535a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 342–43: all'
+    tags: [polity:prc, polity:us, name:zhou-enlai]
+    time_range:
+      - 1962-11-24T11:00Z
+      - 1962-11-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-25.school-aid
     when: Nov. 25
     date: '1962-11-25'
@@ -3162,6 +3409,23 @@ entries:
     c: Zhou Enlai with members of the leading group of the State Planning Commission on planning work.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 25, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-11-25.china-leadership-3
+    when: Nov. 25
+    date: '1962-11-25'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai receives and gives a luncheon for the Albania–China Friendship Association delegation headed by Pellumb Shamblli, an Albanian cultural delegation headed by Pjetër Mitrojorgji, and the Albanian literary specialist Hatiu.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 343 (Nov. 25, 1962; 中午). Names: Zhou Enlai. Check: the names, 佩落·沙姆布利 and 皮·米特罗约尔基 in the book.'
+    src:
+      c: 5d14fa8c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 343: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1962-11-25T04:00Z
+      - 1962-11-25T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-26.open-housing-detroit
     when: Nov. 26
     date: '1962-11-26'
@@ -3290,6 +3554,20 @@ entries:
     c: Mao revises Zhou Enlai's draft letters on the Sino-Indian boundary to Sukarno (China is sending Vice-Foreign Minister Huang Zhen to Jakarta to exchange views, as Sukarno wished, and hopes he will move India to match the statement of Nov. 21 and bring talks) and to Ne Win, Chairman of Burma's Revolutionary Council (the draft by another hand). In Ne Win's he changes "precious" to "useful" and the sharp "the dangerous situation" to "the former situation," "a turn" to "a relaxation"; unilateral action by China alone will not wholly prevent renewed fighting or make a good air for talks.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 27, 1962. [[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 26–27, 1962: the draft letters to Ne Win and to Sukarno, written by the departments for Zhou Enlai and sent to Mao, Liu and Deng; to Ne Win''s Zhou adds that Huang Zhen will go by way of Rangoon to Jakarta). Made public: 2013. See [[cal.1962-11-26.china]]. Names: Mao Zedong, Zhou Enlai, Sukarno, Ne Win.'
     tags: [polity:prc, polity:indonesia, polity:burma, name:mao-zedong, name:zhou-enlai, name:sukarno, name:ne-win, vis:only:prc]
+  - id: cal.1962-11-27.china-leadership-2
+    when: Nov. 27
+    date: '1962-11-27'
+    time: 1962-11-27T04:00Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives and gives a luncheon for the Nepalese special ambassador, Rishikesh Shaha, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 343 (Nov. 27, 1962; 中午12时). Names: Zhou Enlai.'
+    src:
+      c: a5bbc49c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 343: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-28.legislatures-va
     when: Nov. 28
     date: '1962-11-28'
@@ -3393,8 +3671,30 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai to Nehru, by letter, the same day: calls on India to take matching steps in time so that both sides push the situation toward relaxation.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 516 (Nov. 28, 1962). Made public: 1997. See [[cal.1962-11-04.south-asia]]. Names: Zhou Enlai, Nehru.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 516 (Nov. 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 343 (Nov. 28, 1962). Made public: 1997. See [[cal.1962-11-04.south-asia]]. Names: Zhou Enlai, Nehru.'
+    src:
+      c: d244332a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 516: ?'
+        - 'w.zhou-enlai-waijiao-huodong 343: A'
     tags: [polity:prc, polity:india, name:zhou-enlai, name:nehru-jawaharlal, vis:only:prc+india]
+  - id: cal.1962-11-28.china-leadership-3
+    when: Nov. 28
+    date: '1962-11-28'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking Hotel. Zhou Enlai, with Liu Shaoqi and Deng Xiaoping, attends the reception given by the Albanian Ambassador, Malile, for the 50th anniversary of Albania's independence and the 18th of its liberation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 343 (Nov. 28, 1962; 晚上). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: 942076f3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 343: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
+    time_range:
+      - 1962-11-28T11:00Z
+      - 1962-11-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-29.economy
     when: Nov. 29
     date: '1962-11-29'

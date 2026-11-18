@@ -501,7 +501,12 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: 'Zhou Enlai at the Cuban black musician Ignacio Villa''s last solo concert in China and the farewell reception of the Commission for Cultural Relations with Foreign Countries: praises his voice as the voice of the Cuban and Latin American peoples and of the Cuban people''s joy; introduces the Chinese artists Bai Yang, Zhou Xiaoyan and Guo Shuzhen; asks about the Cuban students'' study and life in China and hopes their schools arrange it better.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 469 (Apr. 6, 1962). Continues 470. Names: Zhou Enlai, Ignacio Villa.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 469 (Apr. 6, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 6, 1962; 晚上, the Capital Theater). Continues 470. Names: Zhou Enlai, Ignacio Villa.'
+    src:
+      c: 7ef6e46a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 469: ?'
+        - 'w.zhou-enlai-waijiao-huodong 330: A'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
   - id: cal.1962-04-07.vietnam-hanoi
     when: Apr. 7
@@ -1407,8 +1412,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai receives the Soviet delegation to the fourth concluding meeting of the Sino-Soviet joint academic committee on the productive forces of the Heilong (Amur) basin; congratulates the scientists on finishing the research tasks set by the agreement of Aug. 18, 1956.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 17, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 17, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 17, 1962; 下午, a meeting on the Amur basin''s productive forces). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: aa1c6491
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 471: ?'
+        - 'w.zhou-enlai-waijiao-huodong 330: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_range:
+      - 1962-04-17T04:00Z
+      - 1962-04-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-18.defense
     when: Apr. 18
     date: '1962-04-18'
@@ -1614,11 +1629,18 @@ entries:
   - id: cal.1962-04-20.china-leadership
     when: Apr. 20
     date: '1962-04-20'
+    time: 1962-04-20T03:30Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives the Soviet trade and economic delegation under Foreign Trade Minister Patolichev. Sino-Soviet trade will grow, only a matter of time; differences of view and trade troubles can be overcome; the volume cannot jump for objective reasons but the direction is right; he asks about it himself daily. On trade with capitalist countries: keep it under good control, reckon every deal in politics as well as economics. With Africa and other undeveloped states: it is good for them; China asks no privilege, attaches no political terms, and aims to help their national economies toward independence.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 20, 1962). Made public: 1997. Names: Zhou Enlai, Patolichev.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 20, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 20, 1962; 上午11时30分, 人民大会堂安徽厅). Made public: 1997. Names: Zhou Enlai, Patolichev.'
+    src:
+      c: 01eb9483
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 472: ?'
+        - 'w.zhou-enlai-waijiao-huodong 330: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:patolichev-nikolai-s, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-21.states-and-cities-seattle
     when: Apr. 21
     date: '1962-04-21'
@@ -1833,6 +1855,18 @@ entries:
     c: 'Zhou Enlai to the Secretariat: his "Opinions on improving the assignment of college graduates." Graduates are an important resource, yet they have been used outside their training and wasted; the Ministry of Education, which trains them, takes no part in assigning them; assignment must tie in closely with training; he sets out a set of methods.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 473 (Apr. 26, 1962). Continues 474. Made public: 1997. To check: the Opinions. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-26.china-leadership-2
+    when: Apr. 26
+    date: '1962-04-26'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking, Xihuating. Zhou Enlai receives the wife and two daughters of Julião, of Brazil.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 26, 1962). Names: Zhou Enlai. Check: the name, 巴西儒利奥夫人 in the book.'
+    src:
+      c: 81e80c62
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 330: all'
+    tags: [polity:prc, polity:brazil, name:zhou-enlai]
   - id: cal.1962-04-27.opinion
     when: Apr. 27
     date: '1962-04-27'
@@ -1922,8 +1956,30 @@ entries:
     date: '1962-04-27'
     thread: china-leadership
     c: 'Zhou Enlai receives Ghana''s Ambassador, Bina Kexi (比纳·克西), and sums up the experience of China''s revolution and construction: achievements the main thing, faults always there, but relying on the people and drawing lessons China can lead them on.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 474 (Apr. 27, 1962). Made public: 1997. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 474 (Apr. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 27, 1962; 中南海西花厅). Made public: 1997. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    src:
+      c: cc687920
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 474: ?'
+        - 'w.zhou-enlai-waijiao-huodong 330: A'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, vis:only:prc+ghana]
+  - id: cal.1962-04-27.china-leadership-5
+    when: Apr. 27
+    date: '1962-04-27'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking, Xihuating. Zhou Enlai receives the DPRK Ambassador, Han Ik-su.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 27, 1962; 下午). Names: Zhou Enlai.'
+    src:
+      c: 08cf89c8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 330: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-04-27T04:00Z
+      - 1962-04-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-28.georgia-ga
     when: Apr. 28
     date: '1962-04-28'
@@ -1969,10 +2025,17 @@ entries:
   - id: cal.1962-04-28.china-leadership-2
     when: Apr. 28
     date: '1962-04-28'
+    time: 1962-04-28T03:30Z
     thread: china-leadership
     c: 'Zhou Enlai receives Poland''s Ambassador, Knote (克诺泰): the American farm has passed its test, solving agriculture before industry; Japan''s half-mechanization and chemical farming grew after the Second World War; taking capitalist experience, adding the socialist system and a true grasp of farming''s importance, China can catch up fast.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 475 (Apr. 28, 1962). Made public: 1997. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 475 (Apr. 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 28, 1962; 上午11时30分). Made public: 1997. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    src:
+      c: a8c49156
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 475: ?'
+        - 'w.zhou-enlai-waijiao-huodong 330: A'
     tags: [polity:prc, polity:poland, name:zhou-enlai, vis:only:prc+poland]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-29.press-and-broadcasting
     when: Apr. 29
     date: '1962-04-29'
@@ -2469,3 +2532,17 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 206: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 206 n.77: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04-30.china-leadership-5
+    when: Apr. 30
+    date: '1962-04-30'
+    time: 1962-04-30T11:15Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the May Day reception given by Chen Yi, Vice Premier and Foreign Minister.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 30, 1962; 晚7时15分). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 9cc354be
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 330: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    time_zone: Asia/Shanghai

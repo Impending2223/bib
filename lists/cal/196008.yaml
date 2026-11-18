@@ -134,27 +134,68 @@ entries:
   - id: cal.1960-08-01.china-leadership-2
     when: Aug. 1
     date: '1960-08-01'
+    time: 1960-08-01T02:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives the Polish Ambassador: much in the Soviet document handed the parties at Bucharest does not fit the facts; the Moscow Declaration the common standard; China hopes the November meeting at Moscow agrees on that basis; his wish to go to Gomułka. India: China stops patrols twenty kilometers from the border. Japan: the new government''s basic policy will not change; stress contacts with the people.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 336 (Aug. 1, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 336 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 284–85 (Aug. 1, 1960; 上午10时, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 2a307e04
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 336: ?'
+        - 'w.zhou-enlai-waijiao-huodong 284–85: A'
     tags: [polity:prc, polity:poland, polity:ussr, name:zhou-enlai, vis:only:prc+poland]
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-01.china-leadership-3
     when: Aug. 1
     date: '1960-08-01'
     thread: china-leadership
     also: [china]
     c: 'At the Swiss Ambassador''s national day reception, Zhou Enlai says China will live in peace with all states and keep world peace, and proposes that the states of Asia and the Pacific coast, the United States included, sign a nonaggression peace pact and make the whole region free of nuclear weapons: a long-term aim, to be worked for.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 下午). Names: Zhou Enlai.'
+    src:
+      c: ea03cbc1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 337: ?'
+        - 'w.zhou-enlai-waijiao-huodong 285: A'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1960-08-01T04:00Z
+      - 1960-08-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-01.china-leadership-4
     when: Aug. 1
     date: '1960-08-01'
     thread: china-leadership
     also: [china]
     c: 'At the farewell banquet of Brigadier Aung Gyi, Burma''s chief delegate to the boundary joint commission and deputy chief of staff, Zhou Enlai: among states of a different social system Burma was first to show China friendship, first to recognize it, first to sign a treaty of friendship and nonaggression on the five principles, and will be first to sign a boundary treaty.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960). Names: Zhou Enlai, Aung Gyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 晚上). Names: Zhou Enlai, Aung Gyi.'
+    src:
+      c: ee24395a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 337: ?'
+        - 'w.zhou-enlai-waijiao-huodong 285: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:aung-gyi]
+    time_range:
+      - 1960-08-01T11:00Z
+      - 1960-08-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-01.china-leadership-7
+    when: Aug. 1
+    date: '1960-08-01'
+    time: 1960-08-01T03:50Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, Xihuating. Zhou Enlai receives the Afghan Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 上午11时50分). Names: Zhou Enlai.'
+    src:
+      c: 8d5d38c0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-02.governors-mi
     when: Aug. 2
     date: '1960-08-02'
@@ -891,6 +932,23 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 219-CT/TW on the grain shortage between harvests: more people hungry, those with surplus unwilling to sell to the state or selling to the hungry at high prices. More production, thrift, purchases and debt collection, mutual aid, rationed distribution; vigilance against enemy sabotage.'
     n: '*Chỉ thị của Ban Bí thư số 219-CT/TW về những biện pháp cấp bách để giải quyết khó khăn về lương thực hiện nay*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 425–30. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-08-12.china-leadership
+    when: Aug. 12
+    date: '1960-08-12'
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Capital Theater. Zhou Enlai watches a performance by the Burmese Cultural Friendship Art Troupe and receives its head and the chief performers.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 12, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: dce60846
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1960-08-12T11:00Z
+      - 1960-08-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-13.laos
     when: Aug. 13–14
     date: '1960-08-13'
@@ -957,6 +1015,23 @@ entries:
     c: 'At the Fourth National Foreign Affairs Conference Zhou Enlai: quarrel in the socialist camp a new problem the enemy uses; look ahead ten years. Strategy: unite the camp, win the national movements, break the war-makers. On the Sino-Soviet dispute think of the worst and work for the best: five possibilities (propaganda blockade, split, subversion, threats, imperialism using it to start war). The other party basically anti-imperialist and socialist, its errors of principle but partial.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 340 (Aug. 14, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-14.china-leadership-2
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking. Zhou Enlai, with Soong Ching Ling, receives the delegation of the Korean–Chinese Friendship Association, the Korean film delegation and the Korean national volleyball team.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 14, 1960; 上午). Names: Zhou Enlai.'
+    src:
+      c: 54d975f5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1960-08-13T22:00Z
+      - 1960-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-15.space
     when: Aug. 15
     date: '1960-08-15'
@@ -1029,6 +1104,57 @@ entries:
         witness: w.lengxi-shinian-lunzhan-1956-1966
         reads: 'the two letters reach China Aug. 14 (Mao, to Hồ, Aug. 19: "on the 14th they gave us two letters")'
         at: '351'
+  - id: cal.1960-08-15.china-leadership-3
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leaving by special plane for a friendly visit to Afghanistan.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 15, 1960; 上午). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 8bd53757
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1960-08-14T22:00Z
+      - 1960-08-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-15.china-leadership-4
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking. Zhou Enlai attends the reception given by the North Korean Ambassador for the 15th anniversary of Korea's liberation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 15, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: fbb887cc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1960-08-15T11:00Z
+      - 1960-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-15.china-leadership-5
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives Oginga Odinga, vice chairman of the Kenya African National Union.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 15, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: dcb197be
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:kenya, name:zhou-enlai]
+    time_range:
+      - 1960-08-15T11:00Z
+      - 1960-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-16.latin-america
     when: Aug. 16–21
     date: '1960-08-16'
@@ -1153,6 +1279,23 @@ entries:
     c: 'Zhou Enlai gives a banquet for the Soviet experts about to go home, and for the Party and government thanks them for their work in China''s construction and says farewell: any fault in China''s work to be told to the heads of its units, so that the ten years'' friendship be kept; the two peoples'' friendship eternal.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 16, 1960). Names: Zhou Enlai.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai]
+  - id: cal.1960-08-16.china-leadership-2
+    when: Aug. 16
+    date: '1960-08-16'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives and gives a luncheon for Nakajima Kenzo, head of the Japan–China cultural exchange association, his wife and their party.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 16, 1960; 中午). Names: Zhou Enlai.'
+    src:
+      c: d3e09836
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1960-08-16T04:00Z
+      - 1960-08-16T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-17.soviet-union
     when: Aug. 17–19
     date: '1960-08-17'
@@ -1247,8 +1390,35 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives Hungary''s new Ambassador (Ferenc Márton in the chronology''s transliteration), who describes Hungarian farming. Zhou: agriculture the base, how to grow it faster without hurting industry; overcoming farm difficulties harder than industry''s; the people''s enthusiasm will overcome them.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 17, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 17, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 17, 1960; 上午, 中南海). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 34bad882
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 341: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
     tags: [polity:prc, polity:hungary, name:zhou-enlai, vis:only:prc+hungary]
+    time_range:
+      - 1960-08-16T22:00Z
+      - 1960-08-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-17.china-leadership-2
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai attends the national day reception given by the Indonesian chargé d'affaires.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 17, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 520ed025
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_range:
+      - 1960-08-17T11:00Z
+      - 1960-08-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-18.congo-2
     when: Aug. 18
     date: '1960-08-18'
@@ -1399,8 +1569,18 @@ entries:
     thread: china-leadership
     also: [latin-america, africa, china]
     c: 'Zhou Enlai at the banquet of the Communist Youth League and others for twelve youth and student delegations from Asia, Africa and Latin America: if their peoples unite in the struggle they can stop imperialist aggression and keep the peace; divided, or unsupporting, they may be used and broken and attacked, oppressed, threatened and provoked.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 18, 1960). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 18, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 18, 1960; 中午, 人民大会堂). Names: Zhou Enlai.'
+    src:
+      c: d37136fa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 341: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1960-08-18T04:00Z
+      - 1960-08-18T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-19.latin-america
     when: Aug. 19
     date: '1960-08-19'
@@ -1943,8 +2123,18 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: Zhou Enlai receives the American writer Anna Louise Strong. Unity of the two parties, two states and all brother parties is the main thing; the differences, not great, are of principle, but in action neither party has left the Marxist–Leninist course; wrong theory must be limited and pulled back. The anti-American movement warns imperialism and limits its provocations; China opposes American aggression, cold war and policies of strength but does not refuse to sit down with the American government; the aim is to show America that China cannot be provoked or slighted, so as to stop war or delay it.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 342 (Aug. 25, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 342 (Aug. 25, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 25, 1960; 中午, 中南海西花厅, with Deng Yingchao, at home, to lunch). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 0fb83dce
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 342: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
     tags: [polity:prc, polity:us, polity:ussr, name:zhou-enlai, vis:only:prc+us]
+    time_range:
+      - 1960-08-25T04:00Z
+      - 1960-08-25T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-26.latin-america
     when: Aug. 26
     date: '1960-08-26'
@@ -2053,6 +2243,23 @@ entries:
     c: Zhou Enlai to U Nu, inviting U Nu, Ne Win and U Ba Swe to China before the end of September; thanking Burma for its plan to give rice and salt to the Chinese living on the boundary when the treaty is signed; and saying he will go to Rangoon himself on Jan. 4 next year to exchange the treaty's ratifications and join the independence day celebrations.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 343 (Aug. 26, 1960). Made public: 1997. Names: Zhou Enlai, U Nu, Ne Win, Ba Swe.'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, name:ne-win, name:ba-swe, vis:only:prc+burma]
+  - id: cal.1960-08-26.china-leadership-3
+    when: Aug. 26
+    date: '1960-08-26'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives a delegation of Costa Rican deputies visiting China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 26, 1960; 下午). Names: Zhou Enlai.'
+    src:
+      c: f636ed0e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+    tags: [polity:prc, polity:costa-rica, name:zhou-enlai]
+    time_range:
+      - 1960-08-26T04:00Z
+      - 1960-08-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-27.sit-ins
     when: Aug. 27
     date: '1960-08-27'
@@ -2103,8 +2310,35 @@ entries:
     thread: china-leadership
     also: [japan, trade]
     c: 'Zhou Enlai receives Suzuki Kazuo, managing director of the Japan–China Trade Promotion Association: the three principles of trade (government agreements, private contracts, case-by-case consideration), with the three political principles restated (Japan''s government not to be hostile to China, not to follow America in the "two Chinas" plot, not to obstruct normalization). China will wait to see Ikeda''s government.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 343 (Aug. 27, 1960). Made public: 1997. Names: Zhou Enlai, Ikeda Hayato.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 343 (Aug. 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 27, 1960; 下午). Made public: 1997. Names: Zhou Enlai, Ikeda Hayato.'
+    src:
+      c: '10874345'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 343: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:ikeda-hayato, vis:only:prc+japan]
+    time_range:
+      - 1960-08-27T04:00Z
+      - 1960-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-27.china-leadership-2
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives General Heriberto Jara, chairman of the Mexican National Peace Council, and José Rodríguez, editor of a Mexican magazine, visiting China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 27, 1960; 下午). Names: Zhou Enlai.'
+    src:
+      c: f912a66b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+    tags: [polity:prc, polity:mexico, name:zhou-enlai]
+    time_range:
+      - 1960-08-27T04:00Z
+      - 1960-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-28.cuba
     when: Aug. 28–29
     date: '1960-08-28'
@@ -2377,7 +2611,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai takes Edgar Snow to the Miyun reservoir. On the way he reviews relations with the United States over the eleven years, before the Warsaw talks'' 100th meeting on Sept. 6: since the Korean war''s start in June 1950 America took a policy of aggression, China wants talks on the disputes; a principle agreement first, with two points: all disputes, Taiwan''s included, settled by peaceful consultation without force or its threat; the United States to withdraw its forces from Taiwan and the Strait, when and how for the next step.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 30, 1960; 赴密云水库途中在火车上). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: d38c693a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 345: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
     tags: [polity:prc, polity:us, name:zhou-enlai, vis:only:prc+us]
   - id: cal.1960-08-30.china-leadership-2
     when: Aug. 30
@@ -2745,3 +2984,20 @@ entries:
     c: Zhou Enlai, Aug. 31 to Sept. 3, with Wang Heshou, Zhang Linzhi, Lü Zhengcao and others on steel, coal and transport.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 347 (Aug. 31, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-31.china-leadership-4
+    when: Aug. 31
+    date: '1960-08-31'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Great Hall of the People. Zhou Enlai watches a performance by the Mongolian art troupe and receives its head and chief performers.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 287 (Aug. 31, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: c93c5f5a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 287: all'
+    tags: [polity:prc, polity:mongolia, name:zhou-enlai]
+    time_range:
+      - 1960-08-31T11:00Z
+      - 1960-08-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

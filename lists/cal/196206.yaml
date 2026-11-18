@@ -283,8 +283,18 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: 'Zhou Enlai receives Cambodia''s Prime Minister, Prince Penn Nouth, at Shenyang and flies with him to Dalian. In the plane, on construction: with the right direction and line, the methods are still to be groped for; countries differ, so do their ways to independence and to building; building takes longer than revolution. On the Sino-Indian border: China''s stand is clear, to keep the status quo and settle by talks, and to stop border patrols; China has settled with Burma and Nepal by talks and now starts with Pakistan; why not India. Talks again at Dalian.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 481 (June 4, 1962). Made public: 1997. Names: Zhou Enlai, Penn Nouth.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 481 (June 4, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 4, 1962; 上午, 沈阳; 在飞往大连途中). Made public: 1997. Names: Zhou Enlai, Penn Nouth.'
+    src:
+      c: 9df86314
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 481: ?'
+        - 'w.zhou-enlai-waijiao-huodong 331: A'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:penn-nouth, vis:only:prc+cambodia]
+    time_range:
+      - 1962-06-03T22:00Z
+      - 1962-06-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-04.china-leadership-2
     when: June 4
     date: '1962-06-04'
@@ -300,6 +310,23 @@ entries:
     c: Zhou Enlai with the Party and government heads of Lüda city on saving grain; the same day back to Shenyang.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 481 (June 4, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-06-04.china-leadership-4
+    when: June 4
+    date: '1962-06-04'
+    thread: china-leadership
+    also: [china]
+    c: Lüda (Dalian). Zhou Enlai meets Prince Penn Nouth and accompanies him through the city.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 4, 1962; 下午). See [[cal.1962-06-04.china-leadership]]. Names: Zhou Enlai, Penn Nouth.'
+    src:
+      c: b2d96d05
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 331: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:penn-nouth]
+    time_range:
+      - 1962-06-04T04:00Z
+      - 1962-06-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-05.elections-1962
     when: June 5
     date: '1962-06-05'
@@ -1279,11 +1306,18 @@ entries:
   - id: cal.1962-06-15.china-leadership-2
     when: June 15
     date: '1962-06-15'
+    time: 1962-06-15T10:40Z
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai at Shenyang receives the Korean Supreme People's Assembly delegation passing through, and talks with the guests; that night he leaves for Changchun.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 15, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 15, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 15, 1962; 晚6时40分, 沈阳车站). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: cd5283bc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 484: ?'
+        - 'w.zhou-enlai-waijiao-huodong 331: A'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-15.china-leadership-3
     when: June 15
     date: '1962-06-15'
@@ -1931,6 +1965,23 @@ entries:
     c: Zhou Enlai back in Peking from the Northeast.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 26, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-06-26.china-leadership-2
+    when: June 26
+    date: '1962-06-26'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking. Zhou Enlai calls on Pak Kŭm-ch'ŏl, head of the DPRK Supreme People's Assembly delegation, at his guesthouse and dines with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 26, 1962; 下午). Names: Zhou Enlai.'
+    src:
+      c: bd68c096
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 331: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-06-26T04:00Z
+      - 1962-06-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-27.court
     when: June 27
     date: '1962-06-27'
@@ -2122,11 +2173,18 @@ entries:
   - id: cal.1962-06-28.china-leadership-2
     when: June 28
     date: '1962-06-28'
+    time: 1962-06-28T09:00Z
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai receives Pak Kum Chol, head of the Korean Supreme People's Assembly delegation, and Han Ik Su, Korea's Ambassador, on the China–Korea border question.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 28, 1962). Made public: 1997. Check: the delegation head''s name in Roman letters (朴金哲, 韩益洙). Names: Zhou Enlai, Pak Kum Chol, Han Ik Su.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 28, 1962; 下午5时, 中南海西花厅, 接见并宴请). Made public: 1997. Check: the delegation head''s name in Roman letters (朴金哲, 韩益洙). Names: Zhou Enlai, Pak Kum Chol, Han Ik Su.'
+    src:
+      c: 792f2505
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 487: ?'
+        - 'w.zhou-enlai-waijiao-huodong 331: A'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-29.latin-america
     when: June 29–July 1
     date: '1962-06-29'
@@ -2185,8 +2243,35 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Zhou Enlai and Chen Yi receive Quinim Pholsena and Phoumi Vongvichit and others of the delegations to the Geneva Conference from the Laotian coalition government. The formation of the coalition is only the first step, a beginning of victory; the road ahead is long: to unite the peoples, build the economy, and keep and secure peace and independence.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 29, 1962). Continues 488; footnote: the Geneva Conference, opened May 1961, stalled after Dec. 1961 and resumed in June 1962 when Laos''s government of national union was formed. Made public: 1997. Names: Zhou Enlai, Chen Yi, Quinim Pholsena, Phoumi Vongvichit.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 29, 1962); [[w.zhou-enlai-waijiao-huodong]], 331–32 (June 29, 1962; 晚上, 人民大会堂福建厅). Continues 488; footnote: the Geneva Conference, opened May 1961, stalled after Dec. 1961 and resumed in June 1962 when Laos''s government of national union was formed. Made public: 1997. Names: Zhou Enlai, Chen Yi, Quinim Pholsena, Phoumi Vongvichit.'
+    src:
+      c: ed18ab82
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 487: ?'
+        - 'w.zhou-enlai-waijiao-huodong 331–32: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:chen-yi, name:quinim-pholsena, vis:only:prc+laos+pathet-lao]
+    time_range:
+      - 1962-06-29T11:00Z
+      - 1962-06-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-29.china-leadership-3
+    when: June 29
+    date: '1962-06-29'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the farewell banquet given by Pak Kŭm-ch'ŏl, head of the DPRK Supreme People's Assembly delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 29, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: ce9998ab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 331: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1962-06-29T11:00Z
+      - 1962-06-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-30.state-and-city-finance-us
     when: June 30
     date: '1962-06-30'
@@ -2531,3 +2616,20 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 233 n.97a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 233 n.97b: all'
     tags: [polity:prc, name:chen-yun, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-06-30.china-leadership-2
+    when: June 30
+    date: '1962-06-30'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives the Japanese men's and women's table tennis teams led by Shibata Hyakumon.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 332 (June 30, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: c53ccd6a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 332: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1962-06-30T11:00Z
+      - 1962-06-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

@@ -19,8 +19,18 @@ entries:
     date: '1962-01-01'
     thread: china-leadership
     c: 'Zhou Enlai, at Chen Yi''s banquet for foreign experts: thanks them for their help in China''s socialist construction.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 449 (Jan. 1, 1962). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 449 (Jan. 1, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 1, 1962; 晚上, 人民大会堂). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 2445cd91
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 449: ?'
+        - 'w.zhou-enlai-waijiao-huodong 328: A'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1962-01-01T11:00Z
+      - 1962-01-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-02.health-ct
     when: Jan. 2
     date: '1962-01-02'
@@ -94,6 +104,23 @@ entries:
         - 'w.anderson-confronting-the-color-line 89: all'
         - 'via w.anderson-confronting-the-color-line 89 n.43: all'
     tags: [name:willis-benjamin-c, state:il, city:chicago]
+  - id: cal.1962-01-02.china-leadership
+    when: Jan. 2
+    date: '1962-01-02'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking, the Cuban Embassy. Zhou Enlai attends the reception given by the Cuban Ambassador, Pino Santos, for the third anniversary of the Cuban revolution's victory.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 2, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 6f1aa4ab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 328: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1962-01-02T11:00Z
+      - 1962-01-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-03.vietnam
     when: Jan. 3
     date: '1962-01-03'
@@ -177,6 +204,23 @@ entries:
     c: Zhongnanhai, the Yinian Tang. Mao presides at an enlarged meeting of the Politburo Standing Committee on streamlining (精简) of staff.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 4, 1962. Made public: 2013. Names: Mao Zedong.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-01-04.china-leadership-2
+    when: Jan. 4
+    date: '1962-01-04'
+    thread: china-leadership
+    also: [china]
+    c: Peking Hotel. Zhou Enlai attends the reception given by the Burmese Ambassador and his wife for the 14th anniversary of Burma's independence.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 4, 1962; 晚上). Names: Zhou Enlai.'
+    src:
+      c: bb18c19d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 328: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1962-01-04T11:00Z
+      - 1962-01-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-05.transition-and-staff-nsc
     when: Jan. 5
     date: '1962-01-05'
@@ -400,7 +444,12 @@ entries:
     date: '1962-01-08'
     thread: china-leadership
     c: 'Zhou Enlai receives Abdyl Kellezi, head of Albania''s government delegation and Vice-Chairman of the Council of Ministers. On the experts'' plans for Albania, large and complete and slow to draw: the Chinese engineers'' ideas of construction do not fit Mao''s frugal building of the country; a meeting is now taking up the same fault in China; from the first Five-Year Plan China copied the Soviet Union, and its thinking was never made Chinese.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 451 (Jan. 8, 1962). Made public: 1997. Names: Zhou Enlai, Abdyl Kellezi, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 451 (Jan. 8, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 8, 1962). Made public: 1997. Names: Zhou Enlai, Abdyl Kellezi, Mao Zedong.'
+    src:
+      c: 6093216a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 451: ?'
+        - 'w.zhou-enlai-waijiao-huodong 328: A'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:mao-zedong, vis:only:prc+albania]
   - id: cal.1962-01-09.china-leadership
     when: Jan. 9
@@ -410,6 +459,20 @@ entries:
     c: 'The Central Committee''s statement condemning the American government''s anti-communist "atrocities" and supporting the American Communist Party''s struggle. Mao, on the Secretariat''s draft sent by Yang Shangkun on Jan. 8: "seen, agreed." Published in the People''s Daily, Jan. 15.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 9, 1962. Made public: 2013. To check: the statement as printed in the *Renmin ribao* of Jan. 15, 1962. Names: Mao Zedong, Yang Shangkun.'
     tags: [polity:prc, polity:us, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-01-09.china-leadership-2
+    when: Jan. 9
+    date: '1962-01-09'
+    time: 1962-01-09T04:00Z
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, Xihuating. Zhou Enlai receives the Syrian Ambassador, Taraji.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 9, 1962; 中午12时). Names: Zhou Enlai. Check: the book gives 叙利亚 (Syria) for Taraji, whom the 1960–61 entries call the UAR Ambassador.'
+    src:
+      c: cbad8c67
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 328: all'
+    tags: [polity:prc, polity:syria, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-10.congress
     when: Jan. 10
     date: '1962-01-10'
@@ -611,8 +674,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai, with Chen Yi, receives Suzuki Mosaburo, adviser, and the Japan Socialist Party delegation; at the banquet Jan. 12: the blood Asanuma paid in the Japanese people''s fight against American imperialism; each country''s way of struggle follows its own conditions and the people''s awareness; the reactionaries'' charge of a military alliance between the two peoples is a lie; exchanges between them have worldwide meaning.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 11–12, 1962). Names: Zhou Enlai, Chen Yi, Suzuki Mosaburo, Asanuma Inejiro.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 11–12, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 11, 1962; 下午, 中南海西花厅); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 12, 1962; 下午, 人民大会堂; 欢迎宴会). Names: Zhou Enlai, Chen Yi, Suzuki Mosaburo, Asanuma Inejiro.'
+    src:
+      c: 4914ff44
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 452: ?'
+        - 'w.zhou-enlai-waijiao-huodong 328: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1962-01-11T04:00Z
+      - 1962-01-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-11.china-leadership-4
     when: Jan. 11–25
     date: '1962-01-11'
@@ -819,6 +892,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-01-13.china-leadership
+    when: Jan. 13
+    date: '1962-01-13'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of five China–Albania agreements and a protocol, and gives a banquet for the Albanian government's economic delegation headed by Vice Chairman Kellezi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 13, 1962; 晚上). See [[cal.1962-01-08.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: d1c0664f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 328: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1962-01-13T11:00Z
+      - 1962-01-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-14.european-community
     when: Jan. 14
     date: '1962-01-14'
@@ -838,11 +928,18 @@ entries:
   - id: cal.1962-01-14.china-leadership-2
     when: Jan. 14
     date: '1962-01-14'
+    time: 1962-01-14T09:30Z
     thread: china-leadership
     also: [laos, vietnam-hanoi]
     c: 'Zhou Enlai meets Souphanouvong, chairman of the Lao Patriotic Front Central Committee, and Hoang Van Hoan, special adviser to the Vietnamese delegation at the enlarged Geneva Conference: exchange of views on the Laotian coalition government and the prospects of the conference.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 14, 1962). Made public: 1997. Names: Zhou Enlai, Souphanouvong, Hoàng Văn Hoan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 14, 1962); [[w.zhou-enlai-waijiao-huodong]], 328–29 (Jan. 14, 1962; 下午5时30分, 钓鱼台宾馆18号楼, 会见并宴请). Made public: 1997. Names: Zhou Enlai, Souphanouvong, Hoàng Văn Hoan.'
+    src:
+      c: 001a52b6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 452: ?'
+        - 'w.zhou-enlai-waijiao-huodong 328–29: A'
     tags: [polity:prc, polity:pathet-lao, polity:drv, name:zhou-enlai, name:souphanouvong, vis:only:prc+pathet-lao+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-15.vietnam
     when: Jan. 15
     date: '1962-01-15'
@@ -939,6 +1036,32 @@ entries:
         - 'via x.1962-01-15.jacqueline-kennedy-to-clifford: all'
       c: 79b570ee
     tags: [name:kennedy-jacqueline, name:clifford-clark]
+  - id: cal.1962-01-15.china-leadership
+    when: Jan. 15
+    date: '1962-01-15'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai receives the Afghan Ambassador, Abdul Samad.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 15, 1962). Names: Zhou Enlai.'
+    src:
+      c: 4dde5be0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 329: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
+  - id: cal.1962-01-15.china-leadership-2
+    when: Jan. 15
+    date: '1962-01-15'
+    time: 1962-01-15T09:30Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, Xihuating. Zhou Enlai receives the Danish Ambassador, Batson, soon to leave his post.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 15, 1962; 下午5时30分). Names: Zhou Enlai.'
+    src:
+      c: 445edb3d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 329: all'
+    tags: [polity:prc, polity:denmark, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-16.middle-east
     when: Jan. 16
     date: '1962-01-16'
@@ -2076,6 +2199,20 @@ entries:
     c: Paris, night, the cocktail party at Minister Cecil Lyon's. Salinger and Kharlamov, as agreed, say nothing of the television exchange; Kharlamov denies a Kremlin crisis and calls Molotov "a political cadaver." Baraduc of the French Foreign Office, who had tipped the press, eavesdrops, and quarrels with Kharlamov over the expulsions of correspondents. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 211. Check: the day. See [[cal.1962-01-28.soviet-union]]. Names: Lyon, Salinger, Kharlamov, Molotov, Baraduc.'
     tags: [name:salinger-pierre, name:kharlamov-mikhail-a]
+  - id: cal.1962-01-28.china-leadership
+    when: Jan. 28
+    date: '1962-01-28'
+    time: 1962-01-28T10:00Z
+    thread: china-leadership
+    also: [china, laos, vietnam-hanoi]
+    c: 'Peking, Diaoyutai guesthouse, Building 18. Zhou Enlai meets and dines Souphanouvong, on his way home, and Hoàng Văn Hoan, special adviser to the Vietnamese delegation to the enlarged Geneva conference. He says the three princes'' Geneva communiqué has a positive side: it can be used as a weapon to expose Phoumi Nosavan''s constant breaking of promises; a coalition government on its basis would be good, and the struggle would go on within it; the main thing is to strengthen one''s own forces, and in the end the matter is settled by strength.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 28, 1962; 晚6时). Made public: 1993. Names: Zhou Enlai, Souphanouvong, Phoumi Nosavan.'
+    src:
+      c: 98fe1e6a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 329: all'
+    tags: [polity:prc, polity:pathet-lao, polity:drv, name:zhou-enlai, name:souphanouvong, name:phoumi-nosavan, vis:only:prc+pathet-lao+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-29.testing
     when: Jan. 29
     date: '1962-01-29'

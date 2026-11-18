@@ -146,11 +146,18 @@ entries:
   - id: cal.1963-10-01.china-leadership-4
     when: Oct. 1
     date: '1963-10-01'
+    time: 1963-10-01T09:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives Son Sann, Sihanouk''s private adviser and Governor of Cambodia''s National Bank, on China''s economic construction: the first Five-Year Plan could only copy the Soviet Union, with some gains and much unsuited to China; in the second China sought its own experience and made the general line; three lean years and the Soviet experts'' withdrawal forced self-reliance. The economy now recovers all round; so large a country needs time.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 583 (Oct. 1, 1963). Continues 584. Made public: 1997. Names: Zhou Enlai, Son Sann.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 583 (Oct. 1, 1963); [[w.zhou-enlai-waijiao-huodong]], 372 (Oct. 1, 1963; 下午5时, 钓鱼台宾馆2号楼, 设宴招待并进行了会谈). Continues 584. Made public: 1997. Names: Zhou Enlai, Son Sann.'
+    src:
+      c: b95622d4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 583: ?'
+        - 'w.zhou-enlai-waijiao-huodong 372: A'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:son-sann, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-02.vietnam
     when: Oct. 2
     date: '1963-10-02'
@@ -345,19 +352,43 @@ entries:
   - id: cal.1963-10-02.china-leadership
     when: Oct. 2
     date: '1963-10-02'
+    time: 1963-10-02T08:30Z
     thread: china-leadership
     also: [soviet-union]
     c: 'The Great Hall. Mao receives the Albanian military delegation under Balluku; Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Xiao Hua present. The revisionists oppose Albania, China and every Marxist-Leninist party; unforeseen, but not bad: the Twentieth and Twenty-second Congresses make us think, work and unite, and fight them; we did not prepare to fight them, and they forced it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 2, 1963. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Balluku, Xiao Hua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 2, 1963. [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 2, 1963; 下午4时30分, 人民大会堂北京厅, 陪同毛泽东主席会见). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Luo Ruiqing, Balluku, Xiao Hua.'
+    src:
+      c: c1692177
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 2, 1963: all'
+        - 'w.zhou-enlai-waijiao-huodong 373: A'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:he-long, name:luo-ruiqing, polity:albania, vis:only:prc+albania]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-02.china-leadership-2
     when: Oct. 2–3
     date: '1963-10-02'
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai receives Soviet chess players and a composer; Oct. 3 he tells the Chinese sports delegation that these players are not high in rank but his seeing them, as a representative act, shows great friendship for the Soviet people; there is now unhealthy feeling in society, opposition to revisionism has grown into opposition to foreigners, which is wrong, the shoot of an unhealthy national feeling.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 2–3, 1963). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 2–3, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 2, 1963; 接见苏联作曲家和象棋大师扎戈罗夫斯基等). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 18c7e756
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 584: ?'
+        - 'w.zhou-enlai-waijiao-huodong 373: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-10-02.china-leadership-3
+    when: Oct. 2
+    date: '1963-10-02'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking. Zhou Enlai receives the Korea–China Friendship Association delegation headed by Han Su-dong, director of the Cabinet's third bureau.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 372 (Oct. 2, 1963). Names: Zhou Enlai.'
+    src:
+      c: db8941b9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 372: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
   - id: cal.1963-10-03.latin-america
     when: Oct. 3
     date: '1963-10-03'
@@ -415,16 +446,45 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhou Enlai receives the Algerian government delegation under Ammar Ouzegane, Minister of State, and talks of a loan to Algeria and other matters.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963). Continues 585. Made public: 1997. Names: Zhou Enlai, Ammar Ouzegane.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 中午, 钓鱼台宾馆10号楼, 与陈毅副总理会谈并设午宴); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 4, 1963; 下午4时30分, 中南海西花厅, 继续会谈). Continues 585. Made public: 1997. Names: Zhou Enlai, Ammar Ouzegane.'
+    src:
+      c: 33b8faff
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 584: ?'
+        - 'w.zhou-enlai-waijiao-huodong 373: A'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, vis:only:prc+algeria]
+    time_range:
+      - 1963-10-03T04:00Z
+      - 1963-10-03T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-03.china-leadership-3
     when: Oct. 3
     date: '1963-10-03'
     thread: china-leadership
     also: [south-asia, soviet-union]
     c: Zhou Enlai approves Fang Yi's request report on a loan to Algeria. The same day, at the dinner of Pakistan's Ambassador, Raza, for the visiting Pakistani party for National Day, he says the chief task now is to expose the three-power treaty's deceit of the world's peoples; when Raza says all agree it was Zhou who led the Bandung Conference and guided its course at the critical hours, he says no, it was everyone's merit, one man cannot do it, one must move all together.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963). Continues 585. Made public: 1997. Names: Zhou Enlai, Fang Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 晚7时30分; the Pakistani Ambassador''s dinner at his residence). Continues 585. Made public: 1997. Names: Zhou Enlai, Fang Yi.'
+    src:
+      c: 354021f2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 584: ?'
+        - 'w.zhou-enlai-waijiao-huodong 373: B'
     tags: [polity:prc, polity:pakistan, polity:algeria, name:zhou-enlai, vis:only:prc+pakistan+algeria]
+  - id: cal.1963-10-03.china-leadership-4
+    when: Oct. 3
+    date: '1963-10-03'
+    time: 1963-10-03T10:00Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi, trade]
+    c: Peking, Xihuating. Zhou Enlai receives the Vietnam Workers' Party's study delegation on finance and trade.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 晚6时). Names: Zhou Enlai.'
+    src:
+      c: 3febbae6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 373: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-04.opinion
     when: Oct. 4
     date: '1963-10-04'
@@ -590,8 +650,25 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai tells Hungary's Ambassador, Martin (马尔丁), that where fraternal parties differ, the relations of the parties, and above all of the states, should be kept normal, and the exchanges of the two peoples more so.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 4, 1963). Made public: 1997. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 4, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 4, 1963; 人民大会堂福建厅, 即将离任的匈牙利驻华大使马尔丁). Made public: 1997. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    src:
+      c: 0fcc23ff
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 585: ?'
+        - 'w.zhou-enlai-waijiao-huodong 373: A'
     tags: [polity:prc, polity:hungary, name:zhou-enlai, vis:only:prc+hungary]
+  - id: cal.1963-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1963-10-04'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai receives and gives a banquet for the Pakistani delegation to the National Day celebrations.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 4, 1963). Names: Zhou Enlai.'
+    src:
+      c: ebcd58e9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 373: all'
+    tags: [polity:prc, polity:pakistan, name:zhou-enlai]
   - id: cal.1963-10-05.vietnam
     when: Oct. 5
     date: '1963-10-05'
@@ -733,6 +810,18 @@ entries:
     c: 'McCone, Director of Central Intelligence, to Saigon: "we certainly cannot be in the position of stimulating, approving, or supporting assassination, but on the other hand, we are in no way responsible for stopping every such threat of which we might receive even partial knowledge. We certainly would not favor assassination of Diem." Best approach "hands off"; "we naturally interested in intelligence on any such plan."'
     n: '[[w.sen-church-alleged-assassination-plots]], 217, 221 (the cable, drafted for McCone by Colby, chief of the Far East Division, by Colby''s testimony of June 20, 1975). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, Director to Saigon, Oct. 5, 1963 (cited by [[w.sen-church-alleged-assassination-plots]], 221). See [[cal.1963-10-05.vietnam-saigon]]. Names: McCone, Diệm.'
     tags: [name:mccone-john-a, name:ngo-dinh-diem]
+  - id: cal.1963-10-05.china-leadership
+    when: Oct. 5
+    date: '1963-10-05'
+    thread: china-leadership
+    also: [china, japan, trade]
+    c: Peking Hotel. Zhou Enlai attends the reception given by Ishibashi Tanzan, president of the Japan Industrial Exhibition, for the exhibition's opening.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 5, 1963). Names: Zhou Enlai, Ishibashi.'
+    src:
+      c: 0b5dd3f7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 373: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai, name:ishibashi-tanzan]
   - id: cal.1963-10-06.opinion-5
     when: Oct. 6
     date: '1963-10-06'
@@ -779,7 +868,24 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou Enlai visits the Japanese industrial exhibition.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 6, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 6, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 6, 1963; 参观日本工业展览会). Names: Zhou Enlai.'
+    src:
+      c: 7e92f4b1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 585: ?'
+        - 'w.zhou-enlai-waijiao-huodong 373: A'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+  - id: cal.1963-10-06.china-leadership-2
+    when: Oct. 6
+    date: '1963-10-06'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives the Japanese Warabiza folk song and dance troupe and watches its performance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 6, 1963). Names: Zhou Enlai.'
+    src:
+      c: fa14aec2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 373: all'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
   - id: cal.1963-10-07.baker
     when: Oct. 7
@@ -1236,11 +1342,18 @@ entries:
   - id: cal.1963-10-09.china-leadership
     when: Oct. 9
     date: '1963-10-09'
+    time: 1963-10-09T03:00Z
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai receives Ishibashi Tanzan. On a peace treaty with Japan: America''s separate peace and the Japan–Taiwan treaty are the greatest obstacle; China works indirectly, gradually, to win that Japan voids that treaty and signs with it. Of three Japanese feelings for Taiwan, colonialist, militarist and economic, the first two are unjust and opposed; trade with Taiwan China does not oppose. Some in the ruling party set the new China and Taiwan against each other, which ends badly for both. He welcomes the straightforward way of Ishibashi, Matsumura and Takasaki.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 9, 1963). Continues 586. Made public: 1997. Names: Zhou Enlai, Ishibashi Tanzan, Matsumura Kenzo, Takasaki Tatsunosuke.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 9, 1963); [[w.zhou-enlai-waijiao-huodong]], 373–74 (Oct. 9, 1963; 上午11时, 中南海西花厅). Continues 586. Made public: 1997. Names: Zhou Enlai, Ishibashi Tanzan, Matsumura Kenzo, Takasaki Tatsunosuke.'
+    src:
+      c: 6296c643
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 585: ?'
+        - 'w.zhou-enlai-waijiao-huodong 373–74: A'
     tags: [polity:prc, polity:japan, polity:roc, name:zhou-enlai, vis:only:prc+japan]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-10.king
     when: Oct. 10
     date: '1963-10-10'
@@ -1506,6 +1619,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-10-10.china-leadership
+    when: Oct. 10
+    date: '1963-10-10'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai receives the Indonesian song and dance troupe and watches its performance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 10, 1963). Names: Zhou Enlai.'
+    src:
+      c: def4bfa9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
   - id: cal.1963-10-11.vietnam
     when: Oct. 11
     date: '1963-10-11'
@@ -1641,6 +1766,18 @@ entries:
       c: b6ba90d0
       rows:
         - 'w.risen-bill-of-the-century 117: all'
+  - id: cal.1963-10-11.china-leadership
+    when: Oct. 11
+    date: '1963-10-11'
+    thread: china-leadership
+    also: [china, europe-and-the-alliance-britain]
+    c: Peking. Zhou Enlai receives the general manager of Reuters, Gerald Long, and answers his questions.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 11, 1963). Names: Zhou Enlai. Check: the name, 杰勤尔德·朗 in the book.'
+    src:
+      c: bc0c0fd8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:uk, name:zhou-enlai]
   - id: cal.1963-10-12.elections-1964
     when: Oct. 12
     date: '1963-10-12'
@@ -1758,16 +1895,28 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives Albania''s friendship delegation and its delegation on scientific and technical cooperation: in the thirty years after Lenin''s death Stalin had great merit; the faults and errors of those thirty years Stalin bears much of; in his late years Stalin and other high Soviet cadres seldom went to the villages and lost touch with reality; the larger the country, the likelier bureaucracy, and one oversight makes trouble.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 587 (Oct. 13, 1963). Made public: 1997. Names: Zhou Enlai, Stalin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 587 (Oct. 13, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 13, 1963). Made public: 1997. Names: Zhou Enlai, Stalin.'
+    src:
+      c: fcabb512
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 587: ?'
+        - 'w.zhou-enlai-waijiao-huodong 374: A'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:stalin-joseph, vis:only:prc+albania]
   - id: cal.1963-10-13.china-leadership-2
     when: Oct. 13
     date: '1963-10-13'
+    time: 1963-10-13T06:30Z
     thread: china-leadership
     also: [indonesia]
     c: Zhou Enlai receives Sumarno, Indonesia's Minister for Central Bank Affairs, on economic and trade aid. Indonesia's economic trouble he thinks only temporary; the question is how to raise farm output and grain, how to take the enterprises back from imperialism, how to hold the state's foreign trade. Economic work is complex; the private economy cannot be cut off all at once, or one loses the thread; what matters is how the state controls it; economic questions need economic means, besides decrees, with an outlet for private industry and trade, else the economy suffers.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 587 (Oct. 13, 1963). Made public: 1997. Check: the minister''s name in Roman letters (苏玛诺). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 587 (Oct. 13, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 13, 1963; 下午2时30分, 中南海西花厅). Made public: 1997. Check: the minister''s name in Roman letters (苏玛诺). Names: Zhou Enlai.'
+    src:
+      c: e98d04a0
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 587: ?'
+        - 'w.zhou-enlai-waijiao-huodong 374: A'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-14.defense
     when: Oct. 14
     date: '1963-10-14'
@@ -1914,6 +2063,20 @@ entries:
     c: 'Khrushchev, a note to the Presidium on exports and imports, after a TASS bulletin of Oct. 5 quoting Japan''s minister of trade and industry: Japan to send $300 million of large-diameter pipe for Soviet oil, ten million tons a year. He knows of no such plan; the foreign trade ministry may have talked.'
     n: '[[w.khrushchev-dva-tsveta-vremeni]], II, 732–34 (VIII, doc. 19). Made public: 2009. Names: Khrushchev. Check: the rest of the note, pp. 733–34, not read.'
     tags: [name:khrushchev-nikita-s, polity:ussr, vis:only:ussr]
+  - id: cal.1963-10-15.china-leadership
+    when: Oct. 15
+    date: '1963-10-15'
+    time: 1963-10-15T06:00Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, Xihuating. Zhou Enlai receives the Cambodian Ambassador, Sisowath Sirik Matak.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 15, 1963; 下午2时). Made public: 1993. Names: Zhou Enlai, Sirik Matak.'
+    src:
+      c: 5bfb34c4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:sirik-matak-sisowath, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-16.opinion-5
     when: Oct. 16
     date: '1963-10-16'
@@ -2054,6 +2217,30 @@ entries:
     c: Zhou Enlai calls the heads of the departments to hear delegates of Jiangxi's "Communist Labor University" report, and holds a forum on the college's line of teaching and growth.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 587 (Oct. 16, 1963). Continues 588. Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-10-16.china-leadership-2
+    when: Oct. 16
+    date: '1963-10-16'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai receives the leader of Cuba's land commission, Major González.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 16, 1963). Names: Zhou Enlai. Check: the name, 冈萨雷斯 in the book.'
+    src:
+      c: 8226de6e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+  - id: cal.1963-10-16.china-leadership-3
+    when: Oct. 16
+    date: '1963-10-16'
+    thread: china-leadership
+    also: [china, indonesia, trade]
+    c: Peking. Zhou Enlai attends the signing of the supplementary documents to the China–Indonesia agreement on economic and technical cooperation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 16, 1963). Names: Zhou Enlai.'
+    src:
+      c: 6468a7c5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
   - id: cal.1963-10-17.europe-and-the-alliance
     when: Oct. 17
     date: '1963-10-17'
@@ -2171,6 +2358,18 @@ entries:
     c: Zhou Enlai with persons concerned on water conservancy; on Oct. 29 he calls Lin Yishan and others on the "low-head power generation test" at the Sanmenxia dam.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 588 (Oct. 17, 29, 1963). Made public: 1997. Names: Zhou Enlai, Lin Yishan.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-10-17.china-leadership-2
+    when: Oct. 17
+    date: '1963-10-17'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives the Tanganyikan cultural delegation headed by Sijona, Minister of National Culture and Education.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 17, 1963). Names: Zhou Enlai.'
+    src:
+      c: 2c45f084
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
   - id: cal.1963-10-18.defense-soviet-forces
     when: Oct. 18
     date: '1963-10-18'
@@ -2387,11 +2586,18 @@ entries:
   - id: cal.1963-10-20.china-leadership-2
     when: Oct. 20
     date: '1963-10-20'
+    time: 1963-10-20T10:00Z
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai receives delegates to the Buddhists'' conference of eleven Asian states and regions: what settles things is the heart of the people; their "Appeal to the Buddhists of the World" is a moral force. To Nepal''s head: Buddhism is idealist and communism materialist, but believers and unbelievers agree politically against interference, for independence and love of country; China does not hide that it is atheist, but they can be friends. To Kongo Shuichi of the Japan Buddhist Association, on the Yangzhou meeting for Jianzhen''s 1,200th anniversary: Sino-Japanese friendship needs his will to cross a thousand hills and rivers.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 589 (Oct. 20, 1963). Continues 590; footnote: China, Cambodia, Indonesia, Japan, Korea, Laos, Nepal, Pakistan, Thailand, Vietnam and South Vietnam. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 589 (Oct. 20, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 20, 1963; 晚6时, 人民大会堂福建厅). Continues 590; footnote: China, Cambodia, Indonesia, Japan, Korea, Laos, Nepal, Pakistan, Thailand, Vietnam and South Vietnam. Names: Zhou Enlai.'
+    src:
+      c: 75cec4d3
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 589: ?'
+        - 'w.zhou-enlai-waijiao-huodong 374: A'
     tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-21.press-and-broadcasting
     when: Oct. 21
     date: '1963-10-21'
@@ -2517,6 +2723,18 @@ entries:
       rows:
         - 'w.risen-bill-of-the-century 124–25: all'
     tags: [name:mcculloch-william-m, name:libonati-roland-v, name:kennedy-robert-f]
+  - id: cal.1963-10-21.china-leadership
+    when: Oct. 21
+    date: '1963-10-21'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai receives the Belgian trade unionists Camille Gouzée and Marcel Demaret.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 21, 1963). Names: Zhou Enlai. Check: the names, 卡米勒·古塞 and 马赛尔·德马特 in the book.'
+    src:
+      c: 59232b43
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:belgium, name:zhou-enlai]
   - id: cal.1963-10-22.specials
     when: Oct. 22
     date: '1963-10-22'
@@ -2806,11 +3024,18 @@ entries:
   - id: cal.1963-10-23.china-leadership-2
     when: Oct. 23
     date: '1963-10-23'
+    time: 1963-10-23T03:00Z
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives Edgar Faure, former Prime Minister of France and representative of President de Gaulle, in talks on establishing Sino-French relations. The difficulty is France's relation with Taiwan, to be settled by a reasonable way. Before Taiwan is settled formal relations and an exchange of ambassadors cannot be had, but informal ones can, such as a trade office first, semi-official or private; and if France and China establish relations France should keep no diplomatic staff or office in Taiwan; Britain's way is unpleasant for both. Three months of talks on establishing relations followed.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 590 (Oct. 23, 1963). Made public: 1997. Names: Zhou Enlai, Edgar Faure, De Gaulle.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 590 (Oct. 23, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 23, 1963; 上午11时, 中南海西花厅, first talks). Made public: 1997. Names: Zhou Enlai, Edgar Faure, De Gaulle.'
+    src:
+      c: 05bdc15e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 590: ?'
+        - 'w.zhou-enlai-waijiao-huodong 374: A'
     tags: [polity:prc, polity:fr, polity:roc, name:zhou-enlai, name:faure-edgar-jean, name:de-gaulle-charles, vis:only:prc+fr]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-24.program
     when: Oct. 24
     date: '1963-10-24'
@@ -3058,6 +3283,18 @@ entries:
     c: 'Zhou Enlai, on the State Physical Culture Commission Party group''s request to climb Xixabangma in 1964: all the preparations may start and the General Staff be asked to draw transport from the troops in Tibet for concentrated training; but whether to climb in 1964 is to be reported to the Center for approval after training and preparation with firm assurances. (A note: the Chinese climbers first reached the peak May 2, 1964.)'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 591 (Oct. 24, 1963). Footnote at 591: Xixabangma, then the last peak over 8,000 meters unclimbed. Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-10-24.china-leadership-3
+    when: Oct. 24
+    date: '1963-10-24'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives the Speaker of Tanganyika's National Assembly.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 24, 1963). Names: Zhou Enlai.'
+    src:
+      c: 108f0d72
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
   - id: cal.1963-10-25.opinion
     when: Oct. 25
     date: '1963-10-25'
@@ -3247,11 +3484,18 @@ entries:
   - id: cal.1963-10-25.china-leadership-4
     when: Oct. 25
     date: '1963-10-25'
+    time: 1963-10-25T08:30Z
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and Chen Yi talk with Faure. Both sides should state their wish to establish relations, exchange ambassadors, France recognize the People's Republic and not recognize a second China. In the talks a tacit understanding must be reached beforehand, that France recognizes only one China and does not mean to make Taiwan a second China or an "independent state"; then a solution can sooner or later be found; China makes no bargain of principle on any international question.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 591 (Oct. 25, 1963). Continues 592. Made public: 1997. Names: Zhou Enlai, Chen Yi, Edgar Faure.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 591 (Oct. 25, 1963); [[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 25, 1963; 下午4时30分, 中南海西花厅, 会谈并设便宴). Continues 592. Made public: 1997. Names: Zhou Enlai, Chen Yi, Edgar Faure.'
+    src:
+      c: d9fd8f7e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 591: ?'
+        - 'w.zhou-enlai-waijiao-huodong 374: A'
     tags: [polity:prc, polity:fr, polity:roc, name:zhou-enlai, name:chen-yi, name:faure-edgar-jean, vis:only:prc+fr]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-26.press-and-broadcasting
     when: Oct. 26
     date: '1963-10-26'
@@ -3331,6 +3575,18 @@ entries:
     c: 'Amherst. Kennedy takes Schlesinger with him, having invited him by telephone on Friday night. On the plane north he works over Schlesinger''s draft, toning down the fancier passages and adding an opening section of his own on the obligations of young men of privilege. On Eisenhower''s reminiscences, on the way: "Apparently he never did anything wrong. When we come to writing the memoirs of this administration, we''ll do it differently." By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 202. Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Schlesinger, Eisenhower.'
     tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:eisenhower-dwight-d, state:ma]
+  - id: cal.1963-10-26.china-leadership
+    when: Oct. 26
+    date: '1963-10-26'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai receives and gives a banquet for Thapa, Speaker of Nepal's National Panchayat, and its delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 374 (Oct. 26, 1963). Names: Zhou Enlai.'
+    src:
+      c: 7cc8075a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 374: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
   - id: cal.1963-10-27.opinion-5
     when: Oct. 27
     date: '1963-10-27'
@@ -3422,6 +3678,18 @@ entries:
     c: Zhou Enlai with persons concerned on grain, and on importing synthetic ammonia equipment from Britain.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 27, 1963). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:uk, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-10-27.china-leadership-2
+    when: Oct. 27
+    date: '1963-10-27'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the reception given by Thapa, Speaker of the National Panchayat.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 27, 1963). Names: Zhou Enlai.'
+    src:
+      c: 4225f40b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
   - id: cal.1963-10-28.cities-and-housing-nyc
     when: Oct. 28
     date: '1963-10-28'
@@ -3701,6 +3969,20 @@ entries:
     c: Zhou Enlai with persons concerned on finance, foreign affairs and metallurgy, Oct. 28–30.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 28–30, 1963). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-10-28.china-leadership-2
+    when: Oct. 28
+    date: '1963-10-28'
+    time: 1963-10-28T06:25Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, Xihuating. Zhou Enlai receives Ibrahima Niass, elder of the Senegalese Muslim believers' association.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 28, 1963; 下午2时25分). Names: Zhou Enlai.'
+    src:
+      c: cbef3bdc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:senegal, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-29.civil-rights-bill
     when: Oct. 29
     date: '1963-10-29'
@@ -3995,6 +4277,30 @@ entries:
     c: 'Lodge to State: a request for funds should be anticipated.'
     n: '[[w.sen-church-alleged-assassination-plots]], 222 n.1 (the cables of Oct. 29 and 30). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Cables, Lodge to State, Oct. 29 and 30, 1963 (cited by [[w.sen-church-alleged-assassination-plots]], 222). See [[cal.1963-10-24.vietnam-saigon]]. Names: Lodge.'
     tags: [name:lodge-henry-cabot]
+  - id: cal.1963-10-29.china-leadership
+    when: Oct. 29
+    date: '1963-10-29'
+    thread: china-leadership
+    also: [china, trade]
+    c: Peking. Zhou Enlai receives the Finnish government trade delegation and the Finnish Minister of Trade and Industry.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 29, 1963). Names: Zhou Enlai.'
+    src:
+      c: 2cdf3167
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:finland, name:zhou-enlai]
+  - id: cal.1963-10-29.china-leadership-2
+    when: Oct. 29
+    date: '1963-10-29'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives the Chilean senators and deputies visiting China and the leader of the new left democratic movement, former Interior Minister Montero, and their wives.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 29, 1963). Names: Zhou Enlai. Check: the names, 阿乌马达, 蒙特罗 and 杜马 in the book.'
+    src:
+      c: 22293cc7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:chile, name:zhou-enlai]
   - id: cal.1963-10-30.opinion
     when: Oct. 30
     date: '1963-10-30'
@@ -4207,6 +4513,20 @@ entries:
     c: 'Lodge to Washington: there may be a request by key leaders for evacuation; he suggests Saigon as a point for it.'
     n: '[[w.sen-church-alleged-assassination-plots]], 223 n.2 (the cable; Conein charged with getting the airplane). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Cable, Saigon to Washington, Oct. 30, 1963 (cited by [[w.sen-church-alleged-assassination-plots]], 223). See [[cal.1963-10-30.vietnam]]. Names: Lodge.'
     tags: [name:lodge-henry-cabot]
+  - id: cal.1963-10-30.china-leadership
+    when: Oct. 30
+    date: '1963-10-30'
+    time: 1963-10-30T06:00Z
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, Xihuating. Zhou Enlai receives the UAR education delegation headed by the Minister of Higher Education, Abdel Aziz Said, and says that Asian and African states need to support one another, those that won first having the duty to support those that have not or won later. At Bandung he thought Nasser knew more of West African and African affairs than the Chinese; the ten principles were adopted by the drafting committee of the Political Committee under Nasser's chairmanship, on which he sat; they need further elaboration, above all in African states' mutual support. The chief mark of Bandung was equality of states large and small.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 30, 1963; 下午2时). Names: Zhou Enlai, Nasser.'
+    src:
+      c: 2886798b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [name:nasser-gamal-abdel, polity:prc, polity:uar, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1963-10-31.program
     when: Oct. 31
     date: '1963-10-31'
@@ -4860,8 +5180,58 @@ entries:
   - id: cal.1963-10-31.china-leadership-2
     when: Oct. 31
     date: '1963-10-31'
+    time: 1963-10-31T09:00Z
     thread: china-leadership
     also: [china]
     c: Zhou Enlai puts to Faure a transitional plan of "establishing relations positively and by steps."
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 31, 1963). Made public: 1997. Names: Zhou Enlai, Edgar Faure.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 31, 1963); [[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 31, 1963; 下午5时, 钓鱼台宾馆15号楼). Made public: 1997. Names: Zhou Enlai, Edgar Faure.'
+    src:
+      c: aae4e042
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 592: ?'
+        - 'w.zhou-enlai-waijiao-huodong 375: A'
     tags: [polity:prc, polity:fr, polity:roc, name:zhou-enlai, name:faure-edgar-jean, vis:only:prc+fr]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-10-31.china-leadership-3
+    when: Oct. 31
+    date: '1963-10-31'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai receives the American Black leader Robert Williams and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 31, 1963). Names: Zhou Enlai.'
+    src:
+      c: c28ed13f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:us, name:zhou-enlai]
+  - id: cal.1963-10-31.china-leadership-4
+    when: Oct. 31
+    date: '1963-10-31'
+    time: 1963-10-31T13:30Z
+    thread: china-leadership
+    also: [china, europe-and-the-alliance-france]
+    c: Peking. Zhou Enlai accompanies Liu Shaoqi in receiving Edgar Faure, former Prime Minister of France.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 31, 1963; 晚9时30分). See [[cal.1963-10-23.china-leadership-2]]. Names: Zhou Enlai, Liu Shaoqi, Faure.'
+    src:
+      c: ebd7adac
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:fr, name:zhou-enlai, name:liu-shaoqi, name:faure-edgar-jean]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-10-31.china-leadership-5
+    when: Oct. 31
+    date: '1963-10-31'
+    thread: china-leadership
+    also: [china, europe-and-the-alliance-france]
+    c: Peking. Zhou Enlai attends the farewell dinner given by Faure, French Senator and former Prime Minister.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 375 (Oct. 31, 1963; 晚上). See [[cal.1963-10-23.china-leadership-2]]. Names: Zhou Enlai, Faure.'
+    src:
+      c: 0604cdea
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 375: all'
+    tags: [polity:prc, polity:fr, name:zhou-enlai, name:faure-edgar-jean]
+    time_range:
+      - 1963-10-31T11:00Z
+      - 1963-10-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

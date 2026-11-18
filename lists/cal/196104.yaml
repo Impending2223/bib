@@ -501,8 +501,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai attends the opening of the 26th World Table Tennis Championships in Peking and receives guests; that evening at He Long's banquet speaks for the Chinese people and government and "as an amateur table-tennis lover" welcomes friends from five continents.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961). Names: Zhou Enlai, He Long.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 306 (Apr. 4, 1961; 下午, 北京工人体育场; evening, the banquet given by He Long). Names: Zhou Enlai, He Long.'
+    src:
+      c: 74ae623d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 402: ?'
+        - 'w.zhou-enlai-waijiao-huodong 306: A'
     tags: [polity:prc, name:zhou-enlai, name:he-long]
+    time_range:
+      - 1961-04-04T04:00Z
+      - 1961-04-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-04.china-leadership-3
     when: Apr. 4
     date: '1961-04-04'
@@ -511,6 +521,23 @@ entries:
     c: 'Zhou Enlai cables the Council of the Afro-Asian People''s Solidarity Organization on its fourth session before the sixth anniversary of Bandung: he is sure it will further the Bandung spirit and help Afro-Asian unity and world peace.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1961-04-04.china-leadership-4
+    when: Apr. 4
+    date: '1961-04-04'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai attends the reception given by the Hungarian Ambassador, Márton Ferenc, for the 16th anniversary of Hungary's liberation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 306 (Apr. 4, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 5bd685d8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 306: all'
+    tags: [polity:prc, polity:hungary, name:zhou-enlai]
+    time_range:
+      - 1961-04-04T11:00Z
+      - 1961-04-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-05.opinion
     when: Apr. 5
     date: '1961-04-05'
@@ -653,11 +680,18 @@ entries:
   - id: cal.1961-04-05.china-leadership
     when: Apr. 5
     date: '1961-04-05'
+    time: 1961-04-05T11:00Z
     thread: china-leadership
     also: [africa, foreign-aid, europe-and-the-alliance]
     c: 'Zhou Enlai receives Sweden''s Ambassador. On aid to backward countries: whether real help or colonial policy has three dividing lines: whether privileges and control are asked; whether it helps build independent economies; whether it helps them build faster, with investment quickly in production. China wants to see advanced countries'' aid build independent national economies and so serve peace and progress.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 5, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 306–07 (Apr. 5, 1961; 晚7时, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 68b2b649
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 402: ?'
+        - 'w.zhou-enlai-waijiao-huodong 306–07: A'
     tags: [polity:prc, polity:sweden, name:zhou-enlai, vis:only:prc+sweden]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-06.opinion
     when: Apr. 6–11
     date: '1961-04-06'
@@ -1379,8 +1413,18 @@ entries:
     thread: china-leadership
     also: [space, soviet-union]
     c: 'Zhou Enlai cables Khrushchev on learning the Soviet Union has launched the first manned spaceship, Vostok, which returned safely: an achievement opening a new epoch of man''s climb to other bodies and turning man''s lovely fancy of space flight into fact.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 11, 1961). Names: Zhou Enlai, Khrushchev.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 11, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961). Names: Zhou Enlai, Khrushchev.'
+    src:
+      c: d008b8d8
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 404: ?'
+        - 'w.zhou-enlai-waijiao-huodong 307: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Apr. 12; the entry has Apr. 11
+        at: '307'
   - id: cal.1961-04-12.space
     when: Apr. 12
     date: '1961-04-12'
@@ -1551,11 +1595,35 @@ entries:
   - id: cal.1961-04-12.china-leadership-2
     when: Apr. 12
     date: '1961-04-12'
+    time: 1961-04-12T05:00Z
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai''s talk with U Nu, comparing news of Laos: if America fights a local war there it will be more the wrong time, place and war than Korea; if it does not interfere Laos can be settled; peace in Laos has hope.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 12, 1961). Made public: 1997. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 下午1时, 昆明西部安宁温泉, 便宴). Made public: 1997. Names: Zhou Enlai, U Nu.'
+    src:
+      c: ecc19412
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 404: ?'
+        - 'w.zhou-enlai-waijiao-huodong 307: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-12.china-leadership-4
+    when: Apr. 12
+    date: '1961-04-12'
+    thread: china-leadership
+    also: [china]
+    c: Kunming. Zhou Enlai attends the welcoming banquet given by Yu Yichuan, Governor of Yunnan, for U Nu and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 晚上). See [[cal.1961-04-12.china-leadership-2]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: 3e743939
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 307: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-04-12T11:00Z
+      - 1961-04-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-13.european-community
     when: Apr. 13
     date: '1961-04-13'
@@ -1733,8 +1801,35 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai with U Nu, Apr. 13–15, at Jinghong in Xishuangbanna for the Dai New Year. On the 14th he sees the tropical crops institute and a state rubber farm and asks closely about rubber, telling officials to build up China''s young rubber industry. On the 15th he joins in splashing water. To local peoples and cadres: learn from each other, unite, raise minority cadres, manure and water works; protect the forests and the ecological balance; Xishuangbanna counts in Southeast Asia, so build the socialist frontier well.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 13, 1961). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 13, 1961; 傍晚, 昆明到允景洪). Names: Zhou Enlai, U Nu.'
+    src:
+      c: e148a792
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 404: ?'
+        - 'w.zhou-enlai-waijiao-huodong 307: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-04-13T09:00Z
+      - 1961-04-13T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-13.china-leadership-2
+    when: Apr. 13
+    date: '1961-04-13'
+    thread: china-leadership
+    also: [china]
+    c: Jinghong. Zhou Enlai attends the song and dance evening given by the autonomous prefecture's people's committee for U Nu and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 307–08 (Apr. 13, 1961; 晚上). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: ef292344
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 307–08: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-04-13T11:00Z
+      - 1961-04-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-14.latin-america
     when: Apr. 14
     date: '1961-04-14'
@@ -1929,6 +2024,20 @@ entries:
     c: 'To the botanist Cai Xitao, working in Xishuangbanna: it is a rich and lovely land, and if the forests are destroyed it will become a desert and Communists will be sinners of history whom later generations will blame; study this, solve proper clearing, protect resources, remake nature, be a hero of the people, not a sinner of history.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 14, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-04-14.china-leadership-2
+    when: Apr. 14
+    date: '1961-04-14'
+    time: 1961-04-14T08:00Z
+    thread: china-leadership
+    also: [china]
+    c: Jinghong, the Lancang River. Zhou Enlai watches with U Nu the largest dragon-boat race in Xishuangbanna's history, and celebrates the Dai New Year with the prefecture's people.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 14, 1961; 下午4时). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: f7ee0e8e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-15.cuba
     when: Apr. 15
     date: '1961-04-15'
@@ -2064,6 +2173,54 @@ entries:
     c: 'Salinger at his briefing, on the morning''s air raids, not knowing their origin: "our only information comes from the wire service stories we have read. We have no direct relations with Cuba and therefore have no firsthand information." By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 146–47. See [[cal.1961-04-15.cuba]]. Names: Salinger.'
     tags: [name:salinger-pierre]
+  - id: cal.1961-04-15.china-leadership
+    when: Apr. 15
+    date: '1961-04-15'
+    time: 1961-04-15T03:00Z
+    thread: china-leadership
+    also: [china]
+    c: Jinghong, the central square. Zhou Enlai and U Nu celebrate the Water Festival with more than 5,000 people.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 15, 1961; 上午11时). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: 19d2ab8c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-15.china-leadership-2
+    when: Apr. 15
+    date: '1961-04-15'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai accompanies U Nu's party from Jinghong to Simao.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 15, 1961; 傍晚). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: 31d88384
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-04-15T09:00Z
+      - 1961-04-15T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-15.china-leadership-3
+    when: Apr. 15
+    date: '1961-04-15'
+    thread: china-leadership
+    also: [china]
+    c: Simao. Zhou Enlai gives a state banquet in farewell to U Nu and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 15, 1961; 晚上). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    src:
+      c: '39274991'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_range:
+      - 1961-04-15T11:00Z
+      - 1961-04-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-16.cuba
     when: Apr. 16
     date: '1961-04-16'
@@ -2191,11 +2348,18 @@ entries:
   - id: cal.1961-04-16.china-leadership-2
     when: Apr. 16
     date: '1961-04-16'
+    time: 1961-04-16T01:30Z
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and U Nu issue a joint communiqué. The same day Zhou reaches Chengdu; back in Peking next day.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 16, 1961). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 16, 1961); [[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 16, 1961; 上午9时30分, 思茅机场). Names: Zhou Enlai, U Nu.'
+    src:
+      c: 187f20f4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 405: ?'
+        - 'w.zhou-enlai-waijiao-huodong 308: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-17.right-and-the-military
     when: Apr. 17
     date: '1961-04-17'
@@ -2465,6 +2629,20 @@ entries:
     c: 'The White House, Monday morning. Kennedy to Salinger, five minutes after his arrival: "We''ll have no comment on what''s happening down there. We''re watching developments. That''s all." By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 147. See [[cal.1961-04-17.cuba-bay-of-pigs-4]]. Names: Kennedy, Salinger.'
     tags: [name:salinger-pierre, name:kennedy-john-f]
+  - id: cal.1961-04-17.china-leadership
+    when: Apr. 17
+    date: '1961-04-17'
+    time: 1961-04-17T14:45Z
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking, Diaoyutai guesthouse. Zhou Enlai meets Prince Souphanouvong, chairman of the Neo Lao Hak Xat, and goes with him to the airport.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 17, 1961; 晚10时45分). Made public: 1993. Names: Zhou Enlai, Souphanouvong.'
+    src:
+      c: a3bc0e57
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:pathet-lao, name:zhou-enlai, name:souphanouvong, vis:only:prc+pathet-lao]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-18.specials
     when: Apr. 18
     date: '1961-04-18'
@@ -2807,6 +2985,83 @@ entries:
     c: At the Secretariat Zhou Enlai hears Deng Xiaoping on his inquiry in Shunyi county near Peking, and Tan Zhenlin on his in Liling county, Hunan, and in Henan's villages.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 18, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Tan Zhenlin.'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1961-04-18.china-leadership-3
+    when: Apr. 18
+    date: '1961-04-18'
+    time: 1961-04-18T06:10Z
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking, Wucheng Hall. Zhou Enlai receives the Venezuelan peace campaigner Antonio Delgado Lozano, senator and chairman of the Left Revolutionary Movement, and his son Fernando Delgado Espinosa, a member of the Movement.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 18, 1961; 下午2时10分). Names: Zhou Enlai.'
+    src:
+      c: 82244af6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:venezuela, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-18.china-leadership-4
+    when: Apr. 18
+    date: '1961-04-18'
+    thread: china-leadership
+    also: [china, indonesia, trade]
+    c: Peking. Zhou Enlai receives the Indonesian government's industrial delegation headed by Sukanto.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 18, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: c5250454
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_range:
+      - 1961-04-18T04:00Z
+      - 1961-04-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-18.china-leadership-5
+    when: Apr. 18
+    date: '1961-04-18'
+    thread: china-leadership
+    also: [china, africa-rhodesia]
+    c: Peking. Zhou Enlai receives Nkomo, chairman of the National Democratic Party of Southern Rhodesia.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 18, 1961). Names: Zhou Enlai, Nkomo.'
+    src:
+      c: f76aa25e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, name:zhou-enlai, name:nkomo-joshua]
+  - id: cal.1961-04-18.china-leadership-6
+    when: Apr. 18
+    date: '1961-04-18'
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the reception given by the Foreign Ministry for the sixth anniversary of the Bandung Conference.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 18, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: d9ab5e78
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1961-04-18T11:00Z
+      - 1961-04-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-18.china-leadership-7
+    when: Apr. 18
+    date: '1961-04-18'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai receives the Burmese table tennis team to the 26th World Table Tennis Championships, headed by U Maung Maung, member of the council of the Burma Table Tennis Federation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 18, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: a1297161
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1961-04-18T11:00Z
+      - 1961-04-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-19.court
     when: Apr. 19–20
     date: '1961-04-19'
@@ -3119,8 +3374,46 @@ entries:
     thread: china-leadership
     also: [japan, china]
     c: 'Zhou Enlai receives the Buraku Liberation League''s delegation under Matsuda Kiichi: the feudal traces of unequal man and man left by the old society can be ended only by ending classes; the oppressed (workers, peasants, poor intellectuals, Buraku people) are the wisest, bravest, purest; teach the Buraku not to feel low and to despise their "betters"; the League to struggle and unite with the working people, progressive intellectuals, small and middle businessmen and national capitalists. Socialism is to make equal relations between people, or it has no superiority.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 19, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 19, 1961); [[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 19, 1961; 下午, 中南海西花厅). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 812def01
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 405: ?'
+        - 'w.zhou-enlai-waijiao-huodong 308: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_range:
+      - 1961-04-19T04:00Z
+      - 1961-04-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-19.china-leadership-5
+    when: Apr. 19
+    date: '1961-04-19'
+    time: 1961-04-19T08:30Z
+    thread: china-leadership
+    also: [china, congo]
+    c: Peking, Xihuating. Zhou Enlai receives Diaka, the Congo's first Ambassador to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 19, 1961; 下午4时30分). Names: Zhou Enlai.'
+    src:
+      c: 44a1b410
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:congo, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-19.china-leadership-6
+    when: Apr. 19
+    date: '1961-04-19'
+    time: 1961-04-19T15:15Z
+    thread: china-leadership
+    also: [china, soviet-union, cuba]
+    c: Peking, the Great Hall of the People, Zhejiang Hall. Zhou Enlai receives Sudarikov, the Soviet Embassy's chargé d'affaires, who reports on the American training and equipping of Cuban bandits for an armed attack on Cuba.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 19, 1961; 晚11时15分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: e502b53f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 308: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-20.cuba
     when: Apr. 20
     date: '1961-04-20'
@@ -3461,7 +3754,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, foreign-aid]
     c: 'Zhou Enlai with Deng Xiaoping talks with Vice-Chairman Kellezi of Albania''s Council of Ministers on Sino-Albanian relations, economic aid and the Soviet–Albanian difference. Four lessons from the Chinese Party''s long struggle: let the other side provoke, then strike back; hold fast to the banner of unity; fight tit for tat; leave room, not saying everything at once so that one cannot turn back.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 20, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 20, 1961); [[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 20, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    src:
+      c: 889961d8
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 406: ?'
+        - 'w.zhou-enlai-waijiao-huodong 309: A'
     tags: [polity:prc, polity:albania, polity:ussr, name:zhou-enlai, name:deng-xiaoping, vis:only:prc+albania]
   - id: cal.1961-04-20.china-leadership-2
     when: Apr. 20
@@ -3477,8 +3775,18 @@ entries:
     thread: china-leadership
     also: [japan, china]
     c: At the banquet seeing off the Japanese table tennis team Zhou Enlai says the match is for peace, friendship and knowledge more than a title; the peoples of China and Japan want peace and see how much peaceful coexistence among states of different systems matters; he hopes players and peoples live in peace, visit, learn and exchange experience, toward normalizing relations.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 20, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 20, 1961); [[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 20, 1961; 晚上, 北京饭店). Names: Zhou Enlai.'
+    src:
+      c: fed31b3d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 406: ?'
+        - 'w.zhou-enlai-waijiao-huodong 309: A'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1961-04-20T11:00Z
+      - 1961-04-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-21.cuba
     when: Apr. 21
     date: '1961-04-21'
@@ -3701,11 +4009,49 @@ entries:
   - id: cal.1961-04-21.china-leadership-2
     when: Apr. 21
     date: '1961-04-21'
+    time: 1961-04-21T10:00Z
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai receives visitors from Guinea, South Africa, Jordan, Senegal, Uganda and Northern Rhodesia (now Zambia): a country''s independence must be economic as well as political, and in that sense China too is not yet wholly independent, not yet industrialized, its farming backward and living standards low; to win full independence oppose imperialism and colonialism together, strengthen unity and exchange between Asian, African and Latin American peoples.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 21, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 21, 1961; 晚6时, 北京工人体育场). Names: Zhou Enlai.'
+    src:
+      c: c6094d48
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 406: ?'
+        - 'w.zhou-enlai-waijiao-huodong 309: A'
     tags: [polity:prc, polity:guinea, polity:south-africa, polity:jordan, polity:senegal, polity:uganda, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-21.china-leadership-3
+    when: Apr. 21
+    date: '1961-04-21'
+    time: 1961-04-21T07:00Z
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking, the Workers' Stadium. Zhou Enlai attends the rally of 600,000 of the capital's people in support of Cuba against aggression, and receives the Cuban cultural delegation headed by Armando Hart Dávalos, Minister of Education.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 21, 1961; 下午3时). Names: Zhou Enlai, Armando Hart.'
+    src:
+      c: 5631d186
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 309: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, name:hart-davalos-armando]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-21.china-leadership-4
+    when: Apr. 21
+    date: '1961-04-21'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai attends the reception given by Yang Xiufeng, Minister of Education, in farewell to the Cuban cultural delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 21, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 128952e5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 309: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1961-04-21T11:00Z
+      - 1961-04-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-22.cuba
     when: Apr. 22
     date: '1961-04-22'
@@ -3818,19 +4164,33 @@ entries:
   - id: cal.1961-04-22.china-leadership
     when: Apr. 22
     date: '1961-04-22'
+    time: 1961-04-22T07:00Z
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai welcomes at Peking airport Souvanna Phouma, Prime Minister of Laos, and Prince Souphanouvong, chairman of the Lao Patriotic Front: the policy of independence, national concord and peace and neutrality of the government under Prince Souvanna Phouma is the wish of all Laotians; the Chinese people actively support the Laotian people''s patriotic and just struggle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 下午3时, 机场). Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: 3e980eb9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 407: ?'
+        - 'w.zhou-enlai-waijiao-huodong 310: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-22.china-leadership-2
     when: Apr. 22
     date: '1961-04-22'
+    time: 1961-04-22T10:00Z
     thread: china-leadership
     also: [laos, china]
     c: Zhou Enlai's talks with the Laotian side on Apr. 22 and 23, on the Laotian situation, Sino-Laotian relations and the convening of a widened Geneva conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 晚6时, 中南海紫光阁, 会见并共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 上午9时30分, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: d23c690f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 407: ?'
+        - 'w.zhou-enlai-waijiao-huodong 310: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos+pathet-lao]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-23.laos
     when: Apr. 23
     date: '1961-04-23'
@@ -3845,6 +4205,37 @@ entries:
         - 'via w.anthony-war-in-northern-laos 48 n.73b: all'
         - 'via w.anthony-war-in-northern-laos 48 n.73c: all'
     tags: [name:kong-le, name:brown-winthrop-g]
+  - id: cal.1961-04-23.china-leadership
+    when: Apr. 23
+    date: '1961-04-23'
+    time: 1961-04-23T07:00Z
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of 10,000 of the capital's people welcoming the Laotian guests.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 下午3时). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: cdb201f0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 310: all'
+    tags: [polity:prc, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-23.china-leadership-2
+    when: Apr. 23
+    date: '1961-04-23'
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking, the Great Hall of the People. Zhou Enlai gives a state banquet in welcome of Souvanna Phouma, Prime Minister of Laos, Souphanouvong and the Laotian party. He says that the American government's announcement of a so-called military assistance advisory group in Laos is a grave step toward direct American entry into the civil war; China reaffirms its support for Laos's independence, peace and neutrality and agrees to Sihanouk's proposal of an enlarged Geneva conference.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 晚上). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong, Sihanouk.'
+    src:
+      c: 6660e635
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 310: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong, name:norodom-sihanouk]
+    time_range:
+      - 1961-04-23T11:00Z
+      - 1961-04-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-24.court
     when: Apr. 24
     date: '1961-04-24'
@@ -3951,16 +4342,50 @@ entries:
   - id: cal.1961-04-24.china-leadership
     when: Apr. 24
     date: '1961-04-24'
+    time: 1961-04-24T14:00Z
     thread: china-leadership
     also: [laos]
     c: 'Hangzhou, the Hangzhou Hotel, evening. Mao receives Souvanna Phouma and Prince Souphanouvong, brought by Zhou Enlai that afternoon; Chen Yi and Wu Xiuquan present. Souvanna will answer the call of the Geneva co-chairmen, Gromyko and Home, for a cease-fire with a statement and talks with Vientiane on its means. Mao: the statement good, the Savannakhet group invited to Khang Khay; they want peace now only because of nine months'' fighting; keep alert.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 407, Apr. 24, 1961 (Zhou takes the two princes to Hangzhou (the reception by Mao itself is not named)). Made public: 2013. Names: Mao Zedong, Souvanna Phouma, Souphanouvong, Zhou Enlai, Chen Yi, Wu Xiuquan, Gromyko, Home.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 407, Apr. 24, 1961 (Zhou takes the two princes to Hangzhou (the reception by Mao itself is not named)). [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚10时, 杭州; 陪同毛泽东主席会见). Made public: 2013. Names: Mao Zedong, Souvanna Phouma, Souphanouvong, Zhou Enlai, Chen Yi, Wu Xiuquan, Gromyko, Home.'
     src:
       c: 55a333c0
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Apr. 24, 1961: all'
         - 'w.zhou-enlai-nianpu-1949 II, 407, Apr. 24, 1961: B'
+        - 'w.zhou-enlai-waijiao-huodong 310: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:mao-zedong, name:souvanna-phouma, name:souphanouvong, name:zhou-enlai, name:chen-yi, name:gromyko-andrei, name:douglas-home-alec, vis:only:prc+laos+pathet-lao]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-24.china-leadership-3
+    when: Apr. 24
+    date: '1961-04-24'
+    time: 1961-04-24T01:00Z
+    thread: china-leadership
+    also: [china, laos]
+    c: Zhou Enlai and Chen Yi leave Peking with Souvanna Phouma and Souphanouvong for a visit to Hangzhou.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 上午9时). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: 023e81a1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 310: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:chen-yi, name:souvanna-phouma, name:souphanouvong]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-24.china-leadership-4
+    when: Apr. 24
+    date: '1961-04-24'
+    thread: china-leadership
+    also: [china, laos]
+    c: Hangzhou. Zhou Enlai attends the banquet given by Zhou Jianren, Governor of Zhejiang, for Souvanna Phouma and Souphanouvong.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚上). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: 46eba26b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 310: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
+    time_range:
+      - 1961-04-24T11:00Z
+      - 1961-04-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-25.space
     when: Apr. 25
     date: '1961-04-25'
@@ -4100,8 +4525,47 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai and Souvanna Phouma issue a joint statement: a widened Geneva conference of fourteen states, as Prince Sihanouk proposed, is the only effective way to a peaceful settlement in Laos; the two governments decide to establish diplomatic relations and exchange ambassadors. On the next day Zhou returns to Peking.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 25, 1961). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 杭州). Names: Zhou Enlai, Souvanna Phouma.'
+    src:
+      c: 1e5fe181
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 407: ?'
+        - 'w.zhou-enlai-waijiao-huodong 310: A'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma]
+  - id: cal.1961-04-25.china-leadership-3
+    when: Apr. 25
+    date: '1961-04-25'
+    thread: china-leadership
+    also: [china, laos]
+    c: Hangzhou. Zhou Enlai sees Souvanna Phouma and Souphanouvong off at the airport.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 上午). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: e6716710
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 310: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
+    time_range:
+      - 1961-04-24T22:00Z
+      - 1961-04-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-25.china-leadership-4
+    when: Apr. 25
+    date: '1961-04-25'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Hangzhou. Zhou Enlai attends the luncheon given by Zhou Jianren, Governor of Zhejiang, and Huo Shilian, Party secretary and vice governor, for the Albanian government's economic delegation led by Vice Chairman Kellezi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 中午). Names: Zhou Enlai.'
+    src:
+      c: 12a9f202
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 310: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1961-04-25T04:00Z
+      - 1961-04-25T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-26.laos
     when: Apr. 26
     date: '1961-04-26'

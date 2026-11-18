@@ -250,8 +250,18 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou and Liu Shaoqi receive Sallal, President of the Yemen Arab Republic, on a visit to June 11, and hold talks with him.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 645–46 (June 1, 1964). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Sallal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 645–46 (June 1, 1964); [[w.zhou-enlai-waijiao-huodong]], 408 (June 1, 1964; 下午, 到机场欢迎阿拉伯也门共和国总统萨拉勒). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Sallal.'
+    src:
+      c: 344eca65
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 645–46: ?'
+        - 'w.zhou-enlai-waijiao-huodong 408: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:sallal-abdullah-al, polity:prc, polity:yemen, vis:only:prc+yemen]
+    time_range:
+      - 1964-06-01T04:00Z
+      - 1964-06-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-02.elections-1964
     when: June 2
     date: '1964-06-02'
@@ -574,6 +584,57 @@ entries:
     c: 'Zhou, on Fang Yi and Chai Shufan''s request, sent on by Li Fuchun, on supplying the main vinylon plant to Vietnam: stress domestic trial manufacture; import talks with Japan will not be easy or on time.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 2, 1964). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Fang Yi, Chai Shufan.'
     tags: [name:zhou-enlai, name:li-fuchun, polity:prc, vis:only:prc]
+  - id: cal.1964-06-02.china-leadership-3
+    when: June 2
+    date: '1964-06-02'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai, with Liu Shaoqi, meets Sallal, President of the Yemen Arab Republic.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 2, 1964; 下午). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Liu Shaoqi, Sallal.'
+    src:
+      c: bee8be9c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:liu-shaoqi, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-02T04:00Z
+      - 1964-06-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-02.china-leadership-4
+    when: June 2
+    date: '1964-06-02'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the welcoming banquet given by Liu Shaoqi for Sallal.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 2, 1964; 晚上). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Liu Shaoqi, Sallal.'
+    src:
+      c: b0a48a20
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:liu-shaoqi, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-02T11:00Z
+      - 1964-06-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-02.china-leadership-5
+    when: June 2
+    date: '1964-06-02'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai receives the UAR women's delegation headed by Mrs. Arousi, a member of the National Assembly.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 2, 1964; 晚上). Names: Zhou Enlai. Check: the name, 阿鲁西 in the book.'
+    src:
+      c: 192074df
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai]
+    time_range:
+      - 1964-06-02T11:00Z
+      - 1964-06-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-03.japan-and-korea
     when: June 3
     date: '1964-06-03'
@@ -629,6 +690,40 @@ entries:
     c: 'The Secretariat''s instruction no. 79-CT/TW on protecting the cadres'' health: cadres the Party''s and the state''s most precious capital; 80 to 90 percent of the senior and middle cadres ill, by the health service''s report; prevention first.'
     n: '*Chỉ thị của Ban Bí thư số 79-CT/TW về công tác bảo vệ sức khoẻ của cán bộ*, signed for the Secretariat by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXV, 149–53. Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1964-06-03.china-leadership
+    when: June 3
+    date: '1964-06-03'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the State Guesthouse. Zhou Enlai, with Liu Shaoqi, returns Sallal's call and holds talks with him.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 3, 1964; 下午). Made public: 1993. See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Liu Shaoqi, Sallal.'
+    src:
+      c: 5bc150d8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:liu-shaoqi, name:sallal-abdullah-al, vis:only:prc+yemen]
+    time_range:
+      - 1964-06-03T04:00Z
+      - 1964-06-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-03.china-leadership-2
+    when: June 3
+    date: '1964-06-03'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai gives a banquet in welcome of Sallal and his delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 3, 1964; 晚上). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Sallal.'
+    src:
+      c: 505d2274
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-03T11:00Z
+      - 1964-06-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-04.elections-1964
     when: June 4
     date: '1964-06-04'
@@ -765,6 +860,35 @@ entries:
         - 'w.purdum-idea-whose-time-has-2014 295: all'
       c: d98c7d6e
     tags: [name:mansfield-mike, name:russell-richard-b]
+  - id: cal.1964-06-04.china-leadership
+    when: June 4
+    date: '1964-06-04'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of the capital's circles welcoming Sallal and watches a performance by the capital's artists.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 4, 1964). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Sallal.'
+    src:
+      c: 9ee2fb56
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:sallal-abdullah-al]
+  - id: cal.1964-06-04.china-leadership-2
+    when: June 4
+    date: '1964-06-04'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai attends the dinner given by the UAR Ambassador for Sallal's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 4, 1964; 晚上). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Sallal.'
+    src:
+      c: 85fb8758
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-04T11:00Z
+      - 1964-06-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-05.europe-and-the-alliance
     when: June 5
     date: '1964-06-05'
@@ -1088,6 +1212,23 @@ entries:
     c: Zhou sends Mao, Liu, Deng and Peng to read the Chinese chargé in Britain's report to the Foreign Ministry that Sudan's Abboud was deeply impressed by his China visit. Says he will go with Chen Yi and the Yemeni president to Hangzhou; Chen Yi to go on with him to Shanghai, he to stay in Shanghai to treat a foot ailment.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 5, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Chen Yi.'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:chen-yi, polity:prc, vis:only:prc]
+  - id: cal.1964-06-05.china-leadership-2
+    when: June 5
+    date: '1964-06-05'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai receives the Swedish cultural delegation headed by Knut Sönderhjelm.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 5, 1964; 上午). Names: Zhou Enlai. Check: the head''s name, 克努特·赛南德 in the book.'
+    src:
+      c: d8902fe4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:sweden, name:zhou-enlai]
+    time_range:
+      - 1964-06-04T22:00Z
+      - 1964-06-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-06.laos
     when: June 6–7
     date: '1964-06-06'
@@ -1360,8 +1501,35 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou and Chen Yi fly with Sallal to Hangzhou. June 7 Zhou talks with the Zhejiang provincial Party committee's leaders and reaches Shanghai.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 645–46 (June 6–7, 1964). Names: Zhou Enlai, Chen Yi, Sallal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 645–46 (June 6–7, 1964); [[w.zhou-enlai-waijiao-huodong]], 408 (June 6, 1964; 上午, 和陈毅副总理陪同萨拉勒总统乘专机前往杭州). Names: Zhou Enlai, Chen Yi, Sallal.'
+    src:
+      c: 2e60d43e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 645–46: ?'
+        - 'w.zhou-enlai-waijiao-huodong 408: A'
     tags: [name:zhou-enlai, name:chen-yi, name:sallal-abdullah-al, polity:prc, polity:yemen]
+    time_range:
+      - 1964-06-05T22:00Z
+      - 1964-06-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-06.china-leadership-2
+    when: June 6
+    date: '1964-06-06'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Hangzhou. Zhou Enlai attends the banquet given by Zhou Jianren, Governor of Zhejiang, for Sallal.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 6, 1964; 晚上). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Sallal.'
+    src:
+      c: cf53b322
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-06T11:00Z
+      - 1964-06-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
@@ -1547,6 +1715,23 @@ entries:
     c: 'The National Security Council, 12:30 p.m. Reconnaissance to continue; Johnson presses for specific recommendations and plans: "Where are we going?" All but General LeMay agree on the plan; LeMay wants to get tougher. After the meeting, to Valenti: "I get anxious and look for the fire exits when a general wants to get tough. LeMay scares the hell out of me." By Valenti''s account.'
     n: '[[w.valenti-very-human-president]], 137–38 (Valenti''s account). See [[cal.1964-06-07.laos]]. Names: Johnson, LeMay, Valenti.'
     tags: [name:johnson-lyndon-b, name:lemay-curtis-e, name:valenti-jack]
+  - id: cal.1964-06-07.china-leadership
+    when: June 7
+    date: '1964-06-07'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Hangzhou. Zhou Enlai goes to the airport to see off Sallal, leaving for Shanghai with Chen Yi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (June 7, 1964; 上午). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Chen Yi, Sallal.'
+    src:
+      c: 45cac1d1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 408: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:chen-yi, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-06T22:00Z
+      - 1964-06-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-08.laos
     when: June 8
     date: '1964-06-08'
@@ -2210,7 +2395,12 @@ entries:
     thread: china-leadership
     also: [middle-east-yemen]
     c: 'Mao, Beijing, afternoon: receives Abdullah al-Sallal, President of the Yemen Arab Republic, and party; Liu Shaoqi and Zhou Enlai present. China supports every people and government against imperialism; if not under imperialist control, it can go well.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 9, 1964. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Sallal.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 9, 1964; [[w.zhou-enlai-waijiao-huodong]], 409 (June 9, 1964; 晚6时; Zhou with Mao). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Sallal.'
+    src:
+      c: 138f26a4
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, June 9, 1964: all'
+        - 'w.zhou-enlai-waijiao-huodong 409: A-B'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:sallal-abdullah-al, polity:prc, polity:yemen, vis:only:prc+yemen]
   - id: cal.1964-06-09.china-leadership-2
     when: June 9
@@ -2218,16 +2408,23 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou attends the signing of the Sino-Yemeni treaty of friendship and the cultural and economic and technical cooperation agreements. That evening at Sallal''s farewell banquet: the one effective way to solve the Laotian question is an international conference of the Geneva states; any attempt to exclude some of them or any of the three Lao parties runs against Geneva and settles nothing.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 9, 1964). Names: Zhou Enlai, Sallal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 409 (June 9, 1964; 参加中国和也门友好条约签字仪式; 晚上, 人民大会堂, 萨拉勒元帅举行的盛大宴会). Names: Zhou Enlai, Sallal.'
     tags: [name:zhou-enlai, name:sallal-abdullah-al, polity:prc, polity:yemen]
   - id: cal.1964-06-09.china-leadership-3
     when: June 9
     date: '1964-06-09'
+    time: 1964-06-09T06:30Z
     thread: china-leadership
     also: [europe-and-the-alliance-france, china]
     c: 'Zhou receives Lucien Paye, French ambassador. Explains the history of the Taiwan question and that Taiwan''s status was long settled; rebuts point by point the three American fallacies: "two Chinas", "one China, one Taiwan", "status undetermined". One day the U.S. will have to leave the Taiwan Strait; China can wait.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 9, 1964). Names: Zhou Enlai, Paye.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 408 (June 9, 1964; 下午2时30分, 中南海西花厅, 法国驻华大使吕西安·佩耶). Names: Zhou Enlai, Paye.'
+    src:
+      c: 32f53f99
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 646: ?'
+        - 'w.zhou-enlai-waijiao-huodong 408: A'
     tags: [name:zhou-enlai, polity:prc, polity:fr]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-10.civil-rights-bill
     when: June 10
     date: '1964-06-10'
@@ -2653,8 +2850,30 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Zhou receives the Vietnamese water-conservancy delegation under Hà Kế Tấn, minister of irrigation, and tells four lessons from China: Dujiangyan, a historic success, not well studied since; Sanmenxia launched in haste, revolutionary spirit but not scientific rigor, and history''s lessons on the Yellow River not yet summed up; localism and dispersion in the Huai works, water control needs the whole river and a communist spirit; the Miyun reservoir built too fast, three years too short. New contradictions keep coming; solve and unify them.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 646–47 (June 10, 1964). Names: Zhou Enlai, Hà Kế Tấn.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 646–47 (June 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 409 (June 10, 1964; 中午, 中南海西花厅). Names: Zhou Enlai, Hà Kế Tấn.'
+    src:
+      c: 7b5cdbe8
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 646–47: ?'
+        - 'w.zhou-enlai-waijiao-huodong 409: A'
     tags: [name:zhou-enlai, polity:prc, polity:drv]
+    time_range:
+      - 1964-06-10T04:00Z
+      - 1964-06-10T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-10.china-leadership-4
+    when: June 10
+    date: '1964-06-10'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai watches the first performance in Peking of the Vietnam People's Army song and dance ensemble and receives its leaders.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 409 (June 10, 1964). Names: Zhou Enlai.'
+    src:
+      c: a6e3ed10
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 409: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai]
   - id: cal.1964-06-11.robert-kennedy
     when: June 11
     date: '1964-06-11'
@@ -3006,8 +3225,19 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, at the first talk with Rashidi Kawawa, second vice-president of Tanganyika and Zanzibar, who leads a friendship and economic delegation (June 10–19; talks June 11–17): China, once ravaged by every imperialism, is Africa in miniature; the same past makes understanding and support easy. That evening at the banquet for Kawawa: condemns the U.S. attempt to make Indochina a second Congo; the conference of the Geneva states cannot wait.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 647 (June 11, 1964). Made public: 1997. Names: Zhou Enlai, Kawawa.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 647 (June 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 409–10 (June 11, 1964; 晚上; the welcoming banquet); [[w.zhou-enlai-waijiao-huodong]], 410 (June 12, 1964; 下午3时50分, 钓鱼台宾馆, 回访并进行会谈). Made public: 1997. Names: Zhou Enlai, Kawawa.'
+    src:
+      c: '25255938'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 647: ?'
+        - 'w.zhou-enlai-waijiao-huodong 409–10: C-D'
+        - 'w.zhou-enlai-waijiao-huodong 410: A'
     tags: [name:zhou-enlai, polity:prc, polity:tanzania, vis:only:prc+tanzania]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: June 12, 3:50 p.m., the Diaoyutai (Zhou returns Kawawa's call and holds the talks); the entry has June 11
+        at: '410'
   - id: cal.1964-06-11.china-leadership-3
     when: June 11
     date: '1964-06-11'
@@ -3015,6 +3245,80 @@ entries:
     c: Zhou, with Mao, Liu Shaoqi, Zhu De and others, attends the opening of the Communist Youth League's ninth national congress.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 648 (June 11, 1964). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De.'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, polity:prc]
+  - id: cal.1964-06-11.china-leadership-4
+    when: June 11
+    date: '1964-06-11'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai goes to the airport to see off Sallal.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 409 (June 11, 1964; 上午). See [[cal.1964-06-01.china-leadership-3]]. Names: Zhou Enlai, Sallal.'
+    src:
+      c: 2b6f6507
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 409: all'
+    tags: [polity:prc, polity:yemen, name:zhou-enlai, name:sallal-abdullah-al]
+    time_range:
+      - 1964-06-10T22:00Z
+      - 1964-06-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-11.china-leadership-5
+    when: June 11
+    date: '1964-06-11'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai goes to the airport to welcome Rashidi Kawawa, Second Vice President of Tanganyika and Zanzibar, who arrives from Shanghai with a friendly economic delegation, Chen Yi accompanying.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 409 (June 11, 1964; 上午). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 7ed779db
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 409: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1964-06-10T22:00Z
+      - 1964-06-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-11.china-leadership-6
+    when: June 11
+    date: '1964-06-11'
+    time: 1964-06-11T10:30Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking Hotel. Zhou Enlai attends the reception given by the Nepalese Ambassador, Bahadur, for the King's birthday.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 409 (June 11, 1964; 晚6时30分). Names: Zhou Enlai.'
+    src:
+      c: fb906d07
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 409: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-11.china-leadership-7
+    when: June 11
+    date: '1964-06-11'
+    time: 1964-06-11T11:30Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People, Beijing Hall. Zhou Enlai meets Kawawa and the Tanzanian delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 409 (June 11, 1964; 晚7时30分). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 5f30d784
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 409: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-11.china-leadership-9
+    when: June 11
+    date: '1964-06-11'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives M. M. Ali, a Zanzibari expert working in China, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 410 (June 11, 1964). Names: Zhou Enlai.'
+    src:
+      c: 074a2192
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 410: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
   - id: cal.1964-06-12.elections-1964
     when: June 12
     date: '1964-06-12'
@@ -3400,6 +3704,23 @@ entries:
     c: Zhou calls people on aid to Tanganyika and Zanzibar and on finance and trade, June 13 and 16.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 648 (June 13 and 16, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-06-13.china-leadership-2
+    when: June 13
+    date: '1964-06-13'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai attends the evening of arts given by the Ministry of Culture and the China–Africa Friendship Association for Kawawa.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 410 (June 13, 1964; 晚上). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 8a240589
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 410: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+    time_range:
+      - 1964-06-13T11:00Z
+      - 1964-06-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-14.mississippi
     when: June 14–20
     date: '1964-06-14'
@@ -3472,11 +3793,66 @@ entries:
   - id: cal.1964-06-14.china-leadership
     when: June 14
     date: '1964-06-14'
+    time: 1964-06-14T01:00Z
     thread: china-leadership
     also: [africa]
     c: 'Zhou, in talks with Kawawa: an army needs material and moral strength, but the political is most important. That afternoon agrees with Peng Zhen that Peng''s talks with Kawawa should take first five topics: Party, state power, army, united front, mass work.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 647 (June 14, 1964). Made public: 1997. Names: Zhou Enlai, Kawawa, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 647 (June 14, 1964); [[w.zhou-enlai-waijiao-huodong]], 410 (June 14, 1964; 上午9时, 钓鱼台宾馆). Made public: 1997. Names: Zhou Enlai, Kawawa, Peng Zhen.'
+    src:
+      c: 50881f06
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 647: ?'
+        - 'w.zhou-enlai-waijiao-huodong 410: A'
     tags: [name:zhou-enlai, name:peng-zhen, polity:prc, polity:tanzania, vis:only:prc+tanzania]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-14.china-leadership-3
+    when: June 14
+    date: '1964-06-14'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai attends the meeting of the capital's circles welcoming Kawawa.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 410 (June 14, 1964; 下午). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 26b13b69
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 410: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+    time_range:
+      - 1964-06-14T04:00Z
+      - 1964-06-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-14.china-leadership-4
+    when: June 14
+    date: '1964-06-14'
+    time: 1964-06-14T11:00Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People. Zhou Enlai accompanies Mao Zedong and Liu Shaoqi in meeting Kawawa and the friendly economic delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 410 (June 14, 1964; 晚7时). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi.'
+    src:
+      c: 026174fc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 410: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-14.china-leadership-5
+    when: June 14
+    date: '1964-06-14'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the welcoming banquet given by Liu Shaoqi for Kawawa.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 410 (June 14, 1964; 晚上). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: 3e3a7616
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 410: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai, name:liu-shaoqi]
+    time_range:
+      - 1964-06-14T11:00Z
+      - 1964-06-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-15.court
     when: June 15
     date: '1964-06-15'
@@ -3714,6 +4090,23 @@ entries:
       c: bd9ced26
       rows:
         - 'w.risen-bill-of-the-century 233: all'
+  - id: cal.1964-06-15.china-leadership
+    when: June 15
+    date: '1964-06-15'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai attends the banquet given by the African states' envoys for Kawawa, and speaks.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 410 (June 15, 1964; 中午). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: 72dd8222
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 410: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai]
+    time_range:
+      - 1964-06-15T04:00Z
+      - 1964-06-15T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-16.congo
     when: June 16
     date: '1964-06-16'
@@ -3921,11 +4314,19 @@ entries:
   - id: cal.1964-06-16.china-leadership-2
     when: June 16
     date: '1964-06-16'
+    time: 1964-06-16T09:00Z
     thread: china-leadership
     also: [africa]
     c: 'Zhou, talks with Kawawa on building experience: more than ten years'' two kinds of experience, mainly good; for a time more bad than good, since corrected; a large country draws plans too big, from backwardness wanting more, bigger, faster. Same day signs the China–Tanzania economic and technical cooperation agreement. At Kawawa''s farewell banquet: the situation in Laos and all Indochina is worsening; American planes bomb the Lao liberated area and the Chinese mission at Khang Khay, a grave provocation; delay in calling the fourteen-nation conference can only help U.S. aggression and widen the war.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 647–48 (June 16, 1964). Made public: 1997. Names: Zhou Enlai, Kawawa.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 647–48 (June 16, 1964); [[w.zhou-enlai-waijiao-huodong]], 410 (June 16, 1964; 下午5时, 人民大会堂北京厅, 继续会谈); [[w.zhou-enlai-waijiao-huodong]], 410 (June 16, 1964; 晚上; the signing); [[w.zhou-enlai-waijiao-huodong]], 410–11 (June 16, 1964; 晚上; the farewell banquet). Made public: 1997. Names: Zhou Enlai, Kawawa.'
+    src:
+      c: 8f5434a5
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 647–48: ?'
+        - 'w.zhou-enlai-waijiao-huodong 410: D'
+        - 'w.zhou-enlai-waijiao-huodong 410–11: E-G'
     tags: [name:zhou-enlai, polity:prc, polity:tanzania, vis:only:prc+tanzania]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-16.china-leadership-3
     when: June 16
     date: '1964-06-16'
@@ -4158,6 +4559,23 @@ entries:
     c: 'Zhou attends the Secretariat meeting, chaired by Deng Xiaoping, on the main matters settled by the Central Work Conference. Speaks on grain and agricultural tax and on procurement: this year''s crop likely better than last, so all agree on 72 billion jin purchases and 9 billion shipped up; actual execution not clear till autumn, so no big change these two years; the paper should not say again "unchanged for three years", which only breaks faith with the people. The agricultural tax unchanged for two years, though the Third Plan may adjust it, with a reasonable increase.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 648–49 (June 17, 1964). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
     tags: [name:zhou-enlai, name:deng-xiaoping, polity:prc, vis:only:prc]
+  - id: cal.1964-06-17.china-leadership-2
+    when: June 17
+    date: '1964-06-17'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai goes with Kawawa from the guesthouse to the airport and sees him off, Dong Biwu accompanying him to Shanghai.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 411 (June 17, 1964; 上午). See [[cal.1964-06-11.china-leadership-2]]. Names: Zhou Enlai, Dong Biwu.'
+    src:
+      c: c4742ed3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 411: all'
+    tags: [polity:prc, polity:tanzania, name:zhou-enlai, name:dong-biwu]
+    time_range:
+      - 1964-06-16T22:00Z
+      - 1964-06-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-18.vietnam
     when: June 18
     date: '1964-06-18'
@@ -4427,11 +4845,18 @@ entries:
   - id: cal.1964-06-18.china-leadership-2
     when: June 18
     date: '1964-06-18'
+    time: 1964-06-18T11:00Z
     thread: china-leadership
     also: [laos]
     c: Zhou receives Cambodia's ambassador, Zhang Gang in the Chinese. China goes on supporting Prince Sihanouk's call for a fourteen-nation conference on Laos; favors efforts at talks among the three Lao sides, to agree on a joint delegation to it.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 649 (June 18, 1964). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 649 (June 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 411 (June 18, 1964; 晚7时, 中南海西花厅). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: a0cd21eb
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 649: ?'
+        - 'w.zhou-enlai-waijiao-huodong 411: A'
     tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-19.civil-rights-bill
     when: June 19
     date: '1964-06-19'
@@ -4688,6 +5113,23 @@ entries:
     c: Zhou calls responsible officials on the Southeast Asian situation, June 19, 20 and 25.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 649 (June 19, 20 and 25, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-06-19.china-leadership-3
+    when: June 19
+    date: '1964-06-19'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives four noted Japanese economists visiting China, headed by Sumiya Etsuji.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 411 (June 19, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: '69595789'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 411: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1964-06-19T11:00Z
+      - 1964-06-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-20.desegregation-public-places
     when: June 20
     date: '1964-06-20'
@@ -4900,26 +5342,45 @@ entries:
   - id: cal.1964-06-21.china-leadership
     when: June 21
     date: '1964-06-21'
+    time: 1964-06-21T02:45Z
     thread: china-leadership
     also: [soviet-union, africa]
     c: 'Zhou, with Deng Yingchao, receives Hewlett Johnson, former Dean of Canterbury, and Mrs. Johnson. Africa is waking; Asians and Africans share fate and tasks; China is Africa in miniature. China''s scarcest resource is forest; old cultures use much, plant little. On Johnson''s "money corrupts the church": money is dead; the system corrupts; under capitalism money is a few men''s; under socialism people own it and are secure, equal and free. On Sino-Soviet relations: a sore on a body is no cause for gloom, remove it and be healthier; the Soviet Union is forty-odd years old and has a passing illness; China does not oppose the Soviet Union, only the sickness of the Soviet Party''s leaders.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 649–50 (June 21, 1964). Names: Zhou Enlai, Deng Yingchao, Hewlett Johnson.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 649–50 (June 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 411 (June 21, 1964; 上午10时45分, 钓鱼台宾馆10号楼, 和邓颖超会见英国前坎特伯雷教长约翰逊夫妇). Names: Zhou Enlai, Deng Yingchao, Hewlett Johnson.'
+    src:
+      c: 59a44b63
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 649–50: ?'
+        - 'w.zhou-enlai-waijiao-huodong 411: A'
     tags: [name:zhou-enlai, polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-21.china-leadership-2
     when: June 21
     date: '1964-06-21'
+    time: 1964-06-21T11:00Z
     thread: china-leadership
     also: [africa]
     c: Zhou receives the Mali government delegation; hopes Mali will attend the second Asian-African conference and that it advance economic cooperation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 650 (June 21, 1964). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 650 (June 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 411 (June 21, 1964; 晚7时, 人民大会堂, 接见并宴请). Names: Zhou Enlai.'
+    src:
+      c: d24d077e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 650: ?'
+        - 'w.zhou-enlai-waijiao-huodong 411: A'
     tags: [name:zhou-enlai, polity:prc, polity:mali]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-21.china-leadership-3
     when: June 21–22
     date: '1964-06-21'
     thread: china-leadership
     also: [vietnam-hanoi, laos]
     c: 'Zhou: three talks with Văn Tiến Dũng, Workers'' Party Politburo member, on military aid and related matters.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 650 (June 21–22, 1964). Made public: 1997. Names: Zhou Enlai, Văn Tiến Dũng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 650 (June 21–22, 1964); [[w.zhou-enlai-waijiao-huodong]], 411 (June 21, 1964; 下午3时40分; the first talk, Xihuating); [[w.zhou-enlai-waijiao-huodong]], 411 (June 22, 1964; 上午8时30分; the second talk, 8:30 a.m. to noon); [[w.zhou-enlai-waijiao-huodong]], 411 (June 22, 1964; 下午3时25分; the third talk, 3:25 to 5:35 p.m.). Made public: 1997. Names: Zhou Enlai, Văn Tiến Dũng.'
+    src:
+      c: 43f487fb
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 650: ?'
+        - 'w.zhou-enlai-waijiao-huodong 411: A'
     tags: [name:zhou-enlai, name:van-tien-dung, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1964-06-22.court
     when: June 22
@@ -5213,6 +5674,23 @@ entries:
     c: Robert Kennedy, informed a few days after the Special Group's decision of June 18 of the exile plots against Castro, says the Justice Department will investigate.
     n: '[[w.sen-church-alleged-assassination-plots]], 178 (Memorandum of Meeting, June 22, 1964). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memorandum of Meeting, June 22, 1964 (cited by [[w.sen-church-alleged-assassination-plots]], 178). See [[cal.1964-06-18.cuba]]. Names: Robert Kennedy, Castro. Check: the day (the memorandum''s).'
     tags: [name:kennedy-robert-f, name:castro-fidel]
+  - id: cal.1964-06-22.china-leadership
+    when: June 22
+    date: '1964-06-22'
+    thread: china-leadership
+    also: [china, europe-and-the-alliance-britain]
+    c: Peking. Zhou Enlai and Deng Yingchao go to the airport to see off Hewlett Johnson and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 411 (June 22, 1964; 清晨). Names: Zhou Enlai.'
+    src:
+      c: '46366090'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 411: all'
+    tags: [polity:prc, polity:uk, name:zhou-enlai]
+    time_range:
+      - 1964-06-21T21:00Z
+      - 1964-06-22T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-23.vietnam
     when: June 23
     date: '1964-06-23'
@@ -5895,6 +6373,23 @@ entries:
     c: 'Mao, Beijing, Hall of the People, Room 118, evening: receives Văn Tiến Dũng, Workers'' Party Politburo member and chief of staff of the Vietnam People''s Army; He Long present. Both parties and countries cooperate against the enemy; China is preparing to aid Vietnam; if the U.S. ventures into the North, Chinese troops go over as volunteers. Prepare for every case; the enemy grows bolder as one fears; strength in the South and Laos still on the enemy''s side; the point is to destroy its living force. Criticizes high-cadres'' health care as learned from the Soviet Union.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, June 24, 1964. Made public: 2013. See [[cal.1964-06.china]]. Names: Mao Zedong, Văn Tiến Dũng, He Long.'
     tags: [name:mao-zedong, name:van-tien-dung, name:he-long, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1964-06-24.china-leadership-2
+    when: June 24
+    date: '1964-06-24'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai attends the banquet given by the Mali Ambassador, Traoré, for the Mali government delegation headed by Kouyaté, State Minister for Planning and Economic Coordination.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 411 (June 24, 1964; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 45aeddb0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 411: all'
+    tags: [polity:prc, polity:mali, name:zhou-enlai]
+    time_range:
+      - 1964-06-24T11:00Z
+      - 1964-06-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-25.cities-and-housing
     when: June 25
     date: '1964-06-25'
@@ -6250,11 +6745,18 @@ entries:
   - id: cal.1964-06-26.china-leadership-3
     when: June 26
     date: '1964-06-26'
+    time: 1964-06-26T07:30Z
     thread: china-leadership
     also: [africa]
     c: Zhou receives Mali's minister of development, Kouyaté. If every independent nation relies on its own hands, imperialist economic blackmail and dumping fail. Meet home needs first, import little, as precision equipment; food, clothing and goods first, with water and thermal power; then heavy industry. Old habits survive a new system; building a new society takes decades; each solved contradiction brings another.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 651 (June 26, 1964). Names: Zhou Enlai, Kouyaté.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 651 (June 26, 1964); [[w.zhou-enlai-waijiao-huodong]], 411 (June 26, 1964; 下午3时30分, 中南海西花厅). Names: Zhou Enlai, Kouyaté.'
+    src:
+      c: 2eab1255
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 651: ?'
+        - 'w.zhou-enlai-waijiao-huodong 411: A'
     tags: [name:zhou-enlai, polity:prc, polity:mali]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-27.governors-nc
     when: June 27
     date: '1964-06-27'
@@ -6316,10 +6818,17 @@ entries:
   - id: cal.1964-06-27.china-leadership-2
     when: June 27
     date: '1964-06-27'
+    time: 1964-06-27T10:00Z
     thread: china-leadership
     c: Zhou receives Prince Sultan Mahmud Ghazi, Afghan head of the joint boundary commission and director of civil aviation. The Silk Road must be modernized, but air conditions are poor; the air-service question is a pressure on China, a good one, forcing it to build the road.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 651–52 (June 27, 1964). Names: Zhou Enlai, Sultan Mahmud Ghazi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 651–52 (June 27, 1964); [[w.zhou-enlai-waijiao-huodong]], 411 (June 27, 1964; 晚6时, 人民大会堂, 接见并宴请). Names: Zhou Enlai, Sultan Mahmud Ghazi.'
+    src:
+      c: f05c78e2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 651–52: ?'
+        - 'w.zhou-enlai-waijiao-huodong 411: A'
     tags: [name:zhou-enlai, polity:prc, polity:afghanistan]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-27.china-leadership-3
     when: June 27
     date: '1964-06-27'
@@ -6525,6 +7034,23 @@ entries:
     c: 'Zhou calls a forum on experimental trusts. Six points: the draft must have a paragraph on the nationwide trusts and their branches'' relations with regions and localities, which owe duties and hold rights; trusts must keep outside cooperation in materials, products and parts; the paper must say where trusts lead, as their function grows the ministry shrinks, a special ministry such as petroleum may become a great enterprise or the general trust; run trusts by economic means and law, administrative functions turning to economic; the ministries sponsoring salt, cigarette, Yangtze shipping, East China coal, aluminum and other trusts to write trial plans as annexes to the paper for the Center; the industrial resolution drafted at the Central Work Conference last September still needs trial.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 652 (June 29, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-06-29.china-leadership-2
+    when: June 29
+    date: '1964-06-29'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai gives a banquet in welcome of the Indonesian Communist Party's delegation headed by a member of its Politburo and deputy general secretary.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 412 (June 29, 1964; 晚上). Names: Zhou Enlai. Check: the leader''s name, 阿吉托罗普 in the book.'
+    src:
+      c: 4100b656
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 412: all'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_range:
+      - 1964-06-29T11:00Z
+      - 1964-06-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-30.states-and-cities
     when: June 30
     date: '1964-06-30'
@@ -7186,11 +7712,18 @@ entries:
   - id: cal.1964-06-30.china-leadership-2
     when: June 30
     date: '1964-06-30'
+    time: 1964-06-30T03:00Z
     thread: china-leadership
     also: [latin-america, china]
     c: 'Zhou receives the Argentine parliamentary delegation under Ferreyra. On Western capital, technology and experts: China took the Soviet lesson, stresses self-reliance for an independent socialist economy; welcomes foreign experts who truly want to help, and where they are withdrawn does the work itself; industry, adjusted, has grown, many products and projects date from after 1960. On the United States: China opposes its aggression, its holding of Taiwan and the Seventh Fleet, yet negotiates; eight years of Warsaw talks without result; the U.S. wants China to legalize its seizure of Taiwan and make it a separate unit, for which it would recognize Peking and restore its U.N. seat; absolutely impossible, unjust.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 652–53 (June 30, 1964). Names: Zhou Enlai, Ferreyra.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 652–53 (June 30, 1964); [[w.zhou-enlai-waijiao-huodong]], 412 (June 30, 1964; 上午11时, 人民大会堂福建厅). Names: Zhou Enlai, Ferreyra.'
+    src:
+      c: 1ff8bae6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 652–53: ?'
+        - 'w.zhou-enlai-waijiao-huodong 412: A'
     tags: [name:zhou-enlai, polity:prc, polity:argentina]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06.china-leadership-2
     when: June
     date: 1964-06
@@ -7214,3 +7747,17 @@ entries:
     c: The Ministry of Higher Education, at Shenyang, June 30 to July 6, holds a forum on pilot work in labor practice for graduates of higher schools. It conveys Zhou's instruction to establish the labor-practice system fully in three years, all graduates in 1965; discusses a draft trial regulation.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 653–54 (June 30–July 6, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-06-30.china-leadership-4
+    when: June 30
+    date: '1964-06-30'
+    time: 1964-06-30T11:00Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, the Great Hall of the People, Beijing Hall. Zhou Enlai accompanies Mao Zedong in meeting Kouyaté, Mali's Minister of Development.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 412 (June 30, 1964; 晚7时). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 5cada2de
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 412: all'
+    tags: [polity:prc, polity:mali, name:zhou-enlai, name:mao-zedong]
+    time_zone: Asia/Shanghai
