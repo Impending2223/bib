@@ -2371,6 +2371,8 @@ CQ Weekly Report, 1968-08-16:
 
 - Rusk at an Army hospital in Saigon (408; 1966, a year only); the children's views private.
 
+- **The PRC's numbered "serious warnings" to the United States, 1960–69** (the owner, Nov. 18, 2026: "Option 1 with option 3 as a lead"). The Foreign Ministry spokesman's serial protests at U.S. warships and military aircraft entering the waters and airspace China claimed (off Fujian, Guangdong, the Xisha Islands), numbered from Sept. 1958 to past the 470th by 1969. The *Waijiao dashiji* vols. II–III print only each year's run, entered as a year-dated entry each year (`cal.1960-01-08.china` … `cal.1969-01-04.china`); the milestones they date (the 100th, May 26, 1960; the 200th, Apr. 26, 1962; the 400th, Apr. 5, 1966) are entries of their own. Each warning was printed in *Renmin ribao* (and *Peking Review*), with its day and the intrusion it answered: each its own entry when the papers are held.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
