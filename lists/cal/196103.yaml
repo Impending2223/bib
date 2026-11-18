@@ -185,6 +185,18 @@ entries:
       - 1961-03-01T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-01.china-leadership-6
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    c: 'Lu Dingyi 陆定一, by letter to Mao 毛泽东, on his visit the day before to Hua county 花县: output up three years running; three of its six communes kept trials of commune-level ownership; Xinyang 信阳 one extreme, Hua county the other.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 496–497 (Mar. 1, 1961; note 1, the letter as the volume gives it). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Lu Dingyi, letter of Mar. 1, 1961 to Mao Zedong on visiting the people''s communes of Hua county, Guangdong (cited by [[w.jianguo-yilai-mao-zedong]], XV, 496 n.1b). Names: Lu Dingyi, Mao Zedong. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: af71da6c
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 496–497: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 496 n.1b: all'
+    tags: [polity:prc, name:lu-dingyi, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -1321,6 +1333,24 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.16: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-10.china-leadership-3
+    when: Mar. 10
+    date: '1961-03-10'
+    thread: china-leadership
+    c: 'Mao 毛泽东, morning, to Tao Zhu 陶铸: invite Zhu De 朱德 and Lu Dingyi 陆定一 to the conference of the three southern regions; print Lu''s letters from Xinhui 新会 and Hua county 花县 for those attending; to Liao Luyan 廖鲁言, Tian Jiaying 田家英, Chen Boda 陈伯达 and Hu Qiaomu 胡乔木 to read and return.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 496–498 (Mar. 10, 1961; Mao''s comments of the morning of Mar. 10 (三月十日早上); printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Lu Dingyi, letter of Feb. 27, 1961 to Mao Zedong on visiting the people''s communes of Xinhui county, Guangdong (cited by [[w.jianguo-yilai-mao-zedong]], XV, 496 n.1a); Lu Dingyi, letter of Mar. 1, 1961 to Mao Zedong on visiting the people''s communes of Hua county, Guangdong (cited by [[w.jianguo-yilai-mao-zedong]], XV, 496 n.1b). Names: Mao Zedong, Tao Zhu, Zhu De, Lu Dingyi, Liao Luyan, Tian Jiaying, Chen Boda, Hu Qiaomu.'
+    src:
+      c: 701a6f75
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 496–498: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 496 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 496 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:tao-zhu, name:zhu-de, name:lu-dingyi, name:chen-boda, vis:only:prc]
+    time_range:
+      - 1961-03-09T22:00Z
+      - 1961-03-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-11.cuba
     when: Mar. 11
     date: '1961-03-11'
@@ -1413,7 +1443,12 @@ entries:
     date: '1961-03-11'
     thread: china-leadership
     c: 'Mao''s note for the Three South conference on his "On Investigation Work" (spring 1930), against "book worship," lost thirty years and found in January at the Revolutionary Museum, from the Longyan prefecture: printed for the meeting.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 11, 1961. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 11, 1961. [[w.jianguo-yilai-mao-zedong]], XV, 499–500 (Mar. 11, 1961; Mao''s note of Mar. 11 on ''Investigation work'': an old piece against dogmatism in the Red Army, called ''book worship'', written about spring 1930, unseen thirty years, found in January 1961 at the Central Revolutionary Museum, which had it from the Longyan prefectural committee in Fujian; copies to be printed; and his note to Lin Biao the same day; the editors (500 n.1): a lithographed copy given by a peasant of Shanghang county in 1957, sent to the museum in August 1959, lent to the Political Research Office at the end of 1960; printed from the manuscript). Made public: 2013. Names: Mao Zedong.'
+    src:
+      c: c5de2735
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 11, 1961: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 499–500: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-11.china-leadership-4
     when: Mar. 11
@@ -1598,7 +1633,7 @@ entries:
     date: '1961-03-13'
     thread: china-leadership
     c: 'Mao, 8 a.m., to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Three North conference, by Tao Zhu: the two egalitarianisms, between teams in a brigade and between members in a team, "two extremely grave questions," to be studied in person; Deng and Peng to spend ten days in Miyun, Shunyi, Huairou: are they "still unclear"?'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms). Made public: 2013. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms); [[w.jianguo-yilai-mao-zedong]], XV, 501–503 (Mar. 13, 1961; Mao''s letter of Mar. 13, 8 a.m., Canton, to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Peking conference, carried by Tao Zhu, who goes and returns the next day; Liao Luyan to go north in a few days; the conference of three days too short, five to seven needed; printed from the Center''s document (with the manuscript)). Made public: 2013. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
     src:
       c: ef3aa923
       rows:
@@ -1608,6 +1643,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.24d: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 501–503: A-B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:tao-zhu, vis:only:prc]
   - id: cal.1961-03-13.china-leadership-2
     when: Mar. 13
@@ -1700,6 +1736,30 @@ entries:
     c: Liu Shaoqi flies from Peking to Canton.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 14, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-03-14.china-leadership-4
+    when: Mar. 14
+    date: '1961-03-14'
+    thread: china-leadership
+    c: 'Mao 毛泽东: the General Office regional group''s record of Feb. 20 of a meeting at the Shitang''an 石塘庵 production team, Liling 醴陵 county, Hunan 湖南, on the masses'' wishes for this year''s output, to be printed for those coming to the Central Work Conference at Canton 广州 (Mar. 15–23). The members: procurement to be fixed now, so they know what they will eat if they produce more.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 504 (Mar. 14, 1961; Mao''s comment of Mar. 14; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: General Office of the Central Committee, regional group, "The masses'' wishes and views on doing well in this year''s output: record of a meeting at the Shitang''an production team, Liling county", Feb. 20, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 504 n.1). Names: Mao Zedong.'
+    src:
+      c: abb5a77b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 504: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 504 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-14.china-leadership-5
+    when: Mar. 14
+    date: '1961-03-14'
+    thread: china-leadership
+    c: 'Mao 毛泽东: the General Office regional group''s record of Feb. 24 of a meeting at Chengguan 城关 commune, Liling 醴陵 county, Hunan 湖南, to be printed for those coming to the Central Work Conference at Canton 广州 (Mar. 15–23). The record: tea-oil forests owned by the brigade, worked by the teams, the yield shared; fish ponds contracted to teams; over-quota grain and oil shared in kind, about 70 percent by work-days, 20 percent for manure.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 505–506 (Mar. 14, 1961; Mao''s comment of Mar. 14; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: General Office of the Central Committee, regional group, record of a meeting at Chengguan commune, Liling county, Hunan, Feb. 24, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 505 n.1). Names: Mao Zedong.'
+    src:
+      c: 90537e28
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 505–506: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 505 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-15.africa
     when: Mar. 15
     date: '1961-03-15'
@@ -1856,7 +1916,7 @@ entries:
     date: '1961-03-15'
     thread: china-leadership
     c: 'Canton. The Central Work Conference, Mao presiding: the regional bureaus'' and provinces'' secretaries. It adopts the draft Working Regulations for the Rural People''s Communes (the "Sixty Articles"), the Center''s letter to all members on discussing them, and its letter on investigation. The draft holds down the commune''s power, makes the brigade the main accounting unit, part of the ownership with the team, and restores the higher cooperatives'' rules. Mao: the first time since the communes that the center sat down together on farming.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). [[w.macfarquhar-origins-of-the-cultural]], III, 43–48 (the Canton conference; the Sixty Articles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 15–23, 1961; Liu attends the Central Work Conference at Canton, which drafts the Rural People''s Commune Work Regulations (draft) and a "Letter on conscientiously carrying out investigation" to the bureaus and the provincial committees; Liu presides on the 20th, 22nd and 23rd). Made public: 1996. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961; [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25a); [[w.xin-zhongguo-biannianshi-1949]], 185 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25b); [[w.zhongguo-gongchan-dang-lici]], xia, 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25c); [[w.bian-mao-zedong-he-tade]], 48 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25e); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25f); [[w.zhongguo-gongchan-dang-lishi]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25g); [[w.zhonggong-dangshi-dashi-nianbiao]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25h); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 300 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25i); [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25j); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 455, 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25k); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25l); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25m); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 452–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41a); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 455–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41b); [[w.politics-of-the-chinese]], 465–70, 491–98, 515–26, 582 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41d); [[w.shanxi-sishi-nian-1949]], III-79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.45a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d). Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). [[w.macfarquhar-origins-of-the-cultural]], III, 43–48 (the Canton conference; the Sixty Articles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 15–23, 1961; Liu attends the Central Work Conference at Canton, which drafts the Rural People''s Commune Work Regulations (draft) and a "Letter on conscientiously carrying out investigation" to the bureaus and the provincial committees; Liu presides on the 20th, 22nd and 23rd); [[w.jianguo-yilai-mao-zedong]], XV, 516 (note 3: the draft Working Regulations for the Rural People''s Communes, the ''Sixty Articles'', adopted by the conference Mar. 22, 1961; note 2: Canton, Mar. 15–23; the place and the regulations only). Made public: 1996. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961; [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25a); [[w.xin-zhongguo-biannianshi-1949]], 185 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25b); [[w.zhongguo-gongchan-dang-lici]], xia, 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25c); [[w.bian-mao-zedong-he-tade]], 48 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25e); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25f); [[w.zhongguo-gongchan-dang-lishi]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25g); [[w.zhonggong-dangshi-dashi-nianbiao]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25h); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 300 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25i); [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25j); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 455, 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25k); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25l); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25m); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 452–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41a); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 455–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41b); [[w.politics-of-the-chinese]], 465–70, 491–98, 515–26, 582 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41d); [[w.shanxi-sishi-nian-1949]], III-79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.45a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d); Central Work Conference, "Working Regulations for the Rural People''s Communes (draft)" (the Sixty Articles), adopted Mar. 22, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 516 n.3). Names: Mao Zedong, Deng Xiaoping.'
     src:
       c: e83e5d0d
       rows:
@@ -1893,6 +1953,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58c: C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58d: C'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 508: B, C'
+        - 'w.jianguo-yilai-mao-zedong XV, 516: A, C'
+        - 'via w.jianguo-yilai-mao-zedong XV, 516 n.3: C'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-15.china-leadership-3
     when: Mar. 15
@@ -2023,6 +2085,32 @@ entries:
     thread: latin-america-dominican-republic
     c: 'Dearborn to the State Department''s special assistant for CIA liaison, by letter: "the members of our club are now prepared in their minds to have a picnic but do not have the ingredients for the salad." Asked "to furnish three or four pineapples for a party," he "could remember nothing in my instructions that would have allowed me to contribute this ingredient." By his testimony in 1975, the pineapples were probably the grenades.'
     n: '[[w.sen-church-alleged-assassination-plots]], 199 (the letter; Dearborn''s testimony of July 29, 1975). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Letter, Dearborn to the special assistant, Mar. 16, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 199). See [[cal.1961-03-13.latin-america-dominican-republic]].'
+  - id: cal.1961-03-16.china-leadership
+    when: Mar. 16
+    date: '1961-03-16'
+    time: 1961-03-15T17:00Z
+    thread: china-leadership
+    c: 'Mao 毛泽东, 1 a.m.: ''an important document'', to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23) to discuss: Chen Boda''s 陈伯达 record, sent Mar. 15, of the talk of Mar. 14–15 of the Guangdong 广东 committee and the Center''s investigation group with Liang Jinan 梁纪南, Party branch secretary of Mengkeng 蒙坑 brigade, and Su Pinfang 苏品芳, of Lidong 里洞 commune, Xinxing 新兴 county: the brigade split back into its two old cooperatives; all by work, the needy helped from welfare funds; grain to households, mess halls in the busy season; procurement fixed three to five years.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 507–508 (Mar. 16, 1961; Mao''s comment of Mar. 16, 1 a.m. (上午一时); printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Chen Boda, "Record of a talk" (the Guangdong Provincial Party Committee and the Center''s investigation group with Liang Jinan and Su Pinfang of Lidong commune, Xinxing county, Mar. 14–15), sent Mar. 15, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 507 n.1). Names: Mao Zedong, Chen Boda, Liang Jinan, Su Pinfang.'
+    src:
+      c: c7bfedf5
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 507–508: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 507 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-16.china-leadership-2
+    when: Mar. 16
+    date: '1961-03-16'
+    thread: china-leadership
+    c: 'Mao 毛泽东: Tao Zhu''s 陶铸 report of Mar. 15 on the Lixi 沥西 brigade of Dali 大沥 commune, Nanhai 南海 county, Guangdong 广东, to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23); the groups to discuss whether the method can be spread. The method: on top of the ''three contracts'' and ''four fixed'', each team''s quota to the brigade fixed, all over-quota output the team''s own.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 509–510 (Mar. 16, 1961; Mao''s comment of Mar. 16, written on Tao''s report; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Tao Zhu, report of Mar. 15, 1961 with the inquiry material on the Lixi brigade, Dali commune, Nanhai county, trying fixed team quotas to the brigade (cited by [[w.jianguo-yilai-mao-zedong]], XV, 509 n.1). Names: Mao Zedong, Tao Zhu.'
+    src:
+      c: 378c017e
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 509–510: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 509 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
   - id: cal.1961-03-17.economy
     when: Mar. 17
     date: '1961-03-17'
@@ -2104,6 +2192,30 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 188: all'
     tags: [polity:prc, polity:mali, name:keita-modibo]
+  - id: cal.1961-03-17.china-leadership-2
+    when: Mar. 17
+    date: '1961-03-17'
+    thread: china-leadership
+    c: 'Mao 毛泽东: the Three South conference''s bulletin no. 3 of Mar. 13 to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23); it raises many great questions. The bulletin, the groups'' talk of the afternoon of Mar. 12 on the draft commune regulations: Tan Qilong 谭启龙 (Shandong 山东) asks a model charter, an inner-Party document, labor cut from industry and the towns, power to the teams and peasants; Jiang Weiqing 江渭清 (Jiangsu 江苏) two documents, regulations and an inner-Party directive; the Central-South group: ''unchanged at least ten years'' for the four fixed too rigid.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 511–513 (Mar. 17, 1961; Mao''s comment of Mar. 17; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Secretariat of the Three South conference, bulletin no. 3, Mar. 13, 1961 (the groups'' discussion of the draft Working Regulations for the People''s Communes, afternoon of Mar. 12) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 511 n.1). Names: Mao Zedong, Tan Qilong, Jiang Weiqing.'
+    src:
+      c: cde3f574
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 511–513: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 511 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-17.china-leadership-3
+    when: Mar. 17
+    date: '1961-03-17'
+    thread: china-leadership
+    c: 'Mao 毛泽东: the Three South paper of Mar. 13, ''Opinions of some East China comrades on questions the rural people''s communes must now solve'', very well written, to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23); weigh it when discussing the commune regulations. The paper, of Ke Qingshi 柯庆施, Zeng Xisheng 曾希圣, Tan Qilong 谭启龙, Jiang Weiqing 江渭清 and six others: size settled by the masses and fixed at least seven years, teams of about twenty households; the commune off blind orders; cadres elected; procurement fixed.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 514–516 (Mar. 17, 1961; Mao''s comment of Mar. 17; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Ke Qingshi, Zeng Xisheng, Tan Qilong, Jiang Weiqing, Jiang Hua, Lin Hujia, Yang Shangkui, Liu Junxiu, Ye Fei and Wei Wenbo, "Opinions of some East China comrades on several questions the rural people''s communes must now solve", Three South conference paper, Mar. 13, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 514 n.1). Names: Mao Zedong, Ke Qingshi, Zeng Xisheng, Tan Qilong, Jiang Weiqing.'
+    src:
+      c: 72e5c654
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 514–516: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 514 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:ke-qingshi, vis:only:prc]
   - id: cal.1961-03-18.laos
     when: Mar. 18
     date: '1961-03-18'
@@ -2175,6 +2287,18 @@ entries:
     c: 'The Secretariat, Hanoi: circular no. 21-TT/TW. On the Central Front Board''s proposal, the second congress of the Vietnam Fatherland Front called for Apr. 25–29, 1961, to review its program and the North''s gains and the struggle for reunification.'
     n: '*Thông tri của Ban Bí thư số 21-TT/TW về việc triệu tập Đại hội đại biểu Mặt trận Tổ quốc Việt Nam lần thứ hai*, signed for the Secretariat by Nguyễn Khai, head of its office. [[w.van-kien-dang-toan]], XXII, 269–70. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-03-18.china-leadership
+    when: Mar. 18
+    date: '1961-03-18'
+    thread: china-leadership
+    c: 'Mao 毛泽东: two pieces of the General Office''s *Qingkuang jianbao* 情况简报 no. 80 of Mar. 11, Yang Fangzhi''s 杨放之 notes from the villages and ''New air in the villages of Hebei and the Peking suburbs'', to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23): Hebei''s 河北 work much improved; but Jiaohe 交河 county, over 900,000 people, too large, to be split in two; its 23 communes, over 40,000 each, too large; rectification not yet carried out there, the Twelve Articles unknown to the masses.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 517–518 (Mar. 18, 1961; Mao''s comment of Mar. 18; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: General Office of the Central Committee, *Qingkuang jianbao*, no. 80, Mar. 11, 1961: "Comrade Yang Fangzhi on what he saw and heard in the villages" and "New air in the villages of Hebei and the Peking suburbs" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 517 n.2). Names: Mao Zedong, Yang Fangzhi.'
+    src:
+      c: 89c24112
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 517–518: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 517 n.2: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-19.robert-kennedy
     when: Mar. 19
     date: '1961-03-19'
@@ -2246,6 +2370,31 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.59c: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 508–509: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-03-19.china-leadership-4
+    when: Mar. 19
+    date: '1961-03-19'
+    thread: china-leadership
+    c: 'Mao 毛泽东: Li Jingquan''s 李井泉 material of Mar. 17 on Huohua 火花 commune, Nanchong 南充, Sichuan 四川, its 1960 final distribution, to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23); a common question; study Sichuan''s experience. The material: of three plans put to the members, the third (the ''five guarantees'' households covered, the needy helped, a small part of food supplied) chosen by 81.2 percent; in Nanchong prefecture''s 500-odd communes, 76.84 percent; the supply share never over 30 percent.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 519–520 (Mar. 19, 1961; Mao''s comment of Mar. 19, written on Li''s letter to Hu Qiaomu; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Li Jingquan, letter of Mar. 17, 1961 to Hu Qiaomu sending two copies of the Huohua commune material, one for Mao if needed (cited by [[w.jianguo-yilai-mao-zedong]], XV, 519 n.1a); "Which distribution plan the masses support: the experience of the 1960 final distribution of Huohua commune, Nanchong city, Sichuan" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 519 n.1b). Names: Mao Zedong, Li Jingquan, Hu Qiaomu.'
+    src:
+      c: 7622bf74
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 519–520: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 519 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 519 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:li-jingquan, vis:only:prc]
+  - id: cal.1961-03-19.china-leadership-5
+    when: Mar. 19
+    date: '1961-03-19'
+    thread: china-leadership
+    c: 'Mao 毛泽东: Song Renqiong''s 宋任穷 ''Some questions of the rural people''s communes and farm output in the Northeast'' 东北, very well written, to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23) to study and adopt. The material, from the Northeast group of Mar. 15–16: a commune to a township, the brigade the old higher cooperative, the team the lower; the brigade the basic accounting unit; egalitarianism cut; mess halls voluntary and smaller; supply and marketing and handicraft cooperatives restored; eighteen questions in all.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 521–522 (Mar. 19, 1961; Mao''s comment of Mar. 19; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Song Renqiong, first secretary of the Northeast Bureau, "Some questions of the rural people''s communes and farm output in the Northeast" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 521 n.1). Names: Mao Zedong, Song Renqiong.'
+    src:
+      c: 3d6c38de
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 521–522: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 521 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-20.cuba
     when: Mar. 20
     date: '1961-03-20'
@@ -2527,6 +2676,18 @@ entries:
     c: 'Canton. Liu Shaoqi speaks at the Central-South and North China groups of the Central Work Conference. Free markets cannot be led by administrative orders alone but by economic competition: when egg prices rise on the free market the state is to give farmers more cigarettes per egg in exchange, so the free-market price falls and the market comes under the state''s lead. Light industrial goods should go first to the countryside, to be exchanged for farm goods. Economic work is to be ever finer: grain purchase is not to be flat but graded, and pay by labor, more work more food, is to be carried through.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 509–510 (Mar. 21, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-03-21.china-leadership-3
+    when: Mar. 21
+    date: '1961-03-21'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on the cover of Xinhua''s 新华社 *Neibu cankao* 内部参考 supplement no. 198 of Mar. 17: find the Southern Song collections of Zhang Yuangan 张元幹 (*Guilai ji* 《归来集》), Zhang Xiaoxiang 张孝祥 (the Yuhu 于湖 collection and lyrics) and Hong Hao 洪皓 (poems and prose).'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 523 (Mar. 21, 1961; Mao''s comment, printed from the manuscript; note 1, where it was written). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Xinhua, *Neibu cankao*, supplement no. 198, Mar. 17, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 523 n.1). Names: Mao Zedong.'
+    src:
+      c: efc51c09
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 523: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 523 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-22.foreign-aid
     when: Mar. 22
     date: '1961-03-22'
@@ -2646,6 +2807,18 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 399: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 508: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03-22.china-leadership-2
+    when: Mar. 22
+    date: '1961-03-22'
+    thread: china-leadership
+    c: 'Mao 毛泽东: ''Some members'' and cadres'' views on pay by work'', inquiry material Chen Boda 陈伯达 sends him Mar. 22, written by two of his staff in Guangdong 广东 and before that in Hebei 河北, to be printed for the Central Work Conference at Canton 广州 (Mar. 15–23): a national question, to be solved quickly. The views: without pay by work no zeal; help for needy households open, not hidden in supply; ''work points carry grain''; 80 percent of one county''s people for a 3:7 split of supply and wages.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 524–525 (Mar. 22, 1961; Mao''s comment of Mar. 22, written on Chen''s report; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Chen Boda, report of Mar. 22, 1961 sending "Some members'' and cadres'' views on pay by work" (by two staff who inquired with him in Guangdong and earlier in Hebei) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 524 n.1). Names: Mao Zedong, Chen Boda.'
+    src:
+      c: d2fd3ce4
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 524–525: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 524 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
   - id: cal.1961-03-23.laos
     when: Mar. 23
     date: '1961-03-23'
@@ -2761,12 +2934,13 @@ entries:
     date: '1961-03-23'
     thread: china-leadership
     c: 'Canton, the work conference''s plenary session. Mao gives Hu Qiaomu''s draft its title, "Letter of the Central Committee to the Bureaus and the Provincial Committees on Earnest Investigation" (down to the counties, regiments, big factories, universities), and speaks on "On Investigation Work," section by section: a Marxist–Leninist line not easily made.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 23, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 23, 1961; Liu presides at the Central Work Conference''s session). Made public: 1996. Names: Mao Zedong, Hu Qiaomu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 23, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 23, 1961; Liu presides at the Central Work Conference''s session); [[w.jianguo-yilai-mao-zedong]], XV, 526–527 (Mar. 23, 1961; Mao''s title for Hu Qiaomu''s draft, his note on how far it goes (to counties, regiments, city districts, big factories, universities, the great papers) and his rewriting of a passage: the errors came at root from leaders slackening the investigation done well in the anti-Japanese and civil wars; he dates it Mar. 23; printed from the manuscript and his revised copy; the title and the reach, not the speech). Made public: 1996. Names: Mao Zedong, Hu Qiaomu.'
     src:
       c: 5d43e328
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Mar. 23, 1961: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 508: A'
+        - 'w.jianguo-yilai-mao-zedong XV, 526–527: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-23.china-leadership-2
     when: Mar. 23
@@ -2781,7 +2955,7 @@ entries:
     date: '1961-03-23'
     thread: china-leadership
     c: 'The Center sends the Party''s regional bureaus and provincial committees a letter on conducting investigation seriously, with Mao''s 1930 essay "Investigation Work": county committees and above, first secretaries first, to study Mao''s method and make going down to the base, in person, for systematic typical inquiry the first task of leadership.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 23, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 48 (the letter to the provincial standing committees: "No investigation, no right to speak"). Made public: 1997. To check: [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 462 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58c); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 23, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 48 (the letter to the provincial standing committees: "No investigation, no right to speak"); [[w.jianguo-yilai-mao-zedong]], XV, 526–527 (Mar. 23, 1961; note 1: the Center issued the letter Mar. 23, the day Mao dated it; the issue and its day only, not the letter''s content). Made public: 1997. To check: [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 462 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58c); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d); Central Committee, "Letter to the bureaus and the provincial, city and regional committees on carrying out investigation in earnest", Mar. 23, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 527 n.1). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: b7a7bb84
       rows:
@@ -2791,6 +2965,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 48 n.58d: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 526–527: A'
+        - 'via w.jianguo-yilai-mao-zedong XV, 527 n.1: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-24.program
     when: Mar. 24
@@ -3110,6 +3286,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 305: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-27.china-leadership-3
+    when: Mar. 27
+    date: '1961-03-27'
+    thread: china-leadership
+    c: 'Zhou Enlai 周恩来, back in Peking 北京, cables Mao 毛泽东 at Canton 广州 the draft oral answer to the CPSU''s letter of Mar. 21, agreed by the Secretariat: thanks for the loan of a million tons of grain and 500,000 of sugar, the grain kept as China''s reserve; after the June wheat harvest or a new Australian contract for a million tons (3.64 million in all, 7.28 billion jin), the Soviets to be told it is no longer needed.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 528–529 (Mar. 27, 1961; note 1, Zhou''s telegram as the volume gives it). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Zhou Enlai, telegram of Mar. 27, 1961 to Mao Zedong with the draft oral answer to the CPSU Central Committee''s letter of Mar. 21 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 528 n.1). Names: Zhou Enlai, Mao Zedong. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: '77900128'
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 528–529: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 528 n.1: all'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03-28.defense
     when: Mar. 28
     date: '1961-03-28'
@@ -3336,12 +3524,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao revises Zhou Enlai''s draft oral answer of the Central Committee to the CPSU''s letter of Mar. 21 (a million tons of grain and 500,000 tons of sugar on loan, the grain kept as China''s reserve): thanks; if the harvest or the purchases abroad go well, the Soviets released from the reserve; Mao adds: if not, it stays China''s reserve.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 28, 1961. [[w.zhou-enlai-nianpu-1949]], II, 399–400, Mar. 27, 1961 (Zhou''s draft oral answer to the CPSU''s letter of Mar. 21, reported to the Secretariat Mar. 27 and read to Chervonenko Mar. 31). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 28, 1961. [[w.zhou-enlai-nianpu-1949]], II, 399–400, Mar. 27, 1961 (Zhou''s draft oral answer to the CPSU''s letter of Mar. 21, reported to the Secretariat Mar. 27 and read to Chervonenko Mar. 31). [[w.jianguo-yilai-mao-zedong]], XV, 528–529 (Mar. 28, 1961; Mao''s note to Zhou Enlai of Mar. 28, received, slightly revised, for Zhou to settle, and the sentence he adds after the release of the reserve: if the grain does not go well, the million tons remain China''s reserve; this handling more practical). Made public: 1997. To check: Zhou Enlai, telegram of Mar. 27, 1961 to Mao Zedong with the draft oral answer to the CPSU Central Committee''s letter of Mar. 21 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 528 n.1). Names: Mao Zedong, Zhou Enlai, Khrushchev.'
     src:
       c: 4d418ee8
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Mar. 28, 1961: all'
         - 'w.zhou-enlai-nianpu-1949 II, 399–400, Mar. 27, 1961: A'
+        - 'w.jianguo-yilai-mao-zedong XV, 528–529: A-C'
+        - 'via w.jianguo-yilai-mao-zedong XV, 528 n.1: A-C'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-03-28.china-leadership-2
     when: Mar. 28
@@ -3513,6 +3703,21 @@ entries:
     c: 'Zhou Enlai settles the Chinese government''s memorandum to the Soviet government on Laos: the situation in Laos and around it keeps changing; "if the United States, with no cease-fire, is unwilling to hold an international conference, the responsibility will fall on the United States."'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 400 (Mar. 29, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-03-29.china-leadership-4
+    when: Mar. 29
+    date: '1961-03-29'
+    time: 1961-03-28T20:00Z
+    thread: china-leadership
+    c: 'Mao 毛泽东, 4 a.m., to Tao Zhu 陶铸 and Chen Boda 陈伯达: read on arrival the General Office''s *Qingkuang jianbao* 情况简报 no. 113 of Mar. 24, the Shandong 山东 rural work department''s views on the commune system; to be taken up at their talk about 1 p.m. The views: big counties and communes to be cut; the small team the real producer without the right to distribute; ownership, use, production and distribution to be one; accounting units of fifty or sixty households.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 530–531 (Mar. 29, 1961; Mao''s comment of Mar. 29, 4 a.m. (上午四时); printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: General Office of the Central Committee, *Qingkuang jianbao*, no. 113, Mar. 24, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 530 n.2a); Rural Work Department of the Shandong Provincial Party Committee, "Views from discussions on the system of the rural people''s communes", *Nongcun gongzuo qingkuang*, no. 5, Mar. 17, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 530 n.2b). Names: Mao Zedong, Tao Zhu, Chen Boda.'
+    src:
+      c: 1c347787
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 530–531: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 530 n.2a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 530 n.2b: all'
+    tags: [polity:prc, name:mao-zedong, name:tao-zhu, name:chen-boda, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-30.cuba
     when: Mar. 30
     date: '1961-03-30'
