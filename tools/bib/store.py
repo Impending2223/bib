@@ -27,12 +27,23 @@ ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "place", "thr
 
 # ---------------------------------------------------------------- yaml i/o
 
-class _Loader(yaml.SafeLoader):
+# libyaml's loader (C, about eight times faster) when this PyYAML has it, else the pure-Python one; both read every
+# file of the data alike (tests/property: test_c_loader_agrees). _PyLoader, the pure-Python one, reads a file libyaml
+# will not, so that the message for bad YAML is the same whichever loader is in use.
+_FAST = bool(getattr(yaml, "__with_libyaml__", False)) and hasattr(yaml, "CSafeLoader")
+LOADER_KIND = "libyaml" if _FAST else "python"
+
+
+class _PyLoader(yaml.SafeLoader):
+    pass
+
+
+class _Loader(yaml.CSafeLoader if _FAST else yaml.SafeLoader):
     pass
 
 
 # Dates and times stay strings: "1961-04-15" must not turn into a date object.
-_Loader.yaml_implicit_resolvers = {
+_PyLoader.yaml_implicit_resolvers = _Loader.yaml_implicit_resolvers = {
     k: [(tag, rx) for tag, rx in v if tag != "tag:yaml.org,2002:timestamp"]
     for k, v in yaml.SafeLoader.yaml_implicit_resolvers.items()
 }
@@ -49,8 +60,8 @@ CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by p
 
 def load_yaml(path):
     """A YAML file's data, parsed once: the parse is kept in memory for the run and on disk (.cache/yaml) for later
-    runs, keyed by the file's path and a sha1 of its bytes (not its modification time and size, which a rewrite in
-    the same tick can leave unchanged; hashing all the data's YAML costs about 0.1-0.2 s a run). Each caller gets its
+    runs, keyed by the file's path and a sha1 of its bytes (on disk, with the loader's kind; not its modification time
+    and size, which a rewrite in the same tick can leave unchanged; hashing all the data's YAML costs about 0.1-0.2 s a run). Each caller gets its
     own copy (callers change what they load). _PARSED[path] holds the digest and parse of the bytes last read."""
     import pickle
     try:
@@ -60,6 +71,7 @@ def load_yaml(path):
         raw = None
     if raw is not None:
         sig = hashlib.sha1(raw).hexdigest()
+        dkey = sig + "/" + LOADER_KIND     # on disk, the loader's kind too: a change of loader parses afresh
         hit = _PARSED.get(path)
         if hit and hit[0] == sig:
             return pickle.loads(hit[1])
@@ -67,7 +79,7 @@ def load_yaml(path):
         try:
             with open(disk, "rb") as f:
                 dsig, blob = pickle.load(f)
-            if dsig == sig:
+            if dsig == dkey:
                 _PARSED[path] = (sig, blob)
                 return pickle.loads(blob)
         except (OSError, EOFError, pickle.UnpicklingError, ValueError, TypeError):
@@ -80,7 +92,7 @@ def load_yaml(path):
             os.makedirs(CACHE_DIR, exist_ok=True)
             tmp = disk + f".{os.getpid()}.tmp"
             with open(tmp, "wb") as f:
-                pickle.dump((sig, blob), f, protocol=pickle.HIGHEST_PROTOCOL)
+                pickle.dump((dkey, blob), f, protocol=pickle.HIGHEST_PROTOCOL)
             os.replace(tmp, disk)
         except OSError:
             pass
@@ -96,6 +108,10 @@ def _parse_yaml(path, text=None):
                         "merges these files entry by entry, or settle the markers by hand.")
     try:
         return yaml.load(text, Loader=_Loader)
+    except yaml.YAMLError:
+        pass
+    try:                                 # it failed: the pure-Python loader's reading and message, as before
+        return yaml.load(text, Loader=_PyLoader)
     except yaml.YAMLError as e:
         mark = getattr(e, "problem_mark", None)
         where = f"{os.path.relpath(path, ROOT)}:{mark.line + 1}" if mark else os.path.relpath(path, ROOT)
