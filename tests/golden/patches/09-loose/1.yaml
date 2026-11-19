@@ -1,0 +1,12 @@
+patch: fx-loose
+by: tests
+# A month-dated entry whose when gives an intercalary day: merge sets its at (loose.py, STYLE 3a).
+ops:
+  - add:
+      entry:
+        id: cal.1961-04.space
+        when: Apr., last week
+        date: '1961-04'
+        thread: space
+        c: Webb, at NASA, on a lunar landing program.
+        n: '[[w.reeves-president-kennedy]], 99.'
