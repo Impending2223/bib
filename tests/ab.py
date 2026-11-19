@@ -101,7 +101,7 @@ def files(root):
 
 
 # Output that is not a function of the data and the code: the time a feed was written. Blanked before comparing.
-NONDETERMINISTIC = [(re.compile(rb"<dateCreated>[^<]*</dateCreated>"), b"<dateCreated>(normalized)</dateCreated>")]
+NONDETERMINISTIC = [(re.compile(rb"<(dateCreated|lastBuildDate)>[^<]*</\1>"), rb"<\1>(normalized)</\1>")]
 
 
 def normalized(path):

@@ -69,7 +69,7 @@ def golden(name, text, update):
                     f"meant, run pytest --update-goldens and commit the new golden with the change.\n{shown}")
 
 
-NONDETERMINISTIC = [(re.compile(r"<dateCreated>[^<]*</dateCreated>"), "<dateCreated>(normalized)</dateCreated>")]
+NONDETERMINISTIC = [(re.compile(r"<(dateCreated|lastBuildDate)>[^<]*</\1>"), r"<\1>(normalized)</\1>")]
 
 
 def normalize(text):
