@@ -1,5 +1,7 @@
 # The Chinese calendar, 1957-72, at Peking (UTC+8): new moons (Meeus, Astronomical Algorithms, ch. 49) and the principal solar terms; month 11 holds the winter solstice; a 13-month year takes as leap the first month with no principal term. Run: python3 -I tools/calendar/chinese_calendar.py (it checks every New Year 1960-70 against the known dates). Used Nov. 19, 2026 to date the 1960 festival and lunar entries.
 import math, datetime
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lunar_meeus import jde_newmoon, sunlong
 EPOCH=datetime.datetime(2000,1,1,12)
 def d8(jde):  # the civil date at Peking (UTC+8) of a JDE (ΔT ~35 s in the 1960s, ignored)
