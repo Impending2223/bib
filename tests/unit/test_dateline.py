@@ -13,7 +13,7 @@ UTC = datetime.timezone.utc
 
 CLOCK = [
     ((0, 0), 'midnight'),
-    ((12, 0), 'noon'),
+    ((12, 0), '12:00 p.m.'),
     ((9, 5), '9:05 a.m.'),
     ((13, 30), '1:30 p.m.'),
     ((23, 59), '11:59 p.m.'),
@@ -24,7 +24,7 @@ SPAN = [
     ((9, 0), (11, 0), '9–11 a.m.'),
     ((11, 0), (13, 0), '11 a.m.–1 p.m.'),
     ((13, 0), (15, 30), '1–3:30 p.m.'),
-    ((12, 0), (14, 0), 'noon–2 p.m.'),
+    ((12, 0), (14, 0), '12:00–2 p.m.'),
     ((22, 0), (0, 0), '10 p.m.–midnight'),
 ]
 ZLABEL = [
@@ -110,7 +110,7 @@ FULL = [
       'time_zone': 'Asia/Shanghai', 'time_band': 'morning'}, 'Peking · morning'),
     ({'id': 't', 'date': '1963-01-18', 'time_range': ['1963-01-17T23:00Z', '1963-01-18T05:00Z'],
       'time_zone': 'Asia/Ho_Chi_Minh', 'time_band': 'morning', 'range_basis': 'record'}, 'Saigon · morning'),
-    ({'id': 'a', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z'}, 'noon Wash.'),
+    ({'id': 'a', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z'}, '12:00 p.m. Wash.'),
     ({'id': 'k', 'date': '1961-04-17'}, ''),
 ]
 HTML = [
@@ -120,7 +120,7 @@ HTML = [
       'time_zone': 'Asia/Shanghai'},
      '<span class="dl" title="Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)">Peking · 10 a.m.</span>'),
     ({'id': 'n', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z', 'time_zone': 'America/New_York'},
-     '<span class="dl">Washington · noon</span>'),
+     '<span class="dl">Washington · 12:00 p.m.</span>'),
     ({'id': 'k', 'date': '1961-04-17'}, ''),
 ]
 

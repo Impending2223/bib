@@ -12,7 +12,8 @@ STYLE
     `time_range` from the record its start ("10:20 a.m.", not "10:20–11:20 a.m."); a range from the event's kind
     (`range_basis: kind`), or any range a reader gave a `time_band` (the record's "morning", 上午), its band as words
     ("workday", "early morning", "election night", "morning"), a word, not a range or its start shown; no time, no
-    dateline.
+    dateline. Noon is "12:00 p.m." (the owner, Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2
+    p.m."; midnight stays "midnight" (no ruling on it).
  3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
     reaches it, its city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the eastern
     zone, Peking, Moscow, Saigon ...). The clock: `time_zone`, else the place's zone; an exact time with neither
@@ -67,7 +68,7 @@ def _city(slug):
 
 def _hour(dt):
     if dt.hour == 12 and dt.minute == 0:
-        return "noon"
+        return "12:00"                                  # noon (STYLE 2)
     if dt.hour == 0 and dt.minute == 0:
         return "midnight"
     h = dt.hour % 12 or 12
@@ -75,7 +76,7 @@ def _hour(dt):
 
 
 def _mer(dt):
-    return "" if (dt.hour, dt.minute) in ((12, 0), (0, 0)) else (" a.m." if dt.hour < 12 else " p.m.")
+    return "" if (dt.hour, dt.minute) == (0, 0) else (" a.m." if dt.hour < 12 else " p.m.")
 
 
 def _clock(dt):
