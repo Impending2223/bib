@@ -1,0 +1,753 @@
+patch: 2026-11-19-places-18
+by: 'Claude (the location pass, chunk18: July 1, 1967-Apr. 4, 1968, entries with no time of day), Nov. 19, 2026'
+ops:
+- place-key: {key: lexington-ma, name: 'Lexington, Mass.', zone: America/New_York, st: MA}
+- place-key: {key: phu-yen, name: 'Phú Yên province', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: u-tapao, name: 'U Tapao', zone: Asia/Bangkok, in: thailand}
+- place-key: {key: nakhon-phanom, name: 'Nakhon Phanom', zone: Asia/Bangkok, in: thailand}
+- place-key: {key: qingtongxia, name: 'Qingtongxia', zone: Asia/Shanghai, in: prc}
+- place-key: {key: hoc-mon, name: 'Hóc Môn District', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: qinghai, name: 'Qinghai', zone: Asia/Shanghai, in: prc}
+- place-key: {key: wenzhou, name: 'Wenzhou', zone: Asia/Shanghai, in: prc}
+- place-key: {key: college-park, name: 'College Park, Md.', zone: America/New_York, st: MD}
+- place-key: {key: quang-tin, name: 'Quảng Tín province', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: phu-quoc, name: 'Phú Quốc', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: poulo-obi, name: 'Poulo Obi', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: stanford, name: 'Stanford, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: warrenton-va, name: 'Warrenton, Va.', zone: America/New_York, st: VA}
+- place-key: {key: williamstown-ma, name: 'Williamstown, Mass.', zone: America/New_York, st: MA}
+- place-key: {key: volgograd, name: 'Volgograd', zone: Europe/Volgograd, in: ussr}
+- place-key: {key: song-be, name: 'Sông Bé', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: laurel-ms, name: 'Laurel, Miss.', zone: America/Chicago, st: MS}
+- place-key: {key: inner-mongolia, name: 'Inner Mongolia', zone: Asia/Shanghai, in: prc}
+- place-key: {key: bremerton, name: 'Bremerton, Wash.', zone: America/Los_Angeles, st: WA}
+- place-key: {key: phuoc-tuy, name: 'Phước Tuy province', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: st-helena-island, name: 'St. Helena Island, S.C.', zone: America/New_York, st: SC}
+- place-key: {key: bloomington-in, name: 'Bloomington, Ind.', zone: America/Indiana/Indianapolis, st: IN}
+- place-key: {key: bal-harbour, name: 'Bal Harbour, Fla.', zone: America/New_York, st: FL}
+- place-key: {key: collins-ms, name: 'Collins, Miss.', zone: America/Chicago, st: MS}
+- place-key: {key: muong-phalane, name: 'Muong Phalane', zone: Asia/Vientiane, in: laos}
+- place-key: {key: pine-bluff, name: 'Pine Bluff, Ark.', zone: America/Chicago, st: AR}
+- place-key: {key: lusaka, name: 'Lusaka', zone: Africa/Lusaka, in: zambia}
+- place-key: {key: lagos, name: 'Lagos', zone: Africa/Lagos, in: nigeria}
+- place-key: {key: ban-houei-sane, name: 'Ban Houei Sane', zone: Asia/Vientiane, in: laos}
+- place-key: {key: howth, name: 'Howth', zone: Europe/Dublin, in: ireland}
+- place-key: {key: fort-jackson, name: 'Fort Jackson, S.C.', zone: America/New_York, st: SC}
+- place-key: {key: hillsboro-nh, name: 'Hillsboro, N.H.', zone: America/New_York, st: NH}
+- place-key: {key: hainan, name: 'Hainan', zone: Asia/Shanghai, in: prc}
+- place-key: {key: amherst-nh, name: 'Amherst, N.H.', zone: America/New_York, st: NH}
+- place-key: {key: rhinelander, name: 'Rhinelander, Wis.', zone: America/Chicago, st: WI}
+- place-key: {key: berlin-nh, name: 'Berlin, N.H.', zone: America/New_York, st: NH}
+- place-key: {key: acapulco, name: 'Acapulco', zone: America/Mexico_City, in: mexico}
+- place-key: {key: grosse-pointe, name: 'Grosse Pointe, Mich.', zone: America/Detroit, st: MI}
+- place-key: {key: kings-point, name: 'Kings Point, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: son-my-my-lai, name: 'Sơn Mỹ (Mỹ Lai)', zone: Asia/Ho_Chi_Minh, in: rvn, fix: true}
+- place-key: {key: everett, name: 'Everett, Mass.', zone: America/New_York, st: MA, fix: true}
+- place-key: {key: manhattan-ks, name: 'Manhattan, Kan.', zone: America/Chicago, st: KS}
+- place-key: {key: karameh, name: 'Karameh', zone: Asia/Amman, in: jordan}
+- place-key: {key: eutaw, name: 'Eutaw, Ala.', zone: America/Chicago, st: AL}
+- place-key: {key: lake-villa, name: 'Lake Villa, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: oshkosh, name: 'Oshkosh, Wis.', zone: America/Chicago, st: WI}
+- place-key: {key: vincennes, name: 'Vincennes, Ind.', zone: America/Chicago, st: IN}
+- place: {id: cal.1967-07-01.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-07-02.china-leadership-2, at: chengdu, basis: c, note: 'the Red Guard paper printed in Chengdu'}
+- place: {id: cal.1967-07-04.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1967-07-04.middle-east, at: nyc, basis: seat, note: 'the General Assembly'}
+- place: {id: cal.1967-07-04.war-opposition, at: lexington-ma, basis: c}
+- place: {id: cal.1967-07-05.vietnam-hanoi-3, at: hanoi, basis: seat, note: 'the DRV Secretariat''s cable'}
+- place: {id: cal.1967-07-06.vietnam-barrier, at: nakhon-phanom, basis: c}
+- place: {id: cal.1967-07-07.conservation, at: texas, basis: c, note: 'Lockhart, Praha, La Grange, Winedale, Round Top: equal stops, all in Texas'}
+- place: {id: cal.1967-07-07.vietnam, at: saigon, basis: n, note: 'the visit: in Saigon in July (Westmoreland), the arrival at Tan Son Nhut; the FRUS heading of the July 11 meeting, Saigon'}
+- place: {id: cal.1967-07-08.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1967-07-09.japan-and-korea-korean-troops, at: phu-yen, basis: c}
+- place: {id: cal.1967-07-09.vietnam-air-war, at: u-tapao, basis: c}
+- place: {id: cal.1967-07-09.vietnam-operations, at: saigon, basis: c}
+- place: {id: cal.1967-07-10.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1967-07-10.china-leadership-6, at: shanghai, basis: c}
+- place: {id: cal.1967-07-11.china-leadership, at: peking, basis: c}
+- place: {id: cal.1967-07-12.china-leadership-2, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1967-07-12.civil-disorders, at: newark, basis: c}
+- place: {id: cal.1967-07-13.cities-and-housing-2, at: chicago, basis: c}
+- place: {id: cal.1967-07-13.japan-and-korea-korean-troops, at: da-nang, basis: c}
+- place: {id: cal.1967-07-14.china-leadership-4, at: wuhan, basis: c}
+- place: {id: cal.1967-07-14.civil-disorders, at: plainfield-nj, basis: c}
+- place: {id: cal.1967-07-14.economy, at: washington, basis: seat, note: 'the Finance Committee''s hearings'}
+- place: {id: cal.1967-07-14.middle-east, at: nyc, basis: seat, note: 'the General Assembly'}
+- place: {id: cal.1967-07-14.vietnam-operations-2, at: hoi-an, basis: c}
+- place: {id: cal.1967-07-15.china-leadership, at: wuhan, basis: c, note: 'the meetings with the Wuhan Region''s heads, Zhou sent to Wuhan'}
+- place: {id: cal.1967-07-15.china-leadership-2, at: wuhan, basis: c}
+- place: {id: cal.1967-07-15.china-leadership-3, at: wuhan, basis: c}
+- place: {id: cal.1967-07-15.soviet-union-leadership, at: moscow, basis: c, note: 'the Kremlin'}
+- place: {id: cal.1967-07-15.vietnam-operations-2, at: da-nang-air-base, basis: c}
+- place: {id: cal.1967-07-16.china-leadership, at: wuhan, basis: c, note: 'the East Lake hostel, Wuchang'}
+- place: {id: cal.1967-07-17.china-leadership, at: wuhan, basis: c, note: 'the East Lake guesthouse, Wuchang'}
+- place: {id: cal.1967-07-17.civil-disorders-newark, at: newark, basis: c}
+- place: {id: cal.1967-07-17.vietnam, at: saigon, basis: c}
+- place: {id: cal.1967-07-18.china-leadership-2, at: peking, basis: c, note: 'while Zhou is away from Peking: the raids on the leaders'' homes there'}
+- place: {id: cal.1967-07-19.china-leadership-7, at: hong-kong, basis: c}
+- place: {id: cal.1967-07-20.black-nationalism, at: newark, basis: c}
+- place: {id: cal.1967-07-20.china-leadership, at: wuhan, basis: c}
+- place: {id: cal.1967-07-20.china-leadership-7, at: wuhan, basis: c, note: 'the Wuhan Military Region headquarters'}
+- place: {id: cal.1967-07-21.china, at: peking, basis: c, note: 'the Reuters correspondent in Beijing summoned'}
+- place: {id: cal.1967-07-21.middle-east, at: nyc, basis: seat, note: 'the General Assembly'}
+- place: {id: cal.1967-07-21.vietnam, at: hanoi, basis: c, note: 'Marcovich and Aubrac in Hanoi'}
+- place: {id: cal.1967-07-21.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s directive'}
+- place: {id: cal.1967-07-22.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1967-07-22.china-leadership-4, at: wuhan, basis: c, note: 'the Wangjiadun airfield, Wuhan'}
+- place: {id: cal.1967-07-22.vietnam, at: andrews, basis: n, note: 'the departure: Andrews, the morning of July 22 (Clifford)'}
+- place: {id: cal.1967-07-23.civil-disorders-detroit, at: detroit, basis: c, note: 'Cavanagh''s call from Detroit; Humphrey''s place not on the record'}
+- place: {id: cal.1967-07-24.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1967-07-24.china-leadership-2, at: peking, basis: c, note: 'the Jingxi Hotel, Peking'}
+- place: {id: cal.1967-07-24.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1967-07-24.civil-disorders, at: cambridge-md, basis: c, note: 'the speech, the shots and the fire; the arrest after'}
+- place: {id: cal.1967-07-25.china-leadership-2, at: peking, basis: c, note: 'Tiananmen square'}
+- place: {id: cal.1967-07-25.civil-disorders-4, at: nyc, basis: c, note: 'East Harlem, New York'}
+- place: {id: cal.1967-07-25.civil-disorders-detroit, at: detroit, basis: c, note: 'the Algiers Motel'}
+- place: {id: cal.1967-07-26.china-leadership-3, at: peking, basis: c, note: 'the Jingxi Hotel, the heads in Peking'}
+- place: {id: cal.1967-07-27.civil-disorders-detroit, at: washington, basis: n, note: 'the PPP headnote: the telegram read at the White House'}
+- place: {id: cal.1967-07-27.vietnam, at: hanoi, basis: c}
+- place: {id: cal.1967-07-29.civil-disorders-detroit, at: detroit, basis: c}
+- place: {id: cal.1967-07-30.civil-disorders, at: milwaukee, basis: c}
+- place: {id: cal.1967-07-31.china-leadership-5, at: shanghai, basis: c}
+- place: {id: cal.1967-08.china-leadership-13, at: chongqing, basis: c}
+- place: {id: cal.1967-08.china-leadership-14, at: chengdu, basis: c}
+- place: {id: cal.1967-08.china-leadership-16, at: shanghai, basis: c}
+- place: {id: cal.1967-08.china-leadership-17, at: shanghai, basis: c}
+- place: {id: cal.1967-08.china-leadership-18, at: changchun, basis: c}
+- place: {id: cal.1967-08.china-leadership-21, at: peking, basis: c}
+- place: {id: cal.1967-08.china-leadership-22, at: hong-kong, basis: c}
+- place: {id: cal.1967-08.china-leadership-27, at: shanghai, basis: c}
+- place: {id: cal.1967-08.china-leadership-29, at: shanghai, basis: c, note: 'the leaders with Mao in Shanghai send the ruling'}
+- place: {id: cal.1967-08.china-leadership-6, at: shanghai, basis: c, note: 'the Shanghai Revolutionary Committee'}
+- place: {id: cal.1967-08.china-leadership-9, at: qingtongxia, basis: c}
+- place: {id: cal.1967-08.civil-disorders, at: detroit, basis: c}
+- place: {id: cal.1967-08.democratic-party, at: nyc, basis: c, note: 'Lowenstein''s apartment, New York'}
+- place: {id: cal.1967-08.desegregation-schools-2, at: chicago, basis: c}
+- place: {id: cal.1967-08.mayors, at: washington, basis: c}
+- place: {id: cal.1967-08.vietnam, at: saigon, basis: c}
+- place: {id: cal.1967-08.vietnam-congress-2, at: paris, basis: c, note: 'Pell''s journey to Paris'}
+- place: {id: cal.1967-08.vietnam-support, at: washington, basis: c, note: 'the group housed in the White House'}
+- place: {id: cal.1967-08-01.civil-disorders-detroit, at: detroit, basis: c}
+- place: {id: cal.1967-08-03.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1967-08-03.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1967-08-04.robert-kennedy, at: san-francisco, basis: c}
+- place: {id: cal.1967-08-05.china-leadership-2, at: peking, basis: c, note: 'the siege at Zhongnanhai''s west gate'}
+- place: {id: cal.1967-08-05.china-leadership-3, at: peking, basis: c, note: 'Tiananmen'}
+- place: {id: cal.1967-08-05.china-leadership-4, at: peking, basis: c, note: 'Tiananmen Square and Zhongnanhai'}
+- place: {id: cal.1967-08-05.democratic-party, at: california, basis: c}
+- place: {id: cal.1967-08-06.china-leadership-2, at: peking, basis: c, note: 'Hunan''s delegates to Peking'}
+- place: {id: cal.1967-08-07.vietnam, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1967-08-07.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-08-07.vietnam-operations, at: hoc-mon, basis: c}
+- place: {id: cal.1967-08-08.china-leadership-2, at: peking, basis: c, note: 'the heads in Peking'}
+- place: {id: cal.1967-08-08.vietnam-3, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1967-08-09.vietnam-congress-2, at: honolulu, basis: c}
+- place: {id: cal.1967-08-10.china-leadership-4, at: canton, basis: c, note: 'Canton International Airport'}
+- place: {id: cal.1967-08-12.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1967-08-12.china-leadership-5, at: qinghai, basis: c, note: 'the provincial Revolutionary Committee established'}
+- place: {id: cal.1967-08-13.china-leadership-2, at: wenzhou, basis: c}
+- place: {id: cal.1967-08-13.vietnam-operations, at: quang-tin, basis: c}
+- place: {id: cal.1967-08-14.economy-surcharge, at: washington, basis: seat, note: 'Ways and Means hearings'}
+- place: {id: cal.1967-08-14.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-08-15.democratic-party, at: college-park, basis: c}
+- place: {id: cal.1967-08-15.europe-and-the-alliance, at: washington, basis: c, note: 'the White House; FRUS headings, Washington'}
+- place: {id: cal.1967-08-15.king, at: atlanta, basis: c, note: 'Ebenezer'}
+- place: {id: cal.1967-08-15.states-and-cities, at: chicago, basis: c}
+- place: {id: cal.1967-08-16.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1967-08-16.king, at: atlanta, basis: c}
+- place: {id: cal.1967-08-16.vietnam-support, at: washington, basis: c, note: 'the East Room'}
+- place: {id: cal.1967-08-17.vietnam, at: paris, basis: c}
+- place: {id: cal.1967-08-18.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1967-08-18.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1967-08-19.war-opposition, at: los-angeles, basis: c, note: 'Panorama City, Los Angeles'}
+- place: {id: cal.1967-08-20.china-leadership-2, at: shanghai, basis: n, note: 'Mao in Shanghai (Jianguo yilai''s note; Yang Chengwu with him at Shanghai)'}
+- place: {id: cal.1967-08-22.china-leadership, at: peking, basis: c}
+- place: {id: cal.1967-08-22.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1967-08-22.middle-east, at: washington, basis: c}
+- place: {id: cal.1967-08-22.middle-east-3, at: washington, basis: c, note: 'the East Room'}
+- place: {id: cal.1967-08-22.vietnam-congress-armed-services, at: washington, basis: seat, note: 'the Stennis subcommittee''s hearings'}
+- place: {id: cal.1967-08-22.vietnam-prisoners, at: phu-quoc, basis: c, note: 'the prisoner-of-war camp on Phú Quốc island'}
+- place: {id: cal.1967-08-23.vietnam-operations, at: poulo-obi, basis: c, note: 'the radar station on Poulo Obi island'}
+- place: {id: cal.1967-08-24.china-leadership, at: peking, basis: c}
+- place: {id: cal.1967-08-25.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1967-08-26.states-and-cities, at: kerrville, basis: c}
+- place: {id: cal.1967-08-28.open-housing-milwaukee, at: milwaukee, basis: c}
+- place: {id: cal.1967-08-28.vietnam-congress-2, at: washington, basis: seat, note: 'the Senate'}
+- place: {id: cal.1967-08-28.vietnam-operations, at: gio-linh, basis: c}
+- place: {id: cal.1967-08-29.china-leadership-3, at: london, basis: c}
+- place: {id: cal.1967-08-30.mayors-miami, at: miami, basis: c}
+- place: {id: cal.1967-08-31.war-opposition, at: chicago, basis: c, note: 'the Coliseum'}
+- place: {id: cal.1967-09.cities-and-housing, at: washington, basis: seat, note: 'the Senate Finance Committee''s hearings'}
+- place: {id: cal.1967-09.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1967-09.elections-1968, at: nyc, basis: c, note: 'the Links Club, New York'}
+- place: {id: cal.1967-09.king-poor-peoples, at: atlanta, basis: c, note: 'SCLC''s office'}
+- place: {id: cal.1967-09.mississippi, at: jackson, basis: c}
+- place: {id: cal.1967-09.mississippi-2, at: jackson, basis: c}
+- place: {id: cal.1967-09.states-and-cities, at: nyc, basis: c}
+- place: {id: cal.1967-09.transition-and-staff, at: stanford, basis: c, note: 'Stanford''s chapel'}
+- place: {id: cal.1967-09.vietnam, at: con-thien, basis: c}
+- place: {id: cal.1967-09.war-opposition, at: bratislava, basis: c}
+- place: {id: cal.1967-09.war-opposition-2, at: st-louis, basis: c}
+- place: {id: cal.1967-09.war-opposition-4, at: washington, basis: c}
+- place: {id: cal.1967-09-01.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1967-09-01.china-leadership-3, at: peking, basis: c, note: 'the Peking Revolutionary Committee''s meeting'}
+- place: {id: cal.1967-09-01.middle-east, at: khartoum, basis: c}
+- place: {id: cal.1967-09-01.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-09-02.china-leadership-4, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing'}
+- place: {id: cal.1967-09-02.vietnam-operations, at: da-nang-air-base, basis: c}
+- place: {id: cal.1967-09-02.war-opposition, at: chicago, basis: c, note: 'the Palmer House'}
+- place: {id: cal.1967-09-03.china-leadership, at: peking, basis: c}
+- place: {id: cal.1967-09-04.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1967-09-04.elections-1968, at: detroit, basis: c, note: 'the Detroit television interview'}
+- place: {id: cal.1967-09-05.china-leadership-2, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: the Great Hall of the People'}
+- place: {id: cal.1967-09-07.elections-1968, at: lbj-ranch, basis: c}
+- place: {id: cal.1967-09-08.china, at: tokyo, basis: c, note: 'the press conference of the Tokyo liaison office''s representative'}
+- place: {id: cal.1967-09-08.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1967-09-08.china-leadership-4, at: peking, basis: c, note: 'Hopson''s report from Peking'}
+- place: {id: cal.1967-09-08.vietnam-pennsylvania, at: paris, basis: c}
+- place: {id: cal.1967-09-10.china-2, at: peking, basis: c, note: 'the correspondents in Beijing summoned'}
+- place: {id: cal.1967-09-10.vietnam-air-war-2, at: cam-pha, basis: c}
+- place: {id: cal.1967-09-11.states-and-cities-nyc, at: nyc, basis: c}
+- place: {id: cal.1967-09-12.congress-3, at: washington, basis: c, note: 'the White House South grounds'}
+- place: {id: cal.1967-09-12.state-constitutions-md, at: annapolis, basis: c}
+- place: {id: cal.1967-09-13.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1967-09-13.king-poor-peoples, at: warrenton-va, basis: c, note: 'Airlie House, Warrenton, Va.'}
+- place: {id: cal.1967-09-14.china, at: tokyo, basis: c, note: 'the Tokyo liaison office''s statement'}
+- place: {id: cal.1967-09-15.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1967-09-16.china-leadership, at: [shanghai, hangzhou], basis: c, note: 'the journey by train from Shanghai to Hangzhou'}
+- place: {id: cal.1967-09-16.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1967-09-17.china-leadership, at: nanchang, basis: c, note: 'on the train at Nanchang'}
+- place: {id: cal.1967-09-18.china-leadership, at: changsha, basis: c}
+- place: {id: cal.1967-09-18.defense, at: san-francisco, basis: c}
+- place: {id: cal.1967-09-19.china-leadership, at: wuhan, basis: c, note: 'on the train at Wuhan'}
+- place: {id: cal.1967-09-19.cities-and-housing, at: washington, basis: seat, note: 'the Senate'}
+- place: {id: cal.1967-09-19.welfare, at: washington, basis: seat, note: 'the Senate Finance Committee''s hearing'}
+- place: {id: cal.1967-09-21.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s resolution'}
+- place: {id: cal.1967-09-22.china-leadership, at: zhengzhou, basis: c, note: 'on the train at Zhengzhou'}
+- place: {id: cal.1967-09-23.china-leadership, at: peking, basis: c, note: 'Mao''s return to Peking'}
+- place: {id: cal.1967-09-23.china-leadership-2, at: peking, basis: c, note: 'the ambassador, come to Beijing, presents his credentials'}
+- place: {id: cal.1967-09-23.democratic-party, at: washington, basis: c}
+- place: {id: cal.1967-09-26.china-leadership-2, at: peking, basis: c, note: 'the army heads in Peking'}
+- place: {id: cal.1967-09-26.soviet-union-leadership-2, at: moscow, basis: c, note: 'the Central Committee''s plenum'}
+- place: {id: cal.1967-09-26.state-constitutions-ny, at: new-york-state, basis: c, note: 'the State''s constitutional convention'}
+- place: {id: cal.1967-09-28.states-and-cities-nyc, at: nyc, basis: c}
+- place: {id: cal.1967-09-28.vietnam-struggle, at: saigon, basis: c, note: 'the vigil before the Independence Palace'}
+- place: {id: cal.1967-10.elections-1968-3, at: lbj-ranch, basis: c}
+- place: {id: cal.1967-10.elections-1968-chennault, at: nyc, basis: c}
+- place: {id: cal.1967-10.king-poor-peoples, at: nyc, basis: c}
+- place: {id: cal.1967-10.open-housing-mi, at: michigan, basis: c, note: 'the governor''s request to the legislature in special session'}
+- place: {id: cal.1967-10.vietnam, at: hanoi, basis: c}
+- place: {id: cal.1967-10.vietnam-tet, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1967-10.war-opposition-3, at: san-francisco, basis: c}
+- place: {id: cal.1967-10.war-opposition-4, at: san-diego, basis: c}
+- place: {id: cal.1967-10.war-opposition-5, at: los-angeles, basis: c}
+- place: {id: cal.1967-10-02.vietnam-2, at: washington, basis: c}
+- place: {id: cal.1967-10-04.china-leadership, at: peking, basis: c, note: 'Xu Shiyou lodged at Zhongnanhai'}
+- place: {id: cal.1967-10-04.states-and-cities, at: washington, basis: c, note: 'the Rose Garden'}
+- place: {id: cal.1967-10-06.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting'}
+- place: {id: cal.1967-10-08.china-leadership, at: wuhan, basis: c, note: 'the forum and talks at Wuhan; the flights there and back'}
+- place: {id: cal.1967-10-08.students, at: williamstown-ma, basis: c}
+- place: {id: cal.1967-10-09.china-leadership-2, at: wuhan, basis: c}
+- place: {id: cal.1967-10-09.students, at: new-haven, basis: c}
+- place: {id: cal.1967-10-09.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting'}
+- place: {id: cal.1967-10-14.china-leadership-2, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing airport'}
+- place: {id: cal.1967-10-15.elections-1968, at: chicago, basis: c}
+- place: {id: cal.1967-10-15.soviet-union-leadership, at: volgograd, basis: c}
+- place: {id: cal.1967-10-16.open-housing-mi, at: michigan, basis: c, note: 'the State House of Representatives'' gallery'}
+- place: {id: cal.1967-10-16.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting'}
+- place: {id: cal.1967-10-17.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting'}
+- place: {id: cal.1967-10-17.vietnam-operations, at: ong-thanh, basis: c}
+- place: {id: cal.1967-10-17.war-opposition, at: oakland, basis: c}
+- place: {id: cal.1967-10-18.king, at: houston, basis: c}
+- place: {id: cal.1967-10-18.students, at: madison, basis: c}
+- place: {id: cal.1967-10-20.china-leadership-2, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: the talks in the Great Hall of the People'}
+- place: {id: cal.1967-10-20.elections-1968-2, at: arkansas, basis: c, note: 'Camden and Hot Springs, both in Arkansas'}
+- place: {id: cal.1967-10-20.mississippi, at: meridian, basis: c, note: 'the jury''s verdict at Meridian'}
+- place: {id: cal.1967-10-20.war-opposition-3, at: oakland, basis: c}
+- place: {id: cal.1967-10-21.china-leadership-2, at: peking, basis: c, note: 'the military control men in Peking'}
+- place: {id: cal.1967-10-21.war-opposition, at: washington, basis: c, note: 'the Lincoln Memorial and the Pentagon'}
+- place: {id: cal.1967-10-21.war-opposition-2, at: washington, basis: c, note: 'the Pentagon and around Washington'}
+- place: {id: cal.1967-10-21.war-opposition-3, at: washington, basis: c, note: 'the Pentagon and the White House'}
+- place: {id: cal.1967-10-22.war-opposition, at: washington, basis: c, note: 'the Lincoln Memorial and the Pentagon''s Mall entrance'}
+- place: {id: cal.1967-10-23.war-opposition, at: washington, basis: n, note: 'Humphrey''s speech, Washington (Solberg''s note)'}
+- place: {id: cal.1967-10-24.cities-and-housing, at: washington, basis: seat, note: 'the House'}
+- place: {id: cal.1967-10-24.vietnam-air-war, at: phuc-yen, basis: c}
+- place: {id: cal.1967-10-25.elections-1968, at: little-rock, basis: c}
+- place: {id: cal.1967-10-27.china-leadership, at: peking, basis: c, note: 'the capital airport, Peking'}
+- place: {id: cal.1967-10-27.vietnam-operations, at: song-be, basis: c}
+- place: {id: cal.1967-10-27.war-opposition, at: baltimore, basis: c, note: 'the custom house'}
+- place: {id: cal.1967-10-29.elections-1968, at: salem, basis: c, note: 'the YWCA, Salem, Ore.'}
+- place: {id: cal.1967-10-29.vietnam-elections, at: saigon, basis: c}
+- place: {id: cal.1967-10-30.amendments, at: washington, basis: seat, note: 'the Senate Judiciary subcommittee''s hearings'}
+- place: {id: cal.1967-10-30.king, at: birmingham, basis: c}
+- place: {id: cal.1967-11.economy-gold, at: paris, basis: c, note: 'Le Monde, Paris'}
+- place: {id: cal.1967-11.elections-1968-5, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1967-11.labor, at: chicago, basis: c}
+- place: {id: cal.1967-11.mayors-baltimore, at: baltimore, basis: c, note: 'the city''s election'}
+- place: {id: cal.1967-11.mississippi, at: laurel-ms, basis: c}
+- place: {id: cal.1967-11.mississippi-2, at: jackson, basis: c}
+- place: {id: cal.1967-11.robert-kennedy-campaign-decision, at: new-york-state, basis: c, note: 'the dinner on Long Island'}
+- place: {id: cal.1967-11.vietnam-3, at: [lbj-ranch, washington], basis: c, note: 'the call from the Ranch to Westmoreland in Washington'}
+- place: {id: cal.1967-11.war-opposition, at: copenhagen, basis: c}
+- place: {id: cal.1967-11-01.china-leadership-2, at: inner-mongolia, basis: c, note: 'the Revolutionary Committee established'}
+- place: {id: cal.1967-11-01.democratic-party, at: nyc, basis: c, note: 'the West Side, New York'}
+- place: {id: cal.1967-11-01.vietnam-barrier, at: nakhon-phanom, basis: c}
+- place: {id: cal.1967-11-02.vietnam, at: washington, basis: c, note: 'State and the White House, the Cabinet Room'}
+- place: {id: cal.1967-11-02.mayors-memphis, at: memphis, basis: c, note: 'the city''s runoff'}
+- place: {id: cal.1967-11-03.soviet-union-leadership, at: moscow, basis: c, note: 'the Kremlin Palace of Congresses'}
+- place: {id: cal.1967-11-03.vietnam, at: dak-to, basis: c}
+- place: {id: cal.1967-11-04.robert-kennedy-campaign, at: hickory-hill, basis: c}
+- place: {id: cal.1967-11-06.china-leadership, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1967-11-08.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1967-11-08.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1967-11-08.china-leadership-4, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing'}
+- place: {id: cal.1967-11-09.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1967-11-10.china-leadership, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing'}
+- place: {id: cal.1967-11-10.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1967-11-11.war-opposition, at: phnom-penh, basis: c}
+- place: {id: cal.1967-11-12.vietnam, at: williamsburg-va, basis: c, note: 'Bruton Parish Church'}
+- place: {id: cal.1967-11-14.china-leadership, at: peking, basis: c}
+- place: {id: cal.1967-11-14.japan-and-korea, at: washington, basis: c, note: 'the White House; FRUS heading, Washington'}
+- place: {id: cal.1967-11-14.war-opposition, at: nyc, basis: c, note: 'the Hilton, New York'}
+- place: {id: cal.1967-11-15.vietnam-barrier, at: nakhon-phanom, basis: c}
+- place: {id: cal.1967-11-15.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-11-15.vietnam-operations, at: dak-to, basis: c}
+- place: {id: cal.1967-11-17.students-philadelphia, at: philadelphia, basis: c}
+- place: {id: cal.1967-11-18.china-leadership-3, at: peking, basis: c, note: 'the two agree in Peking'}
+- place: {id: cal.1967-11-18.japan-and-korea-korean-troops, at: cam-ranh-bay, basis: c}
+- place: {id: cal.1967-11-19.china-leadership, at: peking, basis: c}
+- place: {id: cal.1967-11-19.vietnam-operations, at: hill-875, basis: c}
+- place: {id: cal.1967-11-20.robert-kennedy, at: hickory-hill, basis: c}
+- place: {id: cal.1967-11-20.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1967-11-20.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s directive'}
+- place: {id: cal.1967-11-21.elections-1968-3, at: nyc, basis: c, note: 'Humphrey''s speech in New York'}
+- place: {id: cal.1967-11-21.vietnam-2, at: washington, basis: c, note: 'the White House meeting and the National Press Club; FRUS heading, Washington'}
+- place: {id: cal.1967-11-22.middle-east, at: nyc, basis: seat, note: 'the Security Council''s resolution'}
+- place: {id: cal.1967-11-22.war-opposition-4, at: washington, basis: c, note: 'Johnson leaves the White House'}
+- place: {id: cal.1967-11-23.vietnam-operations-2, at: phuoc-tuy, basis: c}
+- place: {id: cal.1967-11-27.king-poor-peoples, at: st-helena-island, basis: c, note: 'Frogmore, the Penn Center, on St. Helena Island (as cal.1966-11-14.king)'}
+- place: {id: cal.1967-11-27.defense-clifford, at: london, basis: c, note: 'the Financial Times of London'}
+- place: {id: cal.1967-11-27.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-11-21.vietnam, at: bucharest, basis: c, note: 'the talks in Bucharest, Nov. 28-29'}
+- place: {id: cal.1967-11-29.china-leadership, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Diaoyutai guesthouse'}
+- place: {id: cal.1967-11-29.china-leadership-3, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing airport'}
+- place: {id: cal.1967-11-29.economy, at: washington, basis: seat, note: 'Ways and Means hearings'}
+- place: {id: cal.1967-11-29.vietnam, at: saigon, basis: c, note: 'Westmoreland''s return to Saigon'}
+- place: {id: cal.1967-11-30.china-leadership, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1967-11-30.defense-clifford, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1967-11-30.elections-1968-2, at: chicago, basis: c, note: 'the Sheraton-Blackstone'}
+- place: {id: cal.1967-12.elections-1968-2, at: new-haven, basis: tag, note: 'Yale; the city:new-haven tag'}
+- place: {id: cal.1967-12.elections-1968-4, at: washington, basis: c, note: 'the Carroll Arms Hotel'}
+- place: {id: cal.1967-12.elections-1968-8, at: nyc, basis: c, note: 'the message from New York'}
+- place: {id: cal.1967-12.robert-kennedy-campaign, at: boston, basis: c}
+- place: {id: cal.1967-12.states-and-cities, at: chicago, basis: c}
+- place: {id: cal.1967-12.students-2, at: bloomington-in, basis: c}
+- place: {id: cal.1967-12.vietnam-tet, at: saigon, basis: c, note: 'the interview in Saigon'}
+- place: {id: cal.1967-12-01.state-constitutions-pa, at: harrisburg, basis: c, note: 'the House chamber, Harrisburg'}
+- place: {id: cal.1967-12-01.vietnam, at: bermuda, basis: c}
+- place: {id: cal.1967-12-02.elections-1968, at: chicago, basis: c, note: 'the Sheraton-Blackstone (Wells: the Conrad Hilton), Chicago'}
+- place: {id: cal.1967-10-20.elections-1968-johnson, at: washington, basis: c, note: 'beyond P4: the West Hall, the White House'}
+- place: {id: cal.1967-11-29.defense-clifford, at: washington, basis: c, note: 'beyond P4: the West Hall, the White House'}
+- place: {id: cal.1967-12-04.cities-and-housing, at: washington, basis: seat, note: 'Congress''s passage'}
+- place: {id: cal.1967-12-04.vietnam-support, at: washington, basis: c, note: 'the State Department'}
+- place: {id: cal.1967-12-04.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1967-12-05.conservation, at: washington, basis: c, note: 'beyond P4: the Lincoln Sitting Room, the White House'}
+- place: {id: cal.1967-12-05.vietnam-congress, at: bangkok, basis: c}
+- place: {id: cal.1967-12-06.china-leadership-2, at: tianjin, basis: c, note: 'the Tianjin Revolutionary Committee, its founding rally'}
+- place: {id: cal.1967-12-07.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1967-12-08.vietnam-force-levels, at: [bien-hoa, phuoc-vinh], basis: c, note: 'the arrival at Biên Hòa and the move overland to Phước Vĩnh'}
+- place: {id: cal.1967-12-10.king, at: montgomery, basis: c}
+- place: {id: cal.1967-12-11.labor, at: bal-harbour, basis: c}
+- place: {id: cal.1967-12-12.europe-and-the-alliance, at: brussels, basis: c}
+- place: {id: cal.1967-12-12.open-housing-milwaukee, at: milwaukee, basis: c, note: 'the Common Council'}
+- place: {id: cal.1967-12-13.draft, at: washington, basis: seat, note: 'the House statement and the Senate bill'}
+- place: {id: cal.1967-12-13.open-housing-louisville, at: louisville, basis: c, note: 'the Board of Aldermen'}
+- place: {id: cal.1967-12-13.vietnam, at: washington, basis: c}
+- place: {id: cal.1967-12-14.elections-1968, at: manchester, basis: c}
+- place: {id: cal.1967-12-14.foreign-aid, at: washington, basis: seat, note: 'the House'}
+- place: {id: cal.1967-12-14.open-housing-mi, at: michigan, basis: c, note: 'the State House'}
+- place: {id: cal.1967-12-15.congress, at: washington, basis: seat, note: 'the Congress''s session ends'}
+- place: {id: cal.1967-12-15.welfare, at: washington, basis: seat, note: 'the Senate'}
+- place: {id: cal.1967-12-17.vietnam, at: saigon, basis: c}
+- place: {id: cal.1967-12-18.china-leadership, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1967-12-18.republican-party, at: houston, basis: c, note: 'the Houston Club'}
+- place: {id: cal.1967-12-18.vietnam-prisoners, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1967-12-18.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1967-12-19.space, at: nyc, basis: seat, note: 'the General Assembly'}
+- place: {id: cal.1967-12-19.vietnam-3, at: washington, basis: n, note: 'the PPP note: the President''s office at the White House'}
+- place: {id: cal.1967-12-20.mississippi, at: collins-ms, basis: c}
+- place: {id: cal.1967-12-22.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1967-12-23.laos, at: nam-bac, basis: c, note: 'the lift from Nam Bac'}
+- place: {id: cal.1967-12-23.press-and-broadcasting, at: karachi, basis: c, note: 'the tarmac at Karachi'}
+- place: {id: cal.1967-12-23.vietnam-2, at: vatican-city, basis: c, note: 'the Pope''s library, the Vatican'}
+- place: {id: cal.1967-12-24.program, at: washington, basis: c, note: 'the White House theater'}
+- place: {id: cal.1967-12-25.laos, at: muong-phalane, basis: c, note: 'the tacan site at Muong Phalane'}
+- place: {id: cal.1967-12-25.vietnam, at: hanoi, basis: c}
+- place: {id: cal.1967-12-27.elections-1968, at: washington, basis: c}
+- place: {id: cal.1967-12-27.school-aid, at: washington, basis: n, note: 'Gardner''s remarks, Washington, D.C. (Graham''s note)'}
+- place: {id: cal.1967-12-29.middle-east, at: tel-aviv, basis: c}
+- place: {id: cal.1967-12-31.china-leadership, at: peking, basis: c, note: 'the classes in Peking received'}
+- place: {id: cal.1968-01.democratic-party, at: salt-lake-city, basis: c}
+- place: {id: cal.1968-01.elections-1968, at: california, basis: c, note: 'the State''s reregistrations'}
+- place: {id: cal.1968-01.elections-1968-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-01.elections-1968-chicago, at: chicago, basis: c}
+- place: {id: cal.1968-01.japan-and-korea-pueblo, at: pine-bluff, basis: c}
+- place: {id: cal.1968-01.mississippi-2, at: jackson, basis: c, note: 'the State House, Jackson'}
+- place: {id: cal.1968-01.mississippi-3, at: laurel-ms, basis: c}
+- place: {id: cal.1968-01.mississippi-4, at: hattiesburg, basis: c, note: 'the Forrest County grand jury, Hattiesburg'}
+- place: {id: cal.1968-01.robert-kennedy-2, at: california, basis: c}
+- place: {id: cal.1968-01.robert-kennedy-campaign-decision, at: hickory-hill, basis: c}
+- place: {id: cal.1968-01.robert-kennedy-campaign-decision-10, at: hickory-hill, basis: c}
+- place: {id: cal.1968-01.robert-kennedy-campaign-decision-8, at: washington, basis: c, note: 'Kennedy''s Capitol Hill office'}
+- place: {id: cal.1968-01.robert-kennedy-campaign-decision-9, at: california, basis: c, note: 'the Senate subcommittee''s hearings in California'}
+- place: {id: cal.1968-01.states-and-cities, at: chicago, basis: c}
+- place: {id: cal.1968-01.vietnam-tet, at: hanoi, basis: c, note: 'the Fourteenth Plenum, in Hanoi'}
+- place: {id: cal.1968-01.war-opposition, at: chicago, basis: c, note: 'the University of Chicago'}
+- place: {id: cal.1968-01.war-opposition-2, at: nyc, basis: c}
+- place: {id: cal.1968-01-02.elections-1968, at: manchester, basis: c, note: 'the Wayfarer Hotel, Manchester, N.H.'}
+- place: {id: cal.1968-01-03.elections-1968-wallace, at: california, basis: c}
+- place: {id: cal.1968-01-03.vietnam-operations, at: da-nang-air-base, basis: c}
+- place: {id: cal.1968-01-04.economy, at: austin, basis: c, note: 'Johnson''s Austin office'}
+- place: {id: cal.1968-01-04.elections-1968-johnson, at: lbj-ranch, basis: c}
+- place: {id: cal.1968-01-04.program, at: lbj-ranch, basis: c, note: 'Johnson edits the draft sent to the Ranch'}
+- place: {id: cal.1968-01-04.robert-kennedy, at: san-francisco, basis: c, note: 'the Commonwealth Club'}
+- place: {id: cal.1968-01-04.soviet-union, at: washington, basis: c}
+- place: {id: cal.1968-01-05.africa, at: lusaka, basis: c}
+- place: {id: cal.1968-01-05.africa-2, at: addis-ababa, basis: c}
+- place: {id: cal.1968-01-05.africa-3, at: lagos, basis: c}
+- place: {id: cal.1968-01-05.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-01-05.europe-and-the-alliance-federal-republic, at: bonn, basis: c}
+- place: {id: cal.1968-01-05.europe-and-the-alliance-federal-republic-2, at: bonn, basis: c}
+- place: {id: cal.1968-01-05.soviet-union-2, at: washington, basis: c, note: 'the State Department and the Pentagon'}
+- place: {id: cal.1968-01-05.soviet-union-czechoslovakia, at: prague, basis: c}
+- place: {id: cal.1968-01-05.vietnam-2, at: new-delhi, basis: c}
+- place: {id: cal.1968-01-05.vietnam-diplomacy, at: washington, basis: c}
+- place: {id: cal.1968-01-05.vietnam-order-of-battle, at: washington, basis: c}
+- place: {id: cal.1968-01-05.vietnam-pacification, at: saigon, basis: c, note: 'the Mission''s figures, Saigon'}
+- place: {id: cal.1968-01-05.vietnam-packers, at: washington, basis: n, note: 'the FRUS heading: Record of Meeting, Washington'}
+- place: {id: cal.1968-01-05.war-opposition-3, at: stockholm, basis: c}
+- place: {id: cal.1968-01-02.republican-party-congress, at: phoenix, basis: c, note: 'the Phoenix Kiwanis'}
+- place: {id: cal.1968-01-06.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-01-06.vietnam-saigon, at: saigon, basis: c}
+- place: {id: cal.1968-01-07.economy, at: washington, basis: n, note: 'the FRUS heading of the report, Washington'}
+- place: {id: cal.1968-01-07.king, at: atlanta, basis: c, note: 'Ebenezer'}
+- place: {id: cal.1968-01-07.middle-east, at: lbj-ranch, basis: c, note: 'the FRUS headings, LBJ Ranch'}
+- place: {id: cal.1968-01-08.vietnam, at: phnom-penh, basis: c}
+- place: {id: cal.1968-01-10.china, at: kabul, basis: c}
+- place: {id: cal.1968-01-10.elections-1968, at: california, basis: c}
+- place: {id: cal.1968-01-10.state-constitutions-md, at: maryland, basis: c, note: 'the State''s constitutional convention'}
+- place: {id: cal.1968-01-12.elections-1968, at: concord-nh, basis: c}
+- place: {id: cal.1968-01-12.laos, at: phou-pha-thi, basis: c}
+- place: {id: cal.1968-01-12.war-opposition, at: nyc, basis: c, note: 'the Belmont Plaza, New York'}
+- place: {id: cal.1968-01-13.elections-1968, at: texas, basis: c}
+- place: {id: cal.1968-01-14.elections-1968, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-01-15.china-leadership, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing'}
+- place: {id: cal.1968-01-15.civil-rights-the-executive, at: nyc, basis: c, note: 'the EEOC''s hearings in New York'}
+- place: {id: cal.1968-01-15.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s cable'}
+- place: {id: cal.1968-01-15.war-opposition, at: washington, basis: c, note: 'Union Station and the Capitol'}
+- place: {id: cal.1968-01-16.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-01-16.king-poor-peoples, at: atlanta, basis: c, note: 'Ebenezer'}
+- place: {id: cal.1968-01-16.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo''s resolution'}
+- place: {id: cal.1968-01-16.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Secretariat''s resolution'}
+- place: {id: cal.1968-01-17.conservation, at: washington, basis: c, note: 'the Red Room, the White House'}
+- place: {id: cal.1968-01-17.conservation-2, at: washington, basis: c, note: 'Buchanan School, Washington'}
+- place: {id: cal.1968-01-17.king-poor-peoples, at: atlanta, basis: c}
+- place: {id: cal.1968-01-17.robert-kennedy, at: nyc, basis: c, note: 'Lippmann''s apartment, New York'}
+- place: {id: cal.1968-01-18.king, at: saigon, basis: c, note: 'the Hotel Caravelle, Saigon'}
+- place: {id: cal.1968-01-18.king-poor-peoples, at: atlanta, basis: c, note: 'Georgia State College'}
+- place: {id: cal.1968-01-21.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo''s cable'}
+- place: {id: cal.1968-01-22.economy-surcharge, at: washington, basis: seat, note: 'Ways and Means hearings'}
+- place: {id: cal.1968-01-23.laos, at: ban-houei-sane, basis: c, note: 'the Laotian battalion overrun at Ban Houei Sane'}
+- place: {id: cal.1968-01-24.robert-kennedy-campaign, at: nyc, basis: c, note: 'Kennedy''s apartment at United Nations Plaza, New York'}
+- place: {id: cal.1968-01-24.vietnam-operations, at: [saigon, quang-tri], basis: c, note: 'the convoy''s run from Saigon to Quảng Trị city'}
+- place: {id: cal.1968-01-25.elections-1968-2, at: nashua, basis: c}
+- place: {id: cal.1968-01-25.japan-and-korea-pueblo-5, at: washington, basis: c, note: 'the White House working lunch; FRUS heading, Washington'}
+- place: {id: cal.1968-01-25.robert-kennedy-campaign-decision, at: nyc, basis: c, note: 'the Caravelle, New York'}
+- place: {id: cal.1968-01-25.white-house, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-01-26.economy-surcharge, at: indiana, basis: n, note: 'the remarks'' title, "at the Fifth Congressional District of Indiana"'}
+- place: {id: cal.1968-01-26.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1968-01-27.japan-and-korea-pueblo, at: moscow, basis: c, note: 'the reply through the embassy in Moscow; FRUS heading, Moscow'}
+- place: {id: cal.1968-01-27.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1968-01-28.robert-kennedy-campaign, at: hickory-hill, basis: c}
+- place: {id: cal.1968-01-30.vietnam-congress-2, at: washington, basis: seat, note: 'the Senate'}
+- place: {id: cal.1968-01-30.vietnam-tet-2, at: washington, basis: n, note: 'FRUS heading: Notes of Meeting, Washington'}
+- place: {id: cal.1968-01-31.china, at: cairo, basis: c}
+- place: {id: cal.1968-01-31.japan-and-korea-pueblo, at: pyongyang, basis: c}
+- place: {id: cal.1968-01-31.robert-kennedy-campaign, at: howth, basis: c, note: 'Hamill''s letter, written at Howth'}
+- place: {id: cal.1968-01-31.vietnam-tet-6, at: quang-tri, basis: c, note: 'Quảng Trị City'}
+- place: {id: cal.1968-01-31.vietnam-tet-7, at: long-binh, basis: c}
+- place: {id: cal.1968-02.elections-1968-3, at: new-hampshire, basis: c, note: 'the write-in''s pledge cards and McCarthy''s poster, all in New Hampshire'}
+- place: {id: cal.1968-02.elections-1968-sd, at: south-dakota, basis: c, note: 'the State legislature'}
+- place: {id: cal.1968-02.king-memphis, at: memphis, basis: c}
+- place: {id: cal.1968-02.mississippi, at: meridian, basis: c}
+- place: {id: cal.1968-02.robert-kennedy-campaign-3, at: hickory-hill, basis: c}
+- place: {id: cal.1968-02.robert-kennedy-campaign-4, at: hickory-hill, basis: n, note: 'Witcover: Salinger''s poll and Kennedy''s call at Hickory Hill'}
+- place: {id: cal.1968-02.robert-kennedy-campaign-decision, at: aspen, basis: c, note: 'the call received at McNamara''s lodge, Aspen; Kennedy''s end not on the record'}
+- place: {id: cal.1968-02.robert-kennedy-campaign-decision-6, at: hickory-hill, basis: c}
+- place: {id: cal.1968-02.states-and-cities-ar, at: arkansas, basis: c, note: 'the Cummins prison farm, Arkansas'}
+- place: {id: cal.1968-02.states-and-cities-nj, at: new-jersey, basis: c, note: 'the Governor''s Select Commission''s report'}
+- place: {id: cal.1968-02.vietnam-khe-sanh, at: khe-sanh, basis: c}
+- place: {id: cal.1968-02.vietnam-tet, at: saigon, basis: c}
+- place: {id: cal.1968-02.war-opposition-2, at: fort-jackson, basis: c}
+- place: {id: cal.1968-02.war-opposition-3, at: hanoi, basis: c, note: 'the journey to Hanoi'}
+- place: {id: cal.1968-12.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s cable'}
+- place: {id: cal.1968-02-01.elections-1968, at: manchester, basis: c, note: 'the news conference at Manchester, Feb. 2 (the letter of Feb. 1 has no place)'}
+- place: {id: cal.1968-02-01.king-memphis, at: memphis, basis: c}
+- place: {id: cal.1968-02-01.vietnam, at: saigon, basis: c}
+- place: {id: cal.1968-02-01.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s cable'}
+- place: {id: cal.1968-02-02.jobs-and-wages-nyc, at: nyc, basis: c}
+- place: {id: cal.1968-02-02.robert-kennedy-campaign-decision, at: nyc, basis: c, note: 'Kennedy''s apartment, New York'}
+- place: {id: cal.1968-02-03.elections-1968, at: pennsylvania, basis: c, note: 'the State party''s slate and endorsement'}
+- place: {id: cal.1968-02-03.elections-1968-2, at: manchester, basis: c, note: 'St. Anselm''s College, Manchester'}
+- place: {id: cal.1968-02-03.elections-1968-4, at: hillsboro-nh, basis: c, note: 'the town hall, Hillsboro, N.H.'}
+- place: {id: cal.1968-02-04.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-02-04.king, at: atlanta, basis: c, note: 'Ebenezer'}
+- place: {id: cal.1968-02-05.elections-1968, at: green-bay, basis: c}
+- place: {id: cal.1968-02-05.vietnam-tet-3, at: can-tho, basis: c, note: 'Cần Thơ cleared (Vĩnh Long secured Feb. 8)'}
+- place: {id: cal.1968-02-05.war-opposition, at: washington, basis: c, note: 'New York Avenue Presbyterian Church, Washington'}
+- place: {id: cal.1968-02-06.jobs-and-wages-nyc, at: nyc, basis: c, note: 'the sanitation strike; Lindsay''s appeal from New York'}
+- place: {id: cal.1968-02-07.china-leadership, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1968-02-07.china-leadership-2, at: peking, basis: n, note: '77 Conversations, doc. 30: Beijing'}
+- place: {id: cal.1968-02-07.elections-1968-il, at: illinois, basis: c}
+- place: {id: cal.1968-02-07.jobs-and-wages-nyc, at: albany, basis: c, note: 'Rockefeller''s office, Albany'}
+- place: {id: cal.1968-02-07.king-poor-peoples, at: washington, basis: c}
+- place: {id: cal.1968-02-07.press-and-broadcasting, at: ben-tre, basis: c}
+- place: {id: cal.1968-02-07.robert-kennedy, at: nyc, basis: c, note: 'Kennedy''s apartment, New York'}
+- place: {id: cal.1968-02-07.vietnam-khe-sanh-2, at: da-nang, basis: c}
+- place: {id: cal.1968-02-07.vietnam-tet, at: saigon, basis: c}
+- place: {id: cal.1968-02-08.europe-and-the-alliance, at: washington, basis: c, note: 'the PPP note: the State Dining Room, the White House'}
+- place: {id: cal.1968-02-08.europe-and-the-alliance-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-02-08.king, at: nyc, basis: c, note: 'Rockefeller Center, New York'}
+- place: {id: cal.1968-02-08.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo''s cable'}
+- place: {id: cal.1968-02-10.china-leadership-2, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: Beijing'}
+- place: {id: cal.1968-02-10.elections-1968, at: new-hampshire, basis: c}
+- place: {id: cal.1968-02-10.elections-1968-state-conventions, at: oklahoma, basis: c, note: 'the district conventions'}
+- place: {id: cal.1968-02-10.japan-and-korea, at: seoul, basis: c, note: 'Vance''s mission in Seoul'}
+- place: {id: cal.1968-02-10.jobs-and-wages-nyc, at: nyc, basis: c}
+- place: {id: cal.1968-02-10.vietnam-air-war, at: phuc-yen, basis: c}
+- place: {id: cal.1968-02-10.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo''s cable'}
+- place: {id: cal.1968-02-10.vietnam-khe-sanh, at: khe-sanh, basis: c}
+- place: {id: cal.1968-02-11.war-opposition, at: chicago, basis: c}
+- place: {id: cal.1968-02-12.king, at: memphis, basis: c}
+- place: {id: cal.1968-02-12.republican-party-congress, at: los-angeles, basis: c, note: 'the Lincoln Club, Los Angeles'}
+- place: {id: cal.1968-02-12.transportation, at: las-vegas, basis: c}
+- place: {id: cal.1968-02-13.china, at: hainan, basis: c, note: 'shot down over Hainan'}
+- place: {id: cal.1968-02-13.china-leadership, at: peking, basis: c, note: 'the delegates in Peking'}
+- place: {id: cal.1968-02-13.state-and-city-finance-seattle, at: washington-state, basis: c, note: 'the Seattle and King County vote'}
+- place: {id: cal.1968-02-14.elections-1968-2, at: new-york-state, basis: c, note: 'the State Democratic Committee'}
+- place: {id: cal.1968-02-15.china-leadership, at: peking, basis: c, note: 'the delegates in Peking'}
+- place: {id: cal.1968-02-15.elections-1968, at: boston, basis: c}
+- place: {id: cal.1968-02-16.vietnam-prisoners, at: vientiane, basis: c, note: 'the pilots'' arrival at Vientiane'}
+- place: {id: cal.1968-02-17.black-nationalism, at: oakland, basis: c}
+- place: {id: cal.1968-02-17.elections-1968, at: new-hampshire, basis: c}
+- place: {id: cal.1968-02-17.jobs-and-wages-nyc, at: nyc, basis: c}
+- place: {id: cal.1968-02-19.conservation, at: washington, basis: seat, note: 'the Senate Interior subcommittee''s hearings'}
+- place: {id: cal.1968-02-19.king-poor-peoples, at: miami, basis: c, note: 'the Sheraton-Four Ambassadors, Miami'}
+- place: {id: cal.1968-02-19.school-aid-fl, at: florida, basis: c, note: 'the statewide walkout'}
+- place: {id: cal.1968-02-20.elections-1968-nh, at: new-hampshire, basis: c, note: 'the secretary of state''s estimate'}
+- place: {id: cal.1968-02-21.elections-1968, at: amherst-nh, basis: c}
+- place: {id: cal.1968-02-21.elections-1968-2, at: rhinelander, basis: c}
+- place: {id: cal.1968-02-21.opinion-2, at: south-dakota, basis: c, note: 'the South Dakota Poll'}
+- place: {id: cal.1968-02-21.vietnam-air-war, at: hanoi, basis: c, note: 'the radio station near the center of Hanoi'}
+- place: {id: cal.1968-02-21.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s directive'}
+- place: {id: cal.1968-02-22.alabama, at: montgomery, basis: c}
+- place: {id: cal.1968-02-22.consumers-2, at: new-jersey, basis: c, note: 'the State insurance commissioner'}
+- place: {id: cal.1968-02-22.elections-1968, at: new-hampshire, basis: c, note: 'Mount St. Mary College, New Hampshire'}
+- place: {id: cal.1968-02-22.war-opposition, at: san-diego, basis: c}
+- place: {id: cal.1968-02-23.king, at: nyc, basis: c, note: 'Carnegie Hall, New York'}
+- place: {id: cal.1968-02-23.king-memphis, at: memphis, basis: c}
+- place: {id: cal.1968-02-23.vietnam-khe-sanh, at: khe-sanh, basis: c}
+- place: {id: cal.1968-02-24.democratic-party, at: atlanta, basis: c}
+- place: {id: cal.1968-02-24.elections-1968-3, at: new-hampshire, basis: c, note: 'the canvass of New Hampshire'}
+- place: {id: cal.1968-02-24.elections-1968-ca, at: california, basis: c}
+- place: {id: cal.1968-02-24.elections-1968-state-conventions, at: oklahoma, basis: c, note: 'the Republican State convention'}
+- place: {id: cal.1968-02-24.vietnam, at: hue, basis: c, note: 'the flag over the Citadel'}
+- place: {id: cal.1968-02-24.war-opposition, at: nyc, basis: c, note: 'the United Nations Plaza, New York'}
+- place: {id: cal.1968-02-25.elections-1968-2, at: philadelphia, basis: c, note: 'the Philadelphia Evening Bulletin'}
+- place: {id: cal.1968-02-26.elections-1968-2, at: nashua, basis: c, note: 'the Rotary Club, Nashua, N.H.'}
+- place: {id: cal.1968-02-26.robert-kennedy-campaign-decision, at: washington, basis: c, note: 'Kennedy''s Senate office'}
+- place: {id: cal.1968-02-26.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1968-02-27.elections-1968-il, at: illinois, basis: c, note: 'the State party''s slatemakers'}
+- place: {id: cal.1968-02-23.elections-1968, at: berlin-nh, basis: c}
+- place: {id: cal.1968-02-28.china-leadership-4, at: peking, basis: n, note: 'Zhou Enlai waijiao huodong: a Beijing guesthouse'}
+- place: {id: cal.1968-02-28.defense, at: washington, basis: c, note: 'the East Room and the Pentagon'}
+- place: {id: cal.1968-02-28.states-and-cities-us, at: washington, basis: c, note: 'the PPP note: the White House Theater'}
+- place: {id: cal.1968-02-29.state-constitutions-pa, at: harrisburg, basis: c}
+- place: {id: cal.1968-02-29.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting with the Council of Ministers'' Standing Committee'}
+- place: {id: cal.1968-03.china-leadership, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1968-03.elections-1968-2, at: washington, basis: c, note: 'the Rose Garden'}
+- place: {id: cal.1968-03.elections-1968-4, at: little-rock, basis: c}
+- place: {id: cal.1968-03.elections-1968-mccarthy, at: washington, basis: c}
+- place: {id: cal.1968-03.elections-1968-mccarthy-3, at: manchester, basis: c, note: 'the Sheraton-Wayfarer, Manchester, N.H.'}
+- place: {id: cal.1968-03.king, at: acapulco, basis: c, note: 'King''s journey to Acapulco'}
+- place: {id: cal.1968-03.king-poor-peoples, at: washington, basis: c, note: 'the FBI''s conference in Washington'}
+- place: {id: cal.1968-03.press-and-broadcasting, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1968-03.robert-kennedy-2, at: nyc, basis: c}
+- place: {id: cal.1968-03.robert-kennedy-campaign-5, at: nyc, basis: c, note: 'beyond P4: Kennedy''s apartment at UN Plaza, New York'}
+- place: {id: cal.1968-03.robert-kennedy-campaign-decision, at: washington, basis: c, note: 'Goodwin''s call from the Georgetown Inn, Washington'}
+- place: {id: cal.1968-03.state-and-city-finance-ky, at: kentucky, basis: c, note: 'the General Assembly'}
+- place: {id: cal.1968-03.states-and-cities-ar, at: arkansas, basis: c, note: 'the governor''s act'}
+- place: {id: cal.1968-03-01.students-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1968-03-01.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo''s resolution'}
+- place: {id: cal.1968-03-02.republican-party, at: nyc, basis: c, note: '812 Fifth Avenue, New York'}
+- place: {id: cal.1968-03-02.robert-kennedy-campaign-decision, at: hickory-hill, basis: c}
+- place: {id: cal.1968-03-04.vietnam, at: washington, basis: n, note: 'FRUS headings, Washington, Mar. 4 and 5'}
+- place: {id: cal.1968-03-05.elections-1968, at: california, basis: c}
+- place: {id: cal.1968-03-05.elections-1968-2, at: new-hampshire, basis: c, note: 'the six towns of southern New Hampshire'}
+- place: {id: cal.1968-03-05.elections-1968-johnson, at: washington, basis: c, note: 'the White House legislative breakfast'}
+- place: {id: cal.1968-03-05.king-memphis, at: memphis, basis: c, note: 'City Hall'}
+- place: {id: cal.1968-03-05.robert-kennedy, at: washington, basis: n, note: 'Witcover: Edward Kennedy''s Senate office, then Robert Kennedy''s office'}
+- place: {id: cal.1968-03-05.robert-kennedy-campaign-decision, at: sacramento, basis: c}
+- place: {id: cal.1968-03-05.students-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1968-03-05.vietnam-205000-2, at: washington, basis: n, note: 'FRUS heading: Notes of Meeting, Washington'}
+- place: {id: cal.1968-03-06.democratic-party, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-03-06.elections-1968, at: new-hampshire, basis: c, note: 'the advertisement in the State''s newspapers'}
+- place: {id: cal.1968-03-06.robert-kennedy-campaign-decision, at: [nyc, new-hampshire], basis: c, note: 'the call from Kennedy''s New York apartment to Goodwin in New Hampshire'}
+- place: {id: cal.1968-03-06.soviet-union-leadership, at: sofia, basis: c}
+- place: {id: cal.1968-03-07.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-03-07.robert-kennedy-campaign-decision, at: washington, basis: c, note: 'Kennedy''s Senate office'}
+- place: {id: cal.1968-03-08.robert-kennedy-campaign-decision, at: washington, basis: c, note: 'Kennedy''s Capitol Hill office'}
+- place: {id: cal.1968-03-09.elections-1968-mccarthy, at: new-hampshire, basis: c}
+- place: {id: cal.1968-03-10.elections-1968-humphrey, at: washington, basis: c, note: 'Johnson''s call from the White House; Humphrey''s end not on the record'}
+- place: {id: cal.1968-03-10.elections-1968-johnson-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-03-10.robert-kennedy, at: delano, basis: c, note: 'the Mass at Delano'}
+- place: {id: cal.1968-03-10.robert-kennedy-campaign-decision-2, at: los-angeles, basis: c, note: 'Kennedy''s call from Los Angeles'}
+- place: {id: cal.1968-03-10.vietnam-operations, at: war-zone-c, basis: c}
+- place: {id: cal.1968-03-11.elections-1968-3, at: oregon, basis: c, note: 'across the State'}
+- place: {id: cal.1968-03-11.robert-kennedy-campaign-decision, at: washington, basis: n, note: 'Sorensen: Kennedy''s Senate office'}
+- place: {id: cal.1968-03-11.robert-kennedy-campaign-decision-2, at: washington, basis: c, note: 'the Senate and Kennedy''s office'}
+- place: {id: cal.1968-03-11.vietnam, at: washington, basis: seat, note: 'the Foreign Relations hearings'}
+- place: {id: cal.1968-03-12.economy-surcharge, at: washington, basis: seat, note: 'the Finance Committee''s hearings'}
+- place: {id: cal.1968-03-12.states-and-cities-ak, at: alaska, basis: c, note: 'Prudhoe Bay, on the North Slope'}
+- place: {id: cal.1968-03-13.elections-1968, at: nyc, basis: c, note: 'Stephen Smith''s apartment, New York'}
+- place: {id: cal.1968-03-13.robert-kennedy-campaign-decision-4, at: washington, basis: c, note: 'Kennedy''s Senate office'}
+- place: {id: cal.1968-03-13.robert-kennedy-campaign-decision-5, at: washington, basis: c, note: 'the CBS studio in Washington, Cronkite questioning from New York'}
+- place: {id: cal.1968-03-14.africa, at: washington, basis: c, note: 'the South Lawn, the White House'}
+- place: {id: cal.1968-03-14.africa-2, at: washington, basis: c, note: 'the East Room, the White House'}
+- place: {id: cal.1968-03-14.king, at: grosse-pointe, basis: c, note: 'King at Grosse Pointe'}
+- place: {id: cal.1968-03-14.robert-kennedy, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1968-03-14.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting'}
+- place: {id: cal.1968-03-14.vietnam-operations, at: phu-yen, basis: c, note: 'Đồng Xuân, Phú Yên'}
+- place: {id: cal.1968-03-15.mississippi, at: hattiesburg, basis: c}
+- place: {id: cal.1968-03-15.open-housing-ky, at: kentucky, basis: c, note: 'the General Assembly'}
+- place: {id: cal.1968-03-15.robert-kennedy-campaign, at: kings-point, basis: c}
+- place: {id: cal.1968-03-15.robert-kennedy-campaign-2, at: hickory-hill, basis: c}
+- place: {id: cal.1968-03-15.robert-kennedy-campaign-decision-3, at: boston, basis: c}
+- place: {id: cal.1968-03-15.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s meeting with the Council of Ministers'' Standing Committee'}
+- place: {id: cal.1968-03-16.economy-gold, at: washington, basis: c}
+- place: {id: cal.1968-03-16.robert-kennedy, at: nyc, basis: c, note: 'Fifth Avenue, New York'}
+- place: {id: cal.1968-03-16.robert-kennedy-campaign-2, at: washington, basis: c, note: 'the Senate Caucus Room'}
+- place: {id: cal.1968-03-16.robert-kennedy-campaign-3, at: washington, basis: c, note: 'Edward Kennedy''s Senate office'}
+- place: {id: cal.1968-03-16.vietnam, at: son-my-my-lai, basis: c, note: 'Sơn Mỹ village, Mỹ Lai 4'}
+- place: {id: cal.1968-03-17.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-03-17.elections-1968, at: wisconsin, basis: c, note: 'a suburb of Madison, Wisconsin'}
+- place: {id: cal.1968-03-17.elections-1968-johnson, at: lbj-ranch, basis: c}
+- place: {id: cal.1968-03-17.elections-1968-mccarthy-2, at: chicago, basis: c, note: 'the Chicago Sun-Times'}
+- place: {id: cal.1968-03-17.robert-kennedy-campaign, at: kansas-city, basis: c, note: 'the airport, Kansas City, Mo.'}
+- place: {id: cal.1968-03-17.robert-kennedy-campaign-2, at: topeka, basis: c}
+- place: {id: cal.1968-03-17.robert-kennedy-campaign-3, at: boston, basis: c, note: 'South Boston'}
+- place: {id: cal.1968-03-17.robert-kennedy-campaign-4, at: nyc, basis: c, note: 'Kennedy''s apartment, New York'}
+- place: {id: cal.1968-03-17.robert-kennedy-campaign-decision, at: everett, basis: c}
+- place: {id: cal.1968-03-18.elections-1968-johnson, at: washington, basis: c}
+- place: {id: cal.1968-03-18.king, at: memphis, basis: c, note: 'Mason Temple'}
+- place: {id: cal.1968-03-18.robert-kennedy, at: manhattan-ks, basis: c, note: 'Kansas State University'}
+- place: {id: cal.1968-03-18.robert-kennedy-campaign-2, at: lawrence, basis: c, note: 'the University of Kansas'}
+- place: {id: cal.1968-03-18.robert-kennedy-campaign-3, at: lawrence, basis: c, note: 'Haskell Institute'}
+- place: {id: cal.1968-03-18.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s circular'}
+- place: {id: cal.1968-03-19.china, at: peking, basis: c}
+- place: {id: cal.1968-03-19.china-leadership, at: peking, basis: c, note: 'the capital''s rally'}
+- place: {id: cal.1968-03-19.democratic-party, at: chicago, basis: c}
+- place: {id: cal.1968-03-19.laos, at: phou-pha-thi, basis: c}
+- place: {id: cal.1968-03-19.robert-kennedy-campaign, at: hickory-hill, basis: c, note: 'the call from Hickory Hill'}
+- place: {id: cal.1968-03-19.students, at: washington, basis: c, note: 'Howard University'}
+- place: {id: cal.1968-03-20.elections-1968-mccarthy, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1968-03-21.middle-east, at: karameh, basis: c, note: 'the raid on Karameh'}
+- place: {id: cal.1968-03-21.robert-kennedy, at: nashville, basis: c}
+- place: {id: cal.1968-03-21.robert-kennedy-2, at: tuscaloosa, basis: c}
+- place: {id: cal.1968-03-21.soviet-union-leadership, at: moscow, basis: seat, note: 'the CPSU Politburo'}
+- place: {id: cal.1968-03-21.vietnam, at: hanoi, basis: c, note: 'the Hanoi press'}
+- place: {id: cal.1968-03-22.king-memphis, at: memphis, basis: c}
+- place: {id: cal.1968-03-22.king-poor-peoples-2, at: eutaw, basis: c}
+- place: {id: cal.1968-03-22.war-opposition, at: lake-villa, basis: c}
+- place: {id: cal.1968-03-22.war-opposition-2, at: washington, basis: c, note: 'the Washington Post'}
+- place: {id: cal.1968-03-23.king, at: albany-ga, basis: c}
+- place: {id: cal.1968-03-23.robert-kennedy-campaign, at: [nyc, san-francisco], basis: c, note: 'the flight from New York to San Francisco'}
+- place: {id: cal.1968-03-23.robert-kennedy-campaign-2, at: sacramento, basis: c}
+- place: {id: cal.1968-03-23.war-opposition, at: lake-villa, basis: c, note: 'a YMCA camp, Lake Villa, Ill.'}
+- place: {id: cal.1968-03-23.war-opposition-2, at: philadelphia, basis: c}
+- place: {id: cal.1968-03-24.china-leadership, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1968-03-24.congress-powell, at: nyc, basis: c, note: 'Abyssinian Baptist, New York'}
+- place: {id: cal.1968-03-24.king, at: nyc, basis: c, note: 'Harlem'}
+- place: {id: cal.1968-03-24.robert-kennedy, at: los-angeles, basis: c}
+- place: {id: cal.1968-03-25.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-03-25.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1968-03-25.king, at: new-york-state, basis: c, note: 'the Catskills'}
+- place: {id: cal.1968-03-25.robert-kennedy-campaign, at: portland, basis: c, note: 'the University of Portland'}
+- place: {id: cal.1968-03-25.vietnam, at: washington, basis: c, note: 'at State, and the meetings with the President; FRUS headings, Washington'}
+- place: {id: cal.1968-03-26.china, at: peking, basis: c}
+- place: {id: cal.1968-03-26.elections-1968-2, at: wisconsin, basis: c, note: 'O''Brien''s survey of the campaign in Wisconsin'}
+- place: {id: cal.1968-03-26.king-poor-peoples-2, at: nyc, basis: c, note: 'Harlem'}
+- place: {id: cal.1968-03-27.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-03-27.china-leadership-2, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1968-03-27.china-leadership-3, at: peking, basis: c, note: 'the capital''s rally'}
+- place: {id: cal.1968-03-27.king-2, at: birmingham, basis: c, note: 'the Gun Rack, Birmingham'}
+- place: {id: cal.1968-03-27.robert-kennedy-campaign-primaries, at: salt-lake-city, basis: c}
+- place: {id: cal.1968-03-27.students, at: lexington-ky, basis: c}
+- place: {id: cal.1968-03-27.vietnam-205000-4, at: dayton, basis: c}
+- place: {id: cal.1968-03-28.china-leadership, at: peking, basis: c, note: 'Zhongnanhai'}
+- place: {id: cal.1968-03-28.elections-1968-johnson-2, at: south-carolina, basis: c, note: 'the State Democratic convention'}
+- place: {id: cal.1968-03-28.king-memphis, at: memphis, basis: c, note: 'Clayborn Temple, Beale and Main Streets'}
+- place: {id: cal.1968-03-28.robert-kennedy-campaign-2, at: washington, basis: n, note: 'the column in the Washington Post (Shesol''s note)'}
+- place: {id: cal.1968-03-28.robert-kennedy-campaign-primaries, at: salt-lake-city, basis: c}
+- place: {id: cal.1968-03-28.robert-kennedy-campaign-primaries-2, at: indianapolis, basis: c, note: 'the statehouse'}
+- place: {id: cal.1968-03-28.robert-kennedy-campaign-primaries-3, at: oshkosh, basis: c, note: 'the airport press conference, Oshkosh, Wis.'}
+- place: {id: cal.1968-03-29.china-leadership, at: peking, basis: c}
+- place: {id: cal.1968-03-29.economy, at: stockholm, basis: c}
+- place: {id: cal.1968-03-29.elections-1968-johnson-2, at: nyc, basis: c}
+- place: {id: cal.1968-03-29.elections-1968-johnson-3, at: nyc, basis: c, note: 'the call received at the Plaza Hotel, New York; Johnson''s end not on the record'}
+- place: {id: cal.1968-03-29.king-memphis-5, at: atlanta, basis: c}
+- place: {id: cal.1968-03-29.vietnam-prisoners, at: vientiane, basis: c, note: 'the prisoners released at Vientiane'}
+- place: {id: cal.1968-03-30.elections-1968-3, at: nyc, basis: c, note: 'Toots Shor''s, New York'}
+- place: {id: cal.1968-03-30.soviet-union-czechoslovakia, at: prague, basis: c, note: 'the National Assembly'}
+- place: {id: cal.1968-03-31.elections-1968-humphrey, at: mexico-city, basis: c, note: 'the ambassador''s residence, Mexico City'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-10, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-11, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-12, at: washington, basis: c, note: 'the call received at the White House; the caller''s place not on the record'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-14, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-16, at: washington, basis: c, note: 'Temple''s call from Washington'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-6, at: mexico-city, basis: c, note: 'the American embassy, Mexico City'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-7, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-8, at: washington, basis: c, note: 'the call received at the White House; Rusk''s place not on the record here'}
+- place: {id: cal.1968-03-31.elections-1968-johnson-9, at: washington, basis: c, note: 'the call received at the White House; the caller''s place not on the record'}
+- place: {id: cal.1968-03-31.elections-1968-mccarthy, at: milwaukee, basis: c, note: 'the Wisconsin Hotel, Milwaukee'}
+- place: {id: cal.1968-03-31.elections-1968-mccarthy-2, at: washington, basis: c, note: 'the call received at the White House; the caller''s place not on the record'}
+- place: {id: cal.1968-03-31.elections-1968-mccarthy-3, at: milwaukee, basis: c}
+- place: {id: cal.1968-03-31.elections-1968-mccarthy-4, at: milwaukee, basis: c}
+- place: {id: cal.1968-03-31.king, at: washington, basis: c, note: 'the National Cathedral'}
+- place: {id: cal.1968-04.black-nationalism, at: havana, basis: c, note: 'Radio Havana'}
+- place: {id: cal.1968-04.elections-1968-humphrey, at: omaha, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign, at: indiana, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign-4, at: hickory-hill, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign-6, at: indianapolis, basis: c, note: 'McCarthy''s headquarters, Indianapolis'}
+- place: {id: cal.1968-04.robert-kennedy-campaign-primaries, at: gary, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign-primaries-2, at: vincennes, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign-primaries-3, at: indiana, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign-primaries-4, at: indiana, basis: c}
+- place: {id: cal.1968-04.robert-kennedy-campaign-primaries-6, at: indiana, basis: c, note: 'Gary and East Chicago, both in Indiana'}
+- place: {id: cal.1968-04-01.economy, at: nyc, basis: c, note: 'the New York Stock Exchange'}
+- place: {id: cal.1968-04-01.elections-1968-2, at: andrews, basis: c, note: 'Humphrey''s arrival at Andrews'}
+- place: {id: cal.1968-04.robert-kennedy-campaign-2, at: kalamazoo, basis: c}
+- place: {id: cal.1968-04-01.robert-kennedy-campaign-3, at: nyc, basis: c, note: 'the Overseas Press Club, New York'}
+- place: {id: cal.1968-04-01.robert-kennedy-campaign-4, at: camden-nj, basis: c}
+- place: {id: cal.1968-04-01.testing-npt, at: mexico-city, basis: c}
+- place: {id: cal.1968-04-02.robert-kennedy-2, at: washington, basis: c}
+- place: {id: cal.1968-04-02.robert-kennedy-campaign, at: philadelphia, basis: c, note: 'the University of Pennsylvania'}
+- place: {id: cal.1968-04-02.robert-kennedy-campaign-2, at: philadelphia, basis: c, note: 'Convention Hall'}
+- place: {id: cal.1968-04-02.robert-kennedy-campaign-primaries, at: philadelphia, basis: c}
+- place: {id: cal.1968-04-03.elections-1968-4, at: connecticut, basis: c}
+- place: {id: cal.1968-04-03.king-memphis, at: memphis, basis: c, note: 'the Lorraine and Fire Station No. 2'}
+- place: {id: cal.1968-04-03.king-poor-peoples, at: memphis, basis: c}
+- place: {id: cal.1968-04-03.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat''s cable'}
+- place: {id: cal.1968-04-03.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Politburo''s cable'}
+- place: {id: cal.1968-04-04.elections-1968-2, at: atlanta, basis: c, note: 'the Henry Grady Hotel'}
+- place: {id: cal.1968-04-04.elections-1968-3, at: pittsburgh, basis: c, note: 'the Steelworkers'' convention'}
