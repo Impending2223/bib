@@ -32,7 +32,7 @@
   st: AK
   kind: state
 - key: albany
-  name: Albany
+  name: Albany, N.Y.
   zone: America/New_York
   st: NY
 - key: albany-ga
@@ -48,11 +48,11 @@
   zone: Africa/Algiers
   in: algeria
 - key: an-khe
-  name: An Khe
+  name: An Khê
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: an-lao
-  name: An Lao
+  name: An Lão
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: an-loc
@@ -67,8 +67,12 @@
   name: Ankara
   zone: Europe/Istanbul
   in: turkey
+- key: ann-arbor
+  name: Ann Arbor
+  zone: America/Detroit
+  st: MI
 - key: ap-bac
-  name: Ap Bac
+  name: Ấp Bắc
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: arizona
@@ -102,23 +106,31 @@
   zone: America/New_York
   st: NJ
 - key: augusta
-  name: Augusta
+  name: Augusta, Me.
   zone: America/New_York
   st: ME
+- key: augusta-ga
+  name: Augusta, Ga.
+  zone: America/New_York
+  st: GA
 - key: austin
   name: Austin
   zone: America/Chicago
   st: TX
 - key: bac-lieu
-  name: Bac Lieu
+  name: Bạc Liêu
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: baghdad
+  name: Baghdad
+  zone: Asia/Baghdad
+  in: iraq
 - key: baltimore
   name: Baltimore
   zone: America/New_York
   st: MD
 - key: ban-me-thuot
-  name: Ban Me Thuot
+  name: Ban Mê Thuột
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: bangkok
@@ -133,6 +145,10 @@
   name: Battle Creek
   zone: America/Detroit
   st: MI
+- key: bay-of-pigs
+  name: the Bay of Pigs
+  zone: America/Havana
+  in: cuba
 - key: beatrice
   name: Beatrice
   zone: America/Chicago
@@ -150,7 +166,7 @@
   zone: Europe/Belgrade
   in: yugoslavia
 - key: ben-cat
-  name: Ben Cat
+  name: Bến Cát
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: ben-hai-river
@@ -160,11 +176,11 @@
     - rvn
     - drv
 - key: ben-suc
-  name: Ben Suc
+  name: Bến Súc
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: ben-tre
-  name: Ben Tre
+  name: Bến Tre
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: berkeley
@@ -174,12 +190,16 @@
 - key: berlin
   name: Berlin
   zone: Europe/Berlin
+- key: beverly-hills
+  name: Beverly Hills, Cal.
+  zone: America/Los_Angeles
+  st: CA
 - key: bien-hoa
-  name: Bien Hoa
+  name: Biên Hòa
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: bien-hoa-air-base
-  name: Bien Hoa Air Base
+  name: Biên Hòa air base
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: biloxi
@@ -187,7 +207,7 @@
   zone: America/Chicago
   st: MS
 - key: binh-gia
-  name: Binh Gia
+  name: Bình Giã
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: birmingham
@@ -203,7 +223,7 @@
   zone: America/Boise
   st: ID
 - key: bong-son
-  name: Bong Son
+  name: Bồng Sơn
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: bonn
@@ -239,24 +259,28 @@
   zone: America/New_York
   st: VT
 - key: ca-mau
-  name: Ca Mau
+  name: Cà Mau
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: cairo
   name: Cairo
   zone: Africa/Cairo
   in: uar
+- key: calcutta
+  name: Calcutta
+  zone: Asia/Kolkata
+  in: india
 - key: california
   name: California
   zone: America/Los_Angeles
   st: CA
   kind: state
 - key: cam-ne
-  name: Cam
+  name: Cẩm Nê
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: cam-pha
-  name: Cam Pha
+  name: Cẩm Phả
   zone: Asia/Bangkok
   in: drv
 - key: cam-ranh-bay
@@ -271,6 +295,10 @@
   name: Cambridge, Md.
   zone: America/New_York
   st: MD
+- key: camden-nj
+  name: Camden, N.J.
+  zone: America/New_York
+  st: NJ
 - key: camp-carroll
   name: Camp Carroll
   zone: Asia/Ho_Chi_Minh
@@ -280,7 +308,7 @@
   zone: America/New_York
   st: MD
 - key: can-tho
-  name: Can Tho
+  name: Cần Thơ
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: canberra
@@ -295,6 +323,10 @@
   name: Cao Lanh
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: cape-canaveral
+  name: Cape Canaveral, Fla.
+  zone: America/New_York
+  st: FL
 - key: caracas
   name: Caracas
   zone: America/Caracas
@@ -304,7 +336,7 @@
   zone: Asia/Shanghai
   in: prc
 - key: charleston
-  name: Charleston
+  name: Charleston, W. Va.
   zone: America/New_York
   st: WV
 - key: charlotte
@@ -312,7 +344,7 @@
   zone: America/New_York
   st: NC
 - key: chau-doc
-  name: Chau Doc
+  name: Châu Đốc
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: chengdu
@@ -335,6 +367,10 @@
   name: Cincinnati
   zone: America/New_York
   st: OH
+- key: clarksburg-wv
+  name: Clarksburg, W. Va.
+  zone: America/New_York
+  st: WV
 - key: cleveland
   name: Cleveland
   zone: America/New_York
@@ -362,7 +398,7 @@
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: con-thien
-  name: Con Thien
+  name: Côn Thiên
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: connecticut
@@ -375,7 +411,7 @@
   zone: America/Chicago
   st: NE
 - key: cu-chi
-  name: Cu Chi
+  name: Củ Chi
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: cu-chi-tunnels
@@ -387,7 +423,7 @@
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: da-nang-air-base
-  name: Da Nang Air Base
+  name: Đà Nẵng air base
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: dacca
@@ -395,7 +431,7 @@
   zone: Asia/Dhaka
   in: pakistan
 - key: dak-to
-  name: Dak To
+  name: Đắk Tô
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: dalat
@@ -418,6 +454,10 @@
   name: Dayton
   zone: America/New_York
   st: OH
+- key: dearborn
+  name: Dearborn
+  zone: America/Detroit
+  st: MI
 - key: delaware
   name: Delaware
   zone: America/New_York
@@ -442,23 +482,23 @@
     - rvn
     - drv
 - key: dong-anh
-  name: Dong Anh
+  name: Đông Anh
   zone: Asia/Bangkok
   in: drv
 - key: dong-ha
-  name: Dong Ha
+  name: Đông Hà
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: dong-hoi
-  name: Dong Hoi
+  name: Đồng Hới
   zone: Asia/Bangkok
   in: drv
 - key: dong-tam
-  name: Dong Tam
+  name: Đồng Tâm
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: dong-xoai
-  name: Dong Xoai
+  name: Đồng Xoài
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: dunsmuir
@@ -529,6 +569,10 @@
   name: Fresno
   zone: America/Los_Angeles
   st: CA
+- key: garden-city-ny
+  name: Garden City, N.Y.
+  zone: America/New_York
+  st: NY
 - key: gary
   name: Gary
   zone: America/Chicago
@@ -547,13 +591,17 @@
   zone: America/New_York
   st: PA
 - key: gia-nghia
-  name: Gia Nghia
+  name: Gia Nghĩa
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: gio-linh
   name: Gio Linh
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: glen-ora
+  name: Glen Ora
+  zone: America/New_York
+  st: VA
 - key: goliad
   name: Goliad
   zone: America/Chicago
@@ -562,6 +610,10 @@
   name: Gonzales
   zone: America/Chicago
   st: TX
+- key: grand-forks-nd
+  name: Grand Forks, N.D.
+  zone: America/Chicago
+  st: ND
 - key: greensboro
   name: Greensboro
   zone: America/New_York
@@ -573,6 +625,10 @@
 - key: guam
   name: Guam
   zone: Pacific/Guam
+- key: guatemala-city
+  name: Guatemala City
+  zone: America/Guatemala
+  in: guatemala
 - key: gulf-of-tonkin
   name: the Gulf of Tonkin
   zone: Asia/Bangkok
@@ -580,7 +636,7 @@
     - drv
     - prc
 - key: hai-van-pass
-  name: Hai Van Pass
+  name: Hải Vân Pass
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: haiphong
@@ -616,28 +672,32 @@
   zone: Pacific/Honolulu
   st: HI
   kind: state
+- key: hickory-hill
+  name: Hickory Hill
+  zone: America/New_York
+  st: VA
 - key: hill-875
   name: Hill 875
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: hoa-binh
-  name: Hoa Binh
+  name: Hòa Bình
   zone: Asia/Bangkok
   in: drv
 - key: hoa-lac
-  name: Hoa Lac
+  name: Hòa Lạc
   zone: Asia/Bangkok
   in: drv
 - key: hoi-an
-  name: Hoi An
+  name: Hội An
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: hon-me
-  name: Hon
+  name: Hòn Mê
   zone: Asia/Bangkok
   in: drv
 - key: hon-ngu
-  name: Hon Ngu
+  name: Hòn Ngư
   zone: Asia/Bangkok
   in: drv
 - key: hong-kong
@@ -648,6 +708,10 @@
   name: Honolulu
   zone: Pacific/Honolulu
   st: HI
+- key: hot-springs-ar
+  name: Hot Springs, Ark.
+  zone: America/Chicago
+  st: AR
 - key: houston
   name: Houston
   zone: America/Chicago
@@ -668,6 +732,10 @@
   name: Huron
   zone: America/Chicago
   st: SD
+- key: hyannis
+  name: Hyannis, Mass.
+  zone: America/New_York
+  st: MA
 - key: hyannis-port
   name: Hyannis Port
   zone: America/New_York
@@ -689,6 +757,10 @@
   zone: America/Chicago
   st: IL
   kind: state
+- key: independence-mo
+  name: Independence
+  zone: America/Chicago
+  st: MO
 - key: indiana
   name: Indiana
   zone: America/Indiana/Indianapolis
@@ -706,10 +778,18 @@
   zone: America/Chicago
   st: IA
   kind: state
+- key: irkutsk
+  name: Irkutsk
+  zone: Asia/Irkutsk
+  in: ussr
 - key: iron-triangle
   name: the Iron Triangle
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: istanbul
+  name: Istanbul
+  zone: Europe/Istanbul
+  in: turkey
 - key: jackson
   name: Jackson
   zone: America/Chicago
@@ -727,8 +807,16 @@
   name: Jersey City
   zone: America/New_York
   st: NJ
+- key: jerusalem
+  name: Jerusalem
+  zone: Asia/Jerusalem
+  in: israel
 - key: jinan
   name: Jinan
+  zone: Asia/Shanghai
+  in: prc
+- key: jinghong
+  name: Jinghong
   zone: Asia/Shanghai
   in: prc
 - key: johnson-city
@@ -743,6 +831,10 @@
   name: Kalamazoo
   zone: America/Detroit
   st: MI
+- key: kampot-province
+  name: Kampot province
+  zone: Asia/Phnom_Penh
+  in: cambodia
 - key: kansas
   name: Kansas
   zone: America/Chicago
@@ -759,6 +851,10 @@
   name: Karachi
   zone: Asia/Karachi
   in: pakistan
+- key: katmandu
+  name: Katmandu
+  zone: Asia/Kathmandu
+  in: nepal
 - key: kentucky
   name: Kentucky
   zone: America/Kentucky/Louisville
@@ -769,7 +865,7 @@
     - America/New_York
     - America/Chicago
 - key: kep
-  name: Kep
+  name: Kép
   zone: Asia/Bangkok
   in: drv
 - key: kerrville
@@ -780,12 +876,16 @@
   name: Key Biscayne
   zone: America/New_York
   st: FL
+- key: key-west
+  name: Key West
+  zone: America/New_York
+  st: FL
 - key: khabarovsk
   name: Khabarovsk
   zone: Asia/Vladivostok
   in: ussr
 - key: kham-duc
-  name: Kham Duc
+  name: Khâm Đức
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: khe-sanh
@@ -812,12 +912,16 @@
   name: La Grande
   zone: America/Los_Angeles
   st: OR
+- key: la-paz
+  name: La Paz
+  zone: America/La_Paz
+  in: bolivia
 - key: la-porte
   name: La Porte
   zone: America/Chicago
   st: IN
 - key: lai-chau
-  name: Lai Chau
+  name: Lai Châu
   zone: Asia/Bangkok
   in: drv
 - key: lancaster
@@ -829,7 +933,7 @@
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: lao-cai
-  name: Lao Cai
+  name: Lào Cai
   zone: Asia/Bangkok
   in: drv
 - key: las-vegas
@@ -861,7 +965,7 @@
   zone: America/New_York
   st: ME
 - key: loc-ninh
-  name: Loc Ninh
+  name: Lộc Ninh
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: lockhart
@@ -877,15 +981,15 @@
   zone: Europe/London
   in: uk
 - key: long-bien-bridge
-  name: Long Bien Bridge
+  name: Long Biên bridge
   zone: Asia/Bangkok
   in: drv
 - key: long-binh
-  name: Long Binh
+  name: Long Bình
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: long-xuyen
-  name: Long Xuyen
+  name: Long Xuyên
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: los-angeles
@@ -935,8 +1039,12 @@
   zone: America/New_York
   st: NH
   aliases: [manchester-nh]
+- key: mandalay
+  name: Mandalay
+  zone: Asia/Yangon
+  in: burma
 - key: mang-yang-pass
-  name: Mang Yang Pass
+  name: Mang Yang pass
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: manila
@@ -962,11 +1070,11 @@
   zone: America/Chicago
   st: WI
 - key: mccomb
-  name: Mccomb
+  name: McComb, Miss.
   zone: America/Chicago
   st: MS
 - key: mclean
-  name: Mclean
+  name: McLean, Va.
   zone: America/New_York
   st: VA
 - key: mekong-delta
@@ -1010,6 +1118,10 @@
   zone: America/Chicago
   st: MN
   kind: state
+- key: minsk
+  name: Minsk
+  zone: Europe/Minsk
+  in: ussr
 - key: mississippi
   name: Mississippi
   zone: America/Chicago
@@ -1041,12 +1153,16 @@
   name: Moscow
   zone: Europe/Moscow
   in: ussr
+- key: moulmein
+  name: Moulmein
+  zone: Asia/Yangon
+  in: burma
 - key: mu-gia-pass
-  name: Mu Gia Pass
+  name: Mụ Giạ Pass
   zone: Asia/Bangkok
   in: drv
 - key: my-tho
-  name: My Tho
+  name: Mỹ Tho
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: nam-tha
@@ -1134,6 +1250,14 @@
   name: Nha Trang
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: nicosia
+  name: Nicosia
+  zone: Asia/Nicosia
+  in: cyprus
+- key: norfolk-va
+  name: Norfolk
+  zone: America/New_York
+  st: VA
 - key: north-carolina
   name: North Carolina
   zone: America/New_York
@@ -1147,6 +1271,10 @@
   zones:
     - America/Chicago
     - America/Denver
+- key: novosibirsk
+  name: Novosibirsk
+  zone: Asia/Novosibirsk
+  in: ussr
 - key: nyc
   name: New York
   zone: America/New_York
@@ -1179,9 +1307,17 @@
   zone: America/Chicago
   st: NE
 - key: ong-thanh
-  name: Ong Thanh
+  name: Ông Thành
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: ontario-ca
+  name: Ontario, Cal.
+  zone: America/Los_Angeles
+  st: CA
+- key: opa-locka
+  name: Opa-locka, Fla.
+  zone: America/New_York
+  st: FL
 - key: oregon
   name: Oregon
   zone: America/Los_Angeles
@@ -1198,6 +1334,10 @@
   name: Oxford, Miss.
   zone: America/Chicago
   st: MS
+- key: pagan
+  name: Pagan
+  zone: Asia/Yangon
+  in: burma
 - key: palm-beach
   name: Palm Beach
   zone: America/New_York
@@ -1214,6 +1354,10 @@
   name: Panama City
   zone: America/Panama
   in: panama
+- key: parchman
+  name: Parchman, Miss.
+  zone: America/Chicago
+  st: MS
 - key: paris
   name: Paris
   zone: Europe/Paris
@@ -1231,12 +1375,16 @@
   zone: America/New_York
   st: PA
   kind: state
+- key: peoria
+  name: Peoria
+  zone: America/Chicago
+  st: IL
 - key: peru-in
   name: Peru, Ind.
   zone: America/Indiana/Indianapolis
   st: IN
 - key: phan-thiet
-  name: Phan Thiet
+  name: Phan Thiết
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: philadelphia
@@ -1252,7 +1400,7 @@
   zone: America/Phoenix
   st: AZ
 - key: phu-bai
-  name: Phu Bai
+  name: Phú Bài
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: phu-cuong
@@ -1260,11 +1408,11 @@
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: phu-vinh
-  name: Phu Vinh
+  name: Phú Vinh
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: phuc-yen
-  name: Phuc Yen
+  name: Phúc Yên
   zone: Asia/Bangkok
   in: drv
 - key: pitsunda
@@ -1279,8 +1427,12 @@
   name: the Plain of Jars
   zone: Asia/Vientiane
   in: laos
+- key: playa-giron
+  name: Playa Girón
+  zone: America/Havana
+  in: cuba
 - key: plei-me
-  name: Plei
+  name: Plei Me
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: pleiku
@@ -1291,6 +1443,10 @@
   name: Pocatello
   zone: America/Boise
   st: ID
+- key: pokhara
+  name: Pokhara
+  zone: Asia/Kathmandu
+  in: nepal
 - key: portland
   name: Portland
   zone: America/Los_Angeles
@@ -1311,6 +1467,10 @@
   name: Providence
   zone: America/New_York
   st: RI
+- key: puerto-cabezas
+  name: Puerto Cabezas
+  zone: America/Managua
+  in: nicaragua
 - key: punta-del-este
   name: Punta del Este
   zone: America/Montevideo
@@ -1320,15 +1480,15 @@
   zone: Asia/Pyongyang
   in: dprk
 - key: quang-ngai
-  name: Quang Ngai
+  name: Quảng Ngãi
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: quang-tri
-  name: Quang Tri
+  name: Quảng Trị
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: qui-nhon
-  name: Qui Nhon
+  name: Qui Nhơn
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: rach-gia
@@ -1381,7 +1541,7 @@
   zone: America/Los_Angeles
   st: OR
 - key: sa-pa
-  name: Sa
+  name: Sa Pa
   zone: Asia/Bangkok
   in: drv
 - key: sacramento
@@ -1416,6 +1576,10 @@
   name: San Francisco
   zone: America/Los_Angeles
   st: CA
+- key: san-jose-cr
+  name: San José
+  zone: America/Costa_Rica
+  in: costa-rica
 - key: santo-domingo
   name: Santo Domingo
   zone: America/Santo_Domingo
@@ -1444,16 +1608,28 @@
   name: Shanghai
   zone: Asia/Shanghai
   in: prc
+- key: she-county
+  name: She county
+  zone: Asia/Shanghai
+  in: prc
 - key: shenyang
   name: Shenyang
+  zone: Asia/Shanghai
+  in: prc
+- key: simao
+  name: Simao
   zone: Asia/Shanghai
   in: prc
 - key: singapore
   name: Singapore
   zone: Asia/Singapore
   in: singapore
+- key: sioux-city
+  name: Sioux City
+  zone: America/Chicago
+  st: IA
 - key: soc-trang
-  name: Soc Trang
+  name: Sóc Trăng
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: sofia
@@ -1461,7 +1637,7 @@
   zone: Europe/Sofia
   in: bulgaria
 - key: son-la
-  name: Son
+  name: Sơn La
   zone: Asia/Bangkok
   in: drv
 - key: son-my-my-lai
@@ -1518,7 +1694,7 @@
   zone: America/New_York
   st: FL
 - key: tam-ky
-  name: Tam
+  name: Tam Kỳ
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: tampa
@@ -1530,15 +1706,19 @@
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: tan-son-nhut
-  name: Tan Son Nhut
+  name: Tân Sơn Nhứt
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: tarrytown
+  name: Tarrytown, N.Y.
+  zone: America/New_York
+  st: NY
 - key: tashkent
   name: Tashkent
   zone: Asia/Tashkent
   in: ussr
 - key: tay-ninh
-  name: Tay Ninh
+  name: Tây Ninh
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: tehran
@@ -1562,7 +1742,7 @@
     - America/Chicago
     - America/Denver
 - key: thanh-hoa
-  name: Thanh Hoa
+  name: Thanh Hóa
   zone: Asia/Bangkok
   in: drv
 - key: the-hague
@@ -1602,7 +1782,7 @@
   zone: America/Chicago
   st: AL
 - key: tuy-hoa
-  name: Tuy Hoa
+  name: Tuy Hòa
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: ulan-bator
@@ -1615,11 +1795,11 @@
   st: UT
   kind: state
 - key: van-dien
-  name: Van Dien
+  name: Văn Điển
   zone: Asia/Bangkok
   in: drv
 - key: van-tuong
-  name: Van Tuong
+  name: Vạn Tường
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: vermont
@@ -1628,7 +1808,7 @@
   st: VT
   kind: state
 - key: vi-thanh
-  name: Vi Thanh
+  name: Vị Thanh
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: vienna
@@ -1640,7 +1820,7 @@
   zone: Asia/Vientiane
   in: laos
 - key: viet-tri
-  name: Viet Tri
+  name: Việt Trì
   zone: Asia/Bangkok
   in: drv
 - key: vinh
@@ -1648,7 +1828,7 @@
   zone: Asia/Bangkok
   in: drv
 - key: vinh-long
-  name: Vinh Long
+  name: Vĩnh Long
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: virginia
@@ -1661,7 +1841,7 @@
   zone: Asia/Vladivostok
   in: ussr
 - key: vung-tau
-  name: Vung Tau
+  name: Vũng Tàu
   zone: Asia/Ho_Chi_Minh
   in: rvn
 - key: wabash
@@ -1690,6 +1870,10 @@
   zone: America/Los_Angeles
   st: WA
   kind: state
+- key: waterbury
+  name: Waterbury
+  zone: America/New_York
+  st: CT
 - key: west-berlin
   name: West Berlin
   zone: Europe/Berlin
@@ -1707,10 +1891,18 @@
   name: Whiting
   zone: America/Chicago
   st: IN
+- key: whittier
+  name: Whittier
+  zone: America/Los_Angeles
+  st: CA
 - key: wichita
   name: Wichita
   zone: America/Chicago
   st: KS
+- key: williamsburg-va
+  name: Williamsburg, Va.
+  zone: America/New_York
+  st: VA
 - key: wilmington-de
   name: Wilmington, Del.
   zone: America/New_York
@@ -1738,14 +1930,18 @@
   zone: Asia/Vientiane
   in: laos
 - key: yen-bai
-  name: Yen Bai
+  name: Yên Bái
   zone: Asia/Bangkok
   in: drv
 - key: yen-vien
-  name: Yen Vien
+  name: Yên Viên
   zone: Asia/Bangkok
   in: drv
 - key: zhengzhou
   name: Zhengzhou
   zone: Asia/Shanghai
   in: prc
+- key: zurich
+  name: Zurich
+  zone: Europe/Zurich
+  in: switzerland
