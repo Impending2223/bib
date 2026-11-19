@@ -4,7 +4,8 @@ claimed cal.1961-04-30.cuba
 --- exit 0
 
 $ ./bib patch-check inbox/01-add-1.yaml
-== 01-add-1.yaml: 0 errors, 0 warnings
+== 01-add-1.yaml: 0 errors, 1 warnings
+  warn   cal.1961-04-30.cuba: set place: hyannis-port (Hyannis Port in c), or tag ok:fields-place if Hyannis Port is not where the act was done (R25a; notes/briefs/places.md) [fields-place]
 
 --- exit 0
 

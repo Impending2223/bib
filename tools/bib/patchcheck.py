@@ -28,6 +28,13 @@ STYLE
  9. `add` of an entry of another list (a Part III name, `kja.who.<key>`; a work): not a calendar entry, so neither
     date, thread, `n` nor the ledger (the ledger claims a day and thread); its id, `s` or `c`, its `section`, not in
     the tree nor added twice; the rest is 8's (the entry as check holds it, once placed).
+10. R25a, the fields (the owner, Nov. 19, 2026: "Could we fix that? Permanently?"): each calendar `add`, as the dry run
+    leaves it, held to tools/bib/fields.py: a clock time or a part of the day without `time` or `time_range`
+    [fields-time], a loose date's position merge cannot set without `at` [fields-at] (errors); an hour that recurs
+    [fields-time-habitual] and a gazetteer place in `c` without `place` [fields-place] (warnings: a fifth of the
+    place hits name a subject, not the scene), the place findings the first few and their count (`./bib fields
+    --patch P` lists them all). Tags `ok:fields-time`, `ok:fields-at`, `ok:fields-place` silence each. Not on cites
+    or edits.
 """
 import collections
 import os
@@ -184,7 +191,31 @@ def check(series, path, legacy=False):
     se, sw = subentry_problems(series, ops)
     errors.extend(se)
     warnings.extend(sw)
+    fe, fw = fields_problems(series, ops, path)
+    errors.extend(fe)
+    warnings.extend(fw)
     return errors, warnings
+
+
+def fields_problems(series, ops, path=None):
+    """STYLE 10: R25a's fields on each calendar entry the patch adds, as the dry run left it (tools/bib/fields.py)."""
+    from . import fields
+    out, warn, place = [], [], []
+    for op in ops:
+        if not (isinstance(op, dict) and len(op) == 1 and "add" in op):
+            continue
+        eid = ((op["add"] or {}).get("entry") or {}).get("id")
+        if not fields.is_cal(eid):
+            continue
+        hit = series.get(eid)
+        e = hit[2] if hit else (op["add"] or {}).get("entry") or {}
+        for rule, msg in fields.findings(e):
+            (out if fields.LEVEL[rule] == "error" else place if rule == "fields-place" else warn).append(msg)
+    warn += place[:fields.PLACE_SHOWN]
+    if len(place) > fields.PLACE_SHOWN:
+        warn.append(f"{len(place)} [fields-place] findings in all, the first {fields.PLACE_SHOWN} above: "
+                    f"./bib fields --patch {path or 'PATCH'} lists them")
+    return out, warn
 
 
 def subentry_problems(series, ops):

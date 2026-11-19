@@ -30,6 +30,7 @@ _INDEX = None
 PENDING = {}          # key -> row: a patch's place-key ops, while it is checked or merged
 DIRTY = False         # rows added in memory by a merge, not yet written (merge.apply_patch writes or drops them)
 HEADER = None
+GEN = 0               # bumped whenever the rows change (reset, add_row): fields.py builds its place pattern again
 
 
 def _load():
@@ -47,8 +48,11 @@ def _load():
 
 
 def reset():
-    global _ROWS, _INDEX
+    global _ROWS, _INDEX, GEN
     _ROWS = _INDEX = None
+    GEN += 1
+    from . import fields
+    fields.reset()
 
 
 def get(key):
@@ -110,6 +114,7 @@ def problems(series):
 def add_row(body, save=True):
     """A place-key op's row added (or, `fix: true`, its name and zone set on the row the key names). Returns an
     error or None."""
+    global GEN
     row = {k: body[k] for k in ("key", "name", "names", "zone", "st", "in", "kind", "aliases") if body.get(k) not in (None, "")}
     errs = row_problems(row)
     if errs:
@@ -124,6 +129,7 @@ def add_row(body, save=True):
     else:
         rows.append(row)
         idx[row["key"]] = row
+    GEN += 1
     if save:
         write()
     return None
