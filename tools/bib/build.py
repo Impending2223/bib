@@ -264,16 +264,19 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         statement = calsplit.statement(lst, e, half, first, members)   # written once, chosen by the part's range
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
-    cjk_done = set()                    # characters after romanized Chinese: at their first on the page (cjk.py)
+    cjk_done = set()                    # a Names: person's characters: at their first on the page (cjk.py)
+    cj = None
+    if lst.kind == "calendar" and not is_thread:
+        from . import cjk
+        cj = cjk.Entry(series, e).claim(cjk_done)   # its Names: persons' characters, its quoted originals (STYLE 3, 7)
     fns = None                          # the citation block as footnotes (tools/bib/footnotes.py)
     if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
         from . import footnotes
         fns = footnotes.build(series, e)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
-        if lst.kind == "calendar" and not is_thread:
-            from . import cjk
-            c = cjk.strip(series, e, c, cjk_done)
+        if cj:
+            c = cjk.drop(c)               # out of the line (cjk.py, STYLE 2)
         body = text_html(year_qualified(series, c, year), "c")
         if is_thread and i == 0:
             body = thread_person(series, body)
@@ -298,15 +301,19 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
     fn_html = None
+    printed = frozenset()               # the characters the block's full cites print (cjk.py, STYLE 3)
     if fns:                             # the footnotes, then the note's other sentences (footnotes.py, STYLE 1, 5)
         from . import cjk, works, footnotes
-        joined = year_qualified(series, footnotes.SEP.join(fns[1]), year)
-        joined = works.with_first_cites(series, e, cjk.strip(series, e, joined, cjk_done))
+        bare = year_qualified(series, footnotes.SEP.join(fns[1]), year)    # the note's own characters as written
+        joined = works.with_first_cites(series, e, bare)                   # (cjk.py, STYLE 4)
+        printed = cjk.printed_by(bare, joined)
         fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
         n = year_qualified(series, fns[2], year) if fns[2] else ""
-    if n and lst.kind == "calendar" and not is_thread:
-        from . import cjk
-        n = cjk.strip(series, e, n, cjk_done)
+    if cj:                              # the Names: persons' characters, the line's quoted originals (cjk.py, STYLE 3, 7)
+        from . import works
+        bare = works.ordered(series, n) if n else ""
+        printed |= cjk.printed_by(bare, works.with_first_cites(series, e, bare) if bare else "")
+        n = cj.tail(n, printed)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works
         n = works.with_first_cites(series, e, works.ordered(series, n))
@@ -347,10 +354,13 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
 
 
 def _unit_renderer(series, text_html, year):
-    """A claim's unit rendered as the entry's `c` is, the renderer's link count put back (vispage.py, STYLE 2)."""
+    """A claim's unit rendered as the entry's `c` is, its characters dropped as the line's are (cjk.py, STYLE 6), the
+    renderer's link count put back (vispage.py, STYLE 2)."""
+    from . import cjk
     lk = getattr(text_html, "linker", None)
 
     def render(t):
+        t = cjk.drop(t)
         if lk is None:
             return text_html(year_qualified(series, t, year), "c")
         n = lk.links
@@ -619,7 +629,7 @@ def names_line(text):
     if not m:
         return None
     body = m.group(1)
-    cut = re.search(r"\.\s+(?=(?:Check|See|Made public|Also)\b)", body)
+    cut = re.search(r"\.\s+(?=(?:Check|See|Made public|Also|Characters)\b)", body)
     if not cut:
         cut = re.search(r"[.\s']*$", body)
     return m.start(1), body[:cut.start()], body[cut.start():]
@@ -961,16 +971,19 @@ class Linker:
         if not parts:
             return chunk
         head, body, tail = chunk[:parts[0]], parts[1], parts[2]
+        from . import cjk
         toks = names_tokens(body)
+        cjs = [cjk.peel(t)[1] for t, _ in toks]            # a name's characters after it (cjk.py, STYLE 3)
+        toks = [(cjk.peel(t)[0], r) for t, r in toks]
         out = []
-        for (tok, ref_part), hit in zip(toks, self.names_resolved([t for t, _ in toks], tags or ())):
+        for (tok, ref_part), hit, cjs_ in zip(toks, self.names_resolved([t for t, _ in toks], tags or ()), cjs):
             u, x = (hit[1], hit[0]) if hit else (None, None)
             if not hit and ref_part:                 # the old form: its section as a hint
                 scanned = list(self.refs.scan(ref_part, key))
                 if scanned:
                     x = self.find_person(tok, scanned[0][2], [c for _, _, k, c in scanned if c], tags)
                     u = self.name_url(x, tok) if x else None
-            out.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
+            out.append((f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok) + cjs_)
         return head + ", ".join(out) + tail
 
     def name_url(self, x, tok=None):
