@@ -160,12 +160,6 @@ ops:
         when: 'May, before the West Virginia primary'
         at: 'before 1960-05-10'
   - edit:
-      id: cal.1960-05.elections-1960-9
-      base: '39a449dc'
-      set:
-        when: 'May, before the Oregon primary'
-        at: 'before 1960-05-20'
-  - edit:
       id: cal.1960-05.elections-1960-kennedy
       base: '09b9abd0'
       set:
@@ -261,12 +255,6 @@ ops:
       set:
         when: 'July, after Johnson''s nomination'
         at: 'after 1960-07-14'
-  - edit:
-      id: cal.1960-07.elections-1960-3
-      base: '46e6e350'
-      set:
-        when: 'July, after the Republican convention'
-        at: 'after 1960-07-28'
   - edit:
       id: cal.1960-07.elections-1960-4
       base: '32922337'
@@ -368,7 +356,7 @@ ops:
       base: 'e7f22344'
       set:
         when: 'Sept., the week of the 24th'
-        at: 'before 1960-09-24'
+        at: 'before 1960-09-18'
   - edit:
       id: cal.1960-09.cuba-3
       base: 'e85d3e0e'
@@ -424,12 +412,6 @@ ops:
         when: 'Oct., after the third debate'
         at: 'after 1960-10-13'
   - edit:
-      id: cal.1960-10.elections-1960-kennedy
-      base: '6bd3cab2'
-      set:
-        when: 'Oct., after the Cuba statement'
-        at: 'after 1960-10-20'
-  - edit:
       id: cal.1960-10.goldwater-2
       base: 'c4618cd6'
       set:
@@ -481,8 +463,8 @@ ops:
       id: cal.1960-11.elections-1960-kennedy-3
       base: '3613fdac'
       set:
-        when: 'Nov., before the election'
-        at: 'before 1960-11-08'
+        when: 'Nov., after the 2nd'
+        at: 'after 1960-11-02'
   - edit:
       id: cal.1960-11.elections-1960-king
       base: '0beda58c'
@@ -587,12 +569,6 @@ ops:
         when: 'May, before the West Virginia primary'
         at: 'before 1960-05-10'
   - edit:
-      id: cal.1960-07.elections-1960-11
-      base: '44e3db6a'
-      set:
-        when: 'July, after Truman''s press conference'
-        at: 'after 1960-07-02'
-  - edit:
       id: cal.1960-07.elections-1960-king
       base: '53c00306'
       set:
@@ -663,26 +639,26 @@ ops:
       id: cal.1960-10.elections-1960-5
       base: 'bdbc9338'
       set:
-        when: 'Oct., late'
-        at: 'before 1960-10-21'
+        when: 'Oct., the last week'
+        at: 'before 1960-10-25'
   - edit:
       id: cal.1960-10.elections-1960-nixon
       base: '4d867dcd'
       set:
         when: 'Oct., the last week'
-        at: 'before 1960-10-21'
+        at: 'before 1960-10-25'
   - edit:
       id: cal.1960-11.transition-and-staff-cabinet-2
       base: 'eaf8ca7b'
       set:
         when: 'Nov., last week'
-        at: 'before 1960-11-21'
+        at: 'before 1960-11-24'
   - edit:
       id: cal.1960-12.transition-and-staff-3
       base: '1134f7d2'
       set:
         when: 'Dec., last week'
-        at: 'before 1960-12-21'
+        at: 'before 1960-12-25'
   - edit:
       id: cal.1960-12.transition-and-staff-7
       base: 'adde0d30'
