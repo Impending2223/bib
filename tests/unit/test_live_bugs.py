@@ -454,3 +454,13 @@ def test_dump_yaml_refreshes_the_parse(tmp_path, monkeypatch):
     monkeypatch.undo()
     store.dump_yaml({"d": datetime.date(1961, 1, 20)}, p)   # not plain: the next load reads the file
     assert store.load_yaml(p) == {"d": "1961-01-20"}
+
+
+def test_oil_index_is_not_served_to_a_series_at_a_reused_address(monkeypatch):
+    from tools.bib import oil
+    monkeypatch.setattr(oil, "_IDX", {})
+    s1 = {"rows": [{"p": "1961-01", "first": 1.0}]}
+    assert oil._index(s1) == {"1961-01": s1["rows"][0]}
+    s2 = {"rows": [{"p": "1961-01", "first": {"crude_imports": 2}}]}
+    oil._IDX[id(s2)] = oil._IDX.pop(id(s1))        # as if s1 were freed and s2 loaded at its address
+    assert oil._index(s2) == {"1961-01": s2["rows"][0]}
