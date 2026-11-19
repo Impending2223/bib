@@ -7,6 +7,7 @@ entries:
     when: June 1–2
     date: '1960-06-01'
     time: 1960-06-01T03:15Z
+    place: peking
     thread: china-leadership
     c: Zhou Enlai home; at 10 o'clock pays respects at the bier of Lin Boqu (died May 29), and keeps vigil. On June 2 he takes part in the capital's public memorial for Lin Boqu.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 1, 1960; 上午11时15分, 抵达北京; Zhu De, Soong Ching Ling, Deng Xiaoping, Peng Zhen and Li Xiannian at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu presides at the public funeral of Lin Boqu). Made public: 1993. The time is the first day''s. Names: Zhou Enlai.'
@@ -22,6 +23,7 @@ entries:
     when: June 1
     date: '1960-06-01'
     time: 1960-06-01T00:40Z
+    place: ulan-bator
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator. Zhou Enlai ends his visit to Mongolia and flies home; Tsedenbal and Sambuu see him off at the airport.
@@ -35,11 +37,43 @@ entries:
   - id: cal.1960-06-01.china-leadership-3
     when: June 1
     date: '1960-06-01'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Liu Shaoqi attends the opening of the national conference of advanced units and workers in socialist construction in education, culture, health, sports and the press, and receives all the presidium's members.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 1, 1960). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1960-06-01.china-leadership-4
+    when: June 1
+    date: '1960-06-01'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Gao Zhi 高智, Mao's confidential secretary, with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 1, 1960). The words: 上午 (I, 514). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gao Zhi, Yang Shangkun.'
+    src:
+      c: 42f91b7f
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-31T22:00Z
+      - 1960-06-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-01.china-leadership-5
+    when: June 1
+    date: '1960-06-01'
+    time: 1960-06-01T13:00Z
+    place: hangzhou
+    thread: china-leadership
+    c: 'Hangzhou 杭州, 9 p.m. to midnight: the fourth volume of Mao''s 毛泽东 *Selected Works* 毛选第四卷 again; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 1, 1960). The words: 夜9时到12时 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: d8f01e9d
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-02.economy
     when: June 2
     date: '1960-06-02'
@@ -116,6 +150,7 @@ entries:
   - id: cal.1960-06-02.vietnam-hanoi
     when: June 2
     date: '1960-06-02'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 208-CT/TW on floods and typhoons in 1960. Since the peace 64 million cubic meters of earth, 1,200,000 of stone, 205,000 of concrete on the dikes; some still low. Command boards at every level, youth and militia the core of the dike guards, strict discipline.'
     n: '*Chỉ thị của Ban Bí thư số 208-CT/TW về công tác phòng và chống lụt bão năm 1960*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 344–48. Made public: 2002.'
@@ -123,6 +158,7 @@ entries:
   - id: cal.1960-06-02.china-leadership
     when: June 2
     date: '1960-06-02'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to welcome Haxhi Lleshi, Chairman of the Presidium of the Albanian People's Assembly, visiting China at Liu Shaoqi's invitation.
@@ -140,6 +176,7 @@ entries:
   - id: cal.1960-06-02.china-leadership-2
     when: June 2
     date: '1960-06-02'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai accompanies Liu Shaoqi in meeting Lleshi.
@@ -155,9 +192,24 @@ entries:
       - 1960-06-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-02.china-leadership-3
+    when: June 2
+    date: '1960-06-02'
+    time: 1960-06-02T02:30Z
+    place: hangzhou
+    thread: china-leadership
+    c: 'Hangzhou 杭州, Mao''s 毛泽东 swimming pool, 10:30 a.m. to 3 p.m.: the fourth volume of the *Selected Works* 毛选 again; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 2, 1960). The words: 上午9时半去游泳池，10时半起谈毛选，到3点回 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: b8fd5871
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-03.china-leadership
     when: June 3
     date: '1960-06-03'
+    place: peking
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou Enlai receives Iraq''s Ambassador, Abd al-Haqq Fadil: tension with neighbors is bad but may help unity at home; a good leader joins the anti-imperialist and democratic forces against outside enemies; gaps at home let in plotters; the other danger is a leader who cannot unite his people and pushes them into opposition. He sends good wishes to Qassim.'
@@ -181,6 +233,7 @@ entries:
   - id: cal.1960-06-03.china-leadership-2
     when: June 3
     date: '1960-06-03'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai receives the Polish Ambassador, and at his request describes the visit to India: India''s stand on the boundary, no wish to settle; Nehru would use it to control the right at home and strike the left.'
@@ -204,6 +257,7 @@ entries:
   - id: cal.1960-06-03.china-leadership-3
     when: June 3
     date: '1960-06-03'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the state banquet given by Liu Shaoqi for Lleshi.
@@ -218,16 +272,63 @@ entries:
       - 1960-06-03T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-03.china-leadership-4
+    when: June 3
+    date: '1960-06-03'
+    time: 1960-06-03T02:30Z
+    place: hangzhou
+    thread: china-leadership
+    c: 'Hangzhou 杭州, Mao''s 毛泽东 swimming pool, 10:30 a.m. to 2:30 p.m.: the talks on the fourth volume of the *Selected Works* 毛选第四卷 finished; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 3, 1960). The words: 上午10时半去游泳池，到2点半。毛选第四卷今天谈完了 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 45004cdc
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-03.china-leadership-5
+    when: June 3
+    date: '1960-06-03'
+    place: hangzhou
+    thread: china-leadership
+    follows:
+      - cal.1960-06-03.china-leadership-4
+    c: 'Yang Shangkun 杨尚昆 calls Li Fuchun 李富春 to Hangzhou 杭州: from the next day, the Planning Commission''s views on the last three years of the Second Five-Year Plan.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 3, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun.'
+    src:
+      c: 290859c1
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-06-03.china-leadership-6
+    when: June 3
+    date: '1960-06-03'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Li Xuefeng 李雪峰 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 3, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Xuefeng, Yang Shangkun.'
+    src:
+      c: ed243248
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-06-04.china-leadership
     when: June 4–6
     date: '1960-06-04'
+    place: hangzhou
     thread: china-leadership
     c: 'Hangzhou, the Nanping pool. Mao reads and discusses with Li Fuchun, Kang Sheng, Yang Shangkun and Tian Jiaying the Planning Commission''s points for the supplementary plan of the Second Five-Year Plan''s last three years, 1960–62 (sent May 29): "on the whole workable."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 4, 1960. Made public: 2013. Names: Mao Zedong, Li Fuchun, Kang Sheng, Yang Shangkun, Tian Jiaying.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 4, 1960; [[w.yang-shangkun-riji]], I, 515 (June 4–6, 1960; June 4, at the swimming pool, 3:30 to 7 p.m., the "main points of the plan" read together; June 5, 3 to 7:30 p.m., Li Fuchun''s report again; June 6, 3 to 7 p.m., in the hall of the Hangzhou Hotel, the report finished). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 515), before the year the note gives. Names: Mao Zedong, Li Fuchun, Kang Sheng, Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 24350c96
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, June 4, 1960: all'
+        - 'w.yang-shangkun-riji I, 515: A'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:kang-sheng, vis:only:prc]
   - id: cal.1960-06-04.china-leadership-2
     when: June 4
     date: '1960-06-04'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking. The Secretariat, Deng Xiaoping presiding, on the CPSU letter of June 2. Agrees to a meeting on the common ground (the Moscow Declaration, Khrushchev''s line for the summit) and to shielding Khrushchev, on what base to be settled; suspects the meeting aims to attack China. No meeting now: put off to about November, August at the earliest; widen it to all parties as in 1957, with a drafting committee and a Sino-Soviet joint group; at Bucharest only talks. Deng: spread the views of the Lenin articles. A reply to be drafted at Peking and finished at Shanghai.'
@@ -240,6 +341,7 @@ entries:
   - id: cal.1960-06-04.china-leadership-3
     when: June 4
     date: '1960-06-04'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the mass meeting of the capital's people in welcome of Lleshi.
@@ -267,9 +369,44 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 230–231: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 230 n.2: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-04.china-leadership-5
+    when: June 4
+    date: '1960-06-04'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Li Fuchun 李富春 arrives; Deng Xiaoping 邓小平 telephones Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 515 (June 4, 1960). The words: 上午 (I, 515). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: d34cd0bc
+      rows:
+        - 'w.yang-shangkun-riji I, 515: all'
+    tags: [polity:prc, name:li-fuchun, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-03T22:00Z
+      - 1960-06-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-04.china-leadership-6
+    when: June 4
+    date: '1960-06-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhao Zhongyuan 赵仲元, by telephone to Yang Shangkun 杨尚昆 at Hangzhou 杭州: the Soviet Ambassador has said the Soviet Union proposes a meeting of the brother countries'' parties in June or July.'
+    n: '[[w.yang-shangkun-riji]], I, 515 (June 4, 1960). The words: 晚间 (I, 515). See [[cal.1960-06-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhao Zhongyuan, Yang Shangkun.'
+    src:
+      c: 222cd822
+      rows:
+        - 'w.yang-shangkun-riji I, 515: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-04T11:00Z
+      - 1960-06-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-05.china-leadership
     when: June 5
     date: '1960-06-05'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Peking. Deng Xiaoping, Liu Shaoqi and Zhou Enlai attend the Central Committee's symposium with the heads of the communist and workers' parties among the delegations to the World Federation of Trade Unions' council. Liu Ningyi, heading the Chinese delegation, states China's views; Grishin, heading the Soviet delegation, objects, refuses Deng's explanation and Liu's and Zhou's plea to stay, and walks out.
@@ -280,9 +417,41 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 276: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487–488: B'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, vis:only:prc+ussr]
+  - id: cal.1960-06-05.china-leadership-2
+    when: June 5
+    date: '1960-06-05'
+    time: 1960-06-05T02:30Z
+    place: hangzhou
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Hangzhou 杭州, Wangzhuang 汪庄. Mao 毛泽东 with Kang Sheng 康生 and Yang Shangkun 杨尚昆 on the brother countries'' meeting, 10:30 a.m.: he proposes instead a meeting of all the world''s communist parties on Nov. 7, China busy in June and July; if the Soviets agree, a delegation to go in August to draft the documents together. To be settled at Shanghai 上海.'
+    n: '[[w.yang-shangkun-riji]], I, 515 (June 5, 1960). The words: 上午10时半 (I, 515). See [[cal.1960-06-04.china-leadership-6]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Kang Sheng, Yang Shangkun.'
+    src:
+      c: c35fd9b9
+      rows:
+        - 'w.yang-shangkun-riji I, 515: all'
+    tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-3
+    when: June 5
+    date: '1960-06-05'
+    time: 1960-06-05T03:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-06-05.china-leadership-2
+    c: Yang Shangkun 杨尚昆 telephones Mao's 毛泽东 view on the brother parties' meeting to Deng Xiaoping 邓小平, 11:30 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 515 (June 5, 1960). The words: 11时半电话告知了小平同志 (I, 515). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Deng Xiaoping.'
+    src:
+      c: 606b6cb9
+      rows:
+        - 'w.yang-shangkun-riji I, 515: all'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-06.governors-ia
     when: June 6
     date: '1960-06-06'
+    place: iowa
     thread: governors
     also: [elections-1960]
     c: 'Iowa, governor; Loveless running for the Senate. Republican primary: Erbe, the attorney general, over Schroeder, 81,869 to 75,599, 36.3 percent; Nicholas 68,037, 30.2 percent. Democratic: Lieutenant Governor McManus over Hughes, of the Commerce Commission, 74,990 to 46,542, 61.7 percent.'
@@ -304,6 +473,7 @@ entries:
   - id: cal.1960-06-06.vietnam
     when: June 6
     date: '1960-06-06'
+    place: saigon
     thread: vietnam
     c: 'Durbrow to the State Department, with the USOM''s study of the agroville program: the agglomeration villages "a complete reversal of tradition and the social and economic pattern of the people affected"; the planning done without their participation.'
     n: '[FRUS 1958–60, I, doc. 169](https://history.state.gov/historicaldocuments/frus1958-60v01/d169). [[w.mann-grand-delusion]], 219 (the critique). Names: Durbrow.'
@@ -323,6 +493,7 @@ entries:
   - id: cal.1960-06-06.china-leadership
     when: June 6
     date: '1960-06-06'
+    place: peking
     thread: china-leadership
     also: [congo, africa]
     c: 'Zhou Enlai receives a Congolese party and government delegation under Henri Kasongo: little is known in China of Africa, and he regrets it; Africa has awakened, black Africa has begun to see light; Africa should be the Africans''.'
@@ -331,6 +502,7 @@ entries:
   - id: cal.1960-06-06.china-leadership-2
     when: June 6
     date: '1960-06-06'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the national flag day reception given by the Swedish Ambassador.
@@ -348,6 +520,7 @@ entries:
   - id: cal.1960-06-06.china-leadership-3
     when: June 6
     date: '1960-06-06'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai attends the reception given by the Albanian Ambassador for Lleshi's visit.
@@ -365,6 +538,7 @@ entries:
   - id: cal.1960-06-06.china-leadership-4
     when: June 6
     date: '1960-06-06'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: 'Peking. Zhou Enlai, at the banquet for the delegates to the 11th session of the General Council of the World Federation of Trade Unions: begging peace of imperialism gets none; the modern revisionists spread illusions of peace and blur the line between friend and enemy, to do away with struggle, and must be exposed. Vittorio Novella, Grishin and Benoît Frachon attend.'
@@ -392,6 +566,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 147: all'
     tags: [polity:prc, polity:ussr]
+  - id: cal.1960-06-06.china-leadership-5
+    when: June 6
+    date: '1960-06-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai 周恩来, Peng Zhen 彭真 and others telephone Yang Shangkun 杨尚昆 at Hangzhou 杭州 on the council of the World Federation of Trade Unions 世界工联理事会.
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 6, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Peng Zhen, Yang Shangkun.'
+    src:
+      c: 3b222c28
+      rows:
+        - 'w.yang-shangkun-riji I, 516: all'
+    tags: [polity:prc, name:zhou-enlai, name:peng-zhen, vis:only:prc]
   - id: cal.1960-06-07.elections-1960
     when: June 7
     date: '1960-06-07'
@@ -408,6 +594,7 @@ entries:
   - id: cal.1960-06-07.mississippi-ms
     when: June 7
     date: '1960-06-07'
+    place: mississippi
     thread: mississippi
     also: [state-constitutions, jobs-and-wages]
     c: 'Special election: Mississippi ratifies a right-to-work amendment, Section 198-A: no one to be denied work for membership or nonmembership in a union. Proposed by the legislature Apr. 28 by two-thirds of each house.'
@@ -422,6 +609,7 @@ entries:
   - id: cal.1960-06-07.governors-mt
     when: June 7
     date: '1960-06-07'
+    place: montana
     thread: governors
     also: [elections-1960]
     c: 'Montana''s primary, for governor. Republican: Nutter, once the Republican State chairman, over D''Ewart, once U.S. Representative, 33,099 to 32,538, 50.4 percent, a 561-vote margin. Democratic: Cannon over Toole, 44,690 to 40,537, 34.9 percent; Kuchera 33,216, 25.9 percent.'
@@ -437,6 +625,7 @@ entries:
   - id: cal.1960-06-07.testing
     when: June 7
     date: '1960-06-07'
+    place: geneva
     thread: testing
     also: [soviet-union]
     c: 'Geneva. The Soviet Union''s "Basic Provisions of a Treaty on General and Complete Disarmament": the destruction of all strategic missiles and bombers the first step; "all disarmament measures be carried out under strict international control from beginning to end," foreign inspectors on Soviet soil once the weapons are destroyed.'
@@ -455,18 +644,21 @@ entries:
   - id: cal.1960-06-07.china-leadership
     when: June 7
     date: '1960-06-07'
+    place: hangzhou
     thread: china-leadership
     c: Hangzhou. Mao receives the Albanian parliamentary delegation under Haxhi Lleshi, chairman of the Presidium of the People's Assembly (Xi Zhongxun and Ji Pengfei report their talks first); Saifuddin and Yang Shangkun present. The Japanese–American alliance aimed at China and the Soviet Union; America would isolate China and cannot; at most a tenth of the world against it.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 146 (June 2–22, 1960; the Albanian delegation visits on invitation; Mao receives it at Hangzhou). Made public: 2001. Names: Mao Zedong, Haxhi Lleshi, Xi Zhongxun, Ji Pengfei, Saifuddin, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 146 (June 2–22, 1960; the Albanian delegation visits on invitation; Mao receives it at Hangzhou); [[w.yang-shangkun-riji]], I, 516 (June 7, 1960; 5 to 7 p.m.; Yang with Mao). Made public: 2001. Names: Mao Zedong, Haxhi Lleshi, Xi Zhongxun, Ji Pengfei, Saifuddin, Yang Shangkun.'
     src:
       c: fe4b5059
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 7, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 146: B'
+        - 'w.yang-shangkun-riji I, 516: A'
     tags: [polity:prc, polity:albania, name:mao-zedong, name:ji-pengfei, vis:only:prc+albania]
   - id: cal.1960-06-07.china-leadership-2
     when: June 7
     date: '1960-06-07'
+    place: shanghai
     thread: china-leadership
     c: Zhou Enlai flies to Shanghai.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 7, 1960). Made public: 1997. Names: Zhou Enlai.'
@@ -474,6 +666,7 @@ entries:
   - id: cal.1960-06-07.china-leadership-3
     when: June 7
     date: '1960-06-07'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to see off Lleshi.
@@ -491,6 +684,7 @@ entries:
   - id: cal.1960-06-07.china-leadership-4
     when: June 7
     date: '1960-06-07'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi flies to Shanghai.
@@ -508,6 +702,22 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 232–233: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 232 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-07.china-leadership-6
+    when: June 7
+    date: '1960-06-07'
+    time: 1960-06-07T12:00Z
+    place:
+      - hangzhou
+      - shanghai
+    thread: china-leadership
+    c: Mao's 毛泽东 party leaves Hangzhou 杭州 by train, 8 p.m., and reaches Shanghai 上海 at 11:30; Yang Shangkun 杨尚昆 to the Jinjiang Hotel 锦江饭店, south building, and talks with Zhou Enlai 周恩来.
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 7, 1960). The words: 8时开车去上海，11时半到达 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun, Zhou Enlai.'
+    src:
+      c: fb7ffbf6
+      rows:
+        - 'w.yang-shangkun-riji I, 516: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-08.elections-1960
     when: June 8
     date: '1960-06-08'
@@ -543,6 +753,7 @@ entries:
   - id: cal.1960-06-08.economy-debt-limit
     when: June 8
     date: '1960-06-08'
+    place: washington
     thread: economy-debt-limit
     c: 'House passes the Public Debt and Tax Rate Extension Act, H.R. 12381: the debt limit $8 billion over the permanent $285 billion for fiscal 1961; the corporate rate and the excises extended a year. Closed rule, [204–181](https://voteview.com/rollcall/RH0860143); passed, [223–174](https://voteview.com/rollcall/RH0860144).'
     n: '[106 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt9/pdf/GPO-CRECB-1960-pt9-9-2.pdf) (1960). The thirteen acts, 1960–69: [OMB, *Historical Tables*, Table 7.3](https://www.govinfo.gov/content/pkg/BUDGET-2025-TAB/xls/BUDGET-2025-TAB-8-3.xlsx). To check: [[w.morgan-eisenhower-versus-the-spenders]]; [[w.morgan-deficit-government]]. Check: the page.'
@@ -556,6 +767,7 @@ entries:
   - id: cal.1960-06-08.right-and-the-military
     when: June 8
     date: '1960-06-08'
+    place: phoenix
     thread: right-and-the-military
     also: [goldwater]
     c: Phoenix. Kitchel resigns from the John Birch Society, by letter to Welch, after reading Welch's *The Politician*; a blind copy to Goldwater.
@@ -575,6 +787,7 @@ entries:
   - id: cal.1960-06-08.china-leadership
     when: June 8–18
     date: '1960-06-08'
+    place: shanghai
     thread: china-leadership
     c: 'Shanghai. The enlarged Politburo, Mao presiding, on the supplementary plan for 1960–62 and the world: plans to leave a margin, agriculture the base and to be hurried; the fourteen targets for the three years cut sharply.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8–18, 1960; Liu attends the enlarged Politburo meeting at Shanghai: the international situation, the supplementary plan for the last three years of the Second Five-Year Plan (1960–62), and a summing up of the experience of economic construction). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
@@ -592,16 +805,18 @@ entries:
   - id: cal.1960-06-08.china-leadership-2
     when: June 8
     date: '1960-06-08'
+    place: shanghai
     thread: china-leadership
     also: [soviet-union]
     c: 'Shanghai, the Culture Club. The enlarged Politburo Standing Committee, Mao presiding, on the CPSU''s letter of June 2: a reply to be drafted. Zhou Enlai gives the meeting Mao''s view: no early meeting; in November, sixty-odd parties, a declaration drafted first by the two parties. That evening Yang reports a new letter, June 7: the twelve parties'' meeting put off.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960; [[w.zhou-enlai-nianpu-1949]], II, 325, June 8, 1960 (Zhou at the Standing Committee''s meeting on the reply to the CPSU''s letter); [[w.lengxi-shinian-lunzhan-1956-1966]], 277 (the CPSU letter of June 7; the reply of June 10 sent unchanged, as it already proposed the postponement; the Standing Committee discussed and revised the reply before the Shanghai meeting). Made public: 1997. Names: Mao Zedong, Kang Sheng, Yang Shangkun, Zhou Enlai, Liu Shaoqi, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Ke Qingshi, Li Jingquan, Ulanhu, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960; [[w.zhou-enlai-nianpu-1949]], II, 325, June 8, 1960 (Zhou at the Standing Committee''s meeting on the reply to the CPSU''s letter); [[w.lengxi-shinian-lunzhan-1956-1966]], 277 (the CPSU letter of June 7; the reply of June 10 sent unchanged, as it already proposed the postponement; the Standing Committee discussed and revised the reply before the Shanghai meeting); [[w.yang-shangkun-riji]], I, 516 (June 8, 1960; 3 p.m., at the club, the heads of the great regions there; the letter of June 2 discussed and a reply to be drafted). Made public: 1997. Names: Mao Zedong, Kang Sheng, Yang Shangkun, Zhou Enlai, Liu Shaoqi, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Ke Qingshi, Li Jingquan, Ulanhu, Tao Zhu.'
     src:
       c: a569d8f1
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 8, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 325, June 8, 1960: C'
         - 'w.lengxi-shinian-lunzhan-1956-1966 277: E'
+        - 'w.yang-shangkun-riji I, 516: A, B'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1960-06-08.china-leadership-4
     when: June 8
@@ -639,6 +854,41 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 235 n.1b: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 235 n.1c: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-08.china-leadership-7
+    when: June 8
+    date: '1960-06-08'
+    place: shanghai
+    thread: china-leadership
+    also: [soviet-union]
+    c: Shanghai 上海. Deng Xiaoping 邓小平 calls a meeting on how to answer the Soviet Central Committee's letter of June 2 苏共中央6月2日来信; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 8, 1960). The words: 上午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: 5dec792c
+      rows:
+        - 'w.yang-shangkun-riji I, 516: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-07T22:00Z
+      - 1960-06-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-08.china-leadership-8
+    when: June 8
+    date: '1960-06-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peng Zhen 彭真, by telephone to Yang Shangkun 杨尚昆 at Shanghai 上海: the Soviet party has written again (dated June 6 in the diary): the meeting it proposed is put off; it asks the Chinese Central Committee''s view. Yang reports it to Mao 毛泽东 and the other members of the Standing Committee.'
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 8, 1960). The words: 晚间 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Mao Zedong. Check: the date of the letter: the diary "6月6日苏共又来信"; the calendar has a letter of June 7 ([[cal.1960-06-09.china-leadership]]).'
+    src:
+      c: 72c3badd
+      rows:
+        - 'w.yang-shangkun-riji I, 516: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-06-08T11:00Z
+      - 1960-06-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-09.economy
     when: June 9
     date: '1960-06-09'
@@ -648,6 +898,7 @@ entries:
   - id: cal.1960-06-09.elections-1960
     when: June 9
     date: '1960-06-09'
+    place: nyc
     thread: elections-1960
     also: [king]
     c: 'New York. King and Randolph announce "massive nonviolent picketing" of both national conventions, the "March on the Conventions Movement for Freedom Now." The Civil Rights Act of 1960 "does not meet the needs of abolishing second-class citizenship." Randolph: "more than 5,000" at each convention.'
@@ -670,6 +921,7 @@ entries:
   - id: cal.1960-06-09.elections-1960-2
     when: June 9
     date: '1960-06-09'
+    place: camden-nj
     thread: elections-1960-rockefeller
     c: 'Nixon on Rockefeller''s statement: "he is free to criticize, since it is motivated by his concern over some administrative policies"; it will not hurt his chances; he has set out his policies "with greater precision and in much more detail than the candidates of either party."'
     n: '[[w.gifford-center-cannot-hold]], 47–48. [[w.nixon-six-crises]], 313 (Nixon''s answer to Rockefeller at a press conference at Camden, N.J., June 9; his speeches published the same week as *The Challenges We Face*). To check: *New York Herald Tribune*, June 10, 1960 (cited by [[w.gifford-center-cannot-hold]], 48 n.69). See [[cal.1960-06-08.elections-1960]]. Names: Nixon, Rockefeller. Check: the words; Gifford''s source is the *Herald Tribune* of June 10. Nixon gives the day, June 9, and the place, Camden (313).'
@@ -708,6 +960,7 @@ entries:
   - id: cal.1960-06-09.elections-1960-3
     when: June 9
     date: '1960-06-09'
+    place: washington
     thread: elections-1960-nomination
     c: 'Rauh with Kennedy in a taxi back to the Senate, after a luncheon for McGovern. Kennedy asks him to tell the *New York Post* he is healthy; for second place, "It will be Hubert Humphrey or another Midwestern liberal." Rauh: that relieves his fears about Johnson. Kennedy: "There''s no need for fears." By Rauh''s account, his notes made that day.'
     n: '[[w.mann-walls-of-jericho]], 268–69; [[w.solberg-hubert-humphrey]], 212 ("It will be Hubert or another midwestern liberal"). To check: Joseph L. Rauh Jr., oral history, LBJ Library (cited by [[w.mann-walls-of-jericho]], 268). Names: Rauh, Kennedy, McGovern, Humphrey, Johnson.'
@@ -756,6 +1009,7 @@ entries:
   - id: cal.1960-06-09.vietnam-hanoi
     when: June 9
     date: '1960-06-09'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 211-CT/TW on public health: sickness down since the peace, with the fraternal countries'' help, but the work short of need. In 1960 a deep campaign of exercise, hygiene and prevention; the social diseases, mothers and children, the health of the factories, farms and mountains; cadres trained; the Party to lead.'
     n: '*Chỉ thị của Ban Bí thư số 211-CT/TW về việc tăng cường công tác y tế*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 349–57. Made public: 2002.'
@@ -763,15 +1017,17 @@ entries:
   - id: cal.1960-06-09.china-leadership
     when: June 9
     date: '1960-06-09'
+    place: shanghai
     thread: china-leadership
     also: [soviet-union]
     c: 'Shanghai. The enlarged Standing Committee, Mao presiding, on the reply to the CPSU''s letters of June 2 and 7: a delegation under Peng Zhen, with Kang Sheng and Wang Jiaxiang, to the Romanian party''s congress, June 20–25, and the twelve parties'' talks. Mao: be ready to be attacked, the summit''s failure blamed on China, and to be courted.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 9, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (before the meeting closed the Standing Committee named Peng Zhen to lead the delegation to the Romanian congress and the meeting of the parties at Bucharest). Made public: 1999. Names: Mao Zedong, Peng Zhen, Kang Sheng, Wang Jiaxiang, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Chen Yi, Li Fuchun, He Long, Li Xiannian, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 9, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (before the meeting closed the Standing Committee named Peng Zhen to lead the delegation to the Romanian congress and the meeting of the parties at Bucharest); [[w.yang-shangkun-riji]], I, 516–517 (June 9, 1960; 3:30 p.m., Mao''s Standing Committee on the reply; Peng Zhen, Kang Sheng and Wang Jiaxiang to go to the Romanian party''s congress). Made public: 1999. Check: the second Soviet letter: the diary dates it June 6 ([[w.yang-shangkun-riji]], I, 516). Names: Mao Zedong, Peng Zhen, Kang Sheng, Wang Jiaxiang, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Chen Yi, Li Fuchun, He Long, Li Xiannian, Luo Ruiqing.'
     src:
       c: a60e73ac
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 9, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278: B'
+        - 'w.yang-shangkun-riji I, 516–517: A'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:kang-sheng, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:chen-yi, name:li-fuchun, name:he-long, name:li-xiannian, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-06-09.china-leadership-2
     when: June 9
@@ -785,9 +1041,60 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 234–235: all'
     tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1960-06-09.china-leadership-3
+    when: June 9
+    date: '1960-06-09'
+    place: shanghai
+    thread: china-leadership
+    also: [soviet-union]
+    c: Shanghai 上海. Deng Xiaoping 邓小平 calls Yang Shangkun 杨尚昆 and others on drafting a new reply to the Soviet Central Committee.
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 9, 1960). The words: 上午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: 572f3337
+      rows:
+        - 'w.yang-shangkun-riji I, 516: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-08T22:00Z
+      - 1960-06-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-09.china-leadership-4
+    when: June 9
+    date: '1960-06-09'
+    place: shanghai
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-06-09.china-leadership-3
+    c: Shanghai 上海. Kang Sheng 康生, Wu Lengxi 吴冷西 and Yang Shangkun 杨尚昆 draft the reply to the Soviet Central Committee.
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 9, 1960). The words: 中午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Wu Lengxi, Yang Shangkun.'
+    src:
+      c: ddf52622
+      rows:
+        - 'w.yang-shangkun-riji I, 516: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+  - id: cal.1960-06-09.china-leadership-5
+    when: June 9
+    date: '1960-06-09'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 telephones the decision on the Romanian congress to Peng Zhen 彭真.
+    n: '[[w.yang-shangkun-riji]], I, 517 (June 9, 1960). The words: 晚间 (I, 517). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: 5139e131
+      rows:
+        - 'w.yang-shangkun-riji I, 517: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1960-06-09T11:00Z
+      - 1960-06-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-10.japan-and-korea
     when: June 10
     date: '1960-06-10'
+    place: tokyo
     thread: japan-and-korea-treaty
     c: Hagerty, at Haneda to prepare the President's visit, rides into Tokyo with MacArthur. Demonstrators stop the car and beat on it; a Marine helicopter lifts them out.
     n: 'FRUS 1958–60, XVIII, docs. [173](https://history.state.gov/historicaldocuments/frus1958-60v18/d173) (MacArthur to Goodpaster), [176](https://history.state.gov/historicaldocuments/frus1958-60v18/d176). See [[cal.1960-01-19.japan-and-korea]]. Names: Hagerty, MacArthur, Eisenhower.'
@@ -841,14 +1148,49 @@ entries:
   - id: cal.1960-06-10.china-leadership-2
     when: June 10
     date: '1960-06-10'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: 'Shanghai. Liu Shaoqi presides at the symposium of the regions'', provinces'', cities'' and central departments'' chief officials. He opens: in the last half-year the work has had serious problems, in grain, dropsy, abnormal deaths, accidents and the fulfillment of the plan. Everyone wants more and faster, a bigger plate, more construction; the plan has been too high, the demands too urgent, the press too loud, and the Center is included. The Lushan meeting meant to sum this up, but the Peng Dehuai affair pushed it aside. If not corrected the problems, now one finger, may grow to two or three.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488–489 (June 10, 1960). Made public: 1996. Names: Liu Shaoqi, Peng Dehuai.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488–489 (June 10, 1960); [[w.yang-shangkun-riji]], I, 517 (June 10, 1960; morning and afternoon, unfinished). Made public: 1996. Names: Liu Shaoqi, Peng Dehuai.'
+    src:
+      c: 4ca6c856
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488–489: ?'
+        - 'w.yang-shangkun-riji I, 517: A'
     tags: [polity:prc, name:liu-shaoqi, name:peng-dehuai, vis:only:prc]
+  - id: cal.1960-06-10.china-leadership-3
+    when: June 10
+    date: '1960-06-10'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Wang Jiaxiang 王稼祥.
+    n: '[[w.yang-shangkun-riji]], I, 517 (June 10, 1960). The words: 晚间 (I, 517). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Jiaxiang.'
+    src:
+      c: 1fe243bf
+      rows:
+        - 'w.yang-shangkun-riji I, 517: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-10T11:00Z
+      - 1960-06-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-10.china-leadership-4
+    when: June 10
+    date: '1960-06-10'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 swims before bed.
+    n: '[[w.yang-shangkun-riji]], I, 517 (June 10, 1960). The words: 游泳后睡觉已2时了 (I, 517). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b76be2a8
+      rows:
+        - 'w.yang-shangkun-riji I, 517: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-06-11.europe-and-the-alliance-turkey
     when: June 11
     date: '1960-06-11'
+    place: washington
     thread: europe-and-the-alliance-turkey
     also: [middle-east]
     c: Eisenhower's letter to Gursel, at the new government's request for a statement of solidarity.
@@ -887,23 +1229,31 @@ entries:
   - id: cal.1960-06-11.china-leadership
     when: June 11
     date: '1960-06-11'
+    place: shanghai
     thread: china-leadership
     also: [soviet-union]
     c: 'Shanghai. Mao with Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng and Wang Jiaxiang on the delegation to Bucharest. Its line in six phrases: hold to unity, hold to principle, learn the facts, strike after being struck, argue with reason, leave room.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278–279 (Peng Zhen, left in Peking, called to Shanghai after the delegation was chosen, joined the Standing Committee''s talk on its line; Mao''s six phrases as Peng later told Wu). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng, Wang Jiaxiang, Wu Xiuquan, Xu Jianguo, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278–279 (Peng Zhen, left in Peking, called to Shanghai after the delegation was chosen, joined the Standing Committee''s talk on its line; Mao''s six phrases as Peng later told Wu); [[w.yang-shangkun-riji]], I, 517 (June 11, 1960; 5:30 p.m., Mao''s Standing Committee; Peng Zhen and Wang Jiaxiang arrived, the journey abroad talked over at Mao''s). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng, Wang Jiaxiang, Wu Xiuquan, Xu Jianguo, Khrushchev.'
     src:
       c: a95d6437
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 11, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278–279: B, C'
+        - 'w.yang-shangkun-riji I, 517: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc]
   - id: cal.1960-06-11.china-leadership-2
     when: June 11
     date: '1960-06-11'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: 'Shanghai. Liu Shaoqi presides at the symposium again. Interjecting in Ke Qingshi''s speech: can the masses elect the cadres they dislike, or is election a form; the Soviet experience calls for more restraint on privilege; differences of treatment follow differences of need, and those who get higher treatment should not arrange it themselves. In Wang Renzhong''s: big harvests mean heavy accumulation, small ones light; to pile up in a great disaster against the objective law. He closes: keep up drive, strive upward, but start from the real situation.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 11, 1960). Made public: 1996. Names: Liu Shaoqi, Ke Qingshi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 11, 1960); [[w.yang-shangkun-riji]], I, 517 (June 11, 1960; the symposium all day). Made public: 1996. Names: Liu Shaoqi, Ke Qingshi.'
+    src:
+      c: e79309da
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 489: ?'
+        - 'w.yang-shangkun-riji I, 517: A'
     tags: [polity:prc, name:liu-shaoqi, name:ke-qingshi, vis:only:prc]
   - id: cal.1960-06-12.japan-and-korea
     when: June 12–16
@@ -916,6 +1266,7 @@ entries:
   - id: cal.1960-06-12.elections-1960
     when: June 12
     date: '1960-06-12'
+    place: hyannis-port
     thread: elections-1960-nomination
     c: 'Hyannis Port. Kennedy tells Galbraith and Schlesinger he is for Humphrey for Vice President; he has asked Reuther and Conway to sound Humphrey. Later in the month, to Clifford: Symington his first choice.'
     n: '[[w.schlesinger-robert-kennedy-and-his]], 206–07; [[w.schlesinger-journals]], 70–71 (Hyannis Port on Sunday, June 12, with Galbraith, Marian Schlesinger and Schlesinger from noon to about 4: Kennedy "regards Johnson as his main opponent now," calls him a "riverboat gambler," and on Addison''s disease says he takes medication only at times of fatigue or stress; not the vice presidency, Humphrey, Reuther or Conway). To check: Schlesinger, journal, June 12, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.68); Clark Clifford, oral history interview by L. J. Hackman, Dec. 16, 1974, 23, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 207 n.69). Check: the day of the talk with Clifford. Names: Kennedy, Galbraith, Schlesinger, Humphrey, Reuther, Clifford, Symington.'
@@ -939,11 +1290,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Center to Wu Xiuquan: tell the Soviet Ambassador at once, for the CPSU, the delegation to the Romanian party''s congress: Peng Zhen at its head; Kang Sheng, Wang Jiaxiang and Xu Jianguo, the Ambassador to Romania. At Moscow June 16 for two days, at Bucharest June 19; if the CPSU agrees, talks with Khrushchev first on the parties'' meeting and the main questions.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960, note 88. Made public: 2013. Names: Wu Xiuquan, Peng Zhen, Kang Sheng, Wang Jiaxiang, Xu Jianguo, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960, note 88. Made public: 2013. Check: the delegation: by the Yang Shangkun riji, June 14, Wang Jiaxiang, ill, could not go, and Deng Xiaoping sent Wu Xiuquan instead ([[w.yang-shangkun-riji]], I, 518). Names: Wu Xiuquan, Peng Zhen, Kang Sheng, Wang Jiaxiang, Xu Jianguo, Khrushchev.'
     tags: [polity:prc, polity:ussr, name:peng-zhen, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc+ussr]
   - id: cal.1960-06-12.china-leadership-2
     when: June 12
     date: '1960-06-12'
+    place: shanghai
     thread: china-leadership
     also: [soviet-union]
     c: Shanghai. Liu Shaoqi informs the work conference of the Standing Committee's view of the CPSU's letters and of China's reply.
@@ -956,14 +1308,55 @@ entries:
   - id: cal.1960-06-12.china-leadership-3
     when: June 12
     date: '1960-06-12'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: Shanghai. Liu Shaoqi presides at the plenary meeting of the enlarged Politburo and hears Li Fuchun's report on the supplementary plan for the last three years of the Second Five-Year Plan.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 12, 1960). Made public: 1996. Names: Liu Shaoqi, Li Fuchun. Check: whether the same session as Liu''s report to the work conference on the Standing Committee''s view of the CPSU''s letters ([[cal.1960-06-12.china-leadership-2]]).'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 12, 1960); [[w.yang-shangkun-riji]], I, 517 (June 12, 1960; the formal meeting, the morning). Made public: 1996. Names: Liu Shaoqi, Li Fuchun. Check: whether the same session as Liu''s report to the work conference on the Standing Committee''s view of the CPSU''s letters ([[cal.1960-06-12.china-leadership-2]]).'
+    src:
+      c: f6586843
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 489: ?'
+        - 'w.yang-shangkun-riji I, 517: A'
     tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-06-12.china-leadership-4
+    when: June 12
+    date: '1960-06-12'
+    place: shanghai
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Liu Lantao 刘澜涛 from Shanghai 上海.
+    n: '[[w.yang-shangkun-riji]], I, 517 (June 12, 1960). The words: 下午 (I, 517). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Lantao.'
+    src:
+      c: f360a3cf
+      rows:
+        - 'w.yang-shangkun-riji I, 517: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-12T04:00Z
+      - 1960-06-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-12.china-leadership-5
+    when: June 12
+    date: '1960-06-12'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 with Kang Sheng 康生 at his lodging, to 1:30 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 517 (June 12, 1960). The words: 到康生同志处谈话至1时半 (I, 517). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: d9912986
+      rows:
+        - 'w.yang-shangkun-riji I, 517: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1960-06-12T14:00Z
+      - 1960-06-12T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-13.china-leadership
     when: June 13
     date: '1960-06-13'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: 'Shanghai, the Culture Club. Mao''s meeting (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing): the targets of the supplementary plan lowered and the plan redone; shelling Quemoy.'
@@ -994,9 +1387,27 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 239–240: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-13.china-leadership-5
+    when: June 13
+    date: '1960-06-13'
+    place: shanghai
+    thread: china-leadership
+    c: 'Shanghai 上海, the enlarged Politburo: the Southwest and Northwest group 西南、西北小组 on the plan; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 517 (June 13, 1960). The words: 下午 (I, 517). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 5419ba99
+      rows:
+        - 'w.yang-shangkun-riji I, 517: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-13T04:00Z
+      - 1960-06-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-14.elections-1960
     when: June 14
     date: '1960-06-14'
+    place: washington
     thread: elections-1960-nomination
     also: [soviet-union]
     c: 'Kennedy in the Senate, "A Time of Decision," after Paris: the real issue not "the ill-considered timing of the U-2" but "the lack of long-range preparation, the lack of policy planning." A program in twelve points: the deterrent, forces for limited war, NATO, aid to the poorer nations with Western Europe and Japan, Latin America, the Middle East, Africa, Berlin, Eastern Europe, China, arms control, a stronger America. Mansfield, Humphrey, Gore, Church, Capehart and Gruening in colloquy.'
@@ -1014,6 +1425,7 @@ entries:
   - id: cal.1960-06-14.states-and-cities
     when: June 14–16
     date: '1960-06-14'
+    place: washington
     thread: states-and-cities
     also: [amendments, electoral-college]
     c: 'Twenty-third Amendment through Congress. The House passes Judiciary''s text, June 14, by voice. June 16: the Senate puts it into S.J. Res. 39 and adopts it, by voice. Electors for the District, no more than the least populous State''s. The Senate''s poll-tax ban and emergency appointments to the House dropped.'
@@ -1022,17 +1434,29 @@ entries:
   - id: cal.1960-06-14.china-leadership
     when: June 14
     date: '1960-06-14'
+    place: shanghai
     thread: china-leadership
     c: 'Shanghai, the enlarged Politburo. Mao: the targets to be set again (Li Fuchun: steel 30 million tons, grain 600 billion jin in 1962); set them low and beat them in the year, as the Eighth Congress''s plan of 1956 did, its best part the low targets.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960. Made public: 2013. Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960; [[w.yang-shangkun-riji]], I, 518 (June 14, 1960; the plenary, 3:30 to 6 p.m.; Mao''s views on planning). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 518), before the year the note gives. Names: Mao Zedong, Li Fuchun.'
+    src:
+      c: 8824ffb3
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, June 14, 1960: all'
+        - 'w.yang-shangkun-riji I, 518: A'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-14.china-leadership-2
     when: June 14
     date: '1960-06-14'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: Shanghai. Liu Shaoqi presides at the symposium of the regions', provinces', cities' and central departments' officials, on the supplementary plan for the last three years of the Second Five-Year Plan.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 14, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 14, 1960); [[w.yang-shangkun-riji]], I, 518 (June 14, 1960; the morning; Liu, Deng and Zhou speak, proposing to lower the targets). Made public: 1996. Names: Liu Shaoqi.'
+    src:
+      c: a2872a0d
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 489: ?'
+        - 'w.yang-shangkun-riji I, 518: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-14.china-leadership-3
     when: June 14
@@ -1047,9 +1471,44 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 241 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 241 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
+  - id: cal.1960-06-14.china-leadership-4
+    when: June 14
+    date: '1960-06-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Wang Jiaxiang 王稼祥, ill, cannot go to the Romanian party's congress; Deng Xiaoping 邓小平 decides that Wu Xiuquan 伍修权 go in his place. Yang Shangkun 杨尚昆 telephones Peng Zhen 彭真 and Liu Lantao 刘澜涛.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 14, 1960). The words: 晚间 (I, 518). See [[cal.1960-06-12.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Jiaxiang, Deng Xiaoping, Wu Xiuquan, Yang Shangkun, Peng Zhen, Liu Lantao.'
+    src:
+      c: 8538286e
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1960-06-14T11:00Z
+      - 1960-06-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-14.china-leadership-5
+    when: June 14
+    date: '1960-06-14'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 swims ten lengths of the pool, fifty minutes.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 14, 1960). The words: 在游泳池游了10圈（50分钟） (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f507b130
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-14T11:00Z
+      - 1960-06-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-15.japan-and-korea
     when: June 15–16
     date: '1960-06-15'
+    place: tokyo
     thread: japan-and-korea-treaty
     c: 'Tokyo. Zengakuren students force their way into the Diet''s grounds; a woman student, Kanba Michiko, killed, some 600 hurt. June 16: Kishi''s cabinet asks that the President''s visit be put off. Eisenhower, in Manila, agrees.'
     n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181), [182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182), [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183), [184](https://history.state.gov/historicaldocuments/frus1958-60v18/d184) (Eisenhower to Kishi). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day; not the students, the dead or Manila). See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi, Eisenhower, Kanba.'
@@ -1075,9 +1534,93 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 246 n.1c: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 246 n.1d: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-15.china-leadership-2
+    when: June 15
+    date: '1960-06-15'
+    place: shanghai
+    thread: china-leadership
+    c: 'Shanghai 上海, the enlarged Politburo: the cooperation regions 各协作区 meet on the plan, morning and afternoon.'
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 15, 1960). The words: 今天上午、下午均由各协作区开会 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 2e258208
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-14T22:00Z
+      - 1960-06-15T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-15.china-leadership-3
+    when: June 15
+    date: '1960-06-15'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 asks Deng Xiaoping's 邓小平 instructions on several questions, then telephones Liu Lantao 刘澜涛 several times.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 15, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Liu Lantao.'
+    src:
+      c: cac6d5e3
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-06-15.china-leadership-4
+    when: June 15
+    date: '1960-06-15'
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: Shanghai 上海. Mao 毛泽东 calls Yang Shangkun 杨尚昆 to talk about shelling Quemoy 金门打炮 (on the eve of Eisenhower's visit to Taiwan and at his leaving, the shelling of the 17th and 19th, by the editors' note).
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 15, 1960). The words: 晚间……主席找去谈金门打炮问题 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 3ff397e5
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-06-15T14:00Z
+      - 1960-06-15T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-15.china-leadership-5
+    when: June 15
+    date: '1960-06-15'
+    place: shanghai
+    thread: china-leadership
+    follows:
+      - cal.1960-06-15.china-leadership-4
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 with Li Fuchun 李富春.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 15, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun.'
+    src:
+      c: 4bd4eb26
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1960-06-15T14:00Z
+      - 1960-06-15T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-15.china-leadership-6
+    when: June 15
+    date: '1960-06-15'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 swims four lengths, before Mao 毛泽东 sends for him.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 15, 1960). The words: 游泳4转后，主席找去谈 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: 2a1a528f
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-06-15T11:00Z
+      - 1960-06-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-16.democratic-party
     when: June 16
     date: '1960-06-16'
+    place: nyc
     thread: democratic-party
     also: [elections-1960]
     c: New York. The DeSapio–Prendergast leadership leaves Lehman, once the State's governor, off its delegation to the national convention.
@@ -1090,6 +1633,7 @@ entries:
   - id: cal.1960-06-16.elections-1960
     when: June 16
     date: '1960-06-16'
+    place: nyc
     thread: elections-1960-nomination
     c: 'New York, the lawn of Gracie Mansion. Wagner''s reception for Kennedy: the reform Democrats on one side, the Tammany leaders on the other, in line to shake his hand.'
     n: '[[w.white-making-of-the-president]], 141. See [[cal.1960-06-16.democratic-party]]. Names: Wagner, Kennedy.'
@@ -1107,6 +1651,7 @@ entries:
   - id: cal.1960-06-16.elections-1960-2
     when: June 16
     date: '1960-06-16'
+    place: new-york-state
     thread: elections-1960-rockefeller
     c: 'New York. Hinman with Brinton, the San Francisco lawyer of California''s Citizens for Rockefeller. Draft committees in at least twenty States; the money from names Hinman gives; a loan from the Bank of San Francisco: the National Citizens Committee for Rockefeller.'
     n: '[[w.smith-on-his-own-terms]], 342. See [[cal.1960-06-27.elections-1960-2]]. Names: Hinman.'
@@ -1124,6 +1669,7 @@ entries:
   - id: cal.1960-06-16.cuba
     when: June 16
     date: '1960-06-16'
+    place: moscow
     thread: cuba
     also: [soviet-union]
     c: 'Khrushchev to Castro, by the Presidium''s decision: "The Cuban republic today leads the anti-imperialist struggle in Latin America. In this serious struggle, the Cuban people can count on the sympathy and the support of the Soviet people." Later that week Núñez Jiménez, in Moscow, told Cuba will get 100,000 more rifles than asked and tanks it had not asked for.'
@@ -1168,6 +1714,7 @@ entries:
   - id: cal.1960-06-16.vietnam-hanoi
     when: June 16
     date: '1960-06-16'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi: directive no. 212-CT/TW on cooperatives in sea fishing along the North''s more than 800 kilometers of coast, important for the economy, politics and defense. The coastal reform done but in Hải Ninh; the boat owners'' exploitation to be ended by stages: fishing teams, lower and higher fishing cooperatives, fishing-farming cooperatives; the Party''s class line on the coast, shares, technique.'
     n: '*Chỉ thị của Bộ Chính trị số 212-CT/TW về việc tiến hành hợp tác hóa nghề cá ở miền biển*, signed for the Politburo by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 358–75. Made public: 2002.'
@@ -1175,14 +1722,21 @@ entries:
   - id: cal.1960-06-16.china-leadership
     when: June 16
     date: '1960-06-16'
+    place: shanghai
     thread: china-leadership
     also: [china, japan-and-korea-far-east]
     c: Shanghai. The enlarged Standing Committee, Mao presiding (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing), on shelling Quemoy before and after Eisenhower's visit to Taiwan.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, and note 90. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing, Eisenhower.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, and note 90; [[w.yang-shangkun-riji]], I, 519 (June 16, 1960; 7 to 8:30 p.m.; the shelling of Quemoy). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 519), before the year the note gives. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing, Eisenhower.'
+    src:
+      c: 2ee73fe5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, June 16, 1960, and note 90: all'
+        - 'w.yang-shangkun-riji I, 519: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:nie-rongzhen, name:luo-ruiqing, name:eisenhower-dwight-d, vis:only:prc]
   - id: cal.1960-06-16.soviet-union
     when: June 16
     date: '1960-06-16'
+    place: moscow
     thread: soviet-union
     also: [china-leadership]
     c: Moscow. Peng Zhen's delegation, left Peking that day, meets Kozlov of the Presidium for eight hours of argument. Kozlov faults the three Lenin articles and the Peking trade-union meeting, in theory and in organization, a typed document of some twenty pages in hand; asked how the Bucharest meeting is to go, he says it will be settled there. The delegation cables that it is not a good sign.
@@ -1200,6 +1754,40 @@ entries:
     c: 'Liu Shaoqi writes the editor''s note for the article of the Chengdu measuring and cutting tools plant''s Party committee, "A new-type system of socialist enterprise management," for *Renmin ribao*, and sends the paper with a letter to Li Jingquan and Li Xuefeng. The note: the "two participations, one reform, three combinations" has made important progress these two years, a very welcome thing; plants and mines able to are to spread the Chengdu experience and others to create the conditions; two conditions: cadres follow the mass line and take part in labor, and workers'' political awareness lets them treat state enterprises as masters. Note and article appear in *Renmin ribao* June 24.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489–490 (June 16, 1960). Footnote 1 (489) gives Li Jingquan as then Sichuan Party secretary. Made public: 1996. To check: *Renmin ribao*, June 24, 1960, the editor''s note and the Chengdu plant''s article (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490). Names: Liu Shaoqi, Li Jingquan.'
     tags: [polity:prc, name:liu-shaoqi, name:li-jingquan, vis:only:prc]
+  - id: cal.1960-06-16.china-leadership-3
+    when: June 16
+    date: '1960-06-16'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. The Secretariat 书记处 on the revised draft of Li Fuchun's 李富春 report to the third session.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 16, 1960). The words: 上午 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun. Check: which third session: the page reads 人大三次代表会.'
+    src:
+      c: cef4dc57
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1960-06-15T22:00Z
+      - 1960-06-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-16.china-leadership-4
+    when: June 16
+    date: '1960-06-16'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 with Huang Shuze 黄树则.
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 16, 1960). The words: 下午 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Huang Shuze.'
+    src:
+      c: 732d5d56
+      rows:
+        - 'w.yang-shangkun-riji I, 518: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-16T04:00Z
+      - 1960-06-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-17.elections-1960-rockefeller
     when: June 17
     date: '1960-06-17'
@@ -1222,6 +1810,7 @@ entries:
   - id: cal.1960-06-17.china-leadership
     when: June 17
     date: '1960-06-17'
+    place: shanghai
     thread: china-leadership
     c: 'Shanghai. Mao''s meeting with Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo on the adjusted supplementary plan, its targets cut at his word: to be adjusted again, "to take the initiative."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, June 17, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (Mao speaks at the meeting on industry, commerce, agriculture and the communes). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo.'
@@ -1251,9 +1840,44 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 147: all'
     tags: [polity:prc, polity:denmark, name:chen-yi, vis:only:prc+denmark]
+  - id: cal.1960-06-17.china-leadership-4
+    when: June 17
+    date: '1960-06-17'
+    place: shanghai
+    thread: china-leadership
+    c: 'Shanghai 上海, the enlarged Politburo: the Northwest group 西北小组 on Li Fuchun''s 李富春 report; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 519 (June 17, 1960). The words: 上午 (I, 519). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: 1ef0b1cb
+      rows:
+        - 'w.yang-shangkun-riji I, 519: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1960-06-16T22:00Z
+      - 1960-06-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-17.china-leadership-5
+    when: June 17
+    date: '1960-06-17'
+    place: shanghai
+    thread: china-leadership
+    c: 'Shanghai 上海, the enlarged Politburo in plenary 大会: the Planning Commission''s new scheme, compressed on Mao''s 毛泽东 instructions.'
+    n: '[[w.yang-shangkun-riji]], I, 519 (June 17, 1960). The words: 下午 (I, 519). See [[cal.1960-06-17.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong.'
+    src:
+      c: dcd68385
+      rows:
+        - 'w.yang-shangkun-riji I, 519: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-06-17T04:00Z
+      - 1960-06-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-18.japan-and-korea-far-east
     when: June 18–19
     date: '1960-06-18'
+    place: taipei
     thread: japan-and-korea-far-east
     c: 'Eisenhower in Taipei: Chiang. Quemoy shelled during the visit.'
     n: 'Joint Statement Following Discussions With President Chiang Kai-shek, [1960–61 Pub. Papers 509](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=561) (June 19, 1960). FRUS 1958–60, XIX, docs. [336](https://history.state.gov/historicaldocuments/frus1958-60v19/d336), [337](https://history.state.gov/historicaldocuments/frus1958-60v19/d337). [[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, note 90 (the shelling, June 17 and 19). See [[cal.1960-06-12.japan-and-korea]]. Names: Eisenhower, Chiang Kai-shek.'
@@ -1279,23 +1903,55 @@ entries:
   - id: cal.1960-06-18.china-leadership-2
     when: June 18
     date: '1960-06-18'
+    place: shanghai
     thread: china-leadership
     c: 'Shanghai, the enlarged Politburo''s closing session; Mao speaks. Targets for 1962 to the Eighth Congress''s third session: steel 28.5 million tons (not the inner 32), iron 32, coal 500, electricity 85 billion kwh, fertilizer 4.5 million tons; Zhou Enlai: grain about 550 billion jin, cotton 45 million dan. "Do more, say less." On the "Ten-Year Summary": Soviet experience fit for China still to be copied.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (Mao''s talk "Ten-Year Summary" takes up relations with the CPSU: anti-revisionist propaganda to pause June to September; no polemic like the Lenin articles for four months; prepare for the fight at the parties'' meeting). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (Mao''s talk "Ten-Year Summary" takes up relations with the CPSU: anti-revisionist propaganda to pause June to September; no polemic like the Lenin articles for four months; prepare for the fight at the parties'' meeting); [[w.yang-shangkun-riji]], I, 519 (June 18, 1960; 5 to 7:30 p.m.; Mao: "less blindness, more necessity, that is, less passivity, more initiative"; the Shanghai meeting then ends). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Li Fuchun.'
     src:
       c: af7d69f0
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 18, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278: B'
+        - 'w.yang-shangkun-riji I, 519: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-18.china-leadership-3
     when: June 18
     date: '1960-06-18'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: 'Shanghai. Liu Shaoqi speaks at the enlarged Politburo meeting. The Center and the provinces now agree that agriculture is the base, but capital construction is still not settled: too many want more of it and will not hold back, and the rush to start projects will keep the economy passive. How many projects are started must follow how much material and labor there is, and they are to be finished one battle after another, one by one.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490 (June 18, 1960). Made public: 1996. See [[cal.1960-06-18.china-leadership-2]]. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-06-18.china-leadership-4
+    when: June 18
+    date: '1960-06-18'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 at the Huadong Hospital 华东医院 for a physical examination.
+    n: '[[w.yang-shangkun-riji]], I, 519 (June 18, 1960). The words: 上午 (I, 519). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6a53770f
+      rows:
+        - 'w.yang-shangkun-riji I, 519: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-17T22:00Z
+      - 1960-06-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-18.china-leadership-5
+    when: June 18
+    date: '1960-06-18'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海, the Shanghai Mansions 上海大厦, 17th floor. Ke Qingshi 柯庆施 has Yang Shangkun 杨尚昆 and others to a Yangzhou lunch.
+    n: '[[w.yang-shangkun-riji]], I, 519 (June 18, 1960). The words: 中午 (I, 519). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ke Qingshi, Yang Shangkun.'
+    src:
+      c: fbc80e1c
+      rows:
+        - 'w.yang-shangkun-riji I, 519: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
   - id: cal.1960-06-19.japan-and-korea-far-east
     when: June 19–20
     date: '1960-06-19'
@@ -1307,6 +1963,7 @@ entries:
   - id: cal.1960-06-19.king
     when: June 19
     date: '1960-06-19'
+    place: buffalo
     thread: king
     also: [elections-1960]
     c: 'Buffalo, to the National Sunday School and Baptist Training Union Congress, which King addressed the day before. Powell: King and Randolph "captives"; King controlled by Rustin, Randolph "guided principally" by Levison. Against the picketing of the conventions.'
@@ -1342,6 +1999,7 @@ entries:
   - id: cal.1960-06-20.court
     when: June 20
     date: '1960-06-20'
+    place: washington
     thread: court
     c: '*Hannah v. Larche*, [363 U.S. 420](https://tile.loc.gov/storage-services/service/ll/usrep/usrep363/usrep363420/usrep363420.pdf): the Civil Rights Commission may hear complaints against Louisiana registrars without naming the complainants or allowing cross-examination. *Flemming v. Nestor*, [363 U.S. 603](https://tile.loc.gov/storage-services/service/ll/usrep/usrep363/usrep363603/usrep363603.pdf): Congress may end the Social Security benefits of an alien deported for past Communist membership, 5–4. The Steelworkers trilogy, [363 U.S. 564](https://tile.loc.gov/storage-services/service/ll/usrep/usrep363/usrep363564/usrep363564.pdf): the courts to send grievances under labor contracts to arbitration.'
     n: 'The Court''s 1960 decisions: [[w.schwartz-super-chief]]. On *Hannah*: [[w.dulles-civil-rights-commission-1957]]. To check: [[w.powe-warren-court-and-american]].'
@@ -1354,6 +2012,7 @@ entries:
   - id: cal.1960-06-20.economy-debt-limit
     when: June 20
     date: '1960-06-20'
+    place: washington
     thread: economy-debt-limit
     c: Senate passes H.R. 12381, [84–0](https://voteview.com/rollcall/RS0860364). The Finance Committee's amendments repealing the 10 percent taxes on local telephone service and on passenger transportation rejected, [30–54](https://voteview.com/rollcall/RS0860355), [29–55](https://voteview.com/rollcall/RS0860356); McCarthy's, repealing the 4 percent dividend credit, adopted, [42–41](https://voteview.com/rollcall/RS0860357).
     n: '[106 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-6-1.pdf) (1960). The Senate sat from noon to 11:58 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D371](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=369). See [[cal.1960-06-08.economy-debt-limit]]. Names: McCarthy. Check: the page.'
@@ -1383,6 +2042,7 @@ entries:
   - id: cal.1960-06-20.soviet-union
     when: June 20–25
     date: '1960-06-20'
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest. The Romanian Workers'' Party''s third congress, June 20–25. Khrushchev''s long speech is cheered; Peng Zhen''s greeting, on the views of the three Lenin articles, is applauded by the hall and coldly met on the platform. The Chinese delegation is shut off: other delegations do not call, the Romanian liaison will not say where they stay, visits are not arranged.'
@@ -1404,6 +2064,22 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 253–254: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 253 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:jiang-qing, name:montgomery-of-alamein-bernard-l, vis:only:prc]
+  - id: cal.1960-06-20.china-leadership-2
+    when: June 20
+    date: '1960-06-20'
+    time: 1960-06-20T04:30Z
+    place:
+      - shanghai
+      - peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, Deng Xiaoping 邓小平 and Li Fuchun 李富春 leave Shanghai 上海 by train, 12:30 p.m.; at Peking 北京 at 5:30 p.m., June 21. Drought severe in Shandong 山东, some in Hebei 河北. Yang's journey with Mao, Apr. 27–June 21, fifty-five days.
+    n: '[[w.yang-shangkun-riji]], I, 519 (June 20, 1960). The words: 12时半与小平、富春一同乘火车离上海……下午5时半火车到北京 (I, 519). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Li Fuchun.'
+    src:
+      c: e4385e3d
+      rows:
+        - 'w.yang-shangkun-riji I, 519: all'
+    tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-21.latin-america-dominican-republic
     when: June 21
     date: '1960-06-21'
@@ -1414,6 +2090,7 @@ entries:
     when: June 21
     date: '1960-06-21'
     time: 1960-06-21T11:30Z
+    place: shanghai
     thread: china-leadership
     also: [japan]
     c: Shanghai. Mao and Zhou Enlai receive the Japanese writers' delegation under Noma Hiroshi; Ke Qingshi present. The Japanese people's fight against the security treaty, against America and its agent Kishi, larger than anyone expected last year; the strikes political.
@@ -1440,9 +2117,27 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 255–256: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 255 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:montgomery-of-alamein-bernard-l, vis:only:prc]
+  - id: cal.1960-06-21.china-leadership-3
+    when: June 21
+    date: '1960-06-21'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at the pool with Li Bozhao 李伯钊 and their daughter after dinner, till 9.
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 21, 1960). The words: 晚饭后，与伯钊、小妞去游泳池，到9时始回 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: 85cc24c3
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-21T11:00Z
+      - 1960-06-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-22.japan-and-korea
     when: June 22–23
     date: '1960-06-22'
+    place: washington
     thread: japan-and-korea-treaty
     c: 'Senate consents to the security treaty with Japan, [11 U.S.T. 1632](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-11-2/lltreaties-11-2.pdf#page=340), [373 U.N.T.S. 179](https://treaties.un.org/doc/Publication/UNTS/Volume%20373/v373.pdf#page=195), [90–2](https://voteview.com/rollcall/RS0860367). In Japan the Diet''s approval complete June 19, the upper house not having voted. June 23: ratifications exchanged in Tokyo, the treaty in force; Kishi announces he will resign.'
     n: '[FRUS 1958–60, XVIII, doc. 185](https://history.state.gov/historicaldocuments/frus1958-60v18/d185) (MacArthur to Herter, June 17: Kishi, the treaty to be "ratified by upper house automatically at midnight of June 18," an affirmative vote possible). Senate Exec. E, 86th Cong., 2d Sess. [FRUS 1958–60, XVIII, doc. 190](https://history.state.gov/historicaldocuments/frus1958-60v18/d190) (MacArthur, June 24). [[w.watson-into-the-missile-age]], 639 (the U.S. Senate "followed suit on 22 June and the treaty took effect the next day"; not the vote, the citations, the exchange of ratifications in Tokyo or Kishi). See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi.'
@@ -1465,6 +2160,7 @@ entries:
   - id: cal.1960-06-22.school-aid
     when: June 22
     date: '1960-06-22'
+    place: washington
     thread: school-aid
     c: 'Rules, Smith''s committee, refuses 7–5 to send the school bill to conference: the four Republicans and three Southern Democrats. School aid dead for the session.'
     n: 'Daily Digest, [106 Cong. Rec. D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=383) (the rule refused, H.R. 10128; no count). [[w.sundquist-politics-and-policy]], 186 (the vote, 7–5, Reece and Trimble with the opponents); [[w.graham-uncertain-triumph]], 6 (the three Southern Democrats Smith, Colmer and Trimble). See [[cal.1960-02-04.school-aid]]. Names: Smith.'
@@ -1484,6 +2180,7 @@ entries:
   - id: cal.1960-06-22.cuba
     when: June 22
     date: '1960-06-22'
+    place: mexico-city
     thread: cuba-bay-of-pigs
     c: Mexico City. Five anti-Castro groups declare against Castro as the Democratic Revolutionary Front (FRD), the program's exile front.
     n: 'FRUS 1961–63, X–XII, microfiche supp., doc. [232](https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d232) (the briefing papers of Nov. 18); X, docs. [24](https://history.state.gov/historicaldocuments/frus1961-63v10/d24) (Dulles, Jan. 22, 1961), [231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), par. 4. Made public, the CIA''s part: *Operation Zapata* (1981); FRUS 1961–63, X (1997). See [[cal.1960-03-17.cuba]]. Names: Castro.'
@@ -1497,6 +2194,7 @@ entries:
   - id: cal.1960-06-22.medicare
     when: June 22
     date: '1960-06-22'
+    place: washington
     thread: medicare
     c: 'The House debate on the Social Security amendments under a closed rule. Forand of Mills''s plan for the medically indigent: "Personally, I think it is a sham, I think it is a mirage"; but vote for the bill.'
     n: 'Forand, [106 Cong. Rec. 13,819](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-8-2.pdf#page=15) (1960) (June 22, 1960). [[w.sundquist-politics-and-policy]], 306. The House sat from noon to 6:19 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D383](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=381). Check: Sundquist, 306 n.64, prints the page 13820. The vote: [[cal.1960-06-23.medicare]]. Names: Forand, Mills.'
@@ -1526,6 +2224,7 @@ entries:
   - id: cal.1960-06-22.vietnam-hanoi
     when: June 22
     date: '1960-06-22'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 213-CT/TW on the reform of private business, now under way in 31 provinces and cities, mostly small and middle capitalists, to be done in the first nine months of the year: small industrial capitalists by cooperative firms, those fallen below the capitalist standard left alone; the obstinate watched and their offenses investigated, but no mass struggle meetings, pressure avoided after suicides in some places; hotels, inns and eating houses; overseas Vietnamese back from Thailand with capital encouraged to invest; small traders in trades the state takes over whole treated as petty bourgeois.'
     n: '*Chỉ thị của Ban Bí thư số 213-CT/TW về chủ trương đối với một số vấn đề cụ thể trong công tác cải tạo công thương nghiệp tư bản tư doanh hiện nay*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 376–82. Made public: 2002.'
@@ -1533,6 +2232,7 @@ entries:
   - id: cal.1960-06-22.vietnam-hanoi-2
     when: June 22
     date: '1960-06-22'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: circular no. 336-TT/TW, under the Politburo''s wage resolution: separate pay scales, decided at the Secretariat''s meeting of May 29, for the cadres, workers and employees of the Party and mass organizations from the Center to the localities.'
     n: '*Thông tri của Ban Bí thư số 336-TT/TW về việc ban hành các bảng lương cho cán bộ, công nhân, viên chức công tác ở các cơ quan dân đảng từ trung ương đến địa phương*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 383–86. See [[cal.1960-05-20.vietnam-hanoi]]. Made public: 2002.'
@@ -1548,6 +2248,7 @@ entries:
   - id: cal.1960-06-22.soviet-union
     when: June 22
     date: '1960-06-22'
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest. Khrushchev receives the Chinese delegation, after delay, for six hours, most of it his reproaches; the delegation, by plan, lets him speak. By its cable: the great leap leaves people without trousers; the hundred flowers; Stalin''s coffin to Peking; "east wind"; Genghis Khan; the India conflict China''s own doing, the Soviet neutral statement a help; Indonesia China''s fault. The delegation concludes the meeting is to attack China.'
@@ -1560,6 +2261,7 @@ entries:
   - id: cal.1960-06-22.china-leadership-2
     when: June 22
     date: '1960-06-22'
+    place: shanghai
     thread: china-leadership
     c: 'Mao 毛泽东 at Shanghai 上海 to Chen Pixian 陈丕显, secretary of the Shanghai Party committee: please send word to Wu Qirui 吴启瑞 to come, within one or two days; say only that Chen wants to see her; she to be received, as Mao wants to ask her some things. Wu, long a teacher at the primary school of the Wuxi Normal School 无锡师范学校, is the daughter-in-law of Wang Li''an 王立庵, his mathematics teacher at the First Normal School in Hunan 湖南.'
     n: '[[w.jianguo-yilai-mao-zedong]], XV, 259 (June 22, 1960; Mao''s note of June 22; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong, Chen Pixian, Wu Qirui, Wang Li''an. Check: whether Wu came and what he asked her.'
@@ -1568,9 +2270,58 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 259: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-06-22.china-leadership-3
+    when: June 22
+    date: '1960-06-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Liu Lantao 刘澜涛 and Gong Zirong 龚子荣 on the Shanghai 上海 meeting.
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 22, 1960). The words: 上午 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Lantao, Gong Zirong.'
+    src:
+      c: ede4095d
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-21T22:00Z
+      - 1960-06-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-22.china-leadership-4
+    when: June 22
+    date: '1960-06-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. A working meeting on the preparations for the third session of the Eighth Party Congress 八届三次大会; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 22, 1960). The words: 下午 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bb08cdcd
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-22T04:00Z
+      - 1960-06-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-22.china-leadership-5
+    when: June 22
+    date: '1960-06-22'
+    time: 1960-06-22T09:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院 dental clinic, 5:30 p.m.: an X-ray.'
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 22, 1960). The words: 5时半去北京医院 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0e5350cc
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-23.medicare
     when: June 23
     date: '1960-06-23'
+    place: washington
     thread: medicare
     c: 'House passes the Social Security amendments, H.R. 12580, [381–23](https://voteview.com/rollcall/RH0860150). Mills''s plan: federal grants to the States for medical care of the needy aged; no insurance under Social Security.'
     n: 'The House sat from noon to 7:23 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D390](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=388). See [[cal.1960-03-31.medicare]]. Names: Mills.'
@@ -1582,6 +2333,7 @@ entries:
   - id: cal.1960-06-23.states-and-cities-us
     when: June 23
     date: '1960-06-23'
+    place: hawaii
     thread: states-and-cities
     also: [amendments]
     c: Hawaii's legislature ratifies the Twenty-third Amendment, the first State, a week after Congress proposed it. Massachusetts second, Aug. 22.
@@ -1613,6 +2365,7 @@ entries:
   - id: cal.1960-06-23.elections-1960-2
     when: June 23
     date: '1960-06-23'
+    place: nyc
     thread: elections-1960-nomination
     also: [king]
     c: 'New York. Kennedy and King meet for the first time, on Belafonte''s advice to Kennedy. Kennedy: he has come to understand the moral force of the movement. King leaves more impressed.'
@@ -1640,6 +2393,7 @@ entries:
   - id: cal.1960-06-23.china-leadership
     when: June 23–27
     date: '1960-06-23'
+    place: shanghai
     thread: china-leadership
     also: [soviet-union]
     c: Shanghai, the Culture Club. Mao, Liu Shaoqi, Zhou Enlai and Chen Yun, with Ke Qingshi from June 24 and at times Lu Dingyi and Liu Xiao, meet daily on the CPSU's letter of June 21, handed to Peng Zhen's delegation at Bucharest June 23, and on the Bucharest communique.
@@ -1653,6 +2407,7 @@ entries:
   - id: cal.1960-06-23.soviet-union
     when: June 23
     date: '1960-06-23'
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter, dated June 21, in seven parts (the era; war and peace; peaceful coexistence; forms of transition; international mass organizations; China's breaches of the Declarations; unity). The same text had gone to the other parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian delegations' word. A draft communique follows, for discussion on the 24th. The delegation cables the points.
@@ -1667,9 +2422,56 @@ entries:
       - 1960-06-23T10:00Z
     time_band: morning
     time_zone: Europe/Bucharest
+  - id: cal.1960-06-23.china-leadership-2
+    when: June 23
+    date: '1960-06-23'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. The Secretariat 书记处: Deng Xiaoping 邓小平 relays the Shanghai 上海 meeting.'
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960). The words: 上午 (I, 520). See [[cal.1960-06-18.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: 17c44792
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-22T22:00Z
+      - 1960-06-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-23.china-leadership-3
+    when: June 23
+    date: '1960-06-23'
+    time: 1960-06-23T08:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院, 4 to 7 p.m.: several dental specialists in consultation.'
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960). The words: 下午4时去北京医院……到7时才完 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4d105183
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-23.china-leadership-4
+    when: June 23
+    date: '1960-06-23'
+    time: 1960-06-23T12:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京, 8 p.m. to midnight. Liu Xiao 刘晓 reports on Peng Zhen's 彭真 talks at Moscow 莫斯科; the Secretariat 书记处, met ad hoc, on how to answer Peng's telegram.
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960). The words: 晚间8时起到12时止 (I, 520). See [[cal.1960-06-16.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Xiao, Peng Zhen.'
+    src:
+      c: 004f45a9
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-24.latin-america
     when: June 24
     date: '1960-06-24'
+    place: caracas
     thread: latin-america
     c: Caracas. A car bomb burns Betancourt and kills the head of his military household. Venezuela charges Trujillo's government.
     n: '[FRUS 1958–60, V, microfiche supp., doc. VE–44](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/ve_d44). [[w.sen-church-alleged-assassination-plots]], 194 ("In June, agents of Trujillo tried to assassinate Venezuelan President Betancourt"; not the day, the place, the bomb or the dead). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.crassweller-trujillo]]; [[w.diederich-trujillo]]. Names: Betancourt, Trujillo.'
@@ -1723,6 +2525,7 @@ entries:
   - id: cal.1960-06-24.intelligence
     when: June 24
     date: '1960-06-24'
+    place: fort-meade
     thread: intelligence
     c: Fort Meade, Md. Bernon F. Mitchell and William H. Martin, mathematicians in statistical research at the National Security Agency, go on summer leave together, telling fellow employees they may visit their parents in Eureka, Calif., and Ellensburg, Wash. They hint that if they are not back by July 11 they will take another week, returning July 18.
     n: 'Lansdale to Douglas, memorandum, "Missing NSA Personnel," Aug. 1, 1960, at 1 (Office of the Secretary of Defense; Dwight D. Eisenhower Library, declassified with deletions May 23, 2002, MR 99-57: the leave from June 24, the words to fellow employees, the hint of a third week; the two "not missed until after 18 July"). [[w.mowry-betrayers-of-the-trust]], 2 (the application for leave, June 24 to July 11, to visit their parents; not the hint of a third week). Made public: the leave, in the Defense Department''s announcement of Aug. 1, 1960 ([[w.huac-security-practices-nsa]], 1–2); the memorandum, declassified 2002.'
@@ -1730,6 +2533,7 @@ entries:
   - id: cal.1960-06-24.soviet-union
     when: June 24
     date: '1960-06-24'
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The twelve parties' "talks," Gheorghiu-Dej presiding, turn on China from the CPSU notice; Bulgarian, Czechoslovak and East German delegates the sharpest, the Albanians, Koreans and Vietnamese against such a meeting. Khrushchev's closing attack. Peng Zhen answers him alone, on Khrushchev's own words, and objects to a communique not announced beforehand; Khrushchev demands signature; a half-hour recess; Gheorghiu-Dej calls on China for unity. That night the delegation cables Peking, inclined to sign with a statement.
@@ -1744,9 +2548,61 @@ entries:
       - 1960-06-24T10:00Z
     time_band: morning
     time_zone: Europe/Bucharest
+  - id: cal.1960-06-24.china-leadership
+    when: June 24
+    date: '1960-06-24'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. The Secretariat 书记处 on the "Communiqué of the meeting of the communist and workers' parties of the socialist countries" 《社会主义国家共产党和工人党会议的公报》 (revised draft), the text China means to propose.
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 24, 1960). The words: 上午 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Communiqué of the talks of the communist and workers'' parties of the socialist countries, Bucharest, June 24, 1960 (cited by [[w.yang-shangkun-riji]], I, 520 n.2).'
+    src:
+      c: dda84be5
+      rows:
+        - 'w.yang-shangkun-riji I, 520: all'
+        - 'via w.yang-shangkun-riji I, 520 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-23T22:00Z
+      - 1960-06-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-24.china-leadership-2
+    when: June 24
+    date: '1960-06-24'
+    time: 1960-06-24T08:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院, 4 p.m.: another abscess on the upper left, lanced.'
+    n: '[[w.yang-shangkun-riji]], I, 520–521 (June 24, 1960). The words: 下午4时 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7f2d6922
+      rows:
+        - 'w.yang-shangkun-riji I, 520–521: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-24.china-leadership-3
+    when: June 24
+    date: '1960-06-24'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. The Secretariat 书记处 again on the documents.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 24, 1960). The words: 晚间 (I, 521). See [[cal.1960-06-24.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 50f49757
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-24T11:00Z
+      - 1960-06-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-25.specials
     when: June 25
     date: '1960-06-25'
+    place: north-carolina
     thread: specials
     c: North Carolina 12th, special. Roy A. Taylor (D) to Hall's seat over Rollman (R), on write-ins, 28,744 to 416, 98.6 percent.
     n: '[N.C. *Manual*, 1961, p. 246](https://archive.org/details/northcarolinaman1961nort/page/n259). Shares: Wikipedia. Votes: the Manual, 246. See [[cal.1960-03-08.specials]]. Names: Taylor.'
@@ -1762,6 +2618,7 @@ entries:
   - id: cal.1960-06-25.governors-nc
     when: June 25
     date: '1960-06-25'
+    place: north-carolina
     thread: governors
     also: [elections-1960]
     c: 'North Carolina, Democratic runoff for governor: Sanford over Lake, 352,133 to 275,905, 56.1 percent.'
@@ -1777,6 +2634,9 @@ entries:
   - id: cal.1960-06-25.intelligence
     when: June 25
     date: '1960-06-25'
+    place:
+      - washington
+      - mexico-city
     thread: intelligence
     c: Washington National Airport. Mitchell and Martin, each with a single suitcase, buy one-way tickets to Mexico City on Eastern Airlines and fly there, arriving the same day.
     n: 'Lansdale to Douglas, memorandum, "Missing NSA Personnel," Aug. 1, 1960 (in full at [[cal.1960-06-24.intelligence]]), at 1–2 (the taxi to the airport, the single suitcases, the one-way tickets on Eastern Airlines, arrival the same day; the memo gives June 25 for the taxi and the hotel in Mexico City). [[w.mowry-betrayers-of-the-trust]], 2 (Eastern Airlines Flight 305 from National Airport, June 25). Made public: the one-way tickets to Mexico City, "in the days immediately following" Aug. 1, 1960 ([[w.huac-security-practices-nsa]], 1); the memorandum, declassified 2002.'
@@ -1792,6 +2652,7 @@ entries:
   - id: cal.1960-06-25.china-leadership-2
     when: June 25
     date: '1960-06-25'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking, morning. The delegation''s cable of the night of the 24th reaches the Center. Deng Xiaoping, by telephone with Liu Shaoqi and Zhou Enlai (Mao still asleep), decides on a statement, and dictates its substance to Hu Qiaomu and Wu Lengxi at the Juren Tang, the Secretariat''s building; written up, it is printed for the Standing Committee. Hu and Wu draft with it a cable to the delegation, printed for Mao, Liu and Zhou: strike back, name Khrushchev and no other party, keep room; read the statement at the meeting or hand it out, then sign.'
@@ -1828,6 +2689,7 @@ entries:
   - id: cal.1960-06-25.soviet-union
     when: June 25
     date: '1960-06-25'
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning and afternoon. Khrushchev enlarges the meeting to fifty-one parties, unannounced to the Chinese, who find Europe, Latin America, Asia and Africa represented; the sessions are one attack on China, mostly from parties resident in the USSR and eastern Europe. Peng says only that the meeting is not what the June 7 letter said; the delegation has no authority to sign, and awaits the Center. That evening the Center's statement reaches the delegation, which meets through the night.
@@ -1866,9 +2728,88 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 148: all'
     tags: [polity:prc, polity:somalia, name:zhou-enlai, name:chen-yi, name:egal-mohammed-ibrahim]
+  - id: cal.1960-06-25.china-leadership-4
+    when: June 25
+    date: '1960-06-25'
+    time: 1960-06-24T19:00Z
+    thread: china-leadership
+    c: Zhou Enlai 周恩来 telephones Yang Shangkun 杨尚昆, 3 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 晚间3时恩来同志来电话 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun. Check: the day: the diary enters the call at the end of June 24, "晚间3时".'
+    src:
+      c: 500f107c
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-25.china-leadership-5
+    when: June 25
+    date: '1960-06-25'
+    time: 1960-06-25T02:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking 北京, 10 a.m. to 3 p.m.: the communiqué and the Chinese delegation''s statement 我代表团的声明 (its written reservations on the communiqué, handed out at the meeting June 26, by the editors'' note) discussed.'
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 上午10时起到下午3时 (I, 521). See [[cal.1960-06-25.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Chinese Communist Party delegation, written statement at Bucharest, June 26, 1960 (cited by [[w.yang-shangkun-riji]], I, 521 n.2); communiqué of the talks at Bucharest, June 24, 1960 (cited by [[w.yang-shangkun-riji]], I, 521 n.1). Check: whether this is the morning''s work on the statement that [[cal.1960-06-25.china-leadership-2]] records by Wu Lengxi''s account.'
+    src:
+      c: 44633a4b
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+        - 'via w.yang-shangkun-riji I, 521 n.1: all'
+        - 'via w.yang-shangkun-riji I, 521 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-25.china-leadership-6
+    when: June 25
+    date: '1960-06-25'
+    time: 1960-06-25T07:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-06-25.china-leadership-5
+    c: 'Peking 北京. The Secretariat 书记处 with several members of the Politburo, 3 to 5 p.m.: Deng Xiaoping 邓小平 explains the course of events.'
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 3时至5时 (I, 521). See [[cal.1960-06-25.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: 62916c42
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-25.china-leadership-7
+    when: June 25
+    date: '1960-06-25'
+    time: 1960-06-25T09:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院 for his teeth, 5 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 5时 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 355793f7
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-25.china-leadership-8
+    when: June 25
+    date: '1960-06-25'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 telephones Peng Zhen 彭真 and Kang Sheng 康生.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 晚间 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen, Kang Sheng.'
+    src:
+      c: a561112d
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1960-06-25T11:00Z
+      - 1960-06-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-26.soviet-union-2
     when: June 26
     date: '1960-06-26'
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest, the Romanian Workers'' Party''s headquarters, early morning. Peng Zhen''s delegation calls on Gheorghiu-Dej, most of the Romanian Politburo present: the meeting irregular, not as the CPSU''s letter of June 7 said; the communique to be amended. Gheorghiu-Dej: the Romanians did not want it so, and knew neither how it would be run nor of the CPSU''s notice; the Czechoslovaks gone home the night before, the Poles against making it so grave.'
@@ -1888,6 +2829,7 @@ entries:
     date: '1960-06-26'
     time: 1960-06-26T09:00Z
     time_approx: true
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     follows:
@@ -1900,6 +2842,18 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 294–298: all'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
     time_zone: Europe/Bucharest
+  - id: cal.1960-06-26.china-leadership
+    when: June 26
+    date: '1960-06-26'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 telephones Peng Zhen 彭真 several times, and tells Zhou Enlai 周恩来 how things stand with Peng.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 26, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen, Zhou Enlai.'
+    src:
+      c: 77a70736
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-06-27.japan-and-korea-far-east
     when: June 27
     date: '1960-06-27'
@@ -1912,6 +2866,7 @@ entries:
   - id: cal.1960-06-27.court
     when: June 27
     date: '1960-06-27'
+    place: washington
     thread: court
     c: '*Elkins v. United States*, [364 U.S. 206](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep364206/usrep364206.pdf): evidence state officers seize unlawfully not admissible in a federal court, 5–4. The "silver platter" ends.'
     n: See [[cal.1960-06-20.court]].
@@ -1925,6 +2880,7 @@ entries:
   - id: cal.1960-06-27.testing
     when: June 27
     date: '1960-06-27'
+    place: geneva
     thread: testing
     c: Geneva. The five Communist delegations walk out of the Ten-Nation Disarmament Committee before the American plan is tabled.
     n: '[FRUS 1958–60, III, microfiche supp., doc. 587](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d587) (the delegation''s report). [[w.watson-into-the-missile-age]], 725. To check: [[w.divine-eisenhower-and-the-cold]]; [[w.hitchcock-age-of-eisenhower]]; *Documents on Disarmament, 1960*, 126–36, and the [*New York Times*, June 28, 1960](https://timesmachine.nytimes.com/timesmachine/1960/06/28/issue.html) (cited by [[w.watson-into-the-missile-age]], 725 n.193).'
@@ -1944,6 +2900,7 @@ entries:
   - id: cal.1960-06-27.states-and-cities-us
     when: June 27–29
     date: '1960-06-27'
+    place: glacier-national-park
     thread: states-and-cities
     also: [medicare]
     c: 'Governors'' Conference at Glacier National Park, Mont. Eisenhower''s recorded message, June 27. June 29: a resolution for health insurance for the aged "financed principally through" Social Security, adopted 30–13; Rockefeller and Brown for, Hollings against.'
@@ -1982,6 +2939,7 @@ entries:
   - id: cal.1960-06-27.cuba
     when: June 27
     date: '1960-06-27'
+    place: prague
     thread: cuba
     also: [soviet-union]
     c: Prague. Raúl Castro arrives, met at the airport by David, the Czechoslovak Foreign Minister.
@@ -1995,6 +2953,7 @@ entries:
   - id: cal.1960-06-27.vietnam-hanoi
     when: June 27
     date: '1960-06-27'
+    place: hanoi
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'The Secretariat, Hanoi: directive no. 214-CT/TW. "U.S.-Diệm" terror in the South, and charges that the North organizes subversion there, to clear the way for SEATO; the Indian and Canadian members of the International Commission preparing conclusions unfavorable to Hanoi. A wide political campaign in the North, June 30–July 20, loudest to July 5, the National Assembly to take it up at its July session: the United States to get out of the South, the South''s government to carry out the Geneva Agreements, the Commission to do its duty; in step with the anti-American movements of Korea and Japan.'
@@ -2003,6 +2962,7 @@ entries:
   - id: cal.1960-06-27.vietnam-hanoi-2
     when: June 27–30
     date: '1960-06-27'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi, sessions of June 27, 28 and 30, on the five-year plan study board''s report on the direction, tasks and control figures of the first five-year plan, 1961–65: the report sound at bottom. Two books: the state plan''s targets, to be met in four years or four and a half, the growth of industry and agriculture set a little lower than the board''s; and higher targets for the branches to strive for. Capital construction 5,100 million dong in the first book. The 1961 plan to be drafted at once.'
     n: 'Resolution no. 119-NQ/TW, July 4, 1960, *Nghị quyết của Bộ Chính trị số 119-NQ/TW về bản báo cáo "Phương hướng, nhiệm vụ và các con số kiểm tra chủ yếu làm căn cứ cho việc lập dự án kế hoạch 5 năm lần thứ nhất phát triển kinh tế quốc dân (1961–1965)"*. [[w.van-kien-dang-toan]], XXI, 395–97. Made public: 2002.'
@@ -2010,6 +2970,7 @@ entries:
   - id: cal.1960-06-27.china-leadership
     when: June 27
     date: '1960-06-27'
+    place: shanghai
     thread: china-leadership
     c: Zhou Enlai, with Liu Shaoqi and Lu Dingyi, attends Shanghai's militia rally against American imperialism and reviews the militia.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 27, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490 (June 27, 1960; Liu attends with Zhou Enlai the rally of 400,000 Shanghai militia in the People''s Square against American imperialism). Names: Zhou Enlai, Liu Shaoqi, Lu Dingyi.'
@@ -2027,9 +2988,80 @@ entries:
     c: Zhou Enlai that evening at Mao's meeting on the *Renmin ribao* editorial "Hold High the Revolutionary Banner of the Moscow Declaration"; Liu Shaoqi, Chen Yun, Ke Qingshi and Lu Dingyi also there.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 27, 1960). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Chen Yun, Ke Qingshi, Lu Dingyi.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:liu-shaoqi, name:chen-yun, name:ke-qingshi, name:lu-dingyi, vis:only:prc]
+  - id: cal.1960-06-27.china-leadership-3
+    when: June 27
+    date: '1960-06-27'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. The Secretariat 书记处 on publishing the communiqué and an editorial (the *Renmin ribao* 人民日报 editorial of June 29, "Hold high the revolutionary banner of Marxism–Leninism of the Moscow Declaration" 《高举莫斯科宣言的马克思列宁主义革命旗帜》, by the editors' note).
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 27, 1960). The words: 上午 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: *Renmin ribao*, June 29, 1960, editorial, "Hold high the revolutionary banner of Marxism–Leninism of the Moscow Declaration" (cited by [[w.yang-shangkun-riji]], I, 521 n.3).'
+    src:
+      c: 3e033e48
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+        - 'via w.yang-shangkun-riji I, 521 n.3: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-26T22:00Z
+      - 1960-06-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-27.china-leadership-4
+    when: June 27
+    date: '1960-06-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院 for his teeth.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 27, 1960). The words: 下午 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 23f28db8
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-27T04:00Z
+      - 1960-06-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-27.china-leadership-5
+    when: June 27
+    date: '1960-06-27'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆, by telephone with Zhou Enlai 周恩来, on their views of the editorial.
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 27, 1960). The words: 晚间 (I, 521). See [[cal.1960-06-27.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: 36bf25bd
+      rows:
+        - 'w.yang-shangkun-riji I, 521: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1960-06-27T11:00Z
+      - 1960-06-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-27.china-leadership-6
+    when: June 27
+    date: '1960-06-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims with Li Bozhao 李伯钊 in heavy rain.
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 27, 1960). The words: 夜间与伯钊一起去游泳，大雨 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: 6520516e
+      rows:
+        - 'w.yang-shangkun-riji I, 522: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-27T14:00Z
+      - 1960-06-27T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-28.specials
     when: June 28
     date: '1960-06-28'
+    place: north-dakota
     thread: specials
     c: North Dakota, Senate, special, for Langer's seat. Burdick (D) over Governor John E. Davis (R), 104,593 to 103,475, 49.7 percent, a 1,118-vote margin.
     n: '[N.D. *Official Abstract*, June 28, 1960, p. 3](https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1960-06-28-special.pdf). See [[cal.1960-03-08.specials]]. Names: Burdick, Davis.'
@@ -2045,6 +3077,7 @@ entries:
   - id: cal.1960-06-28.governors-nd
     when: June 28
     date: '1960-06-28'
+    place: north-dakota
     thread: governors
     also: [elections-1960]
     c: 'North Dakota, governor. Republican primary: Lieutenant Governor Dahl over one other, 86,900 to 25,132, 77.6 percent. Guy the Democratic nominee unopposed.'
@@ -2060,6 +3093,7 @@ entries:
   - id: cal.1960-06-28.state-constitutions-nd
     when: June 28
     date: '1960-06-28'
+    place: north-dakota
     thread: state-constitutions
     also: [legislatures]
     c: North Dakota, with the primary, approves an amendment reapportioning the House, 84,002 to 66,529, 55.8 percent; also a Department of Labor, 82,114 to 79,112, 50.9 percent, and the State's mineral rights reserved in school lands sold, 84,348 to 72,088, 53.9 percent.
@@ -2075,6 +3109,7 @@ entries:
   - id: cal.1960-06-28.economy-debt-limit
     when: June 28
     date: '1960-06-28'
+    place: washington
     thread: economy-debt-limit
     c: Senate adopts the conference report on H.R. 12381, [61–32](https://voteview.com/rollcall/RS0860375).
     n: '[106 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-5-1.pdf) (1960). The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D408](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=406). See [[cal.1960-06-08.economy-debt-limit]]. Check: the page.'
@@ -2085,6 +3120,7 @@ entries:
   - id: cal.1960-06-28.soviet-union-u2
     when: June 28
     date: '1960-06-28'
+    place: washington
     thread: soviet-union-u2
     c: 'Fulbright submits Foreign Relations'' report, "Events Relating to the Summit Conference" (S. Rept. 1761), approved June 23, 14 to 1. To the Senate: the U-2 and its handling "the immediate cause of the collapse"; "we forced Khrushchev to wreck the conference by our own ineptness." George Washington and the cherry tree.'
     n: '[106 Cong. Rec. 14,734–37](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-5-1.pdf#page=78) (1960) (Senate, June 28, 1960). [[w.woods-fulbright]], 252 (the speech). The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D408](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=406). See [[cal.1960-05-27.soviet-union]]. Names: Fulbright, Khrushchev.'
@@ -2102,10 +3138,16 @@ entries:
   - id: cal.1960-06-28.china-leadership
     when: June 28
     date: '1960-06-28'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai back in Peking; that evening with Lu Dingyi, Chen Boda, Yang Shangkun, Deng Liqun, Hu Sheng and Wu Lengxi on the revision of the editorial.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 28, 1960). Made public: 1997. Names: Zhou Enlai, Lu Dingyi, Chen Boda.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 28, 1960); [[w.yang-shangkun-riji]], I, 522 (June 28, 1960; 8 p.m. to midnight; Zhou presiding; the revised draft of the editorial). Made public: 1997. Names: Zhou Enlai, Lu Dingyi, Chen Boda.'
+    src:
+      c: b31143b3
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 327: ?'
+        - 'w.yang-shangkun-riji I, 522: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:lu-dingyi, name:chen-boda, vis:only:prc]
   - id: cal.1960-06-28.china
     when: June 28
@@ -2119,9 +3161,42 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 148–149: all'
     tags: [polity:prc, polity:ghana, name:liu-shaoqi, name:zhou-enlai, name:nkrumah-kwame]
+  - id: cal.1960-06-28.china-leadership-2
+    when: June 28
+    date: '1960-06-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lai Zulie 赖祖烈 and Ye Zilong 叶子龙 on the preparations for the Beidaihe 北戴河 meeting; they fly there that day.
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 28, 1960). The words: 上午 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lai Zulie, Ye Zilong.'
+    src:
+      c: b5c1456e
+      rows:
+        - 'w.yang-shangkun-riji I, 522: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-27T22:00Z
+      - 1960-06-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-28.china-leadership-3
+    when: June 28
+    date: '1960-06-28'
+    time: 1960-06-28T04:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京, the capital airport. Yang Shangkun 杨尚昆 meets Peng Zhen 彭真 and the delegation back from Bucharest, noon; then, at lunch at Yangfengjiadao 养蜂夹道, hears of the Romanian meeting; home at 4.
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 28, 1960). The words: 12时去首都机场接彭真等同志 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: ce130b2d
+      rows:
+        - 'w.yang-shangkun-riji I, 522: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-29.cuba
     when: June 29
     date: '1960-06-29'
+    place: santiago-de-cuba
     thread: cuba
     c: Cuba seizes Texaco's refinery at Santiago. It would not refine Soviet crude; nor would Esso's or Shell's, on Washington's advice.
     n: 'FRUS 1958–60, VI, docs. [527](https://history.state.gov/historicaldocuments/frus1958-60v06/d527) (the companies at State, June 7), [532](https://history.state.gov/historicaldocuments/frus1958-60v06/d532) (special NSC meeting, June 22), [536](https://history.state.gov/historicaldocuments/frus1958-60v06/d536) (economic pressures, June 27), [537](https://history.state.gov/historicaldocuments/frus1958-60v06/d537) (Dillon to the President, June 27). Check: the advice, and whose. [[w.fursenko-one-hell-of-a]], 48 (the companies'' refusal; Anderson''s assurance to them, May 31). Check: Fursenko and Naftali have the refineries nationalized June 10 (304, citing Shelepin to the Central Committee, June 18, 1960, SVR, n.54). To check: [[w.bonsal-cuba-castro-and-the]]; [[w.rabe-eisenhower-and-latin-america]]. Check: Fursenko and Naftali have Treasury Secretary Anderson tell the companies, May 31, that Washington would support a refusal (48), citing Rubottom to Herter, June 2, 1960 (FRUS 1958–60, VI, 934–35).'
@@ -2135,6 +3210,7 @@ entries:
   - id: cal.1960-06-29.congress
     when: June 29
     date: '1960-06-29'
+    place: washington
     thread: congress
     also: [elections-1960]
     c: Johnson and Rayburn announce that Congress will recess, not adjourn, before the conventions and return Aug. 8. The bills left pending over the delegates.
@@ -2217,14 +3293,62 @@ entries:
   - id: cal.1960-06-29.china-leadership-2
     when: June 29
     date: '1960-06-29'
+    place:
+      - shanghai
+      - peking
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi returns from Shanghai to Peking.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 490 (June 29, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-06-29.china-leadership-3
+    when: June 29
+    date: '1960-06-29'
+    time: 1960-06-29T02:00Z
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京, Yangfengjiadao 养蜂夹道. Yang Shangkun 杨尚昆, with Deng Xiaoping 邓小平, talks with Lê Duẩn 黎笋 of the Lao Động Politburo, 10 a.m. to 3 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960). The words: 上午10时到下午3时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Lê Duẩn.'
+    src:
+      c: b2bc8e3e
+      rows:
+        - 'w.yang-shangkun-riji I, 522: all'
+    tags: [polity:prc, name:deng-xiaoping, name:le-duan, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-29.china-leadership-4
+    when: June 29
+    date: '1960-06-29'
+    time: 1960-06-29T09:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院, 5 p.m.: a mold made for a crown.'
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960). The words: 5时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 01f437a5
+      rows:
+        - 'w.yang-shangkun-riji I, 522: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-29.china-leadership-5
+    when: June 29
+    date: '1960-06-29'
+    time: 1960-06-29T11:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京, the Huairen Tang 怀仁堂. The Center's banquet for Peng Zhen 彭真 and the delegation, 7 p.m.; Yang Shangkun 杨尚昆 and Li Bozhao 李伯钊 there.
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960). The words: 7时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Li Bozhao.'
+    src:
+      c: 85c6e86b
+      rows:
+        - 'w.yang-shangkun-riji I, 522: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-30.congo
     when: June 30
     date: '1960-06-30'
+    place: leopoldville
     thread: congo
     c: 'The Congo independent, at Léopoldville. Kasavubu President, Lumumba Prime Minister. King Baudouin praises the work of Leopold II; Lumumba answers with the colonial humiliations. Murphy heads the American delegation: an embassy, 300 scholarships. Tshombe has told the consul Katanga will secede; Washington tells him to keep to the Congo.'
     n: 'Message to President Kasavubu, [1960–61 Pub. Papers 544](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=596) (June 30, 1960). FRUS 1958–60, XIV, docs. [103](https://history.state.gov/historicaldocuments/frus1958-60v14/d103) (to Tshombe, June 23), [105](https://history.state.gov/historicaldocuments/frus1958-60v14/d105), [106](https://history.state.gov/historicaldocuments/frus1958-60v14/d106). [[w.watson-into-the-missile-age]], 761 (independence, June 30); [[w.fursenko-khrushchevs-cold-war]], 307 (the independence; Lumumba Prime Minister, Kasavubu President); [[w.poole-joint-chiefs-of-staff]], 256; [[w.bissell-reflections-of-a-cold]], 142 (independence, June 30; Lumumba, the new prime minister, on Belgium''s rule); [[w.ball-past-has-another-pattern]], 226–27 (June 30, 1960, the independence "formally celebrated," a spectator stealing King Baudouin''s sword; the government formed June 23, Lumumba Prime Minister, Kasavubu President; not the speeches, the American delegation or Tshombe); [[w.sen-church-alleged-assassination-plots]], 13–14 (independence from Belgium June 30, 1960; Kasavubu "the new President," Lumumba "Premier"; not Léopoldville, the speeches, Murphy or Tshombe). To check: [[w.kalb-congo-cables]]; [[w.namikas-battleground-africa]]; [[w.weissman-american-foreign-policy-in]]; [[w.hoskyns-congo-since-independence]]; [[w.mahoney-jfk]]; [[w.devlin-chief-of-station-congo]]; [[w.witte-de-moord-op-lumumba]]; [[w.gerard-death-in-the-congo]]. Names: Kasavubu, Lumumba, Tshombe, Murphy, Baudouin.'
@@ -2244,6 +3368,7 @@ entries:
   - id: cal.1960-06-30.jobs-and-wages
     when: June 30
     date: '1960-06-30'
+    place: washington
     thread: jobs-and-wages
     c: 'House passes a minimum wage bill, H.R. 12677, [341–72](https://voteview.com/rollcall/RH0860163), after taking Kitchin''s narrower substitute, [211–203](https://voteview.com/rollcall/RH0860162): $1.15 an hour for those covered; interstate retail chains brought in at $1, without overtime.'
     n: 'The House sat from noon to 8:14 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D422](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=420). Names: Kitchin.'
@@ -2281,6 +3406,7 @@ entries:
   - id: cal.1960-06.mississippi-ms
     when: June
     date: 1960-06
+    place: mississippi
     thread: mississippi
     also: [antisubversion]
     c: The State Sovereignty Commission, Barnett its chairman, votes $20,000 to the Citizens' Council Forum and monthly grants to the Council; by December 1964, $193,500 of State money.
@@ -2352,6 +3478,7 @@ entries:
   - id: cal.1960-06.elections-1960-4
     when: June
     date: 1960-06
+    place: buffalo
     thread: elections-1960-rockefeller
     also: [civil-rights-the-executive]
     c: 'Buffalo. Rockefeller to the National Sunday School and Baptist Training Union Conference: an executive order against discrimination in housing; the Labor Board to refuse to certify unions that discriminate; federal money to help cities and towns desegregate; the Attorney General empowered to sue to desegregate schools; a permanent ban on discrimination in government contract work; equal opportunity in every federal agency.'
@@ -2366,6 +3493,7 @@ entries:
   - id: cal.1960-06.congress-powell
     when: June
     date: 1960-06
+    place: rio-de-janeiro
     thread: congress-powell
     also: [king, elections-1960]
     c: 'King at the Baptist World Alliance in Rio de Janeiro. An emissary of Powell''s: unless King calls off the picketing of the Democratic convention, Powell will tell the press King is having a homosexual affair with Rustin. On Randolph''s instruction, Rustin telephones King that Randolph will go ahead, and if King pulls out will say it was at Powell''s request. King flies on to Los Angeles. By Rustin''s account.'
@@ -2392,6 +3520,7 @@ entries:
   - id: cal.1960-06.elections-1960-5
     when: June
     date: 1960-06
+    place: minneapolis
     thread: elections-1960-nomination
     c: 'Minneapolis, the Nicollet Hotel, early June: the DFL''s Jefferson-Jackson Day dinner. Humphrey flies in with Kennedy on the Caroline; Kennedy speaks some fifteen minutes. Humphrey introduces him to Walter Heller, by Humphrey''s account; Heller''s economic papers to Kennedy through Humphrey the rest of the year.'
     n: '[[w.humphrey-education-of-a-public-1976]], 222–24. See [[cal.1960-05-10.elections-1960-2]]. Names: Humphrey, Kennedy, Heller, Freeman, Rolvaag. Check the day.'
@@ -2404,6 +3533,7 @@ entries:
     when: June, late
     date: 1960-06
     at: before 1960-06-21
+    place: washington
     thread: elections-1960-nomination
     c: 'Kennedy in Humphrey''s office, of the second place: "You might be the strongest person I could add," weak as he is with the Jews, labor and the farmers, where Humphrey is strong. Not an offer. Humphrey sends Marvin Rosenberg to ask Eleanor Roosevelt''s advice: he must decide for himself.'
     n: '[[w.solberg-hubert-humphrey]], 212. To check: Marvin Rosenberg, interview (cited by [[w.solberg-hubert-humphrey]], 212, its note). Names: Kennedy, Humphrey, Eleanor Roosevelt.'
@@ -2440,6 +3570,7 @@ entries:
   - id: cal.1960-06-30.medicare
     when: June 30
     date: '1960-06-30'
+    place: washington
     thread: medicare
     also: [republican-party-congress]
     c: Saltonstall introduces what he calls the administration bill, Flemming's plan, with fees on a sliding scale, $24 to $204 a year by income. Not introduced in the House.
@@ -2457,6 +3588,7 @@ entries:
   - id: cal.1960-06.elections-1960-6
     when: June
     date: 1960-06
+    place: washington
     thread: elections-1960-nomination
     also: [democratic-party]
     c: Early June. James Doyle, who has held the Stevenson volunteers in check from Madison, Wis., is brought to Washington and announces a Draft Stevenson movement. By late June, Draft Stevenson clubs in forty-two States; full-page advertisements in New York's papers, the first drawing $40,000.
@@ -2469,6 +3601,7 @@ entries:
   - id: cal.1960-06.democratic-party-2
     when: June
     date: 1960-06
+    place: albany
     thread: democratic-party
     also: [elections-1960]
     c: The week after June 16. Albany, N.Y. New York's delegation to the national convention, polled, 87 of 114 for Kennedy. Kennedy does not attend.
@@ -2492,6 +3625,7 @@ entries:
   - id: cal.1960-06.elections-1960-11
     when: June
     date: 1960-06
+    place: libertyville
     thread: elections-1960-nomination
     c: 'Libertyville, Ill., Stevenson''s lawn, some weeks before the Congo''s collapse, to White. The summit''s collapse the end of a "panorama of stupidity"; an Atlantic community; Russian troops to be got out of central Europe; Quemoy and Matsu perhaps relinquished for a renunciation of force and a plebiscite on Formosa. Then a call from New York: Mrs. Roosevelt will ask him to declare himself; he will not.'
     n: '[[w.white-making-of-the-president]], 119–22 (White''s interview). Names: Stevenson, Eleanor Roosevelt. Check: the day.'
@@ -2503,6 +3637,7 @@ entries:
   - id: cal.1960-06.china
     when: June
     date: 1960-06
+    place: peking
     thread: china
     also: [soviet-union]
     c: 'Early June. Peking, the World Federation of Trade Unions'' council: the Chinese and their allies, Burmese, North Vietnamese, Sudanese and others, against Khrushchev''s leadership of the movement: peaceful coexistence, not revolution enough.'
@@ -2515,6 +3650,7 @@ entries:
   - id: cal.1960-06.soviet-union
     when: June
     date: 1960-06
+    place: bucharest
     thread: soviet-union
     also: [china]
     c: 'Bucharest, two weeks after the meeting at Peking. Khrushchev answers his critics: it is not enough to read Marx; "One must also correctly understand what one had read and apply it to specific conditions of the time in which we live, taking into consideration the situation and the real balance of forces."'
@@ -2585,6 +3721,7 @@ entries:
   - id: cal.1960-06.governors
     when: June
     date: 1960-06
+    place: nyc
     thread: governors
     c: Lee Williams, through McMath and Brooks Hays, raises tens of thousands of dollars in New York for the candidates against Faubus, running short before the primary of July 26.
     n: '[[w.woods-fulbright]], 294–95. To check: Williams to Fulbright, June 2 and 20, 1960; Williams to Marcy, June 20, 1960, Williams Papers (cited by [[w.woods-fulbright]], 295 n.74). See [[cal.1960-04-21.governors]]. Names: McMath, Faubus.'
@@ -2611,6 +3748,7 @@ entries:
     when: June, late
     date: 1960-06
     at: before 1960-06-21
+    place: moscow
     thread: cuba
     also: [soviet-union]
     c: 'Moscow. Mikoyan to Núñez Jiménez: thirty "topnotch" tanks and 100,000 automatic rifles, given outright.'
@@ -2623,6 +3761,7 @@ entries:
   - id: cal.1960-06.republican-party
     when: June
     date: 1960-06
+    place: washington
     thread: republican-party
     also: [elections-1960]
     c: 'Washington, the Statler-Hilton. The Republican National Committee''s last meeting before the convention, after Rockefeller''s statement. Alcorn, Connecticut''s national committeeman, once national chairman, of Rockefeller: "But now he''ll never be the nominee. Never."'
@@ -2648,6 +3787,7 @@ entries:
   - id: cal.1960-06.goldwater-2
     when: June
     date: 1960-06
+    place: mississippi
     thread: goldwater
     also: [elections-1960]
     c: Goldwater gives the keynote speech at the Mississippi Republican convention.
@@ -2672,6 +3812,7 @@ entries:
   - id: cal.1960-06.students
     when: June
     date: 1960-06
+    place: nyc
     thread: students
     c: 'New York, the Barbizon-Plaza. Some eighty leaders of the left, Norman Thomas and Farmer among them: the League for Industrial Democracy''s student department launched as Students for a Democratic Society, some 250 members that summer.'
     n: '[[w.debenedetti-american-ordeal]], 44. Check: the day. Names: Farmer.'
@@ -2684,6 +3825,7 @@ entries:
     when: June, early
     date: 1960-06
     at: before 1960-06-01
+    place: hyannis-port
     thread: elections-1960-nomination
     c: 'Hyannis Port. Kennedy to Schlesinger on Johnson, "with a mixture of admiration and despair": compares him to Peel and others "omnipotent in Parliament but had no popularity in the country"; Johnson a "riverboat gambler." By Schlesinger''s journal.'
     n: '[[w.schlesinger-robert-kennedy-and-his]], 203. Check: the day; the text has "Early in June", the journal cited is of June 16. To check: Schlesinger, journal, June 16, 1960, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.55). Names: Kennedy, Johnson, Schlesinger.'
@@ -2696,6 +3838,7 @@ entries:
   - id: cal.1960-06-30.republican-party-congress
     when: June 30
     date: '1960-06-30'
+    place: washington
     thread: republican-party-congress
     c: 'Senate Republican conference, 9:22 to 10:55 a.m., twenty-four present, called by Dirksen. The recess: no party position; each on his own. Aiken reports no interest in the committee on assignments by seniority; closed for the session. On Eisenhower''s veto of the pay bill Dirksen says the President is right but the Senate will not sustain it; put over to August, the vote might go otherwise. The conference concludes it cannot be deferred.'
     n: '[[w.wolff-minutes-of-the-senate]], 864–66 (the recess, 865; the veto, 866). Names: Dirksen, Aiken, Eisenhower.'
@@ -2722,6 +3865,7 @@ entries:
   - id: cal.1960-06-30.vietnam-hanoi
     when: June 30
     date: '1960-06-30'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 215-CT/TW. The fifth-month harvest poor, minds unsettled; by June 20 rice bought and debts collected at 25 percent of the target, rice sold well over the plan. Central cadres to be sent to help the local committees explain the grain policy and propose changes.'
     n: '*Chỉ thị của Ban Bí thư số 215-CT/TW về việc tăng cường lực lượng lãnh đạo của Đảng nhằm giải quyết tốt vấn đề lương thực*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 392–94. Made public: 2002.'
@@ -2754,6 +3898,7 @@ entries:
     when: June, after the 4th
     date: 1960-06
     at: after 1960-06-04
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking. Hu Qiaomu and Wu Lengxi begin the Center''s reply to the CPSU letter at the Secretariat meeting: two proposals, to widen the conference to the world''s parties and put it off to about the revolution anniversary, and a drafting committee with a Sino-Soviet joint group. Mao telephones from Hangzhou: the Shanghai meeting is to take up the CPSU letter as well; Deng takes the writers to Shanghai ahead.'
@@ -2769,11 +3914,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Politburo meeting, Mao presiding, Peng Zhen reporting on the Bucharest delegation. Taken as a surprise attack and an encounter; Mao: Khrushchev decided on June 2 to bring China to heel, the June 7 letter a deceit; a counter-encirclement, to stop short, as in the Central Soviet''s campaigns. The first round; a hard fight expected at the parties'' meeting in November. The Beidaihe work conference in July to take up Sino-Soviet relations; a circular to senior cadres on Bucharest; no polemic in print, unsigned or not, until the November meeting, current commentary on America and the nationalist states going on.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 298–300. Made public: 1999. Names: Mao Zedong, Peng Zhen. Check: the place: Mao was at Shanghai late June; Wu gives none.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 298–300; [[w.yang-shangkun-riji]], I, 523 (June 30, 1960; 4 p.m., in the rear hall of the Huairen Tang, to 9; Peng Zhen and Kang Sheng report). Made public: 1999. Names: Mao Zedong, Peng Zhen. Check: the place: Mao was at Shanghai late June; Wu gives none.'
     src:
       c: 36d2505e
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 298–300: all'
+        - 'w.yang-shangkun-riji I, 523: A'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
     variants:
       - unit: A
@@ -2817,3 +3963,32 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 262–263: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 262 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:jiang-qing, name:montgomery-of-alamein-bernard-l, vis:only:prc]
+  - id: cal.1960-06-30.china-leadership-4
+    when: June 30
+    date: '1960-06-30'
+    time: 1960-06-30T02:00Z
+    place: peking
+    thread: china-leadership
+    also: [latin-america]
+    c: Peking 北京, the Fujian Hall 福建厅 of the Great Hall of the People 人民大会堂. Yang Shangkun 杨尚昆 and Deng Xiaoping 邓小平 receive the comrades from twelve Latin American countries studying in China, fifty of them, and explain some questions to them, 10 a.m. to 2:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 522–523 (June 30, 1960). The words: 上午10时到下午2时半 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: c36f8492
+      rows:
+        - 'w.yang-shangkun-riji I, 522–523: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-30.china-leadership-5
+    when: June 30
+    date: '1960-06-30'
+    time: 1960-06-30T09:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院, 5 to 7 p.m.: the root-canal work finished; back to the Politburo meeting.'
+    n: '[[w.yang-shangkun-riji]], I, 523 (June 30, 1960). The words: 5时到7时 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 70c55fcb
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai

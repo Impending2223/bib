@@ -1323,7 +1323,7 @@ def combine(series, keep, drop):
 # the title ends in a numeral, Arabic or Roman); 'Andrew L. Johns, *Vietnam's Second Front: ...* 139 (2010)'; an
 # article's or chapter's after its first page, '1, 15'; a set's volume after the title in Roman, as the short form
 # has it, not Bluebook's '3 *The Gallup Poll ...*, at 1862' (the owner, Nov. 13, 2026): '*The Gallup Poll ...*, III,
-# 1862 (1972)'. Distinct pinpoints with parentheticals of their own after a semicolon, '; *Id.* at 260 (the count)'.
+# 1862 (1972)'. Distinct pinpoints with parentheticals of their own after a semicolon, '; *Id*. at 260 (the count)'.
 # A pinpoint that is no page (a document, a chapter) stays after the year. The data keeps one form, '[[w.x]], 257
 # (paren)', which the claims read; the short forms after the first are as they were. with_first_cites, split_full.
 
@@ -1439,7 +1439,7 @@ def bluebook_pin(head, pin):
 def with_first_cites(series, e, text):
     """The entry's note with its first citations marked to print in full (FIRST CITE), the pinpoint and its
     parenthetical in Bluebook's places (BLUEBOOK FIRST CITE): 'Author, *Title* 257 (1998) (the vote)'; a second
-    pinpoint with a parenthetical of its own after a semicolon, '*Id.* at 260 (the count)'. A pinpoint not a page
+    pinpoint with a parenthetical of its own after a semicolon, '*Id*. at 260 (the count)'. A pinpoint not a page
     (a document, a chapter, a note alone) keeps the old form, after the year: 'Author, *Title* (1972), doc. 4'; a
     volume of a set and its page as the short form has them, not Bluebook's '3 *Title* 1862': 'III, 1862' ->
     '*Title*, III, 1862 (1972)' (the owner, Nov. 13, 2026)."""
@@ -1464,7 +1464,7 @@ def with_first_cites(series, e, text):
         at = f", {vol}, {pin}" if vol else bluebook_pin(head, pin)
         out = f"[[{m.group(1)}|{HEAD}]]" + at + tail + (" " + par if par else "")
         for x in re.finditer(r",\s*(" + PIN + r")\s*(" + _PAREN + r")", rest):
-            out += f"; *Id.* at {x.group(1).strip()} {x.group(2)}"
+            out += f"; *Id*. at {x.group(1).strip()} {x.group(2)}"
         return out
     def run(t):
         return re.sub(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\](,\s*" + PIN + r")?(\s*" + _PAREN + r")?((?:,\s*" + PIN

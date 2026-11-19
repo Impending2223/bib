@@ -31,6 +31,7 @@ entries:
   - id: cal.1961-02-01.defense
     when: Feb. 1
     date: '1961-02-01'
+    place: washington
     thread: defense
     also: [transition-and-staff-nsc]
     c: 'The National Security Council''s first meeting under Kennedy, its 475th. He directs McNamara to examine means of placing more emphasis on counterguerrilla forces. McNamara: five Polaris submarines sooner, fifty more transports, the fiscal 1962 military budget reappraised by Mar. 1.'
@@ -75,6 +76,7 @@ entries:
   - id: cal.1961-02-01.alabama
     when: Feb. 1
     date: '1961-02-01'
+    place: montgomery
     thread: alabama
     also: [press-and-broadcasting, king]
     c: Montgomery. In Mayor Earl James's libel suit over the advertisement, Judge Walter B. Jones presiding, the jury awards $500,000 against the *New York Times* and the four ministers. The defense's objection to the beards worn for the Civil War centennial by James and five jurors overruled; Bernard Lee removed from the white side of the courtroom.
@@ -96,6 +98,7 @@ entries:
   - id: cal.1961-02-01.sit-ins
     when: Feb. 1
     date: '1961-02-01'
+    place: rock-hill
     thread: sit-ins
     also: [south-carolina, civil-rights-organizations]
     c: 'Rock Hill, S.C., the anniversary of Greensboro. Ten students arrested at McCrory''s lunch counter; nine take thirty days on the road gang rather than the $100 fine. SNCC, meeting in Atlanta, sends four more to join them in jail: Nash, Ruby Doris Smith, Sherrod and Charles Jones.'
@@ -115,6 +118,7 @@ entries:
   - id: cal.1961-02-01.congo
     when: Feb. 1
     date: '1961-02-01'
+    place: washington
     thread: congo
     c: Rusk to Kennedy, "Suggested New United States Policy on the Congo." A new UN mandate to bring the Congo's armed forces under control, by force if need be; a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba; a larger UN hand in its administration. Rusk sums it up at the NSC that day; Kennedy approves it after.
     n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17); [doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (the NSC; the approval). [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
@@ -231,6 +235,7 @@ entries:
   - id: cal.1961-02-01.china
     when: Feb. 1
     date: '1961-02-01'
+    place: shanghai
     thread: china
     also: [vietnam-hanoi]
     c: The Vietnamese consulate general at Shanghai is formally opened.
@@ -240,6 +245,58 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
     tags: [polity:prc, polity:drv]
+  - id: cal.1961-02-01.china-leadership
+    when: Feb. 1
+    date: '1961-02-01'
+    time: 1961-02-01T12:00Z
+    place: fuzhou
+    thread: china-leadership
+    c: 'Fuzhou 福州, 8 p.m. Yang Shangkun 杨尚昆 arrives by train from Hangzhou 杭州, his first time in Fujian 福建, by the new Yingtan 鹰潭–Fuzhou line, built for the Jinmen 金门 front: too many bends, to be realigned; 50 km an hour at best, so its capacity small. Lodged at the West Lake 西湖 guesthouse.'
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 1, 1961). The words: 下午8时 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 520965f1
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-2
+    when: Feb. 1
+    date: '1961-02-01'
+    place: fuzhou
+    thread: china-leadership
+    follows:
+      - cal.1961-02-01.china-leadership
+    c: Fuzhou 福州. Yang Shangkun 杨尚昆 talks briefly with the Fujian 福建 provincial committee.
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 1, 1961). The words: 夜间到 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 69f600a6
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-01T14:00Z
+      - 1961-02-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-3
+    when: Feb. 1
+    date: '1961-02-01'
+    place: fuzhou
+    thread: china-leadership
+    follows:
+      - cal.1961-02-01.china-leadership-2
+    c: Fuzhou 福州. Ye Fei 叶飞 comes to Yang Shangkun 杨尚昆 on the visit to Xiamen 厦门, for which they must prepare.
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 1, 1961; note 1: Ye Fei then first secretary in Fujian and political commissar of the Fuzhou Military Region). The words: 夜间到 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ye Fei, Yang Shangkun.'
+    src:
+      c: 09219a9a
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-01T14:00Z
+      - 1961-02-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -295,6 +352,7 @@ entries:
   - id: cal.1961-02-02.china
     when: Feb. 2
     date: '1961-02-02'
+    place: peking
     thread: china
     also: [laos]
     c: 'Peking. A rally of the capital''s people backs the Lao people against U.S. interference and for peace, neutrality, national independence and sovereignty. Chen Yi speaks: Laos''s internal questions are for the Lao people to settle. The way out is for the legitimate government under Prince Souvanna Phouma and the patriotic Neo Lao Hak Xat to unite and put down the revolt of the Phoumi–Boun Oum clique, which the United States aids, and to build an independent, united, harmonious, peaceful and neutral Laos. The Chinese people back it.'
@@ -304,6 +362,99 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
     tags: [polity:prc, polity:laos, polity:us, name:chen-yi, name:souvanna-phouma, name:phoumi-nosavan, name:boun-oum-na-champassak]
+  - id: cal.1961-02-02.china-leadership-2
+    when: Feb. 2
+    date: '1961-02-02'
+    time: 1961-02-02T01:00Z
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州, from 9 a.m. Yang Shangkun 杨尚昆 sees the lacquer, wood-carving and stone-carving works and the Yongquan Temple 涌泉寺 on Mount Gu 鼓山.
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 2, 1961). The words: 9时 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ce966f52
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-3
+    when: Feb. 2
+    date: '1961-02-02'
+    place: fuzhou
+    thread: china-leadership
+    follows:
+      - cal.1961-02-02.china-leadership-7
+    c: Fuzhou 福州. Yang Shangkun 杨尚昆 and Deng Xiaoping 邓小平 see the exhibition of special crafts.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961). The words: 1时吃午饭后睡了1小时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 67362ecf
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-02T04:00Z
+      - 1961-02-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-4
+    when: Feb. 2
+    date: '1961-02-02'
+    place: fuzhou
+    thread: china-leadership
+    c: Xie Juezai 谢觉哉 and Xu Teli 徐特立 arrive in Fuzhou 福州.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961; note 1: Xie, then president of the Supreme Peoples Court; Xu, of the Central Committee and the NPC Standing Committee). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xie Juezai, Xu Teli.'
+    src:
+      c: f3ff41bd
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-02.china-leadership-5
+    when: Feb. 2
+    date: '1961-02-02'
+    time: 1961-02-02T09:00Z
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州 station, 5 p.m. Zhu De 朱德, just arrived, and Yang Shangkun 杨尚昆, boarding the train north for Zhangzhou 漳州, shake hands.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961). The words: 5时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhu De, Yang Shangkun.'
+    src:
+      c: 3e00da19
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-6
+    when: Feb. 2
+    date: '1961-02-02'
+    time: 1961-02-02T12:00Z
+    thread: china-leadership
+    follows:
+      - cal.1961-02-02.china-leadership-5
+    c: On the train from Fuzhou 福州. Yang Shangkun 杨尚昆 talks with Han Xianchu 韩先楚 on the situation.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961; note 2: Han, then commander of the Fuzhou Military Region). The words: 8时在车上吃饭后 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Han Xianchu.'
+    src:
+      c: 738591b1
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-7
+    when: Feb. 2
+    date: '1961-02-02'
+    place: fuzhou
+    thread: china-leadership
+    follows:
+      - cal.1961-02-02.china-leadership-2
+    c: Mount Gu 鼓山, Fuzhou 福州. Yang Shangkun 杨尚昆 has another attack of palpitations and sweating 心慌出汗; it soon passes in the car.
+    n: '[[w.yang-shangkun-riji]], I, 649–650 (Feb. 2, 1961). The words: 中午 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2a17ed31
+      rows:
+        - 'w.yang-shangkun-riji I, 649–650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-02T04:00Z
+      - 1961-02-02T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-03.immigration
     when: Feb. 3
     date: '1961-02-03'
@@ -321,6 +472,7 @@ entries:
   - id: cal.1961-02-03.cuba
     when: Feb. 3
     date: '1961-02-03'
+    place: washington
     thread: cuba-bay-of-pigs
     c: 'The Joint Chiefs to McNamara, JCSM-57-61, on the CIA''s plan for a landing at Trinidad: "a fair chance of ultimate success." Surprise, the air and the logistics critical; the force''s worth judged at second and third hand.'
     n: '[FRUS 1961–63, X, doc. 35](https://history.state.gov/historicaldocuments/frus1961-63v10/d35); [231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), par. 17. Made public: in part, *Operation Zapata* (1981); FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 49–50; [[w.bissell-reflections-of-a-cold]], 164–65 (the memorandum quoted); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 176–77. See [[cal.1961-01-28.cuba]]. Names: McNamara, Lemnitzer.'
@@ -361,6 +513,7 @@ entries:
   - id: cal.1961-02-03.transition-and-staff-nsc
     when: Feb. 3
     date: '1961-02-03'
+    place: washington
     thread: transition-and-staff-nsc
     c: 'Bundy to Rusk: the President wants to keep track of the directives he gives; a series of National Security Action Memoranda begins. "Departments and agencies will always be acting just as fast as they can."'
     n: '[FRUS 1961–63, VIII, doc. 9](https://history.state.gov/historicaldocuments/frus1961-63v08/d9). [[w.preston-war-council]], 40–41 (the series). Names: Bundy, Rusk. Check: Preston, 41, puts the words in Bundy to Dulles, Mar. 10, 1961 (n.10, NSF, Bundy Chron., Kennedy Library); FRUS prints them in the letter to Rusk.'
@@ -390,9 +543,70 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 185: A'
     tags: [polity:prc, polity:kenya, name:zhou-enlai]
+  - id: cal.1961-02-03.china-leadership-2
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T02:00Z
+    place: gulangyu
+    thread: china-leadership
+    also: [china]
+    c: Yang Shangkun's 杨尚昆 train stops at 10 a.m. at a small station short of the causeway near Jimei 集美, lest the enemy sight it; by car past Tan Kah Kee's 陈嘉庚 tomb at Jimei and through Xiamen 厦门 to the guesthouse on Gulangyu 鼓浪屿.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 3, 1961; note 3: Tan Kah Kee, d. Aug. 12, 1961). The words: 上午10时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tan Kah Kee.'
+    src:
+      c: ed2fe60f
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-3
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T05:00Z
+    place: gulangyu
+    thread: china-leadership
+    also: [china]
+    c: Gulangyu 鼓浪屿. Yang Shangkun 杨尚昆 climbs the "Drill-Watching Terrace" 观阵台, said to be where Zheng Chenggong 郑成功 drilled his navy, in view of Big and Little Jinmen 大小金门 and the Dadan and Erdan 大二担 islands.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 3, 1961). The words: 1时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c74866fe
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-4
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T06:30Z
+    place: xiamen
+    thread: china-leadership
+    also: [china]
+    c: Xiamen 厦门, 2:30 to 5 p.m. Yang Shangkun 杨尚昆 at an artillery position; Big and Little Jinmen 大小金门 plain through the glasses, said to be some 4,000 meters off.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 3, 1961). The words: 2时半 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8472347f
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-5
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T10:00Z
+    time_approx: true
+    place: zhangzhou
+    thread: china-leadership
+    c: Zhangzhou 漳州, 70 km from Xiamen 厦门, about 6 p.m. Yang Shangkun 杨尚昆 walks through the streets and sees the puppet theater 布袋戏; north by train at 9:20 p.m., Lü Zhengcao 吕正操 joining.
+    n: '[[w.yang-shangkun-riji]], I, 650–651 (Feb. 3, 1961; 6 时许; p. 651 n.1: Lü, then vice-minister of railways; the line opening p. 651 dropped by the OCR, read on the page). The words: 6时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lü Zhengcao.'
+    src:
+      c: 087859ee
+      rows:
+        - 'w.yang-shangkun-riji I, 650–651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
+    place: omaha
     thread: defense
     c: 'McNamara at SAC''s headquarters, Omaha: alarmed by the rigidity of the Single Integrated Operational Plan and the civilians'' slight control of the strategic forces; the danger of missiles fired by accident or without the White House''s sanction.'
     n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 20. Check: Poole, 36, has McNamara at Omaha Feb. 5–6. Names: McNamara.'
@@ -404,6 +618,7 @@ entries:
   - id: cal.1961-02-04.defense-2
     when: Feb. 4
     date: '1961-02-04'
+    place: washington
     thread: defense
     also: [europe-and-the-alliance]
     c: 'Rusk to McNamara: "raising the threshold" for nuclear response "the greatest importance"; the general war deterrent "effective, invulnerable, and reliable"; "a mobile, substantial, and flexible capability for operations short of general war is essential," forward in the western Pacific; in Europe, conventional strength to enforce a pause for negotiation.'
@@ -432,6 +647,7 @@ entries:
   - id: cal.1961-02-04.china-leadership-2
     when: Feb. 4
     date: '1961-02-04'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador for the 13th anniversary of Ceylon's independence.
@@ -449,6 +665,7 @@ entries:
   - id: cal.1961-02-04.china-leadership-3
     when: Feb. 4
     date: '1961-02-04'
+    place: peking
     thread: china-leadership
     also: [china, cuba]
     c: Peking. Zhou Enlai attends the cocktail party given by the Commission for Cultural Relations with Foreign Countries and the Ministry of Culture for the Cuban ballet troupe.
@@ -478,9 +695,43 @@ entries:
         - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2b: A'
         - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2c: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-5
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: On the train, all day. Yang Shangkun 杨尚昆 talks two hours with Lü Zhengcao 吕正操, vice-minister of railways.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 4, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lü Zhengcao.'
+    src:
+      c: 7959df41
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-6
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: Yang Shangkun's 杨尚昆 train, past Yingtan 鹰潭, in rain all the way; he leaves it only at Shaowu 邵武 and one other station. The night on a siding at Zhuzhou 株洲.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 4, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f3e0e1fc
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-7
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: On the train, Yang Shangkun 杨尚昆 reads a chapter of *Principles of Marxist Philosophy* 《马克思主义哲学原理》 and *The Outer History of the Qing Court* 《清宫外史》.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 4, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-01-29.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: cb61977f
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-05.china-leadership
     when: Feb. 5
     date: '1961-02-05'
+    place: hangzhou
     thread: china-leadership
     c: 'Hangzhou, evening. Tian Jiaying reports to Mao his inquiry at the Hehe brigade, Weitang commune, Jiaxing county, Zhejiang: rice down from over 400 jin a mu to 291, chiefly the "five winds"; the brigade too big, eleven teams; the members against the mess halls.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 40 (Tian Jiaying''s report). Made public: 2013. Check: MacFarquhar has Tian report to Mao on Feb. 6, in Hangzhou, and Mao give seven heads on the rural situation. To check: [[w.bian-mao-zedong-he-tade]], 45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 913–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8b). Names: Tian Jiaying, Mao Zedong, Jiang Hua.'
@@ -512,6 +763,51 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 486–490: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 490 n.5: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1961-02-05.china-leadership-4
+    when: Feb. 5
+    date: '1961-02-05'
+    place: zhuzhou
+    thread: china-leadership
+    c: Zhuzhou 株洲. Zhang Pinghua 张平化 comes aboard Yang Shangkun's 杨尚昆 train to talk.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 5, 1961; note 2: Zhang, then first secretary in Hunan). The words: 晨 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Pinghua, Yang Shangkun.'
+    src:
+      c: 214441a0
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-04T21:00Z
+      - 1961-02-05T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-05.china-leadership-5
+    when: Feb. 5
+    date: '1961-02-05'
+    time: 1961-02-05T02:00Z
+    place: zhuzhou
+    thread: china-leadership
+    c: Zhuzhou 株洲, 10 to 12. Yang Shangkun 杨尚昆 visits the military factories 331 and 361, cut short by rain.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 5, 1961). The words: 10时 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: dd88af21
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-05.china-leadership-6
+    when: Feb. 5
+    date: '1961-02-05'
+    place: hengyang
+    thread: china-leadership
+    follows:
+      - cal.1961-02-05.china-leadership-5
+    c: Hengyang 衡阳. Yang Shangkun 杨尚昆 drives round the city for an hour and goes on south.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 5, 1961). The words: 12时回到车上，即开车赴衡阳 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d46f6515
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-06.defense
     when: Feb. 6
     date: '1961-02-06'
@@ -563,6 +859,7 @@ entries:
   - id: cal.1961-02-06.transition-and-staff
     when: Feb. 6
     date: '1961-02-06'
+    place: washington
     thread: transition-and-staff
     c: The Senate Judiciary Committee hears Louis F. Oberdorfer on his nomination as an Assistant Attorney General.
     n: '*Nomination of Louis Falk Oberdorfer: Hearing Before the S. Comm. on the Judiciary*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg65298)), 1. Names: Oberdorfer.'
@@ -611,6 +908,7 @@ entries:
   - id: cal.1961-02-06.white-house
     when: Feb. 6
     date: '1961-02-06'
+    place: washington
     thread: white-house
     c: 'Lunch at the White House, Kennedy, Jacqueline Kennedy and Clifford, on her plans for the mansion, by Clifford''s account. Clifford: the White House is government property, "a sacred cow to the American people"; the legal ground to be laid first, the outcry over the Truman Balcony in mind. At Kennedy''s request Clifford and his partner Carson Glass draw the legal framework for her work.'
     n: '[[w.clifford-counsel-to-the-president-2]], 363–64. Names: Kennedy, Jacqueline Kennedy, Clifford.'
@@ -649,6 +947,50 @@ entries:
     c: Liu Shaoqi receives a Nicaraguan cultural delegation and a Costa Rican cultural friendship delegation. China's enemies in the revolution were imperialism abroad and feudalism, the landlord class and the comprador bourgeoisie at home, chiefly imperialism; the revolution won, the country is building, but is still behind in economy and culture and means to catch up.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 504–505 (Feb. 6, 1961). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:nicaragua, polity:costa-rica, name:liu-shaoqi]
+  - id: cal.1961-02-06.china-leadership-4
+    when: Feb. 6
+    date: '1961-02-06'
+    time: 1961-02-06T00:00Z
+    place: canton
+    thread: china-leadership
+    c: Canton 广州. Yang Shangkun's 杨尚昆 train, at Baiyun 白云 station since 4:20 a.m., is left at 8; lodged in new houses near Dashatou 大沙头.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 6, 1961). The words: 8时 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a635b559
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-06.china-leadership-5
+    when: Feb. 6
+    date: '1961-02-06'
+    place: canton
+    thread: china-leadership
+    follows:
+      - cal.1961-02-06.china-leadership-4
+    c: Canton 广州. Yang Shangkun 杨尚昆 sees Li Fuchun 李富春, Wang Jiaxiang 王稼祥 and others, many already in the city.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 6, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun, Wang Jiaxiang.'
+    src:
+      c: dd60bcd6
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+  - id: cal.1961-02-06.china-leadership-6
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: china-leadership
+    c: Canton 广州. Yang Shangkun 杨尚昆 talks with Peng Zhen 彭真 by telephone.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 6, 1961). The words: 下午 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: cf270639
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-02-06T04:00Z
+      - 1961-02-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-07.king
     when: Feb. 7
     date: '1961-02-07'
@@ -668,6 +1010,7 @@ entries:
     when: Feb. 7
     date: '1961-02-07'
     time: 1961-02-07T15:00Z
+    place: washington
     thread: cuba-bay-of-pigs
     c: 'Mann''s office, 10 a.m. to 1 p.m., Berle in the chair, with Bissell, Barnes, King, Gray, Goodwin and others. A blockade set aside. No Americans to land; a few contract fliers in the strike. Gray: the force could hold six days and reach the mountains. Mann: once it lands the United States is committed, "would have to underwrite the success of the venture."'
     n: '[FRUS 1961–63, X, doc. 38](https://history.state.gov/historicaldocuments/frus1961-63v10/d38). Made public: FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 52 (the contract pilots; Mann). See [[cal.1961-01-28.cuba]]. Names: Mann, Berle, Bissell, Barnes, David Gray, Goodwin.'
@@ -709,9 +1052,44 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-07.china-leadership-2
+    when: Feb. 7
+    date: '1961-02-07'
+    place: canton
+    thread: china-leadership
+    c: Canton 广州. Yang Shangkun 杨尚昆 walks with Deng Xiaoping 邓小平 on Yuexiu Hill 越秀山 and at Huanghuagang 黄花岗.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 7, 1961). The words: 早饭后 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 51460bdf
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-06T22:00Z
+      - 1961-02-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-07.china-leadership-3
+    when: Feb. 7
+    date: '1961-02-07'
+    place: canton
+    thread: china-leadership
+    c: Canton 广州. Nie Rongzhen 聂荣臻 and Ye Jianying 叶剑英 come to Deng Xiaoping's 邓小平 to talk, until 5:30.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 7, 1961; the OCR''s 荣夷 read 荣臻 on the page). The words: 下午 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Nie Rongzhen, Ye Jianying, Deng Xiaoping.'
+    src:
+      c: 87a8b0dc
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, name:nie-rongzhen, name:ye-jianying, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-07T04:00Z
+      - 1961-02-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-08.cuba
     when: Feb. 8
     date: '1961-02-08'
+    place: washington
     thread: cuba-bay-of-pigs
     c: 'Bissell to Kennedy: the plan for launching the troops from Guatemala; the Chiefs give it a fair chance; no later than Mar. 31. Rusk and Berle: no decision needed now, the United States cast as aggressor. Kennedy asks for alternatives to an invasion. Authorized only: a junta of exile leaders, with a Revolutionary Council behind it.'
     n: '[FRUS 1961–63, X, doc. 40](https://history.state.gov/historicaldocuments/frus1961-63v10/d40) (Bundy); doc. [39](https://history.state.gov/historicaldocuments/frus1961-63v10/d39) (Bundy to Kennedy). Made public: FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 50–52 (Bissell''s case and the fair chance; the President''s want of other courses; the Council); [[w.bissell-reflections-of-a-cold]], 165–66 (Kennedy to Bundy, Feb. 6; Bundy, Feb. 8; the meeting); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 178. To check: Bissell, oral history, 4, 6, Kennedy Library; Bundy, memorandum of a meeting with the President, Feb. 9, 1961, National Security Files, box 35A, Kennedy Library (cited by [[w.jones-bay-of-pigs]], 51 n.14). See [[cal.1961-01-28.cuba]]. Names: Bissell, Kennedy, Rusk, Berle.'
@@ -739,6 +1117,7 @@ entries:
     when: Feb. 8
     date: '1961-02-08'
     time: 1961-02-08T15:00Z
+    place: washington
     thread: defense
     also: [desegregation-schools]
     c: 'News conference, the third. The missile gap: the studies not complete, "it would be premature to reach a judgment as to whether there is a gap or not a gap." New Orleans: "all students should be given the opportunity to attend public schools regardless of their race"; what to do there "a matter which we are carefully considering."'
@@ -778,6 +1157,7 @@ entries:
   - id: cal.1961-02-08.transition-and-staff
     when: Feb. 8
     date: '1961-02-08'
+    place: washington
     thread: transition-and-staff
     also: [civil-rights-the-executive]
     follows:
@@ -803,6 +1183,7 @@ entries:
   - id: cal.1961-02-08.press-and-broadcasting
     when: Feb. 8
     date: '1961-02-08'
+    place: washington
     thread: press-and-broadcasting
     c: The Senate Interstate and Foreign Commerce Committee hears Newton N. Minow on his nomination as a member of the Federal Communications Commission.
     n: '*Nomination of Newton N. Minow to Be a Member of the Federal Communications Commission: Hearing Before the S. Comm. on Interstate and Foreign Commerce*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg65498)), 1. Names: Minow.'
@@ -834,6 +1215,7 @@ entries:
   - id: cal.1961-02-08.laos
     when: Feb. 8
     date: '1961-02-08'
+    place: washington
     thread: laos
     c: 'The White House, 2:45 to 3:45 p.m., on Laos: Kennedy, Rusk, McNamara, Lemnitzer, Allen Dulles, Nitze, Rostow, Bissell, Bohlen, Parsons. Lemnitzer on Phoumi''s offensive, begun Feb. 6, to retake the Plaine des Jarres. C-130s authorized to carry supplies as far as Udon, Thailand; nine more training teams, 72 men, authorized. Kennedy against a SEATO force in Thailand for now. Bissell, later, of a meeting early in February: the Chiefs'' plan had the Plaine des Jarres seized by parachute troops about the tenth day; he found the briefing "almost surreal."'
     n: '[FRUS 1961–63, XXIV, doc. 14](https://history.state.gov/historicaldocuments/frus1961-63v24/d14). [[w.bissell-reflections-of-a-cold]], 147 (the plan briefed by Lemnitzer; the parachute troops; "almost surreal"). Check: that Bissell''s meeting is this one. See [[cal.1961-01-23.laos]]; [[cal.1961-01.laos]]. Names: Kennedy, Rusk, McNamara, Lemnitzer, Allen Dulles, Nitze, Rostow, Bissell, Bohlen, Parsons, Phoumi.'
@@ -850,6 +1232,7 @@ entries:
   - id: cal.1961-02-08.vietnam-hanoi
     when: Feb. 8
     date: '1961-02-08'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi: resolution no. 11-NQ/TW on the management of socialist enterprises: "the director responsible for management under the leadership of the enterprise''s Party committee, the workers taking part in management," applied widely since the campaign of October 1958, now defined.'
     n: '*Nghị quyết của Bộ Chính trị số 11-NQ/TW về chế độ lãnh đạo quản lý xí nghiệp xã hội chủ nghĩa*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXII, 184–95. Made public: 2002.'
@@ -865,6 +1248,7 @@ entries:
   - id: cal.1961-02-08.china-leadership
     when: Feb. 8
     date: '1961-02-08'
+    place: hangzhou
     thread: china-leadership
     also: [europe-and-the-alliance-france, africa-algeria-morocco]
     c: 'Hangzhou, the Nanping pool. Mao receives François Mitterrand, senator, president of the UDSR; Hu Yuzhi present. The walls between France and China (ideology, systems, diplomacy, trade) not high, for a time; no relations now, that too for a time; America''s refusal no hurry. Algeria: negotiate as equals; independence recognized and all French troops out, then the million French can live with the eight million Muslims. China''s difficulties can be overcome, given time and peace.'
@@ -917,6 +1301,7 @@ entries:
   - id: cal.1961-02-09.civil-rights-the-executive
     when: Feb. 9
     date: '1961-02-09'
+    place: washington
     thread: civil-rights-the-executive
     c: Senate confirms Robert C. Weaver as Housing and Home Finance administrator over southern objection.
     n: 'The hearing: *Nomination of Robert C. Weaver: Hearings Before the S. Comm. on Banking and Currency*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg65384)), 9 (Weaver, Feb. 7). [107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt2/pdf/GPO-CRECB-1961-pt2-6-1.pdf) (1961). [[w.mann-walls-of-jericho]], 305 (Eastland''s and Ellender''s charges; confirmed by voice vote). To check: [[w.pritchett-robert-clifton-weaver-and]]. Names: Weaver. Check: the page.'
@@ -936,6 +1321,7 @@ entries:
   - id: cal.1961-02-09.transition-and-staff
     when: Feb. 9
     date: '1961-02-09'
+    place: washington
     thread: transition-and-staff
     c: The Senate Judiciary Committee hears Nicholas Katzenbach on his nomination as Assistant Attorney General.
     n: '*Nomination of Nicholas De B. Katzenbach: Hearings Before the S. Comm. on the Judiciary*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg65843)), 2. Names: Katzenbach.'
@@ -975,6 +1361,7 @@ entries:
     when: Feb. 9
     date: '1961-02-09'
     time: 1961-02-09T03:40Z
+    place: peking
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives and gives a luncheon for the Nepalese delegation under Major General P. B. Khatri, Nepal's chief delegate to the boundary joint commission; hopes for friendship on the five principles and a boundary treaty. The next day at the Nepalese reception, Khatri says Nepal's economic plans have succeeded with great help from China, and the two have handled the boundary in Bandung's spirit.
@@ -985,6 +1372,22 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 390: ?'
         - 'w.zhou-enlai-waijiao-huodong 303: A'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-09.china-leadership-2
+    when: Feb. 9
+    date: '1961-02-09'
+    time: 1961-02-09T05:30Z
+    place:
+      - canton
+      - kunming
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from Canton 广州 to Kunming 昆明, the morning's start turned back by fog; up at 1:30 p.m., down at 4. The party lodged at the Kunming Hotel 昆明宾馆.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 9, 1961). The words: 下午1时半 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b0241e57
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
@@ -1046,6 +1449,7 @@ entries:
   - id: cal.1961-02-10.congo-lumumba
     when: Feb. 10
     date: '1961-02-10'
+    place: elisabethville
     thread: congo-lumumba
     c: 'Elisabethville. The CIA base to headquarters, three days before Katanga announces the death: "Lumumba fate is best kept secret in Katanga." Its several sources give different accounts of how he died.'
     n: '[[w.sen-church-alleged-assassination-plots]], 51 (the cable). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, Elisabethville to Director, Feb. 10, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 51). See [[cal.1961-01-19.congo-lumumba]]. Names: Lumumba.'
@@ -1053,6 +1457,7 @@ entries:
   - id: cal.1961-02-10.latin-america-dominican-republic
     when: Feb. 10
     date: '1961-02-10'
+    place: nyc
     thread: latin-america-dominican-republic
     c: New York. CIA officials meet Dominican dissident leaders, who say repeatedly that "the key to the success of the plot [to overthrow the Trujillo regime] would be the assassination of Trujillo." They ask for ex-FBI agents to plan and carry out his death, cameras and other items to fire projectiles, a slow-working chemical to pass to him in a handshake, silencers for rifles that kill from several miles.
     n: '[[w.sen-church-alleged-assassination-plots]], 198 (the CIA memorandum for the record of Feb. 13, cited for the meetings of Feb. 10 and 15 together; no record that the CIA answered the requests). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA memorandum for the record, Feb. 13, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 198). See [[cal.1961-01-31.latin-america-dominican-republic]]. Names: Trujillo. Check: the day: the report gives the words and requests for the two meetings, from the memorandum of Feb. 13.'
@@ -1066,6 +1471,7 @@ entries:
   - id: cal.1961-02-10.china-leadership
     when: Feb. 10
     date: '1961-02-10'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai attends the reception given by Maj. Gen. Khatri, chief Nepalese delegate to the China–Nepal Joint Boundary Committee.
@@ -1128,9 +1534,44 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 493–494: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 493 n.1a: all'
     tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1961-02-10.china-leadership-6
+    when: Feb. 10
+    date: '1961-02-10'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 sees the Black Dragon Pool 黑龙潭 and the botanical garden.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 10, 1961). The words: 上午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 518e5cae
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-09T22:00Z
+      - 1961-02-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-10.china-leadership-7
+    when: Feb. 10
+    date: '1961-02-10'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 at the Daguan Lou 大观楼.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 10, 1961). The words: 下午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 46b52d9b
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-10T04:00Z
+      - 1961-02-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
+    place: washington
     thread: soviet-union
     c: 'Cabinet Room, on the thinking of the Soviet leadership: Kennedy, Johnson and Rusk with Thompson, home for consultation, Harriman, Bohlen and Kennan. Khrushchev strong at home, agriculture his weakness; he wants a quiet time abroad and progress on disarmament; Berlin not brought to a boil unless talks break down. Feb. 13, Thompson before the Foreign Relations Committee in executive session.'
     n: 'FRUS 1961–63, V, docs. [26](https://history.state.gov/historicaldocuments/frus1961-63v05/d26) (Bundy''s notes), [27](https://history.state.gov/historicaldocuments/frus1961-63v05/d27). [[w.fursenko-one-hell-of-a]], 87–88 (the meeting on a summit); [[w.sorensen-kennedy]], 541–42. To check: [[w.bohlen-witness-to-history-1929]]. See [[cal.1961-01-20.soviet-union]]. Names: Johnson, Rusk, Thompson, Harriman, Bohlen, Kennan, Khrushchev.'
@@ -1144,6 +1585,7 @@ entries:
   - id: cal.1961-02-11.cuba
     when: Feb. 11
     date: '1961-02-11'
+    place: washington
     thread: cuba-bay-of-pigs
     c: 'Schlesinger to Kennedy: the case for "a drastic decision" holds only looking at Cuba alone. However disguised, it will be ascribed to the United States; the new administration''s first dramatic initiative abroad.'
     n: '[FRUS 1961–63, X, doc. 43](https://history.state.gov/historicaldocuments/frus1961-63v10/d43). [[w.schlesinger-thousand-days-1965]], 240 (sent the day before he left for Buenos Aires). Made public, in part: [[w.schlesinger-thousand-days-1965]], 240 (1965); in full, FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 52–53. To check: Robert Kennedy, oral history, 1, 44, Kennedy Library (cited by [[w.jones-bay-of-pigs]], 53 n.20). See [[cal.1961-01-28.cuba]]. Names: Schlesinger, Kennedy.'
@@ -1170,6 +1612,42 @@ entries:
     c: 'Zhou Enlai, told that Sihanouk''s proposal of a widened Geneva conference has won more states'' support, writes to him: China holds that if non-interference in Laos and respect for its unity and territorial integrity are truly kept by the states concerned, that will help an international conference and a peaceful settlement of the Laotian question.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 11, 1961). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+  - id: cal.1961-02-11.china-leadership-2
+    when: Feb. 11
+    date: '1961-02-11'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 at the Western Hills 西山 and the Dragon Gate 龙门; by launch across the Dian Lake 滇池 in an hour and a half to the Daguan Lou 大观楼, at 2 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 11, 1961). The words: 上午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8e4bd3c1
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-10T22:00Z
+      - 1961-02-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-11.china-leadership-3
+    when: Feb. 11
+    date: '1961-02-11'
+    place: kunming
+    thread: china-leadership
+    follows:
+      - cal.1961-02-11.china-leadership-2
+    c: Kunming 昆明. Yang Shangkun 杨尚昆, his left shoulder aching, has infrared treatment and sleeps till 5.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 11, 1961). The words: 午饭后 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1c9b1dbc
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-11T04:00Z
+      - 1961-02-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-12.opinion
     when: Feb. 12
     date: '1961-02-12'
@@ -1193,6 +1671,23 @@ entries:
     c: 'Liu Shaoqi receives the Nepalese members of the China–Nepal boundary joint committee, headed by Major General Padma Bahadur Khatri. China will never oppress or bully weak small states: the nature of the state and Party forbids it, and a Communist-led state that invaded or oppressed others would be neither Communist nor socialist.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 12, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, polity:nepal, name:liu-shaoqi, vis:only:prc+nepal]
+  - id: cal.1961-02-12.china-leadership-3
+    when: Feb. 12
+    date: '1961-02-12'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 and the party visit the Golden Temple 金殿, a copper hall copied from Wudang 武当山, not Wu Sangui's 吴三桂 throne hall.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 12, 1961; note 1: Wu Sangui). The words: 上午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 11e8b037
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-11T22:00Z
+      - 1961-02-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-13.congo
     when: Feb. 13
     date: '1961-02-13'
@@ -1215,6 +1710,7 @@ entries:
   - id: cal.1961-02-13.vietnam
     when: Feb. 13
     date: '1961-02-13'
+    place: saigon
     thread: vietnam
     c: 'Durbrow, with McGarr and Gen. Isaac D. White, gives Diệm an abridged Counterinsurgency Plan under a covering letter, an hour and forty-five minutes, Thuần present. Diệm and Thuần: how to pay the piaster costs of 20,000 more men.'
     n: '[FRUS 1961–63, I, doc. 11](https://history.state.gov/historicaldocuments/frus1961-63v01/d11) (Durbrow, Feb. 13). [[w.miller-misalliance]], 224 (the plan presented in February; the 20,000; the reforms; Diệm''s wariness). See [[cal.1961-01-28.vietnam]]. Names: Durbrow, McGarr, Diệm, Nguyễn Đình Thuần.'
@@ -1234,6 +1730,7 @@ entries:
   - id: cal.1961-02-13.cities-and-housing
     when: Feb. 13
     date: '1961-02-13'
+    place: chicago
     thread: cities-and-housing
     c: Chicago, Holy Guardian Angel. Florence Scala, of the New West Side Planning Board, drafted to lead the Near West Side's fight against the University of Illinois's campus on Harrison-Halsted.
     n: '[[w.cohen-american-pharaoh]], 229.'
@@ -1276,6 +1773,7 @@ entries:
     when: Feb. 13
     date: '1961-02-13'
     time: 1961-02-13T05:00Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai receives the Soviet–Chinese Friendship Association and four Soviet delegations (economic, science and technology, trade, trade union). Because of last year's grain shortfall, fuel too is a problem and industrial raw materials short; "agriculture is the base of the whole national economy" is quite right.
@@ -1291,6 +1789,7 @@ entries:
     when: Feb. 13
     date: '1961-02-13'
     time: 1961-02-13T06:20Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at the rally for the eleventh anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
@@ -1305,6 +1804,7 @@ entries:
   - id: cal.1961-02-13.china-leadership-3
     when: Feb. 13
     date: '1961-02-13'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Soviet Embassy. Zhou Enlai attends the reception given by the Soviet Ambassador, Chervonenko, for the 11th anniversary of the Sino-Soviet treaty.
@@ -1319,9 +1819,24 @@ entries:
       - 1961-02-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-13.china-leadership-4
+    when: Feb. 13
+    date: '1961-02-13'
+    time: 1961-02-13T00:00Z
+    place: stone-forest
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, by train at 8 a.m. to Lunan 路南 and by car to the Stone Forest 石林, his second visit, the first in 1956; two hours there, the Zhiyun Cave 芝云洞 on the way back; at the Kunming 昆明 hotel by 8 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 653–654 (Feb. 13, 1961). The words: 8时 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: fae321b2
+      rows:
+        - 'w.yang-shangkun-riji I, 653–654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-14.state-and-city-finance-wv
     when: Feb. 14
     date: '1961-02-14'
+    place: west-virginia
     thread: state-and-city-finance
     c: 'West Virginia''s personal income tax. Barron signs S. 106, passed Feb. 10: a tax of 6 percent of the taxpayer''s federal income tax, on the federal definitions of income, from the year 1961. The same session: an added one-cent consumers sales tax, to Aug. 31 (S. 3).'
     n: '*West Virginia Blue Book*, 1961, [p. 247](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1961.pdf#page=257); 1964, [p. 928](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1964.pdf#page=938) (W. Va. Code ch. 11, art. 21; "a conformity statute"). To check: [[w.williams-west-virginia]]; [[w.peirce-border-south-states]]. Names: Barron.'
@@ -1401,6 +1916,7 @@ entries:
   - id: cal.1961-02-14.china-leadership-3
     when: Feb. 14
     date: '1961-02-14'
+    place: hefei
     thread: china-leadership
     c: 'Hefei: Zeng Xisheng summons the Anhui secretariat and orders immediate research into responsibility systems; within days he sends four senior colleagues to supervise an experiment at Dushan commune near Hefei, saying he alone will bear responsibility.'
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 211. Made public: 1997. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.14a); [[w.sichuan-sheng-qing-sichuan]], 290 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.14b). Check: the days after the 14th.'
@@ -1439,6 +1955,7 @@ entries:
   - id: cal.1961-02-15.latin-america
     when: Feb. 15
     date: '1961-02-15'
+    place: washington
     thread: latin-america
     c: 'Rusk to Kennedy, by memorandum: "Our representatives in the Dominican Republic have, at considerable risk to those involved, established contacts with numerous leaders of the underground opposition. The CIA has ... recently been authorized to arrange for delivery to them outside the Dominican Republic of small arms and sabotage equipment."'
     n: '[[w.reeves-president-kennedy]], 140–41; [[w.sen-church-alleged-assassination-plots]], 203 (the memorandum, "February 15, 1961," in the text, its note printing "5/15/61"; the passage quoted as "* * * [and] * * * the CIA has recently been authorized"; Rusk testified he was not told of the dissidents'' intent). To check: Rusk to Kennedy, Feb. 15, 1961, National Security Files, box 66–67, Kennedy Library (cited by [[w.reeves-president-kennedy]], 140). Check: Rusk''s memorandum of the day on the Dominican Republic, as [FRUS 1961–63, XII, doc. 302](https://history.state.gov/historicaldocuments/frus1961-63v12/d302) prints it, on the sugar quota and Trujillo''s hold, has no such passage. Names: Rusk, Kennedy.'
@@ -1459,6 +1976,7 @@ entries:
     when: Feb. 15
     date: '1961-02-15'
     time: 1961-02-16T00:00Z
+    place: washington
     thread: congo
     c: 'News conference, the opening statement: support for the UN in the Congo; an attempt to destroy the UN system "a blow aimed directly at the independence and security of every nation." A warning against "unilateral intervention in the internal affairs of the Republic of Congo," "so dangerous and irresponsible a step."'
     n: 'The President''s News Conference, [1961 Pub. Papers 91](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=149) (Feb. 15, 1961). [[w.sorensen-kennedy]], 636 (after Lumumba''s death and the Soviet recognition of Gizenga); [[w.ball-past-has-another-pattern]], 229 (Kennedy''s warning that America would "defend the Charter of the United Nations by opposing any attempt by any government to intervene unilaterally in the Congo"; Ball dates it Feb. 25, 1961, citing Stebbins; not the opening statement''s wording). Check: Ball, 229, has the President''s warning on Feb. 25, 1961, "as one of his first acts," quoted "defend the Charter of the United Nations by opposing any attempt by any government to intervene unilaterally in the Congo" (n.6: Stebbins, *The United States in World Affairs, 1961*, 254); the entry has the news conference of Feb. 15. See [[cal.1961-02-13.congo]]. Names: Kennedy.'
@@ -1490,6 +2008,7 @@ entries:
   - id: cal.1961-02-15.latin-america-dominican-republic
     when: Feb. 15
     date: '1961-02-15'
+    place: nyc
     thread: latin-america-dominican-republic
     c: 'New York. CIA officials meet the Dominican dissident leaders again. Proposed at this meeting or that of Feb. 10: poison in Trujillo''s food or medicines, an ambush of his car, an attack with firearms and grenades. The dissidents'' "latest plot": a powerful bomb along the route of his evening walk, set off from a nearby electric device.'
     n: '[[w.sen-church-alleged-assassination-plots]], 198 (the CIA memoranda for the record of Feb. 13 and 16). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA memorandum for the record, Feb. 16, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 198). See [[cal.1961-02-14.latin-america-dominican-republic]]. Names: Trujillo. Check: which meeting heard the methods and the "latest plot": the report does not say.'
@@ -1498,6 +2017,7 @@ entries:
     when: Feb. 15
     date: '1961-02-15'
     time: 1961-02-15T04:50Z
+    place: peking
     thread: china-leadership
     also: [soviet-union, europe-and-the-alliance-federal-republic]
     c: 'Zhou Enlai receives the East German Ambassador: each socialist state has its difficulties and its strengths, but a common truth is first to rely on oneself and then on brother states; the two parties should keep up an ethic of hard struggle, hardship first, pleasure after, Communists in front in difficulty. China''s difficulty: last year''s grain, cotton and light-industry raw materials fell, affecting light and heavy industry; the next two years'' line is adjusting, consolidating, filling out, raising; long-term trade cannot grow in the next two years, after two or three years mutual aid may be strengthened.'
@@ -1526,6 +2046,54 @@ entries:
       - 1961-02-15T00:00Z
     time_band: early morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-3
+    when: Feb. 15
+    date: '1961-02-15'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明, the Spring Festival. The Yunnan 云南 provincial committee comes to the hotel for the New Year's greetings 团拜 to Yang Shangkun 杨尚昆 and the party.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 15, 1961). The words: 上午 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 73ab5b1c
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-14T22:00Z
+      - 1961-02-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-4
+    when: Feb. 15
+    date: '1961-02-15'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Liu Piyun 刘披云, vice-governor of Yunnan 云南, calls on Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 15, 1961; note 1: Liu Piyun). The words: 下午 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Piyun, Yang Shangkun.'
+    src:
+      c: 79868e67
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-15T04:00Z
+      - 1961-02-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-5
+    when: Feb. 15
+    date: '1961-02-15'
+    time: 1961-02-15T09:30Z
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明, 5:30 p.m. Yang Shangkun 杨尚昆 and Kang Sheng 康生 visit the history museum.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 15, 1961). The words: 5时半 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: 553593f5
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-16.latin-america
     when: Feb. 16
     date: '1961-02-16'
@@ -1547,6 +2115,7 @@ entries:
   - id: cal.1961-02-16.soviet-union
     when: Feb. 16
     date: '1961-02-16'
+    place: moscow
     thread: soviet-union-leadership
     also: [economy-gold]
     c: 'The Presidium. Twenty-three tons of gold, $26 million, to be sold in London to buy European butter. Khrushchev on a regional boss promoted for meeting his meat quota by slaughtering milk cows: "Why are we bringing such shit into the bosom of the party?"'
@@ -1581,6 +2150,7 @@ entries:
   - id: cal.1961-02-16.defense-2
     when: Feb. 16
     date: '1961-02-16'
+    place: washington
     thread: defense
     also: [congress]
     c: Mahon's Defense subcommittee of House Appropriations opens its hearings on Eisenhower's bill, $40.804 billion. McNamara there briefly; the subcommittee adjourns in memory of a member lately dead. The services' witnesses follow; the first phase closes Mar. 21.
@@ -1610,10 +2180,44 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37c: all'
     tags: [polity:prc]
+  - id: cal.1961-02-16.china-leadership-2
+    when: Feb. 16
+    date: '1961-02-16'
+    time: 1961-02-16T03:00Z
+    place:
+      - kunming
+      - chengdu
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from Kunming 昆明 at 11 and reaches Chengdu 成都 at 1; lodged at Jinniuba 金牛坝. Rain only lately in Sichuan 四川; drought still near Chengdu.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 16, 1961). The words: 11时 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: beffabde
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-16.china-leadership-3
+    when: Feb. 16
+    date: '1961-02-16'
+    place: chengdu
+    thread: china-leadership
+    c: Li Jingquan 李井泉 returns to Chengdu 成都 from Chongqing 重庆.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 16, 1961; note 3: Li, first secretary of the Southwest Bureau and of Sichuan). The words: 下午 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jingquan.'
+    src:
+      c: a96890e7
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, name:li-jingquan, vis:only:prc]
+    time_range:
+      - 1961-02-16T04:00Z
+      - 1961-02-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-17.economy
     when: Feb. 17
     date: '1961-02-17'
     time: 1961-02-17T16:30Z
+    place: washington
     thread: economy
     also: [europe-and-the-alliance]
     c: 'Brentano with Kennedy and Rusk, 11:30 a.m.: Berlin, Poland, the balance of payments. The points drafted for the President, Feb. 16: a short-term reserve problem and a long-term basic deficit, the deficit "only because the U.S. is carrying such heavy burdens of defense for the whole free world"; Bonn''s proposals touch only the first. The draft aide-mémoire: a sustained accumulation of reserves by any one country "disruptive to the international community."'
@@ -1692,6 +2296,7 @@ entries:
   - id: cal.1961-02-17.china-leadership
     when: Feb. 17
     date: '1961-02-17'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking Hotel. Zhou Enlai receives the Burmese Ambassador.
@@ -1705,6 +2310,37 @@ entries:
       - 1961-02-17T11:00Z
       - 1961-02-17T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-17.china-leadership-2
+    when: Feb. 17
+    date: '1961-02-17'
+    time: 1961-02-17T01:00Z
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都, 9 to 12. Yang Shangkun 杨尚昆 at Du Fu's Thatched Cottage 草堂 and the Wuhou Temple 武侯祠.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 17, 1961). The words: 上午9时到12时 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4ee69460
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-17.china-leadership-3
+    when: Feb. 17
+    date: '1961-02-17'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Cheng Zijian 程子健 calls on Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 17, 1961; note 1: Cheng, then vice-chairman of the Sichuan CPPCC). The words: 下午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Cheng Zijian, Yang Shangkun.'
+    src:
+      c: 43afa868
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-17T04:00Z
+      - 1961-02-17T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-02-18.transition-and-staff
     when: Feb. 18
@@ -1732,6 +2368,7 @@ entries:
   - id: cal.1961-02-18.cuba
     when: Feb. 18
     date: '1961-02-18'
+    place: washington
     thread: cuba-bay-of-pigs
     c: 'The White House. Bundy passes Kennedy the case for the landing, Bissell''s, and the case against, Mann''s. Rusk: better to wait and build OAS support; Berle: not by Mar. 31. Kennedy asks whether a speech, or the Soviet jets and rockets in Cuba, could prepare the ground.'
     n: 'FRUS 1961–63, X, docs. [47](https://history.state.gov/historicaldocuments/frus1961-63v10/d47) (Bundy), [48](https://history.state.gov/historicaldocuments/frus1961-63v10/d48) (Gray''s notes, misdated Feb. 17); [46](https://history.state.gov/historicaldocuments/frus1961-63v10/d46) (the CIA''s paper, Bissell''s case, Feb. 17); [45](https://history.state.gov/historicaldocuments/frus1961-63v10/d45) (Mann, Feb. 15). Made public: FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 52–53 (52: the doubts, Bundy''s among them; 53: Bissell''s paper). See [[cal.1961-01-28.cuba]]. Names: McGeorge Bundy, Kennedy, Bissell, Mann, Rusk, Berle.'
@@ -1755,6 +2392,7 @@ entries:
   - id: cal.1961-02-18.vietnam-hanoi
     when: Feb. 18
     date: '1961-02-18'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 12-CT/TW. The reform of private industry and trade by its higher form basically done; the joint state-private firms to be rearranged, their management reformed, their policies amended, the reformed capitalists, who work and obey in varying measure, further reformed.'
     n: '*Chỉ thị của Ban Bí thư số 12-CT/TW về việc củng cố và đẩy mạnh sản xuất, kinh doanh của các xí nghiệp công tư hợp doanh*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 196–204. Made public: 2002.'
@@ -1763,6 +2401,7 @@ entries:
     when: Feb. 18
     date: '1961-02-18'
     time: 1961-02-18T06:00Z
+    place: peking
     thread: china-leadership
     also: [congo]
     c: Peking. Zhou Enlai at the rally of 100,000 protesting the killing of Lumumba by imperialism and its agents.
@@ -1782,6 +2421,7 @@ entries:
   - id: cal.1961-02-18.china-leadership-2
     when: Feb. 18
     date: '1961-02-18'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives Yusuf Osman Samatar, secretary-general of the Greater Somali League.
@@ -1796,9 +2436,27 @@ entries:
       - 1961-02-18T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-18.china-leadership-3
+    when: Feb. 18
+    date: '1961-02-18'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Li Zonglin 李宗林 calls on Yang Shangkun 杨尚昆, who asks him about Chengdu.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 18, 1961; note 2: Li, then head of the Sichuan committee''s United Front Work Department; the day''s heading lost in the OCR, read on the page). The words: 上午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Zonglin, Yang Shangkun.'
+    src:
+      c: 4f68252b
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-17T22:00Z
+      - 1961-02-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
+    place: canton
     thread: china-leadership
     c: 'Canton, evening. Chen Boda reports his inquiry and gives Mao the "Notes of an inquiry at some production teams of Guangdong''s communes": the small teams to be called production teams, the accounting units brigades; rich and poor villages forced together to be parted; levelling among teams and members now the question.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961. Made public: 2013. Names: Chen Boda, Mao Zedong.'
@@ -1811,6 +2469,40 @@ entries:
     c: Zhou Enlai at the symposium of the People's Political Consultative Conference's committee on literary and historical materials and some of the Central Institute of Literature and History, urging them to write more.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 19, 1961). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1961-02-19.china-leadership-3
+    when: Feb. 19
+    date: '1961-02-19'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平 to the Zhaojue Temple 昭觉寺, then alone to the Wenshu Monastery 文殊院.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 19, 1961). The words: 上午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: ccbb530f
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-18T22:00Z
+      - 1961-02-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-19.china-leadership-4
+    when: Feb. 19
+    date: '1961-02-19'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 swims, after a nap to 4 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 19, 1961). The words: 直到4时才起床。游泳后吃饭 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2466f89d
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-19T04:00Z
+      - 1961-02-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-20.school-aid
     when: Feb. 20
     date: '1961-02-20'
@@ -1835,6 +2527,7 @@ entries:
   - id: cal.1961-02-20.court
     when: Feb. 20
     date: '1961-02-20'
+    place: washington
     thread: court
     c: '*Monroe v. Pape*, [365 U.S. 167](https://tile.loc.gov/storage-services/service/ll/usrep/usrep365/usrep365167/usrep365167.pdf). Section 1983 reaches police who break state law.'
     n: See [[cal.1961-01-23.court]].
@@ -1869,6 +2562,7 @@ entries:
   - id: cal.1961-02.states-and-cities-nyc
     when: Feb.
     date: 1961-02
+    place: nyc
     thread: states-and-cities
     also: [elections-1961]
     c: New York. Early in the month Wagner calls on DeSapio to step down as leader of the county's Democrats.
@@ -1877,6 +2571,7 @@ entries:
   - id: cal.1961-02-20.jobs-and-wages
     when: Feb. 20
     date: '1961-02-20'
+    place: washington
     thread: jobs-and-wages
     also: [economy]
     c: 'Clark''s public works bill, on the lines of the PWA: $500 million in grants, up to 45 percent of a project''s cost, and $500 million more for the President to release against the recession. "If Federal money is going to be spent, I urge that we put our emphasis on buying things of lasting value."'
@@ -1891,6 +2586,7 @@ entries:
   - id: cal.1961-02-20.cities-and-housing
     when: Feb. 20
     date: '1961-02-20'
+    place: chicago
     thread: cities-and-housing
     c: Chicago, Hull House. More than five hundred of the neighborhood, Scala presiding, form the Harrison-Halsted Community Group against the campus.
     n: '[[w.cohen-american-pharaoh]], 229–30. Check: the day; Cohen and Taylor: a week after Feb. 13.'
@@ -1922,6 +2618,7 @@ entries:
     when: Feb. 20
     date: '1961-02-20'
     time: 1961-02-20T20:30Z
+    place: rio-de-janeiro
     thread: latin-america
     c: Rio de Janeiro, 5:30 p.m. Schlesinger, Kennedy's personal representative on the Latin American trip with McGovern's Food for Peace mission, calls with Ambassador Cabot on Lacerda, the governor of the state that includes Rio. The talk, chiefly of the favelas; Lacerda, like the Archbishop, stresses rural reform to hold more of the people on the land. By Schlesinger's journal.
     n: '[[w.schlesinger-journals]], 103–04. Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger, Kennedy, McGovern, Cabot.'
@@ -1946,6 +2643,51 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: all'
     tags: [polity:prc, polity:congo]
+  - id: cal.1961-02-20.china-leadership-2
+    when: Feb. 20
+    date: '1961-02-20'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平 and Kang Sheng 康生 to the People's Park, its museum and a teahouse.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 20, 1961). The words: 上午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng.'
+    src:
+      c: c9d2a3e2
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-19T22:00Z
+      - 1961-02-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-20.china-leadership-3
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china-leadership
+    c: Peng Zhen 彭真 telephones Yang Shangkun 杨尚昆 at Chengdu 成都.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 20, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: bcef5b2a
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-02-20.china-leadership-4
+    when: Feb. 20
+    date: '1961-02-20'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 swims, after a haircut.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 20, 1961). The words: 午睡后去理发，游泳 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d8d20563
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-20T04:00Z
+      - 1961-02-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-21.africa
     when: Feb. 21
     date: '1961-02-21'
@@ -1996,6 +2738,7 @@ entries:
   - id: cal.1961-02-21.congo
     when: Feb. 21
     date: '1961-02-21'
+    place: nyc
     thread: congo
     c: 'The Security Council strengthens the UN''s mandate in the Congo, calls for the withdrawal of foreign military and political advisers and the parliament''s convening. The Joint Chiefs, the same day: the Gizenga regime "the one factor which is most seriously aggravating the situation"; support the Sudan against Nasser''s pressure for transit rights.'
     n: '[[w.poole-joint-chiefs-of-staff]], 258. Names: Gizenga, Nasser.'
@@ -2036,9 +2779,27 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-21.china-leadership-3
+    when: Feb. 21
+    date: '1961-02-21'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 21, 1961). The words: 下午去游泳 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 31f24f11
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-21T04:00Z
+      - 1961-02-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-22.berlin-and-vienna
     when: Feb. 22
     date: '1961-02-22'
+    place: washington
     thread: berlin-and-vienna
     also: [soviet-union]
     c: 'Kennedy to Khrushchev, by letter, drafted at the White House the day before with Rusk, Thompson, Harriman, Bohlen, Kohler and Bundy: more use of diplomatic channels, "not in the sense of negotiations"; a meeting "before too long" for "an informal exchange of views." Thompson to discuss it. Mar. 9, outside Novosibirsk, Thompson gives Khrushchev the letter: early May, Vienna or Stockholm. Khrushchev inclined to agree; Vienna preferred.'
@@ -2129,6 +2890,7 @@ entries:
   - id: cal.1961-02-22.china-leadership-4
     when: Feb. 22
     date: '1961-02-22'
+    place: peking
     thread: china-leadership
     also: [china, middle-east]
     c: Peking, the UAR Embassy. Zhou Enlai attends the national day reception given by the UAR Ambassador, Taraji.
@@ -2141,6 +2903,7 @@ entries:
   - id: cal.1961-02-22.china-leadership
     when: Feb. 22–Mar. 6
     date: '1961-02-22'
+    place: peking
     thread: china-leadership
     c: Peking. The Chinese Academy of Sciences' leading party members group holds an expanded meeting on the draft science programme (fifteen articles, Zhang Jingfu, Du Runsheng and Wu Mingyu) and on the complaints raised at Shanghai's "meeting of immortals" at the end of 1960.
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 92. Made public: 1997. To check: [[w.zhanduan-liu-deng-shenxiang]], 1–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 92 n.21a); [[w.chedi-qingsuan-jiu-zhong]], 8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 92 n.21b); [[w.da-pipan-beijing-cailiao]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 92 n.21c).'
@@ -2152,6 +2915,23 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21c: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-22.china-leadership-5
+    when: Feb. 22
+    date: '1961-02-22'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 and Kang Sheng 康生 buy books in Citang Street 祠堂街; Yang buys three, among them the *Huayang guozhi* 《华阳国志》 and the *Shujian* 《蜀鉴》.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 22, 1961; the mornings rain "timely", the crops to yield a tenth or a fifth more, it is said). The words: 上午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: 39c0820b
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-21T22:00Z
+      - 1961-02-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-23.conservation
     when: Feb. 23
     date: '1961-02-23'
@@ -2174,6 +2954,7 @@ entries:
   - id: cal.1961-02-23.defense
     when: Feb. 23
     date: '1961-02-23'
+    place: washington
     thread: defense
     also: [congress]
     c: 'McNamara before House Armed Services: his recommendations on missiles, aircraft and ships by the end of the month. Vinson can hardly believe it; three crisp "yes, sir" answers, by Stewart Alsop.'
@@ -2192,6 +2973,7 @@ entries:
   - id: cal.1961-02-23.defense-2
     when: Feb. 23
     date: '1961-02-23'
+    place: washington
     thread: defense
     c: 'The Senate Armed Services Committee hears nominees: Stephen Ailes, Under Secretary of the Army; Richard S. Morse, Assistant Secretary of the Army; William F. Schaub, Assistant Secretary of the Army.'
     n: '*Nominations: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg66187)), 1 (Ailes), 7 (Morse), 18 (Schaub). Names: Ailes, Morse, Schaub.'
@@ -2233,6 +3015,7 @@ entries:
   - id: cal.1961-02-23.china-leadership
     when: Feb. 23–25
     date: '1961-02-23'
+    place: shenyang
     thread: china-leadership
     also: [economy]
     c: 'Zhou Enlai at Shenyang, Feb. 23–25, to settle the serious fall of industrial output since January and turn around the Northeast''s and the nation''s: hears the Northeast Bureau on coal and other output, and Song Renqiong, Ouyang Qin and others. On the 25th he reports to the Northeast Bureau''s and Liaoning''s bureau-level cadres and takes the midnight train; on the 26th, on the train, he calls Lü Dong, Lü Zhengcao and Zhang Linzhi on the Northeast''s industry.'
@@ -2241,6 +3024,7 @@ entries:
   - id: cal.1961-02-23.china-leadership-2
     when: Feb. 23
     date: '1961-02-23'
+    place: canton
     thread: china-leadership
     c: Canton. Members of the three investigation teams meet to start drafting regulations for the communes.
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.10).'
@@ -2250,6 +3034,40 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-23.china-leadership-3
+    when: Feb. 23
+    date: '1961-02-23'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平, Kang Sheng 康生 and Li Fuchun 李富春 to the Qingyang Gong 青羊宫 and the Erxian'an 二仙庵.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 23, 1961). The words: 上午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Li Fuchun.'
+    src:
+      c: 90ff71a1
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1961-02-22T22:00Z
+      - 1961-02-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-23.china-leadership-4
+    when: Feb. 23
+    date: '1961-02-23'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 meets his brothers and sisters in Chengdu at his sixth brother's, who give a dinner, Cheng Zijian 程子健 and Li Zonglin 李宗林 invited; uneasy at it, he goes; back at 8:15.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 23, 1961; arranged with his brother Changbing 昌冰 the day before (I, 656)). The words: 下午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Cheng Zijian, Li Zonglin.'
+    src:
+      c: fbe33827
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-23T04:00Z
+      - 1961-02-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-24.crime-and-hijacking
     when: Feb. 24
     date: '1961-02-24'
@@ -2271,6 +3089,7 @@ entries:
   - id: cal.1961-02-24.soviet-union
     when: Feb. 24
     date: '1961-02-24'
+    place: moscow
     thread: soviet-union-leadership
     also: [china]
     c: 'The Presidium, after the Albanian party''s congress attacks Khrushchev before a Soviet delegation under Pospelov. Khrushchev for breaking all trade with Albania; Mikoyan: what matters is China, and Mao might overreact. Khrushchev accepts caution.'
@@ -2310,6 +3129,7 @@ entries:
   - id: cal.1961-02-24.cuba
     when: Feb. 24
     date: '1961-02-24'
+    place: havana
     thread: cuba
     also: [soviet-union]
     c: 'Kudryavtsev to Moscow, on his meeting with Escalante: the Cubans think Kennedy "decided to take action in March"; Raúl Castro and the PSP want Soviet help with a plan for the island''s defense, Flavio Bravo of the PSP to carry the request.'
@@ -2347,6 +3167,7 @@ entries:
   - id: cal.1961-02-24.trade
     when: Feb. 24
     date: '1961-02-24'
+    place: washington
     thread: trade
     c: The Senate Banking and Currency Committee hears Harold F. Linder on his nomination as President of the Export-Import Bank of Washington.
     n: '*Nomination of Harold F. Linder: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg66160)), 4. Names: Linder.'
@@ -2380,13 +3201,48 @@ entries:
     when: Feb. 24
     date: '1961-02-24'
     time: 1961-02-24T21:00Z
+    place: la-paz
     thread: latin-america
     c: 'La Paz, 5 p.m. Schlesinger, for Kennedy, with President Paz Estenssoro. Paz: the Latin American oligarchies resisting change make the revolution more violent when it comes. On Cuba: "Castro must be eliminated"; first the economic screws, then an educational campaign on the Castro regime. Schlesinger: the revolution must be protected from the oligarchy of the right and from "the conspiracy and sabotage of the left." Paz: with assistance he can deal with his local Communist problem. By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 104–06. Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger, Kennedy, Castro.'
     tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f, name:castro-fidel]
+  - id: cal.1961-02-24.china-leadership
+    when: Feb. 24
+    date: '1961-02-24'
+    place: xinfan
+    thread: china-leadership
+    c: 'Xinfan 新繁. Yang Shangkun 杨尚昆, with his wife, at the Baoguang Temple 宝光寺 and the Gui Lake 桂湖, its exhibition hall new. The county committee (Xinfan and Xindu 新都 now merged): two inches of rain the day before last; yields may rise 20 to 30 jin a mu. Back in Chengdu 成都 at 2.'
+    n: '[[w.yang-shangkun-riji]], I, 656–657 (Feb. 24, 1961; note 1: the two Xin counties). The words: 上午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c2f3a38d
+      rows:
+        - 'w.yang-shangkun-riji I, 656–657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-23T22:00Z
+      - 1961-02-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-24.china-leadership-2
+    when: Feb. 24
+    date: '1961-02-24'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 24, 1961). The words: 下午游泳 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bc31a5c3
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-24T04:00Z
+      - 1961-02-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-25.vietnam
     when: Feb. 25
     date: '1961-02-25'
+    place: hanoi
     thread: vietnam
     also: [vietnam-hanoi]
     c: 'The Politburo, sessions of Jan. 31 and Feb. 25, on the military tasks of 1961–65: peace in the North the first task; in the South armed struggle raised to equal weight with the political, ten to fifteen main-force regiments to be built; the Central Military Party Committee to direct the war there. Hồ Chí Minh to the closing session. The same day, its resolution 12-NQ/TW: a rectification campaign in the spring of 1961, ideological work tied to life and production, finished by the end of June; a Central Rectification Board under Trường Chinh.'
@@ -2449,6 +3305,7 @@ entries:
   - id: cal.1961-02-25.china-leadership
     when: Feb. 25
     date: '1961-02-25'
+    place: canton
     thread: china-leadership
     c: 'Canton, Jijingkeng. Mao''s meeting with Tao Zhu, Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang and Tian Jiaying: a set of working regulations for the rural communes, drafted by Mar. 10; Tao in charge, Chen deputy, Liao and Tian to write. Communes, brigades and teams all too big; three levels: commune, brigade, team. Peng Zhen''s proposed Party paper on grain not to go: "the center should issue fewer papers."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 25, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 41 (the drafting committee). Made public: 2013. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.10). Names: Mao Zedong, Tao Zhu, Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang, Tian Jiaying, Peng Zhen.'
@@ -2459,6 +3316,40 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: B-C'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, name:chen-boda, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-02-25.china-leadership-2
+    when: Feb. 25
+    date: '1961-02-25'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 visits the Jinniu commune 金牛公社.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 25, 1961). The words: 上午 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6f730698
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-24T22:00Z
+      - 1961-02-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-25.china-leadership-3
+    when: Feb. 25
+    date: '1961-02-25'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆, staying in, swims.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 25, 1961). The words: 下午读书，未出去，只在园中散步，并游泳 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6a4f7884
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-25T04:00Z
+      - 1961-02-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-26.africa
     when: Feb. 26
     date: '1961-02-26'
@@ -2485,6 +3376,7 @@ entries:
   - id: cal.1961-02-26.china-leadership
     when: Feb. 26
     date: '1961-02-26'
+    place: canton
     thread: china-leadership
     c: 'Canton. The larger drafting committee for the commune regulations meets: Tao Zhu and Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang, Deng Liqun, Xu Liqun, Wang Li, Wang Lu, Tian Jiaying and Pang Xianzhi. Mao supervises, not in the chair.'
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 47 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.13); [[w.bian-mao-zedong-he-tade]], 47 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.15a); [[w.zhongguo-gongchan-dang-lici]], 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.15b); [[w.mengbi-zhongguo-gongchan-dang-liushi]], 526 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.15c). Names: Tao Zhu, Chen Boda, Mao Zedong.'
@@ -2505,6 +3397,52 @@ entries:
     c: 'Liu Shaoqi drafts the Center''s comment forwarding "The experience of the rectification of the communes in Tantian commune, Zhongshan county, Guangdong": spring plowing is at hand or begun, and rectification is to be done in time with production at the center; when plowing starts, see to the plowing first and use the slack between farm jobs for rectification. It is to be carried through by stages and groups, and must not hold up present farm production.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 26, 1961). The commune is printed 坦田. Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership-4
+    when: Feb. 26
+    date: '1961-02-26'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Kang Sheng's 康生 forum with Sichuan's 四川 cultural figures and actors; Li Bozhao 李伯钊 takes part.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Li Bozhao.'
+    src:
+      c: e4dcc086
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership-5
+    when: Feb. 26
+    date: '1961-02-26'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Li Jingquan 李井泉, Li Fuchun 李富春 and his wife, Kang Sheng 康生 and Li Zonglin 李宗林 come to Yang Shangkun's 杨尚昆 to talk, and lunch with him.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961). The words: 中午 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jingquan, Li Fuchun, Kang Sheng, Li Zonglin, Yang Shangkun.'
+    src:
+      c: 13139d03
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:li-jingquan, name:li-fuchun, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-26T04:00Z
+      - 1961-02-26T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-26.china-leadership-7
+    when: Feb. 26
+    date: '1961-02-26'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Li Dazhang 李大章 comes to Yang Shangkun 杨尚昆 to talk, before dinner.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961; note 1: Li, then governor of Sichuan). The words: 晚饭前 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Dazhang, Yang Shangkun.'
+    src:
+      c: 29c7adc8
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-26T09:00Z
+      - 1961-02-26T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-27.robert-kennedy
     when: Feb. 27
     date: '1961-02-27'
@@ -2555,6 +3493,7 @@ entries:
   - id: cal.1961-02-27.congress
     when: Feb. 27
     date: '1961-02-27'
+    place: washington
     thread: congress
     also: [democratic-party]
     c: 'Senate Democrats in conference, Johnson in the chair, 10:10 to 10:35 a.m. Mansfield on four or five White House meetings: "these meetings have been most cordial and most helpful"; the President knows "the line of demarcation" between the branches. He reads the "Must Bills"; in five weeks the Senate has confirmed 14,000 appointments and passed 65 bills. Kerr and Mansfield on adjournment by July 31.'
@@ -2567,6 +3506,7 @@ entries:
   - id: cal.1961-02-27.vietnam-hanoi
     when: Feb. 27
     date: '1961-02-27'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi: resolution no. 13-NQ/TW, on its session of November 1960, the tasks of farm cooperativization in 1961: technique and production, democratic management, the errors of policy corrected, political work; small cooperatives merged only where the members want it, good cadres lead and one core cooperative is sound.'
     n: '*Nghị quyết của Bộ Chính trị số 13-NQ/TW về nhiệm vụ và phương hướng công tác hợp tác hoá nông nghiệp trong năm 1961*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXII, 215–33. Made public: 2002.'
@@ -2587,6 +3527,7 @@ entries:
   - id: cal.1961-02-27.china-leadership-2
     when: Feb. 27
     date: '1961-02-27'
+    place: canton
     thread: china-leadership
     c: Canton. A sub-committee of the drafting committee, Liao Luyan, Tian Jiaying, Wang Lu and Zhao Ziyang, meets for the detailed drafting of the commune regulations; Hu Qiaomu rewrites.
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 47 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.13); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 916 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.14).'
@@ -2622,9 +3563,72 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 496–498: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 496 n.1a: all'
     tags: [polity:prc, name:lu-dingyi, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-27.china-leadership-5
+    when: Feb. 27
+    date: '1961-02-27'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆, Li Fuchun 李富春 and his wife and Li Bozhao 李伯钊 at the Wangjiang Lou 望江楼.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961). The words: 上午 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun, Li Bozhao.'
+    src:
+      c: a5c74e85
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1961-02-26T22:00Z
+      - 1961-02-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-27.china-leadership-6
+    when: Feb. 27
+    date: '1961-02-27'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 has some Sichuan opera 川剧 actors to lunch, with Kang Sheng 康生 and Li Zonglin 李宗林, till 2:30.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961). The words: 午间 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng, Li Zonglin.'
+    src:
+      c: 5973d291
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-27T04:00Z
+      - 1961-02-27T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-27.china-leadership-7
+    when: Feb. 27
+    date: '1961-02-27'
+    time: 1961-02-27T08:00Z
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都, 4 p.m. Yang Shangkun's 杨尚昆 sixth brother brings Zhang Xiushu 张秀熟, vice-governor of Sichuan 四川, to see him; Zhang gives him a book of Shu's famous sites 《蜀中名胜记》.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961; note 2: Zhang Xiushu; the OCR''s 暗中 for the title''s first characters). The words: 下午4时 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhang Xiushu.'
+    src:
+      c: 36a03ce8
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-27.china-leadership-8
+    when: Feb. 27
+    date: '1961-02-27'
+    time: 1961-02-27T11:00Z
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都, 7 p.m. The Sichuan 四川 provincial committee's dinner for the visitors, with Sichuan and Peking opera; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961). The words: 7时 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bb102b2e
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-28.open-housing-pa
     when: Feb. 28
     date: '1961-02-28'
+    place: pennsylvania
     thread: open-housing
     c: 'Pennsylvania. Lawrence signs amendments to the Fair Employment Practice Act of 1955: discrimination forbidden in the sale, lease and financing of housing and in places of public accommodation. In force Sept. 1 (Check).'
     n: 'Act of Feb. 28, 1961, P.L. 47 ([Pennsylvania Human Relations Commission, "Policy and Law"](https://www.pa.gov/agencies/phrc/legal-resources/policy-and-law.html)). To check: [[w.sugrue-sweet-land-of-liberty]]; [[w.countryman-up-south]]. Names: Lawrence.'
@@ -2639,6 +3643,7 @@ entries:
   - id: cal.1961-02.robert-kennedy
     when: Feb.
     date: 1961-02
+    place: washington
     thread: robert-kennedy
     also: [civil-rights-the-executive]
     c: 'Robert Kennedy''s first staff meeting at Justice: "thorough integration" of all the Department''s offices, north and south. Of its 955 lawyers in Washington, ten are Negroes. He writes the leading law schools for their best Negro graduates.'
@@ -2652,6 +3657,7 @@ entries:
   - id: cal.1961-02.civil-rights-the-executive
     when: Feb.
     date: 1961-02
+    place: hickory-hill
     thread: civil-rights-the-executive
     also: [robert-kennedy]
     c: 'Hickory Hill, an evening. Katzenbach brings the order creating the Committee on Equal Employment Opportunity for Robert Kennedy to sign and give the President, there for dinner; Kennedy questions him on it. Robert Kennedy: "Why don''t you sign it and give it to me?" By Katzenbach''s account.'
@@ -2666,6 +3672,7 @@ entries:
   - id: cal.1961-02.trade
     when: Feb.
     date: 1961-02
+    place: washington
     thread: trade
     c: 'Early in the month. The Senate Commerce Committee''s special subcommittee on the textile industry, Pastore chairman, reports: mandatory quotas on imports. Members of both houses write Kennedy against Ball and for action.'
     n: '[[w.ball-past-has-another-pattern]], 190. Check: the report''s day and title; Ball has Pastore "of Connecticut." Names: Pastore, Kennedy, Ball.'
@@ -2762,6 +3769,7 @@ entries:
   - id: cal.1961-02.crime-and-hijacking
     when: Feb.
     date: 1961-02
+    place: washington
     thread: crime-and-hijacking
     c: Justice Department. Robert Kennedy meets representatives of all twenty-seven intelligence agencies around one conference table on organized crime. Caplin follows with a directive to the Internal Revenue Service's investigators.
     n: '[[w.navasky-kennedy-justice]], 49. The directive: [[cal.1961-02-24.crime-and-hijacking]]. Names: Robert Kennedy, Caplin. Check: the day.'
@@ -2800,6 +3808,7 @@ entries:
   - id: cal.1961-02.republican-party-2
     when: Feb.
     date: 1961-02
+    place: washington
     thread: republican-party
     also: [elections-1962]
     c: 'Washington, back from the Bahamas, by Nixon''s account. He weighs his finances and the offers: Jack Dreyfus urges New York; others a foundation, a university, a corporation. He chooses California and the law: Adams, Duque & Hazeltine of Los Angeles, its senior partner Earl Adams.'
@@ -2936,6 +3945,7 @@ entries:
   - id: cal.1961-02.civil-rights-organizations
     when: Feb.
     date: 1961-02
+    place: highlander-folk-school
     thread: civil-rights-organizations
     c: 'Highlander Folk School, Tennessee. A student conference, "New Alliances in the South": thirty-one representatives of the organizations of the sit-ins of 1960, on the lessons of the Nashville and Atlanta movements. Andrew Young, of the National Council of Churches'' youth department, conducts Bible study.'
     n: '[[w.young-easy-burden]], 129–30. Check: the day. Names: Andrew Young.'
@@ -2948,6 +3958,7 @@ entries:
     when: Feb., early
     date: 1961-02
     at: before 1961-02-01
+    place: washington
     thread: peace-corps
     c: 'The task force''s office at the Mayflower. Wiggins of the aid administration, "The Towering Task": a Peace Corps only if large, thousands of volunteers in each of a few countries, 5,000 teachers for the Philippines. Shriver, reading it at night, telegraphs him about 3 a.m.; he comes to the first enlarged meeting of the task force that morning. By Wofford''s account.'
     n: '[[w.wofford-of-kennedys-and-kings]], 253–54. Check: the day. Names: Shriver.'
@@ -2989,6 +4000,7 @@ entries:
   - id: cal.1961-02.desegregation-schools
     when: Feb.
     date: 1961-02
+    place: chicago
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: 'Chicago. The NAACP''s Chicago branch, the Reverend Carl A. Fuqua its new executive director, adopts a policy statement on education: it will "seek legal action" wherever the Board of Education is reluctant to change practices that result in "a ''separate but unequal'' school system."'
@@ -3003,6 +4015,7 @@ entries:
     when: Feb., early
     date: 1961-02
     at: before 1961-02-01
+    place: washington
     thread: intelligence
     also: [cuba-bay-of-pigs]
     c: 'Dulles''s dinner at the Alibi Club for the new administration''s top men and the agency''s. Bissell, after the cocktails: "I am a man-eating shark."'
@@ -3049,6 +4062,7 @@ entries:
   - id: cal.1961-02.intelligence-2
     when: Feb.
     date: 1961-02
+    place: washington
     thread: intelligence
     c: 'Goodwin''s White House office. Cord Meyer of the CIA: "We ... thought you should know about some of the things we have been doing": the National Student Association, intellectual and literary publications in Western Europe, contributions to noncommunist parties from Italy to Peru. Meyer refers to Guatemala and Iran; not to the U-2 or the plans against Cuba.'
     n: '[[w.goodwin-remembering-america]], 169–70 (Goodwin''s account). Names: Goodwin. Check: the day; "A week or two after the inauguration" (169), late January or early February.'
@@ -3100,6 +4114,7 @@ entries:
     when: Feb. 28
     date: '1961-02-28'
     time: 1961-02-28T08:00Z
+    place: peking
     thread: china-leadership
     also: [japan, trade]
     c: Zhou Enlai receives the Japanese economic friendship delegation under Yamamoto Kumaichi and the friendly firms' trade delegation. Yamamoto's apology belongs to the past, both look ahead; Japan's people seek a peaceful, independent, neutral and democratic road, which China supports; a few want to restore the old militarist road, which China notes; China will never expand when strong; relations rest on the peoples' friendship, and without diplomatic relations China all the more widens exchange of peoples.
@@ -3123,6 +4138,7 @@ entries:
   - id: cal.1961-02-28.china-leadership-3
     when: Feb. 28
     date: '1961-02-28'
+    place: peking
     thread: china-leadership
     also: [china, japan, trade]
     c: Peking. Zhou Enlai attends the banquet given by Liao Chengzhi for the Japanese economic friendship delegation.
@@ -3210,6 +4226,7 @@ entries:
   - id: cal.1961-02-28.china
     when: Feb. 28
     date: '1961-02-28'
+    place: bamako
     thread: china
     also: [africa]
     c: Bamako. China and Mali sign a trade and payments agreement. China agrees to give Mali long-term loans.
@@ -3241,3 +4258,51 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 495: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-28.china-leadership-4
+    when: Feb. 28
+    date: '1961-02-28'
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 talks with his sixth brother; Li Zonglin 李宗林 and Li Dazhang 李大章 come too.
+    n: '[[w.yang-shangkun-riji]], I, 658 (Feb. 28, 1961). The words: 上午 (I, 658). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Zonglin, Li Dazhang.'
+    src:
+      c: 42e4ce2a
+      rows:
+        - 'w.yang-shangkun-riji I, 658: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-27T22:00Z
+      - 1961-02-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-28.china-leadership-5
+    when: Feb. 28
+    date: '1961-02-28'
+    time: 1961-02-28T08:30Z
+    place: chengdu
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 leaves Chengdu 成都 by train for Peking at 4:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 658 (Feb. 28, 1961; seen from the train, rain on the west Sichuan plain 川西坝子, good for the spring crops). The words: 4时半 (I, 658). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d5301468
+      rows:
+        - 'w.yang-shangkun-riji I, 658: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-28.china-leadership-6
+    when: Feb. 28
+    date: '1961-02-28'
+    place: xinfan
+    thread: china-leadership
+    c: Li Bozhao 李伯钊 visits the Luo Shifa commune 罗世发公社, Xinfan 新繁.
+    n: '[[w.yang-shangkun-riji]], I, 658 (Feb. 28, 1961). The words: 上午 (I, 658). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Bozhao.'
+    src:
+      c: 471e178f
+      rows:
+        - 'w.yang-shangkun-riji I, 658: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-27T22:00Z
+      - 1961-02-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

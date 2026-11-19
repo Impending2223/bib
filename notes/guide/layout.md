@@ -58,6 +58,8 @@ budgets/today.yaml        the same years as OMB's Historical Tables give them to
 budgets/debt-limits.yaml  the thirteen acts changing the debt limit, June 30, 1960–Apr. 7, 1969 (kept by hand)
 congress/bills.yaml       a bill's course, step by step, from the History of Bills and Voteview (kept by hand)
 congress/appropriations.yaml  each session's appropriation bills against the estimates, 1960–68, from the Record (kept by hand)
+sources/places.yaml       the gazetteer: the places calendar entries' `place:` names, each its name and zone (seeded Nov. 18,
+                          2026; kept by hand and by `place-key` ops; tools/bib/places.py)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 sources/state-law.yaml    each State's session laws, code, constitution, journals and attorney general's opinions, 1959-69: the
                           authority for each, where to read them (kept by hand)

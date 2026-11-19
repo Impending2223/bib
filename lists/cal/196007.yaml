@@ -6,6 +6,7 @@ entries:
   - id: cal.1960-07-01.elections-1960
     when: July 1
     date: '1960-07-01'
+    place: washington
     thread: elections-1960-nomination
     c: 'Georgetown, Kennedy''s house, at breakfast, by Clifford''s account. Kennedy: about 600 delegates of the 761 needed; would Symington withdraw before the first ballot and support him? "I''d like to talk with you about having him on the ticket." Symington''s answer, through Clifford: not while a deadlock is possible.'
     n: '[[w.clifford-counsel-to-the-president-2]], 314. Names: Kennedy, Clifford, Symington.'
@@ -56,13 +57,87 @@ entries:
   - id: cal.1960-07-01.intelligence
     when: July 1
     date: '1960-07-01'
+    place:
+      - mexico-city
+      - havana
     thread: intelligence
     c: Mexico City. Mitchell and Martin fly to Havana on Cuban Airlines.
     n: 'Lansdale to Douglas, memorandum, "Missing NSA Personnel," Aug. 1, 1960 (in full at [[cal.1960-06-24.intelligence]]), at 2 ("A subsequent report is that they flew to Havana on Cuban Airlines on 1 July. There is no further report of their movements after 1 July"). [[w.mowry-betrayers-of-the-trust]], 2 (Mexico City to Havana on July 1, then to Russia, "apparently on a Soviet trawler"; not the airline). Made public: the tickets "to Castro''s Cuba," "in the days immediately following" Aug. 1, 1960 ([[w.huac-security-practices-nsa]], 1); the memorandum, declassified 2002.'
     tags: [vis:from:us:1960-08-01, vis:from:ussr:1959-12-01]
+  - id: cal.1960-07-01.china-leadership
+    when: July 1
+    date: '1960-07-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 calls a meeting of the General Office 办公厅 and relays the Shanghai 上海 meeting.
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 1, 1960). The words: 上午 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 304f25d5
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-06-30T22:00Z
+      - 1960-07-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-01.china-leadership-2
+    when: July 1
+    date: '1960-07-01'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. Deng Xiaoping 邓小平 calls a meeting on answering the "Soviet Party's statement of views" 苏共意见书 (its notice to the Chinese Central Committee handed out at Bucharest, June 21, by the editors' note).
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 1, 1960). The words: 下午 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: CPSU Central Committee, notice to the Chinese Central Committee, June 21, 1960 (cited by [[w.yang-shangkun-riji]], I, 523 n.1). Names: Deng Xiaoping.'
+    src:
+      c: a25f3b14
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+        - 'via w.yang-shangkun-riji I, 523 n.1: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-07-01T04:00Z
+      - 1960-07-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-01.china-leadership-3
+    when: July 1
+    date: '1960-07-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院 for his teeth.
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 1, 1960). The words: 下午 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 23f28db8
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-01T04:00Z
+      - 1960-07-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-01.china-leadership-4
+    when: July 1
+    date: '1960-07-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The two Party committees 两个党委 report to Yang Shangkun 杨尚昆 on the campaign against bureaucratism 反官僚主义运动.
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 1, 1960). The words: 晚间 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: de344827
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-01T11:00Z
+      - 1960-07-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-02.amendments
     when: July 2
     date: '1960-07-02'
+    place: washington
     thread: amendments
     also: [women, congress]
     c: 'Senate takes up the equal rights amendment, S.J. Res. 69, on Johnson''s motion. Hayden''s rider adopted by voice: the article not to impair any rights, benefits or exemptions the law gives women. Then recommitted to Judiciary on Butler''s motion, Hayden agreeing. No roll call.'
@@ -136,6 +211,7 @@ entries:
   - id: cal.1960-07-02.china-leadership-3
     when: July 2
     date: '1960-07-02'
+    place: peking
     thread: china-leadership
     also: [china, latin-america]
     c: Peking. Zhou Enlai receives a delegation of Brazilian journalists.
@@ -156,6 +232,7 @@ entries:
   - id: cal.1960-07-02.china
     when: July 2
     date: '1960-07-02'
+    place: accra
     thread: china
     also: [africa]
     c: Accra. Ke Hua, China's ambassador to Guinea, calls on President Nkrumah and hands him the congratulations of Liu Shaoqi, Zhou Enlai and Soong Ching Ling. Ke is in Ghana on invitation, for the ceremony of the Republic's founding.
@@ -165,6 +242,53 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 149–150: all'
     tags: [polity:prc, polity:ghana, name:nkrumah-kwame, name:liu-shaoqi, name:zhou-enlai]
+  - id: cal.1960-07-02.china-leadership-5
+    when: July 2
+    date: '1960-07-02'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. Deng Xiaoping's 邓小平 meeting goes on.
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 2, 1960). The words: 下午 (I, 523). See [[cal.1960-07-01.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: 88640e7c
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-07-02T04:00Z
+      - 1960-07-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-02.china-leadership-6
+    when: July 2
+    date: '1960-07-02'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 enters the output of January to June: steel 8.8 million tons, 43 percent of the year''s plan; iron 14.4 million, 47 percent; rolled steel 6.65 million, 45 percent.'
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 2, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 037d2258
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-02.china-leadership-7
+    when: July 2
+    date: '1960-07-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院 for his teeth.
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 2, 1960). The words: 下午 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 23f28db8
+      rows:
+        - 'w.yang-shangkun-riji I, 523: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-02T04:00Z
+      - 1960-07-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-03.elections-1960
     when: July 3–4
     date: '1960-07-03'
@@ -189,6 +313,7 @@ entries:
   - id: cal.1960-07-03.china-leadership-2
     when: July 3
     date: '1960-07-03'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking, Xihuating. Zhou Enlai receives Adhikari, Politburo member of the Communist Party of Nepal, and Pradhan, a member of its Central Committee.
@@ -198,9 +323,69 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 284: all'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
+  - id: cal.1960-07-03.china-leadership-3
+    when: July 3
+    date: '1960-07-03'
+    time: 1960-07-03T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tan Zhenlin 谭震林 calls a meeting on Guizhou 贵州, 3 p.m.; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 3, 1960). The words: 3时 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tan Zhenlin, Yang Shangkun.'
+    src:
+      c: e07095bc
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, name:tan-zhenlin, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-03.china-leadership-4
+    when: July 3
+    date: '1960-07-03'
+    time: 1960-07-03T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at the Peking Hospital 北京医院 for his teeth, 4 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 3, 1960). The words: 4时 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: dc60cdd6
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-03.china-leadership-5
+    when: July 3
+    date: '1960-07-03'
+    time: 1960-07-03T11:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Ziguang Ge 紫光阁. Zhou Enlai's 周恩来 small banquet for He Xiangning's 何香凝 eighty-second birthday, 7 p.m.; Yang Shangkun 杨尚昆, Li Bozhao 李伯钊 and their daughter there; a film after.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 3, 1960). The words: 7时 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, He Xiangning, Yang Shangkun, Li Bozhao.'
+    src:
+      c: afabd0e4
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-03.china-leadership-6
+    when: July 3
+    date: '1960-07-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims with Li Bozhao 李伯钊 and their daughter.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 3, 1960). The words: 上午与伯钊、妞妞去游泳 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: 56a55fe0
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-02T22:00Z
+      - 1960-07-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-04.elections-1960
     when: July 4
     date: '1960-07-04'
+    place: nyc
     thread: elections-1960-nomination
     c: 'New York. Kennedy''s televised press conference, the reply to Truman, drafted with Sorensen at Hyannis Port: if "fourteen years in major elective office is insufficient experience," that rules out every President of the century; an age test would have kept "Christopher Columbus from even discovering America." "If the people of this nation select me to be their President, I believe that I am ready."'
     n: '[[w.sorensen-kennedy]], 152–53; [[w.wofford-of-kennedys-and-kings]], 49–50 (July 4, Kennedy''s reply: the age test "would have kept Jefferson from writing the Declaration ... and Christopher Columbus from even discovering America"; fourteen years in office rules out "all but three of the ten names" and every President of the century; not the press conference, New York or Sorensen); [[w.odonnell-johnny-we-hardly-knew]], 201–02 (Kennedy asked for equal time and replied on the Fourth: Truman''s open convention one that "studies all the candidates, reviews their records, and then takes his advice"; fourteen years in the House and the Senate more experience than any twentieth-century President had when elected; at forty-three older than Washington, Jefferson and Columbus; not the entry''s quotations); [[w.sorensen-counselor]], 182–83 (Truman''s denunciation; Sorensen summoned to Hyannis Port from Los Angeles; the reply on national television, with Jefferson, Columbus and Alexander the Great from Sorensen''s file of young achievers; the notes typed on the porch by Mrs. William Battle; Sorensen''s account, written in 2008; not the day or the quotations); [[w.sorensen-counselor]], 134 (the closing, a quotation of Lincoln suggested by the historian James MacGregor Burns, "on the eve of the 1960 Democratic National Convention," for the speech in answer to Truman; no other historian could find that Lincoln had said the words; Sorensen''s account, written in 2008; not the words quoted). Check: Wofford, 50, has Kennedy answer Truman''s question "are you certain that you are ready?" with Lincoln''s reply: "I see the storm coming and I know His hand is in it. If He has a place and work for me, I believe that I am ready.". See [[cal.1960-07-02.elections-1960-2]]. Names: Kennedy, Truman, Sorensen.'
@@ -222,6 +407,7 @@ entries:
   - id: cal.1960-07-04.elections-1960-2
     when: July 4
     date: '1960-07-04'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. India Edwards, for Johnson, with Connally: Kennedy has Addison''s disease and "would not be alive today if it were not for cortisone"; a public evaluation of his fitness. By her account, Johnson lashes out at her. The *Times* puts it on page 19.'
     n: '[[w.shesol-mutual-contempt]], 35; [[w.salinger-with-kennedy]], 40 (the press conference of Connally and India Edwards: Kennedy has Addison''s disease and might prove physically unfit; Johnson''s statement denying advance knowledge; not the words quoted, the *Times* or the day). Check: the day: [[w.salinger-with-kennedy]], 40, puts the Connally–Edwards press conference "on the first day of the convention" (July 11). To check: India Edwards oral history, LBJ Library; [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 19 (cited by [[w.shesol-mutual-contempt]], 35). Names: Connally, Kennedy, Johnson.'
@@ -256,6 +442,7 @@ entries:
   - id: cal.1960-07-04.elections-1960-los-angeles
     when: July 4
     date: '1960-07-04'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. Salinger with Kennedy and Robert Kennedy on the Connally–Edwards charge: they would ignore it as unworthy of a reply; Salinger urges a quick one, before the Republicans can repeat it. Kennedy''s physicians are reached and a medical statement agreed: an adrenal insufficiency under control for many years, which none of his doctors considers Addison''s disease. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 40–41. Check: the day (Salinger puts the Connally–Edwards press conference "on the first day of the convention," July 11; see [[cal.1960-07-04.elections-1960-2]], [[cal.1960-07-04.robert-kennedy]]). Names: Salinger, Kennedy, Robert Kennedy, Connally.'
@@ -284,14 +471,83 @@ entries:
   - id: cal.1960-07-04.china-leadership-3
     when: July 4
     date: '1960-07-04'
+    place:
+      - peking
+      - beidaihe
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi leaves Peking for Beidaihe.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 4, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 4, 1960); [[w.yang-shangkun-riji]], I, 524 (July 4, 1960; by train, from Peking at 9:30 p.m., Yang Shangkun and Nie Rongzhen aboard; at Beidaihe at 3:30 a.m.). Made public: 1996. Names: Liu Shaoqi.'
+    src:
+      c: e9d855e8
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: ?'
+        - 'w.yang-shangkun-riji I, 524: A'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-07-04.china-leadership-4
+    when: July 4
+    date: '1960-07-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Secretariat 书记处 calls the secretaries of the Party groups of the industrial, communications, culture and education units and relays some matters.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 上午 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 0ba76c82
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-03T22:00Z
+      - 1960-07-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-04.china-leadership-5
+    when: July 4
+    date: '1960-07-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Qi Yanming 齐燕铭 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 下午 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qi Yanming, Yang Shangkun.'
+    src:
+      c: 0fa83ad5
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-04T04:00Z
+      - 1960-07-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-04.china-leadership-6
+    when: July 4
+    date: '1960-07-04'
+    time: 1960-07-04T13:30Z
+    thread: china-leadership
+    c: On the train from Peking 北京 to Beidaihe 北戴河, after 9:30 p.m. Yang Shangkun 杨尚昆 talks with Nie Rongzhen 聂荣臻.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 9时半乘火车离北京去北戴河。上车后与荣臻同志谈话 (I, 524). See [[cal.1960-07-04.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Nie Rongzhen.'
+    src:
+      c: 2252a4ed
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, name:nie-rongzhen, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-04.china-leadership-7
+    when: July 4
+    date: '1960-07-04'
+    thread: china-leadership
+    follows:
+      - cal.1960-07-04.china-leadership-6
+    c: On the train to Beidaihe 北戴河. Yang Shangkun 杨尚昆 with Liu Shaoqi 刘少奇 on the thinking of Maomao 毛毛 (Liu Yunruo 刘允若, Liu's son), till the arrival at 3:30 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 与少奇同志谈毛毛的思想问题，直到3时半到达北戴河均未睡 (I, 524); after the talk with Nie. See [[cal.1960-07-04.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Shaoqi, Liu Yunruo.'
+    src:
+      c: 9310b247
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-07-05.state-constitutions-ok
     when: July 5
     date: '1960-07-05'
+    place: oklahoma
     thread: state-constitutions
     also: [electoral-college]
     c: Oklahoma, with the primary, votes on three amendments. Presidential electors may be nominated at party conventions, adopted, 220,575 to 172,219, 56.2 percent. Legislators' pay of $200 a month refused, 156,723 to 236,438, 39.9 percent. A county levy for health departments adopted, 201,218 to 193,497, 51.0 percent.
@@ -306,6 +562,7 @@ entries:
   - id: cal.1960-07-05.elections-1960
     when: July 5
     date: '1960-07-05'
+    place: washington
     thread: elections-1960
     c: 'Johnson announces in the New Senate Office Building''s auditorium, Rayburn in the front row: "I am, as of this moment, a candidate for the office of President of the United States." The next President "a working President," not a talking or a traveling one.'
     n: '[[w.caro-passage-of-power]], 97–98; [[w.young-two-suns-of-the]], 34 (the day); [[w.white-making-of-the-president]], 134 (July 5 the announcement); [[w.shesol-mutual-contempt]], 36 (the announcement, at one o''clock; not Rayburn or the words). [[w.mcpherson-political-education]], 175 (the announcement before a big crowd in the Senate auditorium). To check: *Washington Evening Star*, July 6, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 97). Names: Johnson, Rayburn.'
@@ -359,10 +616,11 @@ entries:
   - id: cal.1960-07-05.china-leadership
     when: July 5
     date: '1960-07-05'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe. The Central Work Conference opens (July 5–Aug. 10), on the world and on cutting back at home: the enlarged Politburo Standing Committee, Mao presiding, hears Peng Zhen on Bucharest and first secretaries on farms and factories. Mao: agriculture truly the base, squeezed ten years; rest and food for the people; the communes'' three levels of ownership; industry''s front shortened; 30 million tons of steel in 1962 with the full range of kinds, no 100 million by 1969.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 5, 1960; [[w.zhou-enlai-nianpu-1949]], II, 329, July 6, 1960 (Zhou at Beidaihe); [[w.lengxi-shinian-lunzhan-1956-1966]], 308 (the conference July 5 to Aug. 10; its two matters, the economy''s adjustment and Sino-Soviet relations; attention went to the second; Wu the only one of the writers a member of the conference); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the conference; its directive on agriculture and grain); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 5–Aug. 10, 1960; Liu attends the Central Work Conference at Beidaihe, chiefly on international questions and the adjustment of the domestic economy; it approves Li Fuchun''s and Bo Yibo''s report on the main measures for third-quarter industrial and transport output, issues instructions on the whole Party running agriculture and grain and on an increase-production and economy campaign centered on grain and steel, and decides to compress the capital construction line, safeguard steel and iron, clear up the labor force and strengthen agriculture). Made public: 1996. Check: MacFarquhar dates the conference July 15–Aug. 10. To check: [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3b). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Dong Biwu, Li Fuchun, He Long, Li Xiannian, Ke Qingshi, Li Jingquan, Tan Zhenlin, Lu Dingyi, Chen Boda, Kang Sheng, Bo Yibo, Wang Jiaxiang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 5, 1960; [[w.zhou-enlai-nianpu-1949]], II, 329, July 6, 1960 (Zhou at Beidaihe); [[w.lengxi-shinian-lunzhan-1956-1966]], 308 (the conference July 5 to Aug. 10; its two matters, the economy''s adjustment and Sino-Soviet relations; attention went to the second; Wu the only one of the writers a member of the conference); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the conference; its directive on agriculture and grain); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 5–Aug. 10, 1960; Liu attends the Central Work Conference at Beidaihe, chiefly on international questions and the adjustment of the domestic economy; it approves Li Fuchun''s and Bo Yibo''s report on the main measures for third-quarter industrial and transport output, issues instructions on the whole Party running agriculture and grain and on an increase-production and economy campaign centered on grain and steel, and decides to compress the capital construction line, safeguard steel and iron, clear up the labor force and strengthen agriculture); [[w.yang-shangkun-riji]], I, 524–525 (July 5, 1960; 5 to 9 p.m.; Mao with the members of the Politburo and some local comrades: three days for reading documents, then reports; the outcome of the dispute abroad turns on the work at home; industry and agriculture not yet through, the front to be shortened, three to five years to get through). Made public: 1996. Check: MacFarquhar dates the conference July 15–Aug. 10. To check: [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3b). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Dong Biwu, Li Fuchun, He Long, Li Xiannian, Ke Qingshi, Li Jingquan, Tan Zhenlin, Lu Dingyi, Chen Boda, Kang Sheng, Bo Yibo, Wang Jiaxiang.'
     src:
       c: 70a7d6fa
       rows:
@@ -373,6 +631,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.3a: A-C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.3b: A-C'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: B'
+        - 'w.yang-shangkun-riji I, 524–525: A'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:dong-biwu, name:li-fuchun, name:he-long, name:li-xiannian, name:ke-qingshi, name:li-jingquan, name:tan-zhenlin, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:bo-yibo, vis:only:prc]
   - id: cal.1960-07-05.china
     when: July 5
@@ -404,6 +663,34 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 265 n.1f: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 265 n.1g: all'
     tags: [polity:prc, name:mao-zedong, name:nkrumah-kwame, vis:only:prc]
+  - id: cal.1960-07-05.china-leadership-3
+    when: July 5
+    date: '1960-07-05'
+    time: 1960-07-05T01:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Lai Zulie 赖祖烈, Luo Daorang 罗道让 and others report to Yang Shangkun 杨尚昆, 9 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 5, 1960). The words: 9时 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lai Zulie, Luo Daorang, Yang Shangkun.'
+    src:
+      c: 5f366c9b
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-05.china-leadership-4
+    when: July 5
+    date: '1960-07-05'
+    time: 1960-07-05T03:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea, 11 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 5, 1960). The words: 11时下海游泳 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 99d9c2b3
+      rows:
+        - 'w.yang-shangkun-riji I, 524: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-06.cuba-2
     when: July 6
     date: '1960-07-06'
@@ -463,6 +750,7 @@ entries:
   - id: cal.1960-07-06.china-leadership
     when: July 6
     date: '1960-07-06'
+    place: beidaihe
     thread: china-leadership
     also: [south-asia]
     c: Beidaihe, evening. Mao with Zhou Enlai and Luo Ruiqing on the incident on the Nepalese border (June 28, a PLA unit fired on Nepalese taken for Tibetan rebels, one killed, ten taken; Zhou apologized to Nepal's Prime Minister and offered compensation) and other questions.
@@ -476,6 +764,7 @@ entries:
   - id: cal.1960-07-06.china
     when: July 6
     date: '1960-07-06'
+    place: moscow
     thread: china
     also: [soviet-union]
     c: 'Zhang Weilie, the Chinese chargé d''affaires in Moscow, calls on Malik, Soviet Deputy Foreign Minister, and hands him China''s answer to the Soviet note of June 27 on disarmament: the Soviet Union''s and the other socialist countries'' halt to taking part in the ten-nation disarmament committee exposes the imperialist states'' fraud of using disarmament talks to cover arms expansion and war preparation. The Chinese government fully supports it.'
@@ -485,9 +774,22 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 150: all'
     tags: [polity:prc, polity:ussr, name:malik-yakov-aleksandrovich]
+  - id: cal.1960-07-06.china-leadership-5
+    when: July 6
+    date: '1960-07-06'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 reads documents all day.
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 6, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b2c9987a
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-07.elections-1960-los-angeles
     when: July 7
     date: '1960-07-07'
+    place: chicago
     thread: elections-1960-los-angeles
     c: Daley and his family leave Chicago for Los Angeles in a private car at the end of the Santa Fe Chief. He holds fifty of Illinois's sixty-nine delegates, uncommitted.
     n: '[[w.cohen-american-pharaoh]], 258. Names: Daley.'
@@ -499,6 +801,7 @@ entries:
   - id: cal.1960-07-07.goldwater
     when: July 7
     date: '1960-07-07'
+    place: chicago
     thread: goldwater
     also: [conservative-movement]
     c: Manion opens an Americans for Goldwater headquarters in Chicago.
@@ -511,6 +814,7 @@ entries:
   - id: cal.1960-07-07.china-leadership
     when: July 7
     date: '1960-07-07'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, Building 1. Mao''s meeting on the world and Sino-Soviet relations: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, and Ke Qingshi, Li Jingquan and Tao Zhu, heads of the conference''s three groups.'
@@ -529,6 +833,23 @@ entries:
     c: 'Zhou Enlai receives Koirala''s reply: armed rebels entering Nepal have been and will be dealt with under international law.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 330 (July 7, 1960). Made public: 1997. Names: Zhou Enlai, Koirala.'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:koirala-bisweswar-prasad, vis:only:prc+nepal]
+  - id: cal.1960-07-07.china-leadership-4
+    when: July 7
+    date: '1960-07-07'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 in the sea morning and afternoon, the waves high.
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 7, 1960). The words: 上午、下午都曾下海 (I, 525). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e853f8b9
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-06T22:00Z
+      - 1960-07-07T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-08.elections-1960
     when: July 8
     date: '1960-07-08'
@@ -571,6 +892,7 @@ entries:
   - id: cal.1960-07-08.elections-1960-3
     when: July 8
     date: '1960-07-08'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the afternoon. Robert Kennedy: Teamsters locals in the city ordered to "whoop up" Johnson''s campaign. Meany the same day at work on the delegates to keep Johnson off the ticket.'
     n: '[[w.shesol-mutual-contempt]], 37–38. To check: [*New York Times*, July 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/09/issue.html), at 1, 8 (cited by [[w.shesol-mutual-contempt]], 37). Names: Robert Kennedy, Johnson, Meany.'
@@ -588,6 +910,7 @@ entries:
   - id: cal.1960-07-08.elections-1960-4
     when: July 8
     date: '1960-07-08'
+    place: nyc
     thread: elections-1960-los-angeles
     c: 'New York, Idlewild, at night, from Hyannis Port. Kennedy, asked would he consider Johnson for second place: "Certainly, although I don''t think he''s interested in that at the moment."'
     n: '[[w.shesol-mutual-contempt]], 43. To check: [*New York Times*, July 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/09/issue.html), at 8 (cited by [[w.shesol-mutual-contempt]], 43). Names: Kennedy, Johnson.'
@@ -604,6 +927,7 @@ entries:
   - id: cal.1960-07-08.elections-1960-los-angeles
     when: July 8
     date: '1960-07-08'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, Johnson arrived, by Herring''s account. Johnson to his chief campaign workers: they have not done enough with the delegates, "If you''d done the job you were supposed to have done, I wouldn''t be in this situation"; he will win all the same, the States he names switching after the first ballot.'
     n: '[[w.caro-passage-of-power]], 98. Check: the day (Caro: after the flight of Friday, July 8). See [[cal.1960-07-08.elections-1960-2]]. Names: Johnson.'
@@ -616,22 +940,41 @@ entries:
   - id: cal.1960-07-08.china-leadership
     when: July 8
     date: '1960-07-08'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, the work conference in plenary session, Mao presiding: Peng Zhen on the Bucharest meeting and the differences between the two parties.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 8, 1960; [[w.zhou-enlai-nianpu-1949]], II, 330, July 8, 1960 (Zhou present; Peng Zhen''s report on the two parties'' talks and Bucharest); [[w.lengxi-shinian-lunzhan-1956-1966]], 309–313 (Peng Zhen''s report on Bucharest at the conference''s second day, with seven points the discussion took up (two lines, war and peace, Khrushchev''s rage, the surprise attack, a long struggle, no fear of a break, the reply to the notification); Mao''s closing remarks on the counter-encirclement). Made public: 1997. Names: Mao Zedong, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 8, 1960; [[w.zhou-enlai-nianpu-1949]], II, 330, July 8, 1960 (Zhou present; Peng Zhen''s report on the two parties'' talks and Bucharest); [[w.lengxi-shinian-lunzhan-1956-1966]], 309–313 (Peng Zhen''s report on Bucharest at the conference''s second day, with seven points the discussion took up (two lines, war and peace, Khrushchev''s rage, the surprise attack, a long struggle, no fear of a break, the reply to the notification); Mao''s closing remarks on the counter-encirclement); [[w.yang-shangkun-riji]], I, 525 (July 8, 1960; 5 to 9 p.m., the plenary; Peng Zhen''s report). Made public: 1997. Names: Mao Zedong, Peng Zhen.'
     src:
       c: 10a03eb0
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 8, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 330, July 8, 1960: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 309–313: A'
+        - 'w.yang-shangkun-riji I, 525: A'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
     variants:
       - unit: A
         witness: w.lengxi-shinian-lunzhan-1956-1966
         reads: Peng Zhen reports on the conference's second day, July 6
         at: '309'
+  - id: cal.1960-07-08.china-leadership-3
+    when: July 8
+    date: '1960-07-08'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Li Jingquan 李井泉 has Yang Shangkun 杨尚昆 to a Sichuan dinner.
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 8, 1960). The words: 去井泉同志处吃川菜 (I, 525). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jingquan, Yang Shangkun.'
+    src:
+      c: 0af93f1f
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, name:li-jingquan, vis:only:prc]
+    time_range:
+      - 1960-07-08T11:00Z
+      - 1960-07-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-09.cuba
     when: July 9
     date: '1960-07-09'
@@ -650,6 +993,7 @@ entries:
   - id: cal.1960-07-09.elections-1960-3
     when: July 9–10
     date: '1960-07-09'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles. Lawrence, Pennsylvania's governor, met at the airport the evening of July 9 by John Bailey, who drives him to the Biltmore pressing Kennedy's case. July 10, 11 a.m., Kennedy and Lawrence alone at the Biltmore for half an hour; late that night Lawrence to Stevenson at the Beverly Hills Hotel, two hours. No word from Lawrence.
     n: '[[w.white-making-of-the-president]], 160–61. See [[cal.1960-07-08.elections-1960]]. Names: Lawrence, Kennedy, Stevenson.'
@@ -661,6 +1005,7 @@ entries:
   - id: cal.1960-07-09.elections-1960-4
     when: July 9–10
     date: '1960-07-09'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, the week end before the convention. Meyner, pledged forty-one votes on the first ballot and bitter at Joseph Kennedy's work among his delegates, refuses to release New Jersey.
     n: '[[w.white-making-of-the-president]], 159–60. See [[cal.1960-07-09.elections-1960-3]]. Names: Joseph Kennedy. Check: the day.'
@@ -674,6 +1019,7 @@ entries:
     date: '1960-07-09'
     time: 1960-07-09T22:00Z
     time_approx: true
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, Suite 8315 of the Biltmore, about 3 p.m. Robert Kennedy to Guthman of the *Seattle Times*: Jackson "my choice, and Jack likes him"; he and Symington the strongest, Freeman a possibility; Jackson must convince Daley, Lawrence and Bailey. Jackson''s men setting up a headquarters at the Statler.'
     n: '[[w.guthman-we-band-of-brothers]], 74–75; [[w.shesol-mutual-contempt]], 43 (Guthman''s account, at a late lunch: Jackson Kennedy''s choice; the leaders to convince). Names: Robert Kennedy, Guthman, Jackson, Symington, Freeman, Daley, Lawrence.'
@@ -704,13 +1050,63 @@ entries:
   - id: cal.1960-07-09.vietnam-hanoi
     when: July 9
     date: '1960-07-09'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 217-CT/TW on the Buddhists. A unified Buddhist Association set up with the Party''s help; some cadres have erred against the policy. Some 4,000 monks and nuns in the North; Buddhism strong in the South and abroad, in Southeast Asia above all: good work with it helps with the Catholics, the South''s Buddhists and Buddhist opinion abroad.'
     n: '*Chỉ thị của Ban Bí thư số 217-CT/TW về công tác đối với Phật giáo*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 398–401. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-07-09.china-leadership
+    when: July 9
+    date: '1960-07-09'
+    time: 1960-07-09T07:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河, the work conference: a group discussion 小组讨论会, 3 to 7:30 p.m.'
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 9, 1960). The words: 下午3时到7时半 (I, 525). See [[cal.1960-07-05.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: cd36dcf3
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-09.china-leadership-2
+    when: July 9
+    date: '1960-07-09'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Ke Qingshi 柯庆施 has Yang Shangkun 杨尚昆 to dinner.
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 9, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ke Qingshi, Yang Shangkun.'
+    src:
+      c: 2e895a9e
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1960-07-09T11:00Z
+      - 1960-07-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-09.china-leadership-3
+    when: July 9
+    date: '1960-07-09'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆, to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 9, 1960). The words: 田家英来谈到2时始睡 (I, 525). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: f8a30fe2
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-09T14:00Z
+      - 1960-07-09T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-10.elections-1960-2
     when: July 10
     date: '1960-07-10'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the night before the convention opens, by Clifford''s account: Symington refuses another request from Kennedy to withdraw; his name to go before the convention.'
     n: '[[w.clifford-counsel-to-the-president-2]], 316. See [[cal.1960-07-01.elections-1960]]. Names: Symington, Kennedy.'
@@ -726,6 +1122,7 @@ entries:
   - id: cal.1960-07-10.elections-1960-3
     when: July 10
     date: '1960-07-10'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles. Illinois's delegation declares for Kennedy, the Sunday before the convention.
     n: '[[w.sorensen-kennedy]], 155; [[w.cohen-american-pharaoh]], 259 (Illinois, in secret caucus: Kennedy 59½, Symington 6½, Stevenson 2; Arvey brought round); [[w.obrien-no-final-victories]], 81 (the Sunday before the convention: Illinois gives Kennedy 59½ of its 69 votes, by Daley''s judgment; not Los Angeles). Names: Kennedy. Check: the vote.'
@@ -789,6 +1186,7 @@ entries:
   - id: cal.1960-07-10.elections-1960-6
     when: July 10
     date: '1960-07-10'
+    place: beverly-hills
     thread: elections-1960
     c: 'Beverly Hills, Stevenson''s cottage, Sunday. Philip Graham and his wife with Stevenson, by Graham''s account: Johnson had canceled at midnight the breakfast Rowe arranged; Stevenson cannot nominate Kennedy unless Johnson and Symington concur, having told all three he would help none.'
     n: '[[w.white-making-of-the-president-1965]], 408 (Graham''s memorandum of July 19 and 24, 1960, app. B). See [[cal.1960-07-11.elections-1960-2]]. Names: Stevenson, Johnson, Kennedy, Rowe, Symington.'
@@ -807,6 +1205,7 @@ entries:
   - id: cal.1960-07-10.elections-1960-los-angeles
     when: July 10
     date: '1960-07-10'
+    place: pasadena
     thread: elections-1960-los-angeles
     c: 'Pasadena. Daley, called by Mrs. Roosevelt, hears her case for Stevenson; he cannot back him: Stevenson told him the spring before, at Libertyville, he would not run.'
     n: '[[w.cohen-american-pharaoh]], 258. Check: the day; Cohen and Taylor date it only to convention week. Names: Daley, Eleanor Roosevelt, Stevenson.'
@@ -824,6 +1223,7 @@ entries:
   - id: cal.1960-07-10.elections-1960-los-angeles-2
     when: July 10
     date: '1960-07-10'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. Stevenson, after Illinois''s caucus, reaches Daley through Arvey and asks him to reconsider. Daley: he has no support in the delegation; "You''re lucky to have the two votes you''ve got."'
     n: '[[w.cohen-american-pharaoh]], 259. Check: the day. Names: Stevenson, Daley.'
@@ -841,6 +1241,7 @@ entries:
   - id: cal.1960-07-10.elections-1960-los-angeles-3
     when: July 10–11
     date: '1960-07-10'
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [civil-rights-organizations]
     c: Los Angeles, the March on the Conventions. King speaks at the Sunday kick-off rally; Monday's picketing of the Democratic convention draws sixty-five and little notice. King keeps to a hotel room, talking politics with Michael Harrington, who organized the picketing.
@@ -856,6 +1257,7 @@ entries:
   - id: cal.1960-07-10.china-leadership
     when: July 10
     date: '1960-07-10'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union, indonesia]
     c: Beidaihe. The Politburo Standing Committee (Mao, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping; Peng Zhen attending) hears the group leaders; the world; Indonesia's measures against the Chinese. Zhou to report on the Comintern and the Chinese party. (Mao and his writers study the parties' correspondence, July 9–12.)
@@ -885,6 +1287,7 @@ entries:
   - id: cal.1960-07-10.china
     when: July 10
     date: '1960-07-10'
+    place: stockholm
     thread: china
     c: 'Stockholm. Liao Chengzhi, head of the Chinese delegation, at the meeting of the World Peace Council''s bureau and standing committee: the peoples'' struggle for peace has a favorable situation; the first task of the peace movement is to use it fully and to encourage the peoples to go on defeating the war and aggression policy of the United States-led imperialists, to the end.'
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 150 (July 10, 1960).'
@@ -905,6 +1308,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 266–267: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai]
+  - id: cal.1960-07-10.china-leadership-5
+    when: July 10
+    date: '1960-07-10'
+    time: 1960-07-10T07:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河, the work conference: the group meeting 小组会, 3 to 7 p.m.'
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 10, 1960). The words: 下午3时到7时 (I, 526). See [[cal.1960-07-09.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 7e8e1276
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-10.china-leadership-6
+    when: July 10
+    date: '1960-07-10'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 to dinner at Tao Zhu's 陶铸.
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 10, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tao Zhu.'
+    src:
+      c: d4b0b643
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    time_range:
+      - 1960-07-10T11:00Z
+      - 1960-07-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-10.china-leadership-7
+    when: July 10
+    date: '1960-07-10'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 10, 1960). The words: 上午看文件……游泳 (I, 525). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 011a7ab8
+      rows:
+        - 'w.yang-shangkun-riji I, 525: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-09T22:00Z
+      - 1960-07-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-11.congo
     when: July 11
     date: '1960-07-11'
@@ -923,6 +1374,7 @@ entries:
   - id: cal.1960-07-11.elections-1960
     when: July 11
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Democratic National Convention opens, Los Angeles, at the Memorial Sports Arena. The party''s primaries: map and returns below.'
     n: CQ Guide 6th (2010) 404–405. See [[cal.1960-03-08.elections-1960]].
@@ -931,6 +1383,7 @@ entries:
     when: July 11
     date: '1960-07-11'
     time: 1960-07-11T14:00Z
+    place: newport
     thread: latin-america
     c: 'Eisenhower, at Newport, R.I.: a new program for Latin America. Land, housing, schools, public health; funds to be asked of Congress; the plan to the economic conference at Bogotá in September.'
     n: 'The President''s News Conference at Newport, Rhode Island, [1960–61 Pub. Papers 568](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=620) (July 11, 1960). [FRUS 1958–60, VI, doc. 550](https://history.state.gov/historicaldocuments/frus1958-60v06/d550), on its drafting. To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.taffet-foreign-aid-as-foreign]]; [[w.levinson-alliance-that-lost-its]]. Names: Eisenhower.'
@@ -977,6 +1430,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-3
     when: July 11
     date: '1960-07-11'
+    place: pasadena
     thread: elections-1960-los-angeles
     c: Pennsylvania's delegation caucuses and declares for Kennedy, sixty-eight votes on the first ballot.
     n: '[[w.kallina-kennedy-v-nixon]], 72; [[w.white-making-of-the-president]], 161 (11:30 a.m., Pasadena; Lawrence announces 64 for Kennedy, 8 for Stevenson). [[w.sorensen-kennedy]], 155. To check: David L. Lawrence OHI, June 26, 1966, JFK Library; Hugh Sidey OHI, Apr. 7, 1964, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 72 n.58). See [[cal.1960-07-08.elections-1960]]. Names: Kennedy.'
@@ -998,6 +1452,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-4
     when: July 11–14
     date: '1960-07-11'
+    place: camp-david
     thread: elections-1960-nixon
     c: 'Camp David, through the Democratic convention, by Nixon''s account. Nixon at work on the first draft of his acceptance speech; of Los Angeles he watches only part of Church''s keynote. July 14, Rogers with him for the night: the two, hearing Johnson named, agree that the ticket is the strongest the Democrats could field.'
     n: '[[w.nixon-six-crises]], 312. See [[cal.1960-07-11.elections-1960]]. Names: Nixon, Church, Rogers, Johnson.'
@@ -1009,6 +1464,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-8
     when: July 11–13
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. Kennedy''s mornings of caucuses: July 11, Nevada, Pennsylvania, Michigan, North Carolina, Arkansas, New York, South Carolina, Florida, Alaska; July 12, North Carolina, a New England breakfast, Wyoming, South Dakota, a nationalities group, California; July 13, Indiana, a farm-State caucus, Virginia, Colorado, Hawaii.'
     n: '[[w.white-making-of-the-president]], 159 n.3. See [[cal.1960-07-11.elections-1960]]. Names: Kennedy.'
@@ -1020,6 +1476,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-5
     when: July 11
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, as the convention opens. Mrs. Roosevelt hopes Kennedy's "unselfishness and courage" will lead him to take the Vice Presidency, "the opportunity to grow and learn"; Negroes, she says, will not vote for him.
     n: '[[w.sorensen-kennedy]], 155 (an earlier column of Lippmann''s, the same). See [[cal.1960-07-11.elections-1960]]. Names: Eleanor Roosevelt, Kennedy. Check: the day; Sorensen: "as the convention opened on Monday, July 11."'
@@ -1037,6 +1494,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-6
     when: July 11
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, as the convention opens. Humphrey, never formally committed, announces he is "switching" from Kennedy to Stevenson out of "concern for my country."
     n: '[[w.sorensen-kennedy]], 155; [[w.solberg-hubert-humphrey]], 213 (Humphrey for Stevenson as the convention meets, after Rowe and O''Connor bring him together with Johnson; not the words). See [[cal.1960-07-11.elections-1960]]. Names: Humphrey, Kennedy, Stevenson. Check: the day; Sorensen: "as the convention opened on Monday, July 11."'
@@ -1055,6 +1513,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-7
     when: July 11
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. A move to bind the Washington delegation unanimously for Kennedy beaten in caucus, though Magnuson would switch to Kennedy to help Jackson. Rosellini: "I''m going to watch it for another day."'
     n: '[[w.guthman-we-band-of-brothers]], 75–76. See [[cal.1960-07-11.elections-1960]]. Names: Kennedy, Magnuson, Jackson, Rosellini.'
@@ -1072,6 +1531,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-los-angeles
     when: July 11
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, as the convention meets. Rowe, seconded by Pat O'Connor, a Minneapolis corporation lawyer, brings Humphrey together with Johnson.
     n: '[[w.solberg-hubert-humphrey]], 213. To check: Patrick O''Connor, interviews, Sept. 20 and 22, 1982; James Rowe, interview; [[w.martin-adlai-stevenson-and-the]], 513; [[w.white-making-of-the-president]], 36 (cited by [[w.solberg-hubert-humphrey]], 213, its note). Check: the day; Solberg: "as the convention met." See [[cal.1960-07-11.elections-1960]]. Names: Rowe, Humphrey, Johnson.'
@@ -1084,6 +1544,7 @@ entries:
   - id: cal.1960-07-11.elections-1960-los-angeles-3
     when: July 11–13
     date: '1960-07-11'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, a CBS television booth above the convention floor, as Stevenson makes his first appearance in the hall and his followers set off a demonstration. Mike Wallace asks O''Brien how he feels, as a Kennedy man, about the outpouring. O''Brien: "It''s a fine demonstration but I don''t think it''s changing any delegate votes. It only shows Stevenson might be elected mayor of Los Angeles." By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 81. Check: the day (the work gives none; Stevenson''s first appearance in the hall, during the convention). Names: O''Brien, Stevenson.'
@@ -1120,6 +1581,20 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 151: all'
     tags: [polity:prc, polity:drv, polity:us, name:chen-yi, name:pham-van-dong]
+  - id: cal.1960-07-11.china-leadership-2
+    when: July 11
+    date: '1960-07-11'
+    time: 1960-07-11T07:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河, the work conference: the group meeting 小组会, 3 to 7 p.m.'
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 11, 1960). The words: 下午3时到7时 (I, 526). See [[cal.1960-07-09.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 7e8e1276
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-12.congo
     when: July 12
     date: '1960-07-12'
@@ -1165,6 +1640,7 @@ entries:
     when: July 12
     date: '1960-07-12'
     time: 1960-07-12T22:00Z
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'The Biltmore''s Crystal Ballroom, 3 p.m. Johnson, by telegram and at a press conference, challenges Kennedy to debate before the Texas and Massachusetts delegations. Kennedy comes, nearly alone. Johnson on quorum calls and roll calls missed; Kennedy: "I assume he was talking about some other candidate."'
     n: '[[w.caro-passage-of-power]], 102–05; [[w.shesol-mutual-contempt]], 39 (the debate before the two delegations; Kennedy: "I don''t think Senator Johnson and I disagree on the great issues"); [[w.white-making-of-the-president-1965]], 409–10 (by Graham''s account: the form telegram sent to the Texas delegation by clerical error; Graham at lunch with Johnson, 1:30, puts him to bed for a nap and writes him notes on the world; Kennedy''s speech; Johnson''s opening from the notes); [[w.schlesinger-robert-kennedy-and-his]], 205 (Johnson''s challenge to a debate before the Texas delegation early in convention week; Joseph Kennedy at Marion Davies''s estate, by Seigenthaler''s account, on Jack as "a damned fool if he goes near him"; Kennedy accepts, by a radio flash; not the telegram, the press conference, the Massachusetts delegation, the hour or the day); [[w.salinger-with-kennedy]], 41–42 (Kennedy accepts an invitation to address the Texas delegation; newsmen''s word that Johnson would challenge him to debate there; the debate before a joint caucus of the Massachusetts and Texas delegations, "a draw"; not the telegram, the press conference, the hour or the words); [[w.obrien-no-final-victories]], 81–82 (Johnson''s challenge to debate before the Texas delegation; Kennedy, driving across Los Angeles with O''Brien between delegations: "I''m going to do it, Larry ... I''m sure as hell not afraid of Lyndon"; Kennedy''s opening, "full of admiration for Senator Johnson ... for majority leader of the United States Senate"; Johnson deflated, the Texans cheering; not the hour, the place, the telegram or the Massachusetts delegation). [[w.sorensen-kennedy]], 156–57 (Johnson''s challenge before the two delegations; Kennedy''s reply). Check: the day of the challenge: [[w.obrien-no-final-victories]], 81–82, has Johnson issue it the day before Kennedy, driving with O''Brien early in convention week, decides to accept. To check: Kennedy''s and Johnson''s telegrams, July 12, 1960, "Special File on Lyndon B. Johnson''s Campaigns," LBJ Library; the transcript of the debate, July 12, 1960, Statements of Lyndon Baines Johnson, LBJ Library; *San Antonio Light*, July 13, 1960; *Washington Evening Star*, July 13, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 103–04). See [[cal.1960-07-12.elections-1960]]. Names: Johnson, Kennedy, Robert Kennedy.'
@@ -1188,6 +1664,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-3
     when: July 12
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, the night before the nominations, by Humphrey's account. Freeman and the Minnesota delegation's Kennedy men in Humphrey's suite past midnight, for his endorsement of Kennedy. After they go, with Muriel Humphrey and Waters, he decides for Stevenson. McCarthy to nominate Stevenson, at Humphrey's suggestion.
     n: '[[w.humphrey-education-of-a-public-1976]], 231–32; [[w.solberg-hubert-humphrey]], 213 (asked to nominate Stevenson, Humphrey declines and suggests McCarthy). See [[cal.1960-07-12.elections-1960-2]]. Names: Freeman, Kennedy, Humphrey, Stevenson, McCarthy.'
@@ -1204,6 +1681,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-8
     when: July 12
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, Tuesday evening. California''s delegation, Brown''s hold on it gone, splits: 30½ for Kennedy, 31½ for Stevenson, the rest scattered.'
     n: '[[w.white-making-of-the-president]], 161–62; [[w.salinger-with-kennedy]], 40 (the California caucus on the second day of the convention; Kennedy''s count had claimed none of California, O''Brien and Unruh expecting not much over thirty-five; not Brown or the other votes). See [[cal.1960-07-11.elections-1960]]. Names: Brown, Kennedy, Stevenson. Check: the first ballot''s figures.'
@@ -1226,6 +1704,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-9
     when: July 12
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles. The Kansas and Iowa delegations, promised to Kennedy by Governors Docking and Loveless over the week end, will vote for their governors on the first ballot, whether the governors want it or not.
     n: '[[w.white-making-of-the-president]], 163. See [[cal.1960-07-11.elections-1960]]. Names: Docking, Loveless, Kennedy.'
@@ -1237,6 +1716,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-6
     when: July 12–13
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. Stevenson speaks to Minnesota''s caucus, at its asking, and does not summon it to follow him. In the afternoon he takes his seat with Illinois on the floor, to an eruption from floor and galleries. At one in the morning, in the Sheraton-West''s LaFayette Room, to some 250 delegates and alternates: "But I have promises to keep."'
     n: '[[w.white-making-of-the-president]], 163–64; [[w.schlesinger-journals]], 71–73 (the entry headed July 13: Humphrey calls the Minnesota caucus to order at 10:30 a.m., Kennedy and the other candidates having addressed it the day before; Stevenson, who has agreed to come, enters to a crowd that "went wild" and speaks, "polished, graceful, courtly, charming, rather noncommittal"; at 6 o''clock Stevenson comes to the floor, "The galleries went mad" and on the floor "there was pandemonium"; invited to the rostrum, he repeats his Biltmore joke ("the last man to survive") and the demonstration "quieted down almost instantly"; not the Sheraton-West meeting); [[w.salinger-with-kennedy]], 42 (the tumultuous demonstration when Stevenson takes his seat with the Illinois delegation, the house packed by his Southern California supporters; told that very morning by Illinois leaders that he could not count on his own State; not the Minnesota caucus or the LaFayette Room). Check: the day and the hour: [[w.schlesinger-journals]], 71–73, has the Minnesota caucus at 10:30 a.m. and the floor appearance at 6 o''clock in the entry headed July 13; this entry has the afternoon of July 12 for the floor. Check: the day of Stevenson''s seat with Illinois: [[w.salinger-with-kennedy]], 42, has it "the first day of the convention" (July 11). See [[cal.1960-07-11.elections-1960]]. Names: Stevenson.'
@@ -1250,6 +1730,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-7
     when: July 12–13
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
     c: 'Los Angeles. North Dakota''s delegation in revolt the night of July 12; Shriver works through the night on the delegate whose half-vote holds the unit rule. July 13, morning, Room 8315 of the Biltmore: Robert Kennedy''s last count with his State shepherds, 739½, New Jersey to be broken open after the first ballot.'
@@ -1296,6 +1777,7 @@ entries:
   - id: cal.1960-07-12.press-and-broadcasting
     when: July 12
     date: '1960-07-12'
+    place: washington
     thread: press-and-broadcasting
     also: [elections-1960]
     c: 'The *Washington Post*, Tuesday: "the word in Los Angeles is that Kennedy will offer the VPship to Lyndon Johnson." Graham, its publisher, would let Friendly and Roberts write no more strongly.'
@@ -1350,6 +1832,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-los-angeles
     when: July 12
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles. Joseph Rauh, laboring to keep Black delegates in line for Kennedy, goes "in some agitation" to Robert Kennedy when the Washington Post's word that Kennedy will probably offer Johnson second place reaches the District of Columbia delegation. Kennedy assures him, as before, that it will definitely not be Johnson.
     n: '[[w.schlesinger-robert-kennedy-and-his]], 208. See [[cal.1960-07-12.press-and-broadcasting]]. Names: Rauh, Robert Kennedy, Kennedy, Johnson. Check: the day; the book gives none, the Post''s story being of Tuesday, July 12.'
@@ -1361,6 +1844,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-los-angeles-2
     when: July 12
     date: '1960-07-12'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. Told by friends in the Texas delegation that Johnson will not attend the caucus Kennedy is to address, Salinger spends half an hour telling reporters that Johnson is backing out of a debate. Philip Graham of the *Washington Post* telephones: "Never tear something down in such a way that you can''t put it back together again." Salinger reads it as a sign Johnson may be Kennedy''s running mate. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 41–42. Check: the day (before the debate of July 12; the work gives no day). See [[cal.1960-07-12.elections-1960-2]]. Names: Salinger, Kennedy, Johnson.'
@@ -1393,9 +1877,61 @@ entries:
     c: Zhou Enlai with Luo Ruiqing on the Sino-Nepalese border.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 331 (July 12, 1960). Made public: 1997. Names: Zhou Enlai, Luo Ruiqing.'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-07-12.china-leadership-4
+    when: July 12
+    date: '1960-07-12'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河, the work conference: the group meeting 小组会.'
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 12, 1960). The words: 下午 (I, 526). See [[cal.1960-07-09.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: d1e840d0
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-12T04:00Z
+      - 1960-07-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-12.china-leadership-5
+    when: July 12
+    date: '1960-07-12'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 to dinner at Li Jingquan's 李井泉.
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 12, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Jingquan.'
+    src:
+      c: acc67eff
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, name:li-jingquan, vis:only:prc]
+    time_range:
+      - 1960-07-12T11:00Z
+      - 1960-07-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-12.china-leadership-6
+    when: July 12
+    date: '1960-07-12'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 with Pei Tong 裴桐, deputy director of the Central Archives.
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 12, 1960). The words: 晚间 (I, 526). See [[cal.1960-07-12.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Pei Tong.'
+    src:
+      c: d5a335f9
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-12T11:00Z
+      - 1960-07-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-13.congo
     when: July 13–14
     date: '1960-07-13'
+    place: nyc
     thread: congo
     c: 'Security Council, overnight: a UN force for the Congo, Belgium to withdraw its troops; 8–0, China, France, Britain abstaining.'
     n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). [[w.fursenko-khrushchevs-cold-war]], 308 (the Soviet delegate instructed to support it; 8–0); [[w.poole-joint-chiefs-of-staff]], 256; [[w.bissell-reflections-of-a-cold]], 143 (the UN asks Belgium to withdraw and sends a force); [[w.ball-past-has-another-pattern]], 227 (the Security Council''s resolution, July 13, 1960, calling on Belgium to withdraw and authorizing the Secretary-General to give military assistance; Hammarskjöld approves a UN force; not the vote or the abstentions); [[w.watson-into-the-missile-age]], 761 (the Security Council "on 14 July authorized Secretary General Dag Hammarskjöld to provide military assistance"; a force of troops from African nations, Sweden and Ireland; not Belgium''s withdrawal, the vote or the abstentions). The time is the first day''s. Check: Poole, 256, dates the resolution July 14. See [[cal.1960-06-30.congo]].'
@@ -1454,6 +1990,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-6
     when: July 13
     date: '1960-07-13'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the day of the balloting. Stevenson, resolved to seek the nomination in earnest, tries all morning to reach Daley, who avoids him; at one he reaches Arvey, who finds Daley on the floor at four. Daley, by telephone: Stevenson has no support in Illinois''s delegation, not for want of a declared candidacy; nor had he in 1956, when Daley held the delegation for him.'
     n: '[[w.white-making-of-the-president]], 167. See [[cal.1960-07-12.elections-1960-6]]. Names: Stevenson, Daley.'
@@ -1470,6 +2007,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-5
     when: July 13
     date: '1960-07-13'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the morning of the balloting. Johnson before the Washington delegation, asking its help to "stop Kennedy": doubts on Kennedy''s physical fitness and his liberal credentials; on Joseph Kennedy, "I was never any Chamberlain-umbrella-policy man. I never thought Hitler was right." Jackson''s men call Robert Kennedy, who tells the caucus Jackson is his personal choice for Vice President, the decision not his. Washington''s vote on the roll: Kennedy 14½, Stevenson 6½, Symington 3, Johnson 2½, Rosellini ½.'
     n: '[[w.guthman-we-band-of-brothers]], 76–77 (Guthman reporting for the *Seattle Times*). Check: Thomas puts Johnson''s "Chamberlain umbrella man" at a news conference (97). See [[cal.1960-07-13.elections-1960]]. Names: Johnson, Kennedy, Joseph P. Kennedy, Jackson, Robert Kennedy, Stevenson, Symington, Rosellini.'
@@ -1554,6 +2092,7 @@ entries:
     when: July 13
     date: '1960-07-13'
     time: 1960-07-13T17:40Z
+    place: los-angeles
     thread: elections-1960
     c: 'Los Angeles, 10:40 a.m. Graham with Kennedy, alone in a convention car to a farm caucus at the Statler-Hilton, by Graham''s account: his plan, a message from Kennedy for Stevenson to read Thursday asking the delegates to draft Johnson; "Leave it with me only." Kennedy might be twenty votes short; could the offer win any of Johnson''s? Graham: his nomination assured "by res ipsa loquitur."'
     n: '[[w.white-making-of-the-president-1965]], 410–11 (Graham''s account). See [[cal.1960-07-11.elections-1960-2]]. Names: Kennedy, Stevenson, Johnson, Smathers.'
@@ -1566,6 +2105,7 @@ entries:
   - id: cal.1960-07-13.goldwater
     when: July 13
     date: '1960-07-13'
+    place: chicago
     thread: goldwater
     also: [conservative-movement]
     c: Americans for Goldwater's full-page advertisement in the *Chicago Tribune*.
@@ -1601,6 +2141,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-los-angeles-2
     when: July 13
     date: '1960-07-13'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Sports Arena, the convention gaveled to order at 3 p.m. Rayburn makes the first nominating speech, for Johnson: "a poor boy who dreamed great dreams." Johnson watches it on television in his suite.'
     n: '[[w.caro-passage-of-power]], 106–07. Names: Rayburn, Johnson. Check: the hour of the speech.'
@@ -1615,6 +2156,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-los-angeles-4
     when: July 13
     date: '1960-07-13'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Biltmore, Kennedy''s suite, before the balloting. Hawaii delegates, some in Stevenson hats, tell him their caucus gave Stevenson 3½ votes, Johnson 3, Kennedy 1½. Kennedy, "for the first time that week," chastises a delegation: neither Stevenson nor Johnson can win; he ticks off New York, Pennsylvania, Illinois and Ohio on his fingers.'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 208 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Stevenson, Johnson.'
@@ -1622,6 +2164,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-los-angeles-5
     when: July 13
     date: '1960-07-13'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Biltmore, Kennedy''s suite, the Golden Door. A message from Kenny, Hudson County leader: after a long caucus that morning, Governor Meyner still holds New Jersey''s forty-one votes for himself on the first ballot; Kennedy can count on thirty-one on the second.'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 208 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy.'
@@ -1629,6 +2172,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-los-angeles-6
     when: July 13
     date: '1960-07-13'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Biltmore, Kennedy''s suite, at lunch, to his sister Pat Lawford, on the split in the California delegation over Stevenson: "Maybe I shouldn''t have listened to Pat Brown. I should have entered that primary."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 209 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Brown.'
@@ -1636,6 +2180,7 @@ entries:
   - id: cal.1960-07-13.elections-1960-nomination
     when: July 13
     date: '1960-07-13'
+    place: washington
     thread: elections-1960-nomination
     c: 'Washington. When Wyoming''s votes give Kennedy the nomination, Goodwin and the staff of the Senate office leave for the Democratic National Committee''s headquarters on K Street, where the committee staff are watching a television broadcast of the convention. They put briefcases and cartons of papers on the desks: by "inviolable tradition" the National Committee, its records and staff belong to the nominee.'
     n: '[[w.goodwin-remembering-america]], 90 (Goodwin''s account; the broadcast "from Constitution Hall"). See [[cal.1960-07-13.elections-1960]]. Names: Kennedy, Goodwin. Check: the day; Wyoming''s votes came late on July 13 in Los Angeles, after midnight in Washington.'
@@ -1656,6 +2201,18 @@ entries:
     c: Zhou Enlai with Li Fuchun, Lu Dingyi and Nie Rongzhen on students abroad.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 331 (July 13, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Lu Dingyi, Nie Rongzhen.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:li-fuchun, name:lu-dingyi, name:nie-rongzhen, vis:only:prc]
+  - id: cal.1960-07-13.china-leadership-3
+    when: July 13
+    date: '1960-07-13'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. A day of rest for the work conference, at Mao's 毛泽东 bidding; Yang Shangkun 杨尚昆 reads documents all day, and dines at Zeng Xisheng's 曾希圣.
+    n: '[[w.yang-shangkun-riji]], I, 526 (July 13, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun, Zeng Xisheng.'
+    src:
+      c: 9fa4561b
+      rows:
+        - 'w.yang-shangkun-riji I, 526: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-07-14.elections-1960
     when: July 14
     date: '1960-07-14'
@@ -1718,6 +2275,7 @@ entries:
   - id: cal.1960-07-14.japan-and-korea
     when: July 14
     date: '1960-07-14'
+    place: tokyo
     thread: japan
     c: Kishi stabbed at the Prime Minister's residence, the day the Liberal Democrats choose Ikeda to succeed him.
     n: 'FRUS 1958–60, XVIII, doc. [192](https://history.state.gov/historicaldocuments/frus1958-60v18/d192). To check: [[w.kapur-japan-at-the-crossroads]]. See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi, Ikeda.'
@@ -1726,6 +2284,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-3
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
     c: Los Angeles, the Biltmore, the small hours after the nomination. James Roosevelt knocks at Suite 8315 and is let in by Robert Kennedy.
@@ -1757,6 +2316,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-4
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles. Johnson, waiting to see Kennedy, to O''Brien, who will run the campaign: "I am going to do everything humanly possible to help this man and to help this ticket. ... Move me everywhere and anywhere you can. I am totally committed." By O''Brien''s account.'
     n: '[[w.bernstein-guns-or-butter]], 5; [[w.obrien-no-final-victories]], 85 (O''Brien and Johnson meet for the first time, the morning after the nomination, in Kennedy''s suite: Johnson in brown, nose to nose, a five-minute monologue: he wants to be part of the team and will work tirelessly for the ticket; not the words quoted, which are Bernstein''s). Check: the day; Bernstein gives "during the convention." To check: O''Brien, Oral History Interview, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 5 n.2). See [[cal.1960-07-14.elections-1960]]. Names: Johnson, Kennedy, O''Brien.'
@@ -1808,6 +2368,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, Kennedy''s suite at the Biltmore, after the nomination. Daley, with a few other backers, for Symington for second place, against Johnson: Johnson would make Illinois harder to carry. Kennedy, by the *Chicago Tribune*''s account: "Not you nor anybody else nominated us. We did it ourselves."'
     n: '[[w.cohen-american-pharaoh]], 259–60. Check: the day. Names: Daley, Symington, Lyndon Johnson, John F. Kennedy.'
@@ -1825,6 +2386,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-7
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [elections-1960-nomination]
     c: Los Angeles, the Texans on Kennedy's choice of Johnson. Kerr, told by Bobby Baker, slaps him and storms into Johnson's quarters, shouting betrayal. Lady Bird Johnson and Rayburn at first against the offer; Rayburn and others won over in the morning.
@@ -1840,6 +2402,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-3
     when: July 14
     date: '1960-07-14'
+    place: beverly-hills
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
     c: 'Beverly Hills, the evening, Marion Davies''s house, rented by Joseph Kennedy. Kennedy and Robert Kennedy dine with their father; Bartlett with them. Joseph Kennedy on the choice of Johnson: "Don''t worry, Jack. Within two weeks they''ll be saying it''s the smartest thing you ever did." Robert Kennedy to Bartlett: "Yesterday was the best day of my life. Today is the worst day." Jacqueline Kennedy low. By Bartlett''s account.'
@@ -1854,6 +2417,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-4
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
     c: 'Los Angeles, the morning after the nomination. Schlesinger urges Robert Kennedy to bring in the Stevenson people. Robert Kennedy: "Arthur, human nature requires that you allow us forty-eight hours. Adlai has given us a rough time over the last three days." Soon after he sends Doyle, who ran the Stevenson campaign, Eugene McCarthy and Schlesinger to the Stevenson loyalists of southern California.'
@@ -1879,6 +2443,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-9
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, after the offer. O''Donnell to Kennedy on choosing Johnson: "the worst mistake you ever made," going "against all the people who supported you." Kennedy: "I''m forty-three years old, and I''m ... not going to die in office"; with Johnson Vice President, Mansfield leader in the Senate, "somebody I can trust and depend on"; the offer, accepted or not, to keep Johnson and Rayburn friendly until Congress adjourns. By O''Donnell''s account.'
     n: '[[w.mann-walls-of-jericho]], 276–77; [[w.odonnell-johnny-we-hardly-knew]], 217–18 (Kennedy''s remarks to O''Donnell in the bathroom of the Biltmore suite, after the offer and before Johnson''s answer). See [[cal.1960-07-14.elections-1960]]. Names: O''Donnell, Kennedy, Johnson, Mansfield, Rayburn.'
@@ -1953,6 +2518,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-14
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, North Rossmore Avenue, after two o''clock in the morning. Kennedy, who has read aloud Johnson''s telegram, "LBJ now means Let''s Back Jack," has Powers try to reach Johnson by telephone; a sleepy aide: Johnson is in bed. Kennedy telephones a message by Evelyn Lincoln''s husband, Abe, who types it and takes it by hand to Johnson''s suite: Kennedy wants to see Johnson at ten that morning. To Powers: "I wish I had asked Lyndon and George Smathers to be at that meeting of Southern governors we''ve got scheduled for eleven-thirty."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 214–15 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Johnson, Powers, Lincoln, Smathers.'
@@ -1960,6 +2526,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-15
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Biltmore, Kennedy''s suite, about eight. Kennedy takes Robert Kennedy into a bedroom and closes the door. Coming out, Robert Kennedy: "If you''re sure it''s what you want to do, go ahead and see him." By Powers''s account, Johnson is the "him."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 215 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Robert Kennedy, Johnson, Powers.'
@@ -1967,6 +2534,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-16
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Biltmore, Robert Kennedy''s bedroom, half an hour after Kennedy tells him of the offer. Salinger to O''Donnell: Robert Kennedy "just asked me to add up the electoral votes in the states we''re sure of, and to add Texas." O''Donnell, to Robert Kennedy in the bathtub: "Don''t tell me it''s Johnson." "I guess it is. He''s seeing him now." O''Donnell: "Do you realize this is a disaster? Nixon will love this. ... I want to talk to your brother myself on this one."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 216 (O''Donnell''s and Powers''s account); [[w.salinger-with-kennedy]], 44 (Salinger''s memorandum: Robert Kennedy''s room at the Biltmore, O''Donnell there, Robert Kennedy asks Salinger to compute electoral votes, is "seriously thinking of Johnson," and says Kennedy will see Johnson at 10 a.m.; O''Donnell protests violently, Salinger with him; not the bathtub or the words). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Donnell, Salinger, Robert Kennedy, Johnson, Nixon.'
@@ -1984,6 +2552,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-17
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Statler Hilton, the labor leaders assembled. Reuther and Meany, who had seen Kennedy earlier with Goldberg, are "violently angry" at the choice of Johnson; Conway "coming at me as if he was about to slug me" (O''Donnell). Rose: if Johnson is on the ticket, Kennedy will not be on the Liberal party''s line in New York. The labor people shout they will put up a candidate of their own and make a floor fight. Rose telephones Dubinsky in New York; Dubinsky, by Rose: "Kennedy is making a smart move." The shouts of "sellout" and "double cross" resume. O''Donnell and Robert Kennedy the targets.'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 218–19 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Reuther, Meany, Conway, Goldberg, Kennedy, Johnson, O''Donnell, Robert Kennedy.'
@@ -1991,6 +2560,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-18
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, the Biltmore, Kennedy's suite, a meeting of Southern governors approving Johnson. Soapy Williams of Michigan walks in by accident and shouts that if Johnson is nominated he will lead a floor fight against the nomination. A few of the Southerners jump up to take a punch at him; Ribicoff steps in. Kennedy, in an armchair, watches "without saying a word."
     n: '[[w.odonnell-johnny-we-hardly-knew]], 220 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Williams, Kennedy, Johnson, Ribicoff.'
@@ -1998,6 +2568,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-19
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the afternoon. Between four-thirty, when Conway tells O''Donnell that the labor people and the liberals of Michigan''s delegation are "definitely planning a fight to the finish" against the ticket, and seven-thirty, when he telephones him on the floor that there will be no floor fight and no candidate against Johnson: by O''Donnell''s later account, Reuther and his people make their own pact with Johnson, their opposition dropped if he supports the convention''s civil rights platform. Johnson writes a letter to that effect; Woodcock, vice-president of the United Automobile Workers, presents it to a caucus of the Michigan delegation. Williams still against the nomination.'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 222–23 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Conway, O''Donnell, Reuther, Johnson, Williams. Check: the hour of the pact (the authors: between four-thirty and seven).'
@@ -2007,6 +2578,7 @@ entries:
     date: '1960-07-14'
     time: 1960-07-14T22:20Z
     time_approx: true
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, about 3:20 p.m., Stevenson''s quarters. The Governor, "visibly shaken," comes out to Schlesinger: Phil Graham has just called him to say Kennedy has chosen Lyndon Johnson for Vice President. By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 74. Made public: [[w.schlesinger-journals]] (2007). See [[cal.1960-07-14.elections-1960]]. Names: Stevenson, Schlesinger, Kennedy, Johnson.'
@@ -2014,6 +2586,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-21
     when: July 14–15
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, the Biltmore, the night after the vice-presidential nomination. John S. Knight's story says Johnson forced Kennedy to take him; Salinger denies it under his own name. Rayburn, through Moyers, wants a denial in Kennedy's name and a call from Kennedy to Knight; Salinger and Robert Kennedy draft the statement, and Robert Kennedy telephones Knight, whose confidence in the story is shaken. By Salinger's memorandum of the week after.
     n: '[[w.salinger-with-kennedy]], 44–45. Names: Salinger, Rayburn, Moyers, Robert Kennedy, Kennedy, Johnson.'
@@ -2021,6 +2594,7 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-22
     when: July 14
     date: '1960-07-14'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, about three in the afternoon. Kennedy tells Clifford, Symington's campaign manager, that Johnson will be the vice-presidential candidate, and that he is surprised Johnson was willing to make a fight for second place. By Salinger's memorandum of the week after.
     n: '[[w.salinger-with-kennedy]], 45 (Clifford confides it to Governor Blair of Missouri, the source of Knight''s story). See [[cal.1960-07-14.elections-1960]]. Names: Kennedy, Clifford, Symington, Johnson, Salinger.'
@@ -2028,16 +2602,18 @@ entries:
   - id: cal.1960-07-14.china-leadership
     when: July 14–16
     date: '1960-07-14'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: Beidaihe, the work conference in plenary session, Mao presiding. Zhou Enlai's report, over three afternoons, on the Communist International and the Chinese Communist Party.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 14, 1960; [[w.zhou-enlai-nianpu-1949]], II, 331–33, July 14–16, 1960 (the report''s six views and the three periods); [[w.lengxi-shinian-lunzhan-1956-1966]], 314–315 (decided by the Standing Committee; Zhou speaks three days, July 14 to 16, in five periods from the Comintern''s founding to the latest; the first period 1919–27; mornings). Made public: 1997. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 14, 1960; [[w.zhou-enlai-nianpu-1949]], II, 331–33, July 14–16, 1960 (the report''s six views and the three periods); [[w.lengxi-shinian-lunzhan-1956-1966]], 314–315 (decided by the Standing Committee; Zhou speaks three days, July 14 to 16, in five periods from the Comintern''s founding to the latest; the first period 1919–27; mornings); [[w.yang-shangkun-riji]], I, 526–527 (July 14–16, 1960; July 14, 4:30 to 8 p.m.; July 15, 4 to 8:30 p.m.; July 16, 3 to 7:30 p.m., the report finished). Made public: 1997. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: a2213050
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 14, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 331–33, July 14–16, 1960: B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 314–315: A, B'
+        - 'w.yang-shangkun-riji I, 526–527: A, B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
     variants:
       - unit: B
@@ -2047,6 +2623,7 @@ entries:
   - id: cal.1960-07-15.elections-1960
     when: July 15
     date: '1960-07-15'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Kennedy accepts at the Memorial Coliseum: "the New Frontier of which I speak is not a set of promises—it is a set of challenges." On his religion: no "religious pressure or obligation." Johnson accepts the same evening.'
     n: '[Address Accepting the Democratic Nomination for President](https://www.presidency.ucsb.edu/documents/address-accepting-the-democratic-nomination-for-president-the-memorial-coliseum-los); [Address of Senator Lyndon B. Johnson Accepting the Democratic Party Nomination for the Vice Presidency](https://www.presidency.ucsb.edu/documents/address-senator-lyndon-b-johnson-accepting-the-democratic-party-nomination-for-the-vice). [[w.kallina-kennedy-v-nixon]], 79–80 (the address at the Coliseum); [[w.white-making-of-the-president]], 177–78 (the acceptance, quoted); [[w.sorensen-counselor]], 217–19 (Sorensen''s drafting of the acceptance speech: his letter two weeks before the convention soliciting drafts; "the New Frontier" first in one of his drafts, by his recollection; not the text). [[w.sorensen-kennedy]], 166–67 (the acceptance; the New Frontier). To check: John Kenneth Galbraith to Kennedy, n.d., Galbraith Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 80 n.78). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson.'
@@ -2064,6 +2641,7 @@ entries:
   - id: cal.1960-07-15.elections-1960-2
     when: July 15
     date: '1960-07-15'
+    place: washington
     thread: elections-1960-nixon
     c: 'Washington. Nixon watches Kennedy''s acceptance on television with two of his campaign''s intimates: a poor performance, over people''s heads, too fast; he could take this man on television. The parties have already traded telegrams on debates.'
     n: '[[w.white-making-of-the-president]], 178 (by those who talked with Nixon). See [[cal.1960-07-15.elections-1960]]. Names: Nixon, Kennedy.'
@@ -2075,6 +2653,7 @@ entries:
   - id: cal.1960-07-15.elections-1960-3
     when: July 15
     date: '1960-07-15'
+    place: nyc
     thread: elections-1960-kennedy
     follows:
       - cal.1960-07-15.elections-1960
@@ -2126,6 +2705,7 @@ entries:
   - id: cal.1960-07-15.elections-1960-los-angeles-2
     when: July 15
     date: '1960-07-15'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Biltmore, after the acceptance speech at the Coliseum. Robert Kennedy to O''Donnell: "I think Whizzer White would make an excellent national chairman." O''Donnell: "Whizzer White didn''t know anything about politics until three weeks ago last Sunday. Are you expecting him to be the head of the party during a Presidential campaign?" Robert Kennedy: "I guess maybe you''re right." They agree O''Donnell and Powers will travel with the candidate, Robert Kennedy will work with the party''s chairman, and there will be a Citizens-for-Kennedy organization.'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 225 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Robert Kennedy, White, O''Donnell, Powers.'
@@ -2133,6 +2713,7 @@ entries:
   - id: cal.1960-07-15.elections-1960-los-angeles-3
     when: July 15
     date: '1960-07-15'
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles. Salinger spends most of the day backgrounding newspapermen on the vice-presidential nomination as Robert Kennedy had outlined it. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 45. See [[cal.1960-07-14.elections-1960-los-angeles-21]]. Names: Salinger, Robert Kennedy.'
@@ -2145,9 +2726,38 @@ entries:
     c: Zhou Enlai calls the first secretaries of the provinces, cities and regions and the central departments' heads on grain shipping, cotton and cloth.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 333 (July 15, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-07-15.china-leadership-2
+    when: July 15
+    date: '1960-07-15'
+    time: 1960-07-15T02:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 at the shop built by Tianjin 天津, 10 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 527 (July 15, 1960). The words: 10时 (I, 527). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1bea4041
+      rows:
+        - 'w.yang-shangkun-riji I, 527: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-15.china-leadership-3
+    when: July 15
+    date: '1960-07-15'
+    time: 1960-07-15T03:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea, 11 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 527 (July 15, 1960). The words: 11时下海游泳 (I, 527). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 99d9c2b3
+      rows:
+        - 'w.yang-shangkun-riji I, 527: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-16.democratic-party
     when: July 16
     date: '1960-07-16'
+    place: los-angeles
     thread: democratic-party
     also: [elections-1960]
     c: Los Angeles. Kennedy, at a press conference, names Senator Jackson chairman of the Democratic National Committee.
@@ -2167,6 +2777,7 @@ entries:
   - id: cal.1960-07-16.elections-1960-los-angeles
     when: July 16
     date: '1960-07-16'
+    place: nyc
     thread: elections-1960-los-angeles
     also: [press-and-broadcasting]
     c: '*New York Herald Tribune*, Earl Mazo: the story of the vice-presidential nomination Salinger calls the most authoritative. Mazo knew Robert Kennedy had not seen Johnson before Kennedy did.'
@@ -2179,9 +2790,39 @@ entries:
     c: 'Asked by Salinger whether he had expected Johnson to accept second place, Kennedy gives him many of the facts of his memorandum, then stops: "The whole story will never be known. And it''s just as well that it won''t be." By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 46. Check: the day ("a day or two after the convention"). See [[cal.1960-07-14.elections-1960-los-angeles-21]]. Names: Salinger, Kennedy, Johnson.'
     tags: [name:salinger-pierre, name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1960-07-16.china-leadership
+    when: July 16
+    date: '1960-07-16'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 at breakfast with Liao Xianhun 廖先混 and his wife, come the night before, on political questions.
+    n: '[[w.yang-shangkun-riji]], I, 527 (July 16, 1960). The words: 今晨早饭时 (I, 527). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liao Xianhun. Check: who Liao Xianhun is: the editors'' note (I, 527 n.1) says unknown.'
+    src:
+      c: 7078f464
+      rows:
+        - 'w.yang-shangkun-riji I, 527: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-15T22:00Z
+      - 1960-07-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-16.china-leadership-2
+    when: July 16
+    date: '1960-07-16'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims a length in heavy surf.
+    n: '[[w.yang-shangkun-riji]], I, 527 (July 16, 1960). The words: 大浪，下去游了一转 (I, 527). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8e0d7920
+      rows:
+        - 'w.yang-shangkun-riji I, 527: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-18.cuba
     when: July 17–18
     date: '1960-07-17'
+    place: moscow
     thread: cuba
     also: [soviet-union]
     c: 'Raúl Castro in Moscow, July 17, met by Marshal Zakharov. July 18, with Khrushchev, Gromyko, Ponomarev, Zakharov and Skachkov. The visit''s joint communiqué: "all means not to consent to an armed United States intervention against the Cuban republic."'
@@ -2206,9 +2847,41 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 268: all'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-07-17.china-leadership-2
+    when: July 17
+    date: '1960-07-17'
+    time: 1960-07-17T07:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河, the work conference: the group meeting 小组会议, 3 to 7 p.m.'
+    n: '[[w.yang-shangkun-riji]], I, 527 (July 17, 1960). The words: 下午3时到7时 (I, 527). See [[cal.1960-07-17.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 714646b8
+      rows:
+        - 'w.yang-shangkun-riji I, 527: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-17.china-leadership-3
+    when: July 17
+    date: '1960-07-17'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], I, 527 (July 17, 1960). The words: 上午游泳 (I, 527). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 011a7ab8
+      rows:
+        - 'w.yang-shangkun-riji I, 527: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-16T22:00Z
+      - 1960-07-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-18.republican-party
     when: July 18–20
     date: '1960-07-18'
+    place: chicago
     thread: republican-party
     also: [elections-1960]
     c: Chicago, the Blackstone's Crystal Ballroom. The Republican platform committee, 103 members, two from each State, opens in public session, Percy in the chair. From July 20 its subcommittees hear witnesses plank by plank; that on national defense meets one morning and hears four.
@@ -2235,14 +2908,16 @@ entries:
   - id: cal.1960-07-18.china-leadership
     when: July 18
     date: '1960-07-18'
+    place: beidaihe
     thread: china-leadership
     c: 'Beidaihe, the plenary session, Mao presiding. Li Fuchun on the economy: the tasks the world sets, the line and policies, the rest of 1960 and 1961–62. Mao: the Soviet Union built socialism by itself, 1917–45, Lenin''s road, and China will; Soviet aid of ten years not to be forgotten; the frontier weapons to be made.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 335 (Mao, as Li Fuchun spoke of Khrushchev''s pressing the Chinese at Bucharest: the Soviet people''s past help not to be forgotten, but self-reliance now; Lenin''s road, socialism in one country; Mao stressed it on the 18th because the CPSU''s letter of the 16th had come). Made public: 1999. Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 335 (Mao, as Li Fuchun spoke of Khrushchev''s pressing the Chinese at Bucharest: the Soviet people''s past help not to be forgotten, but self-reliance now; Lenin''s road, socialism in one country; Mao stressed it on the 18th because the CPSU''s letter of the 16th had come); [[w.yang-shangkun-riji]], I, 528 (July 18, 1960; 4 to 8:30 p.m.; Li Fuchun on planning). Made public: 1999. Names: Mao Zedong, Li Fuchun.'
     src:
       c: '95638120'
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 18, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 335: C, D'
+        - 'w.yang-shangkun-riji I, 528: A'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-07-18.china
     when: July 18
@@ -2268,6 +2943,38 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 269–270: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 269 n.2: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-07-18.china-leadership-3
+    when: July 18
+    date: '1960-07-18'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Kong Yuan 孔原 with Yang Shangkun 杨尚昆, to noon.
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 18, 1960). The words: 上午……到12时 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 38a500db
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-17T22:00Z
+      - 1960-07-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-18.china-leadership-4
+    when: July 18
+    date: '1960-07-18'
+    time: 1960-07-18T04:00Z
+    time_approx: true
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims half an hour, after a talk to noon.
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 18, 1960). The words: 谈话到12时，去游泳半小时 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 001ff64d
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-19.japan-and-korea
     when: July 19
     date: '1960-07-19'
@@ -2297,6 +3004,7 @@ entries:
   - id: cal.1960-07-19.elections-1960-2
     when: July 19
     date: '1960-07-19'
+    place: chicago
     thread: elections-1960-rockefeller
     also: [republican-party]
     c: 'Rockefeller''s statement to the platform committee, "Let Freedom Ring: A Centennial Memorandum for the 1960 Republican Party Platform," printed and handed out: the ground of his statement of June 8 again. To every delegate, "A Republican Approach to the Great Issues," thirty-two pages.'
@@ -2352,9 +3060,45 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 151: all'
     tags: [polity:prc, polity:congo, polity:belgium, polity:us]
+  - id: cal.1960-07-19.china-leadership-2
+    when: July 19
+    date: '1960-07-19'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. The Secretariat 书记处 on several questions of the Congress of Writers and Artists 文代会 (the third congress of the All-China Federation of Literary and Art Circles, July 22–Aug. 13, by the editors' note).
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 19, 1960). The words: 下午 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 88f14786
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+        - 'via w.yang-shangkun-riji I, 528 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-19T04:00Z
+      - 1960-07-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-19.china-leadership-3
+    when: July 19
+    date: '1960-07-19'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims back from the west beach along the net.
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 19, 1960). The words: 上午游泳，由西泳场沿网边游回 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: fcc78fa9
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-18T22:00Z
+      - 1960-07-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-20.defense
     when: July 20
     date: '1960-07-20'
+    place: cape-canaveral
     thread: defense
     c: 'The *George Washington*, submerged off Cape Canaveral, Fla., fires two Polaris missiles: the first launched from under water. To the President: "Polaris—from out of the deep to target. Perfect."'
     n: 'Special Message to the Congress Upon Its Reconvening, [1960–61 Pub. Papers 612](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=664) (Aug. 8): five more submarines begun, a longer-range missile ordered. [[w.watson-into-the-missile-age]], 377 (two missiles fired from under water, July 20). To check: [[w.sapolsky-polaris-system-development]]; [[w.roman-eisenhower-and-the-missile]]; [[w.rosenberg-origins-of-overkill]]; [*New York Times*, July 21, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/21/issue.html) (cited by [[w.watson-into-the-missile-age]], 377 n.95). Names: Eisenhower.'
@@ -2381,6 +3125,7 @@ entries:
   - id: cal.1960-07-20.elections-1960
     when: July 20
     date: '1960-07-20'
+    place: chicago
     thread: elections-1960-chicago
     also: [goldwater]
     c: 'Chicago. Goldwater before the platform committee, his "Suggested Declaration of Republican Principles": "To our undying shame, there are those among us who would prefer to crawl on their bellies rather than to face the possibility of an atomic war." A standing ovation.'
@@ -2401,6 +3146,7 @@ entries:
   - id: cal.1960-07-20.vietnam-hanoi
     when: July 20
     date: '1960-07-20'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: circular no. 338-TT/TW. The 1960 wage reform marred in places by new posts made to promote cadres and grades pushed up, the ideological work slighted; the new pay to be paid from early August, and savings deposits urged when the new and back pay are drawn.'
     n: '*Thông tri của Ban Bí thư số 338-TT/TW về việc tăng cường lãnh đạo hơn nữa đối với công tác tiền lương và việc vận động gửi tiền tiết kiệm trong dịp lĩnh lương mới*, signed for the Secretariat by Lê Văn Lương, head of its office. [[w.van-kien-dang-toan]], XXI, 402–05. See [[cal.1960-05-20.vietnam-hanoi]]. Made public: 2002.'
@@ -2408,15 +3154,17 @@ entries:
   - id: cal.1960-07-20.china-leadership
     when: July 20
     date: '1960-07-20'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe. The enlarged Standing Committee, Mao presiding, on the world and output. Zhou Enlai: 8.8 million tons of steel in the half year, 44 percent of the plan. Mao: "ally with the Soviet Union, oppose imperialism"; no split; Khrushchev damns the communes as Dulles does, and the leap, the army''s ways, cadres at labor; "his socialism and ours."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 20, 1960; [[w.zhou-enlai-nianpu-1949]], II, 333, July 20, 1960 (Zhou present). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev, Dulles.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 20, 1960; [[w.zhou-enlai-nianpu-1949]], II, 333, July 20, 1960 (Zhou present); [[w.yang-shangkun-riji]], I, 528 (July 20, 1960; the afternoon; each member reports on this year''s output). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev, Dulles.'
     src:
       c: 16901d2b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 20, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 333, July 20, 1960: B-C'
+        - 'w.yang-shangkun-riji I, 528: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-07-20.china-leadership-3
     when: July 20
@@ -2426,6 +3174,18 @@ entries:
     c: 'Zhou Enlai, on the joint report of the Planning Commission, the First Machine Ministry and the Foreign Trade Ministry on replacing tropical electric machinery for foreign aid with ordinary home machines, writes to Li Fuchun: the ministries to send a team to the works to test the equipment and accept it before shipping, so no accident abroad does harm.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 333 (July 20, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun.'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-07-20.china-leadership-4
+    when: July 20
+    date: '1960-07-20'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Jiang Qing 江青 asks Yang Shangkun 杨尚昆 to talk; he is to go to Peking 北京 the next day.
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 20, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Jiang Qing, Yang Shangkun.'
+    src:
+      c: a827ee0d
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+    tags: [polity:prc, name:jiang-qing, vis:only:prc]
   - id: cal.1960-07-21.elections-1960
     when: July 21
     date: '1960-07-21'
@@ -2443,6 +3203,7 @@ entries:
   - id: cal.1960-07-21.elections-1960-2
     when: July 21
     date: '1960-07-21'
+    place: chicago
     thread: elections-1960-rockefeller
     also: [republican-party]
     c: Chicago, the Sheraton Towers, Thursday evening. Rockefeller's strategy board, Malcolm Wilson, Morhouse, Emmet Hughes and Hinman, finds every draft plank wanting and recommends a fight on the floor over defense and civil rights. Rockefeller assents from Albany, N.Y.
@@ -2509,6 +3270,9 @@ entries:
   - id: cal.1960-07-21.china-leadership-2
     when: July 21
     date: '1960-07-21'
+    place:
+      - beidaihe
+      - peking
     thread: china-leadership
     c: Zhou Enlai leaves Beidaihe at 5 p.m. and reaches Peking at 11 p.m.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 333 (July 21, 1960). Made public: 1997. Names: Zhou Enlai.'
@@ -2520,6 +3284,9 @@ entries:
   - id: cal.1960-07-21.china-leadership-3
     when: July 21
     date: '1960-07-21'
+    place:
+      - beidaihe
+      - peking
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi returns from Beidaihe to Peking.
@@ -2537,9 +3304,26 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 277–278: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:cyrankiewicz-jozef]
+  - id: cal.1960-07-21.china-leadership-5
+    when: July 21
+    date: '1960-07-21'
+    time: 1960-07-21T01:00Z
+    place:
+      - beidaihe
+      - peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from Beidaihe 北戴河 to Peking 北京, 9 a.m., home at 11:30. Mao 毛泽东 back in Peking the same day.
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 21, 1960). The words: 上午9时乘飞机回京……于11时半到家……主席今天也回京了 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: 62cf19b7
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-22.elections-1960
     when: July 22–23
     date: '1960-07-22'
+    place: nyc
     thread: elections-1960
     also: [goldwater]
     follows:
@@ -2576,6 +3360,7 @@ entries:
   - id: cal.1960-07-22.elections-1960-2
     when: July 22
     date: '1960-07-22'
+    place: albany
     thread: elections-1960-rockefeller
     also: [republican-party]
     c: 'Albany, N.Y. Rockefeller''s statement, posted on the convention''s press boards in the morning: the draft platform "still seriously lacking in strength and specifics."'
@@ -2607,16 +3392,18 @@ entries:
     date: '1960-07-22'
     thread: china-leadership
     c: Zhou Enlai, with Liu Shaoqi, Soong Ching-ling, Deng Xiaoping, Chen Yi and Lu Dingyi, attends the opening of the Third National Congress of Writers and Artists.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 334 (July 22, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 22, 1960; Liu, with Zhou Enlai and Zhu De, attends the opening and receives the presidium). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Lu Dingyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 334 (July 22, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 22, 1960; Liu, with Zhou Enlai and Zhu De, attends the opening and receives the presidium); [[w.yang-shangkun-riji]], I, 528 (July 22, 1960; 3 to 5:30 p.m.; Yang there). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Lu Dingyi.'
     src:
       c: fd1d4e91
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 334: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: A'
+        - 'w.yang-shangkun-riji I, 528: A'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:chen-yi, name:lu-dingyi]
   - id: cal.1960-07-22.china-leadership-2
     when: July 22
     date: '1960-07-22'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai attends the national day reception given by the Polish Ambassador.
@@ -2632,9 +3419,41 @@ entries:
       - 1960-07-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-22.china-leadership-3
+    when: July 22
+    date: '1960-07-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Secretariat 书记处 on Lu Dingyi's 陆定一 greetings to the Congress of Writers and Artists 文代会.
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 22, 1960). The words: 上午 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lu Dingyi.'
+    src:
+      c: 0d00bc4b
+      rows:
+        - 'w.yang-shangkun-riji I, 528: all'
+    tags: [polity:prc, name:lu-dingyi, vis:only:prc]
+    time_range:
+      - 1960-07-21T22:00Z
+      - 1960-07-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-22.china-leadership-4
+    when: July 22
+    date: '1960-07-22'
+    time: 1960-07-22T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with members of the two Party committees on the Beidaihe 北戴河 meeting, 8 p.m. to midnight.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 22, 1960). The words: 晚间8时至12时 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4359fb8b
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-23.elections-1960
     when: July 23
     date: '1960-07-23'
+    place: hyannis-port
     thread: elections-1960-kennedy
     c: Dulles briefs Kennedy at Hyannis Port, on Eisenhower's offer of July 18 to both candidates of the Democratic ticket.
     n: 'Telegrams to Senators Kennedy and Johnson Offering Them Briefings by the Central Intelligence Agency, [1960–61 Pub. Papers 582](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=634) (July 18). [[w.nixon-six-crises]], 354 n. (the briefing, July 23, at Hyannis Port). [[w.white-making-of-the-president]], 249 (Dulles sent by Eisenhower; "any good news in that black bag"). To check: [[w.helgerson-getting-to-know-the]]; [*New York Times*, July 24, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/24/issue.html) (cited by [[w.nixon-six-crises]], 354 n.). Names: Dulles, Kennedy, Eisenhower.'
@@ -2655,6 +3474,7 @@ entries:
   - id: cal.1960-07-23.republican-party
     when: July 23
     date: '1960-07-23'
+    place: chicago
     thread: republican-party
     also: [elections-1960]
     c: 'Chicago, Saturday morning. The platform committee, learning of the Fifth Avenue statement, in uproar: its delegates will not be dictated to. By noon, Percy unable to bring it to order, it suspends its sessions.'
@@ -2673,6 +3493,7 @@ entries:
   - id: cal.1960-07-23.republican-party-2
     when: July 23
     date: '1960-07-23'
+    place: chicago
     thread: republican-party
     also: [elections-1960]
     follows:
@@ -2705,6 +3526,7 @@ entries:
   - id: cal.1960-07-23.elections-1960-3
     when: July 23
     date: '1960-07-23'
+    place: chicago
     thread: elections-1960-rockefeller
     also: [republican-party]
     c: Chicago. The Texas Republicans, on the news of the Fifth Avenue compact, vote to release themselves from their commitment to Nixon.
@@ -2723,6 +3545,7 @@ entries:
   - id: cal.1960-07-23.elections-1960-4
     when: July 23
     date: '1960-07-23'
+    place: newport
     thread: elections-1960-rockefeller
     also: [republican-party]
     c: 'Newport, R.I. Eisenhower, in private, of Rockefeller: "personal treachery." At his direction Hagerty telephones Percy in Chicago: the revised defense plank unacceptable to the White House.'
@@ -2741,6 +3564,7 @@ entries:
   - id: cal.1960-07-23.press-and-broadcasting
     when: July 23
     date: '1960-07-23'
+    place: chicago
     thread: press-and-broadcasting
     also: [elections-1960-rockefeller]
     c: 'The *Chicago Tribune*, an editorial on the Fifth Avenue compact: "Grant Surrenders to Lee."'
@@ -2758,6 +3582,7 @@ entries:
   - id: cal.1960-07-23.republican-party-3
     when: July 23
     date: '1960-07-23'
+    place: chicago
     thread: republican-party
     also: [elections-1960-rockefeller]
     c: 'Chicago, Saturday. The delegates on the Fifth Avenue compact. Hutcheson, chairman of the Texas delegation: "a damned sellout"; he asks the Southerners to resist the civil rights plank. Five States refuse their allotted contributions to the party''s finance committee. Cooper, chairman of the platform''s subcommittee on foreign relations: the best thing that could have happened to the party; Dewey: a help in November.'
@@ -2772,6 +3597,7 @@ entries:
   - id: cal.1960-07-23.elections-1960-rockefeller
     when: July 23
     date: '1960-07-23'
+    place: chicago
     thread: elections-1960-rockefeller
     c: Chicago, Saturday, the day after the Fifth Avenue compact. Rockefeller flies in, met by Al Peters and his Windy City Marching Band and some 250 partisans, most too young to vote.
     n: '[[w.smith-on-his-own-terms]], 346. See [[cal.1960-07-23.republican-party-3]]. Names: Rockefeller.'
@@ -2783,6 +3609,7 @@ entries:
   - id: cal.1960-07-23.china-leadership
     when: July 23
     date: '1960-07-23'
+    place: peking
     thread: china-leadership
     also: [cuba]
     c: Peking, the Qinzheng Hall. Mao receives the delegation of Cuba's Confederation of Workers; Liu Ningyi and Liu Changsheng present. Cuba, 6.5 million at America's side, dares to fight and holds power; the land question solved, the people armed.
@@ -2805,6 +3632,7 @@ entries:
     when: July 23
     date: '1960-07-23'
     time: 1960-07-23T10:20Z
+    place: peking
     thread: china-leadership
     also: [china]
     c: Zhou Enlai with Chen Yi, after talking with Mao, receives Brigadier Aung Gyi, Burma's chief delegate to the Sino-Burmese boundary joint commission, with his delegates, advisers and staff.
@@ -2819,6 +3647,7 @@ entries:
   - id: cal.1960-07-23.china-leadership-4
     when: July 23
     date: '1960-07-23'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking, the Great Hall of the People. Zhou Enlai gives a banquet for Brigadier Aung Gyi, Burma's chief delegate to the China–Burma Joint Boundary Committee, and the delegates, advisers and staff.
@@ -2836,14 +3665,16 @@ entries:
   - id: cal.1960-07-23.china-leadership-5
     when: July 23
     date: '1960-07-23'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking, the Workers' Stadium. Zhou Enlai watches with Aung Gyi and the Burmese guests a football match between the Locomotive sports association's team and the Lebanese club Racing.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 284 (July 23, 1960; 晚上). Names: Zhou Enlai, Aung Gyi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 284 (July 23, 1960; 晚上); [[w.yang-shangkun-riji]], I, 529 (July 23, 1960; 7:30 p.m.; Yang there; Peking''s first football at night; 1–1). Names: Zhou Enlai, Aung Gyi.'
     src:
       c: 75bd3c7b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 284: all'
+        - 'w.yang-shangkun-riji I, 529: A'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:aung-gyi]
     time_range:
       - 1960-07-23T11:00Z
@@ -2856,11 +3687,17 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Mao Zedong, Zhu De and Deng Xiaoping, receives all the delegates to the Third National Congress of Writers and Artists.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 23, 1960). Names: Liu Shaoqi, Mao Zedong, Zhu De, Deng Xiaoping.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 23, 1960); [[w.yang-shangkun-riji]], I, 529 (July 23, 1960; 6:30 p.m., Mao and the congress''s delegates photographed; Yang there). Names: Liu Shaoqi, Mao Zedong, Zhu De, Deng Xiaoping.'
+    src:
+      c: 491eb9f7
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: ?'
+        - 'w.yang-shangkun-riji I, 529: A'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhu-de, name:deng-xiaoping]
   - id: cal.1960-07-23.china
     when: July 23
     date: '1960-07-23'
+    place: peking
     thread: china
     also: [congo]
     c: 'Peking, the Great Hall of the People. A mass rally of the capital''s people: the Chinese people firmly back the Congolese people''s just patriotic struggle against imperialist aggression and interference and for national independence. They call on the world''s peoples to condemn the Belgian colonialists and the U.S.-led imperialist bloc, which plot to strangle the new Republic of the Congo and carve up its territory.'
@@ -2873,6 +3710,7 @@ entries:
   - id: cal.1960-07-23.china-2
     when: July 23
     date: '1960-07-23'
+    place: havana
     thread: china
     also: [cuba]
     c: Havana. China and Cuba sign a trade and payments agreement, a scientific and technical cooperation agreement and a cultural cooperation agreement, each for five years. China is to buy Cuban sugar and to give credits and complete plants, and the two widen scientific, technical and cultural exchange.
@@ -2882,13 +3720,48 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 152–153: all'
     tags: [polity:prc, polity:cuba]
+  - id: cal.1960-07-23.china-leadership-7
+    when: July 23
+    date: '1960-07-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zeng San 曾三 and Xu Zirong 徐子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 23, 1960). The words: 上午 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Xu Zirong, Yang Shangkun.'
+    src:
+      c: a2901f82
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-22T22:00Z
+      - 1960-07-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-23.china-leadership-8
+    when: July 23
+    date: '1960-07-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 and others with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 23, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: d97917ea
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-23T14:00Z
+      - 1960-07-23T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-24.elections-1960
     when: July 24
     date: '1960-07-24'
+    place: chicago
     thread: elections-1960-rockefeller
     also: [civil-rights-the-executive]
     c: 'Chicago, Sunday. Rockefeller at Liberty Baptist Church, King beside him on the pulpit, some six thousand Negroes in the pews. Wilkins of the NAACP, the main speaker: Rockefeller "made a backbone plank out of a spaghetti plank."'
-    n: '[[w.perlstein-before-the-storm]], 88; [[w.smith-on-his-own-terms]], 347 (Wilkins: "a backbone plank out of a spaghetti plank"; nearly six thousand; Rockefeller on "the great and burning issue"); [[w.gifford-center-cannot-hold]], 76 (Rockefeller at the NAACP rally says he is willing to start a floor fight on the civil rights plank, seconded by Hugh Scott; not the church, King or Wilkins). [[w.branch-parting-the-waters]], 321. To check: [*New York Times*, July 25, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/25/issue.html), at A16 (cited by [[w.perlstein-before-the-storm]], 88 n.2); [*New York Times*, July 25, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/25/issue.html), at 16 (cited by [[w.branch-parting-the-waters]], 321 n.6); [; w; ; p; a; r; m; e; t; -; i; c; h; d; n; x; o; s; ]; ,; 3; 8; –; 9; (; b; y; g; f; l; 7; 6; 0; ). See [[cal.1960-07-22.elections-1960]]. Names: Rockefeller, Martin Luther King, Wilkins.'
+    n: '[[w.perlstein-before-the-storm]], 88; [[w.smith-on-his-own-terms]], 347 (Wilkins: "a backbone plank out of a spaghetti plank"; nearly six thousand; Rockefeller on "the great and burning issue"); [[w.gifford-center-cannot-hold]], 76 (Rockefeller at the NAACP rally says he is willing to start a floor fight on the civil rights plank, seconded by Hugh Scott; not the church, King or Wilkins). [[w.branch-parting-the-waters]], 321. To check: [*New York Times*, July 25, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/25/issue.html), at A16 (cited by [[w.perlstein-before-the-storm]], 88 n.2); [*New York Times*, July 25, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/25/issue.html), at 16 (cited by [[w.branch-parting-the-waters]], 321 n.6); [[w.parmet-richard-nixon-and-his]], 388–89 (cited by [[w.gifford-center-cannot-hold]], 76 n.60). See [[cal.1960-07-22.elections-1960]]. Names: Rockefeller, Martin Luther King, Wilkins.'
     src:
       c: f68c5398
       rows:
@@ -2902,6 +3775,7 @@ entries:
   - id: cal.1960-07-24.elections-1960-2
     when: July 24
     date: '1960-07-24'
+    place: newport
     thread: elections-1960-rockefeller
     also: [republican-party]
     c: 'Eisenhower, at Newport, R.I., and Nixon on the Fifth Avenue statement. Eisenhower angered by its defense plank, "there must be no price ceiling on America''s security"; his help in the campaign to depend on no words against his administration. Nixon: he sought language so "Nelson can be with us and not against us."'
@@ -2917,6 +3791,7 @@ entries:
   - id: cal.1960-07-24.republican-party
     when: July 24
     date: '1960-07-24'
+    place: chicago
     thread: republican-party
     also: [goldwater, elections-1960]
     c: 'Chicago. Shorey, South Carolina''s Republican chairman and a cochairman of the Goldwater for President Committee, to reporters: Rockefeller''s "attempt ... to impose his will in a dictatorial fashion upon this convention" and Nixon''s "apparent acquiescence" have left the convention "restive, dissatisfied and flexible." As many as 120 first-ballot votes for Goldwater, from Nevada, Virginia, Nebraska, Mississippi, North Carolina and Louisiana among others.'
@@ -2952,6 +3827,7 @@ entries:
   - id: cal.1960-07-24.republican-party-2
     when: July 24
     date: '1960-07-24'
+    place: chicago
     thread: republican-party
     also: [elections-1960]
     c: 'Chicago, Sunday. Lipscomb, chairman of the platform''s national defense subcommittee, at a press conference: not one word of his plank changed by the Nixon–Rockefeller agreement.'
@@ -2970,6 +3846,7 @@ entries:
   - id: cal.1960-07-24.republican-party-3
     when: July 24
     date: '1960-07-24'
+    place: chicago
     thread: republican-party
     also: [elections-1960]
     c: 'Chicago, the Blackstone''s Hubbard Room No. 1. The platform committee reconvenes, refusing dictation; outside, the regulars'' placards: "Platform Committee, You Write the Platform, Not Rocky."'
@@ -2988,6 +3865,7 @@ entries:
   - id: cal.1960-07-24.goldwater
     when: July 24
     date: '1960-07-24'
+    place: chicago
     thread: goldwater
     also: [right-and-the-military, elections-1960]
     c: Chicago, the eve of the convention. A Goldwater rally; Welch among the speakers. Through the fall he circulates thousands of copies of the speech, urging a write-in for Goldwater.
@@ -3001,6 +3879,7 @@ entries:
   - id: cal.1960-07-24.republican-party-4
     when: July 24–25
     date: '1960-07-24'
+    place: chicago
     thread: republican-party
     also: [elections-1960-chicago]
     c: Chicago, the Blackstone, after midnight. The full platform committee on the subcommittees' planks. Mrs. A. Dabney Barnes of South Carolina defends Tower's civil rights majority report, reading from Nixon's *The Challenges We Face*. Tower carries his subcommittee's report through the committee; adjourned toward dawn.
@@ -3018,6 +3897,7 @@ entries:
   - id: cal.1960-07-24.elections-1960-rockefeller
     when: July 24
     date: '1960-07-24'
+    place: chicago
     thread: elections-1960-rockefeller
     c: 'Chicago, Sunday. Brinton''s student brigades circulate broadsides: a convention, not a coronation; Nixon''s nomination would drag down Republican candidates across the board.'
     n: '[[w.smith-on-his-own-terms]], 347. See [[cal.1960-07-22.elections-1960]]. Names: Nixon.'
@@ -3050,6 +3930,7 @@ entries:
   - id: cal.1960-07-24.china-leadership-2
     when: July 24
     date: '1960-07-24'
+    place: peking
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai with Chen Yi receives Cambodia''s Ambassador, Lan Neth, and three Cambodian princes (Yuvaneath, Naradipo, Kmanurak). The Ambassador says Sihanouk means to send many Cambodians to study in China, the three princes a beginning. Zhou: an honor, another sign of friendship; ask for what they need; after their Chinese is good enough they go to specialized colleges.'
@@ -3063,6 +3944,7 @@ entries:
   - id: cal.1960-07-24.china-leadership-3
     when: July 24
     date: '1960-07-24'
+    place: peking
     thread: china-leadership
     also: [china, latin-america, africa]
     c: Peking. Zhou Enlai, with Mao Zedong and Liu Shaoqi, receives the Latin American and African guests in Peking.
@@ -3081,14 +3963,34 @@ entries:
   - id: cal.1960-07-24.china-leadership-4
     when: July 24
     date: '1960-07-24'
+    place:
+      - peking
+      - beidaihe
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi leaves Peking for Beidaihe and goes on attending the Central Work Conference.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 24, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-07-24.china-leadership-5
+    when: July 24
+    date: '1960-07-24'
+    time: 1960-07-24T01:00Z
+    place:
+      - peking
+      - beidaihe
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from the Xijiao 西郊 airport to Beidaihe 北戴河, 9 a.m., at the East Beach 东浴场 at 10:15.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 24, 1960). The words: 9时由西郊机场飞北戴河……10时1刻到达东浴场 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 20e74b14
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-25.elections-1960
     when: July 25
     date: '1960-07-25'
+    place: chicago
     thread: elections-1960-chicago
     c: 'Republican National Convention opens, Chicago, at the International Amphitheatre. The party''s primaries: map and returns below. Hoover speaks. Goldwater, introducing the party''s Senate candidates, held off eight minutes by the demonstration; conservatism the "heart and soul of our great historic Party." Judd''s keynote: "Was it the Republicans who secretly divided Poland and gave half of it to the Soviet Union?"'
     n: 'CQ Guide 6th (2010) 404–405. [[w.perlstein-before-the-storm]], 91 (the session''s speeches). [[w.white-making-of-the-president]], 205–6 (Judd''s keynote). See [[cal.1960-03-08.elections-1960]]. Names: Goldwater, Judd.'
@@ -3101,6 +4003,7 @@ entries:
   - id: cal.1960-07-25.sit-ins
     when: July 25
     date: '1960-07-25'
+    place: greensboro
     thread: sit-ins
     c: Greensboro's Woolworth's serves Negroes at its lunch counter, its own Negro employees the first.
     n: 'To check: [[w.chafe-civilities-and-civil-rights]]. See [[cal.1960-02-01.sit-ins]].'
@@ -3108,6 +4011,7 @@ entries:
   - id: cal.1960-07-25.republican-party
     when: July 25
     date: '1960-07-25'
+    place: chicago
     thread: republican-party
     also: [elections-1960, civil-rights-the-executive]
     c: 'Nixon, arrived in Chicago, at a televised news conference at the Hilton: the convention must adopt "a strong civil rights platform, an honest one, which does deal specifically and not in generalities" with the problems; the statement he and Rockefeller agreed on its basis. He drops his other engagements and sees the platform committee''s key members in his suite one by one: the plank to be rewritten to the statement. An aide: "we collected every political IOU we held in the country that night."'
@@ -3134,6 +4038,7 @@ entries:
   - id: cal.1960-07-25.cuba
     when: July 25
     date: '1960-07-25'
+    place: newport
     thread: cuba
     c: 'The NSC at Newport, R.I., 453d meeting. Dulles: Communist China and Cuba conclude a trade pact, July 23, recognition expected within days; Raúl Castro''s communiqué from Moscow; more arrests of counter-revolutionaries, more defections. By Jones, Eisenhower: Trujillo will have to be "eliminated" before the other states support policy on Cuba.'
     n: '[FRUS 1958–60, VI, doc. 565](https://history.state.gov/historicaldocuments/frus1958-60v06/d565). Made public: FRUS 1958–60, VI (1991). [[w.jones-bay-of-pigs]], 21 (Trujillo). See [[cal.1960-07-09.cuba]]. Names: Dulles, Raúl Castro, Eisenhower, Trujillo. Check: Eisenhower''s words on Trujillo in the memorandum (Jones, 21, cites FRUS 1958–60, VI, 1029).'
@@ -3153,6 +4058,7 @@ entries:
   - id: cal.1960-07-25.elections-1960-2
     when: July 25–28
     date: '1960-07-25'
+    place: chicago
     thread: elections-1960
     also: [republican-party]
     c: 'Chicago, the convention, by Nixon''s account. His Chicago supporters propose a mass picketing of the Merchandise Mart, Joseph Kennedy''s and Shriver''s, for hiring Negroes at the most menial levels only. Nixon refuses: he is running against Kennedy, not his father and brother-in-law.'
@@ -3166,6 +4072,9 @@ entries:
   - id: cal.1960-07-25.republican-party-2
     when: July 25–26
     date: '1960-07-25'
+    place:
+      - chicago
+      - newport
     thread: republican-party
     also: [elections-1960, defense]
     c: 'Chicago and Newport, R.I., overnight. After midnight Rockefeller''s team renews its threat of a floor fight on defense. Nixon''s aides and Newport by telephone through the night; Newport approves some sixty-seven words changed in the defense plank: "intensified" efforts, "submarine and ballistic" missiles, "any necessary increased expenditures to meet new situations." Rockefeller''s people accept the redraft Tuesday morning.'
@@ -3182,6 +4091,7 @@ entries:
   - id: cal.1960-07-25.congo
     when: July 25
     date: '1960-07-25'
+    place: washington
     thread: congo
     also: [intelligence]
     c: 'State''s Bureau of Intelligence and Research on Lumumba: "Despite charges by the Belgians and his Congolese opponents that Lumumba is a communist, we have nothing to substantiate this allegation."'
@@ -3202,6 +4112,7 @@ entries:
   - id: cal.1960-07-25.elections-1960-chicago
     when: July 25
     date: '1960-07-25'
+    place: chicago
     thread: elections-1960-chicago
     also: [civil-rights-organizations]
     c: Chicago, the Republican convention. Thousands march on it, King and Randolph leading, for a strong civil rights plank.
@@ -3210,6 +4121,7 @@ entries:
   - id: cal.1960-07-25.congo-2
     when: July 25
     date: '1960-07-25'
+    place: nyc
     thread: congo
     also: [soviet-union]
     c: 'New York. Lumumba at the UN: Hammarskjöld, the ambassadors, and Kuznetsov, the Soviet Deputy Foreign Minister.'
@@ -3240,6 +4152,7 @@ entries:
   - id: cal.1960-07-25.china-leadership
     when: July 25
     date: '1960-07-25'
+    place: beidaihe
     thread: china-leadership
     also: [china]
     c: Zhou Enlai to Beidaihe; with Zhang Jingwu and Wang Feng on Tibet.
@@ -3256,10 +4169,62 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 153: all'
     tags: [polity:prc, polity:canada, polity:us, name:chen-yi, vis:only:prc+canada]
+  - id: cal.1960-07-25.china-leadership-3
+    when: July 25
+    date: '1960-07-25'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 with Luo Daorang 罗道让 and Lai Zulie 赖祖烈 on the work there.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 25, 1960). The words: 下午 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Daorang, Lai Zulie.'
+    src:
+      c: 955be49b
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-25T04:00Z
+      - 1960-07-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-25.china-leadership-4
+    when: July 25
+    date: '1960-07-25'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河, the club. Tao Zhu 陶铸 has Yang Shangkun 杨尚昆 to dinner.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 25, 1960). The words: 晚间 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tao Zhu, Yang Shangkun.'
+    src:
+      c: 2ddaf35c
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    time_range:
+      - 1960-07-25T11:00Z
+      - 1960-07-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-25.china-leadership-5
+    when: July 25
+    date: '1960-07-25'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 in the sea after a film.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 25, 1960). The words: 上午……即下海 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 01e5b27a
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-24T22:00Z
+      - 1960-07-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'
     time: 1960-07-27T02:42Z
+    place: chicago
     thread: elections-1960-chicago
     also: [goldwater]
     c: 'Eisenhower addresses the convention, July 26. July 27, the platform adopted; Fannin, Arizona''s governor, nominates Goldwater, Shorey of South Carolina seconding; Goldwater withdraws his name: "Let''s grow up, conservatives, if we want to take this party back." Nixon nominated, 1,321 to Goldwater''s 10.'
@@ -3289,6 +4254,7 @@ entries:
   - id: cal.1960-07-26.state-constitutions-ok
     when: July 26
     date: '1960-07-26'
+    place: oklahoma
     thread: state-constitutions
     also: [state-and-city-finance]
     c: Oklahoma, with the runoff primary, adopts two amendments. A State Industrial Finance Authority, with up to $10 million in bonds for loans to local development agencies, 128,850 to 101,875, 55.8 percent. A county library levy, 114,294 to 113,671, 50.1 percent.
@@ -3303,6 +4269,7 @@ entries:
   - id: cal.1960-07-26.governors-ar
     when: July 26
     date: '1960-07-26'
+    place: arkansas
     thread: governors
     also: [elections-1960]
     c: 'Arkansas, Democratic primary for governor: Faubus, for a fourth term, over Joe Hardin, 238,997 to 66,499, 58.7 percent; Bruce Bennett 58,400, 14.4 percent; two others. No runoff.'
@@ -3318,6 +4285,7 @@ entries:
   - id: cal.1960-07-26.soviet-union
     when: July 26
     date: '1960-07-26'
+    place: nyc
     thread: soviet-union
     c: 'Security Council on the RB-47: the Soviet complaint rejected, 2–9; the American resolution for an inquiry, and an Italian one for the Red Cross, vetoed.'
     n: 'FRUS 1958–60, X, pt. 1, docs. [157](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d157) (editorial note), [161](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d161) (Eisenhower, July 19). The Council met at 3 p.m. and rose at 9.25 p.m.: [S/PV.883](https://undocs.org/S/PV.883). See [[cal.1960-07-11.soviet-union]].'
@@ -3328,6 +4296,7 @@ entries:
   - id: cal.1960-07-26.republican-party
     when: July 26
     date: '1960-07-26'
+    place: chicago
     thread: republican-party
     also: [elections-1960, civil-rights-the-executive]
     c: The platform committee's last session, Laird in the chair. The Nixon–Rockefeller civil rights plank over Tower's, 56–28. Rockefeller announces he is not a candidate.
@@ -3369,6 +4338,7 @@ entries:
   - id: cal.1960-07-26.elections-1960-kennedy
     when: July 26?
     date: '1960-07-26'
+    place: hyannis-port
     thread: elections-1960-kennedy
     c: 'Hyannis Port. Kennedy on the Republican platform: Rockefeller has got a majority of Republicans to adopt his views. "Progress is not their business. He is moving them ahead."'
     n: '[[w.smith-on-his-own-terms]], 348. To check: [*New York Times*, July 27, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/27/issue.html) (cited by [[w.smith-on-his-own-terms]], 348). Check: the day. Names: Kennedy, Rockefeller.'
@@ -3387,6 +4357,7 @@ entries:
   - id: cal.1960-07-26.elections-1960-chicago
     when: July 26
     date: '1960-07-26'
+    place: chicago
     thread: elections-1960-chicago
     c: Chicago. Eisenhower's parade from Meigs Field to the Sheraton-Blackstone, a million Chicagoans along the way; tons of confetti over the Loop.
     n: '[[w.smith-on-his-own-terms]], 348. See [[cal.1960-07-26.elections-1960]]. Names: Eisenhower.'
@@ -3398,6 +4369,7 @@ entries:
   - id: cal.1960-07-26.intelligence
     when: July 26
     date: '1960-07-26'
+    place: fort-meade
     thread: intelligence
     c: Fort Meade, Md. The National Security Agency's Office of Personnel is notified that Mitchell and Martin have apparently disappeared.
     n: 'Lansdale to Douglas, memorandum, "Missing NSA Personnel," Aug. 1, 1960 (in full at [[cal.1960-06-24.intelligence]]), at 1 (they were "not missed until after 18 July"; no day for the notice). [[w.mowry-betrayers-of-the-trust]], 2 ("On 26 July the Office of Personnel was notified that they had apparently disappeared"). Made public: [[w.mowry-betrayers-of-the-trust]], released by NSA under the Freedom of Information Act, Aug. 12, 2004 (the issue, May–June 2002, marked for official use only).'
@@ -3408,7 +4380,12 @@ entries:
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai presides at the Central Work Conference, on grain.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 335 (July 26, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 335 (July 26, 1960); [[w.yang-shangkun-riji]], I, 529 (July 26, 1960; the plenary, morning to 2 p.m.). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: f00c7609
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 335: ?'
+        - 'w.yang-shangkun-riji I, 529: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-07-26.china-leadership-2
     when: July 26
@@ -3430,9 +4407,24 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 153: all'
     tags: [polity:prc, polity:india, name:chen-yi]
+  - id: cal.1960-07-26.china-leadership-4
+    when: July 26
+    date: '1960-07-26'
+    time: 1960-07-26T08:00Z
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims half an hour in the sea, 4 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 529 (July 26, 1960). The words: 4时下海，游了半个钟头 (I, 529). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1d5884cf
+      rows:
+        - 'w.yang-shangkun-riji I, 529: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-27.congo
     when: July 27–29
     date: '1960-07-27'
+    place: washington
     thread: congo
     c: 'Lumumba in Washington, at Blair House. Herter and Dillon receive him, July 27: aid through the UN, not apart from it. The Belgian ambassador protests the welcome, July 28. Eisenhower at Newport, R.I.; no meeting.'
     n: 'FRUS 1958–60, XIV, docs. [152](https://history.state.gov/historicaldocuments/frus1958-60v14/d152) (Herter and Lumumba), [153](https://history.state.gov/historicaldocuments/frus1958-60v14/d153) (Scheyven). [[w.fursenko-khrushchevs-cold-war]], 309–10 (Herter and Dillon; aid only through the UN; a plane asked); [[w.bissell-reflections-of-a-cold]], 143 (Lumumba in Washington at the end of July; his talks with Herter); [[w.sen-church-alleged-assassination-plots]], 14, 53 (Lumumba in Washington in late July; Herter pledged economic aid; Dillon with Herter at the State Department meeting; not Blair House, the days, aid through the UN or Eisenhower). Check: Fursenko and Naftali give Lumumba half an hour with Herter on July 29 (309, citing [[w.kalb-congo-cables]], 35–37). To check: [[w.kalb-congo-cables]]. See [[cal.1960-06-30.congo]]. Names: Lumumba, Herter, Eisenhower, Dillon.'
@@ -3447,6 +4439,7 @@ entries:
   - id: cal.1960-07-27.conservative-movement
     when: July 27
     date: '1960-07-27'
+    place: chicago
     thread: conservative-movement
     also: [goldwater]
     c: 'Chicago. Goldwater, before withdrawing his name, to Youth for Goldwater for Vice President: make the group permanent.'
@@ -3468,6 +4461,7 @@ entries:
   - id: cal.1960-07-27.elections-1960
     when: July 27
     date: '1960-07-27'
+    place: chicago
     thread: elections-1960-chicago
     c: 'Chicago, late at night after the nomination. Nixon and some twenty party leaders on second place: Morton, Judd and Lodge left, by Nixon''s account; Judd asks to be passed over; Morton recommends Lodge, as Eisenhower does. Stratton asks for a man for the farm vote; Nixon: "If you ever let them [the Democrats] campaign only on domestic issues, they''ll beat us—our only hope is to keep it on foreign policy." Lodge chosen.'
     n: '[[w.kallina-kennedy-v-nixon]], 94–95; [[w.nixon-rn]], 215–16 (the meeting after the nomination; Morton, Judd and Lodge left; Morton and Eisenhower for Lodge; Lodge chosen); [[w.white-making-of-the-president]], 206–07 (thirty-six leaders summoned; Stratton on hogs; Nixon on foreign policy, quoted; Lodge chosen). [[w.nixon-six-crises]], 317–18 (the meeting after the nomination; Lodge, Morton and Judd left; Morton and Eisenhower for Lodge; Lodge chosen and telephoned about 2:30 a.m.). To check: The Reminiscences of Robert Finch, June 19, 1967, Columbia University Oral History Collection; Carleton Kent and Joseph Albright, "Why Leaders Picked Lodge," *Chicago Sun-Times*, July 29, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 95 n.37). Names: Nixon, Morton, Judd, Lodge, Eisenhower, Stratton. Check: Nixon gives thirty-two party leaders (*RN*, 215; *Six Crises*, 318). Check: in *Six Crises*, 317, Judd asks to be passed over in a talk with Nixon after his keynote address, not at the meeting; and Bricker, for Ohio, for Lodge (318).'
@@ -3488,6 +4482,7 @@ entries:
   - id: cal.1960-07-27.goldwater
     when: July 27
     date: '1960-07-27'
+    place: chicago
     thread: goldwater
     follows:
       - cal.1960-07-27.conservative-movement
@@ -3511,9 +4506,41 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 153: all'
     tags: [polity:prc, polity:drv, polity:us, name:chen-yi, name:pham-van-dong]
+  - id: cal.1960-07-27.china-leadership
+    when: July 27
+    date: '1960-07-27'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Deng Yingchao 邓颖超 with Yang Shangkun 杨尚昆; then Cai Chang 蔡畅, Zhuo Lin 卓琳 and others.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 27, 1960). The words: 下午 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Yingchao, Yang Shangkun, Cai Chang, Zhuo Lin.'
+    src:
+      c: 3a508430
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-27T04:00Z
+      - 1960-07-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-27.china-leadership-2
+    when: July 27
+    date: '1960-07-27'
+    time: 1960-07-27T02:30Z
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims to the west beach and back, an hour and a half, from 10:30 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 27, 1960). The words: 于10时半下海，游到西浴场又游回，花了1个半钟头 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6866131d
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-28.elections-1960
     when: July 28
     date: '1960-07-28'
+    place: chicago
     thread: elections-1960-chicago
     c: 'Lodge nominated for Vice President. Nixon accepts: he will "carry this campaign into every one of the fifty states."'
     n: '[Address Accepting the Presidential Nomination at the Republican National Convention in Chicago](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-chicago). [[w.kallina-kennedy-v-nixon]], 94–95 (Lodge; the acceptance); [[w.nixon-rn]], 216 (the pledge); [[w.white-making-of-the-president]], 207–08, 263 (the acceptance, quoted); [[w.novak-agony-of-the-g]], 23 (Lodge, Nixon''s choice). [[w.gifford-center-cannot-hold]], 160 (the fifty States). [[w.nixon-six-crises]], 318–20 (the acceptance; the fifty States). To check: [[w.lodge-as-it-was]]; [[w.nichter-last-brahmin]]; The Reminiscences of Robert Finch, June 19, 1967, Columbia University Oral History Collection; Carleton Kent and Joseph Albright, "Why Leaders Picked Lodge," *Chicago Sun-Times*, July 29, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 95 n.37); Arthur Burns to Nixon, July 29, 1960, Nixon Library (cited by [[w.kallina-kennedy-v-nixon]], 95 n.38); "The Honorable Richard M. Nixon Accepts the Nomination for President of the United States," Official Proceedings (1960), 348, Republican National Committee, printed (cited by [[w.gifford-center-cannot-hold]], 160 n.62). See [[cal.1960-07-22.elections-1960]]. Names: Lodge, Nixon.'
@@ -3568,6 +4595,7 @@ entries:
   - id: cal.1960-07.elections-1960-2
     when: July
     date: 1960-07
+    place: nyc
     thread: elections-1960-chicago
     also: [republican-party]
     c: Early July. Percy, chairman of the platform committee, in New York to hear Rockefeller's objections, the defense plank's first; Percy's compromise, worked out with Nixon, refused. Less than a week before the convention, Rockefeller threatens a fight on the floor.
@@ -3600,6 +4628,7 @@ entries:
   - id: cal.1960-07.elections-1960-4
     when: July
     date: 1960-07
+    place: hyannis-port
     thread: elections-1960-kennedy
     c: 'Hyannis Port, after Los Angeles. Kennedy''s strategy sessions, Johnson and his staff there. The nine States with the most electoral votes first: Kennedy in seven, Johnson in Texas and the South, Stevenson in California. Robert Kennedy manager; O''Brien at the national committee; O''Donnell the schedule; Bailey the State organizations; Stephen Smith the money; Salinger the press.'
     n: '[[w.kallina-kennedy-v-nixon]], 98–99. [[w.white-making-of-the-president]], 245–49 (Johnson there; the nine States and their 237 electoral votes, Kennedy in seven, Johnson in Texas and the South, Stevenson in California; O''Brien to the national committee; O''Donnell the schedule). To check: Buford Ellington OHI, Oct. 2, 1970, LBJ Library (cited by [[w.kallina-kennedy-v-nixon]], 99 n.6). Names: Kennedy, Johnson, Stevenson, Robert Kennedy, O''Brien, O''Donnell, Smith, Salinger. Check: the days; Kallina gives the weeks after the convention (98); White, 247, puts the decisions at Hyannis Port in early August.'
@@ -3613,6 +4642,7 @@ entries:
   - id: cal.1960-07.conservative-movement
     when: July
     date: 1960-07
+    place: chicago
     thread: conservative-movement
     also: [goldwater]
     c: 'Chicago, after the convention. Liebman and Charles Edison, once New Jersey''s governor, give Youth for Goldwater''s leaders a luncheon at the Pick-Congress Hotel: keep on. Caddy, with Liebman''s help, an interim committee to call a conference in the fall and found a standing organization of young conservatives.'
@@ -3652,6 +4682,7 @@ entries:
   - id: cal.1960-07-28.vietnam-hanoi
     when: July 28
     date: '1960-07-28'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: circular no. 339-TT/TW, explaining and adding to the farm cooperatives'' policies: pay and work points for cooperative cadres; public land, ponds and riverbanks, the land of those who went South; the price of buffaloes and oxen taken into common ownership, too low in places; members of the old regime''s administration and army with "great crimes," and their families.'
     n: '*Thông tri của Ban Bí thư số 339-TT/TW giải thích và bổ sung thêm một số điểm về chính sách cụ thể xây dựng hợp tác xã nông nghiệp*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 406–20. Made public: 2002.'
@@ -3659,6 +4690,7 @@ entries:
   - id: cal.1960-07-28.china-leadership
     when: July 28
     date: '1960-07-28'
+    place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. The enlarged Standing Committee, Mao presiding, on foreign affairs, foreign trade, the frontier technology, grain, and output: Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Ke Qingshi, Li Jingquan, Bo Yibo, Nie Rongzhen, Tao Zhu.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, July 28, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 28, 1960 (Zhou present; grain and the advanced science); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491–492 (July 28, 1960; Liu attends the meeting Mao chairs of the Standing Committee''s members and the work conference''s group leaders: foreign affairs, foreign trade, science and technology, grain, industrial and agricultural production). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Ke Qingshi, Li Jingquan, Bo Yibo, Nie Rongzhen, Tao Zhu.'
@@ -3677,9 +4709,27 @@ entries:
     c: 'Zhou Enlai to Koirala: the work against the rebels near the border is done, and Chinese troops left the area within twenty kilometers of the border before midnight July 25, earlier than said.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 335 (July 28, 1960). Made public: 1997. Names: Zhou Enlai, Koirala.'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:koirala-bisweswar-prasad, vis:only:prc+nepal]
+  - id: cal.1960-07-28.china-leadership-4
+    when: July 28
+    date: '1960-07-28'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. The Secretariat 书记处 on several matters concerning foreign countries.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 28, 1960). The words: 上午 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 0bd20334
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-27T22:00Z
+      - 1960-07-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-29.elections-1960
     when: July 29
     date: '1960-07-29'
+    place: washington
     thread: elections-1960-kennedy
     c: Robert Kennedy and Clifford, a sandwich lunch in the candidate's Senate office, by Clifford's account. Clifford proposes a small group, acceptable to both brothers, to judge the campaign apart from those running it, reporting to the two alone. Robert Kennedy shows no enthusiasm.
     n: '[[w.clifford-counsel-to-the-president-2]], 320. Names: Robert Kennedy, Clifford.'
@@ -3692,6 +4742,57 @@ entries:
       - 1960-07-29T15:00Z
       - 1960-07-29T20:00Z
     time_zone: America/New_York
+  - id: cal.1960-07-29.china-leadership
+    when: July 29
+    date: '1960-07-29'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. The Secretariat 书记处 on output, capital construction and agriculture in the second half of the year, to 2 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 29, 1960). The words: 上午……直到下午2时 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 84897c4f
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-28T22:00Z
+      - 1960-07-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-29.china-leadership-2
+    when: July 29
+    date: '1960-07-29'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 with Lai Zulie 赖祖烈.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 29, 1960). The words: 午睡后 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lai Zulie.'
+    src:
+      c: be349c9b
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-29T04:00Z
+      - 1960-07-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-29.china-leadership-3
+    when: July 29
+    date: '1960-07-29'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Tong Xiaopeng 童小鹏 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 29, 1960). The words: 晚间 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tong Xiaopeng, Yang Shangkun.'
+    src:
+      c: f5991340
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-29T11:00Z
+      - 1960-07-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-30.elections-1960
     when: July 30
     date: '1960-07-30'
@@ -3723,6 +4824,7 @@ entries:
   - id: cal.1960-07.elections-1960-5
     when: July
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the airport, Humphrey arriving for the convention, by his account. Through Kampelman, Goldberg, Rose, Reuther and Dubinsky had sent word of a bargain with Kennedy: second place Humphrey''s if he wants it. Humphrey, after flying home to talk with his wife: "it is all off." He tells the four so in person, and Meany.'
     n: '[[w.humphrey-education-of-a-public-1976]], 474 n.3. See [[cal.1960-05.elections-1960-3]]. Names: Kampelman, Goldberg, Reuther, Kennedy, Humphrey, Meany. Check the day.'
@@ -3781,6 +4883,7 @@ entries:
   - id: cal.1960-07.elections-1960-6
     when: July
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [civil-rights-organizations]
     c: 'Los Angeles, near the convention''s close. Johnson to a caucus of Negro delegates: "Just give me a chance. I won''t let you down. I''ll do more for you in four years in the field of civil rights than you''ve experienced in the last hundred years." Farmer of CORE: his nomination "a disaster."'
@@ -3808,6 +4911,7 @@ entries:
   - id: cal.1960-07.elections-1960-10
     when: July
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles, before the balloting. For Johnson, John Connally and India Edwards cast doubt on Kennedy's physical fitness; other Johnson men call Joseph Kennedy anti-Semitic and soft on Hitlerism. Adam Clayton Powell endorses Johnson. A $50,000 campaign of full-page advertisements for Johnson.
     n: '[[w.sorensen-kennedy]], 156. See [[cal.1960-07-11.elections-1960]]. Names: Connally, Kennedy, Johnson, Joseph P. Kennedy, Adam Clayton Powell. Check: the days.'
@@ -3870,6 +4974,7 @@ entries:
   - id: cal.1960-07.elections-1960-15
     when: July
     date: 1960-07
+    place: newport
     thread: elections-1960
     also: [defense]
     c: By Alsop's account, Herter and Gates find Eisenhower at the Newport Country Club and persuade him that defense spending must rise $4 billion; Herter asks a few days to staff it. After the Fifth Avenue statement Eisenhower calls it off.
@@ -3882,6 +4987,7 @@ entries:
   - id: cal.1960-07.elections-1960-16
     when: July, before the convention
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
     c: 'Los Angeles, the eve of the convention, after the Johnson camp''s talk of Kennedy''s health. Robert Kennedy seeks out Bobby Baker at a hotel and, fists clenched, hisses: "You''ll get yours." By Baker''s account.'
@@ -3894,6 +5000,7 @@ entries:
   - id: cal.1960-07.elections-1960-17
     when: July, the convention
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
     c: Los Angeles. Robert Kennedy assures labor leaders and northern liberals that Johnson is not even on the list for Vice President.
@@ -3951,6 +5058,7 @@ entries:
   - id: cal.1960-07.elections-1960-los-angeles
     when: July, before the nomination
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, Suite 8315 of the Biltmore, the morning the platform committee is to decide. Robert Kennedy, on a chair at his daily briefing of the Kennedy workers: support the full Bowles draft; "Remember, all the way with the Bowles platform." By Wofford''s account.'
     n: '[[w.wofford-of-kennedys-and-kings]], 52 (the civil rights plank the fullest of the drafts Wofford, Hughes and Chayes wrote for Bowles; adopted by the committee "with only minor modifications"). Check: the day. See [[cal.1960-07-12.elections-1960]]. Names: Robert Kennedy, Bowles.'
@@ -3991,15 +5099,17 @@ entries:
   - id: cal.1960-07-30.china-leadership
     when: July 30
     date: '1960-07-30'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, Building 1, evening. The enlarged Standing Committee, Mao presiding, on the draft reply to the Soviet note of July 16 recalling the experts: those of July 28 and He Long, Tan Zhenlin, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 30, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 30, 1960 (Zhou present). Made public: 1997. Names: Mao Zedong, He Long, Tan Zhenlin, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 30, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 30, 1960 (Zhou present); [[w.yang-shangkun-riji]], I, 531 (July 30, 1960; the evening, at Mao''s, to 10:30; the answer to the Soviet note on the experts (the Foreign Ministry''s note to the Soviet Embassy of July 31, by the editors'' note)). Made public: 1997. Names: Mao Zedong, He Long, Tan Zhenlin, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun.'
     src:
       c: 6942bb5b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 30, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 335, July 30, 1960: B'
+        - 'w.yang-shangkun-riji I, 531: A'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:he-long, name:tan-zhenlin, name:chen-boda, name:kang-sheng, vis:only:prc]
   - id: cal.1960-07-30.china-leadership-2
     when: July 30
@@ -4021,9 +5131,44 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 153–154: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1960-07-30.china-leadership-4
+    when: July 30
+    date: '1960-07-30'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 with Kang Yimin 康一民 and Wu Zhenying 吴振英 (Liu Shaoqi's secretary, deputy head of the General Office's confidential office) on setting up radio stations 设置电台.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 30, 1960). The words: 午睡后 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Yimin, Wu Zhenying, Liu Shaoqi.'
+    src:
+      c: 300f1038
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1960-07-30T04:00Z
+      - 1960-07-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-30.china-leadership-5
+    when: July 30
+    date: '1960-07-30'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea.
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 30, 1960). The words: 上午下海游泳 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e2f96a25
+      rows:
+        - 'w.yang-shangkun-riji I, 530: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-29T22:00Z
+      - 1960-07-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-31.congo
     when: July 31
     date: '1960-07-31'
+    place: ottawa
     thread: congo
     also: [soviet-union]
     c: Ottawa. Lumumba, the Canadian government no help, calls on Aroutunian, the Soviet Ambassador.
@@ -4095,6 +5240,7 @@ entries:
   - id: cal.1960-07.elections-1960-nixon
     when: July
     date: 1960-07
+    place: chicago
     thread: elections-1960-nixon
     c: Chicago, the Republican convention. Ford, on Nixon's list of young men eligible for the Vice Presidency, carries a lawyer's opinion that he may take the nomination and keep his candidacy for the House. He has no cause to use it.
     n: '[[w.hess-republican-establishment]], 29. Check: the day. Names: Ford, Nixon.'
@@ -4119,6 +5265,7 @@ entries:
     when: July, late
     date: 1960-07
     at: before 1960-07-21
+    place: washington
     thread: elections-1960-kennedy
     c: 'Washington, Kennedy headquarters, after the convention. Robert Kennedy, the campaign manager, to the staff: "You can rest in November." He bursts in on White and some aides: "What are we all doing? Let''s get on the road. ... I want us all on the road tomorrow!"'
     n: '[[w.thomas-robert-kennedy]], 99 (by White''s account). To check: [[w.white-making-of-the-president]], 250 (cited by Thomas, 409). Check: the day. Names: Robert Kennedy, White.'
@@ -4148,6 +5295,7 @@ entries:
   - id: cal.1960-07.elections-1960-los-angeles-3
     when: July
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the convention week. Kennedy makes "one last attempt" to have Stevenson nominate him, as he had Stevenson in 1956; Stevenson: he must remain "neutral." Kennedy, to O''Donnell and Powers: "Neutral for Johnson? He''s got a short memory. He''s forgetting that I was for him in 56 when Johnson and Rayburn were both against him."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 206 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Stevenson, Johnson, Rayburn, O''Donnell, Powers. Check: the day (before July 13; the book has "no major problems" for the first four days, and Kennedy increasingly annoyed by Stevenson''s reluctance).'
@@ -4155,6 +5303,7 @@ entries:
   - id: cal.1960-07.elections-1960-los-angeles-4
     when: July
     date: 1960-07
+    place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the convention. Two Puerto Rican delegations seek the Credentials Committee''s approval: Luis Muñoz Marín''s, for Johnson, and José Benítez''s, allied with Kennedy. Sorensen mediates: every member of both given a seat on the floor and a half vote, committed to Kennedy.'
     n: '[[w.sorensen-counselor]], 183–84 (Sorensen''s account, written in 2008; Muñoz Marín''s delegation on the advice of Fortas and Porter; "An excellent compromise"; not the committee''s action or the day). Names: Sorensen, Johnson, Kennedy. Check: the day.'
@@ -4163,6 +5312,7 @@ entries:
     when: July, late
     date: 1960-07
     at: before 1960-07-21
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Central Committee''s eighteenth plenum, Hanoi. Lê Duẩn reports on the meeting of the communist and workers'' parties of the socialist countries at Bucharest, June 24; the plenum endorses its communiqué: socialist unity, with the Soviet Union at its head, to be guarded "like the apple of the eye." The reports of the Party''s congresses at every level and their views on the drafts heard; the political report, the report on the statute and the revised draft statute adopted; the Third Congress to open Sept. 5.'
     n: '[[w.van-kien-dang-toan]], XXI, 439–41, 442 (the plenum''s two communiqués of Aug. 15, 1960). Names: Lê Duẩn. Check: the day.'
@@ -4177,16 +5327,18 @@ entries:
   - id: cal.1960-07-31.china-leadership
     when: July 31
     date: '1960-07-31'
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, the plenary session, Mao presiding. Zhou Enlai on the experts'' recall ("to press us") and foreign trade: owed the Soviet Union, chiefly in grain, oil, meat and eggs, 1.6 billion rubles in trade and 0.7 billion in loans falling due, 2.3 billion next year. Mao: pay it all next year if it can be done; foreign trade to Zhou, Li Fuchun and Li Xiannian, with offices at the center and in the provinces.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 31, 1960; [[w.zhou-enlai-nianpu-1949]], II, 336, July 31, 1960 (Zhou''s report on Sino-Soviet relations); [[w.lengxi-shinian-lunzhan-1956-1966]], 337–338 (Zhou on the experts, the aid projects, trade and debt; the experts to be talked to by their unit heads, thanked, seen off warmly in small farewells, a large one later in Peking). Made public: 1997. Check: Wu (337) has the Politburo at Beidaihe, before July 31, decide to repay in five years, Mao: not a ruble short ([[cal.1960-07.china-leadership]]). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Li Xiannian.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 31, 1960; [[w.zhou-enlai-nianpu-1949]], II, 336, July 31, 1960 (Zhou''s report on Sino-Soviet relations); [[w.lengxi-shinian-lunzhan-1956-1966]], 337–338 (Zhou on the experts, the aid projects, trade and debt; the experts to be talked to by their unit heads, thanked, seen off warmly in small farewells, a large one later in Peking); [[w.yang-shangkun-riji]], I, 531 (July 31, 1960; 4 to 8 p.m.; Zhou on the Soviet recall of the experts and on foreign trade). Made public: 1997. Check: Wu (337) has the Politburo at Beidaihe, before July 31, decide to repay in five years, Mao: not a ruble short ([[cal.1960-07.china-leadership]]). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Li Xiannian.'
     src:
       c: 96bacd13
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 31, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 336, July 31, 1960: B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 337–338: B'
+        - 'w.yang-shangkun-riji I, 531: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, name:li-xiannian, vis:only:prc]
   - id: cal.1960-07-31.china-leadership-2
     when: July 31
@@ -4206,6 +5358,7 @@ entries:
     when: July, after the 18th
     date: 1960-07
     at: after 1960-07-18
+    place: beidaihe
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe. The Politburo on the experts'' recall: to count on all experts gone, all equipment withheld, the treaties torn up. The 304 projects'' cost 15.2 billion rubles, 7.2 billion repaid, 7.9 billion owed, three-quarters of the debt for arms of the Korean War at half price; Zhou Enlai''s reckoning, at 500 million a year sixteen years, at 800 million ten; decided, five. Mao: the arms at the half price agreed, not a ruble short; the equipment too. Foreign-trade groups at the center and in the provinces to squeeze out goods.'
@@ -4459,3 +5612,20 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 307–308: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 307 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-07-31.china-leadership-5
+    when: July 31
+    date: '1960-07-31'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea and sunbathes on the beach.
+    n: '[[w.yang-shangkun-riji]], I, 531 (July 31, 1960). The words: 上午……下海游泳，并在沙滩上晒太阳 (I, 531). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f991e5e3
+      rows:
+        - 'w.yang-shangkun-riji I, 531: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-07-30T22:00Z
+      - 1960-07-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

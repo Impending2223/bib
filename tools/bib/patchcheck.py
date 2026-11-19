@@ -57,6 +57,19 @@ def check(series, path, legacy=False):
     for r in claimed.values():
         if not series.get(r["id"]):
             by_day[(r["date"], r["thread"])].append(r["id"])
+    from . import places
+    places.PENDING.clear()
+    for op in ops:                       # the patch's gazetteer rows, for its place ops (places.py, STYLE 3)
+        if isinstance(op, dict) and "place-key" in op:
+            b = op["place-key"] or {}
+            errs = places.row_problems({k: b.get(k) for k in ("key", "name", "zone")})
+            cur = places.get(str(b.get("key")))
+            if cur is not None and not b.get("fix") and any(cur.get(x) != b.get(x) for x in ("name", "zone") if b.get(x)):
+                errs.append(f"{b.get('key')}: the gazetteer has it ({cur.get('name')}, {cur.get('zone')}); fix: true to change it")
+            if not (b.get("st") or b.get("in")):
+                errs.append(f"{b.get('key')}: give st (a U.S. State) or in (a polity)")
+            errors += [f"place-key {m}" for m in errs]
+            places.PENDING[str(b.get("key"))] = dict(b)
     for k, op in enumerate(ops):
         if not isinstance(op, dict) or len(op) != 1:
             errors.append(f"op {k}: one kind an op")

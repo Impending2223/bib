@@ -6,6 +6,8 @@ entries:
   - id: cal.1969-05-01.china-leadership
     when: May 1
     date: '1969-05-01'
+    time: 1969-05-01T12:00Z
+    place: peking
     thread: china-leadership
     c: Mao at the Tiananmen rostrum, 8 p.m., for the fireworks with other leaders, Congress delegates and some foreign envoys. He tells the envoys China will improve and extend relations with all states; ambassadors begin to be sent out again to restore the missions' work.
     n: '[[w.zedong-mao-zedong-nianpu]], VI, May 1, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 289 (May 1, 1969; Zhou at the fireworks); [[w.zhonghua-renmin-gongheguo-waijiao]], 213 (May 1, 1969; Mao on the rostrum with some foreign envoys). Names: Mao Zedong.'
@@ -19,6 +21,7 @@ entries:
   - id: cal.1969-05-01.china-leadership-2
     when: May 1
     date: '1969-05-01'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: Zhou Enlai, on the Tiananmen rostrum at the May Day fireworks, talks with the leaders of Shandong, Jiangsu, Shanghai, Hubei, Sichuan, Guizhou, Yunnan, the northwest's Third Front area and North China, and with those concerned on reform of the textile and machinery industries' systems.
@@ -38,6 +41,19 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 442: A-B'
         - 'via w.jianguo-yilai-mao-zedong XIX, 442 n.1a: A, B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-03.china-leadership-2
+    when: May 3
+    date: '1969-05-03'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping, under house arrest in Zhongnanhai, having read of the congress in the Party press, writes Mao, Lin Biao and the Center "in support of the resolutions passed by the Congress."
+    n: '[[w.macfarquhar-maos-last-revolution]], 291–292. Made public: 2002 ([[w.rong-deng-xiaoping-and-the]], 101). To check: [[w.rong-deng-xiaoping-and-the]], 101 (cited by [[w.macfarquhar-maos-last-revolution]], 292 n.40). Names: Deng Xiaoping, Mao Zedong, Lin Biao. Check: the Mao chronology has Mao read Deng''s letter of May 3 on May 5, its matter Deng''s waiting for the Party''s decision on his case.'
+    src:
+      c: 7d39ccd7
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 291–292: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1969-05-04.china-leadership
     when: May 4
     date: '1969-05-04'
@@ -57,6 +73,7 @@ entries:
   - id: cal.1969-05-05.china-leadership
     when: May 5
     date: '1969-05-05'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Peking: Wang Dongxing forwards Deng Xiaoping''s letter of May 3: the Ninth Congress is over, he waits for the Party''s decision on his case. Mao to Lin Biao, Zhou Enlai and the Politburo members in Peking: "read".'
@@ -85,6 +102,7 @@ entries:
   - id: cal.1969-05-05.china-leadership-3
     when: May 5
     date: '1969-05-05'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Zhou Enlai that evening presides over a meeting of the Politburo''s members in Peking on a paper Mao sent, on a Peking northern-suburb lumber yard''s firm carrying out of the Party''s policies toward the national bourgeoisie and the petty bourgeoisie: capitalists are to be told from small owners and independent workers; in the 1956 high tide of socialist transformation private industrialists and merchants were all called "private side" or capitalists, and some of them are now to be set apart and treated as small owners.'
@@ -99,6 +117,7 @@ entries:
   - id: cal.1969-05-07.vietnam-hanoi
     when: May 7
     date: '1969-05-07'
+    place: hanoi
     thread: vietnam-hanoi
     also: [vietnam-paris]
     c: 'The Secretariat''s cable no. 130 to the zone, city and provincial committees: by the Politburo''s decision the Front''s delegation will put forward at the next Paris session its "principles and main content of an overall solution to the South Vietnam problem," the Government''s delegation to support it in full; a diplomatic and political blow from strength. To be explained from *Nhân Dân*''s reports; neither "peace is near" nor "too many concessions"; the plan kept secret until then.'
@@ -127,14 +146,20 @@ entries:
   - id: cal.1969-05-08.soviet-union-leadership
     when: May 8
     date: '1969-05-08'
+    place: moscow
     thread: soviet-union-leadership
     also: [defense]
     c: 'Moscow. The Defense Council, 5 to 10 p.m., Brezhnev presiding: Kosygin, Podgorny, Grechko, Povaly, Ustinov and Serbin present.'
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 335 (May 8). Made public: 2016. Names: Brezhnev, Kosygin, Podgorny, Grechko, Povaly, Ustinov, Serbin. Check: The record gives no agenda.'
     tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:podgorny-nikolai-v, name:grechko-andrei-a, name:ustinov-dmitriy-f, polity:ussr, vis:only:ussr]
+    time_range:
+      - 1969-05-08T14:00Z
+      - 1969-05-08T19:00Z
+    time_zone: Europe/Moscow
   - id: cal.1969-05-08.vietnam-hanoi
     when: May 8–10
     date: '1969-05-08'
+    place: hanoi
     thread: vietnam-hanoi
     also: [vietnam, vietnam-paris]
     c: 'The Sixteenth Plenum. The Politburo''s resolution no. 188-NQ/TW on the situation and tasks, of May 10: the Americans, their will shaken, de-escalating step by step and "de-Americanizing" the war. The task: to press the general offensive and uprising with the diplomatic attack, defeat the design of ending the war from strength and "de-Americanization," force the Americans to withdraw and the Saigon army to collapse, a decisive victory. Lê Duẩn on the South''s revolution; an outline on the diplomatic front: the halt and the four-party conference forced from Washington, the overall solution to be put forward.'
@@ -186,6 +211,7 @@ entries:
   - id: cal.1969-05-10.vietnam-hanoi-2
     when: May 10
     date: '1969-05-10'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s directive no. 170-CT/TW: patriotic emulation pressed toward the fifth congress of heroes and emulation fighters; four years of emulation summed up and new drives begun; emulation conferences from the base to the Center, mostly done by the end of the third quarter.'
     n: '*Chỉ thị của Ban Bí thư số 170-CT/TW, ngày 10 tháng 5 năm 1969, Về việc đẩy mạnh phong trào thi đua yêu nước, tiến tới Đại hội Anh hùng, chiến sĩ thi đua lần thứ V*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXX, 72–75. Made public: 2004.'
@@ -221,6 +247,7 @@ entries:
   - id: cal.1969-05-12.vietnam-hanoi
     when: May 12
     date: '1969-05-12'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s directive no. 171-CT/TW: a round of political study within the Party for Hồ Chí Minh''s 79th birthday, on the recovery of production, the reform of economic and financial management and of the apparatus, and the revolutionary morality of cadres and members, with criticism and self-criticism; the main text the article by "T.L.," Hồ''s pen name, for the Party''s anniversary.'
     n: '*Chỉ thị của Ban Bí thư số 171-CT/TW, ngày 12 tháng 5 năm 1969, Về đợt sinh hoạt chính trị nội bộ nhân dịp mừng thọ Hồ Chủ tịch 79 tuổi*, signed for the Secretariat by Lê Văn Lương; "T.L.," the editors'' note (173 n.). [[w.van-kien-dang-toan]], XXX, 171–76. Made public: 2004. Names: Hồ Chí Minh.'
@@ -252,6 +279,8 @@ entries:
   - id: cal.1969-05-16.soviet-union-leadership
     when: May 16
     date: '1969-05-16'
+    time: 1969-05-16T08:00Z
+    place: moscow
     thread: soviet-union-leadership
     c: Moscow. Brezhnev meets the Romanian party-government delegation led by Ceaușescu at Vnukovo, 11 a.m., and negotiates with them, 12 to 7:30; sees them off at 9 p.m., with the leaders leaving for the international meeting.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 337 (May 16). Names: Brezhnev, Ceaușescu. Check: The record''s last line is cut off.'
@@ -273,6 +302,7 @@ entries:
     when: May 16
     date: '1969-05-16'
     time: 1969-05-16T12:00Z
+    place: peking
     thread: china-leadership
     also: [europe-and-the-alliance, china]
     c: 'Zhou Enlai receives Romania''s departing ambassador, Duma: relations between the two countries develop in friendship.'
@@ -308,6 +338,7 @@ entries:
   - id: cal.1969-05-19.china-leadership-2
     when: May 19
     date: '1969-05-19'
+    place: peking
     thread: china-leadership
     c: 'Mao talks with the geologist Li Siguang, the waiting room of the Great Hall: from the origin of the stars to the origin of life; he doubts Schmidt on the solar system and rates Kant and Laplace; asks Li for his books and for scientific material gathered at home and abroad, in Chinese, as he reads no English.'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, May 19, 1969. See [[cal.1969-05-19.china-leadership]]. Made public: 2013. Names: Mao Zedong, Li Siguang.'
@@ -331,6 +362,7 @@ entries:
     when: May, middle
     date: 1969-05
     at: before 1969-05-11
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Peking: Zhou Enlai''s draft reply to the Soviet Foreign Ministry''s note of May 4, which charged Chinese border provocation at the Tasti River in Yumin county, Xinjiang, and threatened measures; the reply tells of Soviet intrusion into the Barluk range and air space May 2–3. Mao: if anything new happens in May, add it.'
@@ -358,12 +390,13 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Zhou Enlai submits to Mao the Inner Mongolian Party core group''s views on carrying out the Center''s instruction and the Center''s instruction itself; Mao writes: do it.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 291–292 (May 20, 1969). Made public: 2020. See [[cal.1969-05-13.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 291–292 (May 20, 1969); [[w.macfarquhar-maos-last-revolution]], 258 (as early as 1969 the Center criticizes the regional revolutionary committee''s leaders for carrying the cleansing too far and creating "serious interethnic tensions"). Made public: 2020. To check: [[w.woody-cultural-revolution-in-inner]], i–vi, 30–35 (cited by [[w.macfarquhar-maos-last-revolution]], 258 n.22). See [[cal.1969-05-13.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1969-05-20.china-leadership-2
     when: May 20
     date: '1969-05-20'
     time: 1969-05-20T09:45Z
+    place: peking
     thread: china-leadership
     also: [middle-east-syria]
     c: Zhou receives the Syrian military delegation led by Major General Tlass (塔拉斯), chief of the General Staff of the army and armed forces and first deputy minister of defense, in the Great Hall of the People.
@@ -386,6 +419,7 @@ entries:
   - id: cal.1969-05-22.vietnam-hanoi
     when: May 22
     date: '1969-05-22'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s resolution no. 189-NQ/TW sets up a Board for the Study of the Southern Rural Economy, under the Secretariat: to study the direction, measures and policies for restoring and developing the South''s rural economy once peace returns.'
     n: '*Nghị quyết của Ban Bí thư số 189-NQ/TW, ngày 22 tháng 5 năm 1969, Về việc thành lập Ban Nghiên cứu kinh tế nông thôn miền Nam*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXX, 177–78. Made public: 2004.'
@@ -419,9 +453,23 @@ entries:
         - 'w.zedong-mao-zedong-nianpu VI, May 23, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 292–293: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-23.china-leadership-2
+    when: May 23
+    date: '1969-05-23'
+    thread: china-leadership
+    also: [china]
+    c: 'Kang Sheng and Chen Boda speak to a gathering of Zhongnanhai staff on the spirit of the Ninth Congress and Mao''s latest words. Kang, whose remarks are printed and sent out more widely: even after a great victory, "We must never forget class struggle!"'
+    n: '[[w.macfarquhar-maos-last-revolution]], 285–286 ("a month after the end of the congress"). Made public: 2006. To check: Kang Sheng, "Kang Sheng tongzhi zai zhongzhi jiguan chuanda ''jiuda'' jingshen dahui shangde zhongyao jianghua," May 23, 1969, 13, copy in the Fairbank Center Library (cited by [[w.macfarquhar-maos-last-revolution]], 286 n.5). Names: Kang Sheng, Chen Boda, Mao Zedong. Check: the day is that of Kang Sheng''s speech in its title (286 n.5), "to central organs"; the book (285) gives Chen''s and Kang''s talks to Zhongnanhai staff a month after the congress.'
+    src:
+      c: 1b8e91b3
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 285–286: all'
+        - 'via x.1969-05-23.kang-sheng-speech-transmitting-ninth-congress-spirit: all'
+    tags: [polity:prc, name:kang-sheng, name:chen-boda, name:mao-zedong, vis:only:prc]
   - id: cal.1969-05-24.vietnam-hanoi
     when: May 24
     date: '1969-05-24'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s resolution no. 191-NQ/TW on planning the building and reconstruction of Hanoi after the victory over the Americans: since 1954 Hanoi a city of industry, economy and culture. The new capital''s area the hills of Tam Dương and Bình Xuyên districts; the old city, nearly a thousand years old, to be rebuilt.'
     n: '*Nghị quyết của Bộ Chính trị số 191-NQ/TW, ngày 24 tháng 5 năm 1969, Về nhiệm vụ của Quy hoạch xây dựng và cải tạo Thủ đô Hà Nội sau ngày chiến thắng giặc Mỹ xâm lược*, signed for the Politburo by Phạm Văn Đồng. [[w.van-kien-dang-toan]], XXX, 179–87. Made public: 2004.'
@@ -491,6 +539,7 @@ entries:
   - id: cal.1969-05-27.vietnam-hanoi
     when: May 27
     date: '1969-05-27'
+    place: hanoi
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'The Secretariat''s cable to Phạm Hùng, answering his no. 253: the political situation favorable, his attention to troop proselytizing, seminars and opinion right. Lê Duẩn proposes a broad mass movement on the Front''s ten points: open legal bodies to discuss them, delegations to the National Assembly to demand a debate; Saigon''s comrades kept from complacency.'
@@ -499,6 +548,7 @@ entries:
   - id: cal.1969-05-27.china-leadership-2
     when: May 27
     date: '1969-05-27'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: Zhou Enlai that evening receives some standing members of the Hubei Province and Wuhan revolutionary committees and Ninth Congress delegates in Peking and asks them to discuss the Center's document seriously and carry it out firmly.
@@ -515,6 +565,7 @@ entries:
   - id: cal.1969-05-27.china-leadership-4
     when: May 27
     date: '1969-05-27'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou attends the reception given by Afghanistan's ambassador Suhail for Afghanistan's Independence Day.
@@ -541,20 +592,24 @@ entries:
   - id: cal.1969-05-29.china-leadership
     when: May 29
     date: '1969-05-29'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Hall 118, afternoon: Zhou Enlai''s plan to reorganize the State Council''s working group, merge, cut and abolish its ministries and set up revolutionary committees, and to reform the Party''s central organs; Mao: as discussed, but the group''s membership to await Ji Dengkui and Li Desheng, whose duties are settled first. That evening he leaves Peking by train for Wuhan (arrives May 31), Changsha, Nanchang, Hangzhou.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 29, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 294–295 (May 28–29, 1969; the plan and Mao''s reply); [[w.jianguo-yilai-mao-zedong]], XIX, 451 n.1 (May 29, 1969; the editors'' note: Mao left Peking May 29 to inspect the south; not the hour, the train or the stops). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Ji Dengkui, Li Desheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 29, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 294–295 (May 28–29, 1969; the plan and Mao''s reply); [[w.jianguo-yilai-mao-zedong]], XIX, 451 n.1 (May 29, 1969; the editors'' note: Mao left Peking May 29 to inspect the south; not the hour, the train or the stops); [[w.macfarquhar-maos-last-revolution]], 296–297 (Mao, talking with Zhou Enlai, approves in principle keeping the Cultural Revolution Group with the General Office and the Organization and International Liaison Departments, the Propaganda and Investigation Departments, the Discipline Inspection Commission and others to be sent down or merged). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], III, 300, cited by [[w.macfarquhar-maos-last-revolution]], 297 n.65b). To check: [[w.zedong-jianguo-yilai-mao-zedong]], XIII, 51 (cited by [[w.macfarquhar-maos-last-revolution]], 297 n.65a); [[w.zhou-enlai-nianpu-1949]], III, 300 (cited by [[w.macfarquhar-maos-last-revolution]], 297 n.65b). Names: Mao Zedong, Zhou Enlai, Ji Dengkui, Li Desheng.'
     src:
       c: 7dcd0dac
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, May 29, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 294–295: A, B'
         - 'w.jianguo-yilai-mao-zedong XIX, 451 n.1: C'
+        - 'w.macfarquhar-maos-last-revolution 296–297: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1969-05-29.china-leadership-2
     when: May 29
     date: '1969-05-29'
+    time: 1969-05-29T16:00Z
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: At midnight at Peking's railway station Zhou Enlai hears the report of the collision that day of two passenger trains in the station, helps analyze the causes and proposes more crossings and safety sidings on the approaches of the Peking-Shanhaiguan and Peking-Chengde lines, stressing safe rail transport and strict rules to cut errors.
@@ -564,6 +619,7 @@ entries:
     when: May 30
     date: '1969-05-30'
     time: 1969-05-30T05:05Z
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou receives Xuân Thủy, Vietnam's minister, in the Fujian Hall of the Great Hall of the People.
@@ -590,3 +646,16 @@ entries:
     c: Zhou Enlai tells the departments concerned to hold an on-the-spot conference at Sanmenxia to study the project's further rebuilding, and proposes that teachers and students of Tsinghua's hydraulic engineering department attend, to join it with the revolution in education. In June he entrusts Liu Jianxun with a conference at Sanmenxia of Shanxi, Shaanxi, Shandong and Henan on controlling the Yellow River, to study the second rebuilding of the Sanmenxia works and the flood season.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 295 (May 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05.china-leadership-3
+    when: May
+    date: 1969-05
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: Peking. The cleansing of the class ranks has cost 3,731 lives since January 1968, more than 94 percent of them registered as suicides.
+    n: '[[w.macfarquhar-maos-last-revolution]], 258 (January 1968 to May 1969). To check: [[w.beijing-shi-wenhua-dageming]], 30 (cited by [[w.macfarquhar-maos-last-revolution]], 258 n.25). Check: the day.'
+    src:
+      c: 9f34a246
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 258: all'
+    tags: [polity:prc]

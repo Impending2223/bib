@@ -265,6 +265,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
     cjk_done = set()                    # characters after romanized Chinese: at their first on the page (cjk.py)
+    fns = None                          # the citation block as footnotes (tools/bib/footnotes.py)
+    if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
+        from . import footnotes
+        fns = footnotes.build(series, e)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
         if lst.kind == "calendar" and not is_thread:
@@ -278,12 +282,28 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             if spans is not None:
                 body = spans
                 extra_attrs += ' data-cl="1"'
+            if fns:                       # the marks, after each run's last claim (footnotes.py, STYLE 1, 6)
+                from . import claims as _cl
+                us = _cl.units(c)
+                marked = footnotes.place(body, _unit_renderer(series, text_html, year), us, fns[0], e["id"]) \
+                    if len(us) == len(_cl.units(e.get("c") or "")) else None
+                if marked is None:
+                    fns = None            # not found in order: the note as before (STYLE 2)
+                else:
+                    body = marked
         parts.append(f'<span class="c">{lead}{body}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
     if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
         parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
+    fn_html = None
+    if fns:                             # the footnotes, then the note's other sentences (footnotes.py, STYLE 1, 5)
+        from . import cjk, works, footnotes
+        joined = year_qualified(series, footnotes.SEP.join(fns[1]), year)
+        joined = works.with_first_cites(series, e, cjk.strip(series, e, joined, cjk_done))
+        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
+        n = year_qualified(series, fns[2], year) if fns[2] else ""
     if n and lst.kind == "calendar" and not is_thread:
         from . import cjk
         n = cjk.strip(series, e, n, cjk_done)
@@ -296,8 +316,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             parts.append(f'<span class="n">{dates}</span>')
         parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
         parts.append(see_also_html(lst, e))
-    elif n:
-        parts.append(f'<span class="n">{text_html(n, "n")}</span>')
+    else:
+        if fn_html:
+            parts.append(fn_html)
+        if n:
+            parts.append(f'<span class="n">{text_html(n, "n")}</span>')
     if rubric is not None and lst.kind == "calendar" and e.get("thread"):
         prog = program_html(series, lst, e, year, text_html)
         if prog:

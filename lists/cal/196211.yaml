@@ -43,6 +43,7 @@ entries:
   - id: cal.1962-11-01.cuba
     when: Nov. 1
     date: '1962-11-01'
+    place: havana
     thread: cuba
     also: [intelligence]
     c: 'The KGB in Havana to the Center: dissatisfaction with the Soviets in the Ministry of the Interior, other ministries and the armed forces.'
@@ -95,6 +96,7 @@ entries:
   - id: cal.1962-11-01.china-leadership-2
     when: Nov. 1
     date: '1962-11-01'
+    place: peking
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai receives Takasaki Tatsunosuke again: trade of the two countries is to rest on equality and mutual benefit; for now China trades by barter, by accumulation and by degrees, and the trade is private in kind; bank settlement and other details.'
@@ -129,6 +131,33 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 251: all'
     tags: [polity:prc, polity:cuba, polity:us, name:chen-yi, name:castro-fidel]
+  - id: cal.1962-11-01.china-leadership-4
+    when: Nov. 1
+    date: '1962-11-01'
+    thread: china-leadership
+    c: Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 221 (Nov. 1, 1962). The words: 上午 (II, 221). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: 3786dfc2
+      rows:
+        - 'w.yang-shangkun-riji II, 221: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-31T22:00Z
+      - 1962-11-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-01.china-leadership-5
+    when: Nov. 1
+    date: '1962-11-01'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 221 (Nov. 1, 1962). The words: 9时半才开始办公，2时回家睡。田家英同志来谈话 (II, 221). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 221: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-02.missile-crisis
     when: Nov. 2
     date: '1962-11-02'
@@ -163,6 +192,7 @@ entries:
   - id: cal.1962-11-02.desegregation-schools
     when: Nov. 2
     date: '1962-11-02'
+    place: chicago
     thread: desegregation-schools
     c: Chicago. *Burroughs v. Board of Education* dismissed, the State's administrative remedies not exhausted.
     n: '[[w.anderson-confronting-the-color-line]], 89. See [[cal.1962-01-02.desegregation-schools]].'
@@ -187,6 +217,7 @@ entries:
   - id: cal.1962-11-02.china-leadership-2
     when: Nov. 2
     date: '1962-11-02'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking, Xihuating. Zhou Enlai, with Deng Yingchao, receives and gives a dinner for the American Black scholar W. E. B. Du Bois and his wife, Shirley Graham.
@@ -208,11 +239,28 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Li Xiannian on national finance. On expenditure, city upkeep should include repairing houses; cities know only how to build new houses and not to mend old, which is like enlarging reproduction without simple reproduction; he proposes an urban construction ministry to manage houses, repairs and all city construction, taking in the rent; the Center and the budgets have not looked after it, and all old houses henceforth are to be repaired and every builder is to collect rent. On credit: watch the balance of credit receipts and payments, which in the past was not watched; when imbalance, a deficit or inflation is found, report at once and take measures; this is where leaks have come.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564–565 (Nov. 2, 1962). Made public: 1996. Names: Liu Shaoqi, Li Xiannian.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564–565 (Nov. 2, 1962); [[w.yang-shangkun-riji]], II, 221 (Nov. 2, 1962; 3:30 to 6 p.m.; Liu Shaoqi and Li Xiannian not named). Made public: 1996. Names: Liu Shaoqi, Li Xiannian.'
     tags: [polity:prc, name:liu-shaoqi, name:li-xiannian, vis:only:prc]
+  - id: cal.1962-11-02.china-leadership-4
+    when: Nov. 2
+    date: '1962-11-02'
+    thread: china-leadership
+    c: Hu Qiaomu 胡乔木 at Yang Shangkun's 杨尚昆 home for a talk.
+    n: '[[w.yang-shangkun-riji]], II, 221 (Nov. 2, 1962). The words: 上午晚起 (II, 221). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Qiaomu, Yang Shangkun.'
+    src:
+      c: 73bcea31
+      rows:
+        - 'w.yang-shangkun-riji II, 221: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-01T22:00Z
+      - 1962-11-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-03.missile-crisis
     when: Nov. 3
     date: '1962-11-03'
+    place: washington
     thread: missile-crisis-settlement
     c: 'Kennedy''s reply: the quarantine to go once the United Nations arranges it; the Red Cross to inspect incoming ships. Castro''s refusal of verification in Cuba a serious problem.'
     n: 'FRUS 1961–63, VI, doc. [72](https://history.state.gov/historicaldocuments/frus1961-63v06/d72). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Kennedy, Khrushchev, Castro.'
@@ -226,6 +274,7 @@ entries:
   - id: cal.1962-11-03.cuba
     when: Nov. 3
     date: '1962-11-03'
+    place: havana
     thread: cuba
     also: [missile-crisis, soviet-union]
     c: 'Havana. Mikoyan''s first meeting with Castro: "What we are speaking of is not a broad inspection, but a verification of the sites known to the Americans due to aerial photography and which have been the locations of the strategic missile launchers." No permanent or general inspection.'
@@ -245,6 +294,7 @@ entries:
   - id: cal.1962-11-03.china
     when: Nov. 3
     date: '1962-11-03'
+    place: peking
     thread: china
     also: [cuba]
     c: Peking. The first of four days of marches on the Cuban Embassy, tens of thousands a day by Reuters' count, three hundred thousand by the official one; Zhou Enlai reaffirms support of Cuba.
@@ -260,6 +310,7 @@ entries:
   - id: cal.1962-11-03.india-and-china
     when: Nov. 3
     date: '1962-11-03'
+    place: calcutta
     thread: south-asia
     c: The first American transports land at Calcutta; Indian troops in the NEFA have British and American arms twelve days later.
     n: '[[w.poole-joint-chiefs-of-staff]], 267.'
@@ -331,6 +382,38 @@ entries:
     c: 'Liu Shaoqi convenes the responsible officials of the forestry work in Heilongjiang, Jilin and Inner Mongolia. Timber prices are to be set properly: for big timber, the exit price down and the selling price up; for small, the exit price up and the selling price down, so that price promotes production and thrift in timber. A way is to be found for the replanting of the large area of felled land: first, natural renewal; second, artificial promotion; third, sowing by hand and transplanting. The forestry academy is to study them and the allocation of timber, now that they allot timber unused, as when ice-lolly sticks are cut from big timber.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 565 (Nov. 3, 1962). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-11-03.china-leadership-4
+    when: Nov. 3
+    date: '1962-11-03'
+    place: peking
+    thread: china-leadership
+    c: The General Office's mass work group with Yang Shangkun 杨尚昆 on the All-China Federation of Trade Unions' conference.
+    n: '[[w.yang-shangkun-riji]], II, 221 (Nov. 3, 1962). The words: 上午 (II, 221). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e0184a2f
+      rows:
+        - 'w.yang-shangkun-riji II, 221: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-02T22:00Z
+      - 1962-11-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-03.china-leadership-5
+    when: Nov. 3
+    date: '1962-11-03'
+    time: 1962-11-03T07:30Z
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: Yangfeng Jiadao 养蜂夹道, 3:30 to 8 p.m. Deng Xiaoping 邓小平, Peng Zhen 彭真, Kang Sheng 康生 and others, Yang Shangkun 杨尚昆 with them, talk with Jusuf Adjitorop 阿吉托罗普, a candidate member of the Indonesian Communist Party's Politburo, and give him a dinner.
+    n: '[[w.yang-shangkun-riji]], II, 221–222 (Nov. 3, 1962; note 1: his posts). The name''s form as the calendar gives it from the Mao chronology for Nov. 30, 1962 (the same characters and posts). The words: 下午3时半到8时 (II, 221–222). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Kang Sheng, Yang Shangkun.'
+    src:
+      c: c744bdfb
+      rows:
+        - 'w.yang-shangkun-riji II, 221–222: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-04.missile-crisis
     when: Nov. 4
     date: '1962-11-04'
@@ -380,6 +463,7 @@ entries:
     when: Nov. 4
     date: '1962-11-04'
     time: 1962-11-04T09:45Z
+    place: peking
     thread: china-leadership
     also: [china, korea, trade]
     c: Peking, the Great Hall of the People, Zhejiang Hall. Zhou Enlai receives the DPRK government's trade delegation headed by Yi Chu-yŏn, Vice-Premier.
@@ -393,6 +477,7 @@ entries:
   - id: cal.1962-11-04.china-leadership-2
     when: Nov. 4
     date: '1962-11-04'
+    place: peking
     thread: china-leadership
     also: [china, korea, south-asia]
     c: Peking, the Great Hall of the People. Zhou Enlai, at the banquet welcoming the DPRK trade delegation, repeats that China will never relax its effort for a peaceful settlement of the Sino-Indian boundary question, but no one should expect China to yield before force.
@@ -528,6 +613,7 @@ entries:
   - id: cal.1962-11-05.press-and-broadcasting
     when: Nov. 5
     date: '1962-11-05'
+    place: washington
     thread: press-and-broadcasting
     also: [soviet-union]
     c: Joseph Alsop's column in the *Washington Post* exposes Bolshakov's role with Robert Kennedy. The Kremlin, by Schlesinger's account, decides his usefulness in Washington is over and recalls him.
@@ -547,6 +633,7 @@ entries:
   - id: cal.1962-11-05.transition-and-staff
     when: Nov. 5
     date: '1962-11-05'
+    place: washington
     thread: transition-and-staff
     c: 'The Oval Office, recorded, after the missile crisis: the President considers moving Bundy to the State Department, Sorensen to Bundy''s place and Feldman to Sorensen''s as Counsel: "Number one, put Sorensen in Bundy''s place; put Feldman in Sorensen''s place as Counsel ... Sorensen and Bundy are equally good."'
     n: '[[w.sorensen-counselor]], 236 (Sorensen''s account, written in 2008, of a transcript a presidential historian brought him in 2001; not the hour or the speakers present). To check: the recording. Names: Kennedy, Bundy, Sorensen, Feldman.'
@@ -554,6 +641,7 @@ entries:
   - id: cal.1962-11-05.soviet-union-leadership
     when: Nov. 5
     date: '1962-11-05'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium adopts the plan for 1963 and the draft budget, Dymshits and Garbuzov reporting. Khrushchev, stenographed: the five-year plan of the Twentieth Congress "филькина грамота" (a worthless scrap), Saburov illiterate in planning; Stalin pushed plans with no backing; the chemical industry to be driven radically; Gosplan conservative, the current commission to go; councils at the works to have a say in naming directors; 4.2–4.5 billion poods of marketable grain in 1963, 5 billion in 1964; a joint plan with the socialist countries, Gomułka saying it is all talk.'
     n: 'Protocol 64, item I. [[w.prezidium-tsk-kpss-1954]], I, 625–26 (doc. 269, Malin''s notes), 627–45 (doc. 270, Khrushchev''s speech, the uncorrected stenogram); III, 392 (P 64/I). Made public: 2003. Names: Dymshits, Garbuzov, Khrushchev, Saburov, Gomułka.'
@@ -577,6 +665,7 @@ entries:
   - id: cal.1962-11-05.china-leadership-3
     when: Nov. 5
     date: '1962-11-05'
+    place: peking
     thread: china-leadership
     also: [china, korea, trade]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the China–DPRK treaty of trade and navigation, the agreement on supply of goods and other documents.
@@ -595,6 +684,7 @@ entries:
   - id: cal.1962-11-05.china-leadership-4
     when: Nov. 5
     date: '1962-11-05'
+    place: peking
     thread: china-leadership
     also: [china, korea, trade]
     c: Peking Hotel. Zhou Enlai attends the banquet given by the DPRK Embassy's chargé d'affaires, Jong Bong-gu, for the DPRK trade delegation headed by Yi Chu-yŏn.
@@ -615,7 +705,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Zhu De and Deng Xiaoping, meets Emil Løvlien, chairman of the Central Committee of the Communist Party of Norway.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 565 (Nov. 5, 1962). Names: Liu Shaoqi, Zhu De, Deng Xiaoping.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 565 (Nov. 5, 1962); [[w.yang-shangkun-riji]], II, 222 (Nov. 5, 1962; 6:30 to 8 p.m., Liu Shaoqi''s dinner for the Norwegian party''s delegation; Yang Shangkun attends; note 2: Løvlien 洛夫林). Names: Liu Shaoqi, Zhu De, Deng Xiaoping.'
+    src:
+      c: 2f56b37a
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 565: ?'
+        - 'w.yang-shangkun-riji II, 222: A'
     tags: [polity:prc, polity:norway, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping]
   - id: cal.1962-11-05.soviet-union
     when: Nov. 5–14
@@ -634,6 +729,7 @@ entries:
   - id: cal.1962-11-05.china
     when: Nov. 5
     date: '1962-11-05'
+    place: peking
     thread: china
     also: [korea]
     c: China and the DPRK issue a communique on the trade delegation's talks at Peking.
@@ -655,6 +751,49 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 252–253: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-11-05.china-leadership-6
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: china-leadership
+    c: The state farm sector reports to Yang Shangkun 杨尚昆 on placing people in the hills, on the water and on the forest farms.
+    n: '[[w.yang-shangkun-riji]], II, 222 (Nov. 5, 1962). The words: 上午 (II, 222). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: adc6f61a
+      rows:
+        - 'w.yang-shangkun-riji II, 222: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-04T22:00Z
+      - 1962-11-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-05.china-leadership-7
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: china-leadership
+    c: The All-China Federation of Trade Unions' Party group with Yang Shangkun 杨尚昆 on starting the campaign to raise output and save.
+    n: '[[w.yang-shangkun-riji]], II, 222 (Nov. 5, 1962). The words: 下午 (II, 222). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2ec4b004
+      rows:
+        - 'w.yang-shangkun-riji II, 222: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-05T04:00Z
+      - 1962-11-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-05.china-leadership-8
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 finishes *The Secretary of the Provincial Committee* 《州委书记》.
+    n: '[[w.yang-shangkun-riji]], II, 222 (Nov. 5, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-10-31.china-leadership-4]]. Names: Yang Shangkun.'
+    src:
+      c: 7ceb268f
+      rows:
+        - 'w.yang-shangkun-riji II, 222: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
     date: '1962-11-06'
@@ -694,6 +833,7 @@ entries:
   - id: cal.1962-11-06.alabama-al
     when: Nov. 6
     date: '1962-11-06'
+    place: alabama
     thread: alabama
     also: [elections-1962]
     c: 'Alabama. Hill (D) re-elected to the Senate over James D. Martin (R) of Gadsden, 201,937 to 195,134, 50.9 percent. Wallace elected governor without a Republican opponent. A constitutional amendment adopted, 138,211 to 32,212, 81.1 percent: a voter who moves within his county in the three months before an election may vote where he moved from.'
@@ -716,6 +856,7 @@ entries:
   - id: cal.1962-11-06.alabama-birmingham
     when: Nov. 6
     date: '1962-11-06'
+    place: birmingham
     thread: mayors
     also: [alabama, elections-1962]
     c: Birmingham votes to replace its three-man City Commission, Connor its Commissioner of Public Safety, with a mayor and a council of nine, under the Mayor-Council Act of 1955; the commission retained and a council-manager plan the other choices. Election of the mayor and council set for Mar. 5, 1963.
@@ -738,6 +879,7 @@ entries:
   - id: cal.1962-11-06.governors-ny
     when: Nov. 6
     date: '1962-11-06'
+    place: new-york-state
     thread: governors
     also: [elections-1962]
     c: New York. Rockefeller (R) re-elected governor over Morgenthau (D, Liberal), 3,081,587 to 2,552,418, 53.1 percent; Jaquith (Conservative) 141,877, 2.4 percent, enough for the party's line on the ballot. Javits (R) re-elected U.S. Senator over Donovan, 3,272,417 to 2,289,323, 57.4 percent; O'Doherty (Conservative) 116,151, 2.0 percent.
@@ -762,6 +904,7 @@ entries:
   - id: cal.1962-11-06.georgia-ga
     when: Nov. 6
     date: '1962-11-06'
+    place: georgia
     thread: georgia
     also: [legislatures, elections-1962, state-legislatures]
     c: 'Georgia Senate, the first election under the new apportionment. Leroy Johnson (D), an Atlanta lawyer, elected in the 38th district over a Negro Republican, 7,372 to 3,291, 69.1 percent: the first Negro in the Senate since 1874. Two Republicans elected. Carter, his special primary in the 14th voided by a court for fraud, elected on write-ins, 3,013 to 2,182, 58.0 percent.'
@@ -777,6 +920,7 @@ entries:
   - id: cal.1962-11-06.south-carolina-sc
     when: Nov. 6
     date: '1962-11-06'
+    place: south-carolina
     thread: south-carolina
     also: [elections-1962]
     c: 'South Carolina, Senate: Johnston (D) over Workman (R), a correspondent of the Charleston *News and Courier*, 178,712 to 133,930, 57.2 percent. Russell elected governor without opposition.'
@@ -793,6 +937,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-il
     when: Nov. 6
     date: '1962-11-06'
+    place: illinois
     thread: state-constitutions
     also: [court]
     c: 'Illinois. The Judicial Article, on the blue ballot, adopted, 2,166,917 to 1,121,237, 65.9 percent, a majority of the 3,812,120 voting at the election, as the constitution requires. One court system: the Supreme Court, appellate courts, and circuit courts; the justices of the peace and the lesser courts abolished. In force Jan. 1, 1964 (Check the terms and the date).'
@@ -809,6 +954,7 @@ entries:
   - id: cal.1962-11-06.governors-mi
     when: Nov. 6
     date: '1962-11-06'
+    place: michigan
     thread: governors
     also: [elections-1962]
     c: Michigan. Romney (R) over Governor Swainson (D), 1,420,086 to 1,339,513, 51.4 percent, the first Republican elected governor since 1946.
@@ -829,6 +975,7 @@ entries:
   - id: cal.1962-11-06.governors-oh
     when: Nov. 6
     date: '1962-11-06'
+    place: ohio
     thread: governors
     also: [elections-1962]
     c: Ohio. Rhodes (R) over Governor DiSalle (D), 1,836,432 to 1,280,521, 58.9 percent. DiSalle had raised taxes and opposed the death penalty, commuting death sentences.
@@ -844,6 +991,7 @@ entries:
   - id: cal.1962-11-06.mayors-cleveland
     when: Nov. 6
     date: '1962-11-06'
+    place: cleveland
     thread: mayors
     also: [elections-1962]
     c: Cleveland. Locher elected for the rest of Celebrezze's term, some three to one.
@@ -860,6 +1008,7 @@ entries:
   - id: cal.1962-11-06.governors-tx
     when: Nov. 6
     date: '1962-11-06'
+    place: texas
     thread: governors
     also: [elections-1962]
     c: Texas. Connally (D) elected governor over Jack Cox (R), 847,035 to 714,995, 54.2 percent of the two. No Republican for governor had polled so large a share since 1869.
@@ -874,6 +1023,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-tx
     when: Nov. 6
     date: '1962-11-06'
+    place: texas
     thread: state-constitutions
     also: [welfare]
     c: 'Texas votes on fourteen amendments; ten adopted. The ceiling on State funds for the needy aged, blind and children raised from $47 million to $52 million, 677,770 to 430,494, 61.2 percent; aid to the disabled limited to $2.5 million a year. Hospital districts; workmen''s compensation for employees of political subdivisions, 543,868 to 540,475, 50.2 percent; continuity of government after enemy attack; water storage; zoning in the Gulf counties; Dallas County school taxes kept through boundary changes. Refused: trials de novo on appeals from agencies; county retirement; State employees on advisory boards; a Titus County home for the aged.'
@@ -888,6 +1038,7 @@ entries:
   - id: cal.1962-11-06.governors-ok
     when: Nov. 6
     date: '1962-11-06'
+    place: oklahoma
     thread: governors
     also: [elections-1962]
     c: 'Oklahoma. Henry Bellmon (R) elected governor over Atkinson (D), 392,316 to 315,357, 55.2 percent: the State''s first Republican governor.'
@@ -909,6 +1060,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-ok
     when: Nov. 6
     date: '1962-11-06'
+    place: oklahoma
     thread: state-constitutions
     also: [legislatures]
     c: 'Oklahoma. An initiative to enforce the constitution''s apportionment formulas by a commission of the Attorney General, Secretary of State and Treasurer, 335,045 to 273,287, 55.1 percent: short of the 362,488, a majority of all votes cast, needed. Governor Edmondson proclaims it adopted; the State Supreme Court holds it failed. An amendment on liquor wholesalers'' prices, 319,809 to 307,861, 51.0 percent, also short.'
@@ -924,6 +1076,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-wa
     when: Nov. 6
     date: '1962-11-06'
+    place: washington-state
     thread: state-constitutions
     also: [legislatures]
     c: Washington. Initiative 211, the League of Women Voters', redistricting the legislature by population, refused, 396,419 to 441,085, 47.3 percent.
@@ -939,6 +1092,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-or
     when: Nov. 6
     date: '1962-11-06'
+    place: oregon
     thread: state-constitutions
     also: [legislatures]
     c: Oregon. Measure 8, an initiated amendment of the constitution on the apportionment of the legislature, refused, 197,322 to 325,182, 37.8 percent.
@@ -954,6 +1108,7 @@ entries:
   - id: cal.1962-11-06.governors-wy
     when: Nov. 6
     date: '1962-11-06'
+    place: wyoming
     thread: governors
     also: [elections-1962]
     c: Wyoming. Hansen (R) governor over Gage (D), 64,970 to 54,298, 54.5 percent.
@@ -974,6 +1129,7 @@ entries:
   - id: cal.1962-11-06.governors-co
     when: Nov. 6
     date: '1962-11-06'
+    place: colorado
     thread: governors
     also: [elections-1962]
     c: Colorado. Love (R) governor over McNichols (D), seeking a third term, 349,342 to 262,890, 56.7 percent.
@@ -993,6 +1149,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-co
     when: Nov. 6
     date: '1962-11-06'
+    place: colorado
     thread: state-constitutions
     also: [legislatures]
     c: Colorado. Two initiated amendments of the constitution on the apportionment of the General Assembly. Amendment No. 7, the House by population, the Senate much as it was, adopted, 305,700 to 172,725, 63.9 percent. Amendment No. 8, both houses by population through a commission, refused, 149,822 to 311,749, 32.5 percent.
@@ -1014,6 +1171,7 @@ entries:
   - id: cal.1962-11-06.governors-nm
     when: Nov. 6
     date: '1962-11-06'
+    place: new-mexico
     thread: governors
     also: [elections-1962]
     c: New Mexico. Campbell (D) governor over Mechem (R), 130,933 to 116,174, 53.0 percent.
@@ -1028,6 +1186,7 @@ entries:
   - id: cal.1962-11-06.governors-hi
     when: Nov. 6
     date: '1962-11-06'
+    place: hawaii
     thread: governors
     also: [elections-1962]
     c: Hawaii. Burns (D) governor over Quinn (R), the first governor of the State, 114,308 to 81,707, 58.3 percent.
@@ -1043,6 +1202,7 @@ entries:
   - id: cal.1962-11-06.governors-pa
     when: Nov. 6
     date: '1962-11-06'
+    place: pennsylvania
     thread: governors
     also: [elections-1962]
     c: Pennsylvania. Scranton (R) governor over Dilworth (D), 2,424,918 to 1,938,627, 55.4 percent; 62 of the 67 counties. Shafer lieutenant governor.
@@ -1063,6 +1223,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-md
     when: Nov. 6
     date: '1962-11-06'
+    place: maryland
     thread: state-constitutions
     also: [legislatures, state-legislatures]
     c: 'Maryland. Amendments: legislators'' pay from $1,800 to $3,000 rejected, 124,323 to 212,608, 36.9 percent; more signers needed to refer an act to the voters, 193,840 to 124,600, 60.9 percent; a decree for an illegitimate child''s support enforceable by imprisonment, 280,651 to 59,329, 82.5 percent; quick-taking of land in Baltimore City and Montgomery County. Referenda: the act of 1961 redrawing the congressional districts for an eighth seat rejected, 115,557 to 211,904, 35.3 percent, the eighth elected at large; the unemployment insurance act of 1961 approved, 242,895 to 185,010, 56.8 percent.'
@@ -1078,6 +1239,7 @@ entries:
   - id: cal.1962-11-06.governors-ca
     when: Nov. 6
     date: '1962-11-06'
+    place: california
     thread: governors
     also: [elections-1962]
     c: California. Brown (D) re-elected over Nixon (R), 3,037,109 to 2,740,351, 51.9 percent.
@@ -1099,6 +1261,7 @@ entries:
   - id: cal.1962-11-06.legislatures-ca
     when: Nov. 6
     date: '1962-11-06'
+    place: california
     thread: legislatures
     also: [state-constitutions, elections-1962]
     c: California. Proposition 23, an initiative constitutional amendment to reapportion the State Senate, fails, 2,181,758 to 2,495,440, 46.6 percent.
@@ -1114,6 +1277,7 @@ entries:
   - id: cal.1962-11-06.antisubversion-ca
     when: Nov. 6
     date: '1962-11-06'
+    place: california
     thread: antisubversion
     also: [state-constitutions, elections-1962]
     c: California. Proposition 24, "Subversive Activities," the initiative constitutional amendment called the Francis amendment, fails, 1,978,520 to 2,928,350, 40.3 percent.
@@ -1130,6 +1294,7 @@ entries:
   - id: cal.1962-11-06.governors-mn
     when: Nov. 6
     date: '1962-11-06'
+    place: minnesota
     thread: governors-mn-recount
     also: [elections-1962]
     c: 'Minnesota, governor. The counties'' first returns: Rolvaag (DFL) 619,704, Governor Andersen (R) 619,646. Ten county boards reconvene and amend their returns.'
@@ -1153,6 +1318,7 @@ entries:
   - id: cal.1962-11-06.governors-ia
     when: Nov. 6
     date: '1962-11-06'
+    place: iowa
     thread: governors
     also: [elections-1962]
     c: Iowa. Hughes (D) over Governor Erbe (R), 430,899 to 388,955, 52.6 percent.
@@ -1173,6 +1339,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-mo
     when: Nov. 6
     date: '1962-11-06'
+    place: missouri
     thread: state-constitutions
     also: [states-and-cities]
     c: Missouri refuses all four amendments. No. 4, by initiative, the Borough Plan, uniting St. Louis city, St. Louis County and its municipalities and districts, schools excepted, under one new government, 217,744 to 633,011, 25.6 percent; the city 55,160 to 67,321, 45.0 percent, the county 47,432 to 180,661, 20.8 percent. No. 1, school taxes in St. Louis and the charter counties, 292,318 to 527,611, 35.7 percent; No. 2, legislative review of regulations, 255,981 to 510,471, 33.4 percent; No. 3, charter county powers, 279,290 to 503,208, 35.7 percent. A constitutional convention, the question put every twenty years, refused, 295,972 to 519,499, 36.3 percent.
@@ -1187,6 +1354,7 @@ entries:
   - id: cal.1962-11-06.governors-ne
     when: Nov. 6
     date: '1962-11-06'
+    place: nebraska
     thread: governors
     also: [elections-1962]
     c: Nebraska. Governor Morrison (D) re-elected over Seaton (R), 242,669 to 221,885, 52.2 percent.
@@ -1201,6 +1369,7 @@ entries:
   - id: cal.1962-11-06.state-constitutions-ne
     when: Nov. 6
     date: '1962-11-06'
+    place: nebraska
     thread: state-constitutions
     also: [legislatures]
     c: Nebraska adopts amendments from the 1961 legislature. No. 7, reapportionment of legislative districts, 218,019 to 175,313, 55.4 percent. No. 4, four-year terms for governor and lieutenant governor, 198,601 to 195,177, 50.4 percent. No. 6, appointment of the judges of the supreme and district courts, 220,181 to 150,212, 59.4 percent. No. 5, four-year terms for legislators, 214,651 to 163,618, 56.7 percent.
@@ -1230,6 +1399,7 @@ entries:
   - id: cal.1962-11-06.governors-ma
     when: Nov. 6
     date: '1962-11-06'
+    place: massachusetts
     thread: governors
     also: [elections-1962]
     c: Massachusetts. Peabody (D) over Volpe (R), 1,053,322 to 1,047,891, 49.9 percent, a 5,431-vote margin. A recount; Volpe concedes Dec. 20 (Check).
@@ -1245,6 +1415,7 @@ entries:
   - id: cal.1962-11-06.states-and-cities-ma
     when: Nov. 6
     date: '1962-11-06'
+    place: massachusetts
     thread: states-and-cities
     also: [elections-1962]
     c: 'Massachusetts. Brooke (R) attorney general over Kelly (D), 1,143,065 to 883,710, 56.0 percent: the first Negro elected attorney general of a State.'
@@ -1261,6 +1432,7 @@ entries:
   - id: cal.1962-11-06.governors-ri
     when: Nov. 6
     date: '1962-11-06'
+    place: rhode-island
     thread: governors
     also: [elections-1962]
     c: Rhode Island. Chafee (R) over Notte (D), the governor, 163,952 to 163,554, 50.1 percent, a 398-vote margin in the Board's final count.
@@ -1275,6 +1447,7 @@ entries:
   - id: cal.1962-11-06.governors-nh
     when: Nov. 6
     date: '1962-11-06'
+    place: new-hampshire
     thread: governors
     also: [elections-1962]
     c: 'New Hampshire. King (D) over Pillsbury (R), 135,481 to 94,567, 58.9 percent: the first Democrat elected governor since 1922. McIntyre (D) takes Bridges''s Senate seat.'
@@ -1289,6 +1462,7 @@ entries:
   - id: cal.1962-11-06.governors-vt
     when: Nov. 6
     date: '1962-11-06'
+    place: vermont
     thread: governors
     also: [elections-1962]
     c: 'Vermont. Hoff (D) over Keyser (R), the governor, 61,350 to 60,035, 50.5 percent, his Democratic line 56,196 and two independent lines the rest: the first Democrat elected governor since 1853.'
@@ -1305,6 +1479,7 @@ entries:
   - id: cal.1962-11-06.governors-me
     when: Nov. 6
     date: '1962-11-06'
+    place: maine
     thread: governors
     also: [elections-1962]
     c: Maine. Reed (R), the governor, over Dolloff (D), 146,604 to 146,121, 50.1 percent, a 483-vote margin.
@@ -1320,6 +1495,7 @@ entries:
   - id: cal.1962-11-06.africa
     when: Nov. 6
     date: '1962-11-06'
+    place: nyc
     thread: africa
     c: 'General Assembly, Resolution 1761 (XVII): members asked to break off relations with South Africa, close their ports to its ships, boycott its goods and stop exports to it, arms included; a special committee on apartheid. 67–16, 23 abstaining (Check); the United States and Britain against.'
     n: '[G.A. Res. 1761 (XVII)](https://undocs.org/A/RES/1761(XVII)). To check: [[w.irwin-gordian-knot]]; [[w.noer-cold-war-and-black]]. See [[cal.1961-03-22.africa]].'
@@ -1332,6 +1508,7 @@ entries:
   - id: cal.1962-11-06.missile-crisis
     when: Nov. 6
     date: '1962-11-06'
+    place: washington
     thread: missile-crisis-settlement
     c: 'Kennedy''s reply: one item on the list beyond the missiles and their equipment, the light bombers, and that of great importance.'
     n: 'FRUS 1961–63, VI, doc. [74](https://history.state.gov/historicaldocuments/frus1961-63v06/d74). [[w.fursenko-khrushchevs-cold-war]], 495 ("this matter of the Il-28s is not a minor matter for us at all"). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Kennedy, Khrushchev.'
@@ -1398,6 +1575,7 @@ entries:
   - id: cal.1962-11-06.elections-1962-2
     when: Nov. 6
     date: '1962-11-06'
+    place: illinois
     thread: elections-1962
     c: Illinois. Dirksen re-elected over Yates, Daley's choice, beaten downstate. In Cook County the Democrats take every major office but one; Simon, for the county board's presidency, wins by 150,000, against 446,000 four years before.
     n: '[[w.cohen-american-pharaoh]], 291. Check: the counts. Names: Dirksen, Yates, Daley.'
@@ -1427,6 +1605,7 @@ entries:
   - id: cal.1962-11-06.elections-1962-3
     when: Nov. 6
     date: '1962-11-06'
+    place: washington
     thread: elections-1962
     c: 'Election night. O''Brien goes to the President''s office to say that Representative Frank W. Burke of Louisville, a staunch supporter, has been defeated. Kennedy: "It looks like a damn long night, Larry." By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 142. Names: O''Brien, Kennedy, Burke.'
@@ -1435,6 +1614,7 @@ entries:
     when: Nov. 6
     date: '1962-11-06'
     time: 1962-11-06T09:00Z
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking, Xihuating. Zhou Enlai receives the Pakistani Ambassador, Raza.
@@ -1472,6 +1652,7 @@ entries:
   - id: cal.1962-11-06.china-leadership-2
     when: Nov. 6
     date: '1962-11-06'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 cable Khrushchev and Brezhnev on the 45th anniversary of the October Revolution: the greatest revolution in history; the Soviet people building communism under the Central Committee "headed by Comrade Khrushchev"; the friendship eternal; China holds to the revolutionary principles of the Moscow Declaration and Statement.'
@@ -1481,6 +1662,38 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 430–431: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:khrushchev-nikita-s, name:brezhnev-leonid, polity:ussr]
+  - id: cal.1962-11-06.china-leadership-3
+    when: Nov. 6
+    date: '1962-11-06'
+    place: peking
+    thread: china-leadership
+    c: Hu Yaobang 胡耀邦, about to leave for Hunan 湖南, with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 222 (Nov. 6, 1962). The words: 上午 (II, 222). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Yaobang, Yang Shangkun.'
+    src:
+      c: 439b72a8
+      rows:
+        - 'w.yang-shangkun-riji II, 222: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-05T22:00Z
+      - 1962-11-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-06.china-leadership-4
+    when: Nov. 6
+    date: '1962-11-06'
+    time: 1962-11-06T07:30Z
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: Yangfeng Jiadao 养蜂夹道, 3:30 to 8 p.m. The talks with Jusuf Adjitorop 阿吉托罗普 go on; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 222 (Nov. 6, 1962). The words: 下午3时半到8时 (II, 222). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-03.china-leadership-5]]. Names: Yang Shangkun.'
+    src:
+      c: cb4975ed
+      rows:
+        - 'w.yang-shangkun-riji II, 222: all'
+    tags: [polity:prc, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-07.middle-east-yemen
     when: Nov. 7
     date: '1962-11-07'
@@ -1490,6 +1703,7 @@ entries:
   - id: cal.1962-11-07.elections-1962
     when: Nov. 7
     date: '1962-11-07'
+    place: beverly-hills
     thread: elections-1962
     c: 'Nixon at the Beverly Hilton: "You won''t have Nixon to kick around anymore."'
     n: 'Recording (Opp. II.I). [[w.nixon-rn]], 244–46 (the press conference; the words); [[w.white-making-of-the-president-1969]], 42; [[w.goldberg-barry-goldwater]], 166 (his "last" press conference, Nov. 7, blaming the press); [[w.bernstein-guns-or-butter]], 506 (Witcover''s account); [[w.novak-agony-of-the-g]], 88 (Nov. 7, Los Angeles, nationally televised; "You won''t have Nixon to kick around any more"); [[w.odonnell-johnny-we-hardly-knew]], 392 (Nixon, after losing to Brown, telling the press that it "wouldn''t have Dick Nixon to kick around anymore"; not the place, the day or the words as quoted). See [[cal.1962-06-05.elections-1962]]. Names: Nixon.'
@@ -1532,6 +1746,7 @@ entries:
   - id: cal.1962-11-07.court
     when: Nov. 7
     date: '1962-11-07'
+    place: washington
     thread: court
     also: [desegregation-public-places]
     c: 'The Glen Echo sit-in case argued. Cox for the United States: the Court need not reach the broad question; the park''s guard a deputized sheriff, so the expulsion was state action.'
@@ -1569,10 +1784,11 @@ entries:
   - id: cal.1962-11-07.china
     when: Nov. 7
     date: '1962-11-07'
+    place: peking
     thread: china
     also: [soviet-union]
     c: Peking, the reception for the October Revolution's anniversary. The Soviet Ambassador toasts Khrushchev; his Chinese guests silent.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 496; [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 7, 1962; 晚上, the Soviet Embassy; Zhou Enlai present); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 253 (Nov. 7, 1962; the Soviet ambassador Chervonenko''s reception for the 45th anniversary of the October Revolution, Zhou, Peng Zhen and Chen Yi attending; Chen Yi speaks: Cuba upholds the revolutionaries'' principle toward imperialist aggression; he condemns the U.S. for stepping up military aid to India). To check: Adam Kellet-Long, "Soviet Envoy''s Praise of Khrushchev Meets Silence at Peking Celebration," *Washington Post and Times Herald*, Nov. 7, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.14). Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 496; [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 7, 1962; 晚上, the Soviet Embassy; Zhou Enlai present); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 253 (Nov. 7, 1962; the Soviet ambassador Chervonenko''s reception for the 45th anniversary of the October Revolution, Zhou, Peng Zhen and Chen Yi attending; Chen Yi speaks: Cuba upholds the revolutionaries'' principle toward imperialist aggression; he condemns the U.S. for stepping up military aid to India); [[w.yang-shangkun-riji]], II, 222–223 (Nov. 7, 1962; the Soviet Embassy, from 6 p.m.; Chen Yi speaks; Yang Shangkun attends; note 1: the 45th anniversary). To check: Adam Kellet-Long, "Soviet Envoy''s Praise of Khrushchev Meets Silence at Peking Celebration," *Washington Post and Times Herald*, Nov. 7, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 496 n.14). Names: Khrushchev.'
     src:
       c: 45d666a8
       rows:
@@ -1580,6 +1796,7 @@ entries:
         - 'via x.2006.kcw-p496-china: all'
         - 'w.zhou-enlai-waijiao-huodong 340: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 253: A'
+        - 'w.yang-shangkun-riji II, 222–223: A'
     tags: [name:khrushchev-nikita-s]
     time_range:
       - 1962-11-07T11:00Z
@@ -1603,6 +1820,7 @@ entries:
   - id: cal.1962-11-07.soviet-union
     when: Nov. 7
     date: '1962-11-07'
+    place: moscow
     thread: soviet-union
     c: 'Moscow, the reception the day after the American elections. Khrushchev to Kohler, the new American Ambassador: "we may not love each other, but we have to live together and may even have to embrace each other, if the world is to survive."'
     n: '[[w.fursenko-khrushchevs-cold-war]], 498 (the elections a source of hope: "All aggressive U.S. candidates have been rejected by the wise U.S. electorate," Khrushchev later to a British diplomat). Check: the work cites the Embassy''s telegram for the words to the British diplomat and Roberts''s for those to Kohler; the notes may be transposed. To check: Roberts to Home, Nov. 19, 1962, PREM 11/3996; Moscow to the Secretary of State, Nov. 13, 1962, NSF, JFK Library (cited by [[w.fursenko-khrushchevs-cold-war]], 498 n.26, n.27). Names: Khrushchev, Kohler.'
@@ -1694,6 +1912,7 @@ entries:
     when: Nov. 7
     date: '1962-11-07'
     time: 1962-11-07T05:45Z
+    place: nyc
     thread: elections-1962
     c: 'New York, the Roosevelt Hotel, 12:45 a.m. Rockefeller, from his own victory party, at the suite of Lomenzo, a Rochester judge beaten by Levitt for comptroller: his thanks; "after two weeks I want you to call me."'
     n: '[[w.smith-on-his-own-terms]], 385. Names: Rockefeller, Levitt.'
@@ -1703,9 +1922,26 @@ entries:
         - 'w.smith-on-his-own-terms 385: all'
         - 'via x.undated.lomenzo-interview-by-morrow: all'
     tags: [name:rockefeller-nelson, name:levitt-arthur, state:ny]
+  - id: cal.1962-11-07.china-leadership
+    when: Nov. 7
+    date: '1962-11-07'
+    thread: china-leadership
+    c: Li Boren 李波人 with Yang Shangkun 杨尚昆 on the control commissions' work report.
+    n: '[[w.yang-shangkun-riji]], II, 222 (Nov. 7, 1962). The words: 上午 (II, 222). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: a1e500dc
+      rows:
+        - 'w.yang-shangkun-riji II, 222: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-06T22:00Z
+      - 1962-11-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-08.testing
     when: Nov. 8
     date: '1962-11-08'
+    place: washington
     thread: testing
     also: [china]
     c: 'Bundy to Kennedy, "Test Ban: Black Boxes, Khrushchev, and China": the British to say the black boxes reduce but do not end on-site inspection; Kuznetsov''s offer of three on Soviet soil. Raise with Khrushchev the Chinese and a test ban: "A Red China nuclear presence is the greatest single threat to the status quo over the next few years."'
@@ -1772,6 +2008,67 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 253: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-11-08.china-leadership-2
+    when: Nov. 8
+    date: '1962-11-08'
+    time: 1962-11-08T07:30Z
+    thread: china-leadership
+    c: Wang Congwu 王从吾, Qian Ying 钱瑛 and others with Yang Shangkun 杨尚昆, 3:30 to 6 p.m., on the report to the control commissions' conference and how to run it.
+    n: '[[w.yang-shangkun-riji]], II, 223 (Nov. 8, 1962). The words: 下午3时半到6时 (II, 223). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Congwu, Qian Ying, Yang Shangkun.'
+    src:
+      c: 95da3892
+      rows:
+        - 'w.yang-shangkun-riji II, 223: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-08.china-leadership-4
+    when: Nov. 8
+    date: '1962-11-08'
+    thread: china-leadership
+    c: Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 223 (Nov. 8, 1962). The words: 上午 (II, 223). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: 3786dfc2
+      rows:
+        - 'w.yang-shangkun-riji II, 223: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-07T22:00Z
+      - 1962-11-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-08.china-leadership-3
+    when: Nov. 8
+    date: '1962-11-08'
+    thread: china-leadership
+    c: Chen Bingchen 陈秉忱 and Qi Benyu 戚本禹 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 223 (Nov. 8, 1962; note 2: Qi Benyu). The words: 晚饭后 (II, 223). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Bingchen, Qi Benyu, Yang Shangkun.'
+    src:
+      c: '54960351'
+      rows:
+        - 'w.yang-shangkun-riji II, 223: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-08T11:00Z
+      - 1962-11-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-08.china-leadership-5
+    when: Nov. 8
+    date: '1962-11-08'
+    thread: china-leadership
+    c: Dr. Wang Minqing 王敏清 tells Yang Shangkun 杨尚昆 that Wang Jiaxiang 王稼祥 has hepatitis.
+    n: '[[w.yang-shangkun-riji]], II, 223 (Nov. 8, 1962; note 3: Wang Minqing). The words: 晚饭后……王大夫来谈王稼祥同志已查明是肝炎 (II, 223). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Minqing, Yang Shangkun, Wang Jiaxiang.'
+    src:
+      c: 94832bcb
+      rows:
+        - 'w.yang-shangkun-riji II, 223: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-08T11:00Z
+      - 1962-11-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-09.intelligence
     when: Nov. 9
     date: '1962-11-09'
@@ -1885,6 +2182,7 @@ entries:
   - id: cal.1962-11-09.japan
     when: Nov. 9
     date: '1962-11-09'
+    place: peking
     thread: japan
     also: [china]
     c: Liao Chengzhi and Tatsunosuke Takasaki sign a trade memorandum, the ground of what became the L-T trade agreement.
@@ -1900,6 +2198,7 @@ entries:
   - id: cal.1962-11-09.china-leadership
     when: Nov. 9
     date: '1962-11-09'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai, at the Cambodian chargé''s National Day reception, on India''s war mobilization and its continued troop buildup on the border: India seems to plan a new offensive to take more Chinese land, which China cannot tolerate; it will not bow to force but still holds to peaceful talks.'
@@ -1914,6 +2213,7 @@ entries:
   - id: cal.1962-11-09.china-leadership-3
     when: Nov. 9
     date: '1962-11-09'
+    place: peking
     thread: china-leadership
     also: [china, japan, trade]
     c: Peking Hotel. Zhou Enlai attends the farewell banquet given by Takasaki Tatsunosuke, and hopes both sides will work to run the Sino-Japanese trade train well.
@@ -1929,9 +2229,26 @@ entries:
       - 1962-11-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-09.china-leadership-2
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions' Party group meeting.
+    n: '[[w.yang-shangkun-riji]], II, 223 (Nov. 9, 1962). The words: 下午 (II, 223). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 3470f950
+      rows:
+        - 'w.yang-shangkun-riji II, 223: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-09T04:00Z
+      - 1962-11-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
+    place: taif
     thread: middle-east-yemen
     c: Jordanian Hunters at Taif.
     n: FRUS 1961–63, XVIII, doc. [93](https://history.state.gov/historicaldocuments/frus1961-63v18/d93). See [[cal.1962-11-02.middle-east]].
@@ -1949,6 +2266,7 @@ entries:
   - id: cal.1962-11-10.soviet-union
     when: Nov. 10
     date: '1962-11-10'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     c: 'The Presidium on Robert Kennedy''s two statements: take the first, the Il-28s flown by Soviet pilots only; failing that, a promise to remove them when "the time was ripe," without a date. Castro to be consulted. Kuznetsov in New York not to agree to the withdrawal yet.'
@@ -1971,6 +2289,7 @@ entries:
   - id: cal.1962-11-10.missile-crisis
     when: Nov. 10
     date: '1962-11-10'
+    place: washington
     thread: missile-crisis
     c: 'Ball to Kennedy, "Suggested Policy Line for Cuban Crisis": four assumptions, pending Moscow''s answer on the Il-28s and Mikoyan''s talks with Castro. If Moscow cannot control Castro, accept "the fact or fiction" that Khrushchev has complied as far as he can and put the pressure on Cuba; no assurance against invasion. Nitze, for Defense, concurs.'
     n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 169](https://history.state.gov/historicaldocuments/frus1961-63v11/d169). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 216. To check: Nitze for SecDef, Nov. 12, 1962, fldr Cuba Quarantine, box 443, Subject files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 216 n.95). Names: Ball, Kennedy, Mikoyan, Castro, Khrushchev, Nitze.'
@@ -2024,10 +2343,24 @@ entries:
   - id: cal.1962-11-10.democratic-party
     when: Nov. 10
     date: '1962-11-10'
+    place: hyde-park-ny
     thread: democratic-party
     c: Hyde Park, N.Y., the funeral of Eleanor Roosevelt, who died Nov. 7. In the church, Truman, Eisenhower and Kennedy, with Henry Wallace, James Farley, Henry Morgenthau and Frances Perkins; Truman, in Schlesinger's words, anguished as never before. Burial in a gentle rain. By Schlesinger's journal.
     n: '[[w.schlesinger-journals]], 180–81. See [[cal.1962-11-10.economy]]. Names: Roosevelt, Truman, Eisenhower, Kennedy, Schlesinger.'
     tags: [name:roosevelt-eleanor, name:truman-harry-s, name:eisenhower-dwight-d, name:kennedy-john-f, name:schlesinger-arthur-m-jr, state:ny]
+  - id: cal.1962-11-10.china-leadership
+    when: Nov. 10
+    date: '1962-11-10'
+    time: 1962-11-10T01:00Z
+    thread: china-leadership
+    c: The Streamlining Group 精简小组, 9 a.m. to noon, on establishments 编制.
+    n: '[[w.yang-shangkun-riji]], II, 223 (Nov. 10, 1962). The words: 上午9时到12时 (II, 223). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: db752f6a
+      rows:
+        - 'w.yang-shangkun-riji II, 223: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-11.missile-crisis
     when: Nov. 11
     date: '1962-11-11'
@@ -2058,6 +2391,7 @@ entries:
   - id: cal.1962-11-11.india-and-china
     when: Nov. 11
     date: '1962-11-11'
+    place: london
     thread: south-asia
     c: American, British, Canadian and Australian representatives meet in London on India's needs; three days later they propose outfitting five Indian divisions in three to five months.
     n: '[[w.poole-joint-chiefs-of-staff]], 267. See [[cal.1962-11-03.india-and-china]].'
@@ -2083,6 +2417,7 @@ entries:
     when: Nov. 12
     date: '1962-11-12'
     time: 1962-11-13T01:30Z
+    place: washington
     thread: missile-crisis-settlement
     also: [robert-kennedy]
     c: '8:30 p.m., the Soviet Embassy''s reception for the Bolshoi Ballet. Robert Kennedy, by the President''s instruction, to Dobrynin: if the IL-28s start out at once and are gone in thirty days, the quarantine lifted at once.'
@@ -2101,6 +2436,7 @@ entries:
     when: Nov. 12
     date: '1962-11-12'
     time: 1962-11-12T22:00Z
+    place: washington
     thread: missile-crisis-settlement
     c: '5 p.m., the Executive Committee on Khrushchev''s reply: the missiles and warheads out; the Il-28s "at some point." McCloy''s offer discussed, the quarantine lifted for a promise to take the bombers out. Rusk: the quarantine against the bombers; Kennedy: the Il-28s against the quarantine, the assurances against invasion against safeguards.'
     n: '[FRUS 1961–63, XI, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v11/d172). [[w.fursenko-one-hell-of-a]], 303 (the offer). See [[cal.1962-11-11.missile-crisis]]. Names: McCloy, Rusk, Kennedy, Khrushchev. Check: the hour; the President''s Appointment Book has the meeting from 5:30 to 6:15 p.m. (FRUS 1961–63, XI, doc. 172, its source note).'
@@ -2113,6 +2449,7 @@ entries:
   - id: cal.1962-11-12.goldwater
     when: Nov. 12
     date: '1962-11-12'
+    place: nyc
     thread: goldwater
     also: [elections-1964]
     c: 'New York, the Americana, the Presidential suite. White shows Goldwater the program for the group''s December meeting: a State-by-State organization, a budget, the dates of the conventions and primaries of 1964, his count of delegates. Goldwater: "This looks good. It''s fine." He agrees with Rockefeller on "a lot of things"; nothing said of running. By White''s account.'
@@ -2184,9 +2521,42 @@ entries:
     c: 'Liu Shaoqi talks with the heads of the Central Committee''s Organization Department and the bureaus'' organization departments who are at the organization work conference, on building the ruling Party. The two chief questions are basic-level Party organizations and cadres. Organization work must be regularized; where no one manages the Party, the Party is not well managed and someone has to. Cadres are to be re-educated, chosen and appraised so that the ranks stay pure. More is asked of cadres than of Party members; among cadres, high and middle ones above all, there are bad ones, turned bad and decayed, whose influence differs from that of a few members at the base. People outside the Party fear that Party rule may corrupt it, a real problem Lenin raised too; if we do not notice it the Party may degenerate. Corrupt and fallen cadres are to be dealt with openly, reported to the whole Party and used for education; major cases that cannot be disposed of have someone holding them up, and fear not: most would support the handling. Do not cut off from the majority of Party members, cadres, workers and peasants; practice democratic centralism, criticism and self-criticism, one leader and a majority.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 565–566 (Nov. 12, 1962). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-11-12.china-leadership-3
+    when: Nov. 12
+    date: '1962-11-12'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions.
+    n: '[[w.yang-shangkun-riji]], II, 224 (Nov. 12, 1962). The words: 上午 (II, 224). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: dec19045
+      rows:
+        - 'w.yang-shangkun-riji II, 224: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-11T22:00Z
+      - 1962-11-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-12.china-leadership-4
+    when: Nov. 12
+    date: '1962-11-12'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 224 (Nov. 12, 1962). The words: 晚间……到2时才回家睡 (II, 224). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 224: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-12T11:00Z
+      - 1962-11-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-13.soviet-union
     when: Nov. 13
     date: '1962-11-13'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis, cuba]
     c: 'The Presidium: the White House to be told the Il-28s can go within thirty days, two or three months preferred. Khrushchev to Mikoyan, of Castro: "because of his youth" he "cannot behave himself properly" and "cannot understand the difficulties."'
@@ -2223,6 +2593,7 @@ entries:
   - id: cal.1962-11-13.vietnam-hanoi
     when: Nov. 13
     date: '1962-11-13'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's circular no. 99-TT/TW on checking the management of the joint state-private enterprises and shops, the transformation of private industry and trade completed at the end of 1960.
     n: '*Thông tri của Ban Bí thư số 99-TT/TW về tiến hành kiểm tra việc quản lý sản xuất và kinh doanh của các xí nghiệp, cửa hàng công tư hợp doanh*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 787–90. Made public: 2002.'
@@ -2254,6 +2625,48 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 254: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-11-13.china-leadership-3
+    when: Nov. 13
+    date: '1962-11-13'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions and the views of Zhang Xiuzhu 张修竹.
+    n: '[[w.yang-shangkun-riji]], II, 224 (Nov. 13, 1962; note 2: Zhang Xiuzhu). The words: 上午 (II, 224). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun, Zhang Xiuzhu.'
+    src:
+      c: b75eb05e
+      rows:
+        - 'w.yang-shangkun-riji II, 224: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-12T22:00Z
+      - 1962-11-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-13.china-leadership-4
+    when: Nov. 13
+    date: '1962-11-13'
+    time: 1962-11-13T07:30Z
+    thread: china-leadership
+    c: The Secretariat 书记处, 3:30 to 6 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 224 (Nov. 13, 1962). The words: 下午3时半到6时 (II, 224). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: a0cb2bf0
+      rows:
+        - 'w.yang-shangkun-riji II, 224: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-13.china-leadership-5
+    when: Nov. 13
+    date: '1962-11-13'
+    thread: china-leadership
+    follows:
+      - cal.1962-11-13.china-leadership-4
+    c: Liu Ningyi 刘宁一 with Yang Shangkun 杨尚昆 on Li Qibo 李颉伯.
+    n: '[[w.yang-shangkun-riji]], II, 224 (Nov. 13, 1962; note 3: Li Qibo). The words: 以后又同宁一同志谈了颜伯的问题 (II, 224). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Ningyi, Yang Shangkun, Li Qibo.'
+    src:
+      c: ce42200e
+      rows:
+        - 'w.yang-shangkun-riji II, 224: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-14.opinion
     when: Nov. 14
     date: '1962-11-14'
@@ -2265,6 +2678,7 @@ entries:
   - id: cal.1962-11-14.voting-rights-us
     when: Nov. 14
     date: '1962-11-14'
+    place: illinois
     thread: voting-rights
     also: [amendments]
     c: Illinois ratifies the poll tax amendment, the first State. New Jersey second, Dec. 3.
@@ -2273,6 +2687,7 @@ entries:
   - id: cal.1962-11-14.missile-crisis
     when: Nov. 14
     date: '1962-11-14'
+    place: moscow
     thread: missile-crisis-settlement
     c: 'Khrushchev: the IL-28s to go, in two or three months; the quarantine to be lifted and the overflights stopped.'
     n: 'FRUS 1961–63, VI, doc. [77](https://history.state.gov/historicaldocuments/frus1961-63v06/d77). [[w.fursenko-one-hell-of-a]], 307; [[w.fursenko-khrushchevs-cold-war]], 501 (on the Presidium''s word of Nov. 13; UN posts in the Caribbean and on the Florida coast asked). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
@@ -2313,6 +2728,7 @@ entries:
     when: Nov. 14
     date: '1962-11-14'
     time: 1962-11-14T22:45Z
+    place: washington
     thread: missile-crisis-settlement
     also: [robert-kennedy]
     c: '5:45 p.m., the Oval Office, taped. Bundy to Kennedy, of what goes to Moscow through the back channel: "Bobby''s notion is there''s only one peace-lover in the [U.S.] government, and he''s entirely surrounded by militarists and it''s not a bad image. Well, Bobby''s feeding him that stuff, Mr. President."'
@@ -2326,6 +2742,7 @@ entries:
   - id: cal.1962-11-14.cuba
     when: Nov. 14
     date: '1962-11-14'
+    place: havana
     thread: cuba
     also: [missile-crisis-settlement]
     c: 'Havana. The Cubans set no meetings with Mikoyan for Wednesday or Thursday. He sends Alekseyev to Dorticós: the Cubans angry that the draft Kuznetsov gave Stevenson differs from the one Castro approved. After consulting Castro, Dorticós agrees Castro will dine at the embassy, 8 p.m. Thursday.'
@@ -2368,6 +2785,7 @@ entries:
   - id: cal.1962-11-14.soviet-union
     when: Nov. 14
     date: '1962-11-14'
+    place: new-delhi
     thread: soviet-union
     also: [south-asia]
     c: The Soviet ambassador in New Delhi conveys his country's good wishes to Nehru, indicating that Moscow is tilting back to neutrality in the border war.
@@ -2391,9 +2809,40 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 432–433: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 432 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-11-14.china-leadership-2
+    when: Nov. 14
+    date: '1962-11-14'
+    thread: china-leadership
+    c: Zhang Ze 章泽 with Yang Shangkun 杨尚昆 on the propaganda and education conference.
+    n: '[[w.yang-shangkun-riji]], II, 224 (Nov. 14, 1962). The words: 下午 (II, 224). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Ze, Yang Shangkun.'
+    src:
+      c: '22117791'
+      rows:
+        - 'w.yang-shangkun-riji II, 224: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-14T04:00Z
+      - 1962-11-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-14.china-leadership-3
+    when: Nov. 14
+    date: '1962-11-14'
+    time: 1962-11-14T10:30Z
+    place: peking
+    thread: china-leadership
+    c: The Fengzeyuan 丰泽园 restaurant, 6:30 p.m. *Hongqi* 红旗 gives Yang Shangkun 杨尚昆 and Li Bozhao 李伯钊 a dinner; then Peking opera at Diaoyutai 钓鱼台.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 14, 1962). The words: 6时半 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: 6c9f0bf1
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-15.missile-crisis
     when: Nov. 15
     date: '1962-11-15'
+    place: washington
     thread: missile-crisis-settlement
     c: 'Kennedy, an oral message, a written copy to Dobrynin: the IL-28s to be withdrawn, the timing left to settle; the undertakings'' conditions, UN observation and safeguards, restated.'
     n: 'FRUS 1961–63, VI, doc. [78](https://history.state.gov/historicaldocuments/frus1961-63v06/d78). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Kennedy, Khrushchev, Dobrynin.'
@@ -2439,6 +2888,7 @@ entries:
   - id: cal.1962-11-15.china
     when: Nov. 15
     date: '1962-11-15'
+    place: moscow
     thread: china
     also: [soviet-union, cuba]
     c: 'The Presidium. Khrushchev on the Chinese: "Of course, the least amount of assistance to Cuba came from the Chinese"; their embassy''s staff giving blood for Cuba, "What demagogic, cheap assistance!"; Cuba needed "real military and political assistance."'
@@ -2530,6 +2980,101 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 434: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-11-15.china-leadership-4
+    when: Nov. 15
+    date: '1962-11-15'
+    place: peking
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions' conference.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 15, 1962). The words: 上午 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 521b1c43
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-14T22:00Z
+      - 1962-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-15.china-leadership-8
+    when: Nov. 15
+    date: '1962-11-15'
+    place: peking
+    thread: china-leadership
+    c: Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 15, 1962). The words: 上午 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: cea333b5
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-14T22:00Z
+      - 1962-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-15.china-leadership-9
+    when: Nov. 15
+    date: '1962-11-15'
+    place: peking
+    thread: china-leadership
+    c: Li Boren 李波人 with Yang Shangkun 杨尚昆 on the draft report to the Central Control Commission's conference.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 15, 1962). The words: 上午 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 6b9eecbb
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-14T22:00Z
+      - 1962-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-15.china-leadership-5
+    when: Nov. 15
+    date: '1962-11-15'
+    time: 1962-11-15T07:30Z
+    place: peking
+    thread: china-leadership
+    c: The Secretariat 书记处, from 3:30 p.m., on the regulations for pastoral people's communes.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 15, 1962). The words: 下午3时半 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: b35c11bb
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-15.china-leadership-6
+    when: Nov. 15
+    date: '1962-11-15'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1962-11-15.china-leadership-5
+    c: Yang Shangkun 杨尚昆 reports to Deng Xiaoping 邓小平 and Peng Zhen 彭真 the preparations of the trade unions' and the Central Control Commission's conferences; they agree.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 15, 1962). The words: 会后 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: 26b473d4
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-11-15.china-leadership-7
+    when: Nov. 15
+    date: '1962-11-15'
+    thread: china-leadership
+    c: Wang Zhao 王昭, Zhang Qilong 张启龙 and Qiao Mingfu 乔明甫 with Yang Shangkun 杨尚昆 on reorganizing the Qinghai 青海 provincial committee.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 15, 1962; note 1: Wang Zhao). The words: 晚间 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Zhao, Zhang Qilong, Qiao Mingfu, Yang Shangkun.'
+    src:
+      c: 2b4299bb
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-15T11:00Z
+      - 1962-11-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-16.economy
     when: Nov. 16
     date: '1962-11-16'
@@ -2547,6 +3092,7 @@ entries:
   - id: cal.1962-11-16.soviet-union
     when: Nov. 16
     date: '1962-11-16'
+    place: moscow
     thread: soviet-union-leadership
     also: [missile-crisis, cuba]
     c: 'The Presidium, on Castro''s letter to U Thant and his order to fire on American planes. Khrushchev: Castro''s position "just shouting and unreasonable"; "Either they will cooperate or we will recall our personnel." Agreement to remove the Il-28s to go to Kennedy orally; then held a few days, Mikoyan to offer Castro three plans of inspection.'
@@ -2573,6 +3119,7 @@ entries:
   - id: cal.1962-11-16.mississippi-ole-miss
     when: Nov. 16
     date: '1962-11-16'
+    place: lafayette-county-ms
     thread: mississippi-ole-miss
     c: A Lafayette County grand jury indicts Chief Marshal McShane for inciting the riot.
     n: '[[w.branch-parting-the-waters]], 670. To check: [*New York Times*, Nov. 17, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/17/issue.html), at 1 (cited by [[w.branch-parting-the-waters]], 670 n.6). Check: the day.'
@@ -2586,6 +3133,7 @@ entries:
     when: Nov. 16
     date: '1962-11-16'
     time: 1962-11-16T21:05Z
+    place: washington
     thread: missile-crisis-settlement
     also: [defense, china]
     c: '4:05 p.m., the Oval Office, taped. Kennedy with the Joint Chiefs. LeMay on the Il-28s: "The operation is fairly simple. ... It would be accomplished in a few minutes": nine bombers in crates at Holguín, thirty-two at San Julián, forty-eight planes in the attack. Anderson: "We''re ready to put the screws on at any time." Kennedy on China: "Khrushchev is attacked daily for a Munich and appeasement ... there''s a major collision going on here."'
@@ -2619,7 +3167,7 @@ entries:
     date: '1962-11-16'
     thread: south-asia
     c: The Chinese break the lull and drive the Indians back on both fronts; by Nov. 19 within thirty miles of the Assam plains.
-    n: '[[w.poole-joint-chiefs-of-staff]], 267; [[w.mao-zedong-zhuan]], V, ch. 71 (India''s troops attack again, Nov. 14–16; China''s second phase, Nov. 16–21, on both fronts: in the east to near the traditional line south of the McMahon line, in the west every Indian post in Aksai Chin cleared; not the Assam plains). [[w.jian-zhou-enlai]], 482 (India''s offensive at Walong, Nov. 14; China''s counteroffensive two days later; not both fronts or the Assam plains); [[w.macfarquhar-origins-of-the-cultural]], III, 311 (the Chinese follow up with what is clearly their pre-planned attack in east and west on Nov. 18, with eight infantry regiments and three artillery regiments on the NEFA front; the main Indian forces in the eastern sector are decisively routed). Check: the book''s own table dates the second Chinese attack Nov. 16 (III, 316), its text Nov. 18 (III, 311). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 285–342 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.83a); [[w.li-zhongguo-9-ci-da]], 111–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.83b); [[w.qingyun-zhong-yin-bianjie-zhanzheng]], 615 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.83c); [[w.maxwell-indias-china-war]], 425–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.84a); [[w.palit-war-in-high-himalaya]], 256–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.84b). See [[cal.1962-11-19.india-and-china]].'
+    n: '[[w.poole-joint-chiefs-of-staff]], 267; [[w.mao-zedong-zhuan]], V, ch. 71 (India''s troops attack again, Nov. 14–16; China''s second phase, Nov. 16–21, on both fronts: in the east to near the traditional line south of the McMahon line, in the west every Indian post in Aksai Chin cleared; not the Assam plains). [[w.jian-zhou-enlai]], 482 (India''s offensive at Walong, Nov. 14; China''s counteroffensive two days later; not both fronts or the Assam plains); [[w.macfarquhar-origins-of-the-cultural]], III, 311 (the Chinese follow up with what is clearly their pre-planned attack in east and west on Nov. 18, with eight infantry regiments and three artillery regiments on the NEFA front; the main Indian forces in the eastern sector are decisively routed); [[w.yang-shangkun-riji]], II, 226 (Nov. 19, 1962; by the diary of Nov. 19: the frontier forces have taken Bomdila 邦迪拉; south of Tawang 塔湾 the enemy routed). Check: the book''s own table dates the second Chinese attack Nov. 16 (III, 316), its text Nov. 18 (III, 311). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 285–342 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.83a); [[w.li-zhongguo-9-ci-da]], 111–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.83b); [[w.qingyun-zhong-yin-bianjie-zhanzheng]], 615 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.83c); [[w.maxwell-indias-china-war]], 425–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.84a); [[w.palit-war-in-high-himalaya]], 256–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.84b). See [[cal.1962-11-19.india-and-china]].'
     src:
       c: 4dfbf60e
       rows:
@@ -2632,6 +3180,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.83c: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.84a: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.84b: A'
+        - 'w.yang-shangkun-riji II, 226: A'
     variants:
       - unit: A
         witness: w.mao-zedong-zhuan
@@ -2680,9 +3229,37 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 254–255: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-11-16.china-leadership
+    when: Nov. 16
+    date: '1962-11-16'
+    time: 1962-11-16T07:30Z
+    thread: china-leadership
+    c: The Secretariat 书记处, 3:30 to 6 p.m., on policy in the pastoral areas.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 16, 1962). The words: 下午3时半到6时 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-15.china-leadership-5]].'
+    src:
+      c: 93ed343e
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-16.china-leadership-2
+    when: Nov. 16
+    date: '1962-11-16'
+    time: 1962-11-16T10:30Z
+    place: peking
+    thread: china-leadership
+    c: Diaoyutai 钓鱼台, 6:30 p.m. The Central Investigation Department's dinner for the envoys abroad; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 16, 1962). The words: 6时半 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8ece764e
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-17.robert-kennedy
     when: Nov. 17
     date: '1962-11-17'
+    place: nashville
     thread: robert-kennedy
     c: The Test Fleet trial. Ewing King, the Nashville Teamsters' head, watched by FBI men at a spring off River Road at night, meets Patrolman James Paschal, whose wife is a juror; Paschal later testifies to the offer of a promotion. Mrs. Paschal excused.
     n: '[[w.navasky-kennedy-justice]], 419. See [[cal.1962-10-22.robert-kennedy]]. Names: Hoffa.'
@@ -2718,6 +3295,7 @@ entries:
   - id: cal.1962-11-17.vietnam
     when: Nov. 17
     date: '1962-11-17'
+    place: washington
     thread: vietnam
     c: 'Taylor to McNamara, CM-117-62, "Viet Cong Attacks on Strategic Hamlets": the hamlets spread "with little planning and less coordination," a national plan only in August; 10,971 designated, 3,353 reported completed, perhaps 600 meeting the requirements. The program''s strength "still more in prospect than in reality."'
     n: 'Memorandum From the Chairman of the Joint Chiefs of Staff (Taylor) to the Secretary of Defense (McNamara), [FRUS 1961–63, II: Vietnam, 1962, doc. 319](https://history.state.gov/historicaldocuments/frus1961-63v02/d319) (Nov. 17, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 279 (the figures). See [[cal.1962-06-27.vietnam]]. Names: Taylor, McNamara.'
@@ -2756,6 +3334,7 @@ entries:
   - id: cal.1962-11-17.vietnam-hanoi
     when: Nov. 17
     date: '1962-11-17'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat reorganizes the Central Cipher Board and the cipher offices of the Party, the government and the army, for unified control of the work: the Board under the Central Committee, led for it by the Central Military Commission.'
     n: '*Nghị quyết của Ban Bí thư số 60-NQ/TW về việc cải tiến tổ chức Ban Cơ yếu Trung ương và cơ quan cơ yếu các ngành đảng, chính quyền và quân đội*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 791–94. Made public: 2002.'
@@ -2768,6 +3347,51 @@ entries:
     c: Zhou Enlai presides at the 121st plenary meeting of the State Council and asks the ministers, the non-Party ones above all, Xu Deheng, Jiang Guangnai, Shen Yanbing, Liu Wenhui, Sha Qianli and Li Zhuchen, about the letter to Afro-Asian leaders. The blow to India was because it pushed too far for two years; China holds to a peaceful settlement while a thread of hope remains. Ministers are to explain it in their meetings and the non-Party ministers to the democratic parties.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 17, 1962). Made public: 1997. Names: Zhou Enlai, Xu Deheng, Jiang Guangnai, Shen Yanbing, Liu Wenhui, Sha Qianli, Li Zhuchen.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-11-17.china-leadership-2
+    when: Nov. 17
+    date: '1962-11-17'
+    time: 1962-11-17T04:00Z
+    thread: china-leadership
+    c: At Chen Yi's 陈毅 home, noon to 2:30 p.m., a crab lunch; Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Kang Sheng 康生, Yang Shangkun 杨尚昆 and Li Bozhao 李伯钊 there.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 17, 1962; note 2: Zhou, Deng, Kang). The words: 中午12时到2时半 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Zhou Enlai, Deng Xiaoping, Kang Sheng, Yang Shangkun, Li Bozhao.'
+    src:
+      c: be7e9475
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-17.china-leadership-3
+    when: Nov. 17
+    date: '1962-11-17'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions' conference.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 17, 1962). The words: 上午迟起 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 521b1c43
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-16T22:00Z
+      - 1962-11-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-17.china-leadership-4
+    when: Nov. 17
+    date: '1962-11-17'
+    thread: china-leadership
+    c: Huang Shuze 黄树则 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 225 (Nov. 17, 1962). The words: 下午 (II, 225). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Huang Shuze, Yang Shangkun.'
+    src:
+      c: 7429dc9f
+      rows:
+        - 'w.yang-shangkun-riji II, 225: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-17T04:00Z
+      - 1962-11-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-18.missile-crisis
     when: Nov. 18
     date: '1962-11-18'
@@ -2789,6 +3413,7 @@ entries:
   - id: cal.1962-11-18.missile-crisis-2
     when: Nov. 18
     date: '1962-11-18'
+    place: glen-cove
     thread: missile-crisis-settlement
     c: 'Glen Cove, McCloy with Kuznetsov, by Kuznetsov''s report: the press conference on the 20th; if the bombers go, no on-site inspection insisted on, the pledge against invasion restated at the Security Council, orally; the missiles and Il-28s to be counted at sea. "That would be a deal."'
     n: '[[w.fursenko-one-hell-of-a]], 307–308. To check: Kuznetsov to the Central Committee, Nov. 18, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 308 n.79). Names: McCloy, Vasily Kuznetsov.'
@@ -2807,6 +3432,7 @@ entries:
   - id: cal.1962-11-18.king
     when: Nov. 18
     date: '1962-11-18'
+    place: nyc
     thread: king
     also: [antisubversion, press-and-broadcasting]
     c: 'King preaches at Riverside Church, New York. Afterward, to a *Times* reporter, on the Council''s study: "One of the great problems we face with the FBI in the South is that the agents are white Southerners who have been influenced by the mores of the community. ... Every time I saw FBI men in Albany, they were with the local police force." The *Times*, Nov. 19: "Dr. King Says F.B.I. in Albany, Ga., Favors Segregationists."'
@@ -2836,6 +3462,19 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 255: all'
     tags: [polity:prc, polity:india, polity:guinea, polity:tanzania, polity:uar, name:zhou-enlai]
+  - id: cal.1962-11-18.china-leadership-3
+    when: Nov. 18
+    date: '1962-11-18'
+    time: 1962-11-18T09:00Z
+    thread: china-leadership
+    c: Liao Suhua 廖苏华 with Yang Shangkun 杨尚昆, 5 p.m., on Sichuan 四川, and to dinner.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 18, 1962). The words: 5时 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liao Suhua, Yang Shangkun.'
+    src:
+      c: 98f8c000
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-19.india-and-china
     when: Nov. 19–21
     date: '1962-11-19'
@@ -2863,6 +3502,7 @@ entries:
   - id: cal.1962-11-19.oil
     when: Nov. 19
     date: '1962-11-19'
+    place: washington
     thread: oil
     c: 'Kennedy to Udall: changes to Proclamation 3279 by Nov. 23. Imports into Districts I–IV, overland imports included, held to their 1961 ratio to domestic production of liquid hydrocarbons; historical allocations phased out; a sliding scale for refiners, with provision for small business. Talks with the Interstate Oil Compact Commission and with Canada.'
     n: 'FRUS 1961–63, IX, doc. [362](https://history.state.gov/historicaldocuments/frus1961-63v09/d362). See [[cal.1962-09-04.oil]]. Names: Kennedy, Udall.'
@@ -2918,6 +3558,7 @@ entries:
   - id: cal.1962-11-19.civil-rights-the-executive
     when: Nov. 19
     date: '1962-11-19'
+    place: washington
     thread: civil-rights-the-executive
     c: 'The White House, at night. Kennedy with Justice and White House aides settles the housing order''s terms: voluntary for housing already built and for conventional mortgages; a committee in the Executive Office under Lawrence, Pennsylvania''s retiring governor.'
     n: '[[w.sorensen-kennedy]], 482. The order: [[cal.1962-11-20.civil-rights-the-executive]]. See [[cal.1961-11-24.civil-rights-the-executive]]. Names: Kennedy, Lawrence.'
@@ -2933,6 +3574,7 @@ entries:
   - id: cal.1962-11-19.cuba
     when: Nov. 19
     date: '1962-11-19'
+    place: havana
     thread: cuba
     also: [missile-crisis]
     c: 'Havana. After a day with his closest advisers, Castro to Mikoyan: Cuba will swallow the loss of the bombers, but no independent inspection of the island. Nov. 17 and 18 his gunners had not fired on the low-level flights.'
@@ -2980,6 +3622,7 @@ entries:
   - id: cal.1962-11-19.china
     when: Nov. 19
     date: '1962-11-19'
+    place: peking
     thread: china
     also: [south-asia]
     c: Zhongnanhai. Mao Zedong twice calls Zhou Enlai and others to meetings at his residence.
@@ -3029,6 +3672,7 @@ entries:
     when: Nov. 19
     date: '1962-11-19'
     time: 1962-11-19T13:40Z
+    place: peking
     thread: china-leadership
     also: [china, south-asia, indonesia]
     c: Peking, Xihuating. Zhou Enlai receives Sukarni, the Indonesian Ambassador, and tells him that Mao Zedong, Liu Shaoqi and he hope Sukarno will come to Peking on his way home from Japan to talk on the boundary question with India. He will send Huang Zhen, Vice Minister, to Hong Kong on Nov. 20 to convey this and the situation to Sukarno. Asked for China's highest and lowest terms for a settlement, he says China holds to its three proposals but wants to take a further positive step, of which it will consult Sukarno.
@@ -3052,9 +3696,76 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 320: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 320 n.123: all'
     tags: [polity:prc, polity:ussr, name:khrushchev-nikita-s]
+  - id: cal.1962-11-19.china-leadership-3
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions' work conference and on the Youth League's and the Women's Federation's work.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 19, 1962). The words: 今天迟起 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: '69183864'
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-18T22:00Z
+      - 1962-11-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-19.china-leadership-4
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: china-leadership
+    c: Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆 on the Central Control Commission's conference.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 19, 1962). The words: 下午 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Yang Shangkun.'
+    src:
+      c: 68ca21cd
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-19T04:00Z
+      - 1962-11-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-19.china-leadership-5
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: china-leadership
+    follows:
+      - cal.1962-11-19.china-leadership-4
+    c: Wang Congwu 王从吾 telephones Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 19, 1962). The words: 下午……以后从吾也打了电话来 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Congwu, Yang Shangkun.'
+    src:
+      c: b1d8491a
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-19T04:00Z
+      - 1962-11-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-19.china-leadership-6
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 19, 1962). The words: 晚间 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-19T11:00Z
+      - 1962-11-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
+    place: moscow
     thread: missile-crisis-settlement
     c: 'Khrushchev: the IL-28s out within a month, with the Soviet personnel who serve them.'
     n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721; [[w.fursenko-khrushchevs-cold-war]], 503 (Dobrynin to Robert Kennedy: the Il-28s out within thirty days); [[w.taylor-swords-and-plowshares]], 277 (Khrushchev yields Nov. 20, the IL-28s out within thirty days; the last checked off Dec. 6). [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
@@ -3170,6 +3881,7 @@ entries:
   - id: cal.1962-11-20.defense
     when: Nov. 20
     date: '1962-11-20'
+    place: hyannis-port
     thread: defense
     c: Hyannis Port. Kennedy, with McNamara and others, approves McNamara's recommendations on the RS-70, Taylor supporting; McNamara's 36-page draft memorandum the same day. Nov. 22, McNamara announces $50 million more in fiscal 1963 for RS-70 development; nothing said of the new reconnaissance aircraft or the rest of the $362.6 million.
     n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 116; [[w.poole-joint-chiefs-of-staff]], 46 (Kennedy approves the recommendations). Check: Poole, 46, dates Kennedy''s approval of McNamara''s recommendations (950 Minuteman in fiscal 1966, Skybolt cancelled, six Polaris boats) Nov. 23. Names: Kennedy, McNamara, Taylor.'
@@ -3259,6 +3971,7 @@ entries:
     when: Nov. 20
     date: '1962-11-20'
     time: 1962-11-20T23:00Z
+    place: washington
     thread: press-and-broadcasting
     follows:
       - cal.1962-11-20.missile-crisis-3
@@ -3302,9 +4015,58 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 437 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-20.china-leadership-3
+    when: Nov. 20
+    date: '1962-11-20'
+    thread: china-leadership
+    c: Wu Ziheng 吴子横 with Yang Shangkun 杨尚昆 on the letter of Pu Anxiu 浦安修, Peng Dehuai's 彭德怀 wife.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 20, 1962; note 2: Pu Anxiu). The words: 下午 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Ziheng, Yang Shangkun, Pu Anxiu, Peng Dehuai.'
+    src:
+      c: 876f9b5d
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_range:
+      - 1962-11-20T04:00Z
+      - 1962-11-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-20.china-leadership-4
+    when: Nov. 20
+    date: '1962-11-20'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 20, 1962). The words: 上午 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-19T22:00Z
+      - 1962-11-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-20.china-leadership-5
+    when: Nov. 20
+    date: '1962-11-20'
+    thread: china-leadership
+    c: Qi Yanming 齐燕铭 with Yang Shangkun 杨尚昆, to midnight.
+    n: '[[w.yang-shangkun-riji]], II, 226 (Nov. 20, 1962). The words: 晚间……齐燕铭来谈话到12时 (II, 226). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qi Yanming, Yang Shangkun.'
+    src:
+      c: de5963e8
+      rows:
+        - 'w.yang-shangkun-riji II, 226: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-20T11:00Z
+      - 1962-11-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'
+    place: washington
     thread: space
     c: Kennedy and Webb, Cabinet Room, taped. The moon first. "I'm not that interested in space."
     n: '[Transcript of Presidential Meeting in the Cabinet Room of the White House](https://www.nasa.gov/wp-content/uploads/static/history/JFK-Webbconv/pages/transcript.pdf) (Nov. 21, 1962; JFK Library, Presidential Recordings, tape 63). To check: [[w.logsdon-john-f-kennedy-and]]. See [[cal.1961-04-12.space]]. Names: Webb.'
@@ -3333,6 +4095,7 @@ entries:
   - id: cal.1962-11-21.missile-crisis
     when: Nov. 21
     date: '1962-11-21'
+    place: washington
     thread: missile-crisis-settlement
     c: 'Kennedy''s reply: the quarantine lifted on Khrushchev''s assurance; the negotiators in New York to settle the rest. Castro not persuaded to accept verification, so the United States to rely on its own means of information.'
     n: 'FRUS 1961–63, VI, doc. [81](https://history.state.gov/historicaldocuments/frus1961-63v06/d81). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Kennedy, Khrushchev, Castro.'
@@ -3346,6 +4109,7 @@ entries:
   - id: cal.1962-11-21.laos
     when: Nov. 21
     date: '1962-11-21'
+    place: moscow
     thread: laos
     also: [soviet-union]
     part_of: cal.1962-11-21.soviet-union-leadership-2
@@ -3387,6 +4151,7 @@ entries:
   - id: cal.1962-11-21.soviet-union-leadership
     when: Nov. 21
     date: '1962-11-21'
+    place: moscow
     thread: soviet-union-leadership
     also: [missile-crisis-settlement]
     follows:
@@ -3398,6 +4163,7 @@ entries:
   - id: cal.1962-11-21.soviet-union-leadership-2
     when: Nov. 21
     date: '1962-11-21'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 68, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Demichev, Ilyichev, Shelepin.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 646–47 (Protocol 68, Malin''s notes, headed "item II": the instructions to the ambassador in Laos, unnumbered; V, the instructions to Mikoyan, Gromyko reading); I, 1115 n.1 (those present); III, 399–403 (P 68/II, Nov. 21; P 68/V, Nov. 22); III, 1015 nn.1–3 (those present; the Laos decision not in the protocol). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Mazurov, Demichev, Shelepin.'
@@ -3415,7 +4181,7 @@ entries:
     thread: china-leadership
     also: [south-asia, china]
     c: 'Midnight. The Chinese government''s statement: India still refuses the three proposals of Oct. 24 and widens the clashes; China will act first. From midnight Nov. 22 its frontier forces cease fire along the whole border; from Dec. 1 they withdraw 20 kilometers behind the line of actual control of Nov. 7, 1959; checkposts with some civil police on China''s side of the line.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 21, 1962 (and Nov. 22: the cease-fire at midnight). [[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 21, 1962: the statement at midnight, a cease-fire along the whole border from midnight Nov. 22 and a pullback of 20 kilometers behind the line of actual control from Dec. 1); [[w.lengxi-shinian-lunzhan-1956-1966]], 499 (Wu: India refusing, the Chinese government announces a unilateral cease-fire along the whole border from midnight, Nov. 22, and a withdrawal from Dec. 1 to the Chinese side of the line of actual control of Nov. 7, 1959, and 20 kilometers back from it); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 255 (Nov. 21, 1962; the Chinese government''s statement: from 00:00 on Nov. 22 the Chinese frontier troops cease fire on their own initiative along the whole boundary; from Dec. 1 they will withdraw 20 kilometers behind the line of actual control of Nov. 7, 1959 and set up checkposts on their own side of the line; the Foreign Ministry the same day sends the full text to the Indian and other countries'' embassies); [[w.macfarquhar-origins-of-the-cultural]], III, 311 (Beijing unilaterally proclaims a cease-fire and announces that its forces will soon start withdrawing from NEFA). To check: the statement as printed in the *Renmin ribao*, Nov. 21, 1962; [[w.maxwell-indias-china-war]], 442–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.86a); [[w.palit-war-in-high-himalaya]], 88, 97 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.86b); [[w.galbraith-ambassadors-journal]], 378, 386–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.86c). See [[cal.1962-11-20.south-asia]].'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 21, 1962 (and Nov. 22: the cease-fire at midnight). [[w.zhou-enlai-nianpu-1949]], II, 514 (Nov. 21, 1962: the statement at midnight, a cease-fire along the whole border from midnight Nov. 22 and a pullback of 20 kilometers behind the line of actual control from Dec. 1); [[w.lengxi-shinian-lunzhan-1956-1966]], 499 (Wu: India refusing, the Chinese government announces a unilateral cease-fire along the whole border from midnight, Nov. 22, and a withdrawal from Dec. 1 to the Chinese side of the line of actual control of Nov. 7, 1959, and 20 kilometers back from it); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 255 (Nov. 21, 1962; the Chinese government''s statement: from 00:00 on Nov. 22 the Chinese frontier troops cease fire on their own initiative along the whole boundary; from Dec. 1 they will withdraw 20 kilometers behind the line of actual control of Nov. 7, 1959 and set up checkposts on their own side of the line; the Foreign Ministry the same day sends the full text to the Indian and other countries'' embassies); [[w.macfarquhar-origins-of-the-cultural]], III, 311 (Beijing unilaterally proclaims a cease-fire and announces that its forces will soon start withdrawing from NEFA); [[w.yang-shangkun-riji]], II, 226–227 (Nov. 20, 1962; the Center announces on Nov. 20 a cease-fire along the whole Sino-Indian line from midnight; Nov. 21, the four news agencies carry the statement). To check: the statement as printed in the *Renmin ribao*, Nov. 21, 1962; [[w.maxwell-indias-china-war]], 442–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.86a); [[w.palit-war-in-high-himalaya]], 88, 97 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.86b); [[w.galbraith-ambassadors-journal]], 378, 386–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.86c). See [[cal.1962-11-20.south-asia]].'
     src:
       c: 0f8aa549
       rows:
@@ -3427,6 +4193,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.86a: B, D, E'
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.86b: B, D, E'
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.86c: B, D, E'
+        - 'w.yang-shangkun-riji II, 226–227: A'
     tags: [polity:prc, polity:india, name:mao-zedong]
   - id: cal.1962-11-21.china-leadership-2
     when: Nov. 21
@@ -3441,6 +4208,7 @@ entries:
     when: Nov. 21
     date: '1962-11-21'
     time: 1962-11-20T16:20Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai and Chen Yi, twenty minutes after the statement of Nov. 21, call in Banerjee, India's chargé d'affaires, and tell him its main points, China's cease-fire and pullback along the whole border of its own accord; they hope India's government will respond positively and take matching steps.
@@ -3457,6 +4225,7 @@ entries:
     when: Nov. 21
     date: '1962-11-21'
     time: 1962-11-20T17:25Z
+    place: peking
     thread: china-leadership
     also: [south-asia, indonesia]
     c: 'Zhou Enlai and Chen Yi at dawn receive, one after the other, Indonesia''s Ambassador, Sukarni (苏卡尼), and Burma''s, Kyaw Win. They give Sukarni the government''s statement of Nov. 21 and hope Sukarno will use his influence to move India to matching steps; to Kyaw Win they set out China''s steps: if India does not answer or cannot answer in time whether it will respond, China will still cease fire first and withdraw. Sukarni calls the measures very wise; Kyaw Win, lofty and generous.'
@@ -3472,6 +4241,7 @@ entries:
   - id: cal.1962-11-21.china-leadership-5
     when: Nov. 21
     date: '1962-11-21'
+    place: peking
     thread: china-leadership
     also: [china, latin-america]
     c: Peking, Xihuating. Zhou Enlai receives Raquel Gosoi, secretary of the Brazil–China Friendship Association, and her husband, the social activist Amarilio Vasconcelos.
@@ -3489,6 +4259,7 @@ entries:
   - id: cal.1962-11-21.soviet-union
     when: Nov. 21
     date: '1962-11-21'
+    place: budapest
     thread: soviet-union
     also: [china-leadership]
     c: Wu Xiuquan, for the CCP delegation, speaks to the Hungarian congress and says the delegation regrets the attacks on the Albanian party and the CCP. Through the congress more than thirty delegations attack the Albanian party, some naming the CCP; the Bulgarian congress had had a score or so.
@@ -3500,9 +4271,69 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 319–20: B, C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 320 n.119: B, C'
     tags: [polity:prc]
+  - id: cal.1962-11-21.china-leadership-6
+    when: Nov. 21
+    date: '1962-11-21'
+    thread: china-leadership
+    also: [south-asia]
+    c: Yang Shangkun 杨尚昆 reads the whole text of the government's decision.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 21, 1962). The words: 上午 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-21.china-leadership]]. Names: Yang Shangkun.'
+    src:
+      c: 5fc718ad
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-20T22:00Z
+      - 1962-11-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-21.china-leadership-8
+    when: Nov. 21
+    date: '1962-11-21'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 21, 1962). The words: 上午 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: f6009205
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-20T22:00Z
+      - 1962-11-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-21.china-leadership-7
+    when: Nov. 21
+    date: '1962-11-21'
+    time: 1962-11-21T07:30Z
+    thread: china-leadership
+    c: The Secretariat 书记处, 3:30 to 6 p.m., hears the organization work conference's report.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 21, 1962). The words: 下午3时半到6时 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 0d3f5874
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-21.china-leadership-9
+    when: Nov. 21
+    date: '1962-11-21'
+    thread: china-leadership
+    follows:
+      - cal.1962-11-21.china-leadership-7
+    c: Peng Zhen 彭真 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 21, 1962). The words: 会后同彭真同志谈话 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: ea623d9d
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1962-11-22.missile-crisis
     when: Nov. 22
     date: '1962-11-22'
+    place: moscow
     thread: missile-crisis-settlement
     c: Khrushchev trusts the pledge against invasion. On his failure to persuade Castro, Kennedy "partly right."
     n: 'FRUS 1961–63, VI, doc. [82](https://history.state.gov/historicaldocuments/frus1961-63v06/d82). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev, Kennedy, Castro.'
@@ -3516,6 +4347,7 @@ entries:
   - id: cal.1962-11-22.soviet-union
     when: Nov. 22
     date: '1962-11-22'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     c: 'On Mikoyan''s report of the Cuban Foreign Ministry''s cable to Lechuga, "we still have tactical atomic weapons," the Presidium: every nuclear weapon to come out of Cuba; "The weapons are ours, they remain in our hands"; the Cubans, as the Americans, to be told all are gone.'
@@ -3543,6 +4375,7 @@ entries:
   - id: cal.1962-11-22.india-and-china
     when: Nov. 22
     date: '1962-11-22'
+    place: new-delhi
     thread: south-asia
     c: Harriman's mission reaches New Delhi.
     n: '[[w.poole-joint-chiefs-of-staff]], 268. Names: Harriman.'
@@ -3554,6 +4387,7 @@ entries:
   - id: cal.1962-11-22.school-aid
     when: Nov. 22
     date: '1962-11-22'
+    place: miami
     thread: school-aid
     c: Miami. Hecht explains the committee's plan to the annual meeting of the Council of Chief State School Officers, its executive secretary, Edgar Fuller, one of the committee.
     n: '[[w.graham-uncertain-triumph]], 41. To check: [*New York Times*, Nov. 23, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/23/issue.html) (cited by [[w.graham-uncertain-triumph]], 41 n.37).'
@@ -3592,6 +4426,7 @@ entries:
   - id: cal.1962-11-23.sit-ins
     when: Nov. 23–25
     date: '1962-11-23'
+    place: nashville
     thread: sit-ins
     also: [civil-rights-organizations]
     c: Thanksgiving weekend. SNCC's Southwide conference at Nashville; then sit-ins against the city's last segregated places. The Tic-Toc Restaurant's owner sprays Sam Block in the face with a fire extinguisher; a week later two policemen drag John Lewis from the same restaurant to jail.
@@ -3606,6 +4441,7 @@ entries:
   - id: cal.1962-11-23.soviet-union
     when: Nov. 23
     date: '1962-11-23'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     c: 'The Central Committee''s plenum, Nov. 19–23. Khrushchev on the crisis, the trade of the Jupiters in Turkey left out, the letters of Oct. 28 on it withheld: "It was not necessary to act like the czarist officer who farted at the ball and then shot himself"; "If a government has the misfortune to lose its head in difficult times, then this could threaten a tragedy for all people." A pledge not to invade Cuba: "Not bad!"'
@@ -3642,9 +4478,37 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 256: all'
     tags: [polity:prc, polity:nepal, polity:india, polity:us, name:chen-yi]
+  - id: cal.1962-11-23.china-leadership-3
+    when: Nov. 23
+    date: '1962-11-23'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 and others with Yang Shangkun 杨尚昆 on the trade unions' conference.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 23, 1962). The words: 上午 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: b2b96d9d
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-22T22:00Z
+      - 1962-11-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-23.china-leadership-4
+    when: Nov. 23
+    date: '1962-11-23'
+    thread: china-leadership
+    c: Qi Yanming 齐燕铭 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 23, 1962). The words: 晚间办公到2时半，燕铭同志来谈话 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qi Yanming, Yang Shangkun.'
+    src:
+      c: 0d146238
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-24.defense
     when: Nov. 24
     date: '1962-11-24'
+    place: washington
     thread: defense
     c: 'The Pentagon names General Dynamics prime contractor for the TFX, the F-111A and B, over Boeing, the military evaluators'' choice. The ground, a memorandum for the record of Nov. 21 by Zuckert and Korth, approved by McNamara: either aircraft would serve; General Dynamics'' more parts in common, Boeing''s cost estimate too optimistic.'
     n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 468–69. To check: DoD News Release 1907–62, Nov. 24, 1962 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 469 n.85); Zuckert, Korth and McNamara, memorandum for the record, Nov. 21, 1962, *TFX Contract Investigation: Hearings*, pt. 2, 350–53 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 469 n.86); [[w.art-tfx-decision]]; [[w.coulam-illusions-of-choice]]; [[w.shapley-promise-and-power]]. Names: Zuckert, Korth, McNamara.'
@@ -3665,6 +4529,7 @@ entries:
   - id: cal.1962-11-24.cuba
     when: Nov. 24
     date: '1962-11-24'
+    place: nyc
     thread: cuba
     also: [robert-kennedy]
     c: 'Alvaro Sanchez of the Cuban Families Committee, back from Castro''s prisons, to Robert Kennedy: "If you are going to rescue these men, this is the time." Kennedy: "I think this is the moment." To Guthman: out by Christmas.'
@@ -3684,6 +4549,7 @@ entries:
   - id: cal.1962-11-24.europe-and-the-alliance
     when: Nov. 24
     date: '1962-11-24'
+    place: washington
     thread: europe-and-the-alliance
     also: [defense]
     c: 'Rusk to McNamara: any talk with the British of alternatives to Skybolt to mention three, a British Skybolt program, Hound Dog, or a sea-based MRBM force "under multilateral manning and ownership." "No possibility of our helping them set up a nationally manned and owned MRBM force."'
@@ -3704,10 +4570,17 @@ entries:
   - id: cal.1962-11-24.china
     when: Nov. 24
     date: '1962-11-24'
+    place: peking
     thread: china
     also: [south-asia]
     c: 'Zhou Enlai to the National People''s Congress Standing Committee: Nehru unwilling to let go of "his vision of a great Indian empire"; "we needed to fight the war and to fight a big war, as a small war would not work"; the troops pulled back because "we fought the war for justice, not to change the status quo, which can only be changed through negotiation."'
-    n: '[[w.jian-zhou-enlai]], 484 (Chen''s translation; "People''s Congress leaders"); [[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 24, 1962: Zhou Enlai reports "On the Sino-Indian Boundary Question" to the 70th meeting of the Standing Committee of the Second NPC: the relation has had a friendly side from the first and a dark side; unity and struggle; four times China yielded but within limits; the tactic is of reason, advantage and restraint, giving ground and answering after the other strikes; to friends in the democratic parties who found the unilateral steps sudden, he says the three proposals of Oct. 24 and the steps of Nov. 21 do not run against national policy or the general line of foreign policy). Made public: Check. To check: Zhou''s speech at a meeting of the Standing Committee of the People''s Congress, Nov. 24, 1962, 1057-8-44, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.94). Names: Zhou Enlai, Nehru. Check: the day (Chen''s text dates none; his note dates the speech Nov. 24).'
+    n: '[[w.jian-zhou-enlai]], 484 (Chen''s translation; "People''s Congress leaders"); [[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 24, 1962: Zhou Enlai reports "On the Sino-Indian Boundary Question" to the 70th meeting of the Standing Committee of the Second NPC: the relation has had a friendly side from the first and a dark side; unity and struggle; four times China yielded but within limits; the tactic is of reason, advantage and restraint, giving ground and answering after the other strikes; to friends in the democratic parties who found the unilateral steps sudden, he says the three proposals of Oct. 24 and the steps of Nov. 21 do not run against national policy or the general line of foreign policy); [[w.yang-shangkun-riji]], II, 227 (Nov. 24, 1962; 3 to 6 p.m.; Yang Shangkun sits in). Made public: Check. To check: Zhou''s speech at a meeting of the Standing Committee of the People''s Congress, Nov. 24, 1962, 1057-8-44, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.94). Names: Zhou Enlai, Nehru. Check: the day (Chen''s text dates none; his note dates the speech Nov. 24).'
+    src:
+      c: 569538b8
+      rows:
+        - 'w.jian-zhou-enlai 484: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 515: ?'
+        - 'w.yang-shangkun-riji II, 227: A'
     tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-11-24.china-leadership-3
     when: Nov. 24
@@ -3725,6 +4598,7 @@ entries:
   - id: cal.1962-11-24.china-leadership-2
     when: Nov. 24
     date: '1962-11-24'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the dinner given by the Chinese People's Committee for World Peace on the 77th birthday of the American writer Anna Louise Strong, and offers her his good wishes.
@@ -3754,6 +4628,7 @@ entries:
   - id: cal.1962-11-24.china-leadership
     when: Nov. 24
     date: '1962-11-24'
+    place: budapest
     thread: china-leadership
     also: [soviet-union]
     c: 'Budapest, the final day of the Hungarian congress. In the morning an official asks whether the Chinese delegation will speak at the closing reception that night. As no directive has come from Beijing, Wu Xiuquan promises a reply in the afternoon. A telegram arrives in the lunch interval, with instructions to use the reception to rebut critics on three points: that the worsening of relations between the CPSU and the CCP and the Albanians is attributable to Moscow, that the anti-China chorus is directed by the CPSU, and that party congresses should promote unity, not split. It includes an official Chinese statement to be read out.'
@@ -3769,6 +4644,23 @@ entries:
       - 1962-11-24T11:00Z
     time_band: morning
     time_zone: Europe/Budapest
+  - id: cal.1962-11-24.china-leadership-4
+    when: Nov. 24
+    date: '1962-11-24'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Some of the Secretariat 书记处 with Yang Shangkun 杨尚昆 on Wu Xiuquan's 伍修权 draft speech for the Hungarian party's reception.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 24, 1962). The words: 上午 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-24.china-leadership]]. Names: Wu Xiuquan, Yang Shangkun.'
+    src:
+      c: 20e11c12
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-23T22:00Z
+      - 1962-11-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-25.school-aid
     when: Nov. 25
     date: '1962-11-25'
@@ -3805,6 +4697,7 @@ entries:
   - id: cal.1962-11-25.china-leadership-3
     when: Nov. 25
     date: '1962-11-25'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai receives and gives a luncheon for the Albania–China Friendship Association delegation headed by Pellumb Shamblli, an Albanian cultural delegation headed by Pjetër Mitrojorgji, and the Albanian literary specialist Hatiu.
@@ -3819,9 +4712,37 @@ entries:
       - 1962-11-25T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-25.china-leadership-4
+    when: Nov. 25
+    date: '1962-11-25'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and Li Bozhao 李伯钊 at Kang Sheng's 康生 home to see his inkstones.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 25, 1962). The words: 下午 (II, 227). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao, Kang Sheng.'
+    src:
+      c: aed16c26
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1962-11-25T04:00Z
+      - 1962-11-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-25.china-leadership-5
+    when: Nov. 25
+    date: '1962-11-25'
+    thread: china-leadership
+    c: Liao Suhua 廖苏华 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 227 (Nov. 25, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liao Suhua, Yang Shangkun.'
+    src:
+      c: 04a6121a
+      rows:
+        - 'w.yang-shangkun-riji II, 227: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-26.open-housing-detroit
     when: Nov. 26
     date: '1962-11-26'
+    place: detroit
     thread: open-housing
     c: Detroit. Cavanagh signs an ordinance forbidding real estate agents to solicit sales or rentals by saying that a neighborhood is changing in race, religion or nationality.
     n: '[Wikipedia, "1962 in Michigan"](https://en.wikipedia.org/wiki/1962_in_Michigan), from the *Detroit Free Press* (Check: the ordinance). To check: [[w.sugrue-origins-of-the-urban]]; [[w.fine-expanding-the-frontiers-of]]. Names: Cavanagh.'
@@ -3836,6 +4757,7 @@ entries:
   - id: cal.1962-11-26.governors-mn-recount
     when: Nov. 26
     date: '1962-11-26'
+    place: minnesota
     thread: governors-mn-recount
     c: Minnesota's State Canvassing Board deadlocks on the amended returns.
     n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-06.governors-mn]].'
@@ -3849,6 +4771,7 @@ entries:
   - id: cal.1962-11-26.vietnam
     when: Nov. 26
     date: '1962-11-26'
+    place: saigon
     thread: vietnam
     c: Diệm, at Harkins's urging, signs a directive abolishing the Field Command, making the Mekong Delta a new IV Corps, setting up an Unconventional Warfare Directorate for the special forces and irregulars, three service commands, and tactical and logistic support units for each corps.
     n: '[[w.schulimson-joint-chiefs-of-staff]], 273. Names: Ngô Đình Diệm, Harkins.'
@@ -3866,6 +4789,7 @@ entries:
   - id: cal.1962-11-26.missile-crisis
     when: Nov. 26
     date: '1962-11-26'
+    place: fort-stewart
     thread: missile-crisis
     c: 'Kennedy among the forces gathered for Cuba: Fort Stewart, Ga., the 1st Armored Division; Homestead Air Force Base, Fla., unit awards to the photographic units; Boca Chica Naval Air Station, Key West, Dennison there. A U-2 shown him; thanks to its pilots and the Tactical Air Command''s.'
     n: 'Remarks at Fort Stewart, Georgia, to Members of the First Armored Division, [1962 Pub. Papers 839](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=899); Remarks at Homestead Air Force Base, Florida, Upon Presenting Unit Awards, [1962 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=900); Remarks in Key West Upon Presenting Unit Citations at the Boca Chica Naval Air Station, [1962 Pub. Papers 841](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=901) (Nov. 26, 1962). [[w.taylor-swords-and-plowshares]], 274 (the forces in Georgia and Florida, the U-2 and its pilots). See [[cal.1962-11-20.missile-crisis]]. Names: Kennedy, Dennison.'
@@ -3880,6 +4804,7 @@ entries:
   - id: cal.1962-11-26.elections-1964
     when: Nov. 26
     date: '1962-11-26'
+    place: philadelphia
     thread: elections-1964
     also: [republican-party]
     c: 'Philadelphia, the Army-Navy game. Kennedy, beside Gilpatric, who has known the Rockefeller brothers since childhood, questions him about Nelson Rockefeller: the family, their homes, the foundations, his private life.'
@@ -3904,7 +4829,7 @@ entries:
     date: '1962-11-26'
     thread: china-leadership
     c: 'Zhou Enlai at the Secretariat, Nov. 26 and 27, hearing Lu Dingyi, Li Fuchun and Li Xiannian. Nov. 26, on the first Five-Year Plan''s education work: one should think coolly and not call it all few, slow, poor, costly and copied; some was, some was not; the whole plan is not to be denied. On intellectuals: his report for the Center that most serve the working people is in line with the class view; Deng Xiaoping says the Premier''s report was approved by the Center.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 26–27, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 280 (Lu Dingyi reports Mao''s view of the intellectuals'' class status, seemingly with approval; Zhou: he had stated Party policy; Deng backs him, tells Lu to get things straight, and says Mao agrees the propaganda conference''s proceedings are not to go out). Continues 516. Made public: 1997. Check: the book dates the Secretariat meeting only "later in the year," after the Tenth Plenum (III, 280). To check: Informant B, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.107a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1007 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.108). Names: Zhou Enlai, Lu Dingyi, Li Fuchun, Li Xiannian, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 515 (Nov. 26–27, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 280 (Lu Dingyi reports Mao''s view of the intellectuals'' class status, seemingly with approval; Zhou: he had stated Party policy; Deng backs him, tells Lu to get things straight, and says Mao agrees the propaganda conference''s proceedings are not to go out); [[w.yang-shangkun-riji]], II, 228 (Nov. 26, 1962; the Secretariat, 3:30 to 6 p.m., the report on the propaganda conference; Zhou Enlai not named). Continues 516. Made public: 1997. Check: the book dates the Secretariat meeting only "later in the year," after the Tenth Plenum (III, 280). To check: Informant B, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.107a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1007 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.108). Names: Zhou Enlai, Lu Dingyi, Li Fuchun, Li Xiannian, Deng Xiaoping.'
     src:
       c: 556b1cea
       rows:
@@ -3912,7 +4837,42 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 280: A, E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 280 n.107a: A, E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 280 n.108: A, E, F'
+        - 'w.yang-shangkun-riji II, 228: ?'
     tags: [polity:prc, name:zhou-enlai, name:lu-dingyi, name:li-fuchun, name:li-xiannian, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-11-26.china-leadership-2
+    when: Nov. 26
+    date: '1962-11-26'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 reads papers on the question of the intellectuals; Wang Yuming 王愈明 with him.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 26, 1962). The words: 上午 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: 447bb827
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-25T22:00Z
+      - 1962-11-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-26.china-leadership-3
+    when: Nov. 26
+    date: '1962-11-26'
+    place: peking
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 26, 1962). The words: 晚间 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-26T11:00Z
+      - 1962-11-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-27.states-and-cities
     when: Nov. 27
     date: '1962-11-27'
@@ -3933,6 +4893,7 @@ entries:
   - id: cal.1962-11-27.laos
     when: Nov. 27
     date: '1962-11-27'
+    place: plain-of-jars
     thread: laos
     c: An Air America C-123, sent by Unger at Souvanna Phouma's bidding with food and supplies, shot down on its final turn into the Plain of Jars; one survivor, a cargo specialist. The gunners, it emerges, Kong Le's deputy Deuane's disaffected neutralists. Souvanna holds it "Pathet Lao-inspired"; he visits the airfield only Dec. 20.
     n: '[[w.anthony-war-in-northern-laos]], 78–79. Check: Anthony''s text dates the flight Nov. 29 (78); the messages of n.82, Nov. 27 and 28. Check: Fursenko and Naftali have the Pathet Lao shoot down an American supply plane for Souvanna Phouma in early November, announced Nov. 21 (505). To check: AmEmb Vientiane to SECSTATE, 806, Nov. 27, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82a); AmEmb Vientiane to SECSTATE, 809, Nov. 27, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82b); AmEmb Vientiane to SECSTATE, 818, Nov. 28, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82c); AmEmb Vientiane to SECSTATE, 823, Nov. 29, 1962 (cited by [[w.anthony-war-in-northern-laos]], 79 n.84a); AmEmb Vientiane to SECSTATE, 906, Dec. 20, 1962 (cited by [[w.anthony-war-in-northern-laos]], 79 n.84b). See [[cal.1962-11-20.laos]]. Names: Unger, Souvanna Phouma, Kong Le.'
@@ -3965,6 +4926,7 @@ entries:
     when: Nov. 27
     date: '1962-11-27'
     time: 1962-11-27T04:00Z
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking, Xihuating. Zhou Enlai receives and gives a luncheon for the Nepalese special ambassador, Rishikesh Shaha, and his wife.
@@ -3981,11 +4943,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Li Fuchun and Li Xiannian on the national planning conference. The spirit of the May conference is to go on being carried out; capital construction is still to come down where it can and the town population to go on being cut, or the Center will be put in a very passive position. Next year''s plan may be on the large side; not to be made big at once and then adjusted again. For two years great effort turned the situation; not to turn it again, which would not do, wasting time and bringing hardship to the people and loss to the state: better a tight, smaller plan now.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 566 (Nov. 27, 1962). Made public: 1996. Names: Liu Shaoqi, Li Fuchun, Li Xiannian. Check: whether the same meeting as Zhou Enlai''s at the Secretariat, Nov. 26–27, hearing Li Fuchun and Li Xiannian ([[cal.1962-11-26.china-leadership]]).'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 566 (Nov. 27, 1962); [[w.yang-shangkun-riji]], II, 228 (Nov. 27, 1962; 3:30 to 6:30 p.m., Li Fuchun on the planning conference; Liu Shaoqi not named). Made public: 1996. Names: Liu Shaoqi, Li Fuchun, Li Xiannian. Check: whether the same meeting as Zhou Enlai''s at the Secretariat, Nov. 26–27, hearing Li Fuchun and Li Xiannian ([[cal.1962-11-26.china-leadership]]).'
     tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, name:li-xiannian, vis:only:prc]
   - id: cal.1962-11-27.china-leadership-4
     when: Nov. 27
     date: '1962-11-27'
+    place: peking
     thread: china-leadership
     c: 'Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 cable Hoxha, Lleshi and Shehu on the 50th anniversary of Albania''s independence and the 18th of its liberation: Albania the camp''s southwest outpost; its party true to the Moscow Declaration and Statement, fighting without compromise the modern revisionists "represented by the Yugoslav Tito group"; China proud of such a comrade-in-arms.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVI, 439–442 (Nov. 27, 1962; dated Peking; printed from *Renmin ribao* 人民日报, Nov. 28, 1962; notes 1–2). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Hoxha, Lleshi, Shehu, Tito.'
@@ -4014,6 +4977,7 @@ entries:
   - id: cal.1962-11-28.governors-mn-recount
     when: Nov. 28–29
     date: '1962-11-28'
+    place: minnesota
     thread: governors-mn-recount
     c: 'Ordered by the Minnesota Supreme Court, Nov. 28, to count the amended returns, the Canvassing Board declares Andersen elected, Nov. 29: Andersen 619,722, Rolvaag 619,580.'
     n: '*Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (the order of Nov. 28; opinion filed Dec. 11). [*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf). See [[cal.1962-11-06.governors-mn]]. Names: Andersen, Rolvaag.'
@@ -4039,6 +5003,7 @@ entries:
   - id: cal.1962-11-28.missile-crisis
     when: Nov. 28
     date: '1962-11-28'
+    place: washington
     thread: missile-crisis
     also: [defense]
     c: 'The Joint Chiefs to McNamara, JCSM-955-62: "we are entering a new phase of the Cuban situation." The airborne alert ended; the B-47s home but those in Florida; the commands authorized to return to DEFCON 5; the Air Force Reserve troop carrier units released; the quarantine''s ships and squadrons back to normal. Other forces at high readiness: 12 hours for OPLAN 312-62, 7 days for OPLAN 316.'
@@ -4110,24 +5075,43 @@ entries:
   - id: cal.1962-11-28.china-leadership-3
     when: Nov. 28
     date: '1962-11-28'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking Hotel. Zhou Enlai, with Liu Shaoqi and Deng Xiaoping, attends the reception given by the Albanian Ambassador, Malile, for the 50th anniversary of Albania's independence and the 18th of its liberation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 343 (Nov. 28, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 257 (Nov. 28, 1962; the reception, Liu Shaoqi, Zhou, Deng Xiaoping and Peng Zhen attending; Chen Yi speaks: full support for the Cuban government''s declaration of Nov. 25 and Castro''s five demands; the U.S. stirs up the Sino-Indian dispute to make Asians kill one another; India''s attempt to win its territorial demands by force will not work; the Indian government should answer China''s statement of Oct. 24 and return to the table). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 343 (Nov. 28, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 257 (Nov. 28, 1962; the reception, Liu Shaoqi, Zhou, Deng Xiaoping and Peng Zhen attending; Chen Yi speaks: full support for the Cuban government''s declaration of Nov. 25 and Castro''s five demands; the U.S. stirs up the Sino-Indian dispute to make Asians kill one another; India''s attempt to win its territorial demands by force will not work; the Indian government should answer China''s statement of Oct. 24 and return to the table); [[w.yang-shangkun-riji]], II, 228 (Nov. 28, 1962; 6 p.m.; Liu Shaoqi chief guest; Yang Shangkun attends; the place not given; Zhou Enlai not named). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 942076f3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 343: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 257: B'
+        - 'w.yang-shangkun-riji II, 228: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
     time_range:
       - 1962-11-28T11:00Z
       - 1962-11-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-28.china-leadership-4
+    when: Nov. 28
+    date: '1962-11-28'
+    thread: china-leadership
+    c: Liu Huo 刘火 with Yang Shangkun 杨尚昆 on what the dispute over the intellectuals turns on.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 28, 1962). The words: 上午 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Huo, Yang Shangkun.'
+    src:
+      c: 6f9072a4
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-27T22:00Z
+      - 1962-11-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-29.economy
     when: Nov. 29
     date: '1962-11-29'
+    place: little-rock
     thread: economy
     c: 'Mills to the Little Rock Rotary Club: "Government expenditure is not something like leprosy"; no solid evidence that "a somewhat larger budgetary deficit would in fact bring on an inflation."'
     n: '[[w.zelizer-taxing-america]], 197. To check: Mills, "Remarks before the Little Rock Rotary Club," Nov. 29, 1962, Mills Papers (cited by [[w.zelizer-taxing-america]], 197 n.68). See [[cal.1962-08-13.economy]]. Names: Mills.'
@@ -4141,6 +5125,7 @@ entries:
     when: Nov. 29
     date: '1962-11-29'
     time: 1962-11-29T21:40Z
+    place: washington
     thread: missile-crisis-settlement
     c: 'Kennedy with Mikoyan, Rusk, Thompson and Dobrynin present, 4:40 to 7:55 p.m., on Cuba: the declarations to close the affair; failing them, the President would state the American position at a press conference. By Sorensen''s account, Mikoyan reports that Khrushchev liked the spirit of the President''s statements.'
     n: '[FRUS 1961–63, XI, doc. 218](https://history.state.gov/historicaldocuments/frus1961-63v11/d218). [[w.sorensen-kennedy]], 725; [[w.dobrynin-in-confidence]], 94–96 (three and a half hours, on Cuba; "As soon as the first spark of revolution appears any place, so you appear saying, ''Here we are!''"; Mikoyan: "Even you may one day find yourself in Castro''s shoes"; "Not I, but my younger brother may indeed"; by Mikoyan''s report); [[w.fursenko-khrushchevs-cold-war]], 505–06 (Kennedy: the Soviet troops to go; Mikoyan: "We will do what we promised, nothing more and nothing less," in both records). Check: Ball (308) has Mikoyan''s talk with Kennedy on Nov. 30, and Ball dining with him at Udall''s that night. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Mikoyan, Rusk, Thompson, Dobrynin, Khrushchev.'
@@ -4155,6 +5140,7 @@ entries:
   - id: cal.1962-11-29.program
     when: Nov. 29
     date: '1962-11-29'
+    place: washington
     thread: program
     c: Kennedy on closed-circuit television to groups in 75 cities for the National Cultural Center's $30 million campaign, Stevens's; Eisenhower a guest from Augusta. Two hours, Leonard Bernstein master of ceremonies; Casals, Marian Anderson, Van Cliburn, Frost, Danny Kaye among the performers. National Cultural Center Week, Nov. 26–Dec. 2, by proclamation.
     n: 'Remarks at a Closed-Circuit Television Broadcast on Behalf of the National Cultural Center, [1962 Pub. Papers 846](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=906) (Nov. 29, 1962) (the occasion; Eisenhower). [[w.bernstein-guns-or-butter]], 441. Check: the proclamation''s day and text. See [[cal.1961-11-14.program]]. Names: Kennedy, Eisenhower, Frost.'
@@ -4201,6 +5187,7 @@ entries:
   - id: cal.1962-11-29.soviet-union-leadership
     when: Nov. 29
     date: '1962-11-29'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium on carrying out the November plenum, stenographed: design bureaus and institutes joined by branch under committees, a coordinating council; Gosstroy centralized; Kosygin for committees on trade and the light and food industries; the farm works answerable to the agricultural bureaus. The artists'' letter of Nov. 20: Khrushchev sharp against formalism in painting and the errors of *Nedelya* and *Izvestia*, sharp words for Adzhubei. Noted: "Кассировать выборы, отобрать помещение, вызвать, арестовать, если надо" (annul the elections, take the premises, summon, arrest if need be). Suslov and Ilyichev to report.'
     n: 'Protocol 70, items I and VII. [[w.prezidium-tsk-kpss-1954]], I, 647–48 (doc. 273, Malin''s notes), 649–63 (doc. 274, the stenogram of item I); I, 1115 nn.1–2; III, 404–07 (P 70/I, P 70/VII, the artists'' letter). Made public: 2003. Names: Kosygin, Khrushchev, Adzhubei, Suslov, Ilyichev.'
@@ -4208,6 +5195,7 @@ entries:
   - id: cal.1962-11-29.vietnam-hanoi
     when: Nov. 29
     date: '1962-11-29'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Politburo's resolution no. 61-NQ/TW sets new rules for Party dues, a condition of membership.
     n: '*Nghị quyết của Bộ Chính trị số 61-NQ/TW về chế độ đóng đảng phí mới*, signed for the Politburo by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXIII, 795–801. Made public: 2002.'
@@ -4240,9 +5228,52 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 444: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 444 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-11-29.china-leadership-4
+    when: Nov. 29
+    date: '1962-11-29'
+    thread: china-leadership
+    c: Liu Huo 刘火 with Yang Shangkun 杨尚昆 again on the intellectuals.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 29, 1962). The words: 上午 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-28.china-leadership-4]]. Names: Liu Huo, Yang Shangkun.'
+    src:
+      c: dc2e70f7
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-28T22:00Z
+      - 1962-11-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-29.china-leadership-5
+    when: Nov. 29
+    date: '1962-11-29'
+    time: 1962-11-29T07:30Z
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平, 3:30 to 6:30 p.m., speaks to some 200 of the organization work and control commission conferences.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 29, 1962). The words: 下午3时半到6时半 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: f135efd4
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-29.china-leadership-6
+    when: Nov. 29
+    date: '1962-11-29'
+    time: 1962-11-29T14:00Z
+    thread: china-leadership
+    c: Wang Dongxing 汪东兴 reports to Yang Shangkun 杨尚昆, 10 p.m. to midnight.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 29, 1962). The words: 10时到12时 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Yang Shangkun.'
+    src:
+      c: ce2346f9
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-30.governors-nm
     when: Nov. 30
     date: '1962-11-30'
+    place: new-mexico
     thread: governors
     also: [congress]
     c: New Mexico. Mechem resigns the governorship; Bolack, the lieutenant governor, succeeds and appoints him to the Senate seat of Chávez (D), who died Nov. 18.
@@ -4372,6 +5403,7 @@ entries:
   - id: cal.1962-11-30.vietnam-congress
     when: Nov. 30–Dec. 2
     date: '1962-11-30'
+    place: saigon
     thread: vietnam-congress
     c: 'Mansfield in Saigon, with Pell, Boggs and Benjamin Smith, on a trip of forty-five days. Nolting and Harkins hopeful; Trueheart: the government "essentially a dictatorship." Diệm talks two and a half hours of the strategic hamlets; Trần Lệ Xuân takes Mansfield to task for the Michigan State speech. Mansfield hears the American correspondents, Halberstam, Sheehan, Browne and Arnett among them, and at the airport declines the embassy''s statement, praising Diệm alone.'
     n: '[[w.mann-grand-delusion]], 270–73. To check: the briefing''s summary, Nov. 30, 1962; Mansfield''s memorandum, Dec. 2, 1962; the memorandum of conversation with Nhu, Dec. 1, 1962; the proposed statement, Dec. 2, 1962, XXII, 53, 95, 96, Mansfield Papers (cited by [[w.mann-grand-delusion]], 270 n.1, 271 nn.3, 6, 272 nn.7, 10); [[w.gibbons-u-s-government-and]], II, 131. Report: [[cal.1962-12-18.vietnam-congress]]. Names: Mansfield, Pell, Boggs, Benjamin Smith, Nolting, Harkins, Trueheart, Ngô Đình Diệm, Trần Lệ Xuân, Halberstam, Sheehan, Browne, Arnett.'
@@ -4437,6 +5469,7 @@ entries:
   - id: cal.1962-11.goldwater-2
     when: Nov.
     date: 1962-11
+    place: washington
     thread: goldwater
     also: [republican-party]
     c: Washington, Rockefeller's house on Foxhall Road. Goldwater and Rockefeller meet privately from time to time, Hinman and Vic Johnson of the Senate campaign committee at times with them. By White's account.
@@ -4473,6 +5506,7 @@ entries:
   - id: cal.1962-11.georgia-albany
     when: Nov.
     date: 1962-11
+    place: albany-ga
     thread: georgia-albany
     also: [king]
     c: 'The Albany Movement''s anniversary, a week of nightly meetings. King at Third Kiokee Baptist: a boycott of segregated businesses "on the national economic level." "I am willing to come back to Albany and go to jail, if necessary."'
@@ -4487,6 +5521,7 @@ entries:
   - id: cal.1962-11.press-and-broadcasting
     when: Nov.
     date: 1962-11
+    place: washington
     thread: press-and-broadcasting
     also: [transition-and-staff-nsc]
     c: 'Chalmers Roberts in the *Washington Post*: "the one-time dean rates an A"; "Today Bundy is the linchpin of a tight little White House foreign policy shop."'
@@ -4604,6 +5639,7 @@ entries:
     when: Nov., mid
     date: 1962-11
     at: before 1962-11-11
+    place: washington
     thread: robert-kennedy
     c: 'A White House dinner dance. Johnson follows Robert Kennedy into the family quarters: "Now you don''t like me, Bobby ... Your brother likes me." By Spalding''s account.'
     n: '[[w.thomas-robert-kennedy]], 278. Check: the day. To check: [[w.schlesinger-robert-kennedy-and-his]], 623 (cited by [[w.thomas-robert-kennedy]], 451). Names: Johnson, Robert Kennedy.'
@@ -4615,6 +5651,7 @@ entries:
   - id: cal.1962-11.elections-1962
     when: Nov., before the election
     date: 1962-11
+    place: nyc
     thread: elections-1962
     c: The Bronx, on street corners. Rockefeller's fifteen-point program to make "all the people well housed, well clothed, well fed, well educated and well protected from adversity."
     n: '[[w.smith-on-his-own-terms]], 382 (and, of the campaign: "We''re not going to raise taxes again," wherever he went). To check: [*New York Times*, Nov. 3, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/03/issue.html) (cited by [[w.smith-on-his-own-terms]], 382). Check: the day. Names: Rockefeller.'
@@ -4638,6 +5675,7 @@ entries:
   - id: cal.1962-11.republican-party-4
     when: Nov., late, the Thanksgiving holidays
     date: 1962-11
+    place: nassau
     thread: republican-party
     c: Nassau, after some days in Miami with Rebozo, Nixon's wife and daughters joining them for Thanksgiving. Elmer Bobst, of Warner-Lambert, urges Nixon to leave California for New York. By Nixon's account, the move would rule him out for 1964 and for any office in New York; his family for it.
     n: '[[w.nixon-rn]], 247–48. The move: [[cal.1963-05.republican-party-2]]. Check: the days. Names: Nixon, Rebozo.'
@@ -4681,6 +5719,7 @@ entries:
     when: Nov. 30
     date: '1962-11-30'
     time: 1962-11-30T05:30Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Juxiang Shuwu, 1:30 p.m. Mao presides at the Standing Committee on four matters. One: the Central Work Conference put off to about Jan. 15, 1963. Two: an NPC session in the first half of 1963 for plan and budget, another in the second half to elect; with it a third session of the Eighth Congress, its delegates from 1,200 to about 2,000, one a county. Three: the struggle against revisionism: at international meetings to which Yugoslavia is invited China will attend and not walk out, lest it lose its voice, as at the Italian party''s congress, which invited Yugoslavia and attacked China by name; *Peking Review* to become a theoretical journal for the world, in English, Spanish and French, on the International Liaison Department''s report; a digest to be edited in Peking and printed in Hong Kong. Four: the organization work conference (by Deng Xiaoping''s account to the Secretariat, Dec. 4: the Standing Committee agreed to register the Party''s members anew, on trial in 1963, in full in 1964).'
@@ -4690,6 +5729,7 @@ entries:
     when: Nov. 30
     date: '1962-11-30'
     time: 1962-11-30T10:00Z
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: 'Yinian Tang, 6 p.m. Mao receives Jusuf Adjitorop (阿吉托罗普), alternate member of the Indonesian Communist Party''s Politburo and deputy general secretary, and his party; Liu Ningyi present. Two united fronts: the working people''s, of workers, peasants and revolutionary intellectuals; and the working class''s with the national bourgeoisie, itself oppressed, an exploiting class in the middle, to be united with and struggled with, not overthrown. The peasants the revolution''s main force: who solves the peasant question wins.'
@@ -4699,6 +5739,7 @@ entries:
     when: Nov., after the 21st
     date: 1962-11
     at: after 1962-11-21
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking. Liu Shaoqi calls a meeting on the delegation''s cable from the Hungarian congress, asking how to answer. The congress soon to end, it has a statement drafted at once, to be given out before the closing, and a cable telling the delegation to seize the chance and make three points: the blame for the worsening of Sino-Soviet and Soviet–Albanian relations is the CPSU''s; the chorus against China is the CPSU''s staging; a conference of the brother parties is to be called to remove the differences.'
@@ -4738,6 +5779,7 @@ entries:
   - id: cal.1962-11.china-leadership-2
     when: Nov.
     date: 1962-11
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Kang Sheng moves to the Diaoyutai guest complex in Peking, to direct a team of ideologues for the campaign against Soviet revisionism.
@@ -4750,6 +5792,7 @@ entries:
   - id: cal.1962-11.soviet-union-2
     when: Nov.
     date: 1962-11
+    place: sofia
     thread: soviet-union
     also: [china-leadership]
     c: Sofia, during the Bulgarian congress (Nov. 5–14). Wu Xiuquan, on the platform, will neither rise to his feet nor applaud with everyone else at a critical passage in a speech, which he picks up from the simultaneous translation in Russian. At the Bulgarian party's banquet he studiously ignores the chief CPSU delegate, Suslov, next to whom protocol places him, throughout the meal, because of the criticisms Suslov voiced in his speech.
@@ -4764,6 +5807,7 @@ entries:
     when: Nov., after the 14th
     date: 1962-11
     at: after 1962-11-14
+    place: sofia
     thread: soviet-union
     also: [china-leadership]
     c: Sofia. At the customary formal call on Zhivkov after the close of the congress, Wu Xiuquan explains the Chinese position on the border war, to combat any wrong impressions Zhivkov may have got from the Western media. Zhivkov, like Kádár at the Hungarian congress, follows the resumed Soviet line of urging peace in the Himalayas while remaining neutral.
@@ -4779,6 +5823,7 @@ entries:
     when: Nov., after the 14th
     date: 1962-11
     at: after 1962-11-14
+    place: bucharest
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest. The Chinese delegation, resting a few days after Sofia, is told that no airline tickets to Budapest for the Hungarian congress are available; it gets them only by appealing to the Hungarian embassy. The plane turns out to be far from full.
@@ -4815,4 +5860,47 @@ entries:
       c: 52f11a22
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 434: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-11-30.china-leadership-3
+    when: Nov. 30
+    date: '1962-11-30'
+    thread: china-leadership
+    c: The Streamlining Group 精简小组.
+    n: '[[w.yang-shangkun-riji]], II, 228 (Nov. 30, 1962). The words: 上午 (II, 228). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: c46264ed
+      rows:
+        - 'w.yang-shangkun-riji II, 228: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-29T22:00Z
+      - 1962-11-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-30.china-leadership-4
+    when: Nov. 30
+    date: '1962-11-30'
+    thread: china-leadership
+    c: Song Yiping 宋一平 with Yang Shangkun 杨尚昆, to 1 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 229 (Nov. 30, 1962). The words: 晚间……到1时 (II, 229). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Song Yiping, Yang Shangkun.'
+    src:
+      c: 0a99441c
+      rows:
+        - 'w.yang-shangkun-riji II, 229: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-11-30T11:00Z
+      - 1962-11-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-11-30.china-leadership-5
+    when: Nov. 30
+    date: '1962-11-30'
+    thread: china-leadership
+    c: Kong Yuan 孔原, just out of hospital, with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 229 (Nov. 30, 1962). The words: 晚间约宋一平同志谈话到1时，2时才回家睡。孔原也来谈话 (II, 229). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: d5a13fe9
+      rows:
+        - 'w.yang-shangkun-riji II, 229: all'
     tags: [polity:prc, vis:only:prc]

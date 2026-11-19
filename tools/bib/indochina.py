@@ -16,7 +16,7 @@ STYLE
 import html
 import os
 
-from . import calsplit, datelist, store, vnmap
+from . import calsplit, datelist, loose, store, vnmap
 
 esc = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
