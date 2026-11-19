@@ -881,3 +881,5 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 "When last I checked, 1960 DNC/RNC/nomination-related approximate/ghost dates weren't placed either. Are they not implemented?" (Nov. 19, about 5:35 a.m. Pacific.)
 
 "Could we not check and place all approximate dates? I'm not sure even your 24 catch nearly all the ones I was thinking of." (Nov. 19, about 6:00 a.m. Pacific.)
+
+"Do our readers and auditors not know to enter the date, time, approximate date, approximate time, and location fields we are asking for? Are we not asking for them? Could we fix that? Permanently?" (Nov. 19, about 6:10 a.m. Pacific.)
