@@ -141,3 +141,13 @@ def test_the_thread_order_agrees():
     ids = [e["id"][4:] for e in keyed]
     assert ids[:6] == ["year", "early-year", "first-half", "jan", "early-jan", "jan6"]
     assert ids.index("apr30") < ids.index("mid-year") < ids.index("may") < ids.index("early-may") < ids.index("may1")
+
+
+def test_no_year_heading_without_the_years_entries(monkeypatch):
+    """A year with no entries of its own (1970, the primaries' years) takes no heading: its January's alone."""
+    monkeypatch.setattr(build, "entry_html", lambda series, lst, sec, e, *a, **k: f'<li id="{e["id"]}"></li>')
+    lst = year_list()
+    lst.sections[0].entries = [e for e in lst.sections[0].entries if len(e["date"]) != 4]
+    loose._HOSTS.clear()
+    html = "\n".join(build.section_body(None, lst, lst.sections[0], lambda s: s.id, lambda t, f: t))
+    assert 'class="yh"' not in html and 'data-ytop="#196001"' in html

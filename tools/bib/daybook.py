@@ -487,13 +487,25 @@ def mmwr_week(d):
     return (sun - first).days // 7 + 1, y
 
 
+_YEARS = {}
+
+
 def year_opened(lst, sec):
-    """The year a dated section opens (its first dated section in the list's order), or None (STYLE 17)."""
+    """The year a dated section opens (its first dated section in the list's order) where the year has entries of its
+    own (a year-dated entry: 1960-69, not 1970 or the primaries' years), or None (STYLE 17)."""
     lo = str(sec.extra.get("from") or "")
     if not lo:
         return None
-    first = next((s for s in lst.walk() if str(s.extra.get("from") or "")[:4] == lo[:4]), None)
-    return int(lo[:4]) if first is sec else None
+    key = tuple((id(s), len(s.entries)) for s in lst.walk())
+    if _YEARS.get(id(lst), (None,))[0] != key:
+        own = {loose.date_of(e) for _, e in lst.entries() if len(loose.date_of(e)) == 4 and "when" in e}
+        firsts = {}
+        for s in lst.walk():
+            y = str(s.extra.get("from") or "")[:4]
+            if y and y not in firsts:
+                firsts[y] = s
+        _YEARS[id(lst)] = (key, {y: s for y, s in firsts.items() if y in own})
+    return int(lo[:4]) if _YEARS[id(lst)][1].get(lo[:4]) is sec else None
 
 
 def year_heading(lst, sec, year, prefix=""):

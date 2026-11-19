@@ -460,10 +460,13 @@ def id_prefix(sec, idfmt):
 
 def day_layout(lst, sec, idfmt, li):
     """A dated calendar section's (lead, body) (daybook.py, STYLE 17), the seam's links set round them: its link back
-    at the head of the lead, its link on at the foot of the body (calsplit.py, STYLE 4)."""
+    at the head of the lead where there is one (else of the body, under the heading), its link on at the foot of the
+    body (calsplit.py, STYLE 4)."""
     before, after = calsplit.seam(lst, sec)
     lead, body = daybook.section_days(lst, sec, li, thread_name, id_prefix(sec, idfmt))
-    return [before] + lead, body + [after]
+    if lead:
+        return [before] + lead, body + [after]
+    return [], [before] + body + [after]
 
 
 def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
