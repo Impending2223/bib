@@ -5,7 +5,9 @@ The owner, Nov. 19, 2026: "Do we need to split Works? Do we need to split Names 
 ```
 ./bib pages            after a build: every page in build/ with its size and its units (entries, persons, works,
                        rows), against its budget; a page over it marked OVER, with the split its structure proposes;
-                       exit 1 while one not exempt is over (--all lists the forwarding stubs too)
+                       exit 1 while one not exempt is over that a split could bring in (a Names page of one
+                       person over it is marked and reported, not planned: no split divides him); --all lists
+                       the forwarding stubs too
 ./bib pages --plan     the proposal written into the plan: pages.yaml (Names, Works, the Executive, Congress) and
                        lists/cal/list.yaml `split:` (the calendar); the next ./bib build applies it
 ```
