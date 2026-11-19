@@ -258,6 +258,10 @@ def cmd_check(series, a):
         probs = [p for p in probs if p[0] == check.ERROR]
     txt, nerr = check.report(probs, a.limit)
     print(txt)
+    from . import faults
+    if faults.FAULTS:                    # a data file that would not load, counted not fatal (faults.py): still a failure
+        print(faults.report(), file=sys.stderr)
+        return 1
     return 1 if nerr else 0
 
 

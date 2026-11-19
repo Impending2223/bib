@@ -101,7 +101,8 @@ def test_committees_month_that_fails_is_counted(tmp_path, monkeypatch):
     faults.reset()
 
 
-def test_vis_pass_that_fails_is_counted(monkeypatch):
+def test_vis_pass_that_fails_warns_but_is_no_fault(monkeypatch):
+    """The spec §9.1: the visibility pass gives warnings only; its failure drops no content, so it never fails a build."""
     from tools.bib import faults, vis
     faults.reset()
 
@@ -109,7 +110,7 @@ def test_vis_pass_that_fails_is_counted(monkeypatch):
         raise ValueError("no")
     monkeypatch.setattr(vis, "_problems", boom)
     assert vis.problems(None) == [("tools/bib/vis.py", "the visibility pass failed: ValueError: no")]
-    assert faults.FAULTS == [("tools/bib/vis.py", "the visibility pass failed: ValueError: no")]
+    assert faults.FAULTS == []
     faults.reset()
 
 
@@ -249,6 +250,28 @@ def test_apply_patch_is_all_or_nothing(mini, monkeypatch):
     merge.apply_patch(store.Series(str(mini)), {"ops": [{"tag": {"id": "cal.1961-01-01.x", "add": ["topic:x"]}}]},
                       "t", rep)
     assert rep.errors == 0 and "topic:x" in path.read_text(encoding="utf-8")
+
+
+def test_a_refused_patch_leaves_the_gazetteer_alone(mini, monkeypatch, tmp_path):
+    from tools.bib import addops, merge, places, store
+    monkeypatch.setattr(addops, "DEFERRED", str(mini / "inbox" / "deferred.yaml"))
+    gaz = tmp_path / "places.yaml"
+    gaz.write_text("- key: peking\n  name: Peking\n  zone: Asia/Shanghai\n  in: prc\n", encoding="utf-8")
+    monkeypatch.setattr(places, "PATH", str(gaz))
+    places.reset()
+    before = gaz.read_bytes()
+    row = {"key": "hangzhou", "name": "Hangzhou", "zone": "Asia/Shanghai", "in": "prc"}
+    rep = merge.Report()
+    merge.apply_patch(store.Series(str(mini)), {"ops": [{"place-key": dict(row)},
+                                                        {"edit": {"id": "cal.1961-01-09.nothing", "set": {"c": "x"}}}]},
+                      "t", rep)
+    assert rep.errors == 1
+    assert gaz.read_bytes() == before                    # the place-key row not written
+    assert places.get("hangzhou") is None                # and dropped from memory
+    rep = merge.Report()
+    merge.apply_patch(store.Series(str(mini)), {"ops": [{"place-key": dict(row)}]}, "t", rep)
+    assert rep.errors == 0 and "key: hangzhou" in gaz.read_text(encoding="utf-8")
+    places.reset()
 
 
 def test_merge_with_a_failed_op_exits_1_and_keeps_the_patch(mini, monkeypatch, capsys):

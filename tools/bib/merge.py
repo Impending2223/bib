@@ -261,6 +261,7 @@ def apply_patch(series, patch, source, report, dry=False):
     ops = [o for o in ops if "place-key" in o] + [o for o in ops if "place-key" not in o]   # the gazetteer's rows first
     from . import places as _places
     _places.PENDING.clear()
+    _places.DIRTY = False
     _PARTS.clear()
     _PARTS.update(patch_parts(ops))
     _addops.DRY = dry
@@ -284,6 +285,11 @@ def apply_patch(series, patch, source, report, dry=False):
         for sec in touched:
             series.save_section(sec)
         _addops.defer_rows(pending)
+        if _places.DIRTY:
+            _places.write()
+    elif _places.DIRTY:
+        _places.reset()                      # the refused patch's gazetteer rows dropped from memory
+    _places.DIRTY = False
     return touched
 
 
@@ -539,7 +545,9 @@ def op_place_key(series, body, source, report, touched):
             places.PENDING[str(body.get("key"))] = dict(body)
         report.add("error" if err else "place-key", str(body.get("key")), "; ".join(err))
         return
-    err = places.add_row(body)
+    err = places.add_row(body, save=False)     # written with the patch's sections, all or nothing (apply_patch)
+    if not err:
+        places.DIRTY = True
     report.add("error" if err else "place-key", str(body.get("key")), err or "")
 
 
