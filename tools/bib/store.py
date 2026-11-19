@@ -14,7 +14,10 @@ import unicodedata
 
 import yaml
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# The repository: the data and build/ under it. BIB_ROOT, when set, names another tree of the same layout
+# (the tests' fixture, tests/fixture); every module takes its paths from here.
+ROOT = os.path.abspath(os.environ.get("BIB_ROOT") or
+                       os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.

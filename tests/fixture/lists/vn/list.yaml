@@ -1,0 +1,64 @@
+# Viet.: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: 'Vietnam, 1945–1975: Bibliography'
+h1: 'Vietnam and the American war, 1945–1975: working bibliography'
+lede: 'Sources, portrayals, and names for the war in Vietnam, the French war to the fall of Saigon. Weighted to the American years: the decisions, the field, the Vietnamese on every side, the war at home.'
+logic:
+  - 'Ninth list in the series. This one is Viet. The war and its historiography. The decisions stay where they were: K–J Adm. II.D and II.H for Kennedy and Johnson; Adm. II.B for Nixon; the Senate in K–J Cong. II.D; war powers in Cong. II.C; March 1968 in the 1968 list. The calendar (Cal.) dates the Kennedy years. Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - Overlaps. A book about the war is listed here even when another list holds it, marked "Also K–J Adm." or the like. A book that only touches the war is cited from its own list.
+  - 'Vietnamese names. Family name first, and alphabetized so: Ngô Đình Diệm under N. In the text, Diệm, Thiệu, Kỳ, Giáp, as Americans called them. Diacritics throughout, except where a quotation, a title, or a byline prints none. Saigon, Hanoi, Haiphong, Vietnam, Viet Cong, Viet Minh, the Ho Chi Minh Trail, as English writes them.'
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Nine groups: Washington under Kennedy and Johnson; Washington under Nixon and Ford; Saigon, the embassy and the station; the military command; critics and the movement; the press; South Vietnam; North Vietnam and the Front; others abroad. Alphabetical within each. Each entry: the role, a note, where to find the voice. Fuller entries elsewhere are pointed to.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Washington, 1961–1969
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Washington, 1969–1975
+        logic:
+          - Alphabetical.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: 'Saigon: the embassy and the station'
+        logic:
+          - Ambassadors, the mission, the CIA. Alphabetical.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: The military command
+        logic:
+          - Officers in Saigon and the Pacific; soldiers whose names became events. Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: Critics and the movement
+        logic:
+          - In Congress and out of it. Alphabetical.
+        file: III.E.yaml
+      - id: p3g
+        num: III.G
+        title: South Vietnam
+        logic:
+          - Alphabetical, family name first.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: North Vietnam and the Front
+        logic:
+          - Alphabetical, family name first.
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Others abroad
+        logic:
+          - Laos, Cambodia, the French, the British, the Chinese, the go-betweens. Alphabetical.
+        file: III.I.yaml

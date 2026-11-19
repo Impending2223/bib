@@ -1,0 +1,95 @@
+# The Department of Labor. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Below the Secretary, most dates come from the Congressional Directory's editions (CDIR <date>), so many are
+# years only and carry a "Check". The Department's own list of officials (dol.gov) was not reachable from here.
+# tests/make_fixture.py: the holders of 1961
+unit: labor
+name: Department of Labor
+under: president
+order: 110
+law:
+  - act: Act of Mar. 4, 1913
+    date: '1913-03-04'
+    cite: ch. 141, 37 Stat. 736
+    usc:
+      - 5 U.S.C. §§ 611, 612 (1958)
+      - 29 U.S.C. §§ 551, 552 (1970)
+    tags: [creates, powers, appointment]
+    does: Creates an executive department to be known as the Department of Labor, with a Secretary of Labor at its head, appointed by the President, by and with the advice and consent of the Senate; its purpose to foster, promote and develop the welfare of the wage earners of the United States, to improve their working conditions, and to advance their opportunities for profitable employment. The Bureau of Labor Statistics and the Children's Bureau transferred to it.
+  - act: Reorganization Plan No. 6 of 1950
+    date: '1950-05-24'
+    cite: 64 Stat. 1263
+    usc: 5 U.S.C. § 133z note (1958)
+    tags: [powers, reorganizes]
+    does: Transfers to the Secretary all functions of all other officers, agencies and employees of the Department, except the hearing examiners'; the Secretary may authorize any officer or employee to perform them; an Administrative Assistant Secretary, appointed by the Secretary with the President's approval under the classified civil service.
+offices:
+  - id: secretary
+    title: Secretary of Labor
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 1, 63 Stat. 880
+        does: $22,500 a year ("the head of each executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 102(9), 70 Stat. 736
+        usc: 5 U.S.C. § 2201 (1958)
+        does: $25,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(a)(9), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(a) (1964)
+        does: Level I, $35,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5312 (1970)
+        does: Level I continued, $35,000 a year (§ 5312(9)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level I, $60,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Mitchell, James P.
+        given: James Paul
+        nominated: '1954-01-11'
+        confirmed: '1954-01-19'
+        recess: 1953-10
+        from: '1953-10-09'
+        to: '1961-01-20'
+        n: 'Check: recess appointment, the date of the commission.'
+        src:
+          - 'Wikipedia: James P. Mitchell'
+          - CDIR 1954-01
+          - Cong. Rec. Index 1954
+          - Cong. Rec.
+      - name: Goldberg, Arthur J.
+        given: Arthur Joseph
+        nominated: '1961-01-20'
+        confirmed: '1961-01-21'
+        from: '1961-01-21'
+        to: '1962-09-20'
+        out: To Associate Justice of the Supreme Court.
+        n: 'Check: FRUS gives Sept. 24, 1962, as his last day.'
+        src:
+          - 'Wikipedia: Arthur Goldberg'
+          - FRUS persons list
+          - Cong. Rec. Index 1961
+          - Hearing CHRG-87shrg64361

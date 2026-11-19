@@ -35,7 +35,7 @@ import sys
 
 import yaml
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT = os.path.abspath(os.environ.get("BIB_ROOT") or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))   # as tools/bib/store.py
 TAB = os.path.join(ROOT, "sources", "jacobson", "JOPrepfile1.tab")
 OUT = os.path.join(ROOT, "notes", "jacobson-compare.md")
 GEO = os.path.join(ROOT, "congress", "geo.json")

@@ -1,0 +1,23 @@
+--- fixture/inbox/merged/03-stale-edit-1.yaml
++++ after/inbox/merged/03-stale-edit-1.yaml
+@@ -0,0 +1,7 @@
++patch: fx-stale
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      set: {also: [laos, congress]}
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -7391,8 +7391,8 @@
+     time_zone: Asia/Shanghai
+   - id: cal.1961-04-30.cuba-bay-of-pigs
+-    when: Apr. 30
++    when: Apr. 30, Sunday
+     date: '1961-04-30'
+     thread: cuba-bay-of-pigs
+-    also: [laos]
++    also: [laos, congress]
+     c: 'Fulbright on *Meet the Press*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'
+     n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-620 (the guest, Apr. 30). [[w.woods-fulbright]], 269 (the questions and answers). Check: Woods has it five days after the White House meeting of Apr. 18–19. To check: Holt to Marcy, Apr. 24, 1961, Series 48:1, Box 2:2, SPF (cited by [[w.woods-fulbright]], 269 n.24). Names: Fulbright.'

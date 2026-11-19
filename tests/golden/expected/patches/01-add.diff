@@ -1,0 +1,27 @@
+--- fixture/inbox/merged/01-add-1.yaml
++++ after/inbox/merged/01-add-1.yaml
+@@ -0,0 +1,12 @@
++patch: fx-add
++by: tests
++ops:
++  - add:
++      entry:
++        id: cal.1961-04-30.cuba
++        when: Apr. 30
++        date: '1961-04-30'
++        thread: cuba
++        c: Kennedy, at Hyannis Port, on Cuba with Bundy by telephone.
++        n: '[[w.reeves-president-kennedy]], 99. Names: Kennedy, Bundy.'
++        tags: [name:kennedy-john-f, name:bundy-mcgeorge]
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -8006,2 +8006,9 @@
+     time_band: afternoon
+     time_zone: Asia/Shanghai
++  - id: cal.1961-04-30.cuba
++    when: Apr. 30
++    date: '1961-04-30'
++    thread: cuba
++    c: Kennedy, at Hyannis Port, on Cuba with Bundy by telephone.
++    n: '[[w.reeves-president-kennedy]], 99. Names: Kennedy, Bundy.'
++    tags: [name:kennedy-john-f, name:bundy-mcgeorge]

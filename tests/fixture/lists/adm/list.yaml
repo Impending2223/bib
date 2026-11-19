@@ -1,0 +1,45 @@
+# Adm.: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: 'Nixon Administration, 1969–1974: Bibliography'
+h1: 'Richard Nixon and his administration, 1969–1974: working bibliography'
+lede: Sources, portrayals, and names for the Nixon presidency, from the inauguration of January 20, 1969, to the resignation of August 9, 1974, less Watergate.
+logic:
+  - 'Second of four lists. This one is Adm. The others: the Republican opposition, 1961–69 (Opp.); Congress, the nation, and the states, 1969–74 (Cong.); and Watergate (Wg.). Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - 'The Watergate rule. Wg. holds what exists only because of the scandal: the break-in of June 17, 1972; the covert operations from the White House and the Committee to Re-elect that led to it (the Plumbers, the Fielding break-in, Gemstone, Segretti); and everything that followed its discovery, through the pardon. Nothing of that kind appears here. What stands on its own stays here even where the investigators swept it in: the Kissinger wiretaps, the Huston Plan, ITT, the milk fund, the President''s taxes, Agnew. General works stay here too; where Watergate is most of a general book, the note says so. A person whose part in the period was only Watergate appears only in Wg.; one with another part appears in both.'
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Groups run from Nixon outward: family and friends, the White House staff, the vice presidents, national security, the military, the cabinet, the economy, justice and intelligence, the drug war, and abroad. Alphabetical within each group. Each entry gives the role in these years, a note, and where to find the voice. "Tapes" means the White House recordings (II.J). A name marked "Also Wg." has a Watergate part as well; those with only a Watergate part are in Wg. alone.'
+    sections:
+      - id: p3d
+        num: III.D
+        title: National security and State
+        logic:
+          - Alphabetical.
+        file: III.D.yaml
+      - id: p3f
+        num: III.F
+        title: The cabinet and the domestic side
+        logic:
+          - Alphabetical.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: The economy
+        logic:
+          - Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: Justice and intelligence
+        logic:
+          - Alphabetical.
+        file: III.H.yaml
+      - id: p3j
+        num: III.J
+        title: Abroad
+        logic:
+          - Alphabetical.
+        file: III.J.yaml

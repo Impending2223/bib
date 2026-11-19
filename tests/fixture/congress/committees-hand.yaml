@@ -1,0 +1,136 @@
+# Kept by hand: what tools/congress/make_committees.py takes besides Garrison Nelson's committee files. Edit this,
+# then rerun the script; never edit congress/committees.yaml.
+#
+# icpsr: Nelson's ICPSR id -> the Bioguide id, where congress-legislators carries another ICPSR id for the member;
+#   each with its reason.
+# leaders: the party leaders Nelson's files do not code, by Congress and chamber: the House's (its file has no
+#   non-committee block) and the Senate's President pro tempore and conference chairmen. Each holder: office, who
+#   ([surname, first given name, State], found in congress-legislators), from and to where the office changed during
+#   the Congress (else the Congress's opening and close), why (the change, as the source states it), src (a key of
+#   `sources` below). The Senate's floor leaders and whips come from Nelson's block (code 620); `senate_pages` holds the
+#   Senate Historical Office's lists of them, read Oct. 21, 2026, and the script stops where Nelson disagrees.
+# rows: corrections to Nelson's rows, by Congress, chamber code, committee code and ICPSR id: set fields, with the
+#   reason (none yet).
+sources:
+  house-speakers: [History, Art & Archives, U.S. House, "Speakers of the House", 'https://history.house.gov/People/Office/Speakers-List/']
+  house-majority-leaders: [History, Art & Archives, U.S. House, "Majority Leaders", 'https://history.house.gov/People/Office/Majority-Leaders/']
+  house-minority-leaders: [History, Art & Archives, U.S. House, "Minority Leaders", 'https://history.house.gov/People/Office/Minority-Leaders/']
+  house-democratic-whips: [History, Art & Archives, U.S. House, "Democratic Whips", 'https://history.house.gov/People/Office/Democratic-Whips/']
+  house-republican-whips: [History, Art & Archives, U.S. House, "Republican Whips", 'https://history.house.gov/People/Office/Republican-Whips/']
+  house-democratic-caucus: [History, Art & Archives, U.S. House, "Democratic Caucus Chairmen", 'https://history.house.gov/People/Office/Democratic-Caucus-Chairmen/']
+  house-republican-conference: [History, Art & Archives, U.S. House, "Republican Conference Chairmen", 'https://history.house.gov/People/Office/Republican-Conference-Chairmen/']
+  senate-pro-tempore: [U.S. Senate, "Presidents Pro Tempore", 'https://www.senate.gov/about/officers-staff/president-pro-tempore/presidents-pro-tempore.htm']
+  senate-leaders: [U.S. Senate, "Majority and Minority Leaders", 'https://www.senate.gov/senators/majority-minority-leaders.htm']
+  senate-whips: [U.S. Senate, "Party Whips", 'https://www.senate.gov/about/parties-leadership/party-whips.htm']
+  senate-conference-chairs: [U.S. Senate, "Conference Chairs", 'https://www.senate.gov/about/parties-leadership/conference-chairs.htm']
+icpsr:
+  3769: {bio: G000400, reason: 'Kenneth J. Gray of Illinois: congress-legislators carries 15101, the id ICPSR gave his later service (1985-89); Nelson codes his first, 1955-74, as 3769.'}
+leaders:
+  87:
+    h:
+      - {office: Speaker, who: [Rayburn, Samuel, TX], to: '1961-11-16', why: Died, src: house-speakers}
+      - {office: Speaker, who: [McCormack, John, MA], from: '1962-01-10', why: 'Elected on the first day of the second session, to fill the vacancy', src: house-speakers}
+      - {office: Majority Leader, who: [McCormack, John, MA], to: '1962-01-10', why: Elected Speaker, src: house-majority-leaders}
+      - {office: Majority Leader, who: [Albert, Carl, OK], from: '1962-01-10', why: Elected to fill the vacancy, src: house-majority-leaders}
+      - {office: Majority Whip, who: [Albert, Carl, OK], to: '1962-01-10', why: Elected Majority Leader, src: house-democratic-whips}
+      - {office: Majority Whip, who: [Boggs, Thomas, LA], from: '1962-01-10', why: Elected to fill the vacancy, src: house-democratic-whips}
+      - {office: Minority Leader, who: [Halleck, Charles, IN], src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Walter, Francis, PA], src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Hoeven, Charles, IA], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Hayden, Carl, AZ], src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Saltonstall, Leverett, MA], src: senate-conference-chairs}
+  88:
+    h:
+      - {office: Speaker, who: [McCormack, John, MA], src: house-speakers}
+      - {office: Majority Leader, who: [Albert, Carl, OK], src: house-majority-leaders}
+      - {office: Majority Whip, who: [Boggs, Thomas, LA], src: house-democratic-whips}
+      - {office: Minority Leader, who: [Halleck, Charles, IN], src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Walter, Francis, PA], to: '1963-05-31', why: Died, src: house-democratic-caucus}
+      - {office: Democratic Caucus Chairman, who: [Thomas, Albert, TX], from: '1964-01-21', why: Elected, src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Ford, Gerald, MI], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Hayden, Carl, AZ], src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Saltonstall, Leverett, MA], src: senate-conference-chairs}
+  89:
+    h:
+      - {office: Speaker, who: [McCormack, John, MA], src: house-speakers}
+      - {office: Majority Leader, who: [Albert, Carl, OK], src: house-majority-leaders}
+      - {office: Majority Whip, who: [Boggs, Thomas, LA], src: house-democratic-whips}
+      - {office: Minority Leader, who: [Ford, Gerald, MI], src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Keogh, Eugene, NY], src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Laird, Melvin, WI], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Hayden, Carl, AZ], src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Saltonstall, Leverett, MA], src: senate-conference-chairs}
+  90:
+    h:
+      - {office: Speaker, who: [McCormack, John, MA], src: house-speakers}
+      - {office: Majority Leader, who: [Albert, Carl, OK], src: house-majority-leaders}
+      - {office: Majority Whip, who: [Boggs, Thomas, LA], src: house-democratic-whips}
+      - {office: Minority Leader, who: [Ford, Gerald, MI], src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Rostenkowski, Daniel, IL], src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Laird, Melvin, WI], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Hayden, Carl, AZ], src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Smith, Margaret, ME], src: senate-conference-chairs}
+  91:
+    h:
+      - {office: Speaker, who: [McCormack, John, MA], src: house-speakers}
+      - {office: Majority Leader, who: [Albert, Carl, OK], src: house-majority-leaders}
+      - {office: Majority Whip, who: [Boggs, Thomas, LA], src: house-democratic-whips}
+      - {office: Minority Leader, who: [Ford, Gerald, MI], src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Rostenkowski, Daniel, IL], src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Anderson, John, IL], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Russell, Richard, GA], src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Smith, Margaret, ME], src: senate-conference-chairs}
+  92:
+    h:
+      - {office: Speaker, who: [Albert, Carl, OK], src: house-speakers}
+      - {office: Majority Leader, who: [Boggs, Thomas, LA], to: '1972-10-16', why: 'Disappeared on a flight from Anchorage to Juneau', src: house-majority-leaders}
+      - {office: Majority Whip, who: [O'Neill, Thomas, MA], src: house-democratic-whips}
+      - {office: Minority Leader, who: [Ford, Gerald, MI], src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Teague, Olin, TX], src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Anderson, John, IL], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Ellender, Allen, LA], from: '1971-01-22', to: '1972-07-27', why: Died, src: senate-pro-tempore,
+         note: 'The Senate''s list carries Richard B. Russell, President pro tempore of the 91st, to Jan. 21, 1971, the day he died and the 92nd convened.'}
+      - {office: President pro tempore, who: [Eastland, James, MS], from: '1972-07-28', src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Smith, Margaret, ME], src: senate-conference-chairs}
+  93:
+    h:
+      - {office: Speaker, who: [Albert, Carl, OK], src: house-speakers}
+      - {office: Majority Leader, who: [O'Neill, Thomas, MA], src: house-majority-leaders}
+      - {office: Majority Whip, who: [McFall, John, CA], src: house-democratic-whips}
+      - {office: Minority Leader, who: [Ford, Gerald, MI], to: '1973-12-06', why: 'Resigned from the House on his confirmation as Vice President', src: house-minority-leaders}
+      - {office: Minority Leader, who: [Rhodes, John, AZ], from: '1973-12-07', why: Elected to fill the vacancy, src: house-minority-leaders}
+      - {office: Minority Whip, who: [Arends, Leslie, IL], src: house-republican-whips}
+      - {office: Democratic Caucus Chairman, who: [Teague, Olin, TX], src: house-democratic-caucus}
+      - {office: Republican Conference Chairman, who: [Anderson, John, IL], src: house-republican-conference}
+    s:
+      - {office: President pro tempore, who: [Eastland, James, MS], src: senate-pro-tempore}
+      - {office: Democratic Conference Chairman, who: [Mansfield, Michael, MT], src: senate-conference-chairs}
+      - {office: Republican Conference Chairman, who: [Cotton, Norris, NH], src: senate-conference-chairs}
+# The Senate Historical Office's lists, by Congress: the floor leaders and whips each held the office during it.
+senate_pages:
+  87: {Majority Leader: [Mansfield], Majority Whip: [Humphrey], Minority Leader: [Dirksen], Minority Whip: [Kuchel]}
+  88: {Majority Leader: [Mansfield], Majority Whip: [Humphrey], Minority Leader: [Dirksen], Minority Whip: [Kuchel]}
+  89: {Majority Leader: [Mansfield], Majority Whip: [Long], Minority Leader: [Dirksen], Minority Whip: [Kuchel]}
+  90: {Majority Leader: [Mansfield], Majority Whip: [Long], Minority Leader: [Dirksen], Minority Whip: [Kuchel]}
+  91: {Majority Leader: [Mansfield], Majority Whip: [Kennedy], Minority Leader: [Dirksen, Scott], Minority Whip: [Scott, Griffin]}
+  92: {Majority Leader: [Mansfield], Majority Whip: [Byrd], Minority Leader: [Scott], Minority Whip: [Griffin]}
+  93: {Majority Leader: [Mansfield], Majority Whip: [Byrd], Minority Leader: [Scott], Minority Whip: [Griffin]}
+rows: {}

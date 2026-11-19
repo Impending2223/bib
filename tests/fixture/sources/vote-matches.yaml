@@ -1,0 +1,36 @@
+# Kept by hand: the Senate's roll calls on nominations (sources/senate-nomination-votes.json) that the rules in
+# tools/bib/votes.py cannot settle. rc: Voteview's id (RS0870379: Senate, 87th Congress, roll call 379).
+#
+# holders:   a roster holder ('Surname, Given' as executive/*.yaml writes him); office: unit.office, where the line
+#            is for one of his offices only. refuse: [rc] a roll call the rules give him that is another man's;
+#            add: [rc] one they miss (shown after the confirmation date; a vote of another day with its date);
+#            reconfirmed: [rc] the vote on his renomination for a further term ("reconfirmed June 23, 1960 (64–19)")
+# persons:   a roll call on a post the roster does not hold (a judge, an ambassador who did not serve): name (as
+#            Part III or a roster writes him), as (the post: "Confirmed <as>, <date> (<vote>)."; "Nomination as <as>
+#            rejected, ..."), procs: [rc] procedural votes on the same nomination; or text, a sentence of its own,
+#            with {date} and {vote}
+# labels:    rc: the words before the count, where the kind does not give them
+holders:
+  'Talbott, Harold E.': {add: [RS0830005]}            # Voteview spells him Talbot
+  'Ford, Gerald R.': {office: vp.vice-president, add: [RS0930499]}   # the Senate's vote; the House's, Dec. 6, 387–35
+  'Lee, Robert E.': {office: fcc.commissioner, reconfirmed: [RS0860373]}
+  'Kuykendall, Jerome K.': {office: fpc.commissioner, reconfirmed: [RS0850091]}
+persons:
+  RS0840019: {name: 'Harlan, John Marshall', as: Associate Justice of the Supreme Court}
+  RS0840193: {name: 'Sobeloff, Simon E.', as: Judge of the Court of Appeals for the Fourth Circuit, procs: [RS0840192]}
+  RS0860051: {name: 'Luce, Clare Boothe', as: Ambassador to Brazil}
+  RS0860058: {name: 'Stewart, Potter', as: Associate Justice of the Supreme Court}
+  RS0860285: {name: 'Durfee, James R.', as: Judge of the Court of Claims}
+  RS0860371: {name: 'Bragdon, John S.', as: Member of the Civil Aeronautics Board}
+  RS0870379: {name: 'Marshall, Thurgood', as: Judge of the Court of Appeals for the Second Circuit}
+  RS0900176: {name: 'Marshall, Thurgood', as: Associate Justice of the Supreme Court}
+  RS0900570: {name: 'Fortas, Abe', text: 'Nomination as Chief Justice: cloture on the motion to take it up refused, {date}{vote}; withdrawn at his request.'}
+  RS0910027: {name: 'Burger, Warren E.', as: Chief Justice of the United States}
+  RS0910135: {name: 'Haynsworth, Clement F., Jr.', as: Associate Justice of the Supreme Court}
+  RS0910357: {name: 'Carswell, G. Harrold', as: Associate Justice of the Supreme Court, procs: [RS0910350]}
+  RS0910377: {name: 'Blackmun, Harry A.', as: Associate Justice of the Supreme Court}
+  RS0920408: {name: 'Powell, Lewis F., Jr.', as: Associate Justice of the Supreme Court}
+  RS0920417: {name: 'Rehnquist, William H.', as: Associate Justice of the Supreme Court, procs: [RS0920413, RS0920414]}
+  RS0931092: {name: 'Rockefeller, Nelson', as: Vice President}
+labels:
+  RS0930499: the Senate, Nov. 27

@@ -1,0 +1,19 @@
+$ ./bib merge inbox/before-0.yaml
+== fx-before
+  edited    cal.1961-04-30.cuba-bay-of-pigs
+
+--- exit 0
+
+$ ./bib patch-check inbox/04-conflict-1.yaml
+== 04-conflict-1.yaml: 0 errors, 1 warnings
+  warn   cal.1961-04-30.cuba-bay-of-pigs: a conflict on when at the merge (./bib resolve cal.1961-04-30.cuba-bay-of-pigs --take ...; keep, for a duplicate that is distinct)
+
+--- exit 0
+
+$ ./bib merge --auto inbox/04-conflict-1.yaml
+== fx-conflict (auto)
+  conflict  cal.1961-04-30.cuba-bay-of-pigs
+  0 entries changed; read: 
+  1 conflicts left in the entries: ./bib conflicts, ./bib reconcile
+
+--- exit 1

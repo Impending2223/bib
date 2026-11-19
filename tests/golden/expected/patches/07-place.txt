@@ -1,0 +1,11 @@
+$ ./bib patch-check inbox/07-place-1.yaml
+== 07-place-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/07-place-1.yaml
+== fx-place (auto)
+  place-key upperville-va
+  1 entries changed; read: cal.1961-04-30.cuba-bay-of-pigs
+
+--- exit 0

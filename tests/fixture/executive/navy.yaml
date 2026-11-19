@@ -1,0 +1,103 @@
+# The Department of the Navy: the civilian secretariat. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: navy
+name: Department of the Navy
+under: defense
+order: 30
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    tags: [creates, powers]
+    cite: ch. 343, § 206, 61 Stat. 495, 501
+    does: 'The Department of the Navy within the National Military Establishment: the Navy, naval aviation, and the Marine Corps.'
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 278
+    usc: 10 U.S.C. §§ 5011, 5031–5035 (1958)
+    does: The Department of the Navy and its offices restated in subtitle C of title 10.
+n: The civilian secretariat. The service's military staff is a separate unit.
+offices:
+  - id: secretary
+    title: Secretary of the Navy
+    rank: principal
+    appt: PAS
+    level: II
+    law:
+      - act: Act of Aug. 10, 1956 (Title 10 enacted)
+        date: '1956-08-10'
+        tags: [appointment, powers]
+        cite: ch. 1041, 70A Stat. 1, 278
+        usc: 10 U.S.C. § 5031 (1958)
+        does: The Secretary of the Navy, appointed from civilian life by the President with the advice and consent of the Senate, is the head of the Department.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 1, 63 Stat. 880
+        does: $18,000 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: '1958-09-02'
+        tags: [pay]
+        cite: ch. 804, title I, § 103(b), 70 Stat. 736
+        usc: 5 U.S.C. § 2202 (1958)
+        does: $22,000 a year.
+      - act: Act of Sept. 2, 1958
+        date: '1958-09-02'
+        until: 1964-07
+        tags: [pay]
+        cite: Pub. L. 85-861, § 1(107), 72 Stat. 1437, 1490
+        usc: 10 U.S.C. § 5031(d) (1958)
+        does: $22,000 a year, in Title 10; struck from the Federal Executive Pay Act of 1956 (§ 36A).
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(19), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(18)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Franke, William B.
+        given: William Birrell
+        nominated: '1959-05-05'
+        confirmed: '1959-06-02'
+        from: '1959-06-08'
+        to: '1961-01-19'
+        n: Oath June 8, 1959, per the Congressional Directory.
+        src:
+          - CDIR 1960-01
+          - 'Wikipedia: William B. Franke'
+          - Cong. Rec.
+      - name: Connally, John
+        given: John Bowden, Jr.
+        nominated: '1961-01-21'
+        confirmed: '1961-01-23'
+        from: '1961-01-25'
+        to: '1961-12-20'
+        out: Resigned to run for governor of Texas.
+        n: 'Check: the Congressional Directory gives took office Jan. 23, 1961.'
+        src:
+          - CDIR 1961-04
+          - 'Wikipedia: John Connally'
+          - Cong. Rec. Index 1961
+          - Cong. Rec.
+          - Hearing CHRG-87shrg64582

@@ -1,0 +1,102 @@
+# The Federal Bureau of Investigation. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Sources: the Congressional Directory (CDIR, by edition), the Public Papers (APP), FRUS lists of persons,
+# Wikipedia (leads only), the Statutes and the U.S. Code, 1970 edition.
+# tests/make_fixture.py: the holders of 1961
+unit: fbi
+name: Federal Bureau of Investigation
+under: justice
+order: 10
+law:
+  - act: Act of May 22, 1908 (appropriations)
+    date: '1908-05-22'
+    tags: [creates]
+    cite: ch. 186, 35 Stat. 184, 236
+    usc: 28 U.S.C. § 531 note (1970)
+    does: Funds for the detection and prosecution of crimes; the Bureau of Investigation made from them by the Attorney General's order of July 26, 1908. The act does not name the Bureau.
+  - act: Executive Order 6166, § 3
+    date: '1933-06-10'
+    tags: [reorganizes]
+    url: https://www.presidency.ucsb.edu/documents/executive-order-6166-organization-executive-agencies
+    does: The Bureau of Investigation and the investigative functions of the Bureau of Prohibition consolidated in a Division of Investigation in the Department of Justice, headed by a Director of Investigation.
+  - act: Act of Mar. 22, 1935 (appropriations)
+    date: '1935-03-22'
+    tags: [reorganizes]
+    cite: ch. 39, title II, 49 Stat. 67, 77
+    does: The Division of Investigation first designated the Federal Bureau of Investigation.
+  - act: Act of Sept. 6, 1966 (Title 5, U.S. Code, enacted)
+    date: '1966-09-06'
+    tags: [creates, powers]
+    cite: Pub. L. 89-554, § 4(c), 80 Stat. 378, 616
+    usc: 28 U.S.C. §§ 531–535 (1970)
+    does: The Federal Bureau of Investigation is in the Department of Justice (§ 531). The Attorney General may appoint officials to detect and prosecute crimes against the United States, to assist in protecting the President, and to conduct other investigations (§ 533).
+offices:
+  - id: director
+    title: Director of the Federal Bureau of Investigation
+    rank: inferior
+    appt: HD
+    level: II
+    n: Appointed by the Attorney General; by the President with the Senate's consent from May 3, 1972 (Pub. L. 90-351, § 1101).
+    law:
+      - act: Act of Sept. 6, 1966 (Title 5, U.S. Code, enacted)
+        date: '1966-09-06'
+        tags: [appointment]
+        cite: Pub. L. 89-554, § 4(c), 80 Stat. 378, 616
+        usc: 28 U.S.C. § 532 (1970)
+        does: The Attorney General may appoint a Director of the Federal Bureau of Investigation, its head.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 4, 63 Stat. 880
+        does: $16,000 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 104, 70 Stat. 736, 737
+        usc: 5 U.S.C. § 2203 (1958)
+        does: $22,000 a year so long as the office is held by the present incumbent (§ 104(b)); $21,000 otherwise (§ 104(a)(3)).
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(15), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year. So long as the position is held by the present incumbent; thereafter level III.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 461
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III (§ 5314(45)); the incumbent kept at level II, $30,000 a year, by § 303(b)(15) of the 1964 act, omitted from Title 5 but not repealed.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        until: '1972-05-03'
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241). For the incumbent.
+      - act: Omnibus Crime Control and Safe Streets Act of 1968, § 1101
+        date: '1968-06-19'
+        effective: '1972-05-03'
+        tags: [appointment, pay]
+        cite: Pub. L. 90-351, § 1101, 82 Stat. 197, 236
+        usc: 28 U.S.C. § 532 note (1970)
+        does: From the day after the present incumbent ceases to serve, the Director appointed by the President with the Senate's consent, at level II.
+    holders:
+      - name: Hoover, J. Edgar
+        from: '1924-05-10'
+        to: '1972-05-02'
+        out: Died.
+        n: Director of the Bureau of Investigation, 1924; of the Division of Investigation, 1933; of the FBI from 1935. Appointed by the Attorney General.
+        src:
+          - 'Wikipedia: J. Edgar Hoover'
+          - CDIR 1953-03
+          - FRUS persons list
+          - Plum Book 1968, p. 62

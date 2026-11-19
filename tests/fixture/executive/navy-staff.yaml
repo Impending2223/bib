@@ -1,0 +1,56 @@
+# The Office of the Chief of Naval Operations and the fleets, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: navy-staff
+name: Office of the Chief of Naval Operations and the fleets
+under: navy
+order: 50
+law:
+  - act: Title 10, United States Code, enacted
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 281
+    usc: 10 U.S.C. §§ 5081–5087 (1958)
+    does: 'The Office of the Chief of Naval Operations: the Chief, a Vice Chief, Deputy and Assistant Chiefs; the Chief commands the operating forces under the Secretary of the Navy.'
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [powers]
+    cite: Pub. L. 85-599, § 4(b), 72 Stat. 514, 516
+    usc: 10 U.S.C. § 5081(c) (1958)
+    does: The Chief of Naval Operations supervises such members and organizations of the Navy and Marine Corps as the Secretary determines, consistent with the full operational command of the unified and specified commanders.
+n: 'The Chief of Naval Operations is in the Joint Chiefs of Staff unit (jcs.cno). Fleet commanders are assigned; the fleets serve under the unified commanders (commands). Dates from Wikipedia''s lists of commanders; months only where so given: Check days.'
+offices:
+  - id: atlantic-fleet
+    title: Commander in Chief, U.S. Atlantic Fleet (CINCLANTFLT)
+    rank: military
+    appt: MIL
+    group: Fleets
+    n: Held by the Commander in Chief, Atlantic (commands.cinclant), throughout.
+    holders:
+      - name: Dennison, Robert L.
+        rank: Adm., USN
+        from: '1960-02-28'
+        to: '1963-04-30'
+        src:
+          - 'Wikipedia: United States Atlantic Command'
+  - id: sixth-fleet
+    title: Commander, Sixth Fleet
+    rank: military
+    appt: MIL
+    group: Fleets
+    n: 'In the Mediterranean. Months from Wikipedia''s list: Check days.'
+    holders:
+      - name: Anderson, George W., Jr.
+        rank: Vice Adm., USN
+        from: 1959-09
+        to: 1961-07
+        out: To Chief of Naval Operations.
+        src:
+          - 'Wikipedia: United States Sixth Fleet'
+      - name: McDonald, David L.
+        rank: Vice Adm., USN
+        from: 1961-07
+        to: 1963-03
+        out: To Commander in Chief, U.S. Naval Forces, Europe.
+        src:
+          - 'Wikipedia: United States Sixth Fleet'

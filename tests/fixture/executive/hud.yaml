@@ -1,0 +1,120 @@
+# The Housing and Home Finance Agency, and from Nov. 9, 1965 the Department of Housing and Urban Development.
+# Kept by hand. Sources: the Congressional Directory (CDIR, by edition), Wikipedia, APP, the Statutes at Large.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: hud
+name: Housing and Home Finance Agency
+names:
+  - name: Department of Housing and Urban Development
+    from: '1965-11-09'
+under: president
+order: 130
+law:
+  - act: Reorganization Plan No. 3 of 1947
+    date: '1947-07-27'
+    cite: 61 Stat. 954
+    tags: [creates]
+    until: '1965-11-09'
+    does: Consolidates the Home Owners' Loan Corporation, the Federal Savings and Loan Insurance Corporation, the Federal Housing Administration, the United States Housing Authority and other agencies in a Housing and Home Finance Agency, with constituent agencies the Home Loan Bank Board, the Federal Housing Administration and the Public Housing Administration.
+  - act: Housing Act of 1954
+    date: '1954-08-02'
+    cite: ch. 649, 68 Stat. 590
+    usc: 42 U.S.C. §§ 1450–1462 (1958)
+    tags: [powers]
+    does: 'Urban renewal: loans and grants for slum clearance, rehabilitation and conservation; a workable program required of the community. Rechartered the Federal National Mortgage Association (title II).'
+  - act: Department of Housing and Urban Development Act
+    date: '1965-09-09'
+    effective: '1965-11-09'
+    cite: Pub. L. 89-174, 79 Stat. 667
+    usc: 42 U.S.C. §§ 3531–3537 (1970)
+    tags: [creates, reorganizes, powers]
+    does: Establishes the Department; all functions of the Agency, of the Federal Housing Administration and of the Public Housing Administration, and of their heads and officers, to the Secretary; the Federal National Mortgage Association to the Department. Takes effect sixty days after approval.
+  - act: Department of Housing and Urban Development Act, § 11(b)
+    date: '1965-09-09'
+    cite: Pub. L. 89-174, 79 Stat. 667, 671
+    tags: [vacancy]
+    until: '1966-01-18'
+    does: Where a Senate-confirmed officer has not entered on office on the effective date, the President may designate an officer of the Agency to act for up to sixty days.
+  - act: Civil Rights Act of 1968, title VIII (Fair Housing)
+    date: '1968-04-11'
+    cite: Pub. L. 90-284, 82 Stat. 73, 81
+    usc: 42 U.S.C. §§ 3601–3619 (1970)
+    tags: [powers]
+    does: Discrimination in the sale or rental of housing unlawful; administration of the title in the Secretary.
+  - act: Housing and Urban Development Act of 1968, § 802
+    date: '1968-08-01'
+    cite: Pub. L. 90-448, 82 Stat. 476, 536
+    usc: 12 U.S.C. § 1716b (1970)
+    tags: [reorganizes]
+    does: 'The Federal National Mortgage Association partitioned: a Government National Mortgage Association in the Department; the secondary market operations to a private corporation.'
+n: The Home Loan Bank Board was a constituent agency to Aug. 11, 1955 (Housing Amendments of 1955), then independent.
+offices:
+  - id: administrator
+    title: Housing and Home Finance Administrator
+    rank: head
+    appt: PAS
+    level: II
+    until: '1965-11-09'
+    law:
+      - act: Reorganization Plan No. 3 of 1947, § 5
+        date: '1947-07-27'
+        cite: 61 Stat. 954, 955
+        tags: [creates, appointment, powers]
+        does: The Agency headed by an Administrator appointed by the President with the consent of the Senate; general supervision and coordination of the constituent agencies.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 3, 63 Stat. 880
+        does: $17,500 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 104(a)(6), 70 Stat. 736
+        usc: 5 U.S.C. § 2203 (1958)
+        does: $21,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(6), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+    holders:
+      - name: Mason, Norman P.
+        nominated: '1959-01-14'
+        confirmed: '1959-01-20'
+        from: '1959-01-13'
+        to: '1961-01-20'
+        n: Federal Housing Commissioner, 1954–59.
+        src:
+          - 'Wikipedia: Housing and Home Finance Agency'
+          - CDIR 1959-03
+          - Cong. Rec.
+      - name: Conway, Jack T.
+        acting: true
+        from: '1961-01-20'
+        to: '1961-02-11'
+        n: The Deputy Administrator.
+        src:
+          - 'Wikipedia: Jack T. Conway'
+          - 'Wikipedia: Housing and Home Finance Agency'
+      - name: Weaver, Robert C.
+        given: Robert Clifton
+        nominated: '1961-01-30'
+        confirmed: '1961-02-09'
+        from: '1961-02-11'
+        to: '1965-11-09'
+        out: Agency abolished; to Secretary, Jan. 18, 1966.
+        n: Sworn Feb. 11, 1961. By his Department Interim Order I, effective Nov. 9, 1965, signed as Housing and Home Finance Administrator, references to the Administrator taken as to "the Administrator in the Department" pending the appointment of a Secretary (30 Fed. Reg. 14198). Wikipedia carries him as Administrator to Jan. 18, 1966. No designation under § 11(b) found (APP).
+        src:
+          - APP 1961-02-11
+          - 'Wikipedia: Robert C. Weaver'
+          - CDIR 1961-04
+          - CDIR 1966-01
+          - K–J Adm. III.G
+          - Cong. Rec.
+          - Hearing CHRG-87shrg65384

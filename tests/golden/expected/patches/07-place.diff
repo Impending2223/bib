@@ -1,0 +1,27 @@
+--- fixture/inbox/merged/07-place-1.yaml
++++ after/inbox/merged/07-place-1.yaml
+@@ -0,0 +1,5 @@
++patch: fx-place
++by: tests
++ops:
++  - place-key: {key: upperville-va, name: 'Upperville, Va.', zone: America/New_York, st: VA}
++  - place: {id: cal.1961-04-30.cuba-bay-of-pigs, at: upperville-va, basis: c}
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -7393,4 +7393,5 @@
+     when: Apr. 30
+     date: '1961-04-30'
++    place: upperville-va
+     thread: cuba-bay-of-pigs
+     also: [laos]
+--- fixture/sources/places.yaml
++++ after/sources/places.yaml
+@@ -4940,4 +4940,8 @@
+   zone: America/New_York
+   st: PA
++- key: upperville-va
++  name: Upperville, Va.
++  zone: America/New_York
++  st: VA
+ - key: urumqi
+   name: Urumqi

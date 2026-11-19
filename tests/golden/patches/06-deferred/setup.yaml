@@ -1,0 +1,4 @@
+# An additive op on an entry the ledger claims but the tree does not yet hold is deferred (inbox/deferred.yaml);
+# the patch that adds the entry lands it, and the same merge applies the deferred op.
+ledger:
+  - ['1961-04-29', press-and-broadcasting, cal.1961-04-29.press-and-broadcasting, 'Kennedy to the press', fx-deferred-add]

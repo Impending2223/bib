@@ -1,0 +1,10 @@
+$ ./bib patch-check inbox/05-additive-1.yaml
+== 05-additive-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/05-additive-1.yaml
+== fx-additive (auto)
+  2 entries changed; read: cal.1961-04-01.cuba
+
+--- exit 0

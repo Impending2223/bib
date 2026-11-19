@@ -1,0 +1,10 @@
+$ ./bib patch-check inbox/02-edit-1.yaml
+== 02-edit-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/02-edit-1.yaml
+== fx-edit (auto)
+  1 entries changed; read: cal.1961-04-30.cuba-bay-of-pigs
+
+--- exit 0

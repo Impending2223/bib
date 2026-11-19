@@ -1,0 +1,162 @@
+# The National Aeronautics and Space Administration, and before it the National Advisory Committee for
+# Aeronautics. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: nasa
+name: National Aeronautics and Space Administration
+under: president
+order: 500
+names:
+  - name: National Advisory Committee for Aeronautics
+    from: '1915-03-03'
+  - name: National Aeronautics and Space Administration
+    from: '1958-10-01'
+law:
+  - act: Naval Appropriation Act of Mar. 3, 1915
+    date: '1915-03-03'
+    until: '1958-10-01'
+    tags: [creates, powers]
+    cite: ch. 83, 38 Stat. 928, 930
+    usc: 50 U.S.C. § 151 (1952)
+    does: Establishes an Advisory Committee for Aeronautics of not more than twelve members, appointed by the President, to supervise and direct the scientific study of the problems of flight; members serve without compensation.
+  - act: National Aeronautics and Space Act of 1958
+    date: '1958-07-29'
+    tags: [creates, powers]
+    cite: Pub. L. 85-568, § 202, 72 Stat. 426, 429
+    usc: 42 U.S.C. §§ 2451–2476 (1964)
+    does: Declares that activities in space be devoted to peaceful purposes; aeronautical and space activities the responsibility of a civilian agency, except those peculiar to weapons, military operations or defense. Establishes the National Aeronautics and Space Administration, headed by an Administrator; under the President's supervision, the Administrator exercises all its powers and controls its personnel.
+  - act: National Aeronautics and Space Act of 1958
+    date: '1958-07-29'
+    effective: '1958-10-01'
+    tags: [reorganizes]
+    cite: Pub. L. 85-568, § 301, 72 Stat. 426, 432
+    usc: 42 U.S.C. § 2471 (1964)
+    does: The National Advisory Committee for Aeronautics ceases to exist; its functions, powers, property, personnel and records transferred to the Administration.
+n: The Administration began operating Oct. 1, 1958, absorbing the Committee.
+offices:
+  - id: administrator
+    title: Administrator of the National Aeronautics and Space Administration
+    rank: head
+    appt: PAS
+    level: II
+    from: '1958-07-29'
+    law:
+      - act: National Aeronautics and Space Act of 1958
+        date: '1958-07-29'
+        tags: [creates, appointment, pay]
+        cite: Pub. L. 85-568, § 202(a), (c), 72 Stat. 426, 429
+        usc: 42 U.S.C. § 2472 (1964)
+        does: The Administrator appointed from civilian life by the President with the advice and consent of the Senate; $22,500; no other business or employment.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(4), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(4)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Glennan, T. Keith
+        given: Thomas Keith
+        nominated: '1958-08-08'
+        from: '1958-08-19'
+        to: '1961-01-20'
+        out: Resigned.
+        n: Nominated and confirmed with Dryden; sworn Aug. 19, 1958.
+        src:
+          - NASA Historical Data Book, I
+          - 'Wikipedia: T. Keith Glennan'
+          - CDIR 1960-01
+          - Cong. Rec.
+      - name: Dryden, Hugh L.
+        given: Hugh Latimer
+        acting: true
+        from: '1961-01-21'
+        to: '1961-02-14'
+        n: Acting as Deputy Administrator.
+        src:
+          - 'Wikipedia: Administrator of NASA'
+      - name: Webb, James E.
+        given: James Edwin
+        nominated: '1961-02-09'
+        confirmed: '1961-02-09'
+        from: '1961-02-14'
+        to: '1968-10-07'
+        out: Resigned.
+        src:
+          - 'Wikipedia: James E. Webb'
+          - NASA Historical Data Book, IV
+          - CDIR 1961-04 to 1967-12
+          - FRUS persons list
+          - Cong. Rec.
+          - Plum Book 1968, p. 129
+  - id: deputy-administrator
+    title: Deputy Administrator of the National Aeronautics and Space Administration
+    rank: principal
+    appt: PAS
+    level: III
+    from: '1958-07-29'
+    law:
+      - act: National Aeronautics and Space Act of 1958
+        date: '1958-07-29'
+        tags: [creates, appointment, vacancy, pay]
+        cite: Pub. L. 85-568, § 202(b), 72 Stat. 426, 429
+        usc: 42 U.S.C. § 2472 (1964)
+        does: A Deputy Administrator appointed from civilian life by the President with the advice and consent of the Senate; $21,500; duties as the Administrator prescribes; acts for the Administrator in his absence or disability.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(c)(34), 78 Stat. 400, 417
+        usc: 5 U.S.C. § 2211(c) (1964)
+        does: Level III, $28,500 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 461
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III continued, $28,500 a year (§ 5314(34)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(a), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III raised to $29,500 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level III, $40,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Dryden, Hugh L.
+        given: Hugh Latimer
+        nominated: '1958-08-08'
+        from: '1958-08-19'
+        to: '1965-12-02'
+        out: Died.
+        src:
+          - 'Wikipedia: Deputy Administrator of NASA'
+          - NASA Historical Data Book, I
+          - CDIR 1960-01 to 1966-01
+          - FRUS persons list
+          - Cong. Rec.

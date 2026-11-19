@@ -1,0 +1,103 @@
+# The Department of the Treasury. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Dates of service for the Office of the Secretary: the Treasury's own tables, Annual Report of the
+# Secretary of the Treasury, 1973, exhibit 81 (officials from 1789 to Jan. 20, 1973), and 1974, p. XI
+# (Jan. 21, 1973, to June 30, 1974); FRASER, St. Louis Fed.
+# tests/make_fixture.py: the holders of 1961
+unit: treasury
+name: Department of the Treasury
+under: president
+order: 40
+law:
+  - act: Act of Sept. 2, 1789
+    date: '1789-09-02'
+    cite: ch. 12, 1 Stat. 65
+    usc:
+      - 5 U.S.C. §§ 241, 242 (1958)
+      - 31 U.S.C. § 1001 (1970)
+    tags: [creates, powers, appointment]
+    does: 'A Department of Treasury: a Secretary of the Treasury, to be deemed head of the department; a Comptroller, an Auditor, a Treasurer, a Register, and an Assistant to the Secretary. The Secretary to digest and prepare plans for the improvement and management of the revenue and the support of the public credit; prepare estimates; superintend the collection of the revenue; grant warrants for moneys issued from the Treasury in pursuance of appropriations by law; report to either House on matters referred to him.'
+  - act: Reorganization Plan No. 26 of 1950
+    date: '1950-07-31'
+    cite: 64 Stat. 1280
+    usc: 5 U.S.C. § 241 note (1958)
+    tags: [powers, reorganizes]
+    does: Transfers to the Secretary all functions of all other officers, agencies and employees of the Department, except the hearing examiners' and the Comptroller of the Currency's; the Secretary may authorize any officer or employee to perform any function of the Secretary.
+  - act: Executive Order 10941
+    date: '1961-05-15'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10941-designation-certain-officers-act-secretary-the-treasury
+    tags: [vacancy]
+    does: Designates the officers who act as Secretary of the Treasury in the absence of the Secretary and of the officers the statute names, in a fixed order.
+  - act: Act of May 18, 1972
+    date: '1972-05-18'
+    cite: Pub. L. 92-302, 86 Stat. 148
+    usc: 31 U.S.C. §§ 1004, 1005a (1970 Supp. III)
+    tags: [creates, appointment, vacancy, pay]
+    does: Establishes a Deputy Secretary, who acts as Secretary in a vacancy; keeps an Under Secretary, whom the President may designate Counselor, and the Under Secretary for Monetary Affairs; adds two Deputy Under Secretaries, whom the President may designate Assistant Secretaries; the Assistant Secretary for Administration appointed by the President, with the Senate's consent.
+offices:
+  - id: secretary
+    title: Secretary of the Treasury
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 1, 63 Stat. 880
+        does: $22,500 a year ("the head of each executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 102(2), 70 Stat. 736
+        usc: 5 U.S.C. § 2201 (1958)
+        does: $25,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(a)(2), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(a) (1964)
+        does: Level I, $35,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5312 (1970)
+        does: Level I continued, $35,000 a year (§ 5312(2)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level I, $60,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Anderson, Robert B.
+        given: Robert Bernard
+        nominated: '1957-05-29'
+        confirmed: '1957-07-02'
+        from: '1957-07-29'
+        to: '1961-01-20'
+        src:
+          - Treasury Annual Report 1973, exhibit 81
+          - Cong. Rec.
+      - name: Dillon, C. Douglas
+        given: Clarence Douglas
+        nominated: '1961-01-20'
+        confirmed: '1961-01-21'
+        from: '1961-01-21'
+        to: '1965-04-01'
+        out: Resigned.
+        n: A Republican; Under Secretary of State to Jan. 4, 1961.
+        src:
+          - Treasury Annual Report 1973, exhibit 81
+          - CDIR 1961-04
+          - Cong. Rec. Index 1961
+          - Cong. Rec.

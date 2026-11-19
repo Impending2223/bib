@@ -1,0 +1,107 @@
+# The Intelligence Advisory Committee and United States Intelligence Board; the Council's covert-action committees. Kept by hand (research agent, Oct. 2026; generated once from the agent's notes).
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: usib
+name: Intelligence Advisory Committee
+names:
+  - name: United States Intelligence Board
+    from: '1958-09-15'
+under: nsc
+order: 50
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    effective: '1947-09-18'
+    tags: [powers]
+    cite: ch. 343, § 102(d), 61 Stat. 495, 498
+    usc:
+      - 50 U.S.C. § 403(d) (1958)
+    does: The Central Intelligence Agency, under the direction of the Council, to advise the Council on the intelligence activities of the departments and agencies and recommend their coordination; to correlate and evaluate intelligence. The basis of the Council's intelligence directives.
+  - act: National Security Council Intelligence Directive No. 1 (revised)
+    date: '1952-03-28'
+    until: '1958-09-15'
+    tags: [creates, powers, appointment]
+    url: https://history.state.gov/historicaldocuments/frus1950-55Intel/d256
+    does: 'An Intelligence Advisory Committee to advise the Director of Central Intelligence: the Director (chairman), the Director of the Federal Bureau of Investigation, and the intelligence chiefs of State, the Army, the Navy, the Air Force, the Joint Staff, and the Atomic Energy Commission, or their representatives.'
+  - act: Reorganization of the United States Intelligence Board
+    date: '1964-03-04'
+    tags: [reorganizes, appointment]
+    url: https://history.state.gov/historicaldocuments/frus1964-68v33/d196
+    does: 'By the President''s direction: the Director of Central Intelligence (chairman), the Deputy Director, the Director of Intelligence and Research of State, the Directors of the Defense Intelligence Agency and the National Security Agency, representatives of the Atomic Energy Commission and the Director of the FBI. The service intelligence chiefs become observers.'
+  - act: Memorandum by President Nixon on the intelligence community
+    date: '1971-11-05'
+    tags: [reorganizes, appointment]
+    url: https://history.state.gov/historicaldocuments/frus1969-76v02/d242
+    does: The Board reconstituted under the Director of Central Intelligence, the Deputy Director vice chairman; a representative of the Secretary of the Treasury added. Establishes the NSC Intelligence Committee under the Assistant to the President, and a Net Assessment Group on the NSC staff.
+  - act: National Security Council Intelligence Directive No. 1 (revised)
+    date: '1972-02-17'
+    tags: [powers, appointment]
+    url: https://history.state.gov/historicaldocuments/frus1969-76v02/d248
+    does: '"Basic Duties and Responsibilities," revised with NSCIDs 2–8 to carry out the President''s memorandum of Nov. 5, 1971; in effect Feb. 17, 1972 (FRUS 1969–76, II, doc. 248, editorial note). Text not printed.'
+n: 'The Committee first set up by NSCID No. 1 of Dec. 12, 1947 (https://history.state.gov/historicaldocuments/frus1945-50Intel/d432). Reconstituted as the United States Intelligence Board by NSCID No. 1 of Sept. 15, 1958, merging it with the U.S. Communications Intelligence Board; the National Security Agency added. NSCID No. 1 revised Mar. 4, 1964 (FRUS 1969–76, II, doc. 214, note) and Feb. 17, 1972. Check: the texts of 1958, 1964 and 1972, not found. Members sit ex officio; their holders are under their own agencies. Executive Secretary: James S. Lay, Jr., in Mar. 1964 (FRUS 1964–68, XXXIII, doc. 196). The covert-action and counterinsurgency committees of the Council follow.'
+offices:
+  - id: chairman
+    title: Chairman of the Intelligence Advisory Committee
+    titles:
+      - title: Chairman of the United States Intelligence Board
+        from: '1958-09-15'
+    rank: employee
+    appt: XO
+    n: The Director of Central Intelligence (cia.director).
+    holders:
+      - name: Dulles, Allen W.
+        from: '1953-02-26'
+        to: '1961-11-29'
+        src:
+          - 'Wikipedia: Director of Central Intelligence'
+          - CDIR 1954-01
+      - name: McCone, John A.
+        from: '1961-11-29'
+        to: '1965-04-28'
+        src:
+          - 'Wikipedia: Director of Central Intelligence'
+          - FRUS persons list
+  - id: special-group
+    title: Chairman of the 5412 Committee
+    titles:
+      - title: Chairman of the Special Group
+        from: '1957'
+      - title: Chairman of the 303 Committee
+        from: '1964-06-02'
+      - title: Chairman of the 40 Committee
+        from: '1970-02-17'
+    rank: employee
+    appt: XO
+    group: Committees on covert action and counterinsurgency
+    from: '1955-12-28'
+    law:
+      - act: NSC 5412/2
+        date: '1955-12-28'
+        until: '1970-02-17'
+        tags: [creates, powers, appointment]
+        url: https://history.state.gov/historicaldocuments/frus1950-55Intel/d250
+        does: Designated representatives of the Secretaries of State and Defense, of Assistant Secretary rank or above, and a representative of the President, to be advised in advance of major covert programs of the Central Intelligence Agency and to be the normal channel for their policy approval.
+      - act: National Security Action Memorandum 303
+        date: '1964-06-02'
+        tags: [reorganizes]
+        url: https://history.state.gov/historicaldocuments/frus1964-68v33/d204
+        does: The Special Group 5412 renamed the 303 Committee; composition and functions unchanged.
+      - act: National Security Decision Memorandum 40
+        date: '1970-02-17'
+        tags: [reorganizes, powers, appointment]
+        url: https://history.state.gov/historicaldocuments/frus1969-76v02/d203
+        does: 'Supersedes NSC 5412/2: the 40 Committee, the Assistant to the President chairman, with the Attorney General, the Under Secretary of State for Political Affairs, the Deputy Secretary of Defense and the Director of Central Intelligence; policy approval of major or sensitive covert programs; annual review.'
+    n: 'The representative of the President: the Special Assistant for National Security Affairs. Members: the Deputy Under Secretary (from 1959 Under Secretary) of State for Political Affairs, the Deputy Secretary of Defense, the Director of Central Intelligence; the Chairman of the Joint Chiefs of Staff attended from 1961; the Attorney General from 1970. Called the 5412 Group or Special Group from 1957 (Check).'
+    holders:
+      - name: Gray, Gordon
+        from: '1958-06-24'
+        to: '1961-01-20'
+        src:
+          - 'Wikipedia: Executive oversight of United States covert operations'
+      - name: Bundy, McGeorge
+        from: '1961-01-20'
+        to: '1966-02-28'
+        n: 'Check: start; Wikipedia gives chairman of the 303 Committee 1964–66.'
+        src:
+          - https://history.state.gov/historicaldocuments/frus1964-68v33/d204
+          - 'Wikipedia: McGeorge Bundy'
