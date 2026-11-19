@@ -68,6 +68,9 @@ STYLE:
     16159: "Mao Zedong nianpu", not "Mao Zedong nian pu"); modified Hepburn keeps its macrons; a chronology (nianpu)
     is its compilers', not its subject's ("Mao isn't the author of his own nianpu"), so the compilers are its
     editors and its short form the title alone.
+    The `script` is taken from a source that prints the characters (the book, a catalogue record, a work citing it in
+    characters), never made up from a romanization (the owner, Nov. 19, 2026, of works cited in Roman form only:
+    "Can we do so safely?"); a card without such a source has no `script` yet.
 """
 import os
 import re
