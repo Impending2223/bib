@@ -5,7 +5,8 @@
 For each revision, the code (`tools/`, `bib`, `templates/`) is taken out of git (`git archive`; a REV of "." is
 the working tree, uncommitted changes and all) into a temporary tree, and every other top-level entry of the data
 directory (--data; default: this checkout) is linked into it, so both sides read the very same files, whatever the
-revisions' own data. Each side runs `./bib check` and then `./bib build [WHICH] --force` (all pages unless --build
+revisions' own data (a hard-linked snapshot taken at the start, so that the checkout changing meanwhile changes
+neither side). Each side runs `./bib check` and then `./bib build [WHICH] --force` (all pages unless --build
 names one; --no-build skips it), each in its own tree, so their build/ directories are their own. Then the check
 outputs are compared, and every file under build/ byte for byte (but for NONDETERMINISTIC, a feed's time of
 writing): the files only one side wrote, the files that differ, and the first differing lines of each.
@@ -64,6 +65,21 @@ def tree(rev, data, where):
     for name in sorted(os.listdir(data)):
         if name not in SKIP:
             os.symlink(os.path.join(data, name), os.path.join(where, name))
+    return where
+
+
+def snapshot(data, where):
+    """The data as it stands now, hard-linked (a copy where links cannot be made), so that a file the checkout
+    rewrites during the run (a merge, a commit, an agent's edit: they replace files) does not reach one side and
+    not the other."""
+    os.makedirs(where)
+    for name in sorted(os.listdir(data)):
+        if name in SKIP:
+            continue
+        s, d = os.path.join(data, name), os.path.join(where, name)
+        if subprocess.run(["cp", "-al", s, d], capture_output=True).returncode:
+            shutil.rmtree(d, ignore_errors=True)
+            (shutil.copytree if os.path.isdir(s) else shutil.copy2)(s, d, **({"symlinks": True} if os.path.isdir(s) else {}))
     return where
 
 
@@ -146,15 +162,18 @@ def main(argv=None):
     tmp = tempfile.mkdtemp(prefix="bib-ab-")
     try:
         sides = {}
+        if not a.own_data:
+            data = snapshot(data, os.path.join(tmp, "data"))
+        for side, rev in (("A", a.rev_a), ("B", a.rev_b)):         # both trees made before either runs
+            sides[side] = (whole(rev, os.path.join(tmp, side)) if a.own_data else tree(rev, data, os.path.join(tmp, side)))
         for side, rev in (("A", a.rev_a), ("B", a.rev_b)):
-            where = (whole(rev, os.path.join(tmp, side)) if a.own_data else tree(rev, data, os.path.join(tmp, side)))
+            where = sides[side]
             code, secs = run(where, ["check"], os.path.join(tmp, f"check-{side}.txt"))
             print(f"{side} {rev}: check exit {code} ({secs:.0f} s)")
             if not a.no_build:
                 code, secs = run(where, ["build"] + ([a.build] if a.build else []) + ["--force"],
                                  os.path.join(tmp, f"build-{side}.txt"))
                 print(f"{side} {rev}: build {a.build or 'all'} exit {code} ({secs:.0f} s)")
-            sides[side] = where
         out = compare(os.path.join(tmp, "check-A.txt"), os.path.join(tmp, "check-B.txt"), "check output")
         if not a.no_build:
             out += compare(os.path.join(tmp, "build-A.txt"), os.path.join(tmp, "build-B.txt"), "build output")
