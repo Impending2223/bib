@@ -2992,6 +2992,10 @@ def pages(series, linker, template):
         if PG.names_parts(L):          # the letter's old page: an anchor to its range's page (pages.py, STYLE 4)
             alias = {k: PG.names_href(filed[pk], pk) for k, pk in _CACHE.get("frus-alias", {}).items()
                      if k[:1] == L and pk in filed}
+            mine_ = {p["page"] for p in PG.names_parts(L)}    # a form joined in an entry of this letter whose own key
+            for a, at in (PG.names_anchors() or anchors(series)).items():   # files it in another range or letter
+                if at in mine_ and PG.names_page(L, a) != at:           # ('teng-hsiao-ping', in Deng's entry)
+                    alias.setdefault(a, f"{at}.html#{a}")
             out[f"names-{L}.html"] = PG.names_stub(L, alias)
         out[f"lives-{L}.html"] = moved(f"names-{L}.html")
     for old in (PG.conf().get("retired") or []):     # a range a later plan replaced: forwarded by its letter's ranges
