@@ -887,3 +887,14 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 "Could you give me a bibliographic rundown of the Lịch sử Đảng Cộng sản Việt Nam? How many editions/reprints/volumes/etc. are there? What's in them? I see three volumes from 1979, one second volume from 1995, various later editions/prints." (Nov. 19, about 5:55 a.m. Pacific.)
 
 "Immediate. This entry is a bit mysterious to me: \"Liu Shaoqi courts the capitalists, but on how long the buying-out interest should run he is very cautious and promises nothing.\" I'm not sure I understand it. What does it mean? Am I just a bit thick, or could this have been drafted a bit more lucidly?" (Nov. 19, about 6:50 a.m. Pacific.)
+
+"Immediate.
+- Set the dateline to show only the first, start times. Keep the balance of the information either somewhere hidden or in the citation block, but keep the display line clean.
+- Write "noon" as "12:00 p.m."
+- I've changed my mind on writing CJK after place, personal names, and titles in the body text. Drop them. Keep them in the citation block.
+- Are we able to identify, and give the CJK for, works MacFarquhar and others only give in Roman form? Can we do so safely? Please do so, if so.
+- The omission of CJK for personal names and work titles first given by Yang Jisheng is stranger still. Do we not have "give the CJK of personal names, location, work titles, etc., on their first appearance" as a standing rule for the citation block? Names in "Names:" should have their CJK given on their first appearance on a page. Please implement all that as a rule if it isn't one already.
+- Is "1960, Spring Festival" not more precisely dateable than "1960"? (There's another festival on here too.)
+- And "1960, 11th lunar month, 7th day"? That can't be hard to figure out, can it?
+- Do we need to split Works? Do we need to split Names further than we have already? I think we do.
+- Do we not have a pass that tells us that size of each page, on calendar pages and otherwise, directs splits, and refactors navigation and pointers after the split pass? Please implement one if not." (Nov. 19, about 7:05 a.m. Pacific; "Not at the moment" to a clarity sweep, the message before.)

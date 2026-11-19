@@ -1,0 +1,37 @@
+patch: 2026-11-19-lunar-dates
+by: lead (the owner, Nov. 19)
+ops:
+- edit:
+    id: cal.1960.china-leadership-19
+    base: b775d340
+    set:
+      date: '1960-01-28'
+      when: Jan. 28, the Spring Festival
+- edit:
+    id: cal.1960.china-leadership-33
+    base: 8f134ea4
+    set:
+      date: '1960-01-28'
+      when: Jan. 28, the Spring Festival
+- edit:
+    id: cal.1960.china-leadership-26
+    base: bdba3c60
+    set:
+      date: '1960-05-29'
+      when: May 29, the Dragon Boat Festival
+- edit:
+    id: cal.1960.china-leadership-20
+    base: a4309bc2
+    set:
+      date: '1960-12-24'
+      when: Dec. 24 (the 7th of the 11th lunar month)
+      time: '1960-12-24T14:00:00Z'
+      time_zone: Asia/Shanghai
+      place: xinyang
+- edit:
+    id: cal.1963.china-leadership-7
+    base: 1b24b704
+    set:
+      date: 1963-01
+      when: Jan., after Chinese New Year (Jan. 25)
+      at: after 1963-01-25
