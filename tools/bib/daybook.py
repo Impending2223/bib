@@ -658,8 +658,8 @@ def inject(page):
     """The styles and the expand/collapse script, where the page has days."""
     if 'class="day' not in page:
         return page
-    from . import committees
-    page = page.replace("</head>", STYLE + committees.STYLE + "\n</head>", 1)
+    from . import committees, footnotes
+    page = page.replace("</head>", STYLE + committees.STYLE + footnotes.STYLE + "\n</head>", 1)
     return page.replace("</body>", SCRIPT + "\n</body>", 1)
 
 
