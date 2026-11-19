@@ -50,6 +50,10 @@ SPLIT = [
     ('the Guiyang 贵阳–Kunming 昆明 railway;', 'the Guiyang–Kunming railway;', [('Guiyang', '贵阳'), ('Kunming', '昆明')]),
     ('the Twenty-three Articles 23条 the guide', 'the Twenty-three Articles the guide',
      [('Twenty-three Articles', '23条')]),
+    # words in corner brackets: after a quotation they gloss it; after a name, they are words of their own
+    ('it to "readjust, consolidate, fill out, raise" 「調整、鞏固、充實、提高」, the', 'it to "readjust, consolidate, fill out, raise", the',
+     [('"readjust, consolidate, fill out, raise"', '「調整、鞏固、充實、提高」')]),
+    ('as Lord Bao did at Chenzhou 「包文丞陳州放糧」.', 'as Lord Bao did at Chenzhou 「包文丞陳州放糧」.', []),
     # kept where they are: the sentence's own words, after a comma, in a quotation, after no word
     ('Deng Xiaoping receives the Albanian Ambassador, 帕里夫蒂 as the page prints his name.',
      'Deng Xiaoping receives the Albanian Ambassador, 帕里夫蒂 as the page prints his name.', []),

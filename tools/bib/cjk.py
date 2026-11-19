@@ -33,7 +33,7 @@ import re
 
 CH = "㐀-䶿一-鿿豈-﫿々〇぀-ヿ가-힯"
 PUNCT = "、。，：；·・“”「-』（）—"
-_B = r"《[^》\n]*》|〈[^〉\n]*〉"
+_B = r"《[^》\n]*》|〈[^〉\n]*〉|「[^」\n]*」|『[^』\n]*』"
 # a word of characters: it opens with a character (or numerals run into one, "23条") and closes with one; numerals,
 # brackets and the like inside ("依靠95%干部", "中發[60]364號")
 _X = rf"(?:{_B}|[{CH}]|\d+(?=[{CH}]))(?:(?:{_B}|[{CH}{PUNCT}\d\[\]×%％])*(?:{_B}|[{CH}”）]))?"
@@ -157,8 +157,8 @@ def split(text):
                 continue
             b = b[:comma.start()] + comma.group(1)
         lab = _label(b) if b else None
-        if lab is None:
-            continue
+        if lab is None or (m.group("run")[0] in "「『" and lab[0] not in "\"“'‘"):
+            continue                                 # words quoted in corner brackets gloss only a quotation
         if comma:                                    # ... and only where the label is all it holds ("the" aside)
             inner = re.search(r"\(([^()]*)$", b)
             if not inner or re.sub(r"^(?:the|a|an) ", "", inner.group(1)).rstrip("\"”'’").lstrip("\"“'‘") \
