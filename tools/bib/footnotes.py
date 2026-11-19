@@ -20,7 +20,8 @@ STYLE
     word for word, "*id*.".
  5. The first citation of a work on the page is printed in full (works.py, FIRST CITE): the footnotes are run through it
     in their order, so the full form falls in the first footnote that cites the work; the characters after romanized
-    Chinese (cjk.py) the same.
+    Chinese (cjk.py) the same; the line's own characters are dropped and given after the names or in a closing
+    "Characters:" sentence (cjk.py, STYLE 3), and its units rendered the same way, so the marks still land.
  6. The marks sit inside the last claim's span (vispage.py), so a hidden claim takes its mark with it.
 """
 import re
