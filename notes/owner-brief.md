@@ -883,3 +883,5 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 "Could we not check and place all approximate dates? I'm not sure even your 24 catch nearly all the ones I was thinking of." (Nov. 19, about 6:00 a.m. Pacific.)
 
 "Do our readers and auditors not know to enter the date, time, approximate date, approximate time, and location fields we are asking for? Are we not asking for them? Could we fix that? Permanently?" (Nov. 19, about 6:10 a.m. Pacific.)
+
+"Could you give me a bibliographic rundown of the Lịch sử Đảng Cộng sản Việt Nam? How many editions/reprints/volumes/etc. are there? What's in them? I see three volumes from 1979, one second volume from 1995, various later editions/prints." (Nov. 19, about 5:55 a.m. Pacific.)
