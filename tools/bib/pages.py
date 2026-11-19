@@ -60,6 +60,18 @@ def reset():
     _CONF.clear()
     WORKS.clear()
     MAPS.clear()
+    NAMES.clear()
+
+
+NAMES = {}        # "fn": the maker of {anchor: page} for the names in ranges (lives.anchors), set by prepare; "map"
+
+
+def names_anchors():
+    """{anchor: page} for the Names entries in ranges, made once on first use: a form joined in an entry (a span)
+    goes where its person is, not where its own key would file it."""
+    if "map" not in NAMES:
+        NAMES["map"] = NAMES["fn"]() if NAMES.get("fn") else {}
+    return NAMES["map"]
 
 
 def family(name):
@@ -184,6 +196,9 @@ def prepare(series):
     """The maps the builders and the router read before any page is written: the works' letters (from the cards'
     filing, bibliography.letters)."""
     WORKS.clear()
+    if conf().get("names") and series is not None:
+        from . import lives
+        NAMES["fn"] = lambda: lives.anchors(series)
     if works_split() and series is not None:
         from . import bibliography
         for cid, L in bibliography.letters(series).items():
@@ -376,7 +391,8 @@ def _home(base, anchor):
     if base.startswith("names-") and len(base) == len("names-x.html"):
         L = base[6]
         if names_parts(L):
-            return names_page(L, anchor)
+            exact = names_anchors()
+            return exact.get(anchor) or names_page(L, anchor)
         return None
     if base == "works.html":
         return WORKS.get(anchor) if WORKS else None
@@ -754,7 +770,7 @@ HEAD = """# The pages' size budget and the splits it directs (tools/bib/pages.py
 def write_conf(c, path=None):
     import yaml
     path = path or PATH
-    keep = {k: c[k] for k in ("budget", "budgets", "fill", "exempt", "works", "names", "executive", "congress",
+    keep = {k: c[k] for k in ("budget", "budgets", "fill", "why", "exempt", "works", "names", "executive", "congress",
                               "retired") if c.get(k) not in (None, {}, [])}
     store.atomic_write(path, HEAD + yaml.safe_dump(keep, sort_keys=False, allow_unicode=True, width=110))
     _CONF.clear()

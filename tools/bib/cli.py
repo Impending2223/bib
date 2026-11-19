@@ -220,6 +220,7 @@ def cmd_links(series, a):
         text = open(path, encoding="utf-8").read()
         return text + lazydays.fragments(path)
     bad = collections.Counter()
+    gone = collections.Counter()          # links to a page the build did not write
     shown = collections.defaultdict(list)
     for name, path in sorted(pages.items()):
         if name.startswith("lives"):
@@ -227,15 +228,25 @@ def cmd_links(series, a):
         text = page_text(path)
         for href in re.findall(r'href="([^"#:]*\.html)?#([^"]+)"', text):
             target, frag = href[0] or name, H.unescape(href[1])
-            if target not in pages or frag in ids_of(target) or "'" in frag:    # (a script's template, not a link)
+            if "'" in frag or "{" in target:                  # (a script's template, not a link)
+                continue
+            if target not in pages and "/" not in target:     # a page of the site that was not built (pages.py: a split)
+                gone[(name, target)] += 1
+                continue
+            if target not in pages or frag in ids_of(target):
                 continue
             bad[(name, target)] += 1
             if len(shown[(name, target)]) < 3:
                 shown[(name, target)].append(frag)
+        for target in re.findall(r'href="([^"#:/]+\.html)"', text):
+            if target not in pages:
+                gone[(name, target)] += 1
     for (src, dst), n in sorted(bad.items()):
         print(f"{src} -> {dst}: {n} missing, e.g. {', '.join(shown[(src, dst)])}")
-    print(f"{sum(bad.values())} links to missing anchors")
-    return 1 if bad else 0
+    for (src, dst), n in sorted(gone.items()):
+        print(f"{src} -> {dst}: no such page ({n} links)")
+    print(f"{sum(bad.values())} links to missing anchors; {sum(gone.values())} to missing pages")
+    return 1 if bad or gone else 0
 
 
 def cmd_pages(series, a):

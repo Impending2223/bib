@@ -3003,6 +3003,21 @@ def pages(series, linker, template):
     return out
 
 
+def anchors(series):
+    """{anchor: page} for every name entry where its letter is in ranges (pages.py): the person's key, its heading's,
+    and the keys of the forms joined in it (its spans), each on the page the person's key puts it."""
+    from . import pages as PG
+    out = {}
+    for p in everyone(series):
+        L, k = letter_of(p), key_of(p["name"])
+        if not PG.names_parts(L):
+            continue
+        pg = PG.names_page(L, k)
+        for a in [k, f"{k}-h"] + list(frus_keys_of(k)):
+            out.setdefault(a, pg)
+    return out
+
+
 def seam_line(seq, i):
     """A range's page, at its head and foot: the page before, the index, the page after (pages.py, STYLE 5)."""
     xs = ([f'<a class="lvp" href="{seq[i - 1][0]}.html">‹ {seq[i - 1][1]}</a>'] if i else []) + \

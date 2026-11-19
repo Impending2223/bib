@@ -45,6 +45,13 @@ The 1968 series: a calendar, a bibliography and a set of reference tables for Am
 | [The primaries of 1972 and 1976](https://impending2223.github.io/bib/calprimaries.html) | The primaries of 1972 and 1976 |
 <!-- calendar-pages:end -->
 
+### The other pages
+
+Names, Works, the Executive and Congress are each an index and a page a part, as the pages' size budget directs (`./bib pages`).
+
+<!-- other-pages:start -->
+<!-- other-pages:end -->
+
 ### The themed lists
 
 Eight earlier lists, each in three parts: portrayals (I), sources (II), names (III). Their works are in Works, where the calendar's citations point; their Part III is the source of the Names entries.
