@@ -35,6 +35,7 @@ def jobs(tmp_path_factory):
            "check": POOL.submit(bib, built, "check"),
            "build": POOL.submit(bib, built, "build", "--force")}
     out.update({("scenario", n): POOL.submit(run_scenario, n, base / n) for n in SCENARIOS})
+    bib(queried, "status")       # the queries' copy parsed once (its .cache), while the pool runs the rest
     out.update({("query", n): POOL.submit(bib, queried, *args) for n, args in QUERIES})
     return out
 
