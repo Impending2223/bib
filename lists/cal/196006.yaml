@@ -199,13 +199,26 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: 'Hangzhou 杭州, Mao''s 毛泽东 swimming pool, 10:30 a.m. to 3 p.m.: the fourth volume of the *Selected Works* 毛选 again; Yang Shangkun 杨尚昆 there.'
-    n: '[[w.yang-shangkun-riji]], I, 514 (June 2, 1960). The words: 上午9时半去游泳池，10时半起谈毛选，到3点回 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (June 2, 1960); [[w.mao-zedong-zhuan]], V, ch. 65 (May 24 to June 2: the last of the days Mao spends on the headnotes and notes of the fourth volume). The words: 上午9时半去游泳池，10时半起谈毛选，到3点回 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
     src:
       c: b8fd5871
       rows:
         - 'w.yang-shangkun-riji I, 514: all'
+        - 'w.mao-zedong-zhuan V, ch. 65: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-02.china-leadership-4
+    when: June 2
+    date: '1960-06-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The capital's public memorial for Lin Boqu 林伯渠; Deng Xiaoping 邓小平 gives the eulogy for the Central Committee.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1554 (June 2, 1960). See [[cal.1960-06-01.china-leadership]]. Names: Deng Xiaoping, Lin Boqu.'
+    src:
+      c: 10bc364d
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1554: all'
+    tags: [polity:prc, name:deng-xiaoping, name:lin-boqu]
   - id: cal.1960-06-03.china-leadership
     when: June 3
     date: '1960-06-03'
@@ -348,6 +361,22 @@ entries:
         - 'w.yang-jisheng-mubei I, 46: all'
         - 'via w.yang-jisheng-mubei I, 46 n.19: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-03.china-leadership-7
+    when: June 3
+    date: '1960-06-03'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on the enlarged Politburo at Shanghai. Deng, on boasting in some places: too optimistic before; chiefly boasting and false reports, not too large a safety margin; big communes reporting falsely; the three antis 三反 done well; save, eat and use less, even in a good harvest.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1555 (June 3, 1960). The words: 上午 (III, 1555). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: a00a5833
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1555: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-02T22:00Z
+      - 1960-06-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-04.china-leadership
     when: June 4–6
     date: '1960-06-04'
@@ -368,11 +397,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking. The Secretariat, Deng Xiaoping presiding, on the CPSU letter of June 2. Agrees to a meeting on the common ground (the Moscow Declaration, Khrushchev''s line for the summit) and to shielding Khrushchev, on what base to be settled; suspects the meeting aims to attack China. No meeting now: put off to about November, August at the earliest; widen it to all parties as in 1957, with a drafting committee and a Sino-Soviet joint group; at Bucharest only talks. Deng: spread the views of the Lenin articles. A reply to be drafted at Peking and finished at Shanghai.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 273–276. Made public: 1999. See [[cal.1960-06-02.soviet-union]]. Names: Deng Xiaoping, Khrushchev. Check: the day: Wu writes 4 June.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 273–276; [[w.deng-xiaoping-nianpu-1904]], III, 1555–1556 (June 4, 1960; Deng presides; the CPSU letter of June 2 proposing a meeting of the socialist countries'' parties at Bucharest during the Romanian Workers'' Party''s Third Congress; the Secretariat agrees to the meeting but, time being short, would propose putting it off). Made public: 1999. See [[cal.1960-06-02.soviet-union]]. Names: Deng Xiaoping, Khrushchev. Check: the day: Wu writes 4 June.'
     src:
       c: bd776e73
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 273–276: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1555–1556: ?'
     tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-06-04.china-leadership-3
     when: June 4
@@ -446,12 +476,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking. Deng Xiaoping, Liu Shaoqi and Zhou Enlai attend the Central Committee's symposium with the heads of the communist and workers' parties among the delegations to the World Federation of Trade Unions' council. Liu Ningyi, heading the Chinese delegation, states China's views; Grishin, heading the Soviet delegation, objects, refuses Deng's explanation and Liu's and Zhou's plea to stay, and walks out.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 276; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487–488 (June 5, 1960; Liu, with Zhou Enlai and Deng Xiaoping, calls together the brother parties'' delegates to the 11th session of the World Federation of Trade Unions'' general council and talks with them, setting out the Central Committee''s view of the disputed questions in the international communist movement). Made public: 1996. See [[cal.1960-06.china]]. Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai. Check: Wu has it from Yang Shangkun, not an eyewitness; the Soviet side later made the walkout a ground of complaint (p. 276).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 276; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487–488 (June 5, 1960; Liu, with Zhou Enlai and Deng Xiaoping, calls together the brother parties'' delegates to the 11th session of the World Federation of Trade Unions'' general council and talks with them, setting out the Central Committee''s view of the disputed questions in the international communist movement); [[w.deng-xiaoping-nianpu-1904]], III, 1556–1557 (June 5, 1960; evening; at Liu Shaoqi''s banquet for the Party members of the WFTU Executive Bureau and Secretariat and the heads of the socialist countries'' delegations Deng speaks for the Central Committee: Lenin''s theory of imperialism not outdated; the Moscow Declaration right; the differences come to two questions, whether Leninism and the Moscow Declaration are outdated; the Chinese party wishes to raise them for all to discuss); [[w.mao-zedong-zhuan]], V, ch. 66 (June 5 at Peking: Grishin, head of the Soviet trade union delegation, objects to Liu Ningyi''s address at the symposium, refuses Deng Xiaoping''s explanation and leaves (the book''s n.37)). Made public: 1996. See [[cal.1960-06.china]]. Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai. Check: Wu has it from Yang Shangkun, not an eyewitness; the Soviet side later made the walkout a ground of complaint (p. 276).'
     src:
       c: 843c8512
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 276: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487–488: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1556–1557: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: C-D'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, vis:only:prc+ussr]
   - id: cal.1960-06-05.china-leadership-2
     when: June 5
@@ -477,12 +509,47 @@ entries:
     follows:
       - cal.1960-06-05.china-leadership-2
     c: Yang Shangkun 杨尚昆 telephones Mao's 毛泽东 view on the brother parties' meeting to Deng Xiaoping 邓小平, 11:30 a.m.
-    n: '[[w.yang-shangkun-riji]], I, 515 (June 5, 1960). The words: 11时半电话告知了小平同志 (I, 515). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 515 (June 5, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1556 (June 5, 1960; Mao at Hangzhou, with Kang Sheng and Yang Shangkun, proposes suggesting to the CPSU a meeting of all the parties on Nov. 7; Yang telephones it to Deng). The words: 11时半电话告知了小平同志 (I, 515). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Deng Xiaoping.'
     src:
       c: 606b6cb9
       rows:
         - 'w.yang-shangkun-riji I, 515: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1556: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-4
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 calls those concerned together on the speech for the evening's banquet for the Party members of the World Federation of Trade Unions' 世界工联 Executive Bureau and Secretariat and the heads of the socialist countries' delegations.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1556 (June 5, 1960). The words: 上午 (III, 1556). The council''s eleventh session sat in Peking June 5–9 (III, 1556). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 2d225a06
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1556: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-04T22:00Z
+      - 1960-06-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-5
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Deng Xiaoping 邓小平 chairs a meeting of the Politburo and the Secretariat 书记处 on the CPSU Central Committee''s letter of June 2. Two possibilities in a Bucharest meeting: a common front against the enemy, or Khrushchev, holding that the Chinese party will not "set its watch" 对表 by his, using unity to discipline it. Proposed: the meeting put off to about the October Revolution''s anniversary, widened to all the parties, with a drafting committee.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1556 (June 5, 1960). The words: 下午 (III, 1556). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Khrushchev.'
+    src:
+      c: abcaed73
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1556: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1960-06-05T04:00Z
+      - 1960-06-05T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1960-06-06.governors-ia
     when: June 6
@@ -614,6 +681,17 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 516: all'
     tags: [polity:prc, name:zhou-enlai, name:peng-zhen, vis:only:prc]
+  - id: cal.1960-06-06.china-leadership-6
+    when: June 6
+    date: '1960-06-06'
+    thread: china-leadership
+    c: The Center's 中央 "Urgent notice on moving grain for Peking, Tianjin, Shanghai and Liaoning" 《关于为京、津、沪和辽宁调运粮食的紧急通知》.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1554 (June 6, 1960). Made public: 2009 (the nianpu). See [[cal.1960-05-28.china-leadership-8]].'
+    src:
+      c: d5def5b3
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1554: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-06-07.elections-1960
     when: June 7
     date: '1960-06-07'
@@ -754,6 +832,20 @@ entries:
         - 'w.yang-shangkun-riji I, 516: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-07.china-leadership-7
+    when: June 7
+    date: '1960-06-07'
+    place:
+      - peking
+      - shanghai
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 flies to Shanghai 上海.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 7, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 48c27d3e
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1557: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1960-06-08.elections-1960
     when: June 8
     date: '1960-06-08'
@@ -826,7 +918,7 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai. The enlarged Politburo, Mao presiding, on the supplementary plan for 1960–62 and the world: plans to leave a margin, agriculture the base and to be hurried; the fourteen targets for the three years cut sharply.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8–18, 1960; Liu attends the enlarged Politburo meeting at Shanghai: the international situation, the supplementary plan for the last three years of the Second Five-Year Plan (1960–62), and a summing up of the experience of economic construction). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8–18, 1960; Liu attends the enlarged Politburo meeting at Shanghai: the international situation, the supplementary plan for the last three years of the Second Five-Year Plan (1960–62), and a summing up of the experience of economic construction); [[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 8–18, 1960; Deng attends; the supplementary plan for 1960–62 and the lessons of economic construction; on the 18th Mao''s "Ten-year summary" 十年总结 printed: a great blindness still about socialist revolution and construction, a realm of necessity not yet known, the second decade to study its laws); [[w.mao-zedong-zhuan]], V, ch. 66 (Jun. 8–18 at Shanghai, the Jinjiang Hotel 锦江饭店: the enlarged Politburo on the supplementary plan for the last three years of the second five-year plan; the targets pressed down). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
     src:
       c: 817f33bf
       rows:
@@ -837,6 +929,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.2b: A-B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.2c: A-B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1557: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: A, C'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-06-08.china-leadership-2
     when: June 8
@@ -860,13 +954,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai at the symposium of the enlarged Politburo, Liu Shaoqi in the chair, with heads of the regions, provinces, cities and some central departments (Liu: not a formal meeting but a briefing on international questions). Zhou reports on the visit he and Chen Yi made to six countries and on four questions of principle on which the two parties differ: the nature of imperialism and the source of war; disarmament; peaceful coexistence; support for the revolutionary struggle of oppressed peoples.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 8, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 277–278 (the meeting began on the 8th with a symposium under Liu; Zhou on the international situation (the summit''s collapse) and his tour with Chen Yi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8, 1960; Liu presides at the symposium of the regions'', provinces'', cities'' and central departments'' responsible officials on international questions and hears Zhou Enlai). Made public: 1996. Names: Zhou Enlai, Chen Yi, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 325 (June 8, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 277–278 (the meeting began on the 8th with a symposium under Liu; Zhou on the international situation (the summit''s collapse) and his tour with Chen Yi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8, 1960; Liu presides at the symposium of the regions'', provinces'', cities'' and central departments'' responsible officials on international questions and hears Zhou Enlai); [[w.deng-xiaoping-nianpu-1904]], III, 1557–1558 (June 8, 1960; Deng at Liu Shaoqi''s symposium, which hears Zhou on international questions). Made public: 1996. Names: Zhou Enlai, Chen Yi, Liu Shaoqi.'
     src:
       c: 894827b4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 325: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 277–278: A, B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1557–1558: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yi, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-06-08.china-leadership-5
     when: June 8–14
@@ -897,11 +992,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Shanghai 上海. Deng Xiaoping 邓小平 calls a meeting on how to answer the Soviet Central Committee's letter of June 2 苏共中央6月2日来信; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], I, 516 (June 8, 1960). The words: 上午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 8, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 8–9, 1960; Deng calls those concerned on the answer to the CPSU''s letters of June 2 and June 7 (the latter agreeing to put off the meeting, with an exchange of views at Bucharest and no decisions)). The words: 上午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
     src:
       c: 5dec792c
       rows:
         - 'w.yang-shangkun-riji I, 516: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1557: B'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-06-07T22:00Z
@@ -1069,13 +1165,15 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Shanghai. The enlarged Standing Committee, Mao presiding, on the reply to the CPSU''s letters of June 2 and 7: a delegation under Peng Zhen, with Kang Sheng and Wang Jiaxiang, to the Romanian party''s congress, June 20–25, and the twelve parties'' talks. Mao: be ready to be attacked, the summit''s failure blamed on China, and to be courted.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 9, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (before the meeting closed the Standing Committee named Peng Zhen to lead the delegation to the Romanian congress and the meeting of the parties at Bucharest); [[w.yang-shangkun-riji]], I, 516–517 (June 9, 1960; 3:30 p.m., Mao''s Standing Committee on the reply; Peng Zhen, Kang Sheng and Wang Jiaxiang to go to the Romanian party''s congress). Made public: 1999. Check: the second Soviet letter: the diary dates it June 6 ([[w.yang-shangkun-riji]], I, 516). Names: Mao Zedong, Peng Zhen, Kang Sheng, Wang Jiaxiang, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Chen Yi, Li Fuchun, He Long, Li Xiannian, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 9, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (before the meeting closed the Standing Committee named Peng Zhen to lead the delegation to the Romanian congress and the meeting of the parties at Bucharest); [[w.yang-shangkun-riji]], I, 516–517 (June 9, 1960; 3:30 p.m., Mao''s Standing Committee on the reply; Peng Zhen, Kang Sheng and Wang Jiaxiang to go to the Romanian party''s congress); [[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 8–9, 1960; meanwhile Deng at Mao''s meeting on the question); [[w.mao-zedong-zhuan]], V, ch. 66 n.38 (June 8 and 9 at Shanghai: the enlarged Standing Committee on the CPSU''s letters of June 2 and 7; Mao, in Wu Lengxi''s account (n.38): two hands to prepare, that they will bring us to heel and that they will draw us in; the Standing Committee decides Peng Zhen is to lead the delegation to the Romanian congress, which leaves June 16). Made public: 1999. Check: the second Soviet letter: the diary dates it June 6 ([[w.yang-shangkun-riji]], I, 516). Names: Mao Zedong, Peng Zhen, Kang Sheng, Wang Jiaxiang, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Chen Yi, Li Fuchun, He Long, Li Xiannian, Luo Ruiqing.'
     src:
       c: a60e73ac
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 9, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278: B'
         - 'w.yang-shangkun-riji I, 516–517: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1557: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.38: C'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:kang-sheng, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:chen-yi, name:li-fuchun, name:he-long, name:li-xiannian, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-06-09.china-leadership-2
     when: June 9
@@ -1096,11 +1194,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Shanghai 上海. Deng Xiaoping 邓小平 calls Yang Shangkun 杨尚昆 and others on drafting a new reply to the Soviet Central Committee.
-    n: '[[w.yang-shangkun-riji]], I, 516 (June 9, 1960). The words: 上午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 516 (June 9, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 9, 1960; Deng''s meeting decides on Peng Zhen, Kang Sheng and Wang Jiaxiang for the Romanian party''s congress and the meeting of the twelve parties; footnote 1: Wang, ill, replaced by Wu Xiuquan). The words: 上午 (I, 516). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
     src:
       c: 572f3337
       rows:
         - 'w.yang-shangkun-riji I, 516: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1557: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-06-08T22:00Z
@@ -1185,13 +1284,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Chairman of the Central Committee, to the CPSU: the parties'' conference and the Warsaw Treaty session put off, as the letter of June 7 proposed; the delegations at the Romanian congress to talk over the date and place first. Also proposed: the capitalist world''s parties at the conference, fourteen named; a drafting committee for its declaration.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 10, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 277–278 (the reply sent June 10 after the Standing Committee had revised it; Mao: prepare two ways, to be attacked and to be courted); [[w.jianguo-yilai-mao-zedong]], XV, 236–238 (June 10, 1960; the reply, printed from the typeset copy in the Central Archives, a revised copy extant; the fourteen: France, Italy, Britain, the United States, Canada, Mexico, Brazil, Cuba, Indonesia, India, Japan, Iraq, Syria, Australia). Made public: 1999. Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 10, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 277–278 (the reply sent June 10 after the Standing Committee had revised it; Mao: prepare two ways, to be attacked and to be courted); [[w.jianguo-yilai-mao-zedong]], XV, 236–238 (June 10, 1960; the reply, printed from the typeset copy in the Central Archives, a revised copy extant; the fourteen: France, Italy, Britain, the United States, Canada, Mexico, Brazil, Cuba, Indonesia, India, Japan, Iraq, Syria, Australia); [[w.deng-xiaoping-nianpu-1904]], III, 1558 (June 10, 1960; Shanghai; Deng drafts the reply in Mao''s name: besides the twelve parties of the socialist camp, all the communist and workers'' parties of the capitalist world; a drafting committee first, with the brother parties'' consent, to prepare a declaration for prior discussion; Mao revises it before it goes). Made public: 1999. Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong.'
     src:
       c: 00b93156
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 10, 1960: A, B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 277–278: A'
         - 'w.jianguo-yilai-mao-zedong XV, 236–238: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1558: D'
     tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc+ussr]
   - id: cal.1960-06-10.china-leadership-2
     when: June 10
@@ -1200,12 +1300,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Shanghai. Liu Shaoqi presides at the symposium of the regions'', provinces'', cities'' and central departments'' chief officials. He opens: in the last half-year the work has had serious problems, in grain, dropsy, abnormal deaths, accidents and the fulfillment of the plan. Everyone wants more and faster, a bigger plate, more construction; the plan has been too high, the demands too urgent, the press too loud, and the Center is included. The Lushan meeting meant to sum this up, but the Peng Dehuai affair pushed it aside. If not corrected the problems, now one finger, may grow to two or three.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488–489 (June 10, 1960); [[w.yang-shangkun-riji]], I, 517 (June 10, 1960; morning and afternoon, unfinished). Made public: 1996. Names: Liu Shaoqi, Peng Dehuai.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488–489 (June 10, 1960); [[w.yang-shangkun-riji]], I, 517 (June 10, 1960; morning and afternoon, unfinished); [[w.deng-xiaoping-nianpu-1904]], III, 1558 (June 10, 1960; Deng attends; Bo Yibo, Tan Zhenlin, Li Xiannian and Li Fuchun on industry and communications, agriculture, grain and livelihood, and the supplementary plan. Deng: those present are the ones in charge; not to forget the "one finger" or less; heads hot but cooler; some comrades have lost the Party''s tradition of seeking truth from facts; for the three-year plan "right opportunism" better, with room to spare). Made public: 1996. Names: Liu Shaoqi, Peng Dehuai.'
     src:
       c: 4ca6c856
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488–489: ?'
         - 'w.yang-shangkun-riji I, 517: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1558: ?'
     tags: [polity:prc, name:liu-shaoqi, name:peng-dehuai, vis:only:prc]
   - id: cal.1960-06-10.china-leadership-3
     when: June 10
@@ -1281,13 +1382,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Shanghai. Mao with Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng and Wang Jiaxiang on the delegation to Bucharest. Its line in six phrases: hold to unity, hold to principle, learn the facts, strike after being struck, argue with reason, leave room.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278–279 (Peng Zhen, left in Peking, called to Shanghai after the delegation was chosen, joined the Standing Committee''s talk on its line; Mao''s six phrases as Peng later told Wu); [[w.yang-shangkun-riji]], I, 517 (June 11, 1960; 5:30 p.m., Mao''s Standing Committee; Peng Zhen and Wang Jiaxiang arrived, the journey abroad talked over at Mao''s). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng, Wang Jiaxiang, Wu Xiuquan, Xu Jianguo, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 11, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278–279 (Peng Zhen, left in Peking, called to Shanghai after the delegation was chosen, joined the Standing Committee''s talk on its line; Mao''s six phrases as Peng later told Wu); [[w.yang-shangkun-riji]], I, 517 (June 11, 1960; 5:30 p.m., Mao''s Standing Committee; Peng Zhen and Wang Jiaxiang arrived, the journey abroad talked over at Mao''s); [[w.deng-xiaoping-nianpu-1904]], III, 1558–1559 (June 11, 1960; afternoon; Deng at Mao''s meeting on the delegation''s line at the Romanian congress; Mao''s six phrases). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Kang Sheng, Wang Jiaxiang, Wu Xiuquan, Xu Jianguo, Khrushchev.'
     src:
       c: a95d6437
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 11, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278–279: B, C'
         - 'w.yang-shangkun-riji I, 517: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1558–1559: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc]
   - id: cal.1960-06-11.china-leadership-2
     when: June 11
@@ -1408,13 +1510,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Shanghai, the Culture Club. Mao''s meeting (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing): the targets of the supplementary plan lowered and the plan redone; shelling Quemoy.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1960; [[w.zhou-enlai-nianpu-1949]], II, 326, June 13, 1960 (Zhou present at Mao''s meeting on Quemoy); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 13, 1960; Liu attends the meeting Mao convenes on the Quemoy question). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1960; [[w.zhou-enlai-nianpu-1949]], II, 326, June 13, 1960 (Zhou present at Mao''s meeting on Quemoy); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 489 (June 13, 1960; Liu attends the meeting Mao convenes on the Quemoy question); [[w.deng-xiaoping-nianpu-1904]], III, 1559 (June 13, 1960; afternoon; Deng at Mao''s meeting on the supplementary plan). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing.'
     src:
       c: 3b5e1bdf
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 13, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 326, June 13, 1960: C'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 489: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1559: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:chen-yi, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-06-13.china-leadership-3
     when: June 13
@@ -1485,13 +1588,15 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai, the enlarged Politburo. Mao: the targets to be set again (Li Fuchun: steel 30 million tons, grain 600 billion jin in 1962); set them low and beat them in the year, as the Eighth Congress''s plan of 1956 did, its best part the low targets.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960; [[w.yang-shangkun-riji]], I, 518 (June 14, 1960; the plenary, 3:30 to 6 p.m.; Mao''s views on planning); [[w.yang-jisheng-mubei]], II, 1170 (the enlarged Politburo at the Jinjiang Hotel, Shanghai, June 10–18; Mao, in his speech of June 14, proposes lowering the plan''s targets, steel''s quality, kinds and scale first and its quantity second). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 518), before the year the note gives. Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960; [[w.yang-shangkun-riji]], I, 518 (June 14, 1960; the plenary, 3:30 to 6 p.m.; Mao''s views on planning); [[w.yang-jisheng-mubei]], II, 1170 (the enlarged Politburo at the Jinjiang Hotel, Shanghai, June 10–18; Mao, in his speech of June 14, proposes lowering the plan''s targets, steel''s quality, kinds and scale first and its quantity second); [[w.mao-zedong-zhuan]], V, ch. 66 n.39 (June 14: Mao on the plan, set the targets low and put quality first, the best part of the Eighth Congress''s plan of 1956 its low targets). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 518), before the year the note gives. To check: Mao Zedong 毛泽东, speech at the enlarged Politburo meeting 中共中央政治局扩大会议, Shanghai, June 14, 1960 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.39). Names: Mao Zedong, Li Fuchun.'
     src:
       c: 8824ffb3
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 14, 1960: all'
         - 'w.yang-shangkun-riji I, 518: A'
         - 'w.yang-jisheng-mubei II, 1170: A-B'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.39: C'
+        - 'via w.mao-zedong-zhuan V, ch.66 n.39: C'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-14.china-leadership-2
     when: June 14
@@ -1554,6 +1659,17 @@ entries:
       - 1960-06-14T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-14.china-leadership-6
+    when: June 14
+    date: '1960-06-14'
+    thread: china-leadership
+    c: 'Mao Zedong 毛泽东, on the Peking municipal committee''s request on shelters for the leading organs and the underground railway, sent on by Deng Xiaoping 邓小平: back to Yang Shangkun 杨尚昆 to carry out.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1551 (June 14, 1960). Made public: 2009 (the nianpu). See [[cal.1960-05-22.china-leadership-7]]. Names: Mao Zedong, Deng Xiaoping.'
+    src:
+      c: 15c1cbc5
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1551: all'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1960-06-15.japan-and-korea
     when: June 15–16
     date: '1960-06-15'
@@ -1775,12 +1891,13 @@ entries:
     thread: china-leadership
     also: [china, japan-and-korea-far-east]
     c: Shanghai. The enlarged Standing Committee, Mao presiding (Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing), on shelling Quemoy before and after Eisenhower's visit to Taiwan.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, and note 90; [[w.yang-shangkun-riji]], I, 519 (June 16, 1960; 7 to 8:30 p.m.; the shelling of Quemoy). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 519), before the year the note gives. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing, Eisenhower.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 16, 1960, and note 90; [[w.yang-shangkun-riji]], I, 519 (June 16, 1960; 7 to 8:30 p.m.; the shelling of Quemoy); [[w.deng-xiaoping-nianpu-1904]], III, 1559 (June 16, 1960; evening; Deng at Mao''s meeting on shelling Quemoy). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 519), before the year the note gives. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, He Long, Nie Rongzhen, Luo Ruiqing, Eisenhower.'
     src:
       c: 2ee73fe5
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 16, 1960, and note 90: all'
         - 'w.yang-shangkun-riji I, 519: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1559: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:nie-rongzhen, name:luo-ruiqing, name:eisenhower-dwight-d, vis:only:prc]
   - id: cal.1960-06-16.soviet-union
     when: June 16
@@ -1789,7 +1906,7 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Moscow. Peng Zhen's delegation, left Peking that day, meets Kozlov of the Presidium for eight hours of argument. Kozlov faults the three Lenin articles and the Peking trade-union meeting, in theory and in organization, a typed document of some twenty pages in hand; asked how the Bucharest meeting is to go, he says it will be settled there. The delegation cables that it is not a good sign.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280. Made public: 1999. See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280. Made public: 1999. Check: the Deng nianpu''s footnote (III, 1565 n.1) dates the Moscow talks of Peng Zhen''s delegation with Kozlov June 17, 1960. See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
     src:
       c: 29cdd746
       rows:
@@ -1809,11 +1926,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Shanghai 上海. The Secretariat 书记处 on the revised draft of Li Fuchun's 李富春 report to the third session.
-    n: '[[w.yang-shangkun-riji]], I, 518 (June 16, 1960). The words: 上午 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun. Check: which third session: the page reads 人大三次代表会.'
+    n: '[[w.yang-shangkun-riji]], I, 518 (June 16, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1559 (June 16, 1960; morning; Deng presides). The words: 上午 (I, 518). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun. Check: which third session: the page reads 人大三次代表会.'
     src:
       c: cef4dc57
       rows:
         - 'w.yang-shangkun-riji I, 518: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1559: ?'
     tags: [polity:prc, name:li-fuchun, vis:only:prc]
     time_range:
       - 1960-06-15T22:00Z
@@ -1942,13 +2060,15 @@ entries:
     date: '1960-06-18'
     thread: china-leadership
     c: 'Mao writes the "Ten-Year Summary": eight years of copying foreign experience; from the "Ten Great Relationships" of 1956 a Chinese line begun; the general line and the leap, 1958; the communes found workable, their disorders; the targets of 1958–59 too high, the mistakes now to be owned.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.jianguo-yilai-mao-zedong]], XV, 247–252 (June 18, 1960; Mao''s 毛泽东 text ''Ten-Year Summary'' 十年总结, dated 8 a.m. June 18, written in two hours, he says, for his talk that afternoon at the Shanghai 上海 meeting; printed from the typeset copy in the Central Archives (a manuscript exists)); [[w.yang-jisheng-mubei]], II, 1170–1171 (during the Shanghai meeting Mao writes the "Ten-Year Summary" 《十年總結》, beginning to own the error of the high targets of the years before). Made public: 2013. To check: *Jianguo yilai Mao Zedong wengao*, the "Ten-Year Summary". Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.jianguo-yilai-mao-zedong]], XV, 247–252 (June 18, 1960; Mao''s 毛泽东 text ''Ten-Year Summary'' 十年总结, dated 8 a.m. June 18, written in two hours, he says, for his talk that afternoon at the Shanghai 上海 meeting; printed from the typeset copy in the Central Archives (a manuscript exists)); [[w.yang-jisheng-mubei]], II, 1170–1171 (during the Shanghai meeting Mao writes the "Ten-Year Summary" 《十年總結》, beginning to own the error of the high targets of the years before); [[w.mao-zedong-zhuan]], V, ch. 66 n.40 (Mao writes the "Ten-Year Summary" early on June 18, in two hours: eight years of copying the foreign, and from the "Ten Great Relationships" of 1956 a line of China''s own; the book also gives judgments of it the editors call wrong). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). To check: *Jianguo yilai Mao Zedong wengao*, the "Ten-Year Summary"; Mao Zedong 毛泽东, "Ten-Year Summary" 《十年总结》 (manuscript 手稿), June 18, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.40). Names: Mao Zedong.'
     src:
       c: 0730d94e
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 18, 1960: all'
         - 'w.jianguo-yilai-mao-zedong XV, 247–252: A, B, C, D, E'
         - 'w.yang-jisheng-mubei II, 1170–1171: A, E'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.40: A-B'
+        - 'via w.mao-zedong-zhuan V, ch.66 n.40: A-B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-06-18.china-leadership-2
     when: June 18
@@ -1956,13 +2076,16 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai, the enlarged Politburo''s closing session; Mao speaks. Targets for 1962 to the Eighth Congress''s third session: steel 28.5 million tons (not the inner 32), iron 32, coal 500, electricity 85 billion kwh, fertilizer 4.5 million tons; Zhou Enlai: grain about 550 billion jin, cotton 45 million dan. "Do more, say less." On the "Ten-Year Summary": Soviet experience fit for China still to be copied.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (Mao''s talk "Ten-Year Summary" takes up relations with the CPSU: anti-revisionist propaganda to pause June to September; no polemic like the Lenin articles for four months; prepare for the fight at the parties'' meeting); [[w.yang-shangkun-riji]], I, 519 (June 18, 1960; 5 to 7:30 p.m.; Mao: "less blindness, more necessity, that is, less passivity, more initiative"; the Shanghai meeting then ends). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (Mao''s talk "Ten-Year Summary" takes up relations with the CPSU: anti-revisionist propaganda to pause June to September; no polemic like the Lenin articles for four months; prepare for the fight at the parties'' meeting); [[w.yang-shangkun-riji]], I, 519 (June 18, 1960; 5 to 7:30 p.m.; Mao: "less blindness, more necessity, that is, less passivity, more initiative"; the Shanghai meeting then ends); [[w.deng-xiaoping-nianpu-1904]], III, 1559 (June 18, 1960; Deng at the closing session. Deng: Mao''s "Ten-year summary" the meeting''s greatest gain, raised to epistemology and method; cadres who know a project is hard but fight for it, say possible what is not; many central ministries and provinces not turned round; self-criticism, as Mao makes his); [[w.mao-zedong-zhuan]], V, ch. 66 n.43 (June 18, the closing session, Mao on the three-year supplementary plan and the Summary: the Planning Commission''s plan of June 17 still too cautious, to be adjusted again; Zhou Enlai and Deng Xiaoping also speak; the plan''s fourteen targets cut hard). Made public: 1999. To check: Mao Zedong 毛泽东, speech at the closing session of the enlarged Politburo meeting 中共中央政治局扩大会议, Shanghai, June 18, 1960 (record 讲话记录; with the remarks of Zhou Enlai and Deng Xiaoping, n.41, n.45) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.43). Names: Mao Zedong, Zhou Enlai, Li Fuchun.'
     src:
       c: af7d69f0
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 18, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 278: B'
         - 'w.yang-shangkun-riji I, 519: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1559: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.43: B'
+        - 'via w.mao-zedong-zhuan V, ch.66 n.43: B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-18.china-leadership-3
     when: June 18
@@ -2060,6 +2183,23 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 147–148: all'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:chen-yi, name:keita-modibo]
+  - id: cal.1960-06-19.china-leadership-2
+    when: June 19
+    date: '1960-06-19'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Deng Xiaoping 邓小平, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Chen Yun 陈云 and Ke Qingshi 柯庆施 at Mao Zedong's 毛泽东 meeting.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1559–1560 (June 19, 1960). The words: 晚 (III, 1559). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Ke Qingshi, Mao Zedong.'
+    src:
+      c: c7038f04
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1559–1560: all'
+    tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:ke-qingshi, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-06-19T11:00Z
+      - 1960-06-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-20.court
     when: June 20
     date: '1960-06-20'
@@ -2137,11 +2277,12 @@ entries:
       - peking
     thread: china-leadership
     c: Yang Shangkun 杨尚昆, Deng Xiaoping 邓小平 and Li Fuchun 李富春 leave Shanghai 上海 by train, 12:30 p.m.; at Peking 北京 at 5:30 p.m., June 21. Drought severe in Shandong 山东, some in Hebei 河北. Yang's journey with Mao, Apr. 27–June 21, fifty-five days.
-    n: '[[w.yang-shangkun-riji]], I, 519 (June 20, 1960). The words: 12时半与小平、富春一同乘火车离上海……下午5时半火车到北京 (I, 519). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Li Fuchun.'
+    n: '[[w.yang-shangkun-riji]], I, 519 (June 20, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1560 (June 20–21, 1960; Deng leaves Shanghai by train at noon; in Peking on the 21st). The words: 12时半与小平、富春一同乘火车离上海……下午5时半火车到北京 (I, 519). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Li Fuchun.'
     src:
       c: e4385e3d
       rows:
         - 'w.yang-shangkun-riji I, 519: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1560: ?'
     tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-21.latin-america-dominican-republic
@@ -2316,11 +2457,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest. Khrushchev receives the Chinese delegation, after delay, for six hours, most of it his reproaches; the delegation, by plan, lets him speak. By its cable: the great leap leaves people without trousers; the hundred flowers; Stalin''s coffin to Peking; "east wind"; Genghis Khan; the India conflict China''s own doing, the Soviet neutral statement a help; Indonesia China''s fault. The delegation concludes the meeting is to attack China.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280–281. Made public: 1999. Names: Khrushchev, Peng Zhen. Check: the delegation''s account as Wu gives it.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280–281; [[w.mao-zedong-zhuan]], V, ch. 66 (June 22, six hours with Khrushchev at Bucharest, most of it his reproaches). Made public: 1999. Names: Khrushchev, Peng Zhen. Check: the delegation''s account as Wu gives it.'
     src:
       c: 2cdca7f0
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 280–281: all'
+        - 'w.mao-zedong-zhuan V, ch. 66: B'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr]
   - id: cal.1960-06-22.china-leadership-2
     when: June 22
@@ -2461,12 +2603,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Shanghai, the Culture Club. Mao, Liu Shaoqi, Zhou Enlai and Chen Yun, with Ke Qingshi from June 24 and at times Lu Dingyi and Liu Xiao, meet daily on the CPSU's letter of June 21, handed to Peng Zhen's delegation at Bucharest June 23, and on the Bucharest communique.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 23, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 283–285 (Mao called the Standing Committee that day, before the letter or the delegation''s account of the 22d arrived (the time differs five or six hours); Mao: the common ground shrinks, break neither wanted; Deng drafts the cable; no articles criticizing revisionism for two months). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Ke Qingshi, Lu Dingyi, Liu Xiao, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 23, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 283–285 (Mao called the Standing Committee that day, before the letter or the delegation''s account of the 22d arrived (the time differs five or six hours); Mao: the common ground shrinks, break neither wanted; Deng drafts the cable; no articles criticizing revisionism for two months); [[w.mao-zedong-zhuan]], V, ch. 66 (June 23 evening: Mao invites Liu Shaoqi, Zhou Enlai and Chen Yun to meet on Peng Zhen''s cable; with Ke Qingshi, at times Liu Xiao, five days at the Culture Club 文化俱乐部). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Ke Qingshi, Lu Dingyi, Liu Xiao, Peng Zhen.'
     src:
       c: 6d818710
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 23, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 283–285: B'
+        - 'w.mao-zedong-zhuan V, ch. 66: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:ke-qingshi, name:lu-dingyi, name:peng-zhen, vis:only:prc]
   - id: cal.1960-06-23.soviet-union
     when: June 23
@@ -2492,11 +2635,12 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京. The Secretariat 书记处: Deng Xiaoping 邓小平 relays the Shanghai 上海 meeting.'
-    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960). The words: 上午 (I, 520). See [[cal.1960-06-18.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1560 (June 23, 1960; morning; Deng presides and relays the enlarged Politburo: agriculture the base, first for five years at least; room to spare, the initiative kept; Mao''s summary; "hearts opened": many problems not seen, or seen and not solved, 600 billion jin of grain and 36–38 million tons of steel put up though known hard. On the Soviets: the essence "setting watches" 对表, refused; a long struggle, common ground shrinking; a split avoided or put off; no yielding on principle; unafraid of a real break). The words: 上午 (I, 520). See [[cal.1960-06-18.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
     src:
       c: 17c44792
       rows:
         - 'w.yang-shangkun-riji I, 520: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1560: B'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-06-22T22:00Z
@@ -2525,11 +2669,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京, 8 p.m. to midnight. Liu Xiao 刘晓 reports on Peng Zhen's 彭真 talks at Moscow 莫斯科; the Secretariat 书记处, met ad hoc, on how to answer Peng's telegram.
-    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960). The words: 晚间8时起到12时止 (I, 520). See [[cal.1960-06-16.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Xiao, Peng Zhen.'
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 23, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1560 (June 23, 1960; evening; Deng chairs the Secretariat met ad hoc on Peng Zhen''s and Kang Sheng''s cable of the day from Bucharest, and the reply). The words: 晚间8时起到12时止 (I, 520). See [[cal.1960-06-16.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Xiao, Peng Zhen.'
     src:
       c: 004f45a9
       rows:
         - 'w.yang-shangkun-riji I, 520: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1560: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-24.latin-america
@@ -2619,12 +2764,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. The Secretariat 书记处 on the "Communiqué of the meeting of the communist and workers' parties of the socialist countries" 《社会主义国家共产党和工人党会议的公报》 (revised draft), the text China means to propose.
-    n: '[[w.yang-shangkun-riji]], I, 520 (June 24, 1960). The words: 上午 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Communiqué of the talks of the communist and workers'' parties of the socialist countries, Bucharest, June 24, 1960 (cited by [[w.yang-shangkun-riji]], I, 520 n.2).'
+    n: '[[w.yang-shangkun-riji]], I, 520 (June 24, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 24–25, 1960; Deng presides; the delegation''s amendments to the communiqué, its draft "Statement at the brother parties'' talks at Bucharest" 《在布加勒斯特兄弟党会谈上的声明》, and the Center''s reply on the line of struggle). The words: 上午 (I, 520). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Communiqué of the talks of the communist and workers'' parties of the socialist countries, Bucharest, June 24, 1960 (cited by [[w.yang-shangkun-riji]], I, 520 n.2).'
     src:
       c: dda84be5
       rows:
         - 'w.yang-shangkun-riji I, 520: all'
         - 'via w.yang-shangkun-riji I, 520 n.2: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-06-23T22:00Z
@@ -2652,11 +2798,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. The Secretariat 书记处 again on the documents.
-    n: '[[w.yang-shangkun-riji]], I, 521 (June 24, 1960). The words: 晚间 (I, 521). See [[cal.1960-06-24.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 24, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 24–25, 1960; Deng''s Secretariat on the Bucharest papers). The words: 晚间 (I, 521). See [[cal.1960-06-24.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 50f49757
       rows:
         - 'w.yang-shangkun-riji I, 521: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-06-24T11:00Z
@@ -2813,13 +2960,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking 北京, 10 a.m. to 3 p.m.: the communiqué and the Chinese delegation''s statement 我代表团的声明 (its written reservations on the communiqué, handed out at the meeting June 26, by the editors'' note) discussed.'
-    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 上午10时起到下午3时 (I, 521). See [[cal.1960-06-25.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Chinese Communist Party delegation, written statement at Bucharest, June 26, 1960 (cited by [[w.yang-shangkun-riji]], I, 521 n.2); communiqué of the talks at Bucharest, June 24, 1960 (cited by [[w.yang-shangkun-riji]], I, 521 n.1). Check: whether this is the morning''s work on the statement that [[cal.1960-06-25.china-leadership-2]] records by Wu Lengxi''s account.'
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 24–25, 1960; Deng''s Secretariat on the Bucharest papers, the 25th). The words: 上午10时起到下午3时 (I, 521). See [[cal.1960-06-25.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Chinese Communist Party delegation, written statement at Bucharest, June 26, 1960 (cited by [[w.yang-shangkun-riji]], I, 521 n.2); communiqué of the talks at Bucharest, June 24, 1960 (cited by [[w.yang-shangkun-riji]], I, 521 n.1). Check: whether this is the morning''s work on the statement that [[cal.1960-06-25.china-leadership-2]] records by Wu Lengxi''s account.'
     src:
       c: 44633a4b
       rows:
         - 'w.yang-shangkun-riji I, 521: all'
         - 'via w.yang-shangkun-riji I, 521 n.1: all'
         - 'via w.yang-shangkun-riji I, 521 n.2: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-25.china-leadership-6
@@ -2832,11 +2980,12 @@ entries:
     follows:
       - cal.1960-06-25.china-leadership-5
     c: 'Peking 北京. The Secretariat 书记处 with several members of the Politburo, 3 to 5 p.m.: Deng Xiaoping 邓小平 explains the course of events.'
-    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960). The words: 3时至5时 (I, 521). See [[cal.1960-06-25.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 25, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 25, 1960; afternoon; Deng chairs the meeting of the Politburo and Secretariat members, tells of the Bucharest meeting and how the papers were drafted). The words: 3时至5时 (I, 521). See [[cal.1960-06-25.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
     src:
       c: 62916c42
       rows:
         - 'w.yang-shangkun-riji I, 521: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-25.china-leadership-7
@@ -2899,11 +3048,12 @@ entries:
     follows:
       - cal.1960-06-26.soviet-union-2
     c: 'Bucharest, the meeting, near 11. Peng Zhen''s amendments to the communique refused by Khrushchev, "not a word"; near noon Peng says China will sign for unity, and the delegation hands its statement round. Khrushchev does not answer it; he proposes the parties'' meeting for the October Revolution''s anniversary, the drafting committee the twelve and ten more; China proposes Japan and Australia, agreed. Afternoon: Khrushchev''s rejoinder; Peng answers, on the "father party" and the forced signature, and they quarrel, Khrushchev on the long-wave station; at his call Zhivkov adds a dozen labels; Hysni Kapo of Albania: his Central Committee does not approve such a meeting. Gheorghiu-Dej closes, the communique adopted.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 294–298 ("near 11", 294). Made public: 1999. See [[cal.1960-06-26.soviet-union-2]]. Names: Khrushchev, Peng Zhen. Check: the day: Wu says "the next day" after the 25th; the account is the delegation''s.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 294–298 ("near 11", 294); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 26, 1960; the amendments refused, the delegation signs the communiqué for the camp''s unity and hands round its statement: the surprise draft "an extremely bad precedent"; no yielding to views against Marxism–Leninism; the two parties can find a way to settle the differences). Made public: 1999. See [[cal.1960-06-26.soviet-union-2]]. Names: Khrushchev, Peng Zhen. Check: the day: Wu says "the next day" after the 25th; the account is the delegation''s.'
     src:
       c: 549561e1
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 294–298: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
     time_zone: Europe/Bucharest
   - id: cal.1960-06-26.china-leadership
@@ -3059,12 +3209,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. The Secretariat 书记处 on publishing the communiqué and an editorial (the *Renmin ribao* 人民日报 editorial of June 29, "Hold high the revolutionary banner of Marxism–Leninism of the Moscow Declaration" 《高举莫斯科宣言的马克思列宁主义革命旗帜》, by the editors' note).
-    n: '[[w.yang-shangkun-riji]], I, 521 (June 27, 1960). The words: 上午 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: *Renmin ribao*, June 29, 1960, editorial, "Hold high the revolutionary banner of Marxism–Leninism of the Moscow Declaration" (cited by [[w.yang-shangkun-riji]], I, 521 n.3).'
+    n: '[[w.yang-shangkun-riji]], I, 521 (June 27, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1561–1562 (June 27, 1960; morning; Deng presides; how to publish the communiqué and the *Renmin ribao* editorial). The words: 上午 (I, 521). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: *Renmin ribao*, June 29, 1960, editorial, "Hold high the revolutionary banner of Marxism–Leninism of the Moscow Declaration" (cited by [[w.yang-shangkun-riji]], I, 521 n.3).'
     src:
       c: 3e033e48
       rows:
         - 'w.yang-shangkun-riji I, 521: all'
         - 'via w.yang-shangkun-riji I, 521 n.3: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1561–1562: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-06-26T22:00Z
@@ -3121,6 +3272,23 @@ entries:
       - 1960-06-27T14:00Z
       - 1960-06-27T16:00Z
     time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-27.china-leadership-7
+    when: June 27
+    date: '1960-06-27'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on the *Renmin ribao* 人民日报 editorial draft "Hold high the revolutionary banner of Marxism–Leninism of the Moscow Declaration" 《高举莫斯科宣言的马克思列宁主义革命旗帜》. Decided: the *Renmin ribao* to reprint the 1957 Moscow declaration of the socialist countries'' parties (Nov. 14–16) and the peace manifesto of the parties'' meeting (Nov. 16–19).'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1562 (June 27, 1960). The words: 下午 (III, 1562). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 2926fc11
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1562: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-06-27T04:00Z
+      - 1960-06-27T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1960-06-28.specials
     when: June 28
@@ -3250,13 +3418,32 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京, the capital airport. Yang Shangkun 杨尚昆 meets Peng Zhen 彭真 and the delegation back from Bucharest, noon; then, at lunch at Yangfengjiadao 养蜂夹道, hears of the Romanian meeting; home at 4.
-    n: '[[w.yang-shangkun-riji]], I, 522 (June 28, 1960). The words: 12时去首都机场接彭真等同志 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 28, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1562 (June 27, 1960; Deng, with Li Fuchun, Li Xiannian, Tan Zhenlin and others, meets Peng Zhen''s delegation at the airport). The words: 12时去首都机场接彭真等同志 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
     src:
       c: ce130b2d
       rows:
         - 'w.yang-shangkun-riji I, 522: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1562: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: June 27, under which the chronology sets the welcome
+        at: III, 1562
+  - id: cal.1960-06-28.china-leadership-4
+    when: June 28
+    date: '1960-06-28'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Bucharest "Communiqué of the meeting of representatives of the communist and workers' parties of the socialist countries" 《社会主义国家共产党和工人党代表会谈公报》 printed in the *Beijing ribao* 北京日报.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1562 (June 28, 1960).'
+    src:
+      c: 7520e17b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1562: all'
+    tags: [polity:prc]
   - id: cal.1960-06-29.cuba
     when: June 29
     date: '1960-06-29'
@@ -3373,11 +3560,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Peking 北京, Yangfengjiadao 养蜂夹道. Yang Shangkun 杨尚昆, with Deng Xiaoping 邓小平, talks with Lê Duẩn 黎笋 of the Lao Động Politburo, 10 a.m. to 3 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960). The words: 上午10时到下午3时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Lê Duẩn.'
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1562 (June 29, 1960; morning; Deng, with Peng Zhen and others, talks with Lê Duẩn, passing through Peking from Bucharest). The words: 上午10时到下午3时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Lê Duẩn.'
     src:
       c: b2bc8e3e
       rows:
         - 'w.yang-shangkun-riji I, 522: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1562: ?'
     tags: [polity:prc, name:deng-xiaoping, name:le-duan, vis:only:prc+drv]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-29.china-leadership-4
@@ -3402,13 +3590,28 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京, the Huairen Tang 怀仁堂. The Center's banquet for Peng Zhen 彭真 and the delegation, 7 p.m.; Yang Shangkun 杨尚昆 and Li Bozhao 李伯钊 there.
-    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960). The words: 7时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Li Bozhao.'
+    n: '[[w.yang-shangkun-riji]], I, 522 (June 29, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1562 (June 29, 1960; afternoon; Deng, with Liu Shaoqi, Zhou Enlai, Zhu De and others, gives a dinner for the whole delegation). The words: 7时 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Li Bozhao.'
     src:
       c: 85c6e86b
       rows:
         - 'w.yang-shangkun-riji I, 522: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1562: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-29.china-leadership-6
+    when: June 29–July 2
+    date: '1960-06-29'
+    place:
+      - shanghai
+      - tianjin
+    thread: china-leadership
+    c: Mao 毛泽东 leaves Shanghai 上海 by special train on June 29, by way of Bengbu 蚌埠 and Jinan 济南, and reaches Tianjin 天津 on July 2, on his way to Beidaihe 北戴河 for the Central Work Conference 中央工作会议.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 66. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the stops between and the hours; the book gives the days only. Names: Mao Zedong.'
+    src:
+      c: 8c3ac8fd
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 66: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-06-30.congo
     when: June 30
     date: '1960-06-30'
@@ -3978,18 +4181,27 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Politburo meeting, Mao presiding, Peng Zhen reporting on the Bucharest delegation. Taken as a surprise attack and an encounter; Mao: Khrushchev decided on June 2 to bring China to heel, the June 7 letter a deceit; a counter-encirclement, to stop short, as in the Central Soviet''s campaigns. The first round; a hard fight expected at the parties'' meeting in November. The Beidaihe work conference in July to take up Sino-Soviet relations; a circular to senior cadres on Bucharest; no polemic in print, unsigned or not, until the November meeting, current commentary on America and the nationalist states going on.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 298–300; [[w.yang-shangkun-riji]], I, 523 (June 30, 1960; 4 p.m., in the rear hall of the Huairen Tang, to 9; Peng Zhen and Kang Sheng report). Made public: 1999. Names: Mao Zedong, Peng Zhen. Check: the place: Mao was at Shanghai late June; Wu gives none.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 298–300; [[w.yang-shangkun-riji]], I, 523 (June 30, 1960; 4 p.m., in the rear hall of the Huairen Tang, to 9; Peng Zhen and Kang Sheng report); [[w.deng-xiaoping-nianpu-1904]], III, 1563 (June 30, 1960; afternoon; Deng at the enlarged Politburo, which hears Peng Zhen, Kang Sheng and Wu Xiuquan on Bucharest). Made public: 1999. Check: the *Mao zedong zhuan* has Mao on the road from Shanghai June 29 to Tianjin July 2 and Peng Zhen and Kang Sheng reporting to him on the train at Tianjin that evening, not at Peking June 30. See [[cal.1960-07-02.china-leadership-8]]. Names: Mao Zedong, Peng Zhen. Check: the place: Mao was at Shanghai late June; Wu gives none.'
     src:
       c: 36d2505e
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 298–300: all'
         - 'w.yang-shangkun-riji I, 523: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1563: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
     variants:
       - unit: A
         witness: w.shaoqi-liu-shaoqi-nianpu-chronology
         reads: Liu Shaoqi presides at the enlarged Politburo meeting, which hears Peng Zhen, Kang Sheng and Wu Xiuquan on the Bucharest meeting of the socialist countries' communist and workers' parties
         at: '490'
+      - unit: A
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: Liu Shaoqi presiding (刘少奇主持)
+        at: III, 1563
+      - unit: A
+        witness: w.mao-zedong-zhuan
+        reads: Mao left Shanghai June 29 by special train, by Bengbu and Jinan, and reached Tianjin July 2; there that evening on the train Peng Zhen and Kang Sheng, up from Peking, reported to him on Bucharest; next day Beidaihe (not a Politburo meeting at Peking June 30)
+        at: V, ch. 66
   - id: cal.1960-06-30.china
     when: June 30
     date: '1960-06-30'
@@ -4035,11 +4247,12 @@ entries:
     thread: china-leadership
     also: [latin-america]
     c: Peking 北京, the Fujian Hall 福建厅 of the Great Hall of the People 人民大会堂. Yang Shangkun 杨尚昆 and Deng Xiaoping 邓小平 receive the comrades from twelve Latin American countries studying in China, fifty of them, and explain some questions to them, 10 a.m. to 2:30 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 522–523 (June 30, 1960). The words: 上午10时到下午2时半 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 522–523 (June 30, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1562–1563 (June 30, 1960; morning; Deng meets the study delegation of twelve Latin American brother parties and speaks: the epoch the key; Lenin''s judgment of imperialism not outdated; strive for peace and prevent war, and be ready for it if it comes). The words: 上午10时到下午2时半 (I, 522). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
     src:
       c: c36f8492
       rows:
         - 'w.yang-shangkun-riji I, 522–523: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1562–1563: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-30.china-leadership-5
