@@ -140,3 +140,25 @@ def test_part_fields():
     assert span == ("1967-01-01", "1967-03-31")
     f, span = pages._part_fields(base, "M", ["1967-04"])
     assert (f["page"], f["abbr"], f["span"], f["h1"]) == ("cal1967-04", "Cal. Apr. 1967", "Apr. 1–30, 1967", "1967, April")
+
+
+BY_RULE = [
+    ("cal1964-01.thread.cuba", "cal1964-01"),      # a month's page, its name whole (not cal1964)
+    ("th-cal1964-01", "cal1964-01"),
+    ("cal1964Q1.thread.cuba", "cal1964Q1"),
+    ("cal1964.thread.cuba", "cal1964"),
+    ("ind-cal1964-cpi", "cal1964"),
+]
+
+
+@pytest.mark.parametrize("anchor,page", BY_RULE)
+def test_by_rule_month_page_whole(monkeypatch, anchor, page):
+    """calsplit.by_rule: a part's page named in an anchor, a month's with its hyphen."""
+    from bib import calsplit
+
+    class L:
+        key = "cal"
+    monkeypatch.setattr(calsplit, "parts", lambda lst: [{"page": p} for p in
+                                                         ("cal", "cal1964", "cal1964Q1", "cal1964-01")])
+    monkeypatch.setattr(calsplit, "years", lambda lst: {})
+    assert calsplit.by_rule(L, anchor) == page

@@ -394,9 +394,11 @@ def by_rule(lst, a):
     """The page an anchor names by its form: a part's page in it (cal1961.thread.cuba, th-cal1961, ind-cal1961-cpi), else
     its year (cal.1961-04-15.cuba, d1961-04-15, 196104, 196601b); None where the form says nothing."""
     pages = {p["page"] for p in parts(lst)} - {lst.key}
-    for t in re.split(r"[.-]", a):
-        if t in pages:
-            return t
+    t = re.split(r"([.-])", a)
+    for i in range(0, len(t), 2):        # a page's name whole, a month's with its hyphen (cal1964-01.thread.cuba)
+        for k in (3, 1):
+            if i + k <= len(t) and "".join(t[i:i + k]) in pages:
+                return "".join(t[i:i + k])
     m = YEAR.match(a)
     return years(lst).get(f"{m.group(1)}-{m.group(2)}") if m else None
 
@@ -476,7 +478,7 @@ def forward_script(lst, fwd, me):
   var D={data};
   function to(x){{
     var f=D.f[x]; if(f) return f.indexOf('#')<0 ? f+'.html#'+x : f.replace('#','.html#');
-    var t=x.split(/[.-]/); for(var i=0;i<t.length;i++) if(D.p.indexOf(t[i])>=0) return t[i]+'.html#'+x;
+    var t=x.split(/([.-])/); for(var i=0;i<t.length;i+=2) for(var k=3;k>0;k-=2){{ var w=t.slice(i,i+k).join(''); if(i+k<=t.length&&D.p.indexOf(w)>=0) return w+'.html#'+x; }}
     var m=/^(?:cal\\.|d)?(\\d{{4}})-?(\\d\\d)/.exec(x), k=m?m[1]+'-'+m[2]:null; if(k&&D.y[k]) return D.y[k]+'.html#'+x;
     return null;
   }}
