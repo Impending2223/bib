@@ -2949,9 +2949,11 @@ def pages(series, linker, template):
         for p in ps:
             try:
                 main.append(entry(series, linker, ptrs, p))
-            except Exception as ex:          # one entry's fault names the person and does not stop the page
-                import traceback
-                print(f"names: {p['name']}: {ex!r}", traceback.format_exc().splitlines()[-3], file=sys.stderr)
+            except Exception as ex:          # one entry's fault names the person and does not stop the page; counted
+                import traceback              # (faults.py): the build exits 1
+                from . import faults
+                faults.record(f"names: {p['name']}", repr(ex),
+                              line=f"names: {p['name']}: {ex!r} " + traceback.format_exc().splitlines()[-3])
         # an anchor of a form joined in an entry filed under another letter, sent on to it ('names-e.html#el-baghdadi-…')
         away = {k: f"names-{filed[pk]}.html#{pk}" for k, pk in _CACHE.get("frus-alias", {}).items()
                 if k[:1] == L and filed.get(pk, L) != L}
