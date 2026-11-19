@@ -448,15 +448,35 @@ def headings(lst, sec, idfmt):
             # owner, Nov. 18, 2026: "clicking '1960' would navigate to the first calendar entry in 1960")
             from . import contents
             firsts = [x for x in lst.sections if contents._month(x) and contents._month(x)[0] == int(m.group(2))]
-            if firsts:
+            if firsts:                    # the year's own heading, over its first month (daybook.py, STYLE 17)
                 whole = bool(calsplit.cfg(lst))
-                crumb += f' data-ytop="{attr(contents._sec_href(lst, firsts[0], whole))}"'
+                y = int(m.group(2))
+                top = (contents.year_href(lst, firsts[0], whole, y) if daybook.year_opened(lst, firsts[0]) == y
+                       else contents._sec_href(lst, firsts[0], whole))
+                crumb += f' data-ytop="{attr(top)}"'
     return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}"{crumb}>{num}{to_html(sec.title)}</{tag}>'
 
 
 def by_day(lst, sec):
     """A dated calendar section is laid out by day (tools/bib/daybook.py)."""
     return lst.kind == "calendar" and sec.extra.get("from") and sec.extra.get("to")
+
+
+def id_prefix(sec, idfmt):
+    """What idfmt puts before a section's id ('' on a page, 'cal--' in the reader): for the anchors a section adds."""
+    sid = idfmt(sec)
+    return sid[:-len(attr(sec.id))] if sid.endswith(attr(sec.id)) else ""
+
+
+def day_layout(lst, sec, idfmt, li):
+    """A dated calendar section's (lead, body) (daybook.py, STYLE 17), the seam's links set round them: its link back
+    at the head of the lead where there is one (else of the body, under the heading), its link on at the foot of the
+    body (calsplit.py, STYLE 4)."""
+    before, after = calsplit.seam(lst, sec)
+    lead, body = daybook.section_days(lst, sec, li, thread_name, id_prefix(sec, idfmt))
+    if lead:
+        return [before] + lead, body + [after]
+    return [], [before] + body + [after]
 
 
 def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
@@ -467,8 +487,8 @@ def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
         def li(e, rub):
             a, s = li_extra(sec, e) if li_extra else ("", "")
             return entry_html(series, lst, sec, e, text_html, a, s, rub)
-        before, after = calsplit.seam(lst, sec)
-        out.extend([before] + daybook.section_days(lst, sec, li, thread_name) + [after])
+        lead, body = day_layout(lst, sec, idfmt, li)   # the year before its January's heading (daybook.py, STYLE 17)
+        out = lead + out + body
     elif sec.entries:
         out.append('<ol class="e">')
         for e in sec.entries:
@@ -1261,8 +1281,8 @@ def _section_series(series, lst, sec, linker, li_extra):
         def li(e, rub):
             a, s = li_extra(sec, e)
             return entry_html(series, lst, sec, e, linker.text_html(lst, sec, e), a, s, rub)
-        before, after = calsplit.seam(lst, sec)
-        out.extend([before] + daybook.section_days(lst, sec, li, thread_name) + [after])
+        lead, body = day_layout(lst, sec, linker.sec_id, li)   # the year before its January (daybook.py, STYLE 17)
+        out = lead + out + body
     elif sec.entries:
         out.append('<ol class="e">')
         for e in sec.entries:

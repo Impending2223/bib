@@ -1,17 +1,26 @@
-"""./bib loose-dates [--apply] [--list]: set `at` on the calendar's month-dated entries from their own `when`
-(tools/bib/loose.py; notes/proposals/loose-dates.md).
+"""./bib loose-dates [--apply] [--list]: set `at` on the calendar's month- and year-dated entries from their own
+`when` (tools/bib/loose.py, STYLE 3, 3a; notes/proposals/loose-dates.md). ./bib check warns [loose-at] on any it
+would set; ./bib merge sets them on the sections a patch touched.
 
 Unambiguous, and set (loose.at_for):
-    "May, early"                          before 1962-05-01      the first third
-    "May, mid", "May, mid-month", "May, middle"   before 1962-05-11      the middle third
-    "May, late"                           before 1962-05-21      the last third
+    "May, early", "May, first week"       before 1962-05-01      the first third
+    "May, mid", "May, mid-month", "May, middle", "May, mid-"   before 1962-05-11      the middle third
+    "May, late", "May, last week", "May, end", "May, about the end", "May, the last days"
+                                          before 1962-05-21      the last third
+    "May, second week", "May, third week" before 1962-05-08, before 1962-05-15
     "May, after the 12th"                 after 1962-05-12
     "May, before the 12th"                before 1962-05-12
     "Mar., spring", "June, summer", "Sept., fall" or "autumn", "Dec., winter": the season that opens in the entry's
                                           month, before its first day (loose.season_starts)
-A month alone, or a span of months ("Oct.–Dec."), needs none. Everything else whose `when` says more than its month
-is left for a reader and listed (--list): a season in a month it does not open in ("Apr., spring": the month is the
-source's, or the season is), "by the 15th", "end", "first week", "after the convention", and the rest. An entry that
+    "1962, early", "1962, first half"     before 1962-01         after "1962", before "January"
+    "1962, mid-", "1962, mid-year"        before 1962-05         before "May"
+    "1962, second half"                   before 1962-07         before "July"
+    "1962, late"                          before 1962-09         before "September"
+    "1962, spring" ...                    before 1962-03-20      the day the season opens
+A month or a year alone, or a span of them ("Oct.–Dec.", "1964–65"), needs none. Everything else whose `when` says
+more than its month or year is left for a reader and listed (--list): a season in a month it does not open in ("Apr.,
+spring": the month is the source's, or the season is), "by the 15th", "early in the year" on a month's entry, a
+festival or a lunar date (notes/proposals/loose-dates-days.md), "after the convention", and the rest. An entry that
 has an `at` already is not touched.
 
 The default is a dry run: the counts by pattern. --apply writes the files (only the `at` line is added).
@@ -23,6 +32,7 @@ from . import loose
 
 MON = r"(?:Jan\.|Feb\.|Mar\.|Apr\.|May|June|July|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.)"
 MONTH_ONLY = re.compile(rf"^{MON}(?:–{MON})?$")          # a month, or a span of months ("Oct.–Dec."): no at needed
+YEAR_ONLY = re.compile(r"^\d{4}(?:–\d{2,4})?$")            # a year, or a span of years ("1964–65")
 
 
 def pattern(e):
@@ -38,7 +48,8 @@ def plan(series):
     put, left = [], []
     for sec, e in lst.entries():
         d = loose.date_of(e)
-        if "when" not in e or len(d) != 7 or e.get("at") or MONTH_ONLY.match(str(e["when"]).strip()):
+        w = str(e.get("when") or "").strip()
+        if "when" not in e or len(d) not in (4, 7) or e.get("at") or MONTH_ONLY.match(w) or YEAR_ONLY.match(w):
             continue
         a = loose.at_for(e)
         if a and not loose.at_problems(dict(e, at=a)):
