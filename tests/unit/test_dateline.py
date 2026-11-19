@@ -40,12 +40,12 @@ TEXT = [
     ({'id': 'a', 'date': '1961-04-17', 'time': '1961-04-17T15:30Z'}, '10:30 a.m. Wash.'),
     ({'id': 'b', 'date': '1961-04-17', 'time': '1961-04-17T15:30Z', 'time_approx': True}, 'about 10:30 a.m. Wash.'),
     ({'id': 'c', 'date': '1961-04-17', 'time': '1961-04-17T15:30Z', 'time_zone': 'America/New_York'}, 'Washington · 10:30 a.m.'),
-    ({'id': 'd', 'date': '1961-04-17', 'time': '1961-04-17T02:00Z', 'time_zone': 'Asia/Shanghai'}, 'Peking · 10 a.m. (Apr. 16, 9 p.m. Wash.)'),
-    ({'id': 'e', 'date': '1961-04-17', 'time': '1961-04-17T02:00Z', 'thread': 'china-leadership'}, 'Peking · 10 a.m. (Apr. 16, 9 p.m. Wash.)'),
+    ({'id': 'd', 'date': '1961-04-17', 'time': '1961-04-17T02:00Z', 'time_zone': 'Asia/Shanghai'}, 'Peking · 10 a.m.'),
+    ({'id': 'e', 'date': '1961-04-17', 'time': '1961-04-17T02:00Z', 'thread': 'china-leadership'}, 'Peking · 10 a.m.'),
     ({'id': 'f',
  'date': '1961-04-17',
  'time_range': ['1961-04-17T14:20Z', '1961-04-17T15:20Z'],
- 'time_zone': 'America/New_York'}, 'Washington · 9:20–10:20 a.m.'),
+ 'time_zone': 'America/New_York'}, 'Washington · 9:20 a.m.'),
     ({'id': 'g',
  'date': '1961-04-17',
  'time_range': ['1961-04-17T14:00Z', '1961-04-17T22:00Z'],
@@ -61,7 +61,7 @@ TEXT = [
     ({'id': 'j', 'date': '1961-04-17', 'time': '1961-04-17T15:30Z', 'place': 'moscow'}, 'Moscow · 6:30 p.m.'),
     ({'id': 'k', 'date': '1961-04-17'}, ''),
     ({'id': 'l', 'date': '1961-04-17', 'time': '1961-04-17T16:00Z', 'time_zone': 'Not/AZone'}, '11 a.m. Wash.'),
-    ({'id': 'm', 'date': '1961-04-17', 'time': '1961-04-17T23:30Z', 'time_zone': 'Europe/Moscow'}, 'Moscow · 2:30 a.m. (Apr. 17, 6:30 p.m. Wash.)'),
+    ({'id': 'm', 'date': '1961-04-17', 'time': '1961-04-17T23:30Z', 'time_zone': 'Europe/Moscow'}, 'Moscow · 2:30 a.m.'),
     ({'id': 'n',
  'date': '1964-11-03',
  'time_range': ['1964-11-04T00:00Z', '1964-11-04T06:00Z'],
@@ -93,3 +93,44 @@ def test_zlabel(zone, e, want):
 def test_text(e, want):
     """The dateline of an entry (the fixture's gazetteer and States)."""
     assert dateline.text(e) == want
+
+
+FULL = [
+    # the dateline in full, its `title` (STYLE 4): the range's end and Washington's hour where the day differs
+    ({'id': 'd', 'date': '1961-04-17', 'time': '1961-04-17T02:00Z', 'time_zone': 'Asia/Shanghai'},
+     'Peking · 10 a.m. (Apr. 16, 9 p.m. Wash.)'),
+    ({'id': 'f', 'date': '1961-04-17', 'time_range': ['1961-04-17T14:20Z', '1961-04-17T15:20Z'],
+      'time_zone': 'America/New_York'}, 'Washington · 9:20–10:20 a.m.'),
+    ({'id': 'r', 'date': '1961-04-17', 'time_range': ['1961-04-17T02:00Z', '1961-04-17T03:00Z'],
+      'time_zone': 'Asia/Shanghai'}, 'Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)'),
+    ({'id': 'g', 'date': '1961-04-17', 'time_range': ['1961-04-17T14:00Z', '1961-04-17T22:00Z'],
+      'time_zone': 'America/New_York', 'range_basis': 'kind', 'time_band': 'evening'}, 'Washington · evening'),
+    # a band a reader gave from the record (上午), no basis: its word, not its conventional hours or their start
+    ({'id': 's', 'date': '1961-04-29', 'time_range': ['1961-04-28T22:00Z', '1961-04-29T04:00Z'],
+      'time_zone': 'Asia/Shanghai', 'time_band': 'morning'}, 'Peking · morning'),
+    ({'id': 't', 'date': '1963-01-18', 'time_range': ['1963-01-17T23:00Z', '1963-01-18T05:00Z'],
+      'time_zone': 'Asia/Ho_Chi_Minh', 'time_band': 'morning', 'range_basis': 'record'}, 'Saigon · morning'),
+    ({'id': 'a', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z'}, 'noon Wash.'),
+    ({'id': 'k', 'date': '1961-04-17'}, ''),
+]
+HTML = [
+    ({'id': 'c', 'date': '1961-04-17', 'time': '1961-04-17T15:30Z', 'time_zone': 'America/New_York'},
+     '<span class="dl">Washington · 10:30 a.m.</span>'),
+    ({'id': 'r', 'date': '1961-04-17', 'time_range': ['1961-04-17T02:00Z', '1961-04-17T03:00Z'],
+      'time_zone': 'Asia/Shanghai'},
+     '<span class="dl" title="Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)">Peking · 10 a.m.</span>'),
+    ({'id': 'n', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z', 'time_zone': 'America/New_York'},
+     '<span class="dl">Washington · noon</span>'),
+    ({'id': 'k', 'date': '1961-04-17'}, ''),
+]
+
+
+@pytest.mark.parametrize("e,want", FULL)
+def test_full(e, want):
+    assert dateline.full(e) == want
+
+
+@pytest.mark.parametrize("e,want", HTML)
+def test_html(e, want):
+    """The line shows the start alone; the rest in the title, only where it says more."""
+    assert dateline.html_(e) == want

@@ -6,15 +6,21 @@ STYLE
  1. The line: the rubric (the threads) at the left, the dateline at the right, on one line; a rubric too long for the
     room ends in an ellipsis flush to its last letter, and a tap on it wraps it below within the same right edge, the
     dateline staying where it is (the preview's (a)). Plain roman, the rubric's sans, muted, one weight.
- 2. The time, from the entry's fields (dayorder.py): `time` an hour ("11:30 a.m.", "noon"; "about 4 p.m." where
-    `time_approx`); a `time_range` from the record its hours ("10:20–11:20 a.m."); a range from the event's kind
-    (`range_basis: kind`) its band as words ("workday", "early morning", "election night"); no time, no dateline.
+ 2. The time, from the entry's fields (dayorder.py), its start only (the owner, Nov. 19, 2026: "Set the dateline to
+    show only the first, start times. Keep the balance of the information either somewhere hidden or in the citation
+    block, but keep the display line clean"): `time` an hour ("11:30 a.m."; "about 4 p.m." where `time_approx`); a
+    `time_range` from the record its start ("10:20 a.m.", not "10:20–11:20 a.m."); a range from the event's kind
+    (`range_basis: kind`), or any range a reader gave a `time_band` (the record's "morning", 上午), its band as words
+    ("workday", "early morning", "election night", "morning"), a word, not a range or its start shown; no time, no
+    dateline.
  3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
     reaches it, its city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the eastern
     zone, Peking, Moscow, Saigon ...). The clock: `time_zone`, else the place's zone; an exact time with neither
     takes its thread's (the Chinese leadership's Peking, the Soviet's Moscow), else Washington's, shown as "Wash."
     after the hour, no place.
- 4. Washington when the day differs: where the local day is not Washington's, "(Mar. 10, 11 p.m. Wash.)" after.
+ 4. Washington when the day differs: where the local day is not Washington's, "(Mar. 10, 11 p.m. Wash.)", not on
+    the line but in its `title` (shown on hover or a long press), with the range's end: the title is the dateline in
+    full ("Peking · 10–11 a.m. (Mar. 10, 9 p.m. Wash.)"), given only where it says more than the line.
 """
 import datetime
 import html
@@ -105,11 +111,12 @@ def _guess(e):
     return None
 
 
-def text(e):
-    """The dateline's text, or '' (STYLE 2-4)."""
+def parts(e):
+    """(the line, the dateline in full): the line its start alone, the full its range and Washington's hour where the
+    day differs (STYLE 2, 4); ('', '') where there is no time."""
     t, r = e.get("time"), e.get("time_range")
     if not t and not r:
-        return ""
+        return "", ""
     from . import places
     pr = places.first(e)
     zone = e.get("time_zone") or (pr.get("zone") if pr else None) or (_guess(e) if t else None)
@@ -126,32 +133,46 @@ def text(e):
                                         (_state(st[0]) if st and e.get("time_zone") else _zlabel(zone, e)))
     if t:
         a = _utc(t).astimezone(lz)
-        when = ("about " if e.get("time_approx") else "") + _clock(a)
+        when = full = ("about " if e.get("time_approx") else "") + _clock(a)
         start = a
     else:
         a, b = (_utc(x).astimezone(lz) for x in r[:2])
         start = a
-        if e.get("range_basis") == "kind" or e.get("time_band") == "election night":
+        if e.get("range_basis") == "kind" or e.get("time_band"):    # a band ("morning", 上午): its word, not its hours
             band = str(e.get("time_band") or "")
-            when = BAND.get(band, band)
-            start = None                                 # a kind's band: no hour to set against Washington's
+            when = full = BAND.get(band, band)
+            start = None                                 # a band: no hour to set against Washington's
         else:
-            when = _span(a, b)
+            when, full = _clock(a), _span(a, b)
     if not when:
-        return ""
+        return "", ""
     if wash_only:
-        return f"{when} Wash."
-    out = f"{place} · {when}" if place else when
+        return f"{when} Wash.", f"{full} Wash."
+    line = f"{place} · {when}" if place else when
+    whole = f"{place} · {full}" if place else full
     if start is not None and zone != "America/New_York":
         w = start.astimezone(WASH)
         if w.date() != start.date():
-            out += f" ({MON[w.month - 1]} {w.day}, {_clock(w)} Wash.)"
-    return out
+            whole += f" ({MON[w.month - 1]} {w.day}, {_clock(w)} Wash.)"
+    return line, whole
+
+
+def text(e):
+    """The dateline's text, its start alone, or '' (STYLE 2-4)."""
+    return parts(e)[0]
+
+
+def full(e):
+    """The dateline in full (its `title`), or '' (STYLE 4)."""
+    return parts(e)[1]
 
 
 def html_(e):
-    s = text(e)
-    return f'<span class="dl">{html.escape(s)}</span>' if s else ""
+    s, whole = parts(e)
+    if not s:
+        return ""
+    title = f' title="{html.escape(whole)}"' if whole != s else ""
+    return f'<span class="dl"{title}>{html.escape(s)}</span>'
 
 
 STYLE = """<style id="dlstyle">
@@ -162,6 +183,7 @@ STYLE = """<style id="dlstyle">
 .rubrow.open>.s.rub{white-space:normal;overflow:visible}
 .rubrow>.dl{flex:none;font-family:var(--sans);font-size:.7rem;line-height:1.2;color:var(--muted);white-space:nowrap;
   font-variant-numeric:tabular-nums;text-align:right}
+.rubrow>.dl[title]{cursor:help}
 </style>"""
 
 SCRIPT = """<script>
