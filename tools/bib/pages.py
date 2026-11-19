@@ -430,10 +430,10 @@ def compress(amap):
     of that word is on one page; the rest one by one."""
     word = {}
     for a, p in amap.items():
-        w = re.split(r"[-.]", a, 1)[0]
+        w = re.split(r"[-.]", a, maxsplit=1)[0]
         word.setdefault(w, set()).add(p)
     t = {w: next(iter(ps)) for w, ps in word.items() if len(ps) == 1}
-    x = {a: p for a, p in amap.items() if re.split(r"[-.]", a, 1)[0] not in t}
+    x = {a: p for a, p in amap.items() if re.split(r"[-.]", a, maxsplit=1)[0] not in t}
     return {"t": t, "x": x}
 
 
