@@ -12,7 +12,9 @@ STYLE
     (another place is an `edit`); `place-key: {key, name, zone, st | in, fix}` adds a row (or, with `fix: true`,
     replaces an existing row's name), applied before the patch's other ops.
  4. The zone the dateline reads: the entry's `time_zone`, else its first place's zone (dateline.py, STYLE 3).
- 5. `check`: every place key resolves; a list holds at most two; every row has a name and a zone the zone database
+ 5. A place renamed in the span: `names:` on its row, each `{name, from, until}` (ISO dates, either open), the name
+    the dateline prints for an entry of that date; `name` otherwise (Cape Kennedy, Nov. 29, 1963-Oct. 9, 1973).
+ 6. `check`: every place key resolves; a list holds at most two; every row has a name and a zone the zone database
     knows; no key or alias twice.
 """
 import os
@@ -107,7 +109,7 @@ def problems(series):
 def add_row(body, save=True):
     """A place-key op's row added (or, `fix: true`, its name and zone set on the row the key names). Returns an
     error or None."""
-    row = {k: body[k] for k in ("key", "name", "zone", "st", "in", "kind", "aliases") if body.get(k) not in (None, "")}
+    row = {k: body[k] for k in ("key", "name", "names", "zone", "st", "in", "kind", "aliases") if body.get(k) not in (None, "")}
     errs = row_problems(row)
     if errs:
         return "; ".join(errs)
@@ -125,6 +127,16 @@ def add_row(body, save=True):
         rows.sort(key=lambda r: r["key"])
         store.dump_yaml(rows, PATH, header=HEADER)
     return None
+
+
+def name_on(row, date):
+    """The row's name on a date (STYLE 5)."""
+    d = str(date or "")[:10]
+    for n in store.as_list(row.get("names")):
+        if isinstance(n, dict) and n.get("name") and d:
+            if (not n.get("from") or d >= str(n["from"])) and (not n.get("until") or d <= str(n["until"])):
+                return n["name"]
+    return row.get("name")
 
 
 def zone(e):

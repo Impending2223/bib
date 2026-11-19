@@ -120,7 +120,7 @@ def text(e):
         lz, wash_only = WASH, True
     city, st = _tags(e, "city"), _tags(e, "state")
     if pr:
-        place, wash_only = pr.get("name"), False
+        place, wash_only = places.name_on(pr, e.get("date")), False
     else:
         place = None if wash_only else (_city(city[0]) if city and e.get("time_zone") else
                                         (_state(st[0]) if st and e.get("time_zone") else _zlabel(zone, e)))

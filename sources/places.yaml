@@ -47,6 +47,10 @@
   name: Albuquerque
   zone: America/Denver
   st: NM
+- key: alexandria-va
+  name: Alexandria, Va.
+  zone: America/New_York
+  st: VA
 - key: algiers
   name: Algiers
   zone: Africa/Algiers
@@ -97,10 +101,18 @@
   zone: America/Chicago
   st: AR
   kind: state
+- key: arlington-va
+  name: Arlington, Va.
+  zone: America/New_York
+  st: VA
 - key: asheville
   name: Asheville
   zone: America/New_York
   st: NC
+- key: asmara
+  name: Asmara
+  zone: Africa/Asmara
+  in: ethiopia
 - key: aspen
   name: Aspen
   zone: America/Denver
@@ -113,6 +125,10 @@
   name: Athens
   zone: Europe/Athens
   in: greece
+- key: athens-ga
+  name: Athens, Ga.
+  zone: America/New_York
+  st: GA
 - key: atlanta
   name: Atlanta
   zone: America/New_York
@@ -355,6 +371,10 @@
   name: Cape Canaveral, Fla.
   zone: America/New_York
   st: FL
+  names:
+    - name: Cape Kennedy, Fla.
+      from: '1963-11-29'
+      until: '1973-10-08'
 - key: caracas
   name: Caracas
   zone: America/Caracas
@@ -474,6 +494,10 @@
   name: the Cu Chi tunnels
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: cumberland-md
+  name: Cumberland, Md.
+  zone: America/New_York
+  st: MD
 - key: da-nang
   name: Đà Nẵng
   zone: Asia/Ho_Chi_Minh
@@ -633,10 +657,18 @@
   name: Fort Worth
   zone: America/Chicago
   st: TX
+- key: franconia
+  name: Franconia, N.H.
+  zone: America/New_York
+  st: NH
 - key: frankfurt
   name: Frankfurt
   zone: Europe/Berlin
   in: frg
+- key: fredonia-az
+  name: Fredonia, Ariz.
+  zone: America/Phoenix
+  st: AZ
 - key: fresno
   name: Fresno
   zone: America/Los_Angeles
@@ -694,6 +726,10 @@
   name: Greensboro
   zone: America/New_York
   st: NC
+- key: greenville-ms
+  name: Greenville, Miss.
+  zone: America/Chicago
+  st: MS
 - key: greenwood-ms
   name: Greenwood, Miss.
   zone: America/Chicago
@@ -772,6 +808,10 @@
   name: Hershey, Pa.
   zone: America/New_York
   st: PA
+- key: hickam
+  name: Hickam Air Force Base, Haw.
+  zone: Pacific/Honolulu
+  st: HI
 - key: hickory-hill
   name: Hickory Hill
   zone: America/New_York
@@ -792,6 +832,10 @@
   name: Hội An
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: hollis-nh
+  name: Hollis, N.H.
+  zone: America/New_York
+  st: NH
 - key: hon-me
   name: Hòn Mê
   zone: Asia/Bangkok
@@ -890,6 +934,10 @@
   name: the Iron Triangle
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: islamabad
+  name: Islamabad
+  zone: Asia/Karachi
+  in: pakistan
 - key: istanbul
   name: Istanbul
   zone: Europe/Istanbul
@@ -963,6 +1011,10 @@
   name: Katmandu
   zone: Asia/Kathmandu
   in: nepal
+- key: keene
+  name: Keene, N.H.
+  zone: America/New_York
+  st: NH
 - key: kentucky
   name: Kentucky
   zone: America/Kentucky/Louisville
@@ -1040,6 +1092,14 @@
   name: Labé
   zone: Africa/Conakry
   in: guinea
+- key: laconia
+  name: Laconia, N.H.
+  zone: America/New_York
+  st: NH
+- key: lahore
+  name: Lahore
+  zone: Asia/Karachi
+  in: pakistan
 - key: lai-chau
   name: Lai Châu
   zone: Asia/Bangkok
@@ -1060,6 +1120,10 @@
   name: Lansing
   zone: America/Detroit
   st: MI
+- key: lanzhou
+  name: Lanzhou
+  zone: Asia/Shanghai
+  in: prc
 - key: lao-cai
   name: Lào Cai
   zone: Asia/Bangkok
@@ -1096,10 +1160,17 @@
   name: Léopoldville
   zone: Africa/Kinshasa
   in: congo
+  names:
+    - name: Kinshasa
+      from: '1966-07-01'
 - key: lewiston
   name: Lewiston
   zone: America/New_York
   st: ME
+- key: lexington-ky
+  name: Lexington, Ky.
+  zone: America/Kentucky/Louisville
+  st: KY
 - key: liberty-ms
   name: Liberty, Miss.
   zone: America/Chicago
@@ -1140,6 +1211,14 @@
   name: Long Xuyên
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: longdale-ms
+  name: Longdale, Miss.
+  zone: America/Chicago
+  st: MS
+- key: lop-nur
+  name: Lop Nur
+  zone: Asia/Shanghai
+  in: prc
 - key: los-angeles
   name: Los Angeles
   zone: America/Los_Angeles
@@ -1177,10 +1256,18 @@
   name: LZ X-Ray
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: macon
+  name: Macon
+  zone: America/New_York
+  st: GA
 - key: madison
   name: Madison
   zone: America/Chicago
   st: WI
+- key: madison-county-ga
+  name: Madison County, Ga.
+  zone: America/New_York
+  st: GA
 - key: madrid
   name: Madrid
   zone: Europe/Madrid
@@ -1261,6 +1348,10 @@
   zones:
     - America/Detroit
     - America/Menominee
+- key: middleburg-va
+  name: Middleburg, Va.
+  zone: America/New_York
+  st: VA
 - key: milford-pa
   name: Milford, Pa.
   zone: America/New_York
@@ -1296,6 +1387,10 @@
   name: Mobile
   zone: America/Chicago
   st: AL
+- key: mogadishu
+  name: Mogadishu
+  zone: Africa/Mogadishu
+  in: somalia
 - key: montana
   name: Montana
   zone: America/Denver
@@ -1410,6 +1505,14 @@
   name: Newport, R.I.
   zone: America/New_York
   st: RI
+- key: newport-beach
+  name: Newport Beach
+  zone: America/Los_Angeles
+  st: CA
+- key: ngapali
+  name: Ngapali Beach
+  zone: Asia/Yangon
+  in: burma
 - key: nha-trang
   name: Nha Trang
   zone: Asia/Ho_Chi_Minh
@@ -1474,6 +1577,10 @@
   name: Omaha
   zone: America/Chicago
   st: NE
+- key: omdurman
+  name: Omdurman
+  zone: Africa/Khartoum
+  in: sudan
 - key: ong-thanh
   name: Ông Thành
   zone: Asia/Ho_Chi_Minh
@@ -1510,6 +1617,10 @@
   name: Pagan
   zone: Asia/Yangon
   in: burma
+- key: palatka
+  name: Palatka, Fla.
+  zone: America/New_York
+  st: FL
 - key: palm-beach
   name: Palm Beach
   zone: America/New_York
@@ -1567,6 +1678,10 @@
   name: Philadelphia
   zone: America/New_York
   st: PA
+- key: philadelphia-ms
+  name: Philadelphia, Miss.
+  zone: America/Chicago
+  st: MS
 - key: phnom-penh
   name: Phnom Penh
   zone: Asia/Phnom_Penh
@@ -1647,6 +1762,10 @@
   name: Presque Isle
   zone: America/New_York
   st: ME
+- key: pretoria
+  name: Pretoria
+  zone: Africa/Johannesburg
+  in: south-africa
 - key: providence
   name: Providence
   zone: America/New_York
@@ -1691,6 +1810,10 @@
   name: Rapid City
   zone: America/Denver
   st: SD
+- key: rawalpindi
+  name: Rawalpindi
+  zone: Asia/Karachi
+  in: pakistan
 - key: red-bluff
   name: Red Bluff
   zone: America/Los_Angeles
@@ -1720,6 +1843,10 @@
   name: Rio de Janeiro
   zone: America/Sao_Paulo
   in: brazil
+- key: riverside
+  name: Riverside
+  zone: America/Los_Angeles
+  st: CA
 - key: rochester
   name: Rochester
   zone: America/New_York
@@ -1993,6 +2120,10 @@
   name: Topeka
   zone: America/Chicago
   st: KS
+- key: tougaloo-ms
+  name: Tougaloo, Miss.
+  zone: America/Chicago
+  st: MS
 - key: tulsa
   name: Tulsa
   zone: America/Chicago
@@ -2013,6 +2144,10 @@
   name: Tuy Hòa
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: udorn
+  name: Udorn
+  zone: Asia/Bangkok
+  in: thailand
 - key: ulan-bator
   name: Ulan Bator
   zone: Asia/Ulaanbaatar
@@ -2059,6 +2194,10 @@
   name: Vĩnh Long
   zone: Asia/Ho_Chi_Minh
   in: rvn
+- key: vinh-son
+  name: Vinh Sơn
+  zone: Asia/Bangkok
+  in: drv
 - key: virginia
   name: Virginia
   zone: America/New_York
@@ -2147,6 +2286,10 @@
   name: Wilmington, Del.
   zone: America/New_York
   st: DE
+- key: wilton-nh
+  name: Wilton, N.H.
+  zone: America/New_York
+  st: NH
 - key: winona-ms
   name: Winona, Miss.
   zone: America/Chicago
@@ -2156,6 +2299,10 @@
   zone: America/Chicago
   st: WI
   kind: state
+- key: worcester
+  name: Worcester
+  zone: America/New_York
+  st: MA
 - key: wuhan
   name: Wuhan
   zone: Asia/Shanghai
