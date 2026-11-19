@@ -27,12 +27,23 @@ ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "place", "thr
 
 # ---------------------------------------------------------------- yaml i/o
 
-class _Loader(yaml.SafeLoader):
+# libyaml's loader (C, about eight times faster) when this PyYAML has it, else the pure-Python one; both read every
+# file of the data alike (tests/property: test_c_loader_agrees). _PyLoader, the pure-Python one, reads a file libyaml
+# will not, so that the message for bad YAML is the same whichever loader is in use.
+_FAST = bool(getattr(yaml, "__with_libyaml__", False)) and hasattr(yaml, "CSafeLoader")
+LOADER_KIND = "libyaml" if _FAST else "python"
+
+
+class _PyLoader(yaml.SafeLoader):
+    pass
+
+
+class _Loader(yaml.CSafeLoader if _FAST else yaml.SafeLoader):
     pass
 
 
 # Dates and times stay strings: "1961-04-15" must not turn into a date object.
-_Loader.yaml_implicit_resolvers = {
+_PyLoader.yaml_implicit_resolvers = _Loader.yaml_implicit_resolvers = {
     k: [(tag, rx) for tag, rx in v if tag != "tag:yaml.org,2002:timestamp"]
     for k, v in yaml.SafeLoader.yaml_implicit_resolvers.items()
 }
@@ -49,8 +60,8 @@ CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by p
 
 def load_yaml(path):
     """A YAML file's data, parsed once: the parse is kept in memory for the run and on disk (.cache/yaml) for later
-    runs, keyed by the file's path and a sha1 of its bytes (not its modification time and size, which a rewrite in
-    the same tick can leave unchanged; hashing all the data's YAML costs about 0.1-0.2 s a run). Each caller gets its
+    runs, keyed by the file's path and a sha1 of its bytes (on disk, with the loader's kind; not its modification time
+    and size, which a rewrite in the same tick can leave unchanged; hashing all the data's YAML costs about 0.1-0.2 s a run). Each caller gets its
     own copy (callers change what they load). _PARSED[path] holds the digest and parse of the bytes last read."""
     import pickle
     try:
@@ -60,6 +71,7 @@ def load_yaml(path):
         raw = None
     if raw is not None:
         sig = hashlib.sha1(raw).hexdigest()
+        dkey = sig + "/" + LOADER_KIND     # on disk, the loader's kind too: a change of loader parses afresh
         hit = _PARSED.get(path)
         if hit and hit[0] == sig:
             return pickle.loads(hit[1])
@@ -67,7 +79,7 @@ def load_yaml(path):
         try:
             with open(disk, "rb") as f:
                 dsig, blob = pickle.load(f)
-            if dsig == sig:
+            if dsig == dkey:
                 _PARSED[path] = (sig, blob)
                 return pickle.loads(blob)
         except (OSError, EOFError, pickle.UnpicklingError, ValueError, TypeError):
@@ -80,7 +92,7 @@ def load_yaml(path):
             os.makedirs(CACHE_DIR, exist_ok=True)
             tmp = disk + f".{os.getpid()}.tmp"
             with open(tmp, "wb") as f:
-                pickle.dump((sig, blob), f, protocol=pickle.HIGHEST_PROTOCOL)
+                pickle.dump((dkey, blob), f, protocol=pickle.HIGHEST_PROTOCOL)
             os.replace(tmp, disk)
         except OSError:
             pass
@@ -96,6 +108,10 @@ def _parse_yaml(path, text=None):
                         "merges these files entry by entry, or settle the markers by hand.")
     try:
         return yaml.load(text, Loader=_Loader)
+    except yaml.YAMLError:
+        pass
+    try:                                 # it failed: the pure-Python loader's reading and message, as before
+        return yaml.load(text, Loader=_PyLoader)
     except yaml.YAMLError as e:
         mark = getattr(e, "problem_mark", None)
         where = f"{os.path.relpath(path, ROOT)}:{mark.line + 1}" if mark else os.path.relpath(path, ROOT)
@@ -207,6 +223,24 @@ def file_digest(path):
 
 # ---------------------------------------------------------------- ids and keys
 
+def memo(fn):
+    """fn, a pure function of its arguments, computed once for each (code review C, PERF 8: fold, slug, a note's
+    sentences are asked for millions of times on some tens of thousands of strings). An argument that cannot be a key
+    (a list) is computed afresh, as before. fn must return what no caller can change (a str, a tuple), or its caller
+    must copy it."""
+    cached = functools.lru_cache(maxsize=None)(fn)
+
+    @functools.wraps(fn)
+    def call(*a, **k):
+        try:
+            return cached(*a, **k)
+        except TypeError:
+            return fn(*a, **k)
+    call.cache_clear = cached.cache_clear
+    return call
+
+
+@memo
 def slug(text, maxwords=6):
     t = unicodedata.normalize("NFKD", text.replace("Đ", "D").replace("đ", "d"))   # Đ has no decomposition
     t = "".join(ch for ch in t if not unicodedata.combining(ch))
@@ -215,6 +249,7 @@ def slug(text, maxwords=6):
     return "-".join(words[:maxwords])
 
 
+@memo
 def fold(text):
     """Comparison form of a title or name: no accents, case, or punctuation."""
     return " ".join(slug(text, 999).split("-"))
@@ -423,15 +458,56 @@ class Series:
         """id (and alias) -> (list, section, entry)."""
         if self._index is None:
             idx = {}
+            keys = {}                    # section -> the keys it gave (reindex)
+            clash = False                # a key two entries claim: an id or alias used twice
             for lst in self.lists.values():
                 for s, e in lst.entries():
+                    clash = clash or e["id"] in idx
                     idx[e["id"]] = (lst, s, e)
+                    keys.setdefault(s, []).append(e["id"])
             for lst in self.lists.values():
                 for s, e in lst.entries():
                     for a in e.get("aliases", []):
-                        idx.setdefault(a, (lst, s, e))
+                        if a in idx:
+                            clash = True
+                        else:
+                            idx[a] = (lst, s, e)
+                            keys.setdefault(s, []).append(a)
             self._index = idx
+            self._index_keys = None if clash else keys
         return self._index
+
+    def reindex(self, sections):
+        """The index brought up to date after a change confined to these sections (merge.apply_patch: each op names
+        the sections it changed): their keys taken out and read again from them alone, as a whole rebuild would give
+        them (code review C, PERF 5). Where it might not (the index held a key two entries claim, or one would now),
+        the index is dropped and rebuilt on its next use, as invalidate does."""
+        idx, keys = self._index, getattr(self, "_index_keys", None)
+        if idx is None:
+            return
+        if keys is None:
+            self._index = None
+            return
+        for s in sections:
+            for k in keys.pop(s, ()):
+                del idx[k]
+        new = []
+        for s in sections:
+            got = keys.setdefault(s, [])
+            for e in s.entries:
+                if e["id"] in idx:
+                    self._index = None
+                    return
+                idx[e["id"]] = (s.lst, s, e)
+                got.append(e["id"])
+                new.append((s, e))
+        for s, e in new:
+            for a in e.get("aliases", []):
+                if a in idx:
+                    self._index = None
+                    return
+                idx[a] = (s.lst, s, e)
+                keys[s].append(a)
 
     def get(self, eid):
         return self.index().get(eid)

@@ -1806,7 +1806,8 @@ def calendar_sentences(ptrs, cal):
     out = []
     for e in cal:
         if True:
-            c = series_html(ptrs, store.as_list(e.get("c"))[0] if e.get("c") else "", "cal", e)
+            from . import cjk               # the line as the calendar shows it, its characters out (cjk.py, STYLE 2)
+            c = series_html(ptrs, cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else "", "cal", e)
             n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
             # each calendar entry a paragraph of its own, its sources and pointer after it
             wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"

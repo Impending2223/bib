@@ -898,3 +898,9 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 - And "1960, 11th lunar month, 7th day"? That can't be hard to figure out, can it?
 - Do we need to split Works? Do we need to split Names further than we have already? I think we do.
 - Do we not have a pass that tells us that size of each page, on calendar pages and otherwise, directs splits, and refactors navigation and pointers after the split pass? Please implement one if not." (Nov. 19, about 7:05 a.m. Pacific; "Not at the moment" to a clarity sweep, the message before.)
+
+"Immediate.
+- "Early 1960" seems to come after "January 1960". I thought I directed otherwise? Can we fix that, and all similar mis-placements?
+- The "January 1960" heading and indicators table comes before "1960." Can we fix that?" (Nov. 19, about 8:35 a.m. Pacific.)
+
+The owner's answers to the display questions (Nov. 19, about 10:45 a.m. Pacific), chosen from the options offered: midnight, "Yes, '12:00 a.m.'"; "noon" in the notes' prose, "Datelines only"; quoted Chinese originals with an English rendering, "Move them, keep English"; the label "Characters:": "What? I'm just saying that the substantive notes in the citation block should give the full CJK, and that Names in "Names:" should as well."

@@ -444,6 +444,28 @@ def cmd_patch_check(series, a):
     return 1 if bad else 0
 
 
+def cmd_fields(series, a):
+    """R25a's fields: the findings for entries of the tree, or for a patch's calendar adds (tools/bib/fields.py)."""
+    from . import fields
+    ents = []
+    for p in a.patch or []:
+        ents += fields.patch_entries(p)
+    for i in a.ids:
+        hit = series.get(i)
+        if not hit:
+            print(f"{i}: no such entry")
+            continue
+        ents.append(hit[2])
+    n = 0
+    for e in ents:
+        fs = fields.findings(e)
+        for rule, msg in fs:
+            print(f"{fields.LEVEL[rule]:7} {msg}")
+        n += len(fs)
+    print(f"{len(ents)} entries, {n} findings")
+    return 0
+
+
 def cmd_ledger(series, a):
     """The ledger of new entries (tools/bib/ledger.py)."""
     from . import ledger
@@ -1056,6 +1078,10 @@ def main(argv=None):
     x = sub.add_parser("patch-check", help="a patch held to the rules before it is handed in (tools/bib/patchcheck.py)")
     x.add_argument("patches", nargs="+")
     x.add_argument("--legacy", action="store_true", help="a patch written before the ledger: an unclaimed add warns")
+    x = sub.add_parser("fields", help="R25a: a clock time, a loose date's position or a place in an entry without its "
+                       "field (tools/bib/fields.py): fields ID... | fields --patch P...")
+    x.add_argument("ids", nargs="*")
+    x.add_argument("--patch", nargs="+")
     x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | drop PATCH ID... | prune")
     x.add_argument("what", choices=["add", "find", "drop", "prune"])
     x.add_argument("args", nargs="*")

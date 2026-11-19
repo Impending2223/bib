@@ -254,6 +254,35 @@ def order(lst, entries, by_time=True):
     return out
 
 
+def page_rows(lst):
+    """[(page, entry)]: a calendar's entries in the order its pages show them (a thread's own entry aside): page by
+    page (calsplit's halves; a loose date where it is shown, loose.py), then by the entry's place there (loose.order_key),
+    and within one place in the order daybook.section_days lays it out: a day's by this module's order, its subentries
+    after their parent (subentries.nest); a month's or a year's block, an intercalary day, by the key alone. For the
+    firsts on a page: a work's first cite in full (works.first_cites), characters (cjk.firsts)."""
+    import itertools
+    from . import calsplit, loose, subentries
+    rows = []
+    for k, sec in enumerate(lst.walk()):
+        for i, e in enumerate(sec.entries):
+            if e["id"].startswith(f"{lst.key}.thread."):
+                continue
+            h = (calsplit.half_of_date(lst, loose.place_iso(e)) if loose.moves(e) and calsplit.cfg(lst)
+                 else (calsplit.half_of_section(lst, sec) or 1))
+            rows.append((h, loose.order_key(e), k, i, e))
+    rows.sort(key=lambda r: r[:4])
+    untimed = lambda l, xs: order(l, xs, by_time=False)
+    out = []
+    for (h, ok, _), grp in itertools.groupby(rows, key=lambda r: (r[0], r[1], r[2] if r[1][1] == 9 else None)):
+        es = [r[4] for r in grp]
+        if len(es) > 1:
+            day = ok[1] == 1 and all("when" in e and len(str(e.get("date", ""))) == 10 for e in es)
+            es = [e for e, _ in (subentries.nest(lst, order(lst, es), order) if day
+                                 else subentries.nest(lst, untimed(lst, es), untimed))]
+        out += [(h, e) for e in es]
+    return out
+
+
 POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 
 
