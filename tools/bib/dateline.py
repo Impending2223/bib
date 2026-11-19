@@ -11,7 +11,8 @@ STYLE
     block, but keep the display line clean"): `time` an hour ("11:30 a.m."; "about 4 p.m." where `time_approx`); a
     `time_range` from the record its start ("10:20 a.m.", not "10:20–11:20 a.m."); a range from the event's kind
     (`range_basis: kind`), or any range a reader gave a `time_band` (the record's "morning", 上午), its band as words
-    ("workday", "early morning", "election night", "morning"), a word, not a range or its start shown; no time, no
+    ("workday", "early morning", "election night", "morning"), a word, not a range or its start shown (a band of
+    record keeps its hours and Washington's in the title, STYLE 4: "the balance ... somewhere hidden"); no time, no
     dateline. Noon is "12:00 p.m." (the owner, Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2
     p.m."; midnight stays "midnight" (no ruling on it).
  3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
@@ -139,10 +140,13 @@ def parts(e):
     else:
         a, b = (_utc(x).astimezone(lz) for x in r[:2])
         start = a
-        if e.get("range_basis") == "kind" or e.get("time_band"):    # a band ("morning", 上午): its word, not its hours
+        if e.get("range_basis") == "kind" or e.get("time_band") == "election night":
             band = str(e.get("time_band") or "")
             when = full = BAND.get(band, band)
-            start = None                                 # a band: no hour to set against Washington's
+            start = None                                 # a kind's band: no hours of record, none against Washington's
+        elif e.get("time_band"):                         # a band of record ("morning", 上午): its word on the line,
+            band = str(e.get("time_band"))               # its hours and Washington's in the title (STYLE 2, 4)
+            when, full = BAND.get(band, band), _span(a, b)
         else:
             when, full = _clock(a), _span(a, b)
     if not when:

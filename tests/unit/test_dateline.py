@@ -105,11 +105,12 @@ FULL = [
       'time_zone': 'Asia/Shanghai'}, 'Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)'),
     ({'id': 'g', 'date': '1961-04-17', 'time_range': ['1961-04-17T14:00Z', '1961-04-17T22:00Z'],
       'time_zone': 'America/New_York', 'range_basis': 'kind', 'time_band': 'evening'}, 'Washington · evening'),
-    # a band a reader gave from the record (上午), no basis: its word, not its conventional hours or their start
+    # a band a reader gave from the record (上午): the line its word; the title its hours and Washington's, nothing lost
     ({'id': 's', 'date': '1961-04-29', 'time_range': ['1961-04-28T22:00Z', '1961-04-29T04:00Z'],
-      'time_zone': 'Asia/Shanghai', 'time_band': 'morning'}, 'Peking · morning'),
+      'time_zone': 'Asia/Shanghai', 'time_band': 'morning'}, 'Peking · 6 a.m.–12:00 p.m. (Apr. 28, 5 p.m. Wash.)'),
     ({'id': 't', 'date': '1963-01-18', 'time_range': ['1963-01-17T23:00Z', '1963-01-18T05:00Z'],
-      'time_zone': 'Asia/Ho_Chi_Minh', 'time_band': 'morning', 'range_basis': 'record'}, 'Saigon · morning'),
+      'time_zone': 'Asia/Ho_Chi_Minh', 'time_band': 'morning', 'range_basis': 'record'},
+     'Saigon · 7 a.m.–1 p.m. (Jan. 17, 6 p.m. Wash.)'),
     ({'id': 'a', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z'}, '12:00 p.m. Wash.'),
     ({'id': 'k', 'date': '1961-04-17'}, ''),
 ]
@@ -119,6 +120,9 @@ HTML = [
     ({'id': 'r', 'date': '1961-04-17', 'time_range': ['1961-04-17T02:00Z', '1961-04-17T03:00Z'],
       'time_zone': 'Asia/Shanghai'},
      '<span class="dl" title="Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)">Peking · 10 a.m.</span>'),
+    ({'id': 's', 'date': '1961-04-29', 'time_range': ['1961-04-28T22:00Z', '1961-04-29T04:00Z'],
+      'time_zone': 'Asia/Shanghai', 'time_band': 'morning'},
+     '<span class="dl" title="Peking · 6 a.m.–12:00 p.m. (Apr. 28, 5 p.m. Wash.)">Peking · morning</span>'),
     ({'id': 'n', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z', 'time_zone': 'America/New_York'},
      '<span class="dl">Washington · 12:00 p.m.</span>'),
     ({'id': 'k', 'date': '1961-04-17'}, ''),
