@@ -114,7 +114,7 @@ import datetime
 import os
 import re
 
-from . import store
+from . import markup, store
 
 PROV = os.path.join(store.ROOT, "sources", "provenance.yaml")
 POL = os.path.join(store.ROOT, "sources", "polities.yaml")
@@ -142,7 +142,7 @@ DATE_DMY = re.compile(r"\b(\d{1,2}) (January|February|March|April|May|June|July|
                       r"December) (\d{4})\b")
 DATE_URL = re.compile(r"/((?:19|20)\d\d)/(\d\d)/(\d\d)/")
 YEAR_PAREN = re.compile(r"\(((?:19|20)\d\d)(?:[–-]\d{2,4})?\)")
-LINK = re.compile(r"\[([^\]]*)\]\((https?://[^)\s]+)\)")
+LINK = markup.LINK_RE
 
 
 # ---------------------------------------------------------------- the registry and the polities
@@ -932,7 +932,9 @@ def problems(series):
     polity is `?` (a count); a thread with no polities (a line each); the cited works whose country is `?` (a count)."""
     try:
         return _problems(series)
-    except Exception as x:                    # a fault here must never stop a build
+    except Exception as x:                    # a fault here must never stop a build's other pages; counted (faults.py)
+        from . import faults
+        faults.record("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")
         return [("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")]
 
 

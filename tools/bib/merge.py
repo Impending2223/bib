@@ -17,6 +17,7 @@ The rules, field by field (three-way: base = what the editor started from):
 A conflict never blocks the merge. It is data: `./bib conflicts` lists them,
 `./bib check` fails on them, `./bib resolve` or a hand edit clears them.
 """
+import contextlib
 import datetime
 import difflib
 import os
@@ -240,14 +241,20 @@ class Report:
     def __init__(self):
         self.lines = []
         self.conflicts = 0
+        self.errors = 0
 
     def add(self, status, eid, msg=""):
         if status == "conflict":
             self.conflicts += 1
+        if status == "error":
+            self.errors += 1
         self.lines.append(f"{status:9} {eid}{': ' + msg if msg else ''}")
 
 
 def apply_patch(series, patch, source, report, dry=False):
+    """The patch's ops applied to the series in memory, then written: all or nothing. If any op errors, no file is
+    written (no section, no deferred op), so the patch can be fixed and merged again as if never tried. Returns the
+    sections touched (written only when no op errored)."""
     touched = set()
     ops = patch.get("ops") or []
     ops = [o for o in ops if "add" in o] + [o for o in ops if "add" not in o]   # adds first (tools/bib/addops.py)
@@ -257,18 +264,86 @@ def apply_patch(series, patch, source, report, dry=False):
     _PARTS.clear()
     _PARTS.update(patch_parts(ops))
     _addops.DRY = dry
+    _addops.PENDING = []                     # ops deferred by this patch, written with its sections
+    errors = report.errors
     for op in ops:
         (kind, body), = op.items()
         fn = OPS.get(kind)
         if not fn:
             report.add("error", "-", f"unknown op {kind!r}")
             continue
+        refused = op_problems(kind, body or {})
+        for eid, msg in refused:
+            report.add("error", eid, msg)
+        if refused:
+            continue
         fn(series, body or {}, source, report, touched)
         series.invalidate()
-    if not dry:
+    pending, _addops.PENDING = _addops.PENDING, None
+    if not dry and report.errors == errors:
         for sec in touched:
             series.save_section(sec)
+        _addops.defer_rows(pending)
     return touched
+
+
+@contextlib.contextmanager
+def lock(wait=True):
+    """One merge at a time in this clone: an exclusive lock (fcntl) on .cache/merge.lock for the whole of `./bib
+    merge` (and --auto). A second merge waits for the first, saying so; with wait=False it raises DataError instead.
+    Yields whether it waited (the caller then reloads what it read before)."""
+    import fcntl
+    import sys
+    path = os.path.join(store.ROOT, ".cache", "merge.lock")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    f = open(path, "a+")
+    waited = False
+    try:
+        try:
+            fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            f.seek(0)
+            who = f.read().strip() or "another process"
+            if not wait:
+                raise store.DataError(f"another merge is running ({who}); merges run one at a time")
+            print(f"another merge is running ({who}); waiting for it to finish", file=sys.stderr)
+            fcntl.flock(f, fcntl.LOCK_EX)
+            waited = True
+        f.seek(0)
+        f.truncate()
+        f.write(f"pid {os.getpid()}, since {datetime.datetime.now().isoformat(timespec='seconds')}\n")
+        f.flush()
+        yield waited
+    finally:
+        try:
+            fcntl.flock(f, fcntl.LOCK_UN)
+        finally:
+            f.close()
+
+
+BOOKKEEPING = ("id", "aliases", "conflict")   # and any key beginning "_": changed by combine, resolve or a hand edit
+
+
+def op_problems(kind, body):
+    """An op that would change an entry's bookkeeping, refused (here, by apply_patch, and by patchcheck): an edit that
+    sets or unsets `id`, `aliases`, `conflict` or a key beginning "_"; an add whose id is not of the list it names.
+    [(id, message)]."""
+    out = []
+    if kind == "edit":
+        eid = body.get("id") or "?"
+        for how in ("set", "unset"):
+            keys = body.get(how) or []
+            keys = list(keys) if isinstance(keys, (dict, list, tuple)) else [keys]
+            for k in keys:
+                if str(k) in BOOKKEEPING or str(k).startswith("_"):
+                    out.append((eid, f"an edit may not {how} {str(k)!r} (id, aliases, conflict and _ fields change "
+                                     "by ./bib combine, ./bib resolve, or by hand)"))
+    elif kind == "add":
+        e = body.get("entry") or {}
+        eid, key = str(e.get("id") or ""), body.get("list")
+        if eid and key and not eid.startswith(f"{key}."):
+            out.append((eid, f"add to list {key!r}: the id is not of that list (its ids begin {key}.)"))
+    return out
 
 
 def _locate(series, eid, report):

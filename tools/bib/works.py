@@ -72,7 +72,7 @@ STYLE:
 import os
 import re
 
-from . import store
+from . import markup, store
 from .markup import plain
 
 WORKS = os.path.join(store.ROOT, "works")
@@ -1430,7 +1430,7 @@ def bluebook_pin(head, pin):
     """The pinpoint in its place (Bluebook 3.2(a), 15.3; the owner, Nov. 5, 2026): straight after a book's title,
     ', at' where the title ends in a numeral, Arabic or Roman ('*... 1945–1975*, at 257'); after an article's or a
     chapter's first page, a comma ('1, 15')."""
-    bare = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", head).rstrip()
+    bare = markup.strip_links(head).rstrip()
     if bare.endswith("*"):
         return (", at " if ROMAN_END.search(bare[:-1]) else " ") + pin
     return ", " + pin

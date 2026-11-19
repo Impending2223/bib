@@ -274,6 +274,10 @@ def cmd_build(series, a):
         print(os.path.relpath(p, HERE), f"{os.path.getsize(p) // 1024} KB")
     if vispage.STATS["entries"]:
         print(vispage.report())
+    from . import faults
+    if faults.FAULTS:                    # content left out of a page (faults.py): the other pages are written; exit 1
+        print(faults.report(), file=sys.stderr)
+        return 1
 
 
 def cmd_hearings(series, a):
@@ -347,6 +351,13 @@ def cmd_names(series, a):
 cmd_lives = cmd_names                  # the old name
 
 def cmd_merge(series, a):
+    """One merge at a time (merge.lock): a second waits, then reads the series afresh."""
+    from . import merge
+    with merge.lock() as waited:
+        return _merge(store.Series() if waited else series, a)
+
+
+def _merge(series, a):
     from .merge import apply_patch, Report
     rc = 0
     if getattr(a, "auto", False):
@@ -360,6 +371,13 @@ def cmd_merge(series, a):
         print("\n".join("  " + l for l in rep.lines))
         if rep.conflicts:
             print(f"  {rep.conflicts} conflicts recorded in the entries: ./bib conflicts")
+        if rep.errors:                   # nothing written (merge.apply_patch: all or nothing); the patch stays
+            print(f"  {rep.errors} ops failed: nothing written" + ("" if a.dry_run else
+                  f"; {os.path.basename(path)} left in the inbox"))
+            rc = 1
+            if not a.dry_run:
+                series = store.Series()  # the series as the files hold it, for the next patch
+            continue
         if not a.dry_run:                # works the patch cited as text become cards (works.adopt)
             from . import works
             series = store.Series()
@@ -443,11 +461,24 @@ def merge_auto(a):
         name = patch.get("patch") or os.path.basename(path)
         rep = Report()
         touched = apply_patch(series, patch, name, rep, dry=a.dry_run)
+        if rep.errors:                   # nothing written (merge.apply_patch: all or nothing): stop, the patch stays
+            print(f"== {name} (auto" + (", dry run)" if a.dry_run else ")"))
+            print("\n".join("  " + l for l in rep.lines if l.startswith("error")))
+            print(f"  refused: {rep.errors} ops failed, nothing written; {os.path.basename(path)} left in the inbox")
+            return 1
         ready = [] if a.dry_run else addops.take_deferred(store.Series())
         if ready:
             series = store.Series()
-            for r in ready:
+            done = []
+            for r in ready:              # each deferred op applied on its own; removed from the file once it has
+                before = rep.errors
                 touched |= apply_patch(series, {"ops": [r["op"]]}, r["from"], rep)
+                if rep.errors == before:
+                    done.append(r)
+            addops.drop_deferred(done)
+            if len(done) < len(ready):
+                print(f"  {len(ready) - len(done)} deferred ops failed: kept in inbox/deferred.yaml")
+                rc = 1
         print(f"== {name} (auto" + (", dry run)" if a.dry_run else ")"))
         shown = [l for l in rep.lines if not l.startswith(("same", "added-to", "edited", "added ", "tagged"))]
         if shown:
@@ -1043,6 +1074,14 @@ def main(argv=None):
     x.add_argument("--force", action="store_true")
 
     a = p.parse_args(argv)
+    try:
+        return _run(a)
+    except store.DataError as x:         # a data file that does not load: its message, exit 1 (as a SystemExit did)
+        print(x, file=sys.stderr)
+        return 1
+
+
+def _run(a):
     if a.cmd == "git-merge":
         return cmd_git_merge(a)
     if a.cmd == "import":

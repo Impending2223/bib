@@ -82,10 +82,12 @@ def _kv(lines):
 # ---------------------------------------------------------------- changes (STYLE 2)
 
 def _index(s):
-    k = id(s)
-    if k not in _IDX:
-        _IDX[k] = {str(r["p"]): r for r in s.get("rows", [])}
-    return _IDX[k]
+    """The series' rows by period. Cached by id(s) with s itself kept beside its index: a series freed and another
+    loaded at its address would otherwise be served the first one's rows."""
+    hit = _IDX.get(id(s))
+    if hit is None or hit[0] is not s:
+        hit = _IDX[id(s)] = (s, {str(r["p"]): r for r in s.get("rows", [])})
+    return hit[1]
 
 
 def _back(p, months):
