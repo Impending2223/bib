@@ -251,6 +251,9 @@ def apply_patch(series, patch, source, report, dry=False):
     touched = set()
     ops = patch.get("ops") or []
     ops = [o for o in ops if "add" in o] + [o for o in ops if "add" not in o]   # adds first (tools/bib/addops.py)
+    ops = [o for o in ops if "place-key" in o] + [o for o in ops if "place-key" not in o]   # the gazetteer's rows first
+    from . import places as _places
+    _places.PENDING.clear()
     _PARTS.clear()
     _PARTS.update(patch_parts(ops))
     _addops.DRY = dry
@@ -452,7 +455,21 @@ def op_combine(series, body, source, report, touched):
     combine(series, body["keep"], body["drop"], source, report, touched)
 
 
-OPS = {"add": op_add, "edit": op_edit, "tag": op_tag, "move": op_move, "delete": op_delete, "combine": op_combine}
+def op_place_key(series, body, source, report, touched):
+    """A gazetteer row (tools/bib/places.py, STYLE 3); on a dry run kept pending for the patch's place ops."""
+    from . import places
+    if _addops.DRY:
+        err = places.row_problems({k: body.get(k) for k in ("key", "name", "zone")})
+        if not err:
+            places.PENDING[str(body.get("key"))] = dict(body)
+        report.add("error" if err else "place-key", str(body.get("key")), "; ".join(err))
+        return
+    err = places.add_row(body)
+    report.add("error" if err else "place-key", str(body.get("key")), err or "")
+
+
+OPS = {"add": op_add, "edit": op_edit, "tag": op_tag, "move": op_move, "delete": op_delete, "combine": op_combine,
+       "place-key": op_place_key}
 # the additive ops: no base, applied to the entry as it stands (tools/bib/addops.py)
 from . import addops as _addops  # noqa: E402
 OPS.update({k: _addops.make_op(k) for k in _addops.FNS})

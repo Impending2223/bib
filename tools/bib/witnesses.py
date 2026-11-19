@@ -161,6 +161,8 @@ def register(series=None):
     """{(card, page, note): witness} through the works' edges, for the claim maps' `via w.card PAGE n.NOTE` rows. Each
     witness carries `record` (its `what`) for the renderers written before the registry."""
     rows, edges, _ = load()
+    if _cache.get("register_of") is rows:            # built once per load (the footnotes ask for it per entry)
+        return _cache["register"]
     out = {}
     for card, es in edges.items():
         for ed in es:
@@ -168,6 +170,7 @@ def register(series=None):
             w = rows.get(ed.get("of"))
             if m and w:
                 out.setdefault((card, m.group("page"), m.group("note")), dict(w, record=w.get("what")))
+    _cache["register_of"], _cache["register"] = rows, out
     return out
 
 

@@ -1,0 +1,1030 @@
+patch: 2026-11-19-places-09
+by: 'Claude (the location pass, chunk09: the thread statements, and 1960 to Oct. 3), Nov. 19, 2026'
+ops:
+- place-key: {key: chongqing, name: 'Chongqing', zone: Asia/Shanghai, in: prc}
+- place-key: {key: miami-beach, name: 'Miami Beach', zone: America/New_York, st: FL}
+- place-key: {key: raleigh, name: 'Raleigh', zone: America/New_York, st: NC}
+- place-key: {key: conghua, name: 'Conghua', zone: Asia/Shanghai, in: prc}
+- place-key: {key: reggane, name: 'Reggane', zone: Africa/Algiers, in: algeria}
+- place-key: {key: aleppo, name: 'Aleppo', zone: Asia/Damascus, in: [uar, syria]}
+- place-key: {key: beaver-dam, name: 'Beaver Dam, Wis.', zone: America/Chicago, st: WI, fix: true}
+- place-key: {key: mayville, name: 'Mayville, Wis.', zone: America/Chicago, st: WI, fix: true}
+- place-key: {key: fond-du-lac, name: 'Fond du Lac, Wis.', zone: America/Chicago, st: WI, fix: true}
+- place-key: {key: montevideo, name: 'Montevideo', zone: America/Montevideo, in: uruguay}
+- place-key: {key: wausau, name: 'Wausau, Wis.', zone: America/Chicago, st: WI}
+- place-key: {key: bear-mountain, name: 'Bear Mountain, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: sharpeville, name: 'Sharpeville', zone: Africa/Johannesburg, in: south-africa}
+- place-key: {key: galveston, name: 'Galveston, Tex.', zone: America/Chicago, st: TX}
+- place-key: {key: shepherdsville, name: 'Shepherdsville, Ky.', zone: America/Kentucky/Louisville, st: KY}
+- place-key: {key: masan, name: 'Masan', zone: Asia/Seoul, in: rok}
+- place-key: {key: biloxi, name: 'Biloxi, Miss.', zone: America/Chicago, st: MS, fix: true}
+- place-key: {key: libertyville, name: 'Libertyville, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: spokane, name: 'Spokane', zone: America/Los_Angeles, st: WA}
+- place-key: {key: harriman, name: 'Harriman, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: guiyang, name: 'Guiyang', zone: Asia/Shanghai, in: prc}
+- place-key: {key: sverdlovsk, name: 'Sverdlovsk', zone: Asia/Yekaterinburg, in: ussr}
+- place-key: {key: san-quentin, name: 'San Quentin, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: morgantown, name: 'Morgantown, W. Va.', zone: America/New_York, st: WV}
+- place-key: {key: kompong-cham, name: 'Kompong Cham', zone: Asia/Phnom_Penh, in: cambodia}
+- place-key: {key: zigong, name: 'Zigong', zone: Asia/Shanghai, in: prc}
+- place-key: {key: tucson, name: 'Tucson', zone: America/Phoenix, st: AZ}
+- place-key: {key: sandouping, name: 'Sandouping', zone: Asia/Shanghai, in: prc}
+- place-key: {key: fort-meade, name: 'Fort Meade, Md.', zone: America/New_York, st: MD, fix: true}
+- place-key: {key: glacier-national-park, name: 'Glacier National Park, Mont.', zone: America/Denver, st: MT}
+- place-key: {key: santiago-de-cuba, name: 'Santiago de Cuba', zone: America/Havana, in: cuba}
+- place-key: {key: springfield, name: 'Springfield, Ill.', zone: America/Chicago, st: IL, fix: true}
+- place-key: {key: hyde-park-ny, name: 'Hyde Park, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: elisabethville, name: 'Elisabethville', zone: Africa/Lubumbashi, in: congo}
+- place-key: {key: seal-harbor-me, name: 'Seal Harbor, Me.', zone: America/New_York, st: ME}
+- place-key: {key: miyun-reservoir, name: 'the Miyun reservoir', zone: Asia/Shanghai, in: prc}
+- place-key: {key: presque-isle, name: 'Presque Isle, Me.', zone: America/New_York, st: ME, fix: true}
+- place-key: {key: bangor, name: 'Bangor, Me.', zone: America/New_York, st: ME, fix: true}
+- place-key: {key: palmer, name: 'Palmer, Alaska', zone: America/Anchorage, st: AK, fix: true}
+- place-key: {key: marion, name: 'Marion, Ind.', zone: America/Indiana/Indianapolis, st: IN, fix: true}
+- place-key: {key: pocatello, name: 'Pocatello, Idaho', zone: America/Boise, st: ID, fix: true}
+- place-key: {key: pontiac, name: 'Pontiac', zone: America/Detroit, st: MI}
+- place-key: {key: flint, name: 'Flint', zone: America/Detroit, st: MI}
+- place-key: {key: muskegon, name: 'Muskegon, Mich.', zone: America/Detroit, st: MI}
+- place-key: {key: bogota, name: 'Bogotá', zone: America/Bogota, in: colombia}
+- place-key: {key: san-salvador, name: 'San Salvador', zone: America/El_Salvador, in: el-salvador}
+- place-key: {key: brazzaville, name: 'Brazzaville', zone: Africa/Brazzaville, in: congo-brazzaville}
+- place-key: {key: dunsmuir, name: 'Dunsmuir, Cal.', zone: America/Los_Angeles, st: CA, fix: true}
+- place-key: {key: redding, name: 'Redding', zone: America/Los_Angeles, st: CA}
+- place-key: {key: chico, name: 'Chico', zone: America/Los_Angeles, st: CA}
+- place-key: {key: marysville-ca, name: 'Marysville, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: martinez-ca, name: 'Martinez, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: flushing-oh, name: 'Flushing, Ohio', zone: America/New_York, st: OH}
+- place-key: {key: suisun, name: 'Suisun, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: red-bluff, name: 'Red Bluff, Cal.', zone: America/Los_Angeles, st: CA, fix: true}
+- place-key: {key: modesto, name: 'Modesto', zone: America/Los_Angeles, st: CA}
+- place-key: {key: merced, name: 'Merced', zone: America/Los_Angeles, st: CA}
+- place-key: {key: madera, name: 'Madera, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: tulare, name: 'Tulare, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: turlock, name: 'Turlock, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: burbank, name: 'Burbank', zone: America/Los_Angeles, st: CA}
+- place-key: {key: bakersfield, name: 'Bakersfield', zone: America/Los_Angeles, st: CA}
+- place-key: {key: lubbock, name: 'Lubbock', zone: America/Chicago, st: TX}
+- place-key: {key: sharon-ct, name: 'Sharon, Conn.', zone: America/New_York, st: CT}
+- place-key: {key: grand-prairie, name: 'Grand Prairie', zone: America/Chicago, st: TX}
+- place-key: {key: arlington-tx, name: 'Arlington, Tex.', zone: America/Chicago, st: TX}
+- place-key: {key: paramus, name: 'Paramus, N.J.', zone: America/New_York, st: NJ}
+- place-key: {key: paterson, name: 'Paterson', zone: America/New_York, st: NJ}
+- place-key: {key: clifton-nj, name: 'Clifton', zone: America/New_York, st: NJ}
+- place-key: {key: new-brunswick, name: 'New Brunswick, N.J.', zone: America/New_York, st: NJ}
+- place-key: {key: trenton, name: 'Trenton', zone: America/New_York, st: NJ}
+- place-key: {key: lebanon-pa, name: 'Lebanon, Pa.', zone: America/New_York, st: PA}
+- place-key: {key: reading-pa, name: 'Reading', zone: America/New_York, st: PA}
+- place-key: {key: columbia-pa, name: 'Columbia, Pa.', zone: America/New_York, st: PA}
+- place-key: {key: york-pa, name: 'York, Pa.', zone: America/New_York, st: PA}
+- place-key: {key: towson, name: 'Towson, Md.', zone: America/New_York, st: MD}
+- place-key: {key: pikesville, name: 'Pikesville, Md.', zone: America/New_York, st: MD}
+- place-key: {key: guthrie-center, name: 'Guthrie Center, Iowa', zone: America/Chicago, st: IA}
+- place-key: {key: greenville-nc, name: 'Greenville, N.C.', zone: America/New_York, st: NC}
+- place-key: {key: bristol-va-tn, name: 'Bristol, Va.-Tenn.', zone: America/New_York, st: TN}
+- place-key: {key: knoxville, name: 'Knoxville', zone: America/New_York, st: TN}
+- place-key: {key: mitchell-sd, name: 'Mitchell, S.D.', zone: America/Chicago, st: SD}
+- place-key: {key: fort-dodge, name: 'Fort Dodge, Iowa', zone: America/Chicago, st: IA}
+- place-key: {key: fargo, name: 'Fargo', zone: America/Chicago, st: ND}
+- place-key: {key: billings, name: 'Billings', zone: America/Denver, st: MT}
+- place-key: {key: sioux-falls, name: 'Sioux Falls', zone: America/Chicago, st: SD}
+- place-key: {key: cheyenne, name: 'Cheyenne, Wyo.', zone: America/Denver, st: WY}
+- place-key: {key: newport-news, name: 'Newport News', zone: America/New_York, st: VA}
+- place-key: {key: hefei, name: 'Hefei', zone: Asia/Shanghai, in: prc}
+- place-key: {key: painesville, name: 'Painesville, Ohio', zone: America/New_York, st: OH}
+- place-key: {key: lorain, name: 'Lorain, Ohio', zone: America/New_York, st: OH}
+- place-key: {key: mansfield-oh, name: 'Mansfield, Ohio', zone: America/New_York, st: OH}
+- place-key: {key: canton-oh, name: 'Canton, Ohio', zone: America/New_York, st: OH}
+- place-key: {key: erie, name: 'Erie', zone: America/New_York, st: PA}
+- place-key: {key: niagara-falls, name: 'Niagara Falls', zone: America/New_York, st: NY}
+- place-key: {key: lockport, name: 'Lockport, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: north-tonawanda, name: 'North Tonawanda, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: troy-ny, name: 'Troy, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: samneua, name: 'Samneua', zone: Asia/Vientiane, in: laos}
+- place-key: {key: schenectady, name: 'Schenectady', zone: America/New_York, st: NY}
+- place-key: {key: amsterdam-ny, name: 'Amsterdam, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: ilion, name: 'Ilion, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: utica, name: 'Utica', zone: America/New_York, st: NY}
+- place-key: {key: rome-ny, name: 'Rome, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: oneida-ny, name: 'Oneida, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: thief-river-falls, name: 'Thief River Falls, Minn.', zone: America/Chicago, st: MN}
+- place-key: {key: rochester-mn, name: 'Rochester, Minn.', zone: America/Chicago, st: MN}
+- place-key: {key: east-st-louis, name: 'East St. Louis', zone: America/Chicago, st: IL, fix: true}
+- place-key: {key: st-paul, name: 'St. Paul', zone: America/Chicago, st: MN}
+- place-key: {key: duluth, name: 'Duluth', zone: America/Chicago, st: MN}
+- place-key: {key: hibbing, name: 'Hibbing, Minn.', zone: America/Chicago, st: MN}
+- place-key: {key: alton-il, name: 'Alton, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: marion-il, name: 'Marion, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: venice-il, name: 'Venice, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: granite-city, name: 'Granite City, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: belleville-il, name: 'Belleville, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: carbondale-il, name: 'Carbondale, Ill.', zone: America/Chicago, st: IL}
+- place-key: {key: harrisburg-il, name: 'Harrisburg, Ill.', zone: America/Chicago, st: IL}
+- place: {id: cal.1960.china-leadership-7, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-01.congo, at: brussels, basis: c}
+- place: {id: cal.1960-01.conservative-movement, at: chicago, basis: c, note: 'the Union League Club'}
+- place: {id: cal.1960-01.cuba, at: mexico-city, basis: c, note: 'the Soviet Embassy'}
+- place: {id: cal.1960-01.democratic-party, at: wisconsin, basis: c, note: 'the State party''s committee; beyond P4, the State as scene'}
+- place: {id: cal.1960-01.elections-1960-2, at: washington, basis: c, note: 'Nixon''s Capitol office'}
+- place: {id: cal.1960-01.elections-1960-nomination, at: washington, basis: c, note: 'Washington National Airport (it lies in Arlington, Va.); the name the record gives'}
+- place: {id: cal.1960-01.governors-il, at: chicago, basis: c}
+- place: {id: cal.1960-01.states-and-cities, at: chicago, basis: c}
+- place: {id: cal.1960-01.states-and-cities-2, at: chicago, basis: c, note: 'Stratton''s Chicago office'}
+- place: {id: cal.1960-01.states-and-cities-3, at: chicago, basis: c}
+- place: {id: cal.1960-01.states-and-cities-4, at: chicago, basis: c}
+- place: {id: cal.1960-01.states-and-cities-5, at: new-york-state, basis: c, note: 'the deal and the Legislature''s enactment, both in the State'}
+- place: {id: cal.1960-01-06.china-leadership, at: shanghai, basis: c, note: 'the Culture Club'}
+- place: {id: cal.1960-01-07.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-01-07.soviet-union-leadership, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-01-08.soviet-union, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-01-08.soviet-union-2, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-01-09.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-01-12.european-community, at: paris, basis: c}
+- place: {id: cal.1960-01.congress, at: washington, basis: seat, note: 'the Senate Democratic Conference'}
+- place: {id: cal.1960-01-13.soviet-union-leadership, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-01-13.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-01-14.elections-1960, at: washington, basis: n, note: 'the APP title''s link, National Press Club, Washington, D.C.'}
+- place: {id: cal.1960-01-14.soviet-union, at: moscow, basis: seat, note: 'the Supreme Soviet'}
+- place: {id: cal.1960-01-17.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-01-18.china-leadership, at: peking, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-01-18.china-leadership-5, at: [shanghai, peking], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-01-18.defense, at: nyc, basis: c, note: 'the Economic Club of New York'}
+- place: {id: cal.1960-01-19.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-01-20.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-01-20.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-01-21.china, at: peking, basis: seat, note: 'the NPC Standing Committee''s session'}
+- place: {id: cal.1960-01-21.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-01-21.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-01-22.china-leadership, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-01-23.china-leadership, at: hangzhou, basis: c, note: 'the arrival and the talk'}
+- place: {id: cal.1960-01-23.china-leadership-2, at: hangzhou, basis: c}
+- place: {id: cal.1960-01-23.democratic-party, at: washington, basis: c, note: 'the Jefferson-Jackson Day dinner'}
+- place: {id: cal.1960-01-23.elections-1960-nomination, at: washington, basis: c, note: 'the Congressional Hotel'}
+- place: {id: cal.1960-01-23.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-01-24.china-leadership-2, at: peking, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-01-25.china, at: jakarta, basis: c}
+- place: {id: cal.1960-01-31.china-leadership-2, at: canton, basis: c, note: 'the arrival and the evening''s talk'}
+- place: {id: cal.1960-02.elections-1960-primaries, at: madison, basis: c, note: 'the University of Wisconsin''s law school'}
+- place: {id: cal.1960-02.voting-rights, at: washington, basis: c, note: 'Russell''s office'}
+- place: {id: cal.1960-02.voting-rights-2, at: washington, basis: seat, note: 'the House; the Rules Committee''s clearing of the bill the chief act'}
+- place: {id: cal.1960-02-01.sit-ins, at: greensboro, basis: c, note: 'the Woolworth''s lunch counter'}
+- place: {id: cal.1960-02.defense-2, at: washington, basis: seat, note: 'Senate Appropriations subcommittee testimony'}
+- place: {id: cal.1960-02-04.cuba, at: havana, basis: c}
+- place: {id: cal.1960-02-04.soviet-union, at: moscow, basis: c, note: 'the Warsaw Treaty states'' summit'}
+- place: {id: cal.1960-02-04.soviet-union-2, at: moscow, basis: c, note: 'the reception after the summit'}
+- place: {id: cal.1960-02-05.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-06.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-07.elections-1960, at: las-vegas, basis: c, note: 'the Sands'}
+- place: {id: cal.1960-02-09.china-leadership, at: canton, basis: c, note: 'Jijingkeng'}
+- place: {id: cal.1960-02-09.soviet-union-leadership, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-02-09.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-09.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-09.voting-rights, at: atlanta, basis: c}
+- place: {id: cal.1960-02-10.china-leadership, at: canton, basis: c, note: 'Canton, then the Xiaodao guesthouse'}
+- place: {id: cal.1960-02-10.sit-ins, at: raleigh, basis: c, note: 'the students'' decision'}
+- place: {id: cal.1960-02-11.china-leadership, at: canton, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-02-12.china-leadership, at: canton, basis: c}
+- place: {id: cal.1960-02-13.china-leadership, at: conghua, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-02-13.civil-rights-organizations, at: nyc, basis: c, note: 'Harlem'}
+- place: {id: cal.1960-02-13.testing, at: reggane, basis: c, note: 'the test site, in the Algerian Sahara'}
+- place: {id: cal.1960-02-15.congress, at: washington, basis: seat, note: 'the Senate Democratic Conference'}
+- place: {id: cal.1960-02-15.voting-rights, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-02-16.alabama-al, at: alabama, basis: c, note: 'the State''s amendment election'}
+- place: {id: cal.1960-02-17.court, at: nyc, basis: c, note: 'New York University Law School'}
+- place: {id: cal.1960-02-17.cuba-3, at: washington, basis: seat, note: 'House Foreign Affairs Committee'}
+- place: {id: cal.1960-02-17.defense-3, at: washington, basis: seat, note: 'Senate subcommittee, closed session'}
+- place: {id: cal.1960-02-17.elections-1960-nomination, at: richmond, basis: c, note: 'a news conference'}
+- place: {id: cal.1960-02-17.elections-1960-primaries, at: milwaukee, basis: c}
+- place: {id: cal.1960-02-17.elections-1960-primaries-2, at: beaver-dam, basis: c}
+- place: {id: cal.1960-02-17.elections-1960-primaries-3, at: mayville, basis: c}
+- place: {id: cal.1960-02-17.elections-1960-primaries-4, at: fond-du-lac, basis: c, note: 'the Retlaw Hotel ballroom'}
+- place: {id: cal.1960-02-17.europe-and-the-alliance-britain, at: london, basis: c, note: 'the House of Commons'}
+- place: {id: cal.1960-02-17.middle-east, at: aleppo, basis: c}
+- place: {id: cal.1960-02-17.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-17.voting-rights-2, at: washington, basis: seat, note: 'House Rules Committee'}
+- place: {id: cal.1960-02-17.voting-rights-3, at: washington, basis: seat, note: 'a bill submitted in the Senate'}
+- place: {id: cal.1960-02-18.congress, at: washington, basis: seat, note: 'the Senate Democratic Conference'}
+- place: {id: cal.1960-02-18.indonesia, at: jakarta, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-02-18.middle-east, at: baghdad, basis: c}
+- place: {id: cal.1960-02-19.crime-and-hijacking-ca, at: california, basis: c, note: 'a governor''s act'}
+- place: {id: cal.1960-02-19.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-20.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-21.china-leadership, at: canton, basis: c, note: 'Jijingkeng'}
+- place: {id: cal.1960-02-22.states-and-cities, at: chicago, basis: c, note: 'the University Club'}
+- place: {id: cal.1960-02-23.china-leadership-3, at: addis-ababa, basis: c}
+- place: {id: cal.1960-02-24.china-leadership, at: addis-ababa, basis: c}
+- place: {id: cal.1960-02-24.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-25.sit-ins, at: montgomery, basis: c, note: 'the Montgomery County courthouse'}
+- place: {id: cal.1960-02-25.soviet-union-leadership, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-02-25.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-26.china-leadership, at: canton, basis: c, note: 'the Xiaodao guesthouse'}
+- place: {id: cal.1960-02-26.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-26.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-27.china-leadership, at: canton, basis: c, note: 'Jijingkeng'}
+- place: {id: cal.1960-02-27.sit-ins, at: nashville, basis: c}
+- place: {id: cal.1960-02-29.latin-america-trip, at: santiago, basis: c, note: 'the day''s act, Alessandri in Santiago'}
+- place: {id: cal.1960-02-29.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-02-29.voting-rights, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-02-29.voting-rights-2, at: washington, basis: seat, note: 'the Senate chamber'}
+- place: {id: cal.1960-03.elections-1960, at: wisconsin, basis: c, note: 'the campaign across the State; beyond P4, the State as scene'}
+- place: {id: cal.1960-03.elections-1960-4, at: wausau, basis: c}
+- place: {id: cal.1960-03.elections-1960-6, at: wisconsin, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-03.elections-1960-7, at: wisconsin, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-03.elections-1960-primaries, at: wisconsin, basis: c, note: 'a diner by a factory gate; beyond P4, the State as scene'}
+- place: {id: cal.1960-03.jobs-and-wages, at: washington, basis: seat, note: 'a Senate committee''s report'}
+- place: {id: cal.1960-03.opinion, at: tuskegee, basis: c, note: 'Tuskegee Institute''s poll'}
+- place: {id: cal.1960-03-01.voting-rights, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-03-02.latin-america-trip, at: montevideo, basis: c, note: 'the day''s acts in Montevideo'}
+- place: {id: cal.1960-03-02.voting-rights, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-03-03.china-leadership, at: canton, basis: c, note: 'Jijingkeng'}
+- place: {id: cal.1960-03-03.china-leadership-2, at: canton, basis: c}
+- place: {id: cal.1960-03-03.soviet-union-leadership, at: moscow, basis: seat, note: 'the Presidium'}
+- place: {id: cal.1960-03-03.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-04.china-leadership-2, at: nanning, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-03-04.cuba, at: havana, basis: c, note: 'Havana harbor'}
+- place: {id: cal.1960-03-04.voting-rights, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-03-05.voting-rights-2, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-03-06.china-leadership, at: peking, basis: c, note: 'the return; Diaoyutai'}
+- place: {id: cal.1960-03-07.china-leadership, at: canton, basis: c}
+- place: {id: cal.1960-03-07.elections-1960-primaries, at: manchester, basis: c, note: 'the television station'}
+- place: {id: cal.1960-03-07.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-07.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-07.vietnam-hanoi-3, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-08.china-leadership-2, at: peking, basis: n, note: 'the dashiji''s parenthetical, the Great Hall of the People'}
+- place: {id: cal.1960-03-08.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-08.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-08.voting-rights, at: washington, basis: seat, note: 'Senate and House floors'}
+- place: {id: cal.1960-03-09.sit-ins, at: atlanta, basis: c, note: 'the city''s papers'}
+- place: {id: cal.1960-03-10.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-03.testing, at: bear-mountain, basis: c}
+- place: {id: cal.1960-03-11.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-15.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-16.china, at: peking, basis: c}
+- place: {id: cal.1960-03-17.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-17.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-18.china-leadership, at: hangzhou, basis: c, note: 'the Hangzhou Hotel'}
+- place: {id: cal.1960-03-18.china-leadership-2, at: peking, basis: c, note: 'the return and the Politburo''s meeting'}
+- place: {id: cal.1960-03-18.china-leadership-3, at: peking, basis: c, note: 'the Workers'' Stadium'}
+- place: {id: cal.1960-03-19.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-03-19.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-19.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-20.sit-ins-fl, at: florida, basis: c, note: 'a governor''s address'}
+- place: {id: cal.1960-03-21.africa, at: sharpeville, basis: c, note: 'the shooting, the chief act'}
+- place: {id: cal.1960-03-21.china-leadership-3, at: peking, basis: seat, note: 'the NPC Standing Committee''s session'}
+- place: {id: cal.1960-03-22.china-leadership, at: jinan, basis: c}
+- place: {id: cal.1960-03-24.voting-rights, at: washington, basis: seat, note: 'House and Senate floors'}
+- place: {id: cal.1960-03-24.china, at: warsaw, basis: c}
+- place: {id: cal.1960-03-24.china-leadership, at: tianjin, basis: c, note: 'on the train at Tianjin'}
+- place: {id: cal.1960-03-24.china-leadership-2, at: tianjin, basis: c}
+- place: {id: cal.1960-03-24.china-leadership-4, at: [peking, tianjin], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-03-24.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-25.china-leadership, at: tianjin, basis: c}
+- place: {id: cal.1960-03-25.china-leadership-2, at: tianjin, basis: c}
+- place: {id: cal.1960-03-26.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1960-03-26.china-leadership-2, at: tianjin, basis: c}
+- place: {id: cal.1960-03-26.elections-1960, at: columbia, basis: n, note: 'the note''s source: Columbia'}
+- place: {id: cal.1960-03-27.china-leadership, at: peking, basis: c, note: 'Zhongnanhai, the Yinian Tang'}
+- place: {id: cal.1960-03-27.china-leadership-5, at: tianjin, basis: c}
+- place: {id: cal.1960-03-28.china-leadership-2, at: tianjin, basis: c}
+- place: {id: cal.1960-03-28.testing, at: camp-david, basis: c, note: 'the talks and the joint declaration'}
+- place: {id: cal.1960-03-30.china-leadership, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1960-03-30.elections-1960, at: madison, basis: c}
+- place: {id: cal.1960-03-30.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-30.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-31.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-03-31.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04.elections-1960-2, at: palm-beach, basis: c}
+- place: {id: cal.1960-04.elections-1960-3, at: west-virginia, basis: c, note: 'Humphrey''s campaign in the State; beyond P4, the State as scene'}
+- place: {id: cal.1960-04.elections-1960-5, at: west-virginia, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-04.elections-1960-6, at: west-virginia, basis: c, note: 'before a banquet; beyond P4, the State as scene'}
+- place: {id: cal.1960-04.elections-1960-7, at: west-virginia, basis: c, note: 'a county''s slate; beyond P4, the State as scene'}
+- place: {id: cal.1960-04.elections-1960-8, at: washington, basis: c, note: '100 Indiana Avenue, the Letter Carriers'' Building'}
+- place: {id: cal.1960-04.elections-1960-kennedy, at: palm-beach, basis: c}
+- place: {id: cal.1960-04.elections-1960-nixon, at: illinois, basis: c, note: 'a press conference in the State; beyond P4, the State as scene'}
+- place: {id: cal.1960-04.elections-1960-primaries-2, at: south-bend, basis: c, note: 'Notre Dame'}
+- place: {id: cal.1960-04.opinion, at: galveston, basis: c, note: 'the poll'}
+- place: {id: cal.1960-04-01.china-leadership, at: peking, basis: c, note: 'Xicheng district'}
+- place: {id: cal.1960-04-04.china-leadership-2, at: peking, basis: seat, note: 'the NPC''s Peking delegation, the Great Hall'}
+- place: {id: cal.1960-04-04.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04-04.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04-05.europe-and-the-alliance, at: london, basis: c}
+- place: {id: cal.1960-04-06.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-04-06.elections-1960-primaries-2, at: [charleston, washington], basis: c, note: 'the call, the caller''s place first'}
+- place: {id: cal.1960-04-06.elections-1960-primaries-3, at: milwaukee, basis: c}
+- place: {id: cal.1960-04-07.conservative-movement, at: shepherdsville, basis: c, note: 'the publisher''s city, Victor Publishing'}
+- place: {id: cal.1960-04-07.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04-08.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-04-09.conservative-movement, at: des-moines, basis: c}
+- place: {id: cal.1960-04-10.china-leadership, at: peking, basis: seat, note: 'the NPC''s closing session'}
+- place: {id: cal.1960-04-11.china, at: conakry, basis: c}
+- place: {id: cal.1960-04-11.china-2, at: conakry, basis: c}
+- place: {id: cal.1960-04-11.japan-and-korea, at: masan, basis: c}
+- place: {id: cal.1960-04-12.china, at: peking, basis: c}
+- place: {id: cal.1960-04-12.china-leadership, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-04-13.china-leadership, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-04-13.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04-15.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-04-15.china-leadership-2, at: rangoon, basis: c}
+- place: {id: cal.1960-04-15.civil-rights-organizations, at: raleigh, basis: c, note: 'Shaw University'}
+- place: {id: cal.1960-04-15.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04-16.china-leadership-2, at: rangoon, basis: c, note: 'Aung San''s tomb, a landmark of the city'}
+- place: {id: cal.1960-04-17.china-leadership-7, at: [peking, shijiazhuang], basis: c, note: 'the departure, and the talk on the train at Shijiazhuang'}
+- place: {id: cal.1960-04-18.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-04-19.china-leadership, at: new-delhi, basis: c, note: 'the arrival at Delhi'}
+- place: {id: cal.1960-04-19.elections-1960-religion, at: wheeling, basis: c}
+- place: {id: cal.1960-04-19.japan-and-korea-rhee, at: seoul, basis: c, note: 'the march and the firing, the chief act'}
+- place: {id: cal.1960-04-19.sit-ins, at: nashville, basis: c}
+- place: {id: cal.1960-04-20.china-leadership, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-04-20.china-leadership-2, at: new-delhi, basis: c, note: 'President Prasad''s and Gandhi''s tomb, landmarks of Delhi'}
+- place: {id: cal.1960-04-21.elections-1960, at: washington, basis: c, note: 'the American Society of Newspaper Editors'}
+- place: {id: cal.1960-04-21.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-04-22.china-leadership, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-04-22.china-leadership-6, at: new-delhi, basis: c, note: 'Delhi'}
+- place: {id: cal.1960-04-22.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-04-24.mississippi-biloxi, at: biloxi, basis: c, note: 'the city''s beach'}
+- place: {id: cal.1960-04-25.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-04-26.china-leadership, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1960-04-26.china-leadership-2, at: katmandu, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-04-26.japan-and-korea, at: seoul, basis: c, note: 'the days'' acts, all in Seoul'}
+- place: {id: cal.1960-04-27.china, at: peking, basis: c}
+- place: {id: cal.1960-04-28.china-leadership, at: katmandu, basis: c, note: 'the return and the broadcast'}
+- place: {id: cal.1960-04-28.china-leadership-2, at: katmandu, basis: n, note: 'the dashiji''s parenthetical, Katmandu'}
+- place: {id: cal.1960-04-28.middle-east, at: tehran, basis: c, note: 'CENTO''s Ministerial Council'}
+- place: {id: cal.1960-04-29.china-leadership, at: tianjin, basis: c, note: 'on the train at Tianjin'}
+- place: {id: cal.1960-04-29.china-leadership-2, at: kunming, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-04-30.china-leadership, at: tianjin, basis: c, note: 'on the train at Tianjin'}
+- place: {id: cal.1960-05.antisubversion, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-05.antisubversion-2, at: washington, basis: seat, note: 'Senate Internal Security Subcommittee hearing'}
+- place: {id: cal.1960-05.china, at: hanoi, basis: c}
+- place: {id: cal.1960-05.china-leadership-3, at: peking, basis: c, note: 'Deng''s report to the Secretariat'}
+- place: {id: cal.1960-05.defense, at: nyc, basis: c, note: 'City Hall Park'}
+- place: {id: cal.1960-05.elections-1960, at: libertyville, basis: c, note: 'Stevenson''s house'}
+- place: {id: cal.1960-05.elections-1960-11, at: west-virginia, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-12, at: spokane, basis: c, note: 'the State Democratic convention'}
+- place: {id: cal.1960-05.elections-1960-13, at: west-virginia, basis: c, note: 'the debate on television; beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-15, at: washington, basis: c}
+- place: {id: cal.1960-05.elections-1960-16, at: west-virginia, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-3, at: washington, basis: c, note: 'Humphrey''s office'}
+- place: {id: cal.1960-05.elections-1960-4, at: nyc, basis: c, note: 'Belafonte''s apartment, West End Avenue'}
+- place: {id: cal.1960-05.elections-1960-8, at: west-virginia, basis: c, note: 'the television broadcast; beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-kennedy, at: washington, basis: c}
+- place: {id: cal.1960-05.elections-1960-nomination-3, at: washington, basis: c, note: 'Georgetown, Kennedy''s house'}
+- place: {id: cal.1960-05.elections-1960-primaries, at: west-virginia, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-primaries-2, at: west-virginia, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-primaries-4, at: west-virginia, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-05.elections-1960-religion, at: west-virginia, basis: c, note: 'a rally; beyond P4, the State as scene'}
+- place: {id: cal.1960-05.latin-america-dominican-republic-2, at: washington, basis: c}
+- place: {id: cal.1960-05.school-aid, at: harriman, basis: c, note: 'the American Assembly'}
+- place: {id: cal.1960-05.soviet-union-u2, at: paris, basis: c}
+- place: {id: cal.1960-05.testing, at: nyc, basis: c}
+- place: {id: cal.1960-05-01.china-leadership, at: guiyang, basis: c}
+- place: {id: cal.1960-05-01.china-leadership-2, at: chengdu, basis: c}
+- place: {id: cal.1960-05-01.elections-1960-primaries, at: west-virginia, basis: c, note: 'stops across the State; beyond P4, the State as scene'}
+- place: {id: cal.1960-05-01.soviet-union, at: sverdlovsk, basis: c, note: 'the shootdown near Sverdlovsk, the chief act'}
+- place: {id: cal.1960-05-02.china-leadership-2, at: chengdu, basis: c}
+- place: {id: cal.1960-05-02.crime-and-hijacking-ca, at: san-quentin, basis: c, note: 'the gas chamber at San Quentin'}
+- place: {id: cal.1960-05-03.china-leadership, at: jinan, basis: c, note: 'the airport'}
+- place: {id: cal.1960-05-03.china-leadership-2, at: guiyang, basis: c, note: 'the Guiyang steel plant'}
+- place: {id: cal.1960-05-04.china-leadership, at: kunming, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-05-04.china-leadership-2, at: peking, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-05-04.king, at: atlanta, basis: c, note: 'near Emory University Hospital'}
+- place: {id: cal.1960-05-05.china-leadership-2, at: phnom-penh, basis: c, note: 'the arrival and the calls'}
+- place: {id: cal.1960-05-05.china-leadership-4, at: chengdu, basis: c}
+- place: {id: cal.1960-05-05.elections-1960-primaries, at: morgantown, basis: c}
+- place: {id: cal.1960-05-05.soviet-union, at: moscow, basis: seat, note: 'the Supreme Soviet, the chief act'}
+- place: {id: cal.1960-05-06.china-leadership, at: phnom-penh, basis: n, note: 'the dashiji''s parentheticals, the palace square and the Chinese Embassy at Phnom Penh'}
+- place: {id: cal.1960-05-06.china-leadership-3, at: chengdu, basis: c}
+- place: {id: cal.1960-05-07.china-leadership, at: zhengzhou, basis: c}
+- place: {id: cal.1960-05-07.china-leadership-2, at: kompong-cham, basis: c}
+- place: {id: cal.1960-05-07.china-leadership-4, at: [chengdu, zigong], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-05-07.elections-1960, at: clarksburg-wv, basis: c}
+- place: {id: cal.1960-05-07.elections-1960-3, at: charleston, basis: c}
+- place: {id: cal.1960-05-07.soviet-union-leadership, at: moscow, basis: seat, note: 'the Supreme Soviet'}
+- place: {id: cal.1960-05-08.china-leadership-2, at: zhengzhou, basis: c}
+- place: {id: cal.1960-05-08.china-leadership-3, at: phnom-penh, basis: c, note: 'the joint statement and the press conference, the chief acts'}
+- place: {id: cal.1960-05-08.china-leadership-4, at: [zigong, chongqing], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-05-08.elections-1960-primaries, at: charleston, basis: c}
+- place: {id: cal.1960-05-08.soviet-union-u2, at: washington, basis: c}
+- place: {id: cal.1960-05-09.china-leadership, at: zhengzhou, basis: c}
+- place: {id: cal.1960-05-09.china-leadership-2, at: [phnom-penh, vinh], basis: c, note: 'the flight, departure first; the plane put down at Vinh'}
+- place: {id: cal.1960-05-09.elections-1960-primaries, at: charleston, basis: c, note: 'the Kanawha Hotel'}
+- place: {id: cal.1960-05-10.china-leadership-3, at: hanoi, basis: c, note: 'the arrival and the calls'}
+- place: {id: cal.1960-05-10.elections-1960-3, at: west-virginia, basis: c, note: 'primary day; beyond P4, the State as scene'}
+- place: {id: cal.1960-05-10.elections-1960-primaries-2, at: charleston, basis: c}
+- place: {id: cal.1960-05-10.sit-ins, at: nashville, basis: c}
+- place: {id: cal.1960-05-11.elections-1960-rockefeller, at: tucson, basis: c}
+- place: {id: cal.1960-05-11.soviet-union-u2, at: moscow, basis: c, note: 'Gorky Park'}
+- place: {id: cal.1960-05-12.china-leadership, at: hanoi, basis: c, note: 'the University of Hanoi and the city''s outskirts'}
+- place: {id: cal.1960-05-12.china-leadership-4, at: chongqing, basis: c}
+- place: {id: cal.1960-05-12.students, at: san-francisco, basis: c, note: 'the HUAC subcommittee''s field hearing, City Hall'}
+- place: {id: cal.1960-05-13.china-leadership-3, at: hanoi, basis: n, note: 'the dashiji''s parenthetical, 主席府, the Presidential Palace at Hanoi'}
+- place: {id: cal.1960-05-13.china-leadership-4, at: hanoi, basis: c, note: 'the Hanoi cigarette factory'}
+- place: {id: cal.1960-05-13.china-leadership-7, at: chongqing, basis: c}
+- place: {id: cal.1960-05-13.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-05-14.china-leadership, at: wuhan, basis: c, note: 'Wuchang'}
+- place: {id: cal.1960-05-14.china-leadership-4, at: chongqing, basis: c}
+- place: {id: cal.1960-05-14.elections-1960-nomination, at: maryland, basis: c, note: 'the call from the road in Maryland; the receiver''s place not on the record'}
+- place: {id: cal.1960-05-15.china-leadership-2, at: chongqing, basis: c, note: 'the departure'}
+- place: {id: cal.1960-05-15.elections-1960-nomination, at: libertyville, basis: c}
+- place: {id: cal.1960-05-15.soviet-union, at: paris, basis: c, note: 'the days'' acts at Paris, the Élysée'}
+- place: {id: cal.1960-05-16.china-leadership, at: wuhan, basis: c, note: 'Wuchang'}
+- place: {id: cal.1960-05-16.china-leadership-4, at: sandouping, basis: c, note: 'passing Sandouping on the Yangtze'}
+- place: {id: cal.1960-05-17.china-leadership, at: wuhan, basis: c, note: 'Wuchang, the Hongshan Hotel'}
+- place: {id: cal.1960-05-17.china-leadership-3, at: wuhan, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-05-17.georgia, at: atlanta, basis: c}
+- place: {id: cal.1960-05-19.china-leadership-5, at: wuhan, basis: c}
+- place: {id: cal.1960-05-19.democratic-party, at: chicago, basis: c, note: 'the Cook County Democrats'}
+- place: {id: cal.1960-05-19.japan-and-korea, at: tokyo, basis: c}
+- place: {id: cal.1960-05-20.china-leadership, at: peking, basis: c, note: 'Tiananmen Square'}
+- place: {id: cal.1960-05-20.soviet-union-u2, at: east-berlin, basis: c}
+- place: {id: cal.1960-05-20.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-05-20.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-05-21.china-leadership, at: hangzhou, basis: c, note: 'the Nanping pool'}
+- place: {id: cal.1960-05-21.china-leadership-2, at: [peking, hangzhou], basis: c, note: 'the flight, departure first'}
+- place: {id: cal.1960-05-21.china-leadership-3, at: hangzhou, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-05-21.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-05-22.china-leadership, at: hangzhou, basis: c, note: 'the Nanping pool'}
+- place: {id: cal.1960-05-23.china, at: peking, basis: c}
+- place: {id: cal.1960-05-23.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1960-05-23.china-leadership-2, at: hangzhou, basis: c, note: 'the talk, then the departure for Shanghai'}
+- place: {id: cal.1960-05-24.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1960-05-25.china-leadership-5, at: shanghai, basis: c}
+- place: {id: cal.1960-05-26.china-leadership-6, at: shanghai, basis: c}
+- place: {id: cal.1960-05-27.china-leadership, at: shanghai, basis: c, note: 'the Culture Club'}
+- place: {id: cal.1960-05-27.china-leadership-2, at: ulan-bator, basis: c, note: 'the arrival and the wreath'}
+- place: {id: cal.1960-05-27.soviet-union, at: washington, basis: seat, note: 'Senate Foreign Relations, executive session'}
+- place: {id: cal.1960-05-27.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-05-28.china-leadership, at: shanghai, basis: c, note: 'on the train at Shanghai'}
+- place: {id: cal.1960-05-28.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-05-29.china-leadership, at: shanghai, basis: c, note: 'on the train at Shanghai'}
+- place: {id: cal.1960-05-29.china-leadership-3, at: peking, basis: c, note: 'the hospital'}
+- place: {id: cal.1960-05-30.china-leadership-2, at: ulan-bator, basis: c, note: 'the flour mill and the talks'}
+- place: {id: cal.1960-05-31.china-leadership, at: ulan-bator, basis: c, note: 'the Mongolian Central Museum, a landmark of the city'}
+- place: {id: cal.1960-05-31.china-leadership-5, at: peking, basis: c, note: 'the Working People''s Cultural Palace'}
+- place: {id: cal.1960-06.china, at: peking, basis: c, note: 'the WFTU council'}
+- place: {id: cal.1960-06.china-leadership-2, at: peking, basis: c, note: 'the Secretariat''s meeting, the chief act'}
+- place: {id: cal.1960-06.congress-powell, at: rio-de-janeiro, basis: c, note: 'the Baptist World Alliance; the emissary''s word to King there'}
+- place: {id: cal.1960-06.cuba-2, at: moscow, basis: c}
+- place: {id: cal.1960-06.democratic-party-2, at: albany, basis: c, note: 'the delegation''s poll'}
+- place: {id: cal.1960-06.elections-1960-11, at: libertyville, basis: c, note: 'Stevenson''s lawn'}
+- place: {id: cal.1960-06.elections-1960-4, at: buffalo, basis: c}
+- place: {id: cal.1960-06.elections-1960-5, at: minneapolis, basis: c, note: 'the Nicollet Hotel'}
+- place: {id: cal.1960-06.elections-1960-6, at: washington, basis: c, note: 'the announcement of the Draft Stevenson movement, the chief act'}
+- place: {id: cal.1960-06.elections-1960-7, at: washington, basis: c, note: 'Humphrey''s office'}
+- place: {id: cal.1960-06.elections-1960-nomination, at: hyannis-port, basis: c}
+- place: {id: cal.1960-06.goldwater-2, at: mississippi, basis: c, note: 'the State party''s convention; beyond P4, the State as scene'}
+- place: {id: cal.1960-06.governors, at: nyc, basis: c}
+- place: {id: cal.1960-06.mississippi-ms, at: mississippi, basis: c, note: 'the State Sovereignty Commission, a State body'}
+- place: {id: cal.1960-06.republican-party, at: washington, basis: c, note: 'the Statler-Hilton'}
+- place: {id: cal.1960-06.soviet-union, at: bucharest, basis: c}
+- place: {id: cal.1960-06.students, at: nyc, basis: c, note: 'the Barbizon-Plaza'}
+- place: {id: cal.1960-06-01.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-06-02.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-06-03.china-leadership, at: peking, basis: n, note: 'the dashiji''s parenthetical, Zhongnanhai'}
+- place: {id: cal.1960-06-03.china-leadership-2, at: peking, basis: n, note: 'the dashiji''s parenthetical, Zhongnanhai, the Xihuating'}
+- place: {id: cal.1960-06-04.china-leadership, at: hangzhou, basis: c, note: 'the Nanping pool'}
+- place: {id: cal.1960-06-04.china-leadership-2, at: peking, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-06-05.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-06-06.china-leadership, at: peking, basis: n, note: 'the dashiji''s parenthetical, Zhongnanhai, the Ziguang Ge'}
+- place: {id: cal.1960-06-07.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1960-06-07.china-leadership-2, at: shanghai, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-06-07.china-leadership-4, at: shanghai, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-06-08.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-08.china-leadership-2, at: shanghai, basis: c, note: 'the Culture Club'}
+- place: {id: cal.1960-06-09.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-09.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-06-10.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-06-10.japan-and-korea, at: tokyo, basis: c, note: 'the road from Haneda into Tokyo'}
+- place: {id: cal.1960-06-11.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-11.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-06-12.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-06-12.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1960-06-13.china-leadership, at: shanghai, basis: c, note: 'the Culture Club'}
+- place: {id: cal.1960-06-14.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-14.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-06-14.states-and-cities, at: washington, basis: seat, note: 'House and Senate floors'}
+- place: {id: cal.1960-06-15.japan-and-korea, at: tokyo, basis: c, note: 'the Diet''s grounds, the chief act'}
+- place: {id: cal.1960-06-16.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-16.democratic-party, at: nyc, basis: c}
+- place: {id: cal.1960-06-16.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-06-16.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-06-17.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-18.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-06-18.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1960-06-18.japan-and-korea-far-east, at: taipei, basis: c}
+- place: {id: cal.1960-06-19.king, at: buffalo, basis: c}
+- place: {id: cal.1960-06-20.soviet-union, at: bucharest, basis: c, note: 'the Romanian party''s congress'}
+- place: {id: cal.1960-06-22.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-06-22.japan-and-korea, at: washington, basis: seat, note: 'the Senate''s consent, the chief act'}
+- place: {id: cal.1960-06-22.soviet-union, at: bucharest, basis: c}
+- place: {id: cal.1960-06-22.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-06-22.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-06-23.china-leadership, at: shanghai, basis: c, note: 'the Culture Club'}
+- place: {id: cal.1960-06-24.intelligence, at: fort-meade, basis: c}
+- place: {id: cal.1960-06-24.latin-america, at: caracas, basis: c}
+- place: {id: cal.1960-06-25.intelligence, at: [washington, mexico-city], basis: c, note: 'the flight from Washington National Airport (in Arlington, Va.), departure first'}
+- place: {id: cal.1960-06-27.china-leadership, at: shanghai, basis: c, note: 'the People''s Square'}
+- place: {id: cal.1960-06-27.cuba, at: prague, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-06-27.states-and-cities-us, at: glacier-national-park, basis: c, note: 'the Governors'' Conference'}
+- place: {id: cal.1960-06-27.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-06-27.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-06-28.china-leadership, at: peking, basis: c, note: 'the return and the evening''s meeting'}
+- place: {id: cal.1960-06-29.china-leadership-2, at: [shanghai, peking], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-06-29.cuba, at: santiago-de-cuba, basis: c, note: 'the seizure of the refinery at Santiago'}
+- place: {id: cal.1960-06-30.congo, at: leopoldville, basis: c, note: 'the independence ceremonies'}
+- place: {id: cal.1960-06-30.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-07.china-leadership, at: beidaihe, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-07.conservative-movement, at: chicago, basis: c, note: 'the Pick-Congress Hotel'}
+- place: {id: cal.1960-07.elections-1960-10, at: los-angeles, basis: c}
+- place: {id: cal.1960-07.elections-1960-15, at: newport, basis: c, note: 'the Newport Country Club'}
+- place: {id: cal.1960-07.elections-1960-16, at: los-angeles, basis: c, note: 'a hotel'}
+- place: {id: cal.1960-07.elections-1960-17, at: los-angeles, basis: c}
+- place: {id: cal.1960-07.elections-1960-2, at: nyc, basis: c, note: 'Percy hears Rockefeller''s objections, the chief act'}
+- place: {id: cal.1960-07.elections-1960-4, at: hyannis-port, basis: c}
+- place: {id: cal.1960-07.elections-1960-5, at: los-angeles, basis: c, note: 'the airport'}
+- place: {id: cal.1960-07.elections-1960-6, at: los-angeles, basis: c, note: 'a caucus of Negro delegates'}
+- place: {id: cal.1960-07.elections-1960-kennedy, at: washington, basis: c, note: 'Kennedy headquarters'}
+- place: {id: cal.1960-07.elections-1960-los-angeles, at: los-angeles, basis: c, note: 'the Biltmore, Suite 8315'}
+- place: {id: cal.1960-07.elections-1960-los-angeles-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-07.elections-1960-los-angeles-4, at: los-angeles, basis: c, note: 'the convention''s Credentials Committee'}
+- place: {id: cal.1960-07.elections-1960-nixon, at: chicago, basis: c, note: 'the Republican convention'}
+- place: {id: cal.1960-07.vietnam-hanoi-2, at: hanoi, basis: c, note: 'the Central Committee''s plenum'}
+- place: {id: cal.1960-07-01.intelligence, at: [mexico-city, havana], basis: c, note: 'the flight, departure first'}
+- place: {id: cal.1960-07-02.china, at: accra, basis: c}
+- place: {id: cal.1960-07-02.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-07-03.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1960-07-04.china-leadership-3, at: [peking, beidaihe], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-07-04.elections-1960-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-05.china-leadership, at: beidaihe, basis: c, note: 'the Central Work Conference'}
+- place: {id: cal.1960-07-06.china, at: moscow, basis: c, note: 'the call on Malik at Moscow'}
+- place: {id: cal.1960-07-06.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-07.china-leadership, at: beidaihe, basis: c, note: 'Building 1'}
+- place: {id: cal.1960-07-07.elections-1960-los-angeles, at: chicago, basis: c, note: 'the departure'}
+- place: {id: cal.1960-07-07.goldwater, at: chicago, basis: c}
+- place: {id: cal.1960-07-08.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-08.elections-1960-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-09.elections-1960-3, at: los-angeles, basis: c, note: 'the meeting at the Biltmore, the chief act'}
+- place: {id: cal.1960-07-09.elections-1960-4, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-09.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-07-10.china, at: stockholm, basis: c}
+- place: {id: cal.1960-07-10.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-10.elections-1960-los-angeles-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-11.elections-1960, at: los-angeles, basis: c, note: 'the Memorial Sports Arena'}
+- place: {id: cal.1960-07-11.elections-1960-4, at: camp-david, basis: c}
+- place: {id: cal.1960-07-11.elections-1960-8, at: los-angeles, basis: c, note: 'the caucuses'}
+- place: {id: cal.1960-07-11.elections-1960-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-11.elections-1960-los-angeles-3, at: los-angeles, basis: c, note: 'a CBS booth above the convention floor'}
+- place: {id: cal.1960-07-12.elections-1960-6, at: los-angeles, basis: c, note: 'the caucus, the floor and the Sheraton-West'}
+- place: {id: cal.1960-07-12.elections-1960-7, at: los-angeles, basis: c, note: 'the Biltmore, Room 8315'}
+- place: {id: cal.1960-07-12.elections-1960-9, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-12.elections-1960-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-12.elections-1960-los-angeles-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-13.elections-1960-los-angeles-2, at: los-angeles, basis: c, note: 'the Sports Arena'}
+- place: {id: cal.1960-07-13.elections-1960-los-angeles-4, at: los-angeles, basis: c, note: 'the Biltmore, Kennedy''s suite'}
+- place: {id: cal.1960-07-13.elections-1960-los-angeles-5, at: los-angeles, basis: c, note: 'the Biltmore, Kennedy''s suite'}
+- place: {id: cal.1960-07-13.elections-1960-los-angeles-6, at: los-angeles, basis: c, note: 'the Biltmore, Kennedy''s suite'}
+- place: {id: cal.1960-07-13.elections-1960-nomination, at: washington, basis: c, note: 'the Democratic National Committee''s headquarters on K Street'}
+- place: {id: cal.1960-07-13.goldwater, at: chicago, basis: c, note: 'the Chicago Tribune'}
+- place: {id: cal.1960-07-14.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-14, at: los-angeles, basis: c, note: 'North Rossmore Avenue'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-15, at: los-angeles, basis: c, note: 'the Biltmore, Kennedy''s suite'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-16, at: los-angeles, basis: c, note: 'the Biltmore'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-17, at: los-angeles, basis: c, note: 'the Statler Hilton'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-18, at: los-angeles, basis: c, note: 'the Biltmore, Kennedy''s suite'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-19, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-21, at: los-angeles, basis: c, note: 'the Biltmore'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-22, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-3, at: beverly-hills, basis: c, note: 'Marion Davies''s house'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-4, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-7, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-9, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.japan-and-korea, at: tokyo, basis: c, note: 'the Prime Minister''s residence, a landmark of the city'}
+- place: {id: cal.1960-07-15.elections-1960, at: los-angeles, basis: n, note: 'the APP title''s link, the Memorial Coliseum, Los Angeles'}
+- place: {id: cal.1960-07-15.elections-1960-2, at: washington, basis: c}
+- place: {id: cal.1960-07-15.elections-1960-3, at: nyc, basis: c, note: 'Luce''s home'}
+- place: {id: cal.1960-07-15.elections-1960-los-angeles-2, at: los-angeles, basis: c, note: 'the Biltmore'}
+- place: {id: cal.1960-07-15.elections-1960-los-angeles-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-16.elections-1960-los-angeles, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1960-07-18.cuba, at: moscow, basis: c}
+- place: {id: cal.1960-07-18.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-18.republican-party, at: chicago, basis: c, note: 'the Blackstone''s Crystal Ballroom'}
+- place: {id: cal.1960-07-20.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-20.defense, at: cape-canaveral, basis: c, note: 'submerged off Cape Canaveral'}
+- place: {id: cal.1960-07-20.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-07-21.china-leadership-3, at: [beidaihe, peking], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-07-22.elections-1960, at: nyc, basis: c, note: 'Rockefeller''s Fifth Avenue apartment, the meeting the chief act'}
+- place: {id: cal.1960-07-23.china, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1960-07-23.china-2, at: havana, basis: c}
+- place: {id: cal.1960-07-23.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall'}
+- place: {id: cal.1960-07-23.elections-1960-rockefeller, at: chicago, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-07-23.republican-party-3, at: chicago, basis: c}
+- place: {id: cal.1960-07-24.china-leadership-2, at: peking, basis: n, note: 'the dashiji''s parenthetical, the Great Hall of the People'}
+- place: {id: cal.1960-07-24.china-leadership-4, at: [peking, beidaihe], basis: c, note: 'the trip, departure first'}
+- place: {id: cal.1960-07-24.elections-1960, at: chicago, basis: c, note: 'Liberty Baptist Church'}
+- place: {id: cal.1960-07-24.elections-1960-2, at: newport, basis: c, note: 'Eisenhower at Newport, the chief act'}
+- place: {id: cal.1960-07-24.elections-1960-rockefeller, at: chicago, basis: c}
+- place: {id: cal.1960-07-24.goldwater, at: chicago, basis: c, note: 'a Goldwater rally'}
+- place: {id: cal.1960-07-25.china-leadership, at: beidaihe, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-07-25.elections-1960, at: chicago, basis: c, note: 'the International Amphitheatre'}
+- place: {id: cal.1960-07-25.elections-1960-2, at: chicago, basis: c}
+- place: {id: cal.1960-07-25.elections-1960-chicago, at: chicago, basis: c}
+- place: {id: cal.1960-07-25.sit-ins, at: greensboro, basis: c, note: 'Woolworth''s'}
+- place: {id: cal.1960-07-26.elections-1960-chicago, at: chicago, basis: c, note: 'Meigs Field to the Sheraton-Blackstone'}
+- place: {id: cal.1960-07-26.intelligence, at: fort-meade, basis: c}
+- place: {id: cal.1960-07-27.congo, at: washington, basis: c, note: 'Blair House; Herter and Dillon receive Lumumba'}
+- place: {id: cal.1960-07-27.goldwater, at: chicago, basis: c, note: 'the convention, the family''s box'}
+- place: {id: cal.1960-07-28.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-07-28.elections-1960, at: chicago, basis: n, note: 'the APP title, "at the Republican National Convention in Chicago"'}
+- place: {id: cal.1960-07-28.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-07-30.china-leadership, at: beidaihe, basis: c, note: 'Building 1'}
+- place: {id: cal.1960-07-31.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-08.elections-1960, at: washington, basis: c}
+- place: {id: cal.1960-08.elections-1960-10, at: omaha, basis: c, note: 'Strategic Air Command headquarters'}
+- place: {id: cal.1960-08.elections-1960-11, at: hyannis-port, basis: c, note: 'the campaign''s appointments made from Hyannis Port'}
+- place: {id: cal.1960-08.elections-1960-12, at: washington, basis: c, note: 'the Democratic National Committee''s offices, 1001 Connecticut Avenue'}
+- place: {id: cal.1960-08.elections-1960-14, at: springfield, basis: c}
+- place: {id: cal.1960-08.elections-1960-2, at: washington, basis: c}
+- place: {id: cal.1960-08.elections-1960-3, at: washington, basis: c}
+- place: {id: cal.1960-08.elections-1960-7, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-08.elections-1960-8, at: hyde-park-ny, basis: c, note: 'Kennedy''s call on Mrs. Roosevelt'}
+- place: {id: cal.1960-08.elections-1960-kennedy, at: washington, basis: c, note: 'Georgetown'}
+- place: {id: cal.1960-08.students, at: nyc, basis: c, note: 'the Fellowship of Reconciliation''s headquarters'}
+- place: {id: cal.1960-08.transition-and-staff, at: washington, basis: c, note: 'Kennedy''s house on N Street, Georgetown'}
+- place: {id: cal.1960-08-01.china-leadership-6, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1960-08-01.farm, at: hyannis-port, basis: c, note: 'Kennedy''s headquarters'}
+- place: {id: cal.1960-08-02.china-leadership, at: beidaihe, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-08-02.elections-1960, at: hyannis, basis: n, note: 'the APP title, "Hyannis, MA"'}
+- place: {id: cal.1960-08-02.elections-1960-kennedy-2, at: boston, basis: c, note: 'the Parker House'}
+- place: {id: cal.1960-08-03.elections-1960-kennedy, at: chicago, basis: c, note: 'the Morrison Hotel'}
+- place: {id: cal.1960-08-04.elections-1960-kennedy, at: denver, basis: c}
+- place: {id: cal.1960-08-05.elections-1960-kennedy, at: nyc, basis: c, note: 'the Overseas Press Club'}
+- place: {id: cal.1960-08-05.elections-1960-kennedy-2, at: san-francisco, basis: c}
+- place: {id: cal.1960-08-05.elections-1960-kennedy-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-08-06.china-leadership, at: beidaihe, basis: c, note: 'Building 95'}
+- place: {id: cal.1960-08-06.elections-1960-kennedy, at: hyannis-port, basis: c}
+- place: {id: cal.1960-08-06.elections-1960-kennedy-2, at: hyannis-port, basis: c}
+- place: {id: cal.1960-08-06.elections-1960-kennedy-3, at: hyannis-port, basis: c, note: 'on his boat'}
+- place: {id: cal.1960-08-06.elections-1960-kennedy-4, at: st-louis, basis: c}
+- place: {id: cal.1960-08-06.elections-1960-kennedy-5, at: kansas-city, basis: c}
+- place: {id: cal.1960-08-06.immigration, at: hyannis-port, basis: c}
+- place: {id: cal.1960-08-06.republican-party, at: columbia, basis: c, note: 'the State Republican convention'}
+- place: {id: cal.1960-08-07.elections-1960-kennedy, at: nyc, basis: c, note: 'the Biltmore ballroom'}
+- place: {id: cal.1960-08-09.china-leadership, at: beidaihe, basis: c, note: 'Building 95'}
+- place: {id: cal.1960-08-09.congo, at: nyc, basis: seat, note: 'the Security Council'}
+- place: {id: cal.1960-08-10.jobs-and-wages, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-08-11.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1960-08-12.congo, at: elisabethville, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-08-12.japan-and-korea, at: seoul, basis: seat, note: 'the National Assembly''s election'}
+- place: {id: cal.1960-08-12.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-08-13.laos, at: vientiane, basis: seat, note: 'the National Assembly''s censure, the chief act'}
+- place: {id: cal.1960-08-14.china-leadership-3, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1960-08-14.congo, at: leopoldville, basis: c, note: 'both in the city'}
+- place: {id: cal.1960-08-14.elections-1960-rockefeller, at: seal-harbor-me, basis: c}
+- place: {id: cal.1960-08-14.medicare, at: hyde-park-ny, basis: c, note: 'the memorial program'}
+- place: {id: cal.1960-08-15.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-08-16.china-2, at: peking, basis: c}
+- place: {id: cal.1960-08-16.laos, at: savannakhet, basis: c}
+- place: {id: cal.1960-08-16.latin-america, at: san-jose-cr, basis: c, note: 'the foreign ministers'' meeting'}
+- place: {id: cal.1960-08-16.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-08-17.elections-1960-kennedy, at: miami, basis: c, note: 'the receiving end; the sender''s place not on the record'}
+- place: {id: cal.1960-08-17.soviet-union, at: moscow, basis: c, note: 'the Military Collegium of the Supreme Court'}
+- place: {id: cal.1960-08-18.congo-lumumba, at: leopoldville, basis: c, note: 'the station''s telegram, the sender''s place'}
+- place: {id: cal.1960-08-18.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-08-19.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall'}
+- place: {id: cal.1960-08-19.farm, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-08-19.japan-and-korea, at: seoul, basis: seat, note: 'the National Assembly''s confirmation'}
+- place: {id: cal.1960-08-21.elections-1960-kennedy, at: des-moines, basis: c}
+- place: {id: cal.1960-08-21.elections-1960-kennedy-2, at: des-moines, basis: c, note: 'the auditorium'}
+- place: {id: cal.1960-08-21.elections-1960-nixon-2, at: omaha, basis: c}
+- place: {id: cal.1960-08-23.elections-1960-kennedy, at: washington, basis: c, note: 'the telegram, the sender''s place: "to be here" for the Senate''s votes'}
+- place: {id: cal.1960-08-24.congo-lumumba, at: leopoldville, basis: c, note: 'the station''s cable, the sender''s place'}
+- place: {id: cal.1960-08-24.elections-1960-3, at: detroit, basis: c, note: 'the VFW convention'}
+- place: {id: cal.1960-08-24.elections-1960-kennedy, at: alexandria-va, basis: c, note: 'George Washington High School Stadium'}
+- place: {id: cal.1960-08-24.foreign-aid, at: washington, basis: seat, note: 'Senate floor'}
+- place: {id: cal.1960-08-26.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-08-26.elections-1960, at: atlanta, basis: c}
+- place: {id: cal.1960-08-26.elections-1960-kennedy, at: detroit, basis: c, note: 'the VFW convention'}
+- place: {id: cal.1960-08-26.elections-1960-kennedy-2, at: [detroit, miami-beach], basis: c, note: 'the call, the caller''s place first'}
+- place: {id: cal.1960-08-26.middle-east, at: nyc, basis: c, note: 'the Statler Hilton'}
+- place: {id: cal.1960-08-27.elections-1960, at: washington, basis: c, note: 'Walter Reed; the Capitol'}
+- place: {id: cal.1960-08-27.sit-ins, at: jacksonville, basis: c, note: 'Hemming Park and the streets'}
+- place: {id: cal.1960-08-28.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-08-28.congo, at: moscow, basis: c, note: 'the departure'}
+- place: {id: cal.1960-08-28.cuba, at: san-jose-cr, basis: c}
+- place: {id: cal.1960-08-29.elections-1960, at: washington, basis: c, note: 'Walter Reed'}
+- place: {id: cal.1960-08-29.elections-1960-2, at: washington, basis: c, note: 'Walter Reed'}
+- place: {id: cal.1960-08-29.elections-1960-3, at: washington, basis: c, note: 'Walter Reed'}
+- place: {id: cal.1960-08-30.china-leadership-2, at: miyun-reservoir, basis: c}
+- place: {id: cal.1960-08-30.elections-1960-kennedy, at: washington, basis: c, note: 'Senate Office Building'}
+- place: {id: cal.1960-08-30.elections-1960-kennedy-2, at: washington, basis: c, note: 'the remarks given from Washington'}
+- place: {id: cal.1960-08-30.vietnam-hanoi, at: hanoi, basis: c, note: 'the Politburo'}
+- place: {id: cal.1960-09.cuba, at: nyc, basis: c, note: 'the Plaza Hotel'}
+- place: {id: cal.1960-09.cuba-2, at: miami, basis: c}
+- place: {id: cal.1960-09.elections-1960-5, at: nyc, basis: c, note: 'the Waldorf-Astoria'}
+- place: {id: cal.1960-09.elections-1960-6, at: arkansas, basis: c, note: 'Kennedy in the State; beyond P4, the State as scene'}
+- place: {id: cal.1960-09.elections-1960-7, at: savannah, basis: c, note: 'the political dinner'}
+- place: {id: cal.1960-09.elections-1960-kennedy-2, at: houston, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09.elections-1960-nixon, at: chicago, basis: c, note: 'the Chicago Defender''s offices'}
+- place: {id: cal.1960-09.elections-1960-religion, at: st-louis, basis: c, note: 'from the St. Louis airport'}
+- place: {id: cal.1960-09-01.china, at: leopoldville, basis: c}
+- place: {id: cal.1960-09-01.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall'}
+- place: {id: cal.1960-09-01.congo, at: moscow, basis: c, note: 'the departure'}
+- place: {id: cal.1960-09-01.elections-1960-nixon, at: nyc, basis: c, note: 'Spanish Harlem'}
+- place: {id: cal.1960-09-02.cuba, at: washington, basis: seat, note: 'Senate Internal Security Subcommittee hearing'}
+- place: {id: cal.1960-09-02.cuba-2, at: havana, basis: c, note: 'the Plaza Cívica'}
+- place: {id: cal.1960-09-02.elections-1960, at: presque-isle, basis: c, note: 'the airport rally'}
+- place: {id: cal.1960-09-02.elections-1960-kennedy, at: portland-me, basis: c, note: 'WGAN-TV'}
+- place: {id: cal.1960-09-02.elections-1960-kennedy-2, at: bangor, basis: c, note: 'the Fair Grounds'}
+- place: {id: cal.1960-09-02.elections-1960-kennedy-3, at: portland-me, basis: c, note: 'Portland Stadium'}
+- place: {id: cal.1960-09-02.elections-1960-kennedy-4, at: manchester, basis: c, note: 'the airport rally'}
+- place: {id: cal.1960-09-03.china-leadership, at: peking, basis: c, note: 'Peking Hospital'}
+- place: {id: cal.1960-09-03.elections-1960, at: new-york-state, basis: c, note: 'the Catskills; beyond P4, the State as scene'}
+- place: {id: cal.1960-09-03.elections-1960-kennedy, at: san-francisco, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-03.elections-1960-kennedy-2, at: anchorage, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-03.elections-1960-kennedy-4, at: palmer, basis: c, note: 'the fairgrounds'}
+- place: {id: cal.1960-09-03.elections-1960-kennedy-5, at: anchorage, basis: c, note: 'the Edgewater'}
+- place: {id: cal.1960-09-04.elections-1960-kennedy, at: anchorage, basis: c, note: 'the Westward Hotel'}
+- place: {id: cal.1960-09-04.elections-1960-kennedy-2, at: detroit, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-04.elections-1960-nixon, at: new-york-state, basis: c, note: 'the Catskills and the beaches; beyond P4, the State as scene'}
+- place: {id: cal.1960-09-05.china, at: accra, basis: c}
+- place: {id: cal.1960-09-05.china-2, at: havana, basis: c}
+- place: {id: cal.1960-09-05.congo-4, at: elisabethville, basis: n, note: 'the Times''s dateline, Elisabethville'}
+- place: {id: cal.1960-09-05.elections-1960, at: detroit, basis: c, note: 'Cadillac Square'}
+- place: {id: cal.1960-09-05.elections-1960-kennedy, at: michigan, basis: c, note: 'the Michigan State Fair; the city not on the record'}
+- place: {id: cal.1960-09-05.elections-1960-kennedy-2, at: pontiac, basis: c, note: 'Oakland Park'}
+- place: {id: cal.1960-09-05.elections-1960-kennedy-3, at: flint, basis: c}
+- place: {id: cal.1960-09-05.elections-1960-kennedy-4, at: muskegon, basis: c, note: 'the Labor Day picnic'}
+- place: {id: cal.1960-09-05.elections-1960-kennedy-5, at: muskegon, basis: c, note: 'the Do Drop Inn'}
+- place: {id: cal.1960-09-05.elections-1960-kennedy-6, at: muskegon, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-05.elections-1960-religion, at: marion, basis: c}
+- place: {id: cal.1960-09-05.laos, at: savannakhet, basis: c, note: 'the broadcast, where it went out from'}
+- place: {id: cal.1960-09-05.latin-america, at: bogota, basis: c, note: 'the OAS Committee of 21'}
+- place: {id: cal.1960-09-05.latin-america-2, at: san-salvador, basis: c, note: 'the Legislative Assembly''s decree'}
+- place: {id: cal.1960-09-05.vietnam, at: hanoi, basis: c, note: 'the Party''s Third Congress'}
+- place: {id: cal.1960-09-05.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-09-06.china, at: taipei, basis: c}
+- place: {id: cal.1960-09-06.china-2, at: nyc, basis: c, note: 'the request at the UN; the sender''s place not on the record'}
+- place: {id: cal.1960-09-06.china-3, at: warsaw, basis: c}
+- place: {id: cal.1960-09-06.congo-2, at: brazzaville, basis: c, note: 'the broadcast, where it went out from'}
+- place: {id: cal.1960-09-06.congo-3, at: leopoldville, basis: c, note: 'the arrival'}
+- place: {id: cal.1960-09-06.congo-lumumba, at: leopoldville, basis: c}
+- place: {id: cal.1960-09-06.elections-1960, at: seattle, basis: c, note: 'the Civic Auditorium'}
+- place: {id: cal.1960-09-06.elections-1960-kennedy, at: pocatello, basis: c, note: 'the high school auditorium'}
+- place: {id: cal.1960-09-06.farm, at: spokane, basis: c, note: 'the Caravan Inn'}
+- place: {id: cal.1960-09-06.intelligence, at: washington, basis: c}
+- place: {id: cal.1960-09-06.laos, at: vientiane, basis: c}
+- place: {id: cal.1960-09-06.laos-3, at: washington, basis: c}
+- place: {id: cal.1960-09-06.laos-4, at: luang-prabang, basis: c, note: 'the Luang Prabang area'}
+- place: {id: cal.1960-09-06.latin-america, at: san-salvador, basis: c}
+- place: {id: cal.1960-09-06.latin-america-2, at: bogota, basis: c}
+- place: {id: cal.1960-09-06.latin-america-3, at: bogota, basis: c}
+- place: {id: cal.1960-09-06.soviet-union, at: moscow, basis: c, note: 'the House of Journalists'}
+- place: {id: cal.1960-09-06.vietnam, at: hanoi, basis: c, note: 'the Party''s Third Congress'}
+- place: {id: cal.1960-09-06.vietnam-2, at: hanoi, basis: c, note: 'the Party''s Third Congress'}
+- place: {id: cal.1960-09-07.antisubversion-3, at: washington, basis: seat, note: 'the House committee''s authorization'}
+- place: {id: cal.1960-09-07.berlin-and-vienna, at: vienna, basis: c, note: 'the source''s statement'}
+- place: {id: cal.1960-09-07.china-leadership, at: peking, basis: c, note: 'Zhongnanhai, Mao''s house by the pool'}
+- place: {id: cal.1960-09-07.congo-3, at: leopoldville, basis: c, note: 'the lower house'}
+- place: {id: cal.1960-09-07.congo-4, at: leopoldville, basis: c, note: 'the Senate'}
+- place: {id: cal.1960-09-07.congo-5, at: leopoldville, basis: c, note: 'the lower house'}
+- place: {id: cal.1960-09-07.congo-6, at: elisabethville, basis: c, note: 'the plane''s landing'}
+- place: {id: cal.1960-09-07.congo-7, at: elisabethville, basis: c, note: 'the messages, the sender''s place'}
+- place: {id: cal.1960-09-07.congo-8, at: accra, basis: c, note: 'the broadcast'}
+- place: {id: cal.1960-09-07.congo-9, at: leopoldville, basis: c}
+- place: {id: cal.1960-09-07.elections-1960-2, at: chicago, basis: c, note: 'the Medinah Temple'}
+- place: {id: cal.1960-09-07.elections-1960-kennedy, at: seattle, basis: c, note: 'the Olympic Hotel'}
+- place: {id: cal.1960-09-07.elections-1960-kennedy-2, at: salem, basis: c}
+- place: {id: cal.1960-09-07.elections-1960-kennedy-3, at: portland, basis: c, note: 'the Multnomah Hotel'}
+- place: {id: cal.1960-09-07.elections-1960-kennedy-4, at: portland, basis: c, note: 'the Civic Auditorium'}
+- place: {id: cal.1960-09-07.elections-1960-kennedy-5, at: eugene, basis: c, note: 'Courthouse Square'}
+- place: {id: cal.1960-09-07.elections-1960-kennedy-6, at: atlanta, basis: c, note: 'a news conference'}
+- place: {id: cal.1960-09-07.elections-1960-kennedy-8, at: nyc, basis: c, note: 'the New York Times''s printing of the report'}
+- place: {id: cal.1960-09-07.elections-1960-religion-2, at: washington, basis: c}
+- place: {id: cal.1960-09-07.elections-1960-religion-3, at: atlanta, basis: c}
+- place: {id: cal.1960-09-07.intelligence-3, at: flushing-oh, basis: c, note: 'by telephone at Flushing; the other end not on the record'}
+- place: {id: cal.1960-09-07.labor, at: st-louis, basis: c, note: 'the Machinists'' convention'}
+- place: {id: cal.1960-09-07.labor-2, at: washington, basis: c, note: 'the U.S. Court of Appeals, at Washington by the record'}
+- place: {id: cal.1960-09-07.labor-3, at: washington, basis: c, note: 'the Court of Appeals hearing'}
+- place: {id: cal.1960-09-07.labor-6, at: washington, basis: c}
+- place: {id: cal.1960-09-07.labor-7, at: washington, basis: c}
+- place: {id: cal.1960-09-07.labor-8, at: st-louis, basis: c, note: 'the Machinists'' convention'}
+- place: {id: cal.1960-09-07.latin-america, at: bogota, basis: c}
+- place: {id: cal.1960-09-07.latin-america-2, at: miami, basis: c, note: 'the U.S. District Court, at Miami by the record'}
+- place: {id: cal.1960-09-08.china, at: jakarta, basis: c}
+- place: {id: cal.1960-09-08.elections-1960-kennedy, at: redding, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-10, at: dunsmuir, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-2, at: chico, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-3, at: marysville-ca, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-4, at: sacramento, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-5, at: martinez-ca, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-6, at: oakland, basis: c, note: 'the Civic Auditorium'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-7, at: suisun, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-8, at: red-bluff, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960-kennedy-9, at: richmond-ca, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-08.elections-1960, at: los-angeles, basis: c, note: 'the Shrine Auditorium'}
+- place: {id: cal.1960-09-09.elections-1960-2, at: washington, basis: c}
+- place: {id: cal.1960-09-09.elections-1960-kennedy, at: stockton, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-11, at: los-angeles, basis: c, note: 'a hotel room'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-2, at: modesto, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-3, at: merced, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-4, at: madera, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-5, at: fresno, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-6, at: tulare, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-7, at: turlock, basis: c, note: 'rear platform'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-8, at: burbank, basis: c, note: 'Lockheed Air Terminal'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-9, at: bakersfield, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-10.conservative-movement, at: sharon-ct, basis: c, note: 'Great Elm, the Buckleys'' estate'}
+- place: {id: cal.1960-09-10.elections-1960, at: los-angeles, basis: c, note: 'the Ambassador Hotel'}
+- place: {id: cal.1960-09-10.elections-1960-kennedy, at: los-angeles, basis: c, note: 'the Ambassador ballroom'}
+- place: {id: cal.1960-09-10.middle-east, at: baghdad, basis: c, note: 'OPEC''s founding'}
+- place: {id: cal.1960-09-11.elections-1960-kennedy, at: san-diego, basis: c, note: 'Lindbergh Field'}
+- place: {id: cal.1960-09-11.elections-1960-kennedy-2, at: san-diego, basis: c, note: 'the U.S. Grant Hotel'}
+- place: {id: cal.1960-09-11.elections-1960-kennedy-3, at: el-paso, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-12.elections-1960, at: houston, basis: c, note: 'the Rice Hotel'}
+- place: {id: cal.1960-09-12.elections-1960-2, at: baltimore, basis: c, note: 'the campaign''s first stop, Friendship Airport (P5); the PPP title, "Near Baltimore"'}
+- place: {id: cal.1960-09-12.elections-1960-kennedy, at: el-paso, basis: c, note: 'the Cortez Hotel'}
+- place: {id: cal.1960-09-12.elections-1960-kennedy-2, at: el-paso, basis: c, note: 'the Cortez Hotel plaza'}
+- place: {id: cal.1960-09-12.elections-1960-kennedy-3, at: lubbock, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-12.elections-1960-kennedy-4, at: san-antonio, basis: c, note: 'the Alamo'}
+- place: {id: cal.1960-09-12.elections-1960-kennedy-5, at: houston, basis: c, note: 'the Coliseum'}
+- place: {id: cal.1960-09-12.elections-1960-kennedy-6, at: houston, basis: c, note: 'the Rice Hotel'}
+- place: {id: cal.1960-09-13.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-09-13.elections-1960-kennedy, at: austin, basis: c, note: 'the Capitol steps'}
+- place: {id: cal.1960-09-13.elections-1960-kennedy-2, at: fort-worth, basis: c, note: 'Burk Burnett Park'}
+- place: {id: cal.1960-09-13.elections-1960-kennedy-3, at: grand-prairie, basis: c, note: 'the Chance Vought parking lot'}
+- place: {id: cal.1960-09-13.elections-1960-kennedy-4, at: dallas, basis: c, note: 'Memorial Auditorium'}
+- place: {id: cal.1960-09-13.elections-1960-kennedy-6, at: arlington-tx, basis: c}
+- place: {id: cal.1960-09-13.elections-1960-kennedy-7, at: st-louis, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-14.antisubversion, at: washington, basis: seat, note: 'HUAC executive-session hearings'}
+- place: {id: cal.1960-09-14.elections-1960, at: nyc, basis: c}
+- place: {id: cal.1960-09-14.elections-1960-kennedy, at: nyc, basis: c, note: 'the Commodore Hotel'}
+- place: {id: cal.1960-09-14.elections-1960-kennedy-2, at: nyc, basis: c, note: 'the Waldorf-Astoria'}
+- place: {id: cal.1960-09-14.labor, at: st-louis, basis: c, note: 'Kiel Auditorium'}
+- place: {id: cal.1960-09-14.medicare, at: nyc, basis: c, note: 'City Center'}
+- place: {id: cal.1960-09-15.elections-1960, at: st-louis, basis: c, note: 'Kiel Auditorium'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy, at: jersey-city, basis: c, note: 'the Armory'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-2, at: paramus, basis: c, note: 'Bergen Mall'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-3, at: paterson, basis: c, note: 'City Hall'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-4, at: clifton-nj, basis: c}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-5, at: newark, basis: c, note: 'City Hall'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-6, at: new-brunswick, basis: c, note: 'County Records Building'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-7, at: trenton, basis: c, note: 'State Office Building'}
+- place: {id: cal.1960-09-15.elections-1960-kennedy-8, at: harrisburg, basis: c, note: 'Zembo Mosque Temple'}
+- place: {id: cal.1960-09-15.intelligence, at: washington, basis: seat, note: 'House Armed Services subcommittee testimony'}
+- place: {id: cal.1960-09-15.soviet-union, at: [peking, moscow], basis: c, note: 'the flight, departure first'}
+- place: {id: cal.1960-09-16.antisubversion, at: washington, basis: seat, note: 'HUAC executive session'}
+- place: {id: cal.1960-09-16.congo, at: leopoldville, basis: c, note: 'the parliament building'}
+- place: {id: cal.1960-09-16.elections-1960-kennedy, at: lebanon-pa, basis: c}
+- place: {id: cal.1960-09-16.elections-1960-kennedy-2, at: reading-pa, basis: c}
+- place: {id: cal.1960-09-16.elections-1960-kennedy-3, at: columbia-pa, basis: c, note: 'the park'}
+- place: {id: cal.1960-09-16.elections-1960-kennedy-4, at: york-pa, basis: c, note: 'the York County Fair'}
+- place: {id: cal.1960-09-16.elections-1960-kennedy-5, at: towson, basis: c, note: 'the shopping center'}
+- place: {id: cal.1960-09-16.elections-1960-kennedy-6, at: pikesville, basis: c, note: 'the Armory'}
+- place: {id: cal.1960-09-16.farm, at: guthrie-center, basis: c, note: 'the National Plowing Contest'}
+- place: {id: cal.1960-09-17.china-leadership-2, at: peking, basis: c, note: 'the Standing Committee''s sessions on the delegation''s cables'}
+- place: {id: cal.1960-09-17.congo-lumumba, at: leopoldville, basis: c}
+- place: {id: cal.1960-09-17.elections-1960-kennedy, at: greenville-nc, basis: c, note: 'Eastern Carolina Stadium'}
+- place: {id: cal.1960-09-17.elections-1960-kennedy-2, at: greensboro, basis: c, note: 'airport rally'}
+- place: {id: cal.1960-09-17.elections-1960-kennedy-3, at: charlotte, basis: c, note: 'the Coliseum'}
+- place: {id: cal.1960-09-17.elections-1960-kennedy-4, at: [charlotte, asheville], basis: c, note: 'the call, the caller''s place first'}
+- place: {id: cal.1960-09-17.elections-1960-kennedy-5, at: raleigh, basis: c, note: 'the Coliseum'}
+- place: {id: cal.1960-09-17.farm, at: greenville-nc, basis: c, note: 'a tobacco warehouse'}
+- place: {id: cal.1960-09-17.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-09-18.elections-1960-kennedy, at: washington, basis: c, note: 'Washington National Airport (in Arlington, Va.); the name the record gives'}
+- place: {id: cal.1960-09-19.elections-1960-kennedy, at: charleston, basis: c, note: 'Civic Center'}
+- place: {id: cal.1960-09-19.elections-1960-kennedy-2, at: charleston, basis: c, note: 'the Daniel Boone Hotel'}
+- place: {id: cal.1960-09-19.labor, at: atlantic-city, basis: c, note: 'the Ambassador Hotel'}
+- place: {id: cal.1960-09-19.labor-2, at: atlantic-city, basis: c, note: 'Convention Hall'}
+- place: {id: cal.1960-09-19.soviet-union, at: nyc, basis: c, note: 'the days'' acts, all at New York'}
+- place: {id: cal.1960-09-19.soviet-union-2, at: moscow, basis: c}
+- place: {id: cal.1960-09-20.china-2, at: ulan-bator, basis: c}
+- place: {id: cal.1960-09-20.elections-1960-kennedy, at: washington, basis: c, note: 'the Sheraton Park Hotel'}
+- place: {id: cal.1960-09-20.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-09-21.elections-1960-kennedy, at: bristol-va-tn, basis: c, note: 'Tri-Cities Airport'}
+- place: {id: cal.1960-09-21.elections-1960-kennedy-2, at: knoxville, basis: c, note: 'airport rally'}
+- place: {id: cal.1960-09-21.elections-1960-kennedy-3, at: nashville, basis: c, note: 'Memorial Auditorium steps'}
+- place: {id: cal.1960-09-21.elections-1960-kennedy-4, at: memphis, basis: c, note: 'Riverside Drive rally'}
+- place: {id: cal.1960-09-21.elections-1960-kennedy-5, at: sioux-city, basis: c, note: 'Municipal Auditorium'}
+- place: {id: cal.1960-09-21.farm, at: nashville, basis: c, note: 'the State Fair'}
+- place: {id: cal.1960-09-21.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-09-22.elections-1960, at: mitchell-sd, basis: c, note: 'the Corn Palace'}
+- place: {id: cal.1960-09-22.elections-1960-kennedy, at: sioux-city, basis: c}
+- place: {id: cal.1960-09-22.elections-1960-kennedy-2, at: fort-dodge, basis: c, note: 'City Square'}
+- place: {id: cal.1960-09-22.elections-1960-kennedy-3, at: fargo, basis: c, note: 'airport rally'}
+- place: {id: cal.1960-09-22.elections-1960-kennedy-4, at: billings, basis: c, note: 'Shrine Auditorium'}
+- place: {id: cal.1960-09-22.farm, at: fort-dodge, basis: c, note: 'airport rally'}
+- place: {id: cal.1960-09-22.farm-2, at: sioux-falls, basis: c, note: 'the National Plowing Contest'}
+- place: {id: cal.1960-09-22.soviet-union-2, at: moscow, basis: c, note: 'the departure'}
+- place: {id: cal.1960-09-23.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-09-23.elections-1960-kennedy, at: cheyenne, basis: c, note: 'Frontier Park'}
+- place: {id: cal.1960-09-23.elections-1960-kennedy-2, at: denver, basis: c, note: 'Civic Center'}
+- place: {id: cal.1960-09-23.elections-1960-kennedy-3, at: denver, basis: c, note: 'the Hilton Hotel'}
+- place: {id: cal.1960-09-23.elections-1960-kennedy-4, at: salt-lake-city, basis: c, note: 'the Hotel Utah'}
+- place: {id: cal.1960-09-23.elections-1960-religion, at: salt-lake-city, basis: c, note: 'the Mormon Tabernacle'}
+- place: {id: cal.1960-09-23.farm, at: sioux-falls, basis: c, note: 'the National Plowing Contest site'}
+- place: {id: cal.1960-09-23.soviet-union, at: nyc, basis: seat, note: 'the General Assembly'}
+- place: {id: cal.1960-09-24.defense, at: newport-news, basis: c, note: 'the launching'}
+- place: {id: cal.1960-09-25.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-09-25.china-leadership-2, at: hefei, basis: c, note: 'the flight to Hefei and the meetings there'}
+- place: {id: cal.1960-09-25.elections-1960-3, at: chicago, basis: c, note: 'the airport and the wards'}
+- place: {id: cal.1960-09-25.elections-1960-4, at: chicago, basis: c, note: 'the Knickerbocker and the Ambassador East'}
+- place: {id: cal.1960-09-25.elections-1960-kennedy, at: cleveland, basis: c, note: 'the Hotel Hollenden'}
+- place: {id: cal.1960-09-25.elections-1960-kennedy-2, at: cleveland, basis: c, note: 'Euclid Beach Park'}
+- place: {id: cal.1960-09-26.congo-lumumba, at: leopoldville, basis: c}
+- place: {id: cal.1960-09-26.elections-1960, at: chicago, basis: c, note: 'WBBM'}
+- place: {id: cal.1960-09-26.elections-1960-6, at: chicago, basis: c}
+- place: {id: cal.1960-09-26.elections-1960-debates, at: chicago, basis: c}
+- place: {id: cal.1960-09-26.elections-1960-debates-2, at: chicago, basis: c, note: 'the WBBM studio'}
+- place: {id: cal.1960-09-26.elections-1960-debates-3, at: chicago, basis: c, note: 'the television studio''s pay telephone; the call to his father, the other end not on the record'}
+- place: {id: cal.1960-09-26.elections-1960-debates-5, at: chicago, basis: c, note: 'the holding room and the studio'}
+- place: {id: cal.1960-09-26.labor, at: chicago, basis: c, note: 'the Carpenters'' convention'}
+- place: {id: cal.1960-09-26.soviet-union-un, at: nyc, basis: seat, note: 'the General Assembly''s plenary, U.N. doc. A/PV.871'}
+- place: {id: cal.1960-09-27.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-09-27.elections-1960-kennedy, at: painesville, basis: c, note: 'Hellriegel''s Inn'}
+- place: {id: cal.1960-09-27.elections-1960-kennedy-2, at: painesville, basis: c, note: 'Hellriegel''s Inn parking lot'}
+- place: {id: cal.1960-09-27.elections-1960-kennedy-3, at: lorain, basis: c, note: 'the stadium'}
+- place: {id: cal.1960-09-27.elections-1960-kennedy-4, at: mansfield-oh, basis: c}
+- place: {id: cal.1960-09-27.elections-1960-kennedy-5, at: akron, basis: c, note: 'the Armory'}
+- place: {id: cal.1960-09-27.elections-1960-kennedy-6, at: canton-oh, basis: c, note: 'Municipal Auditorium'}
+- place: {id: cal.1960-09-27.elections-1960-kennedy-7, at: erie, basis: c, note: 'the airport'}
+- place: {id: cal.1960-09-27.vietnam-hanoi, at: hanoi, basis: c, note: 'the Secretariat'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy, at: erie, basis: c, note: 'the Lawrence Hotel'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-2, at: erie, basis: c, note: 'the Hotel Lawrence'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-3, at: niagara-falls, basis: c, note: 'Bell Aircraft'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-4, at: niagara-falls, basis: c, note: 'the Treadway Inn'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-5, at: lockport, basis: c, note: 'downtown'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-6, at: north-tonawanda, basis: c}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-7, at: rochester, basis: c, note: 'War Memorial Building'}
+- place: {id: cal.1960-09-28.elections-1960-kennedy-8, at: buffalo, basis: c, note: 'Memorial Auditorium'}
+- place: {id: cal.1960-09-28.laos, at: samneua, basis: c, note: 'the airstrip overrun, the chief act'}
+- place: {id: cal.1960-09-29.elections-1960-kennedy, at: albany, basis: c, note: 'the State Capitol steps'}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-10, at: syracuse, basis: c, note: 'outside the Syracuse Hotel'}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-2, at: troy-ny, basis: c}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-3, at: schenectady, basis: c}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-4, at: amsterdam-ny, basis: c, note: 'at lunch'}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-5, at: syracuse, basis: c, note: 'the Hotel Syracuse'}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-6, at: ilion, basis: c}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-7, at: utica, basis: c}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-8, at: rome-ny, basis: c}
+- place: {id: cal.1960-09-29.elections-1960-kennedy-9, at: oneida-ny, basis: c}
+- place: {id: cal.1960-09-30.elections-1960, at: hyannis-port, basis: c, note: 'the strategy meeting'}
+- place: {id: cal.1960-10.china-leadership, at: peking, basis: c, note: 'the inquiry at Peking University, the People''s University and Peking Teachers College'}
+- place: {id: cal.1960-10.elections-1960-10, at: hyannis-port, basis: c, note: 'the strategy session'}
+- place: {id: cal.1960-10.elections-1960-13, at: thief-river-falls, basis: c, note: 'an early-morning coffee'}
+- place: {id: cal.1960-10.elections-1960-14, at: rochester-mn, basis: c, note: 'the debate'}
+- place: {id: cal.1960-10.elections-1960-chicago, at: chicago, basis: c}
+- place: {id: cal.1960-10.goldwater, at: south-carolina, basis: c, note: 'the tour''s stops in the State; beyond P4, the State as scene'}
+- place: {id: cal.1960-10.governors, at: illinois, basis: c, note: 'beyond P4, the State as scene'}
+- place: {id: cal.1960-10.testing, at: chicago, basis: c, note: 'SANE''s rally'}
+- place: {id: cal.1960-10-01.china-leadership-3, at: peking, basis: n, note: 'the note''s source: the treaty signed at Peking'}
+- place: {id: cal.1960-10-01.elections-1960-kennedy, at: chicago, basis: c, note: 'City Hall'}
+- place: {id: cal.1960-10-01.elections-1960-kennedy-2, at: chicago, basis: c, note: 'the Lake Meadow Shopping Center'}
+- place: {id: cal.1960-10-01.elections-1960-kennedy-3, at: chicago, basis: c, note: 'the Polish-American Congress'}
+- place: {id: cal.1960-10-01.elections-1960-kennedy-4, at: minneapolis, basis: c, note: 'the bean feed'}
+- place: {id: cal.1960-10-02.china-leadership, at: peking, basis: c, note: 'the rally'}
+- place: {id: cal.1960-10-02.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-10-02.elections-1960-kennedy, at: st-paul, basis: c, note: 'the airport'}
+- place: {id: cal.1960-10-02.elections-1960-kennedy-2, at: st-paul, basis: c, note: 'the St. Paul Hotel'}
+- place: {id: cal.1960-10-02.elections-1960-kennedy-3, at: duluth, basis: c, note: 'the University of Minnesota'}
+- place: {id: cal.1960-10-02.elections-1960-kennedy-4, at: hibbing, basis: c}
+- place: {id: cal.1960-10-02.elections-1960-kennedy-5, at: st-louis, basis: c, note: 'the Chase Hotel'}
+- place: {id: cal.1960-10-02.farm, at: st-paul, basis: c, note: 'the GTA convention'}
+- place: {id: cal.1960-10-02.soviet-union, at: moscow, basis: c, note: 'the drafting committee'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy, at: alton-il, basis: c, note: 'the town square'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-10, at: marion-il, basis: c, note: 'the airport'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-11, at: venice-il, basis: c}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-12, at: springfield, basis: c, note: 'the Armory'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-2, at: granite-city, basis: c, note: 'an auto rally'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-3, at: east-st-louis, basis: c, note: '15th and Broadway'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-4, at: east-st-louis, basis: c, note: 'the main intersection'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-5, at: belleville-il, basis: c, note: 'Augustine''s Restaurant'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-6, at: belleville-il, basis: c, note: 'before the Republican headquarters'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-7, at: carbondale-il, basis: c, note: 'the Southern Illinois University stadium'}
+- place: {id: cal.1960-10-03.elections-1960-kennedy-9, at: marion-il, basis: c, note: 'the Veterans'' Hospital'}
+- place: {id: cal.1960-10-03.farm, at: east-st-louis, basis: c, note: 'the National Stockyards'}
+- place: {id: cal.1960-10-03.farm-2, at: harrisburg-il, basis: c}
+- place: {id: cal.1960-02-17.cuba-2, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.cuba-6, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.defense, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.elections-1960-nixon, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.farm, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.latin-america-2, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.latin-america-3, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-02-17.republican-party, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.congo-10, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.congo-2, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.congress, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.elections-1960-3, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.elections-1960-religion, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.intelligence-4, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-09-07.south-asia, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building'}
+- place: {id: cal.1960-01-26.defense, at: washington, basis: n, note: 'the PPP note: the news conference held in the Executive Office Building; the testimony before a committee, by seat'}
+- place: {id: cal.1960-05-24.soviet-union-u2, at: washington, basis: n, note: 'the FRUS heading of the meeting''s memorandum of discussion, "Washington, May 24, 1960"'}
+- place: {id: cal.1960-08-25.congo, at: washington, basis: n, note: 'the FRUS headings: the Special Group''s memorandum for the record and the cable, both "Washington"'}
+- place: {id: cal.1960-09-29.soviet-union, at: nyc, basis: n, note: 'the FRUS heading of the letter, "New York, September 29, 1960"'}
+- place: {id: cal.1960-08-23.medicare-2, at: washington, basis: tag, note: 'city:washington; the statement after the Senate''s vote'}
+- place: {id: cal.1960-08-30.jobs-and-wages, at: washington, basis: tag, note: 'city:washington'}
+- place: {id: cal.1960-08-31.trade, at: washington, basis: tag, note: 'city:washington; the letter, the sender''s place'}
+- place: {id: cal.1960-09-09.elections-1960-kennedy-10, at: chicago, basis: c, note: 'the receiving end; the sender''s place not on the record, the entry opening there'}
+- place: {id: cal.1960-03-31.elections-1960, at: wisconsin, basis: c, note: 'the weeklies of the State, wholly within it (P5)'}
+- place: {id: cal.1960-04.elections-1960, at: west-virginia, basis: c, note: 'the State as scene, wholly within it (P5)'}
+- place: {id: cal.1960-01-25.elections-1960, at: california, basis: c, note: 'the call from California; the other end not on the record'}

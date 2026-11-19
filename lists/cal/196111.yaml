@@ -6,6 +6,7 @@ entries:
   - id: cal.1961-11-01.freedom-rides
     when: Nov. 1
     date: '1961-11-01'
+    place: albany-ga
     thread: freedom-rides
     also: [georgia, desegregation-public-places]
     c: ICC order in force. SNCC tests the Albany bus station.
@@ -35,6 +36,7 @@ entries:
   - id: cal.1961-11-01.health-ct
     when: Nov. 1
     date: '1961-11-01'
+    place: new-haven
     thread: health
     also: [court]
     c: 'New Haven. The Planned Parenthood League of Connecticut opens a center under Griswold, its executive director, and Buxton, of the Yale medical school, its medical director: advice and contraceptives for married persons, in defiance of the law of 1879.'
@@ -44,6 +46,7 @@ entries:
   - id: cal.1961-11-01.cuba
     when: Nov. 1
     date: '1961-11-01'
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: 'Goodwin to the President: a "command operation" for Cuba, as the Attorney General had discussed it with him, the only effective way. "I believe that the Attorney General would be the most effective commander of such an operation," with a deputy.'
@@ -87,6 +90,7 @@ entries:
     when: Nov. 1
     date: '1961-11-01'
     time: 1961-11-01T08:00Z
+    place: hakone
     thread: vietnam
     also: [japan]
     c: 'Rusk from Hakone, before Taylor reports: whether Diệm will "give us something worth supporting"; if not, "difficult to see how relative handful American troops can have decisive influence."'
@@ -115,6 +119,7 @@ entries:
     when: Nov. 1
     date: '1961-11-01'
     time: 1961-11-01T03:30Z
+    place: peking
     thread: china-leadership
     also: [china, africa, trade]
     c: Peking, the Great Hall of the People, Anhui Hall. Zhou Enlai receives the Ghanaian trade delegation headed by Krobo Edusei, Minister of Light and Heavy Industries.
@@ -124,6 +129,54 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
     tags: [polity:prc, polity:ghana, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-01.china-leadership-2
+    when: Nov. 1
+    date: '1961-11-01'
+    place: moscow
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Liu Xiao 刘晓 cables from Moscow: Kozlov 科兹洛夫 very much wants to come and see China.'
+    n: '[[w.yang-shangkun-riji]], II, 85 (Nov. 1, 1961; note 1: Kozlov, of the CPSU Presidium and Secretariat). The words: 上午9时半 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Xiao, Kozlov.'
+    src:
+      c: 87acb4af
+      rows:
+        - 'w.yang-shangkun-riji II, 85: all'
+    tags: [polity:prc, name:kozlov-frol-r, vis:only:prc]
+    time_range:
+      - 1961-10-31T22:00Z
+      - 1961-11-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-01.china-leadership-3
+    when: Nov. 1
+    date: '1961-11-01'
+    time: 1961-11-01T06:50Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Eastern Suburb airport 东郊机场, 2:50 p.m. Peng Zhen 彭真, Kang Sheng 康生, Tao Zhu 陶铸 and others back from the Twenty-second Congress, met by Zhou Enlai 周恩来, Zhu De 朱德 and Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 85 (Nov. 1, 1961; note 2). The words: 2时50分 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Kang Sheng, Tao Zhu, Zhou Enlai, Zhu De, Yang Shangkun.'
+    src:
+      c: c3fb6e62
+      rows:
+        - 'w.yang-shangkun-riji II, 85: all'
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, name:tao-zhu, name:zhou-enlai, name:zhu-de, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-01.china-leadership-4
+    when: Nov. 1
+    date: '1961-11-01'
+    time: 1961-11-01T09:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yan Mingfu 阎明复, 5 to 6:30 p.m., tells Yang Shangkun 杨尚昆 of the Twenty-second Congress.
+    n: '[[w.yang-shangkun-riji]], II, 85 (Nov. 1, 1961). The words: 5时到6时半 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: e50bed00
+      rows:
+        - 'w.yang-shangkun-riji II, 85: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-11-02.right-and-the-military
     when: Nov. 2
@@ -158,6 +211,7 @@ entries:
   - id: cal.1961-11-02.japan-and-korea
     when: Nov. 2–4
     date: '1961-11-02'
+    place: hakone
     thread: japan
     c: 'Hakone. First meeting of the Joint U.S.–Japan Committee on Trade and Economic Affairs, set up in June: Rusk, Udall, Freeman, Hodges, Goldberg with Ikeda''s ministers. No negotiations.'
     n: 'FRUS 1961–63, XXII, docs. [345](https://history.state.gov/historicaldocuments/frus1961-63v22/d345), [346](https://history.state.gov/historicaldocuments/frus1961-63v22/d346), [347](https://history.state.gov/historicaldocuments/frus1961-63v22/d347). To check: [[w.schaller-altered-states]]; [[w.maga-hands-across-the-sea]]; [[w.zeiler-american-trade-and-power]]. See [[cal.1961-06-20.transition-and-staff]]. Names: Rusk, Udall, Freeman, Hodges, Goldberg, Ikeda.'
@@ -166,6 +220,7 @@ entries:
   - id: cal.1961-11-02.conservation
     when: Nov. 2
     date: '1961-11-02'
+    place: washington
     thread: conservation
     c: 'Delaware River Basin Compact signed: the United States joins Delaware, New Jersey, New York and Pennsylvania in a commission over the basin''s water supply, pollution control, flood protection, watersheds, recreation, power and withdrawals. Udall the federal member. Congress consented Sept. 27, [75 Stat. 688](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg688.pdf); the House had refused to recommit, June 29, [92–257](https://voteview.com/rollcall/RH0870053).'
     n: 'Statute (K–J Cong. II.J.2). Remarks at the Signing of the Delaware River Basin Compact, [1961 Pub. Papers 692](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=750) (Nov. 2, 1961). See [[cal.1961-02-23.conservation]]. Names: Udall.'
@@ -179,6 +234,7 @@ entries:
   - id: cal.1961-11-02.vietnam
     when: Nov. 2
     date: '1961-11-02'
+    place: washington
     thread: vietnam
     c: 'Mansfield to Kennedy: no combat troops to Vietnam. North Vietnamese first, then perhaps the Chinese; "a quicksand for us." More aid, the burden left to the South Vietnamese.'
     n: '[FRUS 1961–63, I, doc. 207](https://history.state.gov/historicaldocuments/frus1961-63v01/d207). [[w.gibbons-u-s-government-and]], II, 84–85. [[w.reeves-president-kennedy]], 255–56 (Mansfield''s "quicksand"). [[w.mann-grand-delusion]], 245–46. To check: [[w.olson-mansfield-and-vietnam]]. See [[cal.1961-01-28.vietnam]]. Names: Mansfield, Kennedy.'
@@ -228,14 +284,21 @@ entries:
   - id: cal.1961-11-02.china-leadership
     when: Nov. 2
     date: '1961-11-02'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Diaoyutai, Building 12, evening. The Politburo Standing Committee, Mao presiding, hears Peng Zhen on the Twenty-second Congress since Zhou Enlai''s return: a report on it to be made to the cadres.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 2, 1961. Made public: 2013. Names: Mao Zedong, Peng Zhen, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 2, 1961. [[w.yang-shangkun-riji]], II, 85 (Nov. 2, 1961; Diaoyutai, 9:30 to 12 p.m., Mao there; Peng Zhen on the Congress after Zhou''s return; a report to cadres to be prepared). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 85) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Peng Zhen, Zhou Enlai.'
+    src:
+      c: 07aef912
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 2, 1961: all'
+        - 'w.yang-shangkun-riji II, 85: A-B'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-11-02.south-asia
     when: Nov. 2
     date: '1961-11-02'
+    place: new-delhi
     thread: south-asia
     also: [china]
     c: New Delhi. Nehru, with Krishna Menon, the Defence Minister, and senior officers, decides to advance and set up new posts in Ladakh; orders leave the cautious western commander no ground for delay. In NEFA the ban on operations within 3 km. of the frontier is lifted, the local commander to "plug the gaps" by a "systematic advance" toward the McMahon Line.
@@ -249,9 +312,27 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 298 n.9c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 298 n.9d: all'
     tags: [polity:india, vis:only:india, name:nehru-jawaharlal, name:menon-v-k-krishna]
+  - id: cal.1961-11-02.china-leadership-2
+    when: Nov. 2
+    date: '1961-11-02'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 talks with Zeng San 曾三; Wang Yuming 王愈明 and others report on the All-China Federation of Trade Unions' meeting on the labor insurance regulations.
+    n: '[[w.yang-shangkun-riji]], II, 85 (Nov. 2, 1961). The words: 上午 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zeng San, Wang Yuming.'
+    src:
+      c: ed4075e5
+      rows:
+        - 'w.yang-shangkun-riji II, 85: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-01T22:00Z
+      - 1961-11-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-03.vietnam
     when: Nov. 3
     date: '1961-11-03'
+    place: washington
     thread: vietnam
     c: Taylor's report. Advisers down to the units; helicopters and aircraft with American crews; a flood-relief task force of about 8,000 men.
     n: 'Memorandum from Taylor to the President (K–J Adm. II.H.3): [FRUS 1961–63, I, doc. 210](https://history.state.gov/historicaldocuments/frus1961-63v01/d210), the covering letter; [doc. 205](https://history.state.gov/historicaldocuments/frus1961-63v01/d205) (editorial note: the cables from Baguio, Nov. 1, a force of about 8,000); [doc. 191](https://history.state.gov/historicaldocuments/frus1961-63v01/d191) (Taylor, Oct. 25: a task force for flood relief, to be phased "into other activities"). [[w.miller-misalliance]], 228–29 (six to eight thousand for the flood); [[w.gibbons-u-s-government-and]], II, 73–78 (the report; Americans "side by side" with the Vietnamese; 6,000–8,000 men under cover of the flood; not the helicopters); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 271–72 (the report; the helicopters; the task force); [[w.marolda-united-states-navy-and]], 127 (the report, Nov. 3); [[w.futrell-united-states-air-force]], 93 (the recommendations of Nov. 3; the advisers as partners); [[w.preston-war-council]], 92–93 (the report; its covering letter, mostly Rostow''s); [[w.mcnamara-in-retrospect]], ch. 2 at n.11 (the report: more advisers, equipment, small numbers of combat troops; "transition from advice to partnership"). [[w.logevall-choosing-war]], 26 (the report; an initial force of eight thousand); [[w.moyar-triumph-forsaken]], 136–37; [[w.taylor-swords-and-plowshares]], 241–45 (the report, written at Baguio, its summary cabled from there; the recommendations; the task force, by Defense''s estimate some 8,000); [[w.mann-grand-delusion]], 244–45 (Taylor presents the mission''s recommendations Nov. 3: joint planning, three new helicopter squadrons and light aircraft, "a radical increase" of U.S. trainers at every level, more special forces, and eight to ten thousand American soldiers thinly disguised as a flood relief force). [[w.selverstone-kennedy-withdrawal]], 41 (the report; some 8,000 for flood relief). [[w.reeves-president-kennedy]], 255–57 (the report; the flood as pretext, six to eight thousand men). [[w.ball-past-has-another-pattern]], 365–66 (Taylor''s cables; the force; the risks "not impressive"). Check: Gibbons, II, 78, has the report submitted on Taylor''s return, Nov. 2. See [[cal.1961-01-28.vietnam]]. Names: Taylor.'
@@ -315,6 +396,7 @@ entries:
     when: Nov. 3
     date: '1961-11-03'
     time: 1961-11-03T17:00Z
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: 'Noon to 12:55, at the White House: the President authorizes a new program to undermine Castro''s government, by FRUS''s editorial note. Present, by the Appointment Book: Robert Kennedy; Ball, U. Alexis Johnson, Coerr and Hurwitch of State; Cabell, Bissell, Amory and King of the CIA; Bundy and Goodwin.'
@@ -350,6 +432,7 @@ entries:
   - id: cal.1961-11-03.cuba-2
     when: Nov. 3
     date: '1961-11-03'
+    place: langley
     thread: cuba
     also: [robert-kennedy]
     follows:
@@ -388,6 +471,7 @@ entries:
   - id: cal.1961-11-03.cuba-3
     when: Nov. 3
     date: '1961-11-03'
+    place: washington
     thread: cuba
     c: 'Kent, of the Board of National Estimates, to Dulles, "The Situation and Prospects in Cuba": the regime with enough popular support and repression to cope with any internal threat likely in the foreseeable future; economic difficulties serious, not insurmountable. The bloc''s credits for industrial development some $357 million.'
     n: 'Memorandum From the Chairman of the Board of National Estimates (Kent) to Director of Central Intelligence Dulles, [FRUS 1961–63, X: Cuba, January 1961–September 1962, doc. 271](https://history.state.gov/historicaldocuments/frus1961-63v10/d271) (Nov. 3, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 199. Names: Dulles.'
@@ -437,6 +521,7 @@ entries:
     when: Nov. 3
     date: '1961-11-03'
     time: 1961-11-03T04:30Z
+    place: peking
     thread: china-leadership
     also: [laos]
     c: Zhou Enlai receives the delegations to the widened Geneva conference of the Laotian government (head, Quinim Pholsena) and of the Lao Patriotic Front (head, Phoumi Vongvichit).
@@ -467,9 +552,52 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 50: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 50 n.77a: A'
     tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+  - id: cal.1961-11-03.china-leadership-3
+    when: Nov. 3
+    date: '1961-11-03'
+    time: 1961-11-03T01:00Z
+    place: peking
+    thread: china-leadership
+    c: The Secretariat, 9 to 12, hears the plans for commerce and light industry.
+    n: '[[w.yang-shangkun-riji]], II, 85 (Nov. 3, 1961). The words: 上午9时到12时 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 67bb3243
+      rows:
+        - 'w.yang-shangkun-riji II, 85: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-03.china-leadership-4
+    when: Nov. 3
+    date: '1961-11-03'
+    time: 1961-11-03T07:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Zhongnanhai 中南海, the West Building 西楼, 3 to 6:40 p.m. Liu Shaoqi''s 刘少奇 forum on commerce: Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Chen Yun 陈云, Li Xiannian 李先念 and Yang Shangkun 杨尚昆.'
+    n: '[[w.yang-shangkun-riji]], II, 85–86 (Nov. 3, 1961; p. 86 n.1). The words: 下午3时至6时40分 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Chen Yun, Li Xiannian, Yang Shangkun.'
+    src:
+      c: 588b9b64
+      rows:
+        - 'w.yang-shangkun-riji II, 85–86: all'
+    tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:chen-yun, name:li-xiannian, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-03.china-leadership-5
+    when: Nov. 3
+    date: '1961-11-03'
+    time: 1961-11-03T11:00Z
+    place: peking
+    thread: china-leadership
+    c: Diaoyutai 钓鱼台, 7 p.m. Yang Shangkun 杨尚昆 and his family at the dinner of the comforting delegation 慰劳代表团, with Peking opera after; home at 10.
+    n: '[[w.yang-shangkun-riji]], II, 86 (Nov. 3, 1961; the OCR''s 奈劳 read 慰劳 on the page). The words: 7时 (II, 86). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e0c61b72
+      rows:
+        - 'w.yang-shangkun-riji II, 86: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-04.specials
     when: Nov. 4
     date: '1961-11-04'
+    place: texas
     thread: specials
     c: 'Texas 20th, special. Henry B. González (D) over Goode (R), 52,696 to 42,511, 54.6 percent, for Kilday''s seat. The first Mexican American from Texas in the House. No swing: Kilday unopposed in 1960.'
     n: 'Votes: CQ Guide 6th (2010) 1266. [[w.peirce-great-plains-states-of]], 367–68 (González elected in 1961, the first Mexican American Congressman from Texas). See [[cal.1961-04-04.states-and-cities]]. Names: González, Goode.'
@@ -489,6 +617,7 @@ entries:
     when: Nov. 4
     date: '1961-11-04'
     time: 1961-11-04T19:00Z
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: 'Cabinet Room, 2 p.m., on Cuba: Robert Kennedy, McNamara, Nitze, Lansdale, U. Alexis Johnson, Goodwin, Bissell. By Robert Kennedy''s handwritten notes, McNamara lends him Lansdale, and he sets Lansdale to survey Cuba, "the problems & our assets." His idea: "to stir things up on island with espionage, sabotage, general disorder, run & operated by Cubans themselves."'
@@ -526,6 +655,7 @@ entries:
   - id: cal.1961-11-04.vietnam-2
     when: Nov. 4
     date: '1961-11-04'
+    place: geneva
     thread: vietnam
     also: [laos]
     c: 'MacDonald from Geneva to London, of Harriman: worried by "unwise advisers" "unduly" influencing Kennedy, he has urged Nehru to press Kennedy not to escalate; "The proper solution is a peaceful negotiated one."'
@@ -569,9 +699,39 @@ entries:
     c: Zhou Enlai with the vice-premiers on the plan for adjustment in the next two years.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Nov. 4, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-04.china-leadership-2
+    when: Nov. 4
+    date: '1961-11-04'
+    time: 1961-11-04T01:00Z
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Peking Hotel 北京饭店, 9 a.m. to 1:30. Yang Shangkun 杨尚昆 and Liu Ningyi 刘宁一 talk with Ansai Kuraji 安斋库治 of the Japan Communist Party.
+    n: '[[w.yang-shangkun-riji]], II, 86 (Nov. 4, 1961; note 2: Liu Ningyi). The words: 上午9时到1时半 (II, 86). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Ningyi, Ansai Kuraji.'
+    src:
+      c: 90fe778f
+      rows:
+        - 'w.yang-shangkun-riji II, 86: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-04.china-leadership-3
+    when: Nov. 4
+    date: '1961-11-04'
+    time: 1961-11-04T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Liu Lantao 刘澜涛, 4 to 6 p.m., talks with Yang Shangkun 杨尚昆. The regional bureaus' men all in Peking but Ke Qingshi 柯庆施.
+    n: '[[w.yang-shangkun-riji]], II, 86 (Nov. 4, 1961). The words: 下午4时到6时 (II, 86). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Lantao, Yang Shangkun, Ke Qingshi.'
+    src:
+      c: 4ac8e856
+      rows:
+        - 'w.yang-shangkun-riji II, 86: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-05.japan-and-korea
     when: Nov. 5
     date: '1961-11-05'
+    place: seoul
     thread: korea
     c: 'Rusk in Seoul: Park, Yun Po-sun.'
     n: '[FRUS 1961–63, XXII, doc. 245](https://history.state.gov/historicaldocuments/frus1961-63v22/d245) (Nov. 4). See [[cal.1961-05-16.japan-and-korea]]. Names: Rusk, Park, Yun.'
@@ -597,14 +757,21 @@ entries:
   - id: cal.1961-11-05.china-leadership
     when: Nov. 5
     date: '1961-11-05'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Diaoyutai, evening. The enlarged Standing Committee with the regional first secretaries, Mao presiding: their meeting from Nov. 6 to take up the team as the accounting unit, grain, the Twenty-second Congress, and whether the National People''s Congress meets on time. Mao: at the congress Khrushchev exposed himself, peace with the enemy.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 5, 1961. Made public: 2013. Names: Mao Zedong, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 5, 1961. [[w.yang-shangkun-riji]], II, 86 (Nov. 5, 1961; at Mao''s at Diaoyutai, 9:30 p.m. to 12; four questions for the meeting: the team as the basis, grain, the Twenty-second Congress, whether to call the NPC). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 86) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Khrushchev.'
+    src:
+      c: 5189d710
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 5, 1961: all'
+        - 'w.yang-shangkun-riji II, 86: A'
     tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-11-06.vietnam
     when: Nov. 6
     date: '1961-11-06'
+    place: washington
     thread: vietnam
     c: 'Taylor''s recommendations before Taylor, McNamara, U. Alexis Johnson, Ball, Rostow, William Bundy, Bissell, Lemnitzer, Gilpatric and others. Johnson: "Can we save South Viet-Nam with steps short of putting in US forces?" Rostow: "The Vice President''s trip and the Taylor Mission lay on the need for action. There is no soft option."'
     n: '[FRUS 1961–63, I, doc. 211](https://history.state.gov/historicaldocuments/frus1961-63v01/d211). [[w.preston-war-council]], 95, 97; [[w.bissell-reflections-of-a-cold]], 150 (Bissell for Taylor''s recommendations, "action, not talk"). See [[cal.1961-11-03.vietnam]]. Names: Taylor, McNamara, U. Alexis Johnson, Ball, Rostow, William Bundy, Bissell, Lemnitzer, Gilpatric.'
@@ -644,6 +811,7 @@ entries:
   - id: cal.1961-11-06.vietnam-hanoi
     when: Nov. 6
     date: '1961-11-06'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi. The morning, Phạm Hùng, Hoàng Anh, Tố Hữu, Lê Văn Lương, Nguyễn Chí Thanh and Nguyễn Văn Trân present, on commune cadres'' pay: the state to pay three to five cadres a commune, for the Party''s and the administration''s work, 20 to 25 đồng a month, each to work in production at least 30 days a year; the half-ration allowance of the others ended. The afternoon, Phạm Hùng, Hoàng Anh and Nguyễn Văn Trân, with the Labor Youth Union''s Vũ Quang, Lê Bình and Nguyễn Văn Trọng, on the congress of the Vietnam Youth Federation: its report and statute; Phạm Huy Thông to be its chairman.'
     n: '*Thông báo Hội nghị Ban Bí thư số 14-TB/TW về chế độ đãi ngộ đối với cán bộ xã*, Nov. 24, 1961, signed by Phạm Chung, deputy head of the Central Office, [[w.van-kien-dang-toan]], XXII, 551–54 (the morning); *Thông báo Hội nghị Ban Bí thư số 13-TB/HN bàn về Đại hội liên hiệp Thanh niên Việt Nam*, Nov. 17, 1961, XXII, 540–42 (the afternoon). See [[cal.1961-07-03.vietnam-hanoi]]. Made public: 2002. Names: Phạm Hùng, Hoàng Anh, Tố Hữu, Lê Văn Lương, Nguyễn Chí Thanh, Nguyễn Văn Trân, Vũ Quang, Lê Bình, Nguyễn Văn Trọng, Phạm Huy Thông.'
@@ -654,16 +822,18 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'At the Center''s bureau first secretaries'' meeting, Nov. 6, 7, 8 and 10. On the 8th Zhou Enlai drafts "Some views on grain work": purchase, transfer and imports all risk falling short; Party committees at every level to push purchase and shipping, go on cutting town population and staff, tightly manage the free market, and aim at imports of 3 to 4 million tons next year, exporting first and selling at home after, with imports of grain before other goods. On the 10th the meeting takes up grain alone.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Nov. 6, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Nov. 6–10, 1961; Liu presides at the meeting of the first secretaries of the Central Committee''s bureaus on the system of the people''s communes, the market and grain). Made public: 1996. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Nov. 6, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Nov. 6–10, 1961; Liu presides at the meeting of the first secretaries of the Central Committee''s bureaus on the system of the people''s communes, the market and grain); [[w.yang-shangkun-riji]], II, 87 (Nov. 6, 1961; the West Building, 3 to 6:30 p.m., Liu Shaoqi presiding: the Politburo, the Secretariat and the six regional bureaus'' secretaries on the team as the basis, the six bureaus reporting). Made public: 1996. Names: Zhou Enlai.'
     src:
       c: 971e7be3
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 543: A'
+        - 'w.yang-shangkun-riji II, 87: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-11-06.china-leadership-2
     when: Nov. 6
     date: '1961-11-06'
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai and Deng Xiaoping meet Lê Duẩn, First Secretary of the Lao Động Party's Central Committee, and Xuân Thủy, a member of the Central Committee, passing through.
@@ -700,9 +870,39 @@ entries:
       - 1961-11-05T22:00Z
       - 1961-11-06T12:00Z
     time_zone: Asia/Shanghai
+  - id: cal.1961-11-06.china-leadership-5
+    when: Nov. 6
+    date: '1961-11-06'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 organizes the meeting of Peking's cadres of grade 17 and above to hear Zhou Enlai's 周恩来 report.
+    n: '[[w.yang-shangkun-riji]], II, 86 (Nov. 6, 1961). The words: 上午 (II, 86). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: 5023a6b3
+      rows:
+        - 'w.yang-shangkun-riji II, 86: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1961-11-05T22:00Z
+      - 1961-11-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-06.china-leadership-6
+    when: Nov. 6
+    date: '1961-11-06'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 settles with Deng Xiaoping 邓小平 and Peng Zhen 彭真 how the meeting of cadres of grade 17 and above is to be run.
+    n: '[[w.yang-shangkun-riji]], II, 87 (Nov. 6, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: d5839489
+      rows:
+        - 'w.yang-shangkun-riji II, 87: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1961-11-07.states-and-cities
     when: Nov. 7
     date: '1961-11-07'
+    place: nyc
     thread: elections-1961
     also: [mayors]
     c: 'Off-year elections. New York: Wagner (D) re-elected mayor over Lefkowitz (R), 1,237,421 to 835,691, 51.0 percent; Gerosa, independent, 321,604, 13.3 percent.'
@@ -717,6 +917,7 @@ entries:
   - id: cal.1961-11-07.specials
     when: Nov. 7
     date: '1961-11-07'
+    place: michigan
     thread: specials
     c: Michigan 1st, special. Nedzi (D) holds Machrowicz's seat over the Republican, 33,690 to 5,729, 85.5 percent. Swing 3.2 to R.
     n: 'Shares: Wikipedia. Votes: CQ Guide 6th (2010) 1266. See [[cal.1961-04-04.states-and-cities]]. Names: Nedzi.'
@@ -745,6 +946,7 @@ entries:
   - id: cal.1961-11-07.state-constitutions-nyc
     when: Nov. 7
     date: '1961-11-07'
+    place: nyc
     thread: state-constitutions
     also: [elections-1961]
     c: 'New York City''s voters approve a new charter, in force Jan. 1, 1963: the mayor''s powers over the budget and the city''s departments enlarged, the borough presidents'' public works moved to city departments; the City Council to have two members at large from each borough, one seat each for the minority. Check the vote.'
@@ -766,6 +968,7 @@ entries:
   - id: cal.1961-11-07.mayors-detroit
     when: Nov. 7
     date: '1961-11-07'
+    place: detroit
     thread: mayors
     also: [elections-1961]
     c: Detroit. Cavanagh, a lawyer of 33 in his first race, over Mayor Miriani in the nonpartisan election, 200,413 to 158,778, 55.8 percent, by the unofficial count; second to Miriani in the primary of September. Negro voters largely for Cavanagh.
@@ -782,6 +985,7 @@ entries:
   - id: cal.1961-11-07.mayors-cleveland
     when: Nov. 7
     date: '1961-11-07'
+    place: cleveland
     thread: mayors
     also: [elections-1961]
     c: Cleveland. Celebrezze (D) a fifth term over Albina Cermak (R), the first woman to run for mayor of the city, 145,972 to 53,302, 73.3 percent.
@@ -797,6 +1001,7 @@ entries:
   - id: cal.1961-11-07.governors-nj
     when: Nov. 7
     date: '1961-11-07'
+    place: new-jersey
     thread: governors
     also: [elections-1961]
     c: New Jersey. Hughes (D) governor over Mitchell (R), 1,084,194 to 1,049,274, 50.4 percent.
@@ -812,6 +1017,7 @@ entries:
   - id: cal.1961-11-07.mayors-pittsburgh
     when: Nov. 7
     date: '1961-11-07'
+    place: pittsburgh
     thread: mayors
     also: [elections-1961]
     c: Pittsburgh. Barr (D), mayor since 1959, elected to a full term over the Republican, an insurance agent, 124,082 to 60,522, 67.2 percent.
@@ -827,6 +1033,7 @@ entries:
   - id: cal.1961-11-07.governors-va
     when: Nov. 7
     date: '1961-11-07'
+    place: virginia
     thread: governors
     also: [elections-1961]
     c: 'Virginia: Harrison (D) elected governor over Pearson (R), a former delegate, 251,861 to 142,567, 63.8 percent. Godwin lieutenant governor.'
@@ -842,6 +1049,7 @@ entries:
   - id: cal.1961-11-07.mayors-louisville
     when: Nov. 7
     date: '1961-11-07'
+    place: louisville
     thread: mayors
     also: [elections-1961]
     c: 'Louisville: Cowger (R) elected mayor, succeeding Hoblitzell (D); Schmied (R) to the board of aldermen, its president (Check: the opponent and the vote).'
@@ -857,6 +1065,7 @@ entries:
   - id: cal.1961-11-07.mayors-springfield
     when: Nov. 7
     date: '1961-11-07'
+    place: springfield-ma
     thread: mayors
     also: [elections-1961]
     c: Springfield, Mass., the city's first nonpartisan election for mayor. Ryan over O'Connor, mayor since 1958 and the Democrats' nominee against Saltonstall in 1960, 28,999 to 26,471, 52.3 percent. O'Connor had led Ryan in the primary of Oct. 10, 14,563 to 9,295, 34.5 percent.
@@ -907,6 +1116,7 @@ entries:
   - id: cal.1961-11-07.state-constitutions
     when: Nov. 7
     date: '1961-11-07'
+    place: new-york-state
     thread: state-constitutions
     c: New York's voters narrowly reject Rockefeller's bond issue of $500 million for the State University.
     n: '[[w.smith-on-his-own-terms]], 375 (the Housing Finance Agency''s moral obligation bonds, Mitchell''s device, after it). Check: the count (the State''s canvass). See [[cal.1961-11-07.states-and-cities]]. Names: Rockefeller.'
@@ -937,23 +1147,40 @@ entries:
   - id: cal.1961-11-07.china-leadership
     when: Nov. 7
     date: '1961-11-07'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Soviet Embassy. Zhou Enlai attends the reception given by Chervonenko, the Soviet Ambassador, for the 44th anniversary of the October Revolution.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 7, 1961; 晚上). Names: Zhou Enlai, Chervonenko.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 7, 1961; 晚上); [[w.yang-shangkun-riji]], II, 87 (Nov. 7, 1961; 6 to 8 p.m.; kept cool this year: Zhu De, Zhou, Chen Yi and some cadres, about 100 Chinese, Yang among them by the Center''s choice; Chen Yi speaks (note 1)). Names: Zhou Enlai, Chervonenko.'
     src:
       c: c1d94c73
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
+        - 'w.yang-shangkun-riji II, 87: A-B'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v]
     time_range:
       - 1961-11-07T11:00Z
       - 1961-11-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-11-07.china-leadership-2
+    when: Nov. 7
+    date: '1961-11-07'
+    time: 1961-11-07T01:00Z
+    place: peking
+    thread: china-leadership
+    c: The Huairen Tang 怀仁堂, the back hall, 9 to 12 and 3 to 5. The work conference on the team as the basis 队为基础.
+    n: '[[w.yang-shangkun-riji]], II, 87 (Nov. 7, 1961). The words: 上午9时到12时，下午3时到5时 (II, 87). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-06.china-leadership]].'
+    src:
+      c: efb389b1
+      rows:
+        - 'w.yang-shangkun-riji II, 87: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-08.vietnam
     when: Nov. 8
     date: '1961-11-08'
+    place: washington
     thread: vietnam
     c: McNamara, Gilpatric, and the Chiefs advise a commitment, with troops; up to six divisions.
     n: '[FRUS 1961–63, I, doc. 227](https://history.state.gov/historicaldocuments/frus1961-63v01/d227). [[w.gibbons-u-s-government-and]], II, 86–87, 89; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 272–73 (McNamara, for the Chiefs too; six divisions); [[w.futrell-united-states-air-force]], 88; [[w.preston-war-council]], 96; [[w.mcnamara-in-retrospect]], ch. 2 at n.12 (the memorandum, for the Chiefs and Gilpatric: "inclined to recommend" the commitment and the means). [[w.ball-past-has-another-pattern]], 367 (the conclusions; six divisions, about 205,000 men); [[w.bernstein-guns-or-butter]], 335 (McNamara with the Chiefs: South Vietnam''s fall a domino; a limited commitment; dated only 1961); [[w.taylor-swords-and-plowshares]], 246 (the memorandum of McNamara and the Chiefs; six divisions); [[w.mann-grand-delusion]], 248 (McNamara to Kennedy, in a memorandum Mann dates Nov. 5: the fall of South Vietnam would be a serious blow, "the introduction of U.S. forces on a substantial scale" needed, as many as 220,000 men at the upper limit, an initial force of under ten thousand "will not convince the other side"; not Gilpatric or the Chiefs). Check: Taylor dates the memorandum the day after his talk with Rusk and McNamara of Nov. 6 ([[w.taylor-swords-and-plowshares]], 246). Check: Mann, 248, dates McNamara''s memorandum to Kennedy Nov. 5; the entry has Nov. 8. To check: [[w.kaiser-american-tragedy]]. See [[cal.1961-01-28.vietnam]]. Names: McNamara, Gilpatric.'
@@ -988,6 +1215,7 @@ entries:
   - id: cal.1961-11-08.cuba
     when: Nov. 8
     date: '1961-11-08'
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: Szulc of the New York Times, brought by Goodwin, with Robert Kennedy off the record on Cuba after the invasion; by Szulc's account, nothing said of assassination. Robert Kennedy asks him to see the President.
@@ -1009,6 +1237,7 @@ entries:
     when: Nov. 8
     date: '1961-11-08'
     time: 1961-11-08T21:00Z
+    place: washington
     thread: japan
     also: [women, south-asia]
     c: 'News conference, the State Department auditorium. The Joint Committee on Trade and Economic Affairs'' meeting in Japan; the merchandise surplus with Japan, $433 million in the first six months. Equal pay for women: "Well, I''m sure we haven''t done enough. I must say I am a strong believer in equal pay for equal work." No question on Vietnam. After Nehru''s visit, asked whether Nehru works for the Communist movement: "I know of no rational man in the United States who holds that view"; differences of policy, geography dictating some.'
@@ -1045,9 +1274,39 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 209: all'
     tags: [polity:prc, polity:drv, polity:us, name:chen-yi]
+  - id: cal.1961-11-08.china-leadership
+    when: Nov. 8
+    date: '1961-11-08'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 organizes the next day's report meeting.
+    n: '[[w.yang-shangkun-riji]], II, 87 (Nov. 8, 1961). The words: 上午 (II, 87). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-06.china-leadership-5]]. Names: Yang Shangkun.'
+    src:
+      c: c6a876cb
+      rows:
+        - 'w.yang-shangkun-riji II, 87: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-07T22:00Z
+      - 1961-11-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-08.china-leadership-2
+    when: Nov. 8
+    date: '1961-11-08'
+    time: 1961-11-08T07:00Z
+    thread: china-leadership
+    c: 'The work conference, 3 to 6 p.m.: Li Xiannian 李先念 and Zhou Enlai 周恩来 on grain.'
+    n: '[[w.yang-shangkun-riji]], II, 87 (Nov. 8, 1961). The words: 下午3时到6时 (II, 87). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-06.china-leadership]]. Names: Li Xiannian, Zhou Enlai.'
+    src:
+      c: 5b2ffc86
+      rows:
+        - 'w.yang-shangkun-riji II, 87: all'
+    tags: [polity:prc, name:li-xiannian, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-09.legislatures-ny
     when: Nov. 9–10
     date: '1961-11-09'
+    place: albany
     thread: legislatures
     also: [defense]
     c: Special session at Albany, N.Y., called by Rockefeller. New congressional districts on the 1960 census, the State's seats down from 43 to 41, the city's delegation by three. State aid for fallout shelters in schools and colleges (Check the sums).
@@ -1063,6 +1322,7 @@ entries:
   - id: cal.1961-11-09.cuba
     when: Nov. 9
     date: '1961-11-09'
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: 'Szulc, with Goodwin, an hour with the President in the Oval Office. By Szulc''s notes, Kennedy asks, "What would you think if I ordered Castro to be assassinated?" Szulc against it; Kennedy: he was testing him, and "under terrific pressure from advisers (think he said intelligence people, but not positive) to okay a Castro murder." By Goodwin''s account, a day or two later: "If we get into that kind of thing, we''ll all be targets."'
@@ -1121,6 +1381,7 @@ entries:
     when: Nov. 9
     date: '1961-11-09'
     time: 1961-11-09T21:36Z
+    place: washington
     thread: vietnam
     also: [laos]
     c: 'State, 4:36 p.m., by Lemnitzer''s notes, on the draft for the President. Rusk "leans strongly toward introducing administrators, MAAG, etc.—it does not commit US as does combat forces." Harriman: "If you put in troops there is no real negotiation possible with Russians."'
@@ -1149,6 +1410,7 @@ entries:
   - id: cal.1961-11-09.soviet-union
     when: Nov. 9
     date: '1961-11-09'
+    place: moscow
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'Khrushchev to Kennedy, privately: "I am writing not to argue with you"; the West would have the Soviet Union "assume the responsibilities of traffic policemen"; no free air corridors to a free West Berlin, the planes to land in East Germany; "I have no ground to retreat further, there is a precipice behind."'
@@ -1189,6 +1451,7 @@ entries:
   - id: cal.1961-11-09.vietnam-hanoi
     when: Nov. 9
     date: '1961-11-09'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 30-CT/TW, under the Politburo''s resolution of July 19: credit and cash management better in the third quarter, but the imbalance between money in circulation and goods still serious; credit, money and savings work to be strengthened.'
     n: '*Chỉ thị của Ban Bí thư số 30-CT/TW về việc tăng cường công tác tiền tệ, tín dụng và huy động tiết kiệm*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 508–11. See [[cal.1961-07-19.vietnam-hanoi]]. Made public: 2002.'
@@ -1196,6 +1459,7 @@ entries:
   - id: cal.1961-11-09.vietnam-hanoi-2
     when: Nov. 9
     date: '1961-11-09'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 31-CT/TW on finance, trade and banking. The year began with grain and food short and prices jumping; the winter-spring crop of 1960–61, rice, corn, sweet potatoes and cassava together, over 60 percent above 1960''s, the autumn rice 135,000 tons; food steadier in recent months. Its aims: more goods and less consumption; the cash deficit cut to the lowest, money in step with goods; exports pressed for machines and materials, the import surplus cut; the budget balanced, a little surplus by the year''s end.'
     n: '*Chỉ thị của Ban Bí thư số 31-CT/TW về việc tăng cường lãnh đạo công tác tài chính - mậu dịch - ngân hàng*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 512–29. Made public: 2002.'
@@ -1203,14 +1467,21 @@ entries:
   - id: cal.1961-11-09.china-leadership
     when: Nov. 9–10
     date: '1961-11-09'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai, Nov. 9 and 10, reports on the CPSU's 22nd Congress to cadres of rank 17 and above in the central and State organs, calling on them to work hard, rely on themselves and in ten or twenty years make China strong.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 9, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 9, 1961); [[w.yang-shangkun-riji]], II, 87–88 (Nov. 9–10, 1961; the Great Hall, 9 to 12 and 3:30 to 6:30 on the 9th, 10 to 12 on the 10th; seven parts: the dispute since the Twentieth Congress (note 1: Feb. 14–25, 1956) and the course of the Twenty-second; Albania; Stalin; the world and peaceful coexistence; the CPSU''s Program; Khrushchev and the rest; the Party''s line; four parts in five and a half hours on the 9th). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 9d5e00ab
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 442: ?'
+        - 'w.yang-shangkun-riji II, 87–88: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-11-10.health-ct
     when: Nov. 10
     date: '1961-11-10'
+    place: new-haven
     thread: health
     also: [court]
     c: Griswold and Buxton arrested at New Haven, as accessories under Connecticut's law of 1879.
@@ -1250,6 +1521,19 @@ entries:
     also: [antisubversion]
     c: The National Security Agency's director of personnel resigns, effective Nov. 10, ordered to by the Defense Department. The House Un-American Activities Committee says he had falsified his Form 57 and tried to cover it up by substituting a corrected version.
     n: '[[w.huac-security-practices-nsa]], 10–12, 18 (measure 18, the resignation "effective November 10, 1961"; the Defense Department''s own inquiry into the form, 11–12; the report does not name him; the director of security and two others in the Office of Security Services "also ordered to resign for misconduct," no day: not entered).'
+  - id: cal.1961-11-10.china-leadership
+    when: Nov. 10
+    date: '1961-11-10'
+    time: 1961-11-10T08:00Z
+    thread: china-leadership
+    c: The work conference, 4 to 7 p.m., on grain.
+    n: '[[w.yang-shangkun-riji]], II, 88 (Nov. 10, 1961). The words: 下午4时一7时 (II, 88). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-06.china-leadership]].'
+    src:
+      c: acaefe0a
+      rows:
+        - 'w.yang-shangkun-riji II, 88: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-11.vietnam
     when: Nov. 11
     date: '1961-11-11'
@@ -1312,6 +1596,7 @@ entries:
   - id: cal.1961-11-11.vietnam-2
     when: Nov. 11
     date: '1961-11-11'
+    place: washington
     thread: vietnam
     c: 'Rostow to Kennedy, the morning Rusk tables his proposal, short of American forces now: the case for "some minimal U.S. ground force in Viet Nam as part of the initial package."'
     n: '[FRUS 1961–63, I, doc. 233](https://history.state.gov/historicaldocuments/frus1961-63v01/d233). [[w.preston-war-council]], 97. See [[cal.1961-11-11.vietnam]]. Names: Rostow, Kennedy, Rusk.'
@@ -1347,6 +1632,7 @@ entries:
   - id: cal.1961-11-11.cuba
     when: Nov. 11
     date: '1961-11-11'
+    place: havana
     thread: cuba
     also: [soviet-union]
     c: 'Alekseyev, the KGB''s man in Havana, to Moscow: "From reliable sources, the U.S. is preparing [an] intervention against Cuba for the end of November or the beginning of December and, from other data, for January 1962." Castro''s arms request stays tabled.'
@@ -1384,9 +1670,22 @@ entries:
         - 'via x.1961-11-04.xinhua-neibu-cankao-international-ed-no-195-leningrad: all'
         - 'via x.1961-11-08.xinhua-neibu-cankao-international-ed-no-200-bulgarians-admire-mao: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-11-11.china-leadership-2
+    when: Nov. 11
+    date: '1961-11-11'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Yang Shangkun 杨尚昆 reads the full text of Hoxha''s 霍查 report for the Albanian Party''s twentieth anniversary: a strong exposure of Khrushchev 赫鲁晓夫, many facts made public. Whether to print it is for the Standing Committee.'
+    n: '[[w.yang-shangkun-riji]], II, 88 (Nov. 11, 1961; note 2: Hoxha). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hoxha, Khrushchev.'
+    src:
+      c: 777cf106
+      rows:
+        - 'w.yang-shangkun-riji II, 88: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-11-12.vietnam
     when: Nov. 12
     date: '1961-11-12'
+    place: washington
     thread: vietnam
     also: [laos]
     c: 'Harriman to Kennedy, his draft memorandum of Nov. 11 attached: a "diplomatic-political course" in Vietnam, to avoid heavy military commitments and keep South Vietnam; the Laos settlement first. Rusk''s comment: "It is a matter of timing."'
@@ -1412,21 +1711,29 @@ entries:
   - id: cal.1961-11-12.china-leadership
     when: Nov. 12
     date: '1961-11-12'
+    place: peking
     thread: china-leadership
     c: 'Diaoyutai, evening. The enlarged Standing Committee hears Deng Xiaoping and others on the regional secretaries'' meeting. Mao: no National People''s Congress session; instead, after the work conference of Dec. 20, a meeting of county secretaries, two a county, three a prefecture, four a province and a bureau, reporting Jan. 8: a small rectification; the center''s mistakes of these years to be told, "we bare our hearts first"; discipline, the whole before the part; ten days.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 12, 1961. Made public: 2013. Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 12, 1961. [[w.yang-shangkun-riji]], II, 89 (Nov. 12, 1961; at Mao''s at Diaoyutai, 9:10 p.m. to 12:30, the regions'' men present; the work conference ends). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 89) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Deng Xiaoping.'
+    src:
+      c: 53c8eb9e
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 12, 1961: all'
+        - 'w.yang-shangkun-riji II, 89: A'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-11-12.china-leadership-2
     when: Nov. 12
     date: '1961-11-12'
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi, indonesia]
     c: Peking. Zhou Enlai goes to the airport to meet Hồ Chí Minh, head of the Lao Động Party's delegation, and Aidit, head of the Indonesian delegation, on their way home from the CPSU's 22nd Congress.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 12, 1961; 下午). Names: Zhou Enlai, Hồ Chí Minh, Aidit.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 12, 1961; 下午); [[w.yang-shangkun-riji]], II, 89 (Nov. 12, 1961; the Eastern Suburb airport, 2:30 p.m.: Hồ Chí Minh and Aidit; Yang takes Hồ to Diaoyutai, Building 6). Names: Zhou Enlai, Hồ Chí Minh, Aidit.'
     src:
       c: 1c4b6b1a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
+        - 'w.yang-shangkun-riji II, 89: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, name:aidit-dipa-nusantara]
     time_range:
       - 1961-11-12T04:00Z
@@ -1436,6 +1743,7 @@ entries:
   - id: cal.1961-11-13.robert-kennedy
     when: Nov. 13
     date: '1961-11-13'
+    place: nyc
     thread: robert-kennedy
     c: 'New York, the Economic Club: Robert Kennedy, "Vigorous Antitrust Enforcement Assists Business." His jokes fall flat; the applause, by Guthman''s account, "scarcely perfunctory."'
     n: '["Vigorous Antitrust Enforcement Assists Business"](https://www.justice.gov/ag/rfkspeeches/1961/11-13-1961.pdf) (Nov. 13, 1961). [[w.schlesinger-robert-kennedy-and-his]], 402; [[w.guthman-we-band-of-brothers]], 236–38. Names: Robert Kennedy, Guthman.'
@@ -1514,6 +1822,7 @@ entries:
   - id: cal.1961-11-13.vietnam-hanoi
     when: Nov. 13
     date: '1961-11-13'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi: resolution no. 30-NQ/TW on the Party''s organization in the army, after the resolutions of 1952 and 1955 and the directives of 1957 and 1960, for the army''s new brigades, arms and services and the local commands: a Party committee in each brigade, under the Central Military Committee; Party organizations in the arms and services and in the provincial and city commands; control commissions at every level in the army.'
     n: '*Nghị quyết của Bộ Chính trị số 30-NQ/TW về một số vấn đề về tổ chức đảng trong quân đội*, signed for the Politburo by Nguyễn Chí Thanh. [[w.van-kien-dang-toan]], XXII, 530–35. Made public: 2002. Names: Nguyễn Chí Thanh.'
@@ -1521,6 +1830,7 @@ entries:
   - id: cal.1961-11-13.vietnam-hanoi-2
     when: Nov. 13
     date: '1961-11-13'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 32-CT/TW, pressing the movement to protect public order, "a broad mass campaign" by directive no. 186 of Feb. 17, 1960.'
     n: '*Chỉ thị của Ban Bí thư số 32-CT/TW về việc đẩy mạnh phong trào bảo vệ trị an*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 536–39. See [[cal.1960-02-17.vietnam-hanoi]]. Made public: 2002.'
@@ -1537,9 +1847,53 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 209: all'
     tags: [polity:prc, polity:syria, name:liu-shaoqi, name:tarazi-salah-al-din]
+  - id: cal.1961-11-13.china-leadership
+    when: Nov. 13
+    date: '1961-11-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃 on discussing the Twenty-second Congress.
+    n: '[[w.yang-shangkun-riji]], II, 89 (Nov. 13, 1961; note 1: 老邓, Deng Diantao). The words: 上午 (II, 89). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
+    src:
+      c: 54d51de8
+      rows:
+        - 'w.yang-shangkun-riji II, 89: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-12T22:00Z
+      - 1961-11-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-13.china-leadership-2
+    when: Nov. 13
+    date: '1961-11-13'
+    time: 1961-11-13T08:00Z
+    thread: china-leadership
+    c: 'The Secretariat, 4 p.m., arranges the work of December and January: the next work conference on Dec. 20; in January 1962 a meeting of the responsible men of the provinces, prefectures, cities and counties.'
+    n: '[[w.yang-shangkun-riji]], II, 89 (Nov. 13, 1961). The words: 下午4时 (II, 89). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 9fc2c6ac
+      rows:
+        - 'w.yang-shangkun-riji II, 89: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-13.china-leadership-3
+    when: Nov. 13
+    date: '1961-11-13'
+    time: 1961-11-13T12:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 8 to 12 p.m., talks with Liu Lantao 刘澜涛, Zhang Yinwu 张荫吾, Tian Jiaying 田家英 and He Jun 何均.
+    n: '[[w.yang-shangkun-riji]], II, 89 (Nov. 13, 1961; the OCR''s 张萌寿 read 张荫吾 on the page). The words: 8时到12时 (II, 89). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Lantao, Zhang Yinwu, Tian Jiaying, He Jun.'
+    src:
+      c: a3b7385f
+      rows:
+        - 'w.yang-shangkun-riji II, 89: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-14.japan-and-korea
     when: Nov. 14–16
     date: '1961-11-14'
+    place: washington
     thread: korea
     also: [vietnam]
     c: 'Park in Washington, by way of Tokyo and Ikeda. With Kennedy, Nov. 14: the pledge of civilian rule in the summer of 1963 renewed; American aid for the Five-Year Plan. Park offers Korean troops, or volunteers, for Vietnam. Rusk, Nov. 16: the United States will do what the President said.'
@@ -1569,6 +1923,7 @@ entries:
   - id: cal.1961-11-14.vietnam
     when: Nov. 14
     date: '1961-11-14'
+    place: washington
     thread: vietnam
     c: 'Robert H. Johnson to Rostow on the draft action memorandum of Nov. 13: "I fear that we are losing a strategic moment for the introduction of U.S. troop units"; "A plate glass window on the 17th parallel or a flood relief task force could make a great political difference."'
     n: '[FRUS 1961–63, I, doc. 250](https://history.state.gov/historicaldocuments/frus1961-63v01/d250). [[w.preston-war-council]], 98. Names: Robert H. Johnson, Rostow.'
@@ -1588,6 +1943,7 @@ entries:
   - id: cal.1961-11-14.vietnam-2
     when: Nov. 14
     date: '1961-11-14'
+    place: washington
     thread: vietnam
     c: 'Rostow to Kennedy, "Negotiation about VietNam": the aim to make the Communists stop the infiltration and go back to the Geneva Accords; whether to negotiate formally with the bloc before acting.'
     n: '[FRUS 1961–63, I, doc. 251](https://history.state.gov/historicaldocuments/frus1961-63v01/d251). [[w.preston-war-council]], 97 (Rostow''s memoranda after the decision); [[w.reeves-president-kennedy]], 258–59 (Rostow against talk before acting, quoted). Names: Rostow, Kennedy.'
@@ -1613,6 +1969,7 @@ entries:
   - id: cal.1961-11-14.program
     when: Nov. 14
     date: '1961-11-14'
+    place: washington
     thread: program
     c: 'Kennedy to the trustees and advisory committee of the National Cultural Center, at the White House, Stevens their chairman: Washington, unlike London, Paris, Rome and Moscow, no center of the nation''s cultural life; the Center "this is where it must be done."'
     n: 'Remarks to the Trustees and Advisory Committee of the National Cultural Center, [1961 Pub. Papers 719](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=777) (Nov. 14, 1961). [[w.bernstein-guns-or-butter]], 441 (the trustees and the advisory committee at the White House for a concert). See [[cal.1961-03-09.program]]. Names: Kennedy.'
@@ -1631,6 +1988,7 @@ entries:
   - id: cal.1961-11-14.vietnam-3
     when: Nov. 14
     date: '1961-11-14'
+    place: bien-hoa
     thread: vietnam
     c: 'Jungle Jim at Biên Hòa: elements of the 4400th Detachment, about 230 men, eight T-28s refitted for counterinsurgency among a few World War II aircraft; 67 more at Tân Sơn Nhứt. From mid-November American aircraft fly reconnaissance and photographic missions.'
     n: '[[w.schulimson-joint-chiefs-of-staff]], 147.'
@@ -1671,6 +2029,7 @@ entries:
   - id: cal.1961-11-14.china-leadership-4
     when: Nov. 14
     date: '1961-11-14'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Zhou Enlai at Peking Hospital, at the leave-taking of the body of Peng Tao, Minister of Chemical Industry and Deputy Director of the Planning Commission; on the 17th he presides at the public memorial.
@@ -1679,26 +2038,47 @@ entries:
   - id: cal.1961-11-14.china-leadership-5
     when: Nov. 14
     date: '1961-11-14'
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai, with Mao Zedong, Liu Shaoqi and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Lao Động Party's Central Committee, and dines with him.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 14, 1961; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Nov. 14, 1961; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Vietnam Workers'' Party Central Committee); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 209 (Nov. 14, 1961; Mao, Liu, Zhou and Deng Xiaoping receive Ho Chi Minh, chairman of the Lao Động Party''s Central Committee, passing through Peking on the way home from the CPSU''s 22nd Congress). Made public: 1993. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 14, 1961; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Nov. 14, 1961; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Vietnam Workers'' Party Central Committee); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 209 (Nov. 14, 1961; Mao, Liu, Zhou and Deng Xiaoping receive Ho Chi Minh, chairman of the Lao Động Party''s Central Committee, passing through Peking on the way home from the CPSU''s 22nd Congress); [[w.yang-shangkun-riji]], II, 89 (Nov. 14, 1961; Mao gives Hồ dinner and talks with him, 5:30 to 8 p.m.; Yang present). Made public: 1993. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Hồ Chí Minh.'
     src:
       c: 46f52217
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 543: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 209: B'
+        - 'w.yang-shangkun-riji II, 89: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:ho-chi-minh, vis:only:prc+drv]
     time_range:
       - 1961-11-14T04:00Z
       - 1961-11-14T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-11-14.china-leadership-6
+    when: Nov. 14
+    date: '1961-11-14'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Diaoyutai 钓鱼台, Building 6. Hồ Chí Minh 胡志明 has Yang Shangkun 杨尚昆 to lunch; Deng Yingchao 邓颖超 there; back at 2.
+    n: '[[w.yang-shangkun-riji]], II, 89 (Nov. 14, 1961). The words: 中午 (II, 89). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hồ Chí Minh, Yang Shangkun, Deng Yingchao.'
+    src:
+      c: 89180cdd
+      rows:
+        - 'w.yang-shangkun-riji II, 89: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    time_range:
+      - 1961-11-14T04:00Z
+      - 1961-11-14T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-15.vietnam
     when: Nov. 15
     date: '1961-11-15'
     time: 1961-11-15T15:00Z
+    place: washington
     thread: vietnam
     c: 'NSC, 10 a.m., on Rusk''s draft memorandum on South Vietnam. Kennedy fears being involved on two fronts at once; Vietnam not Korea, its issue obscure; he could make "a rather strong case against intervening in an area 10,000 miles away against 16,000 guerrillas with a native army of 200,000." McNamara: action would become clear if American forces went in, against the sources of Viet Cong power, those in North Vietnam among them. The contrast with Berlin "could even make leading Democrats wary."'
     n: '[FRUS 1961–63, I, doc. 254](https://history.state.gov/historicaldocuments/frus1961-63v01/d254) (notes, probably by Burris). [[w.miller-misalliance]], 229 (Kennedy against the troops; the rest of the partnership endorsed); [[w.mcnamara-in-retrospect]], ch. 2 at n.15. [[w.selverstone-kennedy-withdrawal]], 46 (the meeting; the two fronts); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 273. [[w.reeves-president-kennedy]], 259–60 (the NSC; Kennedy''s case against intervening). [[w.mann-grand-delusion]], 250 (Kennedy; the Democrats). To check: Kennedy to Rusk and McNamara, Nov. 14, 1961, President''s Office Files, box 128, Kennedy Library (cited by [[w.reeves-president-kennedy]], 259). See [[cal.1961-11-11.vietnam]]. Names: Kennedy, Rusk, McNamara.'
@@ -1722,6 +2102,7 @@ entries:
   - id: cal.1961-11-15.vietnam-2
     when: Nov. 15
     date: '1961-11-15'
+    place: washington
     thread: vietnam
     c: 'Bundy to Kennedy, after the President asked him at the swimming pool: "I believe we should commit limited U.S. combat units, if necessary for military purposes (not for morale), to help save South Vietnam"; about a division, when needed; "a sort of touchstone of our will."'
     n: '[FRUS 1961–63, I, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v01/d253). [[w.preston-war-council]], 99–100. See [[cal.1961-11-15.vietnam]]. Names: Bundy, Kennedy.'
@@ -1757,9 +2138,39 @@ entries:
     c: 'Lansdale to Robert Kennedy, outlining the Mongoose proposal: a "picture of the situation has emerged clearly enough to indicate what needs to be done and to support your sense of urgency concerning Cuba."'
     n: '[[w.sen-church-alleged-assassination-plots]], 139 (Memo, Nov. 15, 1961; the Committee''s text gives "November 1962" for the proposal''s year, its notes 1961). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Memo, Lansdale to Robert Kennedy, Nov. 15, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 139). See [[cal.1961-11-01.cuba]]. Names: Lansdale, Robert Kennedy.'
     tags: [name:lansdale-edward-g, name:kennedy-robert-f]
+  - id: cal.1961-11-15.china-leadership
+    when: Nov. 15
+    date: '1961-11-15'
+    time: 1961-11-15T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 9 a.m. Yang Shangkun 杨尚昆 at the placing of Peng Tao 彭涛 in his coffin.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 15, 1961; note 1: Peng Tao, Minister of the Chemical Industry, d. Peking, Nov. 14). The words: 上午9时 (II, 90). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-14.china-leadership-4]]. Names: Yang Shangkun, Peng Tao.'
+    src:
+      c: 50880b84
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-15.china-leadership-2
+    when: Nov. 15
+    date: '1961-11-15'
+    time: 1961-11-15T01:30Z
+    place: peking
+    thread: china-leadership
+    also: [indonesia, soviet-union]
+    c: Yangfeng Jiadao 养蜂夹道, 9:30 a.m. to 2. Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Liu Ningyi 刘宁一 talk with Aidit 艾地, chiefly on the CPSU's Twenty-second Congress; Yang Shangkun 杨尚昆 present; to go on next day.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 15, 1961). The words: 9时半到下午2时 (II, 90). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Deng Xiaoping, Liu Ningyi, Aidit, Yang Shangkun.'
+    src:
+      c: b06f0cb7
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:aidit-dipa-nusantara, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-16.congress
     when: Nov. 16
     date: '1961-11-16'
+    place: bonham
     thread: congress
     c: Rayburn dies at Bonham. Kennedy, Johnson, Truman, and Eisenhower at the funeral.
     n: 'Statement by the President on the Death of Sam Rayburn, [1961 Pub. Papers 724](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=782). CQ Almanac 1961 and 1962 (K–J Cong. II.L). [[w.sorensen-kennedy]], 355–56 (Rayburn''s death); [[w.reeves-president-kennedy]], 266 (the funeral at Bonham, Nov. 18; Kennedy; the others not named); [[w.albert-little-giant-1990]], 251–52 (Rayburn dies at Bonham, early on Nov. 16, 1961; Truman, Eisenhower, Kennedy and Johnson at the funeral); [[w.obrien-no-final-victories]], 115 (the funeral at Bonham, Nov. 18: the President, with O''Brien, from California; the Vice President, Eisenhower and Truman; Rayburn dies at his farm, not the day; McCormack succeeds as Speaker). To check: [[w.hardeman-rayburn]]; [[w.nelson-john-william-mccormack]]; [[w.ripley-majority-party-leadership-in]]; [[w.macneil-forge-of-democracy]]. Names: Rayburn, McCormack, Albert, Johnson, Truman, Eisenhower.'
@@ -1794,6 +2205,7 @@ entries:
   - id: cal.1961-11-16.vietnam
     when: Nov. 16
     date: '1961-11-16'
+    place: washington
     thread: vietnam
     c: 'Hilsman to Rusk on Taylor''s recommendations: "the most effective way of meeting a guerrilla threat like that of the Viet Cong is not with regular troops," but civic action, intelligence, police work and constabulary-like forces.'
     n: '[FRUS 1961–63, I, doc. 259](https://history.state.gov/historicaldocuments/frus1961-63v01/d259). [[w.preston-war-council]], 95. Names: Hilsman, Rusk, Taylor.'
@@ -1837,6 +2249,7 @@ entries:
   - id: cal.1961-11-16.vietnam-2
     when: Nov. 16
     date: '1961-11-16'
+    place: bien-hoa
     thread: vietnam
     c: Farm Gate operationally ready at Biên Hòa; Felt tasks it with tactical training and pilot upgrading for the Vietnamese. Four B-26s reach Biên Hòa near the end of December.
     n: '[[w.futrell-united-states-air-force]], 81–82. See [[cal.1961-11-05.vietnam]]. Names: Felt.'
@@ -1864,18 +2277,21 @@ entries:
   - id: cal.1961-11-16.china-leadership
     when: Nov. 16
     date: '1961-11-16'
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai and Deng Xiaoping and others go to the airport to see off Hồ Chí Minh.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 16, 1961). Names: Zhou Enlai, Deng Xiaoping, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 16, 1961); [[w.yang-shangkun-riji]], II, 90 (Nov. 16, 1961; the Western Suburb airport, 9:30 a.m.; Yang sees Hồ Chí Minh off to Vietnam). Names: Zhou Enlai, Deng Xiaoping, Hồ Chí Minh.'
     src:
       c: 5b70c6d4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
+        - 'w.yang-shangkun-riji II, 90: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:deng-xiaoping, name:ho-chi-minh]
   - id: cal.1961-11-16.china-leadership-2
     when: Nov. 16
     date: '1961-11-16'
+    place: conghua
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi goes to Conghua, Guangdong, to recuperate. He returns to Peking Dec. 19.
@@ -1893,9 +2309,43 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 209: all'
     tags: [polity:prc, polity:cuba, polity:us, name:chen-yi]
+  - id: cal.1961-11-16.china-leadership-3
+    when: Nov. 16
+    date: '1961-11-16'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Lai Zulie 赖祖烈 on preparing the January work conference.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 16, 1961; note 3: the enlarged Central Work Conference, Peking, Jan. 11–Feb. 7, 1962, the Seven Thousand Cadres Conference). The words: 上午9时半 (II, 90). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lai Zulie.'
+    src:
+      c: 0b0ff842
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-15T22:00Z
+      - 1961-11-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-16.china-leadership-4
+    when: Nov. 16
+    date: '1961-11-16'
+    time: 1961-11-16T07:30Z
+    place: peking
+    thread: china-leadership
+    also: [indonesia, soviet-union]
+    follows:
+      - cal.1961-11-16.china-leadership-3
+    c: Yangfeng Jiadao 养蜂夹道, 3:30 to 8 p.m. The talks with Aidit 艾地 go on; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 16, 1961). The words: 下午3时半到8时 (II, 90). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-15.china-leadership-2]]. Names: Aidit, Yang Shangkun.'
+    src:
+      c: 19bd4dee
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc, name:aidit-dipa-nusantara, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-17.albany
     when: Nov. 17
     date: '1961-11-17'
+    place: albany-ga
     thread: georgia-albany
     also: [desegregation-public-places, civil-rights-organizations]
     c: 'Albany Movement formed: SNCC, the NAACP, the ministers. William G. Anderson president.'
@@ -1918,6 +2368,7 @@ entries:
     when: Nov. 17
     date: '1961-11-17'
     time: 1961-11-17T09:00Z
+    place: saigon
     thread: vietnam
     c: 'Nolting to Diệm, 5 p.m.: Kennedy''s decisions on the Taylor report, a partnership; more American help, reforms of the government asked. Diệm''s first question, combat troops. Vietnam "did not want to be a protectorate."'
     n: '[FRUS 1961–63, I, doc. 266](https://history.state.gov/historicaldocuments/frus1961-63v01/d266) (Nolting, Nov. 18). [[w.miller-misalliance]], 229–30; [[w.moyar-triumph-forsaken]], 143 (the demands presented; "Vietnam does not want to be a protectorate"); [[w.sorensen-kennedy]], 655 (the separate message on the reforms, based on the Taylor report); [[w.mann-grand-delusion]], 251–52 (Diệm balks at the reforms urged on him: "Vietnam, he said, did not want to be a protectorate," Nolting reports to State Nov. 18 after a long conversation with him; not the hour, the decisions put to him or his question on combat troops). To check: Saigon to State, Nov. 18, 1961, NA II, RG 59, C0092, reel 5 (cited by [[w.moyar-triumph-forsaken]], 143 n.79); Saigon to State, Nov. 26, 1961, NA II, RG 59, C0092, reel 11 (cited by [[w.moyar-triumph-forsaken]], 143 n.79). See [[cal.1961-01-28.vietnam]]. Names: Nolting, Kennedy, Diệm.'
@@ -1936,6 +2387,7 @@ entries:
   - id: cal.1961-11-17.goldwater
     when: Nov. 17
     date: '1961-11-17'
+    place: washington
     thread: goldwater
     also: [elections-1964]
     c: 'Washington, Goldwater''s office, after 9 a.m. White and Thone, Nebraska''s national committeeman, report the group''s plans: no candidate before the elections of 1962, an organization meanwhile. Goldwater: "This is the best thing I''ve heard of since I became active in the Republican Party on the national scene." His speaking schedule to be sent them. He thinks Rockefeller''s nomination all but settled; his interest the platform. By White''s account.'
@@ -1957,6 +2409,7 @@ entries:
     when: Nov. 17
     date: '1961-11-17'
     time: 1961-11-17T23:00Z
+    place: nyc
     thread: elections-1964
     c: 'The Rockefellers'' separation announced, 6 p.m., Friday: the statement hand-delivered to New York''s seven papers and the two wires; a property settlement; the Governor to stay with his brother Laurance. Wilson, told at dinner beforehand, begs him to reconsider. Hinman, at the Republicans'' southern conference in Atlanta, not told.'
     n: '[[w.smith-on-his-own-terms]], 363–64; [[w.novak-agony-of-the-g]], 48 (the divorce; the party''s consensus: no great damage); [[w.white-making-of-the-president-1965]], 77 (the divorce announced from the family office in Rockefeller Center, Nov. 1961). To check: *Time*, Nov. 24, 1961; Hinman to Rockefeller, "Republican Southern Conference, November 17th and 18th," Rockefeller Archive Center (both cited by [[w.smith-on-his-own-terms]], 364). Names: Rockefeller, Hinman.'
@@ -2023,16 +2476,18 @@ entries:
   - id: cal.1961-11-17.china-leadership
     when: Nov. 17
     date: '1961-11-17'
+    place: peking
     thread: china-leadership
     also: [indonesia, soviet-union]
     c: The Yinian Tang. Mao, Zhou Enlai and Deng Xiaoping give a dinner for D. N. Aidit, back from the Twenty-second Congress; Yang Shangkun and Liu Ningyi present. The congress against Stalin, the "anti-Party group," Albania and China; Khrushchev rules by feudal methods. Stalin's merit chief; his two errors toward China, backing the "left" line and opposing the war with Chiang after Japan's surrender. Imperialism feared Stalin, not Khrushchev.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 17, 1961. [[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 17, 1961; 晚上, 和毛泽东、邓小平同志一起会见并举行晚宴); [[w.lengxi-shinian-lunzhan-1956-1966]], 479 (Aidit, home from the Congress through Peking, tells Mao that when Soviet or other delegates attacked Albania he took notes). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Yang Shangkun, Liu Ningyi, Aidit, Khrushchev, Stalin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 17, 1961. [[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 17, 1961; 晚上, 和毛泽东、邓小平同志一起会见并举行晚宴); [[w.lengxi-shinian-lunzhan-1956-1966]], 479 (Aidit, home from the Congress through Peking, tells Mao that when Soviet or other delegates attacked Albania he took notes); [[w.yang-shangkun-riji]], II, 90 (Nov. 17, 1961; 8 to 11 p.m.; Aidit and three others; Yang present). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Yang Shangkun, Liu Ningyi, Aidit, Khrushchev, Stalin.'
     src:
       c: 834ecaef
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 17, 1961: all'
         - 'w.zhou-enlai-waijiao-huodong 326: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 479: A'
+        - 'w.yang-shangkun-riji II, 90: A'
     tags: [polity:prc, polity:indonesia, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:aidit-dipa-nusantara, name:khrushchev-nikita-s, name:stalin-joseph, vis:only:prc+indonesia]
     time_range:
       - 1961-11-17T11:00Z
@@ -2058,9 +2513,60 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 165–166: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-11-17.china-leadership-4
+    when: Nov. 17
+    date: '1961-11-17'
+    place: peking
+    thread: china-leadership
+    c: The Zhongshan Tang 中山堂. The public memorial for Peng Tao 彭涛; Yang Shangkun 杨尚昆 takes the ashes on to Babaoshan 八宝山; back at 11:30.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 17, 1961). The words: 上午 (II, 90). See [[cal.1961-11-15.china-leadership]]. Names: Peng Tao, Yang Shangkun.'
+    src:
+      c: 660aad46
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc]
+    time_range:
+      - 1961-11-16T22:00Z
+      - 1961-11-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-17.china-leadership-5
+    when: Nov. 17
+    date: '1961-11-17'
+    thread: china-leadership
+    c: Yan Mingfu 阎明复 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 17, 1961; note 4). The words: 回来时已11时半了 (II, 90). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: dec25f69
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-17T04:00Z
+      - 1961-11-17T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-17.china-leadership-6
+    when: Nov. 17
+    date: '1961-11-17'
+    place: peking
+    thread: china-leadership
+    c: Tian Jiaying 田家英 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 90 (Nov. 17, 1961). The words: 下午 (II, 90). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 373ca8bc
+      rows:
+        - 'w.yang-shangkun-riji II, 90: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-17T04:00Z
+      - 1961-11-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-18.goldwater
     when: Nov. 18
     date: '1961-11-18'
+    place: atlanta
     thread: goldwater
     c: 'Atlanta, to Southern Republicans. Asked whether he writes off the Negro vote in the South: "We''re not going to get the Negro vote as a bloc in 1964 and 1968, so we ought to go hunting where the ducks are." School integration the States'' business. The *Courier-Journal*, Nov. 19: he writes off no bloc of voters. Check the date and the wording.'
     n: '[[w.perlstein-before-the-storm]], 190 (to Georgia Republicans; the words); [[w.young-two-suns-of-the]], 56 (Atlanta, November 1961; the words; the schools); [[w.goldberg-barry-goldwater]], 151 (to "hunt" his "ducks" among the middle-class whites); [[w.goldberg-barry-goldwater]], 154–55 (to the South: "I would bend every muscle to see that the South has a voice in everything that affects the life of the South"). [[w.gifford-center-cannot-hold]], 146 (Atlanta, 1961; the words). [[w.hess-republican-establishment]], 336, 340 (a news conference, Atlanta, November 1961; the words; the schools). [[w.kabaservice-rule-and-ruin]], 46 (the words, no place or day). To check: [[w.bass-transformation-of-southern-politics-1976]], 27 (cited by [[w.gifford-center-cannot-hold]], 146 n.2). See [[cal.1961-10-08.goldwater]]. Names: Goldwater.'
@@ -2100,6 +2606,7 @@ entries:
   - id: cal.1961-11-18.china-leadership
     when: Nov. 18–22
     date: '1961-11-18'
+    place: tianjin
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai inspects Tianjin, Nov. 18–22; back in Peking on the 22nd.
@@ -2108,18 +2615,35 @@ entries:
   - id: cal.1961-11-18.china-leadership-2
     when: Nov. 18
     date: '1961-11-18'
+    place: peking
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai and Deng Xiaoping and others go to the airport to see off Aidit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 18, 1961). Names: Zhou Enlai, Deng Xiaoping, Aidit.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 18, 1961); [[w.yang-shangkun-riji]], II, 91 (Nov. 18, 1961; the Eastern Suburb airport, 6 a.m.; Yang there, breakfast at the airport). Names: Zhou Enlai, Deng Xiaoping, Aidit.'
     src:
       c: 1dead90b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
+        - 'w.yang-shangkun-riji II, 91: A'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:deng-xiaoping, name:aidit-dipa-nusantara]
+  - id: cal.1961-11-18.china-leadership-3
+    when: Nov. 18
+    date: '1961-11-18'
+    time: 1961-11-18T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 4 to 6 p.m., with Deng Diantao 邓典桃, Liu Huo 刘火 and Li Jian 李鉴 on preparing the congress of the Party in the organs under the Center.
+    n: '[[w.yang-shangkun-riji]], II, 91 (Nov. 18, 1961). The words: 午睡后4时到6时 (II, 91). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao, Liu Huo, Li Jian.'
+    src:
+      c: d0eca93b
+      rows:
+        - 'w.yang-shangkun-riji II, 91: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-19.latin-america
     when: Nov. 19
     date: '1961-11-19'
+    place: santo-domingo
     thread: latin-america
     c: American warships off Santo Domingo. The Trujillo brothers leave.
     n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). [[w.robert-kennedy-in-his]], 323 (the fleet sent Nov. 19, the Trujillos thrown out: Martin, Kennedy agreeing); [[w.reeves-president-kennedy]], 266–67 (the carriers and the *Little Rock* off the harbor, Nov. 19; the Trujillo brothers to exile in Florida). To check: [[w.rabe-most-dangerous-area-in]]. See [[cal.1961-05-30.latin-america]].'
@@ -2134,6 +2658,7 @@ entries:
   - id: cal.1961-11-19.elections-1964
     when: Nov. 19
     date: '1961-11-19'
+    place: nyc
     thread: elections-1964
     c: 'Sunday, two days after the separation. Word through the Dutch ambassador: Michael Rockefeller missing in the Arafura Sea off New Guinea since the 18th. Near midnight Rockefeller leaves New York with Mary, Michael''s twin, to take charge of the search, a dozen reporters aboard.'
     n: '[[w.smith-on-his-own-terms]], 365–66. To check: Rockefeller oral history, July 26, 1977, 48 (cited by [[w.smith-on-his-own-terms]], 366 n.). See [[cal.1961-11-17.elections-1964]]. Names: Rockefeller.'
@@ -2175,6 +2700,7 @@ entries:
   - id: cal.1961-11-20.vietnam
     when: Nov. 20
     date: '1961-11-20'
+    place: saigon
     thread: vietnam
     c: 'Galbraith, by cable to Kennedy from Saigon: Diệm will not reform his government to any significant degree; replace him, and only then a military solution.'
     n: '[FRUS 1961–63, I, doc. 267](https://history.state.gov/historicaldocuments/frus1961-63v01/d267) (editorial note: the telegram, printed in the Pentagon Papers). [[w.mann-grand-delusion]], 252; [[w.schlesinger-robert-kennedy-and-his]], 707 (Galbraith, "after his visit to Saigon," to Kennedy: "Diem will not reform. . . . He cannot. It is politically naive to expect it"; no day or cable, not the call for a replacement). [[w.preston-war-council]], 95. Names: Galbraith, Kennedy, Ngô Đình Diệm. Check: Preston, 95 n.57, dates the cable from Saigon Nov. 21 (Goodman, *Letters to Kennedy*, 89–94), and a letter from New Delhi Nov. 28.'
@@ -2196,6 +2722,7 @@ entries:
   - id: cal.1961-11-20.berlin-and-vienna
     when: Nov. 20
     date: '1961-11-20'
+    place: washington
     thread: berlin-and-vienna
     c: '"The Need for Negotiations," Bundy to Kennedy: Kissinger believes the Germans do not want them; without them a separate treaty, salami tactics on the access routes, division among the allies, "possible war, conventional or nuclear." The negotiations to be framed for the widest support, not a restatement of old positions.'
     n: '[FRUS 1961–63, XIV, doc. 215](https://history.state.gov/historicaldocuments/frus1961-63v14/d215). [[w.preston-war-council]], 68–69. Names: Bundy, Kennedy, Kissinger.'
@@ -2215,6 +2742,7 @@ entries:
   - id: cal.1961-11-20.vietnam-2
     when: Nov. 20
     date: '1961-11-20'
+    place: saigon
     thread: vietnam
     c: Anthis sets up the 2d Advanced Echelon, Thirteenth Air Force, at the Brink Hotel in Saigon, beside the MAAG's Air Force section; then moves it to Tan Son Nhut. Nolting, learning of it Nov. 24, is surprised.
     n: '[[w.futrell-united-states-air-force]], 95. Names: Anthis, Nolting.'
@@ -2244,10 +2772,41 @@ entries:
   - id: cal.1961-11-20.soviet-union
     when: Nov. 20
     date: '1961-11-20'
+    place: falls-church
     thread: soviet-union
     c: Falls Church. Dinner at Salinger's for Adzhubei, arrived in Washington that day for the interview, with Barsukov of *Izvestia*, Bolshakov, and Guthrie of the State Department's Soviet desk. Adzhubei says the Soviet Union and the United States should settle things without heeding their allies; Guthrie asks if East Germany and China would then be dropped, and Adzhubei drops the subject. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 200–01. Names: Adzhubei, Salinger, Bolshakov, Guthrie.'
     tags: [name:salinger-pierre, name:adzhubei-aleksei, name:bolshakov-georgi, name:guthrie-john-c]
+  - id: cal.1961-11-20.china-leadership
+    when: Nov. 20
+    date: '1961-11-20'
+    time: 1961-11-20T01:00Z
+    place: peking
+    thread: china-leadership
+    c: 'The Huairen Tang 怀仁堂, 9 to 12. The Secretariat, with the regional planning chiefs, hears Liao Luyan 廖鲁言 on the outline of the seven-year agricultural plan 农业七年规划大纲. Deng Xiaoping 邓小平: discuss it on these figures: grain 450 billion jin, cotton 40 million dan, pigs 150 million (30 million for the state), oil 750,000 tons for the state.'
+    n: '[[w.yang-shangkun-riji]], II, 91 (Nov. 20, 1961). The words: 上午9时到12时 (II, 91). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liao Luyan, Deng Xiaoping.'
+    src:
+      c: 8155ae4f
+      rows:
+        - 'w.yang-shangkun-riji II, 91: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-20.china-leadership-2
+    when: Nov. 20
+    date: '1961-11-20'
+    thread: china-leadership
+    c: Zhao Han 赵汉 and Qiao Mingfu 乔明甫, deputy heads of the Organization Department, come to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 91 (Nov. 20, 1961; note 1). The words: 下午 (II, 91). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhao Han, Qiao Mingfu, Yang Shangkun.'
+    src:
+      c: 9ae2c6cd
+      rows:
+        - 'w.yang-shangkun-riji II, 91: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-20T04:00Z
+      - 1961-11-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-21.vietnam
     when: Nov. 21
     date: '1961-11-21'
@@ -2266,6 +2825,7 @@ entries:
     when: Nov. 21
     date: '1961-11-21'
     time: 1961-11-21T21:30Z
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: 'The White House, 4:30 p.m.: the President, Robert Kennedy, Lansdale, Goodwin, McCone. The President wants a plan of action on Cuba within two weeks. Robert Kennedy: "immediate dynamic action," covert operations, propaganda, dissension within Cuba, political action in the OAS; a Lansdale committee of the CIA, State, USIA and Defense to "cut across" the agencies. McCone: the agency and the administration "in a condition of ''shock''"; the committee to report to the 5412 group.'
@@ -2278,10 +2838,16 @@ entries:
   - id: cal.1961-11-21.china-leadership
     when: Nov. 21
     date: '1961-11-21'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'The Yinian Tang, evening. Mao with Chen Boda and others on the state of things since the Twenty-second Congress and theory: articles to be prepared; Chen proposes one, "The Historical Fate of Leninism."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 21, 1961. Made public: 2013. Names: Mao Zedong, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 21, 1961. [[w.yang-shangkun-riji]], II, 92 (Nov. 21, 1961; the Yinian Tang, 10:30 p.m. to 1; articles to be prepared; Chen Boda proposes one on "The historical destiny of Leninism"). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 92) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Chen Boda.'
+    src:
+      c: a77ca91d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 21, 1961: all'
+        - 'w.yang-shangkun-riji II, 92: A'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
   - id: cal.1961-11-21.china-leadership-2
     when: Nov. 21
@@ -2294,9 +2860,53 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 169: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-11-21.china-leadership-3
+    when: Nov. 21
+    date: '1961-11-21'
+    time: 1961-11-21T01:00Z
+    place: peking
+    thread: china-leadership
+    c: The Secretariat, 9 to 11, hears the seven-year plans of the coal, power and oil ministries.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 21, 1961). The words: 上午9时到11时 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: d879b046
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-21.china-leadership-4
+    when: Nov. 21
+    date: '1961-11-21'
+    time: 1961-11-21T03:30Z
+    place: peking
+    thread: china-leadership
+    c: Kong Yuan 孔原 and Kang Sheng 康生 come to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 21, 1961). The words: 11时半 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Kang Sheng, Yang Shangkun.'
+    src:
+      c: d7d16a6c
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-21.china-leadership-5
+    when: Nov. 21
+    date: '1961-11-21'
+    time: 1961-11-21T07:30Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 and Peng Zhen 彭真, 3:30 to 8 p.m., talk with comrades of the Thai, Malayan and Burmese Communist Parties on the Twenty-second Congress, and give them a banquet; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 21, 1961). The words: 3时半到8时 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun.'
+    src:
+      c: 00bfd8e1
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-22.vietnam
     when: Nov. 22
     date: '1961-11-22'
+    place: washington
     thread: vietnam
     c: NSAM 111. Helicopters, airlift, advisers with the units; reforms asked of Diệm. No combat troops.
     n: '[NSAM No. 111](https://history.state.gov/historicaldocuments/frus1961-63v01/d272) (Viet. II.I.2). [[w.miller-misalliance]], 229–31 (no combat troops, the rest of the partnership endorsed; the reforms pressed on Diệm); FRUS 1961–63, I, doc. [257](https://history.state.gov/historicaldocuments/frus1961-63v01/d257) n. 2 (telegram 619 to Saigon, Nov. 15, summarized: the joint effort; telegram 618, no combat troops now). [[w.gibbons-u-s-government-and]], II, 99–100; [[w.marolda-united-states-navy-and]], 127 (NSAM 111, Nov. 22); [[w.moyar-triumph-forsaken]], 142–43; [[w.sorensen-kennedy]], 653–55 (no combat troops; the departments to be prepared for them; the mission expanded); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 273–74; [[w.taylor-swords-and-plowshares]], 248 (the NSAM, without the formal commitment); [[w.schlesinger-robert-kennedy-and-his]], 705 (Kennedy rejects combat units while accepting "another increase in military and economic assistance to Diem," insisting, by William Bundy, on "a stiffer and more quid pro quo political program"; "he absolutely declined in the National Security Action Memorandum of November 15 to make the total commitment"; not the helicopters, the airlift or the advisers with the units); [[w.mann-grand-delusion]], 251–52 (a week after the NSC meeting, NSAM 111: more helicopters and aircraft manned by U.S. uniformed personnel, air reconnaissance, air-ground support, the civil guard and self-defense corps, intelligence, economic aid; Diệm to "put the nation on a wartime footing"; the large infusion of troops Taylor, Rostow and McNamara urged not authorized; not airlift or "advisers with the units"). [[w.selverstone-kennedy-withdrawal]], 44, 47 (NSAM 111; no combat troops). Check: Taylor dates the NSAM''s approval Nov. 15 ([[w.taylor-swords-and-plowshares]], 248). Check: Schlesinger, 705, dates the National Security Action Memorandum Nov. 15; the entry has Nov. 22. To check: [FRUS 1961–63, I, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v01/d236) (meeting notes, Nov. 11, 1961; cited by [[w.moyar-triumph-forsaken]], 142 n.76); State to Saigon, Nov. 15, 1961, JFKL, NSF, box 195 (cited by [[w.moyar-triumph-forsaken]], 143 n.77). See [[cal.1961-01-28.vietnam]]. Names: Ngô Đình Diệm, Nolting.'
@@ -2345,6 +2955,7 @@ entries:
   - id: cal.1961-11-22.georgia-albany
     when: Nov. 22
     date: '1961-11-22'
+    place: albany-ga
     thread: georgia-albany
     also: [desegregation-public-places]
     c: 'Albany''s first arrests, the day before Thanksgiving: three Youth Council students in the white waiting room of the Trailways station; that afternoon two Albany State students, Blanton Hall and Bertha Gober, at its white ticket window.'
@@ -2380,6 +2991,7 @@ entries:
   - id: cal.1961-11-22.cuba-2
     when: Nov. 22
     date: '1961-11-22'
+    place: washington
     thread: cuba
     also: [intelligence]
     c: 'Dulles''s office: Dulles, Cabell, Bissell, Helms, Kirkpatrick and McCone review the plan for the Lansdale committee; general agreement. Lansdale had proposed Critchfield as the CIA''s man; Bissell names others, Critchfield hard to spare. McCone: the ablest man available to be put at Lansdale''s disposal.'
@@ -2398,6 +3010,7 @@ entries:
   - id: cal.1961-11-22.elections-1964
     when: Nov. 22
     date: '1961-11-22'
+    place: merauke
     thread: elections-1964
     also: [defense]
     c: 'Merauke, New Guinea. Rockefeller cables Louise Boyer: "Reasonable chance Michael reached shore"; helicopters needed. Boyer to ask Gilpatric, Deputy Secretary of Defense, his friend, for Dutch and Australian helicopters. Rockefeller turns down an aircraft carrier of the Seventh Fleet.'
@@ -2411,6 +3024,7 @@ entries:
   - id: cal.1961-11-22.vietnam-hanoi
     when: Nov. 22
     date: '1961-11-22'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Hanoi: directive no. 33-CT/TW on the rules for merging farm cooperatives into larger ones, by the Politburo''s resolution on cooperativization in 1961: crops near harvest left to the small cooperative, the rest to the large; debts for production and for fixed assets.'
     n: '*Chỉ thị của Ban Bí thư số 33-CT/TW về một số chính sách trong khi tiến hành hợp nhất mở rộng quy mô hợp tác xã sản xuất nông nghiệp*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 543–49. See [[cal.1961-02-27.vietnam-hanoi]]. Made public: 2002.'
@@ -2418,6 +3032,7 @@ entries:
   - id: cal.1961-11-22.china-leadership
     when: Nov. 22
     date: '1961-11-22'
+    place: peking
     thread: china-leadership
     also: [japan, china]
     c: Zhou Enlai receives the delegation of the Japanese Communist Party's organ *Akahata* under its editor Doki Tsuyoshi, and Anzai Kuraji, secretary of the Party's Secretariat, who came on translating and publishing the Japanese edition of the fourth volume of Mao's *Selected Works*.
@@ -2433,9 +3048,39 @@ entries:
       - 1961-11-22T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-11-22.china-leadership-2
+    when: Nov. 22
+    date: '1961-11-22'
+    time: 1961-11-22T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 12, hears the plans for light industry and textiles.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 22, 1961). The words: 上午9时到12时 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 1546bfbd
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-22.china-leadership-3
+    when: Nov. 22
+    date: '1961-11-22'
+    thread: china-leadership
+    c: Chen Boda 陈伯达 comes to Yang Shangkun 杨尚昆 on the review of the Center's documents; Deng Diantao 邓典桃 on the organs' living conditions.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 22, 1961). The words: 下午 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Boda, Yang Shangkun, Deng Diantao.'
+    src:
+      c: f9d0e28c
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, name:chen-boda, vis:only:prc]
+    time_range:
+      - 1961-11-22T04:00Z
+      - 1961-11-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-23.civil-rights-the-executive
     when: Nov. 23
     date: '1961-11-23'
+    place: hyannis-port
     thread: civil-rights-the-executive
     also: [robert-kennedy]
     c: Hyannis Port, over Thanksgiving. The President and Robert Kennedy walk the beach on the housing order. He puts it off, to try first for a department of urban affairs, Robert Weaver its secretary.
@@ -2463,6 +3108,7 @@ entries:
   - id: cal.1961-11-23.voting-rights
     when: Nov. 23
     date: '1961-11-23'
+    place: hyannis-port
     thread: voting-rights
     also: [robert-kennedy]
     c: Thanksgiving weekend, Hyannis Port. Burke Marshall comes to talk with Robert Kennedy of new legislation to enforce voting rights in the South; Kennedy, taken up with Cuba, seems bored. By Marshall's account.
@@ -2489,15 +3135,60 @@ entries:
     c: 'Zhou Enlai inscribes for the tenth anniversary of *China Reconstructs* in English: to spread wider and further the Chinese people''s friendship for all peoples and strengthen unity with them.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 23, 1961). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1961-11-23.china-leadership-3
+    when: Nov. 23
+    date: '1961-11-23'
+    time: 1961-11-23T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 12, hears the Ministry of Metallurgy.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 23, 1961). The words: 上午9时到12时 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 6a54ef14
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-23.china-leadership-4
+    when: Nov. 23
+    date: '1961-11-23'
+    place: peking
+    thread: china-leadership
+    c: Quanjude 全聚德. Peng Zhen 彭真 gives the "scholars" 秀才们, the Party's writers, a dinner; Zhou Enlai 周恩来 and Deng Xiaoping 邓小平 come; to 2:30.
+    n: '[[w.yang-shangkun-riji]], II, 92 (Nov. 23, 1961). The words: 中午 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Zhou Enlai, Deng Xiaoping.'
+    src:
+      c: e7780cae
+      rows:
+        - 'w.yang-shangkun-riji II, 92: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-11-23T04:00Z
+      - 1961-11-23T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-23.china-leadership-5
+    when: Nov. 23
+    date: '1961-11-23'
+    time: 1961-11-23T07:00Z
+    thread: china-leadership
+    c: The Secretariat, 3 p.m., Li Fuchun 李富春 presiding, hears Luo Yuchuan 罗玉川 on the forestry conference of the ten southern provinces.
+    n: '[[w.yang-shangkun-riji]], II, 92–93 (Nov. 23, 1961; p. 92 n.1: Luo, vice-minister of forestry). The words: 3时 (II, 92). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Luo Yuchuan.'
+    src:
+      c: 47c8eba2
+      rows:
+        - 'w.yang-shangkun-riji II, 92–93: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-24.congo
     when: Nov. 24
     date: '1961-11-24'
+    place: nyc
     thread: congo
     c: Security Council authorizes force against Katanga's mercenaries.
     n: '[FRUS 1961–63, XX, doc. 143](https://history.state.gov/historicaldocuments/frus1961-63v20/d143). See [[cal.1961-02-13.congo]].'
   - id: cal.1961-11-24.defense
     when: Nov. 24
     date: '1961-11-24'
+    place: hyannis-port
     thread: defense
     c: 'Hyannis Port, the defense budget meeting. Civil defense: Kaysen and Schlesinger against the family shelter; Kennedy decides for public community shelters. Robert Kennedy: "we can just station Father McHugh with a machine gun at every shelter."'
     n: '[[w.schlesinger-thousand-days-1965]], 747–49; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 32 (the public shelter program; $700 million a year for five years). Made public: [[w.schlesinger-thousand-days-1965]] (1965). Names: Kaysen, Schlesinger, John F. Kennedy, Robert Kennedy. Check: the day, "the Friday after Thanksgiving" in *A Thousand Days*, "over Thanksgiving" in [[w.schlesinger-robert-kennedy-and-his]], 429, whose note cites Schlesinger''s journal of Nov. 24.'
@@ -2517,6 +3208,7 @@ entries:
   - id: cal.1961-11-24.vietnam
     when: Nov. 24
     date: '1961-11-24'
+    place: washington
     thread: vietnam
     c: 'Rostow to Kennedy, against Galbraith''s cable: "The Viet-Nam situation confronts us with the question of whether we shall or shall not accept the mounting of a guerrilla war across a frontier as legitimate. ... the New Frontier will be measured in history in part on how that challenge was met."'
     n: '[FRUS 1961–63, I, doc. 274](https://history.state.gov/historicaldocuments/frus1961-63v01/d274). [[w.reeves-president-kennedy]], 261. See [[cal.1961-11-21.vietnam]]. Names: Rostow, Galbraith, Kennedy.'
@@ -2536,6 +3228,7 @@ entries:
   - id: cal.1961-11-24.africa
     when: Nov. 24
     date: '1961-11-24'
+    place: hyannis-port
     thread: africa
     also: [robert-kennedy]
     c: 'Hyannis Port. Ball with Kennedy on the Volta dam, by Ball''s account. Robert Kennedy against: no large commitment to Nkrumah. Kennedy to Ball, at last: "All right, George, you make the decision." Ball: go ahead on a limited, conditional basis, no more than $28 million in the first three years, the tap to be turned off if Nkrumah behaves too badly.'
@@ -2554,6 +3247,7 @@ entries:
   - id: cal.1961-11-24.civil-rights-the-executive
     when: Nov. 24
     date: '1961-11-24'
+    place: hyannis-port
     thread: civil-rights-the-executive
     c: Hyannis Port, the day after Thanksgiving, after a day of meetings on trade and defense. The President, Robert Kennedy, Marshall, O'Brien, O'Donnell and Sorensen reassess civil rights. The literacy test and poll tax measures to go up in January; executive actions faster. The housing order to wait on the Urban Affairs department, Weaver its secretary-to-be.
     n: '[[w.sorensen-kennedy]], 480–81; [[w.robert-kennedy-in-his]], 148 (Hyannis Port, the Thanksgiving weekend: the housing order and legislation; the President''s kidding on "Stroke of the pen!"). See [[cal.1961-11-23.civil-rights-the-executive]]. Names: Kennedy, Robert Kennedy, Marshall, O''Brien, O''Donnell, Sorensen, Weaver.'
@@ -2571,6 +3265,7 @@ entries:
   - id: cal.1961-11-24.africa-2
     when: Nov. 24
     date: '1961-11-24'
+    place: nyc
     thread: africa
     c: The General Assembly asks members to consider Africa a nuclear-free zone. The United States abstains, the moratorium unverified and uninspected.
     n: '[[w.poole-joint-chiefs-of-staff]], 252.'
@@ -2594,14 +3289,80 @@ entries:
   - id: cal.1961-11-24.vietnam-hanoi
     when: Nov. 24
     date: '1961-11-24'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi: resolution no. 31-NQ/TW on the plan to rebuild and enlarge Haiphong, the North''s largest port, a strategic point for defense: 250,000 to 300,000 people over some three five-year plans to 1975; the port to 4 million tons a year, eastward; new industry at Vật Cách.'
     n: '*Nghị quyết của Bộ Chính trị số 31-NQ/TW về quy hoạch cải tạo và mở rộng thành phố Hải Phòng*. [[w.van-kien-dang-toan]], XXII, 555–60. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-11-24.china-leadership
+    when: Nov. 24
+    date: '1961-11-24'
+    time: 1961-11-24T02:30Z
+    place: peking
+    thread: china-leadership
+    also: [latin-america]
+    c: The Qinzheng Dian 勤政殿, 10:30 a.m. to 1. Mao 毛泽东 receives the Party students from six Latin American countries; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 24, 1961). The words: 10时半 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 919a1554
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-24.china-leadership-2
+    when: Nov. 24
+    date: '1961-11-24'
+    thread: china-leadership
+    c: Wu Xiuquan 伍修权 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 24, 1961). The words: 下午 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Xiuquan, Yang Shangkun.'
+    src:
+      c: c3912dee
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-24T04:00Z
+      - 1961-11-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-24.china-leadership-3
+    when: Nov. 24
+    date: '1961-11-24'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Soviet Ambassador, asked to see Yang Shangkun 杨尚昆, pleads business and does not come.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 24, 1961). The words: 下午 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 528bad80
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-24T04:00Z
+      - 1961-11-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-24.china-leadership-4
+    when: Nov. 24
+    date: '1961-11-24'
+    thread: china-leadership
+    c: The state organs' Party committee reports to Yang Shangkun 杨尚昆; Qi Yanming 齐燕铭 comes to talk; till 3 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 24, 1961). The words: 晚间 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Qi Yanming.'
+    src:
+      c: 61311c66
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-11-24T14:00Z
+      - 1961-11-24T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-25.berlin-and-vienna
     when: Nov. 25
     date: '1961-11-25'
     time: 1961-11-25T15:20Z
+    place: hyannis-port
     thread: berlin-and-vienna
     also: [soviet-union]
     c: Adzhubei, Khrushchev's son-in-law, interviews Kennedy at Hyannis Port. *Izvestia* prints it whole, Nov. 28.
@@ -2641,6 +3402,7 @@ entries:
   - id: cal.1961-11-25.berlin-and-vienna-2
     when: Nov. 25
     date: '1961-11-25'
+    place: hyannis-port
     thread: berlin-and-vienna
     c: 'Hyannis Port, after the Adzhubei interview. Kennedy, convinced he has done badly, to Salinger: "That might have been a mistake," and "Your arrogant Russian friend got in as many shots as I did." After reading the transcript he agrees with Salinger that Adzhubei''s polemics strengthened his answers. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 204–05. See [[cal.1961-11-25.berlin-and-vienna]]. Names: Kennedy, Salinger, Adzhubei.'
@@ -2648,6 +3410,7 @@ entries:
   - id: cal.1961-11-25.vietnam-hanoi
     when: Nov. 25
     date: '1961-11-25'
+    place: hanoi
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'The Secretariat to COSVN, cable no. 525, on learning and reporting the enemy''s situation, the spies of the imperialists, the Americans above all, and the reactionaries: every member to report; trusted members to be placed in the enemy''s intelligence, police and reactionary bodies; men in key posts won over; some planted to stay hidden after the South''s liberation.'
@@ -2661,6 +3424,32 @@ entries:
     c: Zhou Enlai with the officials concerned on cutting staff.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 25, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-25.china-leadership-2
+    when: Nov. 25
+    date: '1961-11-25'
+    time: 1961-11-25T01:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 9 to 12, with those concerned on the arrangements for the Center's enlarged work conference of Jan. 10, 1962.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 25, 1961). The words: 上午9时到12时 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-16.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: 85292f3f
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-25.china-leadership-3
+    when: Nov. 25
+    date: '1961-11-25'
+    time: 1961-11-25T09:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 5 p.m., calls on Wang Jiaxiang 王稼祥 and talks with him.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 25, 1961). The words: 5时 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Jiaxiang.'
+    src:
+      c: eb110b3e
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-26.transition-and-staff
     when: Nov. 26
     date: '1961-11-26'
@@ -2729,6 +3518,7 @@ entries:
   - id: cal.1961-11-27.vietnam
     when: Nov. 27
     date: '1961-11-27'
+    place: washington
     thread: vietnam
     c: 'McGhee to Rusk: substantial American combat forces in Vietnam, once in indecisive anti-guerrilla fighting, would bring mounting demands at home "that we attack the source of the aggression in North Vietnam."'
     n: '[FRUS 1961–63, I, doc. 283](https://history.state.gov/historicaldocuments/frus1961-63v01/d283). [[w.preston-war-council]], 95. Names: McGhee, Rusk.'
@@ -2778,6 +3568,7 @@ entries:
     when: Nov. 27
     date: '1961-11-27'
     time: 1961-11-27T22:30Z
+    place: washington
     thread: vietnam
     c: 'The White House, 5:30 p.m., by Lemnitzer''s notes, on Diệm''s answer to the conditions: no sweeping reorganization of his government, security first. McNamara: Nolting to come home and report if the next talks fail. The Jorden report held until the next talk with Diệm. Kennedy: once policy is decided, the men on the spot to support it or get out.'
     n: '[FRUS 1961–63, I, doc. 285](https://history.state.gov/historicaldocuments/frus1961-63v01/d285). [[w.taylor-swords-and-plowshares]], 248 (the recall of Nolting considered). See [[cal.1961-11-22.vietnam]]. Names: Lemnitzer, Ngô Đình Diệm, McNamara, Nolting, Kennedy.'
@@ -2809,6 +3600,7 @@ entries:
   - id: cal.1961-11-27.robert-kennedy
     when: Nov. 27
     date: '1961-11-27'
+    place: hickory-hill
     thread: robert-kennedy
     c: Hickory Hill. The first of the seminars Robert and Ethel Kennedy asked Schlesinger to organize, to remind the administration's leaders of a world of ideas beyond government; then about monthly but for the summers. Lecturers from Isaiah Berlin to Al Capp; in the audience McNamara, Dillon, Alice Roosevelt Longworth.
     n: '[[w.schlesinger-robert-kennedy-and-his]], 592. Names: Robert Kennedy, Schlesinger, McNamara, Dillon.'
@@ -2820,14 +3612,63 @@ entries:
   - id: cal.1961-11-27.china-leadership
     when: Nov. 27
     date: '1961-11-27'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai reports to democratic figures on the CPSU's 22nd Congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 27, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 442 (Nov. 27, 1961); [[w.yang-shangkun-riji]], II, 93–94 (Nov. 27, 1961; the Great Hall, the Hebei Room, 3 to 7 p.m., the forum of the parties called in the Center''s name). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 0209641d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 442: ?'
+        - 'w.yang-shangkun-riji II, 93–94: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-27.china-leadership-2
+    when: Nov. 27
+    date: '1961-11-27'
+    time: 1961-11-27T02:00Z
+    thread: china-leadership
+    c: The Secretariat, 10 to 12, on the article exposing Tito 铁托.
+    n: '[[w.yang-shangkun-riji]], II, 93 (Nov. 27, 1961). The words: 上午10时到12时 (II, 93). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tito.'
+    src:
+      c: 59b0c125
+      rows:
+        - 'w.yang-shangkun-riji II, 93: all'
+    tags: [polity:prc, name:tito-josip-broz, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-27.china-leadership-3
+    when: Nov. 27
+    date: '1961-11-27'
+    time: 1961-11-27T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Diaoyutai 钓鱼台, 9 to 12 p.m. A meeting at Mao's 毛泽东 on the latest situation; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 27, 1961). The words: 晚9时到12时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: bd1324ca
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-27.china-leadership-4
+    when: Nov. 27
+    date: '1961-11-27'
+    time: 1961-11-27T16:30Z
+    thread: china-leadership
+    follows:
+      - cal.1961-11-27.china-leadership-3
+    c: Yang Shangkun 杨尚昆, 12:30 to 3 a.m., prepares his speech for the next day's congress of the Party in the organs under the Center.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 27, 1961). The words: 12时半到3时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d6f2b4d0
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-28.transition-and-staff
     when: Nov. 28
     date: '1961-11-28'
+    place: langley
     thread: transition-and-staff
     c: Kennedy at Langley; the National Security Medal for Dulles. McCone sworn in, Nov. 29.
     n: 'Remarks Upon Presenting an Award to Allen W. Dulles, [1961 Pub. Papers 753](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=811). Remarks at the Swearing In of John McCone as Director, Central Intelligence Agency, [1961 Pub. Papers 765](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=823). To check: [[w.robarge-john-mccone-as-director]]; [[w.grose-gentleman-spy]]. See [[cal.1961-09-27.transition-and-staff]]. Names: Dulles, McCone.'
@@ -2841,6 +3682,7 @@ entries:
   - id: cal.1961-11-28.vietnam-2
     when: Nov. 28
     date: '1961-11-28'
+    place: new-delhi
     thread: vietnam
     c: 'Galbraith, back in New Delhi, to Kennedy by letter: the pessimism of his cable from Saigon again. Bundy answers for the White House.'
     n: '[[w.preston-war-council]], 95. To check: Galbraith (New Delhi) to Kennedy, Nov. 28, 1961, in James Goodman, ed., *Letters to Kennedy* (1998), 95–97 (cited by [[w.preston-war-council]], 95 n.57); [[w.bird-color-of-truth]], 221 (cited by [[w.preston-war-council]], 95 n.57). See [[cal.1961-11-20.vietnam]]. Names: Galbraith, Kennedy, Bundy.'
@@ -2859,6 +3701,7 @@ entries:
   - id: cal.1961-11-28.vietnam
     when: Nov. 28
     date: '1961-11-28'
+    place: washington
     thread: vietnam
     c: 'McNamara to Felt and McGarr, personal: a first meeting at Pacific headquarters, then regular reviews. "Fundamentally, we must adjust ourselves to a perennially unclear political framework and to a policy that for overall national reasons sets limits on military action."'
     n: '[Telegram, McNamara to Felt and McGarr, Def 906345, FRUS 1961–63, I, doc. 289](https://history.state.gov/historicaldocuments/frus1961-63v01/d289). [[w.mcnamara-in-retrospect]], ch. 2 at n.16 (the words). See [[cal.1961-11-15.vietnam]]. Names: McNamara, Felt, McGarr.'
@@ -2912,6 +3755,47 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 173–175: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:albania]
+  - id: cal.1961-11-28.china-leadership-3
+    when: Nov. 28
+    date: '1961-11-28'
+    time: 1961-11-28T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 12, hears the machinery industry.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 28, 1961). The words: 上午9时到12时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 62b2d92f
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-28.china-leadership-4
+    when: Nov. 28
+    date: '1961-11-28'
+    time: 1961-11-28T07:00Z
+    thread: china-leadership
+    c: The auditorium of the organs under the Center, 3 to 5:30 p.m. Yang Shangkun 杨尚昆 speaks to the seventh congress of their Party.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 28, 1961). The words: 3时到5时半 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-27.china-leadership-4]]. Names: Yang Shangkun.'
+    src:
+      c: 4774e705
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-28.china-leadership-5
+    when: Nov. 28
+    date: '1961-11-28'
+    time: 1961-11-28T10:00Z
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: The Great Hall of the People 人民大会堂, the Fujian Room, 6 p.m. The signing for a Japanese publisher's edition of the fourth volume of Mao's 毛泽东 *Selected Works*, and a buffet in the Xinjiang Room; Lu Dingyi 陆定一, Liao Chengzhi 廖承志 and Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 28, 1961). The words: 6时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Lu Dingyi, Liao Chengzhi, Yang Shangkun.'
+    src:
+      c: 54a6b84b
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, name:mao-zedong, name:lu-dingyi, vis:only:prc+japan]
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-29.opinion
     when: Nov. 29
     date: '1961-11-29'
@@ -2924,6 +3808,7 @@ entries:
     when: Nov. 29
     date: '1961-11-29'
     time: 1961-11-29T14:00Z
+    place: washington
     thread: cuba
     also: [robert-kennedy, intelligence]
     c: McCone with Robert Kennedy, 9 to 10:20 a.m. Kennedy's report to the President on the Bay of Pigs, highly critical of the CIA and the Chiefs, Bissell above all, given McCone to read. Lansdale to head an interagency group; Kennedy "resented CIA resistance to this idea," wants the ablest man for it, not J. C. King, and agrees it must work under the 5412 Committee. By McCone's memorandum for the record.
@@ -2937,6 +3822,7 @@ entries:
   - id: cal.1961-11-29.elections-1964
     when: Nov. 29
     date: '1961-11-29'
+    place: nyc
     thread: elections-1964
     c: Idlewild, evening. Rockefeller back from New Guinea, met by family, State officials and some two hundred reporters; a tribute to Michael, in the present tense. Then to Pocantico.
     n: '[[w.smith-on-his-own-terms]], 367–68. See [[cal.1961-11-19.elections-1964]]. Names: Rockefeller.'
@@ -2948,6 +3834,7 @@ entries:
   - id: cal.1961-11-29.china-leadership
     when: Nov. 29
     date: '1961-11-29'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Albanian Ambassador, Reiz Malile, for the 17th anniversary of Albania's liberation.
@@ -2986,9 +3873,57 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 209–210: all'
     tags: [polity:prc, polity:drv, polity:us]
+  - id: cal.1961-11-29.china-leadership-2
+    when: Nov. 29
+    date: '1961-11-29'
+    time: 1961-11-29T01:00Z
+    thread: china-leadership
+    c: 'The Secretariat, 9 to 12: Wu Jingtian 武竞天 on the railway plan.'
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 29, 1961; note 1: Wu, vice-minister of railways). The words: 上午9时到12时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Jingtian.'
+    src:
+      c: a0a8c516
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-29.china-leadership-3
+    when: Nov. 29
+    date: '1961-11-29'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 reads "Our answer to Khrushchev" 《我们对于赫的回答》, by the Leningrad committee for the defense of Stalin, some 70,000 characters, which a Soviet citizen handed to the Chinese Embassy in Moscow.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 29, 1961; the OCR''s 替 for 赫 here and elsewhere). The words: 下午3时起看文件 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Khrushchev.'
+    src:
+      c: 165b9dce
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1961-11-29T04:00Z
+      - 1961-11-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-29.china-leadership-4
+    when: Nov. 29
+    date: '1961-11-29'
+    thread: china-leadership
+    also: [europe-and-the-alliance-federal-republic]
+    c: 'Yang Shangkun 杨尚昆 reads of Adenauer''s 阿登纳 talks with Kennedy: on the offensive throughout, even on free choice for Eastern Europe; Khrushchev''s 赫鲁晓夫 policy seen on the defensive.'
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 29, 1961; note 2: Adenauer). The words: 晚间8时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Adenauer, Kennedy, Khrushchev.'
+    src:
+      c: 3b8af7b9
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, name:adenauer-konrad, name:kennedy-john-f, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1961-11-29T11:00Z
+      - 1961-11-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-11-30.cuba
     when: Nov. 30
     date: '1961-11-30'
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: Operation Mongoose. Lansdale chief of operations; Robert Kennedy behind it.
@@ -3017,6 +3952,7 @@ entries:
   - id: cal.1961-11-30.middle-east
     when: Nov. 30
     date: '1961-11-30'
+    place: nyc
     thread: middle-east-kuwait
     c: The Soviet Union vetoes Kuwait's admission to the UN.
     n: 'Check: the record of the Council. See [[cal.1961-06-25.middle-east]].'
@@ -3036,6 +3972,7 @@ entries:
   - id: cal.1961-11.press-and-broadcasting
     when: Nov.
     date: 1961-11
+    place: washington
     thread: press-and-broadcasting
     c: 'A White House lunch for publishers. Dealey of the *Dallas Morning News*: "We need a man on horseback to lead this nation, and many people in Texas think that you are riding Caroline''s bicycle." Kennedy: "I''m just as tough as you are, Mr. Dealey."'
     n: '[[w.reeves-president-kennedy]], 271; [[w.sorensen-kennedy]], 327, 335 (the luncheons; Dealey). To check: [[w.schlesinger-thousand-days-1965]], 752 (cited by [[w.reeves-president-kennedy]], 271). Check: the day. Names: Kennedy.'
@@ -3093,6 +4030,7 @@ entries:
   - id: cal.1961-11.conservative-movement
     when: Nov.
     date: 1961-11
+    place: dallas
     thread: conservative-movement
     c: 'Dallas, the week of Kennedy''s Los Angeles speech. The National Indignation Convention, eighteen hundred delegates. Reagan: the progressive income tax "spawned by Karl Marx a hundred years ago." The last speaker: "I''m for hanging" Warren.'
     n: '[[w.smith-on-his-own-terms]], 370. To check: *Newsweek*, Dec. 4, 1961 (cited by [[w.smith-on-his-own-terms]], 370). Check: the day. Names: Reagan, Warren.'
@@ -3117,6 +4055,7 @@ entries:
   - id: cal.1961-11.elections-1962
     when: Nov.
     date: 1961-11
+    place: arkansas
     thread: elections-1962
     also: [right-and-the-military]
     c: 'Fulbright in Arkansas, some forty appearances: civilian control of the military, the ultras "soft." At Ozark, Ark., an overflow crowd of 400: "how many Communists do you know in your hometown?" A week later, a deer hunt on Hugh Brinkley''s plantation: back to "the fried chicken circuit."'
@@ -3131,6 +4070,7 @@ entries:
   - id: cal.1961-11-30.cuba-2
     when: Nov. 30
     date: '1961-11-30'
+    place: washington
     thread: cuba
     also: [robert-kennedy]
     c: 'Lansdale to Robert Kennedy: Friday the "day of decision" for "your special project" before Taylor''s group; the special intelligence estimate the major evidence against it. The intelligence "far from adequate"; its conclusion on an uprising "a ''conclusion of fact'' quite outside the area of intelligence."'
@@ -3218,6 +4158,7 @@ entries:
     when: Nov. 30
     date: '1961-11-30'
     time: 1961-11-30T12:00Z
+    place: saigon
     thread: vietnam
     c: 'Nolting to State: the "Thompson Mission is badly off rails from standpoint US-UK coordination"; Thompson''s recommendations, made to Diệm without consulting the Americans, complicate the reforms sought of Saigon. McGarr had protested Thompson''s views to the Chiefs and Felt.'
     n: 'Nolting to State, [FRUS 1961–63, I, doc. 299](https://history.state.gov/historicaldocuments/frus1961-63v01/d299). [[w.schulimson-joint-chiefs-of-staff]], 164 (Nolting''s cable; McGarr''s protest). Names: Nolting, Thompson, Diệm, McGarr, Felt.'
@@ -3291,6 +4232,7 @@ entries:
   - id: cal.1961-11.desegregation-schools
     when: Nov.
     date: 1961-11
+    place: chicago
     thread: desegregation-schools
     c: 'Chicago. The Woodlawn Organization''s "death watch" on the Board of Education: two or three of its members, dressed in black, sit silently through each meeting.'
     n: '[[w.ralph-northern-protest]], 17; [[w.cohen-american-pharaoh]], 284 (TWO''s "death watches" at the board''s meetings from November). Check: the month (Ralph: two months after late September). See [[cal.1961-09.desegregation-schools]].'
@@ -3303,6 +4245,7 @@ entries:
   - id: cal.1961-11.desegregation-schools-2
     when: Nov.
     date: 1961-11
+    place: chicago
     thread: desegregation-schools
     c: 'Chicago. Willis''s inventory of classrooms: 222 not in use, 143 of them to go to smaller classes, 65 to expected enrollment, 14 vacant. Mrs. Wendell Green and Pasnick, of the board: no plan to end double shifts. On Nov. 21, by Willis''s count, 15,232 of the city''s 22,374 pupils on double shift are in Districts 8, 16 and 20.'
     n: '[[w.anderson-confronting-the-color-line]], 86–87. Check: the day. To check: *Chicago Sun-Times*, 9 November 1961; see also U.S. Civil Rights Commission, Civil Rights U.S. A.: Public Schools, Cities in the North and West 1962—Chicago, Staff Report to the United States Commission on Civil Rights, prepared by John E. Coons (Washington, D.C.: U.S. Government Printing Office, 1962), pp. 199— 200 (cited by [[w.anderson-confronting-the-color-line]], 87 n.40); Webb 61 C 1569, "Affidavit in answer to Affidavit by Paul B. Zuber," p. 26 (cited by [[w.anderson-confronting-the-color-line]], 86 n.36). Names: Willis.'
@@ -3412,6 +4355,7 @@ entries:
   - id: cal.1961-11.transition-and-staff-2
     when: Nov.
     date: 1961-11
+    place: washington
     thread: transition-and-staff
     also: [latin-america]
     c: 'The South Lawn, a November afternoon, Kennedy leaving by helicopter for a weekend at his Virginia estate. He beckons Goodwin to the steps and says over the rotors: "You know, Dick, I think you''ll be more effective in the State Department. ... I''m going to announce it next week." Mounting the steps: "We''ll talk about it when I get back." The talk never took place.'
@@ -3420,6 +4364,7 @@ entries:
   - id: cal.1961-11.transition-and-staff-3
     when: Nov., Thanksgiving
     date: 1961-11
+    place: washington
     thread: transition-and-staff
     c: 'Told by Rusk that he is to leave the State Department as Under Secretary, Bowles threatens to resign. Sorensen, just come to Hyannis Port with the President for Thanksgiving, is sent back to Washington on Air Force One to keep Bowles from making a storm; they talk for hours in Bowles''s office, Sorensen affirming the new role and a White House car. Kennedy: "Ted, that''s your best work since the Michigan delegation!"'
     n: '[[w.sorensen-counselor]], 235 (Sorensen''s account, written in 2008; the President had told only Rusk, Robert Kennedy and Sorensen; Adzhubei on the plane, not entered). See [[cal.1961-11-26.transition-and-staff]]. Names: Bowles, Rusk, Sorensen, Kennedy. Check: the day; Adzhubei interviewed Kennedy at Hyannis Port Nov. 25 ([[cal.1961-11-25.berlin-and-vienna]]).'
@@ -3444,6 +4389,7 @@ entries:
     when: Nov., after the 19th
     date: 1961-11
     at: after 1961-11-19
+    place: mcalester
     thread: congress
     c: 'McAlester, Okla. Albert announces for majority leader, by a call to the AP''s congressional correspondent and by telegram to 269 people, "a few friends and the entire Democratic membership of Congress": "I take this means of advising that I am making the race for majority leader of the House subject to the action of the Democratic caucus. I will greatly appreciate your support and help. I would like to talk to you about the matter at your convenience." By Albert''s account.'
     n: '[[w.albert-little-giant-1990]], 254–55 (the telegram read off the page image, 255; the AP''s Bill Arbogast). Check: the day: the work gives none; after Bolling''s announcement on the Sunday ([[cal.1961-11-19.congress]]), once Albert had heard it on the radio and read it in the McAlester paper; he had meant to announce on the Wednesday. Names: Albert.'
@@ -3452,6 +4398,7 @@ entries:
     when: Nov., after the 19th
     date: 1961-11
     at: after 1961-11-19
+    place: mcalester
     thread: congress
     c: 'McAlester, Okla. Kerr, asked by telephone what help Albert needs, is told: phones. Within the hour three telephone workers install a bank of them in Albert''s offices in the Federal Building; he works them for four days. By Albert''s account.'
     n: '[[w.albert-little-giant-1990]], 255. Check: the day: the work gives none; the day of the telegram, as Albert begins his calls ([[cal.1961-11.congress-5]]). Names: Kerr, Albert.'
@@ -3483,6 +4430,7 @@ entries:
   - id: cal.1961-11-30.vietnam-hanoi
     when: Nov. 30–Dec. 2
     date: '1961-11-30'
+    place: hanoi
     thread: vietnam-hanoi
     also: [soviet-union, china]
     c: The Central Committee's sixth plenum, Hanoi. Lê Duẩn reports for the delegation, led by Hồ Chí Minh, to the Soviet party's Twenty-second Congress; the plenum approves the report and the delegation's acts, studies Khrushchev's report on the new program "for building communism," to be spread in the Party and among the people. The Politburo to put the Central Committee's view of the Albanian-Soviet quarrel to the Soviet, Albanian and fraternal parties when it can. Unity with the Soviet and Chinese parties, the Soviet Union "the center."
@@ -3499,9 +4447,15 @@ entries:
   - id: cal.1961-11-30.china-leadership
     when: Nov. 30
     date: '1961-11-30'
+    place: peking
     thread: china-leadership
     c: 'The Yinian Tang, evening. The Politburo Standing Committee, Mao presiding: the last days; the meetings with the other parties. Mao proposes a ten-year plan built on the seven-year plan.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 30, 1961. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 30, 1961. [[w.yang-shangkun-riji]], II, 95 (Nov. 30, 1961; the Standing Committee at the Yinian Tang, 10:10 p.m. to 12, Yang present: the last days and the forum; Mao raises a ten-year plan; Mao leaves Peking for the south). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 95) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong.'
+    src:
+      c: a33f74fb
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 30, 1961: all'
+        - 'w.yang-shangkun-riji II, 95: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-11.china-leadership
     when: Nov.
@@ -3528,3 +4482,30 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 176: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-11-30.china-leadership-3
+    when: Nov. 30
+    date: '1961-11-30'
+    time: 1961-11-30T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 12, hears the defense industry.
+    n: '[[w.yang-shangkun-riji]], II, 94 (Nov. 30, 1961). The words: 上午9时到12时 (II, 94). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: c4c773ee
+      rows:
+        - 'w.yang-shangkun-riji II, 94: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-11-30.china-leadership-4
+    when: Nov. 30
+    date: '1961-11-30'
+    time: 1961-11-30T07:00Z
+    place: peking
+    thread: china-leadership
+    c: The Great Hall of the People 人民大会堂, the Hebei Room 河北厅, 3 to 7 p.m. The forum of the parties' figures goes on; some democratic figures speak.
+    n: '[[w.yang-shangkun-riji]], II, 95 (Nov. 30, 1961). The words: 下午3时到7时 (II, 95). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-11-27.china-leadership]].'
+    src:
+      c: c3e00d1c
+      rows:
+        - 'w.yang-shangkun-riji II, 95: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai

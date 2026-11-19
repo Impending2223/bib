@@ -6,6 +6,7 @@ entries:
   - id: cal.1965-08-01.state-and-city-finance-ny
     when: Aug. 1
     date: '1965-08-01'
+    place: new-york-state
     thread: state-and-city-finance
     c: New York's first general State sales tax, 2 percent, in force, enacted in the spring at Rockefeller's request. Check the rate, the dates and the votes.
     n: '[[w.smith-on-his-own-terms]], 460, 463–64 (proposed by Rockefeller, 2 percent; enacted with the votes of Wagner''s Democrats, the city given the stock transfer tax in a swap). Check: *Laws of New York*, 1965. To check: [[w.connery-rockefeller-of-new-york]]; [[w.underwood-governor-rockefeller-in-new]]. Names: Rockefeller.'
@@ -60,6 +61,7 @@ entries:
   - id: cal.1965-08-01.vietnam-force-levels
     when: Aug. 1
     date: '1965-08-01'
+    place: nha-trang
     thread: vietnam-force-levels
     c: Task Force Alpha activated, the first Army field force headquarters in South Vietnam, assigned to U.S. Army, Vietnam.
     n: '[[w.macv-command-history-1965]], 98, 480; [[w.cosmas-joint-chiefs-of-staff-2012]], 326 (Task Force Alpha at Nha Trang, for the American troops in II and III Corps). See [[cal.1965-03-30.vietnam-force-levels]].'
@@ -71,6 +73,7 @@ entries:
   - id: cal.1965-08-01.vietnam-operations
     when: Aug. 1
     date: '1965-08-01'
+    place: duc-co
     thread: vietnam-operations
     c: The battle at the Đức Cơ Special Forces camp, west of Pleiku, begins.
     n: '[[w.macv-command-history-1965]], 167, 480.'
@@ -82,6 +85,7 @@ entries:
   - id: cal.1965-08-01.draft
     when: Aug. 1
     date: '1965-08-01'
+    place: lbj-ranch
     thread: draft
     also: [defense]
     c: 'Sunday, the Ranch. Johnson and Califano on a memorandum to McNamara: the clerical and noncombat jobs out of uniform, to keep draft calls as low as possible; Califano passes it to McNamara by telephone.'
@@ -114,6 +118,7 @@ entries:
   - id: cal.1965-08-01.desegregation-schools
     when: Aug. 1–2
     date: '1965-08-01'
+    place: chicago
     thread: desegregation-schools
     also: [mayors]
     c: 'Chicago, Bridgeport. The march to Daley''s home, Aug. 1, until 3 a.m. Aug. 2, his neighbors near rioting; Daley: the marchers are "trying to create tensions." The police arrest sixty-five of the marchers; Superintendent Orlando Wilson defends them. Raby wires the Attorney General for federal marshals.'
@@ -129,14 +134,16 @@ entries:
   - id: cal.1965-08-01.china-leadership
     when: Aug. 1
     date: '1965-08-01'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the Peking airport to welcome Aidit and the Indonesian Communist Party delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 1, 1965; afternoon; Beijing airport). The book names the chairman 艾地. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 1, 1965; afternoon; Beijing airport); [[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965; Yang at the eastern airport to welcome Aidit and the PKI delegation, leaving at 1:30 p.m. and back at 3:15; Zhou not named; the words: 1时半动身去东郊机场，欢迎艾地同志和印尼共代表团，回来已3时1刻了). The book names the chairman 艾地. Names: Zhou Enlai.'
     src:
       c: 871e5786
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
+        - 'w.yang-shangkun-riji II, 648: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-08-01T04:00Z
@@ -166,6 +173,37 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 114: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-01.china-leadership-4
+    when: Aug. 1
+    date: '1965-08-01'
+    thread: china-leadership
+    c: Wang Lin 王林 telephones Yang Shangkun 杨尚昆 with an account of the Northwest Bureau's meeting at Lanzhou 兰州.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965). The words: 晚饭时……王林同志来电话，告诉西北局兰州会议的情况 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Lin, Yang Shangkun.'
+    src:
+      c: e77f1ad9
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-01T14:00Z
+      - 1965-08-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-01.china-leadership-5
+    when: Aug. 1
+    date: '1965-08-01'
+    time: 1965-08-01T16:00Z
+    time_approx: true
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, about midnight. Yang Shangkun 杨尚昆 has an attack, sweating, the first in a long while.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965). The words: 12时左右发病，出汗，很久没有出现这种现象了 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c77036e6
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-02.state-and-city-finance-us
     when: Aug. 2
     date: '1965-08-02'
@@ -191,6 +229,7 @@ entries:
   - id: cal.1965-08-02.vietnam-force-levels-2
     when: Aug. 2
     date: '1965-08-02'
+    place: honolulu
     thread: vietnam-force-levels
     c: Honolulu. Westmoreland and Sharp at the conference on the Phase I deployments.
     n: '[[w.macv-command-history-1965]], 42, 480. Names: Westmoreland, Sharp. Check: the day; the chronology gives Aug. 2, the text "early August".'
@@ -229,6 +268,7 @@ entries:
     when: Aug. 2
     date: '1965-08-02'
     time: 1965-08-02T02:30Z
+    place: peking
     thread: china-leadership
     also: [europe-and-the-alliance-france, china]
     c: Zhou receives André Malraux, minister of state for cultural affairs and de Gaulle's special envoy.
@@ -247,6 +287,7 @@ entries:
     when: Aug. 2
     date: '1965-08-02'
     time: 1965-08-02T08:30Z
+    place: peking
     thread: china-leadership
     also: [middle-east]
     c: Zhou receives the UAR atomic energy delegation for the third time.
@@ -260,6 +301,7 @@ entries:
   - id: cal.1965-08-02.china-leadership-3
     when: Aug. 2
     date: '1965-08-02'
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou attends the farewell banquet given by the wife of Tanzania's First Vice President Karume.
@@ -310,15 +352,48 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 115–116: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 115 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-02.china-leadership-6
+    when: Aug. 2
+    date: '1965-08-02'
+    time: 1965-08-02T01:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9:30 a.m. to noon. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the trade unions' work.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 2, 1965). The words: 上午9时半到12时，约王愈明同志谈工会工作 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: 9b5e6e6e
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-02.china-leadership-7
+    when: Aug. 2
+    date: '1965-08-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 2, 1965). The words: 下午曾三同志来谈话 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: 0bfb4542
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-02T04:00Z
+      - 1965-08-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-03.voting-rights
     when: Aug. 3
     date: '1965-08-03'
+    place: washington
     thread: voting-rights
     c: House adopts the conference report on the voting rights bill, S. 1564, [328–74](https://voteview.com/rollcall/RH0890107); recommittal lost, [118–284](https://voteview.com/rollcall/RH0890106). The House's ban on the poll tax dropped for a finding that it abridges the right to vote and a direction to the Attorney General to sue.
     n: '[111 Cong. Rec. 19,200–01](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-5-2.pdf#page=15) (1965) (Aug. 3, 1965). [[w.branch-at-canaans-edge]], 275 (the House''s vote); [[w.mann-walls-of-jericho]], 475 (328–74); [[w.kotz-judgment-days]], 331 (328–74); [[w.zelizer-fierce-urgency-of-now]], 219 (328–74); [[w.bernstein-guns-or-butter]], 240–41 (Dirksen and Celler''s language; the American flag provision kept; 328 to 74). See [[cal.1965-07-09.voting-rights]].'
   - id: cal.1965-08-03.desegregation-schools-philadelphia
     when: Aug. 3
     date: '1965-08-03'
+    place: philadelphia
     thread: desegregation-schools
     also: [king]
     c: 'Philadelphia. King at the wall of Girard College: "a kind of Berlin wall."'
@@ -333,6 +408,7 @@ entries:
   - id: cal.1965-08-03.vietnam-support
     when: Aug. 3–4
     date: '1965-08-03'
+    place: washington
     thread: vietnam-support
     c: 'White House dinner on the government''s "information problem" on the war, Cater in the chair, McGeorge Bundy, Cooper, Califano, Marks, Chancellor, Greenfield and Morris Leibman, of Chicago, among those there; Leibman''s paper on a "10 to 20 year period of ''twilight war.''" Aug. 4, a luncheon: how to get the private sector to carry some of the burden; Cooper: the American Friends of Vietnam, the government''s hand "fairly hidden," helped to money. A Public Affairs Policy Committee for Vietnam follows, McGeorge Bundy chairman, meeting weekly.'
     n: '[FRUS 1964–68, III, doc. 105](https://history.state.gov/historicaldocuments/frus1964-68v03/d105) (Chase''s memorandum for the record of the dinner of Aug. 3). [[w.gibbons-u-s-government-and]], IV, 30–32; [[w.herring-lbj-and-vietnam]], 126, 130, 132 (the dinner, Bundy on the public''s patience; the American Friends of Vietnam, helped to private money; the committee, Bundy chairman, weekly); [[w.gibbons-u-s-government-and]], III, 266 n.124 (Cooper at the meeting of Aug. 4 on the "information problem"); [[w.wells-war-within]], 35. To check: Chase to Johnson, Aug. 4, 1965; Memorandum for the Record, "August 4 Luncheon Meeting on the Information Problem" (LBJ Library, NSF Country File, Vietnam; cited by [[w.herring-lbj-and-vietnam]], 132 n.51); agenda for the Tuesday lunch, Aug. 17, 1965, NSF Memos to the President, McGeorge Bundy, box 19, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 132 n.51); Leibman, memorandum on the information problem, attached to Cater to the participants, July 28, 1965 (cited by [[w.gibbons-u-s-government-and]], IV, 31 n.96); Folder "Public Affairs Policy Committee", NSF Country File, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 32 n.99). Names: Cater, McGeorge Bundy, Cooper, Califano, Marks, Chancellor, Greenfield.'
@@ -360,6 +436,7 @@ entries:
   - id: cal.1965-08-03.vietnam
     when: Aug. 3
     date: '1965-08-03'
+    place: gettysburg
     thread: vietnam-eisenhower
     c: 'Gettysburg. Goodpaster briefs Eisenhower, an hour and a half, on the deployments, the plan for the troops'' use and the bombing. Eisenhower: no "driblets"; "swamp the enemy with overwhelming force." No figures announced: the buildup "sufficient to win."'
     n: '[FRUS 1964–68, III, doc. 104](https://history.state.gov/historicaldocuments/frus1964-68v03/d104) (Goodpaster''s memorandum for the record). [[w.gibbons-u-s-government-and]], IV, 35 n.109 (the briefing; overwhelming force, no "dribbling"). Made public: FRUS 1964–68, III (1996). Names: Goodpaster, Eisenhower.'
@@ -379,6 +456,7 @@ entries:
   - id: cal.1965-08-03.vietnam-congress
     when: Aug. 3
     date: '1965-08-03'
+    place: washington
     thread: vietnam-congress
     c: 'Morse in the Senate, against a sine die adjournment: Members "will serve their President a lot better by being here to tell him the truth than by adjourning and leaving his ears to the exclusive talk of the McNamaras and the Lodges and the Bundys and the Rusks."'
     n: '[111 Cong. Rec. 19,132](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-5-1.pdf#page=73) (1965). [[w.mann-grand-delusion]], 463. The Senate sat from noon to 6:19 p.m.: [Daily Digest, D434](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=432). See [[cal.1965-07-27.vietnam-congress-4]]. Names: Morse.'
@@ -396,6 +474,7 @@ entries:
   - id: cal.1965-08-03.vietnam-2
     when: Aug. 3
     date: '1965-08-03'
+    place: washington
     thread: vietnam
     c: 'Lodge, ambassador-designate, to Johnson, through Bundy, with Lansdale''s memorandum to him: "Personally, I don''t see how the Communists can be defeated without these positive steps"; the war cannot be won "short of genocide unless our side puts the war on a political footing." Bundy to Johnson: "Lansdale appears quite ready to take over MACV, and yet he''s not all wrong"; for Lansdale''s going.'
     n: '[FRUS 1964–68, III, doc. 103](https://history.state.gov/historicaldocuments/frus1964-68v03/d103) (Lodge''s memorandum). [[w.preston-war-council]], 211–12. To check: Lansdale to Lodge, Aug. 3, 1965, and Bundy to Johnson, Aug. 3, 1965, NSF, Memos to the President, Bundy, box 4, LBJ Library (cited by [[w.preston-war-council]], 212 n.7). Names: Lodge, Johnson, Bundy, Lansdale.'
@@ -416,6 +495,7 @@ entries:
   - id: cal.1965-08-03.immigration
     when: Aug. 3
     date: '1965-08-03'
+    place: washington
     thread: immigration
     c: House Judiciary reports H.R. 2580, amended, 27 to 4; the Republicans file minority views against the Western Hemisphere's exemption.
     n: '[Daily Digest, D437](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=435) (Aug. 3, 1965) (the bill ordered reported). [[w.bernstein-guns-or-butter]], 257. See [[cal.1965-07-22.immigration]].'
@@ -470,6 +550,7 @@ entries:
   - id: cal.1965-08-03.economy
     when: Aug. 3
     date: '1965-08-03'
+    place: washington
     thread: economy
     c: Rules grants H.R. 4750 a closed rule, three hours of debate. Mills and Byrnes before it.
     n: 'Daily Digest, [111 Cong. Rec. D438](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=436). See [[cal.1965-06-21.economy-2]]. Names: Mills, Byrnes.'
@@ -518,6 +599,7 @@ entries:
   - id: cal.1965-08-03.china-leadership
     when: Aug. 3
     date: '1965-08-03'
+    place: peking
     thread: china-leadership
     also: [europe-and-the-alliance-france, china]
     c: 'Mao, Hall of the People, Room 118, afternoon: receives André Malraux, de Gaulle''s special envoy and minister of cultural affairs; Liu Shaoqi, Chen Yi present. Why peasants fought: ate the same food, dressed alike, land reform, democratic government, and victories; unite the national bourgeois and the intellectuals who did not flee to the enemy; united with Chiang for a time. China needs decades; also friends, like France, with diplomatic relations. Malraux: the Soviet leaders flee communism but do not know where to. Mao: they confuse the masses; China has two roads, Marxism-Leninism or the other.'
@@ -533,6 +615,7 @@ entries:
     when: Aug. 3
     date: '1965-08-03'
     time: 1965-08-03T07:00Z
+    place: peking
     thread: china-leadership
     also: [indonesia, africa]
     c: 'Zhou, with Cambodia''s ambassador, on the second Asian-African conference''s failure to meet on time, where the two states differ: the wording differs but the demand and aim are one; differences in interpreting some questions do not hurt the common struggle.'
@@ -548,6 +631,7 @@ entries:
     when: Aug. 3
     date: '1965-08-03'
     time: 1965-08-03T02:30Z
+    place: peking
     thread: china-leadership
     also: [middle-east]
     c: Zhou receives the UAR atomic energy delegation for the fourth time and gives a luncheon for it.
@@ -562,6 +646,7 @@ entries:
     when: Aug. 3
     date: '1965-08-03'
     time: 1965-08-03T05:30Z
+    place: peking
     thread: china-leadership
     also: [middle-east]
     c: Zhou receives the UAR ambassador in the Fujian Hall of the Great Hall of the People.
@@ -576,14 +661,16 @@ entries:
   - id: cal.1965-08-03.china-leadership-5
     when: Aug. 3
     date: '1965-08-03'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the banquet given by the Central Committee for Aidit and the Indonesian Communist Party delegation he leads; Liu Shaoqi and Deng Xiaoping also attend.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 3, 1965; evening; Beijing). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 3, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965; the banquet welcoming Aidit in the Great Hall of the People, 6:30 to 8 p.m.; Yang there; Zhou not named; the words: 6时半去大会堂参加欢迎艾地的宴会，8时才完). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 1af263f6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
+        - 'w.yang-shangkun-riji II, 648: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
     time_range:
       - 1965-08-03T11:00Z
@@ -593,6 +680,7 @@ entries:
   - id: cal.1965-08-03.china-leadership-6
     when: Aug. 3
     date: '1965-08-03'
+    place: peking
     thread: china-leadership
     also: [europe-and-the-alliance-france]
     c: Zhou attends the banquet given by the French ambassador Paye and his wife for de Gaulle's special envoy, the minister of state Malraux.
@@ -607,9 +695,38 @@ entries:
       - 1965-08-03T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-08-03.china-leadership-7
+    when: Aug. 3
+    date: '1965-08-03'
+    time: 1965-08-03T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 a.m. to noon. Yang Shangkun 杨尚昆 with Ma Chungu 马纯古 on the trade unions' leading cadres and the rectification of their work.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965). The words: 上午9时到12时，约马纯古同志谈工会领导干部问题和整顿工会工作的一些意见 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ma Chungu.'
+    src:
+      c: 6e664090
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-03.china-leadership-8
+    when: Aug. 3
+    date: '1965-08-03'
+    time: 1965-08-03T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the pool, 2:30 to 4 p.m. Yang Shangkun 杨尚昆 swims and talks with Hu Qiaomu 胡乔木 of education.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965). The words: 下午2时半到4时去游泳池游泳，同乔木同志谈了教育问题 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hu Qiaomu.'
+    src:
+      c: 43c6b018
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-04.court
     when: Aug. 4
     date: '1965-08-04'
+    place: washington
     thread: court
     also: [congress, states-and-cities, amendments, legislatures]
     c: Dirksen's amendment to let one house of a State legislature be apportioned on factors other than population, if the voters approve, fails in the Senate, [57–39](https://voteview.com/rollcall/RS0890177), seven short of two-thirds. Offered as a substitute for S.J. Res. 66, a resolution for National American Legion Baseball Week; the substitute taken, [59–39](https://voteview.com/rollcall/RS0890176); Javits's, [12–85](https://voteview.com/rollcall/RS0890175).
@@ -623,6 +740,7 @@ entries:
   - id: cal.1965-08-04.vietnam-congress
     when: Aug. 4
     date: '1965-08-04'
+    place: washington
     thread: vietnam-congress
     also: [defense]
     c: 'McNamara and Wheeler before Stennis''s defense subcommittee of Senate Appropriations, in executive session, on the $1.7 billion asked in early August for the war to the end of 1965: South Vietnam the test of the "war of national liberation"; "We have no desire to widen the war." The bombing only "very small" in difference from the Joint Chiefs'' program; Wheeler: "primarily one of tempo." Robertson and Ellender against more involvement; Symington, win or get out. Aug. 5, the House subcommittee, unprinted.'
@@ -656,6 +774,7 @@ entries:
   - id: cal.1965-08-04.voting-rights
     when: Aug. 4
     date: '1965-08-04'
+    place: washington
     thread: voting-rights
     follows:
       - cal.1965-08-04.voting-rights-2
@@ -676,6 +795,7 @@ entries:
   - id: cal.1965-08-04.king
     when: Aug. 4
     date: '1965-08-04'
+    place: washington
     thread: king
     also: [congress]
     c: 'King in Washington for three days, the last stop of a tour of Chicago, Cleveland and Philadelphia: through the District''s neighborhoods, with residents and members of Congress, for home rule.'
@@ -707,6 +827,7 @@ entries:
   - id: cal.1965-08-04.jobs-and-wages
     when: Aug. 4
     date: '1965-08-04'
+    place: washington
     thread: jobs-and-wages
     c: 'Roosevelt''s subcommittee reports its own Fair Labor Standards bill, 8 to 1: coverage for 7.9 million more; certain farm workers at $1.25; the nonfarm minimum to $1.75 in two steps.'
     n: '[Daily Digest, D440](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=438) (Aug. 4, 1965) (the subcommittee print on H.R. 8259 ordered reported). [[w.bernstein-guns-or-butter]], 428. To check: CQ Almanac, 1965, 858–61 (cited by [[w.bernstein-guns-or-butter]], 431 n.2). See [[cal.1965-05-25.jobs-and-wages]]. Names: Roosevelt.'
@@ -762,6 +883,7 @@ entries:
   - id: cal.1965-08-04.civil-rights-organizations
     when: Aug. 4
     date: '1965-08-04'
+    place: chicago
     thread: civil-rights-organizations
     also: [desegregation-schools]
     c: Chicago. The Coordinating Council, with groups that have marched without joining, ratifies the march on Bridgeport and Gregory's lead.
@@ -774,6 +896,7 @@ entries:
   - id: cal.1965-08-04.voting-rights-2
     when: Aug. 4
     date: '1965-08-04'
+    place: washington
     thread: voting-rights
     c: Senate adopts the conference report on the voting rights bill, S. 1564, [79–18](https://voteview.com/rollcall/RS0890178), clearing it for the President.
     n: '[111 Cong. Rec. 19,378](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-6-1.pdf#page=71) (1965) (Aug. 4, 1965). [[w.branch-at-canaans-edge]], 275 (the Senate''s passage); [[w.mann-walls-of-jericho]], 475 (the next day, 79–18, after a perfunctory debate); [[w.kotz-judgment-days]], 331 (the Senate 79–18 the next day, Smathers for); [[w.zelizer-fierce-urgency-of-now]], 219 (79–18); [[w.bernstein-guns-or-butter]], 240–41 (the next day, 79 to 18). See [[cal.1965-08-03.voting-rights]].'
@@ -787,6 +910,7 @@ entries:
   - id: cal.1965-08-04.china-leadership-2
     when: Aug. 4
     date: '1965-08-04'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou takes part in the talks between the Chinese Communist Party delegation led by Liu Shaoqi and the Indonesian Communist Party delegation led by Aidit.
@@ -797,6 +921,76 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 624: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
+  - id: cal.1965-08-04.china-leadership-3
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 with Yang Shangkun 杨尚昆 on work.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 上午李波人同志来谈工作 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: af7616d0
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-03T22:00Z
+      - 1965-08-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-04.china-leadership-4
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 午睡后游泳，3时半开始办公 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-04T04:00Z
+      - 1965-08-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-04.china-leadership-5
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 晚间7时半去看足球赛……田家英同志来谈话 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 57d08dda
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-04T14:00Z
+      - 1965-08-04T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-04.china-leadership-6
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-04.china-leadership-5
+    c: Peking 北京, to 2 a.m. Luo Qingchang 罗青长 and Feng Xuan 冯铉 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 罗青长、冯铉来谈话到2时才走 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Luo Qingchang, Feng Xuan, Yang Shangkun.'
+    src:
+      c: 364f4308
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-04T14:00Z
+      - 1965-08-04T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-05.vietnam
     when: Aug. 5
     date: '1965-08-05'
@@ -868,6 +1062,7 @@ entries:
     when: Aug. 5
     date: '1965-08-05'
     time: 1965-08-05T22:00Z
+    place: washington
     thread: vietnam-congress
     c: 'The NSC. McNamara on the Armed Services committees: "broad support, but this support is thin. There is a feeling of uneasiness and frustration"; Republicans "overstating" the war''s cost to the economy. Rusk: good support in House Foreign Affairs. Taylor: "By the end of 1965, the North Vietnamese offensive will be bloodied and defeated without having achieved major gains"; "1966 could be a decisive year."'
     n: '[FRUS 1964–68, III, doc. 110](https://history.state.gov/historicaldocuments/frus1964-68v03/d110). [[w.gibbons-u-s-government-and]], IV, 34; [[w.woods-fulbright]], 395; [[w.dallek-flawed-giant]], 286 (Johnson to the NSC on the 5th: "We are getting only bad things from the press"; a U.S. Information Agency officer: only "a minority of the correspondents cause trouble"; not McNamara, Rusk or Taylor). Made public: FRUS 1964–68, III (1996). [[w.mann-grand-delusion]], 464 (Taylor). Names: McNamara, Rusk, Johnson, Taylor.'
@@ -885,6 +1080,7 @@ entries:
   - id: cal.1965-08-05.vietnam-pause
     when: Aug. 5
     date: '1965-08-05'
+    place: washington
     thread: vietnam-pause
     c: '"Another Pause," Cooper to Bundy: after the night''s attack on the fuel depot at Đà Nẵng, a pause must show "that we have voluntarily held back our vast power"; with the buildup on the ground it "should minimize a possible interpretation of ''weakness''"; Nkrumah, the allies, Thant, India, Yugoslavia, Moscow; "We need to de-fuse this issue in order to free our hands." The same day, "Contact with the NLF": where, through whom, Saigon''s part; "I can''t resist the opportunity to cast an affirmative vote."'
     n: '[FRUS 1964–68, III, docs. 107](https://history.state.gov/historicaldocuments/frus1964-68v03/d107), [109](https://history.state.gov/historicaldocuments/frus1964-68v03/d109). [[w.preston-war-council]], 216–17. Names: Chester Cooper, Bundy, Nkrumah, U Thant.'
@@ -906,6 +1102,7 @@ entries:
     when: Aug. 5
     date: '1965-08-05'
     time: 1965-08-05T18:45Z
+    place: washington
     thread: vietnam-pause
     c: 'Bundy to Johnson, 2:45 p.m., the agenda for the 5:45 meeting, Goldberg''s proposal of a pause the main item: "a long pause at a time of relative U.S. strength seems to me more sensible than a short one now."'
     n: '[FRUS 1964–68, III, doc. 108](https://history.state.gov/historicaldocuments/frus1964-68v03/d108). [[w.preston-war-council]], 218. See [[cal.1965-08-05.vietnam-pause]]. Names: Bundy, Johnson, Goldberg.'
@@ -931,6 +1128,7 @@ entries:
   - id: cal.1965-08-05.king
     when: Aug. 5
     date: '1965-08-05'
+    place: washington
     thread: king
     also: [congress]
     c: 'Lafayette Park. King to some five thousand for home rule in the District: "We know Negroes can run this city as well as any white man"; the rally also "to thank the great President of our nation for his stand."'
@@ -963,6 +1161,7 @@ entries:
   - id: cal.1965-08-05.economy-2
     when: Aug. 5
     date: '1965-08-05'
+    place: washington
     thread: economy
     c: 'House passes H.R. 4750, [274–97](https://voteview.com/rollcall/RH0890112), the rule taken [329–44](https://voteview.com/rollcall/RH0890111). Mills: the tax extended to July 31, 1967. The Republicans'' separate views (Curtis, Utt, Betts, Broyhill): the tax and the other controls "invite retaliation by foreign governments."'
     n: '[111 Cong. Rec. 19,486](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-7-1.pdf#page=14) (1965) (the rule); [111 Cong. Rec. 19,487](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-7-1.pdf#page=15) (1965) (Mills); [111 Cong. Rec. 19,493](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-7-1.pdf#page=21) (1965) (the separate views); [111 Cong. Rec. 19,499](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-7-1.pdf#page=27) (1965) (the vote). See [[cal.1965-08-03.economy]]. Names: Mills, Curtis, Utt, Betts, Broyhill.'
@@ -985,6 +1184,7 @@ entries:
   - id: cal.1965-08-05.laos
     when: Aug. 5
     date: '1965-08-05'
+    place: washington
     thread: laos
     c: 'Washington: for "political factors," Air America keeps all rescue work in Barrel Roll; Air Force helicopters from Thailand for North Vietnam, prepositioned at Lima Site 36, none staying overnight in Laos; Thai-based Air Force helicopters in Laos only in extremis.'
     n: '[[w.anthony-war-in-northern-laos]], 178. To check: SECSTATE/SECDEF to AmEmb Vientiane, 92, Aug. 5, 1965 (cited by [[w.anthony-war-in-northern-laos]], 178 n.25). See [[cal.1964-08-26.laos]].'
@@ -1020,6 +1220,7 @@ entries:
   - id: cal.1965-08-05.china-leadership
     when: Aug. 5
     date: '1965-08-05'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: 'Mao, Hall of the People, Room 118, morning: receives an Indonesian Communist Party delegation under Aidit; Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng present. On gods and the human model; read Feuerbach, Hegel, Kant. On himself: 70 or 80 percent of the work now done by Liu, Zhou, Deng; he has not attended a Politburo meeting for some years, Liu presides, Deng is general secretary, Zhou premier, and better than he; he has a little bureaucracy, needed. Wrote no military book before fighting; had read the *Three Kingdoms* not Sun Zi.'
@@ -1040,6 +1241,7 @@ entries:
   - id: cal.1965-08-05.china-leadership-2
     when: Aug. 5
     date: '1965-08-05'
+    place: peking
     thread: china-leadership
     c: Zhou attends the opening of the Romanian economic exhibition and receives the Romanian government delegation, led by the minister of mines and power industry, and the head of the exhibition delegation.
     n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 5, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 43 (Aug. 4–13, 1965; Almășan''s delegation, Aug. 4 to 13; Liu Shaoqi and Zhou receive its members). The book names them 阿尔马善 and 布拉特. Names: Zhou Enlai.'
@@ -1065,11 +1267,60 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 117–118: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1965-08-05.china-leadership-4
+    when: Aug. 5
+    date: '1965-08-05'
+    time: 1965-08-05T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Telegraph Building, 9 a.m. to 12:15. Yang Shangkun 杨尚昆 sees the long-distance telephone equipment, his first visit.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 5, 1965). The words: 上午9时到12时1刻，去邮电大楼参观了各种长途电话的装备 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 67e9ea0d
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-05.china-leadership-5
+    when: Aug. 5
+    date: '1965-08-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Mao Weizhong 毛维忠 with Yang Shangkun 杨尚昆 on the plan for renovating the Juren Tang 居仁堂.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 5, 1965). The words: 下午天阴……毛维忠同志来谈了居仁堂的翻修方案 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Weizhong, Yang Shangkun.'
+    src:
+      c: d959e2e2
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-05T04:00Z
+      - 1965-08-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-05.china-leadership-6
+    when: Aug. 5
+    date: '1965-08-05'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Liu Jishun 刘吉顺 brings Yang Shangkun 杨尚昆 He Tongqing''s 贺同庆 letter: the summer harvest good at Chunhua 淳化 and Jingyang 泾阳.'
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 5, 1965). The words: 下午天阴……吉顺送来了贺同庆的信，夏收很好(淳化、泾阳) (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Jishun, Yang Shangkun, He Tongqing.'
+    src:
+      c: 8d66c3d3
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-05T04:00Z
+      - 1965-08-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-06.voting-rights
     when: Aug. 6
     date: '1965-08-06'
     time: 1965-08-06T16:00Z
     time_approx: true
+    place: washington
     thread: voting-rights
     c: Voting Rights Act signed in the President's Room off the Senate chamber, after Johnson's address in the Rotunda at noon, [79 Stat. 437](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg437.pdf). Literacy tests and like devices suspended where under half the voting-age population was registered on Nov. 1, 1964, or voted that November; federal examiners to list voters there; new voting rules there to be cleared by the Attorney General or the District Court in Washington. "The vote is the most powerful instrument ever devised by man for breaking down injustice."
     n: 'Remarks in the Capitol Rotunda at the Signing of the Voting Rights Act, [1965 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=314) (Aug. 6, 1965). Statute (K–J Cong. II.J.2). [President''s Daily Diary, Aug. 6, 1965](https://catalog.archives.gov/id/192457), image 2 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]], 436; [[w.branch-at-canaans-edge]], 276–77; [[w.mann-walls-of-jericho]], 475–76 (the address in the Rotunda; the signing); [[w.califano-triumph-and-tragedy-of]], 57–58 (in the car, "If, if, if"; the Rotunda; the President''s Room; the first pen to Humphrey, the second to Dirksen; "from protest to politics"); [[w.kotz-judgment-days]], 336 (just after noon, the President''s Room; King, Rosa Parks, Wilkins, Farmer); [[w.branch-pillar-of-fire]], 606 (signed in the Capitol; section 4''s suspension in seven Southern States); [[w.zelizer-fierce-urgency-of-now]], 219–20 (the Rotunda; the President''s Room; the first pen to Humphrey, the second to Dirksen); [[w.kotz-judgment-days]], 337 (a pen to King and one to Sergeant Everett L. Cooper, his police guard; King: an "eloquent and persuasive speech"); [[w.bernstein-guns-or-butter]], 241 (the room Lincoln used Aug. 6, 1861); [[w.young-easy-burden]], 369; [[w.dallek-flawed-giant]], 220 (the remarks in the Rotunda, then the signing, Aug. 6); [[w.johnson-white-house-diary]], 306 (the signing of the Voting Rights Bill "in the Capitol"; Luci beside him; Mrs. Johnson, in New York, did not see it). To check: [[w.graham-civil-rights-era]], 171–73 (cited by [[w.dallek-flawed-giant]], 220 n.97). See [[cal.1965-03-07.voting-rights]]; [[cal.1965-03-15.voting-rights]]; [[cal.1965-08-03.voting-rights]]. Names: Johnson.'
@@ -1107,6 +1358,7 @@ entries:
   - id: cal.1965-08-09.war-opposition
     when: Aug. 6–9
     date: '1965-08-06'
+    place: washington
     thread: war-opposition
     also: [vietnam]
     c: 'Washington. The Assembly of Unrepresented People, Muste, Dellinger and Lynd among its leaders, some 1,000. Aug. 6, a delegation with Cooper at the White House. Aug. 9, marching on the Capitol, they refuse to stop at the police lines: 350 arrested. A National Coordinating Committee to End the War in Vietnam formed, 23 organizations.'
@@ -1129,6 +1381,7 @@ entries:
   - id: cal.1965-08-06.europe-and-the-alliance-france
     when: Aug. 6
     date: '1965-08-06'
+    place: washington
     thread: europe-and-the-alliance-france
     c: 'NSAM 336, after an American plane is found to have photographed the French nuclear plant at Pierrelatte: all agencies to take special measures against activities in France that could needlessly embarrass relations; a catalogue of such activities, covert, clandestine or overt, by Sept. 1.'
     n: 'NSAM 336, [FRUS 1964–68, XII, doc. 51](https://history.state.gov/historicaldocuments/frus1964-68v12/d51) (Aug. 6, 1965) (the order). [[w.schwartz-lyndon-johnson-and-europe]], 93 (the photographs, in July). Made public: FRUS 1964–68, XII (2001). Check: the day of the overflight.'
@@ -1148,6 +1401,7 @@ entries:
   - id: cal.1965-08-06.vietnam
     when: Aug. 6
     date: '1965-08-06'
+    place: paris
     thread: vietnam-diplomacy
     c: 'Paris. Gullion, retired from the Foreign Service, sent as an authorized but unofficial American, meets Mai Văn Bộ, North Vietnam''s representative: the first of four meetings, to Sept. 1. Code name XYZ, Gullion "X," Bộ "Rupert." Ball in charge.'
     n: 'FRUS 1964–68, III, docs. [112](https://history.state.gov/historicaldocuments/frus1964-68v03/d112) (editorial note: the contact, the four meetings, the talking points), [113](https://history.state.gov/historicaldocuments/frus1964-68v03/d113) (the first meeting). [[w.herring-lbj-and-vietnam]], 98–99 (from a businessman''s word to State, July 29; Ball in charge; Gullion''s instructions to build on Hanoi''s four points; the talks of August and September, the most substantive of 1964–68). Made public: [[w.herring-secret-diplomacy-of-the]], 77–107 (1983); FRUS 1964–68, III (1996). To check: [[w.herring-secret-diplomacy-of-the]]. Names: Gullion, Mai Văn Bộ, Ball.'
@@ -1184,6 +1438,7 @@ entries:
   - id: cal.1965-08-06.voting-rights-2
     when: Aug. 6
     date: '1965-08-06'
+    place: washington
     thread: voting-rights
     also: [congress]
     follows:
@@ -1218,6 +1473,7 @@ entries:
   - id: cal.1965-08-06.program
     when: Aug. 6
     date: '1965-08-06'
+    place: greenwich-ct
     thread: program
     c: Greenwich, Conn. Lady Bird Johnson and Lynda, asked by Mrs. Hirshhorn, an hour among Joseph Hirshhorn's sculpture at his house, his lawyer Sam Harris there. The Tate and New York museums are said to be wooing the collection.
     n: '[[w.johnson-white-house-diary]], 307–08 (Mrs. Johnson''s account). See [[cal.1965-05-21.program]]. Names: Johnson.'
@@ -1229,6 +1485,90 @@ entries:
     c: Zhou presides over the CPPCC National Committee's tea party welcoming Li Zongren and Mrs. Li Guo Dejie home.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 747 (Aug. 6, 1965). Names: Zhou Enlai, Li Zongren, Guo Dejie.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-08-06.china-leadership-2
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the western airport, morning. Yang Shangkun 杨尚昆 sees off Aidit 艾地 and his party.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 上午8时起床，去西郊机场送艾地同志等一行 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Aidit.'
+    src:
+      c: 6e7b59b2
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, name:aidit-dipa-nusantara, vis:only:prc]
+    time_range:
+      - 1965-08-05T22:00Z
+      - 1965-08-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-3
+    when: Aug. 6
+    date: '1965-08-06'
+    time: 1965-08-06T02:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. to noon. The NPC Standing Committee's 14th session; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 10时到12时，参加人大常委会14次会议 (II, 649). Names: Yang Shangkun.'
+    src:
+      c: 8bc821a2
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-4
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 午睡后去游泳，王愈明来谈工会、青年团的会议 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-06T04:00Z
+      - 1965-08-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-5
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the NPC's small auditorium. Yang Shangkun 杨尚昆 accompanies the Indonesian comrades and Hoàng Văn Hoan 黄文欢, of the Vietnamese Politburo (the editors' note), to *Shajiabang* 沙家浜.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 6, 1965). The words: 晚间去人大小礼堂看《沙家浜》，陪印尼同志和黄文欢 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hoàng Văn Hoan.'
+    src:
+      c: 16c23329
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc+drv+indonesia]
+    time_range:
+      - 1965-08-06T11:00Z
+      - 1965-08-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-6
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-06.china-leadership-4
+    c: Peking 北京. Wang Yuming 王愈明 tells Yang Shangkun 杨尚昆 of the trade unions' and the Youth League's meetings.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 午睡后去游泳，王愈明来谈工会、青年团的会议 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 05007ef7
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-06T04:00Z
+      - 1965-08-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-07.voting-rights
     when: Aug. 7
     date: '1965-08-07'
@@ -1255,10 +1595,11 @@ entries:
   - id: cal.1965-08-07.china-leadership
     when: Aug. 7
     date: '1965-08-07'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off Aidit and the Indonesian Communist Party delegation, returning home.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; morning; Beijing airport). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; morning; Beijing airport). Check: Yang Shangkun''s diary has him see Aidit''s party off at the western airport the morning of Aug. 6 ([[w.yang-shangkun-riji]], II, 649); some of the Indonesians still in Peking that evening. Names: Zhou Enlai.'
     src:
       c: b7233294
       rows:
@@ -1273,6 +1614,7 @@ entries:
     when: Aug. 7
     date: '1965-08-07'
     time: 1965-08-07T09:00Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Nepal's ambassador in the Fujian Hall of the Great Hall of the People.
@@ -1287,6 +1629,7 @@ entries:
     when: Aug. 7
     date: '1965-08-07'
     time: 1965-08-07T09:30Z
+    place: peking
     thread: china-leadership
     c: Zhou receives Denmark's new ambassador in the Great Hall of the People.
     n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; 5:30 p.m., Great Hall of the People). The book names the ambassador 奥尔登伯格. Names: Zhou Enlai.'
@@ -1300,6 +1643,7 @@ entries:
     when: Aug. 7
     date: '1965-08-07'
     time: 1965-08-07T10:30Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Pakistan's ambassador in the Fujian Hall of the Great Hall of the People.
@@ -1334,9 +1678,55 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 44: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1965-08-07.china-leadership-5
+    when: Aug. 7
+    date: '1965-08-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Wei 王伟 on the Youth League's work.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 7, 1965). The words: 上午约王伟同志谈话(共青团工作) (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Wei.'
+    src:
+      c: 05baf20e
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-06T22:00Z
+      - 1965-08-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-07.china-leadership-6
+    when: Aug. 7
+    date: '1965-08-07'
+    time: 1965-08-07T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Huabei Hotel, 4 to 6 p.m. Yang Shangkun 杨尚昆 speaks to the machine-building trade union's conference.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 7, 1965). The words: 下午4时到6时，去华北饭店向机工会议讲话 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0ea960ba
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-07.china-leadership-7
+    when: Aug. 7
+    date: '1965-08-07'
+    time: 1965-08-07T14:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 to 11 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 7, 1965). The words: 10时到11时游泳 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 64d1776c
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-08.state-and-city-finance
     when: Aug. 8, a week after the sales tax
     date: '1965-08-08'
+    place: smithtown
     thread: state-and-city-finance
     c: 'Smithtown, N.Y., its tercentenary parade. Rockefeller, at its head, booed and pelted with dimes; a girl''s sign: "Penny Collection for Rockefeller''s Sales Tax."'
     n: '[[w.smith-on-his-own-terms]], 474 (the day by Smith''s reckoning, "exactly a week" after the tax took effect). Check: the day. See [[cal.1965-08-01.state-and-city-finance-ny]]. Names: Rockefeller.'
@@ -1363,6 +1753,7 @@ entries:
     when: Aug. 8
     date: '1965-08-08'
     time: 1965-08-08T03:00Z
+    place: peking
     thread: china-leadership
     also: [indonesia, vietnam-hanoi]
     c: 'Zhou receives Cambodia''s deputy premier and the head of state''s private adviser Song Siang and his delegation; they settle Prince Sihanouk''s holiday in China in September. Tells them: the Third Five-Year Plan, the third stage, is about to begin; industry and farming have grown and some heads are hot again, wanting more, with over 1,200 large projects this year; it must be cut back; the experience of the first two stages must be summed up so as to make fewer mistakes in the third.'
@@ -1378,6 +1769,7 @@ entries:
   - id: cal.1965-08-08.china-leadership-2
     when: Aug. 8
     date: '1965-08-08'
+    place: peking
     thread: china-leadership
     c: Zhou attends the banquet given by Cambodia's ambassador for the visit of Deputy Prime Minister Song Siang.
     n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 8, 1965; evening; Beijing). Names: Zhou Enlai.'
@@ -1410,6 +1802,37 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 119: all'
     tags: [polity:prc, name:mao-zedong, polity:guinea, vis:only:prc+guinea]
+  - id: cal.1965-08-08.china-leadership-5
+    when: Aug. 8
+    date: '1965-08-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Boren 李波人 on the Central Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 8, 1965). The words: 上午起床已10时了，约李波人同志谈了中监委会议问题 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren.'
+    src:
+      c: db02e40c
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-07T22:00Z
+      - 1965-08-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-08.china-leadership-6
+    when: Aug. 8
+    date: '1965-08-08'
+    time: 1965-08-08T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 2:30 to 4 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 8, 1965). The words: 2时半到4时去游泳 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7b4846c7
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-09.voting-rights
     when: Aug. 9
     date: '1965-08-09'
@@ -1428,6 +1851,7 @@ entries:
   - id: cal.1965-08-09.vietnam-congress
     when: Aug. 9–11
     date: '1965-08-09'
+    place: washington
     thread: vietnam-congress
     c: 'Off-the-record White House briefings on the war for all the Members, 74 Senators and 336 Representatives: Johnson, then Taylor, Rusk and McNamara; Harriman on his talks in Moscow, Goldberg on U Thant, Black on the Mekong.'
     n: '[[w.gibbons-u-s-government-and]], IV, 34. To check: President''s Daily Diary, the briefings of mid-August 1965, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 34 n.106); Partial transcripts of the briefings of Aug. 10 and 11, 1965, Transcripts of Vietnam Briefings, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 34 n.106). Check: the days; Morse''s speech of Aug. 10 has one the day before. Names: Johnson, Taylor, Rusk, McNamara, Harriman, Goldberg, Black.'
@@ -1451,6 +1875,7 @@ entries:
   - id: cal.1965-08-09.civil-rights-organizations
     when: Aug. 9–13
     date: '1965-08-09'
+    place: birmingham
     thread: civil-rights-organizations
     also: [king, war-opposition]
     c: Birmingham, SCLC's ninth convention. The board refers a move into the North to a committee, and amends King's resolution for negotiations in Vietnam to say that SCLC's "primary function" is to secure the rights of Negroes. Hosea Williams's SCOPE to end with August.
@@ -1464,6 +1889,7 @@ entries:
   - id: cal.1965-08-09.governors
     when: Aug. 9
     date: '1965-08-09'
+    place: nyc
     thread: governors
     also: [press-and-broadcasting, elections-1965]
     c: 'New Jersey. The *New York Times*, an editorial, "New Jersey Nonsense," on Dumont''s campaign against Genovese of Rutgers: "McCarthyism is a dead horse. If Mr. Dumont does not climb off it and start riding some live issues, his campaign will be a waste of time."'
@@ -1532,6 +1958,7 @@ entries:
   - id: cal.1965-08-09.laos
     when: Aug. 9
     date: '1965-08-09'
+    place: vientiane
     thread: laos
     c: 'Sullivan from Vientiane, 142: agrees, reluctantly and with reservations, to limited ground reconnaissance across the border from South Vietnam.'
     n: '[[w.gibbons-u-s-government-and]], IV, 192. To check: Vientiane to Washington, telegram 142, Aug. 9, 1965, Central File, Pol 27 Viet S, State Department (cited by [[w.gibbons-u-s-government-and]], IV, 192 n.66). Names: Sullivan.'
@@ -1563,10 +1990,42 @@ entries:
     c: Zhou chairs the 13th meeting of the Special Commission. The preparations for the joined-bombs test go well; next, tactical missiles. Tests to be as economical as possible; the commission's use is to push on and pool wisdom.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 748 (Aug. 9–10, 1965). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-08-09.china-leadership-2
+    when: Aug. 9
+    date: '1965-08-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 9, 1965). The words: 上午约王愈明同志谈话 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: c7106629
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-08T22:00Z
+      - 1965-08-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-09.china-leadership-3
+    when: Aug. 9
+    date: '1965-08-09'
+    time: 1965-08-09T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 7 p.m. The Secretariat meets on the Youth League's and the All-China Federation of Trade Unions' work; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 9, 1965). The words: 下午3时半到7时，书记处会议。讨论青年团、总工会工作 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: fb69a1fb
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-10.cities-and-housing
     when: Aug. 10
     date: '1965-08-10'
     time: 1965-08-10T16:02Z
+    place: washington
     thread: cities-and-housing
     c: 'Housing and Urban Development Act of 1965 signed, [79 Stat. 451](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg451.pdf). Rent supplements: the Government to pay the owner of private nonprofit or limited-dividend housing what the rent exceeds a quarter of a low-income tenant''s income; payments up to $30 million a year at first, rising to $150 million a year from July 1968. FHA insurance, urban renewal, public and college housing extended. The Senate had kept rent supplements July 15, [40–47](https://voteview.com/rollcall/RS0890159) on striking them, and passed the bill, [54–30](https://voteview.com/rollcall/RS0890162); conference report, House, July 27, [251–168](https://voteview.com/rollcall/RH0890098). Aug. 11, the Senate passes the bill for a Department of Housing and Urban Development, [57–33](https://voteview.com/rollcall/RS0890179).'
     n: 'Remarks at the Signing of the Housing and Urban Development Act, [1965 Pub. Papers 861](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=335) (Aug. 10, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt12/pdf/GPO-CRECB-1965-pt12-7-1.pdf) (1965); [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt13/pdf/GPO-CRECB-1965-pt13-7-2.pdf) (1965); [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf) (1965). [[w.valenti-very-human-president]], 191 (the Act signed Aug. 10, 1965, Public Law 89-117; H.R. 7984 passed by the House July 27, 1965, 251 to 168, not called the conference report). To check: [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1965-06-16.cities-and-housing]]; [[cal.1965-06-30.cities-and-housing]]. Names: Weaver. Check: the pages.'
@@ -1600,6 +2059,7 @@ entries:
   - id: cal.1965-08-10.india-and-china
     when: Aug. 10
     date: '1965-08-10'
+    place: washington
     thread: india-and-china-kashmir
     c: 'NSAM 337: alternatives to the intelligence facilities in Pakistan to be readied.'
     n: '[FRUS 1964–68, XXV, doc. 168](https://history.state.gov/historicaldocuments/frus1964-68v25/d168). See [[cal.1965-08-05.india-and-china]]. Names: Johnson.'
@@ -1630,6 +2090,7 @@ entries:
   - id: cal.1965-08-10.vietnam-congress
     when: Aug. 10
     date: '1965-08-10'
+    place: washington
     thread: vietnam-congress
     c: 'Morse in the Senate, the day after a White House briefing: "an Alice-in-Wonderland exhibition"; the guerrilla war lost and turned into a conventional war under "the same men who failed." McGeorge Bundy sends Johnson a summary the next day.'
     n: '[111 Cong. Rec. 19,840](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-1-1.pdf) (1965). [[w.gibbons-u-s-government-and]], IV, 34–35. To check: McGeorge Bundy and Thomson to Johnson, summary of Morse''s speech, Aug. 11, 1965, Presidential Chron File, 7/65–8/65, James Thomson, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 35 n.108). See [[cal.1965-08-09.vietnam-congress]]. Names: Morse, McGeorge Bundy, Johnson.'
@@ -1650,6 +2111,7 @@ entries:
   - id: cal.1965-08-10.war-opposition
     when: Aug. 10
     date: '1965-08-10'
+    place: washington
     thread: war-opposition
     also: [vietnam-congress, students]
     c: 'The House passes the bill making it a crime to destroy or mutilate a draft card, up to five years and $10,000, the day after the arrests at the Capitol: 393–1, Henry P. Smith of New York against. Bray: "a filthy, sleazy beatnik gang."'
@@ -1672,6 +2134,7 @@ entries:
     when: Aug. 10
     date: '1965-08-10'
     time: 1965-08-10T21:30Z
+    place: washington
     thread: vietnam-support
     c: 'Moyers''s office, 5:30 to 6:30 p.m., on the war''s information problems. Greenfield: the reports of American soldiers burning villages cause "very serious problems here and abroad"; Sylvester: "unfriendly correspondents," Cẩm Nê "not typical"; Cooper: "at issue here is how the war should be fought." Zorthian to take charge of press and information at the Embassy.'
     n: '[FRUS 1964–68, III, doc. 117](https://history.state.gov/historicaldocuments/frus1964-68v03/d117). [[w.gibbons-u-s-government-and]], IV, 70. Made public: FRUS 1964–68, III (1996). See [[cal.1965-08-03.vietnam-support]]. Check: Gibbons dates the meeting Sept. 12 in the text and Aug. 10 in the note. Names: Moyers, Greenfield, Sylvester, Cooper.'
@@ -1700,6 +2163,7 @@ entries:
   - id: cal.1965-08-10.economy
     when: Aug. 10
     date: '1965-08-10'
+    place: washington
     thread: economy
     c: Finance orders H.R. 4750 reported with amendments; Long reports it Aug. 17 (S. Rept. 621).
     n: 'Daily Digest, [111 Cong. Rec. D453](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=451); [111 Cong. Rec. 20,601](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-6-1.pdf#page=3) (1965). See [[cal.1965-08-05.economy-2]]. Names: Long.'
@@ -1718,6 +2182,7 @@ entries:
   - id: cal.1965-08-10.civil-rights-organizations
     when: Aug. 10
     date: '1965-08-10'
+    place: chicago
     thread: civil-rights-organizations
     also: [king]
     c: 'Chicago. Raby to the Coordinating Council: he is urging King to announce a Chicago campaign in time for a boycott of the schools when they open. A steering committee named to work with SCLC on a Fall Freedom Program.'
@@ -1756,9 +2221,72 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 120: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-10.china-leadership-2
+    when: Aug. 10
+    date: '1965-08-10'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The secretaries' office reports to Yang Shangkun 杨尚昆 on the masses' letters and visits.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 上午听秘书室关于群众来信、来访工作的汇报 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 445dd02b
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-09T22:00Z
+      - 1965-08-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-10.china-leadership-3
+    when: Aug. 10
+    date: '1965-08-10'
+    time: 1965-08-10T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, Nanhai 南海, 3 to 4 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 下午3时到4时去南海游泳 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: cb69bae8
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-10.china-leadership-4
+    when: Aug. 10
+    date: '1965-08-10'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lai Zulie 赖祖烈.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 下午3时到4时去南海游泳。约老赖谈话 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lai Zulie.'
+    src:
+      c: 2c2c68cc
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-10T04:00Z
+      - 1965-08-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-10.china-leadership-5
+    when: Aug. 10
+    date: '1965-08-10'
+    time: 1965-08-10T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. to midnight. Feng Xuan 冯铉 and Luo Qingchang 罗青长 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 9时到12时冯铉、青长来谈话 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Feng Xuan, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: 4f0bf5a4
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-11.states-and-cities
     when: Aug. 11–16
     date: '1965-08-11'
+    place: los-angeles
     thread: civil-disorders-watts
     also: [states-and-cities]
     c: Watts, Los Angeles. A highway patrolman arrests Marquette Frye for drunken driving at 116th Street and Avalon, Aug. 11; a crowd gathers; six days of rioting, looting, and burning. Brown in Greece; Lieutenant Governor Anderson sends the Guard, on the streets Aug. 13, nearly 14,000 by the end; a curfew over the district. 34 dead, more than 1,000 hurt, some 4,000 arrested. Check the figures.
@@ -1786,6 +2314,7 @@ entries:
   - id: cal.1965-08-11.court
     when: Aug. 11
     date: '1965-08-11'
+    place: washington
     thread: court
     c: Fortas confirmed by the Senate, without a roll call.
     n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-2-2.pdf) (1965). The Senate sat from noon to 5:58 p.m.: [Daily Digest, D457](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=455). See [[cal.1965-07-28.vietnam]]. Names: Fortas. Check: the Judiciary Committee''s hearing, Aug. 5, as the entry of July 28 had it; no source read for the day. Check: the page.'
@@ -1797,6 +2326,7 @@ entries:
   - id: cal.1965-08-11.vietnam
     when: Aug. 11
     date: '1965-08-11'
+    place: washington
     thread: vietnam-eisenhower
     c: 'Lodge to Johnson: a half hour with Eisenhower, at Johnson''s request. Eisenhower against "dribbling" forces in, for adequate forces at once; no announcement of the total. The South Vietnamese must have "heart," or after a success "they will slump right back."'
     n: '[FRUS 1964–68, III, doc. 118](https://history.state.gov/historicaldocuments/frus1964-68v03/d118). [[w.gibbons-u-s-government-and]], IV, 35–36 n.109 (the "heart"). Made public: FRUS 1964–68, III (1996). See [[cal.1965-08-03.vietnam]]. Names: Lodge, Eisenhower, Johnson.'
@@ -1817,6 +2347,7 @@ entries:
     when: Aug. 11
     date: '1965-08-11'
     time: 1965-08-11T17:08Z
+    place: washington
     thread: conservation
     also: [states-and-cities]
     c: 'The Water Emergency Conference on the Northeast''s drought, Udall presiding: Johnson to the governors, Rockefeller among them, and the mayors; lunch together.'
@@ -1830,6 +2361,7 @@ entries:
   - id: cal.1965-08-11.states-and-cities-2
     when: Aug. 11
     date: '1965-08-11'
+    place: washington
     thread: states-and-cities
     c: 'Multer files a discharge petition on the District home rule bill: 218 names, a majority of the House, to take it from the District Committee.'
     n: '[[w.bernstein-guns-or-butter]], 313. The House sat from noon to 5:17 p.m.: [Daily Digest, D459](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=457). Check: the Record of the day. See [[cal.1965-08-04.states-and-cities]]. Names: Multer.'
@@ -1918,11 +2450,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi hears Chen Zhengren, Minister of the Eighth Ministry of Machine Building, report on developing farm-machinery production. Liu says: farm machinery is a productive force; if it is not done well now it will have to be done in the end; it does not help agriculture if done badly, and farming cannot develop; take as few detours as possible, subsidize little, and open this road.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 11, 1965). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 11, 1965); [[w.yang-shangkun-riji]], II, 651 (Aug. 11, 1965; the Politburo''s meeting in the Huairen Tang 怀仁堂, 3:30 to 7 p.m., hears Chen Zhengren on farm machinery; Yang there; Liu not named; the words: 下午3时半到7时，在怀仁堂开政治局会议，听陈正人同志关于农业机械的汇报). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-08-12.war-opposition
     when: Aug. 12
     date: '1965-08-12'
+    place: birmingham
     thread: war-opposition
     also: [king]
     c: 'Birmingham, at SCLC''s convention: "Few events in my lifetime have stirred my conscience and pained my heart as the present conflict which is raging in Vietnam. ... The true enemy is war itself." King will write to the world''s leaders for negotiations, Hồ Chí Minh among them.'
@@ -1959,6 +2492,7 @@ entries:
     when: Aug. 12
     date: '1965-08-12'
     time: 1965-08-12T16:25Z
+    place: washington
     thread: vietnam
     c: Lodge sworn as Ambassador to South Vietnam, his second tour.
     n: 'Remarks at the Swearing In of Henry Cabot Lodge as Ambassador to South Viet-Nam, [1965 Pub. Papers 877](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=351) (Aug. 12, 1965). [[w.califano-triumph-and-tragedy-of]], 59; [[w.johnson-white-house-diary]], 311 (in Johnson''s day, "the swearing in of Cabot Lodge"; not the post). See [[cal.1965-07-08.vietnam]]. Names: Lodge.'
@@ -1972,6 +2506,7 @@ entries:
   - id: cal.1965-08-12.civil-rights-organizations
     when: Aug. 12
     date: '1965-08-12'
+    place: birmingham
     thread: civil-rights-organizations
     also: [war-opposition, king]
     c: 'Birmingham. SCLC''s board, after King''s word on Vietnam: his right to his own views; "the primary function of our organization is to secure full citizenship rights for the Negro citizens of this country." Benjamin Hooks: "I question whether it is wise for us to go too far in the international arena."'
@@ -1991,6 +2526,7 @@ entries:
   - id: cal.1965-08-12.jobs-and-wages-14b
     when: Aug. 12
     date: '1965-08-12'
+    place: washington
     thread: jobs-and-wages-14b
     c: 'The Senate Subcommittee on Labor adopts H.R. 77 with Morse''s amendment, 7 to 1: one whose faith forbids union membership may pay the dues'' equal to a charity.'
     n: '[[w.bernstein-guns-or-butter]], 310–11. Check: the Daily Digest of the day. See [[cal.1965-06-22.jobs-and-wages-14b]]. Names: Morse.'
@@ -2008,6 +2544,7 @@ entries:
   - id: cal.1965-08-12.states-and-cities
     when: Aug. 12
     date: '1965-08-12'
+    place: washington
     thread: states-and-cities
     c: The House District Committee announces hearings on home rule, to open Aug. 18.
     n: '[[w.bernstein-guns-or-butter]], 313. See [[cal.1965-08-11.states-and-cities-2]].'
@@ -2052,6 +2589,7 @@ entries:
   - id: cal.1965-08-12.civil-disorders-watts
     when: Aug. 12
     date: '1965-08-12'
+    place: los-angeles
     thread: civil-disorders-watts
     c: 'Los Angeles. Finch, Nixon''s campaign director in 1960, now out of politics, at lunch with Theodore White: after the arrest of the night before, Watts on the edge of explosion; no one understands it, Mayor Yorty least of all. White, by his account, dismisses the warning.'
     n: '[[w.white-making-of-the-president-1969]], 23–24. White''s own account. See [[cal.1965-08-11.states-and-cities]]. Names: Finch, Theodore White, Yorty.'
@@ -2063,6 +2601,7 @@ entries:
   - id: cal.1965-08-12.poverty
     when: Aug. 12
     date: '1965-08-12'
+    place: new-jersey
     thread: poverty
     c: 'New Jersey. Lady Bird Johnson sees Head Start at the Cleveland Elementary School, Newark, and at Lambertville, with Shriver, Governor and Mrs. Hughes and Mayor Addonizio; a press conference in the classroom. Her point: eight weeks are "a drop in the bucket." At Morven, the Governor''s house, a tent for several hundred New Jersey educators, clergymen and Head Start officials; she speaks from the letters of Head Start workers.'
     n: '[[w.johnson-white-house-diary]], 308–11 (Mrs. Johnson''s account). Names: Shriver, Hughes, Addonizio, Johnson.'
@@ -2112,6 +2651,7 @@ entries:
   - id: cal.1965-08-12.china-leadership-2
     when: Aug. 12
     date: '1965-08-12'
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou receives Trần Văn Thanh, head of the National Liberation Front's permanent mission in China, who hands him a letter from Front chairman Nguyễn Hữu Thọ to Mao, Liu, Zhu and Zhou, thanking them and the Chinese people for support of the South Vietnamese struggle against American aggression.
@@ -2122,9 +2662,41 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 748–49: ?'
         - 'w.zhou-enlai-waijiao-huodong 473: A'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, polity:prc, polity:nlf, vis:only:prc+nlf]
+  - id: cal.1965-08-12.china-leadership-3
+    when: Aug. 12
+    date: '1965-08-12'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions' work.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 12, 1965). The words: 上午王愈明同志来谈工会工作 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 31f619f1
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-11T22:00Z
+      - 1965-08-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-12.china-leadership-4
+    when: Aug. 12
+    date: '1965-08-12'
+    time: 1965-08-12T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. The trade unions' Party group reports to Yang Shangkun 杨尚昆 on the provincial and municipal trade union meetings; its papers discussed.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 12, 1965). The words: 下午3时半到6时，约工会党组各同志来汇报省市工会会议的情况，并对他们提出的文件进行讨论 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f8bf1950
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-13.japan-and-korea
     when: Aug. 13
     date: '1965-08-13'
+    place: seoul
     thread: japan-and-korea-korean-troops
     also: [vietnam]
     c: Korea's National Assembly authorizes a combat division for Vietnam, 101–1, 2 abstaining, the opposition absent. Johnson's message of thanks to Park.
@@ -2134,6 +2706,7 @@ entries:
   - id: cal.1965-08-13.middle-east-yemen
     when: Aug. 13
     date: '1965-08-13'
+    place: washington
     thread: middle-east-yemen
     c: 'Komer to Johnson on Faisal''s request: the destroyer visit, no air unit.'
     n: '[FRUS 1964–68, XXI, doc. 376](https://history.state.gov/historicaldocuments/frus1964-68v21/d376). See [[cal.1965-08-11.middle-east]]. Names: Komer, Johnson.'
@@ -2147,6 +2720,7 @@ entries:
   - id: cal.1965-08-13.war-opposition
     when: Aug. 13
     date: '1965-08-13'
+    place: washington
     thread: war-opposition
     c: 'The Senate passes the House''s draft-card bill, H.R. 10306, without a roll call, on Mansfield''s motion. Thurmond, for Armed Services: public burnings of draft cards "should not and must not be tolerated."'
     n: '[111 Cong. Rec. 20,433–34](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-4-1.pdf#page=32) (1965) (Senate, Aug. 13, 1965). [[w.gibbons-u-s-government-and]], IV, 28 (the Senate''s passage). Check: Zaroulis and Sullivan, 54, have the Senate pass it Aug. 12 by voice vote. See [[cal.1965-08-10.war-opposition]]. Names: Mansfield, Thurmond.'
@@ -2202,6 +2776,7 @@ entries:
   - id: cal.1965-08-13.civil-disorders
     when: Aug. 13–15
     date: '1965-08-13'
+    place: chicago
     thread: civil-disorders
     also: [states-and-cities]
     c: Chicago, the West Side, after a fire truck from an all-white firehouse has killed a woman. Aug. 13, Landry's ACT holds a protest meeting at the place; more than three hundred clash with the police, twenty-four hurt, a white motorist attacked. Raby fails to calm the crowd and calls off the march to Daley's house. Violence until near dawn, 104 arrested. Two thousand National Guardsmen in position Aug. 15.
@@ -2217,6 +2792,7 @@ entries:
   - id: cal.1965-08-13.king
     when: Aug. 13
     date: '1965-08-13'
+    place: miami
     thread: king
     also: [civil-disorders-watts]
     c: 'Miami, on the way to Puerto Rico, King hears of Watts; Los Angeles''s Negro ministers ask him to come. Rustin: he can do nothing and may hurt himself. King flies on to San Juan.'
@@ -2229,6 +2805,7 @@ entries:
   - id: cal.1965-08-13.china-leadership
     when: Aug. 13–15
     date: '1965-08-13'
+    place: shanghai
     thread: china-leadership
     c: 'Zhou goes to Shanghai, Aug. 13–15, at the request of the "small commission", to help Li Renjun and the East China provincial and city secretaries study the adjustment of this year''s capital construction. Remarks: planners should manage the production of people as well as goods, the army too should practice family planning; hold population under 800 million in the fifteen-year plan; Shanghai to bring net growth to 1 percent in five years; keep sending city people to the countryside. Labor, wage, education, family planning and going down to be joined; city people to the country year after year: "so long as we do not retire." Water: order the works, Hai, Yellow, Huai, sea first then Huai. Flies back the 15th; later reports on East China to the Standing Committee.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 749 (Aug. 13–15, 1965). Made public: 1997. Names: Zhou Enlai, Li Renjun.'
@@ -2252,9 +2829,124 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 130 n.1e: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 130 n.1f: all'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1965-08-13.china-leadership-3
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Boren 李波人, Li Zhizhong 李质忠 and Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 上午约李波人、李质忠、王愈明同志谈话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren, Li Zhizhong, Wang Yuming.'
+    src:
+      c: dab9f417
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-12T22:00Z
+      - 1965-08-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-4
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 下午游泳后 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T04:00Z
+      - 1965-08-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-5
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-13.china-leadership-4
+    c: Peking 北京. Wang Yuming 王愈明 again with Yang Shangkun 杨尚昆 on the trade unions' work.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 下午游泳后，王愈明同志又来谈工会工作 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: fa1dafb9
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T04:00Z
+      - 1965-08-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-6
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-13.china-leadership-5
+    c: Peking 北京. Lai Zulie 赖祖烈 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 下午游泳后……赖祖烈来谈话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lai Zulie, Yang Shangkun.'
+    src:
+      c: c442bc53
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T04:00Z
+      - 1965-08-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-7
+    when: Aug. 13
+    date: '1965-08-13'
+    time: 1965-08-13T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 to 10 p.m. Kong Yuan 孔原, Feng Xuan 冯铉, Luo Qingchang 罗青长 and Wang Taojiang 王涛江, deputy head of the Investigation Department (the editors' note), with Yang Shangkun 杨尚昆 on the department's work.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 8时半到10时孔原、冯铉、青长、涛江同志来谈调查部的工作问题 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Feng Xuan, Luo Qingchang, Wang Taojiang, Yang Shangkun.'
+    src:
+      c: b0d2e3c7
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-8
+    when: Aug. 13
+    date: '1965-08-13'
+    time: 1965-08-13T14:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 to 11 p.m. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the papers of the trade union and Youth League meetings.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 10时到11时同王愈明谈工会会议和青年团会议文件 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: 526f3b91
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-9
+    when: Aug. 13
+    date: '1965-08-13'
+    time: 1965-08-13T15:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 11 p.m. to 12:30. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 11时到12时半田家英同志来谈话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: feb11c6a
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-14.japan-and-korea
     when: Aug. 14
     date: '1965-08-14'
+    place: seoul
     thread: japan-and-korea-normalization
     also: [japan]
     c: Korea's National Assembly approves the treaty with Japan, the opposition absent. Johnson's statement, Aug. 15. Check the date.
@@ -2293,6 +2985,7 @@ entries:
   - id: cal.1965-08-14.alabama
     when: Aug. 14
     date: '1965-08-14'
+    place: fort-deposit
     thread: alabama
     also: [voting-rights]
     c: Fort Deposit, Lowndes County. Some twenty Negro teenagers with SNCC's workers, Jonathan Daniels and Father Morrisroe of Chicago among them, picket stores while a hundred Negroes wait to register with the federal examiners at the post office. Armed men close in within a minute; the pickets are arrested, Carmichael with them, and carried to the county jail at Hayneville on a garbage truck. Carl Golson, the registrar, smashes a reporters' windshield with a baseball bat.
@@ -2354,6 +3047,7 @@ entries:
   - id: cal.1965-08-14.china-leadership
     when: Aug. 14
     date: '1965-08-14'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off Vice Premier Chen Yi, leading a government delegation to Jakarta for the celebrations of the twentieth anniversary of Indonesia's declaration of independence.
@@ -2387,6 +3081,116 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 121–122: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:kim-il-sung, polity:dprk]
+  - id: cal.1965-08-14.china-leadership-3
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 tells Yang Shangkun 杨尚昆 of the trade union meeting.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 上午9时上班，王愈明来谈工会会议情况 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 5094d325
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T22:00Z
+      - 1965-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-4
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 上午9时上班……李波人同志来谈监委会议情况 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 765e2416
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T22:00Z
+      - 1965-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-5
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and An Ziwen 安子文 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 上午9时上班……与安子文同志通了电话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, An Ziwen.'
+    src:
+      c: 0ddaff0a
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T22:00Z
+      - 1965-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-6
+    when: Aug. 14
+    date: '1965-08-14'
+    time: 1965-08-14T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 2:30 to 4 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 下午2时半到4时游泳，准备向工会省市主席讲话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7b4846c7
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-7
+    when: Aug. 14
+    date: '1965-08-14'
+    time: 1965-08-14T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the All-China Federation of Trade Unions, 8 to 10 p.m. Yang Shangkun 杨尚昆 speaks to the provincial and municipal trade union chairmen.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 散步后，8时去总工会讲话，到10时才回 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-14.china-leadership-6]]. Names: Yang Shangkun.'
+    src:
+      c: ef16a400
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-8
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Qizhang 陈麒章 tells Yang Shangkun 杨尚昆 of Peng Zhen's 彭真 views on some papers of the Organization Department.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 陈麒章来谈彭真同志关于组织部几个文件的意见 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Qizhang, Yang Shangkun, Peng Zhen.'
+    src:
+      c: d7af912c
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-08-14.china-leadership-9
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-14.china-leadership-6
+    c: Peking 北京. Yang Shangkun 杨尚昆 prepares his speech to the trade unions' provincial and municipal chairmen.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 下午2时半到4时游泳，准备向工会省市主席讲话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ac90a300
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-14T04:00Z
+      - 1965-08-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-15.india-and-china
     when: Aug. 15
     date: '1965-08-15'
@@ -2479,6 +3283,7 @@ entries:
   - id: cal.1965-08-15.china-leadership
     when: Aug. 15
     date: '1965-08-15'
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou attends at the Beijing Hotel the reception given by the ambassador of the Congo (Brazzaville) for the second anniversary of its August revolution.
@@ -2513,6 +3318,23 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 125–126: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 125 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:li-zuopeng, vis:only:prc]
+  - id: cal.1965-08-15.china-leadership-4
+    when: Aug. 15
+    date: '1965-08-15'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 15, 1965). The words: 晚饭……散步后，看了电视，李波人同志来谈监委会议情况 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 765e2416
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T11:00Z
+      - 1965-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-16.king
     when: Aug. 16
     date: '1965-08-16'
@@ -2634,6 +3456,7 @@ entries:
   - id: cal.1965-08-16.china-leadership-3
     when: Aug. 16
     date: '1965-08-16'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives the head of Pakistan's agricultural investigation committee and his daughter.
@@ -2648,9 +3471,101 @@ entries:
       - 1965-08-16T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-4
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 上午来谈话的有: 王愈明、李波人、何均同志等 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T22:00Z
+      - 1965-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-5
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 上午来谈话的有: 王愈明、李波人、何均同志等 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 4ef875ce
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T22:00Z
+      - 1965-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-6
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. He Jun 何均 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 上午来谈话的有: 王愈明、李波人、何均同志等 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Yang Shangkun.'
+    src:
+      c: a2996cdd
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T22:00Z
+      - 1965-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-7
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. An Ziwen 安子文 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 安子文同志来谈 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen, Yang Shangkun.'
+    src:
+      c: 8a11274b
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-08-16.china-leadership-8
+    when: Aug. 16
+    date: '1965-08-16'
+    time: 1965-08-16T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. A small meeting of the Secretariat on work for Peng Dehuai 彭德怀, Huang Kecheng 黄克诚 and others; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 下午3时半到6时，书记处小会，讨论彭德怀、黄克诚等工作分配问题 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Dehuai, Huang Kecheng.'
+    src:
+      c: 9722e5d2
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-9
+    when: Aug. 16
+    date: '1965-08-16'
+    time: 1965-08-16T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 to 10 p.m. Yang Shangkun 杨尚昆 with Zhou Rongxin 周荣鑫 and Gao Dengbang 高登榜 on some rules and the streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 晚间8时半到10时，约周荣鑫、高登榜同志谈若干制度和精简工作问题 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Rongxin, Gao Dengbang.'
+    src:
+      c: d36dc524
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-17.mississippi-ms
     when: Aug. 17
     date: '1965-08-17'
+    place: mississippi
     thread: mississippi
     also: [state-constitutions, voting-rights]
     c: 'Mississippi''s voters approve the amendments of the June special session, 130,832 to 49,330, 72.6 percent: the interpretation test of 1954, the "good moral character" requirement, and the publication of applicants'' names repealed. Paul Johnson proposed them; the House refused twice before passing them. The poll tax for State elections stands. Check the date.'
@@ -2672,6 +3587,7 @@ entries:
   - id: cal.1965-08-17.state-constitutions-mo
     when: Aug. 17
     date: '1965-08-17'
+    place: missouri
     thread: state-constitutions
     also: [legislatures]
     c: 'Missouri, special election. Adopted: No. 1, a governor may be elected twice, 204,987 to 75,968, 73.0 percent; No. 2, cities may sell industrial plants built with revenue bonds, 176,942 to 94,882, 65.1 percent. Refused: No. 3, a House of 168 apportioned by law after each census, a Senate of 34 districted by a commission, 112,211 to 160,568, 41.1 percent.'
@@ -2688,6 +3604,7 @@ entries:
     date: '1965-08-17'
     time: 1965-08-17T23:30Z
     time_approx: true
+    place: washington
     thread: steel
     c: 'Abel of the Steelworkers at the White House: "I made commitments to the members who elected me." Johnson likens him to Russell against the civil rights bill.'
     n: '[[w.dallek-flawed-giant]], 304; [[w.califano-triumph-and-tragedy-of]], 86–87 (about 7:30 p.m.; Abel: "These are commitments, Mr. President"; Russell, "We''ve got to make a stand somewhere"; Johnson''s story, "Everybody''s gotta stand somewhere"; the union''s paper to Ackley and Eckstein); [[w.bernstein-guns-or-butter]], 361 (the meeting; Abel''s demand refused). See [[cal.1963-04-11.steel]]. Names: Abel, Johnson, Russell.'
@@ -2703,6 +3620,7 @@ entries:
   - id: cal.1965-08-17.vietnam
     when: Aug. 17
     date: '1965-08-17'
+    place: gettysburg
     thread: vietnam-eisenhower
     c: 'Eisenhower, at a news conference at Gettysburg: the Communists must be stopped in Vietnam, but his letter to Diệm made no commitment of a military kind.'
     n: '[*New York Times*, Aug. 18, 1965](https://timesmachine.nytimes.com/timesmachine/1965/08/18/issue.html). [[w.gibbons-u-s-government-and]], IV, 35 (all but the place). Check: Gibbons has the letter of "October 1955." Names: Eisenhower, Ngô Đình Diệm.'
@@ -2837,6 +3755,7 @@ entries:
   - id: cal.1965-08-17.desegregation-schools-2
     when: Aug. 17
     date: '1965-08-17'
+    place: chicago
     thread: desegregation-schools
     also: [mayors]
     c: 'Chicago. Raby with the city''s officials, talks on how much is being done "for Negroes." Raby: "This was not the meeting I had requested." The *Sun-Times* against his words on "keeping peace at the price of injustice."'
@@ -2856,6 +3775,7 @@ entries:
   - id: cal.1965-08-17.civil-disorders-watts
     when: Aug. 17
     date: '1965-08-17'
+    place: los-angeles
     thread: civil-disorders-watts
     also: [king]
     c: 'Tuesday afternoon, King and Rustin in Los Angeles: with Otis Chandler of the *Times* and Governor Brown. King: "I worked to get these people the right to eat hamburgers, and now I''ve got to do something ... to help them get the money to buy it."'
@@ -2886,6 +3806,7 @@ entries:
   - id: cal.1965-08-17.vietnam-hanoi
     when: Aug. 17
     date: '1965-08-17'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s resolution no. 126-NQ/TW on mending the organs of the Party Center and the Government, chiefly the Politburo''s and the Secretariat''s direction of the economy: the Government Council''s standing committee and the Prime Minister''s Office to be filled out and the work of the Prime Minister and his deputies divided; the State Planning, Science and Price Commissions and several ministries strengthened; the State Inspection Commission abolished and its work tied to economic and cultural work.'
     n: '*Nghị quyết của Bộ Chính trị số 126-NQ/TW về việc kiện toàn một bước tổ chức lãnh đạo và chỉ đạo thực hiện của Trung ương Đảng và Chính phủ*, signed (T/M Ban Bí thư) by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXVI, 340–62 (the Government, 359–62). Made public: 2003.'
@@ -2913,6 +3834,7 @@ entries:
   - id: cal.1965-08-17.china-leadership-3
     when: Aug. 17
     date: '1965-08-17'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends at the Beijing Hotel the grand reception given by Indonesia's ambassador and his wife for the twentieth anniversary of Indonesia's declaration of independence.
@@ -2932,7 +3854,7 @@ entries:
     date: '1965-08-17'
     thread: china-leadership
     c: 'Mao to Liu Shaoqi 刘少奇 and Zhou, to go back to Luo Ruiqing 罗瑞卿: the Military Commission to discuss (1) whether the Military Engineering Academy 军事工程学院''s report on its students'' share in the rural socialist education movement can go to the whole army for reference; (2) all officers from platoon leader up, except the old and gravely ill, to join the local movement, in phases within two years, four half-year periods, the whole army done. Even Guo Huaruo 郭化若, a sick man, went to Zhejiang 浙江 for a round and gained much; his report of ten lessons is sent for forwarding to the older comrades. Tell Lin Biao 林彪 by telephone.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 127–129 (Aug. 17, 1965; Mao''s note; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Luo Ruiqing, forwarding to Mao Zedong the report of the Military Engineering Academy''s political department of July 22, 1965, Aug. 13, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 127 n.1a); Political Department of the PLA Military Engineering Academy, to Luo Ruiqing, the General Political Department, the National Defense Science Commission and the Heilongjiang Party committee, report on the students'' share in the rural socialist education movement (1,072 students and cadres, Acheng county, Harbin area, late Nov. 1964 to end of June 1965), July 22, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 127 n.1b); Guo Huaruo, report to Mao Zedong on five months in the socialist education movement at the Liming brigade, Jingjiang commune, Xiaoshan county, Zhejiang, with ten lessons, July 31, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 128 n.4). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Luo Ruiqing, Lin Biao, Guo Huaruo.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 127–129 (Aug. 17, 1965; Mao''s note; printed from the manuscript); [[w.macfarquhar-origins-of-the-cultural]], III, 437 n.49 (Mao urges the PLA to learn from the students of an army engineering academy who took part in the movement in Heilongjiang). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Luo Ruiqing, forwarding to Mao Zedong the report of the Military Engineering Academy''s political department of July 22, 1965, Aug. 13, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 127 n.1a); Political Department of the PLA Military Engineering Academy, to Luo Ruiqing, the General Political Department, the National Defense Science Commission and the Heilongjiang Party committee, report on the students'' share in the rural socialist education movement (1,072 students and cadres, Acheng county, Harbin area, late Nov. 1964 to end of June 1965), July 22, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 127 n.1b); Guo Huaruo, report to Mao Zedong on five months in the socialist education movement at the Liming brigade, Jingjiang commune, Xiaoshan county, Zhejiang, with ten lessons, July 31, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 128 n.4); Mao Zedong''s and Lin Biao''s comments on the PLA in the socialist education movement, 1963–65, in [[w.zedong-jianguo-yilai-mao-zedong]], 10, 432–3, 449–51; 11, 43–6, 223–4, 437–9, 472–3, 480–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 437 n.49c). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Luo Ruiqing, Lin Biao, Guo Huaruo.'
     src:
       c: be967443
       rows:
@@ -2940,10 +3862,59 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 127 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 127 n.1b: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 128 n.4: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 437 n.49: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 437 n.49c: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:luo-ruiqing, name:lin-biao, vis:only:prc]
+  - id: cal.1965-08-17.china-leadership-5
+    when: Aug. 17
+    date: '1965-08-17'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明, Li Boren 李波人 and Liu Huo 刘火.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 17, 1965). The words: 上午约王愈明、李波人、刘火同志谈话 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Li Boren, Liu Huo.'
+    src:
+      c: b532c2c0
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-16T22:00Z
+      - 1965-08-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-17.china-leadership-6
+    when: Aug. 17
+    date: '1965-08-17'
+    time: 1965-08-17T04:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People, 12:30 to 1:30 p.m. Mao 毛泽东 receives the members of several bodies' meetings, photographed in two groups; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 17, 1965). The words: 下午12时半在人大会堂参加主席接见各单位开会的人员，分两批照相，到1时半才完 (II, 653). Names: Mao Zedong, Yang Shangkun. Check: whether the naval units and men honored for the fisheries fight, whom Mao, Liu Shaoqi and Zhou received that day ([[cal.1965-08-17.china-leadership]]), were among them.'
+    src:
+      c: d7d092f9
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, name:mao-zedong]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-17.china-leadership-7
+    when: Aug. 17
+    date: '1965-08-17'
+    time: 1965-08-17T07:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, 3:30 to 6:30 p.m. Yang Shangkun 杨尚昆 speaks three hours without a break to the General Office cadres going down for the second round of the four cleanups. By the record (the editors'' note): his one "squat" in Niujiao 牛角, "boring into the ox''s horn"; squatting good for body and mind; it showed the countryside''s want of doctors and culture (a film''s hire 30 yuan, a peasant''s year''s income) and the question of farm tools; the movement one of education, the masses to be roused, a class organization built; the poor peasants'' association, the branch rebuilt, Party members admitted one by one, the young won from their families, landlords'' and rich peasants'' children judged by conduct; labor as one can, the "four togethers" not overdone; take it only as reference.'
+    n: '[[w.yang-shangkun-riji]], II, 653–661 (Aug. 17, 1965). The words: 3时半到6时半，与办公厅下去搞第二批四清的同志讲话，一气讲了3小时，中间未休息 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4ede644f
+      rows:
+        - 'w.yang-shangkun-riji II, 653–661: all'
+        - 'via w.yang-shangkun-riji II, 653 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-18.vietnam
     when: Aug. 18–24
     date: '1965-08-18'
+    place: van-tuong
     thread: vietnam-operations
     c: 'Operation Starlite, the Vạn Tường peninsula south of Chu Lai. Walt''s Marines, by sea and by helicopter, against the 1st Viet Cong Regiment, found by a deserter''s word: the first major attack by American troops alone. The Marines count 614 enemy dead; 45 Marines killed. Check the figures.'
     n: '[FRUS 1964–68, III, doc. 125](https://history.state.gov/historicaldocuments/frus1964-68v03/d125) (Sharp, Aug. 23). [[w.vietnam-victory-in-vietnam]], 157–58 (the operation, from Aug. 18, on the 1st Regiment at Vạn Tường); [[w.drea-mcnamara-clifford-and-the-2011]], 98, 115, 571 n.42 (the operation; the first big American ground operation; more than 600 of the enemy and 45 Marines killed); [[w.westmoreland-soldier-reports]], 155–56 (the operation; some 700 Viet Cong dead); [[w.mcnamara-in-retrospect]], ch. 8 (Aug. 18–21, the Batangan Peninsula south of Chu Lai: the first major engagement with Viet Cong forces, a victory). [[w.macv-command-history-1965]], 162 (the operation from Aug. 18 against the 1st Regiment). To check: [[w.shulimson-u-s-marines-in]]; [[w.lehrack-first-battle]]; [[w.andrew-first-fight]]. See [[cal.1965-07-28.vietnam]]. Names: Walt. Check: *Victory in Vietnam* gives 900 Americans killed or wounded, 13 aircraft shot down and 22 tanks and armored vehicles destroyed, half the 1st Regiment away collecting rice (158). Check: MACV''s history, 162, has it end Aug. 21 with some 700 of the enemy killed.'
@@ -2963,6 +3934,7 @@ entries:
   - id: cal.1965-08-18.desegregation-schools-ma
     when: Aug. 18
     date: '1965-08-18'
+    place: massachusetts
     thread: desegregation-schools
     also: [states-and-cities]
     c: 'Massachusetts. Volpe signs the Racial Imbalance Act: a school more than half nonwhite is imbalanced; the State Board of Education may withhold State aid from a district that does not submit and carry out a plan. Carter''s vigil ends, its 114th day.'
@@ -2978,6 +3950,7 @@ entries:
   - id: cal.1965-08-18.amendments
     when: Aug. 18
     date: '1965-08-18'
+    place: washington
     thread: amendments
     also: [congress]
     c: 'House Judiciary Committee and its Subcommittee No. 5, Celler''s, open hearings on a four-year term for Representatives: nineteen joint resolutions, H.J. Res. 394 among them. To Mar. 1, 1966, the President''s text added.'
@@ -3006,6 +3979,7 @@ entries:
   - id: cal.1965-08-18.robert-kennedy
     when: Aug. 18
     date: '1965-08-18'
+    place: spring-valley-ny
     thread: robert-kennedy
     also: [states-and-cities, civil-disorders-watts]
     c: 'Spring Valley, N.Y. Robert Kennedy to the Independent Order of Odd Fellows: "All these places — Harlem, Watts, Southside — are riots waiting to happen." The army of the resentful and desperate in the North "an army without generals"; the black middle class has failed to help those below.'
@@ -3041,6 +4015,7 @@ entries:
   - id: cal.1965-08-18.civil-disorders-watts
     when: Aug. 18
     date: '1965-08-18'
+    place: los-angeles
     thread: civil-disorders-watts
     also: [king]
     c: 'Watts. King, with Rustin, at the Westminster Neighborhood Association, heckled: "Get out of here, Dr. King!" A man: "All we want is jobs. ... We don''t get no jobs, we''ll tear up Los Angeles, period." King: "We are not free in the South, and you are not free in the cities of the North." "Elijah Muhammad is my brother, even though our methods are different." That day he sees Governor Brown.'
@@ -3065,6 +4040,7 @@ entries:
     date: '1965-08-18'
     time: 1965-08-18T07:00Z
     time_approx: true
+    place: los-angeles
     thread: civil-disorders-watts
     also: [black-nationalism]
     c: Los Angeles, after midnight. Some hundred police fire into Muhammad's Mosque No. 27 of the Nation of Islam, by their count a thousand rounds, and arrest nineteen men inside for conspiracy to commit arson and to murder the officers, forty more arriving after.
@@ -3090,9 +4066,41 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 230: B'
         - 'via w.zelizer-fierce-urgency-of-now 230 n.6: B'
     tags: [name:johnson-lyndon-b, name:mccone-john-a, name:brown-edmund-g]
+  - id: cal.1965-08-18.china-leadership
+    when: Aug. 18
+    date: '1965-08-18'
+    time: 1965-08-18T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Huairen Tang 怀仁堂 hall, 9 a.m. to 12:30. Yang Shangkun 杨尚昆 hears the report of the Central Control Commission's meeting, the heads of the central bureaus' control groups there, and An Ziwen 安子文.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 18, 1965). The words: 上午9时到12时半，在怀仁堂大厅，听中监委会议的汇报，到有各中央局监察组组长，安子文同志也到了 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, An Ziwen.'
+    src:
+      c: 83a458be
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-18.china-leadership-2
+    when: Aug. 18
+    date: '1965-08-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to 6:30 p.m. Yang Shangkun 杨尚昆 with Liu Huo 刘火, Li Zhizhong 李质忠, Li Jian 李鉴, Li Boren 李波人, Wang Yuming 王愈明 and others on work.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 18, 1965). The words: 下午3时起床，办公到6时半，约刘火、李质忠、李鉴、李波人、王愈明等同志谈工作 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Huo, Li Zhizhong, Li Jian, Li Boren, Wang Yuming.'
+    src:
+      c: 525fdd0f
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-18T04:00Z
+      - 1965-08-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-19.poverty
     when: Aug. 19
     date: '1965-08-19'
+    place: washington
     thread: poverty
     c: 'Senate passes the Economic Opportunity Amendments, H.R. 8283, [61–29](https://voteview.com/rollcall/RS0890199): $1.65 billion for the year. Amendments to keep the governors'' veto over community action, given by the 1964 act, fail, Aug. 18: [43–43](https://voteview.com/rollcall/RS0890192), [42–43](https://voteview.com/rollcall/RS0890193). The House passed its bill July 22, [245–158](https://voteview.com/rollcall/RH0890095).'
     n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-7-1.pdf) (1965); [Aug. 19, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt16/pdf/GPO-CRECB-1965-pt16-1-2.pdf); [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt13/pdf/GPO-CRECB-1965-pt13-4-2.pdf) (1965). [[w.kotz-judgment-days]], 344 (by Johnson''s word to King, Aug. 20, the doubled funds by 44 to 43, after his calls to the governors of Indiana and Nevada). The Senate sat from noon to 7:17 p.m.: [Daily Digest, D484](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=482). See [[cal.1964-08-20.poverty]]. Check: the pages.'
@@ -3114,6 +4122,7 @@ entries:
   - id: cal.1965-08-19.japan-and-korea
     when: Aug. 19–21
     date: '1965-08-19'
+    place: okinawa
     thread: japan
     also: [vietnam]
     c: 'Satō on Okinawa, the first Prime Minister there since the war: until Okinawa returns, the postwar period not over for Japan. Crowds for reversion the first night. Three weeks before, July 29, B-52s at Kadena flew a strike in South Vietnam from Okinawa; Satō''s concern conveyed.'
@@ -3123,6 +4132,7 @@ entries:
   - id: cal.1965-08-19.states-and-cities
     when: Aug. 19
     date: '1965-08-19'
+    place: los-angeles
     thread: civil-disorders-watts
     also: [king, states-and-cities]
     c: 'Los Angeles. King and Rustin with Yorty and Chief Parker, nearly three hours: King asks a civilian review board for complaints against the police; Parker, no racial prejudice in Los Angeles, and no visit to the jailed rioters. King: Parker should go.'
@@ -3146,6 +4156,7 @@ entries:
   - id: cal.1965-08-19.vietnam
     when: Aug. 19
     date: '1965-08-19'
+    place: gettysburg
     thread: vietnam-eisenhower
     c: 'Goodpaster at Gettysburg, unannounced. Eisenhower: no question of his support; "continuity of purpose and policy, together with evolution of means and action." To the press after: circumstances changed since 1954; "there is only one thing a good American can do, and that is to support the President."'
     n: '[*New York Times*, Aug. 20, 1965](https://timesmachine.nytimes.com/timesmachine/1965/08/20/issue.html). [[w.gibbons-u-s-government-and]], IV, 36–37. To check: Goodpaster to McGeorge Bundy (LBJ Library, NSF Name File, President Eisenhower). See [[cal.1965-08-17.vietnam]]. Check: FRUS 1964–68, III, doc. 118 n.3, dates Goodpaster''s memorandum for the record Aug. 20. Names: Goodpaster, Eisenhower.'
@@ -3165,6 +4176,7 @@ entries:
   - id: cal.1965-08-19.vietnam-support
     when: Aug. 19
     date: '1965-08-19'
+    place: washington
     thread: vietnam-support
     c: 'Johnson lunches with Rusk and the senior officers of State: public support "generally satisfactory at present," more doubtful if the war goes on another year; the Department to put the case in public forums and to deal with the *New York Times* and "the ''Kennedy columnists''"; advance consultation with the congressional leaders and committees.'
     n: '[FRUS 1964–68, III, doc. 123](https://history.state.gov/historicaldocuments/frus1964-68v03/d123) (William Bundy''s notes). [[w.gibbons-u-s-government-and]], IV, 29 (the public support; the Department''s part). Made public: FRUS 1964–68, III (1996). Names: Johnson, Rusk, William Bundy.'
@@ -3213,6 +4225,7 @@ entries:
     when: Aug. 19
     date: '1965-08-19'
     time: 1965-08-19T08:20Z
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou receives the Zambian government delegation. Ten years after Bandung the first task of Asian and African states is to hold independence, sovereignty and integrity, win equal standing, support those not yet free and those suffering neocolonial interference, subversion and armed aggression; the second, the common struggle in the economy, equality, mutual benefit and aid.
@@ -3229,6 +4242,7 @@ entries:
     when: Aug. 19
     date: '1965-08-19'
     time: 1965-08-19T02:00Z
+    place: peking
     thread: china-leadership
     also: [soviet-union, africa]
     c: Zhou receives the Guinean government delegation under Diop, minister of posts and telecommunications. The Sino-Soviet ideological split must bear on politics; ideas show in actions and policy; no purely theoretical dispute leaves relations untouched, none is "pure"; that is empty talk.
@@ -3241,9 +4255,58 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 45: A'
     tags: [name:zhou-enlai, polity:prc, polity:guinea]
     time_zone: Asia/Shanghai
+  - id: cal.1965-08-19.china-leadership-3
+    when: Aug. 19
+    date: '1965-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 and Li Boren 李波人 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 19, 1965). The words: 上午王愈明、李波人同志来谈话 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Li Boren, Yang Shangkun.'
+    src:
+      c: fd5a7c63
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-18T22:00Z
+      - 1965-08-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-19.china-leadership-4
+    when: Aug. 19
+    date: '1965-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 19, 1965). The words: 下午游泳后，办公、看文件 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-19T04:00Z
+      - 1965-08-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-19.china-leadership-5
+    when: Aug. 19
+    date: '1965-08-19'
+    time: 1965-08-19T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission meeting's group discussions.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 19, 1965). The words: 9时李波人来谈监委会议各组讨论情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: e6b01f01
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-20.alabama
     when: Aug. 20
     date: '1965-08-20'
+    place: hayneville
     thread: alabama
     also: [voting-rights]
     c: Hayneville, Lowndes County. Coleman, a special deputy, kills Jonathan Daniels, an Episcopal seminarian, with a shotgun at a store door and wounds Father Morrisroe, a Catholic priest; both just out of jail with others arrested picketing at Fort Deposit Aug. 14. Johnson's telegrams to Daniels's mother and to Morrisroe, Aug. 23.
@@ -3290,6 +4353,7 @@ entries:
   - id: cal.1965-08-20.vietnam
     when: Aug. 20
     date: '1965-08-20'
+    place: saigon
     thread: vietnam
     c: Lodge arrives in Saigon to begin his second tour.
     n: '[[w.macv-command-history-1965]], 480; [[w.gibbons-u-s-government-and]], IV, 61. Names: Lodge.'
@@ -3302,6 +4366,7 @@ entries:
   - id: cal.1965-08-20.jobs-and-wages
     when: Aug. 20
     date: '1965-08-20'
+    place: washington
     thread: jobs-and-wages
     also: [civil-rights-the-executive, civil-disorders-watts]
     c: 'The White House Conference on Equal Employment Opportunities, Franklin D. Roosevelt Jr. chairman. Johnson: Title VII "just a key"; against "the nightriders of the Klan, or the snipers and the looters in the Watts district"; "with these rights comes responsibility." Doar among the speakers.'
@@ -3408,6 +4473,7 @@ entries:
     when: Aug. 20
     date: '1965-08-20'
     time: 1965-08-20T08:30Z
+    place: peking
     thread: china-leadership
     also: [vietnam, china]
     c: 'Zhou, in talks with the Zambian delegation, sets out the Vietnam background: the American "unconditional negotiation" is a plot. The war will not widen into a world war, though no one''s wish alone decides; if the U.S. fights China it cannot pass China; China will not ask others to fight. China''s four sentences: China will not start a war; Chinese keep their word; China is prepared; once war starts it has no limits.'
@@ -3423,6 +4489,7 @@ entries:
     when: Aug. 20
     date: '1965-08-20'
     time: 1965-08-20T02:30Z
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou holds the second talks with Diop, Guinea's minister of posts and telecommunications, in Building 16 of the Diaoyutai guesthouse, and gives a banquet for the Guinean guests.
@@ -3437,6 +4504,7 @@ entries:
     when: Aug. 20
     date: '1965-08-20'
     time: 1965-08-20T12:00Z
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou talks alone with Zambia's minister of agriculture in Building 2 of the Diaoyutai guesthouse.
@@ -3446,6 +4514,91 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 474: all'
     tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-4
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆 and Peng Zhen 彭真 by telephone: Peng agrees with "our" views on the Central Control Commission''s meeting.'
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 上午与彭真、安子文同志通了电话，彭真同志同意我们对中监委会议的意见 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: 9303a810
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-08-19T22:00Z
+      - 1965-08-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-5
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and An Ziwen 安子文 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 上午与彭真、安子文同志通了电话 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, An Ziwen.'
+    src:
+      c: 0ddaff0a
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-19T22:00Z
+      - 1965-08-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-6
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and Kang Keqing 康克清, Zhu De's 朱德 wife, vice-chairman of the Women's Federation (the editors' note), by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 中午与康克清同志通了电话 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Keqing, Zhu De.'
+    src:
+      c: fd48d038
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1965-08-20T04:00Z
+      - 1965-08-20T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-7
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 tells Deng Xiaoping 邓小平 of the Central Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 中午与康克清5131同志通了电话……去小平同志处，同他谈了中监委会议情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 4a5c5c70
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1965-08-20T04:00Z
+      - 1965-08-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-8
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 晚间去国务院礼堂看了电影……办公时波人同志来谈中监委会议情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 765e2416
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-20T14:00Z
+      - 1965-08-20T16:00Z
+    time_band: night
     time_zone: Asia/Shanghai
   - id: cal.1965-08-21.defense
     when: Aug. 21
@@ -3482,6 +4635,7 @@ entries:
   - id: cal.1965-08-21.vietnam-operations
     when: Aug. 21
     date: '1965-08-21'
+    place: van-tuong
     thread: vietnam-operations
     c: Starlite ends. MACV's count, some 700 of the enemy killed; an attack on Chu Lai forestalled.
     n: '[[w.macv-command-history-1965]], 162–63. See [[cal.1965-08-18.vietnam]].'
@@ -3511,6 +4665,7 @@ entries:
   - id: cal.1965-08-21.civil-rights-organizations-2
     when: Aug. 21
     date: '1965-08-21'
+    place: chicago
     thread: civil-rights-organizations
     also: [king]
     c: 'Chicago. New members of the Coordinating Council, drawn by King''s coming: District 1 of the United Packinghouse, Food and Allied Workers, the Chicago Baptist Association''s Human Relations Committee, the West Side Federation and others. The steering committee''s plan, Raby''s, Alvin Pitcher''s and Fauntroy''s: no boycott of the schools, against the Urban League''s back-to-school campaign.'
@@ -3524,6 +4679,7 @@ entries:
   - id: cal.1965-08-21.vietnam-hanoi
     when: Aug. 21
     date: '1965-08-21'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's instruction no. 107-CT/TW on a new step in the campaign to improve cooperative management and farm techniques in the delta and midland provinces, where the campaign is in the main done, if unevenly.
     n: '*Chỉ thị của Ban Bí thư số 107-CT/TW về việc tiếp tục một bước mới cuộc vận động cải tiến quản lý hợp tác xã, cải tiến kỹ thuật, phát triển sản xuất nông nghiệp ở các tỉnh vùng đồng bằng và trung du*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 363–77. Made public: 2003.'
@@ -3532,6 +4688,7 @@ entries:
     when: Aug. 21
     date: '1965-08-21'
     time: 1965-08-21T03:00Z
+    place: peking
     thread: china-leadership
     also: [soviet-union, africa]
     c: 'Zhou, talks with the Guinean delegation: the Sino-Soviet differences do not bar independent states and organizations from seeking Soviet aid, which if sincere, useful and effective is better the more; any international conference now to settle the Sino-Soviet differences, of friendly African states or others, is premature.'
@@ -3546,6 +4703,7 @@ entries:
   - id: cal.1965-08-21.china-leadership-2
     when: Aug. 21
     date: '1965-08-21'
+    place: peking
     thread: china-leadership
     also: [japan]
     c: Zhou attends the tea party given by eleven national people's bodies to welcome the friends who came to China after the Eleventh World Conference against Atomic and Hydrogen Bombs, and meets friends from Asia, Africa, Latin America, Europe and Oceania.
@@ -3559,6 +4717,51 @@ entries:
       - 1965-08-21T04:00Z
       - 1965-08-21T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-21.china-leadership-3
+    when: Aug. 21
+    date: '1965-08-21'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 settles with Li Boren 李波人 what he will say.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 21, 1965). The words: 上午办公，与李波人同志商量讲话内容 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren.'
+    src:
+      c: c0248408
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-20T22:00Z
+      - 1965-08-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-21.china-leadership-4
+    when: Aug. 21
+    date: '1965-08-21'
+    time: 1965-08-21T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 p.m. Yang Shangkun 杨尚昆 with members of the Central Control Commission.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 21, 1965). The words: 下午3时约中监委各同志谈话 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4b1802ae
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-21.china-leadership-5
+    when: Aug. 21
+    date: '1965-08-21'
+    time: 1965-08-21T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. Yang Shangkun 杨尚昆 speaks to the whole Central Control Commission forum.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 21, 1965). The words: 3时半到6时，向中监委座谈会全体同志讲话 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-21.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: 9481db3e
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-22.opinion
     when: Aug. 22
@@ -3586,6 +4789,7 @@ entries:
   - id: cal.1965-08-22.china-leadership-2
     when: Aug. 22
     date: '1965-08-22'
+    place: peking
     thread: china-leadership
     c: Zhou receives a New Zealand journalist and answers his questions.
     n: '[[w.zhou-enlai-waijiao-huodong]], 475 (Aug. 22, 1965; noon; Beijing). The book names the journalist 莫尔沃思. Names: Zhou Enlai.'
@@ -3644,6 +4848,7 @@ entries:
   - id: cal.1965-08-23.conservation
     when: Aug. 23
     date: '1965-08-23'
+    place: washington
     thread: conservation
     c: The Senate Interior and Insular Affairs Committee hears J. Cordell Moore on his nomination as Assistant Secretary of the Interior for Mineral Resources.
     n: '*Interior Nomination: Hearing Before the S. Comm. on Interior and Insular Affairs*, 89th Cong. (1965) ([online](https://www.govinfo.gov/app/details/CHRG-89shrg52764)), 3. Names: Moore.'
@@ -3668,6 +4873,7 @@ entries:
   - id: cal.1965-08-23.vietnam-hanoi
     when: Aug. 23
     date: '1965-08-23'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat sets up the Nguyễn Ái Quốc School, branch III, directly under the Center, for the basic-level cadres, chiefly district leaders, of the old Fourth Zone provinces.
     n: '*Nghị quyết của Ban Bí thư số 127-NQ/TW về việc thành lập trường Đảng bồi dưỡng cán bộ sơ cấp của các tỉnh thuộc Khu IV cũ*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 378–79. Made public: 2003.'
@@ -3679,10 +4885,78 @@ entries:
     c: 'Zhou chairs the 158th plenary meeting of the State Council. On the long-term plan he condenses Mao''s "watch war, famine, everything for the people" into "prepare for war, prepare for famine, for the people": rely on the people, first serve them; war preparation is class struggle, at home and abroad; famine preparation is the struggle with nature, to bring industry and farming through; all three one whole. The meeting agrees to call the first People''s Congress of the Tibet Autonomous Region, to constitute the region, for the NPC Standing Committee; it approves on the 25th at its 15th meeting.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 751 (Aug. 23, 1965). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1965-08-23.china-leadership-2
+    when: Aug. 23
+    date: '1965-08-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Jia Bubin 贾步彬 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 上午贾步彬同志来谈话 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Jia Bubin, Yang Shangkun.'
+    src:
+      c: 163cc9de
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-22T22:00Z
+      - 1965-08-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-23.china-leadership-3
+    when: Aug. 23
+    date: '1965-08-23'
+    time: 1965-08-23T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall's Henan Room, 3:30 to 5 p.m. The Secrecy Commission meets; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 下午3时半去人大会堂河南厅开保密委员会议，5时开完 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 533f6da4
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-23.china-leadership-4
+    when: Aug. 23
+    date: '1965-08-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Boren 李波人 and Liu Mingyi 刘明义 on the text of his speech to the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 晚间约李波人、刘明义谈我在中监委会议讲话的稿子 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-21.china-leadership-5]]. Names: Yang Shangkun, Li Boren, Liu Mingyi.'
+    src:
+      c: 7bd129ef
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T11:00Z
+      - 1965-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-23.china-leadership-5
+    when: Aug. 23
+    date: '1965-08-23'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-23.china-leadership-4
+    c: Peking 北京. Zhao Zhongyuan 赵仲元 tells Yang Shangkun 杨尚昆 how the revision of the article goes.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 晚间约李波人、刘明义谈我在中监委会议讲话的稿子。小赵来谈修改文章情况 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhao Zhongyuan, Yang Shangkun.'
+    src:
+      c: 898b7440
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T11:00Z
+      - 1965-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-24.peace-corps
     when: Aug. 24
     date: '1965-08-24'
     time: 1965-08-24T16:12Z
+    place: washington
     thread: peace-corps
     c: 'Peace Corps Act extended, signed in the Rose Garden before volunteers and trainees, [79 Stat. 549](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg549.pdf): $115 million again, for fiscal 1966, $500,000 of it for research. Johnson had asked $125.2 million, Feb. 25. On Vietnam and the troops sent: this is "another kind of authority that will send Americans abroad."'
     n: 'Statute (K–J Cong. II.J.2). Remarks at the Signing of the Bill Extending the Peace Corps Act, [1965 Pub. Papers 912](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=386) (Aug. 24, 1965); Letter to the President of the Senate and to the Speaker of the House on the Peace Corps, [1965 Pub. Papers 219](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=295) (Feb. 25, 1965). [[w.wofford-of-kennedys-and-kings]], 317 (Johnson''s tribute in the Rose Garden to Shriver and Moyers). See [[cal.1964-03-17.peace-corps]]. Names: Johnson.'
@@ -3698,6 +4972,7 @@ entries:
   - id: cal.1965-08-24.middle-east-yemen
     when: Aug. 24
     date: '1965-08-24'
+    place: jidda
     thread: middle-east-yemen
     c: 'Jidda. Faisal and Nasser agree on Yemen: a cease-fire; Saudi aid to the royalists stopped; a conference of republicans and royalists at Haradh from Nov. 23; the UAR''s forces out within ten months of that date; a plebiscite by Nov. 23, 1966.'
     n: '[FRUS 1964–68, XXI, doc. 379](https://history.state.gov/historicaldocuments/frus1964-68v21/d379). See [[cal.1965-08-11.middle-east]]. Names: Faisal ibn Abd al-Aziz Al Saud, Nasser.'
@@ -3712,6 +4987,7 @@ entries:
   - id: cal.1965-08-24.vietnam-congress
     when: Aug. 24
     date: '1965-08-24'
+    place: washington
     thread: vietnam-congress
     also: [economy]
     c: 'House. Laird''s motion to recommit the Labor and HEW supplemental appropriation fails, [139–263](https://voteview.com/rollcall/RH0890123): the war''s needs upon us; the domestic spending cut first, the war''s cost for fiscal 1966 told to Congress. Most Republicans and some Southern Democrats for it.'
@@ -3769,6 +5045,7 @@ entries:
   - id: cal.1965-08-24.vietnam-operations
     when: Aug. 24
     date: '1965-08-24'
+    place: bien-hoa-air-base
     thread: vietnam-operations
     c: A Viet Cong mortar attack hits Biên Hòa air base.
     n: '[[w.macv-command-history-1965]], 481.'
@@ -3846,6 +5123,7 @@ entries:
   - id: cal.1965-08-24.economy
     when: Aug. 24
     date: '1965-08-24'
+    place: washington
     thread: economy
     c: 'Senate passes H.R. 4750, amended, without a roll call, and asks a conference. Long manages it. Fong against: it "has impeded our traditionally free capital market."'
     n: '[111 Cong. Rec. 21,524](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt16/pdf/GPO-CRECB-1965-pt16-4-1.pdf#page=95) (1965); [111 Cong. Rec. 21,529](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt16/pdf/GPO-CRECB-1965-pt16-4-1.pdf#page=100) (1965) (Long); [111 Cong. Rec. 21,541–42](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt16/pdf/GPO-CRECB-1965-pt16-4-1.pdf#page=112) (1965) (Fong; the conference). The Senate sat from noon to 6:50 p.m.: [Daily Digest, D494](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=492). Check: the line of passage, not found in the scan''s text at 21538–42; no roll call in Voteview. See [[cal.1965-08-10.economy]]. Names: Long, Fong.'
@@ -3893,6 +5171,7 @@ entries:
   - id: cal.1965-08-24.china-leadership
     when: Aug. 24
     date: '1965-08-24'
+    place: peking
     thread: china-leadership
     also: [congo]
     c: 'Zhou receives Soumialot, chairman of the Supreme Revolutionary Council of the Congo (Leopoldville). Revolutionaries should care for their families, but where interests clash the revolution comes first. At the luncheon: the Chinese revolution knew two lines, Mao''s, relying on the people and above all the peasants, protracted guerrilla war in the countryside and self-reliance, and the wrong one, of haste for regular war, the cities, victory and outside help; a broad united front is to be built and comrades who erred kept in it if they correct themselves.'
@@ -3907,6 +5186,7 @@ entries:
   - id: cal.1965-08-24.china-leadership-3
     when: Aug. 24
     date: '1965-08-24'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhou receives the delegation of Indonesia's Minister of Labor, chairman of the organizing committee of the Asian–African Workers' Conference, and all its members.
@@ -3933,10 +5213,112 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 134–135: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 134 n.2: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-08-24.china-leadership-4
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Han Jincao 韩劲草 to learn of the Shaanxi 陕西 provincial meeting.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 上午与韩劲草打电话，了解陕西省会议情况 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Han Jincao.'
+    src:
+      c: 25b73774
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T22:00Z
+      - 1965-08-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-5
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 上午与韩劲草打电话……王愈明同志来谈话 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T22:00Z
+      - 1965-08-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-6
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Liu Huo 刘火 on the Party committee of the central organs.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 上午与韩劲草打电话……约刘火同志来谈中直党委事 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Huo.'
+    src:
+      c: 55f6119f
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T22:00Z
+      - 1965-08-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-7
+    when: Aug. 24
+    date: '1965-08-24'
+    time: 1965-08-24T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Museum of the Revolution, 3 p.m. Yang Shangkun 杨尚昆 sees the exhibition of the war of resistance against Japan, about an hour.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 下午3时去革命博物馆参观《抗日战争展览》，约1小时 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b1abfe1e
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-8
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-24.china-leadership-7
+    c: Peking 北京. Deng Diantao 邓典桃, Liu Huo 刘火 and Li Jian 李鉴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 下午3时去革命博物馆参观《抗日战争展览》……回来后典桃、刘火、李鉴同志来谈话 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Liu Huo, Li Jian, Yang Shangkun.'
+    src:
+      c: 739aa555
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-24T04:00Z
+      - 1965-08-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-9
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 has a sharp pain above his right ear; tablets taken; no better by midnight.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 右边头耳部以上疼得厉害……到24时还未见好，回家早睡 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 3680f819
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-24T11:00Z
+      - 1965-08-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-25.space
     when: Aug. 25
     date: '1965-08-25'
     time: 1965-08-25T14:00Z
+    place: washington
     thread: space
     also: [defense, voting-rights, steel]
     c: 'News conference. The Defense Department to build a Manned Orbiting Laboratory, $1.5 billion: Douglas Aircraft to build the laboratory, a Titan III-C to launch it, a Gemini capsule to bring its two-man crews back; the first manned flight in 1968. 27,385 listed by the voting examiners in thirteen counties. On steel: "I expect full and complete responsibility in the current wage negotiations and I expect continued stability in steel prices." Blough to Connor: the remark on price stability "very troublesome."'
@@ -3954,6 +5336,7 @@ entries:
     when: Aug. 25
     date: '1965-08-25'
     time: 1965-08-25T12:00Z
+    place: washington
     thread: economy
     also: [transition-and-staff]
     c: 'Breakfast with the Cabinet and agency heads. Planning-programming-budgeting, the system McNamara brought to Defense, ordered throughout the Government: a planning staff under each head; goals, alternatives, and costs over several years; the 1968 budget in the new form. Schultze of the Budget Bureau to direct it.'
@@ -3962,6 +5345,7 @@ entries:
   - id: cal.1965-08-25.immigration
     when: Aug. 25
     date: '1965-08-25'
+    place: washington
     thread: immigration
     c: 'House passes Celler''s immigration bill, H.R. 2580, [318–95](https://voteview.com/rollcall/RH0890125): the national-origins quotas ended; 170,000 a year from outside the Western Hemisphere, by preference for kin and skill. A ceiling of 115,000 on the Western Hemisphere from July 1, 1968, refused, [189–218](https://voteview.com/rollcall/RH0890124). Johnson''s letter to McCormack the same day.'
     n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt16/pdf/GPO-CRECB-1965-pt16-5-2.pdf) (1965). Letter to the Speaker Urging House Action on the Immigration Bill, [1965 Pub. Papers 927](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=401) (Aug. 25, 1965). [[w.branch-at-canaans-edge]], 319 (the vote); [[w.bernstein-guns-or-butter]], 257 (Northern Democrats 179 to 8, Republicans 109 to 29, Southern Democrats against, 62 to 30). The House sat from noon to 8:12 p.m.: [Daily Digest, D501](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=499). See [[cal.1965-01-13.immigration]]. Names: Celler, McCormack, Johnson. Check: the page.'
@@ -4005,6 +5389,7 @@ entries:
   - id: cal.1965-08-25.vietnam-congress
     when: Aug. 25
     date: '1965-08-25'
+    place: washington
     thread: vietnam-congress
     also: [defense]
     c: 'The Senate passes the defense appropriation for fiscal 1966, H.R. 9221, with the $1.7 billion for Southeast Asia, [89–0](https://voteview.com/rollcall/RS0890204). Morse votes for it: the troops there "must have every possible bit of protection." Gruening, who voted against the war''s money in May, for it too; he had talked with Johnson, at his own request, Aug. 19.'
@@ -4026,6 +5411,7 @@ entries:
   - id: cal.1965-08-25.vietnam-hanoi
     when: Aug. 25
     date: '1965-08-25'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's instruction no. 108-CT/TW on the same campaign in the highlands, its pilot stage done and the drive to be widened, under the Politburo's resolution no. 70 of Feb. 19, 1963.
     n: '*Chỉ thị của Ban Bí thư số 108-CT/TW về cuộc vận động cải tiến quản lý hợp tác xã, cải tiến kỹ thuật, nhằm phát triển sản xuất nông nghiệp toàn diện, mạnh mẽ và vững chắc ở miền núi*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 380–95. See [[cal.1965-08-21.vietnam-hanoi]]. Made public: 2003.'
@@ -4040,6 +5426,7 @@ entries:
   - id: cal.1965-08-25.china-leadership-2
     when: Aug. 25–27
     date: '1965-08-25'
+    place: peking
     thread: china-leadership
     also: [africa, vietnam]
     c: Zhou has four talks with the Algerian government delegation under Rabah Bitat, minister of state, Aug. 25–27. The U.S. is working peace-talk plots everywhere to win a seat and stay in Vietnam; beware the U.S. using Algeria's influence and its friendship with Asian states; do not be taken in.
@@ -4051,6 +5438,48 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 475–76: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 45–46: A'
     tags: [name:zhou-enlai, polity:prc, polity:algeria, vis:only:prc+algeria]
+  - id: cal.1965-08-25.china-leadership-3
+    when: Aug. 25
+    date: '1965-08-25'
+    time: 1965-08-25T02:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, 10 a.m. to noon. A small meeting of the Secretariat on work for Peng Dehuai 彭德怀 and others (the editors'' note: Peng later third deputy director of the Southwest Bureau''s third-front construction committee); Yang Shangkun 杨尚昆 there, his head still aching.'
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 10时到12时，书记处小会，讨论彭德怀等人的工作分配问题 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-16.china-leadership-8]]. Names: Peng Dehuai, Yang Shangkun.'
+    src:
+      c: 13eca2c2
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-25.china-leadership-4
+    when: Aug. 25
+    date: '1965-08-25'
+    time: 1965-08-25T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. The NPC's Standing Committee on the founding of the Tibet 西藏 Autonomous Region and on relations with Mauritania; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 3时半到6时参加人大常委会，讨论: 西藏自治区成立问题，与毛里塔尼亚建交问题 (II, 664). Names: Yang Shangkun.'
+    src:
+      c: b6b30724
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-25.china-leadership-5
+    when: Aug. 25
+    date: '1965-08-25'
+    time: 1965-08-25T10:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 6:30 p.m. Yang Shangkun 杨尚昆 is given a nerve-block injection on the right of his head.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 6时半在北京医院看病，打了一针封闭(头右部)即回家 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: '39011178'
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-26.states-and-cities
     when: Aug. 26
     date: '1965-08-26'
@@ -4076,6 +5505,7 @@ entries:
     when: Aug. 26
     date: '1965-08-26'
     time: 1965-08-26T13:34Z
+    place: washington
     thread: jobs-and-wages
     c: 'Public Works and Economic Development Act signed, [79 Stat. 552](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg552.pdf): grants and loans for public works and development facilities in areas of persistent unemployment and low income; districts of several counties; regional commissions. An Economic Development Administration in Commerce, Foley to head it, in place of the Area Redevelopment Administration. The House passed the bill Aug. 12, [246–138](https://voteview.com/rollcall/RH0890117).'
     n: 'Remarks at the Signing of the Public Works and Economic Development Act, [1965 Pub. Papers 930](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=404) (Aug. 26, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 25, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt15/pdf/GPO-CRECB-1965-pt15-3-2.pdf) (1965). [[w.sundquist-politics-and-policy]], 105–10 (the act). To check: [[w.eller-uneven-ground]]. See [[cal.1961-05-01.program]]. Names: Foley. Check: the page.'
@@ -4093,6 +5523,7 @@ entries:
   - id: cal.1965-08-26.school-aid
     when: Aug. 26
     date: '1965-08-26'
+    place: washington
     thread: school-aid
     c: 'House passes the Higher Education Act, H.R. 9567, [368–22](https://voteview.com/rollcall/RH0890126): grants for needy undergraduates, insured student loans, aid to college libraries and to developing colleges, community service programs.'
     n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt16/pdf/GPO-CRECB-1965-pt16-6-1.pdf) (1965). Statement by the President Following House Passage of the Higher Education Bill, [1965 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=410) (Aug. 26, 1965). Higher Education Act of 1965 (K–J Cong. II.J.2). [[w.bernstein-guns-or-butter]], 209 (Green''s loan amendment by voice vote); [[w.graham-uncertain-triumph]], 83 (368 to 22). The House sat from noon to 6:24 p.m.: [Daily Digest, D506](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=504). Check: Graham, 83, dates the House''s vote Aug. 6; Voteview, Aug. 26. See [[cal.1965-01-12.school-aid]]. Check: the page.'
@@ -4130,6 +5561,7 @@ entries:
   - id: cal.1965-08-26.civil-rights-organizations
     when: Aug. 26–28
     date: '1965-08-26'
+    place: atlanta
     thread: civil-rights-organizations
     also: [king]
     c: 'Atlanta, SCLC''s executive staff, with Rustin and others from the North. King decides to go north, to Chicago: "This ghetto Negro has been invisible so long and has become visible through violence." Bevel to lead a first staff of twelve there.'
@@ -4162,6 +5594,7 @@ entries:
   - id: cal.1965-08-26.immigration
     when: Aug. 26
     date: '1965-08-26'
+    place: washington
     thread: immigration
     c: Senate Judiciary's Subcommittee on Immigration and Naturalization amends the bill, 5 to 3, and orders it reported.
     n: '[Daily Digest, D504](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=502) (Aug. 26, 1965) (ordered reported, with amendments). [[w.bernstein-guns-or-butter]], 257 (the vote). See [[cal.1965-08-24.immigration-2]].'
@@ -4189,6 +5622,7 @@ entries:
   - id: cal.1965-08-26.vietnam-2
     when: Aug. 26
     date: '1965-08-26'
+    place: saigon
     thread: vietnam
     c: 'Lodge to Washington, Saigon 624, the Mission Intelligence Committee''s assessment, Westmoreland concurring: "Lack of complete success of their summer campaign has frustrated Viet-Cong aims for 1965"; the Communists must soon acknowledge they cannot win early or dislodge the growing American strength.'
     n: '[[w.gibbons-u-s-government-and]], IV, 17 n.49. To check: Saigon to Washington 624, Aug. 26, 1965, State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 17 n.49). Names: Lodge, Westmoreland.'
@@ -4208,6 +5642,7 @@ entries:
   - id: cal.1965-08-26.vietnam-operations
     when: Aug. 26
     date: '1965-08-26'
+    place: saigon
     thread: vietnam-operations
     also: [vietnam]
     c: 'Lodge to Johnson, Saigon 621: Starlite "could be a milestone which has not only blunted the Viet Cong''s pickaxe in this particular place, but appears to show that the U.S. can with relative certainty prevent the Viet Cong from ever becoming a regular army."'
@@ -4227,6 +5662,7 @@ entries:
   - id: cal.1965-08-26.china-leadership
     when: Aug. 26
     date: '1965-08-26'
+    place: peking
     thread: china-leadership
     also: [japan]
     c: Zhou accompanies Mao Zedong in the Shaanxi Hall of the Great Hall of the People in receiving the heads of the Japanese delegations to the Sino-Japanese youth friendship gathering and other Japanese friends.
@@ -4255,6 +5691,23 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 46–47: all'
     tags: [polity:prc, polity:uk, polity:roc]
+  - id: cal.1965-08-26.china-leadership-2
+    when: Aug. 26
+    date: '1965-08-26'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to midnight. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 26, 1965). The words: 晚间饭后散步。田家英同志来谈话到12时 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: fb6d1eea
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-26T11:00Z
+      - 1965-08-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-27.robert-kennedy
     when: Aug. 27
     date: '1965-08-27'
@@ -4267,6 +5720,7 @@ entries:
   - id: cal.1965-08-27.mississippi
     when: Aug. 27
     date: '1965-08-27'
+    place: natchez
     thread: mississippi
     c: 'Natchez. A bomb in his car outside the Armstrong Tire and Rubber plant gravely injures George Metcalf, president of the Natchez NAACP. That night Charles Evers to a mass meeting: "We''re armed, every last one of us."'
     n: '[[w.dittmer-local-people]], 353–55 (the quotation, 354); [[w.branch-at-canaans-edge]], 320 (the bomb; not the mass meeting). Check: the spelling, Metcalf or Metcalfe. To check: *New York Times*, [Aug. 28](https://timesmachine.nytimes.com/timesmachine/1965/08/28/issue.html) and [Aug. 29, 1965](https://timesmachine.nytimes.com/timesmachine/1965/08/29/issue.html) (cited by [[w.dittmer-local-people]], 354 n.38). Check: Branch spells Metcalfe (320). Names: Charles Evers, Metcalf.'
@@ -4281,6 +5735,7 @@ entries:
   - id: cal.1965-08-27.vietnam
     when: Aug. 27
     date: '1965-08-27'
+    place: washington
     thread: vietnam
     also: [defense]
     c: 'The Joint Chiefs to McNamara, JCSM-652-65, "Concept for Vietnam": the war "the single most critical international problem facing the United States"; intensified air and naval pressure on the North, its war-supporting power progressively destroyed and its routes cut; search and destroy in the South from secure bases; a buildup in Thailand. Never approved by the civilians.'
@@ -4354,6 +5809,7 @@ entries:
   - id: cal.1965-08-27.vietnam-air-war
     when: Aug. 27
     date: '1965-08-27'
+    place: korat
     thread: vietnam-air-war
     c: 'The 68th Tactical Fighter Squadron''s F-4Cs, crews trained for night flying, deploy from George, Cal., to Korat, Thailand: Night Owl, two Phantoms in tandem, flares and 750-pound bombs, from Rolling Thunder 33 in late September; six missions, then eight, a night. Oct. 29–Nov. 11, only 90 of 260 sorties flown, for the monsoon.'
     n: '[[w.staaveren-gradual-failure]], 182. See [[cal.1965-05-04.vietnam-air-war-2]].'
@@ -4364,6 +5820,7 @@ entries:
   - id: cal.1965-08-27.transition-and-staff
     when: Aug. 27
     date: '1965-08-27'
+    place: washington
     thread: transition-and-staff
     c: 'The White House, a Friday afternoon in late August, before Johnson leaves for the Ranch. Johnson, his back turned, studying a news ticker, to O''Brien: "Bad news, Larry," he says. "You''re going to have to leave the White House. I''m appointing you Postmaster General!" O''Brien is to come to the Ranch the next day. By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 199. Names: Johnson, O''Brien.'
@@ -4371,6 +5828,8 @@ entries:
   - id: cal.1965-08-27.soviet-union-leadership
     when: Aug. 27–Sept. 1
     date: '1965-08-27'
+    time: 1965-08-27T11:00Z
+    place: moscow
     thread: soviet-union-leadership
     also: [middle-east]
     c: Moscow. Nasser, President of the United Arab Republic. Brezhnev meets him Aug. 27, 2 p.m.; negotiates Aug. 28, 10 to 1, then takes him to Zavidovo; negotiates Aug. 29 and Aug. 30, 3 to 4, in the Kremlin; a closing talk Aug. 31 after the Presidium; Nasser seen off Sept. 1.
@@ -4394,6 +5853,7 @@ entries:
     when: Aug. 27
     date: '1965-08-27'
     time: 1965-08-27T03:00Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Kirti Nidhi Bista, vice-chairman of Nepal's Council of Ministers and minister for foreign affairs, land reform, food and agriculture. China agrees to aid two roads, aid for Nepal's second five-year plan including small hydro and other projects, and foreign-exchange aid for housing like last year's grant to the King. Agrees with doing farm and industry together, small first, fast and good.
@@ -4409,6 +5869,7 @@ entries:
   - id: cal.1965-08-27.china-leadership-4
     when: Aug. 27
     date: '1965-08-27'
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou attends the banquet given by Algeria's minister of state Bitat for China's leaders.
@@ -4435,9 +5896,72 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 47: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1965-08-27.china-leadership-5
+    when: Aug. 27
+    date: '1965-08-27'
+    time: 1965-08-27T00:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the eastern airport, 8:30 a.m. Yang Shangkun 杨尚昆 sees off the delegation under Xie Fuzhi 谢富治 going to Tibet 西藏 for the founding of the autonomous region on Sept. 1.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 上午8时半去东郊机场，送以谢富治同志为首的代表团，去西藏庆祝9月1日的自治区成立 (II, 665). Names: Yang Shangkun, Xie Fuzhi.'
+    src:
+      c: 4ccb26b5
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, name:xie-fuzhi]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-27.china-leadership-6
+    when: Aug. 27
+    date: '1965-08-27'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and Liu Lantao 刘澜涛 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 上午办公，看文件。与澜涛同志通了电话 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Lantao.'
+    src:
+      c: fe093f6d
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-26T22:00Z
+      - 1965-08-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-27.china-leadership-7
+    when: Aug. 27
+    date: '1965-08-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 下午午睡到3时……王愈明同志来谈话 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-27T04:00Z
+      - 1965-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-27.china-leadership-8
+    when: Aug. 27
+    date: '1965-08-27'
+    time: 1965-08-27T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 p.m. to midnight. Yang Shangkun 杨尚昆 talks freely with the General Office's group heads on the situation at home and abroad.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 8时半到12时与办公厅各组长漫谈国内外形势 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d3cf2558
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-28.steel
     when: Aug. 28
     date: '1965-08-28'
+    place: washington
     thread: steel
     c: 'Saturday afternoon. Califano briefs Morse and Collins at the White House. Morse: "The fact that I''m opposed to the war doesn''t mean that I''d take a personal advantage of it." Johnson means him to chair a Taft-Hartley board if it comes to that. After midnight, Califano to Johnson: no progress in Pittsburgh. By Califano''s account.'
     n: '[[w.califano-triumph-and-tragedy-of]], 89–90. To check: Califano to Johnson, Aug. 30, 1965, 2:45 a.m., LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 90 n.14). Names: Califano, Morse, Collins, Johnson.'
@@ -4456,6 +5980,7 @@ entries:
   - id: cal.1965-08-28.vietnam
     when: Aug. 28
     date: '1965-08-28'
+    place: saigon
     thread: vietnam-pacification
     c: 'A joint Saigon–American council meeting: the Vietnamese propose changes in pacification. Westmoreland: some proposals the Americans'' own, some already law; the trouble not policy but execution, unstable government, unable or unwilling officials.'
     n: '[[w.macv-command-history-1965]], 236. To check: Talking Paper, COMUSMACV, 30 Aug 65, Subj: Mission Council Meeting (cited by [[w.macv-command-history-1965]], 236 n.292). Names: Westmoreland.'
@@ -4503,6 +6028,7 @@ entries:
     when: Aug. 29
     date: '1965-08-29'
     time: 1965-08-29T18:30Z
+    place: lbj-ranch
     thread: transition-and-staff
     also: [europe-and-the-alliance]
     c: News conference at the LBJ Ranch. Gronouski, Postmaster General, to be Ambassador to Poland, for "building bridges" to Eastern Europe. O'Brien, the President's assistant for congressional relations, to be Postmaster General, and to keep that work.
@@ -4544,6 +6070,7 @@ entries:
   - id: cal.1965-08-29.press-and-broadcasting
     when: Aug. 29
     date: '1965-08-29'
+    place: nyc
     thread: press-and-broadcasting
     also: [vietnam]
     c: 'Reston in the *New York Times*, from Vietnam: "When Uncle Sam moves in, somebody has to move over."'
@@ -4579,6 +6106,7 @@ entries:
   - id: cal.1965-08-29.china-leadership-2
     when: Aug. 29
     date: '1965-08-29'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou attends the reception given by Nepal's ambassador for Vice-Chairman Bista's visit.
@@ -4605,6 +6133,20 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 47: all'
     tags: [polity:prc, polity:fr]
+  - id: cal.1965-08-29.china-leadership-4
+    when: Aug. 29
+    date: '1965-08-29'
+    time: 1965-08-29T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 2:30 p.m. Yang Shangkun 杨尚昆 sees the mass calisthenics of the National Games.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 29, 1965). The words: 下午2时半同她们一起去看了全运会的集体操表演 (II, 665). Names: Yang Shangkun.'
+    src:
+      c: f27f8dd8
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-30.students
     when: Aug. 30
     date: '1965-08-30'
@@ -4623,6 +6165,7 @@ entries:
   - id: cal.1965-08-30.steel
     when: Aug. 30
     date: '1965-08-30'
+    place: washington
     thread: steel
     also: [labor-disputes]
     c: 'Steel. With the Steelworkers'' contract to run out Sept. 1 (Check), Johnson brings Abel of the union and Cooper of United States Steel to the White House with Wirtz and Connor: a shutdown put off eight days, the bargaining moved to Washington. On television that evening. Aug. 26, he had telephoned both.'
@@ -4669,6 +6212,7 @@ entries:
   - id: cal.1965-08-30.cuba
     when: Aug. 30
     date: '1965-08-30'
+    place: washington
     thread: cuba
     c: 'Rusk to Bundy, for the President, on the CIA''s proposal: "strongly opposed to resumption of such operations at this time," with the Dominican Republic and Vietnam; the option to be kept open. The Inter-American Bureau''s study, for the operations, attached.'
     n: '[FRUS 1964–68, XXXII, doc. 306](https://history.state.gov/historicaldocuments/frus1964-68v32/d306). [[w.jones-bay-of-pigs]], 168 n.39 (by the autumn of 1965 the attempts to overthrow Castro called off; the memorandum cited). See [[cal.1965-06-02.cuba]]. Names: Rusk, Bundy.'
@@ -4688,6 +6232,7 @@ entries:
   - id: cal.1965-08-30.steel-2
     when: Aug. 30
     date: '1965-08-30'
+    place: washington
     thread: steel
     follows:
       - cal.1965-08-30.steel
@@ -4771,9 +6316,72 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 136: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-30.china-leadership-3
+    when: Aug. 30
+    date: '1965-08-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 and Chen Bozhong 陈伯仲 on the Women's Federation meeting.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 上午处理文电，约王愈明、陈伯仲同志谈妇联会议 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Chen Bozhong.'
+    src:
+      c: 9646280c
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-29T22:00Z
+      - 1965-08-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-30.china-leadership-4
+    when: Aug. 30
+    date: '1965-08-30'
+    time: 1965-08-30T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 to 6 p.m. The Women's Federation's Party group reports to Yang Shangkun 杨尚昆 on its meeting.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 下午3时到6时，听妇联党组关于会议的汇报 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2dd46a78
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-30.china-leadership-5
+    when: Aug. 30
+    date: '1965-08-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Bai Lin 白林 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 晚饭后白林来谈话 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Bai Lin, Yang Shangkun.'
+    src:
+      c: e164fef2
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-30T11:00Z
+      - 1965-08-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-30.china-leadership-6
+    when: Aug. 30
+    date: '1965-08-30'
+    time: 1965-08-30T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 to 10 p.m. Yang Shangkun 杨尚昆 with Director Tong 佟 of the Peking municipality and Mao Weizhong 毛维忠 on the underground roadway.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 8时半到10时约北京市佟主任和毛维忠谈地下车道问题 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Weizhong.'
+    src:
+      c: 2a0385a7
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-31.latin-america
     when: Aug. 31
     date: '1965-08-31'
+    place: santo-domingo
     thread: latin-america-dominican-republic
     c: 'Santo Domingo. The Act of Dominican Reconciliation signed: Caamaño for the Constitutionalists, García-Godoy for the provisional government, Bunker and the OAS committee; Imbert, out Aug. 30, accepts it. García-Godoy provisional president; a general amnesty; arms collected; the Inter-American force''s withdrawal to be negotiated. García-Godoy sworn Sept. 3.'
     n: 'FRUS 1964–68, XXXII, docs. [127](https://history.state.gov/historicaldocuments/frus1964-68v32/d127), [128](https://history.state.gov/historicaldocuments/frus1964-68v32/d128). [[w.dallek-flawed-giant]], 267 (the OAS committee wins agreement on Aug. 29 to an "Act of Dominican Reconciliation": a provisional government, free elections within nine months; Dallek''s day is the agreement, the entry''s the signing). See [[cal.1965-04-28.latin-america]]; [[cal.1965-06-15.latin-america]]. Names: Caamaño-Deno, García-Godoy, Imbert-Barrera, Bunker.'
@@ -4794,6 +6402,7 @@ entries:
     when: Aug. 31
     date: '1965-08-31'
     time: 1965-08-31T20:00Z
+    place: washington
     thread: india-and-china-kashmir
     c: 'Komer to Johnson: the Pakistanis may send regulars into Kashmir.'
     n: '[FRUS 1964–68, XXV, doc. 176](https://history.state.gov/historicaldocuments/frus1964-68v25/d176). The President''s News Conference at the LBJ Ranch, [1965 Pub. Papers 943](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=417) (Aug. 29, 1965). See [[cal.1965-08-05.india-and-china]]. Names: Komer, Johnson.'
@@ -4801,6 +6410,7 @@ entries:
   - id: cal.1965-08.conservative-movement
     when: Aug.
     date: 1965-08
+    place: san-diego
     thread: conservative-movement
     c: 'Kitchel to the *San Diego Union*: the Free Society Association expects "within a very short time a membership in the neighborhood of four or five hundred thousand." By 1967: 36,500, and $500,000 raised in its first eighteen months.'
     n: '[[w.hess-republican-establishment]], 76. See [[cal.1965-06-17.goldwater]]. Names: Kitchel.'
@@ -4812,6 +6422,7 @@ entries:
   - id: cal.1965-08-31.war-opposition
     when: Aug. 31
     date: '1965-08-31'
+    place: washington
     thread: war-opposition
     c: 'Lausche introduces S. 2482: obstructing the movement of the armed forces'' men or property a felony, up to ten years and $10,000. Into the Record, a leaflet handed out at the protests against the troop trains to the Oakland Army Terminal, the Progressive Labor Party and Students for a Democratic Society among its signers. Not enacted.'
     n: '[111 Cong. Rec. 22,316–17](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt17/pdf/GPO-CRECB-1965-pt17-1-1.pdf#page=38) (1965) (Senate, Aug. 31, 1965). [[w.gibbons-u-s-government-and]], IV, 28 (the bill, the leaflet, the trains; not enacted). See [[cal.1965-08-10.war-opposition]]. Names: Lausche.'
@@ -4861,6 +6472,7 @@ entries:
   - id: cal.1965-08-31.alabama
     when: Aug. 31
     date: '1965-08-31'
+    place: hayneville
     thread: alabama
     also: [desegregation-schools]
     c: Hayneville, Lowndes County. The first four Negro students enter the county high school, forty special deputies on watch.
@@ -4986,6 +6598,7 @@ entries:
   - id: cal.1965-08.robert-kennedy
     when: Aug., summer
     date: 1965-08
+    place: washington
     thread: robert-kennedy
     c: 'By Goodwin''s account, Johnson to a few aides: "Bobby saw his chance. ... he put [Martin Luther] King on the Kennedy payroll to rile up the Negroes. That''s why we had the riots." The Communists "already control the three major networks"; "you can always find Dobrynin''s car in front of a columnist''s house the night before he blasts me on Vietnam."'
     n: '[[w.shesol-mutual-contempt]], 324; [[w.goodwin-remembering-america]], 405–6 (the same monologue as [[cal.1965-07.press-and-broadcasting]], in the Oval Office; undated). Check: the month; Shesol gives "summer 1965". Names: Goodwin, Johnson, Martin Luther King, Dobrynin.'
@@ -5044,6 +6657,7 @@ entries:
   - id: cal.1965-08-31.conservation
     when: Aug. 31
     date: '1965-08-31'
+    place: washington
     thread: conservation
     c: 'House Commerce reports S. 306: the 1967 deadline removed, standards "as soon as practicable" after time for voluntary compliance; the research laboratory dropped.'
     n: '[[w.bernstein-guns-or-butter]], 293. See [[cal.1965-05-18.conservation]].'
@@ -5061,6 +6675,7 @@ entries:
     when: Aug., early
     date: 1965-08
     at: before 1965-08-01
+    place: oakland
     thread: war-opposition
     c: The Oakland Army Terminal, on three days. 200 to 300 block the tracks of the troop trains; dispersed by a slow locomotive or the police.
     n: '[[w.bernstein-guns-or-butter]], 382; [[w.gibbons-u-s-government-and]], IV, 28 (from early August into September, students of the University of California among them; the ports too); [[w.zaroulis-who-spoke-up]], 54 (the weekend of Aug. 6–9, Aug. 12 and Aug. 23; about three hundred; the Vietnam Day Committee and the Oakland SDS); [[w.debenedetti-american-ordeal]], 122–23 (the Vietnam Day Committee and Women Strike for Peace; a few hundred on three occasions). Check: the days; one is Aug. 12, by the *Berkeley Barb* of Aug. 13, 1965 (430 n.90). To check: Zaroulis and Sullivan, *Who Spoke Up?* (1984), 1965 ch. (cited by [[w.bernstein-guns-or-butter]], 382 n.2); *Berkeley Barb*, Aug. 13, 1965, at 1 (cited by [[w.debenedetti-american-ordeal]], 430 n.90). Check: the days. See [[cal.1965-08-31.war-opposition]].'
@@ -5076,6 +6691,7 @@ entries:
   - id: cal.1965-08-31.laos
     when: Aug. 31
     date: '1965-08-31'
+    place: washington
     thread: laos
     c: Washington lets the 38th Air Rescue Squadron's CH-3s stay overnight at Na Khang, on Sullivan's word that Site 36 is secure.
     n: '[[w.anthony-war-in-northern-laos]], 179. To check: SECSTATE/SECDEF to AmEmb Vientiane, 140, Aug. 31, 1965 (cited by [[w.anthony-war-in-northern-laos]], 179 n.28). See [[cal.1965-08-05.laos]]. Names: Sullivan.'
@@ -5105,6 +6721,7 @@ entries:
     when: Aug., early
     date: 1965-08
     at: before 1965-08-01
+    place: washington
     thread: vietnam-congress
     c: 'Rusk before House Foreign Affairs: by his account to the NSC of Aug. 5, good support for the policy.'
     n: '[[w.gibbons-u-s-government-and]], IV, 34. Check: the day; Gibbons: "a few days" before Aug. 5. Names: Rusk.'
@@ -5128,6 +6745,7 @@ entries:
   - id: cal.1965-08.vietnam-saigon
     when: Aug.
     date: 1965-08
+    place: saigon
     thread: vietnam-saigon
     c: 'Lodge, by his unpublished memoir, on arriving in Saigon: he tells the CIA station chief he depends on him for a current list of South Vietnamese commanders "who might be eligible for diplomatic recognition as head of a government" should the Communists subvert the present one.'
     n: '[[w.gibbons-u-s-government-and]], IV, 56 (Lodge''s "Vietnam Memoir," draft). Check: Gibbons has Lodge arriving in early August; he arrived Aug. 20 ([[cal.1965-08-20.vietnam]]). Names: Lodge.'
@@ -5139,6 +6757,7 @@ entries:
   - id: cal.1965-08.press-and-broadcasting
     when: Aug.
     date: 1965-08
+    place: washington
     thread: press-and-broadcasting
     c: Johnson summons Stanton of CBS to the White House "a few days" after his telephone call on Safer's Cẩm Nê film; with Moyers, by Safer's account, he "continued the harangue."
     n: '[[w.gibbons-u-s-government-and]], IV, 69. To check: [[w.halberstam-powers-that-be]], 490 (cited by [[w.gibbons-u-s-government-and]], IV, 69 n.71). Check: the day. See [[cal.1965-08-05.vietnam]]. Names: Johnson, Stanton, Moyers, Safer.'
@@ -5171,6 +6790,7 @@ entries:
   - id: cal.1965-08.war-opposition-2
     when: Aug.
     date: 1965-08
+    place: san-francisco
     thread: war-opposition
     c: San Francisco, to speak at the Commonwealth Club. Pickets at the hotel throw posters, "Taylor War Criminal," in Taylor's face, block the entrance and chase him to the manager's office.
     n: '[[w.taylor-swords-and-plowshares]], 358–59 (one of his first public appearances after Saigon). Check: the day. Names: Taylor.'
@@ -5182,6 +6802,7 @@ entries:
   - id: cal.1965-08-31.civil-rights-organizations
     when: Aug. 31
     date: '1965-08-31'
+    place: chicago
     thread: civil-rights-organizations
     also: [labor]
     c: Chicago. The Coordinating Council's conference with organized labor, 220, on education, housing, employment and labor's support for civil rights.
@@ -5194,6 +6815,7 @@ entries:
   - id: cal.1965-08.civil-disorders-2
     when: Aug.
     date: 1965-08
+    place: chicago
     thread: civil-disorders
     c: 'Chicago. Daley sees Raby, at Raby''s asking, after the West Garfield Park riot; city officials recite what is being done. Raby: "This was not the meeting I had requested."'
     n: '[[w.cohen-american-pharaoh]], 349. Check: the day. Names: Daley, Raby.'
@@ -5217,6 +6839,7 @@ entries:
   - id: cal.1965-08.poverty
     when: Aug., after the riots
     date: 1965-08
+    place: hickory-hill
     thread: poverty
     also: [robert-kennedy, civil-disorders-watts]
     c: 'Hickory Hill, at the pool. Robert Kennedy to Walinsky and Edelman, after Watts: "What are we going to do about these riots?" Walinsky: work, putting the poor to work rebuilding their neighborhoods.'
@@ -5232,6 +6855,7 @@ entries:
     when: Aug., after the 18th
     date: 1965-08
     at: after 1965-08-18
+    place: california
     thread: civil-disorders-watts
     c: Brown, taking Johnson's suggestion, names McCone chairman of his Commission on the Los Angeles Riots, and Warren Christopher vice chairman.
     n: '[[w.bernstein-guns-or-butter]], 388. To check: *Violence in the City: An End or a Beginning?*, Report by the Governor''s Commission on the Los Angeles Riots (Dec. 2, 1965) (cited by [[w.bernstein-guns-or-butter]], 388 n.3). Check: the day. See [[cal.1965-08-18.civil-disorders-watts-3]]. Names: Brown, Johnson, McCone, Christopher.'
@@ -5288,6 +6912,7 @@ entries:
   - id: cal.1965-08-31.china-leadership-2
     when: Aug. 31
     date: '1965-08-31'
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou receives a Vietnamese film and drama delegation.
@@ -5315,3 +6940,51 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 137–138: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 137 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-08-31.china-leadership-3
+    when: Aug. 31
+    date: '1965-08-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lu Qi 鲁琦.
+    n: '[[w.yang-shangkun-riji]], II, 666 (Aug. 31, 1965). The words: 上午处理文电。约鲁琦同志谈话 (II, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lu Qi.'
+    src:
+      c: 0be9eb03
+      rows:
+        - 'w.yang-shangkun-riji II, 666: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-30T22:00Z
+      - 1965-08-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-31.china-leadership-4
+    when: Aug. 31
+    date: '1965-08-31'
+    time: 1965-08-31T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 to 6 p.m. Yang Shangkun 杨尚昆 with Kong Yuan 孔原, Luo Qingchang 罗青长 and Feng Xuan 冯铉 (the editors' note) on the Investigation Department's work and the preparations for the Asian-African conference.
+    n: '[[w.yang-shangkun-riji]], II, 666 (Aug. 31, 1965). The words: 下午3时到6时，约孔、罗、冯谈调查部工作和亚非会议的准备工作 (II, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Luo Qingchang, Feng Xuan.'
+    src:
+      c: 2841a1ad
+      rows:
+        - 'w.yang-shangkun-riji II, 666: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-31.china-leadership-5
+    when: Aug. 31
+    date: '1965-08-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 666 (Aug. 31, 1965). The words: 晚间办公，田家英同志来谈话 (II, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 57d08dda
+      rows:
+        - 'w.yang-shangkun-riji II, 666: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-31T14:00Z
+      - 1965-08-31T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai

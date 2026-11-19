@@ -1,0 +1,818 @@
+patch: 2026-11-19-places-15
+by: 'Claude (the location pass, chunk15: Feb. 21, 1965-Jan. 12, 1966, entries with no time of day), Nov. 19, 2026'
+ops:
+- place-key: {key: mount-kennedy, name: 'Mount Kennedy', zone: America/Whitehorse, in: canada}
+- place-key: {key: natchitoches, name: 'Natchitoches, La.', zone: America/Chicago, st: LA}
+- place-key: {key: badaling, name: 'Badaling', zone: Asia/Shanghai, in: prc}
+- place-key: {key: lusaka, name: 'Lusaka', zone: Africa/Lusaka, in: zambia}
+- place-key: {key: plei-do-lim, name: 'Plei Do Lim', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: korat, name: 'Korat', zone: Asia/Bangkok, in: thailand}
+- place-key: {key: bali, name: 'Bali', zone: Asia/Jakarta, in: indonesia}
+- place-key: {key: kien-hoa, name: 'Kiến Hòa province', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: warrenton-va, name: 'Warrenton, Va.', zone: America/New_York, st: VA}
+- place-key: {key: abingdon-va, name: 'Abingdon, Va.', zone: America/New_York, st: VA}
+- place-key: {key: song-be, name: 'Sông Bé', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: runnymede, name: 'Runnymede', zone: Europe/London, in: uk}
+- place-key: {key: dazhai, name: 'Dazhai', zone: Asia/Shanghai, in: prc}
+- place-key: {key: greenwich-ct, name: 'Greenwich, Conn.', zone: America/New_York, st: CT}
+- place-key: {key: ba-gia, name: 'Ba Gia', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: yuma, name: 'Yuma', zone: America/Phoenix, st: AZ}
+- place-key: {key: duc-co, name: 'Đức Cơ', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: hotan, name: 'Hotan', zone: Asia/Shanghai, in: prc}
+- place-key: {key: st-thomas, name: 'St. Thomas, V.I.', zone: America/St_Thomas, in: us}
+- place-key: {key: kewadin, name: 'Kewadin, Mich.', zone: America/Detroit, st: MI}
+- place-key: {key: war-zone-d, name: 'War Zone D', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: durham, name: 'Durham', zone: America/New_York, st: NC}
+- place-key: {key: dien-bien-phu, name: 'Điện Biên Phủ', zone: Asia/Bangkok, in: drv}
+- place-key: {key: petersburg-va, name: 'Petersburg, Va.', zone: America/New_York, st: VA}
+- place-key: {key: shihezi, name: 'Shihezi', zone: Asia/Shanghai, in: prc}
+- place-key: {key: dau-tieng, name: 'Dầu Tiếng', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: keo-fa-mut, name: 'Keo Fa Mut', zone: Asia/Vientiane, in: laos}
+- place-key: {key: smithtown, name: 'Smithtown, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: fort-deposit, name: 'Fort Deposit, Ala.', zone: America/Chicago, st: AL}
+- place-key: {key: spring-valley-ny, name: 'Spring Valley, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: lhasa, name: 'Lhasa', zone: Asia/Shanghai, in: prc}
+- place-key: {key: jackson-hole, name: 'Jackson Hole, Wyo.', zone: America/Denver, st: WY}
+- place-key: {key: batangan-peninsula, name: 'the Batangan peninsula', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: takhli, name: 'Takhli', zone: Asia/Bangkok, in: thailand}
+- place-key: {key: hainan, name: 'Hainan', zone: Asia/Shanghai, in: prc}
+- place-key: {key: hua-muong, name: 'Hua Muong', zone: Asia/Vientiane, in: laos}
+- place-key: {key: phu-cu-pass, name: 'the Phù Cũ pass', zone: Asia/Ho_Chi_Minh, in: rvn}
+- place-key: {key: williams-bay, name: 'Williams Bay, Wis.', zone: America/Chicago, st: WI}
+- place-key: {key: crawfordville-ga, name: 'Crawfordville, Ga.', zone: America/New_York, st: GA}
+- place-key: {key: ithaca, name: 'Ithaca, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: belovezhskaya-pushcha, name: 'Belovezhskaya Pushcha', zone: Europe/Minsk, in: ussr}
+- place-key: {key: concepcion, name: 'Concepción', zone: America/Santiago, in: chile}
+- place-key: {key: uong-bi, name: 'Uông Bí', zone: Asia/Bangkok, in: drv}
+- place-key: {key: round-mountain, name: 'Round Mountain, Tex.', zone: America/Chicago, st: TX}
+- place-key: {key: foshan, name: 'Foshan', zone: Asia/Shanghai, in: prc}
+- place: {id: cal.1965-02-21.china-leadership-4, at: nanjing, basis: c}
+- place: {id: cal.1965-02-21.states-and-cities, at: nyc, basis: c, note: 'Washington Heights, the Audubon Ballroom; the FBI''s New York teletype'}
+- place: {id: cal.1965-02-22.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1965-02-23.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1965-02-23.china-leadership-4, at: shanghai, basis: c}
+- place: {id: cal.1965-02-23.voting-rights-selma, at: alabama, basis: c, note: 'the acts all in Alabama: Selma, the State Senate'}
+- place: {id: cal.1965-02-25.china-leadership-2, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1965-02-26.black-nationalism, at: chicago, basis: c}
+- place: {id: cal.1965-02-26.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1965-02-27.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-02-27.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-02-28.laos, at: mu-gia-pass, basis: c}
+- place: {id: cal.1965-03.black-nationalism, at: los-angeles, basis: c, note: 'the court'}
+- place: {id: cal.1965-03.china-leadership-2, at: peking, basis: c, note: 'the International Hotel'}
+- place: {id: cal.1965-03.robert-kennedy-2, at: mount-kennedy, basis: c}
+- place: {id: cal.1965-03.school-aid-3, at: washington, basis: seat, note: 'the House caucus and committee'}
+- place: {id: cal.1965-03.school-aid-4, at: washington, basis: seat, note: 'the Senate subcommittee''s hearings'}
+- place: {id: cal.1965-03.vietnam-congress-2, at: washington, basis: c, note: 'Capitol Hill'}
+- place: {id: cal.1965-03.vietnam-congress-5, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-03.voting-rights-selma-4, at: lbj-ranch, basis: c, note: 'the Ranch'}
+- place: {id: cal.1965-03.voting-rights-selma-6, at: selma, basis: c}
+- place: {id: cal.1965-03-01.china-leadership, at: hanoi, basis: c, note: 'the talks at Hanoi'}
+- place: {id: cal.1965-03-01.republican-party, at: nyc, basis: c}
+- place: {id: cal.1965-03-01.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1965-03-01.voting-rights-selma, at: alabama, basis: c, note: 'Selma, Camden, Hayneville: the day''s acts all in Alabama'}
+- place: {id: cal.1965-03-01.voting-rights-selma-2, at: lowndes-county-al, basis: c}
+- place: {id: cal.1965-03-02.china-leadership, at: [hanoi, peking], basis: n, note: 'the flight home, from Hanoi (the note''s leave-taking there) to Peking'}
+- place: {id: cal.1965-03-02.china-leadership-2, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1965-03-02.china-leadership-3, at: peking, basis: n, note: 'the note''s Beijing airport'}
+- place: {id: cal.1965-03-02.war-opposition, at: washington, basis: c, note: 'Howard University'}
+- place: {id: cal.1965-03-03.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-03-03.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1965-03-03.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-03-03.voting-rights-selma, at: marion-al, basis: c}
+- place: {id: cal.1965-03-04.china-leadership, at: peking, basis: c, note: 'the Hall of the People'}
+- place: {id: cal.1965-03-04.consumers, at: natchitoches, basis: c}
+- place: {id: cal.1965-03-05.china-leadership-2, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1965-03-05.civil-rights-organizations, at: atlanta, basis: c}
+- place: {id: cal.1965-03-05.peace-corps, at: washington, basis: c, note: 'the State Department'}
+- place: {id: cal.1965-03-06.china-leadership, at: badaling, basis: c}
+- place: {id: cal.1965-03-06.voting-rights-selma, at: selma, basis: c}
+- place: {id: cal.1965-03-06.voting-rights-selma-4, at: alabama, basis: c, note: 'the governor''s act of office'}
+- place: {id: cal.1965-03-07.press-and-broadcasting-2, at: washington, basis: c, note: 'the National City Christian Church'}
+- place: {id: cal.1965-03-07.voting-rights, at: selma, basis: c}
+- place: {id: cal.1965-03-08.civil-rights-the-executive, at: washington, basis: c}
+- place: {id: cal.1965-03-08.vietnam, at: da-nang, basis: c}
+- place: {id: cal.1965-03-08.voting-rights-2, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1965-03-09.civil-rights-the-executive, at: washington, basis: c}
+- place: {id: cal.1965-03-09.conservation, at: washington, basis: c, note: 'the Yellow Room, the Mall'}
+- place: {id: cal.1965-03-09.voting-rights, at: selma, basis: c}
+- place: {id: cal.1965-03-09.voting-rights-selma, at: detroit, basis: c}
+- place: {id: cal.1965-03-10.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1965-03-10.voting-rights-selma-3, at: montgomery, basis: c}
+- place: {id: cal.1965-03-11.latin-america, at: washington, basis: c, note: 'the Venezuelan Embassy''s lunch for the Latin American ambassadors'' wives'}
+- place: {id: cal.1965-03-11.voting-rights-selma-4, at: selma, basis: c}
+- place: {id: cal.1965-03-15.china-leadership-2, at: tianjin, basis: c, note: 'the Hebei congress, at Tianjin'}
+- place: {id: cal.1965-03-15.china-leadership-3, at: peking, basis: c, note: 'Diaoyutai'}
+- place: {id: cal.1965-03-15.congress, at: washington, basis: c, note: 'the Speaker''s office'}
+- place: {id: cal.1965-03-15.voting-rights-11, at: washington, basis: c, note: 'the mansion, Johnson''s bedroom'}
+- place: {id: cal.1965-03-15.voting-rights-6, at: [puerto-rico, washington], basis: c, note: 'the call, from Puerto Rico; Johnson in the upstairs sitting room (Goodwin)'}
+- place: {id: cal.1965-03-15.voting-rights-8, at: washington, basis: c, note: 'the family quarters'}
+- place: {id: cal.1965-03-15.voting-rights-selma, at: hayneville, basis: c}
+- place: {id: cal.1965-03-15.voting-rights-selma-2, at: selma, basis: c}
+- place: {id: cal.1965-03-16.press-and-broadcasting, at: nyc, basis: n, note: 'the note''s New York Times'}
+- place: {id: cal.1965-03-16.voting-rights-selma, at: montgomery, basis: c}
+- place: {id: cal.1965-03-16.war-opposition, at: detroit, basis: c}
+- place: {id: cal.1965-03-17.china-leadership, at: wuhan, basis: c, note: 'Wuchang, the East Lake guesthouse'}
+- place: {id: cal.1965-03-17.china-leadership-3, at: peking, basis: n, note: 'the Waijiao huodong: Fujian Hall, Great Hall of the People'}
+- place: {id: cal.1965-03-17.voting-rights-selma, at: montgomery, basis: c}
+- place: {id: cal.1965-03-18.china-2, at: lusaka, basis: c, note: 'the credentials to Kaunda, the ambassador arrived at Lusaka'}
+- place: {id: cal.1965-03-18.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Fujian Hall, Great Hall of the People'}
+- place: {id: cal.1965-03-19.china-leadership-6, at: wuhan, basis: c, note: 'Wuchang, the East Lake villa'}
+- place: {id: cal.1965-03-19.vietnam-force-levels, at: saigon, basis: c}
+- place: {id: cal.1965-03-19.voting-rights-selma, at: lowndes-county-al, basis: c}
+- place: {id: cal.1965-03-20.china-leadership-3, at: peking, basis: n, note: 'the Romanian embassy in Peking (the Waijiao huodong)'}
+- place: {id: cal.1965-03-21.alabama-birmingham, at: birmingham, basis: c}
+- place: {id: cal.1965-03-21.voting-rights, at: [selma, montgomery], basis: c, note: 'the march, Selma to Montgomery'}
+- place: {id: cal.1965-03-21.voting-rights-selma, at: boston, basis: c, note: 'the Boston Herald'}
+- place: {id: cal.1965-03-21.voting-rights-selma-2, at: alabama, basis: c, note: 'the march to Montgomery'}
+- place: {id: cal.1965-03-21.voting-rights-selma-4, at: alabama, basis: c, note: 'the march, Selma to Montgomery'}
+- place: {id: cal.1965-03-21.voting-rights-selma-5, at: selma, basis: c}
+- place: {id: cal.1965-03-22.china-leadership-2, at: [peking, kunming], basis: c, note: 'the flight out of Beijing; the talk at Kunming'}
+- place: {id: cal.1965-03-22.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1965-03-22.china-leadership-5, at: wuhan, basis: c, note: 'the call from Wuhan'}
+- place: {id: cal.1965-03-23.china-leadership, at: bucharest, basis: c, note: 'the arrival and the wreath at Bucharest'}
+- place: {id: cal.1965-03-24.china-leadership, at: wuhan, basis: c, note: 'Wuchang'}
+- place: {id: cal.1965-03-24.china-leadership-2, at: bucharest, basis: n, note: 'the Waijiao huodong: in Bucharest'}
+- place: {id: cal.1965-03-24.china-leadership-3, at: bucharest, basis: c}
+- place: {id: cal.1965-03-24.king, at: cleveland, basis: c, note: 'the rally at Cleveland'}
+- place: {id: cal.1965-03-24.school-aid-4, at: washington, basis: seat, note: 'the House floor'}
+- place: {id: cal.1965-03-24.soviet-union-leadership, at: moscow, basis: seat, note: 'the Central Committee plenum'}
+- place: {id: cal.1965-03-24.students, at: ann-arbor, basis: c}
+- place: {id: cal.1965-03-25.alabama, at: lowndes-county-al, basis: c}
+- place: {id: cal.1965-03-25.voting-rights-selma, at: montgomery, basis: c}
+- place: {id: cal.1965-03-27.china-leadership, at: [bucharest, tirana], basis: c, note: 'the flight, Bucharest to Tirana'}
+- place: {id: cal.1965-03-27.vietnam-operations, at: plei-do-lim, basis: c}
+- place: {id: cal.1965-03-28.king, at: san-francisco, basis: c, note: 'the broadcast, from San Francisco'}
+- place: {id: cal.1965-03-28.voting-rights-selma, at: lowndes-county-al, basis: c}
+- place: {id: cal.1965-03-29.china-leadership, at: tirana, basis: c}
+- place: {id: cal.1965-03-29.europe-and-the-alliance, at: paris, basis: c, note: 'the North Atlantic Council'}
+- place: {id: cal.1965-03-30.china-leadership, at: [tirana, algiers], basis: c, note: 'the flight, Tirana to Algiers'}
+- place: {id: cal.1965-03-30.vietnam, at: saigon, basis: c}
+- place: {id: cal.1965-03-30.vietnam-air-war, at: dong-hoi, basis: c}
+- place: {id: cal.1965-03-30.voting-rights-selma, at: alabama, basis: c, note: 'Lowndes County and Montgomery'}
+- place: {id: cal.1965-03-31.china-leadership-5, at: algiers, basis: c}
+- place: {id: cal.1965-04.china, at: warsaw, basis: c, note: 'the Warsaw talks'}
+- place: {id: cal.1965-04.cities-and-housing, at: chicago, basis: c, note: 'the Chicago Daily News'}
+- place: {id: cal.1965-04.mayors, at: chicago, basis: c, note: 'the City Council'}
+- place: {id: cal.1965-04.poverty, at: washington, basis: seat, note: 'the House subcommittee''s hearing'}
+- place: {id: cal.1965-04.robert-kennedy-3, at: nyc, basis: c, note: 'Harlem'}
+- place: {id: cal.1965-04.vietnam-force-levels, at: chu-lai, basis: c}
+- place: {id: cal.1965-04-01.china-leadership, at: [algiers, cairo], basis: n, note: 'the flight, Algiers to Cairo (the Waijiao huodong); the talks at Cairo'}
+- place: {id: cal.1965-04-01.china-leadership-2, at: cairo, basis: c}
+- place: {id: cal.1965-04-01.civil-rights-organizations, at: baltimore, basis: c}
+- place: {id: cal.1965-04-01.desegregation-schools-ma, at: massachusetts, basis: c, note: 'the State advisory committee''s report'}
+- place: {id: cal.1965-04-01.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-04-02.china-leadership, at: [cairo, karachi], basis: c, note: 'the flight, Cairo to Karachi'}
+- place: {id: cal.1965-04-02.china-leadership-2, at: karachi, basis: c}
+- place: {id: cal.1965-04-02.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-04-03.china-leadership, at: [karachi, rangoon], basis: c, note: 'the flight, Karachi to Rangoon'}
+- place: {id: cal.1965-04-03.vietnam, at: thanh-hoa, basis: c}
+- place: {id: cal.1965-04-04.civil-rights-organizations, at: evanston, basis: c}
+- place: {id: cal.1965-04-05.vietnam-air-war-2, at: korat, basis: c, note: 'the wing activated at Korat'}
+- place: {id: cal.1965-04-05.vietnam-air-war-3, at: dong-hoi, basis: c}
+- place: {id: cal.1965-04-05.vietnam-saigon, at: saigon, basis: seat, note: 'the RVN government''s act'}
+- place: {id: cal.1965-04-06.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1965-04-06.soviet-union-leadership, at: warsaw, basis: c}
+- place: {id: cal.1965-04-07.middle-east, at: tehran, basis: c, note: 'the CENTO council at Tehran'}
+- place: {id: cal.1965-04-08.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1965-04-08.vietnam-force-levels, at: honolulu, basis: c, note: 'the Honolulu conference'}
+- place: {id: cal.1965-04-08.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-04-08.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-04-09.china, at: santiago, basis: c, note: 'the arrival at Santiago'}
+- place: {id: cal.1965-04-09.china-leadership-3, at: chengdu, basis: c}
+- place: {id: cal.1965-04-10.middle-east, at: tehran, basis: c}
+- place: {id: cal.1965-04-10.poverty, at: san-marcos, basis: c, note: 'Camp Gary, San Marcos'}
+- place: {id: cal.1965-04-10.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1965-04-11.china-leadership, at: peking, basis: c, note: 'before leaving the capital'}
+- place: {id: cal.1965-04-12.vietnam, at: washington, basis: n, note: 'FRUS heading: the letter, Washington'}
+- place: {id: cal.1965-04-12.vietnam-2, at: da-nang, basis: c}
+- place: {id: cal.1965-04-13.china-leadership-5, at: hanoi, basis: c}
+- place: {id: cal.1965-04-14.china-leadership, at: kunming, basis: c, note: 'the talks at Kunming'}
+- place: {id: cal.1965-04-15.vietnam-operations, at: war-zone-c, basis: c}
+- place: {id: cal.1965-04-16.china-leadership, at: [kunming, jakarta], basis: c, note: 'the flight, Kunming to Jakarta'}
+- place: {id: cal.1965-04-16.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-04-16.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1965-04-17.china-leadership, at: bogor, basis: c}
+- place: {id: cal.1965-04-17.china-leadership-2, at: bogor, basis: c}
+- place: {id: cal.1965-04-17.china-leadership-3, at: bogor, basis: c}
+- place: {id: cal.1965-04-17.students, at: washington, basis: c}
+- place: {id: cal.1965-04-17.students-2, at: lbj-ranch, basis: c, note: 'the Ranch''s front gate'}
+- place: {id: cal.1965-04-17.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-04-18.china-leadership, at: jakarta, basis: c}
+- place: {id: cal.1965-04-18.china-leadership-5, at: peking, basis: c, note: 'the Beijing rally'}
+- place: {id: cal.1965-04-19.china, at: peking, basis: c}
+- place: {id: cal.1965-04-19.program, at: lbj-ranch, basis: c, note: 'the Ranch'}
+- place: {id: cal.1965-04-19.south-carolina, at: columbia, basis: c, note: 'the memorial service in the State Capitol'}
+- place: {id: cal.1965-04-19.vietnam-force-levels, at: da-nang, basis: c}
+- place: {id: cal.1965-04-20.china, at: peking, basis: seat, note: 'the NPC Standing Committee'}
+- place: {id: cal.1965-04-20.europe-and-the-alliance, at: washington, basis: c, note: 'the South Grounds'}
+- place: {id: cal.1965-04-21.china-leadership, at: bandung, basis: c}
+- place: {id: cal.1965-04-21.china-leadership-3, at: bandung, basis: c}
+- place: {id: cal.1965-04-21.europe-and-the-alliance, at: washington, basis: c, note: 'the Italian Embassy, Johnson at the reception'}
+- place: {id: cal.1965-04-21.vietnam-congress-2, at: washington, basis: n, note: 'the column, the note''s Washington Post'}
+- place: {id: cal.1965-04-21.vietnam-support, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-04-22.china-leadership-3, at: bali, basis: c, note: 'the visit to Bali'}
+- place: {id: cal.1965-04-22.king-boston, at: boston, basis: c}
+- place: {id: cal.1965-04-23.china-leadership, at: bali, basis: c}
+- place: {id: cal.1965-04-23.china-leadership-2, at: bali, basis: c, note: 'Bedugul, Bali'}
+- place: {id: cal.1965-04-23.students-nj, at: new-brunswick, basis: c}
+- place: {id: cal.1965-04-24.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-04-24.latin-america, at: santo-domingo, basis: c, note: 'the rising and its days, Santo Domingo'}
+- place: {id: cal.1965-04-25.china-leadership-3, at: jakarta, basis: n, note: 'the Waijiao huodong: Subandrio''s residence, Jakarta'}
+- place: {id: cal.1965-04-25.china-leadership-6, at: jakarta, basis: n, note: 'the Waijiao huodong: Jakarta'}
+- place: {id: cal.1965-04-25.china-leadership-7, at: jakarta, basis: n, note: 'the Waijiao huodong: Jakarta'}
+- place: {id: cal.1965-04-26.china-leadership, at: jakarta, basis: c, note: 'the talk and the departure from Jakarta'}
+- place: {id: cal.1965-04-28.china-leadership, at: wuhan, basis: c, note: 'Wuchang'}
+- place: {id: cal.1965-04-28.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-04-28.latin-america-dominican-republic-4, at: washington, basis: c, note: 'the West Wing, the Cabinet Room'}
+- place: {id: cal.1965-04-28.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-04-28.vietnam-operations, at: kien-hoa, basis: c}
+- place: {id: cal.1965-04-29.china-leadership, at: peking, basis: c, note: 'the arrival'}
+- place: {id: cal.1965-04-29.china-leadership-5, at: wuhan, basis: c, note: 'the note, the day he leaves Wuchang'}
+- place: {id: cal.1965-04-29.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05.civil-rights-organizations, at: warrenton-va, basis: c}
+- place: {id: cal.1965-05.civil-rights-the-executive-2, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1965-05.conservation, at: albany, basis: c, note: 'the Legislature at Albany'}
+- place: {id: cal.1965-05.latin-america-dominican-republic, at: washington, basis: seat, note: 'the Senate committee''s hearing'}
+- place: {id: cal.1965-05.mayors-omaha, at: omaha, basis: c, note: 'the city''s election'}
+- place: {id: cal.1965-05.press-and-broadcasting, at: chicago, basis: c, note: 'the Chicago Sun-Times'}
+- place: {id: cal.1965-05.war-opposition, at: washington, basis: c}
+- place: {id: cal.1965-05-01.desegregation-schools-philadelphia, at: philadelphia, basis: c}
+- place: {id: cal.1965-05-01.latin-america-dominican-republic-2, at: santo-domingo, basis: c}
+- place: {id: cal.1965-05-03.vietnam-force-levels, at: bien-hoa, basis: c}
+- place: {id: cal.1965-05-03.vietnam-operations, at: saigon, basis: c}
+- place: {id: cal.1965-05-04.program, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-05-05.poverty, at: washington, basis: c}
+- place: {id: cal.1965-05-05.soviet-union, at: washington, basis: c, note: 'the Red Room'}
+- place: {id: cal.1965-05-05.vietnam, at: bien-hoa, basis: c, note: 'the chief act, the 173d flown in to Biên Hòa'}
+- place: {id: cal.1965-05-05.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-06.congress, at: washington, basis: c, note: 'the Shoreham'}
+- place: {id: cal.1965-05-06.legislatures-wa, at: washington-state, basis: c, note: 'the Legislature''s act'}
+- place: {id: cal.1965-05-07.vietnam-air-war, at: thanh-hoa, basis: c}
+- place: {id: cal.1965-05-07.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-07.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-07.vietnam-hanoi-3, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-08.china-leadership-3, at: peking, basis: n, note: 'the Waijiao huodong: Building 2, Diaoyutai (May 9 and 10)'}
+- place: {id: cal.1965-05-08.soviet-union-leadership, at: moscow, basis: seat, note: 'the Supreme Soviet'}
+- place: {id: cal.1965-05-09.china-leadership-4, at: peking, basis: n, note: 'the Waijiao huodong: Beijing'}
+- place: {id: cal.1965-05-09.laos, at: plain-of-jars, basis: c}
+- place: {id: cal.1965-05-11.china-leadership-3, at: peking, basis: c, note: 'Zhongshan Hall, the capital''s memorial meeting'}
+- place: {id: cal.1965-05-11.conservation, at: virginia, basis: c, note: 'the tour''s stops all in Virginia'}
+- place: {id: cal.1965-05-11.program, at: abingdon-va, basis: c}
+- place: {id: cal.1965-05-11.vietnam-operations, at: song-be, basis: c}
+- place: {id: cal.1965-05-12.war-opposition, at: washington, basis: c}
+- place: {id: cal.1965-05-13.latin-america-dominican-republic, at: santo-domingo, basis: c}
+- place: {id: cal.1965-05-14.europe-and-the-alliance, at: runnymede, basis: c}
+- place: {id: cal.1965-05-14.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-05-15.students, at: washington, basis: c, note: 'the Sheraton-Park Hotel'}
+- place: {id: cal.1965-05-15.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1965-05-16.china-leadership, at: changsha, basis: c}
+- place: {id: cal.1965-05-16.china-leadership-2, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1965-05-16.latin-america, at: santo-domingo, basis: c}
+- place: {id: cal.1965-05-16.vietnam-operations, at: bien-hoa-air-base, basis: c}
+- place: {id: cal.1965-05-17.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Beijing'}
+- place: {id: cal.1965-05-17.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1965-05-17.war-opposition, at: washington, basis: seat, note: 'the Senate subcommittee''s hearing'}
+- place: {id: cal.1965-05-18.korea, at: washington, basis: c, note: 'the Mayflower'}
+- place: {id: cal.1965-05-18.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-18.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-19.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Beijing airport'}
+- place: {id: cal.1965-05-19.latin-america-dominican-republic, at: santo-domingo, basis: c}
+- place: {id: cal.1965-05-20.vietnam-saigon, at: saigon, basis: c}
+- place: {id: cal.1965-05-21.china-leadership, at: dazhai, basis: c}
+- place: {id: cal.1965-05-21.latin-america, at: santo-domingo, basis: c}
+- place: {id: cal.1965-05-21.students, at: berkeley, basis: c}
+- place: {id: cal.1965-05-22.china-leadership-2, at: peking, basis: seat, note: 'the NPC Standing Committee'}
+- place: {id: cal.1965-05-22.latin-america, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-05-23.latin-america-dominican-republic, at: santo-domingo, basis: c}
+- place: {id: cal.1965-05-23.press-and-broadcasting, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1965-05-23.program, at: greenwich-ct, basis: c}
+- place: {id: cal.1965-05-24.alabama, at: montgomery, basis: c}
+- place: {id: cal.1965-05-24.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-05-25.voting-rights, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1965-05-26.voting-rights-2, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1965-05-28.china-leadership, at: canton, basis: c, note: 'Guangzhou, the Baiyunshan Hotel'}
+- place: {id: cal.1965-05-29.china-leadership, at: peking, basis: c}
+- place: {id: cal.1965-05-29.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1965-05-29.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-05-29.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-05-29.vietnam-operations, at: ba-gia, basis: c}
+- place: {id: cal.1965-05-30.china-leadership, at: peking, basis: seat, note: 'the NPC Standing Committee''s joint session'}
+- place: {id: cal.1965-05-31.europe-and-the-alliance, at: paris, basis: c}
+- place: {id: cal.1965-06.china-leadership-2, at: cairo, basis: c}
+- place: {id: cal.1965-06.cities-and-housing, at: chicago, basis: c}
+- place: {id: cal.1965-06.civil-rights-the-executive, at: washington, basis: c, note: 'the West Wing'}
+- place: {id: cal.1965-06.crime-and-hijacking-ny, at: new-york-state, basis: c, note: 'the governor''s signing'}
+- place: {id: cal.1965-06.desegregation-schools-milwaukee, at: milwaukee, basis: c, note: 'the filing, Milwaukee'}
+- place: {id: cal.1965-06.goldwater, at: yuma, basis: c}
+- place: {id: cal.1965-06.mayors-minneapolis, at: minneapolis, basis: c, note: 'the city''s election'}
+- place: {id: cal.1965-06.poverty, at: st-louis, basis: c, note: 'the Conference of Mayors at St. Louis'}
+- place: {id: cal.1965-06.program, at: washington, basis: c, note: 'the White House mess'}
+- place: {id: cal.1965-06.republican-party-3, at: miami, basis: c}
+- place: {id: cal.1965-06.republican-party-5, at: newark, basis: c}
+- place: {id: cal.1965-06.robert-kennedy, at: buffalo, basis: c}
+- place: {id: cal.1965-06.students, at: berkeley, basis: c}
+- place: {id: cal.1965-06.transition-and-staff, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1965-06.vietnam-operations, at: duc-co, basis: c, note: 'the siege of the camp'}
+- place: {id: cal.1965-06.war-opposition, at: washington, basis: c}
+- place: {id: cal.1965-06-01.china-leadership-3, at: hotan, basis: c}
+- place: {id: cal.1965-06-01.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-06-01.program, at: washington, basis: c, note: 'the National Cathedral'}
+- place: {id: cal.1965-06-01.republican-party, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-06-01.vietnam-support, at: east-lansing, basis: c}
+- place: {id: cal.1965-06-02.china-leadership, at: hangzhou, basis: n, note: 'the Wengao: Mao''s note, at Hangzhou'}
+- place: {id: cal.1965-06-02.china-leadership-3, at: rawalpindi, basis: c}
+- place: {id: cal.1965-06-02.states-and-cities, at: bogalusa, basis: c}
+- place: {id: cal.1965-06-03.states-and-cities, at: st-thomas, basis: c}
+- place: {id: cal.1965-06-04.china-leadership, at: dar-es-salaam, basis: c}
+- place: {id: cal.1965-06-04.china-leadership-2, at: dar-es-salaam, basis: n, note: 'the Waijiao huodong: the Dar es Salaam presidential palace'}
+- place: {id: cal.1965-06-04.civil-rights-the-executive-2, at: washington, basis: c, note: 'the mansion'}
+- place: {id: cal.1965-06-05.china-leadership-2, at: dar-es-salaam, basis: n, note: 'the Waijiao huodong: the Dar es Salaam presidential palace'}
+- place: {id: cal.1965-06-06.china-leadership, at: zanzibar, basis: c, note: 'the visit to Zanzibar'}
+- place: {id: cal.1965-06-06.china-leadership-2, at: zanzibar, basis: c}
+- place: {id: cal.1965-06-06.china-leadership-4, at: zanzibar, basis: n, note: 'the Waijiao huodong: Zanzibar'}
+- place: {id: cal.1965-06-08.war-opposition, at: nyc, basis: c, note: 'Madison Square Garden'}
+- place: {id: cal.1965-06-09.china-leadership, at: damascus, basis: c, note: 'the talks at Damascus'}
+- place: {id: cal.1965-06-09.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-06-09.students, at: kewadin, basis: c}
+- place: {id: cal.1965-06-09.vietnam-force-levels, at: cam-ranh-bay, basis: c}
+- place: {id: cal.1965-06-10.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1965-06-10.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-06-10.legislatures-ia, at: iowa, basis: c, note: 'the General Assembly'}
+- place: {id: cal.1965-06-13.china, at: brazzaville, basis: c}
+- place: {id: cal.1965-06-13.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1965-06-14.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-06-14.mississippi, at: jackson, basis: c}
+- place: {id: cal.1965-06-14.vietnam-congress-3, at: nyc, basis: n, note: 'the note''s New York Times'}
+- place: {id: cal.1965-06-14.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-06-14.war-opposition, at: washington, basis: c, note: 'the White House Festival of the Arts'}
+- place: {id: cal.1965-06-14.war-opposition-2, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1965-06-15.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1965-06-15.china-leadership-2, at: hangzhou, basis: c}
+- place: {id: cal.1965-06-15.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-06-15.latin-america, at: santo-domingo, basis: c}
+- place: {id: cal.1965-06-16.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1965-06-16.republican-party, at: miami, basis: c, note: 'the convention at Miami'}
+- place: {id: cal.1965-06-16.vietnam-operations, at: tan-son-nhut, basis: c}
+- place: {id: cal.1965-06-17.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1965-06-17.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-06-17.space-2, at: washington, basis: c, note: 'the Rose Garden'}
+- place: {id: cal.1965-06-17.space-3, at: washington, basis: c, note: 'the call, from the White House dinner (the Queen''s Room)'}
+- place: {id: cal.1965-06-18.china-leadership, at: peking, basis: c, note: 'before leaving Beijing'}
+- place: {id: cal.1965-06-19.china-leadership-2, at: cairo, basis: c}
+- place: {id: cal.1965-06-20.china-leadership, at: cairo, basis: n, note: 'the Waijiao huodong: Nasser''s residence in Cairo'}
+- place: {id: cal.1965-06-20.medicare, at: nyc, basis: c}
+- place: {id: cal.1965-06-21.economy-2, at: washington, basis: seat, note: 'the House committee''s session'}
+- place: {id: cal.1965-06-21.labor, at: washington, basis: seat, note: 'the House subcommittee''s hearings'}
+- place: {id: cal.1965-06-21.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-06-22.china-leadership-2, at: cairo, basis: n, note: 'the Waijiao huodong: Kubba Palace, Cairo'}
+- place: {id: cal.1965-06-22.china-leadership-7, at: algiers, basis: c}
+- place: {id: cal.1965-06-22.transition-and-staff, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1965-06-23.state-and-city-finance-nyc, at: albany, basis: c, note: 'the Assembly at Albany'}
+- place: {id: cal.1965-06-24.china-leadership, at: alexandria, basis: n, note: 'the Waijiao huodong: Ras el-Tin Palace, Alexandria'}
+- place: {id: cal.1965-06-24.china-leadership-3, at: alexandria, basis: c}
+- place: {id: cal.1965-06-25.china-leadership-2, at: alexandria, basis: c}
+- place: {id: cal.1965-06-25.vietnam-operations, at: saigon, basis: c}
+- place: {id: cal.1965-06-26.china-leadership-2, at: cairo, basis: c, note: 'Cairo airport'}
+- place: {id: cal.1965-06-26.china-leadership-3, at: cairo, basis: n, note: 'the Waijiao huodong: the Chinese embassy in Cairo'}
+- place: {id: cal.1965-06-27.china-leadership, at: cairo, basis: c, note: 'Qubba Palace'}
+- place: {id: cal.1965-06-27.vietnam-operations, at: war-zone-d, basis: c, note: 'the sweep'}
+- place: {id: cal.1965-06-28.economy, at: washington, basis: c, note: 'the talks in Washington'}
+- place: {id: cal.1965-06-28.transition-and-staff, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1965-06-28.white-house, at: boston, basis: c}
+- place: {id: cal.1965-06-29.china-leadership, at: cairo, basis: n, note: 'the Waijiao huodong: the Chinese embassy in Cairo'}
+- place: {id: cal.1965-06-29.legislatures-fl, at: florida, basis: c, note: 'the Legislature''s apportionment'}
+- place: {id: cal.1965-06-29.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-06-29.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-06-30.china-leadership, at: cairo, basis: n, note: 'the Waijiao huodong: Kubba Palace, Cairo'}
+- place: {id: cal.1965-06-30.china-leadership-2, at: cairo, basis: c, note: 'the departure and the airport statement at Cairo'}
+- place: {id: cal.1965-06-30.india-and-china, at: [new-delhi, karachi], basis: c, note: 'the agreement, signed at New Delhi and Karachi'}
+- place: {id: cal.1965-07.china-leadership-2, at: peking, basis: c, note: 'the International Hotel'}
+- place: {id: cal.1965-07.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-07.king-2, at: philadelphia, basis: c}
+- place: {id: cal.1965-07.medicare, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1965-07.press-and-broadcasting, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1965-07.transition-and-staff-2, at: washington, basis: c, note: 'Moyers''s office'}
+- place: {id: cal.1965-07.vietnam, at: detroit, basis: c}
+- place: {id: cal.1965-07.vietnam-6, at: saigon, basis: c}
+- place: {id: cal.1965-07.vietnam-july-decision, at: washington, basis: c, note: 'the Marine barracks'}
+- place: {id: cal.1965-07.vietnam-july-decision-3, at: washington, basis: c, note: 'the meeting at the White House'}
+- place: {id: cal.1965-07.vietnam-support, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-07.war-opposition, at: mccomb, basis: c}
+- place: {id: cal.1965-07.war-opposition-2, at: nyc, basis: c}
+- place: {id: cal.1965-07.women, at: jakarta, basis: c, note: 'Djakarta'}
+- place: {id: cal.1965-07-01.antisubversion-fl, at: florida, basis: c, note: 'the State committee''s end'}
+- place: {id: cal.1965-07-01.civil-rights-organizations, at: durham, basis: c, note: 'CORE''s convention at Durham'}
+- place: {id: cal.1965-07-01.republican-party, at: houston, basis: c}
+- place: {id: cal.1965-07-01.state-constitutions-ct, at: hartford, basis: c, note: 'the Old State House at Hartford'}
+- place: {id: cal.1965-07-01.vietnam-air-war, at: tan-son-nhut, basis: c, note: 'the squadron established at Tan Son Nhut'}
+- place: {id: cal.1965-07-01.vietnam-diplomacy, at: washington, basis: n, note: 'the column, the note''s Washington Post'}
+- place: {id: cal.1965-07-02.school-aid, at: nyc, basis: c, note: 'PPP headnote: Madison Square Garden, New York City'}
+- place: {id: cal.1965-07-02.vietnam-air-war, at: dien-bien-phu, basis: c, note: 'the strikes on the airfield and barracks'}
+- place: {id: cal.1965-07-02.war-opposition, at: petersburg-va, basis: c, note: 'Virginia State College'}
+- place: {id: cal.1965-07-03.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-07-04.china-leadership, at: peking, basis: c, note: 'the Hall of the People, Room 118'}
+- place: {id: cal.1965-07-05.china-leadership, at: shihezi, basis: c}
+- place: {id: cal.1965-07-05.press-and-broadcasting, at: washington, basis: n, note: 'Goodwin: the Oval Office'}
+- place: {id: cal.1965-07-06.republican-party, at: houston, basis: c}
+- place: {id: cal.1965-07-06.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-07-07.china-leadership, at: [urumqi, peking], basis: c, note: 'the flight, Urumqi to Beijing'}
+- place: {id: cal.1965-07-07.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-07-08.soviet-union-leadership, at: moscow, basis: seat, note: 'the CPSU Presidium'}
+- place: {id: cal.1965-07-08.vietnam-operations, at: dau-tieng, basis: c}
+- place: {id: cal.1965-07-10.economy, at: hot-springs-va, basis: c}
+- place: {id: cal.1965-07-11.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Fujian Hall, Great Hall of the People'}
+- place: {id: cal.1965-07-11.desegregation-schools, at: chicago, basis: c}
+- place: {id: cal.1965-07-11.latin-america-dominican-republic, at: fort-bragg, basis: c, note: 'the return to Fort Bragg'}
+- place: {id: cal.1965-07-12.china-leadership-3, at: peking, basis: n, note: 'the Waijiao huodong: Beijing airport'}
+- place: {id: cal.1965-07-13.transition-and-staff, at: washington, basis: n, note: 'PPP headnote: the news conference, the East Room'}
+- place: {id: cal.1965-07-14.latin-america-dominican-republic, at: washington, basis: seat, note: 'the Senate committee''s executive session'}
+- place: {id: cal.1965-07-14.press-and-broadcasting-2, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1965-07-14.transition-and-staff, at: london, basis: c, note: 'the death in London'}
+- place: {id: cal.1965-07-15.soviet-union-leadership, at: moscow, basis: seat, note: 'the CPSU Presidium'}
+- place: {id: cal.1965-07-16.china-leadership, at: peking, basis: c, note: 'the Hall of the People, Fujian Hall'}
+- place: {id: cal.1965-07-16.china-leadership-2, at: canton, basis: c, note: 'Guangzhou'}
+- place: {id: cal.1965-07-16.transition-and-staff, at: washington, basis: c, note: 'the National Cathedral'}
+- place: {id: cal.1965-07-16.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-07-17.alabama, at: washington, basis: c, note: 'the lunch at the White House'}
+- place: {id: cal.1965-07-17.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1965-07-17.soviet-union-leadership, at: bucharest, basis: c}
+- place: {id: cal.1965-07-18.china-leadership, at: shanghai, basis: c, note: 'Hongqiao airport'}
+- place: {id: cal.1965-07-18.crime-and-hijacking, at: camp-david, basis: c}
+- place: {id: cal.1965-07-18.mississippi, at: jackson, basis: c, note: 'the Heidelberg Hotel'}
+- place: {id: cal.1965-07-18.press-and-broadcasting, at: camp-david, basis: c}
+- place: {id: cal.1965-07-18.press-and-broadcasting-2, at: camp-david, basis: c, note: 'the call, from Camp David'}
+- place: {id: cal.1965-07-19.china-leadership, at: shanghai, basis: c, note: 'the Shanghai Cultural Club'}
+- place: {id: cal.1965-07-20.china-leadership, at: peking, basis: c, note: 'the return and the airport'}
+- place: {id: cal.1965-07-21.press-and-broadcasting, at: washington, basis: c, note: 'the Truman Balcony'}
+- place: {id: cal.1965-07-21.school-aid, at: washington, basis: n, note: 'PPP headnote: the South Lawn at the White House'}
+- place: {id: cal.1965-07-22.laos, at: keo-fa-mut, basis: c}
+- place: {id: cal.1965-07-22.vietnam-july-decision, at: cambridge-ma, basis: n, note: 'FRUS heading: Cambridge, Massachusetts'}
+- place: {id: cal.1965-07-23.laos, at: bangkok, basis: c}
+- place: {id: cal.1965-07-24.china, at: peking, basis: c}
+- place: {id: cal.1965-07-24.cities-and-housing, at: chicago, basis: c, note: 'City Hall'}
+- place: {id: cal.1965-07-24.king, at: chicago, basis: c, note: 'Chicago, the first stop and the chief acts (P5); Winnetka the one stop outside'}
+- place: {id: cal.1965-07-25.mayors, at: detroit, basis: c}
+- place: {id: cal.1965-07-25.vietnam-congress, at: nyc, basis: n, note: 'the note''s New York Times'}
+- place: {id: cal.1965-07-26.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Diaoyutai; the Great Hall of the People'}
+- place: {id: cal.1965-07-26.king, at: chicago, basis: c}
+- place: {id: cal.1965-07-26.vietnam, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1965-07-27.china-leadership-5, at: shenyang, basis: c}
+- place: {id: cal.1965-07-27.desegregation-schools, at: washington, basis: c, note: 'the subcommittee''s hearings in Washington'}
+- place: {id: cal.1965-07-27.king, at: cleveland, basis: c}
+- place: {id: cal.1965-07-27.medicare, at: washington, basis: seat, note: 'the House floor'}
+- place: {id: cal.1965-07-27.vietnam-july-decision-3, at: washington, basis: n, note: 'FRUS heading: the memorandum of the meeting, Washington'}
+- place: {id: cal.1965-07-28.china-leadership-2, at: anshan, basis: c, note: 'the visit to Anshan'}
+- place: {id: cal.1965-07-28.king, at: cleveland, basis: c}
+- place: {id: cal.1965-07-28.laos, at: keo-fa-mut, basis: c}
+- place: {id: cal.1965-07-28.medicare, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1965-07-28.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-07-28.vietnam-july-decision, at: washington, basis: c, note: 'the Capitol'}
+- place: {id: cal.1965-07-29.china-leadership-4, at: shenyang, basis: c}
+- place: {id: cal.1965-07-29.china-leadership-5, at: shenyang, basis: c}
+- place: {id: cal.1965-07-29.draft, at: nyc, basis: c}
+- place: {id: cal.1965-07-29.vietnam-force-levels, at: cam-ranh-bay, basis: c}
+- place: {id: cal.1965-07-29.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-07-30.economy, at: washington, basis: c, note: 'the talks in Washington'}
+- place: {id: cal.1965-07-30.vietnam, at: saigon, basis: c, note: 'the departure from Saigon'}
+- place: {id: cal.1965-07-30.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-07-30.vietnam-saigon, at: saigon, basis: seat, note: 'the RVN government''s act'}
+- place: {id: cal.1965-07-31.program, at: lbj-ranch, basis: c, note: 'the Ranch'}
+- place: {id: cal.1965-08.civil-disorders-2, at: chicago, basis: c}
+- place: {id: cal.1965-08.civil-disorders-watts-4, at: california, basis: c, note: 'the governor''s act'}
+- place: {id: cal.1965-08.conservative-movement, at: san-diego, basis: c, note: 'the San Diego Union'}
+- place: {id: cal.1965-08.poverty, at: hickory-hill, basis: c}
+- place: {id: cal.1965-08.press-and-broadcasting, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-08.robert-kennedy, at: washington, basis: n, note: 'Goodwin: the Oval Office'}
+- place: {id: cal.1965-08.vietnam-congress, at: washington, basis: seat, note: 'the House committee'}
+- place: {id: cal.1965-08.vietnam-saigon, at: saigon, basis: c, note: 'on arriving in Saigon'}
+- place: {id: cal.1965-08.war-opposition, at: oakland, basis: c, note: 'the Oakland Army Terminal'}
+- place: {id: cal.1965-08.war-opposition-2, at: san-francisco, basis: c}
+- place: {id: cal.1965-08-01.desegregation-schools, at: chicago, basis: c, note: 'Bridgeport'}
+- place: {id: cal.1965-08-01.state-and-city-finance-ny, at: new-york-state, basis: c, note: 'the State''s tax in force'}
+- place: {id: cal.1965-08-01.vietnam-force-levels, at: nha-trang, basis: n, note: 'Cosmas: Task Force Alpha at Nha Trang'}
+- place: {id: cal.1965-08-01.vietnam-operations, at: duc-co, basis: c}
+- place: {id: cal.1965-08-03.china-leadership, at: peking, basis: c, note: 'the Hall of the People, Room 118'}
+- place: {id: cal.1965-08-03.desegregation-schools-philadelphia, at: philadelphia, basis: c}
+- place: {id: cal.1965-08-03.vietnam-support, at: washington, basis: c, note: 'the White House dinner'}
+- place: {id: cal.1965-08-03.voting-rights, at: washington, basis: seat, note: 'the House floor'}
+- place: {id: cal.1965-08-04.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Beijing'}
+- place: {id: cal.1965-08-04.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-08-04.king, at: washington, basis: c}
+- place: {id: cal.1965-08-04.voting-rights-2, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1965-08-05.china-leadership, at: peking, basis: c, note: 'the Hall of the People, Room 118'}
+- place: {id: cal.1965-08-05.king, at: washington, basis: c, note: 'Lafayette Park'}
+- place: {id: cal.1965-08-06.program, at: greenwich-ct, basis: c}
+- place: {id: cal.1965-08-09.war-opposition, at: washington, basis: c}
+- place: {id: cal.1965-08-08.state-and-city-finance, at: smithtown, basis: c}
+- place: {id: cal.1965-08-09.civil-rights-organizations, at: birmingham, basis: c}
+- place: {id: cal.1965-08-09.vietnam-congress, at: washington, basis: c, note: 'the White House briefings'}
+- place: {id: cal.1965-08-10.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-08-11.states-and-cities, at: los-angeles, basis: c, note: 'Watts, Los Angeles'}
+- place: {id: cal.1965-08-12.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Fujian Hall, Great Hall of the People'}
+- place: {id: cal.1965-08-12.civil-disorders-watts, at: los-angeles, basis: c}
+- place: {id: cal.1965-08-12.poverty, at: new-jersey, basis: c, note: 'Newark, Lambertville, Morven: all in New Jersey'}
+- place: {id: cal.1965-08-12.war-opposition, at: birmingham, basis: c}
+- place: {id: cal.1965-08-13.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1965-08-13.civil-disorders, at: chicago, basis: c}
+- place: {id: cal.1965-08-13.japan-and-korea, at: seoul, basis: seat, note: 'the National Assembly'}
+- place: {id: cal.1965-08-13.king, at: miami, basis: c}
+- place: {id: cal.1965-08-14.alabama, at: fort-deposit, basis: c, note: 'the pickets and arrests at Fort Deposit'}
+- place: {id: cal.1965-08-14.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Beijing airport'}
+- place: {id: cal.1965-08-14.japan-and-korea, at: seoul, basis: seat, note: 'the National Assembly'}
+- place: {id: cal.1965-08-15.china-leadership, at: peking, basis: c, note: 'the Beijing Hotel'}
+- place: {id: cal.1965-08-17.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-08-18.civil-disorders-watts, at: los-angeles, basis: c, note: 'Watts'}
+- place: {id: cal.1965-08-18.robert-kennedy, at: spring-valley-ny, basis: c}
+- place: {id: cal.1965-08-18.vietnam, at: van-tuong, basis: c}
+- place: {id: cal.1965-08-19.japan-and-korea, at: okinawa, basis: c}
+- place: {id: cal.1965-08-20.alabama, at: hayneville, basis: c}
+- place: {id: cal.1965-08-20.vietnam, at: saigon, basis: c, note: 'the arrival'}
+- place: {id: cal.1965-08-21.civil-rights-organizations-2, at: chicago, basis: c}
+- place: {id: cal.1965-08-21.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-08-21.vietnam-operations, at: van-tuong, basis: tag, note: 'the operation''s ground'}
+- place: {id: cal.1965-08-23.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-08-24.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Great Hall of the People'}
+- place: {id: cal.1965-08-24.vietnam-operations, at: bien-hoa-air-base, basis: c}
+- place: {id: cal.1965-08-25.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Fujian Hall; Diaoyutai'}
+- place: {id: cal.1965-08-25.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-08-26.civil-rights-organizations, at: atlanta, basis: c}
+- place: {id: cal.1965-08-27.mississippi, at: natchez, basis: c}
+- place: {id: cal.1965-08-27.transition-and-staff, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-08-27.vietnam-air-war, at: korat, basis: c, note: 'the deployment to Korat'}
+- place: {id: cal.1965-08-31.alabama, at: hayneville, basis: c}
+- place: {id: cal.1965-08-31.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-09.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-09.king, at: chicago, basis: c}
+- place: {id: cal.1965-09.king-2, at: aurora, basis: c, note: 'Pleasant Valley Farm'}
+- place: {id: cal.1965-09.mississippi, at: mississippi, basis: c, note: 'Hattiesburg and Forrest County'}
+- place: {id: cal.1965-09.press-and-broadcasting, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-09.republican-party, at: washington-state, basis: c, note: 'the State Committee'}
+- place: {id: cal.1965-09.soviet-union-leadership, at: moscow, basis: seat, note: 'the CPSU Presidium'}
+- place: {id: cal.1965-09.students, at: ann-arbor, basis: c}
+- place: {id: cal.1965-09.vietnam, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-09.vietnam-macv, at: saigon, basis: c}
+- place: {id: cal.1965-09-01.china-leadership, at: peking, basis: c, note: 'the airport, Beijing'}
+- place: {id: cal.1965-09-01.china-leadership-3, at: lhasa, basis: c, note: 'the Congress opens at Lhasa'}
+- place: {id: cal.1965-09-02.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-09-02.transition-and-staff, at: independence-mo, basis: c}
+- place: {id: cal.1965-09-03.china, at: peking, basis: c, note: 'the Peking Review'}
+- place: {id: cal.1965-09-03.china-leadership-2, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1965-09-03.china-leadership-4, at: peking, basis: n, note: 'the Waijiao huodong: Beijing airport'}
+- place: {id: cal.1965-09-03.latin-america, at: santo-domingo, basis: c, note: 'the swearing-in at Santo Domingo'}
+- place: {id: cal.1965-09-03.states-and-cities, at: washington, basis: n, note: 'the House petition; PPP headnote: the White House Theater'}
+- place: {id: cal.1965-09-04.china-leadership-2, at: karachi, basis: c}
+- place: {id: cal.1965-09-04.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1965-09-05.vietnam-air-war, at: gulf-of-tonkin, basis: c}
+- place: {id: cal.1965-09-06.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-09-06.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-09-06.vietnam-hanoi-2, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-09-07.conservation, at: jackson-hole, basis: c}
+- place: {id: cal.1965-09-07.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-09-07.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-09-07.vietnam-operations, at: batangan-peninsula, basis: c}
+- place: {id: cal.1965-09-08.jobs-and-wages-ca, at: delano, basis: c}
+- place: {id: cal.1965-09-08.vietnam-air-war, at: takhli, basis: c, note: 'the arrival at Takhli'}
+- place: {id: cal.1965-09-10.china-leadership-3, at: bamako, basis: c}
+- place: {id: cal.1965-09-10.economy, at: london, basis: c, note: 'the package completed in London'}
+- place: {id: cal.1965-09-12.vietnam-force-levels, at: qui-nhon, basis: c}
+- place: {id: cal.1965-09-14.china-2, at: peking, basis: c}
+- place: {id: cal.1965-09-14.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-09-15.china-leadership, at: peking, basis: c, note: 'the Juxiang Shuwu'}
+- place: {id: cal.1965-09-15.japan-and-korea-korean-troops, at: saigon, basis: c, note: 'the arrival'}
+- place: {id: cal.1965-09-15.vietnam-2, at: ban-me-thuot, basis: c}
+- place: {id: cal.1965-09-16.jobs-and-wages-ca, at: delano, basis: c}
+- place: {id: cal.1965-09-16.transition-and-staff, at: baltimore, basis: c, note: 'the Baltimore Sun'}
+- place: {id: cal.1965-09-16.vietnam-air-war-2, at: ben-hai-river, basis: c, note: 'the bridge strike'}
+- place: {id: cal.1965-09-16.vietnam-saigon, at: quang-ngai, basis: c, note: 'the crash at Quảng Ngãi'}
+- place: {id: cal.1965-09-17.conservation-ca, at: california, basis: c, note: 'the State''s act in force'}
+- place: {id: cal.1965-09-18.china-leadership, at: peking, basis: c, note: 'Beijing, the Henan Hall'}
+- place: {id: cal.1965-09-18.war-opposition, at: ann-arbor, basis: c}
+- place: {id: cal.1965-09-20.china-leadership, at: kabul, basis: c, note: 'Kabul airport'}
+- place: {id: cal.1965-09-20.india-and-china, at: nyc, basis: seat, note: 'the Security Council'}
+- place: {id: cal.1965-09-20.vietnam-air-war-2, at: hainan, basis: c, note: 'the shoot-down over Hainan'}
+- place: {id: cal.1965-09-21.laos, at: hua-muong, basis: c}
+- place: {id: cal.1965-09-23.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1965-09-23.vietnam-operations, at: phu-cu-pass, basis: c}
+- place: {id: cal.1965-09-24.china-leadership-2, at: chongqing, basis: c}
+- place: {id: cal.1965-09-24.soviet-union-leadership, at: moscow, basis: c, note: 'the Kremlin'}
+- place: {id: cal.1965-09-25.china-leadership, at: [chongqing, wuhan], basis: c, note: 'the boat, Chongqing to Wuhan'}
+- place: {id: cal.1965-09-27.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-09-27.states-and-cities, at: washington, basis: seat, note: 'the House floor'}
+- place: {id: cal.1965-09-28.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Beijing airport'}
+- place: {id: cal.1965-09-28.states-and-cities-ma, at: massachusetts, basis: c, note: 'the State court''s convictions'}
+- place: {id: cal.1965-09-30.alabama, at: hayneville, basis: c, note: 'the trial at Hayneville'}
+- place: {id: cal.1965-09-30.alabama-al, at: alabama, basis: c, note: 'the Legislature''s special session'}
+- place: {id: cal.1965-10.king, at: chicago, basis: c}
+- place: {id: cal.1965-10.king-2, at: chicago, basis: c}
+- place: {id: cal.1965-10.king-3, at: williams-bay, basis: c}
+- place: {id: cal.1965-10.students-3, at: washington, basis: c}
+- place: {id: cal.1965-10.vietnam-air-war-2, at: cam-ranh-bay, basis: c}
+- place: {id: cal.1965-10.vietnam-air-war-3, at: bien-hoa, basis: c, note: 'the first F-5s at Biên Hòa'}
+- place: {id: cal.1965-10.vietnam-congress-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-10-01.states-and-cities-jacksonville, at: jacksonville, basis: c}
+- place: {id: cal.1965-10-02.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-10-02.mississippi, at: natchez, basis: c}
+- place: {id: cal.1965-10-03.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Beijing'}
+- place: {id: cal.1965-10-03.immigration-2, at: liberty-island, basis: c}
+- place: {id: cal.1965-10-03.program, at: nyc, basis: c, note: 'the Waldorf Towers'}
+- place: {id: cal.1965-10-05.soviet-union-leadership, at: moscow, basis: c, note: 'the Kremlin'}
+- place: {id: cal.1965-10-06.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Diaoyutai; the airport'}
+- place: {id: cal.1965-10-06.congress, at: washington, basis: c, note: 'the East Room'}
+- place: {id: cal.1965-10-06.europe-and-the-alliance, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1965-10-06.press-and-broadcasting, at: washington, basis: c, note: 'the National Press Club'}
+- place: {id: cal.1965-10-07.vietnam-force-levels-2, at: vung-tau, basis: c}
+- place: {id: cal.1965-10-08.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1965-10-08.japan-and-korea-korean-troops, at: cam-ranh-bay, basis: c}
+- place: {id: cal.1965-10-08.succession, at: bethesda, basis: c, note: 'Bethesda Naval Hospital'}
+- place: {id: cal.1965-10-09.mississippi, at: natchez, basis: c}
+- place: {id: cal.1965-10-10.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1965-10-10.china-leadership-3, at: harbin, basis: c}
+- place: {id: cal.1965-10-11.foreign-aid, at: bethesda, basis: c}
+- place: {id: cal.1965-10-11.georgia, at: crawfordville-ga, basis: c}
+- place: {id: cal.1965-10-11.legislatures-md, at: maryland, basis: c, note: 'the special session'}
+- place: {id: cal.1965-10-11.soviet-union, at: bethesda, basis: c}
+- place: {id: cal.1965-10-11.succession, at: bethesda, basis: c}
+- place: {id: cal.1965-10-11.transition-and-staff, at: washington, basis: c, note: 'the Federal City Club'}
+- place: {id: cal.1965-10-12.china-leadership-4, at: harbin, basis: c}
+- place: {id: cal.1965-10-12.georgia, at: crawfordville-ga, basis: c}
+- place: {id: cal.1965-10-13.china-leadership, at: kunming, basis: c}
+- place: {id: cal.1965-10-13.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-10-16.soviet-union-leadership, at: prague, basis: c}
+- place: {id: cal.1965-10-18.desegregation-schools-milwaukee, at: milwaukee, basis: c}
+- place: {id: cal.1965-10-19.alabama, at: washington, basis: seat, note: 'the House committee''s hearings'}
+- place: {id: cal.1965-10-20.king, at: chicago, basis: c}
+- place: {id: cal.1965-10-20.state-constitutions-ct, at: connecticut, basis: c, note: 'the State convention'}
+- place: {id: cal.1965-10-21.legislatures-ca, at: california, basis: c, note: 'the Legislature'}
+- place: {id: cal.1965-10-21.vietnam-air-war, at: takhli, basis: c, note: 'the arrival at Takhli'}
+- place: {id: cal.1965-10-21.vietnam-support, at: bethesda, basis: c}
+- place: {id: cal.1965-10-22.alabama, at: hayneville, basis: c, note: 'the trial at Hayneville'}
+- place: {id: cal.1965-10-22.alabama-al, at: alabama, basis: c, note: 'the State Senate'}
+- place: {id: cal.1965-10-23.vietnam, at: plei-me, basis: c}
+- place: {id: cal.1965-10-25.war-opposition, at: nyc, basis: c, note: 'the United Nations Church Center'}
+- place: {id: cal.1965-10-26.republican-party, at: ithaca, basis: c}
+- place: {id: cal.1965-10-26.vietnam-3, at: saigon, basis: c, note: 'the talks at Saigon, Lodge''s residence'}
+- place: {id: cal.1965-10-28.draft, at: nyc, basis: c, note: 'Foley Square'}
+- place: {id: cal.1965-10-29.africa, at: paris, basis: c}
+- place: {id: cal.1965-10-29.soviet-union-leadership, at: belovezhskaya-pushcha, basis: c}
+- place: {id: cal.1965-10-29.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-10-30.open-housing-oh, at: ohio, basis: c, note: 'the State''s act in force'}
+- place: {id: cal.1965-10-30.vietnam-air-war, at: tan-son-nhut, basis: c, note: 'the arrival'}
+- place: {id: cal.1965-10-30.vietnam-support, at: nyc, basis: c}
+- place: {id: cal.1965-10-31.china-leadership, at: peking, basis: c, note: 'the Great Hall'}
+- place: {id: cal.1965-11.china-leadership-2, at: peking, basis: c, note: 'the meeting, back in Peking'}
+- place: {id: cal.1965-11.china-leadership-4, at: [peking, shanghai], basis: c, note: 'the train, Peking to Shanghai'}
+- place: {id: cal.1965-11.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1965-11.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-11.governors-ny, at: new-york-state, basis: c, note: 'the trips around the State'}
+- place: {id: cal.1965-11.king-2, at: chicago, basis: c}
+- place: {id: cal.1965-11.latin-america, at: montevideo, basis: c}
+- place: {id: cal.1965-11.mississippi, at: new-orleans, basis: c, note: 'the meeting at New Orleans'}
+- place: {id: cal.1965-11.robert-kennedy-2, at: concepcion, basis: c}
+- place: {id: cal.1965-11.robert-kennedy-3, at: concepcion, basis: c}
+- place: {id: cal.1965-11.state-and-city-finance, at: chicago, basis: c}
+- place: {id: cal.1965-11.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1965-11-01.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-11-02.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-11-02.mayors, at: louisville, basis: c, note: 'the city''s election'}
+- place: {id: cal.1965-11-02.students, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1965-11-02.vietnam-force-levels, at: cam-ranh-bay, basis: c}
+- place: {id: cal.1965-11-03.economy, at: lbj-ranch, basis: c, note: 'the Ranch'}
+- place: {id: cal.1965-11-07.china-leadership, at: canton, basis: c, note: 'the visit to Guangzhou'}
+- place: {id: cal.1965-11-08.republican-party, at: indianapolis, basis: c, note: 'the Indianapolis News'}
+- place: {id: cal.1965-11-08.vietnam-operations, at: war-zone-d, basis: c}
+- place: {id: cal.1965-11-09.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Building 6, Diaoyutai'}
+- place: {id: cal.1965-11-10.china-leadership, at: shanghai, basis: c, note: 'the Wenhui bao'}
+- place: {id: cal.1965-11-10.china-leadership-3, at: peking, basis: n, note: 'the Waijiao huodong: Building 4, Diaoyutai'}
+- place: {id: cal.1965-11-11.black-nationalism, at: nyc, basis: c, note: 'The New York Review of Books'}
+- place: {id: cal.1965-11-11.china-leadership, at: shanghai, basis: c, note: 'the Liberation Daily'}
+- place: {id: cal.1965-11-11.robert-kennedy, at: nyc, basis: n, note: 'the note''s New York Times'}
+- place: {id: cal.1965-11-14.king, at: nyc, basis: c, note: 'Abyssinian Baptist'}
+- place: {id: cal.1965-11-14.vietnam, at: lz-x-ray, basis: c}
+- place: {id: cal.1965-11-14.vietnam-2, at: tan-son-nhut, basis: c, note: 'the landing at Tan Son Nhut'}
+- place: {id: cal.1965-11-14.vietnam-operations, at: binh-duong, basis: c, note: 'the operation in Bình Dương'}
+- place: {id: cal.1965-11-15.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1965-11-15.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-11-16.civil-rights-the-executive, at: washington, basis: n, note: 'PPP headnote: the East Room'}
+- place: {id: cal.1965-11-16.laos, at: phou-kout, basis: c}
+- place: {id: cal.1965-11-17.antisubversion-nc, at: north-carolina, basis: c, note: 'the General Assembly'}
+- place: {id: cal.1965-11-17.europe-and-the-alliance, at: washington, basis: c, note: 'the White House, the Queen''s Room'}
+- place: {id: cal.1965-11-17.vietnam-operations, at: ia-drang, basis: c, note: 'the ambush in the Ia Drang'}
+- place: {id: cal.1965-11-18.china-leadership, at: suzhou, basis: c}
+- place: {id: cal.1965-11-20.war-opposition, at: oakland, basis: c, note: 'the march on Oakland'}
+- place: {id: cal.1965-11-22.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Beijing Hall, Great Hall of the People; Diaoyutai'}
+- place: {id: cal.1965-11-22.civil-rights-organizations-charlotte, at: charlotte, basis: c}
+- place: {id: cal.1965-11-22.vietnam-operations, at: soc-trang, basis: c}
+- place: {id: cal.1965-11-23.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-11-24.china-leadership, at: shanghai, basis: c, note: 'the Jinjiang Hotel'}
+- place: {id: cal.1965-11-25.china-leadership-2, at: shanghai, basis: c, note: 'the arrival'}
+- place: {id: cal.1965-11-25.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1965-11-25.china-leadership-4, at: shanghai, basis: c}
+- place: {id: cal.1965-11-26.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1965-11-26.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-11-27.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1965-11-27.students, at: washington, basis: c}
+- place: {id: cal.1965-11-27.vietnam-operations, at: binh-duong, basis: c, note: 'the Michelin plantation, Bình Dương Province'}
+- place: {id: cal.1965-11-28.soviet-union-leadership, at: berlin, basis: c}
+- place: {id: cal.1965-11-28.vietnam, at: saigon, basis: c}
+- place: {id: cal.1965-11-28.war-opposition, at: washington, basis: c, note: 'the Shoreham Hotel'}
+- place: {id: cal.1965-11-29.china-leadership-2, at: peking, basis: c, note: 'the Beijing Daily'}
+- place: {id: cal.1965-11-30.alabama-al, at: alabama, basis: c, note: 'the State''s amendment election'}
+- place: {id: cal.1965-12.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1965-12.congress-3, at: puerto-rico, basis: c, note: 'the week in Puerto Rico'}
+- place: {id: cal.1965-12.mississippi, at: hattiesburg, basis: c}
+- place: {id: cal.1965-12.states-and-cities-dallas, at: dallas, basis: c}
+- place: {id: cal.1965-12.students, at: champaign-urbana, basis: c, note: 'Urbana, the University of Illinois'}
+- place: {id: cal.1965-12.vietnam-congress-mansfield, at: saigon, basis: c}
+- place: {id: cal.1965-12.vietnam-force-levels, at: honolulu, basis: c}
+- place: {id: cal.1965-12.war-opposition, at: hanoi, basis: c, note: 'the visit to Hanoi'}
+- place: {id: cal.1965-12-02.laos, at: phou-kout, basis: c, note: 'the strikes on Phou Kout'}
+- place: {id: cal.1965-12-02.soviet-union-leadership, at: moscow, basis: seat, note: 'the CPSU Presidium'}
+- place: {id: cal.1965-12-02.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-12-03.alabama, at: montgomery, basis: c, note: 'the federal jury at Montgomery'}
+- place: {id: cal.1965-12-04.vietnam-operations, at: saigon, basis: c}
+- place: {id: cal.1965-12-05.war-opposition, at: nyc, basis: c, note: 'the Waldorf-Astoria'}
+- place: {id: cal.1965-12-06.king-2, at: alabama, basis: c, note: 'the Black Belt counties: all in Alabama'}
+- place: {id: cal.1965-12-06.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-12-07.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1965-12-08.china, at: peking, basis: c}
+- place: {id: cal.1965-12-08.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1965-12-08.vietnam-air-war, at: takhli, basis: c, note: 'the arrival at Takhli'}
+- place: {id: cal.1965-12-08.vietnam-operations, at: que-son-basin, basis: c, note: 'the Quế Sơn valley'}
+- place: {id: cal.1965-12-10.alabama, at: selma, basis: c}
+- place: {id: cal.1965-12-11.china-leadership, at: shanghai, basis: c, note: 'the Hongqiao guesthouse'}
+- place: {id: cal.1965-12-11.china-leadership-2, at: [kunming, shanghai], basis: c, note: 'the flight, Kunming to Shanghai, the charges at Shanghai'}
+- place: {id: cal.1965-12-11.civil-rights-organizations, at: chicago, basis: c}
+- place: {id: cal.1965-12-11.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-12-14.civil-rights-the-executive, at: chicago, basis: c, note: 'the speech at Chicago'}
+- place: {id: cal.1965-12-14.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-12-15.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1965-12-15.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-12-15.vietnam, at: uong-bi, basis: c}
+- place: {id: cal.1965-12-17.china-leadership, at: peking, basis: c, note: 'the return'}
+- place: {id: cal.1965-12-17.china-leadership-2, at: peking, basis: c, note: 'flown to Peking'}
+- place: {id: cal.1965-12-17.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1965-12-17.desegregation-schools-philadelphia, at: philadelphia, basis: c}
+- place: {id: cal.1965-12-17.vietnam-3, at: hawaii, basis: c, note: 'CINCPAC''s headquarters in Hawaii'}
+- place: {id: cal.1965-12-17.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-12-18.vietnam, at: gia-nghia, basis: c}
+- place: {id: cal.1965-12-18.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-12-19.vietnam-diplomacy, at: hickory-hill, basis: c}
+- place: {id: cal.1965-12-20.europe-and-the-alliance, at: washington, basis: c, note: 'the talks in Washington'}
+- place: {id: cal.1965-12-21.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1965-12-21.china-leadership-3, at: peking, basis: c, note: 'the Xihuating, Zhongnanhai'}
+- place: {id: cal.1965-12-21.laos, at: hua-muong, basis: c}
+- place: {id: cal.1965-12-22.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1965-12-22.china-leadership-2, at: peking, basis: c, note: 'his home in Zhongnanhai'}
+- place: {id: cal.1965-12-22.china-leadership-3, at: peking, basis: c, note: 'the credentials to Zhu De; the ambassador reached Beijing'}
+- place: {id: cal.1965-12-22.vietnam-air-war, at: uong-bi, basis: c, note: 'the strike on the plant'}
+- place: {id: cal.1965-12-22.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-12-23.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1965-12-24.china-leadership-2, at: peking, basis: c, note: 'Zhongshan Hall, the capital''s memorial rite'}
+- place: {id: cal.1965-12-26.china-leadership, at: peking, basis: n, note: 'the Waijiao huodong: Building 7, Diaoyutai'}
+- place: {id: cal.1965-12-26.vietnam-pause, at: [aspen, round-mountain], basis: c, note: 'the call, from Aspen to Round Mountain'}
+- place: {id: cal.1965-12-28.alabama, at: lowndes-county-al, basis: c}
+- place: {id: cal.1965-12-28.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Politburo'}
+- place: {id: cal.1965-12-29.soviet-union-leadership, at: moscow, basis: c}
+- place: {id: cal.1965-12-29.vietnam-force-levels, at: pleiku, basis: c, note: 'the arrival'}
+- place: {id: cal.1965-12-30.china-leadership, at: peking, basis: c}
+- place: {id: cal.1965-12-30.vietnam, at: manila, basis: c, note: 'the inauguration at Manila'}
+- place: {id: cal.1965-12-30.vietnam-congress-2, at: atlanta, basis: c, note: 'the Atlanta Jaycees'}
+- place: {id: cal.1966.china-leadership-20, at: foshan, basis: c, note: 'the municipal government''s act'}
+- place: {id: cal.1966.china-leadership-21, at: shanghai, basis: c}
+- place: {id: cal.1966.china-leadership-22, at: peking, basis: c, note: 'Peking No. 6 Middle School'}
+- place: {id: cal.1966.china-leadership-27, at: tianjin, basis: c}
+- place: {id: cal.1966.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1966.china-leadership-4, at: peking, basis: c, note: 'Zhongnanhai'}
+- place: {id: cal.1966-01.conservation, at: washington, basis: seat, note: 'the Senate subcommittee and the bill'}
+- place: {id: cal.1966-01.desegregation-public-places-ky, at: kentucky, basis: c, note: 'the General Assembly and the governor''s signing'}
+- place: {id: cal.1966-01.open-housing, at: chicago, basis: c}
+- place: {id: cal.1966-01.open-housing-2, at: chicago, basis: c}
+- place: {id: cal.1966-01.robert-kennedy-2, at: washington, basis: c, note: 'the Supreme Court'}
+- place: {id: cal.1966-01.vietnam-2, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1966-01.vietnam-force-levels-2, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1966-01.vietnam-supplemental, at: washington, basis: seat, note: 'the House committee''s hearings'}
+- place: {id: cal.1966-01.vietnam-supplemental-2, at: washington, basis: seat, note: 'the Senate committee''s hearings'}
+- place: {id: cal.1966-01.war-opposition-3, at: nyc, basis: c}
+- place: {id: cal.1966-01-01.china-leadership-2, at: peking, basis: n, note: 'the Waijiao huodong: Beijing'}
+- place: {id: cal.1966-01-01.jobs-and-wages, at: nyc, basis: c}
+- place: {id: cal.1966-01-01.vietnam-pause, at: lbj-ranch, basis: c}
+- place: {id: cal.1966-01-02.voting-rights, at: mobile, basis: c}
+- place: {id: cal.1966-01-03.vietnam-pause-4, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1966-01-04.alabama, at: tuskegee, basis: c}
+- place: {id: cal.1966-01-04.jobs-and-wages-transit, at: nyc, basis: c}
+- place: {id: cal.1966-01-05.china-leadership, at: nanchang, basis: c}
+- place: {id: cal.1966-01-05.laos, at: khe-sanh, basis: c}
+- place: {id: cal.1966-01-05.steel, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1966-01-05.vietnam-hanoi, at: hanoi, basis: seat, note: 'the DRV Secretariat'}
+- place: {id: cal.1966-01-06.civil-rights-organizations-2, at: chicago, basis: c}
+- place: {id: cal.1966-01-06.latin-america-dominican-republic, at: santo-domingo, basis: c, note: 'Radio Santo Domingo'}
+- place: {id: cal.1966-01-06.vietnam, at: washington, basis: c, note: 'Georgetown'}
+- place: {id: cal.1966-01-07.laos, at: udorn, basis: c, note: 'the post at Udorn'}
+- place: {id: cal.1966-01-07.peace-corps, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1966-01-08.vietnam-3, at: warrenton-va, basis: c, note: 'Airlie House, Warrenton'}
+- place: {id: cal.1966-01-10.mississippi-3, at: hattiesburg, basis: c, note: 'Forrest General Hospital'}
+- place: {id: cal.1966-01-11.conservation, at: washington, basis: c, note: 'the Statler Ballroom'}
+- place: {id: cal.1966-01-11.elections-1968-johnson, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1966-01.war-opposition, at: nyc, basis: c}
+- place: {id: cal.1966-01-12.china-leadership, at: wuhan, basis: c, note: 'Wuchang'}

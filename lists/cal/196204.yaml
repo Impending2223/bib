@@ -61,6 +61,7 @@ entries:
   - id: cal.1962-04-01.program
     when: Apr. 1
     date: '1962-04-01'
+    place: glen-ora
     thread: program
     c: 'Glen Ora, Va., dinner with Kennedy, Schlesinger, his wife and Galbraith, by Schlesinger''s journal. On the Supreme Court: appointing White was one of the hardest decisions, a week''s hesitation; he chose him partly for his work for the nomination and election, Paul Freund having been for him too. He once asked Max Freedman to ask Frankfurter whether he would resign if they could agree on a successor; Frankfurter: "I guess he decided that he was indispensable to the Court." Nixon''s book shows him a "sick" man. With Galbraith on Laos: no intention of ever committing American troops there in force.'
     n: '[[w.schlesinger-journals]], 153–54. Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Schlesinger, Galbraith, White, Nixon, Frankfurter.'
@@ -72,6 +73,20 @@ entries:
     c: 'Zhou Enlai, hearing Wu Zhipu, governor of Henan, say Henan''s farming needs ten years to regain the 1957 level: Henan''s errors are serious, its farm output is back to about 1949; if the provincial committee corrects its errors in earnest it will not take ten years. The Center is to allot Henan 390 million jin of grain by the end of June, 30 million first, and 20 million yuan in relief, 10 million first.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 468 (Apr. 1, 1962). Made public: 1997. Names: Zhou Enlai, Wu Zhipu.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-01.china-leadership-2
+    when: Apr. 1
+    date: '1962-04-01'
+    time: 1962-04-01T07:30Z
+    place: peking
+    thread: china-leadership
+    c: The Great Hall 人大会堂, 3:30 p.m. The heads of the National People's Congress's and the CPPCC's Party groups; the sessions' group discussions lengthened three days. Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 1, 1962). The words: 下午3时半 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 43ef913d
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-02.king
     when: Apr. 2
     date: '1962-04-02'
@@ -112,6 +127,7 @@ entries:
   - id: cal.1962-04-02.defense
     when: Apr. 2
     date: '1962-04-02'
+    place: washington
     thread: defense
     also: [congress]
     c: 'The White House asks the House to amend the appropriation bill: the Army Reserve cut 28,000 more from the 670,000 first estimated. Senate Armed Services recommends a $12.9693 billion authorization, $491 million for the RS-70 in it.'
@@ -130,6 +146,7 @@ entries:
   - id: cal.1962-04-02.vietnam-hanoi
     when: Apr. 2
     date: '1962-04-02'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's circular no. 69-TT/TW on carrying out the Politburo's resolution no. 39 against counterrevolutionaries, most committees and party groups slow, and the security work to be done at once.
     n: '*Thông tri của Ban Bí thư số 69-TT/TW về việc thi hành Nghị quyết số 39 của Bộ Chính trị về tăng cường đấu tranh chống các bọn phản cách mạng và những công tác cần làm ngay trong vấn đề bảo vệ an ninh*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 396–99. See [[cal.1962-01-20.vietnam-hanoi]]. Made public: 2002.'
@@ -148,9 +165,56 @@ entries:
     c: 'Zhou Enlai at the Central Finance and Economic Group''s meeting with the Party-group heads of the finance ministries, Apr. 2–4, on the State Planning Commission group''s report on adjusting the 1962 economy. Serious imbalance in finance, credit and supplies, little grasped; the Commission is to find the facts. Three resolves: strive for fast and good, prepare for slow and less; adjust by a wide margin; act at once once the facts are clear. Added: tie streamlining to pulling down offices; losing factories to farm on the Nanniwan policy; close, merge or shrink enterprises; rank construction, no "sprinkling pepper"; tighten credit and exchange; cut culture, education and research. Apr. 7 and 8 he attends again.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 469 (Apr. 2–4, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 199 (early April: the Finance and Economics Small Group convenes State Council finance personnel). Made public: 1997. Check: MacFarquhar gives only early April. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-02.china-leadership-3
+    when: Apr. 2
+    date: '1962-04-02'
+    place: peking
+    thread: china-leadership
+    c: Wang Jingxian 王敬先 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 2, 1962). The words: 上午 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Jingxian, Yang Shangkun.'
+    src:
+      c: f24a5383
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-01T22:00Z
+      - 1962-04-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-02.china-leadership-4
+    when: Apr. 2
+    date: '1962-04-02'
+    time: 1962-04-02T07:30Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Xilou 西楼, 3:30 to 7 p.m., Liu Shaoqi 刘少奇 presiding. The draft reply to the CPSU Central Committee in the main adopted; to go to Mao, revised, for the final text.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 2, 1962). The words: 下午3时半至7时 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-03-30.china-leadership-5]]. Names: Liu Shaoqi.'
+    src:
+      c: e0bf883c
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-02.china-leadership-5
+    when: Apr. 2
+    date: '1962-04-02'
+    time: 1962-04-02T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Li Dazhang 李大章 with Yang Shangkun 杨尚昆, 8:30 p.m. to 12:30 a.m., on Sichuan's 四川 work and its provincial committee.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 2, 1962). The words: 晚间8时半到12时半 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Dazhang, Yang Shangkun.'
+    src:
+      c: 4d91d084
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-03.latin-america
     when: Apr. 3–4
     date: '1962-04-03'
+    place: washington
     thread: latin-america
     c: Goulart in Washington; addresses Congress.
     n: 'Remarks of Welcome to President Goulart of Brazil at Andrews Air force Base, [1962 Pub. Papers 286](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=346) (Apr. 3, 1962). FRUS 1961–63, XII, docs. [223](https://history.state.gov/historicaldocuments/frus1961-63v12/d223), [224](https://history.state.gov/historicaldocuments/frus1961-63v12/d224). [108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt5/pdf/GPO-CRECB-1962-pt5-2-2.pdf) (1962). [[w.schlesinger-robert-kennedy-and-his]], 579–80 (Goulart''s visit to Kennedy in April 1962: Kennedy wished Brazil would do more for the Alliance; at Meany''s urging he raised Communist infiltration of Brazilian labor, "delicately"; the ITT expropriation and the Hickenlooper amendment; the invitation to Brazil in July; not the days or the address to Congress). See [[cal.1961-08-25.latin-america]]. Names: Goulart. Check: the page.'
@@ -165,6 +229,7 @@ entries:
   - id: cal.1962-04-03.european-community
     when: Apr. 3
     date: '1962-04-03'
+    place: london
     thread: european-community
     c: 'London. Ball, in a public statement on the neutral members of the EFTA, Sweden, Austria and Switzerland: some useful economic arrangements with the Community, but no free access to the Common Market for a country that will not accept its political commitments.'
     n: '[[w.ball-past-has-another-pattern]], 218–19. Check: the statement not read. See [[cal.1961-04-05.european-community]]. Names: Ball.'
@@ -182,6 +247,7 @@ entries:
   - id: cal.1962-04-03.alabama-birmingham
     when: Apr. 3
     date: '1962-04-03'
+    place: birmingham
     thread: alabama-birmingham
     c: 'Connor, at the City Commission, on the boycott: "I don''t intend to sit here and take it with a smile." He moves to cut off the city''s distribution of the federal surplus food, most of its recipients Negroes.'
     n: '[[w.branch-parting-the-waters]], 573. To check: "Boycott in Birmingham," *Nation*, May 5, 1962, at 397–401 (cited by [[w.branch-parting-the-waters]], 573 n.3). See [[cal.1962-03.alabama-birmingham]]. Names: Connor.'
@@ -200,6 +266,7 @@ entries:
   - id: cal.1962-04-03.cuba
     when: Apr. 3
     date: '1962-04-03'
+    place: moscow
     thread: cuba
     also: [soviet-union, china]
     c: 'Moscow. Escalante''s report to the Central Committee on his fall: "in the final analysis" Castro''s anger came of rising Chinese influence among Cuba''s leaders and opposition within the PSP to Moscow''s line on revolution.'
@@ -218,6 +285,7 @@ entries:
   - id: cal.1962-04-03.republican-party-congress
     when: Apr. 3
     date: '1962-04-03'
+    place: washington
     thread: republican-party-congress
     c: 'Senate Republican conference, twenty-five present, 9:40 to 10:39 a.m., on the Dirksen–Mansfield compromise on the U.N. bond bill: a $100 million loan, loans over $25 million to be matched by other nations. Hickenlooper: the Aiken–Hickenlooper substitute would draw 32 to 42 votes. Dirksen: it gets the administration "off the hook." Ten Senators give their views, among them that it is "a complete capitulation to the White House"; Javits: it takes the party "off the hook for wrecking the United Nations." Teeple introduced as the Policy Committee''s staff director.'
     n: '[[w.wolff-minutes-of-the-senate]], 910–12. Names: Dirksen, Mansfield, Hickenlooper, Aiken, Javits.'
@@ -229,15 +297,17 @@ entries:
   - id: cal.1962-04-03.china-leadership
     when: Apr. 3
     date: '1962-04-03'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Yinian Tang, afternoon. The Standing Committee meets again, Mao presiding, on the draft reply to the Soviet letter of Feb. 22.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 3). [[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the reply, after a week of drafting by the writers, settled at the Standing Committee in early April and sent Apr. 7). Made public: 1999. See [[cal.1962-03-29.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 3). [[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the reply, after a week of drafting by the writers, settled at the Standing Committee in early April and sent Apr. 7); [[w.yang-shangkun-riji]], II, 139 (Apr. 3, 1962; 4 to 5:30 p.m., Mao''s meeting at the Yinian Tang on the draft reply to the CPSU). Made public: 1999. See [[cal.1962-03-29.china-leadership]]. Names: Mao Zedong.'
     src:
       c: d9da5659
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Mar. 29, 1962: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 494: B'
+        - 'w.yang-shangkun-riji II, 139: A, B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-04-03.china-leadership-2
     when: Apr. 3
@@ -257,9 +327,55 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 269–270: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:kadar-janos, polity:hungary]
+  - id: cal.1962-04-03.china-leadership-4
+    when: Apr. 3
+    date: '1962-04-03'
+    place: peking
+    thread: china-leadership
+    c: Wang Dongxing 汪东兴, Deng Diantao 邓典桃 and Li Jian 李鉴 with Yang Shangkun 杨尚昆 on the posting of Ye Zilong 叶子龙 and others.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 3, 1962). The words: 上午 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Deng Diantao, Li Jian, Yang Shangkun, Ye Zilong.'
+    src:
+      c: 3e2516a1
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-02T22:00Z
+      - 1962-04-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-03.china-leadership-5
+    when: Apr. 3
+    date: '1962-04-03'
+    time: 1962-04-03T10:30Z
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun's 杨尚昆 office, 6:30 to 7:30 p.m. He reports to Zhou Enlai 周恩来 and Chen Yi 陈毅 his talk with Li Dazhang 李大章, with his own views.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 3, 1962). The words: 6时半到7时半 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-02.china-leadership-5]]. Names: Yang Shangkun, Zhou Enlai, Chen Yi, Li Dazhang.'
+    src:
+      c: f7099e1f
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-03.china-leadership-6
+    when: Apr. 3
+    date: '1962-04-03'
+    time: 1962-04-03T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Kong Yuan 孔原, Zou Dapeng 邹大鹏, Luo Qingchang 罗青长, Feng Xuan 冯铉 and others report to Yang Shangkun 杨尚昆 on intelligence work, 8 to 11 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 139 (Apr. 3, 1962). The words: 晚间8时到11时 (II, 139). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Zou Dapeng, Luo Qingchang, Feng Xuan, Yang Shangkun.'
+    src:
+      c: ea1d7843
+      rows:
+        - 'w.yang-shangkun-riji II, 139: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-04.vietnam
     when: Apr. 4
     date: '1962-04-04'
+    place: new-delhi
     thread: vietnam
     c: 'Galbraith from New Delhi: seek a neutral settlement, through Harriman. Kennedy sends it to McNamara; the Chiefs reject it.'
     n: '[FRUS 1961–63, II, doc. 141](https://history.state.gov/historicaldocuments/frus1961-63v02/d141) (the memorandum: a political solution, Harriman to approach the Russians; sent by Forrestal to McNamara for comment, Apr. 7). [[w.gibbons-u-s-government-and]], II, 120; [[w.schlesinger-robert-kennedy-and-his]], 709 (in April 1962 Galbraith proposes "phased withdrawal" as an element in a larger deal with the Soviet Union, which might get Hanoi to call off the Viet Cong; Kennedy asks Defense for comment; Lemnitzer, chairman of the JCS, denounces Galbraith for wishing the United States "to seek disengagement from what is now a well-known commitment"; no day, not Harriman or McNamara). [FRUS vol. 2](https://history.state.gov/historicaldocuments/frus1961-63v02). [[w.selverstone-kennedy-withdrawal]], 65–66 (the memorandum; the review at the Pentagon; the Chiefs against). [[w.preston-war-council]], 111 (Galbraith''s memorandum; Forrestal sends it to McNamara). To check: [[w.galbraith-ambassadors-journal]]; the Joint Chiefs'' comment, *Pentagon Papers*, Gravel ed., II, 671–72 (cited by [[w.gibbons-u-s-government-and]], II, 120 n.119). See [[cal.1961-01-28.vietnam]]. Check: FRUS has Forrestal, not Kennedy, send it to McNamara. Names: Galbraith, Harriman, McNamara.'
@@ -301,6 +417,7 @@ entries:
   - id: cal.1962-04-04.vietnam-2
     when: Apr. 4
     date: '1962-04-04'
+    place: washington
     thread: vietnam
     also: [laos]
     c: 'Bowles to Kennedy, "U.S. Policies in the Far East," a long memorandum: SEATO more harm than good; a "conspicuous" American military presence bordering China "may ... serve more as a magnet for Communist pressures than as an effective defense"; a neutral, nonaligned Southeast Asia. Copies to Bundy, Forrestal, Komer and Kaysen; Bundy sends it no further.'
@@ -374,6 +491,52 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 222: all'
     tags: [polity:prc, polity:hungary, polity:us, name:chen-yi, name:kennedy-john-f]
+  - id: cal.1962-04-04.china-leadership-4
+    when: Apr. 4
+    date: '1962-04-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 reads the revised draft reply to the CPSU Central Committee.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 4, 1962). The words: 上午 (II, 140). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7fd42635
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-03T22:00Z
+      - 1962-04-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-04.china-leadership-6
+    when: Apr. 4
+    date: '1962-04-04'
+    thread: china-leadership
+    c: Kang Yimin 康一民 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 4, 1962). The words: 上午 (II, 140). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Yimin, Yang Shangkun.'
+    src:
+      c: 5a674937
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-03T22:00Z
+      - 1962-04-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-04.china-leadership-5
+    when: Apr. 4
+    date: '1962-04-04'
+    time: 1962-04-04T07:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 3 to 6 p.m., with the Military Commission, the Science Commission, the investigation and liaison departments, on cutting foreign exchange spent outside trade; all for it, the cuts each unit offers sizable.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 4, 1962). The words: 下午3时到6时 (II, 140). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e2b966af
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-05.transportation
     when: Apr. 5
     date: '1962-04-05'
@@ -406,6 +569,7 @@ entries:
   - id: cal.1962-04-05.goldwater
     when: Apr. 5
     date: '1962-04-05'
+    place: washington
     thread: goldwater
     also: [republican-party-congress]
     c: Washington. White reports to Goldwater; Goldwater's interest still the platform of 1964, not his own candidacy. White that day asks Tower (R-Tex.) to help plan for the platform. By White's account.
@@ -460,6 +624,7 @@ entries:
   - id: cal.1962-04-05.soviet-union
     when: Apr. 5
     date: '1962-04-05'
+    place: washington
     thread: soviet-union
     c: 'The President''s office. Kennedy and Bundy with Salinger on the script of the first television exchange: it would have more appeal if Mrs. Kennedy and Mrs. Khrushchev appeared. Salinger telephones Bolshakov, sick at home, to pass it to Kharlamov. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 215–16. Names: Kennedy, Bundy, Salinger, Jacqueline Kennedy, Bolshakov, Kharlamov.'
@@ -468,6 +633,7 @@ entries:
     when: Apr. 5
     date: '1962-04-05'
     time: 1962-04-05T23:30Z
+    place: washington
     thread: soviet-union
     also: [testing]
     c: '6:30 p.m., the Hay-Adams bar. Bolshakov to Salinger: "My government wants to call off the entire Kennedy-Khrushchev exchange," the fault Kennedy''s for resuming nuclear tests; Salinger''s visit still wanted. Salinger: "It sure as hell does affect my visit." By Salinger''s account.'
@@ -476,10 +642,23 @@ entries:
   - id: cal.1962-04-05.soviet-union-3
     when: Apr. 5
     date: '1962-04-05'
+    place: washington
     thread: soviet-union
     c: 'The President''s office. Kennedy, angry, sends for Sorensen, drafting the opening statement, and thinks first of cancelling Salinger''s visit in retaliation. Then he calls Bohlen, who advises a joint announcement without reasons; Kennedy agrees: "But tell him also that we are greatly displeased." Bolshakov agrees to the joint announcement. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 216–17. Check: the day of Bolshakov''s answer. Names: Kennedy, Sorensen, Salinger, Bohlen, Bolshakov.'
     tags: [name:kennedy-john-f, name:sorensen-theodore-c, name:salinger-pierre, name:bohlen-charles-e, name:bolshakov-georgi]
+  - id: cal.1962-04-05.china-leadership
+    when: Apr. 5
+    date: '1962-04-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 handles the drafts of the reply to the CPSU and of the replies to the other parties.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 5, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 617d8016
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-04-06.opinion
     when: Apr. 6
     date: '1962-04-06'
@@ -491,6 +670,7 @@ entries:
   - id: cal.1962-04-06.state-and-city-finance-detroit
     when: Apr. 6
     date: '1962-04-06'
+    place: detroit
     thread: state-and-city-finance
     c: Detroit. Cavanagh proposes a city income tax of 1 percent, on residents and on what nonresidents earn in the city; adopted by the Common Council. Swainson vetoes the legislature's bill against taxing commuters. In force July 1.
     n: '[Wikipedia, "1962 in Michigan"](https://en.wikipedia.org/wiki/1962_in_Michigan) (Check: the ordinance and the veto message). To check: [[w.fine-violence-in-the-model]]. Names: Cavanagh, Swainson.'
@@ -506,6 +686,7 @@ entries:
     when: Apr. 6
     date: '1962-04-06'
     time: 1962-04-06T21:55Z
+    place: washington
     thread: vietnam
     c: 'Kennedy and Harriman, 4:55 p.m., on Galbraith''s memorandum. Harriman: American association with military operations to an absolute minimum; the ICC''s coming report a way to seek a common reduction with the Viet Minh; no neutral solution; Diệm a losing horse, but nobody to replace him. Kennedy: the memorandum to McNamara for comment; instructions to Galbraith on an Indian approach to Hanoi. "Prepared to seize upon any favorable moment to reduce our involvement."'
     n: '[FRUS 1961–63, II, doc. 148](https://history.state.gov/historicaldocuments/frus1961-63v02/d148) (Forrestal''s memorandum). [[w.selverstone-kennedy-withdrawal]], 65–66 (the meeting; the de-escalation; the probe of Hanoi; "any favorable moment"). Made public: FRUS 1961–63, II (1990). [[w.preston-war-council]], 105 (Harriman "not in favor a neutral solution in Viet-Nam"). See [[cal.1962-04-04.vietnam]]. Names: Kennedy, Harriman, Galbraith, McNamara, Ngô Đình Diệm.'
@@ -521,6 +702,7 @@ entries:
   - id: cal.1962-04-06.defense
     when: Apr. 6
     date: '1962-04-06'
+    place: washington
     thread: defense
     also: [congress]
     c: 'Ailes, with McGowan of the National Guard Bureau and Warren of Army Reserve and ROTC Affairs, before Robertson''s subcommittee. Robertson: "Did the plan come from the Army and go up to the throne, or come from the throne down to the Army?" Paid drill 642,000 at the same $780 million; 700,000 would cost $61.3 million more. Warren against the cut.'
@@ -549,9 +731,49 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 469: ?'
         - 'w.zhou-enlai-waijiao-huodong 330: A'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
+  - id: cal.1962-04-06.china-leadership-2
+    when: Apr. 6
+    date: '1962-04-06'
+    thread: china-leadership
+    c: The Center's oral message to the Albanian party sent.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 6, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: de7e4215
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc+albania]
+  - id: cal.1962-04-06.china-leadership-3
+    when: Apr. 6
+    date: '1962-04-06'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 reads the text of Mao's 毛泽东 speech to the enlarged work conference and sends it to the printer.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 6, 1962; note 1: Mao''s speech of Jan. 30, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: c1c14dbe
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+        - 'via w.yang-shangkun-riji II, 140 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-04-06.china-leadership-4
+    when: Apr. 6
+    date: '1962-04-06'
+    thread: china-leadership
+    c: Ye Zilong 叶子龙 to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 6, 1962). The words: 晚间 (II, 140). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ye Zilong, Yang Shangkun.'
+    src:
+      c: d194998b
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-06T11:00Z
+      - 1962-04-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-07.vietnam-hanoi
     when: Apr. 7
     date: '1962-04-07'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Politburo's instruction no. 41-CT/TW on improving *Học Tập*, the Party's journal of theory and politics, published since December 1955 under the Politburo's direct guidance.
     n: '*Chỉ thị của Bộ Chính trị số 41-CT/TW về việc cải tiến tạp chí lý luận của Đảng*, signed for the Politburo by Trường Chinh. [[w.van-kien-dang-toan]], XXIII, 400–04. Made public: 2002.'
@@ -562,7 +784,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The enlarged Politburo adopts the Central Committee''s reply to the Soviet Central Committee''s letter of Feb. 22. To the Soviet charges (a "special position," a line apart from the other parties'', support for Albania) it answers with a proposal: a conference of fraternal parties to settle the common line and the Soviet–Albanian question.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 7). [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 7, 1962: Zhou Enlai attends the enlarged Politburo; it also goes on to the topics of the Supreme State Conference of Mar. 21); [[w.macfarquhar-origins-of-the-cultural]], III, 271 (the Central Committee''s letter of Apr. 7 to the CPSU indicates a readiness for bilateral talks, after a group of neutral parties'' proposal that polemics cease). Made public: 1997. To check: the reply as sent (the nianpu, Mar. 20, dates a revision to Apr. 2) and its delivery; [[w.dallin-diversity-in-international-communism]], 650–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 271 n.58). See [[cal.1962-04-03.china-leadership]]. Check: The nianpu does not date the delivery.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 29, 1962 (Apr. 7). [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 7, 1962: Zhou Enlai attends the enlarged Politburo; it also goes on to the topics of the Supreme State Conference of Mar. 21); [[w.macfarquhar-origins-of-the-cultural]], III, 271 (the Central Committee''s letter of Apr. 7 to the CPSU indicates a readiness for bilateral talks, after a group of neutral parties'' proposal that polemics cease); [[w.yang-shangkun-riji]], II, 140 (Apr. 7, 1962; 3:30 p.m., the back hall of Huairen Hall, over 80 present; the replies to the CPSU and the Indonesian party adopted). Made public: 1997. To check: the reply as sent (the nianpu, Mar. 20, dates a revision to Apr. 2) and its delivery; [[w.dallin-diversity-in-international-communism]], 650–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 271 n.58). See [[cal.1962-04-03.china-leadership]]. Check: The nianpu does not date the delivery.'
     src:
       c: 1014e39b
       rows:
@@ -571,10 +793,12 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 271: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 271 n.58: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 271 n.59: A'
+        - 'w.yang-shangkun-riji II, 140: A'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1962-04-07.china
     when: Apr. 7
     date: '1962-04-07'
+    place: dar-es-salaam
     thread: china
     also: [africa]
     c: Dar es Salaam. He Ying, China's first ambassador to Tanganyika, presents his credentials to Sir Ralph Windham, the Chief Justice, who exercises the powers of head of state. He reached Dar es Salaam on Mar. 31.
@@ -596,6 +820,11 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 494: all'
     tags: [polity:prc, vis:only:prc+ussr]
+    variants:
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: 'Apr. 9, 10 a.m.: Deng Xiaoping and Yang Shangkun give Chervonenko the CCP''s reply to the CPSU letter; he hands over the record of Gromyko''s talks with Rusk'
+        at: II, 142, Apr. 9, 1962
   - id: cal.1962-04-07.china-leadership-2
     when: Apr. 7
     date: '1962-04-07'
@@ -608,6 +837,58 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 249–250: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:chen-boda, vis:only:prc]
+  - id: cal.1962-04-07.china-leadership-3
+    when: Apr. 7
+    date: '1962-04-07'
+    place: peking
+    thread: china-leadership
+    c: Deng Diantao 邓典桃 and Li Jian 李鉴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 140 (Apr. 7, 1962). The words: 上午 (II, 140). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Li Jian, Yang Shangkun.'
+    src:
+      c: 67259baf
+      rows:
+        - 'w.yang-shangkun-riji II, 140: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-06T22:00Z
+      - 1962-04-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-07.china-leadership-4
+    when: Apr. 7
+    date: '1962-04-07'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Luo Shigao 罗士高, the Ambassador to Albania, reports his talk with Hoxha 霍查: Hoxha holds that Khrushchev and his followers must admit their errors in public, or there can be no meeting. The full record to come within days.'
+    n: '[[w.yang-shangkun-riji]], II, 140–141 (Apr. 7, 1962; notes 3–4: Hoxha, Khrushchev). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Luo Shigao, Hoxha, Khrushchev.'
+    src:
+      c: c0ecf70d
+      rows:
+        - 'w.yang-shangkun-riji II, 140–141: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1962-04-07.china-leadership-5
+    when: Apr. 7
+    date: '1962-04-07'
+    thread: china-leadership
+    also: [korea]
+    c: 'The Center decides that Peng Zhen 彭真 lead a National People''s Congress delegation to Korea; the Korean side welcomes it. The Korean party, the diary notes, more and more against revisionism: a "self-reliant economy" 自主经济, against "flunkeyism" 事大主义.'
+    n: '[[w.yang-shangkun-riji]], II, 141 (Apr. 7, 1962; note 1: Peng Zhen). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen.'
+    src:
+      c: 4818ec6d
+      rows:
+        - 'w.yang-shangkun-riji II, 141: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-04-07.china-leadership-6
+    when: Apr. 7
+    date: '1962-04-07'
+    thread: china-leadership
+    c: 'Yang Shangkun''s 杨尚昆 work notes, Shanghai''s 上海 streamlining: 300,000 workers can go; of 90,000 textile workers, 20,000–30,000 near fifty, to be laid off four or five years before retiring; 30,000 machine workers for the Center to place; administrative cadres to the villages on their pay. Xinjiang 新疆: 150,000 to settle, at 600 yuan each, 100 for the drifters 盲流.'
+    n: '[[w.yang-shangkun-riji]], II, 141 (Apr. 7, 1962; note 2: the work notes, in 仿宋). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a3f5589e
+      rows:
+        - 'w.yang-shangkun-riji II, 141: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-04-08.cuba
     when: Apr. 8
     date: '1962-04-08'
@@ -632,6 +913,7 @@ entries:
   - id: cal.1962-04-08.cuba-2
     when: Apr. 8–9
     date: '1962-04-08'
+    place: nyc
     thread: cuba
     c: New York. Harvey, the Support Chief and Rosselli meet, their second meeting. By the Inspector General's report Apr. 8–9; by Edwards's memorandum of May 14, set for Apr. 9.
     n: '[[w.sen-church-alleged-assassination-plots]], 84, 134 (I.G. Report, 43; Edwards, memorandum of May 14, 1962). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Inspector General''s Report, 1967, 43 (cited by [[w.sen-church-alleged-assassination-plots]], 84); Memo, Edwards to the Attorney General, May 14, 1962 (cited by [[w.sen-church-alleged-assassination-plots]], 134). See [[cal.1962-04.cuba-2]]. Names: Harvey, Rosselli, Edwards. Check: the day.'
@@ -639,6 +921,7 @@ entries:
   - id: cal.1962-04-09.european-community
     when: Apr. 9–12
     date: '1962-04-09'
+    place: washington
     thread: european-community
     c: 'Hallstein in Washington; with Rusk and Ball, Apr. 9. Joint statement with Kennedy, Apr. 12: "an Atlantic Partnership founded on close cooperation between two equal partners"; the Common Market''s first stage completed; Kennedy on American farm exports; Hallstein for the President''s trade program.'
     n: 'Joint Statement following Discussions With the President of the European Economic Community, [1962 Pub. Papers 325](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=385) (Apr. 12, 1962). [FRUS 1961–63, XIII, doc. 33](https://history.state.gov/historicaldocuments/frus1961-63v13/d33). See [[cal.1961-05-16.european-community]]. Names: Hallstein, Rusk, Ball.'
@@ -647,6 +930,7 @@ entries:
   - id: cal.1962-04-09.middle-east
     when: Apr. 9
     date: '1962-04-09'
+    place: nyc
     thread: middle-east
     c: 'Security Council, Resolution 171, on Israel''s raid of Mar. 16–17 on Syrian gun positions above Lake Tiberias: a flagrant violation of its resolution of 1956. Adopted 10–0, France abstaining (Check); the United States for. Kennedy, Apr. 10, to the State Department: why was he not kept informed?'
     n: '[S.C. Res. 171](https://undocs.org/S/RES/171(1962)) (Apr. 9, 1962). [FRUS 1961–63, XVII, doc. 216](https://history.state.gov/historicaldocuments/frus1961-63v17/d216); [doc. 226](https://history.state.gov/historicaldocuments/frus1961-63v17/d226); [doc. 242](https://history.state.gov/historicaldocuments/frus1961-63v17/d242). [[w.rusk-as-i-saw-it-1990]], 380 (the United States for). To check: [[w.shlaim-iron-wall]]; [[w.bass-support-any-friend]]. Check: Rusk has Stevenson, Bundy and himself persuade Kennedy to vote for the resolution (380).'
@@ -692,15 +976,17 @@ entries:
   - id: cal.1962-04-09.china-leadership
     when: Apr. 9
     date: '1962-04-09'
+    place: peking
     thread: china-leadership
     c: 'Qinzheng Hall. Mao at the Supreme State Conference (18th session, second meeting), which discusses Liu Shaoqi''s report of Mar. 21 on the January conference. After the democratic parties'' men speak, Mao: January''s was a first summing-up; whether it is right the practice will test; whether the "three red flags" are still right or needed will take a time of doing; the general line is there but not yet a whole set of specific policies.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 9, 1962. [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 9, 1962: Zhou Enlai attends the second meeting of the 18th Supreme State Conference, on the Mar. 21 topics, the Government Work Report and the NPC session); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 9, 1962; Liu presides at the Supreme State Conference, which hears the bulletin on what the Conference of Mar. 21 discussed). Made public: 1996. Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 9, 1962. [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 9, 1962: Zhou Enlai attends the second meeting of the 18th Supreme State Conference, on the Mar. 21 topics, the Government Work Report and the NPC session); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 9, 1962; Liu presides at the Supreme State Conference, which hears the bulletin on what the Conference of Mar. 21 discussed); [[w.yang-shangkun-riji]], II, 142 (Apr. 9, 1962; 3 to 7:30 p.m.; the parties'' figures speak; Mao speaks). Made public: 1996. Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 12234aaa
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 9, 1962: all'
         - 'w.zhou-enlai-nianpu-1949 II, 470: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 553: B'
+        - 'w.yang-shangkun-riji II, 142: A, B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-04-09.china-leadership-2
     when: Apr. 9
@@ -709,10 +995,25 @@ entries:
     c: Zhou Enlai asks Xue Muqiao and others about Shanghai's industrial production.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 9, 1962). Made public: 1997. Names: Zhou Enlai, Xue Muqiao.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-09.china-leadership-3
+    when: Apr. 9
+    date: '1962-04-09'
+    time: 1962-04-09T02:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆, 10 a.m., give Chervonenko 契尔沃年科 the Chinese Central Committee's reply to the CPSU's letter; he hands them the record of Gromyko's 葛罗米柯 talks with Rusk 腊斯克.
+    n: '[[w.yang-shangkun-riji]], II, 142 (Apr. 9, 1962; notes 1–2: Gromyko, Rusk). The words: 上午10时 (II, 142). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Chervonenko, Gromyko, Rusk. Check: [[cal.1962-04-07.soviet-union]] has the reply handed to the Soviet ambassador at Peking on Apr. 7.'
+    src:
+      c: 49e601b0
+      rows:
+        - 'w.yang-shangkun-riji II, 142: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, name:gromyko-andrei, name:rusk-dean, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-10.steel
     when: Apr. 10
     date: '1962-04-10'
     time: 1962-04-10T22:45Z
+    place: washington
     thread: steel
     c: Blough at the White House, 5:45 p.m., with the release. Six dollars a ton.
     n: 'News Conference, [1962 Pub. Papers 315](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=375) (Apr. 11, 1962). [[w.schlesinger-thousand-days-1965]], 634–37; [[w.sorensen-kennedy]], 447–50. [[w.reeves-president-kennedy]], 296–97. [[w.clifford-counsel-to-the-president-2]], 375–78 (Blough with the President; six dollars a ton; Kennedy''s call to Clifford that afternoon, to work on business friends). To check: [[w.mcconnell-steel-and-the-presidency]]; [[w.rowen-free-enterprisers]]; [[w.heath-john-f-kennedy-and]]. See [[cal.1961-09-06.steel]]. Names: Blough.'
@@ -730,6 +1031,7 @@ entries:
   - id: cal.1962-04-10.specials
     when: Apr. 10
     date: '1962-04-10'
+    place: south-carolina
     thread: specials
     also: [south-carolina]
     c: 'South Carolina 2d, special. Corinne Boyd Riley (D), unopposed, to her husband''s seat. No swing: Riley unopposed in 1960.'
@@ -759,6 +1061,7 @@ entries:
   - id: cal.1962-04-10.cuba
     when: Apr. 10
     date: '1962-04-10'
+    place: washington
     thread: cuba
     c: Washington. Miró Cardona, of the Revolutionary Council, with Kennedy; he leaves persuaded Kennedy means to use American forces against Cuba.
     n: '[FRUS 1961–63, X, doc. 329](https://history.state.gov/historicaldocuments/frus1961-63v10/d329) (Hurwitch to Martin, Apr. 19: Miró "deeply impressed by the President''s recent urging that he remain at his post"). [[w.paterson-contesting-castro]], 259 (no note; back in Miami, Miró and the Council begin to find recruits for a Cuban unit in the American military). Check: the meeting''s record. Names: Miró Cardona, Kennedy.'
@@ -834,9 +1137,24 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 234 n.1: all'
         - 'via x.1962-04-10.cc-document-zhongfa-62-147-circulating-mao-s-speech-of-jan-30-1962: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-04-10.china-leadership-3
+    when: Apr. 10
+    date: '1962-04-10'
+    time: 1962-04-10T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Huairen Hall 怀仁堂, 9 a.m. to 6 p.m., in two sittings. The CPPCC's plenary, speeches; Yang Shangkun 杨尚昆 executive chairman of the morning. The scientists and engineers, he notes, speak best.
+    n: '[[w.yang-shangkun-riji]], II, 142 (Apr. 10, 1962). The words: 上午9时起到下午6时，分两节 (II, 142). See [[cal.1962-03-23.china-leadership]]. Names: Yang Shangkun.'
+    src:
+      c: 1b1c56a1
+      rows:
+        - 'w.yang-shangkun-riji II, 142: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-11.steel
     when: Apr. 11
     date: '1962-04-11'
+    place: washington
     thread: steel
     also: [robert-kennedy, indonesia]
     c: 'Press conference: "a tiny handful of steel executives." The Justice Department and Pentagon purchasing move. On Bunker''s mediation between the Dutch and the Indonesians over West New Guinea: "the role of the mediator is not a happy one, and we''re prepared to have everybody mad, if it makes some progress."'
@@ -864,6 +1182,7 @@ entries:
   - id: cal.1962-04-11.middle-east
     when: Apr. 11–13
     date: '1962-04-11'
+    place: washington
     thread: middle-east
     c: 'The Shah and the Empress in Washington, on a state visit, Apr. 10–18. With Kennedy, Apr. 12; with McNamara the same day: the basic force level of Iran''s army 150,000 men, more on the northern border after a joint study, a planning team from the Joint Chiefs. Rusk''s aide-mémoire, Apr. 13. The joint statement: the Third Plan, aid continued, the bilateral agreement of 1959 reaffirmed.'
     n: 'Remarks of Welcome to the Shah and the Empress of Iran at the Washington National Airport, [1962 Pub. Papers 315](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=375); Toasts of the President and the Shah of Iran, [1962 Pub. Papers 323](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=383) (Apr. 11, 1962); Joint Statement following Discussions With the Shah of Iran, [1962 Pub. Papers 327](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=387) (Apr. 13, 1962). FRUS 1961–63, XVII, docs. [243](https://history.state.gov/historicaldocuments/frus1961-63v17/d243), [247](https://history.state.gov/historicaldocuments/frus1961-63v17/d247), [248](https://history.state.gov/historicaldocuments/frus1961-63v17/d248). [[w.poole-joint-chiefs-of-staff]], 246 (the visit; the force level; the planning team). To check: [[w.pahlavi-mission-for-my-country]]; [[w.rubin-paved-with-good-intentions]]; [[w.bill-eagle-and-the-lion]]; [[w.afkhami-life-and-times-of]]; [[w.milani-shah]]; [[w.offiler-us-foreign-policy-and]]. Names: Pahlavi, McNamara, Rusk, Kennedy.'
@@ -958,9 +1277,26 @@ entries:
     c: Zhou Enlai hears responsible persons on industrial production, Apr. 11 and 12.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 11–12, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-11.china-leadership-2
+    when: Apr. 11
+    date: '1962-04-11'
+    time: 1962-04-11T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Huairen Hall 怀仁堂, 9 a.m. to noon and 3 to 6 p.m. The CPPCC's plenary, general discussion; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 142 (Apr. 11, 1962). The words: 上午由9时到12时，下午由3时到6时 (II, 142). See [[cal.1962-04-10.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: b0a869b2
+      rows:
+        - 'w.yang-shangkun-riji II, 142: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-12.steel
     when: Apr. 12
     date: '1962-04-12'
+    place:
+      - philadelphia
+      - wilmington-de
     thread: steel
     also: [robert-kennedy]
     c: 'Before dawn, FBI agents question at their homes in Philadelphia and Wilmington the reporters who had quoted Bethlehem''s president, Martin, against a price rise; the Attorney General had asked what Martin said, the hour was the Bureau''s. Robert Kennedy, in 1964: "nor did I even know who they were interviewing." Agents call on the steel executives and their records are subpoenaed for the grand jury.'
@@ -999,6 +1335,7 @@ entries:
   - id: cal.1962-04-12.soviet-union
     when: Apr. 12
     date: '1962-04-12'
+    place: moscow
     thread: soviet-union
     also: [cuba]
     c: 'The Presidium confirms the arms for Cuba: four divisions of SA-2 launchers and two technical divisions, 180 missiles; one Sopka shore battery; ten used Il-28 bombers; four R-15 cruise missile launchers; General Gusev to survey Cuba''s needs; 650 Soviet soldiers to guard and train. The SA-2s meant for Nasser to go to Castro first.'
@@ -1021,6 +1358,7 @@ entries:
     when: Apr. 12
     date: '1962-04-12'
     time: 1962-04-12T13:50Z
+    place: washington
     thread: steel
     c: The Cabinet Room, 8:50 a.m. The President with Robert Kennedy, Goldberg, McNamara, Hodges, Fowler, Dixon of the FTC, Heller, O'Brien and Sorensen. Antitrust and Defense's purchasing the only tangible steps. Hodges to answer Blough's press conference; calls to every steel contact; a fact book by the government's economists.
     n: '[[w.sorensen-kennedy]], 452, 454–56. See [[cal.1962-04-10.steel]]. Names: Kennedy, Robert Kennedy, Goldberg, McNamara, Hodges, Fowler, Heller, O''Brien, Sorensen, Blough.'
@@ -1049,6 +1387,7 @@ entries:
   - id: cal.1962-04-12.steel-6
     when: Apr. 12
     date: '1962-04-12'
+    place: washington
     thread: steel
     follows:
       - cal.1962-04-12.steel
@@ -1068,6 +1407,7 @@ entries:
   - id: cal.1962-04-12.defense
     when: Apr. 12
     date: '1962-04-12'
+    place: washington
     thread: defense
     also: [congress]
     c: The House concurs by voice vote in the Senate's authorization bill.
@@ -1085,6 +1425,7 @@ entries:
   - id: cal.1962-04-12.testing
     when: Apr. 12
     date: '1962-04-12'
+    place: washington
     thread: testing
     c: 'A White House meeting: Kennedy "decided to go ahead with reduction by types," as Lemnitzer, Gilpatric and Rusk argue, against ACDA''s categories.'
     n: '[[w.poole-joint-chiefs-of-staff]], 85. Names: Kennedy, Lemnitzer, Gilpatric, Rusk.'
@@ -1140,6 +1481,66 @@ entries:
     c: 'Zhou Enlai on the State Science Commission''s request on scientific and technical cooperation with the Soviet Union and the East European states in 1962: agreed in principle, but all exchanges of personnel and technique to follow thrift and plain fact.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 12, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-12.china-leadership-3
+    when: Apr. 12
+    date: '1962-04-12'
+    time: 1962-04-12T02:00Z
+    thread: china-leadership
+    c: Fang Zhichun 方志纯 and Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆, 10 a.m. to 12:30 p.m., on Jiangxi 江西 and streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 12, 1962; note 1: Fang Zhichun). The words: 10时到12时半 (II, 143). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Fang Zhichun, Deng Diantao, Yang Shangkun.'
+    src:
+      c: 3f90630c
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-12.china-leadership-4
+    when: Apr. 12
+    date: '1962-04-12'
+    time: 1962-04-12T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Huairen Hall 怀仁堂, 3 to 6 p.m. The CPPCC's plenary discussion; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 12, 1962). The words: 下午3时到6时 (II, 143). See [[cal.1962-04-10.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: '10615942'
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-12.china-leadership-5
+    when: Apr. 12
+    date: '1962-04-12'
+    place: peking
+    thread: china-leadership
+    c: Tian Chou 田畴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 12, 1962). The words: 晚间 (II, 143). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Chou, Yang Shangkun.'
+    src:
+      c: f17068d2
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-12T11:00Z
+      - 1962-04-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-12.china-leadership-6
+    when: Apr. 12
+    date: '1962-04-12'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Li Fuchun 李富春 and Liu Lantao 刘澜涛, by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 12, 1962). The words: 晚间 (II, 143). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun, Liu Lantao.'
+    src:
+      c: 623f692a
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1962-04-12T11:00Z
+      - 1962-04-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-13.steel
     when: Apr. 13
     date: '1962-04-13'
@@ -1166,6 +1567,7 @@ entries:
   - id: cal.1962-04-13.goldwater
     when: Apr. 13
     date: '1962-04-13'
+    place: minnesota
     thread: goldwater
     also: [elections-1964]
     c: 'Minnesota, a 3M fishing camp. White''s group, its third meeting: regional directors named and given each State''s rules for choosing delegates; $5,000 a month to keep White on the road; a chairman, a women''s chairman and a finance chairman in every State by December.'
@@ -1199,6 +1601,7 @@ entries:
   - id: cal.1962-04-13.steel-3
     when: Apr. 13
     date: '1962-04-13'
+    place: washington
     thread: steel
     c: 'The Cabinet Room. Inland and Kaiser holding, Armco uncertain. McNamara: the others "will all have to come down." Armco to be reached first.'
     n: '[[w.sorensen-kennedy]], 456. See [[cal.1962-04-10.steel]]. Names: McNamara.'
@@ -1216,6 +1619,7 @@ entries:
   - id: cal.1962-04-13.steel-4
     when: Apr. 13
     date: '1962-04-13'
+    place: nyc
     thread: steel
     c: 'New York, a luncheon: Goldberg and Clifford for the President with Tyson, Blough and Worthington of U.S. Steel. Complete rescission the one action the President will accept. During it, word by telephone to Blough and Goldberg: Bethlehem has rescinded.'
     n: '[[w.sorensen-kennedy]], 457–58; [[w.clifford-counsel-to-the-president-2]], 377–78 (the meeting at the Carlyle Hotel, at Blough''s suggestion, Goldberg and Clifford with Blough and Tyson, "no compromise"; word by telephone that Bethlehem had rescinded; not the luncheon or Worthington). See [[cal.1962-04-10.steel]]. Names: Goldberg, Clifford, Blough.'
@@ -1262,6 +1666,7 @@ entries:
   - id: cal.1962-04-13.defense
     when: Apr. 13
     date: '1962-04-13'
+    place: washington
     thread: defense
     also: [congress]
     c: 'House Appropriations reports a $47.839 billion Defense bill: $58.8 million added to keep the Guard and Reserve at 700,000, $223.9 million for the RS-70 without a direction to spend it.'
@@ -1295,9 +1700,52 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 222: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-04-13.china-leadership-2
+    when: Apr. 13
+    date: '1962-04-13'
+    place: peking
+    thread: china-leadership
+    c: Huairen Hall 怀仁堂, morning and afternoon. The CPPCC's plenary, many speakers; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 13, 1962). See [[cal.1962-04-10.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: a9bbbf44
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc]
+  - id: cal.1962-04-13.china-leadership-3
+    when: Apr. 13
+    date: '1962-04-13'
+    time: 1962-04-13T04:00Z
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, at noon, by telephone, asks Li Xiannian 李先念 to talk with Wu Zhipu 吴芝圃; Li has done so by evening.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 13, 1962). The words: 中午时……晚间他已谈过了 (II, 143). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Xiannian, Wu Zhipu.'
+    src:
+      c: 074f9e41
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc, name:li-xiannian, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-13.china-leadership-4
+    when: Apr. 13
+    date: '1962-04-13'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Luo Qiong 罗琼, by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 13, 1962). The words: 晚饭后 (II, 143). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Qiong.'
+    src:
+      c: fa5c4aae
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-13T11:00Z
+      - 1962-04-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-14.soviet-union-leadership
     when: Apr. 14
     date: '1962-04-14'
+    place: moscow
     thread: soviet-union-leadership
     also: [china]
     c: 'The Presidium, on Ponomarev''s note of Apr. 9: the Central Committee''s letter of Feb. 22 to the Chinese party, already shown to the socialist countries'' parties and eleven others, to be made known orally, through the Soviet ambassadors, to thirty more parties of the capitalist countries, the American party''s through the KGB''s resident.'
@@ -1314,9 +1762,37 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 273–274: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:kim-il-sung, polity:dprk]
+  - id: cal.1962-04-14.china-leadership-2
+    when: Apr. 14
+    date: '1962-04-14'
+    time: 1962-04-14T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Huairen Hall 怀仁堂, 9 a.m. to noon. The CPPCC's plenary; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 14, 1962). The words: 上午9时到12时 (II, 143). See [[cal.1962-04-10.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: 373e83b2
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-14.china-leadership-3
+    when: Apr. 14
+    date: '1962-04-14'
+    time: 1962-04-14T08:00Z
+    thread: china-leadership
+    c: Luo Qiong 罗琼 of the Women's Federation and Hua Yi 华逸 with Yang Shangkun 杨尚昆, 4 to 6 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 143 (Apr. 14, 1962; notes 2–3: the two). The words: 由4时到6时 (II, 143). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Luo Qiong, Hua Yi, Yang Shangkun.'
+    src:
+      c: 739670b1
+      rows:
+        - 'w.yang-shangkun-riji II, 143: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-15.middle-east-johnson-plan
     when: Apr. 15–17
     date: '1962-04-15'
+    place: jerusalem
     thread: middle-east-johnson-plan
     c: 'Jerusalem. Joseph Johnson''s second round in the Middle East, Apr. 14–May 12. With Meir, Apr. 15 and 17: a poll of the refugees'' preferences; on what terms Israel would repatriate a share of perhaps 20,000 to begin. Meir: first a public assurance that the Arab governments will live in peace; as evidence, six months without propaganda against Israel.'
     n: 'FRUS 1961–63, XVII, doc. [253](https://history.state.gov/historicaldocuments/frus1961-63v17/d253). [A/5337](https://documents.un.org/doc/UNDOC/GEN/NL6/212/01/PDF/NL621201.PDF#page=4), para. 12. See [[cal.1961-08-21.middle-east-johnson-plan]]. Names: Johnson, Meir.'
@@ -1338,6 +1814,7 @@ entries:
   - id: cal.1962-04-15.vietnam
     when: Apr. 15
     date: '1962-04-15'
+    place: soc-trang
     thread: vietnam
     c: The Marine medium helicopter squadron HMM-362, 24 aircraft, flies from the *Princeton* to the old Japanese airstrip at Sóc Trăng in the Delta, the fourth American helicopter unit in Vietnam (Shufly).
     n: '[[w.schulimson-joint-chiefs-of-staff]], 194–95. Farm Gate''s men to reach 2,429, more than double the end of 1961 (194). See [[cal.1962-03-19.vietnam]].'
@@ -1363,13 +1840,42 @@ entries:
   - id: cal.1962-04-15.china-leadership-2
     when: Apr. 15
     date: '1962-04-15'
+    place: peking
     thread: china-leadership
     c: Zhou Enlai at the Peking memorial service for Ma Xiwu, Vice President of the Supreme People's Court and CPPCC member.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 15, 1962). Names: Zhou Enlai, Ma Xiwu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 15, 1962); [[w.yang-shangkun-riji]], II, 144 (Apr. 15, 1962; 10 a.m., at the Jiaxing Temple 嘉兴寺; Yang Shangkun attends; note 1: Ma Xiwu died Apr. 10; Zhou Enlai not named). Names: Zhou Enlai, Ma Xiwu.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1962-04-15.china-leadership-3
+    when: Apr. 15
+    date: '1962-04-15'
+    time: 1962-04-15T07:20Z
+    place: peking
+    thread: china-leadership
+    c: The lawn of Huairen Hall 怀仁堂, 3:20 p.m. The CPPCC's members photographed; Yang Shangkun 杨尚昆 among them.
+    n: '[[w.yang-shangkun-riji]], II, 144 (Apr. 15, 1962). The words: 下午3时20分 (II, 144). Names: Yang Shangkun.'
+    src:
+      c: 3fea714b
+      rows:
+        - 'w.yang-shangkun-riji II, 144: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-15.china-leadership-4
+    when: Apr. 15
+    date: '1962-04-15'
+    time: 1962-04-15T08:00Z
+    thread: china-leadership
+    c: Li Dazhang 李大章, Cheng Zijian 程子健, Liao Suhua 廖苏华 and Li Zonglin 李宗林 of Sichuan 四川 at Yang Shangkun's 杨尚昆 home, 4 to 6:30 p.m., and to dinner.
+    n: '[[w.yang-shangkun-riji]], II, 144 (Apr. 15, 1962; note 2: the four). The words: 4时起到6时半 (II, 144). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Dazhang, Cheng Zijian, Liao Suhua, Li Zonglin, Yang Shangkun.'
+    src:
+      c: 7b4e3cec
+      rows:
+        - 'w.yang-shangkun-riji II, 144: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-16.desegregation-schools-la
     when: Apr. 16
     date: '1962-04-16'
+    place: new-orleans
     thread: desegregation-schools
     c: Archbishop Rummel of New Orleans excommunicates Leander Perez, the Plaquemines Parish leader, and two others who organized against his order desegregating the archdiocese's schools for 1962–63.
     n: '[Wikipedia](https://en.wikipedia.org/wiki/Joseph_Rummel). To check: [[w.jeansonne-leander-perez]]; [[w.fairclough-race-and-democracy]]. Names: Rummel, Perez.'
@@ -1415,6 +1921,7 @@ entries:
     when: Apr. 16
     date: '1962-04-16'
     time: 1962-04-16T19:34Z
+    place: washington
     thread: berlin-and-vienna
     c: Rusk and Dobrynin alone, 2:34 p.m., on the talks begun at Geneva. No "new round of talks" in Washington taken for granted. The Soviet paper on access unacceptable while tied to the withdrawal of Western forces from West Berlin.
     n: '[FRUS 1961–63, XV, doc. 39](https://history.state.gov/historicaldocuments/frus1961-63v15/d39). [[w.rusk-as-i-saw-it-1990]], 226–27 (the talks with Dobrynin, mid-April to late May). See [[cal.1962-03-11.berlin-and-vienna]]. Names: Rusk, Dobrynin.'
@@ -1457,6 +1964,7 @@ entries:
   - id: cal.1962-04-16.defense
     when: Apr. 16
     date: '1962-04-16'
+    place: washington
     thread: defense
     also: [congress]
     c: Hebert's House Armed Services subcommittee on reserve policy opens its hearings on the reorganization; Runge, Assistant Secretary for Manpower, and Ailes defend it.
@@ -1475,6 +1983,7 @@ entries:
   - id: cal.1962-04-16.vietnam-hanoi
     when: Apr. 16
     date: '1962-04-16'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Central Committee''s seventh plenum, enlarged, on industry, sitting since Mar. 26, ends. Its resolution: the tasks and course of building industry in the first five-year plan, socialist industrialization the central task of the transition. Hồ Chí Minh: heaven''s time, earth''s advantage and men''s accord, the three favorable conditions; "Có thực mới vực được đạo" (only the fed can follow the Way), so farming "cực kỳ quan trọng" (extremely important); industry and farming the economy''s two legs.'
     n: '*Báo cáo về nhiệm vụ và phương hướng xây dựng phát triển công nghiệp tại Hội nghị lần thứ bảy*; *Nghị quyết Hội nghị lần thứ bảy Ban Chấp hành Trung ương Đảng (khoá III) về nhiệm vụ và phương hướng xây dựng và phát triển công nghiệp*; *Bài nói của Chủ tịch Hồ Chí Minh tại Hội nghị lần thứ bảy*; *Thông cáo Hội nghị lần thứ bảy*. [[w.van-kien-dang-toan]], XXIII, 220–395 (the report on industry, 220–347; the resolution, 348–87; Hồ Chí Minh''s speech, Apr. 16, 388–92; the communiqué, 393–95, the plenum "họp từ ngày 26 tháng 3 đến ngày 16 tháng 4" (sat from Mar. 26 to Apr. 16) by the editors'' heading). Made public: the communiqué at the time; the resolution, published by Aug. 7 (XXIII, 727); the report, 2002. Names: Hồ Chí Minh.'
@@ -1482,9 +1991,10 @@ entries:
   - id: cal.1962-04-16.china-leadership
     when: Apr. 16
     date: '1962-04-16'
+    place: peking
     thread: china-leadership
     c: 'Zhou Enlai at the NPC''s closing session on domestic questions: understanding of socialist building needs a process; "a great deal of blindness" remains; only practice brings out the laws. The adjustment is active, not passive: some trades advance and some retreat, all for advance; farming and light industry first, so heavy industry and construction bear temporary losses; big swings are to be avoided.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 16, 1962). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 16, 1962); [[w.yang-shangkun-riji]], II, 144 (Apr. 16, 1962; 3 to 6 p.m., the Great Hall, the National People''s Congress closes; Chen Yi speaks; Zhou Enlai sums up). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1962-04-16.china-leadership-2
     when: Apr. 16
@@ -1509,6 +2019,7 @@ entries:
   - id: cal.1962-04-16.china
     when: Apr. 16
     date: '1962-04-16'
+    place: peking
     thread: china
     c: Zhou Enlai, at the third session of the Second National People's Congress, sets out China's foreign policy. China steadily follows a policy of peaceful diplomacy. It will unswervingly develop friendly cooperation with the Soviet Union and the other socialist brother countries; on the five principles it will strive for peaceful coexistence with states of different systems; it opposes imperialism's policies of aggression and war; it supports the revolutionary struggles of oppressed peoples and nations against imperialism and colonialism. It holds that international disputes should be settled by negotiation, firmly stands for banning nuclear weapons, and backs the struggle of all peace-loving states and peoples against imperialist arms expansion and for disarmament. China firmly opposes the American occupation of Taiwan and the making of "two Chinas."
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 223 (Apr. 16, 1962). See [[cal.1962-04-16.china-leadership]]. Names: Zhou Enlai.'
@@ -1545,9 +2056,23 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 275 n.1: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 275 n.3: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1962-04-16.china-leadership-6
+    when: Apr. 16
+    date: '1962-04-16'
+    time: 1962-04-16T01:00Z
+    thread: china-leadership
+    c: 'The Streamlining Group 精简小组, 9 a.m. to noon, on Ma Wenrui''s 马文瑞 outline of a report. By Yang''s notes: 8.717 million cut in 1961, 17.3 percent; the offices grew 6.2 percent (184,000, mostly counties and communes); 7.38 million came from the villages after 1958; over 1960–62, a 30.7 percent cut.'
+    n: '[[w.yang-shangkun-riji]], II, 144–145 (Apr. 16, 1962; note 3: the work notes, in 仿宋, 144–145). The words: 上午9时到12时 (II, 144–145). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ma Wenrui.'
+    src:
+      c: f9227a44
+      rows:
+        - 'w.yang-shangkun-riji II, 144–145: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-17.european-community
     when: Apr. 17
     date: '1962-04-17'
+    place: paris
     thread: european-community
     c: 'Paris. The Six''s foreign ministers fail to agree on a treaty of political union, the Fouchet plan: Belgium and the Netherlands will not go on without Britain. The French draft of Oct. 19, 1961, loose "confederal" ties in politics and defense; a second, Jan. 18. Apr. 27, State to its missions: the United States takes no side.'
     n: 'FRUS 1961–63, XIII, docs. [22](https://history.state.gov/historicaldocuments/frus1961-63v13/d22) (circular, Nov. 3, 1961), [24](https://history.state.gov/historicaldocuments/frus1961-63v13/d24) (Spaak, Nov. 29, 1961), [35](https://history.state.gov/historicaldocuments/frus1961-63v13/d35) (circular, Apr. 27). To check: [[w.camps-britain-and-the-european]]; [[w.vaisse-la-grandeur]]; [[w.giauque-grand-designs-and-visions]]. Names: Fouchet.'
@@ -1562,6 +2087,7 @@ entries:
   - id: cal.1962-04-17.steel
     when: Apr. 17
     date: '1962-04-17'
+    place: washington
     thread: steel
     c: 'Blough at the White House again, a week after his first call. Kennedy to Schlesinger at dinner: "I told him that his men could keep their horses for the spring plowing."'
     n: '[[w.schlesinger-thousand-days-1965]], 637. [[w.sorensen-kennedy]], 459 (Blough at the White House again). See [[cal.1962-04-10.steel]]. Names: Blough, Kennedy, Schlesinger.'
@@ -1580,6 +2106,7 @@ entries:
   - id: cal.1962-04-17.soviet-union
     when: Apr. 17
     date: '1962-04-17'
+    place: moscow
     thread: soviet-union-leadership
     also: [european-community, china]
     c: 'The Presidium. Khrushchev: the propaganda against the Common Market weak and passive, the quarrels among its members and with the United States unused; Ilyichev and Ponomarev to work it out. The answer to the Chinese party''s letter not to be delayed; a meeting of the parties not opposed in principle, if it would make things better.'
@@ -1602,7 +2129,12 @@ entries:
     date: '1962-04-17'
     thread: china-leadership
     c: 'Zhou Enlai convenes the enlarged State Council meeting on streamlining: the government''s first task now is to cut offices and posts; the line, merge units, central and local, cut staff, adjust together, place people properly; the way, to investigate on the spot, rely on the masses, Party and government to lead, lines and areas to match, all to act as one. He lays down ten measures for placing people.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 17, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 17, 1962); [[w.yang-shangkun-riji]], II, 145–146 (Apr. 17, 1962; 3 to 8 p.m., the State Council''s small hall, with the provinces'' and cities'' people, Party and not; Ma Wenrui reports; by Yang''s notes, Zhou''s course: cut offices and men, simplify government, resettle; the methods and ten ways of resettling). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 2af50c4c
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 471: ?'
+        - 'w.yang-shangkun-riji II, 145–146: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-04-17.china-leadership-2
     when: Apr. 17
@@ -1630,9 +2162,41 @@ entries:
     c: 'Liu Shaoqi hears the Central Committee General Office''s materials investigation group, back from Shijiazhuang, on materials work. Materials management is no special department but a comprehensive one; it is also a commercial department and should follow the commercial departments'' way: if commerce can supply 600 million people, can it not supply 210,000 enterprises? Men who know technology are to be drawn to fill out the materials ranks.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 17, 1962). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-04-17.china-leadership-4
+    when: Apr. 17
+    date: '1962-04-17'
+    time: 1962-04-17T01:00Z
+    place: peking
+    thread: china-leadership
+    c: The Great Hall 人民大会堂, 9 a.m. to noon. The CPPCC's plenary; Chen Yi 陈毅 speaks, the general discussion ends; to close the next day.
+    n: '[[w.yang-shangkun-riji]], II, 145 (Apr. 17, 1962). The words: 上午9时到12时 (II, 145). See [[cal.1962-04-10.china-leadership-3]]. Names: Chen Yi.'
+    src:
+      c: 01afd6b6
+      rows:
+        - 'w.yang-shangkun-riji II, 145: all'
+    tags: [polity:prc, name:chen-yi]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-17.china-leadership-5
+    when: Apr. 17
+    date: '1962-04-17'
+    place: peking
+    thread: china-leadership
+    c: He Jun 何均 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 145 (Apr. 17, 1962). The words: 晚间 (II, 145). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Yang Shangkun.'
+    src:
+      c: 2653b618
+      rows:
+        - 'w.yang-shangkun-riji II, 145: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-17T11:00Z
+      - 1962-04-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-18.defense
     when: Apr. 18
     date: '1962-04-18'
+    place: washington
     thread: defense
     also: [congress]
     c: The House passes the Defense appropriation, 388 to 0, after a two-day debate, "a love feast."
@@ -1648,6 +2212,7 @@ entries:
   - id: cal.1962-04-18.vietnam-hanoi
     when: Apr. 18
     date: '1962-04-18'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'Hanoi. The National Assembly''s fourth meeting (Apr. 17–26) debates a new Geneva conference. Nguyễn Văn Vịnh, for the Reunification Committee: should the Americans go on destroying the accords and widening their war, they "will have to bear complete responsibility." The Supreme Court''s report: "counterrevolutionaries" of the old classes active again.'
     n: '[[w.asselin-hanois-road-to-the]], 127, 129, 132, 142. To check: Nguyễn Văn Vịnh''s report and the Court''s, Hồ sơ 733 (the sitting of Apr. 18, 1962), Phông Quốc hội, VNAC3 (cited by [[w.asselin-hanois-road-to-the]], 129 n.73, 132 nn.107–08, 142 n.155). Check: Asselin''s note dates Vịnh''s report Apr. 4, 1962, in the file of the sitting of Apr. 18 (129 n.73).'
@@ -1671,6 +2236,7 @@ entries:
   - id: cal.1962-04-18.testing
     when: Apr. 18
     date: '1962-04-18'
+    place: geneva
     thread: testing
     c: 'The American "Outline of Basic Provisions" presented at Geneva: in Stage I a 30 percent cut in "illustrative" types, missiles, aircraft over 40,000 kilograms, ABMs, tanks, artillery and warships over 400 tons; zones declared; an International Disarmament Organization with access to an agreed number of zones.'
     n: '[[w.poole-joint-chiefs-of-staff]], 85–86. See [[cal.1962-04-12.testing]].'
@@ -1711,9 +2277,10 @@ entries:
   - id: cal.1962-04-18.china-leadership
     when: Apr. 18
     date: '1962-04-18'
+    place: peking
     thread: china-leadership
     c: 'Zhou Enlai, closing address at the CPPCC''s Third National Committee: the people''s democratic united front, now in the stage of socialist construction, must unite every force that can be united; its work is in construction as well as in transformation; in the CPPCC the Party''s leadership is its collective leadership, the line and policy, not persons; communists should make friends outside the Party, and the friend who dares to differ and criticize is a candid one; culture, education and science to meet the economy''s needs, from numbers to quality.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 18, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 240 (Zhou''s most extensive discussion of united front policy, to the 897 delegates: the shift from socialist transformation to socialist construction, a "broadening of democratic life" within the six criteria, "long-term coexistence and mutual supervision" revived, members asked to engage in more investigation and study). Continues 472. To check: [[w.zhou-xin-zhongguo-fazhi-jianshe]], 291 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.40); Zhou Enlai, speech to the CPPCC, Apr. 18, 1962, in [[w.selected-works-of-zhou]], 401 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.42); Zhou Enlai, speech to the CPPCC, Apr. 18, 1962, in [[w.selected-works-of-zhou]], 401–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.43a); Zhou Enlai, speech to the CPPCC, Apr. 18, 1962, in [[w.selected-works-of-zhou]], 404–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.44a). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 471 (Apr. 18, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 240 (Zhou''s most extensive discussion of united front policy, to the 897 delegates: the shift from socialist transformation to socialist construction, a "broadening of democratic life" within the six criteria, "long-term coexistence and mutual supervision" revived, members asked to engage in more investigation and study); [[w.yang-shangkun-riji]], II, 146 (Apr. 18, 1962; the Great Hall, 4 to 6 p.m., the CPPCC closes; Zhou Enlai speaks). Continues 472. To check: [[w.zhou-xin-zhongguo-fazhi-jianshe]], 291 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.40); Zhou Enlai, speech to the CPPCC, Apr. 18, 1962, in [[w.selected-works-of-zhou]], 401 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.42); Zhou Enlai, speech to the CPPCC, Apr. 18, 1962, in [[w.selected-works-of-zhou]], 401–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.43a); Zhou Enlai, speech to the CPPCC, Apr. 18, 1962, in [[w.selected-works-of-zhou]], 404–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 240 n.44a). Names: Zhou Enlai.'
     src:
       c: d2bb5cb6
       rows:
@@ -1723,7 +2290,36 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 240 n.42: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 240 n.43a: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 240 n.44a: ?'
+        - 'w.yang-shangkun-riji II, 146: A'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1962-04-18.china-leadership-2
+    when: Apr. 18
+    date: '1962-04-18'
+    time: 1962-04-18T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Zhou Enlai's 周恩来 meeting, 9 to 10 a.m., on state land reclamation 农垦; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 146 (Apr. 18, 1962). The words: 上午9时到10时 (II, 146). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun.'
+    src:
+      c: f319971b
+      rows:
+        - 'w.yang-shangkun-riji II, 146: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-18.china-leadership-3
+    when: Apr. 18
+    date: '1962-04-18'
+    time: 1962-04-18T07:30Z
+    place: peking
+    thread: china-leadership
+    c: The Secretariat 书记处, from 3:30 p.m.; Yang Shangkun 杨尚昆 there part of the time.
+    n: '[[w.yang-shangkun-riji]], II, 146 (Apr. 18, 1962). The words: 下午3时半 (II, 146). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 70b796e1
+      rows:
+        - 'w.yang-shangkun-riji II, 146: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-19.laos
     when: Apr. 19
     date: '1962-04-19'
@@ -1767,6 +2363,22 @@ entries:
     c: Zhou Enlai with Li Qiang on Sino-Soviet trade.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 19, 1962). Made public: 1997. Names: Zhou Enlai, Li Qiang.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-19.china-leadership-4
+    when: Apr. 19
+    date: '1962-04-19'
+    thread: china-leadership
+    c: Lai Zulie 赖祖烈 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 146 (Apr. 19, 1962). The words: 上午 (II, 146). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lai Zulie, Yang Shangkun.'
+    src:
+      c: e70561a3
+      rows:
+        - 'w.yang-shangkun-riji II, 146: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-18T22:00Z
+      - 1962-04-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-20.crime-and-hijacking-maheu
     when: Apr. 20
     date: '1962-04-20'
@@ -1832,6 +2444,7 @@ entries:
   - id: cal.1962-04-20.defense
     when: Apr. 20
     date: '1962-04-20'
+    place: colorado
     thread: defense
     also: [soviet-union]
     c: Colorado. The first eighteen of fifty-four Titan ICBMs being deployed; Khrushchev has weekly reports from Malinovsky on the American forces.
@@ -1845,6 +2458,7 @@ entries:
     when: Apr. 20
     date: '1962-04-20'
     time: 1962-04-20T03:30Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives the Soviet trade and economic delegation under Foreign Trade Minister Patolichev. Sino-Soviet trade will grow, only a matter of time; differences of view and trade troubles can be overcome; the volume cannot jump for objective reasons but the direction is right; he asks about it himself daily. On trade with capitalist countries: keep it under good control, reckon every deal in politics as well as economics. With Africa and other undeveloped states: it is good for them; China asks no privilege, attaches no political terms, and aims to help their national economies toward independence.'
@@ -1857,9 +2471,79 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 224: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:patolichev-nikolai-s, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-20.china-leadership-2
+    when: Apr. 20
+    date: '1962-04-20'
+    thread: china-leadership
+    c: 'The Streamlining Group 精简小组 hears Qiang Xiaochu 强晓初 on the Northeast. By Yang''s notes: 3.6 million to go in all, 2.54 million of them workers; in 1961, 2.35 million moved out and 770,000 in, a net 1.58 million, and workers down a net 1.415 million; for 1962, 1.58 million more from the towns, 839,000 workers; resolve weak, action slow, the Center slower.'
+    n: '[[w.yang-shangkun-riji]], II, 146–148 (Apr. 20, 1962; note 1: the work notes, in 仿宋, 147–148). The words: 上午 (II, 146–148). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qiang Xiaochu.'
+    src:
+      c: 821609b4
+      rows:
+        - 'w.yang-shangkun-riji II, 146–148: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-19T22:00Z
+      - 1962-04-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-20.china-leadership-3
+    when: Apr. 20
+    date: '1962-04-20'
+    time: 1962-04-20T08:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 4 to 7 p.m., at Liao Chengzhi's 廖承志 home, invited by Kang Sheng 康生, to see paintings; He Xiangning 何香凝 keeps them to dinner and gives each a painting of her own.
+    n: '[[w.yang-shangkun-riji]], II, 147 (Apr. 20, 1962; note 2: He Xiangning). The words: 下午4时……7时才回 (II, 147). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liao Chengzhi, Kang Sheng, He Xiangning.'
+    src:
+      c: 83feb34c
+      rows:
+        - 'w.yang-shangkun-riji II, 147: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-20.china-leadership-4
+    when: Apr. 20
+    date: '1962-04-20'
+    time: 1962-04-20T13:00Z
+    thread: china-leadership
+    c: Yu Yifu 于毅夫, a secretary of the Jilin 吉林 committee, with Yang Shangkun 杨尚昆, 9 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 147 (Apr. 20, 1962; note 3: Yu Yifu). The words: 9时 (II, 147). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yu Yifu, Yang Shangkun.'
+    src:
+      c: b28aa698
+      rows:
+        - 'w.yang-shangkun-riji II, 147: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-20.china-leadership-6
+    when: Apr. 20
+    date: '1962-04-20'
+    thread: china-leadership
+    follows:
+      - cal.1962-04-20.china-leadership-4
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 147 (Apr. 20, 1962). The words: 后孔原同志也来了 (II, 147). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 147: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04-20.china-leadership-5
+    when: Apr. 20
+    date: '1962-04-20'
+    place: lanzhou
+    thread: china-leadership
+    c: Liu Lantao 刘澜涛 telephones Yang Shangkun 杨尚昆 from Lanzhou 兰州, an hour.
+    n: '[[w.yang-shangkun-riji]], II, 147 (Apr. 20, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Lantao, Yang Shangkun.'
+    src:
+      c: 4573e619
+      rows:
+        - 'w.yang-shangkun-riji II, 147: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-04-21.states-and-cities-seattle
     when: Apr. 21
     date: '1962-04-21'
+    place:
+      - palm-beach
+      - seattle
     thread: states-and-cities
     also: [space]
     c: 'Seattle. The Century 21 Exposition, the Seattle World''s Fair, opened by Kennedy from Palm Beach with a telegraph key, by a signal from Cassiopeia A: "we are reaching out through space on the new ocean." Open to Oct. 21.'
@@ -1868,6 +2552,7 @@ entries:
   - id: cal.1962-04-21.vietnam-hanoi
     when: Apr. 21
     date: '1962-04-21'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s instruction no. 42-CT/TW on local military work for 1962: the militia, self-defense and reserves, built up a step in 1961.'
     n: '*Chỉ thị của Ban Bí thư số 42-CT/TW về nhiệm vụ công tác quân sự địa phương năm 1962*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 405–10. Made public: 2002.'
@@ -1904,13 +2589,65 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 224: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-04-21.china-leadership-3
+    when: Apr. 21
+    date: '1962-04-21'
+    time: 1962-04-21T01:30Z
+    thread: china-leadership
+    c: Luo Ruiqing 罗瑞卿, Kong Yuan 孔原 and others with Yang Shangkun 杨尚昆, 9:30 a.m. to 12:30 p.m., on unifying intelligence work.
+    n: '[[w.yang-shangkun-riji]], II, 149 (Apr. 21, 1962). The words: 上午9时半到12时半 (II, 149). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-03.china-leadership-6]]. Names: Luo Ruiqing, Kong Yuan, Yang Shangkun.'
+    src:
+      c: c3ca7f6c
+      rows:
+        - 'w.yang-shangkun-riji II, 149: all'
+    tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-21.china-leadership-4
+    when: Apr. 21
+    date: '1962-04-21'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, to read more, begins the two-volume Marx and Engels 马恩两卷集.
+    n: '[[w.yang-shangkun-riji]], II, 149 (Apr. 21, 1962). The words: 下午 (II, 149). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-01-01.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: c09efbea
+      rows:
+        - 'w.yang-shangkun-riji II, 149: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-21T04:00Z
+      - 1962-04-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-22.china-leadership
+    when: Apr. 22
+    date: '1962-04-22'
+    place: peking
+    thread: china-leadership
+    c: Yuquanshan 玉泉山. Yang Shangkun 杨尚昆, with his family and Liu Shaoqi's 刘少奇 children, meets Luo Ruiqing 罗瑞卿 and Wang Dongxing 汪东兴 and is shown the new works there and briefed.
+    n: '[[w.yang-shangkun-riji]], II, 149 (Apr. 22, 1962; notes 1–2: Liu''s children; Luo, Wang). The words: 上午……12时半在大楼吃中饭后回城 (II, 149). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Shaoqi, Luo Ruiqing, Wang Dongxing.'
+    src:
+      c: 8184e3d6
+      rows:
+        - 'w.yang-shangkun-riji II, 149: all'
+    tags: [polity:prc, name:liu-shaoqi, name:luo-ruiqing, vis:only:prc]
+    time_range:
+      - 1962-04-21T22:00Z
+      - 1962-04-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-23.china-leadership
     when: Apr. 23
     date: '1962-04-23'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at the enlarged Politburo Standing Committee meeting, which hears the report on streamlining in the Northeast region and the Finance and Economics Small Group's report on the 1962 plan to adjust the national economy. The economy is out of balance on all sides and must be adjusted on all sides; the situation is underestimated now, not overestimated. There is no great situation in the economy; the "great situation" is political, in the Party's unity and the people's unity.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 23, 1962). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 23, 1962); [[w.yang-shangkun-riji]], II, 149–150 (Apr. 23, 1962; the Xilou, 3:30 to 7 p.m.; Ma Mingfang reports on the Northeast, Zhou Enlai on the Finance and Economics Group''s talks on the 1962 adjustment plan; by Yang''s notes, Zhou: the Northeast to strive to cut 2 billion yuan, the Northeast a picture of the whole country; Liu: the urban population must be cut, an orderly retreat). Made public: 1996. Names: Liu Shaoqi.'
+    src:
+      c: '86560007'
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 553: ?'
+        - 'w.yang-shangkun-riji II, 149–150: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-04-23.china
     when: Apr. 23
@@ -1924,6 +2661,38 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 224: all'
     tags: [polity:prc, polity:dprk, name:peng-zhen, name:kim-il-sung]
+  - id: cal.1962-04-23.china-leadership-2
+    when: Apr. 23
+    date: '1962-04-23'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1962-04-23.china-leadership
+    c: The Xilou 西楼, after the meeting, a few of them on the mass flight to the Soviet Union from Tacheng 塔城 and two other Xinjiang 新疆 counties.
+    n: '[[w.yang-shangkun-riji]], II, 149–150 (Apr. 23, 1962). The words: 会后又小规模地谈了 (II, 149–150). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-16.china-leadership-4]].'
+    src:
+      c: 93efd2fc
+      rows:
+        - 'w.yang-shangkun-riji II, 149–150: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04-23.china-leadership-3
+    when: Apr. 23
+    date: '1962-04-23'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones the Xinjiang 新疆 regional committee with Deng Xiaoping's 邓小平 three points.
+    n: '[[w.yang-shangkun-riji]], II, 150 (Apr. 23, 1962). The words: 晚间 (II, 150). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-23.china-leadership-2]]. Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 17b900bd
+      rows:
+        - 'w.yang-shangkun-riji II, 150: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1962-04-23T11:00Z
+      - 1962-04-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-24.japan-and-korea
     when: Apr. 24
     date: '1962-04-24'
@@ -1942,6 +2711,7 @@ entries:
   - id: cal.1962-04-24.voting-rights
     when: Apr. 24
     date: '1962-04-24'
+    place: washington
     thread: voting-rights
     also: [rules]
     c: 'Mansfield in the Senate: Judiciary having held the Mansfield–Dirksen literacy bill since January, past his sixty to ninety days, he will offer it to a House bill. A sixth-grade education to be proof of literacy in federal elections. The Southern Democrats'' filibuster begins.'
@@ -1959,6 +2729,7 @@ entries:
   - id: cal.1962-04-24.king
     when: Apr. 24
     date: '1962-04-24'
+    place: washington
     thread: king
     also: [antisubversion]
     c: 'Eastland''s Internal Security Subcommittee subpoenas Levison, to appear Apr. 27. FBI officials object: premature, a warning to Levison. The Bureau gets a three-day postponement, secrecy, and the Senators'' word not to ask of King unless Levison admits something.'
@@ -2059,9 +2830,55 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 278–279: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-04-24.china-leadership-7
+    when: Apr. 24
+    date: '1962-04-24'
+    thread: china-leadership
+    c: 'Jia Bubin 贾步彬 and Wang Yuming 王愈明 report to Yang Shangkun 杨尚昆 the General Office''s investigations at Shijiazhuang 石家庄 and Wuxi 无锡. By Yang''s notes: Wuxi, no plans, fuel short, mulberry trees cut for firewood, goods taken by cadres, 15,000 unemployed; Shijiazhuang, three of seven textile mills shut, 8 million meters of cloth stockpiled.'
+    n: '[[w.yang-shangkun-riji]], II, 150–152 (Apr. 24, 1962; notes 1–2: Jia Bubin; the work notes, in 仿宋, 151–152). The words: 上午 (II, 150–152). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-24.china-leadership-4]]. Names: Jia Bubin, Wang Yuming, Yang Shangkun.'
+    src:
+      c: 9bb7c60a
+      rows:
+        - 'w.yang-shangkun-riji II, 150–152: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-23T22:00Z
+      - 1962-04-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-24.china-leadership-8
+    when: Apr. 24
+    date: '1962-04-24'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 reads part of the *Communist Manifesto* 《共产党宣言》.
+    n: '[[w.yang-shangkun-riji]], II, 150 (Apr. 24, 1962). The words: 下午 (II, 150). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-21.china-leadership-4]]. Names: Yang Shangkun.'
+    src:
+      c: eceefcf4
+      rows:
+        - 'w.yang-shangkun-riji II, 150: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-24T04:00Z
+      - 1962-04-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-24.china-leadership-9
+    when: Apr. 24
+    date: '1962-04-24'
+    time: 1962-04-24T13:30Z
+    thread: china-leadership
+    c: Kong Yuan 孔原, Zou Dapeng 邹大鹏, Feng Xuan 冯铉, Luo Qingchang 罗青长 and others with Yang Shangkun 杨尚昆, 9:30 p.m., on unifying intelligence work.
+    n: '[[w.yang-shangkun-riji]], II, 151 (Apr. 24, 1962). The words: 晚间9时半 (II, 151). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-21.china-leadership-3]]. Names: Kong Yuan, Zou Dapeng, Feng Xuan, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: 5de05606
+      rows:
+        - 'w.yang-shangkun-riji II, 151: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-25.testing
     when: Apr. 25
     date: '1962-04-25'
+    place: christmas-island
     thread: testing
     c: U.S. atmospheric testing resumes near Christmas Island.
     n: '[U.S. Department of Energy, *United States Nuclear Tests, July 1945 through September 1992*, DOE/NV-209, rev. 16 (2015), 20–21](https://www.osti.gov/servlets/purl/1351809#page=38); [FRUS 1961–63, VII–IX, microfiche supp., doc. 127](https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d127). [[w.sorensen-kennedy]], 624; [[w.poole-joint-chiefs-of-staff]], 98 (the series at Christmas and Johnston Islands, Apr. 25–July 12, 26 detonations). See [[cal.1962-03-02.testing]].'
@@ -2075,6 +2892,7 @@ entries:
   - id: cal.1962-04-25.vietnam-hanoi
     when: Apr. 25
     date: '1962-04-25'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s instruction no. 43-CT/TW on protecting mothers and children: women 54.2 percent of the farm labor force in March 1960.'
     n: '*Chỉ thị của Ban Bí thư số 43-CT/TW về công tác bảo vệ bà mẹ và trẻ em*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 417–22. Made public: 2002.'
@@ -2093,6 +2911,39 @@ entries:
     c: Zhou Enlai with responsible persons on the import of complete sets of equipment.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 473 (Apr. 25, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-04-25.china-leadership-3
+    when: Apr. 25
+    date: '1962-04-25'
+    thread: china-leadership
+    c: Kang Yimin 康一民 and Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 152 (Apr. 25, 1962). The words: 上午 (II, 152). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Yimin, Zeng San, Yang Shangkun.'
+    src:
+      c: e4055d87
+      rows:
+        - 'w.yang-shangkun-riji II, 152: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-24T22:00Z
+      - 1962-04-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-25.china-leadership-4
+    when: Apr. 25
+    date: '1962-04-25'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 with Liu Lantao 刘澜涛, by telephone, Liu now at Urumqi 乌鲁木齐; the situation still developing.
+    n: '[[w.yang-shangkun-riji]], II, 152 (Apr. 25, 1962). The words: 下午 (II, 152). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-23.china-leadership-2]]. Names: Yang Shangkun, Liu Lantao.'
+    src:
+      c: e41c3a64
+      rows:
+        - 'w.yang-shangkun-riji II, 152: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-25T04:00Z
+      - 1962-04-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-26.robert-kennedy
     when: Apr. 26
     date: '1962-04-26'
@@ -2134,6 +2985,7 @@ entries:
   - id: cal.1962-04-26.vietnam-hanoi
     when: Apr. 26
     date: '1962-04-26'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo: resolution no. 51-NQ/TW on the campaign to raise responsibility, tighten economic and financial management and fight embezzlement, waste and bureaucracy; resolution no. 52-NQ/TW on improving the Party''s theoretical and political education.'
     n: '*Nghị quyết của Bộ Chính trị số 51-NQ/TW về cuộc vận động nâng cao ý thức trách nhiệm, tăng cường quản lý kinh tế tài chính, chống tham ô, lãng phí, quan liêu*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXIII, 423–35, 436–56 (No. 52-NQ/TW; signed by Trường Chinh). Made public: 2002.'
@@ -2148,6 +3000,7 @@ entries:
   - id: cal.1962-04-26.china-leadership-2
     when: Apr. 26
     date: '1962-04-26'
+    place: peking
     thread: china-leadership
     also: [china, latin-america]
     c: Peking, Xihuating. Zhou Enlai receives the wife and two daughters of Julião, of Brazil.
@@ -2180,6 +3033,78 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 224–225: all'
     tags: [polity:prc, polity:ghana, vis:only:prc+ghana, name:chen-yi]
+  - id: cal.1962-04-26.china-leadership-4
+    when: Apr. 26
+    date: '1962-04-26'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Liu Lantao 刘澜涛 Liu Shaoqi's 刘少奇 idea of moving three state-farm divisions 农垦师 into the three Xinjiang 新疆 districts, for him to consider.
+    n: '[[w.yang-shangkun-riji]], II, 153 (Apr. 26, 1962). The words: 上午 (II, 153). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-25.china-leadership-4]]. Names: Yang Shangkun, Liu Lantao, Liu Shaoqi.'
+    src:
+      c: ac3deb4d
+      rows:
+        - 'w.yang-shangkun-riji II, 153: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1962-04-25T22:00Z
+      - 1962-04-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-26.china-leadership-8
+    when: Apr. 26
+    date: '1962-04-26'
+    thread: china-leadership
+    c: Ye Zilong 叶子龙 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 153 (Apr. 26, 1962). The words: 上午 (II, 153). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ye Zilong, Yang Shangkun.'
+    src:
+      c: 76099e5c
+      rows:
+        - 'w.yang-shangkun-riji II, 153: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-25T22:00Z
+      - 1962-04-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-26.china-leadership-5
+    when: Apr. 26
+    date: '1962-04-26'
+    time: 1962-04-26T07:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The Secretariat 书记处, 3:30 to 7 p.m.: preparing for the international meeting, and theoretical work. Yang''s notes outline the years since 1956: the Twentieth Congress, the Polish and Hungarian events, Gromyko and Khrushchev in China in 1958, the Twenty-first Congress and the Indian border, Bucharest and the 81 parties in 1960, the Twenty-second Congress.'
+    n: '[[w.yang-shangkun-riji]], II, 153 (Apr. 26, 1962; note 1: the work notes, in 仿宋). The words: 下午3时半到7时 (II, 153). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 7d02a25b
+      rows:
+        - 'w.yang-shangkun-riji II, 153: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-26.china-leadership-6
+    when: Apr. 26
+    date: '1962-04-26'
+    thread: china-leadership
+    follows:
+      - cal.1962-04-26.china-leadership-5
+    c: Yang Shangkun 杨尚昆 reports to Deng Xiaoping 邓小平 what Liu Lantao 刘澜涛 told of Xinjiang 新疆. The 3 million dollar investment in foreign trade dropped.
+    n: '[[w.yang-shangkun-riji]], II, 153 (Apr. 26, 1962). The words: 会后 (II, 153). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-03-20.china-leadership-8]]. Names: Yang Shangkun, Deng Xiaoping, Liu Lantao.'
+    src:
+      c: bc017fe5
+      rows:
+        - 'w.yang-shangkun-riji II, 153: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-04-26.china-leadership-7
+    when: Apr. 26
+    date: '1962-04-26'
+    time: 1962-04-26T13:00Z
+    thread: china-leadership
+    c: Gu Zhuoxin 顾卓新, Ma Wenrui 马文瑞, Xi Zhanyuan 郗占元 and others with Yang Shangkun 杨尚昆, 9 p.m. to midnight; Gu to take a work team to the Northeast Bureau to help with cutbacks and streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 153 (Apr. 26, 1962; note 3: Xi Zhanyuan). The words: 晚9时……12时结束 (II, 153). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gu Zhuoxin, Ma Wenrui, Xi Zhanyuan, Yang Shangkun.'
+    src:
+      c: c89e6b69
+      rows:
+        - 'w.yang-shangkun-riji II, 153: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-27.opinion
     when: Apr. 27
     date: '1962-04-27'
@@ -2274,6 +3199,7 @@ entries:
   - id: cal.1962-04-27.china-leadership-4
     when: Apr. 27
     date: '1962-04-27'
+    place: peking
     thread: china-leadership
     c: 'Zhou Enlai receives Ghana''s Ambassador, Bina Kexi (比纳·克西), and sums up the experience of China''s revolution and construction: achievements the main thing, faults always there, but relying on the people and drawing lessons China can lead them on.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 474 (Apr. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 27, 1962; 中南海西花厅). Made public: 1993. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
@@ -2286,6 +3212,7 @@ entries:
   - id: cal.1962-04-27.china-leadership-5
     when: Apr. 27
     date: '1962-04-27'
+    place: peking
     thread: china-leadership
     also: [china, korea]
     c: Peking, Xihuating. Zhou Enlai receives the DPRK Ambassador, Han Ik-su.
@@ -2322,9 +3249,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 280: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-04-27.china-leadership-8
+    when: Apr. 27
+    date: '1962-04-27'
+    thread: china-leadership
+    c: Li Fuchun 李富春, just back from the Central-South, and Cai Chang 蔡畅 to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 27, 1962; note 1: Cai Chang). The words: 上午 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Cai Chang, Yang Shangkun.'
+    src:
+      c: ffee2400
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1962-04-26T22:00Z
+      - 1962-04-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-27.china-leadership-9
+    when: Apr. 27
+    date: '1962-04-27'
+    time: 1962-04-27T03:00Z
+    place: peking
+    thread: china-leadership
+    c: Hou Weiyu 侯维煜 and Liu Huo 刘火 with Yang Shangkun 杨尚昆, 11 a.m. to 12:30 p.m., on the central organs' Party committee.
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 27, 1962). The words: 11时到12时半 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hou Weiyu, Liu Huo, Yang Shangkun.'
+    src:
+      c: d9b5594d
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-27.china-leadership-10
+    when: Apr. 27
+    date: '1962-04-27'
+    time: 1962-04-27T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Xihuating 西花厅, 8 p.m. Zhou Enlai 周恩来 on Xinjiang 新疆 work; Zhang Zhonghan 张仲瀚, political commissar of the Production and Construction Corps, returning next day, present; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 27, 1962; note 2: Zhang Zhonghan). The words: 晚8时 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-27.china-leadership-2]]. Names: Zhou Enlai, Zhang Zhonghan, Yang Shangkun.'
+    src:
+      c: 9b9de68d
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-28.georgia-ga
     when: Apr. 28
     date: '1962-04-28'
+    place: atlanta
     thread: georgia
     also: [court, elections-1962]
     c: '*Sanders v. Gray*, Atlanta. A three-judge court, Tuttle sitting, enjoins the county unit system in any primary where its allotment of units falls short of the court''s standard: Fulton County, 14.1 percent of the people, has 1.46 percent of the 410 units. The General Assembly had amended the system days before; the new system "misses the mark."'
@@ -2340,6 +3312,7 @@ entries:
   - id: cal.1962-04-28.berlin-and-vienna
     when: Apr. 28
     date: '1962-04-28'
+    place: moscow
     thread: berlin-and-vienna
     also: [soviet-union]
     c: 'The Presidium on directives for further talks on a German peace treaty and West Berlin, Gromyko speaking first. No place for the Federal Republic and West Berlin on a commission. Western troops perhaps acceptable if counted as UN troops. Two courses: an agreement, the Western troops staying for a time, or more pressure; more to gain from an agreement: less tension, perhaps a partial cut in arms, more trade. A fallback: Danish, Norwegian, Dutch or Belgian troops in West Berlin, with Polish and Czechoslovak.'
@@ -2386,9 +3359,66 @@ entries:
     c: 'Liu Shaoqi hears Xie Juezai, president of the Supreme People''s Court, and Xie Fuzhi, Minister of Public Security, on public security and political and legal work. Our proletarian law is not yet formed or truly established; Lenin wrote *State and Revolution*, Stalin did something, and Mao set the line of dictatorship work and raised the two kinds of contradictions. Experience is on two sides: Khrushchev wanted no dictatorship, Stalin in his later years widened the suppression of counterrevolution, and we too have mixed the two kinds of contradiction. Now correct it and sum up, in theory, policy principle, division of organs and concrete methods. The procuracy and courts are to work independently and the Party committee is not to interfere in particular cases; reports on public security matters to the level above go straight, not through the Party committee for approval. The "left" errors of these years were committed in the Party committees'' absolute leadership: an important lesson.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 554 (Apr. 28, 1962). Made public: 1996. Names: Liu Shaoqi, Xie Fuzhi, Mao, Stalin, Khrushchev.'
     tags: [polity:prc, name:liu-shaoqi, name:xie-fuzhi, name:mao-zedong, name:stalin-joseph, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1962-04-28.china-leadership-4
+    when: Apr. 28
+    date: '1962-04-28'
+    time: 1962-04-28T01:00Z
+    thread: china-leadership
+    c: 'The Streamlining Group 精简小组, 9 a.m. to 12:30 p.m.: Jin Shuwang 金树旺 on the provinces'' administrative staffing, the cuts low and slow. By Yang''s notes: a report to the Center; another on the posts the Center has added since Feb. 22; the provinces'', prefectures'' and counties'' organs, and the State Council''s, to be drawn up.'
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 28, 1962; notes 3–4: the work notes; Jin Shuwang). The words: 上午9时到12时半 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Jin Shuwang.'
+    src:
+      c: faa846f5
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-28.china-leadership-5
+    when: Apr. 28
+    date: '1962-04-28'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 tells Liu Shaoqi 刘少奇 at lunch of the Xinjiang 新疆 meeting at Zhou's.
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 28, 1962). The words: 中饭时 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-04-27.china-leadership-10]]. Names: Yang Shangkun, Liu Shaoqi.'
+    src:
+      c: 43c39af5
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-04-28.china-leadership-6
+    when: Apr. 28
+    date: '1962-04-28'
+    thread: china-leadership
+    c: Li Shuhuai 李树槐 with Yang Shangkun 杨尚昆 on the Standing Committee members' May Day appearances.
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 28, 1962). The words: 晚间 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Shuhuai, Yang Shangkun.'
+    src:
+      c: b2c0d6d9
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-28T11:00Z
+      - 1962-04-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-28.china-leadership-7
+    when: Apr. 28
+    date: '1962-04-28'
+    thread: china-leadership
+    c: Wang Dongxing 汪东兴 and Tong Xiaopeng 童小鹏 with Yang Shangkun 杨尚昆, to midnight.
+    n: '[[w.yang-shangkun-riji]], II, 154 (Apr. 28, 1962). The words: 汪东兴、童小鹏来谈话到12时 (II, 154). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Tong Xiaopeng, Yang Shangkun.'
+    src:
+      c: 498251f6
+      rows:
+        - 'w.yang-shangkun-riji II, 154: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-28T11:00Z
+      - 1962-04-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-29.press-and-broadcasting
     when: Apr. 29
     date: '1962-04-29'
+    place: washington
     thread: press-and-broadcasting
     c: Dinner for the Nobel laureates. "With the possible exception of when Thomas Jefferson dined alone."
     n: Remarks at a Dinner Honoring Nobel Prize Winners of the Western Hemisphere, [1962 Pub. Papers 347](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=407) (Apr. 29, 1962). See [[cal.1961-01-25.press-and-broadcasting]].
@@ -2406,6 +3436,7 @@ entries:
   - id: cal.1962-04-29.testing
     when: Apr. 29
     date: '1962-04-29'
+    place: washington
     thread: testing
     c: The White House. Pauling and Pickett join a picket line against testing outside, before going in to the dinner for the Nobel laureates.
     n: '[[w.debenedetti-american-ordeal]], 57. Check: DeBenedetti, 57, puts it in June; dated by the dinner, [[cal.1962-04-29.press-and-broadcasting]].'
@@ -2428,6 +3459,7 @@ entries:
   - id: cal.1962-04-30.king
     when: Apr. 30
     date: '1962-04-30'
+    place: washington
     thread: king
     also: [congress]
     c: 'Levison, subpoenaed, before Eastland''s Internal Security Subcommittee in executive session, Kunstler his counsel: "I am not now and never have been a member of the Communist Party"; then the Fifth Amendment. Eastland: "Isn''t it true that you are a spy for the Communist apparatus in this country?" McClellan ends the hearing, "one of the shabbiest performances I have ever heard before a Senate Committee by any witness."'
@@ -2462,6 +3494,7 @@ entries:
     when: Apr. 30
     date: '1962-04-30'
     time: 1962-04-30T13:40Z
+    place: washington
     thread: economy
     also: [steel]
     c: 'To the Chamber of Commerce, its fiftieth anniversary, after the steel crisis: "This administration, I assure you, shares your concern about the cost-profit squeeze on American business. We want prosperity and in a free enterprise system there can be no prosperity without profit."'
@@ -2499,6 +3532,7 @@ entries:
   - id: cal.1962-04.goldwater
     when: Apr.
     date: 1962-04
+    place: washington
     thread: goldwater
     also: [republican-party]
     c: Washington, the Jefferson Hotel, during the Republican Women's Conference, after the meeting in Minnesota. A sub rosa meeting of conservative women leaders, arranged by Rita Bree; White briefs them on his group and hears their plans for the women's federation's convention at Phoenix. By White's account.
@@ -2621,6 +3655,7 @@ entries:
     when: Apr., early
     date: 1962-04
     at: before 1962-04-01
+    place: washington
     thread: cuba-bay-of-pigs
     also: [robert-kennedy]
     c: 'Rafael Quintero, back from four months hiding in Cuba, flown to Washington. Taylor: "You have ten minutes." Then two hours with Robert Kennedy: there is no underground, "Just me"; the Cubans have lost faith in American help. Kennedy takes notes. By Quintero''s account.'
@@ -2634,6 +3669,7 @@ entries:
   - id: cal.1962-04.cuba-bay-of-pigs-2
     when: Apr.
     date: 1962-04
+    place: washington
     thread: cuba-bay-of-pigs
     also: [robert-kennedy]
     c: 'After the sentences, Roberto San Roman of the brigade, put off at State, comes unannounced to Robert Kennedy''s office. Kennedy in shirtsleeves in the waiting room asks after the prisoners'' families: call him "ten times a day if you have to." By San Roman''s account.'
@@ -2713,6 +3749,7 @@ entries:
   - id: cal.1962-04.civil-rights-the-executive
     when: Apr.
     date: 1962-04
+    place: washington
     thread: civil-rights-the-executive
     also: [peace-corps]
     c: 'The President to Wofford, in his office: would he rather be ambassador to an African country, if he must leave? Addis Ababa after a year or two, if he likes. Lee White of Sorensen''s staff to take civil rights. Kennedy circles in Wofford''s memorandum the steps it lists, the housing order, the National Guard''s integration, an order on aid to higher education, and assures him he will take them all in time. By Wofford''s account.'
@@ -2725,6 +3762,7 @@ entries:
   - id: cal.1962-04.desegregation-schools-2
     when: Apr.
     date: 1962-04
+    place: chicago
     thread: desegregation-schools
     c: Chicago. The school board nominating commission names five men and a woman, all white, all silent on segregation, from whom the mayor is to choose two members of the Board of Education.
     n: '[[w.anderson-confronting-the-color-line]], 90. Check: the day.'
@@ -2736,6 +3774,7 @@ entries:
   - id: cal.1962-04.state-and-city-finance-2
     when: Apr.
     date: 1962-04
+    place: chicago
     thread: state-and-city-finance
     also: [desegregation-schools]
     c: Chicago. A proposal of $50 million in school bonds defeated.
@@ -2748,6 +3787,7 @@ entries:
   - id: cal.1962-04.desegregation-schools
     when: Apr.
     date: 1962-04
+    place: chicago
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: 'Chicago. The Coordinating Council of Community Organizations formed: the NAACP and the Urban League with local groups, Teachers for Integrated Schools and The Woodlawn Organization among them. It meets Daley against the white nominees for two places on the Board of Education; Daley appoints two of them.'
@@ -2762,6 +3802,7 @@ entries:
   - id: cal.1962-04.state-and-city-finance
     when: Apr.
     date: 1962-04
+    place: chicago
     thread: state-and-city-finance
     c: Chicago. Daley's six bond issues, $66 million, $22.5 million for urban renewal among them, all defeated at the April election by margins near 3 to 2, the turnout 44 percent; urban renewal's the worst.
     n: '[[w.cohen-american-pharaoh]], 288–89. Check: the day and the counts. Names: Daley.'
@@ -2827,6 +3868,7 @@ entries:
   - id: cal.1962-04-30.vietnam-hanoi
     when: Apr. 30
     date: '1962-04-30'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat, Lê Duẩn, Lê Đức Thọ, Nguyễn Văn Trân and Lê Văn Lương, with Trần Quốc Hoàn and the Public Security Ministry''s party group, on resolution no. 39: in the first four months the American and Diệm spies stepped up their commando work, aiming at a large sudden blow in the North, so far foiled.'
     n: '*Thông báo của Ban Bí thư số 26-TB/HN về Hội nghị Ban bí thư bàn việc tăng cường đấu tranh chống các bọn phản cách mạng*, June 21, 1962, of the meeting of Apr. 30, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 627–32. See [[cal.1962-01-20.vietnam-hanoi]]. Made public: 2002. Names: Lê Duẩn, Lê Đức Thọ, Nguyễn Văn Trân, Lê Văn Lương, Trần Quốc Hoàn.'
@@ -2848,15 +3890,17 @@ entries:
   - id: cal.1962-04-30.china-leadership-3
     when: Apr. 30
     date: '1962-04-30'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai agrees to Mao''s view that Saifudin go back to work in Xinjiang, and tells him of the flight of border people from Tacheng, Yumin and Huocheng: the causes outer and inner, for years the work heeded little the national, religious and local economic character; mass crossings to be dealt with by law. Departments draft from his talk the Center''s directive on those who fled and returned and rules on closing the Sino-Soviet border in Xinjiang; he settles them, to go out in mid-May.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 475 (Apr. 30, 1962); [[w.lengxi-shinian-lunzhan-1956-1966]], 494–495 (Wu, on Apr. and May 1962 in the Tacheng and Ili areas of Xinjiang: tens of thousands of people (later counted at about 50,000) gone to the Soviet side, which he ascribes to Soviet subversion; the Chinese government''s strong protest and its demand that the Soviet consulates at Yining and Urumqi stop work and be withdrawn). Made public: 1997. To check: the directive and the rules. See [[cal.1962-04-27.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Saifudin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 475 (Apr. 30, 1962); [[w.lengxi-shinian-lunzhan-1956-1966]], 494–495 (Wu, on Apr. and May 1962 in the Tacheng and Ili areas of Xinjiang: tens of thousands of people (later counted at about 50,000) gone to the Soviet side, which he ascribes to Soviet subversion; the Chinese government''s strong protest and its demand that the Soviet consulates at Yining and Urumqi stop work and be withdrawn); [[w.yang-shangkun-riji]], II, 155 (Apr. 30, 1962; 1 to 3:30 p.m., Xihuating, Zhou Enlai''s talk with Saifudin, who is to go back to Xinjiang in a day or two; Yang Shangkun attends; note 1: Saifudin). Made public: 1997. To check: the directive and the rules. See [[cal.1962-04-27.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Saifudin.'
     src:
       c: 18f2bf06
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 475: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 494–495: A'
+        - 'w.yang-shangkun-riji II, 155: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-04.china-leadership
     when: Apr.
@@ -2899,6 +3943,7 @@ entries:
     when: Apr. 30
     date: '1962-04-30'
     time: 1962-04-30T11:15Z
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the May Day reception given by Chen Yi, Vice Premier and Foreign Minister.
@@ -3007,3 +4052,20 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 282 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 282 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:roberts-chalmers-m, name:kennedy-john-f, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1962-04-30.china-leadership-7
+    when: Apr. 30
+    date: '1962-04-30'
+    place: peking
+    thread: china-leadership
+    c: Li Shuhuai 李树槐 with Yang Shangkun 杨尚昆 on the Standing Committee members' arrangements for May Day.
+    n: '[[w.yang-shangkun-riji]], II, 155 (Apr. 30, 1962). The words: 上午 (II, 155). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Shuhuai, Yang Shangkun.'
+    src:
+      c: 351868ec
+      rows:
+        - 'w.yang-shangkun-riji II, 155: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-04-29T22:00Z
+      - 1962-04-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

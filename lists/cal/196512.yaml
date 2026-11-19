@@ -120,18 +120,53 @@ entries:
     thread: china-leadership
     also: [china]
     c: Lin Biao sends Ye Qun to Mao at Hangzhou with his letter of Nov. 30 and ten items of material against Luo Ruiqing.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 1, 1965. [[w.macfarquhar-maos-last-revolution]], 22–23 (Ye Qun carries the dossier and Lin''s cover note). Made public: 2006. To check: [[w.yao-san-ci-da-nan]], 276 (cited by [[w.macfarquhar-maos-last-revolution]], 23 n.37); [[w.nianyi-da-dongluande-niandai-revised]], 85–86 (cited by [[w.macfarquhar-maos-last-revolution]], 23 n.39). Names: Lin Biao, Ye Qun, Luo Ruiqing, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 1, 1965. [[w.macfarquhar-maos-last-revolution]], 22–23 (Ye Qun carries the dossier and Lin''s cover note); [[w.macfarquhar-origins-of-the-cultural]], III, 449 (Lin Biao sends Ye Qun to Hangzhou to make his charges against Luo Ruiqing; she spends some seven hours alone with Mao). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.yao-san-ci-da-nan]], 276 (cited by [[w.macfarquhar-maos-last-revolution]], 23 n.37); [[w.nianyi-da-dongluande-niandai-revised]], 85–86 (cited by [[w.macfarquhar-maos-last-revolution]], 23 n.39); [[w.jin-1949-1989-niande-zhongguo]], 632–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112a); [[w.zhisui-private-life-of-chairman]], 435–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112b); [[w.yao-san-ci-danan-buside]], 282 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112c). Names: Lin Biao, Ye Qun, Luo Ruiqing, Mao Zedong.'
     src:
       c: e1fff4fe
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Dec. 1, 1965: all'
         - 'w.macfarquhar-maos-last-revolution 22–23: A'
+        - 'w.macfarquhar-origins-of-the-cultural III, 449: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.112a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.112b: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.112c: A'
     tags: [name:lin-biao, name:ye-qun, name:luo-ruiqing, name:mao-zedong, polity:prc, vis:only:prc]
     variants:
       - unit: A
         witness: w.macfarquhar-maos-last-revolution
         reads: Lin Biao sent Ye Qun to Hangzhou on Nov. 30
         at: '22'
+  - id: cal.1965-12-01.china-leadership-2
+    when: Dec. 1
+    date: '1965-12-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to 12:30. Yang Shangkun 杨尚昆 with Liu Ningyi 刘宁一, Kang Yonghe 康永和, of the trade unions' secretariat (the editors' note), Qiao Mingfu 乔明甫, Wang Yuming 王愈明 and others on the trade unions' work and cadres.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Dec. 1, 1965). The words: 上午约宁一、康永和、乔明甫、王愈明等同志，谈总工会工作和干部配备等问题，12时半完 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Ningyi, Kang Yonghe, Qiao Mingfu, Wang Yuming.'
+    src:
+      c: 0ad34b10
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-30T22:00Z
+      - 1965-12-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-01.china-leadership-3
+    when: Dec. 1
+    date: '1965-12-01'
+    time: 1965-12-01T08:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 4:30 to 6 p.m. A consultation on Yang Shangkun 杨尚昆; results the next day.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Dec. 1, 1965). The words: 4时半到6时，去北京医院会诊，要明天才能得结果 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 62cc08e8
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-02.states-and-cities-los-angeles
     when: Dec. 2
     date: '1965-12-02'
@@ -195,6 +230,7 @@ entries:
     when: Dec. 2
     date: '1965-12-02'
     time: 1965-12-02T18:15Z
+    place: lbj-ranch
     thread: vietnam-pause
     c: 'Johnson and McNamara by telephone, recorded, Johnson at the Ranch. McNamara: since Saigon "more and more convinced that we ought definitely to think of some action other than military action as the only program"; raise the budgets and the deployments to meet Westmoreland, but "if we do that by itself, it''s suicide."'
     n: '[[w.mcnamara-in-retrospect]], ch. 8 at n.24 (Tape 6512.01, PNO 5). [[w.drea-mcnamara-clifford-and-the-2011]], 66 ("further and further escalation, higher and higher risks"). To check: [Conversation with Robert McNamara, Dec. 2, 1965, 12:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-december-2-1965), Conversation WH6512-01-9305 (Miller Center). Check: McNamara has the call "on the afternoon"; the catalogue gives 12:15 p.m. See [[cal.1965-11-30.vietnam]]. Names: Johnson, McNamara, Westmoreland.'
@@ -221,6 +257,7 @@ entries:
   - id: cal.1965-12-02.laos
     when: Dec. 2–5
     date: '1965-12-02'
+    place: phou-kout
     thread: laos
     c: Sixteen F-105s on Phou Kout, Dec. 2 and the two days after. The neutralists will not move; Dec. 5 Souvanna Phouma goes to Muong Soui to stir them, and asks Swank for three more days of sixteen F-105 strikes.
     n: '[[w.anthony-war-in-northern-laos]], 186. To check: JCS to Dir/NSA, 021218Z Dec. 65 (cited by [[w.anthony-war-in-northern-laos]], 186 n.59a); AIRA Vientiane to COMUSMACV, 061310Z Dec. 65 (cited by [[w.anthony-war-in-northern-laos]], 186 n.59b). See [[cal.1965-11-16.laos]]. Names: Souvanna Phouma, Swank.'
@@ -251,6 +288,7 @@ entries:
   - id: cal.1965-12-02.soviet-union-leadership
     when: Dec. 2
     date: '1965-12-02'
+    place: moscow
     thread: soviet-union-leadership
     also: [vietnam]
     c: 'The Presidium. Brezhnev''s list for it and for the session of Dec. 4: a plenum to be called (Dec. 6, Baibakov on the plan and the budget); Kádár to be received (Dec. 11–13); Novotný''s invitation to a short rest declined; measures on Vietnam and a trip there; the Timiryazev Academy''s order; the group drafting the Congress report.'
@@ -259,6 +297,7 @@ entries:
   - id: cal.1965-12-02.vietnam-hanoi
     when: Dec. 2
     date: '1965-12-02'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Politburo keeps the food and agricultural-tax obligations of the cooperatives fixed through 1966–67, with tighter control of distribution and of the food market.
     n: '*Nghị quyết của Bộ Chính trị số 129-NQ/TW về việc tiếp tục thi hành chính sách ổn định nghĩa vụ lương thực, ổn định nghĩa vụ thuế nông nghiệp trong hai năm 1966–1967, tăng cường quản lý phân phối, quản lý thị trường lương thực*, signed for the Politburo by Phạm Hùng. [[w.van-kien-dang-toan]], XXVI, 436–47. Made public: 2003.'
@@ -273,6 +312,7 @@ entries:
   - id: cal.1965-12-02.china-leadership-2
     when: Dec. 2
     date: '1965-12-02'
+    place: peking
     thread: china-leadership
     also: [europe-and-the-alliance-france]
     c: Zhou tours the French industrial exhibition in Beijing.
@@ -329,9 +369,44 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 174: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 174 n.3: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1965-12-02.china-leadership-6
+    when: Dec. 2
+    date: '1965-12-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Director Tao Huanle 陶桓乐 (the editors' note) and Dr. Geng 耿 tell Yang Shangkun 杨尚昆 of his condition and ask him to rest two months; the cause of the low fever not found.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Dec. 2, 1965). The words: 上午陶主任和耿大夫来谈病状，他们要求我休息二月。低烧的原因仍无法查明 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tao Huanle, Yang Shangkun.'
+    src:
+      c: 3add94f0
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-01T22:00Z
+      - 1965-12-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-02.china-leadership-7
+    when: Dec. 2
+    date: '1965-12-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lu Qi 鲁琦 and Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Dec. 2, 1965). The words: 下午找鲁琦、愈明谈话 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lu Qi, Wang Yuming.'
+    src:
+      c: 7d9a09c9
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-02T04:00Z
+      - 1965-12-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-03.alabama
     when: Dec. 3
     date: '1965-12-03'
+    place: montgomery
     thread: alabama
     also: [civil-rights-the-executive]
     c: Montgomery. A federal jury, all white, convicts Wilkins and two other Klansmen from the car from which Viola Liuzzo was shot of conspiracy against the rights of citizens, 18 U.S.C. § 241; each sentenced to ten years, the maximum. Judge Johnson presiding (Check). Wilkins twice tried for murder in Lowndes County without conviction.
@@ -346,6 +421,7 @@ entries:
   - id: cal.1965-12-03.mississippi
     when: Dec. 3
     date: '1965-12-03'
+    place: natchez
     thread: mississippi
     c: 'Natchez. Mayor John Nosser announces the agreement made Nov. 29 by Charles Evers and the NAACP''s committee with the city and twenty-three merchants: six Negro policemen, the city''s facilities and its schools desegregated, a Negro on the school board, Negro clerks in the twenty-three stores. The boycott ended.'
     n: '[[w.dittmer-local-people]], 360–61; [[w.branch-at-canaans-edge]], 350 (the agreement). To check: [*New York Times*, Dec. 4, 1965](https://timesmachine.nytimes.com/timesmachine/1965/12/04/issue.html) (cited by [[w.dittmer-local-people]], 361 n.52). See [[cal.1965-08-27.mississippi]]. Names: Charles Evers, Nosser.'
@@ -420,6 +496,7 @@ entries:
   - id: cal.1965-12-03.press-and-broadcasting
     when: Dec. 3
     date: '1965-12-03'
+    place: washington
     thread: press-and-broadcasting
     also: [vietnam-support]
     c: 'Mary McGrory in the *Washington Star*: McNamara "regards recent peace demonstrations with neither alarm nor dismay." McNamara: "Our policies become stronger as the result of debate"; to Norman Thomas''s "save her soul": "Do you save your soul by pulling out of a situation, or do you save it by fulfilling your commitments?"'
@@ -469,9 +546,27 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 83–84 n: all'
     tags: [name:kissinger-henry-a, name:lodge-henry-cabot]
+  - id: cal.1965-12-03.china-leadership
+    when: Dec. 3
+    date: '1965-12-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the four cleanups.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Dec. 3, 1965). The words: 上午约王愈明谈四清问题 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: b67d4500
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-02T22:00Z
+      - 1965-12-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-04.vietnam-pause
     when: Dec. 4
     date: '1965-12-04'
+    place: washington
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson: a "favorable consensus" this morning for a pause, Rusk, McNamara, Vance, Ball, McNaughton, the Bundys and Thompson; "the best single way of keeping it clear that Johnson is for peace, while Ho is for war." By William Bundy''s notes, should Hanoi agree to negotiate, the pause "virtually compelled" to go on.'
     n: '[FRUS 1964–68, III, doc. 215](https://history.state.gov/historicaldocuments/frus1964-68v03/d215). [[w.gibbons-u-s-government-and]], IV, 117–18 (the meeting, by William Bundy''s notes, 117). [[w.preston-war-council]], 224. To check: William Bundy, notes of the meeting of Dec. 4, 1965, in William Bundy''s possession (William Bundy MS, ch. 33, pp. 20–21) (cited by [[w.gibbons-u-s-government-and]], IV, 117 n.16). Made public: FRUS 1964–68, III (1996). See [[cal.1965-12-03.vietnam-pause]]. Names: McGeorge Bundy, Johnson, Rusk, McNamara, Vance, Ball, McNaughton, William Bundy, Thompson, Hồ Chí Minh.'
@@ -494,6 +589,7 @@ entries:
   - id: cal.1965-12-04.vietnam-pause-2
     when: Dec. 4
     date: '1965-12-04'
+    place: washington
     thread: vietnam-pause
     c: 'Goldberg to Johnson, after a long talk with Rusk and Ball: "I strongly favor an early pause in the bombing," perhaps three or four weeks, with a new show of willingness to negotiate; it would carry world opinion.'
     n: '[FRUS 1964–68, III, doc. 216](https://history.state.gov/historicaldocuments/frus1964-68v03/d216). [[w.gibbons-u-s-government-and]], IV, 118 n.18. Made public: FRUS 1964–68, III (1996). Names: Goldberg, Johnson, Rusk, Ball.'
@@ -513,6 +609,7 @@ entries:
   - id: cal.1965-12-04.vietnam-operations
     when: Dec. 4
     date: '1965-12-04'
+    place: saigon
     thread: vietnam-operations
     c: Saigon. Terrorists bomb the Metropole, an American enlisted men's billet.
     n: '[[w.macv-command-history-1965]], 482.'
@@ -539,6 +636,37 @@ entries:
     c: Zhou receives the Lao People's Party delegation under Kaysone Phomvihane.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 4, 1965). Names: Zhou Enlai, Kaysone Phomvihane.'
     tags: [name:zhou-enlai, polity:prc, polity:laos]
+  - id: cal.1965-12-04.china-leadership-2
+    when: Dec. 4
+    date: '1965-12-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 4, 1965). The words: 上午老邓来谈话 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: d8385fb9
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-03T22:00Z
+      - 1965-12-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-04.china-leadership-3
+    when: Dec. 4
+    date: '1965-12-04'
+    time: 1965-12-04T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, at Zhou Enlai's 周恩来, 4 to 6:30 p.m. A meeting on the Central Investigation Department; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 4, 1965). The words: 下午4时到6时半，在总理处开会，讨论中央调查部问题 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun.'
+    src:
+      c: e1a7b4ff
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-05.economy
     when: Dec. 5–6
     date: '1965-12-05'
@@ -586,6 +714,7 @@ entries:
   - id: cal.1965-12-05.war-opposition
     when: Dec. 5
     date: '1965-12-05'
+    place: nyc
     thread: war-opposition
     also: [king]
     c: 'New York, the Waldorf-Astoria. King to the Synagogue Council of America, after the American Legion of Boston''s withdrawal of an award to Rabbi Gittelson: "War enlarges itself inexorably"; is dissent "being shot down by bombers in Vietnam"? "Whether free speech has not become one of the casualties of the war."'
@@ -628,6 +757,7 @@ entries:
     when: Dec. 5
     date: '1965-12-05'
     time: 1965-12-05T09:30Z
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou attends in the Great Hall of the People the signing of the China–Vietnam loan agreement and the protocol on supply of goods.
@@ -641,6 +771,7 @@ entries:
   - id: cal.1965-12-05.china-leadership-2
     when: Dec. 5
     date: '1965-12-05'
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou receives the Vietnamese athletics team and gymnastics team.
@@ -667,6 +798,54 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 73: all'
     tags: [polity:prc, polity:japan, name:zhu-de]
+  - id: cal.1965-12-05.china-leadership-4
+    when: Dec. 5
+    date: '1965-12-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 tells Wang Yuming 王愈明 he will not go to Xi'an 西安, leaving it to Wang whether he goes, and raises some questions on the work at Niujiao 牛角.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 5, 1965). The words: 上午约王愈明谈，我不去西安了，他去否由他自定，并对牛角工作提出了一些问题 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-11-16.china-leadership-2]]. Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: ff00d55b
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-04T22:00Z
+      - 1965-12-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-05.china-leadership-5
+    when: Dec. 5
+    date: '1965-12-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Xiao Yan 小阎 (Yan Mingfu 阎明复, by the editors' note at II, 668) and others tell Yang Shangkun 杨尚昆 of the translation group's work.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 5, 1965). The words: 下午小阎等同志来，谈了翻译组的工作 (II, 694; the OCR reads 小向, the page 小阎). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: e4e70935
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-05T04:00Z
+      - 1965-12-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-05.china-leadership-6
+    when: Dec. 5
+    date: '1965-12-05'
+    time: 1965-12-05T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8 to 10:30 p.m. Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 5, 1965). The words: 晚间孔原同志来谈，由8时到10时半 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 77805dd2
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-06.laos
     when: Dec. 6
     date: '1965-12-06'
@@ -693,6 +872,7 @@ entries:
     when: Dec. 6
     date: '1965-12-06'
     time: 1965-12-06T20:00Z
+    place: washington
     thread: vietnam-pause
     c: '3 p.m.: Rusk, McNamara, Ball, Vance, U. Alexis Johnson, McNaughton, William Bundy, Wheeler, Raborn and Clifford, McGeorge Bundy''s notes. Clifford "wonders where the Hell we are going—further & further in"; air power and defensive positions, without "600,000 ground troops in jungle war"? Wheeler against a pause: "you could shake GVN to its toenails."'
     n: '[FRUS 1964–68, III, doc. 218](https://history.state.gov/historicaldocuments/frus1964-68v03/d218). [[w.gibbons-u-s-government-and]], IV, 117–18. Made public: FRUS 1964–68, III (1996). [[w.clifford-counsel-to-the-president-2]], 433 (the meeting in Rusk''s office, Dec. 6; Clifford''s words as he gives them: "Where the hell are we going?"). See [[cal.1965-12-04.vietnam-pause]]. Names: Rusk, McNamara, Ball, Vance, U. Alexis Johnson, McNaughton, William Bundy, Wheeler, Raborn, Clifford, McGeorge Bundy.'
@@ -720,6 +900,7 @@ entries:
     when: Dec. 6
     date: '1965-12-06'
     time: 1965-12-07T00:03Z
+    place: washington
     thread: vietnam-pause
     c: 'Bundy to Johnson in Texas, 7:03 p.m., on whether they are ready for tomorrow''s meeting: no full program to match the deployments of 1966, and "unless and until there can be military victories, this program is irrelevant"; "with or without this stronger non-military program, we face major immediate military and diplomatic decisions." "The best preparation for the tough programs of January is a peace offensive in December, and that the pause is the necessary centerpiece of that effort."'
     n: '[FRUS 1964–68, III, doc. 220](https://history.state.gov/historicaldocuments/frus1964-68v03/d220). [[w.preston-war-council]], 215, 220–21. See [[cal.1965-12-06.vietnam-pause]]. Names: Bundy, Johnson.'
@@ -748,6 +929,7 @@ entries:
   - id: cal.1965-12-06.economy
     when: Dec. 6
     date: '1965-12-06'
+    place: lbj-ranch
     thread: economy
     c: 'The Ranch, on the lawn: Johnson with Martin and his economic advisers, Heller among them, on the Federal Reserve''s rate rise. No way to turn Martin around, by Califano''s account.'
     n: '[[w.bernstein-guns-or-butter]], 365. To check: [[w.califano-triumph-and-tragedy-of]], 106–11 (cited by [[w.bernstein-guns-or-butter]], 365 n.3). See [[cal.1965-12-05.economy]]. Names: Johnson, Martin, Heller, Califano.'
@@ -816,6 +998,7 @@ entries:
   - id: cal.1965-12-06.poverty
     when: Dec. 6
     date: '1965-12-06'
+    place: chicago
     thread: poverty
     c: 'Chicago. Shriver at Daley''s conference on the War on Poverty. Daley: "What''s wrong . . . if the politician is conducting his office in a proper manner"; Shriver: "Let''s not prejudge the establishment." Two hundred pickets outside; The Woodlawn Organization''s "black paper."'
     n: '[[w.cohen-american-pharaoh]], 345–46. Names: Shriver, Daley.'
@@ -844,6 +1027,7 @@ entries:
   - id: cal.1965-12-06.king-2
     when: Dec. 6–7
     date: '1965-12-06'
+    place: alabama
     thread: king
     also: [alabama]
     c: 'The Black Belt, Butler, Sumter, Clarke and Greene Counties: King''s two-day tour, SCLC''s first step toward new protests in Alabama. He calls for federal legislation to protect civil rights workers and assure justice in southern courts. To reporters: the Liuzzo verdicts and the maximum sentences "have made it more difficult for us to dramatize the need for changes in the structure of courts and law enforcement agencies in the South."'
@@ -859,6 +1043,7 @@ entries:
   - id: cal.1965-12-06.soviet-union-leadership-2
     when: Dec. 6
     date: '1965-12-06'
+    place: moscow
     thread: soviet-union-leadership
     c: Moscow. Brezhnev presides over the Central Committee's plenum, 9:30 to 5:40.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 94 (Dec. 6); [[w.schattenberg-brezhnev]], 174–75, 185, 227 (the plenum: Mikoyan released, Podgorny in his place, Kapitonov a Secretary; Shelepin relieved as chairman of the Control Commission, without a resolution; Brezhnev''s warning on planning and supply). Check: Mikoyan''s memoir (cited by [[w.schattenberg-brezhnev]], 174 n.27) has him ask release on grounds of health after his seventieth birthday, Nov. 1965; the work takes it for a dismissal. To check: RGANI, f. 2, op. 1, d. 806 (Protocol no. 13, Dec. 6, 1965), l. 13–14; d. 809, l. 38; RGASPI, f. 84, op. 3, d. 55 (the Presidium on Mikoyan''s release) (cited by [[w.schattenberg-brezhnev]], 175 n.26, 185 n.111, 227 n.226). Names: Brezhnev. Check: The record gives neither agenda nor business.'
@@ -868,16 +1053,70 @@ entries:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 94: ?'
         - 'w.schattenberg-brezhnev 174–75, 185, 227: B'
     tags: [name:brezhnev-leonid, polity:ussr]
+    time_range:
+      - 1965-12-06T06:30Z
+      - 1965-12-06T14:40Z
+    time_zone: Europe/Moscow
   - id: cal.1965-12-06.vietnam-hanoi
     when: Dec. 6
     date: '1965-12-06'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's instruction no. 114-CT/TW on culture and the arts in the highlands, long of special weight in the economy, politics and defense, during the war.
     n: '*Chỉ thị của Ban Bí thư số 114-CT/TW về việc tăng cường lãnh đạo công tác văn hoá, văn nghệ ở miền núi trong giai đoạn chống Mỹ, cứu nước hiện nay*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 448–57. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-06.china-leadership
+    when: Dec. 6
+    date: '1965-12-06'
+    time: 1965-12-06T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 a.m. to 12:30. An Ziwen 安子文 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 6, 1965). The words: 上午安子文同志来谈话，9时到12时半 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen, Yang Shangkun.'
+    src:
+      c: '44669271'
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-06.china-leadership-2
+    when: Dec. 6
+    date: '1965-12-06'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Pu Fuzhou 蒲辅周 (the editors'' note) examines Yang Shangkun 杨尚昆: weak qi, the pulse changed; he should rest a while; three doses of medicine.'
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 6, 1965). The words: 下午找蒲老看病……他说中气不足，脉象有变化，最好能休息一个时期再工作。开了三服药 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Pu Fuzhou, Yang Shangkun.'
+    src:
+      c: 3b929c00
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-06T04:00Z
+      - 1965-12-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-06.china-leadership-3
+    when: Dec. 6
+    date: '1965-12-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Zeng San 曾三, Li Zhizhong 李质忠, Deng Diantao 邓典桃 and others on work.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 6, 1965). The words: 下午找蒲老"2看病……约曾三、质忠、典桃等同志谈工作 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zeng San, Li Zhizhong, Deng Diantao.'
+    src:
+      c: a755cd25
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-06T04:00Z
+      - 1965-12-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-07.vietnam
     when: Dec. 7
     date: '1965-12-07'
+    place: washington
     thread: vietnam
     c: McNamara's report of Nov. 30, revised.
     n: '[FRUS 1964–68, III, doc. 222](https://history.state.gov/historicaldocuments/frus1964-68v03/d222). [[w.gibbons-u-s-government-and]], IV, 108–109. See [[cal.1965-11-28.vietnam]]. Names: McNamara, Johnson.'
@@ -898,6 +1137,7 @@ entries:
     when: Dec. 7
     date: '1965-12-07'
     time: 1965-12-07T16:25Z
+    place: lbj-ranch
     thread: vietnam-pause
     c: 'The LBJ Ranch: Rusk, McNamara and McGeorge Bundy with Johnson on McNamara''s report and a pause in the bombing. Johnson: "I don''t want to take off till I know I can get back." By his account he asks twice whether the bombing could be resumed if Hanoi did nothing; they assure him it could. By McGeorge Bundy''s notes: "I don''t see any light down that barrel"; "If I have to decide this morning, full steam ahead." McNamara would not have proposed a pause "if he didn''t think we could manipulate it all." Mansfield, Dirksen, Robert Kennedy and Russell to be seen "before we go overboard." Johnson: "I think we''ll be spending more time defending ourselves from hawks than from doves"; "We''re spending too much time with crybabies."'
     n: '[FRUS 1964–68, III, doc. 223](https://history.state.gov/historicaldocuments/frus1964-68v03/d223). [[w.johnson-vantage-point]], 235; [[w.mcnamara-in-retrospect]], ch. 8 at n.25 (Rusk, Bundy and McNamara to Texas; Johnson: "We''re getting deeper and deeper in. I bogged my car down"). [[w.mann-grand-delusion]], 470 (the hawks and the "crybabies"); [[w.dallek-flawed-giant]], 343 (the meeting with advisers at his ranch on Dec. 7: "We mustn''t take off into the wild blue yonder"; he asks whether there is evidence the Communists are "getting ready for a peace offer," Rusk and McNamara think not; not who was present). Bibliography: [[cal.1965-12-24.vietnam]]. [[w.gibbons-u-s-government-and]], IV, 118–19 (Bundy''s notes). Names: Rusk, McNamara, McGeorge Bundy, Johnson, Mansfield, Dirksen, Robert Kennedy, Russell.'
@@ -965,6 +1205,7 @@ entries:
   - id: cal.1965-12-07.china-leadership-2
     when: Dec. 7
     date: '1965-12-07'
+    place: shanghai
     thread: china-leadership
     c: Mao, at Shanghai 上海, summons by notes those to attend the enlarged meeting of the Politburo Standing Committee to open Dec. 8. Qu Qiyu 曲琦玉 is to telephone Ye Jianying 叶剑英, Xiao Hua 萧华, Yang Chengwu 杨成武 (at Hangzhou 杭州) and Xie Fuzhi 谢富治 to come that afternoon. Deng Xiaoping 邓小平, Li Fuchun 李富春 and Bo Yibo 薄一波 to come that day or the next (in Sichuan 四川, relayed from Chengdu 成都). Song Renqiong 宋任穷, Chen Xilian 陈锡联, Li Xuefeng 李雪峰, Yang Yong 杨勇, Liao Hansheng 廖汉生 and Yang Dezhi 杨得志 on one aircraft the morning of the 8th; He Long 贺龙, Dong Biwu 董必武, Wang Shangrong 王尚荣, Li Tianyou 李天佑, Zhang Aiping 张爱萍, Lei Yingfu 雷英夫, Xu Xiangqian 徐向前, Liu Bocheng 刘伯承 (not if ill) and Zhu De 朱德 the same morning; Xu Shiyou 许世友, Han Xianchu 韩先楚, Chen Yi 陈毅, Tao Zhu 陶铸, Wang Renzhong 王任重, Li Jingquan 李井泉 and Liu Lantao 刘澜涛 to Shanghai on the 8th.
     n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 178–181 (Dec. 7, 1965; Mao''s five notes of Dec. 7; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Mao Zedong, Ye Jianying, Xie Fuzhi, Deng Xiaoping, Li Fuchun, Bo Yibo, Song Renqiong, Li Xuefeng, Yang Yong, Yang Dezhi, He Long, Dong Biwu, Zhang Aiping, Xu Xiangqian, Liu Bocheng, Chen Xilian, Xu Shiyou, Zhu De, Chen Yi, Tao Zhu, Li Jingquan. Check: the numbers of those in the planes, which Mao corrects by hand (seven for six; eight for nine); the names read from the page image only for Qu Qiyu and the first group.'
@@ -973,9 +1214,61 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 178–181: all'
     tags: [polity:prc, name:mao-zedong, name:ye-jianying, name:xie-fuzhi, name:deng-xiaoping, name:li-fuchun, name:bo-yibo, name:he-long, name:dong-biwu, name:zhang-aiping, name:xu-xiangqian, name:liu-bocheng, name:chen-xilian, name:xu-shiyou, name:zhu-de, name:chen-yi, name:tao-zhu, name:li-jingquan, vis:only:prc]
+  - id: cal.1965-12-07.china-leadership-3
+    when: Dec. 7
+    date: '1965-12-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 7, 1965). The words: 上午曾三同志来谈话 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: 0bfb4542
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-06T22:00Z
+      - 1965-12-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-07.china-leadership-4
+    when: Dec. 7
+    date: '1965-12-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 and Zhao Zhongyuan 赵仲元 (the editors' note), going to Xi'an 西安, take leave of Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 694 (Dec. 7, 1965). The words: 上午曾三同志来谈话。王愈明、小赵去西安，前来谈话 (II, 694). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Zhao Zhongyuan, Yang Shangkun.'
+    src:
+      c: 2010e6cf
+      rows:
+        - 'w.yang-shangkun-riji II, 694: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-06T22:00Z
+      - 1965-12-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-07.china-leadership-5
+    when: Dec. 7
+    date: '1965-12-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Diaoyutai 钓鱼台. Yang Shangkun 杨尚昆 chats with Yao Zhen 姚溱 and Wu Lengxi 吴冷西.
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 7, 1965). The words: 下午去钓鱼台与姚溱、冷西同志闲谈 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yao Zhen, Wu Lengxi.'
+    src:
+      c: 1f611391
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-07T04:00Z
+      - 1965-12-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-08.vietnam-operations
     when: Dec. 8–9
     date: '1965-12-08'
+    place: que-son-basin
     thread: vietnam-operations
     c: Harvest Moon, the Marines' and the South Vietnamese 2d Division's operation in the Quế Sơn valley against the 1st Viet Cong Regiment. The 11th Ranger Battalion ambushed on the Thăng Bình–Hiệp Đức road, the afternoon of Dec. 8; the 5th Regiment's command group and 1st Battalion overrun the next morning, the regimental commander killed. Marines of Task Force Delta landed by helicopter from 10 a.m., Dec. 9, behind the enemy.
     n: '[[w.shulimson-u-s-marines-in]], 98–104; [[w.vietnam-victory-in-vietnam]], 160 (the 5th Regimental Task Force beaten off at Đồng Dương). [[w.macv-command-history-1965]], 164–65 (the operation from Dec. 8; the 11th Rangers overrun).'
@@ -1027,6 +1320,7 @@ entries:
   - id: cal.1965-12-08.vietnam-air-war
     when: Dec. 8
     date: '1965-12-08'
+    place: takhli
     thread: vietnam-air-war
     c: 'The 333d Tactical Fighter Squadron, F-105s, arrives at Takhli, to the 355th Tactical Fighter Wing, on a year''s PCS tour, as the 390th, F-4Cs, came to Đà Nẵng in November. McConnell''s rule: a pilot''s tour a hundred missions over the North or Laos, or a year.'
     n: '[[w.staaveren-gradual-failure]], 210. To check: hist, 355th TFW, 1 Jul–31 Dec 65, p 36; Personnel Support, Phase I (DCS/P, Hqs USAF, Proj Corona Harvest), 1 Feb 68, p 59 (cited by [[w.staaveren-gradual-failure]], 210 n.17). Names: McConnell.'
@@ -1040,10 +1334,11 @@ entries:
   - id: cal.1965-12-08.china-leadership
     when: Dec. 8
     date: '1965-12-08'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: 'Mao presides over an enlarged Politburo Standing Committee, Shanghai, opening Dec. 8 (to Dec. 15), on the "Luo Ruiqing question". Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng charge Luo with opposing "putting politics first" and "usurping the army"; Ye Qun speaks three times, about ten hours, alleging Luo pressed Lin to give way. Five points fixed: the matter serious, the means vile; different from Peng and Huang; his record some achievement; "learn from the past" and "cure the sick"; the leadership partly to blame. Two steps, transfer, no face-to-face, cool handling. After it, Luo removed from his military posts, Yang Chengwu acting chief of staff.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 8, 1965 ("12月8日一15日"). [[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 8–15, 1965: Zhou attends in Shanghai the enlarged Standing Committee under Mao, at which Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng spring a surprise attack on Luo Ruiqing, charging him with opposing "putting politics first" and "usurping the army and opposing the Party"; Luo is moved from military leadership and Yang Chengwu acts as chief of the General Staff); [[w.macfarquhar-maos-last-revolution]], 25–26 (the session of Dec. 8, sixty-one present; Ye Qun''s three speeches, ten hours; Lin Biao, Li Zuopeng and Wu Faxian in support); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629–630 (Dec. 8–15, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee held at Shanghai under Mao, which discusses the "problems" of Luo Ruiqing; the book says Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng and others framed charges and attacked Luo by surprise, and he was removed from his posts; footnotes 1–4 (629) give their posts at the time: Luo, Secretary of the Secretariat, Vice-Premier and Chief of the General Staff; Ye Qun, director of Lin Biao''s office; Wu, commander of the air force; Li, deputy commander of the navy). Made public: 1996. To check: [[w.nianyi-da-dongluande-niandai-revised]], 87–88 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48a); [[w.yao-san-ci-da-nan]], 285, 288 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48b); [[w.jianping-fengyun-zhongde-gongheguo-dajiang]], 321 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48c); [[w.nianyi-da-dongluande-niandai-revised]], 381 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.49). Names: Mao Zedong, Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng, Luo Ruiqing, Yang Chengwu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 8, 1965 ("12月8日一15日"). [[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 8–15, 1965: Zhou attends in Shanghai the enlarged Standing Committee under Mao, at which Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng spring a surprise attack on Luo Ruiqing, charging him with opposing "putting politics first" and "usurping the army and opposing the Party"; Luo is moved from military leadership and Yang Chengwu acts as chief of the General Staff); [[w.macfarquhar-maos-last-revolution]], 25–26 (the session of Dec. 8, sixty-one present; Ye Qun''s three speeches, ten hours; Lin Biao, Li Zuopeng and Wu Faxian in support); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629–630 (Dec. 8–15, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee held at Shanghai under Mao, which discusses the "problems" of Luo Ruiqing; the book says Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng and others framed charges and attacked Luo by surprise, and he was removed from his posts; footnotes 1–4 (629) give their posts at the time: Luo, Secretary of the Secretariat, Vice-Premier and Chief of the General Staff; Ye Qun, director of Lin Biao''s office; Wu, commander of the air force; Li, deputy commander of the navy); [[w.macfarquhar-origins-of-the-cultural]], III, 450 (Ye Qun the chief witness, speaking ten hours, backed by Lin Biao, Wu Faxian and Li Zuopeng; Liu Shaoqi, Zhou Enlai and Deng Xiaoping taken aback; after it Mao has Zhou and Deng investigate); [[w.yang-shangkun-riji]], II, 695 (Dec. 8, 1965; Yang learns that the members of the Standing Committee have all gone to Shanghai for a meeting; the editors'' note: the enlarged Standing Committee, Dec. 8 to 15; the words: 得知常委各同志都去上海开会去了). Made public: 1996. To check: [[w.nianyi-da-dongluande-niandai-revised]], 87–88 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48a); [[w.yao-san-ci-da-nan]], 285, 288 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48b); [[w.jianping-fengyun-zhongde-gongheguo-dajiang]], 321 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48c); [[w.nianyi-da-dongluande-niandai-revised]], 381 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.49); [[w.ping-kaiguo-zongli-zhou-enlai]], 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 450 n.115). Names: Mao Zedong, Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng, Luo Ruiqing, Yang Chengwu.'
     src:
       c: 6276a8e5
       rows:
@@ -1051,6 +1346,9 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 768: A, B, J'
         - 'w.macfarquhar-maos-last-revolution 25–26: A, B, C'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 629–630: A, B'
+        - 'w.macfarquhar-origins-of-the-cultural III, 450: A, B, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 450 n.115: A, B, C'
+        - 'w.yang-shangkun-riji II, 695: ?'
     tags: [name:mao-zedong, name:lin-biao, name:ye-qun, name:wu-faxian, name:li-zuopeng, name:luo-ruiqing, polity:prc, vis:only:prc]
     variants:
       - unit: I
@@ -1060,6 +1358,7 @@ entries:
   - id: cal.1965-12-08.china
     when: Dec. 8
     date: '1965-12-08'
+    place: peking
     thread: china
     also: [japan]
     c: The Chinese People's Association for Cultural Relations with Foreign Countries and the Japan–China Cultural Exchange Association sign, at Beijing, a joint statement on cultural exchange between the two peoples; the China–Japan Friendship Association and the Japan–China Friendship Association sign a protocol on friendship exchanges for 1966.
@@ -1077,9 +1376,53 @@ entries:
     c: 'The *Renmin ribao* prints Liu Shaoqi''s inscription for the twentieth anniversary of the founding of broadcasting: raise high the red banner of Mao Zedong Thought, do broadcasting well, and give heart to the people of the whole country and of the world.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629 (Dec. 8, 1965). Names: Liu Shaoqi, Mao Zedong.'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong]
+  - id: cal.1965-12-08.china-leadership-3
+    when: Dec. 8
+    date: '1965-12-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃.
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 8, 1965). The words: 上午与邓典桃同志谈话 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
+    src:
+      c: 011e87eb
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-07T22:00Z
+      - 1965-12-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-08.china-leadership-4
+    when: Dec. 8
+    date: '1965-12-08'
+    time: 1965-12-08T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 4 to 6 p.m. Wang Jiaxiang 王稼祥 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 8, 1965). The words: 下午王稼祥同志来谈，由4时到6时 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Jiaxiang, Yang Shangkun.'
+    src:
+      c: 291b8349
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-08.china-leadership-5
+    when: Dec. 8
+    date: '1965-12-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 clears his papers, to leave on the evening of the 10th.
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 8, 1965). The words: 清理文件，准备10号晚间走 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 75b76d69
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-12-09.open-housing-wi
     when: Dec. 9
     date: '1965-12-09'
+    place: wisconsin
     thread: open-housing
     c: 'Wisconsin''s open housing law signed by Knowles: no discrimination by race, color, religion or national origin in the sale, rental or lease of housing as a business; one-family homes lived in by their owners, and owner-occupied buildings of four units or fewer, exempt. The fair employment division becomes the equal opportunities division. Laws of 1965, ch. 439 (Assembly Bill 852); published Dec. 18.'
     n: '[Laws of 1965, ch. 439](https://docs.legis.wisconsin.gov/1965/related/acts/439.pdf). Date of signing: Milwaukee Public Library, ["200 Nights That Shook Milwaukee"](https://mpl.org/blog/now/200-nights-that-shook-milwaukee-the-1967-1968-open-housing-marches) (Check). To check: [[w.jones-selma-of-the-north]]. Names: Knowles.'
@@ -1094,6 +1437,7 @@ entries:
   - id: cal.1965-12-09.vietnam-congress
     when: Dec. 9
     date: '1965-12-09'
+    place: washington
     thread: vietnam-congress
     also: [vietnam-pause]
     c: 'McGeorge Bundy to Johnson on the soundings of Congress, McNamara''s calls among them: Sparkman, Church, Pastore, Monroney, Magnuson, Ervin, Robert Kennedy, Saltonstall, Kuchel, Javits, McCormack, Hébert, Ford and Arends. Nearly all for a pause, then more force, bombing included, if needed to "win," and a resolution of support; the war not understood at home. Mansfield, cabled in Asia: against the bombing, doubtful of a pause meant as a prelude to escalation; better a cease-fire of about a month.'
@@ -1117,6 +1461,7 @@ entries:
     when: Dec. 9
     date: '1965-12-09'
     time: 1965-12-09T11:49Z
+    place: saigon
     thread: vietnam
     c: 'Westmoreland to CINCPAC and Washington, MACV 43199: "perfectly clear" that Cambodia''s border areas hold motorable infiltration routes, command centers, base, training and supply areas, as in Laos. He asks authority for air and ground reconnaissance, artillery, air strikes and ground attacks there.'
     n: '[FRUS 1964–68, XXVII, doc. 165](https://history.state.gov/historicaldocuments/frus1964-68v27/d165). [[w.gibbons-u-s-government-and]], IV, 192. [[w.macv-command-history-1965]], 13 (the border areas, Dec. 9). To check: COMUSMACV, 091149Z Dec 65 (cited by [[w.macv-command-history-1965]], 13 n.42). Made public: FRUS 1964–68, XXVII (2000). Names: Westmoreland.'
@@ -1160,6 +1505,40 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 74: all'
     tags: [polity:prc, polity:indonesia]
+  - id: cal.1965-12-09.china-leadership
+    when: Dec. 9
+    date: '1965-12-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 readies for the next day's departure; talks with Tian Chou 田畴 and Li Zhizhong 李质忠.
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 9, 1965). The words: 上午准备明天走的事，约田畴、李质忠谈话 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Chou, Li Zhizhong.'
+    src:
+      c: 90ed55d3
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-08T22:00Z
+      - 1965-12-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-09.china-leadership-2
+    when: Dec. 9
+    date: '1965-12-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Kong Yuan 孔原, Luo Qingchang 罗青长 and Feng Xuan 冯铉 (the editors' note).
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 9, 1965). The words: 下午约孔、罗、冯谈话 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Luo Qingchang, Feng Xuan.'
+    src:
+      c: 4f1f5ea9
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-12-09T04:00Z
+      - 1965-12-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-10.oil
     when: Dec. 10
     date: '1965-12-10'
@@ -1190,6 +1569,7 @@ entries:
   - id: cal.1965-12-10.vietnam-force-levels
     when: Dec. 10
     date: '1965-12-10'
+    place: honolulu
     thread: vietnam-force-levels
     c: Honolulu. Sharp and Westmoreland in conference.
     n: '[[w.macv-command-history-1965]], 482. Names: Sharp, Westmoreland.'
@@ -1207,6 +1587,7 @@ entries:
   - id: cal.1965-12-10.alabama
     when: Dec. 10
     date: '1965-12-10'
+    place: selma
     thread: alabama
     also: [voting-rights-selma]
     c: Selma. A Dallas County jury acquits the three men charged in the beating death of James Reeb; applause in the courtroom. Flowers denounces the trial.
@@ -1278,6 +1659,7 @@ entries:
   - id: cal.1965-12-10.vietnam
     when: Dec. 10
     date: '1965-12-10'
+    place: lbj-ranch
     thread: vietnam
     also: [defense]
     c: The Joint Chiefs with Johnson at the Ranch, their annual budget discussion, then Vietnam. Greene's "uneasy feeling" that Johnson has taken McNamara's recommendations over the military's. Early December, a joint State-Defense cable to the Pacific embassies the Chiefs take for a harder line.
@@ -1293,10 +1675,25 @@ entries:
     time_band: workday daytime
     time_zone: Etc/GMT+6
     range_basis: kind
+  - id: cal.1965-12-10.china-leadership
+    when: Dec. 10
+    date: '1965-12-10'
+    time: 1965-12-10T15:14Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 11:14 p.m. Yang Shangkun 杨尚昆 leaves Peking by train, seen off by Li Bozhao 李伯钊, his daughter, Li Chuli 李楚离, Qiao Mingfu 乔明甫, Tian Chou 田畴 and others, though he had asked the General Office not to come; Liu Zhihan 刘志汉, deputy head of the Investigation Department (the editors' note), and two others on the train. "Sixteen years of life in Peking change from today." The diary's last day.
+    n: '[[w.yang-shangkun-riji]], II, 695 (Dec. 10, 1965). The words: 晚间11时14分开车……16年的北京生活，今天开始变了 (II, 695). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao, Li Chuli, Qiao Mingfu, Tian Chou, Liu Zhihan.'
+    src:
+      c: 8fcb9f36
+      rows:
+        - 'w.yang-shangkun-riji II, 695: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-11.vietnam
     when: Dec. 11
     date: '1965-12-11'
     time: 1965-12-11T23:19Z
+    place: washington
     thread: vietnam
     c: 'State and Defense to Saigon, 1634: attacks across the Cambodian border in self-defense, as authorized Nov. 10, stand; Westmoreland''s ground reconnaissance refused: it "might readily be picked up and would not have clear self-defense justification."'
     n: '[FRUS 1964–68, XXVII, doc. 166](https://history.state.gov/historicaldocuments/frus1964-68v27/d166). [[w.gibbons-u-s-government-and]], IV, 192–93. Made public: FRUS 1964–68, XXVII (2000). To check: Washington to Saigon 1399, Nov. 10, 1965, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 193 n.69). See [[cal.1965-12-09.vietnam]]. Names: Westmoreland.'
@@ -1332,6 +1729,7 @@ entries:
   - id: cal.1965-12-11.vietnam-saigon
     when: Dec. 11
     date: '1965-12-11'
+    place: saigon
     thread: vietnam-saigon
     c: Saigon publishes CRCC Directive 1535, the summation of rural construction policy, superseding the joint directive of Oct. 8, 1964.
     n: '[[w.macv-command-history-1965]], 244, 247. Check: the day (p. 244 reads "131 December," p. 247 "11 December"). See [[cal.1965-11-05.vietnam-saigon]].'
@@ -1348,6 +1746,7 @@ entries:
   - id: cal.1965-12-11.civil-rights-organizations
     when: Dec. 11
     date: '1965-12-11'
+    place: chicago
     thread: civil-rights-organizations
     also: [king]
     c: 'Chicago. The Coordinating Council and SCLC at a crisis; Andrew Young present to "reestablish contact": planning meetings in January, a citywide fund-raising event in February. Bevel to "dig in" in four neighborhoods, Kenwood and Englewood, Lawndale and East Garfield Park, the base of a "Union to End Slums."'
@@ -1361,6 +1760,7 @@ entries:
   - id: cal.1965-12-11.soviet-union-leadership
     when: Dec. 11–13
     date: '1965-12-11'
+    place: moscow
     thread: soviet-union-leadership
     c: Moscow. Kádár and the Hungarian delegation. Brezhnev spends Dec. 11 and 12 with them outside the city; Dec. 13, 11 to 3, receives Kádár and his party in the Central Committee, Andropov, Aleksandrov and Mosin taking part; a reception that evening.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 95 (Dec. 11–13). Names: Brezhnev, Kádár, Andropov, Aleksandrov, Mosin.'
@@ -1368,6 +1768,7 @@ entries:
   - id: cal.1965-12-11.china-leadership
     when: Dec. 11
     date: '1965-12-11'
+    place: shanghai
     thread: china-leadership
     also: [laos, vietnam]
     c: 'Mao, Shanghai, Hongqiao guesthouse, morning: receives a Lao People''s Party delegation. Win the masses; treat prisoners kindly, even officers, keep those who wish in the army, send the rest home; he may be captured again, release again. The South Vietnamese armed struggle has gone beyond what the Chinese did against the Japanese, to be learned from by Laos and Southeast Asian parties. Asia, Africa and Latin America are a furnace.'
@@ -1376,14 +1777,18 @@ entries:
   - id: cal.1965-12-11.china-leadership-2
     when: Dec. 11
     date: '1965-12-11'
+    place:
+      - kunming
+      - shanghai
     thread: china-leadership
     also: [china]
     c: Luo Ruiqing, telephoned by Zhou Enlai without being told he is the subject of the meeting, flies from Kunming to Shanghai. There Zhou and Deng Xiaoping state the charges; Luo tries to deny them, Zhou cuts him short, and he is warned not to contact Mao or Lin Biao.
-    n: '[[w.macfarquhar-maos-last-revolution]], 25. Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 37–42 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.51); [[w.yao-san-ci-da-nan]], 290–291 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.52). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing, Zhou Enlai, Deng Xiaoping, Mao Zedong, Lin Biao.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 25; [[w.macfarquhar-origins-of-the-cultural]], III, 450 (Luo Ruiqing called from Kunming; he argues his case). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]]). To check: [[w.pixian-chen-pixian-huiyilu]], 37–42 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.51); [[w.yao-san-ci-da-nan]], 290–291 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.52). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing, Zhou Enlai, Deng Xiaoping, Mao Zedong, Lin Biao.'
     src:
       c: 4bb5b487
       rows:
         - 'w.macfarquhar-maos-last-revolution 25: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 450: A, C'
     tags: [polity:prc, name:luo-ruiqing, name:zhou-enlai, name:deng-xiaoping, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1965-12-12.opinion
     when: Dec. 12
@@ -1414,6 +1819,7 @@ entries:
   - id: cal.1965-12-12.war-opposition
     when: Dec. 12
     date: '1965-12-12'
+    place: nyc
     thread: war-opposition
     c: 'The *New York Times*, Sunday: an advertisement signed by over 1,000 Catholics for Daniel Berrigan, sent to Latin America by the Jesuits within days of his tribute to LaPorte. He is back within three months.'
     n: '[[w.zaroulis-who-spoke-up]], 4. Names: Daniel Berrigan, LaPorte.'
@@ -1484,6 +1890,7 @@ entries:
     when: Dec. 14–15
     date: '1965-12-14'
     time: 1965-12-14T16:12Z
+    place: washington
     thread: india-and-china-kashmir
     c: 'Ayub Khan in Washington. Joint statement: the United States regards "the preservation of the independence and integrity of Pakistan" as "vital to world peace"; both for the Security Council''s resolutions of Sept. 20, Sept. 27, and Nov. 5.'
     n: 'Remarks of Welcome to President Ayub Khan of Pakistan on the South Lawn at the White House, [1965 Pub. Papers 1152](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=626) (Dec. 14, 1965); Joint Statement Following Discussions With the President of Pakistan, [1965 Pub. Papers 1156](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=630) (Dec. 15, 1965). FRUS 1964–68, XXV, docs. [263](https://history.state.gov/historicaldocuments/frus1964-68v25/d263), [265](https://history.state.gov/historicaldocuments/frus1964-68v25/d265), [267](https://history.state.gov/historicaldocuments/frus1964-68v25/d267). [[w.johnson-white-house-diary]], 336–37 (Ayub Khan in Washington: the arrival ceremony, Bhutto and Aziz Ahmed with him; not the joint statement). See [[cal.1965-08-05.india-and-china]]. The time is the first day''s. Names: Ayub Khan, Johnson.'
@@ -1499,6 +1906,7 @@ entries:
   - id: cal.1965-12-14.state-constitutions-ok
     when: Dec. 14
     date: '1965-12-14'
+    place: oklahoma
     thread: state-constitutions
     also: [state-and-city-finance]
     c: 'Oklahoma, special election: $54.75 million in debt for State institutions'' buildings, retired from the cigarette tax, general revenue and bonds on the State''s credit, adopted, 101,340 to 31,116, 76.5 percent.'
@@ -1514,6 +1922,7 @@ entries:
   - id: cal.1965-12-14.state-constitutions-ct
     when: Dec. 14
     date: '1965-12-14'
+    place: connecticut
     thread: state-constitutions
     also: [legislatures]
     c: Connecticut ratifies its new constitution, the first since 1818, 178,432 to 84,129, 68.0 percent; 20.2 percent of the registered voting. The second proposal, no taking of property for public use unless necessary, fails, 117,494 to 139,701, 45.7 percent. Dempsey proclaims it Dec. 30.
@@ -1547,6 +1956,7 @@ entries:
     when: Dec. 14
     date: '1965-12-14'
     time: 1965-12-15T00:45Z
+    place: washington
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson, 7:45 p.m., "Broodings on Vietnam": Rusk, McNamara and all their top subordinates "strongly favorable to the pause"; a cease-fire, Califano''s idea, weighed and a pause preferred. The "moment of truth" Friday, after Rusk''s return.'
     n: '[FRUS 1964–68, III, doc. 229](https://history.state.gov/historicaldocuments/frus1964-68v03/d229). [[w.gibbons-u-s-government-and]], IV, 120 n.25. Made public: FRUS 1964–68, III (1996). See [[cal.1965-12-07.vietnam-pause-2]]. Names: McGeorge Bundy, Johnson, Rusk, McNamara, Califano.'
@@ -1560,6 +1970,7 @@ entries:
   - id: cal.1965-12-14.civil-rights-the-executive
     when: Dec. 14
     date: '1965-12-14'
+    place: chicago
     thread: civil-rights-the-executive
     also: [war-opposition]
     c: 'DeLoach of the FBI, in a speech at Chicago: the "malignant disease" of false freedom spread by "racketeers, Communists, narcotics peddlers, filth merchants, and others of their ilk"; "the arrogant non-conformists, including some educators," who urge "civil disobedience."'
@@ -1616,6 +2027,7 @@ entries:
   - id: cal.1965-12-14.vietnam-pause-3
     when: Dec. 14
     date: '1965-12-14'
+    time: 1965-12-15T00:15Z
     thread: vietnam-pause
     c: 'Valenti to Johnson, 7:15 p.m., Top Secret, Eyes Only, after the meeting with Ball, Bundy and Moyers: he sides with Ball for the pause. "We are in quicksand"; bombing only hardens Hanoi; a pause gives the Russians room (Thompson: relief in Moscow); fighting in the South goes on; the bombing can be resumed; the Republicans and hard-liners will urge a Haiphong blockade. Johnson questions him over an hour on how firm he is.'
     n: '[[w.valenti-very-human-president]], 221–23 (Valenti''s account; the memorandum printed). See [[cal.1965-12-14.vietnam-pause-2]]. Names: Valenti, Johnson, Ball, Bundy, Thompson.'
@@ -1639,6 +2051,7 @@ entries:
   - id: cal.1965-12-14.vietnam-hanoi
     when: Dec. 14
     date: '1965-12-14'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's instruction no. 116-CT/TW on raising the quality of *Học Tập*, the Party's theoretical journal, three years after the Politburo's instruction no. 41-CT/TW of Apr. 7, 1962.
     n: '*Chỉ thị của Ban Bí thư số 116-CT/TW về nâng cao chất lượng của tạp chí Học tập để phục vụ sự nghiệp chống Mỹ, cứu nước và tiếp tục xây dựng cơ sở vật chất và kỹ thuật của chủ nghĩa xã hội*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 458–66. Made public: 2003.'
@@ -1668,6 +2081,7 @@ entries:
   - id: cal.1965-12-15.specials
     when: Dec. 15
     date: '1965-12-15'
+    place: california
     thread: specials
     c: 'California 26th, special. Rees (D), a State senator, takes the seat James Roosevelt left Sept. 30 for the UN Economic and Social Council. First round, Nov. 23: Rees over Horwin (D), 21,481 to 19,612, 35.3 percent; Marshall (R) 16,088, 26.4 percent. Runoff: Rees over Marshall, 40,430 to 27,579, 59.4 percent. Swing 10.9 to R. Sworn Jan. 10, 1966.'
     n: 'Votes: [Cal. *Statement of Vote*, Nov. 8, 1966, p. 5](https://archive.org/details/californiastate196668cali/page/n50). [112 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt1/pdf/GPO-CRECB-1966-pt1-1-2.pdf) (1966) (Rees sworn). Roosevelt''s resignation: BD 1835. See [[cal.1961-04-04.states-and-cities]]. Names: Rees, Roosevelt, Horwin, Marshall. Check: the page.'
@@ -1689,6 +2103,7 @@ entries:
   - id: cal.1965-12-15.vietnam
     when: Dec. 15
     date: '1965-12-15'
+    place: uong-bi
     thread: vietnam-air-war
     c: The Uông Bí thermal power plant, north of Haiphong, struck, some 15 percent of the North's generating capacity; Lodge told Dec. 8 of State's approval of a strike on "an isolated electric power plant." Restruck over five days; the boiler house destroyed.
     n: 'FRUS 1964–68, III, docs. [221](https://history.state.gov/historicaldocuments/frus1964-68v03/d221), n. 4 (the approval), [239](https://history.state.gov/historicaldocuments/frus1964-68v03/d239), n. 2 (Dec. 21). [[w.frankum-like-rolling-thunder]], 33 (the strike, mid-December; 15 percent; five days of restrikes; the boiler house); [[w.staaveren-gradual-failure]], 203–04 (the strike, Dec. 15; 15 percent; the Navy''s restrikes, Dec. 19 and 22); [[w.staaveren-gradual-failure]], 203–04 (Dec. 15, ninety Air Force aircraft, twenty-three F-105s striking; all but seven jettison their bombs for the weather; fourteen 3,000-pound bombs on a corner of the plant; an F-105 downed, five damaged; McNamara: "not ... retaliatory" but "appropriate to the increased terror activity"); [[w.drea-mcnamara-clifford-and-the-2011]], 65 (approved early in December, a power plant and a highway bridge near Haiphong); [[w.schlesinger-robert-kennedy-and-his]], 733 ("On December 15, before Hanoi responded to Rusk''s inquiry, Johnson ordered the bombing of Haiphong"; Fanfani''s four points of mid-November and a later message that the bombing of Hanoi or Haiphong would kill negotiations; the book does not name the power plant). To check: Msg, JCS to CINCPAC, 090002 Dec 65 (cited by [[w.staaveren-gradual-failure]], 203 n.9a); memo, Lt Gen F. Carroll, Dir DIA to SECDEF, 21 Jan 66, subj: An Appraisal of Bombing in NVN (cited by [[w.staaveren-gradual-failure]], 203 n.9b); [*New York Times*, Dec. 16, 1965](https://timesmachine.nytimes.com/timesmachine/1965/12/16/issue.html) (cited by [[w.staaveren-gradual-failure]], 203 n.9c); PACAF DI rpt, Effects of Air Ops, SEA, 23 Dec 65, p 13 (cited by [[w.staaveren-gradual-failure]], 204 n.11a); PACAF rpt, Sum of Air Ops, SEA, Vol XIII, pp 2-2 and 2–4 and 2-A-1, 2-A-21, and 2-A-22 (cited by [[w.staaveren-gradual-failure]], 204 n.11b); msg, CINCPAC to JCS, 140147Z Dec 65 (cited by [[w.staaveren-gradual-failure]], 204 n.11c); msg, JCS to CINCPAC, 16 Dec 65 (cited by [[w.staaveren-gradual-failure]], 204 n.11d); *New York Times*, [Dec. 16](https://timesmachine.nytimes.com/timesmachine/1965/12/16/issue.html), [Dec. 21](https://timesmachine.nytimes.com/timesmachine/1965/12/21/issue.html), and [Dec. 24, 1965](https://timesmachine.nytimes.com/timesmachine/1965/12/24/issue.html) (cited by [[w.staaveren-gradual-failure]], 204 n.11e); *Washington Post*, Dec. 17, 1965 (cited by [[w.staaveren-gradual-failure]], 204 n.11f). See [[cal.1965-03-02.vietnam]]. Names: Lodge.'
@@ -1747,6 +2162,7 @@ entries:
     when: Dec. 15
     date: '1965-12-15'
     time: 1965-12-15T11:00Z
+    place: vientiane
     thread: vietnam
     also: [laos]
     c: 'Sullivan from Vientiane, 651: air action and Shining Brass can only harass the trail; a picket across the Laotian panhandle would be bled. Instead land near Vinh with air and sea cover, hold a line to the Laotian border until Hanoi negotiates, tell the Chinese the forces go no farther: "we would have our equivalent—in spades."'
@@ -1824,6 +2240,7 @@ entries:
   - id: cal.1965-12-15.soviet-union-leadership
     when: Dec. 15
     date: '1965-12-15'
+    place: moscow
     thread: soviet-union-leadership
     c: 'Moscow. Brezhnev with Boumediene, the Algerian head of state, on his visit (Dec. 13–18). His notes: "we feel the imperialists'' pressure"; the Algerian events a moral success for imperialism; Boumediene''s requests; the French Communists not to attack him; the regime changed without democratic institutions.'
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 116 (№ 22, Brezhnev''s notes, Dec. 15–16), 130 nn.141–42 (the editors: the visit Dec. 13–18 by the Presidium''s decision of Dec. 11; the army''s removal of Ben Bella in June). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 96–97 (the secretaries'' record, Dec. 15–17: Moscow. Brezhnev receives Boumediene, chairman of Algeria''s Revolutionary Council, Dec. 15, and attends the Kremlin dinner in his honor Dec. 17, 6 to 9). Made public: 2016. To check: the requests, not set down in the notes. Names: Boumediene, Brezhnev.'
@@ -1835,6 +2252,7 @@ entries:
   - id: cal.1965-12-15.china-leadership
     when: Dec. 15
     date: '1965-12-15'
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: Xiao Xiangrong, escorted from Peking to Shanghai and pressed by two superiors to denounce Luo Ruiqing, refuses. He is sent back to Peking.
@@ -1904,6 +2322,7 @@ entries:
   - id: cal.1965-12-16.vietnam
     when: Dec. 16
     date: '1965-12-16'
+    place: vientiane
     thread: vietnam
     c: 'Sullivan from Vientiane: he has learned of Unger''s paper of Dec. 3 for William Bundy on an invasion of the North; is it still being considered?'
     n: '[[w.gibbons-u-s-government-and]], IV, 194. To check: Vientiane to Washington (number unknown), Dec. 16, 1965, Central File, Pol 27 Viet S, State Department (cited by [[w.gibbons-u-s-government-and]], IV, 194 n.74). See [[cal.1965-12-15.vietnam-3]]; [[cal.1965-12-03.vietnam]]. Names: Sullivan, Unger, William Bundy.'
@@ -1930,6 +2349,7 @@ entries:
   - id: cal.1965-12-17.desegregation-schools-philadelphia
     when: Dec. 17
     date: '1965-12-17'
+    place: philadelphia
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: Philadelphia. The NAACP's picket of Girard College ends, after seven months. Check the date.
@@ -1938,6 +2358,7 @@ entries:
   - id: cal.1965-12-17.india-and-china-food
     when: Dec. 17
     date: '1965-12-17'
+    place: washington
     thread: india-and-china-food
     c: 'NSAM 339: Freeman to organize the shipping and delivery of grain against "near famine conditions" in India.'
     n: '[NSAM No. 339](https://history.state.gov/historicaldocuments/frus1964-68v25/d268) (Dec. 17, 1965). Check: the bibliography of the food thread. See [[cal.1965-12-14.india-and-china]]. Names: Freeman, Johnson.'
@@ -1953,6 +2374,7 @@ entries:
     when: Dec. 17
     date: '1965-12-17'
     time: 1965-12-17T14:41Z
+    place: washington
     thread: vietnam-pause
     c: 'Johnson on a pause in the bombing, 9:41 to 11:04 a.m., with Rusk, McNamara, McGeorge Bundy and Ball, Valenti taking notes. Johnson: "I''m willing to take any gamble on stopping the bombing if I think I''ve got some hope of something happening." McNamara: "We will increase bombing. It is inevitable," and perhaps "a cease-fire in place." Bundy, of a cease-fire: "Not now. It takes time." Ball: the bombing hardens Hanoi and drives it toward China. Johnson: the Chiefs "go through the roof when we mention this pause"; "the weakest chink in our armor is public opinion." A pause suggested, Dec. 22 to Jan. 22.'
     n: '[FRUS 1964–68, III, doc. 231](https://history.state.gov/historicaldocuments/frus1964-68v03/d231) (Valenti''s notes). [[w.drea-mcnamara-clifford-and-the-2011]], 66 (the morning meeting, no Chief there; "the Chiefs go through the roof"; late afternoon, Johnson with Wheeler on the scenario); [[w.dallek-flawed-giant]], 343–44 (the meeting with senior advisers on Dec. 17: willing "to take any gamble on stopping the bombing" if there were any chance of a result; a pause from Dec. 22 to Jan. 22; the Pentagon could use "weather as an excuse and Christmas as a factor"; not the hours or the others); [[w.valenti-very-human-president]], 223–28 (Dec. 17, the Cabinet Room, the meeting ordered at 9:15 a.m.: Johnson, Rusk, McNamara, Ball, Bundy and Valenti; McNamara, "we will increase bombing. It is inevitable"; Ball on bombing, Hanoi and China; the Chiefs; the pause; afterward Johnson to Valenti alone, then the meeting set for the next day at midday). Bibliography: [[cal.1965-12-24.vietnam]]. [[w.gibbons-u-s-government-and]], IV, 120–25; [[w.herring-lbj-and-vietnam]], 42, 96, 99–100 (the meetings: Johnson, "the Chiefs go through the roof when we mention this pause"; McNamara, "we decide what we want and impose it on them"; Rusk and Bundy won over; Dec. 18, "Publicity seekers and amateurs cannot have a hand in our affairs"). Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 225 (Bundy against McNamara''s cease-fire, "Not now. It takes time"; "I''m more optimistic," "Our military is hurting them"). Names: Johnson, Rusk, McNamara, McGeorge Bundy, Ball, Valenti.'
@@ -1988,6 +2410,7 @@ entries:
   - id: cal.1965-12-17.vietnam-2
     when: Dec. 17
     date: '1965-12-17'
+    place: st-louis
     thread: vietnam-diplomacy
     also: [press-and-broadcasting]
     c: 'The *St. Louis Post-Dispatch*: Dudman''s story of La Pira''s talk with Hồ Chí Minh in Hanoi, Fanfani''s letter to Johnson and Rusk''s reply. The State Department releases the letters the same day.'
@@ -2030,6 +2453,7 @@ entries:
   - id: cal.1965-12-17.vietnam-3
     when: Dec. 17
     date: '1965-12-17'
+    place: hawaii
     thread: vietnam-pacification
     c: 'Westmoreland, at CINCPAC''s headquarters in Hawaii, to Lodge, HWA 3420, sending the text his chief of staff, Rosson, drafted: against Lodge''s directive of Dec. 15, by Rosson "extremely injurious to the U.S. effort in Vietnam." It would move MACV''s pacification personnel to USOM and the CIA.'
     n: '[[w.gibbons-u-s-government-and]], IV, 184. To check: Rosson to Westmoreland, MAC 6481, Dec. 16, 1965, Westmoreland Papers, Message Files, Center of Military History (cited by [[w.gibbons-u-s-government-and]], IV, 184 n.37); Westmoreland to Lodge, HWA 3420, Dec. 17, 1965, Westmoreland Papers, Message Files, Center of Military History (cited by [[w.gibbons-u-s-government-and]], IV, 184 n.37). See [[cal.1965-12-15.vietnam-2]]. Names: Westmoreland, Lodge.'
@@ -2097,6 +2521,7 @@ entries:
   - id: cal.1965-12-17.vietnam-hanoi
     when: Dec. 17
     date: '1965-12-17'
+    place: hanoi
     thread: vietnam-hanoi
     also: [vietnam-air-war]
     c: 'The Secretariat''s secret cable no. 312 to the committees of Haiphong, Quảng Ninh, Việt Trì, Phú Thọ, Hải Dương, Hà Bắc, Lạng Sơn, Nam Hà, Ninh Bình and Thái Bình: the enemy plans a big raid, the carrier Enterprise coming beside the Kitty Hawk; in good weather routes 1 and 5, Uông Bí, the Hồng Gai–Quảng Yên zone and Haiphong, its oil depot, cement works, bridges and channel, may be hit; air defense and evacuation to be tightened.'
@@ -2105,6 +2530,7 @@ entries:
   - id: cal.1965-12-17.china-leadership
     when: Dec. 17
     date: '1965-12-17'
+    place: peking
     thread: china-leadership
     c: Zhou returns to Beijing.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 17, 1965). Names: Zhou Enlai.'
@@ -2112,6 +2538,7 @@ entries:
   - id: cal.1965-12-17.china-leadership-2
     when: Dec. 17
     date: '1965-12-17'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Luo Ruiqing is flown to Peking and asks to be relieved of his posts.
@@ -2124,6 +2551,7 @@ entries:
   - id: cal.1965-12-17.china-leadership-3
     when: Dec. 17
     date: '1965-12-17'
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Beijing. Chen Yi to Nguyễn Duy Trinh: the Vietnamese policy is right and he agrees; fighting while negotiating has marked both revolutions, the Chinese and the Vietnamese. The U.S. shows no sign of wanting peace and opens talks to deceive opinion; if it wants to talk, so does Vietnam, to unmask it. His personal opinion.'
@@ -2132,6 +2560,7 @@ entries:
   - id: cal.1965-12-18.japan-and-korea
     when: Dec. 18
     date: '1965-12-18'
+    place: seoul
     thread: japan-and-korea-normalization
     also: [japan]
     c: 'Ratifications exchanged at Seoul; the treaty with Japan in force. The Diet''s approval: the lower house Nov. 12, the upper Dec. 11. Johnson''s statement.'
@@ -2148,6 +2577,7 @@ entries:
     when: Dec. 18
     date: '1965-12-18'
     time: 1965-12-18T17:35Z
+    place: washington
     thread: vietnam-pause
     c: 'Johnson with Rusk, McNamara, McGeorge Bundy, Ball, U. Alexis Johnson, Fortas and Clifford, 12:35 to 2:19 and 3:10 to 5:10 p.m. Johnson, after Wheeler: the military "say a month''s pause would undo all we''ve done"; McNamara: "That''s baloney." Rusk: one chance in twenty of a settlement, and he would take it. McNamara: a military solution "one out of three or one in two"; "We have been too optimistic." Fortas and Clifford against. By Valenti''s account, Johnson: "We''ll take the pause."'
     n: '[FRUS 1964–68, III, doc. 235](https://history.state.gov/historicaldocuments/frus1964-68v03/d235) (Valenti''s notes). [[w.johnson-vantage-point]], 235–37; [[w.mcnamara-in-retrospect]], ch. 8 at n.26. [[w.gibbons-u-s-government-and]], IV, 121–23; [[w.berman-lyndon-johnsons-war]], 12 (Johnson: "Then, no matter what we do in the military field there is no sure victory?" McNamara: "That''s right. We have been too optimistic."); [[w.drea-mcnamara-clifford-and-the-2011]], 66 (four and a half hours, the civilians alone; the 30-hour Christmas truce extended several days); [[w.schlesinger-robert-kennedy-and-his]], 734 ("On December 18, Johnson, still skeptical, decided to give it a try"; McNamara had argued for a bombing pause since early November; the Joint Chiefs, Lodge, Westmoreland, Clifford and Fortas opposed it; Ball for it; Rusk and Bundy "dropped their earlier opposition"; the pause begins with a Christmas truce and runs through January 1966); [[w.dallek-flawed-giant]], 344 (the meeting of the next day: a pause contained "serious military risks"; McNamara: "We have been too optimistic"; Fortas and Clifford speak against a pause; Johnson: "We''ll take the pause"; not the hours or who else was present); [[w.valenti-very-human-president]], 228–40 (Dec. 18, 12:35 p.m., the Cabinet Room: Johnson, Rusk, McNamara, Bundy, Ball, Alexis Johnson, Fortas, Clifford and Valenti; Rusk, "one chance in ten or twenty ... One chance in twenty"; McNamara, "That''s baloney," "one out of three or one in two," "We have been too optimistic"; Clifford''s seven objections; Fortas''s doubts of the effect, not clearly against; Johnson to McNamara: "We''ll take the pause"). Made public: FRUS 1964–68, III (1996). [[w.clifford-counsel-to-the-president-2]], 434–36 (the meeting; McNamara''s "one out of three or one out of two"; Clifford against the pause; Johnson''s note to him). See [[cal.1965-12-17.vietnam]]. Names: Johnson, Rusk, McNamara, McGeorge Bundy, Ball, U. Alexis Johnson, Fortas, Clifford, Wheeler, Valenti. Check: Clifford, 436, has Johnson deciding "the next day, in a much shorter meeting," on a pause of unspecified length; FRUS prints no meeting of Dec. 19.'
@@ -2178,6 +2608,7 @@ entries:
   - id: cal.1965-12-18.vietnam-congress
     when: Dec. 18
     date: '1965-12-18'
+    place: washington
     thread: vietnam-congress
     c: 'Mansfield to Johnson, the conclusions of his report on his Asian trip: if the objectives stay as they are, "the war in Viet Nam is just beginning for the United States"; a doubling and redoubling of American forces in a year or two; "an open-ended military situation." "This is a conflict in which all the choices open to us are bad choices." With him on the trip, Muskie, Inouye, Aiken and J. Caleb Boggs.'
     n: '[FRUS 1964–68, III, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v03/d233). [[w.gibbons-u-s-government-and]], IV, 136 (the report). Made public: S. Doc. 93-11 (1973). [[w.mann-grand-delusion]], 475–76 (the trip; the report). Names: Mansfield, Johnson, Muskie, Inouye, Aiken, Boggs.'
@@ -2199,6 +2630,7 @@ entries:
   - id: cal.1965-12-18.vietnam
     when: Dec. 18
     date: '1965-12-18'
+    place: gia-nghia
     thread: vietnam-montagnards
     c: FULRO briefly seizes the Quảng Đức provincial headquarters at Gia Nghĩa.
     n: '[[w.macv-command-history-1965]], 482.'
@@ -2300,6 +2732,7 @@ entries:
   - id: cal.1965-12-18.vietnam-hanoi
     when: Dec. 18
     date: '1965-12-18'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s circular no. 171-TT/TW on the Party''s budget for 1966: the 1965 estimate met, dues above it, money put into restructuring the organs, cadre training, Party education and external work, and moved to evacuation and air defense.'
     n: '*Thông tri của Ban Bí thư số 171-TT/TW về phương hướng thu, chi ngân sách đảng năm 1966*, signed for the office by Minh Châu, deputy chief. [[w.van-kien-dang-toan]], XXVI, 469–76. Made public: 2003.'
@@ -2308,6 +2741,7 @@ entries:
     when: Dec. 18
     date: '1965-12-18'
     time: 1965-12-18T06:00Z
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou, with Chen Yi, talks with Vietnam''s deputy premier Nguyễn Duy Trinh, Building 5, Diaoyutai guesthouse, 2 p.m. Zhou: on Vietnam or China the U.S. would come to Hanoi or Beijing to talk at a hint, as it would on Taiwan. Chen Yi: a hint of talks on South Vietnam, the U.S. presence there agreed to; Zhou: not so; put the South aside, or merely agree to contacts, and they will come at once, the sooner the weaker the terms.'
@@ -2325,6 +2759,7 @@ entries:
     when: Dec. 18
     date: '1965-12-18'
     time: 1965-12-18T09:00Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou talks with Pakistan's foreign minister Bhutto in Building 7 of the Diaoyutai guesthouse.
@@ -2338,6 +2773,7 @@ entries:
   - id: cal.1965-12-18.china-leadership-3
     when: Dec. 18
     date: '1965-12-18'
+    place: peking
     thread: china-leadership
     c: Zhou receives the head of Cambodia's Royal Technical University and his wife, and the Cambodian science and technology delegation he leads.
     n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; afternoon; Beijing). The book names him 帕加. Names: Zhou Enlai.'
@@ -2354,6 +2790,7 @@ entries:
   - id: cal.1965-12-18.china-leadership-4
     when: Dec. 18
     date: '1965-12-18'
+    place: peking
     thread: china-leadership
     c: Zhou attends the reception for the fifth anniversary of the signing of the China–Cambodia friendship treaty.
     n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; evening; Beijing). Names: Zhou Enlai.'
@@ -2371,6 +2808,7 @@ entries:
     when: Dec. 19
     date: '1965-12-19'
     time: 1965-12-19T22:00Z
+    place: washington
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson, 5 p.m., the two papers asked the day before: Rusk on diplomatic action, modest, "no serious possibility of immediate diplomatic progress of a public nature" without a pause; and a draft speech for the UN announcing one.'
     n: '[FRUS 1964–68, III, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v03/d236). [[w.gibbons-u-s-government-and]], IV, 123–24. Made public: FRUS 1964–68, III (1996). See [[cal.1965-12-18.vietnam-pause]]. Names: McGeorge Bundy, Johnson, Rusk.'
@@ -2402,6 +2840,7 @@ entries:
   - id: cal.1965-12-19.vietnam-diplomacy
     when: Dec. 19
     date: '1965-12-19'
+    place: hickory-hill
     thread: vietnam-diplomacy
     also: [robert-kennedy]
     c: 'Hickory Hill, a party. Robert Kennedy on the Fanfani message: "Why didn''t we accept the Fanfani message positively ... Then the onus would be on Hanoi to refuse." He does not believe in pulling out the troops; Johnson, Ball, Harriman, McNamara want negotiations, Rusk against: "We''re in a stalemate." "If I broke with the administration it might be disastrous for the country." By Stephen Schlesinger''s notes.'
@@ -2436,6 +2875,7 @@ entries:
     when: Dec. 19
     date: '1965-12-19'
     time: 1965-12-19T02:30Z
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou, with Chen Yi, talks again with Nguyễn Duy Trinh, Building 5, Diaoyutai guesthouse, 10:30 a.m. Zhou, in four points: talks will be needed at some point, but the time is not ripe; the military struggle is the main one, and Vietnam''s conditions should be positive and from a high position, not an unconditional halt to the bombing of the North; such a condition makes Hanoi seem to settle North and South apart; and if the U.S. accepts it Vietnam is left passive. Chen Yi: drop the bombing halt, the Four Points are enough.'
@@ -2450,6 +2890,7 @@ entries:
   - id: cal.1965-12-20.europe-and-the-alliance
     when: Dec. 20–21
     date: '1965-12-20'
+    place: washington
     thread: europe-and-the-alliance
     c: 'Erhard in Washington, with Schroeder and von Hassel. Joint statement, Dec. 21: the Federal Republic and other partners without nuclear weapons to have "an appropriate part in nuclear defense"; Germany wants no national control; alliance arrangements "would not constitute proliferation." The offset, German purchases of American arms against American military spending in Germany, to be "fully executed and continued." German support in Vietnam.'
     n: 'Toasts of the President and Chancellor Ludwig Erhard of Germany, [1965 Pub. Papers 1161](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=635) (Dec. 20, 1965); Joint Statement Following Discussions With Chancellor Erhard, [1965 Pub. Papers 1165](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=639) (Dec. 21, 1965). FRUS 1964–68, XV, docs. [138](https://history.state.gov/historicaldocuments/frus1964-68v15/d138), [139](https://history.state.gov/historicaldocuments/frus1964-68v15/d139), [140](https://history.state.gov/historicaldocuments/frus1964-68v15/d140), [141](https://history.state.gov/historicaldocuments/frus1964-68v15/d141), [142](https://history.state.gov/historicaldocuments/frus1964-68v15/d142), [143](https://history.state.gov/historicaldocuments/frus1964-68v15/d143); XIII, docs. [119](https://history.state.gov/historicaldocuments/frus1964-68v13/d119), [120](https://history.state.gov/historicaldocuments/frus1964-68v13/d120). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 419 (the visit; the joint statement, the MLF let go); [[w.schwartz-lyndon-johnson-and-europe]], 88–90, 112 (the offset; Vietnam; the nuclear proposals); [[w.johnson-white-house-diary]], 341–42 (Erhard in Washington: the state dinner of Dec. 20, Schroeder at Mrs. Johnson''s left; not von Hassel or the joint statement). [[w.gavin-gold-dollars-and-power]], 140 (the offset). To check: [Johnson and McNamara, 9:12 a.m., Dec. 20](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-december-20-1965), Conversation WH6512-03-9326 (Miller Center); McGhee to Leddy, Jan. 13, 1966, RG 59, National Archives; the German record, *AAPD 1965*, III, doc. 469 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 89 nn.178, 180; 90 n.182). Check: McGhee''s minute dates the meeting upstairs after the dinner Dec. 19 (Schwartz, 89 n.180). See [[cal.1964-12-07.europe-and-the-alliance]]. Names: Erhard, Schröder, von Hassel, Johnson.'
@@ -2633,6 +3074,7 @@ entries:
   - id: cal.1965-12-20.china-leadership-2
     when: Dec. 20
     date: '1965-12-20'
+    place: peking
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Zhou, at the reception given at the Beijing Hotel by Trần Văn Thành, head of the National Liberation Front of South Vietnam''s permanent mission, for the Front''s fifth anniversary: the United States, deep in the mire of aggression in Vietnam, is plotting a new widening of the war, possibly to all Indochina and China. The Chinese people have long been prepared, and if the U.S. goes on and wants another trial of strength with them, they will take it up and see it through.'
@@ -2654,6 +3096,7 @@ entries:
     when: Dec. 21
     date: '1965-12-21'
     time: 1965-12-21T17:25Z
+    place: washington
     thread: vietnam-pause
     c: 'Johnson with Rusk, McNamara, McGeorge Bundy, Ball and U. Alexis Johnson, 12:25 to 1 p.m.: a pause "more a sign of weakness than anything else"; "I want more evidence from the Russians before I override Taylor and Wheeler." Rusk for a month''s pause announced in advance; Bundy for announcing only the thirty-hour cease-fire. No agreement. Johnson to Texas.'
     n: '[FRUS 1964–68, III, doc. 238](https://history.state.gov/historicaldocuments/frus1964-68v03/d238) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 124–25; [[w.dallek-flawed-giant]], 344 (Dec. 21: a pause "more a sign of weakness than anything else. All we''ll get is distrust from our allies, despair from the troops, and disgruntled generals"; not the hours or who was present); [[w.mann-grand-delusion]], 476 (Dec. 21, Johnson to his Vietnam advisers: "It''s more a sign of weakness than anything else"; "if we suffer a severe reverse as a result of this, we''d never explain it"; Westmoreland, Lodge and the Joint Chiefs opposed, Rusk wary; not the participants, the hour or the proposals). Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 225–26 (Bundy at a meeting, "We ought to examine the question of a continuous pause"; against Rusk''s day or two, "you won''t hear in that time frame"). See [[cal.1965-12-18.vietnam-pause]]. Names: Johnson, Rusk, McNamara, McGeorge Bundy, Ball, U. Alexis Johnson, Taylor, Wheeler. Check: Preston, 225–26, has Bundy, at this meeting by his note (226 n.39), for a long pause; the entry, for announcing only the thirty-hour cease-fire.'
@@ -2689,6 +3132,7 @@ entries:
   - id: cal.1965-12-21.vietnam
     when: Dec. 21
     date: '1965-12-21'
+    place: hong-kong
     thread: vietnam
     c: 'Rice from Hong Kong, 1179, on Sullivan''s landing at Vinh: most of the consulate''s China watchers and military officers expect a major Chinese military reaction. The problem is in the South: troops go through "a sea of people," and "the waters close in after our passage."'
     n: '[[w.gibbons-u-s-government-and]], IV, 195–96. To check: Hong Kong to Washington 1179, Dec. 21, 1965, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 195 n.78). See [[cal.1965-12-15.vietnam-3]]. Names: Sullivan.'
@@ -2707,6 +3151,7 @@ entries:
   - id: cal.1965-12-21.laos
     when: Dec. 21
     date: '1965-12-21'
+    place: hua-muong
     thread: laos
     c: Hua Muong, Lima Site 58, lost again, the third change of hands in 1965, three North Vietnamese battalions closing; Vang Pao's troops scatter north at the Meo New Year. Twenty sorties a day reserved for Na Khang.
     n: '[[w.anthony-war-in-northern-laos]], 186. To check: DIA to AIG 7011, 280425Z Dec. 65 (cited by [[w.anthony-war-in-northern-laos]], 186 n.60a); Effect of Air Operations, Southeast Asia, Dec. 23, 1965 (cited by [[w.anthony-war-in-northern-laos]], 186 n.60b). See [[cal.1965-09-21.laos]]. Names: Vang Pao.'
@@ -2720,20 +3165,26 @@ entries:
   - id: cal.1965-12-21.china-leadership
     when: Dec. 21
     date: '1965-12-21'
+    place: hangzhou
     thread: china-leadership
     also: [china, india-and-china-cultural-revolution]
     c: 'Mao, Hangzhou, with Chen Boda, Hu Sheng, Tian Jiaying, Ai Siqi and Guan Feng on prefaces to Marx, Engels and Lenin''s classics, the "philosophy, hard to do". Of *Hai Rui*: Qi Benyu''s article good, read three times, fault no name; Yao Wenyuan''s good, named, shook drama, history and philosophy, but missed the point, the "dismissal": the Jiajing emperor dismissed Hai Rui, in 1959 we dismissed Peng Dehuai, who is a Hai Rui. Of the *Qing gong mishi* film: not patriotic, but national betrayal. One basic law only: contradiction.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 21, 1965. [[w.macfarquhar-maos-last-revolution]], 29 (Qi Benyu''s article read three times); [[w.jianguo-yilai-mao-zedong]], XVIII, 185–186 (Dec. 21, 1965; note 1: the talk of Dec. 21 at Hangzhou with Chen Boda, Hu Sheng, Tian Jiaying, Ai Siqi and Guan Feng, of which the Wengao prints the part on school education, from *Mao zhuxi lun jiaoyu geming*, Renmin Chubanshe, Dec. 1967). Made public: 2006. Check: the remarks on education were printed earlier, in *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), the Wengao''s source for them ([[w.jianguo-yilai-mao-zedong]], XVIII, 186 n.1); the entry gives 2006 for the talk. To check: [[w.xin-ban-guangming-ribao-shinian]], 245–247 (cited by [[w.macfarquhar-maos-last-revolution]], 29 n.64). Names: Mao Zedong, Chen Boda, Peng Dehuai, Hu Sheng, Tian Jiaying, Ai Siqi, Guan Feng, Qi Benyu, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 21, 1965. [[w.macfarquhar-maos-last-revolution]], 29 (Qi Benyu''s article read three times); [[w.jianguo-yilai-mao-zedong]], XVIII, 185–186 (Dec. 21, 1965; note 1: the talk of Dec. 21 at Hangzhou with Chen Boda, Hu Sheng, Tian Jiaying, Ai Siqi and Guan Feng, of which the Wengao prints the part on school education, from *Mao zhuxi lun jiaoyu geming*, Renmin Chubanshe, Dec. 1967); [[w.macfarquhar-origins-of-the-cultural]], III, 440–41, 453 (Mao to Chen Boda, Tian Jiaying, Hu Sheng, Guan Feng and Ai Siqi: the play''s point is dismissal; Peng Dehuai is Hai Rui). Made public: 1984 ([[w.mengbi-zhongguo-gongchan-dang-liushi]]). Check: the remarks on education were printed earlier, in *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), the Wengao''s source for them ([[w.jianguo-yilai-mao-zedong]], XVIII, 186 n.1); the entry gives 2006 for the talk. Check: the 2006 above is the entry''s former year; Made public now rests on [[w.mengbi-zhongguo-gongchan-dang-liushi]] (1984). Check: the book has the Hangzhou talks on Dec. 21–22 (III, 453). To check: [[w.xin-ban-guangming-ribao-shinian]], 245–247 (cited by [[w.macfarquhar-maos-last-revolution]], 29 n.64); [[w.jin-1949-1989-niande-zhongguo]], 613 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 440 n.70); [[w.xinli-xunshi-dajiang-nanbeide-mao]], 436 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.129); [[w.mengbi-zhongguo-gongchan-dang-liushi]], 561 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130a). Names: Mao Zedong, Chen Boda, Peng Dehuai, Hu Sheng, Tian Jiaying, Ai Siqi, Guan Feng, Qi Benyu, Yao Wenyuan.'
     src:
       c: 8a945d28
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Dec. 21, 1965: all'
         - 'w.macfarquhar-maos-last-revolution 29: B'
         - 'w.jianguo-yilai-mao-zedong XVIII, 185–186: A'
+        - 'w.macfarquhar-origins-of-the-cultural III, 440–41, 453: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 440 n.70: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.129: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.130a: A, C'
     tags: [name:mao-zedong, name:chen-boda, name:peng-dehuai, name:yao-wenyuan, polity:prc, vis:only:prc]
   - id: cal.1965-12-27.vietnam-2
     when: Dec. 21–27
     date: '1965-12-21'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Twelfth Plenum in Hanoi, Hồ Chí Minh presiding. The war protracted, but forces of North and South to be concentrated to "secure a decisive victory within a relatively short period of time"; the North to defeat the bombing and supply the South; its main forces a strategic reserve for the South.
     n: '[[w.vietnam-victory-in-vietnam]], 171–72 (quoted, 171); [[w.nguyen-hanois-war]], 78 (the plenum, late 1965); [[w.cosmas-joint-chiefs-of-staff-2012]], 360 (the plenum''s declaration of Dec. 27); [[w.van-kien-dang-toan]], XXVI, 596–625 (the plenum''s resolution, dated Dec. 27, 1965); [[w.van-kien-dang-toan]], XXVI, 542–95 (Lê Duẩn''s speech to the plenum: the war protracted, all effort for a decisive victory in a relatively short time); [[w.van-kien-dang-toan]], XXVI, 485–541 (the Politburo''s report to the plenum, on the plan for 1966–67); [[w.van-kien-dang-toan]], XXVI, 626–33 (Hồ Chí Minh''s speech at the closing session, the afternoon of Dec. 27). Washington''s reading of Hanoi after the pause began: [FRUS 1964–68, IV, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v04/d44) (State''s intelligence bureau, Jan. 26, 1966). Check: the volume has the plenum meet Dec. 21–27 (XXVII, 35 n.; Dec. 21–26 in the introduction to vol. XXVI), its resolution and Hồ Chí Minh''s closing speech Dec. 27 (XXVI, 596, 626); the secondary books, Dec. 27. Nguyen, 78 n.136, cites Lê Duẩn''s speech at XXVI, 594–95, its last pages (the speech, 542–95). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1963-12.vietnam]]. The time is the first day''s. Names: Hồ Chí Minh.'
@@ -2771,6 +3222,7 @@ entries:
   - id: cal.1965-12-21.china-leadership-3
     when: Dec. 21
     date: '1965-12-21'
+    place: peking
     thread: china-leadership
     also: [africa]
     c: Zhou receives the ambassador of the Congo (Brazzaville) at the Xihuating, Zhongnanhai.
@@ -2783,6 +3235,7 @@ entries:
   - id: cal.1965-12-22.economy
     when: Dec. 22
     date: '1965-12-22'
+    place: little-rock
     thread: economy
     also: [vietnam]
     c: 'Little Rock, Ark. Fowler with Mills on the budget and taxes for the war. Mills: civilian spending in fiscal 1967 no higher than in 1966; cover the present rate of the war''s spending "but no more"; no tax increase in 1966 on the deficit discussed, but "we must seriously think about a tax increase in 1967"; asked for taxes in 1966, Republicans, some Democrats and liberals "would start tearing at the budget instead."'
@@ -2840,6 +3293,7 @@ entries:
   - id: cal.1965-12-22.vietnam-air-war
     when: Dec. 22
     date: '1965-12-22'
+    place: uong-bi
     thread: vietnam-air-war
     c: 'The third strike on the Uong Bi plant: thirty-five Navy aircraft hit the Haiphong bridge, closing it for a time, then the plant, some twenty-five tons and three Bullpups; most of it destroyed, the North''s generating loss some 47,000 kilowatts, 27 percent. Antiaircraft fire downs two A-4s and an RA-5; at the bridge, SAMs an A-6A and an RA-5. Five aircraft lost in all on the plant.'
     n: '[[w.staaveren-gradual-failure]], 204. Check: Van Staaveren also says SAMs downed an A-5A and an RA-5A in the strike on the plant (195). See [[cal.1965-12-15.vietnam]].'
@@ -2850,6 +3304,8 @@ entries:
   - id: cal.1965-12-22.soviet-union-leadership
     when: Dec. 22
     date: '1965-12-22'
+    time: 1965-12-22T10:40Z
+    place: moscow
     thread: soviet-union-leadership
     also: [vietnam]
     c: Moscow. Brezhnev receives a North Vietnamese delegation led by Lê Thanh Nghị, Politburo member and deputy premier, from 1:40 p.m., the DRV's ambassador present.
@@ -2858,6 +3314,7 @@ entries:
   - id: cal.1965-12-22.china-leadership
     when: Dec. 22
     date: '1965-12-22'
+    place: hangzhou
     thread: china-leadership
     also: [china, india-and-china-cultural-revolution]
     c: 'Mao, Hangzhou, with Peng Zhen, Kang Sheng and Yang Chengwu: again that *Hai Rui*''s point is the dismissal and Peng Dehuai a Hai Rui. Peng Zhen: by inquiry Wu Han and Peng Dehuai have no organizational link. Dec. 23: with Peng Zhen alone. Mao: Wu Han''s question to be given a political conclusion in two months.'
@@ -2871,6 +3328,7 @@ entries:
   - id: cal.1965-12-22.vietnam-hanoi
     when: Dec. 22
     date: '1965-12-22'
+    place: hanoi
     thread: vietnam-hanoi
     also: [laos]
     c: 'The Secretariat''s instruction no. 117-CT/TW on propaganda for the Lao revolution: the Lao and Vietnamese revolutions closely bound, both under American attack; propaganda to draw the two peoples together and win wider support abroad for Laos.'
@@ -2879,6 +3337,7 @@ entries:
   - id: cal.1965-12-22.china-leadership-2
     when: Dec. 22
     date: '1965-12-22'
+    place: peking
     thread: china-leadership
     c: 'Zhou invites artists of the Hotan song-and-dance troupe of Xinjiang and the Inner Mongolia Ulan Muqir touring troupe to his home in Zhongnanhai; eats steamed cornbread and big-pot vegetables with them. To the Ulan Muqir: you have gone all over the country and led all troupes; keep the name, bring revolutionary music and dance to the people; in tall buildings remember the yurt, riding the train remember the horse; go back to horseback and poor herders.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 22, 1965). Names: Zhou Enlai.'
@@ -2886,6 +3345,7 @@ entries:
   - id: cal.1965-12-22.china-leadership-3
     when: Dec. 22
     date: '1965-12-22'
+    place: peking
     thread: china-leadership
     also: [africa]
     c: The first ambassador of the Central African Republic to China, Joseph-Gambéré Mamadou, presents his credentials to Zhu De. He reached Beijing Dec. 12.
@@ -2983,6 +3443,7 @@ entries:
   - id: cal.1965-12-23.vietnam-hanoi
     when: Dec. 23
     date: '1965-12-23'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s instruction no. 118-CT/TW on information and agitation: the everyday work among the masses weak, so that policies, news and good examples of production and fighting reach too few.'
     n: '*Chỉ thị của Ban Bí thư số 118-CT/TW về việc tăng cường công tác thông tin và cổ động*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 480–84. Made public: 2003.'
@@ -3050,6 +3511,7 @@ entries:
   - id: cal.1965-12-24.civil-rights-the-executive
     when: Dec. 24
     date: '1965-12-24'
+    place: washington
     thread: civil-rights-the-executive
     also: [robert-kennedy]
     c: Courtney Evans, Robert Kennedy's FBI liaison, questioned at headquarters. By DeLoach's report, Evans, "upon having his recollection refreshed," agrees "that Kennedy must have known that our information came from microphones." Dec. 30, William Hundley of Justice the same.
@@ -3105,6 +3567,7 @@ entries:
   - id: cal.1965-12-24.china-leadership-2
     when: Dec. 24
     date: '1965-12-24'
+    place: peking
     thread: china-leadership
     c: Zhou goes to Zhongshan Hall in Zhongshan Park to condole Huang Yanpei's death, and attends the capital's public memorial rite.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 24, 1965). Names: Zhou Enlai, Huang Yanpei.'
@@ -3138,6 +3601,7 @@ entries:
     when: Dec. 25
     date: '1965-12-25'
     time: 1965-12-25T05:10Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou receives Romania's ambassador Gheorghiu at the Xihuating. The ambassador formally conveys that Prime Minister Maurer welcomes Zhou's visit to Romania, the time of the visit entirely for China to decide. Zhou answers briefly his questions on the situation in Vietnam.
@@ -3152,6 +3616,7 @@ entries:
     when: Dec. 25
     date: '1965-12-25'
     time: 1965-12-25T09:00Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives and gives a banquet for Pakistan's foreign minister Bhutto in Building 7 of the Diaoyutai guesthouse.
@@ -3165,6 +3630,9 @@ entries:
   - id: cal.1965-12-26.vietnam-pause
     when: Dec. 26
     date: '1965-12-26'
+    place:
+      - aspen
+      - round-mountain
     thread: vietnam-pause
     c: 'McNamara, from the Mountain Chalet at Aspen, Colo., through the lodge''s operator, to Johnson at a friend''s house in Round Mountain, Tex.: may he come to the Ranch alone to discuss Vietnam? Johnson agrees.'
     n: '[[w.mcnamara-in-retrospect]], ch. 8 at nn.26–27. See [[cal.1965-12-24.vietnam]]. Names: McNamara, Johnson.'
@@ -3189,6 +3657,7 @@ entries:
   - id: cal.1965-12-26.china-leadership
     when: Dec. 26–27
     date: '1965-12-26'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou has talks with Pakistan's foreign minister Bhutto, Dec. 26 and 27.
@@ -3221,6 +3690,7 @@ entries:
   - id: cal.1965-12-27.vietnam
     when: Dec. 27
     date: '1965-12-27'
+    place: lbj-ranch
     thread: vietnam-pause
     c: From the Ranch, Johnson defers resuming the bombing "for several more days"; Taylor, by telephone, against, though a few days would not matter.
     n: 'FRUS 1964–68, III, docs. [250](https://history.state.gov/historicaldocuments/frus1964-68v03/d250), [253](https://history.state.gov/historicaldocuments/frus1964-68v03/d253), [254](https://history.state.gov/historicaldocuments/frus1964-68v03/d254) (editorial note). [[w.johnson-vantage-point]], 237; [[w.gibbons-u-s-government-and]], IV, 126–27; [[w.zaroulis-who-spoke-up]], 66 (Johnson, at the Ranch, telephones his decision on the "peace offensive" to Washington late at night on Dec. 27; the Bundy brothers caught at a debutante ball); [[w.dallek-flawed-giant]], 345–46 (Johnson agrees to a bombing pause on Dec. 27, after the Christmas truce; Taylor urges a longer halt; not the call or "several more days"). [[w.preston-war-council]], 226 (Taylor, by Bundy''s report, "thinks the political reward of a solid pause is worth it at this stage"). To check: McGeorge Bundy to Johnson, Dec. 27, 1965, NSF Memos to the President—McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 126 n.42). See [[cal.1965-12-24.vietnam]]. Check: Gibbons (IV, 127 n.43), from McGeorge Bundy''s memorandum of Dec. 27, has Taylor now for going on with the pause "since we have endured three days." Names: Johnson, Taylor.'
@@ -3267,6 +3737,7 @@ entries:
     when: Dec. 27
     date: '1965-12-27'
     time: 1965-12-28T02:05Z
+    place: lbj-ranch
     thread: vietnam-pause
     c: 'McNamara flies from Colorado to the Ranch: dinner with Johnson, then talk from 8:05 to 10:55 p.m., no record kept, by Shapley''s account. McGeorge Bundy''s memorandum the same day: Rusk "very resistant indeed" to using the pause, he, Thompson, U. Alexis Johnson and William Bundy for resuming now and a longer pause later.'
     n: '[[w.gibbons-u-s-government-and]], IV, 126–27; [[w.mcnamara-in-retrospect]], ch. 8 (from Grand Junction by an Air Force jet, at the Ranch at 6:30 p.m.; dinner with the Johnsons and Luci; three hours by the fire; Johnson agrees to extend the pause indefinitely and mount a diplomatic effort; Rusk, against it, goes along). [[w.thomas-robert-kennedy]], 314 (Dec. 27, McNamara from Aspen to the Ranch to persuade Johnson to halt the bombing); [[w.drea-mcnamara-clifford-and-the-2011]], 67 (from his Colorado vacation to the Ranch; Johnson persuaded to go on with the halt indefinitely); [[w.dallek-flawed-giant]], 346 (McNamara three hours with Johnson at his ranch the evening of the 27th, pressing a longer pause; Rusk and State for renewed strikes and a pause later; not the flight, the dinner, the hours or Bundy''s memorandum). To check: [[w.shapley-promise-and-power]]; McGeorge Bundy to Johnson, Dec. 27, 1965, NSF Memos to the President—McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 126 n.42). See [[cal.1965-12-27.vietnam]]. Names: McNamara, Johnson, McGeorge Bundy, Rusk, Thompson, U. Alexis Johnson, William Bundy.'
@@ -3283,6 +3754,7 @@ entries:
   - id: cal.1965-12-27.vietnam-3
     when: Dec. 27
     date: '1965-12-27'
+    place: washington
     thread: vietnam
     c: 'William Bundy to Sullivan, Washington to Vientiane 687: Unger''s paper on an invasion was written; its conclusion, unacceptable political problems and little military value.'
     n: '[[w.gibbons-u-s-government-and]], IV, 194. To check: Washington to Vientiane 687, Dec. 27, 1965, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 194 n.75). See [[cal.1965-12-03.vietnam]]. Names: William Bundy, Sullivan, Unger.'
@@ -3341,6 +3813,7 @@ entries:
   - id: cal.1965-12-27.china-leadership-2
     when: Dec. 27
     date: '1965-12-27'
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou gives a banquet for Pakistan's foreign minister Bhutto in Building 17 of the Diaoyutai guesthouse.
@@ -3355,6 +3828,20 @@ entries:
       - 1965-12-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-12-27.china-leadership-3
+    when: Dec. 27
+    date: '1965-12-27'
+    place: peking
+    thread: china-leadership
+    c: 'The *Beijing Ribao* prints Wu Han''s self-criticism: his play has no tie to the push for individual farming and the reversal of verdicts in the early 1960s.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 453. To check: Wu Han, self-criticism of Dec. 27, 1965, translated in [[w.chinese-studies-in-history]], 2, No. 1, 68–107 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.128a); [[w.jin-1949-1989-niande-zhongguo]], 614 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.128b).'
+    src:
+      c: 29717b14
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 453: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.128a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.128b: all'
+    tags: [polity:prc]
   - id: cal.1965-12-28.vietnam
     when: Dec. 28
     date: '1965-12-28'
@@ -3395,6 +3882,7 @@ entries:
   - id: cal.1965-12-28.alabama
     when: Dec. 28–31
     date: '1965-12-28'
+    place: lowndes-county-al
     thread: alabama
     also: [voting-rights]
     c: 'Lowndes County. Twenty families evicted for registering to vote; SNCC buys tents, cots and stoves and pitches a tent city on Rosie Steele''s land on Highway 80. Hulett: "People in Lowndes County, whether they live or die, will put up our own candidates."'
@@ -3427,6 +3915,7 @@ entries:
   - id: cal.1965-12-28.vietnam-pause-2
     when: Dec. 28
     date: '1965-12-28'
+    place: washington
     thread: vietnam-pause
     c: State to Saigon, telegram 1805, on the pause.
     n: '[[w.gibbons-u-s-government-and]], IV, 128 n.49. To check: Washington to Saigon 1805, Dec. 28, 1965, State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 128 n.49). Check: its terms.'
@@ -3461,6 +3950,7 @@ entries:
   - id: cal.1965-12-28.vietnam-hanoi
     when: Dec. 28
     date: '1965-12-28'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo sets up a Central Theory Research Board: the Party leading the whole people against the United States, with the Northern revolution and the South''s raising theoretical and practical questions that must be settled to unify the Party''s thought and action.'
     n: '*Nghị quyết của Bộ Chính trị số 131-NQ/TW về việc thành lập Ban Nghiên cứu Lý luận của Trung ương*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXVI, 634–39. Made public: 2003.'
@@ -3508,6 +3998,7 @@ entries:
   - id: cal.1965-12-29.program
     when: Dec. 29
     date: '1965-12-29'
+    place: lbj-ranch
     thread: program
     c: Johnson with Califano approves "a massive second-year program that would astound the Congress and the country" for the State of the Union.
     n: '[[w.dallek-flawed-giant]], 302; [[w.califano-triumph-and-tragedy-of]], 114–17 (the Ranch, the loose-leaf book "The Great Society—A Second Year Legislative Program": smallpox, TRIM, Transportation, the SST, Demonstration Cities, parks, health, the school meals of Father Woodrich, campaign finance; under two hours); [[w.bernstein-guns-or-butter]], 320–21. To check: Califano''s oral histories, Mar. 16 and Dec. 21, 1988, June 13, 1989, LBJ Library; "Legislative Program Outline for 1966," WHCF: Aides: Califano, LBJ Library (cited by [[w.dallek-flawed-giant]], 302). See [[cal.1965-01-04.program]]. Names: Johnson, Califano.'
@@ -3572,6 +4063,7 @@ entries:
   - id: cal.1965-12-29.vietnam-force-levels
     when: Dec. 29
     date: '1965-12-29'
+    place: pleiku
     thread: vietnam-force-levels
     c: 'The 3d Brigade, 25th Infantry Division, flown from Hawaii to Pleiku, begins arriving: the year''s last Army deployment. Army strength in South Vietnam at the year''s end, 116,755.'
     n: '[[w.macv-command-history-1965]], 45. To check: MACOI News Release 363–65, Dec. 29, 1965 (cited by [[w.macv-command-history-1965]], 45 n.103); MACJ1, Strength Report, Jan. 13, 1966 (cited by [[w.macv-command-history-1965]], 45 n.104, for the strength). See [[cal.1965-12-11.vietnam-force-levels]].'
@@ -3602,6 +4094,7 @@ entries:
   - id: cal.1965-12-29.soviet-union-leadership
     when: Dec. 29
     date: '1965-12-29'
+    place: moscow
     thread: soviet-union-leadership
     also: [cuba]
     c: Moscow. Brezhnev receives Carlos Rafael Rodríguez, Secretary of the Cuban party's Central Committee, 11 to 1.
@@ -3621,11 +4114,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Yang Chengwu appointed acting chief of staff of the PLA in Luo Ruiqing's place.
-    n: '[[w.macfarquhar-maos-last-revolution]], 26. Made public: 2006. To check: [[w.yao-san-ci-da-nan]], 292–293 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55a); [[w.nianyi-da-dongluande-niandai-revised]], 94 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55b). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 26; [[w.macfarquhar-origins-of-the-cultural]], III, 450 (Yang Chengwu, a deputy, acting chief of staff in Luo Ruiqing''s place). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.yao-san-ci-da-nan]], 292–293 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55a); [[w.nianyi-da-dongluande-niandai-revised]], 94 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55b); [[w.jin-1949-1989-niande-zhongguo]], 633–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 450 n.116a); [[w.al-zhongguo-gongchan-dang-zhizheng]], 265 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 450 n.116b). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing.'
     src:
       c: c5e8be84
       rows:
         - 'w.macfarquhar-maos-last-revolution 26: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 450: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 450 n.116a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 450 n.116b: A'
     tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
   - id: cal.1965-12-30.congress
     when: Dec. 30
@@ -3637,6 +4133,7 @@ entries:
   - id: cal.1965-12-30.vietnam
     when: Dec. 30
     date: '1965-12-30'
+    place: manila
     thread: vietnam-pause
     also: [japan, korea]
     c: Humphrey at Manila for Marcos's inauguration; then Tokyo, Seoul, Taipei, on the pause; back Jan. 3.
@@ -3651,6 +4148,7 @@ entries:
     when: Dec. 30
     date: '1965-12-30'
     time: 1965-12-30T16:20Z
+    place: lbj-ranch
     thread: vietnam-congress
     also: [vietnam-pause]
     c: 'Johnson, from the Ranch, to Ball by telephone: fly to Florida and see Fulbright, Mansfield and Dirksen, quietly; tell Fulbright the stories of his exclusion from the White House are "nonsense," most of it "coming from Marcy," and make the peace offensive "a Fulbright proposal"; Hickenlooper too, without seeming to retreat. A second call: Mansfield to tell Sihanouk the United States wants no border incidents.'
@@ -3701,6 +4199,7 @@ entries:
   - id: cal.1965-12-30.vietnam-congress-2
     when: Dec. 30
     date: '1965-12-30'
+    place: atlanta
     thread: vietnam-congress
     also: [economy]
     c: 'Russell to the Atlanta Jaycees: the country cannot "carry on a war effort of the magnitude we are reaching in Vietnam and at the same time finance all the domestic programs of the Great Society"; taxes, or "an inflationary new round of deficit financing." "The nation''s security must be placed ahead of every other consideration."'
@@ -3714,6 +4213,7 @@ entries:
   - id: cal.1965-12-30.vietnam-pause
     when: Dec. 30
     date: '1965-12-30'
+    place: ottawa
     thread: vietnam-pause
     c: Ottawa. Bundy briefs Pearson on the pause, for Canada's help toward a settlement.
     n: '[[w.preston-war-council]], 226. To check: *Globe and Mail* (Toronto), Dec. 31, 1965, 1 (cited by [[w.preston-war-council]], 226 n.40). See [[cal.1965-12-29.vietnam]]. Names: Bundy, Pearson. Check: the day of the visit.'
@@ -3749,6 +4249,7 @@ entries:
   - id: cal.1965-12-30.china-leadership
     when: Dec. 30
     date: '1965-12-30'
+    place: peking
     thread: china-leadership
     c: 'Chen Yi, answering questions of Takano Yoshihisa of *Akahata*, in Beijing: the Chinese people stand firmly with over 90 percent of the world''s people against U.S. aggression and war policy, and back every struggle of oppressed peoples and nations for freedom and independence. If the U.S. insists on carrying the war to China, China will fight.'
     n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 76 (Dec. 30, 1965). Names: Chen Yi. Check: the correspondent''s name, from the Chinese 高野好久.'
@@ -3757,6 +4258,19 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 76: all'
     tags: [polity:prc, polity:japan, name:chen-yi]
+  - id: cal.1965-12-30.china-leadership-2
+    when: Dec. 30
+    date: '1965-12-30'
+    thread: china-leadership
+    c: The *People's Daily* prints Wu Han's self-criticism.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 453. To check: Wu Han, self-criticism of Dec. 27, 1965, translated in [[w.chinese-studies-in-history]], 2, No. 1, 68–107 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.128a); [[w.jin-1949-1989-niande-zhongguo]], 614 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.128b). See [[cal.1965-12-27.china-leadership-3]].'
+    src:
+      c: c5ca6702
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 453: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.128a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.128b: all'
+    tags: [polity:prc]
   - id: cal.1965-12-31.steel
     when: Dec. 31
     date: '1965-12-31'
@@ -3775,6 +4289,7 @@ entries:
   - id: cal.1965-12-31.vietnam
     when: Dec. 31
     date: '1965-12-31'
+    place: paris
     thread: vietnam-pause
     c: Goldberg with de Gaulle at Paris, on the pause. Check.
     n: '[FRUS 1964–68, III, doc. 278](https://history.state.gov/historicaldocuments/frus1964-68v03/d278). See [[cal.1965-12-24.vietnam]]. Names: Goldberg, de Gaulle.'
@@ -3862,6 +4377,7 @@ entries:
     when: Dec., mid-month
     date: 1965-12
     at: before 1965-12-11
+    place: honolulu
     thread: vietnam-force-levels
     c: Honolulu. Westmoreland with Sharp on his concept of operations, deployments and organization and the troops he needs for the enemy's build-up. Wheeler and Harold Johnson in Saigon the same month.
     n: '[[w.westmoreland-soldier-reports]], 154. Check: the days. See [[cal.1965-11-28.vietnam]]. Names: Westmoreland, Sharp, Wheeler, Harold Johnson.'
@@ -3909,6 +4425,7 @@ entries:
   - id: cal.1965-12.mississippi
     when: Dec.
     date: 1965-12
+    place: hattiesburg
     thread: mississippi
     c: Hattiesburg. Vernon Dahmer and J. C. Fairley see Sheriff Bud Gray about the poll tax. Gray signs out one of the county's poll-tax receipt books to Dahmer, as the county did for the Jaycees and the downtown stores in citizenship drives.
     n: '[[w.branch-pillar-of-fire]], 606. To check: Int. James K. Dukes, June 23, 1992 (cited by [[w.branch-pillar-of-fire]], 606). Check: the day ("at year''s end"); the day Gray signed out the book. See [[cal.1964-12-04.mississippi]]. Names: Dahmer.'
@@ -4040,6 +4557,7 @@ entries:
   - id: cal.1965-12.vietnam-congress-mansfield
     when: Dec.
     date: 1965-12
+    place: saigon
     thread: vietnam-congress-mansfield
     c: Saigon. Mansfield's group, Aiken, Muskie and the others, meet Kỳ, Thiệu and Foreign Minister Trần Văn Đỗ.
     n: '[[w.gibbons-u-s-government-and]], IV, 136 n.68; [[w.zaroulis-who-spoke-up]], 66 (Mansfield and four senators in Saigon in December, ending a thirty-five-day tour of sixteen capitals; not the meeting). To check: memoranda of conversation, State, Lot File 70 D 102 (cited by [[w.gibbons-u-s-government-and]], IV, 136 n.68). Check: the days. Names: Mansfield, Aiken, Muskie, Kỳ, Thiệu, Trần Văn Đỗ.'
@@ -4076,6 +4594,7 @@ entries:
     when: Dec., late
     date: 1965-12
     at: before 1965-12-21
+    place: hanoi
     thread: war-opposition
     also: [vietnam-diplomacy]
     c: Aptheker of the American Institute for Marxist Studies, Staughton Lynd of the Yale history faculty and Tom Hayden, first president of SDS, go to Hanoi without the government's permission, to explore the chances of peace; not prosecuted. Back in January, they say little but that they are hopeful. Their offer to testify declined by Foreign Relations.
@@ -4113,6 +4632,7 @@ entries:
   - id: cal.1965-12.states-and-cities-dallas
     when: Dec.
     date: 1965-12
+    place: dallas
     thread: states-and-cities
     c: 'Dallas. Mayor Jonsson''s "Days of Decision" speech to the downtown Rotary Club: "Shall we deal adequately with the future or be run over by it?" He names a Goals Planning Committee of 27, and asks twelve local writers for twelve essays on the city''s problems.'
     n: '[[w.peirce-great-plains-states-of]], 347. Check: the day. See [[cal.1964-02-03.mayors-dallas]]. Names: Jonsson.'
@@ -4132,6 +4652,7 @@ entries:
   - id: cal.1965-12.students
     when: Dec., Christmas
     date: 1965-12
+    place: champaign-urbana
     thread: students
     also: [women]
     c: 'Urbana, Ill. An SDS conference at the University of Illinois: it votes down a turn to work against the war; a pamphlet on conscientious objection and "Freedom Draft Cards" instead. Racial fights; the New Left''s first workshop on "Women in the Movement."'
@@ -4206,6 +4727,7 @@ entries:
     when: Dec., late
     date: 1965-12
     at: before 1965-12-21
+    place: puerto-rico
     thread: congress
     c: The Fulbrights to Puerto Rico for a week after Christmas, Hal Douglas with them.
     n: '[[w.woods-fulbright]], 396. Check: the days. Names: Fulbright.'
@@ -4250,6 +4772,7 @@ entries:
   - id: cal.1965-12.china-leadership-3
     when: Dec.
     date: 1965-12
+    place: shanghai
     thread: china-leadership
     also: [china]
     c: Shanghai. Peng Zhen meets Zhang Chunqiao. Zhang assures him it is all a scholarly discussion and proposes how it should proceed. Peng approves, and promises Zhang a Peking duck dinner in the capital when the debate has run its course.
@@ -4262,6 +4785,7 @@ entries:
   - id: cal.1965-12-31.china-leadership-2
     when: Dec. 31
     date: '1965-12-31'
+    place: peking
     thread: china-leadership
     c: Zhou attends at the Beijing Hotel the New Year's eve party for the capital's artists and the Albanian People's Army song and dance ensemble, welcoming 1966.
     n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 31, 1965; evening; Beijing Hotel). Names: Zhou Enlai.'
@@ -4286,3 +4810,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 189–190: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:castro-fidel, name:dorticos-torrado-osvaldo, polity:cuba]
+  - id: cal.1965-12.china-leadership-4
+    when: Dec.
+    date: 1965-12
+    thread: china-leadership
+    c: Wu Faxian, the new air force commander, and Li Zuopeng, the navy's political commissar, write in support of Lin Biao's charges against Luo Ruiqing, at Lin's arrangement.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 449. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 632–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112a). Names: Wu Faxian, Li Zuopeng, Lin Biao, Luo Ruiqing. Check: the month; the book gives no date, placing the letters after Lin''s of Nov. 30, 1965 (III, 449).'
+    src:
+      c: 927185bf
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 449: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.112a: all'
+    tags: [polity:prc, name:wu-faxian, name:li-zuopeng, name:lin-biao, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1965-12.china-leadership-5
+    when: Dec.
+    date: 1965-12
+    place: peking
+    thread: china-leadership
+    c: Deng Tuo, under a pen name, defends Wu Han in the *Beijing Ribao*.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 452–53. To check: [[w.shuangbi-wu-han-zhuan]], 321 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.126).'
+    src:
+      c: c911269d
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 452–53: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.126: all'
+    tags: [polity:prc]
+  - id: cal.1965-12.china-leadership-6
+    when: Dec.
+    date: 1965-12
+    thread: china-leadership
+    c: The *People's Daily* and the *Beijing Ribao*, following the Five-Man Group, print articles steering the Wu Han debate to literary ground; articles defending Wu Han appear even in the *Wenhui bao*.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 452–53. To check: [[w.chinese-studies-in-history]], 2, No. 1, 44–8, 56–67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.127). See [[cal.1965-12.china-leadership-2]].'
+    src:
+      c: a429997a
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 452–53: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.127: all'
+    tags: [polity:prc]
+  - id: cal.1965-12.china-leadership-7
+    when: Dec., after the 22nd
+    date: 1965-12
+    at: after 1965-12-22
+    thread: china-leadership
+    c: Tian Jiaying tries to cut Mao's words on Peng Dehuai and Hai Rui from the record of the Hangzhou talks.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130. Made public: 1990 ([[w.yonglie-chen-boda-qiren]]). To check: [[w.yonglie-chen-boda-qiren]], 228–30 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130b); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 492–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130c). Names: Mao Zedong, Peng Dehuai.'
+    src:
+      c: 70001cf7
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 453 n.130: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.130b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.130c: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]

@@ -1,0 +1,1251 @@
+patch: 2026-11-19-places-01
+by: 'Claude (the location pass, chunk01: Jan. 6, 1960-July 5, 1961), Nov. 18-19, 2026'
+ops:
+- place-key: {key: cape-canaveral, name: 'Cape Canaveral, Fla.', zone: America/New_York, st: FL}
+- place-key: {key: clarksburg-wv, name: 'Clarksburg, W. Va.', zone: America/New_York, st: WV}
+- place-key: {key: baghdad, name: 'Baghdad', zone: Asia/Baghdad, in: iraq}
+- place-key: {key: calcutta, name: 'Calcutta', zone: Asia/Kolkata, in: india}
+- place-key: {key: katmandu, name: 'Katmandu', zone: Asia/Kathmandu, in: nepal}
+- place-key: {key: pokhara, name: 'Pokhara', zone: Asia/Kathmandu, in: nepal}
+- place-key: {key: kampot-province, name: 'Kampot province', zone: Asia/Phnom_Penh, in: cambodia}
+- place-key: {key: istanbul, name: 'Istanbul', zone: Europe/Istanbul, in: turkey}
+- place-key: {key: tarrytown, name: 'Tarrytown, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: camden-nj, name: 'Camden, N.J.', zone: America/New_York, st: NJ}
+- place-key: {key: beverly-hills, name: 'Beverly Hills, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: nicosia, name: 'Nicosia', zone: Asia/Nicosia, in: cyprus}
+- place-key: {key: independence-mo, name: 'Independence', zone: America/Chicago, st: MO}
+- place-key: {key: san-jose-cr, name: 'San José', zone: America/Costa_Rica, in: costa-rica}
+- place-key: {key: grand-forks-nd, name: 'Grand Forks, N.D.', zone: America/Chicago, st: ND}
+- place-key: {key: sioux-city, name: 'Sioux City', zone: America/Chicago, st: IA}
+- place-key: {key: hot-springs-ar, name: 'Hot Springs, Ark.', zone: America/Chicago, st: AR}
+- place-key: {key: ann-arbor, name: 'Ann Arbor', zone: America/Detroit, st: MI}
+- place-key: {key: peoria, name: 'Peoria', zone: America/Chicago, st: IL}
+- place-key: {key: guatemala-city, name: 'Guatemala City', zone: America/Guatemala, in: guatemala}
+- place-key: {key: garden-city-ny, name: 'Garden City, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: waterbury, name: 'Waterbury', zone: America/New_York, st: CT}
+- place-key: {key: ontario-ca, name: 'Ontario, Cal.', zone: America/Los_Angeles, st: CA}
+- place-key: {key: whittier, name: 'Whittier', zone: America/Los_Angeles, st: CA}
+- place-key: {key: augusta-ga, name: 'Augusta, Ga.', zone: America/New_York, st: GA}
+- place-key: {key: williamsburg-va, name: 'Williamsburg, Va.', zone: America/New_York, st: VA}
+- place-key: {key: minsk, name: 'Minsk', zone: Europe/Minsk, in: ussr}
+- place-key: {key: irkutsk, name: 'Irkutsk', zone: Asia/Irkutsk, in: ussr}
+- place-key: {key: jerusalem, name: 'Jerusalem', zone: Asia/Jerusalem, in: israel}
+- place-key: {key: moulmein, name: 'Moulmein', zone: Asia/Yangon, in: burma}
+- place-key: {key: mandalay, name: 'Mandalay', zone: Asia/Yangon, in: burma}
+- place-key: {key: pagan, name: 'Pagan', zone: Asia/Yangon, in: burma}
+- place-key: {key: la-paz, name: 'La Paz', zone: America/La_Paz, in: bolivia}
+- place-key: {key: novosibirsk, name: 'Novosibirsk', zone: Asia/Novosibirsk, in: ussr}
+- place-key: {key: key-west, name: 'Key West', zone: America/New_York, st: FL}
+- place-key: {key: norfolk-va, name: 'Norfolk', zone: America/New_York, st: VA}
+- place-key: {key: jinghong, name: 'Jinghong', zone: Asia/Shanghai, in: prc}
+- place-key: {key: puerto-cabezas, name: 'Puerto Cabezas', zone: America/Managua, in: nicaragua}
+- place-key: {key: simao, name: 'Simao', zone: Asia/Shanghai, in: prc}
+- place-key: {key: glen-ora, name: 'Glen Ora', zone: America/New_York, st: VA}
+- place-key: {key: playa-giron, name: 'Playa Girón', zone: America/Havana, in: cuba}
+- place-key: {key: bay-of-pigs, name: 'the Bay of Pigs', zone: America/Havana, in: cuba}
+- place-key: {key: opa-locka, name: 'Opa-locka, Fla.', zone: America/New_York, st: FL}
+- place-key: {key: she-county, name: 'She county', zone: Asia/Shanghai, in: prc}
+- place-key: {key: parchman, name: 'Parchman, Miss.', zone: America/Chicago, st: MS}
+- place-key: {key: zurich, name: 'Zurich', zone: Europe/Zurich, in: switzerland}
+- place-key: {key: albany, name: 'Albany, N.Y.', zone: America/New_York, st: NY, fix: true}
+- place-key: {key: charleston, name: 'Charleston, W. Va.', zone: America/New_York, st: WV, fix: true}
+- place-key: {key: augusta, name: 'Augusta, Me.', zone: America/New_York, st: ME, fix: true}
+- place-key: {key: hickory-hill, name: 'Hickory Hill', zone: America/New_York, st: VA}
+- place-key: {key: hyannis, name: 'Hyannis, Mass.', zone: America/New_York, st: MA}
+- place-key: {key: dearborn, name: 'Dearborn', zone: America/Detroit, st: MI}
+- place: {id: cal.1960-01-06.congress, at: washington, basis: seat}
+- place: {id: cal.1960-01-06.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1960-01-07.congress, at: washington, basis: seat, note: 'the Senate Democratic conference'}
+- place: {id: cal.1960-01-07.program, at: washington, basis: seat, note: 'the State of the Union, in person, to the joint session'}
+- place: {id: cal.1960-01-08.berlin-and-vienna, at: moscow, basis: c}
+- place: {id: cal.1960-01-08.cuba, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1960-01-08.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republicans'' Committee on Committees'}
+- place: {id: cal.1960-01-08.soviet-union-leadership, at: moscow, basis: seat}
+- place: {id: cal.1960-01-09.cuba, at: mexico-city, basis: c, note: 'the KGB station''s report'}
+- place: {id: cal.1960-01-09.elections-1960-nomination, at: washington, basis: c}
+- place: {id: cal.1960-01-09.governors-la, at: louisiana, basis: c}
+- place: {id: cal.1960-01-18.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Wucheng Hall'}
+- place: {id: cal.1960-01-18.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-01-18.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-01-18.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1960-01-18.republican-party-congress-2, at: washington, basis: seat, note: 'the Senate Republicans'' Committee on Committees'}
+- place: {id: cal.1960-01-19.congress, at: washington, basis: seat}
+- place: {id: cal.1960-01-19.defense, at: washington, basis: seat}
+- place: {id: cal.1960-01-19.japan-and-korea, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-01-20.congress, at: washington, basis: seat, note: 'the Senate Democratic conference'}
+- place: {id: cal.1960-01-20.cuba-3, at: moscow, basis: seat}
+- place: {id: cal.1960-01-21.elections-1960, at: milwaukee, basis: c}
+- place: {id: cal.1960-01-23.elections-1960-nomination-2, at: washington, basis: c}
+- place: {id: cal.1960-01-23.goldwater, at: los-angeles, basis: c, note: 'the Los Angeles Times'}
+- place: {id: cal.1960-01-23.press-and-broadcasting, at: nyc, basis: n, note: 'the New York Herald Tribune'}
+- place: {id: cal.1960-01-24.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-01-24.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-01-25.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Wucheng Hall'}
+- place: {id: cal.1960-01-25.congress, at: washington, basis: seat}
+- place: {id: cal.1960-01-26.china-leadership-3, at: peking, basis: n, note: 'the Peking Hotel'}
+- place: {id: cal.1960-01-26.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-01-27.china-leadership-3, at: peking, basis: n, note: 'the Peking Hotel'}
+- place: {id: cal.1960-01-27.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-01-27.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-01-27.voting-rights, at: washington, basis: seat, note: 'the House floor'}
+- place: {id: cal.1960-01-28.africa-algeria-morocco, at: moscow, basis: seat}
+- place: {id: cal.1960-01-28.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-01-28.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-01-29.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-01-29.cuba, at: moscow, basis: seat}
+- place: {id: cal.1960-01-29.state-and-city-finance-ky, at: kentucky, basis: c, note: 'the Kentucky House'}
+- place: {id: cal.1960-02-01.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-02-02.states-and-cities, at: washington, basis: seat}
+- place: {id: cal.1960-02-03.state-and-city-finance-ky, at: kentucky, basis: c, note: 'the Kentucky Senate'}
+- place: {id: cal.1960-02-04.school-aid, at: washington, basis: seat}
+- place: {id: cal.1960-02-05.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-02-05.voting-rights, at: washington, basis: seat, note: 'the Senate Rules Committee'}
+- place: {id: cal.1960-02-07.cuba, at: havana, basis: c}
+- place: {id: cal.1960-02-07.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-02-08.voting-rights, at: georgia, basis: c, note: 'the speech to the General Assembly'}
+- place: {id: cal.1960-02-11.testing, at: geneva, basis: c}
+- place: {id: cal.1960-02-13.cuba, at: havana, basis: c}
+- place: {id: cal.1960-02-15.china-leadership-2, at: canton, basis: c}
+- place: {id: cal.1960-02-17.georgia-ga, at: atlanta, basis: c, note: 'the State Capitol'}
+- place: {id: cal.1960-02-17.king, at: montgomery, basis: c, note: 'the indictment'}
+- place: {id: cal.1960-02-17.press-and-broadcasting, at: washington, basis: c, note: 'the Executive Office Building'}
+- place: {id: cal.1960-02-17.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-02-20.voting-rights, at: washington, basis: c, note: 'the Rules Committee''s hearing room'}
+- place: {id: cal.1960-02-23.court, at: washington, basis: seat}
+- place: {id: cal.1960-02-23.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-02-25.congo, at: brussels, basis: c}
+- place: {id: cal.1960-02-25.conservation, at: washington, basis: seat}
+- place: {id: cal.1960-02-25.conservation-2, at: washington, basis: seat}
+- place: {id: cal.1960-02-26.vietnam-congress, at: washington, basis: seat, note: 'the Senate subcommittee''s report'}
+- place: {id: cal.1960-02-29.court, at: washington, basis: seat}
+- place: {id: cal.1960-03-02.alabama, at: montgomery, basis: c}
+- place: {id: cal.1960-03-02.crime-and-hijacking-chessman, at: california, basis: c, note: 'the Legislature in special session'}
+- place: {id: cal.1960-03-03.cuba-2, at: havana, basis: c}
+- place: {id: cal.1960-03-03.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1960-03-03.voting-rights, at: washington, basis: c, note: 'the Washington Post'}
+- place: {id: cal.1960-03-05.voting-rights, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1960-03-07.court, at: washington, basis: seat}
+- place: {id: cal.1960-03-08.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-03-08.cuba, at: havana, basis: c}
+- place: {id: cal.1960-03-08.elections-1960, at: new-hampshire, basis: c}
+- place: {id: cal.1960-03-08.specials, at: nyc, basis: c, note: 'the Bronx'}
+- place: {id: cal.1960-03-10.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-03-10.crime-and-hijacking-chessman, at: california, basis: tag, note: 'the State Senate''s committee; tag state:ca'}
+- place: {id: cal.1960-03-10.middle-east, at: washington, basis: c}
+- place: {id: cal.1960-03-11.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-03-11.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-03-12.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Wucheng Hall'}
+- place: {id: cal.1960-03-12.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-03-12.cuba, at: moscow, basis: seat}
+- place: {id: cal.1960-03-14.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-03-14.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-03-15.berlin-and-vienna, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-03-15.china-leadership-4, at: peking, basis: n, note: 'Zhongnanhai, Wucheng Hall'}
+- place: {id: cal.1960-03-15.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-03-15.testing, at: geneva, basis: c}
+- place: {id: cal.1960-03-17.vietnam, at: washington, basis: seat, note: 'State and Defense''s cable'}
+- place: {id: cal.1960-03-18.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-03-19.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-03-19.testing, at: geneva, basis: c}
+- place: {id: cal.1960-03-20.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-03-21.china-leadership-7, at: peking, basis: c}
+- place: {id: cal.1960-03-21.china-leadership-8, at: peking, basis: c}
+- place: {id: cal.1960-03-21.court, at: washington, basis: seat}
+- place: {id: cal.1960-03-21.testing, at: moscow, basis: seat}
+- place: {id: cal.1960-03-22.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-03-22.medicare, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-03-22.states-and-cities, at: new-york-state, basis: c, note: 'the State'}
+- place: {id: cal.1960-03-23.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-03-23.elections-1960, at: new-orleans, basis: c, note: 'the FBI office''s report'}
+- place: {id: cal.1960-03-23.states-and-cities, at: new-york-state, basis: c, note: 'the State'}
+- place: {id: cal.1960-03-26.desegregation-public-places-las-vegas, at: las-vegas, basis: c}
+- place: {id: cal.1960-03-26.states-and-cities, at: new-york-state, basis: c, note: 'the State'}
+- place: {id: cal.1960-03-28.court, at: washington, basis: seat}
+- place: {id: cal.1960-03-29.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-03-29.cuba, at: moscow, basis: seat}
+- place: {id: cal.1960-03-29.king, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1960-03-30.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-03-30.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1960-03-30.states-and-cities, at: new-york-state, basis: c, note: 'the State Legislature'}
+- place: {id: cal.1960-03-30.states-and-cities-2, at: new-york-state, basis: c, note: 'the State Legislature'}
+- place: {id: cal.1960-03-31.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-04-01.africa, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1960-04-01.space, at: cape-canaveral, basis: c}
+- place: {id: cal.1960-04-04.china-leadership, at: peking, basis: n, note: 'the Cambodian Embassy in China (柬埔寨驻华大使馆); Peking''s vice-mayor'}
+- place: {id: cal.1960-04-04.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-04-04.press-and-broadcasting, at: milwaukee, basis: c}
+- place: {id: cal.1960-04-04.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-04-05.elections-1960, at: wisconsin, basis: c}
+- place: {id: cal.1960-04-05.elections-1960-3, at: milwaukee, basis: c}
+- place: {id: cal.1960-04-05.elections-1960-kennedy, at: milwaukee, basis: n, note: 'the Pfister Hotel, Milwaukee'}
+- place: {id: cal.1960-04-05.mayors-milwaukee, at: milwaukee, basis: c}
+- place: {id: cal.1960-04-05.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-04-06.elections-1960, at: clarksburg-wv, basis: c, note: 'the morning''s meeting, the first of two (Charleston, W. Va., the afternoon)'}
+- place: {id: cal.1960-04-06.elections-1960-primaries, at: chicago, basis: c}
+- place: {id: cal.1960-04-07.middle-east, at: moscow, basis: seat}
+- place: {id: cal.1960-04-07.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-04-08.elections-1960, at: washington, basis: c, note: 'Johnson''s Capitol office'}
+- place: {id: cal.1960-04-08.elections-1960-2, at: charleston, basis: c, note: 'Charleston, W. Va.'}
+- place: {id: cal.1960-04-08.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-04-09.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-04-11.elections-1960, at: charleston, basis: c, note: 'Charleston, W. Va.'}
+- place: {id: cal.1960-04-12.elections-1960, at: illinois, basis: c}
+- place: {id: cal.1960-04-12.governors-il, at: illinois, basis: c}
+- place: {id: cal.1960-04-13.china-leadership-2, at: kunming, basis: c, note: 'the arrival in the afternoon'}
+- place: {id: cal.1960-04-13.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-04-14.middle-east, at: baghdad, basis: c}
+- place: {id: cal.1960-04-15.china-leadership-3, at: rangoon, basis: c}
+- place: {id: cal.1960-04-15.china-leadership-4, at: rangoon, basis: c}
+- place: {id: cal.1960-04-15.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-04-15.vietnam-hanoi, at: hanoi, basis: c}
+- place: {id: cal.1960-04-17.china-leadership-3, at: rangoon, basis: n, note: 'U Nu''s house in Rangoon (仰光吴努私人住宅)'}
+- place: {id: cal.1960-04-17.china-leadership-4, at: rangoon, basis: c}
+- place: {id: cal.1960-04-17.china-leadership-5, at: rangoon, basis: c}
+- place: {id: cal.1960-04-17.china-leadership-6, at: rangoon, basis: c}
+- place: {id: cal.1960-04-18.china-leadership, at: rangoon, basis: c}
+- place: {id: cal.1960-04-18.china-leadership-4, at: rangoon, basis: c}
+- place: {id: cal.1960-04-18.china-leadership-6, at: rangoon, basis: c}
+- place: {id: cal.1960-04-19.alabama, at: montgomery, basis: c, note: 'the suit'}
+- place: {id: cal.1960-04-19.china-leadership-2, at: rangoon, basis: c}
+- place: {id: cal.1960-04-19.china-leadership-3, at: calcutta, basis: c}
+- place: {id: cal.1960-04-19.elections-1960, at: new-jersey, basis: c}
+- place: {id: cal.1960-04-19.governors-la, at: louisiana, basis: c}
+- place: {id: cal.1960-04-21.china-leadership-5, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-21.china-leadership-6, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-21.cuba, at: moscow, basis: seat}
+- place: {id: cal.1960-04-21.foreign-aid, at: washington, basis: seat}
+- place: {id: cal.1960-04-21.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-04-22.china-leadership-5, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-22.china-leadership-7, at: new-delhi, basis: c, note: 'President''s House'}
+- place: {id: cal.1960-04-22.china-leadership-8, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-23.china-leadership-2, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-25.china-leadership-3, at: new-delhi, basis: n, note: 'the press conference at Delhi (the Zhonghua waijiao chronology)'}
+- place: {id: cal.1960-04-25.china-leadership-4, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-25.china-leadership-5, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-25.china-leadership-6, at: new-delhi, basis: c}
+- place: {id: cal.1960-04-26.china-leadership-4, at: new-delhi, basis: c, note: 'the departure'}
+- place: {id: cal.1960-04-26.china-leadership-6, at: katmandu, basis: c}
+- place: {id: cal.1960-04-26.china-leadership-7, at: katmandu, basis: c}
+- place: {id: cal.1960-04-26.specials, at: pennsylvania, basis: c}
+- place: {id: cal.1960-04-26.specials-2, at: pennsylvania, basis: c}
+- place: {id: cal.1960-04-26.vietnam, at: saigon, basis: c, note: 'the Caravelle Hotel'}
+- place: {id: cal.1960-04-27.china-leadership, at: pokhara, basis: c}
+- place: {id: cal.1960-04-27.china-leadership-2, at: [katmandu, pokhara], basis: c, note: 'the flight'}
+- place: {id: cal.1960-04-27.states-and-cities-ca, at: california, basis: c}
+- place: {id: cal.1960-04-28.china-leadership-4, at: katmandu, basis: c}
+- place: {id: cal.1960-04-28.foreign-aid, at: washington, basis: seat}
+- place: {id: cal.1960-04-28.georgia-ga, at: georgia, basis: c, note: 'the reports to the General Assembly'}
+- place: {id: cal.1960-04-28.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-04-28.vietnam-hanoi, at: hanoi, basis: seat, note: 'the Party Center''s cable'}
+- place: {id: cal.1960-04-29.china-leadership-3, at: katmandu, basis: c, note: 'the departure'}
+- place: {id: cal.1960-05-01.soviet-union-u2-2, at: moscow, basis: c}
+- place: {id: cal.1960-05-03.alabama-al, at: alabama, basis: c}
+- place: {id: cal.1960-05-03.elections-1960-2, at: washington, basis: c}
+- place: {id: cal.1960-05-03.governors-fl, at: florida, basis: c}
+- place: {id: cal.1960-05-03.soviet-union-u2, at: moscow, basis: c, note: 'the Lubyanka'}
+- place: {id: cal.1960-05-03.vietnam, at: saigon, basis: tag, note: 'Durbrow''s telegram; tag place:saigon'}
+- place: {id: cal.1960-05-04.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-05-05.china-leadership-3, at: phnom-penh, basis: c}
+- place: {id: cal.1960-05-05.soviet-union-u2, at: moscow, basis: c}
+- place: {id: cal.1960-05-06.china-leadership-2, at: phnom-penh, basis: c}
+- place: {id: cal.1960-05-07.china-leadership-3, at: kampot-province, basis: c}
+- place: {id: cal.1960-05-07.governors-tx, at: texas, basis: c}
+- place: {id: cal.1960-05-07.soviet-union-u2-2, at: moscow, basis: c, note: 'Thompson''s cable'}
+- place: {id: cal.1960-05-09.china-leadership-3, at: phnom-penh, basis: c}
+- place: {id: cal.1960-05-09.elections-1960-2, at: west-virginia, basis: c}
+- place: {id: cal.1960-05-10.china-leadership, at: zhengzhou, basis: c, note: 'on the train'}
+- place: {id: cal.1960-05-10.china-leadership-2, at: zhengzhou, basis: c, note: 'on the train'}
+- place: {id: cal.1960-05-10.china-leadership-4, at: hanoi, basis: c}
+- place: {id: cal.1960-05-10.elections-1960-2, at: charleston, basis: c, note: 'Charleston, W. Va.'}
+- place: {id: cal.1960-05-10.elections-1960-primaries, at: washington, basis: c}
+- place: {id: cal.1960-05-10.governors-ne, at: nebraska, basis: c}
+- place: {id: cal.1960-05-10.governors-nm, at: new-mexico, basis: c}
+- place: {id: cal.1960-05-10.governors-wv, at: west-virginia, basis: c}
+- place: {id: cal.1960-05-11.congress, at: washington, basis: seat}
+- place: {id: cal.1960-05-11.elections-1960-2, at: washington, basis: c, note: 'at the Senate, before it convened'}
+- place: {id: cal.1960-05-11.elections-1960-primaries, at: chicago, basis: c}
+- place: {id: cal.1960-05-12.china-leadership-3, at: hanoi, basis: c}
+- place: {id: cal.1960-05-12.congress, at: washington, basis: seat}
+- place: {id: cal.1960-05-12.soviet-union-u2, at: moscow, basis: seat}
+- place: {id: cal.1960-05-13.china-leadership, at: hanoi, basis: c}
+- place: {id: cal.1960-05-13.china-leadership-5, at: hanoi, basis: c}
+- place: {id: cal.1960-05-13.china-leadership-6, at: hanoi, basis: c, note: 'the Presidential Palace'}
+- place: {id: cal.1960-05-13.soviet-union-u2, at: moscow, basis: c}
+- place: {id: cal.1960-05-14.china-leadership-3, at: hanoi, basis: c, note: 'the departure'}
+- place: {id: cal.1960-05-15.soviet-union-u2, at: paris, basis: c}
+- place: {id: cal.1960-05-15.soviet-union-u2-2, at: paris, basis: c}
+- place: {id: cal.1960-05-16.china-leadership-2, at: wuhan, basis: c}
+- place: {id: cal.1960-05-16.soviet-union-u2-3, at: paris, basis: c}
+- place: {id: cal.1960-05-16.soviet-union-u2-4, at: [paris, cairo], basis: c, note: 'Herter, with the delegation in Paris, to Fulbright in Cairo'}
+- place: {id: cal.1960-05-17.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-05-17.elections-1960, at: maryland, basis: c}
+- place: {id: cal.1960-05-17.soviet-union-u2, at: paris, basis: c, note: 'the Soviet Embassy, Khrushchev to "leave France": the day''s first act'}
+- place: {id: cal.1960-05-17.soviet-union-u2-2, at: paris, basis: c, note: 'the message: "we have decided to leave Paris"'}
+- place: {id: cal.1960-05-17.soviet-union-u2-3, at: paris, basis: c}
+- place: {id: cal.1960-05-18.soviet-union-u2, at: kabul, basis: c, note: 'the embassy''s telegram'}
+- place: {id: cal.1960-05-19.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-05-19.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-05-20.elections-1960, at: oregon, basis: c}
+- place: {id: cal.1960-05-23.elections-1960-2, at: washington, basis: seat}
+- place: {id: cal.1960-05-23.soviet-union, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1960-05-24.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-05-24.elections-1960, at: florida, basis: c}
+- place: {id: cal.1960-05-24.governors-fl, at: florida, basis: c}
+- place: {id: cal.1960-05-24.jobs-and-wages, at: washington, basis: seat}
+- place: {id: cal.1960-05-25.china-leadership-3, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-05-25.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-05-25.elections-1960-2, at: albany, basis: n, note: 'the State Republican meeting at Albany (Smith; White)'}
+- place: {id: cal.1960-05-26.school-aid, at: washington, basis: seat}
+- place: {id: cal.1960-05-27.china-leadership-3, at: peking, basis: c, note: 'the departure'}
+- place: {id: cal.1960-05-27.china-leadership-4, at: ulan-bator, basis: c}
+- place: {id: cal.1960-05-27.china-leadership-5, at: ulan-bator, basis: c}
+- place: {id: cal.1960-05-27.china-leadership-6, at: ulan-bator, basis: c}
+- place: {id: cal.1960-05-27.europe-and-the-alliance, at: [ankara, istanbul], basis: c, note: 'the coup in the two cities'}
+- place: {id: cal.1960-05-28.china-leadership-2, at: ulan-bator, basis: n, note: 'the government building, Ulan Bator'}
+- place: {id: cal.1960-05-28.china-leadership-3, at: ulan-bator, basis: c}
+- place: {id: cal.1960-05-28.governors-nc, at: north-carolina, basis: c}
+- place: {id: cal.1960-05-28.king, at: montgomery, basis: c}
+- place: {id: cal.1960-05-30.china-leadership-3, at: ulan-bator, basis: c}
+- place: {id: cal.1960-05-30.elections-1960, at: tarrytown, basis: c}
+- place: {id: cal.1960-05-31.alabama-al, at: alabama, basis: c}
+- place: {id: cal.1960-05-31.china-leadership-3, at: ulan-bator, basis: c}
+- place: {id: cal.1960-05-31.china-leadership-4, at: ulan-bator, basis: c}
+- place: {id: cal.1960-06-01.china-leadership, at: peking, basis: n, note: 'arrives in Peking (抵达北京)'}
+- place: {id: cal.1960-06-01.china-leadership-2, at: ulan-bator, basis: c, note: 'the departure'}
+- place: {id: cal.1960-06-02.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-06-02.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-06-03.china-leadership-3, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1960-06-04.china-leadership-3, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1960-06-06.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-06-06.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-06-06.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-06-06.governors-ia, at: iowa, basis: c}
+- place: {id: cal.1960-06-07.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-06-07.governors-mt, at: montana, basis: c}
+- place: {id: cal.1960-06-07.mississippi-ms, at: mississippi, basis: c}
+- place: {id: cal.1960-06-07.testing, at: geneva, basis: c}
+- place: {id: cal.1960-06-08.economy-debt-limit, at: washington, basis: seat}
+- place: {id: cal.1960-06-08.right-and-the-military, at: phoenix, basis: c, note: 'Kitchel''s letter'}
+- place: {id: cal.1960-06-09.elections-1960, at: nyc, basis: c, note: 'the announcement in New York'}
+- place: {id: cal.1960-06-09.elections-1960-2, at: camden-nj, basis: n, note: 'the press conference at Camden, N.J. (Nixon, Six Crises)'}
+- place: {id: cal.1960-06-09.elections-1960-3, at: washington, basis: c, note: 'a taxi back to the Senate'}
+- place: {id: cal.1960-06-12.elections-1960, at: hyannis-port, basis: c}
+- place: {id: cal.1960-06-14.elections-1960, at: washington, basis: seat}
+- place: {id: cal.1960-06-16.cuba, at: moscow, basis: seat, note: 'the Presidium''s decision'}
+- place: {id: cal.1960-06-16.elections-1960, at: nyc, basis: c, note: 'Gracie Mansion'}
+- place: {id: cal.1960-06-16.elections-1960-2, at: new-york-state, basis: c}
+- place: {id: cal.1960-06-20.court, at: washington, basis: seat}
+- place: {id: cal.1960-06-20.economy-debt-limit, at: washington, basis: seat}
+- place: {id: cal.1960-06-21.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-06-22.cuba, at: mexico-city, basis: c}
+- place: {id: cal.1960-06-22.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-06-22.school-aid, at: washington, basis: seat}
+- place: {id: cal.1960-06-23.elections-1960-2, at: nyc, basis: c}
+- place: {id: cal.1960-06-23.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-06-23.soviet-union, at: bucharest, basis: c}
+- place: {id: cal.1960-06-23.states-and-cities-us, at: hawaii, basis: c, note: 'the Hawaii legislature'}
+- place: {id: cal.1960-06-24.soviet-union, at: bucharest, basis: c}
+- place: {id: cal.1960-06-25.china-leadership-2, at: peking, basis: c, note: 'Deng at the Juren Tang'}
+- place: {id: cal.1960-06-25.governors-nc, at: north-carolina, basis: c}
+- place: {id: cal.1960-06-25.soviet-union, at: bucharest, basis: c}
+- place: {id: cal.1960-06-25.specials, at: north-carolina, basis: c}
+- place: {id: cal.1960-06-26.soviet-union, at: bucharest, basis: c}
+- place: {id: cal.1960-06-26.soviet-union-2, at: bucharest, basis: c}
+- place: {id: cal.1960-06-27.court, at: washington, basis: seat}
+- place: {id: cal.1960-06-27.testing, at: geneva, basis: c}
+- place: {id: cal.1960-06-28.economy-debt-limit, at: washington, basis: seat}
+- place: {id: cal.1960-06-28.governors-nd, at: north-dakota, basis: c}
+- place: {id: cal.1960-06-28.soviet-union-u2, at: washington, basis: seat}
+- place: {id: cal.1960-06-28.specials, at: north-dakota, basis: c}
+- place: {id: cal.1960-06-28.state-constitutions-nd, at: north-dakota, basis: c}
+- place: {id: cal.1960-06-29.congress, at: washington, basis: n, note: 'Johnson in the Senate'}
+- place: {id: cal.1960-06-30.jobs-and-wages, at: washington, basis: seat}
+- place: {id: cal.1960-06-30.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-06-30.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1960-07-01.elections-1960, at: washington, basis: c, note: 'Georgetown'}
+- place: {id: cal.1960-07-02.amendments, at: washington, basis: seat}
+- place: {id: cal.1960-07-04.elections-1960, at: nyc, basis: c, note: 'the press conference in New York'}
+- place: {id: cal.1960-07-04.elections-1960-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-05.elections-1960, at: washington, basis: c, note: 'the New Senate Office Building'}
+- place: {id: cal.1960-07-05.state-constitutions-ok, at: oklahoma, basis: c}
+- place: {id: cal.1960-07-08.elections-1960-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-08.elections-1960-4, at: nyc, basis: c, note: 'Idlewild'}
+- place: {id: cal.1960-07-09.elections-1960-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-10.elections-1960-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-10.elections-1960-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-10.elections-1960-6, at: beverly-hills, basis: c}
+- place: {id: cal.1960-07-10.elections-1960-los-angeles, at: pasadena, basis: c}
+- place: {id: cal.1960-07-10.elections-1960-los-angeles-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-11.elections-1960-3, at: pasadena, basis: n, note: 'White: 11:30 a.m., Pasadena'}
+- place: {id: cal.1960-07-11.elections-1960-5, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-11.elections-1960-6, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-11.elections-1960-7, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-11.latin-america, at: newport, basis: c}
+- place: {id: cal.1960-07-12.elections-1960-2, at: los-angeles, basis: n, note: 'the Biltmore; O''Brien, "driving across Los Angeles" between delegations'}
+- place: {id: cal.1960-07-12.elections-1960-3, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-12.elections-1960-8, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-12.press-and-broadcasting, at: washington, basis: c, note: 'the Washington Post'}
+- place: {id: cal.1960-07-13.congo, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1960-07-13.elections-1960-5, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-13.elections-1960-6, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-13.elections-1960-8, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-3, at: los-angeles, basis: c, note: 'the Biltmore'}
+- place: {id: cal.1960-07-14.elections-1960-4, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles, at: los-angeles, basis: c, note: 'the Biltmore'}
+- place: {id: cal.1960-07-14.elections-1960-los-angeles-20, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-16.democratic-party, at: los-angeles, basis: c}
+- place: {id: cal.1960-07-19.elections-1960-2, at: chicago, basis: tag, note: 'the statement to the platform committee; tag city:chicago'}
+- place: {id: cal.1960-07-20.elections-1960, at: chicago, basis: c}
+- place: {id: cal.1960-07-21.china-leadership-2, at: [beidaihe, peking], basis: c, note: 'the journey'}
+- place: {id: cal.1960-07-21.elections-1960-2, at: chicago, basis: c, note: 'the Sheraton Towers'}
+- place: {id: cal.1960-07-22.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-07-22.elections-1960-2, at: albany, basis: c}
+- place: {id: cal.1960-07-23.china-leadership-3, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1960-07-23.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-07-23.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-07-23.elections-1960, at: hyannis-port, basis: c}
+- place: {id: cal.1960-07-23.elections-1960-3, at: chicago, basis: c}
+- place: {id: cal.1960-07-23.elections-1960-4, at: newport, basis: c}
+- place: {id: cal.1960-07-23.press-and-broadcasting, at: chicago, basis: c, note: 'the Chicago Tribune'}
+- place: {id: cal.1960-07-23.republican-party, at: chicago, basis: c}
+- place: {id: cal.1960-07-23.republican-party-2, at: chicago, basis: c}
+- place: {id: cal.1960-07-24.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-07-24.republican-party, at: chicago, basis: c}
+- place: {id: cal.1960-07-24.republican-party-2, at: chicago, basis: c}
+- place: {id: cal.1960-07-24.republican-party-3, at: chicago, basis: c}
+- place: {id: cal.1960-07-24.republican-party-4, at: chicago, basis: c, note: 'the Blackstone'}
+- place: {id: cal.1960-07-25.congo, at: washington, basis: seat, note: 'the State Department''s INR'}
+- place: {id: cal.1960-07-25.congo-2, at: nyc, basis: c, note: 'the UN'}
+- place: {id: cal.1960-07-25.cuba, at: newport, basis: c, note: 'the NSC at Newport'}
+- place: {id: cal.1960-07-25.republican-party, at: chicago, basis: c, note: 'the Hilton'}
+- place: {id: cal.1960-07-25.republican-party-2, at: [chicago, newport], basis: c, note: 'the night''s telephone calls, Nixon''s aides to Newport'}
+- place: {id: cal.1960-07-26.elections-1960, at: chicago, basis: n, note: 'the PPP title, "Address at the Republican National Convention in Chicago"'}
+- place: {id: cal.1960-07-26.elections-1960-kennedy, at: hyannis-port, basis: c}
+- place: {id: cal.1960-07-26.governors-ar, at: arkansas, basis: c}
+- place: {id: cal.1960-07-26.republican-party, at: chicago, basis: tag, note: 'the platform committee; tag city:chicago'}
+- place: {id: cal.1960-07-26.soviet-union, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1960-07-26.state-constitutions-ok, at: oklahoma, basis: c}
+- place: {id: cal.1960-07-27.conservative-movement, at: chicago, basis: c}
+- place: {id: cal.1960-07-27.elections-1960, at: chicago, basis: c}
+- place: {id: cal.1960-07-29.elections-1960, at: washington, basis: c, note: 'Kennedy''s Senate office'}
+- place: {id: cal.1960-07-31.congo, at: ottawa, basis: c}
+- place: {id: cal.1960-08-01.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-08-01.china-leadership-7, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1960-08-01.congo, at: moscow, basis: c, note: 'the Soviet government''s statement'}
+- place: {id: cal.1960-08-01.congo-2, at: nyc, basis: c, note: 'the UN'}
+- place: {id: cal.1960-08-02.elections-1960-kennedy, at: philadelphia, basis: c, note: 'the Sheraton'}
+- place: {id: cal.1960-08-02.governors-ks, at: kansas, basis: c}
+- place: {id: cal.1960-08-02.governors-mi, at: michigan, basis: c}
+- place: {id: cal.1960-08-02.governors-mo, at: missouri, basis: c}
+- place: {id: cal.1960-08-03.desegregation-schools-houston, at: houston, basis: c, note: 'the court''s order'}
+- place: {id: cal.1960-08-06.congo, at: accra, basis: c}
+- place: {id: cal.1960-08-08.china-leadership, at: beidaihe, basis: c, note: 'Hồ at Beidaihe from the 7th'}
+- place: {id: cal.1960-08-08.congress, at: washington, basis: seat, note: 'the Congress reconvened'}
+- place: {id: cal.1960-08-09.laos, at: vientiane, basis: c}
+- place: {id: cal.1960-08-09.voting-rights, at: washington, basis: seat}
+- place: {id: cal.1960-08-10.china-leadership, at: beidaihe, basis: c}
+- place: {id: cal.1960-08-10.china-leadership-2, at: beidaihe, basis: c}
+- place: {id: cal.1960-08-10.testing, at: washington, basis: seat}
+- place: {id: cal.1960-08-11.congo, at: moscow, basis: seat}
+- place: {id: cal.1960-08-12.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-08-12.space, at: cape-canaveral, basis: c}
+- place: {id: cal.1960-08-14.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-08-15.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-08-15.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-08-15.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-08-15.space, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-08-16.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-08-16.europe-and-the-alliance, at: nicosia, basis: c}
+- place: {id: cal.1960-08-16.laos-2, at: vientiane, basis: c}
+- place: {id: cal.1960-08-17.china-leadership, at: peking, basis: n, note: 'Zhongnanhai'}
+- place: {id: cal.1960-08-17.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-08-17.elections-1960-2, at: greensboro, basis: c}
+- place: {id: cal.1960-08-18.china-leadership-2, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1960-08-18.jobs-and-wages, at: washington, basis: seat}
+- place: {id: cal.1960-08-19.latin-america, at: washington, basis: seat}
+- place: {id: cal.1960-08-20.congo, at: moscow, basis: seat, note: 'the leadership''s decision'}
+- place: {id: cal.1960-08-20.elections-1960, at: independence-mo, basis: c, note: 'the Truman Library'}
+- place: {id: cal.1960-08-22.cuba, at: san-jose-cr, basis: c}
+- place: {id: cal.1960-08-23.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-08-25.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-08-26.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-08-26.congo, at: nyc, basis: c, note: 'Lodge''s cable from the UN'}
+- place: {id: cal.1960-08-26.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-08-27.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-08-27.desegregation-schools-la, at: new-orleans, basis: c, note: 'the three-judge court'}
+- place: {id: cal.1960-08-29.elections-1960-4, at: washington, basis: c, note: 'Washington Airport'}
+- place: {id: cal.1960-08-29.medicare, at: washington, basis: seat}
+- place: {id: cal.1960-08-31.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-08-31.elections-1960, at: washington, basis: c, note: 'Kennedy''s Georgetown house'}
+- place: {id: cal.1960-09-01.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-09-01.civil-rights-the-executive, at: washington, basis: n, note: 'the press conference in the Senate Caucus Room (APP title)'}
+- place: {id: cal.1960-09-01.congress, at: washington, basis: seat}
+- place: {id: cal.1960-09-03.elections-1960-kennedy-3, at: san-francisco, basis: c, note: 'the International Airport'}
+- place: {id: cal.1960-09-05.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1960-09-06.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-09-07.china-leadership-4, at: peking, basis: n, note: 'the GDR Embassy in China (德意志民主共和国驻华大使馆)'}
+- place: {id: cal.1960-09-07.elections-1960, at: washington, basis: c}
+- place: {id: cal.1960-09-07.press-and-broadcasting, at: washington, basis: c, note: 'the Executive Office Building'}
+- place: {id: cal.1960-09-08.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-09-08.congo, at: nyc, basis: c, note: 'the United Nations'}
+- place: {id: cal.1960-09-08.space, at: huntsville, basis: c}
+- place: {id: cal.1960-09-09.china-leadership, at: peking, basis: c}
+- place: {id: cal.1960-09-09.congo, at: leopoldville, basis: seat, note: 'the Congolese Parliament'}
+- place: {id: cal.1960-09-10.china-leadership-4, at: peking, basis: c, note: 'Peking airport'}
+- place: {id: cal.1960-09-10.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-09-10.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-09-10.laos, at: savannakhet, basis: c}
+- place: {id: cal.1960-09-11.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-09-11.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-09-12.china-leadership-2, at: peking, basis: n, note: 'the Qinzheng Hall, Zhongnanhai (中南海勤政殿)'}
+- place: {id: cal.1960-09-13.china-leadership-3, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1960-09-13.elections-1960, at: san-francisco, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-09-13.governors-ma, at: massachusetts, basis: c}
+- place: {id: cal.1960-09-13.governors-mn, at: minnesota, basis: c}
+- place: {id: cal.1960-09-13.governors-nh, at: new-hampshire, basis: c}
+- place: {id: cal.1960-09-13.governors-ut, at: utah, basis: c}
+- place: {id: cal.1960-09-13.governors-vt, at: vermont, basis: c}
+- place: {id: cal.1960-09-13.governors-wa, at: washington-state, basis: c}
+- place: {id: cal.1960-09-14.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-09-14.china-leadership-2, at: shanghai, basis: c}
+- place: {id: cal.1960-09-14.china-leadership-3, at: shanghai, basis: c}
+- place: {id: cal.1960-09-14.china-leadership-4, at: shanghai, basis: c}
+- place: {id: cal.1960-09-14.elections-1960-3, at: grand-forks-nd, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-09-15.china-leadership, at: shanghai, basis: c}
+- place: {id: cal.1960-09-15.elections-1960-2, at: atlantic-city, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-09-16.elections-1960, at: omaha, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-09-17.elections-1960, at: sioux-city, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-09-18.congo, at: nyc, basis: seat, note: 'the General Assembly, at the UN'}
+- place: {id: cal.1960-09-19.elections-1960, at: washington, basis: c}
+- place: {id: cal.1960-09-20.china-leadership-2, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1960-09-20.state-constitutions-ok, at: oklahoma, basis: c}
+- place: {id: cal.1960-09-22.soviet-union, at: nyc, basis: n, note: 'the PPP title, "Address Before the 15th General Assembly of the United Nations, New York City"'}
+- place: {id: cal.1960-09-24.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-09-25.elections-1960-5, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1960-09-26.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-09-26.elections-1960-2, at: hot-springs-ar, basis: c}
+- place: {id: cal.1960-09-26.elections-1960-3, at: chicago, basis: c}
+- place: {id: cal.1960-09-26.elections-1960-4, at: chicago, basis: c}
+- place: {id: cal.1960-09-26.elections-1960-5, at: nyc, basis: c, note: 'the Statler Hilton'}
+- place: {id: cal.1960-09-26.middle-east, at: nyc, basis: c, note: 'the Waldorf Towers'}
+- place: {id: cal.1960-09-27.china-leadership-3, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-09-27.china-leadership-4, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-09-27.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-09-27.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-09-27.cities-and-housing, at: chicago, basis: c}
+- place: {id: cal.1960-09-27.elections-1960, at: ohio, basis: c}
+- place: {id: cal.1960-09-27.japan-and-korea, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-09-28.china-leadership-2, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1960-09-28.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-09-28.governors-ri, at: rhode-island, basis: c}
+- place: {id: cal.1960-09-29.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-09-29.china-leadership-4, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1960-09-29.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-09-29.elections-1960, at: chicago, basis: c}
+- place: {id: cal.1960-09-30.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-09-30.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-09-30.cuba-2, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1960-10-01.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-10-01.elections-1960, at: hyannis-port, basis: c}
+- place: {id: cal.1960-10-02.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-10-03.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-10-03.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-10-03.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-10-03.court, at: washington, basis: seat}
+- place: {id: cal.1960-10-04.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-10-04.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-10-04.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-10-04.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-10-05.china-leadership-2, at: peking, basis: n, note: 'the Great Hall of the People, Fujian Hall (人民大会堂福建厅)'}
+- place: {id: cal.1960-10-05.china-leadership-4, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-10-05.soviet-union-un, at: nyc, basis: seat, note: 'the General Assembly, at the UN'}
+- place: {id: cal.1960-10-06.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-10-06.elections-1960-2, at: cleveland, basis: c}
+- place: {id: cal.1960-10-06.vietnam, at: washington, basis: seat, note: 'State and Defense'}
+- place: {id: cal.1960-10-07.berlin-and-vienna, at: washington, basis: seat, note: 'State asks Defense'}
+- place: {id: cal.1960-10-07.china-leadership, at: peking, basis: c, note: 'Zhongnanhai, the Huairen Tang'}
+- place: {id: cal.1960-10-07.china-leadership-2, at: peking, basis: c, note: 'the Huairen Tang'}
+- place: {id: cal.1960-10-07.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-10-08.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-10-10.cuba, at: washington, basis: seat, note: 'the State Department'}
+- place: {id: cal.1960-10-12.court, at: washington, basis: seat}
+- place: {id: cal.1960-10-13.elections-1960-kennedy, at: nyc, basis: c}
+- place: {id: cal.1960-10-13.laos, at: luang-prabang, basis: c}
+- place: {id: cal.1960-10-13.laos-2, at: peking, basis: c}
+- place: {id: cal.1960-10-14.peace-corps, at: ann-arbor, basis: c}
+- place: {id: cal.1960-10-14.vietnam, at: saigon, basis: tag, note: 'Durbrow''s call on Diệm; tag place:saigon'}
+- place: {id: cal.1960-10-15.elections-1960, at: phoenix, basis: c}
+- place: {id: cal.1960-10-15.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1960-10-16.elections-1960, at: hartford, basis: c}
+- place: {id: cal.1960-10-17.congo, at: leopoldville, basis: c, note: 'Devlin''s cable'}
+- place: {id: cal.1960-10-17.elections-1960, at: detroit, basis: c}
+- place: {id: cal.1960-10-17.elections-1960-6, at: buffalo, basis: c}
+- place: {id: cal.1960-10-17.laos, at: vientiane, basis: tag, note: 'the Ambassador and the Prime Minister; tag place:vientiane'}
+- place: {id: cal.1960-10-18.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-10-18.elections-1960-2, at: atlanta, basis: c}
+- place: {id: cal.1960-10-19.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-10-19.elections-1960, at: nyc, basis: c, note: 'the Waldorf-Astoria'}
+- place: {id: cal.1960-10-19.vietnam, at: washington, basis: seat, note: 'State and Defense''s message'}
+- place: {id: cal.1960-10-21.elections-1960-3, at: washington, basis: c, note: 'the call from Washington'}
+- place: {id: cal.1960-10-22.elections-1960, at: atlanta, basis: c}
+- place: {id: cal.1960-10-22.elections-1960-king, at: atlanta, basis: c}
+- place: {id: cal.1960-10-23.china-leadership-3, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-10-23.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-10-23.elections-1960, at: washington, basis: c}
+- place: {id: cal.1960-10-24.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-10-24.elections-1960, at: georgia, basis: tag, note: 'the Governor''s press conference; tag state:ga'}
+- place: {id: cal.1960-10-24.elections-1960-3, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1960-10-24.elections-1960-kennedy-3, at: peoria, basis: c}
+- place: {id: cal.1960-10-25.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-10-27.elections-1960-chicago, at: chicago, basis: c}
+- place: {id: cal.1960-10-27.laos, at: vientiane, basis: c}
+- place: {id: cal.1960-10-27.robert-kennedy, at: nyc, basis: c, note: 'Robert Kennedy''s call from New York'}
+- place: {id: cal.1960-10-28.cuba-2, at: washington, basis: seat, note: 'the State Department''s circular'}
+- place: {id: cal.1960-10-28.cuba-3, at: moscow, basis: c, note: 'the Kremlin'}
+- place: {id: cal.1960-10-28.elections-1960, at: philadelphia, basis: c}
+- place: {id: cal.1960-10-28.elections-1960-chicago, at: chicago, basis: c, note: 'City Hall'}
+- place: {id: cal.1960-10-28.elections-1960-chicago-2, at: chicago, basis: c, note: 'the Sherman Hotel'}
+- place: {id: cal.1960-10-28.king, at: atlanta, basis: c, note: 'Ebenezer Baptist'}
+- place: {id: cal.1960-10-29.cuba, at: havana, basis: c}
+- place: {id: cal.1960-10-29.elections-1960-kennedy, at: philadelphia, basis: c}
+- place: {id: cal.1960-10-30.cuba, at: guatemala-city, basis: c, note: 'La Hora'}
+- place: {id: cal.1960-10-30.elections-1960-nixon, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1960-10-31.elections-1960, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-10-31.elections-1960-4, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1960-11-02.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-11-02.china-leadership-2, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-11-02.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-11-02.elections-1960-2, at: garden-city-ny, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-11-03.china-leadership-6, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-11-03.elections-1960-kennedy, at: phoenix, basis: c, note: 'the airport'}
+- place: {id: cal.1960-11-04.desegregation-schools-la, at: louisiana, basis: c, note: 'the Legislature in extraordinary session'}
+- place: {id: cal.1960-11-04.elections-1960-3, at: cleveland, basis: c, note: 'the day''s first stop'}
+- place: {id: cal.1960-11-04.elections-1960-kennedy, at: chicago, basis: c}
+- place: {id: cal.1960-11-05.elections-1960-2, at: nyc, basis: c}
+- place: {id: cal.1960-11-05.goldwater, at: phoenix, basis: c}
+- place: {id: cal.1960-11-05.soviet-union, at: [peking, moscow], basis: c, note: 'the flight'}
+- place: {id: cal.1960-11-06.elections-1960-4, at: waterbury, basis: c}
+- place: {id: cal.1960-11-06.soviet-union-2, at: moscow, basis: c}
+- place: {id: cal.1960-11-07.china-leadership-5, at: moscow, basis: c}
+- place: {id: cal.1960-11-07.elections-1960-3, at: madison, basis: c, note: 'the day''s first stop, after the night''s flight from Anchorage'}
+- place: {id: cal.1960-11-07.elections-1960-4, at: chicago, basis: c, note: 'the departure'}
+- place: {id: cal.1960-11-07.soviet-union-2, at: moscow, basis: c}
+- place: {id: cal.1960-11-07.soviet-union-3, at: moscow, basis: c}
+- place: {id: cal.1960-11-08.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-11-08.cuba, at: havana, basis: c, note: 'the offices of Hoy'}
+- place: {id: cal.1960-11-08.elections-1960-10, at: minnesota, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-3, at: chicago, basis: tag, note: 'Daley''s call; tag city:chicago'}
+- place: {id: cal.1960-11-08.elections-1960-4, at: chicago, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-5, at: ontario-ca, basis: c, note: 'the airport'}
+- place: {id: cal.1960-11-08.elections-1960-6, at: whittier, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-8, at: boston, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-9, at: hyannis-port, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-chicago, at: chicago, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-count, at: hyannis-port, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-count-10, at: chicago, basis: c, note: 'the Chicago Sun-Times'}
+- place: {id: cal.1960-11-08.elections-1960-count-11, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1960-11-08.elections-1960-count-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-count-4, at: los-angeles, basis: c}
+- place: {id: cal.1960-11-08.elections-1960-count-7, at: los-angeles, basis: c, note: 'the Ambassador'}
+- place: {id: cal.1960-11-08.elections-1960-count-9, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1960-11-08.governors-il, at: illinois, basis: c}
+- place: {id: cal.1960-11-08.governors-ks, at: kansas, basis: c}
+- place: {id: cal.1960-11-08.governors-ma, at: massachusetts, basis: c}
+- place: {id: cal.1960-11-08.governors-mn, at: minnesota, basis: c}
+- place: {id: cal.1960-11-08.governors-mt, at: montana, basis: c}
+- place: {id: cal.1960-11-08.governors-nm, at: new-mexico, basis: c}
+- place: {id: cal.1960-11-08.governors-ri, at: rhode-island, basis: c}
+- place: {id: cal.1960-11-08.governors-sd, at: south-dakota, basis: c}
+- place: {id: cal.1960-11-08.legislatures-ca, at: california, basis: c}
+- place: {id: cal.1960-11-08.mississippi-ms, at: mississippi, basis: c}
+- place: {id: cal.1960-11-08.specials, at: pennsylvania, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-ca, at: california, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-ky, at: kentucky, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-md, at: maryland, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-mi, at: michigan, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-mo, at: missouri, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-ok, at: oklahoma, basis: c}
+- place: {id: cal.1960-11-08.state-constitutions-tx, at: texas, basis: c}
+- place: {id: cal.1960-11-09.elections-1960, at: los-angeles, basis: c, note: 'the Ambassador Hotel'}
+- place: {id: cal.1960-11-09.elections-1960-10, at: los-angeles, basis: c}
+- place: {id: cal.1960-11-09.elections-1960-11, at: hyannis-port, basis: c}
+- place: {id: cal.1960-11-09.elections-1960-2, at: hyannis-port, basis: c}
+- place: {id: cal.1960-11-09.elections-1960-5, at: los-angeles, basis: c}
+- place: {id: cal.1960-11-09.elections-1960-6, at: los-angeles, basis: c}
+- place: {id: cal.1960-11-09.elections-1960-7, at: boston, basis: c, note: 'Lodge''s call from Boston'}
+- place: {id: cal.1960-11-09.elections-1960-9, at: hyannis-port, basis: c}
+- place: {id: cal.1960-11-09.elections-1960-count-6, at: hyannis, basis: c, note: 'Salinger''s end, the entry opening there'}
+- place: {id: cal.1960-11-09.republican-party-2, at: los-angeles, basis: c}
+- place: {id: cal.1960-11-09.soviet-union-2, at: moscow, basis: c}
+- place: {id: cal.1960-11-09.transition-and-staff-2, at: [washington, hyannis-port], basis: c, note: 'Baughman at home in Washington to Petersen at Hyannis Port'}
+- place: {id: cal.1960-11-09.transition-and-staff-3, at: hyannis-port, basis: c}
+- place: {id: cal.1960-11-10.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-11-10.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-11-10.china-leadership-3, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-10.soviet-union, at: moscow, basis: c, note: 'the Kremlin, St. George''s Hall'}
+- place: {id: cal.1960-11-10.soviet-union-2, at: moscow, basis: c}
+- place: {id: cal.1960-11-12.vietnam-hanoi, at: hanoi, basis: seat, note: 'the Politburo''s cable'}
+- place: {id: cal.1960-11-13.elections-1960, at: chicago, basis: c}
+- place: {id: cal.1960-11-14.court, at: washington, basis: seat}
+- place: {id: cal.1960-11-14.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-11-14.soviet-union-2, at: moscow, basis: c, note: 'St. George''s Hall'}
+- place: {id: cal.1960-11-14.transition-and-staff, at: key-biscayne, basis: c}
+- place: {id: cal.1960-11-14.transition-and-staff-2, at: palm-beach, basis: c}
+- place: {id: cal.1960-11-14.transition-and-staff-3, at: washington, basis: c, note: 'the Mayflower'}
+- place: {id: cal.1960-11-15.china-leadership-4, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-15.laos, at: washington, basis: seat, note: 'the State Department''s spokesman'}
+- place: {id: cal.1960-11-15.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-11-16.china-leadership-4, at: [peking, moscow], basis: c, note: 'Zhou''s call from Peking to the embassy at Moscow'}
+- place: {id: cal.1960-11-16.economy, at: augusta-ga, basis: n, note: 'the PPP title, "The President''s News Conference at Augusta, Georgia"'}
+- place: {id: cal.1960-11-16.transition-and-staff, at: lbj-ranch, basis: c}
+- place: {id: cal.1960-11-17.europe-and-the-alliance, at: augusta-ga, basis: c, note: 'Augusta, the NSC with the President (Augusta, Georgia, the day before)'}
+- place: {id: cal.1960-11-18.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People, Fujian Hall (人民大会堂福建厅)'}
+- place: {id: cal.1960-11-18.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-11-18.cuba, at: palm-beach, basis: c}
+- place: {id: cal.1960-11-19.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-11-21.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1960-11-21.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-11-21.china-leadership-4, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-21.transition-and-staff, at: palm-beach, basis: c}
+- place: {id: cal.1960-11-21.transition-and-staff-3, at: palm-beach, basis: c}
+- place: {id: cal.1960-11-22.congo, at: nyc, basis: seat, note: 'the General Assembly, at the UN'}
+- place: {id: cal.1960-11-23.china-leadership-3, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-23.laos, at: vientiane, basis: c}
+- place: {id: cal.1960-11-23.press-and-broadcasting, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1960-11-24.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-11-25.china-leadership, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-26.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-11-27.congo, at: leopoldville, basis: c}
+- place: {id: cal.1960-11-28.china-leadership-5, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-28.china-leadership-6, at: moscow, basis: c, note: 'the Chinese embassy'}
+- place: {id: cal.1960-11-28.vietnam-hanoi, at: moscow, basis: c}
+- place: {id: cal.1960-11-29.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-11-29.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-11-29.cuba-2, at: washington, basis: seat, note: 'the State Department'}
+- place: {id: cal.1960-11-29.soviet-union-3, at: moscow, basis: c}
+- place: {id: cal.1960-11-29.soviet-union-4, at: moscow, basis: c}
+- place: {id: cal.1960-11-30.berlin-and-vienna, at: moscow, basis: c, note: 'the Kremlin'}
+- place: {id: cal.1960-11-30.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1960-11-30.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-11-30.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-11-30.soviet-union, at: moscow, basis: c, note: 'the Lenin Hills'}
+- place: {id: cal.1960-11-30.soviet-union-2, at: moscow, basis: c}
+- place: {id: cal.1960-11-30.soviet-union-3, at: moscow, basis: c}
+- place: {id: cal.1960-12-01.soviet-union-2, at: moscow, basis: c, note: 'the Kremlin'}
+- place: {id: cal.1960-12-01.soviet-union-3, at: moscow, basis: c, note: 'Pravda''s offices'}
+- place: {id: cal.1960-12-01.transition-and-staff-2, at: washington, basis: c, note: 'the Senate office, then Georgetown'}
+- place: {id: cal.1960-12-02.soviet-union, at: moscow, basis: c, note: 'the departure by train'}
+- place: {id: cal.1960-12-03.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-12-03.china-leadership-2, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-12-03.china-leadership-7, at: peking, basis: c}
+- place: {id: cal.1960-12-03.soviet-union, at: leningrad, basis: c}
+- place: {id: cal.1960-12-04.china-leadership, at: peking, basis: c, note: 'Zhongnanhai'}
+- place: {id: cal.1960-12-04.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-12-04.elections-1960, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1960-12-04.transition-and-staff-cabinet, at: williamsburg-va, basis: c}
+- place: {id: cal.1960-12-05.china-leadership-3, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-12-05.desegregation-public-places, at: washington, basis: seat}
+- place: {id: cal.1960-12-05.soviet-union, at: minsk, basis: c}
+- place: {id: cal.1960-12-05.testing, at: geneva, basis: c}
+- place: {id: cal.1960-12-06.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1960-12-06.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-12-06.china-leadership-6, at: moscow, basis: c}
+- place: {id: cal.1960-12-06.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-12-06.transition-and-staff, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1960-12-07.laos, at: moscow, basis: c}
+- place: {id: cal.1960-12-07.soviet-union, at: moscow, basis: c}
+- place: {id: cal.1960-12-08.china-leadership-2, at: irkutsk, basis: c}
+- place: {id: cal.1960-12-08.soviet-union, at: [moscow, irkutsk], basis: c, note: 'the flight'}
+- place: {id: cal.1960-12-08.transition-and-staff-cabinet-2, at: dearborn, basis: c, note: 'McNamara at Ford''s headquarters: the call''s end, Shriver''s visit'}
+- place: {id: cal.1960-12-09.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-12-10.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-12-10.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1960-12-12.china-leadership-5, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1960-12-12.court, at: washington, basis: seat}
+- place: {id: cal.1960-12-12.laos, at: savannakhet, basis: c}
+- place: {id: cal.1960-12-12.transition-and-staff-cabinet, at: palm-beach, basis: n, note: 'Rusk: the calls during his meeting with Kennedy at Palm Beach'}
+- place: {id: cal.1960-12-13.elections-1960-chicago, at: chicago, basis: c}
+- place: {id: cal.1960-12-14.africa, at: nyc, basis: seat, note: 'the General Assembly, at the UN'}
+- place: {id: cal.1960-12-14.elections-1960, at: illinois, basis: c, note: 'the State Electoral Board'}
+- place: {id: cal.1960-12-14.trade, at: paris, basis: c}
+- place: {id: cal.1960-12-15.china-leadership, at: peking, basis: n, note: 'the Peking railway station (北京车站)'}
+- place: {id: cal.1960-12-15.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1960-12-16.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1960-12-16.china-leadership-5, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1960-12-16.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-12-17.china-leadership, at: peking, basis: c, note: 'the Qinzheng Hall, Zhongnanhai'}
+- place: {id: cal.1960-12-17.china-leadership-6, at: peking, basis: c}
+- place: {id: cal.1960-12-19.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1960-12-19.china-leadership-4, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1960-12-19.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1960-12-21.china-leadership, at: nanjing, basis: c}
+- place: {id: cal.1960-12-21.china-leadership-2, at: nanjing, basis: c}
+- place: {id: cal.1960-12-21.china-leadership-3, at: [nanjing, hangzhou], basis: c, note: 'the train'}
+- place: {id: cal.1960-12-21.middle-east-dimona, at: jerusalem, basis: seat, note: 'the Knesset'}
+- place: {id: cal.1960-12-21.transition-and-staff, at: palm-beach, basis: c}
+- place: {id: cal.1960-12-22.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1960-12-22.china-leadership-2, at: hangzhou, basis: c}
+- place: {id: cal.1960-12-23.china-leadership-2, at: hangzhou, basis: c}
+- place: {id: cal.1960-12-23.china-leadership-3, at: hangzhou, basis: c, note: 'the Hangzhou Hotel'}
+- place: {id: cal.1960-12-24.china-leadership-5, at: hangzhou, basis: c, note: 'the airport'}
+- place: {id: cal.1960-12-27.laos, at: washington, basis: seat, note: 'Defense and State'}
+- place: {id: cal.1960-12-29.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1960-12-30.china-leadership-2, at: [peking, wuhan], basis: c, note: 'the flight'}
+- place: {id: cal.1960-12-30.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-01-01.jobs-and-wages, at: palm-beach, basis: c}
+- place: {id: cal.1961-01-02.china-leadership-2, at: rangoon, basis: c}
+- place: {id: cal.1961-01-02.china-leadership-4, at: rangoon, basis: c}
+- place: {id: cal.1961-01-02.china-leadership-5, at: rangoon, basis: c}
+- place: {id: cal.1961-01-02.china-leadership-6, at: rangoon, basis: c, note: 'the President''s House'}
+- place: {id: cal.1961-01-03.china-leadership, at: peking, basis: c, note: 'the Yinian Tang'}
+- place: {id: cal.1961-01-03.china-leadership-4, at: rangoon, basis: c}
+- place: {id: cal.1961-01-03.china-leadership-5, at: rangoon, basis: c}
+- place: {id: cal.1961-01-03.china-leadership-6, at: rangoon, basis: c}
+- place: {id: cal.1961-01-03.congress, at: washington, basis: seat, note: 'the Senate Democratic caucus'}
+- place: {id: cal.1961-01-03.rules, at: washington, basis: seat}
+- place: {id: cal.1961-01-04.china-leadership-3, at: rangoon, basis: c}
+- place: {id: cal.1961-01-04.china-leadership-4, at: rangoon, basis: c}
+- place: {id: cal.1961-01-04.china-leadership-5, at: rangoon, basis: c, note: 'Inya Lake'}
+- place: {id: cal.1961-01-04.cuba, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1961-01-04.jobs-and-wages, at: washington, basis: seat, note: 'the bills introduced'}
+- place: {id: cal.1961-01-04.states-and-cities, at: albany, basis: c}
+- place: {id: cal.1961-01-05.china-leadership-2, at: rangoon, basis: c, note: 'the President''s House'}
+- place: {id: cal.1961-01-05.china-leadership-3, at: [rangoon, moulmein], basis: c, note: 'the flight'}
+- place: {id: cal.1961-01-05.china-leadership-4, at: moulmein, basis: c}
+- place: {id: cal.1961-01-05.china-leadership-7, at: rangoon, basis: c}
+- place: {id: cal.1961-01-05.china-leadership-8, at: moulmein, basis: c}
+- place: {id: cal.1961-01-05.china-leadership-9, at: rangoon, basis: c}
+- place: {id: cal.1961-01-05.congress, at: washington, basis: seat, note: 'the Senate Democratic conference'}
+- place: {id: cal.1961-01-05.conservation, at: washington, basis: seat, note: 'the bill introduced'}
+- place: {id: cal.1961-01-05.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1961-01-06.china-leadership-2, at: rangoon, basis: c}
+- place: {id: cal.1961-01-06.china-leadership-3, at: rangoon, basis: c, note: 'Aung San Stadium'}
+- place: {id: cal.1961-01-06.china-leadership-4, at: rangoon, basis: c, note: 'Aung San Stadium'}
+- place: {id: cal.1961-01-06.china-leadership-5, at: rangoon, basis: c, note: 'the President''s House'}
+- place: {id: cal.1961-01-06.desegregation-schools, at: georgia, basis: n, note: 'Holmes v. Danner (M.D. Ga.)'}
+- place: {id: cal.1961-01-06.elections-1960, at: washington, basis: seat, note: 'the joint session'}
+- place: {id: cal.1961-01-06.republican-party, at: washington, basis: c}
+- place: {id: cal.1961-01.school-aid, at: nyc, basis: c, note: 'the Carlyle'}
+- place: {id: cal.1961-01-07.china-leadership, at: mandalay, basis: c, note: 'the arrival'}
+- place: {id: cal.1961-01-07.china-leadership-2, at: mandalay, basis: c}
+- place: {id: cal.1961-01-07.china-leadership-4, at: mandalay, basis: c}
+- place: {id: cal.1961-01-07.china-leadership-6, at: mandalay, basis: c, note: 'the departure by yacht'}
+- place: {id: cal.1961-01-07.china-leadership-7, at: mandalay, basis: c}
+- place: {id: cal.1961-01-07.china-leadership-8, at: mandalay, basis: c}
+- place: {id: cal.1961-01-08.china-leadership-4, at: pagan, basis: c}
+- place: {id: cal.1961-01-08.china-leadership-5, at: [pagan, rangoon], basis: c, note: 'the flight'}
+- place: {id: cal.1961-01-08.china-leadership-6, at: rangoon, basis: c, note: 'the Chinese Embassy'}
+- place: {id: cal.1961-01-09.china-leadership-4, at: kunming, basis: c}
+- place: {id: cal.1961-01-09.china-leadership-5, at: rangoon, basis: c, note: 'the airport'}
+- place: {id: cal.1961-01-09.desegregation-schools-uga, at: georgia, basis: c, note: 'the University of Georgia'}
+- place: {id: cal.1961-01-09.laos, at: moscow, basis: c}
+- place: {id: cal.1961-01-10.congress, at: washington, basis: seat, note: 'the Senate Democratic conference'}
+- place: {id: cal.1961-01-10.cuba, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1961-01-10.cuba-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-01-10.economy, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1961-01-11.goldwater, at: washington, basis: seat, note: 'the Senate floor'}
+- place: {id: cal.1961-01-11.rules, at: washington, basis: seat}
+- place: {id: cal.1961-01-12.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1961-01-12.program, at: washington, basis: seat, note: 'the message read in the House'}
+- place: {id: cal.1961-01-12.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republicans'' Committee on Committees'}
+- place: {id: cal.1961-01-12.transition-and-staff-cabinet, at: washington, basis: seat}
+- place: {id: cal.1961-01-13.republican-party-congress, at: washington, basis: seat, note: 'the Senate Republican conference'}
+- place: {id: cal.1961-01-13.robert-kennedy, at: washington, basis: seat}
+- place: {id: cal.1961-01-14.china-leadership-5, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-01-17.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-01-17.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1961-01-17.defense-2, at: washington, basis: seat}
+- place: {id: cal.1961-01-17.defense-3, at: washington, basis: seat}
+- place: {id: cal.1961-01-17.school-aid, at: nyc, basis: n, note: 'the rally at Cardinal Hayes High School, the Bronx'}
+- place: {id: cal.1961-01-18.defense, at: washington, basis: seat}
+- place: {id: cal.1961-01-18.defense-2, at: washington, basis: seat}
+- place: {id: cal.1961-01-18.defense-3, at: washington, basis: seat}
+- place: {id: cal.1961-01-18.georgia-ga, at: georgia, basis: c, note: 'the General Assembly in joint session'}
+- place: {id: cal.1961-01-18.transition-and-staff, at: washington, basis: seat}
+- place: {id: cal.1961-01-18.transition-and-staff-2, at: washington, basis: seat}
+- place: {id: cal.1961-01-19.laos, at: washington, basis: n, note: 'O''Donnell: the White House, the Cabinet Room'}
+- place: {id: cal.1961-01-20.rules, at: washington, basis: c, note: 'the Senate chamber'}
+- place: {id: cal.1961-01-20.transition-and-staff, at: washington, basis: seat, note: 'the inauguration; the Senate''s confirmations'}
+- place: {id: cal.1961-01-21.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-01-21.democratic-party, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-01-21.governors-ct, at: connecticut, basis: c, note: 'the State'}
+- place: {id: cal.1961-01-21.mississippi-ole-miss, at: mississippi, basis: c}
+- place: {id: cal.1961-01-21.transition-and-staff-3, at: washington, basis: c, note: 'the White House, the Fish Room'}
+- place: {id: cal.1961-01-22.cuba, at: washington, basis: c, note: 'the State Department'}
+- place: {id: cal.1961-01-23.court, at: washington, basis: seat}
+- place: {id: cal.1961-01-23.laos, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-01-24.china-leadership-3, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-01-24.congress, at: washington, basis: c, note: 'the Cabinet Room'}
+- place: {id: cal.1961-01-24.states-and-cities-us, at: arkansas, basis: c}
+- place: {id: cal.1961-01-24.transition-and-staff-2, at: washington, basis: seat}
+- place: {id: cal.1961-01-24.vietnam-hanoi, at: hanoi, basis: seat, note: 'the Politburo''s instruction'}
+- place: {id: cal.1961-01-25.economy, at: washington, basis: seat}
+- place: {id: cal.1961-01-25.jobs-and-wages, at: washington, basis: seat}
+- place: {id: cal.1961-01-25.press-and-broadcasting, at: washington, basis: c, note: 'the State Department auditorium'}
+- place: {id: cal.1961-01-26.china-leadership, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-01-26.defense, at: washington, basis: seat}
+- place: {id: cal.1961-01-26.defense-2, at: washington, basis: seat}
+- place: {id: cal.1961-01-26.republican-party, at: new-york-state, basis: c, note: 'the Westchester County Republican Committee''s dinner'}
+- place: {id: cal.1961-01-27.china-leadership, at: peking, basis: n, note: 'the trade agreement signed at Peking (the Zhonghua waijiao chronology)'}
+- place: {id: cal.1961-01-27.china-leadership-3, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-01-27.china-leadership-4, at: peking, basis: c, note: 'the Nationalities Palace'}
+- place: {id: cal.1961-01-27.king, at: nyc, basis: c, note: 'Carnegie Hall'}
+- place: {id: cal.1961-01-28.china-leadership-3, at: peking, basis: c, note: 'the Capital Theater'}
+- place: {id: cal.1961-01-28.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1961-01-28.cuba, at: washington, basis: c, note: 'the Cabinet Room'}
+- place: {id: cal.1961-01-30.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-01-30.program, at: washington, basis: seat, note: 'the joint session'}
+- place: {id: cal.1961-01-30.robert-kennedy, at: rome, basis: c, note: 'the field report from Rome'}
+- place: {id: cal.1961-01-31.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-01-31.china-leadership-3, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-01-31.china-leadership-4, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-01-31.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1961-01-31.georgia-ga, at: georgia, basis: tag, note: 'the Governor''s signing; tag state:ga'}
+- place: {id: cal.1961-01-31.rules, at: washington, basis: seat}
+- place: {id: cal.1961-02-01.alabama, at: montgomery, basis: c, note: 'the trial'}
+- place: {id: cal.1961-02-04.china-leadership-2, at: peking, basis: c, note: 'the Peking Hotel'}
+- place: {id: cal.1961-02-04.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1961-02-06.transition-and-staff, at: washington, basis: seat}
+- place: {id: cal.1961-02-08.laos, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-02-08.press-and-broadcasting, at: washington, basis: seat}
+- place: {id: cal.1961-02-08.transition-and-staff, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-02-09.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-02-09.civil-rights-the-executive, at: washington, basis: seat}
+- place: {id: cal.1961-02-09.transition-and-staff, at: washington, basis: seat}
+- place: {id: cal.1961-02-10.china-leadership, at: peking, basis: c}
+- place: {id: cal.1961-02-13.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People, Hunan Hall (人民大会堂湖南厅)'}
+- place: {id: cal.1961-02-13.china-leadership-2, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-02-13.china-leadership-3, at: peking, basis: c, note: 'the Soviet Embassy'}
+- place: {id: cal.1961-02-13.vietnam, at: saigon, basis: tag, note: 'the Ambassador''s call on Diệm; tag place:saigon'}
+- place: {id: cal.1961-02-14.state-and-city-finance-wv, at: west-virginia, basis: c}
+- place: {id: cal.1961-02-15.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-02-16.defense-2, at: washington, basis: seat}
+- place: {id: cal.1961-02-16.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-02-17.china-leadership, at: peking, basis: c, note: 'the Peking Hotel'}
+- place: {id: cal.1961-02-18.china-leadership, at: peking, basis: c}
+- place: {id: cal.1961-02-18.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1961-02-18.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-02-20.court, at: washington, basis: seat}
+- place: {id: cal.1961-02-20.latin-america, at: rio-de-janeiro, basis: c}
+- place: {id: cal.1961-02-23.defense, at: washington, basis: seat}
+- place: {id: cal.1961-02-23.defense-2, at: washington, basis: seat}
+- place: {id: cal.1961-02-24.cuba, at: havana, basis: n, note: 'Kudryavtsev''s report from Havana'}
+- place: {id: cal.1961-02-24.latin-america, at: la-paz, basis: c}
+- place: {id: cal.1961-02-24.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-02-24.trade, at: washington, basis: seat}
+- place: {id: cal.1961-02-27.congress, at: washington, basis: seat, note: 'the Senate Democratic conference'}
+- place: {id: cal.1961-02-28.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-02-28.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1961-02-28.open-housing-pa, at: pennsylvania, basis: c}
+- place: {id: cal.1961-03-01.china-leadership-3, at: peking, basis: n, note: 'the Great Hall of the People, Fujian Hall (人民大会堂福建厅)'}
+- place: {id: cal.1961-03-01.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1961-03-01.vietnam, at: washington, basis: seat, note: 'State''s telegram'}
+- place: {id: cal.1961-03-03.cuba, at: moscow, basis: c}
+- place: {id: cal.1961-03-03.cuba-2, at: miami, basis: c, note: 'the attachés'' report from Miami'}
+- place: {id: cal.1961-03-04.china-leadership-2, at: canton, basis: c, note: 'the arrival'}
+- place: {id: cal.1961-03-04.robert-kennedy, at: washington, basis: c, note: 'the Justice Department; Life''s Washington office'}
+- place: {id: cal.1961-03-04.testing, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-06.economy, at: washington, basis: seat, note: 'the Joint Economic Committee'}
+- place: {id: cal.1961-03-07.latin-america-2, at: washington, basis: c, note: 'the Fish Room, the Oval Office'}
+- place: {id: cal.1961-03-07.sit-ins, at: atlanta, basis: c}
+- place: {id: cal.1961-03-07.testing, at: washington, basis: c}
+- place: {id: cal.1961-03-08.africa, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-08.china-leadership, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-03-08.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1961-03-09.defense, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-09.democratic-party, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-09.economy, at: washington, basis: seat, note: 'the Senate (the Record)'}
+- place: {id: cal.1961-03-09.farm, at: washington, basis: seat}
+- place: {id: cal.1961-03-09.laos, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-09.peace-corps, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-09.press-and-broadcasting, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1961-03-09.soviet-union, at: novosibirsk, basis: c}
+- place: {id: cal.1961-03-10.foreign-aid, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-10.laos, at: moscow, basis: c, note: 'Thompson''s cable from Moscow'}
+- place: {id: cal.1961-03-11.china-leadership-4, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-03-11.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-13.china-leadership, at: canton, basis: n, note: 'Mao''s letter dated at Canton (Jianguo yilai Mao Zedong wengao)'}
+- place: {id: cal.1961-03-14.vietnam-hanoi, at: hanoi, basis: seat, note: 'the Party Center''s cable'}
+- place: {id: cal.1961-03-15.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-15.farm, at: washington, basis: seat}
+- place: {id: cal.1961-03-15.jobs-and-wages, at: washington, basis: seat}
+- place: {id: cal.1961-03-16.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-16.school-aid, at: washington, basis: seat, note: 'the House subcommittee'}
+- place: {id: cal.1961-03-17.space, at: washington, basis: seat, note: 'House Science and Astronautics'}
+- place: {id: cal.1961-03-18.space, at: washington, basis: seat, note: 'a congressional committee'}
+- place: {id: cal.1961-03-19.press-and-broadcasting, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1961-03-20.cuba, at: miami, basis: c}
+- place: {id: cal.1961-03-21.laos, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-21.laos-4, at: new-delhi, basis: c}
+- place: {id: cal.1961-03-22.laos, at: washington, basis: seat}
+- place: {id: cal.1961-03-23.cuba-bay-of-pigs, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-23.transition-and-staff, at: washington, basis: seat}
+- place: {id: cal.1961-03-24.transition-and-staff, at: washington, basis: seat}
+- place: {id: cal.1961-03-25.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-03-26.china-leadership, at: peking, basis: c}
+- place: {id: cal.1961-03-26.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-03-26.laos, at: key-west, basis: c}
+- place: {id: cal.1961-03-27.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-03-27.laos, at: washington, basis: c}
+- place: {id: cal.1961-03-28.berlin-and-vienna, at: washington, basis: c, note: 'the Rose Garden'}
+- place: {id: cal.1961-03-28.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1961-03-28.cuba-2, at: norfolk-va, basis: c, note: 'Dennison''s message from Norfolk'}
+- place: {id: cal.1961-03-28.farm, at: washington, basis: seat}
+- place: {id: cal.1961-03-28.transition-and-staff, at: washington, basis: seat}
+- place: {id: cal.1961-03-29.china-leadership-2, at: peking, basis: n, note: 'the Diaoyutai guesthouse (钓鱼台宾馆)'}
+- place: {id: cal.1961-03-29.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-03-29.jobs-and-wages, at: washington, basis: seat}
+- place: {id: cal.1961-03-30.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-03-30.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-03-30.crime-and-hijacking, at: nyc, basis: c, note: 'Brooklyn'}
+- place: {id: cal.1961-03-30.defense, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1961-03-30.european-community, at: london, basis: c}
+- place: {id: cal.1961-04-01.laos, at: moscow, basis: c}
+- place: {id: cal.1961-04-03.states-and-cities, at: michigan, basis: c}
+- place: {id: cal.1961-04-04.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1961-04-04.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1961-04-04.cuba, at: washington, basis: c, note: 'the State Department'}
+- place: {id: cal.1961-04-04.defense, at: washington, basis: seat}
+- place: {id: cal.1961-04-04.mayors-los-angeles, at: los-angeles, basis: c}
+- place: {id: cal.1961-04-04.mayors-st-louis, at: st-louis, basis: c}
+- place: {id: cal.1961-04-04.states-and-cities, at: texas, basis: c}
+- place: {id: cal.1961-04-05.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-04-05.cuba-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-06.cuba-bay-of-pigs, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-06.soviet-union-leadership, at: moscow, basis: seat}
+- place: {id: cal.1961-04-07.cuba, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1961-04-07.cuba-4, at: havana, basis: c}
+- place: {id: cal.1961-04-07.defense, at: washington, basis: seat}
+- place: {id: cal.1961-04-07.laos, at: moscow, basis: c}
+- place: {id: cal.1961-04-08.cuba, at: nyc, basis: n, note: 'the U.S. Delegation to the UN in New York (Schlesinger''s journal)'}
+- place: {id: cal.1961-04-08.cuba-bay-of-pigs, at: nyc, basis: c, note: 'the KGB''s New York station'}
+- place: {id: cal.1961-04-11.cuba-2, at: moscow, basis: seat}
+- place: {id: cal.1961-04-11.oil, at: washington, basis: seat}
+- place: {id: cal.1961-04-12.china-leadership-4, at: kunming, basis: c}
+- place: {id: cal.1961-04-12.cuba-2, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-12.cuba-5, at: washington, basis: c, note: 'the Justice Department'}
+- place: {id: cal.1961-04-12.right-and-the-military, at: washington, basis: seat}
+- place: {id: cal.1961-04-13.china-leadership, at: jinghong, basis: c}
+- place: {id: cal.1961-04-13.china-leadership-2, at: jinghong, basis: c}
+- place: {id: cal.1961-04-13.cuba, at: nyc, basis: c, note: 'the Century'}
+- place: {id: cal.1961-04-13.cuba-5, at: puerto-cabezas, basis: c, note: 'Hawkins''s cable from Puerto Cabezas'}
+- place: {id: cal.1961-04-13.elections-1960-chicago, at: chicago, basis: c}
+- place: {id: cal.1961-04-13.laos, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-14.china-leadership-2, at: jinghong, basis: c}
+- place: {id: cal.1961-04-14.civil-rights-the-executive, at: washington, basis: c, note: 'the Cabinet Room'}
+- place: {id: cal.1961-04-14.cuba-2, at: havana, basis: c}
+- place: {id: cal.1961-04-14.cuba-3, at: havana, basis: c}
+- place: {id: cal.1961-04-14.press-and-broadcasting, at: hickory-hill, basis: c}
+- place: {id: cal.1961-04-15.china-leadership, at: jinghong, basis: c}
+- place: {id: cal.1961-04-15.china-leadership-2, at: [jinghong, simao], basis: c, note: 'the journey'}
+- place: {id: cal.1961-04-15.china-leadership-3, at: simao, basis: c}
+- place: {id: cal.1961-04-15.cuba-2, at: nyc, basis: seat, note: 'the UN Political Committee'}
+- place: {id: cal.1961-04-15.cuba-bay-of-pigs-2, at: [glen-ora, williamsburg-va], basis: c, note: 'the President''s call from Glen Ora'}
+- place: {id: cal.1961-04-16.china-leadership-2, at: simao, basis: n, note: 'the communiqué at Simao airport (思茅机场)'}
+- place: {id: cal.1961-04-16.cuba-2, at: washington, basis: c, note: 'the Pentagon'}
+- place: {id: cal.1961-04-16.cuba-4, at: playa-giron, basis: c, note: 'Blue Beach'}
+- place: {id: cal.1961-04-16.laos, at: moscow, basis: c}
+- place: {id: cal.1961-04-17.china-leadership, at: peking, basis: c, note: 'the Diaoyutai guesthouse'}
+- place: {id: cal.1961-04-17.court, at: washington, basis: seat}
+- place: {id: cal.1961-04-17.cuba, at: bay-of-pigs, basis: c}
+- place: {id: cal.1961-04-17.cuba-4, at: playa-giron, basis: c, note: 'Blue Beach, Girón and its airfield'}
+- place: {id: cal.1961-04-17.cuba-bay-of-pigs, at: williamsburg-va, basis: c, note: 'Robert Kennedy''s end of the President''s call'}
+- place: {id: cal.1961-04-18.china-leadership-3, at: peking, basis: c, note: 'Wucheng Hall'}
+- place: {id: cal.1961-04-18.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1961-04-18.china-leadership-6, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-04-18.china-leadership-7, at: peking, basis: c}
+- place: {id: cal.1961-04-18.civil-rights-the-executive, at: washington, basis: seat, note: 'the White House named'}
+- place: {id: cal.1961-04-18.cuba-10, at: bay-of-pigs, basis: c, note: 'the beachhead: Red Beach, San Blas, Blue Beach, Playa Larga'}
+- place: {id: cal.1961-04-18.cuba-4, at: washington, basis: c, note: 'the Cabinet Room; the President''s office'}
+- place: {id: cal.1961-04-18.cuba-7, at: norfolk-va, basis: c, note: 'Dennison at Norfolk'}
+- place: {id: cal.1961-04-18.cuba-9, at: washington, basis: c, note: 'the White House situation room'}
+- place: {id: cal.1961-04-18.cuba-bay-of-pigs, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-18.governors-nj, at: new-jersey, basis: c}
+- place: {id: cal.1961-04-18.specials, at: arkansas, basis: c}
+- place: {id: cal.1961-04-18.testing, at: geneva, basis: c}
+- place: {id: cal.1961-04-19.china-leadership-4, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-04-19.china-leadership-5, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-04-19.china-leadership-6, at: peking, basis: c, note: 'the Great Hall of the People, Zhejiang Hall'}
+- place: {id: cal.1961-04-19.cuba-11, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-19.cuba-3, at: opa-locka, basis: c, note: 'the first stop (then Washington, the White House)'}
+- place: {id: cal.1961-04-19.cuba-5, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-19.cuba-8, at: puerto-cabezas, basis: c, note: 'the air base''s cable'}
+- place: {id: cal.1961-04-19.cuba-9, at: nyc, basis: c, note: 'Stevenson''s cable from New York'}
+- place: {id: cal.1961-04-19.cuba-bay-of-pigs, at: washington, basis: c, note: 'Nixon''s house'}
+- place: {id: cal.1961-04-20.china-leadership-3, at: peking, basis: n, note: 'the Peking Hotel (北京饭店)'}
+- place: {id: cal.1961-04-20.cuba-2, at: washington, basis: c, note: 'the Cabinet; the Oval Office'}
+- place: {id: cal.1961-04-20.cuba-bay-of-pigs, at: washington, basis: n, note: 'the White House (Nixon, Six Crises)'}
+- place: {id: cal.1961-04-20.laos-2, at: washington, basis: seat}
+- place: {id: cal.1961-04-20.republican-party, at: washington, basis: c, note: 'Capitol Hill'}
+- place: {id: cal.1961-04-21.china-leadership-2, at: peking, basis: n, note: 'the Workers'' Stadium, Peking (北京工人体育场)'}
+- place: {id: cal.1961-04-21.china-leadership-3, at: peking, basis: c, note: 'the Workers'' Stadium'}
+- place: {id: cal.1961-04-21.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1961-04-21.cuba-bay-of-pigs, at: nyc, basis: c, note: 'Taylor''s end of the President''s call'}
+- place: {id: cal.1961-04-21.king, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-04-22.china-leadership, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-04-22.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Ziguang Ge and Xihuating'}
+- place: {id: cal.1961-04-22.cuba, at: camp-david, basis: c}
+- place: {id: cal.1961-04-22.cuba-bay-of-pigs, at: washington, basis: c, note: 'the Oval Office'}
+- place: {id: cal.1961-04-23.china-leadership, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-04-23.china-leadership-2, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-04-24.china-leadership, at: hangzhou, basis: c, note: 'the Hangzhou Hotel'}
+- place: {id: cal.1961-04-24.china-leadership-3, at: [peking, hangzhou], basis: c, note: 'the journey'}
+- place: {id: cal.1961-04-24.china-leadership-4, at: hangzhou, basis: c}
+- place: {id: cal.1961-04-24.court, at: washington, basis: seat}
+- place: {id: cal.1961-04-24.vietnam, at: saigon, basis: c, note: 'McGarr''s presentation from Saigon'}
+- place: {id: cal.1961-04-25.china-leadership, at: hangzhou, basis: c}
+- place: {id: cal.1961-04-25.china-leadership-3, at: hangzhou, basis: c, note: 'the airport'}
+- place: {id: cal.1961-04-25.china-leadership-4, at: hangzhou, basis: c}
+- place: {id: cal.1961-04-26.laos, at: washington, basis: c, note: 'the Cabinet Room'}
+- place: {id: cal.1961-04-27.china-leadership-4, at: hangzhou, basis: c}
+- place: {id: cal.1961-04-27.japan-and-korea, at: tokyo, basis: c}
+- place: {id: cal.1961-04-27.laos, at: washington, basis: c, note: 'Rostow: "the worst White House meeting"'}
+- place: {id: cal.1961-04-27.laos-3, at: bangkok, basis: c}
+- place: {id: cal.1961-04-28.democratic-party, at: nyc, basis: c, note: 'the Carlyle, the day''s first stop (then Chicago)'}
+- place: {id: cal.1961-04-29.berlin-and-vienna, at: washington, basis: c, note: 'the Soviet Embassy; the GRU''s chief in Washington'}
+- place: {id: cal.1961-04-29.laos, at: washington, basis: c, note: 'the State Department'}
+- place: {id: cal.1961-05-01.court, at: washington, basis: seat}
+- place: {id: cal.1961-05-01.cuba-bay-of-pigs, at: washington, basis: seat}
+- place: {id: cal.1961-05-02.china-leadership-4, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-05-02.economy, at: washington, basis: seat, note: 'the Joint Economic Committee''s report'}
+- place: {id: cal.1961-05-02.specials, at: arizona, basis: c}
+- place: {id: cal.1961-05-03.laos-2, at: saigon, basis: c, note: 'Harriman''s cable from Saigon'}
+- place: {id: cal.1961-05-04.civil-rights-bill, at: washington, basis: seat}
+- place: {id: cal.1961-05-04.civil-rights-bill-2, at: washington, basis: seat}
+- place: {id: cal.1961-05-04.cuba-bay-of-pigs-2, at: nyc, basis: c, note: 'the New York Herald Tribune'}
+- place: {id: cal.1961-05-04.laos, at: washington, basis: seat, note: 'State and Defense'}
+- place: {id: cal.1961-05-05.economy-gold, at: paris, basis: c}
+- place: {id: cal.1961-05-05.freedom-rides, at: birmingham, basis: c, note: 'the FBI''s Birmingham office'}
+- place: {id: cal.1961-05-06.berlin-and-vienna, at: washington, basis: seat, note: 'the State Department''s message'}
+- place: {id: cal.1961-05-07.china-leadership-4, at: she-county, basis: c, note: 'the day''s inquiry, from Handan'}
+- place: {id: cal.1961-05-08.china-leadership-5, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-05-08.confirmations, at: washington, basis: seat}
+- place: {id: cal.1961-05-09.berlin-and-vienna, at: washington, basis: c, note: 'the Justice Department; the Mall'}
+- place: {id: cal.1961-05-09.china-leadership-2, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-05-09.china-leadership-3, at: peking, basis: c, note: 'the airport VIP room'}
+- place: {id: cal.1961-05-09.china-leadership-6, at: shanghai, basis: c}
+- place: {id: cal.1961-05-09.china-leadership-7, at: shanghai, basis: c}
+- place: {id: cal.1961-05-11.civil-rights-bill, at: washington, basis: seat}
+- place: {id: cal.1961-05-11.crime-and-hijacking, at: washington, basis: seat}
+- place: {id: cal.1961-05-11.voting-rights, at: nyc, basis: c, note: 'the New York Post'}
+- place: {id: cal.1961-05-12.vietnam, at: saigon, basis: tag, note: 'Johnson''s call on Diệm; tag place:saigon'}
+- place: {id: cal.1961-05-12.vietnam-johnson-asia, at: saigon, basis: c}
+- place: {id: cal.1961-05-13.vietnam-johnson-asia, at: saigon, basis: n, note: 'Saigon telegram 1739'}
+- place: {id: cal.1961-05-15.defense, at: washington, basis: seat}
+- place: {id: cal.1961-05-16.cuba, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-05-16.european-community, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-05-16.laos, at: geneva, basis: c}
+- place: {id: cal.1961-05-16.school-aid, at: washington, basis: seat}
+- place: {id: cal.1961-05-16.specials, at: pennsylvania, basis: c}
+- place: {id: cal.1961-05-16.specials-2, at: tennessee, basis: c}
+- place: {id: cal.1961-05-17.europe-and-the-alliance, at: ottawa, basis: c}
+- place: {id: cal.1961-05-17.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-05-18.defense, at: washington, basis: seat}
+- place: {id: cal.1961-05-18.european-community, at: london, basis: c}
+- place: {id: cal.1961-05-18.freedom-rides, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-05-18.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-05-19.alabama, at: montgomery, basis: c, note: 'the injunction'}
+- place: {id: cal.1961-05-19.china-leadership, at: peking, basis: c}
+- place: {id: cal.1961-05-19.cuba-bay-of-pigs, at: washington, basis: seat}
+- place: {id: cal.1961-05-19.freedom-rides, at: birmingham, basis: c}
+- place: {id: cal.1961-05-20.testing, at: moscow, basis: seat}
+- place: {id: cal.1961-05-21.alabama, at: montgomery, basis: tag, note: 'the Alabama Capitol; tag city:montgomery'}
+- place: {id: cal.1961-05-22.alabama, at: alabama, basis: tag, note: 'the Governor''s news conference; tag state:al'}
+- place: {id: cal.1961-05-22.freedom-rides-2, at: washington, basis: seat}
+- place: {id: cal.1961-05-22.peace-corps, at: washington, basis: c, note: 'the Cabinet Room'}
+- place: {id: cal.1961-05-22.school-aid, at: washington, basis: seat}
+- place: {id: cal.1961-05-23.vietnam-congress, at: washington, basis: seat}
+- place: {id: cal.1961-05-24.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-05-24.defense, at: washington, basis: seat}
+- place: {id: cal.1961-05-24.freedom-rides-2, at: washington, basis: seat}
+- place: {id: cal.1961-05-24.freedom-rides-3, at: [montgomery, washington], basis: c, note: 'Coffin''s calls from Montgomery to the White House'}
+- place: {id: cal.1961-05-25.china-leadership, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-05-25.freedom-rides-2, at: washington, basis: seat}
+- place: {id: cal.1961-05-25.school-aid, at: washington, basis: seat}
+- place: {id: cal.1961-05-25.space, at: washington, basis: seat, note: 'the joint session'}
+- place: {id: cal.1961-05-25.vietnam-johnson-asia, at: washington, basis: seat, note: 'Foreign Relations the host'}
+- place: {id: cal.1961-05-26.civil-rights-organizations, at: atlanta, basis: c, note: 'Ebenezer'}
+- place: {id: cal.1961-05-26.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-05-27.cuba-bay-of-pigs, at: washington, basis: n, note: 'the President to the Chiefs at the Pentagon (Taylor)'}
+- place: {id: cal.1961-05-27.states-and-cities, at: texas, basis: tag, note: 'the runoff for Johnson''s seat; tag state:tx'}
+- place: {id: cal.1961-05-29.china-leadership, at: peking, basis: c}
+- place: {id: cal.1961-05-29.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-05-29.court, at: washington, basis: seat}
+- place: {id: cal.1961-05-29.robert-kennedy, at: hyannis-port, basis: c, note: 'Robert Kennedy''s call from Hyannis Port'}
+- place: {id: cal.1961-05-29.vietnam-congress, at: washington, basis: seat}
+- place: {id: cal.1961-05-30.middle-east, at: nyc, basis: c, note: 'the Waldorf-Astoria'}
+- place: {id: cal.1961-05-31.defense, at: washington, basis: seat}
+- place: {id: cal.1961-05-31.latin-america, at: paris, basis: c, note: 'Salinger''s end of the call; his briefing in Paris'}
+- place: {id: cal.1961-05-31.states-and-cities, at: los-angeles, basis: c}
+- place: {id: cal.1961-06-01.school-aid, at: washington, basis: seat}
+- place: {id: cal.1961-06-02.china, at: paris, basis: c}
+- place: {id: cal.1961-06-03.berlin-and-vienna, at: vienna, basis: c}
+- place: {id: cal.1961-06-03.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-06-05.berlin-and-vienna, at: london, basis: c}
+- place: {id: cal.1961-06-05.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-06-05.china-leadership-2, at: peking, basis: c, note: 'the airport reception room'}
+- place: {id: cal.1961-06-05.china-leadership-3, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-06-05.court, at: washington, basis: seat}
+- place: {id: cal.1961-06-05.jobs-and-wages, at: washington, basis: seat, note: 'Clark''s subcommittee'}
+- place: {id: cal.1961-06-06.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-06-06.china-leadership-2, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-06-06.china-leadership-3, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-06-06.china-leadership-4, at: peking, basis: c}
+- place: {id: cal.1961-06-08.china-leadership-5, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-06-08.defense, at: washington, basis: seat}
+- place: {id: cal.1961-06-08.economy, at: washington, basis: seat}
+- place: {id: cal.1961-06-09.africa, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1961-06-09.china-leadership, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-06-09.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-06-10.berlin-and-vienna, at: moscow, basis: c}
+- place: {id: cal.1961-06-12.china-leadership-3, at: peking, basis: n, note: 'the Great Hall of the People (人民大会堂)'}
+- place: {id: cal.1961-06-12.china-leadership-4, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-06-12.china-leadership-5, at: peking, basis: c, note: 'the Great Hall of the People, Zhejiang Hall'}
+- place: {id: cal.1961-06-12.defense, at: washington, basis: seat}
+- place: {id: cal.1961-06-12.laos, at: geneva, basis: c}
+- place: {id: cal.1961-06-13.china-leadership-2, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-06-13.china-leadership-3, at: peking, basis: c, note: 'the Diaoyutai guesthouse'}
+- place: {id: cal.1961-06-13.china-leadership-5, at: peking, basis: c}
+- place: {id: cal.1961-06-13.confirmations, at: washington, basis: seat}
+- place: {id: cal.1961-06-13.mayors-minneapolis, at: minneapolis, basis: c}
+- place: {id: cal.1961-06-14.china-leadership, at: peking, basis: c, note: 'the Workers'' Stadium'}
+- place: {id: cal.1961-06-14.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1961-06-14.china-leadership-3, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-06-14.vietnam, at: washington, basis: c, note: 'the White House'}
+- place: {id: cal.1961-06-15.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1961-06-15.china-leadership-4, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-06-15.china-leadership-6, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-06-15.china-leadership-7, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-06-15.china-leadership-8, at: peking, basis: c, note: 'the Great Hall of the People'}
+- place: {id: cal.1961-06-15.freedom-rides, at: parchman, basis: c}
+- place: {id: cal.1961-06-15.state-and-city-finance-nc, at: north-carolina, basis: c, note: 'the General Assembly'}
+- place: {id: cal.1961-06-16.china-leadership-4, at: peking, basis: c, note: 'the airport'}
+- place: {id: cal.1961-06-17.soviet-union, at: moscow, basis: seat}
+- place: {id: cal.1961-06-18.china-leadership-2, at: peking, basis: c}
+- place: {id: cal.1961-06-18.china-leadership-3, at: peking, basis: c}
+- place: {id: cal.1961-06-19.court, at: washington, basis: seat}
+- place: {id: cal.1961-06-19.laos, at: zurich, basis: c}
+- place: {id: cal.1961-06-20.china-leadership-3, at: peking, basis: n, note: 'Zhongnanhai, Xihuating; the Great Hall of the People'}
+- place: {id: cal.1961-06-20.school-aid, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1961-06-21.economy, at: washington, basis: seat}
+- place: {id: cal.1961-06-23.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-06-23.cuba, at: gettysburg, basis: c}
+- place: {id: cal.1961-06-24.cuba, at: moscow, basis: seat}
+- place: {id: cal.1961-06-25.china-leadership-3, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-06-26.economy-debt-limit, at: washington, basis: seat}
+- place: {id: cal.1961-06-26.laos, at: paris, basis: c}
+- place: {id: cal.1961-06-27.economy, at: washington, basis: c, note: 'the Washington Post; the Record'}
+- place: {id: cal.1961-06-28.defense, at: washington, basis: seat}
+- place: {id: cal.1961-06-28.laos, at: vientiane, basis: c, note: 'Brown''s cable from Vientiane'}
+- place: {id: cal.1961-06-29.china-leadership-2, at: peking, basis: c, note: 'the Peking Hotel'}
+- place: {id: cal.1961-06-29.defense, at: washington, basis: seat}
+- place: {id: cal.1961-06-29.laos, at: washington, basis: c}
+- place: {id: cal.1961-06-29.vietnam-congress, at: washington, basis: seat}
+- place: {id: cal.1961-07-02.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-07-02.middle-east-kuwait, at: nyc, basis: seat, note: 'the Security Council, at the UN'}
+- place: {id: cal.1961-07-03.china-leadership-2, at: peking, basis: n, note: 'the Diaoyutai guesthouse (钓鱼台宾馆)'}
+- place: {id: cal.1961-07-03.school-aid, at: nyc, basis: c, note: 'the New York Times'}
+- place: {id: cal.1961-07-04.china-leadership-2, at: peking, basis: n, note: 'Zhongnanhai, Xihuating'}
+- place: {id: cal.1961-07-04.vietnam-hanoi, at: hanoi, basis: seat, note: 'the Party Secretariat''s instruction'}
+- place: {id: cal.1961-07-05.china-leadership-2, at: peking, basis: c, note: 'Xihuating'}
+- place: {id: cal.1961-07-05.china-leadership-3, at: peking, basis: c}

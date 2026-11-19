@@ -547,3 +547,61 @@ Taken Nov. 11, 23:30 Pacific (Nov. 12, 07:30 UTC), at the owner's word of "a han
 | 11-12 | Zhou Enlai (Jian Chen).pdf | 8 MB | `1-3o98-Rh-oFfxRIc7ZsvKooykY9CJdU_` | none (card `adm.zhou-enlai` is the nianpu, not this) |
 
 Chen Jian on Zhou Enlai: present (as "Jian Chen", 8 MB, probably the 2024 book). Pantsov's *Mao*: present. Chinese nianpu or documentary series: none new; the Mao biography above is the only Chinese item.
+
+
+## What came in, Nov. 18 (evening)
+
+Taken Nov. 18, 7:30 p.m. Pacific, at the owner's word (about 6:25 p.m.): "I've added a number of items from the 'most-cited items not on the Drive' list ... a number of volumes of 毛泽东思想万岁 ... Are you able to match these to known bibliographic items or series?" 30 files in the folder "1968 series: sources for Claude", created Nov. 18, 4:00 to 5:34 p.m. Pacific. The *wansui* were downloaded and their title pages, contents and colophons read from the images (all image scans); the rest matched from the file names against the works cards and the To-check list of Nov. 18 (`scratchpad/tocheck/to-check-works-not-on-drive.csv`: rank, cites). Nothing read for the calendar yet.
+
+### The *wansui*
+
+**1. The Wuhan set, all five volumes in one file.** `1N8zDGfGeTPk2m_wp1gTD1Z27FS-53hqt` (1,592 pp., 133 MB; Adobe image conversion; the file name: "1968年武汉版《毛泽东思想万岁》 -- 编者_钢二司武汉大学总部、中南民院革委会宣传部、武汉师院革委会宣...1968 -- 人民群众出版社"). The 1968 Wuhan edition that marxists.org transcribed in 2005 (`marxists.org/chinese/maozedong/1968/`: collected by Wang Chaoxing 王晁星 of Wuhan University's philosophy department, printed by 钢二司武汉大学总部 as 内部资料; five volumes, 16开, over two million characters). The Wilson Center's two excerpts of vol. 5 (above, "Chinese published") are from it. The volumes in the PDF, from their title pages (Mao's calligraphic title over a portrait):
+
+| Vol. | Span (title page) | PDF pp. | Mark on the title page |
+|---|---|---|---|
+| 1 | 1913–1943 (marxists.org) | 1–317 | 内部文件 严禁外传; contents from p. 5 (the 1913 讲堂录 first) |
+| 2 | 1943–1949, with 补遗 (marxists.org) | 318–598 | 内部資料 請勿外傳; 一九六七年十一月 |
+| 3 | 1949.10–1957.12 | 599–873 | (as vol. 2) |
+| 4 | 1958.1–1960.12 | 874–1232 | 内部学习·不得外传 |
+| 5 | 1961.1–1968.5 | 1233–1592 | 内部学习·不得外传; last item, the "faction" quotations of Apr.–May 1968 |
+
+So the owner's guess is right: the whole series. Printed in Wuhan, Nov. 1967 (vol. 2's date) to May 1968 (vol. 5's last items; the Wilson Center's catalogue says May 1968 for vol. 5). For the calendar, vols. 4 (from 1960) and 5: about 720 pages. The text layer: none; tesseract `chi_sim` reads these pages well (clean letterpress). marxists.org's transcription (no page numbers) helps find an item; pinpoints come from the PDF's printed pages. The cards: none of the five existing *wansui* cards is this edition (`w.mao-zedong-sixiang-wan` "1960–1967" n.d.; `-1967` "xu er", Renmin daxue; `-1969`; `-2` "1958–59"; `-3` "July 1967" in Cheek's classification; `-n-d` "[Shanghai?], [1968?]"): a new card, the set, with each volume's span in its note. Internal printing (R27): noted beside, never counted for "Made public".
+
+**2. A different series: 《毛泽东思想万岁》, subtitled 《文化革命学习材料汇编》 (Cultural Revolution study materials, a compilation), numbered issues of July 1966 to July 1967.** Copier scans (DocuCentre-III C4400; heavy speckle, OCR fails: read from the images). The covers carry the title in print type, the subtitle with the issue's number, and the month; no compiler, place or circulation mark on the covers or contents pages seen. The Drive's file names call it "毛泽东思想万岁汇编" and give the months of the matter inside.
+
+| Issue (cover) | Month (cover) | File name's months | PDF pp. | Drive id |
+|---|---|---|---|---|
+| [1] (no number) | July 1966 | July 1966 | 33 | `10lBANDauwF7v-VedDAZLXWLrMOJN45qs` |
+| 4 | Sept. 1966 | Sept.–Oct. 1966 | 144 | `1kmgQHO9JI83SJUll8pkoMhkZUtaCd_VX` |
+| 6 | Oct. 1966 | Oct. 1966 | 76 | `1cweMlrcsv_Ow9_4fRFbVaCjtai9EqEqr` |
+| 6 | Oct. 1966 | Oct.–Dec. 1966 | 84 | `1SQFHDTazGGz74vILxKdRDC-RpOu-NqOK` |
+| 9 | Dec. 1966 | Dec. 1966–Jan. 1967 | 78 | `1R8xeCqYTGZv2k59SjnbaLmIGBoNRu8v_` |
+| 14 | Mar. 1967 | "14–15", Mar. 1967 | 97 | `1UPRYkc7yZEmkWGr0PwJD-7gwlbnCbsv7` |
+| 17 | Apr. 1967 | Apr. 1967 | 182 | `1fw88CDANkjZE8f-WkjJii5YX6fdLnH-w` |
+| 21 | July 1967 | July 1967 | 132 | `1nimRTiIe9i0Xl2NN7twn4i0hQND9aT-8` |
+
+What they hold, from the contents pages: open matter of the month, reprinted. No. [1]: five pieces, the first "毛泽东思想万岁" (the editorials of June 1966). No. 4: Lin Biao's and Zhou Enlai's speeches at the rallies of Aug. 31 and Sept. 15, 1966, then *Renmin ribao*, *Hongqi* and *Jiefangjun bao* editorials of late August and September (each with its paper and date). No. 6: Lin's and Zhou's speeches of Oct. 1, 1966 (the National Day rally and the reception), then the National Day editorials (*Hongqi* 1966 no. 13; *Jiefangjun bao* Sept. 30). No. 9: Mao's quotations on the masses, and the month's editorials. No. 14: "毛主席关于整风的语录", then study pieces and *Hongqi* 1967 no. 4's editorial. No. 17: Qi Benyu's article on *Qinggong mishi* (爱国主义还是卖国主义, *Hongqi* 1967 no. 5), and others. No. 21: Mao's "On the correct handling of contradictions among the people" (re-issued June 1967), with the anniversary editorials of *Hongqi* and *Renmin ribao* (June 1967). The two files numbered 6 are one issue: the covers and contents agree page for page, but the 76-page scan stops at printed p. 23 of the issue's second pagination, the 84-page scan running on to p. 31 (the last piece, 夺取新的胜利). The 84-page file is the fuller copy.
+
+So, despite the cover title, these are not *wansui* in the bibliographers' sense (Mao's unpublished talks and instructions, the genre of the Wuhan set and the 1967 and 1969 volumes). They are a unit's monthly study compilations of what the papers printed. For the calendar they add little: each piece's first printing (the paper, its date) is the source to cite. Their use is as a witness of what was circulated for study, and when. No compiler is named in what I read; not identified with a known series. Proposed: one card for the series (title, subtitle, issues held, "n.p., 1966–67"), no reading pass; a reader citing an editorial cites the paper.
+
+### The other new books, matched to their cards (rank and cites from the To-check list)
+
+| To-check rank | Card | The Drive's copy | Matches? |
+|---|---|---|---|
+| 2 (137) | `w.yibo-ruogan-zhongda-juece-yu-1991-93` (1991–93) | 薄一波, 若干重大决策与事件的回顾, 上 (2011) `12bIOBEoutc-gbH0Ygs_UFIWNNMaCOMP-`; 下 (no year in the name) `1Z7JxX5vr3XtpETxymHK0C-rAoBg5DdDj` | A later edition (2011?): pages differ from 1991–93. An edition card (`edition_of`) and the copyright pages: Check |
+| 4 (127) | `w.jin-1949-1989-niande-zhongguo` (Cong Jin, 1989) | 丛进, 1949–1989年的中国: 曲折发展的岁月 (Henan renmin, 1989) `1dnntAALVw3ULvn9kFPNkbWIWMk2x60Y6` | Yes |
+| 7 (75) | `w.nongye-jitihua-zhongyao-wenjian` (vol. 2, 1958–81) | 农业集体化重要文件汇编, 上 (1949–57) `1kkrEi1xiV4wzVU0uUaGiJvEtM0hLs74i`, 下 (1958–81) `1J8KXV3tQlNyFO-JIaxjuDuZ5q8HfO5hg` (Zhonggong zhongyang dangxiao, 1981) | Yes (vol. 2); vol. 1 before the span |
+| 12 (55) | `w.nianyi-da-dongluande-niandai` (Wang Nianyi, 1988) | 王年一, 大动乱的年代 (Henan renmin, "1989" in the name) `1l6uuhu6Ib2V4vRarFQFRIKqo3q24zU7O` | Likely the same book (1988 first edition; 1989 a printing?): the copyright page, Check |
+| 13 (48) | `w.shaoguang-failure-of-charisma` (1995) | Wang Shaoguang, *Failure of Charisma* (Oxford, Hong Kong, 1995) `1btPfxFvFrtrRkvfNBDvAzLye4I1GUkzT` | Yes |
+| 20 (38) | `w.maxwell-indias-china-war` (1972) | Neville Maxwell, *India's China War* (Cape, 1970) `19W90Q47W9DTcF0pNXu-RpgUvy9Rim5bU` | The first edition; the card is 1972 (Pelican?): pages may differ. Check before citing pages |
+| 22 (35) | `w.zaidao-haojie-zhongde-yi-mu` (Chen Zaidao, 1989) | 陈再道, 浩劫中的一幕——武汉七二〇事件亲历记 `1EpiZ-gYRKbFxgxz-u-Wsckpth3nDiw9T` (5.5 MB; no year in the name) | The title, yes; the edition, Check |
+| 23 (35) | `w.xiuquan-huiyi-yu-huainian` (Wu Xiuquan, 1991) | 伍修权, 回忆与怀念 (Zhonggong zhongyang dangxiao, 1991) `1rC-_q8GvJrgugaRGc6aMyoJ-U4sNtTkl` | Yes |
+| 24 (34) | `w.shanghai-wenhua-dageming-shihua` (1992) | 上海"文化大革命"史话 (送审稿), 3 vols., 上海"文革"史料整理编纂小组, "1994" in the names `1-a11KsRocFqXE_ktjg3ar4t32m3d2vj2`, `1u-xtawj313zJVwUeJttBHMb9zyzYm9Aq`, `1DFipjGK0e9ItqCcEVolSSTt-xNH-3Dff` | The same compilers' draft for review (送审稿), never published; the card's year, 1992, and the files', 1994: Check which the citing works mean (MacFarquhar and Schoenhals cite it) |
+| 27 (31), 132 (10) | `w.qibin-zhongguo-gongchandang-zhizheng-sishinian` (rev. ed., 1991); `w.al-zhongguo-gongchan-dang-zhizheng` (1989) | 马齐彬 et al., 中国共产党执政四十年 (Zhonggong dangshi, 1991) `1s3C-CxScWL_-6U2cxUILzyrfg0H0zwZj` | The 1991 revised edition: yes; the 1989 first edition's cites (10) need it or a Check |
+| 28 (31) | `w.bian-mao-zedong-he-tade` (Dong Bian, 1989) | 董边 et al., 毛泽东和他的秘书田家英, 2nd ed. (Zhongyang wenxian, 1990) `1n1wNFI_Q2keq_f8vYUIi59VMAE4IoK5g`; 增订本 (enlarged, no year in the name) `10gYkUQXIyRcDis9CU1jJBTkC4S0NWkBq` | Neither is the 1989 first edition; the 1990 second edition is probably the same pages (Check); the enlarged edition a card of its own |
+| 37 (25) | `w.herring-secret-diplomacy-of-the` (1983) | Herring, *The Secret Diplomacy of the Vietnam War* (Texas, 1983) `1_Thdf8IFng75Jn29zei4KAxxPWoxWNva` | Yes |
+| 39 (24) | `w.whiting-chinese-calculus-of-deterrence` (1975) | Whiting, *The Chinese Calculus of Deterrence* (Michigan, 1975) `1QIrDKlU3Kp4vcek4-LRPS22_gZWyXzOI` | Yes |
+| (none) | none | 张素华, 变局: 七千人大会始末 (2006; the publisher from the copyright page, Check) `1-fHt7E6GT2vC6uZN2097MkkhmhotOVpK` | No card; the cards for the conference are Li Xiangqian's article (rank 50) and the mimeographed *Qi qian ren dahui ziliao* (rank 85). New card |
+| (none) | none | 中共中央、国务院、中央军委、中央文革关于广西文化大革命问题的重要文件汇编 (广西联指 et al., 编印) `1WlmTCLEdAA4_inrXS2-CGesEzlM1dIXh` | No card. A faction's compilation of the center's Guangxi documents, 1967–68; internal. New card |
+
+Still not on the Drive from the top of the list: the *Washington Post* (rank 1, no card: a newspaper), the *Wengao* (rank 3: the first edition the cards cite; the 2024 edition is on the Drive, read), and the rest as listed.
