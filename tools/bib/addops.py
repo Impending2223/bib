@@ -16,6 +16,7 @@ cite taken out) stays an `edit` with its `base`.
     - also:     {id, add: [vietnam-congress]}
     - variant:  {id, unit: C, witness: w.card, reads: 'Oct. 26', at: '710'}    a variant (R41), added once
     - follows:  {id, add: [cal.1964-08-04.vietnam]}                         the day's order (dayorder STYLE 2)
+    - place:    {id, at: peking, basis: c}  or  {id, at: [washington, moscow], basis: n, note: '...'}   places.py
 
 STYLE
  1. `cite`: the card leaves "To check:" (the sentence goes when empty) and joins the run of works read: at the end of
@@ -233,7 +234,28 @@ def follows(e, body):
     return new, None
 
 
-FNS = {"variant": variant, "follows": follows, "cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
+def place(e, body):
+    """An entry's place (places.py, STYLE 3): set where it has none or the same; another place is an `edit`. `basis`
+    and `note` are the pass's record (notes/briefs/places.md, P6), not kept on the entry."""
+    from . import places
+    at = [str(k) for k in store.as_list(body.get("at"))]
+    if not at or len(at) > 2:
+        return None, "place: at, a gazetteer key or a list of two"
+    for k in at:
+        if places.get(k) is None:
+            return None, f"place {k!r}: not in the gazetteer (a place-key op in the patch adds it)"
+    if body.get("basis") not in ("c", "n", "tag", "seat"):
+        return None, "place: basis c, n, tag or seat (notes/briefs/places.md, P6)"
+    new = dict(e)
+    cur = places.keys(e)
+    val = at[0] if len(at) == 1 else at
+    if cur and cur != at:
+        return None, f"place: the entry has {cur}; an edit changes it"
+    new["place"] = val
+    return new, None
+
+
+FNS = {"place": place, "variant": variant, "follows": follows, "cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
        "src": src, "via": src}
 
 

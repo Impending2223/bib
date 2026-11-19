@@ -9,9 +9,11 @@ STYLE
  2. The time, from the entry's fields (dayorder.py): `time` an hour ("11:30 a.m.", "noon"; "about 4 p.m." where
     `time_approx`); a `time_range` from the record its hours ("10:20–11:20 a.m."); a range from the event's kind
     (`range_basis: kind`) its band as words ("workday", "early morning", "election night"); no time, no dateline.
- 3. The place: the entry's city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the
-    eastern zone, Peking, Moscow, Saigon ...). An exact time with no zone stored takes its thread's (the Chinese
-    leadership's Peking, the Soviet's Moscow), else Washington's, shown as "Wash." after the hour, no place.
+ 3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
+    reaches it, its city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the eastern
+    zone, Peking, Moscow, Saigon ...). The clock: `time_zone`, else the place's zone; an exact time with neither
+    takes its thread's (the Chinese leadership's Peking, the Soviet's Moscow), else Washington's, shown as "Wash."
+    after the hour, no place.
  4. Washington when the day differs: where the local day is not Washington's, "(Mar. 10, 11 p.m. Wash.)" after.
 """
 import datetime
@@ -108,15 +110,20 @@ def text(e):
     t, r = e.get("time"), e.get("time_range")
     if not t and not r:
         return ""
-    zone = e.get("time_zone") or (_guess(e) if t else None)
+    from . import places
+    pr = places.first(e)
+    zone = e.get("time_zone") or (pr.get("zone") if pr else None) or (_guess(e) if t else None)
     wash_only = t and not zone
     try:
         lz = ZoneInfo(zone) if zone else WASH
     except Exception:
         lz, wash_only = WASH, True
     city, st = _tags(e, "city"), _tags(e, "state")
-    place = None if wash_only else (_city(city[0]) if city and e.get("time_zone") else
-                                    (_state(st[0]) if st and e.get("time_zone") else _zlabel(zone, e)))
+    if pr:
+        place, wash_only = pr.get("name"), False
+    else:
+        place = None if wash_only else (_city(city[0]) if city and e.get("time_zone") else
+                                        (_state(st[0]) if st and e.get("time_zone") else _zlabel(zone, e)))
     if t:
         a = _utc(t).astimezone(lz)
         when = ("about " if e.get("time_approx") else "") + _clock(a)
