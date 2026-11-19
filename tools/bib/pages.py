@@ -259,12 +259,64 @@ def short(section):
     return m.group(1) if m else None
 
 
-def pack(sizes, target):
+H3 = re.compile(r'<h3\b[^>]*\bid="([^"]+)"[^>]*>(.*?)</h3>', re.S)
+SHORT3 = re.compile(r'<h3\b[^>]*\bdata-short="([^"]+)"')
+PGCONT = re.compile(r'<h2 class="pgcont" id="[^"]*" data-of="([^"]+)"')
+
+
+def subcut(sid, label, section, starts):
+    """[(piece id, label, html)]: an h2 section too large for a page alone, cut at the h3s named (starts), each piece
+    after the first opened by the section's heading again, "continued", anchored pgc-<h3> (STYLE 2): the piece ids
+    'h2/h3' ('t196101/t196101-departments')."""
+    if not starts:
+        return [(sid, label, section)]
+    cuts = [(m.start(), m.group(1), TAGS.sub("", m.group(2)).strip()) for m in H3.finditer(section)
+            if m.group(1) in starts]
+    h = H2.match(section)
+    sh = short(section) or label
+    out = []
+    bounds = [0] + [c for c, _, _ in cuts] + [len(section)]
+    for i in range(len(bounds) - 1):
+        piece = section[bounds[i]:bounds[i + 1]]
+        if i == 0:
+            out.append((sid, label, piece))
+            continue
+        _, h3, l3 = cuts[i - 1]
+        head = (f'<h2 class="pgcont" id="pgc-{h3}" data-of="{sid}" data-short="{sh}, {l3}">'
+                f'{h.group(2) if h else label}, continued</h2>')
+        out.append((f"{sid}/{h3}", f"{label}: {l3}", head + piece))
+    return out
+
+
+def split_large(secs, target):
+    """[(piece id, short label, bytes)]: the sections [(id, short label, html)] in order, one larger than the target
+    cut at its h3s, packed in order (the first piece holding what comes before its first h3)."""
+    out = []
+    for sid, lab, h in secs:
+        ms = list(H3.finditer(h)) if len(h) > target else []
+        if not ms:
+            out.append((sid, lab, len(h)))
+            continue
+        units = []
+        for i, m in enumerate(ms):
+            a = 0 if i == 0 else m.start()
+            b = ms[i + 1].start() if i + 1 < len(ms) else len(h)
+            sm = SHORT3.match(h[m.start():])
+            units.append((m.group(1), sm.group(1) if sm else m.group(1), b - a))
+        sizes = {u[0]: u[2] for u in units}
+        shorts = {u[0]: u[1] for u in units}
+        for j, run in enumerate(pack([(u[0], u[2]) for u in units], target)):
+            pid = sid if j == 0 else f"{sid}/{run[0]}"
+            out.append((pid, lab if j == 0 else f"{lab}, {shorts[run[0]]}", sum(sizes[x] for x in run)))
+    return out
+
+
+def pack(sizes, target, alone=()):
     """Consecutive items [(id, bytes)] packed in order: [[id, ...], ...], each run at most the target (an item
-    larger alone)."""
+    larger alone; an item in `alone`, a piece of a section cut, with nothing else)."""
     out, cur, n = [], [], 0
     for k, s in sizes:
-        if cur and n + s > target:
+        if cur and (n + s > target or k in alone or cur[-1] in alone):
             out.append(cur)
             cur, n = [], 0
         cur.append(k)
@@ -275,6 +327,9 @@ def pack(sizes, target):
 
 
 def _slug(sid):
+    if "/" in sid:                                      # a piece of a section: t196101/t196101-departments
+        a, b = sid.split("/", 1)
+        return f"{_slug(a)}-{b[len(a) + 1:] if b.startswith(a + '-') else _slug(b)}"
     m = re.match(r"^[a-z]+(\d{4})\d\d$", sid)          # t196101: 1961
     if m:
         return m.group(1)
@@ -286,7 +341,9 @@ def sections_parts(fam, secs, target):
     """[{page, label, sections}] for a page's h2 sections [(id, label, bytes)] packed to the target."""
     lab = {s: l for s, l, _ in secs}
     out = []
-    for run in pack([(s, n) for s, _, n in secs], target):
+    cut = {x.split("/", 1)[0] for x, _, _ in secs if "/" in x}
+    alone = {x for x, _, _ in secs if "/" in x or x in cut}
+    for run in pack([(s, n) for s, _, n in secs], target, alone):
         a, b = _slug(run[0]), _slug(run[-1])
         page = f"{fam}-{a}" + (f"-{b}" if b != a else "")
         label = lab[run[0]] if len(run) == 1 else f"{lab[run[0]]}–{lab[run[-1]]}"
@@ -316,8 +373,10 @@ def cut(fam, page, title):
     if not plan:
         return {f"{fam}.html": page}
     pre, intro, secs, post = anatomy(page)
-    by_id = {s: (l, h) for s, l, h in secs}
     placed = {s for p in plan for s in p["sections"]}
+    secs = [x for s, l, h in secs for x in subcut(s, l, h, {q.split("/", 1)[1] for q in placed
+                                                            if q.startswith(s + "/")})]
+    by_id = {s: (l, h) for s, l, h in secs}
     rest = [s for s, _, _ in secs if s not in placed]            # a section the plan has not seen: on the last part
     parts = [dict(p, sections=[s for s in p["sections"] if s in by_id]) for p in plan]
     if rest:
@@ -633,18 +692,37 @@ def propose(out, rows=None):
     for fam in ("executive", "congress"):
         if fam not in over:
             continue
-        secs, intro = [], 0
-        for r in rows:
-            if r["family"] != fam or r["stub"]:
+        plan_ = sections_plan(fam)
+        over_ = {r["page"] for r in rows if r["over"]}
+        groups = []                         # [(the parts kept as they are, or None; the pages whose sections to plan)]
+        if plan_:                           # a family split before: a part within budget stays as it is (stable
+            for p in plan_:                 # addresses); one over is planned again, alone
+                groups.append(([p], None) if f"{p['page']}.html" not in over_ else (None, [f"{p['page']}.html"]))
+        else:
+            groups.append((None, [f"{fam}.html"]))
+        parts = []
+        for keep, names_ in groups:
+            if keep:
+                parts += keep
                 continue
-            if r["page"] == f"{fam}.html" and sections_plan(fam):
-                continue                       # the index: the parts hold the sections
-            text = open(pages_[r["page"]], encoding="utf-8").read()
-            pre, it, ss, post = anatomy(text)
-            secs += [(s, short(h) or l, len(h)) for s, l, h in ss]
-            intro = max(intro, len(pre) + len(it) + len(post))
-        target = int(budget(f"{fam}.html") * fill()) - intro
-        prop[fam] = {"parts": sections_parts(fam, secs, target)}
+            secs, intro = [], 0
+            for name in names_:
+                if name not in pages_:
+                    continue
+                text = open(pages_[name], encoding="utf-8").read()
+                pre, it, ss, post = anatomy(text)
+                for s, l, h in ss:
+                    m = PGCONT.match(h)
+                    of = m.group(1) if m else s
+                    at = next((k for k, x in enumerate(secs) if x[0] == of), None)
+                    if at is not None:             # a section cut before: its pieces joined again
+                        secs[at] = (of, secs[at][1], secs[at][2] + (h[h.index("</h2>") + 5:] if m else h))
+                    else:
+                        secs.append((s, short(h) or l, h))
+                intro = max(intro, len(pre) + len(it) + len(post))
+            target = int(budget(f"{fam}.html") * fill()) - intro
+            parts += sections_parts(fam, split_large(secs, target), target)
+        prop[fam] = {"parts": parts}
     if "cal" in over:
         c = calendar_proposal(out, rows)
         if c:
