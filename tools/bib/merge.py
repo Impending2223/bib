@@ -210,9 +210,14 @@ def patch_parts(ops):
 def find_duplicates(series, lst, e):
     """Entries in the same list that look like the same event, work, or person."""
     out = []
-    refs = Refs(series)
+    refs = None
+    eid = e.get("id")
+    dated = lst.kind == "calendar" and "date" in e
+    day = e.get("date")
     for s, x in lst.entries():
-        if x["id"] == e.get("id"):
+        if dated and "date" in x and x["date"] != day:
+            continue                     # another day's entry: never a duplicate (tested first: most of the list)
+        if x["id"] == eid:
             continue
         if (x["id"], e.get("id")) in _PARTS or (e.get("id"), x["id"]) in _PARTS \
                 or str(x.get("part_of") or "") == e.get("id") or str(e.get("part_of") or "") == x["id"]:
@@ -228,6 +233,7 @@ def find_duplicates(series, lst, e):
             if store.fold(plain(x.get("s", ""))) == store.fold(plain(e.get("s", ""))) and x.get("parent") == e.get("parent"):
                 out.append(x["id"])
             continue
+        refs = refs or Refs(series)
         wk = set(refs.work_keys(e)) & set(refs.work_keys(x))
         nk = e.get("s") and x.get("s") and refs.name_key(e) and refs.name_key(e) == refs.name_key(x)
         if wk or nk:
@@ -278,8 +284,11 @@ def apply_patch(series, patch, source, report, dry=False):
             report.add("error", eid, msg)
         if refused:
             continue
-        fn(series, body or {}, source, report, touched)
-        series.invalidate()
+        changed = set()                      # the sections this op changes (every op names those it changes)
+        fn(series, body or {}, source, report, changed)
+        touched |= changed
+        if changed:
+            series.reindex(changed)          # the index re-read from those sections alone (PERF 5)
     pending, _addops.PENDING = _addops.PENDING, None
     if not dry and report.errors == errors:
         for sec in touched:

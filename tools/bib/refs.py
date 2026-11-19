@@ -5,6 +5,7 @@ and the keys that say two entries are the same work or the same person.
 Nothing here changes the data. The build uses it to make links; `check` uses it
 to find references that point nowhere and works cited under two sections.
 """
+import functools
 import re
 
 from . import store
@@ -101,22 +102,12 @@ class Refs:
 
     @staticmethod
     def name_keys(s):
-        """[(key, shown name)] for each person in a subject line; 'A; B' names two."""
-        out = []
-        for part in plain(s).split(";"):
-            shown = part.strip()
-            bare = re.sub(r"\s*\([^)]*\)", "", shown)
-            if not bare:
-                continue
-            if "," in bare:
-                sur, given = bare.split(",", 1)
-                g = [w for w in store.fold(given).split() if w not in ("jr", "sr", "ii", "iii")]
-                key = (store.fold(sur) + (" " + g[0] if g else "")).strip()
-            else:
-                key = store.fold(bare)
-            if key:
-                out.append((key, shown))
-        return out
+        """[(key, shown name)] for each person in a subject line; 'A; B' names two. A tuple, computed once for each
+        subject line (code review C, PERF 1)."""
+        try:
+            return _name_keys(s)
+        except TypeError:                # not hashable: not cached
+            return _name_keys.__wrapped__(s)
 
     @staticmethod
     def is_people_section(sec):
@@ -151,3 +142,22 @@ def split_protected(text):
     if pos < len(text):
         out.append((False, text[pos:]))
     return out
+
+
+@functools.lru_cache(maxsize=None)
+def _name_keys(s):
+    out = []
+    for part in plain(s).split(";"):
+        shown = part.strip()
+        bare = re.sub(r"\s*\([^)]*\)", "", shown)
+        if not bare:
+            continue
+        if "," in bare:
+            sur, given = bare.split(",", 1)
+            g = [w for w in store.fold(given).split() if w not in ("jr", "sr", "ii", "iii")]
+            key = (store.fold(sur) + (" " + g[0] if g else "")).strip()
+        else:
+            key = store.fold(bare)
+        if key:
+            out.append((key, shown))
+    return tuple(out)

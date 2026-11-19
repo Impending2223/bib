@@ -19,8 +19,9 @@ STYLE
     "*id*., V, 12" when the volume differs; capitalized at a footnote's head; a link or an unlinked item cited again,
     word for word, "*id*.".
  5. The first citation of a work on the page is printed in full (works.py, FIRST CITE): the footnotes are run through it
-    in their order, so the full form falls in the first footnote that cites the work; the characters after romanized
-    Chinese (cjk.py) the same.
+    in their order, so the full form falls in the first footnote that cites the work; the footnotes' own characters
+    stay as written; the line's characters are dropped (a 'Names:' person's given after his name, a quoted original
+    in "The words:", cjk.py, STYLE 3, 7), and its units rendered the same way, so the marks still land.
  6. The marks sit inside the last claim's span (vispage.py), so a hidden claim takes its mark with it.
 """
 import re
