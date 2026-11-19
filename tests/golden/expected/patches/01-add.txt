@@ -1,0 +1,15 @@
+$ ./bib ledger add 1961-04-30 cuba cal.1961-04-30.cuba Kennedy at Hyannis Port, on Cuba fx-add
+claimed cal.1961-04-30.cuba
+
+--- exit 0
+
+$ ./bib patch-check inbox/01-add-1.yaml
+== 01-add-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/01-add-1.yaml
+== fx-add (auto)
+  1 entries changed; read: cal.1961-04-30.cuba
+
+--- exit 0

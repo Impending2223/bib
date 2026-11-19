@@ -1,0 +1,19 @@
+$ ./bib ledger add 1961-04-30 cuba-bay-of-pigs cal.1961-04-30.cuba-bay-of-pigs-2 Fulbright on Meet the Press fx-duplicate
+claimed cal.1961-04-30.cuba-bay-of-pigs-2
+
+--- exit 0
+
+$ ./bib patch-check inbox/08-duplicate-1.yaml
+== 08-duplicate-1.yaml: 0 errors, 2 warnings
+  warn   add cal.1961-04-30.cuba-bay-of-pigs-2: 1961-04-30 cuba-bay-of-pigs also holds cal.1961-04-30.cuba-bay-of-pigs (one event?)
+  warn   cal.1961-04-30.cuba-bay-of-pigs-2: a duplicate of cal.1961-04-30.cuba-bay-of-pigs? at the merge (./bib resolve cal.1961-04-30.cuba-bay-of-pigs-2 --take ...; keep, for a duplicate that is distinct)
+
+--- exit 0
+
+$ ./bib merge --auto inbox/08-duplicate-1.yaml
+== fx-duplicate (auto)
+  conflict  cal.1961-04-30.cuba-bay-of-pigs-2: possible duplicate of cal.1961-04-30.cuba-bay-of-pigs
+  0 entries changed; read: 
+  1 conflicts left in the entries: ./bib conflicts, ./bib reconcile
+
+--- exit 1

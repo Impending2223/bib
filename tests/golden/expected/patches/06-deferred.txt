@@ -1,0 +1,23 @@
+$ ./bib ledger add 1961-04-29 press-and-broadcasting cal.1961-04-29.press-and-broadcasting Kennedy to the press fx-deferred-add
+claimed cal.1961-04-29.press-and-broadcasting
+
+--- exit 0
+
+$ ./bib patch-check inbox/06-deferred-1.yaml
+== 06-deferred-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib patch-check inbox/06-deferred-2.yaml
+== 06-deferred-2.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/06-deferred-1.yaml inbox/06-deferred-2.yaml
+== fx-deferred-op (auto)
+  deferred  cal.1961-04-29.press-and-broadcasting: check: the entry is in the ledger, not yet the tree
+  0 entries changed; read: 
+== fx-deferred-add (auto)
+  1 entries changed; read: cal.1961-04-29.press-and-broadcasting
+
+--- exit 0
