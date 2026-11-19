@@ -168,3 +168,133 @@ def test_index_anchor_of_a_piece():
     """The index links a piece of a section cut by its "continued" heading's id, which its page holds."""
     assert pages._anchor("t196101") == "t196101"
     assert pages._anchor("t196101/t196101-departments") == "pgc-t196101-departments"
+
+
+# ---------------------------------------------------------------- the audit of Nov. 19 (each fix pinned)
+
+def conf_(monkeypatch, c):
+    pages.reset()
+    monkeypatch.setitem(pages._CONF, "c", c)
+
+
+ONE = [{"page": "names-ja-johnsonlynda", "from": "j", "label": "Ja–Johnson, Lynda"},
+       {"page": "names-johnsonlyndonb", "from": "johnson-lyndon-b", "only": "johnson-lyndon-b",
+        "label": "Johnson, Lyndon B."},
+       {"page": "names-johnsonm-jz", "from": "johnson-m", "label": "Johnson, M–Jz"}]
+
+
+@pytest.mark.parametrize("key,page", [
+    ("johnson-lyndon-b", "names-johnsonlyndonb"),
+    ("johnson-lyndon-a", "names-ja-johnsonlynda"),          # a later person just before him: the page before
+    ("johnson-lyndon-c", "names-johnsonm-jz"),              # just after him: the page after, not his
+    ("johnson-lyndon-b-jr", "names-johnsonm-jz"),           # his key's extension is another person
+    ("johnson-matthew", "names-johnsonm-jz"),
+])
+def test_one_person_page_holds_him_alone(monkeypatch, key, page):
+    conf_(monkeypatch, {"names": {"j": ONE}})
+    assert pages.names_page("j", key) == page
+    pages.reset()
+
+
+def test_names_ranges_one_person_bounded():
+    sizes = [("ja-x", 40), ("ja-y", 40), ("johnson-lyndon-b", 500), ("johnson-m", 40), ("jz", 40)]
+    got = pages.names_ranges("j", sizes, 90, {"johnson-lyndon-b": "Johnson, Lyndon B."})
+    mid = got[1]
+    assert mid["label"] == "Johnson, Lyndon B." and mid["from"] == mid["only"] == "johnson-lyndon-b"
+    assert "only" not in got[0] and "only" not in got[-1]
+
+
+def test_names_stub_one_person(monkeypatch):
+    conf_(monkeypatch, {"names": {"j": ONE}})
+    s = pages.names_stub("j", {})
+    assert '["johnson-lyndon-b","names-johnsonlyndonb","johnson-lyndon-b"]' in s
+    assert "<noscript>" in s
+    pages.reset()
+
+
+def lv(key, n):
+    return f'<section class="lv" id="{key}"><h2 class="lvh">{key}</h2>' + "x" * n + "</section>"
+
+
+def names_built(tmp_path, page, keys):
+    body = "".join(lv(k, n) for k, n in keys)
+    (tmp_path / f"{page}.html").write_text(f'<html><body><main id="doc">{body}</main></body></html>', encoding="utf-8")
+
+
+def test_replan_names_keeps_ranges_within_budget(monkeypatch, tmp_path):
+    """A letter in ranges planned again: a range within budget kept as it is; only the one over re-cut, its pieces
+    beginning and ending where it did."""
+    c = {"budget": 3000, "fill": 1.0, "names": {"m": [
+        {"page": "names-ma-mb", "from": "m", "label": "Ma–Mb"},
+        {"page": "names-mc-mn", "from": "mc", "label": "Mc–Mn"},
+        {"page": "names-mo-mz", "from": "mo", "label": "Mo–Mz"}]}}
+    conf_(monkeypatch, c)
+    names_built(tmp_path, "names-ma-mb", [("macarthur-douglas", 1000)])
+    names_built(tmp_path, "names-mc-mn", [("mccarthy-eugene-j", 1500), ("mcnamara-robert-s", 1500),
+                                          ("mills-wilbur", 1500)])
+    names_built(tmp_path, "names-mo-mz", [("morse-wayne", 1000)])
+    rows = pages.measure(str(tmp_path))
+    got = pages.propose(str(tmp_path), rows)["names"]["m"]
+    assert got[0] == c["names"]["m"][0] and got[-1] == c["names"]["m"][-1]
+    mid = got[1:-1]
+    assert len(mid) >= 2 and mid[0]["from"] == "mc"
+    assert mid[0]["label"].startswith("Mc–") and mid[-1]["label"].endswith("–Mn")
+    assert mid[0]["page"].startswith("names-mc-") and mid[-1]["page"].endswith("-mn")
+    pages.reset()
+
+
+EXEC_PIECE = ('<html><head><title>Exec</title></head><body><main id="doc"><h1>E</h1>'
+              '<h2 class="pgcont" id="pgc-t196501-departments" data-of="t196501" '
+              'data-short="Jan. 20, 1965, Departments">Jan. 20, 1965, continued</h2>'
+              '<h3 id="t196501-departments" data-short="Departments">Departments</h3>' + "d" * 800 +
+              '<h3 id="t196501-state" data-short="State">State</h3>' + "s" * 800 + '</main></body></html>')
+EXEC_HEAD = ('<html><head><title>Exec</title></head><body><main id="doc"><h1>E</h1>'
+             '<h2 id="t196501" data-short="Jan. 20, 1965">Jan. 20, 1965</h2><p id="ex-head">h</p></main></body></html>')
+EXEC_FULL = ('<html><head><title>Exec</title></head><body><header><div id="crumb"><b>Exec</b></div></header>'
+             '<main id="doc"><h1>E</h1><h2 id="t196501" data-short="Jan. 20, 1965">Jan. 20, 1965</h2><p id="ex-head">h</p>'
+             '<h3 id="t196501-departments" data-short="Departments">Departments</h3>' + "d" * 800 +
+             '<h3 id="t196501-state" data-short="State">State</h3>' + "s" * 800 + '</main></body></html>')
+
+
+def test_replan_a_continued_piece_alone(monkeypatch, tmp_path):
+    """executive-1965-departments, a piece of a term, over budget, planned again alone: its pieces by the h2/h3 ids
+    cut() knows, and cut() makes them."""
+    c = {"budget": 1500, "fill": 1.0, "executive": {"parts": [
+        {"page": "executive-1965", "label": "Jan. 20, 1965", "sections": ["t196501"]},
+        {"page": "executive-1965-departments", "label": "Jan. 20, 1965, Departments",
+         "sections": ["t196501/t196501-departments"]}]}}
+    conf_(monkeypatch, c)
+    (tmp_path / "executive-1965.html").write_text(EXEC_HEAD, encoding="utf-8")
+    (tmp_path / "executive-1965-departments.html").write_text(EXEC_PIECE, encoding="utf-8")
+    rows = pages.measure(str(tmp_path))
+    assert [r["page"] for r in rows if r["over"]] == ["executive-1965-departments.html"]
+    parts = pages.propose(str(tmp_path), rows)["executive"]["parts"]
+    assert parts[0] == c["executive"]["parts"][0]                          # kept as it was
+    secs = [s for p in parts[1:] for s in p["sections"]]
+    assert secs == ["t196501/t196501-departments", "t196501/t196501-state"]
+    assert len({p["page"] for p in parts}) == len(parts)
+    conf_(monkeypatch, {"executive": {"parts": parts}})
+    out = pages.cut("executive", EXEC_FULL, "Exec")
+    holds = {pages.MAPS["executive"][a] for a in ("t196501-departments", "t196501-state")}
+    assert len(holds) == 2 and all(f"{h}.html" in out for h in holds)
+    assert 'id="ex-head"' in out[f"{parts[0]['page']}.html"]
+    pages.reset()
+
+
+def test_retired_never_a_live_page(monkeypatch):
+    c = {"names": {"m": [{"page": "names-ma-mb", "from": "m", "label": "Ma–Mb"}]},
+         "executive": {"parts": [{"page": "executive-1965", "label": "x", "sections": ["t196501"]}]},
+         "works": {"by": "letter"}}
+    live = pages.live_pages(c)
+    assert {"names-ma-mb", "executive-1965", "works-a", "executive"} <= live
+    assert "names-mc-mn" not in live
+
+
+def test_one_person_page_warned(monkeypatch):
+    """./bib pages warns where a page of one person holds another, or a range labelled for one person is unbounded."""
+    conf_(monkeypatch, {"names": {"j": ONE[:1] + [dict(ONE[1], only=None)] + ONE[2:]}})
+    rows = [{"page": "names-johnsonlyndonb.html", "bytes": 10, "units": 2, "unit": "persons", "budget": 5,
+             "over": True, "alone": False, "exempt": None, "stub": False, "family": "names"}]
+    text = pages.report(rows)
+    assert "warn" in text and "names-johnsonlyndonb" in text
+    pages.reset()

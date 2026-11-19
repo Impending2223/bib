@@ -503,8 +503,10 @@ def stub(lst, fwd, old):
 <style>:root{{--ink:#1a1a1a;--bg:#f6f4ef}}@media (prefers-color-scheme:dark){{:root{{--ink:#e8e6e1;--bg:#16181c}}}}
 body{{margin:0;padding:3rem 1rem;background:var(--bg);color:var(--ink);font:18px/1.55 Georgia,serif}}
 p{{max-width:36rem;margin:0 auto}}a{{color:inherit}}</style></head>
-<body><p>The calendar is now a page a half-year. This address forwards to the page that holds the place it named;
-without one, to <a href="{lst.key}.html">the calendar's index</a>.</p>
+<body><p>The calendar is now in parts: a page a year, a half, a quarter or a month as its size directs. This address
+forwards to the page that holds the place it named; without one, to <a href="{lst.key}.html">the calendar's
+index</a>.</p>
+<noscript><p>Without scripts: <a href="{lst.key}.html">the calendar's index</a>, which lists every page.</p></noscript>
 {forward_script(lst, fwd, old)}
 </body></html>
 """

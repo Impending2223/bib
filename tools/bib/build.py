@@ -1325,7 +1325,7 @@ def retired(fam):
     out = []
     amap = pages.MAPS.get(fam) or ({c: p for c, p in pages.WORKS.items()} if fam == "works" else {})
     for old in pages.conf().get("retired") or []:
-        if old.startswith(fam + "-") and amap:
+        if old.startswith(fam + "-") and amap and old not in pages.live_pages():   # never over a live page
             path = os.path.join(OUT, f"{old}.html")
             smart.write(path, pages.stub(TITLES.get(fam, fam.title()), fam, amap, old))
             out.append(path)

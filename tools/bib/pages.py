@@ -113,7 +113,10 @@ def names_page(letter, key):
     if not ps:
         return f"names-{letter}"
     froms = [str(p["from"]) for p in ps]
-    return ps[max(0, bisect.bisect_right(froms, key) - 1)]["page"]
+    i = max(0, bisect.bisect_right(froms, key) - 1)
+    if ps[i].get("only") and key != str(ps[i]["only"]) and i + 1 < len(ps):    # a page of one person: his alone
+        i += 1
+    return ps[i]["page"]
 
 
 def names_href(letter, key):
@@ -175,17 +178,35 @@ def names_ranges(letter, keys_sizes, target, names=None):
         lo = f if i else letter + "a"
         hi = chunks[i][-1][:len(froms[i + 1])].rstrip("-") if i + 1 < len(froms) else letter + "z"
         a, b = _readable(lo), _readable(hi)
-        if len(chunks[i]) == 1 and 0 < i < len(froms) - 1:   # one person a page (a President): his name
+        one = len(chunks[i]) == 1 and 0 < i < len(froms) - 1
+        if one:                                              # one person a page (a President): his name
             lo = hi = chunks[i][0]
             a = b = (names or {}).get(lo) or _readable(lo)
         page = "names-" + re.sub(r"[^a-z]", "", lo) + ("-" + re.sub(r"[^a-z]", "", hi) if b != a else "")
-        out.append({"page": page, "from": f, "label": a if a == b else f"{a}–{b}"})
+        part = {"page": page, "from": f, "label": a if a == b else f"{a}–{b}"}
+        if one:            # bounded to him: a later person of a key beside his goes to the page before or after
+            part.update({"from": chunks[i][0], "only": chunks[i][0]})
+        out.append(part)
     seen = set()
     for p in out:                      # two ranges of one label (a prefix the rule shortened): numbered
         while p["page"] in seen:
             p["page"] += "x"
         seen.add(p["page"])
     return out
+
+
+def recut(part, sub):
+    """A range over budget (part) in the pieces names_ranges made of its persons alone (sub): the first piece begins
+    where the range began, its label's and its page's start the range's; the last ends where it ended."""
+    sub = [dict(q) for q in sub]
+    start, end = (part["label"].split("–", 1) + [part["label"]])[:2]
+    slugs = part["page"][len("names-"):].split("-")
+    sub[0]["from"] = part["from"]
+    sub[0]["label"] = f"{start}–{sub[0]['label'].split('–', 1)[-1]}"
+    sub[0]["page"] = "names-" + "-".join([slugs[0]] + sub[0]["page"][len("names-"):].split("-")[1:])
+    sub[-1]["label"] = f"{sub[-1]['label'].split('–', 1)[0]}–{end}"
+    sub[-1]["page"] = "names-" + "-".join(sub[-1]["page"][len("names-"):].split("-")[:1] + [slugs[-1]])
+    return sub
 
 
 # ---------------------------------------------------------------- Works (bibliography.py): a page a letter
@@ -306,7 +327,7 @@ def split_large(secs, target):
         sizes = {u[0]: u[2] for u in units}
         shorts = {u[0]: u[1] for u in units}
         for j, run in enumerate(pack([(u[0], u[2]) for u in units], target)):
-            pid = sid if j == 0 else f"{sid}/{run[0]}"
+            pid = sid if j == 0 else f"{sid.split('/', 1)[0]}/{run[0]}"     # flat: h2/h3, a piece re-cut too
             out.append((pid, lab if j == 0 else f"{lab}, {shorts[run[0]]}", sum(sizes[x] for x in run)))
     return out
 
@@ -448,9 +469,15 @@ def load_cache():
         return {}
 
 
+def plan_key(fam):
+    """The plan a family's map was cut by: a map kept in .cache serves only a build of the same plan."""
+    import hashlib
+    return hashlib.sha1(json.dumps(sections_plan(fam), sort_keys=True).encode("utf-8")).hexdigest()[:16]
+
+
 def save_cache(fam):
     c = load_cache()
-    c[fam] = MAPS.get(fam) or {}
+    c[fam] = {"plan": plan_key(fam), "map": MAPS.get(fam) or {}}
     os.makedirs(os.path.dirname(CACHE), exist_ok=True)
     store.atomic_write(CACHE, json.dumps(c, sort_keys=True, separators=(",", ":")))
 
@@ -460,8 +487,8 @@ def ensure_map(fam, build):
     if fam in MAPS or not sections_plan(fam):
         return
     c = load_cache().get(fam)
-    if c:
-        MAPS[fam] = c
+    if isinstance(c, dict) and c.get("plan") == plan_key(fam) and c.get("map"):     # the same plan's map
+        MAPS[fam] = c["map"]
         return
     page = build()
     if page:
@@ -564,7 +591,8 @@ def forward_script(amap, me, here=False):
 def names_stub(letter, alias):
     """A letter's old page (names-m.html), now in ranges: sends an anchor to its range's page, an alias to its
     person's page; with none, to the letter's first range."""
-    data = json.dumps({"f": [[str(p["from"]), p["page"]] for p in names_parts(letter)], "a": alias},
+    data = json.dumps({"f": [[str(p["from"]), p["page"]] + ([str(p["only"])] if p.get("only") else [])
+                             for p in names_parts(letter)], "a": alias},
                       ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     first = names_parts(letter)[0]["page"]
     return f"""<!doctype html>
@@ -576,6 +604,8 @@ p{{max-width:36rem;margin:0 auto}}a{{color:inherit}}</style></head>
 <body><p>The names under {letter.upper()} are now on {len(names_parts(letter))} pages: """ + ", ".join(
         f'<a href="{p["page"]}.html">{p.get("label") or p["page"]}</a>' for p in names_parts(letter)) + f""". This address
 forwards to the page that holds the person it named; without one, to the first.</p>
+<noscript><p>Without scripts: <a href="{first}.html">the first of them</a>, or <a href="names.html">the Names
+index</a>.</p></noscript>
 <script>
 /* an old link, forwarded by its anchor to the range that holds it (tools/bib/pages.py, STYLE 4) */
 (function(){{
@@ -584,8 +614,9 @@ forwards to the page that holds the person it named; without one, to the first.<
     var h=location.hash.slice(1); try{{ h=decodeURIComponent(h); }}catch(e){{}}
     if(!h){{ location.replace('{first}.html'); return; }}
     if(D.a[h]){{ location.replace(D.a[h]); return; }}
-    var p=D.f[0][1]; for(var i=0;i<D.f.length;i++) if(h>=D.f[i][0]) p=D.f[i][1];
-    location.replace(p+'.html#'+h);
+    var k=0; for(var i=0;i<D.f.length;i++) if(h>=D.f[i][0]) k=i;
+    if(D.f[k][2]&&h!==D.f[k][2]&&k+1<D.f.length) k++;    /* a page of one person: his alone */
+    location.replace(D.f[k][1]+'.html#'+h);
   }}
   go(); window.addEventListener('hashchange',go);
 }})();
@@ -604,6 +635,7 @@ body{{margin:0;padding:3rem 1rem;background:var(--bg);color:var(--ink);font:18px
 p{{max-width:36rem;margin:0 auto}}a{{color:inherit}}</style></head>
 <body><p>This page is now in parts. This address forwards to the part that holds the place it named; without one,
 to <a href="{to}.html">the index</a>.</p>
+<noscript><p>Without scripts: <a href="{to}.html">the index</a>.</p></noscript>
 {forward_script(amap, me)}
 <script>if(!location.hash)location.replace('{to}.html');</script>
 </body></html>
@@ -677,9 +709,9 @@ def propose(out, rows=None):
             if L and not r["stub"]:
                 letters.setdefault(L, []).append(r)
         props = {}
-        for L, rs in sorted(letters.items()):
-            if not any(x["over"] and not x.get("alone") for x in rs):    # one person over: no new ranges help
-                continue
+
+        def measured(rs):
+            """[(key, bytes)] of the persons on the pages rs, their names, and a page's overhead (its template)."""
             sizes, total, body, nm = [], 0, 0, {}
             for x in rs:
                 text = open(pages_[x["page"]], encoding="utf-8").read()
@@ -689,11 +721,40 @@ def propose(out, rows=None):
                 sizes += got
                 total += x["bytes"]
                 body += sum(n for _, n in got)
-            overhead = (total - body) // max(1, len(rs))
-            target = int(budget(f"names-{L}.html") * fill()) - overhead
-            rng = names_ranges(L, sizes, target, nm)
-            if rng:
-                props[L] = rng
+            return sizes, nm, (total - body) // max(1, len(rs))
+
+        for L, rs in sorted(letters.items()):
+            if not any(x["over"] and not x.get("alone") for x in rs):    # one person over: no new ranges help
+                continue
+            target = int(budget(f"names-{L}.html") * fill())
+            old = names_parts(L)
+            if not old:                                                  # a letter's one page, in ranges
+                sizes, nm, oh = measured(rs)
+                rng = names_ranges(L, sizes, target - oh, nm)
+                if rng:
+                    props[L] = rng
+                continue
+            by = {x["page"]: x for x in rs}                              # a letter in ranges: a range within
+            out, changed = [], False                                     # budget kept as it is; one over, re-cut
+            for part in old:
+                x = by.get(f"{part['page']}.html")
+                if not x or not x["over"] or x.get("alone"):
+                    out.append(dict(part))
+                    continue
+                sizes, nm, oh = measured([x])
+                sub = names_ranges(L, sizes, target - oh, nm)
+                if not sub:
+                    out.append(dict(part))
+                    continue
+                out += recut(part, sub)
+                changed = True
+            if changed:
+                seen = set()
+                for q in out:
+                    while q["page"] in seen:
+                        q["page"] += "x"
+                    seen.add(q["page"])
+                props[L] = out
         if props:
             prop["names"] = props
     if "works" in over and not works_split():
@@ -727,10 +788,18 @@ def propose(out, rows=None):
                     if at is not None:             # a section cut before: its pieces joined again
                         secs[at] = (of, secs[at][1], secs[at][2] + (h[h.index("</h2>") + 5:] if m else h))
                     else:
-                        secs.append((s, short(h) or l, h))
+                        secs.append((f"{of}/{s[len('pgc-'):]}" if m else s, short(h) or l, h))   # a piece alone: h2/h3
                 intro = max(intro, len(pre) + len(it) + len(post))
             target = int(budget(f"{fam}.html") * fill()) - intro
             parts += sections_parts(fam, split_large(secs, target), target)
+        kept = {p["page"] for keep, _ in groups if keep for p in keep}
+        seen = set(kept)
+        for p in parts:                     # a new part's page never a kept part's name
+            if any(p is k for keep, _ in groups if keep for k in keep):
+                continue
+            while p["page"] in seen:
+                p["page"] += "x"
+            seen.add(p["page"])
         prop[fam] = {"parts": parts}
     if "cal" in over:
         c = calendar_proposal(out, rows)
@@ -889,6 +958,19 @@ def write_conf(c, path=None):
     _CONF.clear()
 
 
+def live_pages(c=None):
+    """Every page (without .html) the plan builds: the Names ranges, the Executive's and Congress's parts, the Works'
+    letters, the families' indexes. A retired page is never one of them (a stub must not overwrite a live page)."""
+    c = conf() if c is None else c
+    out = {"names", "works", "executive", "congress"}
+    out |= {p["page"] for ps in (c.get("names") or {}).values() for p in ps or []}
+    for fam in ("executive", "congress"):
+        out |= {p["page"] for p in ((c.get(fam) or {}).get("parts") or [])}
+    if (c.get("works") or {}).get("by") == "letter":
+        out |= {f"works-{L}" for L in "0abcdefghijklmnopqrstuvwxyz"}
+    return out
+
+
 def plan(out):
     """Write the proposal into the plan: pages.yaml for Names, Works, the Executive and Congress; list.yaml for the
     calendar. A page a split replaces is kept in `retired` (pages.yaml) or `retired_parts` (list.yaml)."""
@@ -909,10 +991,29 @@ def plan(out):
             old = [p["page"] for p in (c.get(fam) or {}).get("parts") or []]
             c[fam] = prop[fam]
             retired += [p for p in old if p not in {x["page"] for x in prop[fam]["parts"]}]
-    c["retired"] = sorted(dict.fromkeys(retired))
+    live = live_pages(c)
+    c["retired"] = sorted(p for p in dict.fromkeys(retired) if p not in live)    # never a page the plan holds
     write_conf(c)
     cal = apply_calendar(prop["cal"]) if prop.get("cal") else []
     return prop, cal
+
+
+def one_person_warnings(rows):
+    """A Names page labelled for one person: bounded to him (`only`), and holding him alone (STYLE 2)."""
+    units = {r["page"]: r["units"] for r in rows if r["family"] == "names"}
+    out = []
+    for L, ps in sorted((conf().get("names") or {}).items()):
+        for p in ps or []:
+            label = str(p.get("label") or "")
+            if "–" in label:
+                continue
+            n = units.get(f"{p['page']}.html")
+            if not p.get("only") and 0 < ps.index(p) < len(ps) - 1:
+                out.append(f"warn: {p['page']} is labelled for one person ({label}) but not bounded to him "
+                           f"(pages.yaml `only:`): a person filed beside him would land on it")
+            if n is not None and n != 1:
+                out.append(f"warn: {p['page']} is labelled for one person ({label}) and holds {n}")
+    return out
 
 
 def report(rows, prop=None):
@@ -935,6 +1036,7 @@ def report(rows, prop=None):
     for r in rows:
         if r["exempt"] and not r["stub"]:
             out.append(f"exempt: {r['page']}: {r['exempt']}")
+    out += one_person_warnings(rows)
     if prop:
         out.append("")
         out.append("Proposed splits (./bib pages --plan writes them; then ./bib build, ./bib links, ./bib pages):")

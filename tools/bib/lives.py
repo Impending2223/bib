@@ -2930,7 +2930,7 @@ def pages(series, linker, template):
     for p in allp:
         by_letter.setdefault(letter_of(p), []).append(p)
     filed = {key_of(p["name"]): letter_of(p) for p in allp}
-    out = {}
+    out, aliases = {}, {}
     index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(allp):,} persons.</p>']
     seq = PG.names_sequence(sorted(by_letter))       # every page in order: a letter, or its ranges (STYLE 7)
 
@@ -2998,11 +2998,13 @@ def pages(series, linker, template):
                 if at in mine_ and PG.names_page(L, a) != at:           # ('teng-hsiao-ping', in Deng's entry)
                     alias.setdefault(a, f"{at}.html#{a}")
             out[f"names-{L}.html"] = PG.names_stub(L, alias)
+            aliases[L] = alias
         out[f"lives-{L}.html"] = moved(f"names-{L}.html")
-    for old in (PG.conf().get("retired") or []):     # a range a later plan replaced: forwarded by its letter's ranges
-        m = re.match(r"^names-([a-z])-", old)
-        if m and f"{old}.html" not in out and PG.names_parts(m.group(1)):
-            out[f"{old}.html"] = PG.names_stub(m.group(1), {})
+    live = PG.live_pages()
+    for old in (PG.conf().get("retired") or []):     # a range a later plan replaced: forwarded by its letter's ranges,
+        L = old[len("names-"):][:1] if old.startswith("names-") else ""     # with the letter's aliases
+        if L and old not in live and f"{old}.html" not in out and PG.names_parts(L):
+            out[f"{old}.html"] = PG.names_stub(L, aliases.get(L) or {})
     out["names.html"] = wrap(template, "Names", index)
     out["lives.html"] = moved("names.html")
     return out
