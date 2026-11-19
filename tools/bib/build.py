@@ -23,6 +23,7 @@ from . import dayblocks          # blocks under a date: the war table, Armed For
 from . import smart
 from . import feeds
 from . import contents
+from . import pages              # the pages' budget and splits (tools/bib/pages.py)
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -868,7 +869,7 @@ class Linker:
             from . import lives as L
             out = {}
             for p in L.everyone(self.series):
-                out[L.key_of(p["name"])] = (f"{L.SITE}names-{L.letter_of(p)}.html#{L.key_of(p['name'])}",
+                out[L.key_of(p["name"])] = (L.SITE + pages.names_href(L.letter_of(p), L.key_of(p["name"])),
                                             sorted(p["names"] | {p["name"]}))
             self._tnames = out
         return self._tnames
@@ -1292,6 +1293,21 @@ def write_calendar(series, lst, linker, held, routed):
     return out
 
 
+TITLES = {"executive": "The Executive Branch, 1953–1974", "congress": "Elections and Congress"}
+
+
+def retired(fam):
+    """The pages a later plan replaced in a family (pages.yaml `retired`): each forwards a link by its anchor."""
+    out = []
+    amap = pages.MAPS.get(fam) or ({c: p for c, p in pages.WORKS.items()} if fam == "works" else {})
+    for old in pages.conf().get("retired") or []:
+        if old.startswith(fam + "-") and amap:
+            path = os.path.join(OUT, f"{old}.html")
+            smart.write(path, pages.stub(TITLES.get(fam, fam.title()), fam, amap, old))
+            out.append(path)
+    return out
+
+
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
@@ -1305,8 +1321,28 @@ def run(series, which=None):
     linker = None
     cal = next((l for l in series.lists.values() if l.kind == "calendar"), None)
 
-    def routed(page, own=None):          # links into the calendar's other half (tools/bib/calsplit.py)
-        return calsplit.route(page, cal, own) if cal is not None else page
+    def routed(page, own=None):          # links into the calendar's other half (tools/bib/calsplit.py); to the
+        page = calsplit.route(page, cal, own) if cal is not None else page   # parts of a split page (pages.py)
+        return pages.route(page)
+    # the splits the pages' budget directs (tools/bib/pages.py, pages.yaml): the works' letters from the cards; a page cut
+    # at its sections (the Executive, Congress) built first where this build writes it, so that every page links to
+    # its parts; else the last build's map (.cache), or built here for the map alone
+    pages.reset()
+    pages.prepare(series)
+    early = {}
+    makers = {"executive": lambda: executive.page(series, linker or Linker(series), os.path.join(TEMPLATES, "list.html")),
+              "congress": lambda: congress.page(series, linker or Linker(series), os.path.join(TEMPLATES, "list.html"))}
+    for fam, make in makers.items():
+        if not pages.sections_plan(fam):
+            continue
+        if which in (None, fam):
+            linker = linker or Linker(series)
+            early[fam] = make()
+            if early[fam]:
+                early[fam] = pages.cut(fam, early[fam], TITLES[fam])
+                pages.save_cache(fam)
+        else:
+            pages.ensure_map(fam, make)
     for k in keys:
         lst = series.lists[k]
         halves = range(1, len(calsplit.cfg(lst)) + 1) if lst.kind == "calendar" and calsplit.cfg(lst) else (None,)
@@ -1378,23 +1414,24 @@ def run(series, which=None):
         page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
         page = vispage.inject(page)                  # the panel's style and script (tools/bib/vispage.py)
         path = os.path.join(OUT, "series.html")
+        page = pages.route(page)                     # links to the parts of a split page (tools/bib/pages.py)
         page = lazydays.split(page, "series", OUT)   # the days' blocks, a file a month (tools/bib/lazydays.py)
         smart.write(path, page)
         written.append(path)
-    if which in (None, "congress"):
+    for fam in ("congress", "executive"):
+        if which not in (None, fam):
+            continue
         linker = linker or Linker(series)
-        page = congress.page(series, linker, os.path.join(TEMPLATES, "list.html"))
-        if page:
-            path = os.path.join(OUT, "congress.html")
+        if fam in early:                     # cut at its sections (pages.py): the index and a page a part
+            got = early[fam] or {}
+        else:
+            page = makers[fam]()
+            got = {f"{fam}.html": page} if page else {}
+        for name, page in got.items():
+            path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)
-    if which in (None, "executive"):
-        linker = linker or Linker(series)
-        page = executive.page(series, linker, os.path.join(TEMPLATES, "list.html"))
-        if page:
-            path = os.path.join(OUT, "executive.html")
-            smart.write(path, routed(page))
-            written.append(path)
+        written += retired(fam)
     if which in (None, "indochina"):      # the map of Indochina on its own (tools/bib/indochina.py)
         from . import indochina
         page = indochina.page(series, os.path.join(TEMPLATES, "list.html"))
@@ -1412,9 +1449,11 @@ def run(series, which=None):
     if which in (None, "works"):          # the A–Z bibliography (tools/bib/bibliography.py)
         from . import bibliography
         linker = linker or Linker(series)
-        path = os.path.join(OUT, "works.html")
-        smart.write(path, routed(bibliography.page(series, linker, os.path.join(TEMPLATES, "list.html"))))
-        written.append(path)
+        for name, page in bibliography.pages_(series, linker, os.path.join(TEMPLATES, "list.html")).items():
+            path = os.path.join(OUT, name)       # works.html; or the index and a page a letter (pages.py)
+            smart.write(path, routed(page))
+            written.append(path)
+        written += retired("works")
     if which in (None, "names", "lives"):
         from . import lives
         linker = linker or Linker(series)

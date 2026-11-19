@@ -2916,9 +2916,11 @@ def wrap(template, title, main):
 
 
 def pages(series, linker, template):
-    """{file name: html}: names.html, the index of names by letter; names-a.html ... names-z.html, the entries; and
-    lives.html, lives-a.html ..., the pages' old names, sending a reader on (anchor kept)."""
+    """{file name: html}: names.html, the index of names by letter; names-a.html ... names-z.html, the entries (a letter
+    over the pages' budget in surname ranges, names-ma-mc.html ...: tools/bib/pages.py; its letter's old page then
+    forwards); and lives.html, lives-a.html ..., the pages' old names, sending a reader on (anchor kept)."""
     from .congress import Pointers
+    from . import pages as PG
     global SITE, SERIES_FOR_LINKS
     SERIES_FOR_LINKS = series
     ptrs = Pointers(series, linker)
@@ -2929,42 +2931,84 @@ def pages(series, linker, template):
     filed = {key_of(p["name"]): letter_of(p) for p in allp}
     out = {}
     index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(allp):,} persons.</p>']
-    def nav(cur=None):
-        """The letters across the column, the page's own letter unlinked (STYLE 7)."""
-        return '<div class="azw"><p class="az">' + "".join(
-            f'<span aria-current="page">{L.upper()}</span>' if L == cur else f'<a href="names-{L}.html">{L.upper()}</a>'
-            for L in sorted(by_letter)) + "</p></div>"
-    def names_list(L, here):
+    seq = PG.names_sequence(sorted(by_letter))       # every page in order: a letter, or its ranges (STYLE 7)
+
+    def home(p):
+        return PG.names_page(letter_of(p), key_of(p["name"]))
+
+    def nav(cur=None, part=None):
+        """The letters across the column, the page's own letter unlinked (STYLE 7); a letter in ranges, the ranges
+        under it, the page's own unlinked."""
+        h = '<div class="azw"><p class="az">' + "".join(
+            f'<span aria-current="page">{L.upper()}</span>' if L == cur else
+            f'<a href="{PG.names_page(L, "")}.html">{L.upper()}</a>'
+            for L in sorted(by_letter)) + "</p>"
+        if cur and PG.names_parts(cur):
+            h += '<p class="az azr">' + "".join(
+                f'<span aria-current="page">{x["label"]}</span>' if x["page"] == part else
+                f'<a href="{x["page"]}.html">{x["label"]}</a>' for x in PG.names_parts(cur)) + "</p>"
+        return h + "</div>"
+
+    def names_list(ps, here):
         """The index's list for a letter: on the index, links to the letter's page; on that page, to its anchors."""
         return '<ul class="lvx">' + "".join(
-            f'<li><a href="{"" if here else f"names-{L}.html"}#{key_of(p["name"])}">{esc(p["name"])}</a></li>'
-            for p in by_letter[L]) + "</ul>"
+            f'<li><a href="{"" if here else f"{home(p)}.html"}#{key_of(p["name"])}">{esc(p["name"])}</a></li>'
+            for p in ps) + "</ul>"
     index.append(nav())
     for L in sorted(by_letter):
         ps = by_letter[L]
-        index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2>' + names_list(L, False))
-        main = [f"<h1>Names: {L.upper()}</h1>"] + INTRO + [
-                f'<p class="logic">{len(ps):,} {"person" if len(ps) == 1 else "persons"}.</p>',
-                nav(L), '<p class="lvs"><a class="lvp" href="names.html">Index</a></p>', names_list(L, True)]
-        for p in ps:
-            try:
-                main.append(entry(series, linker, ptrs, p))
-            except Exception as ex:          # one entry's fault names the person and does not stop the page; counted
-                import traceback              # (faults.py): the build exits 1
-                from . import faults
-                faults.record(f"names: {p['name']}", repr(ex),
-                              line=f"names: {p['name']}: {ex!r} " + traceback.format_exc().splitlines()[-3])
-        # an anchor of a form joined in an entry filed under another letter, sent on to it ('names-e.html#el-baghdadi-…')
-        away = {k: f"names-{filed[pk]}.html#{pk}" for k, pk in _CACHE.get("frus-alias", {}).items()
-                if k[:1] == L and filed.get(pk, L) != L}
-        if away:
-            main.append("<script>(function(){var m=" + json.dumps(away) + ";var t=m[location.hash.slice(1)];"
-                        "if(t)location.replace(t);})();</script>")
-        out[f"names-{L}.html"] = wrap(template, f"Names: {L.upper()}", main)
+        index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2>'
+                     + ('<p class="lvs">' + " · ".join(f'<a class="lvp" href="{x["page"]}.html">{x["label"]}</a>'
+                                                     for x in PG.names_parts(L)) + "</p>" if PG.names_parts(L) else "")
+                     + names_list(ps, False))
+        parts = [(pg, lab) for pg, lab, L_ in seq if L_ == L]
+        for pg, lab in parts:
+            mine = [p for p in ps if home(p) == pg]
+            split = len(parts) > 1
+            title = f"Names: {lab}" if split else f"Names: {L.upper()}"
+            i = [x[0] for x in seq].index(pg)
+            main = [f"<h1>{title}</h1>"] + INTRO + [
+                    f'<p class="logic">{len(mine):,} {"person" if len(mine) == 1 else "persons"}'
+                    + (f"; {len(ps):,} under {L.upper()}." if split else ".") + "</p>",
+                    nav(L, pg), '<p class="lvs"><a class="lvp" href="names.html">Index</a></p>' if not split else
+                    seam_line(seq, i), names_list(mine, True)]
+            for p in mine:
+                try:
+                    main.append(entry(series, linker, ptrs, p))
+                except Exception as ex:          # one entry's fault names the person and does not stop the page; counted
+                    import traceback              # (faults.py): the build exits 1
+                    from . import faults
+                    faults.record(f"names: {p['name']}", repr(ex),
+                                  line=f"names: {p['name']}: {ex!r} " + traceback.format_exc().splitlines()[-3])
+            if split:
+                main.append(seam_line(seq, i))
+            # an anchor of a form joined in an entry filed elsewhere, sent on to it ('names-e.html#el-baghdadi-…')
+            away = {k: PG.names_href(filed[pk], pk) for k, pk in _CACHE.get("frus-alias", {}).items()
+                    if PG.names_page(k[:1], k) == pg and PG.names_page(filed.get(pk, k[:1]), pk) != pg}
+            if away:
+                main.append("<script>(function(){var m=" + json.dumps(away) + ";var t=m[location.hash.slice(1)];"
+                            "if(t)location.replace(t);})();</script>")
+            out[f"{pg}.html"] = wrap(template, title, main)
+        if PG.names_parts(L):          # the letter's old page: an anchor to its range's page (pages.py, STYLE 4)
+            alias = {k: PG.names_href(filed[pk], pk) for k, pk in _CACHE.get("frus-alias", {}).items()
+                     if k[:1] == L and pk in filed}
+            out[f"names-{L}.html"] = PG.names_stub(L, alias)
         out[f"lives-{L}.html"] = moved(f"names-{L}.html")
+    for old in (PG.conf().get("retired") or []):     # a range a later plan replaced: forwarded by its letter's ranges
+        m = re.match(r"^names-([a-z])-", old)
+        if m and f"{old}.html" not in out and PG.names_parts(m.group(1)):
+            out[f"{old}.html"] = PG.names_stub(m.group(1), {})
     out["names.html"] = wrap(template, "Names", index)
     out["lives.html"] = moved("names.html")
     return out
+
+
+def seam_line(seq, i):
+    """A range's page, at its head and foot: the page before, the index, the page after (pages.py, STYLE 5)."""
+    xs = ([f'<a class="lvp" href="{seq[i - 1][0]}.html">‹ {seq[i - 1][1]}</a>'] if i else []) + \
+        ['<a class="lvp" href="names.html">Index</a>'] + \
+        ([f'<a class="lvp" href="{seq[i + 1][0]}.html">{seq[i + 1][1]} ›</a>'] if i + 1 < len(seq) else [])
+    return '<p class="lvs">' + " · ".join(xs) + "</p>"
 
 
 def moved(to):

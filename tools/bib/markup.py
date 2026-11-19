@@ -32,6 +32,13 @@ def refs(text):
 WORKS = None
 WORKS_FULL = None          # card id -> its full citation (markup), for a first citation (works.py, FIRST CITE)
 WORKS_PAGE = "works.html"
+
+
+def _works_href(cid):
+    """The card's entry: works.html#id, or its letter's page where the A–Z bibliography is split (tools/bib/pages.py)."""
+    from . import pages
+    return pages.works_href(cid)
+
 WORKS_ID = lambda cid: cid     # an alias -> the card's own id (set by store.Series)
 FULL_MARKS = ("\x01full", "full", "\x01head")
 
@@ -100,10 +107,10 @@ def to_html(text, resolve=None):
             m2 = re.match(r"^[^*\[]*\*[^*]+\*", full)
             if not m2:
                 return hold(to_html(full))
-            return hold(f'<a class="x xw xf" href="{WORKS_PAGE}#{html.escape(eid)}">{_inline(m2.group(0))}</a>'
+            return hold(f'<a class="x xw xf" href="{_works_href(html.escape(eid))}">{_inline(m2.group(0))}</a>'
                         + to_html(full[m2.end():]))
         if sf is not None:
-            return hold(f'<a class="x xw" href="{WORKS_PAGE}#{html.escape(eid)}">{_inline(shown or sf)}</a>')
+            return hold(f'<a class="x xw" href="{_works_href(html.escape(eid))}">{_inline(shown or sf)}</a>')
         out = resolve(eid, shown) if resolve else None
         if out is None:
             out = html.escape(shown or eid, quote=False)

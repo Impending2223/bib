@@ -238,6 +238,28 @@ def cmd_links(series, a):
     return 1 if bad else 0
 
 
+def cmd_pages(series, a):
+    """Every built page's size against its budget, and the splits it directs (tools/bib/pages.py); exit 1 while a page
+    not exempt is over budget."""
+    from . import pages
+    rows = pages.measure(OUT_DIR())
+    if not rows:
+        print("no built pages: ./bib build first")
+        return 1
+    if a.plan:
+        prop, cal = pages.plan(OUT_DIR())
+        print(pages.report(rows, prop))
+        print("\nwritten: pages.yaml" + (", lists/cal/list.yaml (" + ", ".join(cal) + ")" if cal else "")
+              + "; now ./bib build, ./bib links, ./bib pages")
+        return 0
+    prop = pages.propose(OUT_DIR(), rows)
+    if a.all:
+        for r in rows:
+            r["stub"] = False
+    print(pages.report(rows, prop))
+    return 1 if any(r["over"] for r in rows) else 0
+
+
 def OUT_DIR():
     from .build import OUT
     return OUT
@@ -992,6 +1014,9 @@ def main(argv=None):
     x = sub.add_parser("show", help="full YAML of entries, with rev, tags, and backlinks")
     x.add_argument("ids", nargs="+")
     sub.add_parser("links", help="links between the built pages whose anchors are missing")
+    x = sub.add_parser("pages", help="every built page's size against the budget (pages.yaml); --plan writes the splits")
+    x.add_argument("--plan", action="store_true", help="write the proposed splits (pages.yaml, lists/cal/list.yaml)")
+    x.add_argument("--all", action="store_true", help="list the forwarding stubs too")
     sub.add_parser("audit-cal", help="the calendar's entries against the brief: writes notes/calendar-audit.md")
     x = sub.add_parser("check", help="lint the store; exit 1 on errors")
     x.add_argument("--list", "-l")
