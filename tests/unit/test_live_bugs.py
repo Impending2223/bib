@@ -1,6 +1,7 @@
 """The live bugs of the code review of Nov. 19, 2026 (notes/proposals/code-review-2026-11.md, cluster 2): one test, or
 a few, for each fix."""
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -43,3 +44,40 @@ def test_claims_reads_made_public_after_an_abbreviation_as_no_source():
     src, other = claims.note_parts("[[w.k]], 320 n. Made public: Check; Kotz cites the taps. Names: King.")
     assert src == ["[[w.k]], 320 n"]
     assert other == ["Made public: Check; Kotz cites the taps.", "Names: King."]
+
+
+# ---------------------------------------------------------------- 2. a link whose address holds (...)
+
+UN = "[S.C. Res. 232](https://undocs.org/S/RES/232(1966)) (Dec. 16, 1966)."
+UN_URL = "https://undocs.org/S/RES/232(1966)"
+
+
+def test_one_link_pattern_reads_the_whole_address():
+    from tools.bib import calaudit, claims, dayorder, markup, resultform, standing, statements, vis, works
+    assert [m.group(2) for m in markup.LINK_RE.finditer(UN)] == [UN_URL]
+    assert claims.LINK is markup.LINK_RE and vis.LINK is markup.LINK_RE
+    assert claims.LINK.findall(UN) == [("S.C. Res. 232", UN_URL)]
+    assert claims.item_key(UN) == ("url", UN_URL)
+    assert standing._inline(UN) == f'<a href="{UN_URL}">S.C. Res. 232</a> (Dec. 16, 1966).'
+    assert statements.plain(UN) == "S.C. Res. 232 (Dec. 16, 1966)."
+    assert markup.strip_links(UN) == "S.C. Res. 232 (Dec. 16, 1966)."
+    assert works.bluebook_pin("*Title*, [online](" + UN_URL + ")", "12") == ", 12"
+    blank = resultform.clean(UN)
+    assert UN_URL not in blank and "1966)) " not in blank and blank.endswith("(Dec. 16, 1966).")
+    assert "S/RES" not in resultform.clean("see (" + UN_URL + ") here")
+    assert re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((" + markup.URL + r")\)", UN) == [("S.C. Res. 232", UN_URL)]
+    assert calaudit.markup is markup
+
+
+def test_dayorder_plain_strips_a_paren_link():
+    from tools.bib import dayorder, store
+    assert dayorder.plain_c({"c": UN}) == store.fold("S.C. Res. 232 (Dec. 16, 1966).")
+
+
+def test_plain_links_unchanged():
+    from tools.bib import claims, markup
+    t = "[FRUS 1961–63, IV, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v04/d34). [a](http://x.org/b)"
+    assert claims.LINK.findall(t) == [("FRUS 1961–63, IV, doc. 34",
+                                       "https://history.state.gov/historicaldocuments/frus1961-63v04/d34"),
+                                      ("a", "http://x.org/b")]
+    assert markup.strip_links(t) == "FRUS 1961–63, IV, doc. 34. a"

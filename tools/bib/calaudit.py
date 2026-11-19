@@ -25,7 +25,7 @@ import os
 import re
 from collections import defaultdict
 
-from . import store
+from . import markup, store
 from .mdwrap import unwrap
 
 OUT = os.path.join(store.ROOT, "notes", "calendar-audit.md")
@@ -177,7 +177,7 @@ def run(series):
             event.append((sec, e))
         # a record may be linked in either field; a link counts by its host, or by its text naming a record (a
         # State Bulletin or a State's returns on archive.org)
-        links = re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((https?://[^)]+)\)", c + " " + n)
+        links = re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((" + markup.URL + r")\)", c + " " + n)
         linked = any(any(h in u for h in PRIMARY_HOSTS) or re.search(r"^https?://[^/]*\.(?:gov|us)(?:/|$)", u)
                      or PRIMARY_NAMES.search(txt) for txt, u in links)
         # a poll's record is its release, which *The Gallup Poll* prints by page ([[w.gallup-poll]], III, 1868)

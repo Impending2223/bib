@@ -12,8 +12,14 @@ import html
 import re
 
 REF_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
-LINK_RE = re.compile(r"\[([^\[\]]+)\]\((https?://(?:[^()\s]|\([^()\s]*\))+)\)")  # urls may hold (...)
+URL = r"https?://(?:[^()\s]|\([^()\s]*\))+"     # a web address; it may hold (...): undocs.org/S/RES/232(1966)
+LINK_RE = re.compile(r"\[([^\[\]]+)\]\((" + URL + r")\)")   # [text](url), the one link pattern: 1 the text, 2 the url
 ITAL_RE = re.compile(r"\*([^*]+)\*")
+
+
+def strip_links(text):
+    """Text with each [text](url) link replaced by its text."""
+    return LINK_RE.sub(r"\1", text)
 
 
 def refs(text):

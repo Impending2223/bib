@@ -69,7 +69,7 @@ STYLE
 import datetime
 import re
 
-from . import store
+from . import markup, store
 
 TIME = re.compile(r"^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z$")
 
@@ -160,7 +160,7 @@ def plain_c(e):
         c = " ".join(map(str, c))
     c = re.sub(r"\[\[[^\]|]*\|([^\]]*)\]\]", r"\1", str(c))
     c = re.sub(r"\[\[[^\]]*\]\]", " ", c)
-    c = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", c)
+    c = markup.strip_links(c)
     return store.fold(c.replace("*", ""))
 
 

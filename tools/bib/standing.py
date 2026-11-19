@@ -13,7 +13,7 @@ STYLE
 import html
 import re
 
-from . import calsplit, loose, store
+from . import calsplit, loose, markup, store
 
 LABEL = "As reported"
 
@@ -24,7 +24,7 @@ def is_state(e):
 
 def _inline(s):
     s = html.escape(str(s or ""), quote=False)
-    s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2">\1</a>', s)
+    s = markup.LINK_RE.sub(r'<a href="\2">\1</a>', s)
     s = re.sub(r"\[\[[^\]|]+\|([^\]]+)\]\]", r"\1", s)
     s = re.sub(r"\[\[([^\]]+)\]\]", r"\1", s)
     return re.sub(r"\*([^*]+)\*", r"<i>\1</i>", s)
