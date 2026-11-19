@@ -77,6 +77,54 @@ def test_cached_splits_hand_out_new_lists():
     assert claims.units("One. Two; three.") == ["One.", "Two;", "three."]
 
 
+# ---------------------------------------------------------------- PERF 5: the merge's index kept, not rebuilt per op
+
+def _same_index(series):
+    """The index as reindex left it, against a whole rebuild: the same keys, each to the very same objects."""
+    kept = series.index()
+    series.invalidate()
+    whole = series.index()
+    assert set(kept) == set(whole)
+    assert all(all(a is b for a, b in zip(kept[k], whole[k])) for k in whole)
+
+
+def test_reindex_gives_what_a_rebuild_gives():
+    from conftest import FIXTURE
+    from bib import store
+    series = store.Series(FIXTURE)
+    cal = series.lists["cal"]
+    secs = [s for s in cal.walk() if len(s.entries) >= 3][:2]
+    a, b = secs
+    series.index()
+    assert series._index_keys is not None                   # the fixture: no key two entries claim
+    a.entries[0] = dict(a.entries[0], n="replaced")          # an entry replaced (an edit)
+    a.entries.insert(1, {"id": "cal.test-new", "c": "x"})    # added
+    gone = a.entries.pop()                                   # deleted
+    moved = b.entries.pop(0)                                 # moved from b to a
+    a.entries.append(moved)
+    b.entries[0] = dict(b.entries[0], aliases=["cal.test-old-id"])   # an alias (combine)
+    series.reindex({a, b})
+    assert series._index is not None and series.get(gone["id"]) is None
+    assert series.get("cal.test-old-id")[2] is b.entries[0] and series.get(moved["id"])[1] is a
+    _same_index(series)
+
+
+def test_reindex_drops_the_index_on_a_clash():
+    from conftest import FIXTURE
+    from bib import store
+    series = store.Series(FIXTURE)
+    a, b = [s for s in series.lists["cal"].walk() if s.entries][:2]
+    series.index()
+    a.entries.append(dict(b.entries[0]))                     # b's id now held twice
+    series.reindex({a})
+    assert series._index is None
+    _same_index(series)
+    series.index()
+    assert series._index_keys is None                        # a rebuild that met the clash: never reindexed
+    series.reindex({a})
+    assert series._index is None
+
+
 def test_names_resolved_kept_per_line_and_tags():
     from bib.build import Linker
     calls = []

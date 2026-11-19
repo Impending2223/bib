@@ -458,15 +458,56 @@ class Series:
         """id (and alias) -> (list, section, entry)."""
         if self._index is None:
             idx = {}
+            keys = {}                    # section -> the keys it gave (reindex)
+            clash = False                # a key two entries claim: an id or alias used twice
             for lst in self.lists.values():
                 for s, e in lst.entries():
+                    clash = clash or e["id"] in idx
                     idx[e["id"]] = (lst, s, e)
+                    keys.setdefault(s, []).append(e["id"])
             for lst in self.lists.values():
                 for s, e in lst.entries():
                     for a in e.get("aliases", []):
-                        idx.setdefault(a, (lst, s, e))
+                        if a in idx:
+                            clash = True
+                        else:
+                            idx[a] = (lst, s, e)
+                            keys.setdefault(s, []).append(a)
             self._index = idx
+            self._index_keys = None if clash else keys
         return self._index
+
+    def reindex(self, sections):
+        """The index brought up to date after a change confined to these sections (merge.apply_patch: each op names
+        the sections it changed): their keys taken out and read again from them alone, as a whole rebuild would give
+        them (code review C, PERF 5). Where it might not (the index held a key two entries claim, or one would now),
+        the index is dropped and rebuilt on its next use, as invalidate does."""
+        idx, keys = self._index, getattr(self, "_index_keys", None)
+        if idx is None:
+            return
+        if keys is None:
+            self._index = None
+            return
+        for s in sections:
+            for k in keys.pop(s, ()):
+                del idx[k]
+        new = []
+        for s in sections:
+            got = keys.setdefault(s, [])
+            for e in s.entries:
+                if e["id"] in idx:
+                    self._index = None
+                    return
+                idx[e["id"]] = (s.lst, s, e)
+                got.append(e["id"])
+                new.append((s, e))
+        for s, e in new:
+            for a in e.get("aliases", []):
+                if a in idx:
+                    self._index = None
+                    return
+                idx[a] = (s.lst, s, e)
+                keys[s].append(a)
 
     def get(self, eid):
         return self.index().get(eid)
