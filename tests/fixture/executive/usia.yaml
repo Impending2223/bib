@@ -1,0 +1,81 @@
+# United States Information Agency. Seeded from POCOM by tools/executive/make_state.py; kept by hand since.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: usia
+name: United States Information Agency
+under: president
+order: 500
+from: '1953-08-01'
+law:
+  - act: United States Information and Educational Exchange Act of 1948
+    date: '1948-01-27'
+    tags: [powers]
+    cite: ch. 36, 62 Stat. 6
+    usc: 22 U.S.C. §§ 1431–1479 (1958)
+    does: Authorizes the dissemination abroad of information about the United States, its people, and its policies, by press, publications, radio, motion pictures, and information centers, and educational exchanges; the functions then in the Secretary of State.
+  - act: Reorganization Plan No. 8 of 1953
+    date: '1953-08-01'
+    tags: [creates, appointment, vacancy, powers, reorganizes]
+    cite: 67 Stat. 642
+    does: Establishes the United States Information Agency, headed by a Director appointed by the President with the advice and consent of the Senate (the Secretary of State to advise on the appointment and tenure), with a Deputy Director, appointed the same way, who acts as Director in a vacancy; transfers to the Director the information programs of the Department of State (but for the educational exchanges), the Mutual Security Agency, and the Technical Cooperation Administration.
+  - act: Mutual Educational and Cultural Exchange Act of 1961
+    date: '1961-09-21'
+    tags: [powers]
+    cite: Pub. L. 87-256, 75 Stat. 527
+    usc: 22 U.S.C. §§ 2451–2458 (1964)
+    does: Consolidates the educational and cultural exchange programs; the President may assign their functions, which he did to the Secretary of State (Executive Order 11034, 1962).
+offices:
+  - id: director
+    title: Director of the United States Information Agency
+    rank: head
+    appt: PAS
+    level: II
+    law:
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 104(a)(9), 70 Stat. 736
+        usc: 5 U.S.C. § 2203 (1958)
+        does: $21,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(14), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(14)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Washburn, Abbott M.
+        acting: true
+        from: 1960-12
+        to: '1961-03-15'
+        n: 'Deputy Director. Check: the day he began to act.'
+        src:
+          - FRUS persons list
+      - name: Murrow, Edward R.
+        nominated: '1961-03-07'
+        confirmed: '1961-03-15'
+        appointed: '1961-03-15'
+        from: '1961-03-15'
+        to: '1964-01-20'
+        out: Resigned.
+        src:
+          - POCOM
+          - Cong. Rec. Index

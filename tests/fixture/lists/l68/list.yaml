@@ -1,0 +1,96 @@
+# 1968: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: '1968 Thriller: Bibliography'
+h1: '1968 thriller: working bibliography'
+lede: 'Sources, models, and names for an alternate-history political thriller: Johnson takes the nomination at the Chicago convention in August 1968 and runs against Nixon.'
+logic:
+  - 'Three parts. Part I lists models: works to imitate for style and structure. Part II lists sources: works and records to draw facts and voices from. Part III lists names: the people in the story, grouped by camp, with where to find each voice. Each part opens with a list of its sections. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so.'
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people in the story. Groups run from Johnson outward: his staff and allies, the Vietnam circle, the rival Democrats, the other parties, then Chicago, the press, the ticket, and the family. Within each group, alphabetical by surname. Each entry gives the 1968 role, a note, and where to find the voice. "Tapes" means Johnson''s recordings (II.F). "Oral history" means the LBJ Library collection (II.F).'
+    sections:
+      - id: p3b
+        num: III.B
+        title: Johnson's outside circle
+        logic:
+          - Loyalists outside the White House in August 1968. Alphabetical.
+        short: III.B Outside circle
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: Texans and money
+        logic:
+          - Alphabetical.
+        short: III.C Texans
+        file: III.C.yaml
+      - id: p3e
+        num: III.E
+        title: 'Vietnam: inner circle'
+        logic:
+          - Regulars at the Tuesday lunch, fall 1968, besides Johnson, Christian, and Tom Johnson (III.A). Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: 'Vietnam: wider circle'
+        logic:
+          - Negotiators, deputies, and outside advisers. Alphabetical.
+        file: III.F.yaml
+      - id: p3h
+        num: III.H
+        title: The Chennault channel
+        logic:
+          - The people on either end of the back channel to Saigon, and those watching it. Alphabetical.
+        short: III.H Chennault channel
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Humphrey camp
+        logic:
+          - Most would walk after a stolen nomination. Alphabetical.
+        file: III.I.yaml
+      - id: p3j
+        num: III.J
+        title: McCarthy camp
+        logic:
+          - Alphabetical.
+        file: III.J.yaml
+      - id: p3k
+        num: III.K
+        title: Kennedy camp
+        logic:
+          - Robert Kennedy was killed in June 1968; his people and his shadow remain. Alphabetical.
+        file: III.K.yaml
+      - id: p3l
+        num: III.L
+        title: Wallace camp
+        logic:
+          - Alphabetical.
+        file: III.L.yaml
+      - id: p3m
+        num: III.M
+        title: Republicans
+        logic:
+          - Nixon, his staff, and his rivals for the nomination. Alphabetical.
+        file: III.M.yaml
+      - id: p3n
+        num: III.N
+        title: Chicago
+        logic:
+          - The city, the hall, and the courtroom. Alphabetical.
+        file: III.N.yaml
+      - id: p3o
+        num: III.O
+        title: Press and commentators
+        logic:
+          - Alphabetical.
+        short: III.O Press
+        file: III.O.yaml
+      - id: p3p
+        num: III.P
+        title: Running mates
+        logic:
+          - Candidates for Johnson's ticket in the scenario. Alphabetical.
+        file: III.P.yaml

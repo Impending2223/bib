@@ -1,0 +1,1144 @@
+# The Department of State. Seeded from POCOM by tools/executive/make_state.py; kept by hand since.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: state
+name: Department of State
+under: president
+order: 30
+law:
+  - act: Act of July 27, 1789
+    date: '1789-07-27'
+    tags: [creates]
+    cite: ch. 4, § 1, 1 Stat. 28
+    usc:
+      - 5 U.S.C. § 151 (1958)
+      - 22 U.S.C. § 2651 (1970)
+    does: 'Establishes an executive department, the Department of Foreign Affairs, and a principal officer, the Secretary for the Department of Foreign Affairs, to perform such duties as the President shall enjoin: correspondence and instructions to ministers and consuls, negotiations with foreign ministers, and other foreign affairs.'
+  - act: Act of Sept. 15, 1789
+    date: '1789-09-15'
+    tags: [creates, powers]
+    cite: ch. 14, § 1, 1 Stat. 68
+    usc:
+      - 5 U.S.C. § 151 (1958)
+      - 22 U.S.C. § 2651 (1970)
+    does: The Department of Foreign Affairs to be called the Department of State, and its principal officer the Secretary of State; domestic duties, among them the custody of the seal of the United States.
+  - act: Foreign Service Act of 1946
+    date: '1946-08-13'
+    tags: [creates, powers]
+    cite: ch. 957, 60 Stat. 999
+    usc: 22 U.S.C. §§ 801–1158 (1958)
+    does: The Foreign Service of the United States, administered by the Secretary of State; a Director General of the Foreign Service and a Board of the Foreign Service; the Foreign Service Institute; the classes of officers and chiefs of mission.
+  - act: Act of May 26, 1949
+    date: '1949-05-26'
+    tags: [creates, appointment, powers]
+    cite: ch. 143, §§ 1–4, 63 Stat. 111
+    usc:
+      - 5 U.S.C. § 151a (1958)
+      - 22 U.S.C. §§ 2652, 2653, 2658 (1970)
+    does: In the Department, besides the Secretary, an Under Secretary and ten Assistant Secretaries, appointed by the President with the advice and consent of the Senate; the Secretary may designate two Assistant Secretaries as Deputy Under Secretaries; the Counselor and the Legal Adviser rank with the Assistant Secretaries. The Secretary to administer, coordinate, and direct the Foreign Service; may make rules and delegate his functions.
+  - act: Act of Aug. 5, 1955
+    date: '1955-08-05'
+    tags: [creates, appointment, pay]
+    cite: ch. 576, §§ 1, 2, 69 Stat. 536
+    usc:
+      - 5 U.S.C. § 151a (1958)
+      - 22 U.S.C. §§ 2652, 2653 (1970)
+    does: In the Department, besides the Secretary, an Under Secretary, three Deputy Under Secretaries, and ten Assistant Secretaries, appointed by the President with the advice and consent of the Senate; the Counselor and the Legal Adviser rank and are paid with the Assistant Secretaries.
+  - act: Act of July 18, 1958
+    date: '1958-07-18'
+    tags: [creates]
+    cite: Pub. L. 85-524, § 1, 72 Stat. 363
+    usc: 5 U.S.C. § 151a (1958)
+    does: Eleven Assistant Secretaries of State, for ten. The eleventh used for the Bureau of African Affairs.
+  - act: Foreign Relations Authorization Act of 1972
+    date: '1972-07-13'
+    effective: '1972-07-01'
+    tags: [creates, reorganizes, pay]
+    cite: Pub. L. 92-352, §§ 103, 104, 86 Stat. 489, 490
+    usc: 22 U.S.C. § 2652 (1970 Supp. II)
+    does: In the Department, besides the Secretary, a Deputy Secretary, an Under Secretary for Political Affairs, an Under Secretary for Economic Affairs, a Deputy Under Secretary, and eleven Assistant Secretaries; the duties of the Under Secretary to the Deputy Secretary, the incumbent not to be reappointed. Deputy Secretary, level II; the two Under Secretaries, level III; Deputy Under Secretary, level IV.
+offices:
+  - id: secretary
+    title: Secretary of State
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 1, 63 Stat. 880
+        does: $22,500 a year ("the head of each executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 102(1), 70 Stat. 736
+        usc: 5 U.S.C. § 2201 (1958)
+        does: $25,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(a)(1), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(a) (1964)
+        does: Level I, $35,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5312 (1970)
+        does: Level I continued, $35,000 a year (§ 5312(1)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level I, $60,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Herter, Christian A.
+        given: Christian Archibald
+        nominated: '1959-04-20'
+        confirmed: '1959-04-21'
+        appointed: '1959-04-21'
+        from: '1959-04-22'
+        to: '1961-01-20'
+        src:
+          - POCOM
+          - Cong. Rec. Index
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        title: Secretary of State ad interim
+        acting: true
+        from: '1961-01-20'
+        to: '1961-01-21'
+        n: Under Secretary of State for Political Affairs.
+        src:
+          - POCOM
+      - name: Rusk, Dean
+        given: David Dean
+        nominated: '1961-01-20'
+        confirmed: '1961-01-21'
+        appointed: '1961-01-21'
+        from: '1961-01-21'
+        to: '1969-01-20'
+        src:
+          - POCOM
+          - Cong. Rec. Index
+          - Plum Book 1968, p. 12
+  - id: special-assistants
+    title: Special Assistant to the Secretary of State
+    rank: inferior
+    appt: HD
+    under: secretary
+    group: Office of the Secretary
+    many: true
+    n: The Secretary's special assistants and advisers, with their designations.
+    holders:
+      - name: Bernau, Phyllis D.
+        title: Personal Assistant to the Secretary
+        from: '1953-01-21'
+        to: '1963'
+        n: 'Personal assistant to Dulles; Personal Assistant to the Secretary in CDIR 1961-04. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Lacy, William S. B.
+        title: Special Assistant to the Secretary for East-West Exchanges
+        from: '1958'
+        to: '1961'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Bohlen, Charles E.
+        given: Charles Eustis
+        title: Special Assistant to the Secretary (Soviet affairs)
+        from: '1959'
+        to: 1962-10
+        out: To Ambassador to France.
+        n: 'Check: the days; in CDIR 1961-04 and 1962-01.'
+        src:
+          - CDIR 1961-04
+      - name: Whitman, Walter G.
+        title: Science Adviser
+        from: '1960'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Farley, Philip J.
+        title: Special Assistant to the Secretary for Atomic Energy and Outer Space
+        from: '1961'
+        to: 1962-03
+        n: 'FRUS: August 1961–March 1962; in CDIR 1961-04 already. Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Riddleberger, James W.
+        given: James Williams
+        from: '1961-02-23'
+        to: 1961-08
+        n: Head of the U.S. delegation to the Development Assistance Group meeting, July 1961.
+        src:
+          - FRUS persons list
+      - name: Brown, Winthrop G.
+        title: Special Assistant (Liaison with the Governors)
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 16
+      - name: Martin, Graham A.
+        title: Special Assistant (Refugee and Migration Affairs)
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 16
+      - name: Delaney, George P.
+        title: Special Assistant and Coordinator of International Labor Affairs
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 16
+      - name: Thompson, Edward K.
+        title: Special Assistant (Vietnam Information Affairs)
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 16
+      - name: McKernan, Donald L.
+        title: Special Assistant (Fisheries and Wildlife)
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 16
+      - name: Gross, Nelson G.
+        title: Senior Adviser and Coordinator for International Narcotics Matters
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1972, p. 21
+      - name: McKernan, Donald L.
+        title: Special Assistant (Fisheries and Wildlife) and Coordinator of Ocean Affairs
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1972, p. 20
+  - id: under-secretary
+    title: Under Secretary of State
+    titles:
+      - title: Deputy Secretary of State
+        from: '1972-07-13'
+    rank: principal
+    appt: PAS
+    under: secretary
+    level: II
+    law:
+      - act: Act of Mar. 1, 1919
+        date: '1919-03-01'
+        tags: [creates]
+        cite: 40 Stat. 1213, 1224
+        does: An Under Secretary of State, in place of the Counselor, the second officer of the Department.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 3, 63 Stat. 880
+        does: $17,500 a year ("each Under Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 103(a)(4), 70 Stat. 736
+        usc: 5 U.S.C. § 2202 (1958)
+        does: $22,500 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(2), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(2)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    n: The second-ranking officer of the Department. Redesignated Deputy Secretary of State, July 13, 1972 (Pub. L. 92-352).
+    holders:
+      - name: Dillon, C. Douglas
+        given: Clarence Douglas
+        nominated: '1959-04-30'
+        confirmed: '1959-06-09'
+        appointed: '1959-06-11'
+        from: '1959-06-12'
+        to: '1961-01-04'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+      - name: Bowles, Chester
+        given: Chester Bliss
+        nominated: '1961-01-21'
+        confirmed: '1961-01-23'
+        appointed: '1961-01-24'
+        from: '1961-01-25'
+        to: '1961-12-03'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+      - name: Ball, George W.
+        given: George Wildman
+        nominated: '1962-01-15'
+        confirmed: '1962-01-29'
+        recess: '1961-11-29'
+        appointed: '1962-01-30'
+        from: '1961-12-04'
+        to: '1966-09-30'
+        src:
+          - POCOM
+          - Cong. Rec.
+  - id: under-secretary-political
+    title: Under Secretary of State for Political Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    level: III
+    from: '1959-07-30'
+    law:
+      - act: Act of July 30, 1959
+        date: '1959-07-30'
+        tags: [creates, appointment]
+        cite: Pub. L. 86-117, 73 Stat. 265
+        usc:
+          - 5 U.S.C. § 151a (1958 Supp. I)
+          - 22 U.S.C. § 2653 (1970)
+        does: An Under Secretary of State for Political Affairs or, in the Presidents discretion, an Under Secretary for Economic Affairs, ranking after the Under Secretary.
+      - act: Act of July 30, 1959
+        date: '1959-07-30'
+        until: 1964-07
+        tags: [pay]
+        cite: Pub. L. 86-117, 73 Stat. 265
+        does: $22,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(c)(10), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(c) (1964)
+        does: Level III, $28,500 a year ("Under Secretary of State for Political Affairs or Under Secretary of State for Economic Affairs").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III continued, $28,500 a year (§ 5314(10)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(a), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III raised to $29,500 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level III, $40,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    n: The third-ranking officer. The Act of July 30, 1959, allowed the President to appoint an Under Secretary for Political Affairs or an Under Secretary for Economic Affairs; Ball (1961) and Mann (1965–66) held the post under the economic title. The Act of July 13, 1972, made both posts permanent.
+    holders:
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        nominated: '1960-01-11'
+        confirmed: '1960-01-27'
+        recess: '1959-12-01'
+        appointed: '1960-01-27'
+        from: '1959-12-04'
+        to: '1961-01-31'
+        src:
+          - POCOM
+          - Cong. Rec.
+      - name: Ball, George W.
+        given: George Wildman
+        title: Under Secretary of State for Economic Affairs
+        nominated: '1961-01-30'
+        appointed: '1961-01-30'
+        from: '1961-02-01'
+        to: '1961-12-03'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Hearing CHRG-87shrg64718
+      - name: McGhee, George C.
+        given: George Crews
+        nominated: '1962-01-15'
+        confirmed: '1962-01-29'
+        recess: '1961-11-29'
+        appointed: '1962-01-30'
+        from: '1961-12-04'
+        to: '1963-03-27'
+        src:
+          - POCOM
+          - Cong. Rec.
+  - id: counselor
+    title: Counselor of the Department of State
+    rank: principal
+    appt: PAS
+    under: secretary
+    level: IV
+    law:
+      - act: Act of May 18, 1937
+        date: '1937-05-18'
+        tags: [creates, appointment, pay]
+        cite: ch. 220, 50 Stat. 169
+        usc: 22 U.S.C. § 2655 (1970)
+        does: A Counselor of the Department of State, appointed by the President with the advice and consent of the Senate; $10,000 a year.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("the Counselor of the Department of State").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(28), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(46), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(46)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Achilles, Theodore C.
+        given: Theodore Carter
+        nominated: '1960-02-09'
+        confirmed: '1960-03-18'
+        appointed: '1960-03-18'
+        from: '1960-03-24'
+        to: '1961-02-15'
+        src:
+          - POCOM
+          - Cong. Rec.
+      - name: McGhee, George C.
+        given: George Crews
+        confirmed: '1961-02-13'
+        appointed: '1961-02-13'
+        from: '1961-02-16'
+        to: '1961-12-03'
+        src:
+          - POCOM
+          - Cong. Rec.
+      - name: Rostow, Walt W.
+        given: Walt Whitman
+        nominated: '1962-01-15'
+        confirmed: '1962-02-19'
+        recess: '1961-11-29'
+        appointed: '1962-03-05'
+        from: '1961-12-04'
+        to: '1966-03-31'
+        src:
+          - POCOM
+          - Cong. Rec.
+  - id: ambassador-at-large
+    title: Ambassador at Large
+    rank: principal
+    appt: PAS
+    under: secretary
+    many: true
+    holders:
+      - name: Harriman, W. Averell
+        given: William Averell
+        nominated: '1961-01-30'
+        confirmed: '1961-02-06'
+        appointed: '1961-02-06'
+        from: '1961-02-13'
+        to: '1961-12-03'
+        src:
+          - POCOM
+          - Cong. Rec.
+      - name: Bowles, Chester
+        given: Chester Bliss
+        title: President's Special Representative and Adviser on African, Asian, and Latin American Affairs
+        nominated: '1962-01-15'
+        recess: '1961-12-01'
+        appointed: '1962-01-30'
+        from: '1961-12-04'
+        to: '1963-06-09'
+        n: Commissioned as Presidential Special Representative and Adviser on African, Asian, and Latin American Affairs, with the rank of ambassador. Sworn in Dec. 12, 1961 (APP); POCOM gives Dec. 4 for taking office. Check.
+        src:
+          - POCOM
+          - https://www.presidency.ucsb.edu/documents/remarks-the-swearing-chester-bowles-the-presidents-special-representative-and-adviser
+          - Cong. Rec.
+  - id: assistant-secretary-far-eastern
+    title: Assistant Secretary of State for Far Eastern Affairs
+    titles:
+      - title: Assistant Secretary of State for East Asian and Pacific Affairs
+        from: '1966-11-01'
+    rank: principal
+    appt: PAS
+    under: secretary
+    group: Regional bureaus
+    level: IV
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("each Assistant Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(17), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year ("Assistant Secretaries of State (10)").
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(22), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year ("Assistant Secretaries of State (11)").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(22)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Parsons, J. Graham
+        given: James Graham
+        nominated: '1959-04-07'
+        confirmed: '1959-06-05'
+        appointed: '1959-06-05'
+        from: '1959-07-01'
+        to: '1961-03-30'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+      - name: Steeves, John M.
+        acting: true
+        from: 1961-04
+        to: '1961-04-24'
+        n: Deputy Assistant Secretary; acting April–May 1961 (FRUS).
+        src:
+          - FRUS persons list
+      - name: McConaughy, Walter P., Jr.
+        given: Walter Patrick
+        nominated: '1961-03-21'
+        confirmed: '1961-04-18'
+        appointed: '1961-04-18'
+        from: '1961-04-24'
+        to: '1961-12-03'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+      - name: Harriman, W. Averell
+        given: William Averell
+        nominated: '1962-01-15'
+        confirmed: '1962-02-19'
+        recess: '1961-11-29'
+        appointed: '1962-03-05'
+        from: '1961-12-04'
+        to: '1963-04-03'
+        src:
+          - POCOM
+          - Cong. Rec. Index
+  - id: assistant-secretary-inter-american
+    title: Assistant Secretary of State for Inter-American Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    group: Regional bureaus
+    level: IV
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("each Assistant Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(17), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year ("Assistant Secretaries of State (10)").
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(22), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year ("Assistant Secretaries of State (11)").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(22)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Mann, Thomas C.
+        given: Thomas Clifton
+        appointed: '1957-09-07'
+        from: '1960-08-28'
+        to: '1961-04-20'
+        n: Date of original commission as Assistant Secretary; prior to Aug 28, 1960, served as Assistant Secretary for Economic Affairs.
+        src:
+          - POCOM
+      - name: Woodward, Robert F.
+        given: Robert Forbes
+        nominated: '1961-06-26'
+        confirmed: '1961-07-14'
+        appointed: '1961-07-14'
+        from: '1961-07-17'
+        to: '1962-03-17'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+  - id: deputy-assistant-secretary-inter-american
+    title: Deputy Assistant Secretary of State for Inter-American Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-inter-american
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Coerr, Wymberley De R.
+        from: 1960-10
+        to: 1962-03
+        src:
+          - FRUS persons list
+      - name: Barall, Milton
+        from: '1961'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Morales-Carrión, Arturo
+        from: '1961-02-14'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Goodwin, Richard N.
+        from: 1961-11
+        to: 1963-01
+        n: Assistant Special Counsel to the President until November 1961; then Secretary General, International Peace Corps Secretariat.
+        src:
+          - FRUS persons list
+      - name: Palmer, Donald K.
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 17
+      - name: Vaky, Viron P.
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1968, p. 17
+      - name: Crimmins, John H.
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Check: the dates.'
+        src:
+          - Plum Book 1972, p. 19
+  - id: inter-american-officers
+    title: Officers of the Bureau of Inter-American Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-inter-american
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Bracken, Katherine W.
+        title: Director, Office of Central American and Panamanian Affairs
+        from: '1959'
+        to: '1961-11-11'
+        n: 'Check: the day she took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Osborne, Melville E.
+        title: Officer in Charge of Mexican Affairs, Office of Caribbean and Mexican Affairs
+        from: '1959-01-25'
+        to: '1962'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Vallon, Edwin E.
+        title: Deputy Director, then Director, Office of Caribbean and Mexican Affairs
+        from: 1959-10
+        to: '1962'
+        n: 'Director from October 1960. Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: DeSeabra, A. José
+        title: Bureau of Inter-American Affairs
+        from: '1960'
+        to: '1962'
+        n: 'Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Wilson, Jackson W.
+        title: Officer in Charge of Brazilian Affairs, Office of East Coast Affairs
+        from: '1960'
+        to: 1962-10
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Rosenson, Alexander M.
+        title: Deputy Director, Office of Inter-American Regional Economic Affairs
+        from: '1960-10-14'
+        to: '1962'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Crimmins, John H.
+        title: Deputy Director, then Director, Office of Caribbean and Mexican Affairs
+        from: '1961'
+        to: '1963'
+        n: 'Director from February 1962. Then Coordinator of Cuban Affairs. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1962-01
+      - name: Pryce, William T.
+        title: Bureau of Inter-American Affairs; from Jan. 1964, staff assistant to the Assistant Secretary
+        from: '1961'
+        to: 1965-04
+        n: Drafted a memorandum of conversation, Feb. 4, 1961 (FRUS 1961–63, X, doc. 36). Staff assistant, Jan. 1964–Apr. 1965 (FRUS). Check the day he began.
+        src:
+          - FRUS 1961–63, X, doc. 36
+          - FRUS persons list, 1964–68, XXXI
+      - name: Lamberty, Gerald P.
+        title: Bureau of Inter-American Affairs, at Miami
+        from: 1961-01
+        to: '1961'
+        n: Economic section of the Embassy in Havana until it closed in January 1961 (FRUS 1961–63, X, doc. 70). Check both dates.
+        src:
+          - FRUS 1961–63, X, doc. 70
+      - name: Berle, Adolf A.
+        title: Chairman, Task Force on Latin America
+        from: '1961-01-02'
+        to: '1961-07-07'
+        n: Chairman of the President-elect's Task Force on Immediate Latin American Problems, Nov.–Dec. 1960.
+        src:
+          - FRUS persons list
+      - name: Turnage, William V.
+        title: Director, Office of Inter-American Regional Economic Affairs
+        from: '1961-06-11'
+        to: '1963'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+  - id: assistant-secretary-international-organization
+    title: Assistant Secretary of State for United Nations Affairs
+    titles:
+      - title: Assistant Secretary of State for International Organization Affairs
+        from: '1954-08-25'
+    rank: principal
+    appt: PAS
+    under: secretary
+    group: Functional bureaus
+    level: IV
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("each Assistant Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(17), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year ("Assistant Secretaries of State (10)").
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(22), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year ("Assistant Secretaries of State (11)").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(22)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Wilcox, Francis O.
+        given: Francis Orlando
+        nominated: '1955-07-27'
+        confirmed: '1955-07-28'
+        appointed: '1955-07-28'
+        from: '1955-09-06'
+        to: '1961-01-20'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+      - name: Cleveland, J. Harlan
+        nominated: '1961-02-13'
+        confirmed: '1961-02-20'
+        appointed: '1961-02-20'
+        from: '1961-02-23'
+        to: '1965-09-08'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index 1961
+  - id: assistant-secretary-economic
+    title: Assistant Secretary of State for Economic Affairs
+    titles:
+      - title: Assistant Secretary of State for Economic and Business Affairs
+        from: '1972-09-15'
+    rank: principal
+    appt: PAS
+    under: secretary
+    group: Functional bureaus
+    level: IV
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("each Assistant Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(17), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year ("Assistant Secretaries of State (10)").
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(22), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year ("Assistant Secretaries of State (11)").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(22)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Martin, Edwin M.
+        given: Edwin McCammon
+        confirmed: '1960-08-27'
+        appointed: '1960-08-27'
+        from: '1960-09-04'
+        to: '1962-05-17'
+        src:
+          - POCOM
+          - Cong. Rec.
+  - id: assistant-secretary-congressional
+    title: Assistant Secretary of State for Congressional Relations
+    rank: principal
+    appt: PAS
+    under: secretary
+    group: Functional bureaus
+    level: IV
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("each Assistant Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(17), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year ("Assistant Secretaries of State (10)").
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(22), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year ("Assistant Secretaries of State (11)").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(22)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Macomber, William B., Jr.
+        given: William Butts
+        nominated: '1957-08-07'
+        confirmed: '1957-08-14'
+        appointed: '1957-08-15'
+        from: '1957-10-21'
+        to: '1961-02-27'
+        src:
+          - POCOM
+          - Cong. Rec. Index
+      - name: Hays, Brooks
+        given: Lawrence Brooks
+        nominated: '1961-02-13'
+        confirmed: '1961-02-20'
+        appointed: '1961-02-20'
+        from: '1961-02-28'
+        to: '1961-12-03'
+        src:
+          - POCOM
+          - Cong. Rec.
+      - name: Dutton, Frederick G.
+        given: Frederick Gary
+        nominated: '1962-01-15'
+        confirmed: '1962-01-29'
+        recess: '1961-11-29'
+        appointed: '1962-01-30'
+        from: '1961-12-04'
+        to: '1964-07-27'
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+          - Cong. Rec. Index 1962
+  - id: director-policy-planning
+    title: Director of the Policy Planning Staff
+    titles:
+      - title: Assistant Secretary of State for Policy Planning
+        from: '1955-08-10'
+      - title: Chairman of the Policy Planning Council
+        from: '1961-02-13'
+      - title: Director of the Planning and Coordination Staff
+        from: '1969-08-04'
+      - title: Director of the Policy Planning Staff
+        from: '1974-02-27'
+    rank: inferior
+    appt: HD
+    under: secretary
+    group: Staff offices
+    n: Rank equivalent to an Assistant Secretary. An Assistant Secretary, with the advice and consent of the Senate, 1955–61; held by the Counselor, 1961–66; otherwise designated by the Secretary.
+    holders:
+      - name: Smith, Gerard C.
+        given: Gerard Coad
+        nominated: '1957-08-28'
+        recess: '1957-09-06'
+        appointed: '1958-01-27'
+        from: '1957-10-18'
+        to: '1961-01-20'
+        n: Commissioned Assistant Secretary of State for Policy Planning. A nomination of Aug. 28, 1959, was not confirmed.
+        src:
+          - POCOM
+          - Cong. Rec.
+          - Cong. Rec. Index
+      - name: McGhee, George C.
+        given: George Crews
+        confirmed: '1961-02-13'
+        appointed: '1961-02-13'
+        from: '1961-02-13'
+        to: '1961-11-29'
+        n: Counselor of the Department and Chairman of the Policy Planning Council.
+        src:
+          - POCOM
+          - Cong. Rec.
+      - name: Rostow, Walt W.
+        given: Walt Whitman
+        appointed: '1961-11-29'
+        from: '1961-11-29'
+        to: '1966-03-31'
+        n: Counselor of the Department and Chairman of the Policy Planning Council.
+        src:
+          - POCOM
+  - id: adviser-disarmament
+    title: Adviser to the President on Disarmament
+    rank: principal
+    appt: PA
+    group: Disarmament
+    many: true
+    from: 1961-01
+    until: '1961-09-26'
+    n: Listed with the Department of State in the Congressional Directory. Coordinated the Kennedy administration's disarmament study until the Arms Control and Disarmament Agency was set up.
+    holders:
+      - name: Fisher, Adrian S.
+        title: Deputy to the Adviser
+        from: '1961'
+        to: '1961-09-26'
+        n: 'Check: the day he took office.'
+        src:
+          - CDIR 1961-04
+      - name: McCloy, John J.
+        from: 1961-01
+        to: '1961-09-26'
+        n: 'Later the President''s coordinator for the U.S.-Soviet negotiations over Cuba at the United Nations (Oct. 1962–Jan. 1963), and Chairman of the ACDA''s General Advisory Committee. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04

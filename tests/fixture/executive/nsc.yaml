@@ -1,0 +1,250 @@
+# The National Security Council, its staff, and its boards. Kept by hand (research agent, Oct. 2026; generated once from the agent's notes).
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: nsc
+name: National Security Council
+under: eop
+order: 40
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    effective: '1947-09-18'
+    tags: [creates, powers]
+    cite: ch. 343, § 101, 61 Stat. 495, 496
+    usc:
+      - 50 U.S.C. § 402 (1958)
+    does: 'Establishes the National Security Council, the President presiding: to advise the President on the integration of domestic, foreign, and military policies relating to the national security; to assess and appraise the objectives, commitments, and risks of the United States in relation to its military power; to consider policies of common interest to the departments and agencies concerned with the national security; to report to the President. Members: the President; the Secretaries of State, Defense, the Army, the Navy, and the Air Force; the Chairman of the National Security Resources Board; and such Secretaries of executive departments and chairmen of the Munitions Board and the Research and Development Board as the President designates, their offices held with the Senate''s consent.'
+  - act: National Security Act Amendments of 1949
+    date: '1949-08-10'
+    tags: [reorganizes]
+    cite: ch. 412, § 3, 63 Stat. 578, 579
+    usc:
+      - 50 U.S.C. § 402(a) (1958)
+    does: 'Members: the President, the Vice President, the Secretaries of State and Defense, the Chairman of the National Security Resources Board, and such Secretaries and Under Secretaries of other executive and of the military departments as the President appoints to it, with the Senate''s consent to their offices. The service Secretaries no longer members by statute.'
+  - act: Reorganization Plan No. 4 of 1949
+    date: '1949-08-20'
+    tags: [reorganizes]
+    cite: 63 Stat. 1067
+    does: Transfers the Council and the National Security Resources Board to the Executive Office of the President.
+  - act: Reorganization Plan No. 3 of 1953
+    date: '1953-06-12'
+    until: '1958-07-01'
+    tags: [reorganizes]
+    cite: 67 Stat. 634
+    does: Abolishes the National Security Resources Board; transfers the functions of its Chairman, his membership on the Council included, to the Director of the Office of Defense Mobilization.
+  - act: Reorganization Plan No. 7 of 1953
+    date: '1953-08-01'
+    until: '1955-06-30'
+    tags: [reorganizes]
+    cite: 67 Stat. 639
+    does: Transfers the functions of the Director for Mutual Security, his membership on the Council included, to the Director of the Foreign Operations Administration. The Administration abolished June 30, 1955 (Executive Order 10610); its Director's seat with it.
+  - act: Reorganization Plan No. 1 of 1958
+    date: '1958-07-01'
+    tags: [reorganizes]
+    cite: 72 Stat. 1799
+    does: Transfers the membership of the Director of the Office of Defense Mobilization to the Director of the new Office of Defense and Civilian Mobilization (named the Office of Civil and Defense Mobilization, Aug. 26, 1958).
+  - act: Act of Sept. 22, 1961
+    date: '1961-09-22'
+    tags: [reorganizes]
+    cite: Pub. L. 87-296, 75 Stat. 630
+    does: Renames the Office of Civil and Defense Mobilization the Office of Emergency Planning; its Director a member.
+  - act: Supplemental Appropriation Act, 1969
+    date: '1968-10-21'
+    tags: [reorganizes]
+    cite: Pub. L. 90-608, § 402, 82 Stat. 1190, 1194
+    does: Renames the Office of Emergency Planning the Office of Emergency Preparedness.
+  - act: Reorganization Plan No. 1 of 1973
+    date: '1973-07-01'
+    tags: [reorganizes]
+    cite: 87 Stat. 1089, 1090
+    does: 'Abolishes the Office of Emergency Preparedness and its Director''s functions as a member of the Council. Members thereafter: the President, the Vice President, the Secretaries of State and Defense.'
+n: 'Members by statute (no office here for each seat): the President (chairman), the Vice President, the Secretaries of State and Defense; the Director for Mutual Security (to Aug. 1, 1953) and of the Foreign Operations Administration (to June 30, 1955); the Director of the Office of Defense Mobilization (from June 12, 1953), of Civil and Defense Mobilization (1958), of Emergency Planning (1961), of Emergency Preparedness (1968), to July 1, 1973. The Director of Central Intelligence and the Chairman of the Joint Chiefs of Staff attend as advisers. Others sit by the President''s invitation. Staff under the Special Assistant (Assistant from 1969), a White House officer, and the Executive Secretary, the officer the Act provides. The Planning Board and the Operations Coordinating Board abolished Feb. 18–19, 1961; the Executive Committee, Oct. 1962–1963; the Review Group, Under Secretaries Committee and interdepartmental groups set up by NSDM 2, Jan. 20, 1969. Membership: CDIR at each edition; Government Organization Manual, 1958, 1972–73.'
+offices:
+  - id: special-assistant
+    title: Special Assistant to the President for National Security Affairs
+    titles:
+      - title: Special Assistant to the President
+        from: '1966-04-01'
+      - title: Assistant to the President for National Security Affairs
+        from: '1969-01-20'
+    rank: employee
+    appt: PA
+    from: '1953-03-23'
+    n: 'A White House Office post, not provided by statute: appointed by the President, paid from the White House staff appropriation (3 U.S.C. § 105), and serving at his pleasure. Created for Cutler, Mar. 1953, as the Council''s principal executive officer: chairman of the Planning Board, and from 1953 a member of the Operations Coordinating Board (its chairman, 1960–61). Heads the Council''s staff from 1961. Rostow''s title omitted the words "for National Security Affairs".'
+    holders:
+      - name: Gray, Gordon
+        from: '1958-06-24'
+        to: '1961-01-20'
+        out: Resigned.
+        n: 'From Director of the Office of Defense Mobilization. Chairman of the Operations Coordinating Board from Jan. 13, 1960. Check: Wikipedia gives Jan. 13, 1961; his resignation took effect Jan. 20 (letter of acceptance, Jan. 13, 1961, APP).'
+        src:
+          - FRUS persons list
+          - CDIR 1959-03
+          - CDIR 1960-01
+          - https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-gordon-gray-special-assistant-the-president-for-national
+      - name: Bundy, McGeorge
+        from: '1961-01-20'
+        to: '1966-02-28'
+        out: Resigned; to president of the Ford Foundation.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+          - CDIR 1966-01
+          - 'Wikipedia: McGeorge Bundy'
+  - id: deputy
+    title: Deputy Special Assistant to the President for National Security Affairs
+    titles:
+      - title: Deputy Assistant to the President for National Security Affairs
+        from: '1969-01-20'
+    rank: employee
+    appt: PA
+    many: true
+    from: '1961-01-20'
+    n: White House staff; no statutory basis.
+    holders:
+      - name: Rostow, Walt W.
+        from: '1961-01-20'
+        to: '1961-12-04'
+        out: To Counselor of the Department of State.
+        n: 'Check: FRUS gives until Nov. 29, Dec. 4 and Dec. 14, 1961.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+          - POCOM
+      - name: Kaysen, Carl
+        from: '1961-12-04'
+        to: '1963'
+        out: Resigned; to Harvard.
+        n: 'Member of the staff from June 1961. Check: left in 1963 (Aug.?).'
+        src:
+          - FRUS persons list
+          - 'Wikipedia: Carl Kaysen'
+          - CDIR 1963-03
+  - id: staff
+    title: Member of the National Security Council Staff
+    rank: employee
+    appt: HD
+    under: special-assistant
+    group: The staff, 1953–69
+    many: true
+    n: Appointed by the Executive Secretary under § 101(c) of the Act, or detailed from the departments. Under Eisenhower, a Special Staff and the secretariat under the Executive Secretary; from 1961 a staff working for the Special Assistant ("the Little State Department"). Areas as the sources give them. FRUS persons lists give most dates by month or year only.
+    holders:
+      - name: Johnson, Robert H.
+        title: Special Staff; Director, Planning Board Secretariat, 1959–61; Far East, 1961–62
+        from: '1953'
+        to: '1962-02-18'
+        out: To the Policy Planning Council, Department of State (from Aug. 1963).
+        n: 'Check: start.'
+        src:
+          - FRUS persons list
+      - name: Halla, Philip J.
+        from: '1958'
+        to: '1963'
+        n: 'Check: dates; in FRUS 1958–60 and 1961–63.'
+        src:
+          - FRUS persons list
+      - name: Saunders, Harold H.
+        title: Near East and South Asia
+        from: '1961'
+        to: '1969-01-20'
+        n: Continued on Kissinger's staff.
+        src:
+          - FRUS persons list
+          - 'Wikipedia: Harold H. Saunders'
+          - Plum Book 1968, p. 6
+      - name: Chase, Gordon
+        title: Latin America; Cuba; Africa
+        from: '1961'
+        to: 1966-01
+        out: To personal assistant to McGeorge Bundy.
+        src:
+          - FRUS persons list
+      - name: Belk, Samuel E.
+        from: '1961'
+        to: '1965'
+        n: 'Check: dates.'
+        src:
+          - FRUS persons list
+      - name: Haskins, Charles A.
+        from: '1961'
+        to: '1963'
+        n: 'Check: dates; in FRUS 1961–63.'
+        src:
+          - FRUS persons list
+      - name: Landon, Kenneth P.
+        title: Southeast Asia
+        from: '1961'
+        to: '1963'
+        n: 'Check: dates; in FRUS 1961–63.'
+        src:
+          - FRUS persons list
+      - name: Owen, Henry D.
+        from: '1961'
+        to: 1961-12
+        out: To the Policy Planning Council, Department of State.
+        n: 'Check: start.'
+        src:
+          - FRUS persons list
+      - name: Raskin, Marcus
+        title: Special Staff; disarmament
+        from: '1961'
+        to: '1962'
+        n: 'Check: dates.'
+        src:
+          - 'Wikipedia: Marcus Raskin'
+      - name: Komer, Robert W.
+        title: Near East, South Asia, Africa; foreign aid
+        from: 1961-01
+        to: '1965-10-19'
+        out: To Deputy Special Assistant.
+        src:
+          - FRUS persons list
+      - name: Keeny, Spurgeon M., Jr.
+        title: Science; disarmament
+        from: 1961-01
+        to: '1969'
+        out: To Assistant Director, Arms Control and Disarmament Agency.
+        n: 'Also on the staff of the Office of Science and Technology. Check: FRUS gives from Jan. 1961 and 1963–69. Check: not on the NSC staff list in the Plum Book of Sept. 30, 1968 (p. 6); p. 10 lists him at the Office of Science and Technology.'
+        src:
+          - FRUS persons list
+      - name: Klein, David
+        title: Europe; Berlin
+        from: 1961-01
+        to: 1965-08
+        src:
+          - FRUS persons list
+      - name: Kissinger, Henry A.
+        title: Consultant
+        from: 1961-02
+        to: 1961-11
+        n: 'Check: dates; FRUS gives until Nov. 1961.'
+        src:
+          - FRUS persons list
+      - name: Kaysen, Carl
+        from: 1961-06
+        to: '1961-12-04'
+        out: To Deputy Special Assistant.
+        src:
+          - FRUS persons list
+      - name: McCafferty, Arthur J.
+        title: Senior Staff Member
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates, GS-16.'
+        src:
+          - Plum Book 1968, p. 6
+      - name: Schwartz, Louis, Jr.
+        title: Staff Member
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates, GS-15.'
+        src:
+          - Plum Book 1968, p. 6
+      - name: Sansom, Robert L.
+        rank: Capt., USAF
+        title: Junior Staff Member
+        seen: '1968-09-30'
+        to: 1969-09
+        n: 'A White House Fellow; the appointment to expire September 1969 (Plum Book of Sept. 30, 1968). Check: the dates.'
+        src:
+          - Plum Book 1968, p. 6

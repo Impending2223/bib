@@ -1,0 +1,488 @@
+# The White House Office, 1953-74. Kept by hand.
+# Offices in the order of the Congressional Directory's lists (CDIR <edition>). Holders known only from the
+# Directory carry the edition's month or year and a Check. The Special Assistant for National Security Affairs
+# and the NSC staff are in nsc.yaml; the science adviser in ost.yaml; consumer affairs in consumer.yaml.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: wh
+name: The White House Office
+under: eop
+order: 10
+law:
+  - act: Executive Order 8248
+    date: '1939-09-08'
+    cite: 4 Fed. Reg. 3864
+    url: https://www.presidency.ucsb.edu/documents/executive-order-8248-establishing-the-divisions-the-executive-office-the-president-and
+    tags: [creates, powers]
+    does: 'The White House Office the first division of the Executive Office: "to serve the President in an intimate capacity in the performance of the many detailed activities incident to his immediate office." Subdivisions: the Secretaries to the President, the Executive Clerk, the Administrative Assistants to the President.'
+  - act: Act of June 25, 1948 (Title 3, U.S. Code, enacted)
+    date: '1948-06-25'
+    cite: ch. 644, 62 Stat. 672, 678
+    usc:
+      - 3 U.S.C. § 105 (1946 Supp. II)
+      - 3 U.S.C. § 107 (1946 Supp. II)
+    tags: [pay, powers]
+    does: Secretary to the President, $10,000 (§ 105). Employees of the executive departments and independent establishments may be detailed to the White House Office for temporary assistance (§ 107).
+  - act: Act of Oct. 15, 1949
+    date: '1949-10-15'
+    cite: ch. 695, § 2, 63 Stat. 880
+    usc: 3 U.S.C. § 105 (1952)
+    until: '1956-07-31'
+    tags: [pay]
+    does: 'The President to fix the pay of the six administrative assistants, the Executive Secretary of the National Security Council, and five other secretaries or immediate staff assistants in the White House Office: two at not over $20,000, three at $18,000, seven at $15,000.'
+  - act: Federal Executive Pay Act of 1956
+    date: '1956-07-31'
+    effective: '1956-07-01'
+    cite: ch. 804, § 109, 70 Stat. 736, 740
+    usc: 3 U.S.C. § 105 (1958)
+    until: '1964-08-14'
+    tags: [pay]
+    does: 'Eight other secretaries or immediate staff assistants: two at not over $22,500, three at $21,000, seven at $20,000, three at $17,500. In effect from the first pay period after June 30, 1956.'
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07-01'
+    cite: Pub. L. 88-426, § 304(b), 78 Stat. 400, 422
+    usc: 3 U.S.C. § 105 (1964)
+    tags: [pay]
+    does: 'The six administrative assistants, the Executive Secretaries of the National Security Council and the National Aeronautics and Space Council, and eight other secretaries or immediate staff assistants in the White House Office: pay fixed by the President, not above level II of the Federal Executive Salary Schedule. In effect from the first pay period beginning on or after July 1, 1964.'
+  - act: Act of Oct. 4, 1961
+    date: '1961-10-04'
+    effective: 1961-12
+    until: 1964-07
+    tags: [pay]
+    cite: Pub. L. 87-367, § 303(h), 75 Stat. 785, 794
+    usc: 3 U.S.C. § 105 (1958 Supp. V)
+    does: The three places at not over $17,500 raised to $18,500.
+n: Staff appointed by the President alone; no office in the White House Office required confirmation. Titles below the six statutory administrative assistants rest on the President's appointment and the annual appropriation for the Office. Military aides were officers detailed from their services.
+offices:
+  - id: counsel
+    title: Special Counsel to the President
+    titles:
+      - title: Counsel to the President
+        from: '1969-01-20'
+    rank: employee
+    appt: PA
+    holders:
+      - name: Kendall, David W.
+        appointed: '1958-11-01'
+        from: '1958-11-05'
+        to: '1961-01-20'
+        n: From General Counsel of the Treasury.
+        src:
+          - CDIR 1959-03
+          - FRUS persons list
+          - 'Wikipedia: White House Counsel'
+      - name: Sorensen, Theodore C.
+        from: '1961-01-20'
+        to: '1964-02-29'
+        out: Resigned.
+        n: Resignation accepted Jan. 15, 1964 (APP).
+        src:
+          - CDIR 1961-04
+          - FRUS persons list
+          - https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-theodore-c-sorensen-special-counsel-the-president
+  - id: counsel-staff
+    title: Associate and Assistant Special Counsel to the President
+    rank: employee
+    appt: PA
+    many: true
+    under: counsel
+    holders:
+      - name: McPhee, Henry Roemer
+        title: Special Assistant in the White House Office; Assistant Special Counsel; Associate Special Counsel from 1959
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: dates; first listed CDIR 1955-02.'
+        src:
+          - CDIR 1955-02
+          - CDIR 1958-01
+          - CDIR 1959-03
+      - name: Areeda, Phillip E.
+        title: Assistant Special Counsel to the President
+        appointed: '1958-11-13'
+        from: '1958-11-13'
+        to: '1961-01-20'
+        n: From Special Assistant in the White House Office.
+        src:
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/areeda-phillip-e
+          - CDIR 1959-03
+      - name: Feldman, Myer
+        title: Deputy Special Counsel to the President
+        from: '1961-01-20'
+        to: 1964-03
+        out: To Special Counsel.
+        src:
+          - CDIR 1961-04
+          - CDIR 1964-01
+          - FRUS persons list
+      - name: Goodwin, Richard N.
+        title: Assistant Special Counsel to the President
+        from: '1961-01-20'
+        to: 1961-11
+        out: To Deputy Assistant Secretary of State for Inter-American Affairs.
+        src:
+          - CDIR 1961-04
+          - FRUS persons list
+      - name: White, Lee C.
+        title: Assistant Special Counsel; Associate Special Counsel from 1963
+        from: '1961-01-20'
+        to: '1965-01-17'
+        out: To Special Counsel.
+        src:
+          - CDIR 1961-04
+          - CDIR 1964-01
+          - 'Wikipedia: Lee C. White'
+  - id: press-secretary
+    title: Press Secretary to the President
+    rank: employee
+    appt: PA
+    holders:
+      - name: Hagerty, James C.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        src:
+          - CDIR 1953-03
+          - 'Wikipedia: White House Press Secretary'
+          - FRUS persons list
+      - name: Salinger, Pierre
+        given: Pierre Emil George
+        from: '1961-01-20'
+        to: '1964-03-19'
+        out: Resigned.
+        n: Special Assistant and Press Secretary.
+        src:
+          - CDIR 1961-04
+          - 'Wikipedia: White House Press Secretary'
+  - id: secretary
+    title: Secretary to the President
+    titles:
+      - title: Appointments Secretary
+        from: '1961-01-20'
+    rank: employee
+    appt: PA
+    n: 'The appointments secretary. Under Kennedy, Johnson, and Nixon not a separate title: held by a Special Assistant (under Nixon a Deputy Assistant).'
+    law:
+      - act: Act of June 25, 1948 (Title 3, U.S. Code, enacted)
+        date: '1948-06-25'
+        cite: ch. 644, 62 Stat. 672, 678
+        usc: 3 U.S.C. § 105 (1946 Supp. II)
+        until: '1949-10-15'
+        tags: [pay]
+        does: The compensation for the position of Secretary to the President, $10,000 a year (§ 105).
+    holders:
+      - name: Stephens, Thomas E.
+        appointed: '1958-03-24'
+        from: '1958-03-24'
+        to: '1961-01-20'
+        src:
+          - CDIR 1959-03
+          - CDIR 1960-01
+      - name: O'Donnell, Kenneth P.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: 1965-01
+        out: Resigned.
+        n: 'Check: end.'
+        src:
+          - CDIR 1961-04
+          - CDIR 1964-01
+          - 'Wikipedia: Kenneth O''Donnell'
+  - id: cabinet-secretary
+    title: Secretary to the Cabinet
+    rank: employee
+    appt: PA
+    from: 1953-10
+    holders:
+      - name: Gray, Robert K.
+        from: '1958-05-19'
+        to: '1961-01-20'
+        n: 'Check: FRUS gives May 16, 1958.'
+        src:
+          - CDIR 1959-03
+          - FRUS persons list
+      - name: Dutton, Frederick G.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1961-12-03'
+        out: To Assistant Secretary of State for Congressional Relations.
+        src:
+          - CDIR 1961-04
+          - FRUS persons list
+  - id: special-assistants
+    title: Special Assistant to the President
+    rank: employee
+    appt: PA
+    many: true
+    n: The title of most of the senior staff from 1961 to 1969, and of the second rank under Eisenhower and Nixon. Each holder's subject in his title. Those who held a separate post (counsel, press, appointments, Cabinet secretary) are listed there.
+    holders:
+      - name: McCann, Kevin
+        title: Special Assistant to the President (speeches)
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: dates; listed CDIR 1955-02 to 1960-01.'
+        src:
+          - CDIR 1955-02
+          - CDIR 1960-01
+      - name: Randall, Clarence B.
+        title: Special Assistant to the President for Foreign Economic Policy; Chairman, Council on Foreign Economic Policy
+        appointed: '1956-07-10'
+        from: '1956-07-10'
+        to: '1961-01-20'
+        n: Special Consultant to the President, 1954–56.
+        src:
+          - CDIR 1957-03
+          - FRUS persons list
+          - https://www.presidency.ucsb.edu/documents/letter-clarence-b-randall-his-appointment-special-assistant-the-president-for-foreign
+      - name: Paarlberg, Don
+        title: Special Assistant to the President for Economic Affairs
+        from: '1958-10-18'
+        to: '1961-01-20'
+        n: From Assistant Secretary of Agriculture. Also Food for Peace Coordinator from 1960.
+        src:
+          - CDIR 1959-03
+          - FRUS persons list
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/paarlberg-don
+      - name: Wallis, W. Allen
+        title: Special Assistant to the President
+        from: '1960-02-01'
+        to: '1961-01-20'
+        n: 'Executive Vice Chairman, Cabinet Committee on Price Stability for Economic Growth, June 10, 1959–Feb. 1, 1960. Check: start.'
+        src:
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/wallis-w-allen
+      - name: Reardon, Timothy J., Jr.
+        title: Special Assistant to the President (Cabinet affairs)
+        from: '1961'
+        to: '1964'
+        n: 'From Administrative Assistant. Check: dates; listed CDIR 1962-01 to 1964-01.'
+        src:
+          - CDIR 1962-01
+          - CDIR 1964-01
+      - name: O'Brien, Lawrence F.
+        title: Special Assistant to the President for Congressional Relations
+        from: '1961-01-20'
+        to: '1965-11-03'
+        out: To Postmaster General.
+        n: Also personnel, 1961.
+        src:
+          - CDIR 1961-04
+          - CDIR 1965-03
+          - FRUS persons list
+          - 'Wikipedia: White House Director of Legislative Affairs'
+      - name: Dungan, Ralph A.
+        title: Special Assistant to the President (personnel; Latin America)
+        from: '1961-01-20'
+        to: 1964-09
+        out: To Ambassador to Chile.
+        src:
+          - CDIR 1961-04
+          - CDIR 1964-01
+          - FRUS persons list
+      - name: Landis, James M.
+        title: Special Assistant to the President (regulatory agencies)
+        from: '1961-01-20'
+        to: 1961-09
+        out: Resigned.
+        n: 'Check: end.'
+        src:
+          - CDIR 1961-04
+      - name: Schlesinger, Arthur M., Jr.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1964-03-01'
+        out: Resigned.
+        n: Latin America; liaison with the United Nations delegation; historian.
+        src:
+          - CDIR 1961-04
+          - CDIR 1964-01
+          - FRUS persons list
+      - name: Wofford, Harris
+        title: Special Assistant to the President for Civil Rights
+        from: '1961-01-20'
+        to: 1962-04
+        out: To the Peace Corps, Ethiopia.
+        n: 'Check: end.'
+        src:
+          - CDIR 1961-04
+          - CDIR 1962-01
+      - name: Powers, David F.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1965'
+        n: 'Check: dates; not in CDIR.'
+        src:
+          - K–J Adm. III.B
+      - name: Reeves, Frank D.
+        title: Special Assistant to the President
+        from: '1961-01-21'
+        to: '1961'
+        out: Resigned.
+        n: 'Check: end.'
+        src:
+          - CDIR 1961-04
+          - 'Wikipedia: Frank D. Reeves'
+      - name: Hays, Brooks
+        title: Special Assistant to the President
+        from: '1961-12-04'
+        to: 1964-02
+        n: 'From Assistant Secretary of State for Congressional Relations. Check: end.'
+        src:
+          - CDIR 1962-01
+          - CDIR 1964-01
+          - 'Wikipedia: Brooks Hays'
+      - name: Walker, Ronald H.
+        title: Special Assistant to the President
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Check: the dates, PA, $30,000.'
+        src:
+          - Plum Book 1972, p. 5
+      - name: Martin, John B.
+        title: Special Assistant to the President for Aging
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Also Commissioner on Aging. Printed "John B. Martin, Jr." Check: the dates, PA, with compensation.'
+        src:
+          - Plum Book 1972, p. 5
+  - id: who-special-assistants
+    title: Special Assistant in the White House Office
+    rank: employee
+    appt: PA
+    many: true
+    until: '1961-01-20'
+    n: Eisenhower's junior title, below the Special Assistants to the President.
+    holders:
+      - name: Lambie, James M., Jr.
+        from: 1953-03
+        to: '1961-01-20'
+        n: Advertising liaison; Assistant Staff Secretary, 1960–61.
+        src:
+          - CDIR 1953-03
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/lambie-james-m-jr
+      - name: Morrow, E. Frederic
+        title: Administrative Officer, Special Projects
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: start.'
+        src:
+          - CDIR 1956-01
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/morrow-e-frederic
+      - name: Fox, Frederic E.
+        from: '1956'
+        to: '1961-01-20'
+        n: 'Correspondence; Staff Assistant to the President from 1957. Check: start.'
+        src:
+          - CDIR 1957-03
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/fox-frederic-e
+      - name: Hampton, Robert E.
+        from: '1958'
+        to: '1961-01-20'
+        n: 'Personnel. Check: dates; listed CDIR 1959-03 and 1960-01.'
+        src:
+          - CDIR 1959-03
+          - CDIR 1960-01
+      - name: Price, Douglas R.
+        from: '1958'
+        to: '1961-01-20'
+        n: 'Intergovernmental relations. Check: dates; listed CDIR 1959-03 and 1960-01.'
+        src:
+          - CDIR 1959-03
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/price-douglas-r
+      - name: Wheeler, Clyde A., Jr.
+        title: Staff Assistant to the President
+        from: 1959-02
+        last: '1960-01-06'
+        n: 'Congressional relations. Listed in CDIR, Jan. 1960; end not known. Check: the dates, and whether he is the Clyde Wheeler Jr. who ran in Oklahoma''s Sixth District, Nov. 1960.'
+        src:
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/wheeler-clyde
+      - name: Hess, Stephen
+        from: '1959-02-20'
+        to: '1961-01-20'
+        n: Speeches.
+        src:
+          - CDIR 1960-01
+          - 'Wikipedia: Stephen Hess'
+  - id: special-consultants
+    title: Special Consultant to the President
+    rank: employee
+    appt: PA
+    many: true
+    holders:
+      - name: Francis, Clarence
+        from: '1954'
+        to: '1961-01-20'
+        n: 'Surplus agricultural commodities. Check: dates; listed CDIR 1955-02 to 1960-01.'
+        src:
+          - CDIR 1955-02
+          - CDIR 1960-01
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/francis-clarence
+      - name: Larson, Arthur
+        from: '1958-08-31'
+        to: '1961-01-20'
+        n: From Special Assistant.
+        src:
+          - CDIR 1959-03
+          - https://www.eisenhowerlibrary.gov/research/finding-aids/larson-arthur
+      - name: Lyons, Eugene J.
+        title: Special Assistant to the President for Personnel Management
+        from: '1959'
+        to: '1961-01-20'
+        n: 'Check: dates; listed CDIR 1960-01.'
+        src:
+          - CDIR 1960-01
+      - name: Acheson, Dean G.
+        from: '1961'
+        to: '1961'
+        n: 'NATO and Berlin. Check: dates.'
+        src:
+          - FRUS persons list
+      - name: Reedy, George E.
+        title: Special Consultant to the President
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Press Secretary, 1964–65. Check: the dates, PA, $30,000.'
+        src:
+          - Plum Book 1968, p. 5
+      - name: Black, Eugene R.
+        title: Special Adviser to the President on Southeast Asian Economic and Social Development
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates, PA, without compensation.'
+        src:
+          - Plum Book 1968, p. 5
+      - name: Lovell, James A., Jr.
+        title: Special Consultant to the President on Physical Fitness
+        seen: '1968-09-30'
+        last: '1968-09-30'
+        n: 'Check: the dates, PA, without compensation.'
+        src:
+          - Plum Book 1968, p. 5
+      - name: Lovell, James A., Jr.
+        title: Special Consultant to the President on Physical Fitness
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Check: the dates, PA, with compensation.'
+        src:
+          - Plum Book 1972, p. 5
+  - id: personal-secretary
+    title: Personal Secretary to the President
+    rank: employee
+    appt: PA
+    holders:
+      - name: Whitman, Ann C.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        src:
+          - CDIR 1953-03
+          - 'Wikipedia: Ann C. Whitman'
+      - name: Lincoln, Evelyn
+        from: '1961-01-20'
+        to: '1963-11-22'
+        src:
+          - CDIR 1961-04
+          - 'Wikipedia: Evelyn Lincoln'

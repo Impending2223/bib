@@ -1,0 +1,63 @@
+# Cong.: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: 'Congress, the Nation, and the States, 1969–1974: Bibliography'
+h1: 'Congress, the nation, and the states, 1969–1974: working bibliography'
+lede: Sources, portrayals, and names for the 91st, 92d, and 93d Congresses, the elections of 1970 and 1972, the country's movements and backlash, the Court, and the states, less Watergate.
+logic:
+  - 'Third of four lists. This one is Cong. The others: the Republican opposition, 1961–69 (Opp.); Nixon and his administration (Adm.); and Watergate (Wg.). Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - 'The Watergate rule is the one stated in Adm. The Ervin Committee, the House Judiciary Committee''s impeachment inquiry, and the tapes cases are in Wg. alone. What Congress did in the same months on other grounds stays here: war powers, the budget act, impoundment, Agnew''s resignation, Ford''s confirmation. A person whose part was only Watergate appears only in Wg.'
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Thirteen groups, from the chambers outward: Senate leaders, Senate Democrats, Senate Republicans, House leaders, House Democrats, House Republicans, candidates, governors, other state figures, the Court, the movements, labor, and the press. Alphabetical within each. Each entry gives the role in these years and where to find the voice.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Senate leadership
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Senate Democrats
+        logic:
+          - Alphabetical. Leaders are in III.A.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: Senate Republicans
+        logic:
+          - Alphabetical. Leaders are in III.A.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: House leadership
+        logic:
+          - Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: House Democrats
+        logic:
+          - Alphabetical. Leaders are in III.D.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: House Republicans
+        logic:
+          - Alphabetical. Leaders are in III.D.
+        file: III.F.yaml
+      - id: p3i
+        num: III.I
+        title: Other state figures
+        logic:
+          - Legislators, mayors, judges, and litigants. Alphabetical.
+        file: III.I.yaml
+      - id: p3k
+        num: III.K
+        title: Movements and activists
+        logic:
+          - Alphabetical.
+        file: III.K.yaml
