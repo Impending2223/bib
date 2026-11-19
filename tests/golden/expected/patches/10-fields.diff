@@ -1,6 +1,6 @@
---- fixture/inbox/09-fields-2.yaml
-+++ after/inbox/09-fields-2.yaml
-@@ -0,0 +1,21 @@
+--- fixture/inbox/10-fields-2.yaml
++++ after/inbox/10-fields-2.yaml
+@@ -0,0 +1,30 @@
 +patch: fx-fields-flagged
 +by: tests
 +ops:
@@ -22,8 +22,17 @@
 +        c: Kennedy asks Taylor for a study of the landing, its echo in Moscow too.
 +        n: '[[w.reeves-president-kennedy]], 100. Names: Kennedy, Taylor.'
 +        tags: [name:kennedy-john-f]
---- fixture/inbox/merged/09-fields-1.yaml
-+++ after/inbox/merged/09-fields-1.yaml
++  - add:
++      entry:
++        id: cal.1961-04.foreign-aid-2
++        when: Apr., before the landing
++        date: '1961-04'
++        thread: foreign-aid
++        c: Bissell briefs the exiles' leaders; word to Havana, Moscow, Peking and Saigon; the radio watch kept from 6 a.m. to midnight in shifts.
++        n: '[[w.reeves-president-kennedy]], 101. Names: Bissell.'
++        tags: [name:bissell-richard-m-jr]
+--- fixture/inbox/merged/10-fields-1.yaml
++++ after/inbox/merged/10-fields-1.yaml
 @@ -0,0 +1,24 @@
 +patch: fx-fields-fixed
 +by: tests
@@ -51,9 +60,10 @@
 +        tags: [name:kennedy-john-f, ok:fields-place]
 --- fixture/inbox/new-entries.tsv
 +++ after/inbox/new-entries.tsv
-@@ -0,0 +1,2 @@
+@@ -0,0 +1,3 @@
 +1961-04-29	foreign-aid	cal.1961-04-29.foreign-aid	Kennedy at Hyannis Port, 9 p.m.	fx-fields-flagged
 +1961-04	foreign-aid	cal.1961-04.foreign-aid	late April, the Cuba study	fx-fields-flagged
++1961-04	foreign-aid	cal.1961-04.foreign-aid-2	Bissell briefs the exiles	fx-fields-flagged
 --- fixture/lists/cal/196104.yaml
 +++ after/lists/cal/196104.yaml
 @@ -7390,4 +7390,13 @@
