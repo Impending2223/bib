@@ -294,6 +294,9 @@ def anchors(lst):
 
         def walk(s):
             bag.add(s.id)
+            from .daybook import year_opened
+            if year_opened(lst, s) is not None:   # the year's heading over the section opening it (daybook STYLE 17)
+                bag.add(f"y{year_opened(lst, s)}")
             if s.extra.get("old_id"):
                 bag.add(str(s.extra["old_id"]))
             for e in s.entries:

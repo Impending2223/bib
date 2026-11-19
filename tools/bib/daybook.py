@@ -90,6 +90,14 @@ STYLE:
     own number ("Week 1: Dec. 30–Jan. 5"). Each day a heading too, a level under the week:
     the day's div carries `data-h`, `data-short` ("Wednesday, Oct. 16") and `data-crumb` ("16"), so the scroll's rail
     and the top bar take it (templates/list.html); the top bar reads "1963 / October / 16", the week left out of it.
+ 17. The year before its January (the owner, Nov. 19, 2026: "The 'January 1960' heading and indicators table comes
+    before '1960.' Can we fix that?"; "'Early 1960' seems to come after 'January 1960'"): the section that opens a
+    year (year_opened) is headed by the year, a heading of the month's level, anchored `y<year>` ("y1960"), its
+    `data-short` and `data-crumb` the year, before the month's own heading; under it the year's block (its entries,
+    no second "1960") and the year's intercalary days that open with January ("Early 1960", "First half of 1960");
+    then the month's heading, its indicators, "January", "Early January", Jan. 1. A year's intercalary day at a later
+    month stands before that month's heading and table ("Mid-1962" before "May 1962"). section_days gives the two
+    apart, (lead, body): the lead goes before the section's heading (build.section_body), the body after it.
 """
 import calendar
 import datetime
@@ -479,12 +487,30 @@ def mmwr_week(d):
     return (sun - first).days // 7 + 1, y
 
 
-def section_days(lst, sec, entry_li, thread_name):
-    """HTML for a dated calendar section, laid out by day. entry_li(e, rubric_html) -> '<li ...>'."""
+def year_opened(lst, sec):
+    """The year a dated section opens (its first dated section in the list's order), or None (STYLE 17)."""
+    lo = str(sec.extra.get("from") or "")
+    if not lo:
+        return None
+    first = next((s for s in lst.walk() if str(s.extra.get("from") or "")[:4] == lo[:4]), None)
+    return int(lo[:4]) if first is sec else None
+
+
+def year_heading(lst, sec, year, prefix=""):
+    """The year's heading over the section that opens it: the month's level, anchored y<year> (STYLE 17)."""
+    tag = f"h{min(sec.level, 4)}"
+    return f'<{tag} class="yh" id="{prefix}y{year}" data-short="{year}" data-crumb="{year}">{year}</{tag}>'
+
+
+def section_days(lst, sec, entry_li, thread_name, prefix=""):
+    """HTML for a dated calendar section, laid out by day, as (lead, body): the lead, the year's heading, block and
+    intercalary days, before the section's heading; the body after it (STYLE 17). entry_li(e, rubric_html) ->
+    '<li ...>'; prefix, the reader's anchors' ('cal--')."""
     docs, ab = load()
     by_day = _cache["by_day"]
     lo = datetime.date.fromisoformat(str(sec.extra["from"]))
     hi = datetime.date.fromisoformat(str(sec.extra["to"]))
+    lead = []
     out = ['<p class="dtog"><button type="button" data-docs="1">Expand all</button>'
            '<button type="button" data-docs="0">Collapse all</button> <span>the day\'s documents and other records</span></p>']
     guests, away = loose.hosts(lst)  # a year's block, the month's, the intercalary days (loose.py, STYLE 1-2, 5)
@@ -536,7 +562,7 @@ def section_days(lst, sec, entry_li, thread_name):
     wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     dlv = min(int(wtag[1]) + 1, 6)
     seen_ix = {}
-    def ix_days(keys):
+    def ix_days(keys, out=out):
         """The intercalary days of keys, in order: a heading in the day's style, the loose date its text (loose.py)."""
         for k in sorted(keys):
             day, slot, _, head = k
@@ -547,17 +573,24 @@ def section_days(lst, sec, entry_li, thread_name):
                        f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>'
                        '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
 
+    year = year_opened(lst, sec)            # the year, its block and its opening days before the month (STYLE 17)
+    if year is not None:
+        lead.append(year_heading(lst, sec, year, prefix))
     if year_only:                           # a year alone, before the month (loose.py, STYLE 2)
-        out.append(f'<div class="day mo yr"><div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>'
-                   '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
-    lead_ix = [k for k in ix if k[0] == lo and k[1] == -1.5]    # "Early 1962" after "1962", "Mid-1962" before "May"
+        dh = ("" if year is not None and str(year_only[0][0]["date"]) == str(year) else
+              f'<div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>')
+        lead.append(f'<div class="day mo yr">{dh}'
+                    '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
+    # a year's intercalary days at the section's month, before its heading: "Early 1962" after "1962", "Mid-1962"
+    # before "May" (where the calendar opens after the 1st, early January 1960, those of the 1st too)
+    lead_ix = [k for k in ix if k[1] == -1.5 and k[0] <= lo and (k[0].year, k[0].month) == (lo.year, lo.month)]
     if lead_ix:
-        ix_days(lead_ix)
+        ix_days(lead_ix, lead)
     if undated:
         out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
                    '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
 
-    ix_days([k for k in ix if k[0] < lo])
+    ix_days([k for k in ix if k[0] < lo and k not in lead_ix])
     d = lo
     while d <= hi:
         iso = d.isoformat()
@@ -594,7 +627,7 @@ def section_days(lst, sec, entry_li, thread_name):
         ix_days([k for k in ix if k[0] == d and k[1] == 2])     # the intercalary days after it ("May 12 bis")
         d += datetime.timedelta(days=1)
     ix_days([k for k in ix if k[0] > hi])
-    return out
+    return lead, out
 
 
 STYLE = """<style>

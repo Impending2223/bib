@@ -5,7 +5,8 @@
     date: '1962-05'             a month alone: the month's own block, at the head of the month ("May")
     at: before 1962-05-21       hidden, optional, on a year- or month-dated entry only: the intercalary day it sits on,
     at: after 1962-05-12        before or after a day ("Late May"; "After May 12")
-    at: before 1962-05          on a year-dated entry only: before a month's block ("Mid-1962", before "May")
+    at: before 1962-05          on a year-dated entry only: before a month's heading ("Mid-1962", before "May");
+                                its old day form, "before 1962-05-01", an error on a year-dated entry (at_problems)
 
 STYLE:
  1. An intercalary day is a heading in the day's ordinary style, its text the loose date, from the entry's `when`
@@ -21,7 +22,10 @@ STYLE:
     2 after). "Year alone goes before 'January,' which is before 'early January,' which is before 'January 1.'" (the
     owner, Nov. 15, 2026.) A year's intercalary day stands before the block of the month its part opens in, never
     after it: "1962", "Early 1962", "January", "Early January", Jan. 1 ... ; "Mid-1962", "May", "Early May", May 1 ...
-    (the owner, Nov. 19: "Are our ghost days not propagating?").
+    (the owner, Nov. 19: "Are our ghost days not propagating?"). On the page the year's own heading, its block and its
+    days that open with January stand before January's heading and indicators, and a year's later part before its
+    month's heading and indicators (daybook.py, STYLE 17; the owner, Nov. 19: "The 'January 1960' heading and
+    indicators table comes before '1960.' Can we fix that?").
  3. Thirds: the first day of third k (0, 1, 2) of a month of L days is floor(kL/3) + 1: 31 and 30 days the 1st, 11th,
     21st; February of 28 the 1st, 10th, 19th; of 29 the 1st, 10th, 20th (thirds). "For early, middle, and late,
     divide each month into thirds, and give entry the day *before* the first portion of that third falls on. 'Early
@@ -335,6 +339,8 @@ def at_problems(e):
         return ["at on an entry dated to the day: at is for a date of a year or a month alone"]
     if a[0] == "month" and len(d) != 4:
         return [f"at {v!r}: before a month's block is for a year-dated entry; a month's own takes 'before YYYY-MM-DD'"]
+    if a[0] == "before" and len(d) == 4 and a[1].day == 1:     # the old day form: after the month's heading (STYLE 2)
+        return [f"at {v!r} on a year-dated entry: before the month's heading is 'at: before {a[1].isoformat()[:7]}'"]
     if a[1].isoformat()[:len(d)] == d:
         return []
     y = int(d[:4])

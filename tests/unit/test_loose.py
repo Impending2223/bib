@@ -105,6 +105,11 @@ def test_parse_at_month():
 AT_PROBLEMS = [
     (("1962", "1962, mid-", "before 1962-05"), []),
     (("1962", "1962, mid-", "before 1963-05"), ["at 'before 1963-05' falls outside the entry's date 1962"]),
+    (("1962", "1962, late", "before 1962-09-01"),         # the old day form: after September's heading
+     ["at 'before 1962-09-01' on a year-dated entry: before the month's heading is 'at: before 1962-09'"]),
+    (("1960", "1960, early", "before 1960-01-01"),
+     ["at 'before 1960-01-01' on a year-dated entry: before the month's heading is 'at: before 1960-01'"]),
+    (("1962", "1962, spring", "before 1962-03-21"), []),
     (("1962-05", "May, late", "before 1962-05"),
      ["at 'before 1962-05': before a month's block is for a year-dated entry; a month's own takes 'before YYYY-MM-DD'"]),
 ]
