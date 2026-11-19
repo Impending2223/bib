@@ -898,3 +898,7 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 - And "1960, 11th lunar month, 7th day"? That can't be hard to figure out, can it?
 - Do we need to split Works? Do we need to split Names further than we have already? I think we do.
 - Do we not have a pass that tells us that size of each page, on calendar pages and otherwise, directs splits, and refactors navigation and pointers after the split pass? Please implement one if not." (Nov. 19, about 7:05 a.m. Pacific; "Not at the moment" to a clarity sweep, the message before.)
+
+"Immediate.
+- "Early 1960" seems to come after "January 1960". I thought I directed otherwise? Can we fix that, and all similar mis-placements?
+- The "January 1960" heading and indicators table comes before "1960." Can we fix that?" (Nov. 19, about 8:35 a.m. Pacific.)
