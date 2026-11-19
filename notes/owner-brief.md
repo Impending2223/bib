@@ -879,3 +879,5 @@ The owner's answers to the code review's questions (`notes/proposals/code-review
 The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen from the options offered: the month wordings, "Yes, all of it" (first, second, third and last week, end, mid-; festivals and lunar days dated; `check` flags a loose date that could sit on a ghost day and does not; each merge places it); the year wordings: "I thought I already ruled on these questions?" (so applied from the rulings of Nov. 15: thirds, seasons, the year alone before January, the earliest date implied).
 
 "When last I checked, 1960 DNC/RNC/nomination-related approximate/ghost dates weren't placed either. Are they not implemented?" (Nov. 19, about 5:35 a.m. Pacific.)
+
+"Could we not check and place all approximate dates? I'm not sure even your 24 catch nearly all the ones I was thinking of." (Nov. 19, about 6:00 a.m. Pacific.)
