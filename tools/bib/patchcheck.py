@@ -67,6 +67,7 @@ def check(series, path, legacy=False):
             errors.append(f"op {k}: unknown kind {kind!r}")
             continue
         eid = body.get("id") or (body.get("entry") or {}).get("id")
+        errors += [f"{kind} {i}: {m}" for i, m in merge.op_problems(kind, body)]   # bookkeeping fields (merge.py)
         if kind == "add" and lst and str(eid or "").startswith(f"{lst.key}.thread."):
             # a thread (th.yaml): its name, and its parent a thread the tree or the patch holds (STYLE 7)
             e = body.get("entry") or {}

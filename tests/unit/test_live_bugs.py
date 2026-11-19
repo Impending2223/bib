@@ -278,3 +278,43 @@ def test_merge_lock_one_at_a_time(tmp_path, monkeypatch):
     threading.Timer(0.3, lambda: (fcntl.flock(holder, fcntl.LOCK_UN), holder.close())).start()
     with merge.lock() as waited:
         assert waited is True
+
+
+# ---------------------------------------------------------------- 6. ops that would change bookkeeping fields
+
+def test_op_problems_refuses_bookkeeping_fields():
+    from tools.bib import merge
+    for k in ("id", "aliases", "conflict", "_derived"):
+        assert merge.op_problems("edit", {"id": "cal.x", "set": {k: "y"}}), k
+        assert merge.op_problems("edit", {"id": "cal.x", "unset": [k]}), k
+    assert merge.op_problems("edit", {"id": "cal.x", "set": {"c": "y", "n": "z"}, "unset": ["time"]}) == []
+    assert merge.op_problems("add", {"list": "kja", "entry": {"id": "cal.1961-01-01.x"}}) == [
+        ("cal.1961-01-01.x", "add to list 'kja': the id is not of that list (its ids begin kja.)")]
+    assert merge.op_problems("add", {"list": "cal", "entry": {"id": "cal.1961-01-01.x"}}) == []
+    assert merge.op_problems("add", {"entry": {"id": "cal.1961-01-01.x"}}) == []
+
+
+def test_apply_patch_refuses_a_rename(mini):
+    from tools.bib import merge, store
+    path = mini / "lists" / "cal" / "196101.yaml"
+    before = path.read_bytes()
+    for ops in ([{"edit": {"id": "cal.1961-01-01.x", "set": {"id": "cal.1961-01-02.x"}}}],
+                [{"edit": {"id": "cal.1961-01-01.x", "unset": ["id"]}}],
+                [{"add": {"list": "cal", "section": "196101",
+                          "entry": {"id": "kja.someone", "date": "1961-01-05", "c": "x"}}}]):
+        rep = merge.Report()
+        merge.apply_patch(store.Series(str(mini)), {"ops": ops}, "t", rep)
+        assert rep.errors == 1, rep.lines
+        assert path.read_bytes() == before
+
+
+def test_patch_check_refuses_a_rename(mini):
+    from tools.bib import patchcheck, store
+    p = mini / "2026-11-19-rename.yaml"
+    p.write_text("patch: rename\nops:\n  - edit: {id: cal.1961-01-01.x, set: {id: cal.1961-01-09.y}}\n"
+                 "  - edit: {id: cal.1961-01-02.x, unset: [conflict]}\n", encoding="utf-8")
+    errors, _ = patchcheck.check(store.Series(str(mini)), str(p))
+    assert "edit cal.1961-01-01.x: an edit may not set 'id' (id, aliases, conflict and _ fields change by " \
+           "./bib combine, ./bib resolve, or by hand)" in errors
+    assert any(x.startswith("edit cal.1961-01-02.x: an edit may not unset 'conflict'") for x in errors)
+    assert sum("may not set 'id'" in x for x in errors) == 1          # said once, not again from the dry run

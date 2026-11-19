@@ -269,6 +269,11 @@ def apply_patch(series, patch, source, report, dry=False):
         if not fn:
             report.add("error", "-", f"unknown op {kind!r}")
             continue
+        refused = op_problems(kind, body or {})
+        for eid, msg in refused:
+            report.add("error", eid, msg)
+        if refused:
+            continue
         fn(series, body or {}, source, report, touched)
         series.invalidate()
     pending, _addops.PENDING = _addops.PENDING, None
@@ -311,6 +316,31 @@ def lock(wait=True):
             fcntl.flock(f, fcntl.LOCK_UN)
         finally:
             f.close()
+
+
+BOOKKEEPING = ("id", "aliases", "conflict")   # and any key beginning "_": changed by combine, resolve or a hand edit
+
+
+def op_problems(kind, body):
+    """An op that would change an entry's bookkeeping, refused (here, by apply_patch, and by patchcheck): an edit that
+    sets or unsets `id`, `aliases`, `conflict` or a key beginning "_"; an add whose id is not of the list it names.
+    [(id, message)]."""
+    out = []
+    if kind == "edit":
+        eid = body.get("id") or "?"
+        for how in ("set", "unset"):
+            keys = body.get(how) or []
+            keys = list(keys) if isinstance(keys, (dict, list, tuple)) else [keys]
+            for k in keys:
+                if str(k) in BOOKKEEPING or str(k).startswith("_"):
+                    out.append((eid, f"an edit may not {how} {str(k)!r} (id, aliases, conflict and _ fields change "
+                                     "by ./bib combine, ./bib resolve, or by hand)"))
+    elif kind == "add":
+        e = body.get("entry") or {}
+        eid, key = str(e.get("id") or ""), body.get("list")
+        if eid and key and not eid.startswith(f"{key}."):
+            out.append((eid, f"add to list {key!r}: the id is not of that list (its ids begin {key}.)"))
+    return out
 
 
 def _locate(series, eid, report):
