@@ -49,6 +49,7 @@ STOP_WORKS = ("Made public", "See [[", "Check:", "Reply:", "The order:", "Biblio
 STOP_TC = ("See [[",)
 DEFERRED = os.path.join(store.ROOT, "inbox", "deferred.yaml")
 DRY = False                                   # set by merge.apply_patch: a dry run defers nothing
+PENDING = None                                # merge.apply_patch: the ops deferred, written only if no op errored
 
 
 def _text_starts(part, prefixes):
@@ -238,10 +239,22 @@ FNS = {"variant": variant, "follows": follows, "cite": cite, "primary": primary,
 
 
 def defer(op, source):
+    if PENDING is not None:                   # inside merge.apply_patch: written with the patch's sections, or not at all
+        PENDING.append({"from": source, "op": op})
+        return
+    defer_rows([{"from": source, "op": op}])
+
+
+DEFERRED_HEAD = ["Ops on entries not yet in the tree, kept until they land (tools/bib/addops.py, STYLE 7)."]
+
+
+def defer_rows(new):
+    """Rows {from, op} appended to inbox/deferred.yaml."""
+    if not new:
+        return
     rows = store.load_yaml(DEFERRED) if os.path.exists(DEFERRED) else None
-    rows = rows or []
-    rows.append({"from": source, "op": op})
-    store.dump_yaml(rows, DEFERRED, header=["Ops on entries not yet in the tree, kept until they land (tools/bib/addops.py, STYLE 7)."])
+    rows = (rows or []) + list(new)
+    store.dump_yaml(rows, DEFERRED, header=DEFERRED_HEAD)
 
 
 def make_op(kind):
@@ -284,19 +297,31 @@ def deferred_patch():
 
 
 def take_deferred(series):
-    """Split inbox/deferred.yaml into the ops now applicable and the rest; write the rest back."""
+    """The ops of inbox/deferred.yaml now applicable (their entries have landed). The file is not changed: each is
+    removed by drop_deferred once it has applied, so an op that fails, or a run that stops, loses none."""
     rows = deferred_patch()
     if not rows:
         return []
-    ready, keep = [], []
+    ready = []
     for r in rows:
         (kind, body), = r["op"].items()
-        (ready if series.get(body.get("id")) else keep).append(r)
-    if keep:
-        store.dump_yaml(keep, DEFERRED, header=["Ops on entries not yet in the tree, kept until they land (tools/bib/addops.py, STYLE 7)."])
-    elif os.path.exists(DEFERRED):
-        os.remove(DEFERRED)
+        if series.get(body.get("id")):
+            ready.append(r)
     return ready
+
+
+def drop_deferred(done):
+    """The rows applied, removed from inbox/deferred.yaml (each once, as read now); the file goes when it is empty."""
+    if not done or not os.path.exists(DEFERRED):
+        return
+    rows = store.load_yaml(DEFERRED) or []
+    for r in done:
+        if r in rows:
+            rows.remove(r)
+    if rows:
+        store.dump_yaml(rows, DEFERRED, header=DEFERRED_HEAD)
+    else:
+        os.remove(DEFERRED)
 
 
 def join_clean(series, source, save=True):

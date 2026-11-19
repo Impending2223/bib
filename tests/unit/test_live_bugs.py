@@ -4,6 +4,8 @@ import os
 import re
 import sys
 
+import pytest
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
 if REPO not in sys.path:
@@ -140,3 +142,139 @@ def test_cli_turns_a_data_error_into_exit_1(monkeypatch, capsys):
     monkeypatch.setattr(store, "Series", bad)
     assert cli.main(["status"]) == 1
     assert "lists/cal/196101.yaml:3: not valid YAML" in capsys.readouterr().err
+
+
+# ---------------------------------------------------------------- 5. merge safety
+
+def _mini(root):
+    """A series of one calendar month, three entries, in `root`."""
+    (root / "lists" / "cal").mkdir(parents=True)
+    (root / "series.yaml").write_text("lists:\n  - {key: cal, abbr: Cal.}\n", encoding="utf-8")
+    (root / "lists" / "cal" / "list.yaml").write_text(
+        "kind: calendar\nsections:\n  - {id: '196101', title: January 1961, file: 196101.yaml}\n", encoding="utf-8")
+    from tools.bib import store
+    store.dump_yaml({"list": "cal", "section": "196101", "entries": [
+        {"id": f"cal.1961-01-0{i}.x", "date": f"1961-01-0{i}", "c": f"Event {i}.", "n": f"Note {i}."}
+        for i in (1, 2, 3)]}, str(root / "lists" / "cal" / "196101.yaml"))
+
+
+@pytest.fixture
+def mini(tmp_path, monkeypatch):
+    from tools.bib import markup, store
+    for k in ("WORKS", "WORKS_FULL", "WORKS_ID"):
+        monkeypatch.setattr(markup, k, getattr(markup, k))
+    _mini(tmp_path)
+    monkeypatch.setattr(store, "ROOT", str(tmp_path))
+    return tmp_path
+
+
+def _entry(series, eid):
+    return series.get(eid)[2]
+
+
+def test_save_section_merges_a_change_made_on_disk(mini):
+    from tools.bib import store
+    mine = store.Series(str(mini))
+    other = store.Series(str(mini))                    # another hand, at work on the same month
+    lst, sec, e = other.get("cal.1961-01-02.x")
+    sec.entries[1] = dict(e, n="Note 2, theirs.")
+    other.save_section(sec)
+    lst, sec, e = mine.get("cal.1961-01-01.x")
+    sec.entries[0] = dict(e, n="Note 1, ours.")
+    mine.save_section(sec)                              # must not overwrite theirs
+    now = store.Series(str(mini))
+    assert _entry(now, "cal.1961-01-01.x")["n"] == "Note 1, ours."
+    assert _entry(now, "cal.1961-01-02.x")["n"] == "Note 2, theirs."
+    assert not any(e.get("conflict") for _, e in now.lists["cal"].entries())
+    # both change one field: a conflict recorded, neither text lost
+    lst, sec, e = other.get("cal.1961-01-03.x")
+    sec.entries[2] = dict(e, c="Event 3, theirs.")
+    other.save_section(sec)
+    lst, sec, e = mine.get("cal.1961-01-03.x")
+    sec.entries[2] = dict(e, c="Event 3, ours.")
+    mine.save_section(sec)
+    e3 = _entry(store.Series(str(mini)), "cal.1961-01-03.x")
+    assert e3["c"] == "Event 3, ours."
+    assert e3["conflict"] == [{"field": "c", "ours": "Event 3, ours.", "theirs": "Event 3, theirs.",
+                               "base": "Event 3.", "from": "disk"}]
+    assert _entry(store.Series(str(mini)), "cal.1961-01-02.x")["n"] == "Note 2, theirs."
+
+
+def test_save_section_refuses_a_changed_file_that_does_not_load(mini):
+    from tools.bib import store
+    mine = store.Series(str(mini))
+    path = mini / "lists" / "cal" / "196101.yaml"
+    path.write_text(path.read_text(encoding="utf-8") + "<<<<<<< ours\n", encoding="utf-8")
+    lst, sec, e = mine.get("cal.1961-01-01.x")
+    sec.entries[0] = dict(e, n="Note 1, ours.")
+    with pytest.raises(store.DataError, match="changed on disk during this run"):
+        mine.save_section(sec)
+    assert path.read_text(encoding="utf-8").endswith("<<<<<<< ours\n")
+
+
+def test_apply_patch_is_all_or_nothing(mini, monkeypatch):
+    from tools.bib import addops, merge, store
+    monkeypatch.setattr(addops, "DEFERRED", str(mini / "inbox" / "deferred.yaml"))
+    path = mini / "lists" / "cal" / "196101.yaml"
+    before = path.read_bytes()
+    s = store.Series(str(mini))
+    rep = merge.Report()
+    merge.apply_patch(s, {"ops": [{"tag": {"id": "cal.1961-01-01.x", "add": ["topic:x"]}},
+                                  {"edit": {"id": "cal.1961-01-09.nothing", "set": {"c": "x"}}}]}, "t", rep)
+    assert rep.errors == 1
+    assert path.read_bytes() == before                  # the good op not written either
+    rep = merge.Report()
+    merge.apply_patch(store.Series(str(mini)), {"ops": [{"tag": {"id": "cal.1961-01-01.x", "add": ["topic:x"]}}]},
+                      "t", rep)
+    assert rep.errors == 0 and "topic:x" in path.read_text(encoding="utf-8")
+
+
+def test_merge_with_a_failed_op_exits_1_and_keeps_the_patch(mini, monkeypatch, capsys):
+    import functools
+    from tools.bib import cli, store
+    monkeypatch.setattr(store, "Series", functools.partial(store.Series, str(mini)))
+    patch = mini / "inbox" / "2026-11-19-t.yaml"
+    patch.parent.mkdir()
+    patch.write_text("patch: t\nops:\n  - tag: {id: cal.1961-01-01.x, add: [topic:x]}\n"
+                     "  - edit: {id: cal.1961-01-09.nothing, set: {c: x}}\n", encoding="utf-8")
+    before = (mini / "lists" / "cal" / "196101.yaml").read_bytes()
+    assert cli.main(["merge", "--archive", str(patch)]) == 1
+    assert "1 ops failed: nothing written" in capsys.readouterr().out
+    assert patch.exists() and (mini / "lists" / "cal" / "196101.yaml").read_bytes() == before
+
+
+def test_deferred_ops_leave_the_file_only_once_applied(tmp_path, monkeypatch):
+    from tools.bib import addops, store
+    monkeypatch.setattr(addops, "DEFERRED", str(tmp_path / "deferred.yaml"))
+    rows = [{"from": "p1", "op": {"to-check": {"id": "cal.a", "add": ["[[w.x]]"]}}},
+            {"from": "p2", "op": {"names": {"id": "cal.b", "add": ["Rusk"]}}}]
+    addops.defer_rows(rows)
+    before = (tmp_path / "deferred.yaml").read_bytes()
+
+    class S:
+        def get(self, eid):
+            return ("l", "s", {"id": eid}) if eid == "cal.a" else None
+    ready = addops.take_deferred(S())
+    assert ready == rows[:1]
+    assert (tmp_path / "deferred.yaml").read_bytes() == before     # nothing removed yet
+    addops.drop_deferred(ready)
+    assert store.load_yaml(str(tmp_path / "deferred.yaml")) == rows[1:]
+    addops.drop_deferred(rows[1:])
+    assert not (tmp_path / "deferred.yaml").exists()
+
+
+def test_merge_lock_one_at_a_time(tmp_path, monkeypatch):
+    import fcntl
+    import threading
+    from tools.bib import merge, store
+    monkeypatch.setattr(store, "ROOT", str(tmp_path))
+    with merge.lock() as waited:
+        assert waited is False
+        with pytest.raises(store.DataError, match="another merge is running"):
+            with merge.lock(wait=False):
+                pass
+    holder = open(tmp_path / ".cache" / "merge.lock", "a+")
+    fcntl.flock(holder, fcntl.LOCK_EX)
+    threading.Timer(0.3, lambda: (fcntl.flock(holder, fcntl.LOCK_UN), holder.close())).start()
+    with merge.lock() as waited:
+        assert waited is True

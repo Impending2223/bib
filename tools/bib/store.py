@@ -146,6 +146,16 @@ def dump_yaml(obj, path, header=None):
     with open(tmp, "w", encoding="utf-8") as f:
         f.write(text)
     os.replace(tmp, path)
+    return text
+
+
+def file_digest(path):
+    """sha1 of a file's bytes, or None where there is no file."""
+    try:
+        with open(path, "rb") as f:
+            return hashlib.sha1(f.read()).hexdigest()
+    except OSError:
+        return None
 
 
 # ---------------------------------------------------------------- ids and keys
@@ -349,6 +359,8 @@ class Series:
                     fp = os.path.join(root, "lists", key, s.file)
                     doc = load_yaml(fp) or {}
                     s.entries = [normalize_entry(e) for e in (doc.get("entries") or [])]
+                    # the file as loaded (its digest, its parse): save_section merges a change made on disk meanwhile
+                    s._disk = (file_digest(fp), (_PARSED.get(fp) or (None, None))[1])
             self.lists[key] = lst
         self._index = None
         from . import works            # each listing that points to a card: its citation and notes, in memory
@@ -385,12 +397,46 @@ class Series:
 
     # writing
     def save_section(self, sec):
+        """The section written back. If its file changed on disk since this run loaded it (another merge, an agent's
+        edit), the change is not overwritten: the file is merged entry by entry (merge.merge_entry_lists; base the file
+        as loaded, ours the section in memory, theirs the file now), disagreements recorded as conflicts in the
+        entries, and the merged entries become the section's. A file that changed and does not load now is refused."""
         lst = sec.lst
         path = os.path.join(self.root, "lists", lst.key, sec.file)
         head = [f"{lst.abbr} {sec.code or ''} {sec.title}".replace("  ", " ").strip(),
                 "Entries in display order. See CLAUDE.md for the fields. Run ./bib check after editing."]
-        dump_yaml({"list": lst.key, "section": sec.code or sec.id,
-                   "entries": [normalize_entry(stored_form(e)) for e in sec.entries]}, path, header=head)
+        entries = [normalize_entry(stored_form(e)) for e in sec.entries]
+        loaded = getattr(sec, "_disk", None)
+        if loaded is not None:
+            now = file_digest(path)
+            if now is not None and now != loaded[0]:
+                entries = self._merge_disk(sec, path, loaded, entries)
+        doc = {"list": lst.key, "section": sec.code or sec.id, "entries": entries}
+        text = dump_yaml(doc, path, header=head)
+        import pickle
+        sec._disk = (hashlib.sha1(text.encode("utf-8")).hexdigest(), pickle.dumps(doc, protocol=pickle.HIGHEST_PROTOCOL))
+
+    def _merge_disk(self, sec, path, loaded, ours):
+        import pickle
+        import sys
+        from .merge import merge_entry_lists
+        rel = os.path.relpath(path, self.root)
+        try:
+            theirs_doc = _parse_yaml(path) or {}
+        except DataError as x:
+            raise DataError(f"{rel} changed on disk during this run and does not load now; not overwritten "
+                            f"(this run's changes to it are not saved): {x}")
+        if loaded[1] is None:
+            raise DataError(f"{rel} changed on disk during this run and its loaded form is not known; not overwritten")
+        base = [normalize_entry(e) for e in (pickle.loads(loaded[1]) or {}).get("entries") or []]
+        theirs = [normalize_entry(e) for e in theirs_doc.get("entries") or []]
+        merged = merge_entry_lists(base, ours, theirs, "disk")
+        n = sum(any(c.get("from") == "disk" for c in e.get("conflict") or []) for e in merged)
+        print(f"{rel}: changed on disk during this run; merged entry by entry, nothing overwritten"
+              + (f" ({n} entries with a conflict: ./bib conflicts)" if n else ""), file=sys.stderr)
+        sec.entries = merged
+        self.invalidate()
+        return merged
 
     def save_list_meta(self, lst):
         d = dict(lst.data)
