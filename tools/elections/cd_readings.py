@@ -36,7 +36,7 @@ import os
 
 import yaml
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT = os.path.abspath(os.environ.get("BIB_ROOT") or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))   # as tools/bib/store.py
 DIR = os.path.join(ROOT, "elections", "readings", "districts")
 HOUSE = os.path.join(ROOT, "elections", "readings", "districts-house")
 FIELDS = ("t", "D", "R", "p")
