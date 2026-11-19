@@ -40,21 +40,23 @@ class DataError(Exception):
     file that does not load (patchcheck, patchaudit) catches it; cli.main turns it into its message and exit 1."""
 
 
-_PARSED = {}                             # path -> (mtime, size, pickled data): each file parsed once a run
-CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by path, mtime and size (git-ignored)
+_PARSED = {}                             # path -> (sha1 of the file's bytes, pickled data): each file parsed once a run
+CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by path and the bytes' sha1 (git-ignored)
 
 
 def load_yaml(path):
     """A YAML file's data, parsed once: the parse is kept in memory for the run and on disk (.cache/yaml) for later
-    runs, keyed by the file's path, modification time and size. Each caller gets its own copy (callers change
-    what they load)."""
+    runs, keyed by the file's path and a sha1 of its bytes (not its modification time and size, which a rewrite in
+    the same tick can leave unchanged; hashing all the data's YAML costs about 0.1-0.2 s a run). Each caller gets its
+    own copy (callers change what they load). _PARSED[path] holds the digest and parse of the bytes last read."""
     import pickle
     try:
-        st = os.stat(path)
+        with open(path, "rb") as f:
+            raw = f.read()
     except OSError:
-        st = None
-    if st is not None:
-        sig = (st.st_mtime_ns, st.st_size)
+        raw = None
+    if raw is not None:
+        sig = hashlib.sha1(raw).hexdigest()
         hit = _PARSED.get(path)
         if hit and hit[0] == sig:
             return pickle.loads(hit[1])
@@ -65,10 +67,10 @@ def load_yaml(path):
             if dsig == sig:
                 _PARSED[path] = (sig, blob)
                 return pickle.loads(blob)
-        except (OSError, EOFError, pickle.UnpicklingError, ValueError):
+        except (OSError, EOFError, pickle.UnpicklingError, ValueError, TypeError):
             pass
-    data = _parse_yaml(path)
-    if st is not None:
+    data = _parse_yaml(path, None if raw is None else raw.decode("utf-8"))
+    if raw is not None:
         blob = pickle.dumps(data, protocol=pickle.HIGHEST_PROTOCOL)
         _PARSED[path] = (sig, blob)
         try:
@@ -82,9 +84,10 @@ def load_yaml(path):
     return data
 
 
-def _parse_yaml(path):
-    with open(path, encoding="utf-8") as f:
-        text = f.read()
+def _parse_yaml(path, text=None):
+    if text is None:
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
     if "\n<<<<<<< " in "\n" + text:
         raise DataError(f"{os.path.relpath(path, ROOT)}: git conflict markers. Run ./bib setup once so git "
                         "merges these files entry by entry, or settle the markers by hand.")
@@ -149,14 +152,45 @@ def _emit(v, indent):
 
 
 def dump_yaml(obj, path, header=None):
+    """obj written to path as YAML, atomically: through a temporary file of this process's own in the same directory
+    (two writers never share one), then os.replace. The in-memory parse (load_yaml) becomes obj, keyed by the digest
+    of what was written. Returns the text."""
+    import pickle
     text = _emit(obj, 0) + "\n"
     if header:
         text = "".join("# " + h + "\n" for h in header) + text
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        f.write(text)
-    os.replace(tmp, path)
+    atomic_write(path, text)
+    if _plain(obj):                     # what was written loads back as obj (the emitter's round trip)
+        _PARSED[path] = (hashlib.sha1(text.encode("utf-8")).hexdigest(), pickle.dumps(obj, protocol=pickle.HIGHEST_PROTOCOL))
+    else:                               # a date, a tuple: the next load parses the file
+        _PARSED.pop(path, None)
     return text
+
+
+def _plain(v):
+    """Made only of what YAML gives back as itself: str, int, float, bool, None, lists and mappings of those."""
+    if isinstance(v, dict):
+        return all(_plain(k) and _plain(x) for k, x in v.items())
+    if isinstance(v, list):
+        return all(_plain(x) for x in v)
+    return v is None or isinstance(v, (str, int, float))
+
+
+def atomic_write(path, text):
+    """text written to path whole or not at all: a temporary file named for this process (and thread) beside it,
+    then os.replace; the temporary file removed if the write fails."""
+    import threading
+    tmp = f"{path}.{os.getpid()}.{threading.get_ident()}.tmp"
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(text)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        raise
 
 
 def file_digest(path):
@@ -370,7 +404,7 @@ class Series:
                     doc = load_yaml(fp) or {}
                     s.entries = [normalize_entry(e) for e in (doc.get("entries") or [])]
                     # the file as loaded (its digest, its parse): save_section merges a change made on disk meanwhile
-                    s._disk = (file_digest(fp), (_PARSED.get(fp) or (None, None))[1])
+                    s._disk = _PARSED.get(fp)
             self.lists[key] = lst
         self._index = None
         from . import works            # each listing that points to a card: its citation and notes, in memory

@@ -356,3 +356,79 @@ def test_emitter_unchanged_for_ordinary_entries(tmp_path):
         "    date: '1961-04-15'\n    thread: cuba\n    also: [space]\n    c: '*Title*: what happened.'\n"
         "    n: 'It''s [[w.x]], 12. To check: x.'\n    src:\n      c: abcd1234\n      rows:\n        - 'w.x 12: A'\n"
         "    tags: [name:kennedy, state:fla]\n")
+
+
+# ---------------------------------------------------------------- 8. temp files, writes, caches
+
+def test_dump_yaml_writes_through_a_temp_file_of_its_own(tmp_path, monkeypatch):
+    from tools.bib import store
+    p = tmp_path / "x.yaml"
+    seen = []
+    real = os.replace
+    monkeypatch.setattr(os, "replace", lambda a, b: (seen.append(a), real(a, b))[1])
+    store.dump_yaml({"a": 1}, str(p))
+    assert seen and seen[0] != str(p) + ".tmp" and f".{os.getpid()}." in seen[0]
+    assert os.path.dirname(seen[0]) == str(tmp_path)
+    assert p.read_text(encoding="utf-8") == "a: 1\n" and os.listdir(tmp_path) == ["x.yaml"]
+
+
+def test_atomic_write_leaves_the_file_whole_on_failure(tmp_path):
+    from tools.bib import store
+    p = tmp_path / "x.yaml"
+    p.write_text("old\n", encoding="utf-8")
+    with pytest.raises(TypeError):
+        store.atomic_write(str(p), 12)               # not text: the write fails
+    assert p.read_text(encoding="utf-8") == "old\n" and os.listdir(tmp_path) == ["x.yaml"]
+
+
+def test_smart_write_is_atomic(tmp_path, monkeypatch):
+    from tools.bib import smart, store
+    calls = []
+    real = store.atomic_write
+    monkeypatch.setattr(store, "atomic_write", lambda path, text: (calls.append(path), real(path, text))[1])
+    p = tmp_path / "x.html"
+    smart.write(str(p), "<p>It's \"so\".</p>")
+    assert calls == [str(p)] and p.read_text(encoding="utf-8") == "<p>It’s “so”.</p>"
+
+
+def test_subentries_cache_is_keyed_by_the_list_not_its_address():
+    import gc
+    from tools.bib import subentries
+
+    class L:
+        def __init__(self, es):
+            self.es = es
+
+        def entries(self):
+            return [(None, e) for e in self.es]
+    for k in range(50):                              # a new list at a freed list's address gets its own children
+        lst = L([{"id": f"a{k}", "part_of": f"p{k}"}])
+        assert subentries.children(lst) == {f"p{k}": [{"id": f"a{k}", "part_of": f"p{k}"}]}
+        del lst
+        gc.collect()
+
+
+def test_load_yaml_sees_a_rewrite_of_the_same_size_and_time(tmp_path):
+    from tools.bib import store
+    p = tmp_path / "x.yaml"
+    p.write_text("a: 1\n", encoding="utf-8")
+    st = os.stat(p)
+    assert store.load_yaml(str(p)) == {"a": 1}
+    p.write_text("a: 2\n", encoding="utf-8")
+    os.utime(p, ns=(st.st_atime_ns, st.st_mtime_ns))  # same size, same modification time
+    assert store.load_yaml(str(p)) == {"a": 2}
+
+
+def test_dump_yaml_refreshes_the_parse(tmp_path, monkeypatch):
+    from tools.bib import store
+    p = str(tmp_path / "x.yaml")
+    store.dump_yaml({"entries": [{"id": "x", "n": "One."}]}, p)
+
+    def no_parse(*a, **k):
+        raise AssertionError("parsed again")
+    monkeypatch.setattr(store, "_parse_yaml", no_parse)
+    assert store.load_yaml(p) == {"entries": [{"id": "x", "n": "One."}]}
+    import datetime
+    monkeypatch.undo()
+    store.dump_yaml({"d": datetime.date(1961, 1, 20)}, p)   # not plain: the next load reads the file
+    assert store.load_yaml(p) == {"d": "1961-01-20"}
