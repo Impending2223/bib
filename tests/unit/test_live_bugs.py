@@ -113,6 +113,28 @@ def test_vis_pass_that_fails_is_counted(monkeypatch):
     faults.reset()
 
 
+def test_build_with_a_fault_exits_1_after_writing_the_rest(monkeypatch, capsys):
+    import argparse
+    from tools.bib import build, cli, faults, vis, vispage
+    faults.reset()
+    written = []
+
+    def run(series, which):
+        written.append("a.html")
+        faults.record("names: Doe, John", "KeyError('x')")
+        written.append("b.html")
+        return iter(())
+    monkeypatch.setattr(vis, "keep", lambda series: None)
+    monkeypatch.setattr(build, "run", run)
+    monkeypatch.setitem(vispage.STATS, "entries", 0)
+    assert cli.cmd_build(None, argparse.Namespace(force=True, which=None)) == 1
+    assert written == ["a.html", "b.html"]
+    assert "1 build fault: content left out of the pages\n  names: Doe, John: KeyError('x')" in capsys.readouterr().err
+    faults.reset()
+    monkeypatch.setattr(build, "run", lambda series, which: iter(()))
+    assert not cli.cmd_build(None, argparse.Namespace(force=True, which=None))   # no fault: exit 0
+
+
 # ---------------------------------------------------------------- 4. DataError is an ordinary error
 
 def test_data_error_is_an_exception_not_an_exit():

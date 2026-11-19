@@ -1,7 +1,7 @@
 """Faults the build survives: a person's entry, a month of committee meetings, or the visibility pass that raised an
 error and was left out so the other pages could still be written. Each is counted and printed (stderr) where it
-happens; `./bib build` names them all at its end and exits 1 when any occurred (cli.cmd_build), so CI does not deploy a
-site with content silently missing.
+happens; `./bib build` writes the other pages, names them all at its end and exits 1 when any occurred (cli.cmd_build),
+so CI does not deploy a site with content silently missing.
 
     record(where, message)    a fault: printed now, kept for the report
     FAULTS                    [(where, message)] this run

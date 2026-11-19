@@ -275,8 +275,9 @@ def cmd_build(series, a):
     if vispage.STATS["entries"]:
         print(vispage.report())
     from . import faults
-    if faults.FAULTS:                    # content left out of a page (faults.py): said, not yet fatal (being measured)
+    if faults.FAULTS:                    # content left out of a page (faults.py): the other pages are written; exit 1
         print(faults.report(), file=sys.stderr)
+        return 1
 
 
 def cmd_hearings(series, a):
