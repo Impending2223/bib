@@ -223,6 +223,24 @@ def file_digest(path):
 
 # ---------------------------------------------------------------- ids and keys
 
+def memo(fn):
+    """fn, a pure function of its arguments, computed once for each (code review C, PERF 8: fold, slug, a note's
+    sentences are asked for millions of times on some tens of thousands of strings). An argument that cannot be a key
+    (a list) is computed afresh, as before. fn must return what no caller can change (a str, a tuple), or its caller
+    must copy it."""
+    cached = functools.lru_cache(maxsize=None)(fn)
+
+    @functools.wraps(fn)
+    def call(*a, **k):
+        try:
+            return cached(*a, **k)
+        except TypeError:
+            return fn(*a, **k)
+    call.cache_clear = cached.cache_clear
+    return call
+
+
+@memo
 def slug(text, maxwords=6):
     t = unicodedata.normalize("NFKD", text.replace("Đ", "D").replace("đ", "d"))   # Đ has no decomposition
     t = "".join(ch for ch in t if not unicodedata.combining(ch))
@@ -231,6 +249,7 @@ def slug(text, maxwords=6):
     return "-".join(words[:maxwords])
 
 
+@memo
 def fold(text):
     """Comparison form of a title or name: no accents, case, or punctuation."""
     return " ".join(slug(text, 999).split("-"))

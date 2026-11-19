@@ -46,3 +46,54 @@ def test_name_keys_cached_and_immutable():
     k = refs.Refs.name_keys("Kennedy, Robert F.; Mao Zedong")
     assert k == (("kennedy robert", "Kennedy, Robert F."), ("mao zedong", "Mao Zedong"))
     assert refs.Refs.name_keys("Kennedy, Robert F.; Mao Zedong") is k and isinstance(k, tuple)
+
+
+# ---------------------------------------------------------------- PERF 8: pure string functions computed once
+
+def test_memo_falls_back_for_unhashable_arguments():
+    from bib import store
+    seen = []
+
+    @store.memo
+    def f(x):
+        seen.append(x)
+        return len(x)
+    assert (f("ab"), f("ab"), f(["a"]), f(["a"])) == (2, 2, 1, 1)
+    assert seen == ["ab", ["a"], ["a"]]                           # the string once; the list each time
+
+
+def test_cached_splits_hand_out_new_lists():
+    from bib import claims, notemerge
+    n = "Fact. [[w.x]], 12. To check: [[w.y]]. Names: Heller."
+    a = notemerge.sentences(n)
+    a.append("changed")
+    assert notemerge.sentences(n) == ["Fact.", "[[w.x]], 12.", "To check: [[w.y]].", "Names: Heller."]
+    src, other = claims.note_parts(n)
+    src.append("changed")
+    other.clear()
+    assert claims.note_parts(n) == (["Fact", "[[w.x]], 12"], ["To check: [[w.y]].", "Names: Heller."])
+    u = claims.units("One. Two; three.")
+    u.pop()
+    assert claims.units("One. Two; three.") == ["One.", "Two;", "three."]
+
+
+def test_names_resolved_kept_per_line_and_tags():
+    from bib.build import Linker
+    calls = []
+
+    class L(Linker):
+        def __init__(self):
+            pass
+
+        def who_named(self, t, tags=(), taken=()):
+            calls.append((t, frozenset(tags)))
+            return (None, "#" + t) if t in tags else None
+    lk = L()
+    first = lk.names_resolved(["a", "b"], ["a"])
+    first.append("changed")
+    assert lk.names_resolved(["a", "b"], {"a"}) == [(None, "#a"), None]   # the same tags as a set: the same key
+    n = len(calls)
+    lk.names_resolved(["a", "b"], ("a",))
+    assert len(calls) == n
+    lk.names_resolved(["a", "b"], ["b"])
+    assert len(calls) > n
