@@ -628,6 +628,23 @@ entries:
       - 1965-02-03T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-03.china-leadership-8
+    when: Feb. 3
+    date: '1965-02-03'
+    thread: china-leadership
+    also: [cuba]
+    c: Deng Xiaoping 邓小平, with Peng Zhen 彭真 and others, welcomes at the airport the delegation of the Cuban United Party of the Socialist Revolution under Guevara 格瓦拉, member of its national leading committee and secretary of its Secretariat 书记处.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 3, 1965). The words: 中午 (III, 1845). Names: Deng Xiaoping, Peng Zhen, Guevara.'
+    src:
+      c: 6435c286
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1845: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:guevara-ernesto]
+    time_range:
+      - 1965-02-03T04:00Z
+      - 1965-02-03T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-04.farm
     when: Feb. 4
     date: '1965-02-04'
@@ -912,13 +929,14 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: Zhou, with Liu Shaoqi, Deng Xiaoping and others, meets the delegation of the Cuban United Party of the Socialist Revolution under Ernesto Guevara, Secretariat member.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 4, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 4, 1965; evening; Zhou, with Liu Shaoqi and Deng Xiaoping, meets the delegation and gives a banquet for it); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Feb. 4, 6, 7 and 8, 1965; Liu, with Deng Xiaoping and others, holds talks with the Cuban United Party of the Socialist Revolution delegation, made up of Ernesto Guevara, Emilio Aragonés Navarro and Osmany Cienfuegos Gorriarán, members of the National Directorate). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Guevara.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 4, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 4, 1965; evening; Zhou, with Liu Shaoqi and Deng Xiaoping, meets the delegation and gives a banquet for it); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Feb. 4, 6, 7 and 8, 1965; Liu, with Deng Xiaoping and others, holds talks with the Cuban United Party of the Socialist Revolution delegation, made up of Ernesto Guevara, Emilio Aragonés Navarro and Osmany Cienfuegos Gorriarán, members of the National Directorate); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 4, 6, 7 and 8, 1965; Deng with Liu Shaoqi and others in talks with Guevara''s party). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Guevara.'
     src:
       c: 8ca52437
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 706: ?'
         - 'w.zhou-enlai-waijiao-huodong 435: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1845: A'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:guevara-ernesto, polity:prc, polity:cuba, vis:only:prc+cuba]
   - id: cal.1965-02-04.china-leadership-3
     when: Feb. 4
@@ -2615,6 +2633,18 @@ entries:
     c: 'Liu Shaoqi comments on a telegram of Li Fanwu, secretary of the Heilongjiang provincial committee, on preparing the forest reserve: "Let Comrade Yu Qiuli note that forest industry and forest resources are to be a heading in the long-term plan; do not forget the work of enlarging forest resources. Greening the whole country too is to be done by rousing the masses widely."'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614–615 (Feb. 9, 1965). Made public: 1996. To check: Li Fanwu''s telegram and Liu''s comment (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614–615). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-02-09.china-leadership-6
+    when: Feb. 9
+    date: '1965-02-09'
+    thread: china-leadership
+    also: [cuba]
+    c: Deng Xiaoping 邓小平 sees off at the airport Guevara's 格瓦拉 party, leaving for a visit to Shanghai 上海.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 9, 1965). Names: Deng Xiaoping, Guevara.'
+    src:
+      c: 4c73ee8a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1845: all'
+    tags: [polity:prc, name:deng-xiaoping, name:guevara-ernesto]
   - id: cal.1965-02-10.vietnam
     when: Feb. 10–11
     date: '1965-02-10'
@@ -2920,7 +2950,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou, with Mao Zedong, Liu Shaoqi, Deng Xiaoping and other Party and state leaders, takes part in the demonstration of 1,500,000 in the capital supporting Vietnam's struggle against the United States.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant); [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao and his senior colleagues at the anti-American rally of 1,500,000 in Beijing, Feb. 10); [[w.yang-shangkun-riji]], II, 508 (Feb. 9, 1965; Tiananmen 天安门, 10 a.m. to before noon: the anti-American demonstration, Yang with Mao and the Standing Committee; Peng Zhen 彭真, Liu Ningyi 刘宁一, Hoàng Bắc 黄北, the DRV embassy''s chargé (the editors'' note), and the South Vietnamese representative speak; Zhou not named; the words: 上午10时，随主席等常委同志，去天安门参加反美示威，12时前结束). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant); [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao and his senior colleagues at the anti-American rally of 1,500,000 in Beijing, Feb. 10); [[w.yang-shangkun-riji]], II, 508 (Feb. 9, 1965; Tiananmen 天安门, 10 a.m. to before noon: the anti-American demonstration, Yang with Mao and the Standing Committee; Peng Zhen 彭真, Liu Ningyi 刘宁一, Hoàng Bắc 黄北, the DRV embassy''s chargé (the editors'' note), and the South Vietnamese representative speak; Zhou not named; the words: 上午10时，随主席等常委同志，去天安门参加反美示威，12时前结束); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 10, 1965; morning, 上午; Deng with Mao, Liu Shaoqi, Zhou Enlai and others at the rally of 1.5 million of the capital''s people in Tiananmen Square against American armed aggression against the DRV). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: fd70939f
       rows:
@@ -2928,6 +2958,7 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 913: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 371: A'
         - 'w.yang-shangkun-riji II, 508: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1845: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping]
     variants:
       - unit: A
@@ -3045,7 +3076,7 @@ entries:
     thread: soviet-union
     also: [china, vietnam]
     c: 'Peking. Kosygin, on his way home from Hanoi, with Mao and Zhou Enlai: let the two parties stop their polemics and act together for Vietnam. Mao refuses: the debate will go on for nine thousand years.'
-    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 7–8 (Feb. 11, 1965; Mao, Liu and Zhou receive Kosygin; the points debated; Mao on objective law); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 11, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Kosygin, chairman of the Soviet Council of Ministers, and the Soviet delegation he heads); [[w.lengxi-shinian-lunzhan-1956-1966]], 913–921 (Mao and Kosygin; Mao on the polemic: 25 years, then 10,000; the "dogmatist" label; the Mar. 1 meeting "we favor your holding it, but we shall not go"; Albania the key; Khrushchev, "invite him to Peking"; unity in ten to fifteen years or earlier, perhaps with the imperialists'' help; the talk the morning after the rally; no agreement); [[w.macfarquhar-origins-of-the-cultural]], III, 375 (Kosygin''s overtures in Beijing, February 1965, bring no revival of cordiality); [[w.yang-shangkun-riji]], II, 509 (Feb. 11, 1965; Mao and the other members of the Standing Committee receive Kosygin and his party that morning; the words: 主席等常委同志今天上午接见了柯西金等一行人员). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107); [[w.griffith-sino-soviet-relations-1964]], 74–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 375 n.181). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
+    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 7–8 (Feb. 11, 1965; Mao, Liu and Zhou receive Kosygin; the points debated; Mao on objective law); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 11, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Kosygin, chairman of the Soviet Council of Ministers, and the Soviet delegation he heads); [[w.lengxi-shinian-lunzhan-1956-1966]], 913–921 (Mao and Kosygin; Mao on the polemic: 25 years, then 10,000; the "dogmatist" label; the Mar. 1 meeting "we favor your holding it, but we shall not go"; Albania the key; Khrushchev, "invite him to Peking"; unity in ten to fifteen years or earlier, perhaps with the imperialists'' help; the talk the morning after the rally; no agreement); [[w.macfarquhar-origins-of-the-cultural]], III, 375 (Kosygin''s overtures in Beijing, February 1965, bring no revival of cordiality); [[w.yang-shangkun-riji]], II, 509 (Feb. 11, 1965; Mao and the other members of the Standing Committee receive Kosygin and his party that morning; the words: 主席等常委同志今天上午接见了柯西金等一行人员); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 11, 1965; Deng with Mao, Liu Shaoqi and Zhou Enlai meets the Soviet delegation under Kosygin). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107); [[w.griffith-sino-soviet-relations-1964]], 74–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 375 n.181). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
     src:
       c: d21a1177
       rows:
@@ -3062,6 +3093,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 375: A, B, C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 375 n.181: A, B, C'
         - 'w.yang-shangkun-riji II, 509: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1845: ?'
     tags: [name:kosygin-aleksei, name:mao-zedong, name:zhou-enlai]
     time_range:
       - 1965-02-11T01:00Z
@@ -3456,6 +3488,23 @@ entries:
         - 'w.yang-shangkun-riji II, 509: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-11.china-leadership-7
+    when: Feb. 11
+    date: '1965-02-11'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平, with Kang Sheng 康生 and Liu Ningyi 刘宁一, holds the first talk with the delegation of the Moroccan Communist Party under its first secretary Ali Yata 阿里·亚塔. Deng: the Chinese party''s two basic experiences are building socialism on self-reliance and fully rousing the people; in the first years of the state the Chinese made the error of dogmatism, copying others'' experience, and looking to the Soviet Union for lack of knowledge; part of the Soviet experience was rightly learned, part wrongly; self-reliance does not mean no contact abroad but relying chiefly on oneself; in hard times the leadership told the people the difficulties and its own errors and called on their wisdom; the mass line is the party''s and the country''s basic tradition.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1845–1846 (Feb. 11, 1965). The words: 下午 (III, 1845–1846). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng.'
+    src:
+      c: d782f7ae
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1845–1846: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1965-02-11T04:00Z
+      - 1965-02-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-12.legislatures-ia
     when: Feb. 12
     date: '1965-02-12'
@@ -3622,6 +3671,23 @@ entries:
       - 1965-02-12T11:00Z
       - 1965-02-12T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-12.china-leadership-5
+    when: Feb. 12
+    date: '1965-02-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平, with Kang Sheng 康生 and Liu Ningyi 刘宁一, holds the second talk with the Moroccan Communist Party delegation. On national liberation: it is part of the world proletarian revolution and the direct ally of the proletariat; the third world of Asia, Africa and Latin America is the main force weakening imperialism; China as a socialist state will support all anti-imperialist struggles and preach self-reliance, so that imperialism loses its objects of exploitation; socialism in the end abolishes exploitation, and state management of enterprises alone is not socialism, for it exists in the United States, Germany and France.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1846–1847 (Feb. 12, 1965). The words: 下午 (III, 1846–1847). Made public: 2009 (the nianpu). See [[cal.1965-02-11.china-leadership-7]]. Names: Deng Xiaoping, Kang Sheng.'
+    src:
+      c: 7038980b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1846–1847: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1965-02-12T04:00Z
+      - 1965-02-12T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1965-02-13.vietnam
     when: Feb. 13
@@ -3918,7 +3984,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at a Politburo meeting, which hears Li Xiannian on the domestic market, Li Fuchun on the national economic plan, Bo Yibo on economic construction and Luo Ruiqing on military-industrial construction.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 14, 1965); [[w.yang-shangkun-riji]], II, 509 (Feb. 14, 1965; the Politburo, 3:30 to 6 p.m., hears reports; Liu not named; the words: 下午3时半到6时，政治局开会，汇报情况). Made public: 1996. Names: Liu Shaoqi, Li Xiannian, Li Fuchun, Bo Yibo, Luo Ruiqing.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 14, 1965); [[w.yang-shangkun-riji]], II, 509 (Feb. 14, 1965; the Politburo, 3:30 to 6 p.m., hears reports; Liu not named; the words: 下午3时半到6时，政治局开会，汇报情况); [[w.deng-xiaoping-nianpu-1904]], III, 1847 (Feb. 14, 1965; Deng at the Politburo meeting, which hears Li Xiannian on the domestic market, Li Fuchun on the national economic plan, Bo Yibo on economic construction and Luo Ruiqing on building the military industry). Made public: 1996. Names: Liu Shaoqi, Li Xiannian, Li Fuchun, Bo Yibo, Luo Ruiqing.'
     tags: [polity:prc, name:liu-shaoqi, name:li-xiannian, name:li-fuchun, name:bo-yibo, name:luo-ruiqing, vis:only:prc]
   - id: cal.1965-02-15.vietnam
     when: Feb. 15
@@ -4129,6 +4195,18 @@ entries:
       - 1965-02-15T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-15.china-leadership-7
+    when: Feb. 15
+    date: '1965-02-15'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平 approves Peng Zhen''s 彭真 "Some views on trade-union work" 《关于工会工作的几点意见》: (1) Ma Chungu 马纯古 and others, drawing on past experience and the ''four clean-ups'', are to study the labor insurance regulations with the units concerned and draft revisions; (2) the All-China Federation of Trade Unions 中华全国总工会 may send more leading comrades to live at grass-roots posts to gain new experience.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1847 (Feb. 15, 1965). The words: 批阅同意 (III, 1847). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    src:
+      c: ecbb8182
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1847: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1965-02-16.vietnam
     when: Feb. 16
     date: '1965-02-16'
@@ -5243,6 +5321,23 @@ entries:
       - 1965-02-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-18.china-leadership-9
+    when: Feb. 18
+    date: '1965-02-18'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平, with Peng Zhen 彭真, Li Xiannian 李先念, Li Fuchun, Bo Yibo 薄一波 and others, discusses the draft Central Committee 中央 and State Council "Decision on the system for building the Southwest third front" 《关于西南三线建设体制问题的决定》.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1847 (Feb. 18, 1965). The words: 上午 (III, 1847). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Li Xiannian, Bo Yibo.'
+    src:
+      c: 11ab4b9d
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1847: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, name:bo-yibo, vis:only:prc]
+    time_range:
+      - 1965-02-17T22:00Z
+      - 1965-02-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-19.succession
     when: Feb. 19
     date: '1965-02-19'
@@ -5910,6 +6005,17 @@ entries:
       - 1965-02-20T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-20.china-leadership-10
+    when: Feb. 20
+    date: '1965-02-20'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 approves the State Council Foreign Affairs Office's request to strengthen the force translating the *Selected Works of Mao Zedong 毛泽东* 《毛泽东选集》 into Japanese.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1847 (Feb. 20, 1965). The words: 批阅同意 (III, 1847). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: 47d7794c
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1847: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1965-02-21.states-and-cities
     when: Feb. 21
     date: '1965-02-21'
@@ -6080,6 +6186,18 @@ entries:
         - 'w.yang-shangkun-riji II, 513: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-21.china-leadership-7
+    when: Feb. 21
+    date: '1965-02-21'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平 approves the Central Propaganda Department''s report on publishing *Chiang Kai-shek''s Speeches* 蒋介石言论集 《蒋介石言论集》, and sends it to Mao, Liu, Zhou and Peng Zhen 彭真 for their reading. The report: on Mao''s instruction the Zhonghua Book Company and the People''s Publishing House are to edit and publish a complete collection of Chiang''s speeches, to give a full and systematic negative source.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1848 (Feb. 21, 1965). The words: 批阅同意 (III, 1848). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    src:
+      c: dbc13ade
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1848: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1965-02-22.vietnam
     when: Feb. 22
     date: '1965-02-22'
@@ -6297,6 +6415,23 @@ entries:
       - 1965-02-22T11:00Z
       - 1965-02-22T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-02-22.china-leadership-8
+    when: Feb. 22
+    date: '1965-02-22'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平 presides at the Secretariat 书记处, which hears Gu Mu 谷牧 on the national conferences on industry and communications and on political work in them, and discusses the revised "Main points of industrial and communications work in 1965" and "Main points of political work in the industrial and communications system in 1965". Deng: with farm machinery selling badly, the way out is to cut cost; part of the agricultural funds can go to tractor stations; more motor vehicles and tractors; on the ''four clean-ups'' in factories, which aim at better production, technical and management revolution and thrift, the plants must turn to these in time, half a month''s delay being half a month''s loss; in three or four months turn round to management revolution, technical revolution and cadres'' labor.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1848 (Feb. 22, 1965). The words: 下午 (III, 1848). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 745ade2a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1848: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1965-02-22T04:00Z
+      - 1965-02-22T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1965-02-23.states-and-cities-nyc
     when: Feb. 23
@@ -6845,6 +6980,18 @@ entries:
       - 1965-02-24T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-24.china-leadership-7
+    when: Feb. 24
+    date: '1965-02-24'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平 reads the Central Propaganda Department's plan for changes in the leadership of the Ministry of Culture, forwarded by Peng Zhen 彭真.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1848 (Feb. 24, 1965). The words: 审阅 (III, 1848). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    src:
+      c: e319f14d
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1848: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1965-02-25.middle-east
     when: Feb. 25
     date: '1965-02-25'
@@ -7239,7 +7386,7 @@ entries:
     date: '1965-02-26'
     thread: china-leadership
     c: 'The Central Committee and State Council decide on the setup for third-front construction in the Southwest: to strengthen leadership a Southwest Third Front Construction Commission is to be formed.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 713 (Feb. 26, 1965). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 713 (Feb. 26, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1847 (Feb. 26, 1965; Deng signs the Central Committee and State Council decision on the system for building the Southwest third front, which sets up the Southwest Third Front Construction Committee 西南三线建设委员会). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-02-26.china-leadership-4
     when: Feb. 26
@@ -7583,6 +7730,18 @@ entries:
       - 1965-02-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-27.china-leadership-7
+    when: Feb. 27
+    date: '1965-02-27'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平 reads Luo Ruiqing''s 罗瑞卿 report on arranging rear-area construction in the first- and second-line provinces and cities. Comment: the Chairman has approved it and Liu Shaoqi 刘少奇 has read it; Zhou and Peng to read it and return it to Ruiqing (the National Defense Industry Office).'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1848 (Feb. 27, 1965). The words: 阅 (III, 1848). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Luo Ruiqing, Liu Shaoqi.'
+    src:
+      c: b85a5017
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1848: all'
+    tags: [polity:prc, name:deng-xiaoping, name:luo-ruiqing, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-02-28.king
     when: Feb. 28
     date: '1965-02-28'

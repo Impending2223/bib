@@ -448,6 +448,10 @@ entries:
         witness: w.yang-shangkun-riji
         reads: 'Yang Shangkun''s diary: at 9 a.m. he sees Deng, Kang Sheng and Wu Xiuquan off at the airport to Pyongyang (送邓、康、伍飞平壤), and meets them at the airport on May 4'
         at: II, 275, May 2, 1963
+      - unit: B
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: Deng in talks with Kim Il Sung at Pyongyang May 2–4 (在平壤同金日成举行会谈), back in Peking May 4; not at Hangzhou
+        at: III, 1756
   - id: cal.1963-05-02.china-leadership-6
     when: May 2
     date: '1963-05-02'
@@ -510,11 +514,12 @@ entries:
     thread: china-leadership
     also: [korea-leadership]
     c: Peking 北京, the airport, 9 a.m. Yang Shangkun 杨尚昆 sees Deng Xiaoping 邓小平, Kang Sheng 康生 and Wu Xiuquan 伍修权 off to Pyongyang 平壤.
-    n: '[[w.yang-shangkun-riji]], II, 275 (May 2, 1963). The words: 上午9时去机场，送邓、康、伍飞平壤 (II, 275). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Wu Xiuquan. Check: Wu Lengxi has Deng and Kang Sheng fly that morning to Hangzhou ([[cal.1963-05-02.china-leadership-5]]).'
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 2, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1756 (May 2, 1963; Deng, Kang Sheng and Wu Xiuquan fly to Pyongyang). The words: 上午9时去机场，送邓、康、伍飞平壤 (II, 275). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Wu Xiuquan. Check: Wu Lengxi has Deng and Kang Sheng fly that morning to Hangzhou ([[cal.1963-05-02.china-leadership-5]]).'
     src:
       c: 7994aa07
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1756: ?'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-02.china-leadership-10
@@ -533,6 +538,19 @@ entries:
       - 1963-05-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-02.china-leadership-11
+    when: May 2–4
+    date: '1963-05-02'
+    place: pyongyang
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平, with Kang Sheng 康生 and Wu Xiuquan 伍修权, in talks with Kim Il Sung 金日成 at Pyongyang 平壤; returns to Peking 北京 May 4. At the second talk, May 3, Deng: this year''s agriculture fairly good; urban workers cut by 18 million, the wage bill by 5 billion; the people''s health much improved, but too many children, hence family planning; the Chinese are weighing Party rectification, trials this year, formal re-registration of members next year; the ''five-antis'' not ended with this round, rectification once every few years, ideology and literature and art also to be set in order.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1756–1757 (May 2–4, 1963). The time is the first day''s. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng.'
+    src:
+      c: 30ac9017
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1756–1757: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk]
   - id: cal.1963-05-03.alabama-birmingham
     when: May 3
     date: '1963-05-03'
@@ -778,6 +796,11 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 563–565: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:mao-zedong, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: Deng at Pyongyang May 2–4 (the second talk with Kim Il Sung on May 3); not chairing at Hangzhou May 3 to 5
+        at: III, 1756
   - id: cal.1963-05-03.china-leadership-3
     when: May 3
     date: '1963-05-03'
@@ -981,11 +1004,12 @@ entries:
     thread: china-leadership
     also: [korea-leadership]
     c: Peking 北京, the airport. Yang Shangkun 杨尚昆 meets Deng Xiaoping 邓小平, Kang Sheng 康生, Wu Xiuquan 伍修权 and others on their return.
-    n: '[[w.yang-shangkun-riji]], II, 275 (May 4, 1963). See [[cal.1963-05-02.china-leadership-9]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Wu Xiuquan. Check: Wu Lengxi has Deng at Hangzhou May 3–5 ([[cal.1963-05-03.china-leadership-4]]).'
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 4, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1757 (May 4, 1963; Deng back in Peking from Pyongyang). See [[cal.1963-05-02.china-leadership-9]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Wu Xiuquan. Check: Wu Lengxi has Deng at Hangzhou May 3–5 ([[cal.1963-05-03.china-leadership-4]]).'
     src:
       c: 95ba758f
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757: ?'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
     time_range:
       - 1963-05-03T22:00Z
@@ -1350,12 +1374,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at the Secretariat on the reply to the CPSU Central Committee and the talks between the two parties.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 6, 1963); [[w.yang-shangkun-riji]], II, 276 (May 6, 1963; the Secretariat, morning, on the draft reply to the CPSU; Yang there). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 6, 1963); [[w.yang-shangkun-riji]], II, 276 (May 6, 1963; the Secretariat, morning, on the draft reply to the CPSU; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1757 (May 6, 1963; morning, 上午; Deng presides at the Secretariat on the reply to the CPSU letter of Mar. 30 and the Sino-Soviet party talks). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: ca482d5e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 552: ?'
         - 'w.yang-shangkun-riji II, 276: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-05-06.china-leadership-2
     when: May 6
@@ -2103,6 +2128,22 @@ entries:
       - 1963-05-08T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-08.china-leadership-9
+    when: May 8
+    date: '1963-05-08'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 attends Zhou Enlai's 周恩来 meeting on the statement and the inquiry into the loss of the freighter *Yuejin* 跃进号.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1757 (May 8, 1963). The words: 下午 (III, 1757). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai.'
+    src:
+      c: abd854ca
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757: all'
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1963-05-08T04:00Z
+      - 1963-05-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-09.mississippi
     when: May 9
     date: '1963-05-09'
@@ -2652,11 +2693,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, 3:30 p.m. Deng Xiaoping 邓小平, Kang Sheng 康生 and their party leave by train for Hangzhou 杭州, the weather being bad for flying.
-    n: '[[w.yang-shangkun-riji]], II, 277 (May 10, 1963). The words: 小平、康生同志等一行，因气候不好，下午3时半乘火车去杭州 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Kang Sheng. Check: Wu Lengxi has Deng and Kang Sheng at Hangzhou from May 2 ([[cal.1963-05-02.china-leadership-5]], [[cal.1963-05-03.china-leadership-4]]).'
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 10, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1757 (May 10, 1963; afternoon, 下午; Deng leaves by train for Hangzhou for Mao''s meeting of some Politburo members and the regional bureaus'' secretaries, to draft the Central Committee''s ''Decision on some problems in current rural work (draft)'', later called the ''Former Ten Points'' 前十条). The words: 小平、康生同志等一行，因气候不好，下午3时半乘火车去杭州 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Kang Sheng. Check: Wu Lengxi has Deng and Kang Sheng at Hangzhou from May 2 ([[cal.1963-05-02.china-leadership-5]], [[cal.1963-05-03.china-leadership-4]]).'
     src:
       c: 5d7e5af7
       rows:
         - 'w.yang-shangkun-riji II, 277: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757: ?'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-11.alabama
@@ -4053,7 +4095,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Huairen Hall. The Politburo, 36 attending, Zhou Enlai presenting how the draft decision on rural work came about and what Mao said at Hangzhou, adopts the draft decision; issued May 20 with six annexes.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 18, 1963; [[w.zhou-enlai-nianpu-1949]], II, 554 (May 18, 1963: Zhou Enlai presides at the Politburo on Mao''s proposal; he explains how the draft came to be drafted; no product of the mind is right at once, it comes by repeated practice, held to and corrected; he stresses Mao''s thought on the relation of knowing and doing, spirit and matter; the meeting amends it a little and the document goes out May 20); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 20, 1963; the Center issues the draft decision on some current problems in rural work (later the "First Ten Points"), as a programmatic document for the socialist education movement; the chronology says Mao drew it up at a small meeting in Hangzhou May 2–12 of some Politburo members and regional bureau secretaries, and the Politburo adopted it on May 18; it finds "a sharp class struggle" in China); [[w.jianguo-yilai-mao-zedong]], XVI, 546–547 (May 18, 1963; note 1 to Mao''s addition of May 19: the decision adopted by the Politburo, issued with the notice May 20); [[w.yang-shangkun-riji]], II, 280 (May 18, 1963; the Politburo, 3 to 7 p.m., Zhou presiding, on the Center''s Decision on rural work (draft), with some revisions proposed; Yang there). Made public: 1996. See [[cal.1963-05-07.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 18, 1963; [[w.zhou-enlai-nianpu-1949]], II, 554 (May 18, 1963: Zhou Enlai presides at the Politburo on Mao''s proposal; he explains how the draft came to be drafted; no product of the mind is right at once, it comes by repeated practice, held to and corrected; he stresses Mao''s thought on the relation of knowing and doing, spirit and matter; the meeting amends it a little and the document goes out May 20); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 20, 1963; the Center issues the draft decision on some current problems in rural work (later the "First Ten Points"), as a programmatic document for the socialist education movement; the chronology says Mao drew it up at a small meeting in Hangzhou May 2–12 of some Politburo members and regional bureau secretaries, and the Politburo adopted it on May 18; it finds "a sharp class struggle" in China); [[w.jianguo-yilai-mao-zedong]], XVI, 546–547 (May 18, 1963; note 1 to Mao''s addition of May 19: the decision adopted by the Politburo, issued with the notice May 20); [[w.yang-shangkun-riji]], II, 280 (May 18, 1963; the Politburo, 3 to 7 p.m., Zhou presiding, on the Center''s Decision on rural work (draft), with some revisions proposed; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1757 (May 18–20, 1963; the Politburo discusses and adopts the draft decision on rural work (the Former Ten Points) on the 18th; issued formally May 20 as the program of the socialist education movement; the nianpu does not name Deng as present on the 18th). Made public: 1996. See [[cal.1963-05-07.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     src:
       c: 3a5816ba
       rows:
@@ -4062,6 +4104,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: B, C'
         - 'w.jianguo-yilai-mao-zedong XVI, 546–547: B'
         - 'w.yang-shangkun-riji II, 280: A-B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757: C'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
     variants:
       - unit: C
@@ -4158,6 +4201,29 @@ entries:
         - 'w.yang-shangkun-riji II, 280: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-19.china-leadership-5
+    when: May 19
+    date: '1963-05-19'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 welcomes at the airport Wilcox 威尔科克斯, general secretary of the New Zealand Communist Party, on a visit.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1757 (May 19, 1963). Names: Deng Xiaoping.'
+    src:
+      c: 974921bc
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757: all'
+    tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1963-05-19.china-leadership-6
+    when: May 19
+    date: '1963-05-19'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Deng Xiaoping 邓小平 meets Li Ping 黎平, secretary of the Vietnam Working Youth League's Central Committee 中央.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1757–1758 (May 19, 1963). The nianpu gives the name in characters only (黎平). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the Vietnamese form of the name.'
+    src:
+      c: a66300c1
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1757–1758: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+drv]
   - id: cal.1963-05-20.court
     when: May 20
     date: '1963-05-20'
@@ -4539,6 +4605,18 @@ entries:
       - 1963-05-21T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-21.china-leadership-7
+    when: May 21
+    date: '1963-05-21'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Deng Xiaoping 邓小平, with Kang Sheng 康生 and Liu Ningyi 刘宁一, meets Wilcox 威尔科克斯. On Khrushchev''s 赫鲁晓夫 stress on economic mutual aid and the international division of labor, even abolishing frontiers: its aim is control of others and it has done East European states great harm, whose discontent is general; under socialism, without a strong Marxist-Leninist party in the lead, some who hold power would degenerate. At home: the economy is sound after two years of adjustment on the basis of agriculture first; some free markets are open, and the free-market prices of some goods are drawing closer to the planned state prices.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 21, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Khrushchev.'
+    src:
+      c: 08ca8b07
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1963-05-22.africa
     when: May 22–25
     date: '1963-05-22'
@@ -4595,12 +4673,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Hangzhou. Mao receives V. G. Wilcox (威尔科克斯), general secretary of the New Zealand Communist Party, come from the capitalist world, to ask his view of the Chinese Central Committee''s draft reply to the Soviet letter of Mar. 30; Deng Xiaoping and Kang Sheng present. Wilcox: an excellent paper, hard to answer. Mao: not to ask other parties'' friends would leave us unsure; more from the capitalist world should read it: it should please the Left, reach most of the Center and win them.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 22, 1963 (and n. 37); [[w.lengxi-shinian-lunzhan-1956-1966]], 568–569 (Wu: Mao, at Hangzhou, May 22, asks Wilcox, general secretary of the New Zealand party, his view of the draft, then still the Chen Boda text not yet revised at Peking; Mao: the document not yet ripe; he is very dissatisfied with the first part of the general line, too long, repetitive, not terse, bright or comprehensive; it says five views are to be criticized, but all 21 points and the tail criticize them; Stalin, the Twentieth, Twenty-first and Twenty-second Congresses to be left as a title only, kept for the two parties'' talks; the Peking revision made it 25 points). Made public: 1999. See [[cal.1963-04-25.china-leadership]]. Names: Mao Zedong, V. G. Wilcox, Deng Xiaoping, Kang Sheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 22, 1963 (and n. 37); [[w.lengxi-shinian-lunzhan-1956-1966]], 568–569 (Wu: Mao, at Hangzhou, May 22, asks Wilcox, general secretary of the New Zealand party, his view of the draft, then still the Chen Boda text not yet revised at Peking; Mao: the document not yet ripe; he is very dissatisfied with the first part of the general line, too long, repetitive, not terse, bright or comprehensive; it says five views are to be criticized, but all 21 points and the tail criticize them; Stalin, the Twentieth, Twenty-first and Twenty-second Congresses to be left as a title only, kept for the two parties'' talks; the Peking revision made it 25 points); [[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 22, 1963; Deng with Mao meets and dines Wilcox). Made public: 1999. See [[cal.1963-04-25.china-leadership]]. Names: Mao Zedong, V. G. Wilcox, Deng Xiaoping, Kang Sheng.'
     src:
       c: 90ce0b70
       rows:
         - 'w.zedong-mao-zedong-nianpu V, May 22, 1963: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 568–569: A-B, E'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
   - id: cal.1963-05-22.china-leadership-2
     when: May 22
@@ -4819,11 +4898,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Deng Xiaoping 邓小平 and others back in Peking 北京.
-    n: '[[w.yang-shangkun-riji]], II, 281 (May 23, 1963). The words: 小平等同志回京 (II, 281). See [[cal.1963-05-10.china-leadership-7]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 23, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 23, 1963; morning, 上午; Deng back in Peking from Hangzhou). The words: 小平等同志回京 (II, 281). See [[cal.1963-05-10.china-leadership-7]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
     src:
       c: 20bf2f24
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: A'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-05-23.china-leadership-5
     when: May 23
@@ -5041,6 +5121,17 @@ entries:
       - 1963-05-24T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-24.china-leadership-5
+    when: May 24
+    date: '1963-05-24'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 reads and revises the draft Joint Statement of the Communist Party of China and the Communist Party of New Zealand 《中国共产党和新西兰共产党联合声明》.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 24, 1963). The words: 审改 (III, 1758). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: b3343af8
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-05-25.elections-1964
     when: May 25
     date: '1963-05-25'
@@ -5113,13 +5204,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai, with Liu Shaoqi and Deng Xiaoping, receives and dines Wilcox, general secretary of the Communist Party of New Zealand.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 25, 1963; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963; Liu receives Wilcox, general secretary of the New Zealand party, after the signing of the joint statement); [[w.yang-shangkun-riji]], II, 281–282 (May 25, 1963; Qinzheng Hall 勤政殿, from 5:30 p.m.: Liu Shaoqi receives Wilcox, talks, the signing, a meal, to 7:30; Yang there). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 25, 1963; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963; Liu receives Wilcox, general secretary of the New Zealand party, after the signing of the joint statement); [[w.yang-shangkun-riji]], II, 281–282 (May 25, 1963; Qinzheng Hall 勤政殿, from 5:30 p.m.: Liu Shaoqi receives Wilcox, talks, the signing, a meal, to 7:30; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 25, 1963; that evening, 同日晚; Deng with Liu Shaoqi and Zhou Enlai gives a banquet for Wilcox''s party). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: ceeee678
       rows:
         - 'w.zhou-enlai-waijiao-huodong 361: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: B'
         - 'w.yang-shangkun-riji II, 281–282: A-B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: B'
     tags: [polity:prc, polity:nz, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc+nz]
     time_range:
       - 1963-05-25T11:00Z
@@ -5133,12 +5225,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi attends the signing of the Joint Statement of the Communist Party of China and the Communist Party of New Zealand.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963); [[w.yang-shangkun-riji]], II, 281–282 (May 25, 1963; the signing at Qinzheng Hall, between 5:30 and 7:30 p.m.). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963); [[w.yang-shangkun-riji]], II, 281–282 (May 25, 1963; the signing at Qinzheng Hall, between 5:30 and 7:30 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 25, 1963; after the talks, 之后; Deng with Liu Shaoqi and Zhou Enlai at the signing of the joint statement, which Deng signs for the Chinese Communist Party). Names: Liu Shaoqi.'
     src:
       c: 881adace
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: ?'
         - 'w.yang-shangkun-riji II, 281–282: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: A'
     tags: [polity:prc, polity:nz, name:liu-shaoqi]
   - id: cal.1963-05-25.china-leadership-4
     when: May 25
@@ -5184,6 +5277,22 @@ entries:
       - 1963-05-25T11:00Z
       - 1963-05-25T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-25.china-leadership-7
+    when: May 25
+    date: '1963-05-25'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 talks with Wilcox 威尔科克斯, exchanging views on social democracy and other questions.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 25, 1963). The words: 下午 (III, 1758). The nianpu has the talks before the signing. Made public: 2009 (the nianpu). See [[cal.1963-05-21.china-leadership-7]]. Names: Deng Xiaoping.'
+    src:
+      c: 701b1a74
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1963-05-25T04:00Z
+      - 1963-05-25T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1963-05-26.opinion-5
     when: May 26
@@ -5509,12 +5618,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Zhou Enlai, Zhu De and Deng Xiaoping, holds talks with Kim Il Sung, general secretary of the Korean Workers' Party.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 27, 1963); [[w.yang-shangkun-riji]], II, 282 (May 27, 1963; the Great Hall of the People, Fujian Room, 4 to 6 p.m.; dinner on the third floor at 6:30; then *Sentinels under the Neon Lights* in the small auditorium, to midnight; Yang there). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Kim Il Sung.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 27, 1963); [[w.yang-shangkun-riji]], II, 282 (May 27, 1963; the Great Hall of the People, Fujian Room, 4 to 6 p.m.; dinner on the third floor at 6:30; then *Sentinels under the Neon Lights* in the small auditorium, to midnight; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 27, 1963; afternoon, 下午; Deng with Liu Shaoqi, Zhou Enlai and Zhu De in talks with Kim Il Sung). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Kim Il Sung.'
     src:
       c: bdc785c3
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: ?'
         - 'w.yang-shangkun-riji II, 282: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1758: A'
     tags: [polity:prc, polity:dprk, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:kim-il-sung, vis:only:prc+dprk]
   - id: cal.1963-05-27.china-leadership-4
     when: May 27
@@ -5735,6 +5845,18 @@ entries:
       - 1963-05-28T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-28.china-leadership-5
+    when: May 28
+    date: '1963-05-28'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平, with Kang Sheng 康生 and Liu Ningyi 刘宁一, meets Sanmugathasan 桑穆加塔桑, member of the Politburo 政治局 of the Ceylon Communist Party's Central Committee 中央, on a visit.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1759 (May 28, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng.'
+    src:
+      c: 1c63b595
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1759: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
   - id: cal.1963-05-29.economy-debt-limit
     when: May 29
     date: '1963-05-29'
@@ -5817,7 +5939,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Wuchang, East Lake. Mao receives Kim Il Sung to ask his view of the reply to the Soviet Central Committee; Liu Shaoqi, Deng Xiaoping, Kang Sheng and Wang Renzhong present. The Politburo has not yet taken the draft, but it has been talked over in Peking and at Hangzhou, where Mao was; he asks whether to change it little or much, or write it again; "mainly we fear to err." It touches all parties and the working class of the world.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 29, 1963; [[w.zhou-enlai-nianpu-1949]], II, 556 (May 26–29, 1963: Kim Il Sung''s visit; Zhou Enlai receives him and asks the Korean view of the draft reply to the CPSU); [[w.lengxi-shinian-lunzhan-1956-1966]], 570–571 (Mao''s talk with Kim Il Sung at the Hubin villa, May 29, the first: for the Korean side Kim with several others, for the Chinese Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong, Wu Xiuquan, Fan Ruoyu, Yao Zhen, Wang Li, Wu Lengxi and the ambassador to Korea, Hao Deqing; Mao: the reply drafted by the writers, the Standing Committee has read it, the Politburo not yet formally, it is asked of the Korean friends, and next of the Vietnamese, that it be made correct before it appears; not a joint document but the CCP''s, "if it is wrong, we are the ones to be spanked"; Liu on his visit to Vietnam, May 6–16: Hồ Chí Minh and Lê Duẩn fear a break; he told them to think what to do if one comes; Hồ would rather none but prepared); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 29, 1963; Liu flies to Wuhan to take part in revising and settling the proposal concerning the general line of the international communist movement, the reply of the Chinese Central Committee to the CPSU letter of Mar. 30). Made public: 1996. See [[cal.1963-05-22.china-leadership]]. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 29, 1963; [[w.zhou-enlai-nianpu-1949]], II, 556 (May 26–29, 1963: Kim Il Sung''s visit; Zhou Enlai receives him and asks the Korean view of the draft reply to the CPSU); [[w.lengxi-shinian-lunzhan-1956-1966]], 570–571 (Mao''s talk with Kim Il Sung at the Hubin villa, May 29, the first: for the Korean side Kim with several others, for the Chinese Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong, Wu Xiuquan, Fan Ruoyu, Yao Zhen, Wang Li, Wu Lengxi and the ambassador to Korea, Hao Deqing; Mao: the reply drafted by the writers, the Standing Committee has read it, the Politburo not yet formally, it is asked of the Korean friends, and next of the Vietnamese, that it be made correct before it appears; not a joint document but the CCP''s, "if it is wrong, we are the ones to be spanked"; Liu on his visit to Vietnam, May 6–16: Hồ Chí Minh and Lê Duẩn fear a break; he told them to think what to do if one comes; Hồ would rather none but prepared); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 29, 1963; Liu flies to Wuhan to take part in revising and settling the proposal concerning the general line of the international communist movement, the reply of the Chinese Central Committee to the CPSU letter of Mar. 30); [[w.deng-xiaoping-nianpu-1904]], III, 1759 (May 29–30, 1963; Deng with Liu Shaoqi twice at Wuchang accompanies Mao in meeting Kim Il Sung, to seek his views on the Central Committee''s reply to the CPSU). Made public: 1996. See [[cal.1963-05-22.china-leadership]]. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Deng Xiaoping, Kang Sheng, Wang Renzhong.'
     src:
       c: afd98f93
       rows:
@@ -5825,6 +5947,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 556: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 570–571: A-G'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1759: ?'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk]
   - id: cal.1963-05-29.china-leadership-2
     when: May 29, June 13
@@ -5929,6 +6052,20 @@ entries:
       - 1963-05-29T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-29.china-leadership-8
+    when: May 29
+    date: '1963-05-29'
+    place:
+      - wuhan
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 and members of the Anti-Revisionist Documents Drafting Group fly to Wuhan 武汉 to join the discussion Mao Zedong 毛泽东 presides over of the draft reply to the CPSU Central Committee's 中央 letter of Mar. 30.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1759 (May 29, 1963). The nianpu gives the destination only; the place is the arrival. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong. Check: from where the party flew.'
+    src:
+      c: bb5fed0a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1759: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1963-05-30.civil-rights-the-executive
     when: May 30
     date: '1963-05-30'
@@ -6008,11 +6145,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Wuhan, the Hubin villa. Mao''s second talk with Kim Il Sung, the two delegations present, Kim speaking first. He has read the paper several times, finds it good and strong, its spirit to carry the revolution through; it will help to win the middle, and the right cannot sweep it aside. Mao: the aim is to win the middle and leave the right unable to refute; the paper has much pepper and little sugar. Kim: no problem of principle, but how great the shock when it appears; both pepper and sugar; the middle parties and the nationalist states, to be won, and the right will still call China sectarian, nationalist, Trotskyist.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 572–574 ("the second day (May 30)"; Kim: the paper "a very strong document"; Mao: "they will not be able to fasten revisionism and right opportunism on us"; the points of the Korean delegation noted down for Deng Xiaoping''s later discussion). Made public: 1999. Names: Mao Zedong, Kim Il Sung.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 572–574 ("the second day (May 30)"; Kim: the paper "a very strong document"; Mao: "they will not be able to fasten revisionism and right opportunism on us"; the points of the Korean delegation noted down for Deng Xiaoping''s later discussion); [[w.deng-xiaoping-nianpu-1904]], III, 1759 (May 30, 1963; the second of the two meetings with Kim Il Sung at which Deng accompanies Mao with Liu Shaoqi). Made public: 1999. Names: Mao Zedong, Kim Il Sung.'
     src:
       c: ed9df5dc
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 572–574: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1759: ?'
     tags: [polity:prc, name:mao-zedong, name:kim-il-sung, vis:only:prc+dprk]
   - id: cal.1963-05-30.china-leadership-3
     when: May 30
