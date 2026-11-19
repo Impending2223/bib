@@ -125,20 +125,23 @@ def test_data_round_trip(path, tmp_path):
     assert store._parse_yaml(out) == data
 
 
-class _CLoader(getattr(yaml, "CSafeLoader", yaml.SafeLoader)):
-    pass
-
-
-_CLoader.yaml_implicit_resolvers = {k: [(t, rx) for t, rx in v if t != "tag:yaml.org,2002:timestamp"]
-                                    for k, v in yaml.SafeLoader.yaml_implicit_resolvers.items()}
-
-
 @pytest.mark.slow
 @pytest.mark.skipif(not getattr(yaml, "__with_libyaml__", False), reason="this PyYAML has no libyaml")
 @pytest.mark.parametrize("path", DATA, ids=[os.path.relpath(p, REPO) for p in DATA])
 def test_c_loader_agrees(path):
-    """A measurement for the speed work (code review C, PERF 2): libyaml's loader, with the store's resolvers, reads
-    every file as the store's pure-Python loader does. The store is not changed here."""
+    """The guard on the store's loader: libyaml's (store._Loader, when this PyYAML has it), with the store's
+    resolvers, reads every file as the pure-Python one (store._PyLoader) does, types and all."""
     with open(path, encoding="utf-8") as f:
         t = f.read()
-    assert yaml.load(t, Loader=_CLoader) == yaml.load(t, Loader=store._Loader)
+    assert store._FAST and store._Loader.__mro__[1] is yaml.CSafeLoader
+    fast, slow = yaml.load(t, Loader=store._Loader), yaml.load(t, Loader=store._PyLoader)
+    assert fast == slow and _typed(fast) == _typed(slow)
+
+
+def _typed(v):
+    """The data with each scalar's type beside it: == alone takes 1 for True and 1.0 for 1."""
+    if isinstance(v, dict):
+        return {(type(k).__name__, k): _typed(x) for k, x in v.items()}
+    if isinstance(v, list):
+        return [_typed(x) for x in v]
+    return (type(v).__name__, v)

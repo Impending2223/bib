@@ -19,7 +19,9 @@ STYLE
 """
 import re
 
-ITEM = (r"\[\[w\.[^\]]+\]\](?:,[^;.\[\]()]*(?:\.[^;\s][^;.\[\]()]*)*)?(?: \((?:[^()]|\([^()]*\))*\))?")
+from . import store
+
+ITEM =(r"\[\[w\.[^\]]+\]\](?:,[^;.\[\]()]*(?:\.[^;\s][^;.\[\]()]*)*)?(?: \((?:[^()]|\([^()]*\))*\))?")
 CARD = re.compile(r"\[\[(w\.[^\]|]+)")
 # a sentence ends at ". " before a capital, a bracket, a quotation or an asterisk; abbreviations kept by a short list
 ABBR = re.compile(r"(?:\b(?:v|Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec|Pub|Rec|Cong|Res|Rep|Doc|No|Nos|Stat|Op|Att|Gen|Sess|Mr|"
@@ -36,11 +38,21 @@ NEXT = re.compile(r"(?:To check: |Names: |Check: |See \[\[|Made public|Reply: |T
 OPENER = re.compile(r"(?:To check: |Names: |Check: |See \[\[|Made public|Reply: |The order: |Bibliography: )")
 
 
+SENT_START = re.compile(r"[A-Z\[*\"'(]")
+
+
 def sentences(n):
+    """The note's sentences: a new list each call, of a split made once for each note (_sentences; code review C,
+    PERF 8)."""
+    return list(_sentences(n))
+
+
+@store.memo
+def _sentences(n):
     out, cur, i = [], "", 0
     while i < len(n):
         cur += n[i]
-        if n[i] == "." and (i + 1 == len(n) or (n[i + 1] == " " and i + 2 < len(n) and re.match(r"[A-Z\[*\"'(]", n[i + 2]))):
+        if n[i] == "." and (i + 1 == len(n) or (n[i + 1] == " " and i + 2 < len(n) and SENT_START.match(n[i + 2]))):
             depth = cur.count("(") - cur.count(")") + cur.count("[") - cur.count("]")
             if depth == 0 and (not ABBR.search(cur[:-1]) or OPENER.match(n, i + 2)) and not (CLOCK.search(cur) and not NEXT.match(n[i + 2:])):
                 out.append(cur.strip())
@@ -48,7 +60,7 @@ def sentences(n):
         i += 1
     if cur.strip():
         out.append(cur.strip())
-    return out
+    return tuple(out)
 
 
 def items(s):
