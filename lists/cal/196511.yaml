@@ -129,6 +129,49 @@ entries:
       - 1965-11-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-01.china-leadership-4
+    when: Nov. 1
+    date: '1965-11-01'
+    time: 1965-11-01T08:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, 4 p.m. The preparatory meeting for the exhibition on Sun Yat-sen''s 孙中山 centenary: Liu Shaoqi 刘少奇 presides and speaks; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], II, 683 (Nov. 1, 1965). The words: 下午4时参加孙中山百年诞展筹备会议，少奇同志主持并讲了话 (II, 683). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Yang Shangkun.'
+    src:
+      c: 6d2df25a
+      rows:
+        - 'w.yang-shangkun-riji II, 683: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-01.china-leadership-5
+    when: Nov. 1
+    date: '1965-11-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to 2 a.m. Yang Shangkun 杨尚昆 with Tian Jiaying 田家英.
+    n: '[[w.yang-shangkun-riji]], II, 683 (Nov. 1, 1965). The words: 同田家英谈话到2时 (II, 683). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 1ec560cd
+      rows:
+        - 'w.yang-shangkun-riji II, 683: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-01T14:00Z
+      - 1965-11-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-01.china-leadership-6
+    when: Nov. 1
+    date: '1965-11-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at Peng Zhen's 彭真.
+    n: '[[w.yang-shangkun-riji]], II, 683 (Nov. 1, 1965). The words: 去彭真同志处谈话 (II, 683). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: '34263795'
+      rows:
+        - 'w.yang-shangkun-riji II, 683: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1965-11-02.states-and-cities
     when: Nov. 2
     date: '1965-11-02'
@@ -609,6 +652,76 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 66: all'
     tags: [polity:prc, polity:central-african-republic, name:liu-shaoqi]
+  - id: cal.1965-11-02.china-leadership-6
+    when: Nov. 2
+    date: '1965-11-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Diaoyutai 钓鱼台. Yang Shangkun 杨尚昆 with Kang Sheng 康生 on translation.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 2, 1965). The words: 上午去钓鱼台康生同志处，讨论翻译问题 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: 8ea2cc6c
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1965-11-01T22:00Z
+      - 1965-11-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-02.china-leadership-7
+    when: Nov. 2
+    date: '1965-11-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Yan Mingfu 阎明复.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 2, 1965). The words: 下午同阎明复谈话后 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yan Mingfu.'
+    src:
+      c: 804eebd4
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-02T04:00Z
+      - 1965-11-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-02.china-leadership-8
+    when: Nov. 2
+    date: '1965-11-02'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-02.china-leadership-7
+    c: Peking 北京. Yang Shangkun 杨尚昆 tells Wang Dongxing 汪东兴 briefly how things stand.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 2, 1965). The words: 下午同阎明复谈话后……同汪东兴谈了一下简单的情况 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Dongxing.'
+    src:
+      c: 662b8629
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-02T04:00Z
+      - 1965-11-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-02.china-leadership-9
+    when: Nov. 2
+    date: '1965-11-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 2, 1965). The words: 勉强工作到12时后，回家睡。孔原同志来谈话 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: e8b68451
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-02T14:00Z
+      - 1965-11-02T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-03.transition-and-staff
     when: Nov. 3
     date: '1965-11-03'
@@ -655,6 +768,7 @@ entries:
   - id: cal.1965-11-03.vietnam
     when: Nov. 3
     date: '1965-11-03'
+    place: saigon
     thread: vietnam
     c: 'Lodge to Johnson, "my best attempt to peer into the future": the Viet Cong''s main force units being mastered; within six months some 300 more villages pacified, then "the light at the end of the tunnel growing brighter all the time." The three most embarrassing things: a cease-fire, an end to the bombing, recognition of the Viet Cong.'
     n: '[FRUS 1964–68, III, doc. 188](https://history.state.gov/historicaldocuments/frus1964-68v03/d188). [[w.gibbons-u-s-government-and]], IV, 82–83. Made public: FRUS 1964–68, III (1996). Check: FRUS prints the total "about 1,100" villages, Gibbons "about 1,000." Names: Lodge, Johnson.'
@@ -674,6 +788,7 @@ entries:
   - id: cal.1965-11-03.vietnam-2
     when: Nov. 3
     date: '1965-11-03'
+    place: washington
     thread: vietnam-pause
     also: [vietnam-force-levels]
     c: 'McNamara''s draft memorandum for Johnson, from McNaughton''s office, "Courses of Action in Vietnam": the bombing and Phase I "make sense only if" in support of a long-run policy to contain China. Course C recommended: a "hard-line" pause, then evolving Rolling Thunder with Phase II. The odds "even" that early 1967 brings "stagnation at a higher level."'
@@ -783,6 +898,69 @@ entries:
     c: Liu Shaoqi hears Education Minister He Wei and Vice-Minister Liu Aifeng report on the national conference on urban half-work, half-study education then in session.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627 (Nov. 3, 1965). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-11-03.china-leadership-2
+    when: Nov. 3
+    date: '1965-11-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆, with Kang Sheng 康生 and others, sees the exhibition of military equipment; back at 1 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 3, 1965). The words: 上午同康生同志等去参观军事装备展览，1时回 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: b376c2f2
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1965-11-02T22:00Z
+      - 1965-11-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-03.china-leadership-3
+    when: Nov. 3
+    date: '1965-11-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lu Qi 鲁琦 and Shi Tielun 史铁轮, of the General Office's industry group (the editors' note), on the planning conference.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 3, 1965). The words: 下午约鲁琦、铁轮谈计划会议问题 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lu Qi, Shi Tielun.'
+    src:
+      c: 00ec7b0c
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-03T04:00Z
+      - 1965-11-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-03.china-leadership-4
+    when: Nov. 3
+    date: '1965-11-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 3, 1965). The words: 晚间田家英来谈话 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 57d08dda
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-03T11:00Z
+      - 1965-11-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-03.china-leadership-5
+    when: Nov. 3
+    date: '1965-11-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆, his back aching and his chest tight, has a doctor see him.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 3, 1965). The words: 自觉背疼、心闷，找医生来看了一下 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c3ac9abd
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-11-04.vietnam
     when: Nov. 4
     date: '1965-11-04'
@@ -902,6 +1080,37 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 67–68: all'
     tags: [polity:prc, polity:indonesia]
+  - id: cal.1965-11-04.china-leadership-5
+    when: Nov. 4
+    date: '1965-11-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Dongxing 汪东兴.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 4, 1965). The words: 上午同汪东兴同志谈话 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Dongxing.'
+    src:
+      c: b67dd4a0
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-03T22:00Z
+      - 1965-11-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-04.china-leadership-6
+    when: Nov. 4
+    date: '1965-11-04'
+    time: 1965-11-04T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 3 p.m., about an hour and a half. Yang Shangkun 杨尚昆 has acupuncture and an injection.
+    n: '[[w.yang-shangkun-riji]], II, 684 (Nov. 4, 1965). The words: 下午3时去北京医院针灸、打针，约1小时半 (II, 684). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b3af5182
+      rows:
+        - 'w.yang-shangkun-riji II, 684: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-05.robert-kennedy
     when: Nov. 5
     date: '1965-11-05'
@@ -1106,6 +1315,88 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 68: all'
     tags: [polity:prc, polity:ussr, name:dong-biwu, name:chen-yi]
+  - id: cal.1965-11-05.china-leadership-4
+    when: Nov. 5
+    date: '1965-11-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on going to the Niujiao 牛角 brigade.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965). The words: 上午约王愈明同志谈去牛角大队问题 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: ec29a723
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-04T22:00Z
+      - 1965-11-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-05.china-leadership-5
+    when: Nov. 5
+    date: '1965-11-05'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun's 杨尚昆 acupuncture and injections continue.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965). The words: 下午仍继续去北京医院针灸、打针 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f2746492
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-05T04:00Z
+      - 1965-11-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-05.china-leadership-6
+    when: Nov. 5
+    date: '1965-11-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to 7 p.m. The Secretariat meets; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965). The words: 参加书记处会议到7时 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 725ac970
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-05T04:00Z
+      - 1965-11-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-05.china-leadership-7
+    when: Nov. 5
+    date: '1965-11-05'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-05.china-leadership-6
+    c: Peking 北京. Peng Zhen 彭真 tells Yang Shangkun 杨尚昆 of his transfer.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965). The words: 彭真同志已通知我的工作的调动 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-10-29.china-leadership-2]]. Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: c3753246
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-11-05.china-leadership-8
+    when: Nov. 5
+    date: '1965-11-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to 1 a.m. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965). The words: 晚间田家英同志来谈到1时 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 87b5b368
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-05T11:00Z
+      - 1965-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-06.cuba
     when: Nov. 6
     date: '1965-11-06'
@@ -1284,7 +1575,7 @@ entries:
     date: '1965-11-06'
     thread: china-leadership
     c: Zhou attends the enlarged Politburo meeting on half-work, half-study.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 762–63 (Nov. 6, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627–628 (Nov. 6, 1965; Liu presides at the enlarged Politburo meeting on the system of urban half-work, half-study education and speaks: national education has three forms, full-time, spare-time and half-work, half-study (half-farming, half-study); half-work schools are to train a new kind of worker with socialist consciousness, culture, science and technique and practical skill, the goal being men able to be cadres, technicians and engineers but also workers and peasants; intellectuals are too few, not too many, and more are needed, and the villages need many technicians for the "four modernizations"; the course for the cities is "universal junior-middle education by full-time and half-work, half-study schools walking on two legs"; the trials are to be kept up five years and spread in ten; the three fundamental measures against revisionism and a capitalist restoration are the socialist-education movement carried through, the reform of the education system with half-work, half-study, and cadres'' taking part in labor). Made public: 1996. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 762–63 (Nov. 6, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627–628 (Nov. 6, 1965; Liu presides at the enlarged Politburo meeting on the system of urban half-work, half-study education and speaks: national education has three forms, full-time, spare-time and half-work, half-study (half-farming, half-study); half-work schools are to train a new kind of worker with socialist consciousness, culture, science and technique and practical skill, the goal being men able to be cadres, technicians and engineers but also workers and peasants; intellectuals are too few, not too many, and more are needed, and the villages need many technicians for the "four modernizations"; the course for the cities is "universal junior-middle education by full-time and half-work, half-study schools walking on two legs"; the trials are to be kept up five years and spread in ten; the three fundamental measures against revisionism and a capitalist restoration are the socialist-education movement carried through, the reform of the education system with half-work, half-study, and cadres'' taking part in labor); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Politburo, an hour and a half, on education half at work and half at study; Yang there; Zhou not named; the words: 参加了1小时半的政治局会议(讨论亦工亦学教育问题)). Made public: 1996. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-11-06.china-leadership-2
     when: Nov. 6
@@ -1293,11 +1584,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou attends the reception given by the Soviet ambassador Rabin for the October Revolution anniversary.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 6, 1965; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 6, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Soviet embassy''s reception for the 48th anniversary of the October Revolution, 5:30 to 7 p.m., Zhou, Chen Yi and Peng Zhen there; Yang there; the mood good; the words: 5时半到7时，去苏联大使馆参加十月革命48周年纪念会). Names: Zhou Enlai.'
     src:
       c: ac13b5d3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 485: all'
+        - 'w.yang-shangkun-riji II, 685: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-06T11:00Z
@@ -1315,6 +1607,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 165–166: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:brezhnev-leonid, name:mikoyan-anastas, name:kosygin-aleksei, polity:ussr]
+  - id: cal.1965-11-06.china-leadership-4
+    when: Nov. 6
+    date: '1965-11-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Huang Shuze 黄树则 with Yang Shangkun 杨尚昆 on work and on Yang's rheumatic inflammation.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965). The words: 上午黄树则同志来谈工作和我的风湿性炎症 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Huang Shuze, Yang Shangkun.'
+    src:
+      c: 4029af31
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-05T22:00Z
+      - 1965-11-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-5
+    when: Nov. 6
+    date: '1965-11-06'
+    time: 1965-11-06T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 3 p.m. Yang Shangkun's 杨尚昆 treatment goes on.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965). The words: 下午3时继续去北京医院治疗 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 333a7809
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-6
+    when: Nov. 6
+    date: '1965-11-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Chou 田畴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965). The words: 5时半到7时，去苏联大使馆……田畴来谈话 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Chou, Yang Shangkun.'
+    src:
+      c: 3f3b0032
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-06T11:00Z
+      - 1965-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-07.vietnam-order-of-battle
     when: Nov. 7
     date: '1965-11-07'
@@ -1364,6 +1704,37 @@ entries:
     c: Zhou flies to Guangzhou the morning of Nov. 7 and returns to Beijing the evening of the 8th.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 763 (Nov. 7–8, 1965). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-11-07.china-leadership-2
+    when: Nov. 7
+    date: '1965-11-07'
+    time: 1965-11-07T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 p.m. Yang Shangkun 杨尚昆 at the hospital for treatment.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 7, 1965). The words: 下午办公、读文件，3时去医院治疗 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 46234b74
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-07.china-leadership-3
+    when: Nov. 7
+    date: '1965-11-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 tells Meng Fanshu 孟凡述 and others, going to the Chang'an 长安 point the next day, of his transfer.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 7, 1965). The words: 同孟凡述谈了我的工作调动事，他们明天去长安点上 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Meng Fanshu.'
+    src:
+      c: 3f9491c3
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-07T11:00Z
+      - 1965-11-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-08.school-aid
     when: Nov. 8
     date: '1965-11-08'
@@ -1454,6 +1825,7 @@ entries:
     when: Nov. 8
     date: '1965-11-08'
     time: 1965-11-08T16:42Z
+    place: washington
     thread: vietnam-pause
     also: [vietnam-force-levels]
     c: 'Bundy to Johnson in Texas, 11:42 a.m.: he, Rusk and McNamara must see him before Rusk goes to Latin America; more than 100,000 more men recommended for 1966, pressure to bomb harder; divided on whether a substantial pause should come first. McNamara "tends to favor a pause"; "Rusk and I tend to be opposed." "Are we seeking a negotiated solution ... Or are we determined to do all that is necessary to establish and sustain a genuinely non-Communist South Vietnam?" Bundy inclines to the latter.'
@@ -1508,6 +1880,89 @@ entries:
         - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=86: all'
         - 'via x.1965-11-08.zhou-enlai-and-ho-chi-minh-guangdong: all'
     tags: [name:zhou-enlai, name:ho-chi-minh, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1965-11-08.china-leadership-2
+    when: Nov. 8
+    date: '1965-11-08'
+    time: 1965-11-08T02:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. Yang Shangkun 杨尚昆 holds a small meeting, Wang Dongxing 汪东兴, Tian Jiaying 田家英, Zeng San 曾三 and Li Zhizhong 李质忠 there, to hand over the General Office's work and prepare the next day's office affairs meeting.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 8, 1965). The words: 上午10时召开小会，有汪东兴、田家英、曾三、李质忠等同志参加，交代办公厅工作，准备明天开办公厅厅务会议 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Dongxing, Tian Jiaying, Zeng San, Li Zhizhong.'
+    src:
+      c: a1c1b33a
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-08.china-leadership-3
+    when: Nov. 8
+    date: '1965-11-08'
+    time: 1965-11-08T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 p.m. Yang Shangkun 杨尚昆 at the hospital for treatment.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 8, 1965). The words: 下午3时去医院治疗，我同田家英商量一些事 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 46234b74
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-08.china-leadership-4
+    when: Nov. 8
+    date: '1965-11-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Qiao Mingfu 乔明甫 with Yang Shangkun 杨尚昆, much concerned for his work.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 8, 1965). The words: 晚间乔明甫同志来谈话，真正是个好人，很关心我的工作 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qiao Mingfu, Yang Shangkun.'
+    src:
+      c: ac73e0ef
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-08T11:00Z
+      - 1965-11-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-08.china-leadership-5
+    when: Nov. 8
+    date: '1965-11-08'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-08.china-leadership-4
+    c: Peking 北京. Tian Chou 田畴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 8, 1965). The words: 田畴来谈话。12时睡 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Chou, Yang Shangkun.'
+    src:
+      c: 3f3b0032
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-08T11:00Z
+      - 1965-11-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-08.china-leadership-6
+    when: Nov. 8
+    date: '1965-11-08'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-08.china-leadership-3
+    c: Peking 北京. Yang Shangkun 杨尚昆 settles some matters with Tian Jiaying 田家英.
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 8, 1965). The words: 下午3时去医院治疗……我同田家英商量一些事 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: b4d8df33
+      rows:
+        - 'w.yang-shangkun-riji II, 685: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-08T04:00Z
+      - 1965-11-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-09.states-and-cities
     when: Nov. 9
     date: '1965-11-09'
@@ -1520,6 +1975,7 @@ entries:
   - id: cal.1965-11-09.vietnam
     when: Nov. 9
     date: '1965-11-09'
+    place: washington
     thread: vietnam-pause
     also: [vietnam-force-levels]
     c: 'State''s "Courses of Action in Viet-Nam," U. Alexis Johnson''s redraft of McNamara''s paper, for the President: three courses. Rusk against a pause now. The third, no pause and gradual Phase II deployments, "designed to ''play for the breaks.''"'
@@ -1540,6 +1996,7 @@ entries:
   - id: cal.1965-11-09.vietnam-2
     when: Nov. 9
     date: '1965-11-09'
+    place: washington
     thread: vietnam-pause
     follows:
       - cal.1965-11-09.vietnam
@@ -1649,6 +2106,50 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 445 n.96: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96c: all'
     tags: [polity:prc, polity:ussr, name:peng-zhen, vis:only:prc+ussr]
+  - id: cal.1965-11-09.china-leadership-3
+    when: Nov. 9
+    date: '1965-11-09'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. The General Office''s office-affairs meeting: Yang Shangkun 杨尚昆 announces his transfer.'
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 9, 1965). The words: 上午开办公厅厅务会议，宣布了我的工作的调动 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ba3cfed7
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-08T22:00Z
+      - 1965-11-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-09.china-leadership-4
+    when: Nov. 9
+    date: '1965-11-09'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 writes to Mao 毛泽东 (the full text, the editors'' note): the General Office''s work handed over to Wang Dongxing 汪东兴 and others, the Center''s decision announced; nearly twenty years in the central organs, the work not done well, errors made, Mao''s hopes let down; thanks for the chance to temper and remold himself; he means to visit Niujiao 牛角 and to go to Guangdong 广东 at the month''s end, his rheumatic back under treatment; he hopes to see Mao before he goes.'
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 9, 1965). The words: 写了一封信给主席 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Yang Shangkun to Mao Zedong, Nov. 9, 1965 (printed by [[w.yang-shangkun-riji]], II, 686 n.1). Names: Yang Shangkun, Mao Zedong, Wang Dongxing.'
+    src:
+      c: 7cdc7c34
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+        - 'via w.yang-shangkun-riji II, 686 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-11-09.china-leadership-5
+    when: Nov. 9
+    date: '1965-11-09'
+    time: 1965-11-09T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 3 p.m. Yang Shangkun 杨尚昆 admitted for examination; Wu Jie 吴洁 and others examine him; Dr. Geng 耿 comes often, at 10 p.m. too.
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 9, 1965). The words: 下午3时入医院，检查身体……吴洁同志等来检查病状。耿大夫来了多次，10时还来了一次 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wu Jie.'
+    src:
+      c: fc1e86e3
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-10.congress
     when: Nov. 10
     date: '1965-11-10'
@@ -1690,6 +2191,7 @@ entries:
   - id: cal.1965-11-10.vietnam
     when: Nov. 10
     date: '1965-11-10'
+    place: washington
     thread: vietnam-diplomacy
     c: 'Rusk to Lodge, a personal letter on his 1377: no sign Hanoi will negotiate seriously. The war must not seem to go on "because the South Vietnamese authorities with whom we are dealing are afraid of peace"; "contrary to our most fundamental policy to permit negotiations to accomplish what we have resisted by force."'
     n: '[FRUS 1964–68, III, doc. 197](https://history.state.gov/historicaldocuments/frus1964-68v03/d197). [[w.gibbons-u-s-government-and]], IV, 81 n.15. Made public: FRUS 1964–68, III (1996). See [[cal.1965-10-21.vietnam]]. Names: Rusk, Lodge.'
@@ -1930,6 +2432,85 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 485: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 68: A'
     tags: [name:zhou-enlai, polity:prc, polity:dprk, vis:only:prc+dprk]
+  - id: cal.1965-11-10.china-leadership-4
+    when: Nov. 10
+    date: '1965-11-10'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, from 7:30 a.m. Blood taken from Yang Shangkun 杨尚昆; three electrocardiograms; an injection.
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 10, 1965). The words: 7时半起床，查血，作了三次心电图，打针 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 21cfd080
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-09T21:00Z
+      - 1965-11-10T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-10.china-leadership-5
+    when: Nov. 10
+    date: '1965-11-10'
+    time: 1965-11-10T03:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, 11 a.m. to 12:30. Mao 毛泽东 has Yang Shangkun 杨尚昆 to talk. By Yang''s later recollection (the editors'' note): Mao gives him two tasks in Guangdong 广东, to report on central and State Council policies unsuited to the place, and to sort out the ministries'' directives that conflict with the Center''s; two or three years in the Pearl River basin, then the Yellow River''s.'
+    n: '[[w.yang-shangkun-riji]], II, 686–687 (Nov. 10, 1965). The words: 11时到主席处谈话，到12时半才回医院吃中饭 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Yang Shangkun''s recollection of the talk (cited by [[w.yang-shangkun-riji]], II, 687 n.1). See [[cal.1965-10-29.china-leadership-2]]. Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: a378261a
+      rows:
+        - 'w.yang-shangkun-riji II, 686–687: all'
+        - 'via w.yang-shangkun-riji II, 687 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-10.china-leadership-6
+    when: Nov. 10
+    date: '1965-11-10'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun 杨尚昆 has an injection and an electrocardiogram after exercise; a low fever, 37.2.
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 10, 1965). The words: 下午打针，作了运动后的心电图……中午37.2C，有低烧 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4c40bcb8
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-10T04:00Z
+      - 1965-11-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-10.china-leadership-7
+    when: Nov. 10
+    date: '1965-11-10'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Zhao Yutian 赵宇田 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 10, 1965). The words: 6时后小赵来，同他谈了话 (II, 686). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhao Yutian, Yang Shangkun.'
+    src:
+      c: 8cea4d8c
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-10T11:00Z
+      - 1965-11-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-10.china-leadership-8
+    when: Nov. 10
+    date: '1965-11-10'
+    time: 1965-11-10T12:30Z
+    thread: china-leadership
+    c: The radio broadcasts "Refute the so-called united action of the new leaders of the CPSU" 驳苏共新领导的所谓联合行动, 8:30 to 10:30 p.m.; Yang Shangkun 杨尚昆 listens.
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 10, 1965). The words: 晚间八时半联播了《驳苏共新领导的所谓联合行动》，到10时30分才完 (II, 686). Names: Yang Shangkun.'
+    src:
+      c: ada4a657
+      rows:
+        - 'w.yang-shangkun-riji II, 686: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-11.europe-and-the-alliance
     when: Nov. 11
     date: '1965-11-11'
@@ -2108,6 +2689,47 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 445 n.96: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96d: all'
     tags: [polity:prc, name:yao-wenyuan]
+  - id: cal.1965-11-11.china-leadership-3
+    when: Nov. 11
+    date: '1965-11-11'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun's 杨尚昆 stomach and intestines X-rayed, the bowel quick.
+    n: '[[w.yang-shangkun-riji]], II, 687 (Nov. 11, 1965). The words: 今天作了胃肠照相……下午检查了耳鼻喉，耳听有些变化，系老年病。仍有低烧 (II, 687). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 43b33339
+      rows:
+        - 'w.yang-shangkun-riji II, 687: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-11-11.china-leadership-4
+    when: Nov. 11
+    date: '1965-11-11'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 687 (Nov. 11, 1965). The words: 龚子荣同志来谈话 (II, 687). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Yang Shangkun.'
+    src:
+      c: b87cd89e
+      rows:
+        - 'w.yang-shangkun-riji II, 687: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-11-11.china-leadership-5
+    when: Nov. 11
+    date: '1965-11-11'
+    place: peking
+    thread: china-leadership
+    c: 'Peking Hospital 北京医院. Yang Shangkun''s 杨尚昆 ear, nose and throat examined: some loss of hearing, of age; low fever still.'
+    n: '[[w.yang-shangkun-riji]], II, 687 (Nov. 11, 1965). The words: 下午检查了耳鼻喉，耳听有些变化，系老年病。仍有低烧 (II, 687). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 3cc2240a
+      rows:
+        - 'w.yang-shangkun-riji II, 687: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-11T04:00Z
+      - 1965-11-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-12.civil-rights-the-executive
     when: Nov. 12
     date: '1965-11-12'
@@ -2176,6 +2798,37 @@ entries:
       - 1965-11-12T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-12.china-leadership-2
+    when: Nov. 12
+    date: '1965-11-12'
+    time: 1965-11-12T00:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking Hospital 北京医院, 8:30 a.m. A low-blood-sugar test: Yang Shangkun 杨尚昆 drinks 100 g of glucose, blood drawn five times; at 11:30 palpitations and sweating, low blood sugar confirmed.'
+    n: '[[w.yang-shangkun-riji]], II, 687 (Nov. 12, 1965). The words: 今天作了低血糖试验，8时半饮葡萄糖一百克，抽血五次……11时半心慌、出汗，证明确有血糖过低现象 (II, 687). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 43b0d1a8
+      rows:
+        - 'w.yang-shangkun-riji II, 687: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-12.china-leadership-3
+    when: Nov. 12
+    date: '1965-11-12'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, the outpatient department. Yang Shangkun's 杨尚昆 eyes examined, little changed.
+    n: '[[w.yang-shangkun-riji]], II, 687 (Nov. 12, 1965). The words: 下午去门诊部看了眼睛，变化不大 (II, 687). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8301374e
+      rows:
+        - 'w.yang-shangkun-riji II, 687: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-12T04:00Z
+      - 1965-11-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-13.transition-and-staff
     when: Nov. 13
     date: '1965-11-13'
@@ -2236,6 +2889,52 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 446 n.97a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 446 n.97b: all'
     tags: [polity:prc, name:mao-zedong, name:jiang-qing, vis:only:prc]
+  - id: cal.1965-11-13.china-leadership-6
+    when: Nov. 13
+    date: '1965-11-13'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun's 杨尚昆 basal metabolism tested, too high.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 13, 1965). The words: 上午作了基础代谢的试验，太高……下午神经科作了检查，正常 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b3ec366f
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-12T22:00Z
+      - 1965-11-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-13.china-leadership-7
+    when: Nov. 13
+    date: '1965-11-13'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Kong Yuan 孔原 calls on Yang Shangkun 杨尚昆 with some news.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 13, 1965). The words: 孔原同志来看我，告诉了一些消息 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: e222b41c
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-11-13.china-leadership-8
+    when: Nov. 13
+    date: '1965-11-13'
+    place: peking
+    thread: china-leadership
+    c: 'Peking Hospital 北京医院. A neurological examination of Yang Shangkun 杨尚昆: normal.'
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 13, 1965). The words: 下午神经科作了检查，正常 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ce15c977
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-13T04:00Z
+      - 1965-11-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-14.vietnam
     when: Nov. 14–16
     date: '1965-11-14'
@@ -2367,6 +3066,36 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 69: all'
     tags: [polity:prc, polity:rhodesia]
+  - id: cal.1965-11-14.china-leadership-2
+    when: Nov. 14
+    date: '1965-11-14'
+    time: 1965-11-14T00:30Z
+    thread: china-leadership
+    c: Yuquanshan 玉泉山. Yang Shangkun 杨尚昆, out of hospital from 8:30 a.m., shoots at targets with his family; back at 1:30, in hospital again at 3.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 14, 1965). The words: 上午8时半出院，全家去玉泉山打靶……1时半才回家。午睡后3时再入院 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: eb154d40
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-14.china-leadership-3
+    when: Nov. 14
+    date: '1965-11-14'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun 杨尚昆 chats with Feng Zhongyun 冯仲云, vice-minister of water conservancy and power (the editors' note), and others.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 14, 1965). The words: 下午休息，与冯仲云等同志闲谈 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Feng Zhongyun.'
+    src:
+      c: 0454d548
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-14T04:00Z
+      - 1965-11-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-15.court
     when: Nov. 15
     date: '1965-11-15'
@@ -2488,6 +3217,23 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 450 n.116: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 450 n.116c: B'
     tags: [polity:prc, name:xiao-xiangrong, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1965-11-15.china-leadership-6
+    when: Nov. 15
+    date: '1965-11-15'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun's 杨尚昆 cervical and other vertebrae X-rayed; 24 hours' urine kept for blood sugar.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 15, 1965). The words: 上午照了颈椎、关椎像(X光)……留了24小时的小便 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: cf86a093
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-14T22:00Z
+      - 1965-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-16.civil-rights-the-executive
     when: Nov. 16–17
     date: '1965-11-16'
@@ -2608,6 +3354,75 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 69: all'
     tags: [polity:prc, polity:japan, polity:rok, polity:dprk]
+  - id: cal.1965-11-16.china-leadership
+    when: Nov. 16
+    date: '1965-11-16'
+    time: 1965-11-16T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 p.m. Yang Shangkun 杨尚昆 leaves hospital.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 16, 1965). The words: 午睡后3时半出院，在家休息 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8a51cb72
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-16.china-leadership-2
+    when: Nov. 16
+    date: '1965-11-16'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-16.china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on going to Xi'an 西安.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 16, 1965). The words: 午睡后3时半出院……找王愈明谈了去西安问题 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: b8b8046b
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-16T04:00Z
+      - 1965-11-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-16.china-leadership-3
+    when: Nov. 16
+    date: '1965-11-16'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-16.china-leadership-2
+    c: Peking 北京. Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 16, 1965). The words: 午睡后3时半出院……曾三同志来谈话 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: 0bfb4542
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-16T04:00Z
+      - 1965-11-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-16.china-leadership-4
+    when: Nov. 16
+    date: '1965-11-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Tian Jiaying 田家英.
+    n: '[[w.yang-shangkun-riji]], II, 688 (Nov. 16, 1965). The words: 约田家英同志谈话。10时半睡 (II, 688). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 69c80f4a
+      rows:
+        - 'w.yang-shangkun-riji II, 688: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-16T11:00Z
+      - 1965-11-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-17.antisubversion-nc
     when: Nov. 17
     date: '1965-11-17'
@@ -2633,6 +3448,7 @@ entries:
     when: Nov. 17
     date: '1965-11-17'
     time: 1965-11-17T23:15Z
+    place: washington
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson, 6:15 p.m., sending Ball''s memorandum on a pause: McNamara for it, Rusk against. "The man who has to present next year''s defense budget will want to have made a last full try." Bundy "marginally against": a pause may seem to admit "that our bombing is the cause of the trouble."'
     n: '[FRUS 1964–68, III, doc. 202](https://history.state.gov/historicaldocuments/frus1964-68v03/d202). [[w.gibbons-u-s-government-and]], IV, 114–15. Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 218–19. See [[cal.1965-11-11.vietnam-pause]]. Names: McGeorge Bundy, Johnson, Ball, McNamara, Rusk.'
@@ -2728,6 +3544,24 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 485: all'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
+    time_range:
+      - 1965-11-16T22:00Z
+      - 1965-11-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-17.china-leadership-3
+    when: Nov. 17
+    date: '1965-11-17'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun 杨尚昆, sent by Mao 毛泽东, talks two hours with Wang Jiaxiang 王稼祥, secretary of the Secretariat and head of the International Liaison Department, out of office after criticism (the editors'' note). By Yang''s recollection: Mao asks whether Wang will do some work, perhaps study international questions if not a minister; Wang agrees.'
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 17, 1965). The words: 9时起床，去王稼祥同志处谈话，共2小时，是主席要我去的 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Yang Shangkun''s recollection of the talk (cited by [[w.yang-shangkun-riji]], II, 689 n.1). Names: Yang Shangkun, Mao Zedong, Wang Jiaxiang.'
+    src:
+      c: 3989b9cc
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+        - 'via w.yang-shangkun-riji II, 689 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_range:
       - 1965-11-16T22:00Z
       - 1965-11-17T04:00Z
@@ -2890,6 +3724,54 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 69: all'
     tags: [polity:prc, polity:tunisia]
+  - id: cal.1965-11-18.china-leadership-3
+    when: Nov. 18
+    date: '1965-11-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Jiaxiang 王稼祥 with Yang Shangkun 杨尚昆; he hands over a letter to Mao 毛泽东.
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 18, 1965). The words: 上午稼祥同志来谈话，并交来了给主席的一封信 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-11-17.china-leadership-3]]. Names: Wang Jiaxiang, Yang Shangkun, Mao Zedong.'
+    src:
+      c: b0e4e95f
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-11-17T22:00Z
+      - 1965-11-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-18.china-leadership-4
+    when: Nov. 18
+    date: '1965-11-18'
+    time: 1965-11-18T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 5:30 p.m. Yang Shangkun 杨尚昆 calls on Chen Yun 陈云, better, to leave for Hangzhou 杭州 to convalesce the next day.
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 18, 1965). The words: 下午3时半到5时半去看了陈云同志，他身体已有进步，明天即将去杭州休养 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Chen Yun.'
+    src:
+      c: 75ccd0e5
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-18.china-leadership-5
+    when: Nov. 18
+    date: '1965-11-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the small auditorium. Yang Shangkun 杨尚昆, at a film, sees Zhou Enlai 周恩来 and asks him to talk the next day.
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 18, 1965). The words: 晚间去小礼堂同妞妞一起看《教育新篇》，不错。见到恩来同志，约他明天同我谈谈 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: d14e5b34
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1965-11-18T11:00Z
+      - 1965-11-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-19.opinion
     when: Nov. 19
     date: '1965-11-19'
@@ -2911,6 +3793,7 @@ entries:
   - id: cal.1965-11-19.vietnam
     when: Nov. 19
     date: '1965-11-19'
+    place: washington
     thread: vietnam-pacification
     c: 'Cooper to Bundy, with the status report on the nonmilitary programs for five weeks: "we cannot realistically expect dramatic progress from one month to the next." "Much is being done. Much more has yet to be done."'
     n: '[FRUS 1964–68, III, doc. 204](https://history.state.gov/historicaldocuments/frus1964-68v03/d204). [[w.preston-war-council]], 214. See [[cal.1965-10-22.vietnam]]. Names: Chester Cooper, Bundy.'
@@ -2944,7 +3827,7 @@ entries:
     date: '1965-11-19'
     thread: china-leadership
     c: Zhou calls Yang Shangkun to talk. See [[cal.1965-11-10.china-leadership-2]].
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 765 (Nov. 19, 1965). Made public: 1997. Names: Zhou Enlai, Yang Shangkun.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 765 (Nov. 19, 1965); [[w.yang-shangkun-riji]], II, 689 (Nov. 19, 1965; 11 a.m. to 1:30 p.m.; Yang reports on his talks with Chen Yun and Wang Jiaxiang; who asked for the talk not said; the words: 上午11时到1时半，同恩来同志谈话，并向他报告了与陈云、稼祥谈话的情况). Made public: 1997. Names: Zhou Enlai, Yang Shangkun.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-11-19.china-leadership-2
     when: Nov. 19
@@ -2988,6 +3871,66 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 70: all'
     tags: [polity:prc, polity:indonesia]
+  - id: cal.1965-11-19.china-leadership-4
+    when: Nov. 19
+    date: '1965-11-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Fukun 李福坤, once deputy head of the General Office's guard bureau, now in Liaoning 辽宁 (the editors' note), calls on Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 19, 1965). The words: 李福坤来见我 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fukun, Yang Shangkun.'
+    src:
+      c: b9345741
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-11-19.china-leadership-5
+    when: Nov. 19
+    date: '1965-11-19'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun's 杨尚昆 last acupuncture.
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 19, 1965). The words: 下午在家休息……去医院作最后一次针灸 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 5710d481
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-19T04:00Z
+      - 1965-11-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-19.china-leadership-6
+    when: Nov. 19
+    date: '1965-11-19'
+    time: 1965-11-19T11:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, the Peking Room, 7:30 to 11 p.m. Yang Shangkun 杨尚昆 with Peng Zhen 彭真: Gong Zirong 龚子荣 gives the back building''s groups'' views; Tian Jiaying 田家英 speaks of publishing a book of Mao''s quotations; then Yang alone with Peng, on how his talk with Mao 毛泽东 went.'
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 19, 1965). The words: 晚间7时半到11时，在北京厅同彭真同志谈话。先是由龚子荣同志谈后楼各组的意见，接着是田家英同志谈出毛主席语录问题，以后我同彭单独谈到11时 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-11-10.china-leadership-5]]. Names: Yang Shangkun, Peng Zhen, Gong Zirong, Tian Jiaying, Mao Zedong.'
+    src:
+      c: 73747d63
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-19.china-leadership-7
+    when: Nov. 19
+    date: '1965-11-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 tells Yang Shangkun 杨尚昆 he leaves the next day for Hangzhou 杭州, where Mao 毛泽东 wants them to write prefaces for some basic works of Marx, Engels and Lenin.
+    n: '[[w.yang-shangkun-riji]], II, 689 (Nov. 19, 1965). The words: 晚间7时半到11时……田家英同志告我，他明天将去杭州，主席要他们去为几本马、恩、列的基本著作写序 (II, 689). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun, Mao Zedong.'
+    src:
+      c: b6c87ecf
+      rows:
+        - 'w.yang-shangkun-riji II, 689: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-11-19T14:00Z
+      - 1965-11-19T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-20.vietnam-operations
     when: Nov. 20
     date: '1965-11-20'
@@ -3080,6 +4023,64 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 169 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 169 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, vis:only:prc]
+  - id: cal.1965-11-20.china-leadership-3
+    when: Nov. 20
+    date: '1965-11-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 writes to Mao 毛泽东 on his talks with Chen Yun 陈云 and Wang Jiaxiang 王稼祥, and hands it to Tian Jiaying 田家英 to take the next day.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 20, 1965). The words: 上午10时才起床，写了一封信给主席，报告我与陈云同志、稼祥同志谈话的情况，面交田家英同志托他明天带去 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Chen Yun, Wang Jiaxiang, Tian Jiaying.'
+    src:
+      c: e999e179
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-yun, vis:only:prc]
+    time_range:
+      - 1965-11-19T22:00Z
+      - 1965-11-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-20.china-leadership-4
+    when: Nov. 20
+    date: '1965-11-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The NPC's Standing Committee sits; Yang Shangkun 杨尚昆 there half an hour.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 20, 1965). The words: 下午出席了人大常委会，半小时后即回 (II, 690). Names: Yang Shangkun.'
+    src:
+      c: ce61da36
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc]
+    time_range:
+      - 1965-11-20T04:00Z
+      - 1965-11-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-20.china-leadership-5
+    when: Nov. 20
+    date: '1965-11-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Yang Dezhong 杨德中, political commissar of the central guard regiment (the editors' note), on Zhao Yutian 赵宇田.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 20, 1965). The words: 找杨德中同志谈了赵宇田的问题 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yang Dezhong, Zhao Yutian.'
+    src:
+      c: 786f5f6d
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-11-20.china-leadership-6
+    when: Nov. 20
+    date: '1965-11-20'
+    place: peking
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆 telephones Zhao Ziyang 赵紫阳, first secretary in Guangdong 广东 (the editors'' note): he will come only in early December; Zhao: the provincial committee warmly welcomes him.'
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 20, 1965). The words: 给赵紫阳打了个电话，告诉他我要下月上旬才能去。赵说: 省委同志非常欢迎我去 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhao Ziyang.'
+    src:
+      c: 89dc2ef4
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-11-21.opinion
     when: Nov. 21
     date: '1965-11-21'
@@ -3293,6 +4294,71 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 70–71: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1965-11-22.china-leadership-5
+    when: Nov. 22
+    date: '1965-11-22'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Blood drawn from Yang Shangkun 杨尚昆 for the iodine-free test.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 22, 1965). The words: 上午到北京医院去抽血，作无碘试验 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d1aa8525
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-21T22:00Z
+      - 1965-11-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-22.china-leadership-6
+    when: Nov. 22
+    date: '1965-11-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Zeng San 曾三.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 22, 1965). The words: 上午到北京医院去抽血……约曾三同志谈话 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zeng San.'
+    src:
+      c: 85e6c234
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-21T22:00Z
+      - 1965-11-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-22.china-leadership-7
+    when: Nov. 22
+    date: '1965-11-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Kong Yuan 孔原, Feng Xuan 冯铉 and Luo Qingchang 罗青长 on the Central Investigation Department's work.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 22, 1965). The words: 下午约孔原、冯铉、青长谈中调部的工作问题 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Feng Xuan, Luo Qingchang.'
+    src:
+      c: 1c89be6a
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-22T04:00Z
+      - 1965-11-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-22.china-leadership-8
+    when: Nov. 22
+    date: '1965-11-22'
+    time: 1965-11-22T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. Yang Shangkun 杨尚昆 with He Jun 何均 on the back building's groups and on Peng Zhen's 彭真 talk with the group heads that afternoon.
+    n: '[[w.yang-shangkun-riji]], II, 690 (Nov. 22, 1965). The words: 晚间9时约何均同志谈了后楼各组的工作和彭真同志今天下午约各组长谈话的情况 (II, 690). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, He Jun, Peng Zhen.'
+    src:
+      c: bb6bca92
+      rows:
+        - 'w.yang-shangkun-riji II, 690: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-23.vietnam
     when: Nov. 23
     date: '1965-11-23'
@@ -3489,6 +4555,40 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 486: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-23.china-leadership-4
+    when: Nov. 23
+    date: '1965-11-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 and Jia Bubin 贾步彬 on their work.
+    n: '[[w.yang-shangkun-riji]], II, 691 (Nov. 23, 1965). The words: 上午约王愈明、贾步彬同志谈工作情况 (II, 691). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Jia Bubin.'
+    src:
+      c: a2acb1fe
+      rows:
+        - 'w.yang-shangkun-riji II, 691: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-22T22:00Z
+      - 1965-11-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-23.china-leadership-5
+    when: Nov. 23
+    date: '1965-11-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Zhizhong 李质忠 with Yang Shangkun 杨尚昆 before dinner.
+    n: '[[w.yang-shangkun-riji]], II, 691 (Nov. 23, 1965). The words: 晚饭前质忠同志来谈话 (II, 691). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Zhizhong, Yang Shangkun.'
+    src:
+      c: f505a0d1
+      rows:
+        - 'w.yang-shangkun-riji II, 691: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-23T04:00Z
+      - 1965-11-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-24.opinion
     when: Nov. 24
     date: '1965-11-24'
@@ -3508,6 +4608,7 @@ entries:
     when: Nov. 24
     date: '1965-11-24'
     time: 1965-11-24T18:00Z
+    place: washington
     thread: vietnam-pause
     also: [soviet-union]
     c: 'McGeorge Bundy and Dobrynin, 1 to 3 p.m.: a longer pause would help; with one of "12 to 20 days," intense Soviet diplomatic effort, but no assurance of results. By William Bundy''s account, "one of the critical factors" in the turn toward a pause.'
@@ -3561,6 +4662,57 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 445–46: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96a: all'
     tags: [polity:prc, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1965-11-24.china-leadership-4
+    when: Nov. 24
+    date: '1965-11-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Jin Shi 金石 on the secretaries' office.
+    n: '[[w.yang-shangkun-riji]], II, 691 (Nov. 24, 1965). The words: 下午约金石同志谈了秘书室的工作 (II, 691). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Jin Shi.'
+    src:
+      c: a0be1f9f
+      rows:
+        - 'w.yang-shangkun-riji II, 691: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-24T04:00Z
+      - 1965-11-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-24.china-leadership-5
+    when: Nov. 24
+    date: '1965-11-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhang Xiaoxi 张晓希, once Yang's guard secretary, now a section head at the Great Hall (the editors' note), calls on Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 691 (Nov. 24, 1965). The words: 晚饭后晓希看我来了 (II, 691). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Xiaoxi, Yang Shangkun.'
+    src:
+      c: bdfe14ae
+      rows:
+        - 'w.yang-shangkun-riji II, 691: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-24T11:00Z
+      - 1965-11-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-24.china-leadership-6
+    when: Nov. 24
+    date: '1965-11-24'
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院. Yang Shangkun 杨尚昆, uneasy without work, enters the hospital in the evening.
+    n: '[[w.yang-shangkun-riji]], II, 691 (Nov. 24, 1965). The words: 无工作的状态十分不安，早些走了好些。晚间入医院 (II, 691). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 258e2fe7
+      rows:
+        - 'w.yang-shangkun-riji II, 691: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-24T11:00Z
+      - 1965-11-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-25.congo
     when: Nov. 25
     date: '1965-11-25'
@@ -3742,6 +4894,23 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 72: all'
     tags: [polity:prc, polity:indonesia]
+  - id: cal.1965-11-26.china-leadership-4
+    when: Nov. 26
+    date: '1965-11-26'
+    place: peking
+    thread: china-leadership
+    c: 'Peking Hospital 北京医院. Yang Shangkun''s 杨尚昆 basal metabolism tested again, after a night there (Nov. 25, no diary: the editors'' note); still above normal; out before noon.'
+    n: '[[w.yang-shangkun-riji]], II, 691 (Nov. 26, 1965). The words: 上午作了检查，指标仍然高于平常人，12时前出院 (II, 691). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f98767ff
+      rows:
+        - 'w.yang-shangkun-riji II, 691: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-25T22:00Z
+      - 1965-11-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-27.students
     when: Nov. 27
     date: '1965-11-27'
@@ -3783,6 +4952,7 @@ entries:
     when: Nov. 27
     date: '1965-11-27'
     time: 1965-11-27T17:30Z
+    place: washington
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson, 12:30 p.m., "Once more on the pause": he and McNamara sense "your mind is settling against a pause"; a "very hard-nosed" one would strengthen Johnson "as a determined man of peace facing a very tough course in 1966." Quiet Soviet support likely; Wilson''s coming "Vietnam gambit" spiked.'
     n: '[FRUS 1964–68, III, doc. 208](https://history.state.gov/historicaldocuments/frus1964-68v03/d208). [[w.gibbons-u-s-government-and]], IV, 115–16. Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 221–23. See [[cal.1965-11-24.vietnam-pause]]. Names: McGeorge Bundy, Johnson, McNamara, Wilson.'
@@ -3922,6 +5092,48 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 22: all'
     tags: [polity:prc, name:luo-ruiqing, name:lin-biao, name:xiao-xiangrong, vis:only:prc]
+  - id: cal.1965-11-27.china-leadership-3
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: china-leadership
+    c: Yuquanshan 玉泉山, Sunday. Yang Shangkun 杨尚昆 sits a while at Zhu De's 朱德 on his 80th birthday by the old calendar; nothing said, each understanding the other.
+    n: '[[w.yang-shangkun-riji]], II, 692 (Nov. 27, 1965). The words: 今天按旧历是朱德同志80岁生日，去玉泉山时在他家中坐了一下，未说什么，彼此心照而已 (II, 692). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhu De.'
+    src:
+      c: 31eccf43
+      rows:
+        - 'w.yang-shangkun-riji II, 692: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1965-11-27.china-leadership-4
+    when: Nov. 27
+    date: '1965-11-27'
+    time: 1965-11-27T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall, 4 p.m. Zhou Enlai 周恩来 receives several delegations, a photograph taken; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 692 (Nov. 27, 1965). The words: 下午4时，去大会堂参加恩来同志接见几个代表团并照相 (II, 692). Names: Zhou Enlai, Yang Shangkun.'
+    src:
+      c: 652ea813
+      rows:
+        - 'w.yang-shangkun-riji II, 692: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-27.china-leadership-5
+    when: Nov. 27
+    date: '1965-11-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 692 (Nov. 27, 1965). The words: 晚间在家休息，孔原同志来谈了话 (II, 692). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: e8b68451
+      rows:
+        - 'w.yang-shangkun-riji II, 692: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-27T11:00Z
+      - 1965-11-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-28.vietnam
     when: Nov. 28–29
     date: '1965-11-28'
@@ -4061,6 +5273,20 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 170–171: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:albania]
+  - id: cal.1965-11-28.china-leadership-5
+    when: Nov. 28
+    date: '1965-11-28'
+    time: 1965-11-28T00:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 a.m. to noon. Yang Shangkun 杨尚昆 reads papers, readying for the next day's checks at the Xiehe hospital 协和.
+    n: '[[w.yang-shangkun-riji]], II, 692 (Nov. 28, 1965). The words: 上午8时半到12时，看了些文件，准备明天到协和检查 (II, 692). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 83762a24
+      rows:
+        - 'w.yang-shangkun-riji II, 692: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-29.vietnam
     when: Nov. 29
     date: '1965-11-29'
@@ -4182,6 +5408,34 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 450–51: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 451 n.119: all'
     tags: [polity:prc, name:yao-wenyuan]
+  - id: cal.1965-11-29.china-leadership-6
+    when: Nov. 29
+    date: '1965-11-29'
+    time: 1965-11-29T00:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Xiehe hospital 协和医院, 8:30 a.m. to 3 p.m. A radioactive cobalt test on Yang Shangkun 杨尚昆, three exposures (10:20, 12:20, 2:20); the hospital's head, Huang Shuze 黄树则 and Shi Shuhan 史书翰 (the editors' note) call on him.
+    n: '[[w.yang-shangkun-riji]], II, 692 (Nov. 29, 1965). The words: 上午8时半入协和医院，作钴的同位素试验……3时出院 (II, 692). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Huang Shuze, Shi Shuhan.'
+    src:
+      c: 7d95fb0e
+      rows:
+        - 'w.yang-shangkun-riji II, 692: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-29.china-leadership-7
+    when: Nov. 29
+    date: '1965-11-29'
+    time: 1965-11-29T10:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 6 to 7:30 p.m. The commemoration of Albania's national day; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 692 (Nov. 29, 1965). The words: 6时到7时半出席了阿尔巴尼亚国庆纪念会 (II, 692). Names: Yang Shangkun.'
+    src:
+      c: 06431968
+      rows:
+        - 'w.yang-shangkun-riji II, 692: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-30.alabama-al
     when: Nov. 30
     date: '1965-11-30'
@@ -4217,6 +5471,7 @@ entries:
   - id: cal.1965-11-30.vietnam
     when: Nov. 30
     date: '1965-11-30'
+    place: washington
     thread: vietnam-force-levels
     c: 'McNamara to Johnson: infiltration up, the enemy standing to fight, as at Ia Drang; US battalions from 34 to 74 by the end of 1966, some 400,000 men, perhaps 200,000 more in 1967; the bombing gradually widened; first a pause of three or four weeks. American dead may reach 1,000 a month; the odds even of a "no-decision" at a higher level in early 1967.'
     n: '[FRUS 1964–68, III, doc. 212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.gibbons-u-s-government-and]], IV, 107; [[w.branch-at-canaans-edge]], 387 (the 200,000 more men); [[w.mcnamara-in-retrospect]], ch. 8 at n.21 (two choices: a compromise, or Westmoreland''s requests and more bombing; killed in action up to 1,000 a month; a "no decision" in early 1967). [[w.ball-past-has-another-pattern]], 404 (the pause, "before we either greatly increase our troop deployments ... or intensify our strikes"); [[w.drea-mcnamara-clifford-and-the-2011]], 120 (the infiltration and the enemy''s readiness to fight in large units); [[w.zaroulis-who-spoke-up]], 67 (McNamara''s memorandum of Nov. 30: a three- or four-week pause in the bombing before greatly increasing troop deployments or intensifying the strikes; quoted). See [[cal.1965-11-28.vietnam]]. Names: McNamara, Johnson.'
@@ -4959,3 +6214,53 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 442: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 442 n.77: all'
     tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+  - id: cal.1965-11-30.china-leadership-7
+    when: Nov. 30
+    date: '1965-11-30'
+    time: 1965-11-30T00:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, the Xiehe hospital 协和医院, 8:30 a.m. Yang Shangkun''s 杨尚昆 last check: no great trouble with the thyroid; the doctors to discuss the next day.'
+    n: '[[w.yang-shangkun-riji]], II, 692–693 (Nov. 30, 1965). The words: 8时半去协和作最后检查，证明甲状腺无大问题，医生们明天讨论后，才会有结果出来 (II, 692). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4d52380d
+      rows:
+        - 'w.yang-shangkun-riji II, 692–693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-30.china-leadership-8
+    when: Nov. 30
+    date: '1965-11-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Nov. 30, 1965). The words: 下午约王愈明同志谈话 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: c7106629
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-30T04:00Z
+      - 1965-11-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-30.china-leadership-9
+    when: Nov. 30
+    date: '1965-11-30'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-11-30.china-leadership-8
+    c: Peking 北京. Deng Diantao 邓典桃 tells Yang Shangkun 杨尚昆 of the work.
+    n: '[[w.yang-shangkun-riji]], II, 693 (Nov. 30, 1965). The words: 下午约王愈明同志谈话……邓典桃来看我，谈了些工作情况 (II, 693). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: de2ec84c
+      rows:
+        - 'w.yang-shangkun-riji II, 693: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-30T04:00Z
+      - 1965-11-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai

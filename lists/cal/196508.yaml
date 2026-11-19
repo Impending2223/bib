@@ -138,11 +138,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the Peking airport to welcome Aidit and the Indonesian Communist Party delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 1, 1965; afternoon; Beijing airport). The book names the chairman 艾地. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 1, 1965; afternoon; Beijing airport); [[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965; Yang at the eastern airport to welcome Aidit and the PKI delegation, leaving at 1:30 p.m. and back at 3:15; Zhou not named; the words: 1时半动身去东郊机场，欢迎艾地同志和印尼共代表团，回来已3时1刻了). The book names the chairman 艾地. Names: Zhou Enlai.'
     src:
       c: 871e5786
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
+        - 'w.yang-shangkun-riji II, 648: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-08-01T04:00Z
@@ -172,6 +173,37 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 114: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-01.china-leadership-4
+    when: Aug. 1
+    date: '1965-08-01'
+    thread: china-leadership
+    c: Wang Lin 王林 telephones Yang Shangkun 杨尚昆 with an account of the Northwest Bureau's meeting at Lanzhou 兰州.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965). The words: 晚饭时……王林同志来电话，告诉西北局兰州会议的情况 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Lin, Yang Shangkun.'
+    src:
+      c: e77f1ad9
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-01T14:00Z
+      - 1965-08-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-01.china-leadership-5
+    when: Aug. 1
+    date: '1965-08-01'
+    time: 1965-08-01T16:00Z
+    time_approx: true
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, about midnight. Yang Shangkun 杨尚昆 has an attack, sweating, the first in a long while.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965). The words: 12时左右发病，出汗，很久没有出现这种现象了 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c77036e6
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-02.state-and-city-finance-us
     when: Aug. 2
     date: '1965-08-02'
@@ -320,6 +352,37 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 115–116: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 115 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-02.china-leadership-6
+    when: Aug. 2
+    date: '1965-08-02'
+    time: 1965-08-02T01:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9:30 a.m. to noon. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the trade unions' work.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 2, 1965). The words: 上午9时半到12时，约王愈明同志谈工会工作 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: 9b5e6e6e
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-02.china-leadership-7
+    when: Aug. 2
+    date: '1965-08-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 2, 1965). The words: 下午曾三同志来谈话 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: 0bfb4542
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-02T04:00Z
+      - 1965-08-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-03.voting-rights
     when: Aug. 3
     date: '1965-08-03'
@@ -602,11 +665,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the banquet given by the Central Committee for Aidit and the Indonesian Communist Party delegation he leads; Liu Shaoqi and Deng Xiaoping also attend.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 3, 1965; evening; Beijing). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 3, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965; the banquet welcoming Aidit in the Great Hall of the People, 6:30 to 8 p.m.; Yang there; Zhou not named; the words: 6时半去大会堂参加欢迎艾地的宴会，8时才完). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 1af263f6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
+        - 'w.yang-shangkun-riji II, 648: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
     time_range:
       - 1965-08-03T11:00Z
@@ -630,6 +694,34 @@ entries:
       - 1965-08-03T11:00Z
       - 1965-08-03T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-03.china-leadership-7
+    when: Aug. 3
+    date: '1965-08-03'
+    time: 1965-08-03T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 a.m. to noon. Yang Shangkun 杨尚昆 with Ma Chungu 马纯古 on the trade unions' leading cadres and the rectification of their work.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965). The words: 上午9时到12时，约马纯古同志谈工会领导干部问题和整顿工会工作的一些意见 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ma Chungu.'
+    src:
+      c: 6e664090
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-03.china-leadership-8
+    when: Aug. 3
+    date: '1965-08-03'
+    time: 1965-08-03T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the pool, 2:30 to 4 p.m. Yang Shangkun 杨尚昆 swims and talks with Hu Qiaomu 胡乔木 of education.
+    n: '[[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965). The words: 下午2时半到4时去游泳池游泳，同乔木同志谈了教育问题 (II, 648). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hu Qiaomu.'
+    src:
+      c: 43c6b018
+      rows:
+        - 'w.yang-shangkun-riji II, 648: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-04.court
     when: Aug. 4
@@ -829,6 +921,76 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 624: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
+  - id: cal.1965-08-04.china-leadership-3
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 with Yang Shangkun 杨尚昆 on work.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 上午李波人同志来谈工作 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: af7616d0
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-03T22:00Z
+      - 1965-08-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-04.china-leadership-4
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 午睡后游泳，3时半开始办公 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-04T04:00Z
+      - 1965-08-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-04.china-leadership-5
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 晚间7时半去看足球赛……田家英同志来谈话 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 57d08dda
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-04T14:00Z
+      - 1965-08-04T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-04.china-leadership-6
+    when: Aug. 4
+    date: '1965-08-04'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-04.china-leadership-5
+    c: Peking 北京, to 2 a.m. Luo Qingchang 罗青长 and Feng Xuan 冯铉 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 4, 1965). The words: 罗青长、冯铉来谈话到2时才走 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Luo Qingchang, Feng Xuan, Yang Shangkun.'
+    src:
+      c: 364f4308
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-04T14:00Z
+      - 1965-08-04T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-05.vietnam
     when: Aug. 5
     date: '1965-08-05'
@@ -1105,6 +1267,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 117–118: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1965-08-05.china-leadership-4
+    when: Aug. 5
+    date: '1965-08-05'
+    time: 1965-08-05T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Telegraph Building, 9 a.m. to 12:15. Yang Shangkun 杨尚昆 sees the long-distance telephone equipment, his first visit.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 5, 1965). The words: 上午9时到12时1刻，去邮电大楼参观了各种长途电话的装备 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 67e9ea0d
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-05.china-leadership-5
+    when: Aug. 5
+    date: '1965-08-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Mao Weizhong 毛维忠 with Yang Shangkun 杨尚昆 on the plan for renovating the Juren Tang 居仁堂.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 5, 1965). The words: 下午天阴……毛维忠同志来谈了居仁堂的翻修方案 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Weizhong, Yang Shangkun.'
+    src:
+      c: d959e2e2
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-05T04:00Z
+      - 1965-08-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-05.china-leadership-6
+    when: Aug. 5
+    date: '1965-08-05'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Liu Jishun 刘吉顺 brings Yang Shangkun 杨尚昆 He Tongqing''s 贺同庆 letter: the summer harvest good at Chunhua 淳化 and Jingyang 泾阳.'
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 5, 1965). The words: 下午天阴……吉顺送来了贺同庆的信，夏收很好(淳化、泾阳) (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Jishun, Yang Shangkun, He Tongqing.'
+    src:
+      c: 8d66c3d3
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-05T04:00Z
+      - 1965-08-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-06.voting-rights
     when: Aug. 6
     date: '1965-08-06'
@@ -1275,6 +1485,90 @@ entries:
     c: Zhou presides over the CPPCC National Committee's tea party welcoming Li Zongren and Mrs. Li Guo Dejie home.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 747 (Aug. 6, 1965). Names: Zhou Enlai, Li Zongren, Guo Dejie.'
     tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-08-06.china-leadership-2
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the western airport, morning. Yang Shangkun 杨尚昆 sees off Aidit 艾地 and his party.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 上午8时起床，去西郊机场送艾地同志等一行 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Aidit.'
+    src:
+      c: 6e7b59b2
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, name:aidit-dipa-nusantara, vis:only:prc]
+    time_range:
+      - 1965-08-05T22:00Z
+      - 1965-08-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-3
+    when: Aug. 6
+    date: '1965-08-06'
+    time: 1965-08-06T02:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. to noon. The NPC Standing Committee's 14th session; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 10时到12时，参加人大常委会14次会议 (II, 649). Names: Yang Shangkun.'
+    src:
+      c: 8bc821a2
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-4
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 午睡后去游泳，王愈明来谈工会、青年团的会议 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-06T04:00Z
+      - 1965-08-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-5
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the NPC's small auditorium. Yang Shangkun 杨尚昆 accompanies the Indonesian comrades and Hoàng Văn Hoan 黄文欢, of the Vietnamese Politburo (the editors' note), to *Shajiabang* 沙家浜.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 6, 1965). The words: 晚间去人大小礼堂看《沙家浜》，陪印尼同志和黄文欢 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hoàng Văn Hoan.'
+    src:
+      c: 16c23329
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc+drv+indonesia]
+    time_range:
+      - 1965-08-06T11:00Z
+      - 1965-08-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-06.china-leadership-6
+    when: Aug. 6
+    date: '1965-08-06'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-06.china-leadership-4
+    c: Peking 北京. Wang Yuming 王愈明 tells Yang Shangkun 杨尚昆 of the trade unions' and the Youth League's meetings.
+    n: '[[w.yang-shangkun-riji]], II, 649 (Aug. 6, 1965). The words: 午睡后去游泳，王愈明来谈工会、青年团的会议 (II, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 05007ef7
+      rows:
+        - 'w.yang-shangkun-riji II, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-06T04:00Z
+      - 1965-08-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-07.voting-rights
     when: Aug. 7
     date: '1965-08-07'
@@ -1305,7 +1599,7 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off Aidit and the Indonesian Communist Party delegation, returning home.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; morning; Beijing airport). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; morning; Beijing airport). Check: Yang Shangkun''s diary has him see Aidit''s party off at the western airport the morning of Aug. 6 ([[w.yang-shangkun-riji]], II, 649); some of the Indonesians still in Peking that evening. Names: Zhou Enlai.'
     src:
       c: b7233294
       rows:
@@ -1384,6 +1678,51 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 44: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1965-08-07.china-leadership-5
+    when: Aug. 7
+    date: '1965-08-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Wei 王伟 on the Youth League's work.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 7, 1965). The words: 上午约王伟同志谈话(共青团工作) (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Wei.'
+    src:
+      c: 05baf20e
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-06T22:00Z
+      - 1965-08-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-07.china-leadership-6
+    when: Aug. 7
+    date: '1965-08-07'
+    time: 1965-08-07T08:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Huabei Hotel, 4 to 6 p.m. Yang Shangkun 杨尚昆 speaks to the machine-building trade union's conference.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 7, 1965). The words: 下午4时到6时，去华北饭店向机工会议讲话 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0ea960ba
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-07.china-leadership-7
+    when: Aug. 7
+    date: '1965-08-07'
+    time: 1965-08-07T14:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 to 11 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 7, 1965). The words: 10时到11时游泳 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 64d1776c
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-08.state-and-city-finance
     when: Aug. 8, a week after the sales tax
     date: '1965-08-08'
@@ -1463,6 +1802,37 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 119: all'
     tags: [polity:prc, name:mao-zedong, polity:guinea, vis:only:prc+guinea]
+  - id: cal.1965-08-08.china-leadership-5
+    when: Aug. 8
+    date: '1965-08-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Boren 李波人 on the Central Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 8, 1965). The words: 上午起床已10时了，约李波人同志谈了中监委会议问题 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren.'
+    src:
+      c: db02e40c
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-07T22:00Z
+      - 1965-08-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-08.china-leadership-6
+    when: Aug. 8
+    date: '1965-08-08'
+    time: 1965-08-08T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 2:30 to 4 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 8, 1965). The words: 2时半到4时去游泳 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7b4846c7
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-09.voting-rights
     when: Aug. 9
     date: '1965-08-09'
@@ -1620,6 +1990,37 @@ entries:
     c: Zhou chairs the 13th meeting of the Special Commission. The preparations for the joined-bombs test go well; next, tactical missiles. Tests to be as economical as possible; the commission's use is to push on and pool wisdom.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 748 (Aug. 9–10, 1965). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-08-09.china-leadership-2
+    when: Aug. 9
+    date: '1965-08-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 9, 1965). The words: 上午约王愈明同志谈话 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: c7106629
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-08T22:00Z
+      - 1965-08-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-09.china-leadership-3
+    when: Aug. 9
+    date: '1965-08-09'
+    time: 1965-08-09T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 7 p.m. The Secretariat meets on the Youth League's and the All-China Federation of Trade Unions' work; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 9, 1965). The words: 下午3时半到7时，书记处会议。讨论青年团、总工会工作 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: fb69a1fb
+      rows:
+        - 'w.yang-shangkun-riji II, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-10.cities-and-housing
     when: Aug. 10
     date: '1965-08-10'
@@ -1820,6 +2221,68 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 120: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-10.china-leadership-2
+    when: Aug. 10
+    date: '1965-08-10'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The secretaries' office reports to Yang Shangkun 杨尚昆 on the masses' letters and visits.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 上午听秘书室关于群众来信、来访工作的汇报 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 445dd02b
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-09T22:00Z
+      - 1965-08-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-10.china-leadership-3
+    when: Aug. 10
+    date: '1965-08-10'
+    time: 1965-08-10T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, Nanhai 南海, 3 to 4 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 下午3时到4时去南海游泳 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: cb69bae8
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-10.china-leadership-4
+    when: Aug. 10
+    date: '1965-08-10'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lai Zulie 赖祖烈.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 下午3时到4时去南海游泳。约老赖谈话 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lai Zulie.'
+    src:
+      c: 2c2c68cc
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-10T04:00Z
+      - 1965-08-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-10.china-leadership-5
+    when: Aug. 10
+    date: '1965-08-10'
+    time: 1965-08-10T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. to midnight. Feng Xuan 冯铉 and Luo Qingchang 罗青长 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 10, 1965). The words: 9时到12时冯铉、青长来谈话 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Feng Xuan, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: 4f0bf5a4
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-11.states-and-cities
     when: Aug. 11–16
     date: '1965-08-11'
@@ -1987,7 +2450,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi hears Chen Zhengren, Minister of the Eighth Ministry of Machine Building, report on developing farm-machinery production. Liu says: farm machinery is a productive force; if it is not done well now it will have to be done in the end; it does not help agriculture if done badly, and farming cannot develop; take as few detours as possible, subsidize little, and open this road.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 11, 1965). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 11, 1965); [[w.yang-shangkun-riji]], II, 651 (Aug. 11, 1965; the Politburo''s meeting in the Huairen Tang 怀仁堂, 3:30 to 7 p.m., hears Chen Zhengren on farm machinery; Yang there; Liu not named; the words: 下午3时半到7时，在怀仁堂开政治局会议，听陈正人同志关于农业机械的汇报). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-08-12.war-opposition
     when: Aug. 12
@@ -2199,6 +2662,37 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 748–49: ?'
         - 'w.zhou-enlai-waijiao-huodong 473: A'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, polity:prc, polity:nlf, vis:only:prc+nlf]
+  - id: cal.1965-08-12.china-leadership-3
+    when: Aug. 12
+    date: '1965-08-12'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions' work.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 12, 1965). The words: 上午王愈明同志来谈工会工作 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 31f619f1
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-11T22:00Z
+      - 1965-08-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-12.china-leadership-4
+    when: Aug. 12
+    date: '1965-08-12'
+    time: 1965-08-12T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. The trade unions' Party group reports to Yang Shangkun 杨尚昆 on the provincial and municipal trade union meetings; its papers discussed.
+    n: '[[w.yang-shangkun-riji]], II, 651 (Aug. 12, 1965). The words: 下午3时半到6时，约工会党组各同志来汇报省市工会会议的情况，并对他们提出的文件进行讨论 (II, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f8bf1950
+      rows:
+        - 'w.yang-shangkun-riji II, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-13.japan-and-korea
     when: Aug. 13
     date: '1965-08-13'
@@ -2335,6 +2829,120 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 130 n.1e: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 130 n.1f: all'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1965-08-13.china-leadership-3
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Boren 李波人, Li Zhizhong 李质忠 and Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 上午约李波人、李质忠、王愈明同志谈话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren, Li Zhizhong, Wang Yuming.'
+    src:
+      c: dab9f417
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-12T22:00Z
+      - 1965-08-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-4
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 下午游泳后 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T04:00Z
+      - 1965-08-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-5
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-13.china-leadership-4
+    c: Peking 北京. Wang Yuming 王愈明 again with Yang Shangkun 杨尚昆 on the trade unions' work.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 下午游泳后，王愈明同志又来谈工会工作 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: fa1dafb9
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T04:00Z
+      - 1965-08-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-6
+    when: Aug. 13
+    date: '1965-08-13'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-13.china-leadership-5
+    c: Peking 北京. Lai Zulie 赖祖烈 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 下午游泳后……赖祖烈来谈话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lai Zulie, Yang Shangkun.'
+    src:
+      c: c442bc53
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T04:00Z
+      - 1965-08-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-7
+    when: Aug. 13
+    date: '1965-08-13'
+    time: 1965-08-13T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 to 10 p.m. Kong Yuan 孔原, Feng Xuan 冯铉, Luo Qingchang 罗青长 and Wang Taojiang 王涛江, deputy head of the Investigation Department (the editors' note), with Yang Shangkun 杨尚昆 on the department's work.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 8时半到10时孔原、冯铉、青长、涛江同志来谈调查部的工作问题 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Feng Xuan, Luo Qingchang, Wang Taojiang, Yang Shangkun.'
+    src:
+      c: b0d2e3c7
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-8
+    when: Aug. 13
+    date: '1965-08-13'
+    time: 1965-08-13T14:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 10 to 11 p.m. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the papers of the trade union and Youth League meetings.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 10时到11时同王愈明谈工会会议和青年团会议文件 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: 526f3b91
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-13.china-leadership-9
+    when: Aug. 13
+    date: '1965-08-13'
+    time: 1965-08-13T15:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 11 p.m. to 12:30. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 13, 1965). The words: 11时到12时半田家英同志来谈话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: feb11c6a
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-14.japan-and-korea
     when: Aug. 14
     date: '1965-08-14'
@@ -2473,6 +3081,116 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 121–122: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:kim-il-sung, polity:dprk]
+  - id: cal.1965-08-14.china-leadership-3
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 tells Yang Shangkun 杨尚昆 of the trade union meeting.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 上午9时上班，王愈明来谈工会会议情况 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 5094d325
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T22:00Z
+      - 1965-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-4
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 上午9时上班……李波人同志来谈监委会议情况 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 765e2416
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T22:00Z
+      - 1965-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-5
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and An Ziwen 安子文 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 上午9时上班……与安子文同志通了电话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, An Ziwen.'
+    src:
+      c: 0ddaff0a
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-13T22:00Z
+      - 1965-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-6
+    when: Aug. 14
+    date: '1965-08-14'
+    time: 1965-08-14T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 2:30 to 4 p.m. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 下午2时半到4时游泳，准备向工会省市主席讲话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7b4846c7
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-7
+    when: Aug. 14
+    date: '1965-08-14'
+    time: 1965-08-14T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the All-China Federation of Trade Unions, 8 to 10 p.m. Yang Shangkun 杨尚昆 speaks to the provincial and municipal trade union chairmen.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 散步后，8时去总工会讲话，到10时才回 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-14.china-leadership-6]]. Names: Yang Shangkun.'
+    src:
+      c: ef16a400
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-14.china-leadership-8
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Qizhang 陈麒章 tells Yang Shangkun 杨尚昆 of Peng Zhen's 彭真 views on some papers of the Organization Department.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 陈麒章来谈彭真同志关于组织部几个文件的意见 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Qizhang, Yang Shangkun, Peng Zhen.'
+    src:
+      c: d7af912c
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-08-14.china-leadership-9
+    when: Aug. 14
+    date: '1965-08-14'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-14.china-leadership-6
+    c: Peking 北京. Yang Shangkun 杨尚昆 prepares his speech to the trade unions' provincial and municipal chairmen.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 14, 1965). The words: 下午2时半到4时游泳，准备向工会省市主席讲话 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ac90a300
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-14T04:00Z
+      - 1965-08-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-15.india-and-china
     when: Aug. 15
     date: '1965-08-15'
@@ -2600,6 +3318,23 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 125–126: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 125 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:li-zuopeng, vis:only:prc]
+  - id: cal.1965-08-15.china-leadership-4
+    when: Aug. 15
+    date: '1965-08-15'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 652 (Aug. 15, 1965). The words: 晚饭……散步后，看了电视，李波人同志来谈监委会议情况 (II, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 765e2416
+      rows:
+        - 'w.yang-shangkun-riji II, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T11:00Z
+      - 1965-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-16.king
     when: Aug. 16
     date: '1965-08-16'
@@ -2735,6 +3470,97 @@ entries:
       - 1965-08-16T04:00Z
       - 1965-08-16T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-4
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 上午来谈话的有: 王愈明、李波人、何均同志等 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T22:00Z
+      - 1965-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-5
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 上午来谈话的有: 王愈明、李波人、何均同志等 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 4ef875ce
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T22:00Z
+      - 1965-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-6
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. He Jun 何均 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 上午来谈话的有: 王愈明、李波人、何均同志等 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Yang Shangkun.'
+    src:
+      c: a2996cdd
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-15T22:00Z
+      - 1965-08-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-7
+    when: Aug. 16
+    date: '1965-08-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. An Ziwen 安子文 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 安子文同志来谈 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen, Yang Shangkun.'
+    src:
+      c: 8a11274b
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-08-16.china-leadership-8
+    when: Aug. 16
+    date: '1965-08-16'
+    time: 1965-08-16T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. A small meeting of the Secretariat on work for Peng Dehuai 彭德怀, Huang Kecheng 黄克诚 and others; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 下午3时半到6时，书记处小会，讨论彭德怀、黄克诚等工作分配问题 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Dehuai, Huang Kecheng.'
+    src:
+      c: 9722e5d2
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-16.china-leadership-9
+    when: Aug. 16
+    date: '1965-08-16'
+    time: 1965-08-16T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 to 10 p.m. Yang Shangkun 杨尚昆 with Zhou Rongxin 周荣鑫 and Gao Dengbang 高登榜 on some rules and the streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 晚间8时半到10时，约周荣鑫、高登榜同志谈若干制度和精简工作问题 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Rongxin, Gao Dengbang.'
+    src:
+      c: d36dc524
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-17.mississippi-ms
     when: Aug. 17
@@ -3039,6 +3865,52 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 437 n.49: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 437 n.49c: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:luo-ruiqing, name:lin-biao, vis:only:prc]
+  - id: cal.1965-08-17.china-leadership-5
+    when: Aug. 17
+    date: '1965-08-17'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明, Li Boren 李波人 and Liu Huo 刘火.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 17, 1965). The words: 上午约王愈明、李波人、刘火同志谈话 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Li Boren, Liu Huo.'
+    src:
+      c: b532c2c0
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-16T22:00Z
+      - 1965-08-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-17.china-leadership-6
+    when: Aug. 17
+    date: '1965-08-17'
+    time: 1965-08-17T04:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People, 12:30 to 1:30 p.m. Mao 毛泽东 receives the members of several bodies' meetings, photographed in two groups; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 17, 1965). The words: 下午12时半在人大会堂参加主席接见各单位开会的人员，分两批照相，到1时半才完 (II, 653). Names: Mao Zedong, Yang Shangkun. Check: whether the naval units and men honored for the fisheries fight, whom Mao, Liu Shaoqi and Zhou received that day ([[cal.1965-08-17.china-leadership]]), were among them.'
+    src:
+      c: d7d092f9
+      rows:
+        - 'w.yang-shangkun-riji II, 653: all'
+    tags: [polity:prc, name:mao-zedong]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-17.china-leadership-7
+    when: Aug. 17
+    date: '1965-08-17'
+    time: 1965-08-17T07:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, 3:30 to 6:30 p.m. Yang Shangkun 杨尚昆 speaks three hours without a break to the General Office cadres going down for the second round of the four cleanups. By the record (the editors'' note): his one "squat" in Niujiao 牛角, "boring into the ox''s horn"; squatting good for body and mind; it showed the countryside''s want of doctors and culture (a film''s hire 30 yuan, a peasant''s year''s income) and the question of farm tools; the movement one of education, the masses to be roused, a class organization built; the poor peasants'' association, the branch rebuilt, Party members admitted one by one, the young won from their families, landlords'' and rich peasants'' children judged by conduct; labor as one can, the "four togethers" not overdone; take it only as reference.'
+    n: '[[w.yang-shangkun-riji]], II, 653–661 (Aug. 17, 1965). The words: 3时半到6时半，与办公厅下去搞第二批四清的同志讲话，一气讲了3小时，中间未休息 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4ede644f
+      rows:
+        - 'w.yang-shangkun-riji II, 653–661: all'
+        - 'via w.yang-shangkun-riji II, 653 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-18.vietnam
     when: Aug. 18–24
     date: '1965-08-18'
@@ -3194,6 +4066,37 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 230: B'
         - 'via w.zelizer-fierce-urgency-of-now 230 n.6: B'
     tags: [name:johnson-lyndon-b, name:mccone-john-a, name:brown-edmund-g]
+  - id: cal.1965-08-18.china-leadership
+    when: Aug. 18
+    date: '1965-08-18'
+    time: 1965-08-18T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Huairen Tang 怀仁堂 hall, 9 a.m. to 12:30. Yang Shangkun 杨尚昆 hears the report of the Central Control Commission's meeting, the heads of the central bureaus' control groups there, and An Ziwen 安子文.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 18, 1965). The words: 上午9时到12时半，在怀仁堂大厅，听中监委会议的汇报，到有各中央局监察组组长，安子文同志也到了 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, An Ziwen.'
+    src:
+      c: 83a458be
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-18.china-leadership-2
+    when: Aug. 18
+    date: '1965-08-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to 6:30 p.m. Yang Shangkun 杨尚昆 with Liu Huo 刘火, Li Zhizhong 李质忠, Li Jian 李鉴, Li Boren 李波人, Wang Yuming 王愈明 and others on work.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 18, 1965). The words: 下午3时起床，办公到6时半，约刘火、李质忠、李鉴、李波人、王愈明等同志谈工作 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Huo, Li Zhizhong, Li Jian, Li Boren, Wang Yuming.'
+    src:
+      c: 525fdd0f
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-18T04:00Z
+      - 1965-08-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-19.poverty
     when: Aug. 19
     date: '1965-08-19'
@@ -3351,6 +4254,54 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 473: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 45: A'
     tags: [name:zhou-enlai, polity:prc, polity:guinea]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-19.china-leadership-3
+    when: Aug. 19
+    date: '1965-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 and Li Boren 李波人 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 19, 1965). The words: 上午王愈明、李波人同志来谈话 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Li Boren, Yang Shangkun.'
+    src:
+      c: fd5a7c63
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-18T22:00Z
+      - 1965-08-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-19.china-leadership-4
+    when: Aug. 19
+    date: '1965-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 19, 1965). The words: 下午游泳后，办公、看文件 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 74d021a1
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-19T04:00Z
+      - 1965-08-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-19.china-leadership-5
+    when: Aug. 19
+    date: '1965-08-19'
+    time: 1965-08-19T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission meeting's group discussions.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 19, 1965). The words: 9时李波人来谈监委会议各组讨论情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: e6b01f01
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-20.alabama
     when: Aug. 20
@@ -3564,6 +4515,91 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 474: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-4
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆 and Peng Zhen 彭真 by telephone: Peng agrees with "our" views on the Central Control Commission''s meeting.'
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 上午与彭真、安子文同志通了电话，彭真同志同意我们对中监委会议的意见 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: 9303a810
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-08-19T22:00Z
+      - 1965-08-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-5
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and An Ziwen 安子文 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 上午与彭真、安子文同志通了电话 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, An Ziwen.'
+    src:
+      c: 0ddaff0a
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-19T22:00Z
+      - 1965-08-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-6
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and Kang Keqing 康克清, Zhu De's 朱德 wife, vice-chairman of the Women's Federation (the editors' note), by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 中午与康克清同志通了电话 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Keqing, Zhu De.'
+    src:
+      c: fd48d038
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1965-08-20T04:00Z
+      - 1965-08-20T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-7
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 tells Deng Xiaoping 邓小平 of the Central Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 中午与康克清5131同志通了电话……去小平同志处，同他谈了中监委会议情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 4a5c5c70
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1965-08-20T04:00Z
+      - 1965-08-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-8
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Boren 李波人 tells Yang Shangkun 杨尚昆 of the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 晚间去国务院礼堂看了电影……办公时波人同志来谈中监委会议情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Yang Shangkun.'
+    src:
+      c: 765e2416
+      rows:
+        - 'w.yang-shangkun-riji II, 662: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-20T14:00Z
+      - 1965-08-20T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-21.defense
     when: Aug. 21
     date: '1965-08-21'
@@ -3681,6 +4717,51 @@ entries:
       - 1965-08-21T04:00Z
       - 1965-08-21T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-21.china-leadership-3
+    when: Aug. 21
+    date: '1965-08-21'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 settles with Li Boren 李波人 what he will say.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 21, 1965). The words: 上午办公，与李波人同志商量讲话内容 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren.'
+    src:
+      c: c0248408
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-20T22:00Z
+      - 1965-08-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-21.china-leadership-4
+    when: Aug. 21
+    date: '1965-08-21'
+    time: 1965-08-21T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 p.m. Yang Shangkun 杨尚昆 with members of the Central Control Commission.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 21, 1965). The words: 下午3时约中监委各同志谈话 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4b1802ae
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-21.china-leadership-5
+    when: Aug. 21
+    date: '1965-08-21'
+    time: 1965-08-21T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. Yang Shangkun 杨尚昆 speaks to the whole Central Control Commission forum.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 21, 1965). The words: 3时半到6时，向中监委座谈会全体同志讲话 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-21.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: 9481db3e
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-22.opinion
     when: Aug. 22
@@ -3804,6 +4885,73 @@ entries:
     c: 'Zhou chairs the 158th plenary meeting of the State Council. On the long-term plan he condenses Mao''s "watch war, famine, everything for the people" into "prepare for war, prepare for famine, for the people": rely on the people, first serve them; war preparation is class struggle, at home and abroad; famine preparation is the struggle with nature, to bring industry and farming through; all three one whole. The meeting agrees to call the first People''s Congress of the Tibet Autonomous Region, to constitute the region, for the NPC Standing Committee; it approves on the 25th at its 15th meeting.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 751 (Aug. 23, 1965). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1965-08-23.china-leadership-2
+    when: Aug. 23
+    date: '1965-08-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Jia Bubin 贾步彬 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 上午贾步彬同志来谈话 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Jia Bubin, Yang Shangkun.'
+    src:
+      c: 163cc9de
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-22T22:00Z
+      - 1965-08-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-23.china-leadership-3
+    when: Aug. 23
+    date: '1965-08-23'
+    time: 1965-08-23T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall's Henan Room, 3:30 to 5 p.m. The Secrecy Commission meets; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 下午3时半去人大会堂河南厅开保密委员会议，5时开完 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 533f6da4
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-23.china-leadership-4
+    when: Aug. 23
+    date: '1965-08-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Boren 李波人 and Liu Mingyi 刘明义 on the text of his speech to the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 晚间约李波人、刘明义谈我在中监委会议讲话的稿子 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-21.china-leadership-5]]. Names: Yang Shangkun, Li Boren, Liu Mingyi.'
+    src:
+      c: 7bd129ef
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T11:00Z
+      - 1965-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-23.china-leadership-5
+    when: Aug. 23
+    date: '1965-08-23'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-23.china-leadership-4
+    c: Peking 北京. Zhao Zhongyuan 赵仲元 tells Yang Shangkun 杨尚昆 how the revision of the article goes.
+    n: '[[w.yang-shangkun-riji]], II, 663 (Aug. 23, 1965). The words: 晚间约李波人、刘明义谈我在中监委会议讲话的稿子。小赵来谈修改文章情况 (II, 663). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhao Zhongyuan, Yang Shangkun.'
+    src:
+      c: 898b7440
+      rows:
+        - 'w.yang-shangkun-riji II, 663: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T11:00Z
+      - 1965-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-24.peace-corps
     when: Aug. 24
     date: '1965-08-24'
@@ -4065,6 +5213,107 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 134–135: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 134 n.2: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-08-24.china-leadership-4
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Han Jincao 韩劲草 to learn of the Shaanxi 陕西 provincial meeting.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 上午与韩劲草打电话，了解陕西省会议情况 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Han Jincao.'
+    src:
+      c: 25b73774
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T22:00Z
+      - 1965-08-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-5
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 上午与韩劲草打电话……王愈明同志来谈话 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T22:00Z
+      - 1965-08-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-6
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Liu Huo 刘火 on the Party committee of the central organs.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 上午与韩劲草打电话……约刘火同志来谈中直党委事 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Huo.'
+    src:
+      c: 55f6119f
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-23T22:00Z
+      - 1965-08-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-7
+    when: Aug. 24
+    date: '1965-08-24'
+    time: 1965-08-24T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Museum of the Revolution, 3 p.m. Yang Shangkun 杨尚昆 sees the exhibition of the war of resistance against Japan, about an hour.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 下午3时去革命博物馆参观《抗日战争展览》，约1小时 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b1abfe1e
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-8
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1965-08-24.china-leadership-7
+    c: Peking 北京. Deng Diantao 邓典桃, Liu Huo 刘火 and Li Jian 李鉴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 下午3时去革命博物馆参观《抗日战争展览》……回来后典桃、刘火、李鉴同志来谈话 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Liu Huo, Li Jian, Yang Shangkun.'
+    src:
+      c: 739aa555
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-24T04:00Z
+      - 1965-08-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-24.china-leadership-9
+    when: Aug. 24
+    date: '1965-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 has a sharp pain above his right ear; tablets taken; no better by midnight.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 24, 1965). The words: 右边头耳部以上疼得厉害……到24时还未见好，回家早睡 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 3680f819
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-24T11:00Z
+      - 1965-08-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-25.space
     when: Aug. 25
     date: '1965-08-25'
@@ -4189,6 +5438,48 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 475–76: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 45–46: A'
     tags: [name:zhou-enlai, polity:prc, polity:algeria, vis:only:prc+algeria]
+  - id: cal.1965-08-25.china-leadership-3
+    when: Aug. 25
+    date: '1965-08-25'
+    time: 1965-08-25T02:00Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, 10 a.m. to noon. A small meeting of the Secretariat on work for Peng Dehuai 彭德怀 and others (the editors'' note: Peng later third deputy director of the Southwest Bureau''s third-front construction committee); Yang Shangkun 杨尚昆 there, his head still aching.'
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 10时到12时，书记处小会，讨论彭德怀等人的工作分配问题 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-16.china-leadership-8]]. Names: Peng Dehuai, Yang Shangkun.'
+    src:
+      c: 13eca2c2
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-25.china-leadership-4
+    when: Aug. 25
+    date: '1965-08-25'
+    time: 1965-08-25T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. The NPC's Standing Committee on the founding of the Tibet 西藏 Autonomous Region and on relations with Mauritania; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 3时半到6时参加人大常委会，讨论: 西藏自治区成立问题，与毛里塔尼亚建交问题 (II, 664). Names: Yang Shangkun.'
+    src:
+      c: b6b30724
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-25.china-leadership-5
+    when: Aug. 25
+    date: '1965-08-25'
+    time: 1965-08-25T10:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 6:30 p.m. Yang Shangkun 杨尚昆 is given a nerve-block injection on the right of his head.
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 6时半在北京医院看病，打了一针封闭(头右部)即回家 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: '39011178'
+      rows:
+        - 'w.yang-shangkun-riji II, 664: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-26.states-and-cities
     when: Aug. 26
     date: '1965-08-26'
@@ -4400,6 +5691,23 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 46–47: all'
     tags: [polity:prc, polity:uk, polity:roc]
+  - id: cal.1965-08-26.china-leadership-2
+    when: Aug. 26
+    date: '1965-08-26'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, to midnight. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 26, 1965). The words: 晚间饭后散步。田家英同志来谈话到12时 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: fb6d1eea
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-26T11:00Z
+      - 1965-08-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-27.robert-kennedy
     when: Aug. 27
     date: '1965-08-27'
@@ -4588,6 +5896,68 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 47: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1965-08-27.china-leadership-5
+    when: Aug. 27
+    date: '1965-08-27'
+    time: 1965-08-27T00:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the eastern airport, 8:30 a.m. Yang Shangkun 杨尚昆 sees off the delegation under Xie Fuzhi 谢富治 going to Tibet 西藏 for the founding of the autonomous region on Sept. 1.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 上午8时半去东郊机场，送以谢富治同志为首的代表团，去西藏庆祝9月1日的自治区成立 (II, 665). Names: Yang Shangkun, Xie Fuzhi.'
+    src:
+      c: 4ccb26b5
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, name:xie-fuzhi]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-27.china-leadership-6
+    when: Aug. 27
+    date: '1965-08-27'
+    place: peking
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 and Liu Lantao 刘澜涛 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 上午办公，看文件。与澜涛同志通了电话 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Lantao.'
+    src:
+      c: fe093f6d
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-26T22:00Z
+      - 1965-08-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-27.china-leadership-7
+    when: Aug. 27
+    date: '1965-08-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 下午午睡到3时……王愈明同志来谈话 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-27T04:00Z
+      - 1965-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-27.china-leadership-8
+    when: Aug. 27
+    date: '1965-08-27'
+    time: 1965-08-27T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 p.m. to midnight. Yang Shangkun 杨尚昆 talks freely with the General Office's group heads on the situation at home and abroad.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 27, 1965). The words: 8时半到12时与办公厅各组长漫谈国内外形势 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d3cf2558
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-28.steel
     when: Aug. 28
     date: '1965-08-28'
@@ -4763,6 +6133,20 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 47: all'
     tags: [polity:prc, polity:fr]
+  - id: cal.1965-08-29.china-leadership-4
+    when: Aug. 29
+    date: '1965-08-29'
+    time: 1965-08-29T06:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 2:30 p.m. Yang Shangkun 杨尚昆 sees the mass calisthenics of the National Games.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 29, 1965). The words: 下午2时半同她们一起去看了全运会的集体操表演 (II, 665). Names: Yang Shangkun.'
+    src:
+      c: f27f8dd8
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-30.students
     when: Aug. 30
     date: '1965-08-30'
@@ -4932,6 +6316,68 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 136: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-08-30.china-leadership-3
+    when: Aug. 30
+    date: '1965-08-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 and Chen Bozhong 陈伯仲 on the Women's Federation meeting.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 上午处理文电，约王愈明、陈伯仲同志谈妇联会议 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Chen Bozhong.'
+    src:
+      c: 9646280c
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-29T22:00Z
+      - 1965-08-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-30.china-leadership-4
+    when: Aug. 30
+    date: '1965-08-30'
+    time: 1965-08-30T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 to 6 p.m. The Women's Federation's Party group reports to Yang Shangkun 杨尚昆 on its meeting.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 下午3时到6时，听妇联党组关于会议的汇报 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2dd46a78
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-30.china-leadership-5
+    when: Aug. 30
+    date: '1965-08-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Bai Lin 白林 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 晚饭后白林来谈话 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Bai Lin, Yang Shangkun.'
+    src:
+      c: e164fef2
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-30T11:00Z
+      - 1965-08-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-30.china-leadership-6
+    when: Aug. 30
+    date: '1965-08-30'
+    time: 1965-08-30T12:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8:30 to 10 p.m. Yang Shangkun 杨尚昆 with Director Tong 佟 of the Peking municipality and Mao Weizhong 毛维忠 on the underground roadway.
+    n: '[[w.yang-shangkun-riji]], II, 665 (Aug. 30, 1965). The words: 8时半到10时约北京市佟主任和毛维忠谈地下车道问题 (II, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Weizhong.'
+    src:
+      c: 2a0385a7
+      rows:
+        - 'w.yang-shangkun-riji II, 665: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-08-31.latin-america
     when: Aug. 31
     date: '1965-08-31'
@@ -5494,3 +6940,51 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 137–138: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 137 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-08-31.china-leadership-3
+    when: Aug. 31
+    date: '1965-08-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Lu Qi 鲁琦.
+    n: '[[w.yang-shangkun-riji]], II, 666 (Aug. 31, 1965). The words: 上午处理文电。约鲁琦同志谈话 (II, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lu Qi.'
+    src:
+      c: 0be9eb03
+      rows:
+        - 'w.yang-shangkun-riji II, 666: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-30T22:00Z
+      - 1965-08-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-31.china-leadership-4
+    when: Aug. 31
+    date: '1965-08-31'
+    time: 1965-08-31T07:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 3 to 6 p.m. Yang Shangkun 杨尚昆 with Kong Yuan 孔原, Luo Qingchang 罗青长 and Feng Xuan 冯铉 (the editors' note) on the Investigation Department's work and the preparations for the Asian-African conference.
+    n: '[[w.yang-shangkun-riji]], II, 666 (Aug. 31, 1965). The words: 下午3时到6时，约孔、罗、冯谈调查部工作和亚非会议的准备工作 (II, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Luo Qingchang, Feng Xuan.'
+    src:
+      c: 2841a1ad
+      rows:
+        - 'w.yang-shangkun-riji II, 666: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-31.china-leadership-5
+    when: Aug. 31
+    date: '1965-08-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 666 (Aug. 31, 1965). The words: 晚间办公，田家英同志来谈话 (II, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 57d08dda
+      rows:
+        - 'w.yang-shangkun-riji II, 666: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-08-31T14:00Z
+      - 1965-08-31T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai

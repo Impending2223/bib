@@ -817,3 +817,373 @@ Opus audit of patch `2026-11-19-b15c-yang-1964` (printed II, 339–450, Jan. 1�
 **The reader's doubts, ruled.** (1) Feb. 18, the Soviet ambassador summoned: the sentence has no subject, and the diary's subjectless sentences are the diarist's own acts (the same day's 召集下放各同志 is Yang's), but a summons of an ambassador is a state act and the diary may write the Chinese side's act so (the 1963 audit's 我提出); the entry's passive form, with its Check on who received him, is right; `prc+ussr` right. (2) Feb. 27 and Mar. 8 as checks, not variants: right. The Feb. 26 entry's day is already Wu Lengxi's reckoning with a Check (Mao's letter asks Kim to come on the 27th); the diary's 接 at 5 p.m. may be the meeting, not the arrival. Mar. 7 is the letter's date; the diary's Mar. 8 is its delivery, a distinct act, entered (`-3`); no unit of the Mar. 7 entry is contradicted. (3) The PLA arts reception (May 8) and the Vietnamese army troupe (June 18): public: a reception of a festival's whole company in the Great Hall and a performance at the Capital Theatre are seen by thousands at the time, so no `vis` and no "Made public"; the Checks on whether the press reported them may stand, for the day's paper. (4) The Northwest Bureau's reports (Dec. 6–8), one entry a reporter: kept. Each report is its own speaker's act with its own figures (R6, R25), and one entry a sitting would bundle them; the form that fits is the guide's subentry (`part_of` a parent for each day's sitting), a later conversion for the owner, not a fault. (5) The four films seen with principals (Jan. 16, Feb. 21, Mar. 19, Aug. 12): passed over with the films, flagged for the owner, as the reader asks (the 1960–63 audits' doubt). (6) The field labour at Niujiao (8 days): entries. R18 passes over only the routine of a household or a day "with no bearing on public business or politics"; a work-team member's labour in the village is the campaign's own practice (the "four togethers"), counted by Yang ("the sixth labour since entering the village"), so an operation of the movement (R16) and public business; and, as a principal's own doing off the desk, R18's first ground keeps it in any case. (7) `miyun-reservoir` and `yichun`: identical to the location pass's rows, word for word (chunk 09, merged: the op dropped; chunk 11, pending: kept, a no-op whichever merges second, `places.py` accepting an identical row).
 
 **After the audit.** 697 new entries (695, less 2 duplicates, plus 4 from splits), 675 with `place:`, 196 with a clock `time`, 396 with a `time_range`, 83 with `follows`; 47 cites (14 with units, 3 now), 1 variant, 7 checks, 1 to-check, 1 src, 1 follows, 9 place-key; witness row (1) and edges (7) unchanged, the edges' rows in the 1963 and *Wengao* 17 witness files. Ledger: 697 claims under the patch (2 released, 4 added). `./bib patch-check`: 0 errors (warnings of the same-day and duplicate kind only). Fit to merge.
+
+## 1965
+
+Reader b15c-yang-1965 (Nov. 18–19, 2026). Patch `inbox/2026-11-19-b15c-yang-1965.yaml`; witness rows `inbox/witnesses/2026-11-19-b15c-yang-1965.yaml`; edges `sources/witnesses/by-work/yang-shangkun-riji.yaml` (appended in batches, each between `# 1965` and `# 1965 end`).
+
+**The copy.** Vol. 下 of the 2017 second edition, 2nd printing, the caller's OCR (chi_sim) of the 651-page scan (`scratchpad/yang2`). **Folio:** after the gap, printed N = PDF N + 45, from PDF 456 (printed 501) to PDF 650 (printed 695), checked on the page images of PDF 458, 459, 460, 464, 465, 467, 468, 471, 472, 473, 475, 478, 480, 481, 486, 487, 501, 504, 509, 516, 529, 541, 542, 543, 544, 545, 548, 552, 560, 587, 589, 599, 607, 608, 622, 628, 632, 635, 649 (printed 503–694; the images deleted). PDF 651 is the afterword (后记). **What the copy lacks:** printed 451–500 (Dec. 8–31, 1964, and Jan. 1–22, 1965) are not in the scan, as the 1964 reader found: PDF 456 (printed 501) opens with the last lines of Jan. 22 (Yang to bed at 11; a sweat at 4 a.m. of the 23rd) and that day's work note on the Niujiao brigade's cadres. So 1965 is read here from Jan. 22 (in part) to the diary's end; Jan. 1–21 are missing (a lead).
+
+**Where the diary ends.** Dec. 10, 1965, printed 695: Yang leaves Peking by train at 11:14 p.m. ("sixteen years of life in Peking change from today"); the afterword follows. The last weeks: Oct. 29, Zhou, Deng and Peng Zhen tell him of his transfer (682, "a day never to be forgotten"; 682 n.1, the Center's notice of Nov. 10); Nov. 5, Peng Zhen gives him notice of it; Nov. 9, he announces it to the General Office and writes to Mao (686 n.1, the letter in full); Nov. 10, Mao sees him (687 n.1, Yang's later recollection: two tasks in Guangdong); then hospital tests, calls on Wang Jiaxiang and Chen Yun at Mao's behest, the handing over. No diary for Nov. 25 (691 n.3, a night in hospital).
+
+**What was read.** Every page of printed 501–695 in the OCR, split into its 322 days by script (`yang65-tools/days.py`) and read day by day; every name, place and hour in doubt read on the page image (above). The diary's year: Niujiao 牛角, Doumen 斗门 commune, Chang'an 长安 county, to Jan. 25; Xi'an and Peking for the Spring Festival (Jan. 26–Feb. 17); Xi'an and Niujiao, Feb. 18–May 17, with the Northwest Bureau's meeting on the Shaanxi provincial committee (Mar. 11–31) and its meeting on the sixteen key counties of the five northwestern provinces (Mar. 28–Apr. 9), Zhu De's visit (Apr. 13–15), the tour of Hanzhong and Baoji (Apr. 16–25), the brigade's victory meeting and his leaving the village (May 16); Huashan (May 18–20); Yan'an (May 25–28); Lanzhou, Baiyin, Yinchuan, Huhehot, Datong (May 29–June 8); Peking from June 9: back at work June 13, the Algerian coup (June 19–21), the Central Work Conference (Sept. 18–Oct. 12), his removal. Work notes in 仿宋 (so marked by the editors) fill Jan. 22, 24; Feb. 17, 21, 25; Mar. 9, 18, 22, 25; the sixteen-county meeting, printed 532–581; Apr. 14 (Wang Lin's and Yan Kelun's figures for Zhu De). The editors' long notes print Yang's talks at Yan'an (609–621, 622–627, the Shaanxi committee's records), his speech of Aug. 17 to the General Office's second-round cadres (653–661), the Niujiao group's summary report sent July 1 (599–602), Gong Zirong's report to Peng Zhen of Mar. 19 (526 n.3), the letter to Mao of Nov. 9, and his recollections of the talks with Mao (Nov. 10) and Wang Jiaxiang (Nov. 17).
+
+**What an entry is here.** As in 1960–64 and the five audits: each sitting (the Politburo, the Secretariat, the NPC Standing Committee, the Northwest Bureau's meetings, the work conference's Northwest group, the work team's and the brigade's meetings), each report at the sixteen-county meeting (one entry a reporter, the chief figures in `c`, the tables cited by page, not copied out: R55), each talk with a named person (one a talk; talks "one after another" split), each telephone call (an incoming call with no far end on the record unplaced or at the caller's place where the diary names it; Yang's end otherwise), each trip leg and the sights on tour (R15), each illness, test and treatment (the swellings and palpitations in January, the teeth, the low fever, the hospital weeks of November), Yang's field labour at Niujiao (May 1–3) and his swims, badminton and target shooting as a principal's own sport (43 swim and badminton entries, May 8–Aug. 19; shooting May 6, May 8, Nov. 14), his reading of a named work (Mao's *Selected Works*, "On Contradiction", the *Huayue zhi*, the Albanian article, Liu Lantao's report), another body's act the diary records (the radio's broadcasts of "On the Moscow March Meeting", of Luo Ruiqing's and Lin Biao's articles and of "Refute the so-called united action"; the *Renmin ribao*'s printings of Mar. 4 and 10; deaths of Zhang Desheng, Liu Yalou; Mao's approval of the Algeria cable; Zhou's landing at Hotan; Deng's arrival in Romania) as its own entry or a cite. Bands only where the diary gives the part of the day or the act's place in its sequence; the diary's words for the hour in every timed entry's note, a cue clause prefixed where the act's own sentence lacks it ("下午……", "晚饭后……"); `follows` same day only; no forward "See". After a self-check against the audits' faults: 24 bundled adds split into 24 new entries (a trip and a visit, morning and afternoon sightseeing, a swim and a talk, a test and another test), two trimmed of a film or match watched (May 28, Sept. 24); about 100 banded adds whose words lacked the day's part or the act's place in the day given the diary's clause before them, 2 bands with no word for them removed (July 22, Aug. 14); 10 "Names" lines trimmed to the persons left in `c`.
+
+**Already in the calendar.** Each day compared with the calendar's entries of the day (all threads read for China, Peking, the principals' names and the Soviet and Vietnamese threads) and with the ledger (no other reader's pending 1965 claim conflicts). 34 cites; where the diary does not name the cited entry's principal, the parenthetical says so and the cite carries no units. One add dropped for a cite (Sept. 16, Yang's talk with Huang Kecheng = `cal.1965-09.china-leadership-2`, MacFarquhar's, with a Check on the day). Kept as distinct: Yan Mingfu's briefings on the Mao–Kosygin talk (Feb. 11, 12), Gong Zirong's report to Peng Zhen (Mar. 19), the broadcast of "On the Moscow March Meeting" (Mar. 22, the printing being Mar. 23's entry), the Diaoyutai meeting on Algeria (June 20) and Zhou's and Chen Yi's reply (June 21), Yang's seeing Aidit off (Aug. 6; a Check on the calendar's Aug. 7).
+
+**Variants (4).** The Politburo of Jan. 29 from 3:30 (`cal.1965-01-29.china-leadership`, B, "3 p.m."); the Tiananmen demonstration on Feb. 9 (`cal.1965-02-10.china-leadership-3`); Kosygin back in Peking on Feb. 9 (`cal.1965-02-10.china-leadership-4`); Li Zongren back in Peking under July 21 (`cal.1965-07-20.china-leadership`).
+
+**Checks (5).** Mar. 15 (Yao Zhen tells Yang on Mar. 10 that the Moscow article is written; the calendar's first draft of Mar. 15); Mar. 22 (Chen Yi passing through Xi'an on Mar. 19, against Zhou's seeing him off from Peking on the 22nd); Aug. 7 (Aidit seen off Aug. 6); Sept. (the day of the Huang Kecheng talk); Oct. 12 (made public: the closing plenary's note gives 2013, the diary's first edition 2001, not seen). No other "Made public" check: the other private cited entries' notes give 1989–2001.
+
+**The notes.** Registered (8 rows, 9 edges): Gong Zirong to Peng Zhen, Mar. 19 (526 n.3, quotation); the Niujiao group's summary report, July 1 (599 n.1, report); the Shaanxi committee's records of Yang's Yan'an talks, May 25–26 and May 27 (609 n.2, 622 n.2); Yang's talk of Aug. 17 (653 n.1); the letter to Mao of Nov. 9 (686 n.1, print); Yang's recollections of the talks with Mao and Wang Jiaxiang (687 n.1, 689 n.1, made later); and an edge (682 n.1, print) to the diary entry of Oct. 29 that MacFarquhar cites from the 2001 edition, `x.1965-10-29.yang-shangkun-diary-entry-of-oct-29-1965-told-of-his-dismiss`, a row pending in `inbox/witnesses/2026-11-18-b15b-mlr-1.yaml` (merge that first). `via` rows and "To check:" lines on the entries those notes bear on. The other notes gloss persons, places and events and are told in `c` ("the editors' note"); the work-note notes point to the diary's own text.
+
+**Made public.** "Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]])" on every private add, as the 1960 reader settled it; none on the 29 public acts (no `vis`): the memorials for Zhang Desheng and Zhao Shoushan, the deaths of Zhang Desheng and Liu Yalou, the radio's broadcasts and the *Renmin ribao*'s printings, the provincial poor peasants' congress, the NPC Standing Committee's sittings, Mao's and Zhou's receptions of conference members for photographs, the National Games, the Army Day gathering, the Albanian national day meeting, Peng Zhen's banquet for the Games, Xie Fuzhi's delegation to and from Tibet.
+
+**Visibility.** `vis:only:prc` but for: Aug. 6, Yang with the Indonesian comrades and Hoàng Văn Hoan at *Shajiabang*, `prc+drv+indonesia` (the PKI counted governing); Oct. 12, Kaysone's celebration of the Lao People's Party, `prc+pathet-lao`. The JCP's Anzai Kuraji met at the station (Sept. 29) `prc` alone (a party out of power received in Peking).
+
+**Places.** 882 of 931 adds placed: Peking, Xi'an (Zhangbagou counted Xi'an, as the diary's "回到西安丈八沟"), Niujiao, Doumen, Lintong, Chang'an county, Ningshan, Shiquan, Xixiang, Hanzhong, Mian county, Feng county, Baoji, Fengxiang, Huashan, Yan'an, Lanzhou, Baiyin, Yinchuan, Huhehot, Datong, Nanchang (the callers' end). New gazetteer keys by `place-key` op: `doumen`, `ningshan`, `shiquan`, `xixiang`, `hanzhong`, `mian-county`, `feng-county`, `baoji`, `fengxiang`, `huashan`, `yanan`, `baiyin`, `datong`; `niujiao`, `changan-county`, `lintong`, `yinchuan` repeat the 1964 patch's rows word for word, `huhehot` the location pass's pending row (a no-op whichever merges second). Unplaced: incoming calls with no far end, the Center's and other bodies' acts the diary does not place, Yuquanshan, the roads between places, Ximawang and Xingping (no keys made).
+
+**Counts.** 931 new entries (`china-leadership`, `polity:prc`; `vis:only:prc` 900, `prc+drv+indonesia` 1, `prc+pathet-lao` 1, public 29); 303 with a clock `time`, 511 with a `time_range`, every one with the diary's words; 121 with `follows`; 882 with `place:`. 34 cites, 4 variants, 5 checks, 18 `place-key` ops; 8 witness rows; 9 edges. Ledger: 931 claims under `2026-11-19-b15c-yang-1965` (one released, Sept. 16). `./bib patch-check` 0 errors (the warnings are of the same-day and possible-duplicate kind).
+
+**OCR faults found by the images.** 傅子和 (健子和, 伟子和); 冯基平 (汉基平); 尚寅宾 (尚实宾); 李屺阳 (李岂阳); 李登瀛 (李登注, 李登泳); 阎明复 (小净, 净明复, 小网); 姚溱 (姚波, 姚注, 姚涉, 姚洛, 姚漆, 姚尊); 李波人 (as printed; 李波人人); 中丰店 (中让店); 李启民 (so printed, Mar. 5); 捉蒋亭 (提菏亭); 马健翎 (马健钢; the note 马健钵); 丈八沟 (八沟, 元八沟); 土金璋 (so printed; the note 土金瑰); 祁明蓉 (祁明鞭, 祁明蔬); 湟中 (泪中, 温中, 沽中); 大劳县 (so printed, Apr. 6); 窑头 (窗头); 柏泉 (柏录); 鹿麟寺 (鹿刨寺); 虢镇 (芍镇); 袁升三 (圳升三); 孟昭良 (熏昭良); 李浩 (李洗); 蒋锡白 (薪锡白, 菏锡白); 孟塬 (孟震, 孟扰); 高步亭 (高步剖); 奠土 (so printed; OCR 葛土, May 1); 沣河 (涯河); 沣峪 (济峪); 廖承志 (the note: 唐承志); 冯铉 (训久, 汉久, 冯久, 汉镁, 冯镶, 汉锌, 冯镀, 汉镑); 若干制度 (佑干制度); 殷玉昆 (筷玉昆, 笑玉昆); 上饶 (上化); 马文瑞 (马文英); 熊向晖 (能向晖); 赖奎 (赖村); 蒲辅周 (萍辅周, 藉老); and a line lost on II, 632 (PDF 587, June 12: the boating, Luo Ruiqing met, Zhu De's, lunch at Li Fuchun's), read on the image. From the context and the 1964 list, not each seen: 龚子荣 (介子荣, 比子荣, 效子荣, 缆子荣, 化子荣, 克子荣); 胡耀邦 (溜邦, 炮邦, 炊邦, 瀛邦, 胡兆邦); 彭真, 彭德怀 (茧真, 茧德怀); 李伯钊 (伯介, 伯伸, 们钊, 伯判); 恩来 (因来, 思来, 轴来); 陈毅 (陈杀); 陈丕显 (陈耕显); 魏文伯 (魏文们); 陈麒章 (陈鹿章, 陈池章); 周荣鑫 (周荣舍, 周荣半); 胡锡奎 (胡锡硅); 鲁琦 (重琦); 荣高棠 (荣高党); 杨肇亨 (秘享, 泌亨). Day headings "2月56日", "3月1日" (for 11), "3月6日" (16), "2月23日" (Sept. 23), "8月416日", "S月", "sS月" read by sequence.
+
+**Passed over (R44; only R18's grounds).** Made by splitting the OCR into its days and searching the diary proper of each day (before its work notes) for the classes below; the film and match hits read, the rest by keyword (the table is the scan's, a row a day and class, the page the day's first; a row may hold a false hit, e.g. a bath taken by others). Entered, not passed over: the amateur *East Is Red* after which Yang and Liu Lantao went on stage (Feb. 20), the provincial poor peasants' congress (Mar. 15), the National Games' calisthenics (Aug. 29), *Shajiabang* with the Indonesian and Vietnamese guests (Aug. 6), the swims, badminton, shooting and field labour, the sights on tour (Xi'an, Lintong, Changning Palace, Hanzhong, Mian county, Baoji, Fengxiang, Louguantai, Huashan, Yan'an, Lanzhou, Yinchuan, Huhehot, Datong). Also passed over: the weather; the routine handling of papers and newspaper reading (看文件, 处理文电, 读报, the *Cankao xiaoxi*) and unnamed reading; meals at the villagers' homes and the team's own mess; the household's affairs (Shaojing's marriage, the son's admission to the Party, the daughter's labour, relatives' visits); the team's pheasant shooting (Apr. 21–22) and the other cadres' outings; news heard on the radio with no act of Yang's (Gheorghiu-Dej's death, Mar. 20; Zhou's arrival in Romania, Mar. 24; the table tennis championships, Apr. 20, 25; the Asian-African conference put off, June 27). Matches watched with principals, flagged for the owner with the films: June 22, football, Deng Xiaoping there; Sept. 24, basketball with Li Jingquan and Song Renqiong after Li Xiannian's meeting. No covering notes or transmittals.
+
+| page | date | event | why |
+|---|---|---|---|
+| 503 | Jan. 25 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 503 | Jan. 25 | haircut or bath | private: the routine of a day (R18) |
+| 504 | Jan. 26 | haircut or bath | private: the routine of a day (R18) |
+| 505 | Jan. 27 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 505 | Jan. 27 | haircut or bath | private: the routine of a day (R18) |
+| 505 | Jan. 27 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 506 | Jan. 30 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 506 | Jan. 30 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 506 | Jan. 30 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 506 | Jan. 31 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 506 | Jan. 31 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 506 | Feb. 1 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 506 | Feb. 1 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 506 | Feb. 2 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 506 | Feb. 2 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 507 | Feb. 3 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 507 | Feb. 3 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 507 | Feb. 3 | haircut or bath | private: the routine of a day (R18) |
+| 507 | Feb. 3 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 507 | Feb. 4 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 507 | Feb. 4 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 508 | Feb. 6 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 508 | Feb. 6 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 509 | Feb. 13 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 509 | Feb. 14 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 510 | Feb. 15 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 510 | Feb. 16 | haircut or bath | private: the routine of a day (R18) |
+| 510 | Feb. 16 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 510 | Feb. 17 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 511 | Feb. 18 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 512 | Feb. 20 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 513 | Feb. 22 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 513 | Feb. 23 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 513 | Feb. 24 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 516 | Feb. 27 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 516 | Mar. 1 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 517 | Mar. 2 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 518 | Mar. 4 | haircut or bath | private: the routine of a day (R18) |
+| 519 | Mar. 6 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 519 | Mar. 6 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 520 | Mar. 8 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 522 | Mar. 11 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 522 | Mar. 11 | haircut or bath | private: the routine of a day (R18) |
+| 522 | Mar. 11 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 522 | Mar. 12 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 523 | Mar. 14 | haircut or bath | private: the routine of a day (R18) |
+| 524 | Mar. 15 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 524 | Mar. 16 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 525 | Mar. 18 | haircut or bath | private: the routine of a day (R18) |
+| 529 | Mar. 24 | haircut or bath | private: the routine of a day (R18) |
+| 530 | Mar. 25 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 531 | Mar. 27 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 531 | Mar. 27 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 532 | Mar. 28 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 532 | Mar. 28 | haircut or bath | private: the routine of a day (R18) |
+| 538 | Mar. 29 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 538 | Mar. 29 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 546 | Mar. 30 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 552 | Mar. 31 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 558 | Apr. 2 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 558 | Apr. 2 | haircut or bath | private: the routine of a day (R18) |
+| 564 | Apr. 3 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 564 | Apr. 3 | haircut or bath | private: the routine of a day (R18) |
+| 564 | Apr. 3 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 565 | Apr. 4 | haircut or bath | private: the routine of a day (R18) |
+| 572 | Apr. 5 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 572 | Apr. 6 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 576 | Apr. 7 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 576 | Apr. 7 | haircut or bath | private: the routine of a day (R18) |
+| 576 | Apr. 8 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 577 | Apr. 9 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 581 | Apr. 10 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 582 | Apr. 12 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 582 | Apr. 13 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 583 | Apr. 14 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 583 | Apr. 14 | haircut or bath | private: the routine of a day (R18) |
+| 583 | Apr. 14 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 584 | Apr. 15 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 584 | Apr. 15 | haircut or bath | private: the routine of a day (R18) |
+| 586 | Apr. 18 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 587 | Apr. 20 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 587 | Apr. 21 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 588 | Apr. 22 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 590 | Apr. 25 | haircut or bath | private: the routine of a day (R18) |
+| 591 | Apr. 26 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 591 | Apr. 26 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 591 | Apr. 27 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 591 | Apr. 27 | haircut or bath | private: the routine of a day (R18) |
+| 591 | Apr. 28 | haircut or bath | private: the routine of a day (R18) |
+| 591 | Apr. 28 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 593 | May 1 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 593 | May 2 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 597 | May 9 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 598 | May 11 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 604 | May 15 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 605 | May 17 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 607 | May 20 | haircut or bath | private: the routine of a day (R18) |
+| 608 | May 22 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 608 | May 24 | haircut or bath | private: the routine of a day (R18) |
+| 609 | May 25 | haircut or bath | private: the routine of a day (R18) |
+| 609 | May 25 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 622 | May 26 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 622 | May 27 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 627 | May 28 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 627 | May 28 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 627 | May 29 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 627 | May 30 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 627 | May 30 | haircut or bath | private: the routine of a day (R18) |
+| 629 | June 2 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 629 | June 2 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 629 | June 3 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 630 | June 4 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 630 | June 4 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 631 | June 6 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 631 | June 9 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 632 | June 11 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 632 | June 12 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 632 | June 12 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 633 | June 15 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 634 | June 19 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 635 | June 20 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 635 | June 20 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 635 | June 22 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 637 | June 27 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 637 | June 27 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 638 | June 30 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 638 | June 30 | haircut or bath | private: the routine of a day (R18) |
+| 638 | July 1 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 638 | July 1 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 639 | July 2 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 639 | July 2 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 639 | July 3 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 639 | July 4 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 639 | July 4 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 640 | July 8 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 641 | July 10 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 641 | July 10 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 641 | July 11 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 641 | July 11 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 642 | July 13 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 642 | July 13 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 642 | July 14 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 642 | July 14 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 642 | July 15 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 642 | July 15 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 642 | July 16 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 642 | July 16 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 643 | July 17 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 643 | July 17 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 643 | July 18 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 643 | July 18 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 643 | July 18 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 643 | July 20 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 644 | July 21 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 644 | July 22 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 644 | July 23 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 645 | July 24 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 645 | July 24 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 645 | July 24 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 645 | July 25 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 645 | July 25 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 645 | July 25 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 646 | July 27 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 646 | July 27 | haircut or bath | private: the routine of a day (R18) |
+| 646 | July 27 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 647 | July 29 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 647 | July 29 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 647 | July 30 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 647 | July 31 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 647 | July 31 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 648 | Aug. 1 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 648 | Aug. 1 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 648 | Aug. 1 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 648 | Aug. 2 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 649 | Aug. 4 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 649 | Aug. 4 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 649 | Aug. 4 | haircut or bath | private: the routine of a day (R18) |
+| 649 | Aug. 4 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 649 | Aug. 5 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 649 | Aug. 6 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 649 | Aug. 6 | haircut or bath | private: the routine of a day (R18) |
+| 650 | Aug. 7 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 650 | Aug. 7 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 650 | Aug. 8 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 650 | Aug. 8 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 650 | Aug. 9 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 651 | Aug. 10 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 651 | Aug. 10 | haircut or bath | private: the routine of a day (R18) |
+| 651 | Aug. 11 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 651 | Aug. 11 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 651 | Aug. 12 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 652 | Aug. 13 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 652 | Aug. 13 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 652 | Aug. 14 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 652 | Aug. 14 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 653 | Aug. 16 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 662 | Aug. 18 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 662 | Aug. 18 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 662 | Aug. 18 | haircut or bath | private: the routine of a day (R18) |
+| 662 | Aug. 18 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 662 | Aug. 19 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 662 | Aug. 19 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 662 | Aug. 20 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 662 | Aug. 20 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 663 | Aug. 21 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 663 | Aug. 21 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 663 | Aug. 21 | haircut or bath | private: the routine of a day (R18) |
+| 663 | Aug. 21 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 663 | Aug. 22 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 663 | Aug. 22 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 663 | Aug. 22 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 663 | Aug. 23 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 664 | Aug. 24 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 664 | Aug. 24 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 664 | Aug. 25 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 664 | Aug. 25 | haircut or bath | private: the routine of a day (R18) |
+| 664 | Aug. 25 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 665 | Aug. 26 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 665 | Aug. 26 | haircut or bath | private: the routine of a day (R18) |
+| 665 | Aug. 27 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 665 | Aug. 28 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 665 | Aug. 28 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 665 | Aug. 28 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 665 | Aug. 29 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 665 | Aug. 29 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 665 | Aug. 30 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 666 | Aug. 31 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 666 | Aug. 31 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 666 | Sept. 1 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 666 | Sept. 2 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 666 | Sept. 2 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 667 | Sept. 3 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 668 | Sept. 5 | haircut or bath | private: the routine of a day (R18) |
+| 668 | Sept. 6 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 669 | Sept. 9 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 669 | Sept. 10 | haircut or bath | private: the routine of a day (R18) |
+| 669 | Sept. 11 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 669 | Sept. 11 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 670 | Sept. 12 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 670 | Sept. 13 | haircut or bath | private: the routine of a day (R18) |
+| 672 | Sept. 19 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 672 | Sept. 19 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 672 | Sept. 20 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 672 | Sept. 20 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 672 | Sept. 21 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 672 | Sept. 21 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 673 | Sept. 23 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 673 | Sept. 23 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 673 | Sept. 24 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 674 | Sept. 26 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 674 | Sept. 26 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 674 | Sept. 26 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 675 | Oct. 1 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 676 | Oct. 2 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 676 | Oct. 2 | matches watched or heard (football, basketball, table tennis) | out of the brief: sport with no trace in politics, not a principal's own (R18) |
+| 676 | Oct. 2 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 676 | Oct. 3 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 676 | Oct. 3 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 676 | Oct. 5 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 678 | Oct. 10 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 678 | Oct. 10 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 678 | Oct. 12 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 679 | Oct. 15 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 679 | Oct. 16 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 679 | Oct. 16 | haircut or bath | private: the routine of a day (R18) |
+| 679 | Oct. 16 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 679 | Oct. 17 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 679 | Oct. 17 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 680 | Oct. 18 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 680 | Oct. 19 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 680 | Oct. 20 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 681 | Oct. 22 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 681 | Oct. 23 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 681 | Oct. 23 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 681 | Oct. 23 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 681 | Oct. 24 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 681 | Oct. 24 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 682 | Oct. 27 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 682 | Oct. 28 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 682 | Oct. 29 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 683 | Oct. 30 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 683 | Oct. 30 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 683 | Nov. 1 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 683 | Nov. 1 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 684 | Nov. 2 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 684 | Nov. 2 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 684 | Nov. 4 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 685 | Nov. 6 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 685 | Nov. 7 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 685 | Nov. 7 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 686 | Nov. 9 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 687 | Nov. 11 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 688 | Nov. 14 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 689 | Nov. 17 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 689 | Nov. 18 | haircut or bath | private: the routine of a day (R18) |
+| 689 | Nov. 18 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 690 | Nov. 21 | films, plays, operas, television, concerts, acrobatics or shows watched | private: the routine of a day (R18) |
+| 690 | Nov. 21 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 690 | Nov. 21 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 691 | Nov. 23 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 692 | Nov. 27 | walks, a park, shopping or a bookshop in town | private: the routine of a day (R18) |
+| 692 | Nov. 27 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 692 | Nov. 28 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 693 | Dec. 1 | haircut or bath | private: the routine of a day (R18) |
+| 695 | Dec. 8 | haircut or bath | private: the routine of a day (R18) |
+| 695 | Dec. 9 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+| 695 | Dec. 10 | household: calls, letters and visits of Li Bozhao, the children and relatives; family meals and outings | private: the routine of a household (R18) |
+
+**Doubts.** (1) The copy lacks printed 451–500: Jan. 1–21, 1965 unread (and Jan. 22 but for its last lines). (2) The sixteen-county meeting (Mar. 28–Apr. 9) and the other work notes: one entry a report, its chief figures in `c`, read on the OCR; the reports' full tables and many lesser figures are not entered (R25 asks for every figure; R55 bars copying the tables out): the page ranges are cited; a later pass may make each report a subentry of its day's sitting (the 1964 audit's ruling (4)). The long notes (the Yan'an talks, the Aug. 17 speech) are summarized in a sentence or two, the witnesses registered. (3) July 16, Deng's and Kang Sheng's departure "at 2:10": a.m. or p.m. not said (after an afternoon swim and talk in the diary's order): no time field, as the 1961 audit ruled. (4) Mar. 19, Chen Yi "reached Yan'an" (延安, so printed) but Yang sees him the same evening at Zhangbagou, Xi'an: entered as printed, no place, a Check; against the Zhou chronology's seeing him off from Peking on Mar. 22 (a Check there). (5) Visibility of the public acts (29, no `vis`): Mao's receptions of conference members for photographs and the NPC Standing Committee's sittings are taken as public at the time, as the 1964 audit took the PLA arts reception; the Diaoyutai celebration of the Lao People's Party (Oct. 12) is kept `prc+pathet-lao`. (6) The July 1 report to Mao is entered on its own date from the editors' note to May 12, with no place. (7) The swims (43 with badminton) and the shooting are entered as a principal's sport; the matches watched with Deng (June 22) and with Li Jingquan and Song Renqiong (Sept. 24) passed over and flagged. (8) A line was lost in the OCR of II, 632: OCR lines may be dropped elsewhere that the images were not checked for. (9) The edge to the Oct. 29 diary entry points to a row pending in the MLR run 1 witness file. (10) Bare talks ("X with Yang Shangkun") are many, kept by the audits' ruling.
+
+**Persons with no name entry** (in `c` and "Names:", tagged only where a key exists; 225 forms): Yang Shangkun, Wang Yuming, Liu Lantao, Tian Jiaying, Hu Yaobang, Kong Yuan, Han Jincao, Li Boren, Wang Lin, Jin Shi, Luo Qingchang, An Ziwen, Gong Zirong, Shang Yinbin, Zeng San, Hu Sheng, Deng Diantao, An Yumi, Feng Xuan, Yao Liwen, Yao Zhen, Shu Tong, Hang Shangzeng, Li Dengying, Pan Jinglian, Li Zhizhong, Lu Qi, Liu Jishun, Wang Dongxing, Liu Mingyi, Chen Bozhong, Zhang Ze, Pan Yuqi, Lü Yinbo, Ma Yonghe, Tian Chou, Wang Minqing, He Tongqing, Zhao Yutian, Yan Mingfu, Zhang Desheng, Yang Zhilin, Li Qiming, He Jun, Wang Kuancai, Zhang Xueyi, Feng Jiping, Li Qiyang, Jia Bubin, Hu Xikui, Yang Suishun, Zhao Shouyi, Dai Yun, Wang Zhao, Li Youjiu, Hu Qiang, Wang Wei, Li Bozhao, Zhou Rongxin, Chen Qizhang, Liu Huo, Qiao Mingfu, Wang Jiaxiang, Pan Yuxiao, Fan Yanduo, Wang Fu, Wang Cuncai, Liu Gang, Yan Kelun, Zhou Yuanqing, Cui Yitian, Yang Jingren, Zhao Zhongyuan, Gao Buting, Guo Tan, Huang Shuze, Mao Weizhong, Lai Zulie, Li Gongchuo, Fu Zihe, Zhang Jingwen, Tong Xiaopeng, Rong Zihe, Li Ning, Chang Lifu, Tu Jinzhang, Li Jinglin, Gao Kelin, Fang Zhongru, Xiao Chun, Zhang Fuhan, Qi Guo, Li Zhao, Hu Jizong, Mamutov Kurban, Zhang Jun, Meng Fanshu, Jiang Xibai, Pei Mengfei, Wang Shitai, Yang Yimu, Ulanhu, Liu Ningyi, Gao Dengbang, Hu Qiaomu, Shi Shuhan, Li Jian, Tao Huanle, Li Xin, Li Dazhang, Lai Kui, Pan Yuming, Guo Haiyan, Xiao Guang, Li Yunchang, Zhang Guosheng, Yu Zhi'an, Wang Qinglin, Zhang Xiao, Zhang Congzhi, Hou Yong, Ren Baofa, Liu Huafeng, Wang Enmao, Su Weimin, Yang Yixi, Xi Zhongxun, Wei Ming, He Sanduo, Ma Jianling, Huang Yiran, Fang Tao, Wang Nan, Peng Tianqi, Yang Xiaoyi, Di Fei, Liu Jianfu, Jin Langbai, Qi Mingrong, Zhang Jingru, Zhang Min, Huang Wenming, Zhao Baoping, Xi Huai, He Guoqiang, Zhang Youliang, Gu Yingqi, Li Hao, Wang Siguang, Yuan Shengsan, Jiang Chunde, Yao Dejun, Luo Runmin, Meng Zhaoliang, Lin Feng, Xu Guangda, Niu Xiangying, Liu Yalou, Huang Qingding, Lü Zhengting, Lü Cheng, Han Yiping, Ren Bishi, Zhang Panshi, Gao Jianjun, Wang Feng, Wang Duo, Hu Keshi, Qian Ying, Kang Yimin, Ben Bella, Zhang Hanfu, Liao Chengzhi, Rong Gaotang, Zeng Tao, Boumedienne, Zhao Shoushan, Ling Yun, Liu Fang, Xu Liqun, Yu Guangyuan, Su Zhenhua, Li Zongren, Yao Yilin, Xiao Wangdong, Ma Chungu, Hoàng Văn Hoan, Wang Taojiang, Huang Kecheng, Kang Keqing, Bai Lin, Mei Xing, Pei Tong, Wang Zhaoguang, Wan Li, Xu Ming, Xu Zirong, Ma Wenrui, Zhu Ruizhen, Liu Xiao, Yu Qiuli, Yang Chao, Wei Guoqing, Ma Yuhuai, Cai Chang, Wei Wenbo, Chen Pixian, Anzai Kuraji, Pan Zili, Yin Yukun, Zhou Taihe, Xiong Xianghui, Li Shuhuai, Shi Tielun, Wu Jie, Feng Zhongyun, Li Fukun, Yang Dezhong, Zhao Ziyang, Zhang Xiaoxi, Kang Yonghe, Pu Fuzhou, Wu Lengxi, Li Chuli, Liu Zhihan.
+
+**Leads.** (1) Printed 451–500 of vol. 下 (Dec. 8, 1964–Jan. 22, 1965): another copy wanted. (2) The 2001 edition, to confirm the 1965 days and pages. (3) The witnesses the notes name: Gong Zirong's report of Mar. 19; the Niujiao report of July 1; the Shaanxi committee's records of the Yan'an talks; Yang's speech of Aug. 17 to the General Office; his letter of Nov. 9; his recollections (where printed). (4) The sixteen-county meeting's three papers (on the democratic revolution's lessons; on handling questions in the four cleanups; on rectifying and building the Party) and Liu Lantao's closing speech of Apr. 9. (5) The "big problem" of lost secrets at the archives (Oct. 30) and the stopping of *Wenshu chuli*. (6) Name entries for Yang Shangkun, Wang Dongxing, Hu Yaobang, Liu Lantao, Tian Jiaying, Wang Jiaxiang, Huang Kecheng, Ulanhu, Li Zongren, Yu Qiuli.
+
+## Audit of 1965, Nov. 19
+
+Opus audit of patch `2026-11-19-b15c-yang-1965` (printed II, 501–695, Jan. 22–Dec. 10, 1965), against the caller's OCR, each sampled day read on its page, and eight page images (PDF 463, 480, 484, 543, 618, 633, 639, 649: printed 508, 525, 529, 588, 663, 678, 684, 694; deleted). Nothing merged or committed.
+
+**New entries against the page (task 1).** Sample of 62 of 931 (every fifteenth from the eighth), spread over all twelve months. Dates, actors, acts and clock times right in all 62; bands only where the diary gives the part of the day or its order; the diary's words in every timed add. Faults in 2 (3 percent): Jan. 24 `-4`, Wang Yuming's eighteen points set apart from him ("and eighteen points"; now his); Nov. 2 `-8`, the OCR's 净明复 kept in the words (阎明复, read on the image of 684). Below 10 percent, but each class was looked for across the patch: (a) OCR misreadings, the reader's own list of the OCR's faults searched in every add: 6 in the words (Apr. 3 伯伸 for 伯钊; June 19 `-5`, `-6`, `-7` 冯镶 and Sept. 1 `-8` 冯久 for 冯铉; Nov. 2), and Dec. 5 `-5`, "Xiao Xiang 小向" in `c` for the page's 小阎 (image of 694): now Xiao Yan 小阎 (Yan Mingfu 阎明复, the editors' note at 668), named and tagged as the other 小阎 entries are; (b) bands with no word of the part of the day in their words (some 60, every one read): all placed by a clock time or the diary's order; none removed; (c) places of calls (the 60 adds naming a call or a telephone, read): incoming calls with no far end unplaced, two-way and outgoing ones at Yang's end, the 1964 audit's rule; July 1 `-4`, "Luo Qingchang telephones" for the diary's 与我通了话: now two-way, at Peking; (d) places not on the record: Mar. 19 `-10` (Gong Zirong's written report to Peng Zhen: the note names no place; "Peking" struck from `c`, the place dropped); June 3 `-7` (the train boarded at Gengjiazui 耿家咀 station: the record does not place the station; dropped); July 1 `-3` (Zhou's party lands at Hotan: now `place: hotan`, the record's); (e) the sixteen-county reports: 5 of 21 read against their pages (Mar. 30 `-7`, Apr. 2 `-6`, `-7`, Apr. 6 `-4`, `-5`): 1 faulty, Apr. 6 `-5`, He Guoqiang's 57 cadres "capitalist-roaders" (the page: 排出57人, singled out in the ranking): fixed.
+
+**Duplicates (task 2).** The sample's days against every calendar entry of the day, all threads, and the ledger: 0 of 62. Swept all the same: (a) the reader's cite-and-add habit, over all 34 cites (every add on the cited entry's day and on the diary's own day where it differs, Feb. 9 and July 21): none; (b) every add sharing a name with a calendar entry of its day (132 adds, 207 pairs, read): none; (c) the 29 public adds against the day's calendar: none; one doubt, Aug. 17 `-6` (Mao receives several meetings' members for photographs), beside `cal.1965-08-17.china-leadership` (Mao, Liu and Zhou receive the naval units honored for the fisheries fight): kept, a Check added. Nov. 29 `-7` (the Albanian national day meeting) and Zhou at the Albanian ambassador's reception (`cal.1965-11-29.china-leadership-3`): a meeting and a reception, kept. No other reader's pending claim in 1965 (the ledger's other 1965 rows are merged or marked not used).
+
+**Cites, variants, checks (task 3).** All 34 cites read against their entries' units and the day. 2 faulty: Jan. 29 (units C, but the diary does not have Liu preside: no units, "Liu not said to preside"); Nov. 19 (units A, "Zhou calls Yang": the diary has the talk, not who asked for it: no units). 3 cites keep units (June 18, Sept. 18, Oct. 29: A). Variants, each read on the page: Jan. 29 (3:30, against 3 p.m.), the Tiananmen demonstration and Kosygin's return on Feb. 9 (the diary's 今天, image of 508): real; July 20, Li Zongren's return "under July 21": not a variant (the diary records the return in July 21's entry without 今天 and does not date it): dropped, the cite's parenthetical keeping "under July 21". Checks: all 5 bear out on their pages; Mar. 22's reworded (the diary has Chen Yi arrive "at Yan'an", so printed, and Yang call on him at Zhangbagou, Xi'an).
+
+**Thin entries (task 4).** 181 adds are a bare talk or call (by script, the pattern "X with Yang Shangkun", "Yang Shangkun and X by telephone"): 7 with a person who has a name entry; 26 with leaders who have none (Liu Lantao 9, Hu Yaobang 8, An Ziwen 7, Wang Jiaxiang and others); some 148 with staff and officials (Wang Yuming 26, Tian Jiaying 21, Kong Yuan 14, Li Boren 9, Luo Qingchang 7, Deng Diantao 7, Zeng San 6, Yao Zhen 6, others fewer). Kept all; none dropped.
+
+**Visibility, names, links, characters (task 5).** Visibility right in the sample and across the patch (`prc` 900, `prc+drv+indonesia` 1, `prc+pathet-lao` 1, public 29). Name tags: 6 adds named Mao without the tag and the "Names" item (Feb. 3 `-6`, "at Mao's"; Mao's works read or studied, Feb. 24 `-3`, May 7 `-3`, May 13 `-3`, May 17 `-4`, May 27 `-3`, as the 1964 audit tagged a portrait of Mao): added. `follows` all same-day; no forward "See". Inline characters: the sample right but for "Peking", which 429 adds left bare at its first appearance in `c` (the 1963 and 1964 entries write "Peking 北京"): 北京 added; 7 others added (Xi'an 西安, Mar. 4; Xixiang 西乡, Apr. 21; Shanghai 上海 and Lanzhou 兰州, May 20; the Yanyuan 延园, May 25; Gansu 甘肃, June 3; Xinhua 新华社, June 19; Shanghai 上海 and Nanjing 南京, June 20). Claim hashes remade for every `c` changed; 13 all-digit hashes quoted.
+
+**The gazetteer.** `huhehot` dropped: the 8 places (7 single, 1 pair) now `hohhot`, the gazetteer's row (`Hohhot`); the entries' `c` keep "Huhehot 呼和浩特". `niujiao`, `changan-county`, `lintong`, `yinchuan` are identical to the gazetteer's rows: harmless, kept. 17 `place-key` ops.
+
+**The reader's doubts, ruled.** (1) The sixteen-county meeting, one entry a report: kept, by the 1964 audit's ruling (4) (each report its speaker's act, with its figures; subentries of each day's sitting a later conversion, for the owner); one of the five read was fixed. (2) The 29 public acts: kept public. A reception of whole conferences for a group photograph in the Great Hall and a sitting of the NPC's Standing Committee are public occasions by their kind, as the 1964 audit took the PLA arts reception; the day's *Renmin ribao* to confirm when the press pass reaches it. (3) The variants: three real, one dropped (above). (4) July 16, "at 2:10": the diary's order settles it, the airport after the afternoon's swim and the talk with Kang Sheng at the Diaoyutai, then supper ("晚饭时"): now 2:10 p.m., `time` set, the reasoning in the note, `follows` the talk. The 1961 ruling (no field where a.m. or p.m. is not said) stands where the order does not settle it. (5) Mar. 19: 延安 confirmed on the image of 525; entered as printed, no place, the Check on Zhangbagou: right. (6) The matches with Deng (June 22) and with Li Jingquan and Song Renqiong (Sept. 24): passed over and flagged, as the 1964 audit did the films; R18's "non-routine occasion that puts principals together" may reach them: the owner's to rule. (7) Target shooting (May 6, May 8, Nov. 14): a principal's own sport, R18's first ground, entered as the swims are: right. (8) Dropped OCR lines: the line count of each of the 195 pages run; the pages with fewest lines (22 to 24, II, 632 with its lost line among them) and others spread over the year checked line by line against their images (8 pages): no line lost, misreadings only (酒奠梁, 卸任, 小阎). The lost line of II, 632 stands alone.
+
+**Edges.** One of the 9 edges (682 n.1) points to a row only in `inbox/witnesses/2026-11-18-b15b-mlr-1.yaml`: merge that first.
+
+**After the audit.** 931 new entries (none dropped or split), 882 with `place:`, 304 with a clock `time`, 511 with a `time_range`, 122 with `follows`; 34 cites (3 with units), 3 variants, 5 checks, 17 `place-key`; witness rows (8) and edges (9) unchanged. Ledger: 931 claims under the patch, matching the adds. `./bib patch-check`: 0 errors (warnings of the same-day and duplicate kind only). Fit to merge, after the MLR run 1 witness file.
