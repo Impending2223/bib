@@ -1,9 +1,9 @@
-"""Characters (漢字, kana, hangul) out of the line and into the citation block (the owner, Nov. 19, 2026: "I've changed
-my mind on writing CJK after place, personal names, and titles in the body text. Drop them. Keep them in the citation
-block."; "Do we not have 'give the CJK of personal names, location, work titles, etc., on their first appearance' as a
-standing rule for the citation block? Names in 'Names:' should have their CJK given on their first appearance on a
-page."). Before, Nov. 18: "If we can make the CJK appear the first time the word is given on a page, but not the later
-times, as we do for long titles and short, I would also have us give the CJK for personal and place names".
+"""Characters (漢字, kana, hangul) out of the line; in the citation block the notes' own in full and the 'Names:'
+persons' (the owner, Nov. 19, 2026: "I've changed my mind on writing CJK after place, personal names, and titles in
+the body text. Drop them. Keep them in the citation block."; "Names in 'Names:' should have their CJK given on their
+first appearance on a page."; and, asked of the label "Characters:", about 10:45 a.m.: "What? I'm just saying that the
+substantive notes in the citation block should give the full CJK, and that Names in 'Names:' should as well."; of a
+quoted original with its English, "Move them, keep English").
 
 STYLE
 1. The data keeps the characters wherever a reader wrote them, after the romanized word, a space between:
@@ -20,27 +20,29 @@ STYLE
    him 阿夫扎尔", "a note headed 关于"), after a plain noun that introduces them ("the slogan 三面红旗", "the line
    不到长城非好汉"; a term of its own words is glossed: "the general line 总路线"), after a comma ("the departing
    Romanian ambassador, 乔治乌"), after no word. Vietnamese is not touched (it is Latin script).
-3. Each dropped run leaves a pair (its label, its characters), shown in the citation block at its first appearance on
-   the page (a calendar half, as tools/bib/works.py FIRST CITE counts pages; the entries in the page's order, a day's
-   as the day lays them out: dayorder.page_rows; in an entry its line before its note): a person in the note's
-   "Names:" sentence takes them after the name ("Names: Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平."). The person is the
-   one the Names: line links (build.Linker, by the entry's name: tags); his pair is the line's whose label is his
-   token ("Mao Zedong"), else whose characters his name entry records, else his surname alone where no other
-   unmatched token has it ("Mao"), else his token with words before it ("Vice-Premier Li Xiannian") or after it where
-   the Linker finds it the same man ("Nosaka Sanzō" for "Nosaka"; never "Mao Yuanxin" for "Mao"); never a given name
-   ("Xiaoping"), a term or title holding his name ("Mao Zedong Thought", "Learn from Comrade Lei Feng"). Failing a
-   pair, his name entry's characters where its subject line records them ("Huang Hua 黄华"), never another's of his
-   surname. Every other pair in one closing sentence, "Characters: Hangzhou 杭州; Henan Provincial Supervisory
-   Committee 河南省监委; *Hongqi* 红旗." (the label "Characters:" the series' own; the owner named none). Later on the
-   page the same characters are not given again, nor those a card's full cite prints in the same block (works.py
-   FIRST CITE).
-4. The note (`n`) keeps its own runs in place (the citation block), shown at their first appearance on the page and
-   dropped after, as before (runs, _gloss; strip).
+3. A dropped run's characters are not collected (no "Characters:" sentence: the owner, above); a person's in the
+   note's "Names:" sentence are given after his name at their first appearance on the page (a calendar half, as
+   tools/bib/works.py FIRST CITE counts pages; the entries in the page's order, a day's as the day lays them out:
+   dayorder.page_rows): "Names: Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平.". The person is the one the Names: line
+   links (build.Linker, by the entry's name: tags); his characters the line's whose label is his token ("Mao
+   Zedong"), else those his name entry records, else his surname's alone where no other unmatched token has it
+   ("Mao"), else his token's with words before it ("Vice-Premier Li Xiannian") or after it where the Linker finds it
+   the same man ("Nosaka Sanzō" for "Nosaka"; never "Mao Yuanxin" for "Mao"); never a given name's ("Xiaoping"), a
+   term's or title's holding his name ("Mao Zedong Thought", "Learn from Comrade Lei Feng"). Failing those, his name
+   entry's where its subject line records them ("Huang Hua 黄华"), never another's of his surname. Not given again
+   later on the page, nor where a card's full cite prints them in the same block (works.py FIRST CITE).
+4. The note (`n`, its footnotes too) keeps all its own characters, as written, every time: the documents and titles
+   it cites, "To check:", the witnesses, "The words:" (nothing of the note is dropped).
 5. A work's characters are its card's (`script`), given at its first cite (works.py FIRST CITE), not here.
 6. The claims' units (claims.py), the footnotes' marks (footnotes.py) and the visibility spans (vispage.py) are found
    in the line as rendered: their units are rendered through drop() too (build._unit_renderer), and drop() of a line
    already dropped changes nothing. So too every other place a calendar line is shown: the lives' calendar sentences
    (lives.calendar_sentences), the standing conditions' register (standing.register_html).
+7. A quoted original in characters with its English beside it ('"中央决定进行反击战役" (the Center has decided on a
+   counterattack)'; 'respond positively ("积极响应")'): the line keeps the English, in the quotation marks
+   ('"the Center has decided on a counterattack"'); the original goes to the entry's own citation block, as
+   written, in the note's form, "The words: 中央决定进行反击战役." before "Names:", in every entry (not at a first
+   appearance only); not where the note already gives it. A quotation with no English beside it stays on the line.
 """
 import re
 
@@ -180,11 +182,47 @@ def _script(run):
 
 
 SECOND = re.compile(rf" \(({CJK_RUN})\)")
+# a quoted original in characters and its English after it, '"中央决定进行反击战役" (the Center has decided on a
+# counterattack)'; or the English and the original after it in parentheses, 'respond positively ("积极响应")'
+_ORIG = rf"[^\"“”A-Za-z]*[{CH}][^\"“”A-Za-z]*"
+Q_AFTER = re.compile(rf"(?P<q>[\"“])(?P<orig>{_ORIG})[\"”] \((?P<eng>[^()]*(?:\([^()]*\)[^()]*)*)\)")
+Q_BEFORE = re.compile(rf" \([\"“](?P<orig>{_ORIG})[\"”]\)")
+NOT_EN = re.compile(r"^(?:so printed|sic|as printed|the (?:nianpu|book|diary|editors?)|in the |p\. |\d)", re.I)
+
+
+def quotes(text):
+    """(the line with each quoted original that has its English beside it out, the English in its quotation marks;
+    [the originals, as written]) (STYLE 7)."""
+    if not text or not HAS.search(text):
+        return text, []
+    words = []
+
+    def after(m):
+        eng = m.group("eng").strip()
+        if not re.search("[A-Za-z]", eng) or HAS.search(eng) or NOT_EN.match(eng):
+            return m.group(0)
+        words.append(m.group("orig"))
+        eng = eng[1:-1] if len(eng) > 1 and eng[0] in "\"“" and eng[-1] in "\"”" else eng
+        return f'{m.group("q")}{eng}{"”" if m.group("q") == "“" else chr(34)}'
+
+    def before(m):
+        b = text[:m.start()].rstrip()
+        if not b or not re.search(r"[A-Za-z][\"”']?$", b):
+            return m.group(0)
+        words.append(m.group("orig"))
+        return ""
+    text = Q_AFTER.sub(after, text)
+    text = Q_BEFORE.sub(before, text)
+    return text, words
 
 
 def split(text):
-    """(the line without its glossing runs, [(label, characters)]) (STYLE 2)."""
+    """(the line without its glossing runs, [(label, characters)]) (STYLE 2); its quoted originals out first
+    (quotes, STYLE 7)."""
     if not text or not HAS.search(text):
+        return text, []
+    text = quotes(text)[0]
+    if not HAS.search(text):
         return text, []
     out, pairs, pos = [], [], 0
     for m in LINE.finditer(text):
@@ -246,37 +284,12 @@ def drop(text):
     return split(text)[0]
 
 
-# ---------------------------------------------------------------- the note's own runs (STYLE 4)
+# ---------------------------------------------------------------- pinyin
 
-RUN = re.compile(r" ([㐀-䶿一-鿿豈-﫿々·・]+)(?=[\s,.;:!?)\]*'\"’”]|$)")
-# the word before: pinyin (toneless, syllables joined or hyphenated) or a capitalized word (a name in another
-# romanization, "Chiang Kai-shek 蔣介石"), or an italic title's closing star ("*Hongqi* 红旗")
+# a word in pinyin, toneless, syllables joined or hyphenated
 SYL = (r"(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])?(?:iang|iong|uang|ueng|ang|eng|ing|ong|ian|iao|uai|uan|ai|ei|ao|ou|an|en"
        r"|in|un|ia|ie|iu|ua|uo|ui|ue|üe|er|a|o|e|i|u|ü|v)r?")
 PINYIN = re.compile(rf"(?i)^(?:{SYL})+(?:[-'’](?:{SYL})+)*$")
-ENGLISH = {"a", "an", "he", "she", "her", "in", "and", "or", "the", "of", "as", "is", "him", "me", "men"}
-
-
-def _gloss(text, m):
-    """A run of characters glossing the romanized word before it, outside parentheses and quotation marks."""
-    before = text[: m.start()]
-    if before.count("(") > before.count(")") or before.count('"') % 2 or before.count("“") > before.count("”"):
-        return False
-    w = re.search(r"(\S+)$", before)
-    if not w:
-        return False
-    w = w.group(1)
-    if w.endswith("*"):
-        return True
-    w = w.strip("'’")
-    if not re.fullmatch(r"[A-Za-zÀ-ÿ'’-]+", w) or w.lower() in ENGLISH:
-        return False
-    return bool(PINYIN.match(w)) or w[0].isupper()
-
-
-def runs(text):
-    text = text or ""
-    return [m.group(1) for m in RUN.finditer(text) if _gloss(text, m)]
 
 
 # ---------------------------------------------------------------- the page (STYLE 3)
@@ -370,7 +383,7 @@ def peel(token):
 
 def plan(series, e):
     """The entry's characters for its citation block, before the page has a say: ([(token, characters)] for 'Names:',
-    [(label, characters)] for 'Characters:'), each characters once."""
+    [(label, characters)] the line's other pairs, not shown: STYLE 3), each characters once."""
     cache = series.__dict__.setdefault("_cjk_plan", {})
     if e.get("id") in cache and cache[e["id"]][0] is e:
         return cache[e["id"]][1]
@@ -453,7 +466,8 @@ def plan(series, e):
 
 
 def firsts(series):
-    """{(entry id, characters)}: each run's first appearance on each page of each calendar (STYLE 3, 4)."""
+    """{(entry id, characters)}: a 'Names:' person's characters at their first appearance on each page of each
+    calendar (STYLE 3)."""
     if getattr(series, "_first_cjk", None) is None:
         out = set()
         for lst in series.lists.values():
@@ -461,8 +475,7 @@ def firsts(series):
                 continue
             seen = set()
             for h, e in page_rows(series, lst):      # the page's own order, a day's included (dayorder.page_rows)
-                names, rest = plan(series, e)
-                for r in [ch for _, ch in names] + [ch for _, ch in rest] + runs(str(e.get("n") or "")):
+                for _, r in plan(series, e)[0]:
                     if (h, r) not in seen:
                         seen.add((h, r))
                         out.add((e["id"], r))
@@ -483,12 +496,13 @@ def page_rows(series, lst):
 
 
 class Entry:
-    """One entry's characters on its page: claim() what the citation block gives (before the note's own runs are
-    stripped, so a run the line gave is not given twice), then tail() the note."""
+    """One entry's characters in its citation block: claim() the 'Names:' persons' it gives at their first on the
+    page, then tail() the note: their characters after the names, the line's quoted originals in "The words:"."""
 
     def __init__(self, series, e):
         self.series, self.e = series, e
-        self.names, self.rest = plan(series, e)
+        self.names = plan(series, e)[0]
+        self.words = [w for c in store_list(e.get("c")) for w in quotes(str(c or ""))[1]]
 
     def claim(self, done):
         first = firsts(self.series)
@@ -500,22 +514,31 @@ class Entry:
                 return True
             return False
         self.names = [(t, ch) for t, ch in self.names if keep(ch)]
-        self.rest = [(lab, ch) for lab, ch in self.rest if keep(ch)]
         return self
 
     def tail(self, n, printed=frozenset()):
-        """The note with the characters of its 'Names:' and its closing 'Characters:' sentence (STYLE 3); those a
-        card's full cite in the same block prints (`printed`, the runs: printed_by, works.py FIRST CITE) not given
-        again."""
+        """The note with its 'Names:' persons' characters after the names (STYLE 3), those a card's full cite in the
+        same block prints not given again (`printed`: printed_by, works.py FIRST CITE); and the line's quoted
+        originals, as written, in a sentence "The words: ..." before "Names:" (STYLE 7). Nothing of the note's own is
+        dropped (STYLE 4)."""
         n = n or ""
         names = [(t, ch) for t, ch in self.names if ch not in printed]
-        rest = [(lab, ch) for lab, ch in self.rest if ch not in printed]
         if names and "Names:" in n:
             n = with_names(n, dict(names))
-        if rest:
-            sent = "Characters: " + "; ".join(f"{lab} {ch}" for lab, ch in rest) + "."
-            n = f"{n.rstrip()} {sent}" if n.strip() else sent
+        own = str(self.e.get("n") or "")             # the note as written, its footnotes' text too
+        words = [w for w in self.words if w not in n and w not in own]
+        if words:
+            sent = "The words: " + "; ".join(words) + "."
+            k = n.rfind("Names:")
+            if k >= 0:
+                n = n[:k] + sent + " " + n[k:]
+            else:
+                n = f"{n.rstrip()} {sent}" if n.strip() else sent
         return n
+
+
+def store_list(v):
+    return v if isinstance(v, list) else [v]
 
 
 RUNS = re.compile(CJK_RUN)
@@ -543,21 +566,3 @@ def with_names(n, chars):
             part = part.rstrip() + " " + chars[bare] + part[len(part.rstrip()):]
         out.append(part)
     return head + "".join(out) + tail
-
-
-def strip(series, e, text, done):
-    """The note's text with each of its own runs shown only where it first appears on the page; `done` is the entry's
-    own set of characters already shown (STYLE 4)."""
-    if not text or not RUN.search(text):
-        return text
-    first = firsts(series)
-
-    def sub(m):
-        r = m.group(1)
-        if not _gloss(text, m):
-            return m.group(0)
-        if (e["id"], r) in first and r not in done:
-            done.add(r)
-            return m.group(0)
-        return ""
-    return RUN.sub(sub, text)

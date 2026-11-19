@@ -264,11 +264,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         statement = calsplit.statement(lst, e, half, first, members)   # written once, chosen by the part's range
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
-    cjk_done = set()                    # characters: at their first on the page, in the citation block (cjk.py)
+    cjk_done = set()                    # a Names: person's characters: at their first on the page (cjk.py)
     cj = None
     if lst.kind == "calendar" and not is_thread:
         from . import cjk
-        cj = cjk.Entry(series, e).claim(cjk_done)   # the line's characters, for its Names: and Characters: (STYLE 3)
+        cj = cjk.Entry(series, e).claim(cjk_done)   # its Names: persons' characters, its quoted originals (STYLE 3, 7)
     fns = None                          # the citation block as footnotes (tools/bib/footnotes.py)
     if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
         from . import footnotes
@@ -304,16 +304,12 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     printed = frozenset()               # the characters the block's full cites print (cjk.py, STYLE 3)
     if fns:                             # the footnotes, then the note's other sentences (footnotes.py, STYLE 1, 5)
         from . import cjk, works, footnotes
-        joined = year_qualified(series, footnotes.SEP.join(fns[1]), year)
-        bare = cjk.strip(series, e, joined, cjk_done)
-        joined = works.with_first_cites(series, e, bare)
+        bare = year_qualified(series, footnotes.SEP.join(fns[1]), year)    # the note's own characters as written
+        joined = works.with_first_cites(series, e, bare)                   # (cjk.py, STYLE 4)
         printed = cjk.printed_by(bare, joined)
         fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
         n = year_qualified(series, fns[2], year) if fns[2] else ""
-    if n and lst.kind == "calendar" and not is_thread:
-        from . import cjk
-        n = cjk.strip(series, e, n, cjk_done)
-    if cj:                              # the line's characters: after the names, and a closing sentence (cjk.py, STYLE 3)
+    if cj:                              # the Names: persons' characters, the line's quoted originals (cjk.py, STYLE 3, 7)
         from . import works
         bare = works.ordered(series, n) if n else ""
         printed |= cjk.printed_by(bare, works.with_first_cites(series, e, bare) if bare else "")

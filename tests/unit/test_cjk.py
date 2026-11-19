@@ -231,8 +231,8 @@ def test_plan(series):
 
 def test_page_order(series):
     """(5) The firsts follow the page's own order, a day's entries as daybook lays them out (dayorder.order, the
-    subentries after their parent): no entry earlier on the page holds the characters, or cites the card, that the
-    firsts give a later one."""
+    subentries after their parent): no entry earlier on the page names the person, or cites the card, that the firsts
+    give a later one."""
     from bib import dayorder, subentries, works, loose
     for lst in series.lists.values():
         if lst.kind != "calendar":
@@ -248,8 +248,7 @@ def test_page_order(series):
         f, fc = cjk.firsts(series), works.first_cites(series)
         held = {}
         for h, e in rows:
-            n, r = cjk.plan(series, e)
-            for ch in [c for _, c in n] + [c for _, c in r] + cjk.runs(str(e.get("n") or "")):
+            for ch in [c for _, c in cjk.plan(series, e)[0]]:
                 ids = held.setdefault((h, ch), [])
                 if e["id"] not in ids:
                     ids.append(e["id"])
@@ -270,7 +269,7 @@ def test_printed_by_cites(series):
     assert cjk.printed_by("Mao 毛泽东 [[w.x]]", "Mao 毛泽东 *Nianpu* 毛泽东年谱") == {"毛泽东年谱"}
     first = series.get("cal.1961-04-01.china-leadership-3")[2]
     tail = cjk.Entry(series, first).claim(set()).tail(first["n"], frozenset({"杨尚昆", "越南"}))
-    assert tail.endswith("Names: Deng Yingchao 邓颖超, Yang Shangkun.")
+    assert tail.endswith("Names: Deng Yingchao 邓颖超, Yang Shangkun.") and "越南" not in tail
 
 
 def test_other_renderers_drop(monkeypatch):
@@ -302,22 +301,60 @@ def test_first_on_each_page(series):
 
 
 def test_tail(series):
-    """The block: characters after the names at their first on the page, the rest in one closing sentence; none for
-    an entry later on the page."""
+    """(a) The block: a Names: person's characters after his name at their first on the page; none for an entry later
+    on the page; no "Characters:" sentence, the line's other characters not collected."""
     first = series.get("cal.1961-04-01.china-leadership-3")[2]
     tail = cjk.Entry(series, first).claim(set()).tail(first["n"])
-    assert tail.endswith("Names: Deng Yingchao 邓颖超, Yang Shangkun 杨尚昆. Characters: Vietnam 越南.")
+    assert tail.endswith("Names: Deng Yingchao 邓颖超, Yang Shangkun 杨尚昆.") and "Characters:" not in tail
     later = series.get("cal.1961-04-29.china-leadership-3")[2]
     tail = cjk.Entry(series, later).claim(set()).tail(later["n"])
-    assert tail.endswith("Names: Xu Zirong 徐子荣, Yang Shangkun. Characters: certain case 某案.")
+    assert tail.endswith("Names: Xu Zirong 徐子荣, Yang Shangkun.") and "某案" not in tail
 
 
-def test_note_runs_after_line(series):
-    """A run the line gives the block is not given again by the note's own text (the line's claim comes first)."""
-    first = series.get("cal.1961-04-01.china-leadership-3")[2]
-    done = set()
-    cjk.Entry(series, first).claim(done)
-    assert "杨尚昆" in done and cjk.strip(series, first, "Yang Shangkun 杨尚昆 wrote.", done) == "Yang Shangkun wrote."
+def test_note_whole(series):
+    """(a) The note keeps all its own characters, as written, every time: a title, a document, "To check:", "The
+    words:"; the Names: persons' are added at their first on the page and nothing taken away."""
+    later = series.get("cal.1961-04-29.china-leadership-3")[2]
+    n = ("[[w.x]], 3 (the *Yang Shangkun riji* 杨尚昆日记; Yang Shangkun 杨尚昆 wrote it). The words: 上午. "
+         "To check: *Mao Zedong nianpu* 毛泽东年谱. Names: Xu Zirong, Yang Shangkun.")
+    tail = cjk.Entry(series, later).claim(set()).tail(n)
+    assert tail == n.replace("Xu Zirong,", "Xu Zirong 徐子荣,")
+
+
+QUOTES = [  # (b) a quoted original with its English beside it: the English on the line, the original in "The words:"
+    ('Mao: "中央决定进行反击战役" (the Center has decided on a counterattack).',
+     'Mao: "the Center has decided on a counterattack".', ['中央决定进行反击战役']),
+    ('The diary adds "由我主席" ("I in the chair").', 'The diary adds "I in the chair".', ['由我主席']),
+    ('a call to respond positively ("积极响应") to the government', 'a call to respond positively to the government',
+     ['积极响应']),
+    ('"米格式直升机" (MiG helicopters) and "你们会胜利的" (you will win)', '"MiG helicopters" and "you will win"',
+     ['米格式直升机', '你们会胜利的']),
+    # no English beside it, or a note rather than a rendering: it stays
+    ('Mao: "三面红旗万岁".', 'Mao: "三面红旗万岁".', []),
+    ('the words "大劳县" (so printed) in the book', 'the words "大劳县" (so printed) in the book', []),
+]
+
+
+@pytest.mark.parametrize("text,line,words", QUOTES)
+def test_quotes(text, line, words):
+    assert cjk.quotes(text) == (line, words)
+    assert cjk.drop(text) == cjk.drop(cjk.drop(text)) == line
+
+
+def test_quotes_in_block():
+    """(b) The original goes to the entry's own block, in every entry, before Names:; not where the note has it."""
+    e = {"id": "q", "c": 'Mao: "中央决定进行反击战役" (the Center has decided on a counterattack).',
+         "n": "[[w.x]], 3. Names: Mao Zedong."}
+
+    class S:
+        lists, _cjk_names, _first_cjk = {}, {}, set()
+    x = cjk.Entry(S(), e).claim(set())
+    assert x.tail(e["n"]) == "[[w.x]], 3. The words: 中央决定进行反击战役. Names: Mao Zedong."
+    assert x.tail("[[w.x]], 3. The words: 中央决定进行反击战役 (p. 9).") == "[[w.x]], 3. The words: 中央决定进行反击战役 (p. 9)."
+    assert x.tail("") == "The words: 中央决定进行反击战役."
+    e2 = dict(e, id="q2", n="[[w.x]], 3 (中央决定进行反击战役). Names: Mao Zedong.")
+    y = cjk.Entry(S(), e2).claim(set())
+    assert y.tail("Names: Mao Zedong.") == "Names: Mao Zedong."      # the footnotes' text gives it: not twice
 
 
 def test_names_line_stops_at_characters():

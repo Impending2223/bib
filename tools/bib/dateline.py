@@ -15,8 +15,10 @@ STYLE
     but only where the range is the band's own hours (dayorder.band_range): hours of record a reader also gave a band
     word show their start ("10:30 a.m.", not "workday"), the range and Washington's in the title; a band of the
     record's own hours keeps Washington's day in the title, "morning (Jan. 5 Wash.)", no hour, none having been
-    recorded (STYLE 4: "the balance ... somewhere hidden"); no time, no dateline. Noon is "12:00 p.m." (the owner, Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2
-    p.m."; midnight stays "midnight" (no ruling on it).
+    recorded (STYLE 4: "the balance ... somewhere hidden"); no time, no dateline. Noon is "12:00 p.m." (the owner,
+    Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2 p.m."; midnight "12:00 a.m." (Nov. 19,
+    about 10:45 a.m.: "Yes, '12:00 a.m.'"), "10 p.m.–12:00 a.m.", "12:00–6 a.m."; in the datelines only, the
+    notes' prose as written (the same: "Datelines only").
  3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
     reaches it, its city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the eastern
     zone, Peking, Moscow, Saigon ...). The clock: `time_zone`, else the place's zone; an exact time with neither
@@ -71,16 +73,14 @@ def _city(slug):
 
 
 def _hour(dt):
-    if dt.hour == 12 and dt.minute == 0:
-        return "12:00"                                  # noon (STYLE 2)
-    if dt.hour == 0 and dt.minute == 0:
-        return "midnight"
+    if dt.minute == 0 and dt.hour in (0, 12):
+        return "12:00"                                  # noon, midnight (STYLE 2)
     h = dt.hour % 12 or 12
     return f"{h}:{dt.minute:02d}" if dt.minute else f"{h}"
 
 
 def _mer(dt):
-    return "" if (dt.hour, dt.minute) == (0, 0) else (" a.m." if dt.hour < 12 else " p.m.")
+    return " a.m." if dt.hour < 12 else " p.m."
 
 
 def _clock(dt):
