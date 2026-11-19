@@ -162,3 +162,9 @@ def test_by_rule_month_page_whole(monkeypatch, anchor, page):
                                                          ("cal", "cal1964", "cal1964Q1", "cal1964-01")])
     monkeypatch.setattr(calsplit, "years", lambda lst: {})
     assert calsplit.by_rule(L, anchor) == page
+
+
+def test_index_anchor_of_a_piece():
+    """The index links a piece of a section cut by its "continued" heading's id, which its page holds."""
+    assert pages._anchor("t196101") == "t196101"
+    assert pages._anchor("t196101/t196101-departments") == "pgc-t196101-departments"

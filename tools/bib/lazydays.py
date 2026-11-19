@@ -25,7 +25,7 @@ import re
 from . import smart
 
 SUB = "days"
-TOK = re.compile(r'<div class="day" id="d(\d{4}-\d\d-\d\d)">'
+TOK = re.compile(r'<div class="day" id="d(\d{4}-\d\d-\d\d)"[^>]*>'
                  r'|<details class="(docs[^"]*)"><summary>(.*?)</summary>(.*?)</details>', re.S)
 IDS = re.compile(r'\sid="([^"]+)"')
 

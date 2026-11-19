@@ -251,7 +251,7 @@ def cmd_links(series, a):
 
 def cmd_pages(series, a):
     """Every built page's size against its budget, and the splits it directs (tools/bib/pages.py); exit 1 while a page
-    not exempt is over budget."""
+    not exempt is over budget and a split could bring it in (one person's Names entry, which none divides, reported)."""
     from . import pages
     rows = pages.measure(OUT_DIR())
     if not rows:
@@ -268,7 +268,7 @@ def cmd_pages(series, a):
         for r in rows:
             r["stub"] = False
     print(pages.report(rows, prop))
-    return 1 if any(r["over"] for r in rows) else 0
+    return 1 if any(r["over"] and not r.get("alone") for r in rows) else 0     # a page a split could bring in
 
 
 def OUT_DIR():

@@ -400,12 +400,17 @@ def cut(fam, page, title):
     idx = [intro, bar(fam, parts, None)]
     for p in parts:
         idx.append(f'<h2 id="pt-{p["page"]}" data-short="{p["label"]}"><a href="{p["page"]}.html">{p["label"]}</a></h2>')
-        idx.append('<ul class="pgl">' + "".join(f'<li><a href="{p["page"]}.html#{s}">{by_id[s][0]}</a></li>'
+        idx.append('<ul class="pgl">' + "".join(f'<li><a href="{p["page"]}.html#{_anchor(s)}">{by_id[s][0]}</a></li>'
                                                  for s in p["sections"]) + "</ul>")
     html = pre + "\n" + "\n".join(idx) + "\n" + post
     html = html.replace("</body>", forward_script(amap, fam, here=True) + "\n</body>", 1)
     out[f"{fam}.html"] = route_own(html, fam, fam)
     return out
+
+
+def _anchor(sid):
+    """A section's anchor on its page: its h2's id; a piece of a section cut (h2/h3), its "continued" heading's."""
+    return f"pgc-{sid.split('/', 1)[1]}" if "/" in sid else sid
 
 
 def bar(fam, parts, cur):
@@ -639,9 +644,11 @@ def measure(out):
         rx, unit = UNITS.get(fam, (ANCHOR, "anchors"))
         n = os.path.getsize(path)
         b = budget(name)
-        rows.append({"page": name, "bytes": n, "units": len(rx.findall(text)), "unit": unit, "budget": b,
-                     "over": n > b and not exempt(name), "exempt": exempt(name), "stub": stubbed(text),
-                     "family": fam})
+        units = len(rx.findall(text))
+        over = n > b and not exempt(name)
+        rows.append({"page": name, "bytes": n, "units": units, "unit": unit, "budget": b,
+                     "over": over, "exempt": exempt(name), "stub": stubbed(text), "family": fam,
+                     "alone": over and fam == "names" and units == 1})    # one person: no split divides him
     return sorted(rows, key=lambda r: -r["bytes"])
 
 
@@ -663,13 +670,15 @@ def propose(out, rows=None):
     prop = {}
     if "names" in over:
         letters = {}
+        of = {f"{p['page']}.html": L for L, ps in (conf().get("names") or {}).items() for p in ps}   # a range's letter
         for r in rows:
-            m = re.match(r"^names-([a-z])(?:-[a-z]+)?\.html$", r["page"])
-            if m and not r["stub"]:
-                letters.setdefault(m.group(1), []).append(r)
+            m = re.match(r"^names-([a-z])\.html$", r["page"])
+            L = m.group(1) if m else of.get(r["page"])
+            if L and not r["stub"]:
+                letters.setdefault(L, []).append(r)
         props = {}
         for L, rs in sorted(letters.items()):
-            if not any(x["over"] for x in rs):
+            if not any(x["over"] and not x.get("alone") for x in rs):    # one person over: no new ranges help
                 continue
             sizes, total, body, nm = [], 0, 0, {}
             for x in rs:
@@ -914,12 +923,15 @@ def report(rows, prop=None):
     for r in rows:
         if r["stub"]:
             continue
-        mark = "OVER" if r["over"] else ("exempt" if r["exempt"] else "")
+        mark = ("OVER, one person: no split divides him" if r.get("alone") else "OVER") if r["over"] else (
+            "exempt" if r["exempt"] else "")
         out.append(f"{r['page']:<28} {mb(r['bytes']):>9} {r['units']:>8,} {r['unit']:<7}  {mb(r['budget']):>6} {mark}")
     stubs = [r["page"] for r in rows if r["stub"]]
     over = [r for r in rows if r["over"]]
     out.append(f"{len(rows) - len(stubs)} pages, {sum(r['bytes'] for r in rows if not r['stub']) / MB:.0f} MB; "
-               f"{len(stubs)} forwarding stubs; {len(over)} over budget")
+               f"{len(stubs)} forwarding stubs; {len(over)} over budget"
+               + (f" ({sum(1 for r in over if r.get('alone'))} a single person's Names entry, which no split divides)"
+                  if any(r.get("alone") for r in over) else ""))
     for r in rows:
         if r["exempt"] and not r["stub"]:
             out.append(f"exempt: {r['page']}: {r['exempt']}")
