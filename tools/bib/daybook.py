@@ -231,7 +231,10 @@ def rubric(lst, e, thread_name):
     slugs = [e["thread"]] + e.get("also", [])
     half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1
     linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
-    return f'<span class="s rub">{" · ".join(linked)}{when}</span>'
+    rub = f'<span class="s rub">{" · ".join(linked)}{when}</span>'
+    from . import dateline                # its place and time at the right (tools/bib/dateline.py)
+    dl = dateline.html_(e)
+    return f'<span class="rubrow">{rub}{dl}</span>' if dl else rub
 
 
 # ---------------------------------------------------------------- documents
@@ -658,9 +661,9 @@ def inject(page):
     """The styles and the expand/collapse script, where the page has days."""
     if 'class="day' not in page:
         return page
-    from . import committees, footnotes
-    page = page.replace("</head>", STYLE + committees.STYLE + footnotes.STYLE + "\n</head>", 1)
-    return page.replace("</body>", SCRIPT + "\n</body>", 1)
+    from . import committees, dateline, footnotes
+    page = page.replace("</head>", STYLE + committees.STYLE + footnotes.STYLE + dateline.STYLE + "\n</head>", 1)
+    return page.replace("</body>", SCRIPT + dateline.SCRIPT + "\n</body>", 1)
 
 
 def problems():
