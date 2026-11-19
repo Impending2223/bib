@@ -11,9 +11,11 @@ STYLE
     block, but keep the display line clean"): `time` an hour ("11:30 a.m."; "about 4 p.m." where `time_approx`); a
     `time_range` from the record its start ("10:20 a.m.", not "10:20–11:20 a.m."); a range from the event's kind
     (`range_basis: kind`), or any range a reader gave a `time_band` (the record's "morning", 上午), its band as words
-    ("workday", "early morning", "election night", "morning"), a word, not a range or its start shown (a band of
-    record keeps its hours and Washington's in the title, STYLE 4: "the balance ... somewhere hidden"); no time, no
-    dateline. Noon is "12:00 p.m." (the owner, Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2
+    ("workday", "early morning", "election night", "morning", "before dawn"), a word, not a range or its start shown,
+    but only where the range is the band's own hours (dayorder.band_range): hours of record a reader also gave a band
+    word show their start ("10:30 a.m.", not "workday"), the range and Washington's in the title; a band of the
+    record's own hours keeps Washington's day in the title, "morning (Jan. 5 Wash.)", no hour, none having been
+    recorded (STYLE 4: "the balance ... somewhere hidden"); no time, no dateline. Noon is "12:00 p.m." (the owner, Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2
     p.m."; midnight stays "midnight" (no ruling on it).
  3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
     reaches it, its city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the eastern
@@ -36,7 +38,8 @@ MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "
 BAND = {"workday daytime": "workday", "workday afternoon": "afternoon", "workday midday": "midday",
         "workday morning": "morning", "pre-work morning": "early morning", "early morning": "early morning",
         "election night": "election night", "afternoon": "afternoon", "evening": "evening", "morning": "morning",
-        "night": "night", "daytime": "daytime", "midday": "midday"}
+        "night": "night", "daytime": "daytime", "midday": "midday", "after-workday daytime": "evening",
+        "predawn": "before dawn"}
 ZONE = {"America/New_York": "Washington", "Asia/Shanghai": "Peking", "Europe/Moscow": "Moscow",
         "Asia/Ho_Chi_Minh": "Saigon", "Europe/Berlin": "Germany", "Etc/GMT+6": "Texas",
         "America/Kentucky/Louisville": "Louisville", "America/Indiana/Indianapolis": "Indianapolis",
@@ -113,6 +116,46 @@ def _guess(e):
     return None
 
 
+def _conventional(e, zone):
+    """Whether a range with a band word is the band's own hours (dayorder.band_range: none recorded), not hours of
+    record that a reader also gave a word ("10:30 a.m.–5 p.m.", "workday")."""
+    from . import dayorder
+    band, r = str(e.get("time_band")), e.get("time_range")
+    if band not in dayorder.BANDS or not zone:
+        return False
+    try:
+        conv = [_utc(x) for x in dayorder.band_range(str(e.get("date"))[:10], band, zone)]
+        got = [_utc(x) for x in r[:2]]
+    except Exception:
+        return False
+    if got == conv:
+        return True
+    # a band's hours set an hour off at one end in a zone that changes its clocks that year (summer time taken for
+    # standard, or the reverse, when the range was written): still the band's own, not hours of record
+    off = [abs((x - y).total_seconds()) for x, y in zip(got, conv)]
+    return sorted(off) == [0, 3600] and _shifts(zone, got[0].year)
+
+
+def _shifts(zone, year):
+    """Whether the zone's clocks change in the year (summer time)."""
+    import datetime
+    z = ZoneInfo(zone)
+    return datetime.datetime(year, 1, 15, tzinfo=z).utcoffset() != datetime.datetime(year, 7, 15, tzinfo=z).utcoffset()
+
+
+def _wash_days(a, b):
+    """Washington's day or days for a band from a to b, local ("Jan. 5", "Jan. 9–10"), where not the local day."""
+    import datetime
+    w1, w2 = a.astimezone(WASH).date(), (b - datetime.timedelta(minutes=1)).astimezone(WASH).date()
+    if w1 == w2 == a.date():
+        return ""
+    if w1 == w2:
+        return f"{MON[w1.month - 1]} {w1.day}"
+    if w1.month == w2.month:
+        return f"{MON[w1.month - 1]} {w1.day}–{w2.day}"
+    return f"{MON[w1.month - 1]} {w1.day}–{MON[w2.month - 1]} {w2.day}"
+
+
 def parts(e):
     """(the line, the dateline in full): the line its start alone, the full its range and Washington's hour where the
     day differs (STYLE 2, 4); ('', '') where there is no time."""
@@ -144,10 +187,14 @@ def parts(e):
             band = str(e.get("time_band") or "")
             when = full = BAND.get(band, band)
             start = None                                 # a kind's band: no hours of record, none against Washington's
-        elif e.get("time_band"):                         # a band of record ("morning", 上午): its word on the line,
-            band = str(e.get("time_band"))               # its hours and Washington's in the title (STYLE 2, 4)
-            when, full = BAND.get(band, band), _span(a, b)
-        else:
+        elif e.get("time_band") and _conventional(e, zone or "America/New_York"):
+            band = str(e.get("time_band"))               # a band of record ("morning", 上午), its hours the band's own:
+            when = full = BAND.get(band, band)           # its word; in the title Washington's day, no hour (none was
+            wd = _wash_days(a, b)                        # recorded) (STYLE 2, 4)
+            if wd:
+                full += f" ({wd} Wash.)"
+            start = None
+        else:                                            # hours of record, a band word or not: the start
             when, full = _clock(a), _span(a, b)
     if not when:
         return "", ""

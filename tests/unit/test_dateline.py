@@ -105,9 +105,18 @@ FULL = [
       'time_zone': 'Asia/Shanghai'}, 'Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)'),
     ({'id': 'g', 'date': '1961-04-17', 'time_range': ['1961-04-17T14:00Z', '1961-04-17T22:00Z'],
       'time_zone': 'America/New_York', 'range_basis': 'kind', 'time_band': 'evening'}, 'Washington · evening'),
-    # a band a reader gave from the record (上午): the line its word; the title its hours and Washington's, nothing lost
+    # (8) a band a reader gave from the record (上午), its hours the band's own: the line its word; the title
+    # Washington's day, no hour (none was recorded)
     ({'id': 's', 'date': '1961-04-29', 'time_range': ['1961-04-28T22:00Z', '1961-04-29T04:00Z'],
-      'time_zone': 'Asia/Shanghai', 'time_band': 'morning'}, 'Peking · 6 a.m.–12:00 p.m. (Apr. 28, 5 p.m. Wash.)'),
+      'time_zone': 'Asia/Shanghai', 'time_band': 'morning'}, 'Peking · morning (Apr. 28 Wash.)'),
+    ({'id': 's2', 'date': '1961-04-29', 'time_range': ['1961-04-29T04:00Z', '1961-04-29T10:00Z'],
+      'time_zone': 'Asia/Shanghai', 'time_band': 'afternoon'}, 'Peking · afternoon (Apr. 28–29 Wash.)'),
+    # (6) hours of record a reader also gave a band word: the start on the line, the range in the title
+    ({'id': 'w', 'date': '1963-06-26', 'time_range': ['1963-06-26T14:30Z', '1963-06-26T21:00Z'],
+      'time_zone': 'America/New_York', 'time_band': 'workday daytime', 'range_basis': 'record'},
+     'Washington · 10:30 a.m.–5 p.m.'),
+    ({'id': 'p', 'date': '1961-10-30', 'time_range': ['1961-10-29T18:00Z', '1961-10-29T19:00Z'],
+      'time_zone': 'Asia/Shanghai', 'time_band': 'predawn'}, 'Peking · 2–3 a.m. (Oct. 29, 1 p.m. Wash.)'),
     ({'id': 't', 'date': '1963-01-18', 'time_range': ['1963-01-17T23:00Z', '1963-01-18T05:00Z'],
       'time_zone': 'Asia/Ho_Chi_Minh', 'time_band': 'morning', 'range_basis': 'record'},
      'Saigon · 7 a.m.–1 p.m. (Jan. 17, 6 p.m. Wash.)'),
@@ -122,7 +131,10 @@ HTML = [
      '<span class="dl" title="Peking · 10–11 a.m. (Apr. 16, 9 p.m. Wash.)">Peking · 10 a.m.</span>'),
     ({'id': 's', 'date': '1961-04-29', 'time_range': ['1961-04-28T22:00Z', '1961-04-29T04:00Z'],
       'time_zone': 'Asia/Shanghai', 'time_band': 'morning'},
-     '<span class="dl" title="Peking · 6 a.m.–12:00 p.m. (Apr. 28, 5 p.m. Wash.)">Peking · morning</span>'),
+     '<span class="dl" title="Peking · morning (Apr. 28 Wash.)">Peking · morning</span>'),
+    ({'id': 'w', 'date': '1963-06-26', 'time_range': ['1963-06-26T14:30Z', '1963-06-26T21:00Z'],
+      'time_zone': 'America/New_York', 'time_band': 'workday daytime', 'range_basis': 'record'},
+     '<span class="dl" title="Washington · 10:30 a.m.–5 p.m.">Washington · 10:30 a.m.</span>'),
     ({'id': 'n', 'date': '1961-04-17', 'time': '1961-04-17T17:00Z', 'time_zone': 'America/New_York'},
      '<span class="dl">Washington · 12:00 p.m.</span>'),
     ({'id': 'k', 'date': '1961-04-17'}, ''),
@@ -132,6 +144,31 @@ HTML = [
 @pytest.mark.parametrize("e,want", FULL)
 def test_full(e, want):
     assert dateline.full(e) == want
+
+
+BANDS = [
+    # (7) the bands in plain words
+    ({'id': 'q', 'date': '1961-05-19', 'time_range': ['1961-05-19T05:00Z', '1961-05-19T11:00Z'],
+      'time_zone': 'America/Chicago', 'time_band': 'predawn', 'city': 'x'}, 'before dawn'),
+    ({'id': 'v', 'date': '1964-01-08', 'time_range': ['1964-01-08T22:00Z', '1964-01-09T00:00Z'],
+      'time_zone': 'America/New_York', 'time_band': 'after-workday daytime'}, 'evening'),
+    # (6) the band's own hours: its word; hours of record: their start
+    ({'id': 'w', 'date': '1963-06-26', 'time_range': ['1963-06-26T13:00Z', '1963-06-26T21:00Z'],
+      'time_zone': 'America/New_York', 'time_band': 'workday daytime', 'range_basis': 'record'}, 'workday'),
+    ({'id': 'w2', 'date': '1963-06-26', 'time_range': ['1963-06-26T14:30Z', '1963-06-26T21:00Z'],
+      'time_zone': 'America/New_York', 'time_band': 'workday daytime', 'range_basis': 'record'}, '10:30 a.m.'),
+    # a band's hours an hour off at one end where summer time was taken for standard: still the band's own
+    ({'id': 'm', 'date': '1963-05-06', 'time_range': ['1963-05-06T11:00Z', '1963-05-06T18:00Z'],
+      'time_zone': 'America/Chicago', 'time_band': 'morning', 'range_basis': 'record'}, 'morning'),
+    # ... but not where the zone keeps one time all year: Lushan's 1 a.m. was recorded
+    ({'id': 'l', 'date': '1961-08-30', 'time_range': ['1961-08-29T17:00Z', '1961-08-29T22:00Z'],
+      'time_zone': 'Asia/Shanghai', 'time_band': 'predawn'}, '1 a.m.'),
+]
+
+
+@pytest.mark.parametrize("e,want", BANDS)
+def test_band_words(e, want):
+    assert dateline.text(e).split(" · ")[-1] == want
 
 
 @pytest.mark.parametrize("e,want", HTML)

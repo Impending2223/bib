@@ -13,21 +13,34 @@ STYLE
 2. The line (`c`): a run of characters glossing the word or words before it (split: a romanized name, place, term, an
    italic title, a quoted phrase; _label finds them) is dropped with its joining space; so too a parenthesis holding
    characters alone ("... one side" (工商业者应当下决心...)"), and the comma of "(Mai Ye, 麦耶)" or "("Victory
-   Goddess," 胜利女神)" with its run. Kept where they are: characters inside a quotation, characters standing as the
-   sentence's own words ("the departing Romanian ambassador, 乔治乌"; "the book names him 阿夫扎尔"), anything that
-   follows no word. Vietnamese is not touched (it is Latin script).
+   Goddess," 胜利女神)" with its run; a second script in parentheses goes with the first ("Kim Il Sung 김일성
+   (金日成)"). Inside a translated quotation a romanized name's or title's gloss goes too ("Why Xifeng 西馮 brigade");
+   the quotation's own words in characters stay ("三面红旗万岁"). Kept where they are: characters standing as the
+   sentence's own words, after a preposition, an article or a verb ("led by 莫纳·孟杜", "the 呷咖公", "the book names
+   him 阿夫扎尔", "a note headed 关于"), after a plain noun that introduces them ("the slogan 三面红旗", "the line
+   不到长城非好汉"; a term of its own words is glossed: "the general line 总路线"), after a comma ("the departing
+   Romanian ambassador, 乔治乌"), after no word. Vietnamese is not touched (it is Latin script).
 3. Each dropped run leaves a pair (its label, its characters), shown in the citation block at its first appearance on
-   the page (a calendar half, as tools/bib/works.py FIRST CITE counts pages; the entries in the page's order; in an
-   entry its line before its note): a person in the note's "Names:" sentence takes them after the name ("Names: Liu
-   Shaoqi 刘少奇, Deng Xiaoping 邓小平."), from the entry's own pairs, or else from the person's name entry where its
-   subject line records them ("Huang Hua 黄华"); every other pair in one closing sentence, "Characters: Hangzhou 杭州;
-   Henan Provincial Supervisory Committee 河南省监委; *Hongqi* 红旗." (the label "Characters:" the series' own; the
-   owner named none). Later on the page the same characters are not given again.
+   the page (a calendar half, as tools/bib/works.py FIRST CITE counts pages; the entries in the page's order, a day's
+   as the day lays them out: dayorder.page_rows; in an entry its line before its note): a person in the note's
+   "Names:" sentence takes them after the name ("Names: Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平."). The person is the
+   one the Names: line links (build.Linker, by the entry's name: tags); his pair is the line's whose label is his
+   token ("Mao Zedong"), else whose characters his name entry records, else his surname alone where no other
+   unmatched token has it ("Mao"), else his token with words before it ("Vice-Premier Li Xiannian") or after it where
+   the Linker finds it the same man ("Nosaka Sanzō" for "Nosaka"; never "Mao Yuanxin" for "Mao"); never a given name
+   ("Xiaoping"), a term or title holding his name ("Mao Zedong Thought", "Learn from Comrade Lei Feng"). Failing a
+   pair, his name entry's characters where its subject line records them ("Huang Hua 黄华"), never another's of his
+   surname. Every other pair in one closing sentence, "Characters: Hangzhou 杭州; Henan Provincial Supervisory
+   Committee 河南省监委; *Hongqi* 红旗." (the label "Characters:" the series' own; the owner named none). Later on the
+   page the same characters are not given again, nor those a card's full cite prints in the same block (works.py
+   FIRST CITE).
 4. The note (`n`) keeps its own runs in place (the citation block), shown at their first appearance on the page and
    dropped after, as before (runs, _gloss; strip).
 5. A work's characters are its card's (`script`), given at its first cite (works.py FIRST CITE), not here.
 6. The claims' units (claims.py), the footnotes' marks (footnotes.py) and the visibility spans (vispage.py) are found
-   in the line as rendered: their units are rendered through drop() too (build._unit_renderer).
+   in the line as rendered: their units are rendered through drop() too (build._unit_renderer), and drop() of a line
+   already dropped changes nothing. So too every other place a calendar line is shown: the lives' calendar sentences
+   (lives.calendar_sentences), the standing conditions' register (standing.register_html).
 """
 import re
 
@@ -35,21 +48,30 @@ CH = "㐀-䶿一-鿿豈-﫿々〇぀-ヿ가-힯"
 PUNCT = "、。，：；·・“”「-』（）—"
 _B = r"《[^》\n]*》|〈[^〉\n]*〉|「[^」\n]*」|『[^』\n]*』"
 # a word of characters: it opens with a character (or numerals run into one, "23条") and closes with one; numerals,
-# brackets and the like inside ("依靠95%干部", "中發[60]364號")
-_X = rf"(?:{_B}|[{CH}]|\d+(?=[{CH}]))(?:(?:{_B}|[{CH}{PUNCT}\d\[\]×%％])*(?:{_B}|[{CH}”）]))?"
+# brackets and the like inside ("依靠95%干部", "中發[60]364號"); a hyphen inside ("乔治乌-德治", "伊尔-18"), a name's
+# ×× ("张××"), a parenthesis of characters at its end ("日中友好协会(正统)")
+_X = (rf"(?:{_B}|[{CH}]|\d+(?=[{CH}]))(?:(?:{_B}|[{CH}{PUNCT}\d\[\]×%％-])*"
+      rf"(?:{_B}|[{CH}”）×]|(?<=-)\d+|\([{CH}]+\)))?")
 CJK_RUN = rf"{_X}(?: {_X})*"                       # a run: characters, their punctuation, a space between words
 HAS = re.compile(rf"[{CH}《〈]")
 LINE = re.compile(rf"(?P<paren> \((?P<pin>{CJK_RUN}(?:, {CJK_RUN})*)\))|(?P<sp> )(?P<run>{CJK_RUN})")
 AFTER_OK = re.compile(r"(?:[\s,.;:!?)\]*'\"’”–]|$)")
 WORD = re.compile(rf"^(?![{CH}])[^\W\d_](?:(?![{CH}])[^\W_]|['’–-])*$")   # a word in Latin script
 FUNC = {"him", "her", "me", "us", "them", "it", "as", "is", "was", "are", "were", "be", "called", "named", "titled",
-        "reads", "read", "says", "said", "writes", "wrote", "word", "words", "name", "names", "and", "or", "but"}
+        "reads", "read", "says", "said", "writes", "wrote", "word", "words", "name", "names", "and", "or", "but",
+        "headed", "entitled", "quotes", "quoted", "reading"}
+# a plain noun that introduces words rather than glossing them ("the slogan 三面红旗", "the line 不到长城非好汉"): no
+# label alone; a term of its own words keeps it ("the general line 总路线")
+INTRO = {"slogan", "slogans", "line", "lines", "inscription", "phrase", "motto", "banner", "title", "text", "verse",
+         "couplet", "characters"}
+HONOR = {"Comrade", "Comrades"}     # "Comrade Lei Feng 雷锋": the label the name
 STOP = {"the", "a", "an", "of", "on", "in", "at", "to", "for", "by", "with", "from", "and", "or", "his", "her", "its",
         "their", "our", "my", "as", "is", "was", "are", "were", "into", "about", "against", "under", "over", "after",
         "before", "this", "that", "these", "those", "some", "any", "no", "not", "each", "every", "all", "both", "than",
         "then", "also", "he", "she", "it", "they", "we", "him", "them", "who", "which", "whom", "whose", "where", "when",
-        "but", "so", "if", "at", "upon", "via", "per", "between", "among", "through", "during", "until", "since"}
-CAPSTOP = {w.capitalize() for w in STOP} - {"He"}       # He Jun 何均, He Long 贺龙: a surname, not the pronoun
+        "but", "so", "if", "at", "upon", "via", "per", "between", "among", "through", "during", "until", "since",
+        "why", "what", "how"}
+CAPSTOP = {w.capitalize() for w in STOP} - {"He", "An"}   # He Long 贺龙, An Ziwen 安子文: a surname, not the word
 CONNECT = {"of", "for", "de", "du", "la", "van", "von", "der", "bin", "al"}
 POSS = re.compile(r"['’]s$")
 
@@ -76,9 +98,9 @@ def _label(before, joined=False):
     joined: names joined by "and" taken together (a parenthesis of several names' characters)."""
     if not before:
         return None
-    it = re.search(r"\*[^*]+\*(?=(?:['’]s)?$)", before)       # an italic title, its possessive aside
-    if it:
-        return it.group(0)
+    it = re.search(r"\*[^*]+\*(?=(?:['’]s)?$)", before)       # an italic title, its possessive aside, without
+    if it:                                                      # the glosses inside it
+        return split(it.group(0))[0] if HAS.search(it.group(0)) else it.group(0)
     if before.endswith("*"):
         return None
     if before[-1] in "\"”'’" and not POSS.search(before):
@@ -88,6 +110,10 @@ def _label(before, joined=False):
         if before[-1] not in "'’":
             return None
         before = before[:-1]                         # a plural's possessive ("the Anshan Steel Works' 鞍钢")
+    xx = re.search(r" (×+)$", before)                 # "Zhang ×× 张××": the name's ×× with it
+    if xx:
+        lab = _label(before[:xx.start()], joined)
+        return f"{lab} {xx.group(1)}" if lab and lab[0].isupper() and " " not in lab else None
     toks = before.split(" ")
     if "–" in toks[-1] and HAS.search(toks[-1]):     # "Guiyang 贵阳–Kunming 昆明": the word after the dash
         toks = [toks[-1].rsplit("–", 1)[1]]
@@ -96,10 +122,14 @@ def _label(before, joined=False):
     last = last.lstrip(OPEN)
     if not last or not WORD.match(last):
         return None
-    if last[0].islower() and last.lower() in FUNC:
-        return None
+    low = last.lower()
+    if last[0].islower() and (low in FUNC or low in STOP):
+        return None                              # "led by 莫纳·孟杜": the sentence's own words, not a gloss
+    if last in CAPSTOP:
+        return None                              # "The 23条": no word to gloss
     got = [last]
     cap = last[0].isupper()
+    in_title = before.count("*") % 2 == 1        # "*Selected Works of Mao Zedong 毛泽东*": the name in the title
     for t in ([] if opened else reversed(toks[:-1])):
         stop = t[:1] in OPEN
         t = t.lstrip(OPEN)
@@ -108,23 +138,48 @@ def _label(before, joined=False):
         if cap:
             if t[0].isupper() and t not in CAPSTOP:
                 got.append(t)
-            elif (t in CONNECT or (joined and t == "and")) and not stop:
+            elif (t in CONNECT or (joined and t == "and")) and not stop and not in_title:
                 got.append(t)
             else:
                 break
         else:
-            if t.lower() in STOP or len(got) >= 5:
-                break
+            if t.lower() in STOP or t.lower() in FUNC or t.lower() in INTRO or len(got) >= 5:
+                break                            # "the phrase dazibao 大字报": the term, not the phrase
             got.append(t)
         if stop:
             break
     while got and (got[-1] in CONNECT or got[-1] == "and"):
         got.pop()
+    if len(got) == 1 and got[0] in INTRO:
+        return None                              # "the slogan 三面红旗": the words themselves, not a gloss
+    while len(got) > 1 and got[-1] in HONOR:
+        got.pop()                                # "Comrade Lei Feng": the name
     return POSS.sub("", " ".join(reversed(got)))
 
 
 def _inside_quote(before):
     return before.count('"') % 2 == 1 or before.count("“") > before.count("”")
+
+
+def _quote_open(before):
+    """Where the quotation `before` is inside opens (the index after its mark)."""
+    a = before.rfind('"') if before.count('"') % 2 == 1 else -1
+    b = before.rfind("“") if before.count("“") > before.count("”") else -1
+    return max(a, b) + 1
+
+
+def _namey(label):
+    """A label a quotation's gloss may have (STYLE 2): a name or title, its glossed (last) word capitalized, or
+    italic, or a term in pinyin."""
+    words = label.strip("*").split()
+    return bool(words) and (words[-1][0].isupper() or label[0] == "*" or all(PINYIN.match(w) for w in words))
+
+
+def _script(run):
+    return "hangul" if re.search("[가-힯]", run) else "kana" if re.search("[぀-ヿ]", run) else "han"
+
+
+SECOND = re.compile(rf" \(({CJK_RUN})\)")
 
 
 def split(text):
@@ -133,12 +188,22 @@ def split(text):
         return text, []
     out, pairs, pos = [], [], 0
     for m in LINE.finditer(text):
+        if m.start() < pos:
+            continue                                 # taken with the run before (a second script)
         before = text[:m.start()]
-        if not AFTER_OK.match(text, m.end()) or _inside_quote(before):
+        if not AFTER_OK.match(text, m.end()):
             continue
+        if _inside_quote(before):                    # a translated quotation: a name's gloss in it goes too, the
+            q = _quote_open(before)                  # quotation's own words in characters stay (STYLE 2)
+            inner = _label(before[q:]) if before[q:].strip() else None
+            if m.group("paren") or not inner or not _namey(inner):
+                continue
         if m.group("paren"):
             chars = m.group("pin").split(", ")
-            lab = _label(before, joined=len(chars) > 1)
+            if pairs and m.start() == pos:           # "Liu Shaoqi 刘少奇 and Deng Xiaoping 邓小平 (刘邓)": the line as
+                lab = _label("".join(out), joined=True)   # shown labels it, as a second pass would ("drop" twice)
+            else:
+                lab = _label(before, joined=len(chars) > 1)
             if lab is None:
                 continue
             out.append(text[pos:m.start()])
@@ -167,8 +232,11 @@ def split(text):
             out.append(text[pos:comma.start()] + comma.group(1))
         else:
             out.append(text[pos:cut])
-        pairs.append((lab, m.group("run")))
-        pos = m.end()
+        run, pos = m.group("run"), m.end()
+        s2 = SECOND.match(text, pos)                 # "Kim Il Sung 김일성 (金日成)": a second script with the first
+        if s2 and _script(s2.group(1)) != _script(run) and AFTER_OK.match(text, s2.end()):
+            run, pos = f"{run} ({s2.group(1)})", s2.end()
+        pairs.append((lab, run))
     out.append(text[pos:])
     return "".join(out), pairs
 
@@ -213,40 +281,77 @@ def runs(text):
 
 # ---------------------------------------------------------------- the page (STYLE 3)
 
+def _linker(series):
+    """The series' Linker, once (build.Linker: who a 'Names:' token means)."""
+    if getattr(series, "_cjk_linker", None) is None:
+        from .build import Linker
+        series._cjk_linker = Linker(series)
+    return series._cjk_linker
+
+
 def _name_chars(series):
-    """{folded name: characters} from the name entries' subject lines ("Huang Hua 黄华"); a surname alone where one
-    person has it."""
+    """{name entry's address: characters}, from the person entries' subject lines that record them ("Huang Hua 黄华"):
+    a person's own, found as the 'Names:' line finds him (build.Linker), never by a surname or given name alone."""
     if getattr(series, "_cjk_names", None) is None:
-        from . import store
-        full, part = {}, {}
+        from . import namelinks
+        from .markup import plain
+        lk, out = _linker(series), {}
         for lst in series.lists.values():
             if lst.kind == "calendar":
                 continue
-            for _, e in lst.entries():
-                for s in re.split(r";\s*", str(e.get("s") or "")):
+            for sec, e in lst.entries():
+                if not e.get("s") or not HAS.search(str(e["s"])) or not lk.refs.is_person(lst, sec, e):
+                    continue
+                for s in re.split(r";\s*", plain(str(e["s"]))):
                     m = re.match(rf"^(.+?) ({CJK_RUN})$", s.strip())
                     if not m or HAS.search(m.group(1)):
                         continue
-                    k = store.fold(m.group(1))
-                    full.setdefault(k, m.group(2))
-                    for w in {k.split()[0], k.split()[-1]}:
-                        part.setdefault(w, set()).add(m.group(2))
-        for w, v in part.items():
-            if len(v) == 1 and w not in full:
-                full[w] = next(iter(v))
-        series._cjk_names = full
+                    hits = lk._named_hits(m.group(1))   # his name entry: the one this entry is, or the name's own
+                    us = [u for u, x in hits.items() if x is e] or [namelinks.url(series, m.group(1))]
+                    for u in us:
+                        if u:
+                            out.setdefault(_key(u), m.group(2))
+        series._cjk_names = out
     return series._cjk_names
 
 
-def _fits(label, token):
-    """Whether a pair's label names the person of a 'Names:' token: the one's words the other's, or their start or
-    end ('Mao' and 'Mao Zedong'; 'Liu Shaoqi' and 'Liu')."""
+def _key(u):
+    """A name entry's address as its key ('zhou-enlai'): the tags' and the Linker's forms alike."""
+    return str(u).rsplit("#", 1)[-1]
+
+
+def _surname(token, east):
+    """The token's surname: its first word for a name in East Asian order (`east`: its person's characters are known,
+    or every word is pinyin), else its last."""
+    w = token.split()
+    return w[0] if east or all(PINYIN.match(x) for x in w) else w[-1]
+
+
+def _fits(label, token, east=False):
+    """Whether a pair's label names the person of a 'Names:' token: the token itself, or its surname alone ('Mao' for
+    'Mao Zedong'); never a given name ('Xiaoping'), a label running on past the token ('Mao Yuanxin' for 'Mao', 'Mao
+    Zedong Thought'), or a title in quotation marks or italics (STYLE 3). A label longer than the token is _longer's."""
     from . import store
-    a, b = store.fold(label).split(), store.fold(token).split()
-    if not a or not b:
+    if not label or label[0] in "*\"“'‘":
         return False
-    n = min(len(a), len(b))
-    return a[:n] == b[:n] or a[-n:] == b[-n:]
+    a, b = store.fold(label).split(), store.fold(token).split()
+    if not a or not b or len(a) > len(b):
+        return False
+    return a == b or (len(a) == 1 and a[0] == store.fold(_surname(token, east)))
+
+
+def _longer(label, token):
+    """How a pair's label holds a 'Names:' token, its words capitalized and not in quotation marks or italics:
+    'after', the whole token after other words (a title, a given name, a stray word: 'Vice-Premier Li Xiannian',
+    'Sékou Touré'); 'before', the token followed by more ('Nosaka Sanzō' for 'Nosaka'; 'Mao Yuanxin' for 'Mao', a
+    different man, which plan rejects unless the Linker finds the two one person); else None."""
+    from . import store
+    if not label or label[0] in "*\"“'‘":
+        return None
+    a, b = store.fold(label).split(), store.fold(token).split()
+    if len(a) <= len(b) or not all(w[:1].isupper() for w in label.split()):
+        return None
+    return "after" if a[-len(b):] == b else "before" if a[:len(b)] == b else None
 
 
 def _names(n):
@@ -266,20 +371,71 @@ def peel(token):
 def plan(series, e):
     """The entry's characters for its citation block, before the page has a say: ([(token, characters)] for 'Names:',
     [(label, characters)] for 'Characters:'), each characters once."""
+    cache = series.__dict__.setdefault("_cjk_plan", {})
+    if e.get("id") in cache and cache[e["id"]][0] is e:
+        return cache[e["id"]][1]
     pairs = []
     for c in (e.get("c") if isinstance(e.get("c"), list) else [e.get("c")]):
         pairs += split(str(c or ""))[1]
     toks = _names(e.get("n"))
-    names, used, seen = [], set(), set()
     known = _name_chars(series)
     from . import store
-    for t in toks:
-        hit = next((i for i, (lab, _) in enumerate(pairs) if i not in used and _fits(lab, t)), None)
-        if hit is not None:
-            used.add(hit)
-            ch = pairs[hit][1]
-        else:
-            ch = known.get(store.fold(t))
+    own = [None] * len(toks)                     # each token's person's characters, where his entry records them
+    who = [None] * len(toks)                     # each token's person (his name entry's key)
+    tags = {str(x)[5:] for x in e.get("tags") or [] if str(x).startswith("name:")}
+    if toks:
+        words = series.__dict__.setdefault("_cjk_words", {w for u in known for w in u.split("-")})
+        if pairs or any(w in words for t in toks for w in store.fold(t).split()):
+            for k, hit in enumerate(_linker(series).names_resolved(toks, tags)):
+                who[k] = _key(hit[1]) if hit and hit[1] else None
+                own[k] = known.get(who[k]) if who[k] else None
+
+    def same(label, k):
+        """Whether the Linker finds the label the token's person (None: it finds no one)."""
+        hit = _linker(series).who_named(label, tags)
+        return None if not hit or not hit[1] else (who[k] is not None and _key(hit[1]) == who[k])
+    pick, used = [None] * len(toks), set()
+
+    def take(k, i):
+        pick[k] = i
+        used.add(i)
+    for k, t in enumerate(toks):                 # the token itself first ("Mao Zedong 毛泽东")
+        i = next((i for i, (lab, _) in enumerate(pairs) if i not in used and store.fold(lab) == store.fold(t)
+                  and lab[:1] not in "*\"“'‘"), None)
+        if i is not None:
+            take(k, i)
+    for k, t in enumerate(toks):                 # then his own characters, however the line labels them
+        if pick[k] is None and own[k]:
+            i = next((i for i, (lab, ch) in enumerate(pairs) if i not in used and ch == own[k]
+                      and lab[:1] not in "*\"“'‘"), None)
+            if i is not None:
+                take(k, i)
+    for k, t in enumerate(toks):                 # then his surname alone, where no other token has it
+        if pick[k] is not None:
+            continue
+        east = bool(own[k])
+        sur = store.fold(_surname(t, east))
+        if sum(1 for j, x in enumerate(toks) if pick[j] is None and store.fold(_surname(x, east)) == sur) > 1:
+            continue                             # two unmatched tokens with the surname: neither takes it
+        i = next((i for i, (lab, ch) in enumerate(pairs) if i not in used and _fits(lab, t, east)), None)
+        if i is not None:
+            take(k, i)
+    for k, t in enumerate(toks):                 # then a longer label: words before the token, unless the Linker
+        if pick[k] is not None:                  # finds them another man; words after it, only where it finds him
+            continue
+        befores = [lab for lab, _ in pairs if _longer(lab, t) == "before"]
+        for i, (lab, ch) in enumerate(pairs):
+            how = None if i in used else _longer(lab, t)
+            if not how:
+                continue
+            s = same(lab, k)
+            if (s is not False) if how == "after" else (s is True or (s is None and who[k] is None
+                                                                       and len(befores) == 1)):
+                take(k, i)                   # ('Nosaka Sanzō' for 'Nosaka', neither with a name entry: the one
+                break                        # such label the line has)
+    names, seen = [], set()
+    for k, t in enumerate(toks):
+        ch = pairs[pick[k]][1] if pick[k] is not None else own[k]
         if ch and ch not in seen:
             seen.add(ch)
             names.append((t, ch))
@@ -292,27 +448,19 @@ def plan(series, e):
         if ch not in seen:
             seen.add(ch)
             rest.append((lab, ch))
+    cache[e.get("id")] = (e, (names, rest))
     return names, rest
 
 
 def firsts(series):
     """{(entry id, characters)}: each run's first appearance on each page of each calendar (STYLE 3, 4)."""
     if getattr(series, "_first_cjk", None) is None:
-        from . import calsplit, loose
         out = set()
         for lst in series.lists.values():
             if lst.kind != "calendar":
                 continue
-            rows = []
-            for k, sec in enumerate(lst.walk()):
-                for i, e in enumerate(sec.entries):
-                    if e["id"].startswith(f"{lst.key}.thread."):
-                        continue
-                    h = (calsplit.half_of_date(lst, loose.place_iso(e)) if loose.moves(e) and calsplit.cfg(lst)
-                         else (calsplit.half_of_section(lst, sec) or 1))
-                    rows.append((h, loose.order_key(e), k, i, e))
             seen = set()
-            for h, _, _, _, e in sorted(rows, key=lambda r: r[:4]):
+            for h, e in page_rows(series, lst):      # the page's own order, a day's included (dayorder.page_rows)
                 names, rest = plan(series, e)
                 for r in [ch for _, ch in names] + [ch for _, ch in rest] + runs(str(e.get("n") or "")):
                     if (h, r) not in seen:
@@ -323,6 +471,15 @@ def firsts(series):
 
 
 first_runs = firsts
+
+
+def page_rows(series, lst):
+    """dayorder.page_rows, once a series."""
+    cache = series.__dict__.setdefault("_page_rows", {})
+    if lst.key not in cache:
+        from . import dayorder
+        cache[lst.key] = dayorder.page_rows(lst)
+    return cache[lst.key]
 
 
 class Entry:
@@ -346,15 +503,29 @@ class Entry:
         self.rest = [(lab, ch) for lab, ch in self.rest if keep(ch)]
         return self
 
-    def tail(self, n):
-        """The note with the characters of its 'Names:' and its closing 'Characters:' sentence (STYLE 3)."""
+    def tail(self, n, printed=frozenset()):
+        """The note with the characters of its 'Names:' and its closing 'Characters:' sentence (STYLE 3); those a
+        card's full cite in the same block prints (`printed`, the runs: printed_by, works.py FIRST CITE) not given
+        again."""
         n = n or ""
-        if self.names and "Names:" in n:
-            n = with_names(n, dict(self.names))
-        if self.rest:
-            sent = "Characters: " + "; ".join(f"{lab} {ch}" for lab, ch in self.rest) + "."
+        names = [(t, ch) for t, ch in self.names if ch not in printed]
+        rest = [(lab, ch) for lab, ch in self.rest if ch not in printed]
+        if names and "Names:" in n:
+            n = with_names(n, dict(names))
+        if rest:
+            sent = "Characters: " + "; ".join(f"{lab} {ch}" for lab, ch in rest) + "."
             n = f"{n.rstrip()} {sent}" if n.strip() else sent
         return n
+
+
+RUNS = re.compile(CJK_RUN)
+
+
+def printed_by(before, after):
+    """The runs of characters `after` (a text with its cards' full cites) has that `before` (the text as written) has
+    not: those the cites print."""
+    had = set(RUNS.findall(before or ""))
+    return frozenset(r for r in RUNS.findall(after or "") if r not in had)
 
 
 def with_names(n, chars):

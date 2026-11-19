@@ -13,7 +13,7 @@ STYLE
 import html
 import re
 
-from . import calsplit, loose, markup, store
+from . import calsplit, cjk, loose, markup, store
 
 LABEL = "As reported"
 
@@ -47,7 +47,7 @@ def register_html(lst, thread_name, thread_key):
             half = calsplit.half_of_date(lst, loose.place_iso(e))
             link = calsplit.href(lst, half, e["id"])
             out.append(f'<li><a href="{html.escape(link)}">{html.escape(str(e.get("when") or e["date"]))}, '
-                       f'{str(e["date"])[:4]}</a>: {_inline(e.get("c"))}</li>')
+                       f'{str(e["date"])[:4]}</a>: {_inline(cjk.drop(e.get("c")))}</li>')   # the line as shown (cjk.py)
         out.append("</ul>")
     out.append("</section>")
     return "".join(out)

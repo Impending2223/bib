@@ -301,17 +301,23 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
     fn_html = None
+    printed = frozenset()               # the characters the block's full cites print (cjk.py, STYLE 3)
     if fns:                             # the footnotes, then the note's other sentences (footnotes.py, STYLE 1, 5)
         from . import cjk, works, footnotes
         joined = year_qualified(series, footnotes.SEP.join(fns[1]), year)
-        joined = works.with_first_cites(series, e, cjk.strip(series, e, joined, cjk_done))
+        bare = cjk.strip(series, e, joined, cjk_done)
+        joined = works.with_first_cites(series, e, bare)
+        printed = cjk.printed_by(bare, joined)
         fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
         n = year_qualified(series, fns[2], year) if fns[2] else ""
     if n and lst.kind == "calendar" and not is_thread:
         from . import cjk
         n = cjk.strip(series, e, n, cjk_done)
     if cj:                              # the line's characters: after the names, and a closing sentence (cjk.py, STYLE 3)
-        n = cj.tail(n)
+        from . import works
+        bare = works.ordered(series, n) if n else ""
+        printed |= cjk.printed_by(bare, works.with_first_cites(series, e, bare) if bare else "")
+        n = cj.tail(n, printed)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works
         n = works.with_first_cites(series, e, works.ordered(series, n))
