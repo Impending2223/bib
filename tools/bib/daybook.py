@@ -495,7 +495,7 @@ def section_days(lst, sec, entry_li, thread_name):
     for e in ents:
         if "when" not in e or len(str(e.get("date", ""))) != 10:
             k = loose.order_key(e) if "when" in e else None
-            if k and k[1] in (0, 2):
+            if k and k[1] in (-1.5, 0, 2):     # an intercalary day: a year's before a month's block, or a day's
                 ix.setdefault(k, []).append(e)
             elif k and k[1] == -2:
                 year_only.append(e)
@@ -535,27 +535,34 @@ def section_days(lst, sec, entry_li, thread_name):
         return h.replace("<li", '<li class="sub"', 1)
     wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     dlv = min(int(wtag[1]) + 1, 6)
-    if year_only:                           # a year alone, before the month (loose.py, STYLE 2)
-        out.append(f'<div class="day mo yr"><div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>'
-                   '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
-    if undated:
-        out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
-                   '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
     seen_ix = {}
-
     def ix_days(keys):
         """The intercalary days of keys, in order: a heading in the day's style, the loose date its text (loose.py)."""
         for k in sorted(keys):
             day, slot, _, head = k
             n = seen_ix[(day, slot)] = seen_ix.get((day, slot), 0) + 1
-            aid = f"ix-{day.isoformat()}-{'before' if slot == 0 else 'after'}" + (f"-{n}" if n > 1 else "")
+            aid = (f"ix-{day.isoformat()[:7]}-month" if slot == -1.5 else
+                   f"ix-{day.isoformat()}-{'before' if slot == 0 else 'after'}") + (f"-{n}" if n > 1 else "")
             out.append(f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
                        f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>'
                        '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
+
+    if year_only:                           # a year alone, before the month (loose.py, STYLE 2)
+        out.append(f'<div class="day mo yr"><div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>'
+                   '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
+    lead_ix = [k for k in ix if k[0] == lo and k[1] == -1.5]    # "Early 1962" after "1962", "Mid-1962" before "May"
+    if lead_ix:
+        ix_days(lead_ix)
+    if undated:
+        out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
+                   '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
+
     ix_days([k for k in ix if k[0] < lo])
     d = lo
     while d <= hi:
         iso = d.isoformat()
+        if d != lo:
+            ix_days([k for k in ix if k[0] == d and k[1] == -1.5])   # a year's, at a month that opens mid-section
         if d.weekday() == 6:                 # the MMWR week's heading above its Sunday (STYLE 16)
             n, y = mmwr_week(d)
             sat = d + datetime.timedelta(days=6)
