@@ -1,0 +1,27 @@
+--- fixture/inbox/merged/09-loose-1.yaml
++++ after/inbox/merged/09-loose-1.yaml
+@@ -0,0 +1,12 @@
++patch: fx-loose
++by: tests
++# A month-dated entry whose when gives an intercalary day: merge sets its at (loose.py, STYLE 3a).
++ops:
++  - add:
++      entry:
++        id: cal.1961-04.space
++        when: Apr., last week
++        date: '1961-04'
++        thread: space
++        c: Webb, at NASA, on a lunar landing program.
++        n: '[[w.reeves-president-kennedy]], 99.'
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -8006,2 +8006,9 @@
+     time_band: afternoon
+     time_zone: Asia/Shanghai
++  - id: cal.1961-04.space
++    when: Apr., last week
++    date: 1961-04
++    at: before 1961-04-21
++    thread: space
++    c: Webb, at NASA, on a lunar landing program.
++    n: '[[w.reeves-president-kennedy]], 99.'

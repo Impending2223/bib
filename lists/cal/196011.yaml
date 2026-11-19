@@ -7490,6 +7490,12 @@ entries:
         - 'w.woods-fulbright 258: all'
         - 'via x.1960-12-01.kansas-city-star-reuther: all'
     tags: [name:reuther-walter, name:fulbright-j-william]
+    conflict:
+      - field: at
+        ours: before 1960-11-24
+        theirs: before 1960-11-21
+        base: null
+        from: git merge lists/cal/196011.yaml
   - id: cal.1960-11.soviet-union
     when: Nov.
     date: 1960-11
@@ -7670,6 +7676,7 @@ entries:
   - id: cal.1960-11.transition-and-staff-cabinet-5
     when: Nov., end
     date: 1960-11
+    at: before 1960-11-21
     place: washington
     thread: transition-and-staff-cabinet
     c: 'Georgetown, breakfast, by Bowles''s account. Kennedy to Bowles: "If you were Secretary of State, what kind of an organization would you set up?" Bowles: "I think I''d start by asking Dean Rusk to become Undersecretary." Kennedy asks if Rusk is not the president of the Rockefeller Foundation. Rusk not on the list for Secretary until then.'

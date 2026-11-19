@@ -2950,6 +2950,7 @@ entries:
   - id: cal.1960-01.cuba-3
     when: Jan., end
     date: 1960-01
+    at: before 1960-01-21
     thread: cuba
     also: [soviet-union]
     c: Castro ready to invite Mikoyan again, the Soviet exhibition with him.
@@ -3249,6 +3250,12 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 11: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.6: all'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:bo-yibo, vis:only:prc]
+    conflict:
+      - field: at
+        ours: before 1960-07-01
+        theirs: before 1960-07
+        base: null
+        from: git merge lists/cal/196001.yaml
   - id: cal.1960-10.china-leadership-3
     when: 1960, fall
     date: '1960'
@@ -3299,6 +3306,12 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 240: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 240 n.38: all'
     tags: [polity:prc, name:liu-shaoqi]
+    conflict:
+      - field: at
+        ours: before 1960-01-01
+        theirs: before 1960-01
+        base: null
+        from: git merge lists/cal/196001.yaml
   - id: cal.1960-01.china-leadership-2
     when: Jan.
     date: 1960-01
@@ -3617,6 +3630,12 @@ entries:
         - 'w.yang-jisheng-mubei I, 252: all'
         - 'via w.yang-jisheng-mubei I, 252 n.t1: all'
     tags: [polity:prc, vis:only:prc]
+    conflict:
+      - field: at
+        ours: before 1960-01-01
+        theirs: before 1960-01
+        base: null
+        from: git merge lists/cal/196001.yaml
   - id: cal.1960.china-leadership-24
     when: 1960, spring
     date: '1960'

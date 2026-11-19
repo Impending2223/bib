@@ -7749,6 +7749,12 @@ entries:
         - 'w.white-making-of-the-president 319: all'
         - 'via w.white-making-of-the-president 319 n.text: all'
     tags: [name:kennedy-john-f, name:galbraith-john-kenneth]
+    conflict:
+      - field: at
+        ours: before 1960-10-25
+        theirs: before 1960-10-21
+        base: null
+        from: git merge lists/cal/196010.yaml
   - id: cal.1960-10.congo-lumumba
     when: Oct., late
     date: 1960-10

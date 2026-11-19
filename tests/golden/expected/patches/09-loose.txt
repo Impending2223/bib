@@ -1,0 +1,16 @@
+$ ./bib ledger add 1961-04 space cal.1961-04.space Webb on a lunar program, the last week of April fx-loose
+claimed cal.1961-04.space
+
+--- exit 0
+
+$ ./bib patch-check inbox/09-loose-1.yaml
+== 09-loose-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/09-loose-1.yaml
+== fx-loose (auto)
+  placed    cal.1961-04.space: at: before 1961-04-21 (when 'Apr., last week')
+  1 entries changed; read: cal.1961-04.space
+
+--- exit 0
