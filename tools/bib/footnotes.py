@@ -36,11 +36,21 @@ def _vol(pin):
     return (m.group(1), m.group(2)) if m else (None, pin or "")
 
 
+_REG = {}
+
+
+def _register(series):
+    """The witness register, once per series (a build asks for it per entry; witnesses.load stats every file)."""
+    if _REG.get("series") is not series:
+        _REG["series"], _REG["reg"] = series, claims.register(series)
+    return _REG["reg"]
+
+
 def _cites(series, e):
     """Per unit, its sources as dicts (kind, key, pin, paren, text); the `?` rows and unrowed items: the tail."""
     us = claims.units(e.get("c") or "")
     rows = claims.resolve(e)
-    reg = claims.register(series)
+    reg = _register(series)
     srcs, _ = claims.note_parts(e.get("n"))
     used = set()
 
