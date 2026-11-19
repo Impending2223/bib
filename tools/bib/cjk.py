@@ -33,12 +33,15 @@ import re
 
 CH = "㐀-䶿一-鿿豈-﫿々〇぀-ヿ가-힯"
 PUNCT = "、。，：；·・“”「-』（）—"
-_X = rf"(?:《[^》\n]*》|〈[^〉\n]*〉|[{CH}])(?:《[^》\n]*》|〈[^〉\n]*〉|[{CH}{PUNCT}])*"
+_B = r"《[^》\n]*》|〈[^〉\n]*〉"
+# a word of characters: it opens with a character (or numerals run into one, "23条") and closes with one; numerals,
+# brackets and the like inside ("依靠95%干部", "中發[60]364號")
+_X = rf"(?:{_B}|[{CH}]|\d+(?=[{CH}]))(?:(?:{_B}|[{CH}{PUNCT}\d\[\]×%％])*(?:{_B}|[{CH}”）]))?"
 CJK_RUN = rf"{_X}(?: {_X})*"                       # a run: characters, their punctuation, a space between words
 HAS = re.compile(rf"[{CH}《〈]")
 LINE = re.compile(rf"(?P<paren> \((?P<pin>{CJK_RUN}(?:, {CJK_RUN})*)\))|(?P<sp> )(?P<run>{CJK_RUN})")
-AFTER_OK = re.compile(r"(?:[\s,.;:!?)\]*'\"’”]|$)")
-WORD = re.compile(r"^[^\W\d_](?:[^\W_]|['’-])*$")
+AFTER_OK = re.compile(r"(?:[\s,.;:!?)\]*'\"’”–]|$)")
+WORD = re.compile(rf"^(?![{CH}])[^\W\d_](?:(?![{CH}])[^\W_]|['’–-])*$")   # a word in Latin script
 FUNC = {"him", "her", "me", "us", "them", "it", "as", "is", "was", "are", "were", "be", "called", "named", "titled",
         "reads", "read", "says", "said", "writes", "wrote", "word", "words", "name", "names", "and", "or", "but"}
 STOP = {"the", "a", "an", "of", "on", "in", "at", "to", "for", "by", "with", "from", "and", "or", "his", "her", "its",
@@ -73,13 +76,21 @@ def _label(before, joined=False):
     joined: names joined by "and" taken together (a parenthesis of several names' characters)."""
     if not before:
         return None
+    it = re.search(r"\*[^*]+\*(?=(?:['’]s)?$)", before)       # an italic title, its possessive aside
+    if it:
+        return it.group(0)
     if before.endswith("*"):
-        m = re.search(r"\*[^*]+\*$", before)
-        return m.group(0) if m else None
+        return None
     if before[-1] in "\"”'’" and not POSS.search(before):
         q = _quoted(before)
-        return q[0] if q else None
+        if q:
+            return q[0]
+        if before[-1] not in "'’":
+            return None
+        before = before[:-1]                         # a plural's possessive ("the Anshan Steel Works' 鞍钢")
     toks = before.split(" ")
+    if "–" in toks[-1] and HAS.search(toks[-1]):     # "Guiyang 贵阳–Kunming 昆明": the word after the dash
+        toks = [toks[-1].rsplit("–", 1)[1]]
     last = toks[-1]
     opened = last[:1] in OPEN                    # "(Mai Ye, 麦耶)": the parenthesis opens the label
     last = last.lstrip(OPEN)

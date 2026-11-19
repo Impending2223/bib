@@ -42,6 +42,14 @@ SPLIT = [
      [("Kukka Chaegŏn Ch'oego Hoeŭi", '國家再建最高會議 議長室')]),
     ('on "What the message shows" 《艾森豪威尔的"国情咨文"说明了什么》, sent', 'on "What the message shows", sent',
      [('"What the message shows"', '《艾森豪威尔的"国情咨文"说明了什么》')]),
+    # a plural's possessive; an italic title's; a dash between two places; numerals run into characters
+    ("of the Anshan Steel Works' 鞍钢 planned output.", "of the Anshan Steel Works' planned output.",
+     [('Anshan Steel Works', '鞍钢')]),
+    ("reads the *Shanxi ribao*'s 山西日报 long report", "reads the *Shanxi ribao*'s long report",
+     [('*Shanxi ribao*', '山西日报')]),
+    ('the Guiyang 贵阳–Kunming 昆明 railway;', 'the Guiyang–Kunming railway;', [('Guiyang', '贵阳'), ('Kunming', '昆明')]),
+    ('the Twenty-three Articles 23条 the guide', 'the Twenty-three Articles the guide',
+     [('Twenty-three Articles', '23条')]),
     # kept where they are: the sentence's own words, after a comma, in a quotation, after no word
     ('Deng Xiaoping receives the Albanian Ambassador, 帕里夫蒂 as the page prints his name.',
      'Deng Xiaoping receives the Albanian Ambassador, 帕里夫蒂 as the page prints his name.', []),
