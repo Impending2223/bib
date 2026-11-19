@@ -24,6 +24,7 @@ entries:
   - id: cal.1964-05-01.elections-1964-state-conventions
     when: May 1
     date: '1964-05-01'
+    place: springfield
     thread: elections-1964-state-conventions
     c: 'Springfield, Illinois''s Republican convention: the ten delegates at large, nearly all for Goldwater.'
     n: '[[w.white-suite-3505]], 306, 316. Names: Goldwater. Check: the day.'
@@ -111,6 +112,7 @@ entries:
   - id: cal.1964-05-01.civil-rights-bill-4
     when: May 1
     date: '1964-05-01'
+    place: washington
     thread: civil-rights-bill
     c: 'Senate. Russell and Javits, twenty minutes, on Javits''s suggestion that white southern juries would not do even justice in civil rights cases. Russell: Javits always suggests "something fundamentally evil and sinful about people living in the South," with "a little sneer on his face"; of Kitty Genovese and her neighbors, "I say that couldn''t happen in the South." They shake hands.'
     n: '[[w.purdum-idea-whose-time-has-2014]], 272–73. To check: New York Times, May 2, 1964 (cited by [[w.purdum-idea-whose-time-has-2014]], 363). Names: Russell, Javits.'
@@ -151,6 +153,54 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 335: B'
     tags: [polity:prc, polity:netherlands, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-01.china-leadership-3
+    when: May 1
+    date: '1964-05-01'
+    time: 1964-05-01T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 a.m. Yang Shangkun 杨尚昆, with Deng Xiaoping 邓小平 and He Long 贺龙, to Beihai 北海 Park and Jingshan 景山, then to the stadium for a football match; lunch at Yangfengjiadao 养蜂夹道 at noon.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964). The words: 上午9时同小平、贺总一起去北海公园和景山，并到体育场看足球赛，12时去养蜂夹道吃午饭 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, He Long.'
+    src:
+      c: 183611a1
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc, name:deng-xiaoping, name:he-long, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-01.china-leadership-4
+    when: May 1
+    date: '1964-05-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Liu Piyun 刘披云, vice-governor of Yunnan 云南 (the editors' note), in Peking for treatment, calls on Yang Shangkun 杨尚昆 with his wife.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964). The words: 午睡后，刘披云夫妇来看望。他们是来北京治病的 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Piyun, Yang Shangkun.'
+    src:
+      c: 25e04500
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-01T04:00Z
+      - 1964-05-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-01.china-leadership-5
+    when: May 1
+    date: '1964-05-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, Tiananmen 天安门. The May Day fireworks; Yang Shangkun 杨尚昆 there with his son.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964). The words: 晚间同小二去天安门看焰火 (II, 373). Names: Yang Shangkun.'
+    src:
+      c: a1fda97d
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc]
+    time_range:
+      - 1964-05-01T11:00Z
+      - 1964-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-02.elections-1964
     when: May 2
     date: '1964-05-02'
@@ -190,6 +240,7 @@ entries:
   - id: cal.1964-05-02.elections-1964-state-conventions
     when: May 2
     date: '1964-05-02'
+    place: atlanta
     thread: elections-1964-state-conventions
     also: [georgia]
     c: 'Georgia''s Republican State convention pledges its 4 delegates at large to Goldwater: with the district conventions'' 18 of Mar. 21, 22 of the State''s 24. The Associated Press''s count after it, as the Times printed it May 4: Goldwater 209; uncommitted 143; Scranton 63; Lodge 43; others 55; Rockefeller none.'
@@ -209,6 +260,7 @@ entries:
   - id: cal.1964-05-02.vietnam-operations
     when: May 2
     date: '1964-05-02'
+    place: saigon
     thread: vietnam-operations
     c: Saigon River. The aircraft ferry USNS *Card* damaged by a Viet Cong shaped charge.
     n: '[[w.macv-command-history-1964]], 190.'
@@ -219,6 +271,7 @@ entries:
   - id: cal.1964-05-02.elections-1964-state-conventions-2
     when: May 2
     date: '1964-05-02'
+    place: tennessee
     thread: elections-1964-state-conventions
     c: 'Tennessee''s Republican convention: all 28 delegates for Goldwater, 22 of them claimed; Representative Brock helping.'
     n: '[[w.white-suite-3505]], 315. Names: Goldwater, Brock.'
@@ -230,6 +283,7 @@ entries:
   - id: cal.1964-05-02.elections-1964-state-conventions-3
     when: May 2
     date: '1964-05-02'
+    place: maine
     thread: elections-1964-state-conventions
     c: 'Maine''s Republican convention: its fourteen delegates for Margaret Chase Smith as favorite daughter, Nichols, the State chairman, among them.'
     n: '[[w.white-suite-3505]], 316. Names: Margaret Chase Smith.'
@@ -275,6 +329,7 @@ entries:
   - id: cal.1964-05-02.conservative-movement
     when: May 2
     date: '1964-05-02'
+    place: bakersfield
     thread: conservative-movement
     also: [goldwater]
     c: Bakersfield, Cal., the Civic Auditorium. The United Republicans of California in State convention; Bruce Reagan, its founder, once an assemblyman, attacks Dwight and Milton Eisenhower.
@@ -288,6 +343,7 @@ entries:
   - id: cal.1964-05-02.students
     when: May 2
     date: '1964-05-02'
+    place: nyc
     thread: students
     also: [war-opposition]
     c: 'New York. The May 2d Movement''s first action: some 400 students at 110th Street and Amsterdam Avenue, by the Cathedral of St. John the Divine, for withdrawing American troops and ending military aid to Saigon; they march to Times Square and the United Nations.'
@@ -332,6 +388,7 @@ entries:
   - id: cal.1964-05-02.goldwater
     when: May 2
     date: '1964-05-02'
+    place: atlanta
     thread: goldwater
     also: [elections-1964-state-conventions, georgia]
     c: 'Atlanta, Georgia''s Republican convention, a Negro boycott of it. Goldwater''s speech: a dry account of the two-party system come to the South, the Republicans "a truly national party"; Castro a "pygmy."'
@@ -345,6 +402,7 @@ entries:
   - id: cal.1964-05-02.civil-rights-bill-2
     when: May 2
     date: '1964-05-02'
+    place: washington
     thread: civil-rights-bill
     c: 'Senate, Saturday. Humphrey wonders whether votes on all pending amendments and the bill might come by Memorial Day: he has no holiday in mind but the Fourth of July. Ellender: "How about Christmas?"'
     n: '[[w.purdum-idea-whose-time-has-2014]], 273. To check: 110 Cong. Rec. 9854 (May 2, 1964) (cited by [[w.purdum-idea-whose-time-has-2014]], 363). Names: Humphrey, Ellender.'
@@ -387,9 +445,43 @@ entries:
       - 1964-05-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-02.china-leadership-3
+    when: May 2
+    date: '1964-05-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, Yangfengjiadao 养蜂夹道. Yang Shangkun 杨尚昆 swims, with his daughter; home at 5:30.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 2, 1964). The words: 下午同妞妞一起去养蜂夹道游泳，5时半回家 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2ff15ca8
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-02T04:00Z
+      - 1964-05-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-02.china-leadership-4
+    when: May 2
+    date: '1964-05-02'
+    thread: china-leadership
+    c: Chen Pixian 陈丕显 telephones Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 2, 1964). The words: 晚饭后看了电影《独立大队》，还好。陈丕显同志来电话 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Pixian, Yang Shangkun.'
+    src:
+      c: 569c57b9
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-02T11:00Z
+      - 1964-05-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-03.elections-1964
     when: May 3
     date: '1964-05-03'
+    place: bakersfield
     thread: elections-1964
     also: [conservative-movement]
     c: 'Bakersfield, Cal., the first convention of the United Republicans of California. Kuchel, Rockefeller''s chairman in the State, called a "left-wing extremist." Goldwater''s keynote: "I am not afraid of what any Republican would do to this country."'
@@ -422,6 +514,7 @@ entries:
   - id: cal.1964-05-03.china-leadership-2
     when: May 3
     date: '1964-05-03'
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking. Mao calls the Standing Committee after May Day and makes further changes to the reply to the CPSU: the passage that a conference called by one side is illegal is too weak, and he strengthens it. A man like Khrushchev must be told the harm again and again. He writes in two sentences: a world conference called against the rule of consultation is illegal, wholly wrong and of grave results; and "do you want to take such a dead-end road?" The reply is to go exactly two months after the CPSU''s letter: handed May 7, broadcast the evening of May 8, printed May 9.'
@@ -431,6 +524,54 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 771: all'
     tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1964-05-03.china-leadership-3
+    when: May 3
+    date: '1964-05-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 3, 1964). The words: 上午在家休息。王愈明来谈话 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-02T22:00Z
+      - 1964-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-4
+    when: May 3
+    date: '1964-05-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Mei Xing 梅行 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 3, 1964). The words: 下午梅行来谈话 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mei Xing, Yang Shangkun.'
+    src:
+      c: 6e44c82a
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-03T04:00Z
+      - 1964-05-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-5
+    when: May 3
+    date: '1964-05-03'
+    time: 1964-05-03T10:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂, 6 to 11 p.m. A youth gathering 青年联欢 for the forty-fifth anniversary of May Fourth 五四; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 3, 1964). The words: 晚6时去人民大会堂参加"青年联欢"，纪念五四45周年，11时才回 (II, 373). Names: Yang Shangkun.'
+    src:
+      c: 9bd8d990
+      rows:
+        - 'w.yang-shangkun-riji II, 373: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-04.trade
     when: May 4
     date: '1964-05-04'
@@ -490,6 +631,7 @@ entries:
   - id: cal.1964-05-04.civil-rights-bill-2
     when: May 4
     date: '1964-05-04'
+    place: washington
     thread: civil-rights-bill
     c: 'Clark to Dirksen in the well of the Senate, of his last unrevealed amendment, to Title II: "hydrogen bomb"? Dirksen: not a hydrogen bomb, "more like a firecracker that a twelve-year-old boy would set off." Clark: by "a nice boy or by a juvenile delinquent"?'
     n: '[[w.risen-bill-of-the-century]], 213 (the exchange). To check: Horn, log, May 5 (cited by [[w.risen-bill-of-the-century]], 213 n.71, which prints "1965"). See [[cal.1964-04-21.republican-party-congress]]. Names: Clark, Dirksen. Check: the day; Risen''s text has May 4, his note Horn''s log of May 5.'
@@ -501,6 +643,7 @@ entries:
   - id: cal.1964-05-04.civil-rights-organizations
     when: May 4
     date: '1964-05-04'
+    place: philadelphia
     thread: civil-rights-organizations
     c: Philadelphia. CORE, at a conference, announces it will send protesters to both national conventions this summer.
     n: '[[w.risen-bill-of-the-century]], 214. To check: press release, May 6, 1964, box 578, Walter P. Reuther Papers; *Baltimore Afro-American*, May 16, 1964, 13 (cited by [[w.risen-bill-of-the-century]], 214 n.75, with the UAW statement). See [[cal.1964-04-22.civil-rights-organizations-nyc]].'
@@ -559,6 +702,40 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 335–336: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1964-05-04.china-leadership-3
+    when: May 4
+    date: '1964-05-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Xu Zirong 徐子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 374 (May 4, 1964). The words: 上午徐子荣同志来谈话 (II, 374). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xu Zirong, Yang Shangkun.'
+    src:
+      c: b9d3b447
+      rows:
+        - 'w.yang-shangkun-riji II, 374: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-03T22:00Z
+      - 1964-05-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-04.china-leadership-4
+    when: May 4
+    date: '1964-05-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. A meeting on rebuilding the Juren Tang 居仁堂; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 374 (May 4, 1964). The words: 下午开会，讨论居仁堂的修建问题 (II, 374). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-02-26.china-leadership-7]]. Names: Yang Shangkun.'
+    src:
+      c: 1542685e
+      rows:
+        - 'w.yang-shangkun-riji II, 374: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-04T04:00Z
+      - 1964-05-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-05.elections-1964
     when: May 5
     date: '1964-05-05'
@@ -803,6 +980,37 @@ entries:
     c: Zhou calls people each day on agricultural planning, May 5 to 9.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 641 (May 5–9, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-05-05.china-leadership-3
+    when: May 5
+    date: '1964-05-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Eastern Suburb airport 东郊机场. Yang Shangkun 杨尚昆, up at 7, sees off E. F. Hill 希尔 and Oke 奥克.
+    n: '[[w.yang-shangkun-riji]], II, 374 (May 5, 1964). The words: 7时起床，去东郊机场送希尔和奥克同志 (II, 374). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hill, Oke.'
+    src:
+      c: e0e8e4b2
+      rows:
+        - 'w.yang-shangkun-riji II, 374: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-04T22:00Z
+      - 1964-05-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-05.china-leadership-4
+    when: May 5
+    date: '1964-05-05'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1964-05-05.china-leadership-3
+    c: Peking 北京. Cai Chang 蔡畅 ("Elder Sister Cai" 蔡大姐) with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 374 (May 5, 1964). The words: 蔡大姐来谈话 (II, 374). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Cai Chang, Yang Shangkun.'
+    src:
+      c: cd213e18
+      rows:
+        - 'w.yang-shangkun-riji II, 374: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1964-05-06.civil-rights-bill
     when: May 6
     date: '1964-05-06'
@@ -937,6 +1145,7 @@ entries:
   - id: cal.1964-05-06.white-house-2
     when: May 6
     date: '1964-05-06'
+    place: washington
     thread: white-house
     c: Alice Brown, wife of George Brown of Houston, arrives as a White House guest with a Winslow Homer watercolor, "The Surf at Prout's Neck," and a Sully portrait of Washington for the house; Mrs. Johnson expects the Homer to be the first important acquisition to come to the White House through her.
     n: '[[w.johnson-white-house-diary]], 133 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
@@ -1093,6 +1302,7 @@ entries:
   - id: cal.1964-05-07.elections-1964-2
     when: May 7
     date: '1964-05-07'
+    place: omaha
     thread: elections-1964-primaries
     c: Omaha. Nixon's "non-political" speech to the National Conference of Christians and Jews, and a press conference. The next morning Seaton's mailing for a Nixon write-in in Nebraska's primary, modeled on Lodge's in New Hampshire.
     n: '[[w.novak-agony-of-the-g]], 367–68 & n.15 (the Goldwater men had threatened to have the speech canceled if a campaign began before it). Names: Nixon, Seaton.'
@@ -1184,6 +1394,40 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 772–774: all'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1964-05-07.china-leadership-3
+    when: May 7
+    date: '1964-05-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃 and others on the preparations for the Central Work Conference opening on the 15th.
+    n: '[[w.yang-shangkun-riji]], II, 374 (May 7, 1964). The words: 上午约典桃等同志谈15日起开会的中央工作会议准备工作 (II, 374). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
+    src:
+      c: cc6a9907
+      rows:
+        - 'w.yang-shangkun-riji II, 374: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-06T22:00Z
+      - 1964-05-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-07.china-leadership-4
+    when: May 7
+    date: '1964-05-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Mei Xing 梅行.
+    n: '[[w.yang-shangkun-riji]], II, 374 (May 7, 1964). The words: 下午找梅行谈话 (II, 374). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mei Xing.'
+    src:
+      c: 26d0a1ca
+      rows:
+        - 'w.yang-shangkun-riji II, 374: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-07T04:00Z
+      - 1964-05-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-08.transition-and-staff
     when: May 8
     date: '1964-05-08'
@@ -1216,6 +1460,7 @@ entries:
   - id: cal.1964-05-08.elections-1964-state-conventions
     when: May 8–9
     date: '1964-05-08'
+    place: wyoming
     thread: elections-1964-state-conventions
     c: 'Wyoming''s Republican convention: all twelve delegates for Goldwater, Senator Simpson his chairman, Governor Hansen with him.'
     n: '[[w.white-suite-3505]], 324. Names: Goldwater, Simpson, Hansen.'
@@ -1276,6 +1521,7 @@ entries:
   - id: cal.1964-05-08.civil-rights-bill
     when: May 8
     date: '1964-05-08'
+    place: atlanta
     thread: civil-rights-bill
     c: 'Atlanta. Russell to the Georgia Junior Chamber of Commerce: "we do not have the votes to prevent passage of the bill, and the outcome is uncertain."'
     n: '[[w.whalen-longest-debate]], 178; [[w.purdum-idea-whose-time-has-2014]], 282 (the speech, elsewhere in Atlanta while Johnson was with the legislature; the note: [[w.whalen-longest-debate]], 178). To check: [*New York Times*, May 10, 1964](https://timesmachine.nytimes.com/timesmachine/1964/05/10/issue.html), at E1 (cited by [[w.whalen-longest-debate]], 264). Names: Russell.'
@@ -1303,6 +1549,7 @@ entries:
   - id: cal.1964-05-08.civil-rights-bill-3
     when: May 8
     date: '1964-05-08'
+    place: washington
     thread: civil-rights-bill
     c: 'Dirksens office, the fourth day of the negotiations. Title IIs one open issue: whether the Attorney General may sue, as in the Houses bill, where State and local governments discriminate. The Justice Department: it cannot wait on individuals grievances to make out a "pattern or practice."'
     n: '[[w.whalen-longest-debate]], 178. To check: [*New York Times*, May 9, 1964](https://timesmachine.nytimes.com/timesmachine/1964/05/09/issue.html), at 1, 14 (cited by [[w.whalen-longest-debate]], 264). See [[cal.1964-05-07.civil-rights-bill-3]]. Names: Dirksen.'
@@ -1315,6 +1562,7 @@ entries:
   - id: cal.1964-05-08.vietnam-hanoi
     when: May 8
     date: '1964-05-08'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat allows the Central Committee's Board for Research on Party History an office and research departments, under the Politburo's resolution no. 41 of Jan. 24, 1962.
     n: '*Nghị quyết của Ban Bí thư số 969-NQNS/TW về việc tổ chức bộ máy giúp việc của Ban Nghiên cứu Lịch sử Đảng Trung ương*, signed for the Secretariat by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXV, 133–34. Made public: 2003.'
@@ -1379,9 +1627,58 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 249–250: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:czechoslovakia]
+  - id: cal.1964-05-08.china-leadership-4
+    when: May 8
+    date: '1964-05-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on the trade unions, the Youth League and the women's federation.
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 8, 1964). The words: 上午王愈明同志来谈工、青、妇问题 (II, 375). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 4dc900da
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-07T22:00Z
+      - 1964-05-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-08.china-leadership-5
+    when: May 8
+    date: '1964-05-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at Li Fuchun's 李富春.
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 8, 1964). The words: 下午处理文电，办公，去富春同志处谈话 (II, 375). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun.'
+    src:
+      c: 2fc7cd14
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1964-05-08T04:00Z
+      - 1964-05-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-08.china-leadership-6
+    when: May 8
+    date: '1964-05-08'
+    time: 1964-05-08T10:45Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall 人大会堂, 6:45 to 11:30 p.m. The central leaders receive all the members of the PLA's arts festival 解放军文艺会演 and watch the show; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 8, 1964). The words: 6时3刻去人大会堂参加中央同志接见解放军文艺会演的全体人员，并看了演出，到11时半才回家 (II, 375). Names: Yang Shangkun. Check: public: whether the reception was reported then.'
+    src:
+      c: e11ee04f
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-09.elections-1964-state-conventions
     when: May 9
     date: '1964-05-09'
+    place: lansing
     thread: elections-1964-state-conventions
     c: 'Lansing, Michigan''s Republican convention. White with Romney at 6:30 a.m., Romney back from the tornadoes at Flint: Goldwater''s share of the twelve delegates at large. One at large and an alternate for Goldwater, eight delegates in all; Romney holds the other forty as favorite son.'
     n: '[[w.white-suite-3505]], 322–24. Names: White, Romney, Goldwater.'
@@ -1464,6 +1761,40 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 259–260: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 259 n.1: all'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1964-05-09.china-leadership-3
+    when: May 9
+    date: '1964-05-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Confidential Bureau 机要局 reports its work to Yang Shangkun 杨尚昆; not finished.
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 9, 1964). The words: 下午约机要局各同志汇报工作，未完 (II, 375). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c47a9b66
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-09T04:00Z
+      - 1964-05-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-09.china-leadership-4
+    when: May 9
+    date: '1964-05-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 9, 1964). The words: 晚间看了电影，孔原同志来谈话 (II, 375). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: e8b68451
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-09T11:00Z
+      - 1964-05-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-10.vietnam-operations
     when: May 10
     date: '1964-05-10'
@@ -1567,9 +1898,26 @@ entries:
       - 1964-05-10T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-10.china-leadership-6
+    when: May 10
+    date: '1964-05-10'
+    time: 1964-05-10T01:00Z
+    place:
+      - peking
+      - miyun-reservoir
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆, at Kong Yuan''s 孔原 invitation, to the Miyun reservoir 密云水库: leaves at 9, at the Xiwengcun 西翁村 management office at 12:15; a boat after lunch, ashore at 4; the power station; home at 6:30.'
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 10, 1964). The words: 9时出发，沿途看看，到12时1刻到西翁村管理处。午饭后游船，4时下船，参观了电厂即返回，6时半到家 (II, 375). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-04-26.china-leadership-4]]. Names: Yang Shangkun, Kong Yuan.'
+    src:
+      c: 6a99aca8
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-11.desegregation-public-places-cambridge
     when: May 11
     date: '1964-05-11'
+    place: cambridge-md
     thread: desegregation-public-places
     also: [elections-1964]
     c: Cambridge, Md. Wallace, campaigning for the May 19 primary, speaks to a white audience at the Rescue Fire Company's arena, invited by the Dorchester Business and Citizens Association. Some 300 Negro demonstrators march; the Guard disperses them with tear gas; Richardson arrested. Check.
@@ -1740,6 +2088,7 @@ entries:
   - id: cal.1964-05-11.soviet-union-leadership
     when: May 11
     date: '1964-05-11'
+    place: moscow
     thread: soviet-union-leadership
     c: 'Luzhniki. Brezhnev presents the Order of Lenin to the Moscow Chief Building Authority in the sports palace: Stalin''s cult ruined construction; thanks to Khrushchev half the Soviet people have moved into new housing since 1954. He ends with lines of Mayakovsky.'
     n: '[[w.schattenberg-brezhnev]], 156 (n.310). To check: RGANI, f. 80, op. 1, d. 55, l. 2–4, 10 (speech, May 11, 1964) (cited by [[w.schattenberg-brezhnev]], 156 n.310). Names: Brezhnev, Khrushchev, Stalin.'
@@ -1756,6 +2105,40 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 336: all'
     tags: [polity:prc, polity:mali, name:chen-yi]
+  - id: cal.1964-05-11.china-leadership-2
+    when: May 11
+    date: '1964-05-11'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Qian Xinzhong 钱信忠, vice-minister of health (the editors' note), and others report to Yang Shangkun 杨尚昆 on Ke Qingshi's 柯庆施 illness.
+    n: '[[w.yang-shangkun-riji]], II, 375 (May 11, 1964). The words: 上午约钱信忠同志等汇报柯庆施同志的病情 (II, 375). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-29.china-leadership-3]]. Names: Qian Xinzhong, Yang Shangkun, Ke Qingshi.'
+    src:
+      c: 8b9c00a0
+      rows:
+        - 'w.yang-shangkun-riji II, 375: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1964-05-10T22:00Z
+      - 1964-05-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-11.china-leadership-3
+    when: May 11
+    date: '1964-05-11'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Fengzeyuan 丰泽园 restaurant. Wu Han 吴晗, deputy mayor of Peking (the editors' note), gives a lunch; Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Chen Yi 陈毅, Kang Sheng 康生 and Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 376 (May 11, 1964). The words: 中午应吴晗同志之约去丰泽园吃饭，周、邓、陈、康等均去 (II, 376). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Han, Zhou Enlai, Deng Xiaoping, Chen Yi, Kang Sheng, Yang Shangkun.'
+    src:
+      c: 1b03aff1
+      rows:
+        - 'w.yang-shangkun-riji II, 376: all'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:chen-yi, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1964-05-11T04:00Z
+      - 1964-05-11T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-12.elections-1964
     when: May 12
     date: '1964-05-12'
@@ -1814,6 +2197,7 @@ entries:
   - id: cal.1964-05-12.goldwater
     when: May 12
     date: '1964-05-12'
+    place: nyc
     thread: goldwater
     also: [elections-1964]
     c: New York, Madison Square Garden, Goldwater's rally, filmed for television. Ashbrook (R) on "Walter Looselippmann"; the crowd boos the President's name.
@@ -1830,6 +2214,7 @@ entries:
   - id: cal.1964-05-12.vietnam-2
     when: May 12
     date: '1964-05-12'
+    place: tay-ninh
     thread: vietnam
     c: Two Cambodian jets strafe South Vietnamese units in Tây Ninh Province.
     n: '[[w.macv-command-history-1964]], 190.'
@@ -1908,6 +2293,7 @@ entries:
   - id: cal.1964-05-12.civil-rights-bill-2
     when: May 12
     date: '1964-05-12'
+    place: washington
     thread: civil-rights-bill
     c: 'Evening. Mansfield keeps the Senate in until 12:18 a.m., a shot across the Southerners'' bow. Russell: "That doesn''t scare us. ... We''re ready for it."'
     n: '[[w.risen-bill-of-the-century]], 217 (the hour; Russell''s words). To check: *Presidential Recordings: Toward the Great Society*, 594–95; *Time*, May 22, 1964, 23 (cited by [[w.risen-bill-of-the-century]], 217 n.83). See [[cal.1964-05-12.civil-rights-bill]]. Names: Mansfield, Russell.'
@@ -1949,6 +2335,37 @@ entries:
     c: Zhou calls the responsible officials on aid to Zanzibar.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 642 (May 12, 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-05-12.china-leadership-2
+    when: May 12
+    date: '1964-05-12'
+    time: 1964-05-12T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂, 9 a.m. to 12:15 p.m. Chen Yi 陈毅 reports; Yang Shangkun 杨尚昆 hears him.
+    n: '[[w.yang-shangkun-riji]], II, 376 (May 12, 1964). The words: 上午9时到12时1刻，在人民大会堂听陈毅同志报告 (II, 376). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Yang Shangkun.'
+    src:
+      c: 02f216ba
+      rows:
+        - 'w.yang-shangkun-riji II, 376: all'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-12.china-leadership-3
+    when: May 12
+    date: '1964-05-12'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Guangmei 王光美.
+    n: '[[w.yang-shangkun-riji]], II, 376 (May 12, 1964). The words: 下午约王光美同志谈话 (II, 376). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Guangmei.'
+    src:
+      c: 45e7751d
+      rows:
+        - 'w.yang-shangkun-riji II, 376: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-12T04:00Z
+      - 1964-05-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-13.foreign-aid
     when: May 13
     date: '1964-05-13'
@@ -2056,6 +2473,7 @@ entries:
   - id: cal.1964-05-13.elections-1964
     when: May 13
     date: '1964-05-13'
+    place: oregon
     thread: elections-1964-primaries
     c: 'Oregon, Rockefeller''s last week, alone in the State: "He Cares Enough to Come": the Gateway Shopping Center, 3:30 p.m.; the University of Portland, 8 p.m. His "mainstream": the party must move with it. Price''s direct mail and a television barrage for the last forty-eight hours.'
     n: '[[w.white-making-of-the-president-1965]], 112–14; [[w.smith-on-his-own-terms]], 433, 437 ("He Cares Enough to Come," Deardourff''s; the University of Portland: "What do the absent advocate?"). See [[cal.1964-04-11.elections-1964]]. Names: Rockefeller.'
@@ -2276,6 +2694,7 @@ entries:
   - id: cal.1964-05-13.vietnam-hanoi
     when: May 13
     date: '1964-05-13'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat puts the Party organizations of the central government, mass and Party offices back under the Central Committee, from the Hanoi city committee, for closer control by the Center.
     n: '*Nghị quyết của Ban Bí thư số 99-NQ/TW về việc đưa đảng bộ các cơ quan chính, dân, đảng trung ương trở về trực thuộc Ban Chấp hành Trung ương*, signed for the Secretariat by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXV, 135–36. Made public: 2003.'
@@ -2459,6 +2878,7 @@ entries:
   - id: cal.1964-05-14.elections-1964-johnson
     when: May 14
     date: '1964-05-14'
+    place: middleburg-va
     thread: elections-1964-johnson
     c: Huntland, Middleburg, Va. Mrs. Johnson has Dr. Hurst and Dr. James Cain of the Mayo Clinic to dinner, with Luci, to talk over Johnson's situation; she gives them her memorandum to take to Johnson the next morning. Both think from the psychological side that he should continue now, that idleness and loss of command would be harder on him than the work. She doubts either understands his pain at the thought of sending many thousands of American boys to Vietnam or elsewhere.
     n: '[[w.johnson-white-house-diary]], 138–40 (Lady Bird Johnson''s account). See [[cal.1964-05-14.elections-1964]]. Names: Lady Bird Johnson, Johnson.'
@@ -2478,7 +2898,7 @@ entries:
     date: '1964-05-14'
     thread: china-leadership
     c: Zhou attends the Secretariat meeting, which discusses the main subjects of the Central Work Conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 642 (May 14, 1964). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 642 (May 14, 1964); [[w.yang-shangkun-riji]], II, 376 (May 14, 1964; 10 a.m. to noon, on the conference''s agenda and arrangements; Li Fuchun and Bo Yibo relay Mao''s directions given at their report; Yang there; Zhou not named). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1964-05-14.china-leadership-2
     when: May 14
@@ -2505,9 +2925,27 @@ entries:
     c: 'Liu Shaoqi hears the leading group of the State Council''s Planning Commission report on the long-term plan. He says: be honest people, speak honestly and do honest things; in arranging plans do not let the honest suffer or the boasting and false take advantage. He also asks how this country is to spread education: by present methods peasants cannot afford it and neither can the state, and under the present system, spreading education will not work; the way is work-study, half work and half study; one system will not do, there must be two labor systems, two education systems and two kinds of schools.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590 (May 14, 1964). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-05-14.china-leadership-4
+    when: May 14
+    date: '1964-05-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 has his teeth seen to, then calls on the regional bureaus' secretaries 各中央局书记 at the Peking Hotel 北京饭店.
+    n: '[[w.yang-shangkun-riji]], II, 376 (May 14, 1964). The words: 下午去医院看牙后，到北京饭店看各中央局书记 (II, 376). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: '40828205'
+      rows:
+        - 'w.yang-shangkun-riji II, 376: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-14T04:00Z
+      - 1964-05-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-15.elections-1964
     when: May 15
     date: '1964-05-15'
+    place: oregon
     thread: elections-1964-primaries
     c: 'Oregon primary. Republican: Rockefeller over Lodge, 94,190 to 79,169, 33.0 percent. Democratic: Johnson over Wallace (write-in), 272,099 to 1,365, 99.5 percent.'
     n: '[Or. Secretary of State, *Official Abstract of Votes, Primary Election 1964*, 31–33](https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411027/File/document#page=36). CQ Guide 6th (2010) 407. [[w.young-two-suns-of-the]], 85 (Rockefeller''s 33 percent); [[w.white-suite-3505]], 325–28 (the result; Lodge second, Goldwater third, Nixon fourth); [[w.white-making-of-the-president-1965]], 115 (Friday, May 15; NBC first to call it, at 8:03; Rockefeller 93,000, Lodge 78,000, Goldwater 50,000, Nixon 48,000); [[w.goldberg-barry-goldwater]], 189 (Goldwater''s advisers sidestep Oregon; Rockefeller near half a million dollars there, "who cared enough to come"; a margin of some 14,000 over Lodge, 33 to 27; Goldwater 17); [[w.smith-on-his-own-terms]], 437–38 (NBC''s call at 11:03 Eastern; Rockefeller over Lodge, ninety-three thousand to seventy-eight thousand; Nixon third); [[w.bernstein-guns-or-butter]], 129 (Rockefeller 93,000, Lodge 78,000, Goldwater 50,000, Nixon 48,000); [[w.novak-agony-of-the-g]], 379 (Rockefeller 85,000, Lodge 71,000, Goldwater 45,000, Nixon 43,000; "He Cared Enough to Come"; Nixon not a single county, 382); [[w.dallek-flawed-giant]], 131 (Goldwater loses Oregon to Rockefeller); [[w.nixon-rn]], 259 (Rockefeller''s "surprise victory," Lodge eliminated). [[w.kabaservice-rule-and-ruin]], 85 (Rockefeller''s surprise win; "He Cared Enough to Come"; the Lodge campaign done). Check: Novak, 379, gives round figures, Rockefeller 85,000, Lodge 71,000. See [[cal.1964-03-10.elections-1964]]. Names: Wallace, Lodge, Johnson, Rockefeller.'
@@ -2559,6 +2997,7 @@ entries:
   - id: cal.1964-05-15.elections-1964-2
     when: May 15–June 2
     date: '1964-05-15'
+    place: los-angeles
     thread: elections-1964-primaries
     also: [goldwater]
     c: 'Los Angeles, an emergency headquarters on Wilshire Boulevard, eighteen days: Kleindienst, Burch, Lee Edwards, Nellor and Stevens from Washington, Shadegg from Phoenix, with Walton and Brennan. Two weeks before the primary, Goldwater''s volunteers canvass more than 300,000 voters in Los Angeles County. By White''s account.'
@@ -2656,6 +3095,7 @@ entries:
   - id: cal.1964-05-15.vietnam-hanoi
     when: May 15
     date: '1964-05-15'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo revises the Party dues of members working and studying abroad: under resolution no. 61-NQ/TW of Nov. 29, 1962 those with more income paid less than those with less.'
     n: '*Nghị quyết của Bộ Chính trị số 100-NQ/TW về việc sửa đổi mức đóng đảng phí của các đảng viên làm công tác và học tập ở nước ngoài*, signed for the Politburo by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXV, 137–38. Made public: 2003.'
@@ -2663,10 +3103,11 @@ entries:
   - id: cal.1964-05-15.china-leadership
     when: May 15
     date: '1964-05-15'
+    place: peking
     thread: china-leadership
     also: [china]
     c: 'The Central Work Conference opens, Beijing (to June 17): farm plans in the Third Plan period, rural work and the socialist education movement, the preliminary ideas for the Third Plan, political work in industry and communications, finance and trade. It discusses Mao''s four items: the third front, socialist revolution and preventing revisionism, military strategy, successors; and Liu Shaoqi''s two labor systems and two education systems.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 15, 1964 ("5月15日一6月17日"); [[w.zhou-enlai-nianpu-1949]], II, 643 (May 15–June 17, 1964: Zhou attends the Central Work Conference in Beijing: farm planning and rural work, the Third Five-Year Plan, political work, opposing and preventing revisionism, training successors, the two labor and two education systems; Mao on the strategic layout of the first, second and third lines); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590–591 (May 15–June 17, 1964; Liu attends the Central Work Conference, which takes up farm planning and rural work, the Third Five-Year Plan (1966–70) and political work, and also the guard against revisionism, the training of successors, and the two labor systems and two education systems); [[w.macfarquhar-origins-of-the-cultural]], III, 369 (at a central work conference in May and June 1964 Mao proposes putting the country on a war footing in three fronts). Made public: 1996. To check: the conference''s records and documents (not named by [[w.zedong-mao-zedong-nianpu]], V, May 15, 1964); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 514 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 369 n.132a). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 15, 1964 ("5月15日一6月17日"); [[w.zhou-enlai-nianpu-1949]], II, 643 (May 15–June 17, 1964: Zhou attends the Central Work Conference in Beijing: farm planning and rural work, the Third Five-Year Plan, political work, opposing and preventing revisionism, training successors, the two labor and two education systems; Mao on the strategic layout of the first, second and third lines); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590–591 (May 15–June 17, 1964; Liu attends the Central Work Conference, which takes up farm planning and rural work, the Third Five-Year Plan (1966–70) and political work, and also the guard against revisionism, the training of successors, and the two labor systems and two education systems); [[w.macfarquhar-origins-of-the-cultural]], III, 369 (at a central work conference in May and June 1964 Mao proposes putting the country on a war footing in three fronts); [[w.yang-shangkun-riji]], II, 376 (May 15, 1964; opens "today"; two days for reading the papers, the formal sessions from Monday). Made public: 1996. To check: the conference''s records and documents (not named by [[w.zedong-mao-zedong-nianpu]], V, May 15, 1964); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 514 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 369 n.132a). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 8b2364f2
       rows:
@@ -2675,6 +3116,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 590–591: B, C'
         - 'w.macfarquhar-origins-of-the-cultural III, 369: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 369 n.132a: B'
+        - 'w.yang-shangkun-riji II, 376: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-05-15.china-leadership-2
     when: May 15
@@ -2700,6 +3142,7 @@ entries:
   - id: cal.1964-05-16.elections-1964-state-conventions
     when: May 16
     date: '1964-05-16'
+    place: vermont
     thread: elections-1964-state-conventions
     c: 'Vermont''s Republican convention: three delegates for Goldwater, Franke, the former Secretary of the Navy, his chairman.'
     n: '[[w.white-suite-3505]], 328–29. Names: Goldwater, Franke.'
@@ -2724,6 +3167,7 @@ entries:
   - id: cal.1964-05-16.goldwater
     when: May 16
     date: '1964-05-16'
+    place: catalina-island
     thread: goldwater
     also: [elections-1964]
     c: 'Catalina Island, the Casino Ballroom, a rally of Young Republicans. Goldwater''s set speech, for television, on peace through strength: the day an American President tells Khrushchev, "Our children will not live under socialism or communism. Your children will live under freedom."'
@@ -2771,6 +3215,7 @@ entries:
   - id: cal.1964-05-16.draft
     when: May 16
     date: '1964-05-16'
+    place: nyc
     thread: draft
     also: [war-opposition]
     c: New York, Armed Forces Day. At an antidraft rally of the SPU, the War Resisters League, the Catholic Worker and the Committee for Nonviolent Action, twelve young men burn their draft cards, 150 applauding.
@@ -2942,6 +3387,38 @@ entries:
       - 1964-05-17T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-17.china-leadership-2
+    when: May 17
+    date: '1964-05-17'
+    place: peking
+    thread: china-leadership
+    also: [europe-and-the-alliance]
+    c: Peking 北京. Huang Zhen 黄镇, vice-minister of foreign affairs and ambassador to France (the editors' note), and his wife with Yang Shangkun 杨尚昆; they leave the next day for France by way of Canton 广州.
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 17, 1964). The words: 下午黄镇夫妇来谈话，他们明天即经广州去法国 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Huang Zhen, Yang Shangkun.'
+    src:
+      c: b65c4187
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, name:huang-zhen, vis:only:prc]
+    time_range:
+      - 1964-05-17T04:00Z
+      - 1964-05-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-17.china-leadership-3
+    when: May 17
+    date: '1964-05-17'
+    time: 1964-05-17T12:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 8 to 10 p.m. Yang Shangkun 杨尚昆, with Chen Pixian 陈丕显 and Wei Wenbo 魏文伯, an alternate secretary of the East China Bureau (the editors' note), hears Qian Xinzhong 钱信忠 on Ke Qingshi's 柯庆施 illness.
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 17, 1964). The words: 晚间8时，约丕显、文伯同志听取钱信忠同志对柯老病情的汇报，10时完 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-29.china-leadership-3]]. Names: Yang Shangkun, Chen Pixian, Wei Wenbo, Qian Xinzhong, Ke Qingshi.'
+    src:
+      c: c1cf245c
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-18.vietnam
     when: May 18
     date: '1964-05-18'
@@ -2970,6 +3447,7 @@ entries:
   - id: cal.1964-05-18.desegregation-schools-milwaukee
     when: May 18
     date: '1964-05-18'
+    place: milwaukee
     thread: desegregation-schools
     c: Milwaukee. The Milwaukee United School Integration Committee, Barbee its chairman, keeps about 11,000 Negro children out of the public schools for a day; about 8,500 at its freedom schools. The school board had refused to call its schools segregated.
     n: 'Milwaukee United School Integration Committee, ["Facts About the Freedom Day School Withdrawal, May 18, 1964"](https://collections.lib.uwm.edu/digital/collection/march/id/393) (MUSIC Records, Box 1, Folder 3). Figures: University of Wisconsin–Milwaukee, [*March on Milwaukee*](https://uwm.edu/marchonmilwaukee/wp-json/wp/v2/cpt-keyterms/173), from the Barbee papers. [Wikipedia, "Lloyd Barbee"](https://en.wikipedia.org/wiki/Lloyd_Barbee). To check: [[w.jones-selma-of-the-north]]; [[w.dougherty-more-than-one-struggle]]. Names: Barbee.'
@@ -3038,6 +3516,7 @@ entries:
   - id: cal.1964-05-18.laos
     when: May 18
     date: '1964-05-18'
+    place: udorn
     thread: laos
     c: 'Thao Ma and his pilots take over the four T-28s at Udorn, the American Air Commandos left out of the fighting. That afternoon four missions of three T-28s on the Plain of Jars: twenty-four 100-pound and twelve 500-pound bombs, mostly on what Kong Le''s troops left behind.'
     n: '[[w.anthony-war-in-northern-laos]], 101. See [[cal.1964-05-17.laos]]. Names: Kong Le.'
@@ -3134,7 +3613,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at a plenary session of the Central Work Conference, which hears Li Fuchun on the preliminary ideas for the Third Five-Year Plan and Tan Zhenlin on agricultural work in the Third Plan.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 18, 1964). Made public: 1996. See [[cal.1964-05-15.china-leadership]]. Names: Liu Shaoqi, Li Fuchun, Tan Zhenlin.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 18, 1964); [[w.yang-shangkun-riji]], II, 377 (May 18, 1964; 9 a.m. to 1 p.m.; Li Fuchun and Tan Zhenlin explain; Yang there; Liu not named). Made public: 1996. See [[cal.1964-05-15.china-leadership]]. Names: Liu Shaoqi, Li Fuchun, Tan Zhenlin.'
     tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, name:tan-zhenlin, vis:only:prc]
   - id: cal.1964-05-18.china-leadership-4
     when: May 18
@@ -3162,6 +3641,36 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 253 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 254 n.3: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-05-18.china-leadership-6
+    when: May 18
+    date: '1964-05-18'
+    time: 1964-05-17T23:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Li Bozhao 李伯钊, Yang Shangkun's 杨尚昆 wife, flies abroad, by Moscow, at 7:30 a.m.; the whole family sees her off.
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 18, 1964). The words: 6时起床，全家包括京儿在内，送伯钊出国，7时半起飞 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Bozhao, Yang Shangkun.'
+    src:
+      c: 126c296e
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-18.china-leadership-7
+    when: May 18
+    date: '1964-05-18'
+    thread: china-leadership
+    c: 'The Culture and Education Committee 文委 telephones Yang Shangkun 杨尚昆: Li Bozhao 李伯钊 safe in Moscow.'
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 18, 1964). The words: 晚间办公到2时，接文委电话，伯钊已安抵莫斯科 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: a81a10c8
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-18T11:00Z
+      - 1964-05-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-19.elections-1964
     when: May 19
     date: '1964-05-19'
@@ -3393,6 +3902,37 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 338: all'
     tags: [polity:prc, polity:laos]
+  - id: cal.1964-05-19.china-leadership-3
+    when: May 19
+    date: '1964-05-19'
+    time: 1964-05-19T01:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 a.m. to noon and 3:30 to 6 p.m. The North China group 华北组 of the Central Work Conference; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 19, 1964). The words: 上午9时到12时参加华北组小组会议。下午3时半到6时继续参加小组会议 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a7fdd466
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-19.china-leadership-4
+    when: May 19
+    date: '1964-05-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Dongxing 汪东兴 and Lin Ke 林克 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 19, 1964). The words: 晚间处理文电，汪东兴、林克来谈话 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Lin Ke, Yang Shangkun.'
+    src:
+      c: 566fd5b6
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-19T11:00Z
+      - 1964-05-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-20.opinion
     when: May 20
     date: '1964-05-20'
@@ -3467,6 +4007,7 @@ entries:
   - id: cal.1964-05-20.elections-1964
     when: May 20
     date: '1964-05-20'
+    place: california
     thread: elections-1964-primaries
     also: [vietnam]
     c: 'California. Rockefeller, as hawkish as Goldwater on Vietnam: "hot pursuit" by the South Vietnamese into the Viet Cong''s sanctuaries in Laos and North Vietnam.'
@@ -3583,6 +4124,9 @@ entries:
   - id: cal.1964-05-20.china-leadership
     when: May 20
     date: '1964-05-20'
+    place:
+      - shanghai
+      - tianjin
     thread: china-leadership
     c: 'Zhou flies from Shanghai to Tianjin. With Chen Yi, He Long and Peng Zhen visits a garrison unit at Yangcun and watches a military exercise. On the drill ground raises a fist with the soldiers: heighten vigilance, defend the fatherland. Praises the traditional method of officers and men teaching each other; checks each soldier''s explosive charges against combat standard. Evening, in the rain, watches the "Night Tiger Company" report. Tells the troops to master Mao''s military thought, train in close and night fighting, prepare fully for a war of resistance; in three to five years all troops so trained and the militia too, and none could beat China. Back in Beijing at midnight.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 643–44 (May 20, 1964). Made public: 1997. Names: Zhou Enlai, Chen Yi, He Long, Peng Zhen.'
@@ -3605,6 +4149,51 @@ entries:
       - 1964-05-20T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-20.china-leadership-3
+    when: May 20
+    date: '1964-05-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, Peking Hospital 北京医院. Yang Shangkun's 杨尚昆 teeth repaired.
+    n: '[[w.yang-shangkun-riji]], II, 377 (May 20, 1964). The words: 上午去北京医院修理牙齿 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: fcfb281d
+      rows:
+        - 'w.yang-shangkun-riji II, 377: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-19T22:00Z
+      - 1964-05-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-20.china-leadership-4
+    when: May 20
+    date: '1964-05-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference, the morning and 3:30 to 6 p.m.; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 377–378 (May 20, 1964). The words: 上午……参加小组会。下午3时半到6时小组会议 (II, 377). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: 29ccbe88
+      rows:
+        - 'w.yang-shangkun-riji II, 377–378: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-19T22:00Z
+      - 1964-05-20T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-20.china-leadership-5
+    when: May 20
+    date: '1964-05-20'
+    thread: china-leadership
+    c: 'The Culture and Education Committee 文委 telephones Yang Shangkun 杨尚昆: Li Bozhao 李伯钊 in Czechoslovakia, to fly on to Albania the next day.'
+    n: '[[w.yang-shangkun-riji]], II, 378 (May 20, 1964). The words: 文委电话，伯钊已抵捷克，要明天才飞阿 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: 3182f22a
+      rows:
+        - 'w.yang-shangkun-riji II, 378: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1964-05-21.vietnam-congress
     when: May 21
     date: '1964-05-21'
@@ -3644,6 +4233,7 @@ entries:
   - id: cal.1964-05-21.elections-1964
     when: May 21
     date: '1964-05-21'
+    place: california
     thread: elections-1964-primaries
     also: [goldwater]
     c: 'California. Rockefeller: Goldwater will "turn back the clock of social progress"; he would be "hijacking" California''s Colorado River water for Arizona.'
@@ -3718,6 +4308,7 @@ entries:
   - id: cal.1964-05-21.poverty-2
     when: May 21
     date: '1964-05-21'
+    place: breathitt-county
     thread: poverty
     c: 'Warshoal Branch, Breathitt County, Ky. Mrs. Johnson walks almost a mile up the creek to the three-room house of Arthur Robertson, his wife and seven children: a $700 federal grant for materials, siding, insulation, a well; three-fifths of an acre cleared for tobacco with the Agriculture Department''s help; a part-time job on the Unemployed Parents program. Mrs. Robertson: "It don''t hurt to dream!"'
     n: '[[w.johnson-white-house-diary]], 141–42, 144 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
@@ -3725,6 +4316,7 @@ entries:
   - id: cal.1964-05-21.poverty-3
     when: May 21
     date: '1964-05-21'
+    place: breathitt-county
     thread: poverty
     c: 'Lick Branch School, Breathitt County. Mrs. Johnson lunches with the 25 children of the one-room school, a hot lunch for ten cents; presents a flag that flew over the Capitol and a set of encyclopedias; throws the switch on the school''s first electric lights. Marie Turner, the county superintendent: a teacher hardly ever stays longer than a year; a meal a day lifts the children.'
     n: '[[w.johnson-white-house-diary]], 142–44 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
@@ -3732,6 +4324,7 @@ entries:
   - id: cal.1964-05-21.poverty-4
     when: May 21
     date: '1964-05-21'
+    place: jackson-ky
     thread: poverty
     c: Breathitt High School, Jackson, Ky. Mrs. Johnson makes her first speech of the day to about 5,000, among them the Lieutenant Governor and Perkins, at the dedication of the new gymnasium, one of 188 accelerated public works projects in the Cumberland area; Mrs. Roosevelt dedicated the old one 26 years before. Mrs. Breathitt gives her a hooked rug and a quilt.
     n: '[[w.johnson-white-house-diary]], 144 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Perkins, Breathitt.'
@@ -3748,9 +4341,27 @@ entries:
       rows:
         - 'w.risen-bill-of-the-century 221: all'
     tags: [name:cotton-norris-h, name:dirksen-everett, name:hickenlooper-bourke-b, name:hruska-roman-l]
+  - id: cal.1964-05-21.china-leadership
+    when: May 21
+    date: '1964-05-21'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference, morning and afternoon; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 378 (May 21, 1964). The words: 上下午都参加了小组会议 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: b6a7bfa7
+      rows:
+        - 'w.yang-shangkun-riji II, 378: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-20T22:00Z
+      - 1964-05-21T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-22.program
     when: May 22
     date: '1964-05-22'
+    place: ann-arbor
     thread: program
     c: 'Commencement at the University of Michigan, Ann Arbor. "The Great Society rests on abundance and liberty for all." Three places to begin it: the cities, the countryside, the classrooms. Working groups to prepare White House conferences on each.'
     n: 'Remarks at the University of Michigan, [1963–64 Pub. Papers 704](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=788) (May 22, 1964). Recording (K–J Adm. II.I). [President''s Daily Diary, May 22, 1964](https://catalog.archives.gov/id/192439), images 1, 4 (LBJ Library; National Archives Catalog). [[w.dallek-flawed-giant]], 81–82; [[w.branch-pillar-of-fire]], 310–11; [[w.zelizer-fierce-urgency-of-now]], 164; [[w.bernstein-guns-or-butter]], 131–32, 185 (Goodwin''s draft finished the night before; Johnson''s penciled notes that morning; Goodwin watching from the White House basement; the working groups to prepare White House conferences on the cities, natural beauty and the quality of education); [[w.white-making-of-the-president-1965]], 390–91 (the speech Goodwin''s; by helicopter from Detroit; 80,000 in the stadium; the address quoted); [[w.graham-uncertain-triumph]], 55; [[w.nixon-rn]], 267 (Johnson to the University of Michigan''s graduates, "May 1964": "upward to the Great Society"); [[w.young-two-suns-of-the]], 116 (Goodwin''s phrase, tried before May 22; "abundance and liberty for all"); [[w.valenti-very-human-president]], 85 and n. (Goodwin the principal author of the Michigan speech; the phrase "Great Society" from his draft for the Eleanor Roosevelt Award of Mar. 4; not the text or the day). [[w.goodwin-remembering-america]], 272, 277–80 (Goodwin''s draft, the deadline May 22; the address quoted at length: the cities, the countryside, the schools; "a series of White House conferences and meetings"; not "abundance and liberty for all" or the working groups); [[w.risen-bill-of-the-century]], 256 (the Michigan commencement, May 1964: a "great society" that "demands an end to poverty and racial injustice"). To check: [[w.matusow-unraveling-of-america]]; [[w.davies-from-opportunity-to-entitlement]]; [[w.mackenzie-liberal-hour]]; Jack Valenti OH, July 12, 1972, LBJ Library; Goodwin and Moyers to Johnson, May 18, 1964, WHCF: EX/SP3-20, LBJ Library; Moyers to Valenti, May 18, 1964, WHCF: EX/SP3-20, LBJ Library (cited by [[w.dallek-flawed-giant]], 81). See [[cal.1964-01-08.program]]; [[cal.1964-05-07.poverty]]. Names: Johnson.'
@@ -3836,6 +4447,7 @@ entries:
   - id: cal.1964-05-22.program-2
     when: May 22
     date: '1964-05-22'
+    place: washington
     thread: program
     c: 'The Oval Office, the morning. Goodwin, with Moyers, brings Johnson the draft of the Michigan commencement address, finished the night before. Johnson, penciling changes, reads it, then reads it again, more slowly. Goodwin: "It''s very different from Kennedy, Mr. President ... It''s a whole new direction for the Democratic party." Johnson: "It ought to do just fine, boys. Just what I told you." Then, to Valenti: "What time''s that damn plane leave? And why are we always running out of Fresca?"'
     n: '[[w.goodwin-remembering-america]], 277–78 (Goodwin''s account; Goodwin, having decided not to go to Ann Arbor, to see the Signal Corps'' videotape). See [[cal.1964-05-22.program]]. Names: Goodwin, Moyers, Johnson, Valenti.'
@@ -3848,9 +4460,39 @@ entries:
     c: Liu Shaoqi talks with Jacques Grippa, secretary of the Belgian Communist Party's Central Committee.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 22 and 23, 1964). Made public: 1996. Names: Liu Shaoqi. Check: the Latin form of 雅克·格里巴; the book gives no further title. Check: whether the talks were reported at the time.'
     tags: [polity:prc, polity:belgium, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-05-22.china-leadership-2
+    when: May 22
+    date: '1964-05-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference, morning and afternoon; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 378 (May 22, 1964). The words: 上下午都参加小组会议 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: b6a7bfa7
+      rows:
+        - 'w.yang-shangkun-riji II, 378: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-21T22:00Z
+      - 1964-05-22T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-22.china-leadership-3
+    when: May 22
+    date: '1964-05-22'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Center gives a dinner for Jacques Grippa 格里巴, secretary of the Belgian Communist Party's Central Committee (the editors' note), to 8 p.m.; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 378 (May 22, 1964). The words: 参加了中央宴请格里巴的宴会，8时才完 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Grippa, Yang Shangkun.'
+    src:
+      c: a92eef06
+      rows:
+        - 'w.yang-shangkun-riji II, 378: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1964-05-23.europe-and-the-alliance
     when: May 23
     date: '1964-05-23'
+    place: lexington-va
     thread: europe-and-the-alliance
     also: [soviet-union]
     c: 'Johnson at Lexington, Va., dedicating the George C. Marshall Research Library: no longer a single Iron Curtain; "We will continue to build bridges across the gulf which has divided us from Eastern Europe," of trade, ideas, visitors and humanitarian aid.'
@@ -3865,6 +4507,7 @@ entries:
   - id: cal.1964-05-23.goldwater
     when: May 23
     date: '1964-05-23'
+    place: california
     thread: goldwater
     also: [elections-1964]
     c: 'California. Goldwater''s canvass: eight thousand volunteers, door to door, six hundred thousand homes, chiefly in Los Angeles and Orange Counties.'
@@ -3919,6 +4562,23 @@ entries:
       - 1964-05-23T04:00Z
       - 1964-05-23T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-23.china-leadership-3
+    when: May 23
+    date: '1964-05-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference; Yang Shangkun 杨尚昆 there in the morning.
+    n: '[[w.yang-shangkun-riji]], II, 378 (May 23, 1964). The words: 今天上午参加了小组会 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: bef71a03
+      rows:
+        - 'w.yang-shangkun-riji II, 378: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-22T22:00Z
+      - 1964-05-23T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1964-05-24.vietnam
     when: May 24–25
@@ -3999,6 +4659,7 @@ entries:
   - id: cal.1964-05-24.republican-party
     when: May 24–25
     date: '1964-05-24'
+    place: arlington-va
     thread: republican-party
     also: [elections-1964, goldwater]
     c: 'Arlington, Va., the Twin Bridges Marriott, the national committee''s last meeting before the convention. Hatfield keynoter and temporary chairman, Morton permanent chairman; Rockefeller''s men get the chief doorkeeper and the sergeant-at-arms''s assistant. Miller to White: he has told Goldwater he cannot write a keynote. Goldwater to White, next morning: "Oh, don''t worry about it." By White''s account.'
@@ -4034,6 +4695,23 @@ entries:
     c: 'Zhou, on the request of Liao Chengzhi, Li Yimeng and Zhang Yan to strengthen work on photographs for foreign exhibitions and gifts: by the home and foreign picture, photo and newsreel showings, gifts and filming, there is too much and too heavy, poor quality, duplicated staff, not too little. Zhang Yan of the Foreign Affairs Office to call a meeting with the working photographers, film makers and editors: one division of work, shared labor, no duplication, saving materials, better quality; a plan to buy equipment, assign cadres, train technicians; the Ministry of Culture to give a plan for domestic equipment in the five-year plan.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 644 (May 24, 1964). Made public: 1997. Names: Zhou Enlai, Liao Chengzhi, Li Yimeng, Zhang Yan.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1964-05-24.china-leadership-2
+    when: May 24
+    date: '1964-05-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Liu Lantao 刘澜涛 and Tian Jiaying 田家英 with Yang Shangkun 杨尚昆, to midnight.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 24, 1964). The words: 刘澜涛、田家英来谈话到12时 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Lantao, Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 0a0ca88b
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-24T11:00Z
+      - 1964-05-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-25.court
     when: May 25
     date: '1964-05-25'
@@ -4080,6 +4758,7 @@ entries:
   - id: cal.1964-05-25.goldwater
     when: May 25
     date: '1964-05-25'
+    place: redding
     thread: goldwater
     also: [elections-1964]
     follows:
@@ -4168,6 +4847,7 @@ entries:
   - id: cal.1964-05-25.white-house
     when: May 25
     date: '1964-05-25'
+    place: nyc
     thread: program
     c: New York, Museum of Modern Art, evening. Dinner for 400 at the opening of the new wing, at Frank Stanton's urging; Stevenson takes Mrs. Johnson; David Rockefeller speaks; Lipchitz, who designed the Presidential scholars' medal, at her table. Mrs. Johnson presses the switch that lights the garden and the wing and salutes "a war against the poverty of man's spirit."
     n: '[[w.johnson-white-house-diary]], 146–48 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Stevenson, Stanton, David Rockefeller.'
@@ -4175,6 +4855,7 @@ entries:
   - id: cal.1964-05-25.white-house-2
     when: May 25
     date: '1964-05-25'
+    place: nyc
     thread: program
     c: 'New York, Waldorf Towers. Stevenson''s party after the opening: Richard Rodgers, Marc Connelly, Galbraith, Josh Logan, Fredric March, the Weisls, the Fortases. Galbraith with Mrs. Johnson on her Kentucky trip and the idea of a teachers training corps.'
     n: '[[w.johnson-white-house-diary]], 148 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Stevenson, Galbraith, Fortas.'
@@ -4182,6 +4863,7 @@ entries:
   - id: cal.1964-05-25.vietnam-hanoi
     when: May 25
     date: '1964-05-25'
+    place: hanoi
     thread: vietnam-hanoi
     c: The Secretariat's circular no. 141-TT/TW on organizing and leading the Party members and people of the lowlands who go to reclaim land in the highlands, under the Politburo's campaign for the lowlanders to help develop the highlands' economy.
     n: '*Thông tri của Ban Bí thư số 141-TT/TW về một số vấn đề tổ chức và lãnh đạo đối với đảng viên, quần chúng miền xuôi đi khai hoang ở miền núi*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXV, 139–48. Made public: 2003.'
@@ -4189,6 +4871,7 @@ entries:
   - id: cal.1964-05-25.civil-rights-bill
     when: May 25
     date: '1964-05-25'
+    place: washington
     thread: civil-rights-bill
     c: Two hundred clergymen of the three faiths kneel on the Supreme Court steps across from the Capitol. Spike of the National Council of Churches prays that those who consider legislation "see the larger need, and ... hear the voice of the oppressed rather than the complaints of the comfortable."
     n: '[[w.risen-bill-of-the-century]], 221–22 (the service; the prayer in part). To check: *New York Times*, May 25, 1964, 1 (cited by [[w.risen-bill-of-the-century]], 222 n.96). See [[cal.1964-05-18.civil-rights-organizations]].'
@@ -4199,6 +4882,7 @@ entries:
   - id: cal.1964-05-25.civil-rights-bill-2
     when: May 25
     date: '1964-05-25'
+    place: washington
     thread: civil-rights-bill
     c: Morning, the Department of Justice. Staff for the key senators settle the last differences. Humphrey and Mansfield have agreed that Dirksen's amendments go in as one joint substitute. Nothing in the bill to justify minority hiring quotas; the atheists' exclusion from Title VII dropped; the waiting period for voluntary compliance in Titles II and VII cut from sixty days to thirty.
     n: '[[w.risen-bill-of-the-century]], 222 (the meeting and its terms). To check: "Ray''s Running Journal," May 25, 1964, box 23, Filvaroff and Wolfinger Papers (cited by [[w.risen-bill-of-the-century]], 222 n.97). See [[cal.1964-05-26.civil-rights-bill]]. Names: Humphrey, Mansfield, Dirksen.'
@@ -4215,6 +4899,56 @@ entries:
     c: 'Liu Shaoqi, on reading a survey of how the Taoyuan brigade''s commune members feed pigs with goat milk, writes to Yang Shangkun: have it printed for the comrades of the work conference to read. Goats can be raised everywhere from north to south, mountain regions above all, and dairy goats especially pay; goat milk is highly nutritious, good for children and the old, though many are not used to it, especially unsweetened; infants have no such habit; used to supplement a mother''s milk it is very good; powdered milk or other infant food costs money and labor. Raising goats, dairy goats above all, is to be recommended in the villages.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 25, 1964). Made public: 1996. To check: the survey of the Taoyuan brigade members'' feeding of pigs with goat milk (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-05-25.china-leadership-2
+    when: May 25
+    date: '1964-05-25'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 at Li Fuchun's 李富春.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 25, 1964). The words: 下午去富春同志处谈话 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun.'
+    src:
+      c: 2fc7cd14
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1964-05-25T04:00Z
+      - 1964-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-25.china-leadership-3
+    when: May 25
+    date: '1964-05-25'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1964-05-25.china-leadership-2
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 25, 1964). The words: 下午……王愈明同志来谈话 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-25T04:00Z
+      - 1964-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-25.china-leadership-4
+    when: May 25
+    date: '1964-05-25'
+    time: 1964-05-25T13:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. Yang Shangkun 杨尚昆 with Cui Yitian 崔义田, Huang Shuze 黄树则 and Shi Shuhan 史书翰 on treating Kang Sheng's 康生 eyes.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 25, 1964). The words: 9时约崔义田、黄树则、史书翰谈康生治眼事 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Cui Yitian, Huang Shuze, Shi Shuhan, Kang Sheng.'
+    src:
+      c: 21b7aa85
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-26.elections-1964
     when: May 26
     date: '1964-05-26'
@@ -4316,6 +5050,7 @@ entries:
   - id: cal.1964-05-26.civil-rights-bill-2
     when: May 26
     date: '1964-05-26'
+    place: carrollton-ga
     thread: civil-rights-bill
     also: [robert-kennedy, georgia]
     c: 'Carrollton, Ga., Robert Kennedy dedicates West Georgia College''s John F. Kennedy Interfaith Chapel. In the questions, the bill: a Negro soldier''s widow visiting his grave at Arlington "doesn''t know what hotel she can stay at"; legislation "long, long overdue"; Mississippi and Alabama have not dealt justly. The students'' applause.'
@@ -4592,9 +5327,44 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 339: all'
     tags: [polity:prc, polity:laos, polity:us, polity:uk, name:chen-yi]
+  - id: cal.1964-05-26.china-leadership-3
+    when: May 26
+    date: '1964-05-26'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference, morning and afternoon; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 26, 1964). The words: 今天上午、下午都参加小组会 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: b6a7bfa7
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-25T22:00Z
+      - 1964-05-26T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-26.china-leadership-5
+    when: May 26
+    date: '1964-05-26'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 26, 1964). The words: 晚间王愈明同志来谈话 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 534ce6ce
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-26T11:00Z
+      - 1964-05-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-27.india-and-china
     when: May 27
     date: '1964-05-27'
+    place: new-delhi
     thread: south-asia
     c: Nehru dies at New Delhi. Rusk at the funeral; talks there with Kosygin. June 2, the Congress Party chooses Shastri; sworn June 9.
     n: 'Letter to the President of India on the Death of Prime Minister Nehru, [1963–64 Pub. Papers 719](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=803) (May 27, 1964); Message to the New Prime Minister of India, [1963–64 Pub. Papers 741](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=825) (June 2, 1964). [FRUS 1964–68, XIV, doc. 33](https://history.state.gov/historicaldocuments/frus1964-68v14/d33) (Rusk and Kosygin). [[w.johnson-white-house-diary]], 148–49 (the news of Nehru''s death at about 6 a.m.; Rusk left at dawn for the funeral; not the place). To check: [[w.bowles-promises-to-keep]]. See [[cal.1962-11-19.india-and-china]]. Names: Nehru, Kosygin, Shastri, Rusk, Johnson.'
@@ -4779,6 +5549,7 @@ entries:
   - id: cal.1964-05-27.desegregation-schools-2
     when: May 27
     date: '1964-05-27'
+    place: chicago
     thread: desegregation-schools
     also: [mayors]
     c: Chicago. Two of the Coordinating Council try to give Daley a black mourning wreath as he leaves his home, the opening of a "month of mourning and mobilizing." Later, in his office, Daley, reddening, defends Mrs. Green as an able "senior citizen."
@@ -4838,6 +5609,7 @@ entries:
   - id: cal.1964-05-27.europe-and-the-alliance
     when: May 27
     date: '1964-05-27'
+    place: washington
     thread: europe-and-the-alliance
     c: 'The South Lawn. Johnson and Mrs. Johnson receive President de Valera of Ireland: the Diplomatic Corps, anthems, troops reviewed, speeches; they ride with him to Blair House.'
     n: '[[w.johnson-white-house-diary]], 148–49 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
@@ -4845,6 +5617,7 @@ entries:
   - id: cal.1964-05-27.europe-and-the-alliance-2
     when: May 27
     date: '1964-05-27'
+    place: washington
     thread: europe-and-the-alliance
     c: 'The White House, State dinner for de Valera. Gifts: a vermeil cigar box, an antique ballot box, a copy of his baptismal certificate (St. Agnes, New York). Robert Kennedy and Mrs. Kennedy and Edward Kennedy and his wife, invited, do not come; the Shrivers come for the family; Ball and Mrs. Ball for Rusk, away at Nehru''s funeral. Johnson''s toast: "I have heard it said that there are more Irishmen in the White House than people."'
     n: '[[w.johnson-white-house-diary]], 149–50 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Robert Kennedy, Ted Kennedy, Shriver, Ball, Rusk.'
@@ -4863,6 +5636,7 @@ entries:
   - id: cal.1964-05-27.china-leadership
     when: May 27
     date: '1964-05-27'
+    place: peking
     thread: china-leadership
     also: [china]
     c: 'Mao presides over the Politburo Standing Committee, the Juxiang Shuwu: two things not enough attended to, the third front and basic industry. First line the coast, second line the Baotou to Lanzhou belt, third the southwest; resolved to build the Panzhihua iron mine, even with the leaders'' salaries. In the atomic age no rear is no safety; Beijing flooded, Panzhihua remains. Luo Ruiqing raises the General Staff''s worry that the Miyun and Guanting reservoirs'' spillways are too small.'
@@ -4887,6 +5661,7 @@ entries:
   - id: cal.1964-05-27.china-leadership-2
     when: May 27
     date: '1964-05-27'
+    place: peking
     thread: china-leadership
     c: 'Zhou tours the industrial exhibition at the Beijing Exhibition Hall. Told that four heavy-machinery plants fought together and made a difficult cold-rolling roll, breaking the Soviet technical blockade: praises the workers for raising the Chinese people''s spirit and serving socialism.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 644 (May 27, 1964). Names: Zhou Enlai.'
@@ -4918,9 +5693,50 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 339: all'
     tags: [polity:prc, polity:italy, name:chen-yi]
+  - id: cal.1964-05-27.china-leadership-5
+    when: May 27
+    date: '1964-05-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference; Yang Shangkun 杨尚昆 there in the morning.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 27, 1964). The words: 上午参加小组会，下午请假 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: bef71a03
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-26T22:00Z
+      - 1964-05-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-27.china-leadership-6
+    when: May 27
+    date: '1964-05-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. An Ziwen 安子文 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 27, 1964). The words: 安子文同志来谈话 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen, Yang Shangkun.'
+    src:
+      c: 8a11274b
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-27.china-leadership-7
+    when: May 27
+    date: '1964-05-27'
+    thread: china-leadership
+    c: Zhou Enlai 周恩来 and Deng Xiaoping 邓小平 telephone Yang Shangkun 杨尚昆 on the Standing Committee's meeting; the group leaders to meet the next afternoon.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 27, 1964). The words: 恩来、小平同志来电话，告知常委会议情况，并准备明天下午开小组长会议 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-27.china-leadership]]. Names: Zhou Enlai, Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: b6cfa9e1
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
   - id: cal.1964-05-28.middle-east
     when: May 28–June 2
     date: '1964-05-28'
+    place: jerusalem
     thread: middle-east
     c: The Palestine National Congress at Jerusalem founds the Palestine Liberation Organization on Shukairy's National Charter; Shukairy chairman of its executive committee.
     n: 'FRUS 1964–68, XVIII, docs. [54](https://history.state.gov/historicaldocuments/frus1964-68v18/d54), [65](https://history.state.gov/historicaldocuments/frus1964-68v18/d65). To check: [[w.sayigh-armed-struggle-and-the]]. See [[cal.1964-01-13.middle-east]]. Names: Shukairy.'
@@ -4966,6 +5782,7 @@ entries:
   - id: cal.1964-05-28.desegregation-public-places
     when: May 28
     date: '1964-05-28'
+    place: st-augustine
     thread: desegregation-public-places
     c: St. Augustine. Georgia Reed and fifteen others jailed in the motels; at night some 250 whites at the Old Slave Market break up the second march, beat NBC's cameraman Irving Gans and AP's photographer James Kerlin, and a deputy's dog bites Harry Boyte of SCLC. A shotgun into Boyte's car, and rifle shots into the cottage rented for King.
     n: '[[w.branch-pillar-of-fire]], 324–25. To check: Jacksonville FBK LHM dated June 1, 1964, FSA-1353, pp. 1–2 (cited by [[w.branch-pillar-of-fire]], 324); Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, pp. 8—9, UF (cited by [[w.branch-pillar-of-fire]], 324); Claude Sitton, "2 Hurt in Clash in St. Augustine," [*New York Times*, May 29, 1964](https://timesmachine.nytimes.com/timesmachine/1964/05/29/issue.html) (cited by [[w.branch-pillar-of-fire]], 324); Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, p. 12, UF (cited by [[w.branch-pillar-of-fire]], 325). See [[cal.1964-05-27.desegregation-public-places]].'
@@ -5038,6 +5855,7 @@ entries:
   - id: cal.1964-05-28.press-and-broadcasting
     when: May 28
     date: '1964-05-28'
+    place: los-angeles
     thread: press-and-broadcasting
     also: [goldwater]
     c: 'Jack Steele, for the Scripps-Howard papers, from Los Angeles: "Stridence and confusion are the twin notes now dominating Sen. Barry M. Goldwater''s campaign in California"; the growing fear he may lose.'
@@ -5106,6 +5924,37 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 255 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 255 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1964-05-28.china-leadership-6
+    when: May 28
+    date: '1964-05-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The group of the Central Work Conference; Yang Shangkun 杨尚昆 there in the morning.
+    n: '[[w.yang-shangkun-riji]], II, 379 (May 28, 1964). The words: 上午参加小组会议 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-05-19.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: bef71a03
+      rows:
+        - 'w.yang-shangkun-riji II, 379: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-27T22:00Z
+      - 1964-05-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-28.china-leadership-7
+    when: May 28
+    date: '1964-05-28'
+    time: 1964-05-28T07:30Z
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, the Hebei Room 河北厅, 3:30 to 7 p.m. The group leaders of the Central Work Conference, Liu Shaoqi 刘少奇 presiding: Li Fuchun 李富春 on the plan; Liu, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Zhu De 朱德 and Peng Zhen 彭真 speak, relaying Mao''s 毛泽东 directive on building the third front 第三线; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], II, 379–380 (May 28, 1964). The words: 下午3时半到7时，在河北厅开小组长会议，由少奇同志主持 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Li Fuchun, Zhou Enlai, Deng Xiaoping, Zhu De, Peng Zhen, Mao Zedong, Yang Shangkun. Check: whether the Secretariat meeting of [[cal.1964-05-28.china-leadership-2]].'
+    src:
+      c: fadc36dd
+      rows:
+        - 'w.yang-shangkun-riji II, 379–380: all'
+    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, name:zhou-enlai, name:deng-xiaoping, name:zhu-de, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-29.goldwater
     when: May 29
     date: '1964-05-29'
@@ -5220,6 +6069,7 @@ entries:
   - id: cal.1964-05-29.elections-1964
     when: May 29
     date: '1964-05-29'
+    place: san-francisco
     thread: elections-1964-primaries
     c: 'San Francisco. Rockefeller, of the other Republicans out of the California fight: "It''s understandable. All of them are available for the nomination and hoping that lightning will strike. What other position could they take?"'
     n: '[[w.white-making-of-the-president-1965]], 139; [[w.goldberg-barry-goldwater]], 193 (Rockefeller: "It''s understandable. They''re all available and hoping for lightning to strike"). Names: Rockefeller. Check: the day ("four days before the primary").'
@@ -5252,6 +6102,7 @@ entries:
   - id: cal.1964-05-29.elections-1964-primaries
     when: May 29
     date: '1964-05-29'
+    place: california
     thread: elections-1964-primaries
     c: California, statewide television. Reagan narrates a half hour of testimonials from Goldwater's friends.
     n: '[[w.perlstein-before-the-storm]], 350. To check: the transcript, Rockefeller Archive Center, box 11/914 (cited by [[w.perlstein-before-the-storm]], 350 n.1). Names: Reagan, Goldwater.'
@@ -5303,6 +6154,7 @@ entries:
   - id: cal.1964-05-29.china
     when: May 29
     date: '1964-05-29'
+    place: tunis
     thread: china
     also: [africa]
     c: China's first ambassador to Tunisia presents his credentials to President Habib Bourguiba. He reached Tunis on May 22.
@@ -5326,6 +6178,20 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 395 n.88b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 395 n.88c: all'
     tags: [polity:prc]
+  - id: cal.1964-05-29.china-leadership-5
+    when: May 29
+    date: '1964-05-29'
+    time: 1964-05-29T02:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Ministry of Health 卫生部 at Beiheyan 北河沿, 10 a.m. The memorial meeting 追悼 for Su Jingguan 苏井观, late vice-minister of health (the editors' note); Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 380 (May 29, 1964). The words: 上午10时去北河沿中央卫生部追悼苏井观同志 (II, 380). Names: Yang Shangkun, Su Jingguan.'
+    src:
+      c: d3605984
+      rows:
+        - 'w.yang-shangkun-riji II, 380: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-30.governors-nc
     when: May 30
     date: '1964-05-30'
@@ -5345,6 +6211,7 @@ entries:
   - id: cal.1964-05-30.elections-1964-state-conventions
     when: May 30
     date: '1964-05-30'
+    place: mississippi
     thread: elections-1964-state-conventions
     also: [mississippi]
     c: Mississippi's Republican State convention pledges its 13 delegates to Goldwater.
@@ -5377,6 +6244,7 @@ entries:
   - id: cal.1964-05-30.elections-1964
     when: May 30
     date: '1964-05-30'
+    place: buena-park
     thread: elections-1964-primaries
     also: [goldwater]
     c: Knott's Berry Farm, Buena Park, Cal. Goldwater's rally, some 27,000; John Wayne and Reagan.
@@ -5499,6 +6367,7 @@ entries:
   - id: cal.1964-05-30.china
     when: May 30
     date: '1964-05-30'
+    place: sanaa
     thread: china
     also: [middle-east-yemen]
     c: China's first ambassador to the Yemen Arab Republic, Wang Ruojie, presents his credentials to Vice-President Hassan al-Amri. He reached Sana'a on May 19.
@@ -5519,6 +6388,18 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 257–258: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 257 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-30.china-leadership-4
+    when: May 30
+    date: '1964-05-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆, away from the group, reads through the Central Work Conference's bulletins 简报 and papers.
+    n: '[[w.yang-shangkun-riji]], II, 380 (May 30, 1964). The words: 今天未去参加小组会议。努力看完了工作会议简报和一些文件 (II, 380). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ab5c311d
+      rows:
+        - 'w.yang-shangkun-riji II, 380: all'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1964-05-31.opinion
     when: May 31
@@ -5633,6 +6514,7 @@ entries:
   - id: cal.1964-05.elections-1964-state-conventions
     when: May
     date: 1964-05
+    place: anchorage
     thread: elections-1964-state-conventions
     c: 'Anchorage, Alaska''s Republican convention: the Rockefeller men take all twelve delegates, the Goldwater men beaten on the floor.'
     n: '[[w.white-suite-3505]], 329. Names: Rockefeller, Goldwater. Check: the day; "the week after" May 16.'
@@ -5681,6 +6563,7 @@ entries:
   - id: cal.1964-05.elections-1964-5
     when: May
     date: 1964-05
+    place: california
     thread: elections-1964-primaries
     c: California, the last weeks. Spencer-Roberts, for Rockefeller, mails "Who Do You Want in the Room with the H Bomb?" to all two million registered Republicans, at about $120,000. Telephone mills, some 1,200 paid callers, 600 in the largest at Los Angeles. Grindle and Goldberg's Lodge volunteers for Rockefeller.
     n: '[[w.white-making-of-the-president-1965]], 123–24; [[w.perlstein-before-the-storm]], 344 (Lodge out, his organization to Rockefeller; a third of his California volunteers switch). See [[cal.1964-03.elections-1964-2]]. Names: Rockefeller. Check: the days.'
@@ -5718,6 +6601,7 @@ entries:
   - id: cal.1964-05.elections-1964-8
     when: May
     date: 1964-05
+    place: hot-springs-va
     thread: elections-1964-primaries
     c: 'Hot Springs, Va., the Business Council''s annual meeting: a survey of its members finds a majority leaning to Johnson. At the end of May Henry Ford II says he will vote for Johnson whoever the Republicans name.'
     n: '[[w.white-making-of-the-president-1965]], 255. Names: Johnson, Ford. Check: the days.'
@@ -5729,6 +6613,7 @@ entries:
   - id: cal.1964-05.vietnam-operations
     when: May
     date: 1964-05
+    place: saigon
     thread: vietnam-operations
     c: Saigon. The Viet Cong rig mines beneath a bridge on the road McNamara is to take into the city; the South Vietnamese police find and defuse them shortly before his car passes, by McNamara's account.
     n: '[[w.mcnamara-in-retrospect]], ch. 2 at nn.19–20. Check: the day; McNamara was in Saigon May 12–13 ([[cal.1964-05-13.vietnam]]). Names: McNamara.'
@@ -5736,6 +6621,7 @@ entries:
   - id: cal.1964-05.goldwater
     when: May
     date: 1964-05
+    place: san-diego
     thread: goldwater
     also: [elections-1964, vietnam]
     c: 'Late May. San Diego, a press conference at the offices of the *Union*. Goldwater, unprompted: "If I had my choice, I would go into South China. It would be fairly easy. You have one railroad. You have a number of bridges." The reporters let it pass.'
@@ -5749,6 +6635,7 @@ entries:
   - id: cal.1964-05.civil-rights-bill
     when: May
     date: 1964-05
+    place: washington
     thread: civil-rights-bill
     c: 'Dirksen''s office, the morning after the EEOC compromise. Dirksen asks for a weaker commission still; Clark pushes back his chair and walks out: "It''s a goddamn sellout!" Humphrey: "See what pressure I''m up against?" Dirksen closes the talks on the commission. The walkout planned by Humphrey and Clark.'
     n: '[[w.zelizer-fierce-urgency-of-now]], 121–22. To check: [[w.mann-walls-of-jericho]], 419–20; Timothy N. Thurber, *The Politics of Equality* (1999), 141 (cited by [[w.zelizer-fierce-urgency-of-now]], 122 n.85). Check: the day (the sixth meeting). See [[cal.1964-05-05.civil-rights-bill]]. Names: Dirksen, Clark, Humphrey.'
@@ -5760,6 +6647,7 @@ entries:
   - id: cal.1964-05.republican-party-congress
     when: May
     date: 1964-05
+    place: washington
     thread: republican-party-congress
     also: [civil-rights-bill, elections-1964]
     c: The Senate Republicans agree to allow no cloture vote until after the California primary of June 2, for fear of embarrassing Goldwater.
@@ -5796,6 +6684,7 @@ entries:
   - id: cal.1964-05.vietnam-3
     when: May
     date: 1964-05
+    place: saigon
     thread: vietnam-macv
     c: 'Saigon decides to bring the army to its force levels: upwards of 40,000 recruits to train in seven months. MACV recommends training at the four national centers and Đức Mỹ, not Quang Trung alone; emergency construction at the centers.'
     n: '[[w.macv-command-history-1964]], 116. Check: the day.'
@@ -5828,6 +6717,7 @@ entries:
   - id: cal.1964-05.middle-east
     when: May
     date: 1964-05
+    place: aswan
     thread: middle-east
     also: [soviet-union]
     c: 'Egypt. Khrushchev at the ceremony for the Aswan Dam, seated beside Aref of Iraq. In private, the Soviet delegation to the Egyptians on Nasser''s persecution of Egypt''s Communists: "How is it possible to pursue a policy of anticommunism in a country that is building socialism?"'
@@ -5878,6 +6768,7 @@ entries:
   - id: cal.1964-05.conservative-movement-2
     when: May
     date: 1964-05
+    place: alton-il
     thread: conservative-movement
     also: [goldwater]
     c: 'Phyllis Schlafly''s *A Choice Not an Echo* published at Alton, Ill.: "a few secret kingmakers based in New York have selected Republican presidential nominees since 1936." A runaway best seller among Goldwater''s supporters.'
@@ -5986,6 +6877,7 @@ entries:
     when: May, late
     date: 1964-05
     at: before 1964-05-21
+    place: nyc
     thread: draft
     also: [war-opposition]
     c: 'The *New York Herald Tribune* prints an advertisement signed by 149 men of draft age: they will not fight in Vietnam if called. Organized, as the Guardian''s, by Phillip Luce, under indictment for travel to Cuba.'
@@ -5997,6 +6889,7 @@ entries:
   - id: cal.1964-05.elections-1964-primaries
     when: May
     date: 1964-05
+    place: oregon
     thread: elections-1964-primaries
     also: [right-and-the-military]
     c: 'Oregon. Kent Courtney distributes *How Soft on Communism Is Henry Cabot Lodge?* and *An Exposé of the Record of Former President Dwight D. Eisenhower*. Kleindienst, rushed in: "Mr. Courtney is not authorized to speak on behalf of the Senator or on behalf of the Senator''s Oregon Committee."'
@@ -6009,6 +6902,7 @@ entries:
   - id: cal.1964-05.elections-1964-primaries-2
     when: May
     date: 1964-05
+    place: portland
     thread: elections-1964-primaries
     also: [press-and-broadcasting]
     c: NBC's crew finds Nixon's telephone room in Portland, a few days after its opening; his managers call it a poll for a new magazine. The deception shown on national television.
@@ -6079,6 +6973,7 @@ entries:
   - id: cal.1964-05.elections-1964-primaries-6
     when: May
     date: 1964-05
+    place: los-angeles
     thread: elections-1964-primaries
     c: Los Angeles. Rockefeller with Dorothy Chandler, of the family of the *Los Angeles Times*, a $25,000 Picasso etching under his arm.
     n: '[[w.smith-on-his-own-terms]], 441. Check: the day. Names: Rockefeller.'
@@ -6117,6 +7012,7 @@ entries:
   - id: cal.1964-05.press-and-broadcasting
     when: May
     date: 1964-05
+    place: washington
     thread: press-and-broadcasting
     also: [program, elections-1964]
     c: 'The small room beside the Oval Office, a few days after Ann Arbor. Johnson to Goodwin, over scotch: "Henry Luce called me this morning. Old man Henry himself. He said he''d support me on the basis of the Great Society speech alone." With Moyers and Valenti he reads reviews by Reston, Krock and U.S. News. "The only two newspapermen practically all of them admire are Lippmann and Reston. As long as these two are for LBJ, he will, on the whole, get a good press from the rest of them." If Goldwater is nominated, "we''ll sweep every part of the country, even New York."'
@@ -6126,6 +7022,7 @@ entries:
     when: May, mid
     date: 1964-05
     at: before 1964-05-11
+    place: san-diego
     thread: elections-1964-primaries
     c: San Diego, NBC's affiliate KOGO, carried statewide. Salinger and Cranston debate before Howard K. Smith and a panel of reporters, who dwell on the carpetbagger charge and on Cranston's soliciting of the inheritance tax appraisers. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 352–53. Check: the day ("mid-May"). Names: Salinger, Cranston, Howard K. Smith.'
@@ -6167,6 +7064,7 @@ entries:
   - id: cal.1964-05-31.china-leadership-2
     when: May 31
     date: '1964-05-31'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi receives Lucien Paye, France's first ambassador to China. He says China admires General de Gaulle's independent policy in international affairs; the two countries' political and economic systems differ but this does not bar friendly relations between them and their peoples; a large part of China's international policy is like France's, independent and taking no orders; China is also developing its own economy, technology and culture, and on a number of concrete projects the two can help each other on mutually beneficial terms.
@@ -6215,3 +7113,15 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 252: all'
         - 'via x.1964-05.ccp-center-on-educated-youths-going-to-the-villages: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-31.china-leadership-3
+    when: May 31
+    date: '1964-05-31'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Yang Shangkun''s 杨尚昆 fifty-seventh birthday: his children''s gifts, Xu Beihong''s 徐悲鸿 painting *Lijiang chunyu* 漓江春雨 and a portrait of Mao 毛泽东.'
+    n: '[[w.yang-shangkun-riji]], II, 380 (May 31, 1964). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: 53732bb1
+      rows:
+        - 'w.yang-shangkun-riji II, 380: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
