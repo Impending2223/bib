@@ -34,8 +34,9 @@ _Loader.yaml_implicit_resolvers = {
 }
 
 
-class DataError(SystemExit):
-    pass
+class DataError(Exception):
+    """A data file that cannot be read (bad YAML, git conflict markers). An ordinary error: a handler meant for a
+    file that does not load (patchcheck, patchaudit) catches it; cli.main turns it into its message and exit 1."""
 
 
 _PARSED = {}                             # path -> (mtime, size, pickled data): each file parsed once a run

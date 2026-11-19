@@ -1046,6 +1046,14 @@ def main(argv=None):
     x.add_argument("--force", action="store_true")
 
     a = p.parse_args(argv)
+    try:
+        return _run(a)
+    except store.DataError as x:         # a data file that does not load: its message, exit 1 (as a SystemExit did)
+        print(x, file=sys.stderr)
+        return 1
+
+
+def _run(a):
     if a.cmd == "git-merge":
         return cmd_git_merge(a)
     if a.cmd == "import":

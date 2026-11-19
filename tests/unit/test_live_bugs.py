@@ -109,3 +109,34 @@ def test_vis_pass_that_fails_is_counted(monkeypatch):
     assert vis.problems(None) == [("tools/bib/vis.py", "the visibility pass failed: ValueError: no")]
     assert faults.FAULTS == [("tools/bib/vis.py", "the visibility pass failed: ValueError: no")]
     faults.reset()
+
+
+# ---------------------------------------------------------------- 4. DataError is an ordinary error
+
+def test_data_error_is_an_exception_not_an_exit():
+    from tools.bib import store
+    assert issubclass(store.DataError, Exception) and not issubclass(store.DataError, SystemExit)
+
+
+def test_a_patch_that_does_not_load_is_a_finding(tmp_path):
+    from tools.bib import patchaudit, patchcheck
+    bad = tmp_path / "2026-11-19-bad.yaml"
+    bad.write_text("patch: bad\nops:\n  - add: [unclosed\n", encoding="utf-8")
+    errors, warnings = patchcheck.check(None, str(bad))
+    assert len(errors) == 1 and errors[0].startswith("does not load: ") and "not valid YAML" in errors[0]
+    (p, d, err), = patchaudit.load([str(bad)])
+    assert d is None and "not valid YAML" in err
+    marked = tmp_path / "2026-11-19-marked.yaml"
+    marked.write_text("patch: x\n<<<<<<< ours\nops: []\n=======\nops: []\n>>>>>>> theirs\n", encoding="utf-8")
+    errors, _ = patchcheck.check(None, str(marked))
+    assert "git conflict markers" in errors[0]
+
+
+def test_cli_turns_a_data_error_into_exit_1(monkeypatch, capsys):
+    from tools.bib import cli, store
+
+    def bad(*a, **k):
+        raise store.DataError("lists/cal/196101.yaml:3: not valid YAML (x).")
+    monkeypatch.setattr(store, "Series", bad)
+    assert cli.main(["status"]) == 1
+    assert "lists/cal/196101.yaml:3: not valid YAML" in capsys.readouterr().err
