@@ -487,7 +487,7 @@ def merge_auto(a):
         shown = [l for l in rep.lines if not l.startswith(("same", "added-to", "edited", "added ", "tagged"))]
         if shown:
             print("\n".join("  " + l for l in shown))
-        ids = sorted({l.split()[1].rstrip(":") for l in rep.lines if l.split()[0] in ("added-to", "edited", "added", "tagged")})
+        ids = sorted({l.split()[1].rstrip(":") for l in rep.lines if l.split()[0] in ("added-to", "edited", "added", "tagged", "placed")})
         sample = [i for i in ids if int(hashlib.sha1(i.encode()).hexdigest(), 16) % 10 == 0] or ids[:1]
         print(f"  {len(ids)} entries changed; read: {' '.join(sample)}")
         joined, left = ([], rep.conflicts) if a.dry_run else addops.join_clean(store.Series(), name)

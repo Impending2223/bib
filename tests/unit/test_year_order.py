@@ -93,7 +93,7 @@ def before(ids, *seq):
 
 def test_the_year_before_january(page):
     ids = order(page)
-    before(ids, "y1960", "cal.year", "ix-1960-01-month", "cal.early-year", "cal.first-half",
+    before(ids, "y1960", "cal.year", "ix-1960-01-month", "cal.first-half", "ix-1960-01-month-2", "cal.early-year",
            "196001", "ind-196001", "cal.jan", "ix-1960-01-01-before", "cal.early-jan", "d1960-01-06", "cal.jan6",
            "ix-1960-01-11-before", "cal.mid-jan", "d1960-01-11", "cal.jan11")
     assert ids[0] == "y1960"
@@ -139,7 +139,7 @@ def test_the_thread_order_agrees():
     """The thread pages' and the thread navigation's order (loose.order_key) is the page's."""
     keyed = sorted(ENTRIES, key=loose.order_key)
     ids = [e["id"][4:] for e in keyed]
-    assert ids[:6] == ["year", "early-year", "first-half", "jan", "early-jan", "jan6"]
+    assert ids[:6] == ["year", "first-half", "early-year", "jan", "early-jan", "jan6"]   # the half wider than a third
     assert ids.index("apr30") < ids.index("mid-year") < ids.index("may") < ids.index("early-may") < ids.index("may1")
 
 
@@ -151,3 +151,20 @@ def test_no_year_heading_without_the_years_entries(monkeypatch):
     loose._HOSTS.clear()
     html = "\n".join(build.section_body(None, lst, lst.sections[0], lambda s: s.id, lambda t, f: t))
     assert 'class="yh"' not in html and 'data-ytop="#196001"' in html
+
+
+def test_no_ghost_heading_twice_in_a_month(page):
+    seen = set()
+    for aid, head in re.findall(r'<div class="day ix" id="([^"]+)" data-h="\d" data-short="([^"]*)"', page):
+        k = (aid[3:10], head)
+        assert k not in seen, k
+        seen.add(k)
+    assert ("1960-01", "First half of 1960") in seen and ("1960-01", "Early 1960") in seen
+
+
+def test_the_next_parts_first_anchor():
+    from bib import calsplit
+    lst = year_list()
+    assert calsplit.first_anchor(lst, datetime.date(1960, 1, 6)) == "y1960"
+    assert calsplit.first_anchor(lst, datetime.date(1960, 7, 1)) == "ix-1960-07-month"
+    assert calsplit.first_anchor(lst, datetime.date(1960, 3, 1)) == "d1960-03-01"

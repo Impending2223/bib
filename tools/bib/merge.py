@@ -726,7 +726,11 @@ def place_loose(touched, report):
     loose.py, STYLE 3a), on the entries of the sections the patch touched: written with them, or not at all."""
     from . import loose
     for sec in sorted(touched, key=lambda s: str(s.id)):
+        if getattr(sec.lst, "kind", None) != "calendar":     # the calendar's entries only
+            continue
         for e in sec.entries:
+            if "ok:loose-at" in (e.get("tags") or []):        # a reader's own day, kept on purpose
+                continue
             a = loose.at_for(e)
             if a and not loose.at_problems(dict(e, at=a)):
                 e["at"] = a

@@ -9,12 +9,17 @@
                                 its old day form, "before 1962-05-01", an error on a year-dated entry (at_problems)
 
 STYLE:
- 1. An intercalary day is a heading in the day's ordinary style, its text the loose date, from the entry's `when`
-    (heading: "May, late" -> "Late May"; "May, after the 12th" -> "After May 12"; "Mar., spring" -> "Spring";
-    "May, second week" -> "Second week of May"; "1962, mid-year" -> "Mid-1962"; "1962, second half" -> "Second half
-    of 1962"; any other wording as written). It holds every entry of its section with that `at` and that heading, sorted as the
-    month's undated block is (dayorder). Several on one day: the wider first (a season, a third, a day's before or
-    after, any other wording), then by heading.
+ 1. An intercalary day is a heading in the day's ordinary style, its text the loose date, from the entry's `when`,
+    in its own words (heading): "Early May", "Mid-May", "Late May" for the bare words early, mid (mid-, mid-month,
+    middle, mid-year) and late ("1962, mid-year" -> "Mid-1962"); a part named by a noun, "X of" the month or year
+    ("May, the last week" -> "Last week of May"; "Nov., end" -> "End of November"; "Jan., the last days" -> "Last days
+    of January"; "1961, first half" -> "First half of 1961"; "1967, end" -> "End of 1967"; "May, second week" ->
+    "Second week of May"); a third with more after it, the rest kept ("Nov., late, the Thanksgiving holidays" -> "Late
+    November, the Thanksgiving holidays"); a season as written ("Spring", "Autumn", "Early fall"); "May, after the
+    12th" -> "After May 12"; a plain year or month with `at`, "Before May 20", "After May 30", "Before May" (a year's,
+    before May's heading); any other wording as written (the lead's audit, Nov. 19, 2026). It holds every entry of its
+    section with that `at` and that heading, sorted as the month's undated block is (dayorder). Several on one day: the
+    wider first (a season, a half, a third or a week, a day's before or after, any other wording), then by heading.
  2. The order of a year: the year's block ("1962"); then each month: the month's block ("May"), "Early May", May 1 ...
     May 10, "Mid-May", May 11 ... May 20, "Late May", May 21 ... May 31. A "before X" day stands straight before X's
     day (under X's week heading when X is a Sunday), an "after X" day straight after it, before any "before" day of
@@ -32,8 +37,10 @@ STYLE:
     May' after 'May' and before 'May 1.'" (the owner, Nov. 15.) "The first week" is early; "the second week" before
     the 8th, "the third week" before the 15th; "the last week", "the last days", "end", "about the end" late; "mid-"
     mid; a third's word before a comma governs ("late, the Thanksgiving holidays"; "early, by the 10th"). A year's
-    thirds go by months: early ("first half", "early in the year") before January's block, mid- ("mid-year") before
-    May's, late before September's; "second half" before July's.
+    thirds go by months, and only these words (YEAR_PARTS): early ("early in the year") and "first half" before
+    January's block, mid-, mid, middle, "mid-year" before May's, late before September's; "second half" before July's.
+    A year's weeks, days and end ("1962, end", "1962, the last week") are a reader's, or the owner's. A month's
+    "first half" is a reader's too.
  3a. The rule (the owner's ask, Nov. 15): loosely dated entries are shown "at the earliest date implied by their
     range". Where that day is the month's or the year's first ("by the 15th", "early in the year" on a January entry,
     "Apr., spring", "1962, by the year's end"), the entry stays in the block. A wording that names a day (a festival,
@@ -202,15 +209,17 @@ def _qualifier(e):
     return w[m.end():] if m else w
 
 
-EARLY = ("early", "first week", "early in the year", "first half")
+EARLY = ("early", "first week", "early in the year")
 MID = ("mid", "mid-", "mid-month", "middle", "mid-year")
 LATE = ("late", "last week", "last days", "end", "about the end")
 YEARS = ("early in the year", "first half", "mid-year")          # a year's wordings: on a month's entry, its first day
+BARE = {"early": 0, "mid": 1, "mid-": 1, "mid-month": 1, "middle": 1, "mid-year": 1, "late": 2}   # "Early May", "Mid-1962"
+YEAR_PARTS = ("early", "mid", "mid-", "middle", "mid-year", "late", "early in the year", "first half", "second half")
 
 
 def _kind(q):
     """(kind, value) of a qualifier: ('', None) none; ('third', 0|1|2); ('week', 1|2) the second or third week;
-    ('half', 1) a year's second; ('before'|'after', day); ('season', name) (STYLE 3)."""
+    ('half', 0|1) the first or second half; ('before'|'after', day); ('season', name) (STYLE 3)."""
     q = q.strip().rstrip(".").lower()
     q = re.sub(r"^the ", "", q)
     if not q:
@@ -222,8 +231,8 @@ def _kind(q):
             return "third", k
     if q in ("second week", "third week"):
         return "week", 1 if q.startswith("second") else 2
-    if q == "second half":
-        return "half", 1
+    if q in ("first half", "second half"):
+        return "half", 0 if q.startswith("first") else 1
     if q == "early fall":
         return "season", "fall"
     m = re.fullmatch(r"(before|after) the " + ORD, q)
@@ -234,29 +243,37 @@ def _kind(q):
     return "other", q
 
 
+OF = ("first week", "second week", "third week", "last week", "last days", "end", "about the end", "first half",
+      "second half")                    # a part named by a noun: "Last week of October", "End of 1967"
+
+
 def heading(e):
-    """An intercalary day's heading: the loose date, from `when` (STYLE 1)."""
+    """An intercalary day's heading: the loose date, from `when`, in its own words (STYLE 1): "Early May", "Mid-1962",
+    "Late November, the Thanksgiving holidays", "Last week of October", "End of November", "First half of 1961",
+    "Early fall"; "Before May 12", "After May 12"; any other wording as written."""
     w = str(e.get("when") or "").strip()
     d = date_of(e)
     q = _qualifier(e)
     k, v = _kind(q)
     full = calendar.month_name[int(d[5:7])] if len(d) == 7 else d
-    if k == "third":
-        if len(d) == 7:
-            return ["Early ", "Mid-", "Late "][v] + full
-        return ["Early ", "Mid-", "Late "][v] + d
-    if k == "week" and len(d) == 7:
-        return ["", "Second", "Third"][v] + " week of " + full
-    if k == "half" and len(d) == 4:
-        return f"Second half of {d}"
+    low = re.sub(r"^the ", "", q.strip().rstrip(".").lower())
+    if low in BARE:                     # the bare words: "Early May", "Mid-May", "Late 1962"
+        return ["Early ", "Mid-", "Late "][BARE[low]] + full
+    head, _, rest = q.strip().partition(",")
+    if k == "third" and head.strip().lower() in BARE and rest.strip():     # "Late November, the Thanksgiving holidays"
+        return ["Early ", "Mid-", "Late "][BARE[head.strip().lower()]] + full + ", " + rest.strip()
+    if low in OF:
+        return low[:1].upper() + low[1:] + " of " + full
     if k in ("before", "after") and len(d) == 7:
         return f"{k.capitalize()} {MON[int(d[5:7]) - 1]} {v}"
     if k == "season":
-        return v.capitalize()
+        return low[:1].upper() + low[1:]
     if not k:
         a = parse_at(e.get("at"))
         if a and a[0] == "after":
             return f"After {MON[a[1].month - 1]} {a[1].day}"
+        if a and a[0] == "month":       # a year's, before a month's heading: "Before May"
+            return f"Before {calendar.month_name[a[1].month]}"
         if a:
             return f"Before {MON[a[1].month - 1]} {a[1].day}"
         return full
@@ -299,10 +316,12 @@ def at_for(e):
     k, v = _kind(q)
     if len(d) == 4:
         y = int(d)
-        if k == "third":
-            return f"before {y}-{(1, 5, 9)[v]:02d}"
+        low = re.sub(r"^the ", "", q.strip().rstrip(".").lower())
+        lead = low.partition(",")[0].strip()
+        if k == "third" and (low in YEAR_PARTS or (lead in BARE and lead != low)):
+            return f"before {y}-{(1, 5, 9)[v]:02d}"   # a year's thirds; its weeks, days and end are a reader's
         if k == "half":
-            return f"before {y}-07"
+            return f"before {y}-{(1, 7)[v]:02d}"
         if k == "season":
             return f"before {season_starts(y)[SEASON_WORD[v]].isoformat()}"
         return None
@@ -313,6 +332,8 @@ def at_for(e):
         return f"before {thirds(y, m)[v].isoformat()}"
     if k == "week":
         return f"before {datetime.date(y, m, 1 + 7 * v).isoformat()}"
+    if k == "half":                     # a month's halves: "Jan., first half" is the year's (STYLE 3a), a reader's
+        return None
     if k in ("before", "after"):
         try:
             return f"{k} {datetime.date(y, m, v).isoformat()}"

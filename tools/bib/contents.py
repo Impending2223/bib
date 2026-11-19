@@ -285,7 +285,7 @@ def nav(lst, sections, half=None):
                 yc = f'<a href="{esc(f"#{key}--top" if series else f"{key}.html")}">{y}</a>'
             elif daybook.year_opened(lst, ms[min(ms)]) == y:    # the year's own heading (daybook.py, STYLE 17)
                 yc = (f'<a class="yo" href="{esc(year_href(lst, ms[min(ms)], whole, y))}" '
-                      f'data-id="{esc(_year_id(y))}">{y}</a>')
+                      f'data-id="{esc(_year_id(lst, y))}">{y}</a>')
             th = f'<th scope="rowgroup" rowspan="{len(halves)}">{yc}</th>' if j == 0 else ""
             trs.append(f"<tr>{th}{''.join(cells)}</tr>")
         gap = ' class="gap"' if prev is not None and y != prev + 1 else ""
@@ -303,16 +303,16 @@ def _sec_id(lst, s):
     return f"{lst.key}--{s.id}" if calsplit.CUR["mode"] == "series" else s.id
 
 
-def _year_id(y):
-    return f"cal--y{y}" if calsplit.CUR["mode"] == "series" else f"y{y}"
+def _year_id(lst, y):
+    return f"{lst.key}--y{y}" if calsplit.CUR["mode"] == "series" else f"y{y}"
 
 
 def year_href(lst, s, whole, y):
     """The year's heading (daybook.py, STYLE 17), over s, the section that opens it: on the page, or through to its
     part's page (the reader: its block's)."""
     if calsplit.CUR["mode"] == "series" or not whole:
-        return "#" + _year_id(y)
-    return calsplit.href(lst, calsplit.half_of_section(lst, s), _year_id(y))
+        return "#" + _year_id(lst, y)
+    return calsplit.href(lst, calsplit.half_of_section(lst, s), _year_id(lst, y))
 
 
 def _sec_href(lst, s, whole):
