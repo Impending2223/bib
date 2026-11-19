@@ -35,6 +35,7 @@ STYLE:
     Congresses), the page's own unlinked, and at its foot the part before and after ("‹ Ma–Mc · Index · Md–Mi ›").
 """
 import bisect
+import html
 import json
 import os
 import re
@@ -136,13 +137,22 @@ def _before(s):
     return s[:-1] + chr(ord(s[-1]) - 1) if s[-1:] > "a" else s[:-1]
 
 
+def _readable(prefix):
+    """A key's prefix as the name it begins ('kennedy-jo' -> 'Kennedy, Jo'; 'mcgo' -> 'Mcgo')."""
+    w = [x for x in prefix.split("-") if x]
+    if not w:
+        return prefix
+    return _cap(w[0]) + (", " + " ".join(_cap(x) for x in w[1:]) if len(w) > 1 else "")
+
+
 def _cap(s):
     return s[:1].upper() + s[1:]
 
 
-def names_ranges(letter, keys_sizes, target):
+def names_ranges(letter, keys_sizes, target, names=None):
     """[{page, from, label}] for a letter's persons [(key, bytes)] packed in key order to the target: each part's
-    first key's shortest prefix that still sorts after the last key before it."""
+    first key's shortest prefix that still sorts after the last key before it; a range of one person labelled by his
+    name as his entry writes it (names: {key: name})."""
     ks = sorted(keys_sizes)
     chunks, cur, size = [], [], 0
     for k, n in ks:
@@ -163,9 +173,13 @@ def names_ranges(letter, keys_sizes, target):
     out = []
     for i, f in enumerate(froms):
         lo = f if i else letter + "a"
-        hi = _before(froms[i + 1]) if i + 1 < len(froms) else letter + "z"
-        lo, hi = re.sub(r"[^a-z]", "", lo) or letter, re.sub(r"[^a-z]", "", hi) or letter
-        out.append({"page": f"names-{lo}-{hi}", "from": f, "label": f"{_cap(lo)}–{_cap(hi)}"})
+        hi = chunks[i][-1][:len(froms[i + 1])].rstrip("-") if i + 1 < len(froms) else letter + "z"
+        a, b = _readable(lo), _readable(hi)
+        if len(chunks[i]) == 1 and 0 < i < len(froms) - 1:   # one person a page (a President): his name
+            lo = hi = chunks[i][0]
+            a = b = (names or {}).get(lo) or _readable(lo)
+        page = "names-" + re.sub(r"[^a-z]", "", lo) + ("-" + re.sub(r"[^a-z]", "", hi) if b != a else "")
+        out.append({"page": page, "from": f, "label": a if a == b else f"{a}–{b}"})
     seen = set()
     for p in out:                      # two ranges of one label (a prefix the rule shortened): numbered
         while p["page"] in seen:
@@ -236,6 +250,15 @@ def anatomy(page):
     return pre, body[:ms[0].start()], secs, post
 
 
+SHORT = re.compile(r'<h2\b[^>]*\bdata-short="([^"]+)"')
+
+
+def short(section):
+    """A section's short label: its h2's data-short (the scroll wheel's), or None."""
+    m = SHORT.match(section)
+    return m.group(1) if m else None
+
+
 def pack(sizes, target):
     """Consecutive items [(id, bytes)] packed in order: [[id, ...], ...], each run at most the target (an item
     larger alone)."""
@@ -266,7 +289,7 @@ def sections_parts(fam, secs, target):
     for run in pack([(s, n) for s, _, n in secs], target):
         a, b = _slug(run[0]), _slug(run[-1])
         page = f"{fam}-{a}" + (f"-{b}" if b != a else "")
-        label = lab[run[0]] if len(run) == 1 else f"{lab[run[0]]} to {lab[run[-1]]}"
+        label = lab[run[0]] if len(run) == 1 else f"{lab[run[0]]}–{lab[run[-1]]}"
         out.append({"page": page, "label": label, "sections": run})
     seen = set()
     for p in out:
@@ -312,7 +335,8 @@ def cut(fam, page, title):
     for i, p in enumerate(parts):
         body = "".join(by_id[s][1] for s in p["sections"])
         main = intro + bar(fam, parts, i) + body + seam(fam, parts, i)
-        html = _retitle(pre, f"{title}: {p['label']}") + "\n" + main + "\n" + post
+        full = by_id[p["sections"][0]][0] + (f" to {by_id[p['sections'][-1]][0]}" if len(p["sections"]) > 1 else "")
+        html = _retitle(pre, f"{title}: {full}") + "\n" + main + "\n" + post
         out[f"{p['page']}.html"] = route_own(html, fam, p["page"])
     idx = [intro, bar(fam, parts, None)]
     for p in parts:
@@ -531,6 +555,7 @@ UNITS = {"cal": (re.compile(r'<li id="cal\.\d'), "entries"),
          "congress": (re.compile(r'<tr\b'), "rows")}
 ANCHOR = re.compile(r'\sid="')
 LV = re.compile(r'<section class="lv" id="([^"]+)">')
+LVNAME = re.compile(r'<section class="lv" id="([^"]+)"><h2 [^>]*>(.*?)</h2>', re.S)
 MONTH = re.compile(r"^(\d{4})(\d\d)b?$")
 
 
@@ -542,7 +567,7 @@ def built(out):
 
 def stubbed(text):
     """A page that only forwards (an old address)."""
-    return len(text) < 40000 and "location.replace" in text and '<main id="doc">' not in text
+    return "location.replace" in text and "<main id=\"doc\">" not in text
 
 
 def measure(out):
@@ -587,9 +612,10 @@ def propose(out, rows=None):
         for L, rs in sorted(letters.items()):
             if not any(x["over"] for x in rs):
                 continue
-            sizes, total, body = [], 0, 0
+            sizes, total, body, nm = [], 0, 0, {}
             for x in rs:
                 text = open(pages_[x["page"]], encoding="utf-8").read()
+                nm.update({k: html.unescape(TAGS.sub("", v)) for k, v in LVNAME.findall(text)})
                 got = _sizes_of(text, LV, ('<p class="lvs"><a class="lvp" href="names', "<script>(function(){var m=",
                                            "</main>"))
                 sizes += got
@@ -597,7 +623,7 @@ def propose(out, rows=None):
                 body += sum(n for _, n in got)
             overhead = (total - body) // max(1, len(rs))
             target = int(budget(f"names-{L}.html") * fill()) - overhead
-            rng = names_ranges(L, sizes, target)
+            rng = names_ranges(L, sizes, target, nm)
             if rng:
                 props[L] = rng
         if props:
@@ -615,7 +641,7 @@ def propose(out, rows=None):
                 continue                       # the index: the parts hold the sections
             text = open(pages_[r["page"]], encoding="utf-8").read()
             pre, it, ss, post = anatomy(text)
-            secs += [(s, l, len(h)) for s, l, h in ss]
+            secs += [(s, short(h) or l, len(h)) for s, l, h in ss]
             intro = max(intro, len(pre) + len(it) + len(post))
         target = int(budget(f"{fam}.html") * fill()) - intro
         prop[fam] = {"parts": sections_parts(fam, secs, target)}
@@ -748,7 +774,7 @@ def apply_calendar(props, path=None):
         text = text[:m.start()] + "\n".join(lines) + "\n" + text[m.end():]
         lo = str(base.get("from") or spans[0][0])
         hi = spans[-1][1]
-        rm = list(re.finditer(r"(?m)^  - \{page: [^\n]*\}\n", text[:text.index("\nsplit:")]))
+        rm = list(re.finditer(r"(?m)^  - \{page: [^\n]*\}\n", text[:text.index("\nsplit:") + 1]))
         at = rm[-1].end()
         text = text[:at] + f"  - {{page: {pr['page']}, from: '{lo}', to: '{hi}'}}\n" + text[at:]
         done.append(pr["page"])

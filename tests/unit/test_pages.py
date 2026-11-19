@@ -63,8 +63,8 @@ def test_names_ranges():
     sizes = [("mao-zedong", 40), ("macarthur-douglas", 40), ("mccarthy-eugene-j", 40), ("mcnamara-robert-s", 40),
              ("muskie-edmund-s", 40), ("morse-wayne", 40)]
     got = pages.names_ranges("m", sizes, 90)
-    assert got == [{"page": "names-ma-mb", "from": "m", "label": "Ma–Mb"},
-                   {"page": "names-mc-mn", "from": "mc", "label": "Mc–Mn"},
+    assert got == [{"page": "names-ma", "from": "m", "label": "Ma"},
+                   {"page": "names-mc", "from": "mc", "label": "Mc"},
                    {"page": "names-mo-mz", "from": "mo", "label": "Mo–Mz"}]
     assert pages.names_ranges("m", sizes, 1000) is None        # under the target: no split
 
@@ -79,7 +79,7 @@ def test_sections_parts():
             ("c87", "87th", 2), ("c88", "88th", 2)]
     got = pages.sections_parts("executive", secs, 6)
     assert [p["page"] for p in got] == ["executive-1953", "executive-1957", "executive-87-88"]
-    assert got[2]["label"] == "87th to 88th"
+    assert got[2]["label"] == "87th–88th"
 
 
 def test_compress():
