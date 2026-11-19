@@ -81,18 +81,32 @@ class Pointers:
                     ks, suf = self.keys(r["name"])
                     if "Jr" not in suf:
                         self.senior.update(ks[:1])
-        self.cal = defaultdict(list)   # name key -> [calendar entry]
-        self.calx = defaultdict(list)  # Part III entry id -> [calendar entry]
+        # The calendar's side does not depend on data: built once a run and kept on the linker for the same series
+        # (a build makes a Pointers for each page it injects into; code review C, PERF 1). Read-only after.
+        kept = getattr(linker, "_pointers_cal", None)
+        if kept is None or kept[0] is not series:
+            kept = (series, *self._calendar(series, linker))
+            linker._pointers_cal = kept
+        self.cal, self.calx = kept[1], kept[2]
+
+    def _calendar(self, series, linker):
+        """name key -> [calendar entry], and Part III entry id -> [calendar entry], each entry once, in order."""
+        cal = defaultdict(list)
+        calx = defaultdict(list)
+        seen = set()                   # (key, id(entry)): an entry once in a list, by identity
         for lst in series.lists.values():
             if lst.kind != "calendar":
                 continue
             for sec, e in lst.entries():
                 for x in self.named(lst, e):
-                    if e not in self.calx[x["id"]]:
-                        self.calx[x["id"]].append(e)
+                    if ("x", x["id"], id(e)) not in seen:
+                        seen.add(("x", x["id"], id(e)))
+                        calx[x["id"]].append(e)
                     for k, _ in linker.refs.name_keys(x["s"]):
-                        if e not in self.cal[k]:
-                            self.cal[k].append(e)
+                        if ("k", k, id(e)) not in seen:
+                            seen.add(("k", k, id(e)))
+                            cal[k].append(e)
+        return cal, calx
 
     def named(self, lst, e):
         """The person entries a calendar entry's 'Names:' line names ("Names: Heller, Tobin"), each found by
