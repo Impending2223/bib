@@ -104,11 +104,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, Tiananmen. Zhou Enlai attends the meeting celebrating the 12th anniversary of the People's Republic and reviews the parade.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 1, 1961; 上午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 1, 1961; 上午); [[w.yang-shangkun-riji]], II, 73 (Oct. 1, 1961; Yang Shangkun on Tiananmen for the parade, 10 a.m. to 12; no troops reviewed this year; the Premier not named). Names: Zhou Enlai.'
     src:
       c: 11d6fea7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 322: all'
+        - 'w.yang-shangkun-riji II, 73: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1961-09-30T22:00Z
@@ -121,11 +122,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, Tiananmen. Zhou Enlai spends the evening of the holiday on the Tiananmen rostrum with the foreign guests and a million of the capital's people.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 1, 1961; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Oct. 1, 1961; 晚上); [[w.yang-shangkun-riji]], II, 73 (Oct. 1, 1961; Yang Shangkun and his family on the rostrum for the fireworks, 8 to 9:30 p.m.; the Premier not named). Names: Zhou Enlai.'
     src:
       c: c212a227
       rows:
         - 'w.zhou-enlai-waijiao-huodong 322: all'
+        - 'w.yang-shangkun-riji II, 73: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1961-10-01T11:00Z
@@ -210,6 +212,17 @@ entries:
       - 1961-10-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-10-02.china-leadership-5
+    when: Oct. 2
+    date: '1961-10-02'
+    thread: china-leadership
+    c: 'Tian Jiaying 田家英 tells Yang Shangkun 杨尚昆: Mao 毛泽东 has raised making the team the basic accounting unit of the communes 以队为基本核算单位, to be discussed with those concerned within days.'
+    n: '[[w.yang-shangkun-riji]], II, 74 (Oct. 2, 1961). The words: 办公到2时，田家英来谈话 (II, 74). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun, Mao Zedong.'
+    src:
+      c: 1e4e5f0d
+      rows:
+        - 'w.yang-shangkun-riji II, 74: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-10-03.states-and-cities
     when: Oct. 3
     date: '1961-10-03'
@@ -370,12 +383,55 @@ entries:
     thread: china
     also: [soviet-union]
     c: He Long, member of the Politburo and Vice-Premier, leads a Chinese Party and government delegation to the celebrations of the 12th anniversary of the founding of the German Democratic Republic (to Oct. 8).
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 206 (Oct. 3–8, 1961). See [[cal.1961-10-11.china-leadership-4]]. The book has the 13th anniversary (13周年); the Zhou chronology, the 12th. Names: He Long.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 206 (Oct. 3–8, 1961); [[w.yang-shangkun-riji]], II, 74 (Oct. 3, 1961; Yang at the Eastern Suburb airport early to see He Long off to Germany for the national day). See [[cal.1961-10-11.china-leadership-4]]. The book has the 13th anniversary (13周年); the Zhou chronology, the 12th. Names: He Long.'
     src:
       c: '35181807'
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 206: all'
+        - 'w.yang-shangkun-riji II, 74: ?'
     tags: [polity:prc, polity:gdr, name:he-long]
+  - id: cal.1961-10-03.china-leadership-4
+    when: Oct. 3
+    date: '1961-10-03'
+    time: 1961-10-03T02:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Secretariat, 10 to 1, on the delegation to the CPSU's Twenty-second Congress 22大 and its documents.
+    n: '[[w.yang-shangkun-riji]], II, 74 (Oct. 3, 1961; note 1). The words: 10时到1时 (II, 74). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 3e0d768a
+      rows:
+        - 'w.yang-shangkun-riji II, 74: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-03.china-leadership-5
+    when: Oct. 3
+    date: '1961-10-03'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平 calls Yang Shangkun 杨尚昆 out of the Huairen Tang 怀仁堂 to telephone Tao Zhu 陶铸, Wang Renzhong 王任重, Liu Jianxun 刘建勋, Liu Zihou 刘子厚 and Li Xuefeng 李雪峰 to come to Peking within days: Mao 毛泽东 wants to talk with them about the team as the accounting unit.'
+    n: '[[w.yang-shangkun-riji]], II, 74 (Oct. 3, 1961; note 2: Wang, first secretary in Hubei; Liu Jianxun, first secretary in Henan). The words: 晚间 (II, 74). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Tao Zhu, Wang Renzhong, Liu Jianxun, Liu Zihou, Li Xuefeng, Mao Zedong.'
+    src:
+      c: 7eae6ff6
+      rows:
+        - 'w.yang-shangkun-riji II, 74: all'
+    tags: [polity:prc, name:deng-xiaoping, name:tao-zhu, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-10-03T11:00Z
+      - 1961-10-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-03.china-leadership-6
+    when: Oct. 3
+    date: '1961-10-03'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The Chinese delegation to the CPSU''s Twenty-second Congress settled: Zhou Enlai 周恩来, Peng Zhen 彭真, Kang Sheng 康生, Tao Zhu 陶铸 and Liu Xiao 刘晓.'
+    n: '[[w.yang-shangkun-riji]], II, 74–75 (Oct. 3, 1961; note 3). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Peng Zhen, Kang Sheng, Tao Zhu, Liu Xiao.'
+    src:
+      c: eaa81603
+      rows:
+        - 'w.yang-shangkun-riji II, 74–75: all'
+    tags: [polity:prc, name:zhou-enlai, name:peng-zhen, name:kang-sheng, name:tao-zhu, vis:only:prc]
   - id: cal.1961-10-04.opinion-5
     when: Oct. 4
     date: '1961-10-04'
@@ -516,6 +572,68 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 132–133: all'
         - 'via x.1961-09-25.hubei-provincial-committee-request-on-trying-the-team-as-basic-accounting-unit: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1961-10-04.china-leadership-5
+    when: Oct. 4
+    date: '1961-10-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Kang Sheng's 康生 meeting to prepare the journey abroad; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 4, 1961). The words: 睡到11时才起床 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Yang Shangkun.'
+    src:
+      c: c527c7a9
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-10-03T22:00Z
+      - 1961-10-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-04.china-leadership-6
+    when: Oct. 4
+    date: '1961-10-04'
+    time: 1961-10-04T07:30Z
+    thread: china-leadership
+    c: Zhongnanhai 中南海, the West Building 西楼, 3:30 to 6 p.m. Deng Xiaoping 邓小平 receives Sharkey 夏基 and Bacon 培根 of the Communist Party of Australia; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 4, 1961; note 1: Sharkey, its general secretary; Bacon, of its Politburo). The words: 下午3时半到6时 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Sharkey, Bacon, Yang Shangkun.'
+    src:
+      c: 9909244d
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+australia]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-04.china-leadership-7
+    when: Oct. 4
+    date: '1961-10-04'
+    thread: china-leadership
+    follows:
+      - cal.1961-10-04.china-leadership-6
+    c: Quanjude 全聚德, outside Qianmen. Roast duck for the Australian guests; Yang Shangkun 杨尚昆 present; back at 7:30.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 4, 1961). The words: 7时半回中南海 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 35b2401f
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, vis:only:prc+australia]
+    time_range:
+      - 1961-10-04T09:00Z
+      - 1961-10-04T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-04.china-leadership-8
+    when: Oct. 4
+    date: '1961-10-04'
+    time: 1961-10-04T14:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆, 10 p.m., receives the Soviet Ambassador.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 4, 1961). The words: 10时 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 75902f79
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-05.middle-east-syria
     when: Oct. 5
     date: '1961-10-05'
@@ -677,7 +795,12 @@ entries:
     thread: china-leadership
     also: [economy]
     c: At the Secretariat, which agrees in principle to the Planning Commission Party group's report on the supplementary plan for the last two years of the Second Five-Year Plan.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 5, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 5, 1961); [[w.yang-shangkun-riji]], II, 75 (Oct. 5, 1961; the Secretariat, 9 to 12, on the plan). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 349069fc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 438: ?'
+        - 'w.yang-shangkun-riji II, 75: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-10-05.china-leadership-4
     when: Oct. 5
@@ -721,6 +844,49 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 469: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-10-05.china-leadership-7
+    when: Oct. 5
+    date: '1961-10-05'
+    time: 1961-10-05T09:00Z
+    thread: china-leadership
+    c: Liu Ying 刘英, Zhang Wentian's 张闻天 wife, 5 p.m., tells Yang Shangkun 杨尚昆 she objects to the verdict on her.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 5, 1961; note 2). The words: 5时 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Ying, Zhang Wentian, Yang Shangkun.'
+    src:
+      c: 3a76ec47
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-05.china-leadership-8
+    when: Oct. 5
+    date: '1961-10-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with He Jun 何均 on studying the team as the basic accounting unit 队为基本核算单位.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 5, 1961). The words: 5时 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-10-02.china-leadership-5]]. Names: Yang Shangkun, He Jun.'
+    src:
+      c: 16ca653b
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-05T04:00Z
+      - 1961-10-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-05.china-leadership-9
+    when: Oct. 5
+    date: '1961-10-05'
+    time: 1961-10-05T15:00Z
+    time_approx: true
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 has palpitations 心慌, about 11 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 5, 1961). The words: 11时 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a76f945c
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-06.berlin-and-vienna
     when: Oct. 6
     date: '1961-10-06'
@@ -890,6 +1056,52 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 137–139: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, polity:gdr]
+  - id: cal.1961-10-06.china-leadership-6
+    when: Oct. 6
+    date: '1961-10-06'
+    time: 1961-10-06T02:00Z
+    thread: china-leadership
+    c: Yangfeng Jiadao 养蜂夹道. Deng Xiaoping 邓小平 gives a lunch for three comrades of the New Zealand Communist Party; Yang Shangkun 杨尚昆 talks and lunches with them, to 1.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 6, 1961). The words: 10时 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: ffbbee01
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+nz]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-06.china-leadership-7
+    when: Oct. 6
+    date: '1961-10-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Liu Shaoqi 刘少奇 receives the Soviet Ambassador; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 6, 1961). The words: 下午 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Yang Shangkun.'
+    src:
+      c: d8f4d3b9
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc+ussr]
+    time_range:
+      - 1961-10-06T04:00Z
+      - 1961-10-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-06.china-leadership-8
+    when: Oct. 6
+    date: '1961-10-06'
+    thread: china-leadership
+    c: Kong Yuan 孔原, then Liu Lantao 刘澜涛, talk with Yang Shangkun 杨尚昆 on international questions, till 2:30.
+    n: '[[w.yang-shangkun-riji]], II, 75 (Oct. 6, 1961). The words: 晚间……一直谈到2时半 (II, 75). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Liu Lantao, Yang Shangkun.'
+    src:
+      c: e681ccc2
+      rows:
+        - 'w.yang-shangkun-riji II, 75: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-06T14:00Z
+      - 1961-10-06T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-07.middle-east
     when: Oct. 7
     date: '1961-10-07'
@@ -1019,6 +1231,20 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 323–24: all'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva, vis:only:prc+nepal]
     time_zone: Asia/Shanghai
+  - id: cal.1961-10-07.china-leadership-7
+    when: Oct. 7
+    date: '1961-10-07'
+    time: 1961-10-07T08:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆, 4 p.m., gives the Soviet Ambassador the list of the Chinese delegation to the Twenty-second Congress.
+    n: '[[w.yang-shangkun-riji]], II, 76 (Oct. 7, 1961). The words: 下午4时 (II, 76). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-10-03.china-leadership-6]]. Names: Yang Shangkun.'
+    src:
+      c: 45d07863
+      rows:
+        - 'w.yang-shangkun-riji II, 76: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-08.goldwater
     when: Oct. 8
     date: '1961-10-08'
@@ -1102,6 +1328,20 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 324: all'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva]
     time_zone: Asia/Shanghai
+  - id: cal.1961-10-08.china-leadership-3
+    when: Oct. 8
+    date: '1961-10-08'
+    time: 1961-10-08T03:00Z
+    thread: china-leadership
+    also: [cuba]
+    c: Yangfeng Jiadao 养蜂夹道, 11 a.m. Zhu De 朱德 and Deng Xiaoping 邓小平 give a lunch for Cuban comrades; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], II, 76 (Oct. 8, 1961). The words: 上午11时 (II, 76). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhu De, Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: 0560bad7
+      rows:
+        - 'w.yang-shangkun-riji II, 76: all'
+    tags: [polity:prc, name:zhu-de, name:deng-xiaoping, vis:only:prc+cuba]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-09.court
     when: Oct. 9
     date: '1961-10-09'
@@ -1160,12 +1400,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai presides at the capital's meeting for the 50th anniversary of the 1911 Revolution and opens it, paying respect to Sun Yat-sen and the pioneers. The Revolution overthrew the Qing, ended over two thousand years of monarchy, freed minds and opened the way, but was incomplete, leaving anti-imperialist and anti-feudal tasks; the bourgeois republic could not work in China. Under the Communist Party the people won the democratic revolution entire; he calls for greater unity of all nationalities and peoples.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 9, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 542 (Oct. 9, 1961; Liu attends the mass meeting). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 438 (Oct. 9, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 542 (Oct. 9, 1961; Liu attends the mass meeting); [[w.yang-shangkun-riji]], II, 76 (Oct. 9, 1961; the Great Hall, 6:30 to 9 p.m., Yang present). Names: Zhou Enlai.'
     src:
       c: 480676b5
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 438: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 542: A'
+        - 'w.yang-shangkun-riji II, 76: ?'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1961-10-09.china-leadership-3
     when: Oct. 9
@@ -1210,6 +1451,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 146: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1961-10-09.china-leadership-6
+    when: Oct. 9
+    date: '1961-10-09'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 talks with Tian Jiaying 田家英.
+    n: '[[w.yang-shangkun-riji]], II, 76 (Oct. 9, 1961). The words: 上午 (II, 76). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 9aad8ffc
+      rows:
+        - 'w.yang-shangkun-riji II, 76: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-08T22:00Z
+      - 1961-10-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-09.china-leadership-7
+    when: Oct. 9
+    date: '1961-10-09'
+    thread: china-leadership
+    c: Kong Yuan 孔原 talks with Yang Shangkun 杨尚昆 till midnight.
+    n: '[[w.yang-shangkun-riji]], II, 76 (Oct. 9, 1961). The words: 孔原同志来谈话到12时 (II, 76). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 27ca3207
+      rows:
+        - 'w.yang-shangkun-riji II, 76: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-09T14:00Z
+      - 1961-10-09T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-09.china-leadership-8
+    when: Oct. 9–16
+    date: '1961-10-09'
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆 falls ill: chills on the 9th; a heavy cold, aching all over, in bed on the 10th and 11th; cupping on the 12th; Pu Fuzhou 蒲辅周, the 13th: "wind in the meridians"; at home till the 15th; still aching on the 16th.'
+    n: '[[w.yang-shangkun-riji]], II, 76–78 (Oct. 9, 1961; 蒲老 on the page (the OCR''s 萍老, 犹老); a slight sweat needed; the time is the first day''s). The words: 下午 (II, 76). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Pu Fuzhou.'
+    src:
+      c: c7c88714
+      rows:
+        - 'w.yang-shangkun-riji II, 76–78: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-09T04:00Z
+      - 1961-10-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-10.european-community
     when: Oct. 10
     date: '1961-10-10'
@@ -1350,6 +1639,33 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 324: all'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:luo-ruiqing]
     time_zone: Asia/Shanghai
+  - id: cal.1961-10-10.china-leadership-4
+    when: Oct. 10
+    date: '1961-10-10'
+    time: 1961-10-10T09:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: The Western Suburb airport 西郊机场. Yang Shangkun 杨尚昆, from his sickbed, meets Hồ Chí Minh 胡志明 and Lê Duẩn 黎笋 and takes them to their residence.
+    n: '[[w.yang-shangkun-riji]], II, 76 (Oct. 10, 1961). The words: 下午5时 (II, 76). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hồ Chí Minh, Lê Duẩn. Check: whether reported at the time.'
+    src:
+      c: 863a8d05
+      rows:
+        - 'w.yang-shangkun-riji II, 76: all'
+    tags: [polity:prc, name:ho-chi-minh, name:le-duan, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-10.china-leadership-5
+    when: Oct. 10
+    date: '1961-10-10'
+    thread: china-leadership
+    follows:
+      - cal.1961-10-10.china-leadership-4
+    c: Yang Shangkun 杨尚昆 calls on Peng Zhen 彭真 and Kang Sheng 康生.
+    n: '[[w.yang-shangkun-riji]], II, 76 (Oct. 10, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen, Kang Sheng.'
+    src:
+      c: 87c8bbc3
+      rows:
+        - 'w.yang-shangkun-riji II, 76: all'
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc]
   - id: cal.1961-10-11.vietnam
     when: Oct. 11
     date: '1961-10-11'
@@ -1518,6 +1834,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 207–208: all'
     tags: [polity:prc, polity:syria, name:chen-yi, name:al-kuzbari-mamun]
+  - id: cal.1961-10-11.china-leadership-5
+    when: Oct. 11
+    date: '1961-10-11'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆, from his sickbed, sees Luo Manning 罗满宁, counsellor of the Soviet Embassy, on the delegation.
+    n: '[[w.yang-shangkun-riji]], II, 77 (Oct. 11, 1961; note 1; the name as the page gives it in Chinese). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Manning.'
+    src:
+      c: cba10c25
+      rows:
+        - 'w.yang-shangkun-riji II, 77: all'
+    tags: [polity:prc, vis:only:prc+ussr]
   - id: cal.1961-10-12.civil-rights-organizations
     when: Oct. 12
     date: '1961-10-12'
@@ -1733,6 +2061,41 @@ entries:
     c: 'Liu Shaoqi talks with U Nu, Prime Minister of Burma, with Zhou Enlai. U Nu says the settlement of the boundary and the fast growth of friendship show China has no great-power chauvinism; Liu: "we are afraid of great-power chauvinism," we are a big country and it is good to fear it, and we teach our descendants not to commit it; if one slips, he is to correct it at once, apologize and own the error.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 542 (Oct. 13, 1961). Made public: 1996. The protocol''s signing that day is [[cal.1961-10-11.china-leadership-2]]. Names: Liu Shaoqi, Zhou Enlai, U Nu.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
+  - id: cal.1961-10-13.china-leadership-3
+    when: Oct. 13
+    date: '1961-10-13'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Diaoyutai 钓鱼台. Yang Shangkun 杨尚昆, ill, lunches with Hồ Chí Minh 胡志明 at his residence and talks an hour.
+    n: '[[w.yang-shangkun-riji]], II, 77 (Oct. 13, 1961; note 2: 胡老, Hồ Chí Minh). The words: 中午 (II, 77). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hồ Chí Minh.'
+    src:
+      c: 0023541c
+      rows:
+        - 'w.yang-shangkun-riji II, 77: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    time_range:
+      - 1961-10-13T04:00Z
+      - 1961-10-13T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-13.china-leadership-4
+    when: Oct. 13
+    date: '1961-10-13'
+    thread: china-leadership
+    follows:
+      - cal.1961-10-13.china-leadership-3
+    c: Yang Shangkun 杨尚昆 calls on Peng Zhen 彭真 and Kang Sheng 康生.
+    n: '[[w.yang-shangkun-riji]], II, 77 (Oct. 13, 1961; note 3). The words: 中午……去彭、康处转了一转即回 (II, 77). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen, Kang Sheng.'
+    src:
+      c: 87c8bbc3
+      rows:
+        - 'w.yang-shangkun-riji II, 77: all'
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-10-13T04:00Z
+      - 1961-10-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-14.berlin-and-vienna
     when: Oct. 14
     date: '1961-10-14'
@@ -1806,6 +2169,37 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 150: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-10-14.china-leadership-5
+    when: Oct. 14
+    date: '1961-10-14'
+    time: 1961-10-13T22:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi, soviet-union]
+    c: The Eastern Suburb airport 东郊机场, early morning. Yang Shangkun 杨尚昆 sees Hồ Chí Minh 胡志明 off to the Soviet Union.
+    n: '[[w.yang-shangkun-riji]], II, 77 (Oct. 14, 1961). The words: 上午6时 (II, 77). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hồ Chí Minh.'
+    src:
+      c: aca39dff
+      rows:
+        - 'w.yang-shangkun-riji II, 77: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-14.china-leadership-6
+    when: Oct. 14
+    date: '1961-10-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yan Mingfu 阎明复 comes to Yang Shangkun 杨尚昆 on preparing for Moscow.
+    n: '[[w.yang-shangkun-riji]], II, 77 (Oct. 14, 1961; notes 4–5). The words: 下午 (II, 77). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: 7d3054e9
+      rows:
+        - 'w.yang-shangkun-riji II, 77: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-14T04:00Z
+      - 1961-10-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-15.opinion
     when: Oct. 15
     date: '1961-10-15'
@@ -1859,11 +2253,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Moscow. Zhou Enlai arrives at the head of the Chinese Party delegation to the CPSU's 22nd Congress; Khrushchev, First Secretary, and Kozlov, Secretary, welcome it at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 15, 1961; 下午). See [[cal.1961-10-15.china-leadership]]. Names: Zhou Enlai, Khrushchev.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 15, 1961; 下午); [[w.yang-shangkun-riji]], II, 78 (Oct. 15, 1961; at Moscow at 3 p.m., 8 p.m. Peking time; Khrushchev and Kosygin at the airport (note 1)). See [[cal.1961-10-15.china-leadership]]. Names: Zhou Enlai, Khrushchev.'
     src:
       c: 3bfc022e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 325: all'
+        - 'w.yang-shangkun-riji II, 78: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s]
     time_range:
       - 1961-10-15T09:00Z
@@ -1905,6 +2300,20 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 151–152: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1961-10-15.china-leadership-4
+    when: Oct. 15
+    date: '1961-10-15'
+    time: 1961-10-15T00:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking, the airport, 8 a.m. Yang Shangkun 杨尚昆 sees off the delegation to the CPSU''s Twenty-second Congress: Zhou Enlai 周恩来, Peng Zhen 彭真, Kang Sheng 康生, Tao Zhu 陶铸 and Liu Xiao 刘晓, with thirty staff.'
+    n: '[[w.yang-shangkun-riji]], II, 77–78 (Oct. 15, 1961). The words: 上午8时 (II, 78). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai, Peng Zhen, Kang Sheng, Tao Zhu, Liu Xiao.'
+    src:
+      c: '74254298'
+      rows:
+        - 'w.yang-shangkun-riji II, 77–78: all'
+    tags: [polity:prc, name:zhou-enlai, name:peng-zhen, name:kang-sheng, name:tao-zhu, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-16.right-and-the-military
     when: Oct. 16
     date: '1961-10-16'
@@ -2033,13 +2442,45 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 153–154: all'
         - 'via x.1961-10.study-material-several-problems-of-party-life: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-10-16.china-leadership-2
+    when: Oct. 16
+    date: '1961-10-16'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with the heads of the Party committees of the central organs and the state organs on training cadres in rotation 干部轮训.
+    n: '[[w.yang-shangkun-riji]], II, 78 (Oct. 16, 1961). The words: 上午 (II, 78). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1b894343
+      rows:
+        - 'w.yang-shangkun-riji II, 78: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-15T22:00Z
+      - 1961-10-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-16.china-leadership-3
+    when: Oct. 16
+    date: '1961-10-16'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 talks with Tian Jiaying 田家英.
+    n: '[[w.yang-shangkun-riji]], II, 78 (Oct. 16, 1961). The words: 下午 (II, 78). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 9aad8ffc
+      rows:
+        - 'w.yang-shangkun-riji II, 78: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-16T04:00Z
+      - 1961-10-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-17.berlin-and-vienna
     when: Oct. 17
     date: '1961-10-17'
     thread: berlin-and-vienna
     also: [testing, soviet-union]
     c: 'Twenty-Second Party Congress opens. Khrushchev drops the year-end deadline for a German treaty; announces a fifty-megaton test. Attacks the Albanian leaders: their breach of the 1957 and 1960 Moscow decisions, their purges.'
-    n: 'White House Statement Concerning Soviet Plans To Test a 50-Megaton Bomb, [1961 Pub. Papers 674](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=732). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 164–65 (the speech; the deadline dropped); [[w.poole-joint-chiefs-of-staff]], 157 (the deadline dropped, to the Party Congress); [[w.schulimson-joint-chiefs-of-staff]], 120 (the deadline dropped); [[w.fursenko-khrushchevs-cold-war]], 399–400 ("the Western powers were showing some understanding of the situation"); [[w.macfarquhar-origins-of-the-cultural]], III, 126 (the attack on the Albanians). [[w.rusk-as-i-saw-it-1990]], 226 (the deadline withdrawn). To check: [[w.taubman-khrushchev]]; [*New York Times*, Oct. 18, 1961](https://timesmachine.nytimes.com/timesmachine/1961/10/18/issue.html), and *Current Digest of the Soviet Press*, Nov. 8, 1961, 5 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 165 n.93); [*New York Times*, Oct. 18, 1961](https://timesmachine.nytimes.com/timesmachine/1961/10/18/issue.html), at 1 (cited by [[w.poole-joint-chiefs-of-staff]], 157 n.68); [[w.sino-soviet-dispute]], 46–56, 177–205 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.41a); the Moscow declaration of 1957, in [[w.sino-soviet-dispute]], 46–56 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.41b); the Moscow statement of 1960, in [[w.sino-soviet-dispute]], 177–205 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.41c); [[w.griffith-albania-and-the-sino]], 89–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42a); [[w.khrushchev-khrushchev-remembers]], 476 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42b); [[w.khrushchev-khrushchev-remembers-1974]], 303–04 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42c); [[w.artful-albanian]], 10, 223–24 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42d). Names: Khrushchev.'
+    n: 'White House Statement Concerning Soviet Plans To Test a 50-Megaton Bomb, [1961 Pub. Papers 674](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=732). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 164–65 (the speech; the deadline dropped); [[w.poole-joint-chiefs-of-staff]], 157 (the deadline dropped, to the Party Congress); [[w.schulimson-joint-chiefs-of-staff]], 120 (the deadline dropped); [[w.fursenko-khrushchevs-cold-war]], 399–400 ("the Western powers were showing some understanding of the situation"); [[w.macfarquhar-origins-of-the-cultural]], III, 126 (the attack on the Albanians); [[w.yang-shangkun-riji]], II, 78 (Oct. 17, 1961; the opening; Khrushchev''s report raises Albania and the anti-Party group; Yang: its edge turned not on imperialism but inward, "shameful and strange"). [[w.rusk-as-i-saw-it-1990]], 226 (the deadline withdrawn). To check: [[w.taubman-khrushchev]]; [*New York Times*, Oct. 18, 1961](https://timesmachine.nytimes.com/timesmachine/1961/10/18/issue.html), and *Current Digest of the Soviet Press*, Nov. 8, 1961, 5 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 165 n.93); [*New York Times*, Oct. 18, 1961](https://timesmachine.nytimes.com/timesmachine/1961/10/18/issue.html), at 1 (cited by [[w.poole-joint-chiefs-of-staff]], 157 n.68); [[w.sino-soviet-dispute]], 46–56, 177–205 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.41a); the Moscow declaration of 1957, in [[w.sino-soviet-dispute]], 46–56 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.41b); the Moscow statement of 1960, in [[w.sino-soviet-dispute]], 177–205 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.41c); [[w.griffith-albania-and-the-sino]], 89–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42a); [[w.khrushchev-khrushchev-remembers]], 476 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42b); [[w.khrushchev-khrushchev-remembers-1974]], 303–04 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42c); [[w.artful-albanian]], 10, 223–24 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 126 n.42d). Names: Khrushchev.'
     src:
       c: 02ffd609
       rows:
@@ -2062,6 +2503,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 126 n.42b: D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 126 n.42c: D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 126 n.42d: D'
+        - 'w.yang-shangkun-riji II, 78: A'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1961-10-17.european-community
     when: Oct. 17
@@ -2141,6 +2583,19 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 325: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai]
     time_zone: Europe/Moscow
+  - id: cal.1961-10-17.china-leadership-2
+    when: Oct. 17
+    date: '1961-10-17'
+    time: 1961-10-17T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 1, hears reports; Deng Xiaoping 邓小平 raises the drafting of a seven-year plan; Hu Yaobang 胡耀邦 and Hu Keshi 胡克实 report on the Youth League's work conference.
+    n: '[[w.yang-shangkun-riji]], II, 78 (Oct. 17, 1961; note 2). The words: 上午9时到1时 (II, 78). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Hu Yaobang, Hu Keshi.'
+    src:
+      c: 5cc46dba
+      rows:
+        - 'w.yang-shangkun-riji II, 78: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-18.vietnam
     when: Oct. 18
     date: '1961-10-18'
@@ -2207,13 +2662,27 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhongnanhai, Mao''s house by the pool. Mao, Liu Shaoqi, Deng Xiaoping and Yang Shangkun on the passage the delegation would add to Zhou Enlai''s greetings to the Twenty-second Congress, against Khrushchev''s open attack on the Albanian party in his report: Mao agrees.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 18, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 471–472 (after Khrushchev''s report, the delegation cabled Peking; Liu Shaoqi convened the Politburo, which decided to add to Zhou''s address a passage against the open attack on Albania; Wu drafted it; the Center amended it and Mao approved). Made public: 1999. Check: Wu (471–472) has Liu Shaoqi convene the Politburo, which decided on the passage, with Mao approving the text after; this entry has Mao''s meeting with Liu, Deng and Yang. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Yang Shangkun, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 18, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 471–472 (after Khrushchev''s report, the delegation cabled Peking; Liu Shaoqi convened the Politburo, which decided to add to Zhou''s address a passage against the open attack on Albania; Wu drafted it; the Center amended it and Mao approved); [[w.yang-shangkun-riji]], II, 79 (Oct. 18, 1961; the passage the delegation cabled that afternoon, against Khrushchev''s open charges on the Albanian party; Liu Shaoqi, Deng Xiaoping, Lu Dingyi and others settle it in Yang''s office, 10 to 11:30 p.m., then take it to Mao, who agrees; sent at midnight). Made public: 1999. Check: Wu (471–472) has Liu Shaoqi convene the Politburo, which decided on the passage, with Mao approving the text after; this entry has Mao''s meeting with Liu, Deng and Yang. Check: Yang Shangkun''s diary has the passage settled first in his office by Liu Shaoqi, Deng Xiaoping and Lu Dingyi, 10 to 11:30 p.m., then approved at Mao''s and sent at midnight ([[w.yang-shangkun-riji]], II, 79). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Yang Shangkun, Zhou Enlai, Khrushchev.'
     src:
       c: 4fb287bd
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 18, 1961: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 471–472: B'
+        - 'w.yang-shangkun-riji II, 79: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1961-10-18.china-leadership-2
+    when: Oct. 18
+    date: '1961-10-18'
+    time: 1961-10-18T01:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 9 to 12, with Kong Yuan 孔原 and others on preparing an intelligence conference.
+    n: '[[w.yang-shangkun-riji]], II, 78 (Oct. 18, 1961). The words: 上午9时到12时 (II, 78). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan.'
+    src:
+      c: 7a64bbd9
+      rows:
+        - 'w.yang-shangkun-riji II, 78: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-19.mississippi
     when: Oct. 19
     date: '1961-10-19'
@@ -2275,7 +2744,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Standing Committee, Mao presiding, at his house: an enlarged Politburo to hear the Center''s line on the Twenty-second Congress and its support for the Albanian party; Khrushchev''s report to be printed in summary only.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 19, 1961. Made public: 2013. Names: Mao Zedong, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 19, 1961. [[w.yang-shangkun-riji]], II, 79 (Oct. 19, 1961; the meeting at Mao''s, at the pool: an enlarged Politburo to hear the Standing Committee''s line on the Congress and the support of the Albanian party; Khrushchev''s report to be printed in summary only). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 79) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Khrushchev.'
+    src:
+      c: bc810de1
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 19, 1961: all'
+        - 'w.yang-shangkun-riji II, 79: A'
     tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-10-19.china-leadership-2
     when: Oct. 19
@@ -2283,7 +2757,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: At the Congress Zhou Enlai speaks and reads the greeting signed by Mao. The unity of the socialist camp and the world communist movement is a communists' internationalist duty; disputes between brother parties to be settled patiently on equality and consultation; one-sided charges against any brother party do not help, and exposing disputes before the enemy only pains friends and pleases foes. China hopes parties in dispute unite again on Marxism–Leninism and mutual respect of independence and equality.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 19, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 19, 1961; 下午, 苏共第二十二次代表大会); [[w.lengxi-shinian-lunzhan-1956-1966]], 472 (the added passage, as Wu gives it: disputes between brother parties to be settled patiently, in the spirit of proletarian internationalism, equality and consultation; public one-sided charges against any brother party do not help unity or a settlement; to show disputes to the enemy is not serious Marxist-Leninist conduct; the speech of the 19th, not naming Khrushchev); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 208 (Oct. 19, 1961; Zhou at the Congress reads the greeting signed by Mao and speaks: unity of the fraternal parties and countries is the communists'' internationalist duty; disputes are to be settled patiently on proletarian internationalism, equality and consultation; one-sided public charges against a fraternal party do not help unity, and airing disputes before the enemy only grieves friends and pleases foes). Check: [[w.jianguo-yilai-mao-zedong]], XVI, 147–148, dates the greeting signed by Mao Oct. 14, 1961, printed in *Renmin ribao* Oct. 20. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 440 (Oct. 19, 1961); [[w.zhou-enlai-waijiao-huodong]], 325 (Oct. 19, 1961; 下午, 苏共第二十二次代表大会); [[w.lengxi-shinian-lunzhan-1956-1966]], 472 (the added passage, as Wu gives it: disputes between brother parties to be settled patiently, in the spirit of proletarian internationalism, equality and consultation; public one-sided charges against any brother party do not help unity or a settlement; to show disputes to the enemy is not serious Marxist-Leninist conduct; the speech of the 19th, not naming Khrushchev); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 208 (Oct. 19, 1961; Zhou at the Congress reads the greeting signed by Mao and speaks: unity of the fraternal parties and countries is the communists'' internationalist duty; disputes are to be settled patiently on proletarian internationalism, equality and consultation; one-sided public charges against a fraternal party do not help unity, and airing disputes before the enemy only grieves friends and pleases foes); [[w.yang-shangkun-riji]], II, 79 (Oct. 19, 1961; as the embassy telephones that night: Zhou spoke at the Congress that afternoon). Check: [[w.jianguo-yilai-mao-zedong]], XVI, 147–148, dates the greeting signed by Mao Oct. 14, 1961, printed in *Renmin ribao* Oct. 20. Names: Zhou Enlai, Mao Zedong.'
     src:
       c: 772628c4
       rows:
@@ -2291,6 +2765,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 325: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 472: C, D, E'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 208: A-D'
+        - 'w.yang-shangkun-riji II, 79: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1961-10-19T09:00Z
@@ -2313,6 +2788,32 @@ entries:
     c: 'Liu Shaoqi hears Li Xiannian and others on commerce. To use the state''s goods as a weapon to seek private convenience is not allowed, still less to take things through the "back door" and swap them at will; the commercial ranks and their cadres are to be strengthened; a city needs a commercial inspection organ, whose supervision is joined to the masses''. The free market in the villages is to be given up, but not left unmanaged: it breeds some capitalism, bourgeois elements and some rogues, even some underground factories; do not fear them, for what they make is what the people need, and shows our lack; having seen the gaps they go at it, and that makes up for our gaps.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 542–543 (Oct. 19, 1961). Made public: 1996. Names: Liu Shaoqi, Li Xiannian.'
     tags: [polity:prc, name:liu-shaoqi, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-10-19.china-leadership-5
+    when: Oct. 19
+    date: '1961-10-19'
+    time: 1961-10-19T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 12:30, hears Li Jiebo 李颉伯 on union work.
+    n: '[[w.yang-shangkun-riji]], II, 79 (Oct. 19, 1961). The words: 上午9时到12时半 (II, 79). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jiebo.'
+    src:
+      c: bd8adec3
+      rows:
+        - 'w.yang-shangkun-riji II, 79: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-19.china-leadership-6
+    when: Oct. 19
+    date: '1961-10-19'
+    time: 1961-10-19T07:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 3:30 p.m., with some of the Party committee of the organs under the Center and Wang Dongxing 汪东兴.
+    n: '[[w.yang-shangkun-riji]], II, 79 (Oct. 19, 1961; note 3). The words: 下午3时半 (II, 79). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Dongxing.'
+    src:
+      c: ec46002b
+      rows:
+        - 'w.yang-shangkun-riji II, 79: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-20.berlin-and-vienna
     when: Oct. 20
     date: '1961-10-20'
@@ -2355,18 +2856,68 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Huairen Tang. The enlarged Politburo, the Central Committee members in Peking, Liu Shaoqi presiding: the open attack on Albania aimed at China. Deng Xiaoping reports: not foreseen; the delegation''s greetings answered it (open, one-sided charges against a brother party no help to unity).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 475–478 (Liu''s meeting of Oct. 20 on a conference of brother parties, should Khrushchev ask one; Liu had settled the line with Mao by telephone: resist, never attend; Deng: since the 81-party meeting the CPSU, bound a little by the Statement, calmer in public, not within; before the Congress unnamed attacks on China as expositions of the Programme; Albania attacked for backing China at Bucharest and Moscow, the chicken killed to scare the monkey; another argument unavoidable, in theory first; no conference without Albania; the mass organizations of Asia, Africa and Latin America kept; Liu''s four cases: Albania absent, China absent; Albania and China asked, Sino-Soviet talks first; no agreement in preparing it, oppose it and stay away; held anyway with twenty or thirty parties, stay away and issue a statement; Zhou''s address in answer to Khrushchev needed and measured; the result cabled to the delegation at Moscow). Made public: 1999. Names: Liu Shaoqi, Deng Xiaoping, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 475–478 (Liu''s meeting of Oct. 20 on a conference of brother parties, should Khrushchev ask one; Liu had settled the line with Mao by telephone: resist, never attend; Deng: since the 81-party meeting the CPSU, bound a little by the Statement, calmer in public, not within; before the Congress unnamed attacks on China as expositions of the Programme; Albania attacked for backing China at Bucharest and Moscow, the chicken killed to scare the monkey; another argument unavoidable, in theory first; no conference without Albania; the mass organizations of Asia, Africa and Latin America kept; Liu''s four cases: Albania absent, China absent; Albania and China asked, Sino-Soviet talks first; no agreement in preparing it, oppose it and stay away; held anyway with twenty or thirty parties, stay away and issue a statement; Zhou''s address in answer to Khrushchev needed and measured; the result cabled to the delegation at Moscow); [[w.yang-shangkun-riji]], II, 79 (Oct. 20, 1961; the enlarged Politburo, 3 to 6 p.m., over 100 present; Deng Xiaoping reports the Standing Committee''s line on the Congress). Made public: 1999. Names: Liu Shaoqi, Deng Xiaoping, Mao Zedong.'
     src:
       c: 6f669e17
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 20, 1961: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 475–478: B, C, D'
+        - 'w.yang-shangkun-riji II, 79: A'
     tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
     variants:
       - unit: B
         witness: w.lengxi-shinian-lunzhan-1956-1966
         reads: a small meeting Liu Shaoqi called, on a conference of brother parties should Khrushchev propose one
         at: '475'
+  - id: cal.1961-10-20.china-leadership-2
+    when: Oct. 20
+    date: '1961-10-20'
+    time: 1961-10-20T01:00Z
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆, 9 to 12, chairs the intelligence conference: the Central Investigation Department, Public Security, Foreign Affairs, Military Intelligence, the General Political Department, the Foreign Affairs Office and the Overseas Chinese Commission, on putting intelligence work in order and dividing it among them.'
+    n: '[[w.yang-shangkun-riji]], II, 79 (Oct. 20, 1961). The words: 上午9时到12时 (II, 79). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1762d646
+      rows:
+        - 'w.yang-shangkun-riji II, 79: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-20.china-leadership-3
+    when: Oct. 20
+    date: '1961-10-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: '*Renmin ribao* 人民日报 prints Zhou Enlai''s 周恩来 speech to the CPSU''s Twenty-second Congress in full.'
+    n: '[[w.yang-shangkun-riji]], II, 79 (Oct. 20, 1961). See [[cal.1961-10-19.china-leadership-2]]. Names: Zhou Enlai.'
+    src:
+      c: a94f71a8
+      rows:
+        - 'w.yang-shangkun-riji II, 79: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1961-10-20.china-leadership-4
+    when: Oct. 20
+    date: '1961-10-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow, the Congress's noon recess. Khrushchev 赫鲁晓夫 and others give the Chinese delegation lunch, two hours, no politics.
+    n: '[[w.yang-shangkun-riji]], II, 80 (Oct. 20, 1961; as the delegation reports it: Zhou''s speech of the 19th warmly received, even the passage against Khrushchev applauded, but not from the platform; Khrushchev tense). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev.'
+    src:
+      c: ea260329
+      rows:
+        - 'w.yang-shangkun-riji II, 80: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr]
+  - id: cal.1961-10-20.china-leadership-5
+    when: Oct. 20
+    date: '1961-10-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The Albanian Party''s Central Committee issues a statement: Khrushchev 赫鲁晓夫 and his group have slandered it openly; it will expose the truth from facts and documents.'
+    n: '[[w.yang-shangkun-riji]], II, 80 (Oct. 20, 1961). Names: Khrushchev.'
+    src:
+      c: 7df1669f
+      rows:
+        - 'w.yang-shangkun-riji II, 80: all'
+    tags: [polity:prc, name:khrushchev-nikita-s]
   - id: cal.1961-10-21.defense
     when: Oct. 21
     date: '1961-10-21'
@@ -2392,7 +2943,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Standing Committee, Mao presiding: whether to print the Albanian Central Committee''s statement; wait, and ask the delegation, which agrees. Mao: Copernicus, Galileo, the bourgeois revolutions of France, Holland and Belgium were isolated at first.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 21, 1961. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 21, 1961. [[w.yang-shangkun-riji]], II, 80 (Oct. 21, 1961; at Mao''s, 6 to 8 p.m.; to wait, and cable the delegation, which agrees to wait some days). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 80) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong.'
+    src:
+      c: c301e3de
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 21, 1961: all'
+        - 'w.yang-shangkun-riji II, 80: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-10-21.china-leadership-2
     when: Oct. 21
@@ -2426,6 +2982,22 @@ entries:
       - 1961-10-21T15:00Z
     time_band: afternoon
     time_zone: Europe/Moscow
+  - id: cal.1961-10-21.china-leadership-4
+    when: Oct. 21
+    date: '1961-10-21'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃, Zeng San 曾三, Liu Huo 刘火 and Li Jian 李鉴 on preparing the central organs' Party congress.
+    n: '[[w.yang-shangkun-riji]], II, 80 (Oct. 21, 1961; note 1). The words: 上午 (II, 80). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao, Zeng San, Liu Huo, Li Jian.'
+    src:
+      c: 425b3f01
+      rows:
+        - 'w.yang-shangkun-riji II, 80: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-20T22:00Z
+      - 1961-10-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-22.berlin-and-vienna
     when: Oct. 22
     date: '1961-10-22'
@@ -2456,13 +3028,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai and the Chinese delegation talk over nine hours with the CPSU Presidium's Khrushchev, Kozlov, Mikoyan, Andropov and others, setting out the Chinese Party's position on Soviet–Albanian relations, the 20th Congress, the appraisal of Stalin and the anti-Party group.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午2时, 莫斯科郊外苏联政府别墅, 午餐); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午4时30分, 至晚11时, 与赫鲁晓夫为首的苏共领导人会谈, 并共进晚餐); [[w.lengxi-shinian-lunzhan-1956-1966]], 473–474 (Zhou rebukes Khrushchev for the open attack on Albania in his report, and its steps: the Warsaw Treaty resolution of March, the Vlora withdrawal of May, the refusal of the Albanian delegate in August; Mao''s talks on Stalin with Mikoyan in April 1956 and Yudin in October and November 1956, Liu''s and Zhou''s with Khrushchev in October–December 1956, the two *Renmin ribao* articles; Khrushchev refuses, says China backs the anti-party group, he will back the anti-party in the Chinese Party, "now we are strong, we go our own way"; no conference of brother parties raised). Made public: 1993. Names: Zhou Enlai, Khrushchev, Kozlov, Mikoyan, Andropov.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午2时, 莫斯科郊外苏联政府别墅, 午餐); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 22, 1961; 下午4时30分, 至晚11时, 与赫鲁晓夫为首的苏共领导人会谈, 并共进晚餐); [[w.lengxi-shinian-lunzhan-1956-1966]], 473–474 (Zhou rebukes Khrushchev for the open attack on Albania in his report, and its steps: the Warsaw Treaty resolution of March, the Vlora withdrawal of May, the refusal of the Albanian delegate in August; Mao''s talks on Stalin with Mikoyan in April 1956 and Yudin in October and November 1956, Liu''s and Zhou''s with Khrushchev in October–December 1956, the two *Renmin ribao* articles; Khrushchev refuses, says China backs the anti-party group, he will back the anti-party in the Chinese Party, "now we are strong, we go our own way"; no conference of brother parties raised); [[w.yang-shangkun-riji]], II, 80 (Oct. 22, 1961; as the delegation cables: 2 to 11 p.m., nine hours; Zhou to report in person; to leave Moscow the 23rd). Made public: 1993. Names: Zhou Enlai, Khrushchev, Kozlov, Mikoyan, Andropov.'
     src:
       c: c911c3ac
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
         - 'w.zhou-enlai-waijiao-huodong 326: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 473–474: A'
+        - 'w.yang-shangkun-riji II, 80: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s, name:kozlov-frol-r, name:mikoyan-anastas, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
     time_zone: Europe/Moscow
     variants:
@@ -2487,12 +3060,13 @@ entries:
     date: '1961-10-22'
     thread: china-leadership
     c: 'Morning. Mao to Yang Shangkun: Yang to draft a Center directive forwarding the Nangong county experience the Hebei committee has sent (the Xingtai prefectural committee''s circular of Oct. 6 on carrying out the "big contract"), and send it to Mao.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 155–156 (Oct. 22, 1961). Made public: 2023. To check: the circular of Oct. 6 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 156 n.2). Names: Mao Zedong, Yang Shangkun. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 155–156 (Oct. 22, 1961); [[w.yang-shangkun-riji]], II, 80 (Oct. 22, 1961; Mao has Yang forward a telegram; Yang, giving up the evening''s film, does it and sends it to Mao). Made public: 2023. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 80) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. To check: the circular of Oct. 6 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 156 n.2). Names: Mao Zedong, Yang Shangkun. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
     src:
       c: 7fdbae67
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 155–156: all'
         - 'via x.1961-10-06.xingtai-prefectural-committee-circular-on-nangong-county-and-the-big-contract: all'
+        - 'w.yang-shangkun-riji II, 80: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-10-23.cuba
     when: Oct. 23
@@ -2585,12 +3159,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai leaves Moscow for home in the evening; Peng Zhen acts as head of the delegation and stays on at the Congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 23, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 23, 1961; 晚8时, 乘专机离莫斯科回国). Made public: 1993. Names: Zhou Enlai, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 23, 1961); [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 23, 1961; 晚8时, 乘专机离莫斯科回国); [[w.yang-shangkun-riji]], II, 81 (Oct. 23, 1961; Zhou leaves Moscow at 9 p.m., Moscow time, as Moscow telephones). Made public: 1993. Names: Zhou Enlai, Peng Zhen.'
     src:
       c: 4271bec4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
         - 'w.zhou-enlai-waijiao-huodong 326: A'
+        - 'w.yang-shangkun-riji II, 81: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:peng-zhen, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1961-10-23.china-leadership-2
@@ -2598,11 +3173,12 @@ entries:
     date: '1961-10-23'
     thread: china-leadership
     c: 'Mao, on Yang Shangkun''s draft of the Center''s directive forwarding the Xingtai prefectural committee''s circular on Nangong county: Liu Shaoqi and Deng Xiaoping to read it, then Yang to send it by telegram.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 155–156 (Oct. 23, 1961). See [[cal.1961-10-22.china-leadership-3]]. Made public: 2023. To check: Yang Shangkun''s draft directive of Oct. 23, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 156 n.3). Names: Mao Zedong, Yang Shangkun, Liu Shaoqi, Deng Xiaoping. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 155–156 (Oct. 23, 1961); [[w.yang-shangkun-riji]], II, 81 (Oct. 23, 1961; Yang''s draft of the 22nd returned from Mao''s, to go out as it stands). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 81) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. See [[cal.1961-10-22.china-leadership-3]]. Made public: 2023. To check: Yang Shangkun''s draft directive of Oct. 23, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 156 n.3). Names: Mao Zedong, Yang Shangkun, Liu Shaoqi, Deng Xiaoping. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
     src:
       c: 441178f0
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 155–156: all'
+        - 'w.yang-shangkun-riji II, 81: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-10-23.china-leadership-3
     when: Oct. 23
@@ -2616,6 +3192,52 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 156 nn.2–3: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-10-23.china-leadership-4
+    when: Oct. 23
+    date: '1961-10-23'
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆 at Peng Dehuai''s 彭德怀, till 12: Peng has asked to go down to Hunan 湖南 to look at the villages; Mao 毛泽东 and the Standing Committee agree, and send Yang to talk with him.'
+    n: '[[w.yang-shangkun-riji]], II, 81 (Oct. 23, 1961; note 1: Peng, formerly of the Politburo and Minister of Defense, wrongly condemned at Lushan in 1959, rehabilitated 1978). The words: 上午 (II, 81). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Dehuai, Mao Zedong.'
+    src:
+      c: 943602a3
+      rows:
+        - 'w.yang-shangkun-riji II, 81: all'
+    tags: [polity:prc, name:peng-dehuai, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-10-22T22:00Z
+      - 1961-10-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-23.china-leadership-5
+    when: Oct. 23
+    date: '1961-10-23'
+    time: 1961-10-23T07:30Z
+    thread: china-leadership
+    c: 'The Secretariat, Deng Xiaoping 邓小平 presiding, 3:30 to 6 p.m., receives the Youth League''s work conference: photographs, a speech, and the Twenty-second Congress explained.'
+    n: '[[w.yang-shangkun-riji]], II, 81 (Oct. 23, 1961). The words: 下午3时半到6时 (II, 81). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: ceec9927
+      rows:
+        - 'w.yang-shangkun-riji II, 81: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-23.china-leadership-6
+    when: Oct. 23
+    date: '1961-10-23'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 begins reading the full text of Khrushchev's 赫鲁晓夫 report.
+    n: '[[w.yang-shangkun-riji]], II, 81 (Oct. 23, 1961). The words: 晚间 (II, 81). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Khrushchev.'
+    src:
+      c: f8695048
+      rows:
+        - 'w.yang-shangkun-riji II, 81: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1961-10-23T11:00Z
+      - 1961-10-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-24.cuba
     when: Oct. 24
     date: '1961-10-24'
@@ -2699,7 +3321,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao, Liu Shaoqi, Zhu De and Deng Xiaoping meet Zhou Enlai at the airport, back from Moscow; at the Yinian Tang the Politburo and the Secretariat in Peking hear him on the Twenty-second Congress and the delegation's talk with Khrushchev and others, Oct. 22. The Albanian statement to be printed.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 22, 1961 (the nine-hour talk of Oct. 22). [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 24, 1961 (Zhou met at the airport). [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 24, 1961; 中午, 回到北京; Mao Zedong, Liu Shaoqi, Zhu De and Deng Xiaoping at the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 478 (Mao, with Zhou, Liu and Deng, to the Yinian Tang for Zhou''s account of the talks with Khrushchev; Zhou: at the Congress over forty delegation heads followed Khrushchev against Albania, thirty-two did not; Khrushchev refused China''s criticism, but without strength; Wu was not at the meeting); [[w.macfarquhar-origins-of-the-cultural]], III, 128–129 (Mao at the airport on Zhou''s return); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Oct. 24, 1961; Liu, with Mao, Zhu De and Deng Xiaoping, meets Zhou Enlai at the airport, back from the CPSU''s 22nd Congress, which he left early). Made public: 1993. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 129 n.57a); [[w.renmin-shouce-peoples-handbook]], 3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 129 n.57b). Names: Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Zhou Enlai, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 22, 1961 (the nine-hour talk of Oct. 22). [[w.zhou-enlai-nianpu-1949]], II, 441, Oct. 24, 1961 (Zhou met at the airport). [[w.zhou-enlai-waijiao-huodong]], 326 (Oct. 24, 1961; 中午, 回到北京; Mao Zedong, Liu Shaoqi, Zhu De and Deng Xiaoping at the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 478 (Mao, with Zhou, Liu and Deng, to the Yinian Tang for Zhou''s account of the talks with Khrushchev; Zhou: at the Congress over forty delegation heads followed Khrushchev against Albania, thirty-two did not; Khrushchev refused China''s criticism, but without strength; Wu was not at the meeting); [[w.macfarquhar-origins-of-the-cultural]], III, 128–129 (Mao at the airport on Zhou''s return); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Oct. 24, 1961; Liu, with Mao, Zhu De and Deng Xiaoping, meets Zhou Enlai at the airport, back from the CPSU''s 22nd Congress, which he left early); [[w.yang-shangkun-riji]], II, 81–82 (Oct. 24, 1961; Zhou down at 12:30, met by Mao, Liu Shaoqi, Deng Xiaoping, Zhu De and others; Yang: Mao''s meeting him "a political act," for the revisionists to see; straight to the Yinian Tang, the Politburo and Secretariat members in Peking, Zhou on the Congress and the talk of Oct. 22, to 4 p.m.; the Albanian statement to be published). Made public: 1993. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 129 n.57a); [[w.renmin-shouce-peoples-handbook]], 3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 129 n.57b). Names: Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping, Zhou Enlai, Khrushchev.'
     src:
       c: c4641f8c
       rows:
@@ -2712,11 +3334,25 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 129 n.57a: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 129 n.57b: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 543: ?'
+        - 'w.yang-shangkun-riji II, 81–82: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
     time_range:
       - 1961-10-24T04:00Z
       - 1961-10-24T06:00Z
     time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-24.china-leadership-3
+    when: Oct. 24
+    date: '1961-10-24'
+    time: 1961-10-24T01:00Z
+    thread: china-leadership
+    c: 'The Secretariat, 9 to 11: a report on timber; the seven-year plan raised, the Planning Commission and the ministries to give their views to the Center by the end of November.'
+    n: '[[w.yang-shangkun-riji]], II, 81 (Oct. 24, 1961). The words: 上午9时到11时 (II, 81). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: fe02ff43
+      rows:
+        - 'w.yang-shangkun-riji II, 81: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-10-25.latin-america
     when: Oct. 25
@@ -2774,12 +3410,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai talks with Wu Lengxi. On the 26th *Renmin ribao* prints documents from *Pravda* and from Albania's papers on Soviet–Albanian relations at the Congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 25, 1961); [[w.lengxi-shinian-lunzhan-1956-1966]], 478–479 (Zhou, in his office, tells Wu of the plan settled at the Yinian Tang: *Renmin ribao* to print together the Soviet and Albanian papers'' documents on Soviet–Albanian relations at the Congress; Wu does so). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 441 (Oct. 25, 1961); [[w.lengxi-shinian-lunzhan-1956-1966]], 478–479 (Zhou, in his office, tells Wu of the plan settled at the Yinian Tang: *Renmin ribao* to print together the Soviet and Albanian papers'' documents on Soviet–Albanian relations at the Congress; Wu does so); [[w.yang-shangkun-riji]], II, 82 (Oct. 26, 1961; *Renmin ribao*, p. 5: the Albanian statement and the Soviet comrades'' attacks on the Albanian party, all in extract). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 141e45cd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 441: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 478–479: A, B'
+        - 'w.yang-shangkun-riji II, 82: B'
     tags: [polity:prc, polity:ussr, polity:albania, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-10-25.china-leadership-2
     when: Oct. 25
@@ -2789,6 +3426,66 @@ entries:
     c: 'Liu Shaoqi hears Tan Zhenlin, a vice-premier, and Luo Yuchuan, Zhang Zhao and Liang Changwu of the Ministry of Forestry on the Northeast and Inner Mongolia forestry work conference held in Peking. He proposes: wages in the forest areas are high, so some goods are to be sent in, and schools and other welfare run, to settle people; a three-year period of no purchase quota may be tried, to encourage family sidelines in the forest areas; order in the forest areas is poor and is to be set right; forestry production is to raise mechanization, and renewal of machines is a long-range policy.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Oct. 25, 1961). Made public: 1996. Names: Liu Shaoqi, Tan Zhenlin.'
     tags: [polity:prc, name:liu-shaoqi, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1961-10-25.china-leadership-3
+    when: Oct. 25
+    date: '1961-10-25'
+    time: 1961-10-25T02:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Secretariat, 10 a.m., hears the Propaganda and Organization Departments; decides to publish the Albanian Party's statement next day, and *Renmin ribao's* 人民日报 layout.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 25, 1961). The words: 上午10时 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 64b21cd1
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-25.china-leadership-4
+    when: Oct. 25
+    date: '1961-10-25'
+    time: 1961-10-25T12:00Z
+    thread: china-leadership
+    c: Peng Dehuai 彭德怀 calls on Yang Shangkun 杨尚昆, 8 to 10 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 25, 1961). The words: 8时 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Dehuai, Yang Shangkun.'
+    src:
+      c: 520e4259
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-25.china-leadership-5
+    when: Oct. 25
+    date: '1961-10-25'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 reports to Mao 毛泽东 in writing on his talk with Peng Dehuai 彭德怀 of Monday morning.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 25, 1961). The words: 由8时谈到10时才走 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-10-23.china-leadership-4]]. Names: Yang Shangkun, Mao Zedong, Peng Dehuai.'
+    src:
+      c: 11e239ad
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]
+    time_range:
+      - 1961-10-25T14:00Z
+      - 1961-10-25T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-25.china-leadership-6
+    when: Oct. 25
+    date: '1961-10-25'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 drafts a long telegram to the Albanian Party's Central Committee with the main points of Zhou Enlai's 周恩来 talk with Khrushchev 赫鲁晓夫, and sends it to Deng Xiaoping 邓小平.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 25, 1961). The words: 由8时谈到10时才走 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai, Khrushchev, Deng Xiaoping.'
+    src:
+      c: 9760329c
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1961-10-25T14:00Z
+      - 1961-10-25T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-26.europe-and-the-alliance-turkey
     when: Oct. 26
     date: '1961-10-26'
@@ -2918,6 +3615,49 @@ entries:
         - 'w.reeves-president-kennedy 270–271: all'
         - 'via w.reeves-president-kennedy 270 n.it-is-anticipated-that-forced: all'
     tags: [name:sorensen-theodore-c]
+  - id: cal.1961-10-26.china-leadership
+    when: Oct. 26
+    date: '1961-10-26'
+    time: 1961-10-26T01:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆, 9:30 to 11:30, speaks to the General Office's cadres on Albania and the Twenty-second Congress.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 26, 1961). The words: 上午9时半到11时半 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 83f05a88
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-26.china-leadership-2
+    when: Oct. 26
+    date: '1961-10-26'
+    time: 1961-10-26T03:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 11:30 a.m., sends Jin Shi 金石 with Peng Dehuai 彭德怀 to Hunan 湖南.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 26, 1961; note 1: Jin, of the General Office''s general group). The words: 11时半 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Jin Shi, Peng Dehuai.'
+    src:
+      c: 140edd63
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-26.china-leadership-3
+    when: Oct. 26
+    date: '1961-10-26'
+    thread: china-leadership
+    c: Xu Bing 徐冰 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 82 (Oct. 26, 1961). The words: 下午 (II, 82). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xu Bing, Yang Shangkun.'
+    src:
+      c: 464b5fbb
+      rows:
+        - 'w.yang-shangkun-riji II, 82: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-26T04:00Z
+      - 1961-10-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-27.berlin-and-vienna
     when: Oct. 27–28
     date: '1961-10-27'
@@ -3070,6 +3810,49 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 129 n.58a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 129 n.58b: all'
     tags: [polity:ussr, polity:albania, name:khrushchev-nikita-s, name:zhou-enlai]
+  - id: cal.1961-10-27.china-leadership
+    when: Oct. 27
+    date: '1961-10-27'
+    time: 1961-10-27T02:00Z
+    thread: china-leadership
+    c: 'The Secretariat, 10 to 12, on the first draft of the government''s work report: to be rewritten.'
+    n: '[[w.yang-shangkun-riji]], II, 83 (Oct. 27, 1961). The words: 上午10时到12时 (II, 83). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 6924c521
+      rows:
+        - 'w.yang-shangkun-riji II, 83: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-27.china-leadership-2
+    when: Oct. 27
+    date: '1961-10-27'
+    time: 1961-10-27T05:30Z
+    thread: china-leadership
+    also: [japan]
+    c: The Eastern Suburb airport 东郊机场, 1:30 p.m. Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆 meet Miyamoto Kenji 宫本显治 of the Japan Communist Party.
+    n: '[[w.yang-shangkun-riji]], II, 83 (Oct. 27, 1961). The words: 下午1时半 (II, 83). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Miyamoto Kenji.'
+    src:
+      c: 32e88413
+      rows:
+        - 'w.yang-shangkun-riji II, 83: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+japan]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-27.china-leadership-3
+    when: Oct. 27
+    date: '1961-10-27'
+    thread: china-leadership
+    c: Qian Ying 钱瑛, then Li Boren 李波人, come to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 83 (Oct. 27, 1961). The words: 下午 (II, 83). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qian Ying, Li Boren, Yang Shangkun.'
+    src:
+      c: 498b5588
+      rows:
+        - 'w.yang-shangkun-riji II, 83: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-27T04:00Z
+      - 1961-10-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-28.berlin-and-vienna
     when: Oct. 28
     date: '1961-10-28'
@@ -3111,8 +3894,24 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Deng Xiaoping, meets Miyamoto Kenji, general secretary of the Japanese Communist Party.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Oct. 28, 1961). Names: Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Oct. 28, 1961); [[w.yang-shangkun-riji]], II, 83 (Oct. 28, 1961; the West Building, 4 to 8 p.m.: Liu receives Miyamoto and Ansai Kuraji (note 1), three hours'' talk, then dinner). Names: Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: bfa1bf0b
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 543: ?'
+        - 'w.yang-shangkun-riji II, 83: A'
     tags: [polity:prc, polity:japan, name:liu-shaoqi, name:deng-xiaoping]
+  - id: cal.1961-10-28.china-leadership-2
+    when: Oct. 28
+    date: '1961-10-28'
+    thread: china-leadership
+    c: At the pool, Mao 毛泽东 gives Yang Shangkun 杨尚昆 a batch of documents to handle; Yang reports to him on Peng Dehuai 彭德怀.
+    n: '[[w.yang-shangkun-riji]], II, 83 (Oct. 28, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun, Peng Dehuai.'
+    src:
+      c: 03ce13a7
+      rows:
+        - 'w.yang-shangkun-riji II, 83: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]
   - id: cal.1961-10-29.opinion
     when: Oct. 29
     date: '1961-10-29'
@@ -3182,6 +3981,33 @@ entries:
     c: 'Kerr''s ranch, as the President and his party leave. Kerr to Albert, of Kennedy and Medicare: "He thinks he can beat me on this, but I''m gonna beat him." By Albert''s account.'
     n: '[[w.albert-little-giant-1990]], 268. Check: the day: the work has Kennedy spend the night at the ranch after Big Cedar and gives no day for his leaving. See [[cal.1961-10-29.medicare]]. Names: Kerr, Kennedy, Albert.'
     tags: [name:kerr-robert-s, name:kennedy-john-f, name:albert-carl, state:ok]
+  - id: cal.1961-10-29.china-leadership
+    when: Oct. 29
+    date: '1961-10-29'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Tan Zhenlin 谭震林 and Cao Youmin 曹幼民 on the documents Mao 毛泽东 has handed him.
+    n: '[[w.yang-shangkun-riji]], II, 83 (Oct. 29, 1961; note 2: Cao, head of the General Office''s rural group). The words: 上午 (II, 83). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-10-28.china-leadership-2]]. Names: Yang Shangkun, Tan Zhenlin, Cao Youmin, Mao Zedong.'
+    src:
+      c: 172a3797
+      rows:
+        - 'w.yang-shangkun-riji II, 83: all'
+    tags: [polity:prc, name:tan-zhenlin, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-10-28T22:00Z
+      - 1961-10-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-29.china-leadership-2
+    when: Oct. 29
+    date: '1961-10-29'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 comes to Yang Shangkun 杨尚昆 on the draft directive telegram.
+    n: '[[w.yang-shangkun-riji]], II, 83 (Oct. 29, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 2c97765b
+      rows:
+        - 'w.yang-shangkun-riji II, 83: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-10-30.testing
     when: Oct. 30
     date: '1961-10-30'
@@ -3256,25 +4082,88 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Diaoyutai, Building 12. The Standing Committee, Mao presiding, on the delegation''s request: to the congress''s open charges against Albania a silent protest, no articles; the regional first secretaries to meet Nov. 4.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 30, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 480 (Peng Zhen, acting head of the delegation, home Oct. 30, reports to the Standing Committee; some analysis of the Congress, no detailed talk, the Center being busy preparing the Central Work Conference). Made public: 1999. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 30, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 480 (Peng Zhen, acting head of the delegation, home Oct. 30, reports to the Standing Committee; some analysis of the Congress, no detailed talk, the Center being busy preparing the Central Work Conference); [[w.yang-shangkun-riji]], II, 84 (Oct. 30, 1961; the Standing Committee at Diaoyutai, 10 p.m.: a silent protest, no articles; the regional bureaus'' secretaries to meet Nov. 4). Made public: 1999. Names: Mao Zedong.'
     src:
       c: 3b51240f
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 30, 1961: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 480: B'
+        - 'w.yang-shangkun-riji II, 84: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-10-30.china-leadership-2
     when: Oct. 30
     date: '1961-10-30'
     thread: china-leadership
     c: 'Mao passes Yang Shangkun''s draft of the Center''s points on rural work: the team as the basic accounting unit by inquiry and trial only, as the directive of Oct. 7 said, not yet general; the "big contract" in distribution first tried in most places; the autumn and year-end distribution as planned.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 30, 1961. [[w.jianguo-yilai-mao-zedong]], XVI, 157–158 (Oct. 30, 1961; Mao''s two notes on Yang Shangkun''s draft, to go to Liu, Zhou, Zhu, Chen, Lin and Deng and then to Yang to issue; the draft''s text on trial only; four papers enclosed). See [[cal.1961-10-07.china-leadership]]. Made public: 2013. Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 30, 1961. [[w.jianguo-yilai-mao-zedong]], XVI, 157–158 (Oct. 30, 1961; Mao''s two notes on Yang Shangkun''s draft, to go to Liu, Zhou, Zhu, Chen, Lin and Deng and then to Yang to issue; the draft''s text on trial only; four papers enclosed); [[w.yang-shangkun-riji]], II, 84 (Oct. 30, 1961; Yang''s fair copy of the draft telegram, with a note, sent to Mao). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 84) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. See [[cal.1961-10-07.china-leadership]]. Made public: 2013. Names: Mao Zedong, Yang Shangkun.'
     src:
       c: bacd238d
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 30, 1961: all'
         - 'w.jianguo-yilai-mao-zedong XVI, 157–158: A'
+        - 'w.yang-shangkun-riji II, 84: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-10-30.china-leadership-3
+    when: Oct. 30
+    date: '1961-10-30'
+    time: 1961-10-29T22:30Z
+    thread: china-leadership
+    also: [japan]
+    c: The Eastern Suburb airport 东郊机场. Yang Shangkun 杨尚昆 sees Miyamoto Kenji 宫本显治 off home.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 30, 1961). The words: 6时半 (II, 84). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Miyamoto Kenji.'
+    src:
+      c: 016c67ab
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, vis:only:prc+japan]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-30.china-leadership-4
+    when: Oct. 30
+    date: '1961-10-30'
+    time: 1961-10-30T01:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Secretariat, 9 a.m., on the delegation's requests.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 30, 1961). The words: 9时 (II, 84). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 05196f24
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-30.china-leadership-5
+    when: Oct. 30
+    date: '1961-10-30'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 reads Khrushchev's 赫鲁晓夫 summing-up at the Twenty-second Congress, "most vile"; the Congress has decided to move Stalin's body from the Lenin Mausoleum; the delegation to return next night.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 30, 1961). The words: 下午 (II, 84). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Khrushchev.'
+    src:
+      c: 8da5d228
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1961-10-30T04:00Z
+      - 1961-10-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-30.china-leadership-6
+    when: Oct. 30
+    date: '1961-10-30'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 talks with Zhang Xiangshan 张香山 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 30, 1961; note 1: Zhang, deputy secretary-general of the International Liaison Department). The words: 办公、看文件到2时，与张香山通了电话后，睡已3时了 (II, 84). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhang Xiangshan.'
+    src:
+      c: c01c9812
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-30T18:00Z
+      - 1961-10-30T19:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
   - id: cal.1961-10-31.soviet-union
     when: Oct. 31
     date: '1961-10-31'
@@ -3722,3 +4611,91 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 84 n.69a: C-D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 84 n.69b: C-D'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1961-10-31.china-leadership
+    when: Oct. 31
+    date: '1961-10-31'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Ke Qingshi 柯庆施, Li Xuefeng 李雪峰, Song Renqiong 宋任穷 and others to come to Peking on the 4th; Liu Lantao 刘澜涛, at length, that night.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 31, 1961; note 2). The words: 上午；与澜涛同志是夜间打通电话的 (II, 84). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ke Qingshi, Li Xuefeng, Song Renqiong, Liu Lantao.'
+    src:
+      c: f0cd2aac
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1961-10-30T22:00Z
+      - 1961-10-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-31.china-leadership-2
+    when: Oct. 31
+    date: '1961-10-31'
+    thread: china-leadership
+    c: The meeting of the heads of the first batch of rotation training, organized by the Party committees of the central and state organs, over 100; Zhang Ziyi 张子意 and Yang Shangkun 杨尚昆 speak.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 31, 1961; note 3: Zhang, a deputy head of the Propaganda Department). The words: 下午 (II, 84). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Ziyi, Yang Shangkun.'
+    src:
+      c: c3177530
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-10-31T04:00Z
+      - 1961-10-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-10-31.china-leadership-3
+    when: Oct. 31
+    date: '1961-10-31'
+    thread: china-leadership
+    also: [soviet-union]
+    c: '*Renmin ribao* 人民日报 prints the Twenty-second Congress''s decision to move Stalin''s body from Red Square.'
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 31, 1961; note 4). See [[cal.1961-10-31.soviet-union]].'
+    src:
+      c: 77ccf042
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc]
+  - id: cal.1961-10-31.china-leadership-4
+    when: Oct. 31
+    date: '1961-10-31'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1961-10-31.china-leadership-3
+    c: Peking. Workers, students and cadres, angered at the removal of Stalin's body, want to go in groups to protest at the Soviet Embassy; the organs concerned talk them out of it.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 31, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: ff07f980
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-10-31.china-leadership-5
+    when: Oct. 31
+    date: '1961-10-31'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1961-10-31.china-leadership-4
+    c: Yang Shangkun 杨尚昆 confers with Xie Fuzhi 谢富治 on the protests against the removal of Stalin's body, and has the city committee told by telephone to watch them.
+    n: '[[w.yang-shangkun-riji]], II, 84 (Oct. 31, 1961; note 5: Xie, Minister of Public Security). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Xie Fuzhi.'
+    src:
+      c: eecbc52c
+      rows:
+        - 'w.yang-shangkun-riji II, 84: all'
+    tags: [polity:prc, name:xie-fuzhi, vis:only:prc]
+  - id: cal.1961-10-31.china-leadership-6
+    when: Oct. 31
+    date: '1961-10-31'
+    thread: china-leadership
+    c: The draft telegram Yang Shangkun 杨尚昆 sent Mao 毛泽东, read round the Standing Committee, goes out that evening.
+    n: '[[w.yang-shangkun-riji]], II, 85 (Oct. 31, 1961). The words: 今天晚间 (II, 85). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-10-30.china-leadership-2]]. Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: 0e5b36b3
+      rows:
+        - 'w.yang-shangkun-riji II, 85: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-10-31T11:00Z
+      - 1961-10-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

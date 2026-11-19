@@ -142,7 +142,12 @@ entries:
     thread: china-leadership
     also: [economy]
     c: At the Secretariat on sending cadres down and cutting the town population; also on putting industrial enterprises in order and rotating cadres through training.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 421 (July 3, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 421 (July 3, 1961); [[w.yang-shangkun-riji]], II, 47 (July 3, 1961; the Secretariat, 3 to 7 p.m., on cutting staff, as Li Fuchun proposes). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: fa43fd89
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 421: ?'
+        - 'w.yang-shangkun-riji II, 47: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-07-03.china-leadership-2
     when: July 3
@@ -171,6 +176,77 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 199: all'
     tags: [polity:prc, polity:laos, polity:ussr, polity:poland, polity:drv, name:chen-yi]
+  - id: cal.1961-07-03.china-leadership-4
+    when: July 3
+    date: '1961-07-03'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 talks with Deng Diantao 邓典桃.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 3, 1961). The words: 上午 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
+    src:
+      c: b88eaca2
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-02T22:00Z
+      - 1961-07-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-03.china-leadership-5
+    when: July 3
+    date: '1961-07-03'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peng Zhen 彭真 and Yang Shangkun 杨尚昆 receive the Soviet Ambassador, who hands them the CPSU Central Committee's telegram asking that Chen Yi 陈毅, passing through Moscow 莫斯科, stop a day or two to exchange views on international questions, France and Laos among them.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 3, 1961; note 1: M, Moscow). The words: 晚间 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Chen Yi.'
+    src:
+      c: ad93af5b
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, name:peng-zhen, name:chen-yi, vis:only:prc+ussr]
+    time_range:
+      - 1961-07-03T11:00Z
+      - 1961-07-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-03.china-leadership-6
+    when: July 3
+    date: '1961-07-03'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1961-07-03.china-leadership-5
+    c: Peng Zhen 彭真 asks Zhou Enlai 周恩来 and Mao 毛泽东, who agree to the CPSU's request.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 3, 1961; note 2: 周, Zhou Enlai). The words: 办完这些事已经2时半了 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-03.china-leadership-5]]. See [[cal.1961-06-25.china-leadership-2]]. Names: Peng Zhen, Zhou Enlai, Mao Zedong.'
+    src:
+      c: d7102540
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-07-03T14:00Z
+      - 1961-07-03T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-03.china-leadership-7
+    when: July 3
+    date: '1961-07-03'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1961-07-03.china-leadership-6
+    c: A telegram to Chen Yi 陈毅 drafted on the CPSU's request; the work done by 2:30 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 3, 1961). The words: 草拟了一个电报告陈，办完这些事已经2时半了 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi.'
+    src:
+      c: 121667c5
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1961-07-03T14:00Z
+      - 1961-07-03T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-04.vietnam-hanoi
     when: July 4
     date: '1961-07-04'
@@ -213,6 +289,51 @@ entries:
       - 1961-07-04T11:00Z
       - 1961-07-04T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-04.china-leadership-3
+    when: July 4
+    date: '1961-07-04'
+    time: 1961-07-04T07:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 3 to 5 p.m., calls on Li Kenong 李克农 and talks with him of his work.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 4, 1961). The words: 下午3时到5时 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Kenong.'
+    src:
+      c: f4bd4ab8
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-04.china-leadership-4
+    when: July 4
+    date: '1961-07-04'
+    thread: china-leadership
+    c: An Ziwen 安子文 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 4, 1961). The words: 下午3时到5时 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen, Yang Shangkun.'
+    src:
+      c: 52ff332c
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-04T04:00Z
+      - 1961-07-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-04.china-leadership-5
+    when: July 4
+    date: '1961-07-04'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 and Chai Mo 柴沫 tell Yang Shangkun 杨尚昆 of Tianjin 天津, till 2 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 4, 1961; note 3: Chai, secretary-general of the Center''s Political Research Office; their group''s industrial inquiry at Tianjin). The words: 晚间……谈到2时才完 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Chai Mo, Yang Shangkun.'
+    src:
+      c: '45074795'
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-04T14:00Z
+      - 1961-07-04T16:00Z
+    time_band: night
     time_zone: Asia/Shanghai
   - id: cal.1961-07-05.opinion
     when: July 5
@@ -343,6 +464,54 @@ entries:
       - 1961-07-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-07-05.china-leadership-4
+    when: July 5
+    date: '1961-07-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃, Zeng San 曾三 and Liu Huo 刘火 on simplifying the central organs, for a meeting on Friday.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 5, 1961). The words: 上午 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao, Zeng San, Liu Huo.'
+    src:
+      c: cfc74144
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-04T22:00Z
+      - 1961-07-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-05.china-leadership-5
+    when: July 5
+    date: '1961-07-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the mass bodies' work, and with Li Boren 李波人 on the political and legal departments; Wang Dongxing 汪东兴 comes to talk.
+    n: '[[w.yang-shangkun-riji]], II, 47 (July 5, 1961). The words: 下午 (II, 47). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Li Boren, Wang Dongxing.'
+    src:
+      c: 7ab820c5
+      rows:
+        - 'w.yang-shangkun-riji II, 47: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-05T04:00Z
+      - 1961-07-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-05.china-leadership-6
+    when: July 5
+    date: '1961-07-05'
+    thread: china-leadership
+    c: Kong Yuan 孔原 calls; Yang Shangkun 杨尚昆 tells him of the talk with Li Kenong 李克农.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 5, 1961). The words: 晚间 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-04.china-leadership-3]]. Names: Kong Yuan, Yang Shangkun, Li Kenong.'
+    src:
+      c: 28939ed7
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-05T11:00Z
+      - 1961-07-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-06.berlin-and-vienna
     when: July 6
     date: '1961-07-06'
@@ -385,7 +554,7 @@ entries:
     thread: china-leadership
     also: [defense]
     c: At the Politburo, which takes up the "Fourteen points on the present work of natural science research organs (draft)" drawn up under Nie Rongzhen, Zhou Enlai says it may go to the finance, culture and education systems too; tell the cadres that if the Party serves scientists well, scientists serve socialism well. The Center issues it July 19.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 422 (July 6, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 98–99 (the Politburo hears Nie Rongzhen and Zhang Jingfu on the Fourteen Articles on Science: Liu, Zhou, Deng, Kang Sheng, Peng Zhen and Li Fuchun speak; Mao absent); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528 (July 6, 1961; Liu presides at the Politburo meeting, which discusses and in the main passes Nie Rongzhen''s request report on several policy questions in current natural-science work and the National Science Commission Party group''s and Academy of Sciences Party group''s "Fourteen opinions on the present work of natural-science research bodies (draft)"; Liu in his summing up: a good document; the problem is that the work is biased and must be admitted; the Party''s leadership position in science is good, but there is a bias of blind command; "when there is a bias, correct it"; the Center issues both July 19). Made public: 1996. To check: [[w.rongzhen-inside-the-red-star]], 715–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 98 n.54); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 986 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 99 n.60). Names: Zhou Enlai, Nie Rongzhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 422 (July 6, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 98–99 (the Politburo hears Nie Rongzhen and Zhang Jingfu on the Fourteen Articles on Science: Liu, Zhou, Deng, Kang Sheng, Peng Zhen and Li Fuchun speak; Mao absent); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528 (July 6, 1961; Liu presides at the Politburo meeting, which discusses and in the main passes Nie Rongzhen''s request report on several policy questions in current natural-science work and the National Science Commission Party group''s and Academy of Sciences Party group''s "Fourteen opinions on the present work of natural-science research bodies (draft)"; Liu in his summing up: a good document; the problem is that the work is biased and must be admitted; the Party''s leadership position in science is good, but there is a bias of blind command; "when there is a bias, correct it"; the Center issues both July 19); [[w.yang-shangkun-riji]], II, 48 (July 6, 1961; the Politburo, 3 to 7 p.m., on Nie Rongzhen''s report on science). Made public: 1996. To check: [[w.rongzhen-inside-the-red-star]], 715–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 98 n.54); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 986 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 99 n.60). Names: Zhou Enlai, Nie Rongzhen.'
     src:
       c: ca447332
       rows:
@@ -394,6 +563,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 98 n.54: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 99 n.60: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 528: A'
+        - 'w.yang-shangkun-riji II, 48: A'
     tags: [polity:prc, name:zhou-enlai, name:nie-rongzhen, vis:only:prc]
   - id: cal.1961-07-07.opinion
     when: July 7
@@ -499,6 +669,35 @@ entries:
       - 1961-07-07T04:00Z
       - 1961-07-07T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-07.china-leadership-3
+    when: July 7
+    date: '1961-07-07'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 calls the men in charge of internal affairs in the Party's central departments and the Party groups of the unions, the Youth League and the Women's Federation on cutting the central organs' staff.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 7, 1961). The words: 上午 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: cbae8868
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-06T22:00Z
+      - 1961-07-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-07.china-leadership-4
+    when: July 7
+    date: '1961-07-07'
+    time: 1961-07-07T09:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims with his daughter at 5 p.m., his first open-air swim of the year.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 7, 1961). The words: 5时同妞妞一起去游泳，这是今年在露天游泳的第一次 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 59ad33da
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-08.berlin-and-vienna
     when: July 8
@@ -608,6 +807,49 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 33 n.60b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 33 n.60d: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-07-08.china-leadership-4
+    when: July 8
+    date: '1961-07-08'
+    thread: china-leadership
+    c: The General Office's meeting on cutting staff.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 8, 1961). The words: 上午 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: b669d645
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-07T22:00Z
+      - 1961-07-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-08.china-leadership-5
+    when: July 8
+    date: '1961-07-08'
+    time: 1961-07-08T08:30Z
+    thread: china-leadership
+    also: [laos, soviet-union]
+    c: The Standing Committee, 4:30 to 7 p.m., hears Chen Yi 陈毅 on the Geneva conference 日内瓦会议 and his talks with Khrushchev 赫鲁晓夫 at Moscow.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 8, 1961). The words: 4时半到7时 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Khrushchev.'
+    src:
+      c: 420edece
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, name:chen-yi, name:khrushchev-nikita-s, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-08.china-leadership-6
+    when: July 8
+    date: '1961-07-08'
+    time: 1961-07-08T07:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims with his daughter, 3 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 8, 1961). The words: 下午3时与妞妞去游泳 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 5b541b93
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-09.conservative-movement
     when: July 9
     date: '1961-07-09'
@@ -702,6 +944,19 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 73: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-07-09.china-leadership-7
+    when: July 9
+    date: '1961-07-09'
+    time: 1961-07-09T01:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims with Li Bozhao 李伯钊 and his daughter, 9:30 a.m. to noon.
+    n: '[[w.yang-shangkun-riji]], II, 48 (July 9, 1961). The words: 上午9时半即与伯钊、妞妞去游泳，直到中午 (II, 48). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: a09239c8
+      rows:
+        - 'w.yang-shangkun-riji II, 48: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-10.goldwater
     when: July 10
     date: '1961-07-10'
@@ -858,6 +1113,64 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 74–75: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:mongolia]
+  - id: cal.1961-07-10.china-leadership-7
+    when: July 10
+    date: '1961-07-10'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 tells Yang Shangkun 杨尚昆 of the trade union meeting.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 10, 1961). The words: 上午 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: d0eab12c
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-09T22:00Z
+      - 1961-07-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-10.china-leadership-8
+    when: July 10–16
+    date: '1961-07-10'
+    time: 1961-07-10T08:30Z
+    thread: china-leadership
+    c: 'Yang Shangkun''s 杨尚昆 left shoulder aching again, a doctor gives him acupuncture: daily for three days, then every other day, the last on the 16th.'
+    n: '[[w.yang-shangkun-riji]], II, 49–50 (July 10, 1961; the time is the first day''s). The words: 4时半 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 73f4bbff
+      rows:
+        - 'w.yang-shangkun-riji II, 49–50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-10.china-leadership-9
+    when: July 10
+    date: '1961-07-10'
+    time: 1961-07-10T15:00Z
+    thread: china-leadership
+    c: Kong Yuan 孔原, Feng Xuan 冯铉 and Luo Qingchang 罗青长 and others talk with Yang Shangkun 杨尚昆, 11 p.m. to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 10, 1961; the OCR''s 汉久 read 冯铉 on the page). The words: 11时到2时 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Feng Xuan, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: 0a7581a4
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-10.china-leadership-10
+    when: July 10
+    date: '1961-07-10'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 10, 1961). The words: 下午去游泳 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bc31a5c3
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-10T04:00Z
+      - 1961-07-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-11.governors-va
     when: July 11
     date: '1961-07-11'
@@ -949,6 +1262,22 @@ entries:
       - 1961-07-11T11:00Z
       - 1961-07-11T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-11.china-leadership-2
+    when: July 11
+    date: '1961-07-11'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, with Gong Zirong 龚子荣, Zheng Siyuan 郑思远 and Liu Huo 刘火, hears the state organs' Party committee on its trial rehabilitations 平反.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 11, 1961; note 1: Zheng, a secretary of the committee). The words: 上午 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Gong Zirong, Zheng Siyuan, Liu Huo.'
+    src:
+      c: c5dda4cc
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-10T22:00Z
+      - 1961-07-11T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1961-07-12.opinion
     when: July 12
@@ -1063,6 +1392,38 @@ entries:
     c: Liu Shaoqi hears Luo Yuchuan, Zhang Zhao and Yang Yansen, vice-ministers of forestry, on forestry in Heilongjiang, Jilin and Inner Mongolia. As many trees as are cut are to be planted, and planting is the root policy; the replanted forest must be larger than the old; China's forests are few, to be used so as to last forever. Old cutting and new planting together; "if we ruin the forests we shall be judged after we die."
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 529 (July 12, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-12.china-leadership-5
+    when: July 12
+    date: '1961-07-12'
+    thread: china-leadership
+    c: Zeng San 曾三 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 12, 1961). The words: 上午 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: c0deda4d
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-11T22:00Z
+      - 1961-07-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-12.china-leadership-6
+    when: July 12
+    date: '1961-07-12'
+    thread: china-leadership
+    c: The Secretariat on "making sure of two-thirds of the Anshan Steel Works' 鞍钢 planned output."
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 12, 1961; the OCR''s 贰钢 read 鞍钢 on the page). The words: 下午 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 259f6186
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-12T04:00Z
+      - 1961-07-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-13.electoral-college
     when: July 13
     date: '1961-07-13'
@@ -1253,6 +1614,50 @@ entries:
         - 'via x.1960-02.japan-financial-research-society-report-defence-industry-analysis: all'
         - 'via x.1961-08-20.nie-rongzhen-report-to-mao-on-defence-technology-policy: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:he-long, name:nie-rongzhen, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1961-07-13.china-leadership-5
+    when: July 13
+    date: '1961-07-13'
+    time: 1961-07-13T01:00Z
+    thread: china-leadership
+    c: The Secretariat, 9 to 12:30, on the schools.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 13, 1961). The words: 上午9时到12时半 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: ad5f7030
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-13.china-leadership-6
+    when: July 13
+    date: '1961-07-13'
+    thread: china-leadership
+    follows:
+      - cal.1961-07-13.china-leadership-5
+    c: Peng Zhen 彭真 and Yang Shangkun 杨尚昆 talk, till 2 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 49 (July 13, 1961). The words: 与彭真谈话到2时 (II, 49). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: 927aaa6d
+      rows:
+        - 'w.yang-shangkun-riji II, 49: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-07-13T04:00Z
+      - 1961-07-13T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-13.china-leadership-7
+    when: July 13
+    date: '1961-07-13'
+    time: 1961-07-13T07:30Z
+    thread: china-leadership
+    c: The pool, 3:30 to 5:30 p.m. Yang Shangkun 杨尚昆 swims, his family with him.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 13, 1961). The words: 午后3时半到5时半，在游泳池游泳，一家人都去了 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ba383630
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-14.mississippi
     when: July 14
     date: '1961-07-14'
@@ -1419,6 +1824,48 @@ entries:
         - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 530 n.1a: A, B'
         - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 530 n.1b: A, B'
     tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-07-14.china-leadership-5
+    when: July 14
+    date: '1961-07-14'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 leaves Peking for the Northeast 东北.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 14, 1961). The words: 上午 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: 1cc168c8
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-07-13T22:00Z
+      - 1961-07-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-14.china-leadership-6
+    when: July 14
+    date: '1961-07-14'
+    time: 1961-07-14T07:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 3 p.m., talks with Wu Yuzhang 吴玉章 at his house.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 14, 1961; note 1: Wu, president of the People''s University). The words: 下午3时 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wu Yuzhang.'
+    src:
+      c: dd1df8a8
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-14.china-leadership-7
+    when: July 14
+    date: '1961-07-14'
+    time: 1961-07-14T09:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 back at the pool at 5:30 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 14, 1961). The words: 5时半回到游泳池 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f366efc4
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-15.berlin-and-vienna
     when: July 15
     date: '1961-07-15'
@@ -1534,6 +1981,35 @@ entries:
     c: 'Liu Shaoqi, after reading the Changsha county people''s court''s report on people''s tribunal work, writes to Peng Zhen, Xie Fuzhi, Xie Juezai and Zhang Dingcheng: the report is very good; the Center''s small group should discuss it and, better, try it in other places, to sum up further. A great part of the public-order work cannot be left alone by the Party committees and governments, which can only manage it through the political and legal organs; what form and method they use is to be settled in practice; a little over a month''s experience in Changsha shows the way to solve it.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 530 (July 15, 1961). Footnote 2 and 3 (530) give Peng Zhen (Politburo member, Secretariat first secretary, vice-chairman and secretary-general of the NPC Standing Committee) and Xie Juezai (president of the Supreme People''s Court). Made public: 1996. To check: Changsha county people''s court, report on the work of the people''s tribunals (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 530). Names: Liu Shaoqi, Peng Zhen, Xie Fuzhi.'
     tags: [polity:prc, name:liu-shaoqi, name:peng-zhen, name:xie-fuzhi, vis:only:prc]
+  - id: cal.1961-07-15.china-leadership-3
+    when: July 15
+    date: '1961-07-15'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the All-China Federation of Trade Unions' meeting, and with Li Boren 李波人 on the Control Commission's forum.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 15, 1961). The words: 上午 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Li Boren.'
+    src:
+      c: 6299c0a3
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-14T22:00Z
+      - 1961-07-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-15.china-leadership-4
+    when: July 15
+    date: '1961-07-15'
+    time: 1961-07-15T09:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims at 5 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 15, 1961). The words: 5时去游泳 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1985d756
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-16.china-leadership
     when: July 16
     date: '1961-07-16'
@@ -1557,6 +2033,38 @@ entries:
     c: Liu Shaoqi leaves Peking to inspect the Northeast.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 530 (July 16, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-16.china-leadership-3
+    when: July 16
+    date: '1961-07-16'
+    thread: china-leadership
+    c: Kong Yuan 孔原 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 16, 1961). The words: 晚间 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 60c37b90
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-16T11:00Z
+      - 1961-07-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-16.china-leadership-4
+    when: July 16
+    date: '1961-07-16'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims after a walk round the Dongbei Yiyuan 东北义园.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 16, 1961). The words: 上午去东北义园走了一转，即回游泳 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 69adac53
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-15T22:00Z
+      - 1961-07-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-17.mayors-new-orleans
     when: July 17
     date: '1961-07-17'
@@ -1702,6 +2210,54 @@ entries:
     c: Shenyang. Liu Shaoqi hears the Northeast Bureau's officials on their work. Some now have doubts, grievances and complaints and ask to speak; let them, and do not stop them for a doubt. The three red banners may be doubted a few years, but difficulties are not to be used to make trouble; make an effort and unite to get past them. The people's communes have advantages; what was lost was the advanced cooperatives' set of ways, egalitarianism, supply, mess halls; with the advanced cooperatives kept the communes could have more. If the advantages are not seen, it is hard to persuade the peasants; when the economy recovers in three or five years the communes will show more, and then the argument will be with facts. Forestry needs long-range planning, or the resource is ruined, and cutting methods need study.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 530–531 (July 17, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-17.china-leadership-5
+    when: July 17
+    date: '1961-07-17'
+    thread: china-leadership
+    c: Luo Daorang 罗道让 and Wang Jingxian 王敬先, back from Henan 河南, report to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 50 (July 17, 1961). The words: 上午 (II, 50). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-01-04.china-leadership-7]]. Names: Luo Daorang, Wang Jingxian, Yang Shangkun.'
+    src:
+      c: 14ce4685
+      rows:
+        - 'w.yang-shangkun-riji II, 50: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-16T22:00Z
+      - 1961-07-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-17.china-leadership-6
+    when: July 17
+    date: '1961-07-17'
+    thread: china-leadership
+    c: Ye Zilong 叶子龙 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 17, 1961). The words: 下午 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ye Zilong, Yang Shangkun.'
+    src:
+      c: 248da2c6
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-17T04:00Z
+      - 1961-07-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-17.china-leadership-7
+    when: July 17
+    date: '1961-07-17'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims, after a haircut.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 17, 1961). The words: 下午去理发，后去游泳 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 48bde058
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-17T04:00Z
+      - 1961-07-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-18.school-aid
     when: July 18
     date: '1961-07-18'
@@ -1821,6 +2377,65 @@ entries:
     c: Liu Shaoqi leaves Shenyang for Harbin.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 531 (July 18, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-18.china-leadership-2
+    when: July 18
+    date: '1961-07-18'
+    thread: china-leadership
+    c: Zeng San 曾三 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 18, 1961). The words: 上午 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: c0deda4d
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-17T22:00Z
+      - 1961-07-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-18.china-leadership-3
+    when: July 18
+    date: '1961-07-18'
+    thread: china-leadership
+    c: The Secretariat, to 7 p.m., on *Renmin ribao's* 人民日报 propaganda for the Sixty Articles 六十条 and on political departments in the transport services; An Ziwen 安子文 reports.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 18, 1961). The words: 下午 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen.'
+    src:
+      c: 3c07a57e
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-18T04:00Z
+      - 1961-07-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-18.china-leadership-4
+    when: July 18
+    date: '1961-07-18'
+    thread: china-leadership
+    c: Kong Yuan 孔原 comes to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 18, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 60c37b90
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-07-18.china-leadership-5
+    when: July 18
+    date: '1961-07-18'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims, 2:30.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 18, 1961). The words: 2时半去游泳 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0328cbfd
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-18T04:00Z
+      - 1961-07-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-19.africa
     when: July 19–22
     date: '1961-07-19'
@@ -2038,6 +2653,38 @@ entries:
     c: 'Harbin. Liu Shaoqi inspects the Harbin boiler plant, the turbine plant and the electrical machinery plant, and hears the Heilongjiang committee''s first secretary Ouyang Qin and Li Fanwu on agriculture and forestry. On forestry: piece-rate for felling, hauling and tree planting; contracting in several forms, including the collective, the individual and the "big army campaign" (against planting). On ownership: do not run three kinds together, or the economy is dead; a state enterprise cannot be levelled; accounts must be settled to firm up ownership. On the three red banners: doubts are understandable, given the setbacks of the Leap and the communes'' advantages being less plain; do not boast of the advanced cooperatives'' advantages, and keep them where there is no better. On investigation: not only the problem but the way to solve it, agreed by the locality; investigate one typical case, revisit it after two or three years.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 531 (July 19, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-19.china-leadership-3
+    when: July 19
+    date: '1961-07-19'
+    thread: china-leadership
+    c: Li Boren 李波人 and Wang Yuming 王愈明 come to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 19, 1961). The words: 上午 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Boren, Wang Yuming, Yang Shangkun.'
+    src:
+      c: dd7ddc02
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-18T22:00Z
+      - 1961-07-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-19.china-leadership-4
+    when: July 19
+    date: '1961-07-19'
+    thread: china-leadership
+    c: The Huairen Tang 怀仁堂, the back hall. Li Xiannian 李先念 on grain and prices.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 19, 1961). The words: 下午 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Xiannian.'
+    src:
+      c: 301f2e95
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, name:li-xiannian, vis:only:prc]
+    time_range:
+      - 1961-07-19T04:00Z
+      - 1961-07-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-20.defense
     when: July 20
     date: '1961-07-20'
@@ -2171,6 +2818,48 @@ entries:
     c: 'Harbin. Liu Shaoqi talks with members of the Heilongjiang committee''s secretariat on forestry: small timber could be priced higher and prices set by dense or sparse forest; workers could be paid by output as in a piece-rate system, so that the more they produce the more they earn; selling prices to differ by quality and the processing needed. He then leaves Harbin for Xiaoxing''anling, and hears the head of the Dailing forestry experiment bureau on its work.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 531–532 (July 20, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-20.china-leadership-2
+    when: July 20
+    date: '1961-07-20'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the union meeting and Li Boren 李波人 on the Control Commission's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 20, 1961). The words: 上午 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Li Boren.'
+    src:
+      c: c7cd4259
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-19T22:00Z
+      - 1961-07-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-20.china-leadership-3
+    when: July 20
+    date: '1961-07-20'
+    time: 1961-07-20T07:30Z
+    thread: china-leadership
+    c: The Huairen Tang 怀仁堂, the back hall, 3:30 to 10:30 p.m. Qian Ying 钱瑛 reports on the Control Commission's meeting; Ping Jiesan 平杰三, Xu Bing 徐冰, Luo Mai 罗迈 and others on united front work.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 20, 1961; note 1: Ping and Xu, deputy heads of the United Front Work Department; Luo Mai, that is Li Weihan, its head). The words: 下午3时半到10时半 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qian Ying, Ping Jiesan, Xu Bing, Li Weihan.'
+    src:
+      c: 0d20d0c6
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-20.china-leadership-4
+    when: July 20
+    date: '1961-07-20'
+    time: 1961-07-20T15:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Li Jiebo 李颉伯 to report to the Secretariat next day.
+    n: '[[w.yang-shangkun-riji]], II, 51 (July 20, 1961). The words: 11时 (II, 51). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Jiebo.'
+    src:
+      c: f27b6dc9
+      rows:
+        - 'w.yang-shangkun-riji II, 51: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-21.space
     when: July 21
     date: '1961-07-21'
@@ -2285,6 +2974,35 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 78–80: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:poland]
+  - id: cal.1961-07-21.china-leadership-4
+    when: July 21
+    date: '1961-07-21'
+    time: 1961-07-21T07:30Z
+    thread: china-leadership
+    c: The Huairen Tang 怀仁堂, 3:30 to 8 p.m. Peng Zhen 彭真, Tan Zhenlin 谭震林 and Yang Shangkun 杨尚昆 hear the All-China Federation of Trade Unions' Party group on the union chairmen's meeting; at 6:30 they receive the provinces' union men, Peng speaking.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 21, 1961). The words: 3时半到8时 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Tan Zhenlin, Yang Shangkun.'
+    src:
+      c: 7b360422
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, name:peng-zhen, name:tan-zhenlin, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-21.china-leadership-5
+    when: July 21
+    date: '1961-07-21'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims, 2:30.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 21, 1961). The words: 上午办公，2时半去游泳 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0328cbfd
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-21T04:00Z
+      - 1961-07-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-22.berlin-and-vienna
     when: July 22
     date: '1961-07-22'
@@ -2304,6 +3022,19 @@ entries:
     c: Xiaoxing'anling. Liu Shaoqi inspects the Shengli forest farm and watches chain-saw felling and tractor hauling. In the evening he convenes the bureau's heads and workers' delegates on timber felling and forest planting.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 532 (July 22, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-22.china-leadership-2
+    when: July 22
+    date: '1961-07-22'
+    time: 1961-07-22T07:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, 3 to 6 p.m., with Deng Diantao 邓典桃, Liu Huo 刘火, Li Jian 李鉴 and others.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 22, 1961). The words: 下午3时到6时 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao, Liu Huo, Li Jian.'
+    src:
+      c: c6fe9190
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-23.berlin-and-vienna
     when: July 23
     date: '1961-07-23'
@@ -2345,6 +3076,51 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: all'
     tags: [polity:prc, polity:tunisia, polity:fr, name:chen-yi, vis:only:prc+tunisia, name:mestiri-ahmed]
+  - id: cal.1961-07-23.china-leadership-4
+    when: July 23
+    date: '1961-07-23'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 gathers horse dung at the Xinliusuo 新六所, as the General Office's staff then did in spare hours, to raise mushrooms for want of food.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 23, 1961; note 1). The words: 上午 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 44cb903a
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-22T22:00Z
+      - 1961-07-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-23.china-leadership-5
+    when: July 23
+    date: '1961-07-23'
+    time: 1961-07-23T10:00Z
+    thread: china-leadership
+    c: Peng Zhen 彭真 and Yang Shangkun 杨尚昆, 6 to 8 p.m., talk with Zhou Enlai 周恩来 at his house.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 23, 1961). The words: 6时到8时 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Zhou Enlai.'
+    src:
+      c: '89880642'
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-23.china-leadership-6
+    when: July 23
+    date: '1961-07-23'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims; Peng Zhen 彭真 comes too.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 23, 1961). The words: 下午去游泳，彭真也来了 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: 551e5fb2
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-07-23T04:00Z
+      - 1961-07-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-24.crime-and-hijacking
     when: July 24
     date: '1961-07-24'
@@ -2470,6 +3246,60 @@ entries:
     c: 'Fenglin forestry bureau. Liu Shaoqi sees the primeval red-pine forest, the Fourth Forest Farm and felling with tractor hauling, and the small forest railway. To the bureau''s heads: the Party committee leads the large things, not the small; it cannot escape the daily business and the factory director''s responsibility under the committee''s leadership is gone; leadership is to be strengthened; workers'' participation in management is only participation and does not replace management. Good old systems are to be restored; the sign of good management is that felling, planting, hauling, loading are done, labor productivity rises, costs fall, quality rises, materials are saved; wages go by checking attendance, and "more work worse than less" is to be corrected.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 532 (July 24, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-24.china-leadership-3
+    when: July 24
+    date: '1961-07-24'
+    time: 1961-07-24T03:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peng Zhen 彭真 and Yang Shangkun 杨尚昆, 11:30 a.m. to 2, receive the Soviet Ambassador, who hands them the new draft Program of the CPSU 苏共党纲, 112 pages in Russian, with a Chinese translation.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 24, 1961). The words: 11时半到2时 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: 78dcccca
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-24.china-leadership-4
+    when: July 24
+    date: '1961-07-24'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Li Boren 李波人, Lü Cheng 吕澄 and Shen Dongnian 沈栋年 on the Central Control Commission's meeting and the handling of the people's letters and visits.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 24, 1961; note 1). The words: 晚间 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Boren, Lü Cheng, Shen Dongnian.'
+    src:
+      c: 3695d288
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-24T11:00Z
+      - 1961-07-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-24.china-leadership-5
+    when: July 24
+    date: '1961-07-24'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 back in Peking from the Northeast 东北.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 24, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-14.china-leadership-5]]. Names: Deng Xiaoping.'
+    src:
+      c: ed7709fc
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-07-24.china-leadership-6
+    when: July 24
+    date: '1961-07-24'
+    time: 1961-07-24T08:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims, 4 to 6:30 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 52 (July 24, 1961). The words: 下午4时去游泳，6时半回家 (II, 52). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 729446ff
+      rows:
+        - 'w.yang-shangkun-riji II, 52: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-25.berlin-and-vienna
     when: July 25
     date: '1961-07-25'
@@ -2536,7 +3366,12 @@ entries:
     thread: china-leadership
     also: [farm]
     c: At the Secretariat on farm and industrial output and grain; Zhou describes the international situation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 425 (July 25, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 425 (July 25, 1961); [[w.yang-shangkun-riji]], II, 53 (July 25, 1961; the Secretariat, 9:30 a.m. to 1 p.m.: Deng on questions of the Northeast; the decision to go that night to Beidaihe to prepare the documents for the Center''s August conference (note 2: the work conference at Lushan, Aug. 23–Sept. 16)). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: dcb2d087
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 425: ?'
+        - 'w.yang-shangkun-riji II, 53: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-07-25.china-leadership-2
     when: July 25
@@ -2588,6 +3423,38 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 201: all'
     tags: [polity:prc, polity:cuba, name:liu-shaoqi, name:zhou-enlai, name:dorticos-torrado-osvaldo, name:castro-fidel]
+  - id: cal.1961-07-25.china-leadership-5
+    when: July 25
+    date: '1961-07-25'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the union meeting, with Gong Zirong 龚子荣 on rehabilitations in the state organs, and with Zeng San 曾三 and Deng Diantao 邓典桃; then to Tian Jiaying 田家英.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 25, 1961). The words: 下午 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming, Gong Zirong, Zeng San, Deng Diantao, Tian Jiaying.'
+    src:
+      c: 63ba24db
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-25T04:00Z
+      - 1961-07-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-25.china-leadership-6
+    when: July 25
+    date: '1961-07-25'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 talks with Ye Zilong 叶子龙, Kang Yimin 康一民 and Wu Zhenying 吴振英.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 25, 1961; note 3). The words: 晚间 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ye Zilong, Kang Yimin, Wu Zhenying.'
+    src:
+      c: fe12d4a8
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-25T11:00Z
+      - 1961-07-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-26.berlin-and-vienna
     when: July 26–27
     date: '1961-07-26'
@@ -2655,7 +3522,7 @@ entries:
     date: '1961-07-26'
     thread: china-leadership
     c: 'Beidaihe. The Secretariat, Deng Xiaoping presiding, discusses the Sixty Articles on Higher Education and the Seventy Articles on Industry: Deng drops the phrase "foster proletarian ideology, eliminate bourgeois ideology"; "ours is best." Kang Sheng''s objections fail.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 107. Made public: 1997. To check: [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.91a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 987 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.91b); [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 15–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.92); [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.93). Names: Deng Xiaoping, Kang Sheng. Check: the days.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 107; [[w.yang-shangkun-riji]], II, 53 (July 26, 1961; the Secretariat at Beidaihe, 4 to 6 p.m., arranges its work there). Made public: 1997. To check: [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.91a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 987 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.91b); [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 15–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.92); [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 107 n.93). Names: Deng Xiaoping, Kang Sheng. Check: the days.'
     src:
       c: a0993ca0
       rows:
@@ -2664,6 +3531,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 107 n.91b: A-B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 107 n.92: B-C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 107 n.93: D'
+        - 'w.yang-shangkun-riji II, 53: A'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
   - id: cal.1961-07-26.china-leadership-3
     when: July 26
@@ -2673,6 +3541,61 @@ entries:
     c: Hegang. Liu Shaoqi hears the Hegang city committee and the Hegang mining bureau's heads on their work. On mine safety, systems, the technical ones above all, must make engineers and technicians responsible; they know how a mine is opened and how to organize continuous production without accident, and they should have a great say. He then reaches Jiamusi and inspects the Jiamusi paper mill.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 533 (July 26, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-26.china-leadership-4
+    when: July 26
+    date: '1961-07-26'
+    time: 1961-07-25T16:15Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 leaves Peking for Beidaihe 北戴河 by the 12:15 a.m. train.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 26, 1961; under July 25: 12 时离家去车站, 12 时 1 刻开车). The words: 12时1刻开车 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: cf430df1
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-26.china-leadership-5
+    when: July 26
+    date: '1961-07-26'
+    time: 1961-07-25T22:30Z
+    thread: china-leadership
+    c: Beidaihe 北戴河, 6:30 a.m. Yang Shangkun 杨尚昆 arrives; at Building No. 9 by 7:30. Tian Chou 田畴, Gao Fuyou 高福有 and Li Wenzheng 李文正 report to him.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 26, 1961; note 5: Gao and Li, of the Administration Bureau of the organs under the Center). The words: 上午6时半到达北戴河 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Chou, Gao Fuyou, Li Wenzheng.'
+    src:
+      c: 1c334f55
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-26.china-leadership-6
+    when: July 26
+    date: '1961-07-26'
+    time: 1961-07-26T08:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河, 4 to 6 p.m. The Secretariat arranges its work there.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 26, 1961). The words: 下午4时到6时 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-26.china-leadership]].'
+    src:
+      c: 190615cb
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-26.china-leadership-7
+    when: July 26
+    date: '1961-07-26'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea after breakfast, home at 11:30.
+    n: '[[w.yang-shangkun-riji]], II, 53 (July 26, 1961). The words: 早饭后，稍事休息即下海游泳，11时半回家 (II, 53). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d11cf8a7
+      rows:
+        - 'w.yang-shangkun-riji II, 53: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-25T22:00Z
+      - 1961-07-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-27.confirmations
     when: July 27
     date: '1961-07-27'
@@ -2762,6 +3685,36 @@ entries:
     c: Mudanjiang. Liu Shaoqi inspects the Jingpohu power station, an artificial red-pine forest and a ginseng nursery, tours Jingpohu lake and visits a geological prospecting team resting there. On the 29th he hears the head of the Dongjingcheng forestry bureau at Jingpohu on its work and urges trials of mixed planting of conifers and broadleaf trees and of artificial regeneration.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 533 (July 27, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-27.china-leadership-2
+    when: July 27–28
+    date: '1961-07-27'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 reads the "Eighty Articles on Industry" 工业八十条, finished on the 28th.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 27, 1961; note 1: the draft Working Regulations for State Industry, later cut to seventy articles and adopted at Lushan; the time is the first day''s). The words: 午睡后 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6c665004
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+        - 'via w.yang-shangkun-riji II, 54 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-27T04:00Z
+      - 1961-07-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-27.china-leadership-3
+    when: July 27
+    date: '1961-07-27'
+    time: 1961-07-27T02:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea at 10 a.m., to the net and back; the water cold.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 27, 1961). The words: 10时下海，游到网边转了一圈即回，水较冷 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: dd190b5d
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-28.laos
     when: July 28
     date: '1961-07-28'
@@ -2813,6 +3766,49 @@ entries:
     c: Zhou Enlai sends Deng Yingchao to Lushan to convalesce.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 425 (July 28, 1961). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-07-28.china-leadership-2
+    when: July 28
+    date: '1961-07-28'
+    time: 1961-07-28T07:30Z
+    thread: china-leadership
+    c: Beidaihe 北戴河, 3:30 p.m. The Secretariat on the Eighty Articles on Industry 工业八十条.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 28, 1961). The words: 3时半 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-26.china-leadership]].'
+    src:
+      c: c410da90
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+        - 'via w.yang-shangkun-riji II, 54 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-28.china-leadership-3
+    when: July 28
+    date: '1961-07-28'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Tong Xiaopeng 童小鹏 and Luo Qingchang 罗青长 come to Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 28, 1961). The words: 今晚 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tong Xiaopeng, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: 419210b5
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-28T11:00Z
+      - 1961-07-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-28.china-leadership-4
+    when: July 28
+    date: '1961-07-28'
+    time: 1961-07-28T02:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea at 10 a.m., to the west bathing beach, an hour.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 28, 1961). The words: 10时下海，游到了西浴场，花了1小时 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 12b95f8a
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-29.vietnam
     when: July 29
     date: '1961-07-29'
@@ -2908,6 +3904,53 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 148: all'
         - 'via x.1961-07-29.jcsm-502-61-guerrillas: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1961-07-29.china-leadership
+    when: July 29
+    date: '1961-07-29'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 reads the Working Regulations for the Schools 学校工作条例.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 29, 1961; note 2: the provisional regulations for the higher schools under the Ministry of Education, adopted at Lushan, the "Sixty Articles on Higher Education"). The words: 上午 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f3e2a8f0
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+        - 'via w.yang-shangkun-riji II, 54 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-28T22:00Z
+      - 1961-07-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-29.china-leadership-2
+    when: July 29
+    date: '1961-07-29'
+    time: 1961-07-29T07:30Z
+    thread: china-leadership
+    c: Beidaihe 北戴河, 3:30 p.m. The Secretariat on the Working Regulations for the Schools 学校工作条例.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 29, 1961). The words: 下午3时半 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-26.china-leadership]].'
+    src:
+      c: 94c936c4
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+        - 'via w.yang-shangkun-riji II, 54 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-29.china-leadership-3
+    when: July 29
+    date: '1961-07-29'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea.
+    n: '[[w.yang-shangkun-riji]], II, 54 (July 29, 1961). The words: 上午……下海游泳 (II, 54). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e2f96a25
+      rows:
+        - 'w.yang-shangkun-riji II, 54: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-28T22:00Z
+      - 1961-07-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-30.berlin-and-vienna
     when: July 30
     date: '1961-07-30'
@@ -2950,6 +3993,35 @@ entries:
     c: Liu Shaoqi leaves Mudanjiang for Harbin. On the way he hears the Mudanjiang prefectural committee's officials on work. Those who do more should get more than those who do less; he is told workers say more work is no better than less work, less no better than none, since pay is 70 percent of the quota for not working and 70 to 80 percent for working, a fault of wage administration. A forest farm running farming cannot be "both worker and farmer"; the peasants should do the farming and forestry; forestry that raises grain loses; it must take the collective road, under a responsibility system.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 533–534 (July 30, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-30.china-leadership-3
+    when: July 30
+    date: '1961-07-30'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Chen Yun 陈云 and Yang Shangkun 杨尚昆 talk on the beach till 12:30.
+    n: '[[w.yang-shangkun-riji]], II, 55 (July 30, 1961). The words: 上午……谈话到12时半 (II, 55). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yun, Yang Shangkun.'
+    src:
+      c: f6c72a05
+      rows:
+        - 'w.yang-shangkun-riji II, 55: all'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    time_range:
+      - 1961-07-29T22:00Z
+      - 1961-07-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-30.china-leadership-4
+    when: July 30
+    date: '1961-07-30'
+    time: 1961-07-30T02:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea at 10 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 55 (July 30, 1961). The words: 上午10时下海 (II, 55). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 3eedea5a
+      rows:
+        - 'w.yang-shangkun-riji II, 55: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-31.opinion
     when: July 31
     date: '1961-07-31'
@@ -3374,3 +4446,49 @@ entries:
     c: 'Harbin. Liu Shaoqi receives the responsible cadres of the Northeast and Inner Mongolia forestry work conference and the Heilongjiang committee''s secretariat members. Planting and regeneration are to be valued; many leaders attend only to cutting. Regeneration is mainly artificial, with artificial promotion of natural regeneration. On felling, Japanese, old China''s and Chinese Republic''s methods were bad: cutting only the thick logs; the aim now is to get timber and also to help young trees grow; clear-felling harms young trees too much and selective cutting may serve the forest better.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 534 (July 31, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-07-31.china-leadership-2
+    when: July 31
+    date: '1961-07-31'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Kang Sheng 康生 talks with Yang Shangkun 杨尚昆 till 11:30.
+    n: '[[w.yang-shangkun-riji]], II, 55 (July 31, 1961). The words: 上午 (II, 55). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Yang Shangkun.'
+    src:
+      c: 594dc92e
+      rows:
+        - 'w.yang-shangkun-riji II, 55: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-07-30T22:00Z
+      - 1961-07-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-31.china-leadership-3
+    when: July 31
+    date: '1961-07-31'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 finishes the CPSU's new draft Program 苏共新党纲（草案）, some 80,000 characters; to read it twice more, and in Russian.
+    n: '[[w.yang-shangkun-riji]], II, 55 (July 31, 1961). The words: 晚间 (II, 55). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-07-24.china-leadership-3]]. Names: Yang Shangkun.'
+    src:
+      c: c7ac9db8
+      rows:
+        - 'w.yang-shangkun-riji II, 55: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-07-31T11:00Z
+      - 1961-07-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-31.china-leadership-4
+    when: July 31
+    date: '1961-07-31'
+    time: 1961-07-31T08:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea at 4 p.m.; the waves high, only to the net.
+    n: '[[w.yang-shangkun-riji]], II, 55 (July 31, 1961). The words: 午后4时下海游泳，今天浪较大，只到网边即回 (II, 55). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0c0eab3e
+      rows:
+        - 'w.yang-shangkun-riji II, 55: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai

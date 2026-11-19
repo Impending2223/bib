@@ -86,6 +86,45 @@ entries:
     c: Chengdu. Liu Shaoqi attends the meeting of Sichuan Province and Chengdu for International Labor Day.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 485 (May 1, 1960). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1960-05-01.china-leadership-3
+    when: May 1
+    date: '1960-05-01'
+    time: 1960-05-01T04:20Z
+    thread: china-leadership
+    c: Tianjin 天津, the central square. Mao 毛泽东 at the May Day rally, from 12:20 p.m., about an hour and a half; Yang Shangkun 杨尚昆 with him.
+    n: '[[w.yang-shangkun-riji]], I, 504 (May 1, 1960). The words: 12时20分，随主席去天津市中心广场 (I, 504). Names: Mao Zedong, Yang Shangkun. Check: whether the press reported Mao''s presence.'
+    src:
+      c: 96c25783
+      rows:
+        - 'w.yang-shangkun-riji I, 504: all'
+    tags: [polity:prc, name:mao-zedong]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-01.china-leadership-4
+    when: May 1
+    date: '1960-05-01'
+    thread: china-leadership
+    follows:
+      - cal.1960-05-01.china-leadership-3
+    c: Tianjin 天津. Mao 毛泽东 at the industrial exhibition in the Second Workers' Cultural Palace; Yang Shangkun 杨尚昆 with him.
+    n: '[[w.yang-shangkun-riji]], I, 504 (May 1, 1960). The words: 随后即去第二工人文化宫 (I, 504). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 00556f52
+      rows:
+        - 'w.yang-shangkun-riji I, 504: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-05-01.china-leadership-5
+    when: May 1
+    date: '1960-05-01'
+    time: 1960-05-01T13:00Z
+    thread: china-leadership
+    c: Mao's 毛泽东 train leaves Tianjin 天津, 9 p.m., Yang Shangkun 杨尚昆 aboard; at the junction west of Jinan 济南 at 2 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 504 (May 1, 1960). The words: 9时开车，清晨2时达到济南市西面岔道上 (I, 504). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 619b666e
+      rows:
+        - 'w.yang-shangkun-riji I, 504: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-02.crime-and-hijacking-ca
     when: May 2
     date: '1960-05-02'
@@ -121,6 +160,38 @@ entries:
     c: 'Chengdu. Liu Shaoqi hears Sichuan Party committee secretaries Chen Gang, Liao Zhigao and others on their work. On timber: cut and plant together, plant more than is cut. On leaders and the masses: cadres are to take part in production and share the workers'' lives; leaders trust the masses and the masses the leaders; "worry before the world worries" (先天下之忧而忧).'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 485 (May 2–3, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-02.china-leadership-3
+    when: May 2
+    date: '1960-05-02'
+    thread: china-leadership
+    c: Jinan 济南. Yang Shangkun 杨尚昆 inspects the Air Force guesthouse, where foreign guests are to be received.
+    n: '[[w.yang-shangkun-riji]], I, 504 (May 2, 1960). The words: 上午 (I, 504). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 121bd3de
+      rows:
+        - 'w.yang-shangkun-riji I, 504: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-01T22:00Z
+      - 1960-05-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-02.china-leadership-4
+    when: May 2
+    date: '1960-05-02'
+    thread: china-leadership
+    c: Jinan 济南, on the train. Mao 毛泽东 with Shu Tong 舒同 and others on Shandong's 山东 work.
+    n: '[[w.yang-shangkun-riji]], I, 504 (May 2, 1960). The words: 下午 (I, 504). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Shu Tong.'
+    src:
+      c: 8b3b05f0
+      rows:
+        - 'w.yang-shangkun-riji I, 504: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-05-02T04:00Z
+      - 1960-05-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-03.elections-1960
     when: May 3
     date: '1960-05-03'
@@ -283,13 +354,14 @@ entries:
     date: '1960-05-03'
     thread: china-leadership
     c: Jinan, the airport. Mao receives trade-union and women's delegations of fourteen Latin American and African countries; Liu Changsheng present. "We stand on one front"; America says it cannot see the people's China, yet calls it bad every day.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 3, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 140–141 (May 3, 1960; Mao receives the fourteen delegations; China''s 650 million back the struggles of Cuba and of the Asian, African and Latin American peoples; the common enemy is the United States, and "all stand on one front"); [[w.jianguo-yilai-mao-zedong]], XV, 202–203 (Mao''s talk of May 3 at Jinan as the press printed it (*Renmin ribao*, May 4): he conveys the firm support of China''s 650 million for Cuba and the national democratic movements of Asia, Africa and Latin America, thanks them for their help, says the common enemy is American imperialism, that all are on one front and need to support one another, that the peoples of the world, American included, are friends, and that he supports the coming four-power summit; the delegations by note 1: Cuban workers, Brazilian civil-service and bank unions, women''s delegations of Sierra Leone, Tanganyika, Cuba, Venezuela and Uruguay and women of eight other countries). Made public: 2001. Names: Mao Zedong, Liu Changsheng, Cao Mengjun. Check: what the press printed of the talk.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 3, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 140–141 (May 3, 1960; Mao receives the fourteen delegations; China''s 650 million back the struggles of Cuba and of the Asian, African and Latin American peoples; the common enemy is the United States, and "all stand on one front"); [[w.jianguo-yilai-mao-zedong]], XV, 202–203 (Mao''s talk of May 3 at Jinan as the press printed it (*Renmin ribao*, May 4): he conveys the firm support of China''s 650 million for Cuba and the national democratic movements of Asia, Africa and Latin America, thanks them for their help, says the common enemy is American imperialism, that all are on one front and need to support one another, that the peoples of the world, American included, are friends, and that he supports the coming four-power summit; the delegations by note 1: Cuban workers, Brazilian civil-service and bank unions, women''s delegations of Sierra Leone, Tanganyika, Cuba, Venezuela and Uruguay and women of eight other countries); [[w.yang-shangkun-riji]], I, 505 (May 3, 1960; 5 to 7 p.m.; thirty guests, mainly Latin American and African, many of them women). Made public: 2001. Names: Mao Zedong, Liu Changsheng, Cao Mengjun. Check: what the press printed of the talk.'
     src:
       c: 38485fa1
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 3, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 140–141: B, D'
         - 'w.jianguo-yilai-mao-zedong XV, 202–203: B, D'
+        - 'w.yang-shangkun-riji I, 505: B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-03.china-leadership-2
     when: May 3
@@ -317,6 +389,19 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 141: all'
     tags: [polity:prc]
+  - id: cal.1960-05-03.china-leadership-4
+    when: May 3
+    date: '1960-05-03'
+    time: 1960-05-03T02:00Z
+    thread: china-leadership
+    c: Jinan 济南. Liu Changsheng 刘长胜, vice-chairman of the All-China Federation of Trade Unions, with Yang Shangkun 杨尚昆 on the foreign guests, who arrived at 8 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 504 (May 3, 1960). The words: 上午10时 (I, 504). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Changsheng, Yang Shangkun.'
+    src:
+      c: af03b79a
+      rows:
+        - 'w.yang-shangkun-riji I, 504: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-04.elections-1960
     when: May 4
     date: '1960-05-04'
@@ -433,6 +518,35 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 266–268: all'
     tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:eisenhower-dwight-d, vis:only:prc]
+  - id: cal.1960-05-04.china-leadership-3
+    when: May 4
+    date: '1960-05-04'
+    thread: china-leadership
+    c: Jinan 济南. Mao 毛泽东 with Li Xiannian 李先念 and Shu Tong 舒同.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 4, 1960). The words: 下午 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Li Xiannian, Shu Tong.'
+    src:
+      c: '94844053'
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, name:mao-zedong, name:li-xiannian, vis:only:prc]
+    time_range:
+      - 1960-05-04T04:00Z
+      - 1960-05-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-04.china-leadership-4
+    when: May 4
+    date: '1960-05-04'
+    time: 1960-05-04T09:00Z
+    thread: china-leadership
+    c: Jinan 济南, Zhenzhuquan 珍珠泉. The cadres of Shandong's 山东 provincial organs photographed with Mao 毛泽东, 5 p.m.; Yang Shangkun 杨尚昆 there; an exhibition (water pumps, advanced science, ultrasonics).
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 4, 1960). The words: 5时去珍珠泉参加山东省机关干部与主席的合影 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 8ccde8b7
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-05.soviet-union
     when: May 5–7
     date: '1960-05-05'
@@ -563,6 +677,37 @@ entries:
     c: Chengdu. Liu Shaoqi inspects the Chengdu measuring and cutting tools plant and the Chengdu pharmaceutical plant. The tools plant works by diligent management, many forms of operation and the mass line (group work); its "two participations, one reform, three combinations" has progressed. Workers can be trusted to manage plants, cities and the state; as their cultural and political level rises, the roots of bureaucracy are cut.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 485 (May 5, 1960). Footnote 1 (485) glosses "two participations, one reform, three combinations" as the Anshan Iron and Steel Company''s management experience of 1960: cadres take part in collective production labor and workers in management; irrational rules reformed and sound ones set up; leaders, technicians or managers and workers combined. It names no work. Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-05.china-leadership-5
+    when: May 5
+    date: '1960-05-05'
+    thread: china-leadership
+    c: Jinan 济南. Mao 毛泽东 with Shu Tong 舒同.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 5, 1960). The words: 下午 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Shu Tong.'
+    src:
+      c: 2d79baa4
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-05-05T04:00Z
+      - 1960-05-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-05.china-leadership-6
+    when: May 5
+    date: '1960-05-05'
+    time: 1960-05-05T08:30Z
+    thread: china-leadership
+    follows:
+      - cal.1960-05-05.china-leadership-5
+    c: Mao's 毛泽东 train leaves Jinan 济南, 4:30 p.m.; at Zhengzhou 郑州 at 7:15 the next morning, after more than twelve hours. As it starts, Yang Shangkun 杨尚昆 with Mao on the work at Zhengzhou (foreign guests to be received).
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 5, 1960). The words: 于4时半开车……于清晨7时1刻到达郑州 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 25500dc8
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-06.voting-rights
     when: May 6
     date: '1960-05-06'
@@ -631,6 +776,78 @@ entries:
     c: Chengdu. Liu Shaoqi visits the Sichuan industrial exhibition.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 485 (May 6, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-06.china-leadership-4
+    when: May 6
+    date: '1960-05-06'
+    time: 1960-05-06T02:00Z
+    thread: china-leadership
+    c: Zhengzhou 郑州. Members of the Henan 河南 committee come aboard the train to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 6, 1960). The words: 上午10时 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: db762aa2
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-06.china-leadership-5
+    when: May 6
+    date: '1960-05-06'
+    time: 1960-05-06T07:00Z
+    thread: china-leadership
+    c: Zhengzhou 郑州. Yang Shangkun 杨尚昆 with Kong Yuan 孔原 and Liu Ningyi 刘宁一 on the foreign guests.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 6, 1960). The words: 下午3时 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Liu Ningyi.'
+    src:
+      c: ae6509c5
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-06.china-leadership-6
+    when: May 6
+    date: '1960-05-06'
+    time: 1960-05-06T11:30Z
+    thread: china-leadership
+    c: Zhengzhou 郑州, on the train. Mao 毛泽东 with members of the Henan 河南 committee, 7:30 p.m.; Wu Zhipu 吴芝圃 there.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 6, 1960). The words: 7时半主席约省委几位同志来谈 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Wu Zhipu.'
+    src:
+      c: 024ee6bc
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-06.china-leadership-8
+    when: May 6
+    date: '1960-05-06'
+    time: 1960-05-06T14:00Z
+    thread: china-leadership
+    follows:
+      - cal.1960-05-06.china-leadership-6
+    c: Zhengzhou 郑州. Mao 毛泽东 to the military region's hall 军区礼堂 to dance, 10 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 6, 1960). The words: 谈后于10时去军区礼堂跳舞 (I, 505). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong.'
+    src:
+      c: ea1ac97a
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-06.china-leadership-7
+    when: May 6
+    date: '1960-05-06'
+    thread: china-leadership
+    follows:
+      - cal.1960-05-06.china-leadership-6
+    c: Zhengzhou 郑州. Yang Shangkun 杨尚昆 at the Jiaoji chu 交际处, to see where the foreign guests are to be received.
+    n: '[[w.yang-shangkun-riji]], I, 505 (May 6, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 70601a77
+      rows:
+        - 'w.yang-shangkun-riji I, 505: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-06T14:00Z
+      - 1960-05-06T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-07.governors-tx
     when: May 7
     date: '1960-05-07'
@@ -742,13 +959,14 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhengzhou. Mao receives public figures, peace workers and trade-union, youth and student delegations of twelve African countries; Yang Shangkun and Liu Ningyi present. Africa''s two hundred million uniting, waking: imperialism will have to go.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 7, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 142 (May 7, 1960; Mao receives the delegations of twelve African countries and regions; full sympathy for their fight against imperialism and colonialism; support for the South Korean and Turkish peoples'' struggles); [[w.jianguo-yilai-mao-zedong]], XV, 204–205 (Mao''s talk of May 7 at Zhengzhou as the press printed it (*Renmin ribao*, May 8): full sympathy and support for the African peoples'' fight against imperialism and colonialism, and for the South Korean and Turkish peoples'' patriotic struggles; the delegations by note 1: social figures and peace workers of Somaliland, Senegal, Sierra Leone and the Sudan; trade-union, youth and student delegations of Algeria, the Congo, Guinea, Cameroon, Madagascar, the Mali Federation, Morocco, Zanzibar and others). Made public: 2001. Names: Mao Zedong, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 7, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 142 (May 7, 1960; Mao receives the delegations of twelve African countries and regions; full sympathy for their fight against imperialism and colonialism; support for the South Korean and Turkish peoples'' struggles); [[w.jianguo-yilai-mao-zedong]], XV, 204–205 (Mao''s talk of May 7 at Zhengzhou as the press printed it (*Renmin ribao*, May 8): full sympathy and support for the African peoples'' fight against imperialism and colonialism, and for the South Korean and Turkish peoples'' patriotic struggles; the delegations by note 1: social figures and peace workers of Somaliland, Senegal, Sierra Leone and the Sudan; trade-union, youth and student delegations of Algeria, the Congo, Guinea, Cameroon, Madagascar, the Mali Federation, Morocco, Zanzibar and others); [[w.yang-shangkun-riji]], I, 506 (May 7, 1960; at the Jiaoji chu, 5 to 9 p.m.; twelve African units). Made public: 2001. Names: Mao Zedong, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk.'
     src:
       c: c9b8cdc2
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 7, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 142: B, D'
         - 'w.jianguo-yilai-mao-zedong XV, 204–205: B'
+        - 'w.yang-shangkun-riji I, 506: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-07.china-leadership-2
     when: May 7
@@ -795,6 +1013,35 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 206–207: all'
     tags: [polity:prc, polity:gdr, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter]
+  - id: cal.1960-05-07.china-leadership-6
+    when: May 7
+    date: '1960-05-07'
+    time: 1960-05-07T08:30Z
+    thread: china-leadership
+    c: Zhengzhou 郑州, on the train. Mao 毛泽东 with Liu Ningyi 刘宁一, 4:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 7, 1960). The words: 下午4时半 (I, 506). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Liu Ningyi.'
+    src:
+      c: cc4c31b3
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-07.china-leadership-7
+    when: May 7
+    date: '1960-05-07'
+    thread: china-leadership
+    c: Zhengzhou 郑州. Yang Shangkun 杨尚昆, Liu Ningyi 刘宁一 and Kong Yuan 孔原 settle the press release on Mao's 毛泽东 audience for the Africans; back on the train at 12:30 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 7, 1960). The words: 与刘、孔共同定了新闻稿后，即回车上，时已12时半了 (I, 506). See [[cal.1960-05-07.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Ningyi, Kong Yuan, Mao Zedong.'
+    src:
+      c: cde201d4
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-05-07T14:00Z
+      - 1960-05-07T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-08.soviet-union-u2
     when: May 8
     date: '1960-05-08'
@@ -828,13 +1075,14 @@ entries:
     thread: china-leadership
     also: [latin-america, cuba]
     c: Zhengzhou. Mao receives labor delegations of Chile, Colombia, Costa Rica and Ecuador, writers and jurists of Argentina, Brazil, Chile, Ecuador and Peru, and Major Gálvez, Inspector General of Cuba's army; Yang Shangkun and Liu Ningyi present. China's place and Latin America's much the same.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 8, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 142 (May 8, 1960; Mao receives the Chilean Unified Workers'' Federation delegation and the delegations of eight Latin American countries; China needs time, peace and friends); [[w.jianguo-yilai-mao-zedong]], XV, 210–211 (Mao''s talk of May 8 as the press printed it (*Renmin ribao*, May 9): China, like Latin America, long oppressed and exploited by imperialism, is building its country and needs time, peace and friends; the imperialists and their dogs are few; Cuba''s fight against American imperialism admired; the delegations by note 1: Chile''s Unified Workers'' Federation, Colombian oil workers, Costa Rican and Ecuadorian trade unions and figures of Argentina, Brazil, Chile, Ecuador and Peru, and the Cuban army''s Inspector General, Major William Gálvez Rodríguez, and his wife). Made public: 2001. Names: Mao Zedong, Gálvez, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk; Gálvez''s full name (加尔维斯 in the chronology; perhaps William Gálvez).'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 8, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 142 (May 8, 1960; Mao receives the Chilean Unified Workers'' Federation delegation and the delegations of eight Latin American countries; China needs time, peace and friends); [[w.jianguo-yilai-mao-zedong]], XV, 210–211 (Mao''s talk of May 8 as the press printed it (*Renmin ribao*, May 9): China, like Latin America, long oppressed and exploited by imperialism, is building its country and needs time, peace and friends; the imperialists and their dogs are few; Cuba''s fight against American imperialism admired; the delegations by note 1: Chile''s Unified Workers'' Federation, Colombian oil workers, Costa Rican and Ecuadorian trade unions and figures of Argentina, Brazil, Chile, Ecuador and Peru, and the Cuban army''s Inspector General, Major William Gálvez Rodríguez, and his wife); [[w.yang-shangkun-riji]], I, 506 (May 8, 1960; at the Jiaoji chu, 5 to 8 p.m.; Yang with Mao). Made public: 2001. Names: Mao Zedong, Gálvez, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk; Gálvez''s full name (加尔维斯 in the chronology; perhaps William Gálvez).'
     src:
       c: 0dd84ef1
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 8, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 142: B, D'
         - 'w.jianguo-yilai-mao-zedong XV, 210–211: B, D'
+        - 'w.yang-shangkun-riji I, 506: A'
     tags: [polity:prc, polity:cuba, name:mao-zedong, vis:only:prc+cuba]
   - id: cal.1960-05-08.china-leadership-3
     when: May 8
@@ -882,6 +1130,46 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 212–213: all'
     tags: [polity:prc, polity:czechoslovakia, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai]
+  - id: cal.1960-05-08.china-leadership-7
+    when: May 8
+    date: '1960-05-08'
+    time: 1960-05-08T03:00Z
+    thread: china-leadership
+    c: Zhengzhou 郑州. Liu Ningyi 刘宁一 and Kong Yuan 孔原 with Yang Shangkun 杨尚昆 on the train, 11 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 8, 1960). The words: 11时 (I, 506). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Ningyi, Kong Yuan, Yang Shangkun.'
+    src:
+      c: 0f99ffbd
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-08.china-leadership-8
+    when: May 8
+    date: '1960-05-08'
+    time: 1960-05-08T08:30Z
+    thread: china-leadership
+    c: Zhengzhou 郑州, on the train. Mao 毛泽东 with Liu Ningyi 刘宁一, 4:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 8, 1960). The words: 4时半 (I, 506). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Liu Ningyi.'
+    src:
+      c: cc4c31b3
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-08.china-leadership-9
+    when: May 8
+    date: '1960-05-08'
+    time: 1960-05-08T15:00Z
+    time_approx: true
+    thread: china-leadership
+    c: Zhengzhou 郑州. Yang Shangkun 杨尚昆 checks the press release on the audience for the Latin Americans; back on the train at 11.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 8, 1960). The words: 看好新闻稿后上车已经11时了 (I, 506). See [[cal.1960-05-08.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4856cd5a
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-09.soviet-union
     when: May 9–11
     date: '1960-05-09'
@@ -968,13 +1256,14 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhengzhou. Mao receives Iraqi cultural and workers'' delegations and the trade unions of Iran and Cyprus; Yang Shangkun and Liu Ningyi present. Iraq''s revolution of July 14, 1958 frightened imperialism: the landing in Lebanon the next day.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 9, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 142 (May 9, 1960; Mao receives the Iraqi cultural and workers'' delegations and the Iranian and Cypriot trade-union delegations; the just struggles of all peoples have China''s firm support); [[w.jianguo-yilai-mao-zedong]], XV, 214–215 (Mao''s talk of May 9 at Zhengzhou as the press printed it (*Renmin ribao*, May 10): the greatest imperialism is the American; Chiang, Rhee, Kishi, Batista, Nuri Said and Menderes overthrown or to be overthrown; Japan''s people demonstrating against the Kishi government''s treaty with the United States, which China firmly supports; the imperialists'' days are short; a broad united front, not counting the enemy; the delegations: Iraqi cultural and workers'' delegations and the trade-union delegations of Iran and Cyprus; note 3 names the Japan–U.S. treaty of Jan. 19, 1960). Made public: 2001. Names: Mao Zedong, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 9, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 142 (May 9, 1960; Mao receives the Iraqi cultural and workers'' delegations and the Iranian and Cypriot trade-union delegations; the just struggles of all peoples have China''s firm support); [[w.jianguo-yilai-mao-zedong]], XV, 214–215 (Mao''s talk of May 9 at Zhengzhou as the press printed it (*Renmin ribao*, May 10): the greatest imperialism is the American; Chiang, Rhee, Kishi, Batista, Nuri Said and Menderes overthrown or to be overthrown; Japan''s people demonstrating against the Kishi government''s treaty with the United States, which China firmly supports; the imperialists'' days are short; a broad united front, not counting the enemy; the delegations: Iraqi cultural and workers'' delegations and the trade-union delegations of Iran and Cyprus; note 3 names the Japan–U.S. treaty of Jan. 19, 1960); [[w.yang-shangkun-riji]], I, 506 (May 9, 1960; 5 to 8 p.m.; Iranian, Iraqi and other guests). Made public: 2001. Names: Mao Zedong, Yang Shangkun, Liu Ningyi. Check: what the press printed of the talk.'
     src:
       c: 3f59e8b3
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 9, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 142: B'
         - 'w.jianguo-yilai-mao-zedong XV, 214–215: B'
+        - 'w.yang-shangkun-riji I, 506: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-09.china-leadership-2
     when: May 9
@@ -998,6 +1287,19 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 278–79: all'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai]
     time_zone: Asia/Phnom_Penh
+  - id: cal.1960-05-09.china-leadership-4
+    when: May 9
+    date: '1960-05-09'
+    time: 1960-05-09T15:00Z
+    thread: china-leadership
+    c: Zhengzhou 郑州. Yang Shangkun 杨尚昆 telephones, 11 p.m., for Deng Xiaoping 邓小平, Chen Boda 陈伯达 and Hu Sheng 胡绳 to come to Zhengzhou the next day for talks.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 9, 1960). The words: 11时上车，打电话约小平、伯达、胡绳明日来郑州谈话 (I, 506). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Chen Boda, Hu Sheng.'
+    src:
+      c: efebdcfb
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-boda, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-10.elections-1960
     when: May 10
     date: '1960-05-10'
@@ -1213,13 +1515,19 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: 'Zhengzhou, on the train, 1:30 p.m. Mao receives Major Gálvez of Cuba and his wife again, at lunch; Deng Xiaoping, Wang Jiaxiang, Yang Shangkun present. The Cuban revolution of world meaning; the question how to make it secure, by the workers and peasants. Gálvez asks open Chinese support; Mao: an open statement, and some supplies and arms too; a letter to Castro by his hand; Cuban sugar, 300,000 tons a year for five years, not 80,000.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 10, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 141 (May 5–June 5, 1960; Mao, Zhou and Chen Yi receive Gálvez, the days not given). Made public: 2001. Names: Mao Zedong, Gálvez, Deng Xiaoping, Wang Jiaxiang, Yang Shangkun, Castro.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 10, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 141 (May 5–June 5, 1960; Mao, Zhou and Chen Yi receive Gálvez, the days not given); [[w.yang-shangkun-riji]], I, 506 (May 10, 1960; 2 to 4:15 p.m.; Yang with Mao). Made public: 2001. Names: Mao Zedong, Gálvez, Deng Xiaoping, Wang Jiaxiang, Yang Shangkun, Castro.'
     src:
       c: 0a697662
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 10, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 141: B'
+        - 'w.yang-shangkun-riji I, 506: B'
     tags: [polity:prc, polity:cuba, name:mao-zedong, name:deng-xiaoping, vis:only:prc+cuba, name:castro-fidel]
+    variants:
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: from 2 p.m. to 4:15
+        at: I, 506, May 10, 1960
   - id: cal.1960-05-10.china-leadership-2
     when: May 10
     date: '1960-05-10'
@@ -1227,8 +1535,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhengzhou, on the train, 5:30 p.m. Mao with Deng Xiaoping, Chen Boda, Wang Jiaxiang, Yang Shangkun and Hu Sheng (called from Peking May 9) on international questions and Khrushchev''s recent speeches: some articles to be written.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 10, 1960. Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Chen Boda, Wang Jiaxiang, Yang Shangkun, Hu Sheng, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 10, 1960; [[w.yang-shangkun-riji]], I, 507 (May 10, 1960; 4:15 to 8:30 p.m.; Mao, Deng, Wang Jiaxiang, Chen Boda, Hu Sheng and others on international questions and Khrushchev''s latest speech; some articles to be written). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 507), before the year the note gives. Names: Mao Zedong, Deng Xiaoping, Chen Boda, Wang Jiaxiang, Yang Shangkun, Hu Sheng, Khrushchev.'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:chen-boda, name:khrushchev-nikita-s, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: from 4:15 p.m. to 8:30
+        at: I, 507, May 10, 1960
   - id: cal.1960-05-10.china-leadership-3
     when: May 10
     date: '1960-05-10'
@@ -1254,6 +1567,35 @@ entries:
       - 1960-05-10T15:00Z
     time_band: evening
     time_zone: Asia/Bangkok
+  - id: cal.1960-05-10.china-leadership-5
+    when: May 10
+    date: '1960-05-10'
+    time: 1960-05-10T03:00Z
+    thread: china-leadership
+    c: Zhengzhou 郑州. Deng Xiaoping 邓小平, Wang Jiaxiang 王稼祥, Chen Boda 陈伯达 and others arrive, 11 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 506 (May 10, 1960). The words: 上午11时 (I, 506). See [[cal.1960-05-09.china-leadership-4]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Wang Jiaxiang, Chen Boda.'
+    src:
+      c: 3b71cb38
+      rows:
+        - 'w.yang-shangkun-riji I, 506: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-boda, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-10.china-leadership-6
+    when: May 10
+    date: '1960-05-10'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Peng Zhen 彭真 from Zhengzhou 郑州.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 10, 1960). The words: 吃了饭10时半回车上。与彭真同志通话 (I, 507). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: 7999e70e
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1960-05-10T14:00Z
+      - 1960-05-10T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-11.elections-1960
     when: May 11
     date: '1960-05-11'
@@ -1434,6 +1776,69 @@ entries:
       - 1960-05-11T15:00Z
     time_band: evening
     time_zone: Asia/Bangkok
+  - id: cal.1960-05-11.china-leadership-4
+    when: May 11
+    date: '1960-05-11'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 and the others fly back to Peking 北京 from Zhengzhou 郑州.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 11, 1960). The words: 上午 (I, 507). See [[cal.1960-05-10.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: f6c42fa9
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-05-10T22:00Z
+      - 1960-05-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-11.china-leadership-5
+    when: May 11
+    date: '1960-05-11'
+    thread: china-leadership
+    c: Zhengzhou 郑州. Mao 毛泽东 at the East Suburb 东郊 people's commune, its wheat; Yang Shangkun 杨尚昆 with him.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 11, 1960). The words: 下午 (I, 507). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 9e530b0f
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-05-11T04:00Z
+      - 1960-05-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-11.china-leadership-6
+    when: May 11
+    date: '1960-05-11'
+    thread: china-leadership
+    follows:
+      - cal.1960-05-11.china-leadership-5
+    c: Zhengzhou 郑州. Mao 毛泽东 receives more than ten thousand cadres of Henan's 河南 provincial organs and sees the exhibition; Yang Shangkun 杨尚昆 with him.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 11, 1960). The words: 下午 (I, 507). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: bf4f52ef
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-05-11T04:00Z
+      - 1960-05-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-11.china-leadership-7
+    when: May 11
+    date: '1960-05-11'
+    time: 1960-05-11T11:30Z
+    thread: china-leadership
+    c: Mao's 毛泽东 train leaves Zhengzhou 郑州 for Wuhan 武汉, 7:30 p.m.; Wang Renzhong 王任重 boards at Guangshui 广水 that night; at Wuchang 武昌 at 8:25 a.m., May 12; Mao and his party lodged at the East Lake 东湖.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 11, 1960). The words: 7时半离开郑州……上午8时25分，车抵武昌 (I, 507). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Wang Renzhong.'
+    src:
+      c: 7886a4cf
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-12.students
     when: May 12–14
     date: '1960-05-12'
@@ -1605,6 +2010,28 @@ entries:
     c: Chongqing. Liu Shaoqi inspects the Chongqing Iron and Steel Company.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 12, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-12.china-leadership-5
+    when: May 12
+    date: '1960-05-12'
+    thread: china-leadership
+    c: Wuhan 武汉, the East Lake 东湖. Mao 毛泽东 has a cold and some fever.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 12, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong.'
+    src:
+      c: 76cabc26
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-05-12.china-leadership-6
+    when: May 12
+    date: '1960-05-12'
+    thread: china-leadership
+    c: Wuhan 武汉. Liu Huinong 刘惠农, mayor of Wuhan, with Yang Shangkun 杨尚昆; in the evening Yang looks over the Hongshan Hotel 洪山饭店.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 12, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Huinong, Yang Shangkun.'
+    src:
+      c: a6d7d1d8
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-05-13.jobs-and-wages
     when: May 13
     date: '1960-05-13'
@@ -1761,6 +2188,47 @@ entries:
     c: Chongqing. Liu Shaoqi visits the Hongyan Revolutionary Memorial Hall and its Zeng Jiayan memorial branch, and tours Chaotianmen wharf and Pipa Hill.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 13, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-13.china-leadership-8
+    when: May 13
+    date: '1960-05-13'
+    thread: china-leadership
+    c: Wuhan 武汉. Xie Ziqun 谢滋群, deputy mayor of Wuhan, with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 13, 1960). The words: 上午 (I, 507). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xie Ziqun, Yang Shangkun.'
+    src:
+      c: a9198835
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-12T22:00Z
+      - 1960-05-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-13.china-leadership-9
+    when: May 13
+    date: '1960-05-13'
+    time: 1960-05-13T10:00Z
+    thread: china-leadership
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆 checks the place of audience at the Hongshan Hotel 洪山饭店; at 6 p.m. to Mao 毛泽东.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 13, 1960). The words: 下午……6时去主席处 (I, 507). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: 9646d905
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-13.china-leadership-10
+    when: May 13
+    date: '1960-05-13'
+    thread: china-leadership
+    also: [japan]
+    c: Wuhan 武汉. Liao Chengzhi 廖承志, just come to Hankou 汉口, tells Yang Shangkun 杨尚昆 about the Japanese delegations.
+    n: '[[w.yang-shangkun-riji]], I, 507 (May 13, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liao Chengzhi, Yang Shangkun.'
+    src:
+      c: c77b5c75
+      rows:
+        - 'w.yang-shangkun-riji I, 507: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-05-14.foreign-aid
     when: May 14
     date: '1960-05-14'
@@ -1801,7 +2269,7 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Wuchang. Mao receives the delegations of the Japan–China Friendship Association, Sohyo and others, and Cuban, Brazilian and Argentine delegations; Yang Shangkun and Liao Chengzhi present. The new Japanese–American security treaty a military alliance against China, the Soviet Union and Asia's peoples.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 14, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 143–144 (May 14, 1960; Mao receives the Japanese, Pakistani, Brazilian and Argentine delegations; support for Japan''s struggle against the military alliance with the United States; on the U-2 shot down over the Soviet Union; support for the summit); [[w.jianguo-yilai-mao-zedong]], XV, 216–218 (May 14, 1960; the talk at Wuchang 武昌 with the delegations of the Japan–China Friendship Association 日中友好协会 and the General Council of Japanese Trade Unions 日本工会总评议会, a Japanese medical delegation, Takano Minoru 高野实 and Japanese journalists, and the Cuban student, Brazilian broadcasters'' and Argentine cultural delegations, 217 n.1; the new security treaty an aggressive military alliance against China, the Soviet Union and the Asian peoples; the U-2 shot down; support for the summit whatever its result; printed from the *Renmin ribao* 人民日报 news item of May 15, 1960, with Mao''s revisions). To check: *Renmin ribao*, May 15, 1960, the news item of Mao''s talk (cited by [[w.jianguo-yilai-mao-zedong]], XV, 217). Names: Mao Zedong, Yang Shangkun, Liao Chengzhi. Check: what the press printed of the talk. Check: answered: the *Renmin ribao* news item of May 15 (XV, 217); the *Waijiao dashiji* names a Pakistani delegation, the Wengao''s note (XV, 217 n.1) none.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 14, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 143–144 (May 14, 1960; Mao receives the Japanese, Pakistani, Brazilian and Argentine delegations; support for Japan''s struggle against the military alliance with the United States; on the U-2 shot down over the Soviet Union; support for the summit); [[w.jianguo-yilai-mao-zedong]], XV, 216–218 (May 14, 1960; the talk at Wuchang 武昌 with the delegations of the Japan–China Friendship Association 日中友好协会 and the General Council of Japanese Trade Unions 日本工会总评议会, a Japanese medical delegation, Takano Minoru 高野实 and Japanese journalists, and the Cuban student, Brazilian broadcasters'' and Argentine cultural delegations, 217 n.1; the new security treaty an aggressive military alliance against China, the Soviet Union and the Asian peoples; the U-2 shot down; support for the summit whatever its result; printed from the *Renmin ribao* 人民日报 news item of May 15, 1960, with Mao''s revisions); [[w.yang-shangkun-riji]], I, 508 (May 14, 1960; 3:30 to 5:30 p.m.; the Japanese, Cuban, Brazilian and Argentine delegations). To check: *Renmin ribao*, May 15, 1960, the news item of Mao''s talk (cited by [[w.jianguo-yilai-mao-zedong]], XV, 217). Names: Mao Zedong, Yang Shangkun, Liao Chengzhi. Check: what the press printed of the talk. Check: answered: the *Renmin ribao* news item of May 15 (XV, 217); the *Waijiao dashiji* names a Pakistani delegation, the Wengao''s note (XV, 217 n.1) none.'
     src:
       c: ae6ca4fa
       rows:
@@ -1809,6 +2277,7 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 143–144: B, D'
         - 'w.jianguo-yilai-mao-zedong XV, 216–218: A, B, D'
         - 'via x.1960-05-15.renmin-ribao-news-item-mao-talk-wuchang-delegations: A, B, D'
+        - 'w.yang-shangkun-riji I, 508: A'
     tags: [polity:prc, name:mao-zedong]
   - id: cal.1960-05-14.china-leadership-2
     when: May 14
@@ -1846,6 +2315,59 @@ entries:
     c: Chongqing. Liu Shaoqi inspects the Chongqing construction machine-tool plant and the state-run Chongqing air compressor plant.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 14, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-14.china-leadership-5
+    when: May 14
+    date: '1960-05-14'
+    thread: china-leadership
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆 with Liao Chengzhi 廖承志.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 14, 1960). The words: 上午 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liao Chengzhi.'
+    src:
+      c: 4272a23a
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-13T22:00Z
+      - 1960-05-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-14.china-leadership-6
+    when: May 14
+    date: '1960-05-14'
+    time: 1960-05-14T03:00Z
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆, by telephone, with Zhou Enlai 周恩来 at Nanning 南宁, back from Vietnam 越南: his coming to Wuhan 武汉 to report.'
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 14, 1960). The words: 11时 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: f6f266a4
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-14.china-leadership-7
+    when: May 14
+    date: '1960-05-14'
+    thread: china-leadership
+    follows:
+      - cal.1960-05-14.china-leadership-6
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆 with Mao 毛泽东 on Zhou Enlai's 周恩来 journey and the afternoon's audience for the Japanese delegations.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 14, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Zhou Enlai.'
+    src:
+      c: d48f104c
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-05-14.china-leadership-8
+    when: May 14
+    date: '1960-05-14'
+    thread: china-leadership
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆 and Liao Chengzhi 廖承志 prepare the press release on Mao's 毛泽东 audience; back at the East Lake at 7:30.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 14, 1960). The words: 与廖搞好新闻稿子回东湖，时已7时半了 (I, 508). See [[cal.1960-05-14.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liao Chengzhi, Mao Zedong.'
+    src:
+      c: 14c943d8
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-15.soviet-union
     when: May 15–17
     date: '1960-05-15'
@@ -1931,6 +2453,19 @@ entries:
     c: Liu Shaoqi boards the steamer Jiangxia and leaves Chongqing down the Yangtze.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 15, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-15.china-leadership-3
+    when: May 15
+    date: '1960-05-15'
+    time: 1960-05-15T14:00Z
+    thread: china-leadership
+    c: Wuhan 武汉, the Hongshan 洪山 auditorium. Mao 毛泽东 receives the members of Hubei's 湖北 provincial conference on culture and education, 10 p.m.; Yang Shangkun 杨尚昆 with him.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 15, 1960). The words: 晚间10时 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: b49a333f
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-16.soviet-union-u2
     when: May 16
     date: '1960-05-16'
@@ -2006,7 +2541,7 @@ entries:
     thread: china-leadership
     also: [south-asia, soviet-union]
     c: 'Wuchang, evening. Zhou Enlai and Chen Yi report to Mao on their visits to Burma, India, Nepal, Cambodia and Vietnam; Sino-American relations, Sino-Soviet unity. Mao to Zhou, the same day: Eisenhower''s statement of May 11 on the U-2 "very important."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 16, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320, May 16, 1960 (Zhou''s and Chen Yi''s report to Mao that evening); [[w.lengxi-shinian-lunzhan-1956-1966]], 268 (Mao talked with Zhou "a morning" on the 16th); [[w.jianguo-yilai-mao-zedong]], XV, 219–220 (May 16, 1960; Mao''s 毛泽东 note to Zhou: look at p. 45, the American President''s talk, very important; written on the *Cankao ziliao* 参考资料 no. 3590 (Xinhua, May 12, 1960); printed from the manuscript). Made public: 1997. Check: the hour: Wu (268) has Mao talk with Zhou for a morning on the 16th; the Zhou nianpu has the report that evening. To check: Xinhua, *Cankao ziliao* 参考资料 no. 3590, May 12, 1960, pp. 45–52, ''The USIS reports Eisenhower''s press conference of the 11th'' (his statement on the U-2: the need for intelligence gathering, its nature, how to view it, the ''open skies'' plan) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 219 n.2). Names: Zhou Enlai, Chen Yi, Mao Zedong, Eisenhower.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 16, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320, May 16, 1960 (Zhou''s and Chen Yi''s report to Mao that evening); [[w.lengxi-shinian-lunzhan-1956-1966]], 268 (Mao talked with Zhou "a morning" on the 16th); [[w.jianguo-yilai-mao-zedong]], XV, 219–220 (May 16, 1960; Mao''s 毛泽东 note to Zhou: look at p. 45, the American President''s talk, very important; written on the *Cankao ziliao* 参考资料 no. 3590 (Xinhua, May 12, 1960); printed from the manuscript); [[w.yang-shangkun-riji]], I, 508 (May 16, 1960; 9 p.m. to 12:30; Mao, Zhou and Chen Yi; Yang there). Made public: 1997. Check: the hour: Wu (268) has Mao talk with Zhou for a morning on the 16th; the Zhou nianpu has the report that evening. To check: Xinhua, *Cankao ziliao* 参考资料 no. 3590, May 12, 1960, pp. 45–52, ''The USIS reports Eisenhower''s press conference of the 11th'' (his statement on the U-2: the need for intelligence gathering, its nature, how to view it, the ''open skies'' plan) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 219 n.2). Names: Zhou Enlai, Chen Yi, Mao Zedong, Eisenhower.'
     src:
       c: cfacfbd5
       rows:
@@ -2015,6 +2550,7 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 268: D'
         - 'w.jianguo-yilai-mao-zedong XV, 219–220: D'
         - 'via w.jianguo-yilai-mao-zedong XV, 219 n.2: D'
+        - 'w.yang-shangkun-riji I, 508: A'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:mao-zedong, name:eisenhower-dwight-d, vis:only:prc]
   - id: cal.1960-05-16.china-leadership-2
     when: May 16
@@ -2051,6 +2587,65 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 144: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1960-05-16.china-leadership-5
+    when: May 16
+    date: '1960-05-16'
+    thread: china-leadership
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆 meets Zhou Enlai 周恩来 and his party at the Hankou 汉口 airport.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960). The words: 上午8时起床，去汉口机场 (I, 508). See [[cal.1960-05-15.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: '58050452'
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1960-05-15T22:00Z
+      - 1960-05-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-16.china-leadership-6
+    when: May 16
+    date: '1960-05-16'
+    thread: china-leadership
+    c: Wuhan 武汉. Li Shuhuai 李树槐 and others with Yang Shangkun 杨尚昆 on their journey abroad.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960). The words: 下午 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Shuhuai, Yang Shangkun.'
+    src:
+      c: 8df828cf
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-16T04:00Z
+      - 1960-05-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-16.china-leadership-7
+    when: May 16
+    date: '1960-05-16'
+    thread: china-leadership
+    c: Wuhan 武汉. Zhang Yan 张彦, deputy director of the State Council's Foreign Affairs Office, and Luo Qingchang 罗青长 report to Yang Shangkun 杨尚昆, to 2:30 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960). The words: 张彦、罗青长同志来汇报到2时半 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Yan, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: da616916
+      rows:
+        - 'w.yang-shangkun-riji I, 508: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-16T14:00Z
+      - 1960-05-16T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-16.china-leadership-8
+    when: May 16
+    date: '1960-05-16'
+    thread: china-leadership
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆, meaning to go back to Peking 北京 with Zhou Enlai 周恩来 and Chen Yi 陈毅, asks Mao 毛泽东; he is to stay with Mao's party.
+    n: '[[w.yang-shangkun-riji]], I, 509 (May 16, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai, Chen Yi, Mao Zedong.'
+    src:
+      c: 33384b47
+      rows:
+        - 'w.yang-shangkun-riji I, 509: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:mao-zedong, vis:only:prc]
   - id: cal.1960-05-17.elections-1960
     when: May 17
     date: '1960-05-17'
@@ -2159,12 +2754,13 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Wuchang, the Hongshan Hotel. Mao receives the delegation of the Algerian Provisional Government under Krim Belkacem, Vice Premier and Foreign Minister; Yang Shangkun and Ji Pengfei present. Support "not only moral but material"; independence only by fighting; talk and fight both.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 17, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 140 (Apr. 30–May 20, 1960; Mao and Zhu De receive the delegation, the day not given). Made public: 2001. Names: Mao Zedong, Krim Belkacem, Yang Shangkun, Ji Pengfei, Li Qiang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 17, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 140 (Apr. 30–May 20, 1960; Mao and Zhu De receive the delegation, the day not given); [[w.yang-shangkun-riji]], I, 509 (May 17, 1960; 5:30 to 8 p.m., at the Hongshan Hotel; Yang there). Made public: 2001. Names: Mao Zedong, Krim Belkacem, Yang Shangkun, Ji Pengfei, Li Qiang.'
     src:
       c: 14a560c1
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 17, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 140: B'
+        - 'w.yang-shangkun-riji I, 509: A, B'
     tags: [polity:prc, polity:algeria, name:mao-zedong, name:ji-pengfei, vis:only:prc+algeria]
   - id: cal.1960-05-17.china-leadership-2
     when: May 17
@@ -2172,13 +2768,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai back in Peking; in the afternoon at the Politburo meeting Deng Xiaoping chairs, on the international situation and some questions of the visit to India and the other countries.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 320 (May 17, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 268–269 (Zhou back that day; the Politburo meeting that afternoon, Deng chairing, he conveys Mao''s views: Khrushchev has hardened, the summit will be wrecked, support him; mass meeting at Tiananmen; propaganda to hit Eisenhower); [[w.zhou-enlai-waijiao-huodong]], 280 (May 17, 1960; 上午, 回到北京; at the airport, Soong Ching Ling, Zhu De, Lin Biao and Deng Xiaoping). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 320 (May 17, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 268–269 (Zhou back that day; the Politburo meeting that afternoon, Deng chairing, he conveys Mao''s views: Khrushchev has hardened, the summit will be wrecked, support him; mass meeting at Tiananmen; propaganda to hit Eisenhower); [[w.zhou-enlai-waijiao-huodong]], 280 (May 17, 1960; 上午, 回到北京; at the airport, Soong Ching Ling, Zhu De, Lin Biao and Deng Xiaoping); [[w.yang-shangkun-riji]], I, 509 (May 17, 1960; Yang to the Baihuacun at 8 a.m. to see Zhou''s party, and rides with Zhou to the airport, talking in the car). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping.'
     src:
       c: a22e6309
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 320: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 268–269: A, B'
         - 'w.zhou-enlai-waijiao-huodong 280: A'
+        - 'w.yang-shangkun-riji I, 509: A'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-05-16T22:00Z
@@ -2193,6 +2790,36 @@ entries:
     c: Liu Shaoqi reaches Wuhan.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 17, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-17.china-leadership-4
+    when: May 17
+    date: '1960-05-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Wuhan 武汉. Yang Shangkun 杨尚昆 with Mao 毛泽东: Khrushchev''s 赫鲁晓夫 hard statement at the Paris summit (no session unless the United States condemns the U-2 incursion, guarantees against another and punishes the culprits; else he goes home), and Mao''s comments on it.'
+    n: '[[w.yang-shangkun-riji]], I, 509 (May 17, 1960). The words: 下午见主席 (I, 509). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Khrushchev.'
+    src:
+      c: f546ccbb
+      rows:
+        - 'w.yang-shangkun-riji I, 509: all'
+    tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1960-05-17T04:00Z
+      - 1960-05-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-17.china-leadership-5
+    when: May 17
+    date: '1960-05-17'
+    time: 1960-05-17T13:00Z
+    thread: china-leadership
+    c: Mao's 毛泽东 train leaves Wuhan 武汉 for Changsha 长沙, 9 p.m., Yang Shangkun 杨尚昆 aboard; on a branch line at Changsha at 3 the next morning, in rain and wind.
+    n: '[[w.yang-shangkun-riji]], I, 509 (May 17, 1960). The words: 9时上车，开长沙……上午3时到达长沙 (I, 509). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: b19dcd9c
+      rows:
+        - 'w.yang-shangkun-riji I, 509: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-18.soviet-union-u2
     when: May 18
     date: '1960-05-18'
@@ -2231,6 +2858,33 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 221–222: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ho-chi-minh]
+  - id: cal.1960-05-18.china-leadership-3
+    when: May 18
+    date: '1960-05-18'
+    thread: china-leadership
+    c: Changsha 长沙. Zhang Pinghua 张平化, first secretary of Hunan 湖南, and Yang Shangkui 杨尚奎, first secretary of Jiangxi 江西, and their wives come aboard the train to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 509 (May 18, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Pinghua, Yang Shangkui, Yang Shangkun.'
+    src:
+      c: 4ec6c397
+      rows:
+        - 'w.yang-shangkun-riji I, 509: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05-18.china-leadership-4
+    when: May 18
+    date: '1960-05-18'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, by telephone from Changsha 长沙 to Peking 北京, asks Zhou Enlai 周恩来 and the others to come to Hangzhou 杭州 on the 21st.
+    n: '[[w.yang-shangkun-riji]], I, 509 (May 18, 1960). The words: 晚间 (I, 509). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: 68370a7a
+      rows:
+        - 'w.yang-shangkun-riji I, 509: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1960-05-18T11:00Z
+      - 1960-05-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-19.japan-and-korea
     when: May 19–20
     date: '1960-05-19'
@@ -2282,7 +2936,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, on the train past Zhuzhou, has Yang Shangkun tell Deng Xiaoping: mass meetings everywhere to back the Soviet stand on the four-power summit (broken up May 17), Peking''s the next day.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 19, 1960, and note 72. Made public: 2013. Names: Mao Zedong, Yang Shangkun, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 19, 1960, and note 72; [[w.yang-shangkun-riji]], I, 509–510 (May 19, 1960; passing Zhuzhou, after 3 p.m.; Peking''s rally the next day). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 509–510), before the year the note gives. Names: Mao Zedong, Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 12ae5ff4
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, May 19, 1960, and note 72: all'
+        - 'w.yang-shangkun-riji I, 509–510: A'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1960-05-19.china-leadership-2
     when: May 19
@@ -2333,6 +2992,53 @@ entries:
     c: Wuhan. Liu Shaoqi hears the Hubei Party committee's officials on their work.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 19, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-19.china-leadership-6
+    when: May 19
+    date: '1960-05-19'
+    time: 1960-05-19T07:00Z
+    thread: china-leadership
+    c: Mao's 毛泽东 train leaves Changsha 长沙, 3 p.m.; at Nanchang 南昌 at 11:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 509 (May 19, 1960). The words: 下午3时开车……晚11时半到达南昌 (I, 509). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong.'
+    src:
+      c: 12ce1911
+      rows:
+        - 'w.yang-shangkun-riji I, 509: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-19.china-leadership-7
+    when: May 19
+    date: '1960-05-19'
+    thread: china-leadership
+    follows:
+      - cal.1960-05-19.china-leadership-6
+    c: Nanchang 南昌. Yang Shangkun 杨尚昆, by telephone, passes Mao's 毛泽东 instructions to Peng Zhen 彭真, and asks Ke Qingshi 柯庆施 to be at Hangzhou 杭州 on the morning of the 21st.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 19, 1960). The words: 晚11时半到达南昌，下车去招待所 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Peng Zhen, Ke Qingshi.'
+    src:
+      c: 57b3c814
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1960-05-19T14:00Z
+      - 1960-05-19T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-19.china-leadership-8
+    when: May 19
+    date: '1960-05-19'
+    thread: china-leadership
+    c: Nanchang 南昌. Mao 毛泽东 dances; back to the train with Yang Shangkun 杨尚昆 at 3 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 19, 1960). The words: 3时返车上，主席亦于跳完舞后同回 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 2ee2aadc
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1960-05-19T14:00Z
+      - 1960-05-19T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-20.elections-1960
     when: May 20
     date: '1960-05-20'
@@ -2464,6 +3170,30 @@ entries:
     c: Liu Shaoqi leaves Wuhan for Zhejiang through Hunan and Jiangxi. On the train at Changsha and Nanchang he talks with the Hunan and Jiangxi committees' officials.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 20, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-20.china-leadership-3
+    when: May 20
+    date: '1960-05-20'
+    thread: china-leadership
+    c: Nanchang 南昌. Yang Shangkui 杨尚奎, Zhang Pinghua 张平化, Wang Dongxing 汪东兴 and Fang Zhichun 方志纯 come aboard the train to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 20, 1960). The words: 11时才起床 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkui, Zhang Pinghua, Wang Dongxing, Fang Zhichun, Yang Shangkun.'
+    src:
+      c: 3484cdbe
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05-20.china-leadership-4
+    when: May 20
+    date: '1960-05-20'
+    time: 1960-05-20T09:00Z
+    thread: china-leadership
+    c: Nanchang 南昌. Mao 毛泽东 has them all to dinner, 5 p.m.; at 6 the train leaves Xiangtang 向塘 for Jinhua 金华.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 20, 1960). The words: 5时主席约大家吃饭。6时由向塘开车赴金华 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong.'
+    src:
+      c: 54426da6
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-21.elections-1960
     when: May 21–June 27
     date: '1960-05-21'
@@ -2538,13 +3268,14 @@ entries:
     thread: china-leadership
     also: [korea, soviet-union]
     c: 'Hangzhou, the Nanping pool, evening. Mao receives Kim Il Sung; Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kang Sheng, Chen Boda, Wang Jiaxiang and others present. Korea and Albania with China; the seventeen parties'' meeting at Rome and the Warsaw meeting revisionist and aimed at China; Kim: Khrushchev told him in 1955 not to oppose America. The U-2 forced Khrushchev to Paris to expose, not to meet. Twenty years of peace good; but two hands; atomic bombs for all.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 21, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320, May 21, 1960 (Zhou with Mao at the reception of Kim Il Sung); [[w.lengxi-shinian-lunzhan-1956-1966]], 269–270 (Mao receives Kim Il Sung at Hangzhou on the 21st, who came to exchange views after the summit''s collapse; the first exchange of the two parties'' views on the CPSU after the 20th Congress). Made public: 1997. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 21, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320, May 21, 1960 (Zhou with Mao at the reception of Kim Il Sung); [[w.lengxi-shinian-lunzhan-1956-1966]], 269–270 (Mao receives Kim Il Sung at Hangzhou on the 21st, who came to exchange views after the summit''s collapse; the first exchange of the two parties'' views on the CPSU after the 20th Congress); [[w.yang-shangkun-riji]], I, 510 (May 21, 1960; Mao''s party at Hangzhou at 6:15 p.m., straight to the swimming place; Kim Il Sung, Liu, Zhou, Deng there; talks from about 7 to midnight). Made public: 1997. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua, Khrushchev.'
     src:
       c: 814f2ac3
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 21, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 320, May 21, 1960: B-C'
         - 'w.lengxi-shinian-lunzhan-1956-1966 269–270: B'
+        - 'w.yang-shangkun-riji I, 510: A, B'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc+dprk]
   - id: cal.1960-05-21.china-leadership-2
     when: May 21
@@ -2573,6 +3304,48 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 144: all'
     tags: [polity:prc, polity:singapore, name:chen-yi, vis:only:prc+singapore]
+  - id: cal.1960-05-21.china-leadership-5
+    when: May 21
+    date: '1960-05-21'
+    time: 1960-05-20T20:00Z
+    thread: china-leadership
+    c: Jinhua 金华, Zhejiang 浙江. Wang Fang 王芳, director of Zhejiang's Public Security Department, with Yang Shangkun 杨尚昆, 4 a.m., after the train's arrival at 1.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 21, 1960). The words: 晨1时车到金华。4时王芳同志来谈 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Fang, Yang Shangkun.'
+    src:
+      c: 9449b650
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-21.china-leadership-6
+    when: May 21
+    date: '1960-05-21'
+    time: 1960-05-21T02:00Z
+    thread: china-leadership
+    c: Jinhua 金华. Yang Shangkun 杨尚昆 in the town, 10 a.m.; in a village beside the train he visits peasant households and asks about production and life.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 21, 1960). The words: 10时乘汽车去金华城转了一趟 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bc9ff66a
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-21.china-leadership-7
+    when: May 21
+    date: '1960-05-21'
+    thread: china-leadership
+    c: Hangzhou 杭州. Yang Shangkun 杨尚昆, lodged at the Hangzhou Hotel 杭州饭店 with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Ke Qingshi 柯庆施, telephones Peng Zhen 彭真.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 21, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Peng Zhen.'
+    src:
+      c: 0b77d96a
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1960-05-21T14:00Z
+      - 1960-05-21T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-22.elections-1960-nomination
     when: May 22
     date: '1960-05-22'
@@ -2586,7 +3359,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Hangzhou, the Nanping pool. Mao''s meeting: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua. After the summit''s break: imperialism unchanged; Khrushchev "twelve changes in an hour," pushed by America; the fight with the CPSU by articles, "pointing at the mulberry to curse the locust," and no break. The enlarged Politburo at Shanghai June 8 (the three-year plan, the world), the Eighth Congress''s third session in late June.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 22, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320–21, May 22, 1960 (Zhou at the enlarged Standing Committee meeting); [[w.lengxi-shinian-lunzhan-1956-1966]], 270 (the Standing Committee at Hangzhou; Liu from Wuhan, Zhou and Deng from Peking with Kim, Chen Yun attending; Wu not there; on the summit''s collapse and Khrushchev); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 21–22, 1960; Liu attends the Politburo Standing Committee''s meeting at Hangzhou, chiefly on the international situation and Sino-Soviet relations). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 22, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320–21, May 22, 1960 (Zhou at the enlarged Standing Committee meeting); [[w.lengxi-shinian-lunzhan-1956-1966]], 270 (the Standing Committee at Hangzhou; Liu from Wuhan, Zhou and Deng from Peking with Kim, Chen Yun attending; Wu not there; on the summit''s collapse and Khrushchev); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 21–22, 1960; Liu attends the Politburo Standing Committee''s meeting at Hangzhou, chiefly on the international situation and Sino-Soviet relations); [[w.yang-shangkun-riji]], I, 511 (May 22, 1960; 5 to 10 p.m., at Mao''s swimming pool: the situation; the Party and government delegation to the Soviet Union; an enlarged Politburo on June 8; the Eighth Congress''s third session on June 25 (never held, by the editors'' note)). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Lu Dingyi, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun, Jiang Hua, Khrushchev.'
     src:
       c: 19fb8903
       rows:
@@ -2594,7 +3367,72 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 320–21, May 22, 1960: B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 270: B, C, D'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 486: B'
+        - 'w.yang-shangkun-riji I, 511: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1960-05-22.china-leadership-3
+    when: May 22
+    date: '1960-05-22'
+    time: 1960-05-22T00:00Z
+    thread: china-leadership
+    also: [korea]
+    c: Hangzhou 杭州. Yang Shangkun 杨尚昆, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Wang Jiaxiang 王稼祥 see Kim Il Sung 金日成 off at the airport for Peking 北京, 8 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 22, 1960). The words: 8时 (I, 510). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai, Deng Xiaoping, Wang Jiaxiang, Kim Il Sung.'
+    src:
+      c: 9d5f5071
+      rows:
+        - 'w.yang-shangkun-riji I, 510: all'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:kim-il-sung, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-22.china-leadership-4
+    when: May 22
+    date: '1960-05-22'
+    thread: china-leadership
+    c: Hangzhou 杭州. The leaders together on the West Lake 西湖 by launch, to Santan yinyue 三潭印月; back at 11:30.
+    n: '[[w.yang-shangkun-riji]], I, 511 (May 22, 1960). The words: 11时半返回 (I, 511). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: fb28870b
+      rows:
+        - 'w.yang-shangkun-riji I, 511: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-21T22:00Z
+      - 1960-05-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-22.china-leadership-5
+    when: May 22
+    date: '1960-05-22'
+    thread: china-leadership
+    follows:
+      - cal.1960-05-22.china-leadership-4
+    c: Hangzhou 杭州. Yang Shangkun 杨尚昆 with Ke Qingshi 柯庆施.
+    n: '[[w.yang-shangkun-riji]], I, 511 (May 22, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ke Qingshi.'
+    src:
+      c: 2f91433f
+      rows:
+        - 'w.yang-shangkun-riji I, 511: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1960-05-22T14:00Z
+      - 1960-05-22T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-22.china-leadership-6
+    when: May 22
+    date: '1960-05-22'
+    thread: china-leadership
+    c: Hangzhou 杭州. Luo Daorang 罗道让 and Lai Zulie 赖祖烈 ask Yang Shangkun's 杨尚昆 instructions on the works in Zhongnanhai 中南海, to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 511 (May 22, 1960). The words: 2时才睡 (I, 511). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Luo Daorang, Lai Zulie, Yang Shangkun.'
+    src:
+      c: 757d9176
+      rows:
+        - 'w.yang-shangkun-riji I, 511: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-22T14:00Z
+      - 1960-05-22T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-23.soviet-union
     when: May 23–26
     date: '1960-05-23'
@@ -2668,7 +3506,12 @@ entries:
     date: '1960-05-23'
     thread: china-leadership
     c: Zhou Enlai back in Peking.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 321 (May 23, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 321 (May 23, 1960); [[w.yang-shangkun-riji]], I, 511 (May 23, 1960; Yang sees Zhou and Deng off at the Hangzhou airport at 9 a.m.; Kang Sheng and he stay). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: d26914a6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 321: ?'
+        - 'w.yang-shangkun-riji I, 511: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-05-23.china-leadership-2
     when: May 23
@@ -2676,7 +3519,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Hangzhou. Liu Shaoqi talks with the Zhejiang Party committee's officials, then leaves for Shanghai.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 23, 1960). The departure is marked as a second item of the day (△). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 23, 1960); [[w.yang-shangkun-riji]], I, 511 (May 23, 1960; Yang calls on Liu at 2 p.m.; Liu and Ke Qingshi leave for Shanghai at 2:30). The departure is marked as a second item of the day (△). Made public: 1996. Names: Liu Shaoqi.'
+    src:
+      c: 63e72d47
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 486: ?'
+        - 'w.yang-shangkun-riji I, 511: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-05-23.china
     when: May 23
@@ -2690,6 +3538,22 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 144–145: all'
     tags: [polity:prc, polity:dprk]
+  - id: cal.1960-05-23.china-leadership-3
+    when: May 23
+    date: '1960-05-23'
+    thread: china-leadership
+    c: Hangzhou 杭州. Yang Shangkun 杨尚昆 and Ke Qingshi 柯庆施 at Liuzhuang 刘庄 to see the houses, to 11:30.
+    n: '[[w.yang-shangkun-riji]], I, 511 (May 23, 1960). The words: 11时半始回 (I, 511). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ke Qingshi.'
+    src:
+      c: 060f2bc3
+      rows:
+        - 'w.yang-shangkun-riji I, 511: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1960-05-22T22:00Z
+      - 1960-05-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-24.elections-1960
     when: May 24
     date: '1960-05-24'
@@ -2781,6 +3645,33 @@ entries:
     c: Shanghai. Liu Shaoqi visits the Shanghai industrial exhibition.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 24, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-24.china-leadership-4
+    when: May 24
+    date: '1960-05-24'
+    time: 1960-05-24T04:00Z
+    time_approx: true
+    thread: china-leadership
+    c: Hangzhou 杭州. Tian Jiaying 田家英 and Yao Zhen 姚溱, deputy head of the Propaganda Department, arrive at noon.
+    n: '[[w.yang-shangkun-riji]], I, 511 (May 24, 1960). The words: 中午 (I, 511). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yao Zhen.'
+    src:
+      c: f5ca3000
+      rows:
+        - 'w.yang-shangkun-riji I, 511: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-24.china-leadership-5
+    when: May 24
+    date: '1960-05-24'
+    time: 1960-05-24T09:00Z
+    thread: china-leadership
+    c: 'Hangzhou 杭州, Mao''s 毛泽东 swimming pool, 5 to 8:30 p.m.: the notes to the fourth volume of his *Selected Works* 毛选第四卷; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 511 (May 24, 1960). The words: 下午5时至8时半 (I, 511). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 4236795f
+      rows:
+        - 'w.yang-shangkun-riji I, 511: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-25.soviet-union
     when: May 25
     date: '1960-05-25'
@@ -2885,6 +3776,72 @@ entries:
     c: Shanghai. Liu Shaoqi inspects the Taishan chemical plant, the Shanghai electric machinery plant and the Shanghai steam turbine and generator plant.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 486 (May 25, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-25.china-leadership-6
+    when: May 25
+    date: '1960-05-25'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Chinese climbers reach the summit of Mount Everest 珠穆朗玛, as Yang Shangkun 杨尚昆 records it.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 25, 1960). Names: Yang Shangkun. Check: the press of the day.'
+    src:
+      c: 3e1745b8
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc]
+  - id: cal.1960-05-25.china-leadership-7
+    when: May 25
+    date: '1960-05-25'
+    thread: china-leadership
+    also: [cuba]
+    c: Hangzhou 杭州. Yang Shangkun 杨尚昆 and others on how Mao's 毛泽东 letter to Fidel Castro 卡斯特罗 is to be written.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 25, 1960). The words: 上午 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Fidel Castro.'
+    src:
+      c: 12ea7744
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:mao-zedong, name:castro-fidel, vis:only:prc]
+    time_range:
+      - 1960-05-24T22:00Z
+      - 1960-05-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-25.china-leadership-8
+    when: May 25
+    date: '1960-05-25'
+    thread: china-leadership
+    c: Hangzhou 杭州. Yang Shangkun 杨尚昆 calls on Li Xuefeng 李雪峰, member of the Secretariat, resting there.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 25, 1960). The words: 中午 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Xuefeng.'
+    src:
+      c: 409e603b
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05-25.china-leadership-9
+    when: May 25
+    date: '1960-05-25'
+    time: 1960-05-25T08:30Z
+    thread: china-leadership
+    c: 'Hangzhou 杭州, Mao''s 毛泽东 swimming pool, 4:30 to 9 p.m.: the notes to the fourth volume of the *Selected Works* 毛选 again; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 25, 1960). The words: 下午4时半到9时 (I, 512). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 4afcb3a8
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-25.china-leadership-10
+    when: May 25
+    date: '1960-05-25'
+    time: 1960-05-25T13:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 leaves Hangzhou 杭州 for Shanghai 上海 by train, 9 p.m.; off at the West Station 西站 at midnight, he and Kang Sheng 康生 go to the Dingxiang Garden 丁香花园.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 25, 1960). The words: 9时上火车去上海。12时在西站下车 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: 7e09535d
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-26.school-aid
     when: May 26
     date: '1960-05-26'
@@ -2984,6 +3941,33 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 145: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1960-05-26.china-leadership-7
+    when: May 26
+    date: '1960-05-26'
+    time: 1960-05-25T22:00Z
+    thread: china-leadership
+    also: [europe-and-the-alliance-britain]
+    c: Shanghai 上海. Mao 毛泽东 calls Yang Shangkun 杨尚昆 onto the train, 6 a.m., on the preparations for Montgomery's 蒙哥马利 coming to Shanghai.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 26, 1960). The words: 上午6时，主席叫上车 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun, Montgomery.'
+    src:
+      c: e0f3860b
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:mao-zedong, name:montgomery-of-alamein-bernard-l, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-26.china-leadership-8
+    when: May 26
+    date: '1960-05-26'
+    time: 1960-05-26T16:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Zhou Enlai 周恩来 from Shanghai 上海, midnight.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 26, 1960). The words: 12时与周恩来同志通话 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: e6bf56b9
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-27.soviet-union
     when: May 27–June 2
     date: '1960-05-27'
@@ -3064,12 +4048,13 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain]
     c: 'Shanghai, the Culture Club. Mao receives Field Marshal Montgomery at dinner; Ke Qingshi present. Not hot war, not coexistence: "cold-war coexistence." Britain and France stronger welcome, America, West Germany and Japan restrained; the threat to China from America and Japan. Montgomery: foreign troops home, the occupation of Europe ended, Taiwan settled; he will rouse opinion; Mao agrees, but America "yields not an inch."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 27, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145 (May 23–28, 1960; Mao receives Montgomery, the day not given; Britain has no formal relations with Taiwan and favors Peking''s representation but at the U.N. stands with the United States and keeps a consulate on Taiwan). Made public: 2001. Names: Mao Zedong, Montgomery, Ke Qingshi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 27, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145 (May 23–28, 1960; Mao receives Montgomery, the day not given; Britain has no formal relations with Taiwan and favors Peking''s representation but at the U.N. stands with the United States and keeps a consulate on Taiwan); [[w.yang-shangkun-riji]], I, 512 (May 27, 1960; the afternoon; Ke Qingshi with Mao). Made public: 2001. Check: the hour: the diary has Mao receive Montgomery in the afternoon (下午), the chronology at dinner. Names: Mao Zedong, Montgomery, Ke Qingshi.'
     src:
       c: 627e7c8d
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, May 27, 1960: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 145: B'
+        - 'w.yang-shangkun-riji I, 512: B'
     tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, name:ke-qingshi, vis:only:prc+uk]
   - id: cal.1960-05-27.china-leadership-2
     when: May 27
@@ -3161,6 +4146,39 @@ entries:
     c: Liu Shaoqi leaves Shanghai for Peking. On the train at Nanjing he talks with the Jiangsu committee's officials.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (May 27, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-27.china-leadership-8
+    when: May 27
+    date: '1960-05-27'
+    thread: china-leadership
+    also: [europe-and-the-alliance-britain]
+    c: Shanghai 上海, the Dingxiang Garden 丁香花园. Pu Shouchang 浦寿昌, Zhou Enlai's foreign-affairs secretary, and Rong Gaotang 荣高棠, arrived with Montgomery 蒙哥马利 that morning, report to Yang Shangkun 杨尚昆 on him.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 27, 1960). The words: 上午 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Pu Shouchang, Rong Gaotang, Montgomery, Yang Shangkun.'
+    src:
+      c: 87afc679
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:montgomery-of-alamein-bernard-l, vis:only:prc]
+    time_range:
+      - 1960-05-26T22:00Z
+      - 1960-05-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-27.china-leadership-9
+    when: May 27
+    date: '1960-05-27'
+    time: 1960-05-27T04:00Z
+    thread: china-leadership
+    also: [europe-and-the-alliance-britain]
+    follows:
+      - cal.1960-05-27.china-leadership-8
+    c: Shanghai 上海. Ke Qingshi 柯庆施 gives Montgomery 蒙哥马利 a luncheon, noon.
+    n: '[[w.yang-shangkun-riji]], I, 512 (May 27, 1960). The words: 柯老12时宴请蒙 (I, 512). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ke Qingshi, Montgomery.'
+    src:
+      c: 1b711d53
+      rows:
+        - 'w.yang-shangkun-riji I, 512: all'
+    tags: [polity:prc, name:ke-qingshi, name:montgomery-of-alamein-bernard-l]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-28.king
     when: May 28
     date: '1960-05-28'
@@ -3219,7 +4237,12 @@ entries:
     date: '1960-05-28'
     thread: china-leadership
     c: Shanghai, on the train. Mao receives Knud Jespersen, chairman of the Danish Communist Party, and his wife; Kang Sheng and Yang Shangkun present. The Moscow Declaration of 1957 the only one, now dropped by many parties; the seventeen parties' appeal wrong in important parts.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 28, 1960. Made public: 2013. Names: Mao Zedong, Jespersen, Kang Sheng, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 28, 1960; [[w.yang-shangkun-riji]], I, 513 (May 28, 1960; 3:30 p.m.). Made public: 2013. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 513), before the year the note gives. Names: Mao Zedong, Jespersen, Kang Sheng, Yang Shangkun.'
+    src:
+      c: 4afd9539
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, May 28, 1960: all'
+        - 'w.yang-shangkun-riji I, 513: A'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
   - id: cal.1960-05-28.china-leadership-2
     when: May 28
@@ -3261,6 +4284,35 @@ entries:
     c: On the train at Jinan, Liu Shaoqi talks with the Shandong committee's officials. He returns to Peking.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (May 28, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-05-28.china-leadership-5
+    when: May 28
+    date: '1960-05-28'
+    thread: china-leadership
+    c: Shanghai 上海. Yang Shangkun 杨尚昆 at the industrial exhibition hall.
+    n: '[[w.yang-shangkun-riji]], I, 513 (May 28, 1960). The words: 上午 (I, 513). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 69b0d265
+      rows:
+        - 'w.yang-shangkun-riji I, 513: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-05-27T22:00Z
+      - 1960-05-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-28.china-leadership-6
+    when: May 28
+    date: '1960-05-28'
+    time: 1960-05-28T11:30Z
+    thread: china-leadership
+    c: Shanghai 上海. Mao 毛泽东 at the small exhibition at "No. 200" 200号, 7:30 to 9 p.m.; Yang Shangkun 杨尚昆 with him.
+    n: '[[w.yang-shangkun-riji]], I, 513 (May 28, 1960). The words: 7时半到9时 (I, 513). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 3bf3257c
+      rows:
+        - 'w.yang-shangkun-riji I, 513: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-29.elections-1960-nomination
     when: May 29
     date: '1960-05-29'
@@ -3290,8 +4342,29 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Liu Shaoqi goes to the hospital to take leave of Lin Boqu's remains. Lin Boqu, Politburo member and vice-chairman of the National People's Congress Standing Committee, died there that day.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (May 29, 1960). Footnote 1 (487) gives Lin Boqu''s posts and the date of his death. Names: Liu Shaoqi, Lin Boqu.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (May 29, 1960); [[w.yang-shangkun-riji]], I, 513 (May 29, 1960; Lin Boqu dies at Peking at 10:40 a.m.). Footnote 1 (487) gives Lin Boqu''s posts and the date of his death. Names: Liu Shaoqi, Lin Boqu.'
+    src:
+      c: cc3d1e88
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: ?'
+        - 'w.yang-shangkun-riji I, 513: C'
     tags: [polity:prc, name:liu-shaoqi, name:lin-boqu]
+  - id: cal.1960-05-29.china-leadership-4
+    when: May 29
+    date: '1960-05-29'
+    thread: china-leadership
+    c: Shanghai 上海. Kang Sheng 康生 and Ke Qingshi 柯庆施 with Yang Shangkun 杨尚昆 on the situation 时局.
+    n: '[[w.yang-shangkun-riji]], I, 513 (May 29, 1960). The words: 上午 (I, 513). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Ke Qingshi, Yang Shangkun.'
+    src:
+      c: fa834940
+      rows:
+        - 'w.yang-shangkun-riji I, 513: all'
+    tags: [polity:prc, name:kang-sheng, name:ke-qingshi, vis:only:prc]
+    time_range:
+      - 1960-05-28T22:00Z
+      - 1960-05-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-30.alabama
     when: May 30
     date: '1960-05-30'
@@ -3369,6 +4442,32 @@ entries:
       - 1960-05-30T15:00Z
     time_band: evening
     time_zone: Asia/Ulaanbaatar
+  - id: cal.1960-05-30.china-leadership-4
+    when: May 30
+    date: '1960-05-30'
+    time: 1960-05-29T16:00Z
+    thread: china-leadership
+    c: 'Mao''s 毛泽东 party leaves Shanghai 上海 by train for Hangzhou 杭州: aboard at the West Station 西站 at midnight, off at 1:30, at Hangzhou at 5 a.m.; Yang Shangkun 杨尚昆 lodged at Nanshan 南山, in the house he had in 1953.'
+    n: '[[w.yang-shangkun-riji]], I, 513 (May 30, 1960). The words: 12时在西站上车，1时半开车。上午5时到杭州驻南山 (I, 513). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: a308b319
+      rows:
+        - 'w.yang-shangkun-riji I, 513: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-30.china-leadership-5
+    when: May 30
+    date: '1960-05-30'
+    time: 1960-05-30T13:00Z
+    thread: china-leadership
+    c: 'Hangzhou 杭州, Mao''s 毛泽东 swimming pool, 9 to 11 p.m.: the fourth volume of the *Selected Works* 毛选第四卷 again; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (May 30, 1960). The words: 晚间9时 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    src:
+      c: 7eb2a40a
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-31.europe-and-the-alliance-turkey
     when: May 31
     date: '1960-05-31'
@@ -4032,3 +5131,32 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 228–229: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 228 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1960-05-31.china-leadership-6
+    when: May 31
+    date: '1960-05-31'
+    time: 1960-05-31T13:00Z
+    thread: china-leadership
+    c: 'Hangzhou 杭州, 9 p.m. to midnight: the fourth volume of the *Selected Works* 毛选第四卷 again; Yang Shangkun 杨尚昆 there.'
+    n: '[[w.yang-shangkun-riji]], I, 514 (May 31, 1960). The words: 下午9时至12时 (I, 514). See [[cal.1960-05-24.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 99564cb7
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-31.china-leadership-7
+    when: May 31
+    date: '1960-05-31'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 telephones Li Fuchun 李富春 from Hangzhou 杭州.
+    n: '[[w.yang-shangkun-riji]], I, 514 (May 31, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun.'
+    src:
+      c: 26eef1ff
+      rows:
+        - 'w.yang-shangkun-riji I, 514: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1960-05-31T14:00Z
+      - 1960-05-31T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai

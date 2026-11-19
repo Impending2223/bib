@@ -240,6 +240,55 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
     tags: [polity:prc, polity:drv]
+  - id: cal.1961-02-01.china-leadership
+    when: Feb. 1
+    date: '1961-02-01'
+    time: 1961-02-01T12:00Z
+    thread: china-leadership
+    c: 'Fuzhou 福州, 8 p.m. Yang Shangkun 杨尚昆 arrives by train from Hangzhou 杭州, his first time in Fujian 福建, by the new Yingtan 鹰潭–Fuzhou line, built for the Jinmen 金门 front: too many bends, to be realigned; 50 km an hour at best, so its capacity small. Lodged at the West Lake 西湖 guesthouse.'
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 1, 1961). The words: 下午8时 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 520965f1
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-2
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-01.china-leadership
+    c: Fuzhou 福州. Yang Shangkun 杨尚昆 talks briefly with the Fujian 福建 provincial committee.
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 1, 1961). The words: 夜间到 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 69f600a6
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-01T14:00Z
+      - 1961-02-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-3
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-01.china-leadership-2
+    c: Fuzhou 福州. Ye Fei 叶飞 comes to Yang Shangkun 杨尚昆 on the visit to Xiamen 厦门, for which they must prepare.
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 1, 1961; note 1: Ye Fei then first secretary in Fujian and political commissar of the Fuzhou Military Region). The words: 夜间到 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ye Fei, Yang Shangkun.'
+    src:
+      c: 09219a9a
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-01T14:00Z
+      - 1961-02-01T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -304,6 +353,94 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
     tags: [polity:prc, polity:laos, polity:us, name:chen-yi, name:souvanna-phouma, name:phoumi-nosavan, name:boun-oum-na-champassak]
+  - id: cal.1961-02-02.china-leadership-2
+    when: Feb. 2
+    date: '1961-02-02'
+    time: 1961-02-02T01:00Z
+    thread: china-leadership
+    c: Fuzhou 福州, from 9 a.m. Yang Shangkun 杨尚昆 sees the lacquer, wood-carving and stone-carving works and the Yongquan Temple 涌泉寺 on Mount Gu 鼓山.
+    n: '[[w.yang-shangkun-riji]], I, 649 (Feb. 2, 1961). The words: 9时 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ce966f52
+      rows:
+        - 'w.yang-shangkun-riji I, 649: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-3
+    when: Feb. 2
+    date: '1961-02-02'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-02.china-leadership-7
+    c: Fuzhou 福州. Yang Shangkun 杨尚昆 and Deng Xiaoping 邓小平 see the exhibition of special crafts.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961). The words: 1时吃午饭后睡了1小时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 67362ecf
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-02T04:00Z
+      - 1961-02-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-4
+    when: Feb. 2
+    date: '1961-02-02'
+    thread: china-leadership
+    c: Xie Juezai 谢觉哉 and Xu Teli 徐特立 arrive in Fuzhou 福州.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961; note 1: Xie, then president of the Supreme Peoples Court; Xu, of the Central Committee and the NPC Standing Committee). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xie Juezai, Xu Teli.'
+    src:
+      c: f3ff41bd
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-02.china-leadership-5
+    when: Feb. 2
+    date: '1961-02-02'
+    time: 1961-02-02T09:00Z
+    thread: china-leadership
+    c: Fuzhou 福州 station, 5 p.m. Zhu De 朱德, just arrived, and Yang Shangkun 杨尚昆, boarding the train north for Zhangzhou 漳州, shake hands.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961). The words: 5时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhu De, Yang Shangkun.'
+    src:
+      c: 3e00da19
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-6
+    when: Feb. 2
+    date: '1961-02-02'
+    time: 1961-02-02T12:00Z
+    thread: china-leadership
+    follows:
+      - cal.1961-02-02.china-leadership-5
+    c: On the train from Fuzhou 福州. Yang Shangkun 杨尚昆 talks with Han Xianchu 韩先楚 on the situation.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961; note 2: Han, then commander of the Fuzhou Military Region). The words: 8时在车上吃饭后 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Han Xianchu.'
+    src:
+      c: 738591b1
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-02.china-leadership-7
+    when: Feb. 2
+    date: '1961-02-02'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-02.china-leadership-2
+    c: Mount Gu 鼓山, Fuzhou 福州. Yang Shangkun 杨尚昆 has another attack of palpitations and sweating 心慌出汗; it soon passes in the car.
+    n: '[[w.yang-shangkun-riji]], I, 649–650 (Feb. 2, 1961). The words: 中午 (I, 649). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2a17ed31
+      rows:
+        - 'w.yang-shangkun-riji I, 649–650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-02T04:00Z
+      - 1961-02-02T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-03.immigration
     when: Feb. 3
     date: '1961-02-03'
@@ -390,6 +527,62 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 185: A'
     tags: [polity:prc, polity:kenya, name:zhou-enlai]
+  - id: cal.1961-02-03.china-leadership-2
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T02:00Z
+    thread: china-leadership
+    also: [china]
+    c: Yang Shangkun's 杨尚昆 train stops at 10 a.m. at a small station short of the causeway near Jimei 集美, lest the enemy sight it; by car past Tan Kah Kee's 陈嘉庚 tomb at Jimei and through Xiamen 厦门 to the guesthouse on Gulangyu 鼓浪屿.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 3, 1961; note 3: Tan Kah Kee, d. Aug. 12, 1961). The words: 上午10时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tan Kah Kee.'
+    src:
+      c: ed2fe60f
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-3
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T05:00Z
+    thread: china-leadership
+    also: [china]
+    c: Gulangyu 鼓浪屿. Yang Shangkun 杨尚昆 climbs the "Drill-Watching Terrace" 观阵台, said to be where Zheng Chenggong 郑成功 drilled his navy, in view of Big and Little Jinmen 大小金门 and the Dadan and Erdan 大二担 islands.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 3, 1961). The words: 1时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c74866fe
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-4
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T06:30Z
+    thread: china-leadership
+    also: [china]
+    c: Xiamen 厦门, 2:30 to 5 p.m. Yang Shangkun 杨尚昆 at an artillery position; Big and Little Jinmen 大小金门 plain through the glasses, said to be some 4,000 meters off.
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 3, 1961). The words: 2时半 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8472347f
+      rows:
+        - 'w.yang-shangkun-riji I, 650: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-5
+    when: Feb. 3
+    date: '1961-02-03'
+    time: 1961-02-03T10:00Z
+    time_approx: true
+    thread: china-leadership
+    c: Zhangzhou 漳州, 70 km from Xiamen 厦门, about 6 p.m. Yang Shangkun 杨尚昆 walks through the streets and sees the puppet theater 布袋戏; north by train at 9:20 p.m., Lü Zhengcao 吕正操 joining.
+    n: '[[w.yang-shangkun-riji]], I, 650–651 (Feb. 3, 1961; 6 时许; p. 651 n.1: Lü, then vice-minister of railways; the line opening p. 651 dropped by the OCR, read on the page). The words: 6时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lü Zhengcao.'
+    src:
+      c: 087859ee
+      rows:
+        - 'w.yang-shangkun-riji I, 650–651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
@@ -478,6 +671,39 @@ entries:
         - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2b: A'
         - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2c: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-5
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: On the train, all day. Yang Shangkun 杨尚昆 talks two hours with Lü Zhengcao 吕正操, vice-minister of railways.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 4, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lü Zhengcao.'
+    src:
+      c: 7959df41
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-6
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: Yang Shangkun's 杨尚昆 train, past Yingtan 鹰潭, in rain all the way; he leaves it only at Shaowu 邵武 and one other station. The night on a siding at Zhuzhou 株洲.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 4, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f3e0e1fc
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-7
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: On the train, Yang Shangkun 杨尚昆 reads a chapter of *Principles of Marxist Philosophy* 《马克思主义哲学原理》 and *The Outer History of the Qing Court* 《清宫外史》.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 4, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-01-29.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: cb61977f
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-05.china-leadership
     when: Feb. 5
     date: '1961-02-05'
@@ -512,6 +738,48 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 486–490: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 490 n.5: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1961-02-05.china-leadership-4
+    when: Feb. 5
+    date: '1961-02-05'
+    thread: china-leadership
+    c: Zhuzhou 株洲. Zhang Pinghua 张平化 comes aboard Yang Shangkun's 杨尚昆 train to talk.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 5, 1961; note 2: Zhang, then first secretary in Hunan). The words: 晨 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Pinghua, Yang Shangkun.'
+    src:
+      c: 214441a0
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-04T21:00Z
+      - 1961-02-05T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-05.china-leadership-5
+    when: Feb. 5
+    date: '1961-02-05'
+    time: 1961-02-05T02:00Z
+    thread: china-leadership
+    c: Zhuzhou 株洲, 10 to 12. Yang Shangkun 杨尚昆 visits the military factories 331 and 361, cut short by rain.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 5, 1961). The words: 10时 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: dd88af21
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-05.china-leadership-6
+    when: Feb. 5
+    date: '1961-02-05'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-05.china-leadership-5
+    c: Hengyang 衡阳. Yang Shangkun 杨尚昆 drives round the city for an hour and goes on south.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 5, 1961). The words: 12时回到车上，即开车赴衡阳 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d46f6515
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-06.defense
     when: Feb. 6
     date: '1961-02-06'
@@ -649,6 +917,48 @@ entries:
     c: Liu Shaoqi receives a Nicaraguan cultural delegation and a Costa Rican cultural friendship delegation. China's enemies in the revolution were imperialism abroad and feudalism, the landlord class and the comprador bourgeoisie at home, chiefly imperialism; the revolution won, the country is building, but is still behind in economy and culture and means to catch up.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 504–505 (Feb. 6, 1961). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:nicaragua, polity:costa-rica, name:liu-shaoqi]
+  - id: cal.1961-02-06.china-leadership-4
+    when: Feb. 6
+    date: '1961-02-06'
+    time: 1961-02-06T00:00Z
+    thread: china-leadership
+    c: Canton 广州. Yang Shangkun's 杨尚昆 train, at Baiyun 白云 station since 4:20 a.m., is left at 8; lodged in new houses near Dashatou 大沙头.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 6, 1961). The words: 8时 (I, 651). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a635b559
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-06.china-leadership-5
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-06.china-leadership-4
+    c: Canton 广州. Yang Shangkun 杨尚昆 sees Li Fuchun 李富春, Wang Jiaxiang 王稼祥 and others, many already in the city.
+    n: '[[w.yang-shangkun-riji]], I, 651 (Feb. 6, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun, Wang Jiaxiang.'
+    src:
+      c: dd60bcd6
+      rows:
+        - 'w.yang-shangkun-riji I, 651: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+  - id: cal.1961-02-06.china-leadership-6
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: china-leadership
+    c: Canton 广州. Yang Shangkun 杨尚昆 talks with Peng Zhen 彭真 by telephone.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 6, 1961). The words: 下午 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Zhen.'
+    src:
+      c: cf270639
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-02-06T04:00Z
+      - 1961-02-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-07.king
     when: Feb. 7
     date: '1961-02-07'
@@ -709,6 +1019,38 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-07.china-leadership-2
+    when: Feb. 7
+    date: '1961-02-07'
+    thread: china-leadership
+    c: Canton 广州. Yang Shangkun 杨尚昆 walks with Deng Xiaoping 邓小平 on Yuexiu Hill 越秀山 and at Huanghuagang 黄花岗.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 7, 1961). The words: 早饭后 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 51460bdf
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-06T22:00Z
+      - 1961-02-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-07.china-leadership-3
+    when: Feb. 7
+    date: '1961-02-07'
+    thread: china-leadership
+    c: Canton 广州. Nie Rongzhen 聂荣臻 and Ye Jianying 叶剑英 come to Deng Xiaoping's 邓小平 to talk, until 5:30.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 7, 1961; the OCR''s 荣夷 read 荣臻 on the page). The words: 下午 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Nie Rongzhen, Ye Jianying, Deng Xiaoping.'
+    src:
+      c: 87a8b0dc
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, name:nie-rongzhen, name:ye-jianying, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-07T04:00Z
+      - 1961-02-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-08.cuba
     when: Feb. 8
     date: '1961-02-08'
@@ -986,6 +1328,19 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 303: A'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-09.china-leadership-2
+    when: Feb. 9
+    date: '1961-02-09'
+    time: 1961-02-09T05:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from Canton 广州 to Kunming 昆明, the morning's start turned back by fog; up at 1:30 p.m., down at 4. The party lodged at the Kunming Hotel 昆明宾馆.
+    n: '[[w.yang-shangkun-riji]], I, 652 (Feb. 9, 1961). The words: 下午1时半 (I, 652). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b0241e57
+      rows:
+        - 'w.yang-shangkun-riji I, 652: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
     date: '1961-02-10'
@@ -1128,6 +1483,38 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 493–494: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 493 n.1a: all'
     tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1961-02-10.china-leadership-6
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 sees the Black Dragon Pool 黑龙潭 and the botanical garden.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 10, 1961). The words: 上午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 518e5cae
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-09T22:00Z
+      - 1961-02-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-10.china-leadership-7
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 at the Daguan Lou 大观楼.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 10, 1961). The words: 下午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 46b52d9b
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-10T04:00Z
+      - 1961-02-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
@@ -1170,6 +1557,40 @@ entries:
     c: 'Zhou Enlai, told that Sihanouk''s proposal of a widened Geneva conference has won more states'' support, writes to him: China holds that if non-interference in Laos and respect for its unity and territorial integrity are truly kept by the states concerned, that will help an international conference and a peaceful settlement of the Laotian question.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 11, 1961). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+  - id: cal.1961-02-11.china-leadership-2
+    when: Feb. 11
+    date: '1961-02-11'
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 at the Western Hills 西山 and the Dragon Gate 龙门; by launch across the Dian Lake 滇池 in an hour and a half to the Daguan Lou 大观楼, at 2 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 11, 1961). The words: 上午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8e4bd3c1
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-10T22:00Z
+      - 1961-02-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-11.china-leadership-3
+    when: Feb. 11
+    date: '1961-02-11'
+    thread: china-leadership
+    follows:
+      - cal.1961-02-11.china-leadership-2
+    c: Kunming 昆明. Yang Shangkun 杨尚昆, his left shoulder aching, has infrared treatment and sleeps till 5.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 11, 1961). The words: 午饭后 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1c9b1dbc
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-11T04:00Z
+      - 1961-02-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-12.opinion
     when: Feb. 12
     date: '1961-02-12'
@@ -1193,6 +1614,22 @@ entries:
     c: 'Liu Shaoqi receives the Nepalese members of the China–Nepal boundary joint committee, headed by Major General Padma Bahadur Khatri. China will never oppress or bully weak small states: the nature of the state and Party forbids it, and a Communist-led state that invaded or oppressed others would be neither Communist nor socialist.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 12, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, polity:nepal, name:liu-shaoqi, vis:only:prc+nepal]
+  - id: cal.1961-02-12.china-leadership-3
+    when: Feb. 12
+    date: '1961-02-12'
+    thread: china-leadership
+    c: Kunming 昆明. Yang Shangkun 杨尚昆 and the party visit the Golden Temple 金殿, a copper hall copied from Wudang 武当山, not Wu Sangui's 吴三桂 throne hall.
+    n: '[[w.yang-shangkun-riji]], I, 653 (Feb. 12, 1961; note 1: Wu Sangui). The words: 上午 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 11e8b037
+      rows:
+        - 'w.yang-shangkun-riji I, 653: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-11T22:00Z
+      - 1961-02-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-13.congo
     when: Feb. 13
     date: '1961-02-13'
@@ -1318,6 +1755,19 @@ entries:
       - 1961-02-13T11:00Z
       - 1961-02-13T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-13.china-leadership-4
+    when: Feb. 13
+    date: '1961-02-13'
+    time: 1961-02-13T00:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, by train at 8 a.m. to Lunan 路南 and by car to the Stone Forest 石林, his second visit, the first in 1956; two hours there, the Zhiyun Cave 芝云洞 on the way back; at the Kunming 昆明 hotel by 8 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 653–654 (Feb. 13, 1961). The words: 8时 (I, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: fae321b2
+      rows:
+        - 'w.yang-shangkun-riji I, 653–654: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-14.state-and-city-finance-wv
     when: Feb. 14
@@ -1526,6 +1976,51 @@ entries:
       - 1961-02-15T00:00Z
     time_band: early morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-3
+    when: Feb. 15
+    date: '1961-02-15'
+    thread: china-leadership
+    c: Kunming 昆明, the Spring Festival. The Yunnan 云南 provincial committee comes to the hotel for the New Year's greetings 团拜 to Yang Shangkun 杨尚昆 and the party.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 15, 1961). The words: 上午 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 73ab5b1c
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-14T22:00Z
+      - 1961-02-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-4
+    when: Feb. 15
+    date: '1961-02-15'
+    thread: china-leadership
+    c: Kunming 昆明. Liu Piyun 刘披云, vice-governor of Yunnan 云南, calls on Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 15, 1961; note 1: Liu Piyun). The words: 下午 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Piyun, Yang Shangkun.'
+    src:
+      c: 79868e67
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-15T04:00Z
+      - 1961-02-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-5
+    when: Feb. 15
+    date: '1961-02-15'
+    time: 1961-02-15T09:30Z
+    thread: china-leadership
+    c: Kunming 昆明, 5:30 p.m. Yang Shangkun 杨尚昆 and Kang Sheng 康生 visit the history museum.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 15, 1961). The words: 5时半 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: 553593f5
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-16.latin-america
     when: Feb. 16
     date: '1961-02-16'
@@ -1610,6 +2105,35 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37c: all'
     tags: [polity:prc]
+  - id: cal.1961-02-16.china-leadership-2
+    when: Feb. 16
+    date: '1961-02-16'
+    time: 1961-02-16T03:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from Kunming 昆明 at 11 and reaches Chengdu 成都 at 1; lodged at Jinniuba 金牛坝. Rain only lately in Sichuan 四川; drought still near Chengdu.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 16, 1961). The words: 11时 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: beffabde
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-16.china-leadership-3
+    when: Feb. 16
+    date: '1961-02-16'
+    thread: china-leadership
+    c: Li Jingquan 李井泉 returns to Chengdu 成都 from Chongqing 重庆.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 16, 1961; note 3: Li, first secretary of the Southwest Bureau and of Sichuan). The words: 下午 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jingquan.'
+    src:
+      c: a96890e7
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, name:li-jingquan, vis:only:prc]
+    time_range:
+      - 1961-02-16T04:00Z
+      - 1961-02-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-17.economy
     when: Feb. 17
     date: '1961-02-17'
@@ -1706,6 +2230,35 @@ entries:
       - 1961-02-17T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-17.china-leadership-2
+    when: Feb. 17
+    date: '1961-02-17'
+    time: 1961-02-17T01:00Z
+    thread: china-leadership
+    c: Chengdu 成都, 9 to 12. Yang Shangkun 杨尚昆 at Du Fu's Thatched Cottage 草堂 and the Wuhou Temple 武侯祠.
+    n: '[[w.yang-shangkun-riji]], I, 654 (Feb. 17, 1961). The words: 上午9时到12时 (I, 654). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4ee69460
+      rows:
+        - 'w.yang-shangkun-riji I, 654: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-17.china-leadership-3
+    when: Feb. 17
+    date: '1961-02-17'
+    thread: china-leadership
+    c: Chengdu 成都. Cheng Zijian 程子健 calls on Yang Shangkun 杨尚昆 to talk.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 17, 1961; note 1: Cheng, then vice-chairman of the Sichuan CPPCC). The words: 下午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Cheng Zijian, Yang Shangkun.'
+    src:
+      c: 43afa868
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-17T04:00Z
+      - 1961-02-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-18.transition-and-staff
     when: Feb. 18
     date: '1961-02-18'
@@ -1796,6 +2349,22 @@ entries:
       - 1961-02-18T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-18.china-leadership-3
+    when: Feb. 18
+    date: '1961-02-18'
+    thread: china-leadership
+    c: Chengdu 成都. Li Zonglin 李宗林 calls on Yang Shangkun 杨尚昆, who asks him about Chengdu.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 18, 1961; note 2: Li, then head of the Sichuan committee''s United Front Work Department; the day''s heading lost in the OCR, read on the page). The words: 上午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Zonglin, Yang Shangkun.'
+    src:
+      c: 4f68252b
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-17T22:00Z
+      - 1961-02-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
@@ -1811,6 +2380,38 @@ entries:
     c: Zhou Enlai at the symposium of the People's Political Consultative Conference's committee on literary and historical materials and some of the Central Institute of Literature and History, urging them to write more.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 19, 1961). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1961-02-19.china-leadership-3
+    when: Feb. 19
+    date: '1961-02-19'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平 to the Zhaojue Temple 昭觉寺, then alone to the Wenshu Monastery 文殊院.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 19, 1961). The words: 上午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: ccbb530f
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-02-18T22:00Z
+      - 1961-02-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-19.china-leadership-4
+    when: Feb. 19
+    date: '1961-02-19'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 swims, after a nap to 4 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 19, 1961). The words: 直到4时才起床。游泳后吃饭 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2466f89d
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-19T04:00Z
+      - 1961-02-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-20.school-aid
     when: Feb. 20
     date: '1961-02-20'
@@ -1946,6 +2547,49 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: all'
     tags: [polity:prc, polity:congo]
+  - id: cal.1961-02-20.china-leadership-2
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平 and Kang Sheng 康生 to the People's Park, its museum and a teahouse.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 20, 1961). The words: 上午 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng.'
+    src:
+      c: c9d2a3e2
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-19T22:00Z
+      - 1961-02-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-20.china-leadership-3
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china-leadership
+    c: Peng Zhen 彭真 telephones Yang Shangkun 杨尚昆 at Chengdu 成都.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 20, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: bcef5b2a
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-02-20.china-leadership-4
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 swims, after a haircut.
+    n: '[[w.yang-shangkun-riji]], I, 655 (Feb. 20, 1961). The words: 午睡后去理发，游泳 (I, 655). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d8d20563
+      rows:
+        - 'w.yang-shangkun-riji I, 655: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-20T04:00Z
+      - 1961-02-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-21.africa
     when: Feb. 21
     date: '1961-02-21'
@@ -2036,6 +2680,22 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-21.china-leadership-3
+    when: Feb. 21
+    date: '1961-02-21'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 21, 1961). The words: 下午去游泳 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 31f24f11
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-21T04:00Z
+      - 1961-02-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-22.berlin-and-vienna
     when: Feb. 22
     date: '1961-02-22'
@@ -2152,6 +2812,22 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21c: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-22.china-leadership-5
+    when: Feb. 22
+    date: '1961-02-22'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 and Kang Sheng 康生 buy books in Citang Street 祠堂街; Yang buys three, among them the *Huayang guozhi* 《华阳国志》 and the *Shujian* 《蜀鉴》.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 22, 1961; the mornings rain "timely", the crops to yield a tenth or a fifth more, it is said). The words: 上午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng.'
+    src:
+      c: 39c0820b
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-21T22:00Z
+      - 1961-02-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-23.conservation
     when: Feb. 23
     date: '1961-02-23'
@@ -2250,6 +2926,38 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-23.china-leadership-3
+    when: Feb. 23
+    date: '1961-02-23'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平, Kang Sheng 康生 and Li Fuchun 李富春 to the Qingyang Gong 青羊宫 and the Erxian'an 二仙庵.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 23, 1961). The words: 上午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Li Fuchun.'
+    src:
+      c: 90ff71a1
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1961-02-22T22:00Z
+      - 1961-02-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-23.china-leadership-4
+    when: Feb. 23
+    date: '1961-02-23'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 meets his brothers and sisters in Chengdu at his sixth brother's, who give a dinner, Cheng Zijian 程子健 and Li Zonglin 李宗林 invited; uneasy at it, he goes; back at 8:15.
+    n: '[[w.yang-shangkun-riji]], I, 656 (Feb. 23, 1961; arranged with his brother Changbing 昌冰 the day before (I, 656)). The words: 下午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Cheng Zijian, Li Zonglin.'
+    src:
+      c: fbe33827
+      rows:
+        - 'w.yang-shangkun-riji I, 656: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-23T04:00Z
+      - 1961-02-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-24.crime-and-hijacking
     when: Feb. 24
     date: '1961-02-24'
@@ -2384,6 +3092,38 @@ entries:
     c: 'La Paz, 5 p.m. Schlesinger, for Kennedy, with President Paz Estenssoro. Paz: the Latin American oligarchies resisting change make the revolution more violent when it comes. On Cuba: "Castro must be eliminated"; first the economic screws, then an educational campaign on the Castro regime. Schlesinger: the revolution must be protected from the oligarchy of the right and from "the conspiracy and sabotage of the left." Paz: with assistance he can deal with his local Communist problem. By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 104–06. Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger, Kennedy, Castro.'
     tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f, name:castro-fidel]
+  - id: cal.1961-02-24.china-leadership
+    when: Feb. 24
+    date: '1961-02-24'
+    thread: china-leadership
+    c: 'Xinfan 新繁. Yang Shangkun 杨尚昆, with his wife, at the Baoguang Temple 宝光寺 and the Gui Lake 桂湖, its exhibition hall new. The county committee (Xinfan and Xindu 新都 now merged): two inches of rain the day before last; yields may rise 20 to 30 jin a mu. Back in Chengdu 成都 at 2.'
+    n: '[[w.yang-shangkun-riji]], I, 656–657 (Feb. 24, 1961; note 1: the two Xin counties). The words: 上午 (I, 656). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c2f3a38d
+      rows:
+        - 'w.yang-shangkun-riji I, 656–657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-23T22:00Z
+      - 1961-02-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-24.china-leadership-2
+    when: Feb. 24
+    date: '1961-02-24'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 24, 1961). The words: 下午游泳 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bc31a5c3
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-24T04:00Z
+      - 1961-02-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-25.vietnam
     when: Feb. 25
     date: '1961-02-25'
@@ -2459,6 +3199,38 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 41: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: B-C'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, name:chen-boda, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-02-25.china-leadership-2
+    when: Feb. 25
+    date: '1961-02-25'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 visits the Jinniu commune 金牛公社.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 25, 1961). The words: 上午 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6f730698
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-24T22:00Z
+      - 1961-02-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-25.china-leadership-3
+    when: Feb. 25
+    date: '1961-02-25'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆, staying in, swims.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 25, 1961). The words: 下午读书，未出去，只在园中散步，并游泳 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6a4f7884
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-25T04:00Z
+      - 1961-02-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-26.africa
     when: Feb. 26
     date: '1961-02-26'
@@ -2505,6 +3277,49 @@ entries:
     c: 'Liu Shaoqi drafts the Center''s comment forwarding "The experience of the rectification of the communes in Tantian commune, Zhongshan county, Guangdong": spring plowing is at hand or begun, and rectification is to be done in time with production at the center; when plowing starts, see to the plowing first and use the slack between farm jobs for rectification. It is to be carried through by stages and groups, and must not hold up present farm production.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 26, 1961). The commune is printed 坦田. Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership-4
+    when: Feb. 26
+    date: '1961-02-26'
+    thread: china-leadership
+    c: Chengdu 成都. Kang Sheng's 康生 forum with Sichuan's 四川 cultural figures and actors; Li Bozhao 李伯钊 takes part.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Li Bozhao.'
+    src:
+      c: e4dcc086
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership-5
+    when: Feb. 26
+    date: '1961-02-26'
+    thread: china-leadership
+    c: Chengdu 成都. Li Jingquan 李井泉, Li Fuchun 李富春 and his wife, Kang Sheng 康生 and Li Zonglin 李宗林 come to Yang Shangkun's 杨尚昆 to talk, and lunch with him.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961). The words: 中午 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jingquan, Li Fuchun, Kang Sheng, Li Zonglin, Yang Shangkun.'
+    src:
+      c: 13139d03
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:li-jingquan, name:li-fuchun, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-26T04:00Z
+      - 1961-02-26T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-26.china-leadership-7
+    when: Feb. 26
+    date: '1961-02-26'
+    thread: china-leadership
+    c: Chengdu 成都. Li Dazhang 李大章 comes to Yang Shangkun 杨尚昆 to talk, before dinner.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961; note 1: Li, then governor of Sichuan). The words: 晚饭前 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Dazhang, Yang Shangkun.'
+    src:
+      c: 29c7adc8
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-26T09:00Z
+      - 1961-02-26T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-27.robert-kennedy
     when: Feb. 27
     date: '1961-02-27'
@@ -2622,6 +3437,64 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 496–498: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 496 n.1a: all'
     tags: [polity:prc, name:lu-dingyi, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-27.china-leadership-5
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆, Li Fuchun 李富春 and his wife and Li Bozhao 李伯钊 at the Wangjiang Lou 望江楼.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961). The words: 上午 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun, Li Bozhao.'
+    src:
+      c: a5c74e85
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1961-02-26T22:00Z
+      - 1961-02-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-27.china-leadership-6
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 has some Sichuan opera 川剧 actors to lunch, with Kang Sheng 康生 and Li Zonglin 李宗林, till 2:30.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961). The words: 午间 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Sheng, Li Zonglin.'
+    src:
+      c: 5973d291
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1961-02-27T04:00Z
+      - 1961-02-27T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-27.china-leadership-7
+    when: Feb. 27
+    date: '1961-02-27'
+    time: 1961-02-27T08:00Z
+    thread: china-leadership
+    c: Chengdu 成都, 4 p.m. Yang Shangkun's 杨尚昆 sixth brother brings Zhang Xiushu 张秀熟, vice-governor of Sichuan 四川, to see him; Zhang gives him a book of Shu's famous sites 《蜀中名胜记》.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961; note 2: Zhang Xiushu; the OCR''s 暗中 for the title''s first characters). The words: 下午4时 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhang Xiushu.'
+    src:
+      c: 36a03ce8
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-27.china-leadership-8
+    when: Feb. 27
+    date: '1961-02-27'
+    time: 1961-02-27T11:00Z
+    thread: china-leadership
+    c: Chengdu 成都, 7 p.m. The Sichuan 四川 provincial committee's dinner for the visitors, with Sichuan and Peking opera; Yang Shangkun 杨尚昆 present.
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 27, 1961). The words: 7时 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: bb102b2e
+      rows:
+        - 'w.yang-shangkun-riji I, 657: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-28.open-housing-pa
     when: Feb. 28
     date: '1961-02-28'
@@ -3241,3 +4114,48 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 495: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-28.china-leadership-4
+    when: Feb. 28
+    date: '1961-02-28'
+    thread: china-leadership
+    c: Chengdu 成都. Yang Shangkun 杨尚昆 talks with his sixth brother; Li Zonglin 李宗林 and Li Dazhang 李大章 come too.
+    n: '[[w.yang-shangkun-riji]], I, 658 (Feb. 28, 1961). The words: 上午 (I, 658). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Zonglin, Li Dazhang.'
+    src:
+      c: 42e4ce2a
+      rows:
+        - 'w.yang-shangkun-riji I, 658: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-27T22:00Z
+      - 1961-02-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-28.china-leadership-5
+    when: Feb. 28
+    date: '1961-02-28'
+    time: 1961-02-28T08:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 leaves Chengdu 成都 by train for Peking at 4:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 658 (Feb. 28, 1961; seen from the train, rain on the west Sichuan plain 川西坝子, good for the spring crops). The words: 4时半 (I, 658). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d5301468
+      rows:
+        - 'w.yang-shangkun-riji I, 658: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-28.china-leadership-6
+    when: Feb. 28
+    date: '1961-02-28'
+    thread: china-leadership
+    c: Li Bozhao 李伯钊 visits the Luo Shifa commune 罗世发公社, Xinfan 新繁.
+    n: '[[w.yang-shangkun-riji]], I, 658 (Feb. 28, 1961). The words: 上午 (I, 658). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Bozhao.'
+    src:
+      c: 471e178f
+      rows:
+        - 'w.yang-shangkun-riji I, 658: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1961-02-27T22:00Z
+      - 1961-02-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

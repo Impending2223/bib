@@ -138,6 +138,35 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 346: all'
     tags: [polity:prc, name:mao-zedong, name:toure-ahmed-sekou]
+  - id: cal.1960-10-01.china-leadership-6
+    when: Oct. 1
+    date: '1960-10-01'
+    time: 1960-10-01T12:00Z
+    time_approx: true
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Kremlin 克里姆林宫. After the drafting committee's first session the Brazilian, Japanese, Albanian, Indonesian, Argentine and Korean delegations seek out the Chinese; Ghosh 高士 of India asks for contact; the Soviets look askance.
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 1, 1960). The words: 散会时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh.'
+    src:
+      c: 6f320302
+      rows:
+        - 'w.yang-shangkun-riji I, 559: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-01.china-leadership-7
+    when: Oct. 1
+    date: '1960-10-01'
+    time: 1960-10-01T12:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy. Deng Xiaoping 邓小平, Li Jingquan 李井泉, Yang Shangkun 杨尚昆 and Liu Xiao 刘晓 with Hysni Kapo 卡博 of the Albanian party, from 3:30 p.m., over three hours.
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 1, 1960). The words: 3时半……长谈了3个多钟头，8时才回到住处 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Li Jingquan, Yang Shangkun, Liu Xiao, Hysni Kapo.'
+    src:
+      c: '85827799'
+      rows:
+        - 'w.yang-shangkun-riji I, 559: all'
+    tags: [polity:prc, name:deng-xiaoping, name:li-jingquan, vis:only:prc+albania]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-02.soviet-union-un
     when: Oct. 2
     date: '1960-10-02'
@@ -262,12 +291,88 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Moscow. The drafting committee of twenty-six parties opens, to prepare a draft statement for the world conference. The CPSU prepared the draft. The Chinese delegation, having criticized the CPSU''s views in the Reply and the party talks, finds that the Soviets have patched it: some Marxist-Leninist principles added, some plain errors cut, many errors left. The committee sits three weeks.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 365–367 (from Oct. 2; the Chinese in strength, most of the writers with them; Wu and Chen Boda in Peking turn the delegation''s cables into suggestions for the Standing Committee). Made public: 1999. Names: Chen Boda. Check: the account is the Chinese delegation''s.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 365–367 (from Oct. 2; the Chinese in strength, most of the writers with them; Wu and Chen Boda in Peking turn the delegation''s cables into suggestions for the Standing Committee); [[w.yang-shangkun-riji]], I, 558–559 (Oct. 1, 1960; Oct. 1, the first session, 1 to 3 p.m., in the Kremlin''s St. George''s Hall: Suslov''s welcome; the procedure; the French first, then the others, Deng among them; the Soviet draft the basis; two days for study, the general debate from 2 p.m. Oct. 4; a secretariat; the Soviets in the chair). Made public: 1999. Names: Chen Boda. Check: the account is the Chinese delegation''s.'
     src:
       c: 65ae8bac
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 365–367: all'
+        - 'w.yang-shangkun-riji I, 558–559: A, B, C'
     tags: [polity:prc, name:chen-boda, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
+    variants:
+      - unit: B
+        witness: w.yang-shangkun-riji
+        reads: opens Oct. 1, at 1 p.m., in the Kremlin's St. George's Hall (the diary's "drafting committee's first session", Oct. 1)
+        at: I, 558–559, Oct. 1, 1960
+  - id: cal.1960-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1960-10-02'
+    time: 1960-10-02T07:00Z
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: Moscow 莫斯科, the Chinese Embassy. The Chinese delegation meets the Vietnamese and exchanges views on the Soviet draft, 10 a.m. to 1 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 2, 1960). The words: 上午10时到1时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 3c74d2eb
+      rows:
+        - 'w.yang-shangkun-riji I, 559: all'
+    tags: [polity:prc, vis:only:prc+drv]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-02.china-leadership-5
+    when: Oct. 2
+    date: '1960-10-02'
+    time: 1960-10-02T13:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Chinese delegation with Sharkey 夏基 and Dixon 狄克逊 of the Australian party, 4 to 7:30 p.m.; then, at Hysni Kapo's 卡博 request, with the Albanians again on their speeches, 7:30 to 9.
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 2, 1960). The words: 4时到7时半……7时半至9时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Sharkey, Dixon, Hysni Kapo.'
+    src:
+      c: f7fcdb0d
+      rows:
+        - 'w.yang-shangkun-riji I, 559: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-02.china-leadership-6
+    when: Oct. 2
+    date: '1960-10-02'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy. Indian, Japanese, French and other representatives come to read the Chinese Central Committee's answer to the Soviet one (the reply of Sept. 10 to the notice of June 21, by the editors' note).
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 2, 1960). See [[cal.1960-09-10.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Chinese Central Committee, reply of Sept. 10, 1960 to the CPSU''s notice of June 21 (cited by [[w.yang-shangkun-riji]], I, 560 n.1).'
+    src:
+      c: ca19464d
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+        - 'via w.yang-shangkun-riji I, 560 n.1: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-02.china-leadership-7
+    when: Oct. 2
+    date: '1960-10-02'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Yang Shangkun 杨尚昆 and Liu Ningyi 刘宁一 plan the contacts outside the meeting; the delegations' lodgings and telephone numbers obtained.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 2, 1960). The words: 与宁一同志商谈了会外活动的计划 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Ningyi.'
+    src:
+      c: 715c906b
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-02.china-leadership-8
+    when: Oct. 2
+    date: '1960-10-02'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Liu Ningyi 刘宁一 calls on the Indonesians, in the afternoon; others to be called on the next day.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 2, 1960). The words: 宁一午后去拜访了印尼同志 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Ningyi.'
+    src:
+      c: f2538679
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, vis:only:prc+indonesia]
+    time_range:
+      - 1960-10-02T09:00Z
+      - 1960-10-02T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
   - id: cal.1960-10-03.court
     when: Oct. 3
     date: '1960-10-03'
@@ -507,6 +612,62 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 347: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-10-03.china-leadership-6
+    when: Oct. 3
+    date: '1960-10-03'
+    time: 1960-10-03T06:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Chinese delegation with the Italians, 9 to 11 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 3, 1960). The words: 9时到11时 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: fa2a4e0a
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-03.china-leadership-7
+    when: Oct. 3
+    date: '1960-10-03'
+    time: 1960-10-03T12:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy. The delegation meets, 3 to 6 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 3, 1960). The words: 3时到6时 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 0892f3a2
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-03.china-leadership-8
+    when: Oct. 3
+    date: '1960-10-03'
+    time: 1960-10-03T15:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Soviet delegation, by Andropov's 安德罗波夫 invitation of that morning, gives the Chinese a dinner, 6 to 8 p.m., to exchange views; Deng Xiaoping 邓小平 states some points of principle. To Yang Shangkun 杨尚昆 the Soviets seem to seek an air of unity and to sound out the Chinese view of the draft.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 3, 1960). The words: 6时到8时赴苏共代表团宴会 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Andropov, Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: c2e18e7f
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, name:deng-xiaoping, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-03.china-leadership-9
+    when: Oct. 3
+    date: '1960-10-03'
+    time: 1960-10-03T17:00Z
+    thread: china-leadership
+    also: [soviet-union, indonesia]
+    c: Moscow 莫斯科. The Chinese delegation with the Indonesians, 8 p.m. to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 3, 1960). The words: 8时到2时 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: cccf01f1
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-04.elections-1960-kennedy
     when: Oct. 4
     date: '1960-10-04'
@@ -619,6 +780,51 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 166–167: all'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
+  - id: cal.1960-10-04.china-leadership-7
+    when: Oct. 4
+    date: '1960-10-04'
+    time: 1960-10-04T07:00Z
+    thread: china-leadership
+    also: [soviet-union, south-asia]
+    c: Moscow 莫斯科. Deng Xiaoping 邓小平, Yang Shangkun 杨尚昆 and Liu Ningyi 刘宁一 receive Ghosh 高士 of the Indian party, 10 a.m. to 1:30 p.m., chiefly to learn how matters stand.
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 4, 1960). The words: 由10时到1时半 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Liu Ningyi, Ghosh.'
+    src:
+      c: 175bf39a
+      rows:
+        - 'w.yang-shangkun-riji I, 560: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-04.china-leadership-8
+    when: Oct. 4
+    date: '1960-10-04'
+    time: 1960-10-04T11:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s second session, the general debate, 2 to 5 p.m.: Berlinguer 贝林格 (Italy), Nemes 内梅什 (Hungary), Pessi 培西 (Finland), the West German party''s representative, Tsend 曾德 (Mongolia).'
+    n: '[[w.yang-shangkun-riji]], I, 561 (Oct. 4, 1960). The words: 2时正起草委员会第二次会议……会议到5时即结束 (I, 561). See [[cal.1960-10-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Berlinguer, Nemes, Pessi, Tsend.'
+    src:
+      c: f2765f0a
+      rows:
+        - 'w.yang-shangkun-riji I, 561: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-04.china-leadership-9
+    when: Oct. 4
+    date: '1960-10-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Chinese Embassy. The delegation on Deng Xiaoping''s 邓小平 speech for the next day; then, on the Center''s instruction (the many errors of the Soviet draft to be refuted with force, then concrete counter-proposals made), again: the speech fits it, left as it is but for a few phrases; most counter-proposals for the secretariat. Back at 10 p.m.'
+    n: '[[w.yang-shangkun-riji]], I, 561 (Oct. 4, 1960). The words: 回到大使馆……会完后10时回到住处 (I, 561). See [[cal.1960-10-04.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: e0d11b7a
+      rows:
+        - 'w.yang-shangkun-riji I, 561: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-10-04T16:00Z
+      - 1960-10-04T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-10-05.soviet-union-un
     when: Oct. 5
     date: '1960-10-05'
@@ -756,6 +962,34 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 169: A'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-05.china-leadership-5
+    when: Oct. 5
+    date: '1960-10-05'
+    time: 1960-10-05T11:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s third session, 2 to 6 p.m.: Lê Duẩn 黎笋; Deng Xiaoping 邓小平 from his text, seventy minutes; after a break Koucký 考茨基 (Czechoslovakia) and Kliszko 克利什科 (Poland), who answer Deng "without reason," as Yang Shangkun 杨尚昆 finds.'
+    n: '[[w.yang-shangkun-riji]], I, 562 (Oct. 5, 1960). The words: 下午2时正……6时结束会议 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lê Duẩn, Deng Xiaoping, Koucký, Kliszko, Yang Shangkun.'
+    src:
+      c: 322a6155
+      rows:
+        - 'w.yang-shangkun-riji I, 562: all'
+    tags: [polity:prc, name:deng-xiaoping, name:le-duan, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-05.china-leadership-6
+    when: Oct. 5
+    date: '1960-10-05'
+    time: 1960-10-05T17:00Z
+    thread: china-leadership
+    also: [soviet-union, cuba]
+    c: Moscow 莫斯科. Deng Xiaoping 邓小平, Peng Zhen 彭真 and Yang Shangkun 杨尚昆 with Escalante 艾斯卡兰托 of the Cuban party, 8 p.m. to 1 a.m.
+    n: '[[w.yang-shangkun-riji]], I, 562 (Oct. 5, 1960). The words: 8时陪小平、彭真与古巴同志艾斯卡兰托谈话，到1时才完 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun, Escalante.'
+    src:
+      c: 455ddde1
+      rows:
+        - 'w.yang-shangkun-riji I, 562: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-06.elections-1960
     when: Oct. 6
     date: '1960-10-06'
@@ -922,6 +1156,79 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 344–345: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 344 n.1: all'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:abbas-ferhat, vis:only:prc+algeria]
+  - id: cal.1960-10-06.china-leadership-5
+    when: Oct. 6
+    date: '1960-10-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. Yang Shangkun 杨尚昆 reads Hysni Kapo''s 卡博 text: sharp, at one with the Chinese on the basic questions; it condemns Bucharest as against Marxism–Leninism and states the Albanian view in five parts; longer than Deng''s.'
+    n: '[[w.yang-shangkun-riji]], I, 562–563 (Oct. 6, 1960). The words: 上午 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hysni Kapo.'
+    src:
+      c: 96f3bf79
+      rows:
+        - 'w.yang-shangkun-riji I, 562–563: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_range:
+      - 1960-10-06T03:00Z
+      - 1960-10-06T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-06.china-leadership-6
+    when: Oct. 6
+    date: '1960-10-06'
+    time: 1960-10-06T11:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s fourth session, 2 to 6 p.m.: Guyot 居约 (France), Hysni Kapo 卡博 (Albania), Matern 马特恩 (East Germany), Mathews 马体斯 (Britain); thirteen speakers in three days, half still to speak.'
+    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960). The words: 下午2时……会议到6时结束 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Guyot, Hysni Kapo, Matern, Mathews.'
+    src:
+      c: 3272cac5
+      rows:
+        - 'w.yang-shangkun-riji I, 563: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-06.china-leadership-7
+    when: Oct. 6
+    date: '1960-10-06'
+    time: 1960-10-06T16:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy, 7:30 to 9 p.m. The Chinese with Hysni Kapo 卡博; the Chinese and the Albanians each to prepare a second speech.
+    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960). The words: 7:30—9时见卡博 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    src:
+      c: 73a8cd71
+      rows:
+        - 'w.yang-shangkun-riji I, 563: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-06.china-leadership-8
+    when: Oct. 6
+    date: '1960-10-06'
+    time: 1960-10-06T18:30Z
+    thread: china-leadership
+    also: [soviet-union, japan]
+    follows:
+      - cal.1960-10-06.china-leadership-7
+    c: Moscow 莫斯科, the Chinese Embassy, 9:30 p.m. to midnight. The Chinese with the Japanese.
+    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960). The words: 9:30—12时见日本同志 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 4da45db5
+      rows:
+        - 'w.yang-shangkun-riji I, 563: all'
+    tags: [polity:prc, vis:only:prc+japan]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-06.china-leadership-9
+    when: Oct. 6
+    date: '1960-10-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Sharkey 夏基 tells the Chinese that since Deng Xiaoping's 邓小平 speech the Soviets are organizing the delegations to answer his charge of great-power chauvinism and the Chinese press's silence on Khrushchev's UN speech for China's seat.
+    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960). The words: 据夏基同志反映 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Sharkey, Deng Xiaoping.'
+    src:
+      c: 97f657c3
+      rows:
+        - 'w.yang-shangkun-riji I, 563: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+australia]
   - id: cal.1960-10-07.elections-1960
     when: Oct. 7
     date: '1960-10-07'
@@ -1084,6 +1391,48 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 341: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 341 n.1b: all'
     tags: [polity:prc, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1960-10-07.china-leadership-6
+    when: Oct. 7
+    date: '1960-10-07'
+    time: 1960-10-07T07:00Z
+    thread: china-leadership
+    also: [soviet-union, cuba]
+    c: Moscow 莫斯科, the Chinese Embassy, 10 a.m. A Cuban tells the Chinese of his talk with the Soviets, who blame the Chinese party, and proposes that the two parties keep talking and a small committee (China, the Soviet Union and a European, an Asian and a Latin American party) take up the draft.
+    n: '[[w.yang-shangkun-riji]], I, 564 (Oct. 7, 1960). The words: 10时到使馆 (I, 564). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: c3d5cb25
+      rows:
+        - 'w.yang-shangkun-riji I, 564: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-07.china-leadership-7
+    when: Oct. 7
+    date: '1960-10-07'
+    time: 1960-10-07T09:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s fifth session, noon to 5 p.m.: Borilă 波里勒 (Romania), the Argentine, Bagdash 巴格达什 (Syria), the Brazilian, Miyamoto Kenji 宫本显治 (Japan), Ri Hyo-sun 李孝淳 (Korea), Flynn 弗林 (the United States). Romania, Argentina and Syria bad, Brazil and America not too bad, Japan and Korea better, by Yang Shangkun''s 杨尚昆 reckoning; he is fifteen minutes late from a talk of Deng''s. The secretariat to start on Monday.'
+    n: '[[w.yang-shangkun-riji]], I, 564 (Oct. 7, 1960). The words: 12时开会……会议到5时结束 (I, 564). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Borilă, Bagdash, Miyamoto Kenji, Ri Hyo-sun, Flynn, Yang Shangkun.'
+    src:
+      c: 83223e67
+      rows:
+        - 'w.yang-shangkun-riji I, 564: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-07.china-leadership-8
+    when: Oct. 7
+    date: '1960-10-07'
+    time: 1960-10-07T17:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Chinese with Guyot 居约 of the French party at their lodging, 8 p.m. to midnight; he explains away Khrushchev's conduct.
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 7, 1960). The words: 晚间8时到12时 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Guyot.'
+    src:
+      c: 5e79050b
+      rows:
+        - 'w.yang-shangkun-riji I, 565: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-08.laos
     when: Oct. 8
     date: '1960-10-08'
@@ -1191,6 +1540,34 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 351: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-10-08.china-leadership-6
+    when: Oct. 8
+    date: '1960-10-08'
+    time: 1960-10-08T09:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s sixth session, from noon: Dixon 狄克逊 (Australia), Escalante 埃斯卡兰特 (Cuba), Suslov 苏斯洛夫; three parties still to speak, on Monday from 11. Deng Xiaoping 邓小平 says the Chinese ask to speak a second time.'
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 8, 1960). The words: 12时继续开会 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Dixon, Escalante, Suslov, Deng Xiaoping.'
+    src:
+      c: 94e0b16e
+      rows:
+        - 'w.yang-shangkun-riji I, 565: all'
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-08.china-leadership-7
+    when: Oct. 8
+    date: '1960-10-08'
+    time: 1960-10-08T17:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Hysni Kapo 卡博 with the Chinese, 8 to 10:30 p.m., on the session and the Albanians' second speech.
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 8, 1960). The words: 8时到10时半 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    src:
+      c: 66e95e19
+      rows:
+        - 'w.yang-shangkun-riji I, 565: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-09.elections-1960
     when: Oct. 9
     date: '1960-10-09'
@@ -1279,6 +1656,65 @@ entries:
     c: 'Liu Shaoqi comments on the Central Committee General Office''s *Qingbao jianbao* no. 553, compiled Oct. 8, which prints the Hubei Party committee''s instruction to deal with the "communist wind" at county level and above: the phenomena probably exist everywhere in some degree; the departments concerned should study it and fix some measures to put it right.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494 (Oct. 9, 1960). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-10-09.china-leadership-4
+    when: Oct. 9
+    date: '1960-10-09'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy. The delegation on its amendments to the Soviet draft statement.
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 9, 1960). The words: 上午……吃饭后到使馆 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: aecb68d6
+      rows:
+        - 'w.yang-shangkun-riji I, 565: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-10-09T03:00Z
+      - 1960-10-09T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-09.china-leadership-5
+    when: Oct. 9
+    date: '1960-10-09'
+    time: 1960-10-09T08:00Z
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: 'Moscow 莫斯科. Lê Duẩn 黎笋 and Nguyễn Chí Thanh 阮志清 with the Chinese, 11 a.m.: nearer the Chinese view, but asking them not to be too sharp.'
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 9, 1960). The words: 11时 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lê Duẩn, Nguyễn Chí Thanh.'
+    src:
+      c: '33598568'
+      rows:
+        - 'w.yang-shangkun-riji I, 565: all'
+    tags: [polity:prc, name:le-duan, name:nguyen-chi-thanh, vis:only:prc+drv]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-09.china-leadership-6
+    when: Oct. 9
+    date: '1960-10-09'
+    time: 1960-10-09T15:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy, 6 p.m. to midnight. Deng Xiaoping's 邓小平 second speech discussed.
+    n: '[[w.yang-shangkun-riji]], I, 566 (Oct. 9, 1960). The words: 6时吃饭后到使馆……到12时才结束 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: c5f84d25
+      rows:
+        - 'w.yang-shangkun-riji I, 566: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-09.china-leadership-7
+    when: Oct. 9
+    date: '1960-10-09'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-09.china-leadership-6
+    c: Moscow 莫斯科, the Chinese Embassy. Alia 阿利雅 of the Albanian party brings Hysni Kapo's 卡博 second speech, during the delegation's meeting.
+    n: '[[w.yang-shangkun-riji]], I, 566 (Oct. 9, 1960). The words: 中间阿尔巴尼亚的阿利雅同志来谈话 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Alia, Hysni Kapo.'
+    src:
+      c: 1365d340
+      rows:
+        - 'w.yang-shangkun-riji I, 566: all'
+    tags: [polity:prc, vis:only:prc+albania]
   - id: cal.1960-10-10.elections-1960
     when: Oct. 10–13
     date: '1960-10-10'
@@ -1429,6 +1865,40 @@ entries:
     c: 'At the Secretariat, Oct. 10, 11, 14, 15 and 21, Zhou Enlai hears reports on industry, finance and trade; the meetings take up removing the "rightist" label, pardoning war criminals and adding key universities. On the 10th, after Gu Mu on industrial output: those who report difficulty and seek ways are not rightists; forbidding talk of difficulty, as with Shandong''s grain, brings worse. Qinghai''s 50,000 jin of fish sent to the Center is absurd; Li Fuchun to draft a notice that nothing, not a thread or a fish, is to go to the Center; one province to be made an example.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 356 (Oct. 10, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-10-10.china-leadership-3
+    when: Oct. 10
+    date: '1960-10-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s seventh session: Ghosh 高士 (India), the Indonesian, the Bulgarian. Suslov 苏斯洛夫 asks whether second speeches are needed; Matern, the Mongolians and the Poles against, Kapo insisting; Deng Xiaoping 邓小平: China asked to speak again, but will hand it in writing if the others so decide; no vote. The general debate to end next day, the secretariat to meet at 3.'
+    n: '[[w.yang-shangkun-riji]], I, 566–567 (Oct. 10, 1960). The words: 上午9时起床 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh, Suslov, Deng Xiaoping.'
+    src:
+      c: 419e883f
+      rows:
+        - 'w.yang-shangkun-riji I, 566–567: all'
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
+    time_range:
+      - 1960-10-10T03:00Z
+      - 1960-10-10T16:00Z
+    time_band: daytime
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-10.china-leadership-4
+    when: Oct. 10
+    date: '1960-10-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Chinese with Hysni Kapo 卡博; he praises the Indonesians' speech.
+    n: '[[w.yang-shangkun-riji]], I, 567 (Oct. 10, 1960). The words: 晚间 (I, 567). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    src:
+      c: b2e0702d
+      rows:
+        - 'w.yang-shangkun-riji I, 567: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_range:
+      - 1960-10-10T16:00Z
+      - 1960-10-10T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1960-10-11.conservative-movement
     when: Oct. 11
     date: '1960-10-11'
@@ -1554,6 +2024,48 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 292: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 169–170: A-E'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+  - id: cal.1960-10-11.china-leadership-2
+    when: Oct. 11
+    date: '1960-10-11'
+    time: 1960-10-11T08:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Soviet Central Committee's guesthouse. Deng Xiaoping 邓小平, Peng Zhen 彭真 and Yang Shangkun 杨尚昆 call briefly on the French, Italian, Australian, Cuban and Albanian delegations, 11 a.m. to 1 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960). The words: 11时到1时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun.'
+    src:
+      c: 97d81e57
+      rows:
+        - 'w.yang-shangkun-riji I, 568: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-11.china-leadership-3
+    when: Oct. 11
+    date: '1960-10-11'
+    time: 1960-10-11T11:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The drafting committee''s secretariat, 2 to 9 p.m.: five pages only, much argued.'
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960). The words: 昨天秘书处会议，由下午2时到晚间9时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 7908a34e
+      rows:
+        - 'w.yang-shangkun-riji I, 568: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-11.china-leadership-4
+    when: Oct. 11
+    date: '1960-10-11'
+    time: 1960-10-11T15:00Z
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: Moscow 莫斯科, a dacha about twenty kilometers out, in a forest. The Chinese call on the Vietnamese delegation, 6 p.m., about an hour.
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960). The words: 晚间6时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 68e6a6f8
+      rows:
+        - 'w.yang-shangkun-riji I, 568: all'
+    tags: [polity:prc, vis:only:prc+drv]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-12.soviet-union
     when: Oct. 12–13
     date: '1960-10-12'
@@ -1754,6 +2266,76 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 355: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 355 n.4: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-12.china-leadership-5
+    when: Oct. 12
+    date: '1960-10-12'
+    time: 1960-10-12T07:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Barvikha 巴尔维哈, near Moscow 莫斯科. Deng Xiaoping 邓小平, Peng Zhen 彭真 and Yang Shangkun 杨尚昆 visit Duclos 杜克洛 of the French party, bedridden for over a month with heart trouble, 10:30 a.m., some twenty minutes.
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 12, 1960). The words: 10时半 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun, Duclos.'
+    src:
+      c: 0e1e0293
+      rows:
+        - 'w.yang-shangkun-riji I, 568: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-12.china-leadership-6
+    when: Oct. 12
+    date: '1960-10-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Yang Shangkun 杨尚昆, noting that Khrushchev 赫鲁晓夫 is to be back on the 14th and his visit to Korea put off, means to ask the Center for counter-measures; he has Zhang Xiangshan 张香山 and Kang Yimin 康一民 put right the handling of the delegation's papers.
+    n: '[[w.yang-shangkun-riji]], I, 568–569 (Oct. 12, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Khrushchev, Zhang Xiangshan, Kang Yimin.'
+    src:
+      c: '13147413'
+      rows:
+        - 'w.yang-shangkun-riji I, 568–569: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1960-10-12.china-leadership-7
+    when: Oct. 12
+    date: '1960-10-12'
+    time: 1960-10-12T09:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The drafting committee''s secretariat, noon to 7 p.m.: the era and "going it alone" 单干; seven votes with the Chinese counted (Albania, Vietnam, Japan, Indonesia, Korea, Australia and China), sharply against the others; so Kang Sheng 康生 and Hu Qiaomu 胡乔木 report it.'
+    n: '[[w.yang-shangkun-riji]], I, 569 (Oct. 12, 1960). The words: 今日秘书处会议由中午12—7时 (I, 569). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Hu Qiaomu.'
+    src:
+      c: 6f7541a8
+      rows:
+        - 'w.yang-shangkun-riji I, 569: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-12.china-leadership-8
+    when: Oct. 12
+    date: '1960-10-12'
+    time: 1960-10-12T17:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-12.china-leadership-7
+    c: Moscow 莫斯科, the Chinese Embassy, 8:30 p.m. Kang Sheng 康生 and Hu Qiaomu 胡乔木 report the secretariat's day to the delegation.
+    n: '[[w.yang-shangkun-riji]], I, 569 (Oct. 12, 1960). The words: 晚间8时半去大使馆开会 (I, 569). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Hu Qiaomu.'
+    src:
+      c: 025aa802
+      rows:
+        - 'w.yang-shangkun-riji I, 569: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-12.china-leadership-9
+    when: Oct. 12
+    date: '1960-10-12'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-12.china-leadership-8
+    c: Moscow 莫斯科. The delegation reports the secretariat's two days to the Center 中央.
+    n: '[[w.yang-shangkun-riji]], I, 569 (Oct. 12, 1960). The words: 已将两天来秘书处的情况报告中央 (I, 569). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: f6334857
+      rows:
+        - 'w.yang-shangkun-riji I, 569: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-13.elections-1960
     when: Oct. 13
     date: '1960-10-13'
@@ -1932,6 +2514,86 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 170: all'
     tags: [polity:prc, polity:japan, polity:us, name:zhou-enlai, name:asanuma-inejiro]
+  - id: cal.1960-10-13.china-leadership-4
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. *Pravda* 真理报 prints the slogans for the forty-third anniversary of the October Revolution; Yang Shangkun 杨尚昆 has the embassy compare them with this year's May Day slogans.
+    n: '[[w.yang-shangkun-riji]], I, 569 (Oct. 13, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 24c0e330
+      rows:
+        - 'w.yang-shangkun-riji I, 569: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-13.china-leadership-5
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-13.china-leadership-7
+    c: 'Moscow 莫斯科. The drafting committee''s secretariat, an hour late: the dispute goes on, "two armies face to face"; so Kang Sheng 康生 and Hu Qiaomu 胡乔木 report it.'
+    n: '[[w.yang-shangkun-riji]], I, 569–570 (Oct. 13, 1960). The words: 推迟秘书处会1个钟头 (I, 569). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Hu Qiaomu.'
+    src:
+      c: badd175e
+      rows:
+        - 'w.yang-shangkun-riji I, 569–570: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+  - id: cal.1960-10-13.china-leadership-7
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. Before the secretariat sits, the Soviets talk with the Chinese delegation: they offer to strike "going it alone" 单干 and "national communism" 民族共产主义 but keep the passage hinting at Yugoslavia; the Chinese refuse, the talk ends without result.'
+    n: '[[w.yang-shangkun-riji]], I, 570 (Oct. 13, 1960). The words: 在今天会议开始前……专门找我代表团谈话 (I, 569–570). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 334f1f10
+      rows:
+        - 'w.yang-shangkun-riji I, 570: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+  - id: cal.1960-10-13.china-leadership-8
+    when: Oct. 13
+    date: '1960-10-13'
+    time: 1960-10-13T15:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy, 6:30 p.m. Kang Sheng 康生 and Hu Qiaomu 胡乔木 report the secretariat's day to the delegation.
+    n: '[[w.yang-shangkun-riji]], I, 569 (Oct. 13, 1960). The words: 6时半去大使馆，康、乔汇报 (I, 569). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Hu Qiaomu.'
+    src:
+      c: 02c394a5
+      rows:
+        - 'w.yang-shangkun-riji I, 569: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-13.china-leadership-9
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-13.china-leadership-8
+    c: Moscow 莫斯科. The delegation reports the day to the Center 中央.
+    n: '[[w.yang-shangkun-riji]], I, 570 (Oct. 13, 1960). The words: 已将此情报告中央了 (I, 570). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 9bd4576a
+      rows:
+        - 'w.yang-shangkun-riji I, 570: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-13.china-leadership-6
+    when: Oct. 13
+    date: '1960-10-13'
+    time: 1960-10-13T16:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Chinese Embassy. Hysni Kapo 卡博 with the Chinese, 7:30 p.m.: at one with them on the secretariat''s work and on the course ahead.'
+    n: '[[w.yang-shangkun-riji]], I, 570 (Oct. 13, 1960). The words: 7时半 (I, 570). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    src:
+      c: c9f1f17c
+      rows:
+        - 'w.yang-shangkun-riji I, 570: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-14.peace-corps
     when: Oct. 14
     date: '1960-10-14'
@@ -2129,6 +2791,74 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 356–357: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 357 n.2: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:chen-yun, name:chen-yi, name:li-fuchun, name:chen-boda, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1960-10-14.china-leadership-3
+    when: Oct. 14
+    date: '1960-10-14'
+    time: 1960-10-14T07:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. Berlinguer 贝林格 and Pajetta 巴叶塔 of the Italian party call on Kang Sheng 康生, 10 a.m., on speeding the secretariat''s work; Kang: no bombs to be buried in the draft; the Italians propose a small committee, Kang neither yes nor no.'
+    n: '[[w.yang-shangkun-riji]], I, 570 (Oct. 14, 1960). The words: 10时 (I, 570). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Berlinguer, Pajetta, Kang Sheng.'
+    src:
+      c: 6df2c6e6
+      rows:
+        - 'w.yang-shangkun-riji I, 570: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-14.china-leadership-4
+    when: Oct. 14
+    date: '1960-10-14'
+    time: 1960-10-14T14:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Khrushchev 赫鲁晓夫 back in Moscow 莫斯科 from the United Nations, 5:30 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 14, 1960). The words: 下午5时半 (I, 571). Names: Khrushchev.'
+    src:
+      c: 067c3973
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, name:khrushchev-nikita-s]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-14.china-leadership-5
+    when: Oct. 14
+    date: '1960-10-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The drafting committee's secretariat finishes the third part (the danger of war, nuclear weapons, disarmament), the Japanese, Vietnamese and Albanians firm; the Soviets form a small committee of six (the Soviet Union, China, Japan, West Germany and others), with talks between the two parties; so Hu Qiaomu 胡乔木 reports it.
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 14, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Qiaomu.'
+    src:
+      c: 458c3a5f
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+  - id: cal.1960-10-14.china-leadership-6
+    when: Oct. 14
+    date: '1960-10-14'
+    time: 1960-10-14T17:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-14.china-leadership-5
+    c: Moscow 莫斯科, the Chinese Embassy, 8 p.m. Hu Qiaomu 胡乔木 reports the secretariat's day to the delegation; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 14, 1960). The words: 8时又去使馆，听乔木同志汇报 (I, 571); after the sitting. See [[cal.1960-10-14.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Qiaomu, Yang Shangkun.'
+    src:
+      c: 19508d33
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-14.china-leadership-7
+    when: Oct. 14
+    date: '1960-10-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The delegation, watching what Khrushchev 赫鲁晓夫 will do on his return, cables the Center 中央 for instructions on meeting it.
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 14, 1960). The words: 已电中央请示如何应付 (I, 571). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev.'
+    src:
+      c: 9fbd996c
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-10-15.elections-1960
     when: Oct. 15
     date: '1960-10-15'
@@ -2281,6 +3011,63 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 358–359: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 358 n.2: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:chen-yun, name:li-fuchun, name:chen-boda, name:macmillan-harold, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1960-10-15.china-leadership-4
+    when: Oct. 15
+    date: '1960-10-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. Yang Shangkun 杨尚昆 reads Khrushchev''s 赫鲁晓夫 two speeches of Oct. 11 to the General Assembly on disarmament, and his statement at the New York airport: weak, he finds.'
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 15, 1960). The words: 9时起床，早饭后 (I, 571). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Khrushchev.'
+    src:
+      c: c1c68b99
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1960-10-15T03:00Z
+      - 1960-10-15T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-15.china-leadership-5
+    when: Oct. 15
+    date: '1960-10-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The secretariat finishes the fourth chapter; Bagdash, the French, Ghosh and the Cubans dispute the national states; whatever the Chinese accept passes; so Kang Sheng 康生 reports it.
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 15, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng.'
+    src:
+      c: 168f67c8
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+  - id: cal.1960-10-15.china-leadership-6
+    when: Oct. 15
+    date: '1960-10-15'
+    time: 1960-10-15T15:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-10-15.china-leadership-5
+    c: Moscow 莫斯科, the Chinese Embassy, 6 p.m. Kang Sheng 康生 reports the secretariat's day.
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 15, 1960). The words: 6时去使馆。据康生同志说 (I, 571). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng.'
+    src:
+      c: '57407134'
+      rows:
+        - 'w.yang-shangkun-riji I, 571: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-15.china-leadership-7
+    when: Oct. 15
+    date: '1960-10-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Indonesians tell Zhang Shangming 张上明 that only the Chinese could have carried the argument, and that Mukhitdinov twice pressed them.
+    n: '[[w.yang-shangkun-riji]], I, 572 (Oct. 15, 1960). The words: 印度尼西亚同志向张上明表示 (I, 572). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Shangming. Check: the day: the diary tells it under Oct. 15.'
+    src:
+      c: a24e096b
+      rows:
+        - 'w.yang-shangkun-riji I, 572: all'
+    tags: [polity:prc, vis:only:prc+indonesia]
   - id: cal.1960-10-16.elections-1960
     when: Oct. 16
     date: '1960-10-16'
@@ -2379,6 +3166,61 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 170: all'
     tags: [polity:prc, polity:brazil, name:zhu-de]
+  - id: cal.1960-10-16.china-leadership-2
+    when: Oct. 16
+    date: '1960-10-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Chinese Embassy. The delegation resolves: in the fifth part the passages on peaceful transition, Yugoslavia, revisionism and dogmatism and factional activity to be fought; wariness of the Soviets'' nine-man small committee; the revised whole text to be asked for; the speeches for the secretariat''s end, the drafting committee and the November meeting to be prepared.'
+    n: '[[w.yang-shangkun-riji]], I, 572 (Oct. 16, 1960). The words: 早饭后，去使馆开会 (I, 572). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: eefc47d5
+      rows:
+        - 'w.yang-shangkun-riji I, 572: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-10-16T03:00Z
+      - 1960-10-16T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-16.china-leadership-3
+    when: Oct. 16
+    date: '1960-10-16'
+    thread: china-leadership
+    also: [soviet-union, foreign-aid]
+    c: 'Moscow 莫斯科. Peking''s analysis of the Soviet loans reaches the delegation: total 5.676 billion rubles, not 6.6; the Korean War 3.425 billion (60.4 percent), economy and trade 1.528 billion (26.9), stores handed over at Lüda 旅大 0.723 billion (12.7); 4.284 billion repaid with interest by 1960, the whole 6.278 billion by 1965; the rubber agreement. China''s aid abroad in eleven years 5.21 billion yuan, 4.523 billion to the socialist camp.'
+    n: '[[w.yang-shangkun-riji]], I, 573–574 (Oct. 16, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: a9caadd1
+      rows:
+        - 'w.yang-shangkun-riji I, 573–574: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-16.china-leadership-4
+    when: Oct. 16
+    date: '1960-10-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Hao Deqing 郝德青, Ambassador to Hungary, reports: the Hungarian Central Committee has lately ordered discussion of the Sino-Soviet differences stopped.'
+    n: '[[w.yang-shangkun-riji]], I, 574 (Oct. 16, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hao Deqing.'
+    src:
+      c: 8a9f41b4
+      rows:
+        - 'w.yang-shangkun-riji I, 574: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-16.china-leadership-5
+    when: Oct. 16
+    date: '1960-10-16'
+    time: 1960-10-16T16:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. Hu Qiaomu 胡乔木 at the small committee, 7 to 11 p.m.: "not bad," no details.'
+    n: '[[w.yang-shangkun-riji]], I, 574 (Oct. 16, 1960). The words: 今晚7时参加小委员会，11时回来 (I, 574). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Qiaomu.'
+    src:
+      c: 9acd0f77
+      rows:
+        - 'w.yang-shangkun-riji I, 574: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-17.laos
     when: Oct. 17
     date: '1960-10-17'
@@ -2639,6 +3481,37 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 363 n.1: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 365 n.4: all'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:chen-boda, vis:only:prc]
+  - id: cal.1960-10-17.china-leadership-5
+    when: Oct. 17
+    date: '1960-10-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Deng Xiaoping 邓小平 decides at breakfast that Lu Dingyi 陆定一, Hu Sheng 胡绳, Fan Ruoyu 范若愚 and Wang Li 王力 go back to Peking 北京 to prepare the November papers; in the afternoon the delegation at the embassy on Lu's report to the Center.
+    n: '[[w.yang-shangkun-riji]], I, 574–575 (Oct. 17, 1960). The words: 早饭时 (I, 574). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Lu Dingyi, Hu Sheng, Fan Ruoyu, Wang Li.'
+    src:
+      c: e0aade27
+      rows:
+        - 'w.yang-shangkun-riji I, 574–575: all'
+    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, vis:only:prc]
+    time_range:
+      - 1960-10-17T03:00Z
+      - 1960-10-17T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-17.china-leadership-6
+    when: Oct. 17
+    date: '1960-10-17'
+    time: 1960-10-17T09:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The secretariat on the draft''s fifth chapter, noon to 8 p.m.: the Twentieth and Twenty-first Congresses, the cult of personality; the Soviet side and its friends attack the Chinese; half the chapter done, by Hu Qiaomu''s 胡乔木 and Kang Sheng''s 康生 report at the embassy, 8:30 to 11 p.m.'
+    n: '[[w.yang-shangkun-riji]], I, 575–576 (Oct. 17, 1960). The words: 晚间8时半至11时……从12时到8时整整9个钟头 (I, 575). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Qiaomu, Kang Sheng.'
+    src:
+      c: 70a597f6
+      rows:
+        - 'w.yang-shangkun-riji I, 575–576: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-18.court
     when: Oct. 18–19
     date: '1960-10-18'
@@ -2839,6 +3712,34 @@ entries:
       - 1960-10-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-18.china-leadership-3
+    when: Oct. 18
+    date: '1960-10-18'
+    time: 1960-10-18T08:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The secretariat, from 11 a.m.: the Twentieth and Twenty-first Congresses, the cult of personality, revisionism and dogmatism; nothing settled.'
+    n: '[[w.yang-shangkun-riji]], I, 576 (Oct. 18, 1960). The words: 秘书处11时开会 (I, 576). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 0154b428
+      rows:
+        - 'w.yang-shangkun-riji I, 576: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-18.china-leadership-4
+    when: Oct. 18
+    date: '1960-10-18'
+    time: 1960-10-18T18:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The Chinese with Hysni Kapo 卡博, 9 to 11 p.m.: the points they will fight for, and their concert for the next day.'
+    n: '[[w.yang-shangkun-riji]], I, 576 (Oct. 18, 1960). The words: 9时到11时 (I, 576). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    src:
+      c: 0eb87422
+      rows:
+        - 'w.yang-shangkun-riji I, 576: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-19.cuba
     when: Oct. 19
     date: '1960-10-19'
@@ -3033,6 +3934,80 @@ entries:
       - 1960-10-19T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-19.china-leadership-4
+    when: Oct. 19
+    date: '1960-10-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Shcherbakov 谢尔巴科夫 tells the delegation that some parties ask that the secretariat not meet that morning, to consult their central committees; the afternoon to be notified.
+    n: '[[w.yang-shangkun-riji]], I, 577 (Oct. 19, 1960). The words: 9时起床，早饭后读文件。谢尔巴科夫同志来通知 (I, 577). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Shcherbakov.'
+    src:
+      c: 0c07244c
+      rows:
+        - 'w.yang-shangkun-riji I, 577: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_range:
+      - 1960-10-19T06:00Z
+      - 1960-10-19T09:00Z
+    time_band: workday morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-19.china-leadership-7
+    when: Oct. 19
+    date: '1960-10-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. Word in the afternoon: the secretariat will not meet that day.'
+    n: '[[w.yang-shangkun-riji]], I, 577 (Oct. 19, 1960). The words: 下午接通知，今天秘书处会议不开了 (I, 577). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 2a4e155c
+      rows:
+        - 'w.yang-shangkun-riji I, 577: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_range:
+      - 1960-10-19T09:00Z
+      - 1960-10-19T15:00Z
+    time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-19.china-leadership-8
+    when: Oct. 19
+    date: '1960-10-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Yang Shangkun 杨尚昆 reaches the Japanese, Indonesians and Vietnamese, who agree to hold firm at the next day's session.
+    n: '[[w.yang-shangkun-riji]], I, 577 (Oct. 19, 1960). The words: 今天我与日、印度尼西亚、越南同志取得了联系 (I, 577). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a5c9cc07
+      rows:
+        - 'w.yang-shangkun-riji I, 577: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-19.china-leadership-5
+    when: Oct. 19
+    date: '1960-10-19'
+    time: 1960-10-19T08:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Chinese Embassy, 11 a.m.: Deng Xiaoping''s 邓小平 last speech to the drafting committee.'
+    n: '[[w.yang-shangkun-riji]], I, 577 (Oct. 19, 1960). The words: 11时 (I, 577). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: 3bd57232
+      rows:
+        - 'w.yang-shangkun-riji I, 577: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-19.china-leadership-6
+    when: Oct. 19
+    date: '1960-10-19'
+    time: 1960-10-19T19:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Shcherbakov 谢尔巴科夫 hands over the first four parts of the draft statement as revised after the secretariat's talks, before 10 p.m.; Yang Shangkun 杨尚昆 sees Lu Dingyi 陆定一 off to Peking 北京 at 10.
+    n: '[[w.yang-shangkun-riji]], I, 577 (Oct. 19, 1960). The words: 晚间10时送定一同志回京 (I, 577). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Shcherbakov, Yang Shangkun, Lu Dingyi.'
+    src:
+      c: d51f89c5
+      rows:
+        - 'w.yang-shangkun-riji I, 577: all'
+    tags: [polity:prc, name:lu-dingyi, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-20.cuba
     when: Oct. 20
     date: '1960-10-20'
@@ -3276,6 +4251,46 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 292: all'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
+  - id: cal.1960-10-20.china-leadership-5
+    when: Oct. 20
+    date: '1960-10-20'
+    time: 1960-10-20T07:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Chinese Embassy. The delegation reads the Soviet revised draft together, 10 a.m. to 1:30 p.m. and 4 to 7 p.m.; Yang Shangkun 杨尚昆 finds much of the Chinese view taken in and the "go it alone" nails pulled, "a victory of the struggle."
+    n: '[[w.yang-shangkun-riji]], I, 578 (Oct. 20, 1960). The words: 由10时起到1时半……下午4时到7时 (I, 578). The time is the first sitting''s. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 89c3f151
+      rows:
+        - 'w.yang-shangkun-riji I, 578: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-20.china-leadership-6
+    when: Oct. 20
+    date: '1960-10-20'
+    time: 1960-10-20T08:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The secretariat, 11 a.m. to 11 p.m.: whether war can be rooted out of human life now; dogmatism and revisionism; the Twentieth and Twenty-first Congresses; no agreement.'
+    n: '[[w.yang-shangkun-riji]], I, 578 (Oct. 20, 1960). The words: 他们整个开了12小时的会议 (I, 578). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 29a4d3be
+      rows:
+        - 'w.yang-shangkun-riji I, 578: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-20.china-leadership-7
+    when: Oct. 20
+    date: '1960-10-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Liu Xiao 刘晓 tells the delegation that two institutes of the Soviet Academy of Sciences have it that Khrushchev 赫鲁晓夫 may go to Peking 北京 to have Mao come to the November meeting; reported to the Center.
+    n: '[[w.yang-shangkun-riji]], I, 578 (Oct. 20, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Xiao, Khrushchev, Mao Zedong.'
+    src:
+      c: d3d01878
+      rows:
+        - 'w.yang-shangkun-riji I, 578: all'
+    tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-10-21.elections-1960
     when: Oct. 21
     date: '1960-10-21'
@@ -3401,6 +4416,37 @@ entries:
     c: 'At the Secretariat, after Gu Mu''s report on industrial output, Zhou Enlai: the 18.4 million tons of steel must at least be made, with about 19 million held inside; leave room, narrow the gap; past ministries left no room and pushed the gap down to others, which will not do. He also speaks on the handling of Soviet-nationality cadres of dual citizenship in Sinkiang.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 21, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-10-21.china-leadership-4
+    when: Oct. 21
+    date: '1960-10-21'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科. The secretariat ends: the text in the main agreed, four questions left open (war rooted out of human life; the Twentieth and Twenty-first Congresses affirmed in full; group and factional activity; equality and consultation among brother parties). The Chinese to leave them open in their last speech, under the banner of unity.'
+    n: '[[w.yang-shangkun-riji]], I, 579 (Oct. 21, 1960). The words: 晚间去使馆开会 (I, 579). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 42df9640
+      rows:
+        - 'w.yang-shangkun-riji I, 579: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+    time_range:
+      - 1960-10-21T16:00Z
+      - 1960-10-21T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-21.china-leadership-5
+    when: Oct. 21
+    date: '1960-10-21'
+    time: 1960-10-21T17:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Peng Zhen 彭真 with Hysni Kapo 卡博; Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆 with the Brazilian, going home the next day, 8 to 11 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 579 (Oct. 21, 1960). The words: 从8时起谈到11时 (I, 579). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Hysni Kapo, Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: a3074822
+      rows:
+        - 'w.yang-shangkun-riji I, 579: all'
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-22.elections-1960
     when: Oct. 22
     date: '1960-10-22'
@@ -3570,6 +4616,48 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 369: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 369 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:castro-fidel, vis:only:prc]
+  - id: cal.1960-10-22.china-leadership-3
+    when: Oct. 22
+    date: '1960-10-22'
+    time: 1960-10-22T09:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s last session, Suslov 苏斯洛夫 in the chair, noon to 1:30 p.m. Ponomarev 波诺马廖夫 reports the secretariat''s work: chapters 1, 2 and 4 agreed; in 3 and 5 open the ending of war, the Twentieth and Twenty-first Congresses, the cult of personality, Yugoslavia''s wording, group and factional activity. Deng Xiaoping 邓小平 speaks from his text. The draft goes to the November meeting; the Soviet delegation to report there, on Koucký''s 考茨基 motion; Miyamoto 宫本 asks for full agreement in November. A peace appeal to be drafted by the American, British, Italian, French and Polish parties.'
+    n: '[[w.yang-shangkun-riji]], I, 580–583 (Oct. 22, 1960). The words: 12时起草委员会继续开会……13时半起草委员会会议结束 (I, 580). See [[cal.1960-10-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Suslov, Ponomarev, Deng Xiaoping, Koucký, Miyamoto Kenji.'
+    src:
+      c: 28417c88
+      rows:
+        - 'w.yang-shangkun-riji I, 580–583: all'
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:ponomarev-boris-n, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-22.china-leadership-4
+    when: Oct. 22
+    date: '1960-10-22'
+    time: 1960-10-22T12:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the Kremlin''s St. George''s Hall 圣乔治大厅. The Soviet Presidium''s reception for the drafting committee, 3 to 5:30 p.m.; Khrushchev 赫鲁晓夫 there. Toasts by Suslov and Deng Xiaoping 邓小平; over coffee Khrushchev rises: whoever opposes him opposes the Soviet Central Committee; he does not want to lead; he would leave a party that made revolution by war. Deng answers at once: no communist party wants revolution by war; Soviet leadership a thing of history; the banquet no place for debate. Khrushchev speaks again, on leadership and Soviet grievances, and ends on unity.'
+    n: '[[w.yang-shangkun-riji]], I, 583 (Oct. 22, 1960). The words: 3时在克里姆林宫圣乔治大厅……5时半宴会完 (I, 583). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev, Suslov, Deng Xiaoping.'
+    src:
+      c: 5399e324
+      rows:
+        - 'w.yang-shangkun-riji I, 583: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:suslov-mikhail-a, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-22.china-leadership-5
+    when: Oct. 22
+    date: '1960-10-22'
+    time: 1960-10-22T16:00Z
+    thread: china-leadership
+    also: [soviet-union, japan]
+    c: Moscow 莫斯科. Deng Xiaoping 邓小平, with Yang Shangkun 杨尚昆, sees the Japanese (Miyamoto Kenji 宫本显治, Hakamada Satomi 袴田里见, Yonehara Itaru 米原昶) on the drafting committee's work, 7 to 9 p.m.; at the same hour Peng Zhen 彭真 sees Sharkey 夏基 and Dixon 狄克逊.
+    n: '[[w.yang-shangkun-riji]], I, 583 (Oct. 22, 1960). The words: 7时至9时 (I, 583). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Miyamoto Kenji, Hakamada Satomi, Yonehara Itaru, Peng Zhen, Sharkey, Dixon.'
+    src:
+      c: 54e10d8b
+      rows:
+        - 'w.yang-shangkun-riji I, 583: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-23.republican-party
     when: Oct. 23
     date: '1960-10-23'
@@ -3751,6 +4839,34 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 170: all'
     tags: [polity:prc, polity:dprk, name:he-long, name:luo-ruiqing]
+  - id: cal.1960-10-23.china-leadership-7
+    when: Oct. 23
+    date: '1960-10-23'
+    time: 1960-10-23T06:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. The Chinese with Hysni Kapo 卡博 and Alia 阿利雅 of the Albanian party, 9 a.m. to 1 p.m.; with the Indonesians, 4 to 6 p.m.
+    n: '[[w.yang-shangkun-riji]], I, 584 (Oct. 23, 1960). The words: 上午9时到下午1时……4时到6时 (I, 584). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo, Alia.'
+    src:
+      c: b92f759b
+      rows:
+        - 'w.yang-shangkun-riji I, 584: all'
+    tags: [polity:prc, vis:only:prc+albania]
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-23.china-leadership-8
+    when: Oct. 23
+    date: '1960-10-23'
+    time: 1960-10-23T19:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Yang Shangkun 杨尚昆 and the delegation fly from Moscow 莫斯科, 10 p.m.: past Omsk 鄂木斯克 at about 1 a.m., lunch at Irkutsk 伊尔库茨克 at 10, Peking 北京 before 2 p.m., Oct. 24. His second journey to Moscow in 1960, Sept. 30 to Oct. 24, twenty-five days.'
+    n: '[[w.yang-shangkun-riji]], I, 584 (Oct. 23, 1960). The words: 9时由住地出发，10时上飞机，飞京……下午2时前到达北京 (I, 584). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a4713dcf
+      rows:
+        - 'w.yang-shangkun-riji I, 584: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1960-10-24.cuba
     when: Oct. 24
     date: '1960-10-24'
@@ -3890,7 +5006,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Yinian Tang, 8 p.m. Mao''s meeting of the Standing Committee, the Secretariat and the first secretaries of North and Central-South China, with Chen Yi and Chen Boda, hears Deng Xiaoping and Peng Zhen, back that afternoon, on the drafting commission of twenty-six parties at Moscow, Oct. 1–22: the Soviet draft the basis; argued; most agreed, some points still open.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 24, 1960, and note 131. [[w.zhou-enlai-nianpu-1949]], II, 362, Oct. 24, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 366–367 (after three weeks the committee had no agreed text; four "nails" in the Soviet draft by Wu''s account: the Twentieth Congress''s line wholly right; unnamed attacks on "factional activity"; condemnation of the personality cult; war avoidable; the revised text and the open points to go to the November conference); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 24, 1960; Liu attends the meeting Mao convenes, which hears Deng Xiaoping and Peng Zhen, back that afternoon, on the Moscow conference). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Chen Yi, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 24, 1960, and note 131. [[w.zhou-enlai-nianpu-1949]], II, 362, Oct. 24, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 366–367 (after three weeks the committee had no agreed text; four "nails" in the Soviet draft by Wu''s account: the Twentieth Congress''s line wholly right; unnamed attacks on "factional activity"; condemnation of the personality cult; war avoidable; the revised text and the open points to go to the November conference); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 24, 1960; Liu attends the meeting Mao convenes, which hears Deng Xiaoping and Peng Zhen, back that afternoon, on the Moscow conference); [[w.yang-shangkun-riji]], I, 584 (Oct. 24, 1960; the delegation lands at Peking before 2 p.m.). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Chen Yi, Chen Boda.'
     src:
       c: fe665f23
       rows:
@@ -3898,6 +5014,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 362, Oct. 24, 1960: B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 366–367: D'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 495: B'
+        - 'w.yang-shangkun-riji I, 584: B'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:chen-boda, vis:only:prc]
     variants:
       - unit: B
