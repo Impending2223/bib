@@ -1,0 +1,3 @@
+# What the site build needs (CI: pip install -r requirements.txt). PyYAML only; the version CI installed
+# before it was pinned (PyPI's latest 6.x, Nov. 2026). The build reads no time zones, so no tzdata.
+PyYAML==6.0.3
