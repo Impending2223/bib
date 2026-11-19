@@ -318,3 +318,41 @@ def test_patch_check_refuses_a_rename(mini):
            "./bib combine, ./bib resolve, or by hand)" in errors
     assert any(x.startswith("edit cal.1961-01-02.x: an edit may not unset 'conflict'") for x in errors)
     assert sum("may not set 'id'" in x for x in errors) == 1          # said once, not again from the dry run
+
+
+# ---------------------------------------------------------------- 7. the emitter's keys, and empty {} [] in lists
+
+def _round_trip(d):
+    import yaml
+    from tools.bib import store
+    text = store._emit(d, 0) + "\n"
+    return yaml.load(text, Loader=store._Loader), text
+
+
+def test_emitter_quotes_keys_as_values():
+    d = {"on": 1, "no": "x", "yes": True, "#x": 2, "k: v": 3, "1961": 4, 1962: 5, "null": None, "id": "cal.x"}
+    assert "  true: b" in _round_trip({1: "a", "t": {True: "b"}})[1]      # the key True, not the cached key 1
+    back, text = _round_trip(d)
+    assert back == d
+    assert "id: cal.x\n" in text and "'1961': 4\n" in text and "1962: 5\n" in text
+
+
+def test_emitter_writes_empty_mappings_and_lists_in_lists():
+    d = {"a": [{}], "b": [[]], "c": [{}, {"x": []}, [], "z", [1, []]], "d": {}, "e": []}
+    back, text = _round_trip(d)
+    assert back == d
+    assert "a:\n  - {}\nb:\n  - []\n" in text
+
+
+def test_emitter_unchanged_for_ordinary_entries(tmp_path):
+    from tools.bib import store
+    e = {"id": "cal.1961-04-15.cuba", "when": "Apr. 15–19", "date": "1961-04-15", "thread": "cuba",
+         "also": ["space"], "c": "*Title*: what happened.", "n": "It's [[w.x]], 12. To check: x.",
+         "src": {"c": "abcd1234", "rows": ["w.x 12: A"]}, "tags": ["name:kennedy", "state:fla"]}
+    p = tmp_path / "x.yaml"
+    store.dump_yaml({"list": "cal", "section": "196104", "entries": [e]}, str(p), header=["H"])
+    assert p.read_text(encoding="utf-8") == (
+        "# H\nlist: cal\nsection: '196104'\nentries:\n  - id: cal.1961-04-15.cuba\n    when: Apr. 15–19\n"
+        "    date: '1961-04-15'\n    thread: cuba\n    also: [space]\n    c: '*Title*: what happened.'\n"
+        "    n: 'It''s [[w.x]], 12. To check: x.'\n    src:\n      c: abcd1234\n      rows:\n        - 'w.x 12: A'\n"
+        "    tags: [name:kennedy, state:fla]\n")

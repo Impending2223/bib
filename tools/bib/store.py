@@ -5,6 +5,7 @@ module is the only place that knows the layout; the rest of the tools work on
 the in-memory objects it returns.
 """
 import datetime
+import functools
 import hashlib
 import json
 import os
@@ -108,12 +109,19 @@ def _scalar(v):
     return out
 
 
+@functools.lru_cache(maxsize=4096, typed=True)    # typed: the key True is not the key 1
+def _key(k):
+    """A mapping key, quoted as a value would be: 'on', 'no', '1961', '#x', 'k: v' read back as written."""
+    return _scalar(k)
+
+
 def _emit(v, indent):
     """Block YAML with one field per line; lists of strings become '- ' items."""
     pad = " " * indent
     if isinstance(v, dict):
         lines = []
         for k, x in v.items():
+            k = _key(k)
             if isinstance(x, (dict, list)) and x:
                 if isinstance(x, list) and all(not isinstance(i, (dict, list)) for i in x) and k in ("also", "tags", "aliases"):
                     lines.append(f"{pad}{k}: [{', '.join(_scalar(i) for i in x)}]")
@@ -126,7 +134,9 @@ def _emit(v, indent):
     if isinstance(v, list):
         lines = []
         for x in v:
-            if isinstance(x, dict):
+            if isinstance(x, (dict, list)) and not x:       # an empty mapping or list, in flow form: {} or []
+                lines.append(f"{pad}- {_scalar(x)}")
+            elif isinstance(x, dict):
                 inner = _emit(x, indent + 2)
                 lines.append(pad + "- " + inner[indent + 2:])
             elif isinstance(x, list):
