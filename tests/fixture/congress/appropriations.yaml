@@ -1,0 +1,353 @@
+# Each session's appropriation bills against the President's estimates, 86th Cong., 2d sess., to the 90th, 2d: kept by
+# hand from the tables printed in the bound Congressional Record at or near each session's end (found by the Record's
+# Index, under "Appropriations", "Tables"), every figure read off the page image on govinfo. Rendered by tools/bib/appropriations.py under the calendar entry tagged `appropriations:<Congress>-<session>`
+# (the session's adjournment); `check` fails on a row whose estimate and change do not make its amount, a column that
+# does not add to its printed total, a figure that is not whole dollars, an entry that answers nothing.
+#
+#   date, chamber, page, rec   the Record's day, chamber, printed page(s) and govinfo granule of the table
+#   head                       the table's heading as printed (or the Index's, where so marked)
+#   by                         who prepared it, where the table says
+#   est, final, chg            the source's own heads of the three columns used (others it prints are left out)
+#   chg_sign: saving           the source prints the change as a positive saving; the data hold it negative
+#   est_computed               the source prints no estimate: the block shows the amount less the change, marked
+#   entry                      the calendar entry that carries the table (also tagged appropriations:<key>)
+#   groups                     as the table groups its bills (by fiscal year, supplementals): name, bills, total
+#   bills                      bill (as printed), title, est, final, chg (whole dollars, as printed); paren: printed in
+#                              parentheses (loan and contract authority, memoranda) and not counted in the totals;
+#                              sub: a line under the bill before it, indented; note (shown under the table); misprint (the source's own figures disagree: shown, and
+#                              the arithmetic check passes it)
+#   total                      the table's printed total for the group or the session, misprint as above
+sessions:
+  '86-2':
+    date: '1960-09-01'
+    chamber: House
+    page: '19422'
+    rec: GPO-CRECB-1960-pt14-4-2
+    head: 'Table of appropriation bills, 86th Cong., 2d sess.'
+    est: Budget estimates
+    final: 'Final action, amount as approved'
+    chg: Increase or decrease compared to budget estimates
+    entry: cal.1960-09-01.congress
+    groups:
+      - name: 1960 appropriations
+        bills:
+          - {bill: H.J. Res. 621, title: NASA supplemental, est: 23079000, final: 23079000}
+          - {bill: H.R. 10743, title: 2d supplemental, est: 1018504888, final: 955370003, chg: -63134885}
+          - {bill: H.J. Res. 765, title: Labor supplemental, est: 8000000, final: 6000000, chg: -2000000}
+      - name: 1961 appropriations
+        bills:
+          - {bill: H.R. 10233, title: District of Columbia, paren: true, est: 242403000, final: 239470433, chg: -2932567}
+          - {sub: true, title: Loan authorization, paren: true, est: 18700000, final: 20100000, chg: 1400000}
+          - {sub: true, title: Federal payment, est: 34533000, final: 27533000, chg: -7000000}
+          - {bill: H.R. 10234, title: Commerce, est: 799615000, final: 729624375, chg: -69990625}
+          - {bill: H.R. 10401, title: Interior, est: 550330300, final: 557667600, chg: 7337300}
+          - {bill: H.R. 10569, title: Treasury-Post Office, est: 4897853000, final: 4841914000, chg: -55939000}
+          - {bill: H.R. 11389, title: General Government, est: 14627500, final: 14207500, chg: -420000}
+          - {bill: H.R. 11390, title: Labor-HEW, est: 4020221981, final: 4354170331, chg: 333948350}
+          - {bill: H.R. 11666, title: State-Justice-Judiciary, est: 733030395, final: 705032567, chg: -27997828}
+          - {bill: H.R. 11776, title: Independent offices, est: 8417397000, final: 8311893400, chg: -105503600}
+          - {bill: H.R. 11998, title: Defense, est: 39335000000, final: 39996608000, chg: 661608000}
+          - {bill: H.R. 12117, title: Agriculture, est: 4135263190, final: 3994097600, chg: -141165590}
+          - {sub: true, title: Loan authorizations, paren: true, est: 367000000, final: 577000000, chg: 210000000}
+          - {bill: H.R. 12231, title: Military construction, est: 1188000000, final: 994855000, chg: -193145000}
+          - {bill: H.R. 12232, title: Legislative, est: 133413485, final: 129470410, chg: -3943075}
+          - {bill: H.R. 12326, title: Public works, est: 4013793180, final: 3969982485, chg: -43810695}
+          - {bill: H.R. 12619, title: Mutual security, est: 4281704000, final: 3722350000, chg: -559354000}
+          - {bill: H.R. 12740, title: Supplemental, est: 169327840, final: 138293740, chg: -31034100}
+          - {bill: H.R. 13161, title: 2d supplemental, est: 72280731, final: 162186981, chg: 89906250}
+        total: {est: 72796390602, final: 72649886989, chg: -146503613}
+    total: {est: 73845974490, final: 73634335992, chg: -211638498}
+  '87-1':
+    date: '1961-09-26'
+    chamber: House
+    page: 21807–21808
+    rec: GPO-CRECB-1961-pt16-4-3
+    head: 'Table of appropriation bills, 87th Cong., 1st sess.'
+    est: Budget estimates
+    final: 'Final action, amount as approved'
+    chg: Increase (+) or decrease (−) compared to budget estimates
+    entry: cal.1961-09-27.transition-and-staff
+    groups:
+      - name: 1961 supplementals
+        bills:
+          - {bill: H.R. 5188, title: 3d supplemental, est: 5275213127, final: 1694055637, chg: -3581157490}
+          - {bill: H.R. 6518, title: Inter-American program, est: 600000000, final: 600000000}
+          - {bill: H.R. 7712, title: 4th supplemental, est: 88024000, final: 47214000, chg: -40810000}
+        total: {est: 5963237127, final: 2341269637, chg: -3621967490}
+      - name: 1962 appropriations
+        bills:
+          - {bill: H.R. 5954, title: Treasury-Post Office, est: 5371801000, final: 5298765000, chg: -73036000}
+          - {bill: H.R. 6845, title: Interior, est: 782387000, final: 779158650, chg: -3228350}
+          - {bill: H.R. 7035, title: Labor-HEW, est: 5004281081, final: 4915965000, chg: -88316081}
+          - {bill: H.R. 7208, title: Legislative, est: 136082802, final: 135432065, chg: -650737}
+          - {bill: H.R. 7371, title: 'State, Justice, judiciary', est: 795891202, final: 756422550, chg: -39468652}
+          - {bill: H.R. 7444, title: Agriculture, est: 6089244000, final: 5967494500, chg: -121749500}
+          - {sub: true, title: Loan authorizations, paren: true, est: 612000000, final: 725500000, chg: 113500000}
+          - {bill: H.R. 7445, title: Independent offices, est: 9174561000, final: 8966285000, chg: -208276000}
+          - {bill: H.R. 7577, title: General Government-Commerce, est: 666278000, final: 641135800, chg: -25142200}
+          - {bill: H.R. 7851, title: Defense, est: 46396945000, final: 46662556000, chg: 265611000}
+          - {bill: H.R. 8072, title: District of Columbia, paren: true, est: 292827398, final: 270067897, chg: -22759501}
+          - {sub: true, title: Loan authorizations, paren: true, est: 24600000, final: 29000000, chg: 4400000}
+          - {sub: true, title: Federal payment, est: 39753000, final: 32753000, chg: -7000000}
+          - {bill: H.R. 8302, title: Military construction, est: 1047568000, final: 951690750, chg: -95877250}
+          - {bill: H.R. 9033, title: Foreign assistance, est: 4993991000, final: 4123345000, chg: -870646000}
+          - {bill: H.R. 9076, title: Public works, est: 4000788000, final: 3908880980, chg: -91907020}
+          - {bill: H.R. 9169, title: Supplemental, est: 1134639841, final: 1125333341, chg: -9306500}
+        total: {est: 85634210926, final: 84265217636, chg: -1368993290}
+    total: {est: 91597448053, final: 86606487273, chg: -4990960780}
+  '87-2':
+    date: '1962-10-13'
+    chamber: House
+    page: 23490–23491
+    rec: GPO-CRECB-1962-pt17-8-2
+    head: 'Appropriations and budget estimates, 87th Cong., 2d sess. (the Index''s heading)'
+    est: Budget estimates to Senate
+    final: 'Final action, amount as approved'
+    chg: Increase or decrease compared to budget estimates to date
+    entry: cal.1962-10-13.congress
+    groups:
+      - name: 1962 supplementals
+        bills:
+          - {bill: H.J. Res. 612, title: 'Veterans'' Administration', est: 151200000, final: 55000000, chg: -96200000}
+          - {bill: H.R. 11038, title: 2d supplemental, est: 522231929, final: 373550689, chg: -148681240}
+          - {bill: H.J. Res. 745, title: Supplemental, note: 'No figures: its deficiency items carried in the 2d supplemental, H.R. 11038 (the table''s note 3).'}
+        total: {est: 673431929, final: 428550689, chg: -244881240}
+      - name: 1963 appropriations
+        bills:
+          - {bill: H.R. 10526, title: Treasury-Post Office, est: 5575386000, final: 5489781000, chg: -85605000}
+          - {bill: H.R. 10802, title: Interior, est: 932674000, final: 885362000, chg: -47312000}
+          - {bill: H.R. 10904, title: Labor-HEW, est: 5386363100, final: 5334609500, chg: -51753600}
+          - {bill: H.R. 11151, title: Legislative, est: 146913210, final: 146477270, chg: -435940}
+          - {bill: H.R. 11289, title: Defense, est: 47907000000, final: 48136247000, chg: 229247000}
+          - {bill: H.R. 12276, title: District of Columbia, paren: true, est: 300161478, final: 288986350, chg: -11175128}
+          - {sub: true, title: Federal payment, est: 35199000, final: 33199000, chg: -2000000}
+          - {sub: true, title: Loan authorizations, paren: true, est: 26042000, final: 26042000}
+          - {bill: H.R. 12580, title: 'State, Justice, Commerce, Judiciary', est: 2123248000, final: 2025895700, chg: -97352300}
+          - {bill: H.R. 12648, title: Agriculture, est: 6354783000, final: 5487029500, chg: -867753500}
+          - {sub: true, title: Loan authorizations, paren: true, est: 805000000, final: 820000000, chg: 15000000}
+          - {bill: H.R. 12711, title: Independent offices, est: 12580269500, final: 11631792100, chg: -948477400}
+          - {bill: H.R. 12870, title: Military construction, est: 1594729500, final: 1319114500, chg: -275615000}
+          - {bill: H.R. 12900, title: Public works, est: 5651751000, final: 5069134400, chg: -582616600}
+          - {bill: H.R. 13175, title: Foreign assistance, est: 7335029000, final: 6278962000, chg: -1056067000}
+          - {bill: H.R. 13290, title: Supplemental, est: 631785376, chg: -631785376, note: 'The table prints a note mark, not an amount, in the column of the amount approved.'}
+        total: {est: 96255130686, final: 91837603970, chg: -4417526716}
+    total: {est: 96928562615, final: 92266154659, chg: -4662407956}
+  '88-1':
+    date: '1963-12-30'
+    chamber: House
+    page: 25594–25595
+    rec: GPO-CRECB-1963-pt19-12-1
+    head: 'The appropriation bills, 88th Cong., 1st sess.'
+    by: 'Prepared by Committee on Appropriations, House of Representatives'
+    est: Budget estimates to Senate
+    final: 'Conference, amount as approved'
+    chg: Increase or decrease compared to budget estimates to date
+    entry: cal.1963-12-30.congress
+    groups:
+      - name: 1963 supplementals
+        bills:
+          - {bill: H.J. Res. 284, title: 'Supplemental, agriculture', est: 508172000, final: 508172000}
+          - {bill: H.R. 5517, title: Supplemental, est: 1652300456, final: 1467430491, chg: -184869965}
+          - {sub: true, title: Public works acceleration, paren: true, est: 500000000, final: 450000000, chg: -50000000}
+          - {sub: true, title: All other, paren: true, est: 1152300456, final: 1017430491, chg: -134869965}
+        total: {est: 2160472456, final: 1975602491, chg: -184869965}
+      - name: 1964 appropriations
+        bills:
+          - {bill: H.R. 5279, title: Interior, est: 998009000, final: 952456500, chg: -45552500}
+          - {sub: true, title: Loan authorization, paren: true, est: 13000000, final: 6000000, chg: -7000000}
+          - {sub: true, title: Contract authority, paren: true, est: 17500000, chg: -17500000}
+          - {bill: H.R. 5366, title: Treasury-Post Office, est: 6146842000, final: 6045466000, chg: -101376000}
+          - {bill: H.R. 5888, title: Labor-HEW, est: 5759489000, final: 5471087500, chg: -288401500}
+          - {bill: H.R. 6754, title: Agriculture, est: 6368755000, final: 6224370215, chg: -144384785}
+          - {sub: true, title: Loan authorizations, paren: true, est: 855000000, final: 855000000}
+          - {bill: H.R. 6868, title: Legislative, est: 182218450, final: 168293069, chg: -13925381}
+          - {bill: H.R. 7063, title: 'State, Justice, Commerce, judiciary', est: 2159891900, final: 1820093000, chg: -339798900}
+          - {bill: H.R. 7179, title: Defense, est: 49014237000, final: 47220010000, chg: -1794227000}
+          - {bill: H.R. 7431, title: District of Columbia, paren: true, est: 328724000, final: 313093424, chg: -15630576}
+          - {sub: true, title: Federal payment, est: 52868000, final: 40368000, chg: -12500000}
+          - {sub: true, title: Loan authorizations, paren: true, est: 20800000, final: 19300000, chg: -1500000}
+          - {bill: H.R. 8747, title: Independent offices, est: 14658588000, final: 13224518050, chg: -1434069950}
+          - {bill: H.R. 9139, title: Military construction, est: 1966400000, final: 1585880000, chg: -380520000}
+          - {bill: H.R. 9140, title: Public works, est: 4561957000, final: 4406272700, chg: -155684300}
+          - {bill: H.R. 9499, title: Foreign aid, est: 4874550330, final: 3298705607, chg: -1575844723}
+          - {bill: H.J. Res. 875, title: 'Supplemental, mental retardation', est: 41886000, chg: -41886000}
+        total: {est: 96785691680, final: 90457520641, chg: -6328171039}
+    total: {est: 98946164136, final: 92433123132, chg: -6513041004}
+  '88-2':
+    date: '1964-10-03'
+    chamber: House
+    page: '24053'
+    rec: GPO-CRECB-1964-pt18-5-2
+    head: 'The appropriation bills, 88th Cong., 2d sess.—A summary'
+    final: Appropriation
+    chg: Below (−) the budget requests
+    est_computed: true
+    entry: cal.1964-10-03.congress
+    groups:
+      - name: 1964 supplementals
+        bills:
+          - {title: Supplemental for fiscal 1964, final: 74658000, chg: -610445700, note: 'Considered with the fiscal 1965 bills (the table''s note 1).'}
+          - {title: Deficiency bills for fiscal 1964, final: 1718375143, chg: -99490600}
+      - name: Bills for fiscal 1965
+        bills:
+          - {title: Interior, final: 994069200, chg: -4833800}
+          - {sub: true, title: Loan authorization, paren: true, final: 14000000, chg: -6000000}
+          - {title: Treasury-Post Office, final: 6233273000, chg: -35418000}
+          - {title: Labor-HEW, final: 7089707000, chg: -311297000}
+          - {title: Defense, final: 46752051000, chg: -718949000}
+          - {title: Independent offices, final: 13454859000, chg: -649794400}
+          - {title: Public works, final: 4430794700, chg: -9954300}
+          - {title: Military construction, final: 1570968000, chg: -308032000}
+          - {title: 'State, Justice, Commerce, and Judiciary', final: 1686707800, chg: -228381900}
+          - {title: District of Columbia (Federal payment), final: 40720000, chg: -12500000}
+          - {sub: true, title: Loan authorizations, paren: true, final: 26400000, chg: 12000000}
+          - {title: Legislative, final: 210300885, chg: -45487160}
+          - {title: Agriculture, final: 5127162200, chg: -439800400}
+          - {sub: true, title: Loan authorizations, paren: true, final: 795000000, chg: 42000000}
+          - {title: Foreign aid, final: 3662077000, chg: -296300000}
+          - {title: 'Supplemental, 1965', final: 1117196068, chg: -363755300}
+        total: {final: 92369885853, chg: -3424503260}
+  '89-1':
+    date: '1965-10-22'
+    chamber: Senate
+    page: '28219'
+    rec: GPO-CRECB-1965-pt21-2-1
+    head: 'Appropriation bills, 89th Cong., 1st sess., as of Oct. 22, 1965'
+    est: Budget figure
+    final: Public law figure
+    chg: Savings
+    chg_sign: saving
+    entry: cal.1965-10-23.congress
+    groups:
+      - name: '1965'
+        bills:
+          - {title: Agriculture supplemental, est: 1742209000, final: 1600000000, chg: -142209000}
+          - {title: 2d supplemental, est: 2280251327, final: 2227563977, chg: -52687350}
+          - {title: Vietnam supplemental, est: 700000000, final: 700000000}
+      - name: '1966'
+        bills:
+          - {title: Agriculture, est: 6282634000, final: 6242929500, chg: -39704500}
+          - {title: Defense, est: 46972844000, final: 46887163000, chg: -85681000}
+          - {title: District of Columbia Federal payment, est: 53122000, final: 46122000, chg: -7000000}
+          - {title: Foreign aid, est: 4188923000, final: 3932188000, chg: -256735000}
+          - {title: Independent offices, est: 14566023000, final: 14246167800, chg: -319855200}
+          - {title: Interior, est: 1241549500, final: 1212739070, chg: -28810430}
+          - {title: Labor-HEW, est: 8293814000, final: 8011331500, chg: -282482500}
+          - {title: Labor-HEW supplemental, est: 1553918000, final: 1223181500, chg: -330736500}
+          - {title: Legislative, est: 243261617, final: 189993297, chg: -53268320}
+          - {title: Military construction, est: 2049000000, final: 1756635000, chg: -292365000}
+          - {title: Public works, est: 4387616000, final: 4292866500, chg: -94749500}
+          - {title: 'State, Justice, Commerce, Judiciary', est: 2171935600, final: 2057597150, chg: -114338450}
+          - {title: 'Treasury, Post Office', est: 7749770000, final: 7669444000, chg: -80326000}
+          - {title: Supplemental, est: 4971203852, final: 4741644602, chg: -229559250}
+    total: {est: 109448074896, final: 107037566896, chg: -2410508000}
+  '89-2':
+    date: '1966-10-22'
+    chamber: Senate
+    page: '28795'
+    rec: GPO-CRECB-1966-pt21-3-1
+    head: 'The appropriation bills, 89th Cong., 2d sess.'
+    est: Budget estimates to Senate
+    final: Final action
+    chg: Final action compared with latest budget estimates
+    entry: cal.1966-10-22.congress
+    groups:
+      - name: 1966 supplementals
+        bills:
+          - {bill: H.R. 13546, title: 'Supplemental, Defense', est: 13135719000, final: 13135719000, chg: 0}
+          - {bill: H.R. 14012, title: 2d supplemental, est: 3020810903, final: 2788143303, chg: -232667600}
+        total: {est: 16156529903, final: 15923862303, chg: -232667600}
+      - name: 1967 appropriations
+        bills:
+          - {bill: H.R. 14215, title: Interior, est: 1340260500, final: 1321615800, chg: -18644700}
+          - {sub: true, title: Loan authorizations, paren: true, est: 26000000, final: 26000000, chg: 0}
+          - {bill: H.R. 14266, title: Treasury-Post Office, est: 7246720000, final: 7196429135, chg: -50290865}
+          - {bill: H.R. 14596, title: Agriculture, est: 7022938000, final: 6994590150, chg: -28347850}
+          - {sub: true, title: Loan authorizations, paren: true, est: 702100000, final: 932000000, chg: 229900000}
+          - {bill: H.R. 14745, title: Labor-HEW, est: 10083184500, final: 10463244500, chg: 380060000}
+          - {bill: H.R. 14921, title: Independent offices, est: 14329863291, final: 14065851000, chg: -264012291}
+          - {bill: H.R. 15456, title: Legislative, est: 214749763, final: 214463913, chg: -285850}
+          - {bill: H.R. 15941, title: Defense, est: 57664353000, final: 58067472000, chg: 403119000}
+          - {bill: H.R. 17636, title: District of Columbia, paren: true, est: 428170600, final: 404598200, chg: -23572400}
+          - {sub: true, title: Federal payment, est: 53394000, final: 53394000, chg: 0}
+          - {sub: true, title: Loan authorization, paren: true, est: 38225000, final: 37527500, chg: -697500}
+          - {bill: H.R. 17637, title: Military construction, est: 1114947000, final: 979570000, chg: -135377000}
+          - {bill: H.R. 17787, title: Public works, est: 4167073000, final: 4134511000, chg: -32562000}
+          - {bill: H.R. 17788, title: Foreign assistance, est: 3945095000, final: 3493473500, chg: -451621500}
+          - {bill: H.R. 18119, title: 'State, Commerce, Justice, and judiciary', est: 2634405000, final: 2347826600, chg: -286578400}
+          - {bill: H.R. 18381, title: 'Supplemental, 1967', est: 5191413629, final: 5025264579, chg: -166149050}
+        total: {est: 115008396683, final: 114357706177, chg: -650690506}
+    total: {est: 131164926586, final: 130281568480, chg: -883358106}
+  '90-1':
+    date: '1967-12-12'
+    chamber: Senate
+    page: '36116'
+    rec: GPO-CRECB-1967-pt26-6-2
+    head: 'Summary of action on budget estimates of appropriations in fiscal 1968 appropriation bills, 90th Cong., 1st sess., as of Dec. 11, 1967'
+    by: 'Prepared Nov. 15, 1967, in the House Committee on Appropriations (the table''s note)'
+    est: Budget estimates considered by Senate
+    final: Enacted
+    chg: '(+) or (−), latest action compared to budget'
+    entry: cal.1967-12-15.congress
+    groups:
+      - name: Bills for fiscal 1968
+        bills:
+          - {title: Treasury-Post Office, est: 7615148000, final: 7545641000, chg: -69507000}
+          - {sub: true, title: 'District of Columbia: Federal payments', est: 73499000, final: 67478000, chg: -6020800, misprint: 'The table prints −6,020,800; its figures give −6,021,000.'}
+          - {sub: true, title: 'District of Columbia: Federal loan appropriation', est: 89700000, final: 79200000, chg: -10500000}
+          - {title: Interior, est: 1458218000, final: 1382848350, chg: -75369650}
+          - {sub: true, title: Loan and contract authorizations, paren: true, est: 30700000, final: 16200000, chg: -14500000}
+          - {title: Independent offices-HUD, est: 10820513700, final: 10139473900, chg: -681039800}
+          - {sub: true, title: Contract authorization (rent supplements), paren: true, est: 40000000, final: 10000000, chg: -30000000}
+          - {title: Labor-HEW, est: 13424146000, final: 13255356000, chg: -168790000}
+          - {title: 'State, Justice, Commerce, and Judiciary', est: 2347803195, final: 2169012500, chg: -178790695}
+          - {title: Legislative, est: 276005210, final: 275699035, chg: -306175}
+          - {title: Agriculture, est: 5021097400, final: 4952945700, chg: -68151700}
+          - {sub: true, title: Loan authorization, paren: true, est: 859600000, final: 859600000}
+          - {title: Defense, est: 71584000000, final: 69936620000, chg: -1647380000}
+          - {title: Transportation, est: 1718618772, final: 1581905772, chg: -136713000}
+          - {title: Public works, est: 4867813000, final: 4689938000, chg: -177875000}
+          - {title: NASA, est: 5100000000, final: 4588900000, chg: -511100000}
+          - {title: Military construction, est: 2937000000, final: 2093362000, chg: -837650000, misprint: 'The table prints −837,650,000, the Senate''s bill (2,099,350,000) against the estimate; the amount enacted, 2,093,362,000, gives −843,638,000.'}
+          - {title: Foreign assistance, est: 3842836000, chg: -529491000, note: 'Not enacted Dec. 11, 1967; the change is the Senate''s bill against the estimate (the table''s note 5: "As passed Senate").'}
+          - {title: Supplemental (poverty, other deferred items: None, usual supplementals): None, note: 'Estimates of $2,120,785,000 pending before the House committee (the table''s note 6); no other figure.'}
+        total: {est: 131176398277, final: 122758380457, chg: -5098684820, misprint: 'The table prints 122,758,380,457; its column adds to 122,758,380,257, the Federal payments for the District printed 67,478,000 against a change of −6,020,800.'}
+  '90-2':
+    date: '1968-10-14'
+    chamber: House
+    page: 31367–31368
+    rec: GPO-CRECB-1968-pt24-3-2
+    head: 'Actions on budget estimates of new budget (obligational) authority in appropriation bills, 90th Cong., 2d sess., Oct 12, 1968'
+    est: 'Senate actions: budget requests considered'
+    final: Enacted
+    chg: '(+) or (−), latest action compared with budget requests'
+    entry: cal.1968-10-14.congress
+    groups:
+      - name: Bills for fiscal 1969
+        bills:
+          - {title: Treasury-Post Office (net of postal revenues), est: 1959885000, final: 1780653000, chg: -179232000}
+          - {title: Agriculture, est: 6923979800, final: 5531296650, chg: -1392683150}
+          - {title: Independent offices-HUD (including 1970 advance), est: 18353717300, final: 14570395000, chg: -3783322300}
+          - {title: Interior, est: 1432342300, final: 1284989300, chg: -147353000}
+          - {title: 'State, Justice, Commerce, and judiciary', est: 2291993900, final: 1986721500, chg: -305272400}
+          - {title: Public works (and AEC), est: 4908657000, final: 4608421000, chg: -300236000}
+          - {title: Labor-HEW (including 1970 advance), est: 19301525000, final: 18566568800, chg: -734956200}
+          - {title: Legislative, est: 308897533, final: 298151396, chg: -10746137}
+          - {title: Transportation (including 1970 advances), est: 1932032000, final: 1634266000, chg: -297766000}
+          - {title: District of Columbia (Federal funds), est: 176961000, final: 148755000, chg: -28206000}
+          - {sub: true, title: District of Columbia funds, paren: true, est: 606191000, final: 540178988, chg: -66012012}
+          - {title: Defense, est: 77074000000, final: 71869828000, chg: -5204172000}
+          - {title: Military construction, est: 2031500000, final: 1758376000, chg: -273124000}
+          - {title: Foreign assistance, est: 3654711000, final: 2479511000, chg: -1175200000}
+          - {title: Supplemental, est: 740508907, final: 446688727, chg: -293820180}
+        total: {est: 141090710740, final: 126964621373, chg: -14126089367}
+      - name: Bills for fiscal 1968
+        bills:
+          - {title: Urgent supplemental, paren: true, est: 1216020863, note: 'Shown in parentheses, its amounts counted elsewhere in the table (note 5).'}
+          - {bill: H.J. Res. 1229, title: Unemployment compensation, est: 28800000, final: 28000000, chg: -800000}
+          - {bill: H.J. Res. 1268, title: Claims and judgments, est: 50980863, final: 50980863}
+          - {bill: H.J. Res. 1292, title: Secret Service, final: 400000, chg: 400000}
+          - {title: 2d supplemental, est: 6738311393, final: 6295831498, chg: -442479895}
+          - {sub: true, title: Release of reserves (under Public Law 90-218), paren: true, est: 2976051100, final: 2674902800, chg: -301148300}
+        total: {est: 6818092256, final: 6375212361, chg: -442879895}
+    total: {est: 147908802996, final: 133339833734, chg: -14568969262}

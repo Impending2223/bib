@@ -484,6 +484,24 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 201: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-02.china-leadership-11
+    when: Aug. 2
+    date: '1962-08-02'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河, evening. Mao 毛泽东 with the Hebei 河北, Shanxi 山西 and Inner Mongolia 内蒙古 committees'' heads, Li Xuefeng 李雪峰 of the North China Bureau also there. He asks of output and go-it-alone farming: little in Shanxi, Inner Mongolia and Peking, a few teams in Hebei. Where the brigade is the accounting unit and does well, it need not go down to the team; teams of about twenty households; field management by group, household or person on a plot is progress.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 70 n.39. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Mao Zedong 毛泽东, talk with the heads of North China 华北地区负责人 (谈话要点), Aug. 2, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.39); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1962-07-28.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 3886e4c8
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 70: all'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.39: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1962-08-02T11:00Z
+      - 1962-08-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-03.legislatures-ok
     when: Aug. 3
     date: '1962-08-03'
@@ -575,7 +593,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe. Mao with the northwest''s secretaries (Shaanxi, Gansu, Qinghai, Ningxia, Xinjiang): the question of the conference, the socialist or the individual road; the struggle of the classes long. On Xinjiang he asks: did Khrushchev, by urging the people of Ili and Tacheng to flee and by the Yining riot, mean to overthrow the Ili prefectural committee or something else? How many troops in Xinjiang; could they hold it if war came; do more need to go in; do the farm divisions have arms and time to train?'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 3, 1962. Made public: 2013. See [[cal.1962-06-27.china-leadership]]. Names: Mao Zedong, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 3, 1962. [[w.mao-zedong-zhuan]], V, ch. 70 n.7 (Aug. 3: Mao with the Northwest heads: the main danger in Xinjiang is Soviet modern revisionism, and the chief side of the struggle there is it). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). To check: Summary of Mao Zedong''s 毛泽东 talk with the heads of the Northwest 中共西北地区负责人 (谈话摘要), Aug. 3, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.7). See [[cal.1962-06-27.china-leadership]]. Names: Mao Zedong, Khrushchev.'
+    src:
+      c: 3e520ff1
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Aug. 3, 1962: all'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.7: D'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.7: D'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1962-08-03.china-leadership-2
     when: Aug. 3
@@ -601,11 +625,12 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: Beidaihe 北戴河, 9 p.m. At Mao's 毛泽东, on how to run the conference; a "core group" 核心小组 to be set up. Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 201 (Aug. 3, 1962). The words: 晚间9时 (II, 201). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 201 (Aug. 3, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1720 (Aug. 3, 1962; evening; Deng at Mao''s Standing Committee on how to run the conference; a core group 核心小组 (central group) set up). The words: 晚间9时 (II, 201). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
     src:
       c: 213abde2
       rows:
         - 'w.yang-shangkun-riji II, 201: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1720: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-08-03.china-leadership-4
@@ -692,13 +717,38 @@ entries:
       - 1962-08-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-04.china-leadership-3
+    when: Aug. 4
+    date: '1962-08-04'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Deng Xiaoping 邓小平 reviews the list of the Central Work Conference's core group 核心小组 and sends it to Mao Zedong 毛泽东 to settle.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1720 (Aug. 4, 1962). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: ba7d192b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1720: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-08-04.china-leadership-4
+    when: Aug. 4
+    date: '1962-08-04'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河. Mao 毛泽东 with the heads of the Sichuan 四川, Yunnan 云南 and Guizhou 贵州 committees. As Mao reports it next day, they say that within half a year of household contracting or going it alone the farm classes divide sharply: some very poor with no way to live, land sold and bought, usury, concubines; the poor, the middle and the better-off a third each.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 70 n.40. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Record of Mao Zedong''s 毛泽东 talk with the heads of East China and Central-South China 华东和中南地区负责人, Aug. 5, 1962 (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.40); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the talk''s day, Aug. 4, afternoon, as Mao says on Aug. 5 "yesterday afternoon"; what the Southwest heads said is as Mao relays it. See [[cal.1962-08-03.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: ede5ca37
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 70: all'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.40: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-05.china-leadership
     when: Aug. 5
     date: '1962-08-05'
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. Mao on the conference''s "core group": approves Deng Xiaoping''s list of 22: Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Chen Yi, Chen Boda, Luo Ruiqing, Xie Fuzhi, Gu Mu, Lu Dingyi, Yang Shangkun, Ke Qingshi, Li Jingquan, Tao Zhu, Song Renqiong, Li Xuefeng, Liu Lantao. "Do as proposed." At noon he had told Deng Zihui, Chen Boda, Ke Qingshi, Tao Zhu and others: he had been round the country and every province said last year better than the year before; it is not all dark nor all light as in 1958; "I am a centrist"; a few percent to a dozen percent of go-it-alone may be allowed, the already-divided not to be forced back.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 5, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (July 25–Aug. 24, 1962; Liu attends the Central Work Conference at Beidaihe; planned chiefly for agriculture, grain, commerce and the state''s support of agriculture, with groups on the draft documents for more than ten days; Aug. 6 Mao speaks to the plenary on "classes, the situation and contradictions," and six times after in the central group, criticizing the "wind of going it alone," the "wind of reversing verdicts" and the "dark wind"); [[w.macfarquhar-origins-of-the-cultural]], III, 274 (Mao agrees at once, at the opening on Aug. 6, to Liu Shaoqi''s proposal for a core group of twenty-two senior leaders to discuss six sensitive issues). Made public: 1996. Check: the book has Mao say 23, miscounting or omitting a name, and counts the 22 as five Standing Committee members, four secretaries, six regional first secretaries and others (III, 274 n.80); it places his agreement at the Aug. 6 opening. To check: [[w.schram-new-texts-by-mao]], 152 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.80a); [[w.zedong-ziliao-xuanbian-selection-of]], 269 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.80b). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Chen Yi, Chen Boda, Luo Ruiqing, Xie Fuzhi, Lu Dingyi, Ke Qingshi, Li Jingquan, Tao Zhu, Gu Mu, Yang Shangkun, Song Renqiong, Li Xuefeng, Liu Lantao, Deng Zihui.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 5, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (July 25–Aug. 24, 1962; Liu attends the Central Work Conference at Beidaihe; planned chiefly for agriculture, grain, commerce and the state''s support of agriculture, with groups on the draft documents for more than ten days; Aug. 6 Mao speaks to the plenary on "classes, the situation and contradictions," and six times after in the central group, criticizing the "wind of going it alone," the "wind of reversing verdicts" and the "dark wind"); [[w.macfarquhar-origins-of-the-cultural]], III, 274 (Mao agrees at once, at the opening on Aug. 6, to Liu Shaoqi''s proposal for a core group of twenty-two senior leaders to discuss six sensitive issues); [[w.deng-xiaoping-nianpu-1904]], III, 1720 (Aug. 4, 1962; the list Deng reviewed and sent to Mao); [[w.mao-zedong-zhuan]], V, ch. 70 n.40 (Aug. 5: Mao with Ke Qingshi, Li Baohua, Tao Zhu and Wang Renzhong, Deng Zihui, Chen Boda, Chen Zhengren, Liao Luyan and Wang Guanlan present; the Southwest said the day before that within half a year of household contracting classes divide sharply; are there classes? he thinks so; he is not as gloomy as some, nor as bright as in 1958, "I am the middle"; three dictatorships, the proletariat''s, the bourgeoisie''s or the petty bourgeoisie''s: which road? Peng Dehuai wants rehabilitation, the 1959 campaign against rightism not to be blown away). Made public: 1996. Check: the book has Mao say 23, miscounting or omitting a name, and counts the 22 as five Standing Committee members, four secretaries, six regional first secretaries and others (III, 274 n.80); it places his agreement at the Aug. 6 opening. To check: [[w.schram-new-texts-by-mao]], 152 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.80a); [[w.zedong-ziliao-xuanbian-selection-of]], 269 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.80b); Record of Mao Zedong''s 毛泽东 talk with the heads of East China and Central-South China 华东和中南地区负责人, Aug. 5, 1962 (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.40). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Chen Yi, Chen Boda, Luo Ruiqing, Xie Fuzhi, Lu Dingyi, Ke Qingshi, Li Jingquan, Tao Zhu, Gu Mu, Yang Shangkun, Song Renqiong, Li Xuefeng, Liu Lantao, Deng Zihui.'
     src:
       c: '14512495'
       rows:
@@ -707,6 +757,9 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 274: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 274 n.80a: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 274 n.80b: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1720: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.40: E-F'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.40: E-F'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:chen-yi, name:chen-boda, name:luo-ruiqing, name:xie-fuzhi, name:lu-dingyi, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1962-08-05.china
     when: Aug. 5
@@ -815,7 +868,7 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. The Central Work Conference (Aug. 6–24), Mao presiding. Plenary, afternoon: Mao says a work conference first, a plenum after to adopt the papers; six groups, and a core group of the Standing Committee, the Secretariat and the regional first secretaries. He speaks on class, the situation and contradictions; the conference turns to the class struggle and to criticizing the "dark wind" and "go-it-alone wind." Deng Xiaoping lays out four topics: rural work, finance and trade, city work, and an exchange of cadres between center and provinces.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1962 (the entry for Aug. 6–24). [[w.zhou-enlai-nianpu-1949]], II, 492 (July 28–Aug. 24, 1962: Zhou Enlai at the conference, which set up a center group of Mao, Liu, Zhou, Zhu De, Deng and the heads of the State Council''s sectors and the regional bureaus'' secretaries; Mao''s Aug. 6 speech on class, the situation and contradictions, the "dark wind," "go-it-alone wind" and "reversal wind"; Zhou speaks mainly on the plan and the situation in the villages); [[w.macfarquhar-origins-of-the-cultural]], III, 274–75 (Mao opens the conference on Aug. 6, sets aside the agenda for class, contradictions and the current situation, and attacks the three winds of pessimism, of going it alone and of reversing correct verdicts: "Do classes actually exist in a socialist state?"); [[w.yang-shangkun-riji]], II, 202 (Aug. 6, 1962; the plenary, 4 p.m.; Deng Xiaoping on the order of business; Mao speaks). Made public: 1997. Check: one source gives July 25 as the conference''s opening date, the days before Aug. 6 being spent on final drafts of documents on agriculture (III, 274 n.79). To check: [[w.schram-mao-tse-tung-unrehearsed]], 188 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.77); [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.78); [[w.xin-zhongguo-biannianshi-1949]], 485 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79a); [[w.mingxian-xin-zhongguo-sishiwu-nian]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79b); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79c); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 152 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.83); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 153 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84a); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.zedong-ziliao-xuanbian-selection-of]], 269–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84b). See [[cal.1962-08-05.china-leadership]]. Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1962 (the entry for Aug. 6–24). [[w.zhou-enlai-nianpu-1949]], II, 492 (July 28–Aug. 24, 1962: Zhou Enlai at the conference, which set up a center group of Mao, Liu, Zhou, Zhu De, Deng and the heads of the State Council''s sectors and the regional bureaus'' secretaries; Mao''s Aug. 6 speech on class, the situation and contradictions, the "dark wind," "go-it-alone wind" and "reversal wind"; Zhou speaks mainly on the plan and the situation in the villages); [[w.macfarquhar-origins-of-the-cultural]], III, 274–75 (Mao opens the conference on Aug. 6, sets aside the agenda for class, contradictions and the current situation, and attacks the three winds of pessimism, of going it alone and of reversing correct verdicts: "Do classes actually exist in a socialist state?"); [[w.yang-shangkun-riji]], II, 202 (Aug. 6, 1962; the plenary, 4 p.m.; Deng Xiaoping on the order of business; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1720–1721 (Aug. 6–24, 1962; Deng attends; to treat farming, grain, commerce and aid to farming; Mao''s three questions on Aug. 6, classes, the situation, contradictions; class struggle through the whole socialist period; the "dark wind"; papers for the Tenth Plenum. Aug. 6 at the plenary Deng sets out the agenda: six regional groups and a core group working side by side, the groups the main part); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 6, afternoon, in the club of the central organs 中直俱乐部 at Beidaihe: Mao presides over the plenary of the Central Work Conference and puts three questions, class, the situation and contradictions, to be discussed; the discussion then turns to class struggle and goes the one way). Made public: 1997. Check: one source gives July 25 as the conference''s opening date, the days before Aug. 6 being spent on final drafts of documents on agriculture (III, 274 n.79). To check: [[w.schram-mao-tse-tung-unrehearsed]], 188 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.77); [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.78); [[w.xin-zhongguo-biannianshi-1949]], 485 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79a); [[w.mingxian-xin-zhongguo-sishiwu-nian]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79b); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79c); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 152 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.83); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 153 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84a); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.zedong-ziliao-xuanbian-selection-of]], 269–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84b). See [[cal.1962-08-05.china-leadership]]. Names: Mao Zedong, Deng Xiaoping.'
     src:
       c: 1ef06cb1
       rows:
@@ -831,6 +884,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 275 n.84a: C, E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 275 n.84b: C, E, F'
         - 'w.yang-shangkun-riji II, 202: A, B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1720–1721: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70: B, E'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-08-06.china-leadership-2
     when: Aug. 6–24
@@ -1365,7 +1420,7 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. Mao at the core group: the groups'' discussion of concrete things only, heavy and dull; "the need now is to take the question to principle." Two kinds of men, those who see only darkness and those who see mostly dark with a little light; if all is dark, socialism has failed and all must go it alone; in a year or so go-it-alone makes class division, with branch secretaries taking more, keeping concubines, lending at interest, buying land, and the poor ruined, among them the households of soldiers'' kin and the "five guaranteed."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 9, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 276–80 (Mao''s first of six speeches to the central group: whether the CCP could fall ("The KMT lasted twenty-three years; we still have a few years"); the Soviet Union revisionist, the capitalist class able to be reborn; Deng Zihui, Wang Jiaxiang, Kang Sheng, Wu Lengxi and Hu Sheng to be co-opted into the group; forty percent of peasant households on baochan daohu; the Planning Commission, Economic Commission and the State Council offices for finance and trade and for agriculture are ''independent kingdoms''; he spares military and foreign affairs; Zhou and Chen Yi questioned on bourgeois intellectuals); [[w.yang-shangkun-riji]], II, 202–203 (Aug. 9, 1962; the core group 中心小组, 11 a.m. to 2 p.m. and 3:30 to 6 p.m.; the groups report; Mao not named). Made public: 2013. Check: the book calls Aug. 9 the day of the first of six speeches to the central group, opening ''Today I will only talk about whether or not the CCP could fall''; this entry''s text records other parts of the day''s remarks. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 202–203) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. To check: [[w.jiaoyanshi-zhonggong-dangshi-zhuanti-jiangyi]], 149 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.92); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.93); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.95a); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.96); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270, 271, 272 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.97a); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 278 n.98); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.100); [[w.zhonghua-renmin-gongheguo-shangye]], 55–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.102a); [[w.macfarquhar-secret-speeches-of-chairman]], 443–79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.102b); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 135 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.103); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 273 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.104a); [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.105a); [[w.weiyuanhui-deng-zihui-wenji-collected]], 613–15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.105b); [[w.zedong-ziliao-xuanbian-selection-of]], 271 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.106a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1006–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.106b). See [[cal.1962-08-06.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 9, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 276–80 (Mao''s first of six speeches to the central group: whether the CCP could fall ("The KMT lasted twenty-three years; we still have a few years"); the Soviet Union revisionist, the capitalist class able to be reborn; Deng Zihui, Wang Jiaxiang, Kang Sheng, Wu Lengxi and Hu Sheng to be co-opted into the group; forty percent of peasant households on baochan daohu; the Planning Commission, Economic Commission and the State Council offices for finance and trade and for agriculture are ''independent kingdoms''; he spares military and foreign affairs; Zhou and Chen Yi questioned on bourgeois intellectuals); [[w.yang-shangkun-riji]], II, 202–203 (Aug. 9, 1962; the core group 中心小组, 11 a.m. to 2 p.m. and 3:30 to 6 p.m.; the groups report; Mao not named); [[w.deng-xiaoping-nianpu-1904]], III, 1721 (Aug. 9, 1962; Deng at Mao''s core group hearing the regional bureaus); [[w.mao-zedong-zhuan]], V, ch. 70 n.43 (Aug. 9, the core group''s first meeting, of twelve days and eight meetings: Xie Fuzhi on contradictions, Luo Ruiqing on the army''s view of go-it-alone, Chen Boda on the history of cooperation, Kang Sheng on Soviet collectivization; Mao, the groups not grasping the principle; Li Jingquan: two years of go-it-alone and the division is plain; Mao: one year and a bit). Made public: 2013. Check: the book calls Aug. 9 the day of the first of six speeches to the central group, opening ''Today I will only talk about whether or not the CCP could fall''; this entry''s text records other parts of the day''s remarks. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 202–203) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 70), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.jiaoyanshi-zhonggong-dangshi-zhuanti-jiangyi]], 149 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.92); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.93); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.95a); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.96); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270, 271, 272 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 277 n.97a); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 278 n.98); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 270–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.100); [[w.zhonghua-renmin-gongheguo-shangye]], 55–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.102a); [[w.macfarquhar-secret-speeches-of-chairman]], 443–79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.102b); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 135 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.103); Mao Zedong, speech of Aug. 9, 1962, to the central small group at Beidaihe, in [[w.zedong-ziliao-xuanbian-selection-of]], 273 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 279 n.104a); [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.105a); [[w.weiyuanhui-deng-zihui-wenji-collected]], 613–15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.105b); [[w.zedong-ziliao-xuanbian-selection-of]], 271 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.106a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1006–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 280 n.106b); Record of the core group 中心小组会议记录, Central Work Conference, Aug. 9, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.43). See [[cal.1962-08-06.china-leadership]]. Names: Mao Zedong.'
     src:
       c: eb36ef1f
       rows:
@@ -1388,6 +1443,9 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 280 n.106a: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 280 n.106b: ?'
         - 'w.yang-shangkun-riji II, 202–203: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1721: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.43: B-F'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.43: B-F'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-09.china-leadership-2
     when: Aug. 9
@@ -1417,6 +1475,18 @@ entries:
         - 'w.yang-shangkun-riji II, 203: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-09.china-leadership-4
+    when: Aug. 9
+    date: '1962-08-09'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河. Deng Xiaoping 邓小平 sends the Center''s stock-taking group''s "Cases of crime found in the stock-taking and checking of assets" to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Peng Zhen 彭真, then to Wang Congwu 王从吾: the Central Control Commission to check them with the Economic Commission one by one and send men, or have the provincial commissions do so.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1721 (Aug. 9, 1962). The chronology gives it under the 9th, a second item of the day. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Peng Zhen.'
+    src:
+      c: d849b149
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1721: all'
+    tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:peng-zhen, vis:only:prc]
   - id: cal.1962-08-10.albany
     when: Aug. 10
     date: '1962-08-10'
@@ -1623,6 +1693,19 @@ entries:
         - 'w.yang-shangkun-riji II, 203: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-10.china-leadership-6
+    when: Aug. 10
+    date: '1962-08-10'
+    place: beidaihe
+    thread: china-leadership
+    also: [farm]
+    c: 'Beidaihe 北戴河. Deng Xiaoping 邓小平, on Nie Rongzhen''s 聂荣臻 sending of the China Plant Protection Society''s report to the Center and Mao Zedong 毛泽东 on pests and blights: "Comrade Shaoqi, then the Chairman; it might be printed for the meeting." Mao: Shangkun to act.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1721 (Aug. 10, 1962). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Nie Rongzhen, Mao Zedong, Liu Shaoqi.'
+    src:
+      c: 744dbab3
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1721: all'
+    tags: [polity:prc, name:deng-xiaoping, name:nie-rongzhen, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-08-11.mississippi
     when: Aug. 11
     date: '1962-08-11'
@@ -1651,7 +1734,7 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. Mao at the core group. Hearing that the groups have taken up questions of principle: good. A letter from a Shaanxi commune holds that household contracting shows autumn in a leaf: "I say it can show winter; and winter ends in spring." Not all darkness: the novels of exposure, such as *Guanchang xianxing ji*, Lu Xun called "reproach novels" and no one likes them. Liu Shaoqi, Deng Xiaoping, Chen Yi and Deng Zihui speak; Deng Zihui''s self-criticism. Mao: the January conference''s estimate of the situation was right; those who say eight years to recover should not say so many.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 11, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 11, 1962; Liu, in the central group, makes a self-criticism on the assessment of the situation at the May conference and admits that he overestimated the difficulties); [[w.macfarquhar-origins-of-the-cultural]], III, 282, 284 (Liu, defensive, admits that one of his two errors at the May work conference was to state as a foregone conclusion that the 1962 summer harvest would be smaller than the previous year''s; the other, putting private farming at 20 percent of the total); [[w.jianguo-yilai-mao-zedong]], XVI, 343 (Aug. 11, 1962; Mao''s note of Aug. 12: Deng Zihui''s statement at the core group meeting of Aug. 11, that in the last few days he had come to see his go-it-alone views as wrong); [[w.yang-shangkun-riji]], II, 203 (Aug. 11, 1962; the core group, afternoon; the groups to go on meeting the next day; Mao not named). Made public: 1996. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1074–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.124). See [[cal.1962-08-09.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Chen Yi, Deng Zihui.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 11, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 11, 1962; Liu, in the central group, makes a self-criticism on the assessment of the situation at the May conference and admits that he overestimated the difficulties); [[w.macfarquhar-origins-of-the-cultural]], III, 282, 284 (Liu, defensive, admits that one of his two errors at the May work conference was to state as a foregone conclusion that the 1962 summer harvest would be smaller than the previous year''s; the other, putting private farming at 20 percent of the total); [[w.jianguo-yilai-mao-zedong]], XVI, 343 (Aug. 11, 1962; Mao''s note of Aug. 12: Deng Zihui''s statement at the core group meeting of Aug. 11, that in the last few days he had come to see his go-it-alone views as wrong); [[w.yang-shangkun-riji]], II, 203 (Aug. 11, 1962; the core group, afternoon; the groups to go on meeting the next day; Mao not named); [[w.deng-xiaoping-nianpu-1904]], III, 1721 (Aug. 11, 1962; afternoon; Deng speaks at Mao''s core group: educating cadres a great matter, leading cores too, some cores with problems); [[w.mao-zedong-zhuan]], V, ch. 70 n.45 (Aug. 11: Liu Shaoqi, Deng Xiaoping, Chen Yi and Deng Zihui speak; Mao on the Shaanxi commune letter that household contracting is "autumn from a leaf"; Mao: the January conference''s estimate was right; those who say eight years for recovery should not name so many; Deng Zihui''s self-criticism, harshly met, and the old account of the 200,000 co-ops; Mao adds a contradiction, copying from abroad against self-reliance). Made public: 1996. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1074–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.124); Record of the core group 中心小组会议记录, Central Work Conference, Aug. 11, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.45). See [[cal.1962-08-09.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Chen Yi, Deng Zihui.'
     src:
       c: 78aa5855
       rows:
@@ -1662,6 +1745,9 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 284 n.133: F'
         - 'w.jianguo-yilai-mao-zedong XVI, 343: B, G'
         - 'w.yang-shangkun-riji II, 203: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1721: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.45: B-D, F-H'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.45: B-D, F-H'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:chen-yi, vis:only:prc]
   - id: cal.1962-08-11.china-leadership-2
     when: Aug. 11
@@ -1722,20 +1808,21 @@ entries:
     date: '1962-08-12'
     thread: china-leadership
     c: 'Mao on the Organization Department''s July report to him and the Standing Committee: to be circulated; the department had never reported to the center, "an independent kingdom"; its head, An Ziwen, criticized, has awakened; may the fault not return.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962. [[w.jianguo-yilai-mao-zedong]], XVI, 342 (Aug. 12, 1962; Mao''s note; printed from the manuscript; note 1: on the department''s July report of July 29 to Mao and the Standing Committee, which owns its long failure to report as a grave error and names two questions of the cadre corps (some cadres'' state of mind; its size); note 2: those at the Central Work Conference). Made public: 2013. To check: Central Committee Organization Department, general report for July to Mao Zedong and the Politburo Standing Committee, July 29, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 342 n.1). Names: Mao Zedong, An Ziwen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962. [[w.jianguo-yilai-mao-zedong]], XVI, 342 (Aug. 12, 1962; Mao''s note; printed from the manuscript; note 1: on the department''s July report of July 29 to Mao and the Standing Committee, which owns its long failure to report as a grave error and names two questions of the cadre corps (some cadres'' state of mind; its size); note 2: those at the Central Work Conference); [[w.deng-xiaoping-nianpu-1904]], III, 1720 (Aug. 12, 1962; Mao has the Organization Department''s report printed for the work conference; Deng had sent it on July 31). Made public: 2013. To check: Central Committee Organization Department, general report for July to Mao Zedong and the Politburo Standing Committee, July 29, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 342 n.1). Names: Mao Zedong, An Ziwen.'
     src:
       c: 85ebfaa0
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 12, 1962: all'
         - 'w.jianguo-yilai-mao-zedong XVI, 342: A-D'
         - 'via w.jianguo-yilai-mao-zedong XVI, 342 n.1: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1720: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-12.china-leadership-2
     when: Aug. 12
     date: '1962-08-12'
     thread: china-leadership
     c: 'Mao has the Rural Work Department''s paper of Aug. 24, 1961, "How the Sixty Articles are being carried out," first circulated at the 1961 Lushan conference, circulated to this one, with a note: the department was then right, but Deng Zihui wavered a year later, seeing the situation as nearly all dark and pressing household contracting. He welcomes Deng''s self-criticism of Aug. 11, finding it still short.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 343–346 (Aug. 12, 1962; Mao''s note, dated Aug. 12; printed from the manuscript; the department was then right (the ten measures of part two, with the right handling of go-it-alone; the ten points on the situation of part one); after ten months, August 1961 to the end of May 1962, Deng wavered; tied to his reluctance on cooperatives before the summer 1955 meeting and his "four great freedoms"; Deng''s statement at the core group Aug. 11 welcome but not enough; notes 4–5 list the twenty points; note 6: the Center General Office''s notice of Mar. 9, 1981 rehabilitating Deng Zihui). Made public: 2013. See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Deng Zihui. Check: the nianpu itself calls the note''s criticism of Deng Zihui mistaken ("错误地批评").'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 343–346 (Aug. 12, 1962; Mao''s note, dated Aug. 12; printed from the manuscript; the department was then right (the ten measures of part two, with the right handling of go-it-alone; the ten points on the situation of part one); after ten months, August 1961 to the end of May 1962, Deng wavered; tied to his reluctance on cooperatives before the summer 1955 meeting and his "four great freedoms"; Deng''s statement at the core group Aug. 11 welcome but not enough; notes 4–5 list the twenty points; note 6: the Center General Office''s notice of Mar. 9, 1981 rehabilitating Deng Zihui); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 12: Mao finds the Rural Work Department''s paper of Aug. 24, 1961, on how the sixty articles were carried out, which he praised then). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Deng Zihui. Check: the nianpu itself calls the note''s criticism of Deng Zihui mistaken ("错误地批评").'
     src:
       c: 5d50ce93
       rows:
@@ -1744,6 +1831,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 344 n.2: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 345 n.6a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 345 n.6b: all'
+        - 'w.mao-zedong-zhuan V, ch. 70: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-12.china-leadership-3
     when: Aug. 12
@@ -1931,11 +2019,12 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: Beidaihe 北戴河, 2 to 6 p.m. The core group 中心小组; no meeting the next day. Yang Shangkun 杨尚昆 attends.
-    n: '[[w.yang-shangkun-riji]], II, 203 (Aug. 13, 1962). The words: 下午2时到6时 (II, 203). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-08-09.china-leadership]]. Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 203 (Aug. 13, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 13, 15 and 17, 1962; Deng at Mao''s core group). The words: 下午2时到6时 (II, 203). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-08-09.china-leadership]]. Names: Yang Shangkun.'
     src:
       c: 72da2bf4
       rows:
         - 'w.yang-shangkun-riji II, 203: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-08-13.china-leadership-4
@@ -1955,6 +2044,19 @@ entries:
       - 1962-08-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-13.china-leadership-7
+    when: Aug. 13
+    date: '1962-08-13'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河. The core group 中心小组, Mao 毛泽东 present; Luo Ruiqing 罗瑞卿 and Peng Zhen 彭真 speak. Mao asks whether China will be free of revisionism: the son may not bring it, the grandson will, and the grandson''s grandson will bring Marxism-Leninism back, as dialectics has it. Luo quotes Qian Rangneng''s letter that farm output cannot recover without household contracting; Mao: Jiangxi did not follow it and did well, Shandong was ruined and recovers fast, Henan has risen, ten Peking counties will reach 1957 this year. Luo: senior army officers dislike the dark accounts; Mao: the soldiers see light, the local cadres dark, as Zhou Xing of Shandong did. Deng Zihui makes his self-criticism again; Mao: it contradicts his league of poor peasants.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 70 n.46. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Record of the core group 中心小组会议记录, Central Work Conference, Aug. 13, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.46); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Luo Ruiqing, Peng Zhen.'
+    src:
+      c: b2e07acb
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 70: all'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.46: all'
+    tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, name:peng-zhen, vis:only:prc]
   - id: cal.1962-08-14.rules
     when: Aug. 14
     date: '1962-08-14'
@@ -2233,7 +2335,7 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. Mao at the core group, Li Fuchun, Tan Zhenlin and Kang Sheng speaking. The estimate of the situation, by March, May and August, has come back to the January conference''s; recovery perhaps two years more, this year and next, with the tail in 1964; "low standard, vegetables-and-substitutes" no more; blind command ended, high procurement mended. The year: work conference in August, plenum in September, another work conference in November for next year''s plan.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 15, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 276 (in remarks of Aug. 9, 15 and 20 Mao berates colleagues who "energetically trumpet individual operation and darkness" and "eagerly discuss shortcomings and errors": "We have been discussing difficulties and darkness for two years now; it''s become illegal to discuss brightness"); [[w.yang-shangkun-riji]], II, 204 (Aug. 15, 1962; the core group, afternoon; the Central Committee''s plenum set for Sept. 1, in Peking, its members to report Aug. 25 and read the papers first; Mao not named). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 204) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1074 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 276 n.88a); [[w.zedong-ziliao-xuanbian-selection-of]], 271 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 276 n.88b). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Li Fuchun, Tan Zhenlin, Kang Sheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 15, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 276 (in remarks of Aug. 9, 15 and 20 Mao berates colleagues who "energetically trumpet individual operation and darkness" and "eagerly discuss shortcomings and errors": "We have been discussing difficulties and darkness for two years now; it''s become illegal to discuss brightness"); [[w.yang-shangkun-riji]], II, 204 (Aug. 15, 1962; the core group, afternoon; the Central Committee''s plenum set for Sept. 1, in Peking, its members to report Aug. 25 and read the papers first; Mao not named); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 13, 15 and 17, 1962; Deng at Mao''s core group, the 15th); [[w.mao-zedong-zhuan]], V, ch. 70 n.47 (Aug. 15: the core group hears Li Fuchun, Tan Zhenlin and Kang Sheng; Mao: in industry and agriculture the base is to raise output; recovery needs two years more, this year and next, with the tail in 1964; no more blind command, high procurement corrected). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 204) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 70), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1074 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 276 n.88a); [[w.zedong-ziliao-xuanbian-selection-of]], 271 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 276 n.88b); Record of the core group 中心小组会议记录, Central Work Conference, Aug. 15, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.47). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Li Fuchun, Tan Zhenlin, Kang Sheng.'
     src:
       c: 8470e7c3
       rows:
@@ -2242,6 +2344,9 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 276 n.88a: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 276 n.88b: ?'
         - 'w.yang-shangkun-riji II, 204: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.47: B, D'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.47: B, D'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:tan-zhenlin, name:kang-sheng, vis:only:prc]
   - id: cal.1962-08-15.china-leadership-2
     when: Aug. 15
@@ -2565,7 +2670,7 @@ entries:
     date: '1962-08-17'
     thread: china-leadership
     c: 'Zhou Enlai at the conference''s center group. Class struggle is long and complex; going it alone and responsibility fields are to be seen in essence and analyzed. For a time the difficulties were told too much, which hurt the Party; some old workers asked to stay at the plant and refused severance pay. Two attitudes: overcome the difficulties or despair. By July the cities had cut 8.9 million with no great trouble, a first in the Party''s history; the city and village population concepts are confused; money has been drawn back and inflation is past.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (Aug. 17, 1962); [[w.yang-shangkun-riji]], II, 204 (Aug. 17, 1962; 2 to 5 p.m.; Zhou Enlai not named). Continues 494. Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (Aug. 17, 1962); [[w.yang-shangkun-riji]], II, 204 (Aug. 17, 1962; 2 to 5 p.m.; Zhou Enlai not named); [[w.mao-zedong-zhuan]], V, ch. 70 n.48 (Aug. 17, the core group, Mao present, the conference turning to commerce, prices and grain; Li Xiannian and Zhou Enlai speak; Mao: a lifetime of war and he forgot the class struggle, now not bloody as then; Li: purchases less, imports 5.4 million tons last year, 4.7 this; free-market prices halved, grain''s to a quarter; Mao: supply and demand; have Tan Zhenlin speak of the situation and Li of the difficulties, an occupational disease). Continues 494. Made public: 1997. To check: Record of the core group 中心小组会议记录, Central Work Conference, Aug. 17, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.48). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-08-17.china-leadership-2
     when: Aug. 17
@@ -2895,12 +3000,15 @@ entries:
     thread: china-leadership
     also: [china]
     c: Beidaihe. Liu Shaoqi asks in the central group how the conference is to be conveyed. The conference discussed class and class struggle; to speak of them touches very many matters and in conveying it the education of cadres must be linked, to good effect; but in practice it is a complicated question, and linking everything to class struggle, as with private plots, the responsibility system and contracting output to households, can cause a reaction. Class analysis cannot easily be applied to all; the question needs study, and the scope of conveyance should be fixed. Mao agrees with Liu's view.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 20, 1962); [[w.yang-shangkun-riji]], II, 205 (Aug. 20, 1962; the core group, 3 to 6 p.m.; the regions report their views on commerce). Made public: 1996. Names: Liu Shaoqi, Mao Zedong.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 20, 1962); [[w.yang-shangkun-riji]], II, 205 (Aug. 20, 1962; the core group, 3 to 6 p.m.; the regions report their views on commerce); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 20, 1962; afternoon; Deng at Mao''s core group: on private plots, hills and plains to be cleared with care for forests and soil); [[w.mao-zedong-zhuan]], V, ch. 70 n.50 (Aug. 20, the last core-group meeting: Liu Shaoqi on how to convey the conference, wide or narrow; Mao: the questions must be made clear without hurting people, and by reasoning; he agrees). Made public: 1996. To check: Record of the core group 中心小组会议记录, Central Work Conference, Aug. 20, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.50). Names: Liu Shaoqi, Mao Zedong.'
     src:
       c: 6eeb0868
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 559: ?'
         - 'w.yang-shangkun-riji II, 205: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.50: B, H'
+        - 'via w.mao-zedong-zhuan V, ch.70 n.50: B, H'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-20.china-leadership-2
     when: Aug. 20
@@ -3069,6 +3177,23 @@ entries:
       - 1962-08-21T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-21.china-leadership-5
+    when: Aug. 21
+    date: '1962-08-21'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Deng Xiaoping 邓小平 at Mao Zedong's 毛泽东 Politburo Standing Committee.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 21, 1962). The words: 下午 (III, 1722). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: ad258167
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1962-08-21T04:00Z
+      - 1962-08-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-22.missile-crisis
     when: Aug. 22–23
     date: '1962-08-22'
@@ -3229,6 +3354,23 @@ entries:
       - 1962-08-22T11:00Z
       - 1962-08-22T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-08-22.china-leadership-8
+    when: Aug. 22
+    date: '1962-08-22'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Deng Xiaoping 邓小平 at Mao Zedong's 毛泽东 enlarged Politburo Standing Committee.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 22, 1962). The words: 下午 (III, 1722). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: baab0eb6
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1962-08-22T04:00Z
+      - 1962-08-22T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-08-23.middle-east
     when: Aug. 23–26
@@ -3546,12 +3688,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Beidaihe. Mao presides at the closing plenary of the Central Work Conference, which hears Chen Yi's report on the Geneva conference and related matters. Mao returns to Peking. Same day he has the Aug. 17 revised draft of the decision on the communes' collective economy circulated; it, and the revised "Work Regulations" of Aug. 6, are later adopted at the Tenth Plenum.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 24, 1962. [[w.yang-shangkun-riji]], II, 206 (Aug. 24, 1962; the plenary, 3 to 6 p.m., Mao presiding, Chen Yi on international questions; Mao leaves for Peking that evening). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 206) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. See [[cal.1962-08-06.china-leadership]]. Names: Mao Zedong, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 24, 1962. [[w.yang-shangkun-riji]], II, 206 (Aug. 24, 1962; the plenary, 3 to 6 p.m., Mao presiding, Chen Yi on international questions; Mao leaves for Peking that evening); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 24, 1962; Deng at the closing plenary; Chen Yi on international questions); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 24, afternoon: Mao presides over the closing plenary, which hears Chen Yi on the international situation, and returns that night to Peking for the Tenth Plenum). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 206) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). See [[cal.1962-08-06.china-leadership]]. Names: Mao Zedong, Chen Yi.'
     src:
       c: 3279ce0b
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 24, 1962: all'
         - 'w.yang-shangkun-riji II, 206: A-C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70: B-C'
     tags: [polity:prc, name:mao-zedong, name:chen-yi, vis:only:prc]
   - id: cal.1962-08-24.china-leadership-2
     when: Aug. 24
@@ -3654,13 +3798,27 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 206: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-25.china-leadership-6
+    when: Aug. 25
+    date: '1962-08-25'
+    place:
+      - beidaihe
+      - peking
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 back in Peking 北京 from Beidaihe 北戴河.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 25, 1962). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: whether on Yang Shangkun''s special train ([[cal.1962-08-25.china-leadership-4]]).'
+    src:
+      c: 97443da0
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-08-26.china-leadership
     when: Aug. 26
     date: '1962-08-26'
     place: peking
     thread: china-leadership
     c: Peking. The preparatory meeting for the Tenth Plenum opens (Aug. 26–Sept. 23). First it takes two farm papers and criticizes Deng Zihui's "go-it-alone wind," the international situation and the exchange of cadres; from Sept. 6–7 the six groups turn to criticizing Peng Dehuai and Xi Zhongxun's "reversal wind."
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 26, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 26–Sept. 23, 1962; Liu attends); [[w.macfarquhar-origins-of-the-cultural]], III, 283 (the preparatory meeting for the Tenth Plenum, begun Aug. 26, takes up the matters Mao raised and agriculture, commerce, industry and planning until Sept. 23). Made public: 1996. To check: [[w.schram-mao-tse-tung-unrehearsed]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 283 n.127). Names: Mao Zedong, Peng Dehuai, Xi Zhongxun, Xiao Hua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 26, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 26–Sept. 23, 1962; Liu attends); [[w.macfarquhar-origins-of-the-cultural]], III, 283 (the preparatory meeting for the Tenth Plenum, begun Aug. 26, takes up the matters Mao raised and agriculture, commerce, industry and planning until Sept. 23); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 26–Sept. 23, 1962; Deng at the preparatory meeting for the Tenth Plenum: the decision on consolidating the communes'' collective economy, the revised Working Regulations, the world; the "go-it-alone wind" behind output by household and the "reversal-of-verdicts wind" of Peng Dehuai and others criticized). Made public: 1996. To check: [[w.schram-mao-tse-tung-unrehearsed]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 283 n.127). Names: Mao Zedong, Peng Dehuai, Xi Zhongxun, Xiao Hua.'
     src:
       c: 9dc326c2
       rows:
@@ -3668,6 +3826,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 559: B'
         - 'w.macfarquhar-origins-of-the-cultural III, 283: B, C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 283 n.127: B, C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]
   - id: cal.1962-08-26.china-leadership-2
     when: Aug. 26
@@ -3986,6 +4145,22 @@ entries:
       - 1962-08-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-27.china-leadership-8
+    when: Aug. 27
+    date: '1962-08-27'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 at Mao Zedong's 毛泽东 enlarged Politburo Standing Committee.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1722–1723 (Aug. 27, 1962). The words: 下午 (III, 1722). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: afc50afa
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1722–1723: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1962-08-27T04:00Z
+      - 1962-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-28.court
     when: Aug. 28
     date: '1962-08-28'
@@ -4186,11 +4361,12 @@ entries:
     time: 1962-08-29T07:30Z
     thread: china-leadership
     c: The Secretariat 书记处, 3:30 to 7 p.m., on the plenum's draft decision on strengthening the control commissions.
-    n: '[[w.yang-shangkun-riji]], II, 207 (Aug. 29, 1962). The words: 由3时半到7时 (II, 207). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-28.china-leadership-3]].'
+    n: '[[w.yang-shangkun-riji]], II, 207 (Aug. 29, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1723 (Aug. 29, 1962; afternoon; Deng presides, Zhou attends; strengthening the Party''s control work). The words: 由3时半到7时 (II, 207). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-28.china-leadership-3]].'
     src:
       c: 7d033acb
       rows:
         - 'w.yang-shangkun-riji II, 207: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1723: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-08-29.china-leadership-4
@@ -4349,6 +4525,17 @@ entries:
         - 'w.yang-shangkun-riji II, 207: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-30.china-leadership-2
+    when: Aug. 30
+    date: '1962-08-30'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 sends the Tenth Plenum's draft "Decision on strengthening the Party's control organs" to those at the Secretariat's meeting of the 29th for their views.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1723 (Aug. 30, 1962). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: f6e8a3d0
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1723: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-08-31.missile-crisis
     when: Aug. 31
     date: '1962-08-31'
@@ -4672,7 +4859,7 @@ entries:
     date: '1962-08-31'
     thread: china-leadership
     c: Zhou Enlai at the Secretariat, which takes up grain and other questions.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 495 (Aug. 31, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 495 (Aug. 31, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1723 (Aug. 31, 1962; afternoon; Deng presides; the draft decision on the control organs adopted; grain). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-08.china-leadership
     when: Aug.
@@ -4807,3 +4994,14 @@ entries:
       - 1962-08-31T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-31.china-leadership-5
+    when: Aug. 31
+    date: '1962-08-31'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平 sends Mao Zedong 毛泽东 and Liu Shaoqi 刘少奇 the revised draft decision on the control organs of Aug. 30, sent by Lu Dingyi 陆定一: discussed by the Secretariat with the regional first secretaries, with the list for the Control Commission''s by-election; print for the groups? some find the commissions'' duties set too high and against the Party constitution. On Lu''s letter: no control commissions at regional-bureau and prefectural level, standing groups sent from above if needed; "Party organizations" struck from the clause on state organs.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1723–1724 (Aug. 31, 1962). The chronology gives it under the 31st, a second item of the day. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi, Lu Dingyi.'
+    src:
+      c: 96a5a820
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1723–1724: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:lu-dingyi, vis:only:prc]

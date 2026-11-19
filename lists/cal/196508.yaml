@@ -138,12 +138,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the Peking airport to welcome Aidit and the Indonesian Communist Party delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 1, 1965; afternoon; Beijing airport); [[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965; Yang at the eastern airport to welcome Aidit and the PKI delegation, leaving at 1:30 p.m. and back at 3:15; Zhou not named; the words: 1时半动身去东郊机场，欢迎艾地同志和印尼共代表团，回来已3时1刻了). The book names the chairman 艾地. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 1, 1965; afternoon; Beijing airport); [[w.yang-shangkun-riji]], II, 648 (Aug. 1, 1965; Yang at the eastern airport to welcome Aidit and the PKI delegation, leaving at 1:30 p.m. and back at 3:15; Zhou not named; the words: 1时半动身去东郊机场，欢迎艾地同志和印尼共代表团，回来已3时1刻了); [[w.deng-xiaoping-nianpu-1904]], III, 1870 (Aug. 1, 1965; afternoon, 下午; Deng with Zhou Enlai at the airport welcoming the delegation of the Indonesian Communist Party under Aidit 艾地; on the 3rd and 4th Deng takes part in the talks of the Chinese delegation with it; on the morning of the 5th he accompanies Mao in meeting Aidit and attends Mao''s banquet in his honor). The book names the chairman 艾地. Names: Zhou Enlai.'
     src:
       c: 871e5786
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
         - 'w.yang-shangkun-riji II, 648: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1870: A'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-08-01T04:00Z
@@ -665,12 +666,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the banquet given by the Central Committee for Aidit and the Indonesian Communist Party delegation he leads; Liu Shaoqi and Deng Xiaoping also attend.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 3, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965; the banquet welcoming Aidit in the Great Hall of the People, 6:30 to 8 p.m.; Yang there; Zhou not named; the words: 6时半去大会堂参加欢迎艾地的宴会，8时才完). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (Aug. 3, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 648 (Aug. 3, 1965; the banquet welcoming Aidit in the Great Hall of the People, 6:30 to 8 p.m.; Yang there; Zhou not named; the words: 6时半去大会堂参加欢迎艾地的宴会，8时才完); [[w.deng-xiaoping-nianpu-1904]], III, 1870 (Aug. 3, 1965; Deng at the banquet for Aidit''s delegation). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 1af263f6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
         - 'w.yang-shangkun-riji II, 648: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1870: B'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
     time_range:
       - 1965-08-03T11:00Z
@@ -1599,17 +1601,23 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off Aidit and the Indonesian Communist Party delegation, returning home.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; morning; Beijing airport). Check: Yang Shangkun''s diary has him see Aidit''s party off at the western airport the morning of Aug. 6 ([[w.yang-shangkun-riji]], II, 649); some of the Indonesians still in Peking that evening. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 7, 1965; morning; Beijing airport); [[w.deng-xiaoping-nianpu-1904]], III, 1870 (Aug. 6, 1965; morning, 上午; Deng with Zhou Enlai and others at the airport sees Aidit off for home). Check: Yang Shangkun''s diary has him see Aidit''s party off at the western airport the morning of Aug. 6 ([[w.yang-shangkun-riji]], II, 649); some of the Indonesians still in Peking that evening. Names: Zhou Enlai.'
     src:
       c: b7233294
       rows:
         - 'w.zhou-enlai-waijiao-huodong 473: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1870: A'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-08-06T22:00Z
       - 1965-08-07T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: the send-off at the airport on the morning of Aug. 6 (六日上午), Deng, Zhou and others
+        at: III, 1870
   - id: cal.1965-08-07.china-leadership-2
     when: Aug. 7
     date: '1965-08-07'
@@ -2014,11 +2022,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, 3:30 to 7 p.m. The Secretariat meets on the Youth League's and the All-China Federation of Trade Unions' work; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 9, 1965). The words: 下午3时半到7时，书记处会议。讨论青年团、总工会工作 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 650 (Aug. 9, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1871 (Aug. 9, 1965; afternoon, 下午; Deng presides at the Secretariat, which hears Hu Keshi 胡克实 and Ma Chungu 马纯古 on the work of the Youth League and the trade unions; Deng says the age structure of Party organizations and leaders is a problem and the young must be put in leading posts, the League cadres first renewed, those under county level not over thirty; League members in villages may reach 25 percent, in cities 30; on study that it is to be made interesting, the ''four articles'' (the nianpu''s note: *In Memory of Norman Bethune*, *Serve the People*, *The Foolish Old Man Who Removed the Mountains*, *Combat Liberalism*) learned for two or three years and again, what use now?; study Mao''s philosophical works, the *Communist Manifesto* and other classics more widely; study is to be voluntary; the League is to work with the backward and with children of landlords and rich peasants, by the policy of conduct first). The words: 下午3时半到7时，书记处会议。讨论青年团、总工会工作 (II, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: fb69a1fb
       rows:
         - 'w.yang-shangkun-riji II, 650: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1871: B'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-10.cities-and-housing
@@ -2428,7 +2437,7 @@ entries:
     thread: china-leadership
     also: [vietnam, china]
     c: 'Mao presides over the Politburo Standing Committee, morning and afternoon (the Secretariat joins in the afternoon): hears Luo Ruiqing on Lin Biao''s directions for carrying out the strategy of drawing the enemy in. Mao: let the enemy in; those who draw him in annihilate him, those who chase deep lose; the General Staff to study how to let him in; no early wins for him. Gain half a year to move supplies, give what cannot be moved to the people. Soviet revisionism may envelop China. If Beijing is taken, the leaders go elsewhere, scattered; if one dies, another remains; promote new cadres, exchange north and south, retire the old. Of Vietnam: the U.S. is going soft.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 11, 1965. Made public: 2013. Names: Mao Zedong, Luo Ruiqing, Lin Biao, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 11, 1965. [[w.deng-xiaoping-nianpu-1904]], III, 1872 (Aug. 11, 1965; Deng at the Politburo Standing Committee meeting Mao presides over, which hears Luo Ruiqing on ideas for carrying out in military matters the strategy of luring the enemy in deep). Made public: 2013. Names: Mao Zedong, Luo Ruiqing, Lin Biao, Peng Zhen.'
     tags: [name:mao-zedong, name:luo-ruiqing, name:lin-biao, name:peng-zhen, polity:prc, vis:only:prc]
   - id: cal.1965-08-11.china-leadership-2
     when: Aug. 11
@@ -2450,7 +2459,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi hears Chen Zhengren, Minister of the Eighth Ministry of Machine Building, report on developing farm-machinery production. Liu says: farm machinery is a productive force; if it is not done well now it will have to be done in the end; it does not help agriculture if done badly, and farming cannot develop; take as few detours as possible, subsidize little, and open this road.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 11, 1965); [[w.yang-shangkun-riji]], II, 651 (Aug. 11, 1965; the Politburo''s meeting in the Huairen Tang 怀仁堂, 3:30 to 7 p.m., hears Chen Zhengren on farm machinery; Yang there; Liu not named; the words: 下午3时半到7时，在怀仁堂开政治局会议，听陈正人同志关于农业机械的汇报). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 11, 1965); [[w.yang-shangkun-riji]], II, 651 (Aug. 11, 1965; the Politburo''s meeting in the Huairen Tang 怀仁堂, 3:30 to 7 p.m., hears Chen Zhengren on farm machinery; Yang there; Liu not named; the words: 下午3时半到7时，在怀仁堂开政治局会议，听陈正人同志关于农业机械的汇报); [[w.deng-xiaoping-nianpu-1904]], III, 1872 (Aug. 11, 1965; 下午; Deng, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, hears Chen Zhengren 陈正人, Minister of the Eighth Ministry of Machine Building, on the national conference on the management of farm machinery. Deng: farm machines must be used together, not here and there; in the North China plain and several deltas a number of counties can be fixed, and over some years the types gradually unified and made into matched sets; quality first in making them; the peasants who use them must gain, to the point where the state need bear no more). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-08-12.war-opposition
     when: Aug. 12
@@ -3335,6 +3344,18 @@ entries:
       - 1965-08-15T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-08-15.china-leadership-5
+    when: Aug. 15
+    date: '1965-08-15'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Deng Xiaoping 邓小平 reads the Foreign Ministry''s request on the talks with the Indonesian side on Singapore''s independence. Comment: agreed to cable Chen (Chen Yi 陈毅) accordingly; the Chairman, Liu and Peng to read. The request: China should take the initiative, recognize Singapore''s independence, and develop trade with it step by step.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1872 (Aug. 15, 1965). The words: 阅 (III, 1872). Deng: 拟同意照此电告陈总 (III, 1872). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Chen Yi.'
+    src:
+      c: a803dcc5
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1872: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-yi, vis:only:prc]
   - id: cal.1965-08-16.king
     when: Aug. 16
     date: '1965-08-16'
@@ -3541,11 +3562,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, 3:30 to 6 p.m. A small meeting of the Secretariat on work for Peng Dehuai 彭德怀, Huang Kecheng 黄克诚 and others; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965). The words: 下午3时半到6时，书记处小会，讨论彭德怀、黄克诚等工作分配问题 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Dehuai, Huang Kecheng.'
+    n: '[[w.yang-shangkun-riji]], II, 653 (Aug. 16, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1872 (Aug. 16, 1965; afternoon, 下午; Deng invites Peng Zhen, Kang Sheng, Luo Ruiqing and others to study the assignment of work to a group of cadres studying at the Central Party School 中央党校). The words: 下午3时半到6时，书记处小会，讨论彭德怀、黄克诚等工作分配问题 (II, 653). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Peng Dehuai, Huang Kecheng.'
     src:
       c: 9722e5d2
       rows:
         - 'w.yang-shangkun-riji II, 653: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1872: ?'
     tags: [polity:prc, name:peng-dehuai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-16.china-leadership-9
@@ -3911,6 +3933,29 @@ entries:
         - 'via w.yang-shangkun-riji II, 653 n.1: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-08-17.china-leadership-8
+    when: Aug. 17
+    date: '1965-08-17'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 approves the *Renmin ribao* 人民日报 editorial board's request that the paper take the countryside as the center of its propaganda for a good while to come.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1872 (Aug. 17, 1965). The words: 批阅同意 (III, 1872). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: e4db2f61
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1872: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-08-17.china-leadership-9
+    when: Aug. 17
+    date: '1965-08-17'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平 approves the draft telegram of condolence, drafted by the Central Committee's 中央 International Liaison Department, on the death of William Gallacher, life honorary member of the Executive Committee of the Communist Party of Great Britain, who died Aug. 12; it goes out on the 19th in the Central Committee's name.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1872–1873 (Aug. 17, 1965). The words: 批阅同意 (III, 1872–1873). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: ed18347c
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1872–1873: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1965-08-18.vietnam
     when: Aug. 18–24
     date: '1965-08-18'
@@ -4572,11 +4617,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Yang Shangkun 杨尚昆 tells Deng Xiaoping 邓小平 of the Central Control Commission's meeting.
-    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965). The words: 中午与康克清5131同志通了电话……去小平同志处，同他谈了中监委会议情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], II, 662 (Aug. 20, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1873 (Aug. 20, 1965; Deng hears Yang Shangkun on the meeting of the Central Control Commission). The words: 中午与康克清5131同志通了电话……去小平同志处，同他谈了中监委会议情况 (II, 662). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping.'
     src:
       c: 4a5c5c70
       rows:
         - 'w.yang-shangkun-riji II, 662: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1873: B'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1965-08-20T04:00Z
@@ -4599,6 +4645,24 @@ entries:
       - 1965-08-20T14:00Z
       - 1965-08-20T16:00Z
     time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-08-20.china-leadership-9
+    when: Aug. 20
+    date: '1965-08-20'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平 visits the Romanian economic exhibition at the Peking 北京 Exhibition Hall 北京展览馆; before it he meets the exhibition's head Bulat 布拉特 and some members of its delegation.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1873 (Aug. 20, 1965). The words: 上午 (III, 1873). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 3fe88915
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1873: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+romania]
+    time_range:
+      - 1965-08-19T22:00Z
+      - 1965-08-20T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-08-21.defense
     when: Aug. 21
@@ -5445,11 +5509,12 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, 10 a.m. to noon. A small meeting of the Secretariat on work for Peng Dehuai 彭德怀 and others (the editors'' note: Peng later third deputy director of the Southwest Bureau''s third-front construction committee); Yang Shangkun 杨尚昆 there, his head still aching.'
-    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965). The words: 10时到12时，书记处小会，讨论彭德怀等人的工作分配问题 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-16.china-leadership-8]]. Names: Peng Dehuai, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 664 (Aug. 25, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1873 (Aug. 25, 1965; morning, 上午; Deng invites Peng Zhen, He Long, Kang Sheng, Luo Ruiqing, Yang Shangkun, Lin Feng 林枫 and An Ziwen 安子文 to discuss the work of Peng Dehuai 彭德怀 and twenty-three others; he sends An Ziwen''s request on it to Mao, Liu and Zhou: ''we held two meetings and decided it, Peng, He, Kang and Luo attending; if need be I suggest a talk at the Chairman''s, for him to decide''; on Sept. 2 he returns the request, with the Chairman''s and others'' comments, to An Ziwen: ''in the talk it should be said that they are hoped to correct their errors; the Center places hopes in them''). The words: 10时到12时，书记处小会，讨论彭德怀等人的工作分配问题 (II, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1965-08-16.china-leadership-8]]. Names: Peng Dehuai, Yang Shangkun.'
     src:
       c: 13eca2c2
       rows:
         - 'w.yang-shangkun-riji II, 664: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1873: ?'
     tags: [polity:prc, name:peng-dehuai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-08-25.china-leadership-4
@@ -5666,13 +5731,14 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou accompanies Mao Zedong in the Shaanxi Hall of the Great Hall of the People in receiving the heads of the Japanese delegations to the Sino-Japanese youth friendship gathering and other Japanese friends.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 475 (Aug. 26, 1965; afternoon; Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 46 (Aug. 26, 1965; Mao, Liu Shaoqi and Zhou receive the 23 Japanese youth delegations; Mao: the two peoples closer each year); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 26, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, receives over 400 Japanese friends at the China–Japan youth friendship gathering). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 475 (Aug. 26, 1965; afternoon; Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 46 (Aug. 26, 1965; Mao, Liu Shaoqi and Zhou receive the 23 Japanese youth delegations; Mao: the two peoples closer each year); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 26, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, receives over 400 Japanese friends at the China–Japan youth friendship gathering); [[w.deng-xiaoping-nianpu-1904]], III, 1873 (Aug. 26, 1965; 下午; Deng, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, receives the Japanese young people at the Sino-Japanese youth friendship gathering). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: '37939155'
       rows:
         - 'w.zhou-enlai-waijiao-huodong 475: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 46: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 624: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1873: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1965-08-26T04:00Z
@@ -6024,6 +6090,18 @@ entries:
     c: Liu Shaoqi, with Mao, receives Kirti Nidhi Bista, Vice-Chairman of Nepal's Council of Ministers and Minister of Foreign Affairs, Land Reform, Food and Agriculture, and his wife.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 624 (Aug. 28, 1965). Names: Liu Shaoqi, Mao Zedong.'
     tags: [polity:prc, polity:nepal, name:liu-shaoqi, name:mao-zedong]
+  - id: cal.1965-08-28.china-leadership-3
+    when: Aug. 28
+    date: '1965-08-28'
+    thread: china-leadership
+    also: [japan]
+    c: Deng Xiaoping 邓小平 meets Hakamada Satomi 袴田里见, member of the Politburo 政治局 and secretary of the Secretariat 书记处 of the Japanese Communist Party's Central Committee 中央, and Sunama Ichiro 砂间一良, member of its Central Committee and of the Secretariat.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1873 (Aug. 28, 1965). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: da51434f
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1873: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1965-08-29.transition-and-staff
     when: Aug. 29
     date: '1965-08-29'

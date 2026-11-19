@@ -54,7 +54,7 @@ STYLE (settled; keep it):
 import datetime
 import re
 
-from . import store
+from . import markup, store
 from .concepts import parse, tidy
 
 LEGACY = tuple(f"c{n}" for n in range(2, 10))
@@ -181,7 +181,7 @@ def plain(t):
     """The words a reader sees: a link's text, not its target."""
     t = re.sub(r"\[\[[^\]|]*\|([^\]]*)\]\]", r"\1", t)
     t = re.sub(r"\[\[[^\]]*\]\]", " ", t)
-    t = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", t)
+    t = markup.strip_links(t)
     return t
 
 

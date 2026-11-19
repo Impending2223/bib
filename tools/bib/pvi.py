@@ -39,7 +39,7 @@ ROOT = store.ROOT
 
 def _readings():
     import sys
-    sys.path.insert(0, os.path.join(ROOT, "tools", "elections"))
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "elections"))   # the code's tools/, not the data's root
     import cd_readings
     return cd_readings
 

@@ -208,12 +208,13 @@ entries:
     place: peking
     thread: china
     c: Peking, Tiananmen, 10 a.m. Mao Zedong, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others, at the rally for the People's Republic's thirteenth anniversary; reviews the parade. Watches the fireworks from the gate tower at night.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. [[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 上午, 天安门城楼). Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. [[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 上午, 天安门城楼); [[w.deng-xiaoping-nianpu-1904]], III, 1727 (Oct. 1, 1962; morning, Deng at the Tiananmen ceremony reviewing the parade; evening, with Mao, Liu and others, the fireworks on the gate, and meets W. E. B. Du Bois 杜波依斯, American Black scholar and Communist Party member, and his wife). Names: Mao Zedong, Zhou Enlai.'
     src:
       c: d8bb4056
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 1, 1962: all'
         - 'w.zhou-enlai-waijiao-huodong 336: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1727: ?'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
     time_range:
       - 1962-09-30T22:00Z
@@ -831,11 +832,12 @@ entries:
     time: 1962-10-04T07:30Z
     thread: china-leadership
     c: 'The Secretariat 书记处, 3:30 to 6:30 p.m., on the arrangement of work; Zhou Enlai 周恩来 there: to take hold of work; the 1963 plan first arranged at 7 billion yuan; losses and output; output and construction; relaying the Tenth Plenum.'
-    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 4, 1962). The words: 下午3时半到6时半 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-09-28.china-leadership-3]]. Names: Zhou Enlai.'
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 4, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1727–1728 (Oct. 4, 1962; Deng presides; on the timetable for Li Fuchun''s reports on the 1963 plan and the first ideas for the Third Five-Year Plan). The words: 下午3时半到6时半 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-09-28.china-leadership-3]]. Names: Zhou Enlai.'
     src:
       c: 734d765e
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1727–1728: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-04.china-leadership-4
@@ -851,6 +853,31 @@ entries:
         - 'w.yang-shangkun-riji II, 214: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-04.china-leadership-6
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    follows:
+      - cal.1962-10-04.china-leadership-3
+    c: 'Deng Xiaoping 邓小平 to Mao Zedong 毛泽东 and Liu Shaoqi 刘少奇, by letter, after the Secretariat 书记处 (Zhou Enlai 周恩来 there): Li Fuchun''s 李富春 timetable gives the sectors too little time to report, and a month of reports is too long and hinders work, procurement above all; the reports to begin on the 15th and take two weeks; this only the first round, the overall balance the main thing.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 4, 1962). The chronology gives it under the 4th, after the meeting. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi, Zhou Enlai, Li Fuchun.'
+    src:
+      c: 4bb62bc7
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:li-fuchun, vis:only:prc]
+  - id: cal.1962-10-04.china-leadership-7
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    also: [farm]
+    c: 'Deng Xiaoping 邓小平, on the Center''s draft note forwarding the Light Industry Ministry''s 轻工业部 Party group''s proposal to set the 1963–64 grain and cash-crop targets together: "Premier to read, then back to Tan [Zhenlin 谭震林]. Not to be issued; to be set as one in next year''s plan." Zhou Enlai 周恩来: "Agree with Deng."'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 4, 1962). The chronology gives it under the 4th, a second item of the day; Zhou''s comment undated (III, 1728 n.1: Tan, Tan Zhenlin). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Tan Zhenlin, Zhou Enlai.'
+    src:
+      c: 1584fea7
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
+    tags: [polity:prc, name:deng-xiaoping, name:tan-zhenlin, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-10-05.georgia-ga
     when: Oct. 5
     date: '1962-10-05'
@@ -1005,7 +1032,7 @@ entries:
     thread: vietnam-hanoi
     also: [china]
     c: 'Zhongnanhai, the Yinian Tang, afternoon. Mao Zedong receives a Vietnamese military delegation led by Võ Nguyên Giáp; Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Ye Jianying, Luo Ruiqing and Xiao Xiangrong present. Mao: imperialism reaches too far, "十个指头按十只跳蚤，结果是一个也抓不到" (ten fingers on ten fleas: in the end it catches none); in South Vietnam and Laos the Vietnamese have caught one of America''s "fingers"; five or ten more years of war, and when they call for a Geneva conference America may have to compromise, or else intervene further; an attack on the North must reckon with the South''s guerrillas, the peoples'' struggles in Laos and Thailand, China, Korea and the North''s own strength; "美国还不敢轻易下手" (America does not yet dare move lightly).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1962. [[w.jian-zhou-enlai]], 494 (Mao and Zhou with Giap; Mao, in Chen''s translation: "in the past years, we have not thought much about the offensives by the imperialists. We now should give some good attention to it"; the Vietnamese have "caught one of the Americans'' five fingers"; "it is not an easy decision for the United States to intervene"; China "will pay very close attention to the situation in South Vietnam and Laos"; not the place, the hour, the others present or the fleas); [[w.zhou-enlai-nianpu-1949]], II, 501 (Oct. 5, 1962: Zhou Enlai with Mao and Võ Nguyên Giáp: the mutual support of China and Vietnam is all-round, not military only but political and economic); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561 (Oct. 5, 1962; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, meets the Vietnamese military delegation headed by Võ Nguyên Giáp). Made public: Check (the words; 2013 at the latest). To check: [[w.jian-maos-china-and-the]], 207; Mao''s conversation with Giap, Oct. 5, 1962, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 765 n.11). Names: Mao Zedong, Võ Nguyên Giáp, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1962. [[w.jian-zhou-enlai]], 494 (Mao and Zhou with Giap; Mao, in Chen''s translation: "in the past years, we have not thought much about the offensives by the imperialists. We now should give some good attention to it"; the Vietnamese have "caught one of the Americans'' five fingers"; "it is not an easy decision for the United States to intervene"; China "will pay very close attention to the situation in South Vietnam and Laos"; not the place, the hour, the others present or the fleas); [[w.zhou-enlai-nianpu-1949]], II, 501 (Oct. 5, 1962: Zhou Enlai with Mao and Võ Nguyên Giáp: the mutual support of China and Vietnam is all-round, not military only but political and economic); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561 (Oct. 5, 1962; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, meets the Vietnamese military delegation headed by Võ Nguyên Giáp); [[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 5, 1962; afternoon; Deng with Mao, Zhou, Liu, Zhu De and others; Giáp, Minister of Defense). Made public: Check (the words; 2013 at the latest). To check: [[w.jian-maos-china-and-the]], 207; Mao''s conversation with Giap, Oct. 5, 1962, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 765 n.11). Names: Mao Zedong, Võ Nguyên Giáp, Zhou Enlai.'
     src:
       c: 29c81015
       rows:
@@ -1013,6 +1040,7 @@ entries:
         - 'w.jian-zhou-enlai 494: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 501: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 561: C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1728: B'
     tags: [name:mao-zedong, name:vo-nguyen-giap, name:zhou-enlai, polity:prc, polity:drv, polity:us, polity:laos, polity:thailand, polity:dprk]
   - id: cal.1962-10-05.soviet-union
     when: Oct. 5
@@ -1272,6 +1300,17 @@ entries:
       - 1962-10-06T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-06.china-leadership-7
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平, on his letter of Oct. 4 on the plan reports, returned by Mao Zedong 毛泽东 on the 5th: "Fuchun to rearrange the timetable accordingly."'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 6, 1962). Made public: 2009 (the nianpu). See [[cal.1962-10-04.china-leadership-6]]. Names: Deng Xiaoping, Mao Zedong, Li Fuchun.'
+    src:
+      c: '12375727'
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1962-10-07.soviet-union
     when: Oct. 7
     date: '1962-10-07'
@@ -1351,6 +1390,17 @@ entries:
       - 1962-10-07T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-07.china-leadership-5
+    when: Oct. 7
+    date: '1962-10-07'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平, on the Tenth Plenum''s decision on strengthening the Party''s control organs: "Congwu 从吾 [Wang Congwu 王从吾]: the Control Commission should discuss carrying it out, the sending of control groups and the like, settle the men with the Organization Department, and try it first in a few ministries."'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 7, 1962). Made public: 2009 (the nianpu). See [[cal.1962-08-31.china-leadership-2]]. Names: Deng Xiaoping.'
+    src:
+      c: 847b3aba
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-10-08.middle-east
     when: Oct. 8
     date: '1962-10-08'
@@ -1484,13 +1534,14 @@ entries:
     thread: south-asia
     also: [china]
     c: Afternoon. Mao Zedong calls Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Chen Yi, He Long, Nie Rongzhen and Luo Ruiqing together on the border conflict with India.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962. [[w.jian-zhou-enlai]], 479 (an enlarged meeting of the Standing Committee, Zhou present, to hear the General Staff''s briefing on the conflict; after hearing Luo Ruiqing and others, Mao decides on a "war of self-defense against the invading Indian troops"; not the hour or the others present); [[w.zhou-enlai-nianpu-1949]], II, 500 (Oct. 8, 1962: Zhou Enlai is called to Mao''s to study the Sino-Indian border struggle). Made public: Check (2013 at the latest). To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 368. See [[cal.1962-10-02.south-asia]]. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962. [[w.jian-zhou-enlai]], 479 (an enlarged meeting of the Standing Committee, Zhou present, to hear the General Staff''s briefing on the conflict; after hearing Luo Ruiqing and others, Mao decides on a "war of self-defense against the invading Indian troops"; not the hour or the others present); [[w.zhou-enlai-nianpu-1949]], II, 500 (Oct. 8, 1962: Zhou Enlai is called to Mao''s to study the Sino-Indian border struggle); [[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 8, 1962; afternoon; Deng with Liu, Zhou, Zhu De, Chen Yi, He Long, Nie Rongzhen and Luo Ruiqing at Mao''s meeting on the border conflict). Made public: Check (2013 at the latest). To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 368. See [[cal.1962-10-02.south-asia]]. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: 3f9e3024
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 8, 1962: all'
         - 'w.jian-zhou-enlai 479: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 500: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1728: A-B'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc, polity:india]
   - id: cal.1962-10-08.south-asia-2
     when: Oct. 8
@@ -2276,11 +2327,12 @@ entries:
     time: 1962-10-12T07:30Z
     thread: china-leadership
     c: The Secretariat 书记处, 3:30 to 6 p.m., on the arrangement of work.
-    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 12, 1962). The words: 下午3时半到6时 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-10-04.china-leadership-3]].'
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 12, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 12, 1962; afternoon; Deng presides; on next year''s work). The words: 下午3时半到6时 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-10-04.china-leadership-3]].'
     src:
       c: cf449f3d
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1729: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-13.congress
@@ -2410,6 +2462,18 @@ entries:
       - 1962-10-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-13.china-leadership-4
+    when: Oct. 13
+    date: '1962-10-13'
+    thread: china-leadership
+    also: [south-asia, soviet-union]
+    c: 'Deng Xiaoping 邓小平, on Wu Lengxi''s 吴冷西 asking whether Xinhua 新华社 may report the Indian press''s account of India''s buying MiG-21 fighters from the Soviet Union: "To publish the Soviet aircraft for India alone does not seem good. Premier and Chen Yi 陈毅 to consider. (Better as background news together with American, British and others'' aid to India.)"'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 13, 1962). III, 1729 n.1: 陈总, Chen Yi. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Chen Yi.'
+    src:
+      c: 6aba6dfb
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1729: all'
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:chen-yi, vis:only:prc]
   - id: cal.1962-10-14.missile-crisis
     when: Oct. 14
     date: '1962-10-14'
@@ -2637,8 +2701,20 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing meetings and hears Tan Zhenlin, vice-premier, on current farm work, the 1963 plan, the allotment of capital construction investment, the 1965–70 outlook and the Third Five-Year Plan. On trying weed-killers next year: some may be imported, a little of each, small trials; foreign experience is to be taken in. On forestry: close the hills for forest and raise artificial planting greatly, but large forests still rest on natural renewal. On farm research and teaching: both schools that design and make farm machinery and those that teach management are needed, and there are too few; the making and fitting of village processing machinery needs attention too.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 15, 16, 1962); [[w.yang-shangkun-riji]], II, 217 (Oct. 15, 1962; the Politburo, 3:30 to 6:30 p.m., Oct. 15 and 16, hears the "agriculture sector" 农口 on its plan; Gong Zirong with Yang Shangkun that morning; Liu Shaoqi and Tan Zhenlin not named). Made public: 1996. Names: Liu Shaoqi, Tan Zhenlin.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 15, 16, 1962); [[w.yang-shangkun-riji]], II, 217 (Oct. 15, 1962; the Politburo, 3:30 to 6:30 p.m., Oct. 15 and 16, hears the "agriculture sector" 农口 on its plan; Gong Zirong with Yang Shangkun that morning; Liu Shaoqi and Tan Zhenlin not named); [[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 15–Nov. 2, 1962; Deng at Liu Shaoqi''s Politburo meetings hearing the departments on the 1963 plan and the first ideas for the Third Five-Year Plan; the chronology gives the series as one item). Made public: 1996. Names: Liu Shaoqi, Tan Zhenlin.'
     tags: [polity:prc, name:liu-shaoqi, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1962-10-15.china-leadership-2
+    when: Oct. 15
+    date: '1962-10-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Deng Xiaoping 邓小平 sends Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Peng Zhen 彭真 the International Liaison Department''s 中联部 request on the congresses of the four East European parties (Bulgarian, Hungarian, Czechoslovak, the SED), with his proposals: delegations of Central Committee rank to all four; to Sofia Wu Xiuquan 伍修权, Kang Yonghe 康永和 and Xiong Fu 熊复, the Ambassador at Sofia not to join; if the CCP, Korean or Albanian parties are attacked openly, or the Yugoslavs invited, the delegates to leave after their speech, and the speech to answer; the Hungarian and Czechoslovak congresses after the Bulgarian.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 15, 1962). III, 1729 n.2 (the four parties), n.3 (Kang Yonghe, a secretary of the All-China Federation of Trade Unions; Xiong Fu, deputy editor of *Hongqi*). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen.'
+    src:
+      c: a5ea91c1
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1729: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:peng-zhen, vis:only:prc]
   - id: cal.1962-10-16.missile-crisis
     when: Oct. 16
     date: '1962-10-16'
@@ -3038,13 +3114,14 @@ entries:
     thread: south-asia
     also: [china]
     c: 1:30 p.m. Mao Zedong calls Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, He Long, Nie Rongzhen, Luo Ruiqing and others together on a counterattack in self-defense against India's attacks.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 17, 1962 ("同日"). [[w.jian-zhou-enlai]], 480 (1:30 p.m., "a final round of discussion"; Luo Ruiqing: "now it seems that there is no way out for us unless we wage a war of self-defense. We should act immediately"; Mao: "Can we win the war?" Luo: "Yes, we can." Mao: "You must wait for the order from the supreme command to fire the first shot. After firing that shot, how to fight the war will be entirely your responsibility"; both sectors, east and west, decided on; not all those present); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao calls the meeting and it decides on the counterattack; not the hour or those present). Made public: Check (2013 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 165; [[w.yingfu-zai-zuigao-tongshuaibu-dang]], 209–10 (Lei dates the meeting Oct. 18; Chen calls it wrong) (cited by [[w.jian-zhou-enlai]], 763 n.77). See [[cal.1962-10-08.south-asia]]. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 17, 1962 ("同日"). [[w.jian-zhou-enlai]], 480 (1:30 p.m., "a final round of discussion"; Luo Ruiqing: "now it seems that there is no way out for us unless we wage a war of self-defense. We should act immediately"; Mao: "Can we win the war?" Luo: "Yes, we can." Mao: "You must wait for the order from the supreme command to fire the first shot. After firing that shot, how to fight the war will be entirely your responsibility"; both sectors, east and west, decided on; not all those present); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao calls the meeting and it decides on the counterattack; not the hour or those present). [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 17, 1962; 1:30 p.m. (下午一时三十分); Deng at Mao''s meeting on the counterattack in self-defense). Made public: Check (2013 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 165; [[w.yingfu-zai-zuigao-tongshuaibu-dang]], 209–10 (Lei dates the meeting Oct. 18; Chen calls it wrong) (cited by [[w.jian-zhou-enlai]], 763 n.77). See [[cal.1962-10-08.south-asia]]. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: '91250665'
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 17, 1962: ?'
         - 'w.jian-zhou-enlai 480: A'
         - 'w.mao-zedong-zhuan V, ch. 71: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: A'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc, polity:india]
   - id: cal.1962-10-17.south-asia-2
     when: Oct. 17
@@ -3083,12 +3160,13 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou Enlai, at the forum of democratic personages Liu Shaoqi holds, on the Eighth Central Committee''s Tenth Plenum. What counts is that the economy improves day by day; since the enlarged Central work conference and the eight-character line, the adjustment has done well in every field; the working line now is to go on adjusting. Agriculture is to develop all round: grain, and cotton, oil and other cash crops in balance, forestry, livestock, fisheries and side occupations.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 17, 1962); [[w.yang-shangkun-riji]], II, 217 (Oct. 17, 1962; the Great Hall''s Hebei Room, 3 to 7:30 p.m., Liu Shaoqi presiding; Zhou''s report on the Tenth Plenum to the parties'' heads). Continues 503. Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 17, 1962); [[w.yang-shangkun-riji]], II, 217 (Oct. 17, 1962; the Great Hall''s Hebei Room, 3 to 7:30 p.m., Liu Shaoqi presiding; Zhou''s report on the Tenth Plenum to the parties'' heads); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 17, 1962; afternoon; Deng at Liu''s forum of democratic personages; Zhou on the plenum and the situation abroad and at home). Continues 503. Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: a5cd73ca
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 502: ?'
         - 'w.yang-shangkun-riji II, 217: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: A'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-10-17.china
     when: Oct. 17
@@ -3368,13 +3446,14 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai at the enlarged Politburo meeting on the military line toward India. In days of meetings at Mao''s, the Xilou and the Yinian Tang he studies the tactics of a counterattack in self-defense, follows the border situation from hour to hour and takes part in setting the forces'' deployment. A note: since Oct. 16 Nehru and Menon have urgently planned a large attack on China, and from Oct. 17 the Indian troops north of the McMahon line have pressed their attacks all along the Kechilang river.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 503 (Oct. 18, 1962); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 18, 1962; Liu presides at the enlarged Politburo meeting, which conveys and discusses the Standing Committee''s decision on the military line toward India on the border; on the 20th the Indian army attacks in force along the border and the Chinese frontier guards strike back in self-defense and remove the strongholds the Indians had built within Chinese territory); [[w.yang-shangkun-riji]], II, 217 (Oct. 18, 1962; the enlarged Politburo, 3:30 to 6:30 p.m., Liu Shaoqi presiding, 80 present, on striking at the invading Indian army; it agrees with the Standing Committee; Zhou Enlai not named). Made public: 1996. Names: Zhou Enlai, Mao Zedong, Nehru, Krishna Menon.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 503 (Oct. 18, 1962); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 18, 1962; Liu presides at the enlarged Politburo meeting, which conveys and discusses the Standing Committee''s decision on the military line toward India on the border; on the 20th the Indian army attacks in force along the border and the Chinese frontier guards strike back in self-defense and remove the strongholds the Indians had built within Chinese territory); [[w.yang-shangkun-riji]], II, 217 (Oct. 18, 1962; the enlarged Politburo, 3:30 to 6:30 p.m., Liu Shaoqi presiding, 80 present, on striking at the invading Indian army; it agrees with the Standing Committee; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 18, 1962; Deng at the enlarged Politburo, Liu presiding, on the Standing Committee''s decision to counterattack). Made public: 1996. Names: Zhou Enlai, Mao Zedong, Nehru, Krishna Menon.'
     src:
       c: 03f84973
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 503: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 562: A'
         - 'w.yang-shangkun-riji II, 217: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:nehru-jawaharlal, name:menon-v-k-krishna, vis:only:prc]
   - id: cal.1962-10-18.china-leadership-2
     when: Oct. 18
@@ -3680,7 +3759,7 @@ entries:
     thread: south-asia
     also: [china]
     c: China attacks in Ladakh and the North-East Frontier Agency.
-    n: '[FRUS 1961–63, XIX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v19/d179). [[w.sorensen-kennedy]], 662; [[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (Chinese forces open their "自卫反击作战" (counterattack in self-defense) on the border at dawn; not the places). [[w.jian-zhou-enlai]], 480–81 (early on Oct. 20; within three days the Indian strongholds of the "forward policy" in the western sector taken; in the east the McMahon line crossed, Tawang occupied; by Oct. 29 near the line of actual control of November 1959; not Ladakh or the NEFA by name); [[w.mao-zedong-zhuan]], V, ch. 71 (at dawn, in the eastern and western sectors; Oct. 20–29, in the east all the ground south of the Kejielang river, north of the Tawang river and east of Bhutan taken back; in the west part of the Indian troops in the Galwan valley and Aksai Chin cleared; not Ladakh or the NEFA by name). [[w.macfarquhar-origins-of-the-cultural]], III, 308–09 (shortly after dawn the PLA attacks in overwhelming strength, in the west and across the McMahon Line in the east, and within four days has captured virtually all the posts the Indian army had established; the Chinese claim they responded to massive Indian attacks in both sectors); [[w.yang-shangkun-riji]], II, 218 (Oct. 20, 1962; the counterattack, a victory, the fighting goes on; Yang reads the battle reports). Check: the book gives dawn in Aksai Chin as 4:30 a.m. Indian time, 7 a.m. Beijing time, which prevails even in Tibet; the attack in the east began at 5 a.m. Indian time, 7:30 Beijing time (III, 309 n.69). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 195–221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69a); [[w.xianjin-re-xue-bing-shan]], 99–102 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69b); [[w.li-zhongguo-9-ci-da]], 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69c); [[w.maxwell-indias-china-war]], 388 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69e). See [[cal.1961-12-18.india-and-china]].'
+    n: '[FRUS 1961–63, XIX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v19/d179). [[w.sorensen-kennedy]], 662; [[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (Chinese forces open their "自卫反击作战" (counterattack in self-defense) on the border at dawn; not the places). [[w.jian-zhou-enlai]], 480–81 (early on Oct. 20; within three days the Indian strongholds of the "forward policy" in the western sector taken; in the east the McMahon line crossed, Tawang occupied; by Oct. 29 near the line of actual control of November 1959; not Ladakh or the NEFA by name); [[w.mao-zedong-zhuan]], V, ch. 71 (at dawn, in the eastern and western sectors; Oct. 20–29, in the east all the ground south of the Kejielang river, north of the Tawang river and east of Bhutan taken back; in the west part of the Indian troops in the Galwan valley and Aksai Chin cleared; not Ladakh or the NEFA by name). [[w.macfarquhar-origins-of-the-cultural]], III, 308–09 (shortly after dawn the PLA attacks in overwhelming strength, in the west and across the McMahon Line in the east, and within four days has captured virtually all the posts the Indian army had established; the Chinese claim they responded to massive Indian attacks in both sectors); [[w.yang-shangkun-riji]], II, 218 (Oct. 20, 1962; the counterattack, a victory, the fighting goes on; Yang reads the battle reports); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 20, 1962; the chronology''s account: Indian troops attack in force in the eastern and western sectors; the Chinese frontier forces counterattack in self-defense). Check: the book gives dawn in Aksai Chin as 4:30 a.m. Indian time, 7 a.m. Beijing time, which prevails even in Tibet; the attack in the east began at 5 a.m. Indian time, 7:30 Beijing time (III, 309 n.69). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 195–221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69a); [[w.xianjin-re-xue-bing-shan]], 99–102 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69b); [[w.li-zhongguo-9-ci-da]], 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69c); [[w.maxwell-indias-china-war]], 388 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69e). See [[cal.1961-12-18.india-and-china]].'
     src:
       c: 569fa3c8
       rows:
@@ -3697,6 +3776,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.69e: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.69f: A'
         - 'w.yang-shangkun-riji II, 218: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: ?'
     short: the Chinese attack
     variants:
       - unit: A
@@ -3707,6 +3787,10 @@ entries:
         witness: w.yang-shangkun-riji
         reads: in the middle sector of the Sino-Indian border (中印边界中段)
         at: II, 218, Oct. 20, 1962
+      - unit: A
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: the Indian army attacks in the eastern and western sectors; the Chinese frontier forces "forced" to counterattack (被迫开始进行自卫还击)
+        at: III, 1730
   - id: cal.1962-10-20.missile-crisis-2
     when: Oct. 20
     date: '1962-10-20'
@@ -3898,7 +3982,12 @@ entries:
     place: peking
     thread: china
     c: Zhongnanhai, the Juxiang Shuwu, 7 p.m. Mao Zedong calls Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and others to a meeting.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962. Made public: Check (2013 at the latest). See [[cal.1962-10-20.india-and-china]]. Names: Mao Zedong, Zhou Enlai. Check: the subject (the nianpu gives none).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962. [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 20, 1962; 7 p.m. (晚七时); Deng with Liu, Zhou, Zhu De and others). Made public: Check (2013 at the latest). See [[cal.1962-10-20.india-and-china]]. Names: Mao Zedong, Zhou Enlai. Check: the subject (the nianpu gives none).'
+    src:
+      c: 8afab953
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Oct. 20, 1962: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: B'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
   - id: cal.1962-10-20.european-community
     when: Oct. 20
@@ -7944,13 +8033,14 @@ entries:
     thread: china
     also: [cuba, missile-crisis-settlement]
     c: Peking. Zhou Enlai chairs a rally of more than ten thousand in support of "the heroic Cuban comrades"; a telegram of solidarity to Fidel Castro.
-    n: '[[w.jian-zhou-enlai]], 486; [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 250 (Oct. 28, 1962; a mass rally in the capital firmly supports the Cuban people against the U.S. war provocation; the book has Zhou and Deng Xiaoping among the leaders attending and Peng Zhen, Vice-Chairman of the Standing Committee, giving the speech). To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 764 n.99). Names: Zhou Enlai, Castro.'
+    n: '[[w.jian-zhou-enlai]], 486; [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 250 (Oct. 28, 1962; a mass rally in the capital firmly supports the Cuban people against the U.S. war provocation; the book has Zhou and Deng Xiaoping among the leaders attending and Peng Zhen, Vice-Chairman of the Standing Committee, giving the speech); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 28, 1962; afternoon; Deng there with Zhou and Peng Zhen). To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 764 n.99). Names: Zhou Enlai, Castro.'
     src:
       c: 59f57d36
       rows:
         - 'w.jian-zhou-enlai 486: all'
         - 'w.zhou-enlai-waijiao-huodong 339: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 250: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: A'
     tags: [name:zhou-enlai, name:castro-fidel, polity:prc, polity:cuba]
     time_range:
       - 1962-10-28T04:00Z
@@ -8294,11 +8384,12 @@ entries:
     follows:
       - cal.1962-10-29.china-leadership-2
     c: The Secretariat 书记处 on international activities, to 1 p.m.
-    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 29, 1962). The words: 上午参加了两个会 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 29, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 29, 1962; morning; Deng presides; on the delegation to the Bulgarian party''s congress). The words: 上午参加了两个会 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 5d265a79
       rows:
         - 'w.yang-shangkun-riji II, 220: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1730: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1962-10-28T22:00Z

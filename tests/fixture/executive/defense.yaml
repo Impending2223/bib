@@ -1,0 +1,421 @@
+# The Department of Defense: the Office of the Secretary. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: defense
+name: Department of Defense
+under: president
+order: 50
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    tags: [creates, powers, appointment]
+    cite: ch. 343, §§ 201, 202, 61 Stat. 495, 499, 500
+    does: Establishes the National Military Establishment, with the Departments of the Army, the Navy, and the Air Force; a Secretary of Defense at its head, appointed from civilian life by the President with the advice and consent of the Senate, with general direction, authority, and control over the departments.
+  - act: National Security Act Amendments of 1949
+    date: '1949-08-10'
+    tags: [creates, powers, reorganizes]
+    cite: ch. 412, §§ 4, 5, 6, 63 Stat. 578, 579–581
+    usc:
+      - 5 U.S.C. §§ 171, 171a (1958)
+    does: The National Military Establishment converted into the Department of Defense, an Executive Department; the Army, Navy, and Air Force military departments within it, separately administered; the Secretary has direction, authority, and control over the Department. A Deputy Secretary and three Assistant Secretaries; fiscal management under a Comptroller (title IV).
+  - act: Reorganization Plan No. 6 of 1953
+    date: '1953-06-30'
+    tags: [reorganizes, creates, powers]
+    cite: 67 Stat. 638
+    usc: 5 U.S.C. § 171 note (1958)
+    does: Transfers to the Secretary of Defense the functions of the Munitions Board, the Research and Development Board, the Defense Supply Management Agency, and the Director of Installations, and abolishes them; six more Assistant Secretaries of Defense and a General Counsel; the Secretary may delegate any of his functions.
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [powers, reorganizes, creates]
+    cite: Pub. L. 85-599, 72 Stat. 514
+    usc: 5 U.S.C. § 171a (1958)
+    does: Each military department separately organized under its own Secretary, under the direction, authority, and control of the Secretary of Defense; the Secretary may transfer, reassign, or consolidate functions on report to the Armed Services Committees; no Assistant Secretary to issue orders to a military department without written delegation; a Director of Defense Research and Engineering; Assistant Secretaries of Defense reduced to seven.
+  - act: Act of Sept. 7, 1962 (Title 10 revision)
+    date: '1962-09-07'
+    tags: [creates, powers, reorganizes]
+    cite: Pub. L. 87-651, title II, § 202, 76 Stat. 506, 517
+    usc: 10 U.S.C. §§ 131–137 (1964)
+    does: 'Restates the Department''s organic law as chapter 4 of title 10: the Department an executive department (§ 131), its seal (§ 132), the Secretary (§ 133), the Deputy Secretary (§ 134), the Director of Defense Research and Engineering (§ 135), seven Assistant Secretaries (§ 136), the General Counsel (§ 137).'
+n: The Office of the Secretary of Defense and the Defense agencies. The military departments, the Joint Chiefs of Staff, and the commands are separate units.
+offices:
+  - id: secretary
+    title: Secretary of Defense
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: National Security Act of 1947
+        date: '1947-07-26'
+        tags: [creates, appointment, powers]
+        cite: ch. 343, § 202, 61 Stat. 495, 500
+        does: A Secretary of Defense, appointed from civilian life by the President with the advice and consent of the Senate; not within ten years of active duty as a commissioned officer of a regular component. Principal assistant to the President in all matters relating to the national security.
+      - act: Act of Sept. 7, 1962 (Title 10 revision)
+        date: '1962-09-07'
+        tags: [appointment, powers]
+        cite: Pub. L. 87-651, title II, § 202, 76 Stat. 506, 517
+        usc: 10 U.S.C. § 133 (1964)
+        does: The Secretary is the head of the Department and the principal assistant to the President in all matters relating to it; authority, direction, and control over the Department; may perform any function through persons or organizations of the Department he designates; annual report.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 1, 63 Stat. 880
+        does: $22,500 a year ("the Secretary of Defense").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 102(3), 70 Stat. 736
+        usc: 5 U.S.C. § 2201 (1958)
+        does: $25,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(a)(3), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(a) (1964)
+        does: Level I, $35,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5312 (1970)
+        does: Level I continued, $35,000 a year (§ 5312(3)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level I, $60,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Gates, Thomas S., Jr.
+        given: Thomas Sovereign
+        nominated: '1960-01-11'
+        confirmed: '1960-01-26'
+        from: '1959-12-02'
+        to: '1961-01-20'
+        n: 'Appointed Dec. 1, 1959, per the Congressional Directory. Check: recess appointment, the date of the commission.'
+        src:
+          - CDIR 1960-01
+          - 'Wikipedia: Thomas S. Gates Jr.'
+          - Cong. Rec. Index 1960
+          - Cong. Rec.
+      - name: McNamara, Robert S.
+        given: Robert Strange
+        nominated: '1961-01-20'
+        confirmed: '1961-01-21'
+        from: '1961-01-21'
+        to: '1968-02-29'
+        out: Resigned; to the World Bank.
+        src:
+          - CDIR 1961-04
+          - FRUS persons list
+          - 'Wikipedia: Robert McNamara'
+          - Cong. Rec. Index 1961
+          - Hearing CHRG-87shrg64577
+  - id: deputy-secretary
+    title: Deputy Secretary of Defense
+    titles:
+      - title: Deputy Secretaries of Defense (two)
+        from: '1972-10-27'
+    rank: principal
+    appt: PAS
+    level: II
+    law:
+      - act: National Security Act Amendments of 1949
+        date: '1949-08-10'
+        tags: [creates, appointment, powers, vacancy]
+        cite: ch. 412, § 6(a), 63 Stat. 578, 581
+        usc: 5 U.S.C. § 171c(a) (1958)
+        does: A Deputy Secretary of Defense, appointed from civilian life by the President with the advice and consent of the Senate; performs such duties as the Secretary prescribes; acts for the Secretary in his absence or disability; takes precedence after the Secretary.
+      - act: Act of Sept. 7, 1962 (Title 10 revision)
+        date: '1962-09-07'
+        tags: [appointment, powers, vacancy]
+        cite: Pub. L. 87-651, title II, § 202, 76 Stat. 506, 518
+        usc: 10 U.S.C. § 134 (1964)
+        does: 'Restated: appointment from civilian life; acts for the Secretary when he is absent or disabled.'
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 1, 63 Stat. 880
+        does: $20,000 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 103(a)(5), 70 Stat. 736
+        usc: 5 U.S.C. § 2202 (1958)
+        does: $22,500 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(1), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(1)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+      - act: Act of Oct. 27, 1972
+        date: '1972-10-27'
+        tags: [creates, vacancy, pay]
+        cite: Pub. L. 92-596, §§ 4, 6, 86 Stat. 1317, 1318
+        usc: 10 U.S.C. § 134 (1970 Supp. III)
+        does: Two Deputy Secretaries of Defense; in the order the President designates they act for the Secretary when he is disabled or there is no Secretary; level II (2). The second deputyship was not filled before 1975.
+    holders:
+      - name: Douglas, James H., Jr.
+        given: James Henderson
+        nominated: '1960-01-11'
+        confirmed: '1960-01-26'
+        from: '1959-12-11'
+        to: '1961-01-24'
+        n: 'Check: recess appointment, the date of the commission.'
+        src:
+          - 'Wikipedia: James H. Douglas Jr.'
+          - Cong. Rec.
+      - name: Gilpatric, Roswell L.
+        given: Roswell Leavitt
+        nominated: '1961-01-21'
+        confirmed: '1961-01-21'
+        from: '1961-01-24'
+        to: '1964-01-20'
+        out: Resigned.
+        n: 'Check: the Congressional Directory gives sworn Jan. 23, 1961.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+          - 'Wikipedia: Roswell Gilpatric'
+          - Cong. Rec. Index 1961
+          - Cong. Rec.
+          - Hearing CHRG-87shrg64585
+  - id: ddre
+    title: Director of Defense Research and Engineering
+    rank: principal
+    appt: PAS
+    group: Research and engineering
+    level: III
+    from: '1958-08-06'
+    law:
+      - act: Department of Defense Reorganization Act of 1958
+        date: '1958-08-06'
+        tags: [creates, appointment, powers, pay]
+        cite: Pub. L. 85-599, § 9(a), 72 Stat. 514, 520
+        usc: 5 U.S.C. § 171c(b) (1958)
+        does: A Director of Defense Research and Engineering, appointed from civilian life by the President with the advice and consent of the Senate; principal adviser to the Secretary on scientific and technical matters; supervises all research and engineering in the Department; directs and controls activities needing centralized management; precedence after the Secretaries of the military departments; paid as they are.
+      - act: Act of Sept. 7, 1962 (Title 10 revision)
+        date: '1962-09-07'
+        tags: [appointment, powers]
+        cite: Pub. L. 87-651, title II, § 202, 76 Stat. 506, 518
+        usc: 10 U.S.C. § 135 (1964)
+        does: Restated.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(c)(33), 78 Stat. 400, 417
+        usc: 5 U.S.C. § 2211(c) (1964)
+        does: Level III, $28,500 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 461
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III continued, $28,500 a year (§ 5314(33)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(a), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III raised to $29,500 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level III, $40,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: York, Herbert F.
+        given: Herbert Frank
+        nominated: '1959-01-17'
+        confirmed: '1959-02-06'
+        from: '1958-12-30'
+        to: '1961-04-30'
+        out: Resigned.
+        n: 'Check: recess appointment, the date of the commission.'
+        src:
+          - CDIR 1960-01
+          - 'Wikipedia: Herbert York'
+          - Cong. Rec.
+      - name: Brown, Harold
+        nominated: '1961-03-09'
+        confirmed: '1961-04-12'
+        from: '1961-05-08'
+        to: '1965-09-30'
+        out: To Secretary of the Air Force.
+        src:
+          - FRUS persons list
+          - CDIR 1962-01
+          - 'Wikipedia: Harold Brown (Secretary of Defense)'
+          - Cong. Rec.
+          - Hearing CHRG-87shrg70337
+  - id: asd-comptroller
+    title: Assistant Secretary of Defense (Comptroller)
+    rank: principal
+    appt: PAS
+    group: Assistant Secretaries
+    level: IV
+    law:
+      - act: National Security Act Amendments of 1949
+        date: '1949-08-10'
+        tags: [creates, powers]
+        cite: ch. 412, § 11 (title IV, § 401), 63 Stat. 578, 585
+        usc: 5 U.S.C. § 172 (1958)
+        does: 'One of the Assistant Secretaries the Comptroller of the Department of Defense: advises the Secretary on budgetary and fiscal matters; supervises the preparation of budget estimates; establishes principles for budgets, accounting, progress and statistical reporting, and internal audit.'
+      - act: Act of Sept. 7, 1962 (Title 10 revision)
+        date: '1962-09-07'
+        tags: [powers]
+        cite: Pub. L. 87-651, title II, § 202, 76 Stat. 506, 518
+        usc: 10 U.S.C. § 136 (1964)
+        does: Restated in 10 U.S.C. § 136(b).
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 5(a), 63 Stat. 880, 881
+        does: $15,000 a year ("each Assistant Secretary of an executive department").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 106(a)(13), 70 Stat. 736, 738
+        usc: 5 U.S.C. § 2205 (1958)
+        does: $20,000 a year ("Assistant Secretaries of Defense (9)").
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(d)(13), 78 Stat. 400, 418
+        usc: 5 U.S.C. § 2211(d) (1964)
+        does: Level IV, $27,000 a year ("Assistant Secretaries of Defense (7)").
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 462
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV continued, $27,000 a year (§ 5315(13)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(b), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5315 (1970)
+        does: Level IV raised to $28,750 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level IV, $38,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Lincoln, Franklin B., Jr.
+        nominated: '1960-01-11'
+        confirmed: '1960-01-26'
+        from: '1959-12-02'
+        to: '1961-01-20'
+        n: 'Check: recess appointment, the date of the commission.'
+        src:
+          - CDIR 1960-01
+          - 'Wikipedia: Under Secretary of Defense (Comptroller)'
+          - Cong. Rec.
+      - name: Hitch, Charles J.
+        given: Charles Johnston
+        nominated: '1961-01-21'
+        confirmed: '1961-01-23'
+        from: '1961-02-17'
+        to: '1965-07-31'
+        out: Resigned.
+        src:
+          - CDIR 1962-01
+          - 'Wikipedia: Under Secretary of Defense (Comptroller)'
+          - Cong. Rec. Index 1961
+          - Cong. Rec.
+          - Hearing CHRG-87shrg64588
+  - id: special-operations
+    title: Director, Office of Special Operations
+    titles:
+      - title: Assistant to the Secretary of Defense (Special Operations)
+        from: '1957'
+    rank: principal
+    appt: HD
+    group: Counsel and assistants to the Secretary
+    from: '1953'
+    n: 'Liaison with the Central Intelligence Agency and the National Security Council''s operations planning. Check: dates of the office.'
+    holders:
+      - name: Erskine, Graves B.
+        rank: Gen., USMC (Ret.)
+        from: '1953'
+        to: 1961-05
+        n: 'Check: dates.'
+        src:
+          - FRUS persons list
+          - CDIR 1954-01
+          - CDIR 1961-04
+      - name: Lansdale, Edward G.
+        rank: Brig. Gen., USAF; from 1963, Maj. Gen.
+        from: 1961-05
+        to: '1963-10-31'
+        n: 'Chief of operations, Operation Mongoose, from Nov. 1961. Retired. Check: date of leaving.'
+        src:
+          - FRUS persons list
+          - CDIR 1963-03
+  - id: special-operations-deputy
+    title: Deputy Director, Office of Special Operations
+    titles:
+      - title: Deputy Assistant to the Secretary of Defense (Special Operations)
+        from: '1957'
+    rank: inferior
+    appt: HD
+    under: special-operations
+    group: Counsel and assistants to the Secretary
+    from: '1953'
+    holders:
+      - name: Lansdale, Edward G.
+        rank: Col., USAF; from 1960, Brig. Gen.
+        from: '1957'
+        to: 1961-05
+        out: To Assistant to the Secretary (Special Operations).
+        n: 'Check: date of appointment.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04

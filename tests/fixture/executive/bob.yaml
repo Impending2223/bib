@@ -1,0 +1,113 @@
+# The Bureau of the Budget; the Office of Management and Budget from July 1, 1970. Kept by hand.
+# Below the Director and Deputy, holders known only from the Congressional Directory (CDIR <edition>) carry year dates
+# and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: bob
+name: Bureau of the Budget
+names:
+  - name: Office of Management and Budget
+    from: '1970-07-01'
+under: eop
+order: 20
+law:
+  - act: Budget and Accounting Act, 1921
+    date: '1921-06-10'
+    cite: ch. 18, § 207, 42 Stat. 20, 22
+    usc: 31 U.S.C. § 16 (1958)
+    tags: [creates, powers, appointment, vacancy]
+    does: Creates in the Treasury a Bureau of the Budget, with a Director and an Assistant Director appointed by the President; the Assistant Director acts as Director in his absence or in a vacancy. The Bureau prepares the Budget for the President, with authority to assemble, correlate, revise, reduce, or increase the estimates of the departments.
+  - act: Reorganization Plan No. 1 of 1939
+    date: '1939-07-01'
+    cite: 53 Stat. 1423
+    usc: 5 U.S.C. § 133t note (1958)
+    tags: [reorganizes]
+    does: Transfers the Bureau, its Director and Assistant Director, from the Treasury to the Executive Office of the President, administered by the Director under the direction of the President (§ 1).
+  - act: Budget and Accounting Procedures Act of 1950
+    date: '1950-09-12'
+    cite: ch. 946, title I, 64 Stat. 832
+    usc: 31 U.S.C. §§ 18a–18c (1958)
+    tags: [powers]
+    does: The President, through the Director, to develop programs and regulations for better organization and management of the executive branch and for improved statistical information (§§ 103, 104); budget form and content.
+  - act: Reorganization Plan No. 2 of 1970
+    date: '1970-07-01'
+    cite: 84 Stat. 2085
+    usc: 31 U.S.C. § 16 note (1970)
+    tags: [reorganizes, powers, vacancy]
+    does: Transfers the functions of the Bureau and its Director to the President; designates the Bureau the Office of Management and Budget, its Director, Deputy Director, and statutory Assistant Directors as officers of the Office; up to six further officers at level V appointed by the Director; the Deputy Director acts as Director in his absence or in a vacancy (Part I).
+  - act: Executive Order 11541
+    date: '1970-07-01'
+    cite: 35 Fed. Reg. 10737
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11541-prescribing-the-duties-the-office-management-and-budget-and-the
+    tags: [powers]
+    does: Delegates to the Director the functions transferred to the President by the plan; the Office to assist in developing efficient coordinating mechanisms, in preparing the budget, in clearing legislation, and in evaluating programs.
+offices:
+  - id: director
+    title: Director of the Bureau of the Budget
+    titles:
+      - title: Director of the Office of Management and Budget
+        from: '1970-07-01'
+    rank: head
+    appt: PA
+    level: II
+    n: Appointed by the President alone until the act of Mar. 2, 1974, which required the advice and consent of the Senate for the next appointment after Ash.
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 3, 63 Stat. 880
+        does: $17,500 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 103(a)(1), 70 Stat. 736
+        usc: 5 U.S.C. § 2202 (1958)
+        does: $22,500 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(11), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(11)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+      - act: Act of Mar. 2, 1974
+        date: '1974-03-02'
+        cite: Pub. L. 93-250, 88 Stat. 11
+        usc: 31 U.S.C. § 16 (1970 Supp. IV)
+        tags: [appointment]
+        does: The Director and the Deputy Director to be appointed by the President, by and with the advice and consent of the Senate; for each office, from the end of the incumbent's tenure.
+    holders:
+      - name: Stans, Maurice H.
+        from: '1958-03-18'
+        to: '1961-01-21'
+        out: Resigned at the change of Administration.
+        n: 'Check: FRUS gives Mar. 16, 1958 for taking office. Resignation accepted Jan. 11, 1961 (APP).'
+        src:
+          - 'Wikipedia: Maurice Stans'
+          - FRUS persons list
+          - https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-maurice-h-stans-director-bureau-the-budget-january-11-1961
+      - name: Bell, David E.
+        from: '1961-01-22'
+        to: '1962-12-20'
+        out: To Administrator of the Agency for International Development.
+        src:
+          - FRUS persons list
+          - 'Wikipedia: David E. Bell'

@@ -20,7 +20,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install pyyaml
+      - run: pip install -r requirements.txt
+      # the tests (tests/README.md): the fast suite, on the fixture; about a minute
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest -q -m "not slow"
+        timeout-minutes: 5
       - run: ./bib check
       - run: ./bib build
       - run: cp build/series.html build/index.html

@@ -28,6 +28,7 @@ KEY = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 _ROWS = None
 _INDEX = None
 PENDING = {}          # key -> row: a patch's place-key ops, while it is checked or merged
+DIRTY = False         # rows added in memory by a merge, not yet written (merge.apply_patch writes or drops them)
 HEADER = None
 
 
@@ -124,9 +125,15 @@ def add_row(body, save=True):
         rows.append(row)
         idx[row["key"]] = row
     if save:
-        rows.sort(key=lambda r: r["key"])
-        store.dump_yaml(rows, PATH, header=HEADER)
+        write()
     return None
+
+
+def write():
+    """The gazetteer written, its rows in key order."""
+    rows, _ = _load()
+    rows.sort(key=lambda r: r["key"])
+    store.dump_yaml(rows, PATH, header=HEADER)
 
 
 def name_on(row, date):

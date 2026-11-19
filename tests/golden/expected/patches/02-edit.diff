@@ -1,0 +1,19 @@
+--- fixture/inbox/merged/02-edit-1.yaml
++++ after/inbox/merged/02-edit-1.yaml
+@@ -0,0 +1,7 @@
++patch: fx-edit
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      set: {when: 'Apr. 30, Sunday'}
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -7391,5 +7391,5 @@
+     time_zone: Asia/Shanghai
+   - id: cal.1961-04-30.cuba-bay-of-pigs
+-    when: Apr. 30
++    when: Apr. 30, Sunday
+     date: '1961-04-30'
+     thread: cuba-bay-of-pigs

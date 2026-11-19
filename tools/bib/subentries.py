@@ -19,22 +19,23 @@ STYLE
    subentry (an error); a subentry's `follows` naming an entry outside its parent (an error: the day's order places
    the parent, not its parts).
 """
+import weakref
+
 from . import store
 
-_CACHE = {}
+_CACHE = weakref.WeakKeyDictionary()   # the list object itself -> its children (not id(lst): a freed list's id is reused)
 
 
 def children(lst):
     """{parent id: [its subentries]} for the list (a calendar), in file order."""
-    key = id(lst)
-    if key not in _CACHE:
+    if lst not in _CACHE:
         out = {}
         for sec, e in lst.entries():
             p = e.get("part_of")
             if p:
                 out.setdefault(str(p), []).append(e)
-        _CACHE[key] = out
-    return _CACHE[key]
+        _CACHE[lst] = out
+    return _CACHE[lst]
 
 
 def nest(lst, entries, order):

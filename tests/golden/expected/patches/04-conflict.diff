@@ -1,0 +1,30 @@
+--- fixture/inbox/merged/04-conflict-1.yaml
++++ after/inbox/merged/04-conflict-1.yaml
+@@ -0,0 +1,7 @@
++patch: fx-conflict
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      set: {when: 'Apr. 30, evening'}
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -7391,5 +7391,5 @@
+     time_zone: Asia/Shanghai
+   - id: cal.1961-04-30.cuba-bay-of-pigs
+-    when: Apr. 30
++    when: Apr. 30, Sunday
+     date: '1961-04-30'
+     thread: cuba-bay-of-pigs
+@@ -7404,4 +7404,10 @@
+         - 'via x.1961-04-24.holt-to-marcy: B-D'
+     tags: [name:fulbright-j-william]
++    conflict:
++      - field: when
++        ours: Apr. 30, Sunday
++        theirs: Apr. 30, evening
++        base: Apr. 30
++        from: fx-conflict
+   - id: cal.1961-04.cuba-2
+     when: Apr., early

@@ -1,0 +1,40 @@
+# Wg.: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: 'Watergate, 1971–1974: Bibliography'
+h1: 'Watergate, 1971–1974: working bibliography'
+lede: 'Sources, portrayals, and names for Watergate alone: the operations that led to the break-in, the break-in, the cover-up, the investigations, the tapes, impeachment, resignation, and pardon.'
+logic:
+  - 'Fourth of four lists. This one is Wg. The others: the Republican opposition, 1961–69 (Opp.); Nixon and his administration (Adm.); and Congress, the nation, and the states, 1969–74 (Cong.). Cross-references give list and section.'
+  - 'The rule. This list holds what exists only because of the scandal, and nothing else: the covert operations from the White House and the Committee to Re-elect that led to the break-in (the Plumbers, the Fielding break-in, Gemstone, Segretti''s tricks); the break-in of June 17, 1972; and everything that followed its discovery, from the cover-up to the pardon of September 8, 1974. The Kissinger wiretaps, the Huston Plan, ITT, the milk fund, the President''s taxes, and Agnew are in Adm. even where the investigators took them up. People appear here for their Watergate part; if they had another part, they appear in Adm. or Cong. as well.'
+  - Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Nine groups: the White House, the Committee to Re-elect, the operatives, the defense, the prosecutors and the court, the Senate committee, the House committee, the press, and others. Alphabetical within each. Each entry gives the Watergate role, a note, and where to find the voice. "Also Adm." and "Also Cong." mark those who had another part.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: The White House
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3e
+        num: III.E
+        title: The prosecutors and the court
+        logic:
+          - Alphabetical.
+        file: III.E.yaml
+      - id: p3g
+        num: III.G
+        title: The House committee
+        logic:
+          - Members and staff. Alphabetical.
+        file: III.G.yaml
+      - id: p3i
+        num: III.I
+        title: Others
+        logic:
+          - Alphabetical.
+        file: III.I.yaml

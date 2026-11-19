@@ -1,0 +1,71 @@
+# K–J Adm.: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: 'Kennedy and Johnson Administrations, 1961–1969: Bibliography'
+h1: 'Kennedy, Johnson, and their administrations, 1961–1969: working bibliography'
+lede: 'Sources, portrayals, and names for the Kennedy and Johnson presidencies, from the inauguration of January 20, 1961, to that of January 20, 1969: the White House, the departments, and the policies made there.'
+logic:
+  - 'Fifth list in the series. This one is K–J Adm. Its companion is K–J Cong.: Congress, the nation, and the states, 1961–69. A calendar (Cal.) runs month by month and points into both. Earlier lists: the 1968 list; the Republican opposition (Opp.); Nixon and his administration (Adm.); Congress, the nation, and the states, 1969–74 (Cong.); Watergate (Wg.). A later list, Viet., holds the war in Vietnam. Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - Overlaps. Entries carried over from the 1968 list or Opp. are marked "Also in the 1968 list" or "Also Opp." The 1968 list keeps the campaign, Chicago, and the last year of Johnson's court; what serves the whole presidency is repeated here. Opp. keeps the Republicans.
+  - 'The Dallas rule. The assassination has its own library, most of it conspiracy. Here: the official record, the transition, and the few books that bear on politics and policy (II.F). Nothing on who fired. Fiction and film about Dallas appear only where they portray the administration.'
+  - The war. The decisions and the documents are here (II.D, II.H). The war itself and its historiography are in Viet.
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Ten groups, from the presidents outward: family, the Kennedy staff, the Johnson staff, the vice presidents, national security and State, defense and the military, the cabinet and the domestic side, the economy, justice and intelligence, and abroad. Alphabetical within each. Each entry gives the role in these years, a note, and where to find the voice. "Tapes" means the recordings in II.J. "Oral history" means the JFK or LBJ Library collections.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Family
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Kennedy White House staff
+        logic:
+          - In the White House, 1961–63. Alphabetical. Bundy and Rostow are in III.E.
+        file: III.B.yaml
+      - id: p3d
+        num: III.D
+        title: The vice presidents
+        logic:
+          - Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: National security and State
+        logic:
+          - Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: Defense and the military
+        logic:
+          - Civilians first, then officers. Alphabetical within each.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: The cabinet and the domestic side
+        logic:
+          - Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: The economy
+        logic:
+          - Alphabetical.
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Justice and intelligence
+        logic:
+          - Alphabetical.
+        file: III.I.yaml
+      - id: p3j
+        num: III.J
+        title: Abroad
+        logic:
+          - Alphabetical.
+        file: III.J.yaml

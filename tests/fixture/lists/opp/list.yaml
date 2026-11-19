@@ -1,0 +1,63 @@
+# Opp.: page text and outline. Entries live in the files named by 'file'.
+# tests/make_fixture.py: the outline cut to the fixture's slice
+page_title: 'Republican Opposition, 1961–1969: Bibliography'
+h1: 'The Republican opposition, 1961–1969: working bibliography'
+lede: 'Sources, portrayals, and names for the Republican Party out of the White House, from Kennedy''s inauguration to Nixon''s: the congressional parties, the national party, and the states.'
+logic:
+  - 'First of four lists, built like the 1968 bibliography. This one is Opp. The others: Nixon and his administration, 1969–74 (Adm.); Congress, the nation, and the states, 1969–74 (Cong.); and Watergate (Wg.). Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - The 1968 campaign belongs here, since the party was still out of power. Nixon's own wilderness years are here too; his presidency starts in Adm.
+sections:
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Ten groups, from the chambers outward: Senate leaders, other senators, House leaders, other House members, the national party, the draft and the movement, the moderates'' staff and allies, the governors, other state figures, the press. Alphabetical within each group. Each entry gives the role in these years, a note, and where to find the voice. "Tapes" means the Kennedy and Johnson recordings (II.J).'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Senate leadership
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Senators
+        logic:
+          - Alphabetical. Leaders are in III.A.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: House leadership
+        logic:
+          - Alphabetical.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: House members
+        logic:
+          - Alphabetical. Leaders are in III.C.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: The national party
+        logic:
+          - Chairmen, candidates, and the elders. Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: The draft and the movement
+        logic:
+          - Alphabetical.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: Moderates' staff and allies
+        logic:
+          - Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: Governors
+        logic:
+          - Republican governors in these years. A selection. Alphabetical.
+        file: III.H.yaml

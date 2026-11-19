@@ -1,0 +1,30 @@
+--- fixture/inbox/merged/08-duplicate-1.yaml
++++ after/inbox/merged/08-duplicate-1.yaml
+@@ -0,0 +1,11 @@
++patch: fx-duplicate
++by: tests
++ops:
++  - add:
++      entry:
++        id: cal.1961-04-30.cuba-bay-of-pigs-2
++        when: Apr. 30
++        date: '1961-04-30'
++        thread: cuba-bay-of-pigs
++        c: 'Fulbright on *Meet the Press*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'
++        n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-620 (the guest, Apr. 30). [[w.woods-fulbright]], 269 (the questions and answers). Check: Woods has it five days after the White House meeting of Apr. 18–19. To check: Holt to Marcy, Apr. 24, 1961, Series 48:1, Box 2:2, SPF (cited by [[w.woods-fulbright]], 269 n.24). Names: Fulbright.'
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -8006,2 +8006,13 @@
+     time_band: afternoon
+     time_zone: Asia/Shanghai
++  - id: cal.1961-04-30.cuba-bay-of-pigs-2
++    when: Apr. 30
++    date: '1961-04-30'
++    thread: cuba-bay-of-pigs
++    c: 'Fulbright on *Meet the Press*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'
++    n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-620 (the guest, Apr. 30). [[w.woods-fulbright]], 269 (the questions and answers). Check: Woods has it five days after the White House meeting of Apr. 18–19. To check: Holt to Marcy, Apr. 24, 1961, Series 48:1, Box 2:2, SPF (cited by [[w.woods-fulbright]], 269 n.24). Names: Fulbright.'
++    conflict:
++      - kind: duplicate
++        of:
++          - cal.1961-04-30.cuba-bay-of-pigs
++        from: fx-duplicate

@@ -1,0 +1,36 @@
+--- fixture/inbox/merged/06-deferred-1.yaml
++++ after/inbox/merged/06-deferred-1.yaml
+@@ -0,0 +1,4 @@
++patch: fx-deferred-op
++by: tests
++ops:
++  - check: {id: cal.1961-04-29.press-and-broadcasting, text: 'Check: the hour.'}
+--- fixture/inbox/merged/06-deferred-2.yaml
++++ after/inbox/merged/06-deferred-2.yaml
+@@ -0,0 +1,12 @@
++patch: fx-deferred-add
++by: tests
++ops:
++  - add:
++      entry:
++        id: cal.1961-04-29.press-and-broadcasting
++        when: Apr. 29
++        date: '1961-04-29'
++        thread: press-and-broadcasting
++        c: Kennedy to the press, no comment on Cuba.
++        n: '[[w.reeves-president-kennedy]], 99. Names: Kennedy.'
++        tags: [name:kennedy-john-f]
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -7390,4 +7390,11 @@
+     time_band: evening
+     time_zone: Asia/Shanghai
++  - id: cal.1961-04-29.press-and-broadcasting
++    when: Apr. 29
++    date: '1961-04-29'
++    thread: press-and-broadcasting
++    c: Kennedy to the press, no comment on Cuba.
++    n: '[[w.reeves-president-kennedy]], 99. Check: the hour. Names: Kennedy.'
++    tags: [name:kennedy-john-f]
+   - id: cal.1961-04-30.cuba-bay-of-pigs
+     when: Apr. 30

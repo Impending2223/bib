@@ -12,6 +12,8 @@ from . import loose, store
 from .markup import refs as markup_refs, plain, ITAL_RE
 from .refs import Refs
 
+TOOLS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # tools/: the scripts check loads (not the data's root)
+
 ERROR, WARN = "error", "warn"
 THREAD_SIZE = 150     # [thread-size]: a thread's own entries in one part of the calendar, before a warning
 MONTHS = {"Jan.": 1, "Feb.": 2, "Mar.": 3, "Apr.": 4, "May": 5, "June": 6, "July": 7,
@@ -363,7 +365,7 @@ def run(series, only=None):
         add(ERROR if level == "error" else WARN, where, msg, "pvi")
     # Jacobson's district file against the series' returns (sources/jacobson/; tools/elections/jacobson.py)
     import importlib.util as _ilu
-    _sp = _ilu.spec_from_file_location("_jacobson", os.path.join(store.ROOT, "tools", "elections", "jacobson.py"))
+    _sp = _ilu.spec_from_file_location("_jacobson", os.path.join(TOOLS, "elections", "jacobson.py"))
     _jac = _ilu.module_from_spec(_sp)
     _sp.loader.exec_module(_jac)
     for level, where, msg in _jac.problems():
@@ -538,7 +540,7 @@ def run(series, only=None):
             "straight-quotes")
     # ranges with an en dash, not a hyphen (the owner, Nov. 5, 2026; tools/works/endash.py fixes them)
     import importlib.util as _ilu
-    _sp = _ilu.spec_from_file_location("endash", os.path.join(store.ROOT, "tools", "works", "endash.py"))
+    _sp = _ilu.spec_from_file_location("endash", os.path.join(TOOLS, "works", "endash.py"))
     _ed = _ilu.module_from_spec(_sp); _sp.loader.exec_module(_ed)
     for lst in series.lists.values():
         for sec in lst.walk():

@@ -22,7 +22,7 @@ import re
 
 from . import store
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT = store.ROOT
 PATH = os.path.join(ROOT, "daybook", "diary.yaml")
 FROM, TO = "1963-11-22", "1969-01-20"
 MONTHS = {m: i for i, m in enumerate("Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.".split(), 1)}

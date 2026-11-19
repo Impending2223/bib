@@ -25,7 +25,7 @@ STYLE (keep it):
 """
 import datetime
 
-from . import war
+from . import store, war
 
 THREADS = ["defense", "vietnam"]
 PROCL = {1961: ("Proclamation 3399", "Mar. 18, 1961",
@@ -66,6 +66,8 @@ def forces_html(y):
         if callable(f):
             try:
                 return f(y) or ""
+            except store.DataError:                # a data file that does not load stops the build, as before
+                raise
             except Exception as x:                 # noqa: BLE001 - the other module's error, reported not fatal
                 return f'<p class="wart-foot">forces.py: {esc(x)}</p>'
     return ""

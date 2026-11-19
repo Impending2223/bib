@@ -1,0 +1,14 @@
+# Overrides to the POCOM matches by name (tools/lives/make_pocom.py; notes/pocom-matches.md).
+# Name as the Lives give it: pocom-id to take a match; {id: pocom-id, check: what to verify} to take it with a Check
+# shown in the life; null to refuse one (a comment says why).
+'Strauss, Robert':
+  id: strauss-robert-schwarz
+  check: taken for POCOM's Robert Schwarz Strauss (1918–2014) by name; the series gives no year of his work to test the dates against
+'Fairbanks, Richard M., III':
+  id: fairbanks-richard
+  check: taken for POCOM's Richard Fairbanks (born 1941), who is given there without middle initial or suffix
+# Policy Planning, 1968: John C. Campbell of the Council on Foreign Relations, not POCOM's John Campbell (born 1944),
+# ambassador to Nigeria, 2004
+'Campbell, John C.': null
+# FTC commissioner, 1967-69: not POCOM's Jim Nicholson (born 1938), ambassador to the Holy See, 2001
+'Nicholson, James M.': null

@@ -92,8 +92,18 @@ entries:
     date: '1960-10-01'
     thread: china-leadership
     c: The fourth volume of Mao's *Selected Works*, edited by the Central Committee's publication commission, goes on sale across the country (People's Publishing House).
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 1, 1960. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 1, 1960. [[w.mao-zedong-zhuan]], V, ch. 65 (Sept. 1960: the fourth volume appears, and a wave of study follows across the country). Names: Mao Zedong.'
+    src:
+      c: 55674c21
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Oct. 1, 1960: all'
+        - 'w.mao-zedong-zhuan V, ch. 65: A'
     tags: [polity:prc, name:mao-zedong]
+    variants:
+      - unit: A
+        witness: w.mao-zedong-zhuan
+        reads: published in Sept. 1960 (as the book gives it), a study wave following at once
+        at: V, ch. 65
   - id: cal.1960-10-01.china-leadership-2
     when: Oct. 1
     date: '1960-10-01'
@@ -154,11 +164,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科, the Kremlin 克里姆林宫. After the drafting committee's first session the Brazilian, Japanese, Albanian, Indonesian, Argentine and Korean delegations seek out the Chinese; Ghosh 高士 of India asks for contact; the Soviets look askance.
-    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 1, 1960). The words: 散会时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh.'
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 1, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1580–1581 (Oct. 1, 1960; 1 p.m.; Deng at the first session: the paper must give the enemy no handle; views exchanged fully and calmly). The words: 散会时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh.'
     src:
       c: 6f320302
       rows:
         - 'w.yang-shangkun-riji I, 559: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1580–1581: ?'
     tags: [polity:prc, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-01.china-leadership-7
@@ -169,13 +180,26 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科, the Chinese Embassy. Deng Xiaoping 邓小平, Li Jingquan 李井泉, Yang Shangkun 杨尚昆 and Liu Xiao 刘晓 with Hysni Kapo 卡博 of the Albanian party, from 3:30 p.m., over three hours.
-    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 1, 1960). The words: 3时半……长谈了3个多钟头，8时才回到住处 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Li Jingquan, Yang Shangkun, Liu Xiao, Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 1, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1581 (Oct. 1, 1960; 3:40 to 7:40 p.m., the Chinese Embassy; Deng''s first talk with Hysni Kapo, head of the Albanian delegation, on the September talks: China cannot be crushed, nor by a majority; no trading of principle; a big argument ahead; the statement likely bad but passable). The words: 3时半……长谈了3个多钟头，8时才回到住处 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Li Jingquan, Yang Shangkun, Liu Xiao, Hysni Kapo.'
     src:
       c: '85827799'
       rows:
         - 'w.yang-shangkun-riji I, 559: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1581: ?'
     tags: [polity:prc, name:deng-xiaoping, name:li-jingquan, vis:only:prc+albania]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-01.china-leadership-8
+    when: Oct. 1
+    date: '1960-10-01'
+    thread: china-leadership
+    c: 'The Fengyang 鳳陽 county committee 縣委 issues a notice that grain and vegetables be mixed to save grain, and that substitute foods be gathered beside the vegetable crop: bean leaves, 100 to 150 jin a mu, boiled to eight-tenths, squeezed of their green water and made into cakes.'
+    n: '[[w.yang-jisheng-mubei]], I, 331. Made public: 2008. To check: Fengyang County Committee, notice of Oct. 1, 1960 (seen by the author in Fengyang; named by [[w.yang-jisheng-mubei]], I, 331; no note).'
+    src:
+      c: 4d3c34db
+      rows:
+        - 'w.yang-jisheng-mubei I, 331: all'
+        - 'via w.yang-jisheng-mubei I, 331 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-02.soviet-union-un
     when: Oct. 2
     date: '1960-10-02'
@@ -310,12 +334,13 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Moscow. The drafting committee of twenty-six parties opens, to prepare a draft statement for the world conference. The CPSU prepared the draft. The Chinese delegation, having criticized the CPSU''s views in the Reply and the party talks, finds that the Soviets have patched it: some Marxist-Leninist principles added, some plain errors cut, many errors left. The committee sits three weeks.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 365–367 (from Oct. 2; the Chinese in strength, most of the writers with them; Wu and Chen Boda in Peking turn the delegation''s cables into suggestions for the Standing Committee); [[w.yang-shangkun-riji]], I, 558–559 (Oct. 1, 1960; Oct. 1, the first session, 1 to 3 p.m., in the Kremlin''s St. George''s Hall: Suslov''s welcome; the procedure; the French first, then the others, Deng among them; the Soviet draft the basis; two days for study, the general debate from 2 p.m. Oct. 4; a secretariat; the Soviets in the chair). Made public: 1999. Names: Chen Boda. Check: the account is the Chinese delegation''s.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 365–367 (from Oct. 2; the Chinese in strength, most of the writers with them; Wu and Chen Boda in Peking turn the delegation''s cables into suggestions for the Standing Committee); [[w.yang-shangkun-riji]], I, 558–559 (Oct. 1, 1960; Oct. 1, the first session, 1 to 3 p.m., in the Kremlin''s St. George''s Hall: Suslov''s welcome; the procedure; the French first, then the others, Deng among them; the Soviet draft the basis; two days for study, the general debate from 2 p.m. Oct. 4; a secretariat; the Soviets in the chair); [[w.deng-xiaoping-nianpu-1904]], III, 1580 (Oct. 1–22, 1960; Deng leads the delegation; eight plenary sessions and eleven of the secretariat; sharp dispute on the epoch, peaceful coexistence and transition, war and peace, disarmament, "going it alone" and "national communism", revisionism and dogmatism, factions, the cult of personality, the Twentieth and Twenty-first Congresses; the draft much amended; no agreement on banishing world war, factions and the two congresses, left to the November meeting of eighty-one parties). Made public: 1999. Check: the Deng nianpu (III, 1580) dates the drafting committee''s first session Oct. 1, 1960, 1 p.m., in the Kremlin, Deng speaking (the OCR reads "10月三日", between Oct. 1 and Oct. 2). Names: Chen Boda. Check: the account is the Chinese delegation''s.'
     src:
       c: 65ae8bac
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 365–367: all'
         - 'w.yang-shangkun-riji I, 558–559: A, B, C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1580: ?'
     tags: [polity:prc, name:chen-boda, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
     variants:
       - unit: B
@@ -330,11 +355,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: Moscow 莫斯科, the Chinese Embassy. The Chinese delegation meets the Vietnamese and exchanges views on the Soviet draft, 10 a.m. to 1 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 2, 1960). The words: 上午10时到1时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 2, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1581 (Oct. 2, 1960; 10 a.m.; Deng with Lê Duẩn: the Soviet draft analysed; the father-and-son relation, national communism, revisionism and dogmatism, equality among parties; the paper''s views very vague; discussion within its bounds). The words: 上午10时到1时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 3c74d2eb
       rows:
         - 'w.yang-shangkun-riji I, 559: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1581: ?'
     tags: [polity:prc, vis:only:prc+drv]
     time_zone: Europe/Moscow
   - id: cal.1960-10-02.china-leadership-5
@@ -345,11 +371,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The Chinese delegation with Sharkey 夏基 and Dixon 狄克逊 of the Australian party, 4 to 7:30 p.m.; then, at Hysni Kapo's 卡博 request, with the Albanians again on their speeches, 7:30 to 9.
-    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 2, 1960). The words: 4时到7时半……7时半至9时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Sharkey, Dixon, Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 559 (Oct. 2, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1581–1582 (Oct. 2, 1960; 4 to 7:25 p.m., Deng with Sharkey and Dixon: the trouble is the draft''s second part, on socialism, the Twentieth and Twenty-first Congresses made binding, the father-and-son relation legalized; great-power chauvinism the main danger, open to two countries only, the Soviet Union and China; 7:30 to 9:35, Deng''s second talk with Kapo: to "lift the lid", break superstition, attack the baton; reasoned, not personal). The words: 4时到7时半……7时半至9时 (I, 559). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Sharkey, Dixon, Hysni Kapo.'
     src:
       c: f7fcdb0d
       rows:
         - 'w.yang-shangkun-riji I, 559: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1581–1582: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-02.china-leadership-6
@@ -396,6 +423,21 @@ entries:
       - 1960-10-02T09:00Z
       - 1960-10-02T15:00Z
     time_band: afternoon
+    time_zone: Europe/Moscow
+  - id: cal.1960-10-02.china-leadership-9
+    when: Oct. 2
+    date: '1960-10-02'
+    time: 1960-10-02T09:00Z
+    place: moscow
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Moscow 莫斯科, the delegation''s lodging. Deng Xiaoping 邓小平 with Berlinguer 贝林格 and Pajetta 巴叶塔 of the Italian Communist Party''s leadership: the differences with the CPSU partial; the remedy, discussion.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1581 (Oct. 2, 1960). The words: 上午十二时至十二时四十五分 (III, 1581). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: fd58e7c2
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1581: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-03.court
     when: Oct. 3
@@ -692,11 +734,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The Soviet delegation, by Andropov's 安德罗波夫 invitation of that morning, gives the Chinese a dinner, 6 to 8 p.m., to exchange views; Deng Xiaoping 邓小平 states some points of principle. To Yang Shangkun 杨尚昆 the Soviets seem to seek an air of unity and to sound out the Chinese view of the draft.
-    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 3, 1960). The words: 6时到8时赴苏共代表团宴会 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Andropov, Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 3, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1582–1583 (Oct. 3, 1960; afternoon; Deng at the Soviet dinner: the draft has much that is good, some wording unclear (two possibilities of war and peace, the two hands in transition), some not understood (national communism, going it alone, factions); principles in the plenary, details to the secretariat). The words: 6时到8时赴苏共代表团宴会 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Andropov, Deng Xiaoping, Yang Shangkun.'
     src:
       c: c2e18e7f
       rows:
         - 'w.yang-shangkun-riji I, 560: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1582–1583: ?'
     tags: [polity:prc, name:deng-xiaoping, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-03.china-leadership-9
@@ -714,6 +757,20 @@ entries:
         - 'w.yang-shangkun-riji I, 560: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-03.china-leadership-10
+    when: Oct. 3
+    date: '1960-10-03'
+    thread: china-leadership
+    c: 'Wang Ziqing 王子清 reports to the rural work department 農村工作部 of the Sichuan 四川 committee on some problems of Rong 榮 county 關於榮縣一些問題的彙報: the county''s drive against hidden grain in autumn 1959, with a five-level cadre meeting of over a thousand on Oct. 2 at Changshan 長山 and one of 4,000 on Oct. 25, cadres hung up and beaten; and over 60,000 dead in the county in 1960 alone, over 10 percent of its people.'
+    n: '[[w.yang-jisheng-mubei]], I, 227, 250. Made public: 2008. To check: Wang Ziqing, report of Oct. 3, 1960 to the Rural Work Department on some problems of Rong county (cited by [[w.yang-jisheng-mubei]], I, 227 n.92; I, 250 n.126). Check: the note at I, 227 joins this report with that of Zhang Shouyu and Liu Jingzhou of Nov. 30, 1960; the book does not say which holds the meetings of 1959; the 60,000 of 1960 "in two lean seasons" (I, 250) stands in a report of Oct. 3, which the book does not explain.'
+    src:
+      c: 4a5fe22f
+      rows:
+        - 'w.yang-jisheng-mubei I, 227: all'
+        - 'via w.yang-jisheng-mubei I, 227 n.92: all'
+        - 'w.yang-jisheng-mubei I, 250: all'
+        - 'via w.yang-jisheng-mubei I, 250 n.126: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-04.elections-1960-kennedy
     when: Oct. 4
     date: '1960-10-04'
@@ -842,11 +899,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, south-asia]
     c: Moscow 莫斯科. Deng Xiaoping 邓小平, Yang Shangkun 杨尚昆 and Liu Ningyi 刘宁一 receive Ghosh 高士 of the Indian party, 10 a.m. to 1:30 p.m., chiefly to learn how matters stand.
-    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 4, 1960). The words: 由10时到1时半 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Liu Ningyi, Ghosh.'
+    n: '[[w.yang-shangkun-riji]], I, 560 (Oct. 4, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1583 (Oct. 4, 1960; morning; Deng with Ghosh of the Indian party on the Sino-Soviet differences). The words: 由10时到1时半 (I, 560). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Liu Ningyi, Ghosh.'
     src:
       c: 175bf39a
       rows:
         - 'w.yang-shangkun-riji I, 560: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1583: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-04.china-leadership-8
@@ -871,11 +929,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Chinese Embassy. The delegation on Deng Xiaoping''s 邓小平 speech for the next day; then, on the Center''s instruction (the many errors of the Soviet draft to be refuted with force, then concrete counter-proposals made), again: the speech fits it, left as it is but for a few phrases; most counter-proposals for the secretariat. Back at 10 p.m.'
-    n: '[[w.yang-shangkun-riji]], I, 561 (Oct. 4, 1960). The words: 回到大使馆……会完后10时回到住处 (I, 561). See [[cal.1960-10-04.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 561 (Oct. 4, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1583 (Oct. 4, 1960; evening; on the Center''s instruction to refute the draft''s errors and then offer counter-texts, Deng chairs the delegation at the embassy: his speech for the next day already in the Center''s spirit, left as it is but for words; counter-texts to the secretariat). The words: 回到大使馆……会完后10时回到住处 (I, 561). See [[cal.1960-10-04.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
     src:
       c: e0d11b7a
       rows:
         - 'w.yang-shangkun-riji I, 561: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1583: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-10-04T16:00Z
@@ -1039,11 +1098,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s third session, 2 to 6 p.m.: Lê Duẩn 黎笋; Deng Xiaoping 邓小平 from his text, seventy minutes; after a break Koucký 考茨基 (Czechoslovakia) and Kliszko 克利什科 (Poland), who answer Deng "without reason," as Yang Shangkun 杨尚昆 finds.'
-    n: '[[w.yang-shangkun-riji]], I, 562 (Oct. 5, 1960). The words: 下午2时正……6时结束会议 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lê Duẩn, Deng Xiaoping, Koucký, Kliszko, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 562 (Oct. 5, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1583–1584 (Oct. 5, 1960; afternoon; Deng speaks at the third session on war and peace, peaceful transition, revisionism and dogmatism, the forms of socialist construction and unity: both roads, the stress on gathering revolutionary strength; revisionism "smashed in thought" wholly wrong; every party''s contribution; the "collective experience" aimed at China''s line; national communism, going it alone and factions aimed at the Chinese party). The words: 下午2时正……6时结束会议 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lê Duẩn, Deng Xiaoping, Koucký, Kliszko, Yang Shangkun.'
     src:
       c: 322a6155
       rows:
         - 'w.yang-shangkun-riji I, 562: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1583–1584: ?'
     tags: [polity:prc, name:deng-xiaoping, name:le-duan, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-05.china-leadership-6
@@ -1054,11 +1114,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, cuba]
     c: Moscow 莫斯科. Deng Xiaoping 邓小平, Peng Zhen 彭真 and Yang Shangkun 杨尚昆 with Escalante 艾斯卡兰托 of the Cuban party, 8 p.m. to 1 a.m.
-    n: '[[w.yang-shangkun-riji]], I, 562 (Oct. 5, 1960). The words: 8时陪小平、彭真与古巴同志艾斯卡兰托谈话，到1时才完 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun, Escalante.'
+    n: '[[w.yang-shangkun-riji]], I, 562 (Oct. 5, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1584 (Oct. 5, 1960; evening; Deng with Escalante, executive secretary of the Cuban Popular Socialist Party: relations can get no worse; the two parties will not split; the Soviet Union always at the head, criticism not barred; a common paper there will be). The words: 8时陪小平、彭真与古巴同志艾斯卡兰托谈话，到1时才完 (I, 562). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun, Escalante.'
     src:
       c: 455ddde1
       rows:
         - 'w.yang-shangkun-riji I, 562: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1584: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-06.elections-1960
@@ -1274,11 +1335,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科, the Chinese Embassy, 7:30 to 9 p.m. The Chinese with Hysni Kapo 卡博; the Chinese and the Albanians each to prepare a second speech.
-    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960). The words: 7:30—9时见卡博 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1584–1585 (Oct. 6, 1960; 7:15 to 8:15 p.m.; Deng''s third talk with Kapo: a second speech planned on the epoch, war and peace, unity). The words: 7:30—9时见卡博 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
     src:
       c: 73a8cd71
       rows:
         - 'w.yang-shangkun-riji I, 563: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1584–1585: ?'
     tags: [polity:prc, vis:only:prc+albania]
     time_zone: Europe/Moscow
   - id: cal.1960-10-06.china-leadership-8
@@ -1291,11 +1353,12 @@ entries:
     follows:
       - cal.1960-10-06.china-leadership-7
     c: Moscow 莫斯科, the Chinese Embassy, 9:30 p.m. to midnight. The Chinese with the Japanese.
-    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960). The words: 9:30—12时见日本同志 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 563 (Oct. 6, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1585 (Oct. 6, 1960; 9:30 p.m. (晚九时三十分); the Chinese Embassy; Deng receives Miyamoto Kenji, general secretary of the Japanese Communist Party: relations very bad since Bucharest, none of it China''s doing; without criticism the CPSU''s errors will have grave results; if the Chinese party does not criticize, few others can). The words: 9:30—12时见日本同志 (I, 563). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 4da45db5
       rows:
         - 'w.yang-shangkun-riji I, 563: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1585: B'
     tags: [polity:prc, vis:only:prc+japan]
     time_zone: Europe/Moscow
   - id: cal.1960-10-06.china-leadership-9
@@ -1492,11 +1555,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, cuba]
     c: Moscow 莫斯科, the Chinese Embassy, 10 a.m. A Cuban tells the Chinese of his talk with the Soviets, who blame the Chinese party, and proposes that the two parties keep talking and a small committee (China, the Soviet Union and a European, an Asian and a Latin American party) take up the draft.
-    n: '[[w.yang-shangkun-riji]], I, 564 (Oct. 7, 1960). The words: 10时到使馆 (I, 564). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 564 (Oct. 7, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1585 (Oct. 7, 1960; morning; Deng with the Cuban delegation, which proposes that the two parties go on talking). The words: 10时到使馆 (I, 564). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: c3d5cb25
       rows:
         - 'w.yang-shangkun-riji I, 564: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1585: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-07.china-leadership-7
@@ -1522,13 +1586,38 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The Chinese with Guyot 居约 of the French party at their lodging, 8 p.m. to midnight; he explains away Khrushchev's conduct.
-    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 7, 1960). The words: 晚间8时到12时 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Guyot.'
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 7, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1585 (Oct. 7, 1960; 7:30 p.m. to midnight; Deng with Guyot of the French Politburo and Feuer 斐盖尔 of its secretariat: Khrushchev leads the attack and China may not answer, not to be borne; the Soviet Union at the head, no diplomatic phrase, but it must act the part; if China is proved wrong it will say so). The words: 晚间8时到12时 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Guyot.'
     src:
       c: 5e79050b
       rows:
         - 'w.yang-shangkun-riji I, 565: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1585: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-07.china-leadership-9
+    when: Oct. 7
+    date: '1960-10-07'
+    thread: china-leadership
+    c: The Tangshan 唐山 city committee 市委 reports that to Oct. 7 15,790 people have been poisoned by eating cocklebur seed.
+    n: '[[w.yang-jisheng-mubei]], I, 545. Made public: 2008. To check: Tangshan City Committee, report of Oct. 7, 1960 on poisoning by cocklebur seed (named by [[w.yang-jisheng-mubei]], I, 545; no note).'
+    src:
+      c: 44d853b9
+      rows:
+        - 'w.yang-jisheng-mubei I, 545: all'
+        - 'via w.yang-jisheng-mubei I, 545 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-07.china-leadership-10
+    when: Oct. 7
+    date: '1960-10-07'
+    thread: china-leadership
+    c: 'Shi Xudong 石旭東, a cadre of the Handan 邯鄲 light industry bureau, writes the Center on special supply in a middle-sized city: after the call to eat no meat the ordinary people eat none, yet the specially supplied get more meat than all ate before, 3 liang a head of the city''s average; at the Mid-Autumn festival leading cadres got 2 jin of mooncakes each and the others not a crumb; the food shops have become special-supply shops.'
+    n: '[[w.yang-jisheng-mubei]], I, 629. Made public: 2008. To check: Shi Xudong 石旭東, letter to the Center on the problem of special supply in Handan, Oct. 7, 1960, as forwarded by Hebei Provincial Committee document [60] no. 619, "Opinions on Comrade Shi Xudong''s letter reflecting the problem of special supply in Handan city" (cited by [[w.yang-jisheng-mubei]], I, 629 n.16). Check: the day of the Hebei committee''s forwarding is not given.'
+    src:
+      c: 2e0f09c3
+      rows:
+        - 'w.yang-jisheng-mubei I, 629: all'
+        - 'via w.yang-jisheng-mubei I, 629 n.16: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-08.laos
     when: Oct. 8
     date: '1960-10-08'
@@ -1650,11 +1739,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s sixth session, from noon: Dixon 狄克逊 (Australia), Escalante 埃斯卡兰特 (Cuba), Suslov 苏斯洛夫; three parties still to speak, on Monday from 11. Deng Xiaoping 邓小平 says the Chinese ask to speak a second time.'
-    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 8, 1960). The words: 12时继续开会 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Dixon, Escalante, Suslov, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 8, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1585–1586 (Oct. 8, 1960; afternoon; as Suslov closes the session Deng asks to speak a second time). The words: 12时继续开会 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Dixon, Escalante, Suslov, Deng Xiaoping.'
     src:
       c: 94e0b16e
       rows:
         - 'w.yang-shangkun-riji I, 565: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1585–1586: ?'
     tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-08.china-leadership-7
@@ -1665,11 +1755,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. Hysni Kapo 卡博 with the Chinese, 8 to 10:30 p.m., on the session and the Albanians' second speech.
-    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 8, 1960). The words: 8时到10时半 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 8, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 8, 1960; evening; Deng''s fourth talk with Kapo). The words: 8时到10时半 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
     src:
       c: 66e95e19
       rows:
         - 'w.yang-shangkun-riji I, 565: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
     tags: [polity:prc, vis:only:prc+albania]
     time_zone: Europe/Moscow
   - id: cal.1960-10-09.elections-1960
@@ -1750,13 +1841,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Yinian Tang. The enlarged Standing Committee, Mao presiding, on Deng Xiaoping's telegram from Moscow asking the line for the work ahead at the drafting commission.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 356, Oct. 9, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494–495 (Oct. 9, 15 and 21, 1960; Liu attends the enlarged Standing Committee meetings on Deng Xiaoping''s telegram from Moscow, on the Chinese delegation''s line during the 26-party drafting committee''s meeting; Deng reached Moscow mid-September). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Li Fuchun, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 356, Oct. 9, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494–495 (Oct. 9, 15 and 21, 1960; Liu attends the enlarged Standing Committee meetings on Deng Xiaoping''s telegram from Moscow, on the Chinese delegation''s line during the 26-party drafting committee''s meeting; Deng reached Moscow mid-September); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 9, 1960; 4:30 p.m. Peking time; Mao''s enlarged Politburo on Deng''s telegram from Moscow asking the line ahead). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Li Fuchun, Chen Boda.'
     src:
       c: 4517bb25
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 9, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 356, Oct. 9, 1960: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 494–495: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:li-fuchun, name:chen-boda, vis:only:prc]
   - id: cal.1960-10-09.china-leadership-3
     when: Oct. 9
@@ -1792,11 +1884,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: 'Moscow 莫斯科. Lê Duẩn 黎笋 and Nguyễn Chí Thanh 阮志清 with the Chinese, 11 a.m.: nearer the Chinese view, but asking them not to be too sharp.'
-    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 9, 1960). The words: 11时 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lê Duẩn, Nguyễn Chí Thanh.'
+    n: '[[w.yang-shangkun-riji]], I, 565 (Oct. 9, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 9, 1960; morning; Deng with Lê Duẩn on the delegation''s view of the papers). The words: 11时 (I, 565). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lê Duẩn, Nguyễn Chí Thanh.'
     src:
       c: '33598568'
       rows:
         - 'w.yang-shangkun-riji I, 565: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
     tags: [polity:prc, name:le-duan, name:nguyen-chi-thanh, vis:only:prc+drv]
     time_zone: Europe/Moscow
   - id: cal.1960-10-09.china-leadership-6
@@ -1823,12 +1916,39 @@ entries:
     follows:
       - cal.1960-10-09.china-leadership-6
     c: Moscow 莫斯科, the Chinese Embassy. Alia 阿利雅 of the Albanian party brings Hysni Kapo's 卡博 second speech, during the delegation's meeting.
-    n: '[[w.yang-shangkun-riji]], I, 566 (Oct. 9, 1960). The words: 中间阿尔巴尼亚的阿利雅同志来谈话 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Alia, Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 566 (Oct. 9, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 9, 1960; evening; Deng with Alia, secretary of the Albanian Central Committee, on the Chinese second speech). The words: 中间阿尔巴尼亚的阿利雅同志来谈话 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Alia, Hysni Kapo.'
     src:
       c: 1365d340
       rows:
         - 'w.yang-shangkun-riji I, 566: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
     tags: [polity:prc, vis:only:prc+albania]
+  - id: cal.1960-10-09.china-leadership-8
+    when: Oct. 9
+    date: '1960-10-09'
+    thread: china-leadership
+    c: 'Xi 息 county. The investigation group of the Center and the Henan 河南 committee, Li Zhenhai 李振海, Tao Mosheng 陶陌生 and He Dizhong 賀棣忠, reports: 1,065 beaten or driven to death in the anti-concealment drive, 226 on the spot, 360 after injury, 479 by suicide; 29 cadres beaten to death, 46 crippled. At Fanghu 防胡 commune 29 cadres of nine brigades killed 91.'
+    n: '[[w.yang-jisheng-mubei]], I, 47, 62. Made public: 2008. To check: Investigation group of the Center and the Henan committee (Li Zhenhai, Tao Mosheng, He Dizhong), "Report of inquiry on the situation in Xi county," Oct. 9, 1960, Henan Provincial Archives, 1960, perm., vol. 3017 (cited by [[w.yang-jisheng-mubei]], I, 47 n.21, 62 n.37); Organization Department of the Central Committee, Henan investigation group, "On the anti-concealment and secret-sharing drive in Xi county and Fanghu" (cited by [[w.yang-jisheng-mubei]], I, 47 n.20). Check: the book gives two reports of this date, under different authors and titles, and may mean one; the figures in `c` are from the second (I, 47 n.21, 62 n.37).'
+    src:
+      c: 692914c1
+      rows:
+        - 'w.yang-jisheng-mubei I, 47: all'
+        - 'w.yang-jisheng-mubei I, 62: all'
+        - 'via w.yang-jisheng-mubei I, 47 n.21: all'
+        - 'via w.yang-jisheng-mubei I, 62 n.37: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-09.china-leadership-9
+    when: Oct. 9
+    date: '1960-10-09'
+    thread: china-leadership
+    c: 'The Jiangsu 江蘇 committee 省委 forwards the investigations by its General Office and by Xinghua 興化 county of three brigades of different types 三個不同類型生產大隊的調查材料, committee document Su fa [60] no. 441. The book takes from them the Xiajia 夏家 brigade: rooms down from 422 to 229; the mess hall closed 72 days from Dec. 27, 1959 and 60 or 70 days in January to March 1960; population 939 to 858, with 162 dead and 81 born.'
+    n: '[[w.yang-jisheng-mubei]], I, 380. Made public: 2008. To check: Jiangsu Provincial Committee, forwarding of the investigations of three different types of production brigades by the General Office and Xinghua county, Oct. 9, 1960, committee document Su fa [60] no. 441 (cited by [[w.yang-jisheng-mubei]], I, 380 n.30).'
+    src:
+      c: 0b30fa76
+      rows:
+        - 'w.yang-jisheng-mubei I, 380: all'
+        - 'via w.yang-jisheng-mubei I, 380 n.30: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-10.elections-1960
     when: Oct. 10–13
     date: '1960-10-10'
@@ -1969,7 +2089,7 @@ entries:
     date: '1960-10-10'
     thread: china-leadership
     c: 'Mao on Hubei''s report of Mianyang county (the "levelling and transfers" unremedied, grain down) and Fujian''s of Minhou county (2,000 men, 45 percent of the labor, sent back to the fields): "excellent"; Li Fuchun to have a strong directive drafted.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 10, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 352–355 (Oct. 10, 1960; Mao''s 毛泽东 note to Li Fuchun 李富春, 1 a.m. Oct. 10: Hubei''s 湖北 report on Mianyang 沔阳 county (the ''levelling and transfers'' unsolved to now, grain down) and Fujian''s 福建 on Minhou 闽侯 county (Chengmen 城门 commune, over 2,000 withdrawn from farming, 45 percent of the labor, sent back) both ''excellent''; a Secretariat member to draft a strong directive of several hundred words within days; on Oct. 12 he marks the draft read and sends it to Li Fuchun; printed from the manuscript). Made public: 2013. Check: the Wengao dates Mao''s note Oct. 10, 1 a.m., and his marking of the draft ''read'' Oct. 12. To check: Wang Yanchun 王延春, secretary of the Hubei 湖北 Party committee secretariat, report of Sept. 18, 1960 to Wang Renzhong 王任重, Zhang Tixue 张体学 and the secretariat on a trial of policy in Mianyang county (Tonghaikou 通海口 commune) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 353 n.2); Fujian 福建 Provincial Party Committee, forwarding Sept. 30, 1960 the report of Minhou county''s first secretary on concentrating labor and strengthening the first line of farm production in Chengmen 城门 commune (2,079 withdrawn, 45 percent of the labor) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 354 n.3); Secretariat, draft directive forwarding the Hubei 湖北 and Fujian 福建 Party committees'' two documents (read by Mao 毛泽东, Oct. 12, 1960) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 355 n.4). Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 10, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 352–355 (Oct. 10, 1960; Mao''s 毛泽东 note to Li Fuchun 李富春, 1 a.m. Oct. 10: Hubei''s 湖北 report on Mianyang 沔阳 county (the ''levelling and transfers'' unsolved to now, grain down) and Fujian''s 福建 on Minhou 闽侯 county (Chengmen 城门 commune, over 2,000 withdrawn from farming, 45 percent of the labor, sent back) both ''excellent''; a Secretariat member to draft a strong directive of several hundred words within days; on Oct. 12 he marks the draft read and sends it to Li Fuchun; printed from the manuscript); [[w.mao-zedong-zhuan]], V, ch. 66 n.57 (Oct. 10: Mao reads Hubei''s report on Mianyang county and Fujian''s on Minhou county and writes to Li Fuchun that both are excellent, and a Secretariat comrade is to draft a strong directive for the Center within days (n.57)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). Check: the Wengao dates Mao''s note Oct. 10, 1 a.m., and his marking of the draft ''read'' Oct. 12. To check: Wang Yanchun 王延春, secretary of the Hubei 湖北 Party committee secretariat, report of Sept. 18, 1960 to Wang Renzhong 王任重, Zhang Tixue 张体学 and the secretariat on a trial of policy in Mianyang county (Tonghaikou 通海口 commune) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 353 n.2); Fujian 福建 Provincial Party Committee, forwarding Sept. 30, 1960 the report of Minhou county''s first secretary on concentrating labor and strengthening the first line of farm production in Chengmen 城门 commune (2,079 withdrawn, 45 percent of the labor) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 354 n.3); Secretariat, draft directive forwarding the Hubei 湖北 and Fujian 福建 Party committees'' two documents (read by Mao 毛泽东, Oct. 12, 1960) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 355 n.4); Mao Zedong 毛泽东, letter to Li Fuchun 李富春 on the Hubei and Fujian reports (manuscript 手稿), Oct. 10, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.57). Names: Mao Zedong, Li Fuchun.'
     src:
       c: 64fb7b34
       rows:
@@ -1978,6 +2098,8 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 353 n.2: A, B'
         - 'via w.jianguo-yilai-mao-zedong XV, 354 n.3: A, B'
         - 'via w.jianguo-yilai-mao-zedong XV, 355 n.4: A, B'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.57: A-B'
+        - 'via w.mao-zedong-zhuan V, ch.66 n.57: A-B'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-10-10.china-leadership-2
     when: Oct. 10–21
@@ -1994,11 +2116,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s seventh session: Ghosh 高士 (India), the Indonesian, the Bulgarian. Suslov 苏斯洛夫 asks whether second speeches are needed; Matern, the Mongolians and the Poles against, Kapo insisting; Deng Xiaoping 邓小平: China asked to speak again, but will hand it in writing if the others so decide; no vote. The general debate to end next day, the secretariat to meet at 3.'
-    n: '[[w.yang-shangkun-riji]], I, 566–567 (Oct. 10, 1960). The words: 上午9时起床 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh, Suslov, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 566–567 (Oct. 10, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 10, 1960; morning; Deng''s written statement at the seventh session, twelve questions: the epoch; war, peace and peaceful coexistence; imperialism a paper tiger; people''s and national liberation wars; "a world without arms and war"; unity; the two parties'' differences; "going it alone" and "national communism"; great-power chauvinism; responsibility; the Soviet Union at the head and the CPSU the center; revisionism and dogmatism). The words: 上午9时起床 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh, Suslov, Deng Xiaoping.'
     src:
       c: 419e883f
       rows:
         - 'w.yang-shangkun-riji I, 566–567: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
     tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
     time_range:
       - 1960-10-10T03:00Z
@@ -2012,11 +2135,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The Chinese with Hysni Kapo 卡博; he praises the Indonesians' speech.
-    n: '[[w.yang-shangkun-riji]], I, 567 (Oct. 10, 1960). The words: 晚间 (I, 567). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 567 (Oct. 10, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 10, 1960; afternoon; Deng''s fifth talk with Kapo). The words: 晚间 (I, 567). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
     src:
       c: b2e0702d
       rows:
         - 'w.yang-shangkun-riji I, 567: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, vis:only:prc+albania]
     time_range:
       - 1960-10-10T16:00Z
@@ -2159,11 +2283,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科, the Soviet Central Committee's guesthouse. Deng Xiaoping 邓小平, Peng Zhen 彭真 and Yang Shangkun 杨尚昆 call briefly on the French, Italian, Australian, Cuban and Albanian delegations, 11 a.m. to 1 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960). The words: 11时到1时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 11, 1960; morning; Deng and Peng Zhen call on the French, Italian, Australian, Cuban and Albanian delegations at the CPSU''s guesthouse). The words: 11时到1时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun.'
     src:
       c: 97d81e57
       rows:
         - 'w.yang-shangkun-riji I, 568: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-11.china-leadership-3
@@ -2188,11 +2313,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: Moscow 莫斯科, a dacha about twenty kilometers out, in a forest. The Chinese call on the Vietnamese delegation, 6 p.m., about an hour.
-    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960). The words: 晚间6时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 11, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 11, 1960; evening (当晚); Deng and Peng Zhen call on the Vietnamese delegation at its dacha). The words: 晚间6时 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 68e6a6f8
       rows:
         - 'w.yang-shangkun-riji I, 568: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, vis:only:prc+drv]
     time_zone: Europe/Moscow
   - id: cal.1960-10-12.soviet-union
@@ -2384,12 +2510,13 @@ entries:
     date: '1960-10-12'
     thread: china-leadership
     c: Mao 毛泽东 marks the Secretariat's draft directive on the Hubei 湖北 and Fujian 福建 papers "read" 已阅 and sends it to Li Fuchun 李富春 to handle.
-    n: '[[w.jianguo-yilai-mao-zedong]], XV, 352–355 (Oct. 12, 1960; Mao''s note of Oct. 12, on the draft, 355 n.4; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Secretariat, draft directive forwarding the Hubei and Fujian Party committees'' two documents (cited by [[w.jianguo-yilai-mao-zedong]], XV, 355 n.4). See [[cal.1960-10-10.china-leadership]]. Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 352–355 (Oct. 12, 1960; Mao''s note of Oct. 12, on the draft, 355 n.4; printed from the manuscript); [[w.mao-zedong-zhuan]], V, ch. 66 n.58 (Mao reads the Secretariat''s draft and it issues Oct. 12 (n.58)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Secretariat, draft directive forwarding the Hubei and Fujian Party committees'' two documents (cited by [[w.jianguo-yilai-mao-zedong]], XV, 355 n.4); Central Committee 中共中央, directive of Oct. 12, 1960 drafted by the Secretariat after Mao''s letter, in *Jianguo yilai zhongyao wenxian xuanbian* 《建国以来重要文献选编》, vol. 13 (Zhongyang wenxian chubanshe, May 1996), 640 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.58). See [[cal.1960-10-10.china-leadership]]. Names: Mao Zedong, Li Fuchun.'
     src:
       c: c9f1f9e3
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 352–355: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 355 n.4: all'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.58: ?'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-10-12.china-leadership-4
     when: Oct. 12
@@ -2413,11 +2540,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Barvikha 巴尔维哈, near Moscow 莫斯科. Deng Xiaoping 邓小平, Peng Zhen 彭真 and Yang Shangkun 杨尚昆 visit Duclos 杜克洛 of the French party, bedridden for over a month with heart trouble, 10:30 a.m., some twenty minutes.
-    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 12, 1960). The words: 10时半 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun, Duclos.'
+    n: '[[w.yang-shangkun-riji]], I, 568 (Oct. 12, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 12, 1960; morning; Deng visits Duclos, secretary of the French party, convalescent at Barvikha). The words: 10时半 (I, 568). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen, Yang Shangkun, Duclos.'
     src:
       c: 0e1e0293
       rows:
         - 'w.yang-shangkun-riji I, 568: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_zone: Europe/Moscow
   - id: cal.1960-10-12.china-leadership-6
@@ -2479,6 +2607,18 @@ entries:
       c: f6334857
       rows:
         - 'w.yang-shangkun-riji I, 569: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-12.china-leadership-10
+    when: Oct. 12
+    date: '1960-10-12'
+    thread: china-leadership
+    c: 'Sun Jiwen 孫繼文 and Pan Zhaoxi 潘昭錫 of the Communist Youth League''s Shandong 山東 committee write the provincial committee on cadre privilege in Laiwu 萊蕪 county: of the county committee''s five secretaries only one eats with the rest at the mess hall; the others have dishes cooked for them, and after the offices stop supplying pork each is given 5 jin a month.'
+    n: '[[w.yang-jisheng-mubei]], I, 442. Made public: 2008. To check: Sun Jiwen and Pan Zhaoxi, letter to the Shandong Provincial Committee, Oct. 12, 1960 (named by [[w.yang-jisheng-mubei]], I, 442; no note). Check: the book quotes the letter and gives no note.'
+    src:
+      c: fcd37889
+      rows:
+        - 'w.yang-jisheng-mubei I, 442: all'
+        - 'via w.yang-jisheng-mubei I, 442 n.t2: all'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-13.elections-1960
     when: Oct. 13
@@ -2748,13 +2888,31 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Chinese Embassy. Hysni Kapo 卡博 with the Chinese, 7:30 p.m.: at one with them on the secretariat''s work and on the course ahead.'
-    n: '[[w.yang-shangkun-riji]], I, 570 (Oct. 13, 1960). The words: 7时半 (I, 570). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 570 (Oct. 13, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 13, 1960; Deng''s sixth talk with Kapo, on the secretariat: three kinds of question, others'' good proposals backed; the passable argued and not insisted on; principle held firm). The words: 7时半 (I, 570). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
     src:
       c: c9f1f17c
       rows:
         - 'w.yang-shangkun-riji I, 570: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, vis:only:prc+albania]
     time_zone: Europe/Moscow
+    variants:
+      - unit: A
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: afternoon (下午)
+        at: III, 1587
+  - id: cal.1960-10-13.china-leadership-10
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: china-leadership
+    c: 'The Hebei 河北 supervisory committee 省委監察委員會 reports on edema continuing in some villages 關於某些農村繼續發生浮腫病情況的報告: edema, bloody stools and prolapse are widespread. In 11 counties, Xushui 徐水, Wuqiao 吳橋, Ningjin 寧津, Jiaohe 交河, Jinghai 靜海, Jixian 薊縣, Baxian 霸縣, Zunhua 遵化, Qian''an 遷安, Changli 昌黎 and Yutian 玉田, 109,671 have had edema since spring and 1,216 have died. It blames over-high output estimates and an over-levy that left rations empty.'
+    n: '[[w.yang-jisheng-mubei]], I, 543–544. Made public: 2008. To check: Hebei Provincial Committee supervisory committee, "Report on some villages where edema continues," Oct. 13, 1960, no. [60]48 (cited by [[w.yang-jisheng-mubei]], I, 543 n.30). Check: Jiaohe''s figure is missing from the count (I, 544); the book adds the report''s cases of feasting and graft in Ji county and elsewhere.'
+    src:
+      c: 228dffd7
+      rows:
+        - 'w.yang-jisheng-mubei I, 543-544: all'
+        - 'via w.yang-jisheng-mubei I, 543 n.30: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-14.peace-corps
     when: Oct. 14
     date: '1960-10-14'
@@ -3034,11 +3192,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The delegation, watching what Khrushchev 赫鲁晓夫 will do on his return, cables the Center 中央 for instructions on meeting it.
-    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 14, 1960). The words: 已电中央请示如何应付 (I, 571). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev.'
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 14, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 14, 1960; afternoon; Deng cables the Center asking the line after Khrushchev''s return that day from the United Nations). The words: 已电中央请示如何应付 (I, 571). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev.'
     src:
       c: 9fbd996c
       rows:
         - 'w.yang-shangkun-riji I, 571: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-10-15.elections-1960
     when: Oct. 15
@@ -3181,13 +3340,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Yinian Tang. The enlarged Standing Committee, Mao presiding, on Deng Xiaoping's request from Moscow; Mao had read his twenty-seven telegrams.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 15, 1960. [[w.zhou-enlai-nianpu-1949]], II, 358, Oct. 15, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494–495 (Oct. 9, 15 and 21, 1960; Liu attends). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 15, 1960. [[w.zhou-enlai-nianpu-1949]], II, 358, Oct. 15, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494–495 (Oct. 9, 15 and 21, 1960; Liu attends); [[w.deng-xiaoping-nianpu-1904]], III, 1587 (Oct. 15, 1960; 5:10 p.m. Peking time; Mao''s enlarged Standing Committee on Deng''s request; Mao had read Deng''s twenty-seven telegrams). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Chen Boda.'
     src:
       c: '23073861'
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 15, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 358, Oct. 15, 1960: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 494–495: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:li-fuchun, name:chen-boda, vis:only:prc]
   - id: cal.1960-10-15.china-leadership-3
     when: Oct. 15
@@ -3263,6 +3423,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 572: all'
     tags: [polity:prc, vis:only:prc+indonesia]
+  - id: cal.1960-10-15.china-leadership-8
+    when: Oct. 15
+    date: '1960-10-15'
+    thread: china-leadership
+    c: 'Yang Weiping 楊蔚屏 reports on his inquiry into the Xinyang 信陽 incident: 2,104 beaten to death in Guangshan 光山 and Huangchuan 潢川 counties, 254 crippled in Huangchuan alone. Of Guangshan''s 1,008 dead, one is a county secretary, 4 brigade cadres, 47 team cadres, 11 Party members, 61 Youth League members, 848 ordinary villagers, 87 "five kinds."'
+    n: '[[w.yang-jisheng-mubei]], I, 61. Made public: 2008. To check: Yang Weiping, "Report of inquiry into the Xinyang incident," Oct. 15, 1960 (cited by [[w.yang-jisheng-mubei]], I, 61 n.36). Check: the book gives no addressee; its categories overlap; the book''s interviewees think the counts too low (I, 62).'
+    src:
+      c: d078bd5f
+      rows:
+        - 'w.yang-jisheng-mubei I, 61: all'
+        - 'via w.yang-jisheng-mubei I, 61 n.36: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-16.elections-1960
     when: Oct. 16
     date: '1960-10-16'
@@ -3964,13 +4136,38 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科. The Chinese with Hysni Kapo 卡博, 9 to 11 p.m.: the points they will fight for, and their concert for the next day.'
-    n: '[[w.yang-shangkun-riji]], I, 576 (Oct. 18, 1960). The words: 9时到11时 (I, 576). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
+    n: '[[w.yang-shangkun-riji]], I, 576 (Oct. 18, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1587–1588 (Oct. 18, 1960; evening; Deng''s seventh talk with Kapo: no party''s congress, the CPSU''s included, a law for the whole movement; to endorse the Twentieth and Twenty-first Congresses means endorsing the Twenty-second and after; the father-and-son question to be raised). The words: 9时到11时 (I, 576). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo.'
     src:
       c: 0eb87422
       rows:
         - 'w.yang-shangkun-riji I, 576: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1587–1588: ?'
     tags: [polity:prc, vis:only:prc+albania]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-18.china-leadership-5
+    when: Oct. 18
+    date: '1960-10-18'
+    thread: china-leadership
+    c: The Jiangsu 江蘇 committee's work group reports on the falsified yield of Baimao 白茆 commune, Changshu 常熟 county 關於常熟縣白茆公社浮誇產量的調查報告.
+    n: '[[w.yang-jisheng-mubei]], I, 378. Made public: 2008. To check: Provincial Committee work group, "Investigation report on the exaggerated output of Baimao commune, Changshu county," Oct. 18, 1960 (cited by [[w.yang-jisheng-mubei]], I, 378 n.25). Check: the book''s passage the note closes is on Mocheng commune''s rice yield, 605 jin against an 800-jin distribution plan, and coerced admissions of stealing 200 to 500 jin each (I, 377–378); whether Baimao is in that passage is not shown.'
+    src:
+      c: f7db1325
+      rows:
+        - 'w.yang-jisheng-mubei I, 378: all'
+        - 'via w.yang-jisheng-mubei I, 378 n.25: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-18.china-leadership-6
+    when: Oct. 18
+    date: '1960-10-18'
+    thread: china-leadership
+    c: 'The Hebei 河北 committee 省委 reports to the Center on a mass movement for grain work and the arrangement of livelihood 關於大搞群眾運動搞好糧食工作和安排好生活的報告: it puts the year''s grain at 17 billion jin or a little more, perhaps 17.5; normal consumption 19 to 20.5 billion; it resolves to live by its own effort on 17 billion.'
+    n: '[[w.yang-jisheng-mubei]], I, 543. Made public: 2008. To check: Hebei Provincial Party Committee, "Report on carrying out a mass movement to do grain work well and arrange livelihood well," Oct. 18, 1960, to the Center, committee document [60] no. 583 (cited by [[w.yang-jisheng-mubei]], I, 543 n.25).'
+    src:
+      c: 92f296af
+      rows:
+        - 'w.yang-jisheng-mubei I, 543: all'
+        - 'via w.yang-jisheng-mubei I, 543 n.25: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-19.cuba
     when: Oct. 19
     date: '1960-10-19'
@@ -4255,6 +4452,18 @@ entries:
         - 'w.yang-shangkun-riji I, 577: all'
     tags: [polity:prc, name:lu-dingyi, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-19.china-leadership-9
+    when: Oct. 19
+    date: '1960-10-19'
+    thread: china-leadership
+    c: The Zhenjiang 鎮江 prefectural committee's work group reports on the rectification of the Lishui 溧水 county committee's standing committee 關於溧水縣委常委整風情況的報告. The book takes from it that the county's first secretary, Yan Jingzhan 顏景詹, in spring 1959 saw ten edema patients die on the road.
+    n: '[[w.yang-jisheng-mubei]], I, 393. Made public: 2008. To check: Zhenjiang Prefectural Committee work group, "Report on the rectification of the standing committee of the Lishui county committee," Oct. 19, 1960 (Jiangsu committee, Lishui work group) (cited by [[w.yang-jisheng-mubei]], I, 393 n.49). Check: the book places his sight of the dead in spring 1959; the Lishui gazetteer of 1990, p. 94, stands at n.50.'
+    src:
+      c: '81591267'
+      rows:
+        - 'w.yang-jisheng-mubei I, 393: all'
+        - 'via w.yang-jisheng-mubei I, 393 n.49: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-20.cuba
     when: Oct. 20
     date: '1960-10-20'
@@ -4552,6 +4761,30 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 578: all'
     tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1960-10-20.china-leadership-8
+    when: Oct. 20
+    date: '1960-10-20'
+    place: moscow
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科. Deng Xiaoping 邓小平 cables the Center 中共中央 for instructions.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1588 (Oct. 20, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 18d96e4c
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1588: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-10-20.china-leadership-9
+    when: Oct. 20
+    date: '1960-10-20'
+    thread: china-leadership
+    c: 'Ke Qingshi 柯慶施, Politburo member and first secretary of the East China Bureau 華東局, announces in Shandong 山東 the Center''s decision: Shu Tong 舒同 is removed from his post, and Zeng Xisheng 曾希聖, first secretary of the Anhui 安徽 committee, is also to be secretary of the Shandong committee.'
+    n: '[[w.yang-jisheng-mubei]], I, 459. Made public: 2008. Names: Ke Qingshi. Check: the book gives the day and no note; the place is taken to be Shandong from the book''s text, not stated for the announcement.'
+    src:
+      c: 1fcb7abd
+      rows:
+        - 'w.yang-jisheng-mubei I, 459: all'
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
   - id: cal.1960-10-21.elections-1960
     when: Oct. 21
     date: '1960-10-21'
@@ -4667,13 +4900,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Yinian Tang. The enlarged Standing Committee, Mao presiding, on the reply to Deng Xiaoping's telegram of Oct. 20 from Moscow.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 21, 1960. [[w.zhou-enlai-nianpu-1949]], II, 360, Oct. 21, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494–495 (Oct. 9, 15 and 21, 1960; Liu attends). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, Lu Dingyi, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 21, 1960. [[w.zhou-enlai-nianpu-1949]], II, 360, Oct. 21, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 494–495 (Oct. 9, 15 and 21, 1960; Liu attends); [[w.deng-xiaoping-nianpu-1904]], III, 1588 (Oct. 21, 1960; Mao''s enlarged Standing Committee on the reply to Deng''s cable of the 20th). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, Lu Dingyi, Chen Boda.'
     src:
       c: 192ce8b6
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 21, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 360, Oct. 21, 1960: B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 494–495: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1588: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yi, name:li-fuchun, name:lu-dingyi, name:chen-boda, vis:only:prc]
   - id: cal.1960-10-21.china-leadership-2
     when: Oct. 21
@@ -4709,13 +4943,27 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. Peng Zhen 彭真 with Hysni Kapo 卡博; Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆 with the Brazilian, going home the next day, 8 to 11 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 579 (Oct. 21, 1960). The words: 从8时起谈到11时 (I, 579). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Hysni Kapo, Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 579 (Oct. 21, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1588 (Oct. 21, 1960; evening; Deng with Alves 阿尔维斯 of the Brazilian party: the meeting''s method good, agreement on most questions, but deeds will tell, the campaign against the Chinese party going on). The words: 从8时起谈到11时 (I, 579). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Hysni Kapo, Deng Xiaoping, Yang Shangkun.'
     src:
       c: a3074822
       rows:
         - 'w.yang-shangkun-riji I, 579: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1588: ?'
     tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-21.china-leadership-6
+    when: Oct. 21
+    date: '1960-10-21'
+    place: xinyang
+    thread: china-leadership
+    c: Xinyang 信陽. Ma Longshan 馬龍山, first secretary of Guangshan 光山 county, writes his self-examination, "respectfully presented to Section Chief Liu for the two directors from the province." Such an event, he says, was not in one county or commune but across the prefecture, which shows the prefectural committee's thinking and methods unsound; he puts it to the stress on "the state's point of view" and to widening the two-road struggle into a campaign against rightism.
+    n: '[[w.yang-jisheng-mubei]], I, 84–85. Made public: 2008. To check: Ma Longshan, self-examination, Xinyang, Oct. 21, 1960, Henan Provincial Archives, 1960, perm., vol. 2412 (cited by [[w.yang-jisheng-mubei]], I, 85 n.68); Lu Xianwen, draft self-examination, Oct. 1960, same volume (cited by [[w.yang-jisheng-mubei]], I, 84 n.67; a different paper, not in `c`). Check: the book dates Ma''s paper Oct. 21 and places it at Xinyang; the Organization Department and Control Commission report to Li Fuchun is of the same day ([[cal.1960-10-26.china-leadership]]).'
+    src:
+      c: '66525947'
+      rows:
+        - 'w.yang-jisheng-mubei I, 84-85: all'
+        - 'via w.yang-jisheng-mubei I, 85 n.68: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-22.elections-1960
     when: Oct. 22
     date: '1960-10-22'
@@ -4904,11 +5152,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s last session, Suslov 苏斯洛夫 in the chair, noon to 1:30 p.m. Ponomarev 波诺马廖夫 reports the secretariat''s work: chapters 1, 2 and 4 agreed; in 3 and 5 open the ending of war, the Twentieth and Twenty-first Congresses, the cult of personality, Yugoslavia''s wording, group and factional activity. Deng Xiaoping 邓小平 speaks from his text. The draft goes to the November meeting; the Soviet delegation to report there, on Koucký''s 考茨基 motion; Miyamoto 宫本 asks for full agreement in November. A peace appeal to be drafted by the American, British, Italian, French and Polish parties.'
-    n: '[[w.yang-shangkun-riji]], I, 580–583 (Oct. 22, 1960). The words: 12时起草委员会继续开会……13时半起草委员会会议结束 (I, 580). See [[cal.1960-10-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Suslov, Ponomarev, Deng Xiaoping, Koucký, Miyamoto Kenji.'
+    n: '[[w.yang-shangkun-riji]], I, 580–583 (Oct. 22, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1588 (Oct. 22, 1960; noon; Deng''s brief statement: the method of repeated discussion has made a paper broadly acceptable, unlike Bucharest; the draft much improved; regrets that some major questions of principle remain unagreed; the committee ends at 1:30 p.m.). The words: 12时起草委员会继续开会……13时半起草委员会会议结束 (I, 580). See [[cal.1960-10-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Suslov, Ponomarev, Deng Xiaoping, Koucký, Miyamoto Kenji.'
     src:
       c: 28417c88
       rows:
         - 'w.yang-shangkun-riji I, 580–583: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1588: ?'
     tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:ponomarev-boris-n, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-22.china-leadership-4
@@ -4919,11 +5168,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin''s St. George''s Hall 圣乔治大厅. The Soviet Presidium''s reception for the drafting committee, 3 to 5:30 p.m.; Khrushchev 赫鲁晓夫 there. Toasts by Suslov and Deng Xiaoping 邓小平; over coffee Khrushchev rises: whoever opposes him opposes the Soviet Central Committee; he does not want to lead; he would leave a party that made revolution by war. Deng answers at once: no communist party wants revolution by war; Soviet leadership a thing of history; the banquet no place for debate. Khrushchev speaks again, on leadership and Soviet grievances, and ends on unity.'
-    n: '[[w.yang-shangkun-riji]], I, 583 (Oct. 22, 1960). The words: 3时在克里姆林宫圣乔治大厅……5时半宴会完 (I, 583). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev, Suslov, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 583 (Oct. 22, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1589 (Oct. 22, 1960; 3 p.m.; Deng toasts unasked. Khrushchev: he does not want to lead, to be a public lavatory; he would leave a party that sought revolution by war between states. Deng: no party seeks it; the Soviet Union at the head and the CPSU the center a matter of history, apart from equal consultation. In talk: Albania, Khrushchev''s "as with Yugoslavia" wholly wrong; "dogmatism" an attack on the Chinese party; the defense works facing Vladivostok not aimed at the USSR; the experts'' recall carries an ideological quarrel into state relations; the east wind and the paper tiger a class analysis). The words: 3时在克里姆林宫圣乔治大厅……5时半宴会完 (I, 583). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Khrushchev, Suslov, Deng Xiaoping.'
     src:
       c: 5399e324
       rows:
         - 'w.yang-shangkun-riji I, 583: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1589: ?'
     tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:suslov-mikhail-a, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-22.china-leadership-5
@@ -4934,13 +5184,26 @@ entries:
     thread: china-leadership
     also: [soviet-union, japan]
     c: Moscow 莫斯科. Deng Xiaoping 邓小平, with Yang Shangkun 杨尚昆, sees the Japanese (Miyamoto Kenji 宫本显治, Hakamada Satomi 袴田里见, Yonehara Itaru 米原昶) on the drafting committee's work, 7 to 9 p.m.; at the same hour Peng Zhen 彭真 sees Sharkey 夏基 and Dixon 狄克逊.
-    n: '[[w.yang-shangkun-riji]], I, 583 (Oct. 22, 1960). The words: 7时至9时 (I, 583). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Miyamoto Kenji, Hakamada Satomi, Yonehara Itaru, Peng Zhen, Sharkey, Dixon.'
+    n: '[[w.yang-shangkun-riji]], I, 583 (Oct. 22, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1589 (Oct. 22, 1960; 9 to 9:30 p.m., the Chinese Embassy; Deng with Miyamoto Kenji: each party''s affairs its own, mistakes and all; Marxism–Leninism developed in each country, thought set free). The words: 7时至9时 (I, 583). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Miyamoto Kenji, Hakamada Satomi, Yonehara Itaru, Peng Zhen, Sharkey, Dixon.'
     src:
       c: 54e10d8b
       rows:
         - 'w.yang-shangkun-riji I, 583: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1589: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-22.china-leadership-6
+    when: Oct. 22
+    date: '1960-10-22'
+    thread: china-leadership
+    c: The Bishan 璧山 county committee 縣委 reports that by its count of the 18th 15,544 have died from Jan. 1 to Oct. 13, 4.5 percent of the farm population. It issues twelve urgent measures to rescue edema patients 關於搶救腫病的十二條緊急措施, printed Oct. 24.
+    n: '[[w.yang-jisheng-mubei]], I, 206. Made public: 2008. To check: Bishan County Committee, "Twelve urgent measures to rescue edema," Oct. 22, 1960, printed Oct. 24 by the county committee''s secretariat (cited by [[w.yang-jisheng-mubei]], I, 206 n.37). Check: the book''s text calls the document a report with the count; the note gives the title of the twelve measures.'
+    src:
+      c: 093d8f89
+      rows:
+        - 'w.yang-jisheng-mubei I, 206: all'
+        - 'via w.yang-jisheng-mubei I, 206 n.37: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-23.republican-party
     when: Oct. 23
     date: '1960-10-23'
@@ -5060,14 +5323,20 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Diaoyutai, Building 18, evening. Mao''s meeting on farming with the first secretaries of North and Central-South China, called at 2:30 that morning: the peasants'' lives, against the "communist wind"; Chen Zhengren on Shandong''s grave state. Liu Shaoqi, Zhou Enlai, Li Fuchun, Li Xiannian, Tan Zhenlin, Tao Zhu and others present.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 23, 1960. [[w.zhou-enlai-nianpu-1949]], II, 361, Oct. 23, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 23, 1960; Liu attends the meeting Mao convenes on agriculture). Made public: 1996. Names: Mao Zedong, Chen Zhengren, Liu Shaoqi, Zhou Enlai, Li Fuchun, Li Xiannian, Tan Zhenlin, Liao Luyan, Tao Zhu, Wang Renzhong, Wu Zhipu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 23, 1960. [[w.zhou-enlai-nianpu-1949]], II, 361, Oct. 23, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 23, 1960; Liu attends the meeting Mao convenes on agriculture); [[w.yang-jisheng-mubei]], II, 1171 (Mao calls the leaders of the four great regions, North, Central-South, Northeast and Southwest, Oct. 23–26, to hear on farming and on righting the communist wind; Henan and Shandong, where trouble showed early, are discussed, and Wu Zhipu reports on Xinyang). Made public: 1996. Names: Mao Zedong, Chen Zhengren, Liu Shaoqi, Zhou Enlai, Li Fuchun, Li Xiannian, Tan Zhenlin, Liao Luyan, Tao Zhu, Wang Renzhong, Wu Zhipu.'
     src:
       c: 6f40bdf7
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 23, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 361, Oct. 23, 1960: B-D'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 495: B'
+        - 'w.yang-jisheng-mubei II, 1171: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:tao-zhu, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.mao-zedong-zhuan
+        reads: Oct. 23 for the first secretaries of North China; Oct. 25, those of Central-South; Oct. 28, those of the Northeast and Northwest
+        at: V, ch. 66 n.59
   - id: cal.1960-10-23.china-leadership-5
     when: Oct. 23
     date: '1960-10-23'
@@ -5138,11 +5407,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The Chinese with Hysni Kapo 卡博 and Alia 阿利雅 of the Albanian party, 9 a.m. to 1 p.m.; with the Indonesians, 4 to 6 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 584 (Oct. 23, 1960). The words: 上午9时到下午1时……4时到6时 (I, 584). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo, Alia.'
+    n: '[[w.yang-shangkun-riji]], I, 584 (Oct. 23, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1590 (Oct. 23, 1960; morning, Deng''s eighth talk with Kapo: in November a campaign against China; facts and reasons, sharp in matter, mild in language; a long struggle, the middle mass to be won. Then Deng with Adjitorop of the Indonesian party: two gains, the lid lifted, the first time any party could criticize the CPSU; and majority and minority settled, no voting machine). The words: 上午9时到下午1时……4时到6时 (I, 584). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hysni Kapo, Alia.'
     src:
       c: b92f759b
       rows:
         - 'w.yang-shangkun-riji I, 584: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1590: ?'
     tags: [polity:prc, vis:only:prc+albania]
     time_zone: Europe/Moscow
   - id: cal.1960-10-23.china-leadership-8
@@ -5155,13 +5425,27 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Yang Shangkun 杨尚昆 and the delegation fly from Moscow 莫斯科, 10 p.m.: past Omsk 鄂木斯克 at about 1 a.m., lunch at Irkutsk 伊尔库茨克 at 10, Peking 北京 before 2 p.m., Oct. 24. His second journey to Moscow in 1960, Sept. 30 to Oct. 24, twenty-five days.'
-    n: '[[w.yang-shangkun-riji]], I, 584 (Oct. 23, 1960). The words: 9时由住地出发，10时上飞机，飞京……下午2时前到达北京 (I, 584). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 584 (Oct. 23, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1590 (Oct. 23, 1960; 10 p.m. Moscow time Deng leads the delegation out by air; in Peking a little after 1 p.m. Peking time the next day). The words: 9时由住地出发，10时上飞机，飞京……下午2时前到达北京 (I, 584). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: a4713dcf
       rows:
         - 'w.yang-shangkun-riji I, 584: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1590: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1960-10-23.china-leadership-9
+    when: Oct. 23
+    date: '1960-10-23'
+    place: kaixian
+    thread: china-leadership
+    c: 'Kai 開 county. The disease-and-pest-elimination office 除害滅病辦公室 of the Wanxian 萬縣 prefectural committee holds a symposium of Chinese and Western doctors, which sets out tested prescriptions for edema: bran and soybean pills, boiled herb roots with brown sugar, sorghum stalks.'
+    n: '[[w.yang-jisheng-mubei]], I, 214–215. Made public: 2008. To check: Xue Zhiqiang 薛志強, Wanxian prefecture grain inspection group, letter to the provincial committee and the Wanxian Prefectural Committee, Oct. 28, 1960, provincial general office receipt no. 7011 (cited by [[w.yang-jisheng-mubei]], I, 215 n.62). Check: the note closing the list of prescriptions is Xue''s letter of Oct. 28; the book does not say the letter reports the symposium.'
+    src:
+      c: 74200aff
+      rows:
+        - 'w.yang-jisheng-mubei I, 214-215: all'
+        - 'via w.yang-jisheng-mubei I, 215 n.62: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-24.cuba
     when: Oct. 24
     date: '1960-10-24'
@@ -5311,7 +5595,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Yinian Tang, 8 p.m. Mao''s meeting of the Standing Committee, the Secretariat and the first secretaries of North and Central-South China, with Chen Yi and Chen Boda, hears Deng Xiaoping and Peng Zhen, back that afternoon, on the drafting commission of twenty-six parties at Moscow, Oct. 1–22: the Soviet draft the basis; argued; most agreed, some points still open.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 24, 1960, and note 131. [[w.zhou-enlai-nianpu-1949]], II, 362, Oct. 24, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 366–367 (after three weeks the committee had no agreed text; four "nails" in the Soviet draft by Wu''s account: the Twentieth Congress''s line wholly right; unnamed attacks on "factional activity"; condemnation of the personality cult; war avoidable; the revised text and the open points to go to the November conference); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 24, 1960; Liu attends the meeting Mao convenes, which hears Deng Xiaoping and Peng Zhen, back that afternoon, on the Moscow conference); [[w.yang-shangkun-riji]], I, 584 (Oct. 24, 1960; the delegation lands at Peking before 2 p.m.). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Chen Yi, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 24, 1960, and note 131. [[w.zhou-enlai-nianpu-1949]], II, 362, Oct. 24, 1960 (Zhou present). [[w.lengxi-shinian-lunzhan-1956-1966]], 366–367 (after three weeks the committee had no agreed text; four "nails" in the Soviet draft by Wu''s account: the Twentieth Congress''s line wholly right; unnamed attacks on "factional activity"; condemnation of the personality cult; war avoidable; the revised text and the open points to go to the November conference); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 24, 1960; Liu attends the meeting Mao convenes, which hears Deng Xiaoping and Peng Zhen, back that afternoon, on the Moscow conference); [[w.yang-shangkun-riji]], I, 584 (Oct. 24, 1960; the delegation lands at Peking before 2 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1590 (Oct. 24, 1960; 8 p.m. to 12:40 a.m.; Deng, with Peng Zhen and others, reports the drafting committee to Mao''s enlarged Standing Committee). Made public: 1996. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Chen Yi, Chen Boda.'
     src:
       c: fe665f23
       rows:
@@ -5320,6 +5604,7 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 366–367: D'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 495: B'
         - 'w.yang-shangkun-riji I, 584: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1590: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:chen-boda, vis:only:prc]
     variants:
       - unit: B
@@ -5345,6 +5630,18 @@ entries:
       - 1960-10-24T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-24.china-leadership-4
+    when: Oct. 24
+    date: '1960-10-24'
+    thread: china-leadership
+    c: 'The industrial department of the Liaoning 遼寧 committee 省委工業部 reports on starting an ideological education drive among workers on the grain question 關於在職工中迅速開展一次糧食問題的思想教育運動的報告: workers'' grain complaints have three causes, nervousness, the struggle between two roads in the villages, and the five categories'' rumors; the one remedy is politics in command, with positive education, great airing of views and debate, old workers speaking from experience. At the Jinzhou 錦州 factory 401 the quota is cut by over 9,000 jin and none cries out.'
+    n: '[[w.yang-jisheng-mubei]], I, 623. Made public: 2008. To check: Liaoning Provincial Committee industrial department, "Report on quickly starting an ideological education drive among workers on the grain question," Oct. 24, 1960 (named by [[w.yang-jisheng-mubei]], I, 623; no note of its own; the Propaganda Department''s *Xuanjiao dongtai* no. 113, Dec. 26, 1960, is n.7). Check: the book says the report does not say how the grain complaints went or how far; Mao''s comment of Dec. 30 is in the calendar.'
+    src:
+      c: 9def7f6e
+      rows:
+        - 'w.yang-jisheng-mubei I, 623: all'
+        - 'via w.yang-jisheng-mubei I, 623 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-25.economy
     when: Oct. 25
     date: '1960-10-25'
@@ -5681,6 +5978,11 @@ entries:
     c: 'The Yinian Tang. After midnight, Mao with Liu Shaoqi, Zhou Enlai and Tao Zhu on Henan; at 2 a.m. planes sent for the first secretaries of the Northeast and Northwest, Yunnan and Guizhou. Evening, his meeting with Tan Zhenlin, Li Jingquan, Tao Zhu and the Northeast''s and Northwest''s secretaries (Song Renqiong, Ouyang Qin, Liu Lantao and others): their farming, how to stop the "communist wind."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 25, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Tao Zhu, Tan Zhenlin, Li Jingquan, Song Renqiong, Ouyang Qin, Liu Lantao.'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:tao-zhu, name:tan-zhenlin, name:li-jingquan, vis:only:prc]
+    variants:
+      - unit: D
+        witness: w.mao-zedong-zhuan
+        reads: Oct. 25, the first secretaries of Central-South China (as the book gives it, and Oct. 28 for the Northeast and Northwest)
+        at: V, ch. 66
   - id: cal.1960-10-25.china-leadership-2
     when: Oct. 25
     date: '1960-10-25'
@@ -5852,13 +6154,16 @@ entries:
     date: '1960-10-26'
     thread: china-leadership
     c: 'Mao on the report of four officials of the Organization Department and the Control Commission, Oct. 21, on mass deaths from hunger in Xinyang prefecture, Henan, and grave breaches of law by cadres (sent by Li Fuchun Oct. 24): Liu and Zhou to read it "today" and talk over what to do that afternoon.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 26, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 372 (Oct. 26, 1960; Mao''s comment of the morning of Oct. 26 (''26th, morning''), written on the report Li Fuchun sent him Oct. 24: Liu and Zhou to read it today and talk over what to do in the afternoon; printed from the manuscript; the volume does not give the number of officials). Made public: 2013. To check: Cadres of the Organization Department and the Control Commission of the Central Committee, report of Oct. 21, 1960 on the inquiry into mass deaths from hunger and grave breaches of law and discipline by cadres in Xinyang 信阳 prefecture, Henan (sent to Mao by Li Fuchun, Oct. 24) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 372 n.1). Names: Mao Zedong, Li Fuchun, Liu Shaoqi, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 26, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 372 (Oct. 26, 1960; Mao''s comment of the morning of Oct. 26 (''26th, morning''), written on the report Li Fuchun sent him Oct. 24: Liu and Zhou to read it today and talk over what to do in the afternoon; printed from the manuscript; the volume does not give the number of officials); [[w.yang-jisheng-mubei]], I, 75 (the report of four cadres of the Organization Department and the Control Commission to Li Fuchun, Oct. 21; Li''s sending it to Mao, Oct. 24; the book wonders whether the four were Li Jian''s party; Mao''s comment itself, 75 n.58); [[w.yang-jisheng-mubei]], II, 838 (Oct. 26: Mao reads the report, which says several hundred thousand starved in Xinyang, and writes that Liu and Zhou read it that day and talk over the handling in the afternoon); [[w.mao-zedong-zhuan]], V, ch. 66 n.59 (Oct. 26: the Xinyang material reaches Mao (the Henan head criticized at the meetings of Oct. 23, 25 and 28; Wang Renzhong''s diary of Oct. 26 cited)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). Check: Mubei says the report put the Xinyang dead at several hundred thousand (II, 838); Wang Congwu''s account, as Qiao Peihua took it down, has the Control Commission and the Organization Department''s evidence at 700,000-odd (I, 75), and Li Jian''s count was 1,050,000 (I, 74). To check: Cadres of the Organization Department and the Control Commission of the Central Committee, report of Oct. 21, 1960 on the inquiry into mass deaths from hunger and grave breaches of law and discipline by cadres in Xinyang 信阳 prefecture, Henan (sent to Mao by Li Fuchun, Oct. 24) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 372 n.1); Wang Renzhong 王任重, diary, Oct. 26, 1960 (王任重日记) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.59). Names: Mao Zedong, Li Fuchun, Liu Shaoqi, Zhou Enlai.'
     src:
       c: d12a2b7f
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 26, 1960: all'
         - 'w.jianguo-yilai-mao-zedong XV, 372: A'
         - 'via w.jianguo-yilai-mao-zedong XV, 372 n.1: A'
+        - 'w.yang-jisheng-mubei I, 75: A'
+        - 'w.yang-jisheng-mubei II, 838: A'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.59: ?'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:liu-shaoqi, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-10-26.china-leadership-2
     when: Oct. 26
@@ -6105,12 +6410,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at the Politburo meeting Liu Shaoqi chairs, which hears Deng Xiaoping's report on the Chinese delegation at the 26-party drafting committee, approves the delegation's work, and decides that Liu Shaoqi lead the delegation to the Moscow conference of Communist and workers' parties in November.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 362 (Oct. 27, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 27, 1960; Liu presides; Deng Xiaoping on the delegation''s work at the 26-party drafting committee; the meeting decides Liu is to lead the Chinese delegation to the conference of communist and workers'' parties in Moscow in November). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 362 (Oct. 27, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 495 (Oct. 27, 1960; Liu presides; Deng Xiaoping on the delegation''s work at the 26-party drafting committee; the meeting decides Liu is to lead the Chinese delegation to the conference of communist and workers'' parties in Moscow in November); [[w.deng-xiaoping-nianpu-1904]], III, 1591 (Oct. 27, 1960; afternoon; Deng''s report approved, the delegation''s work commended; Liu Shaoqi to lead, Deng his deputy, the Party and government delegation to the Moscow meeting in November; members Peng Zhen, Li Jingquan, Lu Dingyi, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liu Xiao, Liao Chengzhi, Liu Ningyi). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 74fe126a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 362: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 495: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1591: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
   - id: cal.1960-10-27.china-leadership-4
     when: Oct. 27
@@ -6199,6 +6505,18 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 375–376: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 375 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 375 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-10-27.china-leadership-9
+    when: Oct. 27–28
+    date: '1960-10-27'
+    thread: china-leadership
+    c: 'Mao 毛澤東, in two talks, of Xinyang 信陽: landlords, rich peasants, counterrevolutionaries and bad elements have seized leadership there and done evil. Two-thirds of the country is a fine situation, one-third a very bad one, of three kinds: feudal remnants have entered our ranks; our own men have degenerated, as in Xinyang, where nine of the ten county first secretaries took landlords'' daughters to wife; and grave bureaucracy, beating and killing from habit.'
+    n: '[[w.yang-jisheng-mubei]], I, 77 (as Zhang Desheng relayed it). Made public: 2008. To check: Zhang Desheng 張德生, first secretary of the Shaanxi provincial committee, relay of Mao''s talks of Oct. 27 and 28, 1960, Northwest Bureau materials, Gansu Provincial Archives (cited by [[w.yang-jisheng-mubei]], I, 77; no note). Check: which meeting of those days the talks were; the day of each; the calendar has Mao''s meeting of Oct. 28 on grain, Shandong and Henan and the mess halls ([[cal.1960-10-28.china-leadership]]). Names: Mao Zedong.'
+    src:
+      c: 361a1660
+      rows:
+        - 'w.yang-jisheng-mubei I, 77: all'
+        - 'via w.yang-jisheng-mubei I, 77 n.t1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-10-28.elections-1960
     when: Oct. 28
@@ -6481,6 +6799,23 @@ entries:
       - 1960-10-28T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-28.china-leadership-4
+    when: Oct. 28
+    date: '1960-10-28'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 calls Peng Zhen 彭真, Lu Dingyi 陆定一, Chen Boda 陈伯达, Kang Sheng 康生 and others together on the November meeting at Moscow 莫斯科.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1591 (Oct. 28, 1960). The words: 上午 (III, 1591). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng.'
+    src:
+      c: 013bb429
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1591: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1960-10-27T22:00Z
+      - 1960-10-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-10-29.elections-1960
     when: Oct. 29
     date: '1960-10-29'
@@ -6669,6 +7004,19 @@ entries:
       - 1960-10-29T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-29.china-leadership-6
+    when: Oct. 29
+    date: '1960-10-29'
+    thread: china-leadership
+    c: Zeng Xisheng 曾希聖 gives the Shandong 山東 committee's enlarged meeting his big report "Party, government, army and people, mobilize urgently to fight the famine and overcome the difficulties!" 黨政軍民緊急動員起來，為戰勝災荒、克服困難而鬥爭. It names farm output sharply down, grain total 16 billion jin, back at 1949; rations badly short; 4.2 million with edema; productive forces ruined; cultivated land less; the people's will to produce low. He blames Shu Tong 舒同 for not carrying out the Center's lines from Lushan 廬山, Shanghai 上海 and Beidaihe 北戴河, and for a Qingdao 青島 meeting of over 40 days that lost the season.
+    n: '[[w.yang-jisheng-mubei]], I, 455, 459–460. Made public: 2008. To check: Zeng Xisheng, talk at the Shandong Provincial Committee''s enlarged meeting, "Party, government, army and people, mobilize urgently to fight the famine and overcome the difficulties!" Oct. 29, 1960 (cited by [[w.yang-jisheng-mubei]], I, 455 n.27). Check: the book calls it a big report (I, 459) and the note a talk at the enlarged meeting; the book''s gloss that Zeng blames only two men is its own (I, 460).'
+    src:
+      c: 9ed8bf65
+      rows:
+        - 'w.yang-jisheng-mubei I, 455: all'
+        - 'w.yang-jisheng-mubei I, 459-460: all'
+        - 'via w.yang-jisheng-mubei I, 455 n.27: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-30.cuba
     when: Oct. 30
     date: '1960-10-30'
@@ -6806,6 +7154,18 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 293: all'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
+  - id: cal.1960-10-30.china-leadership-2
+    when: Oct. 30
+    date: '1960-10-30'
+    thread: china-leadership
+    c: Yang 楊, director at the Shanghai Bureau 上海局, reports to the prefectural committee on the situation in Feng 豐, Pei 沛 and Donghai 東海 counties. The book takes from it that Pei's grain fell from 349.86 million jin in 1955 to 260 million in 1960, and Feng's draft animals from 72,000 to 31,000.
+    n: '[[w.yang-jisheng-mubei]], I, 384. Made public: 2008. To check: Director Yang of the Shanghai Bureau, report to the prefectural committee on the situation in Feng, Pei and Donghai counties, Oct. 30, 1960 (cited by [[w.yang-jisheng-mubei]], I, 384 n.36). Check: the note gives the director''s surname only; the figures are the book''s, from the passage the note closes.'
+    src:
+      c: 5118a222
+      rows:
+        - 'w.yang-jisheng-mubei I, 384: all'
+        - 'via w.yang-jisheng-mubei I, 384 n.36: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-31.economy
     when: Oct. 31
     date: '1960-10-31'
@@ -7552,3 +7912,112 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 378–379: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 378 n.1: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1960-10.china-leadership-6
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: Li Jian 李堅 of the Central Control Commission 中央監委, with three others including Tao Mosheng 陶陌生 of the Organization Department 中央組織部, goes to Xinyang 信陽 a second time; the count they take is 1,000,000 dead. At Yuanyang 原陽 he is told by telephone that the Center wants him back to report, and on his return reports to An Ziwen 安子文, who then writes Zhou Enlai 周恩來.
+    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Li Jian, interview with Yang Jisheng, Beijing, Mar. 2001 (cited by [[w.yang-jisheng-mubei]], I, 72–74; no note). Check: the day; whether An Ziwen''s written report to Zhou is the one Wang Congwu''s account puts the same evening as An''s oral report (I, 75). Names: Zhou Enlai.'
+    src:
+      c: f3ba8d01
+      rows:
+        - 'w.yang-jisheng-mubei I, 74: all'
+        - 'via w.yang-jisheng-mubei I, 74 n.t1: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-10.china-leadership-7
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: 'An Ziwen 安子文, deputy head of the Organization Department 中央組織部, reports to Zhou Enlai 周恩來 on Xinyang 信陽 the evening the Control Commission 中央監委 and the Organization Department''s leaders decide the matter is grave: 700,000-odd dead on the evidence found.'
+    n: '[[w.yang-jisheng-mubei]], I, 75 (Wang Congwu''s account, as Qiao Peihua took it down Oct. 30, 1990). The words: 當天晚上 (I, 75). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]], which the book cites for the passage, I, 76 n.59). To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59); Wang Congwu 王從吾, interview with Qiao Peihua of the Henan Party school, Oct. 30, 1990 (cited by [[w.yang-jisheng-mubei]], I, 75; no note). Check: the day; the Control Commission''s and the Organization Department''s survey the account describes may be Li Jian''s second trip or the report of Oct. 21 that Li Fuchun sent Mao Oct. 24 ([[cal.1960-10-26.china-leadership]]). Names: Zhou Enlai.'
+    src:
+      c: 1fe2eb0a
+      rows:
+        - 'w.yang-jisheng-mubei I, 75: all'
+        - 'via w.yang-jisheng-mubei I, 75 n.t1: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-10.china-leadership-8
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: Wang Congwu 王從吾, deputy secretary of the Central Control Commission 中央監察委員會, writes Zhou Enlai 周恩來 a report on Xinyang 信陽, after An Ziwen's 安子文 oral report.
+    n: '[[w.yang-jisheng-mubei]], I, 75–76 (Wang Congwu''s account, as Qiao Peihua gives it). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]]). To check: Control Commission (Wang Congwu), written report on the Xinyang incident to Zhou Enlai, Oct. 1960 (cited by [[w.yang-jisheng-mubei]], I, 75–76; no note); [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59). Check: the day. Names: Zhou Enlai.'
+    src:
+      c: 2a7127ab
+      rows:
+        - 'w.yang-jisheng-mubei I, 75-76: all'
+        - 'via w.yang-jisheng-mubei I, 75 n.t1: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-10.china-leadership-10
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: Zhou Enlai 周恩來, having read Wang Congwu's 王從吾 report, tells Mao 毛澤東 of the Xinyang 信陽 incident.
+    n: '[[w.yang-jisheng-mubei]], I, 76 (Wang Congwu''s account, as Qiao Peihua gives it). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]]). To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59). Check: the day; whether this is the meeting of Mao, Liu, Zhou and Tao Zhu after midnight Oct. 25 ([[cal.1960-10-25.china-leadership]]). See [[cal.1960-10.china-leadership-8]]. Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 74b8c6de
+      rows:
+        - 'w.yang-jisheng-mubei I, 76: all'
+        - 'via w.yang-jisheng-mubei I, 76 n.t1: all'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-10.china-leadership-9
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: 'Zhou Enlai 周恩來, on Mao''s 毛澤東 view, calls an urgent meeting of the State Council 國務院 to report the Xinyang 信陽 incident. He says, in pain, that he is responsible: no one reported it and the Center did not know. He decides at once on a Central work group, Wang Congwu 王從吾 leader, Xu Zirong 徐子榮, a vice-minister of Public Security 公安部, and An Ziwen 安子文, deputy head of the Organization Department 中央組織部, deputy leaders, with several dozen drawn from three departments.'
+    n: '[[w.yang-jisheng-mubei]], I, 76. Made public: 1998. To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59); Wang Congwu, interview with Qiao Peihua, Oct. 30, 1990 (cited by [[w.yang-jisheng-mubei]], I, 75; no note). Check: the day, given only as the day after Zhou told Mao ([[cal.1960-10.china-leadership-10]]); the book adds that the group spent over a month in Xinyang and wrote the Center and the State Council a formal report, with scattered reports attached. Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 3277c6f5
+      rows:
+        - 'w.yang-jisheng-mubei I, 76: all'
+        - 'via w.yang-jisheng-mubei I, 76 n.t1: all'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-10-31.china-leadership-4
+    when: Oct. 31
+    date: '1960-10-31'
+    time: 1960-10-31T10:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 at Liu Shaoqi's 刘少奇 meeting on revising Liu's speech for the November meeting at Moscow 莫斯科, from 6 p.m. to 2 a.m.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1591 (Oct. 31, 1960). The words: 下午六时至次日晨二时 (III, 1591). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Liu Shaoqi.'
+    src:
+      c: e11f49c8
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1591: all'
+    tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-10.china-leadership-11
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: Mao 毛泽东 stops eating meat, to share the country's want and save the meat for sale abroad. His head nurse 护士长 Wu Xujun 吴旭君 counts his calories each day. His weight falls to 75 kilograms.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 66 n.56 (the interview with Wu Xujun). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Interview with Wu Xujun 吴旭君, Mao''s head nurse 护士长, May 21, 2002 (访问吴旭君谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.56); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the day in October; the book says from October. Names: Mao Zedong.'
+    src:
+      c: 76c0d049
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 66: all'
+        - 'via w.mao-zedong-zhuan V, ch.66 n.56: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-10.china-leadership-12
+    when: Oct.
+    date: 1960-10
+    thread: china-leadership
+    c: 'Zeng Xisheng 曾希聖 proposes a further step: groups under every production team, to avoid great-crowd working.'
+    n: '[[w.yang-jisheng-mubei]], I, 332. Made public: 2008. To check: [[w.dangdai-zhongguo-anhui]], the part on the reform of the rural economic system; [[w.anhui-tuixing-zerentian-de]], p. 7 (the section''s sources, named by [[w.yang-jisheng-mubei]], I, 331 n.101). Check: the day is not given; the second sentence repeats what the calendar holds for Oct. 17 (Mao with Tan Zhenlin, Zeng Xisheng and Liao Luyan on Shandong).'
+    src:
+      c: 1709af3f
+      rows:
+        - 'w.yang-jisheng-mubei I, 332: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-31.china-leadership-5
+    when: Oct. 31
+    date: '1960-10-31'
+    thread: china-leadership
+    c: 'Li Youwen 栗又文, secretary of the Jilin 吉林 committee for finance and trade, tells the committee''s three-level cadre meeting 省委三級幹部會議 how tight the province''s grain supply and demand is, and that the national levy must be met to support the whole country and the disaster areas while the people''s livelihood is arranged. His five-point line: low standards, melons and vegetables in place of grain, good mess halls, grain well held, work and rest balanced.'
+    n: '[[w.yang-jisheng-mubei]], I, 343. Made public: 2008. To check: Li Youwen, concluding speech on grain work at the Jilin Provincial Committee''s three-level cadre meeting, Oct. 31, 1960, circulated by the committee (cited by [[w.yang-jisheng-mubei]], I, 343 n.7).'
+    src:
+      c: c369c8af
+      rows:
+        - 'w.yang-jisheng-mubei I, 343: all'
+        - 'via w.yang-jisheng-mubei I, 343 n.7: all'
+    tags: [polity:prc, vis:only:prc]

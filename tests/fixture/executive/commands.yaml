@@ -1,0 +1,179 @@
+# The unified and specified commands, and the subordinate commands of the series, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: commands
+name: Unified and specified commands
+under: defense
+order: 50
+law:
+  - act: Unified Command Plan (Outline Command Plan)
+    date: '1946-12-14'
+    until: '1953-07-24'
+    tags: [creates]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President: unified commands in the Pacific, the Far East, Alaska, the Caribbean, and the Atlantic, each under one commander responsible to the Joint Chiefs of Staff; the Strategic Air Command brought under the Joint Chiefs.'
+  - act: National Security Act Amendments of 1949
+    date: '1949-08-10'
+    until: '1956-08-10'
+    tags: [creates]
+    cite: ch. 412, § 7(b), 63 Stat. 578, 582
+    usc: 5 U.S.C. § 171f(b)(3) (1952)
+    does: 'Among the duties of the Joint Chiefs of Staff: establishment of unified commands in strategic areas.'
+  - act: Unified Command Plan (SM-1419-53)
+    date: '1953-07-24'
+    until: '1955-03-09'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Revised plan, approved by the Secretary of Defense June 30, 1953: the European Command''s logistic and administrative responsibilities exercised on the Secretary''s authority. Executive agents (a military department for each command) designated by the Secretary, Jan. 15, 1954.'
+  - act: Unified Command Plan (SM-180-55)
+    date: '1955-03-09'
+    until: '1956-07-03'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: Revised for the Continental Air Defense Command (Sept. 1, 1954) and the early warning system.
+  - act: Unified Command Plan (SM-548-56)
+    date: '1956-07-03'
+    until: '1957-10-24'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President: the Far East Command disestablished, effective July 1, 1957, its area to the Pacific Command; the Northeast Command disestablished Sept. 1, 1956; U.S. Air Forces, Europe, no longer a specified command (July 1, 1956).'
+  - act: Unified Command Plan (SM-749-57)
+    date: '1957-10-24'
+    until: '1958-09-08'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: Revised after the North American Air Defense Command (Sept. 12, 1957), its commander also Commander in Chief, Continental Air Defense Command.
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [creates, powers]
+    cite: Pub. L. 85-599, § 5(b), 72 Stat. 514, 518
+    usc:
+      - 5 U.S.C. § 171a(j) (1958)
+      - 10 U.S.C. § 124 (1964)
+    does: The President, through the Secretary of Defense, with the advice of the Joint Chiefs, establishes unified or specified combatant commands and determines their force structure; the commands responsible to the President and the Secretary; assigned forces under the full operational command of the commander; administration and support by the military departments.
+  - act: Unified Command Plan (SM-643-58)
+    date: '1958-09-08'
+    until: '1961-02-04'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President Sept. 4, 1958, under the Reorganization Act: the chain of command from the President and the Secretary through the Joint Chiefs to the commanders; the Continental Air Defense Command a unified command.'
+  - act: Unified Command Plan (SM-105-61)
+    date: '1961-02-04'
+    until: '1963-11-20'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President Dec. 30, 1960: a commander''s emergency authority to assume operational command of forces scheduled for war plans deleted. The Strike Command established Jan. 1, 1962.'
+  - act: Unified Command Plan (SM-1400-63)
+    date: '1963-11-20'
+    effective: '1963-12-01'
+    until: '1971-06-30'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: The Strike Command also given the Middle East, Southern Asia, and Africa south of the Sahara (CINCMEAFSA); the Naval Forces, Eastern Atlantic and Mediterranean, disestablished as a specified command; the Caribbean Command renamed Southern Command (June 6, 1963).
+  - act: Unified Command Plan (SM-422-71)
+    date: '1971-06-30'
+    effective: '1972-01-01'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President Apr. 21, 1971: the Strike Command replaced by the Readiness Command; the Middle East to the European Command, southern Asia and the Indian Ocean to the Pacific Command; the Southern Command kept.'
+n: 'Commanders in chief of the unified and specified commands, and the subordinate commands of the series. Each commander is an officer assigned to the post; the post itself needs no confirmation, but his grade (general or admiral, with its office) does. Dates from the commands'' lists of commanders (Wikipedia, with its sources), checked against the FRUS persons lists where they give dates. Establishment dates: the JCS History Office''s History of the Unified Command Plan, 1946–1999, app. I.'
+offices:
+  - id: cincpac
+    title: Commander in Chief, Pacific (CINCPAC)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: Established Jan. 1, 1947. Also Commander in Chief, Pacific Fleet, until Jan. 14, 1958. The Far East Command's area added July 1, 1957.
+    holders:
+      - name: Felt, Harry D.
+        rank: Adm., USN
+        from: '1958-07-31'
+        to: '1964-06-30'
+        out: Retired.
+        n: From Vice Chief of Naval Operations.
+        src:
+          - 'Wikipedia: United States Indo-Pacific Command'
+          - FRUS persons list
+  - id: cinclant
+    title: Commander in Chief, Atlantic (CINCLANT)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: Established Dec. 1, 1947. Held with Commander in Chief, U.S. Atlantic Fleet (navy-staff), and NATO's Supreme Allied Commander, Atlantic (from Jan. 30, 1952).
+    holders:
+      - name: Dennison, Robert L.
+        rank: Adm., USN
+        from: '1960-02-28'
+        to: '1963-04-30'
+        out: Retired.
+        n: From Commander in Chief, U.S. Naval Forces, Eastern Atlantic and Mediterranean.
+        src:
+          - 'Wikipedia: United States Atlantic Command'
+          - 'Wikipedia: Supreme Allied Commander Atlantic'
+  - id: cinceur
+    title: Commander in Chief, U.S. European Command (USCINCEUR)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: The European Command a full unified command from Aug. 1, 1952 (a European Command under the Army from Mar. 15, 1947). Its commander also NATO's Supreme Allied Commander, Europe (saceur).
+    holders:
+      - name: Norstad, Lauris
+        rank: Gen., USAF
+        from: '1956-11-20'
+        to: '1962-11-01'
+        out: Resigned; retired.
+        n: From Air Deputy, SHAPE. The President accepted his resignation July 19, 1962 (APP); SACEUR to Jan. 1, 1963.
+        src:
+          - 'Wikipedia: United States European Command'
+          - https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-general-norstad-supreme-commander-united-states-and-allied
+  - id: saceur
+    title: Supreme Allied Commander, Europe (SACEUR)
+    rank: military
+    appt: DES
+    under: cinceur
+    group: Unified commands
+    n: A NATO command, not an office of the United States; held by the U.S. Commander in Chief, Europe, on the North Atlantic Council's appointment at the President's nomination.
+    holders:
+      - name: Norstad, Lauris
+        rank: Gen., USAF
+        from: '1956-11-20'
+        to: '1963-01-01'
+        out: Retired.
+        src:
+          - 'Wikipedia: Supreme Allied Commander Europe'
+  - id: cincsac
+    title: Commander in Chief, Strategic Air Command (CINCSAC)
+    rank: military
+    appt: MIL
+    group: Specified commands
+    n: A specified command, recognized in the plan of Dec. 14, 1946. Its commander also Director of Strategic Target Planning (Joint Strategic Target Planning Staff), from Aug. 1960.
+    holders:
+      - name: Power, Thomas S.
+        rank: Gen., USAF
+        from: '1957-07-01'
+        to: '1964-11-30'
+        out: Retired.
+        n: Also Director of Strategic Target Planning, from Aug. 1960.
+        src:
+          - 'Wikipedia: List of commanders-in-chief of the Strategic Air Command'
+  - id: maag-vietnam
+    title: Chief, Military Assistance Advisory Group, Indochina
+    titles:
+      - title: Chief, Military Assistance Advisory Group, Vietnam
+        from: '1955-11-01'
+    rank: military
+    appt: MIL
+    under: comusmacv
+    group: Subordinate unified and other commands
+    until: '1964-05-15'
+    n: MAAG Indochina established Sept. 17, 1950; MAAG Vietnam from Nov. 1, 1955; under MACV from Feb. 8, 1962; merged into MACV May 15, 1964.
+    holders:
+      - name: McGarr, Lionel C.
+        rank: Lt. Gen., USA
+        from: '1960-09-01'
+        to: '1962-03-05'
+        out: Retired.
+        n: 'FRUS: Timmes chief from Mar. 6, 1962; Wikipedia gives July 1962.'
+        src:
+          - 'Wikipedia: Lionel C. McGarr'
+          - FRUS persons list

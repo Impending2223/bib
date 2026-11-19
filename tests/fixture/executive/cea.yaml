@@ -1,0 +1,87 @@
+# The Council of Economic Advisers. Kept by hand.
+# Dates of office: the oath and separation dates in the Council's annual reports to the President,
+# printed with the Economic Report (ERP 1962-1975, FRASER), cited as "ERP 1975, p. 235".
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: cea
+name: Council of Economic Advisers
+under: eop
+order: 30
+law:
+  - act: Employment Act of 1946
+    date: '1946-02-20'
+    cite: ch. 33, § 4, 60 Stat. 23, 24
+    usc: 15 U.S.C. § 1023 (1958)
+    tags: [creates, appointment, pay, powers]
+    does: Creates in the Executive Office of the President a Council of Economic Advisers of three members, appointed by the President by and with the advice and consent of the Senate, each exceptionally qualified to analyze and interpret economic developments; $15,000 a year; the President designates one chairman and one vice chairman. The Council assists in the Economic Report, gathers information on economic trends, appraises the Government's programs, and reports to the President.
+  - act: Reorganization Plan No. 9 of 1953
+    date: '1953-08-01'
+    cite: 67 Stat. 644
+    usc: 15 U.S.C. § 1023 note (1958)
+    url: https://www.presidency.ucsb.edu/documents/special-message-the-congress-transmitting-reorganization-plan-9-1953-concerning-the
+    tags: [powers, reorganizes]
+    does: Transfers to the Chairman the Council's functions of employing and fixing the pay of its staff (§ 4(b)) and of reporting to the President (§ 4(c)); abolishes the vice chairman.
+offices:
+  - id: chairman
+    title: Chairman of the Council of Economic Advisers
+    rank: head
+    appt: DES
+    level: II
+    n: A member, nominated and confirmed as such, designated chairman by the President.
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 4, 63 Stat. 880
+        does: $16,000 a year ("members of the Council of Economic Advisers").
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 105(3), 70 Stat. 736, 737
+        usc: 5 U.S.C. § 2204 (1958)
+        does: $20,500 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(9), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(9)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Saulnier, Raymond J.
+        from: '1956-12-03'
+        to: '1961-01-20'
+        out: Resigned.
+        n: A member from Apr. 4, 1955.
+        src:
+          - ERP 1958
+          - ERP 1962
+          - ERP 1975, p. 235
+      - name: Heller, Walter W.
+        from: '1961-01-29'
+        to: '1964-11-15'
+        out: Resigned; to the University of Minnesota.
+        n: 'Check: ERP 1962 says he took office Jan. 27, 1961; the later lists of members give the oath on Jan. 29.'
+        src:
+          - ERP 1962
+          - ERP 1965
+          - ERP 1975, p. 235

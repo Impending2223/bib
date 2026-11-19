@@ -161,13 +161,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, korea-leadership]
     c: 'Mao presides over the Politburo Standing Committee, Juxiang Shuwu, evening: hears Zhou Enlai on his briefing of the socialist states'' ambassadors and chargés on sending a Party and government delegation to the October Revolution celebrations, and Deng Xiaoping on his visit to Korea. Mao: the policy is "push and watch"; the push not to be much hoped from, the watch still important; the ten days past were watching; the trip to Moscow is watching too, to see why Khrushchev was removed and what comes; but not too earnest, chiefly a friendly gesture.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 1, 1964. [[w.zhou-enlai-nianpu-1949]], II, 677 (Nov. 1, 1964: Zhou goes to Mao''s for a meeting or talk); [[w.lengxi-shinian-lunzhan-1956-1966]], 846–849 (Nov. 1 at Mao''s home: Deng reports Pyongyang; Zhou his talks with the ambassadors; Mao: "one push, two watch," no great hopes, a friendly attitude; the meetings of Nov. 1, 3 and 4 on the delegation). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 1, 1964. [[w.zhou-enlai-nianpu-1949]], II, 677 (Nov. 1, 1964: Zhou goes to Mao''s for a meeting or talk); [[w.lengxi-shinian-lunzhan-1956-1966]], 846–849 (Nov. 1 at Mao''s home: Deng reports Pyongyang; Zhou his talks with the ambassadors; Mao: "one push, two watch," no great hopes, a friendly attitude; the meetings of Nov. 1, 3 and 4 on the delegation); [[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 1, 1964; Deng at the Politburo Standing Committee meeting Mao presides over, reporting on his talks with Kim Il Sung). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev.'
     src:
       c: b35763a8
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 1, 1964: all'
         - 'w.zhou-enlai-nianpu-1949 II, 677: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 846–849: A, B, C, D, E, F'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: ?'
     tags: [name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:khrushchev-nikita-s, polity:prc, vis:only:prc]
   - id: cal.1964-11-01.china-leadership-2
     when: Nov. 1
@@ -1838,6 +1839,18 @@ entries:
       - 1964-11-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-11-04.china-leadership-9
+    when: Nov. 4
+    date: '1964-11-04'
+    thread: china-leadership
+    also: [vietnam-hanoi, soviet-union]
+    c: Deng Xiaoping 邓小平 meets Phạm Văn Đồng 范文同, Prime Minister of the DRV, passing through Peking 北京 to the October Revolution celebrations in Moscow 莫斯科, and exchanges views on Khrushchev's 赫鲁晓夫 fall.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 4, 1964). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Khrushchev.'
+    src:
+      c: 99c68d52
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc+drv]
   - id: cal.1964-11-05.republican-party
     when: Nov. 5
     date: '1964-11-05'
@@ -2015,12 +2028,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao presides over the Politburo Standing Committee at 3 a.m., Juxiang Shuwu, again on the line for the Party and government delegation under Zhou Enlai and He Long to the 47th anniversary of the October Revolution at Moscow; it leaves Beijing that day.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 5, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 849–853 (the last meeting before Zhou left, Nov. 4: Mao on stepping back, ending the polemic for now, great-power chauvinism the core, Stalin in 1949–50, the joint fleet in 1958; the delegation to observe, not to bargain; Wu gives the day as Nov. 4, the Mao chronology 3 a.m. Nov. 5). Made public: 1999. Names: Mao Zedong, Zhou Enlai, He Long.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 5, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 849–853 (the last meeting before Zhou left, Nov. 4: Mao on stepping back, ending the polemic for now, great-power chauvinism the core, Stalin in 1949–50, the joint fleet in 1958; the delegation to observe, not to bargain; Wu gives the day as Nov. 4, the Mao chronology 3 a.m. Nov. 5); [[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 5, 1964; 3 a.m., 晨三时; Deng at the Politburo Standing Committee meeting Mao presides over, on the delegation of the Party and government under Zhou Enlai and He Long to the forty-seventh anniversary of the October Revolution). Made public: 1999. Names: Mao Zedong, Zhou Enlai, He Long.'
     src:
       c: 94ac4b44
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 5, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 849–853: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: ?'
     tags: [name:mao-zedong, name:zhou-enlai, name:he-long, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -2036,7 +2050,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: Zhou and He Long lead the Chinese party and government delegation from Beijing to Moscow; the Vietnamese delegation under Phạm Văn Đồng on the same plane.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 684 (Nov. 5, 1964); [[w.macfarquhar-maos-last-revolution]], 9 (Zhou''s delegation sent to Moscow); [[w.zhou-enlai-waijiao-huodong]], 427 (Nov. 5, 1964; 上午, 率党政代表团赴莫斯科; 刘少奇、邓小平、彭真等领导人在机场送行; 下午6时45分, 抵达莫斯科, 以范文同总理为首的越南党政代表团同机到达, 柯西金在机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 371–372 (Nov. 5–13, 1964; the Chinese Party and government delegation, Zhou leading it and He Long, Vice-Premier and Marshal, deputy head, goes to the Soviet Union at the invitation of the CPSU Central Committee and Soviet government for the celebrations of the 47th anniversary of the October Revolution; the delegation attends the Moscow meeting of celebration and holds three talks, on Nov. 9, 11 and 12, with First Secretary Brezhnev, Kosygin, Chairman of the Council of Ministers, and other Soviet leaders); [[w.lengxi-shinian-lunzhan-1956-1966]], 853–854 (Nov. 5 morning; with He Long, Kang Sheng and Liaison Department staff); [[w.macfarquhar-origins-of-the-cultural]], III, 364–65 (the Chinese send none of the leaders prominent in the dispute; Zhou and He Long, with Wu Xiuquan, head a delegation of 50 to 60 members, padded to show the mission''s weight). Names: Zhou Enlai, He Long, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 684 (Nov. 5, 1964); [[w.macfarquhar-maos-last-revolution]], 9 (Zhou''s delegation sent to Moscow); [[w.zhou-enlai-waijiao-huodong]], 427 (Nov. 5, 1964; 上午, 率党政代表团赴莫斯科; 刘少奇、邓小平、彭真等领导人在机场送行; 下午6时45分, 抵达莫斯科, 以范文同总理为首的越南党政代表团同机到达, 柯西金在机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 371–372 (Nov. 5–13, 1964; the Chinese Party and government delegation, Zhou leading it and He Long, Vice-Premier and Marshal, deputy head, goes to the Soviet Union at the invitation of the CPSU Central Committee and Soviet government for the celebrations of the 47th anniversary of the October Revolution; the delegation attends the Moscow meeting of celebration and holds three talks, on Nov. 9, 11 and 12, with First Secretary Brezhnev, Kosygin, Chairman of the Council of Ministers, and other Soviet leaders); [[w.lengxi-shinian-lunzhan-1956-1966]], 853–854 (Nov. 5 morning; with He Long, Kang Sheng and Liaison Department staff); [[w.macfarquhar-origins-of-the-cultural]], III, 364–65 (the Chinese send none of the leaders prominent in the dispute; Zhou and He Long, with Wu Xiuquan, head a delegation of 50 to 60 members, padded to show the mission''s weight); [[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 5, 1964; Deng with Liu Shaoqi, Peng Zhen and others at the airport sees off the delegation under Zhou Enlai and He Long). Names: Zhou Enlai, He Long, Phạm Văn Đồng.'
     src:
       c: 9afa9dce
       rows:
@@ -2046,6 +2060,7 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 371–372: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 853–854: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 364–65: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: A'
     tags: [name:zhou-enlai, name:he-long, name:pham-van-dong, polity:prc, polity:ussr, polity:drv]
     time_range:
       - 1964-11-04T22:00Z
@@ -2152,6 +2167,30 @@ entries:
       - 1964-11-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-11-05.china-leadership-9
+    when: Nov. 5
+    date: '1964-11-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 sends Mao Zedong 毛泽东 and Liu Shaoqi 刘少奇, for their reading, the draft of Peng Zhen's 彭真 speech for the October Revolution reception at the Soviet embassy in Peking 北京, saying that it is a collective revision (Peng Zhen, Chen Boda 陈伯达 and Lu Dingyi 陆定一 took part).
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 5, 1964). The words: 批报 (III, 1834). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi, Peng Zhen, Chen Boda, Lu Dingyi.'
+    src:
+      c: 93067d38
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:peng-zhen, name:chen-boda, name:lu-dingyi, vis:only:prc]
+  - id: cal.1964-11-05.china-leadership-10
+    when: Nov. 5
+    date: '1964-11-05'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Deng Xiaoping 邓小平 sends Mao Zedong 毛泽东 and Liu Shaoqi 刘少奇 the report of the Operations Department of the General Staff of the People's Liberation Army on the activity of the American fleet in the South China Sea.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 5, 1964). The words: 批报 (III, 1834). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi.'
+    src:
+      c: 628ff919
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-11-06.civil-rights-organizations
     when: Nov. 6–12
     date: '1964-11-06'
@@ -2417,6 +2456,22 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 412: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-11-06.china-leadership-13
+    when: Nov. 6
+    date: '1964-11-06'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 watches the Peking 北京 opera *The Red Lantern* 红灯记 《红灯记》.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1834 (Nov. 6, 1964). The words: 晚 (III, 1834). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: c131d72f
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1834: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1964-11-06T11:00Z
+      - 1964-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-11-07.vietnam-2
     when: Nov. 7
     date: '1964-11-07'
@@ -2512,12 +2567,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides over the Politburo Standing Committee, Yinian Tang, afternoon, on Brezhnev''s speech of Nov. 6. Mao: the new CPSU leadership is weak and timid, will not break with Khrushchev, will not announce the planned meeting; they removed him from long-stored discontent, hurriedly, without clearing his errors or his line; no program among them. They may improve or worsen, or change a little with the line unchanged. Keep watching.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 7, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 855–860 (3 p.m., Yinian Tang west hall, Wu briefing Brezhnev''s report from the TASS summary: the "need" for another conference "ripe," no date; Deng: vague on Khrushchev''s errors; Liu on the 1960 Declaration; Mao: weak and timid, will not break with Khrushchev; no program; may improve or worsen). Made public: 1999. Names: Mao Zedong, Brezhnev, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 7, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 855–860 (3 p.m., Yinian Tang west hall, Wu briefing Brezhnev''s report from the TASS summary: the "need" for another conference "ripe," no date; Deng: vague on Khrushchev''s errors; Liu on the 1960 Declaration; Mao: weak and timid, will not break with Khrushchev; no program; may improve or worsen); [[w.deng-xiaoping-nianpu-1904]], III, 1835 (Nov. 7, 1964; afternoon, 下午; Deng at the Politburo Standing Committee meeting Mao presides over, on Brezhnev''s speech of Nov. 6 at the meeting for the forty-seventh anniversary of the October Revolution). Made public: 1999. Names: Mao Zedong, Brezhnev, Khrushchev.'
     src:
       c: cc869d21
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 7, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 855–860: A, B, C, D, E, F'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1835: ?'
     tags: [name:mao-zedong, name:brezhnev-leonid, name:khrushchev-nikita-s, polity:prc, vis:only:prc]
   - id: cal.1964-11-07.china-leadership-2
     when: Nov. 7
@@ -2594,13 +2650,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking, the evening. Liu Shaoqi leads Politburo members, vice-premiers and vice-chairmen of the NPC Standing Committee to the Soviet embassy's reception for the 47th anniversary of the October Revolution.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 854, 860 (decided at the meeting of Nov. 4; "a friendly gesture" not made in several years, 854; Liu at the embassy "that evening," 860); [[w.macfarquhar-origins-of-the-cultural]], III, 364 (Liu Shaoqi, Deng Xiaoping and Peng Zhen go to the Soviet embassy''s celebration in Beijing). To check: [[w.xiuquan-huiyi-yu-huainian]], 376–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 364 n.104). Names: Liu Shaoqi. Check: Wu tells of the reception at 854, in the account of Nov. 5, and at 860 as the evening of Nov. 7.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 854, 860 (decided at the meeting of Nov. 4; "a friendly gesture" not made in several years, 854; Liu at the embassy "that evening," 860); [[w.macfarquhar-origins-of-the-cultural]], III, 364 (Liu Shaoqi, Deng Xiaoping and Peng Zhen go to the Soviet embassy''s celebration in Beijing); [[w.deng-xiaoping-nianpu-1904]], III, 1835 (Nov. 7, 1964; 晚; Deng attends the reception the Soviet ambassador Chervonenko 契尔沃年科 gives for the forty-seventh anniversary of the October Revolution). To check: [[w.xiuquan-huiyi-yu-huainian]], 376–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 364 n.104). Names: Liu Shaoqi. Check: Wu tells of the reception at 854, in the account of Nov. 5, and at 860 as the evening of Nov. 7.'
     src:
       c: 2909180b
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 854, 860: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 364: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 364 n.104: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1835: ?'
     tags: [polity:prc, name:liu-shaoqi]
     time_range:
       - 1964-11-07T11:00Z
@@ -2712,6 +2769,23 @@ entries:
         - 'w.yang-shangkun-riji II, 412: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-11-07.china-leadership-13
+    when: Nov. 7
+    date: '1964-11-07'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平 meets the American Black leader Robert Williams 罗伯特·威廉 and his wife.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1835 (Nov. 7, 1964). The words: 上午 (III, 1835). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the name in Latin letters (Robert F. Williams, if the same).'
+    src:
+      c: b5aac13d
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1835: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1964-11-06T22:00Z
+      - 1964-11-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-11-08.vietnam-saigon
     when: Nov. 8
     date: '1964-11-08'
@@ -2790,12 +2864,13 @@ entries:
     thread: china-leadership
     also: [korea-leadership, soviet-union]
     c: 'Mao, Hall of the People, Room 118, evening: with Liu Shaoqi, Deng Xiaoping and Peng Zhen receives Kim Il Sung, for an exchange on why Khrushchev fell, who counts in the new CPSU leadership, and where it will go.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 8, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 883 (Kim Il Sung, in Peking Nov. 8 on his way to Vietnam, talks with Mao: who the plotters were and what the new CPSU leaders would do; no conclusion). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kim Il Sung, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 8, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 883 (Kim Il Sung, in Peking Nov. 8 on his way to Vietnam, talks with Mao: who the plotters were and what the new CPSU leaders would do; no conclusion); [[w.deng-xiaoping-nianpu-1904]], III, 1836 (Nov. 8, 1964; evening, 晚上; Deng with Mao, Liu Shaoqi and Peng Zhen meets Kim Il Sung, exchanging views on why Khrushchev fell, who is chief among the new Soviet leaders and their coming policy; the second talk on the 16th). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kim Il Sung, Khrushchev.'
     src:
       c: bf9bcd58
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 8, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 883: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1836: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kim-il-sung, name:khrushchev-nikita-s, polity:prc, polity:dprk, vis:only:prc+dprk]
   - id: cal.1964-11-08.china-leadership-2
     when: Nov. 8
@@ -2831,11 +2906,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Morning. Mao presides over the Standing Committee in the Yinian Tang on the delegation''s cable. Liu, Deng and Peng Zhen are angry; the new CPSU leaders still do Khrushchev''s thing, though Malinovsky''s talk with Chuikov shows they differ. Agreed: a formal, serious protest in the Central Committee''s name, demanding a formal reply; take the offensive in Moscow, "not fear a row"; Mao: "now they have a pigtail in our hands"; even if they apologize no other business, no conference, no preparatory meeting, no bilateral talks; the polemic goes on after the holiday. Deng dictates, Wu writes, a telegram to the delegation: protest, offensive on the reversal of friend and foe; no talk of the conference or bilateral talks; no stop to the polemic unless they admit error. Mao reads it; Yang Shangkun sends it by "AAAA" cable, to reach the delegation before the Soviet leaders come to eat.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 862–865 (the meeting; the three points of the telegram; the sending). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 862–865 (the meeting; the three points of the telegram; the sending); [[w.deng-xiaoping-nianpu-1904]], III, 1835–1836 (Nov. 8, 1964; morning, 上午; Deng at the Politburo Standing Committee meeting; he says China can use the Malinovsky incident (footnote 1: at the Soviet reception of Nov. 7 Defense Minister Malinovsky told He Long that the Soviets had now got Khrushchev out and the Chinese should do the same with Mao, to be reconciled; He Long rejected it and told Zhou, who told Mikoyan it was a serious provocation) to lay the questions out, to show that the delegation went to Moscow for unity against the enemy and proposed that all the socialist states send delegations to show unity before imperialism; the Soviet side''s treating China as an enemy, wishing to meddle in its internal affairs and overthrow its leadership, turns enemy and friend upside down and wrecks unity). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
     src:
       c: 613d8aa0
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 862–865: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1835–1836: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_range:
       - 1964-11-07T22:00Z
@@ -2906,6 +2982,20 @@ entries:
       - 1964-11-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-11-08.china-leadership-9
+    when: Nov. 8
+    date: '1964-11-08'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1964-11-08.china-leadership-4
+    c: 'Deng Xiaoping 邓小平, after the meeting and on Mao Zedong''s 毛泽东 instruction, drafts at once a telegram to the Chinese Party and government delegation: (1) agrees that the delegation put a formal protest to the CPSU Central Committee 中央 for a formal answer; (2) the delegation is to seize on the Malinovsky incident and go on the offensive, blaming the new Soviet leadership for wrecking unity and continuing a Khrushchevism without Khrushchev 赫鲁晓夫; (3) in talks with the new leaders it is not to raise an international conference and its preparatory meeting, or Sino-Soviet party talks.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1836 (Nov. 8, 1964). The words: 会议结束后 (III, 1836). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Khrushchev.'
+    src:
+      c: 7741fab9
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1836: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1964-11-09.japan-and-korea
     when: Nov. 9
     date: '1964-11-09'
@@ -3202,12 +3292,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides over the Politburo Standing Committee, Yinian Tang, evening. From the first Moscow talks (Nov. 9): the CPSU group wants to trade a show of unity for an end to the open polemic and for the legitimacy of the December meeting; refuse to discuss a conference of parties, say China will not attend the December preparatory meeting. Mao: no one expected Khrushchev to fall so soon; China was right in March, in the talks with the Romanians, to give not an inch: a pause then would have saved him. Deng to cable the delegation: finish the talks and return; nothing published, not even news. Cable sent 1 a.m. Nov. 11.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 10, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 868–874 (the evening; the west hall of the Yinian Tang; Mao: the Soviet leaders "Napoleons, each worse"; Liu on leaders; Mao: the March decision right; nothing to be published; telegram of eight points drafted by Deng near midnight). Made public: 1999. Names: Mao Zedong, Khrushchev, Deng Xiaoping, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 10, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 868–874 (the evening; the west hall of the Yinian Tang; Mao: the Soviet leaders "Napoleons, each worse"; Liu on leaders; Mao: the March decision right; nothing to be published; telegram of eight points drafted by Deng near midnight); [[w.deng-xiaoping-nianpu-1904]], III, 1836 (Nov. 10, 1964; evening, 晚; Deng at the Politburo Standing Committee meeting Mao presides over; Deng says that, from the delegation''s contacts in Moscow so far, the new leaders show no friendly sign and no turn for the better; probably they do not oppose Khrushchev''s line but only his arbitrariness and personal rule, and his mishandling of agriculture; they probably do not oppose his foreign policy of seeking peace with imperialism and great-power chauvinism toward socialist states, in which they took active part). Made public: 1999. Names: Mao Zedong, Khrushchev, Deng Xiaoping, Zhou Enlai.'
     src:
       c: 273971ee
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 10, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 868–874: A, B, C, D, E, F, G'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1836: ?'
     tags: [name:mao-zedong, name:khrushchev-nikita-s, name:deng-xiaoping, name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1964-11-10.china-leadership-2
     when: Nov. 10
@@ -3337,6 +3428,20 @@ entries:
       - 1964-11-10T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-11-10.china-leadership-10
+    when: Nov. 10
+    date: '1964-11-10'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1964-11-10.china-leadership
+    c: 'Deng Xiaoping 邓小平, after the meeting and on Mao Zedong''s 毛泽东 instruction, has the substance put together and sent to the delegation by telegram: to refuse firmly to discuss an international conference of fraternal parties, and to declare that the Chinese will never attend the preparatory meeting the Soviet side ordered for December.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1836 (Nov. 10, 1964). The words: 会后 (III, 1836). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: 6da66298
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1836: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1964-11-11.opinion
     when: Nov. 11
     date: '1964-11-11'
@@ -3507,6 +3612,23 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 414–415: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-11-11T04:00Z
+      - 1964-11-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-11-11.china-leadership-6
+    when: Nov. 11
+    date: '1964-11-11'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处, which discusses and adopts the Central Committee's 中央 "Provisions on the leading powers of the work teams in the rural socialist education movement (draft)" 《关于农村社会主义教育运动中工作团的领导权限的规定（草案）》. The Politburo 政治局 approves its issue on the 13th. It holds that the work team's responsibility is to be increased, the Party and government organizations at county level to be put under the work team.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1836–1837 (Nov. 11, 1964). The words: 下午 (III, 1836–1837). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 8942de9b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1836–1837: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1964-11-11T04:00Z
       - 1964-11-11T10:00Z
@@ -3767,6 +3889,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 416: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-11-13.china-leadership-5
+    when: Nov. 13
+    date: '1964-11-13'
+    thread: china-leadership
+    also: [vietnam-hanoi, soviet-union]
+    c: Deng Xiaoping 邓小平 holds talks with Phạm Văn Đồng 范文同, Prime Minister of Vietnam, passing back through Peking 北京 from the October Revolution celebrations in Moscow 莫斯科, exchanging views on them.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1837 (Nov. 13, 1964). Made public: 2009 (the nianpu). See [[cal.1964-11-04.china-leadership-9]]. Names: Deng Xiaoping.'
+    src:
+      c: 757e1fd8
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1837: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+drv]
   - id: cal.1964-11-14.vietnam-force-levels
     when: Nov. 14
     date: '1964-11-14'
@@ -3918,7 +4052,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao, Beijing airport, afternoon: with Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping and others meets Zhou Enlai and He Long returning from Moscow; then presides in Room 118 over the Standing Committee on their report. Zhou: the new leaders do not intend a basic change toward China; no clear account why Khrushchev went, no difference of line; want China to end open polemic. Mao: the "Khrushchevism without Khrushchev" guess was right. Close the door on a conference of parties and its preparatory meeting, and on ending the polemic; polemic goes on, answer only after being hit. A Red Flag piece on Khrushchev''s errors. Of the push: a step taken; the new leaders tried to subvert inside the Party; still watch.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1964. [[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 14, 1964: Zhou, back in Beijing in the afternoon, is met by Mao, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping and others at the airport and goes from there to Mao''s for a meeting); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 14, 1964; 下午; the return from Moscow); [[w.lengxi-shinian-lunzhan-1956-1966]], 878–883 (Mao at the airport with Liu, Zhu De, Dong Biwu, Deng; at the old Beijing Hall of the Great Hall, now Room 118, nearly two hours; Zhou on the new leaders and the polemic; Mao: "Khrushchevism without Khrushchev"; the conference and the end of the polemic "sealed off"; answer only after being hit; a piece on Khrushchev; the push a step taken; "we still watch"); [[w.macfarquhar-origins-of-the-cultural]], III, 365 (the delegation back in Beijing on Nov. 14; Mao and all his colleagues meet it at the airport). Made public: 1993. To check: Zhou Enlai''s talks with the CPSU leaders at Moscow, Nov. 9–12, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Nov. 11 and 12, 1964); [[w.xiuquan-huiyi-yu-huainian]], 378–81 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 365 n.106a); [[w.griffith-sino-soviet-relations-1964]], 61–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 365 n.106b). Names: Mao Zedong, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping, Zhou Enlai, He Long, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1964. [[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 14, 1964: Zhou, back in Beijing in the afternoon, is met by Mao, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping and others at the airport and goes from there to Mao''s for a meeting); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 14, 1964; 下午; the return from Moscow); [[w.lengxi-shinian-lunzhan-1956-1966]], 878–883 (Mao at the airport with Liu, Zhu De, Dong Biwu, Deng; at the old Beijing Hall of the Great Hall, now Room 118, nearly two hours; Zhou on the new leaders and the polemic; Mao: "Khrushchevism without Khrushchev"; the conference and the end of the polemic "sealed off"; answer only after being hit; a piece on Khrushchev; the push a step taken; "we still watch"); [[w.macfarquhar-origins-of-the-cultural]], III, 365 (the delegation back in Beijing on Nov. 14; Mao and all his colleagues meet it at the airport); [[w.deng-xiaoping-nianpu-1904]], III, 1837 (Nov. 14, 1964; Deng with Mao, Liu Shaoqi, Zhu De and Dong Biwu at the airport meeting the Party and government delegation under Zhou Enlai and He Long, returned from the forty-seventh anniversary of the October Revolution; then at the Great Hall hears Zhou''s report). Made public: 1993. To check: Zhou Enlai''s talks with the CPSU leaders at Moscow, Nov. 9–12, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Nov. 11 and 12, 1964); [[w.xiuquan-huiyi-yu-huainian]], 378–81 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 365 n.106a); [[w.griffith-sino-soviet-relations-1964]], 61–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 365 n.106b). Names: Mao Zedong, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping, Zhou Enlai, He Long, Khrushchev.'
     src:
       c: a7ef444d
       rows:
@@ -3929,6 +4063,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 365: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 365 n.106a: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 365 n.106b: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1837: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:deng-xiaoping, name:zhou-enlai, name:he-long, name:khrushchev-nikita-s, polity:prc, vis:only:prc]
   - id: cal.1964-11-14.china
     when: Nov. 14
@@ -4353,13 +4488,14 @@ entries:
     thread: china-leadership
     also: [korea, soviet-union]
     c: Zhou, with Deng Xiaoping and Peng Zhen, talks with Kim Il Sung, arrived that day, and tells him of the new Soviet leaders.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 16, 1964); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 16, 1964; 下午5时, 钓鱼台宾馆18号楼, 和邓小平、彭真同金日成首相会谈); [[w.lengxi-shinian-lunzhan-1956-1966]], 883 (Zhou briefs Kim Il Sung on his Moscow contacts before the talk with Mao). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 16, 1964); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 16, 1964; 下午5时, 钓鱼台宾馆18号楼, 和邓小平、彭真同金日成首相会谈); [[w.lengxi-shinian-lunzhan-1956-1966]], 883 (Zhou briefs Kim Il Sung on his Moscow contacts before the talk with Mao); [[w.deng-xiaoping-nianpu-1904]], III, 1837 (Nov. 16, 1964; Deng with Zhou Enlai and Peng Zhen in talks with Kim Il Sung, on his way to a visit to Vietnam). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen, Kim Il Sung.'
     src:
       c: 757c20b7
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 688: ?'
         - 'w.zhou-enlai-waijiao-huodong 429: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 883: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1837: ?'
     tags: [name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:kim-il-sung, polity:prc, polity:dprk, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1964-11-16.china-leadership-4
@@ -4652,12 +4788,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides over the Standing Committee, which discusses and passes the final text of the *Red Flag* editorial on Khrushchev''s fall, after many revisions: it speaks of Khrushchev only and says nothing of the new leaders.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 900 (Nov. 18; the editorial settled). Made public: 1999. Names: Mao Zedong, Khrushchev.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 900 (Nov. 18; the editorial settled); [[w.deng-xiaoping-nianpu-1904]], III, 1837 (Nov. 17, 1964; Deng at the Politburo Standing Committee meeting Mao presides over, on an editorial on Khrushchev''s fall; the Renmin ribao prints the editorial ''How Khrushchev fell'' on the 21st). Made public: 1999. Names: Mao Zedong, Khrushchev.'
     src:
       c: 9def60ae
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 900: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1837: ?'
     tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.deng-xiaoping-nianpu-1904
+        reads: the Standing Committee meeting on an editorial on Khrushchev's fall is dated Nov. 17 (十一月十七日); the Renmin ribao prints "How Khrushchev fell" 《赫鲁晓夫是怎样下台的》 on the 21st
+        at: III, 1837
   - id: cal.1964-11-18.china-leadership-2
     when: Nov. 18
     date: '1964-11-18'
@@ -5151,6 +5293,18 @@ entries:
       - 1964-11-20T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-11-20.china-leadership-7
+    when: Nov. 20
+    date: '1964-11-20'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平 meets Saturnino Paredes 萨杜尼诺·帕雷德斯, first secretary of the Central Committee 中央 of the Communist Party of Peru (Marxist–Leninist). Deng: the personal cult was invented by Khrushchev 赫鲁晓夫, against Lenin''s principles of party-building and dissolving the party''s fighting power; Lenin''s *Left-Wing Communism* is clear on masses, classes, party and leaders; the Chinese party is a revolutionary, fighting party of a highly united will, its organizational principle democratic centralism; a party must have a leader and a leading core, the nation one, each locality one, even a branch; where there is none one must be trained; the Chinese revolution won because of a leader like Mao; leader and collective leadership do not conflict.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1837–1838 (Nov. 20, 1964). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Khrushchev.'
+    src:
+      c: 233bca1b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1837–1838: all'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1964-11-21.congo
     when: Nov. 21
     date: '1964-11-21'
@@ -6074,12 +6228,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over an enlarged Politburo Standing Committee, Yinian Tang, afternoon: decides to hold a Central Work Conference in December on rural socialist education and the Third National People''s Congress at the same time, on the 1965 plan; and discusses Chen Yi''s trip to Indonesia and Burma.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 25, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 908–909 (the enlarged Standing Committee, Yinian Tang main hall: Liu, Zhou, Zhu De, Chen Yun, Deng, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing, Chen Boda, Wu; Lin Biao absent; a Central Work Conference in December on rural socialist education, the Third NPC''s first session on the 1965 plan; attention turning from foreign to domestic matters). Made public: 1999. Names: Mao Zedong, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 25, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 908–909 (the enlarged Standing Committee, Yinian Tang main hall: Liu, Zhou, Zhu De, Chen Yun, Deng, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing, Chen Boda, Wu; Lin Biao absent; a Central Work Conference in December on rural socialist education, the Third NPC''s first session on the 1965 plan; attention turning from foreign to domestic matters); [[w.deng-xiaoping-nianpu-1904]], III, 1838 (Nov. 25, 1964; Deng at the enlarged Politburo Standing Committee meeting Mao presides over; it decides to hold a Central Work Conference 中央工作会议 in December on the rural socialist education movement, the convening of the First Session of the Third NPC and the 1965 national economic plan, and discusses Chen Yi''s proposed visit to Indonesia, Burma and other countries). Made public: 1999. Names: Mao Zedong, Chen Yi.'
     src:
       c: 54aa1a03
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 25, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 908–909: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1838: B'
     tags: [name:mao-zedong, name:chen-yi, polity:prc, vis:only:prc]
   - id: cal.1964-11-25.china-leadership-2
     when: Nov. 25
@@ -6205,7 +6360,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen: hears Li Fuchun and Bo Yibo on their survey of the Panzhihua third-front area. Steel by 1975? "Eleven years; faster, Zhou says; faster still"; the imperialists have not fought for twenty years, they will; the H-bomb and missiles faster too, three years too slow. Of six sites for Panzhihua''s steel base: drop Yibin, no coal, no railway. Deng: plan the railway net early. Mao: no dawdling; mines first; one center, no many heads; new techniques; the Soviet frame, to be analyzed. Mao to Liu: Liu still in command, the four clean-ups, the five antis and the economy his to run; something unexpected could happen at any time, so change over now: "You be Chairman; you be Qin Shi Huang"; Liu to tell people off and to take charge of Deng and the Premier. Liu: he can run the four clean-ups; Peng Zhen and Xie Fuzhi, Minister of Public Security, run the five antis, Deng and Zhou the economy. Mao: they are busy; without Liu no unity.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 26, 1964. [[w.macfarquhar-origins-of-the-cultural]], III, 417–18 (Mao''s exchange with Liu at the meeting on the third front). Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 602 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 417 n.97a); [[w.mao-zedong-jingji-nianpu]], 615 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 417 n.97b); [[w.jin-1949-1989-niande-zhongguo]], 602 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 418 n.103). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Fuchun, Bo Yibo, Xie Fuzhi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 26, 1964. [[w.macfarquhar-origins-of-the-cultural]], III, 417–18 (Mao''s exchange with Liu at the meeting on the third front); [[w.deng-xiaoping-nianpu-1904]], III, 1838 (Nov. 26, 1964; afternoon, 下午; Deng with Mao, Liu Shaoqi, Zhou Enlai and Peng Zhen hears Li Fuchun and Bo Yibo on their survey of the Panzhihua 攀枝花 area of the southwestern third front). Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 602 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 417 n.97a); [[w.mao-zedong-jingji-nianpu]], 615 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 417 n.97b); [[w.jin-1949-1989-niande-zhongguo]], 602 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 418 n.103). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Fuchun, Bo Yibo, Xie Fuzhi.'
     src:
       c: db5521e9
       rows:
@@ -6214,6 +6369,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 417 n.97a: M-S'
         - 'via w.macfarquhar-origins-of-the-cultural III, 417 n.97b: M-S'
         - 'via w.macfarquhar-origins-of-the-cultural III, 418 n.103: M-S'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1838: A'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:bo-yibo, polity:prc, vis:only:prc, name:xie-fuzhi]
   - id: cal.1964-11-26.china-leadership-2
     when: Nov. 26
@@ -6622,12 +6778,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao presides over the Politburo Standing Committee, Juxiang Shuwu, afternoon, on the CPSU letter of Nov. 26 putting the 26-party preparatory meeting off from Dec. 15, 1964 to Mar. 1, 1965 and calling it a "consultative meeting". China keeps its line and opposes a meeting held against the rule of unanimity; its stand set out in the reply of Aug. 30; no answer.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 28, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 910 (Nov. 28: the stand unchanged, no answer, no statement; the left parties to be told; "let them hold it, we are waiting for them to fall into the abyss"; "ignore it and watch"). Made public: 1999. To check: the CPSU letter received Nov. 26, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Nov. 28, 1964). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 28, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 910 (Nov. 28: the stand unchanged, no answer, no statement; the left parties to be told; "let them hold it, we are waiting for them to fall into the abyss"; "ignore it and watch"); [[w.deng-xiaoping-nianpu-1904]], III, 1838 (Nov. 28, 1964; Deng at the Politburo Standing Committee meeting Mao presides over, on the CPSU Central Committee''s letter received Nov. 26; against the letter''s repeated call for a preparatory meeting of twenty-six parties on Mar. 1, 1965, the meeting decides to hold to the Party''s consistent position and to oppose such a meeting held against the principle of consultation to reach unanimity). Made public: 1999. To check: the CPSU letter received Nov. 26, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Nov. 28, 1964). Names: Mao Zedong.'
     src:
       c: 26bf85a8
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 28, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 910: A, B, C, D'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1838: B'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1964-11-28.china-leadership-2
     when: Nov. 28
@@ -6943,7 +7100,7 @@ entries:
     thread: china-leadership
     also: [congo]
     c: 'Beijing, Tiananmen: Mao at a rally of more than 700,000 against U.S. aggression in the Congo (Léopoldville).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 27, 1964 (the rally, Nov. 29). [[w.zhou-enlai-nianpu-1949]], II, 690 (Nov. 29, 1964: Zhou, with Mao, Liu Shaoqi, Zhu De, Deng Xiaoping, Dong Biwu, Peng Zhen and others, at the rally of over 700,000 in Tiananmen Square supporting the Congolese (Leopoldville) people); [[w.zhou-enlai-waijiao-huodong]], 430 (Nov. 29, 1964; 上午; Zhou at the rally); [[w.jianguo-yilai-mao-zedong]], XVII, 445–446 (Nov. 27, 1964; note 3: over 700,000 at Tiananmen, Nov. 29); [[w.yang-shangkun-riji]], II, 426 (Nov. 29, 1964; the rally of 700,000 before Tiananmen 天安门, Mao there, on the radio). See [[cal.1964-11-28.china-leadership-2]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 27, 1964 (the rally, Nov. 29). [[w.zhou-enlai-nianpu-1949]], II, 690 (Nov. 29, 1964: Zhou, with Mao, Liu Shaoqi, Zhu De, Deng Xiaoping, Dong Biwu, Peng Zhen and others, at the rally of over 700,000 in Tiananmen Square supporting the Congolese (Leopoldville) people); [[w.zhou-enlai-waijiao-huodong]], 430 (Nov. 29, 1964; 上午; Zhou at the rally); [[w.jianguo-yilai-mao-zedong]], XVII, 445–446 (Nov. 27, 1964; note 3: over 700,000 at Tiananmen, Nov. 29); [[w.yang-shangkun-riji]], II, 426 (Nov. 29, 1964; the rally of 700,000 before Tiananmen 天安门, Mao there, on the radio); [[w.deng-xiaoping-nianpu-1904]], III, 1838 (Nov. 29, 1964; Deng at the rally of more than 700,000 of the capital''s people in Tiananmen Square supporting the Congolese (Léopoldville) people''s struggle for national liberation). See [[cal.1964-11-28.china-leadership-2]]. Names: Mao Zedong.'
     src:
       c: 59f33b39
       rows:
@@ -6952,6 +7109,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 430: A'
         - 'w.jianguo-yilai-mao-zedong XVII, 445–446: A'
         - 'w.yang-shangkun-riji II, 426: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1838: ?'
     tags: [name:mao-zedong, polity:congo, polity:prc, polity:us]
   - id: cal.1964-11-29.china-leadership-3
     when: Nov. 29

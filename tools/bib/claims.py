@@ -49,12 +49,12 @@ import collections
 import hashlib
 import re
 
-from . import store
+from . import markup, store
 
 LETTERS = [chr(65 + i) for i in range(26)] + [chr(65 + i) + chr(65 + j) for i in range(26) for j in range(26)]
 NOT_SOURCE = ("To check:", "See ", "Names:", "Check:", "Made public", "Reply:", "The order:", "Bibliography:",
               "Statute (", "Opinion (", "Also ")
-LINK = re.compile(r"\[([^\]]*)\]\((https?://[^)\s]+)\)")
+LINK = markup.LINK_RE
 ROW = re.compile(r"^(?P<src>.+?): (?P<units>all|\?|[A-Z]{1,2}(?:-[A-Z]{1,2})?(?:, [A-Z]{1,2}(?:-[A-Z]{1,2})?)*)$")
 QUOTES = '"“”'
 

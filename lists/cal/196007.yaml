@@ -88,12 +88,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. Deng Xiaoping 邓小平 calls a meeting on answering the "Soviet Party's statement of views" 苏共意见书 (its notice to the Chinese Central Committee handed out at Bucharest, June 21, by the editors' note).
-    n: '[[w.yang-shangkun-riji]], I, 523 (July 1, 1960). The words: 下午 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: CPSU Central Committee, notice to the Chinese Central Committee, June 21, 1960 (cited by [[w.yang-shangkun-riji]], I, 523 n.1). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 1, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1563 (July 1–2, 1960; afternoon; Deng presides at the Secretariat on the answer to the CPSU''s statement of views of June 21; again the afternoon of the 2nd). The words: 下午 (I, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: CPSU Central Committee, notice to the Chinese Central Committee, June 21, 1960 (cited by [[w.yang-shangkun-riji]], I, 523 n.1). Names: Deng Xiaoping.'
     src:
       c: a25f3b14
       rows:
         - 'w.yang-shangkun-riji I, 523: all'
         - 'via w.yang-shangkun-riji I, 523 n.1: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1563: B'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-07-01T04:00Z
@@ -134,6 +135,18 @@ entries:
       - 1960-07-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-01.china-leadership-5
+    when: July 1
+    date: '1960-07-01'
+    thread: china-leadership
+    also: [indonesia, soviet-union]
+    c: Deng Xiaoping 邓小平 and Peng Zhen 彭真 receive Ruslan 鲁斯兰, of the Indonesian Communist Party's Politburo, at the WFTU council, and tell him of Bucharest and the Sino-Soviet differences.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1563 (July 1, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    src:
+      c: d5f19667
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1563: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc+indonesia]
   - id: cal.1960-07-02.amendments
     when: July 2
     date: '1960-07-02'
@@ -249,11 +262,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. Deng Xiaoping's 邓小平 meeting goes on.
-    n: '[[w.yang-shangkun-riji]], I, 523 (July 2, 1960). The words: 下午 (I, 523). See [[cal.1960-07-01.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 523 (July 2, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1563 (July 2, 1960; afternoon; the Secretariat''s meeting continues). The words: 下午 (I, 523). See [[cal.1960-07-01.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
     src:
       c: 88640e7c
       rows:
         - 'w.yang-shangkun-riji I, 523: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1563: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-07-02T04:00Z
@@ -288,6 +302,24 @@ entries:
       - 1960-07-02T04:00Z
       - 1960-07-02T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-07-02.china-leadership-8
+    when: July 2
+    date: '1960-07-02'
+    place: tianjin
+    thread: china-leadership
+    also: [soviet-union]
+    c: Tianjin 天津, on the train, evening. Mao 毛泽东 hears Peng Zhen 彭真, Kang Sheng 康生 and others, come from Peking 北京, on the Bucharest meeting. Peng had led the delegation and was back at Peking June 28.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 66. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1960-06-29.china-leadership-6]]. Names: Mao Zedong, Peng Zhen, Kang Sheng.'
+    src:
+      c: 0fa17789
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 66: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1960-07-02T11:00Z
+      - 1960-07-02T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1960-07-03.elections-1960
     when: July 3–4
@@ -382,6 +414,29 @@ entries:
       - 1960-07-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-03.china-leadership-7
+    when: July 3
+    date: '1960-07-03'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平, on Tan Zhenlin''s 谭震林 request on the *Renmin ribao* 人民日报 story of Hubei''s 湖北 summer harvest: "agree with Comrade Zhenlin." Tan: better not printed; only a brief item that Hubei, after the great drought, had a good summer crop.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1563 (July 3, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Tan Zhenlin.'
+    src:
+      c: 9f9df2de
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1563: all'
+    tags: [polity:prc, name:deng-xiaoping, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1960-07-03.china-leadership-8
+    when: July 3
+    date: '1960-07-03'
+    place: beidaihe
+    thread: china-leadership
+    c: Mao 毛泽东 goes from Tianjin 天津 straight to Beidaihe 北戴河, where the Central Work Conference 中央工作会议 is to meet.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 66. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1960-06-29.china-leadership-6]]. Names: Mao Zedong.'
+    src:
+      c: 517f35d3
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 66: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-07-04.elections-1960
     when: July 4
     date: '1960-07-04'
@@ -490,11 +545,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. The Secretariat 书记处 calls the secretaries of the Party groups of the industrial, communications, culture and education units and relays some matters.
-    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 上午 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1563–1564 (July 4, 1960; morning; Deng presides at the enlarged Secretariat, the Party group secretaries of the central ministries present, on the latest in the differences. Deng: since the summit further apart, above all at Bucharest; Khrushchev calls Lenin outdated; not "one finger"; the Center will not "set its watch"; Soviet aid squeezed, experts withdrawn early; in the worst case subversion, no advanced techniques, a front with imperialism; China not afraid: a system unafraid of atomic war, strategic systems in each region, industry spread, 240 million militia, grain self-sufficient everywhere). The words: 上午 (I, 524). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 0ba76c82
       rows:
         - 'w.yang-shangkun-riji I, 524: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1563–1564: B'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-07-03T22:00Z
@@ -544,6 +600,25 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 524: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-07-04.china-leadership-8
+    when: July 4
+    date: '1960-07-04'
+    place:
+      - peking
+      - beidaihe
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 leaves Peking 北京 by train for Beidaihe 北戴河.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1564 (July 4, 1960). The words: 晚 (III, 1564). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 8d365656
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1564: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-07-04T11:00Z
+      - 1960-07-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-05.state-constitutions-ok
     when: July 5
     date: '1960-07-05'
@@ -620,7 +695,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe. The Central Work Conference opens (July 5–Aug. 10), on the world and on cutting back at home: the enlarged Politburo Standing Committee, Mao presiding, hears Peng Zhen on Bucharest and first secretaries on farms and factories. Mao: agriculture truly the base, squeezed ten years; rest and food for the people; the communes'' three levels of ownership; industry''s front shortened; 30 million tons of steel in 1962 with the full range of kinds, no 100 million by 1969.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 5, 1960; [[w.zhou-enlai-nianpu-1949]], II, 329, July 6, 1960 (Zhou at Beidaihe); [[w.lengxi-shinian-lunzhan-1956-1966]], 308 (the conference July 5 to Aug. 10; its two matters, the economy''s adjustment and Sino-Soviet relations; attention went to the second; Wu the only one of the writers a member of the conference); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the conference; its directive on agriculture and grain); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 5–Aug. 10, 1960; Liu attends the Central Work Conference at Beidaihe, chiefly on international questions and the adjustment of the domestic economy; it approves Li Fuchun''s and Bo Yibo''s report on the main measures for third-quarter industrial and transport output, issues instructions on the whole Party running agriculture and grain and on an increase-production and economy campaign centered on grain and steel, and decides to compress the capital construction line, safeguard steel and iron, clear up the labor force and strengthen agriculture); [[w.yang-shangkun-riji]], I, 524–525 (July 5, 1960; 5 to 9 p.m.; Mao with the members of the Politburo and some local comrades: three days for reading documents, then reports; the outcome of the dispute abroad turns on the work at home; industry and agriculture not yet through, the front to be shortened, three to five years to get through). Made public: 1996. Check: MacFarquhar dates the conference July 15–Aug. 10. To check: [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3b). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Dong Biwu, Li Fuchun, He Long, Li Xiannian, Ke Qingshi, Li Jingquan, Tan Zhenlin, Lu Dingyi, Chen Boda, Kang Sheng, Bo Yibo, Wang Jiaxiang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 5, 1960; [[w.zhou-enlai-nianpu-1949]], II, 329, July 6, 1960 (Zhou at Beidaihe); [[w.lengxi-shinian-lunzhan-1956-1966]], 308 (the conference July 5 to Aug. 10; its two matters, the economy''s adjustment and Sino-Soviet relations; attention went to the second; Wu the only one of the writers a member of the conference); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the conference; its directive on agriculture and grain); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 5–Aug. 10, 1960; Liu attends the Central Work Conference at Beidaihe, chiefly on international questions and the adjustment of the domestic economy; it approves Li Fuchun''s and Bo Yibo''s report on the main measures for third-quarter industrial and transport output, issues instructions on the whole Party running agriculture and grain and on an increase-production and economy campaign centered on grain and steel, and decides to compress the capital construction line, safeguard steel and iron, clear up the labor force and strengthen agriculture); [[w.yang-shangkun-riji]], I, 524–525 (July 5, 1960; 5 to 9 p.m.; Mao with the members of the Politburo and some local comrades: three days for reading documents, then reports; the outcome of the dispute abroad turns on the work at home; industry and agriculture not yet through, the front to be shortened, three to five years to get through); [[w.yang-jisheng-mubei]], II, 1171 (the Beidaihe work conference, July 5–Aug. 10, studies the home economy with the Sino-Soviet question, adopts three directives, on saving grain and steel through output and thrift, on all the Party farming and growing grain, and on an urgent country-wide drive to buy for export, and proposes an adjustment of the economy); [[w.deng-xiaoping-nianpu-1904]], III, 1564 (July 5–Aug. 10, 1960; Deng attends; chiefly the world and the first readjustment of the economy; the Center''s directives on the whole Party taking up agriculture and grain and on an output-and-thrift campaign centered on grain and steel; capital construction cut, steel secured, labor cleared, the farm front strengthened; one account book from now on; a notice to cadres on Bucharest and Sino-Soviet relations. The afternoon of the 5th, Deng at Mao''s enlarged Standing Committee, which hears first secretaries on output and Peng Zhen on Bucharest). Made public: 1996. Check: MacFarquhar dates the conference July 15–Aug. 10. To check: [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3b). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Dong Biwu, Li Fuchun, He Long, Li Xiannian, Ke Qingshi, Li Jingquan, Tan Zhenlin, Lu Dingyi, Chen Boda, Kang Sheng, Bo Yibo, Wang Jiaxiang.'
     src:
       c: 70a7d6fa
       rows:
@@ -632,6 +707,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.3b: A-C'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: B'
         - 'w.yang-shangkun-riji I, 524–525: A'
+        - 'w.yang-jisheng-mubei II, 1171: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1564: B'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:dong-biwu, name:li-fuchun, name:he-long, name:li-xiannian, name:ke-qingshi, name:li-jingquan, name:tan-zhenlin, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:bo-yibo, vis:only:prc]
   - id: cal.1960-07-05.china
     when: July 5
@@ -786,6 +863,29 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 525: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-06.china-leadership-7
+    when: July 6
+    date: '1960-07-06'
+    thread: china-leadership
+    c: The Center urges a great drive to make food substitutes; the *Renmin ribao* 人民日報 prints the editorial "Produce chlorella in quantity" 《大量生產小球藻》.
+    n: '[[w.yang-jisheng-mubei]], II, 1171 (the book''s chronology). To check: *Renmin ribao*, July 6, 1960, editorial. Check: the book gives the Center''s call and the editorial as one item; whether the call was other than the editorial.'
+    src:
+      c: 7651b691
+      rows:
+        - 'w.yang-jisheng-mubei II, 1171: all'
+    tags: [polity:prc]
+  - id: cal.1960-07-06.china-leadership-6
+    when: July 6
+    date: '1960-07-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The CPSU Central Committee notifies the Chinese Central Committee that, on its own decision, the Soviet *Sovetsko-kitayskaya druzhba* 《苏中友好》 weekly will stop and the Chinese *Youhao* 《友好》 weekly will no longer be distributed.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1568 (July 6, 1960). Check: the day: the page prints "July 6" (七月六日, read on the image), after Deng''s revision of the answer of July 28; perhaps Aug. 6.'
+    src:
+      c: baef343a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1568: all'
+    tags: [polity:prc, vis:only:prc+ussr]
   - id: cal.1960-07-07.elections-1960-los-angeles
     when: July 7
     date: '1960-07-07'
@@ -818,12 +918,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, Building 1. Mao''s meeting on the world and Sino-Soviet relations: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, and Ke Qingshi, Li Jingquan and Tao Zhu, heads of the conference''s three groups.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 7, 1960; [[w.zhou-enlai-nianpu-1949]], II, 330, July 7, 1960 (Zhou at the Standing Committee on the situation and relations with the Soviet Union). Made public: 1997. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 7, 1960; [[w.zhou-enlai-nianpu-1949]], II, 330, July 7, 1960 (Zhou at the Standing Committee on the situation and relations with the Soviet Union); [[w.deng-xiaoping-nianpu-1904]], III, 1565 (July 7, 1960; evening; Deng at Mao''s meeting). Made public: 1997. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
     src:
       c: 848c541e
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 7, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 330, July 7, 1960: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1565: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1960-07-07.china-leadership-2
     when: July 7
@@ -944,7 +1045,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, the work conference in plenary session, Mao presiding: Peng Zhen on the Bucharest meeting and the differences between the two parties.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 8, 1960; [[w.zhou-enlai-nianpu-1949]], II, 330, July 8, 1960 (Zhou present; Peng Zhen''s report on the two parties'' talks and Bucharest); [[w.lengxi-shinian-lunzhan-1956-1966]], 309–313 (Peng Zhen''s report on Bucharest at the conference''s second day, with seven points the discussion took up (two lines, war and peace, Khrushchev''s rage, the surprise attack, a long struggle, no fear of a break, the reply to the notification); Mao''s closing remarks on the counter-encirclement); [[w.yang-shangkun-riji]], I, 525 (July 8, 1960; 5 to 9 p.m., the plenary; Peng Zhen''s report). Made public: 1997. Names: Mao Zedong, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 8, 1960; [[w.zhou-enlai-nianpu-1949]], II, 330, July 8, 1960 (Zhou present; Peng Zhen''s report on the two parties'' talks and Bucharest); [[w.lengxi-shinian-lunzhan-1956-1966]], 309–313 (Peng Zhen''s report on Bucharest at the conference''s second day, with seven points the discussion took up (two lines, war and peace, Khrushchev''s rage, the surprise attack, a long struggle, no fear of a break, the reply to the notification); Mao''s closing remarks on the counter-encirclement); [[w.yang-shangkun-riji]], I, 525 (July 8, 1960; 5 to 9 p.m., the plenary; Peng Zhen''s report); [[w.deng-xiaoping-nianpu-1904]], III, 1565 (July 8, 1960; afternoon; Deng at the plenary; footnote 1: the talks of June 17 at Moscow, Peng Zhen''s delegation with Kozlov and others of the Presidium); [[w.mao-zedong-zhuan]], V, ch. 66 (July 8: Peng Zhen reports to the conference on the Bucharest meeting; the groups discuss it, and the Standing Committee decides that Zhou Enlai give a systematic account of the Comintern''s relations with the CCP, in practice the CPSU''s). Made public: 1997. Names: Mao Zedong, Peng Zhen.'
     src:
       c: 10a03eb0
       rows:
@@ -952,6 +1053,8 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 330, July 8, 1960: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 309–313: A'
         - 'w.yang-shangkun-riji I, 525: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1565: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: A'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
     variants:
       - unit: A
@@ -1062,11 +1165,12 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe 北戴河, the work conference: a group discussion 小组讨论会, 3 to 7:30 p.m.'
-    n: '[[w.yang-shangkun-riji]], I, 525 (July 9, 1960). The words: 下午3时到7时半 (I, 525). See [[cal.1960-07-05.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 525 (July 9, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1565 (July 9, 1960; afternoon; Deng at the group meeting on planning). The words: 下午3时到7时半 (I, 525). See [[cal.1960-07-05.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: cd36dcf3
       rows:
         - 'w.yang-shangkun-riji I, 525: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1565: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1960-07-09.china-leadership-2
@@ -1261,12 +1365,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, indonesia]
     c: Beidaihe. The Politburo Standing Committee (Mao, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping; Peng Zhen attending) hears the group leaders; the world; Indonesia's measures against the Chinese. Zhou to report on the Comintern and the Chinese party. (Mao and his writers study the parties' correspondence, July 9–12.)
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 10, 1960 (and July 9); [[w.zhou-enlai-nianpu-1949]], II, 330, July 10, 1960 (Zhou at the Standing Committee, to report on the Comintern). Made public: 1997. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 10, 1960 (and July 9); [[w.zhou-enlai-nianpu-1949]], II, 330, July 10, 1960 (Zhou at the Standing Committee, to report on the Comintern); [[w.deng-xiaoping-nianpu-1904]], III, 1565–1566 (July 10, 1960; evening; Deng at Mao''s Standing Committee; the groups'' reports, the world, Indonesia''s anti-Chinese measures; Zhou to report on the Communist International and the Chinese party). Made public: 1997. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
     src:
       c: 500709e2
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 10, 1960: ?'
         - 'w.zhou-enlai-nianpu-1949 II, 330, July 10, 1960: E'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1565–1566: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1960-07-10.china-leadership-2
     when: July 10
@@ -2213,6 +2318,23 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 526: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-07-13.china-leadership-4
+    when: July 13
+    date: '1960-07-13'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Deng Xiaoping 邓小平 asks Lu Dingyi 陆定一 and Zhou Yang 周扬 in to talk of the Third Congress of Chinese Writers and Artists 中国文学艺术工作者第三次代表大会.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 13, 1960). The words: 上午 (III, 1566). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Lu Dingyi.'
+    src:
+      c: f1b2d9c2
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: all'
+    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, vis:only:prc]
+    time_range:
+      - 1960-07-12T22:00Z
+      - 1960-07-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-14.elections-1960
     when: July 14
     date: '1960-07-14'
@@ -2606,7 +2728,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Beidaihe, the work conference in plenary session, Mao presiding. Zhou Enlai's report, over three afternoons, on the Communist International and the Chinese Communist Party.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 14, 1960; [[w.zhou-enlai-nianpu-1949]], II, 331–33, July 14–16, 1960 (the report''s six views and the three periods); [[w.lengxi-shinian-lunzhan-1956-1966]], 314–315 (decided by the Standing Committee; Zhou speaks three days, July 14 to 16, in five periods from the Comintern''s founding to the latest; the first period 1919–27; mornings); [[w.yang-shangkun-riji]], I, 526–527 (July 14–16, 1960; July 14, 4:30 to 8 p.m.; July 15, 4 to 8:30 p.m.; July 16, 3 to 7:30 p.m., the report finished). Made public: 1997. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 14, 1960; [[w.zhou-enlai-nianpu-1949]], II, 331–33, July 14–16, 1960 (the report''s six views and the three periods); [[w.lengxi-shinian-lunzhan-1956-1966]], 314–315 (decided by the Standing Committee; Zhou speaks three days, July 14 to 16, in five periods from the Comintern''s founding to the latest; the first period 1919–27; mornings); [[w.yang-shangkun-riji]], I, 526–527 (July 14–16, 1960; July 14, 4:30 to 8 p.m.; July 15, 4 to 8:30 p.m.; July 16, 3 to 7:30 p.m., the report finished); [[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 14–16, 1960; Deng at the plenary sessions); [[w.mao-zedong-zhuan]], V, ch. 66 (Zhou Enlai''s report on the Comintern and the CCP, ordered by the Standing Committee after Peng Zhen''s report of July 8 (the book gives no date)). Made public: 1997. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: a2213050
       rows:
@@ -2614,6 +2736,8 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 331–33, July 14–16, 1960: B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 314–315: A, B'
         - 'w.yang-shangkun-riji I, 526–527: A, B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: ?'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
     variants:
       - unit: B
@@ -2878,6 +3002,23 @@ entries:
       - 1960-07-17T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-17.china-leadership-4
+    when: July 17
+    date: '1960-07-17'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Deng Xiaoping 邓小平 at Mao Zedong's 毛泽东 Politburo Standing Committee on the draft of Li Fuchun's 李富春 report on the economic plan for the work conference.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 17, 1960). The words: 下午 (III, 1566). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Li Fuchun.'
+    src:
+      c: 300f92d5
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1960-07-17T04:00Z
+      - 1960-07-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-18.republican-party
     when: July 18–20
     date: '1960-07-18'
@@ -2911,13 +3052,15 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe, the plenary session, Mao presiding. Li Fuchun on the economy: the tasks the world sets, the line and policies, the rest of 1960 and 1961–62. Mao: the Soviet Union built socialism by itself, 1917–45, Lenin''s road, and China will; Soviet aid of ten years not to be forgotten; the frontier weapons to be made.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 335 (Mao, as Li Fuchun spoke of Khrushchev''s pressing the Chinese at Bucharest: the Soviet people''s past help not to be forgotten, but self-reliance now; Lenin''s road, socialism in one country; Mao stressed it on the 18th because the CPSU''s letter of the 16th had come); [[w.yang-shangkun-riji]], I, 528 (July 18, 1960; 4 to 8:30 p.m.; Li Fuchun on planning). Made public: 1999. Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 18, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 335 (Mao, as Li Fuchun spoke of Khrushchev''s pressing the Chinese at Bucharest: the Soviet people''s past help not to be forgotten, but self-reliance now; Lenin''s road, socialism in one country; Mao stressed it on the 18th because the CPSU''s letter of the 16th had come); [[w.yang-shangkun-riji]], I, 528 (July 18, 1960; 4 to 8:30 p.m.; Li Fuchun on planning); [[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 18, 1960; Deng at the plenary; Li Fuchun''s report on the plan); [[w.mao-zedong-zhuan]], V, ch. 66 (July 18: Li Fuchun reports to the conference on the domestic economy, and the conference turns to domestic questions). Made public: 1999. Names: Mao Zedong, Li Fuchun.'
     src:
       c: '95638120'
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 18, 1960: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 335: C, D'
         - 'w.yang-shangkun-riji I, 528: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: B'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-07-18.china
     when: July 18
@@ -2975,6 +3118,30 @@ entries:
         - 'w.yang-shangkun-riji I, 528: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-18.china-leadership-5
+    when: July 18
+    date: '1960-07-18'
+    thread: china-leadership
+    c: The Wuwei 無為 county committee 縣委 forwards the summary report of Dougou 陡溝 commune on its three-anti rectification 關於開展三反整風運動情況總結報告. The report counts 35 cadres who used coercion to collect grain; 2,049 people were tied up, hung up and beaten by them, 14 injured, 5 killed, 1 driven to suicide.
+    n: '[[w.yang-jisheng-mubei]], I, 288. Made public: 2008. To check: Dougou Commune, "Summary report on the course of the three-anti rectification movement," forwarded by the Wuwei County Committee July 18, 1960 (cited by [[w.yang-jisheng-mubei]], I, 288 n.70). Check: the date is that of the county committee''s forwarding; the report''s own date is not given.'
+    src:
+      c: 4e9b672f
+      rows:
+        - 'w.yang-jisheng-mubei I, 288: all'
+        - 'via w.yang-jisheng-mubei I, 288 n.70: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-18.china-leadership-6
+    when: July 18
+    date: '1960-07-18'
+    thread: china-leadership
+    c: The Central Committee General Office's work group at Anguo 安國 reports on how the party committee of Wurenqiao 伍仁橋 commune and the Wuren village branch keep members from leaving the mess hall 關於安國縣伍仁橋公社黨委和伍仁村支部控制群眾退出食堂問題的調查報告.
+    n: '[[w.yang-jisheng-mubei]], I, 540. Made public: 2008. To check: Central Committee General Office work group at Anguo, "Investigation report on the Wurenqiao commune party committee''s and the Wuren village branch''s control of the masses'' withdrawal from the mess hall," July 18, 1960 (cited by [[w.yang-jisheng-mubei]], I, 540 n.20). Check: the passage it closes is on the commune''s coercion of members into the mess hall.'
+    src:
+      c: 7ac9008d
+      rows:
+        - 'w.yang-jisheng-mubei I, 540: all'
+        - 'via w.yang-jisheng-mubei I, 540 n.20: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-19.japan-and-korea
     when: July 19
     date: '1960-07-19'
@@ -3066,12 +3233,13 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: Beidaihe 北戴河. The Secretariat 书记处 on several questions of the Congress of Writers and Artists 文代会 (the third congress of the All-China Federation of Literary and Art Circles, July 22–Aug. 13, by the editors' note).
-    n: '[[w.yang-shangkun-riji]], I, 528 (July 19, 1960). The words: 下午 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 19, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 19, 1960; afternoon; Deng presides; Zhou Yang''s report for the congress adopted in the main, and its presidium). The words: 下午 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 88f14786
       rows:
         - 'w.yang-shangkun-riji I, 528: all'
         - 'via w.yang-shangkun-riji I, 528 n.1: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: B'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-07-19T04:00Z
@@ -3158,13 +3326,15 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe. The enlarged Standing Committee, Mao presiding, on the world and output. Zhou Enlai: 8.8 million tons of steel in the half year, 44 percent of the plan. Mao: "ally with the Soviet Union, oppose imperialism"; no split; Khrushchev damns the communes as Dulles does, and the leap, the army''s ways, cadres at labor; "his socialism and ours."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 20, 1960; [[w.zhou-enlai-nianpu-1949]], II, 333, July 20, 1960 (Zhou present); [[w.yang-shangkun-riji]], I, 528 (July 20, 1960; the afternoon; each member reports on this year''s output). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev, Dulles.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 20, 1960; [[w.zhou-enlai-nianpu-1949]], II, 333, July 20, 1960 (Zhou present); [[w.yang-shangkun-riji]], I, 528 (July 20, 1960; the afternoon; each member reports on this year''s output); [[w.deng-xiaoping-nianpu-1904]], III, 1566–1567 (July 20, 1960; afternoon; Deng at Mao''s enlarged Standing Committee; the groups on this year''s farm and industrial output); [[w.mao-zedong-zhuan]], V, ch. 66 (July 20: Mao calls the enlarged Standing Committee to hear reports from the regions on carrying out this year''s production tasks). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev, Dulles.'
     src:
       c: 16901d2b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 20, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 333, July 20, 1960: B-C'
         - 'w.yang-shangkun-riji I, 528: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566–1567: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-07-20.china-leadership-3
     when: July 20
@@ -3186,6 +3356,21 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 528: all'
     tags: [polity:prc, name:jiang-qing, vis:only:prc]
+  - id: cal.1960-07-20.china-leadership-5
+    when: July 20
+    date: '1960-07-20'
+    place: jigongshan
+    thread: china-leadership
+    c: 'Jigongshan 雞公山. The Xinyang 信陽 prefectural committee''s enlarged standing committee meeting opens (to Aug. 15): Yang Weiping 楊蔚屏 and Li Li 李立, secretaries of the Henan 河南 committee''s secretariat, and Liu Mingbang 劉名榜, secretary of its supervisory committee, preside for the province. In its course, undated: it goes on affirming the "fine situation"; Yang says 480,000 dead or 450,000 makes no difference, and that Mao''s 毛澤東 "one finger" gives the chance to sit down and settle; Zhang Shufan 張樹藩 speaks three times, to over 14,000 characters; Lu Xianwen 路憲文 and others meet against him in secret; Wang Guohua 王國華, a vice-governor, names Lu from the floor; the meeting decides to arrest Ma Longshan 馬龍山.'
+    n: '[[w.yang-jisheng-mubei]], I, 69–71 (Wang Binglin''s, Li Ruiying''s and Yu Dehong''s accounts). Made public: 2008. To check: Wang Binglin, "Materials exposing Yang Weiping," Dec. 1960 (cited by [[w.yang-jisheng-mubei]], I, 69 n.54, for Yang Weiping''s words); Li Ruiying 李瑞英, head of the Xinyang women''s federation, account to Yang Jisheng, Beijing, 2000–01 (cited by [[w.yang-jisheng-mubei]], I, 69; no note); Yu Dehong 余德鴻, secretary to Zhang Shufan, "Guanyu Xinyang shijian de yishu" 《關於信陽事件的憶述》, typescript of Sept. 17, 2001, sent to Yang Jisheng Nov. 9, 2001 (cited by [[w.yang-jisheng-mubei]], I, 70; no note). Check: the book dates the opening (Yu Dehong''s account, July 20) and the close (Aug. 15) only; Li Ruiying''s account places the decision to arrest Ma at the meeting. Names: Mao Zedong.'
+    src:
+      c: 60a222f2
+      rows:
+        - 'w.yang-jisheng-mubei I, 69-71: all'
+        - 'via w.yang-jisheng-mubei I, 69 n.54: all'
+        - 'via w.yang-jisheng-mubei I, 69 n.t1: all'
+        - 'via w.yang-jisheng-mubei I, 70 n.t1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-07-21.elections-1960
     when: July 21
     date: '1960-07-21'
@@ -3275,7 +3460,7 @@ entries:
       - peking
     thread: china-leadership
     c: Zhou Enlai leaves Beidaihe at 5 p.m. and reaches Peking at 11 p.m.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 333 (July 21, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 333 (July 21, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 21, 1960; evening (晚); Deng, with Mao, Liu Shaoqi, Zhou and Zhu De and others, back to Peking from Beidaihe). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_range:
       - 1960-07-21T09:00Z
@@ -3392,13 +3577,14 @@ entries:
     date: '1960-07-22'
     thread: china-leadership
     c: Zhou Enlai, with Liu Shaoqi, Soong Ching-ling, Deng Xiaoping, Chen Yi and Lu Dingyi, attends the opening of the Third National Congress of Writers and Artists.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 334 (July 22, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 22, 1960; Liu, with Zhou Enlai and Zhu De, attends the opening and receives the presidium); [[w.yang-shangkun-riji]], I, 528 (July 22, 1960; 3 to 5:30 p.m.; Yang there). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Lu Dingyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 334 (July 22, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 22, 1960; Liu, with Zhou Enlai and Zhu De, attends the opening and receives the presidium); [[w.yang-shangkun-riji]], I, 528 (July 22, 1960; 3 to 5:30 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 22, 1960; afternoon; Deng, with Liu Shaoqi, Zhou Enlai, Zhu De, Soong Ching-ling and others, at the opening). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Lu Dingyi.'
     src:
       c: fd1d4e91
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 334: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: A'
         - 'w.yang-shangkun-riji I, 528: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:chen-yi, name:lu-dingyi]
   - id: cal.1960-07-22.china-leadership-2
     when: July 22
@@ -3425,11 +3611,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. The Secretariat 书记处 on Lu Dingyi's 陆定一 greetings to the Congress of Writers and Artists 文代会.
-    n: '[[w.yang-shangkun-riji]], I, 528 (July 22, 1960). The words: 上午 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lu Dingyi.'
+    n: '[[w.yang-shangkun-riji]], I, 528 (July 22, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 22, 1960; morning; Deng presides; Lu Dingyi''s greetings to the congress for the Center and the State Council). The words: 上午 (I, 528). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lu Dingyi.'
     src:
       c: 0d00bc4b
       rows:
         - 'w.yang-shangkun-riji I, 528: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: B'
     tags: [polity:prc, name:lu-dingyi, vis:only:prc]
     time_range:
       - 1960-07-21T22:00Z
@@ -3450,6 +3637,18 @@ entries:
         - 'w.yang-shangkun-riji I, 529: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-22.china-leadership-5
+    when: July 22
+    date: '1960-07-22'
+    thread: china-leadership
+    c: Yin Bingshan 殷炳山 speaks to the meeting of the first secretaries of the county and city committees 縣、市委第一書記會 in Jiangsu 江蘇.
+    n: '[[w.yang-jisheng-mubei]], I, 391. Made public: 2008. To check: Yin Bingshan, speech to the meeting of the first secretaries of the county and city committees, July 22, 1960 (cited by [[w.yang-jisheng-mubei]], I, 391 n.46). Check: the book gives the speech''s title and date only.'
+    src:
+      c: db8f8f86
+      rows:
+        - 'w.yang-jisheng-mubei I, 391: all'
+        - 'via w.yang-jisheng-mubei I, 391 n.46: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-23.elections-1960
     when: July 23
     date: '1960-07-23'
@@ -3687,12 +3886,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Mao Zedong, Zhu De and Deng Xiaoping, receives all the delegates to the Third National Congress of Writers and Artists.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 23, 1960); [[w.yang-shangkun-riji]], I, 529 (July 23, 1960; 6:30 p.m., Mao and the congress''s delegates photographed; Yang there). Names: Liu Shaoqi, Mao Zedong, Zhu De, Deng Xiaoping.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 23, 1960); [[w.yang-shangkun-riji]], I, 529 (July 23, 1960; 6:30 p.m., Mao and the congress''s delegates photographed; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 23, 1960; afternoon; Deng, with Mao, Liu, Zhu De and others, receives all the delegates). Names: Liu Shaoqi, Mao Zedong, Zhu De, Deng Xiaoping.'
     src:
       c: 491eb9f7
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491: ?'
         - 'w.yang-shangkun-riji I, 529: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: ?'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhu-de, name:deng-xiaoping]
   - id: cal.1960-07-23.china
     when: July 23
@@ -3987,6 +4187,25 @@ entries:
         - 'w.yang-shangkun-riji I, 529: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-24.china-leadership-6
+    when: July 24
+    date: '1960-07-24'
+    place:
+      - peking
+      - beidaihe
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 flies from Peking 北京 to Beidaihe 北戴河, to go on at the Central Work Conference.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 24, 1960). The words: 上午 (III, 1567). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: b99f8967
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1960-07-23T22:00Z
+      - 1960-07-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-25.elections-1960
     when: July 25
     date: '1960-07-25'
@@ -4220,6 +4439,43 @@ entries:
       - 1960-07-25T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-25.china-leadership-6
+    when: July 25
+    date: '1960-07-25'
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Soviet government tells the Chinese government that all its experts in China will be withdrawn from July 28, and the agreements on more than 200 projects of scientific and technical cooperation annulled.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 25, 1960). See [[cal.1960-07.china]].'
+    src:
+      c: df40b1df
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: all'
+    tags: [polity:prc, vis:only:prc+ussr]
+  - id: cal.1960-07-25.china-leadership-7
+    when: July 25
+    date: '1960-07-25'
+    place: beidaihe
+    thread: china-leadership
+    also: [farm]
+    c: 'Beidaihe 北戴河. Deng Xiaoping 邓小平, on the State Council Finance and Trade Office''s "Report on the urgent transport of grain" 《关于紧急调运粮食的报告》, sent by Li Xiannian 李先念: to be printed for the work conference; the provinces that must ship grain out to telephone home at once to press and check.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 25, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Li Xiannian.'
+    src:
+      c: 12143c2b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: all'
+    tags: [polity:prc, name:deng-xiaoping, name:li-xiannian, vis:only:prc]
+  - id: cal.1960-07-25.china-leadership-8
+    when: July 25
+    date: '1960-07-25'
+    thread: china-leadership
+    c: 'Sun Haiguang 孫海光 writes the Jiangsu 江蘇 committee 省委, and a committee member surnamed Han 韓 marks the letter for the secretaries to read. The book takes from it a brigade''s false yield: the 1959 grain verified at 600,000 jin counted at 730,000 by the commune''s party secretary, the brigade 30-odd days without grain, over 50 dead.'
+    n: '[[w.yang-jisheng-mubei]], I, 377. Made public: 2008. To check: Sun Haiguang, letter to the Jiangsu Provincial Committee, July 25, 1960, with the comment of Han 韓 (committee member) for the secretaries to read (cited by [[w.yang-jisheng-mubei]], I, 377 n.22). Check: the book says only "Han" for the commenter; which commune the passage the note closes tells of is not shown by the note; Sun writes again Dec. 27, 1960 (I, 394 n.).'
+    src:
+      c: 780fe302
+      rows:
+        - 'w.yang-jisheng-mubei I, 377: all'
+        - 'via w.yang-jisheng-mubei I, 377 n.22: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'
@@ -4380,12 +4636,14 @@ entries:
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai presides at the Central Work Conference, on grain.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 335 (July 26, 1960); [[w.yang-shangkun-riji]], I, 529 (July 26, 1960; the plenary, morning to 2 p.m.). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 335 (July 26, 1960); [[w.yang-shangkun-riji]], I, 529 (July 26, 1960; the plenary, morning to 2 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 26, 1960; Deng at the plenary on grain, Zhou presiding); [[w.mao-zedong-zhuan]], V, ch. 66 (July 26: Zhou Enlai presides at a meeting on the grain question, the most pressing). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: f00c7609
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 335: ?'
         - 'w.yang-shangkun-riji I, 529: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-07-26.china-leadership-2
     when: July 26
@@ -4566,7 +4824,7 @@ entries:
     thread: china
     also: [soviet-union]
     c: Khrushchev recalls all Soviet experts from China and sharply cuts Soviet material and military aid.
-    n: '[[w.jian-maos-china-and-the]], 82 (by the Chinese histories); [[w.zedong-mao-zedong-nianpu]], IV, July 16, 1960 (the Soviet note of July 16 recalling the experts); [[w.lengxi-shinian-lunzhan-1956-1966]], 335–336, 338 (the CPSU Central Committee''s note handed July 16, decided at its plenum of July 13–16: all experts out between July 28 and Sept. 1; 1,299 experts and over 1,700 dependents; 304 projects, 156 of Stalin''s time and 148 of Khrushchev''s, 109 done by 1959, 48 due in 1960, 147 left); [[w.macfarquhar-maos-last-revolution]], 7 (July; almost 1,400 Soviet specialists). Washington''s knowledge: [FRUS 1958–60, XIX, doc. 348](https://history.state.gov/historicaldocuments/frus1958-60v19/d348) (State''s Bureau of Intelligence and Research, Aug. 26: "an unusual exodus of Soviet technicians" reported from Peking since Aug. 12; 2,000 to 3,000 in China in all; "no firm evidence" yet that it is tied to the dispute). Check: the day: Wu (335, 338) has the note handed July 16, as the Mao nianpu. To check: Xue Mouhong et al., *Dangdai zhongguo waijiao* (1988), 116–19 (cited by [[w.jian-maos-china-and-the]], 82 n.158); Cong Jin, *Quzhe fazhan de suiyue* (1989), 364 (cited by [[w.jian-maos-china-and-the]], 82 n.158); Chen Jian, "A Crucial Step toward the Breakdown of the Sino-Soviet Alliance," *Cold War International History Project Bulletin*, nos. 8–9 (1996–97), 246, 249–50 (cited by [[w.jian-maos-china-and-the]], 82 n.158); [[w.sino-soviet-dispute]], 174–205 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17a); [[w.macfarquhar-origins-of-the-cultural]], II, 264–292 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17b). Names: Khrushchev. Check: the day of the recall.'
+    n: '[[w.jian-maos-china-and-the]], 82 (by the Chinese histories); [[w.zedong-mao-zedong-nianpu]], IV, July 16, 1960 (the Soviet note of July 16 recalling the experts); [[w.lengxi-shinian-lunzhan-1956-1966]], 335–336, 338 (the CPSU Central Committee''s note handed July 16, decided at its plenum of July 13–16: all experts out between July 28 and Sept. 1; 1,299 experts and over 1,700 dependents; 304 projects, 156 of Stalin''s time and 148 of Khrushchev''s, 109 done by 1959, 48 due in 1960, 147 left); [[w.macfarquhar-maos-last-revolution]], 7 (July; almost 1,400 Soviet specialists); [[w.yang-jisheng-mubei]], II, 1171 (July 16: the Soviet government tears up 600 contracts, 343 for experts and 257 for science and technology, and tells the Chinese government it will withdraw its 1,390 experts between July 28 and Sept. 1 and send no more of the 900-odd due); [[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 16, 1960: the Soviet government''s note to the Chinese Foreign Ministry, recalling on its own decision the Soviet experts working in China). Washington''s knowledge: [FRUS 1958–60, XIX, doc. 348](https://history.state.gov/historicaldocuments/frus1958-60v19/d348) (State''s Bureau of Intelligence and Research, Aug. 26: "an unusual exodus of Soviet technicians" reported from Peking since Aug. 12; 2,000 to 3,000 in China in all; "no firm evidence" yet that it is tied to the dispute). Check: the day: Wu (335, 338) has the note handed July 16, as the Mao nianpu. To check: Xue Mouhong et al., *Dangdai zhongguo waijiao* (1988), 116–19 (cited by [[w.jian-maos-china-and-the]], 82 n.158); Cong Jin, *Quzhe fazhan de suiyue* (1989), 364 (cited by [[w.jian-maos-china-and-the]], 82 n.158); Chen Jian, "A Crucial Step toward the Breakdown of the Sino-Soviet Alliance," *Cold War International History Project Bulletin*, nos. 8–9 (1996–97), 246, 249–50 (cited by [[w.jian-maos-china-and-the]], 82 n.158); [[w.sino-soviet-dispute]], 174–205 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17a); [[w.macfarquhar-origins-of-the-cultural]], II, 264–292 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17b). Names: Khrushchev. Check: the day of the recall.'
     src:
       c: 10806d51
       rows:
@@ -4578,6 +4836,8 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, July 16, 1960: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 335–336, 338: A'
         - 'w.macfarquhar-maos-last-revolution 7: A'
+        - 'w.yang-jisheng-mubei II, 1171: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1566: ?'
     tags: [name:khrushchev-nikita-s]
     short: the Soviet experts recalled
   - id: cal.1960-07.elections-1960
@@ -4693,13 +4953,15 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. The enlarged Standing Committee, Mao presiding, on foreign affairs, foreign trade, the frontier technology, grain, and output: Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Ke Qingshi, Li Jingquan, Bo Yibo, Nie Rongzhen, Tao Zhu.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 28, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 28, 1960 (Zhou present; grain and the advanced science); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491–492 (July 28, 1960; Liu attends the meeting Mao chairs of the Standing Committee''s members and the work conference''s group leaders: foreign affairs, foreign trade, science and technology, grain, industrial and agricultural production). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Ke Qingshi, Li Jingquan, Bo Yibo, Nie Rongzhen, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 28, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 28, 1960 (Zhou present; grain and the advanced science); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491–492 (July 28, 1960; Liu attends the meeting Mao chairs of the Standing Committee''s members and the work conference''s group leaders: foreign affairs, foreign trade, science and technology, grain, industrial and agricultural production); [[w.deng-xiaoping-nianpu-1904]], III, 1568 (July 28, 1960; evening; Deng at Mao''s enlarged Standing Committee); [[w.mao-zedong-zhuan]], V, ch. 66 (July 28: Mao again calls the enlarged Standing Committee on the grain question, and on the frontier technology). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Ke Qingshi, Li Jingquan, Bo Yibo, Nie Rongzhen, Tao Zhu.'
     src:
       c: 3070528b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 28, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 335, July 28, 1960: B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 491–492: B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1568: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:li-xiannian, name:ke-qingshi, name:li-jingquan, name:bo-yibo, name:nie-rongzhen, name:tao-zhu, vis:only:prc]
   - id: cal.1960-07-28.china-leadership-2
     when: July 28
@@ -4715,17 +4977,43 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: Beidaihe 北戴河. The Secretariat 书记处 on several matters concerning foreign countries.
-    n: '[[w.yang-shangkun-riji]], I, 530 (July 28, 1960). The words: 上午 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 28, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 28, 1960; morning; Deng presides; several urgent international questions). The words: 上午 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 0bd20334
       rows:
         - 'w.yang-shangkun-riji I, 530: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1567: B'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-07-27T22:00Z
       - 1960-07-28T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-28.china-leadership-5
+    when: July 28
+    date: '1960-07-28'
+    place: beidaihe
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Beidaihe 北戴河. Deng Xiaoping 邓小平 revises Kang Sheng''s 康生 draft answer to Sudarikov 苏达利柯, counsellor of the Soviet Embassy, on *Youhao* 《友好》, the Sino-Soviet Friendship Association''s weekly: answer so; to Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来 to read. The answer: the charge that *Youhao* printed articles the Soviet side disagrees with groundless; China against stopping both *Youhao* and *Sovetsko-kitayskaya druzhba* 《苏中友好》; if the Soviets insist, both stopped together.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1568 (July 28, 1960). The chronology gives it under the 28th, a third item of the day. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    src:
+      c: 842ad246
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1568: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-07-28.china-leadership-6
+    when: July 28
+    date: '1960-07-28'
+    thread: china-leadership
+    c: No. 2 of the bulletin of the Jiangsu 江蘇 rectification meeting 整風整社大會簡報 prints the members' eight opinions to the cadres 向幹部提八條意見. The book takes from it that the cadres of one brigade of Jianhu 建湖 county's Tianmei 天美 commune, five brigade cadres in all, had tied up and beaten nearly 90 members; a girl of 18 was stripped to her shorts and left in the field four hours; the brigade had paid members no money since the commune began.
+    n: '[[w.yang-jisheng-mubei]], I, 378–379. Made public: 2008. To check: *Bulletin of the general meeting of the rectification* 整風整社大會簡報, no. 2, July 28, 1960, "Eight opinions to cadres" 向幹部提八條意見 (cited by [[w.yang-jisheng-mubei]], I, 379 n.27). Check: the book says it saw a bulletin of the July 1960 rectification meeting in the Jiangsu Provincial Archives (I, 378); the commune is placed by the book''s text before the note.'
+    src:
+      c: 1bab7beb
+      rows:
+        - 'w.yang-jisheng-mubei I, 378-379: all'
+        - 'via w.yang-jisheng-mubei I, 379 n.27: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-29.elections-1960
     when: July 29
     date: '1960-07-29'
@@ -4748,11 +5036,12 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: Beidaihe 北戴河. The Secretariat 书记处 on output, capital construction and agriculture in the second half of the year, to 2 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 530 (July 29, 1960). The words: 上午……直到下午2时 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], I, 530 (July 29, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1568 (July 29, 1960; morning; Deng presides; Zhou attends). The words: 上午……直到下午2时 (I, 530). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 84897c4f
       rows:
         - 'w.yang-shangkun-riji I, 530: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1568: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1960-07-28T22:00Z
@@ -4793,6 +5082,18 @@ entries:
       - 1960-07-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-29.china-leadership-4
+    when: July 29
+    date: '1960-07-29'
+    thread: china-leadership
+    c: 'The Chuxiong 楚雄 prefectural committee 地委 reports to the provincial committee on edema 關於腫病情況向省委的報告: since July edema and wasting have risen fast in the area, to over 15,000 by a first sweep, Dayao 大姚 county 7,667; in Dayao''s Mixing 彌興 commune 313 died from July 1 to 25.'
+    n: '[[w.yang-jisheng-mubei]], I, 511. Made public: 2008. To check: Chuxiong Prefectural Committee, "Report to the provincial committee on the edema situation," July 29, 1960 (cited by [[w.yang-jisheng-mubei]], I, 511 n.45).'
+    src:
+      c: a01e66d0
+      rows:
+        - 'w.yang-jisheng-mubei I, 511: all'
+        - 'via w.yang-jisheng-mubei I, 511 n.45: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-30.elections-1960
     when: July 30
     date: '1960-07-30'
@@ -5103,13 +5404,15 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, Building 1, evening. The enlarged Standing Committee, Mao presiding, on the draft reply to the Soviet note of July 16 recalling the experts: those of July 28 and He Long, Tan Zhenlin, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 30, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 30, 1960 (Zhou present); [[w.yang-shangkun-riji]], I, 531 (July 30, 1960; the evening, at Mao''s, to 10:30; the answer to the Soviet note on the experts (the Foreign Ministry''s note to the Soviet Embassy of July 31, by the editors'' note)). Made public: 1997. Names: Mao Zedong, He Long, Tan Zhenlin, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 30, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335, July 30, 1960 (Zhou present); [[w.yang-shangkun-riji]], I, 531 (July 30, 1960; the evening, at Mao''s, to 10:30; the answer to the Soviet note on the experts (the Foreign Ministry''s note to the Soviet Embassy of July 31, by the editors'' note)); [[w.deng-xiaoping-nianpu-1904]], III, 1568 (July 30, 1960; evening; Deng at Mao''s enlarged Standing Committee on the Foreign Ministry''s reply to the Soviet note recalling the experts); [[w.mao-zedong-zhuan]], V, ch. 66 (July 30: Mao calls the enlarged Standing Committee on the draft reply to the Soviet note of July 16 recalling the experts; the reply is handed to the Soviet embassy the next day and printed for the conference). Made public: 1997. Names: Mao Zedong, He Long, Tan Zhenlin, Chen Boda, Kang Sheng, Wang Jiaxiang, Yang Shangkun.'
     src:
       c: 6942bb5b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 30, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 335, July 30, 1960: B'
         - 'w.yang-shangkun-riji I, 531: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1568: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: ?'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:he-long, name:tan-zhenlin, name:chen-boda, name:kang-sheng, vis:only:prc]
   - id: cal.1960-07-30.china-leadership-2
     when: July 30
@@ -5165,6 +5468,17 @@ entries:
       - 1960-07-30T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-30.china-leadership-6
+    when: July 30
+    date: '1960-07-30'
+    thread: china-leadership
+    c: Qi Yanming 齊燕銘, deputy secretary-general of the State Council 國務院, reports on giving senior cadres and senior intellectuals in Peking 北京 a favored supply of non-staple foods.
+    n: '[[w.yang-jisheng-mubei]], II, 1171 (the book''s chronology). Made public: 2008. To check: Qi Yanming, "Report on giving consideration to senior cadres and senior intellectuals in Peking in the supply of non-staple foods," July 30, 1960 (named by [[w.yang-jisheng-mubei]], II, 1171; no note). Check: Qi''s title is the calendar''s ([[cal.1960-03-14.china-leadership-5]]), not the book''s.'
+    src:
+      c: e681e0e7
+      rows:
+        - 'w.yang-jisheng-mubei II, 1171: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-31.congo
     when: July 31
     date: '1960-07-31'
@@ -5331,7 +5645,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, the plenary session, Mao presiding. Zhou Enlai on the experts'' recall ("to press us") and foreign trade: owed the Soviet Union, chiefly in grain, oil, meat and eggs, 1.6 billion rubles in trade and 0.7 billion in loans falling due, 2.3 billion next year. Mao: pay it all next year if it can be done; foreign trade to Zhou, Li Fuchun and Li Xiannian, with offices at the center and in the provinces.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 31, 1960; [[w.zhou-enlai-nianpu-1949]], II, 336, July 31, 1960 (Zhou''s report on Sino-Soviet relations); [[w.lengxi-shinian-lunzhan-1956-1966]], 337–338 (Zhou on the experts, the aid projects, trade and debt; the experts to be talked to by their unit heads, thanked, seen off warmly in small farewells, a large one later in Peking); [[w.yang-shangkun-riji]], I, 531 (July 31, 1960; 4 to 8 p.m.; Zhou on the Soviet recall of the experts and on foreign trade). Made public: 1997. Check: Wu (337) has the Politburo at Beidaihe, before July 31, decide to repay in five years, Mao: not a ruble short ([[cal.1960-07.china-leadership]]). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Li Xiannian.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 31, 1960; [[w.zhou-enlai-nianpu-1949]], II, 336, July 31, 1960 (Zhou''s report on Sino-Soviet relations); [[w.lengxi-shinian-lunzhan-1956-1966]], 337–338 (Zhou on the experts, the aid projects, trade and debt; the experts to be talked to by their unit heads, thanked, seen off warmly in small farewells, a large one later in Peking); [[w.yang-shangkun-riji]], I, 531 (July 31, 1960; 4 to 8 p.m.; Zhou on the Soviet recall of the experts and on foreign trade); [[w.deng-xiaoping-nianpu-1904]], III, 1569 (July 31, 1960; Deng at the work conference; Zhou on Sino-Soviet relations); [[w.mao-zedong-zhuan]], V, ch. 66 n.47 (July 31: Mao presiding, Zhou Enlai on the withdrawal of the experts and on foreign trade: the debts to the Soviet Union, half of China''s foreign trade, about 2.5 billion rubles, a point of the nation''s credit and of the fight with modern revisionism). Made public: 1997. Check: Wu (337) has the Politburo at Beidaihe, before July 31, decide to repay in five years, Mao: not a ruble short ([[cal.1960-07.china-leadership]]). To check: Zhou Enlai 周恩来, speech at the Beidaihe Central Work Conference 北戴河中央工作会议, July 31, 1960 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.47). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Li Xiannian.'
     src:
       c: 96bacd13
       rows:
@@ -5339,20 +5653,29 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 336, July 31, 1960: B'
         - 'w.lengxi-shinian-lunzhan-1956-1966 337–338: B'
         - 'w.yang-shangkun-riji I, 531: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1569: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66 n.47: C'
+        - 'via w.mao-zedong-zhuan V, ch.66 n.47: C'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, name:li-xiannian, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.mao-zedong-zhuan
+        reads: trade arrears to the Soviet Union 2.5 billion rubles (对苏贸易欠账达二十五亿卢布), as the book gives it
+        at: V, ch. 66 n.47
   - id: cal.1960-07-31.china-leadership-2
     when: July 31
     date: '1960-07-31'
     thread: china-leadership
     also: [soviet-union]
     c: 'The Foreign Ministry hands the Soviet Embassy the government''s reply to the note of July 16 recalling the experts: the recall against the treaty of alliance and the norms between socialist states; China would keep every expert to the end of his term; if the Soviets insist, "great regret."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 30, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335–36, July 30, 1960 (the note''s draft discussed at the Standing Committee the evening before); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 154 (July 31, 1960; the Foreign Ministry''s note to the Soviet embassy in answer to its note of July 16: the Soviet note charges a hostile line toward the Soviet Union and decides on its own to recall all experts; China has always given its experts all materials, internal and public, and such mutual introduction among socialist states is normal; the unilateral withdrawal and breaking of agreements and contracts will damage China''s construction; China hopes the Soviet government will reconsider, and will keep all experts whose terms are unfinished). See [[cal.1960-07.china]]. Made public: 1997.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, July 30, 1960; [[w.zhou-enlai-nianpu-1949]], II, 335–36, July 30, 1960 (the note''s draft discussed at the Standing Committee the evening before); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 154 (July 31, 1960; the Foreign Ministry''s note to the Soviet embassy in answer to its note of July 16: the Soviet note charges a hostile line toward the Soviet Union and decides on its own to recall all experts; China has always given its experts all materials, internal and public, and such mutual introduction among socialist states is normal; the unilateral withdrawal and breaking of agreements and contracts will damage China''s construction; China hopes the Soviet government will reconsider, and will keep all experts whose terms are unfinished); [[w.deng-xiaoping-nianpu-1904]], III, 1568–1569 (July 31, 1960; the reply delivered: the recall breaks the agreements and contracts, will cost China''s construction losses and difficulties, is rare even in ordinary international relations; China, reserving its view, respects the Soviet government''s wishes). See [[cal.1960-07.china]]. Made public: 1997.'
     src:
       c: 0e417d58
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, July 30, 1960: all'
         - 'w.zhou-enlai-nianpu-1949 II, 335–36, July 30, 1960: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 154: A-C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1568–1569: ?'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1960-07.china-leadership
     when: July, after the 18th
@@ -5629,3 +5952,40 @@ entries:
       - 1960-07-31T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07.china-leadership-18
+    when: July
+    date: 1960-07
+    thread: china-leadership
+    c: The Gansu 甘肅 committee, forced by events, makes a self-examination and writes the Center a report on checking the "one finger" question 關於檢查一個指頭問題的報告. Of 13 counties with grave problems it reports 9; it says most of those who left have come back.
+    n: '[[w.yang-jisheng-mubei]], I, 139. Made public: 2008. To check: Gansu Provincial Committee, "Report on checking the ''one finger'' question," July 1960, to the Center (named by [[w.yang-jisheng-mubei]], I, 139; no note); Gansu Provincial Committee, "Inspection report on some questions in carrying out the spirit of the Northwest Bureau''s Lanzhou meeting over two years," adopted Dec. 3, 1962 (cited by [[w.yang-jisheng-mubei]], I, 139 n.11). Check: the book gives the month only; the counts (13, 9) and the "come back" are the book''s reading, closed by the note on the 1962 report.'
+    src:
+      c: d655ca2a
+      rows:
+        - 'w.yang-jisheng-mubei I, 139: all'
+        - 'via w.yang-jisheng-mubei I, 139 n.11: all'
+        - 'via w.yang-jisheng-mubei I, 139 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-31.china-leadership-6
+    when: July 31
+    date: '1960-07-31'
+    thread: china-leadership
+    c: Zheng Qun 鄭群, Cheng Jiaying 成家英 and Zhang Lemin 張樂民, a work group of the prefectural committee, report their investigation of the serious illegal conduct and mass deaths in Shixing 始興 commune, Nanxiong 南雄 county 關於南雄縣始興公社嚴重違法亂紀和大量死人事件的調查報告. In ten brigades from January 1959 to May 1960 2,016 of 20,819 died, 9.9 percent; for the whole commune 5,070 of 83,977, 5.91 percent; cadres at fault 725 in January to May 1960, 2,038 people tied up and beaten.
+    n: '[[w.yang-jisheng-mubei]], I, 416–417. Made public: 2008. To check: Zheng Qun, Cheng Jiaying and Zhang Lemin, "Investigation report on the serious illegal conduct and mass deaths in Shixing commune, Nanxiong county," July 31, 1960, to the prefectural committee and supervisory committee (cited by [[w.yang-jisheng-mubei]], I, 416 n.18). Check: the note says Cheng was secretary of the prefectural supervisory committee and Zhang head of the public security bureau, and that the section''s content, unless noted, is from the report.'
+    src:
+      c: de8c13f8
+      rows:
+        - 'w.yang-jisheng-mubei I, 416-417: all'
+        - 'via w.yang-jisheng-mubei I, 416 n.18: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07.china-leadership-19
+    when: July
+    date: 1960-07
+    thread: china-leadership
+    c: The office of the Shandong 山東 committee issues no. 31 of its *Communications and materials* 《通訊與資料》. By an incomplete count of early July, 5,210 rural mess halls have stopped cooking in six prefectures, Qingdao 青島, Yantai 煙台 and Linyi 臨沂 excepted.
+    n: '[[w.yang-jisheng-mubei]], I, 446. Made public: 2008. To check: Shandong Provincial Committee General Office, *Tongxun yu ziliao* no. 31, July 1960 (cited by [[w.yang-jisheng-mubei]], I, 446 n.15). Check: the count''s day (early July) is the book''s; whether the whole of the passage the note closes is the bulletin''s is not shown.'
+    src:
+      c: bbf95012
+      rows:
+        - 'w.yang-jisheng-mubei I, 446: all'
+        - 'via w.yang-jisheng-mubei I, 446 n.15: all'
+    tags: [polity:prc, vis:only:prc]

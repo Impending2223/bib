@@ -5,6 +5,7 @@ module is the only place that knows the layout; the rest of the tools work on
 the in-memory objects it returns.
 """
 import datetime
+import functools
 import hashlib
 import json
 import os
@@ -13,7 +14,10 @@ import unicodedata
 
 import yaml
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# The repository: the data and build/ under it. BIB_ROOT, when set, names another tree of the same layout
+# (the tests' fixture, tests/fixture); every module takes its paths from here.
+ROOT = os.path.abspath(os.environ.get("BIB_ROOT") or
+                       os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
@@ -34,25 +38,28 @@ _Loader.yaml_implicit_resolvers = {
 }
 
 
-class DataError(SystemExit):
-    pass
+class DataError(Exception):
+    """A data file that cannot be read (bad YAML, git conflict markers). An ordinary error: a handler meant for a
+    file that does not load (patchcheck, patchaudit) catches it; cli.main turns it into its message and exit 1."""
 
 
-_PARSED = {}                             # path -> (mtime, size, pickled data): each file parsed once a run
-CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by path, mtime and size (git-ignored)
+_PARSED = {}                             # path -> (sha1 of the file's bytes, pickled data): each file parsed once a run
+CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by path and the bytes' sha1 (git-ignored)
 
 
 def load_yaml(path):
     """A YAML file's data, parsed once: the parse is kept in memory for the run and on disk (.cache/yaml) for later
-    runs, keyed by the file's path, modification time and size. Each caller gets its own copy (callers change
-    what they load)."""
+    runs, keyed by the file's path and a sha1 of its bytes (not its modification time and size, which a rewrite in
+    the same tick can leave unchanged; hashing all the data's YAML costs about 0.1-0.2 s a run). Each caller gets its
+    own copy (callers change what they load). _PARSED[path] holds the digest and parse of the bytes last read."""
     import pickle
     try:
-        st = os.stat(path)
+        with open(path, "rb") as f:
+            raw = f.read()
     except OSError:
-        st = None
-    if st is not None:
-        sig = (st.st_mtime_ns, st.st_size)
+        raw = None
+    if raw is not None:
+        sig = hashlib.sha1(raw).hexdigest()
         hit = _PARSED.get(path)
         if hit and hit[0] == sig:
             return pickle.loads(hit[1])
@@ -63,10 +70,10 @@ def load_yaml(path):
             if dsig == sig:
                 _PARSED[path] = (sig, blob)
                 return pickle.loads(blob)
-        except (OSError, EOFError, pickle.UnpicklingError, ValueError):
+        except (OSError, EOFError, pickle.UnpicklingError, ValueError, TypeError):
             pass
-    data = _parse_yaml(path)
-    if st is not None:
+    data = _parse_yaml(path, None if raw is None else raw.decode("utf-8"))
+    if raw is not None:
         blob = pickle.dumps(data, protocol=pickle.HIGHEST_PROTOCOL)
         _PARSED[path] = (sig, blob)
         try:
@@ -80,9 +87,10 @@ def load_yaml(path):
     return data
 
 
-def _parse_yaml(path):
-    with open(path, encoding="utf-8") as f:
-        text = f.read()
+def _parse_yaml(path, text=None):
+    if text is None:
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
     if "\n<<<<<<< " in "\n" + text:
         raise DataError(f"{os.path.relpath(path, ROOT)}: git conflict markers. Run ./bib setup once so git "
                         "merges these files entry by entry, or settle the markers by hand.")
@@ -107,12 +115,19 @@ def _scalar(v):
     return out
 
 
+@functools.lru_cache(maxsize=4096, typed=True)    # typed: the key True is not the key 1
+def _key(k):
+    """A mapping key, quoted as a value would be: 'on', 'no', '1961', '#x', 'k: v' read back as written."""
+    return _scalar(k)
+
+
 def _emit(v, indent):
     """Block YAML with one field per line; lists of strings become '- ' items."""
     pad = " " * indent
     if isinstance(v, dict):
         lines = []
         for k, x in v.items():
+            k = _key(k)
             if isinstance(x, (dict, list)) and x:
                 if isinstance(x, list) and all(not isinstance(i, (dict, list)) for i in x) and k in ("also", "tags", "aliases"):
                     lines.append(f"{pad}{k}: [{', '.join(_scalar(i) for i in x)}]")
@@ -125,7 +140,9 @@ def _emit(v, indent):
     if isinstance(v, list):
         lines = []
         for x in v:
-            if isinstance(x, dict):
+            if isinstance(x, (dict, list)) and not x:       # an empty mapping or list, in flow form: {} or []
+                lines.append(f"{pad}- {_scalar(x)}")
+            elif isinstance(x, dict):
                 inner = _emit(x, indent + 2)
                 lines.append(pad + "- " + inner[indent + 2:])
             elif isinstance(x, list):
@@ -138,13 +155,54 @@ def _emit(v, indent):
 
 
 def dump_yaml(obj, path, header=None):
+    """obj written to path as YAML, atomically: through a temporary file of this process's own in the same directory
+    (two writers never share one), then os.replace. The in-memory parse (load_yaml) becomes obj, keyed by the digest
+    of what was written. Returns the text."""
+    import pickle
     text = _emit(obj, 0) + "\n"
     if header:
         text = "".join("# " + h + "\n" for h in header) + text
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        f.write(text)
-    os.replace(tmp, path)
+    atomic_write(path, text)
+    if _plain(obj):                     # what was written loads back as obj (the emitter's round trip)
+        _PARSED[path] = (hashlib.sha1(text.encode("utf-8")).hexdigest(), pickle.dumps(obj, protocol=pickle.HIGHEST_PROTOCOL))
+    else:                               # a date, a tuple: the next load parses the file
+        _PARSED.pop(path, None)
+    return text
+
+
+def _plain(v):
+    """Made only of what YAML gives back as itself: str, int, float, bool, None, lists and mappings of those."""
+    if isinstance(v, dict):
+        return all(_plain(k) and _plain(x) for k, x in v.items())
+    if isinstance(v, list):
+        return all(_plain(x) for x in v)
+    return v is None or isinstance(v, (str, int, float))
+
+
+def atomic_write(path, text):
+    """text written to path whole or not at all: a temporary file named for this process (and thread) beside it,
+    then os.replace; the temporary file removed if the write fails."""
+    import threading
+    tmp = f"{path}.{os.getpid()}.{threading.get_ident()}.tmp"
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(text)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        raise
+
+
+def file_digest(path):
+    """sha1 of a file's bytes, or None where there is no file."""
+    try:
+        with open(path, "rb") as f:
+            return hashlib.sha1(f.read()).hexdigest()
+    except OSError:
+        return None
 
 
 # ---------------------------------------------------------------- ids and keys
@@ -348,6 +406,8 @@ class Series:
                     fp = os.path.join(root, "lists", key, s.file)
                     doc = load_yaml(fp) or {}
                     s.entries = [normalize_entry(e) for e in (doc.get("entries") or [])]
+                    # the file as loaded (its digest, its parse): save_section merges a change made on disk meanwhile
+                    s._disk = _PARSED.get(fp)
             self.lists[key] = lst
         self._index = None
         from . import works            # each listing that points to a card: its citation and notes, in memory
@@ -384,12 +444,46 @@ class Series:
 
     # writing
     def save_section(self, sec):
+        """The section written back. If its file changed on disk since this run loaded it (another merge, an agent's
+        edit), the change is not overwritten: the file is merged entry by entry (merge.merge_entry_lists; base the file
+        as loaded, ours the section in memory, theirs the file now), disagreements recorded as conflicts in the
+        entries, and the merged entries become the section's. A file that changed and does not load now is refused."""
         lst = sec.lst
         path = os.path.join(self.root, "lists", lst.key, sec.file)
         head = [f"{lst.abbr} {sec.code or ''} {sec.title}".replace("  ", " ").strip(),
                 "Entries in display order. See CLAUDE.md for the fields. Run ./bib check after editing."]
-        dump_yaml({"list": lst.key, "section": sec.code or sec.id,
-                   "entries": [normalize_entry(stored_form(e)) for e in sec.entries]}, path, header=head)
+        entries = [normalize_entry(stored_form(e)) for e in sec.entries]
+        loaded = getattr(sec, "_disk", None)
+        if loaded is not None:
+            now = file_digest(path)
+            if now is not None and now != loaded[0]:
+                entries = self._merge_disk(sec, path, loaded, entries)
+        doc = {"list": lst.key, "section": sec.code or sec.id, "entries": entries}
+        text = dump_yaml(doc, path, header=head)
+        import pickle
+        sec._disk = (hashlib.sha1(text.encode("utf-8")).hexdigest(), pickle.dumps(doc, protocol=pickle.HIGHEST_PROTOCOL))
+
+    def _merge_disk(self, sec, path, loaded, ours):
+        import pickle
+        import sys
+        from .merge import merge_entry_lists
+        rel = os.path.relpath(path, self.root)
+        try:
+            theirs_doc = _parse_yaml(path) or {}
+        except DataError as x:
+            raise DataError(f"{rel} changed on disk during this run and does not load now; not overwritten "
+                            f"(this run's changes to it are not saved): {x}")
+        if loaded[1] is None:
+            raise DataError(f"{rel} changed on disk during this run and its loaded form is not known; not overwritten")
+        base = [normalize_entry(e) for e in (pickle.loads(loaded[1]) or {}).get("entries") or []]
+        theirs = [normalize_entry(e) for e in theirs_doc.get("entries") or []]
+        merged = merge_entry_lists(base, ours, theirs, "disk")
+        n = sum(any(c.get("from") == "disk" for c in e.get("conflict") or []) for e in merged)
+        print(f"{rel}: changed on disk during this run; merged entry by entry, nothing overwritten"
+              + (f" ({n} entries with a conflict: ./bib conflicts)" if n else ""), file=sys.stderr)
+        sec.entries = merged
+        self.invalidate()
+        return merged
 
     def save_list_meta(self, lst):
         d = dict(lst.data)

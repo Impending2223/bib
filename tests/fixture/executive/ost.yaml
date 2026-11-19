@@ -1,0 +1,71 @@
+# The President's science adviser: the Special Assistant to the President for Science and Technology (Nov. 1957),
+# the President's Science Advisory Committee (from the Office of Defense Mobilization's Science Advisory Committee,
+# Nov. 1957), and the Office of Science and Technology (1962–73). Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: ost
+name: Office of Science and Technology
+under: eop
+order: 60
+from: '1957-11-07'
+until: '1973-07-01'
+law:
+  - act: Reorganization Plan No. 2 of 1962
+    date: '1962-06-08'
+    cite: 76 Stat. 1253
+    usc: 42 U.S.C. § 1861 note (1964)
+    tags: [creates, appointment, vacancy, pay, powers]
+    does: Establishes in the Executive Office the Office of Science and Technology, under a Director ($22,500) and a Deputy Director ($20,500), both appointed by the President by and with the advice and consent of the Senate; the Deputy acts in the Director's absence or a vacancy; transfers from the National Science Foundation the functions of advising the President on coordinated policy for basic research and education in the sciences and of evaluating the Government's scientific research programs (Part I).
+  - act: Reorganization Plan No. 1 of 1973
+    date: '1973-07-01'
+    cite: 87 Stat. 1089
+    usc: 5 U.S.C. App. (1970 Supp. IV)
+    tags: [reorganizes]
+    does: Transfers the functions of the Office and its Director and Deputy Director to the Director of the National Science Foundation and abolishes the Office (§§ 2, 3(a)(5)).
+n: The office of Special Assistant announced by Eisenhower Nov. 7, 1957, after Sputnik. Before the Office, the Special Assistant's staff was in the White House Office. Federal Council for Science and Technology, Executive Order 10807, Mar. 13, 1959, the Special Assistant chairman.
+offices:
+  - id: special-assistant
+    title: Special Assistant to the President for Science and Technology
+    titles:
+      - title: Science Adviser to the President
+        from: '1969'
+    rank: head
+    appt: PA
+    until: '1973-07-01'
+    n: Held with the Directorship of the Office of Science and Technology from 1962, and with the chairmanship of the Science Advisory Committee and of the Federal Council for Science and Technology. From July 1, 1973, the Director of the National Science Foundation (Stever) was named Science Adviser.
+    holders:
+      - name: Kistiakowsky, George B.
+        from: '1959-07-15'
+        to: '1961-01-20'
+        out: Resigned at the change of Administration; resignation accepted Jan. 9, 1961 (APP).
+        src:
+          - FRUS persons list
+          - https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-george-b-kistiakowsky-special-assistant-the-president-for
+      - name: Wiesner, Jerome B.
+        from: '1961-01-20'
+        to: '1964-01-24'
+        out: Resigned; to the Massachusetts Institute of Technology.
+        src:
+          - 'Wikipedia: Jerome Wiesner'
+          - FRUS persons list
+  - id: psac-chairman
+    title: Chairman of the Science Advisory Committee, Office of Defense Mobilization
+    titles:
+      - title: Chairman of the President's Science Advisory Committee
+        from: 1957-11
+    rank: principal
+    appt: DES
+    until: '1973-07-01'
+    n: The Committee, of 1951, advisory to the Director of Defense Mobilization; reconstituted as the President's Science Advisory Committee, Nov. 1957, with the Special Assistant as chairman (from Dec. 1957). Abolished with the Office, 1973.
+    holders:
+      - name: Kistiakowsky, George B.
+        from: '1959-07-15'
+        to: '1961-01-20'
+        src:
+          - 'Wikipedia: George Kistiakowsky'
+      - name: Wiesner, Jerome B.
+        from: 1961-02
+        to: '1964-01-24'
+        n: Named chairman Feb. 1961 (Wikipedia).
+        src:
+          - 'Wikipedia: Jerome Wiesner'

@@ -1,0 +1,244 @@
+# The Central Intelligence Agency. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# tests/make_fixture.py: the holders of 1961
+unit: cia
+name: Central Intelligence Agency
+under: president
+order: 500
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    tags: [creates, powers, appointment]
+    cite: ch. 343, § 102, 61 Stat. 495, 497
+    usc: 50 U.S.C. § 403 (1958)
+    does: Establishes under the National Security Council a Central Intelligence Agency, with a Director of Central Intelligence its head; the Director appointed by the President with the advice and consent of the Senate, from the commissioned officers of the armed services or from civilian life. The Agency to advise the Council, correlate and evaluate intelligence, and perform services of common concern; no police, subpoena, law-enforcement or internal-security functions.
+  - act: Central Intelligence Agency Act of 1949
+    date: '1949-06-20'
+    tags: [powers]
+    cite: ch. 227, 63 Stat. 208
+    usc: 50 U.S.C. §§ 403a–403j (1958)
+    does: The Agency's administration. Procurement, education and training, travel and allowances; the Director may spend funds without regard to the laws on public money, on his certificate alone, for objects of a confidential nature; exempts the Agency from disclosing its organization, functions, names, titles, salaries or numbers of personnel.
+n: The Agency's officers below the Director and Deputy Director are the Agency's employees, appointed by the Director. The directorates and their heads are the Agency's own organization, not set by statute; dates for them are from the FRUS lists of persons and other secondary sources, and many need checking.
+offices:
+  - id: director
+    title: Director of Central Intelligence
+    rank: head
+    appt: PAS
+    level: II
+    law:
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 4, 63 Stat. 880
+        does: $16,000 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 104(a)(2), 70 Stat. 736
+        usc: 5 U.S.C. § 2203 (1958)
+        does: $21,000 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(b)(16), 78 Stat. 400, 416
+        usc: 5 U.S.C. § 2211(b) (1964)
+        does: Level II, $30,000 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 460
+        usc: 5 U.S.C. § 5313 (1970)
+        does: Level II continued, $30,000 a year (§ 5313(15)).
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level II, $42,500 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Dulles, Allen W.
+        given: Allen Welsh
+        nominated: '1953-02-07'
+        confirmed: '1953-02-23'
+        from: '1953-02-26'
+        to: '1961-11-29'
+        out: Resigned.
+        src:
+          - 'Wikipedia: Director of Central Intelligence'
+          - CDIR 1957-03 to 1961-04
+          - FRUS persons list
+          - Cong. Rec.
+      - name: McCone, John A.
+        given: John Alex
+        nominated: '1962-01-15'
+        confirmed: '1962-01-31'
+        from: '1961-11-29'
+        to: '1965-04-28'
+        out: Resigned.
+        n: 'Appointment announced Sept. 27, 1961; sworn Nov. 29, 1961 (APP), between sessions of the Senate (Sept. 1961–Jan. 10, 1962). Confirmed 71–12 (Cong. Rec.). Carter, the Deputy Director, acted in his absence, Aug.–Sept. 1962. Check: the date of the recess commission. Check: recess appointment, the date of the commission.'
+        src:
+          - https://www.presidency.ucsb.edu/documents/remarks-newport-upon-announcing-the-appointment-john-mccone-director-the-central
+          - https://www.presidency.ucsb.edu/documents/remarks-the-swearing-john-mccone-director-central-intelligence-agency
+          - https://www.presidency.ucsb.edu/documents/remarks-the-swearing-admiral-raborn-and-richard-helms-director-and-deputy-director-cia
+          - 'Wikipedia: Director of Central Intelligence'
+          - CDIR 1962-01 to 1965-03
+          - Cong. Rec.
+          - Hearing CHRG-87shrg78722
+  - id: deputy-director
+    title: Deputy Director of Central Intelligence
+    rank: principal
+    appt: PAS
+    level: III
+    n: Before Apr. 4, 1953, a deputy appointed by the Director.
+    law:
+      - act: Act of Apr. 4, 1953
+        date: '1953-04-04'
+        tags: [creates, appointment, vacancy]
+        cite: ch. 16, 67 Stat. 19
+        usc: 50 U.S.C. § 403(a) (1958)
+        does: A Deputy Director of Central Intelligence, to act for and exercise the powers of the Director in his absence or disability; Director and Deputy appointed by the President with the advice and consent of the Senate, from the commissioned officers of the armed services or from civilian life, but not both from the officers at once.
+      - act: Executive Pay Act of 1949
+        date: '1949-10-15'
+        effective: 1949-10
+        until: 1956-07
+        tags: [pay]
+        cite: ch. 695, § 6(a), 63 Stat. 880, 881
+        does: $14,000 a year.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        effective: 1956-07
+        until: 1964-07
+        tags: [pay]
+        cite: ch. 804, title I, § 105(26), 70 Stat. 736, 737
+        usc: 5 U.S.C. § 2204 (1958)
+        does: $20,500 a year.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: 1964-07
+        until: '1966-09-06'
+        tags: [pay]
+        cite: Pub. L. 88-426, § 303(c)(36), 78 Stat. 400, 417
+        usc: 5 U.S.C. § 2211(c) (1964)
+        does: Level III, $28,500 a year.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        until: 1967-12
+        tags: [pay]
+        cite: Pub. L. 89-554, 80 Stat. 378, 461
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III continued, $28,500 a year (§ 5314(36)).
+      - act: Federal Salary Act of 1967
+        date: '1967-12-16'
+        effective: 1967-12
+        until: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 215(a), 81 Stat. 613, 638
+        usc: 5 U.S.C. § 5314 (1970)
+        does: Level III raised to $29,500 a year.
+      - act: Federal Salary Act of 1967, § 225
+        date: '1967-12-16'
+        effective: 1969-02
+        tags: [pay]
+        cite: Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644
+        usc: 2 U.S.C. §§ 358–360 (1970)
+        does: Level III, $40,000 a year, on the President's recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).
+    holders:
+      - name: Cabell, Charles P.
+        given: Charles Pearre
+        rank: Lt. Gen., USAF; Gen. from July 11, 1958
+        nominated: '1953-04-10'
+        confirmed: '1953-04-18'
+        from: '1953-04-23'
+        to: '1962-01-31'
+        out: Retired from the Air Force; left the Agency.
+        src:
+          - 'Wikipedia: Charles P. Cabell'
+          - CDIR 1957-03 to 1961-04
+          - FRUS persons list
+          - Cong. Rec.
+  - id: ddp
+    title: Deputy Director (Plans)
+    titles:
+      - title: Deputy Director for Operations
+        from: '1973-03-01'
+    rank: employee
+    appt: HD
+    group: Directorates
+    n: Head of the Directorate of Plans (clandestine collection and covert action); the Directorate of Operations from 1973.
+    holders:
+      - name: Bissell, Richard M., Jr.
+        from: '1959-01-01'
+        to: '1962-02-17'
+        out: Resigned.
+        src:
+          - 'Wikipedia: Richard M. Bissell Jr.'
+          - FRUS persons list
+  - id: officers
+    title: Officers named in the series
+    rank: employee
+    appt: HD
+    many: true
+    group: Officers
+    n: Agency officers who appear in the calendar, the lists, or the FRUS documents of the daybook, in posts not listed above.
+    holders:
+      - name: Hunt, E. Howard
+        given: Everette Howard
+        from: '1949'
+        to: '1970-04-30'
+        out: Retired; White House consultant from 1971.
+        src:
+          - 'Wikipedia: E. Howard Hunt'
+      - name: McCord, James W., Jr.
+        title: Office of Security; chief, Physical Security Division
+        from: 1951-08
+        to: 1970-08
+        out: Retired.
+        src:
+          - 'Wikipedia: James W. McCord Jr.'
+      - name: Barnes, C. Tracy
+        title: Assistant Deputy Director (Plans) for Covert Action; from 1962, Domestic Operations Division
+        from: '1960'
+        n: 'Check: when he left (1968).'
+        src:
+          - 'Wikipedia: C. Tracy Barnes'
+          - FRUS persons list
+      - name: Esterline, J. D.
+        title: Chief, Branch 4, Western Hemisphere Division (the Cuban operation)
+        from: '1960'
+        to: '1961'
+        n: Check both dates.
+        src:
+          - FRUS persons list
+      - name: Hawkins, Jack
+        rank: Col., USMC
+        title: Chief, paramilitary section, Branch 4, Western Hemisphere Division
+        from: '1960'
+        to: '1961'
+        n: Detailed from the Marine Corps. Check both dates.
+        src:
+          - FRUS persons list
+      - name: Beerli, Stanley W.
+        rank: Col., USAF
+        title: Chief of air operations, Branch 4, Western Hemisphere Division
+        from: '1960'
+        to: '1961'
+        n: Detailed from the Air Force. Check both dates.
+        src:
+          - FRUS persons list
+      - name: Harvey, William K.
+        title: Chief, Task Force W (Mongoose)
+        from: 1961-11
+        to: '1963'
+        out: To chief of station, Rome.
+        n: Check both dates.
+        src:
+          - FRUS persons list
+          - 'Wikipedia: William King Harvey'

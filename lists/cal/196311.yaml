@@ -285,13 +285,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Shanghai. Edgar Faure arrives with Zhou Enlai and Chen Yi. Afternoon, a meeting, Mao with Liu Shaoqi, Zhou, Deng Xiaoping and Chen Yi, on Faure''s three plans for establishing relations and on the Standing Committee''s views in Peking. Zhou: the first plan we cannot consider; the second is good but France has difficulty; if no choice, the third. The meeting thinks both sides want formal relations, and that a new proposal of direct establishment is better than the third plan; Zhou and Chen Yi to take it to the French.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 1, 1963. [[w.zhou-enlai-nianpu-1949]], II, 593 (Nov. 1–3, 1963: Zhou Enlai with Liu, Deng and Chen Yi at Mao''s meetings on socialist education and the plan for relations with France; present too the heads of the East China Bureau and the first secretaries of the East China provinces); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584 (Nov. 1, 1963; Liu arrives at Shanghai). Made public: 1996. To check: the French record of Faure''s mission. See [[cal.1963-10-31.china-leadership]]. Names: Mao Zedong, Edgar Faure, Zhou Enlai, Chen Yi, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 1, 1963. [[w.zhou-enlai-nianpu-1949]], II, 593 (Nov. 1–3, 1963: Zhou Enlai with Liu, Deng and Chen Yi at Mao''s meetings on socialist education and the plan for relations with France; present too the heads of the East China Bureau and the first secretaries of the East China provinces); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584 (Nov. 1, 1963; Liu arrives at Shanghai); [[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 1, 1963; Deng with Liu Shaoqi, Zhou Enlai and Chen Yi at Mao''s meeting on the establishment of relations between China and France). Made public: 1996. To check: the French record of Faure''s mission. See [[cal.1963-10-31.china-leadership]]. Names: Mao Zedong, Edgar Faure, Zhou Enlai, Chen Yi, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: f4303360
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 1, 1963: all'
         - 'w.zhou-enlai-nianpu-1949 II, 593: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 584: C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: ?'
     tags: [polity:prc, polity:fr, name:mao-zedong, name:faure-edgar-jean, name:zhou-enlai, name:chen-yi, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-11-01.china-leadership-2
     when: Nov. 1
@@ -328,11 +329,12 @@ entries:
       - shanghai
     thread: china-leadership
     c: Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Chen Yi 陈毅 and others fly from Peking 北京 to Shanghai 上海.
-    n: '[[w.yang-shangkun-riji]], II, 323 (Nov. 1, 1963). The words: 今天刘、周、邓、陈等同志飞上海 (II, 323). See [[cal.1963-11-01.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Chen Yi.'
+    n: '[[w.yang-shangkun-riji]], II, 323 (Nov. 1, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 1, 1963; Deng flies to Shanghai with Liu Shaoqi, Zhou Enlai, Chen Yi and others, to discuss at Mao''s the talks Zhou has with Edgar Faure 埃德加·富尔, representative of the French President and former Prime Minister, on establishing relations between China and France). The words: 今天刘、周、邓、陈等同志飞上海 (II, 323). See [[cal.1963-11-01.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Chen Yi.'
     src:
       c: cb50d2f6
       rows:
         - 'w.yang-shangkun-riji II, 323: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: A'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:chen-yi, vis:only:prc]
   - id: cal.1963-11-01.china-leadership-5
     when: Nov. 1
@@ -585,6 +587,23 @@ entries:
       - 1963-11-02T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-02.china-leadership-8
+    when: Nov. 2–3
+    date: '1963-11-02'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Chen Yi 陈毅, at Mao Zedong's 毛泽东 meeting, continues the discussion of the establishment of relations between China and France and other questions; the meeting goes on the morning of the 3rd.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 2–3, 1963). The words: 下午 (III, 1777). The time is the first day''s. Made public: 2009 (the nianpu). See [[cal.1963-11-01.china-leadership]]. Names: Deng Xiaoping, Liu Shaoqi, Zhou Enlai, Chen Yi, Mao Zedong.'
+    src:
+      c: f827c100
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: all'
+    tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:chen-yi, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1963-11-02T04:00Z
+      - 1963-11-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-03.opinion-5
     when: Nov. 3
     date: '1963-11-03'
@@ -623,12 +642,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Hangzhou. Mao, with Liu Shaoqi, Deng Xiaoping, Ke Qingshi, Luo Ruiqing, Xie Fuzhi, Tian Jiaying and the East China first secretaries, on revising the "specific policies in the rural socialist education movement." With Liu and Deng on the anti-revisionist struggle two things are fixed: widen the circulation of the argument (the ban on local papers writing against revisionism lifted; center, bureau and province papers may; what appears in a national paper to be passed by the Propaganda Department and the Center, in a provincial one by the regional bureau; not county papers yet; no slogans, ballads, plays or cartoons); and widen the briefing, the report once given to cadres of rank 17 and up now to those below and Party members down to branch secretaries, and a second outline for workers, peasants and students.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 3, 1963. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584 (Nov. 3, 1963; Liu attends the small meeting Mao calls at Hangzhou of the East China Bureau''s leaders and the East China provinces'' first secretaries, which revises the rural policies draft and drafts the Center''s notice on printing the two documents and spreading them over the country; Mao and Liu discuss how to fight modern revisionism and decide on two measures, wider publicity (provincial and regional papers may organize articles, with the Propaganda Department or the regional bureau approving) and wider circulation of Party documents (from cadres of the 17th grade and up to the whole people by degrees)). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Ke Qingshi, Luo Ruiqing, Xie Fuzhi, Tian Jiaying.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 3, 1963. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584 (Nov. 3, 1963; Liu attends the small meeting Mao calls at Hangzhou of the East China Bureau''s leaders and the East China provinces'' first secretaries, which revises the rural policies draft and drafts the Center''s notice on printing the two documents and spreading them over the country; Mao and Liu discuss how to fight modern revisionism and decide on two measures, wider publicity (provincial and regional papers may organize articles, with the Propaganda Department or the regional bureau approving) and wider circulation of Party documents (from cadres of the 17th grade and up to the whole people by degrees)); [[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 3, 1963; Deng goes to Hangzhou with Liu Shaoqi; at Mao''s meeting with the East China Bureau''s leaders and the first secretaries of the East China provincial committees he takes part in revising the Latter Ten Points and drafting the Central Committee''s notice on printing and propagating two documents on the socialist education movement (the Former and Latter Ten Points, to be published to the whole country); with Mao and Liu he studies widening the propaganda and the briefing on the struggle against modern revisionism). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Ke Qingshi, Luo Ruiqing, Xie Fuzhi, Tian Jiaying.'
     src:
       c: 8d436abd
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 3, 1963: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 584: B, C, D'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: C-D'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:ke-qingshi, name:luo-ruiqing, name:xie-fuzhi, vis:only:prc]
   - id: cal.1963-11-03.china-leadership-2
     when: Nov. 3
@@ -1653,11 +1673,12 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, 5 p.m. The Secretariat 书记处 on the report to the National People''s Congress, the policies of the rural socialist education movement and other papers: the members of the Central Committee in Peking to be put in groups and discuss them for two days, from Monday.'
-    n: '[[w.yang-shangkun-riji]], II, 325 (Nov. 9, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], II, 325 (Nov. 9, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 9, 1963; afternoon, 下午; Deng presides at the Secretariat on the draft report to the Fourth Session of the Second NPC and questions of the Latter Ten Points). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 7339ec44
       rows:
         - 'w.yang-shangkun-riji II, 325: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-11-09.china-leadership-5
@@ -1676,6 +1697,23 @@ entries:
       - 1963-11-09T14:00Z
       - 1963-11-09T16:00Z
     time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1963-11-09.china-leadership-6
+    when: Nov. 9
+    date: '1963-11-09'
+    place: peking
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 returns to Peking 北京.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 9, 1963). The words: 下午 (III, 1777). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 9f3aa4ee
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1963-11-09T04:00Z
+      - 1963-11-09T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1963-11-10.black-nationalism-detroit
     when: Nov. 10
@@ -2340,7 +2378,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Huairen Hall. The enlarged Politburo, Liu Shaoqi presiding, adopts the Central Committee''s "Some concrete policies in the rural socialist education movement (draft)" (the "Later Ten Points") and its notice on printing and publicizing the two rural documents, a revision of Mao''s draft of Oct. 25: the May 20 and September drafts to go to every rural branch, two copies each, and to be read to all Party members and peasants, in factories, offices, schools and streets, to the democratic parties, the army and police, and to the landlords, rich peasants, counter-revolutionaries, bad elements and rightists. Sent out Nov. 18.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963. [[w.zhou-enlai-nianpu-1949]], II, 594 (Nov. 14, 1963: Zhou Enlai at the enlarged Politburo, which adopts the draft Provisions on some concrete policies in the rural socialist education movement and the drafts of the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, to be revised by the Standing Committee and given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC; the same day the Center issues a notice on printing and publicizing the "First Ten Points" and the "Later Ten Points"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584–585 (Nov. 14, 1963; Liu presides at the enlarged Politburo meeting, which also adopts in principle the reports to the Fourth Session of the Second NPC on the 1963 plan and the 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, and hears Peng Zhen on the session''s opening and the election of deputies to the next NPC; Liu conveys the two measures against modern revisionism agreed with Mao at Hangzhou); [[w.jianguo-yilai-mao-zedong]], XVII, 81–82, 85–86 (Nov. 14, 1963; the notice as printed from the Central Committee''s text, dated Nov. 14; note 1 gives its drafting Oct. 25, Mao''s and others'' revision, and settling of the text Nov. 16, the date left at Nov. 14); [[w.macfarquhar-origins-of-the-cultural]], III, 344–47 (the Politburo under Liu passes the document, issued with Mao''s leave: praise of Mao and the Former Ten Points; unity with over 95 percent of peasants and cadres; work teams from above to rectify cadres; no general reclassification of peasants); [[w.yang-shangkun-riji]], II, 327 (Nov. 14, 1963; the enlarged Politburo, 3 to 5 p.m., adopts the rural papers (the First and Later Ten Points, drafts, and the notice on printing them, the editors note) and matters of the NPC; Yang there). Made public: 1996. Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996). To check: the notice and the two drafts, Nov. 18, 1963; Central Committee, Decision on some current problems in rural work (draft), the "First Ten Points," issued May 20, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 86 n.6); Central Committee, Provisions on some concrete policies in the rural socialist education movement (draft), the "Later Ten Points," Sept. 1963 (first titled "Some concrete policy questions in the rural socialist education movement"; retitled Nov. 14, 1963) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 85 n.3); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1112 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56a); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 386–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56f); CCP CC, Some concrete policy formulations in the rural socialist education movement (the Latter Ten Points), Nov. 1963, in [[w.baum-ssu-ching]], 72, 73, 75, 76, 78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57a); [[w.jin-1949-1989-niande-zhongguo]], 531 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57b); [[w.baum-ssu-ching]], 63, 70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.64); the Central Committee''s "Decision on some questions of present rural work (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1a); the Central Committee''s "Provisions on some concrete policies in the rural socialist education movement (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1b); the Central Committee''s notice of Nov. 14, 1963, on printing and publicizing the two documents (cited by [[w.yang-shangkun-riji]], II, 327 n.1c). See [[cal.1963-10-25.china-leadership]]. Names: Liu Shaoqi, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963. [[w.zhou-enlai-nianpu-1949]], II, 594 (Nov. 14, 1963: Zhou Enlai at the enlarged Politburo, which adopts the draft Provisions on some concrete policies in the rural socialist education movement and the drafts of the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, to be revised by the Standing Committee and given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC; the same day the Center issues a notice on printing and publicizing the "First Ten Points" and the "Later Ten Points"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584–585 (Nov. 14, 1963; Liu presides at the enlarged Politburo meeting, which also adopts in principle the reports to the Fourth Session of the Second NPC on the 1963 plan and the 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, and hears Peng Zhen on the session''s opening and the election of deputies to the next NPC; Liu conveys the two measures against modern revisionism agreed with Mao at Hangzhou); [[w.jianguo-yilai-mao-zedong]], XVII, 81–82, 85–86 (Nov. 14, 1963; the notice as printed from the Central Committee''s text, dated Nov. 14; note 1 gives its drafting Oct. 25, Mao''s and others'' revision, and settling of the text Nov. 16, the date left at Nov. 14); [[w.macfarquhar-origins-of-the-cultural]], III, 344–47 (the Politburo under Liu passes the document, issued with Mao''s leave: praise of Mao and the Former Ten Points; unity with over 95 percent of peasants and cadres; work teams from above to rectify cadres; no general reclassification of peasants); [[w.yang-shangkun-riji]], II, 327 (Nov. 14, 1963; the enlarged Politburo, 3 to 5 p.m., adopts the rural papers (the First and Later Ten Points, drafts, and the notice on printing them, the editors note) and matters of the NPC; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1777–1778 (Nov. 14, 1963; afternoon, 下午; Deng at the enlarged Politburo meeting Liu Shaoqi presides over, which adopts the Latter Ten Points and the notice on the two documents, approves in principle the reports for the NPC session on the 1963 plan, the 1964 plan draft and the budgets, and hears Peng Zhen on the NPC session and the election of the next NPC''s deputies). Made public: 1996. Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996). To check: the notice and the two drafts, Nov. 18, 1963; Central Committee, Decision on some current problems in rural work (draft), the "First Ten Points," issued May 20, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 86 n.6); Central Committee, Provisions on some concrete policies in the rural socialist education movement (draft), the "Later Ten Points," Sept. 1963 (first titled "Some concrete policy questions in the rural socialist education movement"; retitled Nov. 14, 1963) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 85 n.3); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1112 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56a); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 386–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56f); CCP CC, Some concrete policy formulations in the rural socialist education movement (the Latter Ten Points), Nov. 1963, in [[w.baum-ssu-ching]], 72, 73, 75, 76, 78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57a); [[w.jin-1949-1989-niande-zhongguo]], 531 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57b); [[w.baum-ssu-ching]], 63, 70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.64); the Central Committee''s "Decision on some questions of present rural work (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1a); the Central Committee''s "Provisions on some concrete policies in the rural socialist education movement (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1b); the Central Committee''s notice of Nov. 14, 1963, on printing and publicizing the two documents (cited by [[w.yang-shangkun-riji]], II, 327 n.1c). See [[cal.1963-10-25.china-leadership]]. Names: Liu Shaoqi, Mao Zedong.'
     src:
       c: 87f13c75
       rows:
@@ -2366,6 +2404,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 347 n.76: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 347 n.78: B'
         - 'w.yang-shangkun-riji II, 327: A-B'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777–1778: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: B
@@ -2410,6 +2449,17 @@ entries:
         - 'w.yang-shangkun-riji II, 327: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-14.china-leadership-5
+    when: Nov. 14
+    date: '1963-11-14'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平 writes an inscription for the Hebei flood-fighting and relief exhibition 河北抗洪抢险斗争展览会: "The victory of the struggle against flood is a victory of collectivism, a victory of the superiority of the socialist system." The exhibition opens at Tianjin 天津 on Dec. 13.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 14, 1963). The words: 题词 (III, 1777). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 7db8aec9
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1777: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-11-15.foreign-aid
     when: Nov. 15
     date: '1963-11-15'
@@ -2571,13 +2621,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai at the Supreme State Conference Liu Shaoqi calls, Nov. 15 and 16, on Peng Zhen''s explanation of the main questions of the Fourth Session of the Second NPC. Nov. 15 he speaks first on the situation and tasks. Sino-Soviet relations: contact is kept, so divided but not broken, on the edge of a break, not yet at it; China is for unity and against a split. Socialist experience comes by practice and summing up; build mainly on self-reliance; leaping is quality as well as quantity. After three more years the adjustment is to lay a base for an all-round leap; farming as base and industry as leader holds long; 1963 began an all-round improvement.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 595 (Nov. 15–16, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 15 and 16, 1963; Liu presides at the Supreme State Conference, which hears Zhou Enlai on the international and home situations and tasks and Peng Zhen on the opening of the Fourth Session of the Second NPC and the election of deputies to the Third; on Nov. 15 Liu tells of the measures to widen the campaign against modern revisionism and the circulation of its documents); [[w.yang-shangkun-riji]], II, 327 (Nov. 15–16, 1963; the Supreme State Conference, 3 to 6 p.m. each day; Yang there). Made public: 1996. To check: the speech. Names: Zhou Enlai, Liu Shaoqi, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 595 (Nov. 15–16, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 15 and 16, 1963; Liu presides at the Supreme State Conference, which hears Zhou Enlai on the international and home situations and tasks and Peng Zhen on the opening of the Fourth Session of the Second NPC and the election of deputies to the Third; on Nov. 15 Liu tells of the measures to widen the campaign against modern revisionism and the circulation of its documents); [[w.yang-shangkun-riji]], II, 327 (Nov. 15–16, 1963; the Supreme State Conference, 3 to 6 p.m. each day; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 15–16, 1963; Deng attends the Supreme State Conference 最高国务会议 Liu Shaoqi 刘少奇 presides over, which hears Zhou Enlai 周恩来 on the international and domestic situation and the tasks ahead, and Peng Zhen 彭真 on the NPC session''s agenda and the election of the next NPC''s deputies). Made public: 1996. To check: the speech. Names: Zhou Enlai, Liu Shaoqi, Peng Zhen.'
     src:
       c: 81ef148c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 595: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 585: A'
         - 'w.yang-shangkun-riji II, 327: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1778: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:peng-zhen, vis:only:prc]
   - id: cal.1963-11-15.china-leadership-3
     when: Nov. 15
@@ -2722,13 +2773,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai at the Fourth Session of the Second NPC, Nov. 17–Dec. 3, which adopts Li Fuchun's report on the 1963 plan and the 1964 draft and Li Xiannian's on the state budget; before it he called people to discuss the two reports many times. He also attends the Fourth Session of the Third National Committee of the CPPCC, Nov. 17–Dec. 4, which hears Chen Shutong's report and decides to extend the Committee's term to September 1964.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 596 (Nov. 17–Dec. 4, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 17–Dec. 3, 1963; Liu attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and 1964 first arrangement, and the explanation of the list and election of deputies to the Third NPC, and approves the Standing Committee''s work report); [[w.yang-shangkun-riji]], II, 327 (Nov. 17, 1963; Nov. 17, the CPPCC session opens, 10:30 a.m. to noon; 3 to 6 p.m., the NPC, Li Fuchun''s report, Yang attending as a non-voting delegate (列席); Nov. 18, 3 to 5:30 p.m., Li Xiannian''s report). To check: the reports and resolutions. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Chen Shutong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 596 (Nov. 17–Dec. 4, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 17–Dec. 3, 1963; Liu attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and 1964 first arrangement, and the explanation of the list and election of deputies to the Third NPC, and approves the Standing Committee''s work report); [[w.yang-shangkun-riji]], II, 327 (Nov. 17, 1963; Nov. 17, the CPPCC session opens, 10:30 a.m. to noon; 3 to 6 p.m., the NPC, Li Fuchun''s report, Yang attending as a non-voting delegate (列席); Nov. 18, 3 to 5:30 p.m., Li Xiannian''s report); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 17–Dec. 3, 1963; Deng attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the budgets and the statement on the number of deputies to the Third NPC and their election, and approves the NPC Standing Committee''s work report). To check: the reports and resolutions. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Chen Shutong.'
     src:
       c: 3e4148d2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 596: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 585: A'
         - 'w.yang-shangkun-riji II, 327: A, C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1778: ?'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:li-xiannian]
   - id: cal.1963-11-17.china-leadership-2
     when: Nov. 17
@@ -3948,12 +4000,13 @@ entries:
     date: '1963-11-21'
     thread: china-leadership
     c: Zhou Enlai at the Secretariat, which discusses and in principle approves Nie Rongzhen's report for the Central Science Group and the Party group of the State Science Commission on the 1963–72 plan for science and technology. Research cut off from production is to be remedied at once.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 597 (Nov. 21, 1963); [[w.yang-shangkun-riji]], II, 329 (Nov. 21, 1963; the Secretariat, 4 to 6 p.m.; Yang there). Made public: 1997. To check: the report. Names: Zhou Enlai, Nie Rongzhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 597 (Nov. 21, 1963); [[w.yang-shangkun-riji]], II, 329 (Nov. 21, 1963; the Secretariat, 4 to 6 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 21, 1963; Deng presides at the Secretariat, which discusses and in principle approves Nie Rongzhen''s report for the Central Science Group 中央科学小组 and the State Science Commission''s Party group on the plan for science and technology, 1963–72). Made public: 1997. To check: the report. Names: Zhou Enlai, Nie Rongzhen.'
     src:
       c: e182306a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 597: ?'
         - 'w.yang-shangkun-riji II, 329: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1778: ?'
     tags: [polity:prc, name:zhou-enlai, name:nie-rongzhen, vis:only:prc]
   - id: cal.1963-11-21.china-leadership-2
     when: Nov. 21
@@ -5410,6 +5463,18 @@ entries:
       - 1963-11-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-22.china-leadership-8
+    when: Nov. 22
+    date: '1963-11-22'
+    thread: china-leadership
+    also: [china]
+    c: 'Deng Xiaoping 邓小平 meets the new Albanian Ambassador, Nesti Nase 奈斯蒂·纳赛. Deng: with agriculture steady, industry is steady; for ten to fifteen years the Chinese will concentrate on agriculture; food, clothing and goods come chiefly from it, clothing in time from industry; they will make synthetic fibers and buy some technology in Europe; when food and clothing are settled, self-reliance is settled. On the Sino-Soviet dispute: from July 14 to early November the Soviet press printed over 2,100 articles attacking China; the Chinese print fewer, each heavier.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1778–1779 (Nov. 22, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the ambassador''s name in Latin letters (Zhou Enlai''s chronology: Nesti Nase).'
+    src:
+      c: 5340dd96
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1778–1779: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -6062,6 +6127,18 @@ entries:
       - 1963-11-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-23.china-leadership-7
+    when: Nov. 23
+    date: '1963-11-23'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Deng Xiaoping 邓小平 meets the new Hungarian Ambassador, 郝拉思·尤若夫. On Sino-Soviet relations: his party has spent great effort on the dispute; for himself he went to Moscow 莫斯科 three times in 1960; ideological disputes should not affect relations between states; the socialist camp should be united after all.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1779 (Nov. 23, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the ambassador''s name in Latin letters.'
+    src:
+      c: 30c8bb73
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1779: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+hungary]
   - id: cal.1963-11-24.assassination
     when: Nov. 24
     date: '1963-11-24'
@@ -6361,6 +6438,17 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 113: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1963-11-24.china-leadership-4
+    when: Nov. 24
+    date: '1963-11-24'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 approves the request of the Party group of the All-China Women's Federation to send a person to the executive bureau meeting of the International Democratic Federation of Women.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1779 (Nov. 24, 1963). The words: 批阅同意 (III, 1779). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: b0ee9810
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1779: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-11-25.assassination
     when: Nov. 25
     date: '1963-11-25'
@@ -8635,3 +8723,15 @@ entries:
         - 'w.yang-shangkun-riji II, 331: all'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-30.china-leadership-2
+    when: Nov. 30
+    date: '1963-11-30'
+    thread: china-leadership
+    also: [china]
+    c: Deng Xiaoping 邓小平 meets De la Puente 德拉普恩特, general secretary of the Peruvian Movement of the Revolutionary Left, and others, on a visit.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1779 (Nov. 30, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the guest''s name and movement in Latin letters.'
+    src:
+      c: db2ff923
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1779: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]

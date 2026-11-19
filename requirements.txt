@@ -1,0 +1,5 @@
+# What the site build needs (CI: pip install -r requirements.txt): PyYAML only, at the version CI installed before
+# it was pinned (PyPI's latest 6.x, Nov. 2026). No tzdata: the build's time zones (dateline.py, places.py, feeds.py)
+# come through zoneinfo from the system's zone database, which zoneinfo prefers; the tzdata package is only its
+# fallback where a system has none, so pinning it would not pin what CI reads.
+PyYAML==6.0.3

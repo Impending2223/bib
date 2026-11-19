@@ -207,6 +207,18 @@ entries:
       - 1961-04-01T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-01.china-leadership-5
+    when: Apr. 1
+    date: '1961-04-01'
+    place: wuhan
+    thread: china-leadership
+    c: Wuchang 武昌. Mao 毛泽东 receives a Cuban youth delegation.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68. To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the delegation and its leader; the book gives no more, and says Mao saw foreign guests that day. Names: Mao Zedong.'
+    src:
+      c: 962f2f50
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+    tags: [polity:prc, polity:cuba, name:mao-zedong]
   - id: cal.1961-04-02.opinion
     when: Apr. 2
     date: '1961-04-02'
@@ -460,11 +472,12 @@ entries:
     date: '1961-04-03'
     thread: china-leadership
     c: The Secretariat on the arrangements for investigation in the villages. Yang Shangkun 杨尚昆 decides to go to Xushui 徐水 and Anguo 安国 counties, Hebei 河北, a party of eight.
-    n: '[[w.yang-shangkun-riji]], I, 669 (Apr. 3, 1961). The words: 上午 (I, 669). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 669 (Apr. 3, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1627 (Apr. 3, 1961; morning; Deng presides; ten work teams to the countryside for inquiry. Deng: by local features, objective, one or two "points" known well, households of each stratum compared; discuss with local comrades, only raise questions). The words: 上午 (I, 669). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: 64de6217
       rows:
         - 'w.yang-shangkun-riji I, 669: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1627: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1961-04-02T22:00Z
@@ -497,6 +510,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 670: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-03.china-leadership-11
+    when: Apr. 3
+    date: '1961-04-03'
+    place: wuhan
+    thread: china-leadership
+    c: Wuchang 武昌. Mao 毛泽东 talks with Wang Renzhong 王任重 on the mess halls and the supply system 供给制.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-03-07.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: 895ee8a7
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-04-04.states-and-cities
     when: Apr. 4
     date: '1961-04-04'
@@ -675,12 +700,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: At the Secretariat, which discusses the 1961 capital construction plan and the policy for Tibet.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961); [[w.yang-shangkun-riji]], I, 670 (Apr. 4, 1961; the Secretariat, 10 a.m. to 1 p.m., on the 1961 capital construction plan; Tibet not named). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961); [[w.yang-shangkun-riji]], I, 670 (Apr. 4, 1961; the Secretariat, 10 a.m. to 1 p.m., on the 1961 capital construction plan; Tibet not named); [[w.deng-xiaoping-nianpu-1904]], III, 1627–1628 (Apr. 4, 1961; morning; Deng presides; the 1961 capital construction plan and the policy for Tibet; Zhou attends). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 2dd56e68
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 402: ?'
         - 'w.yang-shangkun-riji I, 670: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1627–1628: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-04-04.china-leadership-2
     when: Apr. 4
@@ -970,6 +996,30 @@ entries:
         - 'via w.yang-shangkun-riji I, 670 n.3: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-05.china-leadership-5
+    when: Apr. 5
+    date: '1961-04-05'
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 receives Ma Dong-san 马东山, chargé d'affaires of the Korean Embassy, who tells of the Korean Workers' Party's plenum of March.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1628 (Apr. 5, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: eefe5d12
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1628: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+dprk]
+  - id: cal.1961-04-05.china-leadership-6
+    when: Apr. 5
+    date: '1961-04-05'
+    thread: china-leadership
+    also: [soviet-union, south-asia]
+    c: 'Deng Xiaoping 邓小平, on the record of Zhou Enlai''s 周恩来 talk of Mar. 29 with Chervonenko 契尔沃年科 on Chinese and Soviet delegations to the Indian Communist Party''s Sixth Congress: "agree that Xiuquan tell the Soviet Ambassador." Zhou''s comment of Apr. 4: Wu Xiuquan 伍修权 to tell him the Chinese party will send no delegate.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1628 (Apr. 5, 1961). The chronology gives it under the 5th, a second item of the day. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Chervonenko.'
+    src:
+      c: b7dbb5d5
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1628: all'
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc]
   - id: cal.1961-04-06.opinion
     when: Apr. 6–11
     date: '1961-04-06'
@@ -1158,7 +1208,12 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Wuchang, evening. Mao with Zhou Enlai on the 1961 building plan and on Laos; Wang Renzhong present.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 6, 1961. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Wang Renzhong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 6, 1961. [[w.mao-zedong-zhuan]], V, ch. 68 (Apr. 6: Mao with Zhou Enlai on this year''s economic plan at Wuchang). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 68). Names: Mao Zedong, Zhou Enlai, Wang Renzhong.'
+    src:
+      c: d3f0eaaf
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Apr. 6, 1961: all'
+        - 'w.mao-zedong-zhuan V, ch. 68: B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-04-06.china-leadership-2
     when: Apr. 6
@@ -1428,6 +1483,35 @@ entries:
       - 1961-04-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-07.china-leadership-5
+    when: Apr. 7
+    date: '1961-04-07'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平 presides at the Secretariat 书记处, which hears Gu Mu 谷牧 on industry in the first quarter and the second''s arrangements and Li Xiannian 李先念 on foreign trade and grain. Deng: the construction crews cut not sent only to the villages, but first to industry''s weak links, mines, timber, coal, rail loading, moved as whole units, quickly.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1628 (Apr. 7, 1961). The words: 上午 (III, 1628). Footnote 1: Gu Mu, then deputy director of the State Economic Commission (III, 1628). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Li Xiannian.'
+    src:
+      c: e330b3b3
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1628: all'
+    tags: [polity:prc, name:deng-xiaoping, name:li-xiannian, vis:only:prc]
+    time_range:
+      - 1961-04-06T22:00Z
+      - 1961-04-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-07.china-leadership-6
+    when: Apr. 7
+    date: '1961-04-07'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: Shunyi 顺义, near Peking 北京. Deng Xiaoping 邓小平 goes to Shunyi county for an inquiry in the countryside (it lasts to Apr. 21) and hears the county committee's leaders.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1628 (Apr. 7, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: ec7ff537
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1628: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-08.cuba
     when: Apr. 8
     date: '1961-04-08'
@@ -1568,6 +1652,38 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 673: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-08.china-leadership-5
+    when: Apr. 8
+    date: '1961-04-08'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 at the county committee''s forum on the countryside: Shunyi to find a road to mechanization, never mechanized and less grain; tractor stations run like factories, drivers paid as workers; the size of communes and brigades and the basic accounting unit fixed soon by the masses'' wish; the three guarantees 三包, units too large made smaller, more to the good worker; the mess halls run well and joined freely, run as enterprises.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1628–1629 (Apr. 8, 1961). Footnote 1: the three guarantees, of output, work and costs (III, 1629). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 20b9c64f
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1628–1629: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-04-08.china-leadership-6
+    when: Apr. 8
+    date: '1961-04-08'
+    place:
+      - wuhan
+      - changsha
+    thread: china-leadership
+    c: Mao 毛泽东 leaves Wuchang 武昌 in the afternoon for Changsha 长沙. He stayed seven days at Wuchang, swam twice and danced twice.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-04-01.china-leadership-5]]. Names: Mao Zedong.'
+    src:
+      c: 64fb7b89
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-04-08T04:00Z
+      - 1961-04-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-09.cuba-bay-of-pigs
     when: Apr. 9
     date: '1961-04-09'
@@ -1649,6 +1765,23 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 674: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-09.china-leadership-5
+    when: Apr. 9
+    date: '1961-04-09'
+    place: changsha
+    thread: china-leadership
+    c: 'Changsha 长沙, on the train, 7:30 to 11:20 p.m. Mao 毛泽东 hears Zhang Pinghua 张平化 and then Hu Qiaomu 胡乔木, back from the villages, on the sixty articles. Zhang: three questions are most argued, the supply system, the mess halls and the grain contract; the supply part over 30 percent surely wrong, 10 percent enough; the teams want the contract fixed. Mao: the supply system and the mess halls are both egalitarianism; the willing are few, the commune need save nothing for two or three years. Hu: from Shaoshan, the masses'' three concerns are the reward for extra output, distribution and the mess halls; the mess halls the most pressing.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.3. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Record of Mao Zedong''s 毛泽东 talk with Zhang Pinghua 张平化, Apr. 9, 1961 (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.3); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-04-11.china-leadership-4]]. Names: Mao Zedong.'
+    src:
+      c: 64df81b7
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.3: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-04-09T11:30Z
+      - 1961-04-09T15:20Z
     time_zone: Asia/Shanghai
   - id: cal.1961-04-10.cuba
     when: Apr. 10
@@ -1824,6 +1957,22 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 674: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-10.china-leadership-5
+    when: Apr. 10
+    date: '1961-04-10'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on the Center's work in the coming weeks and rectification in the enterprises.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1629 (Apr. 10, 1961). The words: 下午 (III, 1629). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: '81854956'
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1629: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-04-10T04:00Z
+      - 1961-04-10T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-04-11.cuba
     when: Apr. 11
@@ -2007,12 +2156,14 @@ entries:
     place: changsha
     thread: china-leadership
     c: 'Changsha. Mao to Wang Dongxing, by letter: telephone Wang Renzhong and Wang Yanchun to be at Changsha at 2 p.m. on the 14th for three to five days, with the Hubei three-level conference''s bulletins and papers, to help the Hunan comrades on two matters, the mass line and seizing the initiative in time. Hunan has not carried out the twelve-article policy in earnest, and in half a year has not cleared the five winds; power in many places not yet taken back from the enemy. Copies to the Hunan secretariat, Liu Shaoqi, Tan Zhenlin and Hu Qiaomu.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 3–4 (Apr. 11, 1961). Made public: 2023. To check: the Central Committee''s urgent directive of Nov. 3, 1960 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 4 n.3). Names: Mao Zedong, Liu Shaoqi, Tan Zhenlin, Wang Dongxing, Wang Renzhong, Wang Yanchun, Hu Qiaomu. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 3–4 (Apr. 11, 1961); [[w.mao-zedong-zhuan]], V, ch. 68 n.5 (Apr. 11, to Wang Dongxing: Hunan has not carried out the twelve policies in earnest, the five winds not cleared in half a year, power in many places not taken back; Wang Renzhong and Wang Yanchun to come to Hunan for a few days). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 68). To check: the Central Committee''s urgent directive of Nov. 3, 1960 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 4 n.3); Mao Zedong 毛泽东, letter to Wang Dongxing 汪东兴 (manuscript 手稿), Apr. 11, 1961 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.5). Names: Mao Zedong, Liu Shaoqi, Tan Zhenlin, Wang Dongxing, Wang Renzhong, Wang Yanchun, Hu Qiaomu. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
     src:
       c: a7b71973
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 3–4: all'
         - 'via x.1960-11-03.cc-urgent-directive-twelve-articles-rural-communes: all'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.5: C-D'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.5: C-D'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:tan-zhenlin, vis:only:prc]
   - id: cal.1961-04-11.china-leadership-6
     when: Apr. 11
@@ -2346,6 +2497,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 680: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-12.china-leadership-10
+    when: Apr. 12
+    date: '1961-04-12'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 at the forum of commune and district cadres on grain and the commune system: the purchase quota fixed first, with the grain kept, the three guarantees the base; room to spare at county and accounting-unit level against disaster; the commune''s size can wait, the accounting unit''s cannot; big, middle and small together, by the masses'' views.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1629–1630 (Apr. 12, 1961). Footnote 2: the three fixings, of output, purchase and sale (III, 1629). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 49f302e8
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1629–1630: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-13.european-community
     when: Apr. 13
     date: '1961-04-13'
@@ -2910,6 +3074,23 @@ entries:
         - 'w.yang-shangkun-riji I, 681: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-14.china-leadership-7
+    when: Apr. 14
+    date: '1961-04-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on Sino-Soviet economic relations, military aid to Albania and the labor from the shortened construction front; that labor first to coal, timber, transport, chemicals and nonferrous metals.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1630 (Apr. 14, 1961). The words: 下午 (III, 1630). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 35b140de
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1630: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-04-14T04:00Z
+      - 1961-04-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-15.cuba
     when: Apr. 15
     date: '1961-04-15'
@@ -3132,7 +3313,7 @@ entries:
     date: '1961-04-15'
     thread: china-leadership
     c: 'Mao to Zhang Pinghua, in the morning: Hu Qiaomu''s letter and four enclosures on the Shaoshan commune''s mess halls sent for reading; to be printed that day for the Hunan three-level cadre conference and discussed there; copies to Liu Shaoqi, Wang Renzhong and Wang Yanchun, twenty to Mao.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 5–8 (Apr. 15, 1961). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148b); Hu Qiaomu to Mao, Apr. 14, 1961, and its four enclosures (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 5 n.2a–e). Names: Mao Zedong, Liu Shaoqi, Zhang Pinghua, Hu Qiaomu, Wang Renzhong.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 5–8 (Apr. 15, 1961); [[w.mao-zedong-zhuan]], V, ch. 68 n.6 (Apr. 14, Hu Qiaomu''s letter and four enclosures, the first formal call to break up the mess halls; Apr. 15, Mao sends them to Zhang Pinghua for the Hunan three-level cadre conference to discuss). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 68); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148b); Hu Qiaomu to Mao, Apr. 14, 1961, and its four enclosures (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 5 n.2a–e); Hu Qiaomu 胡乔木, report to Mao Zedong with four enclosures on the public mess halls at Shaoshan (original 原件), Apr. 14, 1961 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.6). Names: Mao Zedong, Liu Shaoqi, Zhang Pinghua, Hu Qiaomu, Wang Renzhong.'
     src:
       c: 5685112f
       rows:
@@ -3142,6 +3323,8 @@ entries:
         - 'via x.1961-04.shaoshan-commune-briefing-on-discussion-of-the-sixty-articles: all'
         - 'via x.1961-04.yangjia-team-briefing-after-the-mess-hall-split: all'
         - 'via x.1961-04.mao-huachu-visit-to-dongmaotang-team: all'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.6: B'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.6: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1961-04-15.china-leadership-6
     when: Apr. 15
@@ -3202,6 +3385,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 681: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-15.china-leadership-10
+    when: Apr. 15
+    date: '1961-04-15'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 at the county committee''s forum of production-team cadres on pigs and the mess halls: pigs an important household sideline; with the right methods and pay by work life will soon prosper; mess halls of many kinds, run well and more thriftily.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1630 (Apr. 15, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 4c699989
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1630: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-16.cuba
     when: Apr. 16
     date: '1961-04-16'
@@ -3329,7 +3525,7 @@ entries:
     place: changsha
     thread: china-leadership
     c: 'Changsha, the Rong Garden, evening. Mao''s meeting with Liu Shaoqi, Tao Zhu, Wang Renzhong, Hu Qiaomu and others: the mess halls, all agree, the thing most cut off from the masses and least liked, a hindrance to output and to famine relief.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 16, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 51 (Liu at the conference of provincial officials at Changsha, Apr. 15–17). Made public: 2013. Check: Liu''s chronology (II, 512) has Liu at Tianhua brigade on Apr. 16 (visiting members'' homes) and Apr. 17 (general branch meeting), and does not mention the meeting at the Rong Garden. To check: [[w.huainian-liu-shaoqi-tongzhi]], 60, 65, 327, 331, 342–44, 346–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 51 n.84a); [[w.hong-qi-piaopiao]], No. 20, 1980, 242 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 51 n.84b); [[w.selections-from-china-mainland]], (Supplement), No. 26, 16–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 51 n.84c). Names: Mao Zedong, Liu Shaoqi, Tao Zhu, Wang Renzhong, Hu Qiaomu, Zhang Pinghua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 16, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 51 (Liu at the conference of provincial officials at Changsha, Apr. 15–17); [[w.mao-zedong-zhuan]], V, ch. 68 n.7 (Apr. 16, evening: Mao with Liu Shaoqi, Tao Zhu, Hu Qiaomu and Wang Renzhong; on the mess halls all agree it is the thing most cut off from the masses and least liked (Wang Renzhong''s diary)). Made public: 2013. Check: Liu''s chronology (II, 512) has Liu at Tianhua brigade on Apr. 16 (visiting members'' homes) and Apr. 17 (general branch meeting), and does not mention the meeting at the Rong Garden. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.huainian-liu-shaoqi-tongzhi]], 60, 65, 327, 331, 342–44, 346–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 51 n.84a); [[w.hong-qi-piaopiao]], No. 20, 1980, 242 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 51 n.84b); [[w.selections-from-china-mainland]], (Supplement), No. 26, 16–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 51 n.84c); Wang Renzhong 王任重, diary, Apr. 16, 1961 (王任重日记) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.7). Names: Mao Zedong, Liu Shaoqi, Tao Zhu, Wang Renzhong, Hu Qiaomu, Zhang Pinghua.'
     src:
       c: a20bd80d
       rows:
@@ -3339,6 +3535,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 51 n.84b: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 51 n.84c: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 51 n.84d: B'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.7: B'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.7: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:tao-zhu, vis:only:prc]
   - id: cal.1961-04-16.china-leadership-2
     when: Apr. 16
@@ -3427,6 +3625,19 @@ entries:
       - 1961-04-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-16.china-leadership-8
+    when: Apr. 16
+    date: '1961-04-16'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 at the Chengguan 城关 commune''s tractor station: mechanization''s superiority in more grain; cost accounting, cheaper ploughing; wages and bonuses as in industry; managing farm machines a new study.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1630 (Apr. 16, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 620202fc
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1630: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-17.right-and-the-military
     when: Apr. 17
     date: '1961-04-17'
@@ -3779,6 +3990,19 @@ entries:
       - 1961-04-17T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-17.china-leadership-6
+    when: Apr. 17
+    date: '1961-04-17'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 hears the county committee: the commune''s future, industry, its own accumulation, water works, machines, help for poor villages; good methods summed up and sent out for the masses to choose; the county town''s handicrafts too uniform, old organizations perhaps restored; democratic rules and style.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1630–1631 (Apr. 17, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 8fcb304a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1630–1631: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-18.specials
     when: Apr. 18
     date: '1961-04-18'
@@ -4133,7 +4357,7 @@ entries:
     thread: china-leadership
     also: [farm]
     c: At the Secretariat Zhou Enlai hears Deng Xiaoping on his inquiry in Shunyi county near Peking, and Tan Zhenlin on his in Liling county, Hunan, and in Henan's villages.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 18, 1961). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Tan Zhenlin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 18, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1631 (Apr. 18, 1961; afternoon; Deng presides and reports his Shunyi inquiry; Tan Zhenlin on Liling; mass rallies in Peking, Tianjin, Shanghai, Wuhan and other cities for the Cuban people against the American mercenaries'' invasion; Zhou attends). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Tan Zhenlin.'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:tan-zhenlin, vis:only:prc]
   - id: cal.1961-04-18.china-leadership-3
     when: Apr. 18
@@ -4301,6 +4525,38 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 692: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-18.china-leadership-14
+    when: Apr. 18
+    date: '1961-04-18'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 at the Niulanshan 牛栏山 commune''s tractor station, the Zhangzhuang 张庄 pumping station and the Baimiao 白庙 village mess hall; told on the way of the members'' complaints of the mess halls: "eating in the mess hall is socialism, and not eating in it is socialism too"; the masses to decide.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1631 (Apr. 18, 1961). The words: 上午 (III, 1631). Deng: 吃食堂是社会主义，不吃食堂也是社会主义 (III, 1631). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 549fd505
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1631: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-04-17T22:00Z
+      - 1961-04-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-18.china-leadership-15
+    when: Apr. 18
+    date: '1961-04-18'
+    place:
+      - changsha
+      - hangzhou
+    thread: china-leadership
+    c: Mao 毛泽东 leaves Changsha 长沙, by way of Nanchang 南昌, for Hangzhou 杭州, where he stays at Wangzhuang 汪庄; the Zhejiang survey group move there to live with him.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-04-16.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: ca497426
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-04-19.court
     when: Apr. 19–20
     date: '1961-04-19'
@@ -4735,6 +4991,33 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 694: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-19.china-leadership-11
+    when: Apr. 19
+    date: '1961-04-19'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: Shunyi 顺义. Deng Xiaoping 邓小平 at Luzhengjuan 芦正卷 village for his inquiry.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1631 (Apr. 19, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 832a3312
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1631: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-04-19.china-leadership-12
+    when: Apr. 19
+    date: '1961-04-19'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 drafts the Center's 中共中央 comment forwarding three papers of the Sichuan 四川 committee on overcoming the two egalitarianisms.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1631 (Apr. 19, 1961). Footnote 1: the Sichuan committee''s bulletin on the first stage of its three-level cadre conference; its forwarding of the Nanchong prefectural work group''s report on "three guarantees and one reward" at Qixi commune in 1961; its forwarding of the Nanchong committee''s summary of the 1960 accounts of the third brigade of Huohua commune, Nanchong (III, 1631). Made public: 2009 (the nianpu). To check: Sichuan committee, bulletin on the first stage of the three-level cadre conference; Sichuan committee, forwarding of the Nanchong prefectural work group''s report on Qixi commune; Sichuan committee, forwarding of the Nanchong committee''s summary of Huohua commune''s third brigade, 1960 (cited by [[w.deng-xiaoping-nianpu-1904]], III, 1631 n.1a–c). Names: Deng Xiaoping.'
+    src:
+      c: c9a49e59
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1631: all'
+        - 'via x.1961.sichuan-committee-bulletin-three-level-cadre-conference: A'
+        - 'via x.1961.sichuan-forwarding-nanchong-workgroup-yingxi-commune-three-guarantees: A'
+        - 'via x.1961.sichuan-forwarding-nanchong-huohua-commune-1960-distribution: A'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-20.cuba
     when: Apr. 20
     date: '1961-04-20'
@@ -5090,13 +5373,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, foreign-aid]
     c: 'Zhou Enlai with Deng Xiaoping talks with Vice-Chairman Kellezi of Albania''s Council of Ministers on Sino-Albanian relations, economic aid and the Soviet–Albanian difference. Four lessons from the Chinese Party''s long struggle: let the other side provoke, then strike back; hold fast to the banner of unity; fight tit for tat; leave room, not saying everything at once so that one cannot turn back.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 20, 1961); [[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 20, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 191 (Apr. 12, 1961; Kellezi leads the Albanian government economic delegation, its visit from Apr. 12; Mao receives Kellezi; three economic protocols signed, on China''s supply of complete plants and technical aid; the days not given). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 406 (Apr. 20, 1961); [[w.zhou-enlai-waijiao-huodong]], 309 (Apr. 20, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 191 (Apr. 12, 1961; Kellezi leads the Albanian government economic delegation, its visit from Apr. 12; Mao receives Kellezi; three economic protocols signed, on China''s supply of complete plants and technical aid; the days not given); [[w.deng-xiaoping-nianpu-1904]], III, 1631–1632 (Apr. 20, 1961; Deng and Zhou with Kellezi, Vice-Chairman of the Albanian Council of Ministers). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping.'
     src:
       c: 889961d8
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 406: ?'
         - 'w.zhou-enlai-waijiao-huodong 309: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 191: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1631–1632: ?'
     tags: [polity:prc, polity:albania, polity:ussr, name:zhou-enlai, name:deng-xiaoping, vis:only:prc+albania]
   - id: cal.1961-04-20.china-leadership-2
     when: Apr. 20
@@ -5179,6 +5463,30 @@ entries:
       - 1961-04-20T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-20.china-leadership-9
+    when: Apr. 20
+    date: '1961-04-20'
+    thread: china-leadership
+    c: 'The Center 中共中央 forwards the Railway Ministry Party committee''s "Directive on a rectification campaign in the railway enterprises" 《关于在铁路企业开展整风运动的指示》: by Deng Xiaoping''s 邓小平 instructions on ordering railway transport, a campaign for safety and running on time, the rules of responsibility put in order, the masses roused.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1626 (Apr. 20, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 25a5e1ee
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1626: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-04-20.china-leadership-10
+    when: Apr. 20
+    date: '1961-04-20'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 hears the county committee''s leaders on the countryside: the accounting unit fixed quickly; no levelling between teams or members, more grown, sold, kept and eaten; work points kept strictly, quotas, more pay for more work, grain as reward; the mess hall run as a small accounting unit, self-supporting, open six months or six and a half in the busy season; the backward third-class teams like Luzhengjuan 芦正卷 helped with wells and orchards.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1632 (Apr. 20, 1961). The chronology gives it under the 20th, a second item of the day. Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: f70b60c8
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1632: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-21.cuba
     when: Apr. 21
     date: '1961-04-21'
@@ -5532,6 +5840,32 @@ entries:
       - 1961-04-21T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-21.china-leadership-10
+    when: Apr. 21
+    date: '1961-04-21'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: Shunyi 顺义. Deng Xiaoping 邓小平 at Shangnian 上辇 village on the three fixings of grain, the sharing of output above quota, the mess halls and the accounting unit.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1632 (Apr. 21, 1961). The village''s name read on the image. Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 347c70b6
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1632: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-04-21.china-leadership-11
+    when: Apr. 21
+    date: '1961-04-21'
+    place: shunyi
+    thread: china-leadership
+    also: [farm]
+    c: 'Shunyi 顺义. Deng Xiaoping 邓小平 at the county''s and communes'' forum on handicrafts: fairs thin, small tools and daily goods very short, crafts fewer; supply and marketing cooperatives rebuilt, trade by trade, willow work and mats first; craftsmen''s pay accounted apart; handicrafts and household sidelines all restored; more goods, more income, more tax, steadier free-market prices.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1632–1633 (Apr. 21, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: f96707ec
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1632–1633: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-22.cuba
     when: Apr. 22
     date: '1961-04-22'
@@ -5805,6 +6139,22 @@ entries:
     c: Tianhua brigade. Liu Shaoqi visits members' homes.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 515 (Apr. 23, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-04-23.china-leadership-4
+    when: Apr. 23
+    date: '1961-04-23'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on industry, grain, education and the trial of the draft Working Regulations for the rural people's communes 《农村人民公社工作条例（草案）》.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1633 (Apr. 23, 1961). The words: 上午 (III, 1633). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: afc0fdc3
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1633: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-04-22T22:00Z
+      - 1961-04-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-24.court
     when: Apr. 24
     date: '1961-04-24'
@@ -6017,6 +6367,19 @@ entries:
         - 'w.yang-shangkun-riji I, 714, 722–726: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-24.china-leadership-9
+    when: Apr. 24
+    date: '1961-04-24'
+    place: hangzhou
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping 邓小平 takes Kellezi 凯莱齐, Vice-Chairman of the Albanian Council of Ministers, to Hangzhou 杭州.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1633 (Apr. 24, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: e1d4e693
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1633: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
   - id: cal.1961-04-25.space
     when: Apr. 25
     date: '1961-04-25'
@@ -6151,7 +6514,7 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: 'Hangzhou, 9 a.m. Mao to Deng Xiaoping: a notice calling a work conference at Peking May 15 (the drafting committee of the Sixty Articles May 9), to finish Canton''s work: the members'' and cadres'' views, the Sixty Articles revised, the "five winds"; meanwhile ten to fifteen days'' inquiry into mess halls, grain, supply, hills and forests, draught animals, repayment, handicrafts, supply cooperatives. Settled that evening with Zhou Enlai, Deng and Tian Jiaying.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 25, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 61 (the topics Mao sent Deng Xiaoping, circulated to the provinces the day he received them); [[w.jianguo-yilai-mao-zedong]], XVI, 13–15 (Apr. 25, 1961; the letter to Deng Xiaoping: the dates, the tasks, the topics for inquiry; written at 9 a.m., Mao asking Deng to draft the notice with Tian Jiaying, settle it that evening and send it by telegram next day). Made public: 2013. To check: [[w.mao-zedong-shuxin-xuanji]], 578–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 465–72, 482–85, 488, 494–503, 507–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124b); [[w.bian-mao-zedong-he-tade]], 50–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124c). Names: Mao Zedong, Deng Xiaoping, Zhou Enlai, Tian Jiaying.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 25, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 61 (the topics Mao sent Deng Xiaoping, circulated to the provinces the day he received them); [[w.jianguo-yilai-mao-zedong]], XVI, 13–15 (Apr. 25, 1961; the letter to Deng Xiaoping: the dates, the tasks, the topics for inquiry; written at 9 a.m., Mao asking Deng to draft the notice with Tian Jiaying, settle it that evening and send it by telegram next day); [[w.deng-xiaoping-nianpu-1904]], III, 1633–1634 (Apr. 25, 1961; Deng reads Mao''s letter of that morning; footnote 2: the work conference sat in Peking May 21–June 12; evening (晚), Deng, Zhou and Tian Jiaying at Mao''s lodging on the draft notice; the Zhejiang inquiry team to spend ten days at Shengxian on the villages'' problems); [[w.mao-zedong-zhuan]], V, ch. 68 n.8 (Apr. 25: Mao has Deng Xiaoping and Tian Jiaying draft the notice calling a Central Work Conference in Peking in May, to finish Canton''s task; the notice goes out that evening; the topics for inquiry listed). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.mao-zedong-shuxin-xuanji]], 578–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 465–72, 482–85, 488, 494–503, 507–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124b); [[w.bian-mao-zedong-he-tade]], 50–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124c); Mao Zedong 毛泽东, letter to Deng Xiaoping 邓小平 on the notice convening a Central Work Conference (manuscript 手稿), Apr. 25, 1961; in *Mao Zedong wenji*, vol. 8, 268-269 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.8). Names: Mao Zedong, Deng Xiaoping, Zhou Enlai, Tian Jiaying.'
     src:
       c: eeb16646
       rows:
@@ -6161,6 +6524,9 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.124b: B-C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.124c: B-C'
         - 'w.jianguo-yilai-mao-zedong XVI, 13–15: B, C'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1633–1634: D'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.8: B'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.8: B'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-04-25.china-leadership-2
     when: Apr. 25
@@ -6257,6 +6623,20 @@ entries:
       - 1961-04-25T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-25.china-leadership-8
+    when: Apr. 25
+    date: '1961-04-25'
+    place: hangzhou
+    thread: china-leadership
+    follows:
+      - cal.1961-04-25.china-leadership
+    c: Hangzhou 杭州. Deng Xiaoping 邓小平 and Tian Jiaying 田家英, at Mao Zedong's 毛泽东 bidding, draft the Center's notice calling a Central Work Conference.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1633 (Apr. 25, 1961). Footnote 1: Tian, then deputy director of the Political Research Office and Mao''s secretary (III, 1633). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    src:
+      c: 8fd48fa1
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1633: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1961-04-26.laos
     when: Apr. 26
     date: '1961-04-26'
@@ -6398,14 +6778,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking. The Secretariat, Deng Xiaoping presiding, hears Mao''s views: the Sixty Articles in part wrongly put; ownership not settled (the draught animals to brigade or team?); the mess halls, once "socialism''s heart," if the masses are unhappy, down "this year or next"; most supply systems untenable; the Twelve Articles not carried out, repayment incomplete; the peasants the losers.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 26, 1961. Made public: 2013. Names: Deng Xiaoping, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 26, 1961. [[w.deng-xiaoping-nianpu-1904]], III, 1634 (Apr. 26, 1961; 5 p.m.; Deng presides, Zhou attends, and relays Mao on a work conference to revise the draft regulations: the Sixty Articles in part wrongly put; ownership not settled; the mess halls glaring; the supply system mostly untenable; work not deep, no mass line, the peasants losing by the policy, the system unsettled; agriculture to be made firm). Made public: 2013. Names: Deng Xiaoping, Mao Zedong.'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1961-04-26.china-leadership-2
     when: Apr. 26
     date: '1961-04-26'
     thread: china-leadership
     c: 'Mao authorizes the circulation of Hu Qiaomu''s report to him from Sichuan: the mess-halls "an impediment to developing production and a cancer in relations between party and masses."'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 65–66. Made public: 1997. To check: [[w.dangdai-zhongguode-hunan]], 2, 631 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148b); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467–70, 489–91 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.149a); [[w.de-zhu-de-xuanji-selected]], 440 n.318 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.149b); Hu Qiaomu, report on Shaoshan, 1961, summarized in [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.149c). Names: Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 65–66; [[w.mao-zedong-zhuan]], V, ch. 68 (Apr. 26: Deng Xiaoping, on Mao''s wish, sends Hu Qiaomu''s letter and its four enclosures (on the mess halls of Shaoshan commune, Hunan) to the bureaus and committees as a reference on the mess halls). Made public: 1997. To check: [[w.dangdai-zhongguode-hunan]], 2, 631 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.148b); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467–70, 489–91 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.149a); [[w.de-zhu-de-xuanji-selected]], 440 n.318 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.149b); Hu Qiaomu, report on Shaoshan, 1961, summarized in [[w.zedong-jianguo-yilai-mao-zedong]], 9, 467–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 65 n.149c). Names: Mao Zedong.'
     src:
       c: 09005f41
       rows:
@@ -6415,7 +6795,13 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 65 n.149a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 65 n.149b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 65 n.149c: all'
+        - 'w.mao-zedong-zhuan V, ch. 68: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.mao-zedong-zhuan
+        reads: Hu Qiaomu's letter of Apr. 14 and its four enclosures came from Shaoshan commune 韶山公社, Hunan 湖南, not Sichuan 四川
+        at: V, ch. 68
   - id: cal.1961-04-26.china-leadership-3
     when: Apr. 26
     date: '1961-04-26'
@@ -6507,6 +6893,22 @@ entries:
       - 1961-04-26T11:00Z
       - 1961-04-26T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-26.china-leadership-7
+    when: Apr. 26
+    date: '1961-04-26'
+    time: 1961-04-26T05:00Z
+    place:
+      - hangzhou
+      - peking
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 back in Peking 北京 from Hangzhou 杭州.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1634 (Apr. 26, 1961). The words: 下午一时 (III, 1634). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 285b9221
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1634: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-27.press-and-broadcasting
     when: Apr. 27
@@ -6772,6 +7174,22 @@ entries:
       - 1961-04-27T11:00Z
       - 1961-04-27T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-27.china-leadership-10
+    when: Apr. 27
+    date: '1961-04-27'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 calls those concerned together to hear on the revision of the draft Working Regulations for the rural people's communes and on the mess halls.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1634 (Apr. 27, 1961). The words: 下午 (III, 1634). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 9d380c4a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1634: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-04-27T04:00Z
+      - 1961-04-27T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-04-28.opinion
     when: Apr. 28–May 3
@@ -7389,6 +7807,17 @@ entries:
       - 1961-04-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-29.china-leadership-8
+    when: Apr. 29
+    date: '1961-04-29'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 receives Wang Bin 王斌, general secretary of the Thai Communist Party.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1634 (Apr. 29, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 4ef7a044
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1634: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-04-30.cuba-bay-of-pigs
     when: Apr. 30
     date: '1961-04-30'

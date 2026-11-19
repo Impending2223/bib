@@ -61,9 +61,11 @@ def load():
     if "by_day" not in _cache:
         by = {}
         for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))):
-            try:                           # a month being written by the generator: skipped this run
-                d = store.load_yaml(f) or {}
-            except Exception:
+            try:                           # a month being written by the generator: skipped this run, and counted
+                d = store.load_yaml(f) or {}   # (faults.py): the build exits 1
+            except Exception as x:
+                from . import faults
+                faults.record(f"committees: {os.path.relpath(f, store.ROOT)}", f"{type(x).__name__}: {x}")
                 continue
             for x in d.get("docs", []):
                 by.setdefault(str(x["date"]), []).append(x)

@@ -1,0 +1,17 @@
+$ ./bib merge inbox/before-0.yaml
+== fx-before
+  edited    cal.1961-04-30.cuba-bay-of-pigs
+
+--- exit 0
+
+$ ./bib patch-check inbox/03-stale-edit-1.yaml
+== 03-stale-edit-1.yaml: 0 errors, 1 warnings
+  warn   edit cal.1961-04-30.cuba-bay-of-pigs: sets only also; if it only adds, write additive ops (cite, to-check, check, src, names, also: tools/bib/addops.py)
+
+--- exit 0
+
+$ ./bib merge --auto inbox/03-stale-edit-1.yaml
+== fx-stale (auto)
+  1 entries changed; read: cal.1961-04-30.cuba-bay-of-pigs
+
+--- exit 0

@@ -122,7 +122,7 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'Zhou Enlai at the Standing Committee on Sept. 1, 4, 5 and 15: he proposes how to carry out the adjustment: retreat enough and leave room; adjust the key points, fight battles of annihilation; balance the whole and arrange the whole; centralize and unify, manage by levels. Mao and others approve.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 431 (Sept. 1, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 431 (Sept. 1, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1657 (Sept. 4, 1961; Deng at Mao''s Standing Committee). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-01.china-leadership-2
     when: Sept. 1
@@ -599,12 +599,13 @@ entries:
     place: lushan
     thread: china-leadership
     c: 'Lushan, the work conference. Deng Xiaoping, asked by the Standing Committee Sept. 4 to speak before leaving for the Korean party''s Fourth Congress: the last three years, above all two; the aims of three years'' adjustment; methods; central unity with management by levels; "with one understanding, it is easy."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 4, 1961 (and Sept. 5). [[w.yang-shangkun-riji]], II, 65 (Sept. 5, 1961; the plenary, 10 a.m. to 12:30, Deng speaks). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 65) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Deng Xiaoping, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 4, 1961 (and Sept. 5). [[w.yang-shangkun-riji]], II, 65 (Sept. 5, 1961; the plenary, 10 a.m. to 12:30, Deng speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1657–1658 (Sept. 5, 1961; morning; Deng chairs the plenary and speaks: the three red banners right, but heads too hot, the laws of socialist construction broken, retreat forced; the aims by 1963, no grain imports in a middling year, 20 million dan of cotton, 8–10 chi of cloth a head, 290–300 million tons of coal, 10 million tons of good steel, two thirds of industry working, steady prices; key points, battles of annihilation, coal first; retreat enough, to the line of survival; power centralized in the Center and the bureaus for two or three years, with room below; true speech, responsibility in hard times; first results in three years, great in seven. The speech the conference''s summing-up). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 65) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Deng Xiaoping, Mao Zedong.'
     src:
       c: a6569cfc
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Sept. 4, 1961: ?'
         - 'w.yang-shangkun-riji II, 65: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1657–1658: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-05.china-leadership-2
     when: Sept. 5
@@ -881,6 +882,20 @@ entries:
       - 1961-09-06T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-06.china-leadership-5
+    when: Sept. 6
+    date: '1961-09-06'
+    place:
+      - lushan
+      - peking
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 leaves Lushan 庐山 for Peking 北京.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658 (Sept. 6, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 5c2f8ffa
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1658: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-09-07.states-and-cities
     when: Sept. 7
     date: '1961-09-07'
@@ -1035,6 +1050,23 @@ entries:
       - 1961-09-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-07.china-leadership-4
+    when: Sept. 7
+    date: '1961-09-07'
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 calls those concerned together on the Chinese delegation to the Korean Workers' Party's Fourth Congress.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658 (Sept. 7, 1961). The words: 上午 (III, 1658). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 53437b9a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1658: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1961-09-06T22:00Z
+      - 1961-09-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-08.crime-and-hijacking
     when: Sept. 8
     date: '1961-09-08'
@@ -1150,6 +1182,38 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 204: all'
     tags: [polity:prc, polity:bulgaria, name:chen-yi]
+  - id: cal.1961-09-09.china-leadership-2
+    when: Sept. 9
+    date: '1961-09-09'
+    place:
+      - peking
+      - pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 leads the Chinese Communist Party's delegation to Korea for the Korean Workers' Party's Fourth Congress, at its Central Committee's invitation; with him Kang Sheng 康生, Wu Xiuquan 伍修权 and Hao Deqing 郝德青.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658–1659 (Sept. 9, 1961). The words: 上午 (III, 1658). Footnote 1: Hao, then Ambassador to Korea, already in Pyongyang (III, 1659). Names: Deng Xiaoping, Kang Sheng.'
+    src:
+      c: 2385efc5
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1658–1659: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng]
+    time_range:
+      - 1961-09-08T22:00Z
+      - 1961-09-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-09.china-leadership-3
+    when: Sept. 9
+    date: '1961-09-09'
+    place: lushan
+    thread: china-leadership
+    c: 'Lushan 庐山. Mao 毛泽东 writes a seven-character quatrain, inscribed on Comrade Li Jin''s 李进 photograph of the Xianren Cave 仙人洞, 《七绝·为李进同志题所摄庐山仙人洞照》: twilight over sturdy pines, clouds flying wild and he still calm; a cave made by nature, endless scenery on the peak.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003) at the latest, by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: an earlier open printing of the poem; the *Mao zedong zhuan* gives it as written Sept. 9 and does not say when it first appeared. See [[cal.1961-08-23.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 08bf4f3e
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1961-09-10.elections-1964
     when: Sept. 10
     date: '1961-09-10'
@@ -1213,6 +1277,32 @@ entries:
       - 1961-09-10T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-10.china-leadership-4
+    when: Sept. 10
+    date: '1961-09-10'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤, the Chinese delegation's residence. Deng Xiaoping 邓小平 holds talks with Kim Il Sung 金日成.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 10, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kim Il Sung.'
+    src:
+      c: e1d4ae01
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kim-il-sung, vis:only:prc+dprk]
+  - id: cal.1961-09-10.china-leadership-5
+    when: Sept. 10
+    date: '1961-09-10'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. China and Korea exchange the ratifications of their treaty of friendship, cooperation and mutual assistance; Deng Xiaoping 邓小平 there.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 10, 1961). Names: Deng Xiaoping.'
+    src:
+      c: 4533f964
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping]
   - id: cal.1961-09-11.intelligence
     when: Sept. 11
     date: '1961-09-11'
@@ -1331,6 +1421,19 @@ entries:
         - 'w.yang-shangkun-riji II, 67: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-11.china-leadership-4
+    when: Sept. 11
+    date: '1961-09-11'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. The Korean Workers' Party's Fourth Congress opens; Deng Xiaoping 邓小平 there.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 11, 1961). Names: Deng Xiaoping.'
+    src:
+      c: 5f5c9dba
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping]
   - id: cal.1961-09-12.states-and-cities
     when: Sept. 12
     date: '1961-09-12'
@@ -1484,6 +1587,37 @@ entries:
         - 'w.yang-shangkun-riji II, 67: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-12.china-leadership-4
+    when: Sept. 12
+    date: '1961-09-12'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. Deng Xiaoping 邓小平 greets the Korean Workers' Party's Fourth Congress for the Chinese Central Committee and reads its message.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 12, 1961). Names: Deng Xiaoping.'
+    src:
+      c: 84c71bd3
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1961-09-12.china-leadership-5
+    when: Sept. 12
+    date: '1961-09-12'
+    place: pyongyang
+    thread: china-leadership
+    also: [soviet-union, korea]
+    c: 'Pyongyang 平壤, the Soviet delegation''s residence. Deng Xiaoping 邓小平 with Kozlov 科兹洛夫, its head: to Kozlov''s word that the Soviet grain plan will fail and China''s grain requests are hard to meet, Deng: China will not ask the Soviet Union for what it lacks itself; the brother parties worried at the quarrel; unity wished even in quarrel; the world situation.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 12, 1961). The words: 晚 (III, 1659). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kozlov.'
+    src:
+      c: 5bbbceff
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kozlov-frol-r, vis:only:prc+ussr]
+    time_range:
+      - 1961-09-12T10:00Z
+      - 1961-09-12T13:00Z
+    time_band: evening
+    time_zone: Asia/Pyongyang
   - id: cal.1961-09-13.crime-and-hijacking
     when: Sept. 13
     date: '1961-09-13'
@@ -1635,6 +1769,32 @@ entries:
         - 'w.yang-shangkun-riji II, 68: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-13.china-leadership-5
+    when: Sept. 13
+    date: '1961-09-13'
+    place: pyongyang
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Pyongyang 平壤. Deng Xiaoping 邓小平 cables Mao Zedong 毛泽东 and the Center on the talk with Kozlov: "grain from the Soviet Union is no longer possible; please make other arrangements at home."'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 13, 1961). Made public: 2009 (the nianpu). See [[cal.1961-09-12.china-leadership-5]]. Names: Deng Xiaoping, Mao Zedong, Kozlov.'
+    src:
+      c: 5507ba89
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:kozlov-frol-r, vis:only:prc]
+  - id: cal.1961-09-13.china-leadership-6
+    when: Sept. 13–14
+    date: '1961-09-13'
+    place: kaesong
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 visits Kaesong 开城; back in Pyongyang 平壤 on the 14th.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 13, 1961). Names: Deng Xiaoping.'
+    src:
+      c: 1570be42
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping]
   - id: cal.1961-09-14.berlin-and-vienna
     when: Sept. 14–15
     date: '1961-09-14'
@@ -1837,6 +1997,19 @@ entries:
         - 'w.yang-shangkun-riji II, 68: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-15.china-leadership-6
+    when: Sept. 15
+    date: '1961-09-15'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. Deng Xiaoping 邓小平 at the Pyongyang textile combine and silk mill.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1659 (Sept. 15, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: d20c4c61
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+dprk]
   - id: cal.1961-09-16.berlin-and-vienna
     when: Sept. 16
     date: '1961-09-16'
@@ -1924,11 +2097,12 @@ entries:
     place: lushan
     thread: china-leadership
     c: Lushan, the day the work conference closes. Mao writes out four lines of Li Bai's Lushan ballad for the Lushan Party committee, and, as its secretary Lou Shaoming asked, two lines of Liu Yuxi.
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 114–115 (Sept. 16, 1961). Made public: 2023. Names: Mao Zedong. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 114–115 (Sept. 16, 1961); [[w.mao-zedong-zhuan]], V, ch. 68 (Sept. 16: Mao writes out four lines of Li Bai for the Party committee of the Lushan administration bureau 庐山管理局党委). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 68). Names: Mao Zedong. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
     src:
       c: 04e1fc7e
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 114–115: all'
+        - 'w.mao-zedong-zhuan V, ch. 68: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-16.china-leadership-4
     when: Sept. 16
@@ -2046,6 +2220,18 @@ entries:
         - 'w.yang-shangkun-riji II, 69: all'
     tags: [polity:prc, name:peng-zhen, name:li-fuchun, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-17.china-leadership-6
+    when: Sept. 17
+    date: '1961-09-17'
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 at the Chongsanri 青山里 farm cooperative, Korea.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 17, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: 819106c3
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+dprk]
   - id: cal.1961-09-18.congo
     when: Sept. 18
     date: '1961-09-18'
@@ -2183,6 +2369,41 @@ entries:
         - 'w.yang-shangkun-riji II, 69: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-18.china-leadership-4
+    when: Sept. 18
+    date: '1961-09-18'
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 at the Hwanghae 黄海 iron and steel works, one of Korea's largest.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 18, 1961). The words: 上午 (III, 1660). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: c964d63a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+dprk]
+    time_range:
+      - 1961-09-17T21:00Z
+      - 1961-09-18T03:00Z
+    time_band: morning
+    time_zone: Asia/Pyongyang
+  - id: cal.1961-09-18.china-leadership-5
+    when: Sept. 18
+    date: '1961-09-18'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. The Korean Workers' Party's Fourth Congress closes; Deng Xiaoping 邓小平 there.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 18, 1961). The words: 下午 (III, 1660). Names: Deng Xiaoping.'
+    src:
+      c: afcf613b
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping]
+    time_range:
+      - 1961-09-18T03:00Z
+      - 1961-09-18T09:00Z
+    time_band: afternoon
+    time_zone: Asia/Pyongyang
   - id: cal.1961-09-19.rules
     when: Sept. 19
     date: '1961-09-19'
@@ -2334,6 +2555,55 @@ entries:
         - 'w.yang-shangkun-riji II, 70: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-19.china-leadership-3
+    when: Sept. 19
+    date: '1961-09-19'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. Deng Xiaoping 邓小平 speaks at the city's mass rally celebrating the Korean Workers' Party's Fourth Congress.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 19, 1961). The words: 上午 (III, 1660). Names: Deng Xiaoping.'
+    src:
+      c: 76f2cc0e
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping]
+    time_range:
+      - 1961-09-18T21:00Z
+      - 1961-09-19T03:00Z
+    time_band: morning
+    time_zone: Asia/Pyongyang
+  - id: cal.1961-09-19.china-leadership-4
+    when: Sept. 19
+    date: '1961-09-19'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. Deng Xiaoping 邓小平 speaks at the Korean Central Committee's banquet.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 19, 1961). The words: 晚 (III, 1660). Names: Deng Xiaoping.'
+    src:
+      c: 2df29933
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping]
+    time_range:
+      - 1961-09-19T10:00Z
+      - 1961-09-19T13:00Z
+    time_band: evening
+    time_zone: Asia/Pyongyang
+  - id: cal.1961-09-19.china-leadership-5
+    when: Sept. 19
+    date: '1961-09-19'
+    place: pyongyang
+    thread: china-leadership
+    also: [korea]
+    c: Pyongyang 平壤. Deng Xiaoping 邓小平 and Kang Sheng 康生 cable the Center and Mao Zedong 毛泽东 the delegation's program of visits in Korea after the congress.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 19, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Mao Zedong.'
+    src:
+      c: 351fa40a
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-20.testing
     when: Sept. 20
     date: '1961-09-20'
@@ -2553,6 +2823,18 @@ entries:
         - 'w.yang-shangkun-riji II, 70: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-20.china-leadership-8
+    when: Sept. 20–24
+    date: '1961-09-20'
+    thread: china-leadership
+    also: [korea]
+    c: Deng Xiaoping 邓小平 visits Wonsan 元山, the Kumgang 金刚 mountains, Hamhung 咸兴, Huichon 熙川 and other places, Korea.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 20, 1961). Names: Deng Xiaoping.'
+    src:
+      c: 9c60e606
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping]
   - id: cal.1961-09-21.program
     when: Sept. 21
     date: '1961-09-21'
@@ -2761,6 +3043,19 @@ entries:
       - 1961-09-21T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-21.china-leadership-7
+    when: Sept. 21
+    date: '1961-09-21'
+    place: wuhan
+    thread: china-leadership
+    c: Wuchang 武昌. Mao 毛泽东 arrives, to meet Field Marshal Montgomery. That afternoon he talks with Wang Renzhong 王任重 on the floods and drought, and above all on the production team as the basic accounting unit.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-16.china-leadership-3]]. Names: Mao Zedong.'
+    src:
+      c: dfe4131d
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-22.peace-corps
     when: Sept. 22
     date: '1961-09-22'
@@ -3083,6 +3378,24 @@ entries:
       - 1961-09-22T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-22.china-leadership-12
+    when: Sept. 22
+    date: '1961-09-22'
+    place: wuhan
+    thread: china-leadership
+    c: Wuchang 武昌. Mao 毛泽东 sends for Wang Renzhong 王任重 again in the afternoon, on the production team as the basic accounting unit.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-21.china-leadership-7]]. Names: Mao Zedong.'
+    src:
+      c: 95d05616
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-09-22T04:00Z
+      - 1961-09-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-23.civil-rights-the-executive
     when: Sept. 23
     date: '1961-09-23'
@@ -3135,7 +3448,7 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain]
     c: 'Wuchang, the East Lake guesthouse. Mao receives Field Marshal Montgomery, at dinner; Wang Renzhong present. China twelve years on: no experience of socialism; in 1949 the economy, the land, the imperialists'' remnants; the future always bright, the road made by walking; floods and drought.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 23, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 68 (Mao to Montgomery, Sept. 22–24: the crop shortfall). Made public: 2013. To check: [[w.sunday-times]], Oct. 15, 1961, 25 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.159a); [[w.phathanothai-dragons-pearl]], 194 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.159b). Names: Mao Zedong, Montgomery, Wang Renzhong, Xiong Xianghui, Pu Shouchang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 23, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 68 (Mao to Montgomery, Sept. 22–24: the crop shortfall); [[w.mao-zedong-zhuan]], V, ch. 68 n.22 (Sept. 23, afternoon, the first talk at the East Lake guesthouse 东湖客舍, then dinner; Mao: no experience of socialism, twelve years, the future always bright and the road made by walking, 1949 the economy first). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.sunday-times]], Oct. 15, 1961, 25 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.159a); [[w.phathanothai-dragons-pearl]], 194 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.159b); Record of Mao Zedong''s 毛泽东 talk with Field Marshal Montgomery 蒙哥马利, Sept. 23, 1961 (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.22). Names: Mao Zedong, Montgomery, Wang Renzhong, Xiong Xianghui, Pu Shouchang.'
     src:
       c: 9ceb9dae
       rows:
@@ -3143,6 +3456,8 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 68: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 68 n.159a: B, G'
         - 'via w.macfarquhar-origins-of-the-cultural III, 68 n.159b: B, G'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.22: B, D-F'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.22: B, D-F'
     tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk]
   - id: cal.1961-09-23.china-leadership-2
     when: Sept. 23
@@ -3210,6 +3525,24 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 71: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-23.china-leadership-7
+    when: Sept. 23
+    date: '1961-09-23'
+    place: wuhan
+    thread: china-leadership
+    c: Wuchang 武昌, evening. Wang Renzhong 王任重 sends Mao 毛泽东 three papers on making the production team the basic accounting unit.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-22.china-leadership-12]]. Names: Mao Zedong.'
+    src:
+      c: bf057cd9
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-09-23T11:00Z
+      - 1961-09-23T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1961-09-24.opinion
     when: Sept. 24
@@ -3281,7 +3614,7 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain]
     c: 'Wuchang. Mao sees Montgomery again; Wang Renzhong present. One five-year plan left, to meet Marx at seventy-three. His successor: "clearly Liu Shaoqi," the first vice-chairman; after Liu, "not my affair." No war with America wanted; with conventional arms China can cope. Nuclear weapons will not be used: the more made, the less nuclear war.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 24, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961; at Wuhan Mao meets Montgomery, who asks who his successor is; Mao: very clear, Liu Shaoqi, first vice-chairman of the Party; after Mao''s death, him; asked if Zhou Enlai follows Liu, Mao says he does not care about what is after Liu); [[w.macfarquhar-origins-of-the-cultural]], III, 433 (Mao tells Montgomery that Liu Shaoqi is his successor). Made public: 1961 ([[w.sunday-times]], Oct. 15, 1961, Montgomery''s account). To check: [[w.sunday-times]], Oct. 15, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14a); [[w.bianjishi-xin-zhongguo-waijiao-fengyun]], 1, 48–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14b); [[w.yuzhi-shidaide-zhongtuo-lishide-xuanze]], 1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14c); Gong Yuzhi, personal communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14d); [[w.khrushchev-khrushchev-remembers-1976]], 288 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14e). Names: Mao Zedong, Montgomery, Wang Renzhong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 24, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961; at Wuhan Mao meets Montgomery, who asks who his successor is; Mao: very clear, Liu Shaoqi, first vice-chairman of the Party; after Mao''s death, him; asked if Zhou Enlai follows Liu, Mao says he does not care about what is after Liu); [[w.macfarquhar-origins-of-the-cultural]], III, 433 (Mao tells Montgomery that Liu Shaoqi is his successor); [[w.mao-zedong-zhuan]], V, ch. 68 n.23 (Sept. 24, the second talk: Mao''s successor clearly Liu Shaoqi, first vice-chairman, "after Liu, not my affair"; nuclear weapons are for not using, the more made the less nuclear war; the text puts the talk in the afternoon, the note in the morning). Made public: 1961 ([[w.sunday-times]], Oct. 15, 1961, Montgomery''s account). Check: the *Mao zedong zhuan* has the second talk in the afternoon in its text and the morning in its note (V, ch. 68 n.23), and a third talk that afternoon after the swim. See [[cal.1961-09-24.china-leadership-4]]. To check: [[w.sunday-times]], Oct. 15, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14a); [[w.bianjishi-xin-zhongguo-waijiao-fengyun]], 1, 48–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14b); [[w.yuzhi-shidaide-zhongtuo-lishide-xuanze]], 1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14c); Gong Yuzhi, personal communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14d); [[w.khrushchev-khrushchev-remembers-1976]], 288 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14e); Record of Mao Zedong''s 毛泽东 talk with Field Marshal Montgomery 蒙哥马利, Sept. 24, 1961, morning (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.23). Names: Mao Zedong, Montgomery, Wang Renzhong, Liu Shaoqi.'
     src:
       c: '33597205'
       rows:
@@ -3293,6 +3626,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 433 n.14c: B, E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 433 n.14d: B, E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 433 n.14e: B, E, F'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.23: E-F, I'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.23: E-F, I'
     tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, name:liu-shaoqi, vis:only:prc+uk]
   - id: cal.1961-09-24.china-leadership-2
     when: Sept. 24
@@ -3319,6 +3654,25 @@ entries:
     c: 'Liu Shaoqi receives the credentials of Romania''s new ambassador (乔治乌·杜米特鲁 in the chronology). People''s subjective thought reflects the objective, sometimes not fully at once; different views come out and, after discussion, agree, until some new question arises: a law of development and a constant task. The Party is the same.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, polity:romania, vis:only:prc+romania@B-D, name:liu-shaoqi]
+  - id: cal.1961-09-24.china-leadership-4
+    when: Sept. 24
+    date: '1961-09-24'
+    place: wuhan
+    thread: china-leadership
+    also: [europe-and-the-alliance-britain]
+    c: Wuchang 武昌, afternoon. Mao 毛泽东 swims in the Yangtze 长江, Field Marshal Montgomery watching from a boat, then talks with him a third time at the Shengli Hotel 胜利饭店. Montgomery gives him a box of English cigarettes; Mao writes out for him his poem on swimming, *Shuidiao getou* 《水调歌头·游泳》. He asks how wide the Channel is and whether its water runs as fast as the river, and says he would like to swim the Mississippi.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.24. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Record of Mao Zedong''s 毛泽东 talk with Field Marshal Montgomery 蒙哥马利, Sept. 24, 1961, afternoon (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.24); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-24.china-leadership]]. Names: Mao Zedong, Montgomery.'
+    src:
+      c: c0845650
+      rows:
+        - 'w.mao-zedong-zhuan V, ch. 68: all'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.24: all'
+    tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk]
+    time_range:
+      - 1961-09-24T04:00Z
+      - 1961-09-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-25.europe-and-the-alliance-cyprus
     when: Sept. 25
     date: '1961-09-25'
@@ -3605,7 +3959,7 @@ entries:
     place: handan
     thread: china-leadership
     c: 'Handan, on the train. Mao hears the Hebei and Shandong committees (Liu Zihou, Zhou Xing) on the "big contract": production on the "feet" (the team), distribution on the "waist" (the brigade), egalitarianism; the "three contracts and one reward," 1,128 accounts in a Baoding brigade, "scholasticism"; a Tang county commune that never pooled at the brigade grew every year.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 26, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 68–69 (the Handan meeting, nine officials of Hebei and Shandong); [[w.jianguo-yilai-mao-zedong]], XVI, 119–121 (Sept. 26, 1961; Mao''s own record of the meeting, headed Sept. 26, his "Sept. 27" in it an error, note 1: the nine Hebei and Shandong participants; the "three guarantees and one reward" as "scholasticism," 37 steps and 1,128 accounts; the Tang county commune that contracted for the whole; no place given). Made public: 2013. Check: MacFarquhar dates the Handan meeting Sept. 27. To check: [[w.nongye-jitihua-zhongyao-wenjian]], xia, 519–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160b); [[w.bian-mao-zedong-he-tade]], 59–60 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160c); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 562–64 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160d); [[w.lingxiu-zai-hebei]], 363 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160e). Names: Mao Zedong, Liu Zihou, Zhou Xing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 26, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 68–69 (the Handan meeting, nine officials of Hebei and Shandong); [[w.jianguo-yilai-mao-zedong]], XVI, 119–121 (Sept. 26, 1961; Mao''s own record of the meeting, headed Sept. 26, his "Sept. 27" in it an error, note 1: the nine Hebei and Shandong participants; the "three guarantees and one reward" as "scholasticism," 37 steps and 1,128 accounts; the Tang county commune that contracted for the whole; no place given); [[w.mao-zedong-zhuan]], V, ch. 68 n.28 (Sept. 26 at Handan: Liu Zihou, Wang Luming of Hebei and Zhou Xing of Shandong, the Baoding secretaries; Mao on the big contract, the feet and the waist, and the three contracts and one reward as scholasticism, 37 processes, 49 percents and 1,128 accounts; the book says he had the record arranged and dated Sept. 27). Made public: 2013. Check: MacFarquhar dates the Handan meeting Sept. 27. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.nongye-jitihua-zhongyao-wenjian]], xia, 519–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160b); [[w.bian-mao-zedong-he-tade]], 59–60 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160c); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 562–64 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160d); [[w.lingxiu-zai-hebei]], 363 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 68 n.160e); Record of Mao Zedong''s 毛泽东 talk, while hearing Liu Zihou 刘子厚, at Handan, Sept. 26, 1961 (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.28). Names: Mao Zedong, Liu Zihou, Zhou Xing.'
     src:
       c: d6a43d77
       rows:
@@ -3619,6 +3973,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 69 n.163: C-D'
         - 'w.jianguo-yilai-mao-zedong XVI, 119–121: B, C, D'
         - 'via x.1961-10-07.cc-directive-on-the-basic-accounting-unit-to-bureaus-and-committees: B-D'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.28: B-D'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.28: B-D'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-26.china-leadership-2
     when: Sept. 26
@@ -3628,11 +3984,12 @@ entries:
     thread: china-leadership
     also: [korea]
     c: The Eastern Suburb airport 东郊机场, 9 a.m. Yang Shangkun 杨尚昆 meets Deng Xiaoping 邓小平, Kang Sheng 康生 and others, back from Korea 朝鲜.
-    n: '[[w.yang-shangkun-riji]], II, 71 (Sept. 26, 1961). The words: 上午9时 (II, 71). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng.'
+    n: '[[w.yang-shangkun-riji]], II, 71 (Sept. 26, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 26, 1961; Deng leaves Pyongyang and is back in Peking; Zhu De, Peng Zhen and others at the airport). The words: 上午9时 (II, 71). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng.'
     src:
       c: 392d9ae5
       rows:
         - 'w.yang-shangkun-riji II, 71: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: ?'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-26.china-leadership-3
@@ -3763,11 +4120,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Secretariat, Deng Xiaoping 邓小平 presiding, on the draft speech for the CPSU's Twenty-second Congress.
-    n: '[[w.yang-shangkun-riji]], II, 72 (Sept. 27, 1961). The words: 上午 (II, 72). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], II, 72 (Sept. 27, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 27, 1961; morning; Deng presides on the speech for the delegation to the CPSU''s Twenty-second Congress in mid-October). The words: 上午 (II, 72). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
     src:
       c: 3e228900
       rows:
         - 'w.yang-shangkun-riji II, 72: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1961-09-26T22:00Z
@@ -3790,6 +4148,17 @@ entries:
       - 1961-09-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-27.china-leadership-6
+    when: Sept. 27
+    date: '1961-09-27'
+    thread: china-leadership
+    c: 'Deng Xiaoping 邓小平, on a citizen''s letter on grave disorder at railway stations: the Public Security Ministry to take effective measures and put it right.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1660 (Sept. 27, 1961). The chronology gives it under the 27th, a second item of the day. Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    src:
+      c: da39eae5
+      rows:
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-09-28.middle-east
     when: Sept. 28
     date: '1961-09-28'
@@ -4146,7 +4515,7 @@ entries:
     date: '1961-09-29'
     thread: china-leadership
     c: 'Mao to the Standing Committee and others, with Geng Changsuo''s letter and the Shandong, Hubei, Hebei and Handan papers: severe egalitarianism remains, "what the Sixty Articles lack": production with the team, distribution with the brigade. His view: "three-level ownership, the team the base," the team, not the brigade, the accounting unit; to be settled at the December work conference after inquiry by every level.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 29, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 216–17 (Mao''s letter of Sept. 29 permitting team accounting, his last concession; experiments going beyond it unacceptable); [[w.macfarquhar-origins-of-the-cultural]], III, 69–70 (the letter on team accounting; the six contrary opinions); [[w.jianguo-yilai-mao-zedong]], XVI, 122–123 (Sept. 29, 1961; the letter, written at 8 a.m., with the papers it sends: Geng Changsuo''s letter, the Shandong, Hubei, Hebei and Handan materials; the team as base and the December conference). Made public: 2013. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1080 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 574–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37b); [[w.bian-mao-zedong-he-tade]], 59–60 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162b); [[w.mao-zedong-zai-hubei]], 335 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162c); [[w.yi-research-note-dangshi-yanjiu]], 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162e); [[w.liu-shaoqi-yu-1962]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162f). Names: Mao Zedong, Geng Changsuo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 29, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 216–17 (Mao''s letter of Sept. 29 permitting team accounting, his last concession; experiments going beyond it unacceptable); [[w.macfarquhar-origins-of-the-cultural]], III, 69–70 (the letter on team accounting; the six contrary opinions); [[w.jianguo-yilai-mao-zedong]], XVI, 122–123 (Sept. 29, 1961; the letter, written at 8 a.m., with the papers it sends: Geng Changsuo''s letter, the Shandong, Hubei, Hebei and Handan materials; the team as base and the December conference); [[w.mao-zedong-zhuan]], V, ch. 68 n.29 (Sept. 29: Mao''s long letter to the Standing Committee on the basic accounting unit: the team, not the brigade; to be settled at the December conference). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1080 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 574–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37b); [[w.bian-mao-zedong-he-tade]], 59–60 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162b); [[w.mao-zedong-zai-hubei]], 335 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162c); [[w.yi-research-note-dangshi-yanjiu]], 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162e); [[w.liu-shaoqi-yu-1962]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162f); Mao Zedong 毛泽东, letter to the members of the Politburo Standing Committee and others on the basic accounting unit, Sept. 29, 1961; in *Mao Zedong wenji*, vol. 8, 284-285 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.29). Names: Mao Zedong, Geng Changsuo.'
     src:
       c: 9fc0d16e
       rows:
@@ -4171,6 +4540,8 @@ entries:
         - 'via x.1961-09-08.baoding-prefectural-committee-report-on-distribution-big-contract: A'
         - 'via x.1961-08-25.zhangjiakou-prefectural-committee-report-to-liu-zihou-on-the-distribution-big-contract: A'
         - 'via x.1961-10-07.cc-directive-on-the-basic-accounting-unit-to-bureaus-and-committees: B-C'
+        - 'w.mao-zedong-zhuan V, ch. 68 n.29: B-C'
+        - 'via w.mao-zedong-zhuan V, ch.68 n.29: B-C'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-09-29.china-leadership-2
     when: Sept. 29
@@ -4228,12 +4599,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Secretariat on *Renmin ribao's* 人民日报 editorial for Oct. 1 and the draft speech for the CPSU's Twenty-second Congress.
-    n: '[[w.yang-shangkun-riji]], II, 73 (Sept. 29, 1961; note 1: the editorial "Hold high the great banner of the general line, strive for new victories!", Oct. 1, 1961). The words: 下午 (II, 73). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: *Renmin ribao*, Oct. 1, 1961, editorial (cited by [[w.yang-shangkun-riji]], II, 73 n.1).'
+    n: '[[w.yang-shangkun-riji]], II, 73 (Sept. 29, 1961; note 1: the editorial "Hold high the great banner of the general line, strive for new victories!", Oct. 1, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1660–1661 (Sept. 29, 1961; afternoon; Deng presides; the delegation''s speech, Mao''s greetings to the Twenty-second Congress and the *Renmin ribao* National Day editorial "Hold high the great banner of the general line, strive for new victories!"). The words: 下午 (II, 73). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: *Renmin ribao*, Oct. 1, 1961, editorial (cited by [[w.yang-shangkun-riji]], II, 73 n.1).'
     src:
       c: 884586e6
       rows:
         - 'w.yang-shangkun-riji II, 73: all'
         - 'via w.yang-shangkun-riji II, 73 n.1: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1660–1661: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1961-09-29T04:00Z
@@ -4628,12 +5000,13 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'At the Secretariat, after hearing the coal conference reports: inside the enterprise, thought, political work and management decide whether production is done well once outer conditions are solved; the life of coal miners to be assured, underground workers first.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Sept. 30, 1961); [[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961; the Secretariat, 9 a.m. to 1 p.m., hears the coal conference''s report). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Sept. 30, 1961); [[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961; the Secretariat, 9 a.m. to 1 p.m., hears the coal conference''s report); [[w.deng-xiaoping-nianpu-1904]], III, 1661 (Sept. 30, 1961; morning; Deng presides at the Secretariat on coal). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: d6dbd6cb
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
         - 'w.yang-shangkun-riji II, 73: A'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1661: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-09-30.china-leadership-3
     when: Sept. 30
@@ -4785,10 +5158,11 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆, 4:30 p.m., receive Chervonenko 契尔沃年科, the Soviet Ambassador.
-    n: '[[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961). The words: 下午4时半 (II, 73). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Chervonenko.'
+    n: '[[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1661 (Sept. 30, 1961; afternoon; Deng receives Chervonenko and the papers he hands over: Albania''s oral statement of Sept. 22 asking the Soviet government to withdraw its special forces from Albania within seven days; the record of Khrushchev''s talks with Nehru in the Soviet Union, Sept. 6–11; the record of Khrushchev''s talk of Sept. 19 with Spaak, Belgian Deputy Premier and Foreign Minister, and the French Foreign Minister (雷诺 on the page)). The words: 下午4时半 (II, 73). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Chervonenko.'
     src:
       c: 58e106b3
       rows:
         - 'w.yang-shangkun-riji II, 73: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1661: ?'
     tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr]
     time_zone: Asia/Shanghai

@@ -86,5 +86,5 @@ def write(path, page):
         a, b = TAGS.findall(page), TAGS.findall(out)
         i = next((k for k, (x, y) in enumerate(zip(a, b)) if x != y), min(len(a), len(b)))
         raise ValueError(f"smart.py changed a tag in {path}: {a[i] if i < len(a) else ''!r}")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(out)
+    from .store import atomic_write
+    atomic_write(path, out)

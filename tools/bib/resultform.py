@@ -45,6 +45,8 @@ voted, 793,087, needed"), or the candidate was unopposed.
 """
 import re
 
+from . import markup
+
 N = r"\d{1,3}(?:,\d{3})+|\d{1,7}"
 FORM = re.compile(rf"(?<![\d,.$])({N}) to ({N}), (\d{{1,3}}\.\d) percent( of the two)?(?:, an? ({N})-vote margin)?")
 YESNO = re.compile(r"\b[Yy]es,? \d|\bno,? \d{1,3}(?:,\d{3})+")
@@ -56,7 +58,7 @@ PCT = re.compile(r"(?<![\d,.$])\d{1,3}(?:\.\d+)? percent")
 BARE = re.compile(r"(?<![\d,.$–-])\d{1,2}\.\d(?![\d,]?\d)(?! percent)(?! (?:million|billion|mills?|cents|points?|"
                   r"seats?|years?|months?|days?|hours?|miles?|acres?|per|to|of)\b)(?=[,;.)]|\s|$)")
 QUOTE = re.compile(r'"[^"]*"|“[^”]*”')
-LINK = re.compile(r"\]\([^)]*\)|\(https?://[^)]*\)")
+LINK = re.compile(r"\]\((?:" + markup.URL + r"|[^)]*)\)|\(" + markup.URL + r"\)")   # a link's target, a url's (...) in it
 MEASURE = re.compile(r"\b(?:carries|carried|fails|failed|adopted|adopts|approved|approves|refused|refuses|rejected|"
                      r"rejects|ratified|ratifies|defeated|repealed)\b(?! (?:the|his|her|its) )")
 RACE = re.compile(r"\b(?:over|against|beats|defeats|unseats|ahead of|leads)\b")

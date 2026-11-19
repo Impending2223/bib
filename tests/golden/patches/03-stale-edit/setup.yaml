@@ -1,0 +1,4 @@
+# Another patch changes the entry's `when` and is merged and committed after this patch's writer read it (base
+# c29e028f): the base is found in git, and the three-way merge keeps both changes.
+git: true
+before: [0.yaml]
