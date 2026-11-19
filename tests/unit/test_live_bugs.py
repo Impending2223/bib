@@ -81,3 +81,31 @@ def test_plain_links_unchanged():
                                        "https://history.state.gov/historicaldocuments/frus1961-63v04/d34"),
                                       ("a", "http://x.org/b")]
     assert markup.strip_links(t) == "FRUS 1961–63, IV, doc. 34. a"
+
+
+# ---------------------------------------------------------------- 3. content left out of the build, counted
+
+def test_committees_month_that_fails_is_counted(tmp_path, monkeypatch):
+    from tools.bib import committees, faults
+    faults.reset()
+    (tmp_path / "1961-01.yaml").write_text("docs:\n  - {date: '1961-01-03', x: 1}\n", encoding="utf-8")
+    (tmp_path / "1961-02.yaml").write_bytes(b"docs: \xff\xfe\n")          # not UTF-8: the load raises
+    monkeypatch.setattr(committees, "DIR", str(tmp_path))
+    monkeypatch.setattr(committees, "_cache", {})
+    by = committees.load()
+    assert list(by) == ["1961-01-03"]
+    assert len(faults.FAULTS) == 1 and "1961-02.yaml" in faults.FAULTS[0][0]
+    assert "1 build fault" in faults.report()
+    faults.reset()
+
+
+def test_vis_pass_that_fails_is_counted(monkeypatch):
+    from tools.bib import faults, vis
+    faults.reset()
+
+    def boom(series):
+        raise ValueError("no")
+    monkeypatch.setattr(vis, "_problems", boom)
+    assert vis.problems(None) == [("tools/bib/vis.py", "the visibility pass failed: ValueError: no")]
+    assert faults.FAULTS == [("tools/bib/vis.py", "the visibility pass failed: ValueError: no")]
+    faults.reset()

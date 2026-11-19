@@ -274,6 +274,9 @@ def cmd_build(series, a):
         print(os.path.relpath(p, HERE), f"{os.path.getsize(p) // 1024} KB")
     if vispage.STATS["entries"]:
         print(vispage.report())
+    from . import faults
+    if faults.FAULTS:                    # content left out of a page (faults.py): said, not yet fatal (being measured)
+        print(faults.report(), file=sys.stderr)
 
 
 def cmd_hearings(series, a):

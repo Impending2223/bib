@@ -932,7 +932,9 @@ def problems(series):
     polity is `?` (a count); a thread with no polities (a line each); the cited works whose country is `?` (a count)."""
     try:
         return _problems(series)
-    except Exception as x:                    # a fault here must never stop a build
+    except Exception as x:                    # a fault here must never stop a build's other pages; counted (faults.py)
+        from . import faults
+        faults.record("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")
         return [("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")]
 
 
