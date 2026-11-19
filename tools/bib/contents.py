@@ -63,6 +63,11 @@ STYLE (the owner's rules, Oct. 21, 2026):
     a link to its page's top, muted; the page's own, in the text's color, unlinked. The threads line is the page's
     own threads (the index's: its list of threads). On the index a bill whose course runs into a second year is listed
     once, under its first (the owner's ruling, Nov. 5, 2026); each year's page lists it as before.
+ 7. A year's page (a part, not the index, not the reader) shows in the grid only its own year, the nearest earlier year
+    the calendar holds and the nearest later one (the owner, Nov. 18, 2026: "1960H1 should, at the moment, display all of
+    1960 and all of 1961, but nothing else ... 1972 should display what exists of 1970 and 1976"); its own months in the
+    text's color, the months on other pages muted (a.oth; "greying out the months on other pages"); the page's year bold,
+    as before. The index (half 0) and the reader keep the whole calendar.
 """
 import calendar
 import html
@@ -252,6 +257,13 @@ def nav(lst, sections, half=None):
         ym = _month(s)
         if ym:
             years.setdefault(ym[0], {}).setdefault(ym[1], s)      # 196601 and 196601b: the cell the first's
+    if whole and half and not series:   # a year's page: its own year(s) and the nearest year each side (STYLE 7)
+        own = sorted(y for y, ms in years.items() if any(calsplit.half_of_section(lst, s) == half for s in ms.values()))
+        if own:
+            before = [y for y in years if y < own[0]]
+            after = [y for y in years if y > own[-1]]
+            keep = set(own) | ({max(before)} if before else set()) | ({min(after)} if after else set())
+            years = {y: ms for y, ms in years.items() if y in keep}
     rows, prev = [], None
     for y in sorted(years):
         ms = years[y]
@@ -263,7 +275,8 @@ def nav(lst, sections, half=None):
             for k in range(1, 7):
                 mo = h * 6 + k
                 s = ms.get(mo)
-                cells.append(f'<td><a href="{esc(_sec_href(lst, s, whole))}" data-id="{esc(_sec_id(lst, s))}" '
+                oth = ' class="oth"' if s and whole and half and not series and calsplit.half_of_section(lst, s) != half else ""
+                cells.append(f'<td><a{oth} href="{esc(_sec_href(lst, s, whole))}" data-id="{esc(_sec_id(lst, s))}" '
                              f'title="{esc(_title(s, y, mo))}">{MON3[mo - 1]}</a></td>' if s else "<td></td>")
             yc = str(y)
             if whole and part != half:          # another part's year: its page's top (STYLE 6)
@@ -416,6 +429,7 @@ table.tocg tbody.tbh td{padding-top:1.1rem;font-weight:700;font-size:1rem}
 table.tocg tbody.tbs>tr:first-child>*{padding-top:.45rem}
 table.tocg td.tbi{font-size:.9rem;padding:.1rem 0;line-height:1.35}
 .tocc a{text-decoration:none;color:var(--ink)}
+.tocc table.tocg a.oth{color:var(--muted)}
 .tocc a:hover{color:var(--accent);text-decoration:underline}
 #drawer .tocc a.cur{padding:0 .15rem}
 </style>"""

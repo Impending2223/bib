@@ -928,6 +928,11 @@ def cmd_import(a):
     print("imported; run ./bib check and ./bib build")
 
 
+def cmd_readme(series, a):
+    from . import readme
+    return readme.run(series, check=a.check)
+
+
 # ---------------------------------------------------------------- entry point
 
 def main(argv=None):
@@ -935,6 +940,8 @@ def main(argv=None):
     sub = p.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("status", help="lists, counts, conflicts, inbox, stale pages")
+    x = sub.add_parser("readme", help="rewrite README.md's calendar pages and counts (--check: say if stale, exit 1)")
+    x.add_argument("--check", action="store_true")
     x = sub.add_parser("outline", help="a list's sections and the files that hold them")
     x.add_argument("list")
     x = sub.add_parser("find", help="search entries; prints id, file:line, and a one-line summary")

@@ -5,9 +5,10 @@ has not endorsed the ticket, a bill held in committee) is an entry on the paper'
 STYLE
 1. On the day: a state entry is set off by a rule at its left and the label "As reported" above its rubric, so it does
    not read as an act (daybook.py).
-2. The register: on the calendar's index (cal.html), every state entry, grouped by its thread (the thread index's
-   order), each by its date, linked to the entry on its page, then its `c`. A later report of the same condition is
-   a row of its own (its note points back, "See [[...]]"); nothing is kept apart from the entries.
+2. No register (the owner, Nov. 18, 2026: "They shouldn't have a separate human-readable bucket at all. They're just a
+   kind of calendar entry ... they should sit in the calendar with all the others"): the index's register of Nov. 12
+   is taken off; register_html stays for a reader's own query, called by nothing in the build. A later report of the
+   same condition is an entry of its own (its note points back, "See [[...]]").
 """
 import html
 import re

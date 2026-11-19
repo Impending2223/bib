@@ -215,10 +215,6 @@ def panel(prefix=""):
     meta = {"top": [[vis.tag_code(k), s] for k, s in TOP], "other": other_meta}
     return (f'<section class="vis" id="{p}vis" aria-labelledby="{p}visibility">'
             f'<h3 id="{p}visibility" data-short="Visibility">Visibility</h3>'
-            f'<p class="logic">Whose record each claim is, and who knew it. Tap a toggle to cycle it: on, greyed, off. A claim '
-            f'shows in full if any of its tags is on; greyed if none is on and one is greyed; hidden if all are off. '
-            f'A polity\'s own line sets its public and nonpublic both. An entry not yet mapped claim by claim is filtered '
-            f'as a whole.</p>'
             f'<div class="vgrid">{"".join(cells)}</div>'
             f'<div class="vother" id="{p}vother" hidden><div class="vgrid">{"".join(ocells)}</div></div>'
             f'<div class="vbar"><div><span class="lab" id="{p}vpalab">Tags by</span><span class="vpa" role="group" '

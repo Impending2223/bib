@@ -4,17 +4,46 @@ The 1968 series: a calendar, a bibliography and a set of reference tables for Am
 
 ## The site
 
-| page | what it holds |
+| page | contents |
 |------|---------------|
-| [Calendar](https://impending2223.github.io/bib/cal.html): a page a year: [1960](https://impending2223.github.io/bib/cal1960.html), [1961](https://impending2223.github.io/bib/cal1961.html), [1962](https://impending2223.github.io/bib/cal1962.html), [1963](https://impending2223.github.io/bib/cal1963.html), [1964](https://impending2223.github.io/bib/cal1964.html), [1965](https://impending2223.github.io/bib/cal1965.html), [1966](https://impending2223.github.io/bib/cal1966.html), [1967](https://impending2223.github.io/bib/cal1967.html), [1968](https://impending2223.github.io/bib/cal1968.html), [1969](https://impending2223.github.io/bib/cal1969.html); and [the primaries of 1972 and 1976](https://impending2223.github.io/bib/calprimaries.html) | The executive and legislative record, day by day, Jan. 6, 1960–Jan. 20, 1969, a page a year, with the presidential primaries of 1960–76; the index (`cal.html`) gives every year's months, tables and maps, and threads.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. 19,409 entries in 108 threads and 189 subthreads. |
+| [Calendar](https://impending2223.github.io/bib/cal.html) | The executive and legislative record, day by day, from Jan. 6, 1960, with the foreign leaderships' records carried on after Jan. 20, 1969, and the presidential primaries of 1960–76; the index (`cal.html`) gives every page's months, tables and maps, and threads. Its pages are listed below.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. 39,903 entries in 109 threads and 194 subthreads. |
 | [Names](https://impending2223.github.io/bib/names.html) | An entry for each person (12,633): offices and elections with their sources, publications and papers, and the FRUS documents, presidential documents and recordings that name the person. |
 | [Congress](https://impending2223.github.io/bib/congress.html) | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member; every general election, 1958–74, race by race; the special elections, 85th–93rd. |
 | [Executive](https://impending2223.github.io/bib/executive.html) | The Executive Branch at each inauguration and succession, 1953–74: every office, the law that governs it, every holder. |
 | [Indochina](https://impending2223.github.io/bib/indochina.html) | Vietnam, Laos and Cambodia, 1960–68: the calendar's entries placed on one map, a year at a time or all together, with the provinces of late 1966 by corps zone, relief, rivers, climate and rain; the gazetteer of places. |
 | [Indicators](https://impending2223.github.io/bib/indicators.html) | The economic indicators set under each calendar month, 1960–69: what each series measured then and measures today, its sources, and every figure, as first reported and as revised. Each calendar carries the part of this statement that concerns its own months. |
 | [Ebooks and feeds](https://impending2223.github.io/bib/ebooks.html) | The daybook's documents as ebooks (EPUB), a month a book, Jan. 1960–Jan. 1969: every FRUS document of the month in full, the President's Public Papers by title, day by day. The White House recordings the Miller Center gives free as podcast feeds (RSS), a year a feed, each recording dated by the day it was made, in date order; [all the feeds](https://impending2223.github.io/bib/feeds/recordings.opml) (OPML). |
-| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (2,636), with where each is cited. |
+| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (4,675), with where each is cited. |
 | [The reader](https://impending2223.github.io/bib/) | All of it on one page, cross-referenced. |
+
+### The calendar's pages
+
+<!-- calendar-pages:start -->
+| page | contents |
+|------|----------|
+| [January–June 1960](https://impending2223.github.io/bib/cal1960H1.html) | The 86th Congress's second session |
+| [July–December 1960](https://impending2223.github.io/bib/cal1960H2.html) | The 86th Congress's second session |
+| [January–June 1961](https://impending2223.github.io/bib/cal1961H1.html) | The 87th Congress's first session |
+| [July–December 1961](https://impending2223.github.io/bib/cal1961H2.html) | The 87th Congress's first session |
+| [January–June 1962](https://impending2223.github.io/bib/cal1962H1.html) | The 87th Congress's second session |
+| [July–December 1962](https://impending2223.github.io/bib/cal1962H2.html) | The 87th Congress's second session |
+| [January–June 1963](https://impending2223.github.io/bib/cal1963H1.html) | The 88th Congress's first session |
+| [July–December 1963](https://impending2223.github.io/bib/cal1963H2.html) | The 88th Congress's first session |
+| [January–June 1964](https://impending2223.github.io/bib/cal1964H1.html) | The 88th Congress's second session |
+| [July–December 1964](https://impending2223.github.io/bib/cal1964H2.html) | The 88th Congress's second session |
+| [January–March 1965](https://impending2223.github.io/bib/cal1965Q1.html) | The 89th Congress's first session |
+| [April–June 1965](https://impending2223.github.io/bib/cal1965Q2.html) | The 89th Congress's first session |
+| [July–December 1965](https://impending2223.github.io/bib/cal1965H2.html) | The 89th Congress's first session |
+| [January–June 1966](https://impending2223.github.io/bib/cal1966H1.html) | The 89th Congress's second session |
+| [July–December 1966](https://impending2223.github.io/bib/cal1966H2.html) | The 89th Congress's second session |
+| [January–June 1967](https://impending2223.github.io/bib/cal1967H1.html) | The 90th Congress's first session |
+| [July–December 1967](https://impending2223.github.io/bib/cal1967H2.html) | The 90th Congress's first session |
+| [January–June 1968](https://impending2223.github.io/bib/cal1968H1.html) | The 90th Congress's second session |
+| [July–December 1968](https://impending2223.github.io/bib/cal1968H2.html) | The 90th Congress's second session |
+| [1969](https://impending2223.github.io/bib/cal1969.html) | The 91st Congress's opening |
+| [1970](https://impending2223.github.io/bib/cal1970.html) | — |
+| [The primaries of 1972 and 1976](https://impending2223.github.io/bib/calprimaries.html) | The primaries of 1972 and 1976 |
+<!-- calendar-pages:end -->
 
 ### The themed lists
 

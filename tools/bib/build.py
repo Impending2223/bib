@@ -411,6 +411,13 @@ def headings(lst, sec, idfmt):
         m = re.fullmatch(r"([A-Z][a-z]+) (\d{4})", plain(sec.title))
         if m:
             crumb = f' data-crumb="{m.group(2)} / {m.group(1)}"'
+            # the year in the top bar goes to its year's first month (on its own page where the year is split; the
+            # owner, Nov. 18, 2026: "clicking '1960' would navigate to the first calendar entry in 1960")
+            from . import contents
+            firsts = [x for x in lst.sections if contents._month(x) and contents._month(x)[0] == int(m.group(2))]
+            if firsts:
+                whole = bool(calsplit.cfg(lst))
+                crumb += f' data-ytop="{attr(contents._sec_href(lst, firsts[0], whole))}"'
     return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}"{crumb}>{num}{to_html(sec.title)}</{tag}>'
 
 
@@ -1242,10 +1249,7 @@ def write_calendar(series, lst, linker, held, routed):
     calsplit.CUR.update(half=0, mode="list")
     page = build_list(series, lst.key, linker, 0)
     page = contents.fill(page, lst, 0)
-    from . import standing, check as _check   # the standing conditions, as reported, by thread (standing.py, STYLE 2)
-    reg = standing.register_html(lst, thread_name, _check.thread_key)
-    if reg and "</main>" in page:
-        page = page.replace("</main>", reg + "\n</main>", 1).replace("</head>", standing.STYLE + "\n</head>", 1)
+    # no register of the standing conditions on the index (the owner, Nov. 18, 2026: standing.py, STYLE 2)
     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
     page = page.replace("</body>", calsplit.forward_script(lst, fwd, lst.key) + "\n</body>", 1)
     path = os.path.join(OUT, f"{lst.key}.html")
