@@ -128,3 +128,7 @@ Each step is reviewed by an Opus auditor like the reading patches (included abov
 2. **Approach.** Tests first, then whole-section rewrites behind them (recommended); or a whole rewrite; or edits in place only.
 3. **Libraries.** Test-only tools plus pinned versions, nothing new in the build (recommended); or also Jinja2 templates for the rebuilt page assembly; or none.
 4. **Timing.** The live bugs now and the rest in one or two slots alongside the reading (recommended); or all of it after the China step; or pause the reading until it's done.
+
+## The owner's answers (Nov. 19, about 12:55 a.m. Pacific)
+
+All four as recommended: the owner's order with the cheap speed fixes early; tests first, then whole-section rewrites behind them; test tools only (pytest, hypothesis), pinned versions, the C YAML loader, nothing new in the build; the live bugs now and the rest in 1–2 slots alongside the reading. **The order of work:** (1) the test foundation and (2) the live bugs, in parallel, each in its own git worktree, merged by the lead after an Opus audit and a byte-identical build; (3) the speed fixes once the golden tests are in; (4) consolidation; (5) the three section rewrites; (6) clean-up. Not changed without the owner: `CLAUDE.md`'s claim that `check` enforces a small town's State (no code does): implement the check, or drop the claim?
