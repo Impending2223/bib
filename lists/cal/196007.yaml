@@ -2005,6 +2005,8 @@ entries:
   - id: cal.1960-07-14.elections-1960-los-angeles-20
     when: July 14
     date: '1960-07-14'
+    time: 1960-07-14T22:20Z
+    time_approx: true
     thread: elections-1960-los-angeles
     c: 'Los Angeles, about 3:20 p.m., Stevenson''s quarters. The Governor, "visibly shaken," comes out to Schlesinger: Phil Graham has just called him to say Kennedy has chosen Lyndon Johnson for Vice President. By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 74. Made public: [[w.schlesinger-journals]] (2007). See [[cal.1960-07-14.elections-1960]]. Names: Stevenson, Schlesinger, Kennedy, Johnson.'
@@ -2195,6 +2197,7 @@ entries:
   - id: cal.1960-07-17.china-leadership
     when: July 17
     date: '1960-07-17'
+    time: 1960-07-16T20:30Z
     thread: china-leadership
     c: 'Mao 毛泽东 to Yang Shangkun 杨尚昆, 4:30 a.m.: send word that the three groups meet today, morning or afternoon, all at once. Tomorrow, the 18th, the plenary session, at which Li Fuchun 李富春 reports, since he goes elsewhere for two or three days from the 19th.'
     n: '[[w.jianguo-yilai-mao-zedong]], XV, 268 (July 17, 1960; Mao''s note of July 17, 4:30 a.m.; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong, Yang Shangkun, Li Fuchun.'
@@ -2510,6 +2513,10 @@ entries:
     c: Zhou Enlai leaves Beidaihe at 5 p.m. and reaches Peking at 11 p.m.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 333 (July 21, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1960-07-21T09:00Z
+      - 1960-07-21T15:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-21.china-leadership-3
     when: July 21
     date: '1960-07-21'
