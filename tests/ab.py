@@ -9,6 +9,9 @@ both sides read the very same files, whatever the revisions' own data. Each side
 their build/ directories are their own. Then: the check outputs compared, and every file under build/ compared byte
 for byte (but for NONDETERMINISTIC, a feed's time of writing): the files only one side wrote, the files that differ, and the first differing lines of each.
 
+With --own-data each side is instead the whole of its revision, data included: for a commit whose code change
+implies a data change (a generated file's hash), against the commit before it.
+
 Exit 0 when both sides agree in everything; 1 when anything differs. A rewrite is proved byte-identical on the full
 data by `tests/ab.py main HEAD` (it takes the time two full builds take: run it in the background); on the
 tests' fixture, in seconds, by `tests/ab.py HEAD . --data tests/fixture` (what a golden test's failure points to).
@@ -30,6 +33,16 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 CODE = ["tools", "bib", "templates"]          # taken from each revision
 SKIP = {".git", "build", ".cache", ".venv", "tests"} | set(CODE)
+
+
+def whole(rev, where):
+    """A tree with all of REV: its code and its own data (--own-data)."""
+    os.makedirs(where)
+    arch = subprocess.run(["git", "archive", "--format=tar", rev], cwd=REPO, capture_output=True)
+    if arch.returncode:
+        sys.exit(f"git archive {rev}: {arch.stderr.decode().strip()}")
+    subprocess.run(["tar", "-x", "-C", where], input=arch.stdout, check=True)
+    return where
 
 
 def tree(rev, data, where):
@@ -120,6 +133,9 @@ def main(argv=None):
     ap.add_argument("rev_a")
     ap.add_argument("rev_b")
     ap.add_argument("--data", default=REPO, help="the data directory both sides read (default: this checkout)")
+    ap.add_argument("--own-data", action="store_true",
+                    help="each side the whole of its revision, its data too (a commit that changes code and the "
+                         "data it implies, against its parent); about 0.5 GB a side")
     g = ap.add_mutually_exclusive_group()
     g.add_argument("--build", metavar="WHICH", help="build one page (a list key, 'series', 'names' ...)")
     g.add_argument("--no-build", action="store_true", help="compare the check only")
@@ -130,7 +146,7 @@ def main(argv=None):
     try:
         sides = {}
         for side, rev in (("A", a.rev_a), ("B", a.rev_b)):
-            where = tree(rev, data, os.path.join(tmp, side))
+            where = (whole(rev, os.path.join(tmp, side)) if a.own_data else tree(rev, data, os.path.join(tmp, side)))
             code, secs = run(where, ["check"], os.path.join(tmp, f"check-{side}.txt"))
             print(f"{side} {rev}: check exit {code} ({secs:.0f} s)")
             if not a.no_build:
