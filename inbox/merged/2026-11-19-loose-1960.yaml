@@ -1,0 +1,673 @@
+# The loose-dates pass, 1960 pilot (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose record fixes a position. Pri 0 rows, in date order.
+patch: 2026-11-19-loose-1960
+by: Claude (loose-dates reader, 1960 pilot; notes/briefs/loose-pass.md)
+ops:
+  - edit:
+      id: cal.1960.china-leadership-23
+      base: 'ed3ad513'
+      set:
+        when: '1960, early'
+        at: 'before 1960-01-01'
+  - edit:
+      id: cal.1960.china-leadership-5
+      base: '1394f9f3'
+      set:
+        when: '1960, early'
+        at: 'before 1960-01-01'
+  - edit:
+      id: cal.1960-01.democratic-party
+      base: 'bafb3a0d'
+      set:
+        when: 'Jan., late'
+        at: 'before 1960-01-21'
+  - edit:
+      id: cal.1960-01.elections-1960-2
+      base: 'f430c798'
+      set:
+        when: 'Jan., early'
+        at: 'before 1960-01-01'
+  - edit:
+      id: cal.1960-03.economy
+      base: '9964337b'
+      set:
+        when: 'Mar., early'
+        at: 'before 1960-03-01'
+  - edit:
+      id: cal.1960-03.elections-1960-2
+      base: 'e0a3fb77'
+      set:
+        when: 'Mar., before the New Hampshire primary'
+        at: 'before 1960-03-08'
+  - edit:
+      id: cal.1960-03.elections-1960-8
+      base: '581fb449'
+      set:
+        when: 'Mar., early'
+        at: 'before 1960-03-01'
+  - edit:
+      id: cal.1960-04.elections-1960
+      base: '8d91de45'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-10
+      base: 'ffc199bc'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-2
+      base: '698cc31c'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-3
+      base: 'a380fd7b'
+      set:
+        when: 'Apr., late'
+        at: 'before 1960-04-21'
+  - edit:
+      id: cal.1960-04.elections-1960-4
+      base: '95d061e7'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-8
+      base: '9d85cda4'
+      set:
+        when: 'Apr., early'
+        at: 'before 1960-04-01'
+  - edit:
+      id: cal.1960-04.elections-1960-kennedy
+      base: '814d33e6'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-kennedy-2
+      base: '4d2549b4'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-primaries
+      base: '4fb1a807'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-04.elections-1960-primaries-2
+      base: '0ad3e2dc'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1960-04-05'
+  - edit:
+      id: cal.1960-05.democratic-party
+      base: 'fd728d3c'
+      set:
+        when: 'May, mid'
+        at: 'before 1960-05-11'
+  - edit:
+      id: cal.1960-05.democratic-party-2
+      base: 'd6a7569f'
+      set:
+        when: 'May, after the summit'
+        at: 'after 1960-05-17'
+  - edit:
+      id: cal.1960-05.elections-1960-12
+      base: '55a6e772'
+      set:
+        when: 'May, late'
+        at: 'before 1960-05-21'
+  - edit:
+      id: cal.1960-05.elections-1960-15
+      base: '34bb2e16'
+      set:
+        when: 'May, mid'
+        at: 'before 1960-05-11'
+  - edit:
+      id: cal.1960-05.elections-1960-16
+      base: 'f5912ba9'
+      set:
+        when: 'May, before the West Virginia primary'
+        at: 'before 1960-05-10'
+  - edit:
+      id: cal.1960-05.elections-1960-2
+      base: '28f071fc'
+      set:
+        when: 'May, mid'
+        at: 'before 1960-05-11'
+  - edit:
+      id: cal.1960-05.elections-1960-3
+      base: '1735cc37'
+      set:
+        when: 'May, after the West Virginia primary'
+        at: 'after 1960-05-10'
+  - edit:
+      id: cal.1960-05.elections-1960-4
+      base: '92953f0e'
+      set:
+        when: 'May, late'
+        at: 'before 1960-05-21'
+  - edit:
+      id: cal.1960-05.elections-1960-7
+      base: '082780b6'
+      set:
+        when: 'May, before the West Virginia primary'
+        at: 'before 1960-05-10'
+  - edit:
+      id: cal.1960-05.elections-1960-kennedy
+      base: '09b9abd0'
+      set:
+        when: 'May, after the 1st'
+        at: 'after 1960-05-01'
+  - edit:
+      id: cal.1960-05.soviet-union-u2
+      base: '67b10fab'
+      set:
+        when: 'May, after the summit'
+        at: 'after 1960-05-17'
+  - edit:
+      id: cal.1960-06.congress-powell
+      base: '75064a1f'
+      set:
+        when: 'June, after the 23rd'
+        at: 'after 1960-06-23'
+  - edit:
+      id: cal.1960-06.democratic-party
+      base: '4982b3c0'
+      set:
+        when: 'June, early'
+        at: 'before 1960-06-01'
+  - edit:
+      id: cal.1960-06.democratic-party-2
+      base: '42d4e408'
+      set:
+        when: 'June, after the 16th'
+        at: 'after 1960-06-16'
+  - edit:
+      id: cal.1960-06.elections-1960
+      base: '71c5e87b'
+      set:
+        when: 'June, late'
+        at: 'before 1960-06-21'
+  - edit:
+      id: cal.1960-06.elections-1960-3
+      base: '5cc2a8fc'
+      set:
+        when: 'June, late'
+        at: 'before 1960-06-21'
+  - edit:
+      id: cal.1960-06.elections-1960-5
+      base: '31d8f355'
+      set:
+        when: 'June, early'
+        at: 'before 1960-06-01'
+  - edit:
+      id: cal.1960-06.elections-1960-6
+      base: '1a0a2656'
+      set:
+        when: 'June, early'
+        at: 'before 1960-06-01'
+  - edit:
+      id: cal.1960-06.republican-party
+      base: 'f056e28f'
+      set:
+        when: 'June, after Rockefeller''s statement'
+        at: 'after 1960-06-08'
+  - edit:
+      id: cal.1960-07.congo
+      base: '01de9a73'
+      set:
+        when: 'July, after the Security Council''s resolution'
+        at: 'after 1960-07-13'
+  - edit:
+      id: cal.1960-07.conservative-movement
+      base: 'd4f4101e'
+      set:
+        when: 'July, after the Republican convention'
+        at: 'after 1960-07-28'
+  - edit:
+      id: cal.1960-07.elections-1960
+      base: '1bf486c1'
+      set:
+        when: 'July, early'
+        at: 'before 1960-07-01'
+  - edit:
+      id: cal.1960-07.elections-1960-10
+      base: '35657027'
+      set:
+        when: 'July, before Kennedy''s nomination'
+        at: 'before 1960-07-13'
+  - edit:
+      id: cal.1960-07.elections-1960-12
+      base: 'f992ea64'
+      set:
+        when: 'July, early'
+        at: 'before 1960-07-01'
+  - edit:
+      id: cal.1960-07.elections-1960-13
+      base: '1194bad0'
+      set:
+        when: 'July, after Johnson''s nomination'
+        at: 'after 1960-07-14'
+  - edit:
+      id: cal.1960-07.elections-1960-4
+      base: '32922337'
+      set:
+        when: 'July, after the Democratic convention'
+        at: 'after 1960-07-15'
+  - edit:
+      id: cal.1960-07.elections-1960-5
+      base: 'f2958de5'
+      set:
+        when: 'July, before the Democratic convention'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-07.elections-1960-6
+      base: '10041724'
+      set:
+        when: 'July, near the Democratic convention''s close'
+        at: 'before 1960-07-15'
+  - edit:
+      id: cal.1960-07.elections-1960-7
+      base: 'e7f0ba2c'
+      set:
+        when: 'July, before the conventions'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-07.elections-1960-8
+      base: '369a1883'
+      set:
+        when: 'July, before the Democratic convention'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-07.elections-1960-9
+      base: 'ed512334'
+      set:
+        when: 'July, after Kennedy''s nomination'
+        at: 'after 1960-07-13'
+  - edit:
+      id: cal.1960-07.elections-1960-los-angeles-2
+      base: '4b9a6c09'
+      set:
+        when: 'July, the Democratic convention'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-07.elections-1960-los-angeles-3
+      base: '9f282549'
+      set:
+        when: 'July, the Democratic convention'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-07.elections-1960-los-angeles-4
+      base: '16163e45'
+      set:
+        when: 'July, the Democratic convention'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-07.elections-1960-nixon
+      base: '55de9b09'
+      set:
+        when: 'July, the Republican convention'
+        at: 'before 1960-07-25'
+  - edit:
+      id: cal.1960-07.right-and-the-military
+      base: '7972daa8'
+      set:
+        when: 'July, before the Republican convention'
+        at: 'before 1960-07-25'
+  - edit:
+      id: cal.1960-08.elections-1960-11
+      base: '5338d26c'
+      set:
+        when: 'Aug., early'
+        at: 'before 1960-08-01'
+  - edit:
+      id: cal.1960-08.elections-1960-2
+      base: '1093c733'
+      set:
+        when: 'Aug., early'
+        at: 'before 1960-08-01'
+  - edit:
+      id: cal.1960-08.elections-1960-3
+      base: 'b68fe109'
+      set:
+        when: 'Aug., early'
+        at: 'before 1960-08-01'
+  - edit:
+      id: cal.1960-08.transition-and-staff
+      base: '4e33bdb8'
+      set:
+        when: 'Aug., early'
+        at: 'before 1960-08-01'
+  - edit:
+      id: cal.1960-08.transition-and-staff-3
+      base: '5300b0b8'
+      set:
+        when: 'Aug., late'
+        at: 'before 1960-08-21'
+  - edit:
+      id: cal.1960-09.cuba-2
+      base: 'e7f22344'
+      set:
+        when: 'Sept., the week of the 24th'
+        at: 'before 1960-09-18'
+  - edit:
+      id: cal.1960-09.cuba-3
+      base: 'e85d3e0e'
+      set:
+        when: 'Sept., late'
+        at: 'before 1960-09-21'
+  - edit:
+      id: cal.1960-09.elections-1960
+      base: '03e0278d'
+      set:
+        when: 'Sept., early'
+        at: 'before 1960-09-01'
+  - edit:
+      id: cal.1960-09.elections-1960-2
+      base: '3973284f'
+      set:
+        when: 'Sept., mid'
+        at: 'before 1960-09-11'
+  - edit:
+      id: cal.1960-09.elections-1960-3
+      base: 'ec88285c'
+      set:
+        when: 'Sept., fall'
+        at: 'before 1960-09-22'
+  - edit:
+      id: cal.1960-09.elections-1960-religion-2
+      base: '3f79d67e'
+      set:
+        when: 'Sept., before Houston'
+        at: 'before 1960-09-12'
+  - edit:
+      id: cal.1960-09.soviet-union-un
+      base: 'ec8b583e'
+      set:
+        when: 'Sept., after Mobutu''s coup'
+        at: 'after 1960-09-14'
+  - edit:
+      id: cal.1960-10.elections-1960-2
+      base: '8f01184e'
+      set:
+        when: 'Oct., mid'
+        at: 'before 1960-10-11'
+  - edit:
+      id: cal.1960-10.elections-1960-3
+      base: '10cce70d'
+      set:
+        when: 'Oct., late'
+        at: 'before 1960-10-21'
+  - edit:
+      id: cal.1960-10.elections-1960-4
+      base: '5d91bb04'
+      set:
+        when: 'Oct., after the third debate'
+        at: 'after 1960-10-13'
+  - edit:
+      id: cal.1960-10.goldwater-2
+      base: 'c4618cd6'
+      set:
+        when: 'Oct., before the 15th'
+        at: 'before 1960-10-15'
+  - edit:
+      id: cal.1960-11.cuba-bay-of-pigs
+      base: 'bbd516d7'
+      set:
+        when: 'Nov., mid'
+        at: 'before 1960-11-11'
+  - edit:
+      id: cal.1960-11.cuba-bay-of-pigs-3
+      base: '42025c38'
+      set:
+        when: 'Nov., late'
+        at: 'before 1960-11-21'
+  - edit:
+      id: cal.1960-11.elections-1960
+      base: 'f4f4c7e4'
+      set:
+        when: 'Nov., late'
+        at: 'before 1960-11-21'
+  - edit:
+      id: cal.1960-11.elections-1960-2
+      base: '553365a8'
+      set:
+        when: 'Nov., late'
+        at: 'before 1960-11-21'
+  - edit:
+      id: cal.1960-11.elections-1960-3
+      base: '06e4d289'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.elections-1960-4
+      base: 'fc6cd43c'
+      set:
+        when: 'Nov., before the election'
+        at: 'before 1960-11-08'
+  - edit:
+      id: cal.1960-11.elections-1960-5
+      base: '1fe3909d'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.elections-1960-kennedy-3
+      base: '3613fdac'
+      set:
+        when: 'Nov., after the 2nd'
+        at: 'after 1960-11-02'
+  - edit:
+      id: cal.1960-11.elections-1960-king
+      base: '0beda58c'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.elections-1964
+      base: '39d1a59b'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.goldwater
+      base: '84b7ac65'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.press-and-broadcasting
+      base: '888e8c1a'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.robert-kennedy
+      base: '3e487ccb'
+      set:
+        when: 'Nov., late'
+        at: 'before 1960-11-21'
+  - edit:
+      id: cal.1960-11.south-carolina
+      base: 'a95a92c1'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.transition-and-staff
+      base: 'c174943a'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.transition-and-staff-3
+      base: '58769ffb'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.transition-and-staff-cabinet
+      base: '6a9e9f9a'
+      set:
+        when: 'Nov., late'
+        at: 'before 1960-11-21'
+  - edit:
+      id: cal.1960-11.transition-and-staff-cabinet-4
+      base: '177794a9'
+      set:
+        when: 'Nov., late'
+        at: 'before 1960-11-21'
+  - edit:
+      id: cal.1960-12.china-leadership-17
+      base: '0fb499d9'
+      set:
+        when: 'Dec., before the 28th'
+        at: 'before 1960-12-28'
+  - edit:
+      id: cal.1960-12.elections-1960
+      base: '71dad2a1'
+      set:
+        when: 'Dec., early'
+        at: 'before 1960-12-01'
+  - edit:
+      id: cal.1960-12.rules-2
+      base: '4877acf8'
+      set:
+        when: 'Dec., late'
+        at: 'before 1960-12-21'
+  - edit:
+      id: cal.1960-12.transition-and-staff-nsc
+      base: 'e29332d6'
+      set:
+        when: 'Dec., early'
+        at: 'before 1960-12-01'
+  # Pri 1 rows (a position word in the note).
+  - edit:
+      id: cal.1960-01.governors-il
+      base: 'bd1e67a2'
+      set:
+        when: 'Jan., early'
+        at: 'before 1960-01-01'
+  - edit:
+      id: cal.1960-05.elections-1960-5
+      base: '3b2c53a5'
+      set:
+        when: 'May, early'
+        at: 'before 1960-05-01'
+  - edit:
+      id: cal.1960-05.elections-1960-primaries
+      base: 'b1774591'
+      set:
+        when: 'May, before the West Virginia primary'
+        at: 'before 1960-05-10'
+  - edit:
+      id: cal.1960-07.elections-1960-king
+      base: '53c00306'
+      set:
+        when: 'July, the Democratic convention'
+        at: 'before 1960-07-11'
+  - edit:
+      id: cal.1960-10.antisubversion
+      base: '70030c4e'
+      set:
+        when: 'Oct., mid'
+        at: 'before 1960-10-11'
+  - edit:
+      id: cal.1960-10.cuba-bay-of-pigs
+      base: 'e6b120c0'
+      set:
+        when: 'Oct., late'
+        at: 'before 1960-10-21'
+  - edit:
+      id: cal.1960-10.opinion
+      base: '6d590c7f'
+      set:
+        when: 'Oct., mid'
+        at: 'before 1960-10-11'
+  - edit:
+      id: cal.1960-11.congo-lumumba-3
+      base: '2082916c'
+      set:
+        when: 'Nov., after Mulroney''s arrival'
+        at: 'after 1960-11-03'
+  - edit:
+      id: cal.1960-11.republican-party
+      base: 'c601b607'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1960-11-08'
+  - edit:
+      id: cal.1960-11.transition-and-staff-2
+      base: '733b3066'
+      set:
+        when: 'Nov., after the 10th'
+        at: 'after 1960-11-10'
+  - edit:
+      id: cal.1960-12.china-leadership-16
+      base: '1f4872a4'
+      set:
+        when: 'Dec., before the 28th'
+        at: 'before 1960-12-28'
+  - edit:
+      id: cal.1960-12.transition-and-staff-cabinet-7
+      base: 'd87e9d0b'
+      set:
+        when: 'Dec., before Christmas'
+        at: 'before 1960-12-25'
+  # Pri 2 rows (no position word found by script) and the pri 0 'last week' rows.
+  - edit:
+      id: cal.1960.china-leadership
+      base: '73a333be'
+      set:
+        when: '1960, second half'
+        at: 'before 1960-07-01'
+  - edit:
+      id: cal.1960-06.latin-america-dominican-republic
+      base: 'ecea7fbd'
+      set:
+        when: 'June, late'
+        at: 'before 1960-06-21'
+  - edit:
+      id: cal.1960-10.elections-1960-5
+      base: 'bdbc9338'
+      set:
+        when: 'Oct., the last week'
+        at: 'before 1960-10-25'
+  - edit:
+      id: cal.1960-10.elections-1960-nixon
+      base: '4d867dcd'
+      set:
+        when: 'Oct., the last week'
+        at: 'before 1960-10-25'
+  - edit:
+      id: cal.1960-11.transition-and-staff-cabinet-2
+      base: 'eaf8ca7b'
+      set:
+        when: 'Nov., last week'
+        at: 'before 1960-11-24'
+  - edit:
+      id: cal.1960-12.transition-and-staff-3
+      base: '1134f7d2'
+      set:
+        when: 'Dec., last week'
+        at: 'before 1960-12-25'
+  - edit:
+      id: cal.1960-12.transition-and-staff-7
+      base: 'adde0d30'
+      set:
+        when: 'Dec., Christmas'
+        at: 'before 1960-12-25'
+  - edit:
+      id: cal.1960-12.transition-and-staff-cabinet-6
+      base: '319e05a8'
+      set:
+        when: 'Dec., Christmas'
+        at: 'before 1960-12-25'

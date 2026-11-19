@@ -933,7 +933,18 @@ class Linker:
 
     def names_resolved(self, tokens, tags=()):
         """who_named for each token of a 'Names:' line, a token settled only once the line's other tokens are
-        ('Johnson' beside 'Lady Bird Johnson', both tagged, is the President)."""
+        ('Johnson' beside 'Lady Bird Johnson', both tagged, is the President). Kept for each line and set of tags on
+        the linker, which serves one series (code review C, PERF 8); a new list each call."""
+        try:
+            key = (tuple(tokens), frozenset(tags or ()))
+        except TypeError:
+            return self._names_resolved(tokens, tags)
+        memo = self.__dict__.setdefault("_names_resolved_memo", {})
+        if key not in memo:
+            memo[key] = tuple(self._names_resolved(tokens, tags))
+        return list(memo[key])
+
+    def _names_resolved(self, tokens, tags=()):
         out = [self.who_named(t, tags) for t in tokens]
         for _ in range(2):
             taken = {h[1] for h in out if h}

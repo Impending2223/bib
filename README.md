@@ -13,7 +13,7 @@ The 1968 series: a calendar, a bibliography and a set of reference tables for Am
 | [Indochina](https://impending2223.github.io/bib/indochina.html) | Vietnam, Laos and Cambodia, 1960–68: the calendar's entries placed on one map, a year at a time or all together, with the provinces of late 1966 by corps zone, relief, rivers, climate and rain; the gazetteer of places. |
 | [Indicators](https://impending2223.github.io/bib/indicators.html) | The economic indicators set under each calendar month, 1960–69: what each series measured then and measures today, its sources, and every figure, as first reported and as revised. Each calendar carries the part of this statement that concerns its own months. |
 | [Ebooks and feeds](https://impending2223.github.io/bib/ebooks.html) | The daybook's documents as ebooks (EPUB), a month a book, Jan. 1960–Jan. 1969: every FRUS document of the month in full, the President's Public Papers by title, day by day. The White House recordings the Miller Center gives free as podcast feeds (RSS), a year a feed, each recording dated by the day it was made, in date order; [all the feeds](https://impending2223.github.io/bib/feeds/recordings.opml) (OPML). |
-| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (4,806), with where each is cited. |
+| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (4,809), with where each is cited. |
 | [The reader](https://impending2223.github.io/bib/) | All of it on one page, cross-referenced. |
 
 ### The calendar's pages

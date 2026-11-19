@@ -31,7 +31,8 @@ python -m pytest -q tests/unit        # one group
 - **`property/`**: laws for any input (hypothesis): a three-way merge where both sides agree; an entry's rev
   whatever its key order; the emitter's round trip; an additive op twice equals once. The slow ones read every
   file of `lists/` and `works/`: written by the store's emitter and read back, the same data; and libyaml's
-  fast loader reads each as the store's loader does (a measurement for the speed work; nothing uses it yet).
+  fast loader, which the store uses when PyYAML has it, reads each as the pure-Python loader does, types and all
+  (the guard on the store's loader: run it, `-m slow -k c_loader`, after any change to the loader or PyYAML).
 
 ## When a golden test fails
 

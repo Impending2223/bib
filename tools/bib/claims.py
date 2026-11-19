@@ -63,8 +63,18 @@ def chash(c):
     return hashlib.sha1((c or "").encode("utf-8")).hexdigest()[:8]
 
 
+UNIT_NEXT = re.compile(r"[A-Z0-9\[*\"“'(]")       # what starts a unit after ". " (and after a closing quotation:
+UNIT_NEXT_Q = re.compile(r"[A-Z0-9\[*\"“(]")      # the same less the apostrophe)
+
+
 def units(c):
-    """The units of `c` (STYLE 1), as strings in order."""
+    """The units of `c` (STYLE 1), as strings in order: a new list each call, of a split made once for each `c`
+    (_units; code review C, PERF 8)."""
+    return list(_units(c))
+
+
+@store.memo
+def _units(c):
     from .notemerge import ABBR
     out, cur, depth, inq, i, s = [], "", 0, False, 0, c or ""
     while i < len(s):
@@ -81,10 +91,10 @@ def units(c):
             end = False
             if ch == ";" and nxt[:1] == " ":
                 end = True
-            elif ch in ".?!" and (i + 1 == len(s) or (nxt[:1] == " " and re.match(r"[A-Z0-9\[*\"“'(]", nxt[1:2] or ""))):
+            elif ch in ".?!" and (i + 1 == len(s) or (nxt[:1] == " " and UNIT_NEXT.match(nxt[1:2] or ""))):
                 end = ch != "." or not ABBR.search(cur[:-1])
             elif ch in QUOTES and cur[-2:-1] in (".", "?", "!") and (i + 1 == len(s) or (nxt[:1] == " " and
-                                                                                              re.match(r"[A-Z0-9\[*\"“(]", nxt[1:2] or ""))):
+                                                                                              UNIT_NEXT_Q.match(nxt[1:2] or ""))):
                 end = True
             if end:
                 out.append(cur.strip())
@@ -92,7 +102,7 @@ def units(c):
         i += 1
     if cur.strip():
         out.append(cur.strip())
-    return out
+    return tuple(out)
 
 
 def letters(n):
@@ -140,20 +150,30 @@ def parse_row(row):
     return None
 
 
+OWN_SENTENCE = re.compile(r" (?=(?:To check: |Names: |See \[\[|Check: ))")
+
+
 def note_parts(n):
-    """The note's sentences split into its sources (STYLE 5) and the rest, in order: ([source items], [other])."""
+    """The note's sentences split into its sources (STYLE 5) and the rest, in order: ([source items], [other]); new
+    lists each call, of a split made once for each note (_note_parts; code review C, PERF 8)."""
+    src, other = _note_parts(n)
+    return list(src), list(other)
+
+
+@store.memo
+def _note_parts(n):
     from .notemerge import items, sentences
     src, other = [], []
     chunks = []
     for s in sentences(n or ""):        # a sentence the splitter ran on past an abbreviation ("86th Cong. To check: ...")
-        chunks += [c.strip() for c in re.split(r" (?=(?:To check: |Names: |See \[\[|Check: ))", s) if c.strip()]
+        chunks += [c.strip() for c in OWN_SENTENCE.split(s) if c.strip()]
     for s in chunks:
         if s.startswith(NOT_SOURCE):
             other.append(s)
         else:
             body = s[:-1] if s.endswith(".") else s
             src += items(body)
-    return src, other
+    return tuple(src), tuple(other)
 
 
 CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
