@@ -150,11 +150,12 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Foreign Ministry note to the Soviet embassy: strong protest at the new bloody incident in which Soviet servicemen, with helicopters, tanks, armored cars and several hundred armed men, entered the Tielekti area of Yumin county, Xinjiang, and without cause fired on the Chinese border guards on routine patrol, killing and wounding several on the spot.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 219–220 (Aug. 13, 1969).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 219–220 (Aug. 13, 1969); [[w.macfarquhar-maos-last-revolution]], 313 (a very serious border clash in Xinjiang). To check: [[w.kuisong-mao-zedong-yu-mosikede]], 496–498 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.24).'
     src:
       c: a0ed2043
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 219–220: all'
+        - 'w.macfarquhar-maos-last-revolution 313: A'
     tags: [polity:prc, polity:ussr]
   - id: cal.1969-08-15.china-leadership
     when: Aug. 15
@@ -395,12 +396,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Center and the Military Commission forward the Office Group's report on strengthening civil air defense, setting up a national leading group and provincial ones.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 27, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 310 (Aug. 27–28, 1969). Made public: 2013.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 27, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 310 (Aug. 27–28, 1969); [[w.macfarquhar-maos-last-revolution]], 313–314 (learning of the rumors from Eastern Europe of a Soviet "surgical strike," the Chinese set up a People''s Air Defense Small Group under Zhou Enlai to disperse the cities'' people, move factories, build shelters and stock grain; Shanghai becomes "a huge construction site"). Made public: 2013. To check: [[w.ting-xing-leaf-in-the-bitter]], 146 (cited by [[w.macfarquhar-maos-last-revolution]], 314 n.28a); Craig S. Smith, "Mao''s Buried Past: A Strange Subterranean City," *New York Times*, Nov. 26, 2001 (cited by [[w.macfarquhar-maos-last-revolution]], 314 n.28b).'
     src:
       c: 23b62656
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Aug. 27, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 310: A'
+        - 'w.macfarquhar-maos-last-revolution 313–314: A'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1969-08-28.china-leadership
     when: Aug. 28
@@ -410,6 +412,11 @@ entries:
     c: The national leading group for civil air defense is set up, with Mao's approval, Zhou Enlai its head.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 310 (Aug. 28, 1969). Made public: 2020. See [[cal.1969-08-27.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.macfarquhar-maos-last-revolution
+        reads: The book sets up the People's Air Defense Small Group under Zhou on Aug. 27
+        at: '313'
   - id: cal.1969-08-28.china-leadership-2
     when: Aug. 28
     date: '1969-08-28'
@@ -440,11 +447,24 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Center 中共中央 issues its order (the "Aug. 28" order, Ba''erba mingling 八二八命令) to the revolutionary committees of the border provinces, cities and regions, their peoples and the troops on the border: be ready to destroy invaders and to smash armed provocations by the American imperialists and the Soviet revisionists; unity of army and people; border troops to hold their posts; cross-trade mass organizations dissolved; the July 23 notice carried out, armed fighting stopped; no attacks on the army; communications protected; those away from work to return; counterrevolutionaries suppressed.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 461–463 n.1 (Aug. 28, 1969). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Central Committee, order of Aug. 28, 1969 on further stabilizing the border regions (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 461 n.1b). See [[cal.1969-08-22.china-leadership]]. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 461–463 n.1 (Aug. 28, 1969); [[w.macfarquhar-maos-last-revolution]], 317 (Zhongfa [1969] 55, after the Xinjiang clash of Aug. 13: rival factions and leftist guerrilla bands to stop fighting at once). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Central Committee, order of Aug. 28, 1969 on further stabilizing the border regions (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 461 n.1b); [[w.kuisong-mao-zedong-yu-mosikede]], 504 (cited by [[w.macfarquhar-maos-last-revolution]], 317 n.39). See [[cal.1969-08-22.china-leadership]]. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
     src:
       c: 4591f338
       rows:
         - 'via w.jianguo-yilai-mao-zedong XIX, 461 n.1b: all'
+        - 'w.macfarquhar-maos-last-revolution 317: A, E'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1969-08-28.china-leadership-5
+    when: Aug. 28
+    date: '1969-08-28'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Xinjiang. The military units and the people are put on high alert.
+    n: '[[w.macfarquhar-maos-last-revolution]], 314 ("the following day"). Made public: 1999 ([[w.kuisong-mao-zedong-yu-mosikede]], 498). To check: [[w.kuisong-mao-zedong-yu-mosikede]], 498 (cited by [[w.macfarquhar-maos-last-revolution]], 314 n.29). See [[cal.1969-08-27.china-leadership]]. Check: whether this is under the Center''s order of the same day ([[cal.1969-08-28.china-leadership-4]]).'
+    src:
+      c: a5199326
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 314: all'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1969-08-31.china-leadership
     when: Aug. 31

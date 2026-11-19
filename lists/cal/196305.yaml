@@ -66,6 +66,7 @@ entries:
   - id: cal.1963-05-01.alabama-birmingham
     when: May 1
     date: '1963-05-01'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     c: 'King with Walker, Shuttlesworth, Bevel and others, in private: the minimum age of the jail volunteers drifts down. Bevel''s formula: any child old enough to join a church may march to jail, over the parents'' objections; "Against your Mama, you have a right to make this witness." To Porter and others who object to the high school children, King: something dramatic, the press losing interest.'
@@ -110,6 +111,7 @@ entries:
   - id: cal.1963-05-01.china-leadership-2
     when: May 1
     date: '1963-05-01'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai, with Dong Biwu and Li Fuchun, receives the chairman of the Mozambique National Democratic Union.
@@ -139,6 +141,7 @@ entries:
   - id: cal.1963-05-01.china-leadership-4
     when: May 1
     date: '1963-05-01'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai spends May Day night with the capital's people and the foreign guests.
@@ -165,11 +168,50 @@ entries:
     when: May 1
     date: '1963-05-01'
     time: 1963-05-01T04:00Z
+    place:
+      - kunming
+      - phnom-penh
     thread: china-leadership
     also: [china]
     c: At noon Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to Cambodia; Sihanouk welcomes them at Phnom Penh. In the afternoon Liu calls on the King at the royal palace, sees the permanent exhibition on the achievements of the Sangkum Reastr Niyum, and tours Phnom Penh.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575–576 (May 1, 1963). Names: Liu Shaoqi, Chen Yi, Sihanouk.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575–576 (May 1, 1963); [[w.yang-shangkun-riji]], II, 275 (May 1, 1963; Liu Shaoqi''s party reaches Phnom Penh at noon, safely). Names: Liu Shaoqi, Chen Yi, Sihanouk.'
+    src:
+      c: e2ed8d7b
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 575–576: ?'
+        - 'w.yang-shangkun-riji II, 275: B'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:chen-yi, name:norodom-sihanouk]
+    variants:
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: 'Yang Shangkun''s diary: Liu Shaoqi''s party reached Phnom Penh at midday (已于今日午间到达金边), not left Kunming at noon'
+        at: II, 275, May 1, 1963
+  - id: cal.1963-05-01.china-leadership-7
+    when: May 1
+    date: '1963-05-01'
+    time: 1963-05-01T01:00Z
+    thread: china-leadership
+    c: Peking 北京, May Day, from 9 a.m. Yang Shangkun 杨尚昆 with Deng Xiaoping 邓小平, Li Fuchun 李富春, Kang Sheng 康生 and others at Jingshan 景山, the Working People's Cultural Palace 劳动人民文化宫 and the stadium, a football match; at noon lunch at Yangfengjiadao 养蜂夹道, Zhou Enlai 周恩来 joining them.
+    n: '[[w.yang-shangkun-riji]], II, 274 (May 1, 1963). Names: Yang Shangkun, Deng Xiaoping, Li Fuchun, Kang Sheng, Zhou Enlai.'
+    src:
+      c: e89d37e9
+      rows:
+        - 'w.yang-shangkun-riji II, 274: all'
+    tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:kang-sheng, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-01.china-leadership-8
+    when: May 1
+    date: '1963-05-01'
+    time: 1963-05-01T12:00Z
+    thread: china-leadership
+    c: Peking 北京, Tiananmen 天安门, 8 to 10 p.m. Yang Shangkun 杨尚昆 and his family on the gate for the May Day fireworks.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 1, 1963). The words: 晚间8时到10时，率全家去天安门上看焰火 (II, 275). Names: Yang Shangkun.'
+    src:
+      c: fb73969d
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-02.alabama
     when: May 2
     date: '1963-05-02'
@@ -196,6 +238,7 @@ entries:
   - id: cal.1963-05-02.right-and-the-military
     when: May 2
     date: '1963-05-02'
+    place: washington
     thread: right-and-the-military
     also: [republican-party-congress]
     c: 'Senate. Kuchel (R), "The Fright Peddlers": of the thousands of letters a day to his office, a hundred or two hundred "fright mail"; Chinese Communist troops said to be poised on the Mexican border; Georgia''s Exercise Water Moccasin a prelude, the letters say, to United Nations rule.'
@@ -229,6 +272,7 @@ entries:
   - id: cal.1963-05-02.goldwater
     when: May 2
     date: '1963-05-02'
+    place: washington
     thread: goldwater
     also: [republican-party]
     c: Romney calls on Goldwater in his office, at Romney's asking; reporters waiting. Nothing of moment said, by White's account.
@@ -264,6 +308,7 @@ entries:
   - id: cal.1963-05-02.alabama-birmingham
     when: May 2
     date: '1963-05-02'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     follows:
@@ -285,6 +330,7 @@ entries:
   - id: cal.1963-05-02.press-and-broadcasting
     when: May 2
     date: '1963-05-02'
+    place: nyc
     thread: press-and-broadcasting
     also: [elections-1964]
     c: 'The *New York Times*, front page, Tom Wicker from Washington: by "informed Republican sources," Romney "cooperating with the plans of some close associates of former President Eisenhower and Richard M. Nixon," Hall and Folger among them; Eisenhower "has privately expressed great interest in Gov. Romney''s candidacy."'
@@ -304,6 +350,7 @@ entries:
   - id: cal.1963-05-02.defense
     when: May 2
     date: '1963-05-02'
+    place: washington
     thread: defense
     also: [robert-kennedy]
     c: 'The White House, a reception for the recipients of the Medal of Honor, 240 of the 290 living. The President: "In honoring you, we honor all those who bear arms in the service of their country." Robert Kennedy''s idea; he stands at the edge of the crowd, by O''Donnell''s account.'
@@ -336,6 +383,7 @@ entries:
   - id: cal.1963-05-02.china-leadership-2
     when: May 2
     date: '1963-05-02'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the signing of the China–Guinea trade protocol and other documents.
@@ -353,6 +401,7 @@ entries:
   - id: cal.1963-05-02.china-leadership-3
     when: May 2
     date: '1963-05-02'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the cocktail party given by the Guinean Ambassador, Camara Mamadi.
@@ -370,6 +419,9 @@ entries:
   - id: cal.1963-05-02.china-leadership-5
     when: May 2
     date: '1963-05-02'
+    place:
+      - peking
+      - hangzhou
     thread: china-leadership
     also: [soviet-union]
     c: Peking to Hangzhou. Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng, with Wu Lengxi, Yao Zhen and Fan Ruoyu, leave in the morning for the enlarged Standing Committee Mao has called at Hangzhou. The weather puts them down at Nanjing for a short stay. At Hangzhou, where the day's heat is 34 degrees, they lodge at the new Xiling Hotel with the regional bureaus' secretaries and Tan Zhenlin, Li Fuchun, Bo Yibo and Liao Luyan; Chen Boda, there before them, is in a villa by the West Lake.
@@ -384,9 +436,15 @@ entries:
       - 1963-05-02T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.yang-shangkun-riji
+        reads: 'Yang Shangkun''s diary: at 9 a.m. he sees Deng, Kang Sheng and Wu Xiuquan off at the airport to Pyongyang (送邓、康、伍飞平壤), and meets them at the airport on May 4'
+        at: II, 275, May 2, 1963
   - id: cal.1963-05-02.china-leadership-6
     when: May 2
     date: '1963-05-02'
+    place: hangzhou
     thread: china-leadership
     also: [soviet-union]
     follows:
@@ -436,6 +494,36 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 535 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 535 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-05-02.china-leadership-9
+    when: May 2
+    date: '1963-05-02'
+    time: 1963-05-02T01:00Z
+    thread: china-leadership
+    also: [korea-leadership]
+    c: Peking 北京, the airport, 9 a.m. Yang Shangkun 杨尚昆 sees Deng Xiaoping 邓小平, Kang Sheng 康生 and Wu Xiuquan 伍修权 off to Pyongyang 平壤.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 2, 1963). The words: 上午9时去机场，送邓、康、伍飞平壤 (II, 275). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Wu Xiuquan. Check: Wu Lengxi has Deng and Kang Sheng fly that morning to Hangzhou ([[cal.1963-05-02.china-leadership-5]]).'
+    src:
+      c: 7994aa07
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-02.china-leadership-10
+    when: May 2
+    date: '1963-05-02'
+    thread: china-leadership
+    c: Peng Zhen 彭真 telephones Yang Shangkun 杨尚昆 in Peking 北京 to have Li Xuefeng 李雪峰, Liu Lantao 刘澜涛 and Song Renqiong 宋任穷 go to Hangzhou 杭州.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 2, 1963). The words: 彭真电话约雪峰、澜涛、任穷去杭 (II, 275). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun, Li Xuefeng, Liu Lantao, Song Renqiong.'
+    src:
+      c: 21082f80
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1963-05-02T11:00Z
+      - 1963-05-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-03.alabama-birmingham
     when: May 3
     date: '1963-05-03'
@@ -467,6 +555,7 @@ entries:
   - id: cal.1963-05-03.elections-1964
     when: May 3
     date: '1963-05-03'
+    place: detroit
     thread: elections-1964
     c: 'The *Detroit News*, Michigan''s largest paper and Romney''s backer for governor, in an editorial the day after his visit to Washington: "Come home, George, and let''s get on with the chores." Romney back to Michigan; out of national politics, by White''s account, for more than a year.'
     n: '[[w.white-suite-3505]], 147–48; [[w.novak-agony-of-the-g]], 162–63 ("George—Come Home"; Hayden, its editor, believed its author or inspirer; little heard of Romney outside Michigan after May 9). To check: *Detroit News*, May 3, 1963 (named by [[w.white-suite-3505]], 147). See [[cal.1963-05-02.republican-party]]. Names: Romney. Check: the day ("the day after" May 2, 147).'
@@ -499,6 +588,9 @@ entries:
     when: May 3
     date: '1963-05-03'
     time: 1963-05-03T19:57Z
+    place:
+      - birmingham
+      - nyc
     thread: king
     also: [alabama-birmingham]
     c: 'King, from Birmingham, calls Clarence Jones in New York. At 3:57 p.m., by the FBI''s wiretap log, Jones asks Levison to draft telegrams to the President and Robert Kennedy "within the hour." Levison''s draft, which King cannot use: "Will you permit this recrudescence of violence in Birmingham to threaten our lives and deny us our rights?"'
@@ -553,6 +645,7 @@ entries:
   - id: cal.1963-05-03.alabama-birmingham-4
     when: May 3
     date: '1963-05-03'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     follows:
@@ -576,6 +669,7 @@ entries:
   - id: cal.1963-05-03.alabama-birmingham-5
     when: May 3
     date: '1963-05-03'
+    place: birmingham
     thread: alabama-birmingham
     follows:
       - cal.1963-05-03.alabama-birmingham-4
@@ -596,6 +690,7 @@ entries:
   - id: cal.1963-05-03.elections-1964-2
     when: May 3
     date: '1963-05-03'
+    place: nyc
     thread: elections-1964
     c: New York, Friday morning. Javits and Rockefeller at breakfast, a wide-ranging talk on politics; no hint of the next day's wedding.
     n: '[[w.novak-agony-of-the-g]], 141. See [[cal.1963-05-04.elections-1964]]. Names: Javits, Rockefeller.'
@@ -645,6 +740,7 @@ entries:
     when: May 3
     date: '1963-05-03'
     time: 1963-05-03T08:30Z
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking, Xihuating. Zhou Enlai receives the Ceylonese Ambassador, Perera, and tells him in detail of the talks with Ali Sabri.
@@ -675,6 +771,35 @@ entries:
     c: Liu Shaoqi visits Kompong Cham, tours the China-built Cambodia-China Friendship Textile Mill and watches traditional boat races on the Mekong; in the afternoon he is back in Phnom Penh and at Sihanouk's state banquet speaks.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 3, 1963). Names: Liu Shaoqi, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+  - id: cal.1963-05-03.china-leadership-5
+    when: May 3
+    date: '1963-05-03'
+    time: 1963-05-03T12:00Z
+    thread: china-leadership
+    c: Peking 北京, 8 p.m. Song Renqiong 宋任穷 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 3, 1963). The words: 晚间8时宋任穷同志来谈话，办公到2时 (II, 275). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Song Renqiong, Yang Shangkun.'
+    src:
+      c: 1498199e
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-03.china-leadership-6
+    when: May 3
+    date: '1963-05-03'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, Peking 北京, on the telephone with Zhou Enlai 周恩来 about streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 3, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: a969c6c7
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1963-05-03T14:00Z
+      - 1963-05-03T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-04.elections-1964
     when: May 4
     date: '1963-05-04'
@@ -696,6 +821,7 @@ entries:
   - id: cal.1963-05-04.alabama-birmingham
     when: May 4
     date: '1963-05-04'
+    place: washington
     thread: alabama-birmingham
     c: 'Kennedy, to a delegation at the White House: the pictures from Birmingham make him "sick"; he has no power to intervene, but Burke Marshall and Joseph Dolan are on their way to mediate. In Birmingham Marshall meets Smyer, David Vann, Erskine Smith and the merchants: a larger group to see him Sunday.'
     n: '[[w.garrow-bearing-the-cross]], 250; [[w.branch-parting-the-waters]], 764 (the President''s words; Marshall and Dolan sent); [[w.zelizer-fierce-urgency-of-now]], 45 (to members of the ADA); [[w.kotz-judgment-days]], 59 ("sickened"); [[w.schlesinger-robert-kennedy-and-his]], 329 (after the photographs of May 4, the Attorney General sends Burke Marshall and Joseph Dolan to Birmingham); [[w.schlesinger-journals]], 189 (Saturday, May 4: a group of ADA local leaders, brought in by O''Donnell, see the President for 45 minutes; the photograph in that morning''s Times of a police dog lunging at a Negro made him "sick" but there was "nothing he could constitutionally do"; he questioned the demonstration''s timing: "I am not asking for patience"; the page does not give Marshall or Dolan); [[w.purdum-idea-whose-time-has-2014]], 30–31 (the half-hour meeting that afternoon with Americans for Democratic Action, taped; the Times photograph of the police dog; Marshall sent to Alabama later that day; not the delegation as such, nor the words quoted). [[w.reeves-president-kennedy]], 488 ("It makes me sick"; Marshall sent). Check: Branch, 764: the delegation "a morning audience of ADA liberals at the White House" ([[w.schlesinger-thousand-days-1965]], 875, cited by Branch, 764 n.4); the *New York Times* of May 4, page 1, three photographs two columns wide, the Gadsden photograph on top, the freedom walkers dragged to jail at Fort Payne, Ala., at the bottom (764 n.3). To check: [*New York Times*, May 5, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/05/issue.html), at 1; Burke Marshall, telephone logs, May 1963, Kennedy Library (cited by [[w.garrow-bearing-the-cross]], 250 n.22); "Outline of Negotiations," n.d., David Vann Papers, Birmingham Public Library Archives; Kennedy White House Tape #88-6, May 21, 1963 (Robert Kennedy''s account), Kennedy Library; *Birmingham News*, May 5, 1963, at 8; [*New York Times*, May 5, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/05/issue.html), at 1; *Washington Post*, May 5, 1963, at 1 (cited by [[w.garrow-bearing-the-cross]], 250 n.23). See [[cal.1963-04-03.alabama]]. Names: Kennedy, Marshall, Dolan.'
@@ -741,6 +867,7 @@ entries:
   - id: cal.1963-05-04.king
     when: May 4
     date: '1963-05-04'
+    place: nyc
     thread: king
     also: [press-and-broadcasting]
     c: 'New York, overheard by the FBI. Levison with O''Dell, Saturday afternoon: a fund-raising advertisement in the papers, the first since 1960. O''Dell: the mass mailings show a shift in public opinion, returns many times the expected, a woman in Queens $3,000, money from Canada.'
@@ -789,6 +916,7 @@ entries:
   - id: cal.1963-05-04.china-leadership-2
     when: May 4
     date: '1963-05-04'
+    place: peking
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Peking. Zhou Enlai receives the delegations of the Algerian General Union of Workers and its women's delegation.
@@ -807,6 +935,7 @@ entries:
     when: May 4
     date: '1963-05-04'
     time: 1963-05-04T07:30Z
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking, Xihuating. Zhou Enlai receives the Mali government's cultural delegation headed by the High Commissioner for Youth and Sports.
@@ -825,9 +954,43 @@ entries:
     c: Liu Shaoqi talks with Sihanouk at Kirirom, a resort 100 kilometers southwest of Phnom Penh.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 4, 1963). Names: Liu Shaoqi, Sihanouk. Check: the book prints 基里隆.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+  - id: cal.1963-05-04.china-leadership-5
+    when: May 4
+    date: '1963-05-04'
+    thread: china-leadership
+    also: [korea-leadership]
+    c: Peking 北京, the airport. Yang Shangkun 杨尚昆 meets Deng Xiaoping 邓小平, Kang Sheng 康生, Wu Xiuquan 伍修权 and others on their return.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 4, 1963). See [[cal.1963-05-02.china-leadership-9]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng, Wu Xiuquan. Check: Wu Lengxi has Deng at Hangzhou May 3–5 ([[cal.1963-05-03.china-leadership-4]]).'
+    src:
+      c: 95ba758f
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_range:
+      - 1963-05-03T22:00Z
+      - 1963-05-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-04.china-leadership-6
+    when: May 4
+    date: '1963-05-04'
+    thread: china-leadership
+    c: Peking 北京. Zhou Enlai 周恩来 talks with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 275 (May 4, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun.'
+    src:
+      c: 05e55b63
+      rows:
+        - 'w.yang-shangkun-riji II, 275: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1963-05-04T04:00Z
+      - 1963-05-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-05.alabama-birmingham
     when: May 5
     date: '1963-05-05'
+    place: birmingham
     thread: alabama-birmingham
     c: 'Sunday, the truce day, King in Atlanta. New Pilgrim Church, the afternoon mass meeting, two thousand; police arrest Guy and Candie Carawan on the steps. Bevel: "We''re tired of this mess! ... Let''s not march. Let''s just walk." Billups leads the congregation five blocks toward the city jail; at the barricade, Connor in the hoses, they kneel. Billups: "Turn on your water! Turn loose your dogs! We will stand here ''til we die!" The firemen do not turn on the hoses. Walker to two captains: a prayer in the Negro park across the street; granted.'
     n: '[[w.branch-parting-the-waters]], 765–68. To check: Birmingham police notes on mass meeting, May 5, 1963, Bull Connor Papers (cited by [[w.branch-parting-the-waters]], 766 nn.1-2); [*New York Times*, May 6, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/06/issue.html), at 1; [[w.king-why-we-cant-wait]], 101; *Birmingham World*, May 8, 1963, at 1; [[w.morris-origins-of-the-civil]], 267–69; [[w.forman-making-of-black-revolutionaries]], 312; Wyatt Walker, speech, May 25, 1963, Pacifica Radio Archive, tape 0388 (cited by [[w.branch-parting-the-waters]], 767 n.2). Check: Connor''s words, "Dammit! Turn on the hoses," some heard (767). See [[cal.1963-05-04.alabama-birmingham-2]]. Names: Connor.'
@@ -852,6 +1015,7 @@ entries:
   - id: cal.1963-05-05.civil-rights-the-executive
     when: May 5
     date: '1963-05-05'
+    place: birmingham
     thread: civil-rights-the-executive
     also: [alabama-birmingham]
     c: 'Sunday night, downtown. Burke Marshall''s scouting groups: Smyer, Vann and several white merchants with Negroes led by Shores and Gaston. The Negroes hold to King''s four points as the price of ending the demonstrations; the whites reject all four. Marshall: keep talking; King "did not know what he wanted."'
@@ -906,6 +1070,7 @@ entries:
     when: May 5
     date: '1963-05-05'
     time: 1963-05-05T09:30Z
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking, Xihuating. Zhou Enlai receives the Vietnamese medical delegation headed by Phạm Ngọc Thạch, Minister of Health.
@@ -949,6 +1114,22 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 576: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 282: all'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+  - id: cal.1963-05-05.china-leadership-6
+    when: May 5
+    date: '1963-05-05'
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 5, 1963). The words: 晚间看了电影后，处理文电后孔原同志来谈话 (II, 276). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: e8b68451
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-05T14:00Z
+      - 1963-05-05T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-06.testing
     when: May 6
     date: '1963-05-06'
@@ -965,6 +1146,7 @@ entries:
   - id: cal.1963-05-06.vietnam-force-levels
     when: May 6
     date: '1963-05-06'
+    place: honolulu
     thread: vietnam-force-levels
     also: [vietnam]
     c: 'Honolulu. McNamara''s eighth conference on Vietnam, with Harkins, Felt and the embassy. Harkins: "we are winning the war," though the struggle protracted. McNamara: military assistance for fiscal 1964 cut; the phase-out of Americans "too slow"; a plan for the Vietnamese to take over functions so that "1,000 or so" can come out late this year "if the situation allows." Harkins against a departure "with bands playing, flags flying."'
@@ -993,6 +1175,7 @@ entries:
   - id: cal.1963-05-06.civil-rights-bill
     when: May 6
     date: '1963-05-06'
+    place: washington
     thread: civil-rights-bill
     also: [alabama-birmingham, republican-party-congress]
     c: 'Cooper to the Senate on Birmingham: "the sad point is that the administration must seek a truce, and cannot fully enforce the substantive rights for which Negro citizens are marching and demonstrating, because the administration has failed to seek legislative action."'
@@ -1012,6 +1195,7 @@ entries:
   - id: cal.1963-05-06.alabama-birmingham
     when: May 6
     date: '1963-05-06'
+    place: birmingham
     thread: alabama-birmingham
     also: [civil-rights-the-executive, king]
     c: 'John Drew''s house, Monday morning. Burke Marshall, two and a half hours, to King: the afternoon''s demonstrations will hinder the negotiations; the merchants fear prosecution under the segregation ordinances until the courts choose between Boutwell and Connor. King: the merchants can prevail on any city government; he will not stop on the promise of later talks. To reporters at noon, the meeting instructive, fruitless.'
@@ -1031,6 +1215,7 @@ entries:
   - id: cal.1963-05-06.alabama-birmingham-2
     when: May 6
     date: '1963-05-06'
+    place: birmingham
     thread: alabama-birmingham
     follows:
       - cal.1963-05-06.alabama-birmingham
@@ -1067,6 +1252,7 @@ entries:
   - id: cal.1963-05-06.alabama-birmingham-3
     when: May 6
     date: '1963-05-06'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     c: 'The night''s mass meeting overflows St. James Baptist into three more churches, five to ten thousand; a record $40,000 offering. Forman makes King see the children penned at the fairgrounds in the rain; King asks the police to shelter them and calls Burke Marshall on the "political prisoners." Abernathy: "on the threshold of freedom"; "if Bobby doesn''t do anything about it, I''m gonna call Jack." King: "you are certainly making history ... Never in the history of this nation have so many people been arrested for the cause of freedom"; some twenty-five hundred in jail.'
@@ -1087,6 +1273,7 @@ entries:
   - id: cal.1963-05-06.alabama-birmingham-4
     when: May 6
     date: '1963-05-06'
+    place: birmingham
     thread: alabama-birmingham
     also: [civil-rights-the-executive]
     c: Evening. Shuttlesworth at a second negotiating session with the whites, Smyer and Vann leading, Burke Marshall in the background; modest progress. Through the night at the Gaston Motel King's strategists, the business district a ghost town, white shoppers gone too, resolve to flood it with Negroes rather than march to jail.
@@ -1134,7 +1321,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at the Secretariat on the reply to the CPSU Central Committee and the talks between the two parties.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 6, 1963). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 6, 1963); [[w.yang-shangkun-riji]], II, 276 (May 6, 1963; the Secretariat, morning, on the draft reply to the CPSU; Yang there). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: ca482d5e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 552: ?'
+        - 'w.yang-shangkun-riji II, 276: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-05-06.china-leadership-2
     when: May 6
@@ -1142,7 +1334,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi returns to Kunming.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 6, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 6, 1963); [[w.yang-shangkun-riji]], II, 276 (May 6, 1963; Liu Shaoqi''s party safely back at Kunming). Names: Liu Shaoqi.'
+    src:
+      c: 42cca581
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 576: ?'
+        - 'w.yang-shangkun-riji II, 276: A'
     tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1963-05-06.china-leadership-3
     when: May 6
@@ -1156,9 +1353,26 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 384: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 384 n.28: all'
     tags: [polity:prc, name:jiang-qing, name:ke-qingshi]
+  - id: cal.1963-05-06.china-leadership-4
+    when: May 6
+    date: '1963-05-06'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Xi Zhanyuan 郗占元 on streamlining in the provinces.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 6, 1963). The words: 下午找郗占元同志谈各省精简工作的情况 (II, 276). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Xi Zhanyuan.'
+    src:
+      c: cd4bc95d
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-06T04:00Z
+      - 1963-05-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-07.mayors-baltimore
     when: May 7
     date: '1963-05-07'
+    place: baltimore
     thread: mayors
     also: [elections-1963]
     c: Baltimore. McKeldin (R) elected mayor over Goodman (D), 108,427 to 103,761, 51.1 percent.
@@ -1194,6 +1408,7 @@ entries:
   - id: cal.1963-05-07.civil-rights-the-executive
     when: May 7
     date: '1963-05-07'
+    place: birmingham
     thread: civil-rights-the-executive
     also: [alabama-birmingham]
     c: 'Birmingham. The Senior Citizens Committee, some eighty, called by Smyer: Sheriff Bailey, the police at the breaking point; Marshall, for a negotiated peace. They authorize the merchants'' negotiators, two or three dissenting. That night Smyer, Vann and two merchants with Pitts, Shores and Andrew Young, Marshall present: the stores desegregated, jobs upgraded, a biracial committee; the release of the jailed unsettled.'
@@ -1228,6 +1443,7 @@ entries:
     when: May 7
     date: '1963-05-07'
     time: 1963-05-07T20:32Z
+    place: washington
     thread: vietnam-force-levels
     c: 'The Oval Office, 4:32 p.m., recorded. McNamara to Kennedy on Honolulu: "for domestic political purposes" and for the effect in South Vietnam, a thousand men home by the end of the year; the plan asked for, no decision yet. Kennedy: not if the war is not in good shape. McNamara: two or three victories would make it "just exactly the shot in the arm we ought to have." McNamara: $75 to $100 million out of the military assistance programs for 1965–67, "so we don''t build up another Korea."'
     n: '[John F. Kennedy and Robert S. McNamara, 4:32 p.m.](https://prde.upress.virginia.edu/conversations/4006537), JFK Meeting Tape 85.4 (PRDE only). [[w.selverstone-kennedy-withdrawal]], 124–25, 131 (the exchange, from the Miller Center''s draft transcript). Check: the recording not heard; the words Selverstone''s transcript''s. See [[cal.1963-05-06.vietnam-force-levels]]. Names: McNamara, Kennedy.'
@@ -1245,6 +1461,7 @@ entries:
     when: May 7
     date: '1963-05-07'
     time: 1963-05-07T16:00Z
+    place: birmingham
     thread: king
     also: [alabama-birmingham]
     c: 'Gaston Motel, 10 a.m. King''s news conference: the past days "mark the nonviolent movement''s coming of age. This is the first time in the history of our struggle that we have been able literally to fill the jails."'
@@ -1259,6 +1476,7 @@ entries:
   - id: cal.1963-05-07.press-and-broadcasting
     when: May 7
     date: '1963-05-07'
+    place: birmingham
     thread: press-and-broadcasting
     also: [alabama-birmingham, civil-rights-the-executive]
     c: 'Clarence B. Hanson, publisher of the *Birmingham News*, back from the Chamber of Commerce, telegraphs the President and splashes it across the final edition, the first front-page mention of King in five weeks: "Mr. President, if these were white marches ... we believe your Administration would have taken vigorous action to discourage them"; "If there is to be order, and respect for law ... you, sir, must be the one to bring it." Inside: "Negro Mobs Break Through Police: Swarm Over Downtown Area."'
@@ -1299,6 +1517,7 @@ entries:
   - id: cal.1963-05-07.alabama-birmingham-2
     when: May 7
     date: '1963-05-07'
+    place: birmingham
     thread: alabama-birmingham
     also: [king, civil-rights-the-executive]
     c: 'The night''s mass meeting, three churches. Bevel: "We intend to have the fire department pumping water tomorrow. Wear your swimsuit if you want to." King: "We are not going to stop this movement until we have moved segregation from this city"; Wallace''s troopers coming in; "The hour has come for the Federal Government to take a forthright stand on segregation ... I am not criticizing the President, but we are going to have to help him"; "We need to call on the President to sign a paper saying that segregation is unconstitutional."'
@@ -1319,6 +1538,7 @@ entries:
     when: May 7
     date: '1963-05-07'
     time: 1963-05-08T00:00Z
+    place: washington
     thread: civil-rights-the-executive
     also: [alabama-birmingham, robert-kennedy]
     follows:
@@ -1401,6 +1621,54 @@ entries:
         witness: w.shaoqi-liu-shaoqi-nianpu-chronology
         reads: the small meeting at Hangzhou, May 2–12, with some Politburo members and the regional bureau secretaries, drew up the draft decision on current problems in rural work
         at: '578'
+  - id: cal.1963-05-07.china-leadership-2
+    when: May 7
+    date: '1963-05-07'
+    thread: china-leadership
+    c: Peking 北京. Liu Huo 刘火 and Li Jian 李鉴 of the Party committee of the organs directly under the Center 中直党委 report to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 7, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Huo, Li Jian, Yang Shangkun.'
+    src:
+      c: 0bc68f35
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-06T22:00Z
+      - 1963-05-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-07.china-leadership-3
+    when: May 7
+    date: '1963-05-07'
+    thread: china-leadership
+    c: Peking 北京. An Ziwen 安子文 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 7, 1963). The words: 下午处理文电，安子文同志来谈话 (II, 276). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: An Ziwen, Yang Shangkun.'
+    src:
+      c: 8a11274b
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-07T04:00Z
+      - 1963-05-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-07.china-leadership-4
+    when: May 7
+    date: '1963-05-07'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Tong Xiaopeng 童小鹏 on streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 7, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tong Xiaopeng.'
+    src:
+      c: 34d47cb4
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-07T11:00Z
+      - 1963-05-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-08.vietnam
     when: May 8
     date: '1963-05-08'
@@ -1485,6 +1753,7 @@ entries:
   - id: cal.1963-05-08.goldwater
     when: May 8
     date: '1963-05-08'
+    place: washington
     thread: goldwater
     also: [elections-1964]
     c: 'Washington, the Mayflower, the night before the Goldwater dinner. White''s first group, O''Donnell presiding for the first time: State chairmen for the Draft Committee to be named quickly. Middendorf, the treasurer, asks for a national finance chairman. By White''s account.'
@@ -1502,6 +1771,7 @@ entries:
   - id: cal.1963-05-08.civil-rights-bill
     when: May 8
     date: '1963-05-08'
+    place: washington
     thread: civil-rights-bill
     c: 'House Judiciary opens hearings on eighty-nine civil rights bills. Celler: "Police clubs and bludgeons, firehoses and dogs have been used on defenseless schoolchildren." McCulloch: "Turmoil is a sign of birth, as well as decay."'
     n: '[[w.sundquist-politics-and-policy]], 259; [[w.whalen-longest-debate]], 34, 228 (Celler''s announcement at the full committee, May 7; McCulloch''s words, the hearing of May 8). Check: Whalen, 34, has Celler announce, five days after May 1, that the hearings start "the next morning": May 7, not May 8. To check: *Civil Rights*, Hearings before the House Judiciary Committee, 88th Congress, 1st session (1963), 907 (cited by [[w.sundquist-politics-and-policy]], 259 n.120). See [[cal.1963-05-06.civil-rights-bill]]. Names: Celler, McCulloch.'
@@ -1521,6 +1791,7 @@ entries:
   - id: cal.1963-05-08.alabama-birmingham
     when: May 8
     date: '1963-05-08'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     c: 'Morning. Shuttlesworth, out of the hospital in its tags, against King''s one-day moratorium: "While the water is hot, scald him on both sides"; at the Drews'' house, before Burke Marshall, he threatens to lead the children back into the streets; "You''re Mister Big, but you''re going to be Mister S-H-I-T!" King: "We''ve got to have unity, Burke." After a talk alone with King, Shuttlesworth announces the truce: "We do believe that honest efforts to negotiate in good faith are under way." 178 reporters in town, by Walker''s count.'
@@ -1560,6 +1831,7 @@ entries:
   - id: cal.1963-05-08.alabama-birmingham-3
     when: May 8
     date: '1963-05-08'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     c: 'King and Abernathy, at a hearing on their parade convictions of Good Friday: a local judge sets their appeal bonds at the new maximum, $2,500 each; unwilling and unable to pay, they are taken to jail. A. D. King to the press: the truce is void; huge demonstrations by day''s end. Robert Kennedy, by telephone, turns Shuttlesworth from leading Bevel''s reserves downtown.'
@@ -1604,6 +1876,7 @@ entries:
   - id: cal.1963-05-08.alabama-birmingham-4
     when: May 8
     date: '1963-05-08'
+    place: birmingham
     thread: alabama-birmingham
     c: 'The night''s mass meeting, Sixth Avenue Baptist, Bevel alone speaking. Nineteen rabbis, sent from a rabbinical conference, march to the rostrum. A New Jersey rabbi: "We came to applaud your courage and dignity in your struggle for everyone." Rabbi Alex Shapiro: "Our people are your people." Officer Allison to Connor: "they really gave us the treatment."'
     n: '[[w.branch-parting-the-waters]], 785. To check: Birmingham police notes on mass meeting, May 8, 1963, Bull Connor Papers (cited by [[w.branch-parting-the-waters]], 785 nn.2-3). See [[cal.1963-05-08.alabama-birmingham]]. Names: Connor.'
@@ -1622,6 +1895,7 @@ entries:
   - id: cal.1963-05-08.alabama-birmingham-5
     when: May 8
     date: '1963-05-08'
+    place: birmingham
     thread: alabama-birmingham
     also: [king, robert-kennedy]
     follows:
@@ -1692,7 +1966,12 @@ entries:
     date: '1963-05-08'
     thread: china-leadership
     c: Zhou Enlai tours the switchboard of the Zhongnanhai telecommunications office.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 8, 1963). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 8, 1963); [[w.yang-shangkun-riji]], II, 276 (May 8, 1963; 3 p.m., at Huairen Tang, a photograph with Zhou at its center of the staff of the 39th Bureau 39局 (the Zhongnanhai telephone bureau), the confidential bureau and offices; then the visit to the 39th Bureau; Yang there). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: bb2f77b9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 552: ?'
+        - 'w.yang-shangkun-riji II, 276: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-05-08.china-leadership-3
     when: May 8
@@ -1743,6 +2022,40 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 534–537: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-05-08.china-leadership-7
+    when: May 8
+    date: '1963-05-08'
+    thread: china-leadership
+    follows:
+      - cal.1963-05-08.china-leadership-2
+    c: Peking 北京. Xiao Guang 肖光 and Chen Cong'ying 陈琮英 ("Yuying" 玉英) of the General Office's confidential offices with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 8, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xiao Guang, Chen Cong''ying, Yang Shangkun.'
+    src:
+      c: 8427efc4
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-08T04:00Z
+      - 1963-05-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-08.china-leadership-8
+    when: May 8
+    date: '1963-05-08'
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆, to 3 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 8, 1963). The words: 晚间在小礼堂参加联欢会后，田家英来谈，3时才睡 (II, 276). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 26d8be23
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-08T14:00Z
+      - 1963-05-08T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-09.mississippi
     when: May 9
     date: '1963-05-09'
@@ -1787,6 +2100,7 @@ entries:
   - id: cal.1963-05-09.goldwater
     when: May 9
     date: '1963-05-09'
+    place: washington
     thread: goldwater
     also: [republican-party]
     follows:
@@ -1810,6 +2124,7 @@ entries:
   - id: cal.1963-05-09.goldwater-2
     when: May 9
     date: '1963-05-09'
+    place: washington
     thread: goldwater
     also: [elections-1964]
     c: 'Washington, the Sheraton-Park, before the Goldwater dinner. O''Donnell, White, Middendorf, Coleman and Milbank ask George Humphrey, Douglas Stewart of Quaker Oats and Charles White of Republic Steel for money for the Draft Committee. Humphrey: too early; large sums not needed before the new year. By White''s account.'
@@ -1866,6 +2181,7 @@ entries:
   - id: cal.1963-05-09.king
     when: May 9
     date: '1963-05-09'
+    place: birmingham
     thread: king
     also: [alabama-birmingham, civil-rights-the-executive]
     c: 'King''s press conference, the truce extended a day; for the first time in Birmingham he contradicts the Administration: "The President said that there were no federal statutes involved in most aspects of this struggle, but I feel that there have been blatant violations of basic constitutional principles. ... some persons who have been arrested were arrested for going down to register to vote, and the federal government has done nothing about that."'
@@ -1885,6 +2201,7 @@ entries:
   - id: cal.1963-05-09.elections-1964
     when: May 9
     date: '1963-05-09'
+    place: washington
     thread: elections-1964
     also: [press-and-broadcasting]
     c: 'The White House, dinner, Robert Kennedy closeted at the telephone. Bradlee tells the President *Newsweek*''s next cover: Goldwater''s chances for the Republican nomination. Kennedy: "I can''t believe we''ll be that lucky. I can''t believe Barry will be that lucky, either."'
@@ -1902,6 +2219,7 @@ entries:
   - id: cal.1963-05-09.republican-party
     when: May 9
     date: '1963-05-09'
+    place: washington
     thread: republican-party
     also: [elections-1964]
     c: 'Washington, Goldwater''s testimonial dinner, before it is served. Allott, Love and Dominick of Colorado at their table. Allott to a reporter: "we''ve just about decided I''m going to run." For President: "Isn''t everybody?"'
@@ -1919,6 +2237,7 @@ entries:
   - id: cal.1963-05-09.elections-1964-2
     when: May 9
     date: '1963-05-09'
+    place: washington
     thread: elections-1964
     also: [goldwater]
     c: The Sheraton-Park, Goldwater's dinner. Romney, arriving, brushes off photographers who would pose him with Goldwater; later consents. His speech short and partisan. Folger, Nixon's fund raiser, neither takes the thousand-dollar tickets Goldwater's staff counted on nor comes.
@@ -1937,6 +2256,7 @@ entries:
     when: May 9
     date: '1963-05-09'
     time: 1963-05-09T19:24Z
+    place: washington
     thread: vietnam
     c: 'State to Saigon, Rusk''s telegram, after he confers with Kennedy: at the embassy''s discretion, urge the government to take no repressive measures against the Buddhists and to offer sympathy and funeral expenses to the families of the dead.'
     n: '[FRUS 1961–63, III, doc. 115](https://history.state.gov/historicaldocuments/frus1961-63v03/d115) (3:24 p.m.). [[w.reeves-president-kennedy]], 491 (after Rusk confers with Kennedy). Names: Rusk, Kennedy.'
@@ -1950,15 +2270,17 @@ entries:
     when: May 9
     date: '1963-05-09'
     time: 1963-05-09T07:00Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai receives Chervonenko and tells the Soviet side the Chinese Central Committee has decided to send Deng Xiaoping and Peng Zhen at the head of a delegation to Moscow for talks of the two parties; and that China's Third Five-Year Plan will be taken up in the newly elected people's congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 9, 1963); [[w.zhou-enlai-waijiao-huodong]], 359 (May 9, 1963; 下午3时, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Chervonenko, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 9, 1963); [[w.zhou-enlai-waijiao-huodong]], 359 (May 9, 1963; 下午3时, 中南海西花厅); [[w.yang-shangkun-riji]], II, 277 (May 9, 1963; Xihuating, 3 p.m.: the delegation to be led by Deng and Peng Zhen, to go to Moscow in mid-June, as proposed, the reply to be handed later; the Ambassador not warm; Yang there). Made public: 1993. Names: Zhou Enlai, Chervonenko, Deng Xiaoping, Peng Zhen.'
     src:
       c: 813ac402
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 552: ?'
         - 'w.zhou-enlai-waijiao-huodong 359: A'
+        - 'w.yang-shangkun-riji II, 277: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:deng-xiaoping, name:peng-zhen, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-09.china-leadership-2
@@ -1972,6 +2294,7 @@ entries:
     when: May 9
     date: '1963-05-09'
     time: 1963-05-09T08:30Z
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking, Xihuating. Zhou Enlai receives the Somali government delegation headed by Ali Mohamed Hirave, Minister of Information.
@@ -1990,6 +2313,54 @@ entries:
     c: 'Liu Shaoqi and Wang Guangmei write to their daughter Liu Pingping, at a Peking middle school, for her fourteenth birthday: think what kind of youth she will be. She is not to be content with the middle of the road or to drift through her years; they want her an advancing, revolutionary youth with great communist ideals and Lei Feng''s ordinary but great communist spirit, serious and diligent at study, loving labor, learning from others, caring for the collective and for affairs at home and abroad, ready to sacrifice, and to keep fit. The Party and the people will need her; it will mean hardship, setbacks and sacrifice, but with her heart in the great cause any difficulty can be overcome.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576–577 (May 9, 1963). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-05-09.china-leadership-5
+    when: May 9
+    date: '1963-05-09'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. Yang Shangkun 杨尚昆 reads the draft reply to the CPSU Central Committee 苏共中央.
+    n: '[[w.yang-shangkun-riji]], II, 276 (May 9, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 4e1661dd
+      rows:
+        - 'w.yang-shangkun-riji II, 276: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-08T22:00Z
+      - 1963-05-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-09.china-leadership-6
+    when: May 9
+    date: '1963-05-09'
+    time: 1963-05-09T12:00Z
+    thread: china-leadership
+    c: Peking 北京, 8 to 11:30 p.m. The security group 安全小组 hears several comrades back from Cambodia 柬埔寨.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 9, 1963). The words: 晚间8时到11时半，安全小组听取由柬埔寨回来的几位同志汇报 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 7f7cfe12
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-09.china-leadership-7
+    when: May 9
+    date: '1963-05-09'
+    thread: china-leadership
+    follows:
+      - cal.1963-05-09.china-leadership-6
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆, to midnight.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 9, 1963). The words: 孔原谈到12时才走，办公到2时 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 8abaf5b0
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-09T14:00Z
+      - 1963-05-09T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-10.alabama
     when: May 10
     date: '1963-05-10'
@@ -2028,6 +2399,7 @@ entries:
   - id: cal.1963-05-10.states-and-cities-ma
     when: May 10
     date: '1963-05-10'
+    place: massachusetts
     thread: states-and-cities
     c: 'Massachusetts. Crimmins, of the Governor''s Council, with the chairman of the State Housing Board and the head of its urban renewal program, indicted for conspiracy and bribes on State housing contracts: the first indictments from the Crime Commission''s inquiries.'
     n: '[Wikipedia, "Joseph Ray Crimmins"](https://en.wikipedia.org/wiki/Joseph_Ray_Crimmins). Check against the *Boston Globe* and the Commission''s reports. To check: [[w.hogarty-massachusetts-politics-and-public]]; [[w.peirce-megastates-of-america]]. Names: Crimmins.'
@@ -2041,6 +2413,7 @@ entries:
   - id: cal.1963-05-10.goldwater
     when: May 10
     date: '1963-05-10'
+    place: washington
     thread: goldwater
     also: [republican-party]
     c: 'Washington. White at breakfast with McDevitt, candidate for the Young Republicans'' chairmanship; then with Hall in his suite at the Sheraton-Park: Hall to stay neutral. By White''s account.'
@@ -2098,6 +2471,7 @@ entries:
   - id: cal.1963-05-10.alabama-birmingham
     when: May 10
     date: '1963-05-10'
+    place: nyc
     thread: alabama-birmingham
     also: [republican-party]
     c: 'New York. Clarence Jones, sent by Belafonte, meets Rockefeller''s assistant Hugh Morrow at Rockefeller Plaza; in a vault of Chase Manhattan a vice president hands Jones a briefcase of cash for the Birmingham bonds against his promissory note. Jones recalls $100,000, Morrow $25,000. Secret on both sides: Rockefeller, just remarried, not to be charged with buying the Negro vote; King, to keep his ties with the Kennedys.'
@@ -2119,6 +2493,7 @@ entries:
   - id: cal.1963-05-10.alabama-birmingham-2
     when: May 10
     date: '1963-05-10'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     follows:
@@ -2189,6 +2564,42 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 534–537: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-05-10.china-leadership-5
+    when: May 10
+    date: '1963-05-10'
+    thread: china-leadership
+    c: Zhou Enlai 周恩来 flies from Peking 北京 to Nanjing 南京, on to Shanghai 上海.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 10, 1963). The words: 总理今天飞南京转上海 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai. Check: the calendar has Zhou with Mao at Hangzhou that evening ([[cal.1963-05-10.china-leadership]]).'
+    src:
+      c: c7971d8f
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-10.china-leadership-6
+    when: May 10
+    date: '1963-05-10'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. The papers print the news of Zhou Enlai's 周恩来 reception of the Soviet Ambassador the day before.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 10, 1963). The words: 今天报纸发表了昨日周见苏大使的消息 (II, 277). See [[cal.1963-05-09.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 072419e7
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-05-10.china-leadership-7
+    when: May 10
+    date: '1963-05-10'
+    time: 1963-05-10T07:30Z
+    thread: china-leadership
+    c: Peking 北京, 3:30 p.m. Deng Xiaoping 邓小平, Kang Sheng 康生 and their party leave by train for Hangzhou 杭州, the weather being bad for flying.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 10, 1963). The words: 小平、康生同志等一行，因气候不好，下午3时半乘火车去杭州 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Kang Sheng. Check: Wu Lengxi has Deng and Kang Sheng at Hangzhou from May 2 ([[cal.1963-05-02.china-leadership-5]], [[cal.1963-05-03.china-leadership-4]]).'
+    src:
+      c: 5d7e5af7
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-11.alabama
     when: May 11–13
     date: '1963-05-11'
@@ -2280,6 +2691,76 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 284: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1963-05-11.china-leadership-2
+    when: May 11
+    date: '1963-05-11'
+    time: 1963-05-11T01:00Z
+    thread: china-leadership
+    c: Peking 北京, 9 a.m. to noon. The streamlining group 精简小组 meets.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 11, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: a3e7adc9
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-11.china-leadership-3
+    when: May 11
+    date: '1963-05-11'
+    time: 1963-05-11T08:00Z
+    thread: china-leadership
+    c: Peking 北京, from 4 p.m. Yang Shangkun 杨尚昆, Liu Ningyi 刘宁一 and Wu Xiuquan 伍修权 receive Lora 罗拉 of the Communist Party of Ecuador 厄瓜多尔共产党, and dine with him, to 8 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 11, 1963). The words: 下午4时同宁一、修权一起接见厄瓜多尔共产党罗拉同志，8时吃饭后回家 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Ningyi, Wu Xiuquan. Check: the Ecuadorian''s name in Latin letters (the diary: 罗拉).'
+    src:
+      c: 919266e6
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-11.china-leadership-4
+    when: May 11
+    date: '1963-05-11'
+    time: 1963-05-11T13:30Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking 北京, 9:30 p.m. Yang Shangkun 杨尚昆 and Wu Xiuquan 伍修权 see Chervonenko 契尔沃年科: the CPSU Central Committee proposes that the two parties'' talks begin on July 5 and asks the Chinese party''s view.'
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 11, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wu Xiuquan, Chervonenko.'
+    src:
+      c: 128306f9
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-11.china-leadership-6
+    when: May 11
+    date: '1963-05-11'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-05-11.china-leadership-4
+    c: Peking 北京. Yang Shangkun 杨尚昆 reports to Zhou Enlai 周恩来 by telephone.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 11, 1963). The words: 见完后即在电话上报告恩来同志 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
+    src:
+      c: e7d9e23d
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-11.china-leadership-5
+    when: May 11
+    date: '1963-05-11'
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆, to 1 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 277 (May 11, 1963). The words: 与小二谈话，孔原来谈到1时，2时始睡 (II, 277). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 804fba6d
+      rows:
+        - 'w.yang-shangkun-riji II, 277: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-11T14:00Z
+      - 1963-05-11T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-12.vietnam
     when: May 12
     date: '1963-05-12'
@@ -2354,6 +2835,7 @@ entries:
   - id: cal.1963-05-12.alabama-birmingham-2
     when: May 12
     date: '1963-05-12'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     c: 'New Pilgrim Baptist Church, the night''s mass meeting, troopers sealing twenty-eight blocks around the Gaston Motel. Dorothy Height''s National Council of Negro Women. Abernathy, from the car radio, announces the President''s support for the settlement: King "is the leader! He is the Moses!" King''s speech recorded by Radio Riverside.'
@@ -2383,6 +2865,7 @@ entries:
   - id: cal.1963-05-12.civil-rights-the-executive
     when: May 12
     date: '1963-05-12'
+    place: washington
     thread: civil-rights-the-executive
     also: [alabama-birmingham]
     c: 'The White House, Sunday, recorded: the President, Robert Kennedy, Marshall, McNamara and others on the Birmingham bombings. Marshall: "If that agreement blows up, the Negroes will be, uh . . ." The President: "Uncontrollable." Marshall: "And I think not only in Birmingham."'
@@ -2426,6 +2909,34 @@ entries:
     c: Zhou Enlai at the Navy's Sixth Research Institute watches divers in a compression test, stays by the chamber and asks them of their feelings; he reminds the leaders to think through the divers' safety.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 553 (May 12, 1963). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-12.china-leadership-3
+    when: May 12
+    date: '1963-05-12'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 receives the papers of the Hangzhou meeting 杭州会议 (Mao's small meeting of May 2–12 on socialist education in the countryside, the editors note) and the "Decision on some questions of present rural work (draft)" 关于当前农村工作若干问题的决定(草案), the First Ten Points 前十条.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 12, 1963). The words: 收到杭州会议的文件和关于农村工作的决定 (II, 278). See [[cal.1963-05-02.china-leadership-6]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: the Central Committee''s "Decision on some questions of present rural work (draft)" (cited by [[w.yang-shangkun-riji]], II, 278 n.3). Names: Yang Shangkun.'
+    src:
+      c: 3939f973
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+        - 'via w.yang-shangkun-riji II, 278 n.3: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-05-12.china-leadership-4
+    when: May 12
+    date: '1963-05-12'
+    thread: china-leadership
+    c: Peng Zhen 彭真 telephones Yang Shangkun 杨尚昆 in Peking 北京.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 12, 1963). The words: 晚间彭真同志来电话 (II, 278). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: f6f987e3
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1963-05-12T11:00Z
+      - 1963-05-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-13.alabama-birmingham
     when: May 13
     date: '1963-05-13'
@@ -2441,6 +2952,7 @@ entries:
   - id: cal.1963-05-13.alabama-birmingham-2
     when: May 13
     date: '1963-05-13'
+    place: birmingham
     thread: alabama-birmingham
     also: [king]
     c: 'Sixth Avenue Baptist, the night''s mass meeting. Floyd Patterson; Jackie Robinson: "I don''t think white Americans understand what Birmingham means to all of us throughout the country." King: "I am convinced that the agreements that have been made will be met"; "this is not a racial conflict basically ... The tension in Birmingham is between justice and injustice"; Prince Green, of Coosa Street, shot from a passing car that evening; "I will never teach any of you to hate white people."'
@@ -2498,6 +3010,35 @@ entries:
     c: Liu Shaoqi rests at West Lake in Hanoi; he receives the staff of the Chinese embassy and the Chinese experts working in Vietnam.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 13, 1963). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:drv, name:liu-shaoqi]
+  - id: cal.1963-05-13.china-leadership-3
+    when: May 13
+    date: '1963-05-13'
+    time: 1963-05-13T07:00Z
+    thread: china-leadership
+    c: Peking 北京, 3 to 7:30 p.m. Li Fuchun 李富春 presides at a meeting hearing reports on the five-antis 五反; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 13, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: b7249730
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-13.china-leadership-4
+    when: May 13
+    date: '1963-05-13'
+    thread: china-leadership
+    c: Peking 北京. Xu Bing 徐冰 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 13, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xu Bing, Yang Shangkun.'
+    src:
+      c: 3cf747c4
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-13T14:00Z
+      - 1963-05-13T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-14.railroads
     when: May 14
     date: '1963-05-14'
@@ -2521,6 +3062,7 @@ entries:
   - id: cal.1963-05-14.alabama-birmingham
     when: May 14
     date: '1963-05-14'
+    place: washington
     thread: alabama-birmingham
     c: 'Twenty Alabama editors at the Justice Department. Robert Kennedy: King''s moderation and nonviolence his greatest virtues; "If King loses, worse leaders are going to take his place"; the South''s officials to allow protests. To newsmen after, on background: the troops held ready for fear of Lingo''s troopers, not of the Negroes.'
     n: '[[w.garrow-bearing-the-cross]], 262; [[w.navasky-kennedy-justice]], 218–19 (Robert Kennedy to the editors, off the record: King''s nonviolence; "If King loses, worse leaders are going to take his place"); [[w.purdum-idea-whose-time-has-2014]], 37 (Robert Kennedy to the Alabama editors, May 14: if King''s nonviolence failed, less responsible leaders would follow; not the words, nor the troops). Check: Navasky has the meeting at the White House (218). To check: "Background Briefing," May 14, 1963, Victor Navasky Papers, Kennedy Library; *Birmingham News*, May 16, 1963, at 1; *Chicago Defender* (CP), May 16, 1963, A4 (cited by [[w.garrow-bearing-the-cross]], 262 n.35). See [[cal.1963-04-03.alabama]]. Names: Robert F. Kennedy, King, Lingo.'
@@ -2569,6 +3111,7 @@ entries:
   - id: cal.1963-05-14.states-and-cities
     when: May 14
     date: '1963-05-14'
+    place: harrisburg
     thread: states-and-cities
     c: Harrisburg, Pa. The House passes Scranton's tax program, the sales tax from four cents to five, with a single Republican defection, Horst; the Democrats against.
     n: '[[w.novak-agony-of-the-g]], 168–69 (Scranton at his news conference, May 15: Horst''s district opposed to the 5 percent tax). Names: Scranton. Check: the House''s count.'
@@ -2595,8 +3138,78 @@ entries:
     date: '1963-05-14'
     thread: china-leadership
     c: Zhou Enlai back in Peking by way of Xuzhou.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 554 (May 14, 1963). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 554 (May 14, 1963); [[w.yang-shangkun-riji]], II, 278 (May 14, 1963; the Premier back from Shanghai). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 271d456d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 554: ?'
+        - 'w.yang-shangkun-riji II, 278: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-14.china-leadership-2
+    when: May 14
+    date: '1963-05-14'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 reads the twenty annexes issued by the Hangzhou meeting 杭州会议.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 14, 1963). The words: 阅读杭州会议发的20个附件 (II, 278). See [[cal.1963-05-12.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 546601ce
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-13T22:00Z
+      - 1963-05-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-14.china-leadership-3
+    when: May 14
+    date: '1963-05-14'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Tian Chou 田畴 and Zhang Yaoci 张耀祠.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 14, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Chou, Zhang Yaoci.'
+    src:
+      c: e9eca386
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-14T04:00Z
+      - 1963-05-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-14.china-leadership-4
+    when: May 14
+    date: '1963-05-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking 北京. Yang Shangkun 杨尚昆 receives Chervonenko 契尔沃年科: the Chinese Central Committee agrees that the two parties'' talks begin in Moscow on July 5.'
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 14, 1963). The words: 中共中央同意两党会谈改为7月5日起在莫斯科举行 (II, 278). See [[cal.1963-05-11.china-leadership-4]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Chervonenko.'
+    src:
+      c: 7b168d69
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_range:
+      - 1963-05-14T11:00Z
+      - 1963-05-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-14.china-leadership-5
+    when: May 14
+    date: '1963-05-14'
+    time: 1963-05-14T15:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-05-14.china-leadership-4
+    c: Peking 北京, 11 p.m. Yang Shangkun 杨尚昆 drafts the press release on the talks' date, reports it to Mao's 毛泽东 party at Hangzhou 杭州 and to Zhou Enlai 周恩来, and sends it out.
+    n: '[[w.yang-shangkun-riji]], II, 278 (May 14, 1963). The words: 拟好新闻稿后，报告了杭州、总理，11时发出 (II, 278). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Zhou Enlai.'
+    src:
+      c: 4c9e2fd4
+      rows:
+        - 'w.yang-shangkun-riji II, 278: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-15.space
     when: May 15–16
     date: '1963-05-15'
@@ -2609,6 +3222,7 @@ entries:
   - id: cal.1963-05-15.economy
     when: May 15
     date: '1963-05-15'
+    place: washington
     thread: economy-debt-limit
     c: 'House passes H.R. 6009: the temporary debt limit $307 billion through June, $309 billion through Aug. 31. Byrnes''s motion to recommit, to keep $305 billion, refused, [195–222](https://voteview.com/rollcall/RH0880027); passed, [213–204](https://voteview.com/rollcall/RH0880028).'
     n: 'The House sat from noon to 6:53 p.m.: [Daily Digest, D208](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=206). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-2-1.pdf) (1963). To check: [[w.morgan-deficit-government]]. See [[cal.1960-06-08.economy-debt-limit]]. Names: Byrnes. Check: the page.'
@@ -2652,6 +3266,7 @@ entries:
   - id: cal.1963-05-15.alabama-birmingham
     when: May 15
     date: '1963-05-15'
+    place: birmingham
     thread: alabama-birmingham
     c: 'The night''s mass meeting. Shuttlesworth, back on the arms of two retainers: "I have just about de-bulled ol'' Bull! I didn''t know it would take me seven years." Abernathy''s "love offering" for him, $600, had been taken May 13.'
     n: '[[w.branch-parting-the-waters]], 802. To check: Birmingham police notes on mass meeting, May 15, 1963, Bull Connor Papers (cited by [[w.branch-parting-the-waters]], 802 n.1). See [[cal.1963-05-13.alabama-birmingham-2]]. Names: Shuttlesworth, Abernathy.'
@@ -2689,6 +3304,7 @@ entries:
     when: May 15
     date: '1963-05-15'
     time: 1963-05-15T03:00Z
+    place: peking
     thread: china-leadership
     also: [africa]
     c: 'Zhou Enlai receives Ali Muhammad Hirawi, Somalia''s Minister of Information, and gives four principles of cooperation with friendly states: no condition or privilege attached to any aid, on the Bandung principles and non-interference; help to Afro-Asian friends only to make the conditions for their own self-reliant economies, not to make them lean on foreign aid; cooperation to fit China''s means, so that what is said is done and what cannot be done is told; cooperation among Afro-Asian states is to seek common growth and shake off the backwardness and poverty left by imperialism and colonialism.'
@@ -2711,6 +3327,7 @@ entries:
   - id: cal.1963-05-15.china-leadership-3
     when: May 15
     date: '1963-05-15'
+    place: peking
     thread: china-leadership
     also: [china, africa, trade]
     c: Peking. Zhou Enlai attends the signing of the first intergovernmental China–Somalia agreement on trade and payments.
@@ -2728,6 +3345,7 @@ entries:
   - id: cal.1963-05-15.china-leadership-4
     when: May 15
     date: '1963-05-15'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the signing of the China–Mali cultural cooperation agreement.
@@ -2745,6 +3363,7 @@ entries:
   - id: cal.1963-05-15.china-leadership-5
     when: May 15
     date: '1963-05-15'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the cocktail party given by the Commission for Cultural Relations with Foreign Countries and other bodies for the signing of the cultural agreement and in welcome of the Mali cultural delegation.
@@ -2762,6 +3381,7 @@ entries:
   - id: cal.1963-05-15.china-leadership-6
     when: May 15
     date: '1963-05-15'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the farewell cocktail party given by the head of the Somali government delegation.
@@ -2804,9 +3424,26 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 283: all'
     tags: [polity:prc, polity:somalia]
+  - id: cal.1963-05-15.china-leadership-9
+    when: May 15
+    date: '1963-05-15'
+    thread: china-leadership
+    c: Peking 北京. Deng Diantao 邓典桃, Liu Huo 刘火 and Li Jian 李鉴 with Yang Shangkun 杨尚昆 on the five-antis 五反 in the organs directly under the Center.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 15, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Liu Huo, Li Jian, Yang Shangkun.'
+    src:
+      c: f34df9f2
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-15T04:00Z
+      - 1963-05-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-16.europe-and-the-alliance
     when: May 16
     date: '1963-05-16'
+    place: bonn
     thread: europe-and-the-alliance
     also: [european-community]
     c: 'Bonn. The Bundestag ratifies the Franco-German treaty with a preamble: close partnership between Europe and the United States; common defense in NATO and the integration of its forces; the European Communities to take in Britain; lower trade barriers through the GATT.'
@@ -2871,6 +3508,7 @@ entries:
   - id: cal.1963-05-16.china-leadership
     when: May 16
     date: '1963-05-16'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking, Xihuating. Zhou Enlai receives the Pakistani Ambassador, Raza.
@@ -2888,6 +3526,7 @@ entries:
   - id: cal.1963-05-16.china-leadership-2
     when: May 16
     date: '1963-05-16'
+    place: peking
     thread: china-leadership
     also: [china, south-asia, trade]
     c: Peking. Zhou Enlai receives the Pakistani business delegation headed by Ahad, president of the Federation of Pakistan Chambers of Commerce and Industry.
@@ -2905,6 +3544,7 @@ entries:
   - id: cal.1963-05-16.china-leadership-3
     when: May 16
     date: '1963-05-16'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai receives the Nepalese information delegation headed by Basukota, director of the Department of Information, Publications and Broadcasting.
@@ -2932,9 +3572,127 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 577: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 283–284: all'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:ho-chi-minh]
+  - id: cal.1963-05-16.china-leadership-5
+    when: May 16
+    date: '1963-05-16'
+    time: 1963-05-15T17:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking 北京, 1 a.m. Yang Shangkun 杨尚昆 receives Chervonenko 契尔沃年科: the Soviet side will publish news of the talks'' date and name the CPSU delegation, five men: Suslov 苏斯洛夫 (head), Andropov 安德罗波夫, Ilyichev 伊利切夫, Chervonenko and Ponomarev 波诺马廖夫.'
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 15, 1963, after midnight). The words: 晚间1时，接见苏联大使契尔沃年科同志 (II, 279). The diary''s May 15, at 1 a.m.: so May 16. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Chervonenko, Suslov, Andropov, Ilyichev, Ponomarev.'
+    src:
+      c: c6a1a69e
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, name:chervonenko-stepan-v, name:suslov-mikhail-a, name:andropov-yuriy-vladimirovich, name:ponomarev-boris-n, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-16.china-leadership-6
+    when: May 16
+    date: '1963-05-16'
+    time: 1963-05-15T18:00Z
+    thread: china-leadership
+    follows:
+      - cal.1963-05-16.china-leadership-5
+    c: Peking 北京, 2 a.m. Yang Shangkun 杨尚昆 reports the Soviet news to Mao's 毛泽东 party at Hangzhou 杭州 and to Zhou Enlai 周恩来.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 15, 1963, after midnight). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Zhou Enlai.'
+    src:
+      c: 6d7a139b
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-16.china-leadership-7
+    when: May 16
+    date: '1963-05-16'
+    thread: china-leadership
+    c: Peking 北京. He Jun 何均 and Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 16, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Wang Yuming, Yang Shangkun.'
+    src:
+      c: d671c024
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-15T22:00Z
+      - 1963-05-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-16.china-leadership-8
+    when: May 16
+    date: '1963-05-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. The Chinese papers print the names of the Soviet delegation to the talks.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 16, 1963). The words: 今天我各报已公布苏方代表团的名单 (II, 279). See [[cal.1963-05-16.china-leadership-5]].'
+    src:
+      c: 119321c5
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc]
+  - id: cal.1963-05-16.china-leadership-9
+    when: May 16
+    date: '1963-05-16'
+    time: 1963-05-16T07:30Z
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 6 p.m. Li Fuchun 李富春 presides at a meeting hearing Ma Wenrui 马文瑞 on the labor and wages conference; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 16, 1963). The words: 下午3时半到6时富春主持开会，听马文瑞同志关于劳动工资会议的汇报 (II, 279). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Ma Wenrui, Yang Shangkun.'
+    src:
+      c: c6564407
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-16.china-leadership-10
+    when: May 16
+    date: '1963-05-16'
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 and Tong Xiaopeng 童小鹏 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 16, 1963). The words: 晚间孔原、小鹏来谈话 (II, 279). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Tong Xiaopeng, Yang Shangkun.'
+    src:
+      c: 42e5a21a
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-16T11:00Z
+      - 1963-05-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-16.china-leadership-11
+    when: May 16
+    date: '1963-05-16'
+    thread: china-leadership
+    follows:
+      - cal.1963-05-16.china-leadership-10
+    c: Peking 北京. Yang Shangkun 杨尚昆 telephones Luo Qingchang 罗青长 to ask about the meeting.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 16, 1963). The words: 同罗青长同志通了一次电话，问会议情况 (II, 279). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Qingchang.'
+    src:
+      c: a6560af0
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-16T11:00Z
+      - 1963-05-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-16.china-leadership-12
+    when: May 16
+    date: '1963-05-16'
+    thread: china-leadership
+    follows:
+      - cal.1963-05-16.china-leadership-11
+    c: Peking 北京. Yang Shangkun 杨尚昆 briefly tells Hangzhou 杭州.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 16, 1963). The words: 已简告杭州 (II, 279). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 688186c2
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-05-17.vietnam
     when: May 17
     date: '1963-05-17'
+    place: saigon
     thread: vietnam-pacification
     c: 'Diệm''s government and the embassy announce agreement on counterinsurgency funds for 1963, the strategic hamlets first: up to 2.3 billion piastres from the government, some $55 million in American commodities. The present level of advisers still needed; to lighten as security improves.'
     n: 'The joint communiqué, [FRUS 1961–63, III, doc. 127](https://history.state.gov/historicaldocuments/frus1961-63v03/d127) (editorial note); [[w.current-documents-1963]], 854–55; doc. [119](https://history.state.gov/historicaldocuments/frus1961-63v03/d119) (Nolting to Thuần, May 10: up to 2.3 billion piastres from the government). [[w.miller-misalliance]], 254–55, 259–60 (the dispute over the fund; the joint statement of May 17). [[w.selverstone-kennedy-withdrawal]], 127 (the advisers; not the funds). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
@@ -3039,6 +3797,7 @@ entries:
   - id: cal.1963-05-17.states-and-cities
     when: May 17
     date: '1963-05-17'
+    place: harrisburg
     thread: states-and-cities
     c: Harrisburg, Pa. The Senate passes Scranton's tax program, 27 to 23, on party lines, after Scranton's visit to its Finance Committee to disown an aide's reported boast.
     n: '[[w.novak-agony-of-the-g]], 169–70. See [[cal.1963-05-14.states-and-cities]]. Names: Scranton.'
@@ -3056,6 +3815,7 @@ entries:
   - id: cal.1963-05-17.china-leadership
     when: May 17
     date: '1963-05-17'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives the delegation and members of the Asian and African journalists visiting China after the Afro-Asian journalists' conference, from Basutoland, Cameroon, Ceylon, Japan, Pakistan, South Africa and other countries.
@@ -3082,6 +3842,51 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 567–568: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-05-17.china-leadership-3
+    when: May 17
+    date: '1963-05-17'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 reads the papers for the Politburo's meeting.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 17, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 1777eb24
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-16T22:00Z
+      - 1963-05-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-17.china-leadership-4
+    when: May 17
+    date: '1963-05-17'
+    thread: china-leadership
+    c: Peking 北京. Li Fuchun 李富春 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 17, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: db11808f
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1963-05-17T04:00Z
+      - 1963-05-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-17.china-leadership-5
+    when: May 17
+    date: '1963-05-17'
+    thread: china-leadership
+    follows:
+      - cal.1963-05-17.china-leadership-4
+    c: Yao Zhen 姚溱 telephones Yang Shangkun 杨尚昆, Peking 北京, on the drafting of the document.
+    n: '[[w.yang-shangkun-riji]], II, 279 (May 17, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yao Zhen, Yang Shangkun.'
+    src:
+      c: fd9c03a8
+      rows:
+        - 'w.yang-shangkun-riji II, 279: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-05-18.middle-east
     when: May 18
     date: '1963-05-18'
@@ -3100,6 +3905,7 @@ entries:
     when: May 18
     date: '1963-05-18'
     time: 1963-05-18T17:10Z
+    place: nashville
     thread: alabama
     also: [civil-rights-the-executive]
     c: 'The President at Vanderbilt University''s ninetieth anniversary, Nashville: "for one man to defy a law or court order he does not like is to invite others to defy those which they do not like." Then Muscle Shoals, Ala., the TVA''s thirtieth anniversary, and Huntsville. Wallace with him on the helicopter from Muscle Shoals to Huntsville; on Birmingham, by Salinger''s memorandum, Wallace calls King a "faker."'
@@ -3145,7 +3951,7 @@ entries:
     date: '1963-05-18'
     thread: china-leadership
     c: Huairen Hall. The Politburo, 36 attending, Zhou Enlai presenting how the draft decision on rural work came about and what Mao said at Hangzhou, adopts the draft decision; issued May 20 with six annexes.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 18, 1963; [[w.zhou-enlai-nianpu-1949]], II, 554 (May 18, 1963: Zhou Enlai presides at the Politburo on Mao''s proposal; he explains how the draft came to be drafted; no product of the mind is right at once, it comes by repeated practice, held to and corrected; he stresses Mao''s thought on the relation of knowing and doing, spirit and matter; the meeting amends it a little and the document goes out May 20); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 20, 1963; the Center issues the draft decision on some current problems in rural work (later the "First Ten Points"), as a programmatic document for the socialist education movement; the chronology says Mao drew it up at a small meeting in Hangzhou May 2–12 of some Politburo members and regional bureau secretaries, and the Politburo adopted it on May 18; it finds "a sharp class struggle" in China); [[w.jianguo-yilai-mao-zedong]], XVI, 546–547 (May 18, 1963; note 1 to Mao''s addition of May 19: the decision adopted by the Politburo, issued with the notice May 20). Made public: 1996. See [[cal.1963-05-07.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 18, 1963; [[w.zhou-enlai-nianpu-1949]], II, 554 (May 18, 1963: Zhou Enlai presides at the Politburo on Mao''s proposal; he explains how the draft came to be drafted; no product of the mind is right at once, it comes by repeated practice, held to and corrected; he stresses Mao''s thought on the relation of knowing and doing, spirit and matter; the meeting amends it a little and the document goes out May 20); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 20, 1963; the Center issues the draft decision on some current problems in rural work (later the "First Ten Points"), as a programmatic document for the socialist education movement; the chronology says Mao drew it up at a small meeting in Hangzhou May 2–12 of some Politburo members and regional bureau secretaries, and the Politburo adopted it on May 18; it finds "a sharp class struggle" in China); [[w.jianguo-yilai-mao-zedong]], XVI, 546–547 (May 18, 1963; note 1 to Mao''s addition of May 19: the decision adopted by the Politburo, issued with the notice May 20); [[w.yang-shangkun-riji]], II, 280 (May 18, 1963; the Politburo, 3 to 7 p.m., Zhou presiding, on the Center''s Decision on rural work (draft), with some revisions proposed; Yang there). Made public: 1996. See [[cal.1963-05-07.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     src:
       c: 3a5816ba
       rows:
@@ -3153,15 +3959,33 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 554: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: B, C'
         - 'w.jianguo-yilai-mao-zedong XVI, 546–547: B'
+        - 'w.yang-shangkun-riji II, 280: A-B'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
     variants:
       - unit: C
         witness: w.jianguo-yilai-mao-zedong
         reads: the Center's notice of May 20 issues the draft decision "and seven annexes" (XVI, 546 n.1); the annexes the volume numbers run to seven
         at: '546'
+  - id: cal.1963-05-18.china-leadership-2
+    when: May 18
+    date: '1963-05-18'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 talks with his sons Xiao Er 小二 and Xiao Zhong 小中 of the five-antis 五反.
+    n: '[[w.yang-shangkun-riji]], II, 280 (May 18, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 08390352
+      rows:
+        - 'w.yang-shangkun-riji II, 280: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-18T11:00Z
+      - 1963-05-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-19.press-and-broadcasting
     when: May 19
     date: '1963-05-19'
+    place: nyc
     thread: press-and-broadcasting
     also: [king]
     c: 'The *New York Post*, Sunday, a two-page scoop: King''s "Letter from Birmingham Jail," a month old. The *Times* drops its excerpt, "cut down and ready to be put in type" for the Sunday Magazine.'
@@ -3216,9 +4040,23 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 546–547: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-19.china-leadership-4
+    when: May 19
+    date: '1963-05-19'
+    time: 1963-05-19T02:00Z
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. to noon. Yang Shangkun 杨尚昆, Tian Jiaying 田家英 and Deng Liqun 邓力群 revise the "Decision on rural work" 关于农村工作的决定 on the Politburo's views of the day before, and send it to Zhou Enlai 周恩来 for review.
+    n: '[[w.yang-shangkun-riji]], II, 280 (May 19, 1963). See [[cal.1963-05-18.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying, Deng Liqun, Zhou Enlai.'
+    src:
+      c: ce1710a1
+      rows:
+        - 'w.yang-shangkun-riji II, 280: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-20.court
     when: May 20
     date: '1963-05-20'
+    place: washington
     thread: court
     also: [desegregation-public-places]
     c: 'The sit-in cases. *Peterson v. City of Greenville*, [373 U.S. 244](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373244/usrep373244.pdf): trespass convictions reversed where a city ordinance required segregation. Warren for the Court; Harlan concurs in part. *Lombard v. Louisiana*, [373 U.S. 267](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373267/usrep373267.pdf): the same where officials had declared sit-ins unlawful.'
@@ -3257,6 +4095,7 @@ entries:
   - id: cal.1963-05-20.civil-rights-bill
     when: May 20
     date: '1963-05-20'
+    place: washington
     thread: civil-rights-bill
     c: 'The first of two days of meetings on civil rights, recorded: Robert Kennedy, Marshall, O''Brien, O''Donnell and others, on whether to send a comprehensive bill. Robert Kennedy and Marshall against new powers for Justice to sue on complaints. Kennedy: "Okay, how will we get away without sending up Title III?"'
     n: '[John F. Kennedy, Robert F. Kennedy, Burke Marshall, Lawrence F. O''Brien, Kenneth O''Donnell and others](https://prde.upress.virginia.edu/conversations/4006754), JFK Meeting Tape 88.2 (PRDE only). [[w.reeves-president-kennedy]], 501; [[w.branch-pillar-of-fire]], 88–89; [[w.branch-parting-the-waters]], 807–9, 813; [[w.thomas-robert-kennedy]], 243, 246, 250 (the meeting of May 20, recorded: Robert Kennedy proposes bringing business and church leaders to the White House; the President: "King is so hot that it''s like Marx coming to the White House"; Robert Kennedy: a Negro college graduate in the South can hope to be a mailman; the President: "Pretty good job for a Negro in the South, though, letter carrier"; Daley''s "a lot of trouble"); [[w.risen-bill-of-the-century]], 47–49 (the Monday-afternoon meeting with the President, Marshall, White, O''Brien, Sorensen, O''Donnell; public accommodations, schools, the right to demonstrate; not the two days, not the Title III exchange); [[w.purdum-idea-whose-time-has-2014]], 37–38 (the morning meeting of May 20: Robert Kennedy, Marshall, Sorensen, White, O''Donnell and O''Brien on whether and how to offer a bill; O''Brien on the House; not that it was recorded, nor the second day, nor the question of suits). Check: Branch, 807–9, from Audiotape 88.4 (cited by Branch, 807 n.6): Robert Kennedy, "There must be a dozen places where we''re having major problems today"; Daley''s warning of "a lot of trouble," "you can''t have a moderate Negro any more"; O''Brien, Powell''s "I''m gonna lead it"; "Roy Wilkins hates Martin Luther King"; Sorensen, O''Brien and O''Donnell for Title III against an accommodations law; Robert Kennedy, Title III "just awful"; the President on theaters, "We''ve got to have it"; King late in the series of meetings, "it''s like Marx coming to the White House." Branch names the tape 88.4, as Reeves; PRDE has the day''s meeting as Tape 88.2. Check: Branch, 813: O''Brien tells the President, on this tape, that Johnson is alarmingly meek in legislative meetings and has not been consulted on the bill. Check: Thomas has Robert Kennedy report "major problems" in a dozen cities on May 20 and tell the President of Daley''s prediction "the day before" (243); his note puts Daley on the tape of May 20, 88.4 (441). To check: Audiotape 88.4, May 20, 1963 meeting, Presidential Recordings, Kennedy Library (cited by [[w.reeves-president-kennedy]], 501). Check: the recording not heard; Reeves cites Audiotape 88.4, PRDE the day''s meeting as Tape 88.2. Names: Robert Kennedy, Marshall, O''Brien, O''Donnell, John F. Kennedy.'
@@ -3288,6 +4127,7 @@ entries:
   - id: cal.1963-05-20.robert-kennedy
     when: May 20
     date: '1963-05-20'
+    place: nyc
     thread: robert-kennedy
     also: [cuba, soviet-union]
     c: 'New York, Robert Kennedy to a Soviet intelligence officer, by the KGB''s report: the President, despite the pressure, "did not plan any intervention into Cuba now": the agreement that settled the missile crisis; and American intelligence overrates the opposition to Castro.'
@@ -3319,6 +4159,7 @@ entries:
   - id: cal.1963-05-20.defense
     when: May 20
     date: '1963-05-20'
+    place: washington
     thread: defense
     also: [congress]
     c: Mahon's subcommittee ends its hearings on the fiscal 1964 Defense budget, of a mind to cut.
@@ -3337,6 +4178,7 @@ entries:
   - id: cal.1963-05-20.china-leadership
     when: May 20
     date: '1963-05-20'
+    place: peking
     thread: china-leadership
     also: [china, cuba]
     c: Peking. Zhou Enlai receives the delegation of the Cuban Central Workers' Union and the children's work delegation of the Cuban Union of Communist Youth, visiting China.
@@ -3374,9 +4216,39 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 519: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-05-20.china-leadership-3
+    when: May 20
+    date: '1963-05-20'
+    time: 1963-05-20T08:00Z
+    thread: china-leadership
+    c: Peking 北京, Huairen Tang 怀仁堂, 4 p.m. Yang Shangkun 杨尚昆 at a photograph session.
+    n: '[[w.yang-shangkun-riji]], II, 280 (May 20, 1963). The words: 下午4时去怀仁堂照相，以后处理文电 (II, 280). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 708ab70d
+      rows:
+        - 'w.yang-shangkun-riji II, 280: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-20.china-leadership-4
+    when: May 20
+    date: '1963-05-20'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 deals with the document the Politburo adopted, and has Tian Jiaying 田家英 in on questions in its annexes.
+    n: '[[w.yang-shangkun-riji]], II, 280 (May 20, 1963). See [[cal.1963-05-18.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 1435d359
+      rows:
+        - 'w.yang-shangkun-riji II, 280: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-20T11:00Z
+      - 1963-05-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-21.mayors-philadelphia
     when: May 21
     date: '1963-05-21'
+    place: philadelphia
     thread: mayors
     also: [elections-1963]
     c: 'Philadelphia primaries for mayor. Democratic: Tate, the City Committee''s candidate, over Walter M. Phillips, the ADA''s, backed by U.S. Senator Clark, 128,840 to 40,931, 70.4 percent; a third, 13,165, 7.2 percent. Republican: James T. McDermott, the organization''s.'
@@ -3393,6 +4265,7 @@ entries:
     when: May 21
     date: '1963-05-21'
     time: 1963-05-21T21:17Z
+    place: alabama
     thread: alabama
     also: [antisubversion]
     c: 'The legislature''s Commission to Preserve the Peace, five members, three of the House and two of the Senate: to investigate persons and groups "engaged in activities of an unlawful nature against the sovereignty of the State of Alabama," hearings open or closed as it decides (H.J.R. 5, Act No. 3). Approved 3:17 p.m.'
@@ -3419,6 +4292,7 @@ entries:
   - id: cal.1963-05-21.alabama-birmingham
     when: May 21
     date: '1963-05-21'
+    place: washington
     thread: alabama-birmingham
     also: [congress]
     c: 'Stennis in the Senate: "None of us should be content to sit idly by in the face of this direct threat to historic constitutional principles"; Alabama''s authorities functioned "fully and effectively." Morse, later that day: Stennis "need only turn the pages of Life magazine of last week for pictorial proof"; "no place in America for inhumanity to man."'
@@ -3439,6 +4313,7 @@ entries:
   - id: cal.1963-05-21.civil-rights-the-executive
     when: May 21
     date: '1963-05-21'
+    place: washington
     thread: civil-rights-the-executive
     also: [alabama-birmingham, robert-kennedy]
     c: 'The White House, recorded. Robert Kennedy on Birmingham: "the Negro leadership didn''t know what they were demonstrating about. They didn''t know whether they were demonstrating to get rid of Bull Connor or whether they were demonstrating about the stores ... none of the white community knew what they were demonstrating about"; King''s stand on the prisoners "doesn''t really make a lot of sense." The government''s own segregated work force: the businessmen asked, "Why should we hire Negroes? You don''t hire Negroes." Macy''s figures: of 405 Treasury employees in Nashville, four Negroes, all clerks; of 249 at Agriculture, two; of 114 at Labor and Commerce, none. Better to act early than "just wait until they flare up."'
@@ -3463,6 +4338,7 @@ entries:
   - id: cal.1963-05-21.school-aid
     when: May 21
     date: '1963-05-21'
+    place: washington
     thread: school-aid
     c: 'Education and Labor reports Green''s H.R. 6143, 25–5: grants added to loans for academic buildings, public and private.'
     n: '[[w.graham-uncertain-triumph]], 47. Names: Green.'
@@ -3511,15 +4387,48 @@ entries:
     when: May 21
     date: '1963-05-21'
     time: 1963-05-21T03:45Z
+    place: peking
     thread: china-leadership
     also: [china, indonesia]
     c: Peking, Yangfeng Alley. Zhou Enlai receives and gives a luncheon for the Communist Party of Indonesia's delegation headed by Sudisman.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 21, 1963; 上午11时45分). Made public: 1993. Names: Zhou Enlai. Check: the place and the delegation head''s name, 养蜂夹道 and 苏达尔 in the book (the OCR''s number and character are doubtful).'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 21, 1963; 上午11时45分); [[w.yang-shangkun-riji]], II, 280 (May 21, 1963; 11:30 a.m. to 3 p.m., the Indonesian comrades received and dined, the Premier presiding; Yang there). Made public: 1993. Names: Zhou Enlai. Check: the place and the delegation head''s name, 养蜂夹道 and 苏达尔 in the book (the OCR''s number and character are doubtful).'
     src:
       c: 0ca5f08b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 361: all'
+        - 'w.yang-shangkun-riji II, 280: A-B'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-21.china-leadership-5
+    when: May 21
+    date: '1963-05-21'
+    time: 1963-05-21T01:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京, 9 a.m. Kang Sheng 康生 and Yao Zhen 姚溱 telephone Yang Shangkun 杨尚昆 on the draft reply to the CPSU 复苏共信稿; ten copies reach him in the afternoon.
+    n: '[[w.yang-shangkun-riji]], II, 280 (May 21, 1963). The words: 上午9时康生、姚溱都来电话，谈复苏共信稿问题 (II, 280). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Yao Zhen, Yang Shangkun.'
+    src:
+      c: d7cfb321
+      rows:
+        - 'w.yang-shangkun-riji II, 280: all'
+    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-21.china-leadership-6
+    when: May 21
+    date: '1963-05-21'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. Wu Lengxi 吴冷西 telephones Yang Shangkun 杨尚昆; they revise several passages of the draft reply over the telephone, an hour.
+    n: '[[w.yang-shangkun-riji]], II, 280 (May 21, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Lengxi, Yang Shangkun.'
+    src:
+      c: 2cc2ffec
+      rows:
+        - 'w.yang-shangkun-riji II, 280: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-21T11:00Z
+      - 1963-05-21T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1963-05-22.africa
     when: May 22–25
@@ -3553,6 +4462,7 @@ entries:
   - id: cal.1963-05-22.school-aid
     when: May 22
     date: '1963-05-22'
+    place: washington
     thread: school-aid
     c: 'Powell''s committee breaks the omnibus bill into four: aid to colleges, aid to impacted areas, aid to the schools, and the rest.'
     n: '[[w.graham-uncertain-triumph]], 46. Names: Powell.'
@@ -3583,15 +4493,17 @@ entries:
   - id: cal.1963-05-22.china-leadership-2
     when: May 22
     date: '1963-05-22'
+    place: peking
     thread: china-leadership
     also: [china, indonesia, vietnam-hanoi]
     c: Peking. Zhou Enlai goes to the airport to meet Liu Shaoqi, back from his friendly visits to Indonesia, Burma, Cambodia and Vietnam.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 22, 1963; 中午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 22, 1963; Liu returns from Kunming to Peking). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 22, 1963; 中午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 22, 1963; Liu returns from Kunming to Peking); [[w.yang-shangkun-riji]], II, 281 (May 22, 1963; Yang and Li Bozhao at the airport from 10:15 a.m.; the plane lands at 11:45; back in Zhongnanhai at 12:30). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 9b310c95
       rows:
         - 'w.zhou-enlai-waijiao-huodong 361: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: B'
+        - 'w.yang-shangkun-riji II, 281: A'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1963-05-22T04:00Z
@@ -3601,6 +4513,7 @@ entries:
   - id: cal.1963-05-22.china-leadership-3
     when: May 22
     date: '1963-05-22'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai attends the reception given by the Albanian Ambassador, Malile, for the Albanian press, youth, trade union and film delegations visiting China.
@@ -3626,9 +4539,39 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 519: all'
     tags: [polity:prc]
+  - id: cal.1963-05-22.china-leadership-5
+    when: May 22
+    date: '1963-05-22'
+    time: 1963-05-22T09:00Z
+    thread: china-leadership
+    c: Peking 北京, 5 p.m. Yang Shangkun 杨尚昆 reports to Liu Shaoqi 刘少奇 at his residence.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 22, 1963). The words: 下午处理文电，5时去少奇同志处，向他汇报了一些情况 (II, 281). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Shaoqi.'
+    src:
+      c: 71d25e60
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-22.china-leadership-6
+    when: May 22
+    date: '1963-05-22'
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原, Tong Xiaopeng 童小鹏 and Luo Qingchang 罗青长 with Yang Shangkun 杨尚昆 on the journey abroad, to 3 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 22, 1963). The words: 晚间孔原、小鹏、青长同志来谈出访情况 (II, 281). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Tong Xiaopeng, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: d33b0b3b
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-22T11:00Z
+      - 1963-05-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-23.alabama-birmingham
     when: May 23
     date: '1963-05-23'
+    place: alabama
     thread: alabama-birmingham
     also: [mayors, court]
     c: 'The State Supreme Court, Goodwyn writing: Boutwell and the council took office lawfully Apr. 15; the act of 1959 deferring a change of government to Oct. 1 of the next municipal election year does not govern Birmingham. The commissioners ousted; Connor leaves City Hall.'
@@ -3644,6 +4587,7 @@ entries:
     when: May 23
     date: '1963-05-23'
     time: 1963-05-23T12:00Z
+    place: addis-ababa
     thread: africa
     also: [civil-rights-the-executive]
     c: 'Addis Ababa. Korry, the ambassador to Ethiopia, to Rusk, 3 p.m.: Prime Minister Obote of Uganda, answering the President''s message to the African heads of state, protests the fire hoses and "snarling dogs" of Birmingham.'
@@ -3689,6 +4633,7 @@ entries:
   - id: cal.1963-05-23.conservation
     when: May 23, 28
     date: '1963-05-23'
+    place: washington
     thread: conservation
     c: The Subcommittee on National Parks of House Interior hears H.R. 3846 and the related bills for a land and water conservation fund. Executive sessions in July.
     n: Daily Digest, [109 Cong. Rec. D233](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=231) (House, May 23, 1963); Daily Digest, [109 Cong. Rec. D236](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=234) (House, May 28, 1963). [[w.bernstein-guns-or-butter]], 270 ("in May and July"). See [[cal.1963-03-07.conservation]].
@@ -3708,6 +4653,7 @@ entries:
     when: May 23
     date: '1963-05-23'
     time: 1963-05-23T05:30Z
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking, Xihuating. Zhou Enlai receives Kironde, research and information secretary of Uganda's People's Congress.
@@ -3721,6 +4667,7 @@ entries:
   - id: cal.1963-05-23.china-leadership-2
     when: May 23
     date: '1963-05-23'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai receives Albanian guests visiting Peking.
@@ -3735,9 +4682,51 @@ entries:
       - 1963-05-23T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-23.china-leadership-3
+    when: May 23
+    date: '1963-05-23'
+    thread: china-leadership
+    c: Peking 北京. Liu Huo 刘火 and Li Jian 李鉴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 23, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Huo, Li Jian, Yang Shangkun.'
+    src:
+      c: 362ab229
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-22T22:00Z
+      - 1963-05-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-23.china-leadership-4
+    when: May 23
+    date: '1963-05-23'
+    thread: china-leadership
+    c: Deng Xiaoping 邓小平 and others back in Peking 北京.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 23, 1963). The words: 小平等同志回京 (II, 281). See [[cal.1963-05-10.china-leadership-7]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping.'
+    src:
+      c: 20bf2f24
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-05-23.china-leadership-5
+    when: May 23
+    date: '1963-05-23'
+    time: 1963-05-23T08:30Z
+    thread: china-leadership
+    also: [soviet-union, korea-leadership, vietnam-hanoi]
+    c: 'Peking 北京, 4:30 to 6:30 p.m. At Liu Shaoqi''s 刘少奇, on the draft reply to the CPSU 复苏共信稿: Kim Il Sung 金日成, Hồ Chí Minh 胡志明, Lê Duẩn 黎笋 and others to be invited to Peking for their views.'
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 23, 1963). The words: 决定邀请金日成、胡志明、黎笋等同志到京，征求他们的意见 (II, 281). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Kim Il Sung, Hồ Chí Minh, Lê Duẩn.'
+    src:
+      c: 93467b4f
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, name:liu-shaoqi, name:kim-il-sung, name:ho-chi-minh, name:le-duan, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-24.civil-rights-the-executive
     when: May 24
     date: '1963-05-24'
+    place: nyc
     thread: civil-rights-the-executive
     also: [robert-kennedy]
     c: Robert Kennedy meets James Baldwin and a dozen others Baldwin brought, at the Kennedy apartment in New York. Three hours.
@@ -3824,6 +4813,7 @@ entries:
   - id: cal.1963-05-24.elections-1964-2
     when: May 24
     date: '1963-05-24'
+    place: white-plains
     thread: elections-1964
     c: White Plains, N.Y. The Hudson River Presbytery admonishes the Reverend Marshall L. Smith of the Union Church of Pocantico Hills, who married the Rockefellers, "a disturber of the peace and unity of the church"; Smith confesses his "deep regret" for breaking the year's wait the church requires.
     n: '[[w.novak-agony-of-the-g]], 146–47; [[w.white-making-of-the-president-1965]], 80 (the Presbytery''s censure of the pastor). See [[cal.1963-05-04.elections-1964]]. Names: Rockefeller.'
@@ -3842,6 +4832,7 @@ entries:
   - id: cal.1963-05-24.desegregation-public-places
     when: May 24
     date: '1963-05-24'
+    place: nyc
     thread: desegregation-public-places
     c: New York, an office in midtown. Robert Kennedy presses the northern owners of chain stores to desegregate their lunch counters in the South. Fearing reporters, they wait a floor below until one signals the all-clear.
     n: '[[w.thomas-robert-kennedy]], 244. To check: [[w.robert-kennedy-in-his]], 181 (cited by [[w.thomas-robert-kennedy]], 244 n.). See [[cal.1963-05-24.civil-rights-the-executive]]. Names: Robert Kennedy.'
@@ -3859,6 +4850,7 @@ entries:
   - id: cal.1963-05-24.europe-and-the-alliance
     when: May 24
     date: '1963-05-24'
+    place: ottawa
     thread: europe-and-the-alliance
     c: Ottawa. The North Atlantic Council assigns SACEUR the British bomber force and three Polaris submarines, gives him a Nuclear Deputy, and arranges allied officers in operational planning at SAC's headquarters at Omaha, McNamara having overridden the Joint Chiefs.
     n: '[[w.poole-joint-chiefs-of-staff]], 205. Names: McNamara.'
@@ -3880,9 +4872,59 @@ entries:
     c: 'Zhou Enlai agrees to Wang Shoudao''s proposal for a telephone conference of the transport departments, in the light of the *Yuejin* and other accidents, to "grasp safety in production hard." On the Ministry of Communications'' plan to call on its units to "act" on the lesson: too abstract; they are to tell all staff the report''s main points and the accidents, rouse them to discuss and suggest, and see it carried out, the mass line under leadership; drop official airs, the center of the Ministry''s five-antis.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 555 (May 24, 1963). Made public: 1997. To check: the plan and the comment. Names: Zhou Enlai, Wang Shoudao.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-24.china-leadership-2
+    when: May 24
+    date: '1963-05-24'
+    thread: china-leadership
+    c: Peking 北京. A meeting of the General Office 办公厅 on the five-antis 五反.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 24, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 699b1786
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-23T22:00Z
+      - 1963-05-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-24.china-leadership-3
+    when: May 24
+    date: '1963-05-24'
+    thread: china-leadership
+    also: [korea-leadership]
+    c: Peking 北京. An Il-18 伊尔-18 to be sent to Pyongyang 平壤; Kim Il Sung 金日成 and his party to reach Peking on the 26th.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 24, 1963). The words: 晚间决定派伊尔-18去平壤，金日成同志等一行将于26日到京 (II, 281). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kim Il Sung.'
+    src:
+      c: e9f87534
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc]
+    time_range:
+      - 1963-05-24T11:00Z
+      - 1963-05-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-24.china-leadership-4
+    when: May 24
+    date: '1963-05-24'
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 24, 1963). The words: 孔原同志来谈话，2时回家睡 (II, 281). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: e8b68451
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-24T14:00Z
+      - 1963-05-24T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-25.elections-1964
     when: May 25
     date: '1963-05-25'
+    place: south-carolina
     thread: elections-1964
     also: [goldwater]
     c: 'South Carolina''s Republican county chairmen, unanimous, make themselves the State''s Draft Goldwater Committee. O''Donnell, May 24: move the national committee to Washington.'
@@ -3903,6 +4945,7 @@ entries:
   - id: cal.1963-05-25.press-and-broadcasting
     when: May 25
     date: '1963-05-25'
+    place: nyc
     thread: press-and-broadcasting
     also: [robert-kennedy, civil-rights-the-executive]
     c: 'The *New York Times*, from Baldwin: "Robert Kennedy Fails to Sway Negroes at Secret Talks Here." Kennedy answers with leaks to Reston and others on Negro "moderates," Clarence Jones among them, bailing out under pressure.'
@@ -3924,6 +4967,7 @@ entries:
     when: May 25
     date: '1963-05-25'
     time: 1963-05-25T15:00Z
+    place: washington
     thread: economy
     also: [europe-and-the-alliance-france]
     c: 'Couve de Murville with Kennedy at the White House, 11 a.m. Kennedy: the United States $2.5 billion short again this year; the danger a run on gold. Couve asks whether Washington has considered changing the international price of gold; agreed beforehand, he says, it would bring no run. The United States, he says, has no real deficit, only too much export of capital.'
@@ -3944,15 +4988,17 @@ entries:
   - id: cal.1963-05-25.china-leadership-2
     when: May 25
     date: '1963-05-25'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai, with Liu Shaoqi and Deng Xiaoping, receives and dines Wilcox, general secretary of the Communist Party of New Zealand.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 25, 1963; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963; Liu receives Wilcox, general secretary of the New Zealand party, after the signing of the joint statement). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 25, 1963; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963; Liu receives Wilcox, general secretary of the New Zealand party, after the signing of the joint statement); [[w.yang-shangkun-riji]], II, 281–282 (May 25, 1963; Qinzheng Hall 勤政殿, from 5:30 p.m.: Liu Shaoqi receives Wilcox, talks, the signing, a meal, to 7:30; Yang there). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: ceeee678
       rows:
         - 'w.zhou-enlai-waijiao-huodong 361: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: B'
+        - 'w.yang-shangkun-riji II, 281–282: A-B'
     tags: [polity:prc, polity:nz, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc+nz]
     time_range:
       - 1963-05-25T11:00Z
@@ -3965,8 +5011,55 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi attends the signing of the Joint Statement of the Communist Party of China and the Communist Party of New Zealand.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 25, 1963); [[w.yang-shangkun-riji]], II, 281–282 (May 25, 1963; the signing at Qinzheng Hall, between 5:30 and 7:30 p.m.). Names: Liu Shaoqi.'
+    src:
+      c: 881adace
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: ?'
+        - 'w.yang-shangkun-riji II, 281–282: A'
     tags: [polity:prc, polity:nz, name:liu-shaoqi]
+  - id: cal.1963-05-25.china-leadership-4
+    when: May 25
+    date: '1963-05-25'
+    time: 1963-05-25T01:00Z
+    thread: china-leadership
+    c: Peking 北京, 9 to 11:20 a.m. The Party committee of the organs directly under the Center 中直党委 on the five-antis 五反 in its organs; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 25, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 98f4fd09
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-25.china-leadership-5
+    when: May 25
+    date: '1963-05-25'
+    time: 1963-05-25T03:30Z
+    thread: china-leadership
+    c: Peking 北京, 11:30 a.m. to 12:15 p.m. Deng Xiaoping 邓小平 with Yang Shangkun 杨尚昆 on arrangements for receiving several foreign guests.
+    n: '[[w.yang-shangkun-riji]], II, 281 (May 25, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: d36d715a
+      rows:
+        - 'w.yang-shangkun-riji II, 281: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-25.china-leadership-6
+    when: May 25
+    date: '1963-05-25'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 plays badminton 羽毛球 with all his family.
+    n: '[[w.yang-shangkun-riji]], II, 282 (May 25, 1963). The words: 与全家一同打羽毛球 (II, 282). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a708689d
+      rows:
+        - 'w.yang-shangkun-riji II, 282: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-25T11:00Z
+      - 1963-05-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-26.opinion-5
     when: May 26
     date: '1963-05-26'
@@ -4014,6 +5107,7 @@ entries:
   - id: cal.1963-05-26.king-2
     when: May 26
     date: '1963-05-26'
+    place: beverly-hills
     thread: king
     follows:
       - cal.1963-05-26.king
@@ -4067,6 +5161,7 @@ entries:
   - id: cal.1963-05-26.elections-1964
     when: May 26
     date: '1963-05-26'
+    place: nyc
     thread: elections-1964
     c: 'The *New York Times*, Warren Weaver''s dispatch from Washington: New York''s Republicans in Congress have had few more than 1,000 letters on the remarriage in three weeks, critical but for less than 1 percent, almost all from women. "If Congressional mail accurately mirrors public sentiment, Governor Rockefeller''s remarriage appears to have been a political disaster."'
     n: '[[w.novak-agony-of-the-g]], 147. See [[cal.1963-05-04.elections-1964]]. Names: Rockefeller.'
@@ -4141,9 +5236,27 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 550: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-05-26.china-leadership-6
+    when: May 26
+    date: '1963-05-26'
+    thread: china-leadership
+    also: [korea-leadership]
+    c: Peking 北京, the western suburbs' airport 西郊机场. Yang Shangkun 杨尚昆 meets Kim Il Sung 金日成 and his party, ten-odd, and takes them to the Diaoyutai guesthouse 钓鱼台宾馆 for a short talk; home by noon.
+    n: '[[w.yang-shangkun-riji]], II, 282 (May 26, 1963). See [[cal.1963-05-26.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kim Il Sung.'
+    src:
+      c: cbe3fb11
+      rows:
+        - 'w.yang-shangkun-riji II, 282: all'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk]
+    time_range:
+      - 1963-05-25T22:00Z
+      - 1963-05-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-27.court
     when: May 27
     date: '1963-05-27'
+    place: washington
     thread: court
     also: [desegregation-public-places]
     c: '*Watson v. City of Memphis*, [373 U.S. 526](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373526/usrep373526.pdf). The city''s parks to be desegregated now; "deliberate speed" no warrant for indefinite delay. Goldberg for a unanimous Court.'
@@ -4199,6 +5312,7 @@ entries:
   - id: cal.1963-05-27.testing
     when: May 27
     date: '1963-05-27'
+    place: washington
     thread: testing
     c: 'Humphrey and Dodd, with 32 cosponsors, introduce a resolution: try again for a ban on tests in the atmosphere and under water; no American tests while the Soviets refrain, the sites kept "in a state of constant readiness."'
     n: 'The Senate sat from noon to 6:25 p.m.: [Daily Digest, D231](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=229). [[w.poole-joint-chiefs-of-staff]], 101. Names: Humphrey, Dodd.'
@@ -4215,6 +5329,7 @@ entries:
   - id: cal.1963-05-27.republican-party-congress
     when: May 27
     date: '1963-05-27'
+    place: washington
     thread: republican-party-congress
     c: Senate Republican conference, 3:08 to 4:12 p.m., twenty-two present, on the debt limit. Williams, of Finance, recommends support for the committee's amendment fixing $309 billion for the whole fiscal year; the consensus is to support it. Javits urges a position for the Attorney General's power to sue in civil rights cases, "Part 3"; Saltonstall calls a conference on civil rights for June 5.
     n: '[[w.wolff-minutes-of-the-senate]], 961–63 (the call for ''Wednesday, June 5,'' 962). Names: Williams, Javits, Saltonstall.'
@@ -4226,6 +5341,7 @@ entries:
   - id: cal.1963-05-27.china-leadership
     when: May 27
     date: '1963-05-27'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the luncheon given by the Finnish Ambassador, Toivola.
@@ -4243,6 +5359,7 @@ entries:
   - id: cal.1963-05-27.china-leadership-2
     when: May 27
     date: '1963-05-27'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the national day reception given by the Afghan Ambassador, Mohammad Shoaib Miskinyar.
@@ -4263,8 +5380,27 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Zhou Enlai, Zhu De and Deng Xiaoping, holds talks with Kim Il Sung, general secretary of the Korean Workers' Party.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 27, 1963). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Kim Il Sung.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 27, 1963); [[w.yang-shangkun-riji]], II, 282 (May 27, 1963; the Great Hall of the People, Fujian Room, 4 to 6 p.m.; dinner on the third floor at 6:30; then *Sentinels under the Neon Lights* in the small auditorium, to midnight; Yang there). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Kim Il Sung.'
+    src:
+      c: bdc785c3
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: ?'
+        - 'w.yang-shangkun-riji II, 282: A'
     tags: [polity:prc, polity:dprk, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:kim-il-sung, vis:only:prc+dprk]
+  - id: cal.1963-05-27.china-leadership-4
+    when: May 27
+    date: '1963-05-27'
+    time: 1963-05-27T02:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京, 10 a.m. A discussion of two passages of the draft reply to be revised; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 282 (May 27, 1963). The words: 上午10时讨论复信稿修改的两段 (II, 282). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7b04f094
+      rows:
+        - 'w.yang-shangkun-riji II, 282: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-28.mississippi
     when: May 28
     date: '1963-05-28'
@@ -4296,6 +5432,7 @@ entries:
   - id: cal.1963-05-28.governors-ky
     when: May 28
     date: '1963-05-28'
+    place: kentucky
     thread: governors
     also: [elections-1963]
     c: 'Kentucky, Democratic primary for governor: Breathitt, of Combs''s faction, over Chandler, governor 1935–39 and 1955–59, 318,858 to 256,451, 53.8 percent. Nunn the Republican nominee, 77,455 to 10,039, 88.5 percent of the two.'
@@ -4311,6 +5448,7 @@ entries:
   - id: cal.1963-05-28.economy-debt-limit
     when: May 28
     date: '1963-05-28'
+    place: washington
     thread: economy-debt-limit
     c: Senate passes H.R. 6009, [60–24](https://voteview.com/rollcall/RS0880070). The Finance Committee's amendment, $309 billion through fiscal 1964, rejected, [38–46](https://voteview.com/rollcall/RS0880069).
     n: 'The Senate sat from noon to 7:20 p.m.: [Daily Digest, D235](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=233). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-9-2.pdf) (1963). See [[cal.1963-05-15.economy]]. Check: the page.'
@@ -4349,6 +5487,7 @@ entries:
   - id: cal.1963-05-28.civil-rights-bill
     when: May 28
     date: '1963-05-28'
+    place: washington
     thread: civil-rights-bill
     also: [voting-rights]
     c: 'House Judiciary Subcommittee No. 5, the civil rights hearings: Moses, Sherrod and Timothy Jenkins of SNCC testify.'
@@ -4386,6 +5525,7 @@ entries:
   - id: cal.1963-05-28.school-aid
     when: May 28
     date: '1963-05-28'
+    place: nyc
     thread: school-aid
     also: [press-and-broadcasting]
     c: 'The *Times*, editorially: the breakup no surprise, the omnibus bill a White Paper on the nation''s needs; but the first places go to the least critical, such as impacted areas, "with the loudest overtones of the pork barrel."'
@@ -4420,6 +5560,43 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 569: all'
     tags: [polity:prc, name:liu-shaoqi, name:kim-il-sung, name:deng-xiaoping, name:mao-zedong, vis:only:prc+dprk]
+    variants:
+      - unit: B
+        witness: w.yang-shangkun-riji
+        reads: 'Yang Shangkun''s diary: Kim Il Sung and his party fly from Peking''s western suburbs'' airport to Hankou on May 29, taking off at 9 a.m. and landing before noon; on May 28 Yang arranges the special plane for the next day'
+        at: II, 282–283, May 29, 1963
+  - id: cal.1963-05-28.china-leadership-3
+    when: May 28
+    date: '1963-05-28'
+    thread: china-leadership
+    c: Peking 北京. Li Fuchun 李富春 presides at a meeting hearing Ma Wenrui 马文瑞 on the labor and wages conference; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 282 (May 28, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Ma Wenrui, Yang Shangkun.'
+    src:
+      c: 8e3519a4
+      rows:
+        - 'w.yang-shangkun-riji II, 282: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1963-05-27T22:00Z
+      - 1963-05-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-28.china-leadership-4
+    when: May 28
+    date: '1963-05-28'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Li Shuhuai 李树槐 on the special plane to fly to Hankou 汉口 the next day.
+    n: '[[w.yang-shangkun-riji]], II, 282 (May 28, 1963). The words: 下午约李树槐谈明天专机飞汉口事项 (II, 282). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Shuhuai.'
+    src:
+      c: c471d191
+      rows:
+        - 'w.yang-shangkun-riji II, 282: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-28T04:00Z
+      - 1963-05-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-29.economy-debt-limit
     when: May 29
     date: '1963-05-29'
@@ -4513,11 +5690,18 @@ entries:
     date: '1963-05-29'
     thread: china-leadership
     c: Zhou Enlai, "A Great Socialist Revolutionary Movement," twice, May 29 and June 13, to meetings of responsible cadres of the Central Committee's and State Council's organs, on the draft decision on rural work and bureaucracy in the five-antis. Bureaucracy, the political disease leading organs most easily catch, decays cadres and masses and at worst is a decline of revolutionary will; he gives its roots and twenty forms, four basic buildups (thought, politics, organization, economy), and the five hurdles for leading cadres.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 29, June 13, 1963). Continues 557. Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 29, June 13, 1963); [[w.yang-shangkun-riji]], II, 283 (May 29, 1963; Huairen Tang, 3:30 to 6:30 p.m.: Zhou''s report relaying the "Decision on rural work"; Yang there); [[w.yang-shangkun-riji]], II, 286 (June 13, 1963; Huairen Tang, June 13, 3:30 to 7 p.m., the Premier''s report against bureaucracy; Yang there). Continues 557. Made public: 1997. To check: the Central Committee''s "Decision on some questions of present rural work (draft)" (cited by [[w.yang-shangkun-riji]], II, 283 n.1). Names: Zhou Enlai.'
+    src:
+      c: 4ef461cc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 556: ?'
+        - 'w.yang-shangkun-riji II, 283: A'
+        - 'w.yang-shangkun-riji II, 286: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-05-29.china-leadership-3
     when: May 29
     date: '1963-05-29'
+    place: wuhan
     thread: china-leadership
     also: [soviet-union]
     follows:
@@ -4532,6 +5716,70 @@ entries:
     time_range:
       - 1963-05-29T04:00Z
       - 1963-05-29T14:00Z
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-29.china-leadership-4
+    when: May 29
+    date: '1963-05-29'
+    time: 1963-05-29T00:30Z
+    thread: china-leadership
+    also: [korea-leadership]
+    c: Peking 北京, the western suburbs' airport 西郊机场, 8:30 a.m. Yang Shangkun 杨尚昆 sees Kim Il Sung 金日成 and his party off to Hankou 汉口; they take off at 9 and land safely before noon.
+    n: '[[w.yang-shangkun-riji]], II, 282–283 (May 29, 1963). The words: 8时半去西郊机场送金日成等一行去汉口，9时起飞，12时前已安全到达 (II, 282). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kim Il Sung.'
+    src:
+      c: c900fa2f
+      rows:
+        - 'w.yang-shangkun-riji II, 282–283: all'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-29.china-leadership-5
+    when: May 29
+    date: '1963-05-29'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Xiao Guang 肖光 and Tong Xiaopeng 童小鹏 on the conference on confidential work 机要工作会议.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 29, 1963). The words: 晚间约肖光、小鹏谈机要工作会议，孔原同志来谈到1时才走 (II, 283). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Xiao Guang, Tong Xiaopeng.'
+    src:
+      c: ea220cba
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-29T11:00Z
+      - 1963-05-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-29.china-leadership-6
+    when: May 29
+    date: '1963-05-29'
+    thread: china-leadership
+    c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆, to 1 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 29, 1963). The words: 晚间约肖光、小鹏谈机要工作会议，孔原同志来谈到1时才走 (II, 283). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 804fba6d
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-29T11:00Z
+      - 1963-05-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-29.china-leadership-7
+    when: May 29
+    date: '1963-05-29'
+    thread: china-leadership
+    follows:
+      - cal.1963-05-29.china-leadership-6
+    c: Yao Zhen 姚溱 telephones Yang Shangkun 杨尚昆, Peking 北京, from Hankou 汉口.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 29, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yao Zhen, Yang Shangkun.'
+    src:
+      c: fb02f7af
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-29T14:00Z
+      - 1963-05-29T16:00Z
+    time_band: night
     time_zone: Asia/Shanghai
   - id: cal.1963-05-30.civil-rights-the-executive
     when: May 30
@@ -4613,6 +5861,34 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 572–574: all'
     tags: [polity:prc, name:mao-zedong, name:kim-il-sung, vis:only:prc+dprk]
+  - id: cal.1963-05-30.china-leadership-3
+    when: May 30
+    date: '1963-05-30'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Ma Chungu 马纯古 and Chen Shaomin 陈少敏 on the five-antis 五反 in the Party group of the All-China Federation of Trade Unions 全总党组.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 30, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ma Chungu, Chen Shaomin.'
+    src:
+      c: aafad039
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-05-30T04:00Z
+      - 1963-05-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-30.china-leadership-4
+    when: May 30
+    date: '1963-05-30'
+    thread: china-leadership
+    also: [korea-leadership, vietnam-hanoi]
+    c: Yao Zhen 姚溱 reports from Hankou 汉口 on the talks there; Yang Shangkun 杨尚昆 passes it on to Zhou Enlai 周恩来. Kim Il Sung's 金日成 party to go home the next day; the Vietnamese comrades to reach Hankou the next day.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 30, 1963). The words: 金日成等一行定明天回国，越南同志明天到达汉口 (II, 283). See [[cal.1963-05-30.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yao Zhen, Yang Shangkun, Zhou Enlai, Kim Il Sung.'
+    src:
+      c: e0b0d704
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, name:zhou-enlai, name:kim-il-sung, vis:only:prc]
   - id: cal.1963-05-31.mississippi
     when: May 31
     date: '1963-05-31'
@@ -5371,3 +6647,46 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 538–545: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-05-31.china-leadership-3
+    when: May 31
+    date: '1963-05-31'
+    thread: china-leadership
+    also: [korea-leadership, vietnam-hanoi]
+    c: Yang Shangkun 杨尚昆, Peking 北京, on the telephone with Hankou 汉口. At noon Kim Il Sung 金日成 safely in Pyongyang 平壤; the southern guests cannot fly in.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 31, 1963). The words: 中午金已安抵平壤。南边客人飞不过来 (II, 283). See [[cal.1963-05-31.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kim Il Sung.'
+    src:
+      c: 418e3458
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc]
+    time_range:
+      - 1963-05-30T22:00Z
+      - 1963-05-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-31.china-leadership-4
+    when: May 31
+    date: '1963-05-31'
+    time: 1963-05-31T07:30Z
+    thread: china-leadership
+    c: Peking 北京, the 18th Guesthouse 18所, 3:30 p.m. Yang Shangkun 杨尚昆 speaks to the national conference on confidential work 全国机工会议.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 31, 1963). The words: 下午3时半去18所向全国机工会议同志们讲话 (II, 283). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0058f77e
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-31.china-leadership-5
+    when: May 31
+    date: '1963-05-31'
+    time: 1963-05-31T13:00Z
+    thread: china-leadership
+    c: Peking 北京, 9 p.m. to 1 a.m. Li Jiebo 李颉伯 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 31, 1963). The words: 晚间李颉伯同志来，由9时谈到1时 (II, 283). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jiebo, Yang Shangkun.'
+    src:
+      c: 8e87f6ee
+      rows:
+        - 'w.yang-shangkun-riji II, 283: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai

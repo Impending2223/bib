@@ -20,6 +20,7 @@ entries:
   - id: cal.1963-12-01.transition-and-staff
     when: Dec. 1
     date: '1963-12-01'
+    place: washington
     thread: transition-and-staff
     c: 'Sunday. Johnson, back from St. Mark''s with McPherson, in the Oval Office: Rowe, estranged since the 1960 campaign, comes in; Johnson apologizes, asks his support and counsel: "Damn it, can''t you be content to be the first man the thirty-sixth President of the United States has apologized to?" By McPherson''s account.'
     n: '[[w.mcpherson-political-education]], 215–16; [[w.kotz-judgment-days]], 29–30 ("his second Sunday in the White House"; the apology); [[w.bernstein-guns-or-butter]], 21 (the breach with Rowe repaired, an apology). Check: the day; McPherson, "the following week" after Sunday, Nov. 24. To check: R; o; w; e; ,; ; O; r; a; l; H; i; s; t; y; I; n; v; 2; 9; L; B; J; b; (; c; d; [; -; g; u; ]; 1; ). Names: Johnson, McPherson, Rowe.'
@@ -59,6 +60,7 @@ entries:
   - id: cal.1963-12-01.elections-1964
     when: Dec. 1
     date: '1963-12-01'
+    place: nyc
     thread: elections-1964
     also: [press-and-broadcasting]
     c: 'Sunday. The *New York Times*, front page: "EISENHOWER URGES LODGE TO PURSUE GOP NOMINATION." Felix Belair, Jr., from Washington: Eisenhower has asked Lodge to make himself available and to come home from Saigon soon; Lodge among the few who could meet Johnson on war and peace; Rockefeller not recovered, Nixon of limited appeal, Scranton not available.'
@@ -91,6 +93,7 @@ entries:
   - id: cal.1963-12-01.poverty
     when: Dec. 1
     date: '1963-12-01'
+    place: washington
     thread: poverty
     c: 'The Elms, Sunday supper. Johnson with Elizabeth Wickenden and Arthur Goldschmidt, friends from the New Deal: "I feel a moral obligation to carry on the things that Kennedy proposed, but I have to have issues I can take on as my own. I have to get reelected in a year." Poverty perhaps his issue.'
     n: '[[w.kotz-judgment-days]], 27 (Kotz spells her Wickendon). To check: [[w.lemann-promised-land]], 142; Arthur Goldschmidt and Elizabeth Wickenden, oral history, tape 2, LBJ Library (cited by [[w.kotz-judgment-days]], 27 n.34). Check: the day; Kotz gives a Sunday supper at The Elms after Heller''s visit of Nov. 23, no date (Johnson at The Elms to Dec. 7: Nov. 24 or Dec. 1). See [[cal.1963-11-23.poverty-2]]. Names: Johnson, Goldschmidt, Kennedy.'
@@ -113,6 +116,34 @@ entries:
     c: Liu Shaoqi receives Thakin Ba Thein Tin, vice-chairman of the Burmese Communist Party's Central Committee, and talks with him.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 586 (Dec. 1, 1963). Made public: 1996. Names: Liu Shaoqi. Check: the Latin form of 德钦巴登顶.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-12-01.china-leadership-2
+    when: Dec. 1
+    date: '1963-12-01'
+    time: 1963-12-01T09:00Z
+    thread: china-leadership
+    c: Peking 北京, 5 p.m. The CPPCC's Standing Committee 政协常委会 meets; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 331 (Dec. 1, 1963). The words: 下午看了电影后，5时去开政协常委会 (II, 331). Names: Yang Shangkun.'
+    src:
+      c: e4a49167
+      rows:
+        - 'w.yang-shangkun-riji II, 331: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-01.china-leadership-3
+    when: Dec. 1
+    date: '1963-12-01'
+    time: 1963-12-01T11:00Z
+    thread: china-leadership
+    follows:
+      - cal.1963-12-01.china-leadership-2
+    c: Peking 北京, the Overseas Chinese Building 华侨大厦, 7 to 8:45 p.m. A dinner; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 331 (Dec. 1, 1963). The words: 7时到8时3刻，在华侨大厦吃饭 (II, 331). Names: Yang Shangkun.'
+    src:
+      c: ffa54bf0
+      rows:
+        - 'w.yang-shangkun-riji II, 331: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-02.africa
     when: Dec. 2
     date: '1963-12-02'
@@ -381,11 +412,17 @@ entries:
     date: '1963-12-02'
     thread: china-leadership
     c: 'Zhou Enlai at the Fourth Session of the Second NPC, report on the international situation, socialist education and the plan of the transition stage. In it he gives eight principles of China''s foreign aid. Of class struggle in China: socialist education is only a beginning; teach, hold no struggle meetings; leading cadres to criticize bureaucracy, settle in a place and work with their hands; promote young and middle-aged able cadres. For the three transition years an all-round arrangement and balance. He names sixteen problems for the next two or three five-year plans.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 597 (Dec. 2, 1963). Continues 598; the eight principles are given in fuller form Jan. 15, 1964. To check: the report as printed. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 597 (Dec. 2, 1963); [[w.yang-shangkun-riji]], II, 331 (Dec. 2, 1963; the NPC, 3 to 6:30 p.m., He Long''s and Zhou''s speeches; Yang there). Continues 598; the eight principles are given in fuller form Jan. 15, 1964. To check: the report as printed. Names: Zhou Enlai.'
+    src:
+      c: 31f6be23
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 597: ?'
+        - 'w.yang-shangkun-riji II, 331: A'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1963-12-03.state-constitutions-ok
     when: Dec. 3
     date: '1963-12-03'
+    place: oklahoma
     thread: state-constitutions
     c: 'Oklahoma, special election. $7 million in debt for the University of Oklahoma Medical Center adopted, 152,940 to 56,137, 73.2 percent. Refused: four-year terms for county officers, 64,042 to 142,057, 31.1 percent, and for county judges; four-year terms for State representatives and six for senators, 43,907 to 160,649, 21.5 percent.'
     n: '[Okla. State Election Bd., *Election Results, 1958–1966*, p. 39–40](https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=39). See [[cal.1962-05-22.state-constitutions-ok]].'
@@ -400,6 +437,7 @@ entries:
   - id: cal.1963-12-03.legislatures-ia
     when: Dec. 3
     date: '1963-12-03'
+    place: iowa
     thread: legislatures
     also: [state-constitutions]
     c: 'Iowa rejects the Shaff plan at a special election, 190,424 to 272,382, 41.1 percent: a Senate of 58 by population, a House of 99, one to a county. The federal court, May 3, had held the apportionment of 1904 and 1928 invidiously discriminatory and let the election go ahead; Judge McManus would have enjoined it. Jan. 14, 1964, the court orders a special session to reapportion before the 1964 elections.'
@@ -607,17 +645,19 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Chervonenko gives Yang Shangkun and Wu Xiuquan the Soviet Central Committee's letter of Nov. 29, asking an end to the public polemics and a conference of fraternal parties. Mao decides on the spot that Deng Xiaoping shall read it at the NPC's closing session.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 3, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 655 (the CPSU letter of Nov. 29, its date and contents; Wu does not give its handing: it asks an end to the open polemic and a conference of the brother parties; it offers more trade and orders, complete sets of equipment, oil and mining equipment above all, experts if China wishes, a coordination of the new five-year plans, and talks on some stretches of the border; Wu: "the stick and the carrot"). Made public: 1999. To check: the Soviet letter of Nov. 29, 1963. Names: Mao Zedong, Chervonenko, Deng Xiaoping, Yang Shangkun, Wu Xiuquan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 3, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 655 (the CPSU letter of Nov. 29, its date and contents; Wu does not give its handing: it asks an end to the open polemic and a conference of the brother parties; it offers more trade and orders, complete sets of equipment, oil and mining equipment above all, experts if China wishes, a coordination of the new five-year plans, and talks on some stretches of the border; Wu: "the stick and the carrot"); [[w.yang-shangkun-riji]], II, 331 (Dec. 3, 1963; the Fujian Room, 3:30 p.m.: Yang and Wu Xiuquan receive the Soviet Ambassador, who hands over a letter of Nov. 29 signed by Khrushchev to Mao; Mao decides on the spot that Deng read it at the congress). Made public: 1999. Check: Yang Shangkun''s diary has the letter signed by Khrushchev to Chairman Mao (由赫署名致毛主席; [[w.yang-shangkun-riji]], II, 331), not the Central Committee''s. To check: the Soviet letter of Nov. 29, 1963. Names: Mao Zedong, Chervonenko, Deng Xiaoping, Yang Shangkun, Wu Xiuquan.'
     src:
       c: '79164762'
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Dec. 3, 1963: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 655: A'
+        - 'w.yang-shangkun-riji II, 331: A-B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, name:deng-xiaoping, vis:only:prc+ussr]
   - id: cal.1963-12-03.china-leadership-2
     when: Dec. 3
     date: '1963-12-03'
     time: 1963-12-03T13:15Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai tells Banerjee, India''s chargé d''affaires about to leave: Sino-Indian relations should improve and not worsen; no more war of notes.'
@@ -629,9 +669,39 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 377: A'
     tags: [polity:prc, polity:india, name:zhou-enlai, vis:only:prc+india]
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-03.china-leadership-3
+    when: Dec. 3
+    date: '1963-12-03'
+    thread: china-leadership
+    c: Peking 北京. The CPPCC's group meets; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 331 (Dec. 3, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: '27951421'
+      rows:
+        - 'w.yang-shangkun-riji II, 331: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-02T22:00Z
+      - 1963-12-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-03.china-leadership-4
+    when: Dec. 3
+    date: '1963-12-03'
+    time: 1963-12-03T07:00Z
+    thread: china-leadership
+    c: Peking 北京, 3 to 8:30 p.m. The closing session of the National People's Congress 人民代表大会; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 331 (Dec. 3, 1963). See [[cal.1963-11-17.china-leadership]]. The words: 下午3时到8时半，参加人民代表大会的闭幕式 (II, 331). Names: Yang Shangkun.'
+    src:
+      c: d13298dd
+      rows:
+        - 'w.yang-shangkun-riji II, 331: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-04.africa
     when: Dec. 4
     date: '1963-12-04'
+    place: nyc
     thread: africa
     c: 'Security Council, Resolution 182, unanimous: South Africa called on again; all states to observe the arms embargo of Aug. 7; the Secretary-General to name a group of experts.'
     n: '[S.C. Res. 182](https://undocs.org/S/RES/182(1963)) (Dec. 4, 1963). See [[cal.1963-08-02.africa]].'
@@ -733,6 +803,7 @@ entries:
   - id: cal.1963-12-04.civil-rights-bill-2
     when: Dec. 4
     date: '1963-12-04'
+    place: washington
     thread: civil-rights-bill
     c: The morning after Meany's ride, Johnson stops his limousine for Halleck and takes him to breakfast at the White House. Halleck leaves pledging to cooperate with the new President.
     n: '[[w.kotz-judgment-days]], 35; [[w.whalen-longest-debate]], 83 ("thick bacon"; the scheduling of the bill); [[w.risen-bill-of-the-century]], 143 (Halleck at the White House breakfast the morning after the ride; Johnson asks him to release his members, the Purdue center); [[w.purdum-idea-whose-time-has-2014]], 165 (Johnson picks Halleck up in the limousine for the ride downtown and a breakfast of "thick bacon"; Purdum''s day is Thursday, Dec. 5, the day after Dirksen''s breakfast of Wednesday, Dec. 4, as Risen''s and Whalen''s; not Meany''s ride nor the pledge). Check: Whalen, 83, dates Halleck''s ride and breakfast Thursday, Dec. 5 ([*New York Times*, Dec. 6, 1963](https://timesmachine.nytimes.com/timesmachine/1963/12/06/issue.html), 1, cited 253). To check: [[w.stern-calculating-visions]], 168 (cited by [[w.kotz-judgment-days]], 35 n.60). Check: the day; Kotz gives "the next morning" after Meany''s. See [[cal.1963-12-03.civil-rights-bill]]. Names: Johnson, Halleck.'
@@ -770,6 +841,7 @@ entries:
   - id: cal.1963-12-04.cuba
     when: Dec. 4
     date: '1963-12-04'
+    place: moscow
     thread: cuba
     also: [soviet-union]
     c: The Presidium sends Podgorny to Cuba, Brezhnev to Czechoslovakia. At the plenum the medical report on Kozlov to be read; Shcherbitsky out as a candidate member of the Presidium, Shelest in, not recorded.
@@ -810,6 +882,7 @@ entries:
   - id: cal.1963-12-04.civil-rights-bill-3
     when: Dec. 4
     date: '1963-12-04'
+    place: washington
     thread: civil-rights-bill
     also: [civil-rights-organizations]
     c: 'Farmer of CORE with Johnson, after Dirksen. Johnson for public accommodations: the story of Zephyr Wright, his cook, who would not take the beagle on the drive to Texas, "Driving through the South is tough enough."'
@@ -850,9 +923,23 @@ entries:
     c: 'New York. Stevenson to Schlesinger: "You know, things are ten times better for me now than they were before." He has known Johnson thirty years: "We talk the same language—much more than I did with Kennedy. I think that, if I said the word, Rusk and Bundy would go; but I told Johnson and [Abe] Fortas that they both should be kept." By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 211. Made public: [[w.schlesinger-journals]] (2007). See [[cal.1963-11-25.succession-4]]. Names: Stevenson, Schlesinger, Johnson, Kennedy, Rusk, Bundy, Fortas.'
     tags: [name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b, name:rusk-dean, name:bundy-mcgeorge, name:kennedy-john-f, city:nyc, state:ny, name:fortas-abe]
+  - id: cal.1963-12-04.china-leadership
+    when: Dec. 4
+    date: '1963-12-04'
+    time: 1963-12-04T02:00Z
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. to 12:30 p.m. The CPPCC session closes; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 331 (Dec. 4, 1963). See [[cal.1963-11-17.china-leadership]]. The words: 上午10时到12时半，政协会议闭幕 (II, 331). Names: Yang Shangkun.'
+    src:
+      c: 3d624991
+      rows:
+        - 'w.yang-shangkun-riji II, 331: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-05.assassination
     when: Dec. 5
     date: '1963-12-05'
+    place: washington
     thread: assassination
     c: The Warren Commission's first meeting, at the National Archives. The FBI's summary report to it, Dec. 9. Rankin its general counsel.
     n: '[Warren Commission, executive session transcript, Dec. 5, 1963](https://aarclibrary.org/publib/jfk/wc/wcexec/wcex1205/html/WCEX1205_0001a.htm) (AARC). National Archives: JFK Assassination Records Collection (K–J Adm. II.K). See [[cal.1963-11-29.assassination]]. Names: Warren, Rankin.'
@@ -866,6 +953,7 @@ entries:
   - id: cal.1963-12-05.legislatures-ks
     when: Dec. 5
     date: '1963-12-05'
+    place: kansas
     thread: legislatures
     c: 'Kansas Supreme Court, *Harris v. Shanahan*: the Senate apportionment of 1963 (Senate Bill 440) and the House''s of 1961 void. It had withheld judgment Jan. 31 to give the 1963 legislature its chance. Governor Anderson calls a special session, which passes new apportionments, Senate Bill 2 and House Bill 2; the court holds them valid, Mar. 30, 1964.'
     n: '*Harris v. Shanahan*, [191 Kan. 1](https://static.case.law/kan/191/case-pdfs/0001-01.pdf), 378 P.2d 157 (1963); [192 Kan. 183](https://static.case.law/kan/192/case-pdfs/0183-01.pdf), 387 P.2d 771 (1963); [192 Kan. 629](https://static.case.law/kan/192/case-pdfs/0629-01.pdf), 390 P.2d 772 (1964). [[w.peirce-great-plains-states-of]], 237 (Harris''s suit of 1961; the court''s order of 1963 on the Senate). To check: [[w.dixon-democratic-representation]]; [[w.socolofsky-kansas-governors]]. See [[cal.1962-03-26.court]]. Names: Anderson.'
@@ -908,6 +996,7 @@ entries:
   - id: cal.1963-12-05.economy
     when: Dec. 5
     date: '1963-12-05'
+    place: washington
     thread: economy
     c: 'Harry Byrd to lunch in the small office off the Oval Office, asked by telephone Dec. 4, Valenti present. Byrd''s terms: the budget under $100 billion, in writing, seen by him and Williams, before the tax bill leaves Finance. To reporters: "what I''ve been asking for all along."'
     n: '[Johnson and Byrd, Dec. 4, 4:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-harry-byrd-december-4-1963), Tape K6312.03, PNO 19 (Miller Center) (the invitation). [[w.caro-passage-of-power]], 475–77 (Valenti''s accounts and Byrd''s to reporters); [[w.zelizer-fierce-urgency-of-now]], 78–79 (the lunch; Byrd: "Too big, Mr. President, too big"; under $100 billion, he would let the bill come to a vote); [[w.bernstein-guns-or-butter]], 32 (the meeting; Byrd''s statement: the budget to the Congress before the tax bill is enacted); [[w.valenti-very-human-president]], 196–98 (the lunch of Dec. 5, in the small office off the Oval Office, Valenti sitting in; Byrd: "if you got the budget under 100 billion dollars we might be able to do some business"; Johnson: "Harry, you have made a deal," then "Get Kermit Gordon in here"; not the call of Dec. 4, the writing or Williams); [[w.purdum-idea-whose-time-has-2014]], 166–67 (Byrd''s price for moving the tax bill: a budget under $100 billion, promised by the President; not the lunch nor the terms in writing). To check: Jack Valenti OH II, LBJ Library; [Johnson and Robert Anderson, joined by Byrd, Dec. 5, 2:14 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-anderson-december-5-1963), Tape K6312.04 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment); *Time*, Dec. 13, 1963 (cited by [[w.caro-passage-of-power]], 476). See [[cal.1963-11-25.economy]]. Names: Byrd, Johnson, Valenti, Williams.'
@@ -949,6 +1038,7 @@ entries:
   - id: cal.1963-12-05.republican-party
     when: Dec. 5
     date: '1963-12-05'
+    place: washington
     thread: republican-party
     also: [elections-1964]
     c: 'The *Washington Star*: "the first signs of an organized effort to gain the 1964 Republican presidential nomination" for Nixon. Hall says he met the week before with Nixon and with Eisenhower "to discuss changes in the political situation."'
@@ -986,6 +1076,7 @@ entries:
   - id: cal.1963-12-05.transition-and-staff
     when: Dec. 5
     date: '1963-12-05'
+    place: washington
     thread: transition-and-staff
     c: 'Afternoon, the President''s office: officials on the ceremony for the Medals of Freedom. Kennedy had planned forty-five minutes; Johnson, tired of being told what Kennedy wanted done, will give it ten minutes on television. Ball upset; Sorensen leaves the room.'
     n: '[[w.white-making-of-the-president-1965]], 57. Names: Johnson, Kennedy, Ball, Sorensen.'
@@ -1028,6 +1119,7 @@ entries:
   - id: cal.1963-12-05.economy-2
     when: Dec. 5
     date: '1963-12-05'
+    place: washington
     thread: economy
     c: Ways and Means orders H.R. 8000 reported, amended, after executive sessions Dec. 3–4.
     n: Daily Digest, [109 Cong. Rec. D585](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=583); [109 Cong. Rec. D589](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=587); [109 Cong. Rec. D593](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=591). See [[cal.1963-10-21.economy]].
@@ -1166,6 +1258,32 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 121 n.2: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 121 n.4: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-12-05.china-leadership-6
+    when: Dec. 5
+    date: '1963-12-05'
+    time: 1963-12-05T02:00Z
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. to 12:30 p.m. A meeting of the General Office 办公厅 on study.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 5, 1963). The words: 上午10时到12时半，办公厅会议，讨论学习问题 (II, 332). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 02350a09
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-05.china-leadership-7
+    when: Dec. 5
+    date: '1963-12-05'
+    time: 1963-12-05T12:00Z
+    thread: china-leadership
+    c: Peking 北京, 8 to 10 p.m. Yang Shangkun 杨尚昆 with Kong Yuan 孔原, Tong Xiaopeng 童小鹏 and others on matters of the journey abroad.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 5, 1963). See [[cal.1963-12-05.china-leadership]]. The words: 晚间休息后，约孔原、小鹏等同志谈出访有关事宜，8时到10时 (II, 332). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Tong Xiaopeng.'
+    src:
+      c: 1d3db3ee
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-06.opinion
     when: Dec. 6
     date: '1963-12-06'
@@ -1231,6 +1349,7 @@ entries:
   - id: cal.1963-12-06.civil-rights-bill
     when: Dec. 6
     date: '1963-12-06'
+    place: washington
     thread: civil-rights-bill
     also: [press-and-broadcasting, rules]
     c: 'The *Washington Post*''s editorial, "Tyrant in the House": "the tyrant who heads that Committee, Howard Smith of Virginia, has held up an imperious hand forbidding the House to act on civil rights legislation."'
@@ -1311,7 +1430,12 @@ entries:
     date: '1963-12-06'
     thread: china-leadership
     c: Zhou Enlai flies to Canton.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 599 (Dec. 6, 1963). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 599 (Dec. 6, 1963); [[w.yang-shangkun-riji]], II, 332 (Dec. 6, 1963; the western suburbs'' airport, 9 a.m., Yang seeing Zhou off to Canton, "the start of the journey abroad"). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 8e85cafd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 599: ?'
+        - 'w.yang-shangkun-riji II, 332: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-12-06.china-leadership-2
     when: Dec. 6
@@ -1324,6 +1448,35 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 120–121: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1963-12-06.china-leadership-3
+    when: Dec. 6
+    date: '1963-12-06'
+    time: 1963-12-06T07:00Z
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂, Fujian Room 福建厅, 3 to 7 p.m. A banquet for 柯生; Deng Xiaoping 邓小平, Kang Sheng 康生, Wu Xiuquan 伍修权 and Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 6, 1963). See [[cal.1963-08-29.china-leadership-6]]. The words: 下午3时到7时在福建厅宴请柯生同志，到小平、康生、修权等同志 (II, 332). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Kang Sheng, Wu Xiuquan, Yang Shangkun. Check: who 柯生 was: the diary names him only.'
+    src:
+      c: 2979a2f1
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-06.china-leadership-4
+    when: Dec. 6
+    date: '1963-12-06'
+    thread: china-leadership
+    c: Peking 北京. Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 6, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: d8385fb9
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-05T22:00Z
+      - 1963-12-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-07.economy
     when: Dec. 7
     date: '1963-12-07'
@@ -1349,6 +1502,7 @@ entries:
   - id: cal.1963-12-07.governors-la
     when: Dec. 7
     date: '1963-12-07'
+    place: louisiana
     thread: governors
     also: [elections-1963]
     c: Louisiana's Democratic primary for governor. Morrison, lately Ambassador to the OAS, over McKeithen, a public service commissioner, 299,702 to 157,304, 33.1 percent; U.S. Representative Gillis Long 137,778, 15.2 percent; Kennon, governor 1952–56, 127,870, 14.1 percent; six others. Runoff between Morrison and McKeithen.
@@ -1436,6 +1590,7 @@ entries:
   - id: cal.1963-12-07.civil-rights-bill
     when: Dec. 7
     date: '1963-12-07'
+    place: washington
     thread: civil-rights-bill
     c: 'Russell in the White House pool with Johnson, by Valenti''s account. Johnson: "I''m going to pass it just as it is, Dick, and if you get in my way I''m going to run you down." Russell: "if you do run over me, it will not only cost you the South, it will cost you the election."'
     n: '[[w.branch-pillar-of-fire]], 187; [[w.kotz-judgment-days]], 38 (Dec. 7, the swim and lunch, then the Oval Office). Check: Kotz, from Branch, 187, gives "Dick, you''ve got to get out of my way. ... I''m going to roll over you" and Russell, "it''s going to cost you the South, and cost you the election" (38). To check: [[w.johnson-vantage-point]]. See [[cal.1963-12-07.vietnam-congress]]. Names: Russell, Johnson, Valenti.'
@@ -1486,6 +1641,7 @@ entries:
   - id: cal.1963-12-07.economy-2
     when: Dec. 7
     date: '1963-12-07'
+    place: washington
     thread: economy
     also: [elections-1964-johnson]
     c: 'The Cabinet Room. Johnson with eighty-nine business leaders, on the tax bill: "Call me Lyndon."'
@@ -1537,6 +1693,56 @@ entries:
     c: Zhou Enlai tours the Pearl River mouth front units in the South Sea Fleet's ship no. 846, Dec. 7 and 8, and tells the sailors they work hard and with honor; with them guarding the sea Mao and the whole people are at ease.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 7–8, 1963). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, polity:roc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-12-07.china-leadership-3
+    when: Dec. 7
+    date: '1963-12-07'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 talks at Li Fuchun's 李富春.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 7, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Fuchun.'
+    src:
+      c: 91d96904
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1963-12-06T22:00Z
+      - 1963-12-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-07.china-leadership-4
+    when: Dec. 7
+    date: '1963-12-07'
+    thread: china-leadership
+    follows:
+      - cal.1963-12-07.china-leadership-3
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 7, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: c7106629
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-06T22:00Z
+      - 1963-12-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-07.china-leadership-5
+    when: Dec. 7
+    date: '1963-12-07'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃 on work.
+    n: '[[w.yang-shangkun-riji]], II, 332 (Dec. 7, 1963). The words: 下午与邓典桃同志谈工作 (II, 332). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
+    src:
+      c: 547b6180
+      rows:
+        - 'w.yang-shangkun-riji II, 332: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-07T04:00Z
+      - 1963-12-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-08.opinion
     when: Dec. 8
     date: '1963-12-08'
@@ -1548,6 +1754,7 @@ entries:
   - id: cal.1963-12-08.elections-1964
     when: Dec. 8
     date: '1963-12-08'
+    place: nyc
     thread: elections-1964
     also: [vietnam]
     c: '*New York Times*, the lead story, no source named: Eisenhower favors Lodge, the ambassador in Saigon, for the nomination. Lodge, in the story, declines; Eisenhower, from his golf course in Georgia, denies he spoke to Lodge of it.'
@@ -1570,6 +1777,7 @@ entries:
   - id: cal.1963-12-08.goldwater
     when: Dec. 8
     date: '1963-12-08'
+    place: washington
     thread: goldwater
     also: [elections-1964]
     c: 'Goldwater''s apartment in Washington. Curtis, Cotton, Rhodes and Knowland, with White''s and Kitchel''s men, press him to run: duty. He tells Kitchel to tell Curtis and Cotton, in confidence, that he will.'
@@ -1637,6 +1845,7 @@ entries:
   - id: cal.1963-12-09.transportation
     when: Dec. 9
     date: '1963-12-09'
+    place: washington
     thread: transportation
     c: House sends the Washington rapid transit bill, H.R. 8929, back to committee, [278–76](https://voteview.com/rollcall/RH0880101).
     n: 'The House sat from noon to 7:14 p.m.: [Daily Digest, D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=596). See [[cal.1963-05-27.transportation]].'
@@ -1744,6 +1953,51 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 308: all'
     tags: [polity:prc, polity:tanzania, name:liu-shaoqi, name:zhou-enlai, name:chen-yi]
+  - id: cal.1963-12-09.china-leadership-2
+    when: Dec. 9
+    date: '1963-12-09'
+    time: 1963-12-09T02:00Z
+    thread: china-leadership
+    c: Peking 北京, 10 a.m. to 1 p.m. Peng Zhen 彭真, Kang Sheng 康生 and Yang Shangkun 杨尚昆 talk with Saifudin 赛福鼎 on work in Xinjiang 新疆.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 9, 1963). The words: 上午10时到1时，彭真、康生和我约赛福鼎同志谈新疆工作 (II, 333). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Kang Sheng, Yang Shangkun, Saifudin.'
+    src:
+      c: c868f1e5
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-09.china-leadership-3
+    when: Dec. 9
+    date: '1963-12-09'
+    thread: china-leadership
+    c: Peking 北京. Li Fuchun 李富春 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 9, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: db11808f
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1963-12-09T04:00Z
+      - 1963-12-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-09.china-leadership-4
+    when: Dec. 9
+    date: '1963-12-09'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, Peking 北京, on the telephone with Feng Xuan 冯铉, after work to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 9, 1963). The words: 晚间在家休息后，办公到2时，与冯铉同志通了话 (II, 333). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Feng Xuan.'
+    src:
+      c: aabc2f10
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-09T14:00Z
+      - 1963-12-09T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-10.alabama-al
     when: Dec. 10
     date: '1963-12-10'
@@ -1773,6 +2027,7 @@ entries:
   - id: cal.1963-12-10.economy
     when: Dec. 10
     date: '1963-12-10'
+    place: washington
     thread: economy
     c: 'The Finance Committee''s hearings on the tax bill close: 32 days from Oct. 15, 132 witnesses.'
     n: '[[w.bernstein-guns-or-butter]], 36. See [[cal.1963-10-15.economy]].'
@@ -1811,6 +2066,22 @@ entries:
     c: 'Czechoslovakia. Brezhnev''s five-day visit for twenty years of Soviet–Czechoslovak friendship: the reception at Prague Castle, wreaths, the festive session of the Central Committee, factories, Bratislava, where he speaks of the war.'
     n: '[[w.schattenberg-brezhnev]], 162 (nn.368–69). To check: GARF, f. R-7523, op. 83, d. 21 (press survey), l. 1–3, 18 (Dec. 10–15, 1963) (cited by [[w.schattenberg-brezhnev]], 162 nn.368–69). See [[cal.1963-12-04.cuba]]. Names: Brezhnev.'
     tags: [name:brezhnev-leonid, polity:ussr, polity:czechoslovakia]
+  - id: cal.1963-12-10.china-leadership
+    when: Dec. 10
+    date: '1963-12-10'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, Peking 北京, telephones Kong Yuan 孔原 at Kunming 昆明 on the security of Zhou Enlai's 周恩来 and Chen Yi's 陈毅 journey abroad; again on Dec. 11 and 12.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 10, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan, Zhou Enlai, Chen Yi.'
+    src:
+      c: f44acc6c
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1963-12-09T22:00Z
+      - 1963-12-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-11.opinion
     when: Dec. 11
     date: '1963-12-11'
@@ -1963,6 +2234,37 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 125–126: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 125 n.2: all'
     tags: [polity:prc, name:mao-zedong, name:bo-yibo, vis:only:prc]
+  - id: cal.1963-12-11.china-leadership-2
+    when: Dec. 11
+    date: '1963-12-11'
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明, Deng Diantao 邓典桃 and others with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 11, 1963). The words: 上午同王愈明、邓典桃等同志谈话 (II, 333). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Deng Diantao, Yang Shangkun.'
+    src:
+      c: a39f0788
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-10T22:00Z
+      - 1963-12-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-11.china-leadership-3
+    when: Dec. 11
+    date: '1963-12-11'
+    time: 1963-12-11T13:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking 北京. The radio broadcasts the sixth comment 六评, "Two diametrically opposed policies of peaceful coexistence" 两种根本对立的和平共处政策; Yang Shangkun 杨尚昆 hears it in two parts, at 9 p.m. and at midnight.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 11, 1963). The words: 晚间分两次听了"六评"的广播，一次是9时，一次是零时 (II, 333). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: the sixth comment (cited by [[w.yang-shangkun-riji]], II, 333 n.2). Names: Yang Shangkun.'
+    src:
+      c: 07c4a282
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+        - 'via w.yang-shangkun-riji II, 333 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-12.economy
     when: Dec. 12
     date: '1963-12-12'
@@ -2011,6 +2313,7 @@ entries:
   - id: cal.1963-12-12.school-aid
     when: Dec. 12
     date: '1963-12-12'
+    place: washington
     thread: school-aid
     c: House adopts the vocational education conference report. Frelinghuysen's motion to recommit, to strike the work-study program and the residential schools, fails, [180–193](https://voteview.com/rollcall/RH0880108). Johnson had joined the bargaining; Green took a modified equalization formula; Landrum stayed with the majority.
     n: 'The House sat from noon to 8 p.m.: [Daily Digest, D612](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=610). [[w.sundquist-politics-and-policy]], 209–10. See [[cal.1963-08-06.school-aid]]. Names: Frelinghuysen, Johnson, Green, Landrum.'
@@ -2060,6 +2363,7 @@ entries:
   - id: cal.1963-12-12.defense-2
     when: Dec. 12
     date: '1963-12-12'
+    place: washington
     thread: defense
     c: The Senate Armed Services Committee hears Andrew J. Goodpaster on his nomination as Assistant to the Chairman, Joint Chiefs of Staff.
     n: '*Nomination of Maj. Gen. A.J. Goodpaster and Miscellaneous Bills: Hearing Before the S. Comm. on Armed Services*, 88th Cong. (1963) ([online](https://www.govinfo.gov/app/details/CHRG-88shrg27068)), 7. Names: Goodpaster.'
@@ -2088,6 +2392,7 @@ entries:
     when: Dec. 12
     date: '1963-12-12'
     time: 1963-12-12T19:37Z
+    place: washington
     thread: transition-and-staff
     c: 'The President''s office, 2:37 p.m., before his remarks to the new participants in Plans for Progress. Johnson to Valenti: the text to be edited so he can read it, not "these big wide paragraphs"; his office to be kept clear but for "my most trusted employees."'
     n: 'Remarks to New Participants in "Plans for Progress" Equal Opportunity Agreements, [1963–64 Pub. Papers 47](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=131) (Dec. 12, 1963) (the remarks). [[w.taking-charge]], 99. To check: [Office conversation](https://millercenter.org/the-presidency/secret-white-house-tapes/office-conversation-december-12-1963), Tape K6312.07; [office conversation](https://millercenter.org/the-presidency/secret-white-house-tapes/office-conversation-december-12-1963-0), Tape K6312.08 (Miller Center): neither dated by the hour. Names: Johnson, Valenti. Check: [[w.taking-charge]], 99 n.6, has the remarks at the State Department; the Papers'' note, the State Dining Room, 3:45 p.m.'
@@ -2181,6 +2486,19 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 308: all'
     tags: [polity:prc, polity:un]
+  - id: cal.1963-12-12.china-leadership-6
+    when: Dec. 12
+    date: '1963-12-12'
+    time: 1963-12-12T08:00Z
+    thread: china-leadership
+    c: Peking 北京, 4 to 6 p.m. The Secretariat 书记处 meets.
+    n: '[[w.yang-shangkun-riji]], II, 333 (Dec. 12, 1963). The words: 下午4时到6时，书记处会议 (II, 333). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 996d537d
+      rows:
+        - 'w.yang-shangkun-riji II, 333: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-13.opinion-5
     when: Dec. 13
     date: '1963-12-13'
@@ -2222,6 +2540,7 @@ entries:
   - id: cal.1963-12-13.robert-kennedy
     when: Dec. 13
     date: '1963-12-13'
+    place: washington
     thread: robert-kennedy
     also: [cuba]
     c: 'State''s meeting on the Attorney General''s proposal to lift the restrictions on travel to Cuba. Martin and others against: the Latin Americans'' restrictions, the isolation of Cuba. Ball to Rusk: lift them for every place but Cuba.'
@@ -2242,6 +2561,7 @@ entries:
   - id: cal.1963-12-13.robert-kennedy-2
     when: Dec. 13
     date: '1963-12-13'
+    place: washington
     thread: robert-kennedy
     also: [democratic-party, transition-and-staff]
     c: 'Late afternoon, Robert Kennedy with Goodwin and Schlesinger at Justice, Harriman distressed by Mann''s coming appointment for Latin America: "Our power will last for just eleven months. ... After November 5th we''ll all be dead." The hundred men devoted to the purposes "must all stay in close touch"; "collective action." Of Johnson: "He knows all about politics and nothing about human beings." By Schlesinger''s journal.'
@@ -2311,6 +2631,7 @@ entries:
   - id: cal.1963-12-13.china-leadership
     when: Dec. 13
     date: '1963-12-13'
+    place: kunming
     thread: china-leadership
     also: [africa, indonesia]
     c: Zhou Enlai leaves Kunming on an invited visit to the United Arab Republic, the Democratic and Popular Republic of Algeria and the Kingdom of Morocco. Before leaving, at the airport, he receives the athletes back from the first Games of the New Emerging Forces, praises their spirit in winning honor for the country and also points out the faults shown in the contests.
@@ -2329,6 +2650,7 @@ entries:
   - id: cal.1963-12-13.china-leadership-2
     when: Dec. 13
     date: '1963-12-13'
+    place: rangoon
     thread: china-leadership
     also: [china, africa]
     c: Rangoon. Zhou Enlai stops briefly on the way to the UAR and is received and seen off by Ne Win.
@@ -2379,6 +2701,49 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 137 n.2: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 138 n.3: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:zhu-de, name:peng-zhen, name:luo-ruiqing, name:kang-sheng, name:chen-boda, name:bo-yibo, name:li-xiannian, name:xie-fuzhi, name:tan-zhenlin, name:hua-guofeng, vis:only:prc]
+  - id: cal.1963-12-13.china-leadership-6
+    when: Dec. 13
+    date: '1963-12-13'
+    time: 1963-12-13T05:00Z
+    thread: china-leadership
+    c: Peking 北京, 1 p.m. Zhou Enlai 周恩来 telephones Yang Shangkun 杨尚昆, who passes it on to Deng Yingchao 邓颖超.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 13, 1963). See [[cal.1963-12-13.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun, Deng Yingchao.'
+    src:
+      c: 37a61c2f
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-13.china-leadership-8
+    when: Dec. 13
+    date: '1963-12-13'
+    thread: china-leadership
+    c: Kong Yuan 孔原 and Tong Xiaopeng 童小鹏 tell Yang Shangkun 杨尚昆, Peking 北京, by telephone that they leave the country at 5 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 13, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Tong Xiaopeng, Yang Shangkun.'
+    src:
+      c: 99af2377
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-12T22:00Z
+      - 1963-12-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-13.china-leadership-7
+    when: Dec. 13
+    date: '1963-12-13'
+    time: 1963-12-13T08:00Z
+    thread: china-leadership
+    also: [japan]
+    c: Peking 北京, 4 to 6 p.m. A banquet and talks for Kikunami Katsumi 听涛克己 of the Japanese Communist Party's Politburo; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 13, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kikunami Katsumi, Yang Shangkun.'
+    src:
+      c: 75c201ca
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-14.latin-america
     when: Dec. 14
     date: '1963-12-14'
@@ -2501,10 +2866,11 @@ entries:
   - id: cal.1963-12-14.china-leadership
     when: Dec. 14
     date: '1963-12-14'
+    place: cairo
     thread: china-leadership
     also: [africa, middle-east]
     c: 'Zhou Enlai flies by way of Rangoon and Karachi to Cairo. At the airport his written statement: this is his first visit to the UAR and to the African continent; he salutes all the newly independent African states and peoples and all the peoples now in struggle. Chen Yi, who attended Kenya''s independence celebrations, reaches Cairo from Nairobi to go with him.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 14, 1963); [[w.zhou-enlai-waijiao-huodong]], 377–78 (Dec. 14, 1963; 上午, 路过卡拉奇时巴基斯坦外交秘书阿齐兹·艾哈迈德等到机场迎送; 到达开罗, 萨布里主席代表纳赛尔总统到机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 10, 1963; Chen Yi, Vice-Premier and Foreign Minister, takes part in the Kenyan independence celebrations on the Chinese government''s behalf and calls on Prime Minister Jomo Kenyatta; the book''s day is Dec. 10, two days before the independence day of Dec. 12); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308–309 (Dec. 14–21, 1963; Zhou visits the UAR officially at the invitation of President Nasser and Ali Sabri, Chairman of the Executive Council; he holds several talks with Nasser on Sino-UAR relations and matters of common concern); [[w.macfarquhar-origins-of-the-cultural]], III, 359 (Zhou and Chen Yi with several dozen aides on a ten-nation tour of Africa, mid-December 1963 to early February 1964). Continues 601. To check: [[w.adie-chou-en-lai-on]], 174–94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 359 n.75). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 14, 1963); [[w.zhou-enlai-waijiao-huodong]], 377–78 (Dec. 14, 1963; 上午, 路过卡拉奇时巴基斯坦外交秘书阿齐兹·艾哈迈德等到机场迎送; 到达开罗, 萨布里主席代表纳赛尔总统到机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 10, 1963; Chen Yi, Vice-Premier and Foreign Minister, takes part in the Kenyan independence celebrations on the Chinese government''s behalf and calls on Prime Minister Jomo Kenyatta; the book''s day is Dec. 10, two days before the independence day of Dec. 12); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308–309 (Dec. 14–21, 1963; Zhou visits the UAR officially at the invitation of President Nasser and Ali Sabri, Chairman of the Executive Council; he holds several talks with Nasser on Sino-UAR relations and matters of common concern); [[w.macfarquhar-origins-of-the-cultural]], III, 359 (Zhou and Chen Yi with several dozen aides on a ten-nation tour of Africa, mid-December 1963 to early February 1964); [[w.yang-shangkun-riji]], II, 334 (Dec. 14, 1963; Zhou''s party at Cairo at 5 p.m., by Rangoon and Karachi). Continues 601. To check: [[w.adie-chou-en-lai-on]], 174–94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 359 n.75). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 922ed2f8
       rows:
@@ -2514,6 +2880,7 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 308–309: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 359: A, D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 359 n.75: A, D'
+        - 'w.yang-shangkun-riji II, 334: A'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1963-12-14T01:00Z
@@ -2524,6 +2891,7 @@ entries:
     when: Dec. 14
     date: '1963-12-14'
     time: 1963-12-14T17:00Z
+    place: cairo
     thread: china-leadership
     also: [china, middle-east]
     c: Cairo, the President's residence. Zhou Enlai calls on Nasser, gives him gifts, and receives from him the Collar of the Republic.
@@ -2537,6 +2905,7 @@ entries:
   - id: cal.1963-12-14.china-leadership-3
     when: Dec. 14
     date: '1963-12-14'
+    place: cairo
     thread: china-leadership
     also: [china, middle-east]
     c: 'Cairo. Zhou Enlai, at the reception given by Nasser and his wife: this is his first official visit to the friendly UAR; in 1924, passing the Suez Canal on his way home from Europe, he saw Egypt just out of its protectorate and nearly all Africa under imperialist darkness; in 1954, on his way from the Geneva conference, Egypt had overthrown Farouk''s dynasty, Algeria was brewing its armed struggle and Africa stood on the eve of the storm; now he comes as a friendly envoy of the Chinese people to an awakened and fighting continent, where the dawn of freedom has risen and the imperialist colonial system moves toward collapse.'
@@ -2599,6 +2968,22 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 146: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-12-14.china-leadership-7
+    when: Dec. 14
+    date: '1963-12-14'
+    thread: china-leadership
+    c: Peking 北京. Wang Dongxing 汪东兴 and Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 14, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Deng Diantao, Yang Shangkun.'
+    src:
+      c: 2f4a36db
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-14T04:00Z
+      - 1963-12-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-15.opinion-5
     when: Dec. 15
     date: '1963-12-15'
@@ -2655,6 +3040,7 @@ entries:
   - id: cal.1963-12-15.china-leadership-2
     when: Dec. 15
     date: '1963-12-15'
+    place: cairo
     thread: china-leadership
     also: [china, middle-east]
     c: Cairo, the Opera House. Zhou Enlai watches with Nasser a performance of UAR folk art.
@@ -2865,6 +3251,53 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 601: ?'
         - 'w.zhou-enlai-waijiao-huodong 378–79: A'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
+  - id: cal.1963-12-16.china-leadership-6
+    when: Dec. 16
+    date: '1963-12-16'
+    time: 1963-12-16T06:30Z
+    thread: china-leadership
+    c: Peking 北京, 2:30 p.m. Luo Ronghuan 罗荣桓, member of the Politburo, dies.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 16, 1963). The words: 罗荣桓同志中午2时半去世 (II, 334). Names: Luo Ronghuan.'
+    src:
+      c: 7a18978f
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, name:luo-ronghuan]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-16.china-leadership-7
+    when: Dec. 16
+    date: '1963-12-16'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 meets the staff of the archives 档案馆.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 16, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 3877c709
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-15T22:00Z
+      - 1963-12-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-16.china-leadership-8
+    when: Dec. 16
+    date: '1963-12-16'
+    thread: china-leadership
+    follows:
+      - cal.1963-12-16.china-leadership-6
+    c: Peking 北京. Yang Shangkun 杨尚昆, told of Luo Ronghuan's 罗荣桓 death, goes back and forth arranging the funeral.
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 16, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Ronghuan.'
+    src:
+      c: 156b52ee
+      rows:
+        - 'w.yang-shangkun-riji II, 334: all'
+    tags: [polity:prc, name:luo-ronghuan, vis:only:prc]
+    time_range:
+      - 1963-12-16T04:00Z
+      - 1963-12-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-17.program
     when: Dec. 17
     date: '1963-12-17'
@@ -2884,6 +3317,7 @@ entries:
   - id: cal.1963-12-17.latin-america
     when: Dec. 17
     date: '1963-12-17'
+    place: washington
     thread: latin-america
     c: 'Senate approves the Chamizal convention, [15 U.S.T. 21](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-15-1/lltreaties-15-1.pdf#page=29), [505 U.N.T.S. 185](https://treaties.un.org/doc/Publication/UNTS/Volume%20505/volume-505-I-7374-English.pdf), [79–1](https://voteview.com/rollcall/RS0880216): the Chamizal tract at El Paso to Mexico, the Rio Grande''s channel moved. Johnson signs the ratification Dec. 20.'
     n: 'The Senate sat from noon to 5:47 p.m.: [Daily Digest, D623](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=621). Remarks Upon Signing the Ratification of the Chamizal Convention, [1963–64 Pub. Papers 74](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=158) (Dec. 20, 1963). Convention for the Solution of the Problem of the Chamizal (K–J Cong. II.J.2). See [[cal.1963-07-18.latin-america]]. Names: Johnson.'
@@ -2905,6 +3339,7 @@ entries:
     when: Dec. 17
     date: '1963-12-17'
     time: 1963-12-17T17:00Z
+    place: nyc
     thread: succession
     c: 'Johnson to the UN General Assembly: "the assassin''s bullet which took his life did not alter his Nation''s purpose"; a world "safe for diversity, and free from hostility."'
     n: 'Address Before the General Assembly of the United Nations, [1963–64 Pub. Papers 61](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=145) (Dec. 17, 1963). [[w.johnson-vantage-point]], 23. Names: Johnson.'
@@ -2985,6 +3420,7 @@ entries:
     when: Dec. 17
     date: '1963-12-17'
     time: 1963-12-17T23:04Z
+    place: washington
     thread: baker
     c: 'The President''s office, 6:04 p.m. Johnson with aides over the newspapers'' photographs and accounts of the Baker affair. The opening of Baker''s Carousel Motel at Ocean City, July 22, 1962: Johnson did not go on the bus with the champagne; he drove in and stayed five minutes, with Mrs. Johnson, Thornberry, the Jenkinses, because Baker was "a faithful, diligent, competent employee."'
     n: '[[w.taking-charge]], 104. To check: [Office conversation](https://millercenter.org/the-presidency/secret-white-house-tapes/office-conversation-december-17-1963), [office conversation](https://millercenter.org/the-presidency/secret-white-house-tapes/office-conversation-december-17-1963-0), Tape K6312.09 (Miller Center): neither dated by the hour. Names: Johnson, Baker, Lady Bird Johnson, Thornberry, Jenkins.'
@@ -3012,6 +3448,46 @@ entries:
         witness: w.zhou-enlai-waijiao-huodong
         reads: Dec. 16 (goes with Sabri to Port Said; the mayor's rally Dec. 17); the entry has Dec. 17
         at: '378'
+  - id: cal.1963-12-17.china-leadership-2
+    when: Dec. 17
+    date: '1963-12-17'
+    thread: china-leadership
+    c: Peking 北京. Kang Yimin 康一民 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 335 (Dec. 17, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Yimin, Yang Shangkun.'
+    src:
+      c: 9b7cacad
+      rows:
+        - 'w.yang-shangkun-riji II, 335: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-16T22:00Z
+      - 1963-12-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-17.china-leadership-4
+    when: Dec. 17–21
+    date: '1963-12-17'
+    thread: china-leadership
+    c: Peking 北京. Dr. Sun Zhenhuan 孙震寰 of Peking Hospital 北京医院 gives Yang Shangkun 杨尚昆 acupuncture, at 3:30; again Dec. 19 and at noon Dec. 21.
+    n: '[[w.yang-shangkun-riji]], II, 335–336 (Dec. 17, 1963). The words: 3时半请孙大夫看病、针灸 (II, 335). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Sun Zhenhuan, Yang Shangkun.'
+    src:
+      c: a185329e
+      rows:
+        - 'w.yang-shangkun-riji II, 335–336: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-12-17.china-leadership-3
+    when: Dec. 17
+    date: '1963-12-17'
+    time: 1963-12-17T08:30Z
+    thread: china-leadership
+    c: Peking 北京, Peking Hospital 北京医院, 4:30 p.m. Yang Shangkun 杨尚昆 takes leave of Luo Ronghuan's 罗荣桓 body, Mao 毛泽东 there too; at 5:30 the body to the crematorium in the eastern suburbs, back at 6:30.
+    n: '[[w.yang-shangkun-riji]], II, 335 (Dec. 17, 1963). The words: 4时半去北京医院向罗荣桓同志告别，主席也去了 (II, 335). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Ronghuan, Mao Zedong.'
+    src:
+      c: 207c1de3
+      rows:
+        - 'w.yang-shangkun-riji II, 335: all'
+    tags: [polity:prc, name:luo-ronghuan, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-18.school-aid
     when: Dec. 18
     date: '1963-12-18'
@@ -3176,6 +3652,7 @@ entries:
   - id: cal.1963-12-18.china-leadership-2
     when: Dec. 18
     date: '1963-12-18'
+    place: aswan
     thread: china-leadership
     also: [middle-east]
     c: Zhou Enlai visits Aswan province and the Aswan High Dam site; at the luncheon of the governor, Salama, he says the Nile bred the splendid culture of ancient times and now serves the building of a national economy, and he trusts it will serve the UAR's industrious and wise people still more; he praises their spirit in winning wealth from nature.
@@ -3191,6 +3668,35 @@ entries:
       - 1963-12-18T10:00Z
     time_band: morning
     time_zone: Africa/Cairo
+  - id: cal.1963-12-18.china-leadership-3
+    when: Dec. 18
+    date: '1963-12-18'
+    time: 1963-12-18T13:00Z
+    thread: china-leadership
+    c: Peking 北京, the Working People's Cultural Palace 劳动人民文化宫, 9 p.m. Yang Shangkun 杨尚昆 receives Luo Ronghuan's 罗荣桓 ashes.
+    n: '[[w.yang-shangkun-riji]], II, 335 (Dec. 18, 1963). The words: 晚间9时去劳动人民文化宫迎接罗荣桓同志的骨灰，10时回家 (II, 335). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Luo Ronghuan.'
+    src:
+      c: e138942c
+      rows:
+        - 'w.yang-shangkun-riji II, 335: all'
+    tags: [polity:prc, name:luo-ronghuan, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-18.china-leadership-4
+    when: Dec. 18
+    date: '1963-12-18'
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆, after work to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 335 (Dec. 18, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 7f0afebe
+      rows:
+        - 'w.yang-shangkun-riji II, 335: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-18T14:00Z
+      - 1963-12-18T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-19.jobs-and-wages
     when: Dec. 19
     date: '1963-12-19'
@@ -3210,6 +3716,7 @@ entries:
     when: Dec. 19
     date: '1963-12-19'
     time: 1963-12-19T15:55Z
+    place: washington
     thread: cuba
     c: 'The White House, 10:55 a.m.: Johnson briefed on Cuba by FitzGerald and Bundy, Ball, Vance, Wheeler, Helms and others present. No attack on the Matanzas power plant for now, low-risk sabotage to go on; Artime''s and Ray''s groups to operate from outside the United States. Bundy: the "very tenuous, sensitive, and marginal contacts" with Castro, at his initiative; Kennedy''s speech of Nov. 18 meant to encourage revolt within Cuba and to warn there would be no other Cuba.'
     n: '[FRUS 1961–63, XI, doc. 388](https://history.state.gov/historicaldocuments/frus1961-63v11/d388) (Chase''s memorandum, drafted Dec. 27; n. 3: Carter''s and FitzGerald''s memoranda give the decision on Matanzas as Johnson''s). [[w.paterson-contesting-castro]], 261–62 nn.49, 54 (Bundy on the speech of Nov. 18; the contacts "tenuous" and "marginal"). Made public: [[w.paterson-contesting-castro]] (1994), from the National Security File; FRUS 1961–63, XI. To check: [[w.attwood-reds-and-the-blacks]], 146 (the contacts put "on ice"; cited by [[w.paterson-contesting-castro]], 262 n.54). See [[cal.1963-11-18.cuba]]. Names: Johnson, FitzGerald, Bundy, Ball, Vance, Wheeler, Helms, Artime, Ray, Castro, Kennedy.'
@@ -3264,6 +3771,19 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 602: ?'
         - 'w.zhou-enlai-waijiao-huodong 379: A'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
+  - id: cal.1963-12-19.china-leadership-3
+    when: Dec. 19
+    date: '1963-12-19'
+    time: 1963-12-19T07:00Z
+    thread: china-leadership
+    c: Peking 北京, 3 to 7 p.m. Li Fuchun 李富春, An Ziwen 安子文 and Yang Shangkun 杨尚昆 on questions of organization and cadres.
+    n: '[[w.yang-shangkun-riji]], II, 335 (Dec. 19, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, An Ziwen, Yang Shangkun.'
+    src:
+      c: 5f64833c
+      rows:
+        - 'w.yang-shangkun-riji II, 335: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-20.opinion-5
     when: Dec. 20
     date: '1963-12-20'
@@ -3314,6 +3834,7 @@ entries:
   - id: cal.1963-12-20.vietnam
     when: Dec. 20
     date: '1963-12-20'
+    place: saigon
     thread: vietnam-34a
     c: Saigon, the Secretary of Defense conference. McNamara reviews and approves the concept of operations of the completed plan 34A.
     n: '[[w.marolda-united-states-navy-and]], 335; [[w.bernstein-guns-or-butter]], 335 (the raids revived and expanded "in late 1963" as OPLAN 34-A). To check: U.S.-V.N. Relations, bk. 3, pt. IVC.1, 1–7; pt. IVC.2a, 1–2; CINCPAC 301841Z Nov. 1963 (cited by [[w.marolda-united-states-navy-and]], 335). Names: McNamara.'
@@ -3412,6 +3933,22 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 379: all'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
+  - id: cal.1963-12-20.china-leadership-4
+    when: Dec. 20
+    date: '1963-12-20'
+    thread: china-leadership
+    c: Peking 北京. Wang Yuming 王愈明 and Mei Xing 梅行 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 335 (Dec. 20, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Mei Xing, Yang Shangkun.'
+    src:
+      c: 7a8616ba
+      rows:
+        - 'w.yang-shangkun-riji II, 335: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-19T22:00Z
+      - 1963-12-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-21.vietnam
     when: Dec. 21
     date: '1963-12-21'
@@ -3444,6 +3981,7 @@ entries:
   - id: cal.1963-12-21.specials
     when: Dec. 21
     date: '1963-12-21'
+    place: texas
     thread: specials
     c: Texas 10th, special runoff. Pickle (D) over Dobbs (R), 27,228 to 16,052, 62.9 percent, for the seat of Thornberry, of the Rules Committee, now a district judge; Johnson's old district. Swing 0.4 to R.
     n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt19/pdf/GPO-CRECB-1963-pt19-10-2.pdf) (1963) (Pickle sworn). Votes: CQ Guide 6th (2010) 1271; CQ dates the first round by year only. Check the date of the first round. To check: [[w.pickle-jake]]. See [[cal.1961-04-04.states-and-cities]]. Names: Pickle, Jim Dobbs, Thornberry, Johnson. Check: the page.'
@@ -3484,6 +4022,7 @@ entries:
   - id: cal.1963-12-21.vietnam-2
     when: Dec. 21
     date: '1963-12-21'
+    place: washington
     thread: vietnam
     c: 'McNamara to the press at the White House, back from Saigon: "We observed the results of a very substantial increase in Vietcong activity"; "We reviewed the plans of the South Vietnamese and we have every reason to believe they will be successful."'
     n: '[[w.mcnamara-in-retrospect]], ch. 4 at n.10 ("an overstatement at best"). To check: McNamara, remarks at the White House, Dec. 21, 1963, *Public Statements of Robert S. McNamara*, 1963, VI, 2792 (cited by [[w.mcnamara-in-retrospect]], ch. 4 n.10). See [[cal.1963-12-21.vietnam]]. Names: McNamara.'
@@ -3519,6 +4058,7 @@ entries:
   - id: cal.1963-12-21.civil-rights-organizations
     when: Dec. 21
     date: '1963-12-21'
+    place: chicago
     thread: civil-rights-organizations
     also: [desegregation-schools]
     c: Chicago. The Coordinating Council told how little the boycott has changed. Raby, its recorder, in the chair from this meeting, Brazier having resigned as convenor.
@@ -3592,6 +4132,7 @@ entries:
     when: Dec. 21–26
     date: '1963-12-21'
     time: 1963-12-21T14:00Z
+    place: algiers
     thread: china-leadership
     also: [africa-algeria-morocco, africa]
     c: Zhou Enlai flies to Algiers and begins a visit to Algeria, to Dec. 26 holding four formal talks with President Ben Bella; the aim of the visit, he says, is to learn; he tells Ben Bella of China's revolution and construction.
@@ -3610,6 +4151,7 @@ entries:
     when: Dec. 21
     date: '1963-12-21'
     time: 1963-12-21T06:30Z
+    place: cairo
     thread: china-leadership
     also: [china, middle-east]
     c: Cairo, Qubba Palace. Zhou Enlai meets Ali Sabri.
@@ -3624,6 +4166,7 @@ entries:
     when: Dec. 21
     date: '1963-12-21'
     time: 1963-12-21T17:30Z
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the Villa Joly. Zhou Enlai calls on President Ben Bella.
@@ -3637,6 +4180,7 @@ entries:
   - id: cal.1963-12-21.china-leadership-6
     when: Dec. 21
     date: '1963-12-21'
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai attends the banquet given by Ben Bella.
@@ -3683,6 +4227,22 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 150–151: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 150 n.2: all'
     tags: [polity:prc, name:mao-zedong, name:bo-yibo, vis:only:prc]
+  - id: cal.1963-12-21.china-leadership-9
+    when: Dec. 21
+    date: '1963-12-21'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃.
+    n: '[[w.yang-shangkun-riji]], II, 336 (Dec. 21, 1963). The words: 同典桃同志谈话 (II, 336). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
+    src:
+      c: 011e87eb
+      rows:
+        - 'w.yang-shangkun-riji II, 336: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-20T22:00Z
+      - 1963-12-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-22.china-leadership
     when: Dec. 22
     date: '1963-12-22'
@@ -3722,6 +4282,7 @@ entries:
   - id: cal.1963-12-22.china-leadership-4
     when: Dec. 22
     date: '1963-12-22'
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai lays a wreath at the martyrs' memorial and attends the ceremony naming an Algiers street Avenue de Pékin.
@@ -3754,7 +4315,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi attends the public memorial meeting for Luo Ronghuan at the Working People's Cultural Palace and presides over it.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 586 (Dec. 22, 1963). Names: Liu Shaoqi, Luo Ronghuan.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 586 (Dec. 22, 1963); [[w.yang-shangkun-riji]], II, 336 (Dec. 22, 1963; the public memorial, 9:30 a.m. to noon, the ashes then taken to the Babaoshan cemetery; Yang there). Names: Liu Shaoqi, Luo Ronghuan.'
+    src:
+      c: f2225423
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 586: ?'
+        - 'w.yang-shangkun-riji II, 336: A'
     tags: [polity:prc, name:liu-shaoqi, name:luo-ronghuan]
   - id: cal.1963-12-23.foreign-aid
     when: Dec. 23
@@ -3785,6 +4351,7 @@ entries:
     when: Dec. 23
     date: '1963-12-23'
     time: 1963-12-24T03:30Z
+    place: washington
     thread: civil-rights-bill
     c: '10:30 p.m., still in the Oval Office, Johnson to Wilkins by telephone: a Negro secretary to be hired, Gerri Whittington; names for the Civil Rights Commission; the State of the Union; a Mexican-American for the staff. Wilkins: "We need you."'
     n: '[Johnson and Wilkins, 10:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-roy-wilkins-december-24-1963), Tape K6312.17, PNO 3 (Miller Center). [[w.caro-passage-of-power]], 491; [[w.branch-pillar-of-fire]], 199; [[w.purdum-idea-whose-time-has-2014]], 174 (the calls to Wilkins and Young after 10:15 on the hiring of Whittington; not the hour nor the other matters). See [[cal.1963-11-29.civil-rights-bill]]. Names: Johnson, Wilkins.'
@@ -3920,6 +4487,7 @@ entries:
   - id: cal.1963-12-23.soviet-union
     when: Dec. 23
     date: '1963-12-23'
+    place: moscow
     thread: soviet-union-leadership
     follows:
       - cal.1963-12-23.soviet-union-leadership
@@ -3946,6 +4514,7 @@ entries:
   - id: cal.1963-12-23.press-and-broadcasting
     when: Dec. 23
     date: '1963-12-23'
+    place: nyc
     thread: press-and-broadcasting
     also: [elections-1964]
     c: 'The *New York Herald Tribune*, a full-page editorial, "Calling Governor Scranton": "duty again calls William Scranton"; Rockefeller written off for "personal reasons," Goldwater''s Southern strategy void with Johnson in the White House. Whitney its publisher, Thayer its president.'
@@ -4110,6 +4679,7 @@ entries:
     when: Dec. 23
     date: '1963-12-23'
     time: 1963-12-24T03:50Z
+    place: washington
     thread: civil-rights-the-executive
     c: 'The Oval Office, 10:50 p.m.: Johnson sees Gerri Whittington, her name misspelled on the list.'
     n: '[[w.taking-charge]], 130; [[w.purdum-idea-whose-time-has-2014]], 174 (the Oval Office, Johnson with Valenti, Jenkins and Carter, the misspelled names, Whittington brought in). Check: Purdum, 174, has Whittington arriving at 11:00 p.m.; the entry has 10:50. Names: Johnson.'
@@ -4188,6 +4758,7 @@ entries:
   - id: cal.1963-12-23.soviet-union-leadership-2
     when: Dec. 23
     date: '1963-12-23'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 126, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Podgorny, Polyansky, Shvernik, Efremov; the secretaries Andropov, Demichev, Ilyichev, Polyakov, Ponomarev, Rudakov, Titov, Shelepin.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 781–819 (Protocol 126, Malin''s notes, 781–83; the stenogram, 783–819); I, 1155 n.1 (those present); III, 622–33 (P 126); III, 1045 n.1 (those present). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Podgorny, Polyansky, Shvernik, Andropov, Demichev, Ponomarev, Shelepin.'
@@ -4258,6 +4829,7 @@ entries:
   - id: cal.1963-12-23.china-leadership-4
     when: Dec. 23
     date: '1963-12-23'
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the officers' club. Zhou Enlai attends the dinner given by Boumediene.
@@ -4287,9 +4859,52 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 155 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 155 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:zhu-de, name:peng-zhen, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1963-12-23.china-leadership-6
+    when: Dec. 23
+    date: '1963-12-23'
+    time: 1963-12-22T23:35Z
+    thread: china-leadership
+    c: Li Bozhao 李伯钊 leaves Peking 北京 by train at 7:35 a.m. for Shanghai 上海, for the East China spoken-drama festival 华东区话剧会演.
+    n: '[[w.yang-shangkun-riji]], II, 336 (Dec. 23, 1963). See [[cal.1963-12.china-leadership-6]]. The words: 晨7时35分，伯钊乘火车去上海 (II, 336). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Bozhao.'
+    src:
+      c: 2eca129f
+      rows:
+        - 'w.yang-shangkun-riji II, 336: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-23.china-leadership-7
+    when: Dec. 23
+    date: '1963-12-23'
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 and Wang Yuming 王愈明 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 336 (Dec. 23, 1963). The words: 上午约田家英、王愈明谈话 (II, 336). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Wang Yuming, Yang Shangkun.'
+    src:
+      c: 2d79d8d0
+      rows:
+        - 'w.yang-shangkun-riji II, 336: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-22T22:00Z
+      - 1963-12-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-23.china-leadership-8
+    when: Dec. 23
+    date: '1963-12-23'
+    time: 1963-12-23T10:30Z
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂, 6:30 to 9 p.m. Peng Zhen 彭真 gives a banquet for the athletes of the Games of the New Emerging Forces 新兴力量运动会; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 336 (Dec. 23, 1963). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: 1762ea3b
+      rows:
+        - 'w.yang-shangkun-riji II, 336: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-24.foreign-aid
     when: Dec. 24
     date: '1963-12-24'
+    place: washington
     thread: foreign-aid
     also: [trade, succession]
     c: 'The House, in at 7 a.m. on Christmas Eve, adopts Passman''s amendment to the aid appropriation, [189–158](https://voteview.com/rollcall/RH0880119): the President may allow Export-Import Bank guarantees on credit to Communist countries in the national interest. The wheat credit kept. Senate agrees Dec. 30, [56–14](https://voteview.com/rollcall/RS0880229). About $3 billion, against $4.5 billion asked. Signed Jan. 6, [77 Stat. 857](https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg857.pdf).'
@@ -4388,6 +5003,9 @@ entries:
     date: '1963-12-24'
     time: 1963-12-24T14:30Z
     time_approx: true
+    place:
+      - washington
+      - philadelphia
     thread: succession
     c: Johnson leaves Washington about 9:30 a.m., after the House passes the foreign aid bill. At Philadelphia, the funeral of Representative William Green; then to Austin.
     n: '[[w.johnson-white-house-diary]], 19 (Lady Bird Johnson''s account). See [[cal.1963-12-23.democratic-party]], [[cal.1963-12-24.foreign-aid]]. Names: Johnson, Lady Bird Johnson, William Green.'
@@ -4404,6 +5022,7 @@ entries:
     date: '1963-12-24'
     time: 1963-12-24T12:00Z
     time_approx: true
+    place: washington
     thread: foreign-aid
     c: 7 a.m. Colmer, in from Mississippi, votes not to discharge the aid bill, but his presence gives the Rules Committee its quorum, and the bill goes to the House. By Albert's account.
     n: '[[w.albert-little-giant-1990]], 283. Check: the hour: Albert has Colmer''s vote at 7 a.m., the hour the House met ([[cal.1963-12-24.foreign-aid]]). See [[cal.1963-12-23.foreign-aid-4]]. Names: Colmer, Albert.'
@@ -4445,6 +5064,7 @@ entries:
   - id: cal.1963-12-24.china-leadership-3
     when: Dec. 24
     date: '1963-12-24'
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the University City. Zhou Enlai attends the luncheon given jointly by Foreign Minister Bouteflika and Belkacem, Minister of National Orientation, in the students' residences.
@@ -4462,6 +5082,7 @@ entries:
   - id: cal.1963-12-24.china-leadership-4
     when: Dec. 24
     date: '1963-12-24'
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai watches with Ben Bella a cultural performance.
@@ -4476,6 +5097,19 @@ entries:
       - 1963-12-24T22:00Z
     time_band: evening
     time_zone: Africa/Algiers
+  - id: cal.1963-12-24.china-leadership-5
+    when: Dec. 24
+    date: '1963-12-24'
+    time: 1963-12-24T07:30Z
+    thread: china-leadership
+    c: Peking 北京, 3:30 to 7 p.m. Yang Shangkun 杨尚昆 with comrades of the All-China Federation of Trade Unions and the Propaganda Department on the self-examination of the *Gongren ribao* 工人日报.
+    n: '[[w.yang-shangkun-riji]], II, 336 (Dec. 24, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a785c20b
+      rows:
+        - 'w.yang-shangkun-riji II, 336: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-25.europe-and-the-alliance-cyprus
     when: Dec. 25
     date: '1963-12-25'
@@ -4488,6 +5122,7 @@ entries:
     when: Dec. 25
     date: '1963-12-25'
     time: 1963-12-25T19:55Z
+    place: lbj-ranch
     thread: press-and-broadcasting
     c: 'From the Ranch, Johnson to Valenti on the merger of Houston''s National Bank of Commerce, held up by the Federal Reserve and the Antitrust Division; Jones, its president, publishes the *Houston Chronicle*: no approval "unless they give me their lung as long as I''m in public life." Jones to the Ranch Dec. 27, quietly.'
     n: '[Johnson and Valenti, 1:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-jack-valenti-december-25-1963), Tape K6312.21, PNO 1 (Miller Center); [Johnson and Jones, 8:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-johnny-jones-december-25-1963), Tape K6312.18, PNO 15 (Miller Center). [[w.caro-passage-of-power]], 523–24 (the 1:55 p.m. call to Valenti, by Caro''s note). To check: "Houston Bank Merger ... Reasons against," as dictated by Dick Maguire, WHCF Subject Files, LBJ Library (cited by [[w.caro-passage-of-power]], 524). Names: Johnson, Valenti.'
@@ -4517,6 +5152,7 @@ entries:
   - id: cal.1963-12-25.vietnam-hanoi
     when: Dec. 25
     date: '1963-12-25'
+    place: hanoi
     thread: vietnam-hanoi
     also: [soviet-union]
     c: 'Hồ Chí Minh at the Soviet Embassy, the Ninth Plenum still sitting: he tells the ambassador he is retiring from politics, by a document in the Russian archives.'
@@ -4537,6 +5173,7 @@ entries:
     when: Dec. 25
     date: '1963-12-25'
     time: 1963-12-26T02:11Z
+    place: lbj-ranch
     thread: press-and-broadcasting
     c: 'Johnson to Reston by telephone from the Ranch, 8:12 p.m.: Christmas with forty-three kinfolk; he wants his "advice and counsel." Mrs. Johnson thanks him for his column on the politicians'' wives.'
     n: '[Johnson and James Reston, 8:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-james-reston-december-26-1963), Tape K6312.18 (Miller Center). [[w.taking-charge]], 132–134. The hour the Ranch''s: PRDE places the call at the LBJ Ranch. Check: the Miller Center''s catalogue times the call 8:11 p.m. Names: Johnson, Reston, Lady Bird Johnson.'
@@ -4551,6 +5188,7 @@ entries:
     when: Dec. 25
     date: '1963-12-25'
     time: 1963-12-26T02:39Z
+    place: lbj-ranch
     thread: press-and-broadcasting
     c: 'Johnson to Amon Carter Jr. of the *Fort Worth Star-Telegram* by telephone, 8:39 p.m.: send a man to the press conferences as competent as the *New York Times*''s.'
     n: '[Johnson and Amon Carter Jr., 8:39 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-amon-carter-december-26-1963), Tape K6312.18 (Miller Center). [[w.taking-charge]], 134–135. The hour the Ranch''s: PRDE places the call at the LBJ Ranch. Names: Johnson.'
@@ -4579,6 +5217,9 @@ entries:
     when: Dec. 25
     date: '1963-12-25'
     time: 1963-12-25T19:16Z
+    place:
+      - lbj-ranch
+      - palm-desert
     thread: economy
     also: [space]
     c: 'Johnson, at the Ranch, to Eisenhower at Palm Desert, Cal., by telephone, 1:16 p.m., Christmas: Eisenhower''s help on the first message to Congress. The budget: 133,000 employees added in three years, fewer in fiscal 1965 than in 1964; 5,000 the Post Office asked for cut; the Pentagon under a million civilians. Eisenhower: space "can take a little bit of contraction."'
@@ -4600,6 +5241,9 @@ entries:
   - id: cal.1963-12-25.china-leadership
     when: Dec. 25
     date: '1963-12-25'
+    place:
+      - oran
+      - algiers
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhou Enlai at Oran visits a liquefied petroleum plant and other works; that evening, back in Algiers, he speaks at the rally of cadres of the National Liberation Front, praising the National Liberation Army, which began with 3,000 guerrillas and dared fight hundreds of thousands of colonial troops, and after seven years of bloody war won the whole country, showing the oppressed nations of the world the right way to independence and freedom.
@@ -4630,6 +5274,54 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 159 n.1b: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 159 n.1c: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-12-25.china-leadership-3
+    when: Dec. 25
+    date: '1963-12-25'
+    thread: china-leadership
+    c: Peking 北京. Deng Diantao 邓典桃 calls a meeting on the administration of Zhongnanhai 中南海; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 25, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: 1141dbd2
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-24T22:00Z
+      - 1963-12-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-25.china-leadership-4
+    when: Dec. 25
+    date: '1963-12-25'
+    thread: china-leadership
+    c: Peking 北京. The Women's Federation's 妇联 secretaries with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 25, 1963). The words: 下午约妇联书记处各同志谈话 (II, 337). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d906d1ab
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-25T04:00Z
+      - 1963-12-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-25.china-leadership-5
+    when: Dec. 25
+    date: '1963-12-25'
+    thread: china-leadership
+    c: Peking 北京. Zeng San 曾三 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 25, 1963). The words: 晚间曾三同志来谈话 (II, 337). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Yang Shangkun.'
+    src:
+      c: 0bfb4542
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-25T11:00Z
+      - 1963-12-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-26.europe-and-the-alliance-cyprus
     when: Dec. 26
     date: '1963-12-26'
@@ -4664,6 +5356,7 @@ entries:
   - id: cal.1963-12-26.goldwater
     when: Dec. 26
     date: '1963-12-26'
+    place: phoenix
     thread: goldwater
     also: [foreign-aid]
     c: 'Goldwater, by telephone from Phoenix, dictates a statement against Johnson for keeping Congress in session over Christmas on the foreign aid bill: "trying to treat Congressmen as his personal errand boys."'
@@ -4724,6 +5417,7 @@ entries:
   - id: cal.1963-12-26.china-leadership-3
     when: Dec. 26
     date: '1963-12-26'
+    place: algiers
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the People's Palace. Zhou Enlai gives a grand farewell banquet, followed by a farewell reception; Ben Bella and Boumediene attend.
@@ -4758,6 +5452,11 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 394: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 394 n.82a: all'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: 'The Yang Shangkun riji''s editors: Zhou Yang''s "The fighting tasks of workers in philosophy and the social sciences" printed in the *Renmin ribao* on Dec. 27, 1963 (II, 337 n.2)'
+        at: II, 337, Dec. 27, 1963
   - id: cal.1963-12-26.china-leadership-6
     when: Dec. 26
     date: '1963-12-26'
@@ -4771,9 +5470,42 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 423 n.128a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 423 n.128b: all'
     tags: [polity:prc, name:mao-zedong, name:jiang-qing, vis:only:prc]
+  - id: cal.1963-12-26.china-leadership-7
+    when: Dec. 26
+    date: '1963-12-26'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the trade unions' papers.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 26, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: dfde2047
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-25T22:00Z
+      - 1963-12-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-26.china-leadership-8
+    when: Dec. 26
+    date: '1963-12-26'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with the two Party committees of the central organs 两个直属党委 on calling a meeting of the cadres of grade 17.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 26, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: baa4589f
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-26T04:00Z
+      - 1963-12-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-27.succession
     when: Dec. 27
     date: '1963-12-27'
+    place: lbj-ranch
     thread: succession
     also: [economy]
     c: 'News conference at the Ranch. The 1965 budget: requests cut $731 million and 10,000 jobs after three days with the Cabinet. Sent Jan. 21, 1964: $97.9 billion.'
@@ -4800,6 +5532,7 @@ entries:
   - id: cal.1963-12-27.press-and-broadcasting
     when: Dec. 27
     date: '1963-12-27'
+    place: lbj-ranch
     thread: press-and-broadcasting
     c: 'Jones of the *Chronicle* at the Ranch with Gus Wortham, Albert Thomas in George Brown''s place: "Whenever you need anything call on us." Not enough, Johnson tells Wortham after: a letter.'
     n: '[[w.caro-passage-of-power]], 524–25 (Johnson''s account to Brown, Jan. 2). To check: [Jones and Valenti](https://millercenter.org/the-presidency/secret-white-house-tapes/john-t-jones-jack-valenti-december-27-1963), Tape K6312.19 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment); [Johnson and George Brown, Jan. 2, 1964, 11:55 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-brown-january-2-1964), Conversation WH6401-03-1143 (Miller Center; not heard here); Jones to Johnson, Jan. 3, 1964 (cited by [[w.caro-passage-of-power]], 525). See [[cal.1963-12-25.press-and-broadcasting]]. Names: Albert Thomas, Johnson.'
@@ -4906,6 +5639,52 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
     tags: [polity:prc, polity:morocco, name:zhou-enlai, name:hassan-ii]
+  - id: cal.1963-12-27.china-leadership-8
+    when: Dec. 27
+    date: '1963-12-27'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 reads Zhou Yang's 周扬 article "The fighting tasks of workers in philosophy and the social sciences" 哲学社会科学工作者的战斗任务, printed that day (the editors note), not to the end.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 27, 1963). See [[cal.1963-12-26.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Zhou Yang, "The fighting tasks of workers in philosophy and the social sciences," *Renmin ribao*, Dec. 27, 1963 (cited by [[w.yang-shangkun-riji]], II, 337 n.2). Names: Yang Shangkun, Zhou Yang.'
+    src:
+      c: 63d9fe10
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+        - 'via w.yang-shangkun-riji II, 337 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-26T22:00Z
+      - 1963-12-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-27.china-leadership-9
+    when: Dec. 27
+    date: '1963-12-27'
+    time: 1963-12-27T08:00Z
+    thread: china-leadership
+    c: Peking 北京, 4 to 7 p.m. The Secretariat 书记处 on political work 政治工作.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 27, 1963). The words: 下午4时到7时，书记处会议，谈政治工作问题 (II, 337). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 9ecde9da
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-27.china-leadership-10
+    when: Dec. 27
+    date: '1963-12-27'
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英, Wang Yuming 王愈明 and others with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 27, 1963). The words: 晚间田家英同志来谈话 (II, 337). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Wang Yuming, Yang Shangkun.'
+    src:
+      c: 35378f2c
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-27T11:00Z
+      - 1963-12-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-28.europe-and-the-alliance
     when: Dec. 28–29
     date: '1963-12-28'
@@ -4982,6 +5761,7 @@ entries:
   - id: cal.1963-12-28.china-leadership-3
     when: Dec. 28
     date: '1963-12-28'
+    place: rabat
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the officers' club. Zhou Enlai attends the luncheon given by Foreign Minister Guedira.
@@ -4999,6 +5779,7 @@ entries:
   - id: cal.1963-12-28.china-leadership-5
     when: Dec. 28
     date: '1963-12-28'
+    place: rabat
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the Peace Palace. Zhou Enlai gives a grand reception for King Hassan II.
@@ -5016,6 +5797,7 @@ entries:
   - id: cal.1963-12-28.china-leadership-6
     when: Dec. 28
     date: '1963-12-28'
+    place: rabat
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the Mohammed V Theater. Zhou Enlai watches a performance by Moroccan artists.
@@ -5030,6 +5812,19 @@ entries:
       - 1963-12-28T22:00Z
     time_band: evening
     time_zone: Africa/Casablanca
+  - id: cal.1963-12-28.china-leadership-4
+    when: Dec. 28
+    date: '1963-12-28'
+    time: 1963-12-28T01:00Z
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂, 9 a.m. to 4 p.m., an hour's break. Yu Qiuli 余秋里, Minister of the Petroleum Industry, reports on the political work of the great oil campaign on the Songliao plain 松辽平原石油大会战; 5,700 hear it; Yang Shangkun 杨尚昆 there.
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 28, 1963). The words: 全部听此报告的，今天有5700人 (II, 337). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yu Qiuli, Yang Shangkun.'
+    src:
+      c: 874a6aea
+      rows:
+        - 'w.yang-shangkun-riji II, 337: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-29.poverty
     when: Dec. 29–Jan. 3
     date: '1963-12-29'
@@ -5050,6 +5845,7 @@ entries:
   - id: cal.1963-12-29.europe-and-the-alliance
     when: Dec. 29
     date: '1963-12-29'
+    place: lbj-ranch
     thread: europe-and-the-alliance
     c: 'The LBJ Ranch, breakfast on the terrace: Johnson, McGeorge Bundy and Ball with Erhard. Johnson on his advisers, by Ball''s account: "No head of state ever had such a galaxy of talent."'
     n: '[[w.ball-past-has-another-pattern]], 426. Check: the day, as Ball gives it. Names: Johnson, McGeorge Bundy, Ball, Erhard.'
@@ -5109,6 +5905,7 @@ entries:
   - id: cal.1963-12-29.china-leadership-2
     when: Dec. 29
     date: '1963-12-29'
+    place: rabat
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the Peace Palace. Zhou Enlai makes statements at the request of French and Moroccan radio and television reporters.
@@ -5123,10 +5920,27 @@ entries:
       - 1963-12-29T14:00Z
     time_band: workday midday
     time_zone: Africa/Casablanca
+  - id: cal.1963-12-29.china-leadership-3
+    when: Dec. 29
+    date: '1963-12-29'
+    thread: china-leadership
+    c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on the papers of the All-China Federation of Trade Unions.
+    n: '[[w.yang-shangkun-riji]], II, 338 (Dec. 29, 1963). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
+    src:
+      c: 792fa223
+      rows:
+        - 'w.yang-shangkun-riji II, 338: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-29T14:00Z
+      - 1963-12-29T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-30.congress
     when: Dec. 30
     date: '1963-12-30'
     time: 1963-12-30T19:51Z
+    place: washington
     thread: congress
     c: 'First session of the 88th Congress adjourns, 2:51 p.m. Passed: the test ban, equal pay, mental health, clean air, higher and vocational education. Left: the tax bill in Finance, civil rights in Rules, Medicare.'
     n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt19/pdf/GPO-CRECB-1963-pt19-12-1.pdf) (1963). CQ Almanac 1963. [[w.sundquist-politics-and-policy]], 52, 210, 265–66, 316, 355 (the education acts, 210; clean air, 355; the tax bill in Finance, 52; civil rights in Rules, 265–66; Medicare, 316); [[w.zelizer-fierce-urgency-of-now]], 74, 91 (the tax bill held in Finance, 74; civil rights held in Rules, Smith''s hearings promised for January, 91). To check: [[w.burns-deadlock-of-democracy]]; [[w.congress-and-the-nation]] (K–J Cong. II.L). See [[cal.1962-10-13.congress]]. Check: the page.'
@@ -5238,6 +6052,7 @@ entries:
   - id: cal.1963-12-30.defense
     when: Dec. 30
     date: '1963-12-30'
+    place: lbj-ranch
     thread: defense
     c: 'The LBJ Ranch, the living room, morning: McNamara, Gilpatric and the Joint Chiefs with Johnson on the defense budget. To the reporters after: "We had a fine meeting."'
     n: '[[w.caro-passage-of-power]], 517; [[w.poole-joint-chiefs-of-staff]], 13, 47, 57, 75; [[w.johnson-white-house-diary]], 27 (the Joint Chiefs, led by Taylor and including LeMay and Shoup, at the Ranch in the morning; Heller and Gordon in and out of the meetings; not McNamara, Gilpatric or the reporters). To check: [*New York Times*, Dec. 31, 1963](https://timesmachine.nytimes.com/timesmachine/1963/12/31/issue.html) (cited by [[w.caro-passage-of-power]], 517). Names: McNamara, Gilpatric, Johnson.'
@@ -5358,9 +6173,26 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 137: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-30.china-leadership-4
+    when: Dec. 30
+    date: '1963-12-30'
+    thread: china-leadership
+    c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 338 (Dec. 30, 1963). The words: 田家英同志来谈话，办公到2时睡 (II, 338). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 57d08dda
+      rows:
+        - 'w.yang-shangkun-riji II, 338: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-30T14:00Z
+      - 1963-12-30T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-31.civil-rights-the-executive
     when: Dec. 31
     date: '1963-12-31'
+    place: austin
     thread: civil-rights-the-executive
     c: Austin, New Year's Eve. Johnson brings Gerri Whittington, his new White House secretary, to the University of Texas alumni's reception for Busby at the Forty Acres Club, the faculty club; the first Negro ever admitted. The club soon takes reservations for mixed tables.
     n: '[[w.branch-pillar-of-fire]], 199–200; [[w.kotz-judgment-days]], 87 (New Year''s Eve, the Forty Acres Club, Gerri Whittington). To check: E. Ernest Goldstein, "How LBJ Took the Bull by the Horns," Amberst alumni magazine, Winter 1985, pp. 12–17 (cited by [[w.branch-pillar-of-fire]], 200). See [[cal.1963-12-23.civil-rights-bill]]. Names: Johnson, Busby.'
@@ -5896,6 +6728,7 @@ entries:
     when: Dec. 31
     date: '1963-12-31'
     time: 1963-12-31T17:30Z
+    place: lbj-ranch
     thread: latin-america
     also: [press-and-broadcasting]
     c: 'Johnson to Rusk by telephone, 11:30 a.m.: find who is leaking from the Latin American division; the *New York Times* has it before he does.'
@@ -6166,6 +6999,7 @@ entries:
   - id: cal.1963-12-31.china-leadership
     when: Dec. 31
     date: '1963-12-31'
+    place: tirana
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai arrives at Tirana in the afternoon and begins his visit to Albania.
@@ -6198,6 +7032,7 @@ entries:
     when: Dec. 31
     date: '1963-12-31'
     time: 1963-12-31T20:00Z
+    place: tirana
     thread: china-leadership
     also: [china, soviet-union]
     c: Tirana. Zhou Enlai spends New Year's Eve with the workers of the Stalin Textile Combine, then with the People's Army's officers and martyrs' families at the Officers' House, then with workers, officers and writers at the Writers' and Artists' Club, and attends the dinner given by Hoxha and Shehu at the Partisans' Palace and the New Year evening after it.
@@ -6309,3 +7144,19 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 433 n.19: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 433 n.19b: all'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-31.china-leadership-5
+    when: Dec. 31
+    date: '1963-12-31'
+    thread: china-leadership
+    c: Peking 北京. He Jun 何均 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 338 (Dec. 31, 1963). The words: 下午何均同志来谈话，处理文电 (II, 338). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Yang Shangkun.'
+    src:
+      c: a2996cdd
+      rows:
+        - 'w.yang-shangkun-riji II, 338: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1963-12-31T04:00Z
+      - 1963-12-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai

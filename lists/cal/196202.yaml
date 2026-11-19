@@ -107,6 +107,7 @@ entries:
   - id: cal.1962-02-01.republican-party-congress
     when: Feb. 1
     date: '1962-02-01'
+    place: washington
     thread: republican-party-congress
     c: 'Senate Republican conference, twenty-two present, 9:27 to 10 a.m. Carlson, acting for Schoeppel, reports assignments for the vacancies after the deaths of Bridges and Schoeppel; approved. Aiken says a member has waited for Commerce and Judiciary; Williams: stop assigning a third committee until every Senator has two major ones.'
     n: '[[w.wolff-minutes-of-the-senate]], 903–05. See [[cal.1962-01-31.republican-party-congress]]. Names: Carlson, Bridges, Schoeppel, Aiken, Williams.'
@@ -127,7 +128,12 @@ entries:
     date: '1962-02-01'
     thread: china-leadership
     c: 'Yinian Tang, evening. Mao presides at the enlarged Standing Committee: reports on the venting meetings of North China, the Northeast and East China; the conference to run on past the Spring Festival.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 1, 1962. Made public: 2013. See [[cal.1962-01-30.china-leadership-2]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 1, 1962. [[w.yang-shangkun-riji]], II, 119–120 (Feb. 1, 1962; Mao''s meeting at the Yinian Tang: the conference to run on past the Spring Festival, the arrangements to be settled the next day; the reports of North China, the Northeast and East China). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 119–120) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. See [[cal.1962-01-30.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: fd06bd5e
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 1, 1962: all'
+        - 'w.yang-shangkun-riji II, 119–120: A-C'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-02-01.south-asia
     when: Feb. 1
@@ -142,6 +148,43 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 299–300: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 300 n.14a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 300 n.14b: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-02-01.china-leadership-2
+    when: Feb. 1
+    date: '1962-02-01'
+    time: 1962-02-01T07:00Z
+    thread: china-leadership
+    c: Qianmen Hotel 前门饭店, from 3 p.m. Yang Shangkun 杨尚昆 at the Seven Thousand Cadres Conference's group of Sichuan's 四川 Mianyang 绵阳 prefectural committee.
+    n: '[[w.yang-shangkun-riji]], II, 119 (Feb. 1, 1962). The words: 下午3时到7时 (II, 119). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 388d58a3
+      rows:
+        - 'w.yang-shangkun-riji II, 119: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-01.china-leadership-3
+    when: Feb. 1
+    date: '1962-02-01'
+    thread: china-leadership
+    follows:
+      - cal.1962-02-01.china-leadership-2
+    c: Qianmen Hotel 前门饭店. Yang Shangkun 杨尚昆 at the Sichuan 四川 provincial committee's meeting of prefectural secretaries' reports, to 7 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 119 (Feb. 1, 1962). The words: 随后……7时半回家晚饭 (II, 119). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 816de85f
+      rows:
+        - 'w.yang-shangkun-riji II, 119: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-02-01.china-leadership-4
+    when: Feb. 1
+    date: '1962-02-01'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, caught in a draught at the meeting, has a cold coming on.
+    n: '[[w.yang-shangkun-riji]], II, 119 (Feb. 1, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: c11b3014
+      rows:
+        - 'w.yang-shangkun-riji II, 119: all'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-02.vietnam
     when: Feb. 2
@@ -231,8 +274,40 @@ entries:
     date: '1962-02-02'
     thread: china-leadership
     c: 'Yinian Tang, evening. Mao presides over the enlarged Standing Committee again: reports from the Northwest, Central-South and Southwest. Deng Xiaoping and Peng Zhen propose to relax the strain in Party life: no venting meetings below the county; a return to the Party''s usual order. Decided: a report from each province''s head on Feb. 3 to close this stage; holiday Feb. 4–5; small meetings in the mornings and plenaries in the afternoons of Feb. 6–7.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 2, 1962. Made public: 2013. See [[cal.1962-02-01.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 2, 1962. [[w.yang-shangkun-riji]], II, 120 (Feb. 2, 1962; the reports at Mao''s go on, evening; Sunday off, the plenary again Feb. 6). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 120) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. See [[cal.1962-02-01.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: f16d1549
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 2, 1962: all'
+        - 'w.yang-shangkun-riji II, 120: A, B'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-02-02.china-leadership-2
+    when: Feb. 2
+    date: '1962-02-02'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 unwell; the doctor gives him yinqiao 银翘 pills; he misses the groups.
+    n: '[[w.yang-shangkun-riji]], II, 120 (Feb. 2, 1962). The words: 下午午睡后 (II, 120). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-01.china-leadership-4]]. Names: Yang Shangkun.'
+    src:
+      c: 9fc59bc1
+      rows:
+        - 'w.yang-shangkun-riji II, 120: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-02T04:00Z
+      - 1962-02-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-02.china-leadership-3
+    when: Feb. 2
+    date: '1962-02-02'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 hears the groups' reports to 1:30 a.m.; their reports to stop from the next day until after the Spring Festival.
+    n: '[[w.yang-shangkun-riji]], II, 120 (Feb. 2, 1962). The words: 各小组汇报到1时半 (II, 120). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: ab7e64ca
+      rows:
+        - 'w.yang-shangkun-riji II, 120: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-03.cuba
     when: Feb. 3
     date: '1962-02-03'
@@ -255,6 +330,7 @@ entries:
   - id: cal.1962-02-03.vietnam
     when: Feb. 3
     date: '1962-02-03'
+    place: saigon
     thread: vietnam
     c: 'Diệm''s decree sets up the Interministerial Committee for Strategic Hamlets: the ministers of the interior, civic action and rural affairs, the deputy minister of defense, army, police and intelligence officers; Nhu presides. The strategic hamlets the government''s first priority since January.'
     n: '[[w.miller-misalliance]], 231–39 (the program''s design; 238: the committee, its members, Nhu in the chair, the priority of January). To check: [[w.catton-diems-final-failure]]; "Translation of Decree Establishing Interministerial Committee for Strategic Hamlets," Feb. 3, 1962, folder 12, box 6, Donnell Collection, Vietnam Archive, Texas Tech University (cited by [[w.miller-misalliance]], 238 n.61). See [[cal.1962-02-02.vietnam]]. Names: Diệm, Nhu.'
@@ -334,6 +410,7 @@ entries:
   - id: cal.1962-02-03.china-leadership-5
     when: Feb. 3
     date: '1962-02-03'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador, Perera, for the 14th anniversary of Ceylon's independence.
@@ -367,6 +444,38 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 173: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 173 n.174: all'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1962-02-03.china-leadership-6
+    when: Feb. 3
+    date: '1962-02-03'
+    thread: china-leadership
+    c: Kang Yimin 康一民 and others with Yang Shangkun 杨尚昆 on taking back the conference's documents and notes.
+    n: '[[w.yang-shangkun-riji]], II, 120 (Feb. 3, 1962). The words: 上午 (II, 120). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Yimin, Yang Shangkun.'
+    src:
+      c: 70547dd0
+      rows:
+        - 'w.yang-shangkun-riji II, 120: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-02T22:00Z
+      - 1962-02-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-03.china-leadership-7
+    when: Feb. 3
+    date: '1962-02-03'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 down with influenza, by his own guess; aches all over, a cough, in bed.
+    n: '[[w.yang-shangkun-riji]], II, 120 (Feb. 3, 1962). The words: 午饭后 (II, 120). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-02.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: 5d2a06e8
+      rows:
+        - 'w.yang-shangkun-riji II, 120: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-03T04:00Z
+      - 1962-02-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-04.china-leadership
     when: Feb. 4
     date: '1962-02-04'
@@ -374,9 +483,21 @@ entries:
     c: Zhou Enlai with responsible persons on grain, finance, staff cuts and the 1962 plan.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 455 (Feb. 4, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-02-04.china-leadership-2
+    when: Feb. 4
+    date: '1962-02-04'
+    thread: china-leadership
+    c: 'Yang Shangkun 杨尚昆 in bed all day, 38°C: a severe cold, the doctors find; injections and medicine. He will not go to hospital.'
+    n: '[[w.yang-shangkun-riji]], II, 120 (Feb. 4, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-03.china-leadership-7]]. Names: Yang Shangkun.'
+    src:
+      c: eb176925
+      rows:
+        - 'w.yang-shangkun-riji II, 120: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-05.vietnam
     when: Feb. 5
     date: '1962-02-05'
+    place: washington
     thread: vietnam
     c: 'McNamara''s press conference at the Pentagon: Saigon''s actions against "covert aggression" "beginning to be effective"; "it is far too early to predict the eventual outcome."'
     n: '[[w.mcnamara-in-retrospect]], ch. 2 at n.20. To check: press conference, Feb. 5, 1962, *Public Statements of Robert S. McNamara*, 1962, II, 735–736 (cited by [[w.mcnamara-in-retrospect]], ch. 2 n.20). Names: McNamara.'
@@ -406,6 +527,17 @@ entries:
     c: 'Zhou Enlai at the Secretariat: it agrees to the main points of his and Deng Xiaoping''s speeches at the conference.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 455 (Feb. 5, 1962). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-02-05.china-leadership-2
+    when: Feb. 5–6
+    date: '1962-02-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 still in bed; the fever controlled, Feb. 5, gone, Feb. 6; he cannot attend the work conference.
+    n: '[[w.yang-shangkun-riji]], II, 120–121 (Feb. 5, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-04.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: b0b917dd
+      rows:
+        - 'w.yang-shangkun-riji II, 120–121: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-06.school-aid
     when: Feb. 6
     date: '1962-02-06'
@@ -460,6 +592,7 @@ entries:
   - id: cal.1962-02-06.school-aid-2
     when: Feb. 6
     date: '1962-02-06'
+    place: washington
     thread: school-aid
     c: 'Senate passes the college aid bill, H.R. 8900 with the text of S. 1241, [69–17](https://voteview.com/rollcall/RS0870214), with Clifford Case''s $50 million a year for public community colleges. The scholarships kept: an amendment turning them into loans beaten, [37–50](https://voteview.com/rollcall/RS0870212).'
     n: '[[w.sundquist-politics-and-policy]], 203–04; [[w.graham-uncertain-triumph]], 28 (69 to 17). The Senate sat from noon to 6:44 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D41](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=39). See [[cal.1962-01-30.school-aid]]. Names: Clifford Case.'
@@ -536,6 +669,7 @@ entries:
   - id: cal.1962-02-06.economy
     when: Feb. 6
     date: '1962-02-06'
+    place: washington
     thread: economy
     c: The Senate Banking and Currency Committee hears James J. Saxon on his nomination as Comptroller of the Currency.
     n: '*Nomination of James J. Saxon: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg79547)), 1. Names: Saxon.'
@@ -558,6 +692,7 @@ entries:
     when: Feb. 6
     date: '1962-02-06'
     time: 1962-02-06T08:30Z
+    place: peking
     thread: china-leadership
     c: 'The Great Hall, 4:30 p.m. Plenary, Mao presiding. Deng Xiaoping: for the faults and errors the center first answers, and in the center the Secretariat chiefly, being the one that does the work; five virtues of the Party (Mao Zedong Thought, a good center, good cadres, good tradition, a people''s trust). Mao interjects: no secret factions; "inspect work, sum up experience, exchange opinions."'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 6, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 173–75 (Deng Xiaoping''s speech: five goods, democratic centralism, dispersionism, factions, letting off steam); [[w.macfarquhar-origins-of-the-cultural]], III, 144 (Deng Xiaoping''s plenary address). Made public: 2013. To check: [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 279–99 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 173 n.176a); [[w.selected-works-of-deng]], 269–86 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 173 n.176b); [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 280–83 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 174 n.177a); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 174 n.177b); [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 290 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 174 n.182a); [[w.schram-mao-tse-tung-unrehearsed]], 183 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 174 n.182b); [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 295–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 175 n.185); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). See [[cal.1962-02-02.china-leadership]]. Names: Mao Zedong, Deng Xiaoping.'
@@ -654,6 +789,7 @@ entries:
   - id: cal.1962-02-07.states-and-cities
     when: Feb. 7
     date: '1962-02-07'
+    place: new-york-state
     thread: states-and-cities
     c: 'Rockefeller commutes the death sentence of Salvador Agron, sixteen at the killings of 1959, to life imprisonment: his age, his mental impairment, his upbringing. Eleanor Roosevelt and the father of one victim had asked clemency; the hearing in the Capitol''s Red Room.'
     n: '[[w.smith-on-his-own-terms]], 373–74. Names: Rockefeller, Eleanor Roosevelt.'
@@ -723,9 +859,10 @@ entries:
     when: Feb. 7
     date: '1962-02-07'
     time: 1962-02-07T08:30Z
+    place: peking
     thread: china-leadership
     c: 'The Great Hall, 4:30 p.m. Plenary, Mao presiding. Zhou Enlai: for the past years'' faults the State Council and its commissions bear much; leap targets set against fact; if proportions are not kept, laws of objective reality punish; the economy still in serious difficulty; farm recovery needs three to five years; 1962 the key year of adjustment. Mao closes the conference: nearly a month, the lines of communication opened, policy settled; a small conference of the first secretaries on Feb. 8.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 7, 1962. [[w.zhou-enlai-nianpu-1949]], II, 455–56 (Feb. 7, 1962: Zhou Enlai''s closing speech: the State Council and its commissions bear much of the blame; grain short by about 10 billion jin in 1962; eight measures, the first to cut offices, urban population, staff and grain supply); [[w.macfarquhar-origins-of-the-cultural]], III, 175–78 (Zhou Enlai''s speech: the five highs, planning, his own errors, devolution of powers); [[w.macfarquhar-origins-of-the-cultural]], III, 184–86 (Zhou''s figures: grain output, procurement and rural ration; the surplus provinces; grain to the cities; foreign debts); [[w.macfarquhar-origins-of-the-cultural]], III, 134, 144 (Zhou''s closing address: blockade, debts, the aid programme). Made public: 1997. To check: the conference''s resolution on Liu Shaoqi''s report (the nianpu, Jan.–Feb. entry: Mao added "and the speeches of several Standing Committee comrades" and "restore democratic centralism"); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 175 n.186); [[w.qi-qian-ren-dahui]], 81 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.187); [[w.qi-qian-ren-dahui]], 83 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.189); [[w.qi-qian-ren-dahui]], 83–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.190); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.193); [[w.griffith-albania-and-the-sino]], 104 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 134 n.81b); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). See [[cal.1962-02-06.china-leadership]]. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 7, 1962. [[w.zhou-enlai-nianpu-1949]], II, 455–56 (Feb. 7, 1962: Zhou Enlai''s closing speech: the State Council and its commissions bear much of the blame; grain short by about 10 billion jin in 1962; eight measures, the first to cut offices, urban population, staff and grain supply); [[w.macfarquhar-origins-of-the-cultural]], III, 175–78 (Zhou Enlai''s speech: the five highs, planning, his own errors, devolution of powers); [[w.macfarquhar-origins-of-the-cultural]], III, 184–86 (Zhou''s figures: grain output, procurement and rural ration; the surplus provinces; grain to the cities; foreign debts); [[w.macfarquhar-origins-of-the-cultural]], III, 134, 144 (Zhou''s closing address: blockade, debts, the aid programme); [[w.yang-shangkun-riji]], II, 121 (Feb. 7, 1962; the enlarged Central Work Conference closes; Yang Shangkun, ill, absent; the delegates to leave from the next day). Made public: 1997. To check: the conference''s resolution on Liu Shaoqi''s report (the nianpu, Jan.–Feb. entry: Mao added "and the speeches of several Standing Committee comrades" and "restore democratic centralism"); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 175 n.186); [[w.qi-qian-ren-dahui]], 81 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.187); [[w.qi-qian-ren-dahui]], 83 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.189); [[w.qi-qian-ren-dahui]], 83–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.190); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.193); [[w.griffith-albania-and-the-sino]], 104 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 134 n.81b); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). See [[cal.1962-02-06.china-leadership]]. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: 90946a48
       rows:
@@ -746,6 +883,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-c: B-C, I'
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-d: B-C, I'
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-e: B-C, I'
+        - 'w.yang-shangkun-riji II, 121: ?'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-02-07.china-leadership-2
     when: Feb. 7
@@ -792,6 +930,7 @@ entries:
   - id: cal.1962-02-08.cuba
     when: Feb. 8
     date: '1962-02-08'
+    place: moscow
     thread: cuba
     also: [soviet-union, cuba]
     c: The Presidium approves the $133 million in military aid for Cuba frozen since October 1961, put on its agenda by Khrushchev for quick approval; a review of the Soviet military aid to Castro ordered.
@@ -812,6 +951,7 @@ entries:
   - id: cal.1962-02-08.school-aid
     when: Feb. 8
     date: '1962-02-08'
+    place: washington
     thread: school-aid
     c: 'Quie objects to sending H.R. 8900 straight to conference, and it goes to Rules: he "just wanted to buy enough time ... so that the House will not have to accept the Senate''s scholarship provisions."'
     n: '[[w.graham-uncertain-triumph]], 30. The House sat from noon to 12:18 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=48). To check: *Congressional Quarterly Almanac: 1962* (1963) (cited by [[w.graham-uncertain-triumph]], 30 n.11). Names: Quie.'
@@ -953,6 +1093,35 @@ entries:
     c: The Politburo's resolution no. 44-NQ/TW on the plan to rebuild and extend the city of Nam Định, to become a socialist industrial city.
     n: '*Nghị quyết của Bộ Chính trị số 44-NQ/TW về quy hoạch cải tạo và mở rộng thành phố Nam Định*, signed for the Politburo by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXIII, 115–20. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1962-02-10.china-leadership
+    when: Feb. 10
+    date: '1962-02-10'
+    thread: china-leadership
+    c: Gong Zirong 龚子荣 and Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆; he asks them to attend to streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 121 (Feb. 10, 1962). The words: 上午 (II, 121). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Deng Diantao, Yang Shangkun.'
+    src:
+      c: 72f6739b
+      rows:
+        - 'w.yang-shangkun-riji II, 121: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-09T22:00Z
+      - 1962-02-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-10.china-leadership-2
+    when: Feb. 10
+    date: '1962-02-10'
+    time: 1962-02-10T11:30Z
+    thread: china-leadership
+    c: Peking 北京, 7:30 p.m. Yang Shangkun 杨尚昆 and his family leave by train for Guilin 桂林 and Nanning 南宁, a points switch frozen in the snow delaying the start two hours.
+    n: '[[w.yang-shangkun-riji]], II, 121 (Feb. 10, 1962). The words: 晚饭后5时半赴车站……等到7时半才开车 (II, 121). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: b3a62eaa
+      rows:
+        - 'w.yang-shangkun-riji II, 121: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-11.vietnam
     when: Feb. 11
     date: '1962-02-11'
@@ -1006,6 +1175,17 @@ entries:
     c: 'Zhou Enlai telegraphs the second Afro-Asian Writers'' Conference, to open in Cairo Feb. 12: its meeting marks a further step in friendship, unity and cultural exchange of Asian and African peoples.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 457 (Feb. 11, 1962). Names: Zhou Enlai.'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
+  - id: cal.1962-02-11.china-leadership-4
+    when: Feb. 11
+    date: '1962-02-11'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 on the train south, through Hebei 河北 and Henan 河南 under heavy snow; past Hankou 汉口 at dusk.
+    n: '[[w.yang-shangkun-riji]], II, 122 (Feb. 11, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-10.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: 9dddedec
+      rows:
+        - 'w.yang-shangkun-riji II, 122: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-12.mayors-philadelphia
     when: Feb. 12
     date: '1962-02-12'
@@ -1074,9 +1254,47 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218–219: all'
     tags: [polity:prc, polity:cuba, polity:us, name:chen-yi]
+  - id: cal.1962-02-12.china-leadership-3
+    when: Feb. 12
+    date: '1962-02-12'
+    time: 1962-02-12T05:30Z
+    thread: china-leadership
+    c: Guilin 桂林, 1:30. Yang Shangkun 杨尚昆 arrives, met by the city and prefectural committees; Li Youjiu 李友九 first secretary of the prefecture. At the Ronghu 榕湖 guesthouse.
+    n: '[[w.yang-shangkun-riji]], II, 122 (Feb. 12, 1962; note 1: Li Youjiu). The words: 1时半车到桂林 (II, 122). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Youjiu.'
+    src:
+      c: fac9461d
+      rows:
+        - 'w.yang-shangkun-riji II, 122: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-12.china-leadership-4
+    when: Feb. 12
+    date: '1962-02-12'
+    time: 1962-02-12T08:30Z
+    thread: china-leadership
+    c: Guilin 桂林, 4:30 p.m. Yang Shangkun 杨尚昆 at the Ludi Yan 芦笛岩 caves, newly found.
+    n: '[[w.yang-shangkun-riji]], II, 122 (Feb. 12, 1962). The words: 4时半 (II, 122). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7f6be7ce
+      rows:
+        - 'w.yang-shangkun-riji II, 122: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-12.china-leadership-5
+    when: Feb. 12
+    date: '1962-02-12'
+    thread: china-leadership
+    c: Guilin 桂林. Qin Yingji 覃应机, vice-chairman of Guangxi's 广西 people's council, comes from Nanning 南宁 to accompany Yang Shangkun 杨尚昆; Yangshuo 阳朔 the next day.
+    n: '[[w.yang-shangkun-riji]], II, 122 (Feb. 12, 1962; note 2: Qin Yingji). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qin Yingji, Yang Shangkun.'
+    src:
+      c: 697882b0
+      rows:
+        - 'w.yang-shangkun-riji II, 122: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-13.specials
     when: Feb. 13
     date: '1962-02-13'
+    place: michigan
     thread: specials
     c: Michigan 14th, special. Harold Ryan (D) holds Rabaut's seat over Waldron (R), 30,367 to 29,600, 50.5 percent, a 767-vote margin. Swing 12.1 to R.
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt2/pdf/GPO-CRECB-1962-pt2-10-1.pdf) (1962) (Ryan sworn). Votes: CQ Guide 6th (2010) 1268. See [[cal.1961-04-04.states-and-cities]]. Names: Ryan, Rabaut, Waldron. Check: the page.'
@@ -1091,6 +1309,7 @@ entries:
   - id: cal.1962-02-13.middle-east
     when: Feb. 13
     date: '1962-02-13'
+    place: washington
     thread: middle-east
     c: Saud at the White House, after treatment in Boston; Kennedy had called on him at Palm Beach, Jan. 27. Iraq and Kuwait, Syria, Algeria, the training mission. After it, an economic mission to Saudi Arabia; his request for some $16 million of arms on credit studied.
     n: 'Remarks of Welcome to King Saud of Saudi Arabia at Andrews Air Force Base, [1962 Pub. Papers 130](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=190); Joint Statement Following Discussions With King Saud, [1962 Pub. Papers 131](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=191) (Feb. 13, 1962). FRUS 1961–63, XVII, docs. [191](https://history.state.gov/historicaldocuments/frus1961-63v17/d191), [241](https://history.state.gov/historicaldocuments/frus1961-63v17/d241). To check: [[w.hart-saudi-arabia-and-the]]; [[w.bronson-thicker-than-oil]]. See [[cal.1961-03-16.middle-east]]. Names: Saud ibn Abd al-Aziz Al Saud.'
@@ -1105,6 +1324,7 @@ entries:
   - id: cal.1962-02-13.vietnam-congress
     when: Feb. 13
     date: '1962-02-13'
+    place: washington
     thread: vietnam-congress
     c: Harriman before Foreign Relations, the public hearing on his nomination as Assistant Secretary for the Far East.
     n: '[[w.gibbons-u-s-government-and]], II, 109. To check: the hearing''s unpublished transcript, Foreign Relations Committee papers, RG 46, National Archives (cited by [[w.gibbons-u-s-government-and]], II, 109 n.86). Names: Harriman.'
@@ -1196,6 +1416,19 @@ entries:
     c: Zhou Enlai takes part in further discussion and revision of Liu Shaoqi's written report to the Work Conference, Feb. 13 and 14.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 457 (Feb. 13–14, 1962). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-02-13.china-leadership-2
+    when: Feb. 13
+    date: '1962-02-13'
+    time: 1962-02-13T01:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 from Guilin 桂林 by car to Daxu 大墟, then by boat down the Li River 漓江 to Yangshuo 阳朔, about 5 p.m., and back by car; on the boat the city committee's plan for opening up the Yangshuo area.
+    n: '[[w.yang-shangkun-riji]], II, 122–123 (Feb. 13, 1962). The words: 9时出发……下午5时许到达阳朔……7时许抵桂林招待所 (II, 122–123). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 6d7e962b
+      rows:
+        - 'w.yang-shangkun-riji II, 122–123: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-14.robert-kennedy-trip
     when: Feb. 14–15
     date: '1962-02-14'
@@ -1246,6 +1479,7 @@ entries:
   - id: cal.1962-02-14.indonesia
     when: Feb. 14
     date: '1962-02-14'
+    place: jakarta
     thread: indonesia
     also: [robert-kennedy]
     c: 'Djakarta, an hour and a half with Sukarno, Djuanda and Ambassador Jones present: Robert Kennedy presses for talks with the Dutch on West New Guinea without preconditions; the Dutch ready to discuss anything, the transfer of the administration included. Sukarno to answer Sunday. On Pope, the CIA flier condemned in 1960, Sukarno offers to trade him for pressure on the Dutch; Kennedy refuses: Indonesia may execute him without changing the American position. Kennedy to the President and Rusk: Sukarno will drop the preconditions if the United States pushes.'
@@ -1271,6 +1505,7 @@ entries:
     when: Feb. 14
     date: '1962-02-14'
     time: 1962-02-14T14:45Z
+    place: washington
     thread: labor
     also: [economy]
     c: 'Rose Garden, 9:45 a.m. Kennedy to the policy committee of the Communications Workers, Beirne their president, in Washington to settle their bargaining position: "I want to commend you for the responsible way that you are moving towards your assignment." Heller had talked with them the day before.'
@@ -1317,6 +1552,7 @@ entries:
   - id: cal.1962-02-14.defense
     when: Feb. 14
     date: '1962-02-14'
+    place: washington
     thread: defense
     also: [congress]
     c: McNamara to the Senate Subcommittee on Defense Appropriations on the buildup of "specialized guerrilla warfare forces."
@@ -1345,9 +1581,21 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 186–87: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 187 n.4: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-02-14.china-leadership-2
+    when: Feb. 14
+    date: '1962-02-14'
+    thread: china-leadership
+    c: Guilin 桂林. Yang Shangkun 杨尚昆 at Fubo Shan 洑波山, the Qixing Yan 七星岩 caves (he writes "the world's wonder" 天下奇观 in the visitors' book), Diecai Shan 叠彩山 and Huanzhu Dong 还珠洞.
+    n: '[[w.yang-shangkun-riji]], II, 123 (Feb. 14, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: d6bc52ad
+      rows:
+        - 'w.yang-shangkun-riji II, 123: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02-15.vietnam-congress
     when: Feb. 15
     date: '1962-02-15'
+    place: washington
     thread: vietnam-congress
     c: 'Mansfield in the Senate, on the charge that Congress has not been told of Vietnam: "it borders on the irresponsible to suggest that Congress had not been well informed." The "line of demarcation": "It is the President''s responsibility to act. ... It is ours to advise." The collaboration of the President and Congress "not likely to continue if the party headquarters become involved."'
     n: '[108 Cong. Rec. 2325–26](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt2/pdf/GPO-CRECB-1962-pt2-7-2.pdf) (1962). [[w.gibbons-u-s-government-and]], II, 109. Gibbons, II, 109 n.85, prints vol. 107. [[w.mann-grand-delusion]], 257–58 (the irresponsibility; the party headquarters). The Senate sat from noon to 3:53 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D54](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=52). Names: Mansfield.'
@@ -1377,6 +1625,32 @@ entries:
         - 'w.smith-on-his-own-terms 372: all'
         - 'via x.1962-02-15.rockefeller-niagara-falls: all'
     tags: [name:rockefeller-nelson, name:kennedy-john-f, name:hinman-george-l, state:ny]
+  - id: cal.1962-02-15.china-leadership
+    when: Feb. 15
+    date: '1962-02-15'
+    time: 1962-02-15T01:00Z
+    thread: china-leadership
+    c: Guilin 桂林. Li Youjiu 李友九 with Yang Shangkun 杨尚昆 on streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 123 (Feb. 15, 1962). The words: 上午9时起床后 (II, 123). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Youjiu, Yang Shangkun.'
+    src:
+      c: 3744b56f
+      rows:
+        - 'w.yang-shangkun-riji II, 123: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-15.china-leadership-2
+    when: Feb. 15
+    date: '1962-02-15'
+    time: 1962-02-15T04:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 by train from Guilin 桂林, 12:30 p.m., with Qin Yingji 覃应机, to Nanning 南宁, 10 p.m.; met by Wei Guoqing 韦国清, Lu Shaowu 卢绍武 and others, old comrades of the Third Army Corps 三军团. At the Xiyuan 西园 guesthouse.
+    n: '[[w.yang-shangkun-riji]], II, 123–124 (Feb. 15, 1962; note 1: Wei, first secretary and chairman, Lu, vice-chairman, of Guangxi). The words: 12时半……晚间10时到达南宁 (II, 123–124). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Qin Yingji, Wei Guoqing, Lu Shaowu.'
+    src:
+      c: 9fd0eee2
+      rows:
+        - 'w.yang-shangkun-riji II, 123–124: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-16.opinion
     when: Feb. 16
     date: '1962-02-16'
@@ -1428,6 +1702,71 @@ entries:
     c: 'Zhou Enlai, on a Xinhua situation report: reports must give both sides, not one; a leadership that hears one side and is told what it wants drops the mass line and investigation, and grows proud.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 457 (Feb. 16, 1962). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-02-16.china-leadership-2
+    when: Feb. 16
+    date: '1962-02-16'
+    thread: china-leadership
+    c: Nanning 南宁, the Xiyuan 西园 guesthouse. Yang Shangkun 杨尚昆 calls on Zhang Yunyi 张云逸, resting there with Wang Fu 王甫, Li Buxin 李步新 and Liu Minghui 刘明辉.
+    n: '[[w.yang-shangkun-riji]], II, 124 (Feb. 16, 1962; notes 3–5: the four; Zhang Yun 章蕴 gone to Zhanjiang 湛江). The words: 晨9时起床，早饭后 (II, 124). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhang Yunyi, Wang Fu, Li Buxin, Liu Minghui.'
+    src:
+      c: 3304a154
+      rows:
+        - 'w.yang-shangkun-riji II, 124: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-15T22:00Z
+      - 1962-02-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-16.china-leadership-3
+    when: Feb. 16
+    date: '1962-02-16'
+    thread: china-leadership
+    follows:
+      - cal.1962-02-16.china-leadership-2
+    c: Nanning 南宁. Wang Fu 王甫, a secretary of the Northwest Bureau, to Yang Shangkun 杨尚昆 on the enlarged work conference.
+    n: '[[w.yang-shangkun-riji]], II, 124 (Feb. 16, 1962). The words: 早饭后 (II, 124). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Fu, Yang Shangkun.'
+    src:
+      c: 082e2b22
+      rows:
+        - 'w.yang-shangkun-riji II, 124: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-15T22:00Z
+      - 1962-02-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-16.china-leadership-4
+    when: Feb. 16
+    date: '1962-02-16'
+    time: 1962-02-16T08:00Z
+    thread: china-leadership
+    c: Nanning 南宁, 4 p.m. Yang Shangkun 杨尚昆 at the Taiping Heavenly Kingdom 太平天国 exhibition, where he meets Cheng Fangwu 成仿吾; then the zoo and the martyrs' monument.
+    n: '[[w.yang-shangkun-riji]], II, 124 (Feb. 16, 1962; note 6: Cheng). The words: 下午4时 (II, 124). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Cheng Fangwu.'
+    src:
+      c: f12914fc
+      rows:
+        - 'w.yang-shangkun-riji II, 124: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-16.china-leadership-5
+    when: Feb. 16
+    date: '1962-02-16'
+    thread: china-leadership
+    follows:
+      - cal.1962-02-16.china-leadership-4
+    c: Nanning 南宁, the Beiyuan 北园 guesthouse, where the Center's Nanning conference of 1958 met. Yang Shangkun 杨尚昆 dines with the Guangxi 广西 committee's secretaries and Cheng Fangwu 成仿吾 and his wife; then *Liu Sanjie* 《刘三姐》, Fu Jinhua 傅锦华 singing.
+    n: '[[w.yang-shangkun-riji]], II, 124–125 (Feb. 16, 1962; note 2: the Nanning conference, Jan. 11–22, 1958). The words: 然后去北园招待所吃饭……回招待所时，已经11时半了 (II, 124–125). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Cheng Fangwu.'
+    src:
+      c: '33365644'
+      rows:
+        - 'w.yang-shangkun-riji II, 124–125: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-16T11:00Z
+      - 1962-02-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-17.conservative-movement
     when: Feb. 17
     date: '1962-02-17'
@@ -1499,6 +1838,32 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-d: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-e: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-02-17.china-leadership-3
+    when: Feb. 17
+    date: '1962-02-17'
+    time: 1962-02-17T02:00Z
+    thread: china-leadership
+    c: Nanning 南宁, 10 a.m. Yang Shangkun 杨尚昆 and Wei Guoqing 韦国清 at the botanical research institute outside the city; its oil-fruit trees and precious timbers.
+    n: '[[w.yang-shangkun-riji]], II, 125 (Feb. 17, 1962). The words: 上午10时……1时回招待所 (II, 125). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wei Guoqing.'
+    src:
+      c: 7f094f33
+      rows:
+        - 'w.yang-shangkun-riji II, 125: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-17.china-leadership-4
+    when: Feb. 17
+    date: '1962-02-17'
+    time: 1962-02-17T08:00Z
+    thread: china-leadership
+    c: Nanning 南宁, 4 p.m. Yang Shangkun 杨尚昆 at the Tingzi 亭子 brigade of a nearby people's commune; vegetables, grain from the state, good incomes, women the chief labor.
+    n: '[[w.yang-shangkun-riji]], II, 125 (Feb. 17, 1962). The words: 下午4时 (II, 125). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 089199e2
+      rows:
+        - 'w.yang-shangkun-riji II, 125: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-18.vietnam
     when: Feb. 18
     date: '1962-02-18'
@@ -1574,6 +1939,7 @@ entries:
   - id: cal.1962-02-18.china-leadership-3
     when: Feb. 18
     date: '1962-02-18'
+    place: peking
     thread: china-leadership
     also: [china, japan, trade]
     c: Peking, Xihuating. Zhou Enlai receives Suzuki Kazuo, managing director of the Japan International Trade Promotion Association.
@@ -1591,6 +1957,7 @@ entries:
   - id: cal.1962-02-18.china-leadership-4
     when: Feb. 18
     date: '1962-02-18'
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Nepalese Ambassador, Bahadur, for the 11th anniversary of Nepal's Democracy Day.
@@ -1601,6 +1968,53 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 329: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 219: B'
     tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_range:
+      - 1962-02-18T11:00Z
+      - 1962-02-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-18.china-leadership-5
+    when: Feb. 18
+    date: '1962-02-18'
+    thread: china-leadership
+    c: Nanning 南宁. Yang Shangkun 杨尚昆 by launch on the Yong River 邕江, with Zhong Feng 钟枫 of the Guangxi 广西 committee; the banks too bare of trees.
+    n: '[[w.yang-shangkun-riji]], II, 125 (Feb. 18, 1962; note 2: Zhong Feng). The words: 上午 (II, 125). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhong Feng.'
+    src:
+      c: 36beaa5b
+      rows:
+        - 'w.yang-shangkun-riji II, 125: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-17T22:00Z
+      - 1962-02-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-18.china-leadership-6
+    when: Feb. 18
+    date: '1962-02-18'
+    time: 1962-02-18T07:00Z
+    thread: china-leadership
+    c: Nanning 南宁, 3 to 7 p.m. Wei Guoqing 韦国清 with Yang Shangkun 杨尚昆, chiefly on streamlining, at Yang's asking.
+    n: '[[w.yang-shangkun-riji]], II, 125 (Feb. 18, 1962). The words: 下午3时到7时 (II, 125). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wei Guoqing, Yang Shangkun.'
+    src:
+      c: f941c83b
+      rows:
+        - 'w.yang-shangkun-riji II, 125: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-18.china-leadership-7
+    when: Feb. 18
+    date: '1962-02-18'
+    thread: china-leadership
+    follows:
+      - cal.1962-02-18.china-leadership-6
+    c: 'Nanning 南宁. Tao Xijin 陶希晋 calls on Yang Shangkun 杨尚昆: Guangxi''s 广西 natural conditions, grain, and his own punishment; to 11:30 p.m.'
+    n: '[[w.yang-shangkun-riji]], II, 125 (Feb. 18, 1962; note 3: Tao Xijin). The words: 散步后……到11时半他才走 (II, 125). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tao Xijin, Yang Shangkun.'
+    src:
+      c: 44b21168
+      rows:
+        - 'w.yang-shangkun-riji II, 125: all'
+    tags: [polity:prc, vis:only:prc]
     time_range:
       - 1962-02-18T11:00Z
       - 1962-02-18T14:00Z
@@ -1641,6 +2055,7 @@ entries:
   - id: cal.1962-02-19.court
     when: Feb. 19
     date: '1962-02-19'
+    place: washington
     thread: court
     also: [civil-rights-organizations, alabama]
     c: The Supreme Court refuses to move *Sullivan v. New York Times*, as against the four SCLC ministers, to the federal courts. The cars of Shuttlesworth, Abernathy and Lowery sold at a State-ordered auction; Seay's real estate attached; a lien on the land Abernathy inherited.
@@ -1673,6 +2088,7 @@ entries:
   - id: cal.1962-02-19.vietnam
     when: Feb. 19
     date: '1962-02-19'
+    place: honolulu
     thread: vietnam
     c: 'Honolulu, the third Secretary of Defense conference. McNamara approves MAP money to expand the junk force from 80 to 644 junks in twenty-eight divisions, 501 built in Vietnamese yards at American cost. Harkins and Nolting: internal security improving.'
     n: '[[w.marolda-united-states-navy-and]], 228, 264. To check: CINCPAC, "Record of the Secretary of Defense Conference held 19 February 1962," ser 00062, Feb. 20, 1962 (cited by [[w.marolda-united-states-navy-and]], 171). Names: McNamara, Harkins, Nolting.'
@@ -1711,6 +2127,32 @@ entries:
     c: 'Khrushchev, a note to the Central Committee on improving party, state and public control, as the Twenty-second Congress charged it: the successes would be larger if the checking of how the party''s directives are carried out were exemplary.'
     n: '[[w.khrushchev-dva-tsveta-vremeni]], II, 634–44 (VIII, doc. 2, an extract of the note). Made public: 2009. Names: Khrushchev. Check: the note''s proposals, pp. 635–43, not read.'
     tags: [name:khrushchev-nikita-s, polity:ussr, vis:only:ussr]
+  - id: cal.1962-02-19.china-leadership
+    when: Feb. 19
+    date: '1962-02-19'
+    time: 1962-02-19T00:30Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 flies from Nanning 南宁, 8:30 a.m. (Zhang Yunyi 张云逸 and Wang Fu 王甫 calling to see him off, Wei Guoqing 韦国清 at the airport), by Hankou's 汉口 Wangjiadun 王家墩 airfield at noon, to Peking's 北京 Xiyuan 西苑 airfield, 5 p.m. Li Bozhao 李伯钊 stays in Nanning.
+    n: '[[w.yang-shangkun-riji]], II, 125–126 (Feb. 19, 1962). The words: 8时半起飞……12时到达汉口……1时半继续飞行，5时到达北京西苑机场 (II, 125–126). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhang Yunyi, Wang Fu, Wei Guoqing, Li Bozhao.'
+    src:
+      c: 2312f93d
+      rows:
+        - 'w.yang-shangkun-riji II, 125–126: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-19.china-leadership-2
+    when: Feb. 19
+    date: '1962-02-19'
+    time: 1962-02-19T04:00Z
+    thread: china-leadership
+    c: 'Hankou 汉口, Wangjiadun 王家墩 airfield, noon. Wang Renzhong 王任重 meets Yang Shangkun 杨尚昆: streamlining; and the criticism the Center''s culture and education group made of him at the work conference.'
+    n: '[[w.yang-shangkun-riji]], II, 126 (Feb. 19, 1962). The words: 12时到达汉口王家墩机场，午饭 (II, 126). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Renzhong, Yang Shangkun.'
+    src:
+      c: cc788c92
+      rows:
+        - 'w.yang-shangkun-riji II, 126: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-20.space
     when: Feb. 20
     date: '1962-02-20'
@@ -1728,6 +2170,7 @@ entries:
   - id: cal.1962-02-20.specials
     when: Feb. 20
     date: '1962-02-20'
+    place: new-york-state
     thread: specials
     c: New York 6th, special. Benjamin Rosenthal (D) holds Lester Holtzman's seat over Galvin (R), 16,115 to 15,851, 44.5 percent, a 264-vote margin; Levin (I) 4,245, 11.7 percent. Swing 15.2 to R.
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt3/pdf/GPO-CRECB-1962-pt3-3-1.pdf) (1962) (Rosenthal sworn). Votes: CQ Guide 6th (2010) 1269. See [[cal.1961-04-04.states-and-cities]]. Names: Rosenthal, Holtzman, Galvin. Check: the page.'
@@ -1742,6 +2185,7 @@ entries:
   - id: cal.1962-02-20.economy-debt-limit
     when: Feb. 20
     date: '1962-02-20'
+    place: washington
     thread: economy-debt-limit
     c: House passes H.R. 10050, the debt limit $2 billion more, to $300 billion, to June 30. Closed rule, [258–133](https://voteview.com/rollcall/RH0870121); passed, [251–144](https://voteview.com/rollcall/RH0870122).
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt2/pdf/GPO-CRECB-1962-pt2-9-2.pdf) (1962). See [[cal.1960-06-08.economy-debt-limit]]. Check: the page.'
@@ -1777,6 +2221,7 @@ entries:
   - id: cal.1962-02-20.vietnam-congress
     when: Feb. 20
     date: '1962-02-20'
+    place: washington
     thread: vietnam-congress
     also: [laos]
     c: 'Harriman before Foreign Relations in executive session, on Laos and Vietnam. Morse: "grave doubts as to the constitutionality of the President''s course"; Gore uneasy at Robert Kennedy''s "We are going to win." Fulbright asks after an alternative to Diệm; Harriman: not the American part "to make or break governments." No confidence Hanoi will keep the Laos terms.'
@@ -1819,6 +2264,7 @@ entries:
     when: Feb. 20
     date: '1962-02-20'
     time: 1962-02-20T14:00Z
+    place: washington
     thread: congress
     c: 'The Cabinet Room, 9 a.m. Kennedy, standing, with the Democratic congressional leaders, a silent television showing Glenn''s rocket on the pad: the administration''s bills in committee at the start of the second session.'
     n: '[[w.reeves-president-kennedy]], 286. See [[cal.1962-02-20.space]]. Names: Kennedy.'
@@ -1852,6 +2298,7 @@ entries:
     when: Feb. 20
     date: '1962-02-20'
     time: 1962-02-20T04:00Z
+    place: peking
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: 'Zhou Enlai receives Abdul Rahman Kiwan, dean of the diplomatic corps of Algeria: China supports the Algerian people''s fight for independence and holds right their way of talking with France while keeping up the armed struggle. On China''s experience of negotiating: it goes smoothly, hits setbacks, breaks off, resumes, and takes a long time; only the struggle leads to victory; the people must prepare two ways against imperialism, work for the best and ready for the worst, and never lay down arms or disband or reorganize the armed force.'
@@ -1863,9 +2310,39 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 329: A'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, vis:only:prc+algeria]
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-20.china-leadership-4
+    when: Feb. 20
+    date: '1962-02-20'
+    time: 1962-02-20T03:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, not yet well and tired from the journey, rests at home; Dr. Sun Zhenhuan 孙振寰 of the Peking Hospital gives him acupuncture and medicine, 11 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 126 (Feb. 20, 1962; note 1: Sun Zhenhuan). The words: 11时 (II, 126). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Sun Zhenhuan.'
+    src:
+      c: f006550e
+      rows:
+        - 'w.yang-shangkun-riji II, 126: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-20.china-leadership-5
+    when: Feb. 20
+    date: '1962-02-20'
+    thread: china-leadership
+    c: Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 126 (Feb. 20, 1962). The words: 下午 (II, 126). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Yang Shangkun.'
+    src:
+      c: '59355767'
+      rows:
+        - 'w.yang-shangkun-riji II, 126: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-20T04:00Z
+      - 1962-02-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-21.program
     when: Feb. 21
     date: '1962-02-21'
+    place: washington
     thread: cities-and-housing
     c: House rejects the Urban Affairs reorganization plan, [264–150](https://voteview.com/rollcall/RH0870123).
     n: '[[w.sorensen-kennedy]], 482. The House sat from noon to 4:38 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D65](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=63). See [[cal.1962-01-24.program]].'
@@ -1926,6 +2403,7 @@ entries:
     when: Feb. 21
     date: '1962-02-21'
     time: 1962-02-21T15:01Z
+    place: washington
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'State, Defense and USIA to Saigon, cable 1006, on the press: "maximum feasible cooperation, guidance and appeal to good faith of correspondents"; the Ambassador to decide when newsmen go on missions. "This is not a US war"; no stories of Americans leading combat; no numbers of Americans or details of matériel.'
@@ -1975,7 +2453,7 @@ entries:
     date: '1962-02-21'
     thread: china-leadership
     c: 'Peking, the Xilou meeting room. The enlarged Standing Committee, Liu Shaoqi presiding, Feb. 21–23, on the 1962 state budget and the economy ("the Xilou meeting"): bad harvests, short markets, rising prices, a budget deficit of 3 billion yuan. Held to be like an emergency; a period of recovery to be fixed, the whole economy adjusted. Measures proposed. Mao is in the south.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 21, 1962 (the entry for Feb. 21–23). [[w.zhou-enlai-nianpu-1949]], II, 460 (Feb. 21–23, 1962: Zhou Enlai attends; the discussion found a deficit of 5 billion yuan in that year''s budget; Chen Yun''s two stages, five years of recovery and then development; Zhou agrees); [[w.macfarquhar-origins-of-the-cultural]], III, 187–88 (Feb. 21–23: the Finance and Trade Office''s report, balanced at 30 billion yuan each side, found to hide a 1962 deficit of 5 to 6 billion; credit and currency figures; Liu orders a new report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 549 (Feb. 21–23, 1962; Liu presides at the enlarged Politburo Standing Committee meeting at Xilou on the 1962 state budget and the economy; Liu: the work conference did not bring the difficulties fully to light; "if there is a problem, who does not wish to uncover it, afraid to say all is black?"; the present is a period of recovery, unlike the three years after 1949, an abnormal period with the character of an emergency, and not to be met by normal means; Chen Yun speaks on the economic situation and ways to overcome the difficulties, Liu approving, and Liu proposes a State Council meeting at which Chen Yun speaks more fully; Feb. 26 Chen Yun gives his report "Some measures for the present financial and economic situation and for overcoming difficulties" to the Party-group members of the State Council''s departments, with Li Fuchun and Li Xiannian on industry, construction, finance, credit and the market; afterward Liu proposes that the Center forward Chen Yun''s and the others'' reports to the whole country). Made public: 1996. Check: Zhou''s nianpu gives the deficit as 5 billion yuan, this entry 3 billion. Check: MacFarquhar gives the deficit found as 5 to 6 billion yuan (Li Xiannian''s estimate 6), this entry 3 billion. To check: [[w.gongheguo-zhuxi-liu-shaoqi]], 50–51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.5); [[w.jin-1949-1989-niande-zhongguo]], 414 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6a); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 331 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6b). Names: Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 21, 1962 (the entry for Feb. 21–23). [[w.zhou-enlai-nianpu-1949]], II, 460 (Feb. 21–23, 1962: Zhou Enlai attends; the discussion found a deficit of 5 billion yuan in that year''s budget; Chen Yun''s two stages, five years of recovery and then development; Zhou agrees); [[w.macfarquhar-origins-of-the-cultural]], III, 187–88 (Feb. 21–23: the Finance and Trade Office''s report, balanced at 30 billion yuan each side, found to hide a 1962 deficit of 5 to 6 billion; credit and currency figures; Liu orders a new report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 549 (Feb. 21–23, 1962; Liu presides at the enlarged Politburo Standing Committee meeting at Xilou on the 1962 state budget and the economy; Liu: the work conference did not bring the difficulties fully to light; "if there is a problem, who does not wish to uncover it, afraid to say all is black?"; the present is a period of recovery, unlike the three years after 1949, an abnormal period with the character of an emergency, and not to be met by normal means; Chen Yun speaks on the economic situation and ways to overcome the difficulties, Liu approving, and Liu proposes a State Council meeting at which Chen Yun speaks more fully; Feb. 26 Chen Yun gives his report "Some measures for the present financial and economic situation and for overcoming difficulties" to the Party-group members of the State Council''s departments, with Li Fuchun and Li Xiannian on industry, construction, finance, credit and the market; afterward Liu proposes that the Center forward Chen Yun''s and the others'' reports to the whole country); [[w.yang-shangkun-riji]], II, 126 (Feb. 21, 1962; 3 to 7:30 p.m., at the Xilou 西楼, Liu Shaoqi''s meeting on finance and commerce; Yao Yilin reports on trade; to go on the next day). Made public: 1996. Check: Zhou''s nianpu gives the deficit as 5 billion yuan, this entry 3 billion. Check: MacFarquhar gives the deficit found as 5 to 6 billion yuan (Li Xiannian''s estimate 6), this entry 3 billion. To check: [[w.gongheguo-zhuxi-liu-shaoqi]], 50–51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.5); [[w.jin-1949-1989-niande-zhongguo]], 414 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6a); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 331 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6b). Names: Liu Shaoqi.'
     src:
       c: c0bb1bb8
       rows:
@@ -1986,6 +2464,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 187 n.6a: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 187 n.6b: B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 549: B, C, D'
+        - 'w.yang-shangkun-riji II, 126: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-02-21.china-leadership-2
     when: Feb. 21–22
@@ -2035,6 +2514,22 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 193 n.31d: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 193 n.31e: all'
     tags: [polity:prc, name:liu-shaoqi, name:chen-yun, name:li-fuchun, vis:only:prc]
+  - id: cal.1962-02-21.china-leadership-5
+    when: Feb. 21
+    date: '1962-02-21'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 reads documents at home, in the Wanzi Lang 万字廊, not at his office.
+    n: '[[w.yang-shangkun-riji]], II, 126 (Feb. 21, 1962). The words: 上午起床后，在万字廊看文件 (II, 126). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 99bdf98f
+      rows:
+        - 'w.yang-shangkun-riji II, 126: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-20T22:00Z
+      - 1962-02-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-22.robert-kennedy-trip
     when: Feb. 22–24
     date: '1962-02-22'
@@ -2149,6 +2644,37 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 491: all'
     tags: [polity:prc, vis:only:prc+ussr]
+  - id: cal.1962-02-22.china-leadership-2
+    when: Feb. 22
+    date: '1962-02-22'
+    time: 1962-02-22T01:00Z
+    thread: china-leadership
+    c: 'The Secretariat 书记处, 9 a.m. to 12:30 p.m.: streamlining; the stock-taking and checking of assets 清仓核资; the state farms'' regulations; the National People''s Congress''s deputies to report by Mar. 20. The Central Streamlining Group 中央精简小组 set up, eight members, Yang Shangkun 杨尚昆 its head.'
+    n: '[[w.yang-shangkun-riji]], II, 126–127 (Feb. 22, 1962). The words: 上午9时到12时半 (II, 126–127). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-20.china-leadership-2]]. Names: Yang Shangkun.'
+    src:
+      c: d6766347
+      rows:
+        - 'w.yang-shangkun-riji II, 126–127: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-22.china-leadership-3
+    when: Feb. 22
+    date: '1962-02-22'
+    thread: china-leadership
+    follows:
+      - cal.1962-02-22.china-leadership-2
+    c: Yang Shangkun 杨尚昆, unwell, misses the Xilou 西楼 meeting; revises the directive on stock-taking and checking of assets, which Deng Xiaoping 邓小平 reads; issued.
+    n: '[[w.yang-shangkun-riji]], II, 127 (Feb. 22, 1962). The words: 下午 (II, 127). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-21.china-leadership]]. Names: Yang Shangkun, Deng Xiaoping.'
+    src:
+      c: 24b4dccb
+      rows:
+        - 'w.yang-shangkun-riji II, 127: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1962-02-22T04:00Z
+      - 1962-02-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-23.opinion
     when: Feb. 23
     date: '1962-02-23'
@@ -2159,6 +2685,7 @@ entries:
   - id: cal.1962-02-23.robert-kennedy
     when: Feb. 23
     date: '1962-02-23'
+    place: west-berlin
     thread: robert-kennedy
     also: [berlin-and-vienna]
     c: West Berlin, breakfast with editors, ministers and politicians at Lightner's. By Schlesinger's journal, Robert Kennedy speaks of the remoteness of German unification and the impossibility of doing much about the Wall.
@@ -2241,9 +2768,52 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 197–201: A'
         - 'via x.1962-02-17.liu-shaoqi-letter-of-feb-17-1962-with-two-documents: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-02-23.china-leadership-3
+    when: Feb. 23
+    date: '1962-02-23'
+    thread: china-leadership
+    c: Yang Shangkun's 杨尚昆 cough better; Dr. Sun Zhenhuan 孙振寰 again.
+    n: '[[w.yang-shangkun-riji]], II, 127 (Feb. 23, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-20.china-leadership-4]]. Names: Yang Shangkun, Sun Zhenhuan.'
+    src:
+      c: 2c193319
+      rows:
+        - 'w.yang-shangkun-riji II, 127: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-02-23.china-leadership-4
+    when: Feb. 23
+    date: '1962-02-23'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 revises the Center's instruction forwarding the Streamlining Group's proposals.
+    n: '[[w.yang-shangkun-riji]], II, 127 (Feb. 23, 1962). The words: 下午 (II, 127). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-21.china-leadership-2]]; [[cal.1962-02-22.china-leadership]]. Names: Yang Shangkun.'
+    src:
+      c: 3fac3abe
+      rows:
+        - 'w.yang-shangkun-riji II, 127: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-23T04:00Z
+      - 1962-02-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-23.china-leadership-5
+    when: Feb. 23
+    date: '1962-02-23'
+    time: 1962-02-23T09:00Z
+    thread: china-leadership
+    follows:
+      - cal.1962-02-23.china-leadership-4
+    c: 'The Xilou 西楼 meeting, from 5 p.m. Chen Yun 陈云 speaks. Liu Shaoqi 刘少奇, last: the difficulties to be exposed further, without fear of losing confidence; views of them still differ; an extraordinary time, needing extraordinary measures, more vertical leadership from the Center, "envoys" not to be feared; no ten-year plan now, but food, clothing and the market; a new period of economic recovery.'
+    n: '[[w.yang-shangkun-riji]], II, 127 (Feb. 23, 1962). The words: 5时即去参加西楼的会议 (II, 127). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-21.china-leadership]]; [[cal.1962-02-21.china-leadership-3]]. Names: Chen Yun, Liu Shaoqi.'
+    src:
+      c: 4e6e45c2
+      rows:
+        - 'w.yang-shangkun-riji II, 127: all'
+    tags: [polity:prc, name:chen-yun, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-24.robert-kennedy
     when: Feb. 24
     date: '1962-02-24'
+    place: bonn
     thread: robert-kennedy
     also: [europe-and-the-alliance]
     c: Bonn. Robert Kennedy with Adenauer, who gives him a scrapbook of the convent Rose Kennedy attended; of all the world's leaders he most admires John Foster Dulles.
@@ -2286,6 +2856,7 @@ entries:
   - id: cal.1962-02-24.china-leadership-2
     when: Feb. 24
     date: '1962-02-24'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union, trade]
     c: Peking, Xihuating. Zhou Enlai receives the Mongolian trade delegation led by Gombojav, Minister of Foreign Trade.
@@ -2331,6 +2902,7 @@ entries:
     when: Feb. 24
     date: '1962-02-24'
     time: 1962-02-23T21:00Z
+    place: hangzhou
     thread: china-leadership
     c: 'Hangzhou, 5 a.m. Mao to Tian Jiaying: he prefers his original speech of Jan. 30 to the edited text; the General Office in Peking is to send another copy of the record, for Mao and Tian to compare and revise together, two days'' work, Lin Ke to join if there are three copies.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVI, 247 (Feb. 24, 1962). Made public: 2023. Names: Mao Zedong, Tian Jiaying, Lin Ke. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996), may have printed it before 2023.'
@@ -2339,6 +2911,19 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 247: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-02-24.china-leadership-5
+    when: Feb. 24
+    date: '1962-02-24'
+    time: 1962-02-24T08:00Z
+    thread: china-leadership
+    c: The Xilou 西楼, 4 p.m. Liu Shaoqi's 刘少奇 written and oral reports to the enlarged work conference put in final form; Mao has read both, small changes; Liu revises them once more; sent to the printer. Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 128 (Feb. 24, 1962). The words: 下午4时 (II, 128). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-23.china-leadership-2]]. Names: Liu Shaoqi, Yang Shangkun.'
+    src:
+      c: 2cd6c78f
+      rows:
+        - 'w.yang-shangkun-riji II, 128: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-25.china-leadership
     when: Feb. 25
     date: '1962-02-25'
@@ -2357,6 +2942,7 @@ entries:
   - id: cal.1962-02-26.berlin-and-vienna
     when: Feb. 26
     date: '1962-02-26'
+    place: moscow
     thread: berlin-and-vienna
     also: [soviet-union]
     c: 'The Kremlin. Khrushchev to Ulbricht, called in: "We must put pressure to get a peace treaty. But we must not put the question in these terms: life or death"; a blockade would ruin the GDR. Ulbricht: "how much longer will it be?" Khrushchev: "Adenauer has you by the short hairs"; "all we can expect from West Berlin we received on August 13"; long-range missiles "next year we will have enough"; "Our tactic must be to press, then to wait."'
@@ -2376,6 +2962,7 @@ entries:
   - id: cal.1962-02-26.alabama-birmingham
     when: Feb. 26
     date: '1962-02-26'
+    place: washington
     thread: alabama-birmingham
     also: [court]
     c: The Supreme Court, unanimously, orders Judge Grooms to free Shuttlesworth on bond pending appeal if the Alabama courts do not within five days.
@@ -2426,6 +3013,7 @@ entries:
   - id: cal.1962-02-26.defense
     when: Feb. 26
     date: '1962-02-26'
+    place: washington
     thread: defense
     also: [congress]
     c: Air Force officers, briefing Vinson's committee at its invitation, tell their unhappiness at the limited RS-70 program.
@@ -2513,10 +3101,27 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 247: all'
     tags: [polity:prc, name:mao-zedong, name:jiang-qing, vis:only:prc]
+  - id: cal.1962-02-26.china-leadership-7
+    when: Feb. 26
+    date: '1962-02-26'
+    thread: china-leadership
+    c: Zeng San 曾三, Gong Zirong 龚子荣, Lai Zulie 赖祖烈, Gao Fuyou 高福有, Zhang Yaoci 张耀祠, Tian Chou 田畴 and others with Yang Shangkun 杨尚昆 on economy and stock-taking.
+    n: '[[w.yang-shangkun-riji]], II, 128 (Feb. 26, 1962; note 1: the five). The words: 上午 (II, 128). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng San, Gong Zirong, Lai Zulie, Gao Fuyou, Zhang Yaoci, Tian Chou, Yang Shangkun.'
+    src:
+      c: 96f058f5
+      rows:
+        - 'w.yang-shangkun-riji II, 128: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-25T22:00Z
+      - 1962-02-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-27.vietnam
     when: Feb. 27
     date: '1962-02-27'
     time: 1962-02-26T23:15Z
+    place: saigon
     thread: vietnam
     c: Two South Vietnamese pilots bomb Independence Palace. Diệm and Nhu unhurt; Madame Nhu slightly wounded.
     n: 'FRUS 1961–63, II, docs. [87](https://history.state.gov/historicaldocuments/frus1961-63v02/d87), [88](https://history.state.gov/historicaldocuments/frus1961-63v02/d88); [93](https://history.state.gov/historicaldocuments/frus1961-63v02/d93) (Diệm to Nolting at Gia Long Palace, Mar. 1, on the attack, cited by [[w.schulimson-joint-chiefs-of-staff]], 187 nn.48–49); [96](https://history.state.gov/historicaldocuments/frus1961-63v02/d96) (the Embassy, Mar. 2: the casualties, the two pilots, cited by Schulimson, 187 nn.48–49). [[w.miller-misalliance]], 280 (the attempt on Diệm); [[w.schulimson-joint-chiefs-of-staff]], 186–187; [[w.marolda-united-states-navy-and]], 272 (the bombing); [[w.futrell-united-states-air-force]], 129 (the two pilots divert their AD-6s from a strike in the delta; two flights of AD-6s scrambled; one attacker downed and captured, the other crash-lands at Phnom Penh; a vendetta against Nhu; Diệm grounds the air force, then allows only 20-mm ammunition); [[w.selverstone-kennedy-withdrawal]], 63–64 (two South Vietnamese air force pilots bomb the Independence Palace, Feb. 27; Diệm survives). Marolda dates it Feb. 26, Washington''s day: the CIA station''s flash, 7:35 a.m. Feb. 27 Saigon time, was received in Washington at 8 p.m. Feb. 26 (doc. 87); [[w.moyar-triumph-forsaken]], 151–52 (7:15 a.m., two AD-6s; one pilot taken, the other to Phnom Penh; the Nhus'' wing struck, a maid killed). Check: Futrell dates it the morning of Feb. 26 (129). See [[cal.1961-01-28.vietnam]]. Names: Ngô Đình Diệm, Ngô Đình Nhu, Trần Lệ Xuân.'
@@ -2639,6 +3244,7 @@ entries:
   - id: cal.1962-02-27.laos
     when: Feb. 27
     date: '1962-02-27'
+    place: washington
     thread: laos
     also: [vietnam-congress]
     c: 'Harriman and Chayes before Foreign Relations in executive session on the Rusk–Thanat understanding: the United States to defend Thailand under SEATO without the others. Gore: why not a treaty for the Senate? Harriman: "the legal opinion is that there is no need to consult with this Committee."'
@@ -2680,6 +3286,7 @@ entries:
   - id: cal.1962-02-27.cuba
     when: Feb. 27
     date: '1962-02-27'
+    place: washington
     thread: cuba
     c: 'Miró Cardona and Varona at State with Hurwitch, then Morales Carrión: after Punta del Este, military action the only way; American forces, or Cubans with American support. Without an encouraging answer they would have to resign from the Council.'
     n: '[FRUS 1961–63, X, doc. 308](https://history.state.gov/historicaldocuments/frus1961-63v10/d308). Made public: FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 158 (Varona). See [[cal.1962-02-20.cuba]]. Names: Miró Cardona, Varona.'
@@ -2794,6 +3401,7 @@ entries:
   - id: cal.1962-02-27.defense
     when: Feb. 27
     date: '1962-02-27'
+    place: washington
     thread: defense
     also: [congress]
     c: LeMay, in open session before Robertson's Senate Defense Appropriations Subcommittee, for more money for the RS-70 and Minuteman.
@@ -2851,9 +3459,39 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 270 n.52: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 270 n.53: all'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:deng-xiaoping, name:chen-yi, name:mao-zedong]
+  - id: cal.1962-02-27.china-leadership-3
+    when: Feb. 27
+    date: '1962-02-27'
+    time: 1962-02-27T02:00Z
+    thread: china-leadership
+    c: 'The Central Streamlining Group of eight 中央精简八人小组, 10 a.m. to noon, Yang Shangkun 杨尚昆 calling it: an office set up, Ma Wenrui 马文瑞 in daily charge; six teams to the regions, one each, about Mar. 10, to investigate.'
+    n: '[[w.yang-shangkun-riji]], II, 129 (Feb. 27, 1962). The words: 上午10时到12时 (II, 129). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-22.china-leadership-2]]. Names: Yang Shangkun, Ma Wenrui.'
+    src:
+      c: 9d75b50d
+      rows:
+        - 'w.yang-shangkun-riji II, 129: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-02-27.china-leadership-4
+    when: Feb. 27
+    date: '1962-02-27'
+    thread: china-leadership
+    c: Wang Congwu 王从吾 and Qian Ying 钱瑛 with Yang Shangkun 杨尚昆 on the control commissions' work.
+    n: '[[w.yang-shangkun-riji]], II, 129 (Feb. 27, 1962). The words: 下午 (II, 129). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Congwu, Qian Ying, Yang Shangkun.'
+    src:
+      c: 403d360d
+      rows:
+        - 'w.yang-shangkun-riji II, 129: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-02-27T04:00Z
+      - 1962-02-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-02-28.jobs-and-wages
     when: Feb. 28
     date: '1962-02-28'
+    place: washington
     thread: jobs-and-wages
     c: 'House passes the manpower development and training bill, H.R. 8399, [354–62](https://voteview.com/rollcall/RH0870125): Goodell''s text, the Senate''s rewriting of the administration''s bill, in place of Holland''s. The Republicans more for it than the Democrats.'
     n: '[[w.sundquist-politics-and-policy]], 90–91. The House sat from noon to 3:39 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D76](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=74). See [[cal.1961-08-23.jobs-and-wages]]. Names: Goodell, Holland.'
@@ -3086,6 +3724,7 @@ entries:
   - id: cal.1962-02-28.defense
     when: Feb. 28
     date: '1962-02-28'
+    place: washington
     thread: defense
     also: [congress]
     c: Vinson's committee ends its hearings and reports the authorization unanimously with six amendments, nearly $13.066 billion.
@@ -3324,3 +3963,16 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 253–254: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-02-28.china-leadership-3
+    when: Feb. 28
+    date: '1962-02-28'
+    time: 1962-02-28T08:00Z
+    thread: china-leadership
+    c: 'The Secretariat 书记处, 4 p.m.: the setting up and enlarging of the Party''s control commissions at every level. The Organization Department and the Central Control Commission to draft a document and rules.'
+    n: '[[w.yang-shangkun-riji]], II, 129 (Feb. 28, 1962). The words: 下午4时 (II, 129). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-02-27.china-leadership-4]].'
+    src:
+      c: fd469ff0
+      rows:
+        - 'w.yang-shangkun-riji II, 129: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai

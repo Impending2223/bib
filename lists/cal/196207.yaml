@@ -82,6 +82,7 @@ entries:
   - id: cal.1962-07-01.soviet-union-leadership-2
     when: July 1
     date: '1962-07-01'
+    place: ogarevo
     thread: soviet-union-leadership
     c: 'The Presidium in session at Ogarevo, Protocol 39, Khrushchev presiding. Present: Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ilyichev, Ponomarev, Shelepin, Grishin, Gromyko, Malin.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39, Malin''s notes and his list of those present); III, 284–87 (P 39/II, III and XVII; XIII''s note not printed); III, 1001 n.1 (Khrushchev presiding). Check: Mikoyan among those present by Malin''s list (I, 569–70); absent by Fursenko and Naftali, 440 ([[cal.1962-07-01.berlin-and-vienna]]). Names: Khrushchev, Brezhnev, Voronov, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin, Gromyko.'
@@ -116,6 +117,7 @@ entries:
   - id: cal.1962-07-01.china-leadership-2
     when: July 1
     date: '1962-07-01'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Ghanaian Ambassador, James Mercer, for the second anniversary of Ghana's national day and armed forces day.
@@ -154,6 +156,79 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 233: all'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+  - id: cal.1962-07-01.china-leadership-3
+    when: July 1
+    date: '1962-07-01'
+    time: 1962-07-01T01:00Z
+    thread: china-leadership
+    c: Peking 北京, 9 to 11 a.m. Yang Shangkun 杨尚昆 at the Gongwangfu 恭王府, held now to be the site of the *Dream of the Red Chamber's* 《红楼梦》 Daguanyuan 大观园, with Guo Moruo 郭沫若, Kang Sheng 康生, Li Fuchun 李富春, Li Xiannian 李先念 and others.
+    n: '[[w.yang-shangkun-riji]], II, 190–191 (July 1, 1962; note 1: Guo Moruo). The words: 上午9时到11时 (II, 190–191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Guo Moruo, Kang Sheng, Li Fuchun, Li Xiannian.'
+    src:
+      c: 293b9377
+      rows:
+        - 'w.yang-shangkun-riji II, 190–191: all'
+    tags: [polity:prc, name:kang-sheng, name:li-fuchun, name:li-xiannian, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-01.china-leadership-7
+    when: July 1
+    date: '1962-07-01'
+    time: 1962-07-01T03:00Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims, 11 a.m. to noon.
+    n: '[[w.yang-shangkun-riji]], II, 190–191 (July 1, 1962). The words: 11时到12时游泳 (II, 190–191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: aeb69828
+      rows:
+        - 'w.yang-shangkun-riji II, 190–191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-01.china-leadership-4
+    when: July 1
+    date: '1962-07-01'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 to Liu Xiao 刘晓, the Ambassador at Moscow, by letter.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 1, 1962; note 1: Liu Xiao). The words: 下午 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Xiao.'
+    src:
+      c: b0626688
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-01T04:00Z
+      - 1962-07-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-01.china-leadership-5
+    when: July 1
+    date: '1962-07-01'
+    thread: china-leadership
+    c: Yan Mingfu 阎明复, leaving for Moscow 莫斯科 the next day, with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 1, 1962; note 2: Yan Mingfu). The words: 晚间 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: 84cfd810
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-01T11:00Z
+      - 1962-07-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-01.china-leadership-6
+    when: July 1
+    date: '1962-07-01'
+    time: 1962-07-01T11:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Diaoyutai 钓鱼台, 7 to 10 p.m. Yang Shangkun 杨尚昆 and his family watch acrobatics with Hồ Chí Minh 胡志明.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 1, 1962). The words: 7时……10时回来 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hồ Chí Minh.'
+    src:
+      c: e109146b
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-02.republican-party
     when: July 2
     date: '1962-07-02'
@@ -188,6 +263,7 @@ entries:
   - id: cal.1962-07-02.laos
     when: July 2
     date: '1962-07-02'
+    place: geneva
     thread: laos
     c: Geneva. Britain and the Soviet Union, the co-chairmen, reconvene the conference on Laos to ratify the agreement; Washington urges Saigon and Bangkok to accept it.
     n: '[[w.marolda-united-states-navy-and]], 84; [[w.zhai-china-and-the-vietnam]], 105 (a Lao delegation of the government of national union at Geneva, July 2, to work out the declaration). To check: [[w.brown-apprentice-revolutionaries]], 85–86; [[w.hall-laos-neutralization-agreement-1962]], 452 (cited by [[w.zhai-china-and-the-vietnam]], 105 n.58). See [[cal.1961-05-16.laos]].'
@@ -237,9 +313,55 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 233–234: all'
     tags: [polity:prc, polity:laos, polity:us]
+  - id: cal.1962-07-02.china-leadership-4
+    when: July 2
+    date: '1962-07-02'
+    thread: china-leadership
+    c: Hou Weiyu 侯维煜 with Yang Shangkun 杨尚昆 on the Higher Party School and Yang Xianzhen 杨献珍.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 2, 1962). The words: 上午 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-03-23.china-leadership-3]]. Names: Hou Weiyu, Yang Shangkun, Yang Xianzhen.'
+    src:
+      c: 0944a577
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-01T22:00Z
+      - 1962-07-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-02.china-leadership-5
+    when: July 2
+    date: '1962-07-02'
+    time: 1962-07-02T07:30Z
+    thread: china-leadership
+    c: The Secretariat 书记处, 3:30 to 7 p.m.; Yang Shangkun 杨尚昆 puts the sending down of 107 cadres and other matters.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 2, 1962). The words: 下午3时半到7时 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 14e9d71c
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-02.china-leadership-6
+    when: July 2
+    date: '1962-07-02'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 2, 1962). The words: 晚间散步，田家英同志来谈话 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-02T11:00Z
+      - 1962-07-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-03.states-and-cities-us
     when: July 3
     date: '1962-07-03'
+    place: hershey
     thread: states-and-cities
     c: Governors' Conference at Hershey, Pa. The Resolutions Committee's civil rights resolution, reaffirming that of 1961; amendments by Rockefeller, Hatfield and Swainson of Michigan for a pledge of action. Hollings and others hold the floor into the evening. On Lawrence's proposal, each governor to sign the text he supports, the resolution and amendments set aside, 32–8. July 4, Kennedy to the governors at Independence Hall.
     n: '[*Proceedings of the Governors'' Conference, 1962*, 68–94](https://www.nga.org/wp-content/uploads/2026/03/1962_Annual_Meeting-compressed.pdf#page=83). Address at Independence Hall, Philadelphia, [1962 Pub. Papers 537](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=597). [[w.smith-on-his-own-terms]], 373 (the governors at Hershey reject Rockefeller''s resolution for equal opportunity and universal voting rights). To check: [[w.black-southern-governors-and-civil]]. See [[cal.1961-06-25.states-and-cities-us]]. Names: Rockefeller, Hatfield, Swainson, Hollings, Lawrence, Kennedy.'
@@ -288,6 +410,7 @@ entries:
   - id: cal.1962-07-03.missile-crisis-anadyr
     when: July 3
     date: '1962-07-03'
+    place: moscow
     thread: missile-crisis-anadyr
     also: [cuba, soviet-union]
     c: Moscow. Raúl Castro, Cuba's defense minister, with Khrushchev, the first of two talks, to settle the Soviet commitment in detail. General Dementyev, head of the Soviet military mission, raises again the U-2s.
@@ -335,7 +458,12 @@ entries:
     date: '1962-07-03'
     thread: china-leadership
     c: 'Zhou Enlai at the Politburo Standing Committee: reports on streamlining in the Northeast, the country''s grain purchases, and big enterprises'' farm and sideline production; tells how the Ministry of Petroleum had oilfield workers'' families do farm and sideline work, and asks forestry, coal and steel to do likewise.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (July 3, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (July 3, 1962); [[w.yang-shangkun-riji]], II, 191 (July 3, 1962; 3 to 8 p.m., the enlarged Standing Committee, Zhou''s report on the three northeastern provinces). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: f6ec874d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 488: ?'
+        - 'w.yang-shangkun-riji II, 191: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-07-03.china-leadership-2
     when: July 3
@@ -365,10 +493,27 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 234: all'
     tags: [polity:prc, polity:algeria, name:liu-shaoqi, name:zhou-enlai, name:chen-yi, name:ben-khedda-benyoussef]
+  - id: cal.1962-07-03.china-leadership-4
+    when: July 3
+    date: '1962-07-03'
+    thread: china-leadership
+    c: Tian Chou 田畴 with Yang Shangkun 杨尚昆 on supplies.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 3, 1962). The words: 上午 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Chou, Yang Shangkun.'
+    src:
+      c: 2b50319f
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-02T22:00Z
+      - 1962-07-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-04.europe-and-the-alliance
     when: July 4
     date: '1962-07-04'
     time: 1962-07-04T15:40Z
+    place: philadelphia
     thread: europe-and-the-alliance
     also: [european-community]
     c: Independence Hall. A "Declaration of Interdependence" with a uniting Europe.
@@ -388,6 +533,49 @@ entries:
     c: The Secretariat's instruction no. 50-CT/TW on checking the execution of the Party's and the government's resolutions and instructions.
     n: '*Chỉ thị của Ban Bí thư số 50-CT/TW về việc tăng cường công tác kiểm tra việc chấp hành các nghị quyết, chỉ thị của Đảng và Chính phủ*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 662–68. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1962-07-04.china-leadership
+    when: July 4
+    date: '1962-07-04'
+    thread: china-leadership
+    c: Chen Bozhong 陈伯仲 with Yang Shangkun 杨尚昆 on the Women's Federation's Xi'an 西安 meeting.
+    n: '[[w.yang-shangkun-riji]], II, 191 (July 4, 1962; note 3: Chen Bozhong). The words: 上午 (II, 191). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Bozhong, Yang Shangkun.'
+    src:
+      c: ced17da7
+      rows:
+        - 'w.yang-shangkun-riji II, 191: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-03T22:00Z
+      - 1962-07-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-04.china-leadership-2
+    when: July 4
+    date: '1962-07-04'
+    thread: china-leadership
+    c: Zeng Yifan 曾一凡 and Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆 on the State Council's and the provinces' staffing, and against privilege.
+    n: '[[w.yang-shangkun-riji]], II, 191–192 (July 4, 1962; note 4: Zeng Yifan). The words: 下午 (II, 191–192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zeng Yifan, Gong Zirong, Yang Shangkun.'
+    src:
+      c: c3f1abdb
+      rows:
+        - 'w.yang-shangkun-riji II, 191–192: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-04T04:00Z
+      - 1962-07-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-04.china-leadership-3
+    when: July 4–6
+    date: '1962-07-04'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 has cramping pains in the muscles over his right ribs, then his thigh; Dr. Xu Fujing 徐福静 gives him medicine; gone by July 6.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 4, 1962; note 1: Xu Fujing). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Xu Fujing.'
+    src:
+      c: e2469487
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-07-05.civil-rights-the-executive
     when: July 5
     date: '1962-07-05'
@@ -443,6 +631,45 @@ entries:
     c: The Secretariat names the central steering committee of the campaign to raise responsibility, tighten economic and financial management and fight embezzlement, waste and bureaucracy, Phạm Hùng at its head; its staff the Government Inspectorate's.
     n: '*Nghị quyết của Ban Bí thư số 55-NQ/TW thành lập Ban chỉ đạo Trung ương cuộc vận động Nâng cao ý thức trách nhiệm, tăng cường quản lý kinh tế, tài chính, chống tham ô lãng phí quan liêu*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 669–71. See [[cal.1962-04-26.vietnam-hanoi]]. Made public: 2002. Names: Phạm Hùng.'
     tags: [polity:drv]
+  - id: cal.1962-07-05.china-leadership
+    when: July 5
+    date: '1962-07-05'
+    time: 1962-07-05T01:00Z
+    thread: china-leadership
+    c: Two of the investigators back from Sichuan's 四川 villages report to Yang Shangkun 杨尚昆, 9 a.m. to noon.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 5, 1962). The words: 由上午9时到12时 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7ee285ae
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-05.china-leadership-2
+    when: July 5
+    date: '1962-07-05'
+    time: 1962-07-05T12:30Z
+    thread: china-leadership
+    c: Ma Wenrui 马文瑞, Xi Zhanyuan 郗占元, Tong Xiaopeng 童小鹏 and others with Yang Shangkun 杨尚昆, 8:30 p.m. to midnight, on points of streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 5, 1962). The words: 由8时半到12时 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ma Wenrui, Xi Zhanyuan, Tong Xiaopeng, Yang Shangkun.'
+    src:
+      c: ebe30a76
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-05.china-leadership-3
+    when: July 5
+    date: '1962-07-05'
+    thread: china-leadership
+    follows:
+      - cal.1962-07-05.china-leadership-2
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆, to 3 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 5, 1962). The words: 以后田家英同志来谈话，到3点才睡 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 918ccd64
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-07-06.defense-soviet-forces
     when: July 6
     date: '1962-07-06'
@@ -477,6 +704,7 @@ entries:
   - id: cal.1962-07-06.missile-crisis
     when: July 6
     date: '1962-07-06'
+    place: moscow
     thread: missile-crisis-anadyr
     also: [soviet-union, cuba]
     follows:
@@ -556,6 +784,7 @@ entries:
   - id: cal.1962-07-06.soviet-union-leadership-2
     when: July 6
     date: '1962-07-06'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 40, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 570–71 (Protocol 40, Malin''s notes); I, 1103 n.1 (those present); III, 287–310 (P 40/III and its materials; the heading of Malin''s note on Cuba, 310); III, 1002–03 nn.1, 5 (those present; on Cuba no decision, none in the signed protocol). Names: Khrushchev, Brezhnev, Kirilenko, Kosygin, Mikoyan, Suslov, Demichev, Ponomarev.'
@@ -589,6 +818,7 @@ entries:
     when: July 6
     date: '1962-07-06'
     time: 1962-07-06T08:00Z
+    place: peking
     thread: china-leadership
     c: 4 p.m., Mao's pool residence. Chen Yun, who had written at 1 p.m. asking for an hour, lays before Mao his view for dividing land among households. Mao, after hearing him, gives no sign; Chen later recalls that he "was very angry" afterward.
     n: '[[w.zedong-mao-zedong-nianpu]], V, July 6, 1962 ("同日"); [[w.macfarquhar-origins-of-the-cultural]], III, 233 (Chen Yun advocates baochan daohu to Mao and other senior colleagues in early July); [[w.macfarquhar-origins-of-the-cultural]], III, 267–68 (Chen Yun''s interview, on the night Mao returned to the capital: the collective and individual economies to coexist for a long period; the individual economy to be stressed). Made public: 2013. Check: the book dates Chen Yun''s letter asking for the interview ''early July''; the Mao chronology has Chen write at 1 p.m. July 6. To check: [[w.al-zhongguo-gongchan-dang-zhizheng]], 220 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 233 n.97a); [[w.jiefangjun-jiangling-zhuan-2]], 2, 65 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 233 n.97b). See [[cal.1962-07-06.china-leadership]]. Names: Mao Zedong, Chen Yun.'
@@ -625,6 +855,47 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 234: all'
     tags: [polity:prc, polity:iraq]
+  - id: cal.1962-07-06.china-leadership-3
+    when: July 6
+    date: '1962-07-06'
+    time: 1962-07-06T01:00Z
+    thread: china-leadership
+    c: He Jun 何均 with Yang Shangkun 杨尚昆, 9 a.m. to noon.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 6, 1962). The words: 上午9时到12时 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Yang Shangkun.'
+    src:
+      c: 57580e49
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-06.china-leadership-5
+    when: July 6
+    date: '1962-07-06'
+    thread: china-leadership
+    c: Zhang Qilong 张启龙 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 6, 1962). The words: 下午 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Qilong, Yang Shangkun.'
+    src:
+      c: c369a724
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-06T04:00Z
+      - 1962-07-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-06.china-leadership-4
+    when: July 6
+    date: '1962-07-06'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: The Capital Theater 首都剧场. Yang Shangkun 杨尚昆, Li Bozhao 李伯钊 and their daughter with Hồ Chí Minh 胡志明 at *Wu Zetian* 《武则天》.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 6, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao, Hồ Chí Minh.'
+    src:
+      c: 2a4368b1
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
   - id: cal.1962-07-07.missile-crisis
     when: July 7
     date: '1962-07-07'
@@ -690,13 +961,14 @@ entries:
     date: '1962-07-07'
     thread: china-leadership
     c: 'Morning. Deng Xiaoping, to the Communist Youth League''s Central Committee, advocates letting a hundred schools contend to find the best form of rural organization, each to express his opinion. He repeats his black cat and white cat saying: the peasants should adopt whatever system they want, and if it is not legal it should be made legal.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 268. Made public: 1967. To check: Deng Xiaoping, speech to the Communist Youth League Central Committee, July 7, 1962, in [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 305 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.35a); Deng Xiaoping, speech to the Communist Youth League Central Committee, July 7, 1962, in [[w.ziliaozu-fan-geming-xiuzhengzhuyi-fenzi]], 52–60 (53–4) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.35b). Names: Deng Xiaoping. Check: Deng attributes the saying to Liu Bocheng, who claimed it as Sichuanese; the book finds it possible Deng misremembered ([[w.xiaoping-deng-xiaoping-wenxuan-1938]], 305).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 268; [[w.yang-shangkun-riji]], II, 192 (July 7, 1962; 9 a.m. to noon, Deng receives the whole of the Youth League Central Committee''s seventh plenum (its third), photographs, speaks). Made public: 1967. To check: Deng Xiaoping, speech to the Communist Youth League Central Committee, July 7, 1962, in [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 305 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.35a); Deng Xiaoping, speech to the Communist Youth League Central Committee, July 7, 1962, in [[w.ziliaozu-fan-geming-xiuzhengzhuyi-fenzi]], 52–60 (53–4) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.35b). Names: Deng Xiaoping. Check: Deng attributes the saying to Liu Bocheng, who claimed it as Sichuanese; the book finds it possible Deng misremembered ([[w.xiaoping-deng-xiaoping-wenxuan-1938]], 305).'
     src:
       c: 05efc2ee
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 268: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 268 n.35a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 268 n.35b: all'
+        - 'w.yang-shangkun-riji II, 192: A'
     tags: [polity:prc, vis:only:prc, name:deng-xiaoping]
     time_range:
       - 1962-07-06T22:00Z
@@ -722,9 +994,23 @@ entries:
       - 1962-07-07T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-07-07.china-leadership-6
+    when: July 7
+    date: '1962-07-07'
+    time: 1962-07-07T07:00Z
+    thread: china-leadership
+    c: The Streamlining Group 精简小组, 3 to 6:30 p.m., hears the Ministry of Education and the Science Commission.
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 7, 1962). The words: 下午3时到6时半 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 9cc2bb4e
+      rows:
+        - 'w.yang-shangkun-riji II, 192: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-08.missile-crisis-anadyr
     when: July 8
     date: '1962-07-08'
+    place: moscow
     thread: missile-crisis-anadyr
     also: [cuba, soviet-union]
     c: Moscow. Raúl Castro with Khrushchev, the second talk.
@@ -787,10 +1073,22 @@ entries:
       - 1962-07-08T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-07-08.china-leadership-3
+    when: July 8
+    date: '1962-07-08'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 8, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-07-09.testing
     when: July 9
     date: '1962-07-09'
     time: 1962-07-09T09:00Z
+    place: johnston-island
     thread: testing
     c: 'Starfish Prime: 1.4 megatons, 250 miles over Johnston Island. Artificial aurora; satellites damaged; streetlights out in Hawaii.'
     n: '[U.S. Department of Energy, *United States Nuclear Tests, July 1945 through September 1992*, DOE/NV-209, rev. 16 (2015), 26–27](https://www.osti.gov/servlets/purl/1351809#page=41). See [[cal.1962-04-25.testing]].'
@@ -817,6 +1115,7 @@ entries:
   - id: cal.1962-07-09.laos
     when: July 9
     date: '1962-07-09'
+    place: geneva
     thread: laos
     c: 'Geneva. Souvanna presents the Laotian statement of neutrality, accepted by the conference: no "protection of any alliance or military coalition, including SEATO."'
     n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 256; [[w.zhai-china-and-the-vietnam]], 105 (the statement of neutrality, July 9, and its words on SEATO; not who presented it). To check: [[w.brown-apprentice-revolutionaries]], 85–86; [[w.hall-laos-neutralization-agreement-1962]], 452 (cited by [[w.zhai-china-and-the-vietnam]], 105 n.58). Names: Souvanna Phouma.'
@@ -905,6 +1204,48 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.62a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.62b: all'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr, name:deng-xiaoping]
+  - id: cal.1962-07-09.china-leadership-5
+    when: July 9
+    date: '1962-07-09'
+    time: 1962-07-09T07:00Z
+    thread: china-leadership
+    c: The Secretariat 书记处, 3 to 5 p.m., on the arrangements of the coming Central Work Conference.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 9, 1962). The words: 下午3时到5时 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 500a49d3
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-09.china-leadership-6
+    when: July 9
+    date: '1962-07-09'
+    time: 1962-07-09T09:00Z
+    thread: china-leadership
+    c: Peng Zhen 彭真 with Yang Shangkun 杨尚昆, 5 to 6 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 9, 1962). The words: 5时到6时 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    src:
+      c: 478b3da8
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-09.china-leadership-7
+    when: July 9
+    date: '1962-07-09'
+    time: 1962-07-09T10:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    follows:
+      - cal.1962-07-09.china-leadership-6
+    c: Diaoyutai 钓鱼台, 6 p.m. Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平 and others give a dinner for Hồ Chí Minh 胡志明, going back to Hanoi 河内 the next morning; Yang Shangkun 杨尚昆 and Peng Zhen 彭真 attend.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 9, 1962). The words: 6时同车去钓鱼台 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Hồ Chí Minh, Yang Shangkun, Peng Zhen.'
+    src:
+      c: 734a4e7c
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:ho-chi-minh, name:peng-zhen, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-10.space
     when: July 10
     date: '1962-07-10'
@@ -1009,6 +1350,7 @@ entries:
   - id: cal.1962-07-10.china-leadership-2
     when: July 10
     date: '1962-07-10'
+    place: peking
     thread: china-leadership
     also: [china, korea]
     c: Peking, the CPPCC auditorium. Zhou Enlai attends the capital's meeting celebrating the first anniversary of the China–DPRK treaty, and receives the head and chief performers of the DPRK National Art Theater.
@@ -1059,6 +1401,49 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 308–309: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:mongolia]
+  - id: cal.1962-07-10.china-leadership-5
+    when: July 10
+    date: '1962-07-10'
+    time: 1962-07-09T23:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Yang Shangkun 杨尚昆 and Wang Jiaxiang 王稼祥, with Liu Pingping 刘平平, at Diaoyutai 钓鱼台 to see Hồ Chí Minh 胡志明, then at the Western Suburb airport 西郊机场 to see him off, 7 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 10, 1962; note 1: Liu Pingping, Liu Shaoqi''s daughter). The words: 5时起床……7时起飞后回家 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-09.china-leadership-7]]. Names: Yang Shangkun, Wang Jiaxiang, Liu Pingping, Hồ Chí Minh.'
+    src:
+      c: ce5ca6f5
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-10.china-leadership-6
+    when: July 10
+    date: '1962-07-10'
+    time: 1962-07-10T07:00Z
+    thread: china-leadership
+    c: Xu Zhizhen 许之桢 with Yang Shangkun 杨尚昆, 3 to 4 p.m., on the unions' spare-time education.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 10, 1962; note 2: Xu Zhizhen). The words: 由3时到4时 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Xu Zhizhen, Yang Shangkun.'
+    src:
+      c: 5d50e548
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-10.china-leadership-7
+    when: July 10
+    date: '1962-07-10'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 signs and sends out the notice calling the Central Work Conference. Tian Jiaying 田家英 with him.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 10, 1962). The words: 晚间 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
+    src:
+      c: 36c44d25
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-10T11:00Z
+      - 1962-07-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-11.laos
     when: July 11
     date: '1962-07-11'
@@ -1102,6 +1487,7 @@ entries:
   - id: cal.1962-07-11.georgia-albany
     when: July 11
     date: '1962-07-11'
+    place: albany-ga
     thread: georgia-albany
     c: Anderson calls the movement to Shiloh for a "now or never effort." Thirty-two come forward, at the Reverend C. K. Steele's urging; at 10:53 a.m. they march behind him toward the jail, King and Abernathy inside, and are arrested singing "We Shall Overcome."
     n: '[[w.branch-parting-the-waters]], 602–3. To check: *Albany Journal*, July 12, 1962, at 1; *Albany Herald*, July 11, 1962, at 1; [*New York Times*, July 12, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/12/issue.html), at 18 (cited by [[w.branch-parting-the-waters]], 602 n.2); Watters, *Down to Now*, 208 (Steele''s prayer, cited by [[w.branch-parting-the-waters]], 602 n.3). See [[cal.1962-07-10.albany]]. Names: Anderson.'
@@ -1157,6 +1543,7 @@ entries:
   - id: cal.1962-07-11.georgia-albany-2
     when: July 11
     date: '1962-07-11'
+    place: albany-ga
     thread: georgia-albany
     also: [democratic-party]
     c: 'James Gray to the President by telephone, Mayor Kelley in his office: "Jack, we''ve got Martin Luther King in jail. ... We don''t want him in jail, but what can we do? He violated our law. ... It would be very nice if you sent somebody down here to pick him up." Kennedy will send someone; Gray to see the Attorney General. By Gray''s account.'
@@ -1176,6 +1563,7 @@ entries:
   - id: cal.1962-07-11.robert-kennedy
     when: July 11
     date: '1962-07-11'
+    place: washington
     thread: robert-kennedy
     also: [georgia-albany]
     follows:
@@ -1197,6 +1585,7 @@ entries:
   - id: cal.1962-07-11.georgia-albany-3
     when: July 11
     date: '1962-07-11'
+    place: albany-ga
     thread: georgia-albany
     c: 'Night. Six hundred at Shiloh. Outside, bricks and bottles at the police cars in Harlem. Pritchett, with Captain Ed Friend, into the church; an ovation. "I never have interrupted your peaceful assemblies. ... This business of throwing rocks is not good." Slater King: "We want to give him respect, but not like he''s some kind of God."'
     n: '[[w.branch-parting-the-waters]], 604–5. To check: [*New York Times*, July 13, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/13/issue.html), at 10; *Albany Journal*, July 12, 1962, at 1, 16 (cited by [[w.branch-parting-the-waters]], 604 n.2); Watters, *Down to Now*, 204–8 (cited by [[w.branch-parting-the-waters]], 604 n.5, 605 n.1); interviews: Laurie Pritchett, Nov. 25, 1986; Ed Haggerty, July 11, 1985 (cited by [[w.branch-parting-the-waters]], 604 nn.3–4).'
@@ -1217,6 +1606,7 @@ entries:
   - id: cal.1962-07-11.georgia-albany-4
     when: July 11
     date: '1962-07-11'
+    place: albany-ga
     thread: georgia-albany
     also: [robert-kennedy]
     follows:
@@ -1273,8 +1663,13 @@ entries:
     date: '1962-07-11'
     thread: china-leadership
     c: Zhou Enlai hears reports on the defense industry, July 11–13.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 11–13, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 11–13, 1962); [[w.yang-shangkun-riji]], II, 193–194 (July 10, 1962; the reports on war industry, July 10, 4 to 7 p.m., July 11 afternoon, July 12 from 3 to 6, July 13 from 3 to 6; Yang Shangkun attends). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: July 10 to 13 (4 to 7 p.m. the first day)
+        at: II, 193–194, July 10, 1962
   - id: cal.1962-07-11.china-leadership-4
     when: July 11
     date: '1962-07-11'
@@ -1292,6 +1687,22 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 232 n.92: E'
         - 'via w.macfarquhar-origins-of-the-cultural III, 232 n.93b: F-G'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-07-11.china-leadership-5
+    when: July 11
+    date: '1962-07-11'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 to Yang Shangkun 杨尚昆 on the last few days.
+    n: '[[w.yang-shangkun-riji]], II, 193 (July 11, 1962). The words: 夜间 (II, 193). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: f2aac5b0
+      rows:
+        - 'w.yang-shangkun-riji II, 193: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-11T14:00Z
+      - 1962-07-11T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-11.economy
     when: July 12
     date: '1962-07-12'
@@ -1319,6 +1730,7 @@ entries:
   - id: cal.1962-07-12.confirmations
     when: July 12
     date: '1962-07-12'
+    place: washington
     thread: confirmations
     c: Matthew McCloskey, the Democrats' treasurer, to Ireland. Williams of Delaware's motion to recommit fails, [30–62](https://voteview.com/rollcall/RS0870294); confirmed.
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt10/pdf/GPO-CRECB-1962-pt10-4-1.pdf) (1962). The Senate sat from noon to 7:10 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D367](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=365). See [[cal.1961-03-07.confirmations]]. Names: McCloskey, Williams. Check: the page.'
@@ -1406,6 +1818,7 @@ entries:
   - id: cal.1962-07-12.georgia-albany
     when: July 12
     date: '1962-07-12'
+    place: albany-ga
     thread: georgia-albany
     c: 'Dawn. Gardner at the jail desk with $356: "Here''s Martin Luther King''s fine. Turn him out." The receipt made out to King and Abernathy. At 7:30 a.m. Pritchett tells them their fines are paid, by "an unidentified, well-dressed Negro male"; they must go.'
     n: '[[w.branch-parting-the-waters]], 606; [[w.garrow-bearing-the-cross]], 204 (out after three days, the fines paid by an unknown hand; not Gardner, the receipt or the hour); [[w.young-easy-burden]], 178 (out after three days, bonded "by parties unknown"; not Gardner, the receipt or the hour). To check: interviews: B. C. Gardner, July 11, 1985; James Gray, Jan. 24, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.2); [*New York Times*, July 13, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/13/issue.html), at 10 (cited by [[w.branch-parting-the-waters]], 606 n.3); [*New York Times*, July 12, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/12/issue.html), at 1; trial transcript, vol. 4, 1144 (King''s testimony, Aug. 8, 1962), Albany''s suit against the movement, M.D. Ga.; *Afro-American*, July 21, 1962, at 1 (cited by [[w.garrow-bearing-the-cross]], 204 n.30). See [[cal.1962-07-10.albany]]. Names: Martin Luther King, Abernathy.'
@@ -1477,6 +1890,7 @@ entries:
   - id: cal.1962-07-12.cuba
     when: July 12
     date: '1962-07-12'
+    place: moscow
     thread: cuba
     also: [soviet-union]
     follows:
@@ -1508,6 +1922,7 @@ entries:
   - id: cal.1962-07-12.soviet-union-leadership-2
     when: July 12
     date: '1962-07-12'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 41, Khrushchev presiding. Present: Kirilenko, Mikoyan, Suslov, Grishin; the secretaries Demichev, Ilyichev, Ponomarev, Shelepin.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 571–72 (Protocol 41, Malin''s notes); I, 1104 n.1 (those present); III, 310–11 (P 41/I and II); III, 1003 nn.1, 5 (those present; the advisers sent by poll, July 27). Names: Khrushchev, Kirilenko, Mikoyan, Suslov, Demichev, Ponomarev, Shelepin.'
@@ -1540,11 +1955,17 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai to the central organs'' investigation teams going to the countryside (45 groups, over a hundred people, drawn on his proposal to find who below county level eats commodity or mobile grain): investigate, report, give views; stay at least three months; no special treatment. He names ten pressing problems: agriculture, state aid to it, grain, finance and credit, the market, streamlining, adjustment, stock-taking and asset checks, the system, work style.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 12, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 12, 1962); [[w.yang-shangkun-riji]], II, 194 (July 12, 1962; 10:30 a.m. to 1 p.m., Huairen Hall, Yang Shangkun presiding). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 95b21816
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 489: ?'
+        - 'w.yang-shangkun-riji II, 194: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-07-12.china-leadership-3
     when: July 12
     date: '1962-07-12'
+    place: peking
     thread: china-leadership
     also: [china, korea]
     c: Peking Hotel. Zhou Enlai attends the banquet given by the DPRK Ambassador, Han Ik-su, for the treaty's first anniversary.
@@ -1572,9 +1993,23 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 263: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 263 n.14b: all'
     tags: [polity:prc, vis:only:prc, name:li-xiannian, name:mao-zedong]
+  - id: cal.1962-07-12.china-leadership-4
+    when: July 12
+    date: '1962-07-12'
+    time: 1962-07-12T01:00Z
+    thread: china-leadership
+    c: Deng Diantao 邓典桃 and Tian Chou 田畴 with Yang Shangkun 杨尚昆, 9 a.m., on preparing the Beidaihe 北戴河 work conference.
+    n: '[[w.yang-shangkun-riji]], II, 194 (July 12, 1962; note 1: the Central Work Conference at Beidaihe). The words: 上午9时 (II, 194). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Tian Chou, Yang Shangkun.'
+    src:
+      c: 13991a5e
+      rows:
+        - 'w.yang-shangkun-riji II, 194: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-13.laos
     when: July 13
     date: '1962-07-13'
+    place: washington
     thread: laos
     also: [vietnam-congress]
     c: 'Rusk and Chayes before Foreign Relations in executive session on the Laos agreement: an executive agreement, nothing for Congress but the commission''s costs. Morse: why not a treaty? Chayes: no "formal guarantee agreement."'
@@ -1682,6 +2117,50 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 234–235: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-07-13.china-leadership
+    when: July 13
+    date: '1962-07-13'
+    thread: china-leadership
+    c: Deng Yingchao 邓颖超 with Yang Shangkun 杨尚昆, two hours.
+    n: '[[w.yang-shangkun-riji]], II, 194 (July 13, 1962). The words: 上午 (II, 194). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Yingchao, Yang Shangkun.'
+    src:
+      c: 7e4ea6dc
+      rows:
+        - 'w.yang-shangkun-riji II, 194: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-12T22:00Z
+      - 1962-07-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-13.china-leadership-2
+    when: July 13
+    date: '1962-07-13'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou Enlai 周恩来, after the war-industry reports, to Yang Shangkun 杨尚昆 on the Sino-Indian border.
+    n: '[[w.yang-shangkun-riji]], II, 194 (July 13, 1962). The words: 下午3时到6时，继续听军工生产的汇报，以后 (II, 194). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun.'
+    src:
+      c: 80f7c084
+      rows:
+        - 'w.yang-shangkun-riji II, 194: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-07-13.china-leadership-3
+    when: July 13
+    date: '1962-07-13'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 prepares the next day's Streamlining Group meeting.
+    n: '[[w.yang-shangkun-riji]], II, 194 (July 13, 1962). The words: 晚间办公，准备明天开精简小组会议 (II, 194). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f907f97a
+      rows:
+        - 'w.yang-shangkun-riji II, 194: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-13T11:00Z
+      - 1962-07-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-14.transition-and-staff-cleveland
     when: July 14
     date: '1962-07-14'
@@ -1729,6 +2208,7 @@ entries:
   - id: cal.1962-07-14.china-leadership-2
     when: July 14
     date: '1962-07-14'
+    place: peking
     thread: china-leadership
     also: [china, middle-east]
     c: Peking Hotel. Zhou Enlai attends the national day reception given by the Iraqi Ambassador, Fadil.
@@ -1759,9 +2239,39 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 304 n.40c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 304 n.40e: all'
     tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:zhou-enlai, name:mao-zedong, name:nehru-jawaharlal]
+  - id: cal.1962-07-14.china-leadership-4
+    when: July 14
+    date: '1962-07-14'
+    time: 1962-07-14T01:00Z
+    thread: china-leadership
+    c: The back hall of Huairen Hall 怀仁堂, 9 a.m. to noon. Jiao Shanmin 焦善民 of the Gansu 甘肃 committee reports on streamlining to Yang Shangkun 杨尚昆 and the ministers concerned.
+    n: '[[w.yang-shangkun-riji]], II, 194 (July 14, 1962; note 2: Jiao Shanmin). The words: 上午9时到12时 (II, 194). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Jiao Shanmin, Yang Shangkun.'
+    src:
+      c: 6586f84b
+      rows:
+        - 'w.yang-shangkun-riji II, 194: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-14.china-leadership-5
+    when: July 14
+    date: '1962-07-14'
+    thread: china-leadership
+    c: Qi Yanming 齐燕铭, Wang Dongxing 汪东兴, Tian Jiaying 田家英 and others with Yang Shangkun 杨尚昆, to 2 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 194 (July 14, 1962). The words: 晚间 (II, 194). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Qi Yanming, Wang Dongxing, Tian Jiaying, Yang Shangkun.'
+    src:
+      c: a519ad21
+      rows:
+        - 'w.yang-shangkun-riji II, 194: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-14T11:00Z
+      - 1962-07-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-15.program
     when: July 15
     date: '1962-07-15'
+    place: washington
     thread: health
     c: '*Washington Post* (Mintz): Kelsey of the FDA kept thalidomide off the market. Kefauver''s drug bill revives.'
     n: 'To check: [[w.harris-real-voice]]; [[w.carpenter-reputation-and-power]]. Names: Mintz, Kelsey, Kefauver.'
@@ -1809,6 +2319,7 @@ entries:
   - id: cal.1962-07-15.china-leadership-3
     when: July 15
     date: '1962-07-15'
+    place: peking
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai watches the DPRK National Art Theater's performance and goes on stage to congratulate the Korean artists.
@@ -1823,9 +2334,42 @@ entries:
       - 1962-07-15T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-07-15.china-leadership-4
+    when: July 15
+    date: '1962-07-15'
+    thread: china-leadership
+    c: He Jun 何均 reports to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 15, 1962). The words: 晚间 (II, 195). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Yang Shangkun.'
+    src:
+      c: 0f010a1f
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-15T11:00Z
+      - 1962-07-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-15.china-leadership-5
+    when: July 15
+    date: '1962-07-15'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 swims with Li Bozhao 李伯钊 and their daughter.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 15, 1962). The words: 上午起床看报后，与伯钊、妞妞去游泳 (II, 195). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: 5b725c9b
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-14T22:00Z
+      - 1962-07-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-16.king
     when: July 16
     date: '1962-07-16'
+    place: nyc
     thread: king
     also: [press-and-broadcasting, georgia-albany]
     c: 'The *New York Times*, a profile: King "woefully inadequate in organizational ability," by a source; his "chief problem" his wish to keep SCLC independent of the NAACP.'
@@ -1847,6 +2391,7 @@ entries:
     date: '1962-07-16'
     time: 1962-07-16T17:30Z
     time_approx: true
+    place: albany-ga
     thread: georgia-albany
     c: 'The "Albany Manifesto," dated July 15, handed to Pritchett about 1:30 p.m.: the city has dealt in bad faith these six months. Small groups test the library and the parks; met by police, many arrested.'
     n: '[[w.branch-parting-the-waters]], 608. To check: the "Albany Manifesto," July 15, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 608 n.2). Check: the days of the tests. See [[cal.1962-07-12.georgia-albany]]. Check: the hour, Branch''s about 1:30 p.m., read at Eastern daylight time; Albany''s clock in July 1962 not settled.'
@@ -1898,6 +2443,7 @@ entries:
   - id: cal.1962-07-16.china-leadership
     when: July 16
     date: '1962-07-16'
+    place: peking
     thread: china-leadership
     also: [china, laos]
     c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leaving for Geneva for the conference on the Laos question.
@@ -1952,9 +2498,46 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 304 n.40c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 304 n.41: all'
     tags: [polity:prc, vis:only:prc, name:luo-ruiqing, name:mao-zedong]
+  - id: cal.1962-07-16.china-leadership-3
+    when: July 16
+    date: '1962-07-16'
+    time: 1962-07-16T01:00Z
+    thread: china-leadership
+    c: Wang Hongru 王鸿儒 of the Baoding 保定 prefectural committee reports to Yang Shangkun 杨尚昆 all day on the villages and streamlining.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 16, 1962). The words: 上午9时到12时，下午3时到6时 (II, 195). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-01-08.china-leadership-5]]. Names: Wang Hongru, Yang Shangkun.'
+    src:
+      c: a0635939
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-16.china-leadership-4
+    when: July 16
+    date: '1962-07-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yan Mingfu 阎明复 with Yang Shangkun 杨尚昆 on the peace congress at Moscow 莫斯科.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 16, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-01.china-leadership-5]]. Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: 6e33bc05
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-07-16.china-leadership-5
+    when: July 16
+    date: '1962-07-16'
+    thread: china-leadership
+    c: The Shandong 山东 committee reports Jinan 济南 flooded by heavy rain.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 16, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 952ebc66
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-07-17.medicare
     when: July 17
     date: '1962-07-17'
+    place: washington
     thread: medicare
     follows:
       - cal.1962-07-17.medicare-2
@@ -1996,6 +2579,7 @@ entries:
     when: July 17
     date: '1962-07-17'
     time: 1962-07-17T22:00Z
+    place: washington
     thread: berlin-and-vienna
     also: [soviet-union]
     follows:
@@ -2032,6 +2616,7 @@ entries:
   - id: cal.1962-07-17.space
     when: July 17
     date: '1962-07-17'
+    place: washington
     thread: space
     c: The Senate Labor and Public Welfare Committee hears Jerome B. Wiesner on his nomination as Director of the Office of Science and Technology.
     n: '*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg86922)), 2. Names: Wiesner.'
@@ -2061,8 +2646,37 @@ entries:
     date: '1962-07-17'
     thread: china-leadership
     c: Zhou Enlai attends, July 17–19, the meeting on the draft Central Committee and State Council decision on improving the commercial system, and the Secretariat's meeting on the draft report of the State Council's Finance and Trade Office and the National Price Commission on the market and prices. July 19 the Center sends out the drafts for further discussion in the localities.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 490 (July 17–19, 1962). Made public: 1997. To check: the drafts. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 490 (July 17–19, 1962); [[w.yang-shangkun-riji]], II, 195–196 (July 17, 1962; the Secretariat, mornings: July 17, the first draft "Decision on further strengthening the centralized unity of commercial work"; July 18, the draft "Report on market prices"; July 19, the commercial system; Zhou Enlai not named). Made public: 1997. To check: the drafts. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-07-17.china-leadership-4
+    when: July 17
+    date: '1962-07-17'
+    time: 1962-07-17T08:00Z
+    thread: china-leadership
+    c: Zhang Changxing 张长行 of the General Office reports to Yang Shangkun 杨尚昆 on the work at Shulu 束鹿, 4 to 6:30 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 17, 1962; note 1: Zhang Changxing). The words: 下午4时到6时半 (II, 195). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Changxing, Yang Shangkun.'
+    src:
+      c: 894e1c3d
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-17.china-leadership-5
+    when: July 17
+    date: '1962-07-17'
+    thread: china-leadership
+    c: Yan Mingfu 阎明复 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 195 (July 17, 1962). The words: 晚间 (II, 195). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yan Mingfu, Yang Shangkun.'
+    src:
+      c: a298e1d5
+      rows:
+        - 'w.yang-shangkun-riji II, 195: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-17T11:00Z
+      - 1962-07-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-18.latin-america
     when: July 18
     date: '1962-07-18'
@@ -2073,6 +2687,7 @@ entries:
   - id: cal.1962-07-18.legislatures-mi
     when: July 18
     date: '1962-07-18'
+    place: michigan
     thread: legislatures
     also: [court]
     c: 'Michigan Supreme Court, *Scholle v. Secretary of State*, on remand after *Baker v. Carr*: the State Senate''s districts of 1952, from 55,806 people in the Upper Peninsula to 690,583 in Oakland County, void under the Equal Protection Clause; the Aug. 7 primary for the Senate called off, new districts ordered. July 27, Stewart stays the order until the Supreme Court can hear it.'
@@ -2094,6 +2709,7 @@ entries:
   - id: cal.1962-07-18.vietnam
     when: July 18
     date: '1962-07-18'
+    place: hanoi
     thread: vietnam
     also: [laos]
     c: 'Lê Duẩn to COSVN on the lesson of Laos: a struggle "in excess of the situation" would have brought other reactions from the imperialists; neutrality for the South a "method," to get the Americans out and a government in Saigon that would be "independent."'
@@ -2116,6 +2732,7 @@ entries:
   - id: cal.1962-07-18.africa
     when: July 18
     date: '1962-07-18'
+    place: washington
     thread: africa
     c: 'The Cabinet Room, on African policy at the UN. Kennedy: why take the initiative on a resolution on Portugal; the Azores not to be lost with the test ban coming up; "Let us not try to shepherd everyone around." Stevenson: France would seek the best of both worlds. Kennedy: "Well, let us try that this time."'
     n: '[[w.schlesinger-thousand-days-1965]], 582, by Schlesinger''s account. Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1961-03-22.africa]]. Names: Kennedy, Stevenson.'
@@ -2164,6 +2781,7 @@ entries:
   - id: cal.1962-07-18.republican-party-congress
     when: July 18
     date: '1962-07-18'
+    place: washington
     thread: republican-party-congress
     c: 'Senate Republican conference, held with the Policy Committee''s meeting, thirty-three present, 1:25 to 1:28 p.m. Carlson''s recommendations after Francis Case''s death adopted: Clifford Case to Armed Services, Prouty to Commerce, Murphy and Pearson to Public Works, Bottum to Interior and to Rules. Bottum to the Committee on Committees.'
     n: '[[w.wolff-minutes-of-the-senate]], 938–39. Names: Carlson, Francis Case, Clifford Case, Prouty, Murphy, Pearson.'
@@ -2177,7 +2795,12 @@ entries:
     date: '1962-07-18'
     thread: china-leadership
     c: 'Afternoon. Mao to Yang Shangkun: whether to take the collective road or the individual one; and his dissatisfaction with the State Planning Commission and the Ministry of Commerce; "against dispersionism" again. Yang''s diary that day: "I think the situation grave!! deeply uneasy"; that evening he reports it to Zhou Enlai.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1962. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1962; [[w.yang-shangkun-riji]], II, 195–196 (July 18, 1962; at the swimming pool, to 6:30 p.m.; at 9 p.m. Yang tells Zhou Enlai Mao''s points). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 195–196) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Zhou Enlai, Yang Shangkun.'
+    src:
+      c: c5f7ec09
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 18, 1962: all'
+        - 'w.yang-shangkun-riji II, 195–196: A-F'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-07-18.china-leadership-2
     when: July 18
@@ -2185,7 +2808,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi receives the bureau chiefs and higher cadres of the Central Committee''s departments and the state organs who are being sent down to the main grain-producing areas, and gives them five tasks: strengthen the prefectural, county and basic-level leadership; carry out the Center''s correct policy; report conditions as they are; change the incorrect style of some local Party organizations; consolidate the collective economy and develop farm production. Policy is made by the Center, which alone may decide it; a place with special conditions may make its own policy, but it must be decided and approved by the Center. A policy carried out well or ill, wholly or in part, mechanically or by truth from facts, makes a great difference; a market divided into closed districts against the national unified market, as one that bars goods from another district, is not permitted. The talk is in his Selected Works as "Strengthen basic-level leadership and improve the style of work."'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 558 (July 18, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 268 (Liu tells the officials the Central Committee will soon decide on baochan daohu and individual operation; he prefers the Henan responsibility system, major farm work done collectively and odd jobs separately by individuals; he also defends the collective system and calls for struggle against incorrect views and attitudes). Made public: 1996. Check: the Selected Works text of the talk (the entry''s unit J) is the source for these points ([[w.selected-works-of-liu]], 2, 440–43, cited at III, 268 nn.37–38). To check: Liu Shaoqi, speech of July 18, 1962, to central officials sent to the countryside, in [[w.selected-works-of-liu]], 440–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.37); Liu Shaoqi, speech of July 18, 1962, to central officials sent to the countryside, in [[w.selected-works-of-liu]], 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.38). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 558 (July 18, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 268 (Liu tells the officials the Central Committee will soon decide on baochan daohu and individual operation; he prefers the Henan responsibility system, major farm work done collectively and odd jobs separately by individuals; he also defends the collective system and calls for struggle against incorrect views and attitudes); [[w.yang-shangkun-riji]], II, 195 (July 18, 1962; afternoon, to the 107 cadres going down: six points, the basic levels'' leadership, the Center''s policies, true reports, bad styles corrected, the collective economy consolidated, the factories run well; Yang Shangkun hears four, then is called away by Mao). Made public: 1996. Check: the Selected Works text of the talk (the entry''s unit J) is the source for these points ([[w.selected-works-of-liu]], 2, 440–43, cited at III, 268 nn.37–38). To check: Liu Shaoqi, speech of July 18, 1962, to central officials sent to the countryside, in [[w.selected-works-of-liu]], 440–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.37); Liu Shaoqi, speech of July 18, 1962, to central officials sent to the countryside, in [[w.selected-works-of-liu]], 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 268 n.38). Names: Liu Shaoqi.'
     src:
       c: 41d8f923
       rows:
@@ -2193,6 +2816,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 268: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 268 n.37: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 268 n.38: ?'
+        - 'w.yang-shangkun-riji II, 195: A'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-07-19.vietnam
     when: July 19
@@ -2227,6 +2851,7 @@ entries:
     when: July 19
     date: '1962-07-19'
     time: 1962-07-19T16:35Z
+    place: washington
     thread: king
     also: [press-and-broadcasting]
     c: King at the National Press Club, at 12:35 p.m. its first Negro speaker in fifty-four years; a capacity audience, three ovations. Nonviolence. No member resigns.
@@ -2243,7 +2868,12 @@ entries:
     date: '1962-07-19'
     thread: china-leadership
     c: 'Mao''s pool residence, afternoon. The Standing Committee, Mao presiding. Against dispersionism: the center''s own departments the worst; foreign affairs, the Liaison Department and the Military Commission good; the State Planning Commission, Economic Commission, Organization Department and others report little. Rehabilitation to be done on the facts, not "one wind sweeps all." The delegates to the work conference to be at Beidaihe July 25.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1962. Made public: 2013. See [[cal.1962-07-18.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1962; [[w.yang-shangkun-riji]], II, 196 (July 19, 1962; at the pool, to 6 p.m.; Mao repeats the two questions he put to Yang the day before, naming no one; the conference''s members to Beidaihe in two parties, July 23 and 24). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 196) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. See [[cal.1962-07-18.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: f46a3c25
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, July 19, 1962: all'
+        - 'w.yang-shangkun-riji II, 196: A, B, G'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-07-19.china-leadership-2
     when: July 19
@@ -2256,6 +2886,7 @@ entries:
     when: July 19
     date: '1962-07-19'
     time: 1962-07-19T13:00Z
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking, Xihuating. Zhou Enlai receives the new Ghanaian Ambassador, James Mercer.
@@ -2270,6 +2901,7 @@ entries:
     when: July 19
     date: '1962-07-19'
     time: 1962-07-19T14:15Z
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, Xihuating. Zhou Enlai receives the new Bulgarian Ambassador, Kumbiliev.
@@ -2304,6 +2936,51 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 312: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 312 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-07-19.china-leadership-7
+    when: July 19
+    date: '1962-07-19'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962). The words: 上午 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-18T22:00Z
+      - 1962-07-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-19.china-leadership-8
+    when: July 19
+    date: '1962-07-19'
+    time: 1962-07-19T07:00Z
+    thread: china-leadership
+    c: The General Office's Wuxi 无锡 work team reports to Yang Shangkun 杨尚昆, 3 p.m., about an hour, until Mao's office calls him to the pool.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962). The words: 下午3时……约1小时 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 8aa570f1
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-19.china-leadership-9
+    when: July 19
+    date: '1962-07-19'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 arranges with those concerned the move to Beidaihe 北戴河.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962). The words: 晚间 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: f4eea227
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-19T11:00Z
+      - 1962-07-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-20.albany
     when: July 20
     date: '1962-07-20'
@@ -2332,6 +3009,7 @@ entries:
   - id: cal.1962-07-20.transition-and-staff
     when: July 20
     date: '1962-07-20'
+    place: washington
     thread: transition-and-staff
     also: [mayors]
     c: The Senate confirms Celebrezze, nominated July 16.
@@ -2380,6 +3058,7 @@ entries:
   - id: cal.1962-07-20.georgia-albany
     when: July 20
     date: '1962-07-20'
+    place: albany-ga
     thread: georgia-albany
     also: [king]
     c: 'King, back in Albany, at the night''s mass meeting: "I understand that the city attorney has gone to Atlanta to get an injunction to get the undesirables out." "The salvation of the Negro in Albany, Georgia, is within the hands and the soul of the Negro himself." Gandhi''s Salt March; "Albany''s March to the Sea," the next afternoon.'
@@ -2417,6 +3096,7 @@ entries:
   - id: cal.1962-07-20.economy-2
     when: July 20
     date: '1962-07-20'
+    place: washington
     thread: economy
     c: The Senate Banking and Currency Committee hears Gardner Ackley on his nomination as a member of the Council of Economic Advisers.
     n: '*Nomination of Gardner Ackley: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg86866)), 1. Names: Ackley.'
@@ -2430,6 +3110,7 @@ entries:
   - id: cal.1962-07-20.defense-2
     when: July 20
     date: '1962-07-20'
+    place: washington
     thread: defense
     c: The White House announces Taylor, the President's military representative, to be Chairman of the Joint Chiefs when Lemnitzer is reassigned; Lemnitzer's term ends Sept. 20.
     n: '[[w.schulimson-joint-chiefs-of-staff]], 251; [[w.taylor-swords-and-plowshares]], 251–52 (Taylor named; Lemnitzer to NATO; effective Oct. 1). Check: Taylor dates the announcement of the changes July 19, Norstad''s retirement July 20 ([[w.taylor-swords-and-plowshares]], 251–52). Names: Taylor, Lemnitzer.'
@@ -2477,6 +3158,86 @@ entries:
     c: 'Mao sends to Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping and Peng Zhen the Central Committee''s instruction approving the Military Commission''s proposal on strategic policy (the revision begun May 18): operational plans for the whole army and the long-range plan for national defense are to be drawn up accordingly.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, May 18, 1962 (July 20). Made public: 2013. See [[cal.1962-05-18.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen.'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-07-20.china-leadership-3
+    when: July 20
+    date: '1962-07-20'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 20, 1962). The words: 上午 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-19T22:00Z
+      - 1962-07-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-20.china-leadership-6
+    when: July 20
+    date: '1962-07-20'
+    thread: china-leadership
+    c: Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 20, 1962). The words: 上午 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Yang Shangkun.'
+    src:
+      c: '59355767'
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-19T22:00Z
+      - 1962-07-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-20.china-leadership-7
+    when: July 20
+    date: '1962-07-20'
+    thread: china-leadership
+    c: Lai Zulie 赖祖烈, back from Beidaihe 北戴河, reports to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 20, 1962). The words: 上午 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lai Zulie, Yang Shangkun.'
+    src:
+      c: 50510de8
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-19T22:00Z
+      - 1962-07-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-20.china-leadership-4
+    when: July 20
+    date: '1962-07-20'
+    thread: china-leadership
+    c: Huang Shuze 黄树则 and Ji Suhua 计苏华, head of the Peking Hospital, tell Yang Shangkun 杨尚昆 that Li Bozhao 李伯钊 has a small tumor of the right breast, to be removed.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 20, 1962; note 2: Ji Suhua). The words: 下午 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Huang Shuze, Ji Suhua, Yang Shangkun, Li Bozhao.'
+    src:
+      c: d5a879ad
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-20T04:00Z
+      - 1962-07-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-20.china-leadership-5
+    when: July 20
+    date: '1962-07-20'
+    thread: china-leadership
+    c: Ma Wenrui 马文瑞 and Jiao Shanmin 焦善民 with Yang Shangkun 杨尚昆 on streamlining in Gansu 甘肃, and the Streamlining Group's office while at Beidaihe 北戴河.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 20, 1962). The words: 晚间 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ma Wenrui, Jiao Shanmin, Yang Shangkun.'
+    src:
+      c: cfa4e4d3
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-20T11:00Z
+      - 1962-07-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-21.alabama-al
     when: July 21
     date: '1962-07-21'
@@ -2494,6 +3255,7 @@ entries:
   - id: cal.1962-07-21.georgia-albany
     when: July 21
     date: '1962-07-21'
+    place: albany-ga
     thread: georgia-albany
     c: Morning. A deputy marshal serves Anderson at his house, the leaders in his bedroom, and asks for King, there unrecognized; King and other defendants out a window and down an alley. Early that afternoon King drives to the courthouse to be served.
     n: '[[w.branch-parting-the-waters]], 609–10. To check: interviews: C. B. King, July 10, 1985 (cited by [[w.branch-parting-the-waters]], 609 n.1, 610 n.1); McGowan to Rosen, July 22, 1962, FBI file 157-6-2, serial 450 (cited by [[w.branch-parting-the-waters]], 610 n.1). See [[cal.1962-07-20.albany]]. Names: Anderson, Martin Luther King.'
@@ -2536,6 +3298,7 @@ entries:
   - id: cal.1962-07-21.georgia-albany-2
     when: July 21
     date: '1962-07-21'
+    place: albany-ga
     thread: georgia-albany
     c: 'Night, Shiloh, seven hundred waiting. The Reverend S. B. Wells, a freight loader at the Marine depot: "I''ve heard about an injunction, but I haven''t seen one!" Nearly two hundred, mostly teenagers, march behind him; blocked at the bus station, Wells kneels; Pritchett: "All right, Rev, come on and get up, goddamn it. Let''s go to jail." 113 jailed, then some fifty more. King, watching from a car: "They can stop the leaders, but they can''t stop the people."'
     n: '[[w.branch-parting-the-waters]], 611–13. To check: interviews: S. B. Wells, July 9, 1985 (cited by [[w.branch-parting-the-waters]], 612 n.1); [*New York Times*, July 22, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/22/issue.html), at 1; *Albany Herald*, July 22, 1962, at 1; Lewis, *King*, 161 (cited by [[w.branch-parting-the-waters]], 612 n.2); interviews: Claude Sitton, Dec. 14, 1983 (cited by [[w.branch-parting-the-waters]], 612 n.3). See [[cal.1962-07-20.albany]]. Names: Martin Luther King.'
@@ -2596,6 +3359,7 @@ entries:
   - id: cal.1962-07-21.china-leadership-2
     when: July 21
     date: '1962-07-21'
+    place: peking
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Polish Embassy. Zhou Enlai attends the national day reception given by the Polish Ambassador, Jerzy Knothe.
@@ -2662,6 +3426,67 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 314 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 315 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:gomulka-wladyslaw, name:cyrankiewicz-jozef, polity:poland]
+  - id: cal.1962-07-21.china-leadership-4
+    when: July 21
+    date: '1962-07-21'
+    time: 1962-07-21T02:30Z
+    thread: china-leadership
+    c: Liu Lantao 刘澜涛 to Yang Shangkun 杨尚昆, 10:30 a.m. to noon, on Mao's talks with the regional bureaus' secretaries.
+    n: '[[w.yang-shangkun-riji]], II, 196 (July 21, 1962). The words: 由10时半到12时 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-20.china-leadership]]. Names: Liu Lantao, Yang Shangkun.'
+    src:
+      c: df6284fb
+      rows:
+        - 'w.yang-shangkun-riji II, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-21.china-leadership-5
+    when: July 21
+    date: '1962-07-21'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 21, 1962). The words: 下午 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-21T04:00Z
+      - 1962-07-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-21.china-leadership-6
+    when: July 21
+    date: '1962-07-21'
+    thread: china-leadership
+    c: Zhang Qilong 张启龙, Zhao Han 赵汉, Yao Zhen 姚溱 and others with Yang Shangkun 杨尚昆 on drafting the "Decision on exchanging cadres" 《交流干部的决定》.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 21, 1962). The words: 下午 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Qilong, Zhao Han, Yao Zhen, Yang Shangkun.'
+    src:
+      c: 9d277201
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-21T04:00Z
+      - 1962-07-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-21.china-leadership-7
+    when: July 21
+    date: '1962-07-21'
+    thread: china-leadership
+    c: Li Fuchun 李富春 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 21, 1962). The words: 下午 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: 1427db4f
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1962-07-21T04:00Z
+      - 1962-07-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-22.laos
     when: July 22
     date: '1962-07-22'
@@ -2683,6 +3508,7 @@ entries:
   - id: cal.1962-07-22.georgia-albany
     when: July 22
     date: '1962-07-22'
+    place: albany-ga
     thread: georgia-albany
     also: [king]
     c: 'Sunday. King and Anderson to the press: Elliott''s order "unjust and unconstitutional"; the lawyers to ask Tuttle''s court to vacate it. King will not urge demonstrations meanwhile.'
@@ -2703,6 +3529,7 @@ entries:
   - id: cal.1962-07-22.civil-rights-organizations
     when: July 22
     date: '1962-07-22'
+    place: albany-ga
     thread: civil-rights-organizations
     also: [georgia-albany, king]
     c: 'Slater King''s backyard, into the night. Sherrod, Charles Jones, Reagon, Forman and Tim Jenkins of SNCC at King: his submission to the order, his hold on the press, SCLC''s control of the money, Walker; "bourgeois." Forman: King protects his "fundraising base." Jones: "So let''s go to jail, bro''." King: "Chuck, do I have to?"'
@@ -2724,6 +3551,7 @@ entries:
     when: July 22
     date: '1962-07-22'
     time: 1962-07-21T17:30Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: 1:30 a.m., Juxiang Shuwu. Mao hears Zhou Enlai on the Indian attack of July 21 on a Chinese border post in the Chip Chap valley, Xinjiang. Today the Chinese government protests sharply.
@@ -2759,6 +3587,7 @@ entries:
     when: July 22
     date: '1962-07-22'
     time: 1962-07-22T13:30Z
+    place: peking
     thread: china-leadership
     also: [china, middle-east, africa]
     c: Peking, Xihuating. Zhou Enlai receives the new UAR Ambassador, Imam, and tells him that the UAR's anti-imperialist struggle since independence has drawn the world's peoples' notice and respect; the Suez affair shook the world and taught imperialism; Egypt's republic has much inspired Africa, where some twenty states have arisen in a few years, and a standing-up Africa will not be put down again.
@@ -2773,6 +3602,7 @@ entries:
     when: July 22
     date: '1962-07-22'
     time: 1962-07-22T14:15Z
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking, Xihuating. Zhou Enlai receives the new Danish Ambassador.
@@ -2813,9 +3643,62 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.29d: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.30: all'
     tags: [polity:prc, polity:india, vis:only:prc+india, name:chen-yi, name:menon-v-k-krishna]
+  - id: cal.1962-07-22.china-leadership-6
+    when: July 22
+    date: '1962-07-22'
+    time: 1962-07-22T02:00Z
+    thread: china-leadership
+    c: The Secretariat 书记处 with the ministers, 10 to 11:30 a.m., chiefly on how to keep Mao informed 通气.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962). The words: 上午10时到11时半 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 33e966f6
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-22.china-leadership-7
+    when: July 22
+    date: '1962-07-22'
+    thread: china-leadership
+    follows:
+      - cal.1962-07-22.china-leadership-6
+    c: Wu Lengxi 吴冷西 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962; note 1: Wu Lengxi). The words: 会后 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Lengxi, Yang Shangkun.'
+    src:
+      c: 582122c9
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-07-22.china-leadership-9
+    when: July 22
+    date: '1962-07-22'
+    thread: china-leadership
+    follows:
+      - cal.1962-07-22.china-leadership-7
+    c: Li Fuchun 李富春 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962). The words: 并同富春谈话 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: 1427db4f
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+  - id: cal.1962-07-22.china-leadership-8
+    when: July 22
+    date: '1962-07-22'
+    time: 1962-07-22T07:00Z
+    thread: china-leadership
+    c: Li Shuhuai 李树槐 with Yang Shangkun 杨尚昆, 3 p.m., on moving the party to Beidaihe 北戴河 on the 23rd and 24th.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962). The words: 下午3时 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Shuhuai, Yang Shangkun.'
+    src:
+      c: 4662c05b
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-23.laos
     when: July 23
     date: '1962-07-23'
+    place: geneva
     thread: laos
     c: Geneva. Declaration on the Neutrality of Laos; fourteen signatories.
     n: 'Statement by the President on the Signing of Agreements To End the Conflict in Laos, [1962 Pub. Papers 568](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628) (July 23, 1962). [FRUS 1961–63, XXIV, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v24/d411). Declaration on the Neutrality of Laos (Viet. II.I.2). [[w.gibbons-u-s-government-and]], II, 117 (signed July 23; not the signatories); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 256 (the declaration, July 23); [[w.marolda-united-states-navy-and]], 84; [[w.anthony-war-in-northern-laos]], 71; [[w.asselin-hanois-road-to-the]], 124–25 (the agreement signed in July; Hanoi''s reading of it); [[w.zhai-china-and-the-vietnam]], 105; [[w.moyar-triumph-forsaken]], 164; [[w.sorensen-kennedy]], 647; [[w.fursenko-khrushchevs-cold-war]], 449 (the Geneva agreement, foreign forces to withdraw); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 256 (the statement of July 9 incorporated; 40 North Vietnamese counted out by the control commission in 75 days); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 237 (July 23, 1962; the enlarged Geneva conference on the peaceful settlement of the Laos question ends; the declaration on the neutrality of Laos and its protocol, adopted unanimously, take effect on signing; the fourteen signatories undertake to recognize and respect Laos''s sovereignty, independence, neutrality, unity and territorial integrity); [[w.macfarquhar-origins-of-the-cultural]], III, 273 (the Geneva conference concludes with agreements signed by both the Chinese Foreign Minister and the American Secretary of State, after fourteen months of negotiation). [[w.rusk-as-i-saw-it-1990]], 429 (the accords; the concessions, by Rusk''s account). To check: [[w.abramson-spanning-the-century]]; Chen Yi, statement of July 23, 1962, on the Geneva agreement on Laos, in [[w.lall-how-communist-china-negotiates]], 179 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 273 n.75a); [[w.lall-how-communist-china-negotiates]], 171–80 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 273 n.75b). See [[cal.1961-03-23.laos]]. Names: Harriman.'
@@ -2859,6 +3742,7 @@ entries:
   - id: cal.1962-07-23.vietnam
     when: July 23
     date: '1962-07-23'
+    place: honolulu
     thread: vietnam
     also: [vietnam-force-levels]
     c: Honolulu. McNamara orders plans for the advisers' withdrawal by the end of 1965.
@@ -2891,6 +3775,7 @@ entries:
   - id: cal.1962-07-23.legislatures-fl
     when: July 23
     date: '1962-07-23'
+    place: miami
     thread: legislatures
     also: [court]
     c: '*Sobel v. Adams*, Miami. A three-judge court holds Florida''s apportionment invidiously discriminatory: each of Dade County''s three representatives stands for 311,000 people, Gilchrist County''s for 2,868. Bryant calls a special session, July 24; it meets Aug. 1 and proposes an apportionment amendment for November. Sept. 5, the court finds the amendment a rational plan.'
@@ -2905,6 +3790,7 @@ entries:
   - id: cal.1962-07-23.legislatures-md
     when: July 23
     date: '1962-07-23'
+    place: maryland
     thread: legislatures
     c: Maryland's Court of Appeals upholds the State Senate, one Senator a county.
     n: 'Check: the report of the decision. Its history in [377 U.S. 656](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377656/usrep377656.pdf) (1964). See [[cal.1962-05-24.legislatures-md]].'
@@ -2950,6 +3836,7 @@ entries:
   - id: cal.1962-07-23.vietnam-2
     when: July 23
     date: '1962-07-23'
+    place: hawaii
     thread: vietnam
     c: 'McNamara''s news release at Camp H. M. Smith: "Our military assistance to Vietnam is paying off....The Vietnamese armed forces are carrying the war to the Viet Cong with greater initiative and frequency."'
     n: '[[w.mcnamara-in-retrospect]], ch. 2 at n.21. To check: news release, Camp H. M. Smith, July 23, 1962, *Public Statements of Robert S. McNamara*, 1962, IV, 1589 (cited by [[w.mcnamara-in-retrospect]], ch. 2 n.21). See [[cal.1962-07-23.vietnam]]. Names: McNamara.'
@@ -2983,6 +3870,7 @@ entries:
   - id: cal.1962-07-23.civil-rights-the-executive
     when: July 23
     date: '1962-07-23'
+    place: albany-ga
     thread: civil-rights-the-executive
     also: [georgia-albany]
     c: Albany's officials ask the FBI to investigate the enjoined leaders for the Wells march. Hoover will act only on the Department's direct order; his agents to tell each Negro questioned, King among them, that the criminal contempt inquiry is for the Attorney General. July 24, King gives the FBI an affidavit.
@@ -3004,6 +3892,7 @@ entries:
   - id: cal.1962-07-23.press-and-broadcasting-2
     when: July 23
     date: '1962-07-23'
+    place: nyc
     thread: press-and-broadcasting
     also: [georgia-albany]
     c: 'The *New York Times*, an editorial: "We are glad he [King] is not ... leading the Negroes of Albany, Ga., in defiance of a Federal court injunction. ... no one knows better than Dr. King that the Federal judiciary is a pillar of the constitutional safeguards his followers have so often been denied."'
@@ -3033,11 +3922,12 @@ entries:
     date: '1962-07-23'
     thread: china-leadership
     c: Zhou Enlai at the Secretariat, which takes up the draft report on grain for the Central work conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 490 (July 23, 1962). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 490 (July 23, 1962); [[w.yang-shangkun-riji]], II, 197 (July 23, 1962; 3 to 6 p.m., the Secretariat on "the grain question"; Zhou Enlai not named). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-07-23.china-leadership-3
     when: July 23
     date: '1962-07-23'
+    place: peking
     thread: china-leadership
     also: [china, middle-east]
     c: Peking Hotel. Zhou Enlai attends the national day reception given by the UAR Ambassador, Imam.
@@ -3077,6 +3967,33 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 319–320: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-07-23.china-leadership-5
+    when: July 23
+    date: '1962-07-23'
+    thread: china-leadership
+    c: Li Bozhao 李伯钊 operated on; Yang Shangkun 杨尚昆 sees her at 7 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 23, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-20.china-leadership-4]]. Names: Li Bozhao, Yang Shangkun.'
+    src:
+      c: 7ba6fb1b
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-07-23.china-leadership-6
+    when: July 23
+    date: '1962-07-23'
+    thread: china-leadership
+    c: Wang Yuming 王愈明 with Yang Shangkun 杨尚昆 on streamlining at Wuxi 无锡.
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 23, 1962). The words: 上午 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Yuming, Yang Shangkun.'
+    src:
+      c: 5b3dc8b3
+      rows:
+        - 'w.yang-shangkun-riji II, 197: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-22T22:00Z
+      - 1962-07-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-24.georgia-albany
     when: July 24
     date: '1962-07-24'
@@ -3250,6 +4167,19 @@ entries:
     c: Liu Shaoqi reaches Beidaihe.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 558 (July 24, 1962). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-07-24.china-leadership-3
+    when: July 24
+    date: '1962-07-24'
+    time: 1962-07-24T06:40Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 leaves Peking 北京 by train, 2:40 p.m., for Beidaihe 北戴河, there at 9 p.m.; Tian Chou 田畴 and Wu Zhenying 吴振英 meet him.
+    n: '[[w.yang-shangkun-riji]], II, 198 (July 24, 1962). The words: 2时10分到车站，40分开车……9时到达北戴河车站 (II, 198). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Chou, Wu Zhenying.'
+    src:
+      c: f1a312bf
+      rows:
+        - 'w.yang-shangkun-riji II, 198: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-25.georgia-albany
     when: July 25
     date: '1962-07-25'
@@ -3359,6 +4289,7 @@ entries:
   - id: cal.1962-07-25.voting-rights
     when: July 25
     date: '1962-07-25'
+    place: terrell-county-ga
     thread: voting-rights
     also: [georgia]
     c: 'Night. Terrell County, Ga., the Mount Olive Baptist Church: Sherrod''s registration meeting, thirty-eight Negroes and two white SNCC workers. Sheriff Z. T. Mathews and armed deputies burst in; from the pulpit he says no more than the 51 registered of the county''s 8,209 Negroes need be: "We want our colored people to go on living like they have for the last hundred years." Registration closed until December. The reporters'' tire slashed, sand in their tank.'
@@ -3390,6 +4321,7 @@ entries:
   - id: cal.1962-07.press-and-broadcasting-2
     when: July 25
     date: '1962-07-25'
+    place: nyc
     thread: press-and-broadcasting
     also: [vietnam]
     c: 'Bigart in the *New York Times*, closing a survey of the war: the insurgency''s destruction a long way off; the Ngôs better at alienating the people than winning them; aid to be reassessed, political reform stressed.'
@@ -3408,6 +4340,7 @@ entries:
   - id: cal.1962-07-25.china-leadership
     when: July 25
     date: '1962-07-25'
+    place: peking
     thread: china-leadership
     also: [china, latin-america]
     c: Peking, Xihuating. Zhou Enlai receives Renato Gaona and his wife; Gaona is a Chilean deputy and chairman of the Chamber's public works committee.
@@ -3449,9 +4382,37 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 321 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 321 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:chen-yun, vis:only:prc]
+  - id: cal.1962-07-25.china-leadership-4
+    when: July 25
+    date: '1962-07-25'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Lai Zulie 赖祖烈 and Deng Diantao 邓典桃 report the arrangements there to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 198 (July 25, 1962). The words: 上午 (II, 198). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Lai Zulie, Deng Diantao, Yang Shangkun.'
+    src:
+      c: 25596c7b
+      rows:
+        - 'w.yang-shangkun-riji II, 198: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-24T22:00Z
+      - 1962-07-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-25.china-leadership-5
+    when: July 25
+    date: '1962-07-25'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 calls on Zhu De 朱德.
+    n: '[[w.yang-shangkun-riji]], II, 198 (July 25, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhu De.'
+    src:
+      c: 207ec8dc
+      rows:
+        - 'w.yang-shangkun-riji II, 198: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-07-26.economy
     when: July 26
     date: '1962-07-26'
+    place: washington
     thread: economy
     c: 'Mills''s Ways and Means opens closed hearings on the state of the economy: some forty witnesses, most from business and finance, through Aug. 1 (Check). Most see no emergency calling for a tax cut before 1963. Not published.'
     n: 'Daily Digest, [108 Cong. Rec. D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=408) (July 26, 1962). [[w.stein-fiscal-revolution-in-america]], 428; [[w.zelizer-taxing-america]], 194–95 (the hearings in secret; Mills against a quick cut). To check: "Hopes for tax cut take setback," *Business Week*, Aug. 4, 1962, at 27–28; Mills, interview with Joseph O''Connor, Apr. 14, 1967, 9–11, Oral History Collection, JFK Library; Lee Preston to Heller, Aug. 7, 1962, Heller Papers, JFK Library; Heller to Kennedy, summaries of the Ways and Means testimony, July–Aug. 1962, President''s Office Files, JFK Library; "Ways and Means," [*New York Times*, July 29, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/29/issue.html) (cited by [[w.zelizer-taxing-america]], 194 nn.55–56). See [[cal.1962-05-28.economy]]. Names: Mills.'
@@ -3527,6 +4488,7 @@ entries:
   - id: cal.1962-07-26.defense
     when: July 26
     date: '1962-07-26'
+    place: washington
     thread: defense
     also: [congress]
     c: 'The House adopts the conference report on the Defense appropriation by voice vote, the Senate Aug. 1: $48,136,247,000, $515 million of it reappropriated; $58.8 million more for the Guard and Reserve; $362.6 million for the RS-70, against $171 million asked, $223.9 million in the House, $491 million in the Senate.'
@@ -3586,6 +4548,7 @@ entries:
   - id: cal.1962-07-26.china-leadership-2
     when: July 26
     date: '1962-07-26'
+    place: peking
     thread: china-leadership
     also: [china, japan]
     c: Peking, Xihuating. Zhou Enlai receives Deguchi Eiji, head of the Japanese Oomoto sect.
@@ -3628,6 +4591,46 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 323: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 323 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-07-26.china-leadership-4
+    when: July 26
+    date: '1962-07-26'
+    time: 1962-07-26T08:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河, 4 to 6 p.m. The Secretariat 书记处, with the regions' people, sets the conference's order of business; reported to Mao and Liu Shaoqi 刘少奇; Mao agrees.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 26, 1962). The words: 4时到6时 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi.'
+    src:
+      c: 3527becf
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-26.china-leadership-5
+    when: July 26
+    date: '1962-07-26'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Zhu De 朱德 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 26, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhu De, Yang Shangkun.'
+    src:
+      c: 6a6b1d21
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1962-07-26.china-leadership-6
+    when: July 26
+    date: '1962-07-26'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Ye Zilong 叶子龙 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 26, 1962). The words: 上午 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ye Zilong, Yang Shangkun.'
+    src:
+      c: 5c2991d0
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-25T22:00Z
+      - 1962-07-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-27.albany
     when: July 27
     date: '1962-07-27'
@@ -3650,6 +4653,7 @@ entries:
   - id: cal.1962-07-27.press-and-broadcasting
     when: July 27
     date: '1962-07-27'
+    place: nyc
     thread: press-and-broadcasting
     also: [voting-rights, georgia]
     c: 'Sitton''s story of the Terrell County meeting on the *New York Times*''s front page: "''We want our colored people to go on living like they have for the last hundred years,'' said Sheriff Z. T. Mathews of Terrell County." The President and the Attorney General read it.'
@@ -3776,6 +4780,7 @@ entries:
   - id: cal.1962-07-27.china-leadership-3
     when: July 27
     date: '1962-07-27'
+    place: peking
     thread: china-leadership
     also: [china, laos, vietnam-hanoi]
     c: Peking. Zhou Enlai goes to the airport to meet Chen Yi and his delegation, back from Geneva; Ưng Văn Khiêm, the DRV Foreign Minister, and Phoumi Vongvichit of the Laotian delegation arrive on the same plane.
@@ -3789,6 +4794,54 @@ entries:
       - 1962-07-26T22:00Z
       - 1962-07-27T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-27.china-leadership-4
+    when: July 27
+    date: '1962-07-27'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 at Zhu De's 朱德.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 27, 1962). The words: 上午早饭后 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhu De.'
+    src:
+      c: 70d6b153
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1962-07-26T22:00Z
+      - 1962-07-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-27.china-leadership-5
+    when: July 27
+    date: '1962-07-27'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 27, 1962). The words: 上午早饭后……天阴，下海游了一转 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: e2f96a25
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-26T22:00Z
+      - 1962-07-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-27.china-leadership-6
+    when: July 27
+    date: '1962-07-27'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Ren Baige 任白戈 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 27, 1962). The words: 下午 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ren Baige, Yang Shangkun.'
+    src:
+      c: b5fb1fc5
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-27T04:00Z
+      - 1962-07-27T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-07-28.georgia-albany
     when: July 28
@@ -3831,6 +4884,44 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 238: all'
     tags: [polity:prc, polity:mexico, polity:cuba, polity:venezuela, name:chen-yi]
+  - id: cal.1962-07-28.china-leadership-4
+    when: July 28
+    date: '1962-07-28'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Liao Zhigao 廖志高 with Yang Shangkun 杨尚昆 on Sichuan 四川.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 28, 1962; note 1: Liao Zhigao). The words: 下午 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liao Zhigao, Yang Shangkun.'
+    src:
+      c: 403695e1
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-28T04:00Z
+      - 1962-07-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-28.china-leadership-6
+    when: July 28
+    date: '1962-07-28'
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea in the morning and again at 5 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 199 (July 28, 1962). The words: 上午下海游泳……5时又下了一次海 (II, 199). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 7cef00b1
+      rows:
+        - 'w.yang-shangkun-riji II, 199: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-07-28.china-leadership-5
+    when: July 28
+    date: '1962-07-28'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 leaves Beidaihe 北戴河 by the night train, 12:30 a.m., to see Li Bozhao 李伯钊 in Peking 北京; there at 7 a.m. July 29.
+    n: '[[w.yang-shangkun-riji]], II, 199–200 (July 28, 1962). The words: 12时半上火车回北京……于上午7时到达北京 (II, 199–200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao.'
+    src:
+      c: f249a725
+      rows:
+        - 'w.yang-shangkun-riji II, 199–200: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-07-29.georgia-albany
     when: July 29
     date: '1962-07-29'
@@ -3866,6 +4957,48 @@ entries:
       rows:
         - 'w.branch-parting-the-waters 623: all'
     tags: [name:anderson-william-g, name:spivak-lawrence, state:ga, city:albany-ga]
+  - id: cal.1962-07-29.china-leadership
+    when: July 29
+    date: '1962-07-29'
+    time: 1962-07-29T07:00Z
+    thread: china-leadership
+    c: Peking Hospital 北京医院, 3 to 6 p.m. Yang Shangkun 杨尚昆 with Li Bozhao 李伯钊 and her doctors, Ji Suhua 计苏华 and Huang Shuze 黄树则.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 29, 1962). The words: 下午3时到6时 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Li Bozhao, Ji Suhua, Huang Shuze.'
+    src:
+      c: d4de626a
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-29.china-leadership-3
+    when: July 29
+    date: '1962-07-29'
+    thread: china-leadership
+    c: Zhang Yan 张彦 of the State Council's Foreign Affairs Office with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 29, 1962; note 1: Zhang Yan). The words: 上午 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Yan, Yang Shangkun.'
+    src:
+      c: e3054238
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-28T22:00Z
+      - 1962-07-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-29.china-leadership-2
+    when: July 29
+    date: '1962-07-29'
+    time: 1962-07-29T13:30Z
+    thread: china-leadership
+    c: Kong Yuan 孔原, Luo Qingchang 罗青长 and Feng Xuan 冯铉 with Yang Shangkun 杨尚昆, 9:30 p.m. to 12:30 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 29, 1962). The words: 9时半到12时半 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Luo Qingchang, Feng Xuan, Yang Shangkun.'
+    src:
+      c: d33e5395
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-30.republican-party
     when: July 30
     date: '1962-07-30'
@@ -3898,8 +5031,44 @@ entries:
     date: '1962-07-30'
     thread: china-leadership
     c: Zhou Enlai, by the Standing Committee's decision, calls the city work conference of 25 people and holds 17 sessions to Aug. 24; for the Center he drafts the directive on several current problems of city work.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (July 30–Aug. 24, 1962). Made public: 1997. To check: the directive as issued. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (July 30–Aug. 24, 1962); [[w.yang-shangkun-riji]], II, 200 (July 31, 1962; July 31, 9 to 11 a.m., Zhou presiding; Aug. 1 again; Yang Shangkun attends). Made public: 1997. To check: the directive as issued. Names: Zhou Enlai.'
+    src:
+      c: 6ac2a35f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 493: ?'
+        - 'w.yang-shangkun-riji II, 200: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-07-30.china-leadership-3
+    when: July 30
+    date: '1962-07-30'
+    time: 1962-07-30T01:45Z
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 back to Beidaihe 北戴河 by train, 9:45 a.m. to 4 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 30, 1962). The words: 9时45分乘火车……下午4时到达北戴河 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 38bc8fa5
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-30.china-leadership-4
+    when: July 30
+    date: '1962-07-30'
+    thread: china-leadership
+    follows:
+      - cal.1962-07-30.china-leadership-3
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea with his son.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 30, 1962). The words: 下午4时到达北戴河……随即同小二一起下海游泳 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 80d281ed
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-07-30T04:00Z
+      - 1962-07-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-31.transition-and-staff
     when: July 31
     date: '1962-07-31'
@@ -3926,6 +5095,7 @@ entries:
   - id: cal.1962-07-31.governors-ar
     when: July 31
     date: '1962-07-31'
+    place: arkansas
     thread: governors
     also: [elections-1962]
     c: 'Arkansas, Democratic primary for governor: Faubus over McMath, governor 1949–53, 208,996 to 83,473, 51.6 percent, a fifth nomination without a runoff; Dale Alford, a U.S. Representative, 82,815, 20.4 percent; three others.'
@@ -3941,6 +5111,7 @@ entries:
   - id: cal.1962-07-31.georgia-albany
     when: July 31
     date: '1962-07-31'
+    place: washington
     thread: georgia-albany
     c: Washington. Ten Senators see Burke Marshall to ask the Justice Department to act in Albany.
     n: '[[w.garrow-bearing-the-cross]], 212. To check: [*New York Times*, Aug. 1, 1962](https://timesmachine.nytimes.com/timesmachine/1962/08/01/issue.html), at 63 (cited by [[w.garrow-bearing-the-cross]], 212 n.39). See [[cal.1961-11-17.albany]]. Names: Marshall.'
@@ -3986,6 +5157,7 @@ entries:
   - id: cal.1962-07-31.soviet-union
     when: July 31
     date: '1962-07-31'
+    place: washington
     thread: soviet-union
     also: [robert-kennedy, berlin-and-vienna, missile-crisis]
     c: The President has Robert Kennedy bring Bolshakov to the White House, on Moscow's request that American planes stop photographing Soviet ships in open waters. Kennedy will order a halt; in return the Berlin issue "on ice."
@@ -4138,6 +5310,7 @@ entries:
   - id: cal.1962-07-31.elections-1962
     when: July 31
     date: '1962-07-31'
+    place: arkansas
     thread: elections-1962
     c: 'Arkansas, Democratic primary for the Senate: Fulbright over Winston G. Chandler, by two to one. Kenneth G. Jones unopposed for the Republicans.'
     n: '[[w.woods-fulbright]], 299. Check: the count; Woods gives the margin only, and no day (the primary of [[cal.1962-07-31.governors-ar]]). Names: Fulbright.'
@@ -4207,6 +5380,7 @@ entries:
   - id: cal.1962-07-31.transportation
     when: July 31
     date: '1962-07-31'
+    place: washington
     thread: transportation
     c: The Senate Commerce Committee hears Alan S. Boyd on his nomination as a member of the Civil Aeronautics Board.
     n: '*Sundry Nominations: Hearings Before the S. Comm. on Commerce*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg91496)), 187. Names: Boyd.'
@@ -4284,6 +5458,7 @@ entries:
   - id: cal.1962-07-31.desegregation-schools
     when: July 31
     date: '1962-07-31'
+    place: chicago
     thread: desegregation-schools
     c: 'Chicago. Federal District Judge Julius J. Hoffman dismisses *Webb*: the plaintiffs have not exhausted Illinois''s administrative remedies. Hoffman: "Chicago cannot deny the existence of de facto segregation, or excuse it on the pretext of a benign indifference."'
     n: '[[w.anderson-confronting-the-color-line]], 85, 92. See [[cal.1961-09-18.desegregation-schools]].'
@@ -4539,3 +5714,29 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 439 n.60b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 439 n.60c: all'
     tags: [polity:prc, name:jiang-qing, vis:only:prc]
+  - id: cal.1962-07-31.china-leadership-4
+    when: July 31
+    date: '1962-07-31'
+    time: 1962-07-31T08:00Z
+    thread: china-leadership
+    c: Beidaihe 北戴河, 4 to 7 p.m. Zhou Enlai 周恩来 presides at the Streamlining Group 精简小组.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 31, 1962). The words: 下午4时到7时 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai.'
+    src:
+      c: 2a32934a
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-31.china-leadership-5
+    when: July 31
+    date: '1962-07-31'
+    time: 1962-07-31T03:30Z
+    thread: china-leadership
+    c: Beidaihe 北戴河. Yang Shangkun 杨尚昆 swims in the sea, 11:30 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 200 (July 31, 1962). The words: 11时半下海 (II, 200). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: eb3b08a8
+      rows:
+        - 'w.yang-shangkun-riji II, 200: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai

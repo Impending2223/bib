@@ -6,6 +6,7 @@ entries:
   - id: cal.1962-10-01.mississippi
     when: Oct. 1
     date: '1962-10-01'
+    place: oxford-ms
     thread: mississippi-ole-miss
     also: [right-and-the-military, desegregation-schools]
     c: Meredith registers. Troops in Oxford. Walker arrested for insurrection; sent for psychiatric examination.
@@ -73,6 +74,7 @@ entries:
   - id: cal.1962-10-01.mississippi-ole-miss
     when: Oct. 1
     date: '1962-10-01'
+    place: washington
     thread: mississippi-ole-miss
     also: [congress]
     c: 'The Senate after the riot. Ervin deplores it, but those "fomenting litigation" might meditate on St. Paul: "All things are lawful unto me, but all things are not expedient." Stephen Young: "There just cannot be any compromise on civil rights." Javits: "reckless defiance of the law only breeds anarchy."'
@@ -202,6 +204,7 @@ entries:
   - id: cal.1962-10-01.china
     when: Oct. 1
     date: '1962-10-01'
+    place: peking
     thread: china
     c: Peking, Tiananmen, 10 a.m. Mao Zedong, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others, at the rally for the People's Republic's thirteenth anniversary; reviews the parade. Watches the fireworks from the gate tower at night.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. [[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 上午, 天安门城楼). Names: Mao Zedong, Zhou Enlai.'
@@ -234,6 +237,7 @@ entries:
     when: Oct. 1
     date: '1962-10-01'
     time: 1962-10-01T10:00Z
+    place: cadenabbia
     thread: european-community
     also: [europe-and-the-alliance]
     c: Cadenabbia, 11 a.m. Adenauer receives Heath. Fanfani's ideas of the Franco-German tie wrong; de Gaulle and he want the two peoples bound so close that no French government could go with Russia against Germany, nor a German one against France. On British entry he had spoken with de Gaulle once, last winter. German farming and textiles; the Common Market's "bittere Früchte" (bitter fruits).
@@ -249,6 +253,7 @@ entries:
   - id: cal.1962-10-01.china-leadership-2
     when: Oct. 1
     date: '1962-10-01'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Peking, Tiananmen. Zhou Enlai watches with the Party and state leaders the million-strong celebration and the fireworks, and receives foreign friends.
@@ -263,9 +268,39 @@ entries:
       - 1962-10-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-01.china-leadership-3
+    when: Oct. 1
+    date: '1962-10-01'
+    time: 1962-10-01T02:00Z
+    thread: china-leadership
+    c: Tiananmen 天安门, 10 a.m. to noon. Yang Shangkun 杨尚昆 on the gate for the National Day review.
+    n: '[[w.yang-shangkun-riji]], II, 212 (Oct. 1, 1962). The words: 10时到12时 (II, 212). Names: Yang Shangkun.'
+    src:
+      c: 62ff47f3
+      rows:
+        - 'w.yang-shangkun-riji II, 212: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-01.china-leadership-4
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: china-leadership
+    c: Tiananmen 天安门, evening. Yang Shangkun 杨尚昆 and his family on the gate; Mao 毛泽东 receives the foreign guests there.
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 1, 1962). The words: 晚间……我们9时回 (II, 213). Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: e28df99c
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, name:mao-zedong]
+    time_range:
+      - 1962-10-01T11:00Z
+      - 1962-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
+    place: cleveland
     thread: mayors
     also: [elections-1962]
     c: Cleveland, Democratic primary for the rest of Celebrezze's term. Locher over Mark McElroy, the attorney general, who had lost the primary for governor in May.
@@ -341,6 +376,7 @@ entries:
     when: Oct. 2
     date: '1962-10-02'
     time: 1962-10-02T11:00Z
+    place: cadenabbia
     thread: europe-and-the-alliance
     also: [european-community]
     c: 'Cadenabbia, noon. Adenauer receives McGeorge Bundy with Dowling, the American Ambassador. America must lead; Khrushchev a convinced Communist; Soviet power grown enormously in ten years; Khrushchev afraid of America, and more of Red China; America should help Red China a little. De Gaulle''s reserve toward NATO, in confidence: put his generals under NATO and he would no longer have them in hand.'
@@ -349,6 +385,7 @@ entries:
   - id: cal.1962-10-02.china-leadership
     when: Oct. 2
     date: '1962-10-02'
+    place: peking
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai goes to the airport to see off Hartini Sukarno.
@@ -367,6 +404,7 @@ entries:
     when: Oct. 2
     date: '1962-10-02'
     time: 1962-10-02T02:50Z
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking, Xihuating. Zhou Enlai receives the Somali government's cultural delegation headed by Ali Mohamed Hirave, Minister of Information.
@@ -381,6 +419,7 @@ entries:
     when: Oct. 2
     date: '1962-10-02'
     time: 1962-10-02T04:25Z
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: 'Peking, Xihuating. Zhou Enlai receives the Tanganyikan cultural friendship delegation headed by Bwiko, central executive secretary of the Tanganyika African National Union, and says that clearing out imperialism''s legacy goes step by step: after 13 years some traces remain in China, above all in the economy; to throw off a colonial economy takes time, agriculture must be modernized to raise living standards and support industrialization, and culture and science raised; reliance on one''s own effort is the chief side, international solidarity of the oppressed of Asia, Africa and Latin America the other.'
@@ -395,6 +434,7 @@ entries:
   - id: cal.1962-10-02.china-leadership-4
     when: Oct. 2
     date: '1962-10-02'
+    place: peking
     thread: china-leadership
     also: [china, africa]
     c: Peking Hotel. Zhou Enlai attends the national day reception given by the Guinean Embassy.
@@ -408,6 +448,19 @@ entries:
       - 1962-10-02T11:00Z
       - 1962-10-02T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-02.china-leadership-5
+    when: Oct. 2
+    date: '1962-10-02'
+    time: 1962-10-02T02:00Z
+    thread: china-leadership
+    c: Nanyuan airfield 南苑机场, 10 to 11:30 a.m. Yang Shangkun 杨尚昆 and his family see the U-2 shot down.
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 2, 1962). The words: 上午10时……11时半回家 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-09-09.china]]. Names: Yang Shangkun.'
+    src:
+      c: 25ad1ce2
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-03.space
     when: Oct. 3
@@ -432,6 +485,7 @@ entries:
   - id: cal.1962-10-03.conservation
     when: Oct. 3
     date: '1962-10-03'
+    place: washington
     thread: conservation
     c: Aspinall files House Interior's report on the wilderness bill, on the eve of adjournment; the bill dies with the 87th Congress.
     n: '[[w.bernstein-guns-or-butter]], 277. The House sat from noon to 8:29 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D605](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=603). See [[cal.1962-08-30.conservation]]. Names: Aspinall.'
@@ -492,6 +546,7 @@ entries:
   - id: cal.1962-10-03.china-leadership
     when: Oct. 3
     date: '1962-10-03'
+    place: peking
     thread: china-leadership
     also: [china, south-asia, trade]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the new China–Ceylon trade agreement and the agreement on economic and technical cooperation.
@@ -517,6 +572,38 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 420–421: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:mongolia]
+  - id: cal.1962-10-03.china-leadership-3
+    when: Oct. 3
+    date: '1962-10-03'
+    thread: china-leadership
+    c: Li Fuchun's 李富春 meeting on the arrangement of work; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 3, 1962). The words: 上午 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
+    src:
+      c: 1ade93f1
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1962-10-02T22:00Z
+      - 1962-10-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-03.china-leadership-4
+    when: Oct. 3
+    date: '1962-10-03'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 prepares the General Office's meeting of the next day, to relay the Tenth Plenum.
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 3, 1962). The words: 下午准备明日开办公厅会议，传达八届十中全会 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 5beac2c5
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-03T04:00Z
+      - 1962-10-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-04.middle-east-johnson-plan
     when: Oct. 4
     date: '1962-10-04'
@@ -572,6 +659,7 @@ entries:
   - id: cal.1962-10-04.soviet-union
     when: Oct. 4
     date: '1962-10-04'
+    place: washington
     thread: soviet-union
     also: [missile-crisis]
     c: 'Bolshakov, back from Moscow with a verbal message from Khrushchev, with Robert Kennedy at the Justice Department; again Oct. 6. Robert Kennedy, cool, formal: "It''s like this, Georgie. The President is very busy right now."'
@@ -625,6 +713,7 @@ entries:
   - id: cal.1962-10-04.transition-and-staff
     when: Oct. 4
     date: '1962-10-04'
+    place: washington
     thread: transition-and-staff
     c: 'The Senate Commerce Committee hears nominees: Ashton C. Barrett, a member of the Federal Maritime Commission; A. Leon Higginbotham Jr., a member of the Federal Trade Commission.'
     n: '*Sundry Nominations: Hearings Before the S. Comm. on Commerce*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg91496)), 219 (Higginbotham), 222 (Barrett). Names: Barrett, Higginbotham.'
@@ -670,6 +759,7 @@ entries:
   - id: cal.1962-10-04.china-leadership
     when: Oct. 4
     date: '1962-10-04'
+    place: peking
     thread: china-leadership
     also: [china, south-asia, trade]
     c: Peking Hotel. Zhou Enlai attends the farewell luncheon given by Illangaratne, Ceylon's Minister of Commerce and Trade.
@@ -696,6 +786,61 @@ entries:
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 306–07: all'
     tags: [polity:india]
+  - id: cal.1962-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1962-10-04'
+    time: 1962-10-04T01:00Z
+    thread: china-leadership
+    c: The General Office's meeting 办公厅会议, 9 a.m. to noon; Yang Shangkun 杨尚昆 relays the Tenth Plenum.
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 4, 1962). The words: 上午9时到12时 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 2883a043
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-04.china-leadership-5
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    c: Six of the Youth League's Secretariat with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 4, 1962). The words: 上午9时到12时，办公厅会议……与青年团书记处六位同志谈话 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 451abf18
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-03T22:00Z
+      - 1962-10-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-04.china-leadership-3
+    when: Oct. 4
+    date: '1962-10-04'
+    time: 1962-10-04T07:30Z
+    thread: china-leadership
+    c: 'The Secretariat 书记处, 3:30 to 6:30 p.m., on the arrangement of work; Zhou Enlai 周恩来 there: to take hold of work; the 1963 plan first arranged at 7 billion yuan; losses and output; output and construction; relaying the Tenth Plenum.'
+    n: '[[w.yang-shangkun-riji]], II, 213 (Oct. 4, 1962). The words: 下午3时半到6时半 (II, 213). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-09-28.china-leadership-3]]. Names: Zhou Enlai.'
+    src:
+      c: 734d765e
+      rows:
+        - 'w.yang-shangkun-riji II, 213: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-04.china-leadership-4
+    when: Oct. 4
+    date: '1962-10-04'
+    time: 1962-10-04T13:00Z
+    thread: china-leadership
+    c: Gong Zirong 龚子荣, Zheng Siyuan 郑思远, Liu Xu 刘旭 and Liu Huo 刘火 with Yang Shangkun 杨尚昆, 9 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 214 (Oct. 4, 1962; note 2: Zheng Siyuan, Liu Xu). The words: 晚9时 (II, 214). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Zheng Siyuan, Liu Xu, Liu Huo, Yang Shangkun.'
+    src:
+      c: f8f8f1b7
+      rows:
+        - 'w.yang-shangkun-riji II, 214: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-05.georgia-ga
     when: Oct. 5
     date: '1962-10-05'
@@ -762,6 +907,7 @@ entries:
   - id: cal.1962-10-05.immigration
     when: Oct. 5
     date: '1962-10-05'
+    place: washington
     thread: immigration
     also: [confirmations]
     c: 'Schwartz becomes Assistant Secretary of State, the Senate approving with one vote in dissent. Kennedy wants an "open society": the national origins quotas ended, hostile aliens free to visit, Americans to travel anywhere but in war, refugees welcomed.'
@@ -791,6 +937,7 @@ entries:
   - id: cal.1962-10-05.berlin-and-vienna
     when: Oct. 5
     date: '1962-10-05'
+    place: washington
     thread: berlin-and-vienna
     also: [congress]
     c: 'The House passes the concurrent resolution on Berlin, 311 to 0: "whatever means may be necessary" to defend the Allied rights in West Berlin. The Senate adopts it by voice vote, Oct. 10.'
@@ -896,9 +1043,42 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 244: all'
     tags: [polity:prc, polity:nlf, polity:us]
+  - id: cal.1962-10-05.china-leadership-2
+    when: Oct. 5
+    date: '1962-10-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 sends out several of the Tenth Plenum's documents.
+    n: '[[w.yang-shangkun-riji]], II, 214 (Oct. 5, 1962). The words: 上午 (II, 214). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 003b0013
+      rows:
+        - 'w.yang-shangkun-riji II, 214: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-04T22:00Z
+      - 1962-10-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-05.china-leadership-3
+    when: Oct. 5
+    date: '1962-10-05'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆 with Tao Zhu 陶铸, by telephone, on his talk with Feng Baiju 冯白驹.
+    n: '[[w.yang-shangkun-riji]], II, 214 (Oct. 5, 1962; note 3: Feng Baiju). The words: 上午 (II, 214). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-09-30.china-leadership-12]]. Names: Yang Shangkun, Tao Zhu, Feng Baiju.'
+    src:
+      c: 5fea07be
+      rows:
+        - 'w.yang-shangkun-riji II, 214: all'
+    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    time_range:
+      - 1962-10-04T22:00Z
+      - 1962-10-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-06.governors-hi
     when: Oct. 6
     date: '1962-10-06'
+    place: hawaii
     thread: governors
     also: [elections-1962]
     c: 'Hawaii''s primary, for governor. Republican: Governor Quinn over Kealoha, the lieutenant governor, 44,205 to 33,272, 57.1 percent. Democratic: Burns, once Delegate to Congress, over Greenstein, 71,540 to 7,781, 90.2 percent.'
@@ -932,6 +1112,7 @@ entries:
   - id: cal.1962-10-06.mississippi-ole-miss
     when: Oct. 6
     date: '1962-10-06'
+    place: milwaukee
     thread: mississippi-ole-miss
     also: [robert-kennedy]
     c: 'Milwaukee, a testimonial dinner for Wisconsin''s Attorney General, John Reynolds. Robert Kennedy: the individual "circumscribed by impersonal powers," yet "so much that a single person can do with faith and courage"; Schirra; "James Meredith, brought to a head and lent his name to another chapter in the mightiest internal struggle of our time." The marshals, the troopers from Oxford.'
@@ -1048,6 +1229,35 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 423 n.2a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 424 n.2b: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, polity:gdr]
+  - id: cal.1962-10-06.china-leadership-5
+    when: Oct. 6
+    date: '1962-10-06'
+    time: 1962-10-06T07:00Z
+    thread: china-leadership
+    c: Li Fuchun 李富春, then Tan Zhenlin 谭震林, with Yang Shangkun 杨尚昆, 3 to 6 p.m., on organizing the State Council's Seventh Office 七办; the appointments not yet settled.
+    n: '[[w.yang-shangkun-riji]], II, 214 (Oct. 6, 1962; notes 1, 4: Tan Zhenlin; the Seventh Office). The words: 下午3时到6时 (II, 214). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Tan Zhenlin, Yang Shangkun.'
+    src:
+      c: 2fa5cdac
+      rows:
+        - 'w.yang-shangkun-riji II, 214: all'
+    tags: [polity:prc, name:li-fuchun, name:tan-zhenlin, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-06.china-leadership-6
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 214 (Oct. 6, 1962). The words: 晚间……约田家英同志谈话 (II, 214). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    src:
+      c: 09baff31
+      rows:
+        - 'w.yang-shangkun-riji II, 214: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-06T11:00Z
+      - 1962-10-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-07.soviet-union
     when: Oct. 7
     date: '1962-10-07'
@@ -1110,6 +1320,22 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 374: all'
     tags: [polity:prc, name:zhou-enlai, name:chen-boda, name:li-xiannian, vis:only:prc]
+  - id: cal.1962-10-07.china-leadership-4
+    when: Oct. 7
+    date: '1962-10-07'
+    thread: china-leadership
+    c: Xiangshan 香山. Yang Shangkun 杨尚昆 and his family climb to see the red leaves, higher than before; they meet Zhu De 朱德.
+    n: '[[w.yang-shangkun-riji]], II, 214 (Oct. 7, 1962). The words: 上午同全家……去香山看红叶，遇见朱总……比往日去爬的更高些……1时回中南海 (II, 214). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhu De.'
+    src:
+      c: 4aa7a399
+      rows:
+        - 'w.yang-shangkun-riji II, 214: all'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1962-10-06T22:00Z
+      - 1962-10-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-08.middle-east
     when: Oct. 8
     date: '1962-10-08'
@@ -1128,6 +1354,7 @@ entries:
   - id: cal.1962-10-08.vietnam-force-levels
     when: Oct. 8
     date: '1962-10-08'
+    place: honolulu
     thread: vietnam-force-levels
     also: [vietnam]
     c: 'Honolulu. McNamara''s conference on Vietnam with Harkins and Nolting. A B-26 unit flown by Vietnamese into action; the Vietnamese air force expanded as fast as possible. McNamara: more American pilots "will be received coolly"; the aim "to reduce, not increase, our own combat role." Harkins''s "explosive" operation. No time for his plan to phase the Americans out.'
@@ -1290,6 +1517,7 @@ entries:
     when: Oct. 8
     date: '1962-10-08'
     time: 1962-10-08T03:30Z
+    place: peking
     thread: china-leadership
     also: [china, congo, africa]
     c: Peking, Xihuating. Zhou Enlai receives the former lawful Congolese government's ambassador-at-large and its former chargé d'affaires at Cairo, Bengila.
@@ -1324,6 +1552,38 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 337–38: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.25: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-10-08.china-leadership-3
+    when: Oct. 8
+    date: '1962-10-08'
+    thread: china-leadership
+    c: Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 215 (Oct. 8, 1962). The words: 上午 (II, 215). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Yang Shangkun.'
+    src:
+      c: '59355767'
+      rows:
+        - 'w.yang-shangkun-riji II, 215: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-07T22:00Z
+      - 1962-10-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-08.china-leadership-4
+    when: Oct. 8
+    date: '1962-10-08'
+    thread: china-leadership
+    c: Wang Congwu 王从吾 with Yang Shangkun 杨尚昆 on the Higher Party School.
+    n: '[[w.yang-shangkun-riji]], II, 215 (Oct. 8, 1962). The words: 下午 (II, 215). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Congwu, Yang Shangkun.'
+    src:
+      c: 742d4a1d
+      rows:
+        - 'w.yang-shangkun-riji II, 215: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-08T04:00Z
+      - 1962-10-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-09.missile-crisis
     when: Oct. 9
     date: '1962-10-09'
@@ -1370,6 +1630,7 @@ entries:
   - id: cal.1962-10-09.missile-crisis-2
     when: Oct. 9
     date: '1962-10-09'
+    place: havana
     thread: missile-crisis-anadyr
     also: [cuba]
     c: Havana. Castro with Alekseyev, the Soviet Ambassador, on his campaign to prepare Cubans to accept Soviet missiles.
@@ -1412,6 +1673,35 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 374: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-10-09.china-leadership-3
+    when: Oct. 9
+    date: '1962-10-09'
+    time: 1962-10-09T01:00Z
+    thread: china-leadership
+    c: The Streamlining Group 精简小组, 9 a.m. to noon, on the streamlining in the Center's and State Council's "Directive on some current problems of city work" 《关于当前城市工作若干问题的指示》.
+    n: '[[w.yang-shangkun-riji]], II, 215 (Oct. 9, 1962). The words: 上午9时到12时 (II, 215). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-30.china-leadership-2]].'
+    src:
+      c: 4a015f0f
+      rows:
+        - 'w.yang-shangkun-riji II, 215: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-09.china-leadership-4
+    when: Oct. 9
+    date: '1962-10-09'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆, to 1 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 215 (Oct. 9, 1962). The words: 晚间……到1时才完 (II, 215). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 122931f7
+      rows:
+        - 'w.yang-shangkun-riji II, 215: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-09T11:00Z
+      - 1962-10-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-10.program
     when: Oct. 10
     date: '1962-10-10'
@@ -1430,6 +1720,7 @@ entries:
     when: Oct. 10
     date: '1962-10-10'
     time: 1962-10-10T16:00Z
+    place: washington
     thread: africa
     c: Sékou Touré of Guinea at the White House, after his speech at the UN on falling prices for raw materials. Kennedy cites American support of the UN against Katanga's secession; Touré asks aid in several forms.
     n: 'Remarks of Welcome to President Sekou Toure of Guinea at the Washington National Airport, [1962 Pub. Papers 752](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=812) (Oct. 10, 1962). FRUS 1961–63, XXI, docs. [263](https://history.state.gov/historicaldocuments/frus1961-63v21/d263), [264](https://history.state.gov/historicaldocuments/frus1961-63v21/d264), [265](https://history.state.gov/historicaldocuments/frus1961-63v21/d265). To check: [[w.attwood-twilight-struggle]]; [[w.muehlenbeck-betting-on-the-africans]]. Names: Touré.'
@@ -1437,6 +1728,7 @@ entries:
   - id: cal.1962-10-10.missile-crisis
     when: Oct. 10
     date: '1962-10-10'
+    place: washington
     thread: missile-crisis-warnings
     also: [republican-party-congress]
     c: 'Keating claims "100 percent reliable" evidence from exiles that nuclear missile bases are under construction in Cuba. In the Senate: "Construction has begun on at least a half dozen launching sites for intermediate range tactical missiles," operational "within 6 months." Kennedy to Reston: "Keating''s a nut."'
@@ -1478,6 +1770,7 @@ entries:
     when: Oct. 10
     date: '1962-10-10'
     time: 1962-10-10T09:15Z
+    place: peking
     thread: china
     c: 'Zhongnanhai, the Yinian Tang, afternoon. Mao Zedong receives Cambodia''s departing ambassador (兰·涅特 in the Chinese); Zhou Enlai present. Mao: China and Cambodia friends, each supporting the other; Cambodia''s struggle under Prince Sihanouk right, and much of the world behind it; "你们会胜利的" (you will win).'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 10, 1962. [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 10, 1962; 下午5时15分, 中南海颐年堂, 陪同毛泽东主席会见). Made public: Check (the words; 2013 at the latest). Names: Mao Zedong, Zhou Enlai, Norodom Sihanouk. Check: the ambassador''s name in Khmer or French.'
@@ -1557,6 +1850,34 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 307 n.60a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 307 n.60d: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-10-10.china-leadership-3
+    when: Oct. 10
+    date: '1962-10-10'
+    thread: china-leadership
+    c: Li Jian 李鉴 and Cui Yaozhang 崔耀章 with Yang Shangkun 杨尚昆 on Ma Zhijiang 马之江 of the General Office's secretariat.
+    n: '[[w.yang-shangkun-riji]], II, 215 (Oct. 10, 1962; note 1: Ma Zhijiang). The words: 上午 (II, 215). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Jian, Cui Yaozhang, Yang Shangkun, Ma Zhijiang.'
+    src:
+      c: 989e7ff6
+      rows:
+        - 'w.yang-shangkun-riji II, 215: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-09T22:00Z
+      - 1962-10-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-10.china-leadership-4
+    when: Oct. 10
+    date: '1962-10-10'
+    thread: china-leadership
+    also: [korea]
+    c: Yang Shangkun 杨尚昆 with Tong Xiaopeng 童小鹏, by telephone; the Streamlining Group's plan of the day before has gone to Zhou Enlai 周恩来; they fly to Korea the next day.
+    n: '[[w.yang-shangkun-riji]], II, 215 (Oct. 10, 1962). The words: 办公……到1时回家。与童小鹏通电话 (II, 215). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tong Xiaopeng, Zhou Enlai.'
+    src:
+      c: 3b50c312
+      rows:
+        - 'w.yang-shangkun-riji II, 215: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-10-11.trade
     when: Oct. 11
     date: '1962-10-11'
@@ -1580,6 +1901,7 @@ entries:
   - id: cal.1962-10-11.mississippi-ole-miss
     when: Oct. 11
     date: '1962-10-11'
+    place: oxford-ms
     thread: mississippi-ole-miss
     also: [defense]
     c: 'Night. Some ten thousand troops at Oxford turn out for a riot alarm: a sorority''s serenade. Some 23,000 soldiers in the town at the peak; the last five hundred leave late in the summer of 1963.'
@@ -1598,6 +1920,7 @@ entries:
   - id: cal.1962-10-11.south-asia
     when: Oct. 11
     date: '1962-10-11'
+    place: moscow
     thread: south-asia
     also: [soviet-union, china]
     c: 'The Presidium: Moscow to back Peking''s territorial claims on the border with India.'
@@ -1620,6 +1943,7 @@ entries:
   - id: cal.1962-10-11.europe-and-the-alliance
     when: Oct. 11
     date: '1962-10-11'
+    place: washington
     thread: europe-and-the-alliance
     c: A Defense Policy Conference in Washington, at McNamara's suggestion, with Rusk, Finletter, Lemnitzer and Taylor; studies commissioned, among them how long the forces could resist; no direct attack on MC 14/2. Finletter to Rusk, of the directive of Apr. 21, 1961, "we have made very little progress."
     n: '[[w.poole-joint-chiefs-of-staff]], 192. Names: McNamara, Rusk, Finletter, Lemnitzer, Taylor.'
@@ -1685,10 +2009,11 @@ entries:
     when: Oct. 11–13
     date: '1962-10-11'
     time: 1962-10-11T09:00Z
+    place: pyongyang
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai in Korea, Oct. 11–13: talks with Kim Il Sung on China''s domestic situation, the Sino-Indian and Sino-Mongolian border questions, and Sino-Korean trade. He flies back to Peking Oct. 13.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 11–13, 1962); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 11, 1962; 晚6时, 平壤朝鲜内阁办公大楼, with Chen Yi); [[w.zhou-enlai-waijiao-huodong]], 337–38 (Oct. 12, 1962; 上午10时, 平壤牡丹峰宾馆); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 246 (Oct. 11–12, 1962; Zhou and Chen Yi hold talks at Pyongyang with Premier Kim Il Sung; Zhou briefs Kim on the Sino-Indian boundary and other matters). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 11–13, 1962); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 11, 1962; 晚6时, 平壤朝鲜内阁办公大楼, with Chen Yi); [[w.zhou-enlai-waijiao-huodong]], 337–38 (Oct. 12, 1962; 上午10时, 平壤牡丹峰宾馆); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 246 (Oct. 11–12, 1962; Zhou and Chen Yi hold talks at Pyongyang with Premier Kim Il Sung; Zhou briefs Kim on the Sino-Indian boundary and other matters); [[w.yang-shangkun-riji]], II, 216 (Oct. 11, 1962; Zhou Enlai and Chen Yi fly to Pyongyang Oct. 11, not publicly, to sign the boundary agreement; back Oct. 13; note 1: the two). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: cd2adcfa
       rows:
@@ -1696,6 +2021,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 337: A'
         - 'w.zhou-enlai-waijiao-huodong 337–38: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 246: A'
+        - 'w.yang-shangkun-riji II, 216: A'
     tags: [polity:prc, polity:dprk, polity:india, polity:mongolia, name:zhou-enlai, name:kim-il-sung, vis:only:prc+dprk]
     time_zone: Asia/Pyongyang
   - id: cal.1962-10-11.china-2
@@ -1713,6 +2039,7 @@ entries:
   - id: cal.1962-10-11.south-asia-2
     when: Oct. 11
     date: '1962-10-11'
+    place: new-delhi
     thread: south-asia
     c: New Delhi, evening. Nehru and General Kaul, flown back from the front, agree neither to build up for an attack on the Chinese nor to fall back to safer positions, but to hold the line.
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 307–08. Made public: 1970. To check: [[w.maxwell-indias-china-war]], 369–71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 308 n.61). See [[cal.1962-10-10.south-asia]]. Names: Jawaharlal Nehru.'
@@ -1738,6 +2065,54 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 373: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-10-11.china-leadership-3
+    when: Oct. 11
+    date: '1962-10-11'
+    thread: china-leadership
+    c: Jia Bubin 贾步彬 reports to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 11, 1962). The words: 上午 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Jia Bubin, Yang Shangkun.'
+    src:
+      c: ebccad4a
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-10T22:00Z
+      - 1962-10-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-11.china-leadership-4
+    when: Oct. 11
+    date: '1962-10-11'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 11, 1962). The words: 下午 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-11T04:00Z
+      - 1962-10-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-11.china-leadership-5
+    when: Oct. 11
+    date: '1962-10-11'
+    thread: china-leadership
+    c: Zou Dapeng 邹大鹏 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 11, 1962). The words: 晚间 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zou Dapeng, Yang Shangkun.'
+    src:
+      c: 26e826e9
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-11T11:00Z
+      - 1962-10-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-12.latin-america-panama
     when: Oct. 12
     date: '1962-10-12'
@@ -1769,6 +2144,7 @@ entries:
   - id: cal.1962-10-12.press-and-broadcasting
     when: Oct. 12
     date: '1962-10-12'
+    place: nyc
     thread: press-and-broadcasting
     also: [missile-crisis]
     c: 'Reston''s column in the *New York Times*: the Cuban controversy something other than the platforms'' choice between invading or blockading and "doing nothing."'
@@ -1804,6 +2180,7 @@ entries:
   - id: cal.1962-10-12.soviet-union-leadership
     when: Oct. 12
     date: '1962-10-12'
+    place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 58, continued from Oct. 11, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Ilyichev, Shelepin.'
     n: '[[w.prezidium-tsk-kpss-1954]], I, 596–616 (Protocol 58, continued, Malin''s notes, 596–97; the uncorrected stenogram of items I, III and IV, 597–616); I, 1107 n.6 (those present); III, 318–35 (P 58/I, III and IV); III, 1006–07 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Shelepin.'
@@ -1817,6 +2194,7 @@ entries:
   - id: cal.1962-10-12.china-leadership
     when: Oct. 12
     date: '1962-10-12'
+    place: pyongyang
     thread: china-leadership
     also: [china, korea]
     c: Pyongyang. Zhou Enlai attends the signing of the China–Korea boundary treaty.
@@ -1857,6 +2235,32 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.61: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.62: all'
     tags: [polity:india, polity:prc, name:nehru-jawaharlal]
+  - id: cal.1962-10-12.china-leadership-2
+    when: Oct. 12
+    date: '1962-10-12'
+    time: 1962-10-12T01:30Z
+    thread: china-leadership
+    c: The Sanzuomen 三座门, 9:30 a.m. to noon. The nine-man group 九人小组 meets; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 12, 1962). The words: 上午9时半到12时 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 634d0917
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-12.china-leadership-3
+    when: Oct. 12
+    date: '1962-10-12'
+    time: 1962-10-12T07:30Z
+    thread: china-leadership
+    c: The Secretariat 书记处, 3:30 to 6 p.m., on the arrangement of work.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 12, 1962). The words: 下午3时半到6时 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-10-04.china-leadership-3]].'
+    src:
+      c: cf449f3d
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-13.congress
     when: Oct. 13
     date: '1962-10-13'
@@ -1937,6 +2341,51 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 246: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-10-13.china-leadership
+    when: Oct. 13
+    date: '1962-10-13'
+    time: 1962-10-13T07:00Z
+    thread: china-leadership
+    c: The Streamlining Group 精简小组, 3 to 6 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 13, 1962). The words: 下午3时到6时 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 9258e25f
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-13.china-leadership-2
+    when: Oct. 13
+    date: '1962-10-13'
+    thread: china-leadership
+    c: Deng Diantao 邓典桃 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 13, 1962). The words: 上午 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Diantao, Yang Shangkun.'
+    src:
+      c: 3786dfc2
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-12T22:00Z
+      - 1962-10-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-13.china-leadership-3
+    when: Oct. 13
+    date: '1962-10-13'
+    thread: china-leadership
+    c: Feng Xuan 冯铉 and Luo Qingchang 罗青长 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 13, 1962). The words: 晚间看了电影后 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Feng Xuan, Luo Qingchang, Yang Shangkun.'
+    src:
+      c: 2689da62
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-13T11:00Z
+      - 1962-10-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-14.missile-crisis
     when: Oct. 14
     date: '1962-10-14'
@@ -1966,6 +2415,7 @@ entries:
   - id: cal.1962-10-14.soviet-union
     when: Oct. 14
     date: '1962-10-14'
+    place: moscow
     thread: soviet-union-leadership
     also: [testing, south-asia]
     c: 'The Presidium. Khrushchev: new language for a test ban treaty to be prepared. Support for Peking on the Indian border; his exchange of letters with Ulbricht on East German farming.'
@@ -2001,6 +2451,7 @@ entries:
   - id: cal.1962-10-14.china-leadership
     when: Oct. 14
     date: '1962-10-14'
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai watches the Vietnamese Youth Song and Dance Ensemble and receives its head and chief performers.
@@ -2036,10 +2487,22 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 308: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.63: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-10-14.china-leadership-3
+    when: Oct. 14
+    date: '1962-10-14'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 216 (Oct. 14, 1962). The words: 晚间同伯钊一起散步后办公到2时。孔原同志来谈话 (II, 216). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 216: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-10-15.africa
     when: Oct. 15
     date: '1962-10-15'
     time: 1962-10-15T15:45Z
+    place: washington
     thread: africa
     c: Ben Bella, Prime Minister of Algeria since Sept. 26, at the White House. Kennedy on the impression in Algeria that the United States favors nuclear tests, colonialism and imperialism. Algeria's economic needs discussed; no figures, no commitments. Then to Havana.
     n: 'Remarks of Welcome to Prime Minister Ben Bella of Algeria on the South Lawn at the White House, [1962 Pub. Papers 784](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=844); Joint Statement Following Discussions With Prime Minister Ben Bella, [1962 Pub. Papers 786](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=846) (Oct. 15, 1962). FRUS 1961–63, XXI, docs. [71](https://history.state.gov/historicaldocuments/frus1961-63v21/d71), [72](https://history.state.gov/historicaldocuments/frus1961-63v21/d72), [73](https://history.state.gov/historicaldocuments/frus1961-63v21/d73), [77](https://history.state.gov/historicaldocuments/frus1961-63v21/d77) (doc. 77: NSAM 211, Dec. 14, on aid to Algeria). To check: [[w.byrne-mecca-of-revolution]]; [[w.rakove-kennedy-johnson-and-the]]; [[w.muehlenbeck-betting-on-the-africans]]. See [[cal.1962-07-03.africa]]. Names: Ben Bella.'
@@ -2047,6 +2510,7 @@ entries:
   - id: cal.1962-10-15.georgia-ga
     when: Oct. 15
     date: '1962-10-15'
+    place: atlanta
     thread: georgia
     also: [legislatures]
     c: A Fulton Superior Court judge holds the election of senators at large void in Fulton.
@@ -2096,6 +2560,7 @@ entries:
   - id: cal.1962-10-15.missile-crisis-2
     when: Oct. 15
     date: '1962-10-15'
+    place: washington
     thread: missile-crisis
     c: Fort McNair, evening. Taylor's dinner, McCone kept away by his stepson's accident. Carroll of the Defense Intelligence Agency tells Taylor the overflight of Oct. 14 shows Soviet offensive missiles in Cuba; Gilpatric and U. Alexis Johnson told; to meet in Taylor's office in the morning.
     n: '[[w.taylor-swords-and-plowshares]], 264. See [[cal.1962-10-15.missile-crisis]]. Names: Taylor, McCone, Carroll, Gilpatric, U. Alexis Johnson.'
@@ -2143,7 +2608,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing meetings and hears Tan Zhenlin, vice-premier, on current farm work, the 1963 plan, the allotment of capital construction investment, the 1965–70 outlook and the Third Five-Year Plan. On trying weed-killers next year: some may be imported, a little of each, small trials; foreign experience is to be taken in. On forestry: close the hills for forest and raise artificial planting greatly, but large forests still rest on natural renewal. On farm research and teaching: both schools that design and make farm machinery and those that teach management are needed, and there are too few; the making and fitting of village processing machinery needs attention too.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 15, 16, 1962). Made public: 1996. Names: Liu Shaoqi, Tan Zhenlin.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 15, 16, 1962); [[w.yang-shangkun-riji]], II, 217 (Oct. 15, 1962; the Politburo, 3:30 to 6:30 p.m., Oct. 15 and 16, hears the "agriculture sector" 农口 on its plan; Gong Zirong with Yang Shangkun that morning; Liu Shaoqi and Tan Zhenlin not named). Made public: 1996. Names: Liu Shaoqi, Tan Zhenlin.'
     tags: [polity:prc, name:liu-shaoqi, name:tan-zhenlin, vis:only:prc]
   - id: cal.1962-10-16.missile-crisis
     when: Oct. 16
@@ -2221,6 +2686,7 @@ entries:
   - id: cal.1962-10-16.soviet-union
     when: Oct. 16
     date: '1962-10-16'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     c: 'The Presidium on the KGB''s plan of Oct. 10 for propaganda to meet the missiles'' unveiling, Ehrenburg and Shostakovich among its voices: five of its six points refused, for the elections; only private approaches to West Europeans against the embargo, a week''s boycott of American goods. Gromyko''s visit to the President on the 18th.'
@@ -2244,6 +2710,7 @@ entries:
     date: '1962-10-16'
     time: 1962-10-16T13:00Z
     time_approx: true
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy]
     c: 'The President to Robert Kennedy at Justice: "We have some big trouble. I want you over here." About 9 a.m., Bundy''s office: the photographs. Robert Kennedy: "Oh shit. Shit! Shit! Those sons a bitches Russians." Later: "Can they hit Oxford, Mississippi?"'
@@ -2279,6 +2746,7 @@ entries:
     when: Oct. 16
     date: '1962-10-16'
     time: 1962-10-16T22:30Z
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy]
     c: '6:30 p.m., the Cabinet Room, taped. The President: "We''re going to take out those missiles." Taylor: never one hundred percent; an invasion "deep mud." Robert Kennedy: "get into it, and get it over with, and take our losses"; "whether there''s some ship that ... you know, sink the Maine or something." His note after nine: "If we go in, we go in hard."'
@@ -2305,6 +2773,7 @@ entries:
   - id: cal.1962-10-16.missile-crisis-4
     when: Oct. 16
     date: '1962-10-16'
+    place: washington
     thread: missile-crisis
     c: 'The Pentagon, first thing: McNamara, Gilpatric and Taylor with Carroll over the photographs, the 1,100-mile missile known from the Soviet sites in Europe; then the Joint Chiefs; then the White House.'
     n: '[[w.taylor-swords-and-plowshares]], 264–65. See [[cal.1962-10-15.missile-crisis]]. Names: McNamara, Gilpatric, Taylor, Carroll.'
@@ -2340,6 +2809,7 @@ entries:
     when: Oct. 16
     date: '1962-10-16'
     time: 1962-10-16T11:00Z
+    place: edinburgh
     thread: europe-and-the-alliance
     c: Edinburgh, noon. The King of Norway, come to Leith by yacht, arrives at Princes Street Station for his state visit; Macmillan there.
     n: '[[w.macmillan-diaries]], 506. Names: Macmillan.'
@@ -2387,6 +2857,23 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.66a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.66b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-10-16.china-leadership-2
+    when: Oct. 16
+    date: '1962-10-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Yang Shangkun 杨尚昆 reads Liu Xiao's 刘晓 two reports of his meetings with Khrushchev 赫鲁晓夫.
+    n: '[[w.yang-shangkun-riji]], II, 217 (Oct. 16, 1962; note 1: Khrushchev). The words: 上午 (II, 217). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-10.china-leadership-4]]. Names: Yang Shangkun, Liu Xiao, Khrushchev.'
+    src:
+      c: ece11729
+      rows:
+        - 'w.yang-shangkun-riji II, 217: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    time_range:
+      - 1962-10-15T22:00Z
+      - 1962-10-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-17.opinion
     when: Oct. 17
     date: '1962-10-17'
@@ -2398,6 +2885,7 @@ entries:
   - id: cal.1962-10-17.missile-crisis-2
     when: Oct. 17
     date: '1962-10-17'
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy]
     c: 'The ExComm in Ball''s conference room at State, the "Think Tank," Kennedy campaigning. Ball against an air strike: irreversible, and a great power acting against its own traditions loses its authority. By Ball''s account Robert Kennedy later puts it his way: a surprise strike another Pearl Harbor; "My brother is not going to be the Tojo of the 1960s."'
@@ -2438,6 +2926,7 @@ entries:
   - id: cal.1962-10-17.missile-crisis
     when: Oct. 17
     date: '1962-10-17'
+    place: washington
     thread: missile-crisis-diplomacy
     c: Rusk's dinner for Gromyko at the State Department, long scheduled. In a long talk after it Gromyko lets on nothing of the missiles, by Rusk's account.
     n: '[[w.rusk-as-i-saw-it-1990]], 233. See [[cal.1962-10-14.missile-crisis]]. Names: Rusk, Gromyko.'
@@ -2539,6 +3028,7 @@ entries:
     when: Oct. 17
     date: '1962-10-17'
     time: 1962-10-17T14:00Z
+    place: washington
     thread: berlin-and-vienna
     c: 'The White House, 10 a.m. Schröder with Kennedy, Bundy, Dowling and Salinger among those present: the Soviets may not mean to force the crisis by late November; a pass and visa requirement for civilian traffic would put land access in the Soviet zone''s hands, and must meet a hard reaction. Kennedy: civil and military access interdependent, but military access can go by air, the city''s supply cannot.'
     n: '*Gespräch des Bundesministers Schröder mit Präsident Kennedy in Washington*. [[w.akten-zur-auswartigen-politik]], III, 1717–19 (Dok. 399). Names: Schröder, Kennedy, McGeorge Bundy, Dowling, Salinger.'
@@ -2555,7 +3045,12 @@ entries:
     date: '1962-10-17'
     thread: china-leadership
     c: 'Zhou Enlai, at the forum of democratic personages Liu Shaoqi holds, on the Eighth Central Committee''s Tenth Plenum. What counts is that the economy improves day by day; since the enlarged Central work conference and the eight-character line, the adjustment has done well in every field; the working line now is to go on adjusting. Agriculture is to develop all round: grain, and cotton, oil and other cash crops in balance, forestry, livestock, fisheries and side occupations.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 17, 1962). Continues 503. Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 17, 1962); [[w.yang-shangkun-riji]], II, 217 (Oct. 17, 1962; the Great Hall''s Hebei Room, 3 to 7:30 p.m., Liu Shaoqi presiding; Zhou''s report on the Tenth Plenum to the parties'' heads). Continues 503. Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: a5cd73ca
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 502: ?'
+        - 'w.yang-shangkun-riji II, 217: A'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-10-17.china
     when: Oct. 17
@@ -2569,9 +3064,26 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 247: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-10-17.china-leadership-2
+    when: Oct. 17
+    date: '1962-10-17'
+    thread: china-leadership
+    c: Wang Dongxing 汪东兴 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 217 (Oct. 17, 1962). The words: 10时才办公 (II, 217). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Yang Shangkun.'
+    src:
+      c: c22b6c44
+      rows:
+        - 'w.yang-shangkun-riji II, 217: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-17T14:00Z
+      - 1962-10-17T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-18.missile-crisis
     when: Oct. 18
     date: '1962-10-18'
+    place: washington
     thread: missile-crisis-diplomacy
     c: 'Gromyko at the White House: Soviet aid to Cuba defensive. Kennedy does not show the photographs.'
     n: '[FRUS vol. 11](https://history.state.gov/historicaldocuments/frus1961-63v11). [[w.reeves-president-kennedy]], 381–82; [[w.rusk-as-i-saw-it-1990]], 233; [[w.sorensen-kennedy]], 689–91; [[w.dobrynin-in-confidence]], 79–81 (Dobrynin present; "defensive" and "offensive," missiles never named; a summit proposed, put off by Rusk''s call that day; Gromyko''s cable: "the situation is quite satisfactory"); [[w.fursenko-khrushchevs-cold-war]], 467 (the meetings; Khrushchev reads the reports of them); [[w.odonnell-johnny-we-hardly-knew]], 361–62 (Gromyko in the Oval Office on Thursday afternoon; Kennedy, by his own account that night, read him his Sept. 4 warning and "dying to confront him with our evidence" did not: "It was incredible to sit there and watch the lies coming out of his mouth"). [[w.fursenko-one-hell-of-a]], 231–32 (the meeting; Gromyko''s report to Moscow, "wholly satisfactory"). See [[cal.1962-05-24.missile-crisis]]. Names: Gromyko.'
@@ -2599,6 +3111,7 @@ entries:
   - id: cal.1962-10-18.missile-crisis-2
     when: Oct. 18
     date: '1962-10-18'
+    place: washington
     thread: missile-crisis-excomm
     c: 'Acheson alone with the President. By Acheson''s later account, he calls the talk of a Pearl Harbor in reverse "silly": "It is unworthy of you to talk that way."'
     n: '[[w.schlesinger-robert-kennedy-and-his]], 508; [[w.thomas-robert-kennedy]], 216 (Acheson in the Oval Office: his brother''s "cliches," "silly" and "unworthy"). [[w.reeves-president-kennedy]], 378 (not "silly"). To check: "No Yearning to be Loved: Dean Acheson talks to Kenneth Harris," *Listener*, Apr. 8, 1971 (cited by [[w.schlesinger-robert-kennedy-and-his]], 508 n.42). See [[cal.1962-10-16.missile-crisis]]. Names: Acheson, Kennedy.'
@@ -2657,6 +3170,7 @@ entries:
     when: Oct. 18
     date: '1962-10-18'
     time: 1962-10-19T02:00Z
+    place: washington
     thread: missile-crisis-excomm
     c: 10 p.m., the White House. Nine of the ExComm in Ball's car, by way of the Treasury and the passage under the White House, to stay with the President past midnight. Kennedy leaning to a blockade; Sorensen to draft a speech. Chayes called home from Paris that night, by Ball's account.
     n: '[[w.ball-past-has-another-pattern]], 292–93; [[w.sorensen-kennedy]], 691; [[w.thomas-robert-kennedy]], 217 (about 10 p.m., from Ball''s conference room; nine in a limousine, Robert Kennedy on U. Alexis Johnson''s lap; through the bomb shelter; a consensus forming on a blockade by midnight). Check: Sorensen gives a 9 p.m. conference, and all but Martin in the Attorney General''s limousine (691). See [[cal.1962-10-18.missile-crisis-3]]. Names: Ball, Kennedy, Sorensen, Chayes.'
@@ -2712,6 +3226,7 @@ entries:
     date: '1962-10-18'
     time: 1962-10-18T23:00Z
     time_approx: true
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy]
     c: 'About 7 p.m., the Oval Office. Robert Kennedy to Lovett, waiting outside: "Hey, you!" The President: "Goddamn, Bobby!" By the fire, Robert Kennedy agrees with Lovett on "taking less violent steps at the outset because we could always blow up the place if necessary"; the President pushed by the military''s hawks.'
@@ -2814,12 +3329,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai at the enlarged Politburo meeting on the military line toward India. In days of meetings at Mao''s, the Xilou and the Yinian Tang he studies the tactics of a counterattack in self-defense, follows the border situation from hour to hour and takes part in setting the forces'' deployment. A note: since Oct. 16 Nehru and Menon have urgently planned a large attack on China, and from Oct. 17 the Indian troops north of the McMahon line have pressed their attacks all along the Kechilang river.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 503 (Oct. 18, 1962); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 18, 1962; Liu presides at the enlarged Politburo meeting, which conveys and discusses the Standing Committee''s decision on the military line toward India on the border; on the 20th the Indian army attacks in force along the border and the Chinese frontier guards strike back in self-defense and remove the strongholds the Indians had built within Chinese territory). Made public: 1996. Names: Zhou Enlai, Mao Zedong, Nehru, Krishna Menon.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 503 (Oct. 18, 1962); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562 (Oct. 18, 1962; Liu presides at the enlarged Politburo meeting, which conveys and discusses the Standing Committee''s decision on the military line toward India on the border; on the 20th the Indian army attacks in force along the border and the Chinese frontier guards strike back in self-defense and remove the strongholds the Indians had built within Chinese territory); [[w.yang-shangkun-riji]], II, 217 (Oct. 18, 1962; the enlarged Politburo, 3:30 to 6:30 p.m., Liu Shaoqi presiding, 80 present, on striking at the invading Indian army; it agrees with the Standing Committee; Zhou Enlai not named). Made public: 1996. Names: Zhou Enlai, Mao Zedong, Nehru, Krishna Menon.'
     src:
       c: 03f84973
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 503: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 562: A'
+        - 'w.yang-shangkun-riji II, 217: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:nehru-jawaharlal, name:menon-v-k-krishna, vis:only:prc]
   - id: cal.1962-10-18.china-leadership-2
     when: Oct. 18
@@ -2864,6 +3380,7 @@ entries:
     when: Oct. 19
     date: '1962-10-19'
     time: 1962-10-19T15:00Z
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy]
     c: 'The ExComm at State, 11 a.m., the President campaigning. Bundy reopens the air strike: "decisive action with its advantages of surprise." Acheson, Dillon, McCone and Taylor for a strike; McNamara readies the forces but does not advocate it. Robert Kennedy, with a grin, has also talked with the President: an air strike "with all the memory of Pearl Harbor"; "For 175 years we had not been that kind of country. A sneak attack was not in our traditions." He favors action that leaves the Soviets room to pull back.'
@@ -3062,13 +3579,30 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at the Politburo briefing and hears Zhao Erlu, deputy director of the State Council Office of Defense Industry, on the defense industry's basic situation, this year's plan's execution and the 1963 and Third Five-Year Plan arrangements. Missiles and atomic bombs both need a special organ at the Center to direct organization, coordination and orders; a small body is to be had, or by dragging it out time passes. Every country has done this, and ours is to do it still better by creating conditions to let it go forward smoothly.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562–563 (Oct. 19, 1962); [[w.jianguo-yilai-mao-zedong]], XVI, 429 (Oct. 19, 1962; note 1 to Mao''s note of Nov. 3: the proposal of a special committee was made when the Defense Industry Office reported to the Standing Committee Oct. 19, and Liu Shaoqi approved it in principle). Made public: 1996. Names: Liu Shaoqi, Zhao Erlu.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 562–563 (Oct. 19, 1962); [[w.jianguo-yilai-mao-zedong]], XVI, 429 (Oct. 19, 1962; note 1 to Mao''s note of Nov. 3: the proposal of a special committee was made when the Defense Industry Office reported to the Standing Committee Oct. 19, and Liu Shaoqi approved it in principle); [[w.yang-shangkun-riji]], II, 218 (Oct. 19, 1962; 3:30 to 6 p.m., the "defense sector" 国防口 reports, Liu Shaoqi presiding). Made public: 1996. Names: Liu Shaoqi, Zhao Erlu.'
     src:
       c: d7618f41
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 562–563: ?'
         - 'w.jianguo-yilai-mao-zedong XVI, 429: A-B'
+        - 'w.yang-shangkun-riji II, 218: A'
     tags: [polity:prc, name:liu-shaoqi, name:zhao-erlu, vis:only:prc]
+  - id: cal.1962-10-19.china-leadership-3
+    when: Oct. 19
+    date: '1962-10-19'
+    thread: china-leadership
+    c: Wang Congwu 王从吾 and Qian Ying 钱瑛 with Yang Shangkun 杨尚昆 on the Central Control Commission's work.
+    n: '[[w.yang-shangkun-riji]], II, 218 (Oct. 19, 1962). The words: 上午 (II, 218). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-08-29.china-leadership-3]]. Names: Wang Congwu, Qian Ying, Yang Shangkun.'
+    src:
+      c: 38a0d831
+      rows:
+        - 'w.yang-shangkun-riji II, 218: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-18T22:00Z
+      - 1962-10-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-20.missile-crisis
     when: Oct. 20
     date: '1962-10-20'
@@ -3101,7 +3635,7 @@ entries:
     thread: south-asia
     also: [china]
     c: China attacks in Ladakh and the North-East Frontier Agency.
-    n: '[FRUS 1961–63, XIX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v19/d179). [[w.sorensen-kennedy]], 662; [[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (Chinese forces open their "自卫反击作战" (counterattack in self-defense) on the border at dawn; not the places). [[w.jian-zhou-enlai]], 480–81 (early on Oct. 20; within three days the Indian strongholds of the "forward policy" in the western sector taken; in the east the McMahon line crossed, Tawang occupied; by Oct. 29 near the line of actual control of November 1959; not Ladakh or the NEFA by name); [[w.mao-zedong-zhuan]], V, ch. 71 (at dawn, in the eastern and western sectors; Oct. 20–29, in the east all the ground south of the Kejielang river, north of the Tawang river and east of Bhutan taken back; in the west part of the Indian troops in the Galwan valley and Aksai Chin cleared; not Ladakh or the NEFA by name). [[w.macfarquhar-origins-of-the-cultural]], III, 308–09 (shortly after dawn the PLA attacks in overwhelming strength, in the west and across the McMahon Line in the east, and within four days has captured virtually all the posts the Indian army had established; the Chinese claim they responded to massive Indian attacks in both sectors). Check: the book gives dawn in Aksai Chin as 4:30 a.m. Indian time, 7 a.m. Beijing time, which prevails even in Tibet; the attack in the east began at 5 a.m. Indian time, 7:30 Beijing time (III, 309 n.69). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 195–221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69a); [[w.xianjin-re-xue-bing-shan]], 99–102 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69b); [[w.li-zhongguo-9-ci-da]], 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69c); [[w.maxwell-indias-china-war]], 388 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69e). See [[cal.1961-12-18.india-and-china]].'
+    n: '[FRUS 1961–63, XIX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v19/d179). [[w.sorensen-kennedy]], 662; [[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (Chinese forces open their "自卫反击作战" (counterattack in self-defense) on the border at dawn; not the places). [[w.jian-zhou-enlai]], 480–81 (early on Oct. 20; within three days the Indian strongholds of the "forward policy" in the western sector taken; in the east the McMahon line crossed, Tawang occupied; by Oct. 29 near the line of actual control of November 1959; not Ladakh or the NEFA by name); [[w.mao-zedong-zhuan]], V, ch. 71 (at dawn, in the eastern and western sectors; Oct. 20–29, in the east all the ground south of the Kejielang river, north of the Tawang river and east of Bhutan taken back; in the west part of the Indian troops in the Galwan valley and Aksai Chin cleared; not Ladakh or the NEFA by name). [[w.macfarquhar-origins-of-the-cultural]], III, 308–09 (shortly after dawn the PLA attacks in overwhelming strength, in the west and across the McMahon Line in the east, and within four days has captured virtually all the posts the Indian army had established; the Chinese claim they responded to massive Indian attacks in both sectors); [[w.yang-shangkun-riji]], II, 218 (Oct. 20, 1962; the counterattack, a victory, the fighting goes on; Yang reads the battle reports). Check: the book gives dawn in Aksai Chin as 4:30 a.m. Indian time, 7 a.m. Beijing time, which prevails even in Tibet; the attack in the east began at 5 a.m. Indian time, 7:30 Beijing time (III, 309 n.69). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 195–221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69a); [[w.xianjin-re-xue-bing-shan]], 99–102 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69b); [[w.li-zhongguo-9-ci-da]], 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69c); [[w.maxwell-indias-china-war]], 388 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69e). See [[cal.1961-12-18.india-and-china]].'
     src:
       c: 569fa3c8
       rows:
@@ -3117,12 +3651,17 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.69d: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.69e: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.69f: A'
+        - 'w.yang-shangkun-riji II, 218: ?'
     short: the Chinese attack
     variants:
       - unit: A
         witness: w.lengxi-shinian-lunzhan-1956-1966
         reads: the Indian army attacks on the eastern and western sectors at once, Oct. 20, with more than ten brigades and air support, and takes a large tract of Chinese territory; the Chinese frontier forces then counterattack ("自卫反击," a counterattack in self-defense)
         at: '498'
+      - unit: A
+        witness: w.yang-shangkun-riji
+        reads: in the middle sector of the Sino-Indian border (中印边界中段)
+        at: II, 218, Oct. 20, 1962
   - id: cal.1962-10-20.missile-crisis-2
     when: Oct. 20
     date: '1962-10-20'
@@ -3309,6 +3848,7 @@ entries:
     when: Oct. 20
     date: '1962-10-20'
     time: 1962-10-20T11:00Z
+    place: peking
     thread: china
     c: Zhongnanhai, the Juxiang Shuwu, 7 p.m. Mao Zedong calls Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and others to a meeting.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962. Made public: Check (2013 at the latest). See [[cal.1962-10-20.india-and-china]]. Names: Mao Zedong, Zhou Enlai. Check: the subject (the nianpu gives none).'
@@ -3361,6 +3901,7 @@ entries:
     date: '1962-10-20'
     time: 1962-10-20T14:15Z
     time_approx: true
+    place: chicago
     thread: missile-crisis
     also: [press-and-broadcasting]
     c: 'Chicago, the Sheraton-Blackstone. At Salinger''s 9:15 briefing Western Union''s man calls him to the President''s suite: Kennedy, in pajamas, with O''Donnell, Powers and Dr. Burkley, says he has a temperature and a cold and writes the bulletin on hotel stationery: "99.2 degrees temperature. Upper respiratory infection. Doctor says he should return to Washington." Salinger reads it to the reporters; no one questions it. By Salinger''s account.'
@@ -3398,7 +3939,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefings and hears Bo Yibo on industrial-communications matters and the 1963 plan. Heavy industry is to serve agriculture and light industry, not light industry heavy industry, and not agriculture heavy industry. On more kinds of products: the key steels, machines and chemicals the Soviet Union does not give us we must get as we can from the capitalist side, at a price, for we too must spend time and money; the departments of foreign trade are to look to capitalist outlets. On quality: if prices rise with quality, and fall with lower quality, check it; every product from the factory should carry a form guaranteeing its grade and standard, and the unqualified be returned, cut in price or fined; no cheating the using departments and the consumers: socialism''s advantage is to be honest. Capitalism values credit; Soviet goods, consumer goods most, are poor. The investment arrangements are too weak to hold production at its present level: after so bitter a suffering and so great a price we know our ignorance, and need first simple reproduction, then enlargement; building new plants is worse than enlarging old, enlarging old worse than keeping simple reproduction.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 563 (Oct. 20, 22, 1962). Made public: 1996. Names: Liu Shaoqi, Bo Yibo.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 563 (Oct. 20, 22, 1962); [[w.yang-shangkun-riji]], II, 218 (Oct. 20, 1962; 3:30 to 6:30 p.m., the "industry and communications sector" 工交口, Oct. 20; Bo Yibo again Oct. 22, 3:30 to 6; Liu Shaoqi not named). Made public: 1996. Names: Liu Shaoqi, Bo Yibo.'
     tags: [polity:prc, name:liu-shaoqi, name:bo-yibo, vis:only:prc]
   - id: cal.1962-10-20.china-3
     when: Oct. 20
@@ -3457,6 +3998,7 @@ entries:
     when: Oct. 21
     date: '1962-10-21'
     time: 1962-10-21T14:00Z
+    place: washington
     thread: missile-crisis-excomm
     c: '10 a.m., the Oval Office, on Sorensen''s third draft of the address, by Ball''s account. Ball: hold Castro as responsible as Khrushchev, the blockade to take in petroleum; McNamara against: the blockade narrow, its one aim the missiles. Stevenson: not "render the missiles inoperable" but "dismantle and remove." Harriman, Hillenbrand and Talbot arrive at the White House in plain view, to send the press after China, India or Berlin.'
     n: '[[w.ball-past-has-another-pattern]], 297. See [[cal.1962-10-14.missile-crisis]]. Names: Sorensen, Ball, Castro, Khrushchev, McNamara, Stevenson, Harriman, Hillenbrand, Talbot.'
@@ -3468,6 +4010,7 @@ entries:
   - id: cal.1962-10-21.robert-kennedy
     when: Oct. 21
     date: '1962-10-21'
+    place: washington
     thread: robert-kennedy
     also: [missile-crisis, europe-and-the-alliance-jupiters]
     c: 'Evening, the Justice Department. Robert Kennedy''s own group on the way out: "the Turkish missiles would have to be given up in the end, as the price of settlement." A public offer through the UN he finds "rather weak and defensive."'
@@ -3522,6 +4065,7 @@ entries:
     when: Oct. 21
     date: '1962-10-21'
     time: 1962-10-21T15:30Z
+    place: washington
     thread: missile-crisis-excomm
     c: 'The Oval Room, 11:30 a.m. to about 12:30 p.m. Kennedy with Robert Kennedy, McNamara, Taylor and Sweeney of the Tactical Air Command, McCone joining. Sweeney certain an air strike would be "successful," not all the known missiles likely destroyed; Taylor: "The best we can offer you is to destroy 90% of the known missiles." The air strike out, the blockade on, by Sorensen''s account.'
     n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 36](https://history.state.gov/historicaldocuments/frus1961-63v11/d36). [[w.sorensen-kennedy]], 697 (Robert Kennedy in from Virginia in riding clothes; the air strike out); [[w.taylor-swords-and-plowshares]], 271 (Sweeney''s answers; the blockade chosen; no time of day). See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, McNamara, Taylor, McCone, John F. Kennedy.'
@@ -3553,6 +4097,7 @@ entries:
     when: Oct. 21
     date: '1962-10-21'
     time: 1962-10-21T16:30Z
+    place: washington
     thread: missile-crisis-diplomacy
     also: [europe-and-the-alliance]
     c: 'The White House, 12:30 p.m. Kennedy alone with Ormsby-Gore, the British Ambassador: the U-2 evidence; an air strike on Oct. 22 or a blockade, which could Britain support? Ormsby-Gore the blockade; the President: he and his advisers had come to the same conclusion.'
@@ -3631,6 +4176,7 @@ entries:
     date: '1962-10-21'
     time: 1962-10-21T21:00Z
     time_approx: true
+    place: london
     thread: missile-crisis-diplomacy
     also: [europe-and-the-alliance]
     c: 'About 10 p.m., London. A message from Kennedy to Macmillan: a short account of the serious situation developing between the United States and the Soviet Union over Cuba.'
@@ -3648,6 +4194,7 @@ entries:
     when: Oct. 21
     date: '1962-10-21'
     time: 1962-10-21T13:00Z
+    place: washington
     thread: missile-crisis
     also: [press-and-broadcasting]
     c: '9 a.m., the Situation Room. Bundy tells Salinger that the country is on the brink of nuclear war: offensive Soviet missiles in Cuba, not yet operational; a blockade the probable course; Kennedy to decide that day and announce it on television the next. He describes the aerial photographs and gives a chronology. By Salinger''s account.'
@@ -3776,7 +4323,7 @@ entries:
       - cal.1962-10-22.missile-crisis-15
       - cal.1962-10-22.missile-crisis-18
     c: Address, 7 p.m. Quarantine. A missile from Cuba to bring full retaliation on the Soviet Union.
-    n: 'Radio and Television Report to the American People on the Soviet Arms Buildup in Cuba, [1962 Pub. Papers 806](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=866) (Oct. 22, 1962). Recording (K–J Adm. II.I). [[w.fursenko-one-hell-of-a]], 245–46; [[w.sorensen-kennedy]], 697–702; [[w.fursenko-khrushchevs-cold-war]], 475; [[w.graham-uncertain-triumph]], 38; [[w.lengxi-shinian-lunzhan-1956-1966]], 500–501 (Wu, from Robert Kennedy''s account: Kennedy''s television address the evening of Oct. 22, the naval quarantine within 500 miles of Cuba, more than a hundred warships; the CIA''s U-2 had found the missile sites Oct. 16); [[w.macfarquhar-origins-of-the-cultural]], III, 315–16 (Kennedy reveals the discovery, demands that the missiles be removed and announces a naval quarantine). After the entries their sources set before the address: [[cal.1962-10-22.soviet-union|the Presidium]]; [[cal.1962-10-22.missile-crisis-6|Rusk with Dobrynin]]; [[cal.1962-10-22.missile-crisis-10|Clifford''s calls]]; [[cal.1962-10-22.missile-crisis-11|Rockefeller''s statement]]; [[cal.1962-10-22.missile-crisis-13|Obote]]; [[cal.1962-10-22.missile-crisis-15|Robert Kennedy''s notes]]; [[cal.1962-10-22.missile-crisis-18|the calls to the former Presidents]]. To check: [[w.beschloss-crisis-years]], 431–575 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106a); [[w.khrushchev-khrushchev-remembers]], 498, 504 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106c); Bulletin of the Cold War International History Project, No. 5, Spring 1995 ([[w.scholars-bulletin-of-the-cold]]), 58 ff. (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106e). See [[cal.1962-10-16.missile-crisis]].'
+    n: 'Radio and Television Report to the American People on the Soviet Arms Buildup in Cuba, [1962 Pub. Papers 806](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=866) (Oct. 22, 1962). Recording (K–J Adm. II.I). [[w.fursenko-one-hell-of-a]], 245–46; [[w.sorensen-kennedy]], 697–702; [[w.fursenko-khrushchevs-cold-war]], 475; [[w.graham-uncertain-triumph]], 38; [[w.lengxi-shinian-lunzhan-1956-1966]], 500–501 (Wu, from Robert Kennedy''s account: Kennedy''s television address the evening of Oct. 22, the naval quarantine within 500 miles of Cuba, more than a hundred warships; the CIA''s U-2 had found the missile sites Oct. 16); [[w.macfarquhar-origins-of-the-cultural]], III, 315–16 (Kennedy reveals the discovery, demands that the missiles be removed and announces a naval quarantine); [[w.yang-shangkun-riji]], II, 218 (Oct. 22, 1962; as noted at Peking: Kennedy proclaims a blockade of Cuba and calls on the Soviet Union to remove its offensive weapons; note 1: Kennedy). After the entries their sources set before the address: [[cal.1962-10-22.soviet-union|the Presidium]]; [[cal.1962-10-22.missile-crisis-6|Rusk with Dobrynin]]; [[cal.1962-10-22.missile-crisis-10|Clifford''s calls]]; [[cal.1962-10-22.missile-crisis-11|Rockefeller''s statement]]; [[cal.1962-10-22.missile-crisis-13|Obote]]; [[cal.1962-10-22.missile-crisis-15|Robert Kennedy''s notes]]; [[cal.1962-10-22.missile-crisis-18|the calls to the former Presidents]]. To check: [[w.beschloss-crisis-years]], 431–575 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106a); [[w.khrushchev-khrushchev-remembers]], 498, 504 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106c); Bulletin of the Cold War International History Project, No. 5, Spring 1995 ([[w.scholars-bulletin-of-the-cold]]), 58 ff. (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106e). See [[cal.1962-10-16.missile-crisis]].'
     src:
       c: f64c4a7f
       rows:
@@ -3792,10 +4339,12 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106c: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106d: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106e: ?'
+        - 'w.yang-shangkun-riji II, 218: A, B'
     tags: [name:kennedy-john-f]
   - id: cal.1962-10-22.robert-kennedy
     when: Oct. 22
     date: '1962-10-22'
+    place: nashville
     thread: robert-kennedy
     also: [crime-and-hijacking]
     c: Nashville. Hoffa's trial opens under the Taft-Hartley Act, the Test Fleet case. Edward Partin, a Teamsters official from Baton Rouge, in Hoffa's hotel suite and company throughout, reports to Walter Sheridan, Robert Kennedy's investigator, on attempts to reach the jurors.
@@ -3818,6 +4367,7 @@ entries:
     when: Oct. 22
     date: '1962-10-22'
     time: 1962-10-22T15:00Z
+    place: washington
     thread: missile-crisis-excomm
     c: 'The Oval Office, 11 a.m. Kennedy with Rusk, Robert Kennedy, Ball, Bundy, U. Alexis Johnson, Schlesinger and Hilsman on the diplomacy of the crisis; Stevenson''s speech to the Security Council gone over, a threat of an American strike cut. Schlesinger sent to help Stevenson. Robert Kennedy: "We will have to make a deal at the end, but we must stand absolutely firm now."'
     n: '[Meeting on Diplomatic Plans for the Crisis, 11:00 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-diplomatic-plans-crisis), Tape 32 (Miller Center). [[w.schlesinger-thousand-days-1965]], 811; [[w.schlesinger-journals]], 175 (Monday, Oct. 22: the President tells Schlesinger to go to New York to work with Stevenson; at 11 Schlesinger meets Rusk, Robert Kennedy "and others," who read his draft for the Security Council, "generally applauded"; "The President called for a few omissions—including a passage threatening an American strike if the Cuban build-up persisted"; to New York after lunch; the page gives neither the Oval Office nor the other names nor Robert Kennedy''s words). See [[cal.1962-10-16.missile-crisis]]. Names: John F. Kennedy, Rusk, Robert Kennedy, Ball, Bundy, U. Alexis Johnson, Schlesinger, Hilsman, Stevenson.'
@@ -3888,6 +4438,7 @@ entries:
     when: Oct. 22
     date: '1962-10-22'
     time: 1962-10-22T22:15Z
+    place: washington
     thread: missile-crisis-diplomacy
     c: '6:15 p.m., the State Department''s International Conference Room. Ball briefs the ambassadors of forty-six allied countries, of NATO, CENTO, SEATO and ANZUS: the background, the photographs, Hilsman on them; then the address on television with them, by Ball''s account. Martin briefs the OAS ambassadors.'
     n: '[[w.ball-past-has-another-pattern]], 298–99. See [[cal.1962-10-22.missile-crisis]]. Names: Ball, Hilsman, Martin.'
@@ -3933,6 +4484,7 @@ entries:
   - id: cal.1962-10-22.soviet-union
     when: Oct. 22
     date: '1962-10-22'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     part_of: cal.1962-10-22.soviet-union-leadership
@@ -3958,6 +4510,7 @@ entries:
   - id: cal.1962-10-22.missile-crisis-6
     when: Oct. 22
     date: '1962-10-22'
+    place: washington
     thread: missile-crisis-diplomacy
     c: 'An hour before the address, in his office, Rusk gives Dobrynin a copy of it: the missiles known, and what is to be done. Dobrynin, by Rusk''s account, "a man in physical shock": "This is a terrible situation."'
     n: '[[w.rusk-as-i-saw-it-1990]], 235; [[w.dobrynin-in-confidence]], 81–82 (6 p.m.; "The documents speak for themselves"; Dobrynin from New York, having seen Gromyko off at noon; by Dobrynin''s account); [[w.fursenko-khrushchevs-cold-war]], 471 (the copy promised an hour before the speech); [[w.sorensen-kennedy]], 701 (Dobrynin to Rusk''s office at 6 p.m.; Kohler with the same message in Moscow a little later). Check: Dobrynin gives no sign of shock; he expressed surprise that neither Kennedy nor Rusk had raised it with Gromyko four days before (82). See [[cal.1962-10-14.missile-crisis]]. Names: Rusk, Dobrynin.'
@@ -3977,6 +4530,7 @@ entries:
   - id: cal.1962-10-22.missile-crisis-7
     when: Oct. 22
     date: '1962-10-22'
+    place: washington
     thread: missile-crisis-diplomacy
     follows:
       - cal.1962-10-22.missile-crisis
@@ -4012,6 +4566,7 @@ entries:
   - id: cal.1962-10-22.intelligence
     when: Oct. 22
     date: '1962-10-22'
+    place: washington
     thread: intelligence
     also: [missile-crisis, soviet-union]
     c: 'Washington, the morning. The KGB and GRU stations report unusual activity at the White House and the Pentagon. Chizhov, the GRU''s resident: "The press emphasizes that the reasons for this official activity remain top secret. It is assumed that this has to do with the possibility of new measures regarding Cuba or Berlin."'
@@ -4030,6 +4585,7 @@ entries:
   - id: cal.1962-10-22.intelligence-2
     when: Oct. 22
     date: '1962-10-22'
+    place: moscow
     thread: intelligence
     also: [missile-crisis, soviet-union]
     c: Moscow, just before the Presidium meets. The KGB arrests Penkovsky of the GRU, the CIA's and MI6's agent.
@@ -4207,6 +4763,7 @@ entries:
     when: Oct. 22
     date: '1962-10-22'
     time: 1962-10-22T16:00Z
+    place: paris
     thread: missile-crisis-diplomacy
     also: [europe-and-the-alliance-france]
     c: 'Paris, 5 p.m. Acheson, with Lyon, gives de Gaulle the President''s letter and the first part of his address; Sherman Kent ready with the photographs. De Gaulle: no French objection to the blockade, though he doubts it will get the missiles out; Moscow more likely to answer in Berlin; "France will act in accord with you." He appreciates being informed, after the decision.'
@@ -4399,6 +4956,7 @@ entries:
     when: Oct. 22
     date: '1962-10-22'
     time: 1962-10-22T11:00Z
+    place: peking
     thread: china
     c: Zhongnanhai, the Juxiang Shuwu, 7 p.m. Mao Zedong calls Zhou Enlai and others to a meeting.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (the entry for Oct. 20: "二十二日晚七时，在中南海菊香书屋召集周恩来等开会"). Made public: Check (2013 at the latest). See [[cal.1962-10-20.china]]. Names: Mao Zedong, Zhou Enlai. Check: the subject (the nianpu gives none).'
@@ -4419,6 +4977,7 @@ entries:
   - id: cal.1962-10-23.soviet-union
     when: Oct. 22–23
     date: '1962-10-22'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     follows:
@@ -4462,6 +5021,7 @@ entries:
   - id: cal.1962-10-22.europe-and-the-alliance
     when: Oct. 22
     date: '1962-10-22'
+    place: london
     thread: europe-and-the-alliance
     also: [missile-crisis]
     c: 'London, 8 to 11 p.m., Macmillan''s dinner for Norstad. Washington is urging a NATO alert: for Britain a Royal Proclamation and the reservists called up. Macmillan: "we wd not repeat not agree at this stage"; mobilization had sometimes caused war. Norstad agrees.'
@@ -4649,6 +5209,7 @@ entries:
     when: Oct. 23
     date: '1962-10-23'
     time: 1962-10-23T20:00Z
+    place: nyc
     thread: missile-crisis-diplomacy
     c: 'Stevenson to the Security Council from 4 p.m., his text finished as he speaks; the OAS resolution handed to him in the course of it. Kennedy wires him: "It has given our cause a great start."'
     n: '[[w.department-of-state-bulletin]], [Nov. 12, 1962, 723](https://archive.org/details/departmentofstat4762unit/page/723/mode/1up) (the statement of Oct. 23). [[w.schlesinger-thousand-days-1965]], 813–14. [[w.sorensen-kennedy]], 706. See [[cal.1962-10-16.missile-crisis]]. Names: Stevenson, Kennedy.'
@@ -4662,6 +5223,7 @@ entries:
   - id: cal.1962-10-23.missile-crisis-5
     when: Oct. 23
     date: '1962-10-23'
+    place: washington
     thread: missile-crisis-diplomacy
     also: [robert-kennedy, soviet-union]
     c: 'Evening. Robert Kennedy, at the President''s suggestion, with Dobrynin on the third floor of the Soviet Embassy: the Russians'' duplicity; the President''s far less belligerent course than Keating''s and Capehart''s, on Soviet assurances; the troops withdrawn from Thailand at Khrushchev''s request. The action "hypocritical, misleading and false." Dobrynin: so far as he knows, no missiles in Cuba.'
@@ -4707,6 +5269,7 @@ entries:
   - id: cal.1962-10-23.missile-crisis-7
     when: Oct. 23
     date: '1962-10-23'
+    place: washington
     thread: missile-crisis-diplomacy
     also: [robert-kennedy]
     c: 'At Robert Kennedy''s behest, Bartlett with Bolshakov at his office in the National Press Club, by the GRU''s record: the President "very angry," reminded of Pearl Harbor; he "does not want to invade Cuba," only to remove the MRBM bases, better through the UN. Later the same day, again, with the U-2 photographs on an easel: "So what do you see, Georgi?"'
@@ -4742,6 +5305,7 @@ entries:
   - id: cal.1962-10-23.missile-crisis-9
     when: Oct. 23
     date: '1962-10-23'
+    place: new-york-state
     thread: missile-crisis
     c: Rockefeller meets the New York State Defense Council.
     n: '[[w.smith-on-his-own-terms]], 383. See [[cal.1962-10-22.missile-crisis-11]]. Names: Rockefeller.'
@@ -4772,6 +5336,7 @@ entries:
   - id: cal.1962-10-23.missile-crisis-11
     when: Oct. 23
     date: '1962-10-23'
+    place: moscow
     thread: missile-crisis-quarantine
     also: [defense]
     c: The American Embassy in Moscow delivers the Defense Department's procedures for identifying submarines that try to pass the quarantine.
@@ -4808,6 +5373,7 @@ entries:
     when: Oct. 23
     date: '1962-10-23'
     time: 1962-10-23T23:10Z
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy]
     follows:
@@ -4877,6 +5443,7 @@ entries:
   - id: cal.1962-10-23.missile-crisis-16
     when: Oct. 23
     date: '1962-10-23'
+    place: washington
     thread: missile-crisis-diplomacy
     also: [europe-and-the-alliance]
     c: Dinner at the White House with the Ormsby-Gores, in place of a planned gala. Afterward Kennedy reviews the photographs with the Ambassador, who suggests the best be made public, the British press doubting the missiles are there; the President releases them.
@@ -4910,6 +5477,7 @@ entries:
   - id: cal.1962-10-23.vietnam-hanoi
     when: Oct. 23
     date: '1962-10-23'
+    place: hanoi
     thread: vietnam-hanoi
     c: 'Hanoi. The National Assembly''s fifth meeting of its second session (Oct. 22–27). Ưng Văn Khiêm on the Geneva conference on Laos: "a big victory," the 1954 accords reaffirmed and developed; peaceful negotiation "the best method" for pressing problems; Washington still meddling in Laos. On the border with India: support for "the correct position of China" and the hope of a negotiated settlement. Nguyễn Văn Hiếu, head of the NLF''s delegation: the war in the South "widening each day."'
     n: '[[w.asselin-hanois-road-to-the]], 124–26, 133, 142, 143. To check: Ưng Văn Khiêm''s report and Nguyễn Văn Hiếu''s address, Oct. 23, 1962, Hồ sơ 740, Phông Quốc hội, VNAC3 (cited by [[w.asselin-hanois-road-to-the]], 125 n.40, 126 n.48, 133 n.115, 142 n.151, 143 n.163). See [[cal.1962-07-23.laos]]. Names: Nguyễn Văn Hiếu, Ưng Văn Khiêm. Check: Asselin, 133, puts Khiêm''s words on the border "in the autumn of 1962"; the note is this report (133 n.115).'
@@ -5023,6 +5591,7 @@ entries:
     when: Oct. 23
     date: '1962-10-23'
     time: 1962-10-22T21:00Z
+    place: peking
     thread: south-asia
     also: [china]
     c: 'Zhongnanhai, the Juxiang Shuwu, 5 a.m. Mao Zedong calls Zhou Enlai and others together on settling the armed conflict on the border with India. Decided: a statement by the central government proposing an end to the conflict, renewed peaceful talks and a settlement of the boundary; Zhou to direct its drafting.'
@@ -5044,7 +5613,12 @@ entries:
     thread: missile-crisis-diplomacy
     also: [soviet-union]
     c: 'Moscow. The Soviet government''s statement on Kennedy''s address: the quarantine piracy, a step toward a world thermonuclear war; Cuba''s arms for its defense; all foreign troops to come home; the Security Council to be called. Approved by the Presidium that day, for the press.'
-    n: 'P 60/I, Oct. 23, 1962, item 1, and *Zayavlenie Sovetskogo pravitel''stva* (the revised draft). [[w.prezidium-tsk-kpss-1954]], III, 339–45 (341: "Соединенные Штаты Америки делают шаг на пути к развязыванию мировой термоядерной войны" (the United States is taking a step toward unleashing a world thermonuclear war)); I, 1109 n.3 (the editors: published Oct. 23; "но если агрессоры развяжут войну, то Советский Союз нанесет самый мощный ответный удар" (but if the aggressors unleash war, the Soviet Union will strike the most powerful return blow); the defensive arms to go if all foreign bases go). See [[cal.1962-10-22.soviet-union]]. Check: the volume prints the revised draft (III, 340 n.д); the text as published not read. Names: Kennedy.'
+    n: 'P 60/I, Oct. 23, 1962, item 1, and *Zayavlenie Sovetskogo pravitel''stva* (the revised draft). [[w.prezidium-tsk-kpss-1954]], III, 339–45 (341: "Соединенные Штаты Америки делают шаг на пути к развязыванию мировой термоядерной войны" (the United States is taking a step toward unleashing a world thermonuclear war)); I, 1109 n.3 (the editors: published Oct. 23; "но если агрессоры развяжут войну, то Советский Союз нанесет самый мощный ответный удар" (but if the aggressors unleash war, the Soviet Union will strike the most powerful return blow); the defensive arms to go if all foreign bases go). [[w.yang-shangkun-riji]], II, 219 (Oct. 23, 1962; as noted at Peking: the Soviet Union rejects Kennedy''s demand, "but weakly"). See [[cal.1962-10-22.soviet-union]]. Check: the volume prints the revised draft (III, 340 n.д); the text as published not read. Names: Kennedy.'
+    src:
+      c: 3ba18da5
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 III, 339–45: ?'
+        - 'w.yang-shangkun-riji II, 219: A'
     tags: [name:kennedy-john-f, polity:ussr, polity:us, polity:cuba]
   - id: cal.1962-10-23.missile-crisis-anadyr
     when: Oct. 23
@@ -5076,6 +5650,7 @@ entries:
   - id: cal.1962-10-23.missile-crisis-diplomacy-4
     when: Oct. 23
     date: '1962-10-23'
+    place: london
     thread: missile-crisis-diplomacy
     c: The Cabinet, 10:30 a.m. to 1 p.m. Macmillan on Cuba, the documents read aloud, not circulated. Ministers "rather shaken, but satisfied."
     n: '[[w.macmillan-diaries]], 510. Names: Macmillan.'
@@ -5145,8 +5720,24 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Li Xiannian on the market and foreign exchange. On farm-product purchase: this year''s purchase may not be met, a serious problem; some goods, grain for one, may not enter the free market before the purchase task is done.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 563–564 (Oct. 23, 1962). Made public: 1996. Names: Liu Shaoqi, Li Xiannian.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 563–564 (Oct. 23, 1962); [[w.yang-shangkun-riji]], II, 219 (Oct. 23, 1962; 3:30 to 6 p.m.; Liu Shaoqi and Li Xiannian not named). Made public: 1996. Names: Liu Shaoqi, Li Xiannian.'
     tags: [polity:prc, name:liu-shaoqi, name:li-xiannian, vis:only:prc]
+  - id: cal.1962-10-23.china-leadership-2
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: china-leadership
+    c: Tian Jiaying 田家英 and Chen Bingchen 陈秉忱 with Yang Shangkun 杨尚昆 on handling the letters of the public.
+    n: '[[w.yang-shangkun-riji]], II, 219 (Oct. 23, 1962). The words: 上午 (II, 219). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Chen Bingchen, Yang Shangkun.'
+    src:
+      c: e8d56028
+      rows:
+        - 'w.yang-shangkun-riji II, 219: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-22T22:00Z
+      - 1962-10-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-24.missile-crisis
     when: Oct. 24
     date: '1962-10-24'
@@ -5229,6 +5820,7 @@ entries:
   - id: cal.1962-10-24.missile-crisis-4
     when: Oct. 24
     date: '1962-10-24'
+    place: nyc
     thread: missile-crisis-diplomacy
     c: 'U Thant to the Security Council, and in messages to Kennedy and Khrushchev at the asking of many members: a voluntary suspension of arms shipments to Cuba and of the quarantine, for two or three weeks, to give time for talks. No provision for verification, by Ball''s account; Washington against.'
     n: 'Message to the Acting Secretary General of the United Nations, [1962 Pub. Papers 811](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=871) (Oct. 25, 1962), note (the appeal). [[w.ball-past-has-another-pattern]], 300 (the proposal; no verification). See [[cal.1962-10-14.missile-crisis]]. Names: U Thant, Kennedy, Khrushchev.'
@@ -5285,6 +5877,7 @@ entries:
   - id: cal.1962-10-24.robert-kennedy
     when: Oct. 24
     date: '1962-10-24'
+    place: nashville
     thread: robert-kennedy
     c: The Test Fleet trial, Nashville. James C. Tippens, a prospective juror, tells Judge Miller a neighbor offered him $10,000 to vote for Hoffa; excused. The neighbor, Lawrence Medlin, later convicted of attempted bribery.
     n: '[[w.navasky-kennedy-justice]], 418–19. See [[cal.1962-10-22.robert-kennedy]]. Names: Hoffa.'
@@ -5302,6 +5895,7 @@ entries:
   - id: cal.1962-10-24.cuba
     when: Oct. 24
     date: '1962-10-24'
+    place: miami
     thread: cuba
     also: [robert-kennedy, missile-crisis]
     c: 'San Roman to Robert Kennedy by telephone from Miami: the CIA means to send some sixty exiles into Cuba for intelligence for an invasion. News to Kennedy; on the telephone he learns the CIA is already putting teams in. By San Roman''s account.'
@@ -5321,6 +5915,7 @@ entries:
   - id: cal.1962-10-24.missile-crisis-6
     when: Oct. 24
     date: '1962-10-24'
+    place: moscow
     thread: missile-crisis-diplomacy
     also: [soviet-union]
     c: 'Moscow. Khrushchev summons W. E. Knox, president of Westinghouse Electric International: a blockade illegal except in war; stopping and searching Soviet ships piracy; Soviet submarines would sink an American ship that forced a Soviet ship to stop; the missiles in Cuba admitted; Kennedy should agree to a meeting.'
@@ -5512,6 +6107,7 @@ entries:
     when: Oct. 24
     date: '1962-10-24'
     time: 1962-10-23T18:00Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai receives the UAR''s Ambassador, Zakaria Adli Imam, and takes from him Nasser''s letter on the Sino-Indian border. He gives China''s account: three proposals to negotiate refused before the conflict; India demands a withdrawal first; the 1959 offer of a 20-kilometer pullback and no patrols refused, China withdrew alone, India sent troops in; the "forward policy" provoked the clashes and on Oct. 6 India refused talks a third time. China fights back under a full attack and holds to reopening talks.'
@@ -5523,9 +6119,58 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 338: A'
     tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-24.china-leadership-2
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: china-leadership
+    c: Cui Yitian 崔义田 and Huang Shuze 黄树则 with Yang Shangkun 杨尚昆 on the Peking Hospital.
+    n: '[[w.yang-shangkun-riji]], II, 219 (Oct. 24, 1962). The words: 下午 (II, 219). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Cui Yitian, Huang Shuze, Yang Shangkun.'
+    src:
+      c: 28d512ea
+      rows:
+        - 'w.yang-shangkun-riji II, 219: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-24T04:00Z
+      - 1962-10-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-24.china-leadership-3
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: china-leadership
+    c: Hu Yaobang 胡耀邦 with Yang Shangkun 杨尚昆 on his impressions of Albania 阿尔巴尼亚.
+    n: '[[w.yang-shangkun-riji]], II, 219 (Oct. 24, 1962). The words: 下午 (II, 219). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Hu Yaobang, Yang Shangkun.'
+    src:
+      c: e7bd086a
+      rows:
+        - 'w.yang-shangkun-riji II, 219: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-24T04:00Z
+      - 1962-10-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-24.china-leadership-4
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: china-leadership
+    c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 219 (Oct. 24, 1962). The words: 晚间 (II, 219). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    src:
+      c: 7096bff4
+      rows:
+        - 'w.yang-shangkun-riji II, 219: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-24T11:00Z
+      - 1962-10-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-25.missile-crisis
     when: Oct. 25
     date: '1962-10-25'
+    place: nyc
     thread: missile-crisis-diplomacy
     c: Stevenson and Zorin at the Security Council. "Until hell freezes over." The photographs shown.
     n: '[U.N. Security Council, *Official Records*, 17th year, 1025th meeting, Oct. 25, 1962](https://documents.un.org/doc/undoc/gen/nl6/200/05/pdf/nl620005.pdf). [[w.reeves-president-kennedy]], 405–406 (Stevenson and Zorin); [[w.fursenko-khrushchevs-cold-war]], 482–83; [[w.sorensen-kennedy]], 706–07 (the exchange); [[w.odonnell-johnny-we-hardly-knew]], 378–79 (Stevenson''s cross-examination of Zorin before the Security Council, the photographs of the missile sites displayed; Zorin: "I am not in an American courtroom"; Stevenson: "You are in the courtroom of world opinion right now and you can answer yes or no"; not "Until hell freezes over"; no day given). [[w.ball-past-has-another-pattern]], 302. To check: [[w.martin-adlai-stevenson-and-the]]. See [[cal.1962-10-16.missile-crisis]]. Names: Stevenson, Zorin. Check: Ball (302) puts the exchange the evening of Oct. 24.'
@@ -5624,6 +6269,7 @@ entries:
     when: Oct. 25
     date: '1962-10-25'
     time: 1962-10-25T20:00Z
+    place: paris
     thread: missile-crisis-diplomacy
     also: [europe-and-the-alliance-jupiters]
     c: 'Finletter from Paris, 9 p.m.: the Turks set great store by the Jupiters, a symbol of the Alliance''s will to use atomic weapons in Turkey''s defense; obsolescence no matter. Any arrangement not agreed beforehand by Ankara "most damaging"; one not putting some other considerable atomic capability in Turkey in their place would be rejected.'
@@ -5637,6 +6283,7 @@ entries:
   - id: cal.1962-10-25.soviet-union
     when: Oct. 25
     date: '1962-10-25'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis]
     part_of: cal.1962-10-25.soviet-union-leadership
@@ -5832,6 +6479,7 @@ entries:
   - id: cal.1962-10-25.europe-and-the-alliance
     when: Oct. 25
     date: '1962-10-25'
+    place: london
     thread: europe-and-the-alliance
     c: 'The Cabinet, 2:45 to 5:15 p.m., on the Home Secretary''s committee''s papers on "the future pattern of Britain": industrial location, housing, offices, transport. The "Liberal" survivors (Erroll, the Lord Chancellor, the Minister of Health) against the "Dirigists" (Brooke, Keith Joseph, the Secretary of State for Scotland). Macmillan''s summing up put off to Monday. Cuba left to him and Home; railway wages, Beeching and the unions.'
     n: '[[w.macmillan-diaries]], 512 (n.98: the Cabinet Committee on Population and Employment). Names: Macmillan, Douglas-Home, Erroll, Brooke, Joseph, Beeching.'
@@ -5869,6 +6517,7 @@ entries:
   - id: cal.1962-10-25.soviet-union-leadership
     when: Oct. 25
     date: '1962-10-25'
+    place: moscow
     thread: soviet-union-leadership
     follows:
       - cal.1962-10-25.missile-crisis-2
@@ -5884,6 +6533,7 @@ entries:
   - id: cal.1962-10-25.china-leadership
     when: Oct. 25
     date: '1962-10-25'
+    place: peking
     thread: china-leadership
     also: [china, korea]
     c: Peking Hotel. Zhou Enlai attends the banquet given by the DPRK Embassy's chargé d'affaires, Jong Bong-gu, for the 12th anniversary of the Chinese People's Volunteers' entry into the Korean War.
@@ -5911,6 +6561,38 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 503–504: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 249: all'
     tags: [polity:prc]
+  - id: cal.1962-10-25.china-leadership-3
+    when: Oct. 25
+    date: '1962-10-25'
+    thread: china-leadership
+    c: Yang Shangkun 杨尚昆, at work in the evening, has a violent stomach-ache.
+    n: '[[w.yang-shangkun-riji]], II, 219 (Oct. 25, 1962). The words: 晚间散步后，办公时 (II, 219). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a63ec314
+      rows:
+        - 'w.yang-shangkun-riji II, 219: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-25T11:00Z
+      - 1962-10-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-25.china-leadership-4
+    when: Oct. 25
+    date: '1962-10-25'
+    thread: china-leadership
+    c: Gong Zirong 龚子荣 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 219 (Oct. 25, 1962; note 1: Gong Zirong). The words: 上午 (II, 219). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gong Zirong, Yang Shangkun.'
+    src:
+      c: '59355767'
+      rows:
+        - 'w.yang-shangkun-riji II, 219: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-24T22:00Z
+      - 1962-10-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-26.missile-crisis
     when: Oct. 26
     date: '1962-10-26'
@@ -6029,6 +6711,7 @@ entries:
   - id: cal.1962-10-26.soviet-union
     when: Oct. 26
     date: '1962-10-26'
+    place: moscow
     thread: soviet-union
     also: [missile-crisis, intelligence]
     c: 'Moscow, early. Reports that the Americans are readying an attack for Oct. 27: Warren Rogers of the *Herald Tribune*, in the Pentagon''s pool for an invasion, overheard with his editor, Robert Donovan, at the National Press Club bar the night before by an émigré bartender; Heffernan of Reuters and a KGB source, "Garn," the same; Dorticós''s fears to the GRU. Khrushchev decides to seek his diplomatic way out.'
@@ -6046,6 +6729,7 @@ entries:
   - id: cal.1962-10-26.cuba
     when: Oct. 26–27
     date: '1962-10-26'
+    place: havana
     thread: cuba
     also: [missile-crisis]
     c: 'Havana, overnight. Castro dictates a letter to Khrushchev at Alekseyev''s: "if they actually carry out the brutal act of invading Cuba, that would be the moment to eliminate such danger forever through an act of legitimate defense, however harsh and terrible the solution would be."'
@@ -6126,6 +6810,7 @@ entries:
     when: Oct. 26
     date: '1962-10-26'
     time: 1962-10-26T18:30Z
+    place: washington
     thread: cuba
     also: [missile-crisis, robert-kennedy]
     c: '2:30 p.m., the Special Group (Augmented), the Chiefs'' operations room at the Pentagon. Robert Kennedy at Harvey: why send exiles into Cuba now without approval? Harvey: in support of the military''s planning; the Kennedys to blame for the Bay of Pigs and the crisis. Kennedy walks out. McCone later: "Harvey has destroyed himself today."'
@@ -6208,6 +6893,7 @@ entries:
     when: Oct. 26
     date: '1962-10-26'
     time: 1962-10-26T14:00Z
+    place: bonn
     thread: missile-crisis-diplomacy
     also: [berlin-and-vienna]
     c: 'Schröder''s office, 3 p.m. Smirnov, the Soviet Ambassador, hands Schröder his government''s statement and asks Bonn to condemn the American aggression and use its influence with its allies. Schröder: the evidence shows Cuba made an offensive base, missiles of 1,800 to 3,700 km; peace threatened in Berlin too, where the Soviets are leaving the four powers'' footing.'
@@ -6283,7 +6969,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Zhang Jichun, director of the State Council''s Office of Culture and Education, on the 1962 adjustment and execution in culture and education and the 1963 arrangements. The song-and-dance troupes are to be cut greatly, and are cut too little; they are not good to run, and what is to become of the children dancing and singing half-trained? For dancing there are dancing schools, for singing music schools; the troupes are to be cut. Village health: the rural health work needs a presentable hospital in each county, the hard cases to be treated there, and a part of the funds for village relief may go to medical care.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 26, 1962). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 26, 1962); [[w.yang-shangkun-riji]], II, 219 (Oct. 26, 1962; 3:30 to 6 p.m., the "culture and education sector" 文教口; Liu Shaoqi and Zhang Jichun not named). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-10-26.china-3
     when: Oct. 26
@@ -6302,6 +6988,7 @@ entries:
     date: '1962-10-27'
     time: 1962-10-27T14:00Z
     time_approx: true
+    place: moscow
     thread: missile-crisis
     c: 'Khrushchev''s second letter, broadcast over Moscow radio: the means the United States calls offensive out of Cuba, the American means out of Turkey; the Security Council to inspect.'
     n: 'FRUS 1961–63, VI, doc. [66](https://history.state.gov/historicaldocuments/frus1961-63v06/d66). [[w.ball-past-has-another-pattern]], 305; [[w.fursenko-one-hell-of-a]], 274–76, 278 (dictated before the Presidium; broadcast to save time); [[w.fursenko-khrushchevs-cold-war]], 488 (the Presidium; broadcast by Radio Moscow); [[w.sorensen-kennedy]], 712; [[w.sorensen-kennedy]], 712 (the Jupiters in Turkey in exchange); [[w.prezidium-tsk-kpss-1954]], I, 623 (Protocol 62: the letter dictated, approved, to be broadcast at 5 p.m.); [[w.prezidium-tsk-kpss-1954]], III, 367–73 (P 62/I and the text: the means called offensive out of Cuba, the like means out of Turkey; the Security Council''s agents to verify; of A, the terms but not the broadcast, which is in I, 623); [[w.odonnell-johnny-we-hardly-knew]], 381 (while the Ex Comm met Saturday morning to draft a reply to the first letter, Radio Moscow announced the text of a second, stern letter: the Soviet missiles out of Cuba only if the Jupiters left Turkey; Thompson: Khrushchev''s advisers had talked him into trying for the trade; not "the means the United States calls offensive" or the Security Council inspection). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev.'
@@ -6483,6 +7170,7 @@ entries:
   - id: cal.1962-10-27.berlin-and-vienna
     when: Oct. 27
     date: '1962-10-27'
+    place: moscow
     thread: berlin-and-vienna
     also: [soviet-union]
     c: Moscow. Khrushchev and several of the Presidium with a large East German delegation under Ulbricht, at Ulbricht's request. What was said is not known; Ulbricht leaves satisfied.
@@ -6523,6 +7211,7 @@ entries:
     date: '1962-10-27'
     time: 1962-10-27T23:00Z
     time_approx: true
+    place: washington
     thread: missile-crisis-excomm
     also: [robert-kennedy, europe-and-the-alliance-jupiters]
     c: 'About 7 p.m., the Oval Office: the President with Rusk, McNamara, Bundy, Sorensen, Robert Kennedy and a few others, sworn to secrecy. Robert Kennedy to see Dobrynin: the missiles out and no invasion, or "further action was unavoidable"; no public deal on Turkey, but the Jupiters to go after the crisis; any Soviet mention of it to void it. Made public by Bundy, 1988.'
@@ -6551,6 +7240,7 @@ entries:
     when: Oct. 27
     date: '1962-10-27'
     time: 1962-10-27T20:30Z
+    place: washington
     thread: missile-crisis-diplomacy
     follows:
       - cal.1962-10-27.missile-crisis-2
@@ -6624,6 +7314,7 @@ entries:
   - id: cal.1962-10-27.vietnam-hanoi
     when: Oct. 27
     date: '1962-10-27'
+    place: hanoi
     thread: vietnam-hanoi
     also: [korea]
     c: 'The National Assembly closes. Trường Chinh, chairman of its Standing Committee: China and India to settle "in the spirit of Bandung." Its declaration for North Korea''s call to get the Americans out of the South. Nghiêm Xuân Yêm and Hoàng Minh Giám: the NLF has taken up "peace negotiations" toward "gradual reunification."'
@@ -6753,6 +7444,7 @@ entries:
     when: Oct. 27
     date: '1962-10-27'
     time: 1962-10-27T01:30Z
+    place: peking
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai again receives the UAR's Ambassador and again sets out the truth of the border question and China's constant stand for a peaceful settlement. On Oct. 29 he writes about it to Nasser and to Ne Win, Chairman of Burma's Revolutionary Council and Chairman of the Council of Ministers.
@@ -6770,7 +7462,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Han Guang, deputy director of the State Science Commission, on science and its tasks. Science must be grasped: without modernizing the research departments first the whole country cannot be modernized. On farm science: our population is three times the Soviet Union''s and four times America''s but our cultivated land is only 1.6 billion mu, fewer than theirs; Americans eat less grain and more meat than we do, ours is enough; so mountains and forests and wild plants are to be developed greatly, livestock raising too. On certificates and prizes for invention: a little bonus is also needed; besides politics, some material stimulus.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 27, 1962). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 27, 1962); [[w.yang-shangkun-riji]], II, 220 (Oct. 27, 1962; 3:30 to 5 p.m., the Science Commission; Liu Shaoqi and Han Guang not named). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-10-27.china-2
     when: Oct. 27
@@ -6793,11 +7485,12 @@ entries:
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'
+    place: moscow
     thread: missile-crisis
     follows:
       - cal.1962-10-28.soviet-union-leadership
     c: 'Radio Moscow: the missiles to be dismantled and returned. Castro refuses inspection.'
-    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro); [[w.salinger-with-kennedy]], 273 (Salinger hears the radio flash driving to work: Khrushchev agrees to withdraw the missiles and tear down the sites for a guarantee against invasion; not Castro); [[w.macfarquhar-origins-of-the-cultural]], III, 316 (Khrushchev agrees on Oct. 28 to remove the missiles and dismantle the installations; the book''s table also dates the stopping of the first ship by the US Navy Oct. 26). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. To check: [[w.beschloss-crisis-years]], 431–575 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106a); [[w.khrushchev-khrushchev-remembers]], 498, 504 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106c); Bulletin of the Cold War International History Project, No. 5, Spring 1995 ([[w.scholars-bulletin-of-the-cold]]), 58 ff. (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106e). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
+    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro); [[w.salinger-with-kennedy]], 273 (Salinger hears the radio flash driving to work: Khrushchev agrees to withdraw the missiles and tear down the sites for a guarantee against invasion; not Castro); [[w.macfarquhar-origins-of-the-cultural]], III, 316 (Khrushchev agrees on Oct. 28 to remove the missiles and dismantle the installations; the book''s table also dates the stopping of the first ship by the US Navy Oct. 26); [[w.yang-shangkun-riji]], II, 220 (Oct. 28, 1962; as noted at Peking: the Soviet Union has ordered the offensive weapons in Cuba dismantled). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. To check: [[w.beschloss-crisis-years]], 431–575 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106a); [[w.khrushchev-khrushchev-remembers]], 498, 504 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106c); Bulletin of the Cold War International History Project, No. 5, Spring 1995 ([[w.scholars-bulletin-of-the-cold]]), 58 ff. (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106e). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
     src:
       c: affedac6
       rows:
@@ -6821,6 +7514,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106c: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106d: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106e: ?'
+        - 'w.yang-shangkun-riji II, 220: A'
     tags: [name:castro-fidel, name:khrushchev-nikita-s]
     time_range:
       - 1962-10-28T09:00Z
@@ -6885,6 +7579,7 @@ entries:
   - id: cal.1962-10-28.alabama-birmingham
     when: Oct. 28
     date: '1962-10-28'
+    place: birmingham
     thread: alabama-birmingham
     also: [labor]
     c: 'Birmingham''s three commissioners, Connor among them, in secret with the firemen''s leaders: a million-dollar raise if the firemen vote against the new charter. A reformer tapes it. Radio advertisements before the vote: a fireman, "Do we get the raise regardless of how the election comes out next Tuesday?"; Mayor Arthur Hanes, "Absolutely not. You don''t get your raises unless we are here to give it to you."'
@@ -6922,6 +7617,7 @@ entries:
   - id: cal.1962-10-28.missile-crisis-4
     when: Oct. 28
     date: '1962-10-28'
+    place: moscow
     thread: missile-crisis-anadyr
     also: [cuba, soviet-union]
     follows:
@@ -6946,6 +7642,7 @@ entries:
   - id: cal.1962-10-28.robert-kennedy
     when: Oct. 28
     date: '1962-10-28'
+    place: washington
     thread: robert-kennedy
     also: [missile-crisis]
     follows:
@@ -7111,6 +7808,7 @@ entries:
   - id: cal.1962-10-28.missile-crisis-diplomacy-2
     when: Oct. 28
     date: '1962-10-28'
+    place: rhondorf
     thread: missile-crisis-diplomacy
     also: [europe-and-the-alliance]
     c: 'Rhöndorf, 11:30 a.m. to 1:15 p.m., Globke present. Dowling brings Adenauer Kennedy''s answer to Khrushchev and asks his view: the United States may soon have to bomb the sites or invade, within twenty-four hours, he expects. Adenauer: "er sei für beide Maßnahmen; die Basen müßten weg" (he was for both measures; the bases must go), for an invasion too; more pressure on Castro, an ultimatum of twenty-four hours. Bonn''s man at NATO to be instructed so.'
@@ -7124,6 +7822,7 @@ entries:
     when: Oct. 28
     date: '1962-10-28'
     time: 1962-10-28T12:00Z
+    place: london
     thread: missile-crisis-diplomacy
     c: 'London, noon. Macmillan to Khrushchev, Butler, Home, Thorneycroft and Heath agreeing: the missiles to be taken out of Cuba, as the Americans demand; then to more constructive work, disarmament and the like. Sent through diplomatic channels; Moscow''s climb-down came by radio as they finished lunch.'
     n: '[[w.macmillan-diaries]], 513–14. See [[cal.1962-10-28.missile-crisis]]. Names: Macmillan, Khrushchev, Butler, Douglas-Home, Thorneycroft, Heath.'
@@ -7131,6 +7830,7 @@ entries:
   - id: cal.1962-10-28.china
     when: Oct. 28
     date: '1962-10-28'
+    place: peking
     thread: china
     also: [cuba, missile-crisis-settlement]
     c: Peking. Zhou Enlai chairs a rally of more than ten thousand in support of "the heroic Cuban comrades"; a telegram of solidarity to Fidel Castro.
@@ -7171,6 +7871,7 @@ entries:
   - id: cal.1962-10-28.china-leadership
     when: Oct. 28
     date: '1962-10-28'
+    place: peking
     thread: china-leadership
     also: [china, laos]
     c: Peking. Zhou Enlai meets Prince Souphanouvong, chairman of the Neo Lao Hak Xat.
@@ -7188,6 +7889,7 @@ entries:
   - id: cal.1962-10-28.china-leadership-2
     when: Oct. 28
     date: '1962-10-28'
+    place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai meets Hoàng Văn Hoan, member of the Politburo of the Lao Động Party's Central Committee.
@@ -7202,6 +7904,19 @@ entries:
       - 1962-10-28T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-28.china-leadership-3
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: china-leadership
+    also: [south-asia]
+    c: Yang Shangkun 杨尚昆 finishes, late at night, the *Renmin ribao* 人民日报 editorial article of Oct. 27 on Nehru's 尼赫鲁 philosophy.
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 28, 1962; note 2: "More on Nehru''s philosophy in the light of the Sino-Indian boundary question" 《从中印边界问题再论尼赫鲁的哲学》, parts one and two). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: *Renmin ribao*, Oct. 27, 1962 (cited by [[w.yang-shangkun-riji]], II, 220 n.2). Names: Yang Shangkun, Nehru.'
+    src:
+      c: 828751b3
+      rows:
+        - 'w.yang-shangkun-riji II, 220: all'
+        - 'via w.yang-shangkun-riji II, 220 n.2: all'
+    tags: [polity:prc, name:nehru-jawaharlal, vis:only:prc]
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -7271,6 +7986,7 @@ entries:
   - id: cal.1962-10-29.cuba-2
     when: Oct. 29
     date: '1962-10-29'
+    place: havana
     thread: cuba
     also: [intelligence]
     c: 'The KGB in Havana to the Center: Castro''s talk with his military leaders; Piñeiro, chief of Cuban intelligence, on the Soviet decision.'
@@ -7444,6 +8160,56 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 251: all'
     tags: [polity:prc, polity:algeria]
+  - id: cal.1962-10-29.china-leadership-2
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: china-leadership
+    c: Tan Zhenlin's 谭震林 meeting on placing people on the state farms; Yang Shangkun 杨尚昆 attends.
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 29, 1962). The words: 上午参加了两个会……到1时才吃中饭 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tan Zhenlin, Yang Shangkun.'
+    src:
+      c: 40eb3b3a
+      rows:
+        - 'w.yang-shangkun-riji II, 220: all'
+    tags: [polity:prc, name:tan-zhenlin, vis:only:prc]
+    time_range:
+      - 1962-10-28T22:00Z
+      - 1962-10-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-29.china-leadership-3
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: china-leadership
+    follows:
+      - cal.1962-10-29.china-leadership-2
+    c: The Secretariat 书记处 on international activities, to 1 p.m.
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 29, 1962). The words: 上午参加了两个会 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: 5d265a79
+      rows:
+        - 'w.yang-shangkun-riji II, 220: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-28T22:00Z
+      - 1962-10-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-29.china-leadership-4
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: china-leadership
+    c: The Women's Federation reports to Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 29, 1962). The words: 下午 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: a771344d
+      rows:
+        - 'w.yang-shangkun-riji II, 220: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-29T04:00Z
+      - 1962-10-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-30.missile-crisis
     when: Oct. 30
     date: '1962-10-30'
@@ -7473,6 +8239,7 @@ entries:
   - id: cal.1962-10-30.missile-crisis-2
     when: Oct. 30
     date: '1962-10-30'
+    place: washington
     thread: missile-crisis-settlement
     also: [robert-kennedy, europe-and-the-alliance-jupiters]
     c: 'Robert Kennedy calls Dobrynin to his office and gives back Khrushchev''s unsigned letter, by his notes: "No quid pro quo as I told you. ... I told you we would be out of them — 4–5 months. That still holds. ... You have my word on this & that is sufficient." Any published document indicating a deal, and it is off. Dobrynin withdraws the letter.'
@@ -7747,6 +8514,7 @@ entries:
   - id: cal.1962-10-30.desegregation-schools
     when: Oct. 30
     date: '1962-10-30'
+    place: chicago
     thread: desegregation-schools
     c: Chicago. The State Superintendent of Public Instruction opens hearings on the charges of segregation The Woodlawn Organization has lodged with him, *Webb* having been dismissed for want of the State's remedies. Continued Dec. 3–5. Segregation or overcrowding argued again.
     n: '[[w.anderson-confronting-the-color-line]], 94–95. To check: See *Chicago Sun-Times*, 31 October 1962 and 6 December 1962; *Chicago Daily Defender*, 31 October 1962 and 5 December 1962; *Chicago Daily News*, 30 October 1962 and 5 December 1962 (cited by [[w.anderson-confronting-the-color-line]], 95 n.67). See [[cal.1962-07-31.desegregation-schools]].'
@@ -7817,6 +8585,7 @@ entries:
     when: Oct. 30–31
     date: '1962-10-30'
     time: 1962-10-30T02:15Z
+    place: peking
     thread: china-leadership
     also: [china, south-asia]
     c: 'Zhou Enlai receives Malcolm MacDonald, once of the British Labour Party and a member of Parliament, a guest of Chen Yi for three weeks; talks Oct. 30 and 31 on China''s construction, Sino-American and Sino-British relations and the Sino-Indian border. China needs peace to build; it relies on the peasants'' drive and collective organization, the production team the basic unit; of the Americans, China pays no heed to hostile deceit and history will show it right. On the border: the British government, little informed, speaks from tradition, which is unreal and resented; one should speak from the facts.'
@@ -7842,6 +8611,35 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 503–504: all'
     tags: [polity:prc]
+  - id: cal.1962-10-30.china-leadership-3
+    when: Oct. 30
+    date: '1962-10-30'
+    time: 1962-10-30T01:00Z
+    thread: china-leadership
+    c: The Streamlining Group 精简小组, 9 a.m. to noon.
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 30, 1962). The words: 上午9时到12时 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    src:
+      c: a6c872fc
+      rows:
+        - 'w.yang-shangkun-riji II, 220: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-30.china-leadership-4
+    when: Oct. 30
+    date: '1962-10-30'
+    thread: china-leadership
+    c: He Jun 何均 and Mei Xing 梅行 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 220 (Oct. 30, 1962). The words: 下午 (II, 220). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: He Jun, Mei Xing, Yang Shangkun.'
+    src:
+      c: 2687d04d
+      rows:
+        - 'w.yang-shangkun-riji II, 220: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-30T04:00Z
+      - 1962-10-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-31.cuba
     when: Oct. 31
     date: '1962-10-31'
@@ -7877,6 +8675,7 @@ entries:
   - id: cal.1962-10-31.intelligence
     when: Oct. 31
     date: '1962-10-31'
+    place: washington
     thread: intelligence
     also: [missile-crisis, congress]
     c: 'The KGB in Washington to the Center, quoting three congressional staff members: relief on the Hill when the expected military action did not come.'
@@ -7946,6 +8745,7 @@ entries:
   - id: cal.1962-10-31.missile-crisis
     when: Oct. 31
     date: '1962-10-31'
+    place: nyc
     thread: missile-crisis-settlement
     c: 'New York. McCloy with Kuznetsov, an hour: the United States will continue its aerial surveillance of Cuba from tomorrow until the UN can verify; the gravest danger if a plane is fired on. Kuznetsov: the dismantling done by Nov. 2 or 3; the antiaircraft weapons in Cuban hands.'
     n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 129](https://history.state.gov/historicaldocuments/frus1961-63v11/d129) (USUN to State, 10:50 p.m.). [[w.sorensen-kennedy]], 719–20 (the reconnaissance continued, the UN unable to mount a substitute, with formal notice to the Soviets). See [[cal.1962-10-30.missile-crisis-5]]. Names: McCloy, Kuznetsov.'
@@ -7989,6 +8789,7 @@ entries:
   - id: cal.1962-10-31.vietnam-diplomacy
     when: Oct. 31
     date: '1962-10-31'
+    place: hanoi
     thread: vietnam-diplomacy
     c: 'Blackwell, the new British consul general at Hanoi, on undisclosed sources: the common line of Hanoi and the NLF on reunification may be "a façade"; the Front pressed for a neutral South Vietnam with Cambodia and Laos under international guarantee, Hanoi fearing it would put off reunification; the Front "more independent" of Hanoi than assumed.'
     n: '[[w.asselin-hanois-road-to-the]], 138. To check: the British Consulate General at Hanoi to the Southeast Asia Department, Oct. 31, 1962, FO 371/166725 (cited by [[w.asselin-hanois-road-to-the]], 138 n.133).'
@@ -8310,7 +9111,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at the Politburo briefings and hears Li Fuchun, vice-premier, on the 1963 national economic plan, and Gu Zhuoxin, deputy director of the State Planning Commission, on capital construction. The economy has begun to turn, but work must still be kept tight.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 31, Nov. 1, 1962). Made public: 1996. Names: Liu Shaoqi, Li Fuchun.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 31, Nov. 1, 1962); [[w.yang-shangkun-riji]], II, 221 (Oct. 31, 1962; 3:30 to 6 p.m., Li Fuchun on the 1963 plan, Oct. 31; Nov. 1, 3:30 to 6, the Planning Commission on capital construction; Liu Shaoqi not named). Made public: 1996. Names: Liu Shaoqi, Li Fuchun.'
     tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc]
   - id: cal.1962-10.china
     when: Oct.–Dec. 6
@@ -8427,3 +9228,36 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 426–427: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ben-bella-ahmed, name:abbas-ferhat, polity:algeria]
+  - id: cal.1962-10-31.china-leadership-4
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: china-leadership
+    also: [cuba]
+    c: Yang Shangkun 杨尚昆 reads papers on Cuba 古巴.
+    n: '[[w.yang-shangkun-riji]], II, 221 (Oct. 31, 1962). The words: 上午 (II, 221). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    src:
+      c: 0bca3d57
+      rows:
+        - 'w.yang-shangkun-riji II, 221: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-30T22:00Z
+      - 1962-10-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-31.china-leadership-5
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: china-leadership
+    c: Wang Zhen 王震 with Yang Shangkun 杨尚昆.
+    n: '[[w.yang-shangkun-riji]], II, 221 (Oct. 31, 1962). The words: 晚间……王震同志来谈话 (II, 221). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Zhen, Yang Shangkun.'
+    src:
+      c: 956374f6
+      rows:
+        - 'w.yang-shangkun-riji II, 221: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-31T11:00Z
+      - 1962-10-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
