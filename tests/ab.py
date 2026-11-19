@@ -1,13 +1,14 @@
 """A/B: the same data checked and built by the code of two git revisions, and the outputs compared.
 
-    python3 tests/ab.py REV_A REV_B [--data DIR] [--build WHICH | --no-build] [--keep]
+    python3 tests/ab.py REV_A REV_B [--data DIR | --own-data] [--build WHICH | --no-build] [--keep]
 
-For each revision, the code (`tools/`, `bib`, `templates/`) is taken out of git (`git archive`; a REV of "." is the
-working tree, uncommitted changes and all) into a temporary tree, and every other top-level entry of the data directory (--data; default: this checkout) is linked into it, so
-both sides read the very same files, whatever the revisions' own data. Each side runs `./bib check` and then
-`./bib build [WHICH] --force` (all pages unless --build names one; --no-build skips it), each in its own tree, so
-their build/ directories are their own. Then: the check outputs compared, and every file under build/ compared byte
-for byte (but for NONDETERMINISTIC, a feed's time of writing): the files only one side wrote, the files that differ, and the first differing lines of each.
+For each revision, the code (`tools/`, `bib`, `templates/`) is taken out of git (`git archive`; a REV of "." is
+the working tree, uncommitted changes and all) into a temporary tree, and every other top-level entry of the data
+directory (--data; default: this checkout) is linked into it, so both sides read the very same files, whatever the
+revisions' own data. Each side runs `./bib check` and then `./bib build [WHICH] --force` (all pages unless --build
+names one; --no-build skips it), each in its own tree, so their build/ directories are their own. Then the check
+outputs are compared, and every file under build/ byte for byte (but for NONDETERMINISTIC, a feed's time of
+writing): the files only one side wrote, the files that differ, and the first differing lines of each.
 
 With --own-data each side is instead the whole of its revision, data included: for a commit whose code change
 implies a data change (a generated file's hash), against the commit before it.
