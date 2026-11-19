@@ -281,6 +281,8 @@ def apply_patch(series, patch, source, report, dry=False):
         fn(series, body or {}, source, report, touched)
         series.invalidate()
     pending, _addops.PENDING = _addops.PENDING, None
+    if report.errors == errors:
+        place_loose(touched, report)
     if not dry and report.errors == errors:
         for sec in touched:
             series.save_section(sec)
@@ -717,3 +719,15 @@ def new_patch_path(name):
     os.makedirs(d, exist_ok=True)
     stamp = datetime.date.today().isoformat()
     return os.path.join(d, f"{stamp}-{store.slug(name, 8)}.yaml")
+
+
+def place_loose(touched, report):
+    """A loose date's intercalary day, set where the entry's own `when` gives one and `at` is missing (loose.at_for;
+    loose.py, STYLE 3a), on the entries of the sections the patch touched: written with them, or not at all."""
+    from . import loose
+    for sec in sorted(touched, key=lambda s: str(s.id)):
+        for e in sec.entries:
+            a = loose.at_for(e)
+            if a and not loose.at_problems(dict(e, at=a)):
+                e["at"] = a
+                report.add("placed", e["id"], f"at: {a} (when {e['when']!r})")

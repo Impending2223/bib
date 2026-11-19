@@ -151,6 +151,10 @@ def entry_problems(series, lst, sec, e, idx=None, threads=None):
     # at: the intercalary day a loose date sits on (loose.py)
     for msg in loose.at_problems(e):
         out.append((ERROR, msg, "general"))
+    want = loose.at_for(e) if lst.kind == "calendar" else None     # the ghost day its own `when` gives (loose.py, 3a)
+    if want and not loose.at_problems(dict(e, at=want)):
+        out.append((WARN, f"when {e.get('when')!r} places it on an intercalary day: at: {want} "
+                          "(./bib loose-dates --apply, or merge, sets it)", "loose-at"))
     return out
 
 def run(series, only=None):

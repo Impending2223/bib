@@ -18,3 +18,8 @@ Today: 3,913 entries are dated to a month only; 818 of them say more in `when` (
 
 ## Open
 - The zone of the seasons' days (Washington, or UTC).
+
+## Nov. 19: the ghost days propagated (approved: "extend the rule, flag in check, place at merge")
+- More wordings read (loose.py, STYLE 3, 3a): a month's "first week" (early), "second week" (before the 8th), "third week" (before the 15th), "last week", "the last days", "end", "about the end" (late), "mid-" (mid); a year's "early", "first half" (before January's block: "Early 1962"), "mid-", "mid-year" (before May's), "second half" (before July's), "late" (before September's), a season (before its day). A year's part is `at: before YYYY-MM`, drawn before that month's block: "1962", "Early 1962", "January", "Early January", Jan. 1 ...; "Mid-1962", "May", "Early May", May 1 ....
+- Where the earliest day implied is the month's or the year's first ("by the 15th", "early in the year" on a January entry, "1966, by the year's end"), the entry stays in the block. Days named by a festival or a lunar date: notes/proposals/loose-dates-days.md, for the lead.
+- `./bib check` warns `[loose-at]` on an entry whose `when` gives an `at` it lacks; `./bib merge` sets it on the entries of the sections a patch touches.
