@@ -867,3 +867,5 @@ But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, 
 "I've added a number of items from the 'most-cited items not on the Drive' list you gave me. I've also added a number of volumes of 毛泽东思想万岁, including what may be a single PDF with the entire Wuhan series, in 1592 pages, and a series of small volumes with only year and month dates to mark them. Are you able to match these to known bibliographic items or series?" (Nov. 18, about 6:25 p.m. Pacific.)
 
 "Please do add a place field. Put the location pass in the next available slot." (Nov. 18, about 6:50 p.m. Pacific.)
+
+"I've added Dikötter's Mao's Great Famine and Yang Jisheng's two works to the shared drive. Do you have a view on where we should put them in the queue?" (Nov. 18, about 8:28 p.m. Pacific.)
