@@ -61,7 +61,7 @@ def derived_tags(series, lst, sec, e):
     if lst.kind == "calendar":
         if "thread" in e:
             t += [f"thread:{e['thread']}"] + [f"thread:{x}" for x in e.get("also", [])]
-            t += ["event", f"month:{e['date'][:7]}"]
+            t += ["event"] + ([f"month:{e['date'][:7]}"] if len(str(e.get("date") or "")) >= 7 else [])
         else:
             t.append("thread")
     else:
@@ -406,6 +406,13 @@ def cmd_ledger(series, a):
         for where, d, t, i, w in ledger.find(series, a.args[0], a.until, a.thread):
             print(f"{d}  {t or '-':28} {i:48} {where}: {w}")
         return 0
+    if a.what == "drop":
+        if len(a.args) < 2:
+            print("ledger drop PATCH ID [ID...]")
+            return 2
+        gone = ledger.drop(a.args[1:], a.args[0])
+        print(f"released {len(gone)}: " + " ".join(gone) if gone else "released none (no line names those ids under that patch)")
+        return 0 if gone else 1
     print(f"pruned {ledger.prune(series)} lines")
     return 0
 
@@ -466,6 +473,21 @@ def cmd_audit_patches(series, a):
     """Pending patches read together before any is merged (tools/bib/patchaudit.py)."""
     from . import patchaudit
     print(patchaudit.report(series, a.patches))
+    return 0
+
+
+def cmd_notes_coverage(series, a):
+    """The pages the calendar cites for a work against the pages its notes are registered for (tools/bib/notescov.py)."""
+    from . import notescov
+    for card in a.cards:
+        print(notescov.report(card, a.limit))
+    return 0
+
+
+def cmd_loose_dates(series, a):
+    """`at` set on month-dated calendar entries from their `when` (tools/bib/loosedates.py): a dry run by default."""
+    from . import loosedates
+    print(loosedates.run(series, apply=a.apply, listing=a.list))
     return 0
 
 
@@ -778,9 +800,27 @@ def cmd_works(series, a):
     if cmd == "combine":
         if len(rest) != 2:
             raise SystemExit("works combine KEEP DROP")
-        for s_ in works.combine(series, rest[0], rest[1]):
-            series.save_section(s_)
-        cat.save()
+        # under the works lock, the catalogue re-read, and only the card files the fold touches written (Nov. 18,
+        # 2026: a whole-catalogue save here could overwrite cards other readers were writing at the same moment)
+        import fcntl
+        with open(os.path.join(store.ROOT, "works", ".lock"), "w") as lk:
+            fcntl.flock(lk, fcntl.LOCK_EX)
+            series = store.Series()
+            cat = series.works
+            k, d = cat.get(rest[0]), cat.get(rest[1])
+            if k is None or d is None:
+                raise SystemExit(f"works combine: no card {rest[0] if k is None else rest[1]}")
+            drop_file = cat.file_of.get(d["id"])
+            pointing = [c["id"] for c in cat.cards.values()
+                        if any(c.get(f) == d["id"] for f in ("in", "edition_of", "translates"))]
+            for s_ in works.combine(series, rest[0], rest[1]):
+                series.save_section(s_)
+            for cid in {k["id"], *pointing}:
+                cat.save(cid)
+            if drop_file and drop_file != cat.file_of.get(k["id"]):
+                left = [c for c in cat.cards.values() if cat.file_of.get(c["id"]) == drop_file]
+                if left:
+                    cat.save(left[0]["id"])
         print(f"{rest[1]} -> {rest[0]}: {plain(cat.render(rest[0]))}")
         return
     if cmd == "inventory":
@@ -888,6 +928,11 @@ def cmd_import(a):
     print("imported; run ./bib check and ./bib build")
 
 
+def cmd_readme(series, a):
+    from . import readme
+    return readme.run(series, check=a.check)
+
+
 # ---------------------------------------------------------------- entry point
 
 def main(argv=None):
@@ -895,6 +940,8 @@ def main(argv=None):
     sub = p.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("status", help="lists, counts, conflicts, inbox, stale pages")
+    x = sub.add_parser("readme", help="rewrite README.md's calendar pages and counts (--check: say if stale, exit 1)")
+    x.add_argument("--check", action="store_true")
     x = sub.add_parser("outline", help="a list's sections and the files that hold them")
     x.add_argument("list")
     x = sub.add_parser("find", help="search entries; prints id, file:line, and a one-line summary")
@@ -938,8 +985,8 @@ def main(argv=None):
     x = sub.add_parser("patch-check", help="a patch held to the rules before it is handed in (tools/bib/patchcheck.py)")
     x.add_argument("patches", nargs="+")
     x.add_argument("--legacy", action="store_true", help="a patch written before the ledger: an unclaimed add warns")
-    x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | prune")
-    x.add_argument("what", choices=["add", "find", "prune"])
+    x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | drop PATCH ID... | prune")
+    x.add_argument("what", choices=["add", "find", "drop", "prune"])
     x.add_argument("args", nargs="*")
     x.add_argument("--until")
     x.add_argument("--thread")
@@ -953,6 +1000,12 @@ def main(argv=None):
     x.add_argument("ids", nargs="*")
     x.add_argument("--inline", action="store_true")
     x.add_argument("--write", action="store_true")
+    x = sub.add_parser("notes-coverage", help="pages a work is cited for with no notes registered: notes-coverage CARD...")
+    x.add_argument("cards", nargs="+")
+    x.add_argument("--limit", type=int, default=60)
+    x = sub.add_parser("loose-dates", help="set at: on month-dated calendar entries from their when (dry run; --apply)")
+    x.add_argument("--apply", action="store_true")
+    x.add_argument("--list", action="store_true", help="name the entries left for a reader")
     x = sub.add_parser("stemma", help="each unit's witnesses to the roots: stemma ID... [--unit B]; --leads")
     x.add_argument("ids", nargs="*")
     x.add_argument("--unit")

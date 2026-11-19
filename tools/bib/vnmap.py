@@ -348,12 +348,12 @@ def _summary(c):
 def _ents(series, rows, with_year=False):
     """The entries a map shows, for its data: link (on the calendar page the entry is in), when, thread, the first
     words of the statement, places, provinces; and the year, on the page of its own."""
-    from . import calsplit
+    from . import calsplit, loose
     from .build import thread_name
     lst = series.lists["cal"]
     out = []
     for e, pl, pv in rows:
-        half = calsplit.half_of_date(lst, e["date"]) if calsplit.cfg(lst) else None
+        half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else None
         x = {"h": calsplit.href(lst, half or 1, e["id"]), "w": e["when"], "t": thread_name(lst, e["thread"]),
              "s": _summary(e.get("c")), "p": [p for p in pl if p in gazetteer()], "v": pv}
         if with_year:

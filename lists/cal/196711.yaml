@@ -222,6 +222,33 @@ entries:
     c: 'Johnson to Rostow: "I can''t clean up all the mess the New York Times leaves behind while these old pros and intellectuals [at Radio Free Europe] sit silent."'
     n: '[[w.dallek-flawed-giant]], 492. To check: LBJ to Rostow, Nov. 1, 1967, Handwriting File (cited by [[w.dallek-flawed-giant]], 492 n.142). Names: Johnson, Rostow.'
     tags: [name:johnson-lyndon-b, name:rostow-walt-w]
+  - id: cal.1967-11-01.china-leadership
+    when: Nov. 1
+    date: '1967-11-01'
+    time: 1967-11-01T07:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Vietnam's ambassador in the Fujian Hall of the Great Hall of the People, who hands over the statement of the Vietnamese government of Oct. 30 strongly condemning the U.S. aircraft's recent repeated bombing of Hanoi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 1, 1967; 3 p.m., Fujian Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 182 (Nov. 1, 1967; Zhou to the DRV ambassador: China backs the Vietnamese government''s statement of Oct. 30 condemning the bombing of Hanoi, and hails the Vietnamese victories; the bombing shows weakness, not strength). The book names the ambassador 吴明鸾. Names: Zhou Enlai.'
+    src:
+      c: 453558d8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 182: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-11-01.china-leadership-2
+    when: Nov. 1
+    date: '1967-11-01'
+    thread: china-leadership
+    also: [china]
+    c: The Inner Mongolian Revolutionary Committee is established.
+    n: '[[w.macfarquhar-maos-last-revolution]], 170. To check: [[w.xuan-wenhua-dageming-jianshi]], 183–186 (cited by [[w.macfarquhar-maos-last-revolution]], 170 n.2).'
+    src:
+      c: fa4f8ec8
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 170: all'
+    tags: [polity:prc]
   - id: cal.1967-11-02.mayors-memphis
     when: Nov. 2
     date: '1967-11-02'
@@ -389,6 +416,14 @@ entries:
       - 1967-11-03T05:00Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1967-11-02.china-leadership
+    when: Nov. 2–5
+    date: '1967-11-02'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai, over four days, holds talks on the problems of Shaanxi, Guangdong, Guangxi, Heilongjiang and other provinces, meaning to settle seven provinces soon.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 194 (Nov. 2–5, 1967). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-03.vietnam
     when: Nov. 3
     date: '1967-11-03'
@@ -545,8 +580,26 @@ entries:
     date: '1967-11-03'
     thread: china-leadership
     c: 'Mao reads the sixth draft of the editorial of the *Renmin ribao*, *Hongqi* and *Jiefangjun bao* for the 50th anniversary of the October Revolution, "March Forward Along the Road the October Socialist Revolution Opened": "revised well; usable." Chen Boda and Yao Wenyuan: the "six points on the Chairman''s thought" are newly put in order; they say: the contradiction between classes goes on in the socialist stage; the bourgeois restoration is a danger; the struggle is power again.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 3, 1967. Made public: 2013. Names: Mao Zedong, Chen Boda, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 3, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 194 (Nov. 6, 1967; the *Renmin ribao*, *Hongqi* and *Jiefangjun bao* editorial for the 50th anniversary of the October Revolution, drafted under Chen Boda and Yao Wenyuan and approved by Mao, first summing up Mao''s views on class struggle in socialist society as the "theory of continuing revolution under the dictatorship of the proletariat"); [[w.jianguo-yilai-mao-zedong]], XIX, 179–181 (Nov. 3, 1967; Mao''s note of 5 p.m. Nov. 3 on the envelope of the sixth draft, and his one deletion, the fifteen characters ''is the Marxism-Leninism that remolds people''s souls'' after ''Mao Zedong Thought is the highest level of Marxism-Leninism of the present age''; the six points are listed in n.3). Made public: 2013. To check: Chen Boda and Yao Wenyuan, sixth draft of the editorial for the 50th anniversary of the October Revolution, sent to Mao Nov. 3, 1967 with the note that the six points on Chairman Mao''s thought were newly arranged and Lenin''s words fully quoted (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 180 n.3). Names: Mao Zedong, Chen Boda, Yao Wenyuan.'
+    src:
+      c: 2f7de040
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 3, 1967: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 194: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 179–181: A-E'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 180 n.3: all'
     tags: [name:mao-zedong, name:chen-boda, name:yao-wenyuan, polity:prc, vis:only:prc]
+  - id: cal.1967-11-03.china-leadership-2
+    when: Nov. 3
+    date: '1967-11-03'
+    thread: china-leadership
+    c: 'The *Renmin ribao* 人民日报 prints three plans for the revolution in education (Tongji University, the Peking Forestry Institute, the Peking Normal University''s reform group) with an editors'' note that sets in bold type a passage of Mao''s 毛泽东, undated in the book: the proletarian educational revolution is to rely on the broad mass of revolutionary students, revolutionary teachers and revolutionary workers in the schools, and on their activists, the proletarian revolutionaries resolved to carry the Cultural Revolution through.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 182 (Nov. 3, 1967). Check: when Mao said it; the book dates it ''1967'' and prints it from the *Renmin ribao* of Nov. 3. Names: Mao Zedong.'
+    src:
+      c: af0d3f4a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 182: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1967-11-04.governors-la
     when: Nov. 4
     date: '1967-11-04'
@@ -608,6 +661,22 @@ entries:
     c: 'Hickory Hill, Saturday night and the next morning. Robert Kennedy to Schlesinger, who had sent him a letter on his own change of views, on 1968: to challenge Johnson now "a great mistake," to be taken as evidence of "his ruthlessness, his ambition and of a personal vendetta"; McCarthy''s entry into the primaries will "help open things up"; he has "no alternative but to wait," hoping that as McCarthy beats Johnson in the primaries State leaders will ask him to run. Meanwhile "refurbishing his national contacts." By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 264 (the journal of Nov. 7). See [[cal.1967-11-03.robert-kennedy-campaign]]. Names: Robert Kennedy, Schlesinger, Johnson, McCarthy. Check: the day (the editors'' bracket, "[Saturday]").'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b, name:mccarthy-eugene-j, state:va]
+  - id: cal.1967-11-04.china-leadership
+    when: Nov. 4
+    date: '1967-11-04'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai has his secretary tell the Center's investigation group at Kashgar to stay on and finish the sealing of arms and the union of the two factions.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 191 (under Oct. 13, 1967). Made public: 2020. See [[cal.1967-10-13.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-04.china-leadership-2
+    when: Nov. 4
+    date: '1967-11-04'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai forwards the agreement of the two Tongchuan factions.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 193 (under Oct. 29, 1967). Made public: 2020. See [[cal.1967-10-29.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-05.vietnam
     when: Nov. 5
     date: '1967-11-05'
@@ -633,7 +702,14 @@ entries:
     date: '1967-11-05'
     thread: china-leadership
     c: Mao to the Group's liaison meeting on the Ninth Congress and rectification. First reports on it can be put together and sent round for more; the views on rectification too. A year and more of fighting has brought out many bad men; "we must fight out a party." Rectification cannot be finished before the Congress; after it, by the new program and rules, rectify and build further. Members must be lively; the lifeless need not apply. Admit workers, poor peasants, Red Guard activists; "the old blood has too much carbon dioxide."
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 5, 1967. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 5, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 194 (Nov. 5, 1967; Zhou at the Group''s small liaison meeting at Mao''s); [[w.jianguo-yilai-mao-zedong]], XIX, 183 (Nov. 5, 1967; the passage on a proletarian party''s need to breathe out the old and take in the new, said to members of the Group''s liaison meeting on the Ninth Congress and Party rectification; printed from the *Renmin ribao* of Oct. 16, 1968, which reprinted the *Hongqi* editorial of Oct. 14, 1968 quoting it). Made public: 2013. Names: Mao Zedong.'
+    src:
+      c: c2be7fdf
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 5, 1967: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 194: ?'
+        - 'w.jianguo-yilai-mao-zedong XIX, 183: A, K'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 183 n.1: all'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-11-05.china-leadership-2
     when: Nov. 5
@@ -813,6 +889,61 @@ entries:
         - 'w.debenedetti-american-ordeal 199: all'
         - 'via w.debenedetti-american-ordeal 199 n.128: all'
     tags: [name:rubin-jerry]
+  - id: cal.1967-11-06.china-leadership
+    when: Nov. 6
+    date: '1967-11-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou attends in the Great Hall of the People the rally of the capital's people marking the fiftieth anniversary of the October Revolution.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 6, 1967; Great Hall of the People; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 3b1d5496
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1967-11-06.china-leadership-2
+    when: Nov. 6
+    date: '1967-11-06'
+    thread: china-leadership
+    c: Zhou goes to the airport to welcome 412 Chinese aid experts and technicians who return to Peking from Burma on five special planes.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 6, 1967; afternoon; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: 2d0cff32
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1967-11-06T04:00Z
+      - 1967-11-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1967-11-06.china-leadership-3
+    when: Nov. 6
+    date: '1967-11-06'
+    time: 1967-11-06T08:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives Ceylon's minister of commerce and trade and the government trade delegation he leads in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 6, 1967; 4 p.m., Fujian Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 182 (Nov. 6, 1967; Zhou and Li Xiannian receive the delegation under Pieris; Zhou: in or out of the U.N. all the same to China). The book names the minister 佩里斯. Names: Zhou Enlai.'
+    src:
+      c: 2197446c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 182: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-11-06.china
+    when: Nov. 6
+    date: '1967-11-06'
+    thread: china
+    also: [south-asia]
+    c: China and Ceylon sign a trade and payments agreement and a protocol on the exchange of goods for 1968.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 182 (Nov. 6, 1967). See [[cal.1967-11-06.china-leadership-3]].'
+    src:
+      c: 99ea1eb8
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 182: all'
+    tags: [polity:prc, polity:ceylon]
   - id: cal.1967-11-07.press-and-broadcasting
     when: Nov. 7
     date: '1967-11-07'
@@ -1187,7 +1318,13 @@ entries:
     date: '1967-11-07'
     thread: china-leadership
     c: 'Mao reads the Group''s *Kuaibao* no. 5290 of Nov. 5, "Chen Yonggui on the Cultural Revolution in the Villages": "To Boda and the Group: may go to the villages." Chen: the aim is the handful in the Party on the capitalist road and their black hounds in the provinces, prefectures, counties; not the grass-roots cadres; not to bring down all; where revolutionary committees exist, the county and commune lead; rely on the poor and lower-middle peasants. He strikes Liu''s, Deng''s and Tao''s names after "the Party''s biggest handful on the capitalist road" in the Center''s notice forwarding it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 7, 1967. Made public: 2013. Names: Mao Zedong, Chen Boda, Chen Yonggui, Liu Shaoqi, Deng Xiaoping, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 7, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 184–185 (Nov. 7, 1967; Mao''s note ''to Boda and the Group''; n.1 gives the five parts of Chen Yonggui''s talk; Mao also strikes Liu Shaoqi''s, Deng Xiaoping''s and Tao Zhu''s names from the Center''s notice forwarding it, issued Nov. 7). Made public: 2013. To check: Quick Bulletin (Kuaibao 快报) no. 5290, Nov. 5, 1967, printed by the Cultural Revolution Group''s office: ''Comrade Chen Yonggui on the Cultural Revolution movement in the villages'' (Chen Yonggui tongzhi tan nongcun de wenhua da geming yundong 陈永贵同志谈农村的文化大革命运动), five parts (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 184 n.1). Names: Mao Zedong, Chen Boda, Chen Yonggui, Liu Shaoqi, Deng Xiaoping, Tao Zhu.'
+    src:
+      c: f753229c
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 7, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 184–185: A-H'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 184 n.1: all'
     tags: [name:mao-zedong, name:chen-boda, name:liu-shaoqi, name:deng-xiaoping, name:tao-zhu, polity:prc, vis:only:prc]
   - id: cal.1967-11-07.china-leadership-2
     when: Nov. 7
@@ -1195,8 +1332,36 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao reads Zhou Enlai''s draft of that day for the 50th anniversary of the October Revolution, a telegram to the Supreme Soviet''s Presidium and the Council of Ministers. Zhou: in the name of the Standing Committee of the National People''s Congress and the State Council only, to congratulate the Soviet people; not again in the Party''s name. Mao: "do it."'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 7, 1967. Made public: 2013. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 7, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 194 (Nov. 7, 1967; Zhou''s letter to Mao proposing the telegram). Made public: 2013. Names: Mao Zedong, Zhou Enlai.'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-07.china-leadership-4
+    when: Nov. 7
+    date: '1967-11-07'
+    thread: china-leadership
+    c: Zhou goes to the airport to welcome Hill, chairman of the Central Committee of the Communist Party of Australia (Marxist-Leninist).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 7, 1967; afternoon; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: 50d6f565
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1967-11-07T04:00Z
+      - 1967-11-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1967-11-07.china-leadership-5
+    when: Nov. 7
+    date: '1967-11-07'
+    thread: china-leadership
+    c: 'Mao 毛泽东 to Yao Wenyuan 姚文元, on Yao''s report of Nov. 6 sending *Dangtuanyuan qingkuang* 党团员情况 no. 15, compiled Nov. 3 by the revolutionary committee of the Shanghai 上海 *Zhibu shenghuo* 支部生活, on the recent thinking of Shanghai''s Party members, which asks for new rules for taking in new members: this may be sent to Lin Biao 林彪, Zhou Enlai 周恩来 and the Group''s members to read.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 186 (Nov. 7, 1967). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. To check: Yao Wenyuan, report of Nov. 6, 1967 sending Mao ''Party and Youth League members'' conditions'' (Dangtuanyuan qingkuang 党团员情况) no. 15, compiled Nov. 3 by the revolutionary committee of the Shanghai *Zhibu shenghuo* 支部生活, on Shanghai Party members'' recent thinking; he asks Mao''s instruction on new rules for admitting new members (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 186 n.1). Names: Mao Zedong, Yao Wenyuan, Lin Biao, Zhou Enlai.'
+    src:
+      c: 8a734997
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 186: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 186 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:yao-wenyuan, name:lin-biao, name:zhou-enlai, vis:only:prc]
   - id: cal.1967-11-08.women
     when: Nov. 8
     date: '1967-11-08'
@@ -1350,6 +1515,41 @@ entries:
     time_band: morning
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1967-11-08.china-leadership-3
+    when: Nov. 8
+    date: '1967-11-08'
+    thread: china-leadership
+    also: [china]
+    c: The two Guangxi factions in Peking reach the ten-point agreement on promoting the great revolutionary alliance.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 194 (under Nov. 2, 1967). Made public: 2020. See [[cal.1967-11-02.china-leadership]]. Names: Zhou Enlai.'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-11-08.china-leadership
+    when: Nov. 8
+    date: '1967-11-08'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai sends to Mao for approval, and then issues, the Center's Instruction on the Cultural Revolution at the Grass Roots of the Villages this Winter and Next Spring.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 194 (Nov. 8, 1967). Names: Zhou Enlai, Mao Zedong.'
+    tags: [name:zhou-enlai, name:mao-zedong, polity:prc]
+  - id: cal.1967-11-08.china-leadership-2
+    when: Nov. 8
+    date: '1967-11-08'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, in the evening, receives the Canton delegates in Peking and criticizes bodies that go to the military control committees Mao Zedong Thought classes to seize cadres: telephone home at once and release them; cadres in the classes are protected by the committee. Cadres are not to be met with factionalism but with Party spirit; being rebels is no license. Asked whether democratic persons are to take part in the "four bigs": no.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 194–195 (Nov. 8, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-08.china-leadership-4
+    when: Nov. 8
+    date: '1967-11-08'
+    thread: china-leadership
+    c: Zhou receives the foreign guests of the Afro-Asian Writers' Permanent Bureau.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 8, 1967; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: d7fe522c
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1967-11-09.space
     when: Nov. 9
     date: '1967-11-09'
@@ -1513,8 +1713,42 @@ entries:
     date: '1967-11-09'
     thread: china-leadership
     c: 'Mao reads the Center''s draft instruction on the Cultural Revolution in village grass roots for this winter and spring: "do it." Adds that only a few places, struck by disaster or held by capitalist-roaders and the "five black categories," are not good; strikes Liu''s, Deng''s and Tao''s names; the three-level ownership with the team the base, and the private plots, to stay; production teams generally not to seize power. Issued Dec. 4.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 9, 1967. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 9, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 187–188 (Nov. 9, 1967; Mao''s note ''Do as proposed'' and his added passage in article 1 (the poor and lower-middle peasants further mobilized; only a small part of the stricken areas and those held by capitalist-roaders and landlords, rich peasants, counter-revolutionaries, bad elements and rightists in a bad way); the draft was sent by Zhou, Kang Sheng, Chen Boda and Jiang Qing Nov. 8 and the Center issued the instruction Dec. 4; the book dates Mao''s note only ''Nov. 1967''). Made public: 2013. To check: Draft Central Committee instruction on the Cultural Revolution at the grass roots of the villages this winter and next spring (Guanyu jin dong ming chun nongcun jiceng wenhua da geming de zhishi 关于今冬明春农村基层文化大革命的指示), sent to Mao by Zhou Enlai, Kang Sheng, Chen Boda and Jiang Qing Nov. 8, 1967; issued Dec. 4, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 187 n.1). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Tao Zhu.'
+    src:
+      c: 78a9030a
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 9, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 187–188: A-C, F'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 187 n.1: all'
     tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:tao-zhu, polity:prc, vis:only:prc]
+  - id: cal.1967-11-09.china-leadership-3
+    when: Nov. 9
+    date: '1967-11-09'
+    thread: china-leadership
+    also: [china]
+    c: The Center, State Council, Military Commission and Cultural Revolution Group issue the instruction on settling the Tongchuan coal mine.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 193 (under Oct. 29, 1967). Made public: 2020. See [[cal.1967-10-29.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-11-09.china-leadership-2
+    when: Nov. 9
+    date: '1967-11-09'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, on Henan''s request to seize power and form a revolutionary committee: first the great revolutionary alliance and the three-in-one, then talk of power and a committee; one faction may not seize power or set up a committee.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 9, 1967). Made public: 2020. See [[cal.1967-11-09.china-leadership]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-09.china-leadership-4
+    when: Nov. 9
+    date: '1967-11-09'
+    thread: china-leadership
+    also: [japan]
+    c: Guo Moruo receives the delegation of friendly trading firms of the Kobe branch of the Japan International Trade Promotion Association, led by Murakami Shōjirō, with its secretary-general and all its members.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 182 (Nov. 9, 1967). Check: the names, from the Chinese 村上正二郎 and 滤贵雄.'
+    src:
+      c: 3723c7fc
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 182: all'
+    tags: [polity:prc, polity:japan]
   - id: cal.1967-11-10.governors-tx
     when: Nov. 10
     date: '1967-11-10'
@@ -1626,6 +1860,29 @@ entries:
     c: Moscow. Brezhnev, with Ponomarev, receives Ali Sabri of the Arab Socialist Union.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 221 (Nov. 10). Names: Brezhnev, Ponomarev, Sabri.'
     tags: [name:brezhnev-leonid, name:ponomarev-boris-n, polity:ussr, polity:uar, polity:gdr]
+  - id: cal.1967-11-10.china-leadership
+    when: Nov. 10
+    date: '1967-11-10'
+    thread: china-leadership
+    c: Zhou gives a banquet for Hill, chairman of the Communist Party of Australia (Marxist-Leninist).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 10, 1967; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: d616f247
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1967-11-10.china
+    when: Nov. 10
+    date: '1967-11-10'
+    thread: china
+    also: [japan]
+    c: 'The China Council for the Promotion of International Trade and the Kobe branch''s delegation issue a joint statement: the U.S. is the common enemy of the Chinese and Japanese peoples, and both sides will hold to the three political principles, the three trade principles and the principle that politics and economics are inseparable, to develop the two peoples'' friendly trade.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 183 (Nov. 10, 1967).'
+    src:
+      c: a12a1920
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 183: all'
+    tags: [polity:prc, polity:japan, polity:us]
   - id: cal.1967-11-11.war-opposition
     when: Nov. 11
     date: '1967-11-11'
@@ -1715,6 +1972,21 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-11-11.china-leadership
+    when: Nov. 11
+    date: '1967-11-11'
+    thread: china-leadership
+    c: Zhou Enlai calls the State Council business group on foreign trade and foreign aid, with Li Fuchun, Li Xiannian, Chen Yi, Nie Rongzhen, Su Yu and Yu Qiuli.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 11, 1967). Made public: 2020. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Chen Yi, Nie Rongzhen, Su Yu, Yu Qiuli.'
+    tags: [name:zhou-enlai, name:li-fuchun, name:li-xiannian, name:chen-yi, name:nie-rongzhen, polity:prc, vis:only:prc]
+  - id: cal.1967-11-11.china-leadership-2
+    when: Nov. 11
+    date: '1967-11-11'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai chairs the enlarged liaison meeting of the Cultural Revolution Group, which adopts papers on the Guangdong and Guangxi questions.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 11, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-12.opinion
     when: Nov. 12
     date: '1967-11-12'
@@ -1787,6 +2059,13 @@ entries:
     c: 'The Center, State Council, Military Commission and Group issue, Mao having read and agreed, the decision on Guangdong: a preparatory group for the Guangdong revolutionary committee of Huang Yongsheng, Chen Yu, Kong Shiquan, Wang Shoudao, Chen De and representatives of the great-alliance mass bodies. The same day, the notice on the ten-article agreement for a great alliance reached by Guangxi''s two sides in Peking on Nov. 8.'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 12, 1967. Made public: 2013. Names: Mao Zedong, Huang Yongsheng, Chen Yu, Kong Shiquan, Wang Shoudao, Chen De.'
     tags: [name:mao-zedong, name:huang-yongsheng, polity:prc, vis:only:prc]
+  - id: cal.1967-11-12.china-leadership-2
+    when: Nov. 12
+    date: '1967-11-12'
+    thread: china-leadership
+    c: Zhou Enlai receives the ambassadors abroad and the rebels of the embassies in turn.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 12, 1967). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-13.vietnam-order-of-battle
     when: Nov. 13
     date: '1967-11-13'
@@ -1931,6 +2210,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-11-13.china-leadership
+    when: Nov. 13
+    date: '1967-11-13'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai, to make sure of a good Canton autumn fair, talks that evening with delegates of Canton's and Zhanjiang's mass bodies and asks them to unite and write a Letter to the People of Canton calling all bodies, workers, peasants, soldiers, students and traders, Party and government offices and service trades to pull together for the fair, and not fight "civil war" now. No one may sabotage or disturb; the military control committee may detain trouble-makers.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 13, 1967). Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
   - id: cal.1967-11-14.foreign-aid
     when: Nov. 14
     date: '1967-11-14'
@@ -2046,6 +2333,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-11-14.china-leadership
+    when: Nov. 14
+    date: '1967-11-14'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai, for the sixth time, receives Guangdong's mass delegates in Peking, reads and explains the Decision of the Center, State Council, Military Commission and Cultural Revolution Group on the Guangdong Question, and asks them to go home to study, rectify, break provincialism, liberate cadres and reach the great alliance; to reach it a batch of cadres must be freed.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 14, 1967). Made public: 2020. To check: the Decision on the Guangdong Question, as issued. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-14.china-leadership-2
+    when: Nov. 14
+    date: '1967-11-14'
+    thread: china-leadership
+    also: [china]
+    c: The Center, State Council, Military Commission and Cultural Revolution Group issue the Notice that army-level and higher offices of all military regions are not for now to hold the "four bigs" and that units below army keep to positive education, drawn up under Zhou Enlai.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 14, 1967, the item after). See [[cal.1967-11-12.china-leadership]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
   - id: cal.1967-11-13.vietnam
     when: Nov. 15
     date: '1967-11-15'
@@ -2183,14 +2486,27 @@ entries:
     date: '1967-11-15'
     thread: china-leadership
     c: 'Mao reads Yunnan military control commission''s report of Nov. 11 to the Military Commission and Group on carrying out the call to hold study classes in Mao''s thought: to the Group and the liaison meeting: to be sent round, short and to the point; to be discussed and decided. Gains: the petty-bourgeois faction, mountaintopism and small-group thinking much checked, the great alliance helped; the release of revolutionary cadres better grasped.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1967. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 189–190 (Nov. 15, 1967; Mao''s note of Nov. 15 (''short and to the point; it states the essence of the problem'') on Yunnan''s brief of Nov. 11, which gives 356 study classes with over 13,000 students by the end of Oct.). Made public: 2013. To check: Yunnan Military Control Commission, brief of Nov. 11, 1967 to the Military Commission and the Cultural Revolution Group on the study classes in Mao Zedong Thought in the prefectures and counties: 356 classes held or under way by the end of Oct., over 13,000 taking part; three gains and five lessons (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 189 n.1). Names: Mao Zedong.'
+    src:
+      c: c761e840
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 15, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 189–190: A-D'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 189 n.1: all'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-11-15.china-leadership-2
     when: Nov. 15
     date: '1967-11-15'
     thread: china-leadership
     c: 'Mao reads the Beijing Knitting Mill revolutionary committee''s notice of Nov. 11 on its founding, and the Unit 8341''s report of the 13th on its support of industry: "seen, very good; thanks, comrades!" The Center sends them round on Nov. 17.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1967. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 103–104 (Nov. 15, 1967; Mao''s note ''Seen, very good, thank you, comrades!'' on the mill''s letter of Nov. 11 and the unit''s report of Nov. 13; the Center sent them to all regions Nov. 17). Made public: 2013. To check: Peking Knitting General Mill revolutionary committee, letter of good news to Mao Zedong, Nov. 11, 1967: with the help of the left-supporting troops the mill quickly achieved the great alliance and the three-in-one and set up its revolutionary committee (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 103 n.1b); Unit 8341 of the PLA, report of Nov. 13, 1967 to Mao Zedong on the support of industry at the Peking Knitting General Mill: the three points of Mao carried out, a medical team that treated nearly 2,000 persons (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 103 n.1c). Names: Mao Zedong.'
+    src:
+      c: 376bd2e2
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 15, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 103–104: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 103 n.1b: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 103 n.1c: all'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-11-15.vietnam-hanoi
     when: Nov. 15
@@ -2338,8 +2654,44 @@ entries:
     date: '1967-11-16'
     thread: china-leadership
     c: 'Mao reads the Group''s *Kuaibao* no. 5414, "The Jiangxi Preparatory Group Heeds Method": to Yao Wenyuan, Jiangxi''s four experiences may go to every place; settle it with the others. On the third (send many Mao Zedong Thought propaganda teams to factories and villages), he notes: "this exists in very many places in the country." Nov. 17 the Center, Military Commission and Group pass the Jiangxi experiences on.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 16, 1967. Made public: 2013. Names: Mao Zedong, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 16, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 191–192 (Nov. 16, 1967; Mao''s note of Nov. 16 to Yao Wenyuan and his marginal note on the third experience; the bulletin is the Group office''s Quick Bulletin no. 5414 of Nov. 13; the Center forwarded it Nov. 17). Made public: 2013. To check: Quick Bulletin (Kuaibao 快报) no. 5414, Nov. 13, 1967, printed by the Cultural Revolution Group''s office: ''The Jiangxi preparatory group for the revolutionary committee pays attention to method of work'' (Jiangxi sheng geming weiyuanhui choubei xiaozu zhuyi gongzuo fangfa 江西省革筹小组注意工作方法): four experiences (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 191 n.1). Names: Mao Zedong, Yao Wenyuan.'
+    src:
+      c: 5960d9c4
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 16, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 191–192: A-E'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 191 n.1: all'
     tags: [name:mao-zedong, name:yao-wenyuan, polity:prc, vis:only:prc]
+  - id: cal.1967-11-16.china-leadership-2
+    when: Nov. 16
+    date: '1967-11-16'
+    time: 1967-11-16T08:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou Enlai receives the delegation of the South Vietnam National Liberation Front under Deng Chenshi (邓尘施) and part of the Vietnamese party and government delegation under Nguyễn Duy Trinh (阮维桢). Told that Vietnam sends the children of cadres to school at Guilin in China: not fit for a cadres'' children school; the children of workers and peasants lose by it, and sending only cadres'' children makes them special; China made its cadres'' children special in the past and the Cultural Revolution has shown many problems.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195–196 (Nov. 16, 1967); [[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 16, 1967; 4 p.m., Fujian Hall, Great Hall of the People; the book names the Front''s head 邓尘施 and, of the Vietnamese party and government delegation, Nguyễn Duy Trinh, Chu Văn Tấn (朱文晋) and Hoàng Tùng (黄松)). Made public: 1993. Names: Zhou Enlai, Nguyễn Duy Trinh. Check: the name of the NLF delegation''s head, given in Chinese as 邓尘施 (perhaps Đặng Trần Thi).'
+    src:
+      c: a641e404
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 195–196: ?'
+        - 'w.zhou-enlai-waijiao-huodong 520: A'
+    tags: [name:zhou-enlai, name:nguyen-duy-trinh, polity:prc, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-11-16.china-leadership-3
+    when: Nov. 16
+    date: '1967-11-16'
+    thread: china-leadership
+    c: Zhou Enlai tells the Party's United Front Work Department "great alliance" headquarters to agree whether they can answer for Zhang Jingwu's protection; if so, they may take him back to the Department; if not, the Peking garrison will keep him in custody.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 196 (Nov. 16, 1967, the item after). Made public: 2020. Names: Zhou Enlai, Zhang Jingwu.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-16.china-leadership-4
+    when: Nov. 16–17
+    date: '1967-11-16'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai receives the delegates of Guangxi''s "Lianzhi" and "April 22" on Nov. 16 and 17: in the great alliance treat cadres rightly and put away factional views of them; he persuades the two to let Wei Guoqing, An Pingsheng and Wu Jinnan into the autonomous regions revolutionary committee preparatory group.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 196 (Nov. 16, 17, 1967). Made public: 2020. Names: Zhou Enlai, Wei Guoqing.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-17.vietnam
     when: Nov. 17
     date: '1967-11-17'
@@ -2403,6 +2755,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-11-17.china-leadership
+    when: Nov. 17
+    date: '1967-11-17'
+    thread: china-leadership
+    c: Zhou Enlai reviews the letter of the Peking Knitting General Mill's revolutionary committee reporting its joy to Mao, and the report of the army unit stationed there, soon to be forwarded by the Center, and strikes out the words naming Liu Shaoqi and Peng Zhen, leaving only "the biggest handful of power-holders in the Party on the capitalist road".
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 196 (Nov. 17, 1967). See [[cal.1967-11-15.china-leadership-2]]. Names: Zhou Enlai, Liu Shaoqi, Peng Zhen.'
+    tags: [name:zhou-enlai, name:liu-shaoqi, name:peng-zhen, polity:prc]
   - id: cal.1967-11-18.economy
     when: Nov. 18
     date: '1967-11-18'
@@ -2499,6 +2858,21 @@ entries:
     c: 'The Center, State Council, Military Commission and Group issue, Mao having read and agreed, the decision on Guangxi: a preparatory group for the Guangxi Zhuang Autonomous Region revolutionary committee of Wei Guoqing, An Pingsheng and others, with representatives of the revolutionary mass bodies.'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 18, 1967. Made public: 2013. Names: Mao Zedong, Wei Guoqing, An Pingsheng.'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1967-11-18.china-leadership-2
+    when: Nov. 18
+    date: '1967-11-18'
+    thread: china-leadership
+    c: Zhou Enlai calls the State Council business group meeting.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 196 (Nov. 18, 1967). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-18.china-leadership-3
+    when: Nov. 18
+    date: '1967-11-18'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai receives delegates of the Jiangsu "Old Workers'' General", "New Workers'' General" and other bodies and gets the two to agree in Peking to unite and settle the Changzhou railway matter: trains on the Shanghai–Nanjing line often stop there, and Henan''s coal cannot pass. To the rebels from the army: the army is not to meddle in the localities or join local armed fights.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 196 (Nov. 18, 1967, the item after). Made public: 2020. See [[cal.1967-11-18.china-leadership]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-19.opinion
     when: Nov. 19
     date: '1967-11-19'
@@ -2601,6 +2975,14 @@ entries:
         - 'w.westmoreland-soldier-reports 313–14: all'
         - 'via x.1967.document-captured-101st-airborne-general-offensive: all'
     tags: [name:westmoreland-william]
+  - id: cal.1967-11-19.china-leadership
+    when: Nov. 19
+    date: '1967-11-19'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai receives Guangxi''s delegates in Peking for the eighth time, reads and explains the Decision of the Center, State Council, Military Commission and Cultural Revolution Group on the Guangxi Question, and stresses that the agreement must be carried out: above all the railways and transport must be done well and not interrupted. To the demand that Guangxi cadres studying in Peking be seized and taken back for criticism: "I take it you are putting on a rival show; if one is worth criticizing, keep them all in Peking to be criticized: study first, criticism after."'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 196–197 (Nov. 19, 1967). Made public: 2020. To check: the Decision on the Guangxi Question, as issued. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-20.consumers
     when: Nov. 20
     date: '1967-11-20'
@@ -2826,7 +3208,13 @@ entries:
     date: '1967-11-20'
     thread: china-leadership
     c: 'Mao reads the *Renmin ribao*, *Jiefangjun bao* and *Hongqi* editors'' article "The Struggle of the Two Roads in China''s Villages": "seen, usable; the material quoted must be checked true." Printed Nov. 23.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 20, 1967. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 20, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 193 (Nov. 20, 1967; Mao''s note on the revised draft sent by Chen Boda and Yao Wenyuan Nov. 19). Made public: 2013. To check: Chen Boda and Yao Wenyuan, revised draft of the editorial of the Renmin ribao, Jiefangjun bao and Hongqi ''The struggle of the two roads in China''s villages'' (Zhongguo nongcun liang tiao daolu de douzheng 中国农村两条道路的斗争), sent Nov. 19, 1967; printed Nov. 23 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 193 n.1). Names: Mao Zedong.'
+    src:
+      c: 2f3367f9
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 20, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 193: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 193 n.1: all'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-11-20.vietnam-hanoi
     when: Nov. 20
@@ -2835,6 +3223,21 @@ entries:
     c: 'The Secretariat''s directive no. 156-CT/TW on protecting and raising the health of cadres, workers and staff: health slipping, above all in the fighting zones. Checkups and treatment, rest homes, sensible hours, clubs and sport, diet, housing; each cadre''s health kept on record.'
     n: '*Chỉ thị của Ban Bí thư số 156-CT/TW, ngày 20-11-1967, Về tăng cường công tác bảo vệ và nâng cao sức khoẻ cán bộ, công nhân, viên chức*, signed for the Secretariat by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXVIII, 456–467. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1967-11-20.china-leadership-2
+    when: Nov. 20
+    date: '1967-11-20'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, told that Xiamen''s "Cuhe Lian" is seizing many arms from the military subdistrict and the field army and has wounded soldiers, wires with Chen Boda the "Cuhe Lian", copy to the Xiamen military control committee and the Fuzhou Military Region: this violates the Sept. 5 order; Xiamen is the front of national defence and seizing front-line troops arms is absolutely not to be allowed; stop at once and return all arms taken to their units.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 197 (Nov. 20, 1967). Made public: 2020. Names: Zhou Enlai, Chen Boda.'
+    tags: [name:zhou-enlai, name:chen-boda, polity:prc, vis:only:prc]
+  - id: cal.1967-11-20.china-leadership-3
+    when: Nov. 20
+    date: '1967-11-20'
+    thread: china-leadership
+    c: Zhou Enlai chairs the enlarged liaison meeting of the Cultural Revolution Group to discuss and revise the Center's Circular on Seeking Views on Convening the Ninth Congress.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 197 (Nov. 20, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-11-21.conservation
     when: Nov. 21
     date: '1967-11-21'
@@ -3026,6 +3429,13 @@ entries:
     c: Moscow. The Defense Council, 3 to 7 p.m., Brezhnev presiding.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 223 (Nov. 21). Made public: 2016. Names: Brezhnev. Check: The record gives no agenda.'
     tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr]
+  - id: cal.1967-11-21.china-leadership
+    when: Nov. 21
+    date: '1967-11-21'
+    thread: china-leadership
+    c: Zhou Enlai sends Mao the Center's Circular on Seeking Views on Convening the Ninth Congress.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 197 (under Nov. 20, 1967). Made public: 2020. See [[cal.1967-11-20.china-leadership-3]]. Names: Zhou Enlai, Mao Zedong.'
+    tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-11-22.middle-east
     when: Nov. 22
     date: '1967-11-22'
@@ -3187,8 +3597,27 @@ entries:
     date: '1967-11-22'
     thread: china-leadership
     c: 'Mao reads Yao Wenyuan''s report of Nov. 21 on a difference between Nan Ping and Chen Liyun, heads of the Zhejiang military control, over uniting the Zhejiang "Red Storm" bodies: to Lin and Zhou, Zhejiang''s "Red Storm" not like Hubei''s "Million Heroes": an old rebel body that has erred and has many masses; Yao Wenyuan right, to help, criticize and unite; to be discussed and settled. Nan holds to teach and unite the erring rebels; Chen to hold back to keep the rebel ranks pure. On Dec. 2 the Center and the Group issue the notice on treating rightly those rebels who erred.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 22, 1967. Made public: 2013. Names: Mao Zedong, Yao Wenyuan, Nan Ping, Chen Liyun, Lin Biao, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 22, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 194–195 (Nov. 22, 1967; Mao''s note of Nov. 22 to Lin Biao and Zhou Enlai on Yao Wenyuan''s report of Nov. 21, which sends the Quick Bulletin of Nov. 1967 on the dispute of Nan Ping 南萍 and Chen Liyun 陈励耘 of Nov. 16). Made public: 2013. To check: Quick Bulletin (Kuaibao 快报) no. 5510, Nov. 1967, printed by the Cultural Revolution Group''s office: ''Comrades Nan Ping and Chen Liyun differ on uniting the Zhejiang University Red Storm faction'' (Nan Ping he Chen Liyun tongzhi zai lianhe ''Hongbao'' pai wenti shang fasheng fenqi 南萍和陈励耘同志在联合“红暴”派问题上发生分歧), on the Zhejiang military control commission''s discussion of Nov. 16 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 194 n.1); Yao Wenyuan, report of Nov. 21, 1967 to Mao Zedong sending the Quick Bulletin on the Zhejiang University Red Storm: Nan Ping''s view fits Mao''s line and policy better; to reject and refuse union with the Red Storm faction is harmful (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 195 n.1). Names: Mao Zedong, Yao Wenyuan, Nan Ping, Chen Liyun, Lin Biao, Zhou Enlai.'
+    src:
+      c: fb3d3016
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 22, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 194–195: A-E'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 194 n.1: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 195 n.1: all'
     tags: [name:mao-zedong, name:yao-wenyuan, name:lin-biao, name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-22.china-leadership-2
+    when: Nov. 22
+    date: '1967-11-22'
+    thread: china-leadership
+    also: [japan]
+    c: Li Xiannian receives Kawase Ikkan, vice-president of the Japan–China Friendship Association (Orthodox) headquarters and standing director of the Japan International Trade Promotion Association, and the men of the Japanese trade bodies resident in Beijing.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 183 (Nov. 22, 1967). Names: Li Xiannian. Check: the name, from the Chinese 川濑一贯.'
+    src:
+      c: da34bd39
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 183: all'
+    tags: [polity:prc, polity:japan, name:li-xiannian]
   - id: cal.1967-11-23.vietnam-operations
     when: Nov. 23
     date: '1967-11-23'
@@ -3214,6 +3643,13 @@ entries:
       rows:
         - 'w.macv-command-history-1967 392: all'
     tags: [province:phuoc-tuy]
+  - id: cal.1967-11-23.china-leadership
+    when: Nov. 23
+    date: '1967-11-23'
+    thread: china-leadership
+    c: Zhou Enlai, with Chen Boda, Kang Sheng and Jiang Qing, holds a forum with delegates of Peking's factory mass bodies and hears of steel and coal output. As many workers plead illness and will not go down the pits, he stresses good political and ideological work.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 197 (Nov. 23, 1967). Made public: 2020. Names: Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing.'
+    tags: [name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, polity:prc, vis:only:prc]
   - id: cal.1967-11-24.vietnam-order-of-battle
     when: Nov. 24
     date: '1967-11-24'
@@ -3258,6 +3694,30 @@ entries:
         - 'w.berman-lyndon-johnsons-war 118: all'
         - 'via x.1967-11-24.hedrick-smith-accounts-by-bunker-and-westmoreland: all'
     tags: [name:bunker-ellsworth, name:westmoreland-william]
+  - id: cal.1967-11-24.china-leadership
+    when: Nov. 24–25
+    date: '1967-11-24'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai receives the delegates of Heilongjiang''s "Paohong" and "Shanshang" factions on Nov. 24 and 25 and criticizes the failure of several bodies to reach agreement and unite. To the heads: do not lead the masses wrong, nor eagerly make civil war and seek the limelight; the masses will not follow. The three Northeast provinces are the country''s base for grain, coal and oil; coal is down and grain and oil cannot be shipped. Both sides are to agree on union within a week and go home to grasp revolution and production.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 197 (Nov. 24, 25, 1967). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-24.china-leadership-2
+    when: Nov. 24
+    date: '1967-11-24'
+    thread: china-leadership
+    c: Zhou goes with Hill to the modern Peking opera *Taking Tiger Mountain by Strategy*.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 24, 1967; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 6ffc1275
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 520: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1967-11-24T11:00Z
+      - 1967-11-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-11-25.vietnam-barrier
     when: Nov. 25
     date: '1967-11-25'
@@ -3270,6 +3730,60 @@ entries:
         - 'w.staaveren-u-s-air-force 277: all'
         - 'via x.1967.van-staaveren-history-of-task-force-alpha-3: ?'
     tags: [name:mcbride-robert-h]
+  - id: cal.1967-11-25.china-leadership
+    when: Nov. 25
+    date: '1967-11-25'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, told that at Zhengzhou station, from factional armed fights, traffic is stopped and over 3,000 wagons are stranded, has the two Zhengzhou factions flown to Peking: "3,000 wagons stopped at Zhengzhou, and I am very grieved. If I had time I would go myself." The railway has a military control committee and still no production command; the railways have had a year and a half of revolution and come to this; what are paper and pens, when trains must run? Delegates of the country''s railway bureaus in Peking also attend.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 197–198 (Nov. 25, 1967). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-25.china-leadership-2
+    when: Nov. 25
+    date: '1967-11-25'
+    thread: china-leadership
+    c: Zhou Enlai calls the State Council business group meeting.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 198 (Nov. 25, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-25.china-leadership-3
+    when: Nov. 25
+    date: '1967-11-25'
+    thread: china-leadership
+    also: [africa]
+    c: Li Xiannian receives the Somali government health delegation led by Emile Ahmed Dihrale, in friendly talk.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 183 (Nov. 25, 1967). Names: Li Xiannian. Check: the head''s name, from the Chinese 埃米勒·艾哈迈德·柱河莱.'
+    src:
+      c: 857cab43
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 183: all'
+    tags: [polity:prc, polity:somalia, name:li-xiannian]
+  - id: cal.1967-11-25.china-leadership-4
+    when: Nov. 25
+    date: '1967-11-25'
+    thread: china-leadership
+    c: 'Lin Biao 林彪, by his office''s record of a telephone call of Nov. 25: he wants the whole of the third paragraph on p. 2 of the draft circular on the Ninth Congress struck, or rewritten more lightly, for the original rates him too high. The paragraph, as Mao 毛泽东 had already cut it, proposes that the Ninth Congress give wide publicity to Vice-Chairman Lin as Mao''s close comrade-in-arms and successor and write it into the report and resolutions.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 196–198 (Nov. 25, 1967). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. To check: Lin Biao''s office, record of Nov. 25, 1967 of his telephone instruction on the Center''s draft circular on the opinions on convening the Ninth Congress: strike the third paragraph of p. 2, or rewrite it more lightly (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 198 n.3). Names: Lin Biao, Mao Zedong.'
+    src:
+      c: 9cacbc46
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 196–198: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 198 n.3: all'
+    tags: [polity:prc, name:lin-biao, name:mao-zedong, vis:only:prc]
+  - id: cal.1967-11-25.china-leadership-5
+    when: Nov. 25
+    date: '1967-11-25'
+    time: '1967-11-25T06:00:00Z'
+    thread: china-leadership
+    follows:
+      - cal.1967-11-25.china-leadership-4
+    c: 'Mao 毛泽东, at 2 p.m., on Lin Biao''s 林彪 telephone record of Nov. 25 asking the paragraph struck: striking it is not good, and it need not be rewritten.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 196–198 (Nov. 25, 1967). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. See [[cal.1967-11-25.china-leadership-4]]. Names: Mao Zedong, Lin Biao.'
+    src:
+      c: b8c1f94f
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 196–198: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1967-11-26.economy
     when: Nov. 26
     date: '1967-11-26'
@@ -3369,6 +3883,32 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1282: all'
     tags: [place:mu-gia-pass]
+  - id: cal.1967-11-26.china-leadership
+    when: Nov. 26–27
+    date: '1967-11-26'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou Enlai is with Mao at the receptions of Burmese guests and of E. F. Hill, chairman of the Communist Party of Australia (Marxist-Leninist); he receives Tanzania's Minister of Health and attends the Mauritanian National Day reception.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 198 (Nov. 26, 27, 1967); [[w.zhou-enlai-waijiao-huodong]], 520 (Nov. 27, 1967; morning, Fujian Hall, Great Hall of the People, the Tanzanian health delegation led by the minister of health and housing (the book names him 沙巴); afternoon, Zhou accompanies Mao in receiving Hill; evening, the National Day reception of Mauritania''s ambassador (the book names him 哈尔希)); [[w.zhonghua-renmin-gongheguo-waijiao]], 184 (Nov. 27, 1967; the Tanzanian health delegation under Austin Shaba). Names: Zhou Enlai, Mao Zedong, Hill. Check: the day of each.'
+    src:
+      c: 6928e5d4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 198: ?'
+        - 'w.zhou-enlai-waijiao-huodong 520: A-B'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 184: A'
+    tags: [name:zhou-enlai, name:mao-zedong, polity:prc]
+  - id: cal.1967-11-26.china
+    when: Nov. 26
+    date: '1967-11-26'
+    thread: china
+    also: [laos]
+    c: The Foreign Ministry's statement condemns the war threat of the U.S. and the South Vietnamese clique against Cambodia, and says solemnly that if the U.S. dares to carry its war of aggression to Cambodia the Chinese people will firmly stand with the Cambodian people, whose strong backing they will be.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 183 (Nov. 26, 1967).'
+    src:
+      c: e8b89eb4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 183: all'
+    tags: [polity:prc, polity:cambodia, polity:us, polity:rvn]
   - id: cal.1967-11-27.european-community
     when: Nov. 27
     date: '1967-11-27'
@@ -3553,7 +4093,13 @@ entries:
     date: '1967-11-27'
     thread: china-leadership
     c: 'Mao reads the Center''s Liaison Department''s paper of Nov. 25 on Anzai Kuji and two others of the Japanese left review *Kakumei senshi* (Revolutionary Fighter): they cannot see why comrades back from China say Japan must follow the road of surrounding the cities from the villages; Chinese hints of it go against Mao Zedong Thought; to stress the world meaning of China''s way denies the October road from city to village. Mao: to Kang Sheng, worth notice; Anzai right, he thinks; Kang''s view? On Dec. 1 Yao Wenyuan conveys it to Anzai and the others.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 27, 1967. Made public: 2013. Names: Mao Zedong, Kang Sheng, Anzai Kuji, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 27, 1967. [[w.jianguo-yilai-mao-zedong]], XIX, 2, 13–14 (Nov. 27, 1967; Mao''s note on the Liaison Department''s bulletin on Anzai and others; the note does not date the bulletin). Made public: 2013. To check: Central Liaison Department (Zhonglian bu 中联部) bulletin for foreign guests, ''Anzai and others hold that Japan cannot take the road of surrounding the cities from the villages'' (Anzai deng ren renwei Riben bu neng zou nongcun baowei chengshi de daolu 安斋等人认为日本不能走农村包围城市的道路) (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 13 n.4). Names: Mao Zedong, Kang Sheng, Anzai Kuji, Yao Wenyuan.'
+    src:
+      c: f847fee6
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Nov. 27, 1967: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 2, 13–14: A-F'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 13 n.4: all'
     tags: [name:mao-zedong, name:kang-sheng, name:yao-wenyuan, polity:prc, vis:only:prc]
   - id: cal.1967-11-27.vietnam-hanoi
     when: Nov. 27
@@ -3562,6 +4108,41 @@ entries:
     c: 'The Secretariat''s circular no. 207-TT/TW on spreading and carrying out the Politburo''s resolution no. 161 and the Government''s no. 103 of July 6, 1967 on labor: committees to study them, plan help to the bases, strengthen the labor offices.'
     n: '*Thông tri của Ban Bí thư số 207-TT/TW, ngày 27-11-1967, Về việc phổ biến và thi hành Nghị quyết 161 của Bộ Chính trị và Nghị quyết số 103 của Hội đồng Chính phủ về công tác lao động*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXVIII, 468–472 (it dates no. 161 "30-7-1967," 468: a slip for June 30, for the Government''s no. 103 of July 6 "followed" it). Made public: 2003. See [[cal.1967-06-30.vietnam-hanoi]].'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1967-11-27.china
+    when: Nov. 27
+    date: '1967-11-27'
+    thread: china
+    also: [europe-and-the-alliance-britain]
+    c: A responsible official of the Foreign Ministry summons the British chargé, Hopson, and tells him that from Nov. 29 the Chinese government lifts its limits on the normal movement of the British office's staff in Beijing, restoring the range of a diplomatic mission now.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 183 (Nov. 27, 1967).'
+    src:
+      c: 977dcd04
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 183: all'
+    tags: [polity:prc, polity:uk]
+  - id: cal.1967-11-27.china-leadership-3
+    when: Nov. 27
+    date: '1967-11-27'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi receives the delegation of the Japan Committee for Afro-Asian Peoples' Solidarity, led by Hayashi, in friendly talk.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 184 (Nov. 27, 1967). Names: Chen Yi. Check: the leader''s name, from the Chinese 林才.'
+    src:
+      c: 53a0dd58
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 184: all'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+  - id: cal.1967-11-27.china-leadership-2
+    when: Nov. 27
+    date: '1967-11-27'
+    thread: china-leadership
+    c: 'The Center issues the circular gathering the first opinions on the Ninth Congress received after its notice seeking them: the Congress''s basic task; building the Party on Mao Zedong Thought 毛泽东思想 and revising its program and constitution; summing up the line struggle and teaching it; rectifying the Party''s organization and reforming its leading organs; the conditions and standard for electing the Central Committee; the time, size, choice of delegates and way of holding the Congress.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 197 (Nov. 27, 1967). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. See [[cal.1967-10-21.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 710851e3
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 197: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1967-11-21.vietnam
     when: Nov. 28–29
     date: '1967-11-28'
@@ -3747,6 +4328,34 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 200: all'
         - 'via w.debenedetti-american-ordeal 200 n.130c: all'
+  - id: cal.1967-11-28.china-leadership
+    when: Nov. 28–Dec. 1
+    date: '1967-11-28'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai, each day from Nov. 28 to Dec. 1, calls Liu Jiandong, Wang Xin and other heads of the Henan Military District and the two factions of the Zhengzhou railway bureau, and gets them to agree seven accords, among them a great alliance in the bureau; the Xian bureau reaches one of its own. He drafts the Center's note forwarding the Zhengzhou and Xian agreements to the whole country.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 198–199 (Nov. 28–Dec. 1, 1967). Made public: 2020. Names: Zhou Enlai, Liu Jiandong.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-28.china-leadership-2
+    when: Nov. 28
+    date: '1967-11-28'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, on Li Desheng''s report from Hefei, where the 12th Army is hampered for over half a month by a crowd that makes uproar at the military control committee, storms the army headquarters and injures its officers, with repeated persuasion in vain, writes: telephone Li: first political work; if not heeded, announce the Sept. 5 order and divide them, demanding the ringleaders; if still not, and they commit violence, arrest the ringleaders on the spot; tell the followers that they will not be pursued, but if they repeat, the ringleaders will be arrested on the spot.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 199 (Nov. 28, 1967, the item after). Made public: 2020. Names: Zhou Enlai, Li Desheng.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-28.china-leadership-3
+    when: Nov. 28
+    date: '1967-11-28'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao 毛泽东, Lin Biao 林彪 and Zhou Enlai 周恩来 telegraph Enver Hoxha 恩维尔·霍查, Haxhi Lleshi 哈奇·列希 and Mehmet Shehu 穆罕默德·谢胡 on the twenty-third anniversary of Albania''s liberation: the Albanian Party of Labor''s revolutionization movement; its stand against imperialism and for the Vietnamese people; its fight against Soviet revisionism and the Tito clique; the friendship of the two parties and countries, which grows closer each year.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 199–201 (Nov. 28, 1967). Printed in the *Renmin ribao* Nov. 29, 1967. Names: Mao Zedong, Lin Biao, Zhou Enlai.'
+    src:
+      c: 86b42a33
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 199–201: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, polity:albania]
   - id: cal.1967-11-29.defense
     when: Nov. 29
     date: '1967-11-29'
@@ -3906,6 +4515,46 @@ entries:
     c: 'Late evening, West Hall, with Governor and Mrs. Connally, until nearly 2 a.m.: Johnson relays the sequence of McNamara''s leaving. In what she thinks was August McNamara "stayed behind after a meeting" to say that the World Bank presidency would fall vacant and he was interested, and that Defense might gain from "a fresh person"; Johnson "had listened and said nothing." Of McNamara''s call an hour before, near tears: "Except for one, this is the hardest day I have spent in this job."'
     n: '[[w.johnson-white-house-diary]], 592–93 (Mrs. Johnson''s account). Made public: 1970. Names: Johnson, Lady Bird Johnson, Connally, McNamara.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:connally-john, name:mcnamara-robert-s]
+  - id: cal.1967-11-29.china-leadership
+    when: Nov. 29
+    date: '1967-11-29'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai receives the Pakistan Air Force delegation under Air Marshal Nur Khan. On the causes of the Cultural Revolution: a large country with so many people, with leading organs and masses separated by many layers, easily loses touch with the masses; without revolutionizing thought it breeds bureaucracy and revisionism. China does not recommend this experience to other countries nor tell others to do likewise.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 199 (Nov. 29, 1967); [[w.zhou-enlai-waijiao-huodong]], 521 (Nov. 29, 1967; morning, Building 6, Diaoyutai guesthouse; Zhou receives and lunches with the Pakistan Air Force delegation under its commander (努尔·汗)). Made public: 1993. Names: Zhou Enlai, Nur Khan.'
+    src:
+      c: 0bcf47fe
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 199: ?'
+        - 'w.zhou-enlai-waijiao-huodong 521: A'
+    tags: [name:zhou-enlai, name:khan-malik-nur, polity:prc, vis:only:prc+pakistan]
+  - id: cal.1967-11-29.china-leadership-3
+    when: Nov. 29
+    date: '1967-11-29'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off Hill, chairman of the Communist Party of Australia (Marxist-Leninist).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 521 (Nov. 29, 1967; Beijing airport; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 94a3edbc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 521: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1967-11-29.china-leadership-4
+    when: Nov. 29
+    date: '1967-11-29'
+    thread: china-leadership
+    c: Zhou attends the reception given by Albania's ambassador for the twenty-third anniversary of Albania's liberation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 521 (Nov. 29, 1967; evening; Beijing). The book names the ambassador 纳塔奈利. Names: Zhou Enlai.'
+    src:
+      c: 40393d76
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 521: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1967-11-29T11:00Z
+      - 1967-11-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-11-30.elections-1968
     when: Nov. 30
     date: '1967-11-30'
@@ -4118,6 +4767,7 @@ entries:
   - id: cal.1967-11.vietnam-3
     when: Nov., late
     date: 1967-11
+    at: before 1967-11-21
     thread: vietnam-support
     c: 'Johnson, from the LBJ Ranch, telephones Westmoreland before he leaves Washington: enthusiastic about his plans to strengthen the South Vietnamese forces toward withdrawing American troops; a White House plane to take him to Hawaii.'
     n: '[[w.westmoreland-soldier-reports]], 235. Check: the day. See [[cal.1967-11-21.vietnam-2]]. Names: Johnson, Westmoreland.'
@@ -4129,6 +4779,7 @@ entries:
   - id: cal.1967-11.elections-1968-6
     when: Nov., early
     date: 1967-11
+    at: before 1967-11-01
     thread: elections-1968
     c: Rowe to Johnson, a long memorandum analyzing the unrest in the party.
     n: '[[w.white-making-of-the-president-1969]], 105. Check: the day and the text. Names: Rowe, Johnson.'
@@ -4191,6 +4842,7 @@ entries:
   - id: cal.1967-11.vietnam-congress-2
     when: Nov., mid-month
     date: 1967-11
+    at: before 1967-11-11
     thread: vietnam-congress-foreign-relations
     c: 'Commander Cowles, in the Pentagon''s flag plot at the time of the Tonkin Gulf incidents, to Fulbright: his doubts of the second attack.'
     n: '[[w.woods-j-william-fulbright-vietnam]], 169–70. Check: the day. To check: Naval Inspector General to the Secretary of the Navy, Feb. 24, 1968, Fulbright Papers (SPF), series 48:1, box 9:1, University of Arkansas; Marcy to Jones, Feb. 28, 1968, RG 46, National Archives (cited by [[w.woods-j-william-fulbright-vietnam]], 170 n.38). Names: Fulbright.'
@@ -4365,6 +5017,7 @@ entries:
   - id: cal.1967-11.vietnam-7
     when: Nov., mid-month
     date: 1967-11
+    at: before 1967-11-11
     thread: vietnam
     c: 'Taylor to Johnson, no record kept of the senior advisers'' meeting and nothing done: a plan to inform the media, opinion makers, political and business leaders and the public on Vietnam. Approved; no follow-up.'
     n: '[[w.taylor-swords-and-plowshares]], 378 (a couple of weeks after Nov. 2). Check: the day. See [[cal.1967-11-02.vietnam]]. Names: Taylor, Johnson.'
@@ -4376,6 +5029,7 @@ entries:
   - id: cal.1967-11.robert-kennedy-campaign-decision
     when: Nov., late
     date: 1967-11
+    at: before 1967-11-21
     thread: robert-kennedy-campaign-decision
     c: 'Long Island, dinner at the home of Bill and Judith Moyers, the Woffords there. Robert Kennedy, to Clare Wofford: "Do you think I should run?" She: "I don''t know—I want you to, but I don''t know." Kennedy, by Wofford''s memory: "I would like to run, and the country cannot afford four more years of Johnson and the war, but if I do it, it will become so personal ... that the big issues might be lost."'
     n: '[[w.wofford-of-kennedys-and-kings]], 423. Check: the day; Wofford: late in the fall of 1967. Names: Robert Kennedy, Moyers, Wofford, Johnson.'
@@ -4464,3 +5118,37 @@ entries:
     c: Great Hall, evening. Mao receives the Lao People's Party delegation under Kaysone Phomvihan, to hear the Lao struggle against the Americans, Lin Biao, Zhou Enlai, Kang Sheng and Liu Ningyi present.
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 30, 1967. Made public: 2013. Names: Mao Zedong, Kaysone Phomvihan, Lin Biao, Zhou Enlai, Kang Sheng, Liu Ningyi. Check: the party''s name (the nianpu''s 老挝人民党, the Lao People''s Party).'
     tags: [name:mao-zedong, name:kaysone-phomvihan, name:lin-biao, name:zhou-enlai, name:kang-sheng, polity:prc, vis:only:prc+pathet-lao, polity:pathet-lao]
+  - id: cal.1967-11-30.china-leadership-2
+    when: Nov. 30
+    date: '1967-11-30'
+    thread: china-leadership
+    also: [middle-east]
+    c: Zhou Enlai cables President Qahtan al-Shaabi of the People's Republic of South Yemen, congratulating it on its independence.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 199 (Nov. 30, 1967); [[w.zhonghua-renmin-gongheguo-waijiao]], 184 (Nov. 30, 1967; Zhou''s and Chen Yi''s cables to South Yemen''s president, Qahtan al-Shaabi, and its foreign minister on independence; Chen Yi''s: China decides to recognize the People''s Republic of South Yemen). Names: Zhou Enlai, Qahtan al-Shaabi.'
+    src:
+      c: 96a2e4b3
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 199: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 184: all'
+    tags: [name:zhou-enlai, name:shaabi-qahtan-mohammed-al, polity:prc]
+  - id: cal.1967-11.china-leadership
+    when: Nov.
+    date: 1967-11
+    thread: china-leadership
+    also: [china]
+    c: Wang Guangmei is moved to Qincheng prison; Liu Shaoqi is thereafter held alone at his residence.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 658 (Nov., 1967). Made public: 1996. Names: Liu Shaoqi. Check: the day; the book gives the month only.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1967-11.china-leadership-2
+    when: Nov.
+    date: 1967-11
+    at: after 1967-11-21
+    thread: china-leadership
+    c: 'Mao 毛泽东 revises the draft Center circular on the opinions sought on convening the Ninth Congress (Guanyu zhengxun zhaokai Jiu Da de yijian de tongbao 关于对征询召开“九大”的意见的通报): he strikes ''raise to the full the absolute authority of the great leader Chairman Mao and of Mao Zedong Thought, and of his proletarian revolutionary line'' and writes ''These two [lines] are not wanted''; he strikes ''and good student'' after ''Chairman Mao''s close comrade-in-arms'', and makes small changes in the passage on Party rectification. He writes: ''I struck a few lines; Lin Biao to read, then back to Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing.'''
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 196–198 (Nov. 1967). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. Check: the day of Mao''s revision, after Nov. 21, the date of the draft sent for review. To check: Draft Central Committee circular on the opinions sought on convening the Ninth Congress, drafted by Kang Sheng and Yao Wenyuan from the opinions received, passed at the Group''s enlarged liaison meeting the evening of Nov. 20 and sent to Mao by Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing Nov. 21, 1967; issued Nov. 27 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 197 n.1). Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing.'
+    src:
+      c: b09c5510
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 196–198: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 197 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, vis:only:prc]

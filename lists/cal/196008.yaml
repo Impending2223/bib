@@ -124,6 +124,79 @@ entries:
     thread: intelligence
     c: The Defense Department announces that two employees of the National Security Agency have failed to return from a vacation trip they took together.
     n: '[[w.huac-security-practices-nsa]], 1–2 (the announcement of Aug. 1, 1960: two NSA employees "failed to return from a supposed vacation trip which they had taken together"; the names not given there). [[w.mowry-betrayers-of-the-trust]], 2 (on Aug. 1 the department "announced their unauthorized absence"). [[w.durant-congress-and-countersubversion-in]], 76 (the department "announced that Martin and Mitchell were missing"). To check: *New York Times*, Aug. 2, 1960.'
+  - id: cal.1960-08-01.china-leadership-6
+    when: Aug. 1
+    date: '1960-08-01'
+    thread: china-leadership
+    c: Zhou Enlai back in Peking.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 336 (Aug. 1, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-01.china-leadership-2
+    when: Aug. 1
+    date: '1960-08-01'
+    time: 1960-08-01T02:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai receives the Polish Ambassador: much in the Soviet document handed the parties at Bucharest does not fit the facts; the Moscow Declaration the common standard; China hopes the November meeting at Moscow agrees on that basis; his wish to go to Gomułka. India: China stops patrols twenty kilometers from the border. Japan: the new government''s basic policy will not change; stress contacts with the people.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 336 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 284–85 (Aug. 1, 1960; 上午10时, 中南海西花厅). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 2a307e04
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 336: ?'
+        - 'w.zhou-enlai-waijiao-huodong 284–85: A'
+    tags: [polity:prc, polity:poland, polity:ussr, name:zhou-enlai, vis:only:prc+poland]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-01.china-leadership-3
+    when: Aug. 1
+    date: '1960-08-01'
+    thread: china-leadership
+    also: [china]
+    c: 'At the Swiss Ambassador''s national day reception, Zhou Enlai says China will live in peace with all states and keep world peace, and proposes that the states of Asia and the Pacific coast, the United States included, sign a nonaggression peace pact and make the whole region free of nuclear weapons: a long-term aim, to be worked for.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 155 (Aug. 1, 1960; Zhou at the Swiss ambassador''s national-day reception: aggressive military blocs such as SEATO, which includes the United States, encircle China; China opposes it but still seeks peaceful coexistence; it proposes a mutual non-aggression pact of the Asian and Pacific coastal states, the United States included, and a nuclear-free region). Names: Zhou Enlai.'
+    src:
+      c: ea03cbc1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 337: ?'
+        - 'w.zhou-enlai-waijiao-huodong 285: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 155: A'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1960-08-01T04:00Z
+      - 1960-08-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-01.china-leadership-4
+    when: Aug. 1
+    date: '1960-08-01'
+    thread: china-leadership
+    also: [china]
+    c: 'At the farewell banquet of Brigadier Aung Gyi, Burma''s chief delegate to the boundary joint commission and deputy chief of staff, Zhou Enlai: among states of a different social system Burma was first to show China friendship, first to recognize it, first to sign a treaty of friendship and nonaggression on the five principles, and will be first to sign a boundary treaty.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 晚上). Names: Zhou Enlai, Aung Gyi.'
+    src:
+      c: ee24395a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 337: ?'
+        - 'w.zhou-enlai-waijiao-huodong 285: A'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:aung-gyi]
+    time_range:
+      - 1960-08-01T11:00Z
+      - 1960-08-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-01.china-leadership-7
+    when: Aug. 1
+    date: '1960-08-01'
+    time: 1960-08-01T03:50Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, Xihuating. Zhou Enlai receives the Afghan Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 上午11时50分). Names: Zhou Enlai.'
+    src:
+      c: 8d5d38c0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-02.governors-mi
     when: Aug. 2
     date: '1960-08-02'
@@ -199,6 +272,7 @@ entries:
   - id: cal.1960-08-02.elections-1960-kennedy
     when: Aug. 2
     date: '1960-08-02'
+    time: 1960-08-02T18:00Z
     thread: elections-1960-kennedy
     c: 'Philadelphia, the Sheraton, 2 p.m. The first of the regional meetings for State and local Democrats on Robert Kennedy and O''Brien''s tour, Tuesday. O''Brien outlines the campaign program; Robert Kennedy speaks and takes questions; Green tells how his organization registers voters. Robert Kennedy to Green: "We''ll buy you a shirt, Bill," and takes him on to Boston. By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 87. Names: O''Brien, Robert Kennedy, Green.'
@@ -210,6 +284,50 @@ entries:
     c: Boston, the Parker House, that night. The regional meeting with the party leaders of the New England States, Robert Kennedy and O'Brien. By O'Brien's account.
     n: '[[w.obrien-no-final-victories]], 87. Names: Robert Kennedy, O''Brien.'
     tags: [name:kennedy-robert-f, name:obrien-lawrence-f, state:ma, city:boston]
+  - id: cal.1960-08-02.china-leadership
+    when: Aug. 2–10
+    date: '1960-08-02'
+    thread: china-leadership
+    c: Zhou Enlai to Beidaihe; Aug. 3–10, at the Central Work Conference.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 2, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-02.china
+    when: Aug. 2
+    date: '1960-08-02'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Hamani Diori, Prime Minister of Niger, congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of Niger, and hopes this will lead to a further development of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 155 (Aug. 2, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 78c3e109
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 155: all'
+    tags: [polity:prc, polity:niger, name:zhou-enlai, name:chen-yi, name:diori-hamani]
+  - id: cal.1960-08-02.china-2
+    when: Aug. 2
+    date: '1960-08-02'
+    thread: china
+    also: [south-asia]
+    c: 'The Chinese embassy in India, by note to the Indian Foreign Ministry, on India''s unreasonable expulsion of Xinhua''s correspondent: the act harms Sino-Indian friendship. China asks India to restore the right of Xinhua''s New Delhi correspondents to go on residing there.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 155 (Aug. 2, 1960).'
+    src:
+      c: a04db3e0
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 155: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1960-08-02.china-leadership-2
+    when: Aug. 2
+    date: '1960-08-02'
+    thread: china-leadership
+    also: [european-community]
+    c: 'Mao 毛泽东 to the comrades at the Central Work Conference: look at these items on the Adenauer–de Gaulle talks; the world situation will change. ''Look, think, discuss.'' The items are three reports in *Cankao ziliao* 参考资料 no. 3748 of July 30, pp. 17–22, on the talks at Rambouillet on July 29.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 309–310 (Aug. 2, 1960; Mao''s note of Aug. 2; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Xinhua, *Cankao ziliao* no. 3748, July 30, 1960, pp. 17–22 (three items on the Adenauer–de Gaulle secret talks at Rambouillet, July 29: AFP, DPA, UPI and AP reports; the Paris press; Reuters) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 309 n.1). Names: Mao Zedong, Adenauer, de Gaulle.'
+    src:
+      c: 27f51350
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 309–310: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 309 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:adenauer-konrad, name:de-gaulle-charles, vis:only:prc]
   - id: cal.1960-08-03.desegregation-schools-houston
     when: Aug. 3
     date: '1960-08-03'
@@ -236,8 +354,22 @@ entries:
     date: '1960-08-03'
     thread: china-leadership
     c: 'Mao approves the Military Commission''s report: a naval patrol district on Woody Island (Yongxing) in the Paracels, this year or next, with barracks, pier, stores and radar. "Back to Luo Ruiqing, to be carried out."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 3, 1960. Made public: 2013. Names: Mao Zedong, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 3, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 311 (Aug. 3, 1960; Mao''s 毛泽东 note of Aug. 3 on the Military Commission''s report of July 31: back to Luo Ruiqing 罗瑞卿 to be carried out; the report proposes a patrol district on Yongxing 永兴岛 in the Xisha 西沙 islands, this year or next, with barracks, wharf, stores and radar; printed from the manuscript). Made public: 2013. To check: Central Committee and Military Commission, report of July 31, 1960 to Mao Zedong 毛泽东 and the Center on establishing a naval base in the Xisha (Paracel) islands (patrol district on Yongxing island in 1960 or 1961) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 311 n.1). Names: Mao Zedong, Luo Ruiqing.'
+    src:
+      c: 9d4473ba
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 3, 1960: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 311: A, B'
+        - 'via w.jianguo-yilai-mao-zedong XV, 311 n.1: A, B'
     tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-08-03.china-leadership-2
+    when: Aug. 3
+    date: '1960-08-03'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai to Mehmet Shehu, replying to his request for 50,000 tons of wheat from August to December 1960, repayable by special account to be settled later: China agrees; 30,000 tons to ship in the third quarter, 20,000 in the fourth.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 3, 1960). Made public: 1997. Names: Zhou Enlai, Li Xiannian.'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:li-xiannian, vis:only:prc+albania]
   - id: cal.1960-08-04.middle-east
     when: Aug. 4
     date: '1960-08-04'
@@ -259,6 +391,49 @@ entries:
     c: Denver, Thursday. The regional meeting of Robert Kennedy and O'Brien's tour. By O'Brien's account.
     n: '[[w.obrien-no-final-victories]], 88. Names: Robert Kennedy, O''Brien.'
     tags: [name:kennedy-robert-f, name:obrien-lawrence-f, state:co, city:denver]
+  - id: cal.1960-08-04.china-leadership
+    when: Aug. 4
+    date: '1960-08-04'
+    thread: china-leadership
+    also: [soviet-union, farm]
+    c: 'Zhou Enlai at the Secretariat, on three Central drafts: on a campaign of increased output and thrift centered on saving grain and steel; an urgent directive on a Party-wide drive of foreign-trade buying and exports; a notice informing Party members and cadres of the Bucharest meeting and Sino-Soviet relations.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 338 (Aug. 4, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-04.china
+    when: Aug. 4
+    date: '1960-08-04'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Maurice Yaméogo, President of Upper Volta (now Burkina Faso), congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of Upper Volta.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 155 (Aug. 4, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 2ad7a947
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 155: all'
+    tags: [polity:prc, polity:upper-volta, name:zhou-enlai, name:chen-yi]
+  - id: cal.1960-08-04.china-2
+    when: Aug. 4
+    date: '1960-08-04'
+    thread: china
+    c: The Chinese Association of Political Science and Law decides to leave the International Law Association, in protest at some of its leaders' following the United States in the scheme of "two Chinas."
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 4, 1960).'
+    src:
+      c: 735d0d19
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 156: all'
+    tags: [polity:prc, polity:us]
+  - id: cal.1960-08-04.china-leadership-2
+    when: Aug. 4
+    date: '1960-08-04'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on Hebei''s 河北 rainfall table of July 28–Aug. 3: print for the comrades. He asks the first secretaries of the provinces, cities and regions to report, within three days and as Hebei did, the rainfall by prefecture and county, one table each, to him. Hebei''s table: 3.11 million mu under water by Aug. 2, 2 million drained, 100,000 houses down, 41 dead.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 312 (Aug. 4, 1960; Mao''s note of Aug. 4, written on Hebei''s table; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Hebei Province, rainfall report table, July 28 to Aug. 3, 1960 (flooded area 3.11 million mu by Aug. 2; 2 million drained) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 312 n.1). Names: Mao Zedong.'
+    src:
+      c: e7b96553
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 312: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 312 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-08-05.transition-and-staff
     when: Aug. 5
     date: '1960-08-05'
@@ -415,6 +590,18 @@ entries:
     c: 'Beidaihe, Building 95. The enlarged Politburo Standing Committee, Mao presiding, on the Soviet experts'' going and other matters: Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 6, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
+  - id: cal.1960-08-06.china
+    when: Aug. 6
+    date: '1960-08-06'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Houphouët-Boigny, President of the Ivory Coast, congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of the Ivory Coast.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 6, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 39cbf30d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 156: all'
+    tags: [polity:prc, polity:ivory-coast, name:zhou-enlai, name:chen-yi, name:houphouet-boigny-felix]
   - id: cal.1960-08-07.elections-1960-kennedy
     when: Aug. 7
     date: '1960-08-07'
@@ -422,6 +609,27 @@ entries:
     c: New York, the Biltmore ballroom, Sunday night. The last of the regional meetings, with a thousand of the State's politicians; less impressed than the other regions, a number have more than a few words to say. More pep rally than business session. By O'Brien's account.
     n: '[[w.obrien-no-final-victories]], 88. Names: O''Brien.'
     tags: [name:obrien-lawrence-f, state:ny, city:new-york]
+  - id: cal.1960-08-07.china-leadership
+    when: Aug. 7
+    date: '1960-08-07'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai with Chen Yi, Zhang Wenjin and Yao Zhongming on the Sino-Burmese boundary: for the many border people farming across the line, an exchange of land or subsidy; no harm to the minority peoples'' interests and relations.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 338 (Aug. 7, 1960). Made public: 1997. Names: Zhou Enlai, Chen Yi, Zhang Wenjin.'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:chen-yi, name:zhang-wenjin, vis:only:prc]
+  - id: cal.1960-08-07.china-leadership-2
+    when: Aug. 7
+    date: '1960-08-07'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao 毛泽东 on Luo Ruiqing''s 罗瑞卿 report of Aug. 5 on handling the Nationalist shelling of Quemoy: ''Do as proposed.'' Luo proposes: more reconnaissance, no reply to scattered fire, suppressing or punitive fire only on the Military Commission''s decision if the shelling does harm, and the Xiamen 厦门 front units on guard.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 313 (Aug. 7, 1960; Mao''s note of Aug. 7; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Luo Ruiqing, report of Aug. 5, 1960 on handling the Nationalist army''s shelling of Quemoy over a period (four proposals) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 313 n.1). Names: Mao Zedong, Luo Ruiqing.'
+    src:
+      c: 6810c464
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 313: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 313 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-08-08.congress
     when: Aug. 8
     date: '1960-08-08'
@@ -449,6 +657,20 @@ entries:
     time_band: workday afternoon
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-08.china-leadership
+    when: Aug. 8
+    date: '1960-08-08'
+    time: 1960-08-08T04:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou Enlai talks with Hồ Chí Minh, who reached Beidaihe on the 7th; at noon, by appointment, reports the talk to Mao.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 338 (Aug. 8, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 344–345 (Zhou and Deng talked with Hồ twice, he came to Beidaihe near the conference''s end with Hoàng Văn Hoan and Nguyễn Xuân Thủy, as a go-between; his plan: the two parties'' talks, then the drafting committee, then the parties'' meeting, and a visit to Moscow first). Made public: 1997. Names: Zhou Enlai, Hồ Chí Minh, Mao Zedong.'
+    src:
+      c: 4446de60
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 338: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 344–345: A'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, name:mao-zedong, vis:only:prc+drv]
   - id: cal.1960-08-09.voting-rights
     when: Aug. 9
     date: '1960-08-09'
@@ -570,7 +792,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: Beidaihe, Building 95, evening. Mao's meeting (Liu Shaoqi, Peng Zhen, Wang Jiaxiang) hears Zhou Enlai and Deng Xiaoping on their talks with Hồ Chí Minh, here since Aug. 7 "as a peacemaker", and takes up the Lao Động party's points proposed to the Soviet and Chinese parties.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 9, 1960, and note 102. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Hồ Chí Minh, Liu Shaoqi, Peng Zhen, Wang Jiaxiang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 9, 1960, and note 102. [[w.zhou-enlai-nianpu-1949]], II, 338, Aug. 9, 1960 (Zhou and Deng report their talk with Hồ Chí Minh). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 9, 1960; Liu attends the meeting Mao convenes; it hears Zhou Enlai on his talks with Hồ Chí Minh and discusses the Vietnam Workers'' Party''s points for the Soviet and Chinese parties). Made public: 1996. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Hồ Chí Minh, Liu Shaoqi, Peng Zhen, Wang Jiaxiang.'
+    src:
+      c: bd4c4f7f
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 9, 1960, and note 102: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 338, Aug. 9, 1960: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 492: B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:ho-chi-minh, name:liu-shaoqi, name:peng-zhen, vis:only:prc]
   - id: cal.1960-08-10.testing
     when: Aug. 10
@@ -614,19 +842,86 @@ entries:
   - id: cal.1960-08-10.china-leadership
     when: Aug. 10
     date: '1960-08-10'
+    time: 1960-08-09T22:00Z
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'Beidaihe, the beach, 6 a.m. Mao with Hồ Chí Minh, Hoàng Văn Hoan and Nguyễn Xuân Thủy; a swim at eight; breakfast; Liu Shaoqi, Zhou Enlai, Deng Xiaoping present. Hồ''s points "basically good," he a "messenger of peace." At Bucharest a communique to be signed unchanged: "father and son." Revisionism to be fought; China''s own, a tenth, could make "a Chinese Khrushchev" in twenty or forty years: "if so, fight us."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 10, 1960. Made public: 2013. Names: Mao Zedong, Hồ Chí Minh, Hoàng Văn Hoan, Nguyễn Xuân Thủy, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 10, 1960. [[w.zhou-enlai-nianpu-1949]], II, 339, Aug. 10, 1960 (Zhou with Mao and Hồ). [[w.lengxi-shinian-lunzhan-1956-1966]], 345–348 (Mao, a night without sleep, came to the beach early morning, talked with Hồ and swam; Liu, Zhou and Deng sent for; Hồ''s points "basically good"; Mao declines to meet Khrushchev himself, Liu, Deng or Peng could; lunch at the bathing place, Hồ asks Liu to visit Vietnam in spring). Made public: 1997. Names: Mao Zedong, Hồ Chí Minh, Hoàng Văn Hoan, Nguyễn Xuân Thủy, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Yang Shangkun.'
+    src:
+      c: c2f0f359
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 10, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 339, Aug. 10, 1960: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 345–348: A, B, E, F'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:ho-chi-minh, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, vis:only:prc+drv]
   - id: cal.1960-08-10.china-leadership-2
     when: Aug. 10
     date: '1960-08-10'
+    time: 1960-08-10T03:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, 11 a.m. The work conference''s last plenary session; Mao speaks. Hồ Chí Minh''s peacemaking "basically" welcome, his order of steps (the two parties, a preparatory committee, all the parties) the best of it. Ninety percent good people. At home: grain, autumn sowing wide and thin as well as close, come what may ("the mother marries when she will"), all rests on China.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 10, 1960. Made public: 2013. Names: Mao Zedong, Hồ Chí Minh.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 10, 1960. [[w.lengxi-shinian-lunzhan-1956-1966]], 339–343 (Mao''s closing words: the Sino-Soviet matter neither large nor small; 90 percent of Soviet people and experts good, to be seen off well; hold out ten years; then Deng (a year to catch breath, 2 billion rubles of exports next year, six regional bureaus of the Center) and Liu Shaoqi (revisionism a stage of Leninism''s growth)); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 10, 1960; Liu presides at the plenary session and speaks, summing up: the capital construction line compressed, agriculture put first for some years at least and industry to serve it; cadres'' labor, education joined to labor and a small gap between top and bottom pay to be kept up and handed down). Made public: 1996. Names: Mao Zedong, Hồ Chí Minh.'
+    src:
+      c: 84e09734
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 10, 1960: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 339–343: C, E'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 492: B'
     tags: [polity:prc, name:mao-zedong, name:ho-chi-minh, vis:only:prc]
+  - id: cal.1960-08-10.china-leadership-4
+    when: Aug. 10
+    date: '1960-08-10'
+    thread: china-leadership
+    also: [farm, china]
+    c: 'The Center issues the directive "Everyone in the Party to farm, to farm grain." Grain output targets set too high, harvests overestimated, consumption badly arranged and management weak left a tight supply in 1958 and 1959 between harvests; in 1960 after the wheat harvest, buying slow, stocks falling. Eight points: labor to farming and grain; farm water works cut from 70 million laborers to 10 million that winter and spring, continuing works only; autumn crops; cotton and oil crops; all trades to put farming first; grain to be well used; grain shipping first among transport; bureaucracy and feasting ended.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 338–39 (Aug. 10, 1960); [[w.jianguo-yilai-mao-zedong]], XV, 314 (Aug. 1960; Mao''s 毛泽东 note on the draft adds a sentence: the "three antis" to be finished, in the slack season, not in farming time; the directive issued Aug. 10 carries it at p. 8, line 10 of the draft, 314 n.2). Made public: 1997. Names: Zhou Enlai.'
+    src:
+      c: 90e23943
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 338–39: ?'
+        - 'w.jianguo-yilai-mao-zedong XV, 314: A'
+        - 'via w.jianguo-yilai-mao-zedong XV, 314 n.2: A'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-10.china-leadership-5
+    when: Aug. 10
+    date: '1960-08-10'
+    thread: china-leadership
+    also: [trade]
+    c: 'The Center''s urgent directive on a Party-wide campaign of foreign-trade buying and exports: a three-man group under Zhou Enlai with Li Fuchun and Li Xiannian forms a foreign-trade command with full power over buying, exports and shipping of the whole country and strict control of imports; no new import this year without the group''s approval; the next year''s foreign-trade plan its own.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 10, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Li Xiannian.'
+    tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:li-xiannian, vis:only:prc]
+  - id: cal.1960-08-10.china-leadership-6
+    when: Aug. 10
+    date: '1960-08-10'
+    thread: china-leadership
+    c: Zhou Enlai with the officials concerned on the Sanmenxia water works.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 10, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-10.china
+    when: Aug. 10
+    date: '1960-08-10'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Tombalbaye, Prime Minister of Chad, congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of Chad, and hopes this will lead to a further development of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 10, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 753a6c91
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 156: all'
+    tags: [polity:prc, polity:chad, name:zhou-enlai, name:chen-yi, name:tombalbaye-francois]
+  - id: cal.1960-08-10.china-2
+    when: Aug. 10
+    date: '1960-08-10'
+    thread: china
+    also: [cuba]
+    c: China and Cuba sign two trade contracts. China sells 100,000 tons of rice and buys 350,000 tons of sugar.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 10, 1960).'
+    src:
+      c: 54f55624
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 156: all'
+    tags: [polity:prc, polity:cuba]
   - id: cal.1960-08-11.defense
     when: Aug. 11
     date: '1960-08-11'
@@ -708,6 +1003,33 @@ entries:
     c: The Soviet Union officially grants Mitchell and Martin asylum, and each a monthly allowance of 500 rubles, roughly their NSA salaries.
     n: '[[w.durant-congress-and-countersubversion-in]], 76 (the day, the grant, the allowance; no source given). [[w.martin-moscow-press-conference]], 1 (the announcer, the sentence begun before the recording: "...has granted Mitchell and Martin the right of political asylum and they are Soviet citizens with full rights"; no day). To check: the Soviet grant of asylum, Aug. 11, 1960, and the allowance, which Durant gives without a source.'
     tags: [polity:ussr]
+  - id: cal.1960-08-11.china-leadership-2
+    when: Aug. 11
+    date: '1960-08-11'
+    thread: china-leadership
+    also: [vietnam-hanoi, soviet-union]
+    c: Zhou Enlai sees Hồ Chí Minh off for the Soviet Union.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 11, 1960). See [[cal.1960-08-10.china-leadership]]. Made public: 1997. Names: Zhou Enlai, Hồ Chí Minh.'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv]
+  - id: cal.1960-08-11.china-leadership
+    when: Aug. 11
+    date: '1960-08-11'
+    thread: china-leadership
+    c: Zhou Enlai back in Peking.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 11, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-11.china-leadership-3
+    when: Aug. 11
+    date: '1960-08-11'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi receives Oscar Donoso López, first vice-president of Bolivia's Senate and chairman of its foreign affairs committee, and Jaime Arellano Casaneda, a member of the Chamber of Deputies and of its foreign affairs committee, who are visiting China.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 11, 1960). Names: Chen Yi. Check: the Bolivians are 奥斯卡·多诺索·洛佩斯 and 海梅·阿雷利亚诺·卡萨内达 in the book.'
+    src:
+      c: 0ab5b233
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 156: all'
+    tags: [polity:prc, polity:bolivia, name:chen-yi]
   - id: cal.1960-08-12.congo
     when: Aug. 12
     date: '1960-08-12'
@@ -762,6 +1084,46 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 219-CT/TW on the grain shortage between harvests: more people hungry, those with surplus unwilling to sell to the state or selling to the hungry at high prices. More production, thrift, purchases and debt collection, mutual aid, rationed distribution; vigilance against enemy sabotage.'
     n: '*Chỉ thị của Ban Bí thư số 219-CT/TW về những biện pháp cấp bách để giải quyết khó khăn về lương thực hiện nay*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 425–30. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-08-12.china-leadership
+    when: Aug. 12
+    date: '1960-08-12'
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Capital Theater. Zhou Enlai watches a performance by the Burmese Cultural Friendship Art Troupe and receives its head and the chief performers.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 12, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: dce60846
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1960-08-12T11:00Z
+      - 1960-08-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-12.china
+    when: Aug. 12
+    date: '1960-08-12'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable David Dacko, Prime Minister of the Central African Republic, congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Central African Republic, and hopes this will lead to a further development of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156–157 (Aug. 12, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 6c6ae872
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 156–157: all'
+    tags: [polity:prc, polity:central-african-republic, name:zhou-enlai, name:chen-yi]
+  - id: cal.1960-08-12.china-leadership-2
+    when: Aug. 12
+    date: '1960-08-12'
+    thread: china-leadership
+    c: 'Mao 毛泽东 asks Lin Ke 林克, his secretary, to copy the Kunming Pond couplet 《昆明池对联》 from Liang Shaoren''s 梁绍壬 *Liangban qiuyu an suibi* 《两般秋雨庵随笔》, juan 4: a 180-character couplet on Lake Dian 滇池. After reading the copy he notes that it is Ruan Yuan''s 阮元 revision, not the whole of the original.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 315 (Aug. 12, 1960; Mao''s note of Aug. 12; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong, Lin Ke.'
+    src:
+      c: 987f5da8
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 315: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-08-13.laos
     when: Aug. 13–14
     date: '1960-08-13'
@@ -774,6 +1136,22 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v16/d366: all'
         - 'w.fursenko-khrushchevs-cold-war 328: all'
     tags: [name:souvanna-phouma, name:savang-vatthana, name:somsanith]
+  - id: cal.1960-08-13.china-leadership-4
+    when: Aug. 13
+    date: '1960-08-13'
+    thread: china-leadership
+    also: [china]
+    c: '*Renmin ribao* prints an editorial, "Rebuke the State Department''s statement," which Zhou Enlai reviewed, against the Department''s statement of Aug. 1, which turned down his peace proposal at the Swiss Embassy reception and slandered China.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 13, 1960). Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1960-08-13.china-leadership-2
+    when: Aug. 13
+    date: '1960-08-13'
+    thread: china-leadership
+    also: [china]
+    c: 'At a meeting of the United Front Work Department Zhou Enlai on the situation: raise spirits, rely on oneself, keep to principle and unity, widen the anti-imperialist front. America holds to strength and the brink of war, its aim peaceful evolution inside the socialist camp. At home: the three red banners and walking on two legs; a shorter front in construction, culture and education; the mass line; remolding of intellectuals and bourgeoisie.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 13, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-08-14.congo
     when: Aug. 14–15
     date: '1960-08-14'
@@ -804,6 +1182,63 @@ entries:
     c: 'Hyde Park, N.Y. Kennedy''s speech at the memorial program on the twenty-fifth anniversary of the Social Security Act''s signing, Mrs. Roosevelt present: medical care for the aged through Social Security "can—and should—and must be enacted this year," the first of eight points for the aged.'
     n: '[[w.communications-freedom-of-communications-part]], 18–21. See [[cal.1960-08.elections-1960-8]]. Names: Kennedy, Roosevelt.'
     tags: [name:kennedy-john-f, name:roosevelt-eleanor, state:ny]
+  - id: cal.1960-08-14.china-leadership
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: 'At the Fourth National Foreign Affairs Conference Zhou Enlai: quarrel in the socialist camp a new problem the enemy uses; look ahead ten years. Strategy: unite the camp, win the national movements, break the war-makers. On the Sino-Soviet dispute think of the worst and work for the best: five possibilities (propaganda blockade, split, subversion, threats, imperialism using it to start war). The other party basically anti-imperialist and socialist, its errors of principle but partial.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 340 (Aug. 14, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-14.china-leadership-2
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking. Zhou Enlai, with Soong Ching Ling, receives the delegation of the Korean–Chinese Friendship Association, the Korean film delegation and the Korean national volleyball team.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 14, 1960; 上午). Names: Zhou Enlai.'
+    src:
+      c: 54d975f5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1960-08-13T22:00Z
+      - 1960-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-14.china-leadership-3
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi returns to Peking.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 14, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-08-14.china
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Fulbert Youlou, President of the Republic of the Congo (Brazzaville), congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of the Congo, and hopes this will lead to a further development of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 157 (Aug. 14, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 6c510f06
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 157: all'
+    tags: [polity:prc, polity:congo-brazzaville, name:zhou-enlai, name:chen-yi]
+  - id: cal.1960-08-14.china-leadership-4
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Kim Il Sung 金日成 and Choe Yong-gon 崔庸健 on the 15th anniversary of Korea''s liberation: the people''s democratic dictatorship in the North, the Chollima movement 千里马运动; the South Korean people''s struggle against American imperialism and its agents; China will stand with them against the common enemy.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 316–317 (Aug. 14, 1960; telegram of Aug. 14, 1960; printed from the *Renmin ribao* 人民日报 of Aug. 15, 1960). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Kim Il Sung, Choe Yong-gon.'
+    src:
+      c: 449aedf0
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 316–317: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:kim-il-sung]
   - id: cal.1960-08-15.space
     when: Aug. 15
     date: '1960-08-15'
@@ -848,11 +1283,100 @@ entries:
   - id: cal.1960-08-15.china-leadership
     when: Aug. 15
     date: '1960-08-15'
+    time: 1960-08-15T13:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Yang Shangkun reports to Mao, 9 p.m., the Secretariat's meeting of that evening on the CPSU's letter proposing talks between the two parties.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 15, 1960. Made public: 2013. Names: Yang Shangkun, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 15, 1960. [[w.zhou-enlai-nianpu-1949]], II, 341, Aug. 15, 1960 (the two CPSU letters handed to Zhou Enlai that day). Made public: 1997. Names: Yang Shangkun, Mao Zedong.'
+    src:
+      c: 6fdfba12
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 15, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 341, Aug. 15, 1960: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-08-15.china-leadership-2
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai receives Chervonenko, who hands over two letters of the Soviet Central Committee: its reply to the Chinese delegation''s statement handed out at Bucharest, and a proposal that the two parties confer before the Moscow meeting of November 1960. Chervonenko: the aim is to settle the differences, on the basis of the two parties'' unity. Zhou agrees with the spirit, but unity must rest on Marxism–Leninism, the Moscow Declaration of 1957 and proletarian internationalism.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 15, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 351 (the CPSU''s two letters, handed "on the 14th", two days after Hồ reached Moscow, Aug. 12: the one on the two parties'' meeting and unity, the other rebutting the Chinese statement at Bucharest). Made public: 1997. Names: Zhou Enlai, Chervonenko, Khrushchev.'
+    src:
+      c: 82fa4ffc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 341: ?'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 351: A'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:khrushchev-nikita-s, vis:only:prc+ussr]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: 'the two letters reach China Aug. 14 (Mao, to Hồ, Aug. 19: "on the 14th they gave us two letters")'
+        at: '351'
+  - id: cal.1960-08-15.china-leadership-3
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leaving by special plane for a friendly visit to Afghanistan.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 15, 1960; 上午). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 8bd53757
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1960-08-14T22:00Z
+      - 1960-08-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-15.china-leadership-4
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking. Zhou Enlai attends the reception given by the North Korean Ambassador for the 15th anniversary of Korea's liberation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 15, 1960; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 157 (Aug. 15, 1960; Zhou''s speech at the Korean ambassador''s reception for the 15th anniversary of Korea''s liberation: the two countries'' firm struggle against U.S. imperialism''s war and aggression policy is to defend world peace; China firmly backs the just struggles of the Laotian, Congolese and Cuban peoples). Names: Zhou Enlai.'
+    src:
+      c: fbb887cc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 157: B'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1960-08-15T11:00Z
+      - 1960-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-15.china-leadership-5
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives Oginga Odinga, vice chairman of the Kenya African National Union.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 15, 1960; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 157 (Aug. 15, 1960; Zhou receives Oginga Odinga, vice-chairman of the Kenya African National Union). Names: Zhou Enlai.'
+    src:
+      c: dcb197be
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 285: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 157: B'
+    tags: [polity:prc, polity:kenya, name:zhou-enlai]
+    time_range:
+      - 1960-08-15T11:00Z
+      - 1960-08-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-15.china
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china
+    also: [cyprus]
+    c: Zhou Enlai and Chen Yi cable Archbishop Makarios III, President of Cyprus, congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of Cyprus, and hopes this will help friendly relations between the two countries.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 157 (Aug. 15, 1960). Names: Zhou Enlai, Chen Yi, Makarios III.'
+    src:
+      c: c14b27b1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 157: all'
+    tags: [polity:prc, polity:cyprus, name:zhou-enlai, name:chen-yi, name:makarios-iii]
   - id: cal.1960-08-16.latin-america
     when: Aug. 16–21
     date: '1960-08-16'
@@ -969,6 +1493,56 @@ entries:
     c: 'The Politburo, Hanoi: resolution no. 122-NQ/TW, on the Interior Ministry''s Party group''s report to its session of July 23. Workers and employees kept on from the old regime, paid their old wages for six years, to come under the common system of wages, social insurance and welfare.'
     n: '*Nghị quyết của Bộ Chính trị số 122-NQ/TW về việc thống nhất chế độ tiền lương của công nhân, viên chức lưu dung vào chế độ tiền lương, bảo hiểm xã hội và phúc lợi chung*, signed for the Politburo by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 443–45. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-08-16.china-leadership
+    when: Aug. 16
+    date: '1960-08-16'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai gives a banquet for the Soviet experts about to go home, and for the Party and government thanks them for their work in China''s construction and says farewell: any fault in China''s work to be told to the heads of its units, so that the ten years'' friendship be kept; the two peoples'' friendship eternal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 16, 1960). Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai]
+  - id: cal.1960-08-16.china-leadership-2
+    when: Aug. 16
+    date: '1960-08-16'
+    thread: china-leadership
+    also: [china, japan]
+    c: Peking. Zhou Enlai receives and gives a luncheon for Nakajima Kenzo, head of the Japan–China cultural exchange association, his wife and their party.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 16, 1960; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 16, 1960; Zhou receives and gives a banquet for Nakajima Kenzō (中岛健藏), director of the Japan–China Cultural Exchange Association). Names: Zhou Enlai.'
+    src:
+      c: d3e09836
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 158: B'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1960-08-16T04:00Z
+      - 1960-08-16T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-16.china
+    when: Aug. 16
+    date: '1960-08-16'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Léon M'ba, Prime Minister of Gabon, congratulations on its independence. Chen Yi tells him in the cable that the Chinese government has decided to recognize the Republic of Gabon, and hopes this will lead to a further development of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 16, 1960). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: f361442b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 158: all'
+    tags: [polity:prc, polity:gabon, name:zhou-enlai, name:chen-yi]
+  - id: cal.1960-08-16.china-2
+    when: Aug. 16
+    date: '1960-08-16'
+    thread: china
+    also: [japan]
+    c: 'The Chinese People''s Association for Cultural Relations with Foreign Countries and the Japan–China Cultural Exchange Association issue at Peking a joint statement on cultural exchange between the two peoples: to strengthen friendly visits among cultural figures and mutual exhibitions and visits by arts groups.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 16, 1960).'
+    src:
+      c: e1024771
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 158: all'
+    tags: [polity:prc, polity:japan]
   - id: cal.1960-08-17.soviet-union
     when: Aug. 17–19
     date: '1960-08-17'
@@ -1057,6 +1631,42 @@ entries:
     c: 'By telephone to the National Association of County Officials, Miami, Fla. Kennedy''s greetings: the sixties'' problems not "exclusively Federal"; "enough to go around" for every level of government.'
     n: '[[w.communications-freedom-of-communications-part]], 23. Names: Kennedy.'
     tags: [name:kennedy-john-f, state:fl]
+  - id: cal.1960-08-17.china-leadership
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai receives Hungary''s new Ambassador (Ferenc Márton in the chronology''s transliteration), who describes Hungarian farming. Zhou: agriculture the base, how to grow it faster without hurting industry; overcoming farm difficulties harder than industry''s; the people''s enthusiasm will overcome them.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 17, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 17, 1960; 上午, 中南海). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 34bad882
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 341: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
+    tags: [polity:prc, polity:hungary, name:zhou-enlai, vis:only:prc+hungary]
+    time_range:
+      - 1960-08-16T22:00Z
+      - 1960-08-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-17.china-leadership-2
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Peking. Zhou Enlai attends the national day reception given by the Indonesian chargé d'affaires.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 17, 1960; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 17, 1960; Zhou and Li Xiannian attend the Indonesian chargé d''affaires'' national-day reception; Li speaks: China backs Indonesia''s anti-colonial struggle; on the five principles, friendly cooperation and mutual accommodation can settle the overseas Chinese question in full and with reason). Names: Zhou Enlai.'
+    src:
+      c: 520ed025
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 158: B'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    time_range:
+      - 1960-08-17T11:00Z
+      - 1960-08-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-18.congo-2
     when: Aug. 18
     date: '1960-08-18'
@@ -1193,6 +1803,33 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 221-CT/TW, the autumn drive, the last to basically complete lower-level farm cooperatives by the fourteenth and sixteenth plenums and the three-year plan: 15 to 20 percent more households in, the cooperatives already over half the working peasants'' households; new ones of 30 to 50 households; rich peasants and landlords not yet admitted. "Let the tenth-month crop make up for the fifth-month."'
     n: '*Chỉ thị của Ban Bí thư số 221-CT/TW về việc căn bản hoàn thành hợp tác hóa nông nghiệp và đẩy mạnh sản xuất nông nghiệp trong mùa thu*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 446–59. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-08-18.china-leadership
+    when: Aug. 18
+    date: '1960-08-18'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai at the Secretariat, which discusses the great floods in eastern Liaoning and western Jilin in early August.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 18, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-18.china-leadership-2
+    when: Aug. 18
+    date: '1960-08-18'
+    thread: china-leadership
+    also: [latin-america, africa, china]
+    c: 'Zhou Enlai at the banquet of the Communist Youth League and others for twelve youth and student delegations from Asia, Africa and Latin America: if their peoples unite in the struggle they can stop imperialist aggression and keep the peace; divided, or unsupporting, they may be used and broken and attacked, oppressed, threatened and provoked.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 18, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 18, 1960; 中午, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 18, 1960; Zhou''s speech at the banquet of the Communist Youth League and other bodies for twelve youth and student delegations from Asia, Africa and Latin America: unity in struggle can stop imperialist wars of aggression, and the Asian, African and Latin American countries can first of all bring about peaceful coexistence among themselves on the five principles). Names: Zhou Enlai.'
+    src:
+      c: d37136fa
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 341: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 158: A'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1960-08-18T04:00Z
+      - 1960-08-18T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-19.latin-america
     when: Aug. 19
     date: '1960-08-19'
@@ -1266,8 +1903,22 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'Peking, the Qinzheng Hall, evening. Mao receives Hồ Chí Minh, back from Moscow; Liu Shaoqi, Zhou Enlai, Peng Zhen, Luo Ruiqing, and Hoàng Văn Hoan, Nguyễn Xuân Thủy and Võ Nguyên Giáp. Hồ on the Soviet complaints: the east wind, the hundred flowers, the communes, the leap, the paper tiger, Genghis Khan''s tomb. Mao: easy to settle between the parties; offer the cigarette, do not throw it; since 1958 the Soviets'' joint fleet, the long-wave station, Port Arthur, refused.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 19, 1960. Made public: 2013. Names: Mao Zedong, Hồ Chí Minh, Liu Shaoqi, Zhou Enlai, Peng Zhen, Luo Ruiqing, Hoàng Văn Hoan, Nguyễn Xuân Thủy, Võ Nguyên Giáp, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 19, 1960. [[w.zhou-enlai-nianpu-1949]], II, 342, Aug. 19, 1960 (Zhou present at Mao''s and Liu''s meeting with Hồ Chí Minh). [[w.lengxi-shinian-lunzhan-1956-1966]], 349–351 (Hồ returns to Peking the 19th; Mao receives him that evening at the Qinzheng Hall; Hồ''s account of the Soviet complaints; Mao on the joint fleet, the long-wave station, the air force). Made public: 1997. Names: Mao Zedong, Hồ Chí Minh, Liu Shaoqi, Zhou Enlai, Peng Zhen, Luo Ruiqing, Hoàng Văn Hoan, Nguyễn Xuân Thủy, Võ Nguyên Giáp, Khrushchev.'
+    src:
+      c: fc3ba2c7
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 19, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 342, Aug. 19, 1960: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 349–351: A, B, D, G'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:ho-chi-minh, name:liu-shaoqi, name:zhou-enlai, name:peng-zhen, name:luo-ruiqing, name:vo-nguyen-giap, name:khrushchev-nikita-s, vis:only:prc+drv]
+  - id: cal.1960-08-19.china-leadership-2
+    when: Aug. 19
+    date: '1960-08-19'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai with An Ziwen on students abroad.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 342 (Aug. 19, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-08-20.elections-1960
     when: Aug. 20
     date: '1960-08-20'
@@ -1345,6 +1996,18 @@ entries:
     c: 'Omaha, Nebr., the morning. Seaton, Secretary of the Interior, one of the five on Nixon''s strategy board: the trouble with the Benson program is that the Democratic Congress never adopted it. By Kennedy''s account at Des Moines the same day.'
     n: '[[w.communications-freedom-of-communications-part]], 35. Names: Seaton, Nixon, Benson.'
     tags: [name:seaton-fred-a, name:nixon-richard-m, name:benson-ezra-taft, state:ne]
+  - id: cal.1960-08-21.china
+    when: Aug. 21
+    date: '1960-08-21'
+    thread: china
+    also: [south-asia]
+    c: 'Chen Yi, Vice-Premier and Foreign Minister, begins a visit to Afghanistan on invitation (to Aug. 27), for the celebrations of the 42nd anniversary of its independence. In the visit, the days not given: talks with Naim, Deputy Premier and Foreign Minister, on common concerns and the international situation; a joint communique; the treaty of friendship and mutual non-aggression signed; the agreement on exchanging goods and payments renewed.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 159 (Aug. 21–27, 1960). Names: Chen Yi, Naim. Check: the book gives the stay in Afghanistan as Aug. 21–27; the Zhou chronology has Chen Yi leave Peking Aug. 15 ([[cal.1960-08-15.china-leadership-3]]) and come back Sept. 8 ([[cal.1960-09-08.china-leadership]]): the two agree, and the days of the journey outside Afghanistan are not given.'
+    src:
+      c: 9c80f145
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 159: all'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:naim-sardar-mohammad]
   - id: cal.1960-08-22.cuba
     when: Aug. 22
     date: '1960-08-22'
@@ -1383,6 +2046,37 @@ entries:
         - 'w.gifford-center-cannot-hold 180–81: all'
         - 'via w.gifford-center-cannot-hold 180 n.33: all'
     tags: [name:nixon-richard-m, name:rockefeller-nelson, name:lodge-henry-cabot, name:kennedy-john-f]
+  - id: cal.1960-08-22.china-leadership
+    when: Aug. 22
+    date: '1960-08-22'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi, with Mao Zedong, Zhou Enlai and Zhu De, receives the delegates to the enlarged meetings of the central committees of the Kuomintang Revolutionary Committee, the Democratic League, the Association for Promoting Democracy, the Peasants' and Workers' Democratic Party, the Zhi Gong Party and the Jiusan Society.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 22, 1960). Names: Liu Shaoqi, Mao Zedong, Zhou Enlai, Zhu De.'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhou-enlai, name:zhu-de]
+  - id: cal.1960-08-22.china-leadership-2
+    when: Aug. 22
+    date: '1960-08-22'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Gheorghiu-Dej 乔治乌-德治, Maurer and Stoica 斯托伊卡 on the 16th anniversary of Romania''s liberation: the third congress''s six-year plan for 1960–65; Romania''s part against imperialist war policy; the friendship and cooperation of the two countries.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 318–319 (Aug. 22, 1960; telegram of Aug. 22, 1960; printed from the *Renmin ribao* 人民日报 of Aug. 23, 1960). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Gheorghiu-Dej, Maurer, Stoica.'
+    src:
+      c: f3b56996
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 318–319: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai]
+  - id: cal.1960-08-22.china-leadership-3
+    when: Aug. 22
+    date: '1960-08-22'
+    thread: china-leadership
+    c: 'Mao 毛泽东 on a letter and enclosures from Xia Zaibo 夏在伯: his secretary''s office to send them to the Hunan 湖南 Party committee''s United Front Work Department to deal with as fitting. Tian Shiqing 田士清 and Jiang Zhuru 蒋竹如 have the same problem. Whether the three may be members of the Hunan Provincial Research Institute of Culture and History 湖南省文史馆 to be settled with Zhou Shizhao 周世钊, Hunan vice-governor, whom Mao talked with the day before; if they do not qualify, not to be forced in.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 320 (Aug. 22, 1960; Mao''s note of Aug. 22; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong, Xia Zaibo, Tian Shiqing, Jiang Zhuru, Zhou Shizhao. Check: whether the three were enrolled; Zhou Shizhao was in Peking for the Democratic League meeting (Mao''s note).'
+    src:
+      c: 86ef1ee7
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 320: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-08-23.medicare
     when: Aug. 23
     date: '1960-08-23'
@@ -1606,6 +2300,22 @@ entries:
     c: 'Alexandria, Va., George Washington High School Stadium, the evening. Kennedy at a Democratic rally with Johnson and Governor Almond: Nixon is "experienced in policies of weakness, retreat, and defeat"; the issue is the experience of the whole nation in eight years.'
     n: '[[w.communications-freedom-of-communications-part]], 41–44 (the speech as given), 44–46 (the prepared text, in part). Names: Kennedy, Johnson, Nixon.'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:nixon-richard-m, state:va]
+  - id: cal.1960-08-24.china-leadership
+    when: Aug. 24
+    date: '1960-08-24'
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: 'At the enlarged plenary meetings of the central committees of six democratic parties (the Kuomintang Revolutionary Committee, the Democratic League, the Democratic Construction Association, the Peasants'' and Workers'' Democratic Party, the Zhi Gong Party and the Jiusan Society), Zhou Enlai reports on Sino-Soviet relations since the 20th Congress: the differences on Stalin, on war and on peaceful transition are of Marxist–Leninist principle, yet partial as to the two parties, two states and the camp. The banner is Marxism–Leninism; the slogans, hold position, hold principle, hold unity.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 342 (Aug. 24, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-24.china-leadership-2
+    when: Aug. 24, 26
+    date: '1960-08-24'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi presides at the symposium of the Communist Party and the democratic parties on Sino-Soviet relations. On the 26th he tells the parties the Central Committee''s attitude and line on the Soviet government''s recent tearing up of contracts, withdrawal of experts in China and halt of main equipment supplies: the unity of the members'' speeches is a good spirit; China, oppressed for over a hundred years, will not be crushed; policy: hold position, hold principle, hold unity, and handle it with care.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492–493 (Aug. 24, 26, 1960). Made public: 1996. Check: whether it is the enlarged plenary meetings of the six parties'' central committees where Zhou Enlai spoke Aug. 24 ([[cal.1960-08-24.china-leadership]]). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-08-25.middle-east
     when: Aug. 25
     date: '1960-08-25'
@@ -1707,6 +2417,24 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Athens
     range_basis: kind
+  - id: cal.1960-08-25.china-leadership
+    when: Aug. 25
+    date: '1960-08-25'
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: Zhou Enlai receives the American writer Anna Louise Strong. Unity of the two parties, two states and all brother parties is the main thing; the differences, not great, are of principle, but in action neither party has left the Marxist–Leninist course; wrong theory must be limited and pulled back. The anti-American movement warns imperialism and limits its provocations; China opposes American aggression, cold war and policies of strength but does not refuse to sit down with the American government; the aim is to show America that China cannot be provoked or slighted, so as to stop war or delay it.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 342 (Aug. 25, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 25, 1960; 中午, 中南海西花厅, with Deng Yingchao, at home, to lunch). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 0fb83dce
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 342: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
+    tags: [polity:prc, polity:us, polity:ussr, name:zhou-enlai, vis:only:prc+us]
+    time_range:
+      - 1960-08-25T04:00Z
+      - 1960-08-25T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-26.latin-america
     when: Aug. 26
     date: '1960-08-26'
@@ -1807,6 +2535,32 @@ entries:
     c: 'The Qinzheng Hall, evening. Mao''s meeting (Lin Biao, Deng Xiaoping, Peng Zhen, Wang Jiaxiang, Yang Shangkun): the answer to the CPSU''s notice given at Bucharest; the delegation to the two parties'' talks; the passage of the CPSU''s delegation to Vietnam.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 26, 1960. Made public: 2013. Names: Mao Zedong, Lin Biao, Deng Xiaoping, Peng Zhen, Wang Jiaxiang, Yang Shangkun.'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1960-08-26.china-leadership-2
+    when: Aug. 26
+    date: '1960-08-26'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai to U Nu, inviting U Nu, Ne Win and U Ba Swe to China before the end of September; thanking Burma for its plan to give rice and salt to the Chinese living on the boundary when the treaty is signed; and saying he will go to Rangoon himself on Jan. 4 next year to exchange the treaty's ratifications and join the independence day celebrations.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 343 (Aug. 26, 1960). Made public: 1997. Names: Zhou Enlai, U Nu, Ne Win, Ba Swe.'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, name:ne-win, name:ba-swe, vis:only:prc+burma]
+  - id: cal.1960-08-26.china-leadership-3
+    when: Aug. 26
+    date: '1960-08-26'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives a delegation of Costa Rican deputies visiting China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 26, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 159 (Aug. 26, 1960; the Costa Rican deputies came at the Chinese Institute of Foreign Affairs'' invitation, in defiance of U.S. obstruction; Zhu De also receives and entertains them, the day not given). Names: Zhou Enlai.'
+    src:
+      c: f636ed0e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 159: B'
+    tags: [polity:prc, polity:costa-rica, name:zhou-enlai]
+    time_range:
+      - 1960-08-26T04:00Z
+      - 1960-08-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-27.sit-ins
     when: Aug. 27
     date: '1960-08-27'
@@ -1851,6 +2605,67 @@ entries:
         - 'w.gifford-center-cannot-hold 181: all'
         - 'via w.gifford-center-cannot-hold 181 n.35: all'
     tags: [name:nixon-richard-m, name:lodge-henry-cabot, name:rockefeller-nelson]
+  - id: cal.1960-08-27.china-leadership
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: china-leadership
+    also: [japan, trade]
+    c: 'Zhou Enlai receives Suzuki Kazuo, managing director of the Japan–China Trade Promotion Association: the three principles of trade (government agreements, private contracts, case-by-case consideration), with the three political principles restated (Japan''s government not to be hostile to China, not to follow America in the "two Chinas" plot, not to obstruct normalization). China will wait to see Ikeda''s government.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 343 (Aug. 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 27, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 159–160 (Aug. 27, 1960; Zhou to Suzuki Kazuo (铃木一雄): the three principles stand, and for trade he adds three: government agreement, private contracts, individual consideration (the editors'' note: for small and medium firms in special difficulty); until a government agreement is signed, regular contracts may be signed with a friendly Japanese firm). Made public: 1993. Names: Zhou Enlai, Ikeda Hayato.'
+    src:
+      c: '10874345'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 343: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 159–160: A'
+    tags: [polity:prc, polity:japan, name:zhou-enlai, name:ikeda-hayato, vis:only:prc+japan]
+    time_range:
+      - 1960-08-27T04:00Z
+      - 1960-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-27.china-leadership-2
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: china-leadership
+    also: [china, latin-america]
+    c: Peking. Zhou Enlai receives General Heriberto Jara, chairman of the Mexican National Peace Council, and José Rodríguez, editor of a Mexican magazine, visiting China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 27, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 159 (Aug. 21–Sept. 5, 1960; Jara and Rosales received by Mao and Zhou, the days not given). Names: Zhou Enlai.'
+    src:
+      c: f912a66b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 286: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 159: B'
+    tags: [polity:prc, polity:mexico, name:zhou-enlai]
+    time_range:
+      - 1960-08-27T04:00Z
+      - 1960-08-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-27.china-leadership-3
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: china-leadership
+    c: 'Mao 毛泽东 drafts for the Center, on the Jiangsu 江苏 Party committee''s bulletin of Aug. 24 on the first stage of its enlarged Standing Committee meeting (from Aug. 16; the international situation after the Beidaihe 北戴河 meeting): send to the Central bureaus and the Party committees of provinces, cities and regions for reference, and to the Party groups at the Center''s level. The bulletin: revisionism''s class roots, the lessons to draw (the revolution to the end, study of Marxism–Leninism and Mao Zedong Thought, the yearly rectification, democratic centralism).'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 321–322 (Aug. 27, 1960; draft of Aug. 27, written on the bulletin; printed from Mao''s manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Jiangsu Provincial Party Committee, bulletin of Aug. 24, 1960 to the Center and the Shanghai 上海 Bureau on the first stage of the enlarged Standing Committee meeting (begun Aug. 16; international situation after the Beidaihe meeting) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 321 n.1). Names: Mao Zedong.'
+    src:
+      c: 85f877e0
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 321–322: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 321 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-08-27.china-leadership-4
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: china-leadership
+    c: 'Mao 毛泽东 drafts for the Center, on the Henan 河南 Party committee''s bulletin of Aug. 24 on carrying out the Beidaihe 北戴河 meeting: send to the Central bureaus and the Party committees of provinces, cities and regions for reference. The bulletin: the Standing Committee heard the meeting''s spirit Aug. 17–22 and studied the three directives on saving grain, saving steel and ensuring foreign trade; a work conference from Aug. 26.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 323–324 (Aug. 27, 1960; draft of Aug. 27, written on the bulletin; printed from Mao''s manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Henan Provincial Party Committee, bulletin of Aug. 24, 1960 to the Center on carrying out the Beidaihe meeting (Standing Committee, Aug. 17–22; work conference from Aug. 26 of eight to ten days) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 323 n.1). Names: Mao Zedong.'
+    src:
+      c: c6280666
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 323–324: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 323 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-08-28.cuba
     when: Aug. 28–29
     date: '1960-08-28'
@@ -1877,8 +2692,29 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Qinzheng Hall, evening. Mao receives Beqir Balluku, Albania's Defense Minister, on his way to Vietnam; Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen and Li Xiannian present. "We are not isolated"; what the revisionists call dogmatism is Marxism–Leninism; "who says there must be war?"
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 28, 1960. Made public: 2013. Names: Mao Zedong, Balluku, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 28, 1960. [[w.zhou-enlai-nianpu-1949]], II, 345, Aug. 28, 1960 (Zhou at Mao''s that evening on receiving the head of the Albanian delegation going to Vietnam). Made public: 1997. Names: Mao Zedong, Balluku, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian.'
+    src:
+      c: b4e433ce
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Aug. 28, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 345, Aug. 28, 1960: C'
     tags: [polity:prc, polity:albania, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, vis:only:prc+albania]
+  - id: cal.1960-08-28.china-leadership-2
+    when: Aug. 28
+    date: '1960-08-28'
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: 'Zhou Enlai meets the heads of the Party''s provincial and municipal united front departments on what to tell non-Party figures of the Sino-Soviet question: Khrushchev semi-revisionist and right-opportunist on some principles, the Soviet state not gone bad, still anti-imperialist and socialist, the two parties and states mainly united; right opportunism a partial revision of Marxism–Leninism, an inner-Party matter. His anti-China feeling is bourgeois and angers, but is not to breed anti-Soviet feeling. The effect neither small nor great, dark clouds to pass; frontier provocations possible, force not to be imagined; speak of the big matters only.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 344 (Aug. 28, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-28.china-leadership-3
+    when: Aug. 28
+    date: '1960-08-28'
+    thread: china-leadership
+    also: [vietnam-hanoi, china]
+    c: Zhou Enlai at Liu Shaoqi's on the delegation to Vietnam.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 28, 1960). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-08-29.elections-1960
     when: Aug. 29
     date: '1960-08-29'
@@ -2003,6 +2839,14 @@ entries:
     c: Kennedy's statement greeting Americans of the Jewish faith on the high holy days, as the year 5721 begins.
     n: '[[w.communications-freedom-of-communications-part]], 56. Names: Kennedy.'
     tags: [name:kennedy-john-f]
+  - id: cal.1960-08-29.china-leadership
+    when: Aug. 29
+    date: '1960-08-29'
+    thread: china-leadership
+    also: [economy]
+    c: Zhou Enlai with Bo Yibo, Xi Zhongxun, Cheng Zihua, Han Zheyi and Yao Yilin on the 1961 plan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 29, 1960). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
+    tags: [polity:prc, name:zhou-enlai, name:bo-yibo, vis:only:prc]
   - id: cal.1960-08-30.elections-1960
     when: Aug. 30
     date: '1960-08-30'
@@ -2088,6 +2932,46 @@ entries:
     c: 'The Politburo, Hanoi: resolution no. 124-NQ/TW, of its April session, on the socialist reform of the handicrafts: 500,000 craftsmen, output 595.8 million dong in 1959, 45.4 percent of industry and handicrafts together. Production teams and supply cooperatives to become middle-level producers'' cooperatives, then higher; technique improved; the crafts an auxiliary of industry through the first five-year plan.'
     n: '*Nghị quyết của Bộ Chính trị số 124-NQ/TW (họp tháng 4-1960) về vấn đề đẩy mạnh việc cải tạo và phát triển thủ công nghiệp theo chủ nghĩa xã hội*, signed for the Politburo by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 460–74. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-08-30.china-leadership
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai takes Edgar Snow to the Miyun reservoir. On the way he reviews relations with the United States over the eleven years, before the Warsaw talks'' 100th meeting on Sept. 6: since the Korean war''s start in June 1950 America took a policy of aggression, China wants talks on the disputes; a principle agreement first, with two points: all disputes, Taiwan''s included, settled by peaceful consultation without force or its threat; the United States to withdraw its forces from Taiwan and the Strait, when and how for the next step.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 30, 1960; 赴密云水库途中在火车上). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: d38c693a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 345: ?'
+        - 'w.zhou-enlai-waijiao-huodong 286: A'
+    tags: [polity:prc, polity:us, name:zhou-enlai, vis:only:prc+us]
+  - id: cal.1960-08-30.china-leadership-2
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: china-leadership
+    c: 'At the Miyun reservoir, Zhou Enlai faults the unfinished housing of the resettled villagers: "you see things and not people"; he will not come again until it is built and he is telephoned.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-30.china-leadership-3
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: china-leadership
+    also: [economy]
+    c: At the State Planning Commission's report on the policy of "rectifying, consolidating and raising" the 1961 economy, Zhou Enlai adds "filling out"; on Sept. 5 changes "rectifying" to "adjusting." The Center's approval of the Commission's 1961 control figures, issued Sept. 30, puts agriculture first, so that production and construction be adjusted, consolidated, filled out and raised as they grow.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-30.china
+    when: Aug. 30
+    date: '1960-08-30'
+    thread: china
+    also: [vietnam-hanoi]
+    c: Li Fuchun, member of the Politburo and Vice-Premier, leads the Chinese Party delegation to the celebrations of the 15th anniversary of the founding of the Democratic Republic of Vietnam, on invitation (to Sept. 12).
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 160 (Aug. 30–Sept. 12, 1960). Names: Li Fuchun.'
+    src:
+      c: 9aad8b87
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 160: all'
+    tags: [polity:prc, polity:drv, name:li-fuchun]
   - id: cal.1960-08-31.elections-1960
     when: Aug. 31
     date: '1960-08-31'
@@ -2353,6 +3237,7 @@ entries:
   - id: cal.1960-08.elections-1960-nixon-2
     when: Aug., mid-month
     date: 1960-08
+    at: before 1960-08-11
     thread: elections-1960-nixon
     c: 'Eisenhower, ending a meeting with the Republican legislative leaders: he is "getting darned political" around here.'
     n: '[[w.kallina-kennedy-v-nixon]], 161–62. Check: the day. Names: Eisenhower.'
@@ -2405,3 +3290,79 @@ entries:
     c: 'Walter, chairman of the House Un-American Activities Committee, to Gates, Secretary of Defense, by letter: "Executive regulations intended to guarantee the loyalty of Government employees, especially of sensitive agencies, are not effective and are not safeguarding the security of the United States."'
     n: '[[w.huac-security-practices-nsa]], 2 (the letter, as quoted; written, the committee says, after its investigators had found by the end of August "important evidence indicating there was far more involved than just the fact that two NSA employees had defected to the U.S.S.R."). Names: Walter, Gates.'
     tags: [name:walter-francis-e, name:gates-thomas-s-jr]
+  - id: cal.1960-08.china-leadership
+    when: Aug., early
+    date: 1960-08
+    at: before 1960-08-11
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai orders that the Sino-Soviet notes be read out in full to every Soviet expert, everywhere in China, at 10 a.m. on Aug. 4, so that the experts know the truth of the Soviet authorities' recall.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-31.china-leadership
+    when: Aug. 31
+    date: '1960-08-31'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai with He Long, Xi Zhongxun and others talks with Ngapoi Ngawang Jigme. Rebels in the Chamdo area to be wiped out; Tibet's democratic reform going well; mutual-aid groups and joint groups kept for a time, no hurry to cooperatives or the inland way; stability, water works, manure; some monks back to lay life, others may marry; more people and output, farming first; Han–Tibetan unity the key, Han against great-Han chauvinism and Tibetans against local nationalism.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 346 (Aug. 31, 1960). Made public: 1997. Names: Zhou Enlai, He Long.'
+    tags: [polity:prc, name:zhou-enlai, name:he-long, vis:only:prc]
+  - id: cal.1960-08-31.china-leadership-2
+    when: Aug. 31
+    date: '1960-08-31'
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: 'Zhou Enlai revises the Center''s notice on preparing for full talks on the Sino-Soviet boundary, for the Sinkiang and Inner Mongolia committees and the Heilongjiang and Jilin committees: old unsettled cases and new ones since Liberation, the latest at Artush in Sinkiang, on which the Soviet Embassy sent a note on Aug. 17; China is ready to negotiate fully when needed; six preparations. He adds a fourth: where an area is disputed, a field survey must first be reported to the Center, and none to be made along the Sino-Soviet boundary without its approval.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 346 (Aug. 31, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-31.china-leadership-3
+    when: Aug. 31–Sept. 3
+    date: '1960-08-31'
+    thread: china-leadership
+    also: [economy]
+    c: Zhou Enlai, Aug. 31 to Sept. 3, with Wang Heshou, Zhang Linzhi, Lü Zhengcao and others on steel, coal and transport.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 347 (Aug. 31, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-08-31.china-leadership-4
+    when: Aug. 31
+    date: '1960-08-31'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Great Hall of the People. Zhou Enlai watches a performance by the Mongolian art troupe and receives its head and chief performers.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 287 (Aug. 31, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: c93c5f5a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 287: all'
+    tags: [polity:prc, polity:mongolia, name:zhou-enlai]
+    time_range:
+      - 1960-08-31T11:00Z
+      - 1960-08-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08.china-leadership-2
+    when: Aug.
+    date: 1960-08
+    at: before 1960-08-10
+    thread: china-leadership
+    c: 'Mao 毛泽东, on the Center''s draft directive ''Everyone in the Party to farm, to farm grain'', to Yang Shangkun 杨尚昆: add a sentence, the three antis, against corruption, waste and bureaucracy, must be completed; they must not take farming time, to be done in the slack. To go at p. 8, line 10 of the draft.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 314 (Aug. 1960; Mao''s note of Aug. 1960; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Central Committee, directive of Aug. 10, 1960, "Everyone in the Party to farm, to farm grain" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 314 n.2). The directive, issued Aug. 10 with the sentence at that place (314 n.2): [[cal.1960-08-10.china-leadership-4]]. Names: Mao Zedong, Yang Shangkun. Check: the day: ''Aug.'' only, before the directive''s issue.'
+    src:
+      c: 0f63b451
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 314: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 314 n.2: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-08.china-leadership-3
+    when: Aug.
+    date: 1960-08
+    at: after 1960-08-19
+    thread: china-leadership
+    c: 'Mao 毛泽东 to Jiang Qing 江青, on the account of a Venezuelan Communist Party Politburo alternate, Aliaidi 阿里埃蒂, of his view of the Bucharest meeting: read it carefully and slowly, of much benefit. A second comment: ''A good talk.'' Aliaidi, after touring the Northeast, told the Chinese frankly that the meeting was badly arranged, the delegates not told beforehand, Khrushchev arrogant, and that the money Moscow gave China should not have been mentioned.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 325–326 (Aug. 1960; two comments of Aug. 1960; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Central Committee International Liaison Department, *Geguo gongchandang dongxiang* 《各国共产党动向》, Aug. 19, 1960 (the Venezuelan Communist Party Politburo alternate Aliaidi''s views on the Bucharest meeting) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 325 n.1). Names: Mao Zedong, Jiang Qing, Khrushchev. Check: the day: ''Aug.'' only, after the paper of Aug. 19; the man''s own name: the book gives only 阿里埃蒂, a Politburo alternate of the Venezuelan party.'
+    src:
+      c: 1fdaa33a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 325–326: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 325 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:jiang-qing, name:khrushchev-nikita-s, vis:only:prc]

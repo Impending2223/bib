@@ -10,7 +10,7 @@ The owner's standing instructions; their messages, verbatim, in `notes/owner-bri
 
 **Prose.** "Compact. Plain. Compressed. Springs and Autumns, but without the subtle words." Record what happened, not what it meant. No praise, blame, irony or color. Short declaratives and fragments; drop articles and verbs where the line still reads. Read a few entries of the section you add to before writing.
 
-**The calendar.** "A calendar of executive and legislative events, and any other events that left a trace, or should have left a trace, on the political and policy histories of the Kennedy and Johnson Administrations, their Congresses, or those of their members ... not a narrative, but a memory aid and a bibliographic record ... Names, events." What is an entry: the reader's brief (R5, the test: what the work being read dates and treats as an event; R7, the informal record; R18, what is not an entry).
+**The calendar** (R1 as the owner rewrote it, Nov. 15, 2026). "A calendar of executive and legislative events, and any other events that left a trace, or should have left a trace, on the political and policy histories of covered nations within the calendar's span ... not a narrative, but a memory aid and a bibliographic record ... Names, events." What is an entry: the reader's brief (R5, the test: what the work being read dates and treats as an event; R7, the informal record; R18, what is not an entry).
 
 Every calendar entry has:
 - `c`: what happened, one to three clipped sentences. Who, what, the number.
@@ -49,7 +49,7 @@ Markup: `*Title*` italics; `[text](https://…)` a link; `[[w.id]]` a work's car
 
 Directly: edit the section file, then `./bib check` (must end "0 errors"), `./bib build` (a page alone: `./bib build cal | names | works | congress ...`), `./bib links`.
 
-By patch (readers working at once): `inbox/<date>-<name>.yaml`, ops `add` (a new entry, claimed first in the ledger: `./bib ledger add DATE THREAD ID "words" PATCH`), `edit` (with `base:` the rev `./bib show` printed), and the additive ops that need no base: `cite: {id, item, units}`, `primary`, `to-check: {id, add}`, `check: {id, text}`, `src`, `names: {id, add, tags}`, `also`, `variant`, `follows`. `./bib patch-check PATCH` until no errors. `./bib merge --auto PATCH...` merges (one merge at a time: merges have no lock; readers never merge). `./bib setup` once per clone.
+By patch (readers working at once): `inbox/<date>-<name>.yaml`, ops `add` (a new entry, claimed first in the ledger: `./bib ledger add DATE THREAD ID "words" PATCH`; a claim no longer used, `./bib ledger drop PATCH ID`; never edit the ledger by hand), `edit` (with `base:` the rev `./bib show` printed), and the additive ops that need no base: `cite: {id, item, units}`, `primary`, `to-check: {id, add}`, `check: {id, text}`, `src`, `names: {id, add, tags}`, `also`, `variant`, `follows`. `./bib patch-check PATCH` until no errors. `./bib merge --auto PATCH...` merges (one merge at a time: merges have no lock; readers never merge). `./bib setup` once per clone.
 
 ## Finding things (start here)
 
@@ -99,7 +99,7 @@ A deliberate exception to a `check` warning is tagged `ok:<rule>` on the entry (
 
 ## Working hours
 
-The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays).
+The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays). A request to amend the queue is not queued: it is done at once, ahead of everything in the queue (the owner, Nov. 16: "an 'amend the queue' task takes priority over the items in the queue! immediate!"). In the queue, by default, layout and design changes come before anything token-intensive or complex (the owner, Nov. 16).
 
 ## Publishing
 

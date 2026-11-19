@@ -47,6 +47,25 @@ entries:
     c: 'The Secretariat''s instruction no. 62-CT/TW on improving the Party schools for junior and base cadres: over 15,000 junior and nearly 55,000 base cadres trained.'
     n: '*Chỉ thị của Ban Bí thư số 62-CT/TW về việc cải tiến công tác trường Đảng bồi dưỡng cán bộ sơ cấp và cơ sở*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXIV, 484–91. Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1963-04-01.china-leadership
+    when: Apr. 1
+    date: '1963-04-01'
+    thread: china-leadership
+    c: Zhou Enlai helps Soong Ching-ling move into her new Peking home. He had proposed rebuilding the late Qing prince's garden on the north shore of Houhai as her residence, and Mar. 31 went himself to inspect the building and furnishing.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 544 (Apr. 1, 1963). Made public: 1997. Names: Zhou Enlai, Soong Ching-ling.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-01.china-leadership-2
+    when: Apr. 1
+    date: '1963-04-01'
+    thread: china-leadership
+    c: The Inner Mongolian Party committee meets, its fourth meeting in six months. A fourth new decision.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338. Made public: 1991. To check: [[w.weimin-nei-menggu-zizhiqu-shi]], 216 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.25).'
+    src:
+      c: f808a36e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 338: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.25: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-04-02.foreign-aid
     when: Apr. 2
     date: '1963-04-02'
@@ -225,6 +244,10 @@ entries:
     c: Senate Republican conference on the mass transit bill, 9:35 to 10:50 a.m., Dirksen presiding for the absent Saltonstall. Thirteen Senators give views; amendments to come; labor's opposition may be compromised; the big issues taxes and economy.
     n: '[[w.wolff-minutes-of-the-senate]], 960–61. Names: Dirksen, Saltonstall.'
     tags: [name:dirksen-everett, name:saltonstall-leverett]
+    time_range:
+      - 1963-04-02T14:35Z
+      - 1963-04-02T15:50Z
+    time_zone: America/New_York
   - id: cal.1963-04-02.testing
     when: Apr. 2
     date: '1963-04-02'
@@ -236,11 +259,66 @@ entries:
   - id: cal.1963-04-02.china-leadership
     when: Apr. 2
     date: '1963-04-02'
+    time: 1963-04-02T02:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai and Deng Xiaoping, for Mao, receive from Chervonenko the Soviet Central Committee's letter of Mar. 30. (On Apr. 1 the ambassador, just back, had asked to give it and explain it to Mao in person; Mao named Zhou and Deng.) The Soviet side prints it Apr. 3.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 1, 1963 (Apr. 2 and 3). Made public: 2013. To check: the CPSU letter of Mar. 30, 1963. See [[cal.1963-03-20.china-leadership]]. Names: Zhou Enlai, Deng Xiaoping, Chervonenko.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 1, 1963 (Apr. 2 and 3). [[w.zhou-enlai-nianpu-1949]], II, 544 (Apr. 2, 1963: Zhou Enlai with Deng Xiaoping, for Mao, receives Chervonenko and answers the letter''s invitation to Mao: he cannot come for his health; differences are overcome by talks; another form of meeting proposed; not the delivery or the printing of the letter); [[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 2, 1963; 上午10时, 中南海怀仁堂, 与邓小平同志接见); [[w.macfarquhar-origins-of-the-cultural]], III, 350 (the CPSU letter of Mar. 30 sets Khrushchev''s three visits to China against Mao''s two to the Soviet Union, suggests Mao make the tour of the Soviet Union he wished for, and puts the talks at about May 15 in Moscow). Made public: 1993. To check: the CPSU letter of Mar. 30, 1963; [[w.floyd-mao-against-khrushchev]], 395–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 350 n.11a); [[w.xiuquan-huiyi-yu-huainian]], 367 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 350 n.11b). See [[cal.1963-03-20.china-leadership]]. Names: Zhou Enlai, Deng Xiaoping, Chervonenko.'
+    src:
+      c: 293f96e5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 1, 1963: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 544: ?'
+        - 'w.zhou-enlai-waijiao-huodong 355: A'
+        - 'w.macfarquhar-origins-of-the-cultural III, 350: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 350 n.11a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 350 n.11b: A'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-02.china-leadership-3
+    when: Apr. 2
+    date: '1963-04-02'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai and Deng Yingchao ask the heads, playwrights, directors and chief actors of the Front Drama Troupe to their home, praise *Sentinels under the Neon Lights* and say he is ready to speak for the play.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 544 (Apr. 2, 1963). Continues 545. Made public: 1997. Names: Zhou Enlai, Deng Yingchao.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-02.china
+    when: Apr. 2
+    date: '1963-04-02'
+    thread: china
+    also: [south-asia]
+    c: The Defense Ministry spokesman issues a statement that the Chinese government has decided to release and send back all the Indian personnel captured, in batches and at places, beginning Apr. 10. Since the Chinese frontier troops began their unilateral cease-fire China has made a series of major efforts to create an atmosphere and conditions for peaceful settlement. It is regrettable that the Indian side has done nothing positive in response and has gone on with war mobilization and anti-Chinese activity.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 276–277 (Apr. 2, 1963).'
+    src:
+      c: b95715e4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 276–277: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1963-04-02.china-2
+    when: Apr. 2
+    date: '1963-04-02'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy on the decision to release and send back all the captured Indian personnel. It hopes the Indian government will rightly understand China's efforts and respond positively to China's proposal for early direct talks.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 277 (Apr. 2, 1963).'
+    src:
+      c: 1e393c59
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 277: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1963-04-02.china-3
+    when: Apr. 2
+    date: '1963-04-02'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a serious protest at Indian reconnaissance in the course of intrusions. Since last December the Indian side has taken advantage of the Chinese frontier troops' unilateral cease-fire and withdrawal to intrude into Chinese territory in the western sector 16 times. China asks the Indian government to note the serious consequences of such intrusions and to stop all intrusion at once.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 277 (Apr. 2, 1963).'
+    src:
+      c: c4f0e4bc
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 277: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-04-03.alabama
     when: Apr. 3
     date: '1963-04-03'
@@ -401,7 +479,7 @@ entries:
     date: '1963-04-03'
     thread: laos
     c: Mortar and artillery rounds on Xieng Khouangville, the night of Apr. 3–4; twenty civilians killed. Souvanna Phouma protests to Souphanouvong, who blames Kong Le.
-    n: '[[w.anthony-war-in-northern-laos]], 81. See [[cal.1963-04-08.laos]]. Names: Souvanna Phouma, Souphanouvong, Kong Le.'
+    n: '[[w.anthony-war-in-northern-laos]], 81. See [[cal.1963-04-08.laos]]. The time is the first day''s. Names: Souvanna Phouma, Souphanouvong, Kong Le.'
     src:
       c: c7734e5d
       rows:
@@ -418,8 +496,49 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Juxiang Shuwu. Mao presides at the Standing Committee on the Soviet letter of Mar. 30: too long, not finished; after Zhou Enlai and Deng Xiaoping speak, concludes that Khrushchev''s group means its line to be the basis of the party talks; the letter to be printed in the *People''s Daily*; a counter-proposal to be made, answering the letter and stating the Chinese views directly, not arguing against it. Deng to prepare it. Printed Apr. 4.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 3, 1963. Made public: 2013. See [[cal.1963-04-02.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 3, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 558–560 (Mao at his house, the afternoon of Apr. 3, to the Standing Committee: the letter too long, not finished, he would hear the views first; Zhou Enlai: Khrushchev''s group will not change its line and dresses it up; talks cannot rest on the letter''s basis; Deng Xiaoping: a counter-proposal stating the general line from the basic principles of Marxism–Leninism, as in 1957, when the CPSU drafted first and China next; Mao: print the CPSU letter in the *Renmin ribao*, reply in the form of a positive statement of views, not a dispute with the letter, from the contradictions of the age to the end of open polemic; the talks may end in a great quarrel; Deng to prepare and bring it to the Standing Committee again); [[w.jianguo-yilai-mao-zedong]], XVI, 517–518 (Apr. 3, 1963; note 1 to Mao''s notes on the reply: the Standing Committee decided Apr. 3 that Deng Xiaoping should direct the drafting of the reply). Made public: 1999. See [[cal.1963-04-02.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Khrushchev.'
+    src:
+      c: 80712d80
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 3, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 558–560: A-G'
+        - 'w.jianguo-yilai-mao-zedong XVI, 517–518: F'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1963-04-03.china-leadership-2
+    when: Apr. 3
+    date: '1963-04-03'
+    thread: china-leadership
+    also: [laos]
+    c: Zhou Enlai and Chen Yi telegraph Prince Souvanna Phouma, Prime Minister of Laos, their condolences on the assassination of Foreign Minister Quinim Pholsena.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 3, 1963). Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Quinim Pholsena.'
+    tags: [polity:prc, polity:laos, name:zhou-enlai, name:chen-yi, name:souvanna-phouma, name:quinim-pholsena]
+  - id: cal.1963-04-03.china-leadership-3
+    when: Apr. 3
+    date: '1963-04-03'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-04-03.china-leadership
+    c: Peking, the Diaoyutai, Building 8. Deng Xiaoping, with Peng Zhen, Kang Sheng and Wu Lengxi, goes straight from the Standing Committee to the drafting group's seat and presides at its meeting on how to draft the reply on the general line. He relays the views of Mao, Liu Shaoqi and Zhou Enlai; the group agrees and asks for a draft quickly; Wu is to make a first outline.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 (the group formally led by Kang Sheng, in practice by Deng; Wu to prepare an outline, then the group to discuss, revise and add). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Kang Sheng, Liu Shaoqi, Zhou Enlai, Mao Zedong.'
+    src:
+      c: ce51abd5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:liu-shaoqi, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-04-03.china-leadership-4
+    when: Apr. 3
+    date: '1963-04-03'
+    thread: china-leadership
+    c: 'Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 cable Kádár and Dobi on the 18th anniversary of Hungary''s liberation: the year''s gains in building socialism and for peace; China to strengthen the friendship on the basis of Marxism-Leninism, proletarian internationalism and the Moscow Declaration and Statement.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 506–507 (Apr. 3, 1963; printed from *Renmin ribao* 人民日报, Apr. 4, 1963; note 1). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Kádár, Dobi.'
+    src:
+      c: 43a3d537
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 506–507: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 507 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 507 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:kadar-janos, polity:hungary]
   - id: cal.1963-04-04.program
     when: Apr. 4
     date: '1963-04-04'
@@ -542,6 +661,18 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 159–60: all'
     tags: [name:romney-george-w, name:minow-newton-n, city:chicago]
+  - id: cal.1963-04-04.china-leadership
+    when: Apr. 4
+    date: '1963-04-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The *Renmin ribao* prints in full, by Mao's opinion, the CPSU Central Committee's letter of Mar. 30.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560, 590 ("on Mao''s opinion"; the plate of the *Renmin ribao* of Apr. 4 and June 17, 1963, 590). See [[cal.1963-04-03.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: 568531ef
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560, 590: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1963-04-05.middle-east-yemen
     when: Apr. 5–9
     date: '1963-04-05'
@@ -566,6 +697,17 @@ entries:
       - 1963-04-06T06:00Z
     time_zone: America/Chicago
     range_basis: record
+  - id: cal.1963-04-05.china-leadership
+    when: Apr. 5
+    date: '1963-04-05'
+    thread: china-leadership
+    c: 'Mao to his second son, Mao Anqing 毛岸青: all his letters received, not answered for busyness; "I love you, I think of you, I am good to you"; do not misunderstand; in his illness he must curb his impatience. Signed "Father."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 508 (Apr. 5, 1963; Mao''s letter of Apr. 5; printed from his manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Mao Anqing. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: ffd7e47a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 508: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1963-04-06.alabama-birmingham
     when: Apr. 6
     date: '1963-04-06'
@@ -652,6 +794,13 @@ entries:
     time_band: early morning
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-06.china-leadership
+    when: Apr. 6
+    date: '1963-04-06'
+    thread: china-leadership
+    c: 'Zhou Enlai receives delegates of the Suzhou Embroidery Research Institute: to study harder and exchange skills, to follow the line of making foreign things serve China, to learn the strong points of the fraternal countries and raise the art of China''s arts and crafts.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 6, 1963). Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1963-04-07.goldwater
     when: Apr. 7
     date: '1963-04-07'
@@ -694,6 +843,21 @@ entries:
         - 'w.branch-parting-the-waters 710: all'
         - 'via w.branch-parting-the-waters 710 n.5: all'
     tags: [name:connor-eugene, state:al, city:birmingham]
+  - id: cal.1963-04-07.china-leadership
+    when: Apr. 7
+    date: '1963-04-07'
+    time: 1963-04-07T09:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai receives Ghana''s Ambassador, Mercer (默塞尔), on the prospect of settling the Sino-Indian border: relations are more complicated now, and their betterment does not rest on Nehru alone or on the Afro-Asian friends'' goodwill and encouragement; the border question has become a part of the American strategic plan, the most basic matter.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 7, 1963); [[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 7, 1963; 下午5时, 中南海西花厅). Made public: 1993. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai, Nehru.'
+    src:
+      c: f777bbfe
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 545: ?'
+        - 'w.zhou-enlai-waijiao-huodong 355: A'
+    tags: [polity:prc, polity:ghana, polity:india, polity:us, name:zhou-enlai, name:nehru-jawaharlal, vis:only:prc+ghana]
+    time_zone: Asia/Shanghai
   - id: cal.1963-04-08.elections-1964
     when: Apr. 8
     date: '1963-04-08'
@@ -839,6 +1003,22 @@ entries:
     c: 'Washington, Monday afternoon. Harriman sworn in as Deputy Under Secretary of State; Ball''s speech recalls the early New Deal. In his new office Harriman to Schlesinger: "This place is dead, dead, dead. What I want to do is to give it a little of the crusading spirit of those earlier times." And: "What is wrong with the President when it comes to dealing with the Congress? These people spend all their time obstructing and sabotaging his program, and yet he treats them with constant consideration and respect." By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 188. Made public: [[w.schlesinger-journals]] (2007). Names: Harriman, Ball, Schlesinger, Kennedy.'
     tags: [name:harriman-w-averell, name:ball-george-w, name:schlesinger-arthur-m-jr, name:kennedy-john-f, city:washington]
+  - id: cal.1963-04-08.china-leadership
+    when: Apr. 8
+    date: '1963-04-08'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, after a report on literature and the arts, receives nineteen of the Peking Opera Troupe''s Hong Kong party, Ma Lianliang, Zhang Junqiu, Qiu Shengrong, Zhao Yanxia and others, on opera reform: rely on experts. Four ways: experts like Sa Kongliao, Lao She and Ma Yanxiang sort and revise old plays; take plays over from other kinds of opera; take over tunes and martial skills; write new plays. First the historical plays, ancient or modern since the Opium War; plays of the present second, not pitched too high. Of critics: accept the right, ignore the nitpickers.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 8, 1963). Made public: 1997. Names: Zhou Enlai, Ma Lianliang, Zhang Junqiu, Qiu Shengrong, Zhao Yanxia, Sa Kongliao, Lao She, Ma Yanxiang.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-08.china-leadership-2
+    when: Apr. 8
+    date: '1963-04-08'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai at the General Political Department's meeting to award outstanding plays; he receives the writers honored and sings revolutionary songs with them at the party.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 8, 1963). Continues 546. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1963-04-09.program
     when: Apr. 9
     date: '1963-04-09'
@@ -967,6 +1147,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-09.china-leadership
+    when: Apr. 9
+    date: '1963-04-09'
+    time: 1963-04-08T18:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: '2 a.m. Mao to Chen Boda 陈伯达, on parts of the handwritten draft of a "Memorandum" of views on the program of the CPSU''s 22nd Congress: all read, well written; send the rest as it is done.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 509–510 (Apr. 9, 1963; part one, dated 2 a.m. Apr. 9; printed from the manuscript; note 1: the memorandum, never sent). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Chen Boda. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: fe36b156
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 509–510: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1963-04-10.program
     when: Apr. 10
     date: '1963-04-10'
@@ -1111,6 +1305,39 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v24/d452: all'
         - 'w.schulimson-joint-chiefs-of-staff 290: A'
     tags: [place:plain-of-jars, name:kong-le, name:mccone-john-a, name:harriman-w-averell]
+  - id: cal.1963-04-10.china-leadership
+    when: Apr. 10
+    date: '1963-04-10'
+    thread: china-leadership
+    c: Zhou Enlai hears reports on prices and supplies.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 546 (Apr. 10, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-10.china-leadership-2
+    when: Apr. 10
+    date: '1963-04-10'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking. Zhou Enlai receives the Albanian transport delegation led by Kirko, First Vice Minister of Communications, and the Albanian archives delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 10, 1963). Names: Zhou Enlai.'
+    src:
+      c: dde53401
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 355: all'
+    tags: [polity:prc, polity:albania, name:zhou-enlai]
+  - id: cal.1963-04-10.soviet-union-leadership
+    when: Apr. 10
+    date: '1963-04-10'
+    thread: soviet-union-leadership
+    also: [soviet-union]
+    c: Kozlov, a Central Committee secretary, calls a meeting of the Presidium in Khrushchev's absence. Rumors of a plot for Khrushchev's resignation.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 357. Made public: 1965. To check: [[w.conquest-russia-after-khrushchev]], 114–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 357 n.58a); [[w.beschloss-crisis-years]], 585 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 357 n.58b). Names: Kozlov, Khrushchev. Check: the day, from the book''s "twenty-four hours" before Kozlov''s stroke of Apr. 11 (III, 357); whether the meeting was held.'
+    src:
+      c: b5ff0726
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 357: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 357 n.58a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 357 n.58b: all'
+    tags: [polity:ussr, name:kozlov-frol-r, name:khrushchev-nikita-s, vis:only:ussr]
   - id: cal.1963-04-11.steel
     when: Apr. 11
     date: '1963-04-11'
@@ -1180,6 +1407,21 @@ entries:
       - 1963-04-12T03:11Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-04-11.china-leadership
+    when: Apr. 11
+    date: '1963-04-11'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai checks the security arrangements for Liu Shaoqi's visit to the Southeast Asian states.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 546 (Apr. 11, 1963). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-04-11.china-leadership-2
+    when: Apr. 11
+    date: '1963-04-11'
+    thread: china-leadership
+    c: Zhou Enlai with persons concerned on streamlining.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 546 (Apr. 11, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-04-12.alabama
     when: Apr. 12
     date: '1963-04-12'
@@ -1282,6 +1524,35 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Tbilisi
     range_basis: kind
+  - id: cal.1963-04-12.china-leadership
+    when: Apr. 12
+    date: '1963-04-12'
+    thread: china-leadership
+    c: 'Zhou Enlai and Deng Xiaoping issue the Central Committee''s and State Council''s comment on the National Price Commission''s request on adjusting prices in 1963: this year''s farm and industrial output and the market do not allow a general adjustment, only a necessary and possible one of the grossly unreasonable parts, with the general level unmoved; adjustment touches production, distribution and circulation and the interests of state, collective and person, and must be studied as a whole and cautiously.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 546 (Apr. 12, 1963). Made public: 1997. To check: the comment. Names: Zhou Enlai, Deng Xiaoping.'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-04-12.china-leadership-2
+    when: Apr. 12
+    date: '1963-04-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai receives Liu Renfu, former instructor of an eighth company of the People''s Liberation Army in Shanghai: he praises it for carrying on and spreading the Party''s and army''s tradition of hard struggle, forming a good style in peace and tying political education closely to practice, and hopes the higher organs will help it sum up a set of concrete experiences to go on with, for other units to learn from. A note: the masses call it "the good Eighth Company on Nanjing Road"; Apr. 25 the Ministry of National Defense names it so by order.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 546 (Apr. 12, 1963). Names: Zhou Enlai, Liu Renfu.'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-04-12.china-leadership-3
+    when: Apr. 12
+    date: '1963-04-12'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to Indonesia; after a short stop at Rangoon they reach Jakarta, where Sukarno welcomes them. In the afternoon Sukarno takes Liu to the flower and orchid show at the state palace.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573–574 (Apr. 12, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 339 (Liu on tour Apr. 12–May 16, with state visits to Indonesia, Burma, Cambodia and Vietnam). To check: [[w.jin-1949-1989-niande-zhongguo]], 530 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 339 n.34). Names: Liu Shaoqi, Chen Yi, Sukarno.'
+    src:
+      c: 043a4f3d
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 573–574: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 339: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 339 n.34: A, B'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:chen-yi, name:sukarno]
   - id: cal.1963-04-13.alabama-birmingham
     when: Apr. 13–14
     date: '1963-04-13'
@@ -1327,6 +1598,36 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-13.china-leadership
+    when: Apr. 13
+    date: '1963-04-13'
+    thread: china-leadership
+    c: 'Zhou Enlai presides at the 130th plenary meeting of the State Council. On prices: factory, purchase and market prices have grown many irrationalities; only piecemeal adjustment is possible now. The meeting sets up the National Price Commission and the State Commission on Establishment as standing bodies. Zhou asks them to press streamlining of the State Council''s direct bodies, first working out the staffing of its 62 departments for a base; each department to review old laws and rules, sort those of the Second Five-Year Plan, finish its cut of 5,000, and have its minister sit in when it reports to the NPC Standing Committee.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 546 (Apr. 13, 1963). Continues 547. Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-13.china-leadership-2
+    when: Apr. 13
+    date: '1963-04-13'
+    thread: china-leadership
+    c: Zhou Enlai votes in the election of people's deputies of Peking's Xicheng district.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 547 (Apr. 13, 1963). Check: the day; the nianpu gives it after the State Council meeting of Apr. 13. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1963-04-13.china-leadership-3
+    when: Apr. 13
+    date: '1963-04-13'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: At the state banquet Sukarno gives, Liu Shaoqi says the national liberation movements of the peoples of Asia, Africa and Latin America have become an irresistible historical current, and the peoples' struggle against imperialism and for world peace has greatly developed; obstacles and difficulties on the way can be overcome by vigilance, unity and struggle.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 13, 1963). Names: Liu Shaoqi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+  - id: cal.1963-04-13.china-leadership-4
+    when: Apr. 13
+    date: '1963-04-13'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi, with Sukarno, takes part in the celebration of Indonesia's Air Force Day, and lays a wreath at the Indonesian martyrs' cemetery.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 13, 1963). Names: Liu Shaoqi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
   - id: cal.1963-04-14.press-and-broadcasting
     when: Apr. 14
     date: '1963-04-14'
@@ -1381,6 +1682,27 @@ entries:
         - 'w.zaroulis-who-spoke-up 7–8: all'
         - 'w.debenedetti-american-ordeal 87: ?'
     tags: [name:rustin-bayard, name:dellinger-david, name:muste-a-j, state:ny, city:nyc]
+  - id: cal.1963-04-14.china-leadership
+    when: Apr. 14–15
+    date: '1963-04-14'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi, with Sukarno, visits Bogor, Apr. 14; Apr. 15 he tours the Bogor botanical garden and at noon leaves for Bandung.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 14 and 15, 1963). Names: Liu Shaoqi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+  - id: cal.1963-04-14.china-leadership-2
+    when: Apr. 14
+    date: '1963-04-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao, on the letter of Apr. 5 from Zhang Wentian 张闻天 on the Soviet Central Committee''s letter of Mar. 30 (no earnest talk but ground for further struggle; a reply restating that the dispute is of strategic and tactical principle, and open propaganda of the Chinese view): to Xiaoping 小平, Kang Sheng 康生, Boda 伯达, Peng Zhen 彭真 and the Premier to read; Shangkun 尚昆 to keep it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 511–512 (Apr. 14, 1963; Mao''s note of Apr. 14; printed from the manuscript; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Zhang Wentian, letter to Mao Zedong of Apr. 5, 1963 with his views on the CPSU Central Committee''s letter of Mar. 30 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 511 n.1). Names: Mao Zedong, Zhang Wentian, Deng Xiaoping, Kang Sheng, Chen Boda, Peng Zhen, Zhou Enlai, Yang Shangkun. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: 4a350517
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 511–512: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 511 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:chen-boda, name:peng-zhen, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-04-15.alabama-birmingham
     when: Apr. 15
     date: '1963-04-15'
@@ -1503,6 +1825,13 @@ entries:
     c: 'The Secretariat''s circular no. 115-TT/TW on consolidating the highland cooperatives: the campaign to improve management not to be started there at once; some provinces'' own pilots badly prepared.'
     n: '*Thông tri của Ban Bí thư số 115-TT/TW về việc củng cố hợp tác xã nông nghiệp và đẩy mạnh sản xuất nông nghiệp ở miền núi*, signed for the Secretariat by Nguyễn Chí Thanh. [[w.van-kien-dang-toan]], XXIV, 506–08. Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1963-04-15.china-leadership
+    when: Apr. 15
+    date: '1963-04-15'
+    thread: china-leadership
+    c: 'Zhou Enlai at the State Economic Commission''s forum on political work, report on the international situation and the fight against revisionism, tied to construction at home: hold higher the banners of Marxism-Leninism and proletarian internationalism against revisionism; but China must do its own work better, see the class situation at home and carry on socialist education. Economic decisions test a leader''s foresight, the greatest weakness being its lack. One cannot build or enter communism behind a closed door.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 547 (Apr. 15, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-04-16.alabama-birmingham
     when: Apr. 16
     date: '1963-04-16'
@@ -1629,6 +1958,26 @@ entries:
     c: 'The Secretariat''s resolution no. 76-NQ/TW on the trade unions'' role and tasks in socialist industrialization: by the Third Congress''s decision, their place raised in every field under the Trade Union Law, a school of economic and state management.'
     n: '*Nghị quyết của Ban Bí thư số 76-NQ/TW về vai trò và nhiệm vụ của công đoàn trong sự nghiệp công nghiệp hoá xã hội chủ nghĩa và xây dựng chủ nghĩa xã hội*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIV, 509–26. Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1963-04-16.china-leadership
+    when: Apr. 16
+    date: '1963-04-16'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi sees the crater of the Tangkuban Perahu volcano 20 kilometers north of Bandung; at noon he leaves Bandung for Yogyakarta and in the Agung palace sees an exhibition of Yogyakarta handicrafts.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 16, 1963). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
+  - id: cal.1963-04-16.china
+    when: Apr. 16
+    date: '1963-04-16'
+    thread: china
+    also: [laos]
+    c: The Chinese government issues a statement on the situation in Laos. It strongly condemns the U.S. for plotting to overthrow Laos's provisional government of national union, firmly supports the Lao patriotic forces' strengthening of unity and opposition to U.S. interference and aggression. If the situation in Laos worsens, China demands that the 14-nation Geneva conference on Laos be reconvened.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278 (Apr. 16, 1963).'
+    src:
+      c: bd67f055
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 278: all'
+    tags: [polity:prc, polity:laos, polity:us]
   - id: cal.1963-04-17.vietnam
     when: Apr. 17
     date: '1963-04-17'
@@ -1672,8 +2021,35 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Hangzhou. Mao asks Lin Ke to bring Deng Xiaoping, Kang Sheng, Lu Dingyi and Chen Boda to Hangzhou Apr. 21–22 to discuss the reply to the Soviet letter. On Apr. 19 he receives its second draft; Deng and the three arrive Apr. 21.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 17, 1963. Made public: 2013. See [[cal.1963-04-03.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Kang Sheng, Lu Dingyi, Chen Boda, Lin Ke.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 17, 1963. [[w.jianguo-yilai-mao-zedong]], XVI, 513, 517–518 (Apr. 17, 1963; Mao''s note to Lin Ke, dated 4 a.m. Apr. 17, on the second draft of the reply; printed from the manuscript; note 1: the Standing Committee decided Apr. 3 that Deng Xiaoping should direct the drafting). Made public: 2013. See [[cal.1963-04-03.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Kang Sheng, Lu Dingyi, Chen Boda, Lin Ke.'
+    src:
+      c: 979308f5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 17, 1963: all'
+        - 'w.jianguo-yilai-mao-zedong XVI, 513, 517–518: B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:lu-dingyi, name:chen-boda, vis:only:prc]
+  - id: cal.1963-04-17.china-leadership-2
+    when: Apr. 17
+    date: '1963-04-17'
+    thread: china-leadership
+    also: [cuba]
+    c: Zhou Enlai with Peng Zhen receives José Matar, chairman of Cuba's National Committee for the Defense of the Revolution, and attends the capital's rally supporting the just struggle of the Cuban and Latin American peoples.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 547 (Apr. 17, 1963); [[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 17, 1963; 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278 (Apr. 17, 1963; the capital''s mass rally commemorating the victory at Playa Girón and supporting the struggle of the peoples of Latin America, Zhou attending). Continues 548. Names: Zhou Enlai, Peng Zhen, José Matar.'
+    src:
+      c: e231dd4a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 547: ?'
+        - 'w.zhou-enlai-waijiao-huodong 355: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 278: A'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, name:peng-zhen]
+  - id: cal.1963-04-17.china-leadership-3
+    when: Apr. 17
+    date: '1963-04-17'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi visits the Borobudur stupa near Yogyakarta; at noon he leaves for Denpasar, the capital of Bali.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 17, 1963). Names: Liu Shaoqi. Check: the book prints 巴塘 for the Bali capital.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
   - id: cal.1963-04-18.middle-east
     when: Apr. 18
     date: '1963-04-18'
@@ -1707,6 +2083,40 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 103 n.39: D'
         - 'via w.gavin-gold-dollars-and-power 103 n.40: E'
     tags: [name:dillon-c-douglas, name:ball-george-w, name:roosa-robert-v, name:mcnamara-robert-s, name:heller-walter-w, name:tobin-james, name:kennedy-john-f]
+  - id: cal.1963-04-18.china-leadership
+    when: Apr. 18
+    date: '1963-04-18'
+    thread: china-leadership
+    c: Zhou Enlai at the capital's rally to mark the eighth anniversary of the Bandung Conference.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 548 (Apr. 18, 1963); [[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 18, 1963; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278 (Apr. 18, 1963; a mass rally in the capital marks the eighth anniversary of the Bandung conference; Zhou and Vice-Premier He Long attend, He Long speaking: China supports the holding of a second Asian–African conference and of a three-continent conference at Havana). Names: Zhou Enlai.'
+    src:
+      c: 963970ee
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 548: ?'
+        - 'w.zhou-enlai-waijiao-huodong 355: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 278: A'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1963-04-18T04:00Z
+      - 1963-04-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-18.china-leadership-2
+    when: Apr. 18
+    date: '1963-04-18'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: 'Liu Shaoqi speaks at the rally the people of Denpasar hold to welcome him: the struggle of the peoples of Asia, Africa and Latin America against imperialism and colonialism and for national independence is a most important part of the world peace movement; the struggle for national independence is not opposed to the struggle for world peace, and the more the struggle against imperialism and neocolonialism is strengthened, the more peace is defended.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 18, 1963). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
+  - id: cal.1963-04-18.china-leadership-3
+    when: Apr. 18
+    date: '1963-04-18'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi talks with Sukarno at the Tampaksiring palace.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 18, 1963). Names: Liu Shaoqi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
   - id: cal.1963-04-19.mississippi
     when: Apr. 19
     date: '1963-04-19'
@@ -1824,6 +2234,36 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 244: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1963-04-19.china-leadership
+    when: Apr. 19
+    date: '1963-04-19'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, "Be a Revolutionary Literary and Art Worker," at the joint session of the Propaganda Department''s conference on literature and art and the second enlarged session of the Third National Committee of the Federation of Literary and Art Circles. Five demands: a firm revolutionary stand; a communist ideal, standing among the people; remolding by study, practice, emulation and struggle; testing in stormy seas; long striving. The socialist line: object workers, peasants and soldiers; aim socialism; a hundred flowers, a hundred schools; revolutionary realism joined with revolutionary romanticism.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 548 (Apr. 19, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-19.china-leadership-2
+    when: Apr. 19
+    date: '1963-04-19'
+    time: 1963-04-19T03:00Z
+    thread: china-leadership
+    also: [china, korea]
+    c: Peking, Xihuating. Zhou Enlai receives the DPRK military delegation headed by a vice chairman of the committee.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 19, 1963; 上午11时). Names: Zhou Enlai. Check: the head''s name and post, 以仿光侠副委员长为团长 in the book.'
+    src:
+      c: 2fffcbfd
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 355: all'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-19.china-leadership-3
+    when: Apr. 19
+    date: '1963-04-19'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi returns to Jakarta; at the state palace, the farewell banquet.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 19, 1963). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
   - id: cal.1963-04-20.laos
     when: Apr. 20
     date: '1963-04-20'
@@ -2013,6 +2453,81 @@ entries:
     c: 'Khrushchev, a note to the Presidium on relations with the United States since the Caribbean crisis: the missiles were put in Cuba to defend it, "единственной целью" (the only aim); secrecy hoped for, the military''s report that it was possible wrong; the pledge of no invasion backed only by the Soviet threat. Kennedy''s circle sold the outcome as his victory. Cousins sent to blackmail; the message through Robert Kennedy parried it, Thompson''s talk and Kennedy''s message the Americans'' next move. The main questions Cuba''s safety from invasion and a German peace treaty; the test ban "подсобным" (subsidiary), an agreement useful all the same.'
     n: '*Zapiska ... N. S. Khrushcheva v Prezidium TsK KPSS o sovetsko-amerikanskikh otnosheniyakh*, Apr. 20, 1963 (special file), sent to the Presidium''s members and candidates and the secretaries, with five attachments. [[w.prezidium-tsk-kpss-1954]], III, 478–82 (doc. 288.0.2); the draft, dictated at Pitsunda Apr. 13, 474–77 (doc. 288.0), and his remarks on it, Apr. 19, 477–78 (doc. 288.0.1). See [[cal.1963-04-02.testing]], [[cal.1963-04-03.soviet-union]], [[cal.1963-04.testing-2]], [[cal.1963-04-12.testing]]. Made public: 2008. Names: Khrushchev, Kennedy, Cousins, Robert Kennedy, Thompson.'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:kennedy-robert-f, name:thompson-llewellyn-e, name:cousins-norman, polity:ussr, polity:us, polity:cuba]
+  - id: cal.1963-04-20.china-leadership
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai holds a forum with Mo Yan, Shen Ximeng, Liu Chuan, Zhang Ying, Zhang Junxiang, Zheng Junli, Xia Yan, Wang Ping and others on filming *Sentinels under the Neon Lights*, *The Second Spring* and *The Red Propagandist*: revision of the scripts and the choice of directors and actors.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 548 (Apr. 20, 1963). Made public: 1997. Names: Zhou Enlai, Xia Yan, Shen Ximeng, Liu Chuan.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-20.china-leadership-2
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai to Nehru, by letter: the Chinese government has done all it could to promote a peaceful settlement of the boundary question; it has lately decided of its own accord, and begun, to release and send home all the more than 3,000 Indian prisoners. All who respect the facts will judge fairly who has the sincerity to settle it peacefully; if the Indian government for reasons of home and foreign policy is for the moment not ready to negotiate, China will wait with patience.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 548 (Apr. 20, 1963). Continues 549. Made public: 1997. To check: the letter. Names: Zhou Enlai, Nehru.'
+    tags: [polity:prc, polity:india, name:zhou-enlai, name:nehru-jawaharlal, vis:only:prc+india]
+  - id: cal.1963-04-20.china-leadership-3
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai to Bandaranaike, by letter: India''s treating its own interpretation of the Colombo proposals as the participants'' clarification is dishonest; it makes her "uneasy," and he "cannot but be surprised and puzzled."'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 549 (Apr. 20, 1963). Made public: 1997. To check: the letter. Names: Zhou Enlai, Srimavo Bandaranaike.'
+    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon]
+  - id: cal.1963-04-20.china-leadership-4
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    also: [china, indonesia]
+    c: Liu Shaoqi and Sukarno sign the Joint Declaration of the People's Republic of China and the Republic of Indonesia.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 20, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 277–278 (Apr. 12–20, 1963; Liu Shaoqi visits Indonesia at invitation, holds talks with Sukarno and signs a joint statement, the day not given: the two sides will further consolidate their solidarity and friendship and expand economic and technical cooperation and cultural exchange; China firmly supports Indonesia''s struggle to recover West Irian and unify the country; Indonesia fully supports China''s struggle to liberate Taiwan and oppose "two Chinas" and to restore its lawful seat in the United Nations; both oppose outside interference in the Sino-Indian boundary dispute and hold imperialism and colonialism the root cause of the threat to world peace; China fully supports Indonesia''s proposals for a second Asian–African conference and for a "new emerging forces" games). Names: Liu Shaoqi, Sukarno.'
+    src:
+      c: 2a606f64
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 574: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 277–278: all'
+    tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+  - id: cal.1963-04-20.china-leadership-5
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi leaves Jakarta for Rangoon and begins a friendly visit to Burma; General Ne Win, Chairman of the Union Revolutionary Council and head of the government, welcomes him.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574–575 (Apr. 20, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278 (Apr. 20–26, 1963; Liu Shaoqi visits Burma at invitation; the leaders of the two sides hold talks several times, the days not given). Names: Liu Shaoqi, Ne Win.'
+    src:
+      c: 2752d273
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 574–575: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 278: all'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
+  - id: cal.1963-04-20.china-leadership-6
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao, on the printed first draft of the "Memorandum" on the CPSU program, sent by Chen Boda 陈伯达 Apr. 13: "Read through once."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 509–510 (Apr. 20, 1963; part two, dated Apr. 20; printed from the manuscript; note 1: the draft (the Soviet leaders treat the 22nd Congress program as the common program; views on socialism''s final victory, the dictatorship of the proletariat, the "party of the whole people," "material incentives," the "new international division of labor," "all for man" and humanism); never sent). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: "Memorandum" of views on the program of the CPSU''s 22nd Congress, first draft, printed, sent to Mao by Chen Boda Apr. 13, 1963 (never sent) (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 510 n.1). See [[cal.1963-04-09.china-leadership]]. Names: Mao Zedong, Chen Boda. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: 26330f15
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 509–510: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 510 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1963-04-20.china-leadership-7
+    when: Apr. 20
+    date: '1963-04-20'
+    thread: china-leadership
+    c: 'Mao to the Premier, on the Foreign Ministry Party committee''s request of Apr. 16 on Liu Xiao''s 刘晓 appointment, sent by Zhou Enlai 周恩来 Apr. 18: going down to learn conditions was Liu Xiao''s own wish, and Mao agrees; his health does not suit being sent down; he may be announced as Vice-Minister of Foreign Affairs and spend part of each year investigating in some provinces and cities.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 519 (Apr. 20, 1963; Mao''s note of Apr. 20; printed from the manuscript; note 1: the Center had named Liu Xiao vice-minister Dec. 20, 1962, ranked before Zhang Hanfu, the appointment held back while he was on leave; the State Council''s plenary approved it May 20, 1963, *Renmin ribao* announced it May 22). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Foreign Ministry Party committee, request for instructions to Zhou Enlai on Liu Xiao''s appointment, Apr. 16, 1963 (sent to Mao by Zhou Apr. 18) (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 519 n.1). Names: Mao Zedong, Zhou Enlai, Liu Xiao. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: 78aa836a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 519: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 519 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-04-21.laos
     when: Apr. 21
     date: '1963-04-21'
@@ -2067,6 +2582,71 @@ entries:
       rows:
         - 'w.anthony-war-in-northern-laos 81: all'
     tags: [name:souvanna-phouma, name:felt-harry-d]
+  - id: cal.1963-04-21.china-leadership
+    when: Apr. 21
+    date: '1963-04-21'
+    time: 1963-04-21T10:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai receives Ali Sabri, Chairman of the UAR''s Executive Council. On a second Afro-Asian conference: whatever the border question, wherever the conference is held, even at Delhi, he will go; the question is whether India will. Some Afro-Asian states may have bilateral troubles for a time, but the important thing is Afro-Asian unity against imperialism and colonialism, the highest common interest, to which two-state quarrels come second.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 549 (Apr. 21, 1963); [[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 21, 1963; 晚6时, 下午, 机场; 下午6时, 人民大会堂, 会见); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 279 (Apr. 21–25, 1963; Ali Sabri, Chairman of the Executive Council of the United Arab Republic, visits China; Mao receives him; Zhou holds talks with him on the Sino-Indian boundary question, matters of common concern, the situation in Asia and Africa and the further development of friendly cooperation between the two countries; the talks'' days are not given). Made public: 1993. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: 5107e8e2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 549: ?'
+        - 'w.zhou-enlai-waijiao-huodong 355: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 279: A'
+    tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:sabri-ali, vis:only:prc+uar]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-21.china-leadership-2
+    when: Apr. 21
+    date: '1963-04-21'
+    time: 1963-04-21T05:30Z
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Zhou Enlai at the airport, awaiting Ali Sabri, to the UAR''s Ambassador, Imam, who thinks the Israelis dangerous: one cannot say so of a people; a people is always good; great men have come from them, Marx and Einstein; part of that nation suffers foreign oppression and another part oppresses others.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 549 (Apr. 21, 1963); [[w.zhou-enlai-waijiao-huodong]], 355 (Apr. 21, 1963; 下午1时30分, 东郊机场休息室). Made public: 1993. Names: Zhou Enlai, Zakaria Adli Imam.'
+    src:
+      c: 5a50c192
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 549: ?'
+        - 'w.zhou-enlai-waijiao-huodong 355: A'
+    tags: [polity:prc, polity:uar, polity:israel, name:zhou-enlai, vis:only:prc+uar]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-21.china-leadership-3
+    when: Apr. 21
+    date: '1963-04-21'
+    thread: china-leadership
+    also: [china, middle-east, laos]
+    c: Peking, the Great Hall of the People. Zhou Enlai, at the banquet welcoming Ali Sabri, Chairman of the UAR's Executive Council, condemns a series of political assassinations and armed clashes directed and planned by the United States in Laos, aimed at renewing the Laotian civil war; the two Geneva co-chairmen and all parties to the Geneva conference are bound to stop American interference and aggression, and China firmly supports Laos's independence, peace and neutrality and all its patriotic forces' unity.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 21, 1963; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 279–280 (Apr. 21, 1963; Zhou, at the banquet welcoming Sabri: he sternly condemns the U.S. for directing and planning a series of political assassinations and armed clashes in Laos in an attempt to rekindle civil war; the co-chairmen of the Geneva conference and all its participants have a duty to stop U.S. interference and aggression there; China firmly supports Laos''s independence, peace and neutrality and its patriotic forces'' unity against the provocations of the Lao reactionaries). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: 6eff5a61
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 356: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 279–280: B-C'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-21T11:00Z
+      - 1963-04-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-21.china-leadership-4
+    when: Apr. 21
+    date: '1963-04-21'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi visits the Shwedagon pagoda in Rangoon and gives 6,000 kyats toward its repair; lays a wreath at the tomb of General Aung San.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 21, 1963). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi]
+  - id: cal.1963-04-21.china-leadership-5
+    when: Apr. 21
+    date: '1963-04-21'
+    thread: china-leadership
+    also: [china]
+    c: At the state banquet Ne Win gives, Liu Shaoqi says the development of friendly relations between China and Burma is a shining example of mutual respect, amity and friendly cooperation among Asian and African states.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 21, 1963). Names: Liu Shaoqi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
   - id: cal.1963-04-22.alabama-birmingham
     when: Apr. 22
     date: '1963-04-22'
@@ -2147,6 +2727,80 @@ entries:
     c: 'The Secretariat on the People''s Courts'' work for 1963, after the Supreme Court''s party group reports: the Party committees inattentive to the courts, the state still without enough laws or rules of trial; the courts to strike at counterrevolutionaries, the American–Diệm spies and commandos above all, at economic sabotage, at murder and the rape of children; wrong judgments to be righted; a lawyers'' association prepared.'
     n: '*Thông báo của Ban Bí thư số 47-TB/TW bàn về phương hướng, nhiệm vụ công tác năm 1963 của ngành Toà án nhân dân*, signed for the Secretariat by Minh Châu, deputy chief of the office. [[w.van-kien-dang-toan]], XXIV, 530–33. Made public: 2003. Names: Ngô Đình Diệm.'
     tags: [name:ngo-dinh-diem, polity:drv, polity:us]
+  - id: cal.1963-04-22.china-leadership
+    when: Apr. 22–23
+    date: '1963-04-22'
+    time: 1963-04-22T02:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai in talks with Ali Sabri, Apr. 22 and 23, on the international situation, the Sino-Indian border and Sino-UAR relations. Apr. 22: if Sabri at New Delhi finds India willing to cooperate and not make its reading of the Colombo proposals a precondition, both may accept them in principle as the basis for talks; then China can talk; he hopes Sabri will persuade Nehru so that talks start early.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 549 (Apr. 22–23, 1963); [[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 22, 1963; 上午10时, 钓鱼台宾馆, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 22, 1963; 下午5时, 钓鱼台宾馆, 第二次会谈); [[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 23, 1963; 上午11时, 钓鱼台宾馆, 第三次会谈). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Ali Sabri, Nehru.'
+    src:
+      c: 6ac9e17d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 549: ?'
+        - 'w.zhou-enlai-waijiao-huodong 356: A'
+    tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:sabri-ali, name:nehru-jawaharlal, vis:only:prc+uar]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-22.china-leadership-2
+    when: Apr. 22
+    date: '1963-04-22'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai attends the luncheon given by the UAR Ambassador, Imam, for Sabri's visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 22, 1963; 中午). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: c0939826
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 356: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-22T04:00Z
+      - 1963-04-22T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-22.china-leadership-3
+    when: Apr. 22
+    date: '1963-04-22'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai accompanies Soong Ching Ling in receiving Sabri.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 22, 1963; 下午). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: 7004f590
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 356: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-22T04:00Z
+      - 1963-04-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-22.china-leadership-4
+    when: Apr. 22
+    date: '1963-04-22'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai attends the evening of arts given by the Ministry of Culture for Sabri.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 22, 1963; 晚上). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: c5bb2c2d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 356: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-22T11:00Z
+      - 1963-04-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-22.china-leadership-5
+    when: Apr. 22
+    date: '1963-04-22'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi, with Ne Win, visits Taunggyi, the Shan State capital, and sees the scenic lake.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 22, 1963). Names: Liu Shaoqi, Ne Win. Check: the book prints 东枝 and 莱茵湖 (Taunggyi; Inle Lake).'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
   - id: cal.1963-04-23.alabama
     when: Apr. 23
     date: '1963-04-23'
@@ -2221,13 +2875,77 @@ entries:
     c: The NSC Standing Group first discusses Bundy's "Cuba Alternatives." Robert Kennedy proposes a study of the "measures we would take following contingencies such as the death of Castro or the shooting down of a U-2." Alternatives considered, none involving assassination; no conclusions reached.
     n: '[[w.sen-church-alleged-assassination-plots]], 171–72 (Summary Record of Standing Group Meeting, Apr. 23, 1963; Bundy, testimony, July 11, 1975, 130, 14). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Summary Record of NSC Standing Group Meeting, Apr. 23, 1963; Memorandum for Members of the Standing Group, May 2, 1963 (the Office of National Estimates assigned to assess Castro''s death) (cited by [[w.sen-church-alleged-assassination-plots]], 171). See [[cal.1963-04-21.cuba]]. Names: Bundy, Robert Kennedy, Castro.'
     tags: [name:bundy-mcgeorge, name:kennedy-robert-f, name:castro-fidel]
+  - id: cal.1963-04-23.china-leadership
+    when: Apr. 23
+    date: '1963-04-23'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, Peng Zhen, Yang Shangkun and Kong Yuan telegraph Liu Shaoqi and Chen Yi abroad. Kuomintang agents had set off explosions in Cambodia and the Chinese embassy there proposed postponing Liu''s visit to Cambodia without date. The telegram: postponement without date is politically unfavorable; keep to the original plan, advance the date, and cut or drop mass scenes.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 549 (Apr. 23, 1963). Continues 550. Made public: 1997. Names: Zhou Enlai, Peng Zhen, Yang Shangkun, Kong Yuan, Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:cambodia, polity:roc, name:zhou-enlai, name:peng-zhen, name:liu-shaoqi, name:chen-yi, vis:only:prc]
+  - id: cal.1963-04-23.china-leadership-2
+    when: Apr. 23
+    date: '1963-04-23'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking. Zhou Enlai attends the meeting of the capital's circles welcoming Sabri.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 356 (Apr. 23, 1963; 下午). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: e67160cf
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 356: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-23T04:00Z
+      - 1963-04-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-23.china-leadership-3
+    when: Apr. 23
+    date: '1963-04-23'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: 'Peking. Zhou Enlai, at the banquet Sabri gives for China''s leaders: the talks stressed Afro-Asian solidarity; all Afro-Asian states, independent or not, face imperialism''s and old and new colonialism''s aggression and interference, so their solidarity and mutual aid are their highest interest; disputes among them exist but are secondary, to be settled fairly for the sake of that solidarity, or set aside for a time; any state that leans on imperialism to gain from them only helps imperialist interference.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 356–57 (Apr. 23, 1963; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 280 (Apr. 23, 1963; Zhou, at the banquet given by Sabri: all Asian and African states, independent or not, face the common task of opposing imperialist and old and new colonialist aggression and interference, so their solidarity and mutual support are their highest interest; disputes among them are secondary and should be settled fairly on the basis of that common interest or, if that cannot be done, set aside for a time; they must watch for imperialism''s using them to sow discord). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: cad2cfdc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 356–57: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 280: B-E'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-23T11:00Z
+      - 1963-04-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-23.china-leadership-4
+    when: Apr. 23
+    date: '1963-04-23'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi arrives at a seaside resort on Burma's southwest coast.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 23, 1963). Names: Liu Shaoqi. Check: the book prints 额不里 (Ngapali?).'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi]
+  - id: cal.1963-04-23.china-leadership-5
+    when: Apr. 23
+    date: '1963-04-23'
+    thread: china-leadership
+    c: 'The Heilongjiang provincial committee opens the five-antis: first the Party, government and other units of Harbin and seven other cities, to August; then the counties, to the year''s end. In all, 55 enterprises in four cities find waste of nearly 103 million yuan.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 336–37. Made public: 1986. To check: [[w.heilongjiang-sishinian]], 332 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.17c); [[w.heilongjiang-sishinian]], 332–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 337 n.24). Check: the day; for Heilongjiang *Heilongjiang sishi nian* (332) is cited for a January and a March 1 start of the campaign (III, 336 n.17).'
+    src:
+      c: 409fb8a4
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 336–37: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.17c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 337 n.24: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-04-24.testing
     when: Apr. 24
     date: '1963-04-24'
     time: 1963-04-24T13:00Z
     thread: testing
     c: 'Kohler and Trevelyan give Khrushchev the Kennedy–Macmillan letter of Apr. 15: the West down from some twenty inspections a year to seven, against the Soviets'' three; very senior representatives offered for talks in Moscow. Khrushchev: nothing new; he may go back to none.'
-    n: 'Kennedy to Khrushchev, Apr. 11, [FRUS 1961–63, VII, doc. 274](https://history.state.gov/historicaldocuments/frus1961-63v07/d274); the joint letter, [doc. 276](https://history.state.gov/historicaldocuments/frus1961-63v07/d276); Kohler''s report, [doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v07/d280). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 346 (the offer of high-level talks; Thompson''s reading, Apr. 24, of Khrushchev''s position); [[w.dobrynin-in-confidence]], 105–6 ("So you want us unilaterally to open entire regions of our country to foreign intelligence?" "thanks to you I made a fool of myself"; concessions only to "Goldwater and other ''hawks''"; Seaborg''s regret, told Dobrynin later); [[w.sorensen-kennedy]], 728 (the new proposals in letters delivered by the ambassadors; a summit refused without assurance of agreement). Reply: [[cal.1963-05-08.testing]]. Check: by Khrushchev''s account to the Presidium, Fursenko and Naftali date the meeting Apr. 23 (520, 621 n.103): "There''s no substance to this message"; "We will not tolerate any spies"; the German question "the most important one.". To check: [[w.cousins-improbable-triumvirate]]; [[w.oliver-kennedy-macmillan-and-the]]. See [[cal.1962-12-19.testing]]. Names: Kohler, Trevelyan, Khrushchev, Macmillan.'
+    n: 'Kennedy to Khrushchev, Apr. 11, [FRUS 1961–63, VII, doc. 274](https://history.state.gov/historicaldocuments/frus1961-63v07/d274); the joint letter, [doc. 276](https://history.state.gov/historicaldocuments/frus1961-63v07/d276); Kohler''s report, [doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v07/d280). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 346 (the offer of high-level talks; Thompson''s reading, Apr. 24, of Khrushchev''s position); [[w.dobrynin-in-confidence]], 105–6 ("So you want us unilaterally to open entire regions of our country to foreign intelligence?" "thanks to you I made a fool of myself"; concessions only to "Goldwater and other ''hawks''"; Seaborg''s regret, told Dobrynin later); [[w.sorensen-kennedy]], 728 (the new proposals in letters delivered by the ambassadors; a summit refused without assurance of agreement); [[w.macfarquhar-origins-of-the-cultural]], III, 357 (the Kennedy–Macmillan letter of Apr. 15, Macmillan''s idea, to revive the stalled test-ban talks). Reply: [[cal.1963-05-08.testing]]. Check: by Khrushchev''s account to the Presidium, Fursenko and Naftali date the meeting Apr. 23 (520, 621 n.103): "There''s no substance to this message"; "We will not tolerate any spies"; the German question "the most important one.". To check: [[w.cousins-improbable-triumvirate]]; [[w.oliver-kennedy-macmillan-and-the]]; [[w.macmillan-at-the-end-of]], 455–68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 357 n.61). See [[cal.1962-12-19.testing]]. Names: Kohler, Trevelyan, Khrushchev, Macmillan.'
     src:
       c: 2af47f03
       rows:
@@ -2237,6 +2955,8 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 346: B-C'
         - 'w.dobrynin-in-confidence 105–6: all'
         - 'w.sorensen-kennedy 728: A'
+        - 'w.macfarquhar-origins-of-the-cultural III, 357: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 357 n.61: A'
     tags: [name:kohler-foy-d, name:trevelyan-humphrey, name:khrushchev-nikita-s, name:macmillan-harold, name:kennedy-john-f]
   - id: cal.1963-04-24.laos
     when: Apr. 24
@@ -2325,11 +3045,109 @@ entries:
   - id: cal.1963-04-24.china-leadership
     when: Apr. 24
     date: '1963-04-24'
+    time: 1963-04-24T08:00Z
     thread: china-leadership
     also: [china]
     c: Shanghai Cultural Club, afternoon. Mao receives Ali Sabri, Chairman of the Executive Council of the United Arab Republic; Zhou Enlai, Ke Qingshi and Zhang Hanfu present. Praises Egypt's regaining of the Suez Canal in 1956, when two imperialist states dared not press further; asks about the Aswan High Dam; both lands have thrown out imperialism and many Asian and African states are independent.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 24, 1963. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Ke Qingshi, Ali Sabri, Zhang Hanfu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 24, 1963. [[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 24, 1963; 下午4时, 在上海陪同毛泽东主席会见). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Ke Qingshi, Ali Sabri, Zhang Hanfu.'
+    src:
+      c: 5b8b7134
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 24, 1963: all'
+        - 'w.zhou-enlai-waijiao-huodong 357: A'
     tags: [polity:prc, polity:uar, name:mao-zedong, name:zhou-enlai, name:ke-qingshi, name:sabri-ali, vis:only:prc+uar]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-24.china-leadership-2
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai, with Ali Sabri at Malu commune, Jiading county, Shanghai, asks about the commune''s organization and staff, the cadres'' and members'' living and thought, trade and production; to the commune cadres: cadres must work with their hands, primary schools need more teaching of farm knowledge, local cadres are to be trained, run many lines of production; toward output be both prudent and keen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 550 (Apr. 24, 1963); [[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 24, 1963; 下午, 马陆人民公社). Made public: 1993. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: 5bb207d4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 550: ?'
+        - 'w.zhou-enlai-waijiao-huodong 357: A'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali, vis:only:prc+uar]
+    time_range:
+      - 1963-04-24T04:00Z
+      - 1963-04-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-24.china-leadership-3
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai goes with Ali Sabri to Shanghai. On the way: the Sino-Indian question will one day be settled in peace; he hopes the UAR will work on India. The "philosophy" behind China''s dealings abroad: wait, and press no view on others; never fire the first shot; no courtesy without return; retreat three stages; from the national tradition, not all from Marxism-Leninism.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 550 (Apr. 24, 1963); [[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 24, 1963; 上午, 陪同萨布里主席乘专机去上海, 途中谈话); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 280 (Apr. 24, 1963; Zhou, on the trip with Sabri, on the philosophy behind China''s foreign policy: wait, and do not force one''s views on others; never fire the first shot; there is an old saying that courtesy must be returned, and if you wrong me I must hit back or be taken for weak; and "avoid three times", you come, I retreat first and warn you, again and again, but no more than three times). Made public: 1993. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: d5943c7a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 550: ?'
+        - 'w.zhou-enlai-waijiao-huodong 357: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 280: D-G'
+    tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:sabri-ali, vis:only:prc+uar]
+    time_range:
+      - 1963-04-23T22:00Z
+      - 1963-04-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-24.china-leadership-4
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Shanghai. Zhou Enlai gives an informal lunch for Sabri and his party.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 24, 1963; 中午). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: 543e0653
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-24T04:00Z
+      - 1963-04-24T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-24.china-leadership-5
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Shanghai. Zhou Enlai attends the welcoming banquet given by Ke Qingshi, Mayor of Shanghai, for Sabri, and the music evening after it.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 24, 1963; 晚上). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ke Qingshi, Ali Sabri.'
+    src:
+      c: d798dbe5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:ke-qingshi, name:sabri-ali]
+    time_range:
+      - 1963-04-24T11:00Z
+      - 1963-04-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-24.china-leadership-6
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi talks with Ne Win. On the road of the newly independent states he says there are three to choose: the capitalist road, which existing capitalist states will not let a backward country, a small one above all, travel to the end; the road of colony and dependency, which China will not take; so only the socialist road, on which China is, and which needs decades of work. At home it must rely on the great majority, workers, peasants, the urban petty bourgeoisie and others ready for socialism; abroad it joins all nations that respect its independence and equality and opposes imperialism. China truly respects Burma and treats it as an equal and will do nothing to harm it.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 24, 1963). Made public: 1996. Names: Liu Shaoqi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win, vis:only:prc+burma]
+  - id: cal.1963-04-24.china
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: china
+    also: [africa]
+    c: China's first ambassador to Uganda, He Ying, presents his credentials to Dermot Joseph Sheridan, Uganda's Chief Justice, acting as Governor-General. He reached Kampala on Apr. 22.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 281 (Apr. 24, 1963). Check: the book gives the Chief Justice as 德莫特·约瑟夫·谢里丹; the Latin form is back-converted. He Ying is also the ambassador to Tanganyika, [[cal.1962-12-14.china]].'
+    src:
+      c: df52a102
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 281: all'
+    tags: [polity:prc, polity:uganda]
   - id: cal.1963-04-25.economy
     when: Apr. 25
     date: '1963-04-25'
@@ -2549,8 +3367,82 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: 'Shanghai Cultural Club, evening. Mao receives José Matar (何塞·马塔), chairman of the national committee of Cuba''s Committees for the Defense of the Revolution; Chen Pixian and Cao Diqiu present. Cuba has its own experience, which he urges foreign friends to study; China''s is for reference only; South Vietnam''s worth study, its people behind it. Matar: Castro calls the people Cuba''s strongest weapon. Mao: one that cannot be pulled down or beaten.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 25, 1963 ("同日"). Made public: 2013. See [[cal.1963-04-25.china-leadership]]. Names: Mao Zedong, José Matar, Chen Pixian, Cao Diqiu, Castro.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 25, 1963 ("同日"). [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 281 (Apr. 25, 1963; Mao receives José Matar (何塞·马塔), chairman of the national committee of Cuba''s Committees for the Defense of the Revolution; on the U.S. imperialists'' talk of "democracy": it is a high-handed, overbearing democracy and their words cannot be believed; they speak of complete disarmament, but what they do is expand arms everywhere). Made public: 2001. See [[cal.1963-04-25.china-leadership]]. Names: Mao Zedong, José Matar, Chen Pixian, Cao Diqiu, Castro.'
+    src:
+      c: 6989357b
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 25, 1963: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 281: B'
     tags: [polity:prc, polity:cuba, name:mao-zedong, name:castro-fidel, vis:only:prc+cuba]
+  - id: cal.1963-04-25.china-leadership-3
+    when: Apr. 25
+    date: '1963-04-25'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai sends Wang Youping, with the title of Foreign Ministry adviser, as an aide to Liu Shaoqi's party to Phnom Penh ahead of it, to guide the embassy in security arrangements with the Cambodian side.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 550 (Apr. 25, 1963). Made public: 1997. Names: Zhou Enlai, Wang Youping, Liu Shaoqi.'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-04-25.china-leadership-4
+    when: Apr. 25
+    date: '1963-04-25'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Shanghai. Zhou Enlai goes to the airport to see off Sabri.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 25, 1963; 上午). See [[cal.1963-04-22.china-leadership]]. Names: Zhou Enlai, Ali Sabri.'
+    src:
+      c: 8c605128
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
+    time_range:
+      - 1963-04-24T22:00Z
+      - 1963-04-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-25.china-leadership-5
+    when: Apr. 25
+    date: '1963-04-25'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi reaches Rangoon; at the farewell banquet he says that during the visit he has felt in person the "paukphaw" friendship between the two countries.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 25, 1963). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi]
+  - id: cal.1963-04-25.china
+    when: Apr. 25
+    date: '1963-04-25'
+    thread: china
+    also: [middle-east, south-asia]
+    c: China and the United Arab Republic issue a joint communique on Sabri's visit. Both are convinced that the friendly relations built on the five principles and the ten principles of the Bandung conference will be consolidated and developed. China reaffirms its support for the Arab nation's struggle to safeguard independence and gain unity and for the rights of the Palestinian Arab people. The UAR reaffirms its support for the Chinese people's struggle to liberate Taiwan and for restoring China's lawful seat in the United Nations. For Asian–African unity and the interests of world peace, China and India should settle the boundary question peacefully by direct negotiations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 279 (Apr. 25, 1963). Names: Sabri.'
+    src:
+      c: fa5bac15
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 279: all'
+    tags: [polity:prc, polity:uar, polity:india, name:sabri-ali]
+  - id: cal.1963-04-25.china-2
+    when: Apr. 25
+    date: '1963-04-25'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, rejecting the Indian government's slander of China on the release of the captured Indian personnel and the bringing home of overseas Chinese, and protesting India's stepped-up persecution of overseas Chinese.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 281 (Apr. 25, 1963).'
+    src:
+      c: 9ad04629
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 281: all'
+    tags: [polity:prc, polity:india]
+  - id: cal.1963-04-25.china-leadership-6
+    when: Apr. 25
+    date: '1963-04-25'
+    thread: china-leadership
+    c: The Tianjin Party committee takes up the five-antis at a conference of its industrial and transport units, after the State Economic Commission's national meeting.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 337. Made public: 1989. To check: [[w.tianjin-jingji-jianshe-dashiji]], 192 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 337 n.23).'
+    src:
+      c: ae11c9da
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 337: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 337 n.23: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-04-26.laos
     when: Apr. 26
     date: '1963-04-26'
@@ -2639,6 +3531,21 @@ entries:
         - 'w.fursenko-one-hell-of-a 330: all'
         - 'via w.fursenko-one-hell-of-a 330 n.51: all'
     tags: [name:castro-fidel]
+  - id: cal.1963-04-26.china-leadership
+    when: Apr. 26–28
+    date: '1963-04-26'
+    thread: china-leadership
+    c: 'Zhou Enlai flies back to Peking; with Fan Muhan, Vice-Minister of the First Ministry of Machine Building, and Li Qiang on negotiations to import complete sets of equipment: to order less this year and next to save foreign exchange. Apr. 28 they draft a plan by classes on his view; he agrees to cut or put off 14 million, with the note: "to put off all is no longer possible; it can only be so."'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 550 (Apr. 26–28, 1963). Made public: 1997. Names: Zhou Enlai, Fan Muhan, Li Qiang.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-04-26.china-leadership-2
+    when: Apr. 26
+    date: '1963-04-26'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi continues his talks with Ne Win; he leaves Rangoon and returns to Kunming.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 26, 1963). Names: Liu Shaoqi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
   - id: cal.1963-04-27.middle-east
     when: Apr. 27
     date: '1963-04-27'
@@ -2677,6 +3584,18 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 171 & n.9: all'
     tags: [name:goldwater-barry-m, name:miller-william-e]
+  - id: cal.1963-04-27.china
+    when: Apr. 27
+    date: '1963-04-27'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, a strong protest at the Indian government's cruel persecution of overseas Chinese. It makes four demands of the Indian government, among them that it punish the murderers of overseas Chinese, guarantee that persecution and ill-treatment will not occur again, and punish those responsible.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 282 (Apr. 27, 1963). Check: the book names four demands and gives only some; the rest are not in the book''s wording.'
+    src:
+      c: e58d7837
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 282: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-04-28.opinion-5
     when: Apr. 28
     date: '1963-04-28'
@@ -2690,6 +3609,41 @@ entries:
         - 'w.gallup-poll III, 1815–16: all'
         - 'w.white-suite-3505 145–46: A'
     tags: [name:rockefeller-nelson, name:goldwater-barry-m, name:romney-george-w, name:scranton-william-w, name:hatfield-mark-o]
+  - id: cal.1963-04-28.china-leadership
+    when: Apr. 28
+    date: '1963-04-28'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Zhou Enlai receives the Indonesian military friendship delegation under Ahmad Yani, Minister and Army Commander: some old Asian and African peoples have a common lot and must support each other in the common struggle; he asks them to tell Subandrio that he can push the second Afro-Asian conference along.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 550 (Apr. 28, 1963); [[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 28, 1963; 下午, 与邓颖超接见). Continues 551. Made public: 1993. Names: Zhou Enlai, Ahmad Yani, Subandrio.'
+    src:
+      c: 47a67b97
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 550: ?'
+        - 'w.zhou-enlai-waijiao-huodong 357: A'
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:subandrio, vis:only:prc+indonesia]
+    time_range:
+      - 1963-04-28T04:00Z
+      - 1963-04-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-28.china-leadership-2
+    when: Apr. 28
+    date: '1963-04-28'
+    thread: china-leadership
+    also: [china, africa-algeria-morocco]
+    c: Peking. Zhou Enlai attends the luncheon given by the Moroccan Ambassador, Zniber.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 28, 1963; 中午). Names: Zhou Enlai.'
+    src:
+      c: 8b876cc8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1963-04-28T04:00Z
+      - 1963-04-28T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1963-04-29.middle-east-yemen
     when: Apr. 29
     date: '1963-04-29'
@@ -2919,6 +3873,7 @@ entries:
   - id: cal.1963-04.cuba-2
     when: Apr., late
     date: 1963-04
+    at: before 1963-04-21
     thread: cuba
     also: [soviet-union]
     c: 'Castro leaves for four weeks in the Soviet Union: relations with Khrushchev patched up, more aid promised.'
@@ -2961,6 +3916,7 @@ entries:
   - id: cal.1963-04.georgia-albany
     when: Apr., after the 20th
     date: 1963-04
+    at: after 1963-04-20
     thread: georgia-albany
     c: B. C. Gardner, for Carl Smith, sues the Albany Movement's leaders for driving Smith out of business by an illegal boycott. He tells the local bar association, the FBI, the trial judge and Burke Marshall that the Negroes punished Smith for his vote on the Ware jury.
     n: '[[w.branch-parting-the-waters]], 731–32. To check: interviews: B. C. Gardner, July 11, 1985 (cited by [[w.branch-parting-the-waters]], 731 n.3). Check: the day, the suit''s court. See [[cal.1963-04-12.georgia-albany]]. Names: Burke Marshall.'
@@ -2992,6 +3948,7 @@ entries:
   - id: cal.1963-04.civil-rights-the-executive-3
     when: Apr., before the 16th
     date: 1963-04
+    at: before 1963-04-16
     thread: civil-rights-the-executive
     also: [mississippi]
     c: 'The President with Bernhard, the Civil Rights Commission''s staff director, on the draft report: why the commissioners do not see it would "poison an atmosphere that is already pretty bad"; the Federal Aviation Agency denies the new Jackson airport will have segregated rest rooms and lunch counters. He does not ask that the report be withdrawn.'
@@ -3005,6 +3962,7 @@ entries:
   - id: cal.1963-04.civil-rights-the-executive-2
     when: Apr., before the 16th
     date: 1963-04
+    at: before 1963-04-16
     thread: civil-rights-the-executive
     also: [mississippi]
     c: Hannah and Bernhard at the White House on the report. The commission has the architect's drawings of the Jackson airport, a partitioned lunch room and two sets of rest rooms; the Administration concedes segregation there but none in the federally aided runways and control tower. The President orders no changes; asks to handle the press announcements.
@@ -3159,6 +4117,7 @@ entries:
   - id: cal.1963-04.vietnam
     when: Apr., mid
     date: 1963-04
+    at: before 1963-04-11
     thread: vietnam
     also: [china]
     c: The *Richard S. Edwards* on a Desoto Patrol off Hainan and North Vietnam, shadowed by five or six North Vietnamese submarine chasers and minesweepers and by Chinese aircraft. Peking's "serious warnings." Six patrols in 1963, off China, the Soviet Union, Indonesia and North Vietnam, none closer than twenty miles.
@@ -3241,6 +4200,7 @@ entries:
   - id: cal.1963-04.europe-and-the-alliance-2
     when: Apr., late
     date: 1963-04
+    at: before 1963-04-21
     thread: europe-and-the-alliance
     c: 'Kennedy asks the Defense Department to compare American and allied preparedness. OSD''s draft: Seventh Army alone fully equipped, 90 to 120 days of supply against the allies'' 15 to 30; urge the allies or cut Seventh Army to their level. Taylor: that would "abandon virtue because it is forced to live among sinners." The Chiefs'' revision: keep American forces as they are.'
     n: '[[w.poole-joint-chiefs-of-staff]], 208–09. Names: Kennedy, Taylor.'
@@ -3431,3 +4391,230 @@ entries:
     c: 'The Politburo''s resolution no. 79-NQ/TW on the Party''s control work, after the Central Control Commission''s report: the control commissions at every level to be strengthened, their tasks and powers fixed.'
     n: '*Nghị quyết của Bộ Chính trị số 79-NQ/TW về công tác kiểm tra của Đảng*, signed for the Politburo by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXIV, 540–42. Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1963-04-30.china-leadership
+    when: Apr. 30
+    date: '1963-04-30'
+    time: 1963-04-30T06:00Z
+    thread: china-leadership
+    c: 'Zhou Enlai receives Guinea''s economic delegation and women''s delegation: China''s new relations with Afro-Asian states must rest on equality, mutual respect for sovereignty and non-interference, so that they support each other and struggle together out of backwardness; China especially supports the struggle to raise the status of Black people and of Africa; women are to win their independence, the most oppressed of the oppressed, and women''s liberation follows national and social liberation.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 551 (Apr. 30, 1963); [[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 30, 1963; 下午2时, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 281 (Apr. 25–May 4, 1963; the Guinean government''s economic delegation under Keita N''Famara, Minister of Trade, visits China; the 1963 trade agreement and a supplementary protocol to the economic and technical cooperation agreement are signed; Mao receives the delegation). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: ae98e2b4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 551: ?'
+        - 'w.zhou-enlai-waijiao-huodong 357: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 281: A'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai, vis:only:prc+guinea]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-30.china-leadership-2
+    when: Apr. 30
+    date: '1963-04-30'
+    time: 1963-04-30T09:00Z
+    thread: china-leadership
+    c: 'Zhou Enlai receives Sweden''s Ambassador, Lennart Petri (斐特里): there are many contradictions in the world, which make diplomacy hard; the chief thing is to establish peaceful coexistence among states of different systems, hard to bring about the world over but possible by degrees.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 551 (Apr. 30, 1963); [[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 30, 1963; 下午5时, 人民大会堂福建厅). Made public: 1993. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    src:
+      c: 1e2acf54
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 551: ?'
+        - 'w.zhou-enlai-waijiao-huodong 357: A'
+    tags: [polity:prc, polity:sweden, name:zhou-enlai, vis:only:prc+sweden]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-30.china-leadership-3
+    when: Apr. 30
+    date: '1963-04-30'
+    time: 1963-04-30T06:30Z
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking, Xihuating. Zhou Enlai receives the Guinean Ambassador, Camara Mamadi.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 30, 1963; 下午2时30分). Names: Zhou Enlai. Check: the Ambassador''s name, 卡马拉·马马迪 in the book.'
+    src:
+      c: 34c17056
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-30.china-leadership-4
+    when: Apr. 30
+    date: '1963-04-30'
+    time: 1963-04-30T09:45Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Great Hall of the People. Zhou Enlai receives the new Swiss Ambassador, Hans Keller, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 30, 1963; 下午5时45分). Names: Zhou Enlai. Check: the name, 汉斯·凯乐 in the book.'
+    src:
+      c: 4be630bf
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:switzerland, polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-30.china-leadership-5
+    when: Apr. 30
+    date: '1963-04-30'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the May Day reception given by the national federation of trade unions and ten other people's organizations, and shares friendship with international friends from the five continents.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 30, 1963; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4309a4ed
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1963-04-30T11:00Z
+      - 1963-04-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04-30.china-leadership-6
+    when: Apr. 30
+    date: '1963-04-30'
+    time: 1963-04-30T11:50Z
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives the new Iraqi Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 357 (Apr. 30, 1963; 晚7时50分). Names: Zhou Enlai.'
+    src:
+      c: 309d1eef
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 357: all'
+    tags: [polity:prc, polity:iraq, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-04.china-leadership-3
+    when: Apr., after the 4th
+    date: 1963-04
+    at: after 1963-04-04
+    thread: china-leadership
+    also: [soviet-union]
+    c: Mao leaves Peking for Hangzhou.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 ("after this" (这以后), the printing of the Soviet letter of Apr. 4). Made public: 1999. See [[cal.1963-04-04.china-leadership]]. Names: Mao Zedong. Check: the day: Wu gives none; the Mao chronology has him at Hangzhou by Apr. 17 ([[cal.1963-04-17.china-leadership]]).'
+    src:
+      c: 241bc273
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-04.china-leadership-4
+    when: Apr., after the 4th
+    date: 1963-04
+    at: after 1963-04-04
+    thread: china-leadership
+    also: [soviet-union]
+    c: Hangzhou. Mao has Chen Boda draft an outline on the general line too, in parallel with Peking's.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 ("when Mao reached Hangzhou"; Chen drafting "alone at Hangzhou"). Made public: 1999. Names: Mao Zedong, Chen Boda. Check: the day: Wu gives none.'
+    src:
+      c: 4b0590b4
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1963-04.china-leadership
+    when: Apr., late
+    date: 1963-04
+    at: before 1963-04-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking and Hangzhou. The two drafts of the reply on the general line, Deng Xiaoping's group's at the Diaoyutai and Chen Boda's at Hangzhou, are printed by the month's end. Deng sends Peking's to Mao for his thoughts, not ripe, to be revised a good deal; Chen's comes to Peking.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560 ("through all April ... by the month''s end, the drafts of Peking and of Hangzhou were both printed"). Made public: 1999. See [[cal.1963-04.china-leadership-4]]. Names: Deng Xiaoping, Chen Boda, Mao Zedong. Check: the days: Wu gives "by the month''s end"; the Mao chronology has Mao receive the second draft Apr. 19, and Deng, Kang Sheng, Lu Dingyi and Chen Boda at Hangzhou from Apr. 21 ([[cal.1963-04-17.china-leadership]]), of which Wu says nothing.'
+    src:
+      c: d35eda73
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-boda, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-04.china-leadership-5
+    when: Apr., late
+    date: 1963-04
+    at: before 1963-04-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Hangzhou to Peking, by telephone. Mao asks Deng Xiaoping to preside over a discussion of Chen Boda's draft; Deng gives it to the writers at the Diaoyutai to prepare their views.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 560–561. Made public: 1999. Names: Mao Zedong, Deng Xiaoping, Chen Boda. Check: the day: Wu gives none; after Chen''s draft reached Peking, late April.'
+    src:
+      c: cb71727f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 560–561: all'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:chen-boda, vis:only:prc]
+  - id: cal.1963-04.china-leadership-2
+    when: Apr., late
+    date: 1963-04
+    at: before 1963-04-21
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking, the Diaoyutai. At Deng Xiaoping's direction Wu Lengxi, Qiao Guanhua, Yao Zhen, Fan Ruoyu, Wang Li and Xiong Fu, and the younger drafters from the Propaganda Department, the *Renmin ribao*, Xinhua, the Liaison Department and the Foreign Ministry, meet for two or three days on Chen Boda's draft. They commend what is good in it and ask for additions and changes; Wu sums up their views in a short list of points.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561 ("two or three days" of meetings; the "back-row members" (后排议员); the discussion on the main questions, not on details of wording). Made public: 1999. Names: Deng Xiaoping, Chen Boda, Qiao Guanhua. Check: the days: Wu gives none.'
+    src:
+      c: 27520bdb
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 561: all'
+    tags: [polity:prc, name:deng-xiaoping, name:chen-boda, name:qiao-guanhua, vis:only:prc]
+  - id: cal.1963-04.china-2
+    when: Apr., after the 20th
+    date: 1963-04
+    at: after 1963-04-20
+    thread: china
+    also: [south-asia]
+    c: China and Burma issue a joint communique on Liu Shaoqi's visit to Burma, Apr. 20–26. The Burmese side values the unilateral cease-fire and withdrawal and the release of prisoners China has taken for a peaceful settlement of the Sino-Indian boundary question. The Chinese side thanks the Burmese government for its sincere efforts to bring about direct China–India talks and for its fair attitude, and affirms that China will work unceasingly for a peaceful settlement of the question. Both sides stress that all countries have the right to choose freely their own political, economic and social systems and ways of life, with no outside interference or pressure.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278–279 (Apr., after the 20th, 1963). Names: Liu Shaoqi. Check: the book dates the communique within the visit of Apr. 20–26 and gives no day; the leaders'' talks are given as several, with no days.'
+    src:
+      c: 13d658cb
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 278–279: all'
+    tags: [polity:prc, polity:burma, polity:india, name:liu-shaoqi]
+  - id: cal.1963-04.china-leadership-6
+    when: Apr., mid
+    date: 1963-04
+    at: before 1963-04-11
+    thread: china-leadership
+    c: 'Henan. The four clean-ups'' first stage, three-level cadres'' conferences in the counties, ends after about twenty days: 150,000 cadres above the brigade. Commune conferences and mass education to follow.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 336. Made public: 1986. To check: [[w.bangongshi-huaibin-xian-zhi-1951]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.20a).'
+    src:
+      c: b3a5c1bb
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 336: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.20a: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-04.china-leadership-7
+    when: Apr.
+    date: 1963-04
+    thread: china-leadership
+    c: 'The Henan Party committee sends the centre its counts: over 100,000 cases of speculation; over 1,300 of counter-revolutionary groups; over 26,000 of landlords and rich peasants against the government; 8,000 secret societies and sects; over 50,000 witches, sorcerers and geomancers.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 337. Made public: 1981. To check: Henan Provincial Committee, report with statistics to the centre, Apr. 1963, in [[w.nongye-jitihua-zhongyao-wenjian]], xia, 674–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 337 n.21). Check: the date and the author; the book gives the counts after its account of April.'
+    src:
+      c: 457efcaa
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 337: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 337 n.21: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-04-30.china-leadership-7
+    when: Apr. 30
+    date: '1963-04-30'
+    thread: china-leadership
+    c: Jiangsu opens the four clean-ups.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 337. Made public: 1988. To check: [[w.weiyuanhui-jiangsu-sheng-dashiji-1949]], 233, 234, 235 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 337 n.22).'
+    src:
+      c: 2ef79ae1
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 337: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 337 n.22: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-04.china-leadership-8
+    when: Apr.
+    date: 1963-04
+    thread: china-leadership
+    c: 'Zhang Chunqiao, at a Propaganda Department work conference: ten great advantages in writing of the thirteen years.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 382. Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 549 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 382 n.9). Names: Zhang Chunqiao. Check: the day, and whether this is the conference at which Zhou Enlai spoke on Apr. 19 ([[cal.1963-04-19.china-leadership]]).'
+    src:
+      c: 340d2141
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 382: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 382 n.9: all'
+    tags: [polity:prc, name:zhang-chunqiao, vis:only:prc]
+  - id: cal.1963-04.china-leadership-9
+    when: Apr.
+    date: 1963-04
+    thread: china-leadership
+    c: Jiang Qing makes ghost plays her first targets, Meng Chao's *Li Huiniang* above all.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 384. The book: the play could be read as against the Great Leap Forward (III, 384 n.27). Made public: 1981. To check: [[w.zhongguo-dangdai-wenxue-shi]], shang, 107 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 384 n.26). Names: Jiang Qing.'
+    src:
+      c: eacb1115
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 384: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 384 n.26: all'
+    tags: [polity:prc, name:jiang-qing, vis:only:prc]

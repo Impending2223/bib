@@ -123,8 +123,8 @@
       var n=tally[i], sum=p.querySelector('.vsum');
       p._counts=n;
       sum.innerHTML='Claims: <b>'+n.full+'</b> in full, <b>'+n.greyed+'</b> greyed'+(st.pin?' ('+n.notyet+' not yet known)':'')+
-        ', <b>'+n.hidden+'</b> hidden, of '+n.total+'. Entries shown: '+n.shown+' of '+n.entries+'. '+
-        (st.pin?'Judged at '+st.pin+'.':'Judged at the time: each claim at its own date and the next morning’s papers.');
+        ', <b>'+n.hidden+'</b> hidden, of '+n.total+'. Entries shown: '+n.shown+' of '+n.entries+'.'+
+        (st.pin?' Judged at '+st.pin+'.':'');   // the owner, Nov. 18, 2026: the explanations cut
     });
     window.visCounts=panels.map(function(p){ var n=p._counts; return {full:n.full,greyed:n.greyed,hidden:n.hidden,notyet:n.notyet,
       total:n.total,entriesShown:n.shown,entries:n.entries}; });

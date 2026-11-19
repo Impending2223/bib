@@ -96,6 +96,38 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+  - id: cal.1965-05-01.china-leadership
+    when: May 1
+    date: '1965-05-01'
+    thread: china-leadership
+    also: [africa]
+    c: 'Zhou receives a delegation of Tanzanian journalists and journalists of four countries: Magd Muhammad, editor of the Cairo *Pictorial Weekly* and secretary-general of the Arab Journalists Association; the head of the international commentary department of the Lebanese *Liberation* and *Free Weekly*; and two journalists of the Belgian *Indépendance*.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 453 (May 1, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 25 (May 1, 1965; the Tanzanian journalists, and others received the same day). The book names them 马格德·穆罕默德, 塞蒂蒂耶, 布拉斯 and 哈博斯特. Names: Zhou Enlai.'
+    src:
+      c: 54f2c81b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 453: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 25: A'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-04-30T22:00Z
+      - 1965-05-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-01.china-leadership-2
+    when: May 1
+    date: '1965-05-01'
+    time: 1965-05-01T08:30Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou talks with Hoàng Văn Hoan, Politburo member of the Vietnam Workers' Party, in Building 4 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 453 (May 1, 1965; 4:30 p.m., Building 4, Diaoyutai guesthouse). The book gives no content. Names: Zhou Enlai.'
+    src:
+      c: f7f8ee39
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 453: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-02.latin-america
     when: May 2
     date: '1965-05-02'
@@ -165,6 +197,96 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-05-02.china-leadership
+    when: May 2
+    date: '1965-05-02'
+    thread: china-leadership
+    c: Zhou attends the Politburo Standing Committee, which hears Luo Ruiqing on his work.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (May 2, 1965). Made public: 1997. Names: Zhou Enlai, Luo Ruiqing.'
+    tags: [name:zhou-enlai, name:luo-ruiqing, polity:prc, vis:only:prc]
+  - id: cal.1965-05-02.china-leadership-2
+    when: May 2
+    date: '1965-05-02'
+    thread: china-leadership
+    also: [latin-america-dominican-republic]
+    c: 'Zhou, at Botsio''s farewell banquet, for the Chinese government and people condemns the U.S. for sending marines and paratroopers into the Dominican Republic under the name of "protecting American nationals": a grave provocation to Latin America''s and the world''s peoples; China firmly backs the Dominican people''s struggle.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 728 (May 2, 1965); [[w.zhou-enlai-waijiao-huodong]], 454 (May 2, 1965; evening; Botsio''s farewell banquet, Zhou''s remarks on the U.S. intervention in the Dominican Republic as "piracy"). Names: Zhou Enlai, Botsio.'
+    src:
+      c: 9a1cb961
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 728: ?'
+        - 'w.zhou-enlai-waijiao-huodong 454: A-B'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-05-02.china-leadership-3
+    when: May 2
+    date: '1965-05-02'
+    thread: china-leadership
+    c: 'Zhou receives Romanian guests: delegations of a friendship agricultural production cooperative, of women, of trade unions and of the news agency.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 454 (May 2, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 26 (May 2, 1965; six Romanian delegations). Names: Zhou Enlai.'
+    src:
+      c: c32e10dc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 454: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 26: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-02T11:00Z
+      - 1965-05-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-02.china-leadership-4
+    when: May 2
+    date: '1965-05-02'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou receives representatives of Japan's Sōhyō, the Japanese neutral trade union federation, the tenth delegation of the Japan–China Friendship Association and the local-government friendship delegation of Japan, with some two hundred people of the arts, sports, technology and trade.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 454 (May 2, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 26 (May 2, 1965; the Japanese delegations, and over 200 Japanese guests of all circles). Names: Zhou Enlai.'
+    src:
+      c: 14fbf3a2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 454: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 26: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-02T11:00Z
+      - 1965-05-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-02.china
+    when: May 2
+    date: '1965-05-02'
+    thread: china
+    also: [laos]
+    c: 'The government''s statement supports the Cambodian government''s statement of May 1 on its three conditions for an international conference on Cambodia: a conference in the manner of the 1954 Geneva Conference on Indochina, not the 1961–62 one on Laos; no Saigon government at it; no bringing Vietnam and Laos into the talk of Cambodia. (The editors'' note gives the three conditions.) China fully endorses and firmly supports the stand.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 25 (May 2, 1965).'
+    src:
+      c: 7b34c826
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 25: all'
+    tags: [polity:prc, polity:cambodia]
+  - id: cal.1965-05-02.china-leadership-5
+    when: May 2
+    date: '1965-05-02'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Liu Shaoqi receives seven delegations from South Vietnam and the DRV, among them those of the South Vietnam Liberation Association of Workers, the South Vietnam Liberation Youth Federation, the Vietnamese trade unions and the Vietnamese youth.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 26 (May 2, 1965). Names: Liu Shaoqi.'
+    src:
+      c: 56c8ce4e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 26: all'
+    tags: [polity:prc, polity:drv, polity:nlf, name:liu-shaoqi]
+  - id: cal.1965-05-02.china-leadership-6
+    when: May 2
+    date: '1965-05-02'
+    thread: china-leadership
+    c: Deng Xiaoping receives the trade union delegations and representatives of 21 Asian and African countries and regions who came for May Day.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 26 (May 2, 1965). Names: Deng Xiaoping.'
+    src:
+      c: 1ed0a4f9
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 26: all'
+    tags: [polity:prc, name:deng-xiaoping]
   - id: cal.1965-05-03.court
     when: May 3
     date: '1965-05-03'
@@ -249,6 +371,82 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Vientiane
     range_basis: kind
+  - id: cal.1965-05-03.china-leadership
+    when: May 3
+    date: '1965-05-03'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou goes to the airport to see off the Vietnamese party and state delegation under Hoàng Văn Hoan, Politburo member and vice-chairman of the National Assembly's Standing Committee, and the Chinese party and government delegation under Lu Dingyi, alternate Politburo member, Secretariat secretary and vice premier, leaving for Berlin for the twentieth anniversary of the liberation of the German Democratic Republic.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 454 (May 3, 1965; morning; Beijing airport). Names: Zhou Enlai, Lu Dingyi.'
+    src:
+      c: 7197469a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 454: all'
+    tags: [polity:prc, name:zhou-enlai, name:lu-dingyi]
+    time_range:
+      - 1965-05-02T22:00Z
+      - 1965-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-03.china-leadership-2
+    when: May 3
+    date: '1965-05-03'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou goes to the airport to see off the Ghana government delegation under Foreign Minister Botsio.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 454 (May 3, 1965; morning; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: 4f9caaad
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 454: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-02T22:00Z
+      - 1965-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-03.china-leadership-3
+    when: May 3
+    date: '1965-05-03'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou receives delegations of Indonesia's Ministry of People's Industry, National Research Ministry and Youth Front.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 454 (May 3, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 27 (May 3, 1965; Indonesian delegations and officials). Names: Zhou Enlai.'
+    src:
+      c: d8866d9d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 454: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 27: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-02T22:00Z
+      - 1965-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-03.china-2
+    when: May 3
+    date: '1965-05-03'
+    thread: china
+    also: [africa]
+    c: 'The joint press communique on the Ghana government delegation''s visit: both resolve to strengthen friendship and understanding, a joint contribution to Afro-Asian solidarity and world peace.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 24 (May 3, 1965). See [[cal.1965-04-29.china-leadership-2]].'
+    src:
+      c: 5bde91cf
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 24: all'
+    tags: [polity:prc, polity:ghana]
+  - id: cal.1965-05-03.china
+    when: May 3
+    date: '1965-05-03'
+    thread: china
+    also: [latin-america-dominican-republic]
+    c: The government's statement opposes the U.S. armed aggression in the Dominican Republic. The Dominican people's rising on Apr. 24 to overthrow the dictatorship was their sacred and inviolable right. The statement condemns the U.S., on the pretext of protecting its nationals, for sending 14,000 troops into the Dominican Republic and meddling in its affairs, and says the Chinese government and people firmly support the Dominican people's just, patriotic anti-U.S. struggle.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 26 (May 3, 1965).'
+    src:
+      c: 24fa2eab
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 26: all'
+    tags: [polity:prc, polity:dominican-republic, polity:us]
   - id: cal.1965-05-04.vietnam
     when: May 4
     date: '1965-05-04'
@@ -357,6 +555,38 @@ entries:
     c: 'The first National Medal for Literature, to Thornton Wilder for the whole body of his work, at a White House gathering of authors, publishers and critics. Mrs. Johnson: one of the cultural events of which Eric Goldman and Roger Stevens are the midwives.'
     n: '[[w.johnson-white-house-diary]], 266–67 (Mrs. Johnson''s account; the day follows "Tuesday, May 4"). To check: 1965 Pub. Papers. Names: Goldman, Johnson.'
     tags: [name:johnson-lady-bird, name:goldman-eric-f]
+  - id: cal.1965-05-04.china-leadership
+    when: May 4–5
+    date: '1965-05-04'
+    thread: china-leadership
+    also: [testing]
+    c: 'Zhou chairs the 12th meeting of the Special Commission. For the second nuclear test: be sure, never force it; a larger safety factor, check all and patch every gap; strengthen political work, be careful, no slackness. Fewer tests would do. On the evening of the 5th telephones again about data and safety.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 728 (May 4–5, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-04.china
+    when: May 4
+    date: '1965-05-04'
+    thread: china
+    also: [south-asia]
+    c: 'Xinhua, authorized, issues a statement: India''s recent slanders against China in the India–Pakistan border clash have no basis in fact. The Chinese government and people fully sympathize with and support the Pakistani government''s stand against India''s expansionist policy and for settling the border dispute by peaceful talks. China strongly condemns India''s great-power chauvinism and expansionism, and urges it to put the Indian people''s interest and Afro-Asian solidarity first and settle its disputes with its neighbors by peaceful talks.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 27 (May 4, 1965).'
+    src:
+      c: 9bfafd9f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 27: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
+  - id: cal.1965-05-04.china-leadership-2
+    when: May 4
+    date: '1965-05-04'
+    thread: china-leadership
+    also: [europe-and-the-alliance]
+    c: Lu Dingyi, alternate member of the Politburo, secretary of the Secretariat and vice-premier, begins the visit of his party and government delegation to the GDR for the 20th anniversary of Germany's liberation from fascism, to May 11.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 27 (May 4–11, 1965; the visit; Ulbricht and Stoph receive the delegation, no day given). Names: Lu Dingyi.'
+    src:
+      c: 68f04a5f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 27: all'
+    tags: [polity:prc, polity:gdr, name:lu-dingyi, name:ulbricht-walter, name:stoph-willi]
   - id: cal.1965-05-05.vietnam
     when: May 5–7
     date: '1965-05-05'
@@ -604,6 +834,13 @@ entries:
     c: 'The Secretariat''s secret cable to the Nghệ An provincial committee on transport under air attack: Vinh port''s stevedores to work in relays and to be armed, to unload night arrivals at once; the Transport Ministry''s party group and the Haiphong committee told to add sea haulage to road and rail.'
     n: '*Điện mật của Ban Bí thư (ngày 5 tháng 5 năm 1965) về bảo đảm giao thông vận tải* (the title the editors''), signed for the Secretariat by Vũ Tuân, chief of the office. [[w.van-kien-dang-toan]], XXVI, 153–54. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-05-05.china-leadership
+    when: May 5–6
+    date: '1965-05-05'
+    thread: china-leadership
+    c: Zhou calls heads of the State Capital Construction Commission, Planning Commission and Finance Ministry on adjusting the capital construction plan and the budget.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 728 (May 5–6, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-05-06.latin-america
     when: May 6
     date: '1965-05-06'
@@ -757,6 +994,19 @@ entries:
     c: The Congressional Club's annual brunch, the Shoreham, a thousand present; Mrs. O'Konski, the Republican chairman, and Mrs. Holifield, her Democratic co-chairman, meet Lady Bird Johnson in conductors' caps. The theme is her Whistlestop; the club gives her the original of the cartoon of the Lady Bird Special train.
     n: '[[w.johnson-white-house-diary]], 269–70 (Mrs. Johnson''s account). Names: Johnson.'
     tags: [name:johnson-lady-bird]
+  - id: cal.1965-05-06.china-leadership
+    when: May 6
+    date: '1965-05-06'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou sees the Japanese historical play *The Gujo Peasant Uprising* and receives the troupe's head, deputy head, director and author.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 728 (May 6, 1965); [[w.zhou-enlai-waijiao-huodong]], 454 (May 6, 1965; evening; at the intermission Zhou receives the troupe''s head and deputy head, the director and the author). Names: Zhou Enlai.'
+    src:
+      c: '50409580'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 728: ?'
+        - 'w.zhou-enlai-waijiao-huodong 454: A'
+    tags: [name:zhou-enlai, polity:prc, polity:japan]
   - id: cal.1965-05-07.alabama
     when: May 7
     date: '1965-05-07'
@@ -965,6 +1215,19 @@ entries:
     c: 'The Secretariat''s circular no. 160-TT/TW on the second conference of the international trade-union committee in solidarity with Vietnam, to meet in Hanoi June 2: some 60 union delegations from the continents, for unions of over 100 countries.'
     n: '*Thông tri của Ban Bí thư số 160-TT/TW về việc tổ chức Hội nghị uỷ ban công đoàn quốc tế đoàn kết với lao động và nhân dân Việt Nam chống đế quốc Mỹ xâm lược*, signed for the Secretariat by Vũ Tuân, chief of the office. [[w.van-kien-dang-toan]], XXVI, 166–68. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-05-07.china-leadership
+    when: May 7
+    date: '1965-05-07'
+    thread: china-leadership
+    also: [latin-america]
+    c: 'Zhou receives the nine Chinese traders and journalists illegally jailed by Brazil more than a year, home since Apr. 21, and their families: use the affair to teach spirit, resolve, confidence and fighting will; struggle brings victory. Abroad one finds the homeland dear.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 728 (May 7, 1965); [[w.zhou-enlai-waijiao-huodong]], 454 (May 7, 1965; afternoon; Zhou receives the nine who came back from Brazil and praises their victorious struggle there). Names: Zhou Enlai.'
+    src:
+      c: 9e3d0c07
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 728: ?'
+        - 'w.zhou-enlai-waijiao-huodong 454: A'
+    tags: [name:zhou-enlai, polity:prc]
   - id: cal.1965-05-08.transition-and-staff
     when: May 8
     date: '1965-05-08'
@@ -1046,6 +1309,75 @@ entries:
     c: 'The Supreme Soviet awards seven cities the title of Hero City or confirms their existing titles: Leningrad, Kiev, Volgograd, Sevastopol, Odessa, Moscow and Brest.'
     n: '[[w.schattenberg-brezhnev]], 263. Names: none.'
     tags: [polity:ussr]
+  - id: cal.1965-05-08.china-leadership
+    when: May 8
+    date: '1965-05-08'
+    time: 1965-05-08T10:00Z
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the Tanzanian guests at May Day. Urges all in foreign work to learn a foreign language; Chinese habits are conservative; Mao would break them; Mao, a normal-school graduate with weak English, studies it when he can; he asks Zhou about words Zhou has forgotten, which shows his diligence.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 728–29 (May 8, 1965); [[w.zhou-enlai-waijiao-huodong]], 454 (May 8, 1965; 6 p.m., Fujian Hall, Great Hall of the People; the delegation of the Tanganyika African National Union under Mwanjisi (姆旺吉西), Tanzania''s deputy minister of information); [[w.zhonghua-renmin-gongheguo-waijiao]], 27 (May 8, 1965; the TANU delegation and the Tanzanian journalists; Zhou''s praise of Tanzania''s place in the African anti-imperialist struggle; the U.S. "unconditional negotiations" fraud). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: ff6e6ffb
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 728–29: ?'
+        - 'w.zhou-enlai-waijiao-huodong 454: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 27: A'
+    tags: [name:zhou-enlai, name:mao-zedong, polity:prc, polity:tanzania]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-08.china-leadership-2
+    when: May 8
+    date: '1965-05-08'
+    thread: china-leadership
+    c: 'Zhou, on the Finance Ministry''s budget plan: production and construction in the order set; do what money allows; rank by urgency; in this adjustment guarantee war preparation, aid abroad, the third front and key projects, cut the not urgent, the unready, the non-productive, what can be saved. Six relations: war with peace; need and possibility; quantity and quality; zeal and science; this year''s and long-term building; labor and skilled workers.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729 (May 8, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-08.china-leadership-3
+    when: May 8–10
+    date: '1965-05-08'
+    thread: china-leadership
+    c: 'Zhou has three talks with Spiro Koleka, Albanian Workers'' Party Politburo member and first deputy chairman of the Council of Ministers, May 8–10. May 9, second talk: China is mobilizing for war; the U.S. seems not yet resolved to carry the war to China, but war follows its own laws and often runs against the wish, so China cannot go unprepared.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729 (May 8–10, 1965); [[w.zhou-enlai-waijiao-huodong]], 455 (May 9, 1965, 2nd talks, afternoon, Building 2, Diaoyutai guesthouse; May 10, morning, same place, the third); [[w.zhou-enlai-waijiao-huodong]], 454 (May 8, 1965; morning, Fujian Hall, Great Hall of the People; the first of the talks, after which Zhou gives an informal luncheon for the Albanian guests). Made public: 1993. Names: Zhou Enlai, Spiro Koleka.'
+    src:
+      c: ce9f1a31
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 729: ?'
+        - 'w.zhou-enlai-waijiao-huodong 455: A, B-C'
+        - 'w.zhou-enlai-waijiao-huodong 454: A'
+    tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: The first talks, May 8, are with Politburo member and first deputy chairman of the Council of Ministers 科列加 (Koleka); the book does not name Hysni Kapo
+        at: '454'
+  - id: cal.1965-05-08.china-leadership-4
+    when: May 8
+    date: '1965-05-08'
+    thread: china-leadership
+    also: [europe-and-the-alliance-france]
+    c: Zhou watches the last Peking performance of the French classical ballet company and receives its head, principal dancers and conductor.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 8, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: f821336b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-08T11:00Z
+      - 1965-05-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-08.china-leadership-5
+    when: May 8
+    date: '1965-05-08'
+    thread: china-leadership
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Antonín Novotný, Bohuslav Laštovička and Jozef Lenárt on the 20th anniversary of Czechoslovakia''s liberation: the Soviet aid of 1945, the defeat of bourgeois restoration, and unity with the camp against U.S. imperialism and West German militarism and revanchism, in support of Vietnam.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 47–48 (May 8, 1965; printed from *Renmin ribao*, May 9, 1965). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Novotný, Laštovička, Lenárt.'
+    src:
+      c: 05ef7a75
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 47–48: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:novotny-antonin, polity:czechoslovakia]
   - id: cal.1965-05-09.opinion
     when: May 9
     date: '1965-05-09'
@@ -1063,6 +1395,43 @@ entries:
       rows:
         - 'w.anthony-war-in-northern-laos 168: all'
         - 'w.staaveren-u-s-air-force 65: all'
+  - id: cal.1965-05-09.china-leadership
+    when: May 9
+    date: '1965-05-09'
+    thread: china-leadership
+    c: 'Zhou, on the State Capital Construction Commission party group''s summary report on adjusting the 1965 plan, writes Liu Shaoqi and Deng Xiaoping: proposes a Politburo meeting the afternoon of the 11th to hear Gu Mu and the Finance Ministry and approve it.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729 (May 9, 1965). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Gu Mu.'
+    tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, polity:prc, vis:only:prc]
+  - id: cal.1965-05-09.china-leadership-3
+    when: May 9
+    date: '1965-05-09'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou watches the Japanese modern play *The Ghost of Japan* (日本的幽灵) and talks with the troupe's head, deputy head and principal actors.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 9, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: d65c313f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-09T11:00Z
+      - 1965-05-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-09.china-leadership-4
+    when: May 9
+    date: '1965-05-09'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou telegraphs warm congratulations on the opening of the Fourth Afro-Asian Peoples' Solidarity Conference in Ghana.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 9, 1965; Beijing; the time not given); [[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 9, 1965; Zhou''s telegram to the Fourth Afro-Asian People''s Solidarity Conference, Accra). Names: Zhou Enlai.'
+    src:
+      c: 1c7b692d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 28: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1965-05-10.court
     when: May 10
     date: '1965-05-10'
@@ -1134,6 +1503,14 @@ entries:
     c: Moscow. Brezhnev receives Stoph and Honecker of the East German party, with Eberlein and others, 4 to 5:20 p.m.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 25 (May 10). Names: Brezhnev, Stoph, Honecker, Eberlein.'
     tags: [name:brezhnev-leonid, name:stoph-willi, name:honecker-erich, polity:ussr, polity:gdr]
+  - id: cal.1965-05-10.china-leadership
+    when: May 10
+    date: '1965-05-10'
+    thread: china-leadership
+    also: [testing]
+    c: Zhou, with Luo Ruiqing, Yang Chengwu, Liu Jie and others, studies the second nuclear test; on the weather orders the front to prepare.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729 (May 10, 1965). Made public: 1997. Names: Zhou Enlai, Luo Ruiqing, Yang Chengwu, Liu Jie.'
+    tags: [name:zhou-enlai, name:luo-ruiqing, name:liu-jie, polity:prc, vis:only:prc]
   - id: cal.1965-05-11.voting-rights
     when: May 11
     date: '1965-05-11'
@@ -1273,6 +1650,42 @@ entries:
     c: 'Abingdon, Va. Lady Bird Johnson presents the Barter Theatre award to Roger Stevens, in front of the cast of Julius Caesar: a Virginia ham, a scholarship for two young actors, an acre on the mountain.'
     n: '[[w.johnson-white-house-diary]], 272–73 (Mrs. Johnson''s account). Names: Johnson.'
     tags: [name:johnson-lady-bird, state:va]
+  - id: cal.1965-05-11.china-leadership
+    when: May 11
+    date: '1965-05-11'
+    thread: china-leadership
+    c: 'Zhou, at the Politburo on adjusting the 1965 capital construction plan and budget, again proposes the "four guarantees": war preparation, aid abroad, the third front, key projects; rank by urgency: first cut what is not urgent, second what is not ready, third what is non-productive, fourth break old molds in design, a revolution with large savings. Holding capital investment to 17 billion is to rank by output and imported goods and equipment, leaving margin. While he is away Deng may approve its control directly.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729–30 (May 11, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618–619 (May 11, 1965; Liu presides at the Politburo meeting, which in the main passes the State Capital Construction Commission Party group''s reports on adjusting the 1965 capital-construction plan and on adjusting the 1965 budget to war preparation, and adopts the decision setting up political organs in the industrial and communications system; Liu: over 1,260 projects now, near the peak''s 1,700; no project to be started without the Center''s approval). Made public: 1996. Names: Zhou Enlai, Deng Xiaoping.'
+    tags: [name:zhou-enlai, name:deng-xiaoping, polity:prc, vis:only:prc]
+  - id: cal.1965-05-11.china-leadership-2
+    when: May 11
+    date: '1965-05-11'
+    thread: china-leadership
+    also: [latin-america-dominican-republic]
+    c: Zhou writes Mao proposing a statement in Mao's name supporting the Dominican people's armed anti-American patriotic struggle.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 11, 1965); [[w.jianguo-yilai-mao-zedong]], XVIII, 49–51 (May 11, 1965; note 1: Zhou''s telegram of 8 p.m., May 11, asking leave to issue a statement in Mao''s name, text enclosed, as a mass rally in Peking was to open the next day). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 95e0c161
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 730: ?'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 49–51: A'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 51 n.1: all'
+    tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1965-05-11.china-leadership-3
+    when: May 11
+    date: '1965-05-11'
+    thread: china-leadership
+    c: Zhou goes to Zhongshan Hall to condole the death of Liu Yalou in Shanghai on May 7, and attends the capital's public memorial meeting.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 11, 1965). Names: Zhou Enlai, Liu Yalou.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-05-11.china-leadership-4
+    when: May 11
+    date: '1965-05-11'
+    thread: china-leadership
+    also: [testing]
+    c: Zhou gives the order to explode another atomic bomb, the second test.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729 (May 11, 1965). Made public: 1997. See [[cal.1965-05-10.china-leadership]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-05-12.vietnam
     when: May 12
     date: '1965-05-12'
@@ -1448,8 +1861,87 @@ entries:
     thread: china-leadership
     also: [latin-america-dominican-republic]
     c: 'Mao, "Statement Supporting the Dominican People''s Struggle against U.S. Armed Aggression": after the coup against Cabral''s regime, Johnson sent over 30,000 troops; the "freedom" the U.S. defends is that of killing other peoples with planes and guns. Zhou Enlai wired the draft on May 11 after a Beijing rally; Mao approved by telephone through his secretary.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 12, 1965. Published May 12, 1965. Names: Mao Zedong, Zhou Enlai, Johnson.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 12, 1965; [[w.zhou-enlai-nianpu-1949]], II, 730 (May 11–12, 1965: Zhou''s letter to Mao of May 11 proposing the statement; the rally in Beijing the next day); [[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 12, 1965; Mao''s statement supporting the Dominican people); [[w.jianguo-yilai-mao-zedong]], XVIII, 49–52 (May 12, 1965; Mao''s note of 11:30 p.m., May 11, in Changsha: to Secretary Xu Yefu, tell the Premier by telephone that the statement may be issued; the statement printed from *Renmin ribao*, May 12; Johnson''s troops numbered over 30,000; note 3: the coup of Apr. 24 by young officers; Zhou''s telegram of 8 p.m. May 11 says the Peking rally was to be held the next day). Published May 12, 1965. Check: [[w.zhou-enlai-nianpu-1949]], II, 730, has Zhou propose the statement to Mao by letter on May 11 and the capital''s rally, at the Workers'' Stadium, the next day. Names: Mao Zedong, Zhou Enlai, Johnson.'
+    src:
+      c: 8403c214
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, May 12, 1965: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 730: C'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 28: A'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 49–52: A, B, D'
     tags: [name:mao-zedong, name:zhou-enlai, name:johnson-lyndon-b, polity:dominican-republic, polity:prc, polity:us]
+    variants:
+      - unit: C
+        witness: w.jianguo-yilai-mao-zedong
+        reads: Zhou telegraphed the draft at 8 p.m. on May 11, before the Peking rally, which was to meet the next day
+        at: 51 n.1
+  - id: cal.1965-05-12.china-leadership-2
+    when: May 12
+    date: '1965-05-12'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou calls responsible officials on preparations for the second Asian-African conference.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 12, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-12.china-leadership-3
+    when: May 12
+    date: '1965-05-12'
+    thread: china-leadership
+    also: [latin-america-dominican-republic]
+    c: Zhou attends in the rain, at the Peking Workers' Stadium, the rally of 100,000 from all circles in the capital condemning the U.S. armed invasion of the Dominican Republic.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 12, 1965; afternoon; Workers'' Stadium, Beijing); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 12, 1965; Liu attends the rally of the capital''s people against the U.S. armed invasion of the Dominican Republic). Names: Zhou Enlai.'
+    src:
+      c: 23df91e8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 619: ?'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-12T04:00Z
+      - 1965-05-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-12.china-leadership-4
+    when: May 12
+    date: '1965-05-12'
+    time: 1965-05-12T07:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Nguyễn Minh Phương, acting head of the National Liberation Front of South Vietnam's permanent mission in China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 12, 1965; 3 p.m., Beijing). Made public: 1993. The book names him 阮明芳; no content. Names: Zhou Enlai.'
+    src:
+      c: 07da12b7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+nlf]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-12.china-leadership-5
+    when: May 12
+    date: '1965-05-12'
+    time: 1965-05-12T01:00Z
+    thread: china-leadership
+    also: [china]
+    c: 'Mao, at 9 a.m., on the report on the time of the second nuclear test and the draft press communiqué that Zhou Enlai 周恩来 sent him May 11: back to the Premier; agreed. The report, from Zhang Aiping 张爱萍 and Liu Xiyao 刘西尧, says some twenty hours of good weather are due May 12–13, the front has been told to be ready, and the communiqué has been read by the Standing Committee''s members. The test is fired May 14 at 10 a.m.; Xinhua 新华社 prints the communiqué May 15.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 53–54 (May 12, 1965; Mao''s note, 9 a.m., May 12; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). See [[cal.1965-05-10.china-leadership]]. To check: Zhang Aiping, Liu Xiyao and others, report on the scheduled time of the second nuclear test and the draft press communiqué, sent by Zhou Enlai to Mao, May 11, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 53 n.1a). Names: Mao Zedong, Zhou Enlai, Luo Ruiqing, Zhang Aiping, Liu Xiyao, Yang Chengwu, Liu Jie.'
+    src:
+      c: 80f44eb9
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 53–54: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 53 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 53 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:zhang-aiping, name:luo-ruiqing, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-12.china-leadership-6
+    when: May 12
+    date: '1965-05-12'
+    thread: china-leadership
+    c: 'Mao, revising his 1941 critique of the Center''s line of 1931–35 and retitling it "Refuting the third ''left'' line," writes a note: written at Yan''an 延安, shown to Liu Shaoqi 刘少奇 and Ren Bishi 任弼时, never published nor passed among the Central Committee, being too sharp for unity with the comrades who erred; now, after so many years, that is no longer a danger. The year, perhaps 1940 or the first half of 1941.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 224–228 (May 12, 1965; note 1: the revision of May 12, 1965). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Liu Shaoqi, Ren Bishi. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    src:
+      c: af525c57
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVII, 224–228: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
     date: '1965-05-13'
@@ -1577,6 +2069,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-05-13.china-leadership
+    when: May 13
+    date: '1965-05-13'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhu De, chairman of the NPC's Standing Committee, and the DRV National Assembly's Standing Committee chairman, Trường Chinh, exchange letters on the Vietnamese National Assembly's appeal to the world's parliaments. Zhu De restates his belief that Vietnam will win and the U.S. lose; China wholly endorses the four points the Vietnamese Assembly reaffirmed, and firmly supports the Vietnamese people's anti-U.S. patriotic struggle.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 13, 1965). Names: Zhu De, Trường Chinh.'
+    src:
+      c: 6c3ccd87
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 28: all'
+    tags: [polity:prc, polity:drv, name:zhu-de, name:truong-chinh]
   - id: cal.1965-05-14.vietnam
     when: May 14
     date: '1965-05-14'
@@ -1806,6 +2310,44 @@ entries:
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 27: ?'
     tags: [polity:ussr, polity:india, name:brezhnev-leonid, name:shastri-lal-bahadur, vis:only:ussr+india]
+  - id: cal.1965-05-14.china-leadership
+    when: May 14
+    date: '1965-05-14'
+    thread: china-leadership
+    also: [africa]
+    c: 'Zhou writes Ben Bella: the Asian-African Conference is of Asian and African states and so observers should be limited to them; invitation of observers should follow only the Jakarta conference''s final communiqué, as for full members; if, as reported, states outside Asia and Africa are invited as observers the question will be complicated.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 14, 1965). Made public: 1997. Names: Zhou Enlai, Ben Bella.'
+    tags: [name:zhou-enlai, name:ben-bella-ahmed, polity:prc, polity:algeria, vis:only:prc+algeria]
+  - id: cal.1965-05-14.china-leadership-2
+    when: May 14
+    date: '1965-05-14'
+    thread: china-leadership
+    also: [soviet-union, europe-and-the-alliance]
+    c: Zhou attends the Politburo meeting; hears Yao Yilin on the finance and trade work conference, Lin Feng on going to the Soviet Union for the twentieth anniversary of victory over fascism, Lu Dingyi on going to the German Democratic Republic for the twentieth anniversary of its liberation.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 14, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 14, 1965; Liu presides at the Politburo meeting, which hears Yao Yilin, Minister of Commerce, on finance and trade; Liu says that to strengthen rural commerce the supply and marketing cooperatives, which go after big deals and neglect small trade, need an organ for the small goods they will not buy, and that in reforming the commercial system the wholesale organs are to be taken in hand, the retail and small wholesale organs being scattered, so that the circulation of goods is put right). Made public: 1996. Names: Zhou Enlai, Yao Yilin, Lin Feng, Lu Dingyi.'
+    src:
+      c: ffa33b15
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 730: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 619: A, B'
+    tags: [name:zhou-enlai, name:lu-dingyi, polity:prc, vis:only:prc]
+  - id: cal.1965-05-14.china
+    when: May 14
+    date: '1965-05-14'
+    thread: china
+    also: [testing]
+    c: Xinhua issues the press communique on the success of China's second atomic bomb test. It says China develops nuclear arms wholly for defense; China will never be the first to use them; the Chinese people sincerely hope nuclear war never comes; the government and people will go on, with all the peace-loving countries and peoples, to strive for the complete prohibition and thorough destruction of nuclear weapons.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 14, 1965).'
+    src:
+      c: b5af5251
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 28: all'
+    tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.jianguo-yilai-mao-zedong
+        reads: the communiqué is Xinhua of May 15; the test was fired May 14 at 10 a.m.
+        at: 53 n.1
   - id: cal.1965-05-15.students
     when: May 15
     date: '1965-05-15'
@@ -1969,6 +2511,54 @@ entries:
         - 'w.wells-war-within 50: all'
         - 'w.zaroulis-who-spoke-up 55: ?'
     tags: [state:ny, city:nyc]
+  - id: cal.1965-05-15.china-leadership
+    when: May 15
+    date: '1965-05-15'
+    thread: china-leadership
+    also: [africa]
+    c: 'Zhou, on cases of overvalued Chinese aid projects, tells Fang Yi, chairman of the Foreign Economic Liaison Commission: check the valuation of all aid projects and sum up the experience, as a step toward better aid work.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 15, 1965). Made public: 1997. Names: Zhou Enlai, Fang Yi.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-15.china-leadership-2
+    when: May 15
+    date: '1965-05-15'
+    thread: china-leadership
+    c: Zhou attends the Politburo meeting; hears Ye Lin on industrial production. This year's output over 20 percent above last; note quality and safety now.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730–31 (May 15, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 15, 1965; Liu presides at the Politburo meeting, which hears Ye Lin, deputy director of the State Economic Commission, on industrial production and Li Fuchun on the small third front; of basic industry he says transport, power and coal are tight this year and will be tighter next and the year after, capacity has reached its limit, so that steel cannot rise unless coal does, and preparation for the next two years is to begin now). Made public: 1996. Names: Zhou Enlai, Ye Lin.'
+    src:
+      c: 98fdc69f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 730–31: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 619: A, B'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-15.china-leadership-3
+    when: May 15
+    date: '1965-05-15'
+    time: 1965-05-15T02:00Z
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: 'Zhou receives the new Soviet ambassador Rabin and tells him of the six proposals he made Kosygin in Beijing on Feb. 5: the Chinese government does not withdraw what it said because of the grave new disputes since February; "the Chinese keep their word." He will see the ambassador when he asks, on his state''s big questions; talk must touch both how to improve relations and, with it, the political disagreements; talk of abstract friendship alone solves nothing.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 15, 1965); [[w.zhou-enlai-waijiao-huodong]], 455 (May 15, 1965; 10 a.m., Fujian Hall, Great Hall of the People; the six proposals of Kosygin''s Feb. visit reaffirmed). Made public: 1993. Names: Zhou Enlai, Rabin.'
+    src:
+      c: c855de6a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 731: ?'
+        - 'w.zhou-enlai-waijiao-huodong 455: A'
+    tags: [name:zhou-enlai, polity:prc, polity:ussr, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-15.china-leadership-4
+    when: May 15
+    date: '1965-05-15'
+    thread: china-leadership
+    also: [indonesia]
+    c: Mao, "Agreed," on the draft telegram in his name congratulating the Indonesian Communist Party 印度尼西亚共产党 on its 45th anniversary that Peng Zhen 彭真 sent him May 14.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 55–57 (May 15, 1965; Mao''s note; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Peng Zhen, submission to Mao Zedong of the draft telegram in Mao''s name congratulating the Indonesian Communist Party on its 45th anniversary, May 14, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 57 n.1). Names: Mao Zedong, Peng Zhen.'
+    src:
+      c: 28d625e7
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 55–57: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 57 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -2050,8 +2640,34 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Mao, Changsha, receives Hồ Chí Minh, on leave in China; Tao Zhu present. The U.S. cannot defeat Vietnam, it fears it, Vietnam will beat it. Hồ asks China to build six roads from its border to the rear areas and the front; Mao: "At President Hồ''s order. We will undertake it." Hồ: after the French war the party in the hills went down to the plains and a pacifist mood arose; Mao: China made the same mistake, only now begun to correct.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 16, 1965. Made public: 2013. Names: Mao Zedong, Hồ Chí Minh, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 16, 1965; [[w.macfarquhar-origins-of-the-cultural]], III, 371, 373 (Hồ Chí Minh at Changsha, in the book "early spring", staying over a month, visited by Mao; Hồ asks help with road building north of Hanoi). [[w.77-conversations-between-chinese]], [84–85](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=82) (doc. 9; Changsha, May 16, 1965, no hour: Hồ asks China to build six roads from the border south through the rear, to be joined to the front, 30,000 Vietnamese now at it to go South if China helps, and to help the Lao build roads from Samneua to Xiengkhoang and Lower Laos; Mao: a good policy, roads to Thailand too, "we accept your order"; Tao Zhu had phoned Zhou, who said China could; 84 n.127; 85 n.128, Tao Zhu to Hồ at Hanoi, Apr. 13, [[cal.1965-04-13.china-leadership-5]]). Made public: 1998. Check: Nguyen Vu Tung''s essay (77 Conversations, 49 n.63) dates the talk May 17, 1965; the record (doc. 9) is headed Changsha, May 16, as is Tønnesson''s essay (34). Check: the book has Hồ come secretly to Changsha in the early spring and stay over a month, Mao visiting him (III, 371; 373 n.166); the chronologies give Mao''s talk May 16. To check: [[w.jian-xin-zhongguo-liu-ci]], 202 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 371 n.153a); [[w.xinli-xunshi-dajiang-nanbeide-mao]], 447–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 373 n.166). Names: Mao Zedong, Hồ Chí Minh, Tao Zhu.'
+    src:
+      c: 439de7b4
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, May 16, 1965: all'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=82: B, D, E'
+        - 'w.macfarquhar-origins-of-the-cultural III, 371, 373: A, D, E'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 371 n.153a: A, D, E'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 373 n.166: A, D, E'
     tags: [name:mao-zedong, name:ho-chi-minh, name:tao-zhu, polity:prc, polity:drv, vis:only:prc+drv]
+    variants:
+      - unit: A
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: early spring 1965
+        at: III, 371 n.153
+  - id: cal.1965-05-16.china-leadership-2
+    when: May 16
+    date: '1965-05-16'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou talks with Nguyễn Văn Hiếu and Nguyễn Thị Bình of the National Liberation Front of South Vietnam in the Great Hall of the People. Zhou tells them the four sentences he asked Ayub Khan to give the U.S.: China will never start a war with the U.S.; it will go to Vietnam if Vietnam is in need, as in Korea; it is ready, the border provinces and the whole country; if the U.S. carries the war into China it has no limits, an air war from the U.S., a ground war from China.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 16, 1965; Great Hall of the People; the time not given; the book names them 阮文孝 and 阮氏萍 and gives no content); [[w.77-conversations-between-chinese]], [83–84](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=81) (doc. 8; Beijing, the Great Hall of the People, May 16, 1965, no hour: Zhou on his talks with Ayub Khan before Ayub''s trip to the U.S., the four sentences, peaceful coexistence on the five principles, Taiwan and Vietnam; 83 n.126, Nguyễn Văn Hiếu and Nguyễn Thị Bình). Made public: 1993. Names: Zhou Enlai, Nguyễn Văn Hiếu, Nguyễn Thị Bình, Ayub Khan.'
+    src:
+      c: 415270b5
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=81: A-E'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+drv, name:nguyen-van-hieu, name:nguyen-thi-binh, name:ayub-khan-mohammad, polity:drv]
   - id: cal.1965-05-17.economy
     when: May 17
     date: '1965-05-17'
@@ -2079,7 +2695,7 @@ entries:
     thread: korea
     also: [vietnam]
     c: 'Park''s state visit. The joint statement: American forces to stay in Korea; $150 million in development loans; thanks for Korea''s help in Vietnam. Johnson speaks of a Korean division for Vietnam.'
-    n: 'Remarks of Welcome at the White House to the President of Korea, [1965 Pub. Papers 538](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=614); Toasts of the President and President Chung Hee Park of Korea, [1965 Pub. Papers 548](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=624) (May 17, 1965); Joint Statement Following Discussions With the President of Korea, [1965 Pub. Papers 550](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=626) (May 18, 1965). FRUS 1964–68, XXIX, pt. 1, docs. [44](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d44), [46](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d46), [47](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d47), [48](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d48), [49](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d49), [50](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d50), [51](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d51), [52](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d52), [53](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d53). To check: [[w.brazinsky-nation-building-in-south]]; [[w.lee-troubled-peace]]; [[w.park-chung-hee-era]]. See [[cal.1964-12-19.japan-and-korea]]. Names: Park, Johnson.'
+    n: 'Remarks of Welcome at the White House to the President of Korea, [1965 Pub. Papers 538](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=614); Toasts of the President and President Chung Hee Park of Korea, [1965 Pub. Papers 548](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=624) (May 17, 1965); Joint Statement Following Discussions With the President of Korea, [1965 Pub. Papers 550](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=626) (May 18, 1965). FRUS 1964–68, XXIX, pt. 1, docs. [44](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d44), [46](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d46), [47](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d47), [48](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d48), [49](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d49), [50](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d50), [51](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d51), [52](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d52), [53](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d53). The time is the first day''s. To check: [[w.brazinsky-nation-building-in-south]]; [[w.lee-troubled-peace]]; [[w.park-chung-hee-era]]. See [[cal.1964-12-19.japan-and-korea]]. Names: Park, Johnson.'
     tags: [name:park-chung-hee, name:johnson-lyndon-b]
     short: Park's state visit
   - id: cal.1965-05-17.war-opposition
@@ -2213,6 +2829,55 @@ entries:
     c: 'Wheeler, to his colleagues of the Joint Chiefs, on the Vance and Bundy mission: he did not know "what goes" with the high-powered delegation. "I''m sort of a rump member of a rump organization—rather far back in this problem."'
     n: '[[w.drea-mcnamara-clifford-and-the-2011]], 308 (Wheeler "admitted to his colleagues"; the day from his n.64). To check: Commandant''s notes of the special meeting of the Joint Chiefs, No. 53, May 17, 1965, Greene Papers, MHC (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 308 n.64). See [[cal.1965-05-14.latin-america-dominican-republic-2]]. Names: Wheeler. Check: the day; Drea''s note 64 cites the Chiefs'' meeting of May 17, his text gives none.'
     tags: [name:wheeler-earle]
+  - id: cal.1965-05-17.china-leadership
+    when: May 17
+    date: '1965-05-17'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou receives the Soviet ambassador Rabin to talk about an international conference on the Cambodian question.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 17, 1965; Beijing; the time not given). Made public: 1993. The book names the ambassador 拉宾. Names: Zhou Enlai.'
+    src:
+      c: dcc43506
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+ussr]
+  - id: cal.1965-05-17.china-leadership-2
+    when: May 17
+    date: '1965-05-17'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou receives principal members of a Japanese theater group (head Takizawa Osamu, 泷泽修), a Japanese film delegation (head Iwasaki Akira, 岩崎昶) and the head of the secretariat of the Japan Cultural Exchange Association (白土吾夫).
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 17, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 4164035b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-17T11:00Z
+      - 1965-05-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-17.china
+    when: May 17
+    date: '1965-05-17'
+    thread: china
+    also: [south-asia]
+    c: Foreign Ministry note to the Indian embassy flatly rejects India's "protests", in its Foreign Ministry's notes of Mar. 10 and Apr. 7, against the China–Pakistan protocol fixing the boundary between Xinjiang and the areas Pakistan actually controls and defends. China and Pakistan are neighboring sovereign states, with every right to fix their boundary by talks; the settlement serves peace on the border and good neighborly relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 28–29 (May 17, 1965).'
+    src:
+      c: e8f8221d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 28–29: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
+  - id: cal.1965-05-17.china-leadership-3
+    when: May 17
+    date: '1965-05-17'
+    thread: china-leadership
+    also: [vietnam-hanoi, soviet-union]
+    c: 'Beijing. Zhou and Deng Xiaoping to Hồ Chí Minh, on Soviet–Vietnamese relations. Zhou: the Soviet revisionists want North Vietnam to talk with the U.S., put the NLF aside and sell out its brothers. Deng: Soviet aid serves Soviet purposes and strategy; if Vietnam finds it awkward to say so, China will.'
+    n: 'Zhou Enlai and Deng Xiaoping with Hồ Chí Minh, Beijing, May 17, 1965, doc. 10, [[w.77-conversations-between-chinese]], [85](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=83) (an excerpt; no hour; 85 n.129, Deng). Made public: 1998. To check: [[w.zhou-enlai-waijiao-huodong]] (May 17, 1965). See [[cal.1965-05-16.china-leadership]]. Names: Zhou Enlai, Deng Xiaoping, Hồ Chí Minh.'
+    tags: [name:zhou-enlai, name:deng-xiaoping, name:ho-chi-minh, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1965-05-18.jobs-and-wages
     when: May 18
     date: '1965-05-18'
@@ -2360,6 +3025,25 @@ entries:
     c: 'The Secretariat''s circular no. 161-TT/TW on evacuating the ethnic Chinese from the cities, towns and key zones: few have gone to the countryside, where they lack kin, speak otherwise and have no Chinese schools; rumors of American–Chiang agents, some old people and children going to China on their own.'
     n: '*Thông tri của Ban Bí thư số 161-TT/TW về việc sơ tán Hoa kiều ở các thành phố, thị trấn và các vùng trọng điểm*, signed for the chief of the office by Vũ Tuân. [[w.van-kien-dang-toan]], XXVI, 184–86. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-05-18.china-leadership
+    when: May 18–27
+    date: '1965-05-18'
+    thread: china-leadership
+    c: Zhou calls Yu Qiuli and the other members of the "small planning commission" on the long-term plan and the Third Five-Year Plan, May 18, 19 and 27.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 18–27, 1965). Made public: 1997. Names: Zhou Enlai, Yu Qiuli.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-18.china-leadership-2
+    when: May 18
+    date: '1965-05-18'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Hồ Chí Minh 胡志明 on his 75th birthday: the founder and tested leader of the Vietnam Workers'' Party; the Vietnamese people''s fight for the north, the south and unity, the Chinese people at their side.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 58–59 (May 18, 1965; printed from *Renmin ribao*, May 19, 1965). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: 5926d66a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 58–59: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ho-chi-minh, polity:drv]
   - id: cal.1965-05-19.king
     when: May 19
     date: '1965-05-19'
@@ -2506,6 +3190,31 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-05-19.china-leadership
+    when: May 19
+    date: '1965-05-19'
+    thread: china-leadership
+    also: [vietnam]
+    c: 'Zhou, to those at the Military Commission''s operations conference: why prepare for a big war? War has its laws, which no one''s will alters; if not ready, bad; if ready, the enemy dares not come, or comes and is destroyed. Preparing for a big fight does not mean being at the edge of ruin now; there is time to prepare.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 19, 1965); [[w.jianguo-yilai-mao-zedong]], XVIII, 60–61 (May 19, 1965; note 1 of the Wengao''s item of May 25 gives the Standing Committee members'' talk of the afternoon of May 19 with the operations conference (Liu Shaoqi, Zhou, Zhu De, Lin Biao, Deng): prepare for an early and a big war on all fronts; with the preparation done the enemy will not dare attack lightly; the summary attributes these views to the members together, not to Zhou alone). Names: Zhou Enlai.'
+    src:
+      c: b1bdd242
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 731: ?'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 60–61: A, D'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-05-19.china-leadership-2
+    when: May 19
+    date: '1965-05-19'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou goes to the airport to see off the delegation under Peng Zhen, Politburo member and Secretariat secretary, leaving for Jakarta for the forty-fifth anniversary of the Indonesian Communist Party and a friendly visit.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455–56 (May 19, 1965; Beijing airport; the time not given). Names: Zhou Enlai, Peng Zhen.'
+    src:
+      c: 427eae1d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 455–56: all'
+    tags: [polity:prc, name:zhou-enlai, name:peng-zhen]
   - id: cal.1965-05-20.vietnam-operations
     when: May 20
     date: '1965-05-20'
@@ -2580,6 +3289,31 @@ entries:
       rows:
         - 'w.taylor-swords-and-plowshares 343–44: all'
     tags: [name:phan-huy-quat, name:pham-ngoc-thao]
+  - id: cal.1965-05-20.china-leadership
+    when: May 20
+    date: '1965-05-20'
+    thread: china-leadership
+    also: [vietnam-hanoi, laos]
+    c: 'Zhou wires Sihanouk: firm support for Cambodia''s just act in breaking relations with the U.S. in answer to its provocations. If the U.S. carries the fire to Cambodia, China will not stand by.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 731 (May 20, 1965); [[w.zhonghua-renmin-gongheguo-waijiao]], 29 (May 20, 1965; the cable to Sihanouk). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: aee50976
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 731: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 29: A'
+    tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia]
+  - id: cal.1965-05-20.china-leadership-2
+    when: May 20
+    date: '1965-05-20'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Mao telegraphs the Central Committee of the Indonesian Communist Party 印度尼西亚共产党 on its 45th anniversary, in the Chinese Party''s name: the PKI a creative, militant vanguard, firm against modern revisionism and dogmatism; its fight against "Malaysia," for Sukarno''s withdrawal from the United Nations, for Vietnam; the two parties'' unity not to be broken.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 55–57 (May 20, 1965; printed from *Renmin ribao*, May 23, 1965; Mao''s note of May 15 on the draft is a separate entry). See [[cal.1965-05-15.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: fdc6ba1b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 55–57: all'
+    tags: [polity:prc, name:mao-zedong, polity:indonesia]
   - id: cal.1965-05-21.students
     when: May 21–22
     date: '1965-05-21'
@@ -2704,6 +3438,58 @@ entries:
       - 1965-05-21T15:00Z
       - 1965-05-21T20:00Z
     time_zone: America/New_York
+  - id: cal.1965-05-21.china-leadership
+    when: May 21
+    date: '1965-05-21'
+    thread: china-leadership
+    c: Zhou, with Li Xiannian and Luo Ruiqing, takes the Albanian government economic delegation under Spiro Koleka to Dazhai brigade, Xiyang county, Shanxi. Warns Chen Yonggui to find ample water for irrigation and prepare for three years of drought.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 731–32 (May 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 456 (May 21, 1965; the visit to Dazhai). Names: Zhou Enlai, Li Xiannian, Luo Ruiqing, Spiro Koleka, Chen Yonggui.'
+    src:
+      c: 6efd1ea4
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 731–32: ?'
+        - 'w.zhou-enlai-waijiao-huodong 456: A'
+    tags: [name:zhou-enlai, name:li-xiannian, name:luo-ruiqing, polity:prc, polity:albania]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: The Albanian government economic delegation is led by Koleka (科列加), Politburo member and first deputy chairman of the Council of Ministers; the book does not name Hysni Kapo
+        at: '456'
+  - id: cal.1965-05-21.china
+    when: May 21
+    date: '1965-05-21'
+    thread: china
+    also: [vietnam-pause]
+    c: The Foreign Ministry's statement exposes the U.S. "pause in the bombing" as a fraud. The U.S. said it would suspend bombing of Vietnam from May 12, and in less than a week announced that it would resume; a bombing fraud is a war fraud, and a "pause" is a war fraud also; neither settles the Vietnam question. Any new U.S. military adventure will not reach its end, only meet a stronger counterblow.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 29 (May 21, 1965).'
+    src:
+      c: 2ea4a952
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 29: all'
+    tags: [polity:prc, polity:drv, polity:us]
+  - id: cal.1965-05-21.china-leadership-2
+    when: May 21
+    date: '1965-05-21'
+    thread: china-leadership
+    also: [indonesia]
+    c: Peng Zhen, vice-chairman of the NPC's Standing Committee, begins the visit of an NPC delegation to Indonesia, to June 5.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 29 (May 21–June 5, 1965; the visit; Sukarno receives the delegation, no day given); [[w.macfarquhar-origins-of-the-cultural]], III, 367 (Peng Zhen makes a strongly anti-imperialist speech in Jakarta in May). To check: [[w.agung-twenty-years-indonesian-foreign]], 431–40 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 367 n.114a); [[w.leifer-indonesias-foreign-policy]], 69–71, 99–105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 367 n.114b). Names: Peng Zhen.'
+    src:
+      c: bebd3f4b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 29: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 367: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 367 n.114a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 367 n.114b: A'
+    tags: [polity:prc, polity:indonesia, name:peng-zhen, name:sukarno]
+  - id: cal.1965-05-21.china-leadership-3
+    when: May 21
+    date: '1965-05-21'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi, on the letter of Wang Yizhi, principal of Peking''s No. 101 Middle School, proposing to try half-work, half-study at the school, writes: in the short run half-work, half-study cannot replace full-time schools; mass conversion of full-time schools is not suitable now, but individual conversion as a trial is allowed, and it seems the change might proceed gradually from the first year, over several years; teachers and students unwilling are not to be forced for the present; half-work, half-study schools have the same problem of going on to higher schools, and the courses of primary school, middle school and university must dovetail so that graduates can enter a higher school.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 21, 1965). Made public: 1996. To check: Wang Yizhi''s letter and Liu''s note (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-05-22.laos
     when: May 22
     date: '1965-05-22'
@@ -2785,6 +3571,27 @@ entries:
     c: 'The White House, Saturday morning, and lunch with Bundy and Goodwin. Schlesinger urges that Johnson see Betancourt, in town: if not the President, then "Mac or Bill or Dick." Bundy calls Johnson and suggests it; Johnson "was cold to the idea." By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 237–38 (the entry headed May 25, a Tuesday: "Saturday morning"). Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger, Bundy, Goodwin, Betancourt, Johnson.'
     tags: [name:bundy-mcgeorge, name:goodwin-richard-n, name:betancourt-romulo, name:johnson-lyndon-b, name:schlesinger-arthur-m-jr]
+  - id: cal.1965-05-22.china-leadership
+    when: May 22
+    date: '1965-05-22'
+    thread: china-leadership
+    c: 'Zhou calls Kuang Renong, head of civil aviation, on air work; he had said Chinese civil aviation could not open without flying out: "we must fly out".'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732 (May 22, 1965). Made public: 1997. Names: Zhou Enlai, Kuang Renong.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-22.china-leadership-2
+    when: May 22
+    date: '1965-05-22'
+    thread: china-leadership
+    c: The Standing Committee of the Third NPC abolishes the system of military ranks in the PLA; Liu Shaoqi proclaims the decision by presidential order.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732 (May 22, 1965). Names: Zhou Enlai, Liu Shaoqi.'
+    tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc]
+  - id: cal.1965-05-22.china-leadership-3
+    when: May 22–24
+    date: '1965-05-22'
+    thread: china-leadership
+    c: 'Zhou hears the State Council''s agriculture and forestry officials, May 22–24. May 23 hears Vice Minister of Forestry Hui Zhongquan on forestry in the Third Plan: China should make a Forest Law, promulgated by the State Council. Severely criticizes the forest fires of the year, fire fought twelve days: the vice minister in charge must command at the front; fires out within three days save unusual ones; study chemical fire-fighting with the Chemical Ministry; leadership must be strong, diligent work is not enough; fire protection is not poor but too poor.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732 (May 22–24, 1965). Made public: 1997. Names: Zhou Enlai, Hui Zhongquan.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-05-23.opinion
     when: May 23
     date: '1965-05-23'
@@ -2837,6 +3644,20 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 464: all'
     tags: [name:rockefeller-nelson, name:johnson-lyndon-b, state:ny]
+  - id: cal.1965-05-23.china-leadership
+    when: May 23
+    date: '1965-05-23'
+    time: 1965-05-23T11:50Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou talks with Hoàng Văn Hoan, Politburo member of the Vietnam Workers' Party, at the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 23, 1965; 7:50 p.m., Diaoyutai guesthouse). The book gives no content. Names: Zhou Enlai.'
+    src:
+      c: 520edf05
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 456: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-24.court
     when: May 24
     date: '1965-05-24'
@@ -2944,6 +3765,42 @@ entries:
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 30–32: ?'
     tags: [polity:ussr, polity:hungary, name:brezhnev-leonid, name:tito-josip-broz, name:kadar-janos, name:de-gaulle-charles, vis:only:ussr+hungary]
+  - id: cal.1965-05-24.china-leadership
+    when: May 24
+    date: '1965-05-24'
+    time: 1965-05-24T12:20Z
+    thread: china-leadership
+    also: [middle-east]
+    c: Zhou receives Rashid Said Jarbu (拉希德·赛义德·加尔布), deputy head of the Palestine Liberation Organization's Peking office, in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 24, 1965; 8:20 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: 2af00353
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 456: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-24.china-leadership-2
+    when: May 24
+    date: '1965-05-24'
+    time: 1965-05-24T13:15Z
+    thread: china-leadership
+    also: [middle-east]
+    c: Zhou receives the secretary-general of the Arab Journalists Association, editor of the Cairo *Pictorial Weekly*, in the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 24, 1965; 9:15 p.m., Great Hall of the People). The book names him 马格德·穆罕默德. Names: Zhou Enlai.'
+    src:
+      c: f990a8e1
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 456: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-24.china-leadership-3
+    when: May 24
+    date: '1965-05-24'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi presides at a Politburo meeting, which hears Zhao Erlu on the national defense industry and Zhang Aiping on the explosion of the second atomic bomb.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 620 (May 24, 1965). Made public: 1996. Names: Liu Shaoqi, Zhao Erlu, Zhang Aiping.'
+    tags: [polity:prc, name:liu-shaoqi, name:zhao-erlu, vis:only:prc, name:zhang-aiping]
   - id: cal.1965-05-25.foreign-aid
     when: May 25
     date: '1965-05-25'
@@ -3114,6 +3971,64 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1965-05-25.china-leadership
+    when: May 25
+    date: '1965-05-25'
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: Zhou calls responsible officials on aid to Vietnam, road building and other matters.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732 (May 25, 1965); [[w.macfarquhar-origins-of-the-cultural]], III, 372–73 (on May 25 Zhou, Luo Ruiqing and Yang Chengwu hold talks with a Vietnamese delegation on road, rail and other transport). Made public: 1997. Check: the book names Luo Ruiqing and Yang Chengwu with Zhou and a Vietnamese delegation (III, 372–73 n.162, Li Jian, 203–5); the chronology gives only Zhou''s call to officials. To check: [[w.jian-xin-zhongguo-liu-ci]], 203–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 373 n.162). Names: Zhou Enlai.'
+    src:
+      c: 225413b2
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 732: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 372–73: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 373 n.162: A'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-25.china-leadership-2
+    when: May 25
+    date: '1965-05-25'
+    thread: china-leadership
+    c: 'Zhou, viewing the trial footage of *The East Is Red*: shoot it chiefly as the stage performance, a stage documentary; film stock to be bought through the Foreign Trade Ministry in London.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732 (May 25, 1965). Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-05-25.china-leadership-3
+    when: May 25
+    date: '1965-05-25'
+    time: 1965-05-25T09:15Z
+    thread: china-leadership
+    also: [latin-america-peru]
+    c: Zhou receives a Peruvian deputy, former secretary-general of Popular Action, in the Beijing Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 25, 1965; 5:15 p.m., Beijing Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 29 (May 25, 1965; the Peruvian deputies). The book names him 里维拉. Names: Zhou Enlai.'
+    src:
+      c: c0721ab7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 456: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 29: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-25.china-leadership-4
+    when: May 25
+    date: '1965-05-25'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi visits the Seventh Ministry of Machine Building''s Factory 221 (二二一厂). On militia work he says: in peace the army looks too many, and in war too few. Every arm is to have its own militia: a garrison battalion should train two battalions of militia, to be several battalions in war; a mobile unit, stationed at one place, should train militia for two armies; the air-defense units above all, with so few air-defense and antiaircraft divisions, which in war would go to the front, so that the rear must protect itself.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 620 (May 25, 1965). Made public: 1996. Names: Liu Shaoqi. Check: the factory''s number and place; the book prints 二二一厂 without a place.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-05-25.china-leadership-5
+    when: May 25
+    date: '1965-05-25'
+    thread: china-leadership
+    c: 'Mao, on the summary of the Standing Committee members'' instructions to the Military Commission''s operations conference, which Lin Biao 林彪 sent him May 22: read, back to Lin Biao; all the views agreed. He asks to see any document on the "thirteen items" of material preparation for war.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 60–61 (May 25, 1965; Mao''s note; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). See [[cal.1965-05-19.china-leadership]]. To check: General Staff, summary of the instructions of the Central Committee''s Standing Committee members on receiving all members of the Military Commission''s operations conference, issued May 21, 1965 (Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao and Deng Xiaoping received them on the afternoon of May 19, after Luo Ruiqing and group heads reported) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 60 n.1a); Lin Biao, forwarding to Mao Zedong the summary of the Standing Committee''s instructions, May 22, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 60 n.1b). Names: Mao Zedong, Lin Biao, Luo Ruiqing.'
+    src:
+      c: 0bd16d10
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 60–61: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 60 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 60 n.1b: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 60 n.1c: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:luo-ruiqing, vis:only:prc]
   - id: cal.1965-05-26.latin-america
     when: May 26
     date: '1965-05-26'
@@ -3247,6 +4162,14 @@ entries:
         - 'w.dallek-flawed-giant 220: all'
         - 'via w.dallek-flawed-giant 220 n.97a: all'
         - 'via w.dallek-flawed-giant 220 n.97c: all'
+  - id: cal.1965-05-26.china-leadership
+    when: May 26
+    date: '1965-05-26'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi talks with Cui Yitian, Shi Shuhan, Ji Suhua and others of the Ministry of Health. He says medical and health work now faces only some 100 million city people; 70 percent of the nation's medical personnel are in the cities, and the rural population of over 500 million has few medical workers and little medicine; to face health work to the villages, the supply of drugs must be studied, and how to put the points of supply deep into the villages.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 620 (May 26, 1965). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
     date: '1965-05-27'
@@ -3336,6 +4259,68 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-05-27.china-leadership
+    when: May 27
+    date: '1965-05-27'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou attends the National Day reception given by Afghanistan's ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 27, 1965; evening; Beijing). The book names the ambassador 穆罕默德·舒埃卜·米斯凯尼亚. Names: Zhou Enlai.'
+    src:
+      c: aa3f12c8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 456: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-05-27T11:00Z
+      - 1965-05-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-28.china-leadership
+    when: May 28–29
+    date: '1965-05-28'
+    thread: china-leadership
+    also: [indonesia, vietnam, vietnam-hanoi, africa]
+    c: 'Zhou and Chen Yi fly to Guangzhou to welcome Subandrio, first deputy premier and foreign minister of Indonesia; three talks through the morning of May 29. On Vietnam: the U.S. rushes in unprepared for war; all its estimates wrong; its "gradual escalation" means one step at a time, the thing most forbidden in war; Taylor and Johnson are extreme pragmatists with no long strategy. On the second Asian-African conference: ten years ago all despised the conference, now all want in; difficult but of high market value; a great struggle ahead, in Asia and Africa and outside the U.N. In the second talk, at the Baiyunshan Hotel: 14 million South Vietnamese dare fight 200,000 Americans, so China, fifty times as many, would fight at least 10 million. Asked about bombing, Zhou repeats the four sentences of Bogor: China starts no war with the U.S.; its word counts, as ten years of talks on Taiwan and Korea show; the whole country is mobilizing; bombing China is war on China, and war has no limit, no air war without a land war.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732–33 (May 28–29, 1965); [[w.zhou-enlai-waijiao-huodong]], 456 (May 28, 1965; afternoon, by special plane from Peking with Chen Yi to Guangzhou; 6:20 p.m., Baiyunshan Hotel (白云山宾馆), the first talks with Subandrio, with Chen Yi; 10 p.m. to 3:20 a.m., Baiyunshan Hotel, the second talks, Zhou on the Americans'' lack of preparation, "gradual escalation" and Taylor and Johnson as pragmatists); [[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; 9 a.m., Baiyunshan Hotel, the third talks with Subandrio; on the second Asian–African conference (the book''s words: all despised the first, now all want in; difficult but of high market value; a great struggle inside and outside the U.N.)); [[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28–29, 1965; Subandrio''s visit, May 28–29; Zhou and Chen Yi''s talks with him); [[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28–29, 1965; Zhou''s four points on Vietnam and his remarks on the second Afro-Asian Conference); [[w.77-conversations-between-chinese]], [85–86](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=83) (doc. 11; Guangzhou, May 28, 1965, no hour: Zhou to Subandrio, the U.S. rushing in unprepared, its ''gradual escalation'', Taylor and Johnson as ''extreme pragmatists''; 14 million South Vietnamese facing 200,000 Americans, China fifty times as many; the four-sentence statement of Maowu (Bogor) repeated; 85 n.130, 86 n.131). Made public: 1993. Names: Zhou Enlai, Chen Yi, Subandrio.'
+    src:
+      c: b456a058
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 732–33: ?'
+        - 'w.zhou-enlai-waijiao-huodong 456: A-F, J-M'
+        - 'w.zhou-enlai-waijiao-huodong 457: B, G-I'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 30: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=83: C-F, J-M'
+    tags: [name:zhou-enlai, name:chen-yi, name:subandrio, polity:prc, polity:indonesia, vis:only:prc+indonesia]
+  - id: cal.1965-05-28.china-leadership-2
+    when: May 28
+    date: '1965-05-28'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou gives a banquet in Guangzhou for Subandrio.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 28, 1965; evening; Guangzhou). Names: Zhou Enlai, Subandrio.'
+    src:
+      c: 58593ae0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 456: all'
+    tags: [polity:prc, name:zhou-enlai, name:subandrio]
+    time_range:
+      - 1965-05-28T11:00Z
+      - 1965-05-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-28.china-leadership-4
+    when: May 28
+    date: '1965-05-28'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Chen Yi, to Carol of *Le Nouvel Observateur*: the Vietnamese people can drive out the U.S. aggressors by their own strength, and the U.S. cannot escape defeat whatever tricks it uses. China firmly opposes the U.S. peace-talk fraud and firmly supports the stand of the Vietnamese government and the National Liberation Front: restore the 1954 Geneva agreements, withdraw U.S. aggressor forces from the South, accept the Front as the sole legitimate representative of the people of the South, leave the South''s internal affairs to its people, and leave Vietnam''s peaceful reunification to the Vietnamese.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28, 1965). Names: Chen Yi.'
+    src:
+      c: 49dd1ffe
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 30: all'
+    tags: [polity:prc, polity:drv, polity:nlf, polity:fr, name:chen-yi]
   - id: cal.1965-05-29.vietnam-operations
     when: May 29–30
     date: '1965-05-29'
@@ -3377,6 +4362,52 @@ entries:
     c: 'The Secretariat''s circular no. 162-TT/TW on picking students for science and technology abroad: the Politburo decides that however the war goes the Party is to train tens of thousands of university-level cadres and hundreds of thousands of secondary-level.'
     n: '*Thông tri của Ban Bí thư số 162-TT/TW về việc chọn người đi học khoa học, kỹ thuật ở nước ngoài*, signed for the chief of the office by Vũ Tuân. [[w.van-kien-dang-toan]], XXVI, 187–89. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-05-29.china-leadership
+    when: May 29
+    date: '1965-05-29'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou, back in Beijing after seeing Subandrio off, receives Pakistani ambassador Raza: much work and busy, but never sparing of time for friendly states.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 733 (May 29, 1965). Names: Zhou Enlai, Raza.'
+    tags: [name:zhou-enlai, polity:prc, polity:pakistan]
+  - id: cal.1965-05-29.china-leadership-2
+    when: May 29
+    date: '1965-05-29'
+    thread: china-leadership
+    c: 'Zhou, with Deng Xiaoping, He Long and Chen Yi, receives the Chinese table tennis team for the 28th World Championships and other leading athletes in Beijing, and urges them to keep on: study Mao Zedong Thought and the army, raise thought and skill.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 733 (May 29, 1965). Names: Zhou Enlai, Deng Xiaoping, He Long, Chen Yi.'
+    tags: [name:zhou-enlai, name:deng-xiaoping, name:he-long, name:chen-yi, polity:prc]
+  - id: cal.1965-05-29.china-leadership-3
+    when: May 29
+    date: '1965-05-29'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou, with Chen Yi and Vice Premier Tao Zhu, sees off Subandrio at the Guangzhou airport.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; morning; Guangzhou airport). Names: Zhou Enlai, Chen Yi, Tao Zhu, Subandrio.'
+    src:
+      c: 96d6a1d0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 457: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:tao-zhu, name:subandrio]
+    time_range:
+      - 1965-05-28T22:00Z
+      - 1965-05-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-29.china-leadership-4
+    when: May 29
+    date: '1965-05-29'
+    time: 1965-05-29T12:45Z
+    thread: china-leadership
+    also: [korea, vietnam-hanoi]
+    c: Zhou receives the North Korean and Vietnamese vice foreign ministers who took part in the three-way China–Korea–Vietnam foreign ministers' talks, in Building 18 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; 8:45 p.m., Building 18, Diaoyutai guesthouse). Names: Zhou Enlai.'
+    src:
+      c: c654a2d3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 457: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-30.vietnam-air-war
     when: May 30–June 1
     date: '1965-05-30'
@@ -3391,6 +4422,63 @@ entries:
         - 'via x.1965-06-03.hq-usaf-rpt-stat-sum-or-air: ?'
         - 'via x.1965-07.hist-8th-tfw-jul-dec-65-pp: ?'
         - 'via x.1965.hist-cincpac-1965-vol-ii-p-285: ?'
+  - id: cal.1965-05-30.china-leadership
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    c: 'Zhou reports on the international and domestic situation to the joint session, enlarged, of the NPC Standing Committee''s tenth meeting and the State Council''s 156th plenary meeting, CPPCC standing committee members present. This year''s tasks are more strained than last: production, construction, war preparation, socialist education together. The enemy''s pressure raises our spirit. Control: production, building, war preparation and aid abroad not to expand without limit, or it will be 1958 and above all 1959 again.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 733 (May 30, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-30.china-leadership-2
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    also: [testing]
+    c: Zhou receives and dines those who took part in the second nuclear test and urges them to study Mao Zedong Thought, pool wisdom, avoid pride and go forward.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 733–34 (May 30, 1965). Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-05-30.china-leadership-3
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    also: [indonesia]
+    c: Zhou, with Zhu De, Deng Yingchao and Kang Keqing, receives Arudji Kartawinata, chairman of the Gotong Royong parliament of Indonesia, and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 30, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 31 (May 29–June 12, 1965; Arudji Kartawinata''s visit, May 29 to June 12; Mao, Liu Shaoqi, Zhu De, Zhou and Song Qingling receive him; Mao, on the second Afro-Asian conference: not to invite the U.N. Secretary-General, the Latin Americans as full members or the Soviet Union). Names: Zhou Enlai, Zhu De.'
+    src:
+      c: 91b7b87e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 457: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 31: all'
+    tags: [polity:prc, name:zhou-enlai, name:zhu-de]
+    time_range:
+      - 1965-05-30T11:00Z
+      - 1965-05-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-30.china-leadership-4
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Tsedenbal 泽登巴尔 and Sambuu 桑布 on the fifth anniversary of the Sino-Mongolian treaty of friendship and mutual assistance: friendship and cooperation on Marxism-Leninism and proletarian internationalism, against imperialist aggression, for peace.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 62 (May 30, 1965; printed from *Renmin ribao*, May 31, 1965). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Tsedenbal, Sambuu.'
+    src:
+      c: 04664dc4
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 62: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:mongolia]
+  - id: cal.1965-05-30.china-leadership-5
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: China and North Vietnam sign a highway repair agreement.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 373. Made public: 1992. To check: [[w.cheng-jianguo-yilai-jun-shi]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 373 n.163). See [[cal.1965-05-25.china-leadership]]. Check: the signatories and the place; the book names neither. The entry of June 6 on the first Chinese engineers in North Vietnam names an agreement of May 30 for twelve roads.'
+    src:
+      c: 1e7fc551
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 373: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 373 n.163: all'
+    tags: [polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1965-05-31.europe-and-the-alliance
     when: May 31–June 1
     date: '1965-05-31'
@@ -3519,6 +4607,7 @@ entries:
   - id: cal.1965-05.immigration
     when: May, early
     date: 1965-05
+    at: before 1965-05-01
     thread: immigration
     c: 'Feighan to the White House and the Justice Department: "Every trace of a system under which eligibility for immigration shall be based upon ... place of birth, race or ... nationality is removed immediately," for a worldwide ceiling, the Western Hemisphere within it, of 325,000 a year.'
     n: '[[w.bernstein-guns-or-butter]], 255. To check: Basic Provisions of Mr. Feighan''s Proposal, n.d., Legislative Background, Immigration Law, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 255 n.4). Check: the day. See [[cal.1965-03-03.immigration]]. Names: Feighan.'
@@ -3543,6 +4632,7 @@ entries:
   - id: cal.1965-05.civil-rights-organizations
     when: May, late
     date: 1965-05
+    at: before 1965-05-21
     thread: civil-rights-organizations
     also: [king]
     c: 'Warrenton, Va. King and his advisers on going North. Some against: much left in the South, the North unreceptive, the money from Northern givers at risk. King for it: "this is where our mission is, we have received a calling to come north" (by Norman Hill''s account).'
@@ -3629,6 +4719,7 @@ entries:
   - id: cal.1965-05.conservation
     when: May, late
     date: 1965-05
+    at: before 1965-05-21
     thread: conservation
     also: [transportation]
     c: 'Albany, N.Y. The Legislature takes up bills authorizing, loosely, the Hudson River Expressway, six lanes, 47 miles, and a 3.5-mile connector, "the Rockefeller Spur," through Sleepy Hollow. Rockefeller: a boon to tourism.'
@@ -3641,6 +4732,7 @@ entries:
   - id: cal.1965-05.civil-rights-the-executive-2
     when: May, late
     date: 1965-05
+    at: before 1965-05-21
     thread: civil-rights-the-executive
     c: 'The Oval Office, the wire-service teletype clicking. Johnson to Goodwin: "You did a good job on that voting rights," his first acknowledgment of Goodwin''s authorship. "Now, voting rights are important. But it''s only the tail on the pig, when we ought to be going for the whole hog. ... Now, the whole country''s like one big Prairie View. ... We''ve got the biggest pulpit in the world up here, and we ought to use it to do a little preaching. Why don''t you see what you can do. You''re my regular alter ego."'
     n: '[[w.goodwin-remembering-america]], 342–43 (Goodwin''s account; the start of the Howard address). Check: the day; "In late May" (342). Names: Johnson, Goodwin.'
@@ -3660,3 +4752,63 @@ entries:
     c: Moscow. The Military Council in the Kremlin, 3 to 10 p.m., Brezhnev attending.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 33 (May 31). Made public: 2016. Names: Brezhnev. Check: The record names neither the Council''s members nor its business.'
     tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr]
+  - id: cal.1965-05-31.china-leadership
+    when: May 31
+    date: '1965-05-31'
+    thread: china-leadership
+    c: Zhou attends the Politburo Standing Committee, which hears Yu Qiuli's preliminary ideas for the long-term plan and the Third Five-Year Plan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 734 (May 31, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 620–621 (May 31, 1965; Liu presides at the Politburo meeting, which hears Yu Qiuli on the long-term plan and the preliminary conception of the Third Five-Year Plan; on the third line he asks the planners to think of railway transport, all trunk lines to be double-tracked in places of dense population and large production, and water transport to be developed, the Yangtze above all, and canals such as those of Qin Shihuang dug through; on the labor arrangement he says the education system and the labor system are linked, surplus older workers and new apprentices can do half-work, half-study, to reach the level of a secondary technical school in three or four years, which in forty or fifty years would change the face of the working class; workers are not to be hired at will). Made public: 1996. Names: Zhou Enlai, Yu Qiuli.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-05-31.china-leadership-2
+    when: May 31
+    date: '1965-05-31'
+    time: 1965-05-31T03:00Z
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Zhou receives the UAR film delegation: love of peace needs readiness to fight, or imperialism bullies; a just war must win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 734 (May 31, 1965); [[w.zhou-enlai-waijiao-huodong]], 457–59 (May 31, 1965; 11 a.m., Great Hall of the People; the head of the Egyptian delegation on Islam as a religion of peace; Zhou''s answer, which then runs to a review of China''s century of foreign aggression from 1840 to the revolution of 1911). Names: Zhou Enlai.'
+    src:
+      c: 7e1d4d2b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 734: ?'
+        - 'w.zhou-enlai-waijiao-huodong 457–59: A-B'
+    tags: [name:zhou-enlai, polity:prc, polity:uar]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-31.china-leadership-3
+    when: May 31
+    date: '1965-05-31'
+    thread: china-leadership
+    c: Zhou and Chen Yi hold a social gathering with the envoys of states in China, toasting the growing friendship of the Chinese people and the peoples of all countries.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 459 (May 31, 1965; evening; Beijing). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 050c9e97
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 459: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1965-05-31T11:00Z
+      - 1965-05-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05.china-leadership
+    when: May
+    date: 1965-05
+    thread: china-leadership
+    c: 'Mao writes the poem "Chongshang Jinggangshan" 《水调歌头·重上井冈山》, to the tune "Shuidiao getou": back at Jinggangshan after thirty-eight years.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 63 (May 1965; printed from *Mao Zedong shici ji*, with the manuscript). Made public: *Shikan* 诗刊, Jan. 1976, revised ([[w.jianguo-yilai-mao-zedong]], XVIII, 155 n.3). Names: Mao Zedong. Check: the day; the Wengao gives only May 1965.'
+    src:
+      c: 03f0995b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 63: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-05.china-leadership-2
+    when: May
+    date: 1965-05
+    thread: china-leadership
+    c: 'Mao writes the poem "Jinggangshan" 《念奴娇·井冈山》, to the tune "Niannujiao": thirty-eight years since the fighting there, the place changed.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 64 (May 1965; printed from *Mao Zedong shici ji*, with the manuscript). Made public: by 2023, in *Mao Zedong shici ji* 毛泽东诗词集, the Wengao''s source (Check: the year it first printed the poem). Names: Mao Zedong. Check: the day; the Wengao gives only May 1965.'
+    src:
+      c: 4b84f77a
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 64: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]

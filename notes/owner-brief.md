@@ -664,3 +664,198 @@ On Byrd: "Could we disambiguate the "Byrd" mentions? ... it's not obvious from c
 "Didn't we have an indicator extension plan plotted? IIRC, that plan only spoke to a few indicators of concern to the US. What can we do for our other sovereigns? What indicators can we calendar for them?" (Nov. 15: notes/proposals/foreign-indicators.md written; not yet queued.)
 
 "Put it ahead of the 1969 foundations, after the pilots." (Nov. 15: the foreign indicators queued.)
+
+"Claude, I've shared Kenneth Pollock's Arabs at War, in both a PDF and an EPUB version. (I had hoped the EPUB would make it easier to trace citations for "To check:" runs, but I see that the EPUB conversion is unsystematic enough that might not be much help.) ... Sorry, I sometimes worry that you don't scope the task appropriately. In this context, I usually worry that you will leave out anything that's not currently threaded, or that doesn't touch "politics and policy as seen from Washington." (Is that still in our headline scope, somewhere? I thought I had killed that.) Suppose I told you I wanted everything in here that's within our span and *can* become a calendar entry to become a calendar entry. That's usually what I mean when I give materials to you, or when I give them to a new session. But I see that you're still operating under some blinders I can't see and don't always expect. Is there a gap between that and what ordinarily happens when you set readers on a new work? What's the gap between that instruction and our standard or past practice? How would you have scoped the task if I only gave you the work and told you to read it? If there is a gap, where does it come from? What is its source in your instructions or our repository? And can we purge it?" (Nov. 15: the gap traced to R1, R2, R5, R15, R18 and the batch briefs; amendments proposed, awaiting the owner's ruling. Pollack (Kenneth M. Pollack, *Arabs at War*, 2002) has no card yet.)
+
+"Sorry, Thích Thiện Minh with Taylor ("in Saigon"); the Presidium approving Anadyr, the Cuba deployment ("Moscow's decisions"); Hồ in Moscow; and the southern leaders' assessment sent to Hanoi are matters "with no bearing on politics or policy anywhere"?" (Nov. 15: no; the four rows, of Oct. 28–29, were passed over as not Washington's, before R10 and R18 were written; misfiled in the answer under R18's no-bearing clause. Anadyr since entered from other sources; the other three not in the calendar; the old rows never re-tested.)
+
+"Claude! Claude! I said Hanoi's commemorations and provincial matters stay in! In! What took them out????" (Nov. 15: the owner's ruling of Nov. 12, evening, was "Keep the routine party circulars", answering a question that named the commemorations; the brief of batch 12 added "commemorations and provincial matters are still passed over", which the owner never said, and the readers of batches 12 and 16 passed over 63 documents on it. Struck from the brief; the 63 queued first in C0, item 3a.)
+
+## Nov. 15, 2026: the scope
+
+"Rewrite R1 to "the political and policy histories of covered nations within the calendar's span."
+
+Rewrite R2 to "Every thread is its matter as the nation or state met it."
+
+Do we need to anything else to R2, or anything different, to make it clear that, as you said, "A thread is where an entry is filed, never a filter. If no thread fits, file the entry under the nearest country or region thread and propose a new one; never pass it over"? We're you suggesting we drop R2 altogether, or something else? What should we do?
+
+Sorry, what's the effect of your change to R5? What does R5 say now? What would you have it say?
+
+Agreed on the change to R15, but. I'm not sure about the "repetition" omission now either. Drop it. (Keep the covering note and transmittal.)
+
+Is there anything we could do, or should do, to the individual, imprecisely-dated entries to better sort them? Some entries say "after XX" or "early/mid/late XX" or have other specifying detail that the current arrangement of the calendar simply discards. Could we default to displaying them in "ghost" days, or "follows:" days, at the earliest date implied by their range?
+
+Oof. Yeah, the added limitations in Batches 12, 15, 16 are not great. Yes to the queued briefs, yes to the re-read pass.
+
+Sports, crimes, and the arts without trace in policy stay out, except when they involve principals we're otherwise following for reasons of politics or policy or because I have, by fiat, ruled them in.
+
+(Mao's swims and poetry, Hugo Black's tennis, Bill Douglas fucking around again, Jack Kennedy's tennis and swimming and jogging and horizontal polo (i.e., Kennedy men fucking around again, in both the literal and figurative senses).)
+
+National or other political figures making arts or sports appearances, and sports figures making appearances in national or state political or policy narrative (e.g., Muhammad Ali, the raised fists at Mexico City 1968) should be in already. If they're not, put them in.
+
+Is there anything else in the brief or the wording I need to rule on? Is there anything else I should clarify?
+
+(My apologies to Kenneth Pollack. I must have been thinking of Jackson, or perhaps Frederick.)" (Nov. 15: R1, R2, R15, R18 and R44 rewritten in notes/briefs/reader.md, with rows in its rulings table; CLAUDE.md, notes/guide/brief.md and notes/threads.md to match; the limits of the batch 12, 15 and 16 briefs struck; the re-read pass, the sport-and-arts sweep, Pollack and the year-only dates queued, handoff C0 3b–3e. R2's addition, R5 and the loose-date placement proposed.)
+
+"And yes, please, add the rule that "a brief may quote your rulings but never adds an exclusion of its own, and any exclusion it carries cites your words or comes out."" (Nov. 15: written into notes/briefs/reader.md, the paragraph above R1, with a row in its rulings table; the briefs of batches 15–18 checked: their remaining limits are the span's, the owner's quoted words, or R18 and R50.)
+
+"The MLK thread should drop "and Washington."
+
+Shouldn't it be "sports, crime, and the arts with no trace in *politics or* policy"?
+
+Do we need "political figures in sport and the arts, and sports [and arts?] figures in politics, are entries"? Do we need my "examples . . . in the rule"?
+
+If we already have Ali and the 1968 Olympics, and, separately, Streisand and Bernstein on the war, our readers and drafters already have as much as I'd ask for. Do we have Jack and Jackie and Casals? Do we have Jack flaunting his bad taste?
+
+I confess I don't recognize the missing entries you've named and I don't mind that they're not in. (I'm not a sports guy.)
+
+R2 looks good.
+
+R5 looks good.
+
+I'll take your recommendations for tagging loosely dated entries, but I'm not sure about your recommendations for the display.
+
+By "ghost" days I meant ""days" that aren't days". "after X" shouldn't be on X's day, but an, uh, intercalary day after X's day. "X bis."
+
+The heading of that intercalary "ghost" day/"fake" day, 偽日 (にせび), is the loose date in the heading line. Not in grey, but in ordinary day styling.
+
+For early, middle, and late, divide each month into thirds, and give entry the day *before* the first portion of that third falls on. "Early May" after "May" and before "May 1."
+
+I don't trust my ability to avoid fencepost errors or count hours enough to know what that corresponds to for the second and third moieties of each month, but I do know that "Mid-May"/"Late May" and "Mid-February"/"Late February" probably take different dates.
+
+For seasons, don't we have astronomical seasons that don't line up with the Gregorian months? Put the intercalary seasons on "ghost" days/"fake" days preceding the first day of the astronomical season.
+
+Year alone goes before "January," which is before "early January," which is before "January 1."
+
+Yes to your gloss of "covered nations": "any nation or state whose politics or policy a source we read treats, with the list of nations (sources/polities.yaml) growing as entries need it."
+
+Yes to your read of R2. I didn't know how to phrase it without either including non-U.S. subnational entities that remain out-of-scope or dropping the several States, which have been in from early on.
+
+I think your "covered nations" gloss should keep Alabama in and NRW out—until I decide it's in.
+
+Yes on the span sentence.
+
+Yes on the proposed revision to R10.
+
+Yes to the extension, on the same tests, of R9, R11, and R13 beyond the United States.
+
+Yes to the revision to R14.
+
+Ah. Hm. I would like to keep, or bring back, whatever filter for "private and social matters" or "remarks with no bearing on public business" we have, or we had, and that we've been working towards.
+
+I know I've been pushing the line, because the readers have left too much out, but I think we still need something like the line we've been working towards refining.
+
+But yes, the drafts and the meeting's preparations should be in." (Nov. 15: R1, R2, R5, R9, R10, R11, R13, R14, R18, R44 rewritten; the King thread's scope and statement cut to "Martin Luther King, Jr."; notes/proposals/loose-dates.md written; handoff 3c cut to Casals and the owner's question, 3e to the year-only dates and the intercalary days.)
+
+"Alright, I think your refinement of R18 didn't catch the gist of my examples, which were meant to be indicative and not a closed set. Try again." (Nov. 15: R18 rewritten: a principal's sport, recreation, art and private conduct are entries, the examples marking the kind; "private" narrowed to the routine of a household or a day.)
+
+"By "Douglas fucking around" I meant his foreign travel, writing, and conservation efforts along with his affairs. By "fucking around" I meant "Douglas not doing his job."" (Nov. 15: R18's class restated as what a principal does off the job: sport, recreation, travel, writing, causes, art, private conduct; Douglas's example widened.)
+
+"Family events and health for the principals go in, as your three examples do. (One of the readers dropped Lyndon drinking/refraining from drinking, which should absolutely go in. Michael should absolutely go in!)" (Nov. 15: R18 so amended; Michael Rockefeller already entered, Nov. 19–29, 1961, on a later re-ruling of Smith; the Johnson drinking row not found by search: Reedy on his drinking, Bernstein 5, a lead, the nearest; the principals' family and health rows put first in the re-read pass, handoff 3b.)
+
+"Do we have anything on King's affairs?" (Nov. 15: the FBI's side in, Jan. 1964–Jan. 1965; King's own conduct not: Georgia Davis, Apr. 3–4, 1968, and Coretta King's surgery, Jan. 24, 1968, passed over in Branch's book-check; both put in the re-read pass's first group.)
+
+"Presumably we should get Garrow's King and the FBI too, right? Anything else? What fills out this story?" (Nov. 15: handoff C0 3d2: McKnight and Abernathy held and unread; Church Book III's King study first; the 1977 task force and the HSCA to find; a procurement list.)
+
+"I can't believe I'm shocked by this, given everything I know and everything I've become inured to, but I am. Do we have any sort of record of what Robert and Jack and Johnson made of this? Why did they do it? What were they thinking? What do we know? Who else did the FBI do this sort of thing to? Anything within our span?" (Nov. 15: answered from the calendar's King thread, June 1963–Feb. 1964, and, marked as memory, the literature; the other targets listed, those in the calendar named.)
+
+"Walter Jenkins? The cottager? Did he have a view here? I mean, the FBI's view seems clear enough from what you've told me. King was either a Communist himself, a witting or unwitting agent of Communists, or under Communist influence, right? And it's not like there's nothing there, right? Do tell me if I'm mistaken on either count here. Do we know what Robert and Jack and Lyndon thought of that? Were they really yielding just for the sake of Richard Russell? Do we know? What do we know? I don't want to fall into the temptation either to blacken or to whitewash, but I skeptical that the literature, as you've recalled it, has quite the right read here." (Nov. 15: answered from the calendar's entries, Jan. 1962–Apr. 1964; the Rose Garden warning found in cal.1963-06-22.civil-rights-bill, correcting the earlier answer; the sources that would settle it named.)
+
+"Didn't Hoover also hold ultimate leverage, with the Exner/Giancana matter? Although I suppose that's more of a nuclear response, and a collateral one, than a conventional and direct one, which would make it far harder to use than "agency sources say the Attorney General refused to authorize an investigation, despite King's close working relationship with persons known to be members of the Communist Party," which is both targeted and limited in ways that don't invite collateral attacks or escalation. Is that right?" (Nov. 15: answered from cal.1962-02-26, 02-27, 03-22 and the Levison tap of March 1962; the columns of Nov. 25, 1963 and Apr. 15, 1964 as the conventional register.)
+
+"Please add the list to the threads file. Was there any action taken on Johnson's interest in Communist or foreign influence on King after 1967 or the antiwar movement at large? You say "from memory": Is this not in our calendar? Where would it be, if anywhere? Can you recommend a reading list on the others to pair with the "FBI and King" reading list?" (Nov. 15: the list in notes/threads.md, "Intelligence; Antisubversion", in the calendar and not found; the not-found in notes/leads.md, "Surveillance at home"; the 1967–68 actions found in the Intelligence, King and Opposition to the war threads, the earlier "from memory" withdrawn for them; the companion reading list, handoff C0 3d3.)
+
+"Which Theoharis is this?" (Nov. 15: the card is Theoharis and Cox, *The Boss* (1988), cited once; *From the Secret Files* (1991) behind one To check, no card; *Spying on Americans* (1978) added to the list to procure; handoff 3d3 named precisely.)
+
+"Alright, I believe I've procured you everything on your to-procure list but O'Reilly's Hoover and the Un-Americans. Please check to confirm. Are you able to procure the public items you've listed?" (Nov. 15: all confirmed on the Drive, with Katzenbach and the cards' books besides; the open records reached and their addresses in handoff 3d3; the 1977 task force report and the Ervin hearings not reached.)
+
+"Claude ... can you access case.law?" and "Sorry, you responded to that one in your reply. I sent that after I saw you headed to justia and courtlistener first, which seemed like a waste." and "Please do." (Nov. 15: case.law reached; a line in notes/guide/entries.md, "Markup inside text", and R28's list in the reader's brief: case.law first for every court's opinion.)
+
+"I mean, the Supreme Court should send you to the Library of Congress for most material and the Supreme Court itself for the most recent material, no? Are you blocked from them?" (Nov. 15: neither blocked, save loc.gov's HTML item pages (its JSON and the tile.loc.gov PDFs open); the calendar's 205 U.S. Reports links already the Library's; the guide's line and the reader's brief corrected: the Supreme Court at the Library and the Court, case.law for the lower courts.)
+
+"I believe I've shared the public material you asked for. Do we have everything now? It was a long list, and yet..." (Nov. 15: the task force report and the Ervin hearings with the 1974 staff study on the Drive; the Church volumes better at intelligence.senate.gov; still wanted: the HSCA's King volumes, Burke Marshall's oral history, Garrow's 2019 article and the summaries, O'Reilly's *Hoover and the Un-Americans*.)
+
+"Claude, can you surface the links you're blocked on, inline, in your reply to me? This interface makes it hard for me to copy them from your tool calls. I'd like to just copy and paste them. Try item 3 after you give the links to me." (Nov. 15: the links given; Garrow's 2019 article found open; the 2017–18 release searched, no FBI King file records; the later releases' lists not reached.)
+
+"Could you give me a hyperlinks to each and every other JFK Library oral history we might want to read? Not just for this item, but for anything else in our span. And the same for LBJ Library oral histories." (Nov. 15: notes/oral-histories.md: the 369 citations in the witness registry, 111 persons at the JFK Library and 94 at the LBJ Library, a site-confined search link each, the libraries' sites refusing this host; the full lists wanted for the rest.)
+
+"What would we need to build skeletons for the Near Eastern states, and particularly the Arab states and Israel, in our span?" (Nov. 15: notes/proposals/near-east-skeletons.md; not queued.)
+
+"Claude, I've shared about a third of the oral histories available on the JFK Library website, along with a PDF snapshot of the directory, and a finding aid I just found and haven't read, in both HTML and XML. (I haven't yet read any of the oral histories beyond a skim of the title pages, and I haven't read nearly all of those.) A number of the interviews cited do not appear to be listed on the directory under the name given. They may be available on site or under other names, or I may have missed them. A number of cited interviews listed on the directory are not available on the website, including RFK's own. I've given you a PDF snapshot of the first RFK oral history page to show you the standard "This oral history is not available online" message. I'm not sure I procured everything that's open, wanted, and available, and whether I have everything that's of interest beyond that. Take an inventory, check it against our lists, and tell me what you find." (Nov. 15: notes/oral-histories-jfk-inventory.md; the directory snapshot not found in the folder.)
+
+"There were a number of files on my own HDD that either failed to upload or failed to make their way into the upload folder before the upload. I think I've patched some of the gaps, but there are now a number of duplicates in the shared folder. Could you look over the shared materials again? (And could you prune out the duplicates?) What do we have now?" (Nov. 16: 965 files, 560 JFK interviews and one RFK program interview; 400 byte-identical copies listed in notes/oral-histories-jfk-duplicates.tsv, not removed until the owner says so; notes/oral-histories-jfk-inventory.md redone.)
+
+"Don't we have the RFK OH book?" (Nov. 16: yes; *Robert Kennedy in His Own Words* prints RFK-01 to RFK-08; RFK-09 and -10 not in it; the inventory corrected.)
+
+"JFK OHs not available through the JFKL online: RFK, MLK, EMK. I've shared the others, along with the open OHs of those who share their surnames. (Joseph Rauh's oral history (a duplicate?) has been misfiled under Jack Bell's name.) Please delete the duplicates. I've changed the permission to "editor." I'll give you whatever other permissions you need if you tell me how to give them to you." (Nov. 16: the 400 copies trashed and checked; the 16 new transcripts added to the inventory; the Bell file is Rauh's interview in another file, kept; six of the most-tagged people still without an interview on the Drive.)
+
+"I LOVE GOOGLE PRODUCTS. I LOVE THEM. Are they there now? I've also added an RFK OH folder with the finding aid and page snapshot for the RFK OH collection. Tell me what we should have from there." (Nov. 16: the six there; one new duplicate trashed; notes/oral-histories-rfk-inventory.md: all 266, the cited first.)
+
+"No response to "I LOVE GOOGLE PRODUCTS. I LOVE THEM"?"
+
+"Claude. I had to press "approve once" 400 times for your trash calls to go through. That's partly on Anthropic PBC, but it is a cost I had to bear as a result of Google's architecting and UI choices." (Nov. 16: the rule written into the handoff's way of working: count the approvals first, offer the owner's one-step route.)
+
+"Immediate. The Taylor Branch readers appear to have been much better and more thorough at reading the books' footnotes, matching claims to "To check:" pointers, and filling out the witness graph, than other readers, or than your trial/pilot with DeBenedetti. Is there anything in the Taylor Branch readers' methods that we can adapt and standardize?" (Nov. 16: notes/proposals/notes-pass.md.)
+
+"Approved. Immediate. But tell me what our queue looks like first." (Nov. 16: R3 and R35 amended in the reader's brief; `./bib notes-coverage` written (tools/bib/notescov.py); the re-run queued as handoff C0 3f.)
+
+"First, put 3e at the head of the list, in front of Batch 14 or 15. As a default, layout and design changes take priority over anything token-intensive or complex. Keep 3F as it is, with the other 3 entries and after 3d3. Put Batches 16 and 17 ahead of 3b. Keep 3b through 3f ahead of Batch 18. Put the on-file items and unqueued items at the bottom of the list. The RFK collection, added since last we spoke, should be inventoried and checked against the finding aid. I meant to add all available items. Some aren't available on the site, but I didn't keep a list, and I want to make sure I didn't miss any that are. I believe JFK "flaunting his bad taste," as a general matter, is in under the new inclusion/exclusion rules we worked out. (This was my recollection of material in Sorensen's Kennedy and Reeves's book, but it may not be dateable. It was, in any event, meant as an illustration, not a mandate.)" (Nov. 16, 9:35 a.m. Pacific: answered "Queued.")
+
+"ah, does that mean the queue has been amended as requested, or that "amend the queue" is queued? (an "amend the queue" task takes priority over the items in the queue! immediate!)" (Nov. 16: the queue amended, handoff C0 renumbered 1–20; the rule written into CLAUDE.md, "Working hours", with the layout-first default.)
+(Nov. 17, after 5 p.m.: the queued RFK folder check done: 252 of 266 transcripts in the folder, 13 or 14 missing, listed in notes/oral-histories-rfk-inventory.md.)
+
+"Claude, immediate. Are we asking our reader agents to record reported time-of-day or time-of-day cues, as we do for dates? Along with the location, so we can determine the time zone? Please prepare a standing instruction to that effect if not, and queue a second "time of day"/location pass for patches and batches that went through without one." (Nov. 17, 4:xx p.m. Pacific: R25 amended in the reader's brief, with a row in its rulings table; the pass queued as handoff C0 13b, two tiers.)
+
+"Immediate. 9 isn't a real item. Drop it. Put the notes pass reruns ahead of Pollack. I've added an EPUB of Reeves to the shared folder, which links claims to their citations. Tell me if that makes things easier on a Reeves re-read, if one is in the queue." (Nov. 17: item 9, sport and the arts, dropped; the notes-pass re-runs moved ahead of Pollack, now item 9; Reeves added to them, the EPUB's two-way note links and page anchors noted.)
+
+"I've just shared two files. Are these the Liu Shaoqi and MOFA volumes we were looking for?" (the night of Nov. 17–18, Pacific. They were: *Waijiao dashiji* vol. 2, 1957–64, and *Liu Shaoqi nianpu (1898–1969)*, vol. 2, 1996.)
+
+"Sorry, shouldn't "seasons: which time zone sets them" have an obvious answer? Seasons are intercalary ghost days, so they follow the calendar's own date divisions, right? And those are... Washington time, right? Long meetings: first act's time, but the entry's text or citation block should make that clear. I don't understand the Koleka or Kapo question. I'm not sure I understand what these numbered warnings are, whether the current placement is reasonable, whether an alternative placement is available, and what alternative placements there might be. Fix the 1993/1997 error. Keep the default rule, but correct the visibility where we know otherwise. Add visibility to South Yemen. Keep the inference but make its reasoned basis clear in the citation block. I don't mean to grouse, but how many of these questions were really "waiting for [my] rulings"?" (the night of Nov. 17–18, Pacific, answering the audits' questions of the night.)
+
+"Option 1 with option 3 as a lead, as you recommend." (the night of Nov. 17–18, Pacific: the numbered serious warnings, each year's run a year-dated entry; each warning its own entry from *Renmin ribao* a lead.)
+
+"Has anyone read 77 Conversations for the calendar yet? Are you able to retrieve it? We should tack it on to the end of the China step if so. (Don't block yourself on it if not, though.)" (the night of Nov. 17–18, Pacific.)
+
+"Put it in the next free slot." (the night of Nov. 17–18, Pacific: *77 Conversations*.)
+
+"What have we read for the PRC in our span thus far? What on the drive remains to be read? What are we missing?" and "Have you checked the items on the drive against your hunches?" (the night of Nov. 17–18, Pacific)
+
+"What volumes of Jianguo yilai Liu Shaoqi wengao would we need? Were they on any of our lists?" (the night of Nov. 17–18, Pacific.)
+
+"I've shared a number of the missing items. Tell me whether they should take a spot in our queue. Would the Mao Zedong waijiao wenxuan (1994) or the Mao Wengao (1987–98) actually give us the true "made public" years or "the earliest printing of each document"? Or are they simply "earlier printings"? Is there a better authority for this kind of information? What would the memoirs give us? If they should take any kind of priority here, could you give me their full titles, in unaccented pinyin and 漢字? Sorry, "if they are at all useful", not "if they should take any kind of priority". Speaking of, could we give inline 漢字 after words and phrases given in their Romanized form in the text, such as 分田单干?" (Nov. 18, about 2 a.m. Pacific.)
+
+"(At least on their first appearance.)" (Nov. 18, shortly after 2 a.m. Pacific, added to the request for inline characters, as the next message says.)
+
+"Hm. Internal-circulation printing doesn't count as "made public" for visibility—it's not a "publication" in my understanding of the word—but the earlier printing should be noted next to the "made public"/"publication" date. (If only to preserve optionality in the event that I change my mind.)" (Nov. 18, shortly after 2 a.m. Pacific.)
+
+"Please do give me in-line characters for Romanized terms and phrases given in the text block and citation block. I think the message queuing may have eaten or misplaced this, but I added "(At least on their first appearance.)" to that request. If we can make the CJK appear the first time the word is given on a page, but not the later times, as we do for long titles and short, I would also have us give the CJK for personal and place names." (Nov. 18, shortly after 2 a.m. Pacific.)
+
+"I've shared a number of the memoir items. What does the remainder of the queue for our PRC step look like? What's in, what's out?" (Nov. 18, about 2:25 a.m. Pacific.)
+
+"Could you tell me whether I should sift and retrieve the 毛泽东思想万岁? And what of them? The items seem a bit bibliographically involved. What's here? How many ... volumes? are there? In how many distinct series? (Wuhan, Henan?) Is there a bibliographic standard or convention here, or in the literature? What's worth retrieving and reading for the calendar?" (Nov. 18, about 2:40 a.m. Pacific.)
+
+"Li Zhisui was first written in English? I'll get you that instead if so." (Nov. 18, about 2:45 a.m. Pacific.)
+
+"Bring the Yang Shangkun riji 杨尚昆日记  ahead of the chronologies. Put at least some of the scholarship and Sino-Soviet studies ahead of some of the nianpu. I'd be inclined to put some after Deng and some after Chen Yi." (Nov. 18, about 2:50 a.m. Pacific.)
+
+"Claude, I have to go to sleep. I haven't read your replies to my queued messages "Li Zhisui was first written in English? I'll get you that instead if so" and "Bring the Yang Shangkun riji 杨尚昆日记  ahead of the chronologies. Put at least some of the scholarship and Sino-Soviet studies ahead of some of the nianpu. I'd be inclined to put some after Deng and some after Chen Yi." Please implement my queue request to the best of your ability and judgment. I'll see you later in the morning, after the pause." (Nov. 18, about 2:55 a.m. Pacific.)
+
+"I believe the Bu Weihua is at "砸爛舊世界」  ——文化大革命的動亂與浩劫  (1966-1968)  卜偉華著.pdf" Isn't that what 卜偉華著 means?" (Nov. 18, about 3:35 a.m. Pacific.)
+
+"Immediate. Why are these sorted the way they are?" (Nov. 18, about 10:40 a.m. Pacific; a screenshot of Jan. 8, 1960: the Cuba entry at 11:30 a.m. above the Senate Republicans' Committee on Committees, 10:20 to 11:20 a.m.)
+
+"For the queue. Could we put our locations and (local) times-of-day (approximate) in the top right corner of each entry? I'm thinking we would put it on the same line as the threadlines, "clipping" the threadlines that would run into the time-of-day "dateline" with an ellipsis that, if tapped, reveals the balance of the threadlines. I'm undecided as to whether that "reveal" should (a) keep the right-hand bounding box (and keep the time-of-day dateline where it is), and push the balance of the threadlines into newlines (that likewise keep the right-hand bounding box), or (b) push the time-of-day dateline into a newline, and reveal the balance of the threadlines across the full span of the entry. Show me both. I'm also not sure how to handle the display of local and Washington time. Canvass the different options for me. Show me a preview, with all combinations of our different "kinds of" time-of-day (empty, vague, a variety of different time zones) and threadline lengths, before pushing anything. Feel free to suggest and preview alternative ways of addressing this that I haven't yet thought of. I'm not sure how permanent any of this will be—it might just be a diagnostic/debug tool to surface what dates and times we have and haven't entered already, and how our time-of-day sort is working; given a well-sorted list and well-written entries, the time-of-day dateline is superfluous—so don't block yourself on any design/display/information element of our prototype. This is strictly subordinate to the rest of our design and calendar scheme as it now stands. (In other words, don't get any big ideas about taking datelines out of the body text of our entries just yet, and don't break any of our other design or navigation elements.)" (Nov. 18, about 12:30 p.m. Pacific; queued.)
+
+"For the queue: Put the time-of-day fix pass ahead of the time-of-day display prototype." (Nov. 18, about 12:33 p.m. Pacific; an amendment of the queue, done at once.)
+
+"Make only the year, the prior year or nearest prior year, and the next year or nearest subsequent year  visible on each lowest-level calendar page. That is, 1960H1 should, at the moment, display all of 1960 and all of 1961, but nothing else. Any page for 1962 should display all of 1961, 1962, and 1963. 1972 should display what exists of 1970 and 1976, but nothing else. 1976 should display what exists of 1972, but nothing else. Put this task first, ahead of the missing times pass." (Nov. 18, about 12:55 p.m. Pacific; a screenshot of the calendar page's Contents, Threads: the month grid by year, 1960–63; queued, first.)
+
+"I think it's time to make our citation block a footnote block, and give footnotes to our claims. Footnote numbering to restart with each entry. Tell me if there are any display choices to be made here or edge cases to handle. Prototype and preview the alternatives. Give me a prototype and preview of the change, and tell me what else I need to know, before any PR and merge. In the queue, after the calendar navigation changes and before everything else." (Nov. 18, about 1 p.m. Pacific; queued, second.)
+
+"Make clicking on the year-month-day navigator navigate to the beginning of the relevant span. That is, clicking "1960" would navigate to the first calendar entry in 1960; clicking "January" would navigate to the first calendar entry in January 1960; and clicking "7" would navigate to the first calendar entry on January 7, 1960. No changed styling for the links. They should look as they do now, before, during, and after the navigation. Don't put an explanation of the navigator anywhere a calendar reader might read it. Cut the whole of your explanation from the visibility controls. All of this: "Whose record each claim is, and who knew it. Tap a toggle to cycle it: on, greyed, off. A claim shows in full if any of its tags is on; greyed if none is on and one is greyed; hidden if all are off. A polity's own line sets its public and nonpublic both. An entry not yet mapped claim by claim is filtered as a whole." Cut this too: "Judged at the time: each claim at its own date and the next morning's papers."" (Nov. 18, about 1:30 p.m. Pacific; a screenshot of the sticky header "1960 / January / 7"; queued with the navigation changes, first.)
+
+"Restyle the calendar navigator to indicate what years and months are visible on the current page. I would suggest keeping the bold weight for the current year and plain roman for the visible months, but greying out the months on other pages. Both this and the YMD navigator go with the month-grid change, ahead of the footnotes prototype. Separately, give yourself a standing instruction to update the readme.md before any PR and merge that changes the number of calendar or other human-read pages, because the readme.md entry should list and link to all calendar and other human-read pages. You may want to restyle the table to make this tractable. Keeping all the calendar pages in the top left cell seems unwise now. If you're keeping the column label "what it holds", rename it "contents". Give the repo and PR/merge pass whatever simple tooling/tool call it needs to keep this readme.md number updated: "19,409 entries in 108 threads and 189 subthreads." Your "standing conditions" seem to have migrated to the top-level calendar index page. I don't think they're supposed to be there. They shouldn't have a separate human-readable bucket at all. They're just a kind of calendar entry. They have own qualifying/inclusion threshold, specified in the manual, sure, but they should sit in the calendar with all the others. But anyways. If this isn't yet the standing rule or tooled, then give yourself a standing instruction, or tooling, to rebuild the top-level calendar index before a PR and merge when the number of threads or their names change on any calendar page." (Nov. 18, about 1:50 p.m. Pacific; queued; the standing instructions recorded at once.)
+
+"Give yourself a reminder to drop these from your standing instructions once the automated tooling is operational." (Nov. 18, about 1:55 p.m. Pacific; recorded at once.)
+
+"Immediate. Give me a list of works sorted by their "To check:" citation count. Both in-line in your reply and in a CSV. Give me two sets of lists, one with and one without works already in the shared drive folder." Then: "Sorry, if you're not double-counting, and you're not counting the works citing but only the works cited (i.e., only count the A and not the B in "A (cited by B)"), please include the "cited by" strings in the count." (Nov. 18, about 3:30 p.m. Pacific; answered at once.)

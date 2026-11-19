@@ -228,6 +228,18 @@ entries:
         - 'via x.1961-02-01.mohr-to-malone-rfk-gym: all'
         - 'via x.1961-02-01.mohr-to-edwards-rfk-gym: all'
     tags: [name:kennedy-robert-f, name:hoover-j-edgar]
+  - id: cal.1961-02-01.china
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: china
+    also: [vietnam-hanoi]
+    c: The Vietnamese consulate general at Shanghai is formally opened.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 184 (Feb. 1, 1961).'
+    src:
+      c: 56efb6d4
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
+    tags: [polity:prc, polity:drv]
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -272,6 +284,26 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-02.china-leadership
+    when: Feb. 2
+    date: '1961-02-02'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai revises and approves the Railway Ministry''s Party group''s report on setting up political departments in the railway system and improving its management: the ministry''s new political department means its Party group should become a Party committee, to lead the department and the Party committees at each level; with Liu Shaoqi''s assent.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 389 (Feb. 2, 1961). Made public: 1997. Names: Zhou Enlai, Peng Zhen, Liu Shaoqi.'
+    tags: [polity:prc, name:zhou-enlai, name:peng-zhen, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-02.china
+    when: Feb. 2
+    date: '1961-02-02'
+    thread: china
+    also: [laos]
+    c: 'Peking. A rally of the capital''s people backs the Lao people against U.S. interference and for peace, neutrality, national independence and sovereignty. Chen Yi speaks: Laos''s internal questions are for the Lao people to settle. The way out is for the legitimate government under Prince Souvanna Phouma and the patriotic Neo Lao Hak Xat to unite and put down the revolt of the Phoumi–Boun Oum clique, which the United States aids, and to build an independent, united, harmonious, peaceful and neutral Laos. The Chinese people back it.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 184 (Feb. 2, 1961). Names: Chen Yi, Souvanna Phouma, Phoumi Nosavan, Boun Oum.'
+    src:
+      c: 426419e1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
+    tags: [polity:prc, polity:laos, polity:us, name:chen-yi, name:souvanna-phouma, name:phoumi-nosavan, name:boun-oum-na-champassak]
   - id: cal.1961-02-03.immigration
     when: Feb. 3
     date: '1961-02-03'
@@ -345,6 +377,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-03.china-leadership
+    when: Feb. 3
+    date: '1961-02-03'
+    thread: china-leadership
+    also: [china, africa]
+    c: Zhou Enlai answers by telegram Oginga Odinga, vice chairman of the Kenya African National Union, supporting the just struggle to free Kenyatta.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 3, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 185 (Feb. 3, 1961; Zhou''s cable reply to Oginga Odinga: firm support for the Kenyan people''s and the African peoples'' struggle for liberation, for Jomo Kenyatta, leader of the Kenyan national movement, and for national independence). Names: Zhou Enlai.'
+    src:
+      c: 31c83bbf
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 185: A'
+    tags: [polity:prc, polity:kenya, name:zhou-enlai]
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
@@ -376,13 +421,97 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-04.china-leadership
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai presides at the Secretariat, on the first quarter's grain allotment and cotton buying; during the adjustment he requires the grain ministry to send him the grain purchase, sales, allotment and stock tables on time, and works the arithmetic of grain himself (the long "hada table").
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 389 (Feb. 4, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-2
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador for the 13th anniversary of Ceylon's independence.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 0b77451e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai]
+    time_range:
+      - 1961-02-04T11:00Z
+      - 1961-02-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-04.china-leadership-3
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai attends the cocktail party given by the Commission for Cultural Relations with Foreign Countries and the Ministry of Culture for the Cuban ballet troupe.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 7abbb239
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1961-02-04T11:00Z
+      - 1961-02-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-04.china-leadership-4
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi drafts the Center's comment forwarding three documents of the Henan Party committee and the Luoyang prefectural committee on cashing in the policies. Dismantling the goods taken in the "communist wind" is hard in the one- and two-category teams and meets resistance and much false show; correcting commandism and privilege is hard too, as the Tonghaikou experience shows. For the Center's policies to be honored there must be firm leadership, a full mobilization of the masses and reliance on poor and lower-middle peasants, and after several hard struggles all power must go to the representative assemblies.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 504 (Feb. 4, 1961). Made public: 1996. To check: Henan Party committee''s forwarding of the Luoyang prefectural committee''s two reports on carrying out the Center''s twelve articles; the Luoyang prefectural committee and Lingbao county committee rectification work group''s second bulletin on the Dawang commune''s experience of cashing in policy; the Luoyang prefectural committee''s report on cashing in the twelve articles (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 504 n.2a–c). Names: Liu Shaoqi.'
+    src:
+      c: 5769a47d
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 504: ?'
+        - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2a: A'
+        - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2b: A'
+        - 'via w.shaoqi-liu-shaoqi-nianpu-chronology II, 504 n.2c: A'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1961-02-05.china-leadership
     when: Feb. 5
     date: '1961-02-05'
     thread: china-leadership
     c: 'Hangzhou, evening. Tian Jiaying reports to Mao his inquiry at the Hehe brigade, Weitang commune, Jiaxing county, Zhejiang: rice down from over 400 jin a mu to 291, chiefly the "five winds"; the brigade too big, eleven teams; the members against the mess halls.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961. Made public: 2013. Names: Tian Jiaying, Mao Zedong, Jiang Hua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 40 (Tian Jiaying''s report). Made public: 2013. Check: MacFarquhar has Tian report to Mao on Feb. 6, in Hangzhou, and Mao give seven heads on the rural situation. To check: [[w.bian-mao-zedong-he-tade]], 45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 913–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8b). Names: Tian Jiaying, Mao Zedong, Jiang Hua.'
+    src:
+      c: 7cad5734
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 5, 1961: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 40: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 40 n.8a: A-B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 40 n.8b: A-B'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-05.china-leadership-2
+    when: Feb. 5
+    date: '1961-02-05'
+    thread: china-leadership
+    also: [soviet-union, defense]
+    c: 'Zhou Enlai, answering Khrushchev''s letter of Jan. 12 on the Soviet government''s now being able to give technical aid to production of MiG-21 fighters in China: the Chinese government decides to send a delegation to Moscow in mid-February to settle the details and sign the agreements; making this new fighter in China will help strengthen national defense.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 389 (Feb. 5, 1961). Made public: 1997. Names: Zhou Enlai, Khrushchev.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc+ussr]
+  - id: cal.1961-02-05.china-leadership-3
+    when: Feb. 5
+    date: '1961-02-05'
+    thread: china-leadership
+    c: '*Renmin ribao* 人民日报 prints He Qifang''s 何其芳 preface to *Stories About Not Being Afraid of Ghosts* 《不怕鬼的故事》, as revised by Mao 毛泽东; *Hongqi* 红旗 nos. 3–4 of 1961 carry it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 486–490 (Feb. 5, 1961; notes 1 and 5; the text printed from the paper). To check: He Qifang, preface to *Stories About Not Being Afraid of Ghosts*, *Renmin ribao*, Feb. 5, 1961, and *Hongqi*, 1961, nos. 3–4 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 490 n.5). See [[cal.1961-01-24.china-leadership-4]]. Names: Mao Zedong, He Qifang.'
+    src:
+      c: 09c8f146
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 486–490: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 490 n.5: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1961-02-06.defense
     when: Feb. 6
     date: '1961-02-06'
@@ -491,6 +620,35 @@ entries:
       c: 25be2dac
     tags: [name:kennedy-john-f, name:kennedy-jacqueline, name:clifford-clark]
     short: the restoration begun
+  - id: cal.1961-02-06.china-leadership
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: china-leadership
+    also: [cuba, latin-america]
+    c: Zhou Enlai cables Fidel Castro, Prime Minister of Cuba, inviting him to China.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 6, 1961). Made public: 1997. Names: Zhou Enlai, Castro.'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, name:castro-fidel, vis:only:prc+cuba]
+  - id: cal.1961-02-06.china-leadership-2
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: china-leadership
+    c: Zeng Xisheng, having obtained Mao's and the East China Bureau's permission to give up his Shandong post, returns to Anhui.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 210. Made public: 1997. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 56–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 210 n.12a); [[w.ren-gongheguo-zhongda-shijian-jishi]], 67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 210 n.12b). Names: Mao Zedong.'
+    src:
+      c: 7b3b8090
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 210: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12b: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-06.china-leadership-3
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi receives a Nicaraguan cultural delegation and a Costa Rican cultural friendship delegation. China's enemies in the revolution were imperialism abroad and feudalism, the landlord class and the comprador bourgeoisie at home, chiefly imperialism; the revolution won, the country is building, but is still behind in economy and culture and means to catch up.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 504–505 (Feb. 6, 1961). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:nicaragua, polity:costa-rica, name:liu-shaoqi]
   - id: cal.1961-02-07.king
     when: Feb. 7
     date: '1961-02-07'
@@ -538,6 +696,19 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+  - id: cal.1961-02-07.china-leadership
+    when: Feb. 7
+    date: '1961-02-07'
+    thread: china-leadership
+    c: 'Fengzhui: Zeng Xisheng calls a meeting to hear local reports on the crisis and proposes a responsibility system for farming on the model of the factories'', the team as shop and the field as machine.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 210–11. Made public: 1997. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 56–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 210 n.12a); [[w.ren-gongheguo-zhongda-shijian-jishi]], 67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 210 n.12b).'
+    src:
+      c: 9e72fba5
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 210–11: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12b: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-08.cuba
     when: Feb. 8
     date: '1961-02-08'
@@ -672,6 +843,10 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v24/d14: A-E'
         - 'w.bissell-reflections-of-a-cold 147: B, F-G'
     tags: [name:kennedy-john-f, name:rusk-dean, name:mcnamara-robert-s, name:lemnitzer-lyman-l, name:dulles-allen-w, name:nitze-paul, name:rostow-walt-w, name:bissell-richard-m-jr, name:bohlen-charles-e, name:parsons-j-graham, name:phoumi-nosavan]
+    time_range:
+      - 1961-02-08T19:45Z
+      - 1961-02-08T20:45Z
+    time_zone: America/New_York
   - id: cal.1961-02-08.vietnam-hanoi
     when: Feb. 8
     date: '1961-02-08'
@@ -693,8 +868,38 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-france, africa-algeria-morocco]
     c: 'Hangzhou, the Nanping pool. Mao receives François Mitterrand, senator, president of the UDSR; Hu Yuzhi present. The walls between France and China (ideology, systems, diplomacy, trade) not high, for a time; no relations now, that too for a time; America''s refusal no hurry. Algeria: negotiate as equals; independence recognized and all French troops out, then the million French can live with the eight million Muslims. China''s difficulties can be overcome, given time and peace.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 8, 1961. Made public: 2013. Names: Mao Zedong, Mitterrand, Hu Yuzhi, de Gaulle. Check: whether Mitterrand reported the talk to the French government.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 8, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 15 (Mao to Mitterrand: no famine); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 185 (Feb. 8, 1961; Mao receives Mitterrand, French senator and president of the UDSR; the walls between France and China, of ideology, systems, diplomatic and economic relations, are temporary and the people will pull them down; with Britain there is only half a wall, since it recognizes the People''s Republic but at the U.N. keeps Chiang''s "republic," and ambassadors can be exchanged if it removes that; with France no relations, also temporary, but contacts and trade go on). Made public: 2001. To check: [[w.survey-of-china-mainland]], No. 2439, 21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.30b); [[w.lexpress]], Feb. 23, 1961, 13–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.30c); [[w.new-republic]], Oct. 23, 1961, 17–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.30d). Names: Mao Zedong, Mitterrand, Hu Yuzhi, de Gaulle. Check: whether Mitterrand reported the talk to the French government.'
+    src:
+      c: 5dbae8c0
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 8, 1961: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 15: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 15 n.30b: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 15 n.30c: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 15 n.30d: B'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 185: B, D-E'
     tags: [polity:prc, polity:fr, name:mao-zedong, name:mitterrand-francois, name:de-gaulle-charles, vis:only:prc+fr]
+  - id: cal.1961-02-08.china-leadership-2
+    when: Feb. 8
+    date: '1961-02-08'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai on the United Front Department''s report on the first pardoned war criminals, Puyi, Du Yuming and others: the seven in Peking (Puyi, Du Yuming, Wang Yaowu, Song Xilian, Zhou Zhenqiang, Zheng Tingji, Yang Botao) first to be special members of the Cultural and Historical Materials Committee of the Political Consultative Conference and to study at the Institute of Socialism, pay raised to 100 yuan a month; Puyi may if he prefers stay half-work half-study at the botanical garden, with the same title; four others in Shanghai, Shenyang, Kunming and Nanjing to be given the same title.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 8, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-08.china-leadership-3
+    when: Feb. 8
+    date: '1961-02-08'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi, receiving Paul Wandel, the German Democratic Republic's ambassador to China, says China copied the Soviet Union in the first Five-Year Plan, having no experience. From 1958 it used some methods the Soviet Union did not; 1958 was fast on all sides and the contradictions came out and brought hardship; the way to socialist construction suited to China will be found, by the third and fourth plans.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 505–506 (Feb. 8, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 185–186 (Feb. 8, 1961; Liu receives Wandel, the GDR ambassador; the book has other words of Liu''s: his country is at the front of the struggle against imperialism; Albania, Korea, Vietnam and the GDR stand at the front of the socialist camp and bear more of its tasks, so the whole camp should help them, China helping Korea and Vietnam, which need a large army that is a heavy burden for them. The ambassador is 汪戴尔 in the book (Wandel)). Made public: 1996. Names: Liu Shaoqi.'
+    src:
+      c: a9ff08c2
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 505–506: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 185–186: A'
+    tags: [polity:prc, polity:gdr, name:liu-shaoqi, vis:only:prc+gdr]
   - id: cal.1961-02-09.medicare
     when: Feb. 9
     date: '1961-02-09'
@@ -766,6 +971,21 @@ entries:
     c: 'Brezhnev, off on his first foreign tour, to Africa for ten days. His plane comes under fire from French fighter jets before it reaches Algeria. France: warning shots, the plane off its course; the Soviet Union and Morocco suspect deliberate sabotage.'
     n: '[[w.schattenberg-brezhnev]], 159 (the incident; n.330), 153–54 (the departure by the Presidium''s custom; *Izvestiya*, Feb. 9, 1961, "Schastlivogo puti," 154 n.296). To check: GARF, f. R-7523, op. 78, d. 76 (press survey of the trip to Guinea, Ghana and Morocco), l. 3, 5, 10 (cited by [[w.schattenberg-brezhnev]], 159 n.330). Names: Brezhnev. Check: the work puts the tour "in the January" at 161 and "early 1961" at 159; "before it reached Algeria" for a tour begun in Morocco.'
     tags: [name:brezhnev-leonid, polity:ussr, polity:fr, polity:morocco]
+  - id: cal.1961-02-09.china-leadership
+    when: Feb. 9
+    date: '1961-02-09'
+    time: 1961-02-09T03:40Z
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai receives and gives a luncheon for the Nepalese delegation under Major General P. B. Khatri, Nepal's chief delegate to the boundary joint commission; hopes for friendship on the five principles and a boundary treaty. The next day at the Nepalese reception, Khatri says Nepal's economic plans have succeeded with great help from China, and the two have handled the boundary in Bandung's spirit.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 9, 1961; 上午11时40分, 人民大会堂, 接见并宴请; the Nepalese delegation to the China–Nepal Joint Boundary Committee, led by Maj. Gen. Khatri). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 45044b31
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 390: ?'
+        - 'w.zhou-enlai-waijiao-huodong 303: A'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
     date: '1961-02-10'
@@ -843,6 +1063,71 @@ entries:
     thread: latin-america-dominican-republic
     c: The station suggests that CIA headquarters consider pouching an M3 machine gun.
     n: '[[w.sen-church-alleged-assassination-plots]], 201 (the station officer''s testimony of July 8, 1975, and the station''s cable of Mar. 15). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, station to headquarters, Mar. 15, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 201). See [[cal.1961-02-10.latin-america-dominican-republic]].'
+  - id: cal.1961-02-10.china-leadership
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the reception given by Maj. Gen. Khatri, chief Nepalese delegate to the China–Nepal Joint Boundary Committee.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 10, 1961; 晚上). See [[cal.1961-02-09.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 1ee25a1f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 303: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_range:
+      - 1961-02-10T11:00Z
+      - 1961-02-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-10.china-leadership-2
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi drafts the Center''s comment forwarding the Central-South Bureau''s instruction on Li Li''s report on how Panyu county committee should do its general-front work: in rectifying the communes, besides the key teams, attend at once to the general front, set the policies'' first cashing-in going quickly, raise the masses'' zeal and bring a high tide of preparation for spring plowing.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 506 (Feb. 10, 1961). Footnote 1 (506) gives Li Li as then head of the Central-South Bureau''s Organization Department. Made public: 1996. To check: Central-South Bureau''s instruction on Li Li''s report on Panyu (Fanyu) county committee''s general-front work (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 506). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-10.china-leadership-3
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi sends the Hebei Party committee a report written by a Central Committee General Office staff member after a deep investigation in Hebei, and writes to Liu Zihou, its secretary and the province''s governor: some cadres seal off the Center''s policies from the masses and attend to no production, and go on in lawless acts; where the masses are not set going, nor the policies put to them openly, nothing will change.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 506 (Feb. 10, 1961). The chronology marks it as a second item of the day (△). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-10.china-leadership-4
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi comments on an article in *Gong''an gongzuo jianbao* (Public security work bulletin) 1961 no. 8, on the Hunan Public Security Department''s opinion on handling the Liu Guiyang case: he agrees with it, and suggests the Hunan provincial committee have Zhang Pinghua talk with her himself, encouraging her to report rural conditions to the Center and criticizing her view of the communes and her methods. The Center issues the comment Feb. 14.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 506–507 (Feb. 10, 1961). The chronology marks it as a second item of the day (△). Footnote 2 (506) describes the case: Liu Guiyang, a woman, then a temporary worker at an electric plant in Chen county, Hunan, posted slogans against the communes outside the State Council''s north gate in Peking in Sept. 1960 and was sentenced by the county court to five years; the Hunan department held that the motive was not to overthrow the people''s democratic power and the case could be treated as a matter among the people. Footnote 3 gives Zhang Pinghua as then Hunan first secretary. Neither names a work. Made public: 1996. To check: *Gong''an gongzuo jianbao* 1961 no. 8, the article on the Hunan Public Security Department''s opinion on the Liu Guiyang case; the Center''s document of Feb. 14, 1961 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 506). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-10.china
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china
+    also: [congo]
+    c: 'Liu Shaoqi replies by cable to Gizenga, Deputy Premier of the Republic of the Congo (now the Democratic Republic of the Congo): the Chinese people will give the Congolese people all the aid they can.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 186 (Feb. 10, 1961). Names: Liu Shaoqi, Gizenga.'
+    src:
+      c: 7431f3b0
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 186: all'
+    tags: [polity:prc, polity:congo, name:liu-shaoqi, name:gizenga-antoine]
+  - id: cal.1961-02-10.china-leadership-5
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    c: 'Luo Ruiqing 罗瑞卿, Chief of the General Staff, reports on the troops he has seen at Kunming 昆明, Chengdu 成都, Chongqing 重庆 and Wuhan 武汉: the ''two recollections and three checks'' campaign mostly ending, turning to ''four-good companies'' and ''five-good soldiers''; this year''s rectification in the army chiefly the militia; company management and training to be tightened; soldiers'' baths, haircuts and cooking; some officers'' families with grave problems, for the General Political Department.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 493–494 (Feb. 10, 1961; note 1, the report as the volume gives it). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Luo Ruiqing, "Report of an inspection of the troops in several regions", Feb. 10, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 493 n.1a). Names: Luo Ruiqing. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: 4bd5ba9b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 493–494: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 493 n.1a: all'
+    tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
@@ -877,6 +1162,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-11.china-leadership
+    when: Feb. 11
+    date: '1961-02-11'
+    thread: china-leadership
+    also: [laos]
+    c: 'Zhou Enlai, told that Sihanouk''s proposal of a widened Geneva conference has won more states'' support, writes to him: China holds that if non-interference in Laos and respect for its unity and territorial integrity are truly kept by the states concerned, that will help an international conference and a peaceful settlement of the Laotian question.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 11, 1961). Made public: 1997. Names: Zhou Enlai, Sihanouk.'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
   - id: cal.1961-02-12.opinion
     when: Feb. 12
     date: '1961-02-12'
@@ -884,6 +1177,22 @@ entries:
     also: [desegregation-schools, desegregation-public-places]
     c: 'Gallup, Jan. 12–17, in the South: will whites and Negroes one day share the same schools, restaurants, and public accommodations? 76 percent yes, 19 no.'
     n: '[[w.gallup-poll]], III, 1705.'
+  - id: cal.1961-02-12.china-leadership
+    when: Feb. 12
+    date: '1961-02-12'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai and Deng Yingchao receive Puyi, Pujie and their brother and sister, ask of each one's health, life, study, work and family, and tell them to work on Hiro in life and thought and to see by contradiction that thought has advance and backwardness and needs constant remolding. Told that some of the family would be wary of her, he says wariness is needed but not too much; use her for Sino-Japanese friendship.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 12, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-12.china-leadership-2
+    when: Feb. 12
+    date: '1961-02-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi receives the Nepalese members of the China–Nepal boundary joint committee, headed by Major General Padma Bahadur Khatri. China will never oppress or bully weak small states: the nature of the state and Party forbids it, and a Communist-led state that invaded or oppressed others would be neither Communist nor socialist.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 12, 1961). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:nepal, name:liu-shaoqi, vis:only:prc+nepal]
   - id: cal.1961-02-13.congo
     when: Feb. 13
     date: '1961-02-13'
@@ -963,6 +1272,53 @@ entries:
         - 'w.smith-on-his-own-terms 356: all'
         - 'via x.1961-02-13.rockefeller-to-perkins-feb-13-1961: all'
     tags: [name:rockefeller-nelson, name:bartlett-charles, name:kennedy-john-f]
+  - id: cal.1961-02-13.china-leadership
+    when: Feb. 13
+    date: '1961-02-13'
+    time: 1961-02-13T05:00Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai receives the Soviet–Chinese Friendship Association and four Soviet delegations (economic, science and technology, trade, trade union). Because of last year's grain shortfall, fuel too is a problem and industrial raw materials short; "agriculture is the base of the whole national economy" is quite right.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 303–04 (Feb. 13, 1961; 下午1时, 人民大会堂湖南厅). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 9f83e9da
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 303–04: A'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-13.china-leadership-2
+    when: Feb. 13
+    date: '1961-02-13'
+    time: 1961-02-13T06:20Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai at the rally for the eleventh anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 下午2时20分, 人民大会堂). Names: Zhou Enlai.'
+    src:
+      c: 17f804bd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-13.china-leadership-3
+    when: Feb. 13
+    date: '1961-02-13'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking, the Soviet Embassy. Zhou Enlai attends the reception given by the Soviet Ambassador, Chervonenko, for the 11th anniversary of the Sino-Soviet treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 晚上). Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: 3fc35008
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v]
+    time_range:
+      - 1961-02-13T11:00Z
+      - 1961-02-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-14.state-and-city-finance-wv
     when: Feb. 14
     date: '1961-02-14'
@@ -1020,6 +1376,66 @@ entries:
     c: Special Group, with McNamara, Gilpatric, Bowles, Bundy, Dulles, Bissell and Cabell. Dulles and Bissell brief the new members on the past year's projects. "Dominican Republic—Mr. Bundy asked that a memorandum be prepared for higher authority on the subject of what plans can be made for a successor government to Trujillo."
     n: '[[w.sen-church-alleged-assassination-plots]], 202–3 (the minutes; the findings, 270–71; McNamara recalls no mention of assassination plans, Bissell no detail). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Special Group minutes, Feb. 14, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 203). See [[cal.1961-02-10.latin-america-dominican-republic-2]]. Names: McNamara, Gilpatric, Bowles, Bundy, Dulles, Bissell, Cabell, Trujillo.'
     tags: [name:mcnamara-robert-s, name:gilpatric-roswell-l, name:bowles-chester, name:bundy-mcgeorge, name:dulles-allen-w, name:bissell-richard-m-jr, name:cabell-charles-p, name:trujillo-rafael]
+  - id: cal.1961-02-14.china-leadership
+    when: Feb. 14
+    date: '1961-02-14'
+    thread: china-leadership
+    also: [economy]
+    c: Zhou Enlai at the Secretariat on the supply plan for coal in February and March; on the 6th he had called the vice-premiers and departments on it.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 14, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-14.china-leadership-2
+    when: Feb. 14
+    date: '1961-02-14'
+    thread: china-leadership
+    also: [congo, china]
+    c: 'Zhou Enlai cables Gizenga, Deputy Premier, mourning the murder of Premier Lumumba and praising him highly: the Chinese government and people stand with the Congolese people always.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 186 (Feb. 14, 1961; Zhou''s cable to Gizenga: condolence on the killing of Lumumba and others, and firm support in every way for the Congolese people''s great and just struggle). Made public: 1993. Names: Zhou Enlai, Gizenga, Lumumba.'
+    src:
+      c: 6768894f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 186: A'
+    tags: [polity:prc, polity:congo, name:zhou-enlai, name:gizenga-antoine, name:lumumba-patrice, vis:only:prc+congo]
+  - id: cal.1961-02-14.china-leadership-3
+    when: Feb. 14
+    date: '1961-02-14'
+    thread: china-leadership
+    c: 'Hefei: Zeng Xisheng summons the Anhui secretariat and orders immediate research into responsibility systems; within days he sends four senior colleagues to supervise an experiment at Dushan commune near Hefei, saying he alone will bear responsibility.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 211. Made public: 1997. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.14a); [[w.sichuan-sheng-qing-sichuan]], 290 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.14b). Check: the days after the 14th.'
+    src:
+      c: 8e48b115
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 211: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 211 n.14a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 211 n.14b: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-14.china
+    when: Feb. 14
+    date: '1961-02-14'
+    thread: china
+    also: [congo]
+    c: The Chinese government issues a statement protesting the murder of Lumumba, the Congolese Prime Minister, by the imperialist group and its agents.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 186 (Feb. 14, 1961). See [[cal.1960-12-08.china]]. Names: Lumumba.'
+    src:
+      c: 82e3ec4a
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 186: all'
+    tags: [polity:prc, polity:congo, name:lumumba-patrice]
+  - id: cal.1961-02-14.china-leadership-4
+    when: Feb. 14
+    date: '1961-02-14'
+    thread: china-leadership
+    also: [china]
+    c: 'The Party general branch secretary of a Department of Biology, by a research institute''s poster of June 1966: "It doesn''t matter if a cat is black or is white; so long as it catches the mouse it''s a good cat."'
+    n: '[[w.macfarquhar-maos-last-revolution]], 69. Made public: 1966. To check: Dazibao xuan (Selected Big-Character Posters) (Beijing: Peking University), no. 6(?), cover missing, July 1966, 32 (cited by [[w.macfarquhar-maos-last-revolution]], 69 n.17). Check: the poster''s account only; MacFarquhar (69) has it "allegedly" said, a year before Deng Xiaoping.'
+    src:
+      c: 88236abb
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 69: all'
+        - 'via w.macfarquhar-maos-last-revolution 69 n.17: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-15.latin-america
     when: Feb. 15
     date: '1961-02-15'
@@ -1078,6 +1494,38 @@ entries:
     c: 'New York. CIA officials meet the Dominican dissident leaders again. Proposed at this meeting or that of Feb. 10: poison in Trujillo''s food or medicines, an ambush of his car, an attack with firearms and grenades. The dissidents'' "latest plot": a powerful bomb along the route of his evening walk, set off from a nearby electric device.'
     n: '[[w.sen-church-alleged-assassination-plots]], 198 (the CIA memoranda for the record of Feb. 13 and 16). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA memorandum for the record, Feb. 16, 1961 (cited by [[w.sen-church-alleged-assassination-plots]], 198). See [[cal.1961-02-14.latin-america-dominican-republic]]. Names: Trujillo. Check: which meeting heard the methods and the "latest plot": the report does not say.'
     tags: [name:trujillo-rafael]
+  - id: cal.1961-02-15.china-leadership
+    when: Feb. 15
+    date: '1961-02-15'
+    time: 1961-02-15T04:50Z
+    thread: china-leadership
+    also: [soviet-union, europe-and-the-alliance-federal-republic]
+    c: 'Zhou Enlai receives the East German Ambassador: each socialist state has its difficulties and its strengths, but a common truth is first to rely on oneself and then on brother states; the two parties should keep up an ethic of hard struggle, hardship first, pleasure after, Communists in front in difficulty. China''s difficulty: last year''s grain, cotton and light-industry raw materials fell, affecting light and heavy industry; the next two years'' line is adjusting, consolidating, filling out, raising; long-term trade cannot grow in the next two years, after two or three years mutual aid may be strengthened.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 15, 1961; 中午12时50分, 中南海西花厅; the Chinese economy). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: b1fef075
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
+    tags: [polity:prc, polity:gdr, name:zhou-enlai, vis:only:prc+gdr]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-15.china-leadership-2
+    when: Feb. 15
+    date: '1961-02-15'
+    thread: china-leadership
+    c: 'Mao 毛泽东, early morning, on He Ming''s 何明 article ''Frames? Or guiding principles?'' in *Guangming ribao* 光明日报 of Feb. 11: ''a good article.'' To Chen Boda 陈伯达: who is He Ming? He wrote a fine short piece in the 1957 rectification; Mao had wanted to see him; Chen to have him fly to Canton 广州, with Ai Siqi 艾思奇, Hu Sheng 胡绳, Wang Ruoshui 王若水, Ren Jiyu 任继愈 and Guan Feng 关锋. (He Ming is Guan Feng''s pen name, the editors say.)'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 491–492 (Feb. 15, 1961; Mao''s two comments, the second of the morning of Feb. 15 (二月十五日晨); printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: He Ming (Guan Feng), "Frames? Or guiding principles?", *Guangming ribao*, Feb. 11, 1961, p. 3 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 492 n.1). Names: Mao Zedong, Chen Boda, Ai Siqi, Hu Sheng, Wang Ruoshui, Ren Jiyu, Guan Feng.'
+    src:
+      c: 1841e368
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 491–492: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 492 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+    time_range:
+      - 1961-02-14T21:00Z
+      - 1961-02-15T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-16.latin-america
     when: Feb. 16
     date: '1961-02-16'
@@ -1148,6 +1596,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-16.china-leadership
+    when: Feb. 16
+    date: '1961-02-16'
+    thread: china-leadership
+    c: '*Beijing Wanbao* prints Liao Mosha''s article "''History'' and ''Drama''," asking Wu Han whether historical and dramatic truth differ; the exchange between them follows, and other commentaries on Wu Han''s play.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. To check: [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37a); [[w.mosha-liao-mosha-wenji]], 2, 447 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37b); Liao Mosha, "''History'' and ''Drama,''" [[w.beijing-wanbao]], Feb. 16, 1961, in [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37c).'
+    src:
+      c: f400cda3
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 253: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37c: all'
+    tags: [polity:prc]
   - id: cal.1961-02-17.economy
     when: Feb. 17
     date: '1961-02-17'
@@ -1227,6 +1689,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-17.china-leadership
+    when: Feb. 17
+    date: '1961-02-17'
+    thread: china-leadership
+    also: [china]
+    c: Peking Hotel. Zhou Enlai receives the Burmese Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 17, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4e1df165
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:burma, name:zhou-enlai]
+    time_range:
+      - 1961-02-17T11:00Z
+      - 1961-02-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-18.transition-and-staff
     when: Feb. 18
     date: '1961-02-18'
@@ -1280,6 +1759,43 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 12-CT/TW. The reform of private industry and trade by its higher form basically done; the joint state-private firms to be rearranged, their management reformed, their policies amended, the reformed capitalists, who work and obey in varying measure, further reformed.'
     n: '*Chỉ thị của Ban Bí thư số 12-CT/TW về việc củng cố và đẩy mạnh sản xuất, kinh doanh của các xí nghiệp công tư hợp doanh*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 196–204. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-02-18.china-leadership
+    when: Feb. 18
+    date: '1961-02-18'
+    time: 1961-02-18T06:00Z
+    thread: china-leadership
+    also: [congo]
+    c: Peking. Zhou Enlai at the rally of 100,000 protesting the killing of Lumumba by imperialism and its agents.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午2时, 工人体育场; more than 500,000 in Peking). See [[cal.1961-02-14.china-leadership-2]]. Names: Zhou Enlai, Lumumba.'
+    src:
+      c: e844300b
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
+    tags: [polity:prc, polity:congo, name:zhou-enlai, name:lumumba-patrice]
+    time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: more than 500,000 at the rally, at the Workers' Stadium at 2 p.m.; the entry has 100,000
+        at: '304'
+  - id: cal.1961-02-18.china-leadership-2
+    when: Feb. 18
+    date: '1961-02-18'
+    thread: china-leadership
+    also: [china, africa]
+    c: Peking. Zhou Enlai receives Yusuf Osman Samatar, secretary-general of the Greater Somali League.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午). Names: Zhou Enlai.'
+    src:
+      c: bcac1be7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai]
+    time_range:
+      - 1961-02-18T04:00Z
+      - 1961-02-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
@@ -1287,6 +1803,14 @@ entries:
     c: 'Canton, evening. Chen Boda reports his inquiry and gives Mao the "Notes of an inquiry at some production teams of Guangdong''s communes": the small teams to be called production teams, the accounting units brigades; rich and poor villages forced together to be parted; levelling among teams and members now the question.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961. Made public: 2013. Names: Chen Boda, Mao Zedong.'
     tags: [polity:prc, name:chen-boda, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-19.china-leadership-2
+    when: Feb. 19
+    date: '1961-02-19'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai at the symposium of the People's Political Consultative Conference's committee on literary and historical materials and some of the Central Institute of Literature and History, urging them to write more.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 19, 1961). Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1961-02-20.school-aid
     when: Feb. 20
     date: '1961-02-20'
@@ -1397,10 +1921,31 @@ entries:
   - id: cal.1961-02-20.latin-america
     when: Feb. 20
     date: '1961-02-20'
+    time: 1961-02-20T20:30Z
     thread: latin-america
     c: Rio de Janeiro, 5:30 p.m. Schlesinger, Kennedy's personal representative on the Latin American trip with McGovern's Food for Peace mission, calls with Ambassador Cabot on Lacerda, the governor of the state that includes Rio. The talk, chiefly of the favelas; Lacerda, like the Archbishop, stresses rural reform to hold more of the people on the land. By Schlesinger's journal.
     n: '[[w.schlesinger-journals]], 103–04. Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger, Kennedy, McGovern, Cabot.'
     tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f, name:mcgovern-george, name:cabot-john-m]
+  - id: cal.1961-02-20.china-leadership
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china-leadership
+    also: [economy]
+    c: Zhou Enlai at the enlarged Standing Committee Liu Shaoqi chairs, on farm and industrial output, reporting the plan for adjusting capital construction in the first quarter; before this he twice held capital construction conferences on the plan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 20, 1961). Made public: 1997. Names: Zhou Enlai, Liu Shaoqi.'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-02-20.china
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china
+    also: [congo]
+    c: 'China and the Congo (Stanleyville) issue a joint communique on establishing relations: the two countries formally set up diplomatic relations and will exchange ambassador-level diplomatic representatives.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 20, 1961).'
+    src:
+      c: 90a8a0bc
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: all'
+    tags: [polity:prc, polity:congo]
   - id: cal.1961-02-21.africa
     when: Feb. 21
     date: '1961-02-21'
@@ -1471,6 +2016,26 @@ entries:
       rows:
         - 'w.graham-uncertain-triumph 18: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1961-02-21.china-leadership-2
+    when: Feb. 21
+    date: '1961-02-21'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai with Chen Yi receives the second group of pardoned war criminals and urges them to write memoirs: no embroidery, true to fact, a true report will settle history; there is no new society without old thoughts, begin again and change old habits.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 21, 1961). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
+  - id: cal.1961-02-21.china-leadership
+    when: Feb. 21
+    date: '1961-02-21'
+    thread: china-leadership
+    c: Mao sends Tian Jiaying and Pang Xianzhi down to Canton.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.10). Names: Mao Zedong.'
+    src:
+      c: 5cc0897b
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-02-22.berlin-and-vienna
     when: Feb. 22
     date: '1961-02-22'
@@ -1540,6 +2105,53 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-02-22.china-leadership-2
+    when: Feb. 22
+    date: '1961-02-22'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai revises the Center''s urgent notice on the first quarter''s capital construction plan: industrial targets for January and February under expectation, chiefly from two years of disaster, in part faults in economic work and a front of construction still too long. Except the 855 large and medium projects and schools, dormitories and urgent houses supplied, all other building to stop at once; among the 855 only coal, timber, mining, transport and a few oil and chemical projects to be finished. He adds that stopped units must hold political training and keep works and equipment from waste.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 22, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-22.china-leadership-3
+    when: Feb. 22
+    date: '1961-02-22'
+    thread: china-leadership
+    also: [farm, trade]
+    c: 'At the enlarged Standing Committee that evening Zhou Enlai reports the Planning Commission''s Party group on the 1961 capital construction plan and speaks on grain: the question is the estimate of disaster, which has been too low since last year, so recovery is not quick; this year''s grain imports to rise from 4 million tons to 5 million. Chen Yun speaks on moving workers back to the villages and on the market.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 22, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 22, 1961; Liu presides at the enlarged Standing Committee meeting on the national economic plan, and hears Zhou Enlai on the 1961 capital construction arrangements and the 1961 grain situation). Made public: 1996. Names: Zhou Enlai, Chen Yun.'
+    src:
+      c: f1748298
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 393: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 507: A'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yun, vis:only:prc]
+  - id: cal.1961-02-22.china-leadership-4
+    when: Feb. 22
+    date: '1961-02-22'
+    thread: china-leadership
+    also: [china, middle-east]
+    c: Peking, the UAR Embassy. Zhou Enlai attends the national day reception given by the UAR Ambassador, Taraji.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 22, 1961). Names: Zhou Enlai.'
+    src:
+      c: 09b3be00
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:uar, name:zhou-enlai]
+  - id: cal.1961-02-22.china-leadership
+    when: Feb. 22–Mar. 6
+    date: '1961-02-22'
+    thread: china-leadership
+    c: Peking. The Chinese Academy of Sciences' leading party members group holds an expanded meeting on the draft science programme (fifteen articles, Zhang Jingfu, Du Runsheng and Wu Mingyu) and on the complaints raised at Shanghai's "meeting of immortals" at the end of 1960.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 92. Made public: 1997. To check: [[w.zhanduan-liu-deng-shenxiang]], 1–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 92 n.21a); [[w.chedi-qingsuan-jiu-zhong]], 8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 92 n.21b); [[w.da-pipan-beijing-cailiao]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 92 n.21c).'
+    src:
+      c: 38bd5630
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 92: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 92 n.21c: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-23.conservation
     when: Feb. 23
     date: '1961-02-23'
@@ -1618,6 +2230,26 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 364: all'
       c: 6cc393bc
     tags: [name:kennedy-jacqueline, name:clifford-clark]
+  - id: cal.1961-02-23.china-leadership
+    when: Feb. 23–25
+    date: '1961-02-23'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai at Shenyang, Feb. 23–25, to settle the serious fall of industrial output since January and turn around the Northeast''s and the nation''s: hears the Northeast Bureau on coal and other output, and Song Renqiong, Ouyang Qin and others. On the 25th he reports to the Northeast Bureau''s and Liaoning''s bureau-level cadres and takes the midnight train; on the 26th, on the train, he calls Lü Dong, Lü Zhengcao and Zhang Linzhi on the Northeast''s industry.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 23, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-23.china-leadership-2
+    when: Feb. 23
+    date: '1961-02-23'
+    thread: china-leadership
+    c: Canton. Members of the three investigation teams meet to start drafting regulations for the communes.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.10).'
+    src:
+      c: 56d6c211
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-24.crime-and-hijacking
     when: Feb. 24
     date: '1961-02-24'
@@ -1747,6 +2379,7 @@ entries:
   - id: cal.1961-02-24.latin-america
     when: Feb. 24
     date: '1961-02-24'
+    time: 1961-02-24T21:00Z
     thread: latin-america
     c: 'La Paz, 5 p.m. Schlesinger, for Kennedy, with President Paz Estenssoro. Paz: the Latin American oligarchies resisting change make the revolution more violent when it comes. On Cuba: "Castro must be eliminated"; first the economic screws, then an educational campaign on the Castro regime. Schlesinger: the revolution must be protected from the oligarchy of the right and from "the conspiracy and sabotage of the left." Paz: with assistance he can deal with his local Communist problem. By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 104–06. Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger, Kennedy, Castro.'
@@ -1818,7 +2451,13 @@ entries:
     date: '1961-02-25'
     thread: china-leadership
     c: 'Canton, Jijingkeng. Mao''s meeting with Tao Zhu, Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang and Tian Jiaying: a set of working regulations for the rural communes, drafted by Mar. 10; Tao in charge, Chen deputy, Liao and Tian to write. Communes, brigades and teams all too big; three levels: commune, brigade, team. Peng Zhen''s proposed Party paper on grain not to go: "the center should issue fewer papers."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 25, 1961. Made public: 2013. Names: Mao Zedong, Tao Zhu, Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang, Tian Jiaying, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 25, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 41 (the drafting committee). Made public: 2013. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 915–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.10). Names: Mao Zedong, Tao Zhu, Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang, Tian Jiaying, Peng Zhen.'
+    src:
+      c: 9fb6b2f9
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 25, 1961: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.10: B-C'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, name:chen-boda, name:peng-zhen, vis:only:prc]
   - id: cal.1961-02-26.africa
     when: Feb. 26
@@ -1835,6 +2474,37 @@ entries:
     c: 'Gallup, Feb. 10–15, on "ask what you can do for your country": 63 percent can think of something they could do, 37 cannot.'
     n: '[[w.gallup-poll]], III, 1707.'
     tags: [name:kennedy-john-f]
+  - id: cal.1961-02-26.china-leadership-2
+    when: Feb. 26
+    date: '1961-02-26'
+    thread: china-leadership
+    also: [china]
+    c: 'At the symposium the United Front Work Department holds for democratic party heads and non-Party mayors, Zhou Enlai on the situation: good at home and abroad but with part difficulties; results affirmed to build confidence, no despair or slackening; two years of adjustment; the farm difficulty not foreseen so great, it hits light-industry materials and some heavy industry; this year, thrift, more output, to pass the famine. Tell the nation and friends in the united front the true facts: with facts known, resolve is great and methods right.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 26, 1961). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership
+    when: Feb. 26
+    date: '1961-02-26'
+    thread: china-leadership
+    c: 'Canton. The larger drafting committee for the commune regulations meets: Tao Zhu and Chen Boda, Hu Qiaomu, Liao Luyan, Zhao Ziyang, Deng Liqun, Xu Liqun, Wang Li, Wang Lu, Tian Jiaying and Pang Xianzhi. Mao supervises, not in the chair.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 47 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.13); [[w.bian-mao-zedong-he-tade]], 47 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.15a); [[w.zhongguo-gongchan-dang-lici]], 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.15b); [[w.mengbi-zhongguo-gongchan-dang-liushi]], 526 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.15c). Names: Tao Zhu, Chen Boda, Mao Zedong.'
+    src:
+      c: 07ff4dc5
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.13: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.15a: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.15b: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.15c: C'
+    tags: [polity:prc, name:tao-zhu, name:chen-boda, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership-3
+    when: Feb. 26
+    date: '1961-02-26'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi drafts the Center''s comment forwarding "The experience of the rectification of the communes in Tantian commune, Zhongshan county, Guangdong": spring plowing is at hand or begun, and rectification is to be done in time with production at the center; when plowing starts, see to the plowing first and use the slack between farm jobs for rectification. It is to be carried through by stages and groups, and must not hold up present farm production.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 26, 1961). The commune is printed 坦田. Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1961-02-27.robert-kennedy
     when: Feb. 27
     date: '1961-02-27'
@@ -1890,6 +2560,10 @@ entries:
     c: 'Senate Democrats in conference, Johnson in the chair, 10:10 to 10:35 a.m. Mansfield on four or five White House meetings: "these meetings have been most cordial and most helpful"; the President knows "the line of demarcation" between the branches. He reads the "Must Bills"; in five weeks the Senate has confirmed 14,000 appointments and passed 65 bills. Kerr and Mansfield on adjournment by July 31.'
     n: '[[w.ritchie-minutes-of-the-senate]], 588–91 (the meeting, 588–90; the Leader reads sixteen ''Must Bills'', 589, the program attached lists seventeen items, 590–91; Mansfield''s notes, 591). Names: Johnson, Mansfield, Kerr, Kennedy.'
     tags: [name:johnson-lyndon-b, name:mansfield-mike, name:kerr-robert-s, name:kennedy-john-f]
+    time_range:
+      - 1961-02-27T15:10Z
+      - 1961-02-27T15:35Z
+    time_zone: America/New_York
   - id: cal.1961-02-27.vietnam-hanoi
     when: Feb. 27
     date: '1961-02-27'
@@ -1897,6 +2571,57 @@ entries:
     c: 'The Politburo, Hanoi: resolution no. 13-NQ/TW, on its session of November 1960, the tasks of farm cooperativization in 1961: technique and production, democratic management, the errors of policy corrected, political work; small cooperatives merged only where the members want it, good cadres lead and one core cooperative is sound.'
     n: '*Nghị quyết của Bộ Chính trị số 13-NQ/TW về nhiệm vụ và phương hướng công tác hợp tác hoá nông nghiệp trong năm 1961*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXII, 215–33. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1961-02-27.china-leadership
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Khrushchev to Mao by letter: Soviet domestic food problems and obligations to Eastern Europe and North Korea; the loan of 300,000 tonnes of wheat, 700,000 of rye and 500,000 of Cuban sugar by August.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 25–26. Made public: 1997. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 105–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 26 n.22). Names: Khrushchev, Mao Zedong. Check: [[cal.1961-03-28.china-leadership]] has a CPSU letter of Mar. 21 offering a million tons of grain and 500,000 of sugar, and the Center''s oral answer of Mar. 28.'
+    src:
+      c: 56cf38af
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 25–26: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 26 n.22: all'
+    tags: [polity:prc, polity:ussr, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc+ussr]
+  - id: cal.1961-02-27.china-leadership-2
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    c: Canton. A sub-committee of the drafting committee, Liao Luyan, Tian Jiaying, Wang Lu and Zhao Ziyang, meets for the detailed drafting of the commune regulations; Hu Qiaomu rewrites.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 41. Made public: 1997. To check: [[w.bian-mao-zedong-he-tade]], 47 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.13); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 916 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.14).'
+    src:
+      c: 5373b2f2
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 41: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.13: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 41 n.14: C'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-27.china-leadership-3
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    c: 'Mao 毛泽东 returns to Lin Biao 林彪 Luo Ruiqing''s 罗瑞卿 report of Feb. 10, which Lin sent him Feb. 19: read, very good; each military region to send able men to look into two companies, one good, one bad; Lin to decide. He has toothache these days; the talk with Lin to be fixed in a few days.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 493–494 (Feb. 27, 1961; Mao''s comment of Feb. 27, written on Lin''s letter; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Luo Ruiqing, "Report of an inspection of the troops in several regions", Feb. 10, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 493 n.1a); Lin Biao, letter of Feb. 19, 1961 to Mao Zedong forwarding it (cited by [[w.jianguo-yilai-mao-zedong]], XV, 493 n.1b). See [[cal.1961-02-10.china-leadership-5]]. Names: Mao Zedong, Lin Biao, Luo Ruiqing.'
+    src:
+      c: 621dca66
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 493–494: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 493 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 493 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1961-02-27.china-leadership-4
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    c: 'Lu Dingyi 陆定一, by letter to Mao 毛泽东, on his visit to Xinhui 新会 county, Guangdong 广东: on the 23rd Dang Xiangmin 党向民, the county''s first secretary, told him the communes, unlike land reform and the cooperatives, had no trial points, no concrete rules and loose management; communes are needed and can stand, mess halls too, but of one or two hundred people.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 496–498 (Feb. 27, 1961; note 1, the letter as the volume gives it). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Lu Dingyi, letter of Feb. 27, 1961 to Mao Zedong on visiting the people''s communes of Xinhui county, Guangdong (cited by [[w.jianguo-yilai-mao-zedong]], XV, 496 n.1a). Names: Lu Dingyi, Mao Zedong, Dang Xiangmin. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: 2e21dd56
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 496–498: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 496 n.1a: all'
+    tags: [polity:prc, name:lu-dingyi, name:mao-zedong, vis:only:prc]
   - id: cal.1961-02-28.open-housing-pa
     when: Feb. 28
     date: '1961-02-28'
@@ -2115,6 +2840,7 @@ entries:
   - id: cal.1961-02.crime-and-hijacking-2
     when: Feb., early
     date: 1961-02
+    at: before 1961-02-01
     thread: crime-and-hijacking
     also: [robert-kennedy]
     c: 'Within two weeks of taking office, Robert Kennedy declares "war on crime." A thick book from the Bureau of Narcotics on eight hundred mobsters to the new organized crime task force of lawyers: "Don''t tell me what I can''t do. Tell me what I can do."'
@@ -2154,6 +2880,7 @@ entries:
   - id: cal.1961-02.defense-4
     when: Feb., mid-month
     date: 1961-02
+    at: before 1961-02-10
     thread: defense
     c: 'Hitch''s task force on the strategic retaliatory and continental defense forces, drawing on a WSEG report, completes its draft: speed up both Minuteman and Polaris.'
     n: '[[w.poole-joint-chiefs-of-staff]], 36–37. See [[cal.1961-01-24.defense]]. Names: Hitch.'
@@ -2165,6 +2892,7 @@ entries:
   - id: cal.1961-02.defense-abm
     when: Feb., early
     date: 1961-02
+    at: before 1961-02-01
     thread: defense-abm
     c: 'The Joint Chiefs'' split recommendations to McNamara on Nike-Zeus. Lemnitzer, Burke and Decker for limited production, units deployed by early 1965: "an indispensable element in deterrence," "an urgent requirement." White against a costly and inadequate system; research for "a truly effective" one.'
     n: '[[w.poole-joint-chiefs-of-staff]], 51–52. Names: McNamara, Lemnitzer, Burke, Decker, White.'
@@ -2219,6 +2947,7 @@ entries:
   - id: cal.1961-02.peace-corps
     when: Feb., early
     date: 1961-02
+    at: before 1961-02-01
     thread: peace-corps
     c: 'The task force''s office at the Mayflower. Wiggins of the aid administration, "The Towering Task": a Peace Corps only if large, thousands of volunteers in each of a few countries, 5,000 teachers for the Philippines. Shriver, reading it at night, telegraphs him about 3 a.m.; he comes to the first enlarged meeting of the task force that morning. By Wofford''s account.'
     n: '[[w.wofford-of-kennedys-and-kings]], 253–54. Check: the day. Names: Shriver.'
@@ -2273,6 +3002,7 @@ entries:
   - id: cal.1961-02.intelligence
     when: Feb., early
     date: 1961-02
+    at: before 1961-02-01
     thread: intelligence
     also: [cuba-bay-of-pigs]
     c: 'Dulles''s dinner at the Alibi Club for the new administration''s top men and the agency''s. Bissell, after the cocktails: "I am a man-eating shark."'
@@ -2334,6 +3064,7 @@ entries:
   - id: cal.1961-02.soviet-union-leadership
     when: Feb., after the 9th
     date: 1961-02
+    at: after 1961-02-09
     thread: soviet-union-leadership
     also: [africa]
     c: Morocco. Brezhnev, welcomed by *Pravda* as a "symbol of freedom," talks with the heir Hassan on Soviet successes; Morocco accepts Soviet aid and weapons. King Mohammed V promises to push for the closing of the American air base and to let arms pass to the Algerian rebels.
@@ -2342,6 +3073,7 @@ entries:
   - id: cal.1961-02.soviet-union-leadership-2
     when: Feb., after the 9th
     date: 1961-02
+    at: after 1961-02-09
     thread: soviet-union-leadership
     also: [africa, congo]
     c: 'Guinea. Brezhnev speaks to 20,000 in Conakry and tours the country five days, in Labé and Kankan: no distinction by skin colour; the Soviet Union on the side of the oppressed. Sékou Touré awards him a medal as a "Fighter for Independence." A five-year trade agreement. A joint communiqué condemns Lumumba''s murder as the colonial powers'' treachery, calls for the withdrawal of Belgian troops and an end to the Algerian war.'
@@ -2350,6 +3082,7 @@ entries:
   - id: cal.1961-02.soviet-union-leadership-3
     when: Feb., after the 9th
     date: 1961-02
+    at: after 1961-02-09
     thread: soviet-union-leadership
     also: [africa]
     c: Ghana. Brezhnev meets Nkrumah, who proves the most open to the Soviet overtures and accepts a return invitation for the summer of 1961. Brezhnev promises 80 million dollars in loans and technological and military help.
@@ -2363,3 +3096,148 @@ entries:
     c: Morocco. Brezhnev ends his African tour with a second visit to King Mohammed V.
     n: '[[w.schattenberg-brezhnev]], 160 (n.343). Names: Brezhnev, Mohammed V. Check: the day.'
     tags: [name:brezhnev-leonid, polity:ussr, polity:morocco]
+  - id: cal.1961-02-28.china-leadership
+    when: Feb. 28
+    date: '1961-02-28'
+    time: 1961-02-28T08:00Z
+    thread: china-leadership
+    also: [japan, trade]
+    c: Zhou Enlai receives the Japanese economic friendship delegation under Yamamoto Kumaichi and the friendly firms' trade delegation. Yamamoto's apology belongs to the past, both look ahead; Japan's people seek a peaceful, independent, neutral and democratic road, which China supports; a few want to restore the old militarist road, which China notes; China will never expand when strong; relations rest on the peoples' friendship, and without diplomatic relations China all the more widens exchange of peoples.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 下午4时, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 28, 1961; Zhou to Yamamoto Kumaichi (山本熊一) and the friendly firms'' delegation: Japan''s road of heavy militarism has no future; a choice of peace, independence, neutrality and democracy has the Japanese people''s approval and lets China and Japan be friends; the three political principles and the three principles of trade both come from the wish for friendship; until diplomatic relations are restored and no government agreement can be signed, there are exchanges between the peoples). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: b5616b47
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 394: ?'
+        - 'w.zhou-enlai-waijiao-huodong 304: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: A, C, F'
+    tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-28.china-leadership-2
+    when: Feb. 28
+    date: '1961-02-28'
+    thread: china-leadership
+    also: [soviet-union, farm, cuba]
+    c: Zhou Enlai with Chen Yun, Chen Yi, Ye Jizhuang, Yao Yilin and Chen Guodong on Khrushchev's letter to Mao of Feb. 27, which offers a loan of 1 million tons of grain and 500,000 tons of Cuban sugar.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961). Made public: 1997. Names: Zhou Enlai, Chen Yun, Chen Yi, Mao Zedong, Khrushchev.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yun, name:chen-yi, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1961-02-28.china-leadership-3
+    when: Feb. 28
+    date: '1961-02-28'
+    thread: china-leadership
+    also: [china, japan, trade]
+    c: Peking. Zhou Enlai attends the banquet given by Liao Chengzhi for the Japanese economic friendship delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 4779056b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 304: all'
+    tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1961-02-28T11:00Z
+      - 1961-02-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02.china-leadership
+    when: Feb., early
+    date: 1961-02
+    at: before 1961-02-01
+    thread: china-leadership
+    c: The Canadian Minister of Agriculture announces that 750,000 tonnes of wheat and 260,000 tons of barley, about £20 million, will go to China in the next few months.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 25. To check: [[w.new-york-times]], Dec. 30, 1960 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.18a); [[w.times-london]], Feb. 3, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.18b); [[w.new-york-times]], Oct. 15, 1960 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.18c).'
+    src:
+      c: 7339859c
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 25: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.18a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.18b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.18c: all'
+    tags: [polity:prc, polity:canada]
+  - id: cal.1961-02.china-leadership-2
+    when: Feb.
+    date: 1961-02
+    thread: china-leadership
+    c: 'The first grain ships dock in Chinese ports: 500,000 tonnes arrive in the first quarter, 1.65 million in the second, for Peking, Shanghai, Tianjin, Liaoning and the worst-hit areas.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 27. Made public: 1997. To check: [[w.dangdai-zhongguode-liangshi-gongzuo]], 123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 27 n.34).'
+    src:
+      c: 0c99ed7e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 27: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 27 n.34: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02.china-leadership-3
+    when: Feb.
+    date: 1961-02
+    thread: china-leadership
+    c: 'The Secretariat approves the Culture and Education Small Group''s statement for 1961: rural students over 16 not above 2 per cent of the rural labor force; primary education by differences between town and country; quality the first task in higher education. Lin Feng leads a team to Peking University on the drafting of the Sixty Articles on Higher Education.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 103–104. Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-jiaoyu]], 285, 288–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80a); [[w.zhongguo-jiaoyu-nianjian-1949]], 93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80b); [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 104 n.83). Check: the day.'
+    src:
+      c: d57c4543
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 103–104: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 103 n.80a: A-C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 103 n.80b: A-C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 104 n.83: D'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02.china-leadership-4
+    when: Feb.
+    date: 1961-02
+    thread: china-leadership
+    c: The People's Daily says editorially that the collective leadership of the party committee cannot replace the day-to-day administration of an enterprise.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 87. To check: [[w.andors-chinas-industrial-revolution]], 69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 87 n.88). Check: the day.'
+    src:
+      c: f67d4c43
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 87: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 87 n.88: all'
+    tags: [polity:prc]
+  - id: cal.1961-02.china-leadership-5
+    when: Feb.
+    date: 1961-02
+    thread: china-leadership
+    also: [soviet-union]
+    c: Li Xiannian leads the Chinese delegation to the Albanian Party of Labour's Fourth Congress; passing through Moscow, he hears Kozlov on the Soviet-Albanian quarrel, answers that he has no authority to speak, urges the large view, and that both delegations be guests; in Tirana he praises the Albanian party's "correct leadership" but counsels against a rupture with the Russians, sitting in "stony silence" at the delegates' enthusiasm.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 125–126. Made public: 1997. To check: [[w.griffith-albania-and-the-sino]], 73 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 125 n.33); [[w.artful-albanian]], 244 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 125 n.34); [[w.beschloss-crisis-years]], 584 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 125 n.35); [[w.xiao-chushi-sulian-banian-ambassador]], 106–09 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 125 n.36a); [[w.macfarquhar-origins-of-the-cultural]], II, 276–78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 125 n.36b). Names: Li Xiannian, Kozlov. Check: the days.'
+    src:
+      c: 9d0183b3
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 125–126: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 125 n.33: A, C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 125 n.34: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 125 n.35: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 125 n.36a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 125 n.36b: B'
+    tags: [polity:prc, polity:albania, polity:ussr, name:li-xiannian, name:kozlov-frol-r, vis:only:prc+ussr]
+  - id: cal.1961-02-28.china
+    when: Feb. 28
+    date: '1961-02-28'
+    thread: china
+    also: [africa]
+    c: Bamako. China and Mali sign a trade and payments agreement. China agrees to give Mali long-term loans.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 28, 1961).'
+    src:
+      c: f62e420e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: all'
+    tags: [polity:prc, polity:mali]
+  - id: cal.1961-02.china-leadership-6
+    when: Feb.
+    date: 1961-02
+    thread: china-leadership
+    c: The People's Literature Press 人民文学出版社 publishes *Stories About Not Being Afraid of Ghosts* 《不怕鬼的故事》, compiled at Mao's 毛泽东 proposal by the Academy of Sciences' Literature Institute 中国科学院文学研究所, with He Qifang's 何其芳 preface.
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 489 (Feb. 1961; note 1). See [[cal.1961-01-24.china-leadership-4]]. Names: Mao Zedong, He Qifang. Check: the day.'
+    src:
+      c: 243cc30c
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 489: all'
+    tags: [polity:prc, name:mao-zedong]
+  - id: cal.1961-02.china-leadership-7
+    when: Feb.
+    date: 1961-02
+    thread: china-leadership
+    c: 'Mao 毛泽东 writes a seven-character quatrain, ''Inscribed on a photograph of militia women'' 为女民兵题照: China''s daughters love arms, not silks.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 495 (Feb. 1961; printed from *Mao Zedong shici ji*). Made public: by 2023 (the volume prints it from *Mao Zedong shici ji*). Names: Mao Zedong. Check: the day, and when the poem was first printed; the volume gives no note.'
+    src:
+      c: a83cb91c
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 495: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]

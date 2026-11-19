@@ -63,8 +63,21 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao to Khrushchev, answering his letter of Jan. 23: China will send Kang Sheng, Liu Xiao, its Ambassador, and Wu Xiuquan to the Warsaw Treaty''s Political Consultative Committee, as observers.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 1, 1960. Made public: 2013. Names: Mao Zedong, Khrushchev, Kang Sheng, Liu Xiao, Wu Xiuquan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 1, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 29–30 (Feb. 1, 1960; printed from the original in the Central Archives). Made public: 2013. Names: Mao Zedong, Khrushchev, Kang Sheng, Liu Xiao, Wu Xiuquan.'
+    src:
+      c: 1ac05ee1
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 1, 1960: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 29–30: A'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:khrushchev-nikita-s, name:kang-sheng, vis:only:prc+ussr]
+  - id: cal.1960-02-01.china-leadership-2
+    when: Feb. 1
+    date: '1960-02-01'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi receives all the delegates of the minority-nationality visiting groups from Tibet, Xinjiang and other regions.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 477 (Feb. 1, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1960-02-02.states-and-cities
     when: Feb. 2
     date: '1960-02-02'
@@ -162,6 +175,14 @@ entries:
       - 1960-02-03T15:29Z
       - 1960-02-03T16:02Z
     time_zone: America/New_York
+  - id: cal.1960-02-03.china-leadership
+    when: Feb. 3
+    date: '1960-02-03'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou Enlai to Phạm Văn Đồng, Premier of the DRV, by letter: the Chinese government welcomes a Vietnamese military land-reclamation delegation in Peking in the last ten days of February, to settle with the Agricultural Reclamation Ministry the question of Vietnamese military farms, and to sign the agreement.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 287 (Feb. 3, 1960). Made public: 1997. Names: Zhou Enlai, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
   - id: cal.1960-02-04.school-aid
     when: Feb. 4
     date: '1960-02-04'
@@ -217,6 +238,43 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 296: A'
     tags: [name:mikoyan-anastas]
     short: Mikoyan in Havana
+  - id: cal.1960-02-04.soviet-union
+    when: Feb. 4
+    date: '1960-02-04'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow. The Warsaw Treaty states'' summit, with Chinese observers. By the Chinese delegation''s report as Wu Lengxi gives it, Khrushchev blames China for the Indian border conflict and the Dalai Lama''s flight: they cost the Indian Communists Kerala and bred distrust of socialist states in South and Southeast Asia. He says he does not believe India the aggressor and will not study the details.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 250–251; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 132 (Feb. 3–8, 1960; Liu Xiao and Wu Xiuquan attend as observers; the Chinese statement for general disarmament and that China is bound by no agreement made without its signature). Made public: 1999. See [[cal.1960-02-10.china-leadership]]. Names: Khrushchev. Check: the account is the delegation''s, at second hand.'
+    src:
+      c: 91f4c2b8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 250–251: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 132: B'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania]
+  - id: cal.1960-02-04.soviet-union-2
+    when: Feb. 4
+    date: '1960-02-04'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the reception after the Warsaw Treaty summit. Khrushchev, after some drink, on those who want the USSR to lead: it can give neither bread and butter nor moral and political support; communism is only a form, its content bread and butter. China''s "led by the USSR" is meant to watch him err and criticize; an old man not wise is a pair of old galoshes, thrown in a corner. "Now we go our own road." By the delegation''s report as Wu gives it.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 251–252. Made public: 1999. See [[cal.1960-02-04.soviet-union]]. Names: Khrushchev. Check: the day: Wu places the remarks at the reception of the summit and gives no separate date.'
+    src:
+      c: 91f645cb
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 251–252: all'
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania]
+  - id: cal.1960-02-04.china-leadership
+    when: Feb. 4
+    date: '1960-02-04'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Chen Yi, Vice-Premier and Foreign Minister, at the Ceylonese ambassador''s reception for Ceylon''s twelfth independence anniversary: the five principles and the Bandung spirit will break the dark cloud and bring Asian–African unity closer. The Chinese people will back the Cuban people against foreign interference.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 132 (Feb. 4, 1960). Names: Chen Yi. Check: the Ceylonese ambassador is 伯拉瓦特 in the book.'
+    src:
+      c: baf6b635
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 132: all'
+    tags: [polity:prc, polity:ceylon, polity:cuba, name:chen-yi]
   - id: cal.1960-02-05.voting-rights
     when: Feb. 5
     date: '1960-02-05'
@@ -263,6 +321,33 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 183-CT/TW on statistical surveys. After five years of planning the leadership still knows the economy incompletely, late and inexactly; the surveys to be strengthened, the branches and Party committees to take part.'
     n: '*Chỉ thị của Ban Bí thư số 183-CT/TW về việc tăng cường công tác điều tra thống kê*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 63–66. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-02-05.china-leadership
+    when: Feb. 5
+    date: '1960-02-05'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Nehru to Zhou Enlai, by letter: he asks Zhou to come to Delhi for talks in the second half of March.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 287 (Feb. 5, 1960). Made public: 1997. Names: Nehru, Zhou Enlai.'
+    tags: [polity:prc, polity:india, name:nehru-jawaharlal, name:zhou-enlai, vis:only:prc+india]
+  - id: cal.1960-02-05.china-leadership-2
+    when: Feb. 5
+    date: '1960-02-05'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi''s comment on the All-China Women''s Federation''s request to print records of talks by Mao Zedong, Liu and other leaders: the Center has repeatedly forbidden printing records of leaders'' talks they have not reviewed. Comrades who hear a leader are to think it over and, if it is right and important, put it in their own words and discuss it; less appeal to authority, more free discussion.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 477–478 (Feb. 5, 1960). Made public: 1996. Names: Liu Shaoqi, Mao Zedong.'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-02-05.china
+    when: Feb. 5
+    date: '1960-02-05'
+    thread: china
+    c: 'Zhang Yuzhe, head of the Chinese Astronomical Society''s council, to Oort, president of the International Astronomical Union: strong protest at the Union''s taking in the Chiang Kai-shek clique''s "Chinese Astronomical Society" as a member, which follows the U.S. plot of "two Chinas". The Chinese Society withdraws at once from the Union and all its committees and refuses all dealings with them.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 132 (Feb. 5, 1960). Names: Chiang Kai-shek.'
+    src:
+      c: 7f9838d1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 132: all'
+    tags: [polity:prc, polity:roc, polity:us, name:chiang-kai-shek]
   - id: cal.1960-02-06.vietnam-hanoi
     when: Feb. 6
     date: '1960-02-06'
@@ -270,6 +355,26 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 184-CT/TW. Economic contracts, binding as state discipline, between the state enterprises and the state agencies, for production, supply, sale, transport and building: a tool of planning and of economic accounting.'
     n: '*Chỉ thị của Ban Bí thư số 184-CT/TW về việc áp dụng chế độ hợp đồng kinh tế giữa các xí nghiệp quốc doanh và các cơ quan Nhà nước*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 67–69. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-02-06.china-leadership
+    when: Feb. 6–10
+    date: '1960-02-06'
+    thread: china-leadership
+    also: [china]
+    c: 'Hainan Island, Feb. 6–10. Zhou Enlai inspects Yulin naval base, an overseas Chinese farm, works at Wenchang, the Xilian rubber farm and the tropical crops institute. On the 10th, to the Hainan Party committee: a dry meal a day for all villagers by 1962; 4 to 5 billion jin of grain in 1962, 6 billion in 1964; a start on 100,000 tons of iron; a youth army of 100,000 city middle-school students.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 287 (Feb. 6, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-06.china-leadership-2
+    when: Feb. 6
+    date: '1960-02-06'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Chen Yi, talking with Danish journalists on the Sino-Indian boundary: all China''s views are in the government''s note of Dec. 26, 1959; China sought a meeting of the two premiers. India has taken a passive attitude, and China expects India to delay for a time, as Nehru again said he was unwilling to meet. China will wait patiently, cannot force it, did not start the dispute, and wishes to keep friendship with Nehru, the Indian government and the Indian people.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 6, 1960). Names: Chen Yi, Nehru. Check: the two journalists are 安升达 and 纽斯太德 in the book; whether the talk was published at the time.'
+    src:
+      c: c9cfd9d7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 133: all'
+    tags: [polity:prc, polity:india, name:chen-yi, name:nehru-jawaharlal]
   - id: cal.1960-02-07.program
     when: Feb. 7
     date: '1960-02-07'
@@ -335,6 +440,14 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 167: all'
     tags: [name:kennedy-john-f, name:campbell-judith]
+  - id: cal.1960-02-07.china-leadership
+    when: Feb. 7
+    date: '1960-02-07'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi receives all the delegates to the 17th congress of the All-China Students' Federation.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478 (Feb. 7, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1960-02-08.sit-ins
     when: Feb. 8
     date: '1960-02-08'
@@ -516,7 +629,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Canton. Kang Sheng reports to Mao on the Warsaw Treaty meeting of Feb. 4 at Moscow, attended with Liu Xiao and Wu Xiuquan as observers (Khrushchev''s new cut in forces, his stand for the summit, the Declaration). Feb. 11, the Xiaodao guesthouse: Kang reports again to Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Li Fuchun, He Long, Nie Rongzhen, Luo Ruiqing, Chen Boda and others; the afternoon, the questions it raises discussed.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 10, 1960, and note 12. Made public: 2013. Names: Kang Sheng, Mao Zedong, Liu Xiao, Wu Xiuquan, Khrushchev, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Li Fuchun, He Long, Nie Rongzhen, Tan Zheng, Luo Ruiqing, Chen Boda, Ke Qingshi, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Yang Shangkun, Hu Qiaomu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 10, 1960, and note 12. [[w.zhou-enlai-nianpu-1949]], II, 287–88, Feb. 11, 1960 (Zhou present at Mao''s meeting on Kang Sheng''s report of the Warsaw meeting). Made public: 1997. Names: Kang Sheng, Mao Zedong, Liu Xiao, Wu Xiuquan, Khrushchev, Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Li Fuchun, He Long, Nie Rongzhen, Tan Zheng, Luo Ruiqing, Chen Boda, Ke Qingshi, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Yang Shangkun, Hu Qiaomu.'
+    src:
+      c: d16b87bf
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 10, 1960, and note 12: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 287–88, Feb. 11, 1960: C'
     tags: [polity:prc, name:kang-sheng, name:mao-zedong, name:khrushchev-nikita-s, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:he-long, name:nie-rongzhen, name:luo-ruiqing, name:chen-boda, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
   - id: cal.1960-02-11.testing
     when: Feb. 11
@@ -554,6 +672,21 @@ entries:
         witness: w.carson-in-struggle
         reads: On February 10, Hampton, Virginia, became the first community outside North Carolina to experience student sit-ins
         at: '11'
+  - id: cal.1960-02-11.china-leadership
+    when: Feb. 11
+    date: '1960-02-11'
+    thread: china-leadership
+    c: Zhou Enlai to Canton; talks with Deng Xiaoping.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 287 (Feb. 11, 1960). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-02-11.china-leadership-2
+    when: Feb. 11
+    date: '1960-02-11'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi presides at the Politburo meeting. It takes up the Education Ministry Party group''s reports on the titles and duties of college teachers and their treatment, and on 1960 pay for full-day primary and middle school teachers (both issued Mar. 7). It hears Li Weihan and Xu Dixin of the United Front Work Department on the second congress of the China Democratic National Construction Association and the third congress of the All-China Federation of Industry and Commerce. Liu: most of the bourgeoisie are willing to be remolded; as they draw close, the Party will relax toward them in thought, work, living and political care, and keep them to the end.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478 (Feb. 11, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-02-12.sit-ins
     when: Feb. 12
     date: '1960-02-12'
@@ -598,8 +731,36 @@ entries:
     date: '1960-02-12'
     thread: china-leadership
     c: Canton. Lin Biao and others report to Mao on the enlarged meeting of the Military Commission; Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Nie Rongzhen, Tan Zheng, Luo Ruiqing present.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 12, 1960. Made public: 2013. Names: Mao Zedong, Lin Biao, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Nie Rongzhen, Tan Zheng, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 12, 1960. [[w.zhou-enlai-nianpu-1949]], II, 288, Feb. 12, 1960 (Zhou present at the report, after the reception of the delegates). Made public: 1997. Names: Mao Zedong, Lin Biao, Zhou Enlai, Deng Xiaoping, Peng Zhen, He Long, Nie Rongzhen, Tan Zheng, Luo Ruiqing.'
+    src:
+      c: 5fafa94d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 12, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 288, Feb. 12, 1960: B'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:he-long, name:nie-rongzhen, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-02-12.china-leadership-2
+    when: Feb. 12
+    date: '1960-02-12'
+    thread: china-leadership
+    c: Zhou Enlai accompanies Mao in receiving the delegates to the Military Commission's enlarged meeting; a group photograph.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 288 (Feb. 12, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-02-12.china-leadership-3
+    when: Feb. 12
+    date: '1960-02-12'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi receives the delegates to the second congress of the China Democratic National Construction Association and the third congress of the All-China Federation of Industry and Commerce, and talks with their leaders Huang Yanpei, Chen Shutong, Sheng Pihua, Hu Ziang, Sun Qimeng, Hu Juewen and Shi Fuliang. Some fear the government will not look after the industrialists. Liu: those who accept remolding, work for the state and cooperate with the Party will be looked after in livelihood to the end; they must also advance in thought.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478–479 (Feb. 12, 1960). Footnotes 1–3 (478) give the posts of Chen Shutong (chairman, Federation of Industry and Commerce), Sheng Pihua, Hu Ziang, Sun Qimeng (vice-chairmen of the Association and of the Federation) and Hu Juewen, Shi Fuliang (vice-chairmen of the Association). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1960-02-12.china-leadership-4
+    when: Feb. 12
+    date: '1960-02-12'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi receives Zdeněk Fierlinger, chairman of the Czechoslovak National Assembly.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 479 (Feb. 12, 1960). The chronology marks it as a second item of the day (△). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:czechoslovakia, name:liu-shaoqi]
   - id: cal.1960-02-13.testing
     when: Feb. 13
     date: '1960-02-13'
@@ -672,6 +833,51 @@ entries:
         - 'w.meier-core 102: all'
         - 'via w.meier-core 102 n.4a: all'
         - 'via w.meier-core 102 n.4b: all'
+  - id: cal.1960-02-13.china-leadership
+    when: Feb. 13
+    date: '1960-02-13'
+    thread: china-leadership
+    c: Zhou Enlai to Conghua.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 288 (Feb. 13, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-13.china-leadership-2
+    when: Feb. 13, 15, 17, 18
+    date: '1960-02-13'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi presides at the Politburo meetings. They hear in turn Bo Yibo on industrial production, Li Xiannian on finance and trade, Liao Luyan on agriculture, Sun Zhiyuan on strengthening the management of materials, Liu Ningyi on trade-union work, Hu Yaobang on the Youth League and Cai Chang on women's work.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 479 (Feb. 13, 15, 17, 18, 1960); [[w.jianguo-yilai-mao-zedong]], XV, 42–43 (the State Economic Commission Party group''s outline of Feb. 13 for its oral report to the Politburo on industrial and transport production in January and early February; the day of the report not given). Footnotes 1–2 (479): Sun Zhiyuan, vice-chairman of the State Economic Commission; Liu Ningyi, chairman of the All-China Federation of Trade Unions. The chronology does not say which report on which day. Check: Sun Zhiyuan here and the kja entry (Third Ministry of Machine Building, from 1963). Made public: 1996. Names: Liu Shaoqi, Bo Yibo, Li Xiannian, Sun Zhiyuan.'
+    src:
+      c: 04b57f1b
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 479: ?'
+        - 'w.jianguo-yilai-mao-zedong XV, 42–43: B'
+    tags: [polity:prc, name:liu-shaoqi, name:bo-yibo, name:li-xiannian, name:sun-zhiyuan, vis:only:prc]
+  - id: cal.1960-02-13.china-leadership-3
+    when: Feb. 13
+    date: '1960-02-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhu De and Chen Yi receive the whole Soviet–Chinese Friendship Society delegation, led by the Society's council vice-chairman, Yelyutin, the Soviet Minister of Higher and Specialized Secondary Education. It is in China for the celebrations of the tenth anniversary of the Sino-Soviet treaty of alliance.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 13, 1960). Names: Zhu De, Chen Yi. Check: the minister is 叶留金 in the book (Yelyutin).'
+    src:
+      c: 21dc8af9
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 133: all'
+    tags: [polity:prc, polity:ussr, name:zhu-de, name:chen-yi]
+  - id: cal.1960-02-13.china-leadership-4
+    when: Feb. 13
+    date: '1960-02-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Mao, Liu Shaoqi, Zhu De and Zhou Enlai telegraph Khrushchev and Voroshilov on the tenth anniversary of the Sino-Soviet treaty of alliance. They thank the Soviet Union for its aid; name Khrushchev's American visit, the Soviet disarmament proposal and cut of 1.2 million men, and the Warsaw Treaty meeting's declaration; say no force can break the alliance; and pledge China to treat the unity of the camp the Soviet Union leads as its most sacred international duty.
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 33–35 (Feb. 13, 1960, printed from *Renmin ribao*, Feb. 14). To check: Treaty of Friendship, Alliance and Mutual Assistance between China and the Soviet Union, Moscow, Feb. 14, 1950 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 35 n.1a). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Khrushchev, Voroshilov.'
+    src:
+      c: 03962d7e
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 33–35: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 35 n.1a: all'
+    tags: [polity:prc, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:khrushchev-nikita-s, name:voroshilov-kliment-e]
   - id: cal.1960-02-14.elections-1960
     when: Feb. 14
     date: '1960-02-14'
@@ -686,6 +892,25 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 194 n.11: all'
         - 'w.shesol-mutual-contempt 29: A-B'
     tags: [name:kennedy-robert-f, name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1960-02-14.china-leadership
+    when: Feb. 14
+    date: '1960-02-14'
+    thread: china-leadership
+    c: 'Zhou Enlai, on Mao''s proposal that leaders study the Soviet textbook *Political Economy*, calls some leading cadres and forms a reading group: Li Fuchun, Tao Zhu, Song Renqiong, Wu Zhipu, Xu Dixin, Hu Sheng, Xue Muqiao, Wang Heshou, Lü Zhengcao and Chen Zhengren among them.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 288 (Feb. 14, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Li Fuchun, Tao Zhu.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:li-fuchun, name:tao-zhu, vis:only:prc]
+  - id: cal.1960-02-14.china-leadership-3
+    when: Feb. 14
+    date: '1960-02-14'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Liu Shaoqi and Zhu De attend the Soviet ambassador''s reception for the tenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance. Liu gives warm good wishes to the Soviet Party, government and people. Zhu De, speaking: for the common cause China must keep strengthening the great unity of the two countries and of the socialist camp headed by the Soviet Union.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 14, 1960). Names: Liu Shaoqi, Zhu De, Chervonenko.'
+    src:
+      c: c87682b5
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 133: all'
+    tags: [polity:prc, polity:ussr, name:liu-shaoqi, name:zhu-de, name:chervonenko-stepan-v]
   - id: cal.1960-02-15.voting-rights
     when: Feb. 15–16
     date: '1960-02-15'
@@ -714,6 +939,27 @@ entries:
     c: 'Senate Democrats in conference at the freshmen''s request, Muskie speaking for them; Johnson reads a statement on the session''s problems. Douglas leads on the Joint Economic Committee''s report: growth 2.3 percent a year, 1953–59, against 4.6 to 4.7 percent, 1947–53; unemployment 4 percent. Against lifting the 4¼ percent interest ceiling: it would be "unilateral disarmament." Long (La.): the Republicans "want to saddle us with high interest rates for the next twenty years." Adjourned 12:11 p.m.'
     n: '[[w.ritchie-minutes-of-the-senate]], 557–71 (the meeting, 557–60; Johnson''s statement, 561–63; Douglas, 558–59; Long, 560; the interest-rate papers attached, 564–71). Names: Johnson, Muskie, Douglas, Long.'
     tags: [name:johnson-lyndon-b, name:muskie-edmund-s, name:douglas-paul-h, name:long-russell-b]
+  - id: cal.1960-02-15.china-leadership
+    when: Feb. 15
+    date: '1960-02-15'
+    thread: china-leadership
+    also: [trade]
+    c: Zhou Enlai with Lei Renmin on foreign trade.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 289 (Feb. 15, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-15.china-leadership-2
+    when: Feb. 15
+    date: '1960-02-15'
+    time: 1960-02-14T21:00Z
+    thread: china-leadership
+    c: 'Mao, at Canton, 5 a.m., to his confidential secretary Luo Guanglu: buy that day at the Guangzhou bookstore the combined November–December 1959 number of *Zhexue yanjiu* (Philosophical Research) and bring it in the afternoon. He is at Canton reading the second volume of the Soviet *Political Economy* textbook, third edition revised, with Chen Boda, Tao Zhu, Hu Qiaomu, Hu Sheng, Deng Liqun and Tian Jiaying. The number, Dec. 10, 1959, holds Chen Boda''s article on the proletarian and bourgeois world outlooks and nine others.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 37–38 (Feb. 15, 1960). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Zhexue yanjiu, nos. 11-12 combined, Dec. 10, 1959 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 37 n.3a). Names: Mao Zedong, Chen Boda, Tao Zhu.'
+    src:
+      c: 6daa1b91
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 37–38: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 37 n.3a: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, name:tao-zhu, vis:only:prc]
   - id: cal.1960-02-16.foreign-aid
     when: Feb. 16–18
     date: '1960-02-16'
@@ -1177,14 +1423,78 @@ entries:
     c: 'The Secretariat, Hanoi: directive no. 187-CT/TW on the Party committees and the police. The struggle against counterrevolution a part of the class struggle, the police "a sharp weapon" of Party and state; each committee to lead the police collectively and hear their report on the enemy every six months.'
     n: '*Chỉ thị của Ban Bí thư số 187-CT/TW tăng cường sự lãnh đạo của các cấp uỷ Đảng đối với công tác công an và cơ quan công an*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 136–39. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-02-20.china-leadership
+    when: Feb. 20
+    date: '1960-02-20'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi drafts the Center''s approval of the Railway, Communications and Commerce ministries'' Party groups'' report on the campaign to carry goods on the way (shaojiao yunshu): all localities, departments and units are to use every empty returning car and boat for freight and passengers, and coal and ore cars standing empty near mines are to be used by industries set up there. The Center issues it Feb. 22.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 479 (Feb. 20, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-02-20.china-leadership-2
+    when: Feb. 20
+    date: '1960-02-20'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi, receiving Sándor Nógrádi, the Hungarian Ambassador, says the Soviet political economy textbook is wrong on some points: it stresses personal material incentives too much; under socialism pay by labor must be kept, but political education must go with it so that workers work for society''s and communism''s interest.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 479–480 (Feb. 20, 1960). The chronology marks it as a second item of the day (△). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:hungary, name:liu-shaoqi, vis:only:prc+hungary]
+  - id: cal.1960-02-20.china-leadership-3
+    when: Feb. 20
+    date: '1960-02-20'
+    thread: china-leadership
+    c: 'Mao to Lin Biao: an informal paper on industry is sent for him to read, with something of interest; the marshals may all read it, Lin to pass it on and, it being secret, to return it. The paper is Li Fuchun''s minute of Feb. 14 of a talk at Canton with ministers reading the Soviet textbook: the 1960 plan certain to be overfulfilled; 100 million tons of steel to be strived for in ten more years; 21 million tons possible in 1960; the technical revolution, the revolution in the relations of production and the revolution in the superstructure to go forward together.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 39–40 (Feb. 20, 1960). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Li Fuchun, minute of the talk on several questions of the economic plan held Feb. 14, 1960 at Canton with Zhang Linzhi, Lu Zhengcao, Peng Tao, Chen Zhengren, Yu Qiuli, Liu Lanbo, Gu Zhuoxin and Wang Guangwei (cited by [[w.jianguo-yilai-mao-zedong]], XV, 39 n.2). Names: Mao Zedong, Lin Biao, Li Fuchun.'
+    src:
+      c: 1891bd8f
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 39–40: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 39 n.2: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-02-20.china-leadership-4
+    when: Feb. 20
+    date: '1960-02-20'
+    thread: china-leadership
+    c: 'The Center forwards the State Economic Commission Party group''s outline of Feb. 13 for its oral report to the Politburo to the provincial, municipal and regional committees and the Party groups of central ministries. Its instruction: this year''s start is better than last year''s, since the fourth quarter of 1959 prepared the first of 1960; with the first month, quarter or year of a plan, prepare the next. The outline: January''s plan largely met; transport the weakest link.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 42–43 (Feb. 20, 1960, in notes 1 and 2). Made public: 2023. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], vol. 9, 1996) give it. To check: State Economic Commission Party group, outline of its oral report to the Politburo on industrial and transport production in January and early February 1960, Feb. 13, 1960 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 42 n.1a); Central Committee, instruction of Feb. 20, 1960 forwarding the Economic Commission Party group''s outline to provincial, municipal and regional committees and the Party groups of central ministries and commissions (cited by [[w.jianguo-yilai-mao-zedong]], XV, 42 n.1b).'
+    src:
+      c: 6d0f6b75
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 42–43: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 42 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 42 n.1b: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-02-21.china-leadership
     when: Feb. 21
     date: '1960-02-21'
     thread: china-leadership
     also: [south-asia]
     c: 'Canton, Jijingkeng. Mao''s meeting on relations with India: Zhou Enlai, Lin Biao, Kang Sheng, Tao Zhu, Hu Qiaomu.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 21, 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Lin Biao, Kang Sheng, Tao Zhu, Hu Qiaomu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 21, 1960. [[w.zhou-enlai-nianpu-1949]], II, 289, Feb. 21, 1960 (Zhou present at Mao''s meeting on relations with India). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Lin Biao, Kang Sheng, Tao Zhu, Hu Qiaomu.'
+    src:
+      c: 487f97ba
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 21, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 289, Feb. 21, 1960: B'
     tags: [polity:prc, polity:india, name:mao-zedong, name:zhou-enlai, name:lin-biao, name:kang-sheng, name:tao-zhu, vis:only:prc]
+  - id: cal.1960-02-21.china-leadership-2
+    when: Feb. 21
+    date: '1960-02-21'
+    thread: china-leadership
+    c: Zhou Enlai calls Yang Chengwu and others on the Peking subway works.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 289 (Feb. 21, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-21.china
+    when: Feb. 21
+    date: '1960-02-21'
+    thread: china
+    c: 'The Ministry of Culture issues a statement: serious warning to the U.S. government on its plot to seize China''s large store of precious cultural relics in Taiwan. All the "contracts" the U.S. government has made with the Chiang Kai-shek clique to take China''s historical relics are void.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133–134 (Feb. 21, 1960). Names: Chiang Kai-shek.'
+    src:
+      c: 67d33795
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 133–134: all'
+    tags: [polity:prc, polity:us, polity:roc, name:chiang-kai-shek]
   - id: cal.1960-02-22.conservation
     when: Feb. 22
     date: '1960-02-22'
@@ -1215,6 +1525,18 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 255–56: all'
     tags: [state:il, city:chicago, name:stratton-william-g, name:adamowski-benjamin-s, name:daley-richard-j]
+  - id: cal.1960-02-22.china-leadership
+    when: Feb. 22
+    date: '1960-02-22'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking, the Yinian Tang. Mao convenes the Politburo Standing Committee on Khrushchev's attacks at the Warsaw Treaty summit. Taken as a sign he courts the West by turning on China, as with the Tass statement before the American trip and the cancelled atomic-sample agreement, and means to lower China's standing against his concessions. The diplomatic moves planned after Shanghai to be hurried; a counter to be prepared.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 252–253. Made public: 1999. See [[cal.1960-02-21.china-leadership]], [[cal.1960-02-26.china-leadership]]. Names: Mao Zedong, Khrushchev. Check: the day and place: the Mao nianpu has Mao at Canton on Feb. 21 and 26.'
+    src:
+      c: ba432cb4
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 252–253: all'
+    tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1960-02-23.latin-america
     when: Feb. 23–26
     date: '1960-02-23'
@@ -1253,6 +1575,33 @@ entries:
       - 1960-02-23T17:00Z
       - 1960-02-24T03:12Z
     time_zone: America/New_York
+  - id: cal.1960-02-23.china-leadership
+    when: Feb. 23
+    date: '1960-02-23'
+    thread: china-leadership
+    c: 'Zhou Enlai at the textbook reading group: five guidelines run through the transition from capitalism to communism: the general line, walking on two legs, the five great revolutions, the four modernizations, abolition of the three differences. Two basic contradictions (productive forces and relations, superstructure and base) to be solved by continuing revolution in ownership, human relations and distribution. The revolutionary transition is best in two stages, the present the first; "continuous revolution" and "stages of revolutionary development" both.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 288 (Feb. 23, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-23.china-leadership-2
+    when: Feb. 23
+    date: '1960-02-23'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi presides at the Politburo meeting. It hears Li Xiannian's report on finance and trade.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 480 (Feb. 23, 1960). Made public: 1996. Names: Liu Shaoqi, Li Xiannian.'
+    tags: [polity:prc, name:liu-shaoqi, name:li-xiannian, vis:only:prc]
+  - id: cal.1960-02-23.china-leadership-3
+    when: Feb. 23
+    date: '1960-02-23'
+    thread: china-leadership
+    also: [africa]
+    c: Addis Ababa. Wang Yutian, China's ambassador to Sudan, and Qu Wu, deputy head of the Commission for Cultural Relations with Foreign Countries and head of the Chinese acrobatic troupe, are received by Emperor Haile Selassie I. Wang hands over Liu Shaoqi's letter and gifts; Liu writes of the wish to develop friendly relations further.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 134 (Feb. 23, 1960). Names: Liu Shaoqi, Haile Selassie.'
+    src:
+      c: 514ae4db
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 134: all'
+    tags: [polity:prc, polity:ethiopia, name:liu-shaoqi, name:haile-selassie-i]
   - id: cal.1960-02-24.vietnam-hanoi
     when: Feb. 24
     date: '1960-02-24'
@@ -1260,6 +1609,18 @@ entries:
     c: 'The Secretariat, Hanoi: resolution no. 104-NQ/TW, adding to resolution no. 05 of March 1956: the rural work boards at each level strengthened and reorganized, to help the Party committees lead the countryside into socialism, by the sixteenth plenum''s resolution.'
     n: '*Nghị quyết của Ban Bí thư số 104-NQ/TW kiện toàn Ban Công tác nông thôn các cấp*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 140–44. Made public: 2002.'
     tags: [polity:drv]
+  - id: cal.1960-02-24.china-leadership
+    when: Feb. 24
+    date: '1960-02-24'
+    thread: china-leadership
+    also: [africa]
+    c: Addis Ababa. The Chinese acrobatic troupe gives its first performance in Ethiopia; Haile Selassie I and others attend.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 134 (Feb. 24, 1960). See [[cal.1960-02-23.china-leadership-3]]. Names: Haile Selassie.'
+    src:
+      c: d48c8946
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 134: all'
+    tags: [polity:prc, polity:ethiopia, name:haile-selassie-i]
   - id: cal.1960-02-25.sit-ins
     when: Feb. 25
     date: '1960-02-25'
@@ -1349,6 +1710,14 @@ entries:
     c: 'The Secretariat, Hanoi: resolution no. 105-NQ/TW. A Social Research Department set up under the Central Committee for "a special task," Trần Quốc Hoàn of the Central Committee in charge: its budget a separate one among the secret funds of the Ministry of Finance''s Party group, accounted to the Center by Hoàn and one member of that group; its cadres'' files kept apart, for secrecy.'
     n: '*Nghị quyết của Ban Bí thư số 105-NQ/TW về việc thành lập Vụ Nghiên cứu Xã hội*, signed for the Secretariat by Nguyễn Duy Trinh. [[w.van-kien-dang-toan]], XXI, 145–46. Made public: 2002. Names: Trần Quốc Hoàn.'
     tags: [polity:drv]
+  - id: cal.1960-02-25.china-leadership
+    when: Feb. 25
+    date: '1960-02-25'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai at the reading group, second statement: socialist revolution is not complete once the system is set up, and political and ideological revolution must go on. The textbook blurs dictatorship into education and mixes the contradictions with the enemy and among the people; it ignores class analysis, and its claim that the middle peasant is the central figure in the village is against the class line. Mao Zedong Thought as the era''s thought; *On Contradiction* and *On Practice* its philosophical base; the people''s communes of world significance.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 288–89 (Feb. 25, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1960-02-26.latin-america-trip
     when: Feb. 26–29
     date: '1960-02-26'
@@ -1432,8 +1801,47 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Canton, the Xiaodao guesthouse, afternoon. Mao, with Zhou Enlai, Kang Sheng, Luo Ruiqing and Hu Qiaomu, on Zhou's reply to Nehru's letter of Feb. 5 (Zhou asked to Delhi before the end of March).
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 25, 1960, and note 15. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Luo Ruiqing, Hu Qiaomu, Nehru.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 25, 1960, and note 15. [[w.zhou-enlai-nianpu-1949]], II, 289–90, Feb. 26, 1960 (Zhou at Mao''s meeting on the reply to Nehru). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Luo Ruiqing, Hu Qiaomu, Nehru.'
+    src:
+      c: 574c9638
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Feb. 25, 1960, and note 15: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 289–90, Feb. 26, 1960: B'
     tags: [polity:prc, polity:india, name:mao-zedong, name:zhou-enlai, name:kang-sheng, name:luo-ruiqing, name:nehru-jawaharlal, vis:only:prc]
+  - id: cal.1960-02-26.china-leadership-2
+    when: Feb. 26
+    date: '1960-02-26'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai answers Nehru''s letter of Feb. 5: China holds the border dispute can and must be settled in friendship and peace, and the wish of both for it must not be shaken by passing differences and some unfortunate incidents; China takes a positive and confident view of a meeting of the two premiers, and he will come to India in April.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 289 (Feb. 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Feb. 26, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 134 (Feb. 26, 1960; Zhou''s reply to Nehru''s letter of Feb. 5, with the editors'' note that Nehru''s letter agreed to a meeting of the premiers; he will go to Delhi in April). Made public: 1993. Names: Zhou Enlai, Nehru.'
+    src:
+      c: 1357b0bc
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 289: ?'
+        - 'w.zhou-enlai-waijiao-huodong 270: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 134: A-B'
+    tags: [polity:prc, polity:india, name:zhou-enlai, name:nehru-jawaharlal, vis:only:prc+india]
+  - id: cal.1960-02-26.china-leadership-3
+    when: Feb. 26–Mar. 2
+    date: '1960-02-26'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Zhou Enlai, Feb. 26–Mar. 2, reads the textbook on. At the summing-up, Mar. 2: Soviet experience not to be copied; Stalin''s three successes each one-sided; Lenin to be learned from, not Stalin''s late years; Khrushchev against Stalin has taken the other road; two large faults in the textbook, on the Moscow Declaration''s nine laws and on the 21st Congress''s nine-point program.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 290 (Feb. 26, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-26.china-leadership-4
+    when: Feb. 26
+    date: '1960-02-26'
+    thread: china-leadership
+    c: 'Mao to Zhou Enlai on the State Economic Commission Party group''s outline: very good, a new method, to be kept up; a summary six times a year, one every two months, approved by the Center and circulated. Zhou is to show it to the reading group''s comrades, then Bo Yibo, then Liu Shaoqi, Deng Xiaoping and Peng Zhen. Beside the outline''s line that 16 of 40 supply areas lack power, some 300,000 kilowatts, he writes: build small modern power plants on a large scale. Beside its aim of 20 million tons of steel or a little more: strive for 22 million tons.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 41–43 (Feb. 26, 1960, with notes 1-5). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: State Economic Commission Party group, outline of Feb. 13, 1960 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 42 n.1a). See [[cal.1960-02-20.china-leadership-4]]. Names: Mao Zedong, Zhou Enlai, Bo Yibo, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: 1e05a085
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 41–43: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 42 n.1a: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:bo-yibo, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1960-02-27.sit-ins
     when: Feb. 27
     date: '1960-02-27'
@@ -1459,6 +1867,28 @@ entries:
     c: Canton, Jijingkeng, the evenings. Mao reads the drafts of the fourth volume of his *Selected Works*, with Kang Sheng, Hu Qiaomu and Tian Jiaying.
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 27, 1960 (and Feb. 28, 29). Made public: 2013. Names: Mao Zedong, Kang Sheng, Hu Qiaomu, Tian Jiaying.'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1960-02-27.china-leadership-2
+    when: Feb. 27
+    date: '1960-02-27'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi revises and issues the telegram of Mao Zedong, Liu, Zhu De and Zhou Enlai answering the Panchen Erdeni Qoigyi Gyaincain's greetings for the Tibetan new year.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 480 (Feb. 27, 1960); [[w.jianguo-yilai-mao-zedong]], XV, 44 (Feb. 27, 1960; printed from the original in the Central Archives, over the names of Mao, Liu, Zhu De and Zhou). To check: Panchen Erdeni Qoigyi Gyaincain, telegram of Feb. 26, 1960 (Tibetan 12th month, 30th day) to Mao Zedong, Liu Shaoqi, Zhu De and Zhou Enlai, greeting the Tibetan new year (cited by [[w.jianguo-yilai-mao-zedong]], XV, 44 n.2). Names: Liu Shaoqi, Mao Zedong, Zhu De, Zhou Enlai.'
+    src:
+      c: 7f0e8f13
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 480: ?'
+        - 'w.jianguo-yilai-mao-zedong XV, 44: A'
+        - 'via w.jianguo-yilai-mao-zedong XV, 44 n.2: all'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhu-de, name:zhou-enlai]
+  - id: cal.1960-02-28.china-leadership
+    when: Feb. 28
+    date: '1960-02-28'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi presides at the joint meeting of the Politburo and the Secretariat, on agricultural production and grain.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 480 (Feb. 28, 1960). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-02-29.latin-america-trip
     when: Feb. 29–Mar. 1
     date: '1960-02-29'
@@ -1590,12 +2020,13 @@ entries:
     thread: soviet-union
     also: [south-asia, indonesia]
     c: 'Khrushchev''s second trip to South and Southeast Asia: India, Burma, Indonesia, and Afghanistan, Mar. 2–5. With Daud, a joint communiqué, Mar. 4: self-determination for the Pushtu people "a reasonable way."'
-    n: '[FRUS 1958–60, XV, doc. 159](https://history.state.gov/historicaldocuments/frus1958-60v15/d159) (editorial note: Afghanistan, Mar. 2–5; the communiqué). [[w.fursenko-khrushchevs-cold-war]], 324 and n.2 (Burma and Indonesia; his second visit to Burma). Check: the days in India, Burma and Indonesia. Names: Khrushchev.'
+    n: '[FRUS 1958–60, XV, doc. 159](https://history.state.gov/historicaldocuments/frus1958-60v15/d159) (editorial note: Afghanistan, Mar. 2–5; the communiqué). [[w.fursenko-khrushchevs-cold-war]], 324 and n.2 (Burma and Indonesia; his second visit to Burma); [[w.lengxi-shinian-lunzhan-1956-1966]], 252 (Khrushchev visits India and Indonesia "in February," while the anti-China waves in both were high). Check: the days in India, Burma and Indonesia. Names: Khrushchev.'
     src:
       c: 5a9fc7b7
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v15/d159: A-B'
         - 'w.fursenko-khrushchevs-cold-war 324: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 252: A'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1960-02-29.elections-1960-rockefeller
     when: Feb. 29
@@ -1643,3 +2074,30 @@ entries:
     c: Brezhnev, the Central Committee secretary for armament and rockets, visits a rocket design office and plant. Listens without interrupting; closes with a joke that they might launch a bigger "beetle" to make more noise, which offends them.
     n: '[[w.schattenberg-brezhnev]], 151–52 (Chertok''s account, 151 nn.276–278). To check: B. Chertok, *Raketen und Menschen*, 380 (cited by [[w.schattenberg-brezhnev]], 151 n.276 ff.). Made public: 2021 at the latest. Names: Brezhnev. Check: the day.'
     tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr]
+  - id: cal.1960-02-29.china-leadership
+    when: Feb. 29
+    date: '1960-02-29'
+    thread: china-leadership
+    also: [defense]
+    c: Zhou Enlai with He Long, Nie Rongzhen, Luo Ronghuan, Xiao Jinguang and others on the defense industry's construction.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 291 (Feb. 29, 1960). Made public: 1997. Names: Zhou Enlai, He Long, Nie Rongzhen, Luo Ronghuan.'
+    tags: [polity:prc, name:zhou-enlai, name:he-long, name:nie-rongzhen, name:luo-ronghuan, vis:only:prc]
+  - id: cal.1960-02.china-leadership
+    when: Feb.
+    date: 1960-02
+    thread: china-leadership
+    c: Zhou Enlai asks Xu Dixin to write a history of the development of Chinese capitalism.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 291 (Feb. 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-02-29.china-leadership-2
+    when: Feb. 29
+    date: '1960-02-29'
+    thread: china-leadership
+    c: 'Mao, on the Agriculture Ministry Party group''s report of Feb. 2 on the national conference on agricultural scientific research (held by the Academy of Agricultural Sciences, Dec. 1–20, 1959): Kang Sheng, Hu Qiaomu and Tian Jiaying to read it; Hu to telephone Tan Zhenlin, to have a Center document drafted sending the report to the academic bodies and Party committees at every level, down to the communes, to be carried out.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 46–48 (Feb. 29, 1960). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Agriculture Ministry Party group, report of Feb. 2, 1960 to the Central Committee Rural Work Department, copied to the Center and Mao, on the national agricultural scientific research work conference of the Academy of Agricultural Sciences, Dec. 1–20, 1959 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 46 n.3). Names: Mao Zedong, Kang Sheng, Tan Zhenlin.'
+    src:
+      c: eb904166
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 46–48: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 46 n.3: all'
+    tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:tan-zhenlin, vis:only:prc]

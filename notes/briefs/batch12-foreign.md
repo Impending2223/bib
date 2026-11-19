@@ -4,7 +4,7 @@ The owner, Nov. 12, 2026: the October 1962 pilot is accepted; the threads `sovie
 
 ## What is an entry
 
-A dated act of a foreign government's or party's leadership that its own record treats as an event (R5): a session of the Presidium or the Politburo and its decisions, a plenum, a resolution adopted, a directive sent, a speech or report to a party body, a conversation between principals, a public statement. One event an entry: a session is one entry, its decisions in `c` in the session's order (the important ones; the routine named by a word: "and personnel"); a resolution adopted at a session and printed separately is cited on the session's entry, not entered again, unless its day differs. Already in the calendar (the pilot's October 1962; the Soviet entries of earlier batches, `./bib find -l cal --thread soviet-union`, `--thread vietnam-hanoi`): cite there.
+Every dated event the record treats as an event (R5; only R18 takes anything out) (the owner, Nov. 15, 2026: the batch briefs' own limits struck; R5 and R18 alone decide what is an entry). For example: a session of the Presidium or the Politburo and its decisions, a plenum, a resolution adopted, a directive sent, a speech or report to a party body, a conversation between principals, a public statement. One event an entry: a session is one entry, its decisions in `c` in the session's order (the important ones; the routine named by a word: "and personnel"); a resolution adopted at a session and printed separately is cited on the session's entry, not entered again, unless its day differs. Already in the calendar (the pilot's October 1962; the Soviet entries of earlier batches, `./bib find -l cal --thread soviet-union`, `--thread vietnam-hanoi`): cite there.
 
 ## The form
 
@@ -24,6 +24,6 @@ The Drive's PDFs carry a text layer in the old TCVN3 font encoding: convert with
 
 ## The owner's rulings of Nov. 12, evening
 
-- The DRV's routine Party circulars stay entries ("we just don't know much about what's happening up there, so we should keep what few clues we have"); commemorations and provincial matters are still passed over and listed.
+- The DRV's routine Party circulars stay entries ("we just don't know much about what's happening up there, so we should keep what few clues we have"). Commemorations and provincial and local matters are entries too (the owner, Nov. 15: "I said Hanoi's commemorations and provincial matters stay in! In!"); the words "still passed over", written here Nov. 12, were not the owner's ruling.
 - A foreign person on FRUS's lists of persons has a name entry (the Names pages: `sources/frus-names/persons.json`): tag `name:<key>` with the key the calendar already uses for the person (`./bib find -t name:<surname>...`), else the FRUS key; where FRUS has several persons of the surname, tag only the one the record names (Marshal G. K. Zhukov is not Yuri Zhukov of *Pravda*).
 

@@ -81,6 +81,32 @@ def find(series, since, until=None, thread=None):
     return sorted(out, key=lambda x: (x[1], x[2] or "", x[3]))
 
 
+def drop(ids, patch):
+    """Release claims (an id the patch no longer adds): the lines naming one of `ids` under `patch`, removed under
+    the lock. Never edit the file by hand while readers are claiming: an unlocked rewrite loses their lines. Returns
+    the ids released."""
+    if not os.path.exists(PATH):
+        return []
+    want, gone = set(ids), []
+    with open(PATH, "r+", encoding="utf-8") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        try:
+            lines = f.readlines()
+            keep = []
+            for l in lines:
+                parts = l.rstrip("\n").split("\t")
+                if len(parts) >= 5 and parts[2] in want and parts[4] == patch:
+                    gone.append(parts[2])
+                else:
+                    keep.append(l)
+            f.seek(0)
+            f.truncate()
+            f.writelines(keep)
+        finally:
+            fcntl.flock(f, fcntl.LOCK_UN)
+    return gone
+
+
 def prune(series):
     """Drop the lines whose entries are in the tree. Returns how many were dropped."""
     if not os.path.exists(PATH):

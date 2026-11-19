@@ -8,7 +8,7 @@ import glob
 import os
 import re
 
-from . import store
+from . import loose, store
 from .markup import refs as markup_refs, plain, ITAL_RE
 from .refs import Refs
 
@@ -19,6 +19,8 @@ MONTHS = {"Jan.": 1, "Feb.": 2, "Mar.": 3, "Apr.": 4, "May": 5, "June": 6, "July
 
 
 def when_matches_date(when, date):
+    if re.match(r"^\d{4}$", date or ""):          # a year alone: when opens with the year ('1962', '1962, spring')
+        return re.match(rf"^{date}(?!\d)", when or "") is not None
     m = re.match(r"^(Jan\.|Feb\.|Mar\.|Apr\.|May|June|July|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.)\s*(\d+)?", when or "")
     if not m or not re.match(r"^\d{4}-\d{2}(-\d{2})?$", date or ""):
         return False
@@ -33,7 +35,10 @@ ABBR = {v: k for k, v in MONTHS.items()}
 
 
 def when_for_date(date):
-    """The `when` a date takes: its month as the series writes it, and its day where it has one ('Apr.', 'July 28')."""
+    """The `when` a date takes: its month as the series writes it, and its day where it has one ('Apr.', 'July 28');
+    a year alone, the year ('1962')."""
+    if re.match(r"^\d{4}$", date or ""):
+        return date
     if not re.match(r"^\d{4}-\d{2}(-\d{2})?$", date or "") or not 1 <= int(date[5:7]) <= 12:
         return None
     mo = ABBR[int(date[5:7])]
@@ -59,12 +64,20 @@ def ref_fix(r, idx):
     return f" ([[{near[0]}]]?)" if near else ""
 
 
-def section_fix(lst, d):
-    """For an entry outside its section: the section its date belongs in."""
+def first_section(lst, d):
+    """The first section (in the list's order) whose span holds the date: a year alone, the year's January."""
     for s in lst.walk():
         lo, hi = s.extra.get("from"), s.extra.get("to")
         if lo and hi and lo[:len(d)] <= d <= hi[:len(d)]:
-            return f": its date belongs in section {s.id} (section: {s.id}, or no section and the merge places it by date)"
+            return s
+    return None
+
+
+def section_fix(lst, d):
+    """For an entry outside its section: the section its date belongs in."""
+    s = first_section(lst, d)
+    if s is not None:
+        return f": its date belongs in section {s.id} (section: {s.id}, or no section and the merge places it by date)"
     return ": no section holds that date"
 
 
@@ -122,14 +135,20 @@ def entry_problems(series, lst, sec, e, idx=None, threads=None):
         m = re.match(r"^(Jan\.|Feb\.|Mar\.|Apr\.|May|June|July|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.)\s*(\d+)", e["when"])
         first = (f"{str(e['date'])[:4]}-{MONTHS[m.group(1)]:02d}-{int(m.group(2)):02d}" if m else None)
         out.append((ERROR, f"when {e['when']!r} and date {e['date']!r} disagree: when opens with date's month as the "
-                           "series writes it and, where date has a day, that day; a span's date is its first day"
-                           + (f": when {want!r} (or {want}–… for a span)" if want else ": date is YYYY-MM-DD or YYYY-MM")
+                           "series writes it (a year alone, with the year) and, where date has a day, that day; "
+                           "a span's date is its first day"
+                           + (f": when {want!r} (or {want}–… for a span)" if want else ": date is YYYY-MM-DD, YYYY-MM or YYYY")
                            + (f", or date '{first}'" if first and first != str(e["date"]) else "")
                            + "; a qualifier follows the month ('July, late') or goes in c ('Early', 'Late', 'By')", "general"))
     lo, hi = sec.extra.get("from"), sec.extra.get("to")
     d = str(e.get("date") or "")
     if lo and hi and d and not (lo[:len(d)] <= d <= hi[:len(d)]):
         out.append((ERROR, f"dated {d}, outside section {sec.id} ({lo} to {hi}){section_fix(lst, d)}", "general"))
+    elif len(d) == 4 and lo and first_section(lst, d) is not sec:
+        out.append((ERROR, f"dated to the year {d}: filed in the year's first section{section_fix(lst, d)}", "general"))
+    # at: the intercalary day a loose date sits on (loose.py)
+    for msg in loose.at_problems(e):
+        out.append((ERROR, msg, "general"))
     return out
 
 def run(series, only=None):
@@ -219,7 +238,7 @@ def run(series, only=None):
                 own = {}
                 for sec, e in lst.entries():
                     if e.get("thread") and e.get("date"):
-                        k = (e["thread"], calsplit.half_of_date(lst, e["date"]))
+                        k = (e["thread"], calsplit.half_of_date(lst, loose.place_iso(e)))
                         own[k] = own.get(k, 0) + 1
                 for (t, half), n in sorted(own.items(), key=lambda x: (x[0][0], x[0][1] or 0)):
                     if n > THREAD_SIZE and half and "ok:thread-size" not in (threads.get(t, {}).get("tags") or []):

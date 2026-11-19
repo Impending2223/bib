@@ -80,6 +80,20 @@ entries:
     c: 'The Politburo''s resolution no. 68-NQ/TW on the people''s procuracy: an instrument of the dictatorship, to see the law obeyed, strictly and uniformly, and so to strengthen the dictatorship over counterrevolutionaries and secure the people''s democratic rights.'
     n: '*Nghị quyết của Bộ Chính trị số 68-NQ/TW về công tác kiểm sát*, signed for the Politburo by Trường Chinh. [[w.van-kien-dang-toan]], XXIV, 81–86. Made public: 2003.'
     tags: [polity:drv]
+  - id: cal.1963-02-01.china-leadership
+    when: Feb. 1
+    date: '1963-02-01'
+    thread: china-leadership
+    c: 'Zhou Enlai to the East China conferences of advanced agricultural collectives and of agricultural science and technology, on the ties of economics, politics and thought and of state, collective and individual. Eight demands: collective first, individual after; state before person; ask of self before others; blame self before others; public before private; act for the public first; I for all the people and all for me; I for the world and the world for me. Public before private, even to forgetting self in war; cadres and model workers lead in it.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 530 (Feb. 1, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02-02.china-leadership
+    when: Feb. 2–3
+    date: '1963-02-02'
+    thread: china-leadership
+    c: Zhou Enlai at Wuxi; in the Lin Garden he tells the municipal Party leaders with him to buy tickets, and himself counts the party and buys them. In the afternoon returns to Shanghai; Feb. 3 to Peking.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 530 (Feb. 2–3, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-02-03.opinion
     when: Feb. 3
     date: '1963-02-03'
@@ -97,6 +111,43 @@ entries:
       c: bcb42cef
       rows:
         - 'w.futrell-united-states-air-force 170: all'
+  - id: cal.1963-02-03.china-leadership
+    when: Feb. 3
+    date: '1963-02-03'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou Enlai at Ceylon's Ambassador Perera's National Day reception tells him that Nehru's speeches in the Indian Parliament and Indian opinion confirm China's view that the concrete parts of the six states' proposals favor India and are unfair; so China cannot withdraw its two explanations; but they are not preconditions for talks.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 530 (Feb. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 4, 1963; 晚上, 北京饭店, 锡兰大使佩雷拉). Made public: 1993. Names: Zhou Enlai, A. B. Perera, Nehru.'
+    src:
+      c: 793a2529
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 530: ?'
+        - 'w.zhou-enlai-waijiao-huodong 350: A'
+    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:nehru-jawaharlal, vis:only:prc+ceylon]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Feb. 4, evening (Ceylon Ambassador Perera's reception for Ceylon's 15th independence anniversary, Peking Hotel); the entry has Feb. 3
+        at: '350'
+  - id: cal.1963-02-03.china-leadership-2
+    when: Feb. 3
+    date: '1963-02-03'
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Zhou Enlai receives the Syrian economic delegation under Subhi Kahale, Minister of Communications: all the Arab friends China has met share the wish for unity, a basic factor; the Arab peoples'' unity has favorable conditions, since the wish is the same; the key is how to express it in each Arab people''s struggle for independence and nation-building.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 530 (Feb. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 5, 1963; 晚6时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269 (Feb. 3–25, 1963; the Syrian economic delegation under Subhi Kahale, Minister of Communications, visits China; Zhou receives it; trade, payments and economic and technical cooperation agreements are signed at Peking on Feb. 21). Continues 531. Made public: 1993. Names: Zhou Enlai, Subhi Kahale.'
+    src:
+      c: 1c25102d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 530: ?'
+        - 'w.zhou-enlai-waijiao-huodong 350: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269: A'
+    tags: [polity:prc, polity:syria, name:zhou-enlai, vis:only:prc+syria]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Feb. 5, 6:30 p.m., Xihuating (the Syrian economic delegation headed by Minister of Communications Kahaleh); the entry has Feb. 3
+        at: '350'
   - id: cal.1963-02-04.vietnam-force-levels
     when: Feb. 4
     date: '1963-02-04'
@@ -215,6 +266,42 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-02-04.china-leadership
+    when: Feb. 4
+    date: '1963-02-04'
+    time: 1963-02-04T09:40Z
+    thread: china-leadership
+    also: [china, laos]
+    c: Peking Hotel. Zhou Enlai receives Khamking Souvanlasy, Laos's first Ambassador to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 4, 1963; 下午5时40分). Names: Zhou Enlai.'
+    src:
+      c: f869c038
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 350: all'
+    tags: [polity:prc, polity:laos, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-04.china-leadership-2
+    when: Feb. 4
+    date: '1963-02-04'
+    time: 1963-02-04T11:30Z
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Peking Hotel. Zhou Enlai receives the new Bulgarian Ambassador, Stoichev.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 4, 1963; 晚7时30分). Names: Zhou Enlai.'
+    src:
+      c: 9e08abb4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 350: all'
+    tags: [polity:prc, polity:bulgaria, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-04.china-leadership-3
+    when: Feb. 4–5
+    date: '1963-02-04'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: 'Liu Shaoqi talks with John Gollan, general secretary of the Communist Party of Great Britain, and George Matthews, editor of the *Daily Worker*. Feb. 4: China is very careful in handling relations with the Soviet Union and the two parties and will never take the first step toward a split. Feb. 5: unity of the two parties and countries is the basic interest of both peoples; a split would gravely harm them, and be a serious problem and threat for the Soviet Union too; China hopes to avoid it. The trouble is that the Soviet Union and some other parties apply pressure to make China give up principles it holds correct, which cannot be done; the way is independent, equal consultation.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 570 (Feb. 4 and 5, 1963). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:uk, name:liu-shaoqi, vis:only:prc]
   - id: cal.1963-02-05.program
     when: Feb. 5
     date: '1963-02-05'
@@ -415,8 +502,36 @@ entries:
     thread: china-leadership
     also: [soviet-union, cuba]
     c: 'Mao revises Chen Boda''s Feb. 3 article on Togliatti, retitling it "More on the differences between Comrade Togliatti and us: some great questions of Leninism today," and asking that the introduction recall the Dec. 31 article and say why another. He also recommends to Chen a piece from *Neibu cankao* on Cuba''s view of the Soviet–Cuban differences: "Cuba''s view is right; worth reading." Cuba holds the main contradiction to be between imperialism and the colonial revolutions, not between socialism and capitalism; that conflict is chiefly in the lands now seeking liberation; against imperialism no yielding.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 6, 1963. Made public: 2013. To check: the Polish periodical''s article, as reported in *Neibu cankao*. Names: Mao Zedong, Chen Boda, Togliatti.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 6, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 527–530 (Wu: the *Hongqi* article (nos. 3–4 of 1963), "More on the differences between Comrade Togliatti and us: some great questions of Leninism today" (Mao''s final title), of 110,000 characters in eight parts; Mao took great interest in it, gave many opinions through February and made many important changes himself; it opens with the "third great debate" in the history of Marxism, and argues from the main contradictions of the age, war and peace, state and revolution, and the two-front struggle); [[w.jianguo-yilai-mao-zedong]], XVI, 477, 482–484 (Feb. 6, 1963; items 1–4: the new title and the note on the introduction, on Chen Boda''s first draft of Feb. 3; the note of Feb. 6 "to Chen Boda: Cuba''s view is right, worth a look," on the *Neibu cankao* no. 431 of Jan. 31 item on a *Polityka* (1962 no. 52) Havana report; and "this too is worth a look," on that issue''s report of de Gaulle''s proposal to Khrushchev to "reorganize Europe"; printed from the manuscript; notes 1, 4, 5). Made public: 1999. To check: the Polish periodical''s article, as reported in *Neibu cankao*; Neibu cankao no. 431, Jan. 31, 1963, "The Polish party journal on the Cubans'' view of the Soviet–Cuban differences" (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 482 n.1a); Neibu cankao no. 431, Jan. 31, 1963, "British paper reports de Gaulle proposed to Khrushchev a ''general reorganization of Europe''" (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 484 n.5). Names: Mao Zedong, Chen Boda, Togliatti.'
+    src:
+      c: 7ab4dadf
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 6, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 527–530: A'
+        - 'w.jianguo-yilai-mao-zedong XVI, 477, 482–484: A-E'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 482 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 484 n.4: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 484 n.5: all'
     tags: [polity:prc, polity:cuba, name:mao-zedong, name:chen-boda, name:togliatti-palmiro, vis:only:prc]
+  - id: cal.1963-02-06.china-leadership-2
+    when: Feb. 6–7
+    date: '1963-02-06'
+    thread: china-leadership
+    c: Zhou Enlai with the regional bureaus' heads on grain, Feb. 6 and 7. From last year's experience and their views he fixes two ways to send grain up from the provinces this year, by purchase and by exchange-purchase, so as to reach 7.35 billion jin.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 531 (Feb. 6–7, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02-06.china-leadership-3
+    when: Feb. 6–9
+    date: '1963-02-06'
+    thread: china-leadership
+    c: 'Zhou Enlai at the meeting Liu Shaoqi calls of the Politburo, the Secretariat and the first secretaries of the regional bureaus, Feb. 6–9, on grain, streamlining, wages, thrift and a "five-antis" movement in the cities (graft, speculation, waste, decentralism, bureaucracy). Feb. 8 he makes the main speech on grain and farm purchase: the 1963 output plan is 321.6 billion jin, 19.5 billion over last year; return to the 390 billion of 1957 in five years. He explains the Center''s rules and gives five measures.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 531 (Feb. 6–9, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 570–571 (Feb. 6–9, 1963; Liu presides at the meeting of Politburo members, Secretariat members and the first secretaries of the regional bureaus, which discusses city fairs and trade, grain, wages, thrift and the five-antis campaign to prepare the Central Work Conference; on Feb. 6 he says to break regional blockades and organize a national market, and that individual traders and cooperative-shop staff should earn somewhat more than state-trade staff, having no free medical care, labor insurance or welfare). Made public: 1996. See [[cal.1963-02-05.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: 7e5c6646
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 531: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 570–571: A'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
   - id: cal.1963-02-07.rules
     when: Feb. 7
     date: '1963-02-07'
@@ -487,6 +602,22 @@ entries:
     c: Senate Democrats, Johnson presiding, 3:05 to 4 p.m. Clark moves to enlarge the Steering Committee from fifteen to nineteen; lost, 39 to 21, on a secret ballot, Holland objecting to the secret ballot. Anderson's motion for seventeen lost on a division. Douglas and Symington elected to the Steering and Policy Committees. Morse asks support for his resolution to expunge Williams of Delaware's remarks on Powell from the Record. Monroney reports for the ad hoc committee on recesses and a germaneness rule.
     n: '[[w.ritchie-minutes-of-the-senate]], 613–15 (the meeting; the vote, 614; Monroney''s report attached, 616–18). Names: Johnson, Clark, Holland, Anderson, Douglas, Symington, Morse, Williams, Monroney.'
     tags: [name:johnson-lyndon-b, name:clark-joseph-s, name:holland-spessard-l, name:anderson-clinton-p, name:douglas-paul-h, name:symington-william-s, name:morse-wayne, name:williams-john-j, name:monroney-almer-s]
+    time_range:
+      - 1963-02-07T20:05Z
+      - 1963-02-07T21:00Z
+    time_zone: America/New_York
+  - id: cal.1963-02-07.china
+    when: Feb. 7
+    date: '1963-02-07'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy protesting that the Indian army is breaking the cease-fire and continually intruding into the Pangong Lake area of China, creating a tense situation. It asks the Indian government to note the consequences this intrusion may bring and to stop the dangerous activity at once.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269 (Feb. 7, 1963).'
+    src:
+      c: c3519284
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-02-08.opinion
     when: Feb. 8
     date: '1963-02-08'
@@ -573,6 +704,14 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 510–11: A-B, D'
         - 'w.poole-joint-chiefs-of-staff 100: B'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:seaborg-glenn-t, name:foster-william-c, name:mccone-john-a, name:bundy-mcgeorge]
+  - id: cal.1963-02-08.china-leadership
+    when: Feb. 8
+    date: '1963-02-08'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai at the Lantern Festival gathering of the capital''s writers and artists: how the "double hundred" line is better carried out, serving workers, peasants and soldiers and going among the masses, is still the arts'' chief task; again he asks them to pass the five hurdles of thought, politics, living, family and society, to learn and remold to old age, and to reflect on their own thought and words. The press accounts of Lei Feng moved him; artists should catch the spirit of the age, show typical men and praise the new; Lei Feng''s diary shows whole-hearted work for the collective and is good diary literature.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 531 (Feb. 8, 1963). Continues 532. Names: Zhou Enlai, Lei Feng.'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1963-02-09.soviet-union
     when: Feb. 9
     date: '1963-02-09'
@@ -628,6 +767,40 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-02-09.china-leadership
+    when: Feb. 9
+    date: '1963-02-09'
+    thread: china-leadership
+    c: Zhou Enlai with persons concerned on streamlining and wages.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 532 (Feb. 9, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02-09.china-leadership-2
+    when: Feb. 9
+    date: '1963-02-09'
+    time: 1963-02-09T03:40Z
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Zhou Enlai receives Subhi Kahale, Syria''s Minister of Communications: a new reactionary trend now is subversion from outside; coups made so, revolutionary or not, China does not favor, for they come from outside; revolution is for the people to settle; the export of revolution and of counterrevolution are both wrong and dangerous; peaceful coexistence cannot go with subversion.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 532 (Feb. 9, 1963); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 9, 1963; 上午11时40分, 中南海西花厅, 再次接见). Made public: 1993. Names: Zhou Enlai, Subhi Kahale.'
+    src:
+      c: 0e74e1c9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 532: ?'
+        - 'w.zhou-enlai-waijiao-huodong 350: A'
+    tags: [polity:prc, polity:syria, name:zhou-enlai, vis:only:prc+syria]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-09.china
+    when: Feb. 9
+    date: '1963-02-09'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry spokesman issues a statement sternly rejecting the *Times of India*'s fabricated report that China means to build a naval base in Ceylon. China has always opposed any country's setting up military bases on another's territory and any country's using aid to harm another's sovereignty. The fabrication is to harm China–Ceylon relations and the two countries' prestige. Ceylon's Defense and External Affairs Ministry also issues a communique denying the report.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 270 (Feb. 9, 1963). Check: the book''s 《印度时报》 is the Times of India.'
+    src:
+      c: 6c1fe35b
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 270: all'
+    tags: [polity:prc, polity:ceylon, polity:india]
   - id: cal.1963-02-10.opinion
     when: Feb. 10
     date: '1963-02-10'
@@ -643,6 +816,50 @@ entries:
     c: Sunday. Salinger's practice hike around Lake Barcroft, Va., five to six miles in under two hours, with his family and a neighbor; Jack Perkins of NBC the one observer. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 243–44. Check: the day ("that Sunday—five days before the main event" of Feb. 15). Names: Salinger.'
     tags: [name:salinger-pierre, state:va]
+  - id: cal.1963-02-10.china-leadership
+    when: Feb. 10–11
+    date: '1963-02-10'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai goes to Kunming to meet Prince Sihanouk, and talks with him Feb. 10 and 11 on how the Sino-Indian clash came about, the Nehru government''s aims in stirring tension, and the present state of it. The Colombo proposals are only proposals, neither arbitration nor orders; either side may agree or not; China accepts them in principle as the basis of a meeting of officials, with its two explanations kept, not as preconditions. If the Colombo conference meets again, China has one unavoidable demand: both sides must send their most responsible representatives to state their positions.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 532 (Feb. 10–11, 1963); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 10, 1963; 中午, 专程到昆明欢迎西哈努克亲王); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 10, 1963; 下午4时; the first talks); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 10, 1963; 晚10时; the second talks); [[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 11, 1963; 下午4时30分; the third talks); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269–270 (Feb. 8–28, 1963; Prince Norodom Sihanouk, head of state of Cambodia, visits China; Mao and Liu Shaoqi receive him and Zhou and Liu hold talks with him, the days not given; the calendar has him leave Peking on Feb. 18). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 58eecbf6
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 532: ?'
+        - 'w.zhou-enlai-waijiao-huodong 350: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269–270: A'
+    tags: [polity:prc, polity:cambodia, polity:india, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+    time_range:
+      - 1963-02-10T04:00Z
+      - 1963-02-10T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-10.china-leadership-3
+    when: Feb. 10
+    date: '1963-02-10'
+    thread: china-leadership
+    also: [china]
+    c: Kunming Hotel. Zhou Enlai gives an informal dinner for Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 350 (Feb. 10, 1963; 晚上). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 0b647c72
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 350: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-10T11:00Z
+      - 1963-02-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-10.china-leadership-2
+    when: Feb. 10
+    date: '1963-02-10'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi comments on the Heilongjiang provincial committee''s report on farm work in the slack season: send it to the comrades of the work conference for reference. Rural power machinery must be used in combination; every tractor station and drainage-and-irrigation station is to have grain-processing, feed-processing and other farm-produce-processing machines, the State Planning Commission and the Party committees to put the number to be made this year into their plans and make each year''s plan carry output targets for them.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 571 (Feb. 10, 1963). Made public: 1996. To check: the Heilongjiang provincial Party committee''s report and Liu''s comment (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 571). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1963-02-11.middle-east
     when: Feb. 11
     date: '1963-02-11'
@@ -741,8 +958,38 @@ entries:
     date: '1963-02-11'
     thread: china-leadership
     c: The Central Work Conference opens in Peking (Feb. 11–28). It adopts directives on thrift and the "five-antis" campaign, on controlling fairs and speculation in the large and middle towns, a decision on cutting staff, rules on grain and procurement, a draft regulation for full-time schools and a directive on the schools, and the 1963 plan; it also takes up the struggle against modern revisionism. (Liu Shaoqi's small meeting of Feb. 6–9 had prepared it.)
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1963. Made public: 2013. See [[cal.1963-02-05.china-leadership]]. Names: Liu Shaoqi. Check: Mao''s presence is shown from Feb. 15 and 19.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1963. [[w.zhou-enlai-nianpu-1949]], II, 533 (Feb. 11–28, 1963: Zhou Enlai at the conference; a note says it took up the five-antis in cities, strict control of fairs and a blow at speculation, the 1963 plan and the primary and middle school rules, and that Mao introduced Hunan''s socialist education and the "four clean-ups" of Baoding in Hebei, "class struggle, grasp it and it works"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 571 (Feb. 11–28, 1963; Liu attends the Central Work Conference; it discusses the five-antis in the cities, strict control of city fairs, the fight on speculation, the 1963 plan and the struggle against modern revisionism; Liu presides on Feb. 12 and 13; Mao recommends Hunan''s socialist-education movement and Hebei''s rectification); [[w.macfarquhar-origins-of-the-cultural]], III, 336 (Mao presses the Hunan and Hebei models on the provinces; the conference authorizes the four clean-ups in the villages and the five-antis in the cities, against graft, speculation, extravagance, dispersionism and bureaucratism; also the 1963 plan and the primary and middle school rules). Made public: 1996. Check: the book gives the conference as Feb. 11–28 and the five-antis'' start as February (*Quzhe fazhande suiyue*, 527), noting a provincial source for January and others for Mar. 1 (III, 336 n.17). To check: [[w.zedong-jianguo-yilai-mao-zedong]], 10, 255–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.14a); [[w.history-of-the-chinese]], 302–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.14b); [[w.al-zhongguo-gongchan-dang-zhizheng]], 230 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.14c); [[w.zhongguo-jiaoyu-nianjian-1949]], 699–705 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.14d); [[w.zhonghua-renmin-gongheguo-jiaoyu]], 328–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.14e); [[w.jin-1949-1989-niande-zhongguo]], 527 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.17a). See [[cal.1963-02-05.china-leadership]]. Names: Liu Shaoqi. Check: Mao''s presence is shown from Feb. 15 and 19.'
+    src:
+      c: 46d7378d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 11, 1963: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 533: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 571: A, B, C'
+        - 'w.macfarquhar-origins-of-the-cultural III, 336: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.14a: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.14b: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.14c: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.14d: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.14e: A, B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.17a: A, B'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-02-11.china-leadership-3
+    when: Feb. 11
+    date: '1963-02-11'
+    thread: china-leadership
+    also: [china]
+    c: Kunming. Zhou Enlai watches with Sihanouk and his wife and Kunming's people the Cambodian Royal Ballet's first performance on its visit to China.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 11, 1963; 晚上). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: b7c46af8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 351: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-11T11:00Z
+      - 1963-02-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-02-12.civil-rights-the-executive
     when: Feb. 12
     date: '1963-02-12'
@@ -884,10 +1131,67 @@ entries:
   - id: cal.1963-02-12.defense-2
     when: Feb. 12
     date: '1963-02-12'
+    time: 1963-02-12T16:00Z
     thread: defense
     also: [press-and-broadcasting]
     c: '11 a.m. The President''s Council on Physical Fitness: fifty-mile hikes are for Marines; the physical activity of ordinary citizens should be "consistent with their physical condition." By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 245–46 (the words as a reporter read them at the noon briefing). Check: the day. See [[cal.1963-02-12.defense]].'
+  - id: cal.1963-02-12.china-leadership
+    when: Feb. 12
+    date: '1963-02-12'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai accompanies Sihanouk on his arrival in Peking, and then accompanies Liu Shaoqi in meeting him.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 532 (Feb. 12, 1963); [[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 12, 1963; 中午, 乘专机自昆明到达北京; Liu Shaoqi, Dong Biwu and Zhu De at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 572 (Feb. 12, 1963; Liu receives Sihanouk; he says the revolution has won, and under Mao''s chairmanship all cadres and people, in dealing with any country''s people, are taught never to commit great-power chauvinism and to teach their descendants so; China opposes the great-power chauvinism of the Americans, British, Indians and others, does not buy their account and does not bow). Names: Zhou Enlai, Sihanouk, Liu Shaoqi.'
+    src:
+      c: e106ec1f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 532: ?'
+        - 'w.zhou-enlai-waijiao-huodong 351: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 572: ?'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, name:liu-shaoqi]
+    time_range:
+      - 1963-02-12T04:00Z
+      - 1963-02-12T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-12.china-leadership-2
+    when: Feb. 12
+    date: '1963-02-12'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the state banquet given by Liu Shaoqi and his wife for Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 12, 1963; 晚上). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi, Sihanouk.'
+    src:
+      c: b67dd2f4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 351: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-12T11:00Z
+      - 1963-02-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-12.china-leadership-3
+    when: Feb. 12
+    date: '1963-02-12'
+    thread: china-leadership
+    also: [china]
+    c: 'The Central Work Conference: Liu Shaoqi presides at the sessions of Feb. 12 and 13. Feb. 12, after Peng Zhen''s report on the "five-antis" movement, he says the Tenth Plenum of the Eighth Central Committee spoke of class and class struggle, and now an action is to be formally deployed, a class struggle, its objects speculation, graft and theft, serious waste, degeneration, lawbreaking and serious decentralism; to talk of class struggle and not act on it will not do.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 571 (Feb. 12, 1963). Made public: 1996. Names: Liu Shaoqi, Peng Zhen.'
+    tags: [polity:prc, name:liu-shaoqi, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-02-12.china
+    when: Feb. 12
+    date: '1963-02-12'
+    thread: china
+    also: [middle-east]
+    c: Chen Yi cables the Foreign Minister of Iraq, Taleb Hussein Shabib, that the Chinese government decides to recognize the new Iraqi government. The coup of Feb. 8 put the "National Revolutionary Council" in power.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 270 (Feb. 12, 1963). Names: Chen Yi. Check: the book gives the minister as 塔列布·侯赛因·谢比卜; the Latin form is back-converted.'
+    src:
+      c: ea124223
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 270: all'
+    tags: [polity:prc, polity:iraq, name:chen-yi]
   - id: cal.1963-02-13.opinion
     when: Feb. 13
     date: '1963-02-13'
@@ -912,6 +1216,18 @@ entries:
       - 1963-02-14T05:00Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-02-13.china-leadership
+    when: Feb. 13
+    date: '1963-02-13'
+    thread: china-leadership
+    c: 'Zhou Enlai at the Central Committee''s work conference, report on grain and streamlining. In 1962 grain output rose over 20 billion jin, the central point of the better situation; streamlining let sales fall; both to be consolidated. Grain and main farm products in 1963 are bought by the Center''s rules. On streamlining and wages: look to the next five and ten years for placing population and labor; the slogan is to face the countryside, farming, forestry, herding, fisheries; thrift, streamlining, control of the city population and family planning are long-term aims.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 533 (Feb. 13, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 571 (Feb. 13, 1963; Liu presides at the Central Work Conference session of Feb. 13). Made public: 1996. To check: the report. Names: Zhou Enlai.'
+    src:
+      c: aaec7025
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 533: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 571: A'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-02-14.program
     when: Feb. 14
     date: '1963-02-14'
@@ -951,6 +1267,41 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1963-02-14.china-leadership
+    when: Feb. 14
+    date: '1963-02-14'
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of 10,000 of the capital's people welcoming Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 14, 1963; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 572 (Feb. 14, 1963; Liu attends the rally of the capital''s people welcoming Sihanouk). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 09f15fe0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 351: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 572: B'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-14T04:00Z
+      - 1963-02-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-14.china-leadership-2
+    when: Feb. 14
+    date: '1963-02-14'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai and Deng Yingchao give an informal dinner for Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 14, 1963; 晚上). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: c737527e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 351: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-14T11:00Z
+      - 1963-02-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-02-15.opinion-5
     when: Feb. 15
     date: '1963-02-15'
@@ -988,8 +1339,100 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao revises the introduction of the article on Togliatti (Feb. 15), and on Feb. 16 the introduction and part two, retitling part two "What is the nature of this great debate among the Communists of all countries?"; on Feb. 18 part eight. Added: differences among communists to be settled "by facts and reason," never as a slaveholder treats slaves; unity only on the Moscow Declaration and Statement, on equal consultation and give and take. And of the Soviet party''s refusal to print the Chinese replies: "you are afraid of ghosts"; "a specter, dogmatism, which is truly Marxism–Leninism, haunts the world and threatens you."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 15, 1963 (the entries for Feb. 15, 16 and 18). Made public: 2013. To check: the article as published (the nianpu''s note puts its drafting meetings at Feb. 18–25). See [[cal.1963-02-06.china-leadership]]. Names: Mao Zedong, Togliatti.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 15, 1963 (the entries for Feb. 15, 16 and 18). [[w.jianguo-yilai-mao-zedong]], XVI, 478–485 (Feb. 15–18, 1963; items 5–13: notes to Chen Boda on the proofs (Feb. 15; 7 a.m. Feb. 16, part two retitled; 7 a.m. the 18th) and the passages he added in Song type; printed from the manuscript and his revised copy; note 1 gives the proofs of Feb. 14, 15, 17 and 18). Made public: 2013. To check: the article as published (the nianpu''s note puts its drafting meetings at Feb. 18–25). See [[cal.1963-02-06.china-leadership]]. Names: Mao Zedong, Togliatti.'
+    src:
+      c: 5c0eae7d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 15, 1963: ?'
+        - 'w.jianguo-yilai-mao-zedong XVI, 478–485: A-F'
     tags: [polity:prc, name:mao-zedong, name:togliatti-palmiro, vis:only:prc]
+  - id: cal.1963-02-15.china-leadership-3
+    when: Feb. 15
+    date: '1963-02-15'
+    time: 1963-02-15T03:20Z
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai with Sihanouk on China''s aid to Cambodia''s economic construction: Chinese help in industry must fit the present market and not be too large; kinds and designs must suit Cambodian tastes; so in settling projects both sides must weigh raw materials, the home market and the economics.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 533 (Feb. 15, 1963); [[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 15, 1963; 上午11时20分, 钓鱼台宾馆18号楼, 继续会谈). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: dad0c4e5
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 533: ?'
+        - 'w.zhou-enlai-waijiao-huodong 351: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-15.china-leadership-4
+    when: Feb. 15
+    date: '1963-02-15'
+    thread: china-leadership
+    c: 'Zhou Enlai receives the departing Ambassador of Guinea, Sangiana (桑吉亚纳): foreign work and home work both matter; economy is the base, and without it political independence is not secure and a state stays at foreign mercy, which many Afro-Asian states face. He asks him to tell President Touré to guard against assassination and be alert, rely on the masses and the unity of the leading core, and hold the army.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 534 (Feb. 15, 1963); [[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 15, 1963; 中南海西花厅, 即将离任的几内亚驻华大使). Made public: 1993. Check: the ambassador''s name in Roman letters. Names: Zhou Enlai, Sékou Touré.'
+    src:
+      c: 19dba107
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 534: ?'
+        - 'w.zhou-enlai-waijiao-huodong 351: A'
+    tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou, vis:only:prc+guinea]
+  - id: cal.1963-02-15.china-leadership-5
+    when: Feb. 15
+    date: '1963-02-15'
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Workers' Gymnasium. Zhou Enlai accompanies Sihanouk and his wife at a basketball exhibition by noted Chinese players.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 15, 1963; 下午). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 6ce7b5d0
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 351: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-15T04:00Z
+      - 1963-02-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-15.china-leadership-6
+    when: Feb. 15
+    date: '1963-02-15'
+    thread: china-leadership
+    also: [china]
+    c: 'Peking. Zhou Enlai, at the banquet Sihanouk gives for Chinese leaders: Chinese–Cambodian relations rest on mutual respect and not imposition, equal treatment and not superiority, mutual benefit and help and not harm, and will stand the test of time.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 351 (Feb. 15, 1963; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 270–271 (Feb. 15, 1963; Zhou at Sihanouk''s banquet for the Chinese leaders: relations of mutual respect, not imposing on one another, equal and not one above another, mutually beneficial and not harmful, have stood the test of time; China holds that nations, large or small, should be treated as equals and each play its own independent part in international affairs). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 2b398673
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 351: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 270–271: B'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-15T11:00Z
+      - 1963-02-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-15.china
+    when: Feb. 15
+    date: '1963-02-15'
+    thread: china
+    also: [middle-east-yemen]
+    c: China and the Yemen Arab Republic issue a joint communique announcing that the diplomatic representatives of the two countries, of the rank of minister, are raised to ambassadors.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 271 (Feb. 15, 1963).'
+    src:
+      c: 6fc4d06f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 271: all'
+    tags: [polity:prc, polity:yemen]
+  - id: cal.1963-02-15.china-leadership-7
+    when: Feb. 15
+    date: '1963-02-15'
+    thread: china-leadership
+    c: 'Mao, on the Hunan 湖南 committee''s report of Feb. 8 on the socialist education movement, sent by Zhang Pinghua 张平化 Feb. 14: "very good"; print it for the conference to study. Hebei''s 河北 experience is also worth presenting: the Hebei committee to consider writing a short report for the conference.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 486–487 (Feb. 15, 1963; Mao''s note of Feb. 15; printed from the manuscript; note 2: the report (class struggle sharp, a "black wind" of anti-socialism; education first of cadres, then of the masses; poor-peasant forums; the lids lifted); notes 1, 4: with the Hebei report of Feb. 17 and Mao''s note, issued May 20 as annex one to the Center''s draft decision on present rural work (the "Former Ten Points")). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Hunan provincial Party committee, report to the Central-South Bureau, the Center and Mao Zedong on the socialist education movement, Feb. 8, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 486 n.2). Names: Mao Zedong, Zhang Pinghua. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: 1fe105dd
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 486–487: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 486 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 486 n.2: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1963-02-16.vietnam-hanoi
     when: Feb. 16
     date: '1963-02-16'
@@ -997,6 +1440,29 @@ entries:
     c: 'The Secretariat''s instruction no. 59-CT/TW on local military work in 1963: the Americans and Diệm, the harder beaten in the South, the more they sabotage the North; the militia, self-defense forces and reserves to be built up a step further, politically above all, ready against any enemy sabotage, the reserve army managed, mobilization assured.'
     n: '*Chỉ thị của Ban Bí thư số 59-CT/TW về nhiệm vụ công tác quân sự địa phương năm 1963*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIV, 98–100. Made public: 2003. Names: Ngô Đình Diệm.'
     tags: [name:ngo-dinh-diem, polity:drv, polity:us]
+  - id: cal.1963-02-16.china-leadership
+    when: Feb. 16
+    date: '1963-02-16'
+    thread: china-leadership
+    c: Zhou Enlai accompanies Sihanouk and his wife through the snow to the Great Wall and the Ming Tombs Reservoir.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 534 (Feb. 16, 1963); [[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 16, 1963; 游览长城, 十三陵水库). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: dfd08601
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 534: ?'
+        - 'w.zhou-enlai-waijiao-huodong 352: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+  - id: cal.1963-02-16.china
+    when: Feb. 16
+    date: '1963-02-16'
+    thread: china
+    c: The Chinese government replies to the Swiss government on its preparing to let Taiwan's authorities make "two Chinas" at the 20th International Red Cross Conference. Only representatives of the People's Republic of China are qualified to take part for the whole of China, Taiwan included. China resolutely opposes any plot to make "two Chinas".
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 271 (Feb. 16, 1963).'
+    src:
+      c: b674608e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 271: all'
+    tags: [polity:prc, polity:switzerland, polity:roc]
   - id: cal.1963-02.goldwater
     when: Feb. 17
     date: '1963-02-17'
@@ -1027,8 +1493,25 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Central Committee''s notice on publishing Khrushchev''s speeches and anti-revisionist articles: the *People''s Daily* to print in full his Dec. 12, 1962 report to the Supreme Soviet and his Jan. 16, 1963 greeting to the East German party''s congress, *Pravda*''s editorials of Jan. 7 and Feb. 10, and some French and Italian communists'' attacks on China, with the sharpest errors set in bold type. Mao: "Yang Shangkun, do it at once."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 17, 1963. Made public: 2013. Names: Mao Zedong, Khrushchev, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 17, 1963. [[w.jianguo-yilai-mao-zedong]], XVI, 488–489 (Feb. 17, 1963; Mao''s note on the draft notice of Feb. 17: "Shangkun to do it at once"; printed from the manuscript; note 1: the draft (Khrushchev''s report of Dec. 12, 1962 and greeting to the SED congress of Jan. 16, 1963, the *Pravda* editorials of Jan. 7 and Feb. 10, and French and Italian pieces to be printed, their worst points in bold type; no direct answer yet)). Made public: 2013. Names: Mao Zedong, Khrushchev, Yang Shangkun.'
+    src:
+      c: 72f6f266
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 17, 1963: all'
+        - 'w.jianguo-yilai-mao-zedong XVI, 488–489: A-B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1963-02-17.china-leadership-2
+    when: Feb. 17
+    date: '1963-02-17'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi, Vice-Premier and Foreign Minister, receives Karlsson, a reporter of Swedish Radio and Television, and gives a television interview on the Sino-Indian boundary dispute. The large-scale armed conflict on the boundary was wholly started by India; the Chinese frontier troops' counterattack was wholly forced. China has always kept the five principles of peaceful coexistence in its relations with India, and holds for settling the border question amicably through negotiation on them. Until it is settled, the status quo on the boundary should be kept and armed conflict avoided.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 271 (Feb. 17, 1963). Names: Chen Yi. Check: the book gives the reporter as 卡尔逊.'
+    src:
+      c: acdc227a
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 271: all'
+    tags: [polity:prc, polity:sweden, polity:india, name:chen-yi]
   - id: cal.1963-02-18.missile-crisis
     when: Feb. 18
     date: '1963-02-18'
@@ -1128,6 +1611,48 @@ entries:
     c: 'White House briefing for the congressional leaders, evening. By Dirksen''s account to the Senate Republicans next day: Kennedy "seemed to be very nervous"; his latest letters with Khrushchev hold out a hope of "a pull out of some additional troops" in early March. Dirksen cites Drummond''s figures of troops, missiles and planes; the President calls the summary "practically correct." Asked "what is down the road," he says only "We do the best we can."'
     n: '[[w.wolff-minutes-of-the-senate]], 959 (Dirksen''s report to the conference; the minutes'' words). Names: Kennedy, Dirksen, Khrushchev, Drummond. Check: the day; the minutes head the conference "Monday, February 19, 1963," and Feb. 19 was a Tuesday.'
     tags: [name:kennedy-john-f, name:dirksen-everett, name:khrushchev-nikita-s, name:drummond-roscoe]
+  - id: cal.1963-02-18.china-leadership
+    when: Feb. 18
+    date: '1963-02-18'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai at the Chinese Pingju Theatre''s *Seizing the Seal*: the orchestra is too big and should move from the pit onto the stage; played loud it drowns the singing so a good play cannot be heard. Feb. 26 he sees it again and calls the large orchestra, built without regard to conditions, a waste. Western things are not excluded and should be done well, but the needs of a master of art and the needs of the audience are different; he calls on musicians to reform from the people''s need and make the music more national; art must teach the young and answer to the next generation.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 534 (Feb. 18, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02-18.china-leadership-2
+    when: Feb. 18
+    date: '1963-02-18'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai, with Liu Shaoqi, Dong Biwu and Zhu De, goes to the airport to see off Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 18, 1963; 上午). See [[cal.1963-02-10.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Sihanouk.'
+    src:
+      c: e09223d7
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 352: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:norodom-sihanouk]
+    time_range:
+      - 1963-02-17T22:00Z
+      - 1963-02-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-18.china-leadership-3
+    when: Feb. 18
+    date: '1963-02-18'
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking. Zhou Enlai attends the reception given by the Nepalese Ambassador for Nepal's Democracy Day.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 18, 1963; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 523f45d2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 352: all'
+    tags: [polity:prc, polity:nepal, name:zhou-enlai]
+    time_range:
+      - 1963-02-18T11:00Z
+      - 1963-02-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-02-19.program
     when: Feb. 19
     date: '1963-02-19'
@@ -1199,6 +1724,10 @@ entries:
     c: 'Senate Republican conference, twenty-one present, 11:20 to 11:43 a.m., confirms the Committee on Committees'' assignments, Williams acting for Carlson. Dirksen: the Democrats refused the Appropriations ratio on Russell''s objection; Dominick''s Interior seat, against the rule for two Senators of one State, temporary. He reports the White House briefing of the evening before. Keating: the Democrats'' action "a direct slap" at his colleague. Allott on the Committee on Committees'' procedure.'
     n: '[[w.wolff-minutes-of-the-senate]], 958–60 (the briefing, 959; Allott, 959–60). See [[cal.1963-02-18.cuba-2]], [[cal.1963-02-19.republican-party-congress-2]]. Names: Williams, Carlson, Dirksen, Russell, Dominick, Keating, Allott. Check: the minutes head the meeting "Monday, February 19, 1963"; Feb. 19 was a Tuesday.'
     tags: [name:williams-john-j, name:carlson-frank, name:dirksen-everett, name:russell-richard-b, name:keating-kenneth-b, name:dominick-peter-h, name:allott-gordon-l]
+    time_range:
+      - 1963-02-19T16:20Z
+      - 1963-02-19T16:43Z
+    time_zone: America/New_York
   - id: cal.1963-02-19.republican-party-congress-2
     when: Feb. 19
     date: '1963-02-19'
@@ -1206,6 +1735,10 @@ entries:
     c: The Senate Republicans' Committee on Committees, Williams presiding for Carlson, 9:35 to 10:30 a.m. Allott objects that the assignments reached the press, and to the procedure. Cooper to Rules and Administration in Morton's place, Morton yielding; the assignments approved on Mundt's motion. On Javits's motion a subcommittee of three to study assignments and seniority.
     n: '[[w.wolff-minutes-of-the-senate]], 952–57 (the minutes and the worksheets). Names: Williams, Carlson, Allott, Cooper, Morton, Mundt, Javits. Check: the minutes head the meeting "Monday, February 19, 1963"; Feb. 19 was a Tuesday.'
     tags: [name:williams-john-j, name:carlson-frank, name:allott-gordon-l, name:cooper-john-sherman, name:morton-thruston-b, name:mundt-karl-e, name:javits-jacob-k]
+    time_range:
+      - 1963-02-19T14:35Z
+      - 1963-02-19T15:30Z
+    time_zone: America/New_York
   - id: cal.1963-02-19.vietnam-hanoi
     when: Feb. 19
     date: '1963-02-19'
@@ -1255,6 +1788,45 @@ entries:
     c: 'Khrushchev, a note to the Presidium on tidying the issue of newspapers and magazines and the guidance of publishing, with the party''s management of the economy reorganized: too many branch papers beside *Pravda* and *Izvestiya*. The Ideological Commission to take it up; Ilyichev, Satyukov and Adzhubei to prepare proposals on the supplements; a Central Committee paper to be drafted and talked over with Communists, Komsomol members and nonparty readers.'
     n: '[[w.khrushchev-dva-tsveta-vremeni]], II, 700–04 (VIII, doc. 12; RGANI, f. 52, op. 1, d. 357, ll. 24–32). Made public: 2009. Names: Khrushchev, Adzhubei.'
     tags: [name:khrushchev-nikita-s, name:adzhubei-aleksei, polity:ussr, vis:only:ussr]
+  - id: cal.1963-02-20.china-leadership-3
+    when: Feb. 20
+    date: '1963-02-20'
+    thread: china-leadership
+    c: Mao writes, at the request of the magazine *Zhongguo qingnian* 中国青年, the inscription "Learn from Comrade Lei Feng" 向雷锋同志学习 for its Lei Feng number.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 492 (note 1: written Feb. 20, 1963; the volume heads the item Mar. 5; printed from the manuscript). Made public: *Zhongguo qingnian*, 1963 nos. 5–6 (Mar. 2, 1963). Names: Mao Zedong, Lei Feng. Check: the day; MacFarquhar (III, 338, as the calendar cites him) has Mao call in Lin Ke on Feb. 22.'
+    src:
+      c: b175c221
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 492: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-02-20.china-leadership
+    when: Feb. 20
+    date: '1963-02-20'
+    thread: china-leadership
+    c: 'Morning. Mao to Chen Boda 陈伯达, on the proofs of Feb. 19 of the *Hongqi* 红旗 article on Togliatti: "very well revised, very complete, nothing more to regret"; a few small changes of his own in part eight.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 482–485 (Feb. 20, 1963; item 14, dated the morning of Feb. 20; printed from the manuscript; note 7: Chen''s note of Feb. 19, part one added to and over 2,000 characters added to part eight on Mao''s instructions; note 2: printed in *Hongqi* 1963 nos. 3–4 and *Renmin ribao* Mar. 1–4). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). See [[cal.1963-02-15.china-leadership-2]]. Names: Mao Zedong, Chen Boda. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: 4c99eefa
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 482–485: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+    time_range:
+      - 1963-02-19T22:00Z
+      - 1963-02-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-20.china-leadership-2
+    when: Feb. 20
+    date: '1963-02-20'
+    thread: china-leadership
+    c: 'Mao, on the Hebei 河北 committee''s report of Feb. 17 to him, the Center and the North China Bureau on rectifying the rural work style and the communes after the Tenth Plenum: print it for the conference; to be studied with the Hunan 湖南 report; both good papers, each its own features, for all localities and central departments to study.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 490–491 (Feb. 20, 1963; Mao''s note of Feb. 20; printed from the manuscript; note 1: the report (about 3 million activists trained; about 80 percent of commune members taught the plenum''s three papers and Mao''s three questions; the movement''s three stages, to end by the end of March or early April); note 3: issued May 20 as annex one of the "Former Ten Points"). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Hebei provincial Party committee, report to Mao Zedong, the Center and the North China Bureau on carrying out the Tenth Plenum''s resolutions in the villages and the rectification of the communes, Feb. 17, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 490 n.1). See [[cal.1963-02-15.china-leadership-7]]. Names: Mao Zedong. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    src:
+      c: 72b7f3d0
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVI, 490–491: all'
+        - 'via w.jianguo-yilai-mao-zedong XVI, 490 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1963-02-21.medicare
     when: Feb. 21
     date: '1963-02-21'
@@ -1313,8 +1885,154 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: 'Yinian Tang, afternoon. Mao receives Cuba''s government economic delegation; Liu Shaoqi and Ye Jizhuang present. The Cuban people good friends, the Party good, good leaders. Of trade: more in a few years; both poor, with little industry and unworked minerals. China''s anti-imperialist experience is for reference; Cuba is small and near America and yet won, so the world watches.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 21, 1963. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Ye Jizhuang.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 21, 1963. [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269 (Feb. 8–23, 1963; the Cuban government''s trade delegation under Alberto Mora, Minister of Foreign Trade, visits China; Mao, Liu Shaoqi, Zhou, Chen Yi and Li Xiannian receive it, the days not given; the Chinese and Cuban trade delegations hold talks on 1963 trade). Made public: 2001. Names: Mao Zedong, Liu Shaoqi, Ye Jizhuang.'
+    src:
+      c: 9b58d3fe
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 21, 1963: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269: B'
     tags: [polity:prc, polity:cuba, name:mao-zedong, name:liu-shaoqi, vis:only:prc+cuba]
+  - id: cal.1963-02-21.china-leadership-2
+    when: Feb. 21
+    date: '1963-02-21'
+    time: 1963-02-21T03:30Z
+    thread: china-leadership
+    also: [cuba]
+    c: 'Zhou Enlai receives the Cuban government''s economic delegation under Alberto Mora: any party that relies on the masses is a good party; the masses can tell who is anti-imperialist, a true Marxist-Leninist, a revolutionary, who leads as a vanguard and serves the people, and who a bureaucrat; a dialectical and historical materialist must be conscious; "not to advance is to retreat," for what stands still while others advance falls back.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 534 (Feb. 21, 1963); [[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 21, 1963; 上午11时30分, 中南海西花厅). Continues 535. Made public: 1993. See [[cal.1963-02-21.china-leadership]]. Names: Zhou Enlai, Alberto Mora.'
+    src:
+      c: 66278ddb
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 534: ?'
+        - 'w.zhou-enlai-waijiao-huodong 352: A'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, vis:only:prc+cuba]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-21.china-leadership-3
+    when: Feb. 21
+    date: '1963-02-21'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou Enlai replies to Bandaranaike's letter, restating China's stand on the border question and the Colombo proposals. At the end of January he learned that she and others in New Delhi made clarifications of the Colombo proposals far from those given in Peking; neither is a statutory paper of the conference. Nehru's insisting on a "clarification of acceptance" beyond accepting the Colombo proposals is quite without ground; the proposals are no directive or award, and are seriously defective.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 21, 1963); [[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 22, 1963: the reply of Feb. 21, handed to Ambassador Perera). Made public: 1993. To check: the letter. Names: Zhou Enlai, Srimavo Bandaranaike, Nehru.'
+    src:
+      c: 895f1130
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 535: ?'
+        - 'w.zhou-enlai-waijiao-huodong 352: A'
+    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:bandaranaike-srimavo, name:nehru-jawaharlal, vis:only:prc+ceylon]
+  - id: cal.1963-02-21.china-leadership-4
+    when: Feb. 21
+    date: '1963-02-21'
+    thread: china-leadership
+    also: [china, middle-east, trade]
+    c: Peking. Zhou Enlai attends the signing of the China–Syria agreements on trade, payments and economic and technical cooperation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 21, 1963; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269 (Feb. 21, 1963; the Chinese and Syrian governments sign at Peking the agreements on trade, payments and economic and technical cooperation). Names: Zhou Enlai.'
+    src:
+      c: 5e1a589d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 352: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269: B'
+    tags: [polity:prc, polity:syria, name:zhou-enlai]
+    time_range:
+      - 1963-02-21T04:00Z
+      - 1963-02-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-21.china-leadership-5
+    when: Feb. 21
+    date: '1963-02-21'
+    thread: china-leadership
+    also: [china, middle-east, trade]
+    c: Peking. Zhou Enlai attends the farewell banquet given by the head of the Syrian economic delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 21, 1963; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 3f7dbf61
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 352: all'
+    tags: [polity:prc, polity:syria, name:zhou-enlai]
+    time_range:
+      - 1963-02-21T11:00Z
+      - 1963-02-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-21.china
+    when: Feb. 21
+    date: '1963-02-21'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, sternly rejecting the Indian government's note of last Dec. 31, which slandered China by way of the agreement in principle reached in the China–Pakistan boundary talks, and flatly refusing India's baseless protest. China has always kept out of the India–Pakistan dispute over Kashmir; the China–Pakistan boundary talks and agreement do not touch the ownership of Kashmir and are no concern of a meeting on that question between India and Pakistan. India's renewed slander, it says, shows it means to go on poisoning the atmosphere between China and India and to wreck China–Pakistan relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 271–272 (Feb. 21, 1963).'
+    src:
+      c: 0701ec24
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 271–272: all'
+    tags: [polity:prc, polity:india, polity:pakistan]
+  - id: cal.1963-02-22.china-leadership
+    when: Feb. 22
+    date: '1963-02-22'
+    thread: china-leadership
+    also: [china, cuba, trade]
+    c: Peking. Zhou Enlai attends the signing of the China–Cuba trade protocol and loan agreement.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 353 (Feb. 22, 1963; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269 (Feb. 22, 1963 for the signing, the book giving only the visit''s span, Feb. 8–23; the two governments sign the 1963 trade protocol, China''s loan agreement to Cuba, and a protocol on delivery of goods by the two countries'' foreign trade bodies on common terms). Names: Zhou Enlai.'
+    src:
+      c: 2b15938f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 353: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269: B'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1963-02-22T04:00Z
+      - 1963-02-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-22.china-leadership-2
+    when: Feb. 22
+    date: '1963-02-22'
+    thread: china-leadership
+    also: [china, cuba]
+    c: Peking. Zhou Enlai attends the reception given by the Cuban Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 353 (Feb. 22, 1963; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 06b70a77
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 353: all'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1963-02-22T11:00Z
+      - 1963-02-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-22.china-leadership-3
+    when: Feb. 22
+    date: '1963-02-22'
+    time: 1963-02-22T04:15Z
+    thread: china-leadership
+    also: [china, south-asia]
+    c: Peking, Xihuating. Zhou Enlai receives and gives a luncheon for the Ceylonese Ambassador, Perera, and hands him his reply of Feb. 21 to Mrs. Bandaranaike.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 352 (Feb. 22, 1963; 中午12时15分, 中南海西花厅). See [[cal.1963-02-21.china-leadership-3]]. Names: Zhou Enlai, Bandaranaike.'
+    src:
+      c: ecdf3923
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 352: all'
+    tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-02-22.soviet-union
+    when: Feb. 22
+    date: '1963-02-22'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Peking. Ambassador Chervonenko hands Wu Xiuquan, vice-minister of the Liaison Department, the CPSU Central Committee's letter, signed Feb. 21, in the middle of the Central Work Conference. It asks to stop the open polemic, to call an international meeting and, to prepare it, to begin with talks between the two parties.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 542 (the letter signed Feb. 21 and given to Wu Xiuquan Feb. 22; it followed the *Renmin ribao*''s fourth article, of Jan. 27, which, Wu says, alarmed Khrushchev''s group; the letter was printed in the *Renmin ribao* Mar. 14 with the replies (551)). See [[cal.1963-02-15.soviet-union-leadership]]. Names: Chervonenko.'
+    src:
+      c: 2cd9e8a5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 542: all'
+    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    variants:
+      - unit: B
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: the letter handed to Mao by the Soviet ambassador on Feb. 23
+        at: III, 350 n.9a
   - id: cal.1963-02-23.middle-east
     when: Feb. 23
     date: '1963-02-23'
@@ -1363,7 +2081,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Juxiang Shuwu, evening. Mao presides at the Standing Committee, on the letter of Feb. 21 from the Soviet Central Committee, brought by Ambassador Chervonenko on Feb. 22: end the public polemics, call an international conference, and first hold bilateral talks to prepare it. Mao: "no time to lose; I will see Chervonenko at once."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 23, 1963. Made public: 2013. To check: the CPSU letter of Feb. 21, 1963. Names: Mao Zedong, Chervonenko.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 23, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 543 (the Standing Committee in Mao''s bedroom at the Juxiang Shuwu, Mao in pajamas, half sitting against the bed, still recovering from a cold taken on coming back from his two months away; he, Liu Shaoqi, Zhou Enlai and Deng Xiaoping agree that the CPSU''s proposals are what China proposed in Apr. 1962, accepted now as the CPSU''s own, and take them up, though it may be a delaying move; the others leave; Liu and Zhou stay to receive the ambassador with Mao). Made public: 1999. To check: the CPSU letter of Feb. 21, 1963. Names: Mao Zedong, Chervonenko.'
+    src:
+      c: d78a3e41
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 23, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 543: A-B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, vis:only:prc]
   - id: cal.1963-02-23.china-leadership-2
     when: Feb. 23
@@ -1371,8 +2094,51 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: After the meeting Mao receives Chervonenko, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kang Sheng and Wu Xiuquan. Welcomes the letter, a consulting, equal tone; what he dislikes is Khrushchev's call at the East German congress to stop the polemics while himself polemicizing; 43 parties attack China in public; China will reply to the French, then the Italian and American communists, and then stop. Proposes talks, Khrushchev to stop in Peking on his way to or from Cambodia, or a Chinese delegation to Moscow; the 1957 manner (the two parties first agree, then submit to the conference) better than 1960's. "The sky will not fall." He does not now plan to go to Moscow.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 23, 1963 ("同日"). Made public: 2013. To check: the CPSU letter of Feb. 21, 1963; the Soviet record of the talk. See [[cal.1963-02-23.china-leadership]]. Names: Mao Zedong, Chervonenko, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kang Sheng, Khrushchev, Wu Xiuquan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 23, 1963 ("同日"). [[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 23, 1963: Zhou Enlai is with Mao in receiving Chervonenko; Mao: abuse back and forth should have a pause, so he favors a truce, and the first proposal against public polemics was Zhou''s at the CPSU 22nd Congress); [[w.zhou-enlai-waijiao-huodong]], 353 (Feb. 23, 1963; 陪同毛泽东主席接见苏联驻华大使契尔沃年科); [[w.lengxi-shinian-lunzhan-1956-1966]], 543–550 (from 8 p.m. to past 10 p.m., in Mao''s bedroom, Mao in pajamas, Mao doing most of the talking, Liu Shaoqi and Zhou Enlai interjecting, Chervonenko listening and offering no view; six points: the letter, read that day, good in tone and welcome, but words and deeds at odds, Khrushchev having called at the East German congress for a halt while himself attacking; the *Renmin ribao* printing the Soviet pieces since Feb. 20; 43 parties abuse China; China will reply in part and keep the rest in reserve; a pause is welcome, China having proposed it first, through Zhou Enlai, at the Twenty-second Congress; the open polemic no worse than "the sky falling"; talks at Peking, before or after Khrushchev passes through for Cambodia, or a Chinese delegation to Moscow, not Mao to Moscow; the 1957 manner better than the 1960; the formal reply within two weeks); [[w.macfarquhar-origins-of-the-cultural]], III, 350 (the Soviet ambassador gives Mao the CPSU letter on Feb. 23; Mao suggests Khrushchev come to Beijing, on his way to Cambodia). Made public: 1993. To check: the CPSU letter of Feb. 21, 1963; the Soviet record of the talk; [[w.floyd-mao-against-khrushchev]], 371–4, 392 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 350 n.9a). See [[cal.1963-02-23.china-leadership]]. Names: Mao Zedong, Chervonenko, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kang Sheng, Khrushchev, Wu Xiuquan.'
+    src:
+      c: 1324a05d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 23, 1963: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 535: ?'
+        - 'w.zhou-enlai-waijiao-huodong 353: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 543–550: B-D, F-I'
+        - 'w.macfarquhar-origins-of-the-cultural III, 350: A, F'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 350 n.9a: A, F'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 350 n.9b: A, F'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc+ussr]
+    variants:
+      - unit: A
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: only Liu Shaoqi and Zhou Enlai stay with Mao to receive Chervonenko; Wu leaves with Deng Xiaoping and learns afterward how Mao received him
+        at: '543'
+  - id: cal.1963-02-23.china-leadership-3
+    when: Feb. 23
+    date: '1963-02-23'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai at the meeting Liu Shaoqi calls to discuss the report Liu is to give the Central work conference on Feb. 25.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 23, 1963). Made public: 1997. Check: the report is Liu''s of Feb. 25 on the struggle against modern revisionism. See [[cal.1963-02-23.china-leadership-2]]. Names: Zhou Enlai, Liu Shaoqi.'
+    tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-02-23.china-leadership-4
+    when: Feb. 23
+    date: '1963-02-23'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou Enlai presides at the 126th plenary meeting of the State Council, which adopts the agreement between China and Pakistan on the boundary between Xinjiang and the areas whose defense Pakistan actually controls, and the China–Mongolia border treaty, among other papers.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 23, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:pakistan, polity:mongolia, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02-23.china
+    when: Feb. 23
+    date: '1963-02-23'
+    thread: china
+    also: [south-asia]
+    c: The Foreign Ministry sends a note to the Indian embassy, once more a strong protest at the Indian side's freezing and seizing the Bank of China's assets in India and its further persecution of the bank's staff. It restates that, since the Indian side sealed up the bank's offices in India and froze and seized its assets, India must bear all the losses to the Chinese side; China reserves all rights to compensation.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 272 (Feb. 23, 1963).'
+    src:
+      c: cff9996e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 272: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1963-02-24.vietnam
     when: Feb. 24
     date: '1963-02-24'
@@ -1411,6 +2177,13 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 512: all'
         - 'via x.2006.kcw-p512-1963-02-24: all'
+  - id: cal.1963-02-24.china-leadership
+    when: Feb. 24
+    date: '1963-02-24'
+    thread: china-leadership
+    c: Zhou Enlai with responsible persons, arranging the economic work of 1963.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 24, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-02-25.court
     when: Feb. 25
     date: '1963-02-25'
@@ -1546,8 +2319,29 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Great Hall, afternoon. Mao at the Work Conference''s plenary, to which Liu Shaoqi reports on the struggle against modern revisionism: its course, the nature of the dispute, the outlook, and China''s line. To Liu''s "the fight touches the fate of revolutions and of mankind," Mao: "and of our country." To "unite and struggle; struggle to unite": Khrushchev does the same, and after a round writes asking for a meeting. And: "some concessions will still be made, as at the Moscow Declaration and Statement."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 25, 1963. Made public: 2013. To check: Liu''s report, "On the struggle against modern revisionism," and Mao''s mid-March notes on Stalin in it. See [[cal.1963-02-23.china-leadership-2]]. Names: Mao Zedong, Liu Shaoqi, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 25, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 532–537 (Wu''s account of the conference''s discussion of the struggle against revisionism, speakers named only as "everyone" and "leading comrades of the Center": the wave against China has five features (Khrushchev, hurt by the Indian border war and Cuba, turns it on China; it is open but leaves room; his "majority" fails, 20, 30, 40 parties at five congresses, fewer than in 1960; the left parties speak; the split question is raised); the struggle defends Marxism–Leninism and will be long; the line: principle against revisionism, unity against splitting, revolution against surrender, peace against imperialism, "unite and struggle, struggle to unite," no concession on principle or sovereignty, China never to split first; 42 parties now attack China (535)); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 572 (Feb. 25, 1963; Liu reports at the Central Work Conference on the struggle against modern revisionism: the course of its development, the character of the struggle, its prospects and line; after Liu revised it, it was issued Apr. 2 as an internal document). Made public: 1996. Check: the report: Wu (532–537) gives the conference''s discussion of the struggle against revisionism, in these matters, without naming Liu Shaoqi as speaker; Deng Xiaoping is named as speaking on it at the conference. To check: Liu''s report, "On the struggle against modern revisionism," and Mao''s mid-March notes on Stalin in it. See [[cal.1963-02-23.china-leadership-2]]. Names: Mao Zedong, Liu Shaoqi, Khrushchev.'
+    src:
+      c: 84bc7586
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 25, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 532–537: B'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 572: B'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:liu-shaoqi, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1963-02-25.china-leadership-2
+    when: Feb. 25
+    date: '1963-02-25'
+    thread: china-leadership
+    c: 'Zhou Enlai at the Secretariat. On the "four clean-ups" in Hunan and Henan villages said to be done too hastily: he has told Mao, who says to try them by pilot and not to hurry; organizing the poor and lower-middle peasants likewise, pilot first, regulations after; the cities'' five-antis Peng Zhen is to take up; some industrial targets are too much nationwide and must not grow, others fall short and must be arranged; next year the order of capital construction, orders first, then production, then the plan last, is to be turned round to plan, production, orders.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 25, 1963). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Peng Zhen.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-02-25.china-leadership-3
+    when: Feb. 25
+    date: '1963-02-25'
+    thread: china-leadership
+    also: [japan]
+    c: Zhou Enlai with Liao Chengzhi on Japan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 535 (Feb. 25, 1963). Made public: 1997. Names: Zhou Enlai, Liao Chengzhi.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-02-26.defense
     when: Feb. 26
     date: '1963-02-26'
@@ -1620,6 +2414,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-02-26.china-leadership
+    when: Feb. 26
+    date: '1963-02-26'
+    thread: china-leadership
+    c: 'Zhou Enlai, "The Present Situation and Our Tasks," to the joint session of the national conference on agricultural science and technology (Feb. 8–Mar. 31, over 1,200 specialists, which fixed the 1963–72 plan) and the PLA''s conference on political work. Science and technology are weak, some at the level of the 1930s and 1940s; the tasks: fulfill the 1963 plan, including the last million of cuts in the first half; go on with the science plan; strengthen defense; socialist education. He sums up Lei Feng in four phrases and says he too learned from him. Population grew 3.1 percent last year; he wants 2 percent, the cities 1.5, taking fifteen years.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 536 (Feb. 26, 1963). Continues 537. Made public: 1997. Names: Zhou Enlai, Lei Feng.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-02-27.congress
     when: Feb. 27
     date: '1963-02-27'
@@ -1683,6 +2484,25 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 513: all'
         - 'via x.2006.kcw-p513-1963-02-27: all'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1963-02-27.china-leadership
+    when: Feb. 27
+    date: '1963-02-27'
+    thread: china-leadership
+    c: Zhou Enlai with persons concerned on wage adjustment.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 537 (Feb. 27, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02-27.china-leadership-2
+    when: Feb. 27
+    date: '1963-02-27'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The *Renmin ribao* editorial "Whence the differences? A reply to Comrade Thorez and others." It traces the differences from the CPSU's Twentieth Congress but, for the movement's sake, takes up only the time since the Moscow Declaration of 1957; dates the opening of the public dispute to Sept. 9, 1959, when the agency of a socialist country, not named, issued a statement on the Sino-Indian conflict; defends the 1960 articles on Leninism; blames the Bucharest meeting of June 1960; charges the cancelling of hundreds of contracts; states China's stand on the Indian border and on Cuba; and holds that an end of public polemic must be mutual and full.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 525–527 (the editorial of Feb. 27, 1963; it names Thorez and others of the French party, which of the parties of the capitalist countries was loudest against China and Albania, Korea, Vietnam, Indonesia, Japan, Burma, Thailand and Malaya; the paper did not name the USSR or TASS; one of the three articles the Work Conference decided to write, the others being the second Togliatti piece and the answer to the American Communist statement). Names: Thorez.'
+    src:
+      c: c29940ac
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 525–527: all'
+    tags: [polity:prc, name:thorez-maurice]
   - id: cal.1963-02-28.voting-rights
     when: Feb. 28
     date: '1963-02-28'
@@ -1949,6 +2769,7 @@ entries:
   - id: cal.1963-02.vietnam-2
     when: Feb., early
     date: 1963-02
+    at: before 1963-02-01
     thread: vietnam
     also: [defense]
     c: 'CINCPAC and the Joint Chiefs recommend more Vietnamese paramilitary forces for fiscal 1963: the Civil Guard from 81,000 to 86,000, the Self Defense Corps from 80,000 to 104,000; William Bundy for McNamara''s approval. A helicopter company and a maintenance unit approved.'
@@ -2026,6 +2847,7 @@ entries:
   - id: cal.1963-02.desegregation-schools-3
     when: Feb., late
     date: 1963-02
+    at: before 1963-02-19
     thread: desegregation-schools
     also: [legislatures]
     c: 'Springfield, Ill. The Illinois House passes the Armstrong Act, amending the School Code: school boards to avoid segregation in siting new schools and to rectify de facto segregation in drawing attendance zones. In force in June; the Chicago board to publish racial head counts.'
@@ -2185,5 +3007,144 @@ entries:
     date: '1963-02-28'
     thread: china-leadership
     c: 'The Great Hall, afternoon. Mao presides at the Work Conference''s closing, speaks after Deng Xiaoping lists the papers to be adopted. The meeting ran in parallel: Deng, Chen Boda, Kang Sheng and others on the international questions, Mao drawn in; Liu Shaoqi on both. On home affairs: take hold of socialist education, of cadres and of the masses; protect 90 percent of the cadres, "a warm-water bath, not cold, not boiling," and then bind them to the activists among poor and lower-middle peasants.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 28, 1963. Made public: 2013. See [[cal.1963-02-25.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Chen Boda, Kang Sheng, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 28, 1963. [[w.lengxi-shinian-lunzhan-1956-1966]], 537–540 (Wu on Mao''s closing remarks, Feb. 28: true Marxists to unite and educate the cadres and masses who do not understand Marxism, hence socialist education in the villages; 90 percent of the intellectuals approve the anti-revisionist articles (image: 百分之九十); 43 parties abuse China, and their texts are all to be printed; after a few more articles, a pause ("a tightening and a loosening"); Deng Xiaoping, agreeing, conveys the Standing Committee''s decision: stop after the planned articles; the two parties'' talks first, a third conference of the parties perhaps after; five possible states of relations, from a form of unity with differences to a split of everything; four tasks (finish the articles and turn to pamphlets; prepare the talks; strengthen propaganda abroad and the work with the left; guard against revisionism at home)). Made public: 1999. See [[cal.1963-02-25.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Chen Boda, Kang Sheng, Liu Shaoqi.'
+    src:
+      c: 75dd5aed
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Feb. 28, 1963: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 537–540: B, E'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:chen-boda, name:kang-sheng, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1963-02-28.china-leadership-2
+    when: Feb. 28
+    date: '1963-02-28'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai, after twice seeing the Nanjing Military Region Front Drama Troupe's *Sentinels under the Neon Lights*, holds a forum with the arts circles and gives over thirty comments on theme, direction, lines, acting, sound and props. Persons are to grow and be revealed as the action advances and the conflicts deepen; he does not agree to make the bad man uglier; a disguise is not seen through at once; in opera a painted face can show it, but even there one learns by listening; the playboy's appearance should not be too outward. He asks that writers be roused to write more of the present.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 537 (Feb. 28, 1963). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-02.china-leadership
+    when: Feb.
+    date: 1963-02
+    at: after 1963-02-11
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking, the Central Work Conference (Feb. 11–28). Deng Xiaoping speaks at length on the struggle against revisionism: its course since the CPSU''s Twentieth Congress; the efforts of the Party to work on and to criticize the CPSU, at the Moscow meetings of 1957 and 1960, which did not stop Khrushchev''s revisionism; the new period opened by the Twenty-second Congress, with the systematizing of revisionism in theory and the cruder and cruder splitting; and the turn from private to public dispute, with five congresses used for attacks on the CCP.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 532 ("in this Central Work Conference" (Feb. 11–28, 1963); "in the seven years from the CPSU''s Twentieth Congress" (七年间); the conference''s discussion that follows (532–537) is of the course of Khrushchev''s wave, its five features, the nature of the struggle, its long course, the line and its tactics, the likelihood of a break). Made public: 1999. See [[cal.1963-02-11.china-leadership]]. Names: Deng Xiaoping. Check: the day within Feb. 11–28; whether the speech is a group meeting''s, or part of the closing day''s papers ([[cal.1963-02-28.china-leadership]]).'
+    src:
+      c: 6a1abdd9
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 532: all'
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-02.china-leadership-2
+    when: Feb.
+    date: 1963-02
+    thread: china-leadership
+    also: [soviet-union]
+    c: Peking. The Standing Committee, Mao back from his months away, formally names the Central Committee's anti-revisionist drafting group, under the Standing Committee. Kang Sheng heads it, Wu Lengxi is deputy; its members include Liao Chengzhi, Wu Xiuquan, Liu Ningyi, Zhang Hanfu and Kong Yuan, with the writers Xu Liqun, Yao Zhen, Qiao Guanhua (deputy head once the two-party talks begin), Wang Li, Fan Ruoyu, Hu Sheng and Xiong Fu; Chen Boda sits with it as he pleases. Drafts go first to a meeting under Deng Xiaoping, with Peng Zhen, Lu Dingyi, Luo Ruiqing and Liang Biye, and then to the Standing Committee.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 540–541 (the group''s work from Nov. 1962; the writers together at the Diaoyutai from Dec. 1962; named at the Standing Committee after Mao''s return, Feb. 1963; it kept at work until the start of the Cultural Revolution in May 1966, when it broke up; Qiao Mu (Hu Qiaomu) had been wholly on leave since the summer of 1961 by Mao''s order). Made public: 1999. Names: Kang Sheng, Qiao Guanhua, Chen Boda, Deng Xiaoping, Peng Zhen, Lu Dingyi, Luo Ruiqing, Mao Zedong. Check: the day: Wu gives Feb. 1963, after Mao''s return to Peking; the session is not dated.'
+    src:
+      c: f542a1f5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 540–541: all'
+    tags: [polity:prc, name:kang-sheng, name:qiao-guanhua, name:chen-boda, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:luo-ruiqing, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-02-28.china-leadership-3
+    when: Feb. 28
+    date: '1963-02-28'
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi receives Petri, Sweden''s new ambassador. Liu: China has had decades of war and is backward in economy and culture; changing that needs decades of peace; war would stop its construction, so it hopes for peace, say at least fifty years.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 572 (Feb. 28, 1963). Made public: 1996. Names: Liu Shaoqi, Petri. Check: the ambassador''s name is 佩特里 in the book (given there with a first name, read here as Lennart Petri).'
+    tags: [polity:prc, polity:sweden, name:liu-shaoqi, vis:only:prc+sweden@B-D, name:petri-lennart]
+  - id: cal.1963-02.china
+    when: Feb., after the 8th
+    date: 1963-02
+    at: after 1963-02-08
+    thread: china
+    also: [south-asia]
+    c: China and Cambodia issue a joint communique on Sihanouk's visit. Both consider the friendly, good-neighborly relations of mutual respect and equality between China and Cambodia a good model of peaceful coexistence of countries with different social systems. China thanks Prince Sihanouk for his sincere efforts for a peaceful settlement of the Sino-Indian boundary question and for direct talks, and for his fair attitude. Sihanouk holds that China's unilateral cease-fire and withdrawal show its wish for a peaceful settlement, and welcomes its understanding and cooperation toward the Colombo conference. China strongly condemns imperialism and its followers' infringement of Cambodia's sovereignty, independence and neutrality, and actively supports the measures the Cambodian government takes to respect its neutrality and territorial integrity.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269–270 (Feb., after the 8th, 1963). Names: Norodom. Check: the book dates the communique within the visit of Feb. 8–28 and gives no day.'
+    src:
+      c: ff319538
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269–270: all'
+    tags: [polity:prc, polity:cambodia, polity:india, name:norodom-sihanouk]
+  - id: cal.1963-02.china-2
+    when: Feb., after the 8th
+    date: 1963-02
+    at: after 1963-02-08
+    thread: china
+    also: [cuba]
+    c: A communique on the Chinese–Cuban economic and trade talks is issued. Both sides agree that they wish to strengthen further their economic and trade mutual aid and cooperation, to promote the development of the two peoples' common cause of opposing imperialism and building socialism.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 269 (Feb., after the 8th, 1963). Check: the book dates the communique within the visit of Feb. 8–23 and gives no day.'
+    src:
+      c: c56191a2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 269: all'
+    tags: [polity:prc, polity:cuba]
+  - id: cal.1963-02.china-leadership-3
+    when: Feb.
+    date: 1963-02
+    thread: china-leadership
+    also: [south-asia]
+    c: Mao, hearing a report on the success in the Himalayas, says it proves that the PLA has grasped politics.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 311. Made public: 1997. To check: [[w.zedong-xuexi-ziliao-materials-of]], 3, 49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.88). Names: Mao Zedong. Check: the day.'
+    src:
+      c: 75e5b0f3
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 311: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.88: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1963-02.china-leadership-4
+    when: Feb., after the 11th
+    date: 1963-02
+    at: after 1963-02-11
+    thread: china-leadership
+    c: 'Central Work Conference. Mao breaks into a speech of Liu Shaoqi''s: revisionism is to be stopped in the countryside; a cadre is bought for three catties of pork or a few packs of cigarettes; only class struggle prevents it.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 336. Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 527 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.15); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1107 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.16a). See [[cal.1963-02-11.china-leadership]]. Names: Mao Zedong, Liu Shaoqi. Check: the day; whether Liu''s speech is the report of Feb. 25 on the struggle against modern revisionism (see the entry of Feb. 25).'
+    src:
+      c: fb7b7296
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 336: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.15: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.16a: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:liu-shaoqi]
+  - id: cal.1963-02.china-leadership-5
+    when: Feb., after the 11th
+    date: 1963-02
+    at: after 1963-02-11
+    thread: china-leadership
+    c: Central Work Conference. Mao agrees to extend the economic adjustment through 1965.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 336. Made public: 1988. To check: [[w.yunfei-liu-shaoqi-yu-liushi]], 13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.18a); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 513 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 336 n.18b). See [[cal.1963-02-11.china-leadership]]. Names: Mao Zedong. Check: *Qishi nian jianjie* (513) has the decision taken at Zhou Enlai''s suggestion, but not until Sept. 1963.'
+    src:
+      c: 6233ebde
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 336: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.18a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 336 n.18b: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1963-02.china-leadership-6
+    when: Feb., before the 22nd
+    date: 1963-02
+    at: before 1963-02-22
+    thread: china-leadership
+    c: 'The editors of *Zhongguo qingnian* write to Mao: an article on Lei Feng, a PLA soldier, is coming; would he write a slogan in his own hand? Lin Ke, his secretary, puts the letter among the day''s papers. The editors telephone twice.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338. Made public: 1993. To check: [[w.yun-shi-fou-xuanchuan-lei]], 4–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.26); [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). Names: Mao Zedong. Check: the day.'
+    src:
+      c: 3a9a61af
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 338: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.26: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.27: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1963-02.china-leadership-7
+    when: Feb.
+    date: 1963-02
+    thread: china-leadership
+    c: Djilas's *The New Class* published in China as a *neibu* (internal) book.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 363. Made public: 1997. To check: Michael Schoenhals, information on the neibu printing of Djilas''s *The New Class*, Feb. 1963 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.93c). Check: the day and the publisher; the book gives only February 1963 (III, 363 n.93).'
+    src:
+      c: 20fe897e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 363: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 363 n.93c: all'
+    tags: [polity:prc, vis:only:prc]

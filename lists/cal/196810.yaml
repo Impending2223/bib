@@ -152,8 +152,23 @@ entries:
     date: '1968-10-01'
     thread: china-leadership
     c: Peking, Tiananmen, 10 a.m. Mao with Lin Biao, Zhou Enlai and others at the National Day rally for the nineteenth anniversary; reviews the parade; in the rest room meets the Albanian party's Politburo member Balluku and the Pakistani government friendship delegation under Said, the President's adviser; at night the fireworks, and he receives provincial revolutionary committee heads, workers' delegates and the Ecuadorian CP (M-L)'s first and second secretaries.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 1, 1968. Names: Mao Zedong, Lin Biao, Zhou Enlai, Balluku, Said.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 1, 1968. [[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 1, 1968; evening, Tiananmen tower, at the fireworks; Zhou accompanies Mao in receiving the Pakistani government friendship delegation under Syed Fida Hasan (赛义德·菲达·哈桑), adviser to President Ayub Khan); [[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 1, 1968; morning, Tiananmen tower, with 500,000 of the capital''s soldiers and people). Names: Mao Zedong, Lin Biao, Zhou Enlai, Balluku, Said.'
+    src:
+      c: 0a2a0478
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 1, 1968: all'
+        - 'w.zhou-enlai-waijiao-huodong 530: A'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai]
+    variants:
+      - unit: D
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Mao, with Zhou, receives the Pakistani delegation under Syed Fida Hasan in the evening, on the Tiananmen tower at the fireworks
+        at: '530'
+    time_range:
+      - 1968-09-30T22:00Z
+      - 1968-10-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1968-10-01.china-leadership-2
     when: Oct. 1
     date: '1968-10-01'
@@ -286,6 +301,60 @@ entries:
     c: The White House, from a little past 8 p.m. State Dinner for President Tombalbaye of Chad, in the Yellow Room first with his Ministers. He tells Mrs. Johnson that parts of his country have never had rain; they discuss his coming trip to Lubbock, Texas, and Texas Tech, where the problems of arid countries are studied.
     n: '[[w.johnson-white-house-diary]], 715 (Lady Bird Johnson''s account; the toasts are not given). To check: the Public Papers, the toasts. See [[cal.1968-10-02.africa]]. Names: Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, city:washington]
+  - id: cal.1968-10-02.china-leadership
+    when: Oct. 2
+    date: '1968-10-02'
+    thread: china-leadership
+    c: Zhou holds talks with the Albanian party and government delegation led by Balluku.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 2, 1968; Beijing; the time not given). The book gives no content. Names: Zhou Enlai.'
+    src:
+      c: e934a153
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1968-10-02.china-leadership-2
+    when: Oct. 2
+    date: '1968-10-02'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou attends the National Day reception given by the chargé d'affaires of Guinea's embassy.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 2, 1968; evening; Beijing). The book names the chargé 卡马拉·塞古 in the Oct. 2 item only as the head of the embassy. Names: Zhou Enlai.'
+    src:
+      c: 6c9bf91d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-10-02T11:00Z
+      - 1968-10-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1968-10-02.china-leadership-3
+    when: Oct. 2
+    date: '1968-10-02'
+    time: 1968-10-02T11:30Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives the Pakistani government friendship delegation led by the adviser Hasan in the Great Hall of the People and attends the farewell banquet given by the delegation's head.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 2, 1968; 7:30 p.m., Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 203 (Sept. 28–Oct. 5, 1968; Syed Fida Hassan''s delegation, Sept. 28 to Oct. 5; Mao and Zhou each receive it). Names: Zhou Enlai.'
+    src:
+      c: 661dac83
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 203: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1968-10-02.china-leadership-4
+    when: Oct. 2
+    date: '1968-10-02'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on the draft editors'' note of the *Renmin ribao* 人民日报 for the Liuhe 柳河 May Seventh cadre school item, sent by Yao Wenyuan 姚文元 Oct. 2: ''Usable.'' The note, printed Oct. 5, quotes his note of Sept. 30 and asks the cadres, those who erred included, to go down and take up learning anew, and the old and new cadres of the revolutionary committees to go down by turns.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 341–343 (Oct. 2, 1968). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. See [[cal.1968-09-30.china-leadership]]. Names: Mao Zedong, Yao Wenyuan.'
+    src:
+      c: e362e3ce
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 341–343: all'
+    tags: [polity:prc, name:mao-zedong, name:yao-wenyuan, vis:only:prc]
   - id: cal.1968-10-03.desegregation-schools
     when: Oct. 3
     date: '1968-10-03'
@@ -386,6 +455,14 @@ entries:
     c: Moscow. Dubček, Černík and Husák. Brezhnev, Kosygin and Podgorny meet them at Vnukovo Oct. 3, 1 to 2 p.m.; negotiate with them 3 to 9, Brezhnev receiving them alone at 7 to 7:15; at 9 a meeting with Kosygin, Podgorny and Rusakov; Oct. 4, 11 to 8, in the Central Committee's meeting hall, with Katushev and Rusakov; Brezhnev sees the delegation off at Vnukovo, 10 p.m.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 288–289 (Oct. 3–4). See [[cal.1968-08-26.soviet-union-czechoslovakia]]. Names: Brezhnev, Kosygin, Podgorny, Dubček, Černík, Husák, Rusakov, Katushev.'
     tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:podgorny-nikolai-v, name:dubcek-alexander, name:husak-gustav, name:katushev-konstantin-f, polity:ussr, polity:czechoslovakia]
+  - id: cal.1968-10-03.china-leadership
+    when: Oct. 3
+    date: '1968-10-03'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: 'Zhou Enlai attends the meeting of heads of news organizations and asks the heads of Xinhua, Renmin ribao and Jiefangjun bao why they cannot merge: each sends a big bundle of photographs for review, wasting much effort and the state''s foreign exchange and funds; drop the display of themselves and it will be easier.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 3, 1968). Made public: 2020. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1968-10-04.elections-1968
     when: Oct. 4
     date: '1968-10-04'
@@ -417,6 +494,36 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1968-10-04.china-leadership
+    when: Oct. 4
+    date: '1968-10-04'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai with the Cultural Revolution Group's liaison members receives the heads of the provincial, municipal and regional revolutionary committees.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 4, 1968). Made public: 2020. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-10-04.china-leadership-2
+    when: Oct. 4
+    date: '1968-10-04'
+    thread: china-leadership
+    c: Zhou attends the rally of 100,000 of the capital's people welcoming the Albanian party and government delegation.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 4, 1968; Beijing; the time not given). Names: Zhou Enlai.'
+    src:
+      c: 1842498e
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 530: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1968-10-04.china-leadership-3
+    when: Oct. 4
+    date: '1968-10-04'
+    thread: china-leadership
+    c: 'The Center, the Military Commission and the Cultural Revolution Group send the whole army the Military Commission Office Group''s letters and visits digest of Aug. 28 on the heart-to-heart meetings (tanxinhui 谈心会) on supporting the army: the units doing the ''three supports and two militaries'' (sanzhi liangjun 三支两军) are to hold such meetings, as Mao 毛泽东 directs, treat masses of other views sincerely and criticize themselves more.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 312 (Oct. 4, 1968; n.1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) gives it. See [[cal.1968-09-04.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: ce5e1b32
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 312: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1968-10-05.mayors-honolulu
     when: Oct. 5
     date: '1968-10-05'
@@ -466,7 +573,12 @@ entries:
     date: '1968-10-05'
     thread: china-leadership
     c: 'Mao receives the Albanian party and government delegation under Balluku, Great Hall, evening; Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan and Huang Yongsheng present. On cleaning up class ranks: the defeated class still struggles; Kuomintang remnants got into the central and local organs, now cleaned out by the Party, government, army and people themselves; half a year to a year more of class cleaning and Party rectification, then ten to twenty years'' quiet.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 5, 1968. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Huang Yongsheng, Balluku. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 5, 1968. [[w.zhou-enlai-waijiao-huodong]], 530 (Oct. 5, 1968; Zhou accompanies Mao in receiving the Albanian delegation under Balluku). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Huang Yongsheng, Balluku. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    src:
+      c: e06306cd
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 5, 1968: all'
+        - 'w.zhou-enlai-waijiao-huodong 530: A'
     tags: [polity:prc, polity:albania, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, name:zhang-chunqiao, name:yao-wenyuan, name:huang-yongsheng, vis:only:prc+albania@C-E]
   - id: cal.1968-10-06.opinion
     when: Oct. 6
@@ -487,6 +599,41 @@ entries:
       - 1968-10-07T00:00Z
       - 1968-10-07T06:00Z
     time_zone: America/New_York
+  - id: cal.1968-10-06.china-leadership
+    when: Oct. 6
+    date: '1968-10-06'
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: Zhou Enlai, on Vietnam's request to send a delegation to China, drafts for the Foreign Ministry a telegram to Chen Shuliang, the chargé in Vietnam, to see Prime Minister Phạm Văn Đồng at once and tell him that, busy with domestic affairs in October, China's Party and government leaders cannot receive a Vietnamese Party and government delegation; the relief Vietnam needs for its typhoon losses and the needs of the war in the South may first be adjusted in the 1969 aid agreement. On Oct. 9, receiving Vietnam's Vice Minister of Foreign Trade, Lý Ban, he states the same.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 6, 1968). Made public: 2020. Names: Zhou Enlai, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+  - id: cal.1968-10-06.china-leadership-2
+    when: Oct. 6
+    date: '1968-10-06'
+    thread: china-leadership
+    c: Zhou attends the banquet given by Albania's ambassador Natanaili for the Albanian party and government delegation under Balluku.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 531 (Oct. 6, 1968; the book gives no hour; Beijing). Names: Zhou Enlai.'
+    src:
+      c: d1b5d8f6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 531: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-10-06T11:00Z
+      - 1968-10-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1968-10-06.china-leadership-3
+    when: Oct. 6
+    date: '1968-10-06'
+    thread: china-leadership
+    c: Chen Yi and Guo Moruo receive Senanayake, secretary-general of the Afro-Asian Writers' Permanent Bureau, and his wife, in friendly talk.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 205 (Oct. 6, 1968). Names: Chen Yi.'
+    src:
+      c: e6e06bfc
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 205: all'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1968-10-07.vietnam-paris
     when: Oct. 7
     date: '1968-10-07'
@@ -557,6 +704,33 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-10-07.china-leadership
+    when: Oct. 7
+    date: '1968-10-07'
+    thread: china-leadership
+    c: Zhou goes to the airport to see off the Albanian party and government delegation, leaving for other places.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 531 (Oct. 7, 1968; morning; Beijing airport). Names: Zhou Enlai.'
+    src:
+      c: fb1702c8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 531: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1968-10-06T22:00Z
+      - 1968-10-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1968-10-07.china-leadership-2
+    when: Oct. 7
+    date: '1968-10-07'
+    thread: china-leadership
+    c: The Center and the Cultural Revolution Group forward the Shanghai 上海 Revolutionary Committee's report of Sept. 27 on the workers' propaganda teams' entry into the middle and primary schools.
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 336 (Oct. 7, 1968; n.1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) gives it. See [[cal.1968-09-29.china-leadership-6]].'
+    src:
+      c: 71d23c91
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 336: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1968-10-08.space
     when: Oct. 8
     date: '1968-10-08'
@@ -663,6 +837,14 @@ entries:
     c: The White House bowling alley. Mrs. Johnson bowls with Muriel Humphrey and Jane Muskie "preceded by enough press and photographers to record a 'Summit Meeting'"; she scores a poor third. The next day's coverage was "widespread ... in columns, pictures, and news stories."
     n: '[[w.johnson-white-house-diary]], 718 (Lady Bird Johnson''s account). The day is Tuesday, Oct. 8. Names: Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, city:washington]
+  - id: cal.1968-10-08.china-leadership
+    when: Oct. 8
+    date: '1968-10-08'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai at the Cultural Revolution Group's liaison meeting, which fixes the draft list of those to attend the enlarged Twelfth Plenum of the Eighth Central Committee at 133. On Oct. 9 he drafts an explanation of the list and sends it with the list to Mao and Lin Biao for decision.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 8, 1968). Made public: 2020. Names: Zhou Enlai, Lin Biao, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:lin-biao, name:mao-zedong, vis:only:prc]
   - id: cal.1968-10-09.vietnam
     when: Oct. 9
     date: '1968-10-09'
@@ -749,8 +931,37 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Peking: strikes Xiao Li and Mao Yuanxin from Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing''s draft list for the enlarged Twelfth Plenum; neither to attend. That evening, in Hall 118, he meets Lin Biao, Zhou and others on adding ten members to the Central Committee.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 9, 1968. Made public: 2013. Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Xiao Li, Mao Yuanxin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 9, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 8–11, 1968; the draft list and the meeting at Mao''s); [[w.jianguo-yilai-mao-zedong]], XIX, 345 (Oct. 9, 1968; Mao''s note ''Xiao Li and Mao Yuanxin should not take part'' on the draft list of 133 sent by Zhou, Chen Boda, Kang Sheng and Jiang Qing at 2 p.m. Oct. 9; Xiao Li is Li Na 李讷, his daughter, head of the Group''s office, and Mao Yuanxin 毛远新 his nephew, a vice-chairman of the Liaoning Revolutionary Committee). Made public: 2013. To check: Draft list (133 names) of those to attend the enlarged Twelfth Plenum of the Eighth Central Committee (Chuxi Zhonggong bajie kuoda de shi''er zhong quanhui mingdan (caoan) 出席中共八届扩大的十二中全会名单(草案)), sent to Mao by Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing at 2 p.m. Oct. 9, 1968 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 345 n.1). Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Xiao Li, Mao Yuanxin.'
+    src:
+      c: c2ec7b92
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 9, 1968: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 257: A, C'
+        - 'w.jianguo-yilai-mao-zedong XIX, 345: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 345 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, vis:only:prc]
+  - id: cal.1968-10-09.china-leadership-3
+    when: Oct. 9
+    date: '1968-10-09'
+    time: 1968-10-09T10:50Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives Vietnam's deputy minister of foreign trade, Lý Ban, in the Fujian Hall of the Great Hall of the People.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 531 (Oct. 9, 1968; 6:50 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: ab014b2d
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 531: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1968-10-09.china-leadership-4
+    when: Oct. 9
+    date: '1968-10-09'
+    thread: china-leadership
+    also: [china]
+    c: From Oct. 9 Liu Shaoqi can no longer feed himself and is kept alive by nasal feeding.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 660 (Oct. 9, 1968). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1968-10-10.court
     when: Oct. 10
     date: '1968-10-10'
@@ -856,6 +1067,25 @@ entries:
     c: 'The Politburo in session on the economy and the tasks of 1969: great victories, the front supplied and the economy turned to wartime, but management weak, the Party''s line not grasped, the masses'' collective mastery and the dictatorship of the proletariat not fully used. In 1969, a year of the utmost importance: the front first, production and the people''s life, preparation for the years after and for recovery after the war; management reformed, the market campaign pressed. Its resolution no. 185-NQ/TW dated Dec. 26.'
     n: '*Nghị quyết của Bộ Chính trị số 185-NQ/TW, ngày 26 tháng 12 năm 1968, Về nhận định tình hình kinh tế hiện nay và nhiệm vụ kinh tế năm 1969 (Kỳ họp từ ngày 10 đến ngày 13-10-1968)*, signed for the Politburo by Phạm Văn Đồng. [[w.van-kien-dang-toan]], XXIX, 1186–1205. Made public: 2004.'
     tags: [polity:drv, vis:only:drv, name:pham-van-dong]
+  - id: cal.1968-10-10.china-leadership
+    when: Oct. 10
+    date: '1968-10-10'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai drafts for the Center and the Cultural Revolution Group the notice convening the enlarged Twelfth Plenum of the Eighth Central Committee.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 10, 1968). Made public: 2020. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-10-10.china-leadership-2
+    when: Oct. 10
+    date: '1968-10-10'
+    thread: china-leadership
+    c: 'Lin Biao 林彪, on the draft list of those to attend the enlarged Twelfth Plenum: Xiao Li 肖力 and Mao Yuanxin 毛远新 have done well these two years, and he had meant to agree to their attending; in view of Mao''s 毛泽东 note and his view at the meeting of the evening before, Mao''s instruction is to be followed; Xiao Li, head of the Cultural Revolution Group''s office, who has done much for the *Jiefangjun bao* 解放军报, might attend as staff.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 346 (Oct. 10, 1968; n.1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) gives it. Check: Mao''s note and his view of the evening of Oct. 9, which the book does not print. Xiao Li is Li Na 李讷, Mao''s daughter (n.1). See [[cal.1968-10-09.china-leadership]]. Names: Lin Biao, Mao Zedong.'
+    src:
+      c: 80c107d2
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 346: all'
+    tags: [polity:prc, name:lin-biao, name:mao-zedong, vis:only:prc]
   - id: cal.1968-10-11.space
     when: Oct. 11
     date: '1968-10-11'
@@ -961,6 +1191,26 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-10-11.china-leadership
+    when: Oct. 11
+    date: '1968-10-11'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai sends Mao for decision the list, in order, of the ten to be added to the Central Committee, the order fixed at the meeting at Mao's on Oct. 9, with nine more alternate members.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 257 (Oct. 11, 1968). Made public: 2020. See [[cal.1968-10-09.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-10-11.china-leadership-2
+    when: Oct. 11
+    date: '1968-10-11'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on Zhou Enlai''s 周恩来 report of Oct. 11 on the list for the plenum (Mao Yuanxin 毛远新 not to attend, Yang Chunfu 杨春甫 to attend for Liaoning 辽宁; Lin Biao''s instruction of Oct. 10 attached): ''Xiao Li 肖力 should not be one of the staff.'''
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 346 (Oct. 11, 1968). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. Xiao Li is Li Na 李讷, Mao''s daughter, head of the Cultural Revolution Group''s office (n.1). See [[cal.1968-10-10.china-leadership-2]]. To check: Zhou Enlai, report of Oct. 11, 1968 to Mao Zedong on the draft list of those attending the enlarged Twelfth Plenum and other questions: Mao Yuanxin not to attend, Yang Chunfu to attend for the Liaoning Revolutionary Committee; Lin Biao''s instruction of Oct. 10 attached (Li Na and Mao Yuanxin have done well these two years, he had meant to agree to their attending; in view of Mao''s note and his view at last evening''s meeting, to follow it; since Li Na heads the Group''s office and has helped the Jiefangjun bao, she might attend as staff) (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 346 n.1). Names: Mao Zedong, Zhou Enlai, Lin Biao, Mao Yuanxin.'
+    src:
+      c: b771058b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 346: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 346 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:lin-biao, vis:only:prc]
   - id: cal.1968-10-12.vietnam
     when: Oct. 12
     date: '1968-10-12'
@@ -1045,8 +1295,16 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Hall 118, evening, with Lin Biao and the Cultural Revolution Group on his speech for the Twelfth Plenum: was the Eleventh Plenum right, or mainly right; was the Cultural Revolution needed; had the Center, the provinces, the Red Guards and the army supporters done well; cadres have been too much struck; Deng Xiaoping can do some work; defection and surrender to be told apart.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 12, 1968. Made public: 2013. Names: Mao Zedong, Lin Biao, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 12, 1968. Made public: 2013. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 257–258 (Oct. 12, 1968), has Mao saying at the meeting only that some cadres have erred but may still be given work later. Names: Mao Zedong, Lin Biao, Deng Xiaoping.'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1968-10-12.china-leadership-2
+    when: Oct. 12
+    date: '1968-10-12'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai at the Cultural Revolution Group's liaison meeting that evening, on the list of the plenum's groups and their conveners. On Oct. 13 he drafts the list and an explanation and sends them to Mao and Lin Biao for decision.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 258 (Oct. 12, 1968). Made public: 2020. See [[cal.1968-10-12.china-leadership]]. Names: Zhou Enlai, Lin Biao, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:lin-biao, name:mao-zedong, vis:only:prc]
   - id: cal.1968-10-13.opinion
     when: Oct. 13
     date: '1968-10-13'
@@ -1081,7 +1339,13 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao opens the Twelfth Plenum of the Eighth Central Committee (enlarged), Peking, Oct. 13–31, and speaks. Zhou Enlai gives the attendance and the agenda: preparing the Ninth Congress, amending the Party constitution, the domestic and international situation, the investigation report on the Liu Shaoqi case. Mao: two views, that the Eleventh Plenum''s resolution was basically right and that it was not; a show of hands is not agreement.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 13, 1968. Made public: the communique, *Renmin ribao*, Nov. 2, 1968 (the plenum''s opening); 2013. To check: the plenum''s records; Mao''s speeches (the *wengao*). Names: Mao Zedong, Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 13, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 258 (Oct. 13, 1968; the agenda and Mao''s speech); [[w.jianguo-yilai-mao-zedong]], XIX, 347 (Oct. 13, 1968; two passages of Mao''s speech at the opening of the plenum: the old north-south wars were easy to fight, the enemy being clear, and the Cultural Revolution is much harder; the trouble is that those who erred in thought and the contradictions with the enemy are mixed together and cannot yet be sorted out; Lin Biao quoted them in his report to the Ninth Congress of Apr. 1, 1969, printed in the *Renmin ribao* Apr. 28, 1969). Made public: the communique, *Renmin ribao*, Nov. 2, 1968 (the plenum''s opening); 2013. To check: the plenum''s records; Mao''s speeches (the *wengao*). Names: Mao Zedong, Zhou Enlai, Liu Shaoqi.'
+    src:
+      c: b75e9d06
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 13, 1968: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 258: A, B'
+        - 'w.jianguo-yilai-mao-zedong XIX, 347: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc, name:liu-shaoqi]
   - id: cal.1968-10-13.china-leadership-2
     when: Oct. 13
@@ -1089,8 +1353,22 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Peking: Kang Sheng, Zhang Chunqiao and Yao Wenyuan''s draft Party constitution, twice discussed in the Group: to be printed for the plenum as a basis. In chapter I he strikes the three adverbs from the clause on Mao as carrying on Marxism-Leninism, and puts "Marxism, Leninism" before "Mao Zedong Thought" twice; changes in chapter IV on the central organs.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 13, 1968. See [[cal.1968-10-13.china-leadership]]. Made public: 2013. To check: the draft Party constitution of Oct. 12 (*Zhongguo gongchandang zhangcheng (caoan)*), Kang Sheng, Zhang Chunqiao and Yao Wenyuan''s covering report, and Mao''s revised text (the *wengao*; cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 13, 1968). Names: Mao Zedong, Kang Sheng, Zhang Chunqiao, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 13, 1968. [[w.jianguo-yilai-mao-zedong]], XIX, 351–355 (Oct. 12, 1968; Mao''s note of Oct. 12 (''can be printed for the comrades of the Twelfth Plenum as a basis for discussion; a few changes''), and his changes: he strikes the three adverbs ''genially, creatively, comprehensively'' before ''inherited, defended and developed Marxism-Leninism'', puts ''Marxism, Leninism'' before ''Mao Zedong Thought'' in two places, and in chapter IV writes ''under the Chairman, Vice-Chairmen and Standing Committee, a number of necessary lean organs are set up to handle the daily work of the Party, government and army'', for ''organs such as the Central Cultural Revolution Group born in the Great Proletarian Cultural Revolution''; the draft is Kang Sheng''s, Zhang Chunqiao''s and Yao Wenyuan''s of Oct. 12). See [[cal.1968-10-13.china-leadership]]. Made public: 2013. To check: the draft Party constitution of Oct. 12 (*Zhongguo gongchandang zhangcheng (caoan)*), Kang Sheng, Zhang Chunqiao and Yao Wenyuan''s covering report, and Mao''s revised text (the *wengao*; cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 13, 1968); Kang Sheng, Zhang Chunqiao and Yao Wenyuan, revised draft of the Constitution of the Communist Party of China (Zhongguo Gongchandang zhangcheng (caoan) 中国共产党章程(草案)), sent to Mao for review Oct. 12, 1968, after two discussions at the Cultural Revolution Group''s liaison meeting, with the proposal that Mao look at it first as a basis (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 352 n.1). Names: Mao Zedong, Kang Sheng, Zhang Chunqiao, Yao Wenyuan.'
+    src:
+      c: 3a8b274d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 13, 1968: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 351–355: A-C'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 352 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:zhang-chunqiao, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1968-10-13.china-leadership-3
+    when: Oct. 13
+    date: '1968-10-13'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: 'Zhou Enlai, after the opening of the enlarged Twelfth Plenum, calls the first meeting of the plenum''s group conveners and introduces the papers printed for it: secrecy is to be kept, each is to take his own notes, nothing is to go outside; the old are to be given medical care.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 258 (Oct. 13, 1968). Made public: 2020. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1968-10-14.congress
     when: Oct. 14
     date: '1968-10-14'
@@ -1179,6 +1457,48 @@ entries:
     c: Humphrey telephones Schlesinger, ninety minutes after David Ginsburg's call, Schlesinger having told Ginsburg he would help "if he asks me directly." The tide of reaction, the need to rally the liberals; he means to go further on Vietnam, but Ben Read of the State Department has advised him to stay where he is for a few days; McGeorge Bundy's Saturday speech has "legitimatized" the antibombing position. Schlesinger will come out for him; Humphrey hopes he will talk to his "academic friends." By Schlesinger's journal.
     n: '[[w.schlesinger-journals]], 300–01 (Ginsburg''s call "this morning," Humphrey having asked him "last night" whether Schlesinger would help; Humphrey had called Bundy "last night"; the journal''s "Reed"). See [[cal.1968-07-16.elections-1968-humphrey]]; [[cal.1968-10-12.vietnam]]. Names: Humphrey, Schlesinger, Ginsburg, Read, Bundy.'
     tags: [name:humphrey-hubert-h, name:schlesinger-arthur-m-jr, name:ginsburg-david, name:read-benjamin-h, name:bundy-mcgeorge]
+  - id: cal.1968-10-14.china-leadership-2
+    when: Oct. 14
+    date: '1968-10-14'
+    thread: china-leadership
+    also: [china]
+    c: 'The "Condition Report" of Oct. 14 on Liu Shaoqi records coronary heart disease, hardening and softening of the cerebral blood vessels, and diabetes: his condition may worsen suddenly, and if a serious relapse comes again, he can no longer be saved.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 660 (Oct. 14, 1968). Made public: 1996. Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1968-10-14.china-leadership-3
+    when: Oct. 14
+    date: '1968-10-14'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on the draft Constitution of the Party: ''Already printed; better to let everyone discuss it.'''
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 351–353 (Oct. 14, 1968). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. See [[cal.1968-10-13.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: 694f3895
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 351–353: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-10-14.china-leadership-4
+    when: Oct. 14
+    date: '1968-10-14'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on the draft *Hongqi* 红旗 editorial ''Absorb the fresh blood of the proletariat: an important question in the work of Party rectification'', sent by Yao Wenyuan 姚文元 Oct. 14, with a passage of Mao''s latest instruction added on p. 10: ''Can be issued.'' He moves it in the table of contents of no. 4 from fourth to first place.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 348 (Oct. 14, 1968). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. See [[cal.1967-11-05.china-leadership]]. To check: Yao Wenyuan, draft of the Hongqi editorial ''Absorb the fresh blood of the proletariat'' (Xishou wuchan jieji de xinxian xueye 吸收无产阶级的新鲜血液), sent to Mao Oct. 14, 1968, adding on p. 10 a passage of his latest instruction (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 348 n.1). Names: Mao Zedong, Yao Wenyuan.'
+    src:
+      c: 8dbff7be
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 348: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 348 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1968-10-14.china-leadership-5
+    when: Oct. 14
+    date: '1968-10-14'
+    thread: china-leadership
+    c: '*Hongqi* 红旗 no. 4 sets in bold type, in its editorial ''Absorb the fresh blood of the proletariat'', two passages of Mao''s 毛泽东, undated in the book: unite all the broad masses who can be united and establish the proletariat''s all-round rule over the few bourgeois; and: who gave us our power? The working class, the poor and lower-middle peasants, the broad laboring masses, over 90 percent of the population; we represent the proletariat and the people, and the people support us because we have overthrown the people''s enemy; the basic point of the Communist Party is to rely directly on the broad revolutionary masses.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 349–350 (Oct. 14, 1968). The *Renmin ribao* printed the editorial Oct. 16 and the second passage again Oct. 17. Check: when Mao said them; the book dates them ''1968''. Names: Mao Zedong.'
+    src:
+      c: fbf9b9c7
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 349–350: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1968-10-15.court
     when: Oct. 15
     date: '1968-10-15'
@@ -1265,6 +1585,18 @@ entries:
     c: 'The Politburo''s secret cable to COSVN: at Paris, behind the scenes, the Americans make Saigon''s part in the conference their condition for ending the bombing. To press them, a four-party conference on an equal footing may be accepted, the Front invited by Hanoi, Saigon by Washington; it will not settle anything at once, the Front to keep its demands. COSVN to give its views, send cadres north at once, Trần Bửu Kiếm too if he is to be the Front''s representative, and explain to the Alliance why it is left out of this step.'
     n: '*Điện mật của Bộ Chính trị, ngày 15 tháng 10 năm 1968* (no. 323, by the cable of Oct. 20, 960), signed "Bộ Chính trị." [[w.van-kien-dang-toan]], XXIX, 949–53. Made public: 2004. See [[cal.1968-10-10.vietnam-paris]]. Names: Trần Bửu Kiếm.'
     tags: [polity:drv, polity:us, polity:rvn, vis:only:drv, name:tran-buu-kiem]
+  - id: cal.1968-10-15.china-leadership
+    when: Oct. 15
+    date: '1968-10-15'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao 毛泽东 telegraphs Enver Hoxha 恩维尔·霍查 on his sixtieth birthday, in his own name and for the Chinese Communist Party and people: Hoxha the founder of the Albanian Party of Labor and great leader of the Albanian people; he joined Marxism-Leninism to Albania''s practice; the friendship of the two peoples, tested in the fierce international class struggle; a long life.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 356–357 (Oct. 15, 1968). Printed in the *Renmin ribao* Oct. 16, 1968. Names: Mao Zedong.'
+    src:
+      c: 73d58407
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 356–357: all'
+    tags: [polity:prc, name:mao-zedong, polity:albania]
   - id: cal.1968-10-16.school-aid
     when: Oct. 16
     date: '1968-10-16'
@@ -1447,6 +1779,22 @@ entries:
     c: 'The Politburo''s resolution no. 183-NQ/TW strengthens the Trị–Thiên–Huế regional committee: Hoàng Anh, Hoàng Sâm and Nguyễn Quyết added, Hoàng Anh its secretary, Trần Văn Quang his deputy. The committee leads all work in the region under the Politburo, the Central Military Commission for military matters, the Secretariat for the rest; its ties with Group 559, the B5 front''s Party committee, Quảng Bình and Vĩnh Linh set.'
     n: '*Nghị quyết của Bộ Chính trị số 183-NQ/TW, ngày 16 tháng 10 năm 1968, Về việc kiện toàn tổ chức và lãnh đạo của Khu uỷ Trị - Thiên - Huế*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXIX, 954–57. Made public: 2004. Names: Hoàng Anh, Hoàng Sâm, Nguyễn Quyết, Trần Văn Quang.'
     tags: [polity:drv, vis:only:drv, name:le-duan]
+  - id: cal.1968-10-16.china-leadership
+    when: Oct. 16
+    date: '1968-10-16'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: 'Zhou Enlai speaks at the sixth group of the enlarged Twelfth Plenum: he had no experience in this movement either; the key is the attitude toward the masses, which Mao had laid down at the Central Work Conference of October 1966, though some on returning home feared the masses. Not only ministers: he was ordered to bring the heads of the provinces, municipalities and regions to Peking, among them Huang Huoqing, Ouyang Qin, Tan Qilong, Jiang Hua, Zhang Pinghua, Wei Guoqing, Yang Shangkui, Liu Junxiu, Ye Fei, Jiang Weiqing and Zhang Tixue, and told them to reflect on their errors; unable to go himself, he had Tan Zhenlin and Li Xiannian speak to them. At Zhongnanhai Tan Zhenlin, Li Xiannian, Li Fuchun, Yu Qiuli and Gu Mu met together, and from the army Xu Xiangqian and Nie Rongzhen; some were upset. By Mao''s instruction he protected the most, Yu Qiuli, Gu Mu and over ten ministers; when Yu was seized he reported to Mao, who told him to protect him.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 258 (Oct. 16, 1968). Made public: 2020. Check: the book (193 n.60) has Zhou Enlai cite, in his Twelfth Plenum speech, Tan Zhenlin''s words of Feb. 16, 1967, on following Mao forty-one years; whether in this speech. Names: Zhou Enlai, Tan Zhenlin, Li Xiannian, Li Fuchun, Xu Xiangqian, Nie Rongzhen, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:tan-zhenlin, name:li-xiannian, name:li-fuchun, name:xu-xiangqian, name:nie-rongzhen, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-10-16.china-leadership-2
+    when: Oct. 16
+    date: '1968-10-16'
+    thread: china-leadership
+    also: [china]
+    c: 'The *Renmin ribao* reprints the editorial of *Hongqi* no. 4, "Absorb the fresh blood of the proletariat: an important question in Party rectification," which calls on readers to criticize the "theory of the dying out of class struggle," the "docile tool theory," the "mass backwardness theory," the "joining the Party to become an official theory," the "inner-Party peace theory" and the "public-private fusion theory" it attributes to Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 660 (Oct. 16, 1968; the book says many articles of this "great revolutionary criticism" were organized and commissioned by Lin Biao, Jiang Qing and others, quoting out of context and distorting facts). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1968-10-17.vietnam-paris
     when: Oct. 17
     date: '1968-10-17'
@@ -1466,7 +1814,7 @@ entries:
     thread: china
     also: [vietnam-paris]
     c: 'Beijing. Chen Yi to Lê Đức Thọ, on his way home from Paris: in taking four-party talks Hanoi has given Saigon "legal recognition" and accepted "the compromising and capitulationist proposals" of the Soviet revisionists; "there is nothing more to talk about."'
-    n: 'Chen Yi with Lê Đức Thọ, Beijing, Oct. 17, 1968, doc. 38, [[w.77-conversations-between-chinese]], [136–37](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=134). [[w.nguyen-hanois-war]], 126–27; [[w.jian-maos-china-and-the]], 234 (the meeting; the four-party talks a loss); [[w.zhai-china-and-the-vietnam]], 173 (the meeting; "legal recognition"; the Soviet revisionists'' proposals). Made public: [[w.77-conversations-between-chinese]], by Nguyen''s note (126 n.63). See [[cal.1968-10-10.vietnam-paris]]. Names: Chen Yi, Lê Đức Thọ.'
+    n: 'Chen Yi with Lê Đức Thọ, Beijing, Oct. 17, 1968, doc. 38, [[w.77-conversations-between-chinese]], [136–37](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=134). [[w.nguyen-hanois-war]], 126–27; [[w.jian-maos-china-and-the]], 234 (the meeting; the four-party talks a loss); [[w.zhai-china-and-the-vietnam]], 173 (the meeting; "legal recognition"; the Soviet revisionists'' proposals). Made public: [[w.77-conversations-between-chinese]], by Nguyen''s note (126 n.63). Check: the editors'' note (136 n.204) has Chen Yi meet Lê Đức Thọ earlier on his way back from Paris, hear his report and pass it to Mao, Zhou and the Central Committee, and on Oct. 17 convey Zhou''s comments on Mao''s and the Central Committee''s general directives; the earlier meeting is undated. See [[cal.1968-10-10.vietnam-paris]]. Names: Chen Yi, Lê Đức Thọ.'
     src:
       c: '53835556'
       rows:
@@ -1530,6 +1878,30 @@ entries:
       rows:
         - 'w.dallek-flawed-giant 589: all'
     tags: [name:johnson-lyndon-b, name:nixon-richard-m]
+  - id: cal.1968-10-17.china-leadership
+    when: Oct. 17
+    date: '1968-10-17'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: 'Zhou Enlai, on the death of Sun Weishi, his and Deng Yingchao''s adopted daughter, in custody on Oct. 14, of which he learns only today, writes: whether suicide or silencing is worth investigating; an autopsy and laboratory tests are to establish the cause.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 259 (Oct. 17, 1968). Made public: 2020. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-10-17.china-leadership-2
+    when: Oct. 17
+    date: '1968-10-17'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: At the first group of the enlarged Twelfth Plenum, Kang Sheng charges the participants in the "February counter-current" with "opposing Chairman Mao", "negating the Yan'an rectification" and "reversing the verdict on the Wang Ming line"; Jiang Qing calls Chen Yi, Ye Jianying and Xu Xiangqian disorderers of the army; Huang Yongsheng and Wu Faxian call Zhu De an old right opportunist and a black commander. The nianpu says that from Oct. 17 to 28 Lin Biao, Jiang Qing, Kang Sheng and Xie Fuzhi organized attacks in the groups on Chen Yi, Ye Jianying, Xu Xiangqian, Li Fuchun, Li Xiannian and Nie Rongzhen, Tan Zhenlin being barred from the meetings, and charged Zhu De, Chen Yun and Deng Zihui with consistent right deviation.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 259 (Oct. 17, 1968). Made public: 2020. The nianpu''s wording is the compilers''. Names: Kang Sheng, Jiang Qing, Huang Yongsheng, Wu Faxian, Chen Yi, Ye Jianying, Xu Xiangqian, Zhu De, Lin Biao, Xie Fuzhi, Li Fuchun, Li Xiannian, Nie Rongzhen, Tan Zhenlin, Chen Yun, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:kang-sheng, name:jiang-qing, name:huang-yongsheng, name:wu-faxian, name:chen-yi, name:ye-jianying, name:xu-xiangqian, name:zhu-de, name:lin-biao, name:xie-fuzhi, name:li-fuchun, name:li-xiannian, name:nie-rongzhen, name:tan-zhenlin, name:chen-yun, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-10-17.china-leadership-3
+    when: Oct. 17–31
+    date: '1968-10-17'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai goes day after day to meetings at Mao's and attends the plenum's group meetings.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 259 (Oct. 17, 1968). Made public: 2020. Names: Zhou Enlai, Mao Zedong.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1968-10-18.consumers
     when: Oct. 18
     date: '1968-10-18'
@@ -1706,6 +2078,14 @@ entries:
     c: 'The Politburo''s secret cable no. 00/1968 to the Region V and Trị–Thiên committees: the Politburo''s view and line on the diplomatic struggle: the Americans unable to win, bound to de-escalate; Humphrey, in private contacts, to be drawn toward Hanoi''s line, Nixon attacked; then the decision of the last days: if Washington ends the bombing and all other acts of war unconditionally, a four-party conference of the DRV, the Front, the United States and the Saigon government, with a preparatory meeting seven to ten days after the halt, perhaps before the American election. The work in the South set; the cable for the regional standing committees.'
     n: '*Điện mật của Bộ Chính trị số 00/1968, ngày 20 tháng 10 năm 1968*, signed "Bộ Chính trị"; the editors'' note: it differs from the cable "ở trang 468" (of Oct. 10) in date, addressee and some content (964 n.). [[w.van-kien-dang-toan]], XXIX, 964–69. Made public: 2004. See [[cal.1968-10-20.vietnam-paris]]. Names: Humphrey, Nixon.'
     tags: [polity:drv, polity:us, polity:rvn, vis:only:drv, name:humphrey-hubert-h, name:nixon-richard-m]
+  - id: cal.1968-10-20.china-leadership
+    when: Oct. 20
+    date: '1968-10-20'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Lin Biao tells the plenum that the "February counter-current" was the most serious anti-Party incident since the Eleventh Plenum, a rehearsal of capitalist restoration.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 259 (Oct. 20, 1968); [[w.macfarquhar-maos-last-revolution]], 185 n.10 (Lin Biao to the Twelfth Plenum, October 1968: the most serious anti-Party incident since the Eleventh Plenum). Made public: 1988. To check: Lin Biao''s speech to the Twelfth Plenum, in [[w.nianyi-da-dongluande-niandai]], 313 (cited by [[w.macfarquhar-maos-last-revolution]], 185 n.10). Names: Lin Biao.'
+    tags: [polity:prc, name:zhou-enlai, name:lin-biao, vis:only:prc]
   - id: cal.1968-10-21.latin-america-panama
     when: Oct. 21
     date: '1968-10-21'
@@ -2225,6 +2605,14 @@ entries:
     c: 'The hospital, after midnight. Johnson announces to the press, with Mrs. Johnson and Luci beside him, that Lynda had a girl at 12:03: the baby "seems to know that she''s here and has her work cut out for her—she is already expressing herself." He passes out cigars to the wire service women. Mrs. Johnson calls it "the only press conference I remember in recent months where everybody was content with the news."'
     n: '[[w.johnson-white-house-diary]], 727–28 (Lady Bird Johnson''s account). The diary does not name the hospital. The birth is Oct. 25, a few minutes past midnight of the entry for Oct. 24. Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
+  - id: cal.1968-10-25.china-leadership
+    when: Oct. 25
+    date: '1968-10-25'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai at the Cultural Revolution Group's liaison meeting, which discusses and revises the draft Constitution of the Communist Party of China and the draft decision on it, written under Kang Sheng, Zhang Chunqiao and Yao Wenyuan. Zhou then sends the revised draft to Mao and Lin Biao with a note of the changes; Mao cuts and revises it.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 259 (Oct. 25, 1968). Made public: 2020. Names: Zhou Enlai, Kang Sheng, Zhang Chunqiao, Yao Wenyuan, Mao Zedong, Lin Biao.'
+    tags: [polity:prc, name:zhou-enlai, name:kang-sheng, name:zhang-chunqiao, name:yao-wenyuan, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1968-10-26.elections-1968
     when: Oct. 26
     date: '1968-10-26'
@@ -2263,7 +2651,13 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Peking: Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing''s draft decision on the draft Party constitution and the text of Oct. 25: "revised, to be discussed". He changes "Chairman Mao" to "Comrade Mao Zedong" throughout; strikes Deng Xiaoping''s name from the criticism of the revisionist line of Party building by Liu Shaoqi and Deng; strikes the clause calling the Party Mao''s creation and "great, glorious and correct".'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 26, 1968. Made public: 2013. To check: the decision on the draft constitution and the draft of Oct. 25 (the *wengao*; cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 26, 1968). Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 26, 1968. [[w.jianguo-yilai-mao-zedong]], XIX, 351–355 (Oct. 26, 1968; Mao''s note ''A few changes; to be discussed'' on the draft decision of the enlarged Twelfth Plenum on the draft Constitution, sent Oct. 26 by Zhou, Chen Boda, Kang Sheng and Jiang Qing after the group meeting of Oct. 25; he changes ''Chairman Mao'' in three places to ''Comrade Mao Zedong'' and ''the great leader Chairman Mao''s instruction'' to ''Comrade Mao Zedong''s proposal''; in the draft constitution he strikes ''the Party founded and fostered by Comrade Mao Zedong'', ''the greatest Marxist-Leninist of the age'', and the three adverbs; the book does not mention a deletion of Deng Xiaoping''s name; the decision was passed Oct. 31 and issued with the draft Nov. 3). Made public: 2013. To check: the decision on the draft constitution and the draft of Oct. 25 (the *wengao*; cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 26, 1968); Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing, draft Decision of the enlarged Twelfth Plenum of the Eighth Central Committee on the draft Constitution of the Communist Party of China, sent to Mao for review Oct. 26, 1968, with the draft Constitution as revised by the ten members of the Group''s liaison meeting the evening of Oct. 25; passed Oct. 31; issued to the whole Party Nov. 3 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 353 n.1a). Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Liu Shaoqi, Deng Xiaoping.'
+    src:
+      c: e1d7dade
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 26, 1968: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 351–355: A-B, D'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 353 n.1a: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
   - id: cal.1968-10-27.vietnam-paris
     when: Oct. 27
@@ -2407,7 +2801,13 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Peking: the draft communique of the Twelfth Plenum, Oct. 28 (print for discussion) and Oct. 30 (a little revised). Strikes the claim that Mao Zedong Thought''s mass spread is a great Cultural Revolution achievement, the "new stage of Marxism-Leninism" and "sole" guiding thought: "not fit here".'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 28–30, 1968. Made public: 2013. To check: the communique of the Twelfth Plenum, drafts of Oct. 28 and 30 (the *wengao*; cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 28 and 30, 1968). Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 28–30, 1968. [[w.jianguo-yilai-mao-zedong]], XIX, 360–361 (Oct. 28, 1968; Mao''s notes on the draft communique sent Oct. 28 (''print and issue to the comrades of the plenum for discussion''; ''this sentence is better not used here'') and Oct. 30 (''a little revised''); he strikes ''further proves that Mao Zedong Thought is the new stage of the development of Marxism-Leninism'' and ''sole'' before ''guiding thought'', and the sentence that the mass spread of Mao Zedong Thought is a very great achievement of the Cultural Revolution; the communique was passed Oct. 31 and printed Nov. 2). Made public: 2013. To check: the communique of the Twelfth Plenum, drafts of Oct. 28 and 30 (the *wengao*; cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 28 and 30, 1968); Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing, drafts of the communique of the enlarged Twelfth Plenum of the Eighth Central Committee, sent to Mao for review Oct. 28 and Oct. 30, 1968; passed Oct. 31, printed in the Renmin ribao Nov. 2 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 360 n.1). Names: Mao Zedong, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing.'
+    src:
+      c: ba61552d
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 28–30, 1968: all'
+        - 'w.jianguo-yilai-mao-zedong XIX, 360–361: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 360 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, vis:only:prc]
   - id: cal.1968-10-29.elections-1968
     when: Oct. 29
@@ -2591,6 +2991,14 @@ entries:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 295: ?'
         - 'w.schattenberg-brezhnev 213–14: B-C'
     tags: [name:brezhnev-leonid, polity:ussr]
+  - id: cal.1968-10-30.china-leadership
+    when: Oct. 30
+    date: '1968-10-30'
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: 'Zhou Enlai revises the Center''s notice on conveying the enlarged Twelfth Plenum and handling its documents: areas and units without three-in-one revolutionary committees are not to be told for now; non-Party members may not attend; conveyance is oral, at province and city or county level, to congresses of delegates of the Party core groups of units'' revolutionary committees, the army to decide its own.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 259 (Oct. 30, 1968). Made public: 2020. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1968-10-31.vietnam
     when: Oct. 31
     date: '1968-10-31'
@@ -2785,6 +3193,7 @@ entries:
   - id: cal.1968-10.elections-1968-6
     when: Oct., late
     date: 1968-10
+    at: before 1968-10-21
     thread: elections-1968-polls
     c: 'A Harris poll, two weeks before the election, has Humphrey within a couple of points in Illinois. A trip downstate: Rockford, Peoria and Springfield, friendly crowds, little enthusiasm among the party''s leaders, by Humphrey''s account.'
     n: '[[w.humphrey-education-of-a-public-1976]], 398. Check: the days; the poll''s. Names: Humphrey, Harris.'
@@ -2796,6 +3205,7 @@ entries:
   - id: cal.1968-10.elections-1968-4
     when: Oct., early
     date: 1968-10
+    at: before 1968-10-01
     thread: elections-1968-humphrey
     c: The board of Americans for Democratic Action endorses Humphrey, 73 to 13.
     n: '[[w.solberg-hubert-humphrey]], 386 ("three days later," after Nashville). Check: the day. Names: Humphrey.'
@@ -2869,6 +3279,7 @@ entries:
   - id: cal.1968-10.vietnam-operations
     when: Oct., late
     date: 1968-10
+    at: before 1968-10-21
     thread: vietnam-operations
     c: Abrams moves the 1st Cavalry Division from northern I Corps to III Corps, against an enemy concentration on the Cambodian border, to attack the bases and infiltration routes and forestall an offensive on Saigon. The move begun late in October, done by mid-November.
     n: '[[w.cosmas-joint-chiefs-of-staff]], 238. Check: the day the move began. To check: COMUSMACV MAC 14472 to CINCPAC, 271008Z Oct 68, OCJCS File 091 Vietnam Oct 68. "1968 Year-End Review," II, p. 3–7 (cited by [[w.cosmas-joint-chiefs-of-staff]], 238 n.4); HQ USARPAC "Highlights of USARPAC Activities," Nov 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 238 n.4). Names: Abrams.'
@@ -2952,7 +3363,14 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao closes the Twelfth Plenum, 5:15 p.m., Great Hall. It adopts the communique; approves the report on the "traitor, hidden enemy, scab" Liu Shaoqi (Jiang Qing, Kang Sheng, Xie Fuzhi); expels Liu from the Party for ever and strips all his posts; decides to convene the Ninth Congress; adopts the decision on its delegates and the draft constitution. Mao speaks: on the "February countercurrent", a big thing and not so big, a natural matter of differing views. Earlier, 4 p.m., with Lin Biao, Zhou and others in Fujian Hall on conveying the plenum.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 31, 1968. Made public: the communique, *Renmin ribao*, Nov. 2, 1968 (the session''s acts); 2013 (Mao''s speech, the Fujian Hall meeting). To check: the plenum''s communique, the report on Liu Shaoqi''s case, the resolution expelling him, and Mao''s closing speech (cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 31, 1968). Names: Mao Zedong, Lin Biao, Zhou Enlai, Liu Shaoqi, Jiang Qing, Kang Sheng, Xie Fuzhi. Check: the chronology''s note 39 on the report resting on false evidence is the editors''.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 31, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 260 (Oct. 31, 1968; the closing, the report, the resolution, Mao''s remarks and the notice); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 659–660 (Oct. 13–31, 1968; the book says the Twelfth Plenum of the Eighth Central Committee (enlarged) meets at Peking Oct. 13–31; of the Eighth Central Committee''s 97 members 40 can attend, 10 alternates are made members to pass half, and of the 133 participants 74 (over 57 percent) are enlarged participants, members of the Central Cultural Revolution Group and the Military Commission''s office group and persons from the provinces, municipalities, regions, great military regions and central organs; from the start the plenum breaks into groups to surround and criticize Zhu De, Chen Yun, Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian and other veteran comrades; on the "Report on the examination of the crimes of the traitor, hidden enemy and scab Liu Shaoqi," written on forged evidence under Jiang Qing, Kang Sheng and Xie Fuzhi, it decides to expel Liu forever from the Party and strip him of all posts in and out of the Party, the book calling this the greatest wrongful case in the Party''s history; Chen Shaomin, member of the Central Committee and Vice-Chairman of the All-China Federation of Trade Unions, unafraid of the pressure, refuses to agree to it); [[w.jianguo-yilai-mao-zedong]], XIX, 363 (Oct. 31, 1968; Mao at the closing session: in cleaning up the class ranks, first grasp it tight, second attend to policy; set in bold type in the New Year''s Day editorial of the *Renmin ribao*, *Hongqi* and *Jiefangjun bao*, Jan. 1, 1969, n.1). Made public: the communique, *Renmin ribao*, Nov. 2, 1968 (the session''s acts); 2013 (Mao''s speech, the Fujian Hall meeting). Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 260 (Oct. 31, 1968), has Zhou tell Mao before the closing that he has drafted a notice on conveying the plenum, and speak at the session of Liu Shaoqi''s "crimes". To check: the plenum''s communique, the report on Liu Shaoqi''s case, the resolution expelling him, and Mao''s closing speech (cited by [[w.zedong-mao-zedong-nianpu]], VI, Oct. 31, 1968). Names: Mao Zedong, Lin Biao, Zhou Enlai, Liu Shaoqi, Jiang Qing, Kang Sheng, Xie Fuzhi. Check: the chronology''s note 39 on the report resting on false evidence is the editors''.'
+    src:
+      c: 43a70951
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, Oct. 31, 1968: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 260: B, C, D, E, F, G, H'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 659–660: A, C, D'
+        - 'w.jianguo-yilai-mao-zedong XIX, 363: ?'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:liu-shaoqi, name:jiang-qing, name:kang-sheng, name:xie-fuzhi, vis:only:prc]
   - id: cal.1968-10-31.vietnam-hanoi
     when: Oct. 31
@@ -2970,3 +3388,40 @@ entries:
     c: 'COSVN''s eighth conference, resolution no. 07/NQNT, "a supreme effort, resolutely forward to win a decisive victory": the spring offensive a leap that upset the enemy''s dispositions, the later high points weakening him further. Forces to be built up; the political tide and the rising in Saigon and the towns pressed, the rising in the countryside, the liberated areas made a strong rear; the committees'' leadership and the Party''s base strengthened.'
     n: '*Nghị quyết của Hội nghị lần thứ tám Trung ương cục, số 07/NQNT, tháng 10 năm 1968, Về nỗ lực vượt bực, kiên quyết tiến lên giành thắng lợi quyết định* (the appendix). [[w.van-kien-dang-toan]], XXIX, 1321–90. Made public: 2004. See [[cal.1968-03.vietnam-hanoi]].'
     tags: [polity:drv, polity:us, vis:only:drv]
+  - id: cal.1968-10.china-leadership
+    when: Oct.
+    date: 1968-10
+    thread: china-leadership
+    also: [china]
+    c: 'Kang Sheng: at the time he did not sense that Mao''s reference to persons like Khrushchev was to Liu Shaoqi, and had only a very superficial understanding of the instruction.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 48. To check: [[w.kang-sheng-yanlun-xuanbian]], III, 82 (cited by [[w.macfarquhar-maos-last-revolution]], 48 n.69a). Names: Kang Sheng, Mao Zedong, Liu Shaoqi. Check: the day.'
+    src:
+      c: 2f3eab8b
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 48: all'
+    tags: [polity:prc, name:kang-sheng, name:mao-zedong, name:liu-shaoqi]
+  - id: cal.1968-10.china-leadership-2
+    when: Oct., after the Twelfth Plenum
+    date: 1968-10
+    thread: china-leadership
+    also: [china]
+    c: From the Twelfth Plenum the Central Cultural Revolution Group formally outranks the State Council and the Military Commission on official documents, for six months, until its dissolution after the Ninth Congress in April 1969.
+    n: '[[w.macfarquhar-maos-last-revolution]], 156. Made public: 2006. Check: the day; the book (156) gives the Twelfth Plenum of Oct. 1968 and the Ninth Congress of Apr. 1969 as the limits and names no source.'
+    src:
+      c: d244b0a3
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 156: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1968-10.china-leadership-3
+    when: Oct.
+    date: 1968-10
+    at: after 1968-10-25
+    thread: china-leadership
+    c: 'Mao 毛泽东, on Yao Wenyuan''s 姚文元 report of Oct. 25 sending the Heilongjiang 黑龙江 investigation ''How the poor and lower-middle peasants run the schools, seen from the educational revolution in three production brigades'' (the Aihui 爱辉 commune, Heihe prefecture) and the *Renmin ribao*''s 人民日报 draft editors'' note: ''Do as proposed.'''
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 358–359 (Oct. 1968). The report and note were printed Oct. 28. Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it. Check: the day of Mao''s note, after Oct. 25. To check: Revolutionary committees of Heihe prefecture, Aihui county and Aihui commune, Heilongjiang, investigation report of Sept. 15, 1968, ''How the poor and lower-middle peasants run the schools, seen from the educational revolution in three production brigades'' (Cong san ge dadui jiaoyu geming de shijian kan pinxia zhongnong zenyang guanli xuexiao 从三个大队教育革命的实践看贫下中农怎样管理学校): five points; sent to Mao by Yao Wenyuan Oct. 25 with the Renmin ribao''s editors'' note; printed Oct. 28 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 358 n.1). Names: Mao Zedong, Yao Wenyuan.'
+    src:
+      c: 307b7e3f
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XIX, 358–359: all'
+        - 'via w.jianguo-yilai-mao-zedong XIX, 358 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:yao-wenyuan, vis:only:prc]

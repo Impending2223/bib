@@ -120,8 +120,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Lin Biao sends Ye Qun to Mao at Hangzhou with his letter of Nov. 30 and ten items of material against Luo Ruiqing.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 1, 1965. Made public: 2013. Names: Lin Biao, Ye Qun, Luo Ruiqing, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 1, 1965. [[w.macfarquhar-maos-last-revolution]], 22–23 (Ye Qun carries the dossier and Lin''s cover note). Made public: 2006. To check: [[w.yao-san-ci-da-nan]], 276 (cited by [[w.macfarquhar-maos-last-revolution]], 23 n.37); [[w.nianyi-da-dongluande-niandai-revised]], 85–86 (cited by [[w.macfarquhar-maos-last-revolution]], 23 n.39). Names: Lin Biao, Ye Qun, Luo Ruiqing, Mao Zedong.'
+    src:
+      c: e1fff4fe
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Dec. 1, 1965: all'
+        - 'w.macfarquhar-maos-last-revolution 22–23: A'
     tags: [name:lin-biao, name:ye-qun, name:luo-ruiqing, name:mao-zedong, polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.macfarquhar-maos-last-revolution
+        reads: Lin Biao sent Ye Qun to Hangzhou on Nov. 30
+        at: '22'
   - id: cal.1965-12-02.states-and-cities-los-angeles
     when: Dec. 2
     date: '1965-12-02'
@@ -253,6 +263,72 @@ entries:
     c: The Politburo keeps the food and agricultural-tax obligations of the cooperatives fixed through 1966–67, with tighter control of distribution and of the food market.
     n: '*Nghị quyết của Bộ Chính trị số 129-NQ/TW về việc tiếp tục thi hành chính sách ổn định nghĩa vụ lương thực, ổn định nghĩa vụ thuế nông nghiệp trong hai năm 1966–1967, tăng cường quản lý phân phối, quản lý thị trường lương thực*, signed for the Politburo by Phạm Hùng. [[w.van-kien-dang-toan]], XXVI, 436–47. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-02.china-leadership
+    when: Dec. 2
+    date: '1965-12-02'
+    thread: china-leadership
+    c: Zhou, with Zhu De, Peng Zhen, He Long and others, attends the dinner Li Zongren gives to thank the Party and state leaders and the heads of the democratic parties, and toasts.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 2, 1965). Names: Zhou Enlai, Zhu De, Peng Zhen, He Long, Li Zongren.'
+    tags: [name:zhou-enlai, name:zhu-de, name:peng-zhen, name:he-long, polity:prc]
+  - id: cal.1965-12-02.china-leadership-2
+    when: Dec. 2
+    date: '1965-12-02'
+    thread: china-leadership
+    also: [europe-and-the-alliance-france]
+    c: Zhou tours the French industrial exhibition in Beijing.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 2, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 2, 1965; evening). Names: Zhou Enlai.'
+    src:
+      c: a0a2f236
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 768: ?'
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
+    tags: [name:zhou-enlai, polity:prc, polity:fr]
+    time_range:
+      - 1965-12-02T11:00Z
+      - 1965-12-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-02.china-leadership-3
+    when: Dec. 2
+    date: '1965-12-02'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao to Lin Biao, by a brief note: those who do not hold to giving prominence to politics practice eclecticism, that is, opportunism.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 24; [[w.jianguo-yilai-mao-zedong]], XVIII, 175–177 (Dec. 2, 1965; Mao''s note of Dec. 2 on Lin Biao''s forwarding of the Lanzhou Military Region Party committee''s report of Nov. 7 on the 55th Division''s emergency war preparation: fully agrees with Lin''s view; the division''s case probably like the others''; may it go to all military regions, services and arms down to division Party committees; those who do not believe in prominence for politics, who comply in form and spread eclecticism, that is opportunism, are to be watched; to go first to Liu Shaoqi, Zhou and Peng Zhen). Made public: 2006. To check: Mao Zedong, "Fandui zhezhongzhuyide wenti" (On Opposing Eclecticism), in [[w.mao-zedong-sixiang-wan]], 149 (cited by [[w.macfarquhar-maos-last-revolution]], 24 n.45); Party committee of the Lanzhou Military Region, report on giving prominence to politics in the 55th Division''s emergency war preparation (ordered to the Sino-Indian border in mid- and late Sept. 1965, then a week of motorized and foot-march exercise), Nov. 7, 1965, sent to Mao by Lin Biao Nov. 18 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 176 n.1); Lin Biao, letter to Mao Zedong of Dec. 3, 1965 accepting Mao''s note, to be sent to Liu Shaoqi, Zhou and Peng Zhen and the Military Commission''s Standing Committee, then to Party committees at division level and above (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 177 n.4). Names: Mao Zedong, Lin Biao.'
+    src:
+      c: 40b8e0b6
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 24: all'
+        - 'via w.macfarquhar-maos-last-revolution 24 n.45: all'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 175–177: A'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 176 n.1: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 177 n.4: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, vis:only:prc]
+  - id: cal.1965-12-02.china-leadership-4
+    when: Dec. 2
+    date: '1965-12-02'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao to a small group of senior officers of the Nanjing Military Region: the struggle over giving prominence to politics has entered a new stage; to treat politics and professional work as equals is eclecticism, which is revisionism.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 24. Made public: 2006. To check: Mao Zedong, "Fandui zhezhongzhuyide wenti" (On Opposing Eclecticism), in [[w.mao-zedong-sixiang-wan]], 149 (cited by [[w.macfarquhar-maos-last-revolution]], 24 n.45). Names: Mao Zedong. Check: the place.'
+    src:
+      c: 4d6bef98
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 24: all'
+        - 'via w.macfarquhar-maos-last-revolution 24 n.45: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-12-02.china-leadership-5
+    when: Dec. 2
+    date: '1965-12-02'
+    thread: china-leadership
+    c: 'Mao to Chen Boda 陈伯达: has Hu Qiaomu''s 胡乔木 revision of the nine articles (Mao''s own critique, of about 1941, of the Center''s line, Sept. 1931 to Jan. 1935) been read? Please hand it to the bearer to take back, as he wants to check something; if not finished, to be sent another day.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 174 (Dec. 2, 1965; Mao''s letter; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Mao Zedong, nine articles on the Center''s line, Sept. 1931 to Jan. 1935 (a critique of left dogmatism, over 50,000 characters, written about Sept. 1941), revised by Hu Qiaomu (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 174 n.3). Names: Mao Zedong, Chen Boda.'
+    src:
+      c: 182a7e7b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 174: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 174 n.3: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
   - id: cal.1965-12-03.alabama
     when: Dec. 3
     date: '1965-12-03'
@@ -455,6 +531,14 @@ entries:
       c: edf73f8b
       rows:
         - 'w.gibbons-u-s-government-and IV, 118 n.18: all'
+  - id: cal.1965-12-04.china-leadership
+    when: Dec. 4
+    date: '1965-12-04'
+    thread: china-leadership
+    also: [laos]
+    c: Zhou receives the Lao People's Party delegation under Kaysone Phomvihane.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 4, 1965). Names: Zhou Enlai, Kaysone Phomvihane.'
+    tags: [name:zhou-enlai, polity:prc, polity:laos]
   - id: cal.1965-12-05.economy
     when: Dec. 5–6
     date: '1965-12-05'
@@ -540,6 +624,49 @@ entries:
     time_band: workday daytime
     time_zone: Etc/GMT+6
     range_basis: kind
+  - id: cal.1965-12-05.china-leadership
+    when: Dec. 5
+    date: '1965-12-05'
+    time: 1965-12-05T09:30Z
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou attends in the Great Hall of the People the signing of the China–Vietnam loan agreement and the protocol on supply of goods.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 5, 1965; 5:30 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    src:
+      c: a93cf9e4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-05.china-leadership-2
+    when: Dec. 5
+    date: '1965-12-05'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou receives the Vietnamese athletics team and gymnastics team.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 5, 1965; afternoon; Beijing). Names: Zhou Enlai.'
+    src:
+      c: 94ff8667
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-05T04:00Z
+      - 1965-12-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-05.china-leadership-3
+    when: Dec. 5
+    date: '1965-12-05'
+    thread: china-leadership
+    also: [japan]
+    c: Zhu De receives the members of the delegation of Japan's federation of women's organizations to China, led by Kushida.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 73 (Dec. 5, 1965). Names: Zhu De. Check: the leader''s given name; the Chinese gives 栉田露 (image read), perhaps Kushida Fuki.'
+    src:
+      c: 25915d6f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 73: all'
+    tags: [polity:prc, polity:japan, name:zhu-de]
   - id: cal.1965-12-06.laos
     when: Dec. 6
     date: '1965-12-06'
@@ -824,6 +951,28 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1965-12-07.china-leadership
+    when: Dec. 7
+    date: '1965-12-07'
+    thread: china-leadership
+    c: 'Mao, on Lin Biao''s 林彪 letter of Dec. 3: "Comrade Peng Zhen 彭真 is not coming here for now; it need not be sent him to read."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 175–177 (Dec. 7, 1965; Mao''s second note, Dec. 7; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). See [[cal.1965-12-02.china-leadership-3]]. Names: Mao Zedong, Lin Biao, Peng Zhen.'
+    src:
+      c: ee385dd4
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 175–177: all'
+    tags: [polity:prc, name:mao-zedong, name:lin-biao, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-12-07.china-leadership-2
+    when: Dec. 7
+    date: '1965-12-07'
+    thread: china-leadership
+    c: Mao, at Shanghai 上海, summons by notes those to attend the enlarged meeting of the Politburo Standing Committee to open Dec. 8. Qu Qiyu 曲琦玉 is to telephone Ye Jianying 叶剑英, Xiao Hua 萧华, Yang Chengwu 杨成武 (at Hangzhou 杭州) and Xie Fuzhi 谢富治 to come that afternoon. Deng Xiaoping 邓小平, Li Fuchun 李富春 and Bo Yibo 薄一波 to come that day or the next (in Sichuan 四川, relayed from Chengdu 成都). Song Renqiong 宋任穷, Chen Xilian 陈锡联, Li Xuefeng 李雪峰, Yang Yong 杨勇, Liao Hansheng 廖汉生 and Yang Dezhi 杨得志 on one aircraft the morning of the 8th; He Long 贺龙, Dong Biwu 董必武, Wang Shangrong 王尚荣, Li Tianyou 李天佑, Zhang Aiping 张爱萍, Lei Yingfu 雷英夫, Xu Xiangqian 徐向前, Liu Bocheng 刘伯承 (not if ill) and Zhu De 朱德 the same morning; Xu Shiyou 许世友, Han Xianchu 韩先楚, Chen Yi 陈毅, Tao Zhu 陶铸, Wang Renzhong 王任重, Li Jingquan 李井泉 and Liu Lantao 刘澜涛 to Shanghai on the 8th.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 178–181 (Dec. 7, 1965; Mao''s five notes of Dec. 7; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Mao Zedong, Ye Jianying, Xie Fuzhi, Deng Xiaoping, Li Fuchun, Bo Yibo, Song Renqiong, Li Xuefeng, Yang Yong, Yang Dezhi, He Long, Dong Biwu, Zhang Aiping, Xu Xiangqian, Liu Bocheng, Chen Xilian, Xu Shiyou, Zhu De, Chen Yi, Tao Zhu, Li Jingquan. Check: the numbers of those in the planes, which Mao corrects by hand (seven for six; eight for nine); the names read from the page image only for Qu Qiyu and the first group.'
+    src:
+      c: a8623fae
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 178–181: all'
+    tags: [polity:prc, name:mao-zedong, name:ye-jianying, name:xie-fuzhi, name:deng-xiaoping, name:li-fuchun, name:bo-yibo, name:he-long, name:dong-biwu, name:zhang-aiping, name:xu-xiangqian, name:liu-bocheng, name:chen-xilian, name:xu-shiyou, name:zhu-de, name:chen-yi, name:tao-zhu, name:li-jingquan, vis:only:prc]
   - id: cal.1965-12-08.vietnam-operations
     when: Dec. 8–9
     date: '1965-12-08'
@@ -894,8 +1043,40 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over an enlarged Politburo Standing Committee, Shanghai, opening Dec. 8 (to Dec. 15), on the "Luo Ruiqing question". Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng charge Luo with opposing "putting politics first" and "usurping the army"; Ye Qun speaks three times, about ten hours, alleging Luo pressed Lin to give way. Five points fixed: the matter serious, the means vile; different from Peng and Huang; his record some achievement; "learn from the past" and "cure the sick"; the leadership partly to blame. Two steps, transfer, no face-to-face, cool handling. After it, Luo removed from his military posts, Yang Chengwu acting chief of staff.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 8, 1965 ("12月8日一15日"). Made public: 2013. Names: Mao Zedong, Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng, Luo Ruiqing, Yang Chengwu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 8, 1965 ("12月8日一15日"). [[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 8–15, 1965: Zhou attends in Shanghai the enlarged Standing Committee under Mao, at which Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng spring a surprise attack on Luo Ruiqing, charging him with opposing "putting politics first" and "usurping the army and opposing the Party"; Luo is moved from military leadership and Yang Chengwu acts as chief of the General Staff); [[w.macfarquhar-maos-last-revolution]], 25–26 (the session of Dec. 8, sixty-one present; Ye Qun''s three speeches, ten hours; Lin Biao, Li Zuopeng and Wu Faxian in support); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629–630 (Dec. 8–15, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee held at Shanghai under Mao, which discusses the "problems" of Luo Ruiqing; the book says Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng and others framed charges and attacked Luo by surprise, and he was removed from his posts; footnotes 1–4 (629) give their posts at the time: Luo, Secretary of the Secretariat, Vice-Premier and Chief of the General Staff; Ye Qun, director of Lin Biao''s office; Wu, commander of the air force; Li, deputy commander of the navy). Made public: 1996. To check: [[w.nianyi-da-dongluande-niandai-revised]], 87–88 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48a); [[w.yao-san-ci-da-nan]], 285, 288 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48b); [[w.jianping-fengyun-zhongde-gongheguo-dajiang]], 321 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48c); [[w.nianyi-da-dongluande-niandai-revised]], 381 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.49). Names: Mao Zedong, Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng, Luo Ruiqing, Yang Chengwu.'
+    src:
+      c: 6276a8e5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Dec. 8, 1965: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 768: A, B, J'
+        - 'w.macfarquhar-maos-last-revolution 25–26: A, B, C'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 629–630: A, B'
     tags: [name:mao-zedong, name:lin-biao, name:ye-qun, name:wu-faxian, name:li-zuopeng, name:luo-ruiqing, polity:prc, vis:only:prc]
+    variants:
+      - unit: I
+        witness: w.macfarquhar-maos-last-revolution
+        reads: the enlarged Standing Committee reached no conclusion on Luo Ruiqing; it set up a special team to report to Zhou, Deng and Peng Zhen
+        at: '26'
+  - id: cal.1965-12-08.china
+    when: Dec. 8
+    date: '1965-12-08'
+    thread: china
+    also: [japan]
+    c: The Chinese People's Association for Cultural Relations with Foreign Countries and the Japan–China Cultural Exchange Association sign, at Beijing, a joint statement on cultural exchange between the two peoples; the China–Japan Friendship Association and the Japan–China Friendship Association sign a protocol on friendship exchanges for 1966.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 73–74 (Dec. 8, 1965).'
+    src:
+      c: 09942159
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 73–74: all'
+    tags: [polity:prc, polity:japan]
+  - id: cal.1965-12-08.china-leadership-2
+    when: Dec. 8
+    date: '1965-12-08'
+    thread: china-leadership
+    also: [china]
+    c: 'The *Renmin ribao* prints Liu Shaoqi''s inscription for the twentieth anniversary of the founding of broadcasting: raise high the red banner of Mao Zedong Thought, do broadcasting well, and give heart to the people of the whole country and of the world.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629 (Dec. 8, 1965). Names: Liu Shaoqi, Mao Zedong.'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong]
   - id: cal.1965-12-09.open-housing-wi
     when: Dec. 9
     date: '1965-12-09'
@@ -967,6 +1148,18 @@ entries:
     c: 'O''Brien to Johnson, a blunt memorandum on the Post Office Department after his first month: "postal service has obviously been deteriorating rapidly while mail volume shows an extraordinary yearly increase." He lists an inadequate budget and serious management deficiencies. By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 205. Names: O''Brien, Johnson.'
     tags: [name:obrien-lawrence-f, name:johnson-lyndon-b]
+  - id: cal.1965-12-09.china
+    when: Dec. 9
+    date: '1965-12-09'
+    thread: china
+    also: [indonesia]
+    c: 'The Chinese embassy in Indonesia''s note to the Indonesian Foreign Ministry: the greatest indignation and strongest protest at recent persecution of overseas Chinese in several places. The embassy''s many earnest notes have not stopped the destruction of property and threats to life; the mobs'' killings of Chinese grow worse, with troops and police on the spot letting them do as they please, and local authorities heeding no reasonable plea. It demands effective curbs, punishment of instigators and killers, and protection of Chinese rights, lives and property.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 74 (Dec. 9, 1965).'
+    src:
+      c: 0e30c59e
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 74: all'
+    tags: [polity:prc, polity:indonesia]
   - id: cal.1965-12-10.oil
     when: Dec. 10
     date: '1965-12-10'
@@ -1180,6 +1373,18 @@ entries:
     c: 'Mao, Shanghai, Hongqiao guesthouse, morning: receives a Lao People''s Party delegation. Win the masses; treat prisoners kindly, even officers, keep those who wish in the army, send the rest home; he may be captured again, release again. The South Vietnamese armed struggle has gone beyond what the Chinese did against the Japanese, to be learned from by Laos and Southeast Asian parties. Asia, Africa and Latin America are a furnace.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 11, 1965. Made public: 2013. Names: Mao Zedong. Check: the delegation''s head and which Lao party (the Chinese: the Lao People''s Party).'
     tags: [name:mao-zedong, polity:prc, polity:pathet-lao, vis:only:prc+pathet-lao]
+  - id: cal.1965-12-11.china-leadership-2
+    when: Dec. 11
+    date: '1965-12-11'
+    thread: china-leadership
+    also: [china]
+    c: Luo Ruiqing, telephoned by Zhou Enlai without being told he is the subject of the meeting, flies from Kunming to Shanghai. There Zhou and Deng Xiaoping state the charges; Luo tries to deny them, Zhou cuts him short, and he is warned not to contact Mao or Lin Biao.
+    n: '[[w.macfarquhar-maos-last-revolution]], 25. Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 37–42 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.51); [[w.yao-san-ci-da-nan]], 290–291 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.52). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing, Zhou Enlai, Deng Xiaoping, Mao Zedong, Lin Biao.'
+    src:
+      c: 4bb5b487
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 25: all'
+    tags: [polity:prc, name:luo-ruiqing, name:zhou-enlai, name:deng-xiaoping, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1965-12-12.opinion
     when: Dec. 12
     date: '1965-12-12'
@@ -1223,6 +1428,18 @@ entries:
     time_band: early morning
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-12-12.china
+    when: Dec. 12
+    date: '1965-12-12'
+    thread: china
+    also: [south-asia]
+    c: 'Foreign Ministry note to the Indian embassy: strong protest at an armed attack by Indian troops on Chinese border personnel. The note charges the Indian government with making tension on the border by arms to serve its present political needs, to oppose China.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 74 (Dec. 12, 1965).'
+    src:
+      c: 344faffb
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 74: all'
+    tags: [polity:prc, polity:india]
   - id: cal.1965-12-13.vietnam
     when: Dec. 13
     date: '1965-12-13'
@@ -1269,7 +1486,7 @@ entries:
     time: 1965-12-14T16:12Z
     thread: india-and-china-kashmir
     c: 'Ayub Khan in Washington. Joint statement: the United States regards "the preservation of the independence and integrity of Pakistan" as "vital to world peace"; both for the Security Council''s resolutions of Sept. 20, Sept. 27, and Nov. 5.'
-    n: 'Remarks of Welcome to President Ayub Khan of Pakistan on the South Lawn at the White House, [1965 Pub. Papers 1152](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=626) (Dec. 14, 1965); Joint Statement Following Discussions With the President of Pakistan, [1965 Pub. Papers 1156](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=630) (Dec. 15, 1965). FRUS 1964–68, XXV, docs. [263](https://history.state.gov/historicaldocuments/frus1964-68v25/d263), [265](https://history.state.gov/historicaldocuments/frus1964-68v25/d265), [267](https://history.state.gov/historicaldocuments/frus1964-68v25/d267). [[w.johnson-white-house-diary]], 336–37 (Ayub Khan in Washington: the arrival ceremony, Bhutto and Aziz Ahmed with him; not the joint statement). See [[cal.1965-08-05.india-and-china]]. Names: Ayub Khan, Johnson.'
+    n: 'Remarks of Welcome to President Ayub Khan of Pakistan on the South Lawn at the White House, [1965 Pub. Papers 1152](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=626) (Dec. 14, 1965); Joint Statement Following Discussions With the President of Pakistan, [1965 Pub. Papers 1156](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=630) (Dec. 15, 1965). FRUS 1964–68, XXV, docs. [263](https://history.state.gov/historicaldocuments/frus1964-68v25/d263), [265](https://history.state.gov/historicaldocuments/frus1964-68v25/d265), [267](https://history.state.gov/historicaldocuments/frus1964-68v25/d267). [[w.johnson-white-house-diary]], 336–37 (Ayub Khan in Washington: the arrival ceremony, Bhutto and Aziz Ahmed with him; not the joint statement). See [[cal.1965-08-05.india-and-china]]. The time is the first day''s. Names: Ayub Khan, Johnson.'
     src:
       c: bed95233
       rows:
@@ -1409,7 +1626,15 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao talks with Liu Shaoqi, who proposes sending "On the Ten Great Relationships" to Party committees at county and regimental levels and up as an internal document; Mao agrees. Dec. 15: Liu writes with that proposal; Dec. 18 Mao: send to Deng Xiaoping and Peng Zhen to do as Liu suggests; "read it, not quite satisfied"; send down for comment toward later revision, and say so in the Center''s covering note.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 14, 1965. Made public: 2013. To check: "On the Ten Great Relationships" (named by [[w.zedong-mao-zedong-nianpu]], V, Dec. 14, 1965). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 14, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 630 (Dec. 15, 1965; Liu writes to Mao proposing to issue "On the Ten Major Relationships": he has read it again and thinks it speaks well on some basic problems and still guides present work; he suggests it be issued as an internal document to the Party committees of counties and regiments and above for study, to which Mao agreed when Liu saw him the day before, and asks Mao to look at it once more and hand it to Deng Xiaoping and Peng Zhen; with Mao''s consent it is issued Dec. 27); [[w.jianguo-yilai-mao-zedong]], XVIII, 183–184 (Dec. 18, 1965; Mao''s note of Dec. 18 to Deng Xiaoping and Peng Zhen: handle it as Shaoqi suggests; "I read it and am not quite satisfied; send it down to ask opinions, to help later revision; put this in the Center''s comment"; note 1: Liu''s letter of Dec. 15 proposes it as an internal paper to Party committees of counties and regiments and up, Mao having agreed the day before; note 3: the Center''s comment of Dec. 27 sends it down for opinions). Made public: 1996. To check: "On the Ten Great Relationships" (named by [[w.zedong-mao-zedong-nianpu]], V, Dec. 14, 1965); Liu Shaoqi, letter to Mao Zedong of Dec. 15, 1965 proposing to issue "On the Ten Great Relationships" (April 1956) as an internal paper to Party committees of counties and regiments and above (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 183 n.1); Central Committee, comment of Dec. 27, 1965 issuing Mao''s "On the Ten Great Relationships" to Party committees of counties and regiments and above, for opinions toward later revision (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 184 n.3). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: c70ac7f5
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Dec. 14, 1965: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 630: A, B, C'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 183–184: A, B, C, D, E, F'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 183 n.1: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 184 n.3: all'
     tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, polity:prc, vis:only:prc]
   - id: cal.1965-12-14.vietnam-hanoi
     when: Dec. 14
@@ -1418,6 +1643,19 @@ entries:
     c: The Secretariat's instruction no. 116-CT/TW on raising the quality of *Học Tập*, the Party's theoretical journal, three years after the Politburo's instruction no. 41-CT/TW of Apr. 7, 1962.
     n: '*Chỉ thị của Ban Bí thư số 116-CT/TW về nâng cao chất lượng của tạp chí Học tập để phục vụ sự nghiệp chống Mỹ, cứu nước và tiếp tục xây dựng cơ sở vật chất và kỹ thuật của chủ nghĩa xã hội*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 458–66. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-14.china-leadership-2
+    when: Dec. 14
+    date: '1965-12-14'
+    thread: china-leadership
+    c: 'Mao, in a talk with Li Zhizhong 李质忠, deputy director of the Central Committee General Office: confidential work and guard work are very important; the Party''s secrets are to be kept, not used by revisionism; revisionism inside is to be guarded against; when a fight comes, watch for ghosts and monsters who will come out to sabotage. This is to be told to the Central Committee''s Confidential Bureau and Office and to the heads of the army''s confidential bureau and of the Broadcasting Administration.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 182 (Dec. 14, 1965; part of a talk; printed from the original in the Central Archives). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Central Committee General Office, comp., "Chairman Mao''s instructions on confidential and secrecy work," which takes in the talk (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 182 n.1a); Zhongfa [1972] 33, the summary of the Center''s forum on guard work, quoting its first sentence (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 182 n.1b). Names: Mao Zedong, Li Zhizhong.'
+    src:
+      c: e06f9d3c
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 182: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 182 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 182 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1965-12-15.space
     when: Dec. 15
     date: '1965-12-15'
@@ -1594,6 +1832,30 @@ entries:
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 96–97: ?'
     tags: [polity:ussr, polity:algeria, name:brezhnev-leonid, name:boumediene-houari, vis:only:ussr+algeria]
+  - id: cal.1965-12-15.china-leadership
+    when: Dec. 15
+    date: '1965-12-15'
+    thread: china-leadership
+    also: [china]
+    c: Xiao Xiangrong, escorted from Peking to Shanghai and pressed by two superiors to denounce Luo Ruiqing, refuses. He is sent back to Peking.
+    n: '[[w.macfarquhar-maos-last-revolution]], 25–26. Made public: 2006. To check: [[w.guanghua-yin-fandui-tuchu-zhengzhi]], 22 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.53). See [[cal.1965-12-08.china-leadership]]. Names: Xiao Xiangrong, Luo Ruiqing.'
+    src:
+      c: 6b1f0709
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 25–26: all'
+    tags: [polity:prc, name:xiao-xiangrong, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1965-12-15.china
+    when: Dec. 15
+    date: '1965-12-15'
+    thread: china
+    also: [indonesia]
+    c: 'The Chinese embassy in Indonesia''s note to the Indonesian Foreign Ministry: strong protest at a second attack on the Chinese consulate at Medan. It asks the Indonesian government to take effective steps to keep its promise of no repeat.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 74 (Dec. 15, 1965).'
+    src:
+      c: 5345f5aa
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 74: all'
+    tags: [polity:prc, polity:indonesia]
   - id: cal.1965-12-16.robert-kennedy
     when: Dec. 16
     date: '1965-12-16'
@@ -1840,6 +2102,33 @@ entries:
     c: 'The Secretariat''s secret cable no. 312 to the committees of Haiphong, Quảng Ninh, Việt Trì, Phú Thọ, Hải Dương, Hà Bắc, Lạng Sơn, Nam Hà, Ninh Bình and Thái Bình: the enemy plans a big raid, the carrier Enterprise coming beside the Kitty Hawk; in good weather routes 1 and 5, Uông Bí, the Hồng Gai–Quảng Yên zone and Haiphong, its oil depot, cement works, bridges and channel, may be hit; air defense and evacuation to be tightened.'
     n: '*Điện mật của Ban Bí thư số 312 về việc tăng cường phòng không, sơ tán* (the title the editors''), signed for the Secretariat by Vũ Tuân. [[w.van-kien-dang-toan]], XXVI, 467–68. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-17.china-leadership
+    when: Dec. 17
+    date: '1965-12-17'
+    thread: china-leadership
+    c: Zhou returns to Beijing.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 17, 1965). Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-12-17.china-leadership-2
+    when: Dec. 17
+    date: '1965-12-17'
+    thread: china-leadership
+    also: [china]
+    c: Luo Ruiqing is flown to Peking and asks to be relieved of his posts.
+    n: '[[w.macfarquhar-maos-last-revolution]], 26. Made public: 2006. To check: [[w.yao-san-ci-da-nan]], 292–293 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55a); [[w.nianyi-da-dongluande-niandai-revised]], 94 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55b). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing.'
+    src:
+      c: 4005e4a4
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 26: all'
+    tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1965-12-17.china-leadership-3
+    when: Dec. 17
+    date: '1965-12-17'
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: 'Beijing. Chen Yi to Nguyễn Duy Trinh: the Vietnamese policy is right and he agrees; fighting while negotiating has marked both revolutions, the Chinese and the Vietnamese. The U.S. shows no sign of wanting peace and opens talks to deceive opinion; if it wants to talk, so does Vietnam, to unmask it. His personal opinion.'
+    n: 'Chen Yi with Nguyễn Duy Trinh, Beijing, Dec. 17, 1965, doc. 15, [[w.77-conversations-between-chinese]], [89](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=87) (an excerpt; no hour; 89 n.137, Trinh). Made public: 1998. Names: Chen Yi, Nguyễn Duy Trinh.'
+    tags: [name:chen-yi, name:nguyen-duy-trinh, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1965-12-18.japan-and-korea
     when: Dec. 18
     date: '1965-12-18'
@@ -2015,6 +2304,69 @@ entries:
     c: 'The Secretariat''s circular no. 171-TT/TW on the Party''s budget for 1966: the 1965 estimate met, dues above it, money put into restructuring the organs, cadre training, Party education and external work, and moved to evacuation and air defense.'
     n: '*Thông tri của Ban Bí thư số 171-TT/TW về phương hướng thu, chi ngân sách đảng năm 1966*, signed for the office by Minh Châu, deputy chief. [[w.van-kien-dang-toan]], XXVI, 469–76. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-18.china-leadership
+    when: Dec. 18
+    date: '1965-12-18'
+    time: 1965-12-18T06:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: 'Zhou, with Chen Yi, talks with Vietnam''s deputy premier Nguyễn Duy Trinh, Building 5, Diaoyutai guesthouse, 2 p.m. Zhou: on Vietnam or China the U.S. would come to Hanoi or Beijing to talk at a hint, as it would on Taiwan. Chen Yi: a hint of talks on South Vietnam, the U.S. presence there agreed to; Zhou: not so; put the South aside, or merely agree to contacts, and they will come at once, the sooner the weaker the terms.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 18–19, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; 2 p.m., Building 5, Diaoyutai guesthouse, talks with Nguyễn Duy Trinh (阮维桢)); [[w.zhonghua-renmin-gongheguo-waijiao]], 75 (Dec. 17–19, 1965; Nguyễn Duy Trinh''s visit, Dec. 17 to 19; Zhou''s and Chen Yi''s talks); [[w.77-conversations-between-chinese]], [89](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=87) (doc. 16; Beijing, 2 p.m., Dec. 18, 1965: Zhou and Chen Yi with Nguyễn Duy Trinh on how readily the U.S. would come to talk; 89 n.138, the U.S. "peace offensive" of Dec. 28 denounced by the DRV Foreign Ministry). Made public: 1993. See [[cal.1965-12-17.china-leadership-3]]. Names: Zhou Enlai, Chen Yi, Nguyễn Duy Trinh.'
+    src:
+      c: 6bacaf0f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 75: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=87: B-E'
+    tags: [name:zhou-enlai, name:chen-yi, name:nguyen-duy-trinh, polity:prc, polity:drv, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-18.china-leadership-2
+    when: Dec. 18
+    date: '1965-12-18'
+    time: 1965-12-18T09:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou talks with Pakistan's foreign minister Bhutto in Building 7 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; 5 p.m., Building 7, Diaoyutai guesthouse). The book gives no content. Names: Zhou Enlai, Bhutto.'
+    src:
+      c: 07c3d87b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-18.china-leadership-3
+    when: Dec. 18
+    date: '1965-12-18'
+    thread: china-leadership
+    c: Zhou receives the head of Cambodia's Royal Technical University and his wife, and the Cambodian science and technology delegation he leads.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; afternoon; Beijing). The book names him 帕加. Names: Zhou Enlai.'
+    src:
+      c: 2423d9f6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-18T04:00Z
+      - 1965-12-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-18.china-leadership-4
+    when: Dec. 18
+    date: '1965-12-18'
+    thread: china-leadership
+    c: Zhou attends the reception for the fifth anniversary of the signing of the China–Cambodia friendship treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 18, 1965; evening; Beijing). Names: Zhou Enlai.'
+    src:
+      c: d3304ad2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-18T11:00Z
+      - 1965-12-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-19.vietnam-pause
     when: Dec. 19
     date: '1965-12-19'
@@ -2060,6 +2412,41 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 733–34: all'
         - 'via w.schlesinger-robert-kennedy-and-his 734 n.46: all'
     tags: [name:kennedy-robert-f, name:fanfani-amintore, name:johnson-lyndon-b, name:ball-george-w, name:harriman-w-averell, name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1965-12-19.china-leadership
+    when: Dec. 19
+    date: '1965-12-19'
+    thread: china-leadership
+    c: Zhou visits Huang Yanpei.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 19, 1965). Names: Zhou Enlai, Huang Yanpei.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-12-19.china-leadership-2
+    when: Dec. 19
+    date: '1965-12-19'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou attends the capital's meeting for the fifth anniversary of the National Liberation Front of South Vietnam.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 19, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 19, 1965; afternoon; the rally of ten thousand in the capital for the fifth anniversary of the National Liberation Front of South Vietnam, with 2,300 foreign friends from over forty states also attending). Names: Zhou Enlai.'
+    src:
+      c: e34d804a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
+    tags: [name:zhou-enlai, polity:prc, polity:drv]
+  - id: cal.1965-12-19.china-leadership-3
+    when: Dec. 19
+    date: '1965-12-19'
+    time: 1965-12-19T02:30Z
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: 'Zhou, with Chen Yi, talks again with Nguyễn Duy Trinh, Building 5, Diaoyutai guesthouse, 10:30 a.m. Zhou, in four points: talks will be needed at some point, but the time is not ripe; the military struggle is the main one, and Vietnam''s conditions should be positive and from a high position, not an unconditional halt to the bombing of the North; such a condition makes Hanoi seem to settle North and South apart; and if the U.S. accepts it Vietnam is left passive. Chen Yi: drop the bombing halt, the Four Points are enough.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 19, 1965; 10:30 a.m., Building 5, with Chen Yi, talks again); [[w.77-conversations-between-chinese]], [90](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (doc. 17; Beijing, 10:30 a.m., Dec. 19, 1965: Zhou''s four points on the timing of talks and Vietnam''s conditions, the trap set by the U.S. and the revisionists, and Chen Yi''s counsel to drop the bombing halt; 90 n.139, Zhou to Trần Văn Thanh the next day). Made public: 1993. See [[cal.1965-12-18.china-leadership]]. Names: Zhou Enlai, Chen Yi, Nguyễn Duy Trinh.'
+    src:
+      c: 5c5b63fc
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: A'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: B-F'
+    tags: [name:zhou-enlai, name:chen-yi, name:nguyen-duy-trinh, polity:prc, polity:drv, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-20.europe-and-the-alliance
     when: Dec. 20–21
     date: '1965-12-20'
@@ -2229,6 +2616,40 @@ entries:
     c: Moscow. Kekkonen, President of Finland. Brezhnev and Podgorny take him to Zavidovo Dec. 20; Brezhnev is with Kekkonen all of Dec. 21; Dec. 22, 10:20 to 12, he joins the negotiation in the Kremlin.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97–98 (Dec. 20–22). Names: Brezhnev, Kekkonen, Podgorny.'
     tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:kekkonen-urho, polity:ussr, polity:finland]
+  - id: cal.1965-12-20.china-leadership
+    when: Dec. 20
+    date: '1965-12-20'
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam]
+    c: 'Zhou, at the reception given by Trần Văn Thanh, head of the Front''s permanent mission in China, for its fifth anniversary: the American "unconditional negotiation" is conditional, that the people of the South lay down arms, stop resisting, and the North give up its countrymen; the U.S., deep in the Vietnam swamp, plots new widening, perhaps to all Indochina and China. The Chinese people are long prepared; if it insists on widening, on another contest with them, they will answer and see it through.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 20, 1965); [[w.77-conversations-between-chinese]], [90 n.139](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (the editors'' note 139 to doc. 17: Zhou to Trần Văn Thanh, head of the NLF''s resident delegation in Beijing, Dec. 20, 1965: the American ''unconditional negotiation'' is conditional; the U.S. may widen the war to all Indochina or China; the Chinese people are prepared and will fight to the end). Check: the form of the Front name. Names: Zhou Enlai, Trần Văn Thanh.'
+    src:
+      c: 34f24629
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: A-D'
+        - 'via x.1965-12-20.zhou-enlai-to-tran-van-thanh: A-D'
+    tags: [name:zhou-enlai, polity:prc, polity:nlf]
+  - id: cal.1965-12-20.china-leadership-2
+    when: Dec. 20
+    date: '1965-12-20'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Zhou, at the reception given at the Beijing Hotel by Trần Văn Thành, head of the National Liberation Front of South Vietnam''s permanent mission, for the Front''s fifth anniversary: the United States, deep in the mire of aggression in Vietnam, is plotting a new widening of the war, possibly to all Indochina and China. The Chinese people have long been prepared, and if the U.S. goes on and wants another trial of strength with them, they will take it up and see it through.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 20, 1965; evening; Beijing Hotel); [[w.zhonghua-renmin-gongheguo-waijiao]], 75 (Dec. 20, 1965; Zhou at the Front''s mission''s reception for the Front''s fifth anniversary: full support for the DRV''s four points and the Front''s five-point statement; if the U.S. goes on widening the war, China will meet it to the end); [[w.77-conversations-between-chinese]], [90 n.139](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (the editors'' note 139 to doc. 17: Zhou to Trần Văn Thanh, Dec. 20, 1965, the same words). The book names the head of the mission 陈文成. Names: Zhou Enlai.'
+    src:
+      c: 8a991bde
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 75: all'
+        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: A, B'
+        - 'via x.1965-12-20.zhou-enlai-to-tran-van-thanh: A, B'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-20T11:00Z
+      - 1965-12-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-21.vietnam-pause
     when: Dec. 21
     date: '1965-12-21'
@@ -2302,14 +2723,20 @@ entries:
     thread: china-leadership
     also: [china, india-and-china-cultural-revolution]
     c: 'Mao, Hangzhou, with Chen Boda, Hu Sheng, Tian Jiaying, Ai Siqi and Guan Feng on prefaces to Marx, Engels and Lenin''s classics, the "philosophy, hard to do". Of *Hai Rui*: Qi Benyu''s article good, read three times, fault no name; Yao Wenyuan''s good, named, shook drama, history and philosophy, but missed the point, the "dismissal": the Jiajing emperor dismissed Hai Rui, in 1959 we dismissed Peng Dehuai, who is a Hai Rui. Of the *Qing gong mishi* film: not patriotic, but national betrayal. One basic law only: contradiction.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 21, 1965. Made public: 2013. Names: Mao Zedong, Chen Boda, Peng Dehuai, Hu Sheng, Tian Jiaying, Ai Siqi, Guan Feng, Qi Benyu, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 21, 1965. [[w.macfarquhar-maos-last-revolution]], 29 (Qi Benyu''s article read three times); [[w.jianguo-yilai-mao-zedong]], XVIII, 185–186 (Dec. 21, 1965; note 1: the talk of Dec. 21 at Hangzhou with Chen Boda, Hu Sheng, Tian Jiaying, Ai Siqi and Guan Feng, of which the Wengao prints the part on school education, from *Mao zhuxi lun jiaoyu geming*, Renmin Chubanshe, Dec. 1967). Made public: 2006. Check: the remarks on education were printed earlier, in *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), the Wengao''s source for them ([[w.jianguo-yilai-mao-zedong]], XVIII, 186 n.1); the entry gives 2006 for the talk. To check: [[w.xin-ban-guangming-ribao-shinian]], 245–247 (cited by [[w.macfarquhar-maos-last-revolution]], 29 n.64). Names: Mao Zedong, Chen Boda, Peng Dehuai, Hu Sheng, Tian Jiaying, Ai Siqi, Guan Feng, Qi Benyu, Yao Wenyuan.'
+    src:
+      c: 8a945d28
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Dec. 21, 1965: all'
+        - 'w.macfarquhar-maos-last-revolution 29: B'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 185–186: A'
     tags: [name:mao-zedong, name:chen-boda, name:peng-dehuai, name:yao-wenyuan, polity:prc, vis:only:prc]
   - id: cal.1965-12-27.vietnam-2
     when: Dec. 21–27
     date: '1965-12-21'
     thread: vietnam-hanoi
     c: The Twelfth Plenum in Hanoi, Hồ Chí Minh presiding. The war protracted, but forces of North and South to be concentrated to "secure a decisive victory within a relatively short period of time"; the North to defeat the bombing and supply the South; its main forces a strategic reserve for the South.
-    n: '[[w.vietnam-victory-in-vietnam]], 171–72 (quoted, 171); [[w.nguyen-hanois-war]], 78 (the plenum, late 1965); [[w.cosmas-joint-chiefs-of-staff-2012]], 360 (the plenum''s declaration of Dec. 27); [[w.van-kien-dang-toan]], XXVI, 596–625 (the plenum''s resolution, dated Dec. 27, 1965); [[w.van-kien-dang-toan]], XXVI, 542–95 (Lê Duẩn''s speech to the plenum: the war protracted, all effort for a decisive victory in a relatively short time); [[w.van-kien-dang-toan]], XXVI, 485–541 (the Politburo''s report to the plenum, on the plan for 1966–67); [[w.van-kien-dang-toan]], XXVI, 626–33 (Hồ Chí Minh''s speech at the closing session, the afternoon of Dec. 27). Washington''s reading of Hanoi after the pause began: [FRUS 1964–68, IV, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v04/d44) (State''s intelligence bureau, Jan. 26, 1966). Check: the volume has the plenum meet Dec. 21–27 (XXVII, 35 n.; Dec. 21–26 in the introduction to vol. XXVI), its resolution and Hồ Chí Minh''s closing speech Dec. 27 (XXVI, 596, 626); the secondary books, Dec. 27. Nguyen, 78 n.136, cites Lê Duẩn''s speech at XXVI, 594–95, its last pages (the speech, 542–95). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1963-12.vietnam]]. Names: Hồ Chí Minh.'
+    n: '[[w.vietnam-victory-in-vietnam]], 171–72 (quoted, 171); [[w.nguyen-hanois-war]], 78 (the plenum, late 1965); [[w.cosmas-joint-chiefs-of-staff-2012]], 360 (the plenum''s declaration of Dec. 27); [[w.van-kien-dang-toan]], XXVI, 596–625 (the plenum''s resolution, dated Dec. 27, 1965); [[w.van-kien-dang-toan]], XXVI, 542–95 (Lê Duẩn''s speech to the plenum: the war protracted, all effort for a decisive victory in a relatively short time); [[w.van-kien-dang-toan]], XXVI, 485–541 (the Politburo''s report to the plenum, on the plan for 1966–67); [[w.van-kien-dang-toan]], XXVI, 626–33 (Hồ Chí Minh''s speech at the closing session, the afternoon of Dec. 27). Washington''s reading of Hanoi after the pause began: [FRUS 1964–68, IV, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v04/d44) (State''s intelligence bureau, Jan. 26, 1966). Check: the volume has the plenum meet Dec. 21–27 (XXVII, 35 n.; Dec. 21–26 in the introduction to vol. XXVI), its resolution and Hồ Chí Minh''s closing speech Dec. 27 (XXVI, 596, 626); the secondary books, Dec. 27. Nguyen, 78 n.136, cites Lê Duẩn''s speech at XXVI, 594–95, its last pages (the speech, 542–95). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1963-12.vietnam]]. The time is the first day''s. Names: Hồ Chí Minh.'
     src:
       c: 446c98be
       rows:
@@ -2334,6 +2761,25 @@ entries:
         witness: w.van-kien-dang-toan
         reads: the plenum "họp từ ngày 21 đến ngày 27-12-1965" (met Dec. 21–27, 1965), the editors' note; Hồ Chí Minh's closing speech "chiều ngày 27 tháng 12 năm 1965" (the afternoon of Dec. 27)
         at: XXVII, 35 n.; XXVI, 626
+  - id: cal.1965-12-21.china-leadership-2
+    when: Dec. 21
+    date: '1965-12-21'
+    thread: china-leadership
+    c: Huang Yanpei dies; Zhou goes to take leave of the body.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 21, 1965). Names: Huang Yanpei, Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-12-21.china-leadership-3
+    when: Dec. 21
+    date: '1965-12-21'
+    thread: china-leadership
+    also: [africa]
+    c: Zhou receives the ambassador of the Congo (Brazzaville) at the Xihuating, Zhongnanhai.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 21, 1965; Xihuating, Zhongnanhai; the time not given). The book names the ambassador 阿方斯·贝约纳. Names: Zhou Enlai.'
+    src:
+      c: '66242483'
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 487: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1965-12-22.economy
     when: Dec. 22
     date: '1965-12-22'
@@ -2415,7 +2861,12 @@ entries:
     thread: china-leadership
     also: [china, india-and-china-cultural-revolution]
     c: 'Mao, Hangzhou, with Peng Zhen, Kang Sheng and Yang Chengwu: again that *Hai Rui*''s point is the dismissal and Peng Dehuai a Hai Rui. Peng Zhen: by inquiry Wu Han and Peng Dehuai have no organizational link. Dec. 23: with Peng Zhen alone. Mao: Wu Han''s question to be given a political conclusion in two months.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 22, 1965. Made public: 2013. Names: Mao Zedong, Peng Zhen, Kang Sheng, Peng Dehuai, Yang Chengwu, Wu Han.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 22, 1965. [[w.macfarquhar-maos-last-revolution]], 27–28 (Mao''s remark to Peng Zhen and Peng''s answer). Made public: 2006. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 6 (cited by [[w.macfarquhar-maos-last-revolution]], 28 n.60); [[w.wenhua-dageming-yanjiu-ziliao]], I, 5–6 (cited by [[w.macfarquhar-maos-last-revolution]], 28 n.62). Names: Mao Zedong, Peng Zhen, Kang Sheng, Peng Dehuai, Yang Chengwu, Wu Han.'
+    src:
+      c: 7f5718dc
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Dec. 22, 1965: all'
+        - 'w.macfarquhar-maos-last-revolution 27–28: A, B'
     tags: [name:mao-zedong, name:peng-zhen, name:kang-sheng, name:peng-dehuai, polity:prc, vis:only:prc]
   - id: cal.1965-12-22.vietnam-hanoi
     when: Dec. 22
@@ -2425,6 +2876,25 @@ entries:
     c: 'The Secretariat''s instruction no. 117-CT/TW on propaganda for the Lao revolution: the Lao and Vietnamese revolutions closely bound, both under American attack; propaganda to draw the two peoples together and win wider support abroad for Laos.'
     n: '*Chỉ thị của Ban Bí thư số 117-CT/TW về việc đẩy mạnh công tác tuyên truyền ủng hộ cách mạng Lào*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 477–79. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-22.china-leadership-2
+    when: Dec. 22
+    date: '1965-12-22'
+    thread: china-leadership
+    c: 'Zhou invites artists of the Hotan song-and-dance troupe of Xinjiang and the Inner Mongolia Ulan Muqir touring troupe to his home in Zhongnanhai; eats steamed cornbread and big-pot vegetables with them. To the Ulan Muqir: you have gone all over the country and led all troupes; keep the name, bring revolutionary music and dance to the people; in tall buildings remember the yurt, riding the train remember the horse; go back to horseback and poor herders.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 22, 1965). Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-12-22.china-leadership-3
+    when: Dec. 22
+    date: '1965-12-22'
+    thread: china-leadership
+    also: [africa]
+    c: The first ambassador of the Central African Republic to China, Joseph-Gambéré Mamadou, presents his credentials to Zhu De. He reached Beijing Dec. 12.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 75 (Dec. 22, 1965). Names: Zhu De. Check: the name, from the Chinese 约瑟夫-冈贝亨·马马杜.'
+    src:
+      c: 2fced0f5
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 75: all'
+    tags: [polity:prc, polity:central-african-republic, name:zhu-de]
   - id: cal.1965-12-23.vietnam-congress
     when: Dec. 23
     date: '1965-12-23'
@@ -2517,13 +2987,20 @@ entries:
     c: 'The Secretariat''s instruction no. 118-CT/TW on information and agitation: the everyday work among the masses weak, so that policies, news and good examples of production and fighting reach too few.'
     n: '*Chỉ thị của Ban Bí thư số 118-CT/TW về việc tăng cường công tác thông tin và cổ động*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 480–84. Made public: 2003.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1965-12-23.china-leadership
+    when: Dec. 23
+    date: '1965-12-23'
+    thread: china-leadership
+    c: Zhou calls responsible officials on foreign trade and grain.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 23, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-12-24.vietnam
     when: Dec. 24–25
     date: '1965-12-24'
     time: 1965-12-24T10:00Z
     thread: vietnam-pause
     c: 'The Christmas truce, announced by Saigon and Washington Dec. 23: 6 p.m. Dec. 24 to midnight Dec. 25, Saigon time. No bombing of the North; B-52 strikes halted; the truce to end only on renewed Viet Cong attack.'
-    n: '[FRUS 1964–68, III, doc. 242](https://history.state.gov/historicaldocuments/frus1964-68v03/d242) (editorial note). [[w.frankum-like-rolling-thunder]], 33–34 (the bombing of the North stopped from Dec. 24); [[w.drea-mcnamara-clifford-and-the-2011]], 66 (the 30-hour truce from 6 p.m. Dec. 24; Vance''s order of Dec. 24 against renewed operations); [[w.cosmas-joint-chiefs-of-staff-2012]], 391–94 (the hours; the orders; the extension); [[w.staaveren-u-s-air-force]], 102–03 (the halt from 6 p.m. Dec. 24, thirty hours; the bombing halt); [[w.johnson-vantage-point]], 237 (the thirty-hour truce, the bombing of the North halted); [[w.dallek-flawed-giant]], 343–46 (the making of the pause; the thirty-hour truce, air and ground action suspended, 344); [[w.gibbons-u-s-government-and]], IV, 113–70, 125 (the pause and its making; the truce announced, 125); [[w.herring-lbj-and-vietnam]], 100 (a brief holiday truce, agreed before Johnson left for the Ranch); [[w.mcnamara-in-retrospect]], ch. 8 (the thirty-hour ceasefire from Christmas Eve, the bombing of the North halted). [[w.berman-lyndon-johnsons-war]], 12 (the pause, 37 days, pressed by McNamara); [[w.zaroulis-who-spoke-up]], 66 (a thirty-hour truce including a pause in the bombing of the North; the page has the Administration announce it on Christmas Day); [[w.mann-grand-delusion]], 476 (6 p.m. Dec. 24: Johnson halts the bombing; U.S. forces not to fire except in self-defense until midnight the next day; Mann has the pause run on into January; not the announcement of Dec. 23, Saigon time, the B-52s or the Viet Cong clause). Check: McNamara has the White House and Saigon announce the ceasefire Dec. 22 (ch. 8). To check: [[w.herring-secret-diplomacy-of-the]]; [[w.thies-when-governments-collide]]; [[w.search-for-peace-in]]; [[w.cooper-lost-crusade]]; JCS 9332 to CINCPAC (from the Deputy Secretary of Defense), Dec. 25, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 66 n.55); William Bundy''s manuscript history, chap. 33, 31–32, 35–38, LBJ Library (cited by [[w.dallek-flawed-giant]], 344). See [[cal.1965-05-12.vietnam]]; [[cal.1965-11-28.vietnam]]; [[cal.1965-12-17.vietnam]]. Check: Dallek (344) and Gibbons (IV, 125) have the truce announced Dec. 22; FRUS''s editorial note and Cosmas (393) give that day''s instruction to announce it in Saigon.'
+    n: '[FRUS 1964–68, III, doc. 242](https://history.state.gov/historicaldocuments/frus1964-68v03/d242) (editorial note). [[w.frankum-like-rolling-thunder]], 33–34 (the bombing of the North stopped from Dec. 24); [[w.drea-mcnamara-clifford-and-the-2011]], 66 (the 30-hour truce from 6 p.m. Dec. 24; Vance''s order of Dec. 24 against renewed operations); [[w.cosmas-joint-chiefs-of-staff-2012]], 391–94 (the hours; the orders; the extension); [[w.staaveren-u-s-air-force]], 102–03 (the halt from 6 p.m. Dec. 24, thirty hours; the bombing halt); [[w.johnson-vantage-point]], 237 (the thirty-hour truce, the bombing of the North halted); [[w.dallek-flawed-giant]], 343–46 (the making of the pause; the thirty-hour truce, air and ground action suspended, 344); [[w.gibbons-u-s-government-and]], IV, 113–70, 125 (the pause and its making; the truce announced, 125); [[w.herring-lbj-and-vietnam]], 100 (a brief holiday truce, agreed before Johnson left for the Ranch); [[w.mcnamara-in-retrospect]], ch. 8 (the thirty-hour ceasefire from Christmas Eve, the bombing of the North halted). [[w.berman-lyndon-johnsons-war]], 12 (the pause, 37 days, pressed by McNamara); [[w.zaroulis-who-spoke-up]], 66 (a thirty-hour truce including a pause in the bombing of the North; the page has the Administration announce it on Christmas Day); [[w.mann-grand-delusion]], 476 (6 p.m. Dec. 24: Johnson halts the bombing; U.S. forces not to fire except in self-defense until midnight the next day; Mann has the pause run on into January; not the announcement of Dec. 23, Saigon time, the B-52s or the Viet Cong clause). Check: McNamara has the White House and Saigon announce the ceasefire Dec. 22 (ch. 8). The time is the first day''s. To check: [[w.herring-secret-diplomacy-of-the]]; [[w.thies-when-governments-collide]]; [[w.search-for-peace-in]]; [[w.cooper-lost-crusade]]; JCS 9332 to CINCPAC (from the Deputy Secretary of Defense), Dec. 25, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 66 n.55); William Bundy''s manuscript history, chap. 33, 31–32, 35–38, LBJ Library (cited by [[w.dallek-flawed-giant]], 344). See [[cal.1965-05-12.vietnam]]; [[cal.1965-11-28.vietnam]]; [[cal.1965-12-17.vietnam]]. Check: Dallek (344) and Gibbons (IV, 125) have the truce announced Dec. 22; FRUS''s editorial note and Cosmas (393) give that day''s instruction to announce it in Saigon.'
     src:
       c: 65320d11
       rows:
@@ -2625,6 +3102,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-12-24.china-leadership-2
+    when: Dec. 24
+    date: '1965-12-24'
+    thread: china-leadership
+    c: Zhou goes to Zhongshan Hall in Zhongshan Park to condole Huang Yanpei's death, and attends the capital's public memorial rite.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 24, 1965). Names: Zhou Enlai, Huang Yanpei.'
+    tags: [name:zhou-enlai, polity:prc]
+  - id: cal.1965-12-24.china-leadership
+    when: Dec. 24
+    date: '1965-12-24'
+    thread: china-leadership
+    c: 'Zhou writes Deng Xiaoping and Li Fuchun: at the State Council''s ministries'' briefing he said heads of each unit (some only party-group or committee members) may on return tell their party group or committee about "Luo"''s matter, but not pass it down or take notes; hears that Party ministries, the trade-union, youth and women''s bodies and party groups keep it to the person; asks whether to tell them also to relay at their level, for uniformity. Deng the same day: Li Zhizhong, deputy director of the Central Committee''s General Office, to tell the units, as the premier says.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769–70 (Dec. 24, 1965). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Li Fuchun, Li Zhizhong, Luo Ruiqing.'
+    tags: [name:zhou-enlai, name:deng-xiaoping, name:li-fuchun, name:luo-ruiqing, polity:prc, vis:only:prc]
   - id: cal.1965-12-25.laos
     when: Dec. 25
     date: '1965-12-25'
@@ -2636,6 +3127,41 @@ entries:
       rows:
         - 'w.staaveren-u-s-air-force 103: all'
     tags: [name:johnson-lyndon-b, name:sullivan-william-h]
+  - id: cal.1965-12-25.china-leadership
+    when: Dec. 25
+    date: '1965-12-25'
+    thread: china-leadership
+    c: Zhou calls Chen Manyuan, acting minister of state farms, and Zhou Rongxin on state farm work.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 25, 1965). Made public: 1997. Names: Zhou Enlai, Chen Manyuan, Zhou Rongxin.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-12-25.china-leadership-2
+    when: Dec. 25
+    date: '1965-12-25'
+    time: 1965-12-25T05:10Z
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou receives Romania's ambassador Gheorghiu at the Xihuating. The ambassador formally conveys that Prime Minister Maurer welcomes Zhou's visit to Romania, the time of the visit entirely for China to decide. Zhou answers briefly his questions on the situation in Vietnam.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 25, 1965; 1:10 p.m., Xihuating, Zhongnanhai). Made public: 1993. The book names the ambassador 乔治乌 (Gheorghiu, as at Nov. 4). Names: Zhou Enlai.'
+    src:
+      c: 618af4f3
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-25.china-leadership-3
+    when: Dec. 25
+    date: '1965-12-25'
+    time: 1965-12-25T09:00Z
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou receives and gives a banquet for Pakistan's foreign minister Bhutto in Building 7 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 25, 1965; 5 p.m., Building 7, Diaoyutai guesthouse). Names: Zhou Enlai, Bhutto.'
+    src:
+      c: 9036459f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-26.vietnam-pause
     when: Dec. 26
     date: '1965-12-26'
@@ -2660,6 +3186,38 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1965-12-26.china-leadership
+    when: Dec. 26–27
+    date: '1965-12-26'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou has talks with Pakistan's foreign minister Bhutto, Dec. 26 and 27.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 26–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 26–27, 1965; Dec. 26, 10 a.m. alone, Building 7, Diaoyutai guesthouse, and 4 p.m.; Dec. 27, 5 p.m., Building 7, military talks with Bhutto, the army chief of staff (the book names him 巴哈杜尔) and others). Made public: 1993. Names: Zhou Enlai, Bhutto.'
+    src:
+      c: b071a826
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 770: ?'
+        - 'w.zhou-enlai-waijiao-huodong 488: A'
+    tags: [name:zhou-enlai, name:bhutto-zulfikar-ali, polity:prc, polity:pakistan, vis:only:prc+pakistan]
+  - id: cal.1965-12-26.china-leadership-2
+    when: Dec. 26
+    date: '1965-12-26'
+    thread: china-leadership
+    c: Zhou calls Yang Chengwu to talk.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 26, 1965). Made public: 1997. Names: Zhou Enlai, Yang Chengwu.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-12-26.china-leadership-3
+    when: Dec. 26
+    date: '1965-12-26'
+    thread: china-leadership
+    c: On his birthday, by Chinese count 72, Mao gives his son Mao Anqing 毛岸青 and daughter-in-law Shao Hua 邵华, who have come to wish him long life, a copy in his hand of Ye Jianying's 叶剑英 regulated verse "Huaiyuan 怀远", retitled "Yuanwang 远望", with "at Bangchui Island 棒棰岛, Dalian 大连" added under the title.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 187–188 (Dec. 26, 1965; the manuscript; the poem printed in *Guangming ribao*, Oct. 16, 1965). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Mao Zedong, Ye Jianying, Mao Anqing, Shao Hua.'
+    src:
+      c: f5a9fdf2
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 187–188: all'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 187 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:ye-jianying, vis:only:prc]
   - id: cal.1965-12-27.vietnam
     when: Dec. 27
     date: '1965-12-27'
@@ -2773,6 +3331,30 @@ entries:
         - 'via x.1965-12-27.cjcs-271559z-dec-27-1965-state: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 67: A'
     tags: [name:westmoreland-william, name:wheeler-earle]
+  - id: cal.1965-12-27.china-leadership
+    when: Dec. 27
+    date: '1965-12-27'
+    thread: china-leadership
+    c: Zhou, with Deng, Li Fuchun, Xu Xiangqian, Ye Jianying and others, goes to the airport to meet the ashes of Lai Chuanzhu, political commissar of the Shenyang Military Region, flown from Shenyang, and escorts them to the Babaoshan Revolutionary Cemetery.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 27, 1965). Names: Zhou Enlai, Deng Xiaoping, Li Fuchun, Xu Xiangqian, Ye Jianying, Lai Chuanzhu.'
+    tags: [name:zhou-enlai, name:deng-xiaoping, name:li-fuchun, name:xu-xiangqian, name:ye-jianying, polity:prc]
+  - id: cal.1965-12-27.china-leadership-2
+    when: Dec. 27
+    date: '1965-12-27'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou gives a banquet for Pakistan's foreign minister Bhutto in Building 17 of the Diaoyutai guesthouse.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 27, 1965; evening; Building 17, Diaoyutai guesthouse). Names: Zhou Enlai, Bhutto.'
+    src:
+      c: b4050c6a
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai, name:bhutto-zulfikar-ali]
+    time_range:
+      - 1965-12-27T11:00Z
+      - 1965-12-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-28.vietnam
     when: Dec. 28
     date: '1965-12-28'
@@ -2883,6 +3465,18 @@ entries:
     c: 'The Politburo sets up a Central Theory Research Board: the Party leading the whole people against the United States, with the Northern revolution and the South''s raising theoretical and practical questions that must be settled to unify the Party''s thought and action.'
     n: '*Nghị quyết của Bộ Chính trị số 131-NQ/TW về việc thành lập Ban Nghiên cứu Lý luận của Trung ương*, signed for the Politburo by Lê Duẩn. [[w.van-kien-dang-toan]], XXVI, 634–39. Made public: 2003.'
     tags: [polity:drv, vis:only:drv, name:le-duan]
+  - id: cal.1965-12-28.china
+    when: Dec. 28
+    date: '1965-12-28'
+    thread: china
+    also: [laos]
+    c: The Foreign Ministry's statement condemns the U.S. war threat against Cambodia. By authorizing U.S. forces in South Vietnam to go into Cambodia in "pursuit", the statement says, the U.S. is signalling that it will carry the Vietnam war to Cambodia. Cambodia and Prince Sihanouk have declared they will answer any attack with their own military means and have asked the Soviet Union and Britain, co-chairmen of the 1954 Geneva Conference, and its participants to state their stand. China firmly backs Cambodia's stand and demand, and if the U.S. attacks Cambodia the Chinese people will give full support to its anti-U.S. struggle.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 75–76 (Dec. 28, 1965).'
+    src:
+      c: a178c380
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 75–76: all'
+    tags: [polity:prc, polity:cambodia, polity:us]
   - id: cal.1965-12-29.middle-east
     when: Dec. 29
     date: '1965-12-29'
@@ -3013,6 +3607,26 @@ entries:
     c: Moscow. Brezhnev receives Carlos Rafael Rodríguez, Secretary of the Cuban party's Central Committee, 11 to 1.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 99 (Dec. 29). Names: Brezhnev, Rodríguez.'
     tags: [name:brezhnev-leonid, polity:ussr, polity:cuba]
+  - id: cal.1965-12-29.china-leadership
+    when: Dec. 29–31
+    date: '1965-12-29'
+    thread: china-leadership
+    also: [testing]
+    c: Zhou chairs the 14th meeting of the Special Commission on the defense industry's finishing three years' work in two. The atom bomb's success was the work of pooled wisdom; this year the year of joining the two bombs, next year the missile year, a step on in missiles, the year after greater results. Everything divides in two; sum up, discover, invent, create, advance, or fall behind; always modest and prudent. Calls all to learn from Wang Jie's "carry the motherland in the breast, look to the world", lines he much admires. The meeting approves the plans for 1966 and 1967, among them tactical missiles, nuclear submarines and satellites.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 29–31, 1965). Made public: 1997. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1965-12-29.china-leadership-2
+    when: Dec. 29
+    date: '1965-12-29'
+    thread: china-leadership
+    also: [china]
+    c: Yang Chengwu appointed acting chief of staff of the PLA in Luo Ruiqing's place.
+    n: '[[w.macfarquhar-maos-last-revolution]], 26. Made public: 2006. To check: [[w.yao-san-ci-da-nan]], 292–293 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55a); [[w.nianyi-da-dongluande-niandai-revised]], 94 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.55b). See [[cal.1965-12-08.china-leadership]]. Names: Luo Ruiqing.'
+    src:
+      c: c5e8be84
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 26: all'
+    tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
   - id: cal.1965-12-30.congress
     when: Dec. 30
     date: '1965-12-30'
@@ -3132,6 +3746,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-12-30.china-leadership
+    when: Dec. 30
+    date: '1965-12-30'
+    thread: china-leadership
+    c: 'Chen Yi, answering questions of Takano Yoshihisa of *Akahata*, in Beijing: the Chinese people stand firmly with over 90 percent of the world''s people against U.S. aggression and war policy, and back every struggle of oppressed peoples and nations for freedom and independence. If the U.S. insists on carrying the war to China, China will fight.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 76 (Dec. 30, 1965). Names: Chen Yi. Check: the correspondent''s name, from the Chinese 高野好久.'
+    src:
+      c: caf86359
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 76: all'
+    tags: [polity:prc, polity:japan, name:chen-yi]
   - id: cal.1965-12-31.steel
     when: Dec. 31
     date: '1965-12-31'
@@ -3236,6 +3861,7 @@ entries:
   - id: cal.1965-12.vietnam-force-levels
     when: Dec., mid-month
     date: 1965-12
+    at: before 1965-12-11
     thread: vietnam-force-levels
     c: Honolulu. Westmoreland with Sharp on his concept of operations, deployments and organization and the troops he needs for the enemy's build-up. Wheeler and Harold Johnson in Saigon the same month.
     n: '[[w.westmoreland-soldier-reports]], 154. Check: the days. See [[cal.1965-11-28.vietnam]]. Names: Westmoreland, Sharp, Wheeler, Harold Johnson.'
@@ -3370,6 +3996,7 @@ entries:
   - id: cal.1965-12.laos-2
     when: Dec., early
     date: 1965-12
+    at: before 1965-12-01
     thread: laos
     also: [vietnam-air-war]
     c: The UC-123s fly their first defoliation mission in Laos.
@@ -3448,6 +4075,7 @@ entries:
   - id: cal.1965-12.war-opposition
     when: Dec., late
     date: 1965-12
+    at: before 1965-12-21
     thread: war-opposition
     also: [vietnam-diplomacy]
     c: Aptheker of the American Institute for Marxist Studies, Staughton Lynd of the Yale history faculty and Tom Hayden, first president of SDS, go to Hanoi without the government's permission, to explore the chances of peace; not prosecuted. Back in January, they say little but that they are hopeful. Their offer to testify declined by Foreign Relations.
@@ -3492,6 +4120,7 @@ entries:
   - id: cal.1965-12.vietnam-5
     when: Dec., late
     date: 1965-12
+    at: before 1965-12-21
     thread: vietnam
     c: 'Taylor to Johnson: goals for every program in 1966, bench marks of progress. The secure population from 53 percent to 75 or 80; half the South''s battalions in mobile combat; air attacks on all targets of value outside the cities, the rails and roads interdicted, Haiphong mined after warning; elections for a constituent assembly; a candid information campaign at home.'
     n: '[[w.taylor-swords-and-plowshares]], 363–65 (raised again before the Honolulu meeting of February). Check: the day. Names: Taylor, Johnson.'
@@ -3527,6 +4156,7 @@ entries:
   - id: cal.1965-12.cities-and-housing
     when: Dec., late
     date: 1965-12
+    at: before 1965-12-21
     thread: cities-and-housing
     c: 'Califano discusses the task force''s demonstration cities report with Wirtz, who doubts it can work: local officials cannot be given federal money to spend at their discretion. Weaver not consulted until the end; Congress not at all.'
     n: '[[w.bernstein-guns-or-butter]], 463. Check: the day; after the report of Dec. 15. See [[cal.1965-12-15.cities-and-housing]]. Names: Califano, Wirtz, Weaver.'
@@ -3575,6 +4205,7 @@ entries:
   - id: cal.1965-12.congress-3
     when: Dec., late
     date: 1965-12
+    at: before 1965-12-21
     thread: congress
     c: The Fulbrights to Puerto Rico for a week after Christmas, Hal Douglas with them.
     n: '[[w.woods-fulbright]], 396. Check: the days. Names: Fulbright.'
@@ -3583,3 +4214,75 @@ entries:
       rows:
         - 'w.woods-fulbright 396: all'
     tags: [name:fulbright-j-william]
+  - id: cal.1965-12-31.china-leadership
+    when: Dec. 31
+    date: '1965-12-31'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou calls on Hoàng Văn Hoan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 31, 1965). Names: Zhou Enlai, Hoàng Văn Hoan.'
+    tags: [name:zhou-enlai, polity:prc, polity:drv]
+  - id: cal.1965-12.china-leadership
+    when: Dec., after the 15th
+    date: 1965-12
+    at: after 1965-12-15
+    thread: china-leadership
+    also: [china]
+    c: Xiao Xiangrong, within a week of his return, is sent into internal exile beyond the Great Wall in the northwest and made subject to a Military Commission inquiry.
+    n: '[[w.macfarquhar-maos-last-revolution]], 26. Made public: 2006. To check: [[w.guanghua-yin-fandui-tuchu-zhengzhi]], 22 (cited by [[w.macfarquhar-maos-last-revolution]], 26 n.53). Names: Xiao Xiangrong. Check: the day.'
+    src:
+      c: 3435c99b
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 26: all'
+    tags: [polity:prc, name:xiao-xiangrong, vis:only:prc]
+  - id: cal.1965-12.china-leadership-2
+    when: Dec.
+    date: 1965-12
+    thread: china-leadership
+    also: [china]
+    c: Peng Zhen instructs Deng Tuo to organize a group to write articles proving that Wu Han's errors are academic, not political.
+    n: '[[w.macfarquhar-maos-last-revolution]], 18–19. Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16). See [[cal.1965-11-29.china-leadership-2]]. Names: Peng Zhen. Check: the day.'
+    src:
+      c: a28f25af
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 18–19: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-12.china-leadership-3
+    when: Dec.
+    date: 1965-12
+    thread: china-leadership
+    also: [china]
+    c: Shanghai. Peng Zhen meets Zhang Chunqiao. Zhang assures him it is all a scholarly discussion and proposes how it should proceed. Peng approves, and promises Zhang a Peking duck dinner in the capital when the debate has run its course.
+    n: '[[w.macfarquhar-maos-last-revolution]], 18–19. Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16). Names: Peng Zhen, Zhang Chunqiao. Check: the day; MacFarquhar (18) places the meeting after Peng''s December instruction to Deng Tuo.'
+    src:
+      c: 14dddd79
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 18–19: all'
+    tags: [polity:prc, name:peng-zhen, name:zhang-chunqiao, vis:only:prc]
+  - id: cal.1965-12-31.china-leadership-2
+    when: Dec. 31
+    date: '1965-12-31'
+    thread: china-leadership
+    c: Zhou attends at the Beijing Hotel the New Year's eve party for the capital's artists and the Albanian People's Army song and dance ensemble, welcoming 1966.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 488 (Dec. 31, 1965; evening; Beijing Hotel). Names: Zhou Enlai.'
+    src:
+      c: 1c0ffcef
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 488: all'
+    tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-12-31T11:00Z
+      - 1965-12-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-12-31.china-leadership-3
+    when: Dec. 31
+    date: '1965-12-31'
+    thread: china-leadership
+    c: 'Mao, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Fidel Castro and Osvaldo Dorticós on the 7th anniversary of Cuba''s liberation: the revolution''s victory a shameful defeat for U.S. imperialism, proof that a people in revolution cannot be conquered; friendship of the two peoples.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 189–190 (Dec. 31, 1965; printed from *Renmin ribao*, Jan. 1, 1966). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Castro, Dorticós.'
+    src:
+      c: ad9804f4
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XVIII, 189–190: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:castro-fidel, name:dorticos-torrado-osvaldo, polity:cuba]

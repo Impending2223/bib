@@ -1809,8 +1809,9 @@ def calendar_sentences(ptrs, cal):
             c = series_html(ptrs, store.as_list(e.get("c"))[0] if e.get("c") else "", "cal", e)
             n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
             # each calendar entry a paragraph of its own, its sources and pointer after it
-            out.append(sent(e["date"], f"{esc(e['when'])}, {e['date'][:4]}: {c}", [n] if n else [],
-                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {esc(e['when'])}, {e['date'][:4]}")], para=True,
+            wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
+            out.append(sent(e["date"], f"{wy}: {c}", [n] if n else [],
+                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                             kind="cal"))
     return out
 

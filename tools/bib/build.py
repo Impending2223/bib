@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vispage, vnmap
+from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
 from . import conventions
 from . import oilworld
 from . import budgets
@@ -87,6 +87,8 @@ def thread_members(lst):
             continue
         for t in entry_threads(lst, e):
             out.setdefault(t, []).append(e)
+    for ms in out.values():               # in the calendar's order: a loose date where it is shown (loose.py, STYLE 2)
+        ms.sort(key=loose.order_key)
     _MEMBERS[id(lst)] = (key, out)
     return out
 
@@ -108,6 +110,8 @@ def index_members(lst):
             continue
         for t in dict.fromkeys([e["thread"]] + list(e.get("also") or [])):
             out.setdefault(t, []).append(e)
+    for ms in out.values():
+        ms.sort(key=loose.order_key)
     _OWN[id(lst)] = (key, out)
     return out
 
@@ -186,6 +190,8 @@ def program_html(series, lst, e, year, text_html):
 def date_label(e, year=None):
     """A calendar entry's label: its "when", with the year added when it is not `year`."""
     y = (e.get("date") or "")[:4]
+    if str(e["when"]).startswith(y):     # a year alone ("1962", "1962, spring") names its year
+        return e["when"]
     return f"{e['when']}, {y}" if y and y != year else e["when"]
 
 
@@ -254,12 +260,16 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         slug = e["id"].split(".", 2)[2]
         members = thread_members(lst).get(slug, [])
         half = calsplit.CUR["half"]
-        first = min((calsplit.half_of_date(lst, m["date"]) for m in members), default=1)
+        first = min((calsplit.half_of_date(lst, loose.place_iso(m)) for m in members), default=1)
         statement = calsplit.statement(lst, e, half, first, members)   # written once, chosen by the part's range
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
+    cjk_done = set()                    # characters after romanized Chinese: at their first on the page (cjk.py)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
+        if lst.kind == "calendar" and not is_thread:
+            from . import cjk
+            c = cjk.strip(series, e, c, cjk_done)
         body = text_html(year_qualified(series, c, year), "c")
         if is_thread and i == 0:
             body = thread_person(series, body)
@@ -274,6 +284,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
         parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
     n = year_qualified(series, e.get("n"), year)
+    if n and lst.kind == "calendar" and not is_thread:
+        from . import cjk
+        n = cjk.strip(series, e, n, cjk_done)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works
         n = works.with_first_cites(series, e, works.ordered(series, n))
@@ -334,7 +347,7 @@ def ghost_thread_html(lst, e):
     members = index_members(lst).get(slug, [])          # its dates: its own entries (calsplit.py, STYLE 15)
 
     def here(ms):
-        return [m for m in ms if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half]
+        return [m for m in ms if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, loose.place_iso(m)) == half]
     mine = here(members) or here(thread_members(lst).get(slug, []))   # a line where its family has entries
     if not mine:
         return ""
@@ -354,7 +367,7 @@ def redirect_thread_html(lst, e):
     part, nothing where none has (calsplit.py, STYLE 10)."""
     half = calsplit.CUR["half"]
     def here(to):
-        return any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+        return any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, loose.place_iso(m)) == half
                    for m in thread_members(lst).get(to, []))
     tos = [to for to in store.as_list(e["see"]) if here(to)]
     if not tos:
@@ -376,7 +389,7 @@ def see_also_html(lst, e):
     (calsplit.py, STYLE 11)."""
     half = calsplit.CUR["half"]
     tos = [to for to in store.as_list(e.get("see_also"))
-           if any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+           if any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, loose.place_iso(m)) == half
                   for m in thread_members(lst).get(to, []))]
     if not tos:
         return ""
@@ -398,6 +411,13 @@ def headings(lst, sec, idfmt):
         m = re.fullmatch(r"([A-Z][a-z]+) (\d{4})", plain(sec.title))
         if m:
             crumb = f' data-crumb="{m.group(2)} / {m.group(1)}"'
+            # the year in the top bar goes to its year's first month (on its own page where the year is split; the
+            # owner, Nov. 18, 2026: "clicking '1960' would navigate to the first calendar entry in 1960")
+            from . import contents
+            firsts = [x for x in lst.sections if contents._month(x) and contents._month(x)[0] == int(m.group(2))]
+            if firsts:
+                whole = bool(calsplit.cfg(lst))
+                crumb += f' data-ytop="{attr(contents._sec_href(lst, firsts[0], whole))}"'
     return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}"{crumb}>{num}{to_html(sec.title)}</{tag}>'
 
 
@@ -441,7 +461,7 @@ def half_sections(lst, half):
         if calsplit.half_of_section(lst, s) is None:
             c = copy.copy(s)
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
-                         or any(calsplit.half_of_date(lst, m["date"]) == half
+                         or any(calsplit.half_of_date(lst, loose.place_iso(m)) == half
                                 for t in store.as_list(e.get("see") or e["id"].split(".", 2)[2])
                                 for m in members.get(t, []))]
             if calsplit.index_page(lst):     # each year's under its page's name (th-cal1961), the index's th
@@ -491,7 +511,7 @@ def cal_index(lst):
             continue
         by = {}
         for m in ms:
-            by.setdefault(calsplit.half_of_date(lst, m["date"]), set()).add(str(m["date"])[:4])
+            by.setdefault(calsplit.half_of_date(lst, loose.place_iso(m)), set()).add(loose.place_iso(m)[:4])
         hs = sorted(by)
         links = ", ".join(f'<a href="{attr(calsplit.href(lst, h, calsplit.thread_anchor(lst, slug, h)))}">{y}</a>'
                           for h in hs for y in sorted(by[h]))
@@ -1229,10 +1249,7 @@ def write_calendar(series, lst, linker, held, routed):
     calsplit.CUR.update(half=0, mode="list")
     page = build_list(series, lst.key, linker, 0)
     page = contents.fill(page, lst, 0)
-    from . import standing, check as _check   # the standing conditions, as reported, by thread (standing.py, STYLE 2)
-    reg = standing.register_html(lst, thread_name, _check.thread_key)
-    if reg and "</main>" in page:
-        page = page.replace("</main>", reg + "\n</main>", 1).replace("</head>", standing.STYLE + "\n</head>", 1)
+    # no register of the standing conditions on the index (the owner, Nov. 18, 2026: standing.py, STYLE 2)
     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
     page = page.replace("</body>", calsplit.forward_script(lst, fwd, lst.key) + "\n</body>", 1)
     path = os.path.join(OUT, f"{lst.key}.html")

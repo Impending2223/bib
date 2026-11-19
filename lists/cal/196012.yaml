@@ -119,6 +119,82 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 224 n.7: all'
         - 'w.schlesinger-journals 95: B, C'
     tags: [name:schlesinger-arthur-m-jr, name:harriman-w-averell, name:kennedy-john-f]
+  - id: cal.1960-12-01.china-leadership
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: china-leadership
+    also: [economy, defense]
+    c: Zhou Enlai calls the vice-premiers and the ministries concerned on shipping steel and coal and on the defense industry.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 373 (Dec. 1, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-01.soviet-union
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the Kremlin''s St. George''s Hall. The conference holds its closing plenary and the heads of the delegations sign the Statement. Liu Shaoqi speaks, as planned. He congratulates the conference: through all the labor an agreed programme and an Appeal to the world''s peoples have been made. Differences, natural and unavoidable, can be settled on the ground of Marxism–Leninism by consultation to agreement, the one right way. The conference had turns, difficulties, obstacles, struggle, and overcame them. China wants stronger unity, differences removed, attacks stopped, above all Sino-Soviet unity. The hall applauds many times.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 424–425 (the plenary on "Dec. 1"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 496 (Nov.–early Dec. 1960, the Moscow conference of the communist and workers'' parties; the Moscow Declaration adopted; heated argument between the CPSU and CPC delegations; Dec. 1, Liu''s speech for the Chinese Party on the world situation, war and peace, the tasks of the communist movement and the unity of the socialist camp). Made public: 1996. See [[cal.1960-11-10.soviet-union]]. Names: Liu Shaoqi.'
+    src:
+      c: 7cb5df72
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 424–425: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 496: ?'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+  - id: cal.1960-12-01.soviet-union-2
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-12-01.soviet-union
+    c: Moscow, the Kremlin. After the plenary the CPSU gives a great reception for the delegations. Liu Shaoqi sits between Khrushchev and Brezhnev at the head table, Khrushchev cordial. Delegates who attacked China in the hall tell the Chinese that there were quarrels, some not civil, and that is past. The Chinese answer that disagreement is natural, parties differ in situation and experience, and that agreement was reached is good. Some delegations, Wu hears, had feared a break above all, and a split of the movement, which would have made going home hard for the Western parties.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 425–426 ("after the meeting"; the Kremlin banquet). Made public: 1999. See [[cal.1960-12-01.soviet-union]]. Names: Liu Shaoqi, Khrushchev, Brezhnev.'
+    src:
+      c: 441eaa7f
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 425–426: all'
+    tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid]
+    time_range:
+      - 1960-12-01T16:00Z
+      - 1960-12-01T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-01.soviet-union-3
+    when: Dec. 1
+    date: '1960-12-01'
+    time: 1960-12-01T19:00Z
+    thread: soviet-union
+    also: [china-leadership]
+    follows:
+      - cal.1960-12-01.soviet-union-2
+    c: 'Moscow, *Pravda*''s offices, 10 p.m. Wu Lengxi, leaving the reception early, calls on the editor Satyukov and his deputies, who all come out to meet him. He congratulates them on the conference and gives two points from the party talks: *Renmin ribao* and *Pravda* will not polemicize; each will print the other''s editorial on the Statement the same day (*Renmin ribao*''s written at Moscow, a Russian draft in hand for Satyukov to polish; he asks for *Pravda*''s, Russian will do, to be translated at Peking). Satyukov has the CPSU''s instructions on the first; the second surprises him, and he has none; Wu tells him to telephone Suslov; he takes the text. Wu invites him to Peking; Satyukov, who came for the Eighth Congress in 1956 and saw only hotels, accepts, and hopes Wu will come as *Pravda*''s guest.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 428–430 ("10 o''clock in the evening", by appointment). Made public: 1999. See [[cal.1960-11-30.soviet-union-2]]. Names: Suslov.'
+    src:
+      c: f9ceb23d
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 428–430: all'
+    tags: [polity:prc, name:suslov-mikhail-a, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-01.china-leadership-2
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Moscow. Liu Shaoqi receives more than 2,500 Chinese students and trainees studying in Moscow and Chinese embassy staff.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497 (Dec. 1, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1960-12-01.china-leadership-3
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: china-leadership
+    c: '*Zhongguo qingnian* 中国青年 no. 23 prints Wang Hairong''s 王海容 "My experience" 《我的经验》 as Mao 毛泽东 revised and titled it, under the byline "apprentice Wang Bo" 徒工王波.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 361–362 (Dec. 1, 1960; 361 n.1a). See [[cal.1960-10-17.china-leadership-3]]. Names: Wang Hairong, Mao Zedong. Check: the issue itself.'
+    src:
+      c: a612743b
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 361–362: all'
+        - 'via x.1960-12-01.zhongguo-qingnian-no-23-wang-hairong-my-experience: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1960-12-02.laos
     when: Dec. 2
     date: '1960-12-02'
@@ -139,6 +215,55 @@ entries:
     c: Léopoldville. WI/ROGUE's first contact with Devlin, who tells him to "build cover during initial period" and to "spot persons for [a] surveillance team" in the province where Lumumba's support is strongest.
     n: '[[w.sen-church-alleged-assassination-plots]], 46 (the cable of Dec. 17). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, Dec. 17, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 46). See [[cal.1960-10-27.congo-lumumba]]. Names: Devlin, Lumumba.'
     tags: [name:devlin-lawrence-r, name:lumumba-patrice]
+  - id: cal.1960-12-02.china-leadership
+    when: Dec. 2
+    date: '1960-12-02'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai at the Center''s report meeting, "The whole Party mobilizes to save grain and steel": the situation good in the main, the difficulties temporary and partial, from natural disaster, lack of experience and faults of policy and style. Steel: the 18.4 million tons the National People''s Congress passed to be passed by a margin, 18.5 to 18.6 million assured, for political effect and next year''s output.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 374 (Dec. 2, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-02.china-leadership-2
+    when: Dec. 2
+    date: '1960-12-02'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai receives Han Suyin, then calls on Anna Louise Strong.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 374 (Dec. 2, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:us, name:zhou-enlai, vis:only:prc+us]
+  - id: cal.1960-12-02.soviet-union
+    when: Dec. 2
+    date: '1960-12-02'
+    time: 1960-12-02T19:00Z
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. The delegation's work at the conference over, Liu Shaoqi begins an official visit to the USSR as head of state, with Li Jingquan, Lu Dingyi, Yang Shangkun, Liu Xiao, Liu Ningyi and advisers, Wu Lengxi and Qiao Guanhua among them. At 10 p.m. he leaves Moscow by special train for Leningrad; Brezhnev sits with him awhile and says little. Deng Xiaoping, Peng Zhen, Kang Sheng, Hu Qiaomu, Liao Chengzhi and the rest fly home that night.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 430–431 ("at 10 o''clock in the evening" of Dec. 2). Made public: 1999. See [[cal.1960-12-01.soviet-union-2]]. Names: Liu Shaoqi, Li Jingquan, Lu Dingyi, Qiao Guanhua, Brezhnev, Deng Xiaoping, Peng Zhen, Kang Sheng.'
+    src:
+      c: a263a2e3
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 430–431: all'
+    tags: [polity:prc, name:liu-shaoqi, name:li-jingquan, name:lu-dingyi, name:qiao-guanhua, name:brezhnev-leonid, name:deng-xiaoping, name:peng-zhen, name:kang-sheng]
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-02.china-leadership-3
+    when: Dec. 2
+    date: '1960-12-02'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-12-02.soviet-union
+    c: On the special train from Moscow, after Brezhnev leaves. Liu Shaoqi has Wu Lengxi, Qiao Guanhua and two other advisers revise his speech for the welcoming rally at the Leningrad station next morning. They work till near midnight.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 430–431 ("till about midnight"). Made public: 1999. See [[cal.1960-12-02.soviet-union]]. Names: Liu Shaoqi, Qiao Guanhua, Brezhnev.'
+    src:
+      c: ad8677f8
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 430–431: all'
+    tags: [polity:prc, name:liu-shaoqi, name:qiao-guanhua, name:brezhnev-leonid, vis:only:prc]
+    time_range:
+      - 1960-12-02T19:00Z
+      - 1960-12-02T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
   - id: cal.1960-12-03.transition-and-staff-cabinet
     when: Dec. 3
     date: '1960-12-03'
@@ -161,10 +286,16 @@ entries:
   - id: cal.1960-12-03.china-leadership
     when: Dec. 3
     date: '1960-12-03'
+    time: 1960-12-03T08:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'The Qinzheng Hall, 4 p.m. Mao''s meeting hears Deng Xiaoping and Peng Zhen, back that day, on the conference of the communist and workers'' parties: Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, He Long, Chen Boda, Luo Ruiqing.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 3, 1960. Made public: 2013. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, He Long, Chen Boda, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 3, 1960. [[w.zhou-enlai-nianpu-1949]], II, 375, Dec. 3, 1960 (Zhou present). Made public: 1997. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, He Long, Chen Boda, Luo Ruiqing.'
+    src:
+      c: 514d4e25
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 3, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 375, Dec. 3, 1960: A'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:zhou-enlai, name:zhu-de, name:chen-yi, name:li-fuchun, name:he-long, name:chen-boda, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-12-03.china-leadership-2
     when: Dec. 3
@@ -172,8 +303,97 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'The Qinzheng Hall, 5:30 p.m. Mao gives a dinner for Hồ Chí Minh, Lê Duẩn and others; Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi and others present. The eighty-one parties'' conference good: agreement, unity kept; "first peace, then quarrel, then peace." Hồ''s cigarette again: since Bucharest the Soviets have thrown big ones, the experts, the petrol; at Moscow sixty-odd parties attacked China.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 3, 1960. Made public: 2013. Names: Mao Zedong, Hồ Chí Minh, Lê Duẩn, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, He Long, Chen Boda, Kang Sheng, Luo Ruiqing, Hu Qiaomu, Liao Chengzhi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 3, 1960. [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 3, 1960; 晚上, 毛泽东主席为胡志明主席举行的宴会); [[w.lengxi-shinian-lunzhan-1956-1966]], 438–442 (Wu''s account of the talks with the Vietnamese delegation, Hồ Chí Minh, Lê Duẩn and Hoàng Văn Hoan, on its way home from Moscow, early December: Mao thanks Hồ as peacemaker, peace and quarrels alternate, the principle of consultation to agreement the chief result, the gentleman''s agreement to stop mutual attacks; Hồ: no more cigarettes thrown, hand them round; Deng and Peng Zhen on the conference; Mao: not all the shot fired, Khrushchev afraid of Deng''s stick; of Hồ''s midnight call, Mao: not yet time, a day short; Zhou: the Center''s cable was drafted to give ground only when Khrushchev gave). Made public: 1993. Names: Mao Zedong, Hồ Chí Minh, Lê Duẩn, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, He Long, Chen Boda, Kang Sheng, Luo Ruiqing, Hu Qiaomu, Liao Chengzhi.'
+    src:
+      c: 6ae67c0f
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 3, 1960: all'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 438–442: A'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:ho-chi-minh, name:le-duan, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:li-fuchun, name:he-long, name:chen-boda, name:kang-sheng, name:luo-ruiqing, vis:only:prc+drv]
+    time_range:
+      - 1960-12-03T11:00Z
+      - 1960-12-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-03.china-leadership-4
+    when: Dec. 3
+    date: '1960-12-03'
+    thread: china-leadership
+    also: [economy]
+    c: 'The Center issues its urgent directive on holding the steel output: the task of 18.6 million tons this year a matter watched at home and abroad, a political one; from Nov. 21 steel, iron and coal output has fallen day by day, and unless that is reversed the target is in danger, to the harm of the political fight and next year''s leap; every area and department to seize the time.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 374 (Dec. 3, 1960); [[w.macfarquhar-origins-of-the-cultural]], III, 11–12 (the emergency directive on steel: one final push; Mao on the national honour; the year''s output, 18,660,000 tons). Made public: 1997. To check: [[w.xin-zhongguo-biannianshi-1949]], 181 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.8a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 411–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.8c); [[w.renqiong-song-renqiong-huiyilu]], 376–78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.8d). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 44a38da1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 374: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 11–12: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.8a: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.8b: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.8c: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.8d: A'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12-03.china-leadership-5
+    when: Dec. 3
+    date: '1960-12-03'
+    thread: china-leadership
+    also: [economy]
+    c: 'The Center''s Organization Department issues a notice on drawing cadres from central organs down to the base: 10,000 from the central level (about 7,800 to the villages, Tibet and Sinkiang included), nearly all on production teams and small teams, most outside the staff table and a few within, to return to their offices after two years.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 374 (Dec. 3, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-03.china-leadership-7
+    when: Dec. 3
+    date: '1960-12-03'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai goes to the airport to welcome Hồ Chí Minh, returning from Moscow by way of Peking.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 3, 1960; 下午). Names: Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: 385d2fc9
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 295: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh]
+    time_range:
+      - 1960-12-03T04:00Z
+      - 1960-12-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-03.soviet-union
+    when: Dec. 3
+    date: '1960-12-03'
+    time: 1960-12-03T07:00Z
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Leningrad, the Moscow station, 10 a.m. The special train arrives. Kozlov, once Leningrad''s city secretary, has come ahead from Moscow with the city''s Party, government and army heads to meet Liu Shaoqi, and a mass rally is held in the square before the station. The city secretary welcomes him; Liu speaks. Wu: the crowd is cool at the start, the CPSU having spread its answer to the Reply a month before; at Liu''s words, that the Aurora''s first shot in the October Revolution brought Marxism–Leninism to China, it warms, applauds and long shouts Sino-Soviet friendship.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 431 ("10 o''clock in the morning"). See [[cal.1960-12-02.soviet-union]]. Names: Kozlov, Liu Shaoqi.'
+    src:
+      c: 5e3d781d
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 431: all'
+    tags: [polity:prc, name:kozlov-frol-r, name:liu-shaoqi]
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-03.soviet-union-2
+    when: Dec. 3–4
+    date: '1960-12-03'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Leningrad. Liu Shaoqi tours the cruiser *Aurora*, the Winter Palace, the Smolny, Lenin's command post for the rising, his office and rooms there. In the evening he sees the ballet *The Stone Flower*. Next day he visits the Kirov works; that night he leaves by the same train.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("in the evening"; "the next day", "on Dec. 4 in the evening"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497 (Dec. 3, 1960; Liu visits the Hermitage in the Winter Palace and the Kirov works, and speaks at the mass welcome meeting in the works'' tenth shop); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497 (Dec. 4, 1960; Liu visits the cruiser *Aurora* and the Smolny and tours the city by car; meets the Chinese students and trainees there; speaks at the banquet of the Leningrad Party committee and the city soviet''s executive committee: Leningrad the cradle of the October Revolution, which brought Marxism-Leninism to China; then leaves for Minsk). See [[cal.1960-12-03.soviet-union]]. Names: Liu Shaoqi.'
+    src:
+      c: '21552883'
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 432: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 497: B, E'
+    tags: [polity:prc, name:liu-shaoqi]
+    variants:
+      - unit: B
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: Liu Shaoqi visits the Hermitage and the Kirov works Dec. 3; the cruiser Aurora and the Smolny Dec. 4, with a tour of the city
+        at: '497'
+      - unit: D
+        witness: w.shaoqi-liu-shaoqi-nianpu-chronology
+        reads: the Kirov works and the mass welcome meeting in its tenth shop Dec. 3, not the next day
+        at: '497'
   - id: cal.1960-12-04.vietnam
     when: Dec. 4
     date: '1960-12-04'
@@ -216,7 +436,7 @@ entries:
     date: '1960-12-04'
     thread: elections-1960-count
     c: 'Earl Mazo''s four articles in the New York Herald Tribune, carried in other papers across the country: massive fraud in the election, in Texas and Illinois above all. Nixon asks him to cut the series short.'
-    n: '[[w.kallina-kennedy-v-nixon]], 185, 208; [[w.cohen-american-pharaoh]], 267–68. To check: *New York Herald Tribune*, Dec. 4–7, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 208 n.16). Names: Nixon. Check: the day Nixon asked Mazo to stop; Kallina gives none (185).'
+    n: '[[w.kallina-kennedy-v-nixon]], 185, 208; [[w.cohen-american-pharaoh]], 267–68. The time is the first day''s. To check: *New York Herald Tribune*, Dec. 4–7, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 208 n.16). Names: Nixon. Check: the day Nixon asked Mazo to stop; Kallina gives none (185).'
     src:
       c: a3261a82
       rows:
@@ -234,10 +454,41 @@ entries:
   - id: cal.1960-12-04.china-leadership
     when: Dec. 4
     date: '1960-12-04'
+    time: 1960-12-04T13:40Z
     thread: china-leadership
     c: Zhongnanhai, 9:40 p.m. Xiao Hua and Luo Ruiqing report on the rectification in the General Political Department to Mao, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, He Long, Nie Rongzhen, Chen Boda and Kang Sheng.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 4, 1960. Made public: 2013. Names: Mao Zedong, Xiao Hua, Luo Ruiqing, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, He Long, Nie Rongzhen, Chen Boda, Kang Sheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 4, 1960. [[w.zhou-enlai-nianpu-1949]], II, 375, Dec. 4, 1960 (Zhou present). Made public: 1997. Names: Mao Zedong, Xiao Hua, Luo Ruiqing, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, He Long, Nie Rongzhen, Chen Boda, Kang Sheng.'
+    src:
+      c: 664aadee
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 4, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 375, Dec. 4, 1960: A'
     tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:li-fuchun, name:he-long, name:nie-rongzhen, name:chen-boda, name:kang-sheng, vis:only:prc]
+  - id: cal.1960-12-04.china-leadership-2
+    when: Dec. 4
+    date: '1960-12-04'
+    thread: china-leadership
+    also: [farm]
+    c: Zhou Enlai with Li Baohua, Liu Lanbo and Qian Zhengying on water works.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 375 (Dec. 4, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-04.china-leadership-4
+    when: Dec. 4
+    date: '1960-12-04'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking, the Huairen Hall, Zhongnanhai. Zhou Enlai attends the cultural evening given by the Ministry of Culture for Hồ Chí Minh.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 4, 1960; 晚上). Names: Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: 2ac3177f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 295: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh]
+    time_range:
+      - 1960-12-04T11:00Z
+      - 1960-12-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-12-05.desegregation-public-places
     when: Dec. 5
     date: '1960-12-05'
@@ -325,6 +576,89 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-12-05.china-leadership
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai with Zhang Guohua, Yang Jingren and others on Tibet: land certificates to be issued; ownership after reform unchanged at least four years, mutual-aid groups only, no cooperatives, no second set of books, no hurry for communes; well-run cooperatives of former slaves not to be broken up; collective life slow and unforced, first individual then collective; cooperatives hurried by leaders against the masses to stop. Protect labor and raise output; give people time to settle; Han cadres to keep to policy, bad style taught, serious cases sent back inland.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 375 (Dec. 5, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-05.china-leadership-2
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: china-leadership
+    also: [vietnam-hanoi, foreign-aid]
+    c: Zhou Enlai with the officials concerned on aid to Vietnam.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 5, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-05.china-leadership-3
+    when: Dec. 5
+    date: '1960-12-05'
+    time: 1960-12-05T10:00Z
+    thread: china-leadership
+    also: [vietnam-hanoi, trade]
+    c: 'Zhou Enlai receives the Vietnamese government''s economic and trade delegation under Vice-Premier Nguyễn Duy Trinh: first-five-year-plan targets should be set low enough to be exceeded each year, as Stalin said, but not very low, with a yearly check so they may be raised after the second and third years. The Leap''s gains great, with faults, such as drawing too much rural labor to the cities; in Asian and African states industry and farming should go together, on two legs; the village feeds the town and is its market.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 5, 1960; 晚6时, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; Nguyễn Duy Trinh (阮维桢), Vice-Premier, leads the Vietnamese government''s economic and trade delegation (the editors'' note: it was in the Soviet Union Dec. 11–Jan. 20); Zhou receives it). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 5c40d7b9
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 376: ?'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174: A'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-05.soviet-union
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Minsk. Liu Shaoqi arrives in the morning. Kozlov, who has gone ahead, with the Byelorussian and Minsk Party and government heads meets him at the station. He visits a collective farm near the city and sees a song-and-dance program in the evening. He leaves Minsk by train that night.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("the morning" of Dec. 5; "the night of Dec. 5"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497–498 (Dec. 5, 1960; Liu visits a collective farm at the city''s outskirts and tours the city). See [[cal.1960-12-03.soviet-union-2]]. Names: Liu Shaoqi, Kozlov.'
+    src:
+      c: df90b595
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 432: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 497–498: ?'
+    tags: [polity:prc, name:liu-shaoqi, name:kozlov-frol-r]
+    time_range:
+      - 1960-12-05T03:00Z
+      - 1960-12-05T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-05.china-leadership-4
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Minsk. At the welcome banquet of the Byelorussian Party Central Committee, Supreme Soviet and Council of Ministers, Liu Shaoqi speaks. The Byelorussians waged wide guerrilla war in the Patriotic War and struck the invaders hard, in step with the Soviet army's frontal war; their deeds are especially dear to the Chinese, who fought Japan chiefly by guerrilla war.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 497–498 (Dec. 5, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:ussr, name:liu-shaoqi]
+  - id: cal.1960-12-05.china-leadership-5
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: china-leadership
+    c: 'Mao 毛泽东 to Huang Yanpei 黄炎培, Vice-Chairman of the National People''s Congress Standing Committee, thanking him for his letter: Abbas, Prime Minister of Algeria, back home, told a French reporter how Mao urged on him the policy of not killing prisoners, of great effect in breaking up the enemy''s army; the talk was in a recent *Cankao ziliao* 参考资料 he cannot now find; he sends p. 41 of the afternoon edition of Dec. 3, an American paper''s words, those Abbas spoke to the French reporter.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 427–428 (Dec. 5, 1960; letter of Dec. 5, 1960, signed by Mao; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Xinhua, *Cankao ziliao*, no. 3974, Nov. 22, 1960: "The French *L''Express* reporter on what Abbas told him of Chairman Mao''s talk" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 427 n.3); Xinhua, *Cankao ziliao*, afternoon edition of Dec. 3, 1960, p. 41: Xinhua dispatch from Geneva, Nov. 12, "American *Nation* weekly notes Chairman Mao''s talk with Abbas on the prisoner policy" (the *Nation* editorial "Terror''s means and effects") (cited by [[w.jianguo-yilai-mao-zedong]], XV, 428 n.4). Names: Mao Zedong, Huang Yanpei, Abbas.'
+    src:
+      c: 3d68ceeb
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 427–428: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 427 n.3: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 428 n.4: all'
+    tags: [polity:prc, name:mao-zedong, name:abbas-ferhat, vis:only:prc]
+  - id: cal.1960-12-05.china-leadership-6
+    when: Dec. 5
+    date: '1960-12-05'
+    thread: china-leadership
+    c: 'Zhou Enlai 周恩来, on Li Xiannian''s 李先念 report of Nov. 29 on importing grain: ''Have told Xiannian to proceed.'''
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 436 (Dec. 5, 1960; note 1, Zhou''s notation). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Li Xiannian, report of Nov. 29, 1960 to Zhou Enlai, Li Fuchun and others and to Mao Zedong on importing grain this year (1.2 billion jin or more) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 436 n.1). Names: Zhou Enlai, Li Xiannian. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: e326b16f
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 436: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 436 n.1: all'
+    tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
   - id: cal.1960-12-06.transition-and-staff
     when: Dec. 6
     date: '1960-12-06'
@@ -374,6 +708,111 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 333: all'
         - 'via w.fursenko-khrushchevs-cold-war 333 n.38: all'
     tags: [name:abramov-aleksandr-n, place:vientiane]
+  - id: cal.1960-12-06.china-leadership
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai revises the Center's comment forwarding the United Front Department's views on handling bourgeois elements and small traders in the cutting and sending down of staff to support the farm front. After "the departments concerned to confer with the united front department beforehand on any matter of bourgeois elements and intellectuals" he adds that such people in principle not go down to the villages but, where cuts are needed, may go on a wholly voluntary basis to city enterprises.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 6, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-06.china-leadership-2
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    also: [farm, china]
+    c: 'Zhou Enlai drafts for the Center a comment forwarding the reports of grave conditions in parts of Shandong, Henan, Gansu and Guizhou: in Zunyi and Bijie, waste, graft, lawlessness and disregard for people''s lives among cadres beyond imagining; some sabotage feudal forces'' revenge, the sharpest class struggle in the village. The four provincial committees to check and correct, and convey the twelve-article urgent directive to the masses without reserve.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 377 (Dec. 6, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-06.china-leadership-3
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai, on a letter from Huang Shilin of Peking that the national industrial exhibition, three years running, shows many machines and uses many staff: the important equipment to be returned to the ministries'' enterprises to install and run, staff cut sharply, only needed custodians kept.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 377 (Dec. 6, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-06.china-leadership-4
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    also: [china, vietnam-hanoi]
+    c: Peking. Zhou Enlai goes to the airport to see off Hồ Chí Minh.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 6, 1960; 上午). Names: Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: f0a3a894
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 295: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh]
+    time_range:
+      - 1960-12-05T22:00Z
+      - 1960-12-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-06.china-leadership-5
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the national day reception given by the Finnish Ambassador.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 6, 1960; 晚上). Names: Zhou Enlai.'
+    src:
+      c: 1173bf6b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 295: all'
+    tags: [polity:prc, polity:finland, name:zhou-enlai]
+    time_range:
+      - 1960-12-06T11:00Z
+      - 1960-12-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-06.soviet-union
+    when: Dec. 6
+    date: '1960-12-06'
+    time: 1960-12-06T07:00Z
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow. Liu Shaoqi returns at 10 a.m.; Mikoyan and the other members of the Presidium meet him at the station. In the afternoon he visits the Likhachev auto works; in the evening, at the Bolshoi, he sees Ulanova in ballet fragments.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432 ("10 o''clock in the morning"; "in the afternoon"; "in the evening"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 498 (Dec. 6, 1960; Liu back in Moscow, visits the Likhachev auto works). See [[cal.1960-12-05.soviet-union]]. Names: Liu Shaoqi, Mikoyan.'
+    src:
+      c: 348a207c
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 432: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 498: ?'
+    tags: [polity:prc, name:liu-shaoqi, name:mikoyan-anastas]
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-06.china-leadership-6
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-12-06.soviet-union
+    c: Moscow. After the ballet Liu Shaoqi calls Wu Lengxi and others to his office to revise the speech for tomorrow's rally; he changes some main passages himself. The Liaison Department drafted it, with the Foreign Ministry and Pu Shouchang; Xiong Fu revised it at Moscow; Wu, Qiao Guanhua and Pu went over it from beginning to end on the way from Minsk. Liu faults it as all principle and general talk, not concrete or lively, and has it open with his journey to Soviet Russia in 1921, the three months from Vladivostok, the Soviet people's feeling for the Chinese comrades; the writers revise it there.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 432–433 ("after the ballet" on the 6th). Made public: 1999. See [[cal.1960-12-06.soviet-union]]. Names: Liu Shaoqi, Qiao Guanhua.'
+    src:
+      c: b0b98fe4
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 432–433: all'
+    tags: [polity:prc, name:liu-shaoqi, name:qiao-guanhua, vis:only:prc]
+    time_range:
+      - 1960-12-06T19:00Z
+      - 1960-12-06T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-06.china-leadership-7
+    when: Dec. 6
+    date: '1960-12-06'
+    thread: china-leadership
+    c: 'Mao 毛泽东 signs his letter of Nov. 28 to the Party branch of the Harbin Institute of Technology''s 哈尔滨工业大学 machine tools and automation section as the *Hongqi* 红旗 editorial department, wording altered to fit. The letter: their article in *Guangming ribao* 光明日报 of Nov. 25 read with great pleasure and reprinted in *Hongqi*; too brief; would they write a longer one, 15,000 to 20,000 characters, explaining the six conclusions, and treat lathes, milling, grinding, planing and drilling machines each.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 429–431 (Dec. 6, 1960; the letter as sent, dated Dec. 6, 1960; printed from Mao''s manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Party branch of the machine tools and automation section, mechanical department, Harbin Institute of Technology, "On the law of the inner contradictory motion of machine tools, from designing ''building-block machine tools''", *Guangming ribao*, Nov. 25, 1960 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 430 n.2a); *Hongqi*, 1960, no. 24, reprinting it (cited by [[w.jianguo-yilai-mao-zedong]], XV, 431 n.2b). See [[cal.1960-11-28.china-leadership-9]]. Names: Mao Zedong. Check: whether the letter was printed or made known at the time.'
+    src:
+      c: c2bbc230
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 429–431: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 430 n.2a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 431 n.2b: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-12-07.cuba
     when: Dec. 7
     date: '1960-12-07'
@@ -430,6 +869,37 @@ entries:
       rows:
         - 'w.schlesinger-thousand-days-1965 141: all'
     tags: [name:rusk-dean, name:bowles-chester, name:kennedy-john-f]
+  - id: cal.1960-12-07.china-leadership
+    when: Dec. 7
+    date: '1960-12-07'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai presides at the Politburo, which hears Deng Xiaoping on his work during the Moscow conference.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 377 (Dec. 7, 1960). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-12-07.soviet-union
+    when: Dec. 7
+    date: '1960-12-07'
+    time: 1960-12-07T11:00Z
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Moscow, the Palace of Sports at the Central Lenin Stadium, 2 p.m. The CPSU Central Committee and the Supreme Soviet hold a rally for Liu Shaoqi, 12,000 in the hall. Khrushchev leads the Presidium, Brezhnev, Kozlov and Mikoyan with him. The Moscow city secretary welcomes; a Likhachev worker, an academician and a Moscow University delegate speak; Brezhnev speaks; Liu last. He congratulates the Soviet people and the conference, and speaks of 1921: from Shanghai to Vladivostok, under Japanese occupation, round the city by rail via Chita, three months, now nine days from Peking; no coal, wood-burning engines, Soviet railwaymen helping gather wood and mend the line; he joined the Party at Moscow that winter, not in China. Unity is life, strength, victory; imperialism will see Sino-Soviet separation no sooner than the sun rising in the west; no force can break the unity of the two parties, states, peoples. The hall applauds 36 times, rises and shouts "Hurrah"; Liu stands arm in arm with Khrushchev, Brezhnev, Mikoyan and Kozlov.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 433–435 ("the afternoon of the 7th", "at 2 o''clock"; 36 rounds of applause "by our rough count"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 498–499 (Dec. 7, 1960; Liu''s speech at the Moscow circles'' meeting of Soviet-Chinese friendship, "Unity is life, unity is strength, unity is victory"; the speech recalls his first visit: he joined the Chinese Socialist Youth League in 1920, went in the spring of 1921 with dozens of other league members to study the October Revolution, and joined the Party late in 1921). See [[cal.1960-12-06.china-leadership-6]]. Names: Liu Shaoqi, Khrushchev, Brezhnev, Kozlov, Mikoyan.'
+    src:
+      c: 12a6c1b4
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 433–435: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 498–499: ?'
+    tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:mikoyan-anastas]
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-07.china-leadership-2
+    when: Dec. 7
+    date: '1960-12-07'
+    thread: china-leadership
+    also: [china, soviet-union]
+    c: Moscow. Liu Shaoqi gives a banquet at the Chinese Embassy to thank his hosts, with the Soviet Party and government leaders as guests, and attends the farewell banquet the Soviet Party and government give.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 498 (Dec. 7, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:ussr, name:liu-shaoqi]
   - id: cal.1960-12-08.laos
     when: Dec. 8–9
     date: '1960-12-08'
@@ -560,6 +1030,63 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 4: A-B'
         - 'w.wofford-of-kennedys-and-kings 71: ?'
     tags: [name:kennedy-robert-f, name:mcnamara-robert-s, name:shriver-r-sargent, name:kennedy-john-f]
+  - id: cal.1960-12-08.china-leadership
+    when: Dec. 8
+    date: '1960-12-08'
+    thread: china-leadership
+    also: [china]
+    c: 'At the meeting of cadres of central organs going down, Zhou Enlai: great results these years, many problems, a bright future; to study Marxism–Leninism and Mao''s works. Five principles in studying Mao: continuing revolution joined to the stages of revolutionary development; strict science joined to high revolutionary spirit; politics in command joined to material interest; Party leadership joined to the mass line; study joined to practice.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 377 (Dec. 8, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-08.soviet-union
+    when: Dec. 8
+    date: '1960-12-08'
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow, then by air. Liu Shaoqi calls on Khrushchev at the Central Committee in the morning to take leave, a short talk, words for unity; goes to the airport, all the Presidium seeing him off; and flies with Brezhnev for Irkutsk, with a stop at Omsk, arriving at 10 p.m.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436 ("on the morning of the 8th"; "10 o''clock" at night at Irkutsk); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 8, 1960; Liu sets out for home and stops at Irkutsk). Made public: 1996. See [[cal.1960-12-07.soviet-union]]. Names: Liu Shaoqi, Khrushchev, Brezhnev.'
+    src:
+      c: 4d7570a9
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 436: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: ?'
+    tags: [polity:prc, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid]
+    time_range:
+      - 1960-12-08T03:00Z
+      - 1960-12-08T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1960-12-08.china-leadership-2
+    when: Dec. 8
+    date: '1960-12-08'
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1960-12-08.soviet-union
+    c: Irkutsk, the hotel, soon after 10 p.m. Liu Shaoqi sends for Wu Lengxi, Qiao Guanhua and Pu Shouchang to amend the speech for the Irkutsk banquet, read by him on the flight. He dictates a passage to be added; they take it down.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436 ("10 o''clock at night" on arrival at the hotel). Made public: 1999. See [[cal.1960-12-08.soviet-union]]. Names: Liu Shaoqi, Qiao Guanhua.'
+    src:
+      c: 39103fce
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 436: all'
+    tags: [polity:prc, name:liu-shaoqi, name:qiao-guanhua, vis:only:prc]
+    time_range:
+      - 1960-12-08T14:00Z
+      - 1960-12-08T16:00Z
+    time_band: night
+    time_zone: Asia/Irkutsk
+  - id: cal.1960-12-08.china
+    when: Dec. 8
+    date: '1960-12-08'
+    thread: china
+    also: [congo]
+    c: 'The Chinese government issues a statement on the kidnapping of Lumumba, the Congolese Prime Minister, by the Mobutu clique: it demands the immediate restoration of the Congolese central government headed by Lumumba as legitimate, and backs the Soviet government''s statement on the Congo and the Congolese people''s just struggle for national independence.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174–175 (Dec. 8, 1960). Names: Lumumba, Mobutu.'
+    src:
+      c: dab30682
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174–175: all'
+    tags: [polity:prc, polity:congo, name:lumumba-patrice, name:mobutu-joseph-d]
   - id: cal.1960-12-09.middle-east-dimona
     when: Dec. 9
     date: '1960-12-09'
@@ -658,8 +1185,66 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Mao, Zhou Enlai, Zhu De, Chen Yun and Deng Xiaoping meet Liu Shaoqi at the airport, back from the conference and a tour of the Soviet Union by way of Irkutsk. That evening, the Yinian Tang, Liu reports to Mao's meeting.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 378, Dec. 9, 1960 (Zhou at the airport and Mao''s meeting). [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 下午); [[w.lengxi-shinian-lunzhan-1956-1966]], 438 (Liu left Irkutsk by air in the afternoon and reached Peking very late; Mao, the Standing Committee, the whole Politburo, the NPC Standing Committee''s chairman and vice-chairmen and the heads of the democratic parties were at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 9, 1960; Liu back in Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport; that day Mao convenes a meeting and hears Liu''s report on his visit to the USSR and the Moscow conference). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
+    src:
+      c: 5536e625
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 9, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 378, Dec. 9, 1960: A'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 438: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: A, B'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1960-12-09.china-leadership-2
+    when: Dec. 9
+    date: '1960-12-09'
+    time: 1960-12-09T04:00Z
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai receives Burma's Ambassador and asks him to tell U Nu that the ratification of the treaty will be done next week, and that he will accept a decoration for himself.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 9, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 中午12时, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, U Nu.'
+    src:
+      c: '92850096'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 378: ?'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-09.china-leadership-3
+    when: Dec. 9
+    date: '1960-12-09'
+    time: 1960-12-09T10:30Z
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: Zhou Enlai receives the Soviet Embassy's chargé, Sudarikov, on the transit through China of fuel and gasoline shipped by the Soviet Union to Vietnam.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 9, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 晚6时30分, 东郊机场). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: d81fc129
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 378: ?'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+    tags: [polity:prc, polity:ussr, polity:drv, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-09.china-leadership-5
+    when: Dec. 9
+    date: '1960-12-09'
+    thread: china-leadership
+    c: Zhou Enlai with Xi Zhongxun, Yang Xiufeng, Zhang Jichun and others on culture and education.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 9, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-09.soviet-union
+    when: Dec. 9
+    date: '1960-12-09'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Irkutsk. Liu Shaoqi visits the hydroelectric station and Lake Baikal, and attends the banquet of the city and regional Party committees, where he makes his last speech in the USSR, the dictated passage in it: the impression of these days is that Soviet and Chinese peoples alike strongly want unity of the two parties, states and peoples; whatever harms the base of that unity, the basic principles of Marxism–Leninism, will not pass among the Chinese, the Soviet, the socialist camp''s peoples, or the 90 percent of the world''s. In the afternoon he flies home.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 436–438 ("the next day, the 9th"; the banquet called welcome (436) and farewell (437); the flight "that afternoon"; *Pravda*''s text of the speech omits the passage, 437); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 9, 1960; Liu visits the Irkutsk hydroelectric station and tours Lake Baikal). See [[cal.1960-12-08.china-leadership-2]]. Names: Liu Shaoqi.'
+    src:
+      c: 1a3e563e
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 436–438: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: ?'
+    tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1960-12-10.transition-and-staff-cabinet
     when: Dec. 10
     date: '1960-12-10'
@@ -689,13 +1274,59 @@ entries:
     c: 'The *Washington Post* has Rusk as Secretary of State under a page-one banner. Kennedy orders Salinger to find the leaker that day. After asking Bundy, Sorensen, Shriver, O''Brien and O''Donnell, Salinger telephones him: "You." Kennedy had spoken of it to Philip Graham the night before and not told him to hold it. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 60–61. Check: the day (the work gives none; see [[cal.1960-12-10.transition-and-staff-cabinet]]). Names: Salinger, Kennedy, Rusk, Bundy, Sorensen, Shriver, O''Brien, O''Donnell.'
     tags: [name:salinger-pierre, name:kennedy-john-f, name:rusk-dean, name:bundy-mcgeorge, name:sorensen-theodore-c, name:shriver-r-sargent, name:obrien-lawrence-f, name:odonnell-kenneth-p]
+  - id: cal.1960-12-10.china-leadership
+    when: Dec. 10
+    date: '1960-12-10'
+    time: 1960-12-10T07:15Z
+    thread: china-leadership
+    also: [cuba, latin-america]
+    c: 'Zhou Enlai receives Cuba''s Ambassador, Oscar Pino Santos, and his wife: peoples press to be free of poverty and backwardness, no easy thing, long to do; to be free of colonial control needs full economic independence, without which there is no full independence.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 10, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 10, 1960; 下午3时15分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 5b49590a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 378: ?'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+    tags: [polity:prc, polity:cuba, name:zhou-enlai, vis:only:prc+cuba]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-10.china-leadership-2
+    when: Dec. 10
+    date: '1960-12-10'
+    thread: china-leadership
+    also: [china]
+    c: Peking, Xihuating. Zhou Enlai receives the Afghan Ambassador, Samad.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 10, 1960; 下午). Names: Zhou Enlai.'
+    src:
+      c: 94179a77
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 295: all'
+    tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
+    time_range:
+      - 1960-12-10T04:00Z
+      - 1960-12-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-12-11.china-leadership
     when: Dec. 11
     date: '1960-12-11'
     thread: china-leadership
     c: 'Mao revises the Military Commission''s draft resolution on strengthening political and ideological work in the army (Oct. 27) and the Center''s comment forwarding it, adding: cadres with schooling to study Marx, Engels, Lenin and Stalin, for China''s and the world''s questions, not as dogma.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 11, 1960. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 11, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 432–435 (Dec. 11, 1960; Mao''s paragraph added Dec. 11 to the Center''s draft comment forwarding the resolution of the enlarged Military Commission (Oct. 20, submitted Oct. 27), and his revisions of the draft that day; the earlier method of theoretical study in the army, reading dead books, was wrong, as the October meeting found; printed from the manuscript and his revised copy). Made public: 2013. To check: Enlarged meeting of the Central Military Commission (Peking, Sept. 14–Oct. 20, 1960), "Resolution on strengthening political and ideological work in the army" (draft), Oct. 20, 1960, submitted to the Center Oct. 27 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 434 n.3). Names: Mao Zedong.'
+    src:
+      c: 6749a782
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 11, 1960: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 432–435: A'
+        - 'via w.jianguo-yilai-mao-zedong XV, 434 n.3: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12-11.china-leadership-2
+    when: Dec. 11
+    date: '1960-12-11'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai revises the Center''s instruction forwarding the State Economic Commission''s Northeast group report on Jinzhou''s use of state-allotted boilers, correcting the disguised "communist wind" of the small public taking from the large: the Center has ordered again and again that no department or place use state-allotted materials; Jinzhou''s leaders, heedless of the allotment plan and contracts, kept at home most of 68 boilers allotted to 48 units across the country. He adds: this too is a typical form of the small public taking from the large, a disguised "communist wind"; the boilers taken without leave to be given up.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 11, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-12-12.court
     when: Dec. 12
     date: '1960-12-12'
@@ -792,15 +1423,71 @@ entries:
     date: '1960-12-12'
     thread: china-leadership
     c: 'Mao on Li Xiannian''s letter of Nov. 29 (against next spring''s hunger, 1.2 billion jin of grain or more to be imported): "Fully agreed. Two billion would be better."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 12, 1960. Made public: 2013. Names: Mao Zedong, Li Xiannian.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 12, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 436–437 (Dec. 12, 1960; Mao''s comment, the morning of Dec. 12 (十二月十二日晨), written on Li Xiannian''s report of Nov. 29 to Zhou Enlai, Li Fuchun and others and to Mao: back to Li; fully agreed; better if 2 billion jin can be imported; the report proposes 1.2 billion jin or more; printed from the manuscript). Made public: 2013. Check: the volume calls Li Xiannian''s paper of Nov. 29 a report (报告) to Zhou Enlai, Li Fuchun and others and to Mao, not a letter (XV, 436 n.1). To check: Li Xiannian, report of Nov. 29, 1960 to Zhou Enlai, Li Fuchun and others and to Mao Zedong on importing grain this year (1.2 billion jin or more) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 436 n.1). Names: Mao Zedong, Li Xiannian.'
+    src:
+      c: 81122b0c
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 12, 1960: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 436–437: A'
+        - 'via w.jianguo-yilai-mao-zedong XV, 436 n.1: A'
     tags: [polity:prc, name:mao-zedong, name:li-xiannian, vis:only:prc]
   - id: cal.1960-12-12.china-leadership-2
     when: Dec. 12
     date: '1960-12-12'
     thread: china-leadership
     c: The Yinian Tang, evening. The Politburo Standing Committee (Mao, Liu Shaoqi, Chen Yun, Deng Xiaoping; Peng Zhen attending) hears Zhou Enlai and Li Fuchun on the 1961 plan.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 12, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Chen Yun, Deng Xiaoping, Peng Zhen, Zhou Enlai, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 12, 1960. [[w.zhou-enlai-nianpu-1949]], II, 379, Dec. 12, 1960 (Zhou''s report on the 1961 plan). Made public: 1997. Names: Mao Zedong, Liu Shaoqi, Chen Yun, Deng Xiaoping, Peng Zhen, Zhou Enlai, Li Fuchun.'
+    src:
+      c: e96509f8
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 12, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 379, Dec. 12, 1960: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:zhou-enlai, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-12-12.china-leadership-4
+    when: Dec. 12–14
+    date: '1960-12-12'
+    thread: china-leadership
+    also: [economy]
+    c: 'Zhou Enlai, Dec. 12–14, holds the State Council''s standing meeting with the vice-premiers and group heads to dissect what went wrong since the Leap. Half the mistakes from lack of experience; change lies in leadership and decision; after years of high targets, a try at low ones, to be owned as error if too low; lowering speed next year a planned "saddle," not a passive step; more than a third of the errors human. Eight-character line: adjustment to enlarge reproduction better, consolidation to advance again, filling out to complete sets; the task a tense one, active, orderly, planned.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 12, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-12.china-leadership-5
+    when: Dec. 12
+    date: '1960-12-12'
+    time: 1960-12-12T06:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi, laos]
+    c: Peking, Xihuating. Zhou Enlai receives the Vietnamese Ambassador and asks the Vietnamese side's views on the situation in Laos.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 12, 1960; 下午2时30分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: fb3ffb8b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 295: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-12.china
+    when: Dec. 12
+    date: '1960-12-12'
+    thread: china
+    c: The China–Cambodia Friendship Association is founded at Peking.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 12, 1960).'
+    src:
+      c: f5ec5938
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: all'
+    tags: [polity:prc, polity:cambodia]
+  - id: cal.1960-12-12.china-leadership-6
+    when: Dec. 12
+    date: '1960-12-12'
+    thread: china-leadership
+    c: 'Mao 毛泽东 to Yang Shangkun 杨尚昆: send the provincial, city and regional committees by telegram Yao Yilin''s 姚依林 account of Nov. 12 of the conference on food substitutes; a month old, but still of use. The account: the delegates find Tan Zhenlin''s 谭震林 report clear on the line for food substitutes; nutrition, not only quantity; much zeal; bodies, labor and training to be set up; the peasants'' view of fungi to be changed.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 438–439 (Dec. 12, 1960; Mao''s comment of Dec. 12; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Yao Yilin, deputy director of the State Council''s Finance and Trade Office and Minister of Commerce, "Report on the food substitutes conference", Nov. 12, 1960 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 438 n.2). Names: Mao Zedong, Yang Shangkun, Yao Yilin, Tan Zhenlin.'
+    src:
+      c: 6ec028f6
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 438–439: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 438 n.2: all'
+    tags: [polity:prc, name:mao-zedong, name:tan-zhenlin, vis:only:prc]
   - id: cal.1960-12-13.transition-and-staff-cabinet
     when: Dec. 13
     date: '1960-12-13'
@@ -917,6 +1604,39 @@ entries:
     c: 'The Presidium, Kozlov in the chair, on the results of the Moscow meeting of the parties. Mikoyan: no assessment of the Statement''s significance; Mukhitdinov: say more of Khrushchev''s speech, of Bucharest, of the cult of personality; Kosygin: circulate it, not publish; Polyansky: perhaps of the Albanians; Suslov: nothing of the cult. The draft resolution adopted: the delegation''s line under Khrushchev approved, the Statement and the Appeal binding in all the party''s work; the Secretariat to edit it, adopted if no objection.'
     n: 'Protocol 310, item I. [[w.prezidium-tsk-kpss-1954]], I, 447–48 (Malin''s notes), 1080–81 nn.1–5 (the meeting Nov. 11–25, 81 parties); III, 134–39 (P 310/I and the draft resolution, Dec. 12). Made public: 2003. Names: Kozlov, Mikoyan, Mukhitdinov, Khrushchev, Kosygin, Polyansky, Suslov.'
     tags: [name:kozlov-frol-r, name:mikoyan-anastas, name:mukhitdinov-nuritdin-a, name:khrushchev-nikita-s, name:kosygin-aleksei, name:polyansky-dmitri-s, name:suslov-mikhail-a, polity:ussr]
+  - id: cal.1960-12-13.china-leadership
+    when: Dec. 13
+    date: '1960-12-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou Enlai at the meeting where Deng Xiaoping reports to the central ministries, State organs and the Peking committee on the conference of the 81 Communist and workers' parties.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 13, 1960). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-12-13.china-leadership-2
+    when: Dec. 13
+    date: '1960-12-13'
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: Zhou Enlai answers Ferhat Abbas's cable, protesting French atrocities in Algeria after the mass anti-French demonstrations in the French-held areas when de Gaulle came to promote his plebiscite.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 13, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 13, 1960; Zhou''s reply by cable to the appeal of Ferhat Abbas, protesting the French colonialists'' mass killing of Algerians in Algiers and other cities). Made public: 1997. Names: Zhou Enlai, Ferhat Abbas.'
+    src:
+      c: 143b1fdd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 379: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: A'
+    tags: [polity:prc, polity:algeria, name:zhou-enlai, name:abbas-ferhat, vis:only:prc+algeria]
+  - id: cal.1960-12-13.china-leadership-3
+    when: Dec. 13
+    date: '1960-12-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Chen Yi, receiving the head of the international department of the Polish Workers'' News Agency, on West Germany''s demand to revise Poland''s western border: the Chinese government and people have always stood, stand and will stand on Poland''s side, whatever the circumstances.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 13, 1960). Names: Chen Yi. Check: the Polish official is 希贝利夫卡 in the book.'
+    src:
+      c: 6d79df26
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: all'
+    tags: [polity:prc, polity:poland, polity:frg, name:chen-yi]
   - id: cal.1960-12-14.africa
     when: Dec. 14
     date: '1960-12-14'
@@ -986,6 +1706,78 @@ entries:
     thread: congo-lumumba
     c: Léopoldville. QJ/WIN reports to the station that WI/ROGUE, another of its agents, has offered him "three hundred dollars per month to participate in intel net and be member 'execution squad,'" and, when he said he was not interested, "there would be bonuses for special jobs."
     n: '[[w.sen-church-alleged-assassination-plots]], 46 (the station''s cable of Dec. 17, quoted). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: CIA cable, Leopoldville to Director, Dec. 17, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 46–47). See [[cal.1960-12-02.congo-lumumba]].'
+  - id: cal.1960-12-14.china
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china
+    also: [laos]
+    c: 'The Chinese government issues a statement on Laos: large-scale civil war has broken out and the situation is grave. It was caused by the crude interference of the U.S. and Thai authorities. China, a participant in the Geneva Conference of 1954 and a guarantor of the Geneva agreement and a close neighbor of Laos, firmly backs Laos''s policy of peace, neutrality, independence and national unity and the just struggle of its people against U.S. interference and aggression.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 175 (Dec. 14, 1960).'
+    src:
+      c: 59901aa7
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 175: all'
+    tags: [polity:prc, polity:laos, polity:us, polity:thailand]
+  - id: cal.1960-12-14.china-2
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china
+    also: [africa-algeria-morocco]
+    c: 'The Chinese government issues a statement backing the Algerian people''s patriotic struggle: it condemns the French colonialists'' aggression and their recent massacres of Algerians, and firmly backs the Algerian people''s just struggle against French aggression for national independence.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 14, 1960).'
+    src:
+      c: cc9ce957
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:algeria, polity:fr]
+  - id: cal.1960-12-14.china-leadership
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china-leadership
+    also: [japan]
+    c: 'Chen Yi receives the delegation of the All-Japan Farmers'' Union Federation, led by 齐木重一. Chen: the Japanese people''s great struggle against the U.S.–Japan military alliance treaty has world significance; the Japanese and Chinese peoples are brothers, with no reason for hostility, and should cooperate closely in the struggle against the United States.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 14, 1960). Made public: 2001. Names: Chen Yi. Check: the delegation''s head is 齐木重一 in the book; no Latin form is settled.'
+    src:
+      c: 59840b00
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:japan, polity:us, name:chen-yi, vis:only:prc+japan]
+  - id: cal.1960-12-14.china-3
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china
+    also: [africa]
+    c: China and Somalia establish diplomatic relations. Shermarke, the Somali Prime Minister, cables Zhou Enlai that the Somali Republic agrees to the Chinese government's proposal and hopes that ambassador-level representatives will be exchanged soon.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 14, 1960). See [[cal.1960-11-28.china]]. Names: Zhou Enlai.'
+    src:
+      c: 54c49e9f
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai, name:abdirascid-ali-shermarke]
+  - id: cal.1960-12-14.china-leadership-2
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china-leadership
+    c: 'Mao 毛泽东 to Liu Shaoqi 刘少奇, Zhu De 朱德, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Peng Zhen 彭真: the Military Commission''s resolution on political and ideological work in the army, revised by a small group of Chen Boda 陈伯达 and Tian Jiaying 田家英, the changes agreed by Luo Ruiqing 罗瑞卿, Xiao Hua 萧华 and Liu Zhijian 刘志坚; to be read in about ten days and given to Yang Shangkun 杨尚昆 to print for the Party, government, army and mass systems, the army first. He revises the corrected draft again: leading cadres to study Mao''s works and the classics of Marx, Engels, Lenin and Stalin for their spirit; the militia''s composition to be pure, under reliable Party cadres.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 432–435 (Dec. 14, 1960; Mao''s note of Dec. 14 and his revisions and addition that day; printed from the manuscript and his revised copy). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Enlarged meeting of the Central Military Commission (Peking, Sept. 14–Oct. 20, 1960), "Resolution on strengthening political and ideological work in the army" (draft), Oct. 20, 1960, submitted to the Center Oct. 27 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 434 n.3). See [[cal.1960-12-11.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Boda, Tian Jiaying, Luo Ruiqing, Xiao Hua, Liu Zhijian, Yang Shangkun.'
+    src:
+      c: 905c5161
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 432–435: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 434 n.3: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:chen-boda, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-12-14.china-leadership-3
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: china-leadership
+    c: The Center 中共中央 forwards to the provincial, city and regional committees Yao Yilin's 姚依林 account of the conference on food substitutes.
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 439 (Dec. 14, 1960; note 2). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Central Committee, forwarding of Dec. 14, 1960 to the provincial, city and regional committees of Yao Yilin''s report on the food substitutes conference (cited by [[w.jianguo-yilai-mao-zedong]], XV, 439 n.2b). See [[cal.1960-12-12.china-leadership-6]]. Names: Yao Yilin. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: 3561bb1f
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 439: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 439 n.2b: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-12-15.transition-and-staff-cabinet
     when: Dec. 15
     date: '1960-12-15'
@@ -1046,6 +1838,55 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 231–32: A-C'
         - 'w.odonnell-johnny-we-hardly-knew 272–73: A'
     tags: [name:kennedy-john-f, name:kennedy-robert-f]
+  - id: cal.1960-12-15.china-leadership
+    when: Dec. 15
+    date: '1960-12-15'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi, Zhou Enlai, Zhu De and Dong Biwu meet Prince Sihanouk, on a state visit to China.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 379 (Dec. 15, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 15, 1960; 上午, 北京车站); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 15, 1960; Liu meets Sihanouk, head of state, with Penn Nouth, vice-chairman of the Supreme Council of the Throne and the prime minister, and Nhiek Tioulong, first deputy prime minister); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176–177 (Dec. 15–26, 1960; Prince Sihanouk, head of state, visits on the invitation of Liu and Zhou; Mao, Liu, Zhu De and Zhou receive him and his party). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Sihanouk.'
+    src:
+      c: cac69f82
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 379: ?'
+        - 'w.zhou-enlai-waijiao-huodong 295: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: A'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176–177: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-14T22:00Z
+      - 1960-12-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-15.china-leadership-2
+    when: Dec. 15
+    date: '1960-12-15'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai, with Deng Yingchao, gives an informal dinner in welcome of Sihanouk and his wife, and praises Sihanouk's efforts for Chinese–Cambodian friendship and Asian peace.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 15, 1960; 晚上). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 6e9405a6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-15T11:00Z
+      - 1960-12-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-15.china
+    when: Dec. 15
+    date: '1960-12-15'
+    thread: china
+    also: [indonesia]
+    c: Jakarta. Huang Zhen, the Chinese chief delegate, and Soesanto, the Indonesian chief delegate, of the joint committee on dual nationality sign the measures to carry out the treaty on dual nationality.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177 (Dec. 15, 1960). See [[cal.1960-09-08.china]]. Names: Huang Zhen. Check: the Indonesian delegate is 苏山多 in the book.'
+    src:
+      c: bf8a9636
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177: all'
+    tags: [polity:prc, polity:indonesia, name:huang-chen]
   - id: cal.1960-12-16.cuba
     when: Dec. 16
     date: '1960-12-16'
@@ -1147,8 +1988,89 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'The Yinian Tang, evening. Mao''s meeting on Wei Guoqing''s going to Vietnam: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Luo Ruiqing, Wei.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 16, 1960. Made public: 2013. Names: Mao Zedong, Wei Guoqing, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Luo Ruiqing. Check: what Wei went for.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 16, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 16, 1960 (Zhou present). Made public: 1997. Names: Mao Zedong, Wei Guoqing, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Luo Ruiqing. Check: what Wei went for.'
+    src:
+      c: 0421c9ac
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 16, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 380, Dec. 16, 1960: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-12-16.china-leadership-2
+    when: Dec. 16
+    date: '1960-12-16'
+    time: 1960-12-16T07:00Z
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai''s talk with Sihanouk: added equipment for the four projects already aided, a concrete agreement for the steel and machinery works, technical help for the railway and survey of its line; Zhou asks about Cambodian farming, to decide whom to send to help and advise.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 16, 1960); [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 16, 1960; 下午3时, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: d7a62bbe
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
+        - 'w.zhou-enlai-waijiao-huodong 296: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-16.china-leadership-3
+    when: Dec. 16
+    date: '1960-12-16'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai takes the Cambodian guests through the Military Museum.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 16, 1960); [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 上午, 军事博物馆、农业展览馆). Names: Zhou Enlai.'
+    src:
+      c: f69372ca
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
+        - 'w.zhou-enlai-waijiao-huodong 296: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai]
+    variants:
+      - unit: A
+        witness: w.zhou-enlai-waijiao-huodong
+        reads: Dec. 17, morning (the Military Museum and the Agricultural Exhibition); the entry has Dec. 16
+        at: '296'
+  - id: cal.1960-12-16.china-leadership-5
+    when: Dec. 16
+    date: '1960-12-16'
+    time: 1960-12-16T06:30Z
+    thread: china-leadership
+    also: [china, vietnam-hanoi, laos]
+    c: Peking, Xihuating. Zhou Enlai again receives the Vietnamese Ambassador, on Laos.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 16, 1960; 下午2时30分). Made public: 1993. Names: Zhou Enlai.'
+    src:
+      c: 8d0dc5a2
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-16.china-leadership-6
+    when: Dec. 16
+    date: '1960-12-16'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the state banquet given by Liu Shaoqi in welcome of Sihanouk.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 16, 1960; 晚上). Names: Zhou Enlai, Liu Shaoqi, Sihanouk.'
+    src:
+      c: a1c4e2a4
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-16T11:00Z
+      - 1960-12-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-16.china
+    when: Dec. 16
+    date: '1960-12-16'
+    thread: china
+    also: [africa]
+    c: Zhou Enlai and Chen Yi cable Shermarke, the Prime Minister, and Issa, the Foreign Minister, of Somalia, for the Chinese government and people warmly congratulating the two countries on the formal establishment of relations.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 176 (Dec. 16, 1960). See [[cal.1960-12-14.china-3]]. Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: a0bb0019
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 176: all'
+    tags: [polity:prc, polity:somalia, name:zhou-enlai, name:chen-yi, name:abdirascid-ali-shermarke]
   - id: cal.1960-12-17.transition-and-staff-cabinet
     when: Dec. 17
     date: '1960-12-17'
@@ -1186,11 +2108,87 @@ entries:
   - id: cal.1960-12-17.china-leadership
     when: Dec. 17
     date: '1960-12-17'
+    time: 1960-12-17T09:00Z
     thread: china-leadership
     also: [laos]
     c: 'The Qinzheng Hall. Mao receives Prince Sihanouk, Cambodia''s head of state, his wife and Penn Nouth, Prime Minister, at dinner; Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi and others present. In his absence Laos has changed: Phoumi, backed by America, its guns and officers, has taken most of Vientiane; Laos now America''s question, not Britain''s or France''s.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 17, 1960. Made public: 2013. Names: Mao Zedong, Sihanouk, Penn Nouth, Phoumi, Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 17, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 17, 1960 (Zhou present). [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 下午5时, 中南海勤政殿, with Deng Yingchao); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 17, 1960; Liu, with Mao, Zhu De and Zhou Enlai, meets Sihanouk). Made public: 1993. Names: Mao Zedong, Sihanouk, Penn Nouth, Phoumi, Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi.'
+    src:
+      c: 13935b9c
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 17, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 380, Dec. 17, 1960: A'
+        - 'w.zhou-enlai-waijiao-huodong 296: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: C'
     tags: [polity:prc, polity:cambodia, name:mao-zedong, name:norodom-sihanouk, name:phoumi-nosavan, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:penn-nouth, vis:only:prc+cambodia]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-17.china-leadership-2
+    when: Dec. 17
+    date: '1960-12-17'
+    thread: china-leadership
+    also: [foreign-aid]
+    c: Zhou Enlai with Zhang Linzhi, Wang Heshou and Gu Mu on steel.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 17, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-17.china-leadership-5
+    when: Dec. 17
+    date: '1960-12-17'
+    thread: china-leadership
+    also: [foreign-aid]
+    c: Zhou Enlai with Luo Ruiqing, Wei Guoqing, Ji Pengfei and Yang Chengwu on foreign aid.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 17, 1960). Made public: 1997. Names: Zhou Enlai, Luo Ruiqing, Ji Pengfei.'
+    tags: [polity:prc, name:zhou-enlai, name:luo-ruiqing, name:ji-pengfei, vis:only:prc]
+  - id: cal.1960-12-17.china-leadership-4
+    when: Dec. 17
+    date: '1960-12-17'
+    thread: china-leadership
+    also: [congo, china]
+    c: 'Zhou Enlai answers Gizenga, Deputy Premier, on his cable of the 13th: China continues to support the legitimate Congo government headed by Premier Lumumba and the Congolese people, and firmly opposes American imperialist aggression and interference in the Congo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 17, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177 (Dec. 17, 1960; Zhou''s cable reply to Deputy Premier Gizenga: China will go on backing the legitimate Congolese government of Lumumba and Gizenga, the anti-colonial Congolese people, and oppose U.S. aggression and interference). Made public: 1997. Names: Zhou Enlai, Gizenga, Lumumba.'
+    src:
+      c: 44cce0bf
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177: A'
+    tags: [polity:prc, polity:congo, name:zhou-enlai, name:gizenga-antoine, name:lumumba-patrice, vis:only:prc+congo]
+  - id: cal.1960-12-17.china-leadership-6
+    when: Dec. 17
+    date: '1960-12-17'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai accompanies Sihanouk at the Peking Dance School experimental ballet troupe's performance of the ballet Le Corsaire.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 晚上). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: d650fdf8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-17T11:00Z
+      - 1960-12-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-18.china-leadership
+    when: Dec. 18
+    date: '1960-12-18'
+    thread: china-leadership
+    also: [laos, china]
+    c: At Sihanouk's banquet Zhou Enlai says the Laotian question is to be settled by the Laotian people themselves, and firmly opposes crude interference by foreign aggressive forces.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 18, 1960); [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 18, 1960; 西哈努克亲王举行的宴会). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 4ec4bf87
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
+        - 'w.zhou-enlai-waijiao-huodong 296: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+  - id: cal.1960-12-18.china-leadership-2
+    when: Dec. 18
+    date: '1960-12-18'
+    thread: china-leadership
+    also: [economy]
+    c: Zhou Enlai with the secretaries in charge of industry of each great region and of eleven provinces, Liaoning and Heilongjiang among them, on the plan.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 18, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-12-19.elections-1960
     when: Dec. 19
     date: '1960-12-19'
@@ -1240,8 +2238,83 @@ entries:
     date: '1960-12-19'
     thread: china-leadership
     c: 'The Yinian Tang. The enlarged Standing Committee, Mao presiding, on the 1961 plan: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 19, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 19, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 19, 1960 (Zhou present). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the meeting Mao convenes on the national economic plan). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Li Fuchun, Li Xiannian, Tan Zhenlin, Lu Dingyi, Bo Yibo, Luo Ruiqing.'
+    src:
+      c: a2199794
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 19, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 380, Dec. 19, 1960: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:lu-dingyi, name:bo-yibo, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-12-19.china-leadership-3
+    when: Dec. 19
+    date: '1960-12-19'
+    time: 1960-12-19T07:50Z
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the signing of the joint statement by Liu Shaoqi and Sihanouk, and with Pho Proeung, Prime Minister of Cambodia, signs for their governments the China–Cambodia treaty of friendship and mutual nonaggression.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午3时50分); [[w.lengxi-shinian-lunzhan-1956-1966]], 452–453 (the treaty of friendship and mutual non-aggression with Cambodia, "in December 1960", on the five principles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the signing and signs the joint statement); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177 (Dec. 15–26, 1960; the joint statement signed by Liu and Sihanouk (China respects Cambodia''s peace and neutrality; Cambodia backs the restoration of China''s U.N. seat); the treaty of friendship and mutual non-aggression signed by Zhou and Pho Proeung; Chen Yi and First Deputy Premier Nhiek Tioulong sign the protocol on economic and technical aid, a supplementary protocol to the aid agreement of June 21, 1956, an air-transport agreement and notes on Chinese railway and farm experts). Names: Zhou Enlai, Liu Shaoqi, Sihanouk, Pho Proeung.'
+    src:
+      c: 443c24ab
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 452–453: A'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177: B'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk, name:pho-proeung]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-19.china-leadership-4
+    when: Dec. 19
+    date: '1960-12-19'
+    time: 1960-12-19T08:10Z
+    thread: china-leadership
+    also: [china]
+    c: Peking, the Great Hall of the People. Zhou Enlai attends the mass meeting of more than 10,000 of the capital's people celebrating the signing of the China–Cambodia treaty.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 下午4时10分); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960; Liu attends the capital''s mass meeting welcoming Sihanouk and marking the treaty''s signing). Names: Zhou Enlai.'
+    src:
+      c: 73597fe6
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: B'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-19.china-leadership-5
+    when: Dec. 19
+    date: '1960-12-19'
+    thread: china-leadership
+    also: [china]
+    c: Peking. Zhou Enlai attends the cocktail party given by the China–Cambodia Friendship Association and the Women's Federation in welcome of Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 19, 1960; 晚上). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: dd7214a8
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 296: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-19T11:00Z
+      - 1960-12-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-19.china-leadership-6
+    when: Dec. 19
+    date: '1960-12-19'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi talks with Prince Norodom Sihanouk, Cambodia's head of state.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 19, 1960). Names: Liu Shaoqi, Sihanouk.'
+    tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+  - id: cal.1960-12-19.china
+    when: Dec. 19
+    date: '1960-12-19'
+    thread: china
+    also: [laos]
+    c: 'The Chinese government again issues a statement on Laos: the U.S.-backed rebel clique''s large-scale civil war gravely threatens peace in Asia and the world and China''s security. All peace-loving states and peoples should oppose and stop this fanning of the flames. China backs the Vietnamese government''s proposal to convene the Geneva conference of the states concerned to stop U.S. aggression.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177–178 (Dec. 19, 1960). See [[cal.1960-12-14.china]].'
+    src:
+      c: 18c082aa
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177–178: all'
+    tags: [polity:prc, polity:laos, polity:drv, polity:us]
   - id: cal.1960-12-20.vietnam
     when: Dec. 20
     date: '1960-12-20'
@@ -1289,6 +2362,24 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 335: all'
         - 'via w.fursenko-khrushchevs-cold-war 335 n.45: C'
     tags: [name:abramov-aleksandr-n, name:souvanna-phouma, name:kong-le, place:vientiane, place:hanoi]
+  - id: cal.1960-12-20.china-leadership
+    when: Dec. 20
+    date: '1960-12-20'
+    thread: china-leadership
+    also: [laos, china]
+    c: 'Zhou Enlai with Chen Yi takes Sihanouk and his wife to Nanjing and Hangzhou. On the train to Nanjing: China supports the United Nations, which has some use, but America commands the voting machine, its majority shrinking but still a majority; the Congo is the case, with states now withdrawing from the UN force and Lumumba having brought the UN in and been unable to get it out. So China wants the Laos question settled in the form of the Geneva Conference, not because China is outside the UN but because America can still manipulate it.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 20, 1960); [[w.zhou-enlai-waijiao-huodong]], 296–97 (Dec. 20, 1960; 上午). Made public: 1993. Names: Zhou Enlai, Chen Yi, Sihanouk.'
+    src:
+      c: 49f9a79e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
+        - 'w.zhou-enlai-waijiao-huodong 296–97: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:chen-yi, name:norodom-sihanouk, vis:only:prc+cambodia]
+    time_range:
+      - 1960-12-19T22:00Z
+      - 1960-12-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-12-21.middle-east-dimona
     when: Dec. 21
     date: '1960-12-21'
@@ -1352,6 +2443,67 @@ entries:
     c: Gates and McNamara meet a second time.
     n: '[[w.watson-into-the-missile-age]], 771. To check: Gates to the Assistant to the President, Jan. 17, 1961; Gates, interview, July 16, 1962, 6–7 (cited by [[w.watson-into-the-missile-age]], 771 n.183). See [[cal.1960-12-09.transition-and-staff-2]]. Names: Gates, McNamara.'
     tags: [name:gates-thomas-s-jr, name:mcnamara-robert-s]
+  - id: cal.1960-12-21.china-leadership
+    when: Dec. 21
+    date: '1960-12-21'
+    time: 1960-12-21T01:40Z
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai at Nanjing with Sihanouk and his wife visits Sun Yat-sen's mausoleum, the Ming tombs and Xuanwu Lake, the Baixia people's commune's Wulaocun branch and the radio industry school.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 381 (Dec. 21, 1960); [[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 21, 1960; 上午9时40分, 抵达南京). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: f766230f
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 381: ?'
+        - 'w.zhou-enlai-waijiao-huodong 297: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-21.china-leadership-2
+    when: Dec. 21
+    date: '1960-12-21'
+    thread: china-leadership
+    also: [china]
+    c: Nanjing. Zhou Enlai attends the welcoming banquet given by Hui Yuyu, Governor of Jiangsu, for Sihanouk and his wife.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 21, 1960; 晚上). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 97264f7f
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 297: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-21T11:00Z
+      - 1960-12-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-21.china-leadership-3
+    when: Dec. 21
+    date: '1960-12-21'
+    thread: china-leadership
+    also: [china]
+    c: Nanjing. Zhou Enlai and Chen Yi, with their wives, accompany Sihanouk and his wife and party by train to Hangzhou.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 21, 1960; 晚上). Names: Zhou Enlai, Chen Yi, Sihanouk.'
+    src:
+      c: 4987c8ca
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 297: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:chen-yi, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-21T11:00Z
+      - 1960-12-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-21.china-leadership-4
+    when: Dec. 21
+    date: '1960-12-21'
+    thread: china-leadership
+    c: The Center 中共中央 issues its directive, with the enlarged Military Commission's 中央军委 'Resolution on strengthening political and ideological work in the army', as revised by Mao 毛泽东.
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 434 (Dec. 21, 1960; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Central Committee, directive of Dec. 21, 1960 issuing the Military Commission''s "Resolution on strengthening political and ideological work in the army" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 434 n.1). See [[cal.1960-12-14.china-leadership-2]]. Names: Mao Zedong. Check: whether the first edition''s notes (vol. 9, 1996) give it.'
+    src:
+      c: 174b42d0
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 434: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 434 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-12-22.railroads
     when: Dec. 22
     date: '1960-12-22'
@@ -1416,6 +2568,58 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-12-22.china-leadership
+    when: Dec. 22
+    date: '1960-12-22'
+    time: 1960-12-22T01:00Z
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai at Hangzhou with Sihanouk's party visits West Lake and the Du Jinsheng silk works, and talks with Zhejiang's and Hangzhou's Party heads. On the 23rd he visits the October brigade of the West Lake commune; passing the Six Harmonies Pagoda he tells the Zhejiang and Hangzhou heads that the old, broken houses near the view spoil it and should be tidied.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 381 (Dec. 22, 1960); [[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 22, 1960; 上午9时, 到达杭州); [[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 23, 1960; 上午, 西湖人民公社十月生产队; 六和塔). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: ec0fb364
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 381: ?'
+        - 'w.zhou-enlai-waijiao-huodong 297: A'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-22.china-leadership-2
+    when: Dec. 22
+    date: '1960-12-22'
+    thread: china-leadership
+    also: [china]
+    c: Hangzhou. Zhou Enlai attends the welcoming banquet given by Zhou Jianren, Governor of Zhejiang, for Sihanouk and his wife, and afterward a Shaoxing opera, dance and Peking opera performance.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 22, 1960; 晚上). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: fec19adb
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 297: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-22T11:00Z
+      - 1960-12-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-22.china-leadership-3
+    when: Dec. 22
+    date: '1960-12-22'
+    thread: china-leadership
+    also: [china]
+    c: Liu Shaoqi receives Tim Buck, general secretary of the Communist Party of Canada, and his wife.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 500 (Dec. 22, 1960). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:canada, name:liu-shaoqi]
+  - id: cal.1960-12-22.china-leadership-4
+    when: Dec. 22
+    date: '1960-12-22'
+    thread: china-leadership
+    c: 'Mao 毛泽东 drafts the Center''s 中共中央 comment of Dec. 22 sending the regional bureaus and the provincial, city and regional committees the Hunan 湖南 provincial committee''s report of Dec. 18 on the rectification of style and of the communes, for reference. His note: to Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and Peng Zhen 彭真, then to Yang Shangkun 杨尚昆 to send by telegram; also printed for those at the Central Work Conference; not to Tibet. The report: Tonghaikou''s 通海口 method; three batches by communes, the worst first, from early November; the passive state turned by about Mar. 15.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 440–441 (Dec. 22, 1960; the comment, dated by the Center Dec. 22, and Mao''s note; printed from Mao''s manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Hunan Provincial Party Committee, report of Dec. 18, 1960 to the Central-South Bureau, the Center and Mao Zedong, "On the plan for the rectification of style and of the communes" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 440 n.1). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Yang Shangkun. Check: the day the Center sent it.'
+    src:
+      c: 2da7f04f
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 440–441: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 440 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1960-12-23.foreign-aid
     when: Dec. 23
     date: '1960-12-23'
@@ -1456,6 +2660,64 @@ entries:
     c: 'The Yinian Tang. Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries: the bureaus on the villages'' food and the rectification of the communes; how the work conference is to go. Mao: counties, communes and brigades about three good, five middling, two bad in ten, some of the bad with power seized; cadres in six classes, the first two counterrevolutionaries, the third the "dead bureaucrats," indirect allies of the enemy.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 23, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Tan Zhenlin, Chen Boda, Ke Qingshi, Zeng Xisheng, Tao Zhu, Wang Renzhong, Song Renqiong, Li Xuefeng, Li Jingquan, Liu Zihou.'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:tan-zhenlin, name:chen-boda, name:ke-qingshi, name:tao-zhu, name:li-jingquan, vis:only:prc]
+  - id: cal.1960-12-23.china-leadership-2
+    when: Dec. 23
+    date: '1960-12-23'
+    thread: china-leadership
+    also: [china]
+    c: Hangzhou. Zhou Enlai gives an informal lunch for Sihanouk and his party at the Louwailou restaurant on West Lake.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 297 (Dec. 23, 1960; 中午). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 4b4fcc7b
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 297: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-23T04:00Z
+      - 1960-12-23T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-23.china-leadership-3
+    when: Dec. 23
+    date: '1960-12-23'
+    thread: china-leadership
+    also: [china]
+    c: Hangzhou, the Hangzhou Hotel. Zhou Enlai accepts, for the Chinese government and people, the gifts of the Cambodian government and people brought by Sihanouk.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 297–98 (Dec. 23, 1960; 下午). Names: Zhou Enlai, Sihanouk.'
+    src:
+      c: 9d623551
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 297–98: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
+    time_range:
+      - 1960-12-23T04:00Z
+      - 1960-12-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-23.china-leadership-4
+    when: Dec. 23
+    date: '1960-12-23'
+    thread: china-leadership
+    c: 'Mao 毛泽东, at Peking 北京, on the General Office''s bulletin on three Hebei 河北 communes: read it quickly and discuss it; the whole country, he thinks, is much like this, good, bad and middling; it may go down to the communes. To Chen Boda 陈伯达 and Yang Shangkun 杨尚昆: to be printed for those at the coming conference. The bulletin, ''A sharp contrast'': in Tangshan 唐山, Wangguanying 王官营 commune of Fengrun 丰润, on poor hill land, has gained each year by holding to the policy; Shaliuhe 沙流河 of Yutian 玉田, richer, has lost output and people since 1958, edema and abnormal deaths, the ''winds'', the Twelve Articles not yet shown to the masses; Liangjiadian 亮甲店, flooded, over-procured, cleaned up in March, has near 800 jin a head.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 442–444 (Dec. 23, 1960; Mao''s comment of Dec. 23 and his note to Chen and Yang; printed from the manuscripts). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: General Office of the Central Committee, *Qingkuang jianbao*, no. 664, Dec. 15, 1960: the General Office''s Hebei work team, "A sharp contrast" (Wangguanying, Shaliuhe and Liangjiadian communes) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 442 n.1). Names: Mao Zedong, Chen Boda, Yang Shangkun.'
+    src:
+      c: 6c0206c2
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 442–444: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 442 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1960-12-23.china-leadership-5
+    when: Dec. 23
+    date: '1960-12-23'
+    thread: china-leadership
+    c: 'Mao 毛泽东: Tan Zhenlin''s 谭震林 report of Dec. 12 on grain to be printed for those at the coming Central Work Conference, to study and discuss whether it is fit; he titles it ''The grain situation and the planned use of grain''. Tan: the year''s output about 370 billion jin, 320 to 330 billion into the granaries; rations very low in the villages, city sales and exports cannot be cut more; eat less for three months to avoid grain troubles in spring; next year a tight-then-loose plan, rations of one jin of rice a head a day and 0.75 jin of wheat and coarse grain, city sales 4.2 billion jin a month.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 445–446 (Dec. 23, 1960; Mao''s comment of Dec. 23, written on the report; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Tan Zhenlin, report of Dec. 12, 1960 to Mao Zedong and the Politburo Standing Committee on the grain situation (titled by Mao "The grain situation and the planned use of grain") (cited by [[w.jianguo-yilai-mao-zedong]], XV, 445 n.1). Names: Mao Zedong, Tan Zhenlin.'
+    src:
+      c: acd5b4a4
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 445–446: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 445 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:tan-zhenlin, vis:only:prc]
   - id: cal.1960-12-24.oil
     when: Dec. 24
     date: '1960-12-24'
@@ -1488,7 +2750,111 @@ entries:
     date: '1960-12-24'
     thread: china-leadership
     c: 'Peking. The Central Work Conference opens (to Jan. 13, 1961): the rectification of the communes and the "five winds," the 1961 plan, the report on the Moscow conference.Its minutes add to the Twelve Articles: rectification at the bad communes first; whatever was levelled and transferred paid back in kind, 2.5 billion yuan from the state for it; the grain purchase price raised, not the sale price; private plots from 5 to 7 percent; pigs chiefly private; side lines and rural fairs allowed.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 24, 1960 (the entry for Dec. 24, 1960–Jan. 13, 1961). Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 24, 1960 (the entry for Dec. 24, 1960–Jan. 13, 1961). [[w.zhou-enlai-nianpu-1949]], II, 381–82, Dec. 24, 1960 (the conference, Dec. 24 to Jan. 13, 1961, and its summary). [[w.macfarquhar-origins-of-the-cultural]], III, 12–13 (the conference and its decisions: procurement prices, compensation, private plots); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 500 (Dec. 24, 1960–Jan. 13, 1961; Liu attends the Central Work Conference: the 1961 national economic plan; the "Summary of the discussion on rectifying the style and the communes in the countryside and some policies on cadres"; every commune team in 1961 to take the Center''s Twelve Articles as its guide, check and correct the "communist wind", exaggeration, blind command, cadres'' privilege and coercive command, and settle the accounts for levelled and transferred goods; Mao urges a great wind of investigation and study; the conference prepares the Ninth Plenum); [[w.jianguo-yilai-mao-zedong]], XV, 444 (note 4: the Central Work Conference at Peking, Dec. 24, 1960–Jan. 13, 1961; the place and the dates only). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 310 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13a); [[w.huainian-mao-zedong-tongzhi]], 216 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13b); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 287–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.13c); [[w.zhonghua-renmin-gongheguo-guomin]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.14b); [[w.zhonghua-renmin-gongheguo-shangye]], 210 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.14c); [[w.biji-tao-zhu]], 354 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.15d). Names: Mao Zedong.'
+    src:
+      c: bc74aebd
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 24, 1960: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 381–82, Dec. 24, 1960: A'
+        - 'w.macfarquhar-origins-of-the-cultural III, 12–13: ?'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.13a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.13b: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.13c: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.14a: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.14b: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.14c: D'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15a: C, E, G'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15b: C, E, G'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15c: C, E, G'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 13 n.15d: C, E, G'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 500: B'
+        - 'w.jianguo-yilai-mao-zedong XV, 444: A-B'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12-24.china-leadership-2
+    when: Dec. 24
+    date: '1960-12-24'
+    thread: china-leadership
+    c: Zhou Enlai back in Peking.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 381 (Dec. 24, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-24.china-leadership-3
+    when: Dec. 24
+    date: '1960-12-24'
+    thread: china-leadership
+    c: 'Zhou Enlai signs the State Council''s order on conscription for 1960: 50,000 men from young men of 18 to 21, the task reduced or lifted in badly stricken areas.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 381 (Dec. 24, 1960). Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1960-12-24.china-leadership-5
+    when: Dec. 24
+    date: '1960-12-24'
+    thread: china-leadership
+    also: [china]
+    c: Hangzhou. Zhou Enlai sees Sihanouk and his wife off at the airport at the end of their visit to Hangzhou; Chen Yi and his wife go with them by special plane to Canton.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 298 (Dec. 24, 1960; 上午). Names: Zhou Enlai, Sihanouk, Chen Yi.'
+    src:
+      c: d4fa6220
+      rows:
+        - 'w.zhou-enlai-waijiao-huodong 298: all'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, name:chen-yi]
+    time_range:
+      - 1960-12-23T22:00Z
+      - 1960-12-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-24.china-leadership-6
+    when: Dec. 24
+    date: '1960-12-24'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Mao receives a Cuban women''s delegation and an Ecuadorian cultural delegation. Mao: war and peace are to be told apart, and so are local wars. A war of people''s revolution we back; a war launched by imperialism we oppose. Cuba''s war is the people''s, not imperialism''s. The Cubans overthrew Batista''s dictatorship and won the whole people''s support, and China stands with them. Whether the other Latin American countries take the Cuban way, and when, is for each people to decide. Cuba smashed the old state machine and set Latin America and the world an example.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 178 (Dec. 24, 1960). Made public: 2001. Names: Mao Zedong. Check: the women''s delegation is led by a Cuban named 埃伦娜·希尔 and the Ecuadorian by 奥赫内斯·巴莱德斯 in the book; whether Mao''s words were reported then.'
+    src:
+      c: 7c178278
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 178: all'
+    tags: [polity:prc, polity:cuba, polity:ecuador, name:mao-zedong, vis:only:prc+cuba+ecuador]
+  - id: cal.1960-12-24.china-leadership-7
+    when: Dec. 24
+    date: '1960-12-24'
+    thread: china-leadership
+    also: [china]
+    c: 'Mao 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 telegraph Ulbricht, Grotewohl and Dieckmann from Peking 北京 on the fifth anniversary of the Treaty of Friendship and Cooperation between the People''s Republic and the German Democratic Republic: a milestone; the friendship founded on Marxism-Leninism and proletarian internationalism, unbreakable.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 447–448 (Dec. 24, 1960; telegram of Dec. 24, 1960; printed from the *Renmin ribao* of Dec. 25, 1960). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Ulbricht, Grotewohl, Dieckmann.'
+    src:
+      c: 059f2741
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 447–448: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, name:grotewohl-otto]
+  - id: cal.1960-12-25.china-leadership
+    when: Dec. 25
+    date: '1960-12-25'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai with Liao Chengzhi, Zhang Yan, Kong Yuan and Lei Renmin on foreign affairs.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 382 (Dec. 25, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-25.china-leadership-2
+    when: Dec. 25
+    date: '1960-12-25'
+    thread: china-leadership
+    c: 'Mao 毛泽东 drafts the Center''s 中共中央 comment of Dec. 25 sending the regional bureaus, the provincial, city and regional committees and the Party groups of the Center''s ministries, state organs and mass bodies the Shaanxi 陕西 provincial committee''s report of Dec. 22 on settling the market: the provinces to follow Shaanxi''s way. His note: to Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Peng Zhen 彭真, Li Xiannian 李先念 and Zhou Enlai 周恩来, then Yang Shangkun 杨尚昆 to telegraph it and print it for the conference. The report: many goods short; a market group; rationing by coupon for the scarcest; local output for what Shanghai 上海 and the other great cities will cut; country fairs restored.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 449–451 (Dec. 25, 1960; the comment, dated by the Center Dec. 25, and Mao''s note of the 25th; printed from Mao''s manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Shaanxi Provincial Party Committee, report of Dec. 22, 1960 to the Northwest Bureau and the Center on settling the market problems quickly (cited by [[w.jianguo-yilai-mao-zedong]], XV, 450 n.1). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Li Xiannian, Zhou Enlai, Yang Shangkun. Check: the day the Center sent it.'
+    src:
+      c: aafcb962
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 449–451: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 450 n.1: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12-25.china-leadership-3
+    when: Dec. 25
+    date: '1960-12-25'
+    thread: china-leadership
+    c: 'Mao 毛泽东 inscribes for Yang Ying 杨颖, deputy section chief in the Liaoning 辽宁 Public Security Department: ''Seek truth from facts; work hard to serve the people.'''
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 452 (Dec. 25, 1960; inscription; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Names: Mao Zedong, Yang Ying. Check: when, where and whether the inscription was shown or reported at the time.'
+    src:
+      c: 897faeec
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 452: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-12-26.china-leadership
     when: Dec. 26
@@ -1498,6 +2864,18 @@ entries:
     c: 'The Yinian Tang, evening. Chervonenko and two counselors bring Mao the CPSU''s greetings on his birthday; Yang Shangkun present. Mao: the Moscow conference good, the drafting commission''s work much; argument "not a bad thing"; a plenum in January to back the two documents; industry''s front to be shortened in 1961, heavy industry and building above all.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 26, 1960. Made public: 2013. Names: Mao Zedong, Chervonenko, Yang Shangkun.'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, vis:only:prc+ussr]
+  - id: cal.1960-12-26.china-leadership-2
+    when: Dec. 26
+    date: '1960-12-26'
+    thread: china-leadership
+    c: 'Mao 毛泽东, on his birthday, to Lin Ke 林克, Gao Zhi 高智, Ye Zilong 叶子龙, Li Yinqiao 李银桥, Wang Jingxian 王敬先, Feng Yaosong 封耀松 and Wang Dongxing 汪东兴: the six besides Wang go down, not to Shandong 山东 but to Xinyang 信阳 prefecture, now improving and with relief grain; a medicine kit each, his head nurse to show them its use; the Huai 淮河 valley warmer; two weeks'' training at Peking 北京 from Jan. 2; Wang to prepare it; he will send beef and mutton if they go hungry. He is old; they have much to do. They are to read the Xinyang report.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 453–454 (Dec. 26, 1960; letter of Dec. 26, 1960, his birthday, signed by him; printed from the manuscript; note 2: the Henan committee later sent the six to Xuchang 许昌 prefecture instead). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Xinyang Prefectural Party Committee, report of Dec. 22, 1960 to the Henan Provincial Party Committee, the Center and the Central-South Bureau on the rectification campaign and production and famine relief (cited by [[w.jianguo-yilai-mao-zedong]], XV, 454 n.4). Names: Mao Zedong, Lin Ke, Gao Zhi, Ye Zilong, Li Yinqiao, Wang Jingxian, Feng Yaosong, Wang Dongxing.'
+    src:
+      c: 2279bd94
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 453–454: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 454 n.4: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-12-27.congress
     when: Dec. 27
     date: '1960-12-27'
@@ -1577,8 +2955,21 @@ entries:
     date: '1960-12-27'
     thread: china-leadership
     c: 'The Yinian Tang. Mao''s meeting hears the work conference''s groups; four days more for them, on grain, prices and markets. Mao: nine in ten county, commune and brigade cadres good, one bad (enemies come in, the degenerate, the dead bureaucrats, these last "inside the people"); the muddled can wake, like King Zhuang of Chu''s bird.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 27, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Tan Zhenlin, Chen Boda, Ke Qingshi, Tao Zhu, Li Jingquan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 27, 1960. [[w.zhou-enlai-nianpu-1949]], II, 382, Dec. 27, 1960 (Zhou present). Made public: 1997. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Tan Zhenlin, Chen Boda, Ke Qingshi, Tao Zhu, Li Jingquan.'
+    src:
+      c: 5062dec6
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 27, 1960: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 382, Dec. 27, 1960: A'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:tan-zhenlin, name:chen-boda, name:ke-qingshi, name:tao-zhu, name:li-jingquan, vis:only:prc]
+  - id: cal.1960-12-27.china-leadership-2
+    when: Dec. 27
+    date: '1960-12-27'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai with the vice-premiers on organization and personnel.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 382 (Dec. 27, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-12-28.elections-1960
     when: Dec. 28–30
     date: '1960-12-28'
@@ -1615,6 +3006,54 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-12-28.china
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china
+    also: [cuba]
+    c: Havana. Shen Jian, China's first ambassador to Cuba, presents his credentials to President Dorticós. He reached Havana on Dec. 23.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 178 (Dec. 28, 1960). See [[cal.1960-11-26.china]]. Names: Dorticós.'
+    src:
+      c: aef2814d
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 178: all'
+    tags: [polity:prc, polity:cuba, name:dorticos-torrado-osvaldo]
+  - id: cal.1960-12-28.china-2
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china
+    also: [laos]
+    c: 'Chen Yi writes to the Geneva conference''s co-chairmen, Gromyko, the Soviet Foreign Minister, and Lord Home, the British Foreign Secretary, on the grave situation in Laos: they are asked to take active and effective measures to stop the U.S. government''s wrecking of the Geneva agreement and its interference and aggression in Laos. China bears a responsibility for the security of its own country; the International Commission for Laos should resume work at once and cooperate with Souvanna Phouma''s government to restore peace.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 179 (Dec. 28, 1960). Names: Chen Yi, Gromyko, Douglas-Home, Souvanna Phouma.'
+    src:
+      c: 807f44e2
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 179: all'
+    tags: [polity:prc, polity:laos, polity:ussr, polity:uk, polity:us, name:chen-yi, name:gromyko-andrei, name:souvanna-phouma, name:douglas-home-alec]
+  - id: cal.1960-12-28.china-leadership
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Chen Yi, on the publication of the measures to carry out the dual-nationality treaty by the two governments, to the Indonesian Antara news agency''s correspondent: on the five principles and by friendly talks the two sides signed in 1955 the treaty on dual nationality, and now, in a spirit of friendship and mutual accommodation, a measure to carry it out. It is fair, reasonable and workable, and will pave the way for a full settlement of the overseas Chinese question. The friendship of the two countries will grow in new ways.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 179 (Dec. 28, 1960). See [[cal.1960-12-15.china]]. Names: Chen Yi. Check: the correspondent is 苏明多 in the book.'
+    src:
+      c: e2fc83a1
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 179: all'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+  - id: cal.1960-12-28.china-leadership-2
+    when: Dec. 28
+    date: '1960-12-28'
+    thread: china-leadership
+    c: 'Mao 毛泽东: the General Office''s *Qingkuang jianbao* 情况简报 no. 679 of Dec. 27, people''s letters on the Center''s Emergency Directive Letter, to be printed for those at the conference, the groups to discuss the questions raised. The letters, over forty: strong support; doubt that the policy will be kept; rewards in kind, not cash; fixed output and fixed procurement; the brigade too large a basic accounting unit.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 455–456 (Dec. 28, 1960; Mao''s comment of Dec. 28; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: General Office of the Central Committee, *Qingkuang jianbao*, no. 679, Dec. 27, 1960: the General Office''s secretariat, "Recent people''s letters on the Center''s Emergency Directive Letter" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 455 n.1). Names: Mao Zedong.'
+    src:
+      c: e0e7d233
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 455–456: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 455 n.1: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-12-29.latin-america-dominican-republic
     when: Dec. 29
     date: '1960-12-29'
@@ -1625,11 +3064,36 @@ entries:
   - id: cal.1960-12-29.china-leadership
     when: Dec. 29
     date: '1960-12-29'
+    time: 1960-12-29T14:10Z
     thread: china-leadership
     also: [laos]
     c: 'The Yinian Tang, 10:10 p.m. The enlarged Standing Committee, Mao presiding, on Laos and on cadres: Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Luo Ruiqing, Wei Guoqing.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 29, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Chen Yi, Luo Ruiqing, Wei Guoqing.'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:chen-yi, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-12-29.china-leadership-2
+    when: Dec. 29
+    date: '1960-12-29'
+    thread: china-leadership
+    c: The Ministry of Food calls a conference to prepare to handle the "entrepot grain," the imported grain.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 24. Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-shangye]], 206 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 24 n.15).'
+    src:
+      c: 56ba1b1a
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 24: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 24 n.15: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12-29.china-leadership-3
+    when: Dec. 29
+    date: '1960-12-29'
+    thread: china-leadership
+    also: [middle-east]
+    c: 'Mao receives the Yemeni delegation led by Sayyid Ahmad bin Muhammad Zabara. Mao: China is building and hopes for its friends'' help; the way to help is to struggle against imperialism, and the anti-imperialist struggles of all Asia, Africa and Latin America are a great help to the socialist countries.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 179 (Dec. 29, 1960). Made public: 2001. Names: Mao Zedong. Check: the book''s 萨依德·艾哈默德·本·穆罕默德·扎巴拉; the Latin form is back-converted; whether Mao''s words were reported then.'
+    src:
+      c: 5f7bf909
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 179: all'
+    tags: [polity:prc, polity:yemen, name:mao-zedong, vis:only:prc+yemen]
   - id: cal.1960-12-30.transition-and-staff
     when: Dec. 30
     date: '1960-12-30'
@@ -1761,6 +3225,73 @@ entries:
     c: 'The Yinian Tang. Song Renqiong and Li Xuefeng report the Northeast and North China groups. Mao: raise the grain purchase price only, not the sale price, a gap of a billion yuan a year, to end the unequal exchange with the peasants; repayment for what was levelled and transferred, in kind, "even to bankruptcy": "Marxists must never expropriate the laborers."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 30, 1960. Made public: 2013. Names: Mao Zedong, Song Renqiong, Li Xuefeng.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12-30.china-leadership-2
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: china-leadership
+    also: [trade, farm]
+    c: 'Zhou Enlai leaves Peking for Burma, Chen Yi and his wife, Luo Ruiqing and his wife with him. Before boarding he agrees with Chen Yun and Ye Jizhuang on importing grain: 1.5 million tons. He reaches Wuhan that day.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 382 (Dec. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 298 (Dec. 30, 1960; 上午, 乘专机离开北京). Made public: 1993. Names: Zhou Enlai, Chen Yi, Chen Yun, Luo Ruiqing.'
+    src:
+      c: ae9de6e0
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 382: ?'
+        - 'w.zhou-enlai-waijiao-huodong 298: A'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:chen-yun, name:luo-ruiqing, vis:only:prc]
+    time_range:
+      - 1960-12-29T22:00Z
+      - 1960-12-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-30.china
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: china
+    also: [cuba]
+    c: Guo Moruo, Vice-Chairman of the National People's Congress Standing Committee, president of the Academy of Sciences and chairman of the Chinese Committee for Defending World Peace, leads a Chinese friendship delegation to Cuba on invitation (to Jan. 10, 1961), for the second anniversary of the revolution. President Dorticós and other Cuban leaders receive it, the day not given.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 180 (Dec. 30, 1960–Jan. 10, 1961). Names: Dorticós.'
+    src:
+      c: d4f3f1bc
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 180: all'
+    tags: [polity:prc, polity:cuba, name:dorticos-torrado-osvaldo]
+  - id: cal.1960-12-30.china-leadership-3
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: china-leadership
+    c: 'Mao 毛泽东: the Propaganda Department''s *Xuanjiao dongtai* 宣教动态 no. 113 of Dec. 26, on educating the masses on grain, to be printed for those at the conference; Jinzhou''s 锦州 experience very good, to be used in factories and mines, offices, schools and the army; the groups to discuss it. The piece, from the Liaoning 辽宁 committee''s industry department''s report of Oct. 24: output stalled since May–June over grain troubles; ''politics in command'', airing and debate, old workers'' recollections; at Jinzhou''s Factory 401, where 85 percent had made or backed grain troubles, rations cut by over 9,000 jin and no one complains.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 457–458 (Dec. 30, 1960; Mao''s comment of Dec. 30; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Propaganda Department of the Central Committee, *Xuanjiao dongtai*, no. 113, Dec. 26, 1960: "Some noteworthy points on ideological education of the masses on the grain question" (cited by [[w.jianguo-yilai-mao-zedong]], XV, 457 n.1a); Industry Department of the Liaoning Provincial Party Committee, report of Oct. 24, 1960 on a campaign of education on the grain question among workers (forwarded by the Liaoning committee Oct. 30) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 457 n.1b). Names: Mao Zedong.'
+    src:
+      c: 996e1666
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 457–458: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 457 n.1a: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 457 n.1b: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12-30.china-leadership-4
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德 and Zhou Enlai 周恩来 send Khrushchev and Brezhnev New Year greetings for 1961: the Moscow conference of the parties just ended has strengthened the unity of the camp and the movement; the Soviet people''s gains under the Central Committee ''headed by Comrade Khrushchev''; Liu''s state visit has further strengthened the friendship.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 459–460 (Dec. 30, 1960; telegram of Dec. 30, 1960; printed from the *Renmin ribao* of Jan. 1, 1961). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Khrushchev, Brezhnev.'
+    src:
+      c: 197ad2d8
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 459–460: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:khrushchev-nikita-s, name:brezhnev-leonid]
+  - id: cal.1960-12-30.china-leadership-5
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: china-leadership
+    c: 'Mao 毛泽东: Chen Boda''s 陈伯达 notes on how many each farm worker feeds in America, Britain and the Soviet Union to be printed for those at the conference; Chen says he has not studied them closely. The notes, for 1958: an American farm worker feeds thirty; Britain''s, 4 percent of its labor, supply half its needs, 26.7 each; a Soviet farm worker, 6.4.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 461–462 (Dec. 30, 1960; Mao''s two comments of Dec. 30; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Chen Boda, excerpted notes on the farm labor burden in the United States, Britain and the Soviet Union (1958 figures) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 461 n.2). Names: Mao Zedong, Chen Boda.'
+    src:
+      c: 3d11a11d
+      rows:
+        - 'w.jianguo-yilai-mao-zedong XV, 461–462: all'
+        - 'via w.jianguo-yilai-mao-zedong XV, 461 n.2: all'
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
   - id: cal.1960-12-31.laos
     when: Dec. 31
     date: '1960-12-31'
@@ -2071,6 +3602,7 @@ entries:
   - id: cal.1960-12.defense-2
     when: Dec., late
     date: 1960-12
+    at: before 1960-12-21
     thread: defense
     also: [transition-and-staff]
     c: 'After the late December budget and program review, the President-elect to McNamara: a list of questions (a supplemental defense budget; more for Polaris, Minuteman and Atlas; an air alert; airlift; a basic re-evaluation of strategy, bases abroad, the command and control of nuclear weapons). His first policy change: "Under no circumstances should we allow a predetermined arbitrary financial limit to establish either strategy or force levels."'
@@ -2184,6 +3716,7 @@ entries:
   - id: cal.1960-12.transition-and-staff-cabinet-9
     when: Dec., early
     date: 1960-12
+    at: before 1960-12-01
     thread: transition-and-staff-cabinet
     also: [robert-kennedy]
     c: Robert Kennedy sounds out Douglas, McClellan, Pearson and Hoover on the Attorney Generalship. Only Hoover tells him to take it; Kennedy suspects him insincere. At dinner with Seigenthaler at Hickory Hill, early December, Kennedy resolves to tell his brother he does not want it.
@@ -2290,6 +3823,7 @@ entries:
   - id: cal.1960-12.press-and-broadcasting-2
     when: Dec., after the 27th
     date: 1960-12
+    at: after 1960-12-27
     thread: press-and-broadcasting
     c: 'Palm Beach Towers, just after lunch. Salinger announces live television at the President''s press conferences, the first on Jan. 25, and the ground rules; reporters must stay to the end. The correspondents protest. Lawrence of the *Times*: "as you plunge deeper and deeper into matters about which you know absolutely nothing . . ." Salinger shouts back that it is the President''s press conference and the decision final. By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 57–58. Check: the day (after the decision of Dec. 27). See [[cal.1960-12-27.press-and-broadcasting]]. Names: Salinger.'
@@ -2318,6 +3852,7 @@ entries:
   - id: cal.1960-12.transition-and-staff-6
     when: Dec., mid-month
     date: 1960-12
+    at: before 1960-12-11
     thread: transition-and-staff
     c: 'Washington, O''Brien''s office at the Democratic National Committee. Robert Kennedy: "Larry, the spot for you is Deputy Postmaster General," the number two post, since John Bailey "won''t stay on as national chairman forever." O''Brien: "I haven''t any interest whatsoever in that spot"; he can go back to Springfield. Robert Kennedy, annoyed, suggests that might not be a bad idea. By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 100. Check: the day (the work says "one day in mid-December"). Names: Robert Kennedy, O''Brien.'
@@ -2332,6 +3867,7 @@ entries:
   - id: cal.1960-12.china-leadership
     when: Dec., early
     date: 1960-12
+    at: before 1960-12-01
     thread: china-leadership
     c: 'Mao approves Zhou Enlai''s draft directive of the Center (Dec. 6) on the grave state of parts of Shandong, Henan, Gansu and Guizhou (Zunyi and Bijie): cadres'' waste, graft, lawlessness, "careless of the people''s lives"; some of it counterrevolution, feudal forces seizing local power, "the sharpest class struggle in the villages." "Do it."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, early Dec. 1960. Made public: 2013. Names: Mao Zedong, Zhou Enlai.'
@@ -2341,5 +3877,187 @@ entries:
     date: '1960-12-31'
     thread: china-leadership
     c: 'Mao on the Xinyang prefectural committee''s report of Dec. 22 on rectification and famine relief (the "democratic revolution made up," relief grain given out): headed "An important document," to all the conference; every third-class commune to follow it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 31, 1960. Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 31, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 463–465 (Dec. 31, 1960; Mao''s comment of Dec. 31: to be given to those at the conference; a good document; all third-class communes in the country to follow it; he titles it ''An important document''; the report: the prefectural committee met Dec. 8–14; the rectification a making-up of the democratic revolution, ''like land reform''; relief, half-day work, fairs; printed from the manuscript). Made public: 2013. To check: Xinyang Prefectural Party Committee, report of Dec. 22, 1960 to the Henan Provincial Party Committee, the Center and the Central-South Bureau on the rectification campaign and production and famine relief (cited by [[w.jianguo-yilai-mao-zedong]], XV, 464 n.3). Names: Mao Zedong.'
+    src:
+      c: fa1993a8
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 31, 1960: all'
+        - 'w.jianguo-yilai-mao-zedong XV, 463–465: A-B'
+        - 'via w.jianguo-yilai-mao-zedong XV, 464 n.3: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12-31.china-leadership-2
+    when: Dec. 31
+    date: '1960-12-31'
+    thread: china-leadership
+    also: [china]
+    c: Zhou Enlai reaches Kunming.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 382 (Dec. 31, 1960). Made public: 1997. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-12.china-leadership-11
+    when: Dec.
+    date: 1960-12
+    thread: china-leadership
+    c: Zeng Xisheng, Anhui first secretary and now also first secretary in Shandong, tells a group of Anhui officials who report to him in Shandong to try assigning production responsibility to households (baochan daohu) in mountain areas.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 209–10. Figures (III, 209): some 2,200,000 died in Anhui in 1960; one estimate puts the Leap''s abnormal deaths there at 8 million; 1962 grain output 35 percent below 1957, oil crops 20, cotton 15. Made public: 1997. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 56–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 210 n.12a); [[w.ren-gongheguo-zhongda-shijian-jishi]], 67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 210 n.12b). Check: the day.'
+    src:
+      c: 18b7e4e6
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 209–10: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 210 n.12b: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12.china-leadership-2
+    when: Dec.
+    date: 1960-12
+    thread: china-leadership
+    c: 'Qian Ying, formerly Minister of Internal Affairs, and Rong Zihe, a former Vice-Minister of Finance, investigate Gansu: the claimed grain output of 7 billion catties is in fact 4 billion; the county secretaries, too frightened to say so, are pressed by the Northwest Bureau''s official to accept the first secretary''s figure.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 12. Made public: 1997. To check: [[w.womende-zhou-zongli]], 304 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.12a); [[w.gansu-sishi-nian]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.12b); [[w.klein-biographic-dictionary-of-chinese]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 12 n.12c).'
+    src:
+      c: 57abccb5
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 12: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.12a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.12b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 12 n.12c: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12.china-leadership-3
+    when: Dec.
+    date: 1960-12
+    thread: china-leadership
+    c: Zhou Enlai and Chen Yun persuade the Standing Committee to buy grain abroad. Supplies for Peking, Tianjin, Shanghai, Shenyang and other cities stand at a few days', in some at one; the big cities' monthly cooking-fat ration is 3.5 oz.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 23. Made public: 1997. To check: [[w.xiaozu-huainian-zhou-enlai]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.3a); [[w.zhonggong-dangshi-renwuzhuan]], 44, 93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.3b); State Council emergency directive, Apr. 6, 1960, in [[w.xiaozu-huainian-zhou-enlai]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.3c); [[w.dangdai-zhongguode-liangshi-gongzuo]], 224–28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.4); [[w.xinhua-yuebao]], No. 11, 1989, 50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.6). Names: Zhou Enlai, Chen Yun. Check: the day.'
+    src:
+      c: 27ff5a77
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 23: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.3a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.3b: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.3c: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.4: C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.6: A'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yun, vis:only:prc]
+  - id: cal.1960-12.china-leadership-4
+    when: Dec., late
+    date: 1960-12
+    at: before 1960-12-21
+    thread: china-leadership
+    c: At Peking airport, as Zhou Enlai leaves for Burma, Zhou, Chen Yun and Ye Jizhuang, Minister of Foreign Trade, fix the grain import at 1.5 million tonnes; at Kunming a phone message makes it 2.5 million, which Chen Yun, called, says is essential.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 23. Made public: 1997. To check: [[w.agency-chinas-foreign-relations]], 209 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.7); [[w.zhonggong-dangshi-renwuzhuan]], 45, 273–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.8); [[w.bujinde-sinian]], 253–54 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.9a); [[w.ping-kaiguo-zongli-zhou-enlai]], 376–77 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 23 n.9b). Names: Zhou Enlai, Chen Yun. Check: the day.'
+    src:
+      c: 91a0c827
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 23: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.7: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.8: A'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.9a: B'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 23 n.9b: B'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yun, vis:only:prc]
+  - id: cal.1960-12.china-leadership-5
+    when: Dec.
+    date: 1960-12
+    thread: china-leadership
+    c: The Australian Wheat Board announces a sale to China of 240,000 tonnes of wheat, and then 60,000 more (£6 million).
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 24–25. To check: [[w.guardian]], Dec. 22, 1960 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.17a); [[w.guardian]], Dec. 30, 1960 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.17b); [[w.guardian]], Jan. 11, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.17c); [[w.times-london]], Jan. 26, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.17d). Check: the day.'
+    src:
+      c: b81664eb
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 24–25: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.17a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.17b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.17c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.17d: all'
+    tags: [polity:prc, polity:australia, polity:canada]
+  - id: cal.1960-12.china-leadership-6
+    when: Dec., end
+    date: 1960-12
+    at: after 1960-12-20
+    thread: china-leadership
+    c: 'Shanghai. The Shanghai branch of the Academy of Sciences holds a "meeting of immortals" at which all may speak: research projects wiped out by the Leap; science without class character; outsiders cannot lead experts.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 91. Made public: 1997. To check: [[w.da-pipan-beijing-cailiao]], 1–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 91 n.18a); [[w.zhanduan-liu-deng-shenxiang-3]], passim (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 91 n.18b); [[w.hundred-flowers-campaign-and]], 85–86 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 91 n.19). Check: the day.'
+    src:
+      c: a7bd068f
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 91: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 91 n.18a: A-C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 91 n.18b: A-C'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 91 n.19: D'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12.china-leadership-7
+    when: Dec., end
+    date: 1960-12
+    at: after 1960-12-20
+    thread: china-leadership
+    c: Deng Zihui's forty-article proposal on communes, from his inquiries in Shanxi and Jiangsu the summer before, at Liu Shaoqi's request, goes to Mao.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 43. Made public: 1997. To check: [[w.mao-zhuxide-geming-luxian]], 595 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.27a); [[w.bian-mao-zedong-he-tade]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.27b); [[w.shehuizhuyi-jingjizhong-jihua-yu]], 98, 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.27c); [[w.zhonggong-dangshi-renwuzhuan]], 7, 372–73, 366–72 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 912–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28b); [[w.macfarquhar-origins-of-the-cultural]], I, 19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28c); [[w.dangshi-yanjiu]], No. 1, 1981, 2–9, 10–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28d); [[w.xuehui-deng-zihui-nongye-hezuo]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.28e). Names: Liu Shaoqi, Mao Zedong. Check: the day.'
+    src:
+      c: 42856ea5
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 43: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.27a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.27b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.27c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28d: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 43 n.28e: all'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-12.china-leadership-8
+    when: Dec., end
+    date: 1960-12
+    at: after 1960-12-20
+    thread: china-leadership
+    c: The Central Committee's Military Affairs Commission sends a forty-man work team under a full general to clean up the militia in Henan, where "mad dogs" and "tiger bands" rape, rob and kill; after six weeks all training is suspended until June.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 61. Made public: 1997. To check: [[w.politics-of-the-chinese]], 119, 120, 122, 138, 140, 142 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.122a); [[w.lewis-chinas-secret-military-papers]], 68–78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.122b); [[w.gittings-chinas-militia-the-china]], 113–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.122c); [[w.selections-from-china-mainland]], (Supplement), No. 32, 22 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.122d). Check: the day.'
+    src:
+      c: b5bf7b6d
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 61: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.122a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.122b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.122c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.122d: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12.china-leadership-9
+    when: Dec.
+    date: 1960-12
+    thread: china-leadership
+    c: The State Statistical Bureau reports that grain procurement is down 34 per cent through November; oil crops 47.7 per cent below 1959, procurement down 42 per cent; cotton output down 37.8 per cent.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 13–14. Made public: 1997. To check: [[w.zhongguo-nongye-nianjian-1980]], 34, 36, 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 14 n.19a); [[w.dangshi-yanjiu]], 23 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 14 n.19b); [[w.zhongguo-tongji-nianjian-1983]], 103 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 14 n.19c). Check: the day.'
+    src:
+      c: 006e2233
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 13–14: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 14 n.19a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 14 n.19b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 14 n.19c: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12.china-leadership-10
+    when: Dec.
+    date: 1960-12
+    thread: china-leadership
+    c: A two-man Chinese trade delegation reaches Montreal, expecting to stay three or four months.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 25. To check: [[w.new-york-times]], Dec. 30, 1960 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.18a); [[w.times-london]], Feb. 3, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.18b); [[w.new-york-times]], Oct. 15, 1960 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 25 n.18c). Check: the day.'
+    src:
+      c: '11607351'
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 25: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.18a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.18b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 25 n.18c: all'
+    tags: [polity:prc, polity:canada]
+  - id: cal.1960-12.china-leadership-12
+    when: Dec., after the 20th
+    date: 1960-12
+    at: after 1960-12-20
+    thread: china-leadership
+    c: The Secretariat takes a formal decision to prepare Liu Shaoqi's selected works, by Deng Liqun's account at the end of the year. Mao had suggested it in 1952 and again in 1960. Liu, reluctant to appear to rival Mao, had procrastinated.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 263. Made public: 1992. To check: [[w.xiaoming-zhonggong-dangjian-shi-1949]], 154–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 263 n.11a); Informant J, *Informant J, interview with the author* (undated) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 263 n.11b); Deng Liqun, account of the preparation of Liu Shaoqi''s selected works, in [[w.simin-wo-yanzhongde-liu-shaoqi]], 433–43 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 263 n.11c). Names: Mao Zedong, Liu Shaoqi. Check: the day; Deng Liqun does not mention Kang Sheng''s role.'
+    src:
+      c: 8f6383fa
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 263: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 263 n.11a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 263 n.11b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 263 n.11c: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:liu-shaoqi]

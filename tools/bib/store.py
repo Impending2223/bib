@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
-ENTRY_FIELDS = ["id", "when", "date", "time", "time_approx", "thread", "also", "follows", "part_of", "s", "work", "card_note", "byline", "ditto", "c", "c2", "c3", "r", "n", "src", "gloss", "tags",
+ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "thread", "also", "follows", "part_of", "s", "work", "card_note", "byline", "ditto", "c", "c2", "c3", "r", "n", "src", "gloss", "tags",
                 "aliases", "conflict"]
 
 
@@ -203,6 +203,8 @@ def normalize_entry(e):
     """Coerce hand-edited values into the canonical shape and order."""
     if "date" in e and isinstance(e["date"], (datetime.date, datetime.datetime)):
         e["date"] = e["date"].isoformat()
+    if "date" in e and isinstance(e["date"], int) and not isinstance(e["date"], bool):
+        e["date"] = str(e["date"])          # a year alone written bare (date: 1962) is the year as text
     for k in ("also", "tags", "aliases"):
         if k in e:
             e[k] = [str(x) for x in as_list(e[k])]

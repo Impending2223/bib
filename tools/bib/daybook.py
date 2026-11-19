@@ -99,7 +99,7 @@ import os
 import re
 
 
-from . import dayblocks, store
+from . import dayblocks, loose, store
 
 
 def fold(t):
@@ -229,7 +229,7 @@ def rubric(lst, e, thread_name):
             else f'<span class="rw">, {esc(e["when"])}</span>')
     from . import calsplit
     slugs = [e["thread"]] + e.get("also", [])
-    half = calsplit.half_of_date(lst, e.get("date", "")) if calsplit.cfg(lst) else 1
+    half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1
     linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
     return f'<span class="s rub">{" · ".join(linked)}{when}</span>'
 
@@ -484,11 +484,20 @@ def section_days(lst, sec, entry_li, thread_name):
     hi = datetime.date.fromisoformat(str(sec.extra["to"]))
     out = ['<p class="dtog"><button type="button" data-docs="1">Expand all</button>'
            '<button type="button" data-docs="0">Collapse all</button> <span>the day\'s documents and other records</span></p>']
-    undated = [e for e in sec.entries if "when" not in e or len(str(e.get("date", ""))) != 10]
+    guests, away = loose.hosts(lst)  # a year's block, the month's, the intercalary days (loose.py, STYLE 1-2, 5)
+    ents = [e for e in sec.entries if e.get("id") not in away] + guests.get(sec.id, [])
+    undated, year_only, ix = [], [], {}
     dated = {}
     running = {}
-    for e in sec.entries:
+    for e in ents:
         if "when" not in e or len(str(e.get("date", ""))) != 10:
+            k = loose.order_key(e) if "when" in e else None
+            if k and k[1] in (0, 2):
+                ix.setdefault(k, []).append(e)
+            elif k and k[1] == -2:
+                year_only.append(e)
+            else:
+                undated.append(e)
             continue
         start = datetime.date.fromisoformat(str(e["date"]))
         dated.setdefault(start, []).append(e)
@@ -499,7 +508,10 @@ def section_days(lst, sec, entry_li, thread_name):
             k += datetime.timedelta(days=1)
     from . import dayorder           # the day's order: time first, then thread and text; `follows` honored (dayorder STYLE 1-2, 6)
     from . import subentries         # a parent's subentries after it, in their own order (subentries.py, STYLE 2)
-    undated = subentries.nest(lst, dayorder.order(lst, undated, by_time=False), lambda l, ks: dayorder.order(l, ks, by_time=False))
+    loose_order = lambda xs: subentries.nest(lst, dayorder.order(lst, xs, by_time=False), lambda l, ks: dayorder.order(l, ks, by_time=False))
+    undated = loose_order(undated)
+    year_only = loose_order(year_only)
+    ix = {k: loose_order(v) for k, v in ix.items()}
     dated = {k: subentries.nest(lst, dayorder.order(lst, v), dayorder.order) for k, v in dated.items()}
 
     from . import standing           # a standing condition, set off and labeled (standing.py, STYLE 1)
@@ -518,11 +530,27 @@ def section_days(lst, sec, entry_li, thread_name):
         if ' class="' in head:
             return h.replace(' class="', ' class="sub ', 1)
         return h.replace("<li", '<li class="sub"', 1)
+    wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
+    dlv = min(int(wtag[1]) + 1, 6)
+    if year_only:                           # a year alone, before the month (loose.py, STYLE 2)
+        out.append(f'<div class="day mo yr"><div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>'
+                   '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
     if undated:
         out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
                    '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
+    seen_ix = {}
+
+    def ix_days(keys):
+        """The intercalary days of keys, in order: a heading in the day's style, the loose date its text (loose.py)."""
+        for k in sorted(keys):
+            day, slot, _, head = k
+            n = seen_ix[(day, slot)] = seen_ix.get((day, slot), 0) + 1
+            aid = f"ix-{day.isoformat()}-{'before' if slot == 0 else 'after'}" + (f"-{n}" if n > 1 else "")
+            out.append(f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
+                       f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>'
+                       '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
+    ix_days([k for k in ix if k[0] < lo])
     d = lo
-    wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     while d <= hi:
         iso = d.isoformat()
         if d.weekday() == 6:                 # the MMWR week's heading above its Sunday (STYLE 16)
@@ -532,7 +560,8 @@ def section_days(lst, sec, entry_li, thread_name):
             wl = week_label(n, d, sat)
             out.append(f'<{wtag} class="wk" id="wk{iso}" data-short="{esc(wl)}" data-nocrumb="1" title="{esc(tip)}">'
                        f'{esc(wl)}</{wtag}>')
-        dlv = min(int(wtag[1]) + 1, 6)        # each day a heading in the scroll and the top bar (STYLE 16)
+        ix_days([k for k in ix if k[0] == d and k[1] == 0])     # the intercalary days before it, under its week
+        # each day a heading in the scroll and the top bar (STYLE 16)
         dshort = f"{calendar.day_name[d.weekday()]}, {day_label(d, d.year != lo.year)}"
         h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}" data-h="{dlv}" '
              f'data-short="{esc(dshort)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
@@ -552,7 +581,9 @@ def section_days(lst, sec, entry_li, thread_name):
         h.append(docs_html(by_day.get(iso, []), ab, iso))
         h.append("</div>")
         out.append("".join(h))
+        ix_days([k for k in ix if k[0] == d and k[1] == 2])     # the intercalary days after it ("May 12 bis")
         d += datetime.timedelta(days=1)
+    ix_days([k for k in ix if k[0] > hi])
     return out
 
 

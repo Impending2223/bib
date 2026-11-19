@@ -46,7 +46,7 @@ def _gazetteer(series):
         if p.get("wiki"):
             name = f'<a href="{esc(p["wiki"])}">{name}</a>'
         ents = at.get(k, [])
-        cal = datelist.run([(e["date"], f'<a href="{esc(calsplit.href(lst, calsplit.half_of_date(lst, e["date"]) if calsplit.cfg(lst) else 1, e["id"]))}">'
+        cal = datelist.run([(e["date"], f'<a href="{esc(calsplit.href(lst, calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1, e["id"]))}">'
                                         f'{esc(e["when"])}</a>') for e in ents]) if ents else ""
         plain = p.get("plain") if p.get("plain") and p.get("plain") != vnmap.shown(p) else ""
         out.append(f'<tr id="pl-{esc(k)}"><td>{name}</td><td>{esc(plain)}</td><td>{esc(KIND.get(p.get("kind"), p.get("kind") or ""))}</td>'
@@ -71,7 +71,7 @@ def page(series, template):
             hit = series.get(eid)
             if hit:
                 e = hit[2]
-                h = calsplit.href(lst, calsplit.half_of_date(lst, e["date"]) if calsplit.cfg(lst) else 1, eid)
+                h = calsplit.href(lst, calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1, eid)
                 annual.append((e["date"], f'<a href="{esc(h)}">{esc(e["when"])}</a>'))
     finally:
         calsplit.CUR.clear()

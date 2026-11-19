@@ -2371,6 +2371,8 @@ CQ Weekly Report, 1968-08-16:
 
 - Rusk at an Army hospital in Saigon (408; 1966, a year only); the children's views private.
 
+- **The PRC's numbered "serious warnings" to the United States, 1960–69** (the owner, Nov. 18, 2026: "Option 1 with option 3 as a lead"). The Foreign Ministry spokesman's serial protests at U.S. warships and military aircraft entering the waters and airspace China claimed (off Fujian, Guangdong, the Xisha Islands), numbered from Sept. 1958 to past the 470th by 1969. The *Waijiao dashiji* vols. II–III print only each year's run, entered as a year-dated entry each year (`cal.1960-01-08.china` … `cal.1969-01-04.china`); the milestones they date (the 100th, May 26, 1960; the 200th, Apr. 26, 1962; the 400th, Apr. 5, 1966) are entries of their own. Each warning was printed in *Renmin ribao* (and *Peking Review*), with its day and the intrusion it answered: each its own entry when the papers are held.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2426,3 +2428,16 @@ CQ Weekly Report, 1968-08-16:
 ### Graham, *The Uncertain Triumph* (batch 4, Nov. 5–6, 2026; notes/book-checks/graham-uncertain-triumph.md)
 
 - McPherson succeeds Lee White as special counsel, "early in 1966" (133): the day.
+
+## Surveillance at home (Nov. 15, 2026; the owner's questions on King and the FBI; notes/threads.md, "Intelligence; Antisubversion")
+
+Not found in the calendar; each from memory, to be found in a source before it is entered (R4, R50):
+- The FBI's counterintelligence programs as opened: the Communist Party (Aug. 1956, before the span: its 1960s acts), the Socialist Workers Party (Oct. 1961), "White Hate Groups" (Sept. 1964). Church Committee, Book III, "COINTELPRO"; Hearings vol. 6.
+- The 1962 sugar-lobby inquiry: wiretaps approved by Robert Kennedy on an Agriculture official, House Agriculture Committee staff and lobbyists for Dominican interests. Book III, warrantless electronic surveillance.
+- The taps on Hanson Baldwin (*New York Times*) and his secretary and on Lloyd Norman (*Newsweek*) after their 1962 stories on Soviet missiles and the defense budget. Book III.
+- The CIA's taps on the columnists Robert Allen and Paul Scott (Project Mockingbird, 1962–63). The Rockefeller Commission's report (1975); the CIA's "family jewels" (released 2007).
+- The NSA's watch lists of Americans, from 1967 (King and Muhammad Ali among the first names; later Minaret). NSA, *American Cryptology during the Cold War*, Book III (declassified); the National Security Archive's briefing book on Minaret (2013); Book III, "National Security Agency Surveillance."
+- The FBI's check of Agnew's telephone calls in the Chennault affair (Nov. 1968). Church Committee, Book II or III; Hughes, *Chasing Shadows*.
+- The Justice Department's Interdivisional Intelligence Unit (Ramsey Clark, Dec. 1967). Book III; Clark's papers.
+- Walter Jenkins's own word on the King material, if any: DeLoach's memoranda, Jan.–Feb. 1964 (Garrow, *The FBI and Martin Luther King, Jr.*).
+

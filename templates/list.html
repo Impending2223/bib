@@ -40,6 +40,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 #hdr .in{max-width:46rem;margin:0 auto;height:var(--hdr);display:flex;align-items:center;gap:.75rem;padding:0 1rem}
 #crumb{flex:1;min-width:0;font-family:var(--sans);font-size:.8rem;line-height:1.25;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #crumb b{color:var(--ink);font-weight:600}
+#crumb a,#crumb a:link,#crumb a:visited,#crumb a:hover,#crumb a:active,#crumb a:focus{color:inherit;text-decoration:none;outline:none;background:none}
 nav.pg{display:flex;gap:.85rem;font-family:"Noto Serif CJK JP","Noto Serif JP","Hiragino Mincho ProN","Yu Mincho","Source Han Serif JP",var(--serif);font-size:1.15rem;font-weight:400;line-height:1;white-space:nowrap}  /* a glyph a page, its name on hover and to screen readers (the owner's request, Oct. 22, 2026) */
 nav.pg a{color:var(--accent);text-decoration:none}nav.pg a:hover{text-decoration:underline}
 #olbtn{font-family:var(--sans);font-size:.8rem;font-weight:600;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:6px;padding:.4rem .7rem;cursor:pointer}
@@ -209,8 +210,15 @@ ol.e>li:last-child{border-bottom:0}
     if(i<0){crumb.innerHTML='<b>'+document.title+'</b>';return;}
     var parts=[], need=7;
     for(var k=i;k>=0;k--){ if(heads[k].hasAttribute('data-nocrumb')) continue;   // the calendar's week: not in the top bar
-      var L=lvl(heads[k]); if(L<need){ parts.unshift(crumbLabel(heads[k])); need=L; } if(L===2) break; }
-    crumb.innerHTML=parts.map(function(p,j){return j===parts.length-1?'<b>'+p+'</b>':p;}).join(' / ');
+      var L=lvl(heads[k]); if(L<need){
+        var h=heads[k], yt=h.getAttribute('data-ytop'), c=crumbLabel(h);
+        // a calendar's month heading gives the year and the month, each a link to the start of its span: the year to
+        // its first month (its page where the year is split), the month and the day to their headings (Nov. 18, 2026)
+        if(yt && c.indexOf(' / ')>0){ var yy=c.split(' / '); parts.unshift({t:yy[1],h:'#'+h.id}); parts.unshift({t:yy[0],h:yt}); }
+        else parts.unshift({t:c,h:(lvl(h)>2||h.hasAttribute('data-h'))?'#'+h.id:null});
+        need=L; } if(L===2) break; }
+    crumb.innerHTML=parts.map(function(p,j){var t=j===parts.length-1?'<b>'+p.t+'</b>':p.t;
+      return p.h?'<a href="'+p.h+'">'+t+'</a>':t;}).join(' / ');
   }
 
   // scrubber
