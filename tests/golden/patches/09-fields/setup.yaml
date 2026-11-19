@@ -1,0 +1,8 @@
+# R25a (tools/bib/fields.py): the first patch adds two entries with the fields set (and a place tagged ok, Moscow
+# named as a subject), and merges; the second adds them as a reader would without the fields, and is refused:
+# [fields-time] and [fields-at] errors, [fields-place] a warning.
+ledger:
+  - ['1961-04-29', space, cal.1961-04-29.space, 'Kennedy at Hyannis Port, 9 p.m.', fx-fields-fixed]
+  - ['1961-04', space, cal.1961-04.space, 'late April, the Cuba study', fx-fields-fixed]
+  - ['1961-04-29', foreign-aid, cal.1961-04-29.foreign-aid, 'Kennedy at Hyannis Port, 9 p.m.', fx-fields-flagged]
+  - ['1961-04', foreign-aid, cal.1961-04.foreign-aid, 'late April, the Cuba study', fx-fields-flagged]

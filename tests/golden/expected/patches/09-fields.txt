@@ -1,0 +1,47 @@
+$ ./bib ledger add 1961-04-29 space cal.1961-04-29.space Kennedy at Hyannis Port, 9 p.m. fx-fields-fixed
+claimed cal.1961-04-29.space
+
+--- exit 0
+
+$ ./bib ledger add 1961-04 space cal.1961-04.space late April, the Cuba study fx-fields-fixed
+claimed cal.1961-04.space
+
+--- exit 0
+
+$ ./bib ledger add 1961-04-29 foreign-aid cal.1961-04-29.foreign-aid Kennedy at Hyannis Port, 9 p.m. fx-fields-flagged
+claimed cal.1961-04-29.foreign-aid
+
+--- exit 0
+
+$ ./bib ledger add 1961-04 foreign-aid cal.1961-04.foreign-aid late April, the Cuba study fx-fields-flagged
+claimed cal.1961-04.foreign-aid
+
+--- exit 0
+
+$ ./bib patch-check inbox/09-fields-1.yaml
+== 09-fields-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib patch-check inbox/09-fields-2.yaml
+== 09-fields-2.yaml: 2 errors, 2 warnings
+  error  cal.1961-04-29.foreign-aid: the record gives the hour or the part of the day ('9 p.m.' in c): set time (time_approx: true where loose), or time_range with time_band and time_zone (R25a; tools/bib/dayorder.py), or tag ok:fields-time if it is not the act's time [fields-time]
+  error  cal.1961-04.foreign-aid: a loose date with its place in the month ('late' in when): set at: before 1961-04-21 (R25a; tools/bib/loose.py), or tag ok:fields-at if it is not the act's [fields-at]
+  warn   cal.1961-04-29.foreign-aid: set place: hyannis-port (Hyannis Port in c), or tag ok:fields-place if Hyannis Port is not where the act was done (R25a; notes/briefs/places.md) [fields-place]
+  warn   cal.1961-04.foreign-aid: set place: moscow (Moscow in c), or tag ok:fields-place if Moscow is not where the act was done (R25a; notes/briefs/places.md) [fields-place]
+
+--- exit 1
+
+$ ./bib merge --auto inbox/09-fields-1.yaml inbox/09-fields-2.yaml
+== fx-fields-fixed (auto)
+  2 entries changed; read: cal.1961-04-29.space
+== 09-fields-2.yaml: 2 errors, 4 warnings
+  error  cal.1961-04-29.foreign-aid: the record gives the hour or the part of the day ('9 p.m.' in c): set time (time_approx: true where loose), or time_range with time_band and time_zone (R25a; tools/bib/dayorder.py), or tag ok:fields-time if it is not the act's time [fields-time]
+  error  cal.1961-04.foreign-aid: a loose date with its place in the month ('late' in when): set at: before 1961-04-21 (R25a; tools/bib/loose.py), or tag ok:fields-at if it is not the act's [fields-at]
+  warn   cal.1961-04-29.foreign-aid: a duplicate of cal.1961-04-29.space? at the merge (./bib resolve cal.1961-04-29.foreign-aid --take ...; keep, for a duplicate that is distinct)
+  warn   cal.1961-04.foreign-aid: a duplicate of cal.1961-04.space? at the merge (./bib resolve cal.1961-04.foreign-aid --take ...; keep, for a duplicate that is distinct)
+  warn   cal.1961-04-29.foreign-aid: set place: hyannis-port (Hyannis Port in c), or tag ok:fields-place if Hyannis Port is not where the act was done (R25a; notes/briefs/places.md) [fields-place]
+  warn   cal.1961-04.foreign-aid: set place: moscow (Moscow in c), or tag ok:fields-place if Moscow is not where the act was done (R25a; notes/briefs/places.md) [fields-place]
+  refused: 09-fields-2.yaml left in the inbox
+
+--- exit 1
