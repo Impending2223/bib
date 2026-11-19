@@ -442,6 +442,8 @@ entries:
   - id: cal.1965-09-02.program
     when: Sept. 2
     date: '1965-09-02'
+    time: 1965-09-02T22:30Z
+    time_approx: true
     thread: program
     c: 'Abilene, Kan. The same party at the Eisenhower Library a few minutes before the 4:30 closing, Dr. William Aeschbacher the director; cameras and microphones at the front, where she says a few words. Dedicated two years before, not yet open to scholars. Mrs. Johnson''s view: the legislation, the decisions, to be displayed dramatically; library and museum to be melded.'
     n: '[[w.johnson-white-house-diary]], 314–15 (Mrs. Johnson''s account). See [[cal.1965-02-12.transition-and-staff]]. Names: Eisenhower, Johnson.'
@@ -879,6 +881,8 @@ entries:
   - id: cal.1965-09-07.succession
     when: Sept. 7
     date: '1965-09-07'
+    time: 1965-09-07T10:00Z
+    time_approx: true
     thread: succession
     c: 'The Ranch, about 4 a.m. Johnson has "awful pains in his stomach"; he will not have Dr. Burkley called till dawn. Burkley thinks it kidney stones; an electrocardiogram. Johnson''s feeling: "as long as we really knew nothing, we should say nothing"; Mrs. Johnson goes on to Jackson Hole. In the evening he telephones her there: Dr. Hurst with him, X-rays, it sounds like gallstones; he will keep his appointments but make no more, and no statement yet; more tests next day.'
     n: '[[w.johnson-white-house-diary]], 316–19 (Mrs. Johnson''s account). Made public: 1970. Names: Burkley, Hurst, Johnson, Lady Bird Johnson.'
@@ -1243,6 +1247,10 @@ entries:
     c: Moscow. Ceaușescu and the Romanian party-government delegation. Brezhnev negotiates Sept. 9, 2 to 4 and 6:30 to 10 p.m.; Sept. 10, 11 to 4, with a rally; they leave Sept. 11, 11 a.m.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 62–63 (Sept. 9–11). Names: Brezhnev, Ceaușescu.'
     tags: [name:brezhnev-leonid, name:ceausescu-nicolae, polity:ussr, polity:romania]
+    time_range:
+      - 1965-09-09T11:00Z
+      - 1965-09-09T19:00Z
+    time_zone: Europe/Moscow
   - id: cal.1965-09-09.china-leadership
     when: Sept. 9
     date: '1965-09-09'
@@ -1480,6 +1488,8 @@ entries:
   - id: cal.1965-09-10.states-and-cities
     when: Sept. 10
     date: '1965-09-10'
+    time: 1965-09-10T21:00Z
+    time_approx: true
     thread: states-and-cities
     c: 'Johnson leaves the White House about 5 p.m. for New Orleans, to survey the damage of Hurricane Betsy; back about 1 a.m., he checks the Departments by telephone: food flown in, medicine and cots.'
     n: '[[w.johnson-white-house-diary]], 320 (Mrs. Johnson''s account, of Sept. 11; she reached the White House a little before midnight); [[w.valenti-very-human-president]], 170 (Sept. 10: the teleprinters flash Betsy on the Louisiana shore; Johnson orders his pilot to ready Air Force One and calls the Louisiana delegation; not the hour or the later calls). To check: the President''s Daily Diary, Sept. 10, 1965. Names: Johnson, Lady Bird Johnson.'
@@ -1993,6 +2003,10 @@ entries:
     c: Moscow. Brezhnev negotiates with the Czechoslovak delegation led by Novotný, 9 to 1; a rally in Novotný's honor, 2 to 4; a reception that evening with more negotiation; sees them off Sept. 15, 8:40 a.m.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 64 (Sept. 14–15). Names: Brezhnev, Novotný.'
     tags: [name:brezhnev-leonid, name:novotny-antonin, polity:ussr, polity:czechoslovakia]
+    time_range:
+      - 1965-09-14T06:00Z
+      - 1965-09-14T10:00Z
+    time_zone: Europe/Moscow
   - id: cal.1965-09-14.vietnam-hanoi
     when: Sept. 14
     date: '1965-09-14'
@@ -2688,6 +2702,7 @@ entries:
   - id: cal.1965-09-17.soviet-union-leadership
     when: Sept. 17–18
     date: '1965-09-17'
+    time: 1965-09-17T11:00Z
     thread: soviet-union-leadership
     also: [berlin-and-vienna]
     c: Moscow. Ulbricht and the East German party-government delegation. Brezhnev meets them Sept. 17, 2 p.m.; negotiates Sept. 18, 9:20 to 1, lunch 1 to 3:20.
