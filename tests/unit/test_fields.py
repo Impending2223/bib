@@ -92,7 +92,6 @@ AT_TRUE = [
     loose("Early April: Kennedy writes to Khrushchev."),
     loose("Kennedy writes, on the eve of the invasion."),
     loose("Soon after the landing, Kennedy writes."),
-    loose("Kennedy writes.", date="1961", when="1961, early"),
     loose("Kennedy writes in the spring.", date="1961", when="1961"),
     loose("四月下旬, the province reports."),
     loose("В конце апреля Хрущёв пишет."),
@@ -112,6 +111,7 @@ AT_FALSE = [
     loose("Kennedy writes.", when="Apr., after the 12th"),
     loose("Kennedy writes.", date="1961-03", when="Mar., spring"),
     loose("Late in April Kennedy writes.", when="Apr., late"),
+    loose("Kennedy writes.", date="1961", when="1961, early"),        # a year's third: merge places it (the ghost-day code)
     # another season's, another year's: the "of YYYY" read
     loose("Kennedy recalls the talks in the spring of 1958.", date="1960", when="1960"),
     loose("The famine of the winter of 1959–60 is reported.", date="1960-06", when="June"),

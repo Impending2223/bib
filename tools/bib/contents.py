@@ -22,7 +22,7 @@ with put, and the contents and the thread index list it with no more code (the o
 STYLE (the owner's rules, Oct. 21, 2026):
  1. The months in a grid: a year cell spanning the year's rows, then six months a row, Jan to Jun and Jul to Dec, each
     month its three-letter form ("Sep", not "Sept.": here only; the Bluebook's forms elsewhere), linked to its section,
-    the section's own title on hover. A month the page does not hold leaves its cell empty and the columns stand. A year
+    the section's own title on hover; the year linked to its heading over its first month (daybook.py, STYLE 17). A month the page does not hold leaves its cell empty and the columns stand. A year
     takes only the rows it has months in (1969: one row; 1972, Mar.-Aug.: two). A year not following the one before
     (1969, then the primary seasons of 1972) takes a little space above. January 1966 is two sections (196601, Jan. 1-9;
     196601b, from the session's opening), one cell: the first's. The threads section keeps its place, first,
@@ -246,6 +246,7 @@ def nav(lst, sections, half=None):
     """The calendar page's contents (STYLE 1, 3, 6): the threads line, the grid, the slot finish() or fill() fills. Where
     the calendar is in parts, the grid is the whole calendar's: every month of every part, linked through to its page
     (half: the page's part; 0, the index)."""
+    from . import daybook
     lines, years = [], {}
     whole = calsplit.cfg(lst) and half is not None
     series = calsplit.CUR["mode"] == "series"
@@ -282,6 +283,9 @@ def nav(lst, sections, half=None):
             if whole and part != half:          # another part's year: its page's top (STYLE 6)
                 key = calsplit.page_key(lst, part)
                 yc = f'<a href="{esc(f"#{key}--top" if series else f"{key}.html")}">{y}</a>'
+            elif daybook.year_opened(lst, ms[min(ms)]) == y:    # the year's own heading (daybook.py, STYLE 17)
+                yc = (f'<a class="yo" href="{esc(year_href(lst, ms[min(ms)], whole, y))}" '
+                      f'data-id="{esc(_year_id(lst, y))}">{y}</a>')
             th = f'<th scope="rowgroup" rowspan="{len(halves)}">{yc}</th>' if j == 0 else ""
             trs.append(f"<tr>{th}{''.join(cells)}</tr>")
         gap = ' class="gap"' if prev is not None and y != prev + 1 else ""
@@ -297,6 +301,18 @@ def nav(lst, sections, half=None):
 
 def _sec_id(lst, s):
     return f"{lst.key}--{s.id}" if calsplit.CUR["mode"] == "series" else s.id
+
+
+def _year_id(lst, y):
+    return f"{lst.key}--y{y}" if calsplit.CUR["mode"] == "series" else f"y{y}"
+
+
+def year_href(lst, s, whole, y):
+    """The year's heading (daybook.py, STYLE 17), over s, the section that opens it: on the page, or through to its
+    part's page (the reader: its block's)."""
+    if calsplit.CUR["mode"] == "series" or not whole:
+        return "#" + _year_id(lst, y)
+    return calsplit.href(lst, calsplit.half_of_section(lst, s), _year_id(lst, y))
 
 
 def _sec_href(lst, s, whole):
@@ -424,6 +440,7 @@ table.tocg col.y{width:16%}
 table.tocg th,table.tocg td{border:0;background:none;padding:.2rem 0;text-align:left;vertical-align:top}
 table.tocg th{font-weight:700;color:var(--ink);font-size:.95rem}
 .tocc table.tocg th a{color:var(--muted)}
+.tocc table.tocg th a.yo{color:inherit;text-decoration:none}
 table.tocg tbody.gap>tr:first-child>*{padding-top:.75rem}
 table.tocg tbody.tbh td{padding-top:1.1rem;font-weight:700;font-size:1rem}
 table.tocg tbody.tbs>tr:first-child>*{padding-top:.45rem}

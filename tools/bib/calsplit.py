@@ -294,6 +294,9 @@ def anchors(lst):
 
         def walk(s):
             bag.add(s.id)
+            from .daybook import year_opened
+            if year_opened(lst, s) is not None:   # the year's heading over the section opening it (daybook STYLE 17)
+                bag.add(f"y{year_opened(lst, s)}")
             if s.extra.get("old_id"):
                 bag.add(str(s.extra["old_id"]))
             for e in s.entries:
@@ -567,9 +570,22 @@ def seam(lst, sec):
             before = (f'<p class="seam"><a href="{href(lst, n - 1, "d" + z.isoformat())}">‹ {lab(z)}, '
                       f'in {ps[n - 2].get("abbr", lst.abbr)}</a></p>')
         if str(sec.extra.get("to")) == z.isoformat():
-            after = (f'<p class="seam"><a href="{href(lst, n, "d" + a.isoformat())}">{lab(a)}, in '
+            after = (f'<p class="seam"><a href="{href(lst, n, first_anchor(lst, a))}">{lab(a)}, in '
                      f'{ps[n - 1].get("abbr", lst.abbr)} ›</a></p>')
     return before, after
+
+
+def first_anchor(lst, a):
+    """The first anchor of the part that opens on day a: its year's heading, or a year's part before its first
+    month's heading (daybook.py, STYLE 17), else the day."""
+    from . import daybook, loose
+    sec = next((s for s in lst.walk() if str(s.extra.get("from") or "") == a.isoformat()), None)
+    if sec is not None and daybook.year_opened(lst, sec) is not None:
+        return f"{lst.key}--y{a.year}" if CUR["mode"] == "series" else f"y{a.year}"
+    if a.day == 1 and any(len(loose.date_of(e)) == 4 and loose.parse_at(e.get("at")) == ("month", a)
+                          for _, e in lst.entries() if "when" in e):
+        return f"ix-{a.isoformat()[:7]}-month"
+    return f"d{a.isoformat()}"
 
 
 def other_link(lst, html):
