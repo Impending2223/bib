@@ -514,6 +514,26 @@ def year_heading(lst, sec, year, prefix=""):
     return f'<{tag} class="yh" id="{prefix}y{year}" data-short="{year}" data-crumb="{year}">{year}</{tag}>'
 
 
+def ix_id(day, slot, n=1):
+    """An intercalary day's anchor (loose.py): a year's at the month (ix-1962-05-month), a day's before or after it
+    (ix-1961-04-15-before); the second in its slot, -2."""
+    return (f"ix-{day.isoformat()[:7]}-month" if slot == -1.5 else
+            f"ix-{day.isoformat()}-{'before' if slot == 0 else 'after'}") + (f"-{n}" if n > 1 else "")
+
+
+def ix_anchors(lst, sec):
+    """The anchors of the intercalary days section_days lays out in sec (its entries and guests, less those shown
+    away): the split map's, by the data (calsplit.anchors), for a build that has not made the calendar's pages."""
+    guests, away = loose.hosts(lst)
+    keys = {loose.order_key(e) for e in [e for e in sec.entries if e.get("id") not in away] + guests.get(sec.id, [])
+            if "when" in e and len(str(e.get("date", ""))) != 10}
+    seen, out = {}, []
+    for day, slot, _, _ in sorted(k for k in keys if k[1] in (-1.5, 0, 2)):
+        n = seen[(day, slot)] = seen.get((day, slot), 0) + 1
+        out.append(ix_id(day, slot, n))
+    return out
+
+
 def section_days(lst, sec, entry_li, thread_name, prefix=""):
     """HTML for a dated calendar section, laid out by day, as (lead, body): the lead, the year's heading, block and
     intercalary days, before the section's heading; the body after it (STYLE 17). entry_li(e, rubric_html) ->
@@ -579,8 +599,7 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
         for k in sorted(keys):
             day, slot, _, head = k
             n = seen_ix[(day, slot)] = seen_ix.get((day, slot), 0) + 1
-            aid = (f"ix-{day.isoformat()[:7]}-month" if slot == -1.5 else
-                   f"ix-{day.isoformat()}-{'before' if slot == 0 else 'after'}") + (f"-{n}" if n > 1 else "")
+            aid = ix_id(day, slot, n)
             out.append(f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
                        f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>'
                        '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
