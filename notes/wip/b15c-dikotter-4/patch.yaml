@@ -46,6 +46,21 @@ ops:
     name: Shimen
     zone: Asia/Shanghai
     in: prc
+- place-key:
+    key: kaiping
+    name: Kaiping
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: yinjiang
+    name: Yinjiang
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: guizhou
+    name: Guizhou
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1961-01-25.china-leadership-5
@@ -310,3 +325,120 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1962.china-leadership-48
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - china
+      place: hebei
+      c: 'A public security document from Hebei 河北 gives the province''s arrests: some 16,000 "counter-revolutionaries" and 20,000 common criminals in 1958; 1,900 and 5,000 in 1959; little change in 1960 and 1961, save common criminals down to just over 1,000.'
+      n: '[[w.dikotter-maos-great-famine]], 288. Made public: 2010. To check: Hebei Provincial Archives, 1962, 884-1-223, p. 149 (cited by [[w.dikotter-maos-great-famine]], 288 n.5). Check: the day.'
+      src:
+        c: 65de67cd
+        rows:
+        - 'w.dikotter-maos-great-famine 288: all'
+        - 'via w.dikotter-maos-great-famine 288 n.5: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-02.china-leadership-9
+      when: Jan. 2
+      date: '1961-01-02'
+      thread: china-leadership
+      also:
+      - china
+      place: kaiping
+      c: In Kaiping county one brigade runs four camps; hundreds are sent to them for a couple of days or up to 150 days; many are beaten and tortured inside, some crippled for life.
+      n: '[[w.dikotter-maos-great-famine]], 291. Made public: 2010. To check: Guangdong Provincial Archives, Jan. 2, 1961, 217-1-643, pp. 61–66 (cited by [[w.dikotter-maos-great-famine]], 291 n.20). Check: the day.'
+      src:
+        c: 72cc766d
+        rows:
+        - 'w.dikotter-maos-great-famine 291: all'
+        - 'via w.dikotter-maos-great-famine 291 n.20: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-09-22.china-leadership-3
+      when: Sept. 22
+      date: '1960-09-22'
+      thread: china-leadership
+      also:
+      - china
+      place: kaiping
+      c: In Kaiping a cadre chains a grandmother accused of theft in the canteen for ten days with 4.5-kilo fetters; a young militiaman burns her feet with matches.
+      n: '[[w.dikotter-maos-great-famine]], 291. Made public: 2010. To check: Kaiping archives, Sept. 22, 1960, 3-A10-31, p. 10 (cited by [[w.dikotter-maos-great-famine]], 291 n.21). Check: the day.'
+      src:
+        c: d285f867
+        rows:
+        - 'w.dikotter-maos-great-famine 291: all'
+        - 'via w.dikotter-maos-great-famine 291 n.21: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-30.china-leadership-9
+      when: Nov. 30
+      date: '1960-11-30'
+      thread: china-leadership
+      also:
+      - china
+      place: yinjiang
+      c: In Yinjiang county, Guizhou 貴州, the inmates of one camp have the character for "thief" imprinted on their foreheads in red ink.
+      n: '[[w.dikotter-maos-great-famine]], 291. Made public: 2010. To check: *Neibu cankao*, Nov. 30, 1960, p. 16 (cited by [[w.dikotter-maos-great-famine]], 291 n.22). Check: the day.'
+      src:
+        c: b6b78170
+        rows:
+        - 'w.dikotter-maos-great-famine 291: all'
+        - 'via w.dikotter-maos-great-famine 291 n.22: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-30.china-leadership-10
+      when: Nov. 30
+      date: '1960-11-30'
+      thread: china-leadership
+      also:
+      - china
+      place: guizhou
+      c: Throughout Guizhou 貴州 the communes set up "training centres" where those who voice critical views or refuse to attend meetings are sent for "re-education" and hard labour.
+      n: '[[w.dikotter-maos-great-famine]], 291. Made public: 2010. To check: *Neibu cankao*, Nov. 30, 1960, p. 16 (cited by [[w.dikotter-maos-great-famine]], 291 n.22). Check: the day.'
+      src:
+        c: d962466f
+        rows:
+        - 'w.dikotter-maos-great-famine 291: all'
+        - 'via w.dikotter-maos-great-famine 291 n.22: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-11.china-leadership-4
+      when: Jan. 11
+      date: '1961-01-11'
+      thread: china-leadership
+      also:
+      - china
+      place: yanqing
+      c: In Yanqing county, north of Beijing, a sixty-two-year-old man is confined for a month for not having caught enough sparrows.
+      n: '[[w.dikotter-maos-great-famine]], 291. Made public: 2010. To check: Beijing Municipal Archives, Jan. 11, 1961, 1-14-790, p. 17 (cited by [[w.dikotter-maos-great-famine]], 291 n.24). Check: the day.'
+      src:
+        c: 114755bb
+        rows:
+        - 'w.dikotter-maos-great-famine 291: all'
+        - 'via w.dikotter-maos-great-famine 291 n.24: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1961-01-21.china-leadership-5
+    item: '[[w.dikotter-maos-great-famine]], 286 n.62 (Hu Kaiming observes that in the winter of 1960–61 starving villagers drop dead of low blood sugar, without the usual signs of oedema)'
