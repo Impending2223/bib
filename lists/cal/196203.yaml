@@ -1026,13 +1026,18 @@ entries:
     when: Mar. 7
     date: '1962-03-07'
     thread: soviet-union
+    also: [press-and-broadcasting, testing]
     c: 'Khrushchev, by private message, calls off the television exchange set for Mar. 25, to be filmed Mar. 8: offended by the address of Mar. 2 on resuming tests. Sorensen had begun the President''s script that day. By Sorensen''s account.'
-    n: '[[w.sorensen-kennedy]], 557–58. See [[cal.1962-03-02.testing]]. Names: Khrushchev, Sorensen. Check: the message, not found in FRUS.'
+    n: '[[w.sorensen-kennedy]], 557–58; [[w.fursenko-one-hell-of-a]], 156 (the exchange called off by Gromyko''s instruction to the embassy, for Bolshakov to tell Salinger: Kennedy''s decision to resume tests made the exchange impossible; on the test ban, no inspections at all; not the private message, the days or Sorensen''s script); [[w.fursenko-khrushchevs-cold-war]], 424 (the broadcasts incompatible with the tests; the offer of two or three inspections withdrawn at Geneva); [[w.salinger-with-kennedy]], 216 (Bolshakov to Salinger, Apr. 5: his government calls off the exchange, because of the decision to resume tests; not Khrushchev by name, the day or the words). To check: Gromyko to Smirnovsky, the acting ambassador in Washington, APRF (cited by [[w.fursenko-one-hell-of-a]], 156 n.20). See [[cal.1962-03-02.testing]]. Names: Khrushchev, Sorensen. Check: the message, not found in FRUS.'
     src:
       c: fbce7950
       rows:
         - 'w.sorensen-kennedy 557–58: all'
-    tags: [name:khrushchev-nikita-s, name:sorensen-theodore-c]
+        - 'w.fursenko-one-hell-of-a 156: ?'
+        - 'w.fursenko-khrushchevs-cold-war 424: ?'
+        - 'w.salinger-with-kennedy 216: ?'
+    tags: [name:khrushchev-nikita-s, name:sorensen-theodore-c, name:gromyko-andrei, name:bolshakov-georgi, name:salinger-pierre]
+    aliases: [cal.1962-03.soviet-union]
     time_range:
       - 1962-03-07T06:00Z
       - 1962-03-07T14:00Z
@@ -4356,21 +4361,6 @@ entries:
       c: e7b11914
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 304: all'
-  - id: cal.1962-03.soviet-union
-    when: Mar.
-    date: 1962-03
-    thread: soviet-union
-    also: [press-and-broadcasting, testing]
-    c: 'Khrushchev calls off the television exchange. Gromyko to the embassy, for Bolshakov to tell Salinger: "Recent events, particularly John F. Kennedy''s decision to resume nuclear tests, make it impossible to exchange television messages." On the test ban, no inspections at all.'
-    n: '[[w.fursenko-one-hell-of-a]], 156; [[w.fursenko-khrushchevs-cold-war]], 424 (the broadcasts incompatible; the offer of two or three inspections withdrawn at Geneva); [[w.salinger-with-kennedy]], 216 (Bolshakov to Salinger, Apr. 5: his government calls off the exchange, because of Kennedy''s decision to resume nuclear tests; not Khrushchev by name, Gromyko, the words or the inspections). To check: Gromyko to Smirnovsky, the acting ambassador in Washington, APRF (cited by [[w.fursenko-one-hell-of-a]], 156 n.20). Check: the day. See [[cal.1962-01-18.soviet-union]]. Names: Khrushchev, Gromyko, Bolshakov, Salinger.'
-    src:
-      c: e25ebfb7
-      rows:
-        - 'w.fursenko-one-hell-of-a 156: all'
-        - 'via w.fursenko-one-hell-of-a 156 n.20: A-B'
-        - 'w.fursenko-khrushchevs-cold-war 424: A, C'
-        - 'w.salinger-with-kennedy 216: ?'
-    tags: [name:khrushchev-nikita-s, name:gromyko-andrei, name:bolshakov-georgi, name:salinger-pierre]
   - id: cal.1962-03.republican-party-congress
     when: Mar.
     date: 1962-03
