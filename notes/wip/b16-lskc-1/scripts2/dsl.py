@@ -53,3 +53,9 @@ def V(id, unit, reads, at):
 def K(id, text): OTHER.append({'check': {'id': id, 'text': text}})
 def ALSO(id, add): OTHER.append({'also': {'id': id, 'add': list(add)}})
 def RAW(op): OTHER.append(op)
+NEWP = {}
+def NP(key, name, inn='rvn', tz='Asia/Ho_Chi_Minh'): NEWP[key] = (name, inn, tz)
+for k, n_ in [('kien-tuong', 'Kiến Tường province'), ('ha-tien', 'Hà Tiên'), ('thu-dau-mot', 'Thủ Dầu Một province'), ('ba-ria', 'Bà Rịa province'), ('ninh-thuan', 'Ninh Thuận province'), ('binh-thuan', 'Bình Thuận province'),
+              ('tra-vinh', 'Trà Vinh'), ('quang-nam', 'Quảng Nam province'), ('gia-lai', 'Gia Lai province'), ('dak-lak', 'Đắk Lắk province'), ('tra-bong', 'Trà Bồng'), ('bac-ruong', 'Bắc Ruộng'),
+              ('song-ong-doc', 'Sông Ông Đốc'), ('ba-the', 'Ba Thê'), ('xeo-can', 'Xẻo Cạn'), ('go-quao', 'Gò Quao'), ('duc-lap-post', 'Đức Lập')]:
+    NP(k, n_)

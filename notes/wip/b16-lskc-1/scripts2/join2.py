@@ -41,7 +41,7 @@ for e in dsl.ENT:
     adds.append({'add': {'entry': ent}})
 pre = yaml.safe_load(open('/home/user/bib/notes/wip/b16-lskc-1/partial-patch.yaml'))
 pre_adds = [o for o in pre['ops'] if 'add' in o]
-pre_rest = [o for o in pre['ops'] if 'add' not in o]
+pre_rest = [o for o in pre['ops'] if 'add' not in o and not ('cite' in o and 'rising in Bến Tre, Jan. 17–24' in o['cite']['item'])]
 # placeups for predecessor adds
 PU = getattr(dsl, 'PLACEUP', {})
 for o in pre_adds:
