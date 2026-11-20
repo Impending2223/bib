@@ -1,0 +1,76 @@
+# Yang Jisheng 楊繼繩, *Tiandi fanfu: Zhongguo wenhua dageming shi* 天地翻覆——中國文化大革命史 (card `w.yang-jisheng-tiandi-fanfu`)
+
+## Run 1 (reader b15c-tiandi-1, Nov. 19, 2026): 1966, vol. 上 (chs. 2–10)
+
+Patch `inbox/2026-11-19-b15c-tiandi-1.yaml`; witness rows `inbox/witnesses/2026-11-19-b15c-tiandi-1.yaml`; edges `sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml` (under `# run 1`). New card `w.yang-jisheng-tiandi-fanfu` (`works/y.yaml`, after the *Mubei* card; the id from `./bib works new` was `w.tiandi-fanfu`, moved to the author-first id before anything cited it).
+
+**The copy.** Tiandi Tushu 天地圖書, Hong Kong, first ed. Dec. 2016 (the imprint page), 上篇 only: 592 PDF pages (Drive `14XPVMEyTftB7e5ygf2Ts5v_AcrfiGosw`, Acrobat from Word, **a text layer**, traditional characters; `pdftotext -layout` read cleanly, no OCR). Vol. 下 (chs. 17–32 and the chronology 文革大事記, printed p. 1142) was not fetched: run 2's if the chronology or ch. 20's Liu Shaoqi pages are wanted for 1966. The volumes are paginated continuously; cited "I, 123" for 上篇, "II" for 下篇.
+
+**Folio.** Printed page = PDF page − 4 from the front matter on (the footers checked every twentieth page from PDF 40 to 580: constant; PDF 15 = 前言 p. 11, PDF 109 = ch. 2's title page p. 105). Footers print "N 天地翻覆" on even pages, "chapter title N" on odd ones.
+
+**Chapter map (上篇; printed pages, the title page and the text's start).**
+
+| ch. | title | title page | 1966? |
+|---|---|---|---|
+| 1 | 文革前發生的重大事件 | 39 (text 40) | background to 1965; not read |
+| 2 | 點燃「導火線」 | 105 (text 106) | Jan.–May 1966 from p. 120: **read** pp. 106–129 |
+| 3 | 清除文革障礙：打倒彭陸羅楊 | 131 (133) | Peng, Lu, Luo, Yang, Jan.–Dec. 1966: **read** pp. 132–155 |
+| 4 | 「五月會議」：文革正式發動 | 157 (159) | May 4–26, the May 16 Notice, the Group, the capital guard, He Long, Nie Yuanzi: **read** pp. 158–189 |
+| 5 | 劉少奇的「反右運動」 | 189 (190) | the work groups, June–July 29: **read** pp. 190–217 |
+| 6 | 八屆十一中全會期間的幾件大事 | 219 (222) | the Eleventh Plenum, Aug. 1–12: **read** pp. 220–227, 231, 237–238 |
+| 7 | 紅衛兵 紅八月 | 239 (240) | Aug. 18 and the eight receptions: **read** pp. 240–244 |
+| 8 | 批判資產階級反動路線 | 287 (288) | Sept.–Oct. 1966, the Central Work Conference: **read** pp. 295, 298–305 |
+| 9 | 群眾組織的興起、活動和消亡 | 307 (308) | Oct.–Dec. 1966: not reached |
+| 10 | 工人造反派和上海「一月風暴」 | 331 (332) | Nov.–Dec. 1966 (Anting, the industrial forum): **read** pp. 332–344 |
+| 11–16 | 經濟維權者的悲劇 … 清查「5·16」之謎 | 367, 385, 413, 451, 519, 551 | 1967–68: not for this run |
+
+**The notes.** Footnotes at the foot of each page, the number series restarting at each chapter (ch. 2 reaches n.33 at p. 119; ch. 3 starts again at p. 132 n.1; ch. 4 at p. 158; ch. 5 at p. 190; ch. 7 at p. 240; ch. 8 reaches n.37 at p. 305), the numbers printed as superscripts and landing in the text layer after the punctuation (the "9" of "協助。91965" at p. 109 is note 9). Anchor: volume, page, number (`I, 107 n.5`). Several items under one number: lettered in the note's order (`I, 123 n.38a`, `n.38b`; `I, 154 n.57a–c`). "同上" is the item before: carried to the same witness with its own page (`I, 123 n.39`). A source the text names with no note (the Center's documents, Lin's note of May 14) is `n.t1` by its place on the page (`I, 145 n.t1`, `I, 132 n.t1`). A glossing note (a biography, "Stockholm syndrome," the Rural Work Department) has no item and no edge. Two notes run over the foot of a page: n.31 at I, 344 breaks off after "《徐景賢的最后回憶》，星克爾" (the page number of that item is lost in the print); n.42 at I, 175 runs into p. 176. Misprints kept as printed: "20011 年" for 2011 (I, 160 n.8), "1968 年" for the *Wengao*'s 1998 (I, 295 n.16, 300 n.27), 程曉農 for 陳曉農 (I, 160 n.7).
+
+**What was read.** The pages named in the map, each in full where it holds a dated act of an organ or a leader and, for the longer chapters (3, 4, 5, 8, 10), by a filter for dates followed by the whole page where a date fell (pp. 133–142, 156–157, 163–168, 178–189, 190–211, 288–294, 306 only so). Not read: ch. 1; pp. 107–119 (1965 and earlier); ch. 2's last page; ch. 5's provincial pages (pp. 199–212 beyond the dates); ch. 6 pp. 228–236 (the "Sixteen Articles" and the Aug. 8 Decision; the Red Guards' first posters, June–July); ch. 7 pp. 245–286; ch. 8 pp. 288–294; ch. 9; ch. 10 pp. 345–351 and the pages on the Jan. 1967 seizure of power (1967).
+
+**What was entered.** 62 new entries (20 with `place:`, 14 with a time, 11 with `at:`), 104 cites (units only where the page bears every place, hour, person, figure and claim: 42 with units, the rest a parenthetical for what the page gives), 24 variants, 5 `check` ops and "Check:" sentences in 23 of the adds, 4 `place` ops on cited entries, 3 `edit` ops (the time of Luo Ruiqing's jump, of Liu Shaoqi's talk of June 27, and of the Great Hall meeting of July 29), 59 witness rows, 185 edges, 1 card. `./bib patch-check`: 0 errors; `./bib fields --patch`: 0 findings.
+- Ch. 2: the Five-Man Group's meeting of Feb. 3, the Outline's drafting, the Standing Committee of Feb. 5, the telegram of Feb. 7, the flight and report of Feb. 8, the Center's note and the document of Feb. 12 (cites, one variant on the attendance and one on Wu Han's post), Peng Zhen's message to Shanghai (Feb. 12–14) and Hu Sheng's talk with Zhang Chunqiao (Feb. 13), the call of Mar. 11 (a variant on who rang whom, on both the entry of MacFarquhar's and Mao zhuan's), Mao's speeches of Mar. 17–20, Mar. 28–30, Zhou's letter of Apr. 2, the Secretariat of Apr. 9–12, the Hangzhou meeting of Apr. 16–24 (Peng's refusal of a hearing, Ye Jianying's late arrival, the walk nobody took with Peng, Mao's "first and second lines" as Qiu Huizuo had it from Yang Chengwu), Apr. 5 *Hongqi* article, Apr. 16 note rewritten at Zhou's word, the *Jiefangjun bao* pieces of Apr. 18–19, May 4 and May 9, May 10 and 11 (the Peking committee, Peng and Li Xuefeng), Peng's exclusion.
+- Ch. 3: Luo's meeting of Mar. 4 (a variant: 95, Ye presiding), his jump of Mar. 18, the report of Apr. 30 and its forwarding May 16; Yan Weibing's verse (Jan. 26), Peng and Lu Dingyi (early Feb.), Lu's departure (Mar. 6), return (May 8), self-criticism and the teacup (May), the Standing Committee's barring him; Zhou's and Lin's speeches (May 18, 21), the vote of May 23, doc. 277 (May 24), Chen Boda's speech (May 24); Liu's talk of June 27; Dec. 3–4 (the seizure, Zhou's praise of the four bodies, a variant on the rebuke); Dec. 12 (a variant on the number).
+- Ch. 4: the May meeting (May 4–26), the Notice (a variant on its publication, May 16, 1967), May 17, May 19 (the Notice to county and regiment level; Peking University's committee), the Capital Work Group (May 15, 29, June 1, 3), Zhu De's examination (May 23), the Group's formation (May 28; the huddles, office and information system, July 16), the poster (June 1: Mao's note; the new Peking committee, June 3), June 9, July 18, Kang Sheng at the Normal University (July 27), He Long (Aug. 25, Sept. 6, autumn, October), Tian Jiaying's suspension (May 22), variants on Deng Tuo and Tian.
+- Ch. 5: the eight rules of June 3, June 10–28, the dispute of July 18–19 and the decision to withdraw (cites with units), Kuai Dafu (July 20, 22, 31), July 23, 28, 29, 30.
+- Ch. 6: Mao's letter to the Tsinghua Middle School Red Guards (July 31; a variant on how its pieces reached Mao), Mao's telegram of July 17, the plenum (Aug. 1–12), Aug. 4, the poster (a variant on its title's day, Aug. 7, 3 a.m.), Lin Biao's recall and arrival (a variant on the day and hour), the leaders' list, the election of Aug. 12, Zhou at the Center's daily work (Aug. 24).
+- Ch. 7: Aug. 18, the receptions of Aug. 31–Nov. 26 (variants on Mao's hour, Oct. 1, the totals of Nov. 25–26).
+- Ch. 8 and 10: Sept. 7, 11; Oct. 6, 9, 16, 23–25, 27; Dec. 30 (a variant on the "red sea"); Anting (Nov. 10–14), the industrial forum (Nov. 16, 21, Dec. 4–9), Mao's birthday talk (Dec. 26).
+
+**"Made public."** "2016" on an act only Yang's pages date; the earliest printing named on the page where Yang cites one (1999 for Chen and Song's *Lu Dingyi zhuan*; 2008 for Bu Weihua's book; 2011 for Qiu Huizuo's memoir; 2007 for Li Xuefeng's essay and Gong Yuzhi's; 2013, 2014 for Xu Jingxian's and Kuai Dafu's memoirs; 2006 for Wang Nianyi's article); none on a public act (the papers' editorials and articles, the Red Guard rallies' public parts). The *dashiji* annex to the Circular of May 16 (Yang's most-cited witness) was circulated in 1966 and printed in Red Guard collections: no open printing is cited here (a lead).
+
+**Visibility.** `vis:only:prc` on every internal act; none on the press pieces (Apr. 5, 19, May 4, 9) and the Red Guard rallies.
+
+**Places and times.** `place:` where the page names the room, hall or city for the act (Diaoyutai, the Great Hall's halls, Hangzhou, Hefei–Peking, Anting, Shanghai) and not for the leaders' meetings Yang does not place (the Standing Committee at Liu's home, June 3: no city). New place keys: none (the gazetteer held every key). Times: the page's hours where it gives one (10:30 a.m., 3 a.m., 2 a.m., 7 to 10 p.m., "about 10 p.m." approximate) and its parts of the day (morning, afternoon, evening, night) as bands, zone Asia/Shanghai.
+
+## Passed over and not reached (R44)
+
+How made: the dated acts on each page read closely, against what was entered. None is passed over on an R18 ground: the dated acts left out are of 1964–65 or 1967 and later (outside this run's year, the span's own years), or the author's list or narrative, or on pages not reached.
+- I, 133–142 | 1965 (June, Aug., Nov. 26, Dec. 1–15) | the Ye–Qiu talk on Luo; Ye's word to Lin; Lin's letter and papers of Nov. 30, Mao's comment of Dec. 2; the Shanghai meeting of Dec. 8–15, Luo's detention | outside this run's year (1965, within the span): for the 1965 pass.
+- I, 154 | Jan. 6, 1967 | Tsinghua's "capture of Wang Guangmei"; I, 155 | autumn 1967 | Mao and Ji Dengkui; I, 169–170 | Feb. 1967 | Li Zuopeng's interview, the Capital Work Group's office closed | 1967.
+- I, 163 | Nov. 7, 1964 | Malinovsky to He Long; I, 163 | Dec. 1965 | Mao asks Xu Shiyou about a coup (Xiao Hua's speech) | 1964 and 1965.
+- I, 167–168 | 1968, 1973, 1974, 1978 | Li Zhonggong's letters, Mao on He Long | outside this run's year.
+- I, 187 | May 16 | the *Renmin ribao* reprints the *Hongqi* article on Deng Tuo | dated, not R18: an entry owed (the day is the Notice's; no source of the *Hongqi* piece's own is read).
+- I, 188 | May–Aug. | the list of the dead (Lao She, Fu Lei and others) | not an act of an organ; the author's list.
+- I, 190–196 | June 2–July 29 | Tsinghua's posters, the 513-man team of June 9, Jiang Nanxiang's suspension June 15 (Tao Zhu), the struggle against Kuai Dafu June 27 | Yang's own and the students' acts and the university's organs: not reached in full (a lead for run 2, with I, 198–211: the provinces' work groups, June 6–July 9).
+- I, 228–236; 245–286; 288–294; 307–330; 345–351 | Aug.–Dec. | the Sixteen Articles of Aug. 8 and the Decision (I, 228–231); the Tsinghua Middle School Red Guards' first posters (May 29–July 27, I, 232–237); the "red terror" of August; the "Xijiu" and "Liandong"; the provinces' resistance to the Oct. conference; the mass organizations; the Shanghai "Aug. 25" and later | not reached.
+- I, 301–302 | Oct. 24 | Jiang Weiqing's speech and Zhang Chunqiao's rebuke, Zhao Wucheng and Kang Sheng in the Tianjin group | dated to the 24th by neighbors only; not entered.
+- I, 153 | Oct. 1965–July 1966 | Mao's absence from Peking | the author's sum, not an act.
+
+## Doubts and leads
+1. **Liu's talk on coups**: the text has May 27 (I, 169) against June 27 in n.35 and n.55 (a `check` on the June 27 entry).
+2. **Jiang Qing's return**: July 16 in the text (two days before Mao), July 20 in n.43 (Yan Changgui); the Group's office, its first director (Wang Li, or Mu Xin by Yu Ruxin).
+3. **The May meeting's Lu Dingyi session**: May 14 in the calendar, "the first plenary session" May 20 afternoon in Yang (a variant on May 14's unit A); the mug and the fist (n.47, 48) and the Standing Committee's barring of Lu have only "the meeting against Lu."
+4. **Forum of Feb. 2–20** printed "2月2日到30日" (I, 128): a `check`.
+5. **Mao's dazibao**: the title and the clock "3 a.m. Aug. 7" are the brush copy's (a variant on the Aug. 5 entry); entries made for the copy and for Zhou's reading of it twice to the army delegates.
+6. **Lin Biao's recall**: Aug. 8, 10:30 a.m. by Wu Faxian against the Mao chronology's evening at the Great Hall (VI, 609 n.18).
+7. **Dec. 4**: Zhou's praise of the seizure (Yang, from Ye Xiangzhen) against the entry's "rebukes"; his words of Jan. 24, 1970 (n.57b) call it a kidnapping.
+8. Leads: (a) the "influential person's" three instructions on Lu Dingyi, July 1966 among them, I, 151–152 (the speaker unnamed); (b) Qiu Huizuo's Dec. 1966 account of the Group's papers on He Long, which Yang's n.22 says belongs after spring 1968; (c) n.31c at I, 344, a witness whose page was lost; (d) the first open printing of the *dashiji* annex.
+9. The chapter's "Capital Work Group" figures (three, then four divisions, the 38th Army ten months on) are Zhang Min's (n.32–35) and entered only as the Mao chronology's entries cite them.
+10. **Shared scratch**: at the start of the run this reader's `gen.py`, `common.py` and `h.py` were written into the shared scratchpad's `gen/` directory, where `gen.py` and `common.py` of earlier readers (Nov. 4 and Nov. 18) stood; their contents are overwritten. The files were moved to `scratchpad/tiandi-gen/` and the strays in `gen/` deleted (`gen/ids.json` restored to its earlier keys). Nothing in the tree was affected.
+
+## Persons with no name entry (in `c`, not tagged)
+An Ziwen, Bao Pao, Cai Hongjiang, Cao Diqiu, Cao Yiou, Chen Changjiang, Chen Yading, Deng Tuo, Fan Ruoyu, Fu Chongbi, Gong Yuzhi, Gu Mu, Guan Feng, Guo Peng, Guo Yingqiu, He Pengfei, Hu Sheng, Jian Bozan, Jiang Weiqing, Kuai Dafu, Lei Rong, Lei Yingfu, Li Xuefeng, Liao Mosha, Liu Caitang, Liu Quan, Liu Ren, Liu Tao, Liu Wenzhen, Liu Zhijian, Mu Xin, Nie Yuanzi, Pan Guoping, Qi Benyu, Shen Taiping, Song Binbin, Song Renqiong, Sun Yue, Tan Qilong, Tian Han, Tian Jiaying, Wan Li, Wang Dongxing, Wang Enmao, Wang Hongwen, Wang Li, Wang Renzhong, Wang Shangrong, Wang Xiaoping, Wei Wenbo, Wu Han, Wu Lengxi, Xi Henghan, Xia Yan, Xiao Hua, Xie Tangzhong, Xu Liqun, Xu Yefu, Yan Weibing, Yang Chengwu, Yang Yongzhi, Yang Zhilin, Yao Zhen, Ye Lin, Ye Xiangzhen, Yin Da, Yu Qiuli, Zhang Chengxian, Zhang Daier, Zhang Dazhi, Zhang Dingcheng, Zhang Min, Zhang Pinghua, Zhao Wucheng, Zhao Yimin, Zheng Jiqiao, Zheng Tianxiang, Zhou Yang, Zuo Qi (tested against the calendar's `name:` tags and the Part III keys; some may have FRUS-list entries under another spelling).
+
+## Where run 2 starts
+Vol. 上: ch. 5 pp. 190–211 (Tsinghua's and the provinces' work groups, June); ch. 6 pp. 228–236 (the Sixteen Articles, the Aug. 8 Decision, the Tsinghua Middle School Red Guards, May–July); ch. 7 pp. 245–286 (the "red August": Aug. 20 and after, the blood-line couplet, the "Xijiu" and "Liandong"); ch. 8 pp. 288–294; ch. 9 (308–330) and ch. 10 pp. 345–351 for Nov.–Dec. 1966; ch. 1 pp. 40–105 and ch. 2 pp. 106–119 for 1965 and earlier; then vol. 下 (not fetched): the chronology 文革大事記 from p. 1142 for 1966.
