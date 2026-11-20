@@ -1831,13 +1831,14 @@ entries:
     thread: vietnam
     also: [vietnam-paris]
     c: 'Paris, in private: Harriman and Vance with Xuân Thủy and Hà Văn Lâu. The message delivered: the "serious talks" the day after a halt must include Saigon and the NLF. Thủy: a "new condition," which the Politburo will likely reject; an "outside chance" it will accept.'
-    n: '[FRUS 1964–68, VII, doc. 76](https://history.state.gov/historicaldocuments/frus1964-68v07/d76) (Rostow to Johnson, 9:30 a.m.: "this morning''s meeting"). [[w.nguyen-hanois-war]], 126 (the meeting, Hanoi''s side). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Xuân Thủy, Hà Văn Lâu. Check: Nguyen, 126, dates the meeting Oct. 15.'
+    n: '[FRUS 1964–68, VII, doc. 76](https://history.state.gov/historicaldocuments/frus1964-68v07/d76) (Rostow to Johnson, 9:30 a.m.: "this morning''s meeting"). [[w.nguyen-hanois-war]], 126 (the meeting, Hanoi''s side); [[w.lich-su-khang-chien-chong-my]], V, 337 (the private meeting; Harriman reads Washington''s instruction). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Xuân Thủy, Hà Văn Lâu. Check: Nguyen, 126, dates the meeting Oct. 15.'
     src:
       c: 3d691b81
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d76: all'
         - 'w.nguyen-hanois-war 126: A'
         - 'via w.nguyen-hanois-war 126 n.61: all'
+        - 'w.lich-su-khang-chien-chong-my V, 337: A-B'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:xuan-thuy, name:ha-van-lau]
     time_range:
       - 1968-10-16T08:00Z
@@ -1845,6 +1846,11 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Paris
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'the meeting held Oct. 15: Harriman reads Washington''s instruction, the bombing and all force against the whole DRV to stop if the DRV will begin "serious talks" the day after, Saigon''s representatives on the American side; Xuân Thủy: if the Americans stop unconditionally the DRV will speak to them'
+        at: V, 337
   - id: cal.1968-10-16.economy
     when: Oct. 16
     date: '1968-10-16'
@@ -2304,13 +2310,14 @@ entries:
     place: paris
     thread: vietnam-paris
     c: 'Paris, four hours: Harriman and Vance with Xuân Thủy and Hà Văn Lâu. Thủy proposes a joint communiqué: the bombing stopped without conditions, a "four power conference," to meet "as soon as possible." The four powers and the open date refused; Thủy leaves the impression the NLF could be in Paris a week after the halt. No agreement.'
-    n: '[FRUS 1964–68, VII, doc. 95](https://history.state.gov/historicaldocuments/frus1964-68v07/d95) (Read''s situation report, Vance by secure telephone). [[w.nguyen-hanois-war]], 128 (the meeting). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Xuân Thủy, Hà Văn Lâu.'
+    n: '[FRUS 1964–68, VII, doc. 95](https://history.state.gov/historicaldocuments/frus1964-68v07/d95) (Read''s situation report, Vance by secure telephone). [[w.nguyen-hanois-war]], 128 (the meeting); [[w.lich-su-khang-chien-chong-my]], V, 338 (the DRV''s formal notice of Oct. 21, after consulting the Front: a four-party conference after the unconditional halt). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Xuân Thủy, Hà Văn Lâu.'
     src:
       c: 17509a4e
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d95: all'
         - 'w.nguyen-hanois-war 128: A'
         - 'via w.nguyen-hanois-war 128 n.68: all'
+        - 'w.lich-su-khang-chien-chong-my V, 338: A-B'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:xuan-thuy, name:ha-van-lau]
     time_range:
       - 1968-10-21T08:00Z
@@ -3063,6 +3070,14 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 360–361: A-B'
         - 'via w.jianguo-yilai-mao-zedong XIX, 360 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, vis:only:prc]
+  - id: cal.1968-10-28.vietnam-hanoi
+    when: Oct. 28
+    date: '1968-10-28'
+    thread: vietnam-hanoi
+    also: [vietnam-support]
+    c: 'The Central Military Party Committee and the Defense Ministry form Command 500, Major General Nguyễn Đôn commander and Major General Lê Quang Đạo commissar, to lead and command transport and keep the traffic open in the west of Military Region 4: the rivers and Routes 8, 12 and others.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 281. Made public: 2013. Names: Nguyễn Đôn, Lê Quang Đạo. Check: the place; the history gives none.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place, name:le-quang-dao]
   - id: cal.1968-10-29.elections-1968
     when: Oct. 29
     date: '1968-10-29'
@@ -3150,6 +3165,15 @@ entries:
     c: The White House, Cabinet Room, about 6 p.m. The White House Fellows, Walter Humann, President of their Association, reading, report to Johnson their suggestions of things that ought to be done; Johnson responds. They give Mrs. Johnson a vermeil bamboo bowl inscribed from the Fellows.
     n: '[[w.johnson-white-house-diary]], 729 (Lady Bird Johnson''s account). The suggestions are not given. Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, city:washington]
+  - id: cal.1968-10-29.vietnam-hanoi
+    when: Oct. 29
+    date: '1968-10-29'
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: 'The American ambassador in Saigon reports to Washington that Thiệu will not join the Paris talks: he must ask the National Assembly, does not want the Liberation Front as a side, and wants all procedure settled first.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 339. Names: Nguyễn Văn Thiệu.'
+    tags: [polity:drv, polity:us, polity:rvn, name:nguyen-van-thieu]
   - id: cal.1968-10-30.japan-and-korea
     when: Oct. 30
     date: '1968-10-30'

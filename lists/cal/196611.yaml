@@ -266,6 +266,21 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 383–385: all'
     tags: [polity:prc, name:kang-sheng, name:mao-zedong, polity:albania]
+  - id: cal.1966-11-02.vietnam-hanoi
+    when: Nov. 2
+    date: '1966-11-02'
+    place: tay-ninh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Tây Ninh. The 9th Division opens its attack on the Americans'' Attleboro operation: the night of Nov. 2 it hits the posts of the Bà Tươi stream, in the east of the province, destroying a security company, a commando platoon and a pacification platoon.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 243. See [[cal.1966-09-14.vietnam-operations]]. Check: the units.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-11-02T14:00Z
+      - 1966-11-02T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-11-03.cities-and-housing
     when: Nov. 3
     date: '1966-11-03'
@@ -351,12 +366,13 @@ entries:
     date: '1966-11-03'
     thread: vietnam-operations
     c: 'Attleboro. North from the cache sites near Dầu Tiếng toward the Ba Hao stream, the 196th Brigade''s battalions run into the Viet Cong 9th Division, whose own offensive was to open that day: the operation grows into a battle of the 25th and 1st Divisions, eighteen American and three South Vietnamese battalions, some 22,000 troops in all. The 1st Division''s heaviest fighting Nov. 8.'
-    n: '[[w.macgarrigle-united-states-army-in]], 37–56; [[w.cosmas-joint-chiefs-of-staff-2012]], 451 (the 9th Division met; 21 battalions). See [[cal.1966-09-14.vietnam-operations]].'
+    n: '[[w.macgarrigle-united-states-army-in]], 37–56; [[w.cosmas-joint-chiefs-of-staff-2012]], 451 (the 9th Division met; 21 battalions); [[w.lich-su-khang-chien-chong-my]], IV, 243–48 (Attleboro from the 9th Division''s side; see [[cal.1966-11-02.vietnam-hanoi]]). See [[cal.1966-09-14.vietnam-operations]].'
     src:
       c: 9e55bcb0
       rows:
         - 'w.macgarrigle-united-states-army-in 37–56: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 451: A-B'
+        - 'w.lich-su-khang-chien-chong-my IV, 243–48: A'
     tags: [place:tay-ninh]
   - id: cal.1966-11-03.vietnam-congress
     when: Nov. 3
@@ -3340,6 +3356,14 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 151: all'
         - 'via w.macfarquhar-maos-last-revolution 151 n.64: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-11-15.vietnam-diplomacy
+    when: Nov. 15
+    date: '1966-11-15'
+    thread: vietnam-diplomacy
+    also: [vietnam-hanoi]
+    c: The International War Crimes Tribunal, on the idea of the British scholar Bertrand Russell, is set up to try the American war crimes in Vietnam.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 447. Check: the place; the history prints the formal first session as May 2–13, 1966 at Stockholm, which cannot precede its founding on Nov. 15, 1966 as printed.'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1966-11-16.opinion
     when: Nov. 16
     date: '1966-11-16'
@@ -4181,7 +4205,12 @@ entries:
     date: '1966-11-25'
     thread: vietnam-operations
     c: 'Attleboro ends, its last unit back at Tây Ninh. The accepted count: 1,016 of the enemy dead. B-52s: 225 sorties, 4,000 tons; Air Force fighters and bombers over 1,600 sorties.'
-    n: '[[w.macgarrigle-united-states-army-in]], 54–57. See [[cal.1966-09-14.vietnam-operations]]. Check: Rogers has it ending Nov. 24 (p. 11).'
+    n: '[[w.macgarrigle-united-states-army-in]], 54–57; [[w.lich-su-khang-chien-chong-my]], IV, 248 (Westmoreland orders the operation ended). Check: the history has Westmoreland order Attleboro ended Nov. 24, 1966 (IV, 248). See [[cal.1966-09-14.vietnam-operations]]. Check: Rogers has it ending Nov. 24 (p. 11).'
+    src:
+      c: f71a9a95
+      rows:
+        - 'w.macgarrigle-united-states-army-in 54–57: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 248: A'
     tags: [place:tay-ninh]
   - id: cal.1966-11-25.transportation
     when: Nov. 25

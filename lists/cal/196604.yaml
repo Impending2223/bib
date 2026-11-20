@@ -117,6 +117,15 @@ entries:
       - 1966-04-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-04-01.vietnam-hanoi
+    when: Apr. 1
+    date: '1966-04-01'
+    place: binh-gia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Rừng Lá, north of Bình Giã. Regiment 3 attacks the American 173d Airborne Brigade and badly hurts a battalion.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 95.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-04-02.vietnam
     when: Apr. 2
     date: '1966-04-02'
@@ -1830,7 +1839,7 @@ entries:
     place: mu-gia-pass
     thread: vietnam-air-war
     c: 'B-52s bomb North Vietnam for the first time: Route 15 on the North Vietnamese side of the Mụ Giạ Pass, the road into Laos. Thirty take off from Andersen, Guam; one turns back; twenty-nine bomb.'
-    n: '[FRUS 1964–68, IV, doc. 121](https://history.state.gov/historicaldocuments/frus1964-68v04/d121). [[w.staaveren-gradual-failure]], 260; [[w.frankum-like-rolling-thunder]], 47 (the first B-52s over the North, the Mụ Giạ Pass; thirty); [[w.staaveren-u-s-air-force]], 136; [[w.cosmas-joint-chiefs-of-staff-2012]], 478 (authorized Apr. 8, flown three days later); [[w.zaroulis-who-spoke-up]], 81 (B-52s used for the first time against North Vietnam; undated there). Check: Cosmas has the strike three days after the authorization of Apr. 8 (478). To check: [[w.clodfelter-limits-of-air-power]]; [[w.thompson-to-hanoi-and-back]]; Hist, SAC, Jan-Jun 66, Vol I, p 126 (cited by [[w.staaveren-gradual-failure]], 260 n.38). See [[cal.1966-03-01.vietnam]]. Check: Frankum gives Apr. 11, and 585 tons of bombs.'
+    n: '[FRUS 1964–68, IV, doc. 121](https://history.state.gov/historicaldocuments/frus1964-68v04/d121). [[w.staaveren-gradual-failure]], 260; [[w.frankum-like-rolling-thunder]], 47 (the first B-52s over the North, the Mụ Giạ Pass; thirty); [[w.staaveren-u-s-air-force]], 136; [[w.cosmas-joint-chiefs-of-staff-2012]], 478 (authorized Apr. 8, flown three days later); [[w.zaroulis-who-spoke-up]], 81 (B-52s used for the first time against North Vietnam; undated there); [[w.lich-su-khang-chien-chong-my]], IV, 389 (B-52 raids on the Mụ Giạ pass and Route 12, Apr. 14 and 27 by the history). Check: Cosmas has the strike three days after the authorization of Apr. 8 (478). To check: [[w.clodfelter-limits-of-air-power]]; [[w.thompson-to-hanoi-and-back]]; Hist, SAC, Jan-Jun 66, Vol I, p 126 (cited by [[w.staaveren-gradual-failure]], 260 n.38). See [[cal.1966-03-01.vietnam]]. Check: Frankum gives Apr. 11, and 585 tons of bombs.'
     src:
       c: 943edb04
       rows:
@@ -1841,12 +1850,17 @@ entries:
         - 'via w.staaveren-gradual-failure 260 n.38: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 478: A'
         - 'w.zaroulis-who-spoke-up 81: ?'
+        - 'w.lich-su-khang-chien-chong-my IV, 389: A'
     tags: [place:mu-gia-pass]
     variants:
       - unit: A
         witness: w.frankum-like-rolling-thunder
         reads: the first B-52 sorties over North Vietnam "On April 11, 1966"
         at: '47'
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the B-52s on the Mụ Giạ pass and Route 12, west Quảng Bình, on Apr. 14 and 27
+        at: IV, 389
   - id: cal.1966-04-12.legislatures-ne
     when: Apr. 12
     date: '1966-04-12'
@@ -5247,3 +5261,22 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 127: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 127 n.49: all'
     tags: [polity:prc, vis:only:prc, name:qiu-huizuo, name:mao-zedong]
+  - id: cal.1966-04.vietnam-hanoi-2
+    when: Apr.
+    date: 1966-04
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam, vietnam-operations]
+    c: 'The Politburo and the Central Military Party Committee meet on the dry season''s results and decide to split Trị–Thiên from Region 5: a Trị–Thiên Regional Committee over Quảng Trị, Thừa Thiên and Huế, under the Central Committee and Politburo, the Military Committee directing it; Trị–Thiên Military Region under it, Major General Trần Văn Quang, alternate member of the Central Committee, secretary and commander. Its task: destroy most of the Saigon army, some of the Americans, prepare the cities for a general offensive and uprising, cut the enemy''s roads, build ours, and be ready for an American spread of the war onto Laos.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 185–88. Made public: 2013. Names: Trần Văn Quang. Check: the day.'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1966-04.vietnam-hanoi-3
+    when: Apr., late
+    date: 1966-04
+    at: before 1966-04-21
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam, vietnam-operations]
+    c: The Politburo and the Central Military Party Committee direct the battlefields to use part of the main and regional forces to beat the enemy's sweeps and pacification and hold the bases and the posture.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 154. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv]

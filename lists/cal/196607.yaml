@@ -2158,7 +2158,7 @@ entries:
     place: quang-tri
     thread: vietnam-operations
     c: 'Hastings, below the demilitarized zone, against the 324B North Vietnamese Division, come south into Quảng Trị: Task Force Delta''s two battalions landed by helicopter in the Ngan Valley; two CH-46s collide in the landing zone and a third hits a tree; another shot down that evening. With the South Vietnamese Lam Son-289.'
-    n: Remarks Upon Presenting the Medal of Honor to Maj. Robert J. Modrzejewski and 2d Lt. John J. McGinty III, USMC, [1968–69 Pub. Papers 376](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=454) (Mar. 12, 1968). [[w.shulimson-u-s-marines-in-1982]], 159–176; [[w.cosmas-joint-chiefs-of-staff-2012]], 449 (the operation). Cosmas, 449, dates Hastings June 15; the Medal of Honor citation, Company K landed "On 15 July, during Operation HASTINGS."
+    n: 'Remarks Upon Presenting the Medal of Honor to Maj. Robert J. Modrzejewski and 2d Lt. John J. McGinty III, USMC, [1968–69 Pub. Papers 376](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=454) (Mar. 12, 1968). [[w.shulimson-u-s-marines-in-1982]], 159–176; [[w.cosmas-joint-chiefs-of-staff-2012]], 449 (the operation); [[w.lich-su-khang-chien-chong-my]], IV, 206–09 (Hastings from the 324th Division''s side: Jul. 15 landings, Jul. 16 hill 402, Jul. 17 Cù Đinh, Jul. 26 the Americans'' withdrawal). Cosmas, 449, dates Hastings June 15; the Medal of Honor citation, Company K landed "On 15 July, during Operation HASTINGS."'
     src:
       c: c52c3ed8
       rows:
@@ -2166,6 +2166,7 @@ entries:
         - 'w.shulimson-u-s-marines-in-1982 159–176: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 449: A'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 449 n.21: A'
+        - 'w.lich-su-khang-chien-chong-my IV, 206–09: A'
     tags: [place:operation-hastings, place:dmz]
     short: Hastings
   - id: cal.1966-07-15.vietnam-support
@@ -2422,6 +2423,21 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 175–176: all'
     tags: [polity:prc, vis:only:prc, name:jiang-qing, name:mao-zedong, name:zhou-enlai, name:tao-zhu, ok:fields-time]
+  - id: cal.1966-07-16.vietnam-hanoi
+    when: July 16
+    date: '1966-07-16'
+    place: dmz
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Hill 402, Route 9. After a night of bombing, B-52s included, a Marine battalion lands by helicopter on the hill at dawn; Company 6, Battalion 6, Regiment 2, 324th Division, holds it through repeated attacks, with nearly ten men lost, and puts nearly 100 Americans out of action; a fire team under Nguyễn Phi Hùng beats off 12 attacks. Company 2, Battalion 5, the "whirlwind company", beats a battalion at Lèn Đất 300. The 1st Marine Division had begun landing in the area Jul. 15; the history counts 18 B-52 sorties in the 24 hours of Jul. 16.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 206–07. The figures are the history''s. See [[cal.1966-07-15.vietnam-operations]]. Check: the hill''s place and the unit of the Marines; the history does not name the battalion.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-07-15T22:00Z
+      - 1966-07-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-07-17.opinion
     when: July 17
     date: '1966-07-17'
@@ -2542,6 +2558,15 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 220: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 220 n.5: all'
     tags: [polity:prc, vis:only:prc, name:deng-xiaoping, name:mao-zedong]
+  - id: cal.1966-07-17.vietnam-hanoi
+    when: July 17
+    date: '1966-07-17'
+    place: dmz
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Cù Đinh and Ba De, Route 9. The Americans land two battalions to hunt the units holding the area; Battalion 9 of Regiment 1 and Battalion 1 of Regiment 3, new from the rear, attack the landing at once through the bombing and drive it off.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 207. See [[cal.1966-07-15.vietnam-operations]]. Check: the units.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-18.states-and-cities
     when: July 18–23
     date: '1966-07-18'

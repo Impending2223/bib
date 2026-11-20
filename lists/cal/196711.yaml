@@ -257,6 +257,21 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 170: all'
     tags: [polity:prc]
+  - id: cal.1967-11-01.vietnam-hanoi
+    when: Nov. 1
+    date: '1967-11-01'
+    place: loc-ninh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Lộc Ninh. That night the rocket regiment 96 and the 9th Division's mortars shell the airfield and the training school; Regiment 165 of the 7th Division and Battalion 3 of Regiment 3 attack the force at Mang Cải. Nov. 2 an American battalion lands by helicopter on hill 124, east of the junction of Routes 13 and 14.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 19. See [[cal.1967-10-29.vietnam-operations]].'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1967-11-01T14:00Z
+      - 1967-11-01T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-11-02.mayors-memphis
     when: Nov. 2
     date: '1967-11-02'
@@ -445,7 +460,7 @@ entries:
     place: dak-to
     thread: vietnam-operations
     c: 'Đắk Tô, in the Central Highlands near the Laotian and Cambodian borders: the 4th Infantry Division and the 173d Airborne Brigade, with South Vietnamese units, against four North Vietnamese regiments.'
-    n: '[[w.cosmas-joint-chiefs-of-staff]], 96–97 (the four regiments; the allied attack); [[w.vietnam-victory-in-vietnam]], 212 (among the attacks preparing the Tet offensive); [[w.macv-command-history-1967]], 378–79 (MacArthur''s first contact, Nov. 3, in northwestern Kontum near Đắk Tô; the fighting 10–15 miles west and southwest, Nov. 4–13, northeast from Nov. 14; to Nov. 30, Americans 289 killed against 1,222 of the enemy, South Vietnamese 73 against 417). [[w.westmoreland-soldier-reports]], 238 (the 4th Division, the 173d and the South Vietnamese battalions, from early November). To check: [[w.murphy-dak-to]]; [[w.spector-after-tet]]. Check: Westmoreland gives a North Vietnamese division controlling five regiments (238).'
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 96–97 (the four regiments; the allied attack); [[w.vietnam-victory-in-vietnam]], 212 (among the attacks preparing the Tet offensive); [[w.macv-command-history-1967]], 378–79 (MacArthur''s first contact, Nov. 3, in northwestern Kontum near Đắk Tô; the fighting 10–15 miles west and southwest, Nov. 4–13, northeast from Nov. 14; to Nov. 30, Americans 289 killed against 1,222 of the enemy, South Vietnamese 73 against 417); [[w.lich-su-khang-chien-chong-my]], V, 22–23 (the Đắk Tô campaign opened Nov. 3, Major General Hoàng Minh Thảo commanding the front, Colonel Trần Thế Môn its commissar; Squad 7, Company 11, Battalion 6 against two American companies on the Ngọc Bờ Biêng saddle). [[w.westmoreland-soldier-reports]], 238 (the 4th Division, the 173d and the South Vietnamese battalions, from early November). To check: [[w.murphy-dak-to]]; [[w.spector-after-tet]]. Check: Westmoreland gives a North Vietnamese division controlling five regiments (238).'
     src:
       c: 1dd9dc76
       rows:
@@ -456,6 +471,7 @@ entries:
         - 'w.westmoreland-soldier-reports 238: all'
         - 'w.macv-command-history-1967 378–79: A'
         - 'via w.macv-command-history-1967 379 n.64: A'
+        - 'w.lich-su-khang-chien-chong-my V, 22–23: all'
     tags: [place:dak-to]
     short: Đắk Tô and Hill 875
   - id: cal.1967-11-03.cities-and-housing
@@ -1000,6 +1016,15 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 76: all'
     tags: [polity:prc]
+  - id: cal.1967-11-06.vietnam-hanoi
+    when: Nov. 6–7
+    date: '1967-11-06'
+    place: dak-to
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Đắk Tô. Regiments 320 and 66 of the 1st Division, drawn by the strongpoints, destroy or badly hurt three American companies around the hill area, shoot down two helicopters and put 300 out of action.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 24. The figures are the history''s. See [[cal.1967-11-03.vietnam]].'
+    tags: [polity:drv, polity:us]
   - id: cal.1967-11-07.press-and-broadcasting
     when: Nov. 7
     date: '1967-11-07'
@@ -2093,6 +2118,15 @@ entries:
     c: Zhou Enlai chairs the enlarged liaison meeting of the Cultural Revolution Group, which adopts papers on the Guangdong and Guangxi questions.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 195 (Nov. 11, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-11-11.vietnam-hanoi
+    when: Nov. 11
+    date: '1967-11-11'
+    place: dak-to
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Đắk Tô. Regiments 320 and 66 attack together by moving attack and destroy four companies of the 173d Airborne Brigade and the 1st Brigade, 4th Division: over 400 out of action.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 24. The figures are the history''s. The history says the units fought on the whole line Nov. 8–27 (V, 25).'
+    tags: [polity:drv, polity:us]
   - id: cal.1967-11-12.opinion
     when: Nov. 12
     date: '1967-11-12'
@@ -3049,13 +3083,22 @@ entries:
     place: hill-875
     thread: vietnam-operations
     c: 'Đắk Tô: Hill 875. The 2d Battalion, 503d Infantry, of the 173d Airborne Brigade, starts up the hill against the North Vietnamese 174th Regiment. That evening a misplaced bomb kills 42 paratroopers and wounds 45.'
-    n: '[[w.villard-united-states-army-in]], 170–174. Check: Westmoreland dates the battalion''s fight for Hill 875 from Nov. 17, five days to secure the hill (238). To check: [[w.eggleston-dak-to-and-the]]. See [[cal.1967-11-03.vietnam]].'
+    n: '[[w.villard-united-states-army-in]], 170–174; [[w.lich-su-khang-chien-chong-my]], V, 25–27 (Hill 875; Regiment 174 destroys the 173d''s 2d Battalion Nov. 19). Check: Westmoreland dates the battalion''s fight for Hill 875 from Nov. 17, five days to secure the hill (238). To check: [[w.eggleston-dak-to-and-the]]. See [[cal.1967-11-03.vietnam]].'
+    src:
+      c: 1e29ff5b
+      rows:
+        - 'w.villard-united-states-army-in 170–174: all'
+        - 'w.lich-su-khang-chien-chong-my V, 25–27: A-B'
     tags: [place:hill-875, place:dak-to]
     variants:
       - unit: B
         witness: w.westmoreland-soldier-reports
         reads: The fiercest ground engagement developed on November 17 southwest of Dak To when a battalion of the 173d Airborne Brigade found a large enemy force entrenched on the slopes and atop a peak known as Hill 875
         at: '238'
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Nov. 17 two battalions of the 173d climb Hill 875, Nov. 18 B-52s in turn; Nov. 19, held at the foot by Company 7, Regiment 174 (Đàm Văn Ngụy commanding), the 2d Battalion destroyed by moving attack joined with strongpoints; Nov. 20 more killed and 12 aircraft shot down; the fighting to Nov. 29, when both sides left the field
+        at: V, 26–28
   - id: cal.1967-11-19.vietnam-2
     when: Nov. 19
     date: '1967-11-19'
@@ -3822,6 +3865,21 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1941: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1967-11-23.vietnam-hanoi
+    when: Nov. 23
+    date: '1967-11-23'
+    place: tan-khai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Tân Khai. That night Regiment 141 attacks and destroys an American company and 18 vehicles; Nov. 24 an American unit and a Saigon ranger company with armor counterattack and Regiment 141 destroys some of them.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 20.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1967-11-23T14:00Z
+      - 1967-11-23T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-11-24.vietnam-order-of-battle
     when: Nov. 24
     date: '1967-11-24'
@@ -4085,6 +4143,21 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 183: all'
     tags: [polity:prc, polity:cambodia, polity:us, polity:rvn]
+  - id: cal.1967-11-26.vietnam-hanoi
+    when: Nov. 26
+    date: '1967-11-26'
+    place: phuoc-long-province
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'The second phase of the Bình Long–Phước Long campaign opens: that night Regiment 88 attacks the Phước Hứa post. The first phase had ended Nov. 8.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 20.'
+    tags: [polity:drv]
+    time_range:
+      - 1967-11-26T14:00Z
+      - 1967-11-26T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-11-27.european-community
     when: Nov. 27
     date: '1967-11-27'
@@ -4545,6 +4618,21 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 199–201: all'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, polity:albania]
+  - id: cal.1967-11-28.vietnam-hanoi
+    when: Nov. 28–29
+    date: '1967-11-28'
+    place: bu-dop
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bù Đốp. The night of Nov. 28 Regiment 2 of the 9th Division attacks the district post. Nov. 29 the Americans land the 1st Battalion, 28th Infantry, two Saigon battalions, a battery and a mechanized company to the southeast and north of it. At 9 p.m., on the 9th Division's order, the ĐKB rocket regiment fires on them and Regiments 1 and 2 attack from north and east.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 20. Check: the clock; the history does not say whose.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1967-11-28T14:00Z
+      - 1967-11-28T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-11-29.defense
     when: Nov. 29
     date: '1967-11-29'
@@ -5275,11 +5363,12 @@ entries:
     place: copenhagen
     thread: war-opposition
     c: 'Copenhagen. The Bertrand Russell Peace Foundation''s second inquiry condemns the United States: defoliants, napalm, phosphorus, fragmentation bombs.'
-    n: '[[w.debenedetti-american-ordeal]], 208. Check: the days.'
+    n: '[[w.debenedetti-american-ordeal]], 208; [[w.lich-su-khang-chien-chong-my]], IV, 447 (the Tribunal''s second session, at Copenhagen; its finding, the American government guilty of aggression against Vietnam). Check: the days. Check: the days; the history gives the second session Nov. 20–Dec. 1, 1967 (IV, 447).'
     src:
       c: 8d829f2c
       rows:
         - 'w.debenedetti-american-ordeal 208: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 447: all'
   - id: cal.1967-11.vietnam-8
     when: Nov., after McCarthy's declaration
     date: 1967-11

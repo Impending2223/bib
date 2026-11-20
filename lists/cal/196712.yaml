@@ -202,6 +202,21 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 184: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1967-12-02.vietnam-hanoi
+    when: Dec. 2
+    date: '1967-12-02'
+    place: tau-o
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Tàu Ô bridge, on the Hớn Quản road. That night Battalion 2 of Regiment 141 attacks the American cluster: a company and 14 vehicles destroyed.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 21. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1967-12-02T14:00Z
+      - 1967-12-02T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-12-03.opinion
     when: Dec. 3
     date: '1967-12-03'
@@ -512,12 +527,18 @@ entries:
     date: '1967-12-05'
     thread: vietnam-operations
     c: The enemy, with 82mm mortar fire, attacks Đắk Sơn village, two kilometers northeast of Sông Bé, Phước Long; 108 civilians killed.
-    n: '[[w.macv-command-history-1967]], 1283. Check: the day, the chronology''s entry among those of Dec. 4. Check: AP, with the Mission''s figures (*New York Times*, Jan. 6, 1968, 3): about 200 civilians killed at "Dakson," by guerrillas with flame throwers and grenades, "in mid-December.".'
+    n: '[[w.macv-command-history-1967]], 1283; [[w.lich-su-khang-chien-chong-my]], V, 21 (Đắk Sơn, Dec. 3 and 6). Check: the day, the chronology''s entry among those of Dec. 4. Check: AP, with the Mission''s figures (*New York Times*, Jan. 6, 1968, 3): about 200 civilians killed at "Dakson," by guerrillas with flame throwers and grenades, "in mid-December.".'
     src:
       c: 4f547536
       rows:
         - 'w.macv-command-history-1967 1283: all'
+        - 'w.lich-su-khang-chien-chong-my V, 21: A'
     tags: [province:phuoc-long]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Dec. 3, a battalion of Regiment 88 attacks the Đắk Sơn strategic hamlet and destroys two security platoons, the attack unfinished and no help to a rising; Dec. 6 the Saigon side counterattacks and Regiment 5 destroys two security companies, 15 taken
+        at: V, 21
   - id: cal.1967-12-05.vietnam-congress
     when: Dec. 5
     date: '1967-12-05'
@@ -1156,6 +1177,14 @@ entries:
     c: 'Zhou Enlai receives delegates of the health system and hears the report of its work conference: medicines are not to be a source of profit; a handling charge and the cost of renewed production are enough.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 201 (Dec. 10, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-12-10.vietnam-hanoi
+    when: Dec. 10
+    date: '1967-12-10'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The campaign command orders the Bình Long–Phước Long campaign ended, to sum up and prepare for the spring–summer of 1968.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 21. Made public: 2013.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
   - id: cal.1967-12-11.draft
     when: Dec. 11
     date: '1967-12-11'
@@ -3436,13 +3465,14 @@ entries:
     date: '1967-12-29'
     thread: vietnam-diplomacy
     c: 'Nguyễn Duy Trinh at a reception for a Mongolian delegation, broadcast by Radio Hanoi Jan. 1: after the United States unconditionally ends the bombing and other acts of war, "the DRV will talk" with it; before, talks "could" follow.'
-    n: 'FRUS 1964–68, V, doc. [451](https://history.state.gov/historicaldocuments/frus1964-68v05/d451). [[w.zhai-china-and-the-vietnam]], 168 (the statement, Dec. 29, at the Mongolian embassy; Hanoi radio''s English broadcast); [[w.westmoreland-soldier-reports]], 312 (word dropped at a diplomatic reception in Hanoi and at diplomatic posts elsewhere: if the bombing stopped, North Vietnam would "hold talks"; the reception dated Dec. 30). Check: Westmoreland dates the reception Dec. 30 (312). To check: [[w.herring-secret-diplomacy-of-the]]. See [[cal.1967-01-28.vietnam]]. Names: Nguyễn Duy Trinh.'
+    n: 'FRUS 1964–68, V, doc. [451](https://history.state.gov/historicaldocuments/frus1964-68v05/d451). [[w.zhai-china-and-the-vietnam]], 168 (the statement, Dec. 29, at the Mongolian embassy; Hanoi radio''s English broadcast); [[w.westmoreland-soldier-reports]], 312 (word dropped at a diplomatic reception in Hanoi and at diplomatic posts elsewhere: if the bombing stopped, North Vietnam would "hold talks"; the reception dated Dec. 30); [[w.lich-su-khang-chien-chong-my]], V, 329 (Nguyễn Duy Trinh''s words at the reception for the Mongolian Foreign Minister, Dec. 29, 1967). Check: Westmoreland dates the reception Dec. 30 (312). To check: [[w.herring-secret-diplomacy-of-the]]. See [[cal.1967-01-28.vietnam]]. Names: Nguyễn Duy Trinh.'
     src:
       c: 0b172570
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d451: all'
         - 'w.zhai-china-and-the-vietnam 168: A'
         - 'w.westmoreland-soldier-reports 312: A'
+        - 'w.lich-su-khang-chien-chong-my V, 329: all'
     tags: [name:nguyen-duy-trinh]
     time_range:
       - 1967-12-29T12:00Z
@@ -4171,3 +4201,29 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 287: all'
         - 'via x.1967-12.zhongfa-1967-391: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-12.vietnam-hanoi
+    when: Dec., early
+    date: 1967-12
+    at: before 1967-12-01
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Politburo meets again, Lê Duẩn presiding, Hồ Chí Minh present, and decides the plan for 1968 and the task of the army and people, on Nguyễn Văn Linh''s report on the general offensive and uprising in Nam Bộ. The war is to enter a new period of offensive and uprising for a decisive victory, by a general offensive and general uprising, three cases foreseen: a great victory and talks on our terms; Saigon and the Americans counterattack from the great bases; or the Americans widen the war to the North, Laos and Cambodia. The plan: a strategic blow at the cities and towns of the whole South with uprising, the main fields Saigon–Gia Định, Đà Nẵng and Huế, with Route 9–Khe Sanh the supporting front to hold the American strategic force. The time: Tết Mậu Thân. The hour of fire left to a few chiefs of the Military Committee and General Staff.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 39–43. Made public: 2013. Names: Lê Duẩn, Hồ Chí Minh. Check: the days; the history says "đầu tháng 12-1967".'
+    tags: [polity:drv, vis:only:drv, name:le-duan, name:ho-chi-minh]
+  - id: cal.1967-12.vietnam-hanoi-2
+    when: Dec.
+    date: 1967-12
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Trị–Thiên–Huế Regional Committee and Military Region Command, Trần Văn Quang presiding, meets on the plan for Huế: the city the key point and the Region''s center; attack and uprising joined.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 70. Made public: 2013. Names: Trần Văn Quang. Check: the day.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1967-12.vietnam-prisoners
+    when: Dec.
+    date: 1967-12
+    thread: vietnam-prisoners
+    also: [vietnam-hanoi, vietnam-diplomacy]
+    c: The DRV Government announces the release of three American prisoners for Christmas to rejoin their families. Some high American officials take it for a sign Hanoi has given up hope of winning the South soon, and of the chance of direct talks, "some kind of Panmunjom stage".
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 329. Check: the day and the names of the three; the history gives neither.'
+    tags: [polity:drv, ok:fields-place]

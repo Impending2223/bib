@@ -113,34 +113,6 @@ ops:
     in: drv
 - add:
     entry:
-      id: cal.1964.vietnam-hanoi-3
-      when: 1964, early
-      date: '1964'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-air-war
-      c: The all-North people's air defense conference meets. It takes up the three-force people's air defense system and the plan to evacuate and disperse the people and the factories from the places the enemy is likely to bomb.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 344. Made public: 2013. Check: the day and the place; the history says only "early 1964".'
-      tags:
-      - polity:drv
-      - vis:only:drv
-      - ok:fields-place
-- add:
-    entry:
-      id: cal.1964-07.vietnam-hanoi
-      when: July
-      date: 1964-07
-      thread: vietnam-hanoi
-      also:
-      - vietnam-air-war
-      c: 'The Navy goes on combat readiness: it steps up patrols of the coastal waters and sets up a forward command in the sea area of Military Region IV.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 344. Made public: 2013. Check: the day.'
-      tags:
-      - polity:drv
-      - vis:only:drv
-      - ok:fields-place
-- add:
-    entry:
       id: cal.1964.vietnam-hanoi
       when: 1964, late
       date: '1964'
@@ -154,20 +126,6 @@ ops:
       - polity:drv
       - vis:only:drv
       place: hanoi
-- add:
-    entry:
-      id: cal.1964.vietnam-hanoi-2
-      when: 1964, late
-      date: '1964'
-      thread: vietnam-hanoi
-      also:
-      - vietnam
-      c: The northern main-force regiments are ordered secretly into the South's battlefields.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 34. Made public: 2013. Check: the day; the regiments are not named.'
-      tags:
-      - polity:drv
-      - vis:only:drv
-      - ok:fields-place
 - add:
     entry:
       id: cal.1965-01.vietnam-hanoi-2
@@ -1963,7 +1921,7 @@ ops:
       - vietnam
       - vietnam-may-offensive
       c: 'The Politburo and the Central Military Party Committee meet and decide a second wave of the general offensive and uprising, from May 4 to the end of June. The enemy, after Tết, is massing at the key points to push the war away from the cities; his force is still scattered. The aim: hit the cities without a stop, tighten the siege, keep up a standing crisis and rouse the people to take power; free most of the countryside and then all of it; keep on destroying the Saigon regime and army and a good part of the American forces; strike bases, depots and roads; raise the military and political force fast; the North to build defense, raise output, beat any new escalation, keep traffic open and support the South. Plan: Khe Sanh besieged; Route 9, Trị–Thiên and the Western Highlands held and the enemy destroyed there; Saigon–Gia Định the main point; Huế and Đà Nẵng the important ones.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 173–76. The figures are the history''s. Made public: 2013. The place is the Politburo''s seat; the history does not give it.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 173–76. Made public: 2013. The place is the Politburo''s seat; the history does not give it.'
       tags:
       - polity:drv
       - vis:only:drv
@@ -2322,7 +2280,7 @@ ops:
       also:
       - vietnam-air-war
       c: Off Sầm Sơn, Thanh Hóa. A Saigon commando ship enters the waters; Phan Như Cẩn of the 919th Air Group, with his crew, flies an AN-2 and bombs it sunk. Returning, the plane has a fault and he lands it on the beach, crew and plane safe. The history calls it the Air Force's first victorious air–sea action.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 396. The figures are the history''s. Check: the hour; the history says only "đêm 8-1-1966".'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 396. Check: the hour; the history says only "đêm 8-1-1966".'
       tags:
       - polity:drv
       place: thanh-hoa
@@ -2771,11 +2729,12 @@ ops:
       also:
       - vietnam-support
       c: 'The Central Military Party Committee and the Defense Ministry form Command 500, Major General Nguyễn Đôn commander and Major General Lê Quang Đạo commissar, to lead and command transport and keep the traffic open in the west of Military Region 4: the rivers and Routes 8, 12 and others.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 281. Made public: 2013. Check: the place; the history gives none.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 281. Made public: 2013. Names: Nguyễn Đôn, Lê Quang Đạo. Check: the place; the history gives none.'
       tags:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
+      - name:le-quang-dao
 - add:
     entry:
       id: cal.1965-03-01.vietnam-diplomacy
@@ -3120,7 +3079,7 @@ ops:
 - cite:
     id: cal.1965-03-28.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 35, 345 (the Eleventh Plenum and its slogan, "build and defend the North, liberate the South")'
-    units: all
+    units: A
 - cite:
     id: cal.1965-04-08.vietnam-hanoi-3
     item: '[[w.lich-su-khang-chien-chong-my]], V, 322–23 (the four points; Hồ Chí Minh at the Assembly, Apr. 10)'
@@ -3128,15 +3087,15 @@ ops:
 - cite:
     id: cal.1965-05-07.vietnam-hanoi-2
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 422 (the decision of the Secretariat and the Government Council''s standing committee, May 7, 1965, on transport in Zone 4)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-07-07.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 41, 346 (the Politburo''s resolution of July 7; the history dates it "early July")'
-    units: all
+    units: A-B
 - cite:
     id: cal.1965-07-20.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 41 (Hồ Chí Minh''s appeal, Toàn tập XIV, 577)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-07-28.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 364 (instruction no. 104-CT/TW)'
@@ -3144,22 +3103,22 @@ ops:
 - cite:
     id: cal.1965-08-25.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 356 (the Secretariat''s August directive on the cooperatives'' campaign in the mountains)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1965-12-27.vietnam-2
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 66–67 (the Twelfth Plenum, opened Dec. 27, 1965, Hồ Chí Minh presiding)'
-    units: all
+    units: A
 - check:
     id: cal.1965-12-27.vietnam-2
     text: 'Check: the history says the plenum opened Dec. 27, 1965 (IV, 66); the volume of Party documents gives Dec. 21–27.'
 - cite:
     id: cal.1965-03-26.vietnam-air-war
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 384 (Bạch Long Vĩ, 70 sorties from two carriers, "four of six aircraft" lost at the target, as the American admiral''s article quoted)'
-    units: all
+    units: C
 - cite:
     id: cal.1965-04-03.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 386 (Hàm Rồng, Đò Lèn, Phà Ghép and Hoàng Mai bridges, Apr. 3–4: the history calls it a heavy American defeat)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-05-16.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 45 (the day and the aircraft lost; the history calls it a raid)'
@@ -3171,81 +3130,81 @@ ops:
 - cite:
     id: cal.1965-08-18.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 48–52 (Vạn Tường, Aug. 18, Regiment 1 of Region 5 and Company 21 of Quảng Ngãi)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1965-08-18.vietnam
-    unit: A
+    unit: D
     witness: w.lich-su-khang-chien-chong-my
     reads: the Americans' losses, about 900 out of action, 22 tanks and armored vehicles and 13 aircraft, in a day-long battle ending at dusk Aug. 18; the force withdrew that night
     at: IV, 51
 - cite:
     id: cal.1965-09-20.vietnam-air-war
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 388 (a MiG-17 flight of the 921st Regiment, Phạm Ngọc Lan leading, downs an F-4 over the Sông Hoá bridge on the Hanoi–Lạng Sơn rail)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-10-19.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 53–54 (the campaign opened Oct. 19; Battalion 1, Regiment 33 attacks Tân Lạc, Đức Cơ and Chư Ho as a screen)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-10-23.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 54–55 (Regiment 320''s ambush on Route 21 bis, Oct. 23: the ARVN task force destroyed, 89 vehicles destroyed or damaged)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1965-11-01.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 56 (Regiment 33 meets the Americans landing at Mùi village and Ia Mơ, Oct. 31; they withdraw to Pleiku Nov. 9)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-11-08.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 61 (the 173d at Đất Cuốc, Nov. 8)'
-    units: all
+    units: A
 - cite:
     id: cal.1965-11-14.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 57–58 (Ia Đrăng: Battalion 9, Regiment 66 meets the landing Nov. 14; Nov. 15 Nguyễn Hữu An''s order; Nov. 16, 4:30 a.m., the positions taken)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1965-11-14.vietnam
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: Nov. 16, Battalions 7 and 9 of Regiment 66 destroy and badly hurt Companies C and D of the 2d Battalion, 7th Cavalry, over 200 out of action (over 80 Americans dead), nine helicopters down; the Americans' 100 B-52 sorties, the first strategic bombers in close support
     at: IV, 58
 - cite:
     id: cal.1965-11-17.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 59 (Battalion 8, Regiment 66, with Battalion 1, Regiment 33, destroys the 2d Battalion, 7th Cavalry; Battalion commander Lê Xuân Phôi killed at 4 p.m.)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1965-11-17.vietnam-operations
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: the 2d Battalion, 7th Cavalry destroyed completely on the afternoon of Nov. 17, in fighting northeast of Chư Pông
     at: IV, 59
 - cite:
     id: cal.1966-01-08.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 86–88 (Củ Chi, Jan. 8–19: the history''s account of the 12-day sweep)'
-    units: all
+    units: A
 - cite:
     id: cal.1966-01-24.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 105–11 (the fighting in north Bình Định, Jan. 28–Mar. 6, under Kinnard; see [[cal.1966-01-28.vietnam-hanoi]])'
-    units: all
+    units: A, D
 - cite:
     id: cal.1968-01.vietnam-tet
     item: '[[w.lich-su-khang-chien-chong-my]], V, 43–44 (the Fourteenth Plenum met in January 1968 at Kim Bôi, Hòa Bình, and made the Politburo''s resolution of December 1967 its own)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-10-29.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 17–19 (the Bình Long–Phước Long campaign, Oct. 27–Dec. 10; Regiment 3 of the 9th Division attacks Lộc Ninh the night of Oct. 28)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-10-27.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 18 (the campaign opens at 1 a.m. with an attack on the Phước Quả post by a battalion of Regiment 88)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-11-19.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 25–27 (Hill 875; Regiment 174 destroys the 173d''s 2d Battalion Nov. 19)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-12-05.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 21 (Đắk Sơn, Dec. 3 and 6)'
-    units: all
+    units: A
 - cite:
     id: cal.1967-03-20.vietnam-operations-2
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 404–06 (Regiment 164''s guns on Dốc Miếu and hill 241, Mar. 20)'
@@ -3263,31 +3222,31 @@ ops:
 - cite:
     id: cal.1968-01-31.vietnam-tet
     item: '[[w.lich-su-khang-chien-chong-my]], V, 83–94 (Saigon–Gia Định, Jan. 31: the plan of nine targets, the first day''s fights)'
-    units: all
+    units: A-C
 - cite:
     id: cal.1968-01-14.laos
     item: '[[w.lich-su-khang-chien-chong-my]], V, 78–79 (the Nậm Bạc campaign, from Jan. 12)'
-    units: all
+    units: A
 - cite:
     id: cal.1968-01-21.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 79 (the Route 9–Khe Sanh campaign, which the history opens Jan. 20)'
-    units: all
+    units: A, C
 - cite:
     id: cal.1968-04-03.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 331 (the Government''s statement of Apr. 3: ready to send a representative to meet the Americans to determine the unconditional halt of the bombing and all other acts of war)'
-    units: all
+    units: A
 - cite:
     id: cal.1968-05-05.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 185 (the second wave opened at 12:30 a.m. May 5; 89 places in the first week)'
-    units: all
+    units: A
 - cite:
     id: cal.1968-05-13.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 333–34 (the first formal session, May 13, at the Hall of International Conferences on Avenue Kléber; Xuân Thủy leads, Hà Văn Lâu deputy; the delegation arrived May 9; experts met May 10–11)'
-    units: all
+    units: A, C-D
 - cite:
     id: cal.1968-06-03.vietnam-paris
     item: '[[w.lich-su-khang-chien-chong-my]], V, 333 (Lê Đức Thọ''s arrival, which the history puts in mid-June 1968)'
-    units: all
+    units: A
 - variant:
     id: cal.1968-06-03.vietnam-paris
     unit: A
@@ -3297,54 +3256,54 @@ ops:
 - cite:
     id: cal.1968-06-27.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 223 (Abrams'' order to give up Khe Sanh, dated Jun. 26 by the history)'
-    units: all
+    units: A
 - cite:
     id: cal.1968-08-18.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 229 (the third wave, ordered for Aug. 17 to Sept. 28)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1968-10-21.vietnam-paris
     item: '[[w.lich-su-khang-chien-chong-my]], V, 338 (the DRV''s formal notice of Oct. 21, after consulting the Front: a four-party conference after the unconditional halt)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1966-07-15.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 206–09 (Hastings from the 324th Division''s side: Jul. 15 landings, Jul. 16 hill 402, Jul. 17 Cù Đinh, Jul. 26 the Americans'' withdrawal)'
-    units: all
+    units: A
 - cite:
     id: cal.1966-11-03.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 243–48 (Attleboro from the 9th Division''s side; see [[cal.1966-11-02.vietnam-hanoi]])'
-    units: all
+    units: A
 - cite:
     id: cal.1967-01-08.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 254–57 (Cedar Falls, the history''s account; see [[cal.1967-01-08.vietnam-hanoi]])'
-    units: all
+    units: A
 - cite:
     id: cal.1967-02-22.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 265–66 (Junction City opened Feb. 22 with the 173d''s jump at Cà Tum at 6 a.m.)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-03-21.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 274 (Đồng Rùm, Mar. 20–21: Regiments 2 and 16 of the 9th Division)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-05-14.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 276 (Westmoreland''s declaration ending the operation, May 15 by the history)'
-    units: all
+    units: A
 - check:
     id: cal.1967-05-14.vietnam-operations
     text: 'Check: the history has Westmoreland declare Junction City ended May 15, 1967 (IV, 276).'
 - cite:
     id: cal.1966-04-12.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 389 (B-52 raids on the Mụ Giạ pass and Route 12, Apr. 14 and 27 by the history)'
-    units: all
+    units: A
 - cite:
     id: cal.1966-06-29.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 206, 397–98 (the Đức Giang and Thượng Lý depots, Jun. 29)'
-    units: all
+    units: A
 - cite:
     id: cal.1968-08-18.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 233–35 (the Tây Ninh–Bình Long campaign opened Aug. 17; the Trà Phí raid that night; first phase to Aug. 31)'
-    units: all
+    units: A-B
 - cite:
     id: cal.1967-12-29.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 329 (Nguyễn Duy Trinh''s words at the reception for the Mongolian Foreign Minister, Dec. 29, 1967)'
@@ -3362,10 +3321,10 @@ ops:
 - cite:
     id: cal.1967-03-14.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 49–50 (Ship 43 of Group 125, Mar. 8–13: met American warships about 30 nautical miles off Sa Kỳ, reached the pier at 5 a.m., the crew went ashore and the ship was destroyed; see [[cal.1967-03-08.vietnam-hanoi]])'
-    units: all
+    units: A-B
 - variant:
     id: cal.1967-03-14.vietnam-operations
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: the ship, No. 43, left Haiphong Mar. 8, after five days met American warships about 30 nautical miles off Sa Kỳ, Quảng Ngãi, wounded two, and reached the pier at 5 a.m. to hide its cargo; the crew went ashore and the ship was destroyed
     at: V, 49
@@ -3387,14 +3346,14 @@ ops:
     at: IV, 45
 - variant:
     id: cal.1965-11-08.vietnam-operations
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: 'Đất Cuốc, 30 kilometers north of Biên Hòa: Regiment 1 of the 9th Division, with Artillery Group 69, ambushes the 173d Airborne Brigade, 300 out of action'
     at: IV, 61
 - cite:
     id: cal.1965-12-08.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 63 (Liên Kết 18, opened to relieve the Việt An post; the Marines landed Dec. 9 and 10)'
-    units: all
+    units: A, D
 - variant:
     id: cal.1965-12-08.vietnam-operations
     unit: A
@@ -3413,7 +3372,7 @@ ops:
     units: all
 - variant:
     id: cal.1967-11-19.vietnam-operations
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: Nov. 17 two battalions of the 173d climb Hill 875, Nov. 18 B-52s in turn; Nov. 19, held at the foot by Company 7, Regiment 174 (Đàm Văn Ngụy commanding), the 2d Battalion destroyed by moving attack joined with strongpoints; Nov. 20 more killed and 12 aircraft shot down; the fighting to Nov. 29, when both sides left the field
     at: V, 26–28
@@ -3438,17 +3397,17 @@ ops:
 - cite:
     id: cal.1968-09-07.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 336 (Lê Đức Thọ and Xuân Thủy meet the American chief and deputy, the first of the private meetings of the two delegations'' heads)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1968-09-07.vietnam
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: the meeting held Sept. 8, 1968
     at: V, 336
 - cite:
     id: cal.1968-10-16.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 337 (the private meeting; Harriman reads Washington''s instruction)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1968-10-16.vietnam
     unit: A
@@ -3488,11 +3447,11 @@ ops:
 - cite:
     id: cal.1969-01-25.vietnam-paris
     item: '[[w.lich-su-khang-chien-chong-my]], V, 342 (the first formal session of the four sides, opened at 10:25 a.m., the day printed "25-11-1969")'
-    units: all
+    units: A-B
 - cite:
     id: cal.1968-01-31.vietnam-tet-7
     item: '[[w.lich-su-khang-chien-chong-my]], V, 94 (the 5th Division''s attack on the Long Bình depot, the night of Jan. 30–31)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1968-01-31.vietnam-tet
     unit: A
@@ -3502,25 +3461,37 @@ ops:
 - cite:
     id: cal.1966-11-25.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 248 (Westmoreland orders the operation ended)'
-    units: all
+    units: A
 - check:
     id: cal.1966-11-25.vietnam-operations
     text: 'Check: the history has Westmoreland order Attleboro ended Nov. 24, 1966 (IV, 248).'
 - cite:
     id: cal.1967-03-31.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 276 (Ba Vùng, Mar. 31: Regiment 1 and Battalion 7 of Regiment 16)'
-    units: all
+    units: A-B
 - variant:
     id: cal.1967-03-31.vietnam-operations
-    unit: A
+    unit: B
     witness: w.lich-su-khang-chien-chong-my
     reads: 'Ba Vùng: the night of Mar. 31 Regiment 1 and Battalion 7 of Regiment 16 raid and destroy the southern cluster, hold the northern and shell the cluster at Sóc Con Trăn: 800 killed, 13 aircraft down'
     at: IV, 276
 - cite:
     id: cal.1967-10-24.vietnam-air-war
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 414 (nearly 500 sorties by turns, Oct. 24–28, on the Long Biên bridge, the Yên Phụ power plant, the airfields and the air-defense sites; Nội Bài airfield bombed the night of Oct. 25)'
-    units: all
+    units: A
 - cite:
     id: cal.1968-08.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], V, 228–29 (the Politburo''s meeting of August 1968: a third wave of general attack and uprising on the big cities, the countryside front important; Saigon–Gia Định and Eastern Nam Bộ the main field, Region 5 the supporting one, Quảng Đà the key point; fire to open Aug. 17, the wave to end Sept. 28; the Central Office''s eighth conference to follow)'
+    units: A
+- cite:
+    id: cal.1964-01.vietnam-hanoi-2
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 344 (the people''s air defense conference of the whole North, "early 1964": the three-force people''s air defense, the evacuation and dispersal of people and factories)'
+    units: A
+- cite:
+    id: cal.1964-07-06.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 344 (the Navy on combat readiness from July 1964: coastal patrols stepped up, a forward command in Military Region 4''s waters)'
+    units: A
+- cite:
+    id: cal.1964-11-20.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 34 (late 1964, the northern main-force regiments ordered secretly into the South)'
     units: all

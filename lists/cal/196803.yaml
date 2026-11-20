@@ -114,12 +114,18 @@ entries:
     date: '1968-03-01'
     thread: vietnam-operations
     c: 'Four North Vietnamese infiltration trawlers, sighted Feb. 28–29 among 1,176 steel-hulled craft, approach the coast at once: off Quảng Ngãi one is driven aground and blows itself up; one off Bình Định turns back for China; one beaches in the Hòn Hèo secret zone near Nha Trang and explodes under fire; one is sunk 43 miles northeast of Cà Mau Point.'
-    n: '[[w.macv-command-history-1968]], 447–48; Since Market Time began in 1965, no confirmed successful infiltration by trawler (448).'
+    n: '[[w.macv-command-history-1968]], 447–48; Since Market Time began in 1965, no confirmed successful infiltration by trawler (448). [[w.lich-su-khang-chien-chong-my]], V, 50–51 (the four ships of Group 125: 165 to Cà Mau, 56 to Bình Định, 43 to Quảng Ngãi, 235 to Nha Trang; see [[cal.1968-02-23.vietnam-hanoi]]).'
     src:
       c: 70dc376d
       rows:
         - 'w.macv-command-history-1968 447–48: all'
+        - 'w.lich-su-khang-chien-chong-my V, 50–51: all'
     tags: [place:nha-trang]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Ship 56, to Bình Định, did not get in and turned back to the North; Ship 43, second trip to Quảng Ngãi, met six warships and gunships 12 miles out, shot down two helicopters and wounded a fast boat, the crew swam ashore and the ship blown up; Ship 235, to Nha Trang, dropped its cargo six nautical miles from Hòn Hèo and went out; Ship 165, to Cà Mau, its cargo put into the sea, blown up by its crew, Nguyễn Chánh Tâm and Nguyễn Ngọc Lương, captain and deputy, with 18 men
+        at: V, 50–51
   - id: cal.1968-03-01.open-housing-2
     when: Mar. 1
     date: '1968-03-01'
@@ -9519,3 +9525,13 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 283: all'
     tags: [polity:prc, name:huang-yongsheng, vis:only:prc]
+  - id: cal.1968-03.vietnam-hanoi-2
+    when: Mar., late
+    date: 1968-03
+    at: before 1968-03-21
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam, vietnam-operations]
+    c: 'Delegates of the Central Office and the Southern Military Committee, after a first review of the attack on Saigon–Gia Định, go to Hanoi to report and to ask leave for a second wave on Saigon: the surprise is still there, the enemy has pulled back to the inner city and edge but left gaps, the first wave used only sappers, some commando teams and secret guerrillas, and the spearhead battalions, the area regiments and the main-force divisions are fresh.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 174–75. Made public: 2013. Check: the day and the delegates'' names; the history gives neither.'
+    tags: [polity:drv, vis:only:drv]

@@ -458,12 +458,18 @@ entries:
     place: paris
     thread: vietnam-paris
     c: Lê Đức Thọ arrives in Paris, special adviser to North Vietnam's delegation; Vance and Harriman recommend holding off strikes between the 19th and 20th parallels.
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 228. Check: the recommendation''s terms; the sentence runs over p. 228 cut short. Names: Vance, Harriman.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 228; [[w.lich-su-khang-chien-chong-my]], V, 333 (Lê Đức Thọ''s arrival, which the history puts in mid-June 1968). Check: the recommendation''s terms; the sentence runs over p. 228 cut short. Names: Vance, Harriman.'
     src:
       c: 3fb441f5
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 228: all'
+        - 'w.lich-su-khang-chien-chong-my V, 333: A'
     tags: [name:vance-cyrus, name:harriman-w-averell]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Lê Đức Thọ, added as special adviser to Xuân Thủy, arrived in Paris in the middle of June 1968
+        at: V, 333
   - id: cal.1968-06-03.program
     when: June 3
     date: '1968-06-03'
@@ -522,6 +528,14 @@ entries:
     c: 'Zhou Enlai goes to Mao''s in the evening, then accompanies Mao in receiving the delegates of the Nanjing and Shenyang military regions'' and PLA headquarters'' and service arms'' Mao Zedong Thought study classes. Mao, speaking with the central leaders, says that those who want to bring down Chen Yi include the Foreign Languages school''s "June 16" group; Zhou: "June 16" also wants to bring me down; Mao: with Chen Yi down, you are about next.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 233 (June 3, 1968). Made public: 2020. Names: Zhou Enlai, Mao Zedong, Chen Yi. Check: whether the evening is that of [[cal.1968-06-03.china-leadership]].'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:chen-yi, vis:only:prc]
+  - id: cal.1968-06-03.vietnam-hanoi
+    when: June 3
+    date: '1968-06-03'
+    thread: vietnam-hanoi
+    also: [vietnam-paris, vietnam-diplomacy]
+    c: 'Nguyễn Duy Trinh, of the Politburo, Deputy Prime Minister and Foreign Minister, instructs the delegation in Paris: keep up the open struggle and prepare, when the moment suits, to talk in private as well as in the open.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 335. Made public: 2013. Names: Nguyễn Duy Trinh. Check: the place Trinh was at, the means, the day''s source; the history cites a footnote only.'
+    tags: [polity:drv, vis:only:drv, name:nguyen-duy-trinh, ok:fields-place]
   - id: cal.1968-06-04.elections-1968
     when: June 4
     date: '1968-06-04'
@@ -4805,7 +4819,7 @@ entries:
     date: '1968-06-27'
     thread: vietnam-khe-sanh
     c: The command announces that the Marines will leave Khe Sanh and the base be dismantled, its forces to more mobile operations. Check the day of the announcement.
-    n: '[[w.cosmas-joint-chiefs-of-staff]], 211; [[w.drea-mcnamara-clifford-and-the-2011]], 196 (the base given up for mobile operations, approved June 20, closed July 5); [[w.macv-command-history-1968]], 1051 (MACV''s announcement, under June 27, that the base will be abandoned in a shift to more mobile operations). To check: [[w.sorley-thunderbolt]]; Saigon to State, msg 30199, June 17, 1968, Cable files, OSD Historical Office; Elsey, notes of staff meeting, June 20, 1968, Elsey Papers, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 196 n.88). See [[cal.1968-01-21.vietnam]]. Check: *Victory in Vietnam* has the withdrawal announced June 26 and taking 17 days, the base in its hands July 15; 1,300 killed and 34 aircraft in the withdrawal (229). Check: Cosmas, 211, has MACV''s announcement released June 27, Saigon time.'
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 211; [[w.drea-mcnamara-clifford-and-the-2011]], 196 (the base given up for mobile operations, approved June 20, closed July 5); [[w.macv-command-history-1968]], 1051 (MACV''s announcement, under June 27, that the base will be abandoned in a shift to more mobile operations); [[w.lich-su-khang-chien-chong-my]], V, 223 (Abrams'' order to give up Khe Sanh, dated Jun. 26 by the history). To check: [[w.sorley-thunderbolt]]; Saigon to State, msg 30199, June 17, 1968, Cable files, OSD Historical Office; Elsey, notes of staff meeting, June 20, 1968, Elsey Papers, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 196 n.88). See [[cal.1968-01-21.vietnam]]. Check: *Victory in Vietnam* has the withdrawal announced June 26 and taking 17 days, the base in its hands July 15; 1,300 killed and 34 aircraft in the withdrawal (229). Check: Cosmas, 211, has MACV''s announcement released June 27, Saigon time.'
     src:
       c: bd760224
       rows:
@@ -4816,6 +4830,7 @@ entries:
         - 'via w.cosmas-joint-chiefs-of-staff 211 n.26: A'
         - 'via w.cosmas-joint-chiefs-of-staff 211 n.28: A'
         - 'w.macv-command-history-1968 1051: A'
+        - 'w.lich-su-khang-chien-chong-my V, 223: A'
     tags: [name:abrams-creighton, place:khe-sanh]
     time_range:
       - 1968-06-27T01:00Z

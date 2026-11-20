@@ -75,6 +75,14 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 489: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 77: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1966-01-01.vietnam-hanoi
+    when: Jan. 1
+    date: '1966-01-01'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Region 5 holds its first region-wide company-level festival of American-killer heroes.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 100 (the Region Party Committee and Region Command). To check: the Region''s own record of the festival.'
+    tags: [polity:drv]
   - id: cal.1966-01-02.vietnam
     when: Jan. 2
     date: '1966-01-02'
@@ -299,6 +307,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 78: all'
     tags: [polity:prc, polity:cambodia, polity:us]
+  - id: cal.1966-01-03.vietnam-diplomacy
+    when: Jan. 3–15
+    date: '1966-01-03'
+    place: havana
+    thread: vietnam-diplomacy
+    also: [vietnam-hanoi]
+    c: The Asian, African and Latin American peoples' solidarity conference meets at Havana. It supports Vietnam and condemns the Americans and the Saigon regime; the DRV's and the Liberation Front's delegations speak and are backed by nearly all.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 297. Check: the delegations'' speakers and the conference''s resolution; the passage read gives neither.'
+    tags: [polity:drv, polity:cuba]
   - id: cal.1966-01-04.states-and-cities
     when: Jan. 4
     date: '1966-01-04'
@@ -1044,9 +1061,19 @@ entries:
     date: '1966-01-08'
     thread: vietnam-operations
     c: 'Crimp, in the woods on the Saigon River''s west bank opposite the Iron Triangle, in Bình Dương and Hậu Nghĩa: the 173d Airborne Brigade with an Australian battalion, and a brigade of the 1st Infantry Division. Tunnels lead to a deserted headquarters, very likely Military Region 4''s: some 7,500 documents. The 173d and the Australians: 128 Viet Cong counted killed, and possibly 190 more; 23 of their own killed, 102 wounded. The 1st Division''s brigade out Jan. 12.'
-    n: '[[w.carland-united-states-army-in]], 169–173. Check: Carland has Crimp launched "the day before" Marauder I ended, the morning of Jan. 8, and the 3d Brigade''s part beginning that morning.'
+    n: '[[w.carland-united-states-army-in]], 169–173; [[w.lich-su-khang-chien-chong-my]], IV, 86–88 (Củ Chi, Jan. 8–19: the history''s account of the 12-day sweep). Check: Carland has Crimp launched "the day before" Marauder I ended, the morning of Jan. 8, and the 3d Brigade''s part beginning that morning.'
+    src:
+      c: e6af5893
+      rows:
+        - 'w.carland-united-states-army-in 169–173: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 86–88: A'
     tags: [place:operation-crimp, province:binh-duong, province:hau-nghia]
     short: Crimp
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'twelve days of fighting at Củ Chi, Jan. 8–19, against the 1st Division''s brigades and the 173d Airborne: 200 actions, nearly 1,000 Americans and Saigon troops killed or wounded, 84 aircraft shot down (most of them UH-1s), 77 vehicles destroyed or damaged (56 M113s), two 105 mm guns; the sweep ended Jan. 19, the brigades moved to Đồng Dù'
+        at: IV, 86–88
   - id: cal.1966-01-08.vietnam
     when: Jan. 8
     date: '1966-01-08'
@@ -1172,6 +1199,21 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1891: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:peng-zhen, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1966-01-08.vietnam-hanoi-2
+    when: Jan. 8
+    date: '1966-01-08'
+    place: thanh-hoa
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Off Sầm Sơn, Thanh Hóa. A Saigon commando ship enters the waters; Phan Như Cẩn of the 919th Air Group, with his crew, flies an AN-2 and bombs it sunk. Returning, the plane has a fault and he lands it on the beach, crew and plane safe. The history calls it the Air Force's first victorious air–sea action.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 396. Check: the hour; the history says only "đêm 8-1-1966".'
+    tags: [polity:drv]
+    time_range:
+      - 1966-01-08T15:00Z
+      - 1966-01-08T17:00Z
+    time_band: night
+    time_zone: Asia/Bangkok
+    range_basis: record
   - id: cal.1966-01-09.opinion
     when: Jan. 9
     date: '1966-01-09'
@@ -2148,3 +2190,28 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 165 n.18a: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 166 n.19: all'
     tags: [polity:prc, vis:only:prc, name:ye-jianying, name:he-long, name:li-zuopeng, name:zhou-enlai, ok:fields-place]
+  - id: cal.1966.vietnam-hanoi
+    when: 1966, early
+    date: '1966'
+    at: before 1966-01
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Central Office''s Military Party Committee resolves on building the armed forces in 1966: mend and raise the units held, take in well the new force sent from the North; among the main force stress regiments more than divisions; build up the arms, above all sappers and engineers for the roads; the regional troops and militia raised in quality.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 219. Made public: 2013. Check: the day; the history says "đầu năm 1966".'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1966-01.vietnam-hanoi
+    when: Jan.
+    date: 1966-01
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Region 5 sets up the front command for northern Bình Định: Giáp Văn Cương, commander of the 3d Division, commander; Trần Quang Khanh, Bình Định''s provincial secretary, political commissar.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 104. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1966.vietnam-hanoi-2
+    when: '1966'
+    date: '1966'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The Central Office forms Region 10 of Quảng Đức and Phước Long, out of Region 6, and Bình Long, out of Region 7, to hold the mountain base and build a corridor for the main force.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 222. Made public: 2013. Check: the day; the history gives the formation just after the Rừng Sác zone of May 1966 and before the supply units it names.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]

@@ -518,7 +518,7 @@ entries:
     place: paris
     thread: vietnam-paris
     c: Paris. Harriman and Vance meet Lê Đức Thọ and Xuân Thủy in private, the first of such meetings; what is said to stay secret. Most of the three hours Thọ's "endless harangue" on the war.
-    n: 'FRUS 1964–68, VII, doc. [7](https://history.state.gov/historicaldocuments/frus1964-68v07/d7). [[w.nguyen-hanois-war]], 122 (this meeting; Hanoi''s side of the private talks to the halt, 121–29); [[w.solberg-hubert-humphrey]], 390 (Johnson authorizes Harriman and Vance to probe privately for Hanoi''s terms). To check: Hanoi''s record of the meeting, "Private Meeting between Us and the Americans, Sept. 8, 1968," the Foreign Ministry''s chronology, IV, 162 (cited by [[w.nguyen-hanois-war]], 122 n.48). Made public: FRUS 1964–68, VII (2003). Nguyen, 122, dates the meeting Sept. 8, by Hanoi''s record, and gives Thọ''s lecture "nearly an hour"; Harriman and Vance''s telegram, sent Sept. 7: "this morning September 7," three hours. See [[cal.1968-05-13.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
+    n: 'FRUS 1964–68, VII, doc. [7](https://history.state.gov/historicaldocuments/frus1964-68v07/d7). [[w.nguyen-hanois-war]], 122 (this meeting; Hanoi''s side of the private talks to the halt, 121–29); [[w.solberg-hubert-humphrey]], 390 (Johnson authorizes Harriman and Vance to probe privately for Hanoi''s terms); [[w.lich-su-khang-chien-chong-my]], V, 336 (Lê Đức Thọ and Xuân Thủy meet the American chief and deputy, the first of the private meetings of the two delegations'' heads). To check: Hanoi''s record of the meeting, "Private Meeting between Us and the Americans, Sept. 8, 1968," the Foreign Ministry''s chronology, IV, 162 (cited by [[w.nguyen-hanois-war]], 122 n.48). Made public: FRUS 1964–68, VII (2003). Nguyen, 122, dates the meeting Sept. 8, by Hanoi''s record, and gives Thọ''s lecture "nearly an hour"; Harriman and Vance''s telegram, sent Sept. 7: "this morning September 7," three hours. See [[cal.1968-05-13.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
     src:
       c: f362fea8
       rows:
@@ -528,6 +528,7 @@ entries:
         - 'via w.nguyen-hanois-war 122 n.48b: all'
         - 'w.solberg-hubert-humphrey 390: B'
         - 'via x.1969-05-26.william-p-bundy-oral-history-by-paige: B'
+        - 'w.lich-su-khang-chien-chong-my V, 336: A-B'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:le-duc-tho, name:xuan-thuy]
     short: the private meetings with Lê Đức Thọ
     time_range:
@@ -536,6 +537,11 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Paris
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the meeting held Sept. 8, 1968
+        at: V, 336
   - id: cal.1968-09-07.women
     when: Sept. 7
     date: '1968-09-07'
@@ -1174,6 +1180,15 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 324: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 324 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, vis:only:prc]
+  - id: cal.1968-09-12.vietnam-hanoi-2
+    when: Sept. 12
+    date: '1968-09-12'
+    place: lam-vo
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Lâm Vồ, second raid. Regiment 2 of the 9th Division badly hurts a mixed mechanized infantry battalion, destroys or damages 58 vehicles (39 armored) and 14 mortars, and downs seven aircraft.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 236. The figures are the history''s. Check: the units.'
+    tags: [polity:drv, polity:us]
   - id: cal.1968-09-13.court-fortas
     when: Sept. 13
     date: '1968-09-13'
@@ -2611,6 +2626,14 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 8, 17: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 17 n.18c: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1968-09-28.vietnam-hanoi
+    when: Sept. 28
+    date: '1968-09-28'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'The Tây Ninh–Bình Long campaign ends after 43 days and nights from Aug. 17: the 5th, 7th and 9th Divisions and the provinces'' troops fought 315 actions (53 of battalion size, 16 of regiment size), put 13 battalions and 55 companies out of action and badly hurt 7 mechanized battalions of the American 1st and 25th Divisions: 18,406 out of action, 1,507 vehicles, 112 aircraft and 107 guns destroyed.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 239. Check: the figures, which are the history''s; the date of the end is the third wave''s, ordered Aug. 17 to Sept. 28 (V, 229).'
+    tags: [polity:drv, polity:us, ok:fields-place]
   - id: cal.1968-09-29.opinion
     when: Sept. 29
     date: '1968-09-29'

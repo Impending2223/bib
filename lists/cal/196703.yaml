@@ -1245,6 +1245,15 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 506–507: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 506 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1967-03-07.vietnam-hanoi
+    when: Mar. 7
+    date: '1967-03-07'
+    place: con-thien
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Hill 241, Cam Lộ. The Liberation Army''s mortars and 122 mm rockets fire over 1,000 rounds: nearly 1,000 Americans killed and wounded, 21 guns destroyed.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. The figures are the history''s. Check: the units and the place''s relation to Cồn Tiên; the Americans'' record of Mar. 7 is not read.'
+    tags: [polity:drv, polity:us]
   - id: cal.1967-03-08.vietnam-supplemental
     when: Mar. 8
     date: '1967-03-08'
@@ -1407,6 +1416,15 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 505: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1967-03-08.vietnam-hanoi-2
+    when: Mar. 8
+    date: '1967-03-08'
+    place: haiphong
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam-support]
+    c: Haiphong. Ship 43 of the Navy's Group 125 sails with supplies for Quảng Ngãi, Region 5 having first call over Nam Bộ.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 49. Her end: [[cal.1967-03-14.vietnam-operations]].'
+    tags: [polity:drv]
   - id: cal.1967-03-09.economy
     when: Mar. 9
     date: '1967-03-09'
@@ -2102,11 +2120,17 @@ entries:
     date: '1967-03-14'
     thread: vietnam-operations
     c: Market Time units intercept a steel-hulled trawler southeast of Đà Nẵng; after an exchange of fire she beaches at Phước Thiện and is destroyed, a large amount of weapons and munitions seized.
-    n: '[[w.macv-command-history-1967]], 1261. Check: the distance and the place, the copy garbled.'
+    n: '[[w.macv-command-history-1967]], 1261; [[w.lich-su-khang-chien-chong-my]], V, 49–50 (Ship 43 of Group 125, Mar. 8–13: met American warships about 30 nautical miles off Sa Kỳ, reached the pier at 5 a.m., the crew went ashore and the ship was destroyed; see [[cal.1967-03-08.vietnam-hanoi]]). Check: the distance and the place, the copy garbled.'
     src:
       c: d0778db1
       rows:
         - 'w.macv-command-history-1967 1261: all'
+        - 'w.lich-su-khang-chien-chong-my V, 49–50: A-B'
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the ship, No. 43, left Haiphong Mar. 8, after five days met American warships about 30 nautical miles off Sa Kỳ, Quảng Ngãi, wounded two, and reached the pier at 5 a.m. to hide its cargo; the crew went ashore and the ship was destroyed
+        at: V, 49
   - id: cal.1967-03-14.economy
     when: Mar. 14
     date: '1967-03-14'
@@ -3021,6 +3045,15 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 521: A'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 521 n.1: A'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1967-03-19.vietnam-hanoi
+    when: Mar. 19
+    date: '1967-03-19'
+    place: dong-rum
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Đồng Rùm, east of the base. In Junction City''s second phase, from Mar. 18, American aircraft landing at Đồng Rùm hit a field of mines laid by the guerrillas of the 82d logistics group: 8 aircraft and over 100 Americans destroyed at once.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 273–74. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1967-03-20.vietnam
     when: Mar. 20–21
     date: '1967-03-20'
@@ -3105,12 +3138,18 @@ entries:
     date: '1967-03-20'
     thread: vietnam-operations
     c: 'Cồn Tiên and Gio Linh, below the DMZ: American Marines and South Vietnamese troops take a thousand rounds of mortar, rocket and artillery fire.'
-    n: '[[w.westmoreland-soldier-reports]], 201.'
+    n: '[[w.westmoreland-soldier-reports]], 201; [[w.lich-su-khang-chien-chong-my]], IV, 404–06 (Regiment 164''s guns on Dốc Miếu and hill 241, Mar. 20).'
     src:
       c: 130e4d36
       rows:
         - 'w.westmoreland-soldier-reports 201: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 404–06: all'
     tags: [place:con-thien, place:gio-linh]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 2,000 105 and 130 mm rounds on Dốc Miếu, hundreds of mortar rounds from the south bank, and 1,000 rockets and mortar rounds on hill 241, fired from the north bank by Regiment 164, in the afternoon of Mar. 20
+        at: IV, 405
   - id: cal.1967-03-20.vietnam-2
     when: Mar. 20
     date: '1967-03-20'
@@ -3248,7 +3287,13 @@ entries:
     place: suoi-tre
     thread: vietnam-operations
     c: 'Junction City: Suối Tre. The Viet Cong 272d Regiment, reinforced, attacks Fire Support Base Gold, held by a battalion of the 22d Infantry and one of the 77th Artillery, before dawn; over by 10:45 a.m. Counted: 647 of the enemy dead, 7 prisoners, 65 crew-served and 94 individual weapons. American losses 31 killed, 109 wounded.'
-    n: 'Presidential Unit Citation Awarded Units of the 3d Brigade, 4th Infantry Division, USA, [1968–69 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=281) (Sept. 23, 1968). [[w.rogers-cedar-falls-junction-city]], 135–140. See [[cal.1967-02-22.vietnam]]. Check: *Victory in Vietnam* dates the fight Mar. 20: the 2d and 16th Regiments; the 3d Brigade, 4th Division, over 1,200 casualties, 72 armored vehicles, 19 guns, 10 aircraft (198–99).'
+    n: 'Presidential Unit Citation Awarded Units of the 3d Brigade, 4th Infantry Division, USA, [1968–69 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=281) (Sept. 23, 1968). [[w.rogers-cedar-falls-junction-city]], 135–140; [[w.lich-su-khang-chien-chong-my]], IV, 274 (Đồng Rùm, Mar. 20–21: Regiments 2 and 16 of the 9th Division). See [[cal.1967-02-22.vietnam]]. Check: *Victory in Vietnam* dates the fight Mar. 20: the 2d and 16th Regiments; the 3d Brigade, 4th Division, over 1,200 casualties, 72 armored vehicles, 19 guns, 10 aircraft (198–99).'
+    src:
+      c: e8ae9b59
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=281: all'
+        - 'w.rogers-cedar-falls-junction-city 135–140: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 274: A-B'
     tags: [place:war-zone-c, province:tay-ninh]
     time_range:
       - 1967-03-20T16:00Z
@@ -4523,8 +4568,18 @@ entries:
     place: war-zone-c
     thread: vietnam-operations
     c: 'Junction City: Ấp Gù, in War Zone C. Haig''s 1st Battalion, 26th Infantry, and the 1st Battalion, 16th Infantry, at Landing Zone George; mortared from 4:55 a.m., Apr. 1, then attacked by the Viet Cong 271st Regiment and elements of the 70th Guard Regiment. In the two days, 609 of the enemy killed, 5 captured; 17 Americans killed, 102 wounded.'
-    n: '[[w.rogers-cedar-falls-junction-city]], 140–147. See [[cal.1967-02-22.vietnam]]. Names: Haig. Check: *Victory in Vietnam* has the 1st Regiment and a battalion of the 16th strike an infantry and an artillery battalion of the 2d Brigade, 1st Division, Mar. 31 (199).'
+    n: '[[w.rogers-cedar-falls-junction-city]], 140–147; [[w.lich-su-khang-chien-chong-my]], IV, 276 (Ba Vùng, Mar. 31: Regiment 1 and Battalion 7 of Regiment 16). See [[cal.1967-02-22.vietnam]]. Names: Haig. Check: *Victory in Vietnam* has the 1st Regiment and a battalion of the 16th strike an infantry and an artillery battalion of the 2d Brigade, 1st Division, Mar. 31 (199).'
+    src:
+      c: c972af91
+      rows:
+        - 'w.rogers-cedar-falls-junction-city 140–147: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 276: A-B'
     tags: [name:haig-alexander-m-jr, place:war-zone-c, province:tay-ninh]
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'Ba Vùng: the night of Mar. 31 Regiment 1 and Battalion 7 of Regiment 16 raid and destroy the southern cluster, hold the northern and shell the cluster at Sóc Con Trăn: 800 killed, 13 aircraft down'
+        at: IV, 276
   - id: cal.1967-03.republican-party
     when: Mar.
     date: 1967-03
@@ -5437,3 +5492,19 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 283: all'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1967-03.vietnam-hanoi-2
+    when: Mar.
+    date: 1967-03
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: 'The Defense Ministry dissolves the Air Defense Command and forms three arms commands in its place: radar, air force, missiles.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 402. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1967-03.vietnam-hanoi-3
+    when: Mar.
+    date: 1967-03
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: The Defense Ministry shifts the Navy's main work to the defense of the Haiphong coast and the northeast sea.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 417. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
