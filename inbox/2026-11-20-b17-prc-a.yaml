@@ -232,3 +232,254 @@ ops:
         - vis:frame:prc
         - vis:only:prc+drv
         - ok:fields-place
+  - add:
+      entry:
+        id: cal.1962-11-24.vietnam-diplomacy
+        when: Nov. 24
+        date: '1962-11-24'
+        thread: vietnam-diplomacy
+        also:
+        - south-asia
+        c: 'The Chinese Embassy in Vietnam to the Foreign Ministry, very urgent: Hồ Chí Minh, meeting the chargé Wang on his letters to Liu Shaoqi and to India''s president and prime minister, says an American press chart of the Sino-Indian border still classes Vietnam as part of China. He says Nehru, of the capitalist class and an aristocrat, was fairly progressive before independence and is still a leftist among India''s rulers; the ruling class''s titans, he says, made Nehru drop Menon, and Nehru is more isolated since.'
+        n: '"[Cable from the Chinese Embassy in Vietnam, ''Chairman Ho Discusses the Following Two Situations''](https://digitalarchive.umd.edu/document/121295)" (Nov. 24, 1962), PRC FMA 106-00729-04, 19–20, trans. Anna Beth Keim, Wilson Center Digital Archive. Names: Hồ Chí Minh, Liu Shaoqi, Nehru, Menon. Check: the year the Archive posted it.'
+        src:
+          c: aba484f7
+          rows:
+          - 'https://digitalarchive.umd.edu/document/121295: all'
+        tags:
+        - name:ho-chi-minh
+        - name:liu-shaoqi
+        - name:nehru-jawaharlal
+        - name:menon-v-k-krishna
+        - polity:prc
+        - polity:drv
+        - polity:india
+        - vis:frame:prc
+        - vis:only:prc+drv
+  - add:
+      entry:
+        id: cal.1964-10-20.vietnam-hanoi
+        when: Oct. 20
+        date: '1964-10-20'
+        thread: vietnam-hanoi
+        also:
+        - china-leadership
+        - vietnam-diplomacy
+        - testing
+        place: haiphong
+        c: 'The Chinese Embassy in Vietnam to the Foreign Ministry, urgent: Lê Duẩn, Vice Premier Phạm Hùng and Vice Minister of Foreign Trade Lý Ban meet the Chinese shipping representative and experts at Haiphong, congratulate them on the nuclear test and give an informal dinner. Lê Duẩn says, per the cable, that the test encourages Vietnam''s struggle; that Khrushchev''s fall, credit for which goes to China and the Chinese party, is the first step in the fight against revisionism; and that he argued with Khrushchev in Moscow over why China could not have nuclear weapons.'
+        n: '"[Cable from the Chinese Embassy in Vietnam, ''Reactions to China''s Testing of an Atomic Bomb (6)''](https://digitalarchive.umd.edu/document/134738)" (Oct. 20, 1964), PRC FMA 106-00778-02, 19–20, trans. Caixia Lu, Wilson Center Digital Archive. Names: Lê Duẩn, Khrushchev. Check: the day of the meeting; the cable is of the 20th. Check: the year the Archive posted it.'
+        src:
+          c: 914a8503
+          rows:
+          - 'https://digitalarchive.umd.edu/document/134738: all'
+        tags:
+        - name:le-duan
+        - name:khrushchev-nikita-s
+        - polity:drv
+        - polity:prc
+        - vis:frame:prc
+        - vis:only:prc+drv
+  - edit:
+      id: cal.1963-06-03.china-leadership-3
+      base: 73c5a8b8
+      set:
+        c: Zhou Enlai with Cambodia's Ambassador, Sirik Matak, on treating the Cambodian Queen further by Chinese medicine, internal and external, and Chinese and Western medicine combined. Per the Chinese record, Sirik Matak thanks China for Liu Shaoqi's visit to Cambodia and for the doctors, and asks that the cotton mill given as aid become an oil mill; Zhou says the foreign economic relations bureau will examine it. Zhou says Cambodia's guarding of the visit struck at the Chiang Kai-shek clique's sabotage plots; Sirik Matak says Chinese information helped crack the case and the suspects are still held.
+        n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Ambassador to Cambodia Sisowath Sirik Matak](https://digitalarchive.umd.edu/document/165600)" (June 3, 1963), PRC FMA 106-00821-04, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-nianpu-1949]], II, 558 (June 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 361 (June 3, 1963; 下午2时, 中南海西花厅). Made public: 1993. Check: the ambassador''s name in Roman letters (西里克·马塔克). Names: Zhou Enlai.'
+        src:
+          c: b57a6081
+          rows:
+          - 'w.zhou-enlai-nianpu-1949 II, 558: ?'
+          - 'w.zhou-enlai-waijiao-huodong 361: A'
+          - 'https://digitalarchive.umd.edu/document/165600: A-E'
+        tags:
+        - polity:prc
+        - polity:cambodia
+        - name:zhou-enlai
+        - vis:only:prc+cambodia
+        - name:liu-shaoqi
+        - name:norodom-sihanouk
+        - name:sirik-matak-sisowath
+  - variant:
+      id: cal.1963-06-03.china-leadership-3
+      unit: A
+      witness: x.1963-06-03.zhou-reception-sirik-matak-record
+      reads: 'the ambassador is "Sisowath Sirik Matak" (the Archive''s title calls him "Ambassador to Cambodia"); "Time: 2 p.m., 3 June 1963", West Flower Hall, State Council'
+      at: PRC FMA 106-00821-04
+  - edit:
+      id: cal.1965-04-19.china-leadership-2
+      base: cd192f28
+      set:
+        c: Zhou meets Kim Il Sung again at the presidential palace in Jakarta. Per the Chinese record, with Chen Yi and Qiao Guanhua present, Zhou tells Kim that the United Arab Republic and Algeria oppose a document in support of Vietnam, and that Phạm Văn Đồng has said there will be none, for the sake of the second Asian–African conference in June. Sukarno, who had agreed to take up the symposium at 7 a.m. that day, cannot fit it in; Phạm is to describe the Vietnam situation to some countries listening. Kim agrees.
+        n: '"[Minutes of Conversation between Premier Zhou Enlai and Premier Kim Il Sung](https://digitalarchive.umd.edu/document/134787)" (Apr. 19, 1965), PRC FMA 106-00828-01, 9, trans. Caixia Lu, Wilson Center Digital Archive. The words: 时间：一九六五年四月十九日下午五时至五时半; 地点：雅加达总统府 (Merdeka Palace). Present: Chen Yi 陈毅, Qiao Guanhua 乔冠华; Kim Gwang-hyeop 金光侠, Pak Seong-cheol 朴成哲; interpreter and recorder Li Xiangwen 李相文. [[w.zhou-enlai-waijiao-huodong]], 447 (Apr. 19, 1965; 5 p.m., presidential palace, Jakarta). Check: the book does not say whose clock; taken as local. Names: Zhou Enlai.'
+        src:
+          c: 7bff3b7c
+          rows:
+          - 'w.zhou-enlai-waijiao-huodong 447: all'
+          - 'https://digitalarchive.umd.edu/document/134787: A-E'
+        tags:
+        - polity:prc
+        - name:zhou-enlai
+        - name:pham-van-dong
+        - name:sukarno
+        - name:chen-yi
+        - name:qiao-guanhua
+        - polity:dprk
+        - vis:only:prc+dprk
+  - edit:
+      id: cal.1965-06-15.china-leadership-2
+      base: 49d2aab5
+      set:
+        c: Zhou, Hangzhou, talks with Hồ Chí Minh and tells him how the second Asian-African conference stands. Per the Chinese record, with Chen Yi present, Zhou tells Hồ the Standing Committee has decided against inviting the Saigon or Seoul regimes or Tshombe, Algeria having told the Front's representative the same of Saigon, and the Front's own invitation undecided. He argues against Soviet and "Malaysian" attendance, the Soviet Union being no Asian or African state and its Asian republics at most observers, and sets out three formulas for Laos. He asks that Phạm Văn Đồng give a vivid speech for the Viet Cong and Nguyễn Văn Hiếu work outside the hall; Hồ asks what if the states divide, and Zhou says the Jakarta rule of consensus governs, India's proposal of a majority vote not accepted.
+        n: '"[Record of Conversation between Premier Zhou Enlai and Chairman Ho Chi Minh](https://digitalarchive.umd.edu/document/165383)" (June 15, 1965), PRC FMA 106-00861-02, 11–22, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-nianpu-1949]], II, 737 (June 15, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 15, 1965; Hangzhou, talks with Chairman Hồ Chí Minh on the Asian–African conference question). Made public: 1993. The record is the International Liaison Department''s file (65) no. 159; its note says the embassy in Vietnam sent it and the department received it July 18. Names: Zhou Enlai, Hồ Chí Minh.'
+        src:
+          c: c4139e30
+          rows:
+          - 'w.zhou-enlai-nianpu-1949 II, 737: ?'
+          - 'w.zhou-enlai-waijiao-huodong 462: A'
+          - 'https://digitalarchive.umd.edu/document/165383: B-E'
+        tags:
+        - name:zhou-enlai
+        - name:ho-chi-minh
+        - polity:prc
+        - polity:drv
+        - vis:only:prc+drv
+        - name:chen-yi
+        - name:pham-van-dong
+        - name:nguyen-van-hieu
+        - name:tshombe-moise
+  - variant:
+      id: cal.1965-06-15.china-leadership-2
+      unit: A
+      witness: x.1965-06-15.zhou-ho-chi-minh-record-ild-65-159
+      reads: '"Date: 15 June 1965 / Place: Hangzhou"; no hour; the record is of Zhou with Chen Yi and Hồ, a "Vice President Dong" speaking once'
+      at: PRC FMA 106-00861-02, 11
+  - names:
+      id: cal.1965-06-15.china-leadership-2
+      add:
+      - Chen Yi
+      - Phạm Văn Đồng
+      - Nguyễn Văn Hiếu
+      - Tshombe
+      tags: []
+  - edit:
+      id: cal.1962-09-30.china-leadership-4
+      base: 3372d0f3
+      set:
+        c: Peking. Zhou Enlai receives the delegation of the National Liberation Front of South Vietnam, headed by Nguyễn Văn Hiếu. Per the Chinese record, with Liao Chengzhi present and Ambassador Trần Tử Bình with the delegation, Zhou asks of its route, Indonesia, then Fuzhou, Guangzhou and Shanghai, and says China's delegation at the Moscow disarmament conference kept a low profile and let the document's tone fall too low. He asks whether a committee to support the Front should be formed or the Afro-Asian People's Solidarity Organization and the Chinese peace committee used, offers medicines, and proposes also tendering donations to Ngô Đình Diệm through the Red Cross, to be refused and passed on to the Front. Nguyễn Văn Hiếu says China needs no new body.
+        n: '"[Record of Talks from the Premier''s Meeting with the Delegation of the National Front for the Liberation of Southern Vietnam](https://digitalarchive.umd.edu/document/165384)" (Sept. 30, 1962), PRC FMA 106-00995-02, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-waijiao-huodong]], 336 (Sept. 30, 1962; 下午). The time is "afternoon" (the record); the covering note of Oct. 11, 1962 forwards it. Names: Zhou Enlai.'
+        src:
+          c: 53e901cc
+          rows:
+          - 'w.zhou-enlai-waijiao-huodong 336: all'
+          - 'https://digitalarchive.umd.edu/document/165384: C-E'
+        tags:
+        - polity:prc
+        - polity:nlf
+        - name:zhou-enlai
+        - name:nguyen-van-hieu
+        - vis:only:prc+nlf
+  - names:
+      id: cal.1962-09-30.china-leadership-4
+      add:
+      - Nguyễn Văn Hiếu
+      tags: []
+  - variant:
+      id: cal.1962-09-30.china-leadership-4
+      unit: B
+      witness: x.1962-09-30.zhou-meeting-nlf-delegation-record
+      reads: '"Time: Afternoon, 30 September 1962", Fujian Hall, Great Hall of the People'
+      at: PRC FMA 106-00995-02
+  - primary:
+      id: cal.1962-11-05.china-leadership-3
+      text: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive.'
+      units: B
+  - variant:
+      id: cal.1962-11-05.china-leadership-3
+      unit: B
+      witness: x.1963-01-30.summary-trade-negotiations-korea-vietnam-1963
+      reads: 'Nov. 5: the Commerce and Navigation Treaty, the Agreement for the Mutual Supply of Main Cargo, 1963–67, and the Protocol for the Mutual Supply of Goods in 1963'
+      at: PRC FMA 106-01008-18, 48
+  - primary:
+      id: cal.1962-12-05.china-leadership-2
+      text: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive.'
+      units: A
+  - variant:
+      id: cal.1962-12-05.china-leadership-2
+      unit: A
+      witness: x.1963-01-30.summary-trade-negotiations-korea-vietnam-1963
+      reads: 'Dec. 5: the two sides sign the Sino-Vietnamese Commerce and Navigation Treaty and the Protocol for the Mutual Supply of Goods in 1963; the delegation reached Peking at the end of November and Minister Phan Anh in early December'
+      at: PRC FMA 106-01008-18, 48
+  - add:
+      entry:
+        id: cal.1963-01-30.china
+        when: Jan. 30
+        date: '1963-01-30'
+        thread: china
+        also:
+        - trade
+        - korea
+        - vietnam-hanoi
+        c: 'A PRC summary of the 1963 trade negotiations with the DPRK and the DRV, the author not named in the Archive''s text: both were held earlier than in other years, with the DPRK''s Ri Ju Yon in Peking at the end of October and the DRV''s delegation at the end of November, and each ended in signed treaties and protocols. By its account China met most requests under Zhou Enlai''s instructions, supplying key materials such as coal and covering trade gaps with loans of 10 million rubles. It counts the long-term agreement with the DPRK a blow to revisionism and draws lessons: take the initiative, prepare early, keep to the Center''s policy while reckoning costs.'
+        n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive. See [[cal.1962-11-05.china-leadership-3]]; [[cal.1962-12-05.china-leadership-2]]. Names: Zhou Enlai. Check: the year the Archive posted it.'
+        src:
+          c: bbb7436e
+          rows:
+          - 'https://digitalarchive.umd.edu/document/121759: all'
+        tags:
+        - name:zhou-enlai
+        - polity:prc
+        - polity:dprk
+        - polity:drv
+        - vis:only:prc
+        - ok:fields-place
+  - primary:
+      id: cal.1964-07-01.china-leadership
+      text: '"[Record of Zhou Enlai''s Reception and Conversation with Workers Party of Vietnam Central Committee Cadres Delegation](https://digitalarchive.umd.edu/document/165385)" (July 1, 1964), PRC FMA 106-01150-08, 78–85, trans. Stephen Mercado, Wilson Center Digital Archive.'
+      units: A, B, C, D, E, F
+  - variant:
+      id: cal.1964-07-01.china-leadership
+      unit: A
+      witness: x.1964-07-01.zhou-reception-vwp-cadres-delegation-record
+      reads: '"Time: 4 p.m., 1 July 1964", Fujian Hall; Nguyễn Côn the delegation leader, Trần Điệp his deputy; Zhou reads Fang Yi''s report on 33 projects discussed'
+      at: PRC FMA 106-01150-08, 78
+  - add:
+      entry:
+        id: cal.1964-01-14.china
+        when: Jan. 14
+        date: '1964-01-14'
+        thread: china
+        also:
+        - vietnam-diplomacy
+        c: 'The Foreign Cultural Liaison Committee to the embassy''s cultural office in Vietnam, secret, in answer to Counselor Du''s query on the year''s priorities: more cultural cooperation with the DRV, on a larger scale than before, because it stands at the front against imperialism and resists Soviet pressure. It also asks help in the DRV''s self-reliance in culture, work among the leading figures of culture, especially the left, Vietnamese plays and writings recommended for China, and reports on the struggle with revisionism.'
+        n: '"[Cable from the Foreign Cultural Liaison Committee, ''Preliminary Consideration on Policy to Vietnam in the Year 1964''](https://digitalarchive.umd.edu/document/120603)" (Jan. 14, 1964), PRC FMA 106-01174-03, trans. Qingfei Yin, Wilson Center Digital Archive. The words: 对外文委 (the Committee); 告64年对越南开展工作的初步考虑 (the title). The Archive notes the copies went to Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Fuchun, Chen Yi and others, printed Jan. 17. Names: Zhou Enlai. Check: the year the Archive posted it.'
+        src:
+          c: c09e5def
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120603: all'
+        tags:
+        - name:zhou-enlai
+        - polity:prc
+        - polity:drv
+        - vis:only:prc
+  - add:
+      entry:
+        id: cal.1964-01-30.vietnam-diplomacy
+        when: Jan. 30
+        date: '1964-01-30'
+        thread: vietnam-diplomacy
+        also:
+        - china
+        - vietnam-hanoi
+        c: 'The Chinese Embassy in Vietnam to the Foreign Cultural Liaison Committee, expedited: at the embassy''s dinner for musicians visiting China, Ninh Văn Phan of the Vietnamese cultural liaison committee tells the chargé Du that its director, Phạm Ngọc Thạch, will go to the Soviet Union in February on the 1964 cultural plan and stop at Peking on the way back for the supplementary plan. The plan, five or six times last year''s, awaits Phạm Hùng, and the DRV, Ninh says, will mainly learn from China and keep only ceremonial contacts with Eastern Europe, whose culture he calls full of revisionism.'
+        n: '"[Cable from the Chinese Embassy in Vietnam, ''Phạm Ngọc Thạch Will Visit the Soviet Union and China to Discuss Cultural Cooperation''](https://digitalarchive.umd.edu/document/120604)" (Jan. 30, 1964), PRC FMA 106-01174-04, trans. Qingfei Yin, Wilson Center Digital Archive. Check: the Archive''s English calls Phạm Hùng "Prime Minister"; the Chinese text, 范雄副总理, has vice premier. Check: the year the Archive posted it.'
+        src:
+          c: 375e9c9c
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120604: all'
+        tags:
+        - polity:prc
+        - polity:drv
+        - vis:frame:prc
+        - vis:only:prc+drv
+        - ok:fields-place
