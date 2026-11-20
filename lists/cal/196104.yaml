@@ -1659,7 +1659,7 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Moscow. The Chinese and Soviet trade delegations issue a communique on talks: they agree the quotas for the supply of goods between the two countries and sign the 1961 protocol on exchange of goods and other documents. Khrushchev receives the Chinese government''s trade delegation.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 191 (Apr. 8, 1961). Names: Khrushchev.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 191 (Apr. 8, 1961). Check: whether the Soviet agreement of April 1961 to refinance 288 million rubles of unpaid balances as a new credit over four years ([[w.dikotter-maos-great-famine]], 106 n.13) is among the documents signed. Names: Khrushchev.'
     src:
       c: 9ff64dbd
       rows:
@@ -8701,3 +8701,30 @@ entries:
     c: 'Region 5. The people boycott Diệm''s rigged "presidential election" in April: in Gia Lai the people of 600 hamlets under the Saigon side stay away and burn their voters'' cards.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 144. Names: Ngô Đình Diệm. Check: the day.'
     tags: [polity:drv, name:ngo-dinh-diem]
+  - id: cal.1961-04.china-leadership-16
+    when: Apr.
+    date: 1961-04
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: The Soviet Union agrees that 288 million rubles in unpaid balances are to be refinanced as a new credit, repayable over four years, the first payment in 1962 being no more than 8 million.
+    n: '[[w.dikotter-maos-great-famine]], 106. Made public: 2010. To check: Report from the Bank for Foreign Trade, RGANI, Moscow, June 2, 1961, 5-20-210, p. 34; *Sbornik osnovnykh deistvuiushchikh dogovorov i soglashenii mezhdu SSSR i KNR, 1949–1961*, p. 198 (cited by [[w.dikotter-maos-great-famine]], 106 n.13a, n.13b). Check: the day.'
+    src:
+      c: 87550ad2
+      rows:
+        - 'w.dikotter-maos-great-famine 106: all'
+        - 'via w.dikotter-maos-great-famine 106 n.13a: all'
+        - 'via w.dikotter-maos-great-famine 106 n.13b: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1961-04.china-leadership-19
+    when: Apr.–May
+    date: 1961-04
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Shaoqi, in a letter after his stay in his home village, blames Zhang Pinghua, the Hunan party head, that no report, letter or complaint from his home town reached him: letters were not allowed, or were opened and kept. He calls the provincial Public Security Bureau "completely rotten" for holding personal letters and beating people who tried to tell him of abuses.'
+    n: '[[w.dikotter-maos-great-famine]], 120 n.19. Made public: 2010. To check: Letter by Liu Shaoqi, Apr.–May 1961, Gansu Provincial Archives, 91-4-889, pp. 2–4 (cited by [[w.dikotter-maos-great-famine]], 120 n.19). Names: Liu Shaoqi. Check: the day, and to whom the letter went.'
+    src:
+      c: cced7a43
+      rows:
+        - 'w.dikotter-maos-great-famine 120: all'
+        - 'via w.dikotter-maos-great-famine 120 n.19: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi]

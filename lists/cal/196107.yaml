@@ -1164,8 +1164,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi reads the Hunan Public Security Department''s report of June 30, "Investigation report on the case of Feng Guoquan, a member of Tianhua brigade, Guangfu commune, Changsha county, said to have destroyed a plow ox," and writes to Xie Fuzhi, Minister of Public Security: wrongful cases like Feng Guoquan''s still exist elsewhere, and public security organs everywhere are to investigate and study them seriously and reach conclusions that fit the facts.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 518 (July 10, 1961). Made public: 1996. To check: Hunan Public Security Department, "Report on the investigation of the case of Feng Guoquan, member of Tianhua brigade, Guangfu commune, Changsha county, alleged to have destroyed a plow ox" (June 30, 1961), sent to the Hunan Party committee and the Ministry of Public Security (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 518). Names: Liu Shaoqi, Xie Fuzhi.'
-    tags: [polity:prc, name:liu-shaoqi, name:xie-fuzhi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 518 (July 10, 1961); [[w.dikotter-maos-great-famine]], 120 n.19 (later, Liu confronts Xie Fuzhi, minister of public security: why was abuse allowed to go on unchecked in his home town). Made public: 1996. Check: whether this letter is Liu''s confrontation with Xie Fuzhi that [[w.dikotter-maos-great-famine]] (120) puts after his stay in his home village. To check: Hunan Public Security Department, "Report on the investigation of the case of Feng Guoquan, member of Tianhua brigade, Guangfu commune, Changsha county, alleged to have destroyed a plow ox" (June 30, 1961), sent to the Hunan Party committee and the Ministry of Public Security (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 518); Letter by Liu Shaoqi, Apr.–May 1961, Gansu Provincial Archives, 91-4-889, pp. 2–4 (cited by [[w.dikotter-maos-great-famine]], 120 n.19). Names: Liu Shaoqi, Xie Fuzhi.'
+    tags: [polity:prc, name:liu-shaoqi, name:xie-fuzhi, vis:only:prc, ok:fields-place]
   - id: cal.1961-07-10.china-leadership-6
     when: July 10
     date: '1961-07-10'
@@ -1235,6 +1235,21 @@ entries:
       - 1961-07-10T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-07-10.china-leadership-11
+    when: July 10
+    date: '1961-07-10'
+    thread: china-leadership
+    also: [china]
+    c: Yunnan selects some 300,000 people, many of them unemployed, to be sent back from its cities to the countryside to fill the quota. They include 30,000 prisoners of Kunming, moved to labour camps in the countryside.
+    n: '[[w.dikotter-maos-great-famine]], 238. Made public: 2010. To check: Yunnan Provincial Archives, July 10, 1961, 2-1-4587, p. 83; July 10 and 22, 1961, 2-1-4587, pp. 82 and 112–14 (cited by [[w.dikotter-maos-great-famine]], 238 n.38b, n.39a, n.39b). Check: the day.'
+    src:
+      c: d002eebe
+      rows:
+        - 'w.dikotter-maos-great-famine 238: all'
+        - 'via w.dikotter-maos-great-famine 238 n.38b: all'
+        - 'via w.dikotter-maos-great-famine 238 n.39a: all'
+        - 'via w.dikotter-maos-great-famine 238 n.39b: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1961-07-11.governors-va
     when: July 11
     date: '1961-07-11'
@@ -5005,3 +5020,42 @@ entries:
     c: 'COSVN sets up the Region''s first main-force regiment, code name Q761: two infantry battalions, support units, staff, political and supply offices; Tăng Kim Thiên (Hoàng Đình Chương) commander, Lê Văn Nhỏ political commissar. Its two battalions had held their first ceremony Feb. 9, 1961 at Dương Minh Châu, Tây Ninh; the regiment, full strength, parades as the First Infantry Regiment Feb. 9, 1962.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 47. Made public: 2013. Names: Tăng Kim Thiên, Lê Văn Nhỏ.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961-07.china-leadership-7
+    when: July
+    date: 1961-07
+    thread: china-leadership
+    also: [china]
+    c: The Hebei party committee sends a team of twenty-four men to the Cangzhou region after the typhoon. They spend ten days there; close to half the fields stand under water.
+    n: '[[w.dikotter-maos-great-famine]], 179 n.37. Made public: 2010. See [[cal.1961-07.china-2]]. Check: the day.'
+    src:
+      c: 41ad6098
+      rows:
+        - 'w.dikotter-maos-great-famine 179: all'
+        - 'via w.dikotter-maos-great-famine 179 n.37: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-07.china-2
+    when: July
+    date: 1961-07
+    thread: china
+    also: [china-leadership]
+    c: A typhoon devastates the Cangzhou region, Hebei.
+    n: '[[w.dikotter-maos-great-famine]], 179 n.37. To check: Hebei Provincial Archives, Aug. 15, 1961, 878-1-6, pp. 31–44 (cited by [[w.dikotter-maos-great-famine]], 179 n.37; 224 n.1, p. 38). Check: the day.'
+    src:
+      rows:
+        - 'w.dikotter-maos-great-famine 179: all'
+        - 'via w.dikotter-maos-great-famine 179 n.37: all'
+      c: a33cb1d1
+    tags: [polity:prc]
+  - id: cal.1961-07.china-leadership-8
+    when: July
+    date: 1961-07
+    thread: china-leadership
+    also: [china]
+    c: After the typhoon in the Cangzhou region, Hebei, a party secretary takes charge of a brigade and leads raids on neighbouring villages, carrying off dozens of sheep and several tonnes of vegetables.
+    n: '[[w.dikotter-maos-great-famine]], 224 n.1. Made public: 2010. To check: Hebei Provincial Archives, Aug. 15, 1961, 878-1-6, p. 38 (cited by [[w.dikotter-maos-great-famine]], 224 n.1). See [[cal.1961-07.china-2]]. Check: the month.'
+    src:
+      rows:
+        - 'w.dikotter-maos-great-famine 224: all'
+        - 'via w.dikotter-maos-great-famine 224 n.1: all'
+      c: 5382c7c6
+    tags: [polity:prc, vis:only:prc, ok:fields-at]

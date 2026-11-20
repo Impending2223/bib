@@ -834,6 +834,7 @@ ops:
       when: Sept. 8
       date: '1962-09-08'
       thread: china-leadership
+      place: peking
       also:
       - china
       c: 'The Peking Water Conservancy Bureau, taking stock of the Great Leap Forward''s effect on the irrigation system, singles out Tongzhou: the irrigation works hastily built in 1957–58 upset the natural water system, so that the rains of 1959 had nowhere to go.'
@@ -1010,3 +1011,20 @@ ops:
 - check:
     id: cal.1964-02-10.soviet-union-leadership
     text: 'Check: whether Suslov''s remark ([[w.dikotter-maos-great-famine]], 106; the file of Feb. 14, 1964) is his report to the plenum.'
+- names:
+    id: cal.1961-07-10.china-leadership-5
+    tags:
+    - ok:fields-place
+- place:
+    id: cal.1962-05.china
+    at: hong-kong
+    basis: c
+- edit:
+    id: cal.1961-05-07.china-leadership-2
+    base: 374c3099
+    set:
+      time_range:
+      - 1961-05-07T04:00Z
+      - 1961-05-07T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
